@@ -442,12 +442,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Scheduling and bookings",
-      "Mail handling"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225431204",
@@ -497,11 +492,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Scheduling and bookings"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225450354",
@@ -526,12 +517,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Telephone handling",
-      "Scheduling and bookings"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225334055",
@@ -556,13 +542,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Systems administration",
-      "Quotations",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225465331",
@@ -587,13 +567,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Email handling",
-      "Records administration",
-      "Systems administration",
-      "Filing and document handling"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225434826",
@@ -618,11 +592,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Telephone handling",
-      "Customer enquiries"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225474593",
@@ -722,12 +692,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Scheduling and bookings",
-      "Mail handling"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225472925",
@@ -880,6 +845,31 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "23643_225413953",
+    "title": "Operations & Sales Coordinator",
+    "company": "Streamline Services Consultancy Limited - Agency - Permanent",
+    "location": "London",
+    "region": "London",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "32000",
+    "salary_max": "40000",
+    "salary_text": "£32000 - £40000 per year",
+    "posted_date": "",
+    "description": "Streamline Recruitment have a fantastic opportunity for an Operations & Sales Coordinator to join our client's well-established business based in East London.\n\nOur client is one of the world's leading manufacturers and suppliers of wood veneer, veneer edging and veneered boards. For over 60 years, they have built an outstanding reputation across the industry.\n\nDue to continued success, they are looking for an Operations & Sales Coordinator to join their close-knit team. This is a varied role where no two days are the same, offering the opportunity to work closely with customers, suppliers and logistics partners while playing an important role in ensuring orders are managed smoothly from enquiry through to delivery.\n\nThe Role\n\nAs the first point of contact for many customers, you will be responsible for managing customer orders, coordinating deliveries and supporting the wider sales and operations function. You will ensure all enquiries, quotations and orders are handled accurately, efficiently and with a strong focus on customer service.\n\nKey Responsibilities\n- Processing customer orders and managing them through to successful completion.\n- Checking stock availability and liaising with internal teams.\n- Reviewing customer enquiries and quotations, following up where appropriate.\n- Coordinating deliveries with third-party logistics providers.\n- Monitoring customer deliveries and resolving any issues quickly and professionally.\n- Building and maintaining strong relationships with existing customers.\n- Identifying opportunities to upsell products and support additional sales.\n- Providing excellent customer service via telephone and email.\n- Supporting the wider sales and operations team with day-to-day administration.\n\nAbout You\n\nWe're looking for someone who is:\n- A confident communicator with strong customer service and relationship-building skills.\n- Organised, proactive and able to manage multiple priorities.\n- Experienced in customer service, sales support, order processing or a similar office-based role.\n- Comfortable liaising with customers, suppliers and internal teams.\n- Confident using Microsoft Office and CRM/ERP systems.\n- Reliable, positive and willing to be part of a friendly, supportive team.\n\nWhat's on Offer?\n- Monday to Friday working hours 7:30am to 4:30pm\n- £32-40k DOE\n- 20 days holiday plus Bank Holidays (5 days reserved for the Christmas shutdown)\n- The opportunity to join a successful family-run business with over 60 years of industry experience.\n- Flexible and approachable management who value their employees.\n- Long-term career stability and development opportunities.\n- A varied role where you can genuinely make a difference every day.\n\nIf you're looking for a company where people genuinely enjoy coming to work, where teamwork is valued and your contribution is recognised, this could be the perfect opportunity.\n\nYou'll be joining a hardworking yet easy-going team who support one another and take pride in delivering exceptional service to their customers.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?io0x8AEcaIMHT7fbh7XLj34rBmi%2fMiLxo",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Streamline Services Consultancy Limited",
+    "advertiser_type": "Agency",
+    "work_pattern": "Full Time",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
     "job_id": "23643_225424406",
     "title": "Receptionist",
     "company": "Tate - Agency - Temporary",
@@ -952,11 +942,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Data entry",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225430273",
@@ -1031,11 +1017,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Telephone handling",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225442106",
@@ -1060,12 +1042,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Systems administration",
-      "Filing and document handling"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225444722",
@@ -1115,12 +1092,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Records administration",
-      "Data entry"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225452426",
@@ -1170,12 +1142,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Records administration",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225454170",
@@ -1300,11 +1267,7 @@
     "advertiser_type": "Company",
     "work_pattern": "Part Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Telephone handling"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225466886",
@@ -1354,11 +1317,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Email handling",
-      "Records administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225474668",
@@ -1408,11 +1367,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Records administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225480304",
@@ -1512,12 +1467,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Systems administration",
-      "Filing and document handling"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225497881",
@@ -1564,31 +1514,6 @@
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
     "advertiser_name": "Forward Trust",
-    "advertiser_type": "Agency",
-    "work_pattern": "Full Time",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
-    "job_id": "578647630",
-    "title": "Assistant Company Secretary",
-    "company": "Starling Bank - Agency - Permanent",
-    "location": "London",
-    "region": "London",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "",
-    "posted_date": "",
-    "description": "Description\nHello, we're Starling. We built a new kind of bank because we knew technology had the power to help people save, spend and manage their money in a new and transformative way. We're a fully licensed UK bank with the culture and spirit of a fast-moving, disruptive tech company. We're a bank, but better: fairer, easier to use and designed to demystify money for everyone. We employ nearly 4,000 people across our London, Southampton, Cardiff and Manchester offices.\nReporting to our Senior Company Secretary, this role offers an opportunity to play a key part in developing the governance infrastructure of a scaling international fintech, ensuring effective subsidiary board support and contributing to the integrity of our corporate records and Group governance processes.\nWe are looking for a motivated and ambitious Assistant Company Secretary who brings a proactive approach to corporate governance and thrives in an agile, collaborative environment where continuous improvement is valued.\nResponsibilities:\nSubsidiary Governance:\n- End-to-end Board support for a growing and fast-paced subsidiary business and its UK/international subsidiaries and branches. Maintaining timely information flows, upholding high standards of board paper quality and offering trusted governance advice.\n- Drafting subsidiary board and shareholder resolutions for routine and ad hoc matters. Coordinating internal approvals for UK and international subsidiaries/branches (e.g. name changes, director changes, year-end approvals, registered office updates).\n- Acting as the Group Company Secretariat workstream lead for international expansion projects, managing new branch and subsidiary registrations.\n- Managing Companies House and local registrar filings and ensuring statutory registers are accurate and up to date.\n- Maintaining precise internal entity records and handling the distribution of Board materials utilising entity management software and the board portal.\n\nGroup Governance and Corporate Administration:\n- Supporting the Group in meeting its statutory, regulatory, and corporate governance obligations, contributing directly to major projects like the Annual Report and AGM planning.\n- Supporting governance and administration related to employee share schemes in collaboration with the outsourced share plan administrator.\n\nTeam Collaboration:\n- Sharing knowledge openly within the team and actively supporting the professional development of the Junior Company Secretarial Assistant.\n- Bringing a proactive, growth-oriented and risk-management focused mindset to the daily operations of the Group Company Secretariat team.\n\nRequirements\nEssential Criteria:\n- Minimum of 3 years of experience working within a busy Company Secretariat team, with direct experience supporting operating subsidiary Boards.\n- Professionally qualified (CGI Grad / ACG).\n- Experience with entity management software and board portals (e.g., GEMS, BoardVantage, or equivalent).\n- Excellent interpersonal and communication skills, with the ability to engage with senior executives.\n- Experienced in handling sensitive and confidential information.\n- Highly organised, detail-oriented, and capable of managing workload to deliver against priorities in a fast-paced environment.\n- A flexible, 'can-do' attitude with a strong sense of ownership and accountability. Comfortable working both independently and collaboratively within a team.\n\nDesirable Criteria:\n- Company Secretariat experience within a financial services environment.\n- Prior experience supporting the governance and administration of employee share schemes.\n\nBenefits\n- 25 days holiday (plus take your public holiday allowance whenever works best for you)\n- An extra day's holiday for your birthday\n- Annual leave is increased with length of service, and you can choose to buy or sell up to five extra days off\n- 16 hours paid volunteering time a year\n- Salary sacrifice, company enhanced pension scheme\n- Life insurance at 4x your salary\n- Private Medical Insurance with VitalityHealth including mental health support and cancer care. Partner benefits include discounts with Waitrose, Mr&Mrs Smith and Peloton\n- Generous family-friendly policies\n- Perkbox membership giving access to retail discounts, a wellness platform for physical and mental health, and weekly free and boosted perks\n- Access to initiatives like Cycle to Work and Salary Sacrificed Gym partnerships\n\nAbout Us\nYou may be put off applying for a role because you don't tick every box. Forget that! While we can't accommodate every flexible working request, we're always open to discussion. So, if you're excited about working with us, but aren't sure if you're 100% there yet, get in touch anyway.\nWe're on a mission to radically reshape banking - and that starts with our brilliant team. Whatever came before, we're proud to bring together people of all backgrounds and experiences who love working together to solve problems.\nStarling Bank is an equal opportunity employer, and we're proud of our ongoing efforts to foster diversity & inclusion in the workplace. Individuals seeking employment at Starling Bank are considered without regard to race, religion, national origin, age, sex, gender, gender identity, gender expression, sexual orientation, marital status, medical condition, ancestry, physical or mental disability, military or veteran status, or any other characteristic protected by applicable law.\nBy submitting your application, you agree that Starling Bank may collect your personal data for recruiting and related purposes. Our Privacy Notice explains what personal information we may process, where we may process your personal information, its purposes for processing your personal information, and the rights you can exercise over our use of your personal information.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?iZmgAWfngDxS934hAFwGd8voY7QZK3gof",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Starling Bank",
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
@@ -1842,11 +1767,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1772177",
@@ -1996,11 +1917,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Records administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1769351",
@@ -2025,11 +1942,32 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Systems administration",
-      "Reporting"
-    ]
+    "posted_date_basis": ""
+  },
+  {
+    "job_id": "1769736",
+    "title": "Temp Customer Service Coordinator",
+    "company": "Office Angels - Agency - Permanent",
+    "location": "London",
+    "region": "London",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "",
+    "posted_date": "",
+    "description": "Temporary Customer Service Coordinator\nStart Date: September\nEnd Date: December\n\nWorking hours: Full-time office based working 40 hours per week\n\nPay rate: £14.42ph\n\nLocation: Close to Tower Bridge\n\nOur client, a leading organisation in the Food and Beverage industry, is seeking a dedicated and enthusiastic Customer Service Coordinator to join their dynamic team. This temporary position offers a chance to contribute to a vibrant workplace.\n\nKey Responsibilities:\n- Processing orders received from various customer segments, including Private Customers, On-Trade, Trade, Catering & Hospitality, and the Sales Team\n- Responding to customer service queries with professionalism and care\n- Ensuring orders are processed to meet daily cut-off times\n- Monitoring and managing orders placed on the organisation's website\n- Updating invoices and credit notes accurately and promptly\n\nSpecific Duties:\n- Efficiently processing customer orders directly or through the Sales Team\n- Handling customer call-off requests for stock held in storage\n- Taking ownership of customer complaints and documenting resolutions\n- Releasing website orders and updating customer price lists\n- Arranging collections for returns and processing invoices\n- Supporting the Sales Team with various administrative tasks\n\nEssential Requirements:\n- Excellent communication skills\n- Proficiency in data inputting, with a keen attention to detail\n- Proficiency in Microsoft Word, Excel, and Outlook\n- Experience with AX\n\nOffice Angels is an employment agency and business. We are an equal-opportunities employer who puts expertise, energy and enthusiasm into improving everyone's chance of being part of the workplace. We respect and appreciate people of all ethnicities, generations, religious beliefs, sexual orientations, gender identities, abilities and more. By showcasing talents, skills and unique experiences in an inclusive environment, we help individuals thrive. If you require reasonable adjustments at any stage, please let us know and we will be happy to support you.\n\nOffice Angels acts as an employment agency for permanent recruitment and an employment business for the supply of temporary workers. Office Angels UK is an Equal Opportunities Employer.\n\nBy applying for this role your details will be submitted to Office Angels. Our Candidate Privacy Information Statement explaining how we will use your information is available on our website.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?nbYVUHO1tX6dW3L67EdN1NSQLbY7L1qdz",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Office Angels",
+    "advertiser_type": "Agency",
+    "work_pattern": "Full Time",
+    "salary_period": "Hourly",
+    "posted_date_basis": ""
   },
   {
     "job_id": "1769706",
@@ -2078,31 +2016,6 @@
     "advertiser_name": "Apex Focus Group",
     "advertiser_type": "Agency",
     "work_pattern": "Part Time",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
-    "job_id": "1733592",
-    "title": "Secretary/Administrator",
-    "company": "ABL Recruitment - Agency - Permanent",
-    "location": "London",
-    "region": "London",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "34000",
-    "salary_max": "34000",
-    "salary_text": "£34000 per year",
-    "posted_date": "",
-    "description": "In this most unusual admin role you will be working at the heart\nof a fascinating membership organisation and use your outstanding\nadmin skills to organise and deliver major ceremonial events,\nworking with senior stakeholders across the UK and overseas,\nlearning the rules and governance behind the organisation and\nbecoming a trusted point of contact. There is genuine variety in\nthis role and would best suit someone with a solid secretarial\nbackground gained in the non-profit sector or within another\nmembership organisation .\n\nTitle: Administration & Secretariat Executive\n\nSalary : to £34,000\n\nLocation Central London\n\nWork style Hybrid ( 4 in office 1 wfh)\n\nSector Not -for -profit /philanthropy /Charity\n\nThe role\n\nThis is a rather unusual administrative role and not at all a\nclassic PA role. At its heart, this is a governance, stakeholder,\nceremonial-events management position in this not-for-profit\nmembership organisation. You will sit in the division that\noversees a very substantial membership comprising around 180,000\nmembers & 30 overseas subsidiaries\n\nThe role in a nutshell: You help make sure the formal machinery\nbehind one of the world's largest and oldest membership\norganisations works properly as follows: 1) organising\n/coordinating high-level meetings and large ceremonial events 2)\nsupporting Governance 3) relationship management 4) proofreading\n& document management\n\nDuties\n\n1) Organising & coordinating events\n\nOrganise major meetings, conferences and events\n\nhandling logistics, paperwork, booking processes and\nseating plans\n\nRevue the event schedule (attendance lists/seating\nplans/including issues around seniority etc)\n\nLiaise with regional and overseas teams\n\nassembling paperwork required for the event, checking\nnames, titles, attendance information, bookings and other\ndocumentation\n\nattendance at the event to ensure it runs smoothly\n\n2) Supporting governance & technical admin\n\nCompliance: Understanding and implementing the protocols\nand guiding principles of the organisation and ensuring correct\nguidance is given\n\nProcessing formal documents including warrants , charters\netc\n\nManagement of formal institutional records where names,\ntitles, dates, wording and authorisations need to be right.\n\nGetting appropriate approvals for any document changes\n\nChecking that all the formal governance requirements and\ndocumentation behind has been completed properly\n\nCapture information via a new online portal\n\n3) Relationship management\n\nSenior stakeholder relationship management within a\ncomplex membership/governance organisation.\n\nChase for missing information\n\nResolve any misunderstandings with tack and diplomacy\n\nAssist the internal team adapt to the new Portal\n\n4) Proofreading & document control\n\ndocument control, data accuracy and meticulous checking.\n\nVerifying names, spelling, dates, titles, terminology,\nformatting, inconsistencies, omissions and whether information\nmatches the underlying records.\n\nHelp produce the organisations Year Book for publication\n\nCross-check paperwork for an upcoming event\n\nProofread formal reports, board papers, legal\ndocumentation, membership records and senior-level correspondence\n\nREQUIREMENTS.\n\nEnglish to native standard\n\nOutstanding administrative skills\n\nProven experience in complex large scale meeting/event\ncoordination\n\nA background in a professional membership body, Institute\nor Royal College accreditation bodies, charities (ideally)\n\nProven experience in preparing detailed committee papers,\norganising board or council meetings, maintenance of governance\nrecords,",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?nbYVUHO1tX4FBxt1vfYIPLl5BuxZ1w5sz",
-    "source": "JobG8",
-    "working_arrangement": "hybrid",
-    "working_arrangement_text": "Hybrid working",
-    "working_arrangement_evidence": "Title: Administration & Secretariat Executive Salary : to £34,000 Location Central London Work style Hybrid ( 4 in office 1 wfh) Sector Not -for -profit /philanthropy /Charity The role This is a rather unusual administrative role and not at all a classic PA role.",
-    "advertiser_name": "ABL Recruitment",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
     "salary_period": "Annual",
     "posted_date_basis": ""
   },
@@ -2179,11 +2092,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Systems administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1733325",
@@ -2208,11 +2117,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Part Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Data entry"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1763337",
@@ -2237,12 +2142,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Systems administration",
-      "Filing and document handling"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1732907",
@@ -2320,31 +2220,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "1768537",
-    "title": "Customer Service Advisor (Housing Repairs)",
-    "company": "VOX Consultants - Agency - Permanent",
-    "location": "London",
-    "region": "London",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "",
-    "posted_date": "",
-    "description": "Customer Service Advisor (Housing Repairs) - PART TIME\nLocation: West London\nContract: 3 Months Ongoing\nHours: Part Time - Minimum 22.5 hours per week\nWorking Hours: Monday to Friday, between 8:00am and 6:15pm\nWorking Pattern: Hybrid after training\n\nWe are currently recruiting for a Customer Service Advisor (Housing Repairs) to join a local authority in West London on a 3-month ongoing contract.\nYou will be the first point of contact for residents contacting the council about housing services and repairs, providing a professional, helpful and customer-focused service across a range of channels.\n\nKey Responsibilities\n- Act as the single point of contact for customers contacting the council regarding housing services and repairs.\n- Respond to customer enquiries at the first point of contact.\n- Handle enquiries via telephone, email, web, social media and post.\n- Provide accurate and timely information to residents.\n- Ensure customers receive a positive and consistent experience.\n- Meet agreed performance targets and contribute to high customer satisfaction levels.\n- Provide a reliable, responsive and customer-focused service.\n- Ensure enquiries are dealt with efficiently and effectively.\n- Promote value for money and responsive housing services.\n- Act as a positive role model and maintain high standards of customer service.\n\nWorking Arrangements\n- Part-time position with a minimum of 22.5 hours per week.\n- Working hours will be agreed between 8:00am and 6:15pm, Monday to Friday.\n- Approximately 4 weeks of training will be office-based.\n- Following successful completion of training, the role will move to a hybrid working arrangement.\n- 3-month ongoing contract.\n\nRequirements\n- Previous customer service or contact centre experience in HOUSING REPAIRS\n- Experience dealing with customers by telephone and other communication channels.\n- Excellent communication and interpersonal skills.\n- Strong telephone manner and ability to handle customer enquiries professionally.\n- Ability to work in a fast-paced environment and meet performance targets.\n- Experience within housing, repairs or a local authority environment would be advantageous.\n- Strong IT and administration skills.\n\nApply Now - If you have strong customer service experience and are looking for a part-time opportunity within a local authority housing repairs environment, we would love to hear from you.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?Yic9job4bS%2bvi5YbMKBjmrADsGRxuoKpc",
-    "source": "JobG8",
-    "working_arrangement": "hybrid",
-    "working_arrangement_text": "Hybrid working",
-    "working_arrangement_evidence": "Customer Service Advisor (Housing Repairs) Customer Service Advisor (Housing Repairs) - PART TIME Location: West London Contract: 3 Months Ongoing Hours: Part Time - Minimum 22.5 hours per week Working Hours: Monday to Friday, between 8:00am and 6:15pm Working Pattern: Hybrid after training We are currently recruiting for a Customer Service Advisor (Housing Repairs) to join a local authority in West London on a 3-month ongoing contract.",
-    "advertiser_name": "VOX Consultants",
-    "advertiser_type": "Agency",
-    "work_pattern": "Part Time",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "1770045",
     "title": "Membership Administrator",
     "company": "Office Angels - Agency - Permanent",
@@ -2367,12 +2242,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Shared inboxes",
-      "Systems administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1779016",
@@ -2397,14 +2267,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Telephone handling",
-      "Scheduling and bookings",
-      "Systems administration",
-      "Data entry"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1767159",
@@ -2504,12 +2367,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Telephone handling",
-      "Scheduling and bookings",
-      "Reporting"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1775898",
@@ -2609,11 +2467,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Telephone handling",
-      "Scheduling and bookings"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1764150",
@@ -2638,11 +2492,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Records administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1743014",
@@ -2692,11 +2542,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Reporting",
-      "Quotations"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1742828",
@@ -2746,11 +2592,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Email handling",
-      "Systems administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1749868",
@@ -2775,11 +2617,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Email handling"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1749380",
@@ -2929,11 +2767,32 @@
     "advertiser_type": "Agency",
     "work_pattern": "Part Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Data entry"
-    ]
+    "posted_date_basis": ""
+  },
+  {
+    "job_id": "1798149",
+    "title": "Participation Administrator",
+    "company": "National Theatre - Agency - Permanent",
+    "location": "London",
+    "region": "London",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "",
+    "posted_date": "",
+    "description": "We are looking for a Participation Administrator to join the National Theatre Participation and the Learning Team.\n\nTo act as the central administrative point for the Participation team, working across Connections, New Views, and Young People's projects running at the National Theatre. The role will deliver all key administrative functions, supporting the smooth and efficient delivery of work. The role will work collaboratively with colleagues to support the existing programmes and new opportunities in line with Participation's strategy and ambitions.\n\nThe Administrator role is based in the NT's Learning department. The role is focused on Participation team but work with the wider Learning team is required for the operation of the programme and the wider development of youth led work at the NT\n\nThe successful candidate will have the following:\n- Solid administrative experience in a professional arts organisation\n- Experience of using database packages (experience gained in using the Airtable system would be especially welcome but not essential)\n- Excellent organisational skills including the ability to prioritise tasks within competing work demands and to meet deadlines\n- Excellent communication skills and ability to deal confidently and positively with a wide range of people of all ages and backgrounds in writing, face-to-face and over the phone.\n- Some knowledge of the Secondary education sector.\n\nIf that sounds like you, this may be the role for you!\n\nShortlisting Requirement: As part of your application, please include in your cover letter a response to the following question: Give an example of a time when you used a database to successfully solve a complex problem or improve a process.\n\nPlease noteThe closing date for the receipt of a completed application is Monday 7 September 2026 at 10am. To apply please see our website",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?b0ZSEQFKUCKzvioKx6kZmbfE731%2bAr21l",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "National Theatre",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225428753",
@@ -3108,11 +2967,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Filing and document handling"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225479282",
@@ -3212,11 +3067,7 @@
     "advertiser_type": "Company",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "328184",
@@ -3416,12 +3267,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Telephone handling",
-      "Scheduling and bookings",
-      "Payroll administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1766879",
@@ -3446,12 +3292,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Telephone handling",
-      "Scheduling and bookings",
-      "Payroll administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1768718",
@@ -3816,12 +3657,12 @@
     "salary_max": "35113",
     "salary_text": "£32149 - £35113 per year",
     "posted_date": "",
-    "description": "Drive high-level impact in a fast-paced executive office. Assistant Private Secretary role supporting a Group CEO across multiple sites. 32,149- 35,113 plus allowance, hybrid working, varied events, executive support, diary management, travel coordination, and career growth.\n\nAssistant Private Secretary\n\nLocation: Bromley, Orpington & Hybrid Working\nSalary: 32,149 - 35,113 plus out of hours allowance\nContract: Permanent, Full Time\n\nOur client, a respected education group, is seeking a highly organised and professional Assistant Private Secretary to join its Executive Office team.\n\nThis is an excellent opportunity for an experienced PA, EA, Office Manager or senior administrator looking to work at the heart of a dynamic organisation, providing direct support to a Group Chief Executive and senior leadership team.\n\nDue to the nature of this role, the ideal candidate will be willing to work flexibly outside normal office hours, including breakfast meetings, evening events, occasional weekend working, travel between sites and external engagements, and short-notice changes to working patterns where required.\n\nWhy Join Our Client?\n- Hybrid working across multiple sites\n- High-profile and varied role with significant responsibility\n- Opportunities to support major events and executive projects\n- Exposure to senior leaders and strategic decision-making\n- Excellent professional development opportunities\n- Company vehicle available for business use\n\nKey Responsibilities\n- Support the smooth operation of the Group CEO's Private Office\n- Manage complex diaries, meetings and executive schedules\n- Coordinate travel, logistics, visits and events\n- Prepare agendas, briefing papers and meeting materials\n- Draft professional correspondence and communications\n- Support executive projects and strategic initiatives\n- Build strong relationships with internal and external stakeholders\n- Monitor policy developments and provide concise updates\n- Assist with governance-related administration\n- Provide flexible support at events, meetings and external engagements\n- Deputise for senior administrative colleagues when required\n\nWhat We're Looking For\n- Experience in a PA, EA or senior administrative role\n- Outstanding organisational and prioritisation skills\n- Strong diary, event and project management experience\n- Excellent written and verbal communication skills\n- High levels of discretion, professionalism and confidentiality\n- Strong Microsoft Office 365 skills and confidence using technology and AI tools\n- Ability to thrive in a fast-paced environment\n- Customer-focused and proactive approach\n- Full UK driving licence\n- A degree or relevant business administration experience would be advantageous.\n- A current and valid ENHANCED DBS is required for this role.\n\nPlease note: Some of this role will require working at the home of the Group CEO and to travel with, accompany and, where required, drive the Group CEO to meetings, visits, events and external engagements.\n\nMorgan Jones is committed to creating a diverse and inclusive environment and is proud to be an equal-opportunity employer. All qualified applicants will receive consideration for employment without regard to race, colour, religion, gender, gender identity or expression, sexual orientation, national origin, genetics, disability, age, or veteran status.\n\nAbout Morgan Jones:\n\nMorgan Jones Limited acts as an employment agency. By applying, you accept the Terms & Conditions as well as the Privacy, Cookie, and Data Retention Policy, which can be found on our website.\n\nDue to the high volume of applicants, we ask that if you have not heard back from us within 72 hours, please assume that you have been unsuccessful on this occasion.\n\nTo view other great opportunities, visit our website or follow Morgan Jones on your favourite social networks, including Facebook, Instagram, Twitter, and LinkedIn.",
+    "description": "Drive high-level impact in a fast-paced executive office. Assistant Private Secretary role supporting a Group CEO across multiple sites. £32,149-£35,113 plus allowance, hybrid working, varied events, executive support, diary management, travel coordination, and career growth.\n\nAssistant Private Secretary\n\nLocation: Bromley, Orpington & Hybrid Working\nSalary: £32,149 - £35,113 plus out of hours allowance\nContract: Permanent, Full Time\n\nOur client, a respected education group, is seeking a highly organised and professional Assistant Private Secretary to join its Executive Office team.\n\nThis is an excellent opportunity for an experienced PA, EA, Office Manager or senior administrator looking to work at the heart of a dynamic organisation, providing direct support to a Group Chief Executive and senior leadership team.\n\nDue to the nature of this role, the ideal candidate will be willing to work flexibly outside normal office hours, including breakfast meetings, evening events, occasional weekend working, travel between sites and external engagements, and short-notice changes to working patterns where required.\n\nWhy Join Our Client?\n- Hybrid working across multiple sites\n- High-profile and varied role with significant responsibility\n- Opportunities to support major events and executive projects\n- Exposure to senior leaders and strategic decision-making\n- Excellent professional development opportunities\n- Company vehicle available for business use\n\nKey Responsibilities\n- Support the smooth operation of the Group CEO's Private Office\n- Manage complex diaries, meetings and executive schedules\n- Coordinate travel, logistics, visits and events\n- Prepare agendas, briefing papers and meeting materials\n- Draft professional correspondence and communications\n- Support executive projects and strategic initiatives\n- Build strong relationships with internal and external stakeholders\n- Monitor policy developments and provide concise updates\n- Assist with governance-related administration\n- Provide flexible support at events, meetings and external engagements\n- Deputise for senior administrative colleagues when required\n\nWhat We're Looking For\n- Experience in a PA, EA or senior administrative role\n- Outstanding organisational and prioritisation skills\n- Strong diary, event and project management experience\n- Excellent written and verbal communication skills\n- High levels of discretion, professionalism and confidentiality\n- Strong Microsoft Office 365 skills and confidence using technology and AI tools\n- Ability to thrive in a fast-paced environment\n- Customer-focused and proactive approach\n- Full UK driving licence\n- A degree or relevant business administration experience would be advantageous.\n- A current and valid ENHANCED DBS is required for this role.\n\nPlease note: Some of this role will require working at the home of the Group CEO and to travel with, accompany and, where required, drive the Group CEO to meetings, visits, events and external engagements.\n\nMorgan Jones is committed to creating a diverse and inclusive environment and is proud to be an equal-opportunity employer. All qualified applicants will receive consideration for employment without regard to race, colour, religion, gender, gender identity or expression, sexual orientation, national origin, genetics, disability, age, or veteran status.\n\nAbout Morgan Jones:\n\nMorgan Jones Limited acts as an employment agency. By applying, you accept the Terms & Conditions as well as the Privacy, Cookie, and Data Retention Policy, which can be found on our website.\n\nDue to the high volume of applicants, we ask that if you have not heard back from us within 72 hours, please assume that you have been unsuccessful on this occasion.\n\nTo view other great opportunities, visit our website or follow Morgan Jones on your favourite social networks, including Facebook, Instagram, Twitter, and LinkedIn.",
     "apply_url": "https://www.jobg8.com/Traffic.aspx?UzhMt9n%2bTsTTs8Ya0UzPK%2fYRGkHZw5htm",
     "source": "JobG8",
     "working_arrangement": "hybrid",
     "working_arrangement_text": "Hybrid working",
-    "working_arrangement_evidence": "32,149- 35,113 plus allowance, hybrid working, varied events, executive support, diary management, travel coordination, and career growth.",
+    "working_arrangement_evidence": "£32,149-£35,113 plus allowance, hybrid working, varied events, executive support, diary management, travel coordination, and career growth.",
     "advertiser_name": "Morgan Jones Recruitment Consultants",
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
@@ -3926,11 +3767,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225428094",
@@ -3955,11 +3792,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Systems administration",
-      "Quotations"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1738130",
@@ -3984,13 +3817,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Quotations",
-      "Order processing",
-      "Delivery coordination"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225428764",
@@ -4190,13 +4017,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Telephone handling",
-      "Customer enquiries",
-      "Records administration",
-      "Quotations"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1740191",
@@ -4221,11 +4042,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Quotations"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225517912",
@@ -4300,11 +4117,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Delivery coordination"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225527983",
@@ -4329,14 +4142,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Records administration",
-      "Data entry",
-      "Quotations",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225521047",
@@ -4386,12 +4192,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Reporting",
-      "Quotations"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1772289",
@@ -4466,11 +4267,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Systems administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1732596",
@@ -5280,28 +5077,6 @@
     "posted_date_basis": "source"
   },
   {
-    "job_id": "nhs-5552272",
-    "source": "NHS Jobs",
-    "title": "Digital Receptionist",
-    "company": "MILLWAY MEDICAL PRACTICE",
-    "advertiser_name": "MILLWAY MEDICAL PRACTICE",
-    "location": "London, NW7 2HX",
-    "region": "London",
-    "salary": "£12.71",
-    "employment_type": "Permanent",
-    "posted_date": "2026-08-20T14:32:08.759196149",
-    "closing_date": "2026-08-24",
-    "description": "Millway Medical Practice is a large, high-performing NHS GP practice serving ~25,000 patients in Mill Hill, North London. We are looking for a Digital Receptionist / eConsult Coordinator to join our expanding team. This is a key frontline role in a modern, digitally-driven GP practice , focused on managing online patient demand (eConsults) alongside supporting core reception and telephony functions. You will play a crucial role in ensuring patients are navigated safely, efficiently, and compassionately to the right care, at the right time. The hours of the role are: Monday 7.30-1pm Tuesday-Friday 1-6.30pm To act as a central point of coordination for online consultations (eConsult) and digital patient access , ensuring: Timely and accurate processing of eConsults Safe navigation of patients to appropriate services Support for reception and phone systems during peak demand High-quality patient experience in a fast-paced environment 1. eConsult & Digital Workflow Management (Primary Function) Monitor and process incoming eConsults throughout the day Triage and allocate requests in line with practice protocols Identify urgent or high-risk submissions and escalate appropriately Book patients into appropriate appointments (GP, ACP, PA pharmacist, etc.) Communicate outcomes to patients via SMS, AccuRx or phone Ensure all eConsults are actioned within agreed timeframes Support optimisation of digital workflows and demand management Answer incoming calls using cloud telephony systems (Surgery Connect) Navigate patients to the most appropriate service (appointments, self-care, pharmacy, etc.) Book, amend and cancel appointments using EMIS Web Support front desk when required, including greeting patients Manage patient queries efficiently and professionally Guide patients through the triage model Promote use of online services (eConsult, NHS App, website) Signpost to appropriate services (community pharmacy, urgent care, etc.) Support vulnerable patients who may struggle with digital access Process registrations and update patient records Handle basic prescription/admin queries Scan and process incoming documents (BetterLetter / Docman where required) Support digital communication campaigns (SMS, website updates) Maintain accurate records and data quality Work collaboratively with reception, admin and clinical teams Provide cover during staff absence or peak demand periods Support onboarding and training of new staff where appropriate",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2375-26-0017",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2375-26-0017",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
-  },
-  {
     "job_id": "nhs-5548933",
     "source": "NHS Jobs",
     "title": "Medical Receptionist",
@@ -5536,6 +5311,28 @@
     "description": "Join Our Team as a Ward Receptionist at King's Mill Hospital! Are you ready to be the welcoming face of Ward 21 (RSU) at King's Mill Hospital? We're on the lookout for an enthusiastic and highly motivated Receptionist to become an essential part of our dedicated team. As a Receptionist on Ward 21 you'll work closely with our Ward Leader, Nursing staff, and all visitors. You'll also be a key part of the multidisciplinary team, collaborating with various healthcare professionals to ensure our patients receive the best care possible. If you have the drive to provide an excellent patient experience and an enthusiasm for personal and service development within a clinical setting we are waiting to hear from you. Join our team at King's Mill Hospital and be part of a compassionate and dedicated healthcare community. Your contributions will make a real difference in the lives of our patients. To understand the role in more detail, please refer to the attached job description and person specification.",
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9214-26-0726",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9214-26-0726",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
+  },
+  {
+    "job_id": "nhs-5528634",
+    "source": "NHS Jobs",
+    "title": "GP Receptionist - Bow",
+    "company": "St Stephen's Health Centre",
+    "advertiser_name": "St Stephen's Health Centre",
+    "location": "London, E3 5ED",
+    "region": "London",
+    "salary": "£13.00 to £13.85",
+    "employment_type": "Permanent",
+    "posted_date": "2026-08-10T12:37:54.380635726",
+    "closing_date": "2026-08-31",
+    "description": "Are you an experienced GP Receptionist looking to join a friendly, supportive and patient-focused practice? St Stephen's Health Centre is seeking a motivated and professional Receptionist to become part of our busy front-line team. As one of the first points of contact for patients, you will play a vital role in creating a positive patient experience and ensuring the smooth day-to-day running of the practice. We are looking for someone with at least one year's experience working in a healthcare setting who enjoys helping others, communicates confidently and remains calm in a fast-paced environment. In retur You will be responsible for providing a professional reception service, acting as a key point of contact for patients, visitors and external organisations. Duties include managing appointments, answering telephone enquiries, processing registrations, handling correspondence, maintaining accurate patient records and supporting clinicians with administrative tasks. The successful candidate will work closely with the wider practice team to ensure patients receive an efficient, friendly and high-quality service whilst maintaining confidentiality and accuracy at all times Provide a professional and welcoming reception service to patients and visitors. Answer and manage telephone enquiries appropriately. Maintain and update patient records accurately. Process patient registrations and appointment bookings. Manage incoming correspondence, emails and documents. Scan and file documentation within agreed timescales. Process prescription requests and administrative tasks. Support recall and disease register programmes. Ensure patient confidentiality is maintained at all times. Work closely with clinicians and colleagues to support the smooth running of the practice.",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3190-26-0007",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3190-26-0007",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
     "advertiser_type": "",

@@ -455,13 +455,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Scheduling and bookings",
-      "Data entry",
-      "Document preparation"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225515250",
@@ -486,12 +480,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Email handling",
-      "Systems administration",
-      "Pre-employment administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225516031",
@@ -541,11 +530,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Document preparation"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225524513",
@@ -570,11 +555,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Reporting",
-      "Quotations"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1744198",
@@ -674,12 +655,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Email handling",
-      "Systems administration",
-      "Pre-employment administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1733703",
@@ -704,12 +680,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Records administration",
-      "Document preparation"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1768484",
@@ -734,11 +705,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Document preparation"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1742525",
@@ -763,12 +730,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Records administration",
-      "Systems administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1778694",
@@ -793,11 +755,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Reporting",
-      "Quotations"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1778681",
@@ -975,6 +933,31 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "107891625",
+    "title": "Finance Assistant",
+    "company": "H-Seventeen - Agency - Permanent",
+    "location": "Leeds",
+    "region": "Yorkshire - West",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "13.5",
+    "salary_max": "15",
+    "salary_text": "£13.5 - £15 per hour",
+    "posted_date": "",
+    "description": "Finance Assistant\n\nPart-Time Circa 20 Hours per Week\n\nFlexible Days and Start/Finish Times\n\nPrimarily Office-Based in Leeds\n\nInitial Six-Month Contract with the Intention to Continue\n\n£13.50 - £15.00 per hour dependent on experience\n\nWe are delighted to be recruiting for an established international organisation that is looking for an experienced Finance Assistant to support its UK operation click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?mDcEDJmYTbzl4I4W6vI1lGGlY5fKEBn1t",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "H-Seventeen",
+    "advertiser_type": "Agency",
+    "work_pattern": "Part Time",
+    "salary_period": "Hourly",
+    "posted_date_basis": ""
+  },
+  {
     "job_id": "23643_225458763",
     "title": "Administrator",
     "company": "Moulds Accountants & Advisory Services - Agency - Permanent",
@@ -997,12 +980,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Part Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Telephone handling",
-      "Email handling",
-      "Records administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225499042",
@@ -1053,166 +1031,6 @@
     "work_pattern": "Full Time",
     "salary_period": "Annual",
     "posted_date_basis": ""
-  },
-  {
-    "job_id": "23643_225420186",
-    "title": "Office / Purchasing Administrator",
-    "company": "Pertemps Bristol Commercial - Agency - Permanent",
-    "location": "Wakefield",
-    "region": "Yorkshire - West",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "27000",
-    "salary_max": "27500",
-    "salary_text": "£27000 - £27500 per year",
-    "posted_date": "",
-    "description": "Office / Purchasing Administrator\nCastleford Full-time\n27,500 per annum\nLooking for a role that keeps you busy, connected, and part of a supportive team?\nWe're after someone organised, reliable, and friendly to join our client's friendly team, someone who enjoys variety in their day and takes pride in\nkeeping things running smoothly.\nThis role blends purchasing with general office administration, so you'll be right at the heart of day-to-day operations, helping with orders, liaising with suppliers and customers, and keeping everything ticking along behind the scenes. It is essential that you are a team player, who can comfortably retain key information, and take on wider tasks with ease.\nEven better, this is a great opportunity to develop your purchasing career. The company actively supports professional growth, including CIPS qualifications and hands-on experience across the full purchasing process.\nWhat You'll Be Doing\n- Ordering stock and services, checking prices, and tracking deliveries.\n- Liaising with suppliers and customers, handling queries and keeping communication clear.\n- Answering calls, emails, and greeting visitors in a professional, approachable manner.\n- Supporting other departments such as order processing, scheduling, and repairs.\n- Keeping records accurate and following company processes and KPIs.\n- Getting involved wherever needed - in a very friendly team\n\nWhat We're Looking For\n- A positive, professional approach with strong attention to detail.\n- Someone reliable, efficient, and happy to juggle different tasks.\n- A friendly communicator who enjoys working as part of a team.\n- Eager to learn new things and get involved across departments.\n- Good time management and a proactive attitude.\n\nWorking Hours\nMonday - Thursday: 08:00 - 16:30\nFriday: 08:00 - 13:30\nEarly Friday finishes - start your weekend early!\nWhy You'll Love Working Here\nYou'll join a close-knit, supportive team where no two days are the same. Alongside a positive workplace, you'll enjoy a great range of benefits:\n- On-site parking\n- Pension: 4% employee contribution, 4% company contribution\n- 25 days' holiday plus bank holidays\n- Holiday buying scheme (up to 5 extra days)\n- Life assurance\n- Enhanced maternity and sick pay\n- Career development support including CIPS qualifications\n\nIf you like being part of a friendly, hard-working team, enjoy variety in your day, and want to develop your purchasing career, we'd love to hear from you.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?6WDmO0cNttp5qtSccdG2sISUDLkn%2fCURa",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Pertemps Bristol Commercial",
-    "advertiser_type": "Agency",
-    "work_pattern": "Full Time",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
-    "job_id": "23643_225465858",
-    "title": "Training Administrator",
-    "company": "Shorterm Group - Agency - Permanent",
-    "location": "Wakefield",
-    "region": "Yorkshire - West",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "28000",
-    "salary_max": "28000",
-    "salary_text": "£28000 per year",
-    "posted_date": "",
-    "description": "Training Administrator\nSalary 28,000\nLocation Wakefield\nFull time 37.5 hours per week\nHybrid 1 day per week\nBenefits - Additional leave, Company events, Cycle to work scheme, Life insurance, On-site parking, Paid volunteer time, Store discount\nJob description:\nThe Company\nMy client is an Electrical & Renewables Training Provider and an energy training specialist committed to supporting a sustainable future.\nTheir mission is to change the lives of learners by delivering high-quality training that builds skills, confidence and career opportunities in the energy sector.\nSupporting people is a number one priority for my client. Whatever the challenge, they believe that if you want to succeed, you can. They provide specialist training programmes across electrical and renewable technologies to help learners and employers thrive.\nThe Training administrator is a key role within the Business Support Team. You will be responsible for ensuring the smooth operation of training administration, helping the team deliver an outstanding learner and client experience while supporting continued business growth.\nThe Role\nRole activities include but are not limited to:\nManaging and fulfilling incoming training enquiries from learners, employers and key clients across electrical and renewables training programmes.\nScheduling training courses and coordinating trainers, resources and any outsourced delivery requirements.\nManaging bookings for internal and outsourced training programmes for learners and key clients.\nRaising purchase orders for suppliers, setting up new accounts and agreeing payment terms with providers.\nPreparing and sending course results, certificates of achievement and attendance documentation as required.\nRaising purchase orders for associate trainers delivering at our training centres or at customer sites.\nManaging administrative reporting requirements and maintaining accurate training records.\nSupporting health and safety and awarding-body administration, including course registrations, results processing, ordering supplies and post-course certification.\nCarrying out post-course administration, including logging results, updating records and closing courses on the system.\nProviding support to the wider business support team and training centres as required during periods of annual leave and absence, including learner enquiries, bookings and general coordination tasks.\nIf you would like the opportunity to join a growing and purpose-driven organisation, please send a copy of your CV via the link below.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?bZCSDJyF3N4FTGaV5xSgZqrHJJ%2fLaJooq",
-    "source": "JobG8",
-    "working_arrangement": "hybrid",
-    "working_arrangement_text": "Hybrid working",
-    "working_arrangement_evidence": "Training Administrator Training Administrator Salary 28,000 Location Wakefield Full time 37.5 hours per week Hybrid 1 day per week Benefits - Additional leave, Company events, Cycle to work scheme, Life insurance, On-site parking, Paid volunteer time, Store discount Job description: The Company My client is an Electrical & Renewables Training Provider and an energy training specialist committed to supporting a sustainable future.",
-    "advertiser_name": "Shorterm Group",
-    "advertiser_type": "Agency",
-    "work_pattern": "Full Time",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
-    "job_id": "23643_225514711",
-    "title": "Office Administrator",
-    "company": "TRC Yorkshire - Agency - Temporary",
-    "location": "Wakefield",
-    "region": "Yorkshire - West",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Temporary",
-    "salary_min": "12.71",
-    "salary_max": "12.71",
-    "salary_text": "£12.71 per hour",
-    "posted_date": "",
-    "description": "Office Administrator\n\nShift: Monday-Friday 8am-5pm\nType: Temp to Perm\n\nPay rate: 12.71\nLocation: Wakefield, WF1\n\nJob Summary\n\nWe are seeking an organised, reliable, and proactive Office Administrator to support the smooth day-to-day running of our office. The successful candidate will provide administrative support to the team, maintain accurate records, coordinate office activities, and ensure that employees, customers, and visitors receive a professional and efficient service.\n\nThe ideal candidate will have strong organisational and communication skills, excellent attention to detail, and the ability to manage multiple tasks and priorities effectively.\n\nKey Responsibilities\n- Provide general administrative and clerical support to management and staff.\n- Answer and direct telephone calls, emails, and general enquiries.\n- Welcome visitors and provide professional front-of-house support where required.\n- Manage diaries, appointments, meetings, and meeting room bookings.\n- Prepare letters, reports, spreadsheets, presentations, and other business documents.\n- Maintain accurate electronic and paper filing systems.\n- Process incoming and outgoing post, correspondence, and deliveries.\n- Order and maintain office supplies, stationery, and equipment.\n- Liaise with suppliers, contractors, customers, and other external contacts.\n- Assist with invoices, purchase orders, expenses, and basic financial administration.\n- Maintain employee, customer, supplier, and company records as appropriate.\n- Support onboarding and other basic HR administration when required.\n- Coordinate travel arrangements, meetings, and company events where necessary.\n- Monitor office facilities and report maintenance or equipment issues.\n- Ensure confidential and sensitive information is handled appropriately.\n- Support management and colleagues with ad-hoc administrative tasks and projects.\n- Help maintain an organised, professional, and efficient working environment.\n\nEssential:\n- Strong organisational and time-management skills.\n- Excellent written and verbal communication skills.\n- Good attention to detail and accuracy.\n- Confident using Microsoft Office, including Word, Excel, Outlook, and PowerPoint.\n- Ability to prioritise workload and manage multiple tasks.\n- Professional and courteous telephone and email manner.\n- Ability to work independently as well as part of a team.\n- Discretion when handling confidential information.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?aIHQjUdXakPYDqXau7wZMAltWHhM30ayr",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "TRC Yorkshire",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Scheduling and bookings"
-    ]
-  },
-  {
-    "job_id": "23643_225522242",
-    "title": "Order Management Administrator",
-    "company": "Winsearch - Agency - Temporary",
-    "location": "Wakefield",
-    "region": "Yorkshire - West",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Temporary",
-    "salary_min": "13.68",
-    "salary_max": "13.68",
-    "salary_text": "£13.68 per hour",
-    "posted_date": "",
-    "description": "Order Management Administrator\n\nLocation: Wakefield\n\nHours: 37 hours per week\n\nMonday - Thursday: 8:30am - 4:30pm\n\nFriday: 8:30am - 4:00pm\n\nPay rate: £13.68 per hour\n\nOrder Management Administrator Overview\n\nWe are currently recruiting for an Order Management Administrator to join a busy and supportive team based in Wakefield. This role is ideal for someone who is highly organised, detail-oriented and enjoys working in a structured environment.\n\nThe successful candidate will play an important role in supporting the order management process, ensuring customer orders are processed accurately and efficiently.\n\nOrder Management Administrator Key Responsibilities\n- Processing and managing customer orders in internal systems\n- Ensuring all order details are accurate and complete\n- Monitoring order progress and updating records where required\n- Liaising with internal teams to ensure smooth order fulfilment\n- Maintaining accurate data and documentation\n- Identifying and resolving any order discrepancies\n- Supporting the wider team with administrative tasks when required\n\nOrder Management Administrator Requirements\n- Strong attention to detail and accuracy\n- A methodical and organised approach to work\n- Good communication and teamwork skills\n- Basic computer skills and confidence using office systems\n- Previous experience in administration, order processing or customer service would be beneficial but not essential\n\nKey words\n\nCustomer Service Administrator, Sales Support Administrator, Commercial Administrator, Operations Administrator, Supply Chain Administrator, Logistics Administrator\n\nWinsearch acts as an employment agency for permanent staff. We recruit for roles based in Engineering & Manufacturing, Food & Drinks, Pharmaceutical, Supply Chain & Procurement and Professional Services. View our latest jobs today on our website (url removed) and follow us on LinkedIn.\n\nIndWin\n\nOur clients and their customers come from diverse backgrounds and so do we. We hire our people from various walks of life, each of whom make our company stronger with their talent, uniqueness, and expertise. This is what makes our company special; if you want to help us grow and take this ethos to our clients, then we cannot wait to collaborate with you!\n\nThe UK has now left the European Union. Any EU, EEA or Swiss citizens living in the UK that wish to remain in the UK post Brexit need to apply to the EU Settlement Scheme. Although the closing date for applications was 30th Jun 2021, if you have not yet applied but believe that you would qualify under the EU Settlement Scheme, the Home Office have confirmed that they will consider late applications. For further information please see (url removed)> Many Thanks",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?MQiKzVwZdh0MYV8%2bqX5ASvhVXG4L4Jxju",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Winsearch",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Hourly",
-    "posted_date_basis": ""
-  },
-  {
-    "job_id": "1733278",
-    "title": "Sales Administrator",
-    "company": "Huntress - Agency - Permanent",
-    "location": "Wakefield",
-    "region": "Yorkshire - West",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "",
-    "posted_date": "",
-    "description": "We have an excellent opportunity for an experienced Sales Administrator to join our Manufacturing client working in Wakefield in their busy Sales department. They are a fun and friendly team of 20 looking for a new addition.\n\nIf you have a strong customer service background and enjoy a varied role, we would be keen to speak with you.\n\nThis role will offer Hybrid working after probation (2 days WFH)\n\nSalary: £26,500\n\nWorking 37.5 hours a week\n\nReporting into your team leader you would be responsible for the below.\n\nYour role-\n- Assist customers with the full journey of their orders.\n- Provide good product knowledge.\n- Build strong rapport with internal/external teams and key stakeholders.\n- Follow company regulations correctly.\n- Respond to queries via phone and email in a timely manner.\n- Take messages when necessary.\n- Follow up on Customers' orders.\n- Ensuring the details on inhouse system is accurate.\n- Use systems such as CRM and SAP.\n\nAbout you-\n- Outstanding customer service ethic.\n- Professional manner.\n- Attention to detail.\n- Can work to strict deadlines.\n- Prioritise own workload.\n\nPlease click apply or email\n\nHuntress Search Ltd acts as a Recruitment Agency in relation to all Permanent roles and as a Recruitment Business in relation to all Temporary roles.\n\nWe practice a diverse and inclusive recruitment process that ensures equal opportunity for all we work with, irrespective of race, sexual orientation, mental or physical disability, age or gender. As an organisation, we encourage applications from all backgrounds and will ensure measures are met when required, to allow a fair process throughout.\n\nPLEASE NOTE: We can only consider applications from candidates who have the right to work in the UK.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?MQiKzVwZdh2IG3vNAatx0CxsJphm1Vbyu",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Huntress",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
-    "job_id": "1765964",
-    "title": "Sales Administrator",
-    "company": "pyramid8 - Agency - Permanent",
-    "location": "Wakefield",
-    "region": "Yorkshire - West",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "",
-    "posted_date": "",
-    "description": "Pyramid 8 are supporting a busy organisation looking for an organised, friendly and proactive Sales Administrator to join an established company within the building industry, based in WF2, Wakefield.\n\nThis is an excellent opportunity for someone with strong administration and communication skills. Experience using Sage is desirable but not essential - a willingness to learn is more important.\n\nKey Responsibilities\n- Provide administrative support to the sales team\n- Process sales orders, quotations and invoices\n- Maintain accurate customer and sales records\n- Respond to customer enquiries by phone and email\n- Liaise with customers, suppliers and internal departments\n- Prepare quotations and assist with customer follow-ups\n- Assist with order processing and delivery coordination\n- Keep records and databases up to date\n- Produce reports and complete general administrative duties\n- Support the wider team as required\n\nAbout You\n- Previous administration or sales administration experience is desirable\n- Sage experience would be an advantage, but is not essential\n- Willingness and ability to learn new systems and processes\n- Strong attention to detail and good organisational skills\n- Excellent communication and customer service skills\n- Confident using Microsoft Office\n- Able to work independently and as part of a team\n- Reliable, professional and positive approach",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?vAYWCB8ag%2fg9ozoRCMwVRF3G7u1DIVJli",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "pyramid8",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Reporting",
-      "Quotations",
-      "Order processing"
-    ]
   },
   {
     "job_id": "23643_225422964",
@@ -1287,12 +1105,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Reporting",
-      "Order processing",
-      "Delivery coordination"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225436825",
@@ -1317,14 +1130,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Telephone handling",
-      "Customer enquiries",
-      "Records administration",
-      "Quotations",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225476845",
@@ -1427,6 +1233,156 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "23643_225465858",
+    "title": "Training Administrator",
+    "company": "Shorterm Group - Agency - Permanent",
+    "location": "Wakefield",
+    "region": "Yorkshire - West",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "28000",
+    "salary_max": "28000",
+    "salary_text": "£28000 per year",
+    "posted_date": "",
+    "description": "Training Administrator\nSalary 28,000\nLocation Wakefield\nFull time 37.5 hours per week\nHybrid 1 day per week\nBenefits - Additional leave, Company events, Cycle to work scheme, Life insurance, On-site parking, Paid volunteer time, Store discount\nJob description:\nThe Company\nMy client is an Electrical & Renewables Training Provider and an energy training specialist committed to supporting a sustainable future.\nTheir mission is to change the lives of learners by delivering high-quality training that builds skills, confidence and career opportunities in the energy sector.\nSupporting people is a number one priority for my client. Whatever the challenge, they believe that if you want to succeed, you can. They provide specialist training programmes across electrical and renewable technologies to help learners and employers thrive.\nThe Training administrator is a key role within the Business Support Team. You will be responsible for ensuring the smooth operation of training administration, helping the team deliver an outstanding learner and client experience while supporting continued business growth.\nThe Role\nRole activities include but are not limited to:\nManaging and fulfilling incoming training enquiries from learners, employers and key clients across electrical and renewables training programmes.\nScheduling training courses and coordinating trainers, resources and any outsourced delivery requirements.\nManaging bookings for internal and outsourced training programmes for learners and key clients.\nRaising purchase orders for suppliers, setting up new accounts and agreeing payment terms with providers.\nPreparing and sending course results, certificates of achievement and attendance documentation as required.\nRaising purchase orders for associate trainers delivering at our training centres or at customer sites.\nManaging administrative reporting requirements and maintaining accurate training records.\nSupporting health and safety and awarding-body administration, including course registrations, results processing, ordering supplies and post-course certification.\nCarrying out post-course administration, including logging results, updating records and closing courses on the system.\nProviding support to the wider business support team and training centres as required during periods of annual leave and absence, including learner enquiries, bookings and general coordination tasks.\nIf you would like the opportunity to join a growing and purpose-driven organisation, please send a copy of your CV via the link below.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?bZCSDJyF3N4FTGaV5xSgZqrHJJ%2fLaJooq",
+    "source": "JobG8",
+    "working_arrangement": "hybrid",
+    "working_arrangement_text": "Hybrid working",
+    "working_arrangement_evidence": "Training Administrator Training Administrator Salary 28,000 Location Wakefield Full time 37.5 hours per week Hybrid 1 day per week Benefits - Additional leave, Company events, Cycle to work scheme, Life insurance, On-site parking, Paid volunteer time, Store discount Job description: The Company My client is an Electrical & Renewables Training Provider and an energy training specialist committed to supporting a sustainable future.",
+    "advertiser_name": "Shorterm Group",
+    "advertiser_type": "Agency",
+    "work_pattern": "Full Time",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
+    "job_id": "23643_225514711",
+    "title": "Office Administrator",
+    "company": "TRC Yorkshire - Agency - Temporary",
+    "location": "Wakefield",
+    "region": "Yorkshire - West",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Temporary",
+    "salary_min": "12.71",
+    "salary_max": "12.71",
+    "salary_text": "£12.71 per hour",
+    "posted_date": "",
+    "description": "Office Administrator\n\nShift: Monday-Friday 8am-5pm\nType: Temp to Perm\n\nPay rate: 12.71\nLocation: Wakefield, WF1\n\nJob Summary\n\nWe are seeking an organised, reliable, and proactive Office Administrator to support the smooth day-to-day running of our office. The successful candidate will provide administrative support to the team, maintain accurate records, coordinate office activities, and ensure that employees, customers, and visitors receive a professional and efficient service.\n\nThe ideal candidate will have strong organisational and communication skills, excellent attention to detail, and the ability to manage multiple tasks and priorities effectively.\n\nKey Responsibilities\n- Provide general administrative and clerical support to management and staff.\n- Answer and direct telephone calls, emails, and general enquiries.\n- Welcome visitors and provide professional front-of-house support where required.\n- Manage diaries, appointments, meetings, and meeting room bookings.\n- Prepare letters, reports, spreadsheets, presentations, and other business documents.\n- Maintain accurate electronic and paper filing systems.\n- Process incoming and outgoing post, correspondence, and deliveries.\n- Order and maintain office supplies, stationery, and equipment.\n- Liaise with suppliers, contractors, customers, and other external contacts.\n- Assist with invoices, purchase orders, expenses, and basic financial administration.\n- Maintain employee, customer, supplier, and company records as appropriate.\n- Support onboarding and other basic HR administration when required.\n- Coordinate travel arrangements, meetings, and company events where necessary.\n- Monitor office facilities and report maintenance or equipment issues.\n- Ensure confidential and sensitive information is handled appropriately.\n- Support management and colleagues with ad-hoc administrative tasks and projects.\n- Help maintain an organised, professional, and efficient working environment.\n\nEssential:\n- Strong organisational and time-management skills.\n- Excellent written and verbal communication skills.\n- Good attention to detail and accuracy.\n- Confident using Microsoft Office, including Word, Excel, Outlook, and PowerPoint.\n- Ability to prioritise workload and manage multiple tasks.\n- Professional and courteous telephone and email manner.\n- Ability to work independently as well as part of a team.\n- Discretion when handling confidential information.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?aIHQjUdXakPYDqXau7wZMAltWHhM30ayr",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "TRC Yorkshire",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Hourly",
+    "posted_date_basis": ""
+  },
+  {
+    "job_id": "23643_225522242",
+    "title": "Order Management Administrator",
+    "company": "Winsearch - Agency - Temporary",
+    "location": "Wakefield",
+    "region": "Yorkshire - West",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Temporary",
+    "salary_min": "13.68",
+    "salary_max": "13.68",
+    "salary_text": "£13.68 per hour",
+    "posted_date": "",
+    "description": "Order Management Administrator\n\nLocation: Wakefield\n\nHours: 37 hours per week\n\nMonday - Thursday: 8:30am - 4:30pm\n\nFriday: 8:30am - 4:00pm\n\nPay rate: £13.68 per hour\n\nOrder Management Administrator Overview\n\nWe are currently recruiting for an Order Management Administrator to join a busy and supportive team based in Wakefield. This role is ideal for someone who is highly organised, detail-oriented and enjoys working in a structured environment.\n\nThe successful candidate will play an important role in supporting the order management process, ensuring customer orders are processed accurately and efficiently.\n\nOrder Management Administrator Key Responsibilities\n- Processing and managing customer orders in internal systems\n- Ensuring all order details are accurate and complete\n- Monitoring order progress and updating records where required\n- Liaising with internal teams to ensure smooth order fulfilment\n- Maintaining accurate data and documentation\n- Identifying and resolving any order discrepancies\n- Supporting the wider team with administrative tasks when required\n\nOrder Management Administrator Requirements\n- Strong attention to detail and accuracy\n- A methodical and organised approach to work\n- Good communication and teamwork skills\n- Basic computer skills and confidence using office systems\n- Previous experience in administration, order processing or customer service would be beneficial but not essential\n\nKey words\n\nCustomer Service Administrator, Sales Support Administrator, Commercial Administrator, Operations Administrator, Supply Chain Administrator, Logistics Administrator\n\nWinsearch acts as an employment agency for permanent staff. We recruit for roles based in Engineering & Manufacturing, Food & Drinks, Pharmaceutical, Supply Chain & Procurement and Professional Services. View our latest jobs today on our website (url removed) and follow us on LinkedIn.\n\nIndWin\n\nOur clients and their customers come from diverse backgrounds and so do we. We hire our people from various walks of life, each of whom make our company stronger with their talent, uniqueness, and expertise. This is what makes our company special; if you want to help us grow and take this ethos to our clients, then we cannot wait to collaborate with you!\n\nThe UK has now left the European Union. Any EU, EEA or Swiss citizens living in the UK that wish to remain in the UK post Brexit need to apply to the EU Settlement Scheme. Although the closing date for applications was 30th Jun 2021, if you have not yet applied but believe that you would qualify under the EU Settlement Scheme, the Home Office have confirmed that they will consider late applications. For further information please see (url removed)> Many Thanks",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?MQiKzVwZdh0MYV8%2bqX5ASvhVXG4L4Jxju",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Winsearch",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Hourly",
+    "posted_date_basis": ""
+  },
+  {
+    "job_id": "1733278",
+    "title": "Sales Administrator",
+    "company": "Huntress - Agency - Permanent",
+    "location": "Wakefield",
+    "region": "Yorkshire - West",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "",
+    "posted_date": "",
+    "description": "We have an excellent opportunity for an experienced Sales Administrator to join our Manufacturing client working in Wakefield in their busy Sales department. They are a fun and friendly team of 20 looking for a new addition.\n\nIf you have a strong customer service background and enjoy a varied role, we would be keen to speak with you.\n\nThis role will offer Hybrid working after probation (2 days WFH)\n\nSalary: £26,500\n\nWorking 37.5 hours a week\n\nReporting into your team leader you would be responsible for the below.\n\nYour role-\n- Assist customers with the full journey of their orders.\n- Provide good product knowledge.\n- Build strong rapport with internal/external teams and key stakeholders.\n- Follow company regulations correctly.\n- Respond to queries via phone and email in a timely manner.\n- Take messages when necessary.\n- Follow up on Customers' orders.\n- Ensuring the details on inhouse system is accurate.\n- Use systems such as CRM and SAP.\n\nAbout you-\n- Outstanding customer service ethic.\n- Professional manner.\n- Attention to detail.\n- Can work to strict deadlines.\n- Prioritise own workload.\n\nPlease click apply or email\n\nHuntress Search Ltd acts as a Recruitment Agency in relation to all Permanent roles and as a Recruitment Business in relation to all Temporary roles.\n\nWe practice a diverse and inclusive recruitment process that ensures equal opportunity for all we work with, irrespective of race, sexual orientation, mental or physical disability, age or gender. As an organisation, we encourage applications from all backgrounds and will ensure measures are met when required, to allow a fair process throughout.\n\nPLEASE NOTE: We can only consider applications from candidates who have the right to work in the UK.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?MQiKzVwZdh2IG3vNAatx0CxsJphm1Vbyu",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Huntress",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
+    "job_id": "1765964",
+    "title": "Sales Administrator",
+    "company": "pyramid8 - Agency - Permanent",
+    "location": "Wakefield",
+    "region": "Yorkshire - West",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "",
+    "posted_date": "",
+    "description": "Pyramid 8 are supporting a busy organisation looking for an organised, friendly and proactive Sales Administrator to join an established company within the building industry, based in WF2, Wakefield.\n\nThis is an excellent opportunity for someone with strong administration and communication skills. Experience using Sage is desirable but not essential - a willingness to learn is more important.\n\nKey Responsibilities\n- Provide administrative support to the sales team\n- Process sales orders, quotations and invoices\n- Maintain accurate customer and sales records\n- Respond to customer enquiries by phone and email\n- Liaise with customers, suppliers and internal departments\n- Prepare quotations and assist with customer follow-ups\n- Assist with order processing and delivery coordination\n- Keep records and databases up to date\n- Produce reports and complete general administrative duties\n- Support the wider team as required\n\nAbout You\n- Previous administration or sales administration experience is desirable\n- Sage experience would be an advantage, but is not essential\n- Willingness and ability to learn new systems and processes\n- Strong attention to detail and good organisational skills\n- Excellent communication and customer service skills\n- Confident using Microsoft Office\n- Able to work independently and as part of a team\n- Reliable, professional and positive approach",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?vAYWCB8ag%2fg9ozoRCMwVRF3G7u1DIVJli",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "pyramid8",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
+    "job_id": "23643_225420186",
+    "title": "Office / Purchasing Administrator",
+    "company": "Pertemps Bristol Commercial - Agency - Permanent",
+    "location": "Wakefield",
+    "region": "Yorkshire - West",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "27000",
+    "salary_max": "27500",
+    "salary_text": "£27000 - £27500 per year",
+    "posted_date": "",
+    "description": "Office / Purchasing Administrator\nCastleford Full-time\n27,500 per annum\nLooking for a role that keeps you busy, connected, and part of a supportive team?\nWe're after someone organised, reliable, and friendly to join our client's friendly team, someone who enjoys variety in their day and takes pride in\nkeeping things running smoothly.\nThis role blends purchasing with general office administration, so you'll be right at the heart of day-to-day operations, helping with orders, liaising with suppliers and customers, and keeping everything ticking along behind the scenes. It is essential that you are a team player, who can comfortably retain key information, and take on wider tasks with ease.\nEven better, this is a great opportunity to develop your purchasing career. The company actively supports professional growth, including CIPS qualifications and hands-on experience across the full purchasing process.\nWhat You'll Be Doing\n- Ordering stock and services, checking prices, and tracking deliveries.\n- Liaising with suppliers and customers, handling queries and keeping communication clear.\n- Answering calls, emails, and greeting visitors in a professional, approachable manner.\n- Supporting other departments such as order processing, scheduling, and repairs.\n- Keeping records accurate and following company processes and KPIs.\n- Getting involved wherever needed - in a very friendly team\n\nWhat We're Looking For\n- A positive, professional approach with strong attention to detail.\n- Someone reliable, efficient, and happy to juggle different tasks.\n- A friendly communicator who enjoys working as part of a team.\n- Eager to learn new things and get involved across departments.\n- Good time management and a proactive attitude.\n\nWorking Hours\nMonday - Thursday: 08:00 - 16:30\nFriday: 08:00 - 13:30\nEarly Friday finishes - start your weekend early!\nWhy You'll Love Working Here\nYou'll join a close-knit, supportive team where no two days are the same. Alongside a positive workplace, you'll enjoy a great range of benefits:\n- On-site parking\n- Pension: 4% employee contribution, 4% company contribution\n- 25 days' holiday plus bank holidays\n- Holiday buying scheme (up to 5 extra days)\n- Life assurance\n- Enhanced maternity and sick pay\n- Career development support including CIPS qualifications\n\nIf you like being part of a friendly, hard-working team, enjoy variety in your day, and want to develop your purchasing career, we'd love to hear from you.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?mDcEDJmYTbyNKAfVBJXTcn5UjdslKl2Qt",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Pertemps Bristol Commercial",
+    "advertiser_type": "Agency",
+    "work_pattern": "Full Time",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
     "job_id": "1749185",
     "title": "Temporary Part-Time Sales Administrator",
     "company": "Office Angels - Agency - Permanent",
@@ -1449,11 +1405,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Part Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Email handling"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1749332",
@@ -1773,28 +1725,6 @@
     "posted_date_basis": "source"
   },
   {
-    "job_id": "nhs-5535823",
-    "source": "NHS Jobs",
-    "title": "GP Surgery Receptionist",
-    "company": "NORTHGATE SURGERY",
-    "advertiser_name": "NORTHGATE SURGERY",
-    "location": "Pontefract, WF8 1NF",
-    "region": "Yorkshire - West",
-    "salary": "£12.71 to £12.86",
-    "employment_type": "Permanent",
-    "posted_date": "2026-08-12T16:03:32.614894751",
-    "closing_date": "2026-08-24",
-    "description": "RECEPTIONIST - NORTHGATE SURGERY, PONTEFRACT WORK PATTERN: Monday - 12.30pm to 6.30pm (6 hours) Tuesday - 11am to 5.30pm with a 30 min unpaid lunch break(6 hours) Wednesday - day off Thursday - 8am to 5.30pm with a 30 min unpaid lunch break(9 hours) Friday - 8am to 5.30pm with a 30 min unpaid lunch break (9 hours) We are looking for a experienced Receptionist to join our team. This is a busy Practice and you will be very involved in patient care, from organising appointments, using care navigation techniques (full training given), working closely with our clinical triage team, assisting on front of house, dealing with queries, organising paperwork for the clinical team, ringing patients to book in to specialist clinics, handling the movement of patient records, scanning and summarising (training given). The role is for 30 hours a week. However, flexibility is essential as you will also be expected to cover for holidays and sickness. Pay rate is competitive and you will receive 6 weeks holiday plus bank holiday. Previous experience as a Receptionist in General Practice or another busy reception environment is essential. Making appointments for patients Care Navigate to other services if appropriate Deal with online services such as Patchs, Emails and GP Billing Handling queries and requests regarding prescriptions Register new patients and temporary residents Ensure outstanding queries are explained and handed over to next shift, as necessary Collect payments from patients for non-NHS services Duties and Responsibilities Telephone Duties 1. Making appointments 2. Taking requests for prescriptions 3. Giving out results 4. Ambulance transport bookings 5. Home visit requests 6. Deal with general enquiries and complaints 7. Contacting other providers Reception Duties 8. Register new patients and temporary residents 9. Greet and direct patients and visitors 10. Making appointments 11. Handing out prescriptions 12. Ensure outstanding queries are explained and handed over to next shift, as necessary 13. Respond to needs of doctors and nurses during surgery 14. Collect payments from patients for non-NHS services 15. Deal with general enquiries and complaints Filing and Administration 16. Pulling Lloyd George envelopes when requested by doctors 17. Summarising of patient notes 18. Read coding and scanning of daily post 19. Assisting with insurance paperwork 20. Assisting with QOF work and any other initiative run by the Practice General 21. Input and extract information from Practice computer system 22. Observe health and safety guidelines at all times 23. General housekeeping (e.g. keeping reception and waiting areas tidy) 24. Any other reasonable duties as necessary",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0946-26-0005",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0946-26-0005",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
-  },
-  {
     "job_id": "nhs-5532564",
     "source": "NHS Jobs",
     "title": "Business Support Coordinator",
@@ -1831,6 +1761,28 @@
     "description": "Are you someone who thrives on organisation, enjoys supporting others, and wants to make a real impact in healthcare? Are you looking for flexible or full time working? Join Conexus Healthcare as a Business Support Officer and become a vital part of our Support Services team. This is a dynamic and varied role where no two days are the same. You'll be at the heart of our operations coordinating meetings, managing communications, supporting recruitment and training logistics and helping our teams deliver high-quality care across Wakefield. You'll be working with a wide range of stakeholders and services, making a real difference behind the scenes. At Conexus, were proud to support primary care with professionalism, kindness, and a commitment to making a difference. We value collaboration, integrity, and continuous improvement, and were looking for someone who shares those values. What We're Looking For We're looking for someone who is: Experienced in administrative or business support roles Confident using Microsoft Office and digital systems A strong communicator with excellent relationship-building skills Professional, proactive, and customer-focused Flexible and comfortable working across teams and locations Development Opportunities We'll support you with training and development to build your skills across support services, helping you grow in confidence and capability. As a Business Support Officer, you will provide effective and professional administrative support to help ensure the smooth and efficient operation of our services. You will follow established processes to manage a range of administrative tasks, maintaining accurate records across office systems, databases, files and trackers. You will monitor inboxes, post and telephone enquiries, providing routine advice and guidance, responding to queries and ensuring more complex matters are directed to the appropriate colleague and followed through to completion. The role will involve organising meetings and events, coordinating room bookings and calendars, preparing agendas and papers, and ensuring information is circulated in a timely manner. You will also prepare standardised documents, including induction and onboarding materials, course joining instructions and recruitment documentation. You will input and collate data, produce basic reports and provide day-to-day support to colleagues and your supervisor. We are looking for someone who is organised, professional and approachable, with a flexible and positive approach to supporting the needs of the wider team. For further information, please refer to the attached job description. Job Purpose The role holder will provide a clearly defined business administrative support service to Primary Care Networks, other primary care providers, such as GP Practices and Conexus corporate and operational clinical services as part of a team of business support officers. The post will evolve as we develop our services, but the role holder will be required to undertake the following duties: Follow defined administrative processes to progress and complete tasks Maintain and update records on office systems, databases, files and trackers Monitor email inbox, post and office calls, deal with routine enquiries and queries and signpost and progress to others as required Provide routine advice and guidance on documented company processes and procedures Assign more complex queries to the most suitable person to be able to deal with them. Follow up where required to ensure that the task is completed Arrange meetings and plan events as required, liaising with room bookings and updating calendars, ensuring that all documents are circulated in a timely manner and participants have all the details they need in advance Prepare documents, agenda and papers for meetings Draft and prepare templated documentation following standardised processes, eg, induction and onboarding, joining instructions for courses, recruitment and selection etc. Format and collate data where required to support office processes Input data and generate basic reports, eg, to be used at meetings Provide support to colleagues and supervisor as required At all times, act in a professional and polite manner Support the work of the wider team and organisation, operating flexibly where there is a need to do so Any other duties and responsibilities commensurate with the nature and level of the role Other duties may be required to meet the responsibilities of the post and the requirements of the organisation and the primary care networks. You will work as part of the wider Business Support team to support other business areas during absence or annual leave of other business support colleagues. Core Competencies The role holder will be required to meet the following core competencies for a role within the assigned Group B Ability to work across different settings The role holder will be required to demonstrate an insight into different areas of the organisation and across the wider primary care community in which the role will operate including Primary Care Networks, Human Resources, Training and Development, GP Care Wakefield and associated clinical services, finance, communications and marketing and corporate services. Understanding of the service to be provided The role holder will be required to demonstrate an understanding of the purpose of the business support role provided and insight into the role of the support services function which includes HR, Finance, Corporate Services, PCN and GP Support and Training and Development. The role holder will be required to demonstrate an understanding of providing a customer centred approach to the role and be able to respond effectively and professionally to those who use and require your services. An ability to understand the end users specific needs and expectations will also be important to assist in responding appropriately to their enquiries. Ability to consistently follow and apply policies and procedures The role holder will be required to develop an understanding and consistently follow company policies and procedures and systems relevant to the role (for example People HR, use of Microsoft Office, finance databases etc) and provide advice and information to others within the organisation, seeking direction from their line manager when an issue may require escalation. The role holder will be able to identify simple information in policies and procedures and direct other staff members to where such documents can be found and accessed. Use of terminology, systems and IT The role holder will be required to demonstrate and apply a general understanding of organisational use of terminology (for example acronyms, and language frequently associated with support services (eg Care Quality Commission, General Data Protection Regulations (GDPR), PCNs, GPs, etc). An acquired understanding of systems and IT solutions is a key element of the role (for example Microsoft packages, Emails, People HR, Local Management System) and be confident in their use, following the appropriate training. S upervision and Relationships The post is closely supervised by the Business Support Coordinator. The role holder will be required to attend regular meetings with their immediate supervisor and is able to access support from the wider team. The role holder will be required to demonstrate that they are able to build effective relationships with their colleagues and team members, end users of the service, external parties (such as job applicants, contractors, suppliers, GP Practice staff, wider NHS staff (including the Integrated Care Board). The post holder will have a base at Sandal Castle Medical Centre but will be required to work flexibly in a hybrid working manner which may include some working from home. As the role requires the postholder to commute across the Wakefield District applicants should either hold a full driving licence, which is valid in the UK, and hold the relevant car insurance to cover travel for business purposes or can be mobile by using other modes of transport for which reasonable expenses will be payable.",
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0430-26-0044",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0430-26-0044",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
+  },
+  {
+    "job_id": "nhs-5530362",
+    "source": "NHS Jobs",
+    "title": "Project Administrator",
+    "company": "Trust Primary Care Ltd",
+    "advertiser_name": "Trust Primary Care Ltd",
+    "location": "Bradford, BD7 3JX",
+    "region": "Yorkshire - West",
+    "salary": "£24852.66",
+    "employment_type": "Permanent",
+    "posted_date": "2026-08-11T09:29:19.026590322",
+    "closing_date": "2026-08-25",
+    "description": "JOB TITLE: Project Administrator REPORTS TO: Senior Project Manager, supported with training by all TPC Project Managers ACCOUNTABLE TO: TPC Chief Executive Officer HOURS: 37.5 hours per week - Permanent SALARY: £24,852.66 per annum We are recruiting for two positions within our team. (Note: TPC is not an Agenda for Change employer, but does offer the NHS Pension) JOB SUMMARY To provide high-quality administrative support to the West Yorkshire Primary Care Workforce & Training Hub, and other services hosted by Trust Primary Care Ltd. The role will be primarily based in Bradford, but you may have meetings across the West Yorkshire region if required, with potential for some remote working. Trust Primary Care Ltd (TPC) is a member organisation supporting and working together with 16 GP practices to deliver effective primary care services at scale. The role will support these various services run by the Federation, including specific project work, and standing administrative responsibilities for a range of projects. The ideal candidate will assist the operational team in maintaining robust processes and ensure compliance with relevant procedures and policies. As part of our growing Operational Team, the role will deliver the key objectives of TPC supporting and strengthening General Practice, providing at scale Primary Care services and being a voice of Primary Care in multi-agency working. DUTIES/RESPONSIBILITIES General Overview Support the project managers across allocated programmes and services ensuring processes, programmes and service information packs, guidance and associated documentation are accurate, current and relevant. Be the first point of contact for allocated programmes and services, responding to enquiries via phone and email, and appropriately signposting or escalating queries where required. Take responsibility for maintaining accurate and up-to-date records and supporting the completion of reports for ICBs, ICSs, national governing bodies and other external stakeholders, working alongside project managers and programme/service clinical leads as required Maintain programme trackers, action logs and any relevant spreadsheets to ensure deadlines and actions are monitored and escalated where required. Maintain accurate and appropriate records for each programme and service, including information relating to General Practices, PCNs, individuals and other relevant stakeholders Work closely with project managers to coordinate relevant administrative tasks, actions and associated activities to ensure all programmes and services are coordinated effectively and run smoothly. Liaise with external stakeholders including national governing bodies, ICBs, training providers, facilitators and other relevant organisations. Engage with General Practices and provide accurate and timely information to support workforce, education & training needs. Work collaboratively with other team members to provide effective cross-cover for the administration of programmes and services, as required. Coordinate training sessions, workshop and events, including bookings, venues, facilitators, attendance and associated administration. Attend and support external meetings, Connect Days, workshops, events and other activities as required. Support the coordination of meetings, including arranging meetings, preparing documentation, taking minutes and maintaining action logs, where required. Contribute to the development and review of SOPs, templates, guidance, website updates and administrative processes, identifying opportunities to improve efficiency and consistency. Confidentiality Employees entrust us with, or allow us to gather, sensitive information in relation to their employment and other matters. They do so in confidence and have the right to expect that staff will respect their privacy and act appropriately. In the performance of the duties outlined in this job description, the post-holder may have access to confidential information relating to patients and their carers, TPC staff and other healthcare workers. They may also have access to information relating to TPC as a business organisation. All such information from any source is to be regarded as strictly confidential. Information relating to patients, carers, colleagues, other healthcare workers or the business of collaborating organisations may only be divulged to authorised persons in accordance with TPCs policies and procedures relating to confidentiality and the protection of personal and sensitive data. Health & Safety The post-holder will implement and lead on the full range of promotion and management of their own and others health, safety and security as defined in TPCs health & safety policy, health & safety manual, and infection control policy and published procedures. This will include (but will not be limited to): Ensure they adhere to their individual responsibilities for infection control and health and safety. Maintain an up-to-date knowledge of health and safety and infection control statutory and best practice guidelines. Using personal security systems within the workplace according to TPC guidelines. Identifying the risks involved in work activities and undertaking such activities in a way that manages those risks across the business. Making effective use of training to update knowledge and skills. Using appropriate infection control procedures, maintaining work areas in a tidy and safe way free from hazards, and initiation of remedial/corrective action where needed. Actively identifying, reporting, and correction of health and safety hazards and infection hazards immediately when recognised. Keeping own work areas and general/patient areas generally clean, identifying issues and hazards/risks in relation to other work areas within the business, and assuming responsibility in the maintenance of general standards of cleanliness across the organisation. Undertaking periodic infection control training (minimum annually). Routine management of own team/team areas, and maintenance of workspace standards. Demonstrate due regard for safeguarding and promoting the welfare of children. Equality and Diversity The post-holder will support the equality, diversity and rights of patients, carers, and colleagues, to include: Acting in a way that recognises the importance of peoples rights, interpreting them in a way that is consistent with TPC procedures and policies, and current legislation. Respecting the privacy, dignity, needs and beliefs of patients, carers, and colleagues. Behaving in a manner that is welcoming to and of the individual, is non-judgmental and respects their circumstances, feelings, priorities, and rights. Personal/professional development The post-holder will participate in any training programme implemented by TPC as part of this employment, such training, and responsibilities to include: To be responsible for the self-development of skills and competencies through participation in training and development activities and maintain up to date technical and professional knowledge relevant to the post. To undertake any identified training and development related to the post and undertake statutory and mandatory training as deemed appropriate by TPC. Participation in an annual individual performance review, including taking responsibility for maintaining a record of own personal and/or professional development. Taking responsibility for own development, learning and performance and demonstrating skills and activities to others who are undertaking similar work. Quality The post-holder will strive to maintain quality within TPC, and will: Alert other team members to issues of quality and risk. Assess own performance and take accountability for own actions, either directly or under supervision. Contribute to the effectiveness of the team by reflecting on own and team activities and making suggestions on ways to improve and enhance the teams performance. Work effectively with individuals in other agencies to meet patients needs. Effectively manage own time, workload, and resources. Communication The post-holder should recognise the importance of effective communication within the team and will strive to: Communicate effectively with other team members. Communicate effectively with patients and carers. Recognise peoples needs for alternative methods of communication and respond accordingly. Contribution to the implementation of services The post-holder will: Apply TPCs policies, standards, and guidance. Discuss with other members of the team how the policies, standards and guidelines will affect own work. Participate in audit where appropriate. Development The post-holder will engage and participate in any opportunities arising within the development and expansion of the organisation. Flexibility This job description is not intended to be exhaustive. The post-holder will be expected to adopt a flexible attitude towards the duties outlined which may be subject to amendment at any time in line with the needs of the organisation. The post holder may be required to fulfil other duties, as agreed with their line managers, to meet the needs of the organisation. This will involve travel to other sites within the organisation.",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B0320-26-0004",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B0320-26-0004",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
     "advertiser_type": "",

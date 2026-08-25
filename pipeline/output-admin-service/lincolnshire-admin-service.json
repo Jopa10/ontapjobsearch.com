@@ -122,12 +122,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Telephone handling",
-      "Records administration",
-      "Data entry"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225462000",
@@ -177,11 +172,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "107856993",
@@ -305,31 +296,6 @@
     "advertiser_name": "Oasis Trust",
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
-    "job_id": "107880264",
-    "title": "Support Planner",
-    "company": "Framework Housing Association - Agency - Permanent",
-    "location": "Lincolnshire",
-    "region": "Lincolnshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "26000",
-    "salary_max": "26000",
-    "salary_text": "£26000 per year",
-    "posted_date": "",
-    "description": "Support Planner Anvil House, Scunthorpe, DN17 1 QH, Permanent, 37 HRS, Grade 3 AS, £27,938, FTE\nAn exciting opportunity has arisen for Support Planners to join our new service at Anvil House, Scunthorpe.\nAt Anvil House, our aim is to provide safe, secure and high-quality supported accommodation for adults experiencing homelessness or at risk of homelessness click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?Y5CHIaMSKAwSZkOd3n3K7GLesZhXmjdov",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Framework Housing Association",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
     "salary_period": "Annual",
     "posted_date_basis": ""
   },

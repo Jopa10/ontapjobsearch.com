@@ -1228,6 +1228,635 @@
           "marketing": 2
         }
       }
+    },
+    {
+      "feed_date": "2026-08-25",
+      "counts": {
+        "Bedfordshire": {
+          "service_admin": 4,
+          "support_worker": 0,
+          "customer_sales": 2,
+          "legal_assistant_paralegal": 5,
+          "marketing": 1,
+          "hr_recruitment": 2
+        },
+        "Berkshire": {
+          "service_admin": 26,
+          "support_worker": 3,
+          "customer_sales": 2,
+          "legal_assistant_paralegal": 2,
+          "marketing": 5,
+          "hr_recruitment": 5
+        },
+        "Bristol & Bath": {
+          "service_admin": 23,
+          "support_worker": 2,
+          "customer_sales": 10,
+          "legal_assistant_paralegal": 3,
+          "marketing": 0,
+          "hr_recruitment": 2
+        },
+        "Buckinghamshire": {
+          "service_admin": 25,
+          "support_worker": 2,
+          "customer_sales": 0,
+          "legal_assistant_paralegal": 2,
+          "marketing": 1,
+          "hr_recruitment": 2
+        },
+        "Cambridgeshire": {
+          "service_admin": 24,
+          "support_worker": 0,
+          "customer_sales": 3,
+          "legal_assistant_paralegal": 1,
+          "marketing": 1,
+          "hr_recruitment": 1
+        },
+        "Cheshire - East": {
+          "service_admin": 14,
+          "support_worker": 1,
+          "customer_sales": 2,
+          "legal_assistant_paralegal": 1,
+          "marketing": 0,
+          "hr_recruitment": 0
+        },
+        "Cheshire - Warrington & Halton": {
+          "service_admin": 29,
+          "support_worker": 2,
+          "customer_sales": 3,
+          "legal_assistant_paralegal": 2,
+          "marketing": 0,
+          "hr_recruitment": 1
+        },
+        "Cheshire - West": {
+          "service_admin": 9,
+          "support_worker": 2,
+          "customer_sales": 5,
+          "legal_assistant_paralegal": 1,
+          "marketing": 0,
+          "hr_recruitment": 1
+        },
+        "Cornwall": {
+          "service_admin": 5,
+          "support_worker": 2,
+          "customer_sales": 1,
+          "legal_assistant_paralegal": 0,
+          "marketing": 0,
+          "hr_recruitment": 0
+        },
+        "Cumbria - North": {
+          "service_admin": 2,
+          "support_worker": 5,
+          "customer_sales": 0,
+          "legal_assistant_paralegal": 0,
+          "marketing": 0,
+          "hr_recruitment": 0
+        },
+        "Cumbria - South": {
+          "service_admin": 1,
+          "support_worker": 2,
+          "customer_sales": 1,
+          "legal_assistant_paralegal": 0,
+          "marketing": 0,
+          "hr_recruitment": 0
+        },
+        "Cumbria - West": {
+          "service_admin": 2,
+          "support_worker": 3,
+          "customer_sales": 0,
+          "legal_assistant_paralegal": 0,
+          "marketing": 0,
+          "hr_recruitment": 0
+        },
+        "Derbyshire": {
+          "service_admin": 11,
+          "support_worker": 0,
+          "customer_sales": 2,
+          "legal_assistant_paralegal": 2,
+          "marketing": 0,
+          "hr_recruitment": 0
+        },
+        "Devon": {
+          "service_admin": 24,
+          "support_worker": 0,
+          "customer_sales": 4,
+          "legal_assistant_paralegal": 4,
+          "marketing": 0,
+          "hr_recruitment": 3
+        },
+        "Dorset": {
+          "service_admin": 25,
+          "support_worker": 1,
+          "customer_sales": 6,
+          "legal_assistant_paralegal": 1,
+          "marketing": 0,
+          "hr_recruitment": 0
+        },
+        "Essex": {
+          "service_admin": 44,
+          "support_worker": 1,
+          "customer_sales": 0,
+          "legal_assistant_paralegal": 5,
+          "marketing": 2,
+          "hr_recruitment": 2
+        },
+        "Gloucestershire": {
+          "service_admin": 27,
+          "support_worker": 0,
+          "customer_sales": 1,
+          "legal_assistant_paralegal": 0,
+          "marketing": 1,
+          "hr_recruitment": 1
+        },
+        "Greater Manchester - Manchester & Salford": {
+          "service_admin": 40,
+          "support_worker": 1,
+          "customer_sales": 7,
+          "legal_assistant_paralegal": 9,
+          "marketing": 4,
+          "hr_recruitment": 5
+        },
+        "Greater Manchester - North": {
+          "service_admin": 6,
+          "support_worker": 0,
+          "customer_sales": 0,
+          "legal_assistant_paralegal": 0,
+          "marketing": 0,
+          "hr_recruitment": 1
+        },
+        "Greater Manchester - South": {
+          "service_admin": 7,
+          "support_worker": 2,
+          "customer_sales": 2,
+          "legal_assistant_paralegal": 0,
+          "marketing": 0,
+          "hr_recruitment": 0
+        },
+        "Greater Manchester - Wigan & Bolton": {
+          "service_admin": 15,
+          "support_worker": 0,
+          "customer_sales": 1,
+          "legal_assistant_paralegal": 1,
+          "marketing": 0,
+          "hr_recruitment": 1
+        },
+        "Hampshire": {
+          "service_admin": 60,
+          "support_worker": 15,
+          "customer_sales": 10,
+          "legal_assistant_paralegal": 3,
+          "marketing": 3,
+          "hr_recruitment": 5
+        },
+        "Herefordshire": {
+          "service_admin": 2,
+          "support_worker": 0,
+          "customer_sales": 0,
+          "legal_assistant_paralegal": 0,
+          "marketing": 0,
+          "hr_recruitment": 0
+        },
+        "Hertfordshire": {
+          "service_admin": 30,
+          "support_worker": 2,
+          "customer_sales": 3,
+          "legal_assistant_paralegal": 2,
+          "marketing": 0,
+          "hr_recruitment": 1
+        },
+        "Kent": {
+          "service_admin": 58,
+          "support_worker": 4,
+          "customer_sales": 5,
+          "legal_assistant_paralegal": 8,
+          "marketing": 4,
+          "hr_recruitment": 3
+        },
+        "Lancashire - Blackpool & Fylde": {
+          "service_admin": 1,
+          "support_worker": 0,
+          "customer_sales": 0,
+          "legal_assistant_paralegal": 0,
+          "marketing": 0,
+          "hr_recruitment": 0
+        },
+        "Lancashire - Central": {
+          "service_admin": 5,
+          "support_worker": 0,
+          "customer_sales": 1,
+          "legal_assistant_paralegal": 0,
+          "marketing": 0,
+          "hr_recruitment": 1
+        },
+        "Lancashire - East": {
+          "service_admin": 4,
+          "support_worker": 0,
+          "customer_sales": 0,
+          "legal_assistant_paralegal": 1,
+          "marketing": 0,
+          "hr_recruitment": 0
+        },
+        "Lancashire - North": {
+          "service_admin": 1,
+          "support_worker": 2,
+          "customer_sales": 0,
+          "legal_assistant_paralegal": 0,
+          "marketing": 0,
+          "hr_recruitment": 0
+        },
+        "Lancashire - West": {
+          "service_admin": 1,
+          "support_worker": 0,
+          "customer_sales": 2,
+          "legal_assistant_paralegal": 0,
+          "marketing": 0,
+          "hr_recruitment": 0
+        },
+        "Leicestershire": {
+          "service_admin": 29,
+          "support_worker": 0,
+          "customer_sales": 3,
+          "legal_assistant_paralegal": 2,
+          "marketing": 0,
+          "hr_recruitment": 1
+        },
+        "Lincolnshire": {
+          "service_admin": 12,
+          "support_worker": 2,
+          "customer_sales": 0,
+          "legal_assistant_paralegal": 1,
+          "marketing": 2,
+          "hr_recruitment": 1
+        },
+        "London": {
+          "service_admin": 159,
+          "support_worker": 10,
+          "customer_sales": 22,
+          "legal_assistant_paralegal": 31,
+          "marketing": 27,
+          "hr_recruitment": 17
+        },
+        "Merseyside - Liverpool": {
+          "service_admin": 10,
+          "support_worker": 0,
+          "customer_sales": 0,
+          "legal_assistant_paralegal": 1,
+          "marketing": 1,
+          "hr_recruitment": 1
+        },
+        "Merseyside - Sefton": {
+          "service_admin": 0,
+          "support_worker": 0,
+          "customer_sales": 0,
+          "legal_assistant_paralegal": 0,
+          "marketing": 0,
+          "hr_recruitment": 0
+        },
+        "Merseyside - St Helens & Knowsley": {
+          "service_admin": 5,
+          "support_worker": 0,
+          "customer_sales": 1,
+          "legal_assistant_paralegal": 0,
+          "marketing": 0,
+          "hr_recruitment": 0
+        },
+        "Merseyside - Wirral": {
+          "service_admin": 3,
+          "support_worker": 0,
+          "customer_sales": 1,
+          "legal_assistant_paralegal": 1,
+          "marketing": 0,
+          "hr_recruitment": 0
+        },
+        "Norfolk": {
+          "service_admin": 17,
+          "support_worker": 1,
+          "customer_sales": 0,
+          "legal_assistant_paralegal": 1,
+          "marketing": 2,
+          "hr_recruitment": 1
+        },
+        "North East": {
+          "service_admin": 43,
+          "support_worker": 1,
+          "customer_sales": 5,
+          "legal_assistant_paralegal": 1,
+          "marketing": 3,
+          "hr_recruitment": 2
+        },
+        "North Scotland": {
+          "service_admin": 9,
+          "support_worker": 0,
+          "customer_sales": 3,
+          "legal_assistant_paralegal": 1,
+          "marketing": 0,
+          "hr_recruitment": 0
+        },
+        "North Wales - East": {
+          "service_admin": 4,
+          "support_worker": 0,
+          "customer_sales": 2,
+          "legal_assistant_paralegal": 0,
+          "marketing": 0,
+          "hr_recruitment": 0
+        },
+        "North Wales - West": {
+          "service_admin": 2,
+          "support_worker": 0,
+          "customer_sales": 0,
+          "legal_assistant_paralegal": 0,
+          "marketing": 0,
+          "hr_recruitment": 1
+        },
+        "Northamptonshire": {
+          "service_admin": 27,
+          "support_worker": 0,
+          "customer_sales": 2,
+          "legal_assistant_paralegal": 2,
+          "marketing": 1,
+          "hr_recruitment": 6
+        },
+        "Northern Ireland - East": {
+          "service_admin": 10,
+          "support_worker": 2,
+          "customer_sales": 0,
+          "legal_assistant_paralegal": 1,
+          "marketing": 0,
+          "hr_recruitment": 1
+        },
+        "Northern Ireland - West": {
+          "service_admin": 4,
+          "support_worker": 0,
+          "customer_sales": 1,
+          "legal_assistant_paralegal": 0,
+          "marketing": 0,
+          "hr_recruitment": 0
+        },
+        "Nottinghamshire": {
+          "service_admin": 22,
+          "support_worker": 0,
+          "customer_sales": 3,
+          "legal_assistant_paralegal": 2,
+          "marketing": 2,
+          "hr_recruitment": 5
+        },
+        "Oxfordshire": {
+          "service_admin": 36,
+          "support_worker": 6,
+          "customer_sales": 4,
+          "legal_assistant_paralegal": 2,
+          "marketing": 2,
+          "hr_recruitment": 1
+        },
+        "Rutland": {
+          "service_admin": 0,
+          "support_worker": 0,
+          "customer_sales": 0,
+          "legal_assistant_paralegal": 0,
+          "marketing": 0,
+          "hr_recruitment": 0
+        },
+        "Scotland - Borders": {
+          "service_admin": 1,
+          "support_worker": 0,
+          "customer_sales": 0,
+          "legal_assistant_paralegal": 0,
+          "marketing": 0,
+          "hr_recruitment": 0
+        },
+        "Scotland Central - Edinburgh & Lothians": {
+          "service_admin": 14,
+          "support_worker": 0,
+          "customer_sales": 2,
+          "legal_assistant_paralegal": 2,
+          "marketing": 0,
+          "hr_recruitment": 2
+        },
+        "Scotland Central - Falkirk & Stirling": {
+          "service_admin": 3,
+          "support_worker": 0,
+          "customer_sales": 0,
+          "legal_assistant_paralegal": 0,
+          "marketing": 0,
+          "hr_recruitment": 0
+        },
+        "Scotland Central - Fife": {
+          "service_admin": 3,
+          "support_worker": 0,
+          "customer_sales": 1,
+          "legal_assistant_paralegal": 0,
+          "marketing": 0,
+          "hr_recruitment": 0
+        },
+        "Scotland Central - Tayside": {
+          "service_admin": 5,
+          "support_worker": 0,
+          "customer_sales": 1,
+          "legal_assistant_paralegal": 1,
+          "marketing": 0,
+          "hr_recruitment": 0
+        },
+        "Scotland West - Ayrshire": {
+          "service_admin": 1,
+          "support_worker": 0,
+          "customer_sales": 0,
+          "legal_assistant_paralegal": 0,
+          "marketing": 0,
+          "hr_recruitment": 0
+        },
+        "Scotland West - Glasgow": {
+          "service_admin": 15,
+          "support_worker": 0,
+          "customer_sales": 5,
+          "legal_assistant_paralegal": 1,
+          "marketing": 1,
+          "hr_recruitment": 1
+        },
+        "Scotland West - Lanarkshire": {
+          "service_admin": 2,
+          "support_worker": 0,
+          "customer_sales": 1,
+          "legal_assistant_paralegal": 0,
+          "marketing": 0,
+          "hr_recruitment": 0
+        },
+        "Scotland West - Renfrewshire & Inverclyde": {
+          "service_admin": 1,
+          "support_worker": 0,
+          "customer_sales": 1,
+          "legal_assistant_paralegal": 0,
+          "marketing": 0,
+          "hr_recruitment": 0
+        },
+        "Shropshire": {
+          "service_admin": 15,
+          "support_worker": 3,
+          "customer_sales": 2,
+          "legal_assistant_paralegal": 2,
+          "marketing": 0,
+          "hr_recruitment": 2
+        },
+        "Somerset": {
+          "service_admin": 14,
+          "support_worker": 5,
+          "customer_sales": 1,
+          "legal_assistant_paralegal": 1,
+          "marketing": 0,
+          "hr_recruitment": 1
+        },
+        "Staffordshire": {
+          "service_admin": 19,
+          "support_worker": 1,
+          "customer_sales": 3,
+          "legal_assistant_paralegal": 0,
+          "marketing": 2,
+          "hr_recruitment": 1
+        },
+        "Suffolk": {
+          "service_admin": 17,
+          "support_worker": 1,
+          "customer_sales": 1,
+          "legal_assistant_paralegal": 1,
+          "marketing": 0,
+          "hr_recruitment": 1
+        },
+        "Surrey": {
+          "service_admin": 64,
+          "support_worker": 5,
+          "customer_sales": 9,
+          "legal_assistant_paralegal": 5,
+          "marketing": 8,
+          "hr_recruitment": 3
+        },
+        "Sussex": {
+          "service_admin": 38,
+          "support_worker": 6,
+          "customer_sales": 4,
+          "legal_assistant_paralegal": 4,
+          "marketing": 1,
+          "hr_recruitment": 6
+        },
+        "Wales - Mid": {
+          "service_admin": 0,
+          "support_worker": 0,
+          "customer_sales": 0,
+          "legal_assistant_paralegal": 0,
+          "marketing": 0,
+          "hr_recruitment": 0
+        },
+        "Wales - West": {
+          "service_admin": 3,
+          "support_worker": 0,
+          "customer_sales": 0,
+          "legal_assistant_paralegal": 0,
+          "marketing": 0,
+          "hr_recruitment": 1
+        },
+        "Wales South - Cardiff & Vale": {
+          "service_admin": 5,
+          "support_worker": 0,
+          "customer_sales": 1,
+          "legal_assistant_paralegal": 1,
+          "marketing": 0,
+          "hr_recruitment": 0
+        },
+        "Wales South - Gwent": {
+          "service_admin": 2,
+          "support_worker": 0,
+          "customer_sales": 0,
+          "legal_assistant_paralegal": 1,
+          "marketing": 0,
+          "hr_recruitment": 0
+        },
+        "Wales South - Swansea Bay": {
+          "service_admin": 1,
+          "support_worker": 0,
+          "customer_sales": 3,
+          "legal_assistant_paralegal": 1,
+          "marketing": 0,
+          "hr_recruitment": 0
+        },
+        "Wales South - Valleys": {
+          "service_admin": 1,
+          "support_worker": 0,
+          "customer_sales": 0,
+          "legal_assistant_paralegal": 3,
+          "marketing": 1,
+          "hr_recruitment": 0
+        },
+        "West Midlands - Birmingham & Solihull": {
+          "service_admin": 25,
+          "support_worker": 1,
+          "customer_sales": 3,
+          "legal_assistant_paralegal": 7,
+          "marketing": 3,
+          "hr_recruitment": 5
+        },
+        "West Midlands - Black Country": {
+          "service_admin": 9,
+          "support_worker": 1,
+          "customer_sales": 1,
+          "legal_assistant_paralegal": 1,
+          "marketing": 0,
+          "hr_recruitment": 0
+        },
+        "West Midlands - Coventry & Warwickshire": {
+          "service_admin": 27,
+          "support_worker": 0,
+          "customer_sales": 0,
+          "legal_assistant_paralegal": 2,
+          "marketing": 1,
+          "hr_recruitment": 4
+        },
+        "Wiltshire": {
+          "service_admin": 21,
+          "support_worker": 4,
+          "customer_sales": 2,
+          "legal_assistant_paralegal": 3,
+          "marketing": 0,
+          "hr_recruitment": 3
+        },
+        "Worcestershire": {
+          "service_admin": 9,
+          "support_worker": 3,
+          "customer_sales": 3,
+          "legal_assistant_paralegal": 1,
+          "marketing": 0,
+          "hr_recruitment": 2
+        },
+        "Yorkshire - East": {
+          "service_admin": 15,
+          "support_worker": 1,
+          "customer_sales": 2,
+          "legal_assistant_paralegal": 2,
+          "marketing": 0,
+          "hr_recruitment": 2
+        },
+        "Yorkshire - North": {
+          "service_admin": 17,
+          "support_worker": 4,
+          "customer_sales": 1,
+          "legal_assistant_paralegal": 1,
+          "marketing": 0,
+          "hr_recruitment": 1
+        },
+        "Yorkshire - South": {
+          "service_admin": 14,
+          "support_worker": 1,
+          "customer_sales": 1,
+          "legal_assistant_paralegal": 3,
+          "marketing": 1,
+          "hr_recruitment": 0
+        },
+        "Yorkshire - West": {
+          "service_admin": 47,
+          "support_worker": 2,
+          "customer_sales": 4,
+          "legal_assistant_paralegal": 4,
+          "marketing": 2,
+          "hr_recruitment": 8
+        }
+      }
     }
   ]
 }

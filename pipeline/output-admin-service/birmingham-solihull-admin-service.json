@@ -22,11 +22,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Systems administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225473913",
@@ -176,11 +172,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Records administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1771922",
@@ -205,11 +197,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Daily",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Data entry"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1771921",
@@ -234,11 +222,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Daily",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Data entry"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1763910",
@@ -313,11 +297,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Part Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Records administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1769273",
@@ -342,11 +322,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1738115",
@@ -571,15 +547,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225507846",
-    "title": "Vehicle Sales & Accounts Administrator",
+    "title": "Motor Trade Sales Administrator",
     "company": "Brellis Recruitment - Agency - Permanent",
     "location": "Chelmsley Wood",
     "region": "West Midlands - Birmingham & Solihull",

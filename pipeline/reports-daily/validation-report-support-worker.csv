@@ -2,11 +2,11 @@
 total rows input,10000
 total rows included,46
 total rows dropped,9951
-title classification count - HIGH_CONFIDENCE,145
+title classification count - HIGH_CONFIDENCE,146
 title classification count - ELASTIC_FIT,46
 title classification count - REVIEW_CONTEXT_DEPENDENT,27
-title classification count - HARD_PASS,5017
-title classification count - OUT_OF_SCOPE,4765
+title classification count - HARD_PASS,5024
+title classification count - OUT_OF_SCOPE,4757
 selection scenario - Yorkshire - West,SCENARIO_4_BELOW_PUBLISH_THRESHOLD
 selection message - Yorkshire - West,Yorkshire - West selection below publish threshold: 2/6 credible roles. Do not publish/refresh this slice from this run.
 credible total - Yorkshire - West,2
@@ -31,22 +31,22 @@ anchor elastic count - North East,0
 other elastic count - North East,0
 total rows output - North East,1
 job_id included - North East,23643_225493355
-selection scenario - Sussex,SCENARIO_3_COMPLETE_WITH_OTHER_ELASTIC
-selection message - Sussex,"Sussex selection complete: 6 selected after HIGH_CONFIDENCE, Brighton ELASTIC_FIT, and other ELASTIC_FIT roles."
+selection scenario - Sussex,SCENARIO_1_COMPLETE_HC_ONLY
+selection message - Sussex,Sussex selection complete: HIGH_CONFIDENCE roles selected.
 credible total - Sussex,6
-high confidence count - Sussex,5
+high confidence count - Sussex,6
 anchor elastic count - Sussex,0
-other elastic count - Sussex,1
+other elastic count - Sussex,0
 total rows output - Sussex,6
-job_id included - Sussex,23643_225427103; 23643_222307132; 23643_225445462; 107864483; 107870957; 107811772
+job_id included - Sussex,23643_225427103; 23643_222307132; 23643_225445462; 107807365; 107864483; 107826653
 selection scenario - Cumbria - South,SCENARIO_4_BELOW_PUBLISH_THRESHOLD
-selection message - Cumbria - South,Cumbria - South selection below publish threshold: 3/6 credible roles. Do not publish/refresh this slice from this run.
-credible total - Cumbria - South,3
+selection message - Cumbria - South,Cumbria - South selection below publish threshold: 2/6 credible roles. Do not publish/refresh this slice from this run.
+credible total - Cumbria - South,2
 high confidence count - Cumbria - South,0
 anchor elastic count - Cumbria - South,0
-other elastic count - Cumbria - South,3
-total rows output - Cumbria - South,3
-job_id included - Cumbria - South,107812778; 107870592; 107870593
+other elastic count - Cumbria - South,2
+total rows output - Cumbria - South,2
+job_id included - Cumbria - South,107812778; 107870592
 selection scenario - Hampshire,SCENARIO_3_MANUAL_SELECTION_APPLIED
 selection message - Hampshire,Hampshire manual_select applied additively: 1 row(s) prioritised; 15 selected.
 credible total - Hampshire,15
@@ -56,13 +56,13 @@ other elastic count - Hampshire,1
 total rows output - Hampshire,15
 job_id included - Hampshire,1674633; 1401784780; 1778648; 1401784261; 1401784414; 1401784339; 1401784493; 1401784594; 107332363; 1401784687; 107769099; 1401784767; 1401784682; 1401784679; 107856573
 selection scenario - London,SCENARIO_3_COMPLETE_WITH_OTHER_ELASTIC
-selection message - London,"London selection complete: 9 selected after HIGH_CONFIDENCE, London ELASTIC_FIT, and other ELASTIC_FIT roles."
-credible total - London,9
-high confidence count - London,7
+selection message - London,"London selection complete: 10 selected after HIGH_CONFIDENCE, London ELASTIC_FIT, and other ELASTIC_FIT roles."
+credible total - London,10
+high confidence count - London,8
 anchor elastic count - London,1
 other elastic count - London,1
-total rows output - London,9
-job_id included - London,1621461; 23643_223283749; 23643_225516212; 1780022; 1778477; 1664745; 23643_225476071; 1787859; 23643_225513634
+total rows output - London,10
+job_id included - London,1621461; 23643_223283749; 23643_225516212; 1780022; 1778477; 1664745; 23643_225476071; 1787859; 1742472; 23643_225513634
 selection scenario - Surrey,SCENARIO_4_BELOW_PUBLISH_THRESHOLD
 selection message - Surrey,Surrey selection below publish threshold: 5/6 credible roles. Do not publish/refresh this slice from this run.
 credible total - Surrey,5

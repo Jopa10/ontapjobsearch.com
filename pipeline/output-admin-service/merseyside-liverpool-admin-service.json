@@ -22,11 +22,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Systems administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225469002",
@@ -76,12 +72,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Part Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Telephone handling",
-      "Document preparation"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "107729667",
@@ -181,12 +172,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Part Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Telephone handling",
-      "Document preparation"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225428643",
@@ -211,11 +197,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Records administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1763920",
@@ -268,28 +250,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "nhs-5542588",
-    "source": "NHS Jobs",
-    "title": "Receptionist",
-    "company": "Derby Lane Medical Centre",
-    "advertiser_name": "Derby Lane Medical Centre",
-    "location": "Liverpool, L6 0BB",
-    "region": "Merseyside - Liverpool",
-    "salary": "Negotiable",
-    "employment_type": "Permanent",
-    "posted_date": "2026-08-17T10:39:36.503567726",
-    "closing_date": "2026-08-24",
-    "description": "Anfield Group Practice is looking for a Receptionist/Administrator to work in our friendly, extremely busy GP surgery. The contract is permanent Hours of work would be within our practice opening hours being Monday 1.30pm to 6.30pm, Tuesday 1.30pm - 8.00pm, (minus 30 mins unpaid break) Wednesday 12.30pm - 6.30pm Thursday 2.00pm - 6.30pm and Friday 2.00pm - 6.30pm Occasional Saturday mornings (optional) The successful candidate will be highly motivated, confident, enthusiastic, can answer telephones in a professional and courteous manner, with excellent communication, listening and administration skills. The candidate would also require excellent keyboard skills. You will project a positive and friendly image to patients and other visitors, whether in person, via the telephone, emails or online. Receive, assist and direct patients in accessing the appropriate service or healthcare professional in a courteous, efficient and effective way. Undertake a variety of administrative duties to assist in the smooth running of the practice. Facilitate effective communication between patients, members of the primary health care team, secondary care and other associated healthcare agencies. Process repeat prescription requests in accordance with practice guidelines Process and recording information in accordance with practice procedures and scanning of clinical documents. When dealing with patients, you must be polite, compassionate and discrete. The following are the core responsibilities of the Receptionist. There may be on occasion a requirement to carry out other tasks. This will be dependent upon factors such as workload and staffing levels. These duties include - - Maintain and monitor the practice appointment system - Process personal, telephone and e-requests for appointments - Answer incoming phone calls, transferring calls or dealing with the patients' request appropriately - Signpost patients to the correct service using our new care navigation tool - Initiating contact with and responding to, requests from patients, team members and external agencies - Photocopy documentation as required - Data entry of new and temporary registrations and relevant patient information as required - Input data onto healthcare records as necessary - Direct requests for information, i.e., SAR, insurance/solicitors letters and DVLA forms to the administrative team - Manage all queries as necessary in an efficient manner - Maintain a clean, tidy, effective working area at all times - Monitor and maintain the reception area and notice boards - Support all clinical staff with general tasks as requested - Monitor stationery supplies and advise restocking orders - Ensure repeat prescriptions are processed accurately and efficiently - Action incoming emails and correspondence as necessary",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5692-26-0000",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5692-26-0000",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
-  },
-  {
     "job_id": "nhs-5537799",
     "source": "NHS Jobs",
     "title": "Receptionist",
@@ -304,6 +264,28 @@
     "description": "Valley Medical Centre is a busy and well-established GP practice based in Childwall, Liverpool, and is part of the Childwall & Wavertree Primary Care Network (PCN) . We are committed to delivering high-quality, patient-centred care and are seeking a friendly, professional, and organised Receptionist to join our team. This is a busy and rewarding role that requires excellent communication skills, a positive attitude, and the ability to remain calm and professional when working under pressure. The ideal candidate will be patient-focused, reliable, and able to work effectively as part of a supportive team whilst maintaining confidentiality at all times. Working at Valley Medical Centre offers the opportunity to be part of a dedicated team that is passionate about delivering high-quality healthcare services to the local community. We provide a welcoming and supportive working environment with opportunities for training and development As a Receptionist at Valley Medical Centre, you will be the first point of contact for patients and visitors, providing a welcoming, professional, and efficient service. You will be responsible for managing appointment bookings, handling telephone enquiries, processing patient requests, and undertaking a range of administrative duties to support the smooth running of the practice. The role requires excellent communication, customer service, and organisational skills, with the ability to work effectively in a busy primary care environment. The Receptionist is the first point of contact for patients and visitors attending Valley Medical Centre. The post holder will provide a professional, courteous, and efficient reception and administrative service, ensuring patients receive a high standard of customer care at all times. The role requires excellent communication and organisational skills, the ability to work in a fast-paced environment, and a commitment to maintaining patient confidentiality. The Receptionist will support the smooth day-to-day running of the practice by undertaking a variety of reception and administrative duties.",
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5137-26-0000",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5137-26-0000",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
+  },
+  {
+    "job_id": "nhs-5532195",
+    "source": "NHS Jobs",
+    "title": "Admin Assistant - 30 hours",
+    "company": "British Pregnancy Advisory Service (BPAS)",
+    "advertiser_name": "British Pregnancy Advisory Service (BPAS)",
+    "location": "LIVERPOOL, L3 8JA, WARRINGTON, WA1 1SR, LIVERPOOL, L17 8UJ, ST. HELENS, WA10 1HJ",
+    "region": "Merseyside - Liverpool",
+    "salary": "£24484.00 to £27583.00",
+    "employment_type": "Permanent",
+    "posted_date": "2026-08-11T14:41:11.366243611",
+    "closing_date": "2026-08-26",
+    "description": "*This role is working across our Merseyside Cluster. Weekly travel to all 4 units is required Do you enjoy working within a busy office or reception environment, where no two days are the same? Do you have experience of general administrative procedures ? We are looking for an experienced Admin Assistant to come and join our four units in our Merseyside Cluster. As the Admin Assistant you will be responsible for completing all administrative and client support tasks within the unit, supporting clients through their episode of care. This unit-based role is working 30 hours per week flexibly over Monday to Friday, a rota is given in advance. Travel will be required to all 4 units on a weekly basis. A detailed shift pattern and salary information can be found below in the further information section. About You You will have strong experience of working within an office environment, where you have carried out administration duties. You will be an excellent communicator both internally and externally and will demonstrate a friendly and positive attitude when interacting with clients, colleagues, and external parties. Answer and direct telephone queries, liaising with both internal and external colleagues, as necessary. Accurately check or complete BPAS and legal paperwork, ensuring all relevant documentation is available for the clients episode of care. Monitor, edit and amend appointment list, using as appropriate BPAS booking system, informing clients if changes to their appointment become necessary. Assist in the monitoring, control and ordering of stock, sort and distribute incoming mail and prepare and dispatch statistical information and reports. We are also looking for: Experience of dealing face to face with clients who may be angry or upset, within a care environment. Knowledge of clerical procedures including checking documentation, telephone, and reception duties. Good attention to detail, supportive towards colleagues and clients and an effective team player. The full job description and salary details can be found in the supporting documents on the right hand side. These are available for you to download and review. Further Information We may close this advert early if we receive a high number of suitable applications, although we aim to keep it open long enough to ensure a diverse and representative applicant pool. If you have any questions about the role or require adjustments to support your application, please get in touch, we are happy to help. Salary £24,484 - £27,583 per annum pro rata (£13.08 - £14.73ph). Depending on skills and experience. Shift Pattern 30 hours per week - 4 x 7.5 hour shifts. To be worked flexibly across the 4 units over Monday to Friday. Locations BPAS Liverpool (L3 8JA) unit will be classed as your base unit, and mileage to the other units as part of your normal duties will be reimbursed at rate as determined by the BPAS Expenses policy in place at the time. BPAS Liverpool, Central Liverpool PCN Hub, 81 London Rd, Liverpool, L3 8JA BPAS Merseyside , 32 Parkfield Rd, Liverpool L17 8UJ BPAS Warrington , Youth Advice Shop, The Gateway, 89 Sankey St, Warrington WA1 1SR BPAS St Helens, The Millennium Centre, Corporation St, Saint Helens WA10 1HJ Apply now Interested in making a difference? Apply today to join our team. Values & eligibility All applicants must be pro choice and support a woman's right to choose, in line with BPAS values and mission. Applicants must have the legal right to work in the UK at the time of application. Unfortunately, we are unable to offer visa sponsorship for this role. Application outcome If you do not hear from us within two weeks of the closing date, unfortunately you have not been shortlisted on this occasion. References & pre-employment checks All offers of employment are conditional on satisfactory pre-employment checks. Applicants must provide three years of employment references, including reasons for leaving and details of any gaps in employment.",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B0201-MERCL-AA-30-2",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B0201-MERCL-AA-30-2",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
     "advertiser_type": "",
