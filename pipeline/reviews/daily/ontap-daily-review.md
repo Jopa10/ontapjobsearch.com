@@ -4,7 +4,7 @@
 > Do not start reviewing yet. Rebuild this review after those source refreshes complete.
 
 review_date: 2026-08-25
-generated_at: 2026-08-25T08:21:55+00:00
+generated_at: 2026-08-25T09:05:16+00:00
 
 **62 job(s) need a human decision.**
 
@@ -248,7 +248,7 @@ hub_fingerprint: 83f27172cc0cb45ad434346ac5115b3ea943086af73d0e843fa9c4e7572c86c
 ---
 
 ---
-action:  select
+action: select
 POSS | JobG8 | Devon | Devon | £35000 - £40000 per year | Plant Hire Desk Administrator/Controller
 source_key: jobg8
 source: JobG8
@@ -266,7 +266,7 @@ hub_fingerprint: 0f8ae2a0d853a1a823b4a3803b205cb412585cdd71155a02c33ee6f903828df
 ---
 
 ---
-action:  select
+action: select
 POSS | JobG8 | Essex | Essex | £35000 per year | QMS and Sales Support Coordinator
 source_key: jobg8
 source: JobG8
@@ -284,7 +284,7 @@ hub_fingerprint: c9808a20a2b655402e44dba1614a76c4070762b53a4cc9af59b85cbe652ef8c
 ---
 
 ---
-action:  select
+action: select
 POSS | JobG8 | Essex | Essex | £32000 - £35000 per year | Sales Administrator Temp to Perm
 source_key: jobg8
 source: JobG8
