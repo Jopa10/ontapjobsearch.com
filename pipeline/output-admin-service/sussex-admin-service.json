@@ -131,11 +131,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Records administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225428472",
@@ -160,12 +156,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Records administration",
-      "Reporting"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225448794",
@@ -190,11 +181,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Data entry"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225452492",
@@ -294,12 +281,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Shared inboxes",
-      "Reporting",
-      "Quotations"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225475468",
@@ -324,12 +306,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Systems administration",
-      "Quotations"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225476714",
@@ -504,12 +481,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Shared inboxes",
-      "Quotations"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1781441",
@@ -584,11 +556,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Part Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Email handling",
-      "Records administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1766783",
@@ -638,11 +606,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Filing and document handling"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1766310",
@@ -717,12 +681,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Quotations",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1749324",
@@ -772,12 +731,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Quotations",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225527297",
@@ -877,11 +831,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Records administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "107805697",
@@ -931,12 +881,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Systems administration",
-      "Quotations"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225517937",
@@ -1036,11 +981,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Reporting",
-      "Contract changes"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225528910",
@@ -1065,230 +1006,6 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Telephone handling",
-      "Order processing"
-    ]
-  },
-  {
-    "job_id": "nhs-5555750",
-    "source": "NHS Jobs",
-    "title": "Receptionist",
-    "company": "Integrated Care 24 Ltd",
-    "advertiser_name": "Integrated Care 24 Ltd",
-    "location": "Brighton, BN1 1AE",
-    "region": "Sussex",
-    "salary": "£12.71",
-    "employment_type": "Permanent",
-    "posted_date": "2026-08-21T17:05:37.031092346",
-    "closing_date": "2026-09-04",
-    "description": "The Role Express new ideas, take initiative and save lives. Others talk about being brave, at IC24, were made that way. From providing high quality integrated urgent care for over six million people, to thinking of innovative solutions for our patients every role at IC24 is made to be brave. Are you approachable, organised, and passionate about helping others? Were looking for a Receptionist to be the welcoming face of our busy GP practices and play a vital role in ensuring our patient services run smoothly. This is a dynamic and rewarding position where no two days are the same. Youll be at the heart of patient care, working alongside a supportive team that values professionalism, confidentiality, and exceptional service. This role is perfect for someone with previous experience in a healthcare setting or strong administrative skills. What Youll Be Doing Warmly greet and check in patients, ensuring a positive first impression Book appointments and manage queries via phone, email, and in person Process prescription requests and accurately update patient records Handle payments, post, emails, and other administrative tasks Keep reception and consulting areas tidy and well-stocked Manage patient registrations and assist with online service queries Send referral forms and liaise with hospitals and community services Maintain strict confidentiality and comply with data protection regulations The Role Express new ideas, take initiative and save lives. Others talk about being brave, at IC24, were made that way. From providing high quality integrated urgent care for over six million people, to thinking of innovative solutions for our patients every role at IC24 is made to be brave. Are you approachable, organised, and passionate about helping others? Were looking for a Receptionist to be the welcoming face of our busy GP practices and play a vital role in ensuring our patient services run smoothly. This is a dynamic and rewarding position where no two days are the same. Youll be at the heart of patient care, working alongside a supportive team that values professionalism, confidentiality, and exceptional service. This role is perfect for someone with previous experience in a healthcare setting or strong administrative skills. What Youll Be Doing: Warmly greet and check in patients, ensuring a positive first impression; Book appointments and manage queries via phone, email, and in person; Process prescription requests and accurately update patient records; Handle payments, post, emails, and other administrative tasks; Keep reception and consulting areas tidy and well-stocked; Manage patient registrations and assist with online service queries; Send referral forms and liaise with hospitals and community services; Maintain strict confidentiality and comply with data protection regulations. What Youll Bring: A calm, courteous, and caring approach; Excellent communication and IT skills, including Microsoft Office; Ability to multitask and work efficiently under pressure; Strong commitment to confidentiality and data security; Flexibility to cover shifts and adapt to changing priorities; Accurate record-keeping and a friendly, approachable manner. This role values collaboration, encourages an inclusive and supportive environment, and promotes building respectful relationships with colleagues and patients from diverse backgrounds, including those with different communication styles and ways of thinking. Package Description: The Role Express new ideas, take initiative and save lives. Others talk about being brave, at IC24, were made that way. From providing high quality integrated urgent care for over six million people, to thinking of innovative solutions for our patients every role at IC24 is made to be brave. Are you approachable, organised, and passionate about helping others? Were looking for a Receptionist to be the welcoming face of our busy GP practices and play a vital role in ensuring our patient services run smoothly. This is a dynamic and rewarding position where no two days are the same. Youll be at the heart of patient care, working alongside a supportive team that values professionalism, confidentiality, and exceptional service. This role is perfect for someone with previous experience in a healthcare setting or strong administrative skills. What Youll Be Doing Warmly greet and check in patients, ensuring a positive first impression Book appointments and manage queries via phone, email, and in person Process prescription requests and accurately update patient records Handle payments, post, emails, and other administrative tasks Keep reception and consulting areas tidy and well-stocked Manage patient registrations and assist with online service queries Send referral forms and liaise with hospitals and community services Maintain strict confidentiality and comply with data protection regulations What Youll Bring A calm, courteous, and caring approach Excellent communication and IT skills, including Microsoft Office Ability to multitask and work efficiently under pressure Strong commitment to confidentiality and data security Flexibility to cover shifts and adapt to changing priorities Accurate record-keeping and a friendly, approachable manner This role values collaboration, encourages an inclusive and supportive environment, and promotes building respectful relationships with colleagues and patients from diverse backgrounds, including those with different communication styles and ways of thinking. Who are we? We are Integrated Care 24 (IC24), the leading not for profit Social Enterprise providing innovative and patient focused primary care services. IC24 is committed to improving access to health and social care for our patients and reducing the demand on secondary care services. IC24 provides services to over 6 million patients, including GP led out-of-hours services, NHS 111, primary care and secondary care support services. Location Ship Street Surgery, Ground Floor/First Floor, Ship Street, Brighton, BN1 1AE Whats in it for you:- Hourly pay of £12.71 Opportunity to join the NHS Pension Scheme Additional annual leave above statutory minimum based on service Enhanced family leave (maternity, paternity and adoption leave and pay) Inclusive wellbeing benefits Employee Assistance Programme including free 24/7 independent counselling and occupational health services Professional development opportunities Free membership to our reward and discount platform Access to Blue Light Card and other NHS Discount Schemes Due to the nature of this position, employment is subject to proof of eligibility to work in the UK, completion of a satisfactory standard DBS disclosure and two references. We celebrate brave ideas and brave people. careers.ic24.org.uk We have a duty to safeguard, protect and promote the welfare of those who use our services and our employees. This means we take every step we can to protect from harm, abuse and damage. We are committed to providing equal opportunities for all and encourage applications from ethnic minorities, those with disabilities, LGBTQ+ communities, neurodiverse individuals, and other under-represented groups. Were dedicated to creating an inclusive environment where everyone feels they belong. If you need any workplace adjustments during the application or interview process, or have accessibility requirements, please contact the recruitment team atcareers@ic24.nhs.uk.",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B0214-26-0121",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B0214-26-0121",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
-  },
-  {
-    "job_id": "nhs-5550487",
-    "source": "NHS Jobs",
-    "title": "Administrator",
-    "company": "Sussex Community NHS Foundation Trust",
-    "advertiser_name": "Sussex Community NHS Foundation Trust",
-    "location": "Chichester, PO201EZ",
-    "region": "Sussex",
-    "salary": "£25760.00 to £27476.00",
-    "employment_type": "Permanent",
-    "posted_date": "2026-08-20T09:17:41.114248734",
-    "closing_date": "2026-08-26",
-    "description": "Are you looking for a role where every day brings new challenges and the opportunity to change the lives of people in Sussex? Now is the perfect time to be part of our dynamic Community Therapy Team. This is morethat just a job- it's a chance to be part of a therapy service that helps people recover at home and regain their independence, giving them the confidence to get back to daily life. The principle of the service ensuring that recovery involves working towards the person being as independent as possible through enablement. Please note: Due to recent changes in UK immigration and visa rules, this role is unlikely to be eligible for Skilled Worker visa sponsorship. Applicants who do not currently have the right to work in the UK may not be considered. Candidates requiring sponsorship should review the eligibility criteria on the gov.uk website before applying to assess their eligibility for a Certificate of Sponsorship for this role. Skilled Worker visa: going rates for eligible occupation codes - GOV.UK Health and Care Worker visa: If you'll need to meet different salary requirements - GOV.UK The focus of this role is providing day-to-day administrative support for the multidisciplinary team (MDT). You will be liaising with patients and their families, staff and other departments or agencies by telephone, taking messages, answering routine enquiries, and escalating queries as appropriate. You will be involved in daily clinical MDT meetings, ensuring patient records are appropriately updated and discharge letters completed. A key part of the role is leading on the co-ordination of patient experience outcome measures for the service and providing daily reports on staffing data for the leadership team. Other duties you will undertake include managing medical devices used by the team and supporting them with any system issues such as reporting and dealing with IT problems. You will also have the opportunity to contribute to service planning and development in relation to administration systems and procedures. Further information is available in the attached job description and person specification. If you would like to discuss this role or find out more, you can contact our Team Lead or Clinical Leads to discuss further.",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9150-26-0504",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9150-26-0504",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
-  },
-  {
-    "job_id": "nhs-5548209",
-    "source": "NHS Jobs",
-    "title": "Receptionist (Bank)",
-    "company": "Warmdene Surgery",
-    "advertiser_name": "Warmdene Surgery",
-    "location": "Brighton, BN1 8DD",
-    "region": "Sussex",
-    "salary": "£12.82",
-    "employment_type": "Bank",
-    "posted_date": "2026-08-19T10:22:46.522227086",
-    "closing_date": "2026-09-06",
-    "description": "This is an exciting opportunity to work as a receptionist at a GP practice covering sessions for scheduled holidays, sickness and other adhoc requests. The purpose of the role is to: Receive, assist and direct patients in accessing the appropriate appointments, service or healthcare professional in a courteous, efficient and effective way Offer general assistance to the Practice and project a positive and friendly image to patients and other visitors, either in person or via the telephone Undertake a variety of administrative duties to assist in the smooth running of the Practice. Facilitate effective communication between patients, members the primary health care team, secondary care and other associated healthcare agencies We are looking for a positive and enthusiastic receptionist to join our established and hard working team. The role requires someone who is diligent, friendly and capable, someone who is self motivated, a good communicator and always striving for the best for the patients. Ideally the candidate will have experience of working in a reception environment within a healthcare setting but this is not essential as on-the-job training will be provided. Exceptional candidates without healthcare experience but with a strong and relevant background will also be considered. JOB TITLE: Receptionist REPORTS TO: Practice Manager HOURS: Morning sessions run from 07:45am until 12:45pm and afternoon sessions run from 13:45pm until 18:45pm. Job Summary: Offer general assistance to the Practice team and project a positive and friendly image to patients and other visitors, either in person or via the telephone Undertake a variety of administrative duties to assist in the smooth running of the Practice including the provision of clerical support to clinical staff and other members of the Practice team Duties and Responsibilities: The duties and responsibilities to be undertaken by members of the Practice reception team are defined in the job description and may be varied from time to time under the direction of the Practice Manager, dependent on current and evolving practice workload and staffing levels.",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1635-26-0001",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1635-26-0001",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
-  },
-  {
-    "job_id": "nhs-5546075",
-    "source": "NHS Jobs",
-    "title": "Administrator",
-    "company": "Bersted Green Surgery",
-    "advertiser_name": "Bersted Green Surgery",
-    "location": "Bognor Regis, PO22 9TD",
-    "region": "Sussex",
-    "salary": "£12.96",
-    "employment_type": "Permanent",
-    "posted_date": "2026-08-18T13:23:37.875792865",
-    "closing_date": "2026-09-01",
-    "description": "We excited to offer a position for a part time administrator to join the team at Bersted Green Surgery. If you would like to work in a fast pace environment and have great attention to detail, come and join our friendly team. If you have any questions or would like to hear more about the role please contact Vicky on 01243 864843. The main duties of the role are transferring patient records in and out, coding, monitoring QOF alerts, inviting patients for annual reviews and vaccinations. To provide administrative support and services to all members of the practice team, ensuring these are carried out within practice guidelines and policies. Main Responsibilities: Transferring patient medical records in and out of the surgery. Invite patients for appointments for NHS health Checks, annual reviews and vaccinations. Coding of incoming documents. Design and run searches and reports as required. Monitor QOF alerts in co-ordination with the Administration Manager to ensure patient groups are targeted for appropriate action. General office duties as required. Support all clinical staff with general tasks as requested. Provide cover for members of the administration and reception team during periods of sickness and annual leave.",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0614-26-0009",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0614-26-0009",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
-  },
-  {
-    "job_id": "nhs-5546281",
-    "source": "NHS Jobs",
-    "title": "Receptionist/Administrator",
-    "company": "Sussex Partnership NHS Foundation Trust",
-    "advertiser_name": "Sussex Partnership NHS Foundation Trust",
-    "location": "St Leonards on Sea, TN37 7PT",
-    "region": "Sussex",
-    "salary": "£25760.00 to £27476.00",
-    "employment_type": "Permanent",
-    "posted_date": "2026-08-18T12:49:21.205954666",
-    "closing_date": "2026-09-01",
-    "description": "The Trust is looking for a flexible and enthusiastic Receptionist/ Administrator to join our friendly and welcoming admin team at the Woodlands Centre for Acute Care. We are a 23-bed inpatient unit, comprising female and male wards, two 136 Place of Safety Suites, and the Crisis Resolution and Home Treatment (CRHT) team. This role offers an excellent opportunity to develop a broad range of administrative and interpersonal skills in a varied and rewarding environment. As a key member of the Reception and Administration team, the post-holder will support the smooth running of the overall Woodlands service, undertaking a range of reception and administrative duties. The position is fast-paced and people-focused, involving regular contact with patients, the multidisciplinary team (MDT), external agencies, and carers, both in person and over the phone. We are looking for someone with: Excellent customer service and communication skills Strong attention to detail and accuracy A flexible approach, with the ability to cover colleagues' annual leave and sickness when required A positive and professional attitude Welcome and assist members of the public, service users, carers/relatives, and staff in a professional and empathetic manner. Communicate clearly and sensitively, particularly when dealing with individuals who may be distressed or upset. Maintain the efficient operation of the reception area, ensuring all visitors and calls are managed promptly and appropriately. Provide general administrative support to the wider team as required, including filing, scanning, archiving, uploading documents, printing, auditing, and other administrative tasks to support the overall function of the team. Uphold the highest standards of confidentiality, data protection, and security at all times to safeguard both patient and staff information and their safety. Ensure accuracy and attention to detail in all administrative processes and record-keeping. Contribute to a positive and supportive working environment, demonstrating professionalism, flexibility, and teamwork in all interactions. Ensure the reception area and adjoining rooms are kept clean, tidy, and well-presented, reporting any maintenance issues as appropriate. Excellent verbal and written communication skills. Strong interpersonal skills with the ability to handle sensitive situations with empathy and discretion. High level of attention to detail and accuracy. Ability to prioritise workload and manage time effectively in a busy environment. Commitment to delivering outstanding customer service and maintaining confidentiality. In order to be a successful Receptionist/Administrator in our team you will have: A relevant NVQ Level 2/3 qualification / RSA 3 or equivalent Experience in a Administration role or relevant administration experience Experience using Microsoft Office including Outlook, Word and Excel Experience of working within a physical or mental health care setting although not essential. Are familiar with the use of Carenotes It would also be advantageous if you: Have experience of working within NHS",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9354-26-1006",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9354-26-1006",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
-  },
-  {
-    "job_id": "nhs-5536742",
-    "source": "NHS Jobs",
-    "title": "Receptionist",
-    "company": "Arlington Road Medical Practice",
-    "advertiser_name": "Arlington Road Medical Practice",
-    "location": "Eastbourne, BN21 1DH",
-    "region": "Sussex",
-    "salary": "Negotiable",
-    "employment_type": "Permanent",
-    "posted_date": "2026-08-13T11:31:48.514862096",
-    "closing_date": "2026-09-11",
-    "description": "Arlington Road Medical Practice is looking for a friendly, welcoming and organised Receptionist to join our team. As the first point of contact for our patients, you will play an important front-of-house role, providing a professional, compassionate and efficient service both at the reception desk and over the telephone. We are looking for someone who enjoys working with people, communicates confidently and calmly, and can work effectively as part of a busy GP practice team while ensuring patients receive the right support and information. You dont need any formal medical qualifications or previous experience in healthcare for this role great people skills are what really matter! Full training and development will be provided as part of your induction, giving you the knowledge and confidence you need to carry out the role effectively. Youll need to be a confident and clear communicator, as youll be speaking with patients both face-to-face and over the telephone. A good level of literacy is important, as the role involves reading and responding to information accurately. Typing and computer skills will also be a key part of the role , so youll need to be comfortable using IT and entering information accurately and efficiently. Most importantly, were looking for someone who is friendly, approachable, patient and compassionate , with a genuine desire to help people and provide an excellent service to our patients. Providing front-of-house reception , welcoming patients into the practice, checking them in and assisting with queries in a friendly and professional manner. Answering phone calls and dealing with patient queries. Booking, changing and cancelling appointments, including urgent and routine appointments. Checking and responding to messages, including clinical and administrative requests. Liaising with GPs, nurses, healthcare assistants and other members of the practice team. Signposting patients to the most appropriate service, such as a pharmacist, NHS 111, community services or a clinician. Handling sensitive and confidential information while maintaining patient confidentiality and data protection. Supporting the wider practice team with general administrative tasks. Dealing with patients in a professional, friendly and compassionate way As a Receptionist at Arlington Road Medical Practice, you will be an important part of our front-of-house team and one of the first points of contact for our patients. Youll provide a friendly, professional and helpful service both at the reception desk and over the telephone, helping patients access the right service or healthcare professional. Alongside patient-facing responsibilities, youll provide general administrative support to the practice team, helping with the smooth running of the practice and supporting our clinical and administrative colleagues. Good communication, a positive approach and the ability to work well as part of a team are key to the role. 1. Reception and Patient Services Welcome patients and visitors to the practice in a friendly, professional and helpful manner. Register and check in patients for appointments and clinics. Book, amend and cancel appointments both face-to-face and using the practices computerised appointment system. Contact patients to arrange appointments, reviews and clinics where appropriate. Register new patients, temporary residents and other patients in accordance with practice procedures, ensuring the appropriate information and forms are completed. Receive and deal with patient queries and messages both at the reception desk and electronically, passing information to the appropriate member of the practice team when required. Provide patients with appropriate information and signposting to help them access the most suitable service or healthcare professional. 2. Telephones and Communication Answer incoming telephone calls in a professional, friendly and helpful manner. Book, amend and cancel appointments over the telephone. Deal with general enquiries and provide appropriate information within the scope of the role. Communicate test results and other information to patients in accordance with practice procedures and confidentiality requirements. Take accurate messages and ensure they are passed to the appropriate member of the practice team. Transfer calls to the appropriate person or service when necessary. Communicate effectively with patients, carers, colleagues and other healthcare professionals, adapting communication where required to meet individual needs. 3. Hospital Post and Samples Receive hospital correspondence and post, date stamp and sort appropriately for scanning or further action. Receive samples from patients and staff, ensuring they are logged and processed correctly. Complete relevant forms and documentation where required. Check that samples are correctly labelled and packaged in accordance with practice procedures. Check fridges prior to collection where required. Ensure hospital correspondence and samples are prepared and ready for collection 4. Outgoing Mail Prepare, frank and log outgoing post in accordance with practice procedures. Ensure outgoing correspondence is handled securely and confidentially. 5. Confidential Waste and Shredding Dispose of confidential paperwork appropriately using the designated confidential waste facilities. Ensure patient and practice information is handled and disposed of in accordance with GDPR and practice confidentiality procedures. 6. Closing and Securing the Practice For staff working the late shift: Check that windows and external doors are securely locked. Ensure computers, equipment and lights are switched off where appropriate. Ensure the practice is secure and the burglar alarm is set when the building is empty. Report any security concerns or issues to the appropriate person. 7. General Responsibilities Carry out any other reasonable duties appropriate to the role and level of responsibility. Support colleagues and contribute to the smooth and effective running of the practice. Work as part of the wider practice team, maintaining a positive and professional approach at all times. Working hours and availability will be discussed as part of the application and interview process. Please note that morning-only availability is not suitable for this position . It is essential that candidates are able to work shifts that finish at 6:00pm and 6:30pm . The working pattern may include a combination of full-day and afternoon-only shifts.",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4180-26-0002",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4180-26-0002",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
-  },
-  {
-    "job_id": "nhs-5537052",
-    "source": "NHS Jobs",
-    "title": "Team Administrator",
-    "company": "Sussex Partnership NHS Foundation Trust",
-    "advertiser_name": "Sussex Partnership NHS Foundation Trust",
-    "location": "Crawley, RH11 7DH",
-    "region": "Sussex",
-    "salary": "£25760.00 to £27476.00",
-    "employment_type": "Permanent",
-    "posted_date": "2026-08-13T14:30:55.247443192",
-    "closing_date": "2026-08-27",
-    "description": "Would you like the opportunity to work in a specialist Veteran mental health team? We are looking for an experienced administrator to join our lively and passionate mental health team; supporting veterans and reservists presenting with mental health problems and their families. Some of our team have a personal connection to veteran's, either with a military background or holding a close relationship with someone who does. This role of administrator is to provide a comprehensive range of secretarial and administrative services to the team. To liaise with other departments and services and to respond effectively to enquiries from the general public, service users, referrers and other agencies. To consistently deliver a client focussed service, which promotes good customer service and effective working relationships. We cover Kent, Surrey and Sussex and deliver assessments, support and psychological therapy within our Op Courage team. This post will be based at Wentworth House at Crawley Hospital . The Team Administrator will provide a full secretarial and administrative service, having daily liaison with a wide range of staff at all levels and regular contact with people who use services and their carers, who may at times be distressed or angry. This includes providing dedicated administrative support for the service's Consultant Psychiatrist. The Team Administrator will be responsible for ensuring the effectiveness of the office environment for the team. About us Support the Trust's visions and values and in particular the promotion of a positive approach to diversity, equality, rights, and treating others with dignity and respect; to eliminate discrimination and disadvantage in service delivery and employment, and to manage, support or comply by adhering to the Trust's Equality and Diversity Policy. To protect the health and safety of our staff/workers, patients, and those attending our sites, we encourage our workforce to get fully vaccinated against COVID Job responsibilities Provide comprehensive secretarial support; handling all aspects of correspondence, processing referrals and dealing with enquiries Filing Produce letters and reports. Some letters and reports may contain very distressing content Send out routine correspondence and self help information Managing diaries Preparation of papers Facilitate meetings, preparing agendas, taking minutes Process mail Prepare presentation materials Person Specification Qualifications Essential NVQ 3 or equivalent RSA 3 or equivalent experience and evidence of further practical experience or equivalent Good standard of secondary education; GCSE at Grade C or above or equivalent Knowledge/Experience Proven experience of a range of secretarial procedures Experience of producing documents to a high standard of presentation with good accuracy Experience of maintaining office systems Experience of working as part of a team Disclosure and Barring Service Check This post is subject to the Rehabilitation of Offenders Act (Exceptions Order) 1975 and as such it will be necessary for a submission for Disclosure to be made to the Disclosure and Barring Service (formerly known as CRB) to check for any previous criminal convictions. Certificate of Sponsorship Applications from job seekers who require current Skilled worker sponsorship to work in the UK are welcome and will be considered alongside all other applications. For further information visit theUK Visas and Immigration website (Opens in a new tab). From 6 April 2017, skilled worker applicants, applying for entry clearance into the UK, have had to present a criminal record certificate from each country they have resided continuously or cumulatively for 12 months or more in the past 10 years. Adult dependants (over 18 years old) are also subject to this requirement.Guidance can be found here Criminal records checks for overseas applicants (Opens in a new tab). Employer name Sussex Partnership NHS Foundation Trust SERVICE ADDRESS: Wentworth House Crawley Hospital Crawley RH11 7DH Employer's website https://www.sussexpartnership.nhs.uk/ (Opens in a new tab)",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9354-26-0968",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9354-26-0968",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
-  },
-  {
-    "job_id": "nhs-5538492",
-    "source": "NHS Jobs",
-    "title": "Team Administrator / Coordinator",
-    "company": "Sussex Partnership NHS Foundation Trust",
-    "advertiser_name": "Sussex Partnership NHS Foundation Trust",
-    "location": "Worthing, BN11 1HS",
-    "region": "Sussex",
-    "salary": "£28392.00 to £31157.00",
-    "employment_type": "Permanent",
-    "posted_date": "2026-08-13T14:51:43.994170107",
-    "closing_date": "2026-08-27",
-    "description": "The Clinical Governance Team are looking for a committed and enthusiastic individual to provide high-quality secretarial and administrative support to our busy and friendly team. The successful candidate will be computer literate, with excellent attention to detail, strong organisational skills, and a commitment to consistently delivering a high-quality service. In this role, you will act as a Team Administrator/Coordinator, requiring excellent communication skills and a proactive approach to supporting team activities. You will play a key role in ensuring governance processes run effectively, contributing to the delivery of safe, high-quality mental health care. This post requires a flexible and adaptable approach, with the ability to prioritise and manage a varied workload. You will work both independently and as part of a team. In return, we offer support, supervision, and development opportunities within a rewarding and impactful role. To provide comprehensive secretarial and administrative support to the Business Manager and wider team. To coordinate meetings, including preparing agendas, taking accurate minutes, and distributing documentation in a timely manner. To maintain and monitor staff sickness and absence records, ensuring accuracy and confidentiality of employee information. To use the Trust Shared Business System (Oracle) to raise requisitions, process orders, and receipt invoices as required. To maintain oversight of administrative processes and workflow within the team, supporting efficiency and effective service delivery. To consistently deliver a high-quality, service user-focused service, promoting excellent customer care and effective working relationships. To support clinical governance processes, including data management, reporting, and coordination of governance activity. Please see associated Job Description and Person Specification for more details on the main responsibilities. Please see the Job Description and Personal Specifications for full details of the role and responsibilities.",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9354-26-0990",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9354-26-0990",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
-  },
-  {
-    "job_id": "nhs-5551395",
-    "source": "NHS Jobs",
-    "title": "Mental Health Act Administrator and Medical Secretary",
-    "company": "Elysium Healthcare",
-    "advertiser_name": "Elysium Healthcare",
-    "location": "Brighton, BN3 4FH",
-    "region": "Sussex",
-    "salary": "£28000.00",
-    "employment_type": "Permanent",
-    "posted_date": "2026-08-20T12:25:46.875120909",
-    "closing_date": "2026-09-18",
-    "description": "As the Mental Health Act Administrator and Medical Secretary you will work as part of the administration team at a service for Children and Young Peoples Mental Health Service (CYPMHS). You will work 37.5 hours a week ensuring the department upholds a confidential and efficient service in accordance with the Mental Health Act 1983 (amended November 2007). You will be responsible for managing and analysing Mental Health Act correspondence and documentation, this includes undertaking assessment requests, transfer of authority, consent to treatments, renewals of detention, consent to treatments and arranging hearings, tribunals and appeals. You will also liaise with clinicians, allied professionals, service users, their families, legal representatives and official agencies, receiving and responding to enquiries and requests for information in accordance with company policy, service level agreements and statutory regulations. As the Medical Secretary, you will work alongside the Registered Clinicians assisting with confidential paperwork, servi As the Mental Health Act Administrator and Medical Secretary, you will join the administration team at the Children and Young Peoples Mental Health Service (CYPMHS). Your role involves managing and analyzing Mental Health Act documentation, handling assessment requests, authority transfers, consent to treatments, detention renewals, and organizing hearings, tribunals, and appeals. You will liaise with various stakeholders, ensuring compliance with company policy and statutory regulations. As a Medical Secretary, you support Registered Clinicians with confidential paperwork and service user records, improving process efficiency. You will contribute to administrative tasks, undertake meetings as a minute taker, and ensure information is correctly processed to meet legal requirements. Elysium Healthcare offers various training courses to help reach your career goals, emphasizing wellbeing and career development for its staff. As the Mental Health Act Administrator and Medical Secretary you will work as part of the administration team at a service for Children and Young Peoples Mental Health Service (CYPMHS). You will work 37.5 hours a week ensuring the department upholds a confidential and efficient service in accordance with the Mental Health Act 1983 (amended November 2007). You will be responsible for managing and analysing Mental Health Act correspondence and documentation, this includes undertaking assessment requests, transfer of authority, consent to treatments, renewals of detention, consent to treatments and arranging hearings, tribunals and appeals. You will also liaise with clinicians, allied professionals, service users, their families, legal representatives and official agencies, receiving and responding to enquiries and requests for information in accordance with company policy, service level agreements and statutory regulations. As the Medical Secretary, you will work alongside the Registered Clinicians assisting with confidential paperwork, service users records and GP letters. You will liaise with external agencies to get up-to-date information on service users and GP letters. In this role, you will have the opportunity to improve processes and the general flow of information so that the service can operate efficiently. At Elysium, we want the best for you. That’s why you will have continuous access to a range of training courses to enable you to reach your career goals. After all, a better you means better care. That’s what delivering great healthcare should feel like. As a Mental Health Act Administrator and Medical Secretary, you will be: Dealing with administrative tasks associated with Associate Managers appeal, renewal Hearings and Mental Health Tribunals including meeting with detained patients to explain their rights of appeal against detention under the MHA. Attending Associate Hospital Managers Hearings and support Mental Health Tribunals. Dealing with the administration of Consent to Treatment Regulations. Assisting in the administrative tasks associated with Care Quality Commission visits and reports. Co-ordinating the accurate and timely completion and processing of section papers and associated documentation ensuring the relevant information, signatories and permissions are obtained and recorded in accordance with the requirements of the MHA and code of practice. Ensuring that all information and documentation is correctly processed in line with policies and procedures in order that regulatory and statutory requirements are met. Maintaining the audit trail ensuring up-to-date and accurate information can be provided or accessed as required. Supporting the Registered Clinician with letters and general documentation Supporting all meetings as minute taker as requested chaired by the Medical Director, SMT or ad hoc. Receiving and record typing, checking, and amending for spelling and grammatical errors, completing within given deadlines. Participating in the administration, development and evaluation of regulatory matters. Co-ordinating the hospital diary and the whereabouts of the clinicians Booking in meetings Arranging Conference Calls To be successful in this role, you'll need: 4 GCSEs or equivalent (including English) Word Processing qualification is desirable MHA Administration qualification or equivalent is desirable Computer literate (Microsoft Office preferred) Experience of Medical Records administration in a mental health setting is desirable Experience of administration/office systems Experience taking notes on the meetings Communication and organisational skills Location : New Church Road Hove BN3 4FH Brighton & Hove Clinic provides a Children and Young People's Mental Health Service (CYPMHS) Tier 4 Eating Disorder service for young people aged 12 up to 18 years with a primary diagnosis of eating disorder; or an eating difficulty with a co-morbid presentation for example mental health or psychological issues, such as depression, OCD or anxiety or self-harm. What You’ll Get At Elysium Healthcare, we believe in taking care of the people who care for others, you’ll enjoy a comprehensive benefits package designed to support your wellbeing, growth, and future: Annual base salary of £28,000 The equivalent of 33 days annual leave (including bank holidays) – plus your birthday off and the option to buy additional annual leave, in our annual selection window. Career development and training to help you achieve your professional goals Access to our Rewards & Benefits platform Ely-Vate; Your one-stop destination for everyday savings, exclusive benefits, and wellbeing hub! Wellbeing support and activities to help you maintain a healthy work-life balance Access to Blue Light Card, which provides a range of exclusive offers and discounts Life Assurance, for added peace of mind Stream – instant access to earned wages when you need it, plus access to save, directly from your wages, alongside financial wellbeing support. 24/7 GP service and second medical opinion, to ensure you are the best you can be Enhanced Maternity Package, so you can truly enjoy this special time Pension contribution, to help secure your future Free meals About your next employer: Elysium Health care has over 8,000 employees and a unique approach to the delivery of care. With a network of over 80 services across England and Wales covering Mental Health, Neurological, Learning Disabilities & Autism, Children & Education, there is opportunity for you to grow and move. Elysium Healthcare is part of Ramsay Health Care with a global network that extends across 10 countries and employs over 86,000 people globally. Elysium Healthcare follows safer recruitment of staff for all appointments and is a Disability Confident employer, committed to inclusive and accessible recruitment. It is a requirement that all staff understand it is each person’s individual responsibility to promote and safeguard the welfare of service users. All candidates will be subject to a DBS disclosure",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0132-26-1831",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0132-26-1831",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
-  },
-  {
-    "job_id": "nhs-5492880",
-    "source": "NHS Jobs",
-    "title": "PCN Office Administrator",
-    "company": "East and Central Brighton Primary Care Network",
-    "advertiser_name": "East and Central Brighton Primary Care Network",
-    "location": "Brighton, BN1 1ND",
-    "region": "Sussex",
-    "salary": "Negotiable",
-    "employment_type": "Permanent",
-    "posted_date": "2026-08-20T08:52:11.404107576",
-    "closing_date": "2026-09-06",
-    "description": "East & Central Brighton PCN are seeking an experienced and highly organised Office Administrator to provide operational, administrative, workforce and governance support across the PCN. What We Offer NHS Pension Scheme. Generous annual leave entitlement. Training and development opportunities. Flexible and supportive working arrangements. The opportunity to contribute to improving healthcare services for local communities across Brighton. This is an exciting opportunity for an individual with strong organisational and people skills who enjoys working in a fast-paced healthcare environment and supporting service development.The Office Administrator will be responsible for the smooth day-to-day running of the PCN office environment and administrative functions. The post holder will coordinate office systems, workforce administration, recruitment processes, governance requirements and staff support activities, contributing to a well-managed and compliant organisation. Main Responsibilities Office and Facilities Management Oversee the day-to-day operation of PCN office facilities, ensuring they are safe, organised and welcoming. Manage room bookings and coordinate the use of administrative spaces. Liaise with premises providers and contractors regarding maintenance, repairs and service issues. Order and manage office supplies, equipment and resources. Maintain equipment inventories and coordinate servicing, testing and maintenance schedules. Support compliance with health and safety requirements, including fire safety, risk assessments and first aid arrangements. Workforce and HR Administration Coordinate recruitment processes, including advertising vacancies, arranging interviews and issuing correspondence. Assist with onboarding new staff, preparing offer documentation, induction packs and access requests. Support pre-employment checks, including DBS applications, right-to-work checks, references and employment compliance requirements. Maintain accurate and confidential staff records in line with GDPR, employment legislation and CQC requirements. Monitor annual leave, sickness absence and workforce records, escalating issues where appropriate. Maintain records relating to mandatory training, professional registration, occupational health and staff vaccinations. Support workforce planning, staff wellbeing initiatives and learning and development activities. Assist with the development and maintenance of an annual PCN training programme. Governance and Compliance Support compliance with CQC standards and PCN governance requirements. Maintain policy, procedure and operational documentation, ensuring version control and accessibility. Assist with internal and external audits and provide evidence and documentation as required. Ensure information governance, confidentiality and data protection requirements are adhered to at all times. Support the implementation and review of policies and procedures across the organisation. Administrative and Operational Support Organise and minute Board meetings, leadership meetings and other PCN forums. Manage PCN-wide communications, ensuring information is shared effectively with practices and staff. Process staff expense claims and maintain associated records. Act as a key point of contact for PCN staff, practices and external stakeholders. Provide administrative support to service developments, projects and operational initiatives. Provide support covering reception at our weekly Health Hub. Service Support and Improvement Work with clinical and operational colleagues to support the smooth delivery of PCN clinics. Coordinate resources, space and equipment to support efficient service delivery. Identify opportunities to improve administrative systems, processes and staff experience. Contribute to service improvement projects and the development of efficient ways of working.",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/M0022-26-0007",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/M0022-26-0007",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "posted_date_basis": ""
   }
 ]

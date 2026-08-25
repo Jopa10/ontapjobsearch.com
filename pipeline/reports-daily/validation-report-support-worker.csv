@@ -1,7 +1,7 @@
 ﻿metric,value
 total rows input,10000
-total rows included,46
-total rows dropped,9951
+total rows included,48
+total rows dropped,9952
 title classification count - HIGH_CONFIDENCE,146
 title classification count - ELASTIC_FIT,46
 title classification count - REVIEW_CONTEXT_DEPENDENT,27
@@ -55,14 +55,14 @@ anchor elastic count - Hampshire,0
 other elastic count - Hampshire,1
 total rows output - Hampshire,15
 job_id included - Hampshire,1674633; 1401784780; 1778648; 1401784261; 1401784414; 1401784339; 1401784493; 1401784594; 107332363; 1401784687; 107769099; 1401784767; 1401784682; 1401784679; 107856573
-selection scenario - London,SCENARIO_3_COMPLETE_WITH_OTHER_ELASTIC
-selection message - London,"London selection complete: 10 selected after HIGH_CONFIDENCE, London ELASTIC_FIT, and other ELASTIC_FIT roles."
-credible total - London,10
+selection scenario - London,SCENARIO_3_MANUAL_SELECTION_APPLIED
+selection message - London,London manual_select applied additively: 2 row(s) prioritised; 12 selected.
+credible total - London,12
 high confidence count - London,8
 anchor elastic count - London,1
 other elastic count - London,1
-total rows output - London,10
-job_id included - London,1621461; 23643_223283749; 23643_225516212; 1780022; 1778477; 1664745; 23643_225476071; 1787859; 1742472; 23643_225513634
+total rows output - London,12
+job_id included - London,1621461; 23643_223283749; 23643_225516212; 1780022; 1778477; 1664745; 1785508; 1785507; 23643_225476071; 1787859; 1742472; 23643_225513634
 selection scenario - Surrey,SCENARIO_4_BELOW_PUBLISH_THRESHOLD
 selection message - Surrey,Surrey selection below publish threshold: 5/6 credible roles. Do not publish/refresh this slice from this run.
 credible total - Surrey,5

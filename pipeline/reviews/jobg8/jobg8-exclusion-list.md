@@ -6,9 +6,249 @@ The `excluded_on` date is the day the exclusion decision was made.
 To restore a job, edit only its `action:` line to `action: select`.
 On the next JobG8 run that exact job ID will be restored and removed from this list.
 
-remembered_exclusions: 149
+remembered_exclusions: 170
 
 ## SERVICE / ADMIN — EXCLUDED
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-25
+title: Technical Business Support Officer
+employer: The Recruitment Group
+region: 
+town: Oxfordshire
+salary: 
+job_id: 107821384
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-25
+title: Services Sales Coordinator
+employer: 83zero Ltd
+region: 
+town: London
+salary: 
+job_id: 1718471
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-25
+title: Property Claims Handler
+employer: Adjusting Appointments Limited
+region: 
+town: Yorkshire
+salary: 
+job_id: 1732124
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-25
+title: Project Coordinator
+employer: Michael Page Business Support
+region: 
+town: London
+salary: 
+job_id: 1738071
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-25
+title: PA to Directors
+employer: Office Angels
+region: 
+town: Hertfordshire
+salary: 
+job_id: 1770681
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-25
+title: PA to CEO
+employer: Allen Associates
+region: 
+town: Oxfordshire
+salary: 
+job_id: 23643_225527820
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-25
+title: Operations Co-Ordinator
+employer: Ernest Gordon Recruitment Limited
+region: 
+town: Somerset
+salary: 
+job_id: 1743454
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-25
+title: Nightshift Co-ordinator
+employer: Booker Group
+region: 
+town: Norfolk
+salary: 
+job_id: 1778709
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-25
+title: Intelligent Office / Dynamic Planner Technology training officer
+employer: Astral Recruitment
+region: 
+town: Sussex
+salary: 
+job_id: 1742706
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-25
+title: Iba Accounts Assistant
+employer: Cameron James
+region: 
+town: London
+salary: 
+job_id: 1742718
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-25
+title: Financial Services Administrator
+employer: Atkinson Moss
+region: 
+town: Norfolk
+salary: 
+job_id: 1742723
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-25
+title: Financial Planner
+employer: Rayment Recruitment
+region: 
+town: Cheshire
+salary: 
+job_id: 107731698
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-25
+title: Executive Assistant /Board Coordinator
+employer: The Maine Group
+region: 
+town: London
+salary: 
+job_id: 1778530
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-25
+title: Document Controller
+employer: Hays Accounts and Finance
+region: 
+town: Birmingham
+salary: 
+job_id: 23643_225528233
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-25
+title: Claims Handler
+employer: Claims Recruitment Services
+region: 
+town: Yorkshire
+salary: 
+job_id: 1749872
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-25
+title: Chartered Financial Planner
+employer: Pavilion Recruitment Solutions
+region: 
+town: Kent
+salary: 
+job_id: 1743079
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-25
+title: COMPLEX PERSONAL INJURY CLAIMS HANDLER
+employer: Clark James Recruitment
+region: 
+town: Kent
+salary: 
+job_id: 1733032
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-25
+title: Business Support Administrator
+employer: Colbern Limited
+region: 
+town: Warwickshire
+salary: 
+job_id: 23643_225429168
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-25
+title: Bid Coordinator
+employer: Fabric Recruitment
+region: 
+town: Nottinghamshire
+salary: 
+job_id: 107830360
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-25
+title: Assistant Spatial Planner
+employer: National Highways
+region: 
+town: Yorkshire
+salary: 
+job_id: 107891738
+---
 
 ---
 action:
@@ -1763,6 +2003,18 @@ job_id: 23643_225460911
 ---
 
 ## SUPPORT WORKER — EXCLUDED
+
+---
+action:
+category: support_worker
+excluded_on: 2026-08-25
+title: Temp Personal Assistant
+employer: RMS Recruitment Ltd
+region: 
+town: London
+salary: 
+job_id: 1786559
+---
 
 ---
 action:

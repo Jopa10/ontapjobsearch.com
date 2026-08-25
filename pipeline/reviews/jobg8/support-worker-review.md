@@ -273,27 +273,26 @@ job_id: 1778477
 
 ---
 action:
+SELECTED | London | Carshalton | £35 per hour | Communication Support Worker
+job_id: 1785508
+---
+
+---
+action:
+SELECTED | London | Morden | £35 per hour | Communication Support Worker
+job_id: 1785507
+---
+
+---
+action:
 SELECTED | London | City | £26,229 per annum | Residential Support Worker (Mental Health)
 job_id: 1787859
 ---
 
 ## LONDON — POSSIBLES
 
----
-action: exclude
-POSS - LONDON | London | London | £25.52 per hour | Temp Personal Assistant
-job_id: 1786559
----
----
-action: select
-POSS - LONDON | London | Carshalton | £35 per hour | Communication Support Worker
-job_id: 1785508
----
----
-action: select
-POSS - LONDON | London | Morden | £35 per hour | Communication Support Worker
-job_id: 1785507
----
+_No jobs in this group._
+
 ## SURREY — SELECTED
 
 ---
@@ -361,5 +360,5 @@ job_id: 1787836
 _No jobs in this group._
 
 <!-- ONTAP_PERSISTENT_DECISIONS_V1
-{"decisions":{"05843b40-34ac-40a5-8f4c-e146dd6988e1":{"action":"select","decided_on":"2026-08-14"},"107658496":{"action":"select","decided_on":"2026-08-19","employer":"Priority Recruitment Services","title":"Female Support Worker","town":"Sussex"},"107751768":{"action":"select","decided_on":"2026-08-14"},"107751975":{"action":"select","decided_on":"2026-08-15","employer":"Ask Jules","title":"Care Assistant to a Psychology University Student","town":"London"},"107769225":{"action":"select","decided_on":"2026-08-15","employer":"Ask Jules","title":"Live-in Care Assistant for a Business and Management Graduate","town":"Surrey"},"107832011":{"action":"exclude","decided_on":"2026-08-21","employer":"Medgen Ltd","title":"Mental Health Support Worker","town":"Wiltshire"},"1401784261":{"action":"select","decided_on":"2026-08-14"},"23643_225134809":{"action":"select","decided_on":"2026-08-18","employer":"opal carers ltd","title":"Support Care Workers - Camberley","town":"Surrey"},"23643_225493355":{"action":"select","decided_on":"2026-08-14"},"58c3e926-cf9b-4aae-a931-e1c867a7b221":{"action":"select","decided_on":"2026-08-14"},"61318ff3-8530-4604-9b2f-3445400107a3":{"action":"exclude","decided_on":"2026-08-18","employer":"Love Success Recruitment","title":"Permanent Part-time Private Personal Assistant - Cotswolds","town":"Wiltshire"},"62ac8011-cb52-461e-bd72-7273b61cb640":{"action":"select","decided_on":"2026-08-14"},"b0026c42-2444-46d8-8c8d-840b9df2e664":{"action":"exclude","decided_on":"2026-08-15","employer":"Dovetail & Slate","title":"Communication Support Worker","town":"London"},"dfd8c7b5-d8b9-4691-9c8d-2e2ebc1ab1e7":{"action":"select","decided_on":"2026-08-14"}},"version":1}
+{"decisions":{"05843b40-34ac-40a5-8f4c-e146dd6988e1":{"action":"select","decided_on":"2026-08-14"},"107658496":{"action":"select","decided_on":"2026-08-19","employer":"Priority Recruitment Services","title":"Female Support Worker","town":"Sussex"},"107751768":{"action":"select","decided_on":"2026-08-14"},"107751975":{"action":"select","decided_on":"2026-08-15","employer":"Ask Jules","title":"Care Assistant to a Psychology University Student","town":"London"},"107769225":{"action":"select","decided_on":"2026-08-15","employer":"Ask Jules","title":"Live-in Care Assistant for a Business and Management Graduate","town":"Surrey"},"107832011":{"action":"exclude","decided_on":"2026-08-21","employer":"Medgen Ltd","title":"Mental Health Support Worker","town":"Wiltshire"},"1401784261":{"action":"select","decided_on":"2026-08-14"},"1785507":{"action":"select","decided_on":"2026-08-25","employer":"Reed","title":"Communication Support Worker","town":"Surrey"},"1785508":{"action":"select","decided_on":"2026-08-25","employer":"Reed","title":"Communication Support Worker","town":"Surrey"},"1786559":{"action":"exclude","decided_on":"2026-08-25","employer":"RMS Recruitment Ltd","title":"Temp Personal Assistant","town":"London"},"23643_225134809":{"action":"select","decided_on":"2026-08-18","employer":"opal carers ltd","title":"Support Care Workers - Camberley","town":"Surrey"},"23643_225493355":{"action":"select","decided_on":"2026-08-14"},"58c3e926-cf9b-4aae-a931-e1c867a7b221":{"action":"select","decided_on":"2026-08-14"},"61318ff3-8530-4604-9b2f-3445400107a3":{"action":"exclude","decided_on":"2026-08-18","employer":"Love Success Recruitment","title":"Permanent Part-time Private Personal Assistant - Cotswolds","town":"Wiltshire"},"62ac8011-cb52-461e-bd72-7273b61cb640":{"action":"select","decided_on":"2026-08-14"},"b0026c42-2444-46d8-8c8d-840b9df2e664":{"action":"exclude","decided_on":"2026-08-15","employer":"Dovetail & Slate","title":"Communication Support Worker","town":"London"},"dfd8c7b5-d8b9-4691-9c8d-2e2ebc1ab1e7":{"action":"select","decided_on":"2026-08-14"}},"version":1}
 -->
