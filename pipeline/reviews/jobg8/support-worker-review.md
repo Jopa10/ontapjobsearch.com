@@ -1,6 +1,6 @@
 # Support-worker manual review
 
-feed_date: 2026-08-24
+feed_date: 2026-08-25
 
 Edit only the `action:` line in each block:
 
@@ -81,20 +81,20 @@ job_id: 23643_222307132
 
 ---
 action:
-SELECTED | Sussex | Horsham | £13.05 per hour | Residential Childcare Support Worker (Casual)
-job_id: 107811772
+SELECTED | Sussex | Bexhill-on-sea | £13.79 - £14.31 per hour | Bank Care Assistant
+job_id: 107807365
+---
+
+---
+action:
+SELECTED | Sussex | Hastings | £13.79 per hour | Care Assistant
+job_id: 107826653
 ---
 
 ---
 action:
 SELECTED | Sussex | Bexhill-on-sea | £13.79 per hour | Care Assistant
 job_id: 107864483
----
-
----
-action:
-SELECTED | Sussex | Hailsham | £13.39 per hour | Care Assistant - Bank
-job_id: 107870957
 ---
 
 ## SUSSEX — POSSIBLES
@@ -113,12 +113,6 @@ job_id: 107812778
 action:
 SELECTED | Cumbria - South | Kirkby Stephen | £30000 per year | Childrens Residential Support Worker
 job_id: 107870592
----
-
----
-action:
-SELECTED | Cumbria - South | Appleby-in-westmorland | £30000 per year | Childrens Residential Support Worker
-job_id: 107870593
 ---
 
 ## CUMBRIA SOUTH — POSSIBLES
@@ -263,6 +257,12 @@ job_id: 23643_225516212
 action:
 SELECTED | London | London | £14.80 per hour | Support Worker
 job_id: 1780022
+---
+
+---
+action:
+SELECTED | London | South Croydon | £17.59 per hour | Community Support Worker (Active Lives)
+job_id: 1742472
 ---
 
 ---
