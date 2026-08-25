@@ -280,23 +280,20 @@ job_id: 1787859
 ## LONDON — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - LONDON | London | London | £25.52 per hour | Temp Personal Assistant
 job_id: 1786559
 ---
-
 ---
-action:
+action: select
 POSS - LONDON | London | Carshalton | £35 per hour | Communication Support Worker
 job_id: 1785508
 ---
-
 ---
-action:
+action: select
 POSS - LONDON | London | Morden | £35 per hour | Communication Support Worker
 job_id: 1785507
 ---
-
 ## SURREY — SELECTED
 
 ---
