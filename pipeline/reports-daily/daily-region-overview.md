@@ -1,60 +1,60 @@
 # Ontap daily regional overview
 
-Generated: 2026-08-26T07:42:10+00:00
+Generated: 2026-08-26T09:39:53+00:00
 
-> LIVE Service Admin and Support Worker counts reconcile to `pipeline/reports-daily/live-job-source-count-2026-08-25.csv` on `main`, with factual detail/alias regions rolled into their canonical 78-market UK region before the LIVE table and headline are totalled. LIVE Sales Advisor, Paralegal, Marketing and HR / Recruitment counts come from their current published configured-slice JSON on `main`. The overview covers all 78 assessable UK markets; LIVE status remains controlled only by the slice register. Before same-feed 78-market coverage has run, NOT LIVE Admin/Support may fall back to the latest all-region Module 2 profile (2026-08-17), and Service Admin may also add current Teaching Vacancies regional candidate output. `—` means not assessed / no current source; it does NOT mean zero. NOT LIVE Service Admin and Support Worker were assessed from the same JobG8 daily feed (2026-08-26) used by the production family run, across 78 UK markets with the config-driven production wrappers, persistent review decisions and canonical geo. NOT LIVE Sales Advisor was assessed from that same feed across 78 UK markets using the governed Customer Sales classifier, canonical geo, campaign dedupe and final production QA. Sales diagnostic counts are evidence only and never activate a slice automatically; LIVE Sales Advisor counts continue to come from the current published Customer Sales configured-slice JSON. NOT LIVE Paralegal, Marketing and HR / Recruitment were assessed from that same feed across 78, 78 and 78 UK markets respectively, using their frozen production boundaries, content dedupe and canonical geo. All diagnostic counts are evidence only and never activate a slice automatically. Rolling family history stores one snapshot per feed date, replaces same-date reruns, retains the latest 14 feed dates and is used only as decision evidence for NOT LIVE slices.
+> LIVE Service Admin and Support Worker counts reconcile to `pipeline/reports-daily/live-job-source-count-2026-08-26.csv` on `main`, with factual detail/alias regions rolled into their canonical 78-market UK region before the LIVE table and headline are totalled. LIVE Sales Advisor, Paralegal, Marketing and HR / Recruitment counts come from their current published configured-slice JSON on `main`. The overview covers all 78 assessable UK markets; LIVE status remains controlled only by the slice register. Before same-feed 78-market coverage has run, NOT LIVE Admin/Support may fall back to the latest all-region Module 2 profile (2026-08-17), and Service Admin may also add current Teaching Vacancies regional candidate output. `—` means not assessed / no current source; it does NOT mean zero. NOT LIVE Service Admin and Support Worker were assessed from the same JobG8 daily feed (2026-08-26) used by the production family run, across 78 UK markets with the config-driven production wrappers, persistent review decisions and canonical geo. NOT LIVE Sales Advisor was assessed from that same feed across 78 UK markets using the governed Customer Sales classifier, canonical geo, campaign dedupe and final production QA. Sales diagnostic counts are evidence only and never activate a slice automatically; LIVE Sales Advisor counts continue to come from the current published Customer Sales configured-slice JSON. NOT LIVE Paralegal, Marketing and HR / Recruitment were assessed from that same feed across 78, 78 and 78 UK markets respectively, using their frozen production boundaries, content dedupe and canonical geo. All diagnostic counts are evidence only and never activate a slice automatically. Rolling family history stores one snapshot per feed date, replaces same-date reruns, retains the latest 14 feed dates and is used only as decision evidence for NOT LIVE slices.
 
 ## LIVE
 
 | Region | Service admin | Support worker | Sales advisor | Paralegal | Marketing | HR / Recruitment |
 |---|---:|---:|---:|---:|---:|---:|
 | Bedfordshire |  |  |  |  |  |  |
-| Berkshire | 32 |  |  |  |  | 5 |
-| Bristol & Bath | 27 |  |  |  |  |  |
-| Buckinghamshire | 28 |  |  |  |  |  |
-| Cambridgeshire | 38 |  |  |  |  |  |
-| Cheshire - East | 15 |  |  |  |  |  |
-| Cheshire - Warrington & Halton | 29 |  |  |  |  |  |
+| Berkshire | 20 |  |  |  |  | 2 |
+| Bristol & Bath | 29 |  |  |  |  |  |
+| Buckinghamshire | 16 |  |  |  |  |  |
+| Cambridgeshire | 36 |  |  |  |  |  |
+| Cheshire - East | 13 |  |  |  |  |  |
+| Cheshire - Warrington & Halton | 32 |  |  |  |  |  |
 | Cheshire - West |  |  |  |  |  |  |
-| Cornwall | 5 |  |  |  |  |  |
+| Cornwall | 4 |  |  |  |  |  |
 | Cumbria - North |  |  |  |  |  |  |
-| Cumbria - South |  | 2 |  |  |  |  |
+| Cumbria - South |  | CHECK |  |  |  |  |
 | Cumbria - West |  |  |  |  |  |  |
-| Derbyshire | 11 |  |  |  |  |  |
-| Devon | 37 |  |  |  |  |  |
-| Dorset | 27 |  |  |  |  |  |
-| Essex | 50 |  |  | 5 |  |  |
-| Gloucestershire | 27 |  |  |  |  |  |
-| Greater Manchester - Manchester & Salford | 38 |  | 7 |  | 4 | 5 |
+| Derbyshire | 9 |  |  |  |  |  |
+| Devon | 31 |  |  |  |  |  |
+| Dorset | 14 |  |  |  |  |  |
+| Essex | 33 |  |  | 4 |  |  |
+| Gloucestershire | 28 |  |  |  |  |  |
+| Greater Manchester - Manchester & Salford | 45 |  | 7 |  | 10 | 4 |
 | Greater Manchester - North |  |  |  |  |  |  |
-| Greater Manchester - South | 8 |  |  |  |  |  |
-| Greater Manchester - Wigan & Bolton | 15 |  |  |  |  |  |
-| Hampshire | 56 | 15 |  |  |  |  |
+| Greater Manchester - South | 4 |  |  |  |  |  |
+| Greater Manchester - Wigan & Bolton | 12 |  |  |  |  |  |
+| Hampshire | 46 | 15 |  |  |  |  |
 | Herefordshire |  |  |  |  |  |  |
-| Hertfordshire | 33 |  |  |  |  |  |
-| Kent | 60 |  |  |  |  |  |
+| Hertfordshire | 17 |  |  |  |  |  |
+| Kent | 41 |  |  |  |  |  |
 | Lancashire - Blackpool & Fylde |  |  |  |  |  |  |
 | Lancashire - Central |  |  |  |  |  |  |
 | Lancashire - East |  |  |  |  |  |  |
 | Lancashire - North |  |  |  |  |  |  |
 | Lancashire - West |  |  |  |  |  |  |
-| Leicestershire | 30 |  |  |  |  |  |
-| Lincolnshire | 14 |  |  |  |  |  |
-| London | 158 | 12 | 22 | 31 | 27 | 17 |
-| Merseyside - Liverpool | 12 |  |  |  |  |  |
+| Leicestershire | 28 |  |  |  |  |  |
+| Lincolnshire | 12 |  |  |  |  |  |
+| London | 99 | 13 | 17 | 9 | 27 | 5 |
+| Merseyside - Liverpool | 13 |  |  |  |  |  |
 | Merseyside - Sefton |  |  |  |  |  |  |
 | Merseyside - St Helens & Knowsley |  |  |  |  |  |  |
 | Merseyside - Wirral |  |  |  |  |  |  |
-| Norfolk | 17 |  |  | 1 |  |  |
-| North East | 68 | 1 |  |  |  |  |
+| Norfolk | 18 |  |  | CHECK |  |  |
+| North East | 51 | 4 |  |  |  |  |
 | North Scotland |  |  |  |  |  |  |
 | North Wales - East |  |  |  |  |  |  |
 | North Wales - West |  |  |  |  |  |  |
-| Northamptonshire | 30 |  |  |  |  |  |
+| Northamptonshire | 26 |  |  |  |  |  |
 | Northern Ireland - East |  |  |  |  |  |  |
 | Northern Ireland - West |  |  |  |  |  |  |
-| Nottinghamshire | 25 |  |  |  |  | 5 |
-| Oxfordshire | 44 |  |  |  |  |  |
+| Nottinghamshire | 20 |  |  |  |  | 4 |
+| Oxfordshire | 40 |  |  |  |  |  |
 | Rutland |  |  |  |  |  |  |
 | Scotland - Borders |  |  |  |  |  |  |
 | Scotland Central - Edinburgh & Lothians |  |  |  |  |  |  |
@@ -65,27 +65,27 @@ Generated: 2026-08-26T07:42:10+00:00
 | Scotland West - Glasgow |  |  |  |  |  |  |
 | Scotland West - Lanarkshire |  |  |  |  |  |  |
 | Scotland West - Renfrewshire & Inverclyde |  |  |  |  |  |  |
-| Shropshire | 16 |  |  |  |  |  |
-| Somerset | 14 |  |  |  |  |  |
-| Staffordshire | 20 |  |  |  |  |  |
-| Suffolk | 17 |  |  | 1 |  |  |
-| Surrey | 56 | 5 |  |  | 8 |  |
-| Sussex | 40 | 6 |  |  |  |  |
+| Shropshire | 14 |  |  |  |  |  |
+| Somerset | 12 |  |  |  |  |  |
+| Staffordshire | 15 |  |  |  |  |  |
+| Suffolk | 10 |  |  | CHECK |  |  |
+| Surrey | 45 | 4 |  |  | 7 |  |
+| Sussex | 30 | 9 |  |  |  |  |
 | Wales - Mid |  |  |  |  |  |  |
 | Wales - West |  |  |  |  |  |  |
 | Wales South - Cardiff & Vale |  |  |  |  |  |  |
 | Wales South - Gwent |  |  |  |  |  |  |
 | Wales South - Swansea Bay |  |  |  |  |  |  |
 | Wales South - Valleys |  |  |  |  |  |  |
-| West Midlands - Birmingham & Solihull | 25 |  |  |  | 3 | 5 |
-| West Midlands - Black Country | 10 |  |  |  |  |  |
-| West Midlands - Coventry & Warwickshire | 33 |  |  |  |  |  |
-| Wiltshire | 25 | 4 |  |  |  |  |
+| West Midlands - Birmingham & Solihull | 25 |  |  |  | 3 | 3 |
+| West Midlands - Black Country | 8 |  |  |  |  |  |
+| West Midlands - Coventry & Warwickshire | 27 |  |  |  |  |  |
+| Wiltshire | 23 | 5 |  |  |  |  |
 | Worcestershire |  |  |  |  |  |  |
 | Yorkshire - East | 15 |  |  |  |  |  |
-| Yorkshire - North | 21 |  |  |  |  |  |
-| Yorkshire - South | 20 | 1 |  |  |  |  |
-| Yorkshire - West | 56 | 2 | 4 |  |  | 8 |
+| Yorkshire - North | 22 |  |  |  |  |  |
+| Yorkshire - South | 19 | 1 |  |  |  |  |
+| Yorkshire - West | 53 | 4 | 3 |  |  | 6 |
 
 ## NOT LIVE
 
@@ -177,6 +177,6 @@ Generated: 2026-08-26T07:42:10+00:00
 | Measure | Service admin | Support worker | Sales advisor | Paralegal | Marketing | HR / Recruitment |
 |---|---:|---:|---:|---:|---:|---:|
 | Live regions | 41 / 78 | 9 / 78 | 3 / 78 | 4 / 78 | 4 / 78 | 6 / 78 |
-| Live jobs | 1302 | 48 | 33 | 38 | 42 | 45 |
+| Live jobs | 1055 | 55 + 1 CHECK | 27 | 13 + 2 CHECK | 47 | 24 |
 
 **Live slices: 67 / 468.**
