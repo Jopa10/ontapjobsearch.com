@@ -146,6 +146,7 @@ REPORT_FIELDS = [
     "nejobs_candidate_employer",
     "nejobs_match_score",
     "vonne_duplicate_check",
+    "vacancy_fingerprint",
     "source_job_id",
     "source_url",
     "detail_status",
@@ -1314,24 +1315,36 @@ def final_decision_for(
     return "POSS"
 
 
+def vacancy_review_facts(vacancy: VonneVacancy) -> dict[str, str]:
+    """Return the exact factual/classification evidence reviewed for one job."""
+    return {
+        "source_job_id": vacancy.source_job_id,
+        "title": vacancy.title,
+        "employer": vacancy.employer,
+        "location": vacancy.location,
+        "salary_text": vacancy.salary_text,
+        "closing_date": vacancy.closing_date,
+        "classification": vacancy.classification,
+        "geography_status": vacancy.geography_status,
+        "jobg8": vacancy.duplicate_status,
+        "nejobs": vacancy.nejobs_duplicate_status,
+    }
+
+
+def vacancy_review_fingerprint(vacancy: VonneVacancy) -> str:
+    payload = json.dumps(
+        vacancy_review_facts(vacancy),
+        ensure_ascii=False,
+        sort_keys=True,
+        separators=(",", ":"),
+    )
+    return hashlib.sha256(payload.encode("utf-8")).hexdigest()
+
+
 def review_fingerprint(
     vacancies: Iterable[VonneVacancy],
 ) -> str:
-    rows = [
-        {
-            "source_job_id": vacancy.source_job_id,
-            "title": vacancy.title,
-            "employer": vacancy.employer,
-            "location": vacancy.location,
-            "salary_text": vacancy.salary_text,
-            "closing_date": vacancy.closing_date,
-            "classification": vacancy.classification,
-            "geography_status": vacancy.geography_status,
-            "jobg8": vacancy.duplicate_status,
-            "nejobs": vacancy.nejobs_duplicate_status,
-        }
-        for vacancy in vacancies
-    ]
+    rows = [vacancy_review_facts(vacancy) for vacancy in vacancies]
     rows.sort(key=lambda row: row["source_job_id"])
     payload = json.dumps(
         rows,
@@ -1340,7 +1353,6 @@ def review_fingerprint(
         separators=(",", ":"),
     )
     return hashlib.sha256(payload.encode("utf-8")).hexdigest()
-
 
 def compact(value: str, limit: int) -> str:
     text = clean_text(value)
@@ -1425,6 +1437,7 @@ def review_row(
             if vacancy.source_duplicate_status
             else "No"
         ),
+        "vacancy_fingerprint": vacancy_review_fingerprint(vacancy),
         "source_job_id": vacancy.source_job_id,
         "source_url": vacancy.source_url,
         "detail_status": vacancy.detail_status,
@@ -1628,6 +1641,10 @@ def write_summary(
                 f"reason: {safe(vacancy.classification_reason)}",
                 f"source: {SOURCE_CODE}",
                 f"tracking_key: vonne-{vacancy.source_job_id}",
+                (
+                    "vacancy_fingerprint: "
+                    f"{vacancy_review_fingerprint(vacancy)}"
+                ),
                 f"source_job_id: {vacancy.source_job_id}",
                 f"source_url: {vacancy.source_url}",
                 "---",
