@@ -1,4 +1,5 @@
 decision,job_id,title,company,location,source,automatic_decision,effective_decision,reason,matched_rule,city_key
+include,nhs-5501562,Administrator - Birmingham,Vaccination UK,"Birmingham, B18 7EE",NHS Jobs,include,include,Approved conservative Birmingham launch catchment.,birmingham,birmingham-service-administrator-jobs
 include,jobg8-23643_225446479,Bookings Coordinator,Office Angels - Agency - Permanent,Birmingham,JobG8,include,include,Approved conservative Birmingham launch catchment.,birmingham,birmingham-service-administrator-jobs
 include,jobg8-23643_225521012,Business Support Officer,Sellick Partnership - Agency - Contract,Birmingham,JobG8,include,include,Approved conservative Birmingham launch catchment.,birmingham,birmingham-service-administrator-jobs
 include,jobg8-23643_225465498,Customer Care Administrator,SF Partners - Agency - Permanent,Birmingham,JobG8,include,include,Approved conservative Birmingham launch catchment.,birmingham,birmingham-service-administrator-jobs
@@ -6,7 +7,6 @@ include,jobg8-23643_225498962,Customer Service Administrator,SF Partners - Agenc
 include,jobg8-23643_225473913,HR Assistant,Gleeson Recruitment Group - Agency - Permanent,Birmingham,JobG8,include,include,Approved conservative Birmingham launch catchment.,birmingham,birmingham-service-administrator-jobs
 include,jobg8-23643_225518765,Office Administrator,Alliance Personnel - Agency - Permanent,Birmingham,JobG8,include,include,Approved conservative Birmingham launch catchment.,birmingham,birmingham-service-administrator-jobs
 include,jobg8-23643_225493038,Office Administrator,ST Selection - Agency - Permanent,Birmingham,JobG8,include,include,Approved conservative Birmingham launch catchment.,birmingham,birmingham-service-administrator-jobs
-include,nhs-5550429,Part Time Evening Receptionist,Garretts Green Lane Surgery,"Birmingham, B26 2SB",NHS Jobs,include,include,Approved conservative Birmingham launch catchment.,birmingham,birmingham-service-administrator-jobs
 include,nhs-5557628,Receptionist/Administrator,The Wand Medical Centre,"Birmingham, B12 0UF",NHS Jobs,include,include,Approved conservative Birmingham launch catchment.,birmingham,birmingham-service-administrator-jobs
 include,jobg8-23643_225446183,Recruitment Administrator,Office Angels - Agency - Permanent,Birmingham,JobG8,include,include,Approved conservative Birmingham launch catchment.,birmingham,birmingham-service-administrator-jobs
 include,jobg8-23643_225445846,Recruitment Coordinator,Office Angels - Agency - Permanent,Birmingham,JobG8,include,include,Approved conservative Birmingham launch catchment.,birmingham,birmingham-service-administrator-jobs

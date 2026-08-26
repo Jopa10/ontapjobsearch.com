@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 2
-- automatic review: 8
+- automatic review: 7
 - automatic exclude: 4
 - effective include: 2
-- effective review: 8
+- effective review: 7
 - effective exclude: 4
 
 ## INCLUDE (2)
@@ -48,7 +48,7 @@ job_id: jobg8-1401784780
 reason: Approved Southampton catchment.
 ---
 
-## REVIEW (8)
+## REVIEW (7)
 
 ---
 action: 
@@ -119,18 +119,6 @@ company: ECS Recruitment Consultants Ltd - Agency - Permanent
 location: Alton
 source: JobG8
 job_id: jobg8-107332363
-reason: No approved Southampton catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Graduate Opportunity: Hourly Personal Care Assistant
-company: Ask Jules - Agency - Permanent
-location: Petersfield
-source: JobG8
-job_id: jobg8-107769099
 reason: No approved Southampton catchment rule matched; local review required.
 ---
 

@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 5
-- automatic review: 45
-- automatic exclude: 7
+- automatic review: 48
+- automatic exclude: 8
 - effective include: 5
-- effective review: 45
-- effective exclude: 7
+- effective review: 48
+- effective exclude: 8
 
 ## INCLUDE (5)
 
@@ -84,7 +84,7 @@ job_id: nhs-5534493
 reason: Approved Southampton catchment.
 ---
 
-## REVIEW (45)
+## REVIEW (48)
 
 ---
 action: 
@@ -143,6 +143,18 @@ company: The Cinnamon Care Collection - Company - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225524482
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Care Coordinator
+company: Agincare Group - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-107886976
 reason: Broad location; review before city inclusion.
 ---
 
@@ -330,6 +342,18 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
+title: Housing Management Coordinator
+company: Home Group Limited - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-107887825
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: HR Administrator - Permanent Position
 company: Berry Recruitment - Agency - Permanent
 location: Hampshire
@@ -431,18 +455,6 @@ company: Matchtech - Agency - Contract
 location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225472187
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Onsite Recruitment Coordinator / Consultant
-company: Adecco - Agency - Temporary
-location: Hampshire
-source: JobG8
-job_id: jobg8-23643_225424393
 reason: Broad location; review before city inclusion.
 ---
 
@@ -582,11 +594,35 @@ reason: No approved Southampton catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Service Coordinator
+company: Veolia - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-23643_225534205
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Service Desk Coordinator
 company: Hey Clear - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-107876875
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Support Coordinator
+company: Home Group Limited - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-107899482
 reason: Broad location; review before city inclusion.
 ---
 
@@ -626,7 +662,7 @@ job_id: jobg8-1595701
 reason: Broad location; review before city inclusion.
 ---
 
-## EXCLUDE (7)
+## EXCLUDE (8)
 
 ---
 action: 
@@ -637,6 +673,18 @@ company: Mid Hampshire Healthcare Ltd
 location: Winchester, SO23 0LD
 source: NHS Jobs
 job_id: nhs-5531413
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Medical Receptionist
+company: Derby Road Practice
+location: Portsmouth, PO2 8HW
+source: NHS Jobs
+job_id: nhs-5544734
 reason: Separate employment market.
 ---
 

@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 10
-- automatic review: 6
+- automatic review: 5
 - automatic exclude: 0
 - effective include: 10
-- effective review: 6
+- effective review: 5
 - effective exclude: 0
 
 ## INCLUDE (10)
@@ -144,7 +144,7 @@ job_id: jobg8-23643_225511107
 reason: Approved conservative Hull launch catchment.
 ---
 
-## REVIEW (6)
+## REVIEW (5)
 
 ---
 action: 
@@ -179,18 +179,6 @@ company: Consortium Professional Recruitment - Agency - Permanent
 location: Hessle
 source: JobG8
 job_id: jobg8-107785786
-reason: No approved Hull catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Graduate Administrator / Office Support
-company: Winsearch - Agency - Permanent
-location: Hessle
-source: JobG8
-job_id: jobg8-23643_225425823
 reason: No approved Hull catchment rule matched; local review required.
 ---
 

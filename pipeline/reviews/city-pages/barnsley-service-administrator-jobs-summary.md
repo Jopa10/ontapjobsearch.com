@@ -4,7 +4,7 @@
 - Live route: `/barnsley/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 4
+- Effective included jobs: 3
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 4
+- automatic include: 3
 - automatic review: 3
 - automatic exclude: 16
-- effective include: 4
+- effective include: 3
 - effective review: 3
 - effective exclude: 16
 
-## INCLUDE (4)
+## INCLUDE (3)
 
 ---
 action: 
@@ -57,18 +57,6 @@ company: Gi Group - Agency - Permanent
 location: Barnsley
 source: JobG8
 job_id: jobg8-23643_225475228
-reason: Approved Barnsley catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: NTD Coordinator
-company: TRC Yorkshire - Agency - Temporary
-location: Barnsley
-source: JobG8
-job_id: jobg8-23643_225423861
 reason: Approved Barnsley catchment.
 ---
 

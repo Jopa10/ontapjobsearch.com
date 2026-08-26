@@ -41,18 +41,6 @@ action:
 decision: include
 automatic_decision: include
 title: Administrator
-company: Eclectic Recruitment - Agency - Permanent
-location: Cambridge
-source: JobG8
-job_id: jobg8-23643_225423110
-reason: Approved conservative Cambridge launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrator
 company: Huntingdon Road Practice
 location: Cambridge, CB3 0DB
 source: NHS Jobs
@@ -93,6 +81,18 @@ company: Invictus Group - Agency - Contract
 location: Cambridge
 source: JobG8
 job_id: jobg8-23643_225445219
+reason: Approved conservative Cambridge launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Customer Service Advisor
+company: Factotum Telephone Answering Service - Agency - Permanent
+location: Cambridge
+source: JobG8
+job_id: jobg8-23643_225426858
 reason: Approved conservative Cambridge launch catchment.
 ---
 

@@ -175,31 +175,6 @@
     "posted_date_basis": "ontap_first_published"
   },
   {
-    "job_id": "107580099",
-    "title": "Contracts Administrator",
-    "company": "TRS Staffing Solutions - Agency - Contract",
-    "location": "Hertfordshire",
-    "region": "Hertfordshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Contract",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "",
-    "posted_date": "2026-08-21",
-    "description": "Overview\n\nOur client, a globally leading EPC organisation, is seeking a Contracts Administrator / Quantity Surveyor to join a major capital project based in Royston. Working as part of the site delivery team, you will provide contract administration support to the Contracts Manager and Construction Manager, ensuring effective management of construction contracts throughout the project lifecycle click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?31Q%2fsvDzOVaG%2b%2b17DbLkyg7FNrmrjvjfj",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "TRS Staffing Solutions",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
-  },
-  {
     "job_id": "23643_225522549",
     "title": "Administrator",
     "company": "Tate - Agency - Temporary",
@@ -400,6 +375,31 @@
     "posted_date_basis": "ontap_first_published"
   },
   {
+    "job_id": "107891184",
+    "title": "Social Media Coordinator",
+    "company": "SCG Together - Agency - Permanent",
+    "location": "Hertfordshire",
+    "region": "Hertfordshire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "28000",
+    "salary_max": "28000",
+    "salary_text": "£28000 per year",
+    "posted_date": "2026-08-26",
+    "description": "Location: Hemel Hempstead\n\nSalary: £26,500 - £28,000\n\n( Please note that this is a fully office-based role, you will need to be willing to travel to Hemel Hempstead five days a week)\n\nThe Social Media Coordinator will support the day-to-day delivery of SCGs social media activity. This is a hands-on coordination role, suited to a highly organised, creative and proactive marketing professional who is loo click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?ju9emE%2fz0VLe6yqLFDGpqfHg5Z9a1yoBw",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "SCG Together",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Annual",
+    "posted_date_basis": "ontap_first_published"
+  },
+  {
     "job_id": "107791040",
     "title": "Streetwork Coordinator",
     "company": "Barhale - Agency - Permanent",
@@ -441,6 +441,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9367-26-0790",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -460,6 +463,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5985-26-0027",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -479,6 +485,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B0525-26-0016",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -498,6 +507,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0106-26-0072",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   }
 ]

@@ -4,7 +4,7 @@
 - Live route: `/newcastle/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 14
+- Effective included jobs: 21
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 14
-- automatic review: 27
-- automatic exclude: 22
-- effective include: 14
-- effective review: 27
-- effective exclude: 22
+- automatic include: 21
+- automatic review: 28
+- automatic exclude: 26
+- effective include: 21
+- effective review: 28
+- effective exclude: 26
 
-## INCLUDE (14)
+## INCLUDE (21)
 
 ---
 action: 
@@ -88,11 +88,95 @@ reason: Approved Newcastle catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Business Support Assistant
+company: Gateshead Council
+location: Gateshead
+source: NEJobs
+job_id: nejobs-300950
+reason: Approved Newcastle catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Business Support Assistant
+company: Gateshead Council
+location: Gateshead
+source: NEJobs
+job_id: nejobs-301018
+reason: Approved Newcastle catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Business Support Assistant - Care point
+company: North Tyneside Council
+location: North Tyneside
+source: NEJobs
+job_id: nejobs-301062
+reason: Approved Newcastle catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Business Support Assistant - Family Hubs
+company: Gateshead Council
+location: Gateshead
+source: NEJobs
+job_id: nejobs-300531
+reason: Approved Newcastle catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Business Support Officer
+company: Newcastle City Council
+location: Newcastle upon Tyne
+source: NEJobs
+job_id: nejobs-300710
+reason: Approved Newcastle catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Customer Service Assistant
+company: Newcastle City Council
+location: Newcastle upon Tyne
+source: NEJobs
+job_id: nejobs-300896
+reason: Approved Newcastle catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: DBS01122/26 - Business Administrator Apprentice - Longbenton High School
 company: North Tyneside Council
 location: Longbenton High School Hailsham Ave, Newcastle upon Tyne NE12 8ER
 source: NEJobs
 job_id: nejobs-300866
+reason: Approved Newcastle catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: DBS01125/26 - Receptionist - Norham High School
+company: North Tyneside Council
+location: North Tyneside Council
+source: NEJobs
+job_id: nejobs-301184
 reason: Approved Newcastle catchment.
 ---
 
@@ -192,19 +276,7 @@ job_id: nejobs-300777
 reason: Approved Newcastle catchment.
 ---
 
-## REVIEW (27)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Assistant Northumberland
-company: MTrec Commercial - Agency - Permanent
-location: Northumberland
-source: JobG8
-job_id: jobg8-107692776
-reason: No approved Newcastle catchment rule matched; local review required.
----
+## REVIEW (28)
 
 ---
 action: 
@@ -270,6 +342,18 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
+title: Administrator / Care Coordinator
+company: Great Lumley Surgery
+location: Chester le Street, DH3 4LE
+source: NHS Jobs
+job_id: nhs-5545378
+reason: No approved Newcastle catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Administrator Gateshead - Temp to Perm
 company: Office Angels - Agency - Permanent
 location: Tyne And Wear
@@ -288,18 +372,6 @@ location: Tyne And Wear
 source: JobG8
 job_id: jobg8-23643_225445993
 reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Community Engagement Tutor - Ashington Learning Hive
-company: Northern Learning Trust
-location: Northumberland
-source: VONNE
-job_id: vonne-173341
-reason: No approved Newcastle catchment rule matched; local review required.
 ---
 
 ---
@@ -474,11 +546,23 @@ reason: No approved Newcastle catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Senior Customer Care Administrator
-company: Northumbria Healthcare NHS Foundation Trust
-location: Ashington, NE63 9UT
+title: SEN Administrator
+company: Sedgefield Community College
+location: Sedgefield
+source: NEJobs
+job_id: nejobs-299750
+reason: No approved Newcastle catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Senior Administrator- Medical Secretary
+company: Tees Esk and Wear Valleys NHS Foundation Trust
+location: Chester le Street, DH3 3UR
 source: NHS Jobs
-job_id: nhs-5550263
+job_id: nhs-5563197
 reason: No approved Newcastle catchment rule matched; local review required.
 ---
 
@@ -492,6 +576,18 @@ location: Tyne And Wear
 source: JobG8
 job_id: jobg8-23643_225527268
 reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Support Coordinator
+company: Home Group Limited - Agency - Permanent
+location: Northumberland
+source: JobG8
+job_id: jobg8-107870335
+reason: No approved Newcastle catchment rule matched; local review required.
 ---
 
 ---
@@ -518,7 +614,7 @@ job_id: vonne-173349
 reason: Broad location; review before city inclusion.
 ---
 
-## EXCLUDE (22)
+## EXCLUDE (26)
 
 ---
 action: 
@@ -584,6 +680,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Apprentice Economic Development Administrator
+company: Durham County Council
+location: Green Lane, Spennymoor, Durham
+source: NEJobs
+job_id: nejobs-301034
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Apprenticeship Support Officer
 company: New College Durham
 location: Framwellgate Moor Campus, Durham, DH1 5ES
@@ -632,24 +740,24 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Customer Service Advisor
-company: Hartlepool Borough Council
-location: Highlight Active Wellbeing Hub
-source: NEJobs
-job_id: nejobs-299796
-reason: Outside Newcastle catchment.
+title: Customer Experience Coordinator
+company: Linear Recruitment Ltd - Agency - Contract
+location: County Durham
+source: JobG8
+job_id: jobg8-23643_225534483
+reason: Separate employment market.
 ---
 
 ---
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Housing Management Coordinator
-company: Home Group Limited - Agency - Permanent
-location: County Durham
-source: JobG8
-job_id: jobg8-107894574
-reason: Separate employment market.
+title: Customer Service Advisor
+company: Hartlepool Borough Council
+location: Highlight Active Wellbeing Hub
+source: NEJobs
+job_id: nejobs-299796
+reason: Outside Newcastle catchment.
 ---
 
 ---
@@ -680,6 +788,30 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Marketing & Events Assistant
+company: Connect Multi-Academy Trust
+location: County Durham
+source: NEJobs
+job_id: nejobs-300955
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Medical Receptionist
+company: Claypath and University Medical Practice
+location: Durham, DH1 1QW, DURHAM, DH1 3JX
+source: NHS Jobs
+job_id: nhs-5547933
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Medical Receptionist
 company: Dunelm Medical Practice
 location: Durham, DH1 5BL, Durham, DH1 2QQ, Durham, DH7 7DG
@@ -692,11 +824,23 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Medical Receptionist
+company: Lanchester Medical Centre
+location: Durham, DH7 0LS
+source: NHS Jobs
+job_id: nhs-5547068
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: PA Support Officer
 company: Darlington Borough Council
 location: Town Hall, Darlington
 source: NEJobs
-job_id: nejobs-300628
+job_id: nejobs-300972
 reason: Separate employment market.
 ---
 

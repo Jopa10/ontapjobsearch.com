@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 17
-- automatic review: 11
-- automatic exclude: 19
+- automatic review: 10
+- automatic exclude: 20
 - effective include: 17
-- effective review: 11
-- effective exclude: 19
+- effective review: 10
+- effective exclude: 20
 
 ## INCLUDE (17)
 
@@ -76,18 +76,6 @@ reason: Approved Leeds catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Administrator/Secretary
-company: Hillfoot Surgery
-location: Pudsey, LS28 7QR
-source: NHS Jobs
-job_id: nhs-5534882
-reason: Approved Leeds catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Bid Coordinator
 company: Ridge & Partners LLP - Agency - Permanent
 location: Leeds
@@ -117,6 +105,18 @@ company: CSS - Agency - Contract
 location: Leeds
 source: JobG8
 job_id: jobg8-23643_224689396
+reason: Approved Leeds catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: HR Administrator
+company: Akari Care Limited
+location: Leeds, LS11 5DZ
+source: NHS Jobs
+job_id: nhs-5561629
 reason: Approved Leeds catchment.
 ---
 
@@ -228,7 +228,7 @@ job_id: jobg8-23643_225519206
 reason: Approved Leeds catchment.
 ---
 
-## REVIEW (11)
+## REVIEW (10)
 
 ---
 action: 
@@ -350,19 +350,7 @@ job_id: teaching-vacancies-receptionist-the-king-s-school-pontefract-west-yorksh
 reason: No approved Leeds catchment rule matched; local review required.
 ---
 
----
-action: 
-decision: review
-automatic_decision: review
-title: Trainee Administration Assistant
-company: Pyramid8 - Agency - Permanent
-location: Castleford
-source: JobG8
-job_id: jobg8-23643_225422964
-reason: No approved Leeds catchment rule matched; local review required.
----
-
-## EXCLUDE (19)
+## EXCLUDE (20)
 
 ---
 action: 
@@ -409,6 +397,18 @@ company: BDS (Northern) Limited - Agency - Temporary
 location: Bradford
 source: JobG8
 job_id: jobg8-23643_225499042
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Medical receptionist
+company: Almondbury Surgery
+location: Huddersfield, HD5 8XW
+source: NHS Jobs
+job_id: nhs-5559076
 reason: Separate employment market.
 ---
 
@@ -548,6 +548,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Technical Coordinator
+company: Vistry Group - Company - Permanent
+location: Wakefield
+source: JobG8
+job_id: jobg8-107743976
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Temporary Office Support/Sales Administrator
 company: Office Angels - Agency - Temporary
 location: Bradford
@@ -577,17 +589,5 @@ company: Shorterm Group - Agency - Permanent
 location: Wakefield
 source: JobG8
 job_id: jobg8-23643_225465858
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Ward Clerk
-company: Calderdale and Huddersfield NHS Foundation Trust
-location: Huddersfield, HD3 3EA
-source: NHS Jobs
-job_id: nhs-5561893
 reason: Separate employment market.
 ---

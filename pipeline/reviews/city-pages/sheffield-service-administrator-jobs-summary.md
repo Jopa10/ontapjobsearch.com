@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 9
 - automatic review: 3
-- automatic exclude: 11
+- automatic exclude: 10
 - effective include: 9
 - effective review: 3
-- effective exclude: 11
+- effective exclude: 10
 
 ## INCLUDE (9)
 
@@ -170,7 +170,7 @@ job_id: jobg8-23643_225516072
 reason: No approved Sheffield catchment rule matched; local review required.
 ---
 
-## EXCLUDE (11)
+## EXCLUDE (10)
 
 ---
 action: 
@@ -217,18 +217,6 @@ company: Gi Group - Agency - Permanent
 location: Barnsley
 source: JobG8
 job_id: jobg8-23643_225475228
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: NTD Coordinator
-company: TRC Yorkshire - Agency - Temporary
-location: Barnsley
-source: JobG8
-job_id: jobg8-23643_225423861
 reason: Separate employment market.
 ---
 

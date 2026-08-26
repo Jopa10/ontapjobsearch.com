@@ -565,6 +565,31 @@
     "posted_date_basis": "ontap_first_published"
   },
   {
+    "job_id": "107869948",
+    "title": "Volunteer Lead Co-Ordinator",
+    "company": "DEBRA - Agency - Permanent",
+    "location": "Berkshire",
+    "region": "Berkshire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "20000",
+    "salary_max": "20000",
+    "salary_text": "£20000 per year",
+    "posted_date": "2026-08-26",
+    "description": "Are you a motivated and passionate individual looking to make a difference?\n\nDEBRA is recruiting for a Volunteer Lead Co-Ordinator to join our friendly and supportive Head Office Team, on a Part Time Contract, working a contract of 21 hours per week, earning a salary of £19,200-£21,600 per annum click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?vAYWCB8ag%2fgWWFeSY1oF8rUfwZi5WDTji",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "DEBRA",
+    "advertiser_type": "Agency",
+    "work_pattern": "Part Time",
+    "salary_period": "Annual",
+    "posted_date_basis": "ontap_first_published"
+  },
+  {
     "job_id": "nhs-5559860",
     "source": "NHS Jobs",
     "title": "Administrator",
@@ -581,6 +606,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9371-26-0676",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -600,6 +628,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9371-26-0670",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -619,6 +650,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4422-26-0001",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -638,6 +672,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9371-26-0665",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -657,6 +694,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3584-26-0004",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   }
 ]

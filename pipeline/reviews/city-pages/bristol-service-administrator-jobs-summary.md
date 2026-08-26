@@ -4,7 +4,7 @@
 - Live route: `/bristol/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 22
+- Effective included jobs: 18
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 22
+- automatic include: 18
 - automatic review: 2
-- automatic exclude: 2
-- effective include: 22
+- automatic exclude: 1
+- effective include: 18
 - effective review: 2
-- effective exclude: 2
+- effective exclude: 1
 
-## INCLUDE (22)
+## INCLUDE (18)
 
 ---
 action: 
@@ -136,18 +136,6 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Customer Technical Data Coordinator- 12 Month FTC
-company: Encirc - Agency - Permanent
-location: Bristol
-source: JobG8
-job_id: jobg8-107764368
-reason: Approved conservative Bristol launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Digital Marketing Administrator
 company: Filton Avenue Primary School
 location: Bristol
@@ -177,18 +165,6 @@ company: Lancer Scott Holdings Ltd - Agency - Permanent
 location: Bristol
 source: JobG8
 job_id: jobg8-23643_225456677
-reason: Approved conservative Bristol launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Kitchen Planner
-company: IKEA - Company - Permanent
-location: Bristol
-source: JobG8
-job_id: jobg8-107835912
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -232,18 +208,6 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Reception and Appointment Clerk
-company: Bristol NHS Foundation Trust
-location: Bristol, BS2 8EL
-source: NHS Jobs
-job_id: nhs-5550686
-reason: Approved conservative Bristol launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Sales Administrator
 company: Alexander Mae HR Ltd - Agency - Permanent
 location: Bristol
@@ -276,18 +240,6 @@ job_id: jobg8-107896132
 reason: Approved conservative Bristol launch catchment.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Temp Receptionist
-company: Hays Business Support - Agency - Temporary
-location: Bristol
-source: JobG8
-job_id: jobg8-23643_225425172
-reason: Approved conservative Bristol launch catchment.
----
-
 ## REVIEW (2)
 
 ---
@@ -314,19 +266,7 @@ job_id: jobg8-23643_225515534
 reason: No approved Bristol catchment rule matched; local review required.
 ---
 
-## EXCLUDE (2)
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: 6 Week Interim Finance Assistant
-company: Hays - Agency - Temporary
-location: Bath
-source: JobG8
-job_id: jobg8-107881565
-reason: Separate employment market.
----
+## EXCLUDE (1)
 
 ---
 action: 

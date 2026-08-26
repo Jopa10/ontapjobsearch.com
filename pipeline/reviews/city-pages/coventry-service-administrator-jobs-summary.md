@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 3
 - automatic review: 2
-- automatic exclude: 28
+- automatic exclude: 27
 - effective include: 3
 - effective review: 2
-- effective exclude: 28
+- effective exclude: 27
 
 ## INCLUDE (3)
 
@@ -86,19 +86,7 @@ job_id: jobg8-23643_225526928
 reason: No approved Coventry catchment rule matched; local review required.
 ---
 
-## EXCLUDE (28)
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Admin Assistant
-company: Wellesbourne CofE Primary School
-location: Warwick
-source: Teaching Vacancies
-job_id: teaching-vacancies-admin-assistant-wellesbourne-cofe-primary-school
-reason: Separate employment market.
----
+## EXCLUDE (27)
 
 ---
 action: 
@@ -308,6 +296,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: MEDICAL RECEPTIONIST
+company: Valley Road Medical Practice
+location: Leamington Spa, CV32 7SJ
+source: NHS Jobs
+job_id: nhs-4151642
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Office & Facilities Administrator (Part-time)
 company: NES Group Ltd - Agency - Permanent
 location: Warwickshire
@@ -361,18 +361,6 @@ company: Winner Recruitment - Agency - Permanent
 location: Warwickshire
 source: JobG8
 job_id: jobg8-23643_225429653
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Screening Administrator
-company: University Hospitals Coventry and Warwickshire NHS Trust
-location: Rugby, CV22 5PX
-source: NHS Jobs
-job_id: nhs-5551079
 reason: Separate employment market.
 ---
 

@@ -300,22 +300,25 @@
     "posted_date_basis": "ontap_first_published"
   },
   {
-    "job_id": "nhs-5496755",
+    "job_id": "nhs-5563157",
     "source": "NHS Jobs",
-    "title": "Bank Administrator",
-    "company": "Practice Plus Group",
-    "advertiser_name": "Practice Plus Group",
-    "location": "Shepton Mallet, BA4 4LP",
+    "title": "Ward Administrator",
+    "company": "Somerset NHS Foundation Trust",
+    "advertiser_name": "Somerset NHS Foundation Trust",
+    "location": "Frome, BA11 2FH",
     "region": "Somerset",
-    "salary": "£12.72",
-    "employment_type": "Bank",
-    "posted_date": "2026-07-24T14:48:45.155313",
-    "closing_date": "2026-08-31",
-    "description": "UNLOCK YOUR BEST WORK LIFE + make a difference for every patient We're looking for a friendly, organised and customer-focused Bank Administrator to join our team and help deliver an exceptional experience for our patients. As part of our Administration Team, you'll play a vital role in supporting the smooth day-to-day running of hospital services, ensuring patients, visitors and colleagues receive a professional, efficient and welcoming service at every interaction. You'll work across a variety of administrative functions, helping to keep patient pathways moving and supporting the delivery of outstanding patient care. This is a Bank role; however, we are particularly interested to hear from candidates who can commit to working at least 34 days per week, or who are specifically looking for regular weekend work. The role offers flexibility while providing valuable experience within a busy healthcare environment. As our Bank Administrator, you will be: Providing an efficient appointment booking service for patients across outpatient and theatre services. Handling telephone enquiries from patients, GP surgeries and colleagues in a professional and courteous manner. Supporting patients with appointment queries both over the phone and face-to-face. Contacting patients to offer earlier appointments and supporting the management of internal waiting lists. Processing referrals and maintaining accurate patient records using the Patient Administration System (PAS). Monitoring clinic and theatre lists to help maximise capacity and support RTT targets. Coordinating outpatient clinics and ensuring documentation is prepared and available when required. Working collaboratively with departments across the hospital to ensure patients receive a seamless service. For more information request a copy of the full job description from sarah.melder@practiceplusgroup.com",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0314-26-2708",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0314-26-2708",
+    "salary": "£24465.00 to £24465.00",
+    "employment_type": "Permanent",
+    "posted_date": "2026-08-26T13:21:03.132384355",
+    "closing_date": "2026-09-09",
+    "description": "This is an exciting role front of house, working closely with clinical colleagues to ensure our patients receive the highest standard of care. The role requires someone who has a great level of attention to detail and good organisational skills for managing in a busy environment. Excellent communication and customer service skills are essential for dealing with colleagues, patients and families. The needs of the service user will be the utmost priority. The principle of high quality customer care is at the heart of this role. Working hours can be flexible to cover a mixture of the following: 08.00 -- 18.30 Monday -- Friday 08.00 -- 13.00 Saturday -- Sunday The post holder will be required to admit/discharge and transfer patients, answer telephone enquiries, create appointments and arrange transport for patients.The post holder will be responsible for ensuring the reception area is tidy and well organised and that office supplies and stationery are ordered and kept stocked up. See full job description for more information. Please see the Job Description for further information, as well as a full list of duties and responsibilities.",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9184-26-1263",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9184-26-1263",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A",
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -335,6 +338,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B9083-26-0438",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -354,6 +360,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5758-26-0004",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   }
 ]

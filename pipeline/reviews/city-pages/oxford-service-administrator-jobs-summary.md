@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 10
 - automatic review: 9
-- automatic exclude: 31
+- automatic exclude: 33
 - effective include: 10
 - effective review: 9
-- effective exclude: 31
+- effective exclude: 33
 
 ## INCLUDE (10)
 
@@ -42,9 +42,9 @@ decision: include
 automatic_decision: include
 title: Assistant Patient Pathway Administrator
 company: Oxford University Hospitals NHS Foundation Trust
-location: Oxford, OX3 9DU
+location: Oxford, OX3 7LE
 source: NHS Jobs
-job_id: nhs-5550273
+job_id: nhs-5558622
 reason: Approved conservative Oxford launch catchment.
 ---
 
@@ -54,9 +54,9 @@ decision: include
 automatic_decision: include
 title: Assistant Patient Pathway Administrator
 company: Oxford University Hospitals NHS Foundation Trust
-location: Oxford, OX3 7LE
+location: Oxford, OX3 9DU
 source: NHS Jobs
-job_id: nhs-5558622
+job_id: nhs-5563254
 reason: Approved conservative Oxford launch catchment.
 ---
 
@@ -69,18 +69,6 @@ company: Oxford University Hospitals NHS Foundation Trust
 location: Oxford, OX2 9JA
 source: NHS Jobs
 job_id: nhs-5549776
-reason: Approved conservative Oxford launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Forensic Administrator - Littlemore, Oxford
-company: Oxford Health NHS Trust
-location: Oxford, OX4 4XN
-source: NHS Jobs
-job_id: nhs-5538380
 reason: Approved conservative Oxford launch catchment.
 ---
 
@@ -141,6 +129,18 @@ company: Oxford Health NHS Trust
 location: Oxford, OX4 1XD
 source: NHS Jobs
 job_id: nhs-5539257
+reason: Approved conservative Oxford launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Ward Clerk
+company: Oxford University Hospitals NHS Foundation Trust
+location: Oxford, OX3 9DU
+source: NHS Jobs
+job_id: nhs-5561560
 reason: Approved conservative Oxford launch catchment.
 ---
 
@@ -254,7 +254,7 @@ job_id: teaching-vacancies-school-office-receptionist-administrative-assistant
 reason: No approved Oxford catchment rule matched; local review required.
 ---
 
-## EXCLUDE (31)
+## EXCLUDE (33)
 
 ---
 action: 
@@ -392,11 +392,11 @@ reason: Broad county location; not Oxford-city evidence.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Business Administrator
-company: Care Concern Group - Company - Permanent
+title: Cash Management Administrator
+company: Cameo Consultancy (Recruitment) Limited - Agency - Permanent
 location: Oxfordshire
 source: JobG8
-job_id: jobg8-107824312
+job_id: jobg8-107819254
 reason: Broad county location; not Oxford-city evidence.
 ---
 
@@ -409,6 +409,18 @@ company: K2 Recruitment - Agency - Permanent
 location: Oxfordshire
 source: JobG8
 job_id: jobg8-23643_225412786
+reason: Broad county location; not Oxford-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Customer Service Advisor
+company: Vibe Recruit - Agency - Contract
+location: Oxfordshire
+source: JobG8
+job_id: jobg8-23643_225426660
 reason: Broad county location; not Oxford-city evidence.
 ---
 
@@ -505,6 +517,18 @@ company: Gill Cooke Personnel Ltd T/A The Recruitment Group - Agency - Permanent
 location: Oxfordshire
 source: JobG8
 job_id: jobg8-23643_225433735
+reason: Broad county location; not Oxford-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: PURCHASING COORDINATOR
+company: Euro-Projects Recruitment Ltd - Agency - Permanent
+location: Oxfordshire
+source: JobG8
+job_id: jobg8-23643_225462965
 reason: Broad county location; not Oxford-city evidence.
 ---
 

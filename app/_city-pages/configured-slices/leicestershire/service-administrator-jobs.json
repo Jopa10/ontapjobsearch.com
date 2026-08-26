@@ -716,6 +716,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0505-26-0221",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -735,6 +738,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9164-26-0774",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -754,6 +760,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9313-26-0368",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -773,25 +782,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9313-26-0357",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "posted_date_basis": "source"
-  },
-  {
-    "job_id": "nhs-5542075",
-    "source": "NHS Jobs",
-    "title": "ED Receptionist",
-    "company": "University Hospitals of Leicester NHS Trust",
-    "advertiser_name": "University Hospitals of Leicester NHS Trust",
-    "location": "Leicester, LE1 5WW",
-    "region": "Leicestershire",
-    "salary": "£25272.00",
-    "employment_type": "Permanent",
-    "posted_date": "2026-08-17T14:23:28.466561254",
-    "closing_date": "2026-08-31",
-    "description": "These are permanent posts and we are offering both full time and part time hours, you will be required to work over a 7 day rota, working both day and night shifts and are also required to work bank holidays. 365 days rotation. The Emergency reception areas cover Adults, Children's, Ambulance arrivals, MIAMI , MSDEC and DVT Clinic. This is a demanding area and is a challenging role but has a friendly working environment, and would suit an individual who would like a challenge. We are currently recruiting for a dedicated and enthusiastic Receptionist with excellent communication skills and the ability to work effectively as part of a team. You will need to be flexible, enthusiastic, passionate about emergency care, and committed to improving service delivery. The ability to work in a fast-paced environment is essential. The role requires booking patients into the Emergency Department accurately and in accordance with established processes and procedures. The successful candidate will be the first point of contact for patients and their relatives and will therefore need to possess excellent customer service skills. You will also need the ability to work effectively as part of a multidisciplinary team, as well as on your own initiative. Strong communication skills, excellent organisational abilities, attention to detail, and accurate keyboard skills are essential. Also answering telephone and face-to-face enquiries, scanning patient records , and arriving patients at Clinics ensuring that the correct process is followed. To work on any of the Emergency department reception desks providing cover on reception, receiving and directing patients, visitors and staff in a courteous manner To direct and redirect telephone calls in a polite friendly manner To capture patient demographics and any key information relating to their visit To liaise with other departments as required To support the department in the administrative and clerical processes and procedures associated with the running of a clinical service in support of excellent care for patients and their careers.",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9358-26-0540",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9358-26-0540",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -811,6 +804,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9358-26-0543",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   }
 ]

@@ -246,6 +246,18 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
+title: Operations Coordinator
+company: AWD Online - Agency - Contract
+location: Sussex
+source: JobG8
+job_id: jobg8-107876491
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Pallex Operations Planner
 company: Churchill Freight Services Ltd - Agency - Permanent
 location: Sussex
@@ -335,18 +347,6 @@ company: Office Angels - Agency - Permanent
 location: Sussex
 source: JobG8
 job_id: jobg8-23643_225498357
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Service Coordinator
-company: British Red Cross - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-107885562
 reason: Broad location; review before city inclusion.
 ---
 

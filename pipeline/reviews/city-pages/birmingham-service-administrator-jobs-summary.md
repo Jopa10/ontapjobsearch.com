@@ -28,6 +28,18 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 action: 
 decision: include
 automatic_decision: include
+title: Administrator - Birmingham
+company: Vaccination UK
+location: Birmingham, B18 7EE
+source: NHS Jobs
+job_id: nhs-5501562
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Bookings Coordinator
 company: Office Angels - Agency - Permanent
 location: Birmingham
@@ -105,18 +117,6 @@ company: ST Selection - Agency - Permanent
 location: Birmingham
 source: JobG8
 job_id: jobg8-23643_225493038
-reason: Approved conservative Birmingham launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Part Time Evening Receptionist
-company: Garretts Green Lane Surgery
-location: Birmingham, B26 2SB
-source: NHS Jobs
-job_id: nhs-5550429
 reason: Approved conservative Birmingham launch catchment.
 ---
 
