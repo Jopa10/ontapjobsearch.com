@@ -82,6 +82,27 @@ def factual_fingerprint(row: dict[str, Any]) -> tuple[str, str, str]:
     )
 
 
+def unaccounted_approved_ids(
+    approved_rows: list[dict[str, Any]],
+    combined_rows: list[dict[str, Any]],
+    *,
+    source: str,
+) -> list[str]:
+    """Return approved IDs neither retained nor deduped against another source."""
+    combined_ids = {text(row.get("job_id")) for row in combined_rows}
+    other_source_fingerprints = {
+        factual_fingerprint(row)
+        for row in combined_rows
+        if text(row.get("source")).casefold() != source.casefold()
+    }
+    return sorted(
+        text(row.get("job_id"))
+        for row in approved_rows
+        if text(row.get("job_id")) not in combined_ids
+        and factual_fingerprint(row) not in other_source_fingerprints
+    )
+
+
 def validate_external_row(
     row: dict[str, Any],
     *,
@@ -133,6 +154,8 @@ def _accepted_external_rows(
 ) -> tuple[list[dict[str, Any]], int, int]:
     accepted: list[dict[str, Any]] = []
     seen_source_ids: set[str] = set()
+    preexisting_ids = set(occupied_ids)
+    preexisting_fingerprints = set(occupied_fingerprints)
     skipped_expired = 0
     skipped_duplicate = 0
 
@@ -148,13 +171,17 @@ def _accepted_external_rows(
             skipped_expired += 1
             continue
         fingerprint = factual_fingerprint(row)
-        if job_id in occupied_ids or fingerprint in occupied_fingerprints:
+        if job_id in preexisting_ids or fingerprint in preexisting_fingerprints:
             skipped_duplicate += 1
             continue
 
         accepted.append(row)
-        occupied_ids.add(job_id)
-        occupied_fingerprints.add(fingerprint)
+
+    # Distinct stable IDs from one source are distinct approved adverts even
+    # when their headline title/employer/location fields match. Add the whole
+    # accepted set afterwards so this remains a cross-source dedupe guard.
+    occupied_ids.update(text(row.get("job_id")) for row in accepted)
+    occupied_fingerprints.update(factual_fingerprint(row) for row in accepted)
 
     accepted.sort(
         key=lambda row: (
