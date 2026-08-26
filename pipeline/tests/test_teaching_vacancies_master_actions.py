@@ -313,6 +313,109 @@ def test_resolved_selection_carries_when_old_markdown_still_has_block(
         actions.parse_master_actions(resolved_rows, old_md)
 
 
+
+def test_master_carry_tolerates_identical_old_duplicate_after_region_move(
+    tmp_path: Path,
+) -> None:
+    old_dir = tmp_path / "old"
+    old_dir.mkdir()
+    write_region(
+        old_dir,
+        [
+            make_record(
+                "moved",
+                classification="HC",
+                title="Attendance Officer",
+                region="Norfolk",
+            )
+        ],
+    )
+    write_region(
+        old_dir,
+        [
+            make_record(
+                "moved",
+                classification="HC",
+                title="Attendance Officer",
+                region="East of England",
+                slice_status="UNREGISTERED",
+            )
+        ],
+    )
+    old_rows = master.build_master_rows(old_dir)
+    old_csv = tmp_path / "old-master.csv"
+    old_md = tmp_path / "old-master.md"
+    old_csv.write_bytes(master.master_csv_bytes(old_rows))
+    old_md.write_text(master.master_summary_text(old_rows), encoding="utf-8")
+
+    with pytest.raises(ValueError, match="duplicate source_job_id"):
+        actions.load_master_csv(old_csv)
+
+    current_dir = tmp_path / "current"
+    current_dir.mkdir()
+    write_region(
+        current_dir,
+        [
+            make_record(
+                "moved",
+                classification="HC",
+                title="Attendance Officer",
+                region="Norfolk",
+            )
+        ],
+    )
+    current_rows = master.build_master_rows(current_dir)
+
+    carried = actions.carry_existing_actions(
+        current_rows,
+        old_master_csv=old_csv,
+        old_master_summary=old_md,
+    )
+
+    assert carried == 0
+    assert current_rows[0]["ontap_region"] == "Norfolk"
+
+
+def test_master_carry_rejects_conflicting_old_duplicate(
+    tmp_path: Path,
+) -> None:
+    old_dir = tmp_path / "old"
+    old_dir.mkdir()
+    first = make_record(
+        "moved",
+        classification="HC",
+        title="Attendance Officer",
+        region="Norfolk",
+    )
+    second = make_record(
+        "moved",
+        classification="HC",
+        title="Attendance Officer",
+        region="East of England",
+        slice_status="UNREGISTERED",
+    )
+    second.factual_fingerprint = "different"
+    write_region(old_dir, [first])
+    write_region(old_dir, [second])
+    old_rows = master.build_master_rows(old_dir)
+    old_csv = tmp_path / "old-master.csv"
+    old_md = tmp_path / "old-master.md"
+    old_csv.write_bytes(master.master_csv_bytes(old_rows))
+    old_md.write_text(master.master_summary_text(old_rows), encoding="utf-8")
+
+    current_dir = tmp_path / "current"
+    current_dir.mkdir()
+    write_region(current_dir, [first])
+    current_rows = master.build_master_rows(current_dir)
+
+    with pytest.raises(ValueError, match="conflicting duplicate"):
+        actions.carry_existing_actions(
+            current_rows,
+            old_master_csv=old_csv,
+            old_master_summary=old_md,
+        )
+
+
 def test_master_carry_does_not_reselect_possible_jobg8_duplicate(
     tmp_path: Path,
 ) -> None:

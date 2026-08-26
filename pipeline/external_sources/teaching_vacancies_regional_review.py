@@ -664,6 +664,31 @@ def group_by_region(records: Iterable[ReviewRecord]) -> dict[str, list[ReviewRec
     return dict(sorted(output.items()))
 
 
+def prune_stale_review_outputs(
+    review_dir: Path,
+    *,
+    active_regions: Iterable[str],
+) -> list[Path]:
+    """Remove generated regional pairs that are absent from the current routing."""
+    expected: set[Path] = set()
+    for region in active_regions:
+        expected.update(review_paths(review_dir, region))
+
+    removed: list[Path] = []
+    for pattern in (
+        "*-admin-service-review.csv",
+        "*-admin-service-summary.md",
+    ):
+        for path in sorted(review_dir.glob(pattern)):
+            if path.name.startswith("england-wide-admin-service-"):
+                continue
+            if path in expected:
+                continue
+            path.unlink()
+            removed.append(path)
+    return removed
+
+
 def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--routed-csv", type=Path, required=True)
@@ -710,6 +735,10 @@ def main(argv: list[str] | None = None) -> int:
         jobg8_by_region=load_jobg8_by_region(args.jobg8_output_dir),
     )
     grouped = group_by_region(records)
+    stale_outputs = prune_stale_review_outputs(
+        args.review_dir,
+        active_regions=grouped,
+    )
     review_date = clean(routing_summary.get("run_date"))
     migration_rows: list[dict[str, str]] = []
 
@@ -746,7 +775,8 @@ def main(argv: list[str] | None = None) -> int:
         )
     print(
         f"Teaching Vacancies regional review wrote {len(grouped)} regional "
-        f"review sets for {len(records)} routed records; no jobs were published."
+        f"review sets for {len(records)} routed records; removed "
+        f"{len(stale_outputs)} stale regional output file(s); no jobs were published."
     )
     return 0
 
