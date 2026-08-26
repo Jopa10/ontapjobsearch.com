@@ -1,18 +1,18 @@
 # VONNE ETL proof-of-concept review
 
 review_date: 2026-08-26
-review_fingerprint: 095b80e161824f0946a7126f13754160d985d649486bf62c1ddc0d8455c240f5
+review_fingerprint: 166481ce1c06809f4631c313127703d10efd636f88119308c1d7089fd661c59b
 
 This implementation is review-only. It has no approved-JSON or publishing mode.
 
 Edit only the `action:` line in editable blocks:
 - `action: select` promotes a POSS vacancy for discussion.
 - `action: exclude` rejects a POSS vacancy or removes an HC vacancy.
-- Actions are remembered while the same vacancy review facts remain unchanged; this review still does not publish anything.
+- Actions are same-day only and do not publish anything.
 
-Run generated: 2026-08-26T08:26:39+01:00
+Run generated: 2026-08-26T13:36:49+01:00
 Listing input: https://www.vonne.org.uk/vonne-jobs
-JobG8 comparison rows: 230
+JobG8 comparison rows: 228
 Approved NEJobs comparison rows: 22
 
 ## Funnel
@@ -21,99 +21,123 @@ Approved NEJobs comparison rows: 22
 - Detail pages fetched successfully: 4
 - Detail failures/listing fallbacks: 0
 - Obvious hard passes not detail-fetched: 11
-- Tees Valley explicitly excluded: 1
+- Tees Valley explicitly excluded: 0
 - Outside or unmapped geography excluded: 1
-- Generic/derived geography rows requiring review: 3
-- Retained target candidates: 13
+- Generic/derived geography rows requiring review: 4
+- Retained target candidates: 14
 
 ## Outcomes
 - HC: 0
-- POSS: 5
+- POSS: 6
 - HARD_PASS: 8
-- Final selected after remembered/manual actions: 3
-- Final POSS awaiting decision: 0
+- Final selected after same-day actions: 3
+- Final POSS awaiting decision: 1
 - Manually excluded: 2
+
 ## Detail diagnostics
 - No unresolved detail-page failures.
 
 ## SELECTED
 
-- None.
-
-## POSS — choose SELECT or EXCLUDE
-
----
-action: exclude
-POSS | North East | Home-based | £25,664 Per Annum | Mentor (HEAT) - North East England
-employer: The Wise Group
-closing_date: 27 August 2026
-geography: GENERIC_REVIEW — generic VONNE location requires manual North East check
-reason: North East geography is generic or derived and requires review
-source: VONNE
-tracking_key: vonne-173344
-source_job_id: 173344
-source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173344
----
 ---
 action: select
-POSS | North East - County Durham & Darlington/Hartlepool | Hybrid | £31,500 Pro Rata | Trusts and Community Fundraising Officer
+SELECTED | North East - County Durham & Darlington/Hartlepool | Hybrid | £31,500 Pro Rata | Trusts and Community Fundraising Officer
 employer: Durham County Carers Support
 closing_date: 25 September 2026
 geography: DERIVED_REVIEW — employer-derived geography: area found in address: durham
 reason: North East geography is generic or derived and requires review
 source: VONNE
 tracking_key: vonne-173349
+vacancy_fingerprint: 11f227685f5e3a482053104d6ecbb8156ab3f437a2d893c21e97e1500a6be808
 source_job_id: 173349
 source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173349
 ---
----
-action: exclude
-POSS | North East - Tyneside, Wearside & Northumberland | Tyne and Wear | £34,434 to 36,363 Per Annum | Health & Wellbeing Coordinator
-employer: VONNE
-closing_date: Sunday, September 13, 2026 - 00:00
-geography: CONFIRMED — location: approved location fallback
-reason: annualised upper salary £36,363 exceeds North East review point £30,000
-source: VONNE
-tracking_key: vonne-173309
-source_job_id: 173309
-source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173309
----
+
 ---
 action: select
-POSS | North East - Tyneside, Wearside & Northumberland | Tyne and Wear | £26,402 to 28,141 Per Annum | Health & Wellbeing Projects Support Officer
+SELECTED | North East - Tyneside, Wearside & Northumberland | Tyne and Wear | £26,402 to 28,141 Per Annum | Health & Wellbeing Projects Support Officer
 employer: VONNE
 closing_date: Sunday, September 13, 2026 - 00:00
 geography: CONFIRMED — location: approved location fallback
 reason: provisional transferable-office review
 source: VONNE
 tracking_key: vonne-173310
+vacancy_fingerprint: 8a7ab286013372c433a61a3c5bcaad36cea77bc6812442d255b413a5866b6bce
 source_job_id: 173310
 source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173310
 ---
+
 ---
 action: select
-POSS | North East - Tyneside, Wearside & Northumberland | Tyne and Wear | £25,334 to 26,419 Per Annum | Marketing Coordinator
+SELECTED | North East - Tyneside, Wearside & Northumberland | Tyne and Wear | £25,334 to 26,419 Per Annum | Marketing Coordinator
 employer: Age UK North Tyneside
 closing_date: Wednesday, September 2, 2026 - 12:00
 geography: CONFIRMED — location: approved location fallback
 reason: provisional transferable-office review
 source: VONNE
 tracking_key: vonne-173347
+vacancy_fingerprint: 5ffc42da06b53f655acf29768aa1d1b990d1701bd3b16f82985d7f2b2005e8dd
 source_job_id: 173347
 source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173347
 ---
+
+
+## POSS — choose SELECT or EXCLUDE
+
+---
+action:
+POSS | North East | Regionwide | £30,150 Per Annum | Housing Support Officer
+employer: Handcrafted
+closing_date: Tuesday, September 1, 2026 - 17:00
+geography: GENERIC_REVIEW — generic VONNE location requires manual North East check
+reason: North East geography is generic or derived and requires review
+source: VONNE
+tracking_key: vonne-173358
+vacancy_fingerprint: bc1c2200fdc8dcfa64f31abb48d4a2d0d40df53ed9b1bdd1bf5d91948b802f74
+source_job_id: 173358
+source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173358
+---
+
+
 ## EXCLUDED BY REVIEW
 
-- None.
+---
+action: exclude
+EXCLUDED | North East | Home-based | £25,664 Per Annum | Mentor (HEAT) - North East England
+employer: The Wise Group
+closing_date: 27 August 2026
+geography: GENERIC_REVIEW — generic VONNE location requires manual North East check
+reason: North East geography is generic or derived and requires review
+source: VONNE
+tracking_key: vonne-173344
+vacancy_fingerprint: b292d27ffe3ab9321ddff3da766565ebca91c9ed260429fb4ac92eb39282e974
+source_job_id: 173344
+source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173344
+---
+
+---
+action: exclude
+EXCLUDED | North East - Tyneside, Wearside & Northumberland | Tyne and Wear | £34,434 to 36,363 Per Annum | Health & Wellbeing Coordinator
+employer: VONNE
+closing_date: Sunday, September 13, 2026 - 00:00
+geography: CONFIRMED — location: approved location fallback
+reason: annualised upper salary £36,363 exceeds North East review point £30,000
+source: VONNE
+tracking_key: vonne-173309
+vacancy_fingerprint: 25bce1025449c1002f480b7b77769ff54b70b170d8a01bd59a5f484ec7758404
+source_job_id: 173309
+source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173309
+---
+
 
 ## HARD_PASS
 
-- [Energy Advice Worker](https://www.vonne.org.uk/vonne-jobs-details?cid=173343) — out-of-scope VONNE occupation.
 - [Experienced &Trainee Telephone Debt Caseworker](https://www.vonne.org.uk/vonne-jobs-details?cid=173346) — out-of-scope VONNE occupation.
-- [Experienced Manager – Adult Training Services](https://www.vonne.org.uk/vonne-jobs-details?cid=173342) — out-of-scope VONNE occupation.
 - [Facilities and Compliance Manager](https://www.vonne.org.uk/vonne-jobs-details?cid=173354) — out-of-scope VONNE occupation.
 - [Families Advice and Support Team Manager](https://www.vonne.org.uk/vonne-jobs-details?cid=173348) — out-of-scope VONNE occupation.
+- [Gardening and Handyperson Supervisor](https://www.vonne.org.uk/vonne-jobs-details?cid=173184) — insufficient service-admin evidence.
 - [Project Worker: Disability Heritage in North Tyneside: The NTDF Story](https://www.vonne.org.uk/vonne-jobs-details?cid=173231) — out-of-scope VONNE occupation.
+- [Temporary Centre Manager](https://www.vonne.org.uk/vonne-jobs-details?cid=173361) — out-of-scope VONNE occupation.
 - [Welfare Benefits Advisor](https://www.vonne.org.uk/vonne-jobs-details?cid=172790) — insufficient service-admin evidence.
 - [Young Carer Support Worker](https://www.vonne.org.uk/vonne-jobs-details?cid=173355) — out-of-scope VONNE occupation.
 
