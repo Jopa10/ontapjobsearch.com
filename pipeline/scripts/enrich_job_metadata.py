@@ -31,6 +31,7 @@ COL = {
 }
 OPTIONAL_POSTED_DATE_COLUMNS = ("/Job/PostedDate", "/Job/Posted", "/Job/DatePosted")
 REQUIRED_COLUMNS = {COL["job_id"], COL["advertiser_name"], COL["advertiser_type"]}
+MAX_CONFLICTING_JOB_IDS = 15
 
 
 def text(value: Any) -> str:
@@ -66,8 +67,13 @@ def read_feed(path: Path) -> pd.DataFrame:
     return frame
 
 
-def metadata_by_job_id(frame: pd.DataFrame) -> dict[str, dict[str, str]]:
+def metadata_by_job_id(
+    frame: pd.DataFrame,
+    *,
+    conflicted_job_ids: set[str] | None = None,
+) -> dict[str, dict[str, str]]:
     result: dict[str, dict[str, str]] = {}
+    conflicts = conflicted_job_ids if conflicted_job_ids is not None else set()
     posted_date_column = next(
         (column for column in OPTIONAL_POSTED_DATE_COLUMNS if column in frame.columns),
         "",
@@ -75,6 +81,8 @@ def metadata_by_job_id(frame: pd.DataFrame) -> dict[str, dict[str, str]]:
     for _, row in frame.iterrows():
         job_id = text(row.get(COL["job_id"]))
         if not job_id:
+            continue
+        if job_id in conflicts:
             continue
         metadata = {
             "advertiser_name": text(row.get(COL["advertiser_name"])),
@@ -87,9 +95,28 @@ def metadata_by_job_id(frame: pd.DataFrame) -> dict[str, dict[str, str]]:
         }
         existing = result.get(job_id)
         if existing is not None and existing != metadata:
-            raise RuntimeError(f"Conflicting JobG8 metadata for duplicate job_id {job_id}")
+            conflicts.add(job_id)
+            result.pop(job_id, None)
+            continue
         result[job_id] = metadata
     return result
+
+
+def validate_conflicting_job_ids(
+    conflicted_job_ids: set[str],
+    *,
+    max_conflicts: int = MAX_CONFLICTING_JOB_IDS,
+) -> None:
+    if len(conflicted_job_ids) > max_conflicts:
+        raise RuntimeError(
+            "Too many conflicting duplicate JobG8 job IDs for safe job-level "
+            f"quarantine: {len(conflicted_job_ids)} > {max_conflicts}"
+        )
+    if conflicted_job_ids:
+        print(
+            "Warning: quarantining JobG8 rows with conflicting duplicate metadata: "
+            + ", ".join(sorted(conflicted_job_ids))
+        )
 
 
 def atomic_write_json(path: Path, rows: list[dict[str, Any]]) -> None:
@@ -157,15 +184,33 @@ def enrich_directory(
     metadata: dict[str, dict[str, str]],
     *,
     write: bool,
+    quarantined_job_ids: set[str] | None = None,
 ) -> dict[str, int]:
-    totals = {"files": 0, "rows": 0, "changed_rows": 0, "unmatched_rows": 0}
+    totals = {
+        "files": 0,
+        "rows": 0,
+        "changed_rows": 0,
+        "unmatched_rows": 0,
+        "quarantined_rows": 0,
+    }
     unmatched: list[str] = []
+    quarantined: list[str] = []
+    quarantine_ids = quarantined_job_ids or set()
 
     for path in sorted(directory.glob("*.json")):
         data = json.loads(path.read_text(encoding="utf-8"))
         if not isinstance(data, list):
             raise RuntimeError(f"{path} must contain a JSON array")
-        rows, changed, missing = enrich_rows(data, metadata)
+        safe_rows: list[dict[str, Any]] = []
+        for row in data:
+            source = text(row.get("source")) or "JobG8"
+            job_id = text(row.get("job_id"))
+            if source.lower() == "jobg8" and job_id in quarantine_ids:
+                quarantined.append(f"{path.name}:{job_id}")
+                continue
+            safe_rows.append(row)
+
+        rows, changed, missing = enrich_rows(safe_rows, metadata)
         totals["files"] += 1
         totals["rows"] += len(rows)
         totals["changed_rows"] += changed
@@ -180,6 +225,14 @@ def enrich_directory(
         print(
             "Warning: retained metadata unchanged for JobG8 rows not present in "
             f"the current feed: {sample}{extra}"
+        )
+    totals["quarantined_rows"] = len(quarantined)
+    if quarantined:
+        sample = ", ".join(quarantined[:10])
+        extra = f" (+{len(quarantined) - 10} more)" if len(quarantined) > 10 else ""
+        print(
+            "Warning: withheld JobG8 output rows with conflicting duplicate "
+            f"metadata: {sample}{extra}"
         )
     return totals
 
@@ -196,15 +249,23 @@ def main() -> int:
     args = parser.parse_args()
 
     feed_path = find_jobg8_input()
-    metadata = metadata_by_job_id(read_feed(feed_path))
+    conflicted_job_ids: set[str] = set()
+    metadata = metadata_by_job_id(
+        read_feed(feed_path), conflicted_job_ids=conflicted_job_ids
+    )
+    validate_conflicting_job_ids(conflicted_job_ids)
     totals = enrich_directory(
-        OUTPUT_DIRECTORIES[args.category], metadata, write=not args.dry_run
+        OUTPUT_DIRECTORIES[args.category],
+        metadata,
+        write=not args.dry_run,
+        quarantined_job_ids=conflicted_job_ids,
     )
     mode = "would enrich" if args.dry_run else "enriched"
     print(
         f"{args.category}: {mode} {totals['changed_rows']} of {totals['rows']} rows "
         f"across {totals['files']} JSON files from {feed_path.name}; "
-        f"{totals['unmatched_rows']} retained rows were not in the current feed"
+        f"{totals['unmatched_rows']} retained rows were not in the current feed; "
+        f"{totals['quarantined_rows']} conflicting duplicate rows were withheld"
     )
     return 0
 
