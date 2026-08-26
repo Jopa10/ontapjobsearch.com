@@ -23,21 +23,13 @@ SELECTED | Yorkshire - West | Halifax | £14.24 - £16 per hour (+ INC holiday p
 job_id: 107728647
 ---
 
----
-action:
-SELECTED | Yorkshire - West | Ilkley | £170 per daily | Care Assistant to English Literature Uni Graduate
-job_id: 107891212
----
-
----
-action:
-SELECTED | Yorkshire - West | Leeds | £170 per daily | Live-in Personal Care Assistant - History and Sociology Student
-job_id: 107751768
----
-
 ## WEST YORKSHIRE — POSSIBLES
 
-_No jobs in this group._
+---
+action:
+POSS - YORKSHIRE - WEST | Yorkshire - West | Huddersfield | £14.24 - £16 per hour (+ INC holiday pay) | Complex Care Assistant
+job_id: 107728806
+---
 
 ## SOUTH YORKSHIRE — SELECTED
 
@@ -133,14 +125,20 @@ job_id: 107864483
 
 ---
 action:
-SELECTED | Sussex | Horsham | £30000 per year | Residential Support Worker
-job_id: 107831131
+SELECTED | Sussex | Hove | £16 per hour | Care Assistant to a Creative Writing Uni Graduate
+job_id: 107835737
 ---
 
 ---
 action:
-SELECTED | Sussex | Hove | £16 per hour | Care Assistant to a Creative Writing Uni Graduate
-job_id: 107835737
+SELECTED | Sussex | Midhurst | rate of up to £13.11 (plus a 12.07% holiday allowance uplift | Bank Healthcare Assistant
+job_id: 107831119
+---
+
+---
+action:
+SELECTED | Sussex | Chichester | £12.71 per hour | Healthcare Assistant
+job_id: 107885550
 ---
 
 ## SUSSEX — POSSIBLES
@@ -149,7 +147,23 @@ _No jobs in this group._
 
 ## CUMBRIA SOUTH — SELECTED
 
-_No jobs in this group._
+---
+action:
+SELECTED | Cumbria - South | Barrow-in-furness | £12.85 per hour (plus rolled up holiday pay) | Relief Support Worker
+job_id: 107877592
+---
+
+---
+action:
+SELECTED | Cumbria - South | Ulverston | £12.85 per hour | Support Worker
+job_id: 107891318
+---
+
+---
+action:
+SELECTED | Cumbria - South | Barrow-in-furness | £12.85 per hour | Waking Night Support Worker (Part Time)
+job_id: 107864411
+---
 
 ## CUMBRIA SOUTH — POSSIBLES
 
@@ -197,12 +211,6 @@ job_id: 1401784687
 action:
 SELECTED | Hampshire | Southampton | £25,947 - £26,305 per annum | Accommodation Support Worker
 job_id: 1674633
----
-
----
-action:
-SELECTED | Hampshire | Petersfield | £16 per hour | Graduate Opportunity: Hourly Personal Care Assistant
-job_id: 107769099
 ---
 
 ---
@@ -267,12 +275,6 @@ job_id: 23643_223283749
 
 ---
 action:
-SELECTED | London | London | £16.87 - £20.25 per hour | Day Care Assistant
-job_id: 107699707
----
-
----
-action:
 SELECTED | London | London | £23,088.00 per annum | Waking Night Support Worker
 job_id: 1664745
 ---
@@ -325,9 +327,25 @@ SELECTED | London | London | £35000 per year | Founders Personal Assistant / Ex
 job_id: 107885503
 ---
 
+---
+action:
+SELECTED | London | Brentford | £125 - £130 per daily | Support Worker
+job_id: 23643_225535652
+---
+
+---
+action:
+SELECTED | London | London | £13 per hour | Home Care Worker
+job_id: 107744963
+---
+
 ## LONDON — POSSIBLES
 
-_No jobs in this group._
+---
+action:
+POSS - LONDON | London | Surbiton | £246 per daily | Personal Care Assistant to a Business Management graduate
+job_id: 107900179
+---
 
 ## SURREY — SELECTED
 
@@ -389,6 +407,18 @@ job_id: 1693131
 action:
 SELECTED | Wiltshire | Swindon | £26,227 per annum | Female BSW Crisis House Peer Support Worker
 job_id: 1787836
+---
+
+---
+action:
+SELECTED | Wiltshire | Warminster | £12000 per year | Support Worker
+job_id: 107879335
+---
+
+---
+action:
+SELECTED | Wiltshire | Melksham | £12000 per year | Support Worker
+job_id: 107887003
 ---
 
 ## WILTSHIRE — POSSIBLES
