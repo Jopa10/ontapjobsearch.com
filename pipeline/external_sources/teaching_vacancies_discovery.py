@@ -181,7 +181,7 @@ def parse_listing_page(document: str, *, page: int) -> ListingPage:
     visible_text = poc.clean(document)
     urls = listing_job_urls(document)
     match = re.search(
-        r"Showing\s+([\d,]+)\s+to\s+([\d,]+)\s+of\s+([\d,]+)\s+results",
+        r"Showing\s+([\d,]+)\s+to\s+([\d,]+)\s+of\s+([\d,]+)\s+results?",
         visible_text,
         flags=re.I,
     )

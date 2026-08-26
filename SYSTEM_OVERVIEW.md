@@ -1,12 +1,13 @@
 # Ontap System Overview
 
-**Last updated:** 24 August 2026  
+**Last updated:** 26 August 2026  
 **Status:** Canonical production state after architecture cleanup, regional/city expansion, deployment-path verification, NHS Administrative & Clerical integration, search/UX hardening, Customer Sales, Legal Assistant / Paralegal, Marketing and HR / Recruitment production launches, 78-market UK geography governance, six-family regional diagnostics/history and Teaching Vacancies review-queue refinement.
 
 This is the short owner view of how Ontap is organised. It mirrors the five canonical system buckets in `SYSTEM_MAP.md`.
 
 ## Recent canonical changes
 
+- 26 August 2026 — **Teaching Vacancies now handles a search returning exactly one job:** TV writes `result` rather than `results` in that case. The page audit accepts both forms while keeping all existing page-count and vacancy-link completeness checks.
 - 24 August 2026 — **HR / Recruitment is LIVE in six explicitly approved markets:** London, West Yorkshire, Berkshire, Manchester & Salford, Nottinghamshire, and Birmingham & Solihull. The three exact-five proof markets—Sussex, Bristol & Bath and Essex—remain reserves and are not public. Daily selection now uses the reviewed advert-level HR / Recruitment boundary instead of the older exact-title HR mechanism, rechecking the £50k ceiling, senior/advisory/specialist and agency-sales exclusions, content duplicates and geographic conflicts before the shared verified-page publisher runs. The proof-reviewed Ashton-under-Lyne/Tameside advert remains in Manchester through a narrow explicit exception; unrelated location conflicts are still withheld.
 - 24 August 2026 — **HR / Recruitment proof-page review recommends six initial markets, with nothing activated:** clean page counts are **London 25, West Yorkshire 9, Berkshire 8, Manchester & Salford 7, Nottinghamshire 7 and Birmingham & Solihull 6**. Sussex, Bristol & Bath and Essex each have exactly 5 clean pages and remain reserves; five other candidate markets fell below five after duplicate, occupational or location checks. This is a recommendation only—HR / Recruitment still has no public route or LIVE market without explicit owner approval.
 - 24 August 2026 — **HR / Recruitment has passed national discovery, with no launch approval:** advert review leaves **163 definite jobs nationally**, including **155 across 44 mapped UK markets**. Strongest current markets are **London 25, West Yorkshire 9, Berkshire 8, Manchester & Salford 7, Nottinghamshire 7, Sussex 7 and Birmingham & Solihull 6**. HR Officer adverts were split by evidence—operational/admin-centred roles IN, advisory/generalist/senior roles OUT—and agency sales recruitment remains excluded. This is enough for proof-page review only; HR / Recruitment has no catalogue entry, route or LIVE market.
