@@ -34,6 +34,7 @@ jobs:
           python -m pytest \
             tests/test_external_regional_contracts.py \
             tests/test_teaching_vacancies_discovery.py \
+            tests/test_teaching_vacancies_discovery_404.py \
             tests/test_teaching_vacancies_routing.py \
             tests/test_teaching_vacancies_regional_review.py \
             tests/test_teaching_vacancies_master_review.py \

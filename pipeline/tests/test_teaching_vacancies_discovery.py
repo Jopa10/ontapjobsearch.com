@@ -284,16 +284,17 @@ def test_detail_records_merge_overlapping_route_provenance() -> None:
         source_url=url,
     )
 
-    records = discovery.detail_records(
+    detail_sweep = discovery.detail_records(
         (first, second),
         request_text=lambda _url: "<html></html>",
         parse_detail=lambda _document, _url: vacancy,
     )
 
-    assert len(records) == 1
-    assert records[0].source_job_id == "TV-123"
-    assert records[0].postcode == "PR1 2AB"
-    assert len(records[0].discovery_routes) == 2
+    assert len(detail_sweep.records) == 1
+    assert detail_sweep.records[0].source_job_id == "TV-123"
+    assert detail_sweep.records[0].postcode == "PR1 2AB"
+    assert len(detail_sweep.records[0].discovery_routes) == 2
+    assert detail_sweep.failures == ()
 
 
 def test_manifest_is_factual_and_pre_geography(tmp_path: Path) -> None:
@@ -339,17 +340,78 @@ def test_manifest_is_factual_and_pre_geography(tmp_path: Path) -> None:
     assert "classification" not in parsed[0]
 
 
-def test_detail_failure_blocks_manifest_generation() -> None:
+def detail_listing(slug: str) -> DiscoveryRecord:
     record = DiscoveryRecord(
         source=discovery.SOURCE,
         source_job_id="",
-        canonical_url="https://teaching-vacancies.service.gov.uk/jobs/broken",
+        canonical_url=f"https://teaching-vacancies.service.gov.uk/jobs/{slug}",
     )
     record.add_provenance(route="route", query="query", page=1)
+    return record
 
-    with pytest.raises(ValueError, match="detail fetch was incomplete"):
+
+def parsed_vacancy(url: str) -> poc.Vacancy:
+    return poc.Vacancy(
+        source_job_id=url.rsplit("/", 1)[-1],
+        title="Administrator",
+        employer="Example School",
+        location="London, SW1A 1AA",
+        closing_date="2026-09-30",
+        source_url=url,
+    )
+
+
+def test_up_to_fifteen_detail_failures_are_quarantined() -> None:
+    live = detail_listing("live")
+    broken = tuple(detail_listing(f"broken-{number}") for number in range(15))
+
+    def request_text(url: str) -> str:
+        if "/broken-" in url:
+            raise OSError("HTTP Error 500")
+        return "<html></html>"
+
+    detail_sweep = discovery.detail_records(
+        (live, *broken),
+        request_text=request_text,
+        parse_detail=lambda _document, url: parsed_vacancy(url),
+    )
+
+    assert [record.source_job_id for record in detail_sweep.records] == ["live"]
+    assert len(detail_sweep.failures) == 15
+    assert all(failure.error_type == "OSError" for failure in detail_sweep.failures)
+
+
+def test_sixteenth_detail_failure_stops_source() -> None:
+    live = detail_listing("live")
+    broken = tuple(detail_listing(f"broken-{number}") for number in range(16))
+
+    def request_text(url: str) -> str:
+        if "/broken-" in url:
+            raise OSError("HTTP Error 500")
+        return "<html></html>"
+
+    with pytest.raises(ValueError, match="16 failures; maximum pass-through is 15"):
         discovery.detail_records(
-            (record,),
-            request_text=lambda _url: (_ for _ in ()).throw(OSError("down")),
-            parse_detail=lambda _document, _url: poc.Vacancy(),
+            (live, *broken),
+            request_text=request_text,
+            parse_detail=lambda _document, url: parsed_vacancy(url),
         )
+
+
+def test_malformed_detail_is_quarantined_like_a_fetch_failure() -> None:
+    live = detail_listing("live")
+    malformed = detail_listing("malformed")
+
+    detail_sweep = discovery.detail_records(
+        (live, malformed),
+        request_text=lambda _url: "<html></html>",
+        parse_detail=lambda _document, url: (
+            poc.Vacancy(source_job_id="malformed", source_url=url)
+            if url.endswith("/malformed")
+            else parsed_vacancy(url)
+        ),
+    )
+
+    assert [record.source_job_id for record in detail_sweep.records] == ["live"]
+    assert len(detail_sweep.failures) == 1
+    assert "missing required fields" in detail_sweep.failures[0].message

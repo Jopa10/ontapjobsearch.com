@@ -10,7 +10,8 @@ A live run is accepted only when:
 * every advertised page for every route is fetched;
 * page ranges and totals reconcile;
 * incomplete or internally inconsistent pages/routes pass targeted retries;
-* every discovered detail page parses successfully.
+* no more than 15 discovered detail pages remain unavailable or malformed after
+  their normal request retries; those vacancies are quarantined from the run.
 
 The output contains factual vacancy fields and discovery provenance only. It
 does not publish jobs or alter approved snapshots.
@@ -46,8 +47,9 @@ BASE_URL = "https://teaching-vacancies.service.gov.uk"
 SOURCE = "Teaching Vacancies GOV.UK"
 SOURCE_CODE = "Teaching Vacancies"
 LONDON = ZoneInfo("Europe/London")
-DISCOVERY_CONTRACT_VERSION = "teaching-vacancies-national-v2"
+DISCOVERY_CONTRACT_VERSION = "teaching-vacancies-national-v3"
 RESULTS_PER_PAGE = 10
+MAX_QUARANTINED_DETAIL_FAILURES = 15
 LIVE_REQUEST_DELAY_SECONDS = 0.4
 LIVE_REQUEST_RETRY_DELAYS_SECONDS = (2.0, 5.0, 10.0)
 LISTING_AUDIT_RETRY_DELAYS_SECONDS = (2.0, 5.0, 10.0)
@@ -117,6 +119,20 @@ class RouteSweep:
     unique_urls: int
     records: tuple[DiscoveryRecord, ...]
     attempts: int = 1
+
+
+@dataclass(frozen=True)
+class DetailFailure:
+    url: str
+    error_type: str
+    message: str
+
+
+@dataclass(frozen=True)
+class DetailSweep:
+    records: tuple[DiscoveryRecord, ...]
+    failures: tuple[DetailFailure, ...]
+    disappeared_urls: tuple[str, ...]
 
 
 RequestText = Callable[[str], str]
@@ -391,19 +407,56 @@ def detail_records(
     *,
     request_text: RequestText,
     parse_detail: DetailParser,
-) -> tuple[DiscoveryRecord, ...]:
+    max_failures: int = MAX_QUARANTINED_DETAIL_FAILURES,
+) -> DetailSweep:
+    if max_failures < 0:
+        raise ValueError("max_failures must not be negative")
     output: list[DiscoveryRecord] = []
-    failures: list[str] = []
+    failures: list[DetailFailure] = []
+    disappeared_urls: list[str] = []
     for listing_record in discovered:
         url = canonical_url(listing_record.canonical_url)
         try:
             vacancy = parse_detail(request_text(url), url)
+            missing = [
+                field
+                for field in (
+                    "source_job_id",
+                    "title",
+                    "employer",
+                    "location",
+                    "closing_date",
+                )
+                if not clean(getattr(vacancy, field))
+            ]
+            if missing:
+                raise ValueError(
+                    "parsed detail is missing required fields: "
+                    + ", ".join(missing)
+                )
         except (OSError, ValueError, json.JSONDecodeError) as exc:
             message = clean(exc)
             if isinstance(exc, OSError) and "HTTP Error 404" in message:
                 # Listing/detail race: a closed vacancy can disappear after discovery.
+                disappeared_urls.append(url)
                 continue
-            failures.append(f"{url} — {type(exc).__name__}: {message}")
+            failures.append(
+                DetailFailure(
+                    url=url,
+                    error_type=type(exc).__name__,
+                    message=message,
+                )
+            )
+            if len(failures) > max_failures:
+                formatted = "\n- ".join(
+                    f"{failure.url} — {failure.error_type}: {failure.message}"
+                    for failure in failures
+                )
+                raise ValueError(
+                    "Teaching Vacancies detail failure threshold exceeded: "
+                    f"{len(failures)} failures; maximum pass-through is "
+                    f"{max_failures}.\n- {formatted}"
+                )
             continue
         record = DiscoveryRecord(
             source=SOURCE,
@@ -426,12 +479,16 @@ def detail_records(
                 page=int(item.get("page") or 1),
             )
         output.append(record)
-    if failures:
+    if failures and not output:
         raise ValueError(
-            "Teaching Vacancies source-wide detail fetch was incomplete:\n- "
-            + "\n- ".join(failures)
+            "Teaching Vacancies detail fetch produced no usable records; "
+            "the source cannot be trusted for this run."
         )
-    return tuple(merge_discovery_records(output))
+    return DetailSweep(
+        records=tuple(merge_discovery_records(output)),
+        failures=tuple(failures),
+        disappeared_urls=tuple(disappeared_urls),
+    )
 
 
 def factual_fingerprint(record: DiscoveryRecord) -> str:
@@ -587,12 +644,12 @@ def main(argv: list[str] | None = None) -> int:
         routes,
         request_text=live_request_text,
     )
-    records = detail_records(
+    detail_sweep = detail_records(
         discovered,
         request_text=live_request_text,
         parse_detail=poc.parse_jobposting,
     )
-    rows = manifest_rows(records, run_date=run_date)
+    rows = manifest_rows(detail_sweep.records, run_date=run_date)
     manifest_content = csv_bytes(rows)
     manifest_sha256 = hashlib.sha256(manifest_content).hexdigest()
 
@@ -607,6 +664,18 @@ def main(argv: list[str] | None = None) -> int:
             ROUTE_AUDIT_RETRY_DELAYS_SECONDS
         ),
         "records": len(rows),
+        "detail_records_discovered": len(discovered),
+        "detail_failures_quarantined": len(detail_sweep.failures),
+        "detail_failure_threshold": MAX_QUARANTINED_DETAIL_FAILURES,
+        "detail_failures": [
+            {
+                "url": failure.url,
+                "error_type": failure.error_type,
+                "message": failure.message,
+            }
+            for failure in detail_sweep.failures
+        ],
+        "detail_listing_race_404s": list(detail_sweep.disappeared_urls),
         "manifest_sha256": manifest_sha256,
         "routes": [
             {
@@ -630,6 +699,17 @@ def main(argv: list[str] | None = None) -> int:
             "utf-8"
         ),
     )
+    if detail_sweep.failures:
+        print(
+            "::warning::Teaching Vacancies quarantined "
+            f"{len(detail_sweep.failures)} detail failure(s); "
+            f"threshold is {MAX_QUARANTINED_DETAIL_FAILURES}."
+        )
+        for failure in detail_sweep.failures:
+            print(
+                f"::warning::{failure.url} — "
+                f"{failure.error_type}: {failure.message}"
+            )
     print(
         f"Teaching Vacancies source-wide discovery wrote {len(rows)} factual "
         f"records to {manifest_path}; evidence: {summary_path}."
