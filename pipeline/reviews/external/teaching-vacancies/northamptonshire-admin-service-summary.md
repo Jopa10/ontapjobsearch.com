@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Northamptonshire
 
-review_date: 2026-08-24
-review_fingerprint: ba42fa9c00565d87a146bc26e1b5547fcb34ee4d7c18618210bff8193ab019f2
-routing_manifest_sha256: 97466a05f4eb38fda5229c9a89fb4a4fc3010eac8e265aefa096fce8dbff34a1
+review_date: 2026-08-26
+review_fingerprint: 80b578421776a734689d6003609057b6fd85084738598b3a9ac33d30ce5a516a
+routing_manifest_sha256: 4a93cb38bbec51541b158e7e88c2c0f02125ed7e4364da2cc375b11f0d811f7d
 ontap_region: Northamptonshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 11
+- Records: 8
 - Selected: 5
-- POSS awaiting decision: 1
+- POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 3
 
 ## SELECTED
 
@@ -98,20 +98,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administ
 
 ## POSS — choose SELECT or EXCLUDE
 
----
-action: 
-POSS | Northamptonshire | Northampton, East Midlands, NN6 8PT | £26,846.00 Annually (FTE) £ 8217.92 actual salary | Administrator
-employer: Guilsborough Church of England Primary School
-closing_date: 2026-08-24T23:59:00+01:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: eda4a9a4cbf4d70eed8f84ede52861ba447d70f7514790924e009f1f647df4c9
-source: Teaching Vacancies
-source_job_id: administrator-guilsborough-church-of-england-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-guilsborough-church-of-england-primary-school
----
+- None.
 
 ## EXCLUDED BY REVIEW
 
@@ -119,10 +106,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-guilsbo
 
 ## HARD_PASS
 
-- [Business Support Manager](https://teaching-vacancies.service.gov.uk/jobs/business-support-manager-81894eca-540a-4c37-9aa9-e636b35a6199) — Manager title salary ceiling £30,000 is not below £28,000.
 - [Exams Office Manager](https://teaching-vacancies.service.gov.uk/jobs/exams-office-manager) — Manager title salary ceiling £33,699 is not below £28,000.
 - [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-bishop-stopford-school) — Manager title salary ceiling £46,142 is not below £28,000.
-- [HR Manager](https://teaching-vacancies.service.gov.uk/jobs/hr-manager-tove-learning-trust) — Manager title without salary evidence below £28,000.
 - [St James Infant and Pre School Business Partner](https://teaching-vacancies.service.gov.uk/jobs/st-james-infant-and-pre-school-business-partner-inmat) — Insufficient admin/service evidence.
 
 ## Safety boundary

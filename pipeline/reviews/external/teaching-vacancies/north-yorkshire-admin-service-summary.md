@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - North
 
-review_date: 2026-08-24
+review_date: 2026-08-26
 review_fingerprint: b0754cf116fc08fa0050061c07bf14ea9935d6c62feef44679be74398e56f411
-routing_manifest_sha256: 97466a05f4eb38fda5229c9a89fb4a4fc3010eac8e265aefa096fce8dbff34a1
+routing_manifest_sha256: 4a93cb38bbec51541b158e7e88c2c0f02125ed7e4364da2cc375b11f0d811f7d
 ontap_region: Yorkshire - North
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 9
+- Records: 10
 - Selected: 3
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 6
+- Hard pass: 7
 
 ## SELECTED
 
@@ -81,6 +81,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-
 - [Finance Director](https://teaching-vacancies.service.gov.uk/jobs/finance-director-pathfinder-multi-academy-trust) — Insufficient admin/service evidence.
 - [HR Business Partner](https://teaching-vacancies.service.gov.uk/jobs/hr-business-partner-pathfinder-multi-academy-trust) — Insufficient admin/service evidence.
 - [Hub Business Leader (Harrogate Hub)](https://teaching-vacancies.service.gov.uk/jobs/hub-business-leader-harrogate-hub) — Insufficient admin/service evidence.
+- [Operations Business Partner (Scarborough Area)](https://teaching-vacancies.service.gov.uk/jobs/operations-business-partner-scarborough-area) — Insufficient admin/service evidence.
 - [Safeguarding Officer](https://teaching-vacancies.service.gov.uk/jobs/safeguarding-officer-5aeab0ad-6293-4dca-a4da-08493a5af26e) — Insufficient admin/service evidence.
 
 ## Safety boundary

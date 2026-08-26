@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Berkshire
 
-review_date: 2026-08-24
-review_fingerprint: 65ab06a587646666002e5eed83e98ba121a506f3a9f3512a292ad54cd86581c4
-routing_manifest_sha256: 97466a05f4eb38fda5229c9a89fb4a4fc3010eac8e265aefa096fce8dbff34a1
+review_date: 2026-08-26
+review_fingerprint: 749df3e84d342b1d04fc23cb96d85a4baee3ac73220a5a7ec7b2b94043a89bd6
+routing_manifest_sha256: 4a93cb38bbec51541b158e7e88c2c0f02125ed7e4364da2cc375b11f0d811f7d
 ontap_region: Berkshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 17
-- Selected: 7
+- Records: 22
+- Selected: 8
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 9
+- Hard pass: 13
 
 ## SELECTED
 
@@ -79,6 +79,21 @@ factual_fingerprint: 29771f0f5f04ee1e39585cca8d0dfa342155dbb762f8d32abe36fe8dda2
 source: Teaching Vacancies
 source_job_id: inclusion-administrator-maiden-erlegh-school-reading-berkshire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/inclusion-administrator-maiden-erlegh-school-reading-berkshire
+---
+
+---
+action: 
+SELECTED | Berkshire | Reading, South East, RG30 2BB | £30,279.00 Annually (FTE) This post is for 30 hours per week, term time only, plus 5 Inset Days, starting salary £30,279pa FTE with pay progression linked to local government SCP salary sale 13-17 (actual pro-rata starting salary £21,116pa) | SEND Administrator Officer
+employer: The WREN School
+closing_date: 2026-09-10T09:00:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 6948df6c5211721cf3cb7956bd23375f2dc4922476bd7ed86ca27e72a7db46fa
+source: Teaching Vacancies
+source_job_id: send-administrator-officer-the-wren-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-officer-the-wren-school
 ---
 
 ---
@@ -151,13 +166,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/trust-governance-prof
 
 - [Casual Lettings Assistant](https://teaching-vacancies.service.gov.uk/jobs/casual-lettings-assistant-maiden-erlegh-chiltern-edge) — Insufficient admin/service evidence.
 - [Customer Relations Manager](https://teaching-vacancies.service.gov.uk/jobs/customer-relations-manager) — Manager title salary ceiling £44,075 is not below £28,000.
+- [Finance Officer - Addington School](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-addington-school) — Insufficient admin/service evidence.
 - [HR & Recruitment Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-recruitment-officer-the-park-federation-academy-trust) — Insufficient admin/service evidence.
 - [Lettings Assistant](https://teaching-vacancies.service.gov.uk/jobs/lettings-assistant-reading-school) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-king-s-academy-meadow-vale) — Manager title salary ceiling £36,363 is not below £28,000.
 - [Office Manager - Southcote Primary School](https://teaching-vacancies.service.gov.uk/jobs/office-manager-southcote-primary-school-southcote-primary-school) — Manager title salary ceiling £34,386 is not below £28,000.
 - [Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/operations-manager-reading-school) — Manager title salary ceiling £44,075 is not below £28,000.
+- [Passionate Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/passionate-finance-officer) — Insufficient admin/service evidence.
 - [Payroll Officer](https://teaching-vacancies.service.gov.uk/jobs/payroll-officer-the-park-federation-academy-trust-slough-not-recorded) — Insufficient admin/service evidence.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-fb06354c-e52a-4d48-b4a2-2dff7115bcd9) — Manager title without salary evidence below £28,000.
+- [SEND Administration Officer - The Wren School](https://teaching-vacancies.service.gov.uk/jobs/send-administration-officer-the-wren-school) — Missing salary or pay scale.
+- [Senior Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-finance-officer-the-thames-learning-trust) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

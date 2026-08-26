@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Hertfordshire
 
-review_date: 2026-08-24
-review_fingerprint: 4425f119c4451707dffd0c3a0a91cb43ee22911d7f17492fe3ef7706ad15e1af
-routing_manifest_sha256: 97466a05f4eb38fda5229c9a89fb4a4fc3010eac8e265aefa096fce8dbff34a1
+review_date: 2026-08-26
+review_fingerprint: bcb37fe2f3111b694048d1998cdb98123e8b544f91353161dee0566025cf163e
+routing_manifest_sha256: 4a93cb38bbec51541b158e7e88c2c0f02125ed7e4364da2cc375b11f0d811f7d
 ontap_region: Hertfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 7
+- Records: 6
 - Selected: 3
-- POSS awaiting decision: 1
+- POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 3
 
@@ -68,20 +68,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-admin-as
 
 ## POSS — choose SELECT or EXCLUDE
 
----
-action: 
-POSS | Hertfordshire | Royston, East of England, SG8 5NJ | NJC Cambridgeshire Scale 5 Point 12 - 14 (£28,598 - £29,540 FTE per annum) £12,426.16 - £12,835.47 pro rata, plus holiday pay. | Office Administrator
-employer: Bassingbourn Village College
-closing_date: 2026-08-31T23:59:00+01:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 8fccbba9d34a01eb62b0e77a6919dd3df5e0d8b3934242bfe78141469df2d5f8
-source: Teaching Vacancies
-source_job_id: office-administrator-bassingbourn-village-college
-source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-bassingbourn-village-college
----
+- None.
 
 ## EXCLUDED BY REVIEW
 

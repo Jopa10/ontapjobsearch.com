@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Gloucestershire
 
-review_date: 2026-08-24
-review_fingerprint: 4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945
-routing_manifest_sha256: 97466a05f4eb38fda5229c9a89fb4a4fc3010eac8e265aefa096fce8dbff34a1
+review_date: 2026-08-26
+review_fingerprint: 0ec2d39a83473c82c557afa87958baff864b3f76c7480ab069e37a953e60fa5b
+routing_manifest_sha256: 4a93cb38bbec51541b158e7e88c2c0f02125ed7e4364da2cc375b11f0d811f7d
 ontap_region: Gloucestershire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,15 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 2
-- Selected: 0
+- Records: 4
+- Selected: 1
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 2
+- Hard pass: 3
 
 ## SELECTED
 
-- None.
+---
+action: 
+SELECTED | Gloucestershire | Gloucester, South West, GL3 4ZN | Actual Annual Salary:?£22,947 - £25,010 | Administration Assistant Level 1
+employer: Brook Academy
+closing_date: 2026-09-13T23:59:59+01:00
+reason: Clear admin/service title: administration assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: aabe411d02785568e8a173de6bea0be0b8b89231210c76358a3c6a12f11de3ce
+source: Teaching Vacancies
+source_job_id: administration-assistant-level-1-brook-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-level-1-brook-academy
+---
 
 ## POSS — choose SELECT or EXCLUDE
 
@@ -33,8 +46,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## HARD_PASS
 
+- [Alternative Provision Lead](https://teaching-vacancies.service.gov.uk/jobs/alternative-provision-lead-f55092f9-5821-4bdd-a2e6-b1feeda615db) — Insufficient admin/service evidence.
 - [Business Operations & Compliance Officer](https://teaching-vacancies.service.gov.uk/jobs/business-operations-compliance-officer) — Insufficient admin/service evidence.
-- [HR Business Partner](https://teaching-vacancies.service.gov.uk/jobs/hr-business-partner-e26a45eb-c3f2-4be9-9d59-a4fdf01c7333) — Insufficient admin/service evidence.
+- [Senior Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-finance-officer-sir-william-romney-s-school) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

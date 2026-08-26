@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Nottinghamshire
 
-review_date: 2026-08-24
-review_fingerprint: db4b9755b91db0e7c95d1486e1b5447b80c25fe8a3049bb623747aef4577bf80
-routing_manifest_sha256: 97466a05f4eb38fda5229c9a89fb4a4fc3010eac8e265aefa096fce8dbff34a1
+review_date: 2026-08-26
+review_fingerprint: b7dce2b45cf1f6a17f9bf116e3585c3cee033ef2bdf177d60e252d90203119e3
+routing_manifest_sha256: 4a93cb38bbec51541b158e7e88c2c0f02125ed7e4364da2cc375b11f0d811f7d
 ontap_region: Nottinghamshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 20
-- Selected: 4
+- Records: 18
+- Selected: 3
 - POSS awaiting decision: 3
 - Excluded: 0
-- Hard pass: 13
+- Hard pass: 12
 
 ## SELECTED
 
@@ -64,21 +64,6 @@ factual_fingerprint: e2db5b2181a3e134f4f9d6d4987fb8b27642dfe8fe01c0674f6d8b33213
 source: Teaching Vacancies
 source_job_id: administrative-assistant-sixth-form-and-work-related-learning
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-sixth-form-and-work-related-learning
----
-
----
-action: 
-SELECTED | Nottinghamshire | Nottingham, East Midlands, NG5 9AZ | Redhill Academy Trust Pay Scale, Band 6, Scale point 29 - 32 | Healthcare Assistant / Administrator
-employer: Park Vale Academy
-closing_date: 2026-08-25T12:00:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 769395cebb2f4e1bba222b8f01396233948877fa228a3a8c81cf47caf2ec065f
-source: Teaching Vacancies
-source_job_id: healthcare-assistant-administrator-park-vale-academy-nottingham-nottinghamshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/healthcare-assistant-administrator-park-vale-academy-nottingham-nottinghamshire
 ---
 
 ## POSS — choose SELECT or EXCLUDE
@@ -146,7 +131,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-the-
 - [Personal Care and Teaching Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-and-teaching-assistant-colonel-frank-seely-academy) — Out-of-scope occupation: teaching assistant.
 - [Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-redgate-primary-academy-mansfield-nottinghamshire) — Insufficient admin/service evidence.
 - [Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-yeoman-park-academy-mansfield-nottinghamshire) — Insufficient admin/service evidence.
-- [Trust Safeguarding Lead](https://teaching-vacancies.service.gov.uk/jobs/trust-safeguarding-lead-redhill-academy-trust) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

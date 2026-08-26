@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Buckinghamshire
 
-review_date: 2026-08-24
+review_date: 2026-08-26
 review_fingerprint: d52083a029d486d980e6530e95676a8595a01783794fec261b6465d5e88995da
-routing_manifest_sha256: 97466a05f4eb38fda5229c9a89fb4a4fc3010eac8e265aefa096fce8dbff34a1
+routing_manifest_sha256: 4a93cb38bbec51541b158e7e88c2c0f02125ed7e4364da2cc375b11f0d811f7d
 ontap_region: Buckinghamshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 15
+- Records: 16
 - Selected: 6
 - POSS awaiting decision: 4
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 6
 
 ## SELECTED
 
@@ -182,6 +182,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-
 - [Data Assistant](https://teaching-vacancies.service.gov.uk/jobs/data-assistant-eec862cb-7829-4bfd-9435-a191b7aa5a85) — Insufficient admin/service evidence.
 - [Head of Operations](https://teaching-vacancies.service.gov.uk/jobs/head-of-operations-stephenson-mk-trust) — Insufficient admin/service evidence.
 - [HR & Training Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-training-officer) — Insufficient admin/service evidence.
+- [HR Officer, Recruitment](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-recruitment) — Expired, closed or invalid deadline.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-oak-green-school) — Manager title salary ceiling £41,272 is not below £28,000.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-stephenson-academy-milton-keynes-buckinghamshire) — Manager title salary ceiling £47,181 is not below £28,000.
 

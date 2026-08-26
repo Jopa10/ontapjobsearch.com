@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - West
 
-review_date: 2026-08-24
-review_fingerprint: f9ad206c3e84a37600c5135765550ed6c6c2d64edb532c6b13704e091ed07265
-routing_manifest_sha256: 97466a05f4eb38fda5229c9a89fb4a4fc3010eac8e265aefa096fce8dbff34a1
+review_date: 2026-08-26
+review_fingerprint: a53cf87b98679904246712ef31917f9e28d1f19928b783018e4543848a1c8f71
+routing_manifest_sha256: 4a93cb38bbec51541b158e7e88c2c0f02125ed7e4364da2cc375b11f0d811f7d
 ontap_region: Yorkshire - West
 slice_category: admin_service
 slice_status: LIVE
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 22
-- Selected: 11
-- POSS awaiting decision: 2
+- Records: 29
+- Selected: 12
+- POSS awaiting decision: 3
 - Excluded: 0
-- Hard pass: 9
+- Hard pass: 14
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Yorkshire - West | Bradford, Yorkshire and the Humber, BD5 0JD | DAT Level 2, SCP 14-17 (Actual salary £24,444 - £24,832) | Academy Administrator L2
+employer: Dixons McMillan Academy
+closing_date: 2026-09-08T23:59:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: NEW_REVIEW
+factual_fingerprint: 749f04a056be0edbbb5af3ad7f8f8d5cfe3e07def0039e1a21af0928545fa47f
+source: Teaching Vacancies
+source_job_id: academy-administrator-l2-dixons-mcmillan-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/academy-administrator-l2-dixons-mcmillan-academy
+---
 
 ---
 action: 
@@ -113,21 +128,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-bingley
 
 ---
 action: 
-SELECTED | Yorkshire - West | Pontefract, Yorkshire and the Humber, WF8 4JF | £20,971.00 - £21,300.00 pro rata (£24,796.00 - £25,185.00 FTE)per annum | Receptionist
-employer: The King's School
-closing_date: 2026-08-31T10:00:00+01:00
-reason: Clear admin/service title: receptionist
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: BLANK_POSS_PRESERVED
-factual_fingerprint: 2e34b0eae77924169f27dbbf1c35db41200b802c77f8be036b4d8d08c85bc848
-source: Teaching Vacancies
-source_job_id: receptionist-the-king-s-school-pontefract-west-yorkshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-the-king-s-school-pontefract-west-yorkshire
----
-
----
-action: 
 SELECTED | Yorkshire - West | Bradford, Yorkshire and the Humber, BD4 7RH | £25,989.00 - £28,142.00 Annually (FTE) Band 6, SCP 6 to SCP 11 (actual salary £22,350 - £24,202 per annum) | Receptionist/Administrator
 employer: Oastlers School
 closing_date: 2026-08-31T23:59:00+01:00
@@ -154,6 +154,21 @@ factual_fingerprint: 4ae1baec6f4ee87986d1180a30b3337b49c7a1652bfdc0175829f0de716
 source: Teaching Vacancies
 source_job_id: send-exam-access-arrangements-administrator
 source_url: https://teaching-vacancies.service.gov.uk/jobs/send-exam-access-arrangements-administrator
+---
+
+---
+action: 
+SELECTED | Yorkshire - West | Bradford, Yorkshire and the Humber, BD12 8AL | £24,821.00 - £27,485.00 Annually (FTE) Band 7, SCP 11 to SCP 17 (actual salary £24,821 - £27,485 per annum), 37 hours per week, TTO+10 | Senior Administrator
+employer: Appleton Academy
+closing_date: 2026-09-11T12:00:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: NEW_REVIEW
+factual_fingerprint: 3ebbf8dd009a9792f09dd27545326837368971db8176dc7138dff6269eb1b64e
+source: Teaching Vacancies
+source_job_id: senior-administrator-appleton-academy-bradford-west-yorkshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-appleton-academy-bradford-west-yorkshire
 ---
 
 ---
@@ -218,6 +233,21 @@ source_job_id: data-officer-2291e2c5-eec2-437c-a38c-78271e026f45
 source_url: https://teaching-vacancies.service.gov.uk/jobs/data-officer-2291e2c5-eec2-437c-a38c-78271e026f45
 ---
 
+---
+action: 
+POSS | Yorkshire - West | Pontefract, Yorkshire and the Humber, WF8 4JF | £20,971.00 - £21,300.00 pro rata (£24,796.00 - £25,185.00 FTE)per annum | Receptionist
+employer: The King's School
+closing_date: 2026-08-31T10:00:00+01:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: BLANK_POSS_PRESERVED
+factual_fingerprint: 2e34b0eae77924169f27dbbf1c35db41200b802c77f8be036b4d8d08c85bc848
+source: Teaching Vacancies
+source_job_id: receptionist-the-king-s-school-pontefract-west-yorkshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-the-king-s-school-pontefract-west-yorkshire
+---
+
 ## EXCLUDED BY REVIEW
 
 - None.
@@ -228,10 +258,15 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/data-officer-2291e2c5
 - [Compliance Officer](https://teaching-vacancies.service.gov.uk/jobs/compliance-officer-delta-academies-trust) — Insufficient admin/service evidence.
 - [Exam Invigilator](https://teaching-vacancies.service.gov.uk/jobs/exam-invigilator-leeds-city-academy-leeds-west-yorkshire) — Insufficient admin/service evidence.
 - [Exams and Admissions Manager](https://teaching-vacancies.service.gov.uk/jobs/exams-and-admissions-manager-leeds-city-academy-leeds-west-yorkshire) — Manager title salary ceiling £35,558 is not below £28,000.
+- [Finance Manager (Core Team)](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-core-team) — Manager title salary ceiling £49,282 is not below £28,000.
 - [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-the-gorse-academies-trust) — Insufficient admin/service evidence.
+- [Human Resources Business Partner (Central HR Team)](https://teaching-vacancies.service.gov.uk/jobs/human-resources-business-partner-central-hr-team-the-gorse-academies-trust-leeds-not-recorded) — Insufficient admin/service evidence.
 - [Procurement Manager](https://teaching-vacancies.service.gov.uk/jobs/procurement-manager-outwood-grange-academies-trust) — Manager title salary ceiling £44,075 is not below £28,000.
 - [Reprographics and Digital Resource Technician](https://teaching-vacancies.service.gov.uk/jobs/reprographics-and-digital-resource-technician) — Out-of-scope occupation: technician.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-f912cf2f-f9e1-442a-ab12-88a4e6edbe6a) — Manager title salary ceiling £42,964 is not below £28,000.
+- [School Reception Assistant](https://teaching-vacancies.service.gov.uk/jobs/school-reception-assistant-appleton-academy) — Insufficient admin/service evidence.
+- [Trust Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/trust-administration-assistant-waterton-academy-trust) — Insufficient admin/service evidence.
+- [TRUST ATTENDANCE IMPROVEMENT OFFICER](https://teaching-vacancies.service.gov.uk/jobs/trust-attendance-improvement-officer) — Insufficient admin/service evidence.
 - [Trust Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/trust-finance-officer-f1cbc046-b59f-467c-960b-8fc5c55604ba) — Insufficient admin/service evidence.
 
 ## Safety boundary

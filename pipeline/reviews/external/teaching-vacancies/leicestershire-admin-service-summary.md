@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Leicestershire
 
-review_date: 2026-08-24
-review_fingerprint: 0e4f38b3862926e6cc974e49abbe0c2cfb9cf80af3f4c362b7361eceb2871fb6
-routing_manifest_sha256: 97466a05f4eb38fda5229c9a89fb4a4fc3010eac8e265aefa096fce8dbff34a1
+review_date: 2026-08-26
+review_fingerprint: c3fa4ed295ff18dbb36bd663aa70dfbaa02c9bf1e5f75048201c651d7e526b6f
+routing_manifest_sha256: 4a93cb38bbec51541b158e7e88c2c0f02125ed7e4364da2cc375b11f0d811f7d
 ontap_region: Leicestershire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 10
-- Selected: 4
+- Records: 9
+- Selected: 3
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 5
@@ -66,21 +66,6 @@ source_job_id: learning-support-administrator-loughborough-college
 source_url: https://teaching-vacancies.service.gov.uk/jobs/learning-support-administrator-loughborough-college
 ---
 
----
-action: 
-SELECTED | Leicestershire | Loughborough, East Midlands, LE11 3BY | £20,395.00 - £20,718.00 Annually (Actual) LCC Pay Award Pending | School Administrator
-employer: Loughborough Church of England Primary School
-closing_date: 2026-08-24T12:00:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 83ed0bb2148507808087b18c5ed37669731f74afa261ca4df0e310b983606dd4
-source: Teaching Vacancies
-source_job_id: school-administrator-loughborough-church-of-england-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-loughborough-church-of-england-primary-school
----
-
 ## POSS — choose SELECT or EXCLUDE
 
 ---
@@ -104,9 +89,9 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-office
 
 ## HARD_PASS
 
+- [Apprentice Premises Officer](https://teaching-vacancies.service.gov.uk/jobs/apprentice-premises-officer-ash-field-academy) — Insufficient admin/service evidence.
 - [Director of Finance](https://teaching-vacancies.service.gov.uk/jobs/director-of-finance-rise-multi-academy-trust) — Insufficient admin/service evidence.
 - [Extended Services Club Manager (EXS031BC)](https://teaching-vacancies.service.gov.uk/jobs/extended-services-club-manager-exs031bc) — Manager title salary ceiling £28,146 is not below £28,000.
-- [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-discovery-schools-academies-trust-ltd-leicester-not-recorded) — Manager title salary ceiling £39,165 is not below £28,000.
 - [School Business Lead](https://teaching-vacancies.service.gov.uk/jobs/school-business-lead-glenfield-primary-school-leicester-leicestershire) — Insufficient admin/service evidence.
 - [School Office Lead](https://teaching-vacancies.service.gov.uk/jobs/school-office-lead) — Insufficient admin/service evidence.
 

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cornwall
 
-review_date: 2026-08-24
-review_fingerprint: 63664107c1f5191ba347da8cecc3076814dcc5b5f2b6655552283ead0e845447
-routing_manifest_sha256: 97466a05f4eb38fda5229c9a89fb4a4fc3010eac8e265aefa096fce8dbff34a1
+review_date: 2026-08-26
+review_fingerprint: 33bce8b53591073436e6d3cdfab02e0829b2b37f953432a2ad267a3ae950b6fa
+routing_manifest_sha256: 4a93cb38bbec51541b158e7e88c2c0f02125ed7e4364da2cc375b11f0d811f7d
 ontap_region: Cornwall
 slice_category: admin_service
 slice_status: LIVE
@@ -14,27 +14,12 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 5
-- Selected: 2
+- Selected: 1
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 3
+- Hard pass: 4
 
 ## SELECTED
-
----
-action: 
-SELECTED | Cornwall | Launceston, South West, PL15 9JR | £13.45 - £13.97 Hourly Term Time + 10 additional days, Grade C | Administrator & First Aider
-employer: Launceston College
-closing_date: 2026-08-25T09:00:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 09157be9e09515264e158313ca671a02675152c74681ee385fff4095acb45d77
-source: Teaching Vacancies
-source_job_id: administrator-first-aider
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-first-aider
----
 
 ---
 action: 
@@ -61,6 +46,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-falmout
 
 ## HARD_PASS
 
+- [Academy Administrator](https://teaching-vacancies.service.gov.uk/jobs/academy-administrator-crowan-primary-school) — Missing salary or pay scale.
 - [Academy Administrator](https://teaching-vacancies.service.gov.uk/jobs/academy-administrator-cubert-primary-school) — Missing salary or pay scale.
 - [Trust Learning & Development (L&D) Coordinator](https://teaching-vacancies.service.gov.uk/jobs/trust-learning-development-l-d-coordinator) — Insufficient admin/service evidence.
 - [Trust Management Accountant](https://teaching-vacancies.service.gov.uk/jobs/trust-management-accountant-special-partnership-trust) — Insufficient admin/service evidence.

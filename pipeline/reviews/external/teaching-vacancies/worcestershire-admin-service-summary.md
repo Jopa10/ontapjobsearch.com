@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Worcestershire
 
-review_date: 2026-08-24
-review_fingerprint: 008e69bbdd8b9c346182cb950c21876bb66fff004d1693c34234e3802d286381
-routing_manifest_sha256: 97466a05f4eb38fda5229c9a89fb4a4fc3010eac8e265aefa096fce8dbff34a1
+review_date: 2026-08-26
+review_fingerprint: 0b33c02f0822502d3e3552675f549dfd8ad9abf040cfbb1bfa2f4e5f9d1e36fd
+routing_manifest_sha256: 4a93cb38bbec51541b158e7e88c2c0f02125ed7e4364da2cc375b11f0d811f7d
 ontap_region: Worcestershire
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,28 +13,15 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 3
-- Selected: 1
+- Records: 2
+- Selected: 0
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 1
 
 ## SELECTED
 
----
-action: 
-SELECTED | Worcestershire | Malvern, WR14 2LU | £28,598.00 - £31,022.00 Annually (FTE) | Personal Assistant to CEO
-employer: Mercian Educational Trust
-closing_date: 2026-08-24T23:59:00+01:00
-reason: Clear admin/service title: personal assistant
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: 01b893836f9c1dd2b9bfdcb0fd0a3721f20792e14bb12f514c65c56c4984bed0
-source: Teaching Vacancies
-source_job_id: personal-assistant-to-ceo
-source_url: https://teaching-vacancies.service.gov.uk/jobs/personal-assistant-to-ceo
----
+- None.
 
 ## POSS — choose SELECT or EXCLUDE
 

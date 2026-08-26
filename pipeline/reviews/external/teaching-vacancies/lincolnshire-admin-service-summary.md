@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Lincolnshire
 
-review_date: 2026-08-24
-review_fingerprint: 7c8dfb7e8ec52c3af889b5d9e6a93d30a14f47dc1429b598addb119386f1fc2c
-routing_manifest_sha256: 97466a05f4eb38fda5229c9a89fb4a4fc3010eac8e265aefa096fce8dbff34a1
+review_date: 2026-08-26
+review_fingerprint: bb1a3ec640f4ad8885b2e4d5735ea00dc1ab091b0d3a172bf342150e17f19358
+routing_manifest_sha256: 4a93cb38bbec51541b158e7e88c2c0f02125ed7e4364da2cc375b11f0d811f7d
 ontap_region: Lincolnshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 19
-- Selected: 4
+- Records: 18
+- Selected: 3
 - POSS awaiting decision: 5
 - Excluded: 0
 - Hard pass: 10
@@ -64,21 +64,6 @@ factual_fingerprint: 0cfcadc4e0784b055a7a6276d94bfb45444ca15854f1c3c768752b224fc
 source: Teaching Vacancies
 source_job_id: receptionist-admin-officer-oasis-academy-parkwood
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-admin-officer-oasis-academy-parkwood
----
-
----
-action: 
-SELECTED | Lincolnshire | Grimsby, Yorkshire and the Humber, DN32 8JH | £25,583.00 Annually (FTE) NJC 5: £25,583.00 FTE, £13,482.93 pro rata per annum | Teaching School Hub Administrator
-employer: Havelock Academy
-closing_date: 2026-08-24T23:59:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 7d9a139deb81cc09af0489c351f51feddd5a2a386c96c18acfe8fe34dca513d1
-source: Teaching Vacancies
-source_job_id: teaching-school-hub-administrator-havelock-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/teaching-school-hub-administrator-havelock-academy
 ---
 
 ## POSS — choose SELECT or EXCLUDE
@@ -165,7 +150,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-manager-our-la
 ## HARD_PASS
 
 - [Academy Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/academy-administration-officer-the-priory-witham-academy-lincoln-lincolnshire) — Insufficient admin/service evidence.
-- [Admin and Reception Assistant](https://teaching-vacancies.service.gov.uk/jobs/admin-and-reception-assistant-outwood-academy-brumby) — Missing salary or pay scale.
+- [Academy Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/academy-operations-manager-thomas-middlecott-academy-boston-lincolnshire) — Manager title salary ceiling £42,839 is not below £28,000.
 - [Clerical Assistant](https://teaching-vacancies.service.gov.uk/jobs/clerical-assistant-whaplode-church-of-england-primary-school) — Insufficient admin/service evidence.
 - [Examinations Officer](https://teaching-vacancies.service.gov.uk/jobs/examinations-officer-de-aston-school) — Missing salary or pay scale.
 - [Governance & Compliance Officer](https://teaching-vacancies.service.gov.uk/jobs/governance-compliance-officer-inspire-connected-communities-trust) — Insufficient admin/service evidence.

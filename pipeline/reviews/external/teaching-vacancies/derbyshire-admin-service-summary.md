@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Derbyshire
 
-review_date: 2026-08-24
-review_fingerprint: 4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945
-routing_manifest_sha256: 97466a05f4eb38fda5229c9a89fb4a4fc3010eac8e265aefa096fce8dbff34a1
+review_date: 2026-08-26
+review_fingerprint: 81f455dca59dffbbb053f6367949f96bc12edd5dcff707f1e5e7ced9bcc1fa85
+routing_manifest_sha256: 4a93cb38bbec51541b158e7e88c2c0f02125ed7e4364da2cc375b11f0d811f7d
 ontap_region: Derbyshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,15 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 5
-- Selected: 0
+- Records: 7
+- Selected: 1
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 6
 
 ## SELECTED
 
-- None.
+---
+action: 
+SELECTED | Derbyshire | Chesterfield, East Midlands, S44 6XA | Redhill Academy Trust Pay Scale, Band 7, Scale Points 32 - 36 Actual salary: £22,094 - £23,923 per annum (FTE: £26,141 - £28,305) | Administrative Assistant/Cover Administrator
+employer: The Bolsover School
+closing_date: 2026-09-14T12:00:00+01:00
+reason: Clear admin/service title: administrator, administrative assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 4dde3521d859f0332533feda0d888b51ad3e6ff9d32eca10d92bc4934600c0f9
+source: Teaching Vacancies
+source_job_id: administrative-assistant-cover-administrator-the-bolsover-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-cover-administrator-the-bolsover-school
+---
 
 ## POSS — choose SELECT or EXCLUDE
 
@@ -35,6 +48,7 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 - [Community Development Assistant](https://teaching-vacancies.service.gov.uk/jobs/community-development-assistant) — Insufficient admin/service evidence.
 - [PA to Senior Leadership Team & Cover Manager](https://teaching-vacancies.service.gov.uk/jobs/pa-to-senior-leadership-team-cover-manager) — Manager title salary ceiling £37,280 is not below £28,000.
+- [Safeguarding Officer](https://teaching-vacancies.service.gov.uk/jobs/safeguarding-officer-the-bolsover-school) — Insufficient admin/service evidence.
 - [School Business Assistant](https://teaching-vacancies.service.gov.uk/jobs/school-business-assistant-heath-primary-school-chesterfield-derbyshire) — Insufficient admin/service evidence.
 - [School Business Lead](https://teaching-vacancies.service.gov.uk/jobs/school-business-lead-hollingwood-primary-school-chesterfield-derbyshire) — Insufficient admin/service evidence.
 - [Teaching Assistant Level 3 (Personal Care)](https://teaching-vacancies.service.gov.uk/jobs/teaching-assistant-level-3-personal-care-hope-valley-college) — Out-of-scope occupation: teaching assistant.

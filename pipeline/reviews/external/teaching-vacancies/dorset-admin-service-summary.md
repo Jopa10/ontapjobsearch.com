@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Dorset
 
-review_date: 2026-08-24
-review_fingerprint: ea41245e1e5f795edafc5364833fb84ca3aaaf93944adf886cc6f39e08d72434
-routing_manifest_sha256: 97466a05f4eb38fda5229c9a89fb4a4fc3010eac8e265aefa096fce8dbff34a1
+review_date: 2026-08-26
+review_fingerprint: d03ea49e32af0085d690638d97e15cb8c2788efa1d6779b7804f0b8970e1f783
+routing_manifest_sha256: 4a93cb38bbec51541b158e7e88c2c0f02125ed7e4364da2cc375b11f0d811f7d
 ontap_region: Dorset
 slice_category: admin_service
 slice_status: LIVE
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 2
-- Selected: 2
-- POSS awaiting decision: 0
+- Records: 6
+- Selected: 3
+- POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 0
+- Hard pass: 1
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Dorset | Bournemouth, South West, BH8 9PW | Actual salary - £22,105 per annum (Full time Equivalent - £27,222 per annum) | Careers and Work Experience Administrator
+employer: The Bishop of Winchester Academy
+closing_date: 2026-09-06T23:59:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: f26938550059614df068621441bdec772b06d8301a1148b15b996afe3102e5b3
+source: Teaching Vacancies
+source_job_id: careers-and-work-experience-administrator-the-bishop-of-winchester-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/careers-and-work-experience-administrator-the-bishop-of-winchester-academy
+---
 
 ---
 action: 
@@ -53,7 +68,35 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 
 ## POSS — choose SELECT or EXCLUDE
 
-- None.
+---
+action: 
+POSS | Dorset | Bournemouth, South West, BH10 4EX | £13,461.00 - £18,054.00 Annually (Actual) Term time only | Business and Administration Apprentice
+employer: Glenmoor Academy
+closing_date: 2026-08-31T23:59:00+01:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: c9bafd0c46b726ea184b41cbdb29ec00a259b1ed3800d08ed0d77ec8d8c90d94
+source: Teaching Vacancies
+source_job_id: business-and-administration-apprentice
+source_url: https://teaching-vacancies.service.gov.uk/jobs/business-and-administration-apprentice
+---
+
+---
+action: 
+POSS | Dorset | Poole, South West, BH17 7EP | Grade E+2, Points 7-13. Actual salary: £22,152 - £24,384 pay award pending | Data Manager
+employer: Parkstone Grammar School
+closing_date: 2026-09-23T09:00:00+01:00
+reason: Manager title below £28,000 salary ceiling requires review
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: eb7167ae4a6f83a8b4dfbab53e799d6ac21f95465a4929efac7033296c5df584
+source: Teaching Vacancies
+source_job_id: data-manager-parkstone-grammar-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/data-manager-parkstone-grammar-school
+---
 
 ## EXCLUDED BY REVIEW
 
@@ -61,7 +104,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 
 ## HARD_PASS
 
-- None.
+- [Data Manager](https://teaching-vacancies.service.gov.uk/jobs/data-manager-glenmoor-academy) — Manager title salary ceiling £35,377 is not below £28,000.
 
 ## Safety boundary
 

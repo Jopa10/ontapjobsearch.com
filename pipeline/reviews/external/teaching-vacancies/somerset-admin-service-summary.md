@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Somerset
 
-review_date: 2026-08-24
-review_fingerprint: dc235c72364baf94db74136306abc3e6369c03818d34c01b43d0882d8ee8a9b1
-routing_manifest_sha256: 97466a05f4eb38fda5229c9a89fb4a4fc3010eac8e265aefa096fce8dbff34a1
+review_date: 2026-08-26
+review_fingerprint: 1217e1db0e985a94811b15298d4c7a6e0ec420efdd612d15164ae3ac082e40f6
+routing_manifest_sha256: 4a93cb38bbec51541b158e7e88c2c0f02125ed7e4364da2cc375b11f0d811f7d
 ontap_region: Somerset
 slice_category: admin_service
 slice_status: LIVE
@@ -14,8 +14,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 13
-- Selected: 4
-- POSS awaiting decision: 3
+- Selected: 5
+- POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 6
 
@@ -81,6 +81,21 @@ source_job_id: people-administrator-learning-and-development
 source_url: https://teaching-vacancies.service.gov.uk/jobs/people-administrator-learning-and-development
 ---
 
+---
+action: 
+SELECTED | Somerset | Taunton, South West, TA2 8FT | Actual Annual Salary | Senior Office Administrator
+employer: West Monkton Church of England School
+closing_date: 2026-09-02T17:00:59+01:00
+reason: Clear admin/service title: administrator, office administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 9635d7fcfa24ad8ea27d94caeb5c619a2b50e3a903767e77b82a7c27e4ab4ac8
+source: Teaching Vacancies
+source_job_id: senior-office-administrator-west-monkton-church-of-england-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-office-administrator-west-monkton-church-of-england-school
+---
+
 ## POSS — choose SELECT or EXCLUDE
 
 ---
@@ -111,21 +126,6 @@ factual_fingerprint: e2ef416884654f5754753dc6d133c310ea638adad699077b63c0b33e367
 source: Teaching Vacancies
 source_job_id: senior-administration-assistant-send
 source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-administration-assistant-send
----
-
----
-action: 
-POSS | Somerset | Taunton, South West, TA2 8FT | Actual Annual Salary | Senior Office Administrator
-employer: West Monkton Church of England School
-closing_date: 2026-09-02T17:00:59+01:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 9635d7fcfa24ad8ea27d94caeb5c619a2b50e3a903767e77b82a7c27e4ab4ac8
-source: Teaching Vacancies
-source_job_id: senior-office-administrator-west-monkton-church-of-england-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-office-administrator-west-monkton-church-of-england-school
 ---
 
 ## EXCLUDED BY REVIEW

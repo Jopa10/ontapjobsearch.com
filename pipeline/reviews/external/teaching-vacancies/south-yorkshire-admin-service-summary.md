@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - South
 
-review_date: 2026-08-24
-review_fingerprint: c0499e137ce881e11a93f1b990be9608a092b3cb005f12aa780c42efd54ddbde
-routing_manifest_sha256: 97466a05f4eb38fda5229c9a89fb4a4fc3010eac8e265aefa096fce8dbff34a1
+review_date: 2026-08-26
+review_fingerprint: 11fc674241dd4b52a642c0975b30377509c21daca552d051c4fe03e3e40c1816
+routing_manifest_sha256: 4a93cb38bbec51541b158e7e88c2c0f02125ed7e4364da2cc375b11f0d811f7d
 ontap_region: Yorkshire - South
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 22
+- Records: 24
 - Selected: 6
-- POSS awaiting decision: 1
+- POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 15
+- Hard pass: 16
 
 ## SELECTED
 
@@ -38,6 +38,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-clerical-office
 
 ---
 action: 
+SELECTED | Yorkshire - South | Rotherham, Yorkshire and the Humber, S60 5QS | £12,019.00 - £12,288.00 Annually (Actual) pay award pending | Administration Assistant
+employer: Treeton Church of England Primary School
+closing_date: 2026-09-01T23:59:00+01:00
+reason: Clear admin/service title: administration assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: a0e1e5cb5c53cbc2aaf6ed9a08e1718b411e0c4e35e42de7aa6cb86da7b78ce2
+source: Teaching Vacancies
+source_job_id: administration-assistant-treeton-church-of-england-primary-school-rotherham-south-yorkshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-treeton-church-of-england-primary-school-rotherham-south-yorkshire
+---
+
+---
+action: 
 SELECTED | Yorkshire - South | Barnsley, Yorkshire and the Humber, S71 2AY | £9,289.00 - £9,901.00 Annually (Actual) Grade 4 Term time plus 5 days | Business Support Officer
 employer: Springwell Special Academy
 closing_date: 2026-08-26T23:59:00+01:00
@@ -49,21 +64,6 @@ factual_fingerprint: 52a6c6e89c44357f9c83245674551b8e6ca8b0d144b832ed04e067909e8
 source: Teaching Vacancies
 source_job_id: business-support-officer-2ea7277a-9574-40f3-acf2-2f61fc716fd1
 source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-officer-2ea7277a-9574-40f3-acf2-2f61fc716fd1
----
-
----
-action: 
-SELECTED | Yorkshire - South | Sheffield, Yorkshire and the Humber, S10 2PW | Grade 4 Point 7 to 12 £26,403 to £28,598 pro rata (£22,709 to £24,597 actual) | Business Support Officer – Attendance
-employer: King Edward VII School
-closing_date: 2026-09-01T09:00:00+01:00
-reason: Clear admin/service title: business support officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 905df4ea5d57eb22742005fca2b24f22ee35193b18abe96e521c664fdebd1f57
-source: Teaching Vacancies
-source_job_id: business-support-officer-attendance-dc9edb4f-b36d-4bc3-be46-6508d1a2b957
-source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-officer-attendance-dc9edb4f-b36d-4bc3-be46-6508d1a2b957
 ---
 
 ---
@@ -128,6 +128,21 @@ source_job_id: administration-officer-morley-place-academy-doncaster-south-yorks
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-officer-morley-place-academy-doncaster-south-yorkshire
 ---
 
+---
+action: 
+POSS | Yorkshire - South | Barnsley, S75 3SP | £25,583.00 - £25,989.00 Annually (Actual) | Estates and Compliance Coordinator
+employer: Hcat
+closing_date: 2026-09-11T23:59:00+01:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 81a8edc39337a9d3ce0dc1db7b64d6b2a891488d95271700ea05e77a8331bfb7
+source: Teaching Vacancies
+source_job_id: estates-and-compliance-coordinator
+source_url: https://teaching-vacancies.service.gov.uk/jobs/estates-and-compliance-coordinator
+---
+
 ## EXCLUDED BY REVIEW
 
 - None.
@@ -135,7 +150,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-office
 ## HARD_PASS
 
 - [Administration Assistant and Receptionist](https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-and-receptionist-king-edward-vii-school-sheffield-south-yorkshire) — Missing salary or pay scale.
-- [Attendance Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/attendance-administration-assistant-south-axholme-academy) — Insufficient admin/service evidence.
 - [Attendance and Admissions Manager](https://teaching-vacancies.service.gov.uk/jobs/attendance-and-admissions-manager-westfield-school-sheffield) — Manager title salary ceiling £41,771 is not below £28,000.
 - [Business Support Manager](https://teaching-vacancies.service.gov.uk/jobs/business-support-manager-beck-primary-school) — Manager title salary ceiling £39,614 is not below £28,000.
 - [Chief Financial Officer](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-st-clare-catholic-multi-academy-trust) — Insufficient admin/service evidence.
@@ -148,7 +162,9 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-office
 - [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-hatfield-woodhouse-primary-school) — Insufficient admin/service evidence.
 - [HR Manager](https://teaching-vacancies.service.gov.uk/jobs/hr-manager-st-francis-catholic-multi-academy-trust-rotherham-not-recorded) — Manager title salary ceiling £54,495 is not below £28,000.
 - [People Officer](https://teaching-vacancies.service.gov.uk/jobs/people-officer-astrea-academy-trust) — Insufficient admin/service evidence.
+- [People Operations - Team Leader](https://teaching-vacancies.service.gov.uk/jobs/people-operations-team-leader) — Insufficient admin/service evidence.
 - [Resources Assistant](https://teaching-vacancies.service.gov.uk/jobs/resources-assistant-westfield-school) — Insufficient admin/service evidence.
+- [School Administration Assistant: HR and Payroll](https://teaching-vacancies.service.gov.uk/jobs/school-administration-assistant-hr-and-payroll) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

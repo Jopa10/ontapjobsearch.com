@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — North East
 
-review_date: 2026-08-24
+review_date: 2026-08-26
 review_fingerprint: 5f02eeda2d0261e12bb673dc9b733925d8bcb28379e5c65828357597704d8649
-routing_manifest_sha256: 97466a05f4eb38fda5229c9a89fb4a4fc3010eac8e265aefa096fce8dbff34a1
+routing_manifest_sha256: 4a93cb38bbec51541b158e7e88c2c0f02125ed7e4364da2cc375b11f0d811f7d
 ontap_region: North East
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 4
+- Records: 5
 - Selected: 1
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 3
+- Hard pass: 4
 
 ## SELECTED
 
@@ -46,6 +46,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assist
 
 ## HARD_PASS
 
+- [Associate Operational Support Lead](https://teaching-vacancies.service.gov.uk/jobs/associate-operational-support-lead-northern-leaders-trust) — Insufficient admin/service evidence.
 - [Business Manager](https://teaching-vacancies.service.gov.uk/jobs/business-manager-st-anthony-s-girls-catholic-academy) — Manager title salary ceiling £40,777 is not below £28,000.
 - [Communications and Administration Manager](https://teaching-vacancies.service.gov.uk/jobs/communications-and-administration-manager) — Manager title salary ceiling £39,862 is not below £28,000.
 - [HR Lead](https://teaching-vacancies.service.gov.uk/jobs/hr-lead-cramlington-learning-village) — Insufficient admin/service evidence.

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — North East - Tees Valley
 
-review_date: 2026-08-24
-review_fingerprint: b06b63f43d236ab32872d78158006e2473fa261dfe68cd0dc5fa856724f75529
-routing_manifest_sha256: 97466a05f4eb38fda5229c9a89fb4a4fc3010eac8e265aefa096fce8dbff34a1
+review_date: 2026-08-26
+review_fingerprint: ab7a5bdd883cfd4499cbca3acb14892908b62afe64c052509116004ca23a6c81
+routing_manifest_sha256: 4a93cb38bbec51541b158e7e88c2c0f02125ed7e4364da2cc375b11f0d811f7d
 ontap_region: North East - Tees Valley
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -14,31 +14,31 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 5
-- Selected: 0
-- POSS awaiting decision: 1
+- Selected: 1
+- POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 4
 
 ## SELECTED
 
-- None.
-
-## POSS — choose SELECT or EXCLUDE
-
 ---
 action: 
-POSS | North East - Tees Valley | Yarm, North East, TS15 9ET | £32,061 to £33,699, pending job evaluation | Executive Assistant to Head of School
+SELECTED | North East - Tees Valley | Yarm, North East, TS15 9ET | Grade F, SCP 7 to 8, pending job evaluation | Administration Assistant
 employer: Conyers School
 closing_date: 2026-09-01T12:00:00+01:00
-reason: Administrative duties evidenced in description
+reason: Clear admin/service title: administration assistant
 jobg8_check: NO_MATCH
 slice_status: UNREGISTERED
 migration_status: 
-factual_fingerprint: b5181d942440617f0f8c36aeed8375efed53cb7b66f98500507d8280f536705d
+factual_fingerprint: f0c7d988ab42bc7dc694d98ec1966cdcd0721360c14b037c9ed05ec81b92b813
 source: Teaching Vacancies
-source_job_id: executive-assistant-to-head-of-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/executive-assistant-to-head-of-school
+source_job_id: administration-assistant-conyers-school-yarm-cleveland
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-conyers-school-yarm-cleveland
 ---
+
+## POSS — choose SELECT or EXCLUDE
+
+- None.
 
 ## EXCLUDED BY REVIEW
 
@@ -46,10 +46,10 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/executive-assistant-t
 
 ## HARD_PASS
 
+- [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-the-legacy-learning-trust-middlesbrough-not-recorded) — Insufficient admin/service evidence.
+- [Office Manager and PA to the Headteacher](https://teaching-vacancies.service.gov.uk/jobs/office-manager-and-pa-to-the-headteacher-our-lady-st-bede-catholic-academy) — Manager title salary ceiling £33,699 is not below £28,000.
 - [School Business Manager (Primary)](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-primary-st-bede-s-catholic-academy-stockton-on-tees-teesside) — Manager title salary ceiling £32,359 is not below £28,000.
 - [School Business Manager (Secondary)](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-secondary-our-lady-st-bede-catholic-academy) — Manager title salary ceiling £41,771 is not below £28,000.
-- [Senior Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-finance-officer-the-legacy-learning-trust) — Insufficient admin/service evidence.
-- [Trust Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/trust-finance-assistant-spark-education-trust) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

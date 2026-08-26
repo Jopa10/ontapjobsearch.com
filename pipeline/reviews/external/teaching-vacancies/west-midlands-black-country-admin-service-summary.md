@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Black Country
 
-review_date: 2026-08-24
+review_date: 2026-08-26
 review_fingerprint: 802a339381c95c05498b113215e839fdd46ccab1b9e6b79a9a8a699d805d6402
-routing_manifest_sha256: 97466a05f4eb38fda5229c9a89fb4a4fc3010eac8e265aefa096fce8dbff34a1
+routing_manifest_sha256: 4a93cb38bbec51541b158e7e88c2c0f02125ed7e4364da2cc375b11f0d811f7d
 ontap_region: West Midlands - Black Country
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 6
+- Records: 8
 - Selected: 3
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 3
+- Hard pass: 5
 
 ## SELECTED
 
@@ -79,6 +79,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-
 - [Business Administration Apprentice](https://teaching-vacancies.service.gov.uk/jobs/business-administration-apprentice-st-regis-church-of-england-academy-wolverhampton-west-midlands) — Insufficient admin/service evidence.
 - [Communications & Engagement Manager](https://teaching-vacancies.service.gov.uk/jobs/communications-engagement-manager) — Manager title salary ceiling £32,079 is not below £28,000.
 - [Data and MIS Manager](https://teaching-vacancies.service.gov.uk/jobs/data-and-mis-manager-ormiston-new-academy-wolverhampton-west-midlands) — Manager title salary ceiling £36,363 is not below £28,000.
+- [Multi School Facilities Coordinator](https://teaching-vacancies.service.gov.uk/jobs/multi-school-facilities-coordinator) — Insufficient admin/service evidence.
+- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-withymoor-primary-school) — Manager title salary ceiling £28,214 is not below £28,000.
 
 ## Safety boundary
 

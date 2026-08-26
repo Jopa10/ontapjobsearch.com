@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cambridgeshire
 
-review_date: 2026-08-24
-review_fingerprint: a3426770181e8fc7a5da1127eb6ffaf0277f803785d034a765396c26a3f88c62
-routing_manifest_sha256: 97466a05f4eb38fda5229c9a89fb4a4fc3010eac8e265aefa096fce8dbff34a1
+review_date: 2026-08-26
+review_fingerprint: a778f02a2b1943c5d4bd29826c9ca189b8cb567f8c90bf642ec9cff9c694ef44
+routing_manifest_sha256: 4a93cb38bbec51541b158e7e88c2c0f02125ed7e4364da2cc375b11f0d811f7d
 ontap_region: Cambridgeshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 22
-- Selected: 12
+- Records: 25
+- Selected: 14
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 8
+- Hard pass: 9
 
 ## SELECTED
 
@@ -34,6 +34,21 @@ factual_fingerprint: 18c773d8cae6ea3d386f3908f2cb86fe1cf109cab38ff589ae78239f7fc
 source: Teaching Vacancies
 source_job_id: admin-assistant-maternity-cover-peckover-primary-school-wisbech-cambridgeshire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-maternity-cover-peckover-primary-school-wisbech-cambridgeshire
+---
+
+---
+action: 
+SELECTED | Cambridgeshire | St Ives, East of England, PE27 6RR | £25,185.00 - £25,989.00 Annually (Actual) SCP4-6 pro rata - £21,601 - £22,291 | Admin Assistant - Attendance
+employer: St Ivo Academy
+closing_date: 2026-08-31T23:59:00+01:00
+reason: Clear admin/service title: admin assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: dda51c64934bf4dad9bc62a053c993517afbd62a3e333f5bafbb55fd09c1a54a
+source: Teaching Vacancies
+source_job_id: admin-assistant-attendance-st-ivo-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-attendance-st-ivo-academy
 ---
 
 ---
@@ -83,6 +98,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-sen-and
 
 ---
 action: 
+SELECTED | Cambridgeshire | Peterborough, East of England, PE6 7JX | £22,469.00 Annually (FTE) | Administrator - Student Services
+employer: Arthur Mellows Village College
+closing_date: 2026-09-07T09:00:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: cc2c6f3a74de0fea522a03689dbfacaaaf13dba7fa906b0a4d43932d7247214a
+source: Teaching Vacancies
+source_job_id: administrator-student-services-d8658259-60b3-4622-8d3d-f3f1d76a784e
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-student-services-d8658259-60b3-4622-8d3d-f3f1d76a784e
+---
+
+---
+action: 
 SELECTED | Cambridgeshire | Huntingdon, East of England, PE29 7DD | £25,583.00 - £25,989.00 Annually (FTE) NJC Scale 3, Points 5 to 6. Actual salary £ 21,942.34 per annum on point 5. | Attendance Administrator
 employer: St Peter's School
 closing_date: 2026-09-04T09:00:00+01:00
@@ -94,6 +124,21 @@ factual_fingerprint: ea803d181c7f1651aec8c46862b758e363e9c4d93d198629c0ab3b5976f
 source: Teaching Vacancies
 source_job_id: attendance-administrator-d9c8d521-d886-4881-ad29-ebd6ebb9ffa5
 source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-administrator-d9c8d521-d886-4881-ad29-ebd6ebb9ffa5
+---
+
+---
+action: 
+SELECTED | Cambridgeshire | Peterborough, East of England, PE4 6HX | £21,567 - £22,970 per annum (FTE £25,185 - £26,824) | Data Administrator
+employer: Queen Katharine Academy
+closing_date: 2026-09-07T09:00:00+01:00
+reason: Clear admin/service title: administrator, data administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: f6b8b602bc47440ac5432d07969b9c6e99fd92deea785fef82408227f7066bfd
+source: Teaching Vacancies
+source_job_id: data-administrator-799f6f5b-2740-4014-af1f-77a81945f8ec
+source_url: https://teaching-vacancies.service.gov.uk/jobs/data-administrator-799f6f5b-2740-4014-af1f-77a81945f8ec
 ---
 
 ---
@@ -173,21 +218,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-
 
 ---
 action: 
-SELECTED | Cambridgeshire | Cambridge, East of England, CB3 0QZ | £25,583.00 - £25,989.00 Annually (FTE) | Office Administrator
-employer: University of Cambridge Primary School
-closing_date: 2026-08-26T09:00:00+01:00
-reason: Clear admin/service title: administrator, office administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 246551fa86662e3f8f630dbaadb4200ca0a14326960aed5600d12ee029c7f7a4
-source: Teaching Vacancies
-source_job_id: office-administrator-university-of-cambridge-primary-school-cambridge-cambridgeshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-university-of-cambridge-primary-school-cambridge-cambridgeshire
----
-
----
-action: 
 SELECTED | Cambridgeshire | Cambridge, East of England, CB24 4RS | £12,564.75 - £13,609.32 Annually (Actual) £26,403 - £28598 FTE Grade 6, Points 7 - 12 on the Meridian Trust Support Staff Salary Scale | SEND Administrator
 employer: Swavesey Village College
 closing_date: 2026-09-08T09:00:00+01:00
@@ -244,6 +274,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-witchfor
 - [HR Assistant](https://teaching-vacancies.service.gov.uk/jobs/hr-assistant-c4d8ed09-594f-4562-a120-505c05f1230f) — Insufficient admin/service evidence.
 - [HR Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-29710c09-99f0-4051-a00b-f29e45698bda) — Insufficient admin/service evidence.
 - [MAT Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/mat-finance-officer-four-cs-mat) — Insufficient admin/service evidence.
+- [Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-0ac27fb8-22a7-4d23-9c79-0a117c28f623) — Insufficient admin/service evidence.
 - [Senior HR Adviser (Field based Cambridge and Ely area primarily)](https://teaching-vacancies.service.gov.uk/jobs/senior-hr-adviser-field-based-cambridge-and-ely-area-primarily) — Insufficient admin/service evidence.
 - [Trust Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/trust-finance-officer-act-multi-academy-trust) — Insufficient admin/service evidence.
 - [Trust Payroll, Pensions and HR Officer](https://teaching-vacancies.service.gov.uk/jobs/trust-payroll-pensions-and-hr-officer) — Insufficient admin/service evidence.

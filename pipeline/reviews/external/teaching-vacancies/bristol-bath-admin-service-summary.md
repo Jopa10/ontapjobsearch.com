@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Bristol & Bath
 
-review_date: 2026-08-24
-review_fingerprint: 13fefdbb2a85610e11ae25116aabb8e97fa43116c40a4a455f7db9ebe3fb2192
-routing_manifest_sha256: 97466a05f4eb38fda5229c9a89fb4a4fc3010eac8e265aefa096fce8dbff34a1
+review_date: 2026-08-26
+review_fingerprint: a601f2345b60ff416e0d53400504cf730af35e4b39297128da865acbe666ed9f
+routing_manifest_sha256: 4a93cb38bbec51541b158e7e88c2c0f02125ed7e4364da2cc375b11f0d811f7d
 ontap_region: Bristol & Bath
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 13
-- Selected: 3
+- Records: 12
+- Selected: 1
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 10
+- Hard pass: 11
 
 ## SELECTED
 
@@ -36,36 +36,6 @@ source_job_id: attendance-administrator-marlwood-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-administrator-marlwood-school
 ---
 
----
-action: 
-SELECTED | Bristol & Bath | Bristol, South West, BS7 9RP | £25,989.00 - £26,403.00 Annually (FTE) | Digital Marketing Administrator
-employer: Filton Avenue Primary School
-closing_date: 2026-09-01T09:00:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 70c29abe8caf12fd84911969c88a07acaf02b5adfa868d4eea9992311b4a74d6
-source: Teaching Vacancies
-source_job_id: digital-marketing-administrator-filton-avenue-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/digital-marketing-administrator-filton-avenue-primary-school
----
-
----
-action: 
-SELECTED | Bristol & Bath | Bristol, South West, BS7 9NL | £36,363.00 - £39,152.00 Annually (FTE) Actual salary £33,683 to £36,266 per year, term time only plus 20 additional days | PA to Principal/HR Lead
-employer: Fairfield High School
-closing_date: 2026-08-30T23:59:00+01:00
-reason: Clear admin/service title: pa to
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: e9f2593884ab273dc5fda56b23d3f20e59611b92e241aad7c1bb708e93ce5f64
-source: Teaching Vacancies
-source_job_id: pa-to-principal-hr-lead-fairfield-high-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/pa-to-principal-hr-lead-fairfield-high-school
----
-
 ## POSS — choose SELECT or EXCLUDE
 
 - None.
@@ -79,6 +49,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/pa-to-principal-hr-le
 - [Financial Controller](https://teaching-vacancies.service.gov.uk/jobs/financial-controller-9097ffb6-9d63-4285-9dd2-537e38cf05ad) — Insufficient admin/service evidence.
 - [Governance Clerk](https://teaching-vacancies.service.gov.uk/jobs/governance-clerk-amplify-education-bristol-not-recorded) — Insufficient admin/service evidence.
 - [Senior Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/senior-administration-assistant-frome-vale-academy) — Insufficient admin/service evidence.
+- [Senior Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-finance-officer-chipping-sodbury-school) — Insufficient admin/service evidence.
 - [Senior Trust Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/senior-trust-finance-manager) — Manager title salary ceiling £50,269 is not below £28,000.
 - [Senior Trust Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/senior-trust-finance-manager-st-bernard-s-catholic-primary-school) — Manager title salary ceiling £50,269 is not below £28,000.
 - [Senior Trust Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/senior-trust-finance-manager-st-bonaventure-s-catholic-primary-school) — Manager title salary ceiling £50,269 is not below £28,000.

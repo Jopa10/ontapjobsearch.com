@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - East
 
-review_date: 2026-08-24
-review_fingerprint: 66136be5159093d83643594391e99453597788878d8a249601304aef5c65c93f
-routing_manifest_sha256: 97466a05f4eb38fda5229c9a89fb4a4fc3010eac8e265aefa096fce8dbff34a1
+review_date: 2026-08-26
+review_fingerprint: 96b6dc8c07388ec78a71e79ea5229cf98af1867a9cf4da5ddf7bebc02a060578
+routing_manifest_sha256: 4a93cb38bbec51541b158e7e88c2c0f02125ed7e4364da2cc375b11f0d811f7d
 ontap_region: Yorkshire - East
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 4
+- Records: 3
 - Selected: 1
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 3
+- Hard pass: 2
 
 ## SELECTED
 
@@ -25,12 +25,12 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 action: 
 SELECTED | Yorkshire - East | Hull, Yorkshire and the Humber, HU7 3JQ | £25,185 - £25,583 FTE, £21,682 - £22,025 Actual | Administration Assistant
 employer: Kingswood Parks Primary School
-closing_date: 2026-08-28T08:00:59+01:00
+closing_date: 2026-09-07T08:00:59+01:00
 reason: Clear admin/service title: administration assistant
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 3bf4d52060418259f565058683b7707de2f46556a419a90fb41fac5e7bda0e9f
+factual_fingerprint: 56d5acb58213088e4a9833a6c11a620384b87f5eaaaf85519d8deaceac5769cf
 source: Teaching Vacancies
 source_job_id: administration-assistant-kingswood-parks-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-kingswood-parks-primary-school
@@ -46,7 +46,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assist
 
 ## HARD_PASS
 
-- [Exams Access Arrangements (EAA) Assessor](https://teaching-vacancies.service.gov.uk/jobs/exams-access-arrangements-eaa-assessor) — Insufficient admin/service evidence.
 - [Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-st-cuthbert-s-roman-catholic-academy-trust) — Insufficient admin/service evidence.
 - [Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-91c235c5-da46-4798-9b1d-e61f74a63da1) — Insufficient admin/service evidence.
 

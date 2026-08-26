@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Devon
 
-review_date: 2026-08-24
-review_fingerprint: 447e5461b5864361e42fd799d6825f41747372ed935aaaeb518611dc4f00b0d9
-routing_manifest_sha256: 97466a05f4eb38fda5229c9a89fb4a4fc3010eac8e265aefa096fce8dbff34a1
+review_date: 2026-08-26
+review_fingerprint: eb1663f465136821bb3fab485f948bf23c0d38f80d80479aeeb9b56e2f1c8b24
+routing_manifest_sha256: 4a93cb38bbec51541b158e7e88c2c0f02125ed7e4364da2cc375b11f0d811f7d
 ontap_region: Devon
 slice_category: admin_service
 slice_status: LIVE
@@ -115,12 +115,12 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-data-protecti
 action: 
 SELECTED | Devon | Okehampton, EX20 1PU | £21,072.00 - £21,407.00 Annually (Actual) NJC Grade C. Range 6 to 7 | People Administrator
 employer: Dartmoor Multi Academy Trust
-closing_date: 2026-08-28T23:59:00+01:00
+closing_date: 2026-09-01T23:59:00+01:00
 reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 4d45811540900ef7dfe9b2b0e5872f32b6fa24723fe6d84c8ffe434b39371981
+factual_fingerprint: b54bafbdb90bbd6b8c936d4dda5a5d8f6a765aae6d52c6343e90b7ee9825ac7c
 source: Teaching Vacancies
 source_job_id: people-administrator-dartmoor-multi-academy-trust
 source_url: https://teaching-vacancies.service.gov.uk/jobs/people-administrator-dartmoor-multi-academy-trust
@@ -254,12 +254,12 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-pupil-services
 
 ## HARD_PASS
 
-- [[260514R1] Director of Finance & Chief Financial Officer](https://teaching-vacancies.service.gov.uk/jobs/260514r1-director-of-finance-chief-financial-officer) — Insufficient admin/service evidence.
-- [Attendance Assistant](https://teaching-vacancies.service.gov.uk/jobs/attendance-assistant-exmouth-community-college) — Insufficient admin/service evidence.
 - [Chief Financial Officer (CFO)](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-cfo-torquay-boys-grammar-school-torquay-devon) — Insufficient admin/service evidence.
 - [Finance Apprentice](https://teaching-vacancies.service.gov.uk/jobs/finance-apprentice-westcountry-schools-trust) — Insufficient admin/service evidence.
 - [Finance Apprentice](https://teaching-vacancies.service.gov.uk/jobs/finance-apprentice-westcountry-schools-trust-ivybridge-not-recorded) — Insufficient admin/service evidence.
 - [Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-learning-academies-trust-plymouth-not-recorded) — Insufficient admin/service evidence.
+- [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-ivy-education-trust) — Insufficient admin/service evidence.
+- [HR Policy and Projects Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-policy-and-projects-officer) — Insufficient admin/service evidence.
 - [Medical Conditions and Student Health Lead](https://teaching-vacancies.service.gov.uk/jobs/medical-conditions-and-student-health-lead) — Insufficient admin/service evidence.
 - [People Lead (Maternity Cover)](https://teaching-vacancies.service.gov.uk/jobs/people-lead-maternity-cover-bideford-college) — Insufficient admin/service evidence.
 - [Resource Assistant - Humanities and Human Sciences](https://teaching-vacancies.service.gov.uk/jobs/resource-assistant-humanities-and-human-sciences) — Insufficient admin/service evidence.

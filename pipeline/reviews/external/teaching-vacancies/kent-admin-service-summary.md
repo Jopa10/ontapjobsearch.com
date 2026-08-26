@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Kent
 
-review_date: 2026-08-24
-review_fingerprint: b795dac4518e98abd67d39cbb3c8b71850f87ce5170310dac8d787d5fc780ff1
-routing_manifest_sha256: 97466a05f4eb38fda5229c9a89fb4a4fc3010eac8e265aefa096fce8dbff34a1
+review_date: 2026-08-26
+review_fingerprint: 57843ddeeeb77c67b96e963ee6df90bfacc56a47e6260dd993fd9ddb921908c8
+routing_manifest_sha256: 4a93cb38bbec51541b158e7e88c2c0f02125ed7e4364da2cc375b11f0d811f7d
 ontap_region: Kent
 slice_category: admin_service
 slice_status: LIVE
@@ -13,15 +13,43 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 6
-- Selected: 0
-- POSS awaiting decision: 2
+- Records: 8
+- Selected: 2
+- POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 4
+- Hard pass: 5
 
 ## SELECTED
 
-- None.
+---
+action: 
+SELECTED | Kent | Gillingham, ME7 5HT | £28,238.00 - £31,758.00 Annually (FTE) £24,694 - £27,772 actual salary for 37 hours per week. | Admissions Officer
+employer: The University Of Kent Academies Trust
+closing_date: 2026-09-11T23:59:00+01:00
+reason: Clear admin/service title: admissions officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: c9ac40550c447b839671a0158da18f98391ee658e8a9430e2c4b5463cb907e86
+source: Teaching Vacancies
+source_job_id: admissions-officer-the-university-of-kent-academies-trust
+source_url: https://teaching-vacancies.service.gov.uk/jobs/admissions-officer-the-university-of-kent-academies-trust
+---
+
+---
+action: 
+SELECTED | Kent | Sheerness, South East, ME12 3AP | £8,557.00 - £8,693.00 Annually (Actual) | Receptionist
+employer: Nore Academy
+closing_date: 2026-09-04T12:00:00+01:00
+reason: Clear admin/service title: receptionist
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: f90ddb2cacb224471acb87fe2628722be9a0f71024b7d52ad28de66b62b3f7e6
+source: Teaching Vacancies
+source_job_id: receptionist-nore-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-nore-academy
+---
 
 ## POSS — choose SELECT or EXCLUDE
 
@@ -40,30 +68,16 @@ source_job_id: hr-administrator-the-diocese-of-canterbury-academies-trust
 source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-the-diocese-of-canterbury-academies-trust
 ---
 
----
-action: 
-POSS | Kent | Sheerness, South East, ME12 3AP | £8,557.00 - £8,693.00 Annually (Actual) | Receptionist
-employer: Nore Academy
-closing_date: 2026-09-04T12:00:00+01:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: f90ddb2cacb224471acb87fe2628722be9a0f71024b7d52ad28de66b62b3f7e6
-source: Teaching Vacancies
-source_job_id: receptionist-nore-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-nore-academy
----
-
 ## EXCLUDED BY REVIEW
 
 - None.
 
 ## HARD_PASS
 
+- [Head of Financial Operations](https://teaching-vacancies.service.gov.uk/jobs/head-of-financial-operations) — Insufficient admin/service evidence.
+- [HR Apprentice](https://teaching-vacancies.service.gov.uk/jobs/hr-apprentice-the-howard-academy-trust-chatham-not-recorded) — Insufficient admin/service evidence.
 - [HR Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-swale-academies-trust) — Insufficient admin/service evidence.
 - [Human Resources Officer](https://teaching-vacancies.service.gov.uk/jobs/human-resources-officer-5e7c23e7-9011-422c-8af6-459ace63c7f0) — Insufficient admin/service evidence.
-- [Medway Attendance Lead](https://teaching-vacancies.service.gov.uk/jobs/medway-attendance-lead-barnsole-primary-school) — Insufficient admin/service evidence.
 - [School Data and Exam Support Officer](https://teaching-vacancies.service.gov.uk/jobs/school-data-and-exam-support-officer) — Insufficient admin/service evidence.
 
 ## Safety boundary

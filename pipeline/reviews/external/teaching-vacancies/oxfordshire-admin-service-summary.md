@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Oxfordshire
 
-review_date: 2026-08-24
-review_fingerprint: ab02edc7a2d37127f94b8574b001d0ff49f2ee8ade446d60fbf91376f1900498
-routing_manifest_sha256: 97466a05f4eb38fda5229c9a89fb4a4fc3010eac8e265aefa096fce8dbff34a1
+review_date: 2026-08-26
+review_fingerprint: f7e23aa8cfde16b0bb99f707262d535927d511017082eae5a9f50915698b6430
+routing_manifest_sha256: 4a93cb38bbec51541b158e7e88c2c0f02125ed7e4364da2cc375b11f0d811f7d
 ontap_region: Oxfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -14,12 +14,27 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 18
-- Selected: 6
+- Selected: 7
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 10
+- Hard pass: 9
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Oxfordshire | Faringdon, South East, SN7 7LB | £26,824.00 - £29,065.00 Annually (FTE) Support Staff NJC grade 6, SCP 8-13. 30 hours per week/38 weeks per year. Actual annual salary in the region of £18,235.86 - £19,759.37 | Attendance Administrator
+employer: Faringdon Community College
+closing_date: 2026-09-14T12:00:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: c84234c07a4c867af718e19687d7a3687fc550714654e60f0af1a6edabb2d781
+source: Teaching Vacancies
+source_job_id: attendance-administrator-faringdon-community-college
+source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-administrator-faringdon-community-college
+---
 
 ---
 action: 
@@ -154,7 +169,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-faringdo
 - [Admissions Manager](https://teaching-vacancies.service.gov.uk/jobs/admissions-manager-lord-williams-s-school) — Manager title salary ceiling £34,434 is not below £28,000.
 - [Chief Financial Officer](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-lord-williams-s-school-thame-oxfordshire) — Insufficient admin/service evidence.
 - [Data and Systems Lead](https://teaching-vacancies.service.gov.uk/jobs/data-and-systems-lead-acer-trust) — Insufficient admin/service evidence.
-- [Finance Manager (30 hrs p/w, term time only + 5 inset days + 4 weeks)](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-30-hrs-p-w-term-time-only-5-inset-days-4-weeks) — Manager title salary ceiling £49,282 is not below £28,000.
 - [HR Partner](https://teaching-vacancies.service.gov.uk/jobs/hr-partner-oxford-diocesan-bucks-schools-trust) — Insufficient admin/service evidence.
 - [Lettings & Community Officer](https://teaching-vacancies.service.gov.uk/jobs/lettings-community-officer-ridgeway-education-trust-didcot-not-recorded) — Insufficient admin/service evidence.
 - [Operations Coordinator](https://teaching-vacancies.service.gov.uk/jobs/operations-coordinator-oxford-diocesan-bucks-schools-trust) — Insufficient admin/service evidence.

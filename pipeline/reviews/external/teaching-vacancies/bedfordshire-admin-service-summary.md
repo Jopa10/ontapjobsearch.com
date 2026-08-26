@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Bedfordshire
 
-review_date: 2026-08-24
-review_fingerprint: 69c169dbd84203622e9849ccb6657bc280deecbf93036e6b6e6b661e9b9a41ce
-routing_manifest_sha256: 97466a05f4eb38fda5229c9a89fb4a4fc3010eac8e265aefa096fce8dbff34a1
+review_date: 2026-08-26
+review_fingerprint: 0aff8e3ee81b6049387b7cad0fd72d51f2ded6db7db6b05e872b7edc12400702
+routing_manifest_sha256: 4a93cb38bbec51541b158e7e88c2c0f02125ed7e4364da2cc375b11f0d811f7d
 ontap_region: Bedfordshire
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 11
-- Selected: 6
-- POSS awaiting decision: 1
+- Records: 13
+- Selected: 8
+- POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 4
+- Hard pass: 5
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Bedfordshire | Bedford, East of England, MK45 4NS | £4,366.00 Annually (Actual) Level 2A point 4 | Administration Assistant
+employer: Ramsey Manor Lower School
+closing_date: 2026-08-31T23:59:00+01:00
+reason: Clear admin/service title: administration assistant
+jobg8_check: NO_MATCH
+slice_status: UNREGISTERED
+migration_status: 
+factual_fingerprint: c118d74ab318bfdce3db4f3a81f0859f9c33b271947f91a2baa1efae81f5843c
+source: Teaching Vacancies
+source_job_id: administration-assistant-18c67456-fe5d-4f62-84f3-8db757ea20be
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-18c67456-fe5d-4f62-84f3-8db757ea20be
+---
 
 ---
 action: 
@@ -111,22 +126,24 @@ source_job_id: receptionist-and-clerical-assistant-066aa8a5-43e7-4649-9eec-a1fcf
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-and-clerical-assistant-066aa8a5-43e7-4649-9eec-a1fcf6c1d684
 ---
 
-## POSS — choose SELECT or EXCLUDE
-
 ---
 action: 
-POSS | Bedfordshire | Luton, LU4 0PF | £16.62 - £17.85 Hourly | Governance Professional (Clerk)
-employer: St Thomas Catholic Academies Trust
-closing_date: 2026-08-24T12:00:00+01:00
-reason: Borderline school administration title: governance professional
+SELECTED | Bedfordshire | Luton, East of England, LU1 5PP | £27,564.00 - £29,850.00 Annually (FTE) AS 9-14 FTE £27,564-£29,850 pro rata £25,146-£27,232 | Safeguarding, Attendance & Welfare Administrator
+employer: The Stockwood Park Academy
+closing_date: 2026-09-07T08:00:00+01:00
+reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
 slice_status: UNREGISTERED
 migration_status: 
-factual_fingerprint: ee63a6c9156f4aad7722b73ae7a6a37c843eeaceeb07ce17e674452f09f16cff
+factual_fingerprint: 642f6c2348baaadf37ad1e7450fcabebd754676074846164659e1a128053bd40
 source: Teaching Vacancies
-source_job_id: governance-professional-clerk-st-thomas-catholic-academies-trust
-source_url: https://teaching-vacancies.service.gov.uk/jobs/governance-professional-clerk-st-thomas-catholic-academies-trust
+source_job_id: safeguarding-attendance-welfare-administrator
+source_url: https://teaching-vacancies.service.gov.uk/jobs/safeguarding-attendance-welfare-administrator
 ---
+
+## POSS — choose SELECT or EXCLUDE
+
+- None.
 
 ## EXCLUDED BY REVIEW
 
@@ -136,8 +153,9 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/governance-profession
 
 - [Business Manager](https://teaching-vacancies.service.gov.uk/jobs/business-manager-the-chalk-hills-academy-luton-bedfordshire) — Manager title salary ceiling £45,401 is not below £28,000.
 - [Data and Exams Assistant](https://teaching-vacancies.service.gov.uk/jobs/data-and-exams-assistant-queensbury-academy) — Insufficient admin/service evidence.
+- [Finance Assistant - Purchase Ledger & Treasury](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-purchase-ledger-treasury) — Insufficient admin/service evidence.
+- [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-6f5cafa2-4f5b-47d7-8fa1-ebd48d98391c) — Manager title salary ceiling £33,699 is not below £28,000.
 - [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-st-matthew-s-primary-school) — Insufficient admin/service evidence.
-- [Online Marketing & Social Media Assistant](https://teaching-vacancies.service.gov.uk/jobs/online-marketing-social-media-assistant) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

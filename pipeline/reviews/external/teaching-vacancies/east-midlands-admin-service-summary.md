@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — East Midlands
 
-review_date: 2026-08-24
-review_fingerprint: 4f6144360a405db092ff22e9ac5ca4c8745d21bdf84d07e9fb4c8deb4d696604
-routing_manifest_sha256: 97466a05f4eb38fda5229c9a89fb4a4fc3010eac8e265aefa096fce8dbff34a1
+review_date: 2026-08-26
+review_fingerprint: ef92d9820226f74b8463d8f1286c88dc6c01ad59d5b2b15e852cdfa05d424009
+routing_manifest_sha256: 4a93cb38bbec51541b158e7e88c2c0f02125ed7e4364da2cc375b11f0d811f7d
 ontap_region: East Midlands
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 7
-- Selected: 3
+- Records: 8
+- Selected: 4
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 4
 
 ## SELECTED
+
+---
+action: 
+SELECTED | East Midlands | Burton-on-Trent, West Midlands, DE14 2RE | £25,583.00 - £26,403.00 Annually (FTE) Actual Salary is £11,051.48 - £11,405.70 for 18.50 hours a week | Administration Assistant
+employer: Lansdowne Infant Academy
+closing_date: 2026-09-10T09:00:00+01:00
+reason: Clear admin/service title: administration assistant
+jobg8_check: NO_MATCH
+slice_status: UNREGISTERED
+migration_status: 
+factual_fingerprint: aed8e03a83391bc1c48b5cdb0c4cf47bd66c4a86f1ebb1189c39e788b56d9a0a
+source: Teaching Vacancies
+source_job_id: administration-assistant-lansdowne-infant-academy-burton-on-trent-staffordshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-lansdowne-infant-academy-burton-on-trent-staffordshire
+---
 
 ---
 action: 

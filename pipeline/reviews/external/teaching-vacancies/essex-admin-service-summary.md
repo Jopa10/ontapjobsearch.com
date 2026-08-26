@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Essex
 
-review_date: 2026-08-24
-review_fingerprint: e6b10de7848782dab4bda9c0afbf64da8378bae5aa50e1766ce6b32937313d8d
-routing_manifest_sha256: 97466a05f4eb38fda5229c9a89fb4a4fc3010eac8e265aefa096fce8dbff34a1
+review_date: 2026-08-26
+review_fingerprint: 35d61d9adbd10682807e102dcebb9e67cb6cb110c9b7811216ac6341b18c4c08
+routing_manifest_sha256: 4a93cb38bbec51541b158e7e88c2c0f02125ed7e4364da2cc375b11f0d811f7d
 ontap_region: Essex
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 12
-- Selected: 4
+- Records: 10
+- Selected: 3
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 7
+- Hard pass: 6
 
 ## SELECTED
-
----
-action: 
-SELECTED | Essex | Grays, East of England, RM16 2ST | £11,916.00 - £12,910.00 Annually (Actual) | Administration Assistant - Responsibility for Attendance
-employer: Stifford Clays Primary School
-closing_date: 2026-09-03T12:00:00+01:00
-reason: Clear admin/service title: administration assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: c02b65c767c492d4115348bb49bf3c18f641091dd853a298a6c986528b41be28
-source: Teaching Vacancies
-source_job_id: administration-assistant-responsibility-for-attendance
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-responsibility-for-attendance
----
 
 ---
 action: 
@@ -107,7 +92,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-notley-h
 - [Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-the-greenwell-academy) — Insufficient admin/service evidence.
 - [Admissions Coordinator](https://teaching-vacancies.service.gov.uk/jobs/admissions-coordinator) — Insufficient admin/service evidence.
 - [HR Business Partner](https://teaching-vacancies.service.gov.uk/jobs/hr-business-partner-discovery-educational-trust) — Insufficient admin/service evidence.
-- [Office Manager (Acting - 1 Year Fixed)](https://teaching-vacancies.service.gov.uk/jobs/office-manager-acting-1-year-fixed) — Manager title without salary evidence below £28,000.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-tudor-court-primary-school-grays-essex) — Manager title without salary evidence below £28,000.
 - [Senior HR Adviser](https://teaching-vacancies.service.gov.uk/jobs/senior-hr-adviser-b58d31ba-7650-4ead-a619-e0a3558161e2) — Insufficient admin/service evidence.
 - [Trust Operations Assistant](https://teaching-vacancies.service.gov.uk/jobs/trust-operations-assistant-discovery-educational-trust) — Insufficient admin/service evidence.
