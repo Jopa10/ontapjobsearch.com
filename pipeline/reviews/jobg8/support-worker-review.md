@@ -19,6 +19,12 @@ job_id: 23643_225476096
 
 ---
 action:
+SELECTED | Yorkshire - West | Halifax | £14.24 - £16 per hour (+ INC holiday pay) | Complex Care Assistant
+job_id: 107728647
+---
+
+---
+action:
 SELECTED | Yorkshire - West | Ilkley | £170 per daily | Care Assistant to English Literature Uni Graduate
 job_id: 107891212
 ---
@@ -31,11 +37,8 @@ job_id: 107751768
 
 ## WEST YORKSHIRE — POSSIBLES
 
----
-action: select
-POSS - YORKSHIRE - WEST | Yorkshire - West | Halifax | £14.24 - £16 per hour (+ INC holiday pay) | Complex Care Assistant
-job_id: 107728647
----
+_No jobs in this group._
+
 ## SOUTH YORKSHIRE — SELECTED
 
 ---
@@ -118,6 +121,12 @@ job_id: 107826653
 
 ---
 action:
+SELECTED | Sussex | Crawley | £18 - £19 per hour | Complex Care Assistant
+job_id: 107854069
+---
+
+---
+action:
 SELECTED | Sussex | Bexhill-on-sea | £13.79 per hour | Care Assistant
 job_id: 107864483
 ---
@@ -136,11 +145,8 @@ job_id: 107835737
 
 ## SUSSEX — POSSIBLES
 
----
-action: select
-POSS - SUSSEX | Sussex | Crawley | £18 - £19 per hour | Complex Care Assistant
-job_id: 107854069
----
+_No jobs in this group._
+
 ## CUMBRIA SOUTH — SELECTED
 
 _No jobs in this group._
@@ -261,6 +267,12 @@ job_id: 23643_223283749
 
 ---
 action:
+SELECTED | London | London | £16.87 - £20.25 per hour | Day Care Assistant
+job_id: 107699707
+---
+
+---
+action:
 SELECTED | London | London | £23,088.00 per annum | Waking Night Support Worker
 job_id: 1664745
 ---
@@ -269,6 +281,12 @@ job_id: 1664745
 action:
 SELECTED | London | Wandsworth | £95 - £115 per daily | Behaviour Support Assistant
 job_id: 23643_225513634
+---
+
+---
+action:
+SELECTED | London | Uxbridge | £200 per daily | Live-in Personal Care Assistant History & Politics Student
+job_id: 107823167
 ---
 
 ---
@@ -309,16 +327,8 @@ job_id: 107885503
 
 ## LONDON — POSSIBLES
 
----
-action: select
-POSS - LONDON | London | London | £16.87 - £20.25 per hour | Day Care Assistant
-job_id: 107699707
----
----
-action: select
-POSS - LONDON | London | Uxbridge | £200 per daily | Live-in Personal Care Assistant History & Politics Student
-job_id: 107823167
----
+_No jobs in this group._
+
 ## SURREY — SELECTED
 
 ---
@@ -386,5 +396,5 @@ job_id: 1787836
 _No jobs in this group._
 
 <!-- ONTAP_PERSISTENT_DECISIONS_V1
-{"decisions":{"05843b40-34ac-40a5-8f4c-e146dd6988e1":{"action":"select","decided_on":"2026-08-14"},"107658496":{"action":"select","decided_on":"2026-08-19","employer":"Priority Recruitment Services","title":"Female Support Worker","town":"Sussex"},"107751768":{"action":"select","decided_on":"2026-08-14"},"107751975":{"action":"select","decided_on":"2026-08-15","employer":"Ask Jules","title":"Care Assistant to a Psychology University Student","town":"London"},"107769225":{"action":"select","decided_on":"2026-08-15","employer":"Ask Jules","title":"Live-in Care Assistant for a Business and Management Graduate","town":"Surrey"},"107832011":{"action":"exclude","decided_on":"2026-08-21","employer":"Medgen Ltd","title":"Mental Health Support Worker","town":"Wiltshire"},"1401784261":{"action":"select","decided_on":"2026-08-14"},"1785507":{"action":"select","decided_on":"2026-08-25","employer":"Reed","title":"Communication Support Worker","town":"Surrey"},"1785508":{"action":"select","decided_on":"2026-08-25","employer":"Reed","title":"Communication Support Worker","town":"Surrey"},"1786559":{"action":"exclude","decided_on":"2026-08-25","employer":"RMS Recruitment Ltd","title":"Temp Personal Assistant","town":"London"},"23643_225134809":{"action":"select","decided_on":"2026-08-18","employer":"opal carers ltd","title":"Support Care Workers - Camberley","town":"Surrey"},"23643_225493355":{"action":"select","decided_on":"2026-08-14"},"58c3e926-cf9b-4aae-a931-e1c867a7b221":{"action":"select","decided_on":"2026-08-14"},"61318ff3-8530-4604-9b2f-3445400107a3":{"action":"exclude","decided_on":"2026-08-18","employer":"Love Success Recruitment","title":"Permanent Part-time Private Personal Assistant - Cotswolds","town":"Wiltshire"},"62ac8011-cb52-461e-bd72-7273b61cb640":{"action":"select","decided_on":"2026-08-14"},"b0026c42-2444-46d8-8c8d-840b9df2e664":{"action":"exclude","decided_on":"2026-08-15","employer":"Dovetail & Slate","title":"Communication Support Worker","town":"London"},"dfd8c7b5-d8b9-4691-9c8d-2e2ebc1ab1e7":{"action":"select","decided_on":"2026-08-14"}},"version":1}
+{"decisions":{"05843b40-34ac-40a5-8f4c-e146dd6988e1":{"action":"select","decided_on":"2026-08-14"},"107658496":{"action":"select","decided_on":"2026-08-19","employer":"Priority Recruitment Services","title":"Female Support Worker","town":"Sussex"},"107699707":{"action":"select","decided_on":"2026-08-26","employer":"Paragon Home Healthcare","title":"Day Care Assistant","town":"London"},"107728647":{"action":"select","decided_on":"2026-08-26","employer":"Routes Healthcare (North)","title":"Complex Care Assistant","town":"Yorkshire"},"107751768":{"action":"select","decided_on":"2026-08-14"},"107751975":{"action":"select","decided_on":"2026-08-15","employer":"Ask Jules","title":"Care Assistant to a Psychology University Student","town":"London"},"107769225":{"action":"select","decided_on":"2026-08-15","employer":"Ask Jules","title":"Live-in Care Assistant for a Business and Management Graduate","town":"Surrey"},"107823167":{"action":"select","decided_on":"2026-08-26","employer":"Ask Jules","title":"Live-in Personal Care Assistant History & Politics Student","town":"Middlesex"},"107832011":{"action":"exclude","decided_on":"2026-08-21","employer":"Medgen Ltd","title":"Mental Health Support Worker","town":"Wiltshire"},"107854069":{"action":"select","decided_on":"2026-08-26","employer":"Superior Healthcare","title":"Complex Care Assistant","town":"Sussex"},"1401784261":{"action":"select","decided_on":"2026-08-14"},"1785507":{"action":"select","decided_on":"2026-08-25","employer":"Reed","title":"Communication Support Worker","town":"Surrey"},"1785508":{"action":"select","decided_on":"2026-08-25","employer":"Reed","title":"Communication Support Worker","town":"Surrey"},"1786559":{"action":"exclude","decided_on":"2026-08-25","employer":"RMS Recruitment Ltd","title":"Temp Personal Assistant","town":"London"},"23643_225134809":{"action":"select","decided_on":"2026-08-18","employer":"opal carers ltd","title":"Support Care Workers - Camberley","town":"Surrey"},"23643_225493355":{"action":"select","decided_on":"2026-08-14"},"58c3e926-cf9b-4aae-a931-e1c867a7b221":{"action":"select","decided_on":"2026-08-14"},"61318ff3-8530-4604-9b2f-3445400107a3":{"action":"exclude","decided_on":"2026-08-18","employer":"Love Success Recruitment","title":"Permanent Part-time Private Personal Assistant - Cotswolds","town":"Wiltshire"},"62ac8011-cb52-461e-bd72-7273b61cb640":{"action":"select","decided_on":"2026-08-14"},"b0026c42-2444-46d8-8c8d-840b9df2e664":{"action":"exclude","decided_on":"2026-08-15","employer":"Dovetail & Slate","title":"Communication Support Worker","town":"London"},"dfd8c7b5-d8b9-4691-9c8d-2e2ebc1ab1e7":{"action":"select","decided_on":"2026-08-14"}},"version":1}
 -->

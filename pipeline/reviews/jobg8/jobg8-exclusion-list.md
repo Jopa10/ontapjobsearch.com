@@ -6,9 +6,189 @@ The `excluded_on` date is the day the exclusion decision was made.
 To restore a job, edit only its `action:` line to `action: select`.
 On the next JobG8 run that exact job ID will be restored and removed from this list.
 
-remembered_exclusions: 170
+remembered_exclusions: 185
 
 ## SERVICE / ADMIN — EXCLUDED
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-26
+title: Technical Helpdesk
+employer: Focus Resourcing Group
+region: 
+town: Essex
+salary: 
+job_id: 107811135
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-26
+title: Technical Coordinator
+employer: Hunter Selection
+region: 
+town: Somerset
+salary: 
+job_id: 107891373
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-26
+title: SharePoint Developer/Administrator
+employer: Southern Water
+region: 
+town: Sussex
+salary: 
+job_id: 1800712
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-26
+title: Security Test Co-ordinator
+employer: Addition
+region: 
+town: Hertfordshire
+salary: 
+job_id: 1693219
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-26
+title: Repairs Planner
+employer: Daniel Owen Ltd
+region: 
+town: London
+salary: 
+job_id: 23643_225531473
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-26
+title: Project Coordinator (Solar / Renewables)
+employer: Ernest Gordon Recruitment
+region: 
+town: Dorset
+salary: 
+job_id: 107797783
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-26
+title: Operations Co-Ordinator
+employer: Ernest Gordon Recruitment
+region: 
+town: Somerset
+salary: 
+job_id: 107826896
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-26
+title: Office Coordinator - Team Supervision essential
+employer: Office Angels
+region: 
+town: Manchester
+salary: 
+job_id: 23643_225532819
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-26
+title: Media Sales Administrator
+employer: Hackajob Ltd
+region: 
+town: London
+salary: 
+job_id: 107832564
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-26
+title: Linux Administrator
+employer: Enterprise Recruitment Limited
+region: 
+town: Cambridgeshire
+salary: 
+job_id: 107875038
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-26
+title: Lead Project Coordinator- Data Systems Migration
+employer: Reed
+region: 
+town: Merseyside
+salary: 
+job_id: 1693391
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-26
+title: Incident Reporting Administrator
+employer: Elysium Healthcare
+region: 
+town: Hertfordshire
+salary: 
+job_id: 107817658
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-26
+title: Financial Planner (Investment Management)
+employer: Ernest Gordon Recruitment
+region: 
+town: Somerset
+salary: 
+job_id: 107896509
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-26
+title: Construction Document Controller
+employer: The People Pod
+region: 
+town: Cheshire
+salary: 
+job_id: 107754480
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-26
+title: Assistant Spatial Planner
+employer: National Highways
+region: 
+town: Yorkshire
+salary: 
+job_id: 107891736
+---
 
 ---
 action:
