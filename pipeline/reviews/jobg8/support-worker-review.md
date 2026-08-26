@@ -1,6 +1,6 @@
 # Support-worker manual review
 
-feed_date: 2026-08-25
+feed_date: 2026-08-26
 
 Edit only the `action:` line in each block:
 
@@ -19,13 +19,23 @@ job_id: 23643_225476096
 
 ---
 action:
-SELECTED | Yorkshire - West | Wakefield | £30000 per year | Residential Support Worker
-job_id: 107881525
+SELECTED | Yorkshire - West | Ilkley | £170 per daily | Care Assistant to English Literature Uni Graduate
+job_id: 107891212
+---
+
+---
+action:
+SELECTED | Yorkshire - West | Leeds | £170 per daily | Live-in Personal Care Assistant - History and Sociology Student
+job_id: 107751768
 ---
 
 ## WEST YORKSHIRE — POSSIBLES
 
-_No jobs in this group._
+---
+action:
+POSS - YORKSHIRE - WEST | Yorkshire - West | Halifax | £14.24 - £16 per hour (+ INC holiday pay) | Complex Care Assistant
+job_id: 107728647
+---
 
 ## SOUTH YORKSHIRE — SELECTED
 
@@ -41,14 +51,30 @@ _No jobs in this group._
 
 ## NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND — SELECTED
 
-_No jobs in this group._
+---
+action:
+SELECTED | North East - Tyneside, Wearside & Northumberland | Houghton Le Spring | £14.24 per hour | Complex Care Assistant
+job_id: 107810260
+---
 
 ## NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL — SELECTED
 
 ---
 action:
+SELECTED | North East - County Durham & Darlington/Hartlepool | Crook | £14.24 per hour (+ Including holiday pay) | Complex Care Assistant
+job_id: 107781117
+---
+
+---
+action:
 SELECTED | North East - County Durham & Darlington/Hartlepool | Durham | £17 - £20 per hour | Young Person Support Worker
 job_id: 23643_225493355
+---
+
+---
+action:
+SELECTED | North East - County Durham & Darlington/Hartlepool | County Durham | £12.85 per hour (plus rolled up holiday pay) | Relief Support Worker
+job_id: 107875285
 ---
 
 ## NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND — POSSIBLES
@@ -97,23 +123,29 @@ SELECTED | Sussex | Bexhill-on-sea | £13.79 per hour | Care Assistant
 job_id: 107864483
 ---
 
+---
+action:
+SELECTED | Sussex | Horsham | £30000 per year | Residential Support Worker
+job_id: 107831131
+---
+
+---
+action:
+SELECTED | Sussex | Hove | £16 per hour | Care Assistant to a Creative Writing Uni Graduate
+job_id: 107835737
+---
+
 ## SUSSEX — POSSIBLES
 
-_No jobs in this group._
+---
+action:
+POSS - SUSSEX | Sussex | Crawley | £18 - £19 per hour | Complex Care Assistant
+job_id: 107854069
+---
 
 ## CUMBRIA SOUTH — SELECTED
 
----
-action:
-SELECTED | Cumbria - South | Ulverston | £12.85 per hour | Relief Support Worker
-job_id: 107812778
----
-
----
-action:
-SELECTED | Cumbria - South | Kirkby Stephen | £30000 per year | Childrens Residential Support Worker
-job_id: 107870592
----
+_No jobs in this group._
 
 ## CUMBRIA SOUTH — POSSIBLES
 
@@ -205,12 +237,6 @@ SELECTED | Hampshire | Havant | £25186 - £26244 per year | Care Assistant
 job_id: 1401784679
 ---
 
----
-action:
-SELECTED | Hampshire | Southampton | £15 - £18 per hour | Family Support Worker/Hampshire/ &;15-18 p/h.
-job_id: 1778648
----
-
 ## HAMPSHIRE — POSSIBLES
 
 _No jobs in this group._
@@ -261,18 +287,6 @@ job_id: 1780022
 
 ---
 action:
-SELECTED | London | South Croydon | £17.59 per hour | Community Support Worker (Active Lives)
-job_id: 1742472
----
-
----
-action:
-SELECTED | London | London | £13.85 per hour | Care Assistant Days
-job_id: 1778477
----
-
----
-action:
 SELECTED | London | Carshalton | £35 per hour | Communication Support Worker
 job_id: 1785508
 ---
@@ -289,9 +303,25 @@ SELECTED | London | City | £26,229 per annum | Residential Support Worker (Ment
 job_id: 1787859
 ---
 
+---
+action:
+SELECTED | London | London | £35000 per year | Founders Personal Assistant / Executive Assistant
+job_id: 107885503
+---
+
 ## LONDON — POSSIBLES
 
-_No jobs in this group._
+---
+action:
+POSS - LONDON | London | London | £16.87 - £20.25 per hour | Day Care Assistant
+job_id: 107699707
+---
+
+---
+action:
+POSS - LONDON | London | Uxbridge | £200 per daily | Live-in Personal Care Assistant History & Politics Student
+job_id: 107823167
+---
 
 ## SURREY — SELECTED
 
@@ -299,12 +329,6 @@ _No jobs in this group._
 action:
 SELECTED | Surrey | Guildford | £13.05 per hour | Residential Childcare Support Worker (Casual)
 job_id: 107776110
----
-
----
-action:
-SELECTED | Surrey | Camberley | £14 - £18 per hour | Support Care Workers - Camberley
-job_id: 23643_225134809
 ---
 
 ---
@@ -335,6 +359,12 @@ _No jobs in this group._
 action:
 SELECTED | Wiltshire | Calne | £90 - £105 per daily | ASD Support Worker
 job_id: 107742510
+---
+
+---
+action:
+SELECTED | Wiltshire | Salisbury | £13.5 - £14 per hour | Community health care assistant
+job_id: 107840194
 ---
 
 ---
