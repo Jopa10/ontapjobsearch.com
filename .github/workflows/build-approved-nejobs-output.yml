@@ -80,6 +80,9 @@ jobs:
           python - <<'PY'
           import json
           from pathlib import Path
+          from pipeline.external_sources.compose_northeast_admin import (
+              unaccounted_approved_ids,
+          )
 
           external = json.loads(
               Path("pipeline/output-external/northeast-jobs-admin-service.json").read_text()
@@ -87,10 +90,16 @@ jobs:
           combined = json.loads(
               Path("pipeline/output-admin-service/north-east-admin-service.json").read_text()
           )
-          external_ids = {row["job_id"] for row in external}
-          combined_ids = {row["job_id"] for row in combined}
-          if not external_ids <= combined_ids:
-              raise SystemExit("STOP: combined output is missing approved NEJobs IDs")
+          missing_ids = unaccounted_approved_ids(
+              external,
+              combined,
+              source="NEJobs",
+          )
+          if missing_ids:
+              raise SystemExit(
+                  "STOP: combined output has unaccounted approved NEJobs IDs: "
+                  + ", ".join(missing_ids)
+              )
           print(f"Approved NEJobs: {len(external)}")
           print(f"Combined North East jobs: {len(combined)}")
           PY
