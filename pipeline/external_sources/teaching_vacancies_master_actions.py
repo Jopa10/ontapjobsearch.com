@@ -33,7 +33,11 @@ def _block_value(block: str, key: str) -> str:
     return clean(match.group(1)) if match else ""
 
 
-def load_master_csv(path: Path) -> list[dict[str, str]]:
+def load_master_csv(
+    path: Path,
+    *,
+    allow_identical_duplicate_ids: bool = False,
+) -> list[dict[str, str]]:
     if not path.is_file():
         raise ValueError(f"England-wide Teaching Vacancies CSV not found: {path}")
     with path.open("r", encoding="utf-8-sig", newline="") as handle:
@@ -46,8 +50,42 @@ def load_master_csv(path: Path) -> list[dict[str, str]]:
     ids = [clean(row.get("source_job_id")) for row in rows]
     if any(not value for value in ids):
         raise ValueError("England-wide Teaching Vacancies CSV contains a blank source_job_id")
-    if len(ids) != len(set(ids)):
-        raise ValueError("England-wide Teaching Vacancies CSV contains duplicate source_job_id values")
+    duplicate_ids = {
+        source_job_id
+        for source_job_id, count in Counter(ids).items()
+        if count > 1
+    }
+    if duplicate_ids and not allow_identical_duplicate_ids:
+        raise ValueError(
+            "England-wide Teaching Vacancies CSV contains duplicate source_job_id values"
+        )
+    for source_job_id in sorted(duplicate_ids):
+        duplicates = [
+            row
+            for row in rows
+            if clean(row.get("source_job_id")) == source_job_id
+        ]
+        fingerprints = {
+            clean(row.get("factual_fingerprint"))
+            for row in duplicates
+        }
+        urls = {clean(row.get("source_url")).rstrip("/") for row in duplicates}
+        actions = {
+            clean(row.get("manual_action")).casefold()
+            for row in duplicates
+            if clean(row.get("manual_action"))
+        }
+        if (
+            "" in fingerprints
+            or len(fingerprints) != 1
+            or "" in urls
+            or len(urls) != 1
+            or len(actions) > 1
+        ):
+            raise ValueError(
+                "England-wide Teaching Vacancies CSV contains conflicting "
+                f"duplicate source_job_id values: {source_job_id}"
+            )
     return rows
 
 
@@ -153,7 +191,10 @@ def carry_existing_actions(
     """Carry non-blank actions only when the exact factual vacancy is unchanged."""
     if not old_master_csv.is_file() or not old_master_summary.is_file():
         return 0
-    old_rows = load_master_csv(old_master_csv)
+    old_rows = load_master_csv(
+        old_master_csv,
+        allow_identical_duplicate_ids=True,
+    )
     # Resolved actions are intentionally absent from the editable Markdown.
     # The generated master CSV is therefore the persistence source for them;
     # still parse the Markdown to capture any new edit made before the next run.

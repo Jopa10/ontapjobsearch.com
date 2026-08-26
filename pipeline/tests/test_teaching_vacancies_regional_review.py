@@ -308,6 +308,37 @@ def test_verified_routing_hash_blocks_review_on_tampering(tmp_path: Path) -> Non
     with pytest.raises(ValueError, match="SHA256"):
         review.load_verified_routing(path, summary)
 
+
+def test_prune_stale_review_outputs_removes_only_obsolete_region_pairs(
+    tmp_path: Path,
+) -> None:
+    active_csv, active_md = review.review_paths(tmp_path, "Norfolk")
+    active_csv.write_text("current", encoding="utf-8")
+    active_md.write_text("current", encoding="utf-8")
+
+    stale_csv, stale_md = review.review_paths(tmp_path, "East of England")
+    stale_csv.write_text("stale", encoding="utf-8")
+    stale_md.write_text("stale", encoding="utf-8")
+
+    master_csv = tmp_path / "england-wide-admin-service-review.csv"
+    master_md = tmp_path / "england-wide-admin-service-summary.md"
+    master_csv.write_text("master", encoding="utf-8")
+    master_md.write_text("master", encoding="utf-8")
+
+    removed = review.prune_stale_review_outputs(
+        tmp_path,
+        active_regions=["Norfolk"],
+    )
+
+    assert removed == [stale_csv, stale_md]
+    assert active_csv.is_file()
+    assert active_md.is_file()
+    assert master_csv.is_file()
+    assert master_md.is_file()
+    assert not stale_csv.exists()
+    assert not stale_md.exists()
+
+
 def test_possible_jobg8_duplicate_requires_fresh_review_before_select_carries(
     tmp_path: Path,
     monkeypatch: pytest.MonkeyPatch,
