@@ -8,10 +8,10 @@ Edit only the `action:` line in each editable block:
 - For a POSS job, use `action: select` to add it or `action: exclude` to reject it.
 - For a selected HC job, use `action: exclude` to remove it.
 - Leave `action:` blank for no change.
-- Commit the edit; the review workflow will remember the decision.
-- Decisions are carried forward only while the same vacancy review facts remain unchanged.
+- Commit the edit, then rerun the NEJobs process for the same review date.
+- Decisions are matched by `source_job_id` and expire when the review date changes.
 
-Run generated: 2026-08-26T17:30:31+01:00
+Run generated: 2026-08-26T17:51:46+01:00
 RSS input: https://www.northeastjobs.org.uk/RSSJobs.aspx?orgid=62
 JobG8 comparison rows in target geographies: 237
 
@@ -34,7 +34,7 @@ JobG8 comparison rows in target geographies: 237
 - HC: 14
 - POSS: 25
 - Hard pass: 1
-- Final selected after remembered/manual actions: 32
+- Final selected after manual actions: 32
 - Final POSS awaiting decision: 0
 - Manually excluded: 7
 - Confirmed JobG8 duplicates: 0
@@ -53,6 +53,7 @@ reason: transferable office/service title with specialist or borderline wording:
 source_job_id: 300742
 source_url: https://www.northeastjobs.org.uk/job/Admin_Assistant_Finance_HR/300742
 ---
+
 ---
 action: select
 SELECTED | North East - County Durham & Darlington/Hartlepool | Sacriston | £24,796 - £25,185 (Pro Rata) | Administrative Assistant
@@ -62,6 +63,7 @@ reason: possible JobG8 duplicate requires review
 source_job_id: 299277
 source_url: https://www.northeastjobs.org.uk/job/Administrative_Assistant/299277
 ---
+
 ---
 action:
 SELECTED | North East - County Durham & Darlington/Hartlepool | Framwellgate Moor | Support Grade B; £26,970 per annum | Administrator
@@ -71,6 +73,7 @@ reason: clear transferable title: administrator
 source_job_id: 300512
 source_url: https://www.northeastjobs.org.uk/job/Administrator/300512
 ---
+
 ---
 action:
 SELECTED | North East - County Durham & Darlington/Hartlepool | Green Lane, Spennymoor, Durham | £15,434 per annum NMW in first year of apprenticeship | Apprentice Economic Development Administrator
@@ -80,6 +83,7 @@ reason: clear transferable title: administrator
 source_job_id: 301034
 source_url: https://www.northeastjobs.org.uk/job/Apprentice_Economic_Development_Administrator/301034
 ---
+
 ---
 action: select
 SELECTED | North East - County Durham & Darlington/Hartlepool | Framwellgate Moor Campus, Durham, DH1 5ES | Support Grade D; £28,980 per annum | Apprenticeship Support Officer
@@ -89,6 +93,7 @@ reason: provisional transferable-office review
 source_job_id: 300505
 source_url: https://www.northeastjobs.org.uk/job/Apprenticeship_Support_Officer/300505
 ---
+
 ---
 action: select
 SELECTED | North East - County Durham & Darlington/Hartlepool | The Horizon School, CETL, Brierton Lane, Hartlepool | Band 7 £23,175 - £24,314 pa | Attendance & Support Officer
@@ -98,6 +103,7 @@ reason: transferable office/service title with specialist or borderline wording:
 source_job_id: 299877
 source_url: https://www.northeastjobs.org.uk/job/Attendance_Support_Officer/299877
 ---
+
 ---
 action: select
 SELECTED | North East - County Durham & Darlington/Hartlepool | Annand House, Meadowfield | Grade 6 - £28,142- £31,022 (Pay award pending) | Business Services Co-ordination and Improvement Officer
@@ -107,6 +113,7 @@ reason: annualised upper salary £31,022 exceeds North East review point £30,00
 source_job_id: 300776
 source_url: https://www.northeastjobs.org.uk/job/Business_Services_Co_ordination_and_Improvement_Officer/300776
 ---
+
 ---
 action:
 SELECTED | North East - County Durham & Darlington/Hartlepool | Highlight Active Wellbeing Hub | £13.47 per hour | Customer Service Advisor
@@ -116,6 +123,7 @@ reason: clear transferable title: customer service advisor
 source_job_id: 299796
 source_url: https://www.northeastjobs.org.uk/job/Customer_Service_Advisor/299796
 ---
+
 ---
 action: select
 SELECTED | North East - County Durham & Darlington/Hartlepool | County Durham | £24,305.00 - £26,325.00 | Marketing & Events Assistant
@@ -125,6 +133,7 @@ reason: provisional transferable-office review
 source_job_id: 300955
 source_url: https://www.northeastjobs.org.uk/job/Marketing_Events_Assistant/300955
 ---
+
 ---
 action: select
 SELECTED | North East - County Durham & Darlington/Hartlepool | Town Hall, Darlington | £25,989 per annum (pay award pending) | PA Support Officer
@@ -134,6 +143,7 @@ reason: provisional transferable-office review
 source_job_id: 300972
 source_url: https://www.northeastjobs.org.uk/job/PA_Support_Officer/300972
 ---
+
 ---
 action: select
 SELECTED | North East - County Durham & Darlington/Hartlepool | Durham (derived for filtering) | From £14.54 - £15.20 per hour | School Administrator
@@ -143,6 +153,7 @@ reason: agency-style advert with no structured employment location
 source_job_id: 256127
 source_url: https://www.northeastjobs.org.uk/job/School_Administrator/256127
 ---
+
 ---
 action:
 SELECTED | North East - County Durham & Darlington/Hartlepool | Sedgefield | Points 4-6, FTE £25,185 - £25,989 Actual £21,730 - £22,424 | SEN Administrator
@@ -152,6 +163,7 @@ reason: clear transferable title: administrator
 source_job_id: 299750
 source_url: https://www.northeastjobs.org.uk/job/SEN_Administrator/299750
 ---
+
 ---
 action: select
 SELECTED | North East - County Durham & Darlington/Hartlepool | Council Offices, Green Lane, Spennymoor | £30,024 to £33,699 p.a. (Grade 7) Pay Award pending | Technical and Support Officers
@@ -161,6 +173,7 @@ reason: transferable office/service title with specialist or borderline wording:
 source_job_id: 300579
 source_url: https://www.northeastjobs.org.uk/job/Technical_and_Support_Officers/300579
 ---
+
 ---
 action:
 SELECTED | North East - Tyneside, Wearside & Northumberland | North Tyneside | Grade 05 (£26,403 - £27,254) pro rata per annum | Admin Assistant
@@ -170,6 +183,7 @@ reason: clear transferable title: admin assistant
 source_job_id: 300537
 source_url: https://www.northeastjobs.org.uk/job/Admin_Assistant/300537
 ---
+
 ---
 action: select
 SELECTED | North East - Tyneside, Wearside & Northumberland | Prudhoe | SCP 2 - 5 (£24,413 - £25,583 (pro rata) depending upon qualifications and experience | Administrative Assistant
@@ -179,6 +193,7 @@ reason: possible JobG8 duplicate requires review
 source_job_id: 300646
 source_url: https://www.northeastjobs.org.uk/job/Administrative_Assistant/300646
 ---
+
 ---
 action:
 SELECTED | North East - Tyneside, Wearside & Northumberland | Sacred Heart Catholic High School, Fenham Hall Drive, Fenham, Newcastle upon Tyne NE4 9YH | £26,403 - £27,254 per annum pro rata (Actual salary £22,671 - £23,401 per annum) | Administrative Assistant Level 3
@@ -188,6 +203,7 @@ reason: clear transferable title: administrative assistant
 source_job_id: 300745
 source_url: https://www.northeastjobs.org.uk/job/Administrative_Assistant_Level_3/300745
 ---
+
 ---
 action: select
 SELECTED | North East - Tyneside, Wearside & Northumberland | Newcastle (derived for filtering) | Actual pro-rata salary is £27,703 - £29,601 per annum (pay award pending) | Attendance Officer
@@ -197,6 +213,7 @@ reason: transferable office/service title with specialist or borderline wording:
 source_job_id: 300632
 source_url: https://www.northeastjobs.org.uk/job/Attendance_Officer/300632
 ---
+
 ---
 action:
 SELECTED | North East - Tyneside, Wearside & Northumberland | Gateshead | £26,824 - £28,142 | Business Support Assistant
@@ -206,6 +223,7 @@ reason: clear transferable title: business support assistant
 source_job_id: 301018
 source_url: https://www.northeastjobs.org.uk/job/Business_Support_Assistant/301018
 ---
+
 ---
 action:
 SELECTED | North East - Tyneside, Wearside & Northumberland | Gateshead | £26,824 - £28,142 | Business Support Assistant
@@ -215,6 +233,7 @@ reason: clear transferable title: business support assistant
 source_job_id: 300950
 source_url: https://www.northeastjobs.org.uk/job/Business_Support_Assistant/300950
 ---
+
 ---
 action:
 SELECTED | North East - Tyneside, Wearside & Northumberland | North Tyneside | Grade 5 (£26,403 - £27,254) per annum | Business Support Assistant - Care point
@@ -224,6 +243,7 @@ reason: clear transferable title: business support assistant
 source_job_id: 301062
 source_url: https://www.northeastjobs.org.uk/job/Business_Support_Assistant_Care_point/301062
 ---
+
 ---
 action:
 SELECTED | North East - Tyneside, Wearside & Northumberland | Gateshead | £26,824 - £28,142 | Business Support Assistant - Family Hubs
@@ -233,6 +253,7 @@ reason: clear transferable title: business support assistant
 source_job_id: 300531
 source_url: https://www.northeastjobs.org.uk/job/Business_Support_Assistant_Family_Hubs/300531
 ---
+
 ---
 action:
 SELECTED | North East - Tyneside, Wearside & Northumberland | Newcastle upon Tyne | £26,403- £27,254 per annum, pro-rata | Business Support Officer
@@ -242,6 +263,7 @@ reason: clear transferable title: business support officer
 source_job_id: 300710
 source_url: https://www.northeastjobs.org.uk/job/Business_Support_Officer/300710
 ---
+
 ---
 action:
 SELECTED | North East - Tyneside, Wearside & Northumberland | Newcastle upon Tyne | £26,403 - £27,254 per annum (£14,714 - £15,188 actual salary) | Customer Service Assistant
@@ -251,6 +273,7 @@ reason: clear transferable title: customer service assistant
 source_job_id: 300896
 source_url: https://www.northeastjobs.org.uk/job/Customer_Service_Assistant/300896
 ---
+
 ---
 action:
 SELECTED | North East - Tyneside, Wearside & Northumberland | Longbenton High School Hailsham Ave, Newcastle upon Tyne NE12 8ER | £24,551 | DBS01122/26 - Business Administrator Apprentice - Longbenton High School
@@ -260,6 +283,7 @@ reason: clear transferable title: administrator
 source_job_id: 300866
 source_url: https://www.northeastjobs.org.uk/job/DBS01122_26_Business_Administrator_Apprentice_Longbenton_High_School/300866
 ---
+
 ---
 action:
 SELECTED | North East - Tyneside, Wearside & Northumberland | North Tyneside Council (derived for filtering) | £25,583 - £25,989 pro rata | DBS01125/26 - Receptionist - Norham High School
@@ -269,6 +293,7 @@ reason: clear transferable title: receptionist
 source_job_id: 301184
 source_url: https://www.northeastjobs.org.uk/job/DBS01125_26_Receptionist_Norham_High_School/301184
 ---
+
 ---
 action: select
 SELECTED | North East - Tyneside, Wearside & Northumberland | Northumberland (derived for filtering) | From £14.54 - £15.20 per hour | School Administrator
@@ -278,6 +303,7 @@ reason: agency-style advert with no structured employment location
 source_job_id: 256120
 source_url: https://www.northeastjobs.org.uk/job/School_Administrator/256120
 ---
+
 ---
 action: select
 SELECTED | North East - Tyneside, Wearside & Northumberland | North Tyneside (derived for filtering) | From £14.54 - £15.20 per hour | School Administrator
@@ -287,6 +313,7 @@ reason: agency-style advert with no structured employment location
 source_job_id: 256121
 source_url: https://www.northeastjobs.org.uk/job/School_Administrator/256121
 ---
+
 ---
 action: select
 SELECTED | North East - Tyneside, Wearside & Northumberland | Newcastle (derived for filtering) | From £14.54 - £15.20 per hour | School Administrator
@@ -296,6 +323,7 @@ reason: agency-style advert with no structured employment location
 source_job_id: 256122
 source_url: https://www.northeastjobs.org.uk/job/School_Administrator/256122
 ---
+
 ---
 action: select
 SELECTED | North East - Tyneside, Wearside & Northumberland | School Administrators required, various roles available throughout Gateshead (derived for filtering) | From £14.54 - £15.20 per hour | School Administrator
@@ -305,6 +333,7 @@ reason: agency-style advert with no structured employment location
 source_job_id: 256124
 source_url: https://www.northeastjobs.org.uk/job/School_Administrator/256124
 ---
+
 ---
 action: select
 SELECTED | North East - Tyneside, Wearside & Northumberland | School Administrators required, various roles available throughout South Tyneside (derived for filtering) | From £14.54 - £15.20per hour | School Administrator
@@ -314,6 +343,7 @@ reason: agency-style advert with no structured employment location
 source_job_id: 256125
 source_url: https://www.northeastjobs.org.uk/job/School_Administrator/256125
 ---
+
 ---
 action: select
 SELECTED | North East - Tyneside, Wearside & Northumberland | Sunderland (derived for filtering) | From £14.54 - £15.20 per hour | School Administrator
@@ -323,6 +353,7 @@ reason: agency-style advert with no structured employment location
 source_job_id: 256126
 source_url: https://www.northeastjobs.org.uk/job/School_Administrator/256126
 ---
+
 ---
 action: select
 SELECTED | North East - Tyneside, Wearside & Northumberland | Gateshead | £41,771 - £45,091 | Simpler Recycling Projects Coordinator
@@ -332,6 +363,8 @@ reason: annualised upper salary £45,091 exceeds North East review point £30,00
 source_job_id: 300777
 source_url: https://www.northeastjobs.org.uk/job/Simpler_Recycling_Projects_Coordinator/300777
 ---
+
+
 ## POSS — choose SELECT or EXCLUDE
 
 - None.
@@ -347,6 +380,7 @@ reason: transferable office/service title with specialist or borderline wording:
 source_job_id: 300336
 source_url: https://www.northeastjobs.org.uk/job/Systems_Administrator_Housing_Services/300336
 ---
+
 ---
 action: exclude
 EXCLUDED | North East - Tyneside, Wearside & Northumberland | North Tyneside | GRADE 5 SCP 7 (£26,403) - SCP 9 (£27,254) per annum | Claims Support Officer
@@ -356,6 +390,7 @@ reason: provisional transferable-office review
 source_job_id: 300592
 source_url: https://www.northeastjobs.org.uk/job/Claims_Support_Officer/300592
 ---
+
 ---
 action: exclude
 EXCLUDED | North East - Tyneside, Wearside & Northumberland | Culture House | Grade 4 (SCP 12 - 17) £28,598 - £31,022 pro rata | Digital Systems Administrator
@@ -365,6 +400,7 @@ reason: annualised upper salary £31,022 exceeds North East review point £30,00
 source_job_id: 300715
 source_url: https://www.northeastjobs.org.uk/job/Digital_Systems_Administrator/300715
 ---
+
 ---
 action: exclude
 EXCLUDED | North East - Tyneside, Wearside & Northumberland | Sunderland City Council (derived for filtering) | Grade 5 (SCP 17-22) £31,022.00-£33,699.00 | Driving Assessment Officer
@@ -374,6 +410,7 @@ reason: annualised upper salary £33,699 exceeds North East review point £30,00
 source_job_id: 300450
 source_url: https://www.northeastjobs.org.uk/job/Driving_Assessment_Officer/300450
 ---
+
 ---
 action: exclude
 EXCLUDED | North East - Tyneside, Wearside & Northumberland | Adult Social Care, South Tyneside | £41,771 pa | Local Area Coordinator – Primrose
@@ -383,6 +420,7 @@ reason: annualised upper salary £41,771 exceeds North East review point £30,00
 source_job_id: 299943
 source_url: https://www.northeastjobs.org.uk/job/Local_Area_Coordinator_Primrose/299943
 ---
+
 ---
 action: exclude
 EXCLUDED | North East - Tyneside, Wearside & Northumberland | Adult Social Care, Support Coordination Team, Town Hall and Civic Offices | £33,699 pa | Senior Support Coordinator
@@ -392,6 +430,7 @@ reason: transferable office/service title with specialist or borderline wording:
 source_job_id: 301056
 source_url: https://www.northeastjobs.org.uk/job/Senior_Support_Coordinator/301056
 ---
+
 ---
 action: exclude
 EXCLUDED | North East - Tyneside, Wearside & Northumberland | Tyne and Wear | £32,061 to £ 33,699 per annum + benefits (pay award pending) | Trauma Support Coordinator
@@ -401,6 +440,8 @@ reason: annualised upper salary £33,699 exceeds North East review point £30,00
 source_job_id: 301015
 source_url: https://www.northeastjobs.org.uk/job/Trauma_Support_Coordinator/301015
 ---
+
+
 ## Hard passes
 
 - [Apprenticeship Skills Coordinator - Technical Construction & Civil Engineering](https://www.northeastjobs.org.uk/job/Apprenticeship_Skills_Coordinator_Technical_Construction_Civil_Engineering/301194) — out-of-scope occupation: engineer.
