@@ -170,17 +170,15 @@ job_id: 23643_225422964
 ## WEST YORKSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - YORKSHIRE - WEST | Yorkshire - West | Bradford | £125 per daily | Project Support Administrator
 job_id: 23643_225530760
 ---
-
 ---
-action:
+action: exclude
 POSS - YORKSHIRE - WEST | Yorkshire - West | Leeds | £40000 per year | Assistant Spatial Planner
 job_id: 107891736
 ---
-
 ## SOUTH YORKSHIRE — SELECTED
 
 ---
@@ -818,29 +816,25 @@ job_id: 107895984
 ## LONDON — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - LONDON | London | London | £55000 per year | Media Sales Administrator
 job_id: 107832564
 ---
-
 ---
-action:
+action: exclude
 POSS - LONDON | London | Borehamwood | £40000 per year | Incident Reporting Administrator
 job_id: 107817658
 ---
-
 ---
-action:
+action: exclude
 POSS - LONDON | London | London | £16 - £18 per hour | Repairs Planner
 job_id: 23643_225531473
 ---
-
 ---
-action:
+action: select
 POSS - LONDON | London | London | £40000 per year | Distributor Sales Coordinator
 job_id: 107888542
 ---
-
 ## HAMPSHIRE — SELECTED
 
 ---
@@ -1632,11 +1626,10 @@ job_id: 23643_225423837
 ## KENT — POSSIBLES
 
 ---
-action:
+action: select
 POSS - KENT | Kent | Kent | £19 per hour | Customer Experience Coordinator
 job_id: 107825703
 ---
-
 ## SUSSEX — SELECTED
 
 ---
@@ -1804,7 +1797,7 @@ job_id: 107860492
 ## SUSSEX — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - SUSSEX | Sussex | Sussex | £40600 per year | SharePoint Developer/Administrator
 job_id: 1800712
 ---
@@ -1945,7 +1938,7 @@ job_id: 23643_225533754
 ## COVENTRY & WARWICKSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - COVENTRY & WARWICKSHIRE | West Midlands - Coventry & Warwickshire | Warwickshire | £13.45 - £20.18 per hour | Cash Allocation Administrator
 job_id: 107831626
 ---
@@ -2050,11 +2043,10 @@ job_id: 23643_225528844
 ## BERKSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - BERKSHIRE | Berkshire | Berkshire | £35000 per year | Sales Coordinator (Bespoke Worktops)
 job_id: 107840229
 ---
-
 ## BRISTOL & BATH — SELECTED
 
 ---
@@ -2168,11 +2160,10 @@ job_id: 23643_225425172
 ## BRISTOL & BATH — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - BRISTOL & BATH | Bristol & Bath | Bristol | £45000 per year | Operations Co-Ordinator
 job_id: 107826896
 ---
-
 ## BUCKINGHAMSHIRE — SELECTED
 
 ---
@@ -2406,11 +2397,10 @@ job_id: 23643_225423110
 ## CAMBRIDGESHIRE — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - CAMBRIDGESHIRE | Cambridgeshire | Cambridge | £55000 per year | Linux Administrator
 job_id: 107875038
 ---
-
 ## CHESHIRE - EAST — SELECTED
 
 ---
@@ -2668,11 +2658,10 @@ job_id: 107709595
 ## CHESHIRE - WARRINGTON & HALTON — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - CHESHIRE - WARRINGTON & HALTON | Cheshire - Warrington & Halton | Warrington | £50000 per year | Construction Document Controller
 job_id: 107754480
 ---
-
 ## CORNWALL — SELECTED
 
 ---
@@ -2756,11 +2745,10 @@ job_id: 23643_225470678
 ## DERBYSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - DERBYSHIRE | Derbyshire | Derbyshire | £30000 - £33000 per year (free parking and hybrid working) | Finance Assistant
 job_id: 23643_225531012
 ---
-
 ## DEVON — SELECTED
 
 ---
@@ -2970,11 +2958,10 @@ job_id: 23643_225532057
 ## DORSET — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - DORSET | Dorset | Dorset | £45000 per year | Project Coordinator (Solar / Renewables)
 job_id: 107797783
 ---
-
 ## ESSEX — SELECTED
 
 ---
@@ -3154,11 +3141,10 @@ job_id: 1798176
 ## ESSEX — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - ESSEX | Essex | Essex | £40000 per year | Technical Helpdesk
 job_id: 107811135
 ---
-
 ## GLOUCESTERSHIRE — SELECTED
 
 ---
@@ -3308,29 +3294,25 @@ job_id: 107831167
 ## GLOUCESTERSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - GLOUCESTERSHIRE | Gloucestershire | Gloucestershire | £15 - £20 per hour | Part Time Accounts Assistant
 job_id: 107709821
 ---
-
 ---
-action:
+action: select
 POSS - GLOUCESTERSHIRE | Gloucestershire | Gloucestershire | £35000 per year | Finance Assistant
 job_id: 107831470
 ---
-
 ---
-action:
+action: select
 POSS - GLOUCESTERSHIRE | Gloucestershire | Gloucestershire | £35000 per year | Talent & Recruitment Coordinator
 job_id: 107880013
 ---
-
 ---
-action:
+action: select
 POSS - GLOUCESTERSHIRE | Gloucestershire | Gloucestershire | £35000 per year | Office & Finance Assistant
 job_id: 107811816
 ---
-
 ## GREATER MANCHESTER - MANCHESTER & SALFORD — SELECTED
 
 ---
@@ -3486,11 +3468,10 @@ job_id: 107896400
 ## GREATER MANCHESTER - MANCHESTER & SALFORD — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - GREATER MANCHESTER - MANCHESTER & SALFORD | Greater Manchester - Manchester & Salford | Manchester | £30000 - £34500 per year | Office Coordinator - Team Supervision essential
 job_id: 23643_225532819
 ---
-
 ## GREATER MANCHESTER - SOUTH — SELECTED
 
 ---
@@ -3700,17 +3681,15 @@ job_id: 23643_225531745
 ## HERTFORDSHIRE — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - HERTFORDSHIRE | Hertfordshire | Hertfordshire | £40000 per year | Security Test Co-ordinator
 job_id: 1693219
 ---
-
 ---
-action:
+action: select
 POSS - HERTFORDSHIRE | Hertfordshire | Hertfordshire | £35000 per year | Relocations Co-Ordinator
 job_id: 107763655
 ---
-
 ## LEICESTERSHIRE — SELECTED
 
 ---
@@ -4010,11 +3989,10 @@ job_id: 107894134
 ## MERSEYSIDE - LIVERPOOL — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - MERSEYSIDE - LIVERPOOL | Merseyside - Liverpool | Liverpool | £275 - £350 per daily | Lead Project Coordinator- Data Systems Migration
 job_id: 1693391
 ---
-
 ## NORFOLK — SELECTED
 
 ---
@@ -4380,11 +4358,10 @@ job_id: 23643_225532950
 ## NOTTINGHAMSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - NOTTINGHAMSHIRE | Nottinghamshire | Nottinghamshire | £35000 per year | Affiliate & Rewards Coordinator
 job_id: 107893986
 ---
-
 ## OXFORDSHIRE — SELECTED
 
 ---
@@ -4576,11 +4553,10 @@ job_id: 107856250
 ## OXFORDSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - OXFORDSHIRE | Oxfordshire | Oxfordshire | £32,000 per annum | Business Administrator
 job_id: 107824312
 ---
-
 ## SHROPSHIRE — SELECTED
 
 ---
@@ -4748,17 +4724,15 @@ job_id: 23643_225532752
 ## SOMERSET — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - SOMERSET | Somerset | Somerset | £45000 per year | Technical Coordinator
 job_id: 107891373
 ---
-
 ---
-action:
+action: exclude
 POSS - SOMERSET | Somerset | Somerset | £70000 per year | Financial Planner (Investment Management)
 job_id: 107896509
 ---
-
 ## STAFFORDSHIRE — SELECTED
 
 ---
@@ -5256,11 +5230,10 @@ job_id: 107785786
 ## YORKSHIRE - EAST — POSSIBLES
 
 ---
-action:
+action: select
 POSS - YORKSHIRE - EAST | Yorkshire - East | Hull | £25000 - £32000 per year | Quotations & Estimating Coordinator
 job_id: 23643_225532268
 ---
-
 ## YORKSHIRE - NORTH — SELECTED
 
 ---

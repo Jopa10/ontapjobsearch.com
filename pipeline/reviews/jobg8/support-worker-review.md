@@ -32,11 +32,10 @@ job_id: 107751768
 ## WEST YORKSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - YORKSHIRE - WEST | Yorkshire - West | Halifax | £14.24 - £16 per hour (+ INC holiday pay) | Complex Care Assistant
 job_id: 107728647
 ---
-
 ## SOUTH YORKSHIRE — SELECTED
 
 ---
@@ -138,11 +137,10 @@ job_id: 107835737
 ## SUSSEX — POSSIBLES
 
 ---
-action:
+action: select
 POSS - SUSSEX | Sussex | Crawley | £18 - £19 per hour | Complex Care Assistant
 job_id: 107854069
 ---
-
 ## CUMBRIA SOUTH — SELECTED
 
 _No jobs in this group._
@@ -312,17 +310,15 @@ job_id: 107885503
 ## LONDON — POSSIBLES
 
 ---
-action:
+action: select
 POSS - LONDON | London | London | £16.87 - £20.25 per hour | Day Care Assistant
 job_id: 107699707
 ---
-
 ---
-action:
+action: select
 POSS - LONDON | London | Uxbridge | £200 per daily | Live-in Personal Care Assistant History & Politics Student
 job_id: 107823167
 ---
-
 ## SURREY — SELECTED
 
 ---
