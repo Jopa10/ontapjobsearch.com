@@ -25,9 +25,12 @@ class EnglandAssessableRegionTests(unittest.TestCase):
     def test_configured_england_markets_must_be_inside_assessable_universe(self) -> None:
         assessable = set(json.loads(ASSESSABLE.read_text(encoding="utf-8"))["regions"])
         operational = json.loads(OPERATIONAL.read_text(encoding="utf-8"))["regions"]
-        configured_england = {
-            name for name in operational if name != "Northern Ireland - East"
+        approved_non_england = {
+            "Northern Ireland - East",
+            "Scotland Central - Edinburgh & Lothians",
+            "Scotland West - Glasgow",
         }
+        configured_england = set(operational) - approved_non_england
         self.assertTrue(configured_england <= assessable)
 
         immediate_live_additions = {
@@ -42,6 +45,8 @@ class EnglandAssessableRegionTests(unittest.TestCase):
             "Shropshire",
             "Greater Manchester - Wigan & Bolton",
             "West Midlands - Black Country",
+            "Cheshire - West",
+            "Worcestershire",
         }
         self.assertTrue(immediate_live_additions <= configured_england)
 

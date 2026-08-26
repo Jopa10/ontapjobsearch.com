@@ -8,7 +8,7 @@ Yorkshire - West,support_worker,LIVE
 Yorkshire - South,support_worker,LIVE
 North East,support_worker,LIVE
 London,admin_service,LIVE
-Northern Ireland - East,admin_service,CANDIDATE
+Northern Ireland - East,admin_service,LIVE
 Hampshire,admin_service,LIVE
 Surrey,admin_service,LIVE
 Kent,admin_service,LIVE
@@ -93,3 +93,7 @@ West Midlands - Birmingham & Solihull,hr_recruitment,LIVE
 Sussex,hr_recruitment,CANDIDATE
 Bristol & Bath,hr_recruitment,CANDIDATE
 Essex,hr_recruitment,CANDIDATE
+Cheshire - West,admin_service,LIVE
+Scotland Central - Edinburgh & Lothians,admin_service,LIVE
+Scotland West - Glasgow,admin_service,LIVE
+Worcestershire,admin_service,LIVE
