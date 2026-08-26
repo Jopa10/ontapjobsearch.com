@@ -106,6 +106,26 @@ def test_listing_audit_retries_a_transient_non_results_page() -> None:
     assert listing.urls[0].endswith("/administrator-role")
 
 
+def test_singular_one_result_range_is_audited() -> None:
+    document = (
+        "<html><body>"
+        "<a href='/jobs/only-vacancy'>Only vacancy</a>"
+        "<p>Showing <strong>1</strong> to <strong>1</strong> "
+        "of <strong>1</strong> result</p>"
+        "</body></html>"
+    )
+
+    listing = discovery.parse_listing_page(document, page=1)
+
+    assert listing == discovery.ListingPage(
+        page=1,
+        start=1,
+        end=1,
+        total=1,
+        urls=("https://teaching-vacancies.service.gov.uk/jobs/only-vacancy",),
+    )
+
+
 def test_explicit_zero_result_page_is_audited_without_range_text() -> None:
     route = discovery.SearchRoute(
         "keyword:business support",
