@@ -2,7 +2,7 @@
 
 review_date: 2026-08-26
 review_fingerprint: 40bfe41e4f16271dfc147c502db1770210f3affdd63c0ff4ae12c733c13673c7
-routing_manifest_sha256: 4a93cb38bbec51541b158e7e88c2c0f02125ed7e4364da2cc375b11f0d811f7d
+routing_manifest_sha256: 2a90577f5e4e40d8e3b861a90ec0fca802e14e9d561f25998c5a4b6e21bb9939
 ontap_region: Surrey
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 5
+- Records: 4
 - Selected: 2
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 3
+- Hard pass: 2
 
 ## SELECTED
 
@@ -62,7 +62,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/careers-administrator
 ## HARD_PASS
 
 - [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-the-kite-academy-trust) — Insufficient admin/service evidence.
-- [HR Advisor](https://teaching-vacancies.service.gov.uk/jobs/hr-advisor-three-rivers-academy) — Expired, closed or invalid deadline.
 - [Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/operations-manager-st-john-s-primary-school) — Manager title salary ceiling £32,867 is not below £28,000.
 
 ## Safety boundary

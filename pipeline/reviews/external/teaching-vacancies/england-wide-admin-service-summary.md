@@ -12,14 +12,14 @@ Edit only the `action:` line in each unresolved block:
 
 ## TOTALS
 
-- All routed roles: **510**
-- REVIEW NOW (LIVE regions): **460**
-- EDITABLE NOW (no remembered action): **430**
+- All routed roles: **526**
+- REVIEW NOW (LIVE regions): **473**
+- EDITABLE NOW (no remembered action): **443**
 - REMEMBERED / RESOLVED: **30**
-- DEFERRED - REGION NOT LIVE: **50**
-- SELECTED: **181**
-- POSS: **21**
-- HARD PASS / EXCLUDED: **258**
+- DEFERRED - REGION NOT LIVE: **53**
+- SELECTED: **183**
+- POSS: **26**
+- HARD PASS / EXCLUDED: **264**
 
 ## BERKSHIRE — SELECTED
 
@@ -128,6 +128,17 @@ source_job_id: attendance-administrator-marlwood-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-administrator-marlwood-school
 ---
 
+---
+action:
+SELECTED | Bristol & Bath | Bristol, South West, BS7 9RP | £25,989.00 - £26,403.00 Annually (FTE) | Digital Marketing Administrator
+employer: Filton Avenue Primary School
+closing_date: 2026-09-01T09:00:00+01:00
+reason: Clear admin/service title: administrator
+factual_fingerprint: 70c29abe8caf12fd84911969c88a07acaf02b5adfa868d4eea9992311b4a74d6
+source_job_id: digital-marketing-administrator-filton-avenue-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/digital-marketing-administrator-filton-avenue-primary-school
+---
+
 ## BRISTOL & BATH — POSSIBLES
 
 _No jobs in this group._
@@ -176,17 +187,6 @@ reason: Clear admin/service title: administrator, office administrator
 factual_fingerprint: e08a39e859333defc38ad25b7abaf8405b0cc0b26d3540cf135640e8b312a17e
 source_job_id: office-administrator-sir-william-ramsay-school-high-wycombe-buckinghamshire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-sir-william-ramsay-school-high-wycombe-buckinghamshire
----
-
----
-action:
-SELECTED | Buckinghamshire | High Wycombe, South East, HP15 6SP | £34,319.00 - £41,272.00 Annually (Actual) | PA to Headteacher
-employer: Holmer Green Senior School
-closing_date: 2026-09-01T09:00:00+01:00
-reason: Clear admin/service title: pa to
-factual_fingerprint: 3c45923266735b2528419ba5bbf83f236d909ef19bc00476d790825c111ef96e
-source_job_id: pa-to-headteacher-holmer-green-senior-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/pa-to-headteacher-holmer-green-senior-school
 ---
 
 ---
@@ -359,6 +359,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-sw
 ---
 
 ## CAMBRIDGESHIRE — POSSIBLES
+
+---
+action:
+POSS | Cambridgeshire | Huntingdon, PE28 5TQ | £32,061.00 Annually (Actual) | Marketing & Communications Officer
+employer: Meridian Trust
+closing_date: 2026-09-16T23:59:00+01:00
+reason: Borderline school administration title: communications officer
+factual_fingerprint: df2781c36b86af59736979a60cc05bb4635d14f8b59e8149a729cc8dd00b7939
+source_job_id: marketing-communications-officer-5cb92852-d448-4bbf-bf75-b300eafb9fc7
+source_url: https://teaching-vacancies.service.gov.uk/jobs/marketing-communications-officer-5cb92852-d448-4bbf-bf75-b300eafb9fc7
+---
 
 ---
 action:
@@ -609,6 +620,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/data-manager-parkston
 
 ---
 action:
+SELECTED | Essex | Grays, East of England, RM16 2ST | £11,916.00 - £12,910.00 Annually (Actual) | Administration Assistant - Responsibility for Attendance
+employer: Stifford Clays Primary School
+closing_date: 2026-09-03T12:00:00+01:00
+reason: Clear admin/service title: administration assistant
+factual_fingerprint: c02b65c767c492d4115348bb49bf3c18f641091dd853a298a6c986528b41be28
+source_job_id: administration-assistant-responsibility-for-attendance
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-responsibility-for-attendance
+---
+
+---
+action:
 SELECTED | Essex | Colchester, East of England, CO4 3QJ | £24,796.00 - £25,989.00 Annually (FTE) Attendance and SEND Administrator NJC SCP 3-6 FTE £24,796 - £25,989, 27.5 hours per week, Midday Assistant 2.5 hours per week NJC SCP 3 FTE £24,796 | Attendance and SEND Administrator
 employer: Unity Primary Academy
 closing_date: 2026-08-31T12:00:00+01:00
@@ -749,7 +771,16 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-ac
 
 ## HAMPSHIRE — POSSIBLES
 
-_No jobs in this group._
+---
+action:
+POSS | Hampshire | Portsmouth, South East, PO1 5PF | TSAT Pay Group 3 pro rata to £23,701 - £27,506 for hours and weeks stated (£26,866 - £31,179 FTE) | Senior Administration Assistant
+employer: The Portsmouth Academy
+closing_date: 2026-09-01T23:59:00+01:00
+reason: Administrative duties evidenced in description
+factual_fingerprint: 7135e780724d7b8bfeda7eac7d55c93a879d6ffbfdf033708b99d3f5fd6923c2
+source_job_id: senior-administration-assistant-the-portsmouth-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-administration-assistant-the-portsmouth-academy
+---
 
 ## HERTFORDSHIRE — SELECTED
 
@@ -788,9 +819,29 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-admin-as
 
 ## HERTFORDSHIRE — POSSIBLES
 
-_No jobs in this group._
+---
+action:
+POSS | Hertfordshire | Royston, East of England, SG8 5NJ | NJC Cambridgeshire Scale 5 Point 12 - 14 (£28,598 - £29,540 FTE per annum) £12,426.16 - £12,835.47 pro rata, plus holiday pay. | Office Administrator
+employer: Bassingbourn Village College
+closing_date: 2026-08-31T23:59:00+01:00
+reason: Possible JobG8 duplicate requires review
+factual_fingerprint: 8fccbba9d34a01eb62b0e77a6919dd3df5e0d8b3934242bfe78141469df2d5f8
+source_job_id: office-administrator-bassingbourn-village-college
+source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-bassingbourn-village-college
+---
 
 ## KENT — SELECTED
+
+---
+action:
+SELECTED | Kent | Gravesend, South East, DA11 7JB | £26,822.00 - £27,765.00 Annually (FTE) Kent Scheme B or C dependant on experience | Admissions & Attendance Officer
+employer: Shears Green Junior School
+closing_date: 2026-09-04T23:59:00+01:00
+reason: Clear admin/service title: attendance officer
+factual_fingerprint: d97a5175bf70b63e5bb47b63c82d12a8c9dde7cfc2e4baec46a5bc2fcb8b1a09
+source_job_id: admissions-attendance-officer-shears-green-junior-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/admissions-attendance-officer-shears-green-junior-school
+---
 
 ---
 action:
@@ -1092,6 +1143,17 @@ reason: Possible JobG8 duplicate requires review
 factual_fingerprint: 22f8de45fd278861069530f2cdb5e5348b7af0ebb81215ef2beffb4cc3450566
 source_job_id: administrator-summerswood-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-summerswood-primary-school
+---
+
+---
+action:
+POSS | London | London, London, SW16 6NP | Grade 3 - Salary Spine point 5 to 6 - £31,086 to £31,530 (actual £28,592 to £29,002) | Office Administrator
+employer: St Leonard's Church of England Primary School
+closing_date: 2026-09-11T15:00:00+01:00
+reason: Possible JobG8 duplicate requires review
+factual_fingerprint: dfb8614e8859acc9e446d1f3a5130b800f5a77f9bf4b14abbd10dba60aa9a134
+source_job_id: office-administrator-st-leonard-s-church-of-england-primary-school-london
+source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-st-leonard-s-church-of-england-primary-school-london
 ---
 
 ---
@@ -1445,6 +1507,14 @@ source_job_id: receptionist-faringdon-community-college-faringdon-oxfordshire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-faringdon-community-college-faringdon-oxfordshire
 ---
 
+## SHROPSHIRE — SELECTED
+
+_No jobs in this group._
+
+## SHROPSHIRE — POSSIBLES
+
+_No jobs in this group._
+
 ## SOMERSET — SELECTED
 
 ---
@@ -1766,17 +1836,6 @@ _No jobs in this group._
 
 ---
 action:
-SELECTED | West Midlands - Coventry & Warwickshire | Coventry, West Midlands, CV3 4BD | £25,185.00 - £26,403.00 Annually (FTE) Grade 3, Actual Salary £21,854 - £22,911 | Administration Assistant
-employer: Meadow Park School
-closing_date: 2026-09-01T09:00:00+01:00
-reason: Clear admin/service title: administration assistant
-factual_fingerprint: 1a0d0c1f2337c589a0fa852b868011fb58ff964e72f8ab95b9973df529eed5cd
-source_job_id: administration-assistant-meadow-park-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-meadow-park-school
----
-
----
-action:
 SELECTED | West Midlands - Coventry & Warwickshire | Nuneaton, West Midlands, CV11 4QH | £22,608 - £24,637 (dependent on service and experience) This does not include the pending Pay Award. | Personal Assistant (PA) to the Headteachers (Oak Wood Schools)
 employer: Oak Wood Secondary School
 closing_date: 2026-09-11T12:00:00+01:00
@@ -1871,7 +1930,16 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/it-system-administrat
 
 ## WILTSHIRE — POSSIBLES
 
-_No jobs in this group._
+---
+action:
+POSS | Wiltshire | Chippenham, South West, SN14 0QT | £29,064.00 - £31,022.00 Annually (FTE) Actual Salary: £25,640 - £27,368 per annum | Admin Officer
+employer: Queen's Crescent School
+closing_date: 2026-09-01T12:00:00+01:00
+reason: Administrative duties evidenced in description
+factual_fingerprint: bae439fa258dd730bf3e81ecd3380d311521bf06699190ddf06e5a2503fc0955
+source_job_id: admin-officer-queen-s-crescent-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-officer-queen-s-crescent-school
+---
 
 ## YORKSHIRE - EAST — SELECTED
 
@@ -1962,6 +2030,17 @@ reason: Clear admin/service title: business support officer
 factual_fingerprint: 52a6c6e89c44357f9c83245674551b8e6ca8b0d144b832ed04e067909e884393
 source_job_id: business-support-officer-2ea7277a-9574-40f3-acf2-2f61fc716fd1
 source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-officer-2ea7277a-9574-40f3-acf2-2f61fc716fd1
+---
+
+---
+action:
+SELECTED | Yorkshire - South | Sheffield, Yorkshire and the Humber, S10 2PW | Grade 4 Point 7 to 12 £26,403 to £28,598 pro rata (£22,709 to £24,597 actual) | Business Support Officer – Attendance
+employer: King Edward VII School
+closing_date: 2026-09-01T09:00:00+01:00
+reason: Clear admin/service title: business support officer
+factual_fingerprint: 905df4ea5d57eb22742005fca2b24f22ee35193b18abe96e521c664fdebd1f57
+source_job_id: business-support-officer-attendance-dc9edb4f-b36d-4bc3-be46-6508d1a2b957
+source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-officer-attendance-dc9edb4f-b36d-4bc3-be46-6508d1a2b957
 ---
 
 ---
@@ -2185,7 +2264,7 @@ These roles remain visible in the CSV but are not individually marked until the 
 
 | Region | Total | Selected | POSS | Hard pass / excluded |
 |---|---:|---:|---:|---:|
-| Bedfordshire / admin_service | 13 | 8 | 0 | 5 |
+| Bedfordshire / admin_service | 14 | 8 | 0 | 6 |
 | Cheshire - West / admin_service | 2 | 2 | 0 | 0 |
 | Cumbria - North / admin_service | 2 | 1 | 0 | 1 |
 | Cumbria - West / admin_service | 3 | 0 | 1 | 2 |
@@ -2195,7 +2274,7 @@ These roles remain visible in the CSV but are not individually marked until the 
 | Lancashire - Central / admin_service | 2 | 0 | 0 | 2 |
 | Lancashire - East / admin_service | 2 | 1 | 0 | 1 |
 | Merseyside - Wirral / admin_service | 1 | 1 | 0 | 0 |
-| North East - Tees Valley / admin_service | 5 | 1 | 0 | 4 |
+| North East - Tees Valley / admin_service | 7 | 1 | 1 | 5 |
 | Rutland / admin_service | 1 | 0 | 0 | 1 |
-| South West / admin_service | 3 | 1 | 0 | 2 |
-| Worcestershire / admin_service | 2 | 0 | 1 | 1 |
+| South West / admin_service | 4 | 1 | 0 | 3 |
+| Worcestershire / admin_service | 1 | 0 | 0 | 1 |

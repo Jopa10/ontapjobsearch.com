@@ -2,7 +2,7 @@
 
 review_date: 2026-08-26
 review_fingerprint: ad1726576b42c96f4bb7256b89a2fdf8484caa177438a8ad3e4e7ede6903232f
-routing_manifest_sha256: 4a93cb38bbec51541b158e7e88c2c0f02125ed7e4364da2cc375b11f0d811f7d
+routing_manifest_sha256: 2a90577f5e4e40d8e3b861a90ec0fca802e14e9d561f25998c5a4b6e21bb9939
 ontap_region: Staffordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 8
+- Records: 7
 - Selected: 4
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 4
+- Hard pass: 3
 
 ## SELECTED
 
@@ -91,7 +91,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 
 ## HARD_PASS
 
-- [Attendance Assistant](https://teaching-vacancies.service.gov.uk/jobs/attendance-assistant-ormiston-sir-stanley-matthews-academy) — Insufficient admin/service evidence.
 - [Management Accountant](https://teaching-vacancies.service.gov.uk/jobs/management-accountant-discovery-academy) — Insufficient admin/service evidence.
 - [Trust Governance Manager](https://teaching-vacancies.service.gov.uk/jobs/trust-governance-manager-community-academies-trust) — Manager title salary ceiling £41,771 is not below £28,000.
 - [Trust Payroll Officer](https://teaching-vacancies.service.gov.uk/jobs/trust-payroll-officer-a8f45de3-8ece-41fc-909e-9dacae971fa0) — Insufficient admin/service evidence.

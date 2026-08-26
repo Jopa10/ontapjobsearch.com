@@ -2,7 +2,7 @@
 
 review_date: 2026-08-26
 review_fingerprint: b0754cf116fc08fa0050061c07bf14ea9935d6c62feef44679be74398e56f411
-routing_manifest_sha256: 4a93cb38bbec51541b158e7e88c2c0f02125ed7e4364da2cc375b11f0d811f7d
+routing_manifest_sha256: 2a90577f5e4e40d8e3b861a90ec0fca802e14e9d561f25998c5a4b6e21bb9939
 ontap_region: Yorkshire - North
 slice_category: admin_service
 slice_status: LIVE

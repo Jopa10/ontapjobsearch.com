@@ -2,7 +2,7 @@
 
 review_date: 2026-08-26
 review_fingerprint: bb1a3ec640f4ad8885b2e4d5735ea00dc1ab091b0d3a172bf342150e17f19358
-routing_manifest_sha256: 4a93cb38bbec51541b158e7e88c2c0f02125ed7e4364da2cc375b11f0d811f7d
+routing_manifest_sha256: 2a90577f5e4e40d8e3b861a90ec0fca802e14e9d561f25998c5a4b6e21bb9939
 ontap_region: Lincolnshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 18
+- Records: 19
 - Selected: 3
 - POSS awaiting decision: 5
 - Excluded: 0
-- Hard pass: 10
+- Hard pass: 11
 
 ## SELECTED
 
@@ -151,6 +151,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-manager-our-la
 
 - [Academy Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/academy-administration-officer-the-priory-witham-academy-lincoln-lincolnshire) — Insufficient admin/service evidence.
 - [Academy Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/academy-operations-manager-thomas-middlecott-academy-boston-lincolnshire) — Manager title salary ceiling £42,839 is not below £28,000.
+- [Admin and Reception Assistant](https://teaching-vacancies.service.gov.uk/jobs/admin-and-reception-assistant-outwood-academy-brumby) — Missing salary or pay scale.
 - [Clerical Assistant](https://teaching-vacancies.service.gov.uk/jobs/clerical-assistant-whaplode-church-of-england-primary-school) — Insufficient admin/service evidence.
 - [Examinations Officer](https://teaching-vacancies.service.gov.uk/jobs/examinations-officer-de-aston-school) — Missing salary or pay scale.
 - [Governance & Compliance Officer](https://teaching-vacancies.service.gov.uk/jobs/governance-compliance-officer-inspire-connected-communities-trust) — Insufficient admin/service evidence.

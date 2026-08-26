@@ -2,7 +2,7 @@
 
 review_date: 2026-08-26
 review_fingerprint: 0aff8e3ee81b6049387b7cad0fd72d51f2ded6db7db6b05e872b7edc12400702
-routing_manifest_sha256: 4a93cb38bbec51541b158e7e88c2c0f02125ed7e4364da2cc375b11f0d811f7d
+routing_manifest_sha256: 2a90577f5e4e40d8e3b861a90ec0fca802e14e9d561f25998c5a4b6e21bb9939
 ontap_region: Bedfordshire
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 13
+- Records: 14
 - Selected: 8
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 6
 
 ## SELECTED
 
@@ -156,6 +156,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/safeguarding-attendan
 - [Finance Assistant - Purchase Ledger & Treasury](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-purchase-ledger-treasury) — Insufficient admin/service evidence.
 - [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-6f5cafa2-4f5b-47d7-8fa1-ebd48d98391c) — Manager title salary ceiling £33,699 is not below £28,000.
 - [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-st-matthew-s-primary-school) — Insufficient admin/service evidence.
+- [Online Marketing & Social Media Assistant](https://teaching-vacancies.service.gov.uk/jobs/online-marketing-social-media-assistant) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

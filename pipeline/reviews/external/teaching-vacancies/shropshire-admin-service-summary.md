@@ -2,7 +2,7 @@
 
 review_date: 2026-08-26
 review_fingerprint: e13cecff965b5cfdc62b2302f2cd4d41c138770a58273d52cc759a1e6e5ddfd5
-routing_manifest_sha256: 4a93cb38bbec51541b158e7e88c2c0f02125ed7e4364da2cc375b11f0d811f7d
+routing_manifest_sha256: 2a90577f5e4e40d8e3b861a90ec0fca802e14e9d561f25998c5a4b6e21bb9939
 ontap_region: Shropshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 1
+- Records: 2
 - Selected: 0
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 0
+- Hard pass: 1
 
 ## SELECTED
 
@@ -46,7 +46,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/clerk-to-governors-1d
 
 ## HARD_PASS
 
-- None.
+- [Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-severn-bridges-multi-academy-trust) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

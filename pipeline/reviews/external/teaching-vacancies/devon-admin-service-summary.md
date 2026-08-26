@@ -2,7 +2,7 @@
 
 review_date: 2026-08-26
 review_fingerprint: eb1663f465136821bb3fab485f948bf23c0d38f80d80479aeeb9b56e2f1c8b24
-routing_manifest_sha256: 4a93cb38bbec51541b158e7e88c2c0f02125ed7e4364da2cc375b11f0d811f7d
+routing_manifest_sha256: 2a90577f5e4e40d8e3b861a90ec0fca802e14e9d561f25998c5a4b6e21bb9939
 ontap_region: Devon
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 24
+- Records: 26
 - Selected: 10
 - POSS awaiting decision: 5
 - Excluded: 0
-- Hard pass: 9
+- Hard pass: 11
 
 ## SELECTED
 
@@ -254,7 +254,9 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-pupil-services
 
 ## HARD_PASS
 
+- [Attendance Assistant](https://teaching-vacancies.service.gov.uk/jobs/attendance-assistant-exmouth-community-college) — Insufficient admin/service evidence.
 - [Chief Financial Officer (CFO)](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-cfo-torquay-boys-grammar-school-torquay-devon) — Insufficient admin/service evidence.
+- [Cover Supervisor](https://teaching-vacancies.service.gov.uk/jobs/cover-supervisor-9fa63c24-e87e-4376-b59f-95affbf3dff3) — Insufficient admin/service evidence.
 - [Finance Apprentice](https://teaching-vacancies.service.gov.uk/jobs/finance-apprentice-westcountry-schools-trust) — Insufficient admin/service evidence.
 - [Finance Apprentice](https://teaching-vacancies.service.gov.uk/jobs/finance-apprentice-westcountry-schools-trust-ivybridge-not-recorded) — Insufficient admin/service evidence.
 - [Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-learning-academies-trust-plymouth-not-recorded) — Insufficient admin/service evidence.

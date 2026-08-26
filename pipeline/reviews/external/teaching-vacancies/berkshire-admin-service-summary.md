@@ -2,7 +2,7 @@
 
 review_date: 2026-08-26
 review_fingerprint: 749df3e84d342b1d04fc23cb96d85a4baee3ac73220a5a7ec7b2b94043a89bd6
-routing_manifest_sha256: 4a93cb38bbec51541b158e7e88c2c0f02125ed7e4364da2cc375b11f0d811f7d
+routing_manifest_sha256: 2a90577f5e4e40d8e3b861a90ec0fca802e14e9d561f25998c5a4b6e21bb9939
 ontap_region: Berkshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 22
+- Records: 21
 - Selected: 8
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 13
+- Hard pass: 12
 
 ## SELECTED
 
@@ -174,7 +174,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/trust-governance-prof
 - [Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/operations-manager-reading-school) — Manager title salary ceiling £44,075 is not below £28,000.
 - [Passionate Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/passionate-finance-officer) — Insufficient admin/service evidence.
 - [Payroll Officer](https://teaching-vacancies.service.gov.uk/jobs/payroll-officer-the-park-federation-academy-trust-slough-not-recorded) — Insufficient admin/service evidence.
-- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-fb06354c-e52a-4d48-b4a2-2dff7115bcd9) — Manager title without salary evidence below £28,000.
 - [SEND Administration Officer - The Wren School](https://teaching-vacancies.service.gov.uk/jobs/send-administration-officer-the-wren-school) — Missing salary or pay scale.
 - [Senior Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-finance-officer-the-thames-learning-trust) — Insufficient admin/service evidence.
 

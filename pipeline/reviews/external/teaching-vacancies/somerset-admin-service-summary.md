@@ -2,7 +2,7 @@
 
 review_date: 2026-08-26
 review_fingerprint: 1217e1db0e985a94811b15298d4c7a6e0ec420efdd612d15164ae3ac082e40f6
-routing_manifest_sha256: 4a93cb38bbec51541b158e7e88c2c0f02125ed7e4364da2cc375b11f0d811f7d
+routing_manifest_sha256: 2a90577f5e4e40d8e3b861a90ec0fca802e14e9d561f25998c5a4b6e21bb9939
 ontap_region: Somerset
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 13
+- Records: 14
 - Selected: 5
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 6
+- Hard pass: 7
 
 ## SELECTED
 
@@ -140,6 +140,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-administration
 - [Local Governance Professional (Clerk)](https://teaching-vacancies.service.gov.uk/jobs/local-governance-professional-clerk-churchill-academy-sixth-form) — Missing salary or pay scale.
 - [Office Manager and Work Placement Coordinator - Sixth Form](https://teaching-vacancies.service.gov.uk/jobs/office-manager-and-work-placement-coordinator-sixth-form-norton-hill-academy) — Manager title without salary evidence below £28,000.
 - [People Advisor](https://teaching-vacancies.service.gov.uk/jobs/people-advisor-pathway-trust) — Insufficient admin/service evidence.
+- [Systems Analyst](https://teaching-vacancies.service.gov.uk/jobs/systems-analyst-pathway-trust) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

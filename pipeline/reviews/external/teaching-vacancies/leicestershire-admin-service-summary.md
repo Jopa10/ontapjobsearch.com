@@ -2,7 +2,7 @@
 
 review_date: 2026-08-26
 review_fingerprint: c3fa4ed295ff18dbb36bd663aa70dfbaa02c9bf1e5f75048201c651d7e526b6f
-routing_manifest_sha256: 4a93cb38bbec51541b158e7e88c2c0f02125ed7e4364da2cc375b11f0d811f7d
+routing_manifest_sha256: 2a90577f5e4e40d8e3b861a90ec0fca802e14e9d561f25998c5a4b6e21bb9939
 ontap_region: Leicestershire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 9
+- Records: 10
 - Selected: 3
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 6
 
 ## SELECTED
 
@@ -94,6 +94,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-office
 - [Extended Services Club Manager (EXS031BC)](https://teaching-vacancies.service.gov.uk/jobs/extended-services-club-manager-exs031bc) — Manager title salary ceiling £28,146 is not below £28,000.
 - [School Business Lead](https://teaching-vacancies.service.gov.uk/jobs/school-business-lead-glenfield-primary-school-leicester-leicestershire) — Insufficient admin/service evidence.
 - [School Office Lead](https://teaching-vacancies.service.gov.uk/jobs/school-office-lead) — Insufficient admin/service evidence.
+- [Sixth Form Coordinator](https://teaching-vacancies.service.gov.uk/jobs/sixth-form-coordinator-charnwood-college) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

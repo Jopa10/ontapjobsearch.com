@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Hampshire
 
 review_date: 2026-08-26
-review_fingerprint: d6dfe9038d0c52aa950b77f765160a43c64a74ea9c79cecdac81e28b2a0c7667
-routing_manifest_sha256: 4a93cb38bbec51541b158e7e88c2c0f02125ed7e4364da2cc375b11f0d811f7d
+review_fingerprint: e64eecaf27a51d11dabf6e1aa7faaf656d36a69c31877d22a7c3603af44631b5
+routing_manifest_sha256: 2a90577f5e4e40d8e3b861a90ec0fca802e14e9d561f25998c5a4b6e21bb9939
 ontap_region: Hampshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 8
+- Records: 9
 - Selected: 3
-- POSS awaiting decision: 0
+- POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 5
 
@@ -68,7 +68,20 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-ac
 
 ## POSS — choose SELECT or EXCLUDE
 
-- None.
+---
+action: 
+POSS | Hampshire | Portsmouth, South East, PO1 5PF | TSAT Pay Group 3 pro rata to £23,701 - £27,506 for hours and weeks stated (£26,866 - £31,179 FTE) | Senior Administration Assistant
+employer: The Portsmouth Academy
+closing_date: 2026-09-01T23:59:00+01:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 7135e780724d7b8bfeda7eac7d55c93a879d6ffbfdf033708b99d3f5fd6923c2
+source: Teaching Vacancies
+source_job_id: senior-administration-assistant-the-portsmouth-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-administration-assistant-the-portsmouth-academy
+---
 
 ## EXCLUDED BY REVIEW
 

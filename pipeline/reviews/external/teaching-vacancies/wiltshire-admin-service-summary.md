@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Wiltshire
 
 review_date: 2026-08-26
-review_fingerprint: 78df24a9cceaf4a21fd737d58001e4ed59fd5bfe46c931351f51bb9d5cfef37f
-routing_manifest_sha256: 4a93cb38bbec51541b158e7e88c2c0f02125ed7e4364da2cc375b11f0d811f7d
+review_fingerprint: 37f5b5907b98e53518bc58bce96b8995cae81a0fc996f24a7936ccc12d15d926
+routing_manifest_sha256: 2a90577f5e4e40d8e3b861a90ec0fca802e14e9d561f25998c5a4b6e21bb9939
 ontap_region: Wiltshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 10
+- Records: 12
 - Selected: 3
-- POSS awaiting decision: 0
+- POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 7
+- Hard pass: 8
 
 ## SELECTED
 
@@ -68,7 +68,20 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/it-system-administrat
 
 ## POSS — choose SELECT or EXCLUDE
 
-- None.
+---
+action: 
+POSS | Wiltshire | Chippenham, South West, SN14 0QT | £29,064.00 - £31,022.00 Annually (FTE) Actual Salary: £25,640 - £27,368 per annum | Admin Officer
+employer: Queen's Crescent School
+closing_date: 2026-09-01T12:00:00+01:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: bae439fa258dd730bf3e81ecd3380d311521bf06699190ddf06e5a2503fc0955
+source: Teaching Vacancies
+source_job_id: admin-officer-queen-s-crescent-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-officer-queen-s-crescent-school
+---
 
 ## EXCLUDED BY REVIEW
 
@@ -82,6 +95,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/it-system-administrat
 - [Exams & Admin Officer](https://teaching-vacancies.service.gov.uk/jobs/exams-admin-officer) — Insufficient admin/service evidence.
 - [Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-great-western-academy-swindon) — Insufficient admin/service evidence.
 - [Head of Finance](https://teaching-vacancies.service.gov.uk/jobs/head-of-finance-magna-learning-partnership) — Insufficient admin/service evidence.
+- [Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/operations-manager-wellington-lions-primary-academy) — Manager title salary ceiling £39,152 is not below £28,000.
 - [Recruitment Lead](https://teaching-vacancies.service.gov.uk/jobs/recruitment-lead-the-white-horse-federation) — Insufficient admin/service evidence.
 
 ## Safety boundary

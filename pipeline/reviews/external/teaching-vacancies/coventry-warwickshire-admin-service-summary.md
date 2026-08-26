@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Coventry & Warwickshire
 
 review_date: 2026-08-26
-review_fingerprint: a216b35245654e5bb113481509fe54285749186e8d4bf5b6c59a61e99620412c
-routing_manifest_sha256: 4a93cb38bbec51541b158e7e88c2c0f02125ed7e4364da2cc375b11f0d811f7d
+review_fingerprint: 76f5119e2124354bd508e5fde43c0e6e2fc812a3fd31958808748cdc78b4c0ce
+routing_manifest_sha256: 2a90577f5e4e40d8e3b861a90ec0fca802e14e9d561f25998c5a4b6e21bb9939
 ontap_region: West Midlands - Coventry & Warwickshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 9
-- Selected: 6
+- Records: 8
+- Selected: 5
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 3
 
 ## SELECTED
-
----
-action: 
-SELECTED | West Midlands - Coventry & Warwickshire | Coventry, West Midlands, CV3 4BD | £25,185.00 - £26,403.00 Annually (FTE) Grade 3, Actual Salary £21,854 - £22,911 | Administration Assistant
-employer: Meadow Park School
-closing_date: 2026-09-01T09:00:00+01:00
-reason: Clear admin/service title: administration assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 1a0d0c1f2337c589a0fa852b868011fb58ff964e72f8ab95b9973df529eed5cd
-source: Teaching Vacancies
-source_job_id: administration-assistant-meadow-park-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-meadow-park-school
----
 
 ---
 action: 
@@ -121,7 +106,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-ho
 
 ## HARD_PASS
 
-- [Admin Assistant](https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-wellesbourne-cofe-primary-school) — Expired, closed or invalid deadline.
+- [Assistant Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/assistant-operations-manager-finham-park-school-coventry-west-midlands) — Manager title salary ceiling £34,434 is not below £28,000.
 - [Chief Financial Officer (CFO)](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-cfo-triumph-learning-trust) — Insufficient admin/service evidence.
 - [Senior Leisure & Lettings Coordinator](https://teaching-vacancies.service.gov.uk/jobs/senior-leisure-lettings-coordinator) — Insufficient admin/service evidence.
 

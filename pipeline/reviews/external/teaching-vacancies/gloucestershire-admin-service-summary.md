@@ -2,7 +2,7 @@
 
 review_date: 2026-08-26
 review_fingerprint: 0ec2d39a83473c82c557afa87958baff864b3f76c7480ab069e37a953e60fa5b
-routing_manifest_sha256: 4a93cb38bbec51541b158e7e88c2c0f02125ed7e4364da2cc375b11f0d811f7d
+routing_manifest_sha256: 2a90577f5e4e40d8e3b861a90ec0fca802e14e9d561f25998c5a4b6e21bb9939
 ontap_region: Gloucestershire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 4
+- Records: 3
 - Selected: 1
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 3
+- Hard pass: 2
 
 ## SELECTED
 
@@ -46,7 +46,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assist
 
 ## HARD_PASS
 
-- [Alternative Provision Lead](https://teaching-vacancies.service.gov.uk/jobs/alternative-provision-lead-f55092f9-5821-4bdd-a2e6-b1feeda615db) — Insufficient admin/service evidence.
 - [Business Operations & Compliance Officer](https://teaching-vacancies.service.gov.uk/jobs/business-operations-compliance-officer) — Insufficient admin/service evidence.
 - [Senior Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-finance-officer-sir-william-romney-s-school) — Insufficient admin/service evidence.
 

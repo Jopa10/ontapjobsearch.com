@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Essex
 
 review_date: 2026-08-26
-review_fingerprint: 35d61d9adbd10682807e102dcebb9e67cb6cb110c9b7811216ac6341b18c4c08
-routing_manifest_sha256: 4a93cb38bbec51541b158e7e88c2c0f02125ed7e4364da2cc375b11f0d811f7d
+review_fingerprint: e6b10de7848782dab4bda9c0afbf64da8378bae5aa50e1766ce6b32937313d8d
+routing_manifest_sha256: 2a90577f5e4e40d8e3b861a90ec0fca802e14e9d561f25998c5a4b6e21bb9939
 ontap_region: Essex
 slice_category: admin_service
 slice_status: LIVE
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 10
-- Selected: 3
+- Records: 11
+- Selected: 4
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 6
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Essex | Grays, East of England, RM16 2ST | £11,916.00 - £12,910.00 Annually (Actual) | Administration Assistant - Responsibility for Attendance
+employer: Stifford Clays Primary School
+closing_date: 2026-09-03T12:00:00+01:00
+reason: Clear admin/service title: administration assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: c02b65c767c492d4115348bb49bf3c18f641091dd853a298a6c986528b41be28
+source: Teaching Vacancies
+source_job_id: administration-assistant-responsibility-for-attendance
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-responsibility-for-attendance
+---
 
 ---
 action: 

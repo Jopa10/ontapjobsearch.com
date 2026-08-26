@@ -2,7 +2,7 @@
 
 review_date: 2026-08-26
 review_fingerprint: d03ea49e32af0085d690638d97e15cb8c2788efa1d6779b7804f0b8970e1f783
-routing_manifest_sha256: 4a93cb38bbec51541b158e7e88c2c0f02125ed7e4364da2cc375b11f0d811f7d
+routing_manifest_sha256: 2a90577f5e4e40d8e3b861a90ec0fca802e14e9d561f25998c5a4b6e21bb9939
 ontap_region: Dorset
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 6
+- Records: 5
 - Selected: 3
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 1
+- Hard pass: 0
 
 ## SELECTED
 
@@ -104,7 +104,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/data-manager-parkston
 
 ## HARD_PASS
 
-- [Data Manager](https://teaching-vacancies.service.gov.uk/jobs/data-manager-glenmoor-academy) — Manager title salary ceiling £35,377 is not below £28,000.
+- None.
 
 ## Safety boundary
 

@@ -2,7 +2,7 @@
 
 review_date: 2026-08-26
 review_fingerprint: 20c9622b2c894fe9f8539cfa47e35c8afa37c0601a27746777122eacd99ff509
-routing_manifest_sha256: 4a93cb38bbec51541b158e7e88c2c0f02125ed7e4364da2cc375b11f0d811f7d
+routing_manifest_sha256: 2a90577f5e4e40d8e3b861a90ec0fca802e14e9d561f25998c5a4b6e21bb9939
 ontap_region: Cheshire - West
 slice_category: admin_service
 slice_status: UNREGISTERED

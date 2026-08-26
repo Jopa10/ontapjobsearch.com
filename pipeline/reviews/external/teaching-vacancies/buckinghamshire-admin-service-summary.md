@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Buckinghamshire
 
 review_date: 2026-08-26
-review_fingerprint: d52083a029d486d980e6530e95676a8595a01783794fec261b6465d5e88995da
-routing_manifest_sha256: 4a93cb38bbec51541b158e7e88c2c0f02125ed7e4364da2cc375b11f0d811f7d
+review_fingerprint: ec66aa5da4fe1718ad281dedb0e767d81f98520670ae8dd1ffc34c60bd0848c0
+routing_manifest_sha256: 2a90577f5e4e40d8e3b861a90ec0fca802e14e9d561f25998c5a4b6e21bb9939
 ontap_region: Buckinghamshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 16
-- Selected: 6
+- Records: 14
+- Selected: 5
 - POSS awaiting decision: 4
 - Excluded: 0
-- Hard pass: 6
+- Hard pass: 5
 
 ## SELECTED
 
@@ -79,21 +79,6 @@ factual_fingerprint: e08a39e859333defc38ad25b7abaf8405b0cc0b26d3540cf135640e8b31
 source: Teaching Vacancies
 source_job_id: office-administrator-sir-william-ramsay-school-high-wycombe-buckinghamshire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-sir-william-ramsay-school-high-wycombe-buckinghamshire
----
-
----
-action: 
-SELECTED | Buckinghamshire | High Wycombe, South East, HP15 6SP | £34,319.00 - £41,272.00 Annually (Actual) | PA to Headteacher
-employer: Holmer Green Senior School
-closing_date: 2026-09-01T09:00:00+01:00
-reason: Clear admin/service title: pa to
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 3c45923266735b2528419ba5bbf83f236d909ef19bc00476d790825c111ef96e
-source: Teaching Vacancies
-source_job_id: pa-to-headteacher-holmer-green-senior-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/pa-to-headteacher-holmer-green-senior-school
 ---
 
 ---
@@ -182,7 +167,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-
 - [Data Assistant](https://teaching-vacancies.service.gov.uk/jobs/data-assistant-eec862cb-7829-4bfd-9435-a191b7aa5a85) — Insufficient admin/service evidence.
 - [Head of Operations](https://teaching-vacancies.service.gov.uk/jobs/head-of-operations-stephenson-mk-trust) — Insufficient admin/service evidence.
 - [HR & Training Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-training-officer) — Insufficient admin/service evidence.
-- [HR Officer, Recruitment](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-recruitment) — Expired, closed or invalid deadline.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-oak-green-school) — Manager title salary ceiling £41,272 is not below £28,000.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-stephenson-academy-milton-keynes-buckinghamshire) — Manager title salary ceiling £47,181 is not below £28,000.
 

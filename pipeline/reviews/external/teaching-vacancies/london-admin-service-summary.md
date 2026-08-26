@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — London
 
 review_date: 2026-08-26
-review_fingerprint: 7de6179a2adff02915c5235326dd4da273f1d4930a110a329240cc09338b1fe5
-routing_manifest_sha256: 4a93cb38bbec51541b158e7e88c2c0f02125ed7e4364da2cc375b11f0d811f7d
+review_fingerprint: 86ce87b125ef1c10ec3ce69c33e97531f669bff8d44e5e128d206964412694bc
+routing_manifest_sha256: 2a90577f5e4e40d8e3b861a90ec0fca802e14e9d561f25998c5a4b6e21bb9939
 ontap_region: London
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 60
+- Records: 63
 - Selected: 16
-- POSS awaiting decision: 8
+- POSS awaiting decision: 9
 - Excluded: 0
-- Hard pass: 36
+- Hard pass: 38
 
 ## SELECTED
 
@@ -355,6 +355,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/executive-assistant-d
 
 ---
 action: 
+POSS | London | London, London, SW16 6NP | Grade 3 - Salary Spine point 5 to 6 - £31,086 to £31,530 (actual £28,592 to £29,002) | Office Administrator
+employer: St Leonard's Church of England Primary School
+closing_date: 2026-09-11T15:00:00+01:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: dfb8614e8859acc9e446d1f3a5130b800f5a77f9bf4b14abbd10dba60aa9a134
+source: Teaching Vacancies
+source_job_id: office-administrator-st-leonard-s-church-of-england-primary-school-london
+source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-st-leonard-s-church-of-england-primary-school-london
+---
+
+---
+action: 
 POSS | London | London, London, SW4 0AJ | £29,805.00 Annually (Actual) Inner London payscale Spine Point 2 | Receptionist / Administrator
 employer: Belleville Wix Academy
 closing_date: 2026-09-09T23:59:00+01:00
@@ -397,6 +412,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 - [Clerk](https://teaching-vacancies.service.gov.uk/jobs/clerk-82945d82-8f4b-461e-afa7-8d80f9437591) — Insufficient admin/service evidence.
 - [Clerk to Governing Body (Wickham Common Primary School)](https://teaching-vacancies.service.gov.uk/jobs/clerk-to-governing-body-wickham-common-primary-school) — Insufficient admin/service evidence.
 - [Data and Examinations Manager](https://teaching-vacancies.service.gov.uk/jobs/data-and-examinations-manager-park-view-school) — Manager title salary ceiling £52,194 is not below £28,000.
+- [Facilities Manager](https://teaching-vacancies.service.gov.uk/jobs/facilities-manager-wimbledon-college) — Manager title salary ceiling £52,827 is not below £28,000.
 - [Financial Accountant](https://teaching-vacancies.service.gov.uk/jobs/financial-accountant-partnership-learning) — Insufficient admin/service evidence.
 - [Fundraising Officer](https://teaching-vacancies.service.gov.uk/jobs/fundraising-officer-ac67c185-438c-4d63-82c9-4fcd5524afc9) — Insufficient admin/service evidence.
 - [Head of Finance Business Partnering](https://teaching-vacancies.service.gov.uk/jobs/head-of-finance-business-partnering-orchard-hill-college-academy-trust) — Insufficient admin/service evidence.
@@ -409,6 +425,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 - [Human Resources Manager (Schools)](https://teaching-vacancies.service.gov.uk/jobs/human-resources-manager-schools) — Manager title salary ceiling £41,000 is not below £28,000.
 - [Inclusion Manager](https://teaching-vacancies.service.gov.uk/jobs/inclusion-manager-wren-academy-finchley-london) — Manager title salary ceiling £38,126 is not below £28,000.
 - [Learning Resource Centre Manager](https://teaching-vacancies.service.gov.uk/jobs/learning-resource-centre-manager-harris-city-academy-crystal-palace-london) — Manager title salary ceiling £34,488 is not below £28,000.
+- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-1a973059-d7f8-42e5-b5fb-d95788720396) — Manager title salary ceiling £44,235 is not below £28,000.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-cf4ed5f9-993c-4290-bdde-9e62b7a08c9c) — Manager title salary ceiling £34,817 is not below £28,000.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-harris-primary-academy-east-dulwich-london) — Manager title salary ceiling £41,637 is not below £28,000.
 - [Payroll Officer](https://teaching-vacancies.service.gov.uk/jobs/payroll-officer-b2efa37a-6b4a-4d64-ab55-23d9744d8569) — Insufficient admin/service evidence.
@@ -421,10 +438,10 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 - [School Accountant](https://teaching-vacancies.service.gov.uk/jobs/school-accountant) — Insufficient admin/service evidence.
 - [School Business Leader](https://teaching-vacancies.service.gov.uk/jobs/school-business-leader-greatfields-school) — Insufficient admin/service evidence.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-da3a3838-8f8c-483a-8c17-8b95a56f70de) — Manager title salary ceiling £46,512 is not below £28,000.
-- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-grimsdyke-school) — Manager title salary ceiling £54,843 is not below £28,000.
 - [School Office Manager](https://teaching-vacancies.service.gov.uk/jobs/school-office-manager-st-nicholas-church-of-england-primary) — Manager title salary ceiling £38,009 is not below £28,000.
 - [Senior Administrative Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-administrative-officer-b59b5f04-d0f8-4bf4-90be-32c5ddf40c75) — Insufficient admin/service evidence.
 - [Trust Executive Assistant](https://teaching-vacancies.service.gov.uk/jobs/trust-executive-assistant-astrum-multi-academy-trust) — Insufficient admin/service evidence.
+- [Workforce Co-ordinator](https://teaching-vacancies.service.gov.uk/jobs/workforce-co-ordinator) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

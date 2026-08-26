@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Kent
 
 review_date: 2026-08-26
-review_fingerprint: 57843ddeeeb77c67b96e963ee6df90bfacc56a47e6260dd993fd9ddb921908c8
-routing_manifest_sha256: 4a93cb38bbec51541b158e7e88c2c0f02125ed7e4364da2cc375b11f0d811f7d
+review_fingerprint: 07bfa10958ce0363e28637183766f2cad08c5ee4915f318e0e82dcc7d480432f
+routing_manifest_sha256: 2a90577f5e4e40d8e3b861a90ec0fca802e14e9d561f25998c5a4b6e21bb9939
 ontap_region: Kent
 slice_category: admin_service
 slice_status: LIVE
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 8
-- Selected: 2
+- Records: 9
+- Selected: 3
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 5
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Kent | Gravesend, South East, DA11 7JB | £26,822.00 - £27,765.00 Annually (FTE) Kent Scheme B or C dependant on experience | Admissions & Attendance Officer
+employer: Shears Green Junior School
+closing_date: 2026-09-04T23:59:00+01:00
+reason: Clear admin/service title: attendance officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: d97a5175bf70b63e5bb47b63c82d12a8c9dde7cfc2e4baec46a5bc2fcb8b1a09
+source: Teaching Vacancies
+source_job_id: admissions-attendance-officer-shears-green-junior-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/admissions-attendance-officer-shears-green-junior-school
+---
 
 ---
 action: 

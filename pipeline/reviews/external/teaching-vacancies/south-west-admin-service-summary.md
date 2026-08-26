@@ -2,7 +2,7 @@
 
 review_date: 2026-08-26
 review_fingerprint: b955904b8d5ca38b3540cc4710be7cb08c8258922b9f8490ce977a9d2d67b37b
-routing_manifest_sha256: 4a93cb38bbec51541b158e7e88c2c0f02125ed7e4364da2cc375b11f0d811f7d
+routing_manifest_sha256: 2a90577f5e4e40d8e3b861a90ec0fca802e14e9d561f25998c5a4b6e21bb9939
 ontap_region: South West
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 3
+- Records: 4
 - Selected: 1
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 2
+- Hard pass: 3
 
 ## SELECTED
 
@@ -46,6 +46,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 
 ## HARD_PASS
 
+- [Admissions and Marketing Officer](https://teaching-vacancies.service.gov.uk/jobs/admissions-and-marketing-officer-ff1f9398-14fa-4c69-b41e-7d0a763e5f54) — Insufficient admin/service evidence.
 - [Receptionist/Administrator](https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrator-the-five-islands-academy-st-mary-s-isles-of-scilly) — Missing salary or pay scale.
 - [Senior Trust Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/senior-trust-finance-manager-st-francis-catholic-primary-school) — Manager title salary ceiling £50,269 is not below £28,000.
 

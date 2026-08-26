@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - South
 
 review_date: 2026-08-26
-review_fingerprint: 11fc674241dd4b52a642c0975b30377509c21daca552d051c4fe03e3e40c1816
-routing_manifest_sha256: 4a93cb38bbec51541b158e7e88c2c0f02125ed7e4364da2cc375b11f0d811f7d
+review_fingerprint: 92ace9a1bdfc95abd42179a2b575a309a916de8a7e72bd74d5963db2fa67c12a
+routing_manifest_sha256: 2a90577f5e4e40d8e3b861a90ec0fca802e14e9d561f25998c5a4b6e21bb9939
 ontap_region: Yorkshire - South
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 24
-- Selected: 6
+- Records: 25
+- Selected: 7
 - POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 16
@@ -64,6 +64,21 @@ factual_fingerprint: 52a6c6e89c44357f9c83245674551b8e6ca8b0d144b832ed04e067909e8
 source: Teaching Vacancies
 source_job_id: business-support-officer-2ea7277a-9574-40f3-acf2-2f61fc716fd1
 source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-officer-2ea7277a-9574-40f3-acf2-2f61fc716fd1
+---
+
+---
+action: 
+SELECTED | Yorkshire - South | Sheffield, Yorkshire and the Humber, S10 2PW | Grade 4 Point 7 to 12 £26,403 to £28,598 pro rata (£22,709 to £24,597 actual) | Business Support Officer – Attendance
+employer: King Edward VII School
+closing_date: 2026-09-01T09:00:00+01:00
+reason: Clear admin/service title: business support officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 905df4ea5d57eb22742005fca2b24f22ee35193b18abe96e521c664fdebd1f57
+source: Teaching Vacancies
+source_job_id: business-support-officer-attendance-dc9edb4f-b36d-4bc3-be46-6508d1a2b957
+source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-officer-attendance-dc9edb4f-b36d-4bc3-be46-6508d1a2b957
 ---
 
 ---

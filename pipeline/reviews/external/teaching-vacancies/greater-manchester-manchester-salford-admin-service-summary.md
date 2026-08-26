@@ -2,7 +2,7 @@
 
 review_date: 2026-08-26
 review_fingerprint: a4b7fb11fc84a29702db2400640887e7d1a703694db1a9e3088ea4329e001034
-routing_manifest_sha256: 4a93cb38bbec51541b158e7e88c2c0f02125ed7e4364da2cc375b11f0d811f7d
+routing_manifest_sha256: 2a90577f5e4e40d8e3b861a90ec0fca802e14e9d561f25998c5a4b6e21bb9939
 ontap_region: Greater Manchester - Manchester & Salford
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 3
+- Records: 4
 - Selected: 1
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 2
+- Hard pass: 3
 
 ## SELECTED
 
@@ -48,6 +48,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assist
 
 - [Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-bright-futures-educational-trust-manchester-not-recorded) — Insufficient admin/service evidence.
 - [Payroll and Pensions Officer](https://teaching-vacancies.service.gov.uk/jobs/payroll-and-pensions-officer-bright-futures-educational-trust) — Insufficient admin/service evidence.
+- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-72bddd8a-83f1-4c6f-9647-2deb1fc1e032) — Manager title salary ceiling £44,075 is not below £28,000.
 
 ## Safety boundary
 

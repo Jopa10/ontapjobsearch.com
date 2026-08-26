@@ -1,6 +1,6 @@
 {
-  "contract_version": "teaching-vacancies-national-v2",
-  "generated_at": "2026-08-26T11:53:54+01:00",
+  "contract_version": "teaching-vacancies-national-v3",
+  "generated_at": "2026-08-26T18:32:33+01:00",
   "run_date": "2026-08-26",
   "source": "Teaching Vacancies",
   "source_scope": "England-wide; no Ontap regional restriction",
@@ -9,27 +9,32 @@
     2.0,
     5.0
   ],
-  "records": 514,
-  "manifest_sha256": "235f8035c070682bf3fc40a5a1b593c48ca789c58910d45891aa94734409ccdf",
+  "records": 531,
+  "detail_records_discovered": 531,
+  "detail_failures_quarantined": 0,
+  "detail_failure_threshold": 15,
+  "detail_failures": [],
+  "detail_listing_race_404s": [],
+  "manifest_sha256": "39f1fd12de9f77d0dae803399a823c581dcc5ba71ba3b51c64a736168f3f359b",
   "routes": [
     {
       "name": "administration-category",
       "query": "Administration, HR, data and finance",
       "url": "https://teaching-vacancies.service.gov.uk/administration-hr-data-finance-jobs",
-      "reported_total": 507,
-      "pages_fetched": 51,
-      "listing_occurrences": 507,
-      "unique_urls": 477,
+      "reported_total": 515,
+      "pages_fetched": 52,
+      "listing_occurrences": 515,
+      "unique_urls": 493,
       "audit_attempts": 1
     },
     {
       "name": "keyword:administrator",
       "query": "administrator",
       "url": "https://teaching-vacancies.service.gov.uk/jobs?keyword=administrator",
-      "reported_total": 113,
+      "reported_total": 115,
       "pages_fetched": 12,
-      "listing_occurrences": 113,
-      "unique_urls": 107,
+      "listing_occurrences": 115,
+      "unique_urls": 108,
       "audit_attempts": 1
     },
     {
@@ -56,10 +61,10 @@
       "name": "keyword:office",
       "query": "office",
       "url": "https://teaching-vacancies.service.gov.uk/jobs?keyword=office",
-      "reported_total": 35,
+      "reported_total": 37,
       "pages_fetched": 4,
-      "listing_occurrences": 35,
-      "unique_urls": 33,
+      "listing_occurrences": 37,
+      "unique_urls": 36,
       "audit_attempts": 1
     },
     {
