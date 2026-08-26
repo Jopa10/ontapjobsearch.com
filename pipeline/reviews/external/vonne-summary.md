@@ -1,7 +1,7 @@
 # VONNE ETL proof-of-concept review
 
-review_date: 2026-08-25
-review_fingerprint: f50f85330d3dab912c02787534f79927a7255e42ac4c2b77f670cbf64bda8a3b
+review_date: 2026-08-26
+review_fingerprint: 095b80e161824f0946a7126f13754160d985d649486bf62c1ddc0d8455c240f5
 
 This implementation is review-only. It has no approved-JSON or publishing mode.
 
@@ -10,27 +10,27 @@ Edit only the `action:` line in editable blocks:
 - `action: exclude` rejects a POSS vacancy or removes an HC vacancy.
 - Actions are remembered while the same vacancy review facts remain unchanged; this review still does not publish anything.
 
-Run generated: 2026-08-25T08:26:03+01:00
+Run generated: 2026-08-26T08:26:39+01:00
 Listing input: https://www.vonne.org.uk/vonne-jobs
-JobG8 comparison rows: 247
-Approved NEJobs comparison rows: 23
+JobG8 comparison rows: 230
+Approved NEJobs comparison rows: 22
 
 ## Funnel
 - VONNE listings read: 15
-- Detail-page candidates: 3
-- Detail pages fetched successfully: 3
+- Detail-page candidates: 4
+- Detail pages fetched successfully: 4
 - Detail failures/listing fallbacks: 0
-- Obvious hard passes not detail-fetched: 12
+- Obvious hard passes not detail-fetched: 11
 - Tees Valley explicitly excluded: 1
 - Outside or unmapped geography excluded: 1
-- Generic/derived geography rows requiring review: 4
+- Generic/derived geography rows requiring review: 3
 - Retained target candidates: 13
 
 ## Outcomes
 - HC: 0
-- POSS: 6
-- HARD_PASS: 7
-- Final selected after remembered/manual actions: 4
+- POSS: 5
+- HARD_PASS: 8
+- Final selected after remembered/manual actions: 3
 - Final POSS awaiting decision: 0
 - Manually excluded: 2
 ## Detail diagnostics
@@ -65,18 +65,6 @@ source: VONNE
 tracking_key: vonne-173349
 source_job_id: 173349
 source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173349
----
----
-action: select
-POSS | North East - Tyneside, Wearside & Northumberland | Northumberland | £31,005 Pro Rata | Community Engagement Tutor - Ashington Learning Hive
-employer: Northern Learning Trust
-closing_date: 07 September 2026
-geography: CONFIRMED — location: approved location fallback
-reason: annualised upper salary £31,005 exceeds North East review point £30,000
-source: VONNE
-tracking_key: vonne-173341
-source_job_id: 173341
-source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173341
 ---
 ---
 action: exclude
@@ -123,10 +111,11 @@ source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173347
 - [Energy Advice Worker](https://www.vonne.org.uk/vonne-jobs-details?cid=173343) — out-of-scope VONNE occupation.
 - [Experienced &Trainee Telephone Debt Caseworker](https://www.vonne.org.uk/vonne-jobs-details?cid=173346) — out-of-scope VONNE occupation.
 - [Experienced Manager – Adult Training Services](https://www.vonne.org.uk/vonne-jobs-details?cid=173342) — out-of-scope VONNE occupation.
+- [Facilities and Compliance Manager](https://www.vonne.org.uk/vonne-jobs-details?cid=173354) — out-of-scope VONNE occupation.
 - [Families Advice and Support Team Manager](https://www.vonne.org.uk/vonne-jobs-details?cid=173348) — out-of-scope VONNE occupation.
-- [Head of Business Development and Fundraising](https://www.vonne.org.uk/vonne-jobs-details?cid=172957) — out-of-scope VONNE occupation.
-- [Senior Young Dads Worker - Sunderland](https://www.vonne.org.uk/vonne-jobs-details?cid=173338) — out-of-scope VONNE occupation.
+- [Project Worker: Disability Heritage in North Tyneside: The NTDF Story](https://www.vonne.org.uk/vonne-jobs-details?cid=173231) — out-of-scope VONNE occupation.
 - [Welfare Benefits Advisor](https://www.vonne.org.uk/vonne-jobs-details?cid=172790) — insufficient service-admin evidence.
+- [Young Carer Support Worker](https://www.vonne.org.uk/vonne-jobs-details?cid=173355) — out-of-scope VONNE occupation.
 
 ## Safety boundary
 - The script writes CSV and Markdown review outputs only.
