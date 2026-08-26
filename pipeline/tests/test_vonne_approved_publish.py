@@ -12,12 +12,18 @@ if str(PIPELINE_ROOT) not in sys.path:
 from external_sources.compose_northeast_admin import compose_rows  # noqa: E402
 from external_sources.northeast_jobs_poc import ManualDecisionState  # noqa: E402
 from external_sources.vonne_approved import (  # noqa: E402
+    MAX_UNDECIDED_VACANCIES,
     approval_errors,
     approved_output_rows,
     parse_vonne_deadline,
+    publication_withheld_ids,
     vacancy_to_published_job,
 )
-from external_sources.vonne_poc import VonneVacancy, review_fingerprint  # noqa: E402
+from external_sources.vonne_poc import (  # noqa: E402
+    VonneVacancy,
+    review_fingerprint,
+    vacancy_review_fingerprint,
+)
 
 
 def vacancy(
@@ -110,42 +116,108 @@ class VonneApprovedPublishTests(unittest.TestCase):
         self.assertEqual("2026-08-16T23:59:59+01:00", date_only.isoformat())
         self.assertIsNone(parse_vonne_deadline("Closing soon"))
 
-    def test_approval_requires_exact_fingerprint_and_explicit_decisions(self):
-        rows = [vacancy("173252"), vacancy("173262")]
-        complete = decisions(
-            rows,
-            selections={"173252"},
-            exclusions={"173262"},
-        )
+    def test_small_undecided_queue_is_withheld_without_blocking(self):
+        reviewed = [vacancy("selected")]
+        state = decisions(reviewed, selections={"selected"})
+        current = reviewed + [
+            vacancy(f"new-{index}")
+            for index in range(MAX_UNDECIDED_VACANCIES)
+        ]
+        markers = {
+            "selected": "full:" + vacancy_review_fingerprint(reviewed[0])
+        }
+
         self.assertEqual(
             [],
             approval_errors(
-                rows,
-                complete,
+                current,
+                state,
                 review_date="2026-08-03",
                 failures=[],
+                reviewed_fingerprints=markers,
             ),
         )
-
-        incomplete = decisions(rows, selections={"173252"})
-        incomplete.exclusions.clear()
-        errors = approval_errors(
-            rows,
-            incomplete,
-            review_date="2026-08-03",
-            failures=["173262 failed"],
+        withheld = publication_withheld_ids(current, state, markers)
+        self.assertEqual(MAX_UNDECIDED_VACANCIES, len(withheld))
+        output = approved_output_rows(
+            current,
+            state,
+            now=datetime.fromisoformat("2026-08-03T12:00:00+01:00"),
+            withheld_ids=withheld,
         )
-        self.assertTrue(any("explicitly selected or excluded" in error for error in errors))
-        self.assertTrue(any("detail page(s) failed" in error for error in errors))
+        self.assertEqual(["vonne-selected"], [row["job_id"] for row in output])
 
-        changed = [vacancy("173252", title="Changed title"), vacancy("173262")]
+    def test_more_than_ten_undecided_jobs_stops_vonne_source(self):
+        reviewed = [vacancy("selected")]
+        state = decisions(reviewed, selections={"selected"})
+        current = reviewed + [
+            vacancy(f"new-{index}")
+            for index in range(MAX_UNDECIDED_VACANCIES + 1)
+        ]
+        markers = {
+            "selected": "full:" + vacancy_review_fingerprint(reviewed[0])
+        }
+
         errors = approval_errors(
-            changed,
-            complete,
+            current,
+            state,
             review_date="2026-08-03",
             failures=[],
+            reviewed_fingerprints=markers,
         )
-        self.assertTrue(any("fingerprint" in error for error in errors))
+
+        self.assertTrue(
+            any("exceeding the job-level quarantine limit of 10" in error
+                for error in errors)
+        )
+
+    def test_changed_selected_job_is_withheld_while_unchanged_job_publishes(self):
+        reviewed = [vacancy("changed"), vacancy("stable")]
+        state = decisions(
+            reviewed,
+            selections={"changed", "stable"},
+        )
+        current = [
+            vacancy("changed", title="Materially changed title"),
+            vacancy("stable"),
+        ]
+        markers = {
+            row.source_job_id: "full:" + vacancy_review_fingerprint(row)
+            for row in reviewed
+        }
+
+        self.assertEqual(
+            [],
+            approval_errors(
+                current,
+                state,
+                review_date="2026-08-03",
+                failures=[],
+                reviewed_fingerprints=markers,
+            ),
+        )
+        withheld = publication_withheld_ids(current, state, markers)
+        self.assertEqual({"changed"}, withheld)
+        output = approved_output_rows(
+            current,
+            state,
+            now=datetime.fromisoformat("2026-08-03T12:00:00+01:00"),
+            withheld_ids=withheld,
+        )
+        self.assertEqual(["vonne-stable"], [row["job_id"] for row in output])
+
+    def test_detail_failure_remains_source_blocking(self):
+        rows = [vacancy("173252")]
+        state = decisions(rows, selections={"173252"})
+
+        errors = approval_errors(
+            rows,
+            state,
+            review_date="2026-08-03",
+            failures=["173252 failed"],
+        )
+
+        self.assertTrue(any("detail page(s) failed" in error for error in errors))
 
     def test_published_record_uses_facts_stable_id_and_referral_tracking(self):
         row = vacancy_to_published_job(vacancy("173252"))

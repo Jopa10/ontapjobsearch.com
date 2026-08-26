@@ -9,8 +9,11 @@ from factual source fields.
 from __future__ import annotations
 
 import argparse
+import csv
+import hashlib
 import json
 import os
+import re
 import tempfile
 import urllib.parse
 from datetime import datetime, time as datetime_time
@@ -38,11 +41,14 @@ from external_sources.vonne_poc import (
     load_nejobs_candidates,
     parse_listing,
     review_fingerprint,
+    review_row,
+    vacancy_review_fingerprint,
     write_csv,
     write_summary,
 )
 
 APPROVAL_CONFIRMATION = "PUBLISH"
+MAX_UNDECIDED_VACANCIES = 10
 DEFAULT_APPROVED_JSON = Path("output-external/vonne-admin-service.json")
 LONDON = ZoneInfo("Europe/London")
 
@@ -274,62 +280,187 @@ def vacancy_to_published_job(vacancy: VonneVacancy) -> dict[str, str]:
     return row
 
 
+LEGACY_REVIEW_FIELDS = (
+    "title",
+    "salary_text",
+    "employer",
+    "location",
+    "based",
+    "closing_date",
+    "contract_type",
+    "role_type",
+    "hours",
+    "role_description",
+    "classification",
+    "classification_reason",
+    "geography_status",
+    "geography_reason",
+    "ontap_geography",
+    "jobg8_check",
+    "jobg8_candidate_title",
+    "jobg8_candidate_employer",
+    "jobg8_match_score",
+    "nejobs_check",
+    "nejobs_candidate_title",
+    "nejobs_candidate_employer",
+    "nejobs_match_score",
+    "vonne_duplicate_check",
+    "source_job_id",
+    "source_url",
+    "detail_status",
+)
+
+
+def legacy_review_fingerprint(row: dict[str, str]) -> str:
+    """Fingerprint the fields available in pre-change VONNE review CSVs."""
+    payload = {
+        field: clean_text(row.get(field, ""))
+        for field in LEGACY_REVIEW_FIELDS
+    }
+    serialised = json.dumps(
+        payload,
+        ensure_ascii=False,
+        sort_keys=True,
+        separators=(",", ":"),
+    )
+    return hashlib.sha256(serialised.encode("utf-8")).hexdigest()
+
+
+def load_reviewed_vacancy_fingerprints(
+    summary_path: Path,
+    report_path: Path,
+) -> dict[str, str]:
+    """Load per-job review evidence, with one safe legacy CSV transition."""
+    markers: dict[str, str] = {}
+    if summary_path.exists():
+        try:
+            text = summary_path.read_text(encoding="utf-8-sig")
+        except OSError:
+            text = ""
+        for block in re.findall(
+            r"(?ms)^---\s*$\n(.*?)^---\s*$",
+            text,
+        ):
+            id_match = re.search(
+                r"(?mi)^source_job_id:\s*([^\s]+)\s*$",
+                block,
+            )
+            fingerprint_match = re.search(
+                r"(?mi)^vacancy_fingerprint:\s*([a-f0-9]{64})\s*$",
+                block,
+            )
+            if id_match and fingerprint_match:
+                markers[clean_text(id_match.group(1))] = (
+                    "full:" + fingerprint_match.group(1)
+                )
+        if markers:
+            return markers
+
+    if not report_path.exists():
+        return markers
+    try:
+        with report_path.open(
+            "r",
+            encoding="utf-8-sig",
+            newline="",
+        ) as handle:
+            for row in csv.DictReader(handle):
+                source_job_id = clean_text(row.get("source_job_id", ""))
+                if not source_job_id:
+                    continue
+                fingerprint = clean_text(
+                    row.get("vacancy_fingerprint", "")
+                )
+                if re.fullmatch(r"[a-f0-9]{64}", fingerprint):
+                    markers[source_job_id] = "full:" + fingerprint
+                else:
+                    markers[source_job_id] = (
+                        "legacy:" + legacy_review_fingerprint(row)
+                    )
+    except OSError:
+        return {}
+    return markers
+
+
+def reviewed_marker_matches(
+    vacancy: VonneVacancy,
+    marker: str,
+) -> bool:
+    if marker.startswith("full:"):
+        return marker == "full:" + vacancy_review_fingerprint(vacancy)
+    if marker.startswith("legacy:"):
+        return marker == "legacy:" + legacy_review_fingerprint(
+            review_row(vacancy)
+        )
+    return False
+
+
+def publication_withheld_ids(
+    vacancies: Iterable[VonneVacancy],
+    decisions: ManualDecisionState,
+    reviewed_fingerprints: dict[str, str] | None = None,
+) -> set[str]:
+    """Return undecided or changed jobs that must fail closed individually."""
+    rows = list(vacancies)
+    current_review_ids = {
+        vacancy.source_job_id
+        for vacancy in rows
+        if vacancy.classification != "HARD_PASS"
+    }
+    withheld = (
+        current_review_ids
+        - decisions.selections
+        - decisions.exclusions
+    )
+    if decisions.review_fingerprint == review_fingerprint(rows):
+        return withheld
+
+    markers = reviewed_fingerprints or {}
+    by_id = {vacancy.source_job_id: vacancy for vacancy in rows}
+    for source_job_id in decisions.selections & current_review_ids:
+        marker = markers.get(source_job_id, "")
+        if not marker or not reviewed_marker_matches(
+            by_id[source_job_id],
+            marker,
+        ):
+            withheld.add(source_job_id)
+    return withheld
+
+
 def approval_errors(
     vacancies: Iterable[VonneVacancy],
     decisions: ManualDecisionState,
     *,
     review_date: str,
     failures: Iterable[str],
+    reviewed_fingerprints: dict[str, str] | None = None,
+    max_undecided: int = MAX_UNDECIDED_VACANCIES,
 ) -> list[str]:
-    """Confirm approval applies to the exact reviewed and fully decided set."""
+    """Validate the source while isolating a small undecided job queue."""
     rows = list(vacancies)
     errors: list[str] = []
     if decisions.review_date != review_date:
         errors.append("the Markdown review is not dated today")
     if decisions.load_warning:
         errors.append(decisions.load_warning)
+    if not decisions.review_fingerprint:
+        errors.append("the Markdown review has no vacancy-set fingerprint")
 
     current_review_ids = {
         vacancy.source_job_id
         for vacancy in rows
         if vacancy.classification != "HARD_PASS"
     }
-    if decisions.reviewed_ids != current_review_ids:
-        added = sorted(current_review_ids - decisions.reviewed_ids)
-        removed = sorted(decisions.reviewed_ids - current_review_ids)
-        detail: list[str] = []
-        if added:
-            detail.append("new IDs: " + ", ".join(added))
-        if removed:
-            detail.append("missing IDs: " + ", ".join(removed))
-        errors.append(
-            "the live reviewable VONNE set differs from the reviewed set"
-            + (f" ({'; '.join(detail)})" if detail else "")
-        )
-
-    current_fingerprint = review_fingerprint(rows)
-    if not decisions.review_fingerprint:
-        errors.append("the Markdown review has no vacancy-set fingerprint")
-    elif decisions.review_fingerprint != current_fingerprint:
-        errors.append(
-            "the live VONNE facts or classifications differ from the "
-            "reviewed vacancy-set fingerprint"
-        )
-
-    unresolved = sorted(
-        current_review_ids - decisions.selections - decisions.exclusions
+    withheld = publication_withheld_ids(
+        rows,
+        decisions,
+        reviewed_fingerprints,
     )
-    if unresolved:
+    if len(withheld) > max_undecided:
         errors.append(
-            "every reviewable VONNE vacancy must be explicitly selected or "
-            "excluded (undecided IDs: " + ", ".join(unresolved) + ")"
-        )
-
-    invalid_selected = sorted(decisions.selections - current_review_ids)
-    if invalid_selected:
-        errors.append(
-            "selected IDs are no longer reviewable: "
-            + ", ".join(invalid_selected)
+            f"{len(withheld)} VONNE vacancies are undecided or changed, "
+            f"exceeding the job-level quarantine limit of {max_undecided} "
+            "(withheld IDs: " + ", ".join(sorted(withheld)) + ")"
         )
 
     failures_list = list(failures)
@@ -339,7 +470,10 @@ def approval_errors(
         )
 
     by_id = {vacancy.source_job_id: vacancy for vacancy in rows}
-    for source_job_id in sorted(decisions.selections & current_review_ids):
+    safe_selected_ids = (
+        decisions.selections & current_review_ids
+    ) - withheld
+    for source_job_id in sorted(safe_selected_ids):
         vacancy = by_id[source_job_id]
         missing = [
             label
@@ -377,11 +511,14 @@ def approved_output_rows(
     decisions: ManualDecisionState,
     *,
     now: datetime | None = None,
+    withheld_ids: Iterable[str] = (),
 ) -> list[dict[str, str]]:
+    withheld = set(withheld_ids)
     selected = [
         vacancy
         for vacancy in vacancies
         if vacancy.source_job_id in decisions.selections
+        and vacancy.source_job_id not in withheld
         and vacancy.classification != "HARD_PASS"
         and vacancy_is_open(vacancy, now=now)
     ]
@@ -514,6 +651,10 @@ def main(argv: list[str] | None = None) -> int:
         args.summary_md,
         review_date,
     )
+    reviewed_fingerprints = load_reviewed_vacancy_fingerprints(
+        args.summary_md,
+        args.report_csv,
+    )
     write_csv(args.report_csv, vacancies, decisions)
     write_summary(
         args.summary_md,
@@ -532,6 +673,7 @@ def main(argv: list[str] | None = None) -> int:
         decisions,
         review_date=review_date,
         failures=failures,
+        reviewed_fingerprints=reviewed_fingerprints,
     )
     if errors:
         raise SystemExit(
@@ -539,8 +681,22 @@ def main(argv: list[str] | None = None) -> int:
             + "\n- ".join(errors)
         )
 
-    rows = approved_output_rows(vacancies, decisions)
+    withheld = publication_withheld_ids(
+        vacancies,
+        decisions,
+        reviewed_fingerprints,
+    )
+    rows = approved_output_rows(
+        vacancies,
+        decisions,
+        withheld_ids=withheld,
+    )
     write_json_atomic(args.approved_json, rows)
+    if withheld:
+        print(
+            f"VONNE warning: withheld {len(withheld)} undecided or changed "
+            "vacancy(s): " + ", ".join(sorted(withheld))
+        )
     print(
         f"Approved VONNE output wrote {len(rows)} open selected jobs to "
         f"{args.approved_json}."
