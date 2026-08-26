@@ -64,6 +64,31 @@ class SliceRegistryTests(unittest.TestCase):
             self.assertTrue(output_filename(region, "admin_service").endswith("-admin-service.json"))
             self.assertTrue(dynamic_route(region, "admin_service").endswith("/service-administrator-jobs"))
 
+    def test_five_owner_approved_service_admin_markets_from_26_august_are_live(self):
+        approved = {
+            "Cheshire - West": "cheshire-west",
+            "Northern Ireland - East": "northern-ireland-east",
+            "Scotland Central - Edinburgh & Lothians": "edinburgh-lothians",
+            "Scotland West - Glasgow": "glasgow",
+            "Worcestershire": "worcestershire",
+        }
+        live = live_slices()
+        self.assertTrue(
+            {(region, "admin_service") for region in approved}.issubset(live)
+        )
+        self.assertNotIn(
+            ("Northern Ireland - East", "admin_service"), candidate_slices()
+        )
+        for region, slug in approved.items():
+            self.assertEqual(
+                output_filename(region, "admin_service"),
+                f"{slug}-admin-service.json",
+            )
+            self.assertEqual(
+                dynamic_route(region, "admin_service"),
+                f"/job-search/{slug}/service-administrator-jobs",
+            )
+
     def test_customer_sales_live_set_is_exactly_the_three_approved_regions(self):
         sales_regions = {
             region for region, category in live_slices() if category == "customer_sales"

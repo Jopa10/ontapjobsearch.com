@@ -40,6 +40,13 @@ class UKAssessableRegionTests(unittest.TestCase):
         configured = set(json.loads(OPERATIONAL.read_text(encoding="utf-8"))["regions"])
         self.assertTrue(configured <= uk)
 
+        approved_non_england_service_admin_markets = {
+            "Northern Ireland - East",
+            "Scotland Central - Edinburgh & Lothians",
+            "Scotland West - Glasgow",
+        }
+        self.assertTrue(approved_non_england_service_admin_markets <= configured)
+
     def test_safe_detail_aliases_roll_up_to_canonical_markets(self) -> None:
         data = json.loads(UK_ASSESSABLE.read_text(encoding="utf-8"))
         rollups = data["detail_rollups"]
