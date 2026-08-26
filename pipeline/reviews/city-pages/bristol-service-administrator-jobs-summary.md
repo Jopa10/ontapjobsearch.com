@@ -4,7 +4,7 @@
 - Live route: `/bristol/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 26
+- Effective included jobs: 22
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 26
+- automatic include: 22
 - automatic review: 2
-- automatic exclude: 5
-- effective include: 26
+- automatic exclude: 2
+- effective include: 22
 - effective review: 2
-- effective exclude: 5
+- effective exclude: 2
 
-## INCLUDE (26)
+## INCLUDE (22)
 
 ---
 action: 
@@ -40,23 +40,11 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Accounts Assistant - Part-Time
-company: Change Recruitment Services Ltd - Agency - Permanent
-location: Bristol
-source: JobG8
-job_id: jobg8-1738142
-reason: Approved conservative Bristol launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrator
-company: Adecco - Agency - Permanent
-location: Bristol
-source: JobG8
-job_id: jobg8-1733944
+title: Administrative Assistant
+company: Royal Devon University Healthcare NHS Foundation Trust
+location: Bristol, BS2 8EG
+source: NHS Jobs
+job_id: nhs-5561013
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -89,10 +77,10 @@ action:
 decision: include
 automatic_decision: include
 title: Administrator
-company: Westbury on Trym Primary Care Centre
-location: Bristol, BS9 3AA
+company: Oxleas NHS Foundation Trust
+location: Bristol, BS16 9QJ
 source: NHS Jobs
-job_id: nhs-5525908
+job_id: nhs-5559839
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -148,23 +136,11 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Customer Service Administrator
-company: Ashley Rees Associates - Agency - Permanent
+title: Customer Technical Data Coordinator- 12 Month FTC
+company: Encirc - Agency - Permanent
 location: Bristol
 source: JobG8
-job_id: jobg8-1766135
-reason: Approved conservative Bristol launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Customs Administrator
-company: Travail Employment Group - Agency - Permanent
-location: Bristol
-source: JobG8
-job_id: jobg8-23643_225419388
+job_id: jobg8-107764368
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -184,23 +160,11 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Finance & P2P Coordinator
-company: Hays - Agency - Temporary
+title: Freight Co-Ordinator
+company: Travail Employment Group - Agency - Permanent
 location: Bristol
 source: JobG8
-job_id: jobg8-107863384
-reason: Approved conservative Bristol launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Helpdesk Consultant
-company: Hargreaves Lansdown - Company - Permanent
-location: Bristol
-source: JobG8
-job_id: jobg8-107855508
+job_id: jobg8-23643_225533642
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -281,18 +245,6 @@ action:
 decision: include
 automatic_decision: include
 title: Sales Administrator
-company: Aaron Wallis Sales Recruitment - Agency - Permanent
-location: Bristol
-source: JobG8
-job_id: jobg8-1780698
-reason: Approved conservative Bristol launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Sales Administrator
 company: Alexander Mae HR Ltd - Agency - Permanent
 location: Bristol
 source: JobG8
@@ -316,11 +268,11 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Service Coordinator - Equipment Hire
-company: Elix Sourcing Solutions Limited - Agency - Permanent
+title: Service Desk Analyst - Bristol
+company: Experis - Agency - Permanent
 location: Bristol
 source: JobG8
-job_id: jobg8-1772093
+job_id: jobg8-107896132
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -362,7 +314,7 @@ job_id: jobg8-23643_225515534
 reason: No approved Bristol catchment rule matched; local review required.
 ---
 
-## EXCLUDE (5)
+## EXCLUDE (2)
 
 ---
 action: 
@@ -373,42 +325,6 @@ company: Hays - Agency - Temporary
 location: Bath
 source: JobG8
 job_id: jobg8-107881565
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Customer Service Advisor
-company: Juice Recruitment Ltd - Agency - Permanent
-location: Bath
-source: JobG8
-job_id: jobg8-1766156
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Receptionist - Care Home
-company: Barchester Healthcare
-location: Bath, BA2 3NR
-source: NHS Jobs
-job_id: nhs-5555799
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Receptionist Call Handler
-company: Fairfield Park Health Centre
-location: Bath, BA1 6EA
-source: NHS Jobs
-job_id: nhs-5550823
 reason: Separate employment market.
 ---
 

@@ -4,7 +4,7 @@
 - Live route: `/york/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 8
+- Effective included jobs: 12
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,26 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 8
-- automatic review: 9
-- automatic exclude: 8
-- effective include: 8
-- effective review: 9
-- effective exclude: 8
+- automatic include: 12
+- automatic review: 6
+- automatic exclude: 9
+- effective include: 12
+- effective review: 6
+- effective exclude: 9
 
-## INCLUDE (8)
+## INCLUDE (12)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Accounts Administrator
+company: Invigorate Recruitment - Agency - Permanent
+location: York
+source: JobG8
+job_id: jobg8-107743190
+reason: Approved York catchment.
+---
 
 ---
 action: 
@@ -33,6 +45,18 @@ company: Brook Street UK - Agency - Contract
 location: York
 source: JobG8
 job_id: jobg8-107830734
+reason: Approved York catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Accounts Administrator FTC
+company: Manpower - Agency - Contract
+location: York
+source: JobG8
+job_id: jobg8-107825403
 reason: Approved York catchment.
 ---
 
@@ -69,6 +93,30 @@ company: Adecco - Agency - Temporary
 location: York
 source: JobG8
 job_id: jobg8-23643_225437275
+reason: Approved York catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Design, Artwork & Social Media Co-ordinator
+company: KD Recruitment Limited - Agency - Permanent
+location: York
+source: JobG8
+job_id: jobg8-107840612
+reason: Approved York catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Invoicing Administrator
+company: Capital Outsourcing Group Limited - Agency - Contract
+location: York
+source: JobG8
+job_id: jobg8-107833079
 reason: Approved York catchment.
 ---
 
@@ -120,29 +168,17 @@ job_id: nhs-5547601
 reason: Approved York catchment.
 ---
 
-## REVIEW (9)
+## REVIEW (6)
 
 ---
 action: 
 decision: review
 automatic_decision: review
-title: Admin Assistant
-company: Si Recruitment - Agency - Permanent
+title: Finance Assistant - 12 month contract
+company: SI Recruitment - Agency - Contract
 location: Richmond
 source: JobG8
-job_id: jobg8-1749032
-reason: No approved York catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: HR Coordinator
-company: C&C Search Ltd - Agency - Permanent
-location: Richmond
-source: JobG8
-job_id: jobg8-1742546
+job_id: jobg8-107893034
 reason: No approved York catchment rule matched; local review required.
 ---
 
@@ -163,34 +199,10 @@ action:
 decision: review
 automatic_decision: review
 title: Office Administrator
-company: ianson - Agency - Permanent
-location: Ripon
-source: JobG8
-job_id: jobg8-1778958
-reason: No approved York catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Office Administrator
 company: KD Recruitment - Agency - Permanent
 location: Pickering
 source: JobG8
 job_id: jobg8-23643_225480415
-reason: No approved York catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Office Administrator
-company: KD Recruitment Limited - Agency - Permanent
-location: Pickering
-source: JobG8
-job_id: jobg8-1742952
 reason: No approved York catchment rule matched; local review required.
 ---
 
@@ -230,17 +242,17 @@ job_id: teaching-vacancies-school-office-administrator-askwith-primary-school
 reason: No approved York catchment rule matched; local review required.
 ---
 
-## EXCLUDE (8)
+## EXCLUDE (9)
 
 ---
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Administrator
-company: Unity Resourcing Ltd - Agency - Permanent
-location: Harrogate
+title: Accounts Assistant
+company: SI Recruitment - Agency - Permanent
+location: Northallerton
 source: JobG8
-job_id: jobg8-23643_225420830
+job_id: jobg8-107893148
 reason: Separate employment market.
 ---
 
@@ -253,6 +265,18 @@ company: Braeburn Primary and Nursery Academy
 location: Scarborough
 source: Teaching Vacancies
 job_id: teaching-vacancies-apprentice-administrator-braeburn-primary-and-nursery-academy
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Distribution Coordinator
+company: MTrec Technical - Agency - Permanent
+location: Northallerton
+source: JobG8
+job_id: jobg8-107893393
 reason: Separate employment market.
 ---
 

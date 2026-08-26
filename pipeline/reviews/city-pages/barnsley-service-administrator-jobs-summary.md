@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 4
 - automatic review: 3
-- automatic exclude: 18
+- automatic exclude: 16
 - effective include: 4
 - effective review: 3
-- effective exclude: 18
+- effective exclude: 16
 
 ## INCLUDE (4)
 
@@ -110,7 +110,7 @@ job_id: jobg8-23643_225516072
 reason: No approved Barnsley catchment rule matched; local review required.
 ---
 
-## EXCLUDE (18)
+## EXCLUDE (16)
 
 ---
 action: 
@@ -152,35 +152,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Commercial Office Administrator
-company: Elevation Recruitment Group - Agency - Permanent
-location: Rotherham
-source: JobG8
-job_id: jobg8-1770785
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Operations Administrator
 company: Sue Ross Recruitment Ltd - Agency - Permanent
 location: Sheffield
 source: JobG8
 job_id: jobg8-23643_225522912
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Part Time Receptionist/Administrative Assistant
-company: BEYOND TALENT SOLUTIONS LIMITED - Agency - Permanent
-location: Rotherham
-source: JobG8
-job_id: jobg8-1771622
 reason: Separate employment market.
 ---
 
@@ -216,18 +192,6 @@ title: Receptionist
 company: Hollygreen Practice
 location: Rotherham, S63 9EH, Thurnscoe, s63 0LT, BARNSLEY, S72 0EJ
 source: NHS Jobs
-job_id: nhs-5544450
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Receptionist
-company: Hollygreen Practice
-location: Rotherham, S63 9EH, Thurnscoe, s63 0LT, BARNSLEY, S72 0EJ
-source: NHS Jobs
 job_id: nhs-5544481
 reason: Separate employment market.
 ---
@@ -241,6 +205,18 @@ company: Ideal Recruit Ltd - Agency - Temporary
 location: Doncaster
 source: JobG8
 job_id: jobg8-23643_225488492
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Receptionist / Purchase Ledger Clerk
+company: Edwards & Pearce Limited - Agency - Permanent
+location: Doncaster
+source: JobG8
+job_id: jobg8-107855575
 reason: Separate employment market.
 ---
 

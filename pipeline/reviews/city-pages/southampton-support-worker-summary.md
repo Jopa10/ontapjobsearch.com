@@ -4,7 +4,7 @@
 - Live route: `/southampton/support-worker`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 3
+- Effective included jobs: 2
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 3
+- automatic include: 2
 - automatic review: 8
 - automatic exclude: 4
-- effective include: 3
+- effective include: 2
 - effective review: 8
 - effective exclude: 4
 
-## INCLUDE (3)
+## INCLUDE (2)
 
 ---
 action: 
@@ -33,18 +33,6 @@ company: The Society of St James - Agency - Permanent
 location: Southampton
 source: JobG8
 job_id: jobg8-1674633
-reason: Approved Southampton catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Family Support Worker/Hampshire/ &;15-18 p/h.
-company: Prospero Health & Social Care - Agency - Permanent
-location: Southampton
-source: JobG8
-job_id: jobg8-1778648
 reason: Approved Southampton catchment.
 ---
 

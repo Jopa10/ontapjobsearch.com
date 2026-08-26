@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 3
 - automatic review: 2
-- automatic exclude: 36
+- automatic exclude: 28
 - effective include: 3
 - effective review: 2
-- effective exclude: 36
+- effective exclude: 28
 
 ## INCLUDE (3)
 
@@ -86,7 +86,7 @@ job_id: jobg8-23643_225526928
 reason: No approved Coventry catchment rule matched; local review required.
 ---
 
-## EXCLUDE (36)
+## EXCLUDE (28)
 
 ---
 action: 
@@ -97,18 +97,6 @@ company: Wellesbourne CofE Primary School
 location: Warwick
 source: Teaching Vacancies
 job_id: teaching-vacancies-admin-assistant-wellesbourne-cofe-primary-school
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Administration Assistant
-company: Reed - Agency - Permanent
-location: Warwickshire
-source: JobG8
-job_id: jobg8-1769740
 reason: Separate employment market.
 ---
 
@@ -200,11 +188,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: CERU Patient Flow Administrator
-company: South Warwickshire University NHS Foundation Trust
-location: Warwick, CV34 6SR
-source: NHS Jobs
-job_id: nhs-5542156
+title: Cash Allocation Administrator
+company: Manpower - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-107831626
 reason: Separate employment market.
 ---
 
@@ -217,6 +205,18 @@ company: South Warwickshire University NHS Foundation Trust
 location: Rugby, CV21 3SR
 source: NHS Jobs
 job_id: nhs-5551216
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Customer Care Coordinator
+company: Persimmon Homes - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-107856718
 reason: Separate employment market.
 ---
 
@@ -240,18 +240,6 @@ title: Customer Service Advisor - Full Time
 company: Adecco - Agency - Permanent
 location: Warwickshire
 source: JobG8
-job_id: jobg8-1766758
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Customer Service Advisor - Full Time
-company: Adecco - Agency - Permanent
-location: Warwickshire
-source: JobG8
 job_id: jobg8-23643_225505608
 reason: Separate employment market.
 ---
@@ -260,11 +248,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: GP Surgery Receptionist
-company: Station Street Surgery
-location: Nuneaton, CV11 6HH
-source: NHS Jobs
-job_id: nhs-5535941
+title: Group Accounts Assistant (Purchase Ledger)
+company: NFU - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-107807876
 reason: Separate employment market.
 ---
 
@@ -296,18 +284,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Immediate Start Accounts Administrator
-company: Mitchell Adam - Agency - Permanent
-location: Warwickshire
-source: JobG8
-job_id: jobg8-1778472
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Learning and Development Coordinator
 company: Rose & Young Recruitment Ltd - Agency - Permanent
 location: Warwickshire
@@ -332,18 +308,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Marketplace Administrator
-company: West Midlands & Worcestershire Perm Hub - Agency - Permanent
-location: Warwickshire
-source: JobG8
-job_id: jobg8-1778769
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Office & Facilities Administrator (Part-time)
 company: NES Group Ltd - Agency - Permanent
 location: Warwickshire
@@ -361,18 +325,6 @@ company: Pertemps Contracts - Agency - Temporary
 location: Warwickshire
 source: JobG8
 job_id: jobg8-23643_225431898
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Remote Online Paid Research Panelist (Part-Time) - Data Entry Clerk Welcome
-company: Apex Focus Group - Agency - Permanent
-location: Warwickshire
-source: JobG8
-job_id: jobg8-1763902
 reason: Separate employment market.
 ---
 
@@ -452,59 +404,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Team Data Administrator
-company: Pontoon - Agency - Permanent
+title: Temp Administrator
+company: Brellis Recruitment - Agency - Permanent
 location: Warwickshire
 source: JobG8
-job_id: jobg8-1775929
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Trainee Administrator
-company: Reed - Agency - Permanent
-location: Warwickshire
-source: JobG8
-job_id: jobg8-1742728
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Training & HR Coordinator
-company: ROSE & YOUNG RECRUITMENT LTD - Agency - Permanent
-location: Warwickshire
-source: JobG8
-job_id: jobg8-1772113
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Weekend Receptionist
-company: Listers Group Limited - Agency - Permanent
-location: Warwickshire
-source: JobG8
-job_id: jobg8-1756888
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Work From Home Market Research Panelist - Part Time Administration Assistant Welcome
-company: Apex Focus Group - Agency - Permanent
-location: Warwickshire
-source: JobG8
-job_id: jobg8-1763911
+job_id: jobg8-23643_225533754
 reason: Separate employment market.
 ---
 

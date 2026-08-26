@@ -4,7 +4,7 @@
 - Live route: `/doncaster/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 3
+- Effective included jobs: 4
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 3
+- automatic include: 4
 - automatic review: 3
-- automatic exclude: 19
-- effective include: 3
+- automatic exclude: 16
+- effective include: 4
 - effective review: 3
-- effective exclude: 19
+- effective exclude: 16
 
-## INCLUDE (3)
+## INCLUDE (4)
 
 ---
 action: 
@@ -33,6 +33,18 @@ company: Ideal Recruit Ltd - Agency - Temporary
 location: Doncaster
 source: JobG8
 job_id: jobg8-23643_225488492
+reason: Approved Doncaster catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Receptionist / Purchase Ledger Clerk
+company: Edwards & Pearce Limited - Agency - Permanent
+location: Doncaster
+source: JobG8
+job_id: jobg8-107855575
 reason: Approved Doncaster catchment.
 ---
 
@@ -98,7 +110,7 @@ job_id: jobg8-23643_225516072
 reason: No approved Doncaster catchment rule matched; local review required.
 ---
 
-## EXCLUDE (19)
+## EXCLUDE (16)
 
 ---
 action: 
@@ -164,18 +176,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Commercial Office Administrator
-company: Elevation Recruitment Group - Agency - Permanent
-location: Rotherham
-source: JobG8
-job_id: jobg8-1770785
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Customer Service Coordinator
 company: Gi Group - Agency - Permanent
 location: Barnsley
@@ -212,18 +212,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Part Time Receptionist/Administrative Assistant
-company: BEYOND TALENT SOLUTIONS LIMITED - Agency - Permanent
-location: Rotherham
-source: JobG8
-job_id: jobg8-1771622
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Project Co-ordinator
 company: Sue Ross Recruitment Ltd - Agency - Contract
 location: Sheffield
@@ -241,18 +229,6 @@ company: Beauchief Medical Practice
 location: Sheffield, S8 0BJ, Sheffield, S174DQ
 source: NHS Jobs
 job_id: nhs-5549526
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Receptionist
-company: Hollygreen Practice
-location: Rotherham, S63 9EH, Thurnscoe, s63 0LT, BARNSLEY, S72 0EJ
-source: NHS Jobs
-job_id: nhs-5544450
 reason: Separate employment market.
 ---
 

@@ -4,7 +4,7 @@
 - Live route: `/warrington/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 19
+- Effective included jobs: 16
 - Threshold currently met: yes
 
 ## How to review
@@ -15,38 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 19
+- automatic include: 16
 - automatic review: 8
-- automatic exclude: 6
-- effective include: 19
+- automatic exclude: 8
+- effective include: 16
 - effective review: 8
-- effective exclude: 6
+- effective exclude: 8
 
-## INCLUDE (19)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrator
-company: Forrest Recruitment - Agency - Temporary
-location: Warrington
-source: JobG8
-job_id: jobg8-23643_225424866
-reason: Approved conservative Warrington launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrator
-company: USDAW - Agency - Permanent
-location: Warrington
-source: JobG8
-job_id: jobg8-1732411
-reason: Approved conservative Warrington launch catchment.
----
+## INCLUDE (16)
 
 ---
 action: 
@@ -57,30 +33,6 @@ company: North Cheshire and Mersey NHS Foundation Trust (WHH)
 location: Warrington, WA5 1QG
 source: NHS Jobs
 job_id: nhs-5542085
-reason: Approved conservative Warrington launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Bilingual Account Coordinator
-company: Michael Page Business Support - Agency - Permanent
-location: Warrington
-source: JobG8
-job_id: jobg8-1743227
-reason: Approved conservative Warrington launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Business Support Officer
-company: Hays Specialist Recruitment Limited - Agency - Permanent
-location: Warrington
-source: JobG8
-job_id: jobg8-1733299
 reason: Approved conservative Warrington launch catchment.
 ---
 
@@ -244,6 +196,18 @@ reason: Approved conservative Warrington launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Sales Coordinator - Architecture
+company: Locker Group Ltd - Agency - Permanent
+location: Warrington
+source: JobG8
+job_id: jobg8-107709595
+reason: Approved conservative Warrington launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Workforce Administrator
 company: Elysium Healthcare
 location: Warrington, WA2 8TR
@@ -350,7 +314,19 @@ job_id: jobg8-21618_20279_61698-872ae37268a541755e97df9c9ced56fa
 reason: No approved Warrington catchment rule matched; local review required.
 ---
 
-## EXCLUDE (6)
+## EXCLUDE (8)
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Accounts Administrator
+company: Building Careers UK Ltd - Agency - Permanent
+location: Runcorn
+source: JobG8
+job_id: jobg8-107752866
+reason: Separate employment market.
+---
 
 ---
 action: 
@@ -409,6 +385,18 @@ company: EE - Company - Permanent
 location: Runcorn
 source: JobG8
 job_id: jobg8-21618_20279_61698-fe97affcb7eb2cdceb67019e12eb7199
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Finance Assistant
+company: MedPal AI Plc - Agency - Permanent
+location: Runcorn
+source: JobG8
+job_id: jobg8-107824915
 reason: Separate employment market.
 ---
 

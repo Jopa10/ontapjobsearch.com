@@ -107,5 +107,24 @@
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
     "posted_date_basis": "ontap_first_published"
+  },
+  {
+    "job_id": "nhs-5561893",
+    "source": "NHS Jobs",
+    "title": "Ward Clerk",
+    "company": "Calderdale and Huddersfield NHS Foundation Trust",
+    "advertiser_name": "Calderdale and Huddersfield NHS Foundation Trust",
+    "location": "Huddersfield, HD3 3EA",
+    "region": "Yorkshire - West",
+    "salary": "£25272.00",
+    "employment_type": "Permanent",
+    "posted_date": "2026-08-26T08:35:58.284453849",
+    "closing_date": "2026-09-04",
+    "description": "We are looking for an enthusiastic and motivated individual who enjoys the challenge of working in an acute busy environment. The successful candidate will be hardworking and support the ward staff and promote excellent patient care. The post holder is responsible for providing all clerical/admin and secretarial support to ward 11B staff, including a good working knowledge of all Trust electronic systems. The post holder is required to deal with queries from patients, visitors and staff. Participate in regular supervision. Attend all mandatory training. Participate annually identifying, developing and agreeing your own development plan with your Line Manager using the Trust Appraisal. Comply with all Trust policies, procedures and protocols. Carry out duties with due regard to the Trusts Equal Opportunity Policy. Seek advice and support from Line Manager whenever necessary. Maintain professional conduct including appearance at all times.",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9372-26-0447",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9372-26-0447",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "B",
+    "posted_date_basis": "source"
   }
 ]

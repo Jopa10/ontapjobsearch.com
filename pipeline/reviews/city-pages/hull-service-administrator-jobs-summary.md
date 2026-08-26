@@ -4,7 +4,7 @@
 - Live route: `/hull/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 11
+- Effective included jobs: 10
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 11
-- automatic review: 7
+- automatic include: 10
+- automatic review: 6
 - automatic exclude: 0
-- effective include: 11
-- effective review: 7
+- effective include: 10
+- effective review: 6
 - effective exclude: 0
 
-## INCLUDE (11)
+## INCLUDE (10)
 
 ---
 action: 
@@ -76,18 +76,6 @@ reason: Approved conservative Hull launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Graduate Administrator
-company: Edwards & Pearce - Doncaster - Agency - Permanent
-location: Hull
-source: JobG8
-job_id: jobg8-1750023
-reason: Approved conservative Hull launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: HR Administrator
 company: Office Angels - Agency - Temporary
 location: Hull
@@ -105,6 +93,18 @@ company: Agenda Life Sciences - Agency - Permanent
 location: Hull
 source: JobG8
 job_id: jobg8-23643_225478069
+reason: Approved conservative Hull launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Quotations & Estimating Coordinator
+company: KD Recruitment - Agency - Permanent
+location: Hull
+source: JobG8
+job_id: jobg8-23643_225532268
 reason: Approved conservative Hull launch catchment.
 ---
 
@@ -144,19 +144,7 @@ job_id: jobg8-23643_225511107
 reason: Approved conservative Hull launch catchment.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Sales Administrator
-company: Edwards & Pearce - Doncaster - Agency - Permanent
-location: Hull
-source: JobG8
-job_id: jobg8-1734284
-reason: Approved conservative Hull launch catchment.
----
-
-## REVIEW (7)
+## REVIEW (6)
 
 ---
 action: 
@@ -186,35 +174,23 @@ reason: No approved Hull catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Customer Success & Sales Support Executive
+company: Consortium Professional Recruitment - Agency - Permanent
+location: Hessle
+source: JobG8
+job_id: jobg8-107785786
+reason: No approved Hull catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Graduate Administrator / Office Support
 company: Winsearch - Agency - Permanent
 location: Hessle
 source: JobG8
 job_id: jobg8-23643_225425823
-reason: No approved Hull catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Market Research Coordinator
-company: Elevation Recruitment Group - Agency - Permanent
-location: Driffield
-source: JobG8
-job_id: jobg8-1776844
-reason: No approved Hull catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Part time Office and Accounts Administrator - Hessle
-company: Office Angels - Agency - Permanent
-location: Hessle
-source: JobG8
-job_id: jobg8-1763883
 reason: No approved Hull catchment rule matched; local review required.
 ---
 
