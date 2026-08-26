@@ -467,26 +467,70 @@ def parse_detail(text: str, item: ListingItem) -> dict[str, str]:
     }
 
 
-def fetch_text(url: str, timeout: int = 30) -> str:
-    request = urllib.request.Request(
-        url,
-        headers={
-            "User-Agent": USER_AGENT,
-            "Accept": (
-                "text/html,application/xhtml+xml;q=0.9,*/*;q=0.1"
-            ),
-        },
-    )
-    context = ssl.create_default_context()
-    with urllib.request.urlopen(
-        request,
-        timeout=timeout,
-        context=context,
-    ) as response:
-        return response.read().decode(
-            response.headers.get_content_charset() or "utf-8",
-            "replace",
+RETRYABLE_HTTP_STATUS = {408, 425, 429, 500, 502, 503, 504}
+
+
+def fetch_text(
+    url: str,
+    timeout: int = 30,
+    *,
+    max_attempts: int = 4,
+    retry_delay: float = 5.0,
+) -> str:
+    """Fetch one VONNE page with bounded transient-network retries."""
+    attempts = max(int(max_attempts), 1)
+    base_delay = max(float(retry_delay), 0.0)
+    last_error: BaseException | None = None
+
+    for attempt in range(1, attempts + 1):
+        request = urllib.request.Request(
+            url,
+            headers={
+                "User-Agent": USER_AGENT,
+                "Accept": (
+                    "text/html,application/xhtml+xml;q=0.9,*/*;q=0.1"
+                ),
+                "Accept-Language": "en-GB,en;q=0.9",
+                "Cache-Control": "no-cache",
+                "Connection": "close",
+            },
         )
+        context = ssl.create_default_context()
+        try:
+            with urllib.request.urlopen(
+                request,
+                timeout=timeout,
+                context=context,
+            ) as response:
+                return response.read().decode(
+                    response.headers.get_content_charset() or "utf-8",
+                    "replace",
+                )
+        except urllib.error.HTTPError as exc:
+            if exc.code not in RETRYABLE_HTTP_STATUS:
+                raise
+            last_error = exc
+        except (
+            urllib.error.URLError,
+            TimeoutError,
+            ConnectionError,
+            ssl.SSLError,
+        ) as exc:
+            last_error = exc
+
+        if attempt >= attempts:
+            assert last_error is not None
+            raise last_error
+
+        delay = min(base_delay * (2 ** (attempt - 1)), 30.0)
+        print(
+            f"VONNE fetch attempt {attempt}/{attempts} failed for {url}: "
+            f"{type(last_error).__name__}; retrying in {delay:g}s.",
+            file=sys.stderr,
+        )
+        time.sleep(delay)
+
+    raise RuntimeError("VONNE fetch retry loop ended unexpectedly")
 
 
 def read_detail_snapshot(

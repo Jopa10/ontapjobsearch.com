@@ -7,6 +7,7 @@ This is the short owner view of how Ontap is organised. It mirrors the five cano
 
 ## Recent canonical changes
 
+- 26 August 2026 — **VONNE connection interruptions now retry safely:** temporary resets or timeouts between GitHub and VONNE receive up to four bounded attempts instead of immediately ending the workflow. Invalid pages and exhausted retries still fail safely.
 - 26 August 2026 — **VONNE no longer loses its whole approved batch because of a small edit queue:** up to 10 undecided or changed vacancies are withheld individually while unchanged, previously selected VONNE jobs continue. Eleven or more stop VONNE for review, and genuine source/detail/factual integrity failures still block it.
 - 26 August 2026 — **Teaching Vacancies no longer retains obsolete regional review files:** when a vacancy moves into its corrected region, the old generated regional pair is removed before the master review is rebuilt. The existing identical Diss/Norfolk duplicate can pass through the recovery run safely, while conflicting duplicates still stop.
 - 26 August 2026 — **Teaching Vacancies now handles a search returning exactly one job:** TV writes `result` rather than `results` in that case. The page audit accepts both forms while keeping all existing page-count and vacancy-link completeness checks.
