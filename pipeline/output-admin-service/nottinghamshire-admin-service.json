@@ -212,31 +212,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "23643_225426726",
-    "title": "Valuation Administrator",
-    "company": "Hays Business Support - Agency - Permanent",
-    "location": "Nottinghamshire",
-    "region": "Nottinghamshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "28000",
-    "salary_max": "30000",
-    "salary_text": "£28000 - £30000 per year (£28-£30k)",
-    "posted_date": "",
-    "description": "Our client is a small, ambitious, and growing business based in Nottingham, specialising in property valuation and related services. Due to continued growth, they are looking to recruit a highly organised and detail-oriented Valuation Administrator to support their busy team and play a key role in ensuring the smooth delivery of valuation services.This is an excellent opportunity for someone with strong administration skills who enjoys working in a fast-paced environment and wants to be part of a supportive and growing organisation.\n\nThe Role\n\nAs a Valuation Administrator, you will provide administrative support to the valuation team, ensuring reports, documentation, and client communications are managed accurately and efficiently. You will act as a key point of contact for clients and surveyors, helping to coordinate the valuation process from instruction through to completion.\nKey Responsibilities\n- Managing valuation instructions and maintaining accurate records on internal systems.\n- Liaising with clients, surveyors, lenders, and third parties via telephone and email.\n- Scheduling appointments and coordinating surveyor diaries.\n- Preparing and processing valuation reports and supporting documentation.\n- Monitoring progress of valuations and ensuring deadlines are met.\n- Updating databases, spreadsheets, and CRM systems with accurate information.\n- Handling incoming enquiries and providing excellent customer service.\n- Assisting with invoicing and general office administration duties.\n- Ensuring compliance with company procedures and regulatory requirements.\n- Supporting the wider team with ad hoc administrative tasks as required.\n\nSkills & Experience\nEssential\n- Previous administration experience within a busy office environment.\n- Excellent organisational skills and strong attention to detail.\n- Confident communication skills, both written and verbal.\n- Strong IT skills including Microsoft Office (Word, Excel, Outlook).\n- Ability to prioritise workload and manage multiple tasks effectively.\n- Professional and customer-focused approach.\n\nDesirable\n- Experience within property, valuations, estate agency, surveying, financial services, or professional services.\n- Familiarity with CRM or property management systems.\n- Experience coordinating appointments or managing diaries.\n\nPersonal Attributes\n- Proactive and self-motivated.\n- Strong team player with a positive attitude.\n- Adaptable and willing to learn.\n- Reliable and able to work independently when required.\n- Committed to delivering a high standard of service.\n\nBenefits\n- Opportunity to join a growing and successful local business.\n- Friendly and supportive working environment.\n- Competitive salary and benefits package.\n\nWhat you need to do now\nIf you're interested in this role, click 'apply now' to forward an up-to-date copy of your CV, or call us now.\nIf this job isn't quite right for you, but you are looking for a new position, please contact us for a confidential discussion about your career.\n\nHays Specialist Recruitment Limited acts as an employment agency for permanent recruitment and employment business for the supply of temporary workers. By applying for this job you accept the T&C's, Privacy Policy and Disclaimers which can be found at (url removed)",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?io0x8AEcaIPtogGNbXxHFgj%2fz1r%2fjZkJo",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Hays Business Support",
-    "advertiser_type": "Agency",
-    "work_pattern": "Full Time",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "23643_225429650",
     "title": "Customer Service Advisor",
     "company": "SF Partners - Agency - Temporary",
@@ -577,7 +552,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0667-26-0002",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0667-26-0002",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5543621",
@@ -595,7 +574,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1807-26-0005",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1807-26-0005",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5538114",
@@ -613,7 +596,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0045-26-0077",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0045-26-0077",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5539579",
@@ -631,7 +618,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9335-26-0116",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9335-26-0116",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5535630",
@@ -649,6 +640,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1310-26-0018",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1310-26-0018",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

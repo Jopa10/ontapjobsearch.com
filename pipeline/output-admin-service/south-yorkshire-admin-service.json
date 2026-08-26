@@ -305,7 +305,7 @@
     "salary_max": "13",
     "salary_text": "£13 per hour",
     "posted_date": "",
-    "description": "Receptionist\nLocation: Doncaster (DN1)\nPay Rate: £13.00 per hour\nShift: Monday Friday, 8-hour shifts (flexibility required between 7:00am 7:00pm)\nContract Type: Temporary role for up to 4 weeks\n\nAbout the Role\n\nIdeal Recruit Ltd is currently looking for a friendly and professional Receptionist to join a busy warehouse site in Doncaster.\n\nThis role will involve greeting visitors, supporting site administration, and ensuring the reception area operates smoothly and professionally at all times.\n\nKey Responsibilities\n- Greeting visitors and contractors on arrival\n- Managing sign-in procedures and visitor logs\n- Answering phone calls and directing enquiries\n- Supporting general administrative duties\n- Maintaining a professional and organised reception area\n- Liaising with warehouse staff and management when required\n\nRequirements\n- Previous receptionist or administrative experience\n- Good communication and interpersonal skills\n- Professional and friendly attitude\n- Basic computer skills\n- Ability to work independently and as part of a team\n\nHow to Apply\n\nApply directly here or:\nText Receptionist DN1 with your full name to: (phone number removed) or (phone number removed)\nCall: (phone number removed) or (phone number removed)",
+    "description": "Receptionist\nLocation: Doncaster (DN1)\nPay Rate: £13.00 per hour\nShift: Monday Friday, 8-hour shifts (flexibility required between 7:00am 7:00pm)\nContract Type: Temp-to-Perm opportunity\n\nAbout the Role\n\nIdeal Recruit Ltd is currently looking for a friendly and professional Receptionist to join a busy warehouse site in Doncaster.\n\nThis role will involve greeting visitors, supporting site administration, and ensuring the reception area operates smoothly and professionally at all times.\n\nKey Responsibilities\n- Greeting visitors and contractors on arrival\n- Managing sign-in procedures and visitor logs\n- Answering phone calls and directing enquiries\n- Supporting general administrative duties\n- Maintaining a professional and organised reception area\n- Liaising with warehouse staff and management when required\n\nRequirements\n- Previous receptionist or administrative experience\n- Good communication and interpersonal skills\n- Professional and friendly attitude\n- Basic computer skills\n- Ability to work independently and as part of a team\n\nHow to Apply\n\nApply directly here or:\nText Receptionist DN1 with your full name to: (phone number removed) or (phone number removed)\nCall: (phone number removed) or (phone number removed)",
     "apply_url": "https://www.jobg8.com/Traffic.aspx?vAYWCB8ag%2fhTNtqDCXmDuA9RBf%2f1Efwvi",
     "source": "JobG8",
     "working_arrangement": "onsite_or_not_stated",
@@ -468,31 +468,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "23643_225423861",
-    "title": "NTD Coordinator",
-    "company": "TRC Yorkshire - Agency - Temporary",
-    "location": "Barnsley",
-    "region": "Yorkshire - South",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Temporary",
-    "salary_min": "12.71",
-    "salary_max": "12.71",
-    "salary_text": "£12.71 per hour",
-    "posted_date": "",
-    "description": "The Recruitment Crowd are currently recruiting on behalf of our well known and industry leading client. We looking for ND Coordinators in the Barnsley area to join the team.\n\nHours: Shifts between Monday to Sunday 06:00am starts\n\nPay Rate: 12.71 per hour PAYE\n\nLocation: Barnsley (S74)\n\nJob Type: Ongoing\n\nThe role:\n- Tracking vehicles, predominantly for Next Day collections, to ensure that they are running on time.\n- Recording timings on to the tracking/collection report.\n- Contacting drivers to confirm ETA's, reasons for late arrivals, late departures etc.\n- Filing of documents ie. Maps\n- General admin duties\n\nRequirements:\n- Candidate needs to have understanding of systems such as MS Excel\n- Be computer literate\n- Be comfortable speaking and calling drivers\n- Experience in a similar work environment\n\nFor more information, please apply directly with a copy of your CV today and a member of our team will be in touch!",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?1tcg6Aj2zaxUYxVV09xu6%2fk%2fZ%2bMkg%2b5bb",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "TRC Yorkshire",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Hourly",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "nhs-5554992",
     "source": "NHS Jobs",
     "title": "Receptionist/Administrator",
@@ -508,7 +483,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2131-26-0007",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2131-26-0007",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5550923",
@@ -526,7 +505,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1937-26-0004",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1937-26-0004",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5549526",
@@ -544,7 +527,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3087-26-0012",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3087-26-0012",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5544481",
@@ -562,6 +549,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1206-26-0002",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1206-26-0002",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

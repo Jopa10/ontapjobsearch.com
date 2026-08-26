@@ -600,6 +600,31 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "23643_225263851",
+    "title": "Claims Handler",
+    "company": "Prestige Talent Partners Ltd - Agency - Permanent",
+    "location": "Manchester",
+    "region": "Greater Manchester - Manchester & Salford",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "13.74",
+    "salary_max": "13.74",
+    "salary_text": "£13.74 per hour",
+    "posted_date": "",
+    "description": "Part Time work - 35 hours per week\nSalary up to 25k\nOccasional evening and weekend work\n\nSuitable for anyone looking to start a career in the legal sector / graduates or someone looking for good career progression in a fast growing law firm!\n\nROLE PURPOSE\n\nTo act as the first point of contact for prospective clients making enquiries regarding housing disrepair matters. The role involves assessing new enquiries, gathering relevant information, identifying potentially viable claims, explaining the claims process, completing compliance requirements, and ensuring suitable cases are onboarded efficiently and professionally.\n\nThe successful candidate will play a key role in converting enquiries into retained clients whilst maintaining high standards of client care and regulatory compliance.\n\nKEY RESPONSIBILITIES\n\nNew Enquiry Handling\n- Handle inbound telephone, website and email enquiries from prospective clients.\n- Conduct detailed fact-finding interviews with potential clients.\n- Identify and assess housing disrepair issues including:\n- Damp and mould\n- Water ingress\n- Leaks\n- Structural defects\n- Heating and hot water failures\n- Electrical issues\n- Pest infestations\n- Other repair-related issues\n- Establish tenancy status and landlord details.\n- Obtain details regarding notification of defects and repair history.\n- Assess whether a claim appears suitable for further investigation.\n\nClient Onboarding\n- Explain the claims process in a clear and professional manner.\n- Obtain relevant documentation including:\n- Tenancy agreements\n- Photographs\n- Correspondence with landlords\n- Notices and inspection reports\n- Complete client onboarding documentation.\n- Undertake anti-money laundering and identification checks where required.\n- Ensure all authorities and client care documentation are completed accurately.\n\nCompliance & Risk Assessment\n- Complete fraud prevention checks in accordance with firm policies.\n- Complete vulnerable customer assessments.\n- Identify any safeguarding concerns.\n- Escalate unusual or high-risk matters to management.\n- Ensure compliance with SRA requirements and internal procedures.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?Dw9iAXzSqBYCS2iknLM7N6BkuDedT0Fhk",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Prestige Talent Partners Ltd",
+    "advertiser_type": "Agency",
+    "work_pattern": "Part Time",
+    "salary_period": "Hourly",
+    "posted_date_basis": ""
+  },
+  {
     "job_id": "23643_225509200",
     "title": "Lettings Administrator",
     "company": "Hays Business Support - Agency - Permanent",
@@ -640,7 +665,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9349-26-2527",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9349-26-2527",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5551494",
@@ -658,7 +687,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2924-26-0002",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2924-26-0002",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5550799",
@@ -676,7 +709,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2333-26-0006",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2333-26-0006",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5543104",
@@ -694,7 +731,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9437-26-0727",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9437-26-0727",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5543726",
@@ -712,7 +753,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5035-26-0025",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5035-26-0025",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5535381",
@@ -730,6 +775,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2420-26-0005",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2420-26-0005",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

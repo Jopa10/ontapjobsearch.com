@@ -1,33 +1,5 @@
 [
   {
-    "job_id": "teaching-vacancies-admin-assistant-wellesbourne-cofe-primary-school",
-    "title": "Admin Assistant",
-    "company": "Wellesbourne CofE Primary School",
-    "location": "Warwick",
-    "region": "West Midlands - Coventry & Warwickshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['part time']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "£13.05 - £13.26 Hourly",
-    "work_pattern": "",
-    "posted_date": "2026-07-20",
-    "closing_date": "2026-08-26",
-    "closing_datetime": "2026-08-26T12:00:00+01:00",
-    "summary": "Admin Assistant with Wellesbourne CofE Primary School in Warwick. ['part time']; £13.05 - £13.26 Hourly.",
-    "description": "Wellesbourne CofE Primary School is recruiting for this vacancy in Warwick.\n\nThe advertised position is Admin Assistant.\n\nThe source lists the employment type as ['part time'].\n\nThe advertised salary or pay scale is £13.05 - £13.26 Hourly.\n\nThe stated application deadline is 2026-08-26T12:00:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-wellesbourne-cofe-primary-school?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Wellesbourne CofE Primary School",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
-  },
-  {
     "job_id": "teaching-vacancies-administration-assistant-meadow-park-school",
     "title": "Administration Assistant",
     "company": "Meadow Park School",
@@ -702,7 +674,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0505-26-0225",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0505-26-0225",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5551216",
@@ -720,7 +696,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9203-26-0499",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9203-26-0499",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5549024",
@@ -738,7 +718,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0314-26-2774",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0314-26-2774",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5538096",
@@ -756,7 +740,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4791-26-0008",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4791-26-0008",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5525238",
@@ -774,24 +762,32 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2343-26-0008",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2343-26-0008",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
-    "job_id": "nhs-5551079",
+    "job_id": "nhs-4151642",
     "source": "NHS Jobs",
-    "title": "Screening Administrator",
-    "company": "University Hospitals Coventry and Warwickshire NHS Trust",
-    "advertiser_name": "University Hospitals Coventry and Warwickshire NHS Trust",
-    "location": "Rugby, CV22 5PX",
+    "title": "MEDICAL RECEPTIONIST",
+    "company": "Valley Road Medical Practice",
+    "advertiser_name": "Valley Road Medical Practice",
+    "location": "Leamington Spa, CV32 7SJ",
     "region": "West Midlands - Coventry & Warwickshire",
-    "salary": "£25272.00",
+    "salary": "Negotiable",
     "employment_type": "Permanent",
-    "posted_date": "2026-08-20T14:21:13.966426",
-    "closing_date": "2026-09-03",
-    "description": "An exciting opportunity has arisen within the Midlands and North West Bowel Cancer Screening Programme Team based at Hospital of St Cross, Rugby for the role of Screening Administrator. The Bowel Cancer Screening Programme offers screening to men and women inviting those aged between the age 50 - 74. The Screening Administrator role includes engaging with individuals through the national patient helpline, administrative support, and laboratory support including the logging of completed faecal sample tests (FIT tests). In addition, the role will support the printing and packing function of the Hub. Please be advised sponsorship is not eligible for this post. 37.5 hour post Monday - Friday 0900 to 1700 or 0930 to 1730. Closing Date: Please be advised that this job advert will close as soon as sufficient applications have been received. Please apply for this job as soon as you can, if interested. Answer the National Bowel Cancer Screening Helpline, responding to individuals in a professional and courteous manner and providing advice and guidance on the National Bowel Cancer Screening Programme in accordance with departmental and national policies and guidance. Provide laboratory support following the return of Bowel Cancer Screening Faecal Immunochemical Test (FIT) kits, including the preparation, opening, and logging of samples. This will involve the operation of electronic sample-opening equipment. Assist with the production and distribution of bulk communications, including screening invitations and related correspondence, using specialist packing and mailing machinery. Complete administrative processes relating to the Symptomatic FIT Pathway, including the preparation and dispatch of patient sample packs. Maintain both manual and electronic filing systems and databases, as required by the Department, ensuring all documents are accurately and appropriately stored and archived. Provide comprehensive administrative support including processing of incoming/outgoing post such as undelivered mail items; sending individual subject (patient) correspondence from template letters such as assistance to subjects who have not completed their kit correctly. Process symptomatic FIT referral forms received to send out the kit and letter to the patient, check completed packs for accuracy against the referral form, add record to the database and produce forms using templates from these records. Act as first point of contact for complaints and deal with these in line with Trust and Departmental policy. Work in accordance with the Department Quality Management System including adhering to Standard Operating Procedures. Assist in training new staff members . For further details about the job role please see attached job description",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9218-26-1037",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9218-26-1037",
+    "posted_date": "2026-08-26T12:23:33.202616",
+    "closing_date": "2026-10-01",
+    "description": "Working in a busy GP practice. We are a close cohesive team, working hard to give our patients the best experience they can have with the GP practice. Working out of a purpose built building, a very well established GP practice in Leamington Spa. Working as part of the reception team, combination of morning shifts (starting at 7.15am to 2.00pm) and afternoon shifts (starting at 1.30pm to 6.30pm. Answering calls from patients, dealing with patients face to face. processing prescription requests, helping Drs with queries. This is a very busy, varied job role. Answering phone calls from patients booking appointments processing prescriptions Helping patients with any queries they have Helping Drs with any queries/assistance they need Busy and varied job role.",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0908-24-0000",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0908-24-0000",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

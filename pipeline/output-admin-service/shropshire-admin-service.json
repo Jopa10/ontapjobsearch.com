@@ -200,31 +200,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "23643_225423598",
-    "title": "Administrator",
-    "company": "CBSbutler Holdings Limited trading as CBSbutler - Agency - Contract",
-    "location": "Shropshire",
-    "region": "Shropshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Contract",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "",
-    "posted_date": "",
-    "description": "Are you an organised administrator with experience in onboarding, compliance or pre-employment screening?\n\nWe're looking for an Onboarding Compliance Administrator to join a busy team supporting one of the UK's largest Government accounts.\n\nIn this role, you'll manage end-to-end onboarding activities, ensuring all compliance checks are completed accurately and on time. You'll work closely with candidates, hiring managers and recruitment agencies to deliver a seamless onboarding experience while maintaining the highest standards of security and governance.\n\nKey Responsibilities\n- Manage onboarding cases from offer through to start date.\n- Process BPSS, DBS, right-to-work and pre-employment screening checks.\n- Review and validate onboarding documentation, including passports, visas and employment references.\n- Coordinate identity verification sessions and onboarding activities.\n- Maintain accurate records across multiple systems, ensuring data integrity and audit readiness.\n- Arrange IT accounts, equipment and system access for new starters.\n- Build strong relationships with candidates and internal stakeholders to keep onboarding on track.\n- Identify and resolve onboarding issues while meeting agreed service levels.\n\nWe're looking for someone with:\n- Experience in onboarding, HR administration, recruitment, compliance, vetting or a similar administrative role.\n- Excellent attention to detail and the ability to handle confidential information.\n- Strong organisational skills with the ability to manage multiple onboarding cases simultaneously.\n- Great communication and stakeholder management skills.\n- Good working knowledge of Microsoft Office, particularly Outlook, Excel, Word and Teams.\n\nDesirable:\n- Experience processing BPSS, DBS, right-to-work or other pre-employment checks.\n- Experience working within a regulated or compliance-focused environment.\n\nThis is an excellent opportunity to develop your expertise within a specialist onboarding and compliance team, supporting a high-profile Government programme while gaining valuable experience in security vetting and onboarding governance.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?bZCSDJyF3N5wOAh7sLFAJYIc2cKwT%2fYLq",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "CBSbutler Holdings Limited trading as CBSbutler",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "23643_225492971",
     "title": "Temporary Sales Administrator Immediate Start",
     "company": "Office Angels - Agency - Temporary",
@@ -365,7 +340,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9301-26-1212",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9301-26-1212",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5554340",
@@ -383,7 +362,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9301-26-1218",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9301-26-1218",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5554195",
@@ -401,6 +384,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9301-26-1214",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9301-26-1214",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

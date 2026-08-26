@@ -315,25 +315,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1771-26-0000",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1771-26-0000",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
-  },
-  {
-    "job_id": "nhs-5550429",
-    "source": "NHS Jobs",
-    "title": "Part Time Evening Receptionist",
-    "company": "Garretts Green Lane Surgery",
-    "advertiser_name": "Garretts Green Lane Surgery",
-    "location": "Birmingham, B26 2SB",
-    "region": "West Midlands - Birmingham & Solihull",
-    "salary": "£12.71",
-    "employment_type": "Permanent",
-    "posted_date": "2026-08-20T09:32:42.414195",
-    "closing_date": "2026-08-26",
-    "description": "Job Summary We are seeking a friendly, organized, and energetic Part Time Evening Receptionist to join our team! This will be a key holder position. The hours are Monday - Friday 1pm - 7pm. This vital role ensures smooth front desk operations during evening hours, providing exceptional customer service and administrative support. As the first point of contact, you will create a welcoming environment for visitors and callers while managing various clerical tasks with efficiency and professionalism. This position offers a dynamic work environment where your organizational skills and positive attitude will shine. Join us in creating a positive experience for everyone who walks through our doors! Your enthusiasm, attention to detail anddetail, and proactive approach will make a meaningful difference in our teams success. Responsibilities Greet visitors warmly and direct them appropriately, ensuring a positive first impression. Answer incoming phone calls promptly using proper phone etiquette, routing calls as needed. Manage front desk operations, including checking in patients and handling inquiries. Perform data entry tasks accurately using computer skills, including updating records in Emis Web, Microsoft Office, DocMan and Excel. Maintain organized files, schedules, and surgery supplies to support daily operations. Assist with administrative duties such as photocopying, scanning, mailing, and basic clerical support. Ensure the reception area remains tidy, welcoming, and professional at all times. Skills Previous office experience with familiarity in administrative procedures. Strong system skills required and knowledge of Emis Web system is desirable. Excellent phone etiquette with the ability to handle multiple calls efficiently. Well-developed organizational skills to manage multiple tasks simultaneously. Typing speed and accuracy to support quick data entry tasks. Demonstrated clerical experience supporting busy front desk environments. Ensuring all calls are answered and patients booked in correctly Completing all related tasks/queries Issuing of prescriptions cash handling of private administrative tasks Data input of patient details into our clinical system Attend regular training and practice meetings cover sickness and absences to manage all clinical incoming letters all other duties/tasks as required",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5987-26-0005",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5987-26-0005",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5530420",
@@ -351,6 +337,32 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4784-26-0001",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4784-26-0001",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
+  },
+  {
+    "job_id": "nhs-5501562",
+    "source": "NHS Jobs",
+    "title": "Administrator - Birmingham",
+    "company": "Vaccination UK",
+    "advertiser_name": "Vaccination UK",
+    "location": "Birmingham, B18 7EE",
+    "region": "West Midlands - Birmingham & Solihull",
+    "salary": "£13.45",
+    "employment_type": "Bank",
+    "posted_date": "2026-07-28T11:00:38.685740665",
+    "closing_date": "2026-08-31",
+    "description": "Job title: Administrator Contract: Bank. Start: September 2026 until December 2026 Working Hours: Monday to Friday between 8:00am - 5:00pm. (7.5 hour shift per day) Location: To Be Confirmed BENEFITS: Pension - 5% employer contribution based on qualified earnings. VIVUP - Supermarket & High Street Discounts & Employee Assistant Programme. Blue Light Card - Supermarket & High Street Discounts. Employee referral scheme. 28 days annual leave including Bank Holidays (pro-rata). The post holder will be responsible for promoting, delivering, and facilitating various programmes directed by management as part of the School-Aged Immunisation Service assisting nurses in the schools or office. KEY RESPONSIBILITIES: Assist in the planning, delivery and evaluation of health promotion/education and public health school age immunisation programmes. Attend community-based vaccination sessions in both schools and local based settings. Work with the nursing team to ensure productive and safe sessions. Promote and facilitate collaborative working between the team, schools and other educational institutions and families, in the delivery of the immunisation programmes. Focus on ensuring all consent forms have been returned, guaranteeing new ideas go towards achieving local area targets. Ensure the process for storing, transporting, collecting and delivering vaccinations to site are adhered to. Assist in identifying home schooled children and those in Pupil Referral Units. Maintain databases to ensure records are kept up to date and that documents are prepared for school visits. Ensure online consent systems have been triaged and completed ahead of a vaccination session. Adhere to the Standard Operating Procedure for School Immunisation (SOPs). First point of contact for all administrative tasks. Have clear communication via face to face, by phone and email with children, parents and school staff. Responsible for maintaining the cold chain, ordering, and arranging transport of vaccinations to site. Actively and constructively contribute to team meetings. Undertake other duties commensurate with the level of this position. Comply with Company policies & procedures.",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0106-26-0100",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0106-26-0100",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

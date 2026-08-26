@@ -225,31 +225,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "23643_225427196",
-    "title": "Procurement Assistant",
-    "company": "Trinity Resource Solutions - Agency - Permanent",
-    "location": "Buckinghamshire",
-    "region": "Buckinghamshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "30000",
-    "salary_max": "30000",
-    "salary_text": "£30000 per year",
-    "posted_date": "",
-    "description": "Procurement Assistant - Office Based 5 Days Per Week\nAbout the Opportunity\nAre you highly organised, detail-oriented and passionate about delivering exceptional customer service? We're recruiting on behalf of a growing business seeking a Procurement Assistant to support the successful delivery of exciting projects.\nThis is an excellent opportunity for someone with previous procurement, purchasing, account management or project coordination experience who enjoys building strong relationships, managing multiple priorities and ensuring projects run smoothly from order through to delivery.\nWorking closely with an experienced and collaborative team, you'll play a key role in coordinating suppliers, managing orders and providing outstanding service throughout the procurement process.\nThe Role\nAs Procurement Assistant, you'll be responsible for supporting the procurement function while acting as a key point of contact for suppliers and clients. No two days will be the same, and you'll enjoy working across multiple projects in a fast-paced, collaborative environment.\nKey Responsibilities\n- Build and maintain excellent relationships with suppliers and clients.\n- Raise, process and monitor purchase orders.\n- Coordinate deliveries and track project timelines.\n- Liaise with suppliers regarding lead times, availability and order updates.\n- Resolve delivery issues quickly and professionally.\n- Maintain accurate procurement records and project documentation.\n- Support the wider project team with administrative and coordination tasks.\n- Monitor outstanding orders and ensure projects remain on schedule.\n- Assist with supplier negotiations and obtaining competitive quotations.\n- Deliver a high level of customer service throughout each project.\n\nAbout You\nWe're looking for someone who is proactive, organised and enjoys working with people.\nYou'll ideally have:\n- Previous experience within procurement, purchasing, buying, account management or project coordination.\n- Excellent communication and relationship-building skills.\n- Strong organisational skills with exceptional attention to detail.\n- The ability to manage multiple tasks and deadlines simultaneously.\n- A proactive, positive and solutions-focused approach.\n- Good commercial awareness.\n- Strong Microsoft Office skills, particularly Excel.\n- Experience working with procurement or ERP systems would be advantageous but isn't essential.\n\nWhat's in it for You?\n- Join a friendly, supportive and collaborative team.\n- Opportunity to work on exciting, design-led projects.\n- Excellent exposure to procurement, supplier management and project coordination.\n- Career development opportunities within a growing business.\n- Beautiful office environment with a team-first culture.\n\nIf you're looking for a varied role where you can develop your procurement and account management skills while working on exciting projects, we'd love to hear from you.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?1tcg6Aj2zayCQU7R6aidbdmPj1pSTGbQb",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Trinity Resource Solutions",
-    "advertiser_type": "Agency",
-    "work_pattern": "Full Time",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "23643_225473506",
     "title": "Field Services Coordinator",
     "company": "IMServ Europe Ltd - Agency - Permanent",
@@ -415,7 +390,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3962-26-0008",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3962-26-0008",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5534158",
@@ -433,25 +412,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/L0034-26-3324",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/L0034-26-3324",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
-  },
-  {
-    "job_id": "nhs-5494127",
-    "source": "NHS Jobs",
-    "title": "Administrator",
-    "company": "Practice Plus Group",
-    "advertiser_name": "Practice Plus Group",
-    "location": "High Wycombe, HP12 3QL",
-    "region": "Buckinghamshire",
-    "salary": "£24804.00",
-    "employment_type": "Permanent",
-    "posted_date": "2026-07-24T07:26:39.071655",
-    "closing_date": "2026-08-31",
-    "description": "UNLOCK YOUR BEST WORK LIFE + make a difference for every patient We're looking for a proactive and customer-focused Administrator to join our Private Pay Services team, supporting both self-pay and NHS patients through their diagnostic imaging journey. This is a fantastic opportunity to join a busy healthcare environment where you'll play an important role in delivering an outstanding patient experience. Working closely with clinical and administrative colleagues, you'll help ensure referrals, appointments, reports and patient communications are managed efficiently and professionally. This is a part-time role working 30 hours per week across 4 days . Candidates must be available to work Wednesday, Thursday and Friday , with flexibility on the fourth working day. As our Administrator, you will be: Processing incoming referrals and ensuring all clinical and demographic information is accurate and complete. Managing and distributing diagnostic reports to referring clinicians and patients. Supporting the sharing of images and reports with NHS and private healthcare providers. Responding to patient, clinician and customer enquiries in a professional and timely manner. Supporting appointment scheduling, reception cover and data entry activities when required. Working closely with colleagues to ensure smooth patient pathways and excellent service delivery. Maintaining confidentiality and handling sensitive information with professionalism and care. Contributing to a positive team environment and supporting new colleagues where appropriate. For more information, review the attached job description or contact sarah.melder@practiceplusgroup.com",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0314-26-2707",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0314-26-2707",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5559695",
@@ -469,6 +434,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1790-26-0001",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1790-26-0001",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]
