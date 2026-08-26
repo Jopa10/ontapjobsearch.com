@@ -14,7 +14,10 @@ PIPELINE_ROOT = Path(__file__).resolve().parents[1]
 if str(PIPELINE_ROOT) not in sys.path:
     sys.path.insert(0, str(PIPELINE_ROOT))
 
-from external_sources.compose_northeast_admin import compose_rows  # noqa: E402
+from external_sources.compose_northeast_admin import (  # noqa: E402
+    compose_rows,
+    unaccounted_approved_ids,
+)
 from external_sources.northeast_jobs_poc import (  # noqa: E402
     ManualDecisionState,
     Vacancy,
@@ -306,6 +309,53 @@ Durham
 
         self.assertEqual([jobg8], composed)
         self.assertEqual(1, counts["duplicate_nejobs_skipped"])
+
+    def test_composer_preserves_distinct_same_source_posts_with_shared_headline_facts(self):
+        permanent = vacancy_to_published_job(vacancy("301018"))
+        permanent["contract_type"] = "Permanent"
+        permanent["working_pattern"] = "Part time"
+        fixed_term = vacancy_to_published_job(vacancy("300950"))
+        fixed_term["contract_type"] = "Fixed Term"
+        fixed_term["working_pattern"] = "Full time"
+
+        composed, counts = compose_rows(
+            [],
+            [permanent, fixed_term],
+            today=date(2026, 7, 29),
+        )
+
+        self.assertEqual(
+            ["nejobs-300950", "nejobs-301018"],
+            [row["job_id"] for row in composed],
+        )
+        self.assertEqual(2, counts["nejobs"])
+        self.assertEqual(0, counts["duplicate_nejobs_skipped"])
+
+    def test_approved_id_verifier_accepts_only_cross_source_dedupe(self):
+        first = vacancy_to_published_job(vacancy("301018"))
+        second = vacancy_to_published_job(vacancy("300950"))
+        jobg8 = {
+            **first,
+            "job_id": "jobg8-1",
+            "source": "JobG8",
+        }
+
+        self.assertEqual(
+            [],
+            unaccounted_approved_ids(
+                [first, second],
+                [jobg8],
+                source="NEJobs",
+            ),
+        )
+        self.assertEqual(
+            ["nejobs-300950"],
+            unaccounted_approved_ids(
+                [first, second],
+                [first],
+                source="NEJobs",
+            ),
+        )
 
     def test_composer_uses_exact_early_closing_time_on_current_day(self):
         external = vacancy_to_published_job(
