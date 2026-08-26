@@ -1,6 +1,6 @@
 # Ontap daily regional overview
 
-Generated: 2026-08-26T11:13:06+00:00
+Generated: 2026-08-26T17:54:09+00:00
 
 > LIVE Service Admin and Support Worker counts reconcile to `pipeline/reports-daily/live-job-source-count-2026-08-26.csv` on `main`, with factual detail/alias regions rolled into their canonical 78-market UK region before the LIVE table and headline are totalled. LIVE Sales Advisor, Paralegal, Marketing and HR / Recruitment counts come from their current published configured-slice JSON on `main`. The overview covers all 78 assessable UK markets; LIVE status remains controlled only by the slice register. Before same-feed 78-market coverage has run, NOT LIVE Admin/Support may fall back to the latest all-region Module 2 profile (2026-08-17), and Service Admin may also add current Teaching Vacancies regional candidate output. `—` means not assessed / no current source; it does NOT mean zero. NOT LIVE Service Admin and Support Worker were assessed from the same JobG8 daily feed (2026-08-26) used by the production family run, across 78 UK markets with the config-driven production wrappers, persistent review decisions and canonical geo. NOT LIVE Sales Advisor was assessed from that same feed across 78 UK markets using the governed Customer Sales classifier, canonical geo, campaign dedupe and final production QA. Sales diagnostic counts are evidence only and never activate a slice automatically; LIVE Sales Advisor counts continue to come from the current published Customer Sales configured-slice JSON. NOT LIVE Paralegal, Marketing and HR / Recruitment were assessed from that same feed across 78, 78 and 78 UK markets respectively, using their frozen production boundaries, content dedupe and canonical geo. All diagnostic counts are evidence only and never activate a slice automatically. Rolling family history stores one snapshot per feed date, replaces same-date reruns, retains the latest 14 feed dates and is used only as decision evidence for NOT LIVE slices.
 
@@ -15,7 +15,7 @@ Generated: 2026-08-26T11:13:06+00:00
 | Cambridgeshire | 36 |  |  |  |  |  |
 | Cheshire - East | 13 |  |  |  |  |  |
 | Cheshire - Warrington & Halton | 32 |  |  |  |  |  |
-| Cheshire - West |  |  |  |  |  |  |
+| Cheshire - West | CHECK |  |  |  |  |  |
 | Cornwall | 4 |  |  |  |  |  |
 | Cumbria - North |  |  |  |  |  |  |
 | Cumbria - South |  | CHECK |  |  |  |  |
@@ -51,18 +51,18 @@ Generated: 2026-08-26T11:13:06+00:00
 | North Wales - East |  |  |  |  |  |  |
 | North Wales - West |  |  |  |  |  |  |
 | Northamptonshire | 26 |  |  |  |  |  |
-| Northern Ireland - East |  |  |  |  |  |  |
+| Northern Ireland - East | CHECK |  |  |  |  |  |
 | Northern Ireland - West |  |  |  |  |  |  |
 | Nottinghamshire | 20 |  |  |  |  | 4 |
 | Oxfordshire | 40 |  |  |  |  |  |
 | Rutland |  |  |  |  |  |  |
 | Scotland - Borders |  |  |  |  |  |  |
-| Scotland Central - Edinburgh & Lothians |  |  |  |  |  |  |
+| Scotland Central - Edinburgh & Lothians | CHECK |  |  |  |  |  |
 | Scotland Central - Falkirk & Stirling |  |  |  |  |  |  |
 | Scotland Central - Fife |  |  |  |  |  |  |
 | Scotland Central - Tayside |  |  |  |  |  |  |
 | Scotland West - Ayrshire |  |  |  |  |  |  |
-| Scotland West - Glasgow |  |  |  |  |  |  |
+| Scotland West - Glasgow | CHECK |  |  |  |  |  |
 | Scotland West - Lanarkshire |  |  |  |  |  |  |
 | Scotland West - Renfrewshire & Inverclyde |  |  |  |  |  |  |
 | Shropshire | 14 |  |  |  |  |  |
@@ -81,7 +81,7 @@ Generated: 2026-08-26T11:13:06+00:00
 | West Midlands - Black Country | 8 |  |  |  |  |  |
 | West Midlands - Coventry & Warwickshire | 27 |  |  |  |  |  |
 | Wiltshire | 23 | 5 |  |  |  |  |
-| Worcestershire |  |  |  |  |  |  |
+| Worcestershire | CHECK |  |  |  |  |  |
 | Yorkshire - East | 15 |  |  |  |  |  |
 | Yorkshire - North | 22 |  |  |  |  |  |
 | Yorkshire - South | 19 | 1 |  |  |  |  |
@@ -100,7 +100,7 @@ Generated: 2026-08-26T11:13:06+00:00
 | Cambridgeshire |  | 0 / 0.2 / 0/5 | 2 / 3.4 / 0/5 | 2 / 1.3 / 0/3 | 2 / 1.3 / 0/3 | 0 / 0.5 / 0/2 |
 | Cheshire - East |  | 1 / 1.0 / 0/5 | 2 / 2.0 / 0/5 | 0 / 0.7 / 0/3 | 2 / 0.7 / 0/3 | 0 / 0.0 / 0/2 |
 | Cheshire - Warrington & Halton |  | 2 / 1.8 / 0/5 | 2 / 2.6 / 0/5 | 1 / 1.7 / 0/3 | 0 / 0.0 / 0/3 | 0 / 0.5 / 0/2 |
-| Cheshire - West | 8 / 8.0 / 5/5 | 3 / 1.8 / 0/5 | 3 / 4.0 / 0/5 | 0 / 0.7 / 0/3 | 1 / 0.3 / 0/3 | 0 / 0.5 / 0/2 |
+| Cheshire - West |  | 3 / 1.8 / 0/5 | 3 / 4.0 / 0/5 | 0 / 0.7 / 0/3 | 1 / 0.3 / 0/3 | 0 / 0.5 / 0/2 |
 | Cornwall |  | 2 / 1.2 / 0/5 | 1 / 1.2 / 0/5 | 0 / 0.0 / 0/3 | 0 / 0.0 / 0/3 | 0 / 0.0 / 0/2 |
 | Cumbria - North | 2 / 2.4 / 0/5 | 5 / 5.8 / 3/5 | 0 / 0.0 / 0/5 | 0 / 0.0 / 0/3 | 0 / 0.0 / 0/3 | 0 / 0.0 / 0/2 |
 | Cumbria - South | 1 / 1.4 / 0/5 |  | 1 / 0.8 / 0/5 | 0 / 0.0 / 0/3 | 0 / 0.0 / 0/3 | 0 / 0.0 / 0/2 |
@@ -136,18 +136,18 @@ Generated: 2026-08-26T11:13:06+00:00
 | North Wales - East | 4 / 4.5 / 1/4 | 0 / 0.0 / 0/4 | 1 / 2.0 / 0/4 | 0 / 0.0 / 0/3 | 1 / 0.3 / 0/3 | 0 / 0.0 / 0/2 |
 | North Wales - West | 1 / 1.5 / 0/4 | 0 / 0.0 / 0/4 | 0 / 0.0 / 0/4 | 0 / 0.0 / 0/3 | 0 / 0.0 / 0/3 | 0 / 0.5 / 0/2 |
 | Northamptonshire |  | 0 / 0.0 / 0/5 | 2 / 2.4 / 0/5 | 1 / 1.7 / 0/3 | 2 / 1.3 / 0/3 | 2 / 4.0 / 1/2 |
-| Northern Ireland - East | 8 / 8.5 / 4/4 | 2 / 2.0 / 0/4 | 0 / 0.0 / 0/4 | 1 / 1.0 / 0/3 | 0 / 0.0 / 0/3 | 0 / 0.5 / 0/2 |
+| Northern Ireland - East |  | 2 / 2.0 / 0/4 | 0 / 0.0 / 0/4 | 1 / 1.0 / 0/3 | 0 / 0.0 / 0/3 | 0 / 0.5 / 0/2 |
 | Northern Ireland - West | 4 / 4.0 / 0/4 | 0 / 0.0 / 0/4 | 1 / 1.0 / 0/4 | 0 / 0.0 / 0/3 | 0 / 0.0 / 0/3 | 0 / 0.0 / 0/2 |
 | Nottinghamshire |  | 0 / 0.6 / 0/5 | 3 / 3.0 / 0/5 | 3 / 2.0 / 0/3 | 2 / 2.0 / 0/3 |  |
 | Oxfordshire |  | 8 / 4.6 / 2/5 | 5 / 3.0 / 0/5 | 2 / 2.0 / 0/3 | 4 / 3.0 / 0/3 | 0 / 0.5 / 0/2 |
 | Rutland | 0 / 0.0 / 0/5 | 0 / 0.0 / 0/5 | 0 / 0.0 / 0/5 | 0 / 0.0 / 0/3 | 0 / 0.0 / 0/3 | 0 / 0.0 / 0/2 |
 | Scotland - Borders | 1 / 1.0 / 0/4 | 0 / 0.0 / 0/4 | 0 / 0.0 / 0/4 | 0 / 0.0 / 0/3 | 0 / 0.0 / 0/3 | 0 / 0.0 / 0/2 |
-| Scotland Central - Edinburgh & Lothians | 6 / 12.8 / 4/4 | 0 / 0.2 / 0/4 | 3 / 2.0 / 0/4 | 4 / 3.0 / 0/3 | 0 / 0.0 / 0/3 | 0 / 1.0 / 0/2 |
+| Scotland Central - Edinburgh & Lothians |  | 0 / 0.2 / 0/4 | 3 / 2.0 / 0/4 | 4 / 3.0 / 0/3 | 0 / 0.0 / 0/3 | 0 / 1.0 / 0/2 |
 | Scotland Central - Falkirk & Stirling | 3 / 3.0 / 0/4 | 0 / 0.0 / 0/4 | 0 / 0.0 / 0/4 | 0 / 0.0 / 0/3 | 0 / 0.0 / 0/3 | 0 / 0.0 / 0/2 |
 | Scotland Central - Fife | 1 / 2.0 / 0/4 | 0 / 0.0 / 0/4 | 1 / 1.0 / 0/4 | 0 / 0.0 / 0/3 | 0 / 0.0 / 0/3 | 0 / 0.0 / 0/2 |
 | Scotland Central - Tayside | 4 / 4.5 / 0/4 | 0 / 0.0 / 0/4 | 0 / 0.5 / 0/4 | 1 / 1.0 / 0/3 | 0 / 0.0 / 0/3 | 0 / 0.0 / 0/2 |
 | Scotland West - Ayrshire | 2 / 1.0 / 0/4 | 0 / 0.0 / 0/4 | 0 / 0.0 / 0/4 | 0 / 0.0 / 0/3 | 0 / 0.0 / 0/3 | 0 / 0.0 / 0/2 |
-| Scotland West - Glasgow | 10 / 14.5 / 4/4 | 0 / 0.0 / 0/4 | 2 / 3.5 / 0/4 | 0 / 0.7 / 0/3 | 0 / 0.7 / 0/3 | 1 / 1.0 / 0/2 |
+| Scotland West - Glasgow |  | 0 / 0.0 / 0/4 | 2 / 3.5 / 0/4 | 0 / 0.7 / 0/3 | 0 / 0.7 / 0/3 | 1 / 1.0 / 0/2 |
 | Scotland West - Lanarkshire | 1 / 1.2 / 0/4 | 0 / 0.2 / 0/4 | 1 / 0.5 / 0/4 | 0 / 0.0 / 0/3 | 0 / 0.0 / 0/3 | 0 / 0.0 / 0/2 |
 | Scotland West - Renfrewshire & Inverclyde | 1 / 1.0 / 0/4 | 0 / 0.0 / 0/4 | 1 / 0.8 / 0/4 | 0 / 0.0 / 0/3 | 0 / 0.0 / 0/3 | 0 / 0.0 / 0/2 |
 | Shropshire |  | 3 / 2.4 / 0/5 | 2 / 2.0 / 0/5 | 2 / 1.7 / 0/3 | 1 / 0.3 / 0/3 | 2 / 2.0 / 0/2 |
@@ -166,7 +166,7 @@ Generated: 2026-08-26T11:13:06+00:00
 | West Midlands - Black Country |  | 1 / 1.4 / 0/5 | 1 / 1.0 / 0/5 | 1 / 1.0 / 0/3 | 1 / 0.3 / 0/3 | 0 / 0.0 / 0/2 |
 | West Midlands - Coventry & Warwickshire |  | 0 / 0.0 / 0/5 | 0 / 0.4 / 0/5 | 0 / 1.3 / 0/3 | 2 / 1.3 / 0/3 | 3 / 3.5 / 0/2 |
 | Wiltshire |  |  | 2 / 2.2 / 0/5 | 3 / 3.0 / 0/3 | 1 / 0.3 / 0/3 | 2 / 2.5 / 0/2 |
-| Worcestershire | 10 / 8.8 / 5/5 | 2 / 2.4 / 0/5 | 3 / 3.0 / 0/5 | 0 / 0.7 / 0/3 | 1 / 0.7 / 0/3 | 0 / 1.0 / 0/2 |
+| Worcestershire |  | 2 / 2.4 / 0/5 | 3 / 3.0 / 0/5 | 0 / 0.7 / 0/3 | 1 / 0.7 / 0/3 | 0 / 1.0 / 0/2 |
 | Yorkshire - East |  | 1 / 1.0 / 0/5 | 2 / 2.2 / 0/5 | 1 / 1.3 / 0/3 | 0 / 0.0 / 0/3 | 2 / 2.0 / 0/2 |
 | Yorkshire - North |  | 4 / 4.2 / 0/5 | 1 / 0.6 / 0/5 | 1 / 0.7 / 0/3 | 1 / 0.3 / 0/3 | 1 / 1.0 / 0/2 |
 | Yorkshire - South |  |  | 1 / 2.8 / 0/5 | 4 / 3.0 / 0/3 | 2 / 1.3 / 0/3 | 0 / 0.0 / 0/2 |
@@ -176,7 +176,7 @@ Generated: 2026-08-26T11:13:06+00:00
 
 | Measure | Service admin | Support worker | Sales advisor | Paralegal | Marketing | HR / Recruitment |
 |---|---:|---:|---:|---:|---:|---:|
-| Live regions | 41 / 78 | 9 / 78 | 3 / 78 | 4 / 78 | 4 / 78 | 6 / 78 |
-| Live jobs | 1055 | 55 + 1 CHECK | 27 | 13 + 2 CHECK | 47 | 24 |
+| Live regions | 46 / 78 | 9 / 78 | 3 / 78 | 4 / 78 | 4 / 78 | 6 / 78 |
+| Live jobs | 1055 + 5 CHECK | 55 + 1 CHECK | 27 | 13 + 2 CHECK | 47 | 24 |
 
-**Live slices: 67 / 468.**
+**Live slices: 72 / 468.**
