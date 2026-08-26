@@ -42,6 +42,7 @@ jobs:
           python -m external_sources.vonne_poc \
             --fetch-live \
             --acknowledge-source-terms \
+            --jobg8 input-jobg8-archive/2026-08/2026-08-12.xlsx \
             --report-csv /tmp/vonne-review.csv \
             --summary-md /tmp/vonne-summary.md
 
