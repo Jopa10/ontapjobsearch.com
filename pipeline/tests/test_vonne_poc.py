@@ -1,8 +1,10 @@
 from datetime import datetime
 from pathlib import Path
 from zoneinfo import ZoneInfo
+from unittest.mock import patch
 import json
 import sys
+import urllib.error
 
 
 PIPELINE_ROOT = Path(__file__).resolve().parents[1]
@@ -17,6 +19,7 @@ from external_sources.vonne_poc import (  # noqa: E402
     VonneVacancy,
     classify,
     deduplicate_nejobs,
+    fetch_text,
     geography_for_item,
     load_nejobs_candidates,
     parse_args,
@@ -58,6 +61,74 @@ def sample_vacancy(**overrides):
     values.update(overrides)
     return VonneVacancy(**values)
 
+
+
+def test_fetch_text_retries_transient_connection_failure():
+    class Headers:
+        @staticmethod
+        def get_content_charset():
+            return "utf-8"
+
+    class Response:
+        headers = Headers()
+
+        def __enter__(self):
+            return self
+
+        def __exit__(self, *_args):
+            return False
+
+        @staticmethod
+        def read():
+            return b"<html>VONNE jobs</html>"
+
+    transient = urllib.error.URLError(
+        ConnectionResetError("connection reset")
+    )
+    with (
+        patch(
+            "external_sources.vonne_poc.urllib.request.urlopen",
+            side_effect=[transient, Response()],
+        ) as opener,
+        patch("external_sources.vonne_poc.time.sleep") as sleeper,
+    ):
+        text = fetch_text(
+            "https://www.vonne.org.uk/vonne-jobs",
+            timeout=1,
+            max_attempts=3,
+            retry_delay=0,
+        )
+
+    assert text == "<html>VONNE jobs</html>"
+    assert opener.call_count == 2
+    sleeper.assert_called_once_with(0.0)
+
+
+def test_fetch_text_does_not_retry_non_retryable_http_error():
+    not_found = urllib.error.HTTPError(
+        "https://www.vonne.org.uk/missing",
+        404,
+        "Not Found",
+        {},
+        None,
+    )
+    with patch(
+        "external_sources.vonne_poc.urllib.request.urlopen",
+        side_effect=not_found,
+    ) as opener:
+        try:
+            fetch_text(
+                "https://www.vonne.org.uk/missing",
+                timeout=1,
+                max_attempts=4,
+                retry_delay=0,
+            )
+        except urllib.error.HTTPError as exc:
+            assert exc.code == 404
+        else:
+            raise AssertionError("non-retryable HTTP error was swallowed")
+
+    assert opener.call_count == 1
 
 def test_parse_listing_html_extracts_card_facts():
     text = """
