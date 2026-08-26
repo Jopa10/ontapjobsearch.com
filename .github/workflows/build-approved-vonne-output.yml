@@ -85,6 +85,9 @@ jobs:
           python - <<'PY'
           import json
           from pathlib import Path
+          from pipeline.external_sources.compose_northeast_admin import (
+              unaccounted_approved_ids,
+          )
 
           external = json.loads(
               Path("pipeline/output-external/vonne-admin-service.json").read_text()
@@ -98,10 +101,16 @@ jobs:
               raise SystemExit("STOP: approved VONNE output contains another source")
           if any(not str(row.get("job_id", "")).startswith("vonne-") for row in external):
               raise SystemExit("STOP: approved VONNE output contains an invalid job ID")
-          external_ids = {row["job_id"] for row in external}
-          combined_ids = {row["job_id"] for row in combined}
-          if not external_ids <= combined_ids:
-              raise SystemExit("STOP: combined output is missing approved VONNE IDs")
+          missing_ids = unaccounted_approved_ids(
+              external,
+              combined,
+              source="VONNE",
+          )
+          if missing_ids:
+              raise SystemExit(
+                  "STOP: combined output has unaccounted approved VONNE IDs: "
+                  + ", ".join(missing_ids)
+              )
           print(f"Approved VONNE: {len(external)}")
           print(f"Combined North East jobs: {len(combined)}")
           PY
