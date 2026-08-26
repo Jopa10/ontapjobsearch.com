@@ -25,17 +25,18 @@ def test_confirmed_404_after_listing_is_omitted() -> None:
         if url == gone:
             raise OSError('Teaching Vacancies request failed after 4 attempts — HTTP Error 404: Not Found')
         return '<html></html>'
-    records = discovery.detail_records(
+    detail_sweep = discovery.detail_records(
         (listing(gone), listing(live)),
         request_text=request_text,
         parse_detail=lambda _document, url: vacancy(url),
     )
-    assert len(records) == 1
-    assert records[0].canonical_url == live
+    assert len(detail_sweep.records) == 1
+    assert detail_sweep.records[0].canonical_url == live
+    assert detail_sweep.disappeared_urls == (gone,)
 
-def test_non_404_detail_failure_still_blocks_run() -> None:
+def test_detail_failure_with_no_usable_records_still_blocks_run() -> None:
     url = 'https://teaching-vacancies.service.gov.uk/jobs/broken'
-    with pytest.raises(ValueError, match='detail fetch was incomplete'):
+    with pytest.raises(ValueError, match='produced no usable records'):
         discovery.detail_records(
             (listing(url),),
             request_text=lambda _url: (_ for _ in ()).throw(OSError('HTTP Error 500')),
