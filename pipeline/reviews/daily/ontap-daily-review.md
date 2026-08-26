@@ -4,7 +4,7 @@
 > Do not start reviewing yet. Rebuild this review after those source refreshes complete.
 
 review_date: 2026-08-26
-generated_at: 2026-08-26T08:22:33+00:00
+generated_at: 2026-08-26T09:22:13+00:00
 
 **33 job(s) need a human decision.**
 
@@ -122,7 +122,7 @@ hub_fingerprint: b2deb7afefd6bb6e40b3b43c38a7c34e31f2b4fcf54b3083d7ef28b4c7a4c48
 ---
 
 ---
-action:  exclude
+action: exclude
 POSS | JobG8 | Dorset | Dorset | £45000 per year | Project Coordinator (Solar / Renewables)
 source_key: jobg8
 source: JobG8
