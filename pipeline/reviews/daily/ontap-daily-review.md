@@ -32,7 +32,7 @@ Edit only each `action:` line:
 ## JobG8 — 33 to review
 
 ---
-action:
+action: select
 POSS | JobG8 | Berkshire | Berkshire | £35000 per year | Sales Coordinator (Bespoke Worktops)
 source_key: jobg8
 source: JobG8
@@ -50,7 +50,7 @@ hub_fingerprint: ab763443491ff073c8e75db41d07ccf1def5c48bb85b4d9451b502185c62b3c
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | Bristol & Bath | Bristol | £45000 per year | Operations Co-Ordinator
 source_key: jobg8
 source: JobG8
@@ -68,7 +68,7 @@ hub_fingerprint: a009822030a1d144a8fa09590269f02a66a0e884773993cd17734c5a2eab514
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | Cambridgeshire | Cambridge | £55000 per year | Linux Administrator
 source_key: jobg8
 source: JobG8
@@ -86,7 +86,7 @@ hub_fingerprint: 08d42880491399cb29c9c51312ba70d6d61d8a3504806be4f3ef6a19933a2f0
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | Cheshire - Warrington & Halton | Warrington | £50000 per year | Construction Document Controller
 source_key: jobg8
 source: JobG8
@@ -104,7 +104,7 @@ hub_fingerprint: 74fc02adb3b8319386d28abce686b72ca10491a5b75f509c2f4022cdb29c1c9
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Derbyshire | Derbyshire | £30000 - £33000 per year (free parking and hybrid working) | Finance Assistant
 source_key: jobg8
 source: JobG8
@@ -122,7 +122,7 @@ hub_fingerprint: b2deb7afefd6bb6e40b3b43c38a7c34e31f2b4fcf54b3083d7ef28b4c7a4c48
 ---
 
 ---
-action:
+action:  exclude
 POSS | JobG8 | Dorset | Dorset | £45000 per year | Project Coordinator (Solar / Renewables)
 source_key: jobg8
 source: JobG8
@@ -140,7 +140,7 @@ hub_fingerprint: 3be15b00cc772b121a8f5a7b830f1d4242c1ec1b8ba268ea5e65fcfaf4f7275
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | Essex | Essex | £40000 per year | Technical Helpdesk
 source_key: jobg8
 source: JobG8
@@ -158,7 +158,7 @@ hub_fingerprint: 1c2168b0ff6e64e2df393b672b418980bcf85b882a0fd319d9659b1cfe9341f
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Gloucestershire | Gloucestershire | £35000 per year | Finance Assistant
 source_key: jobg8
 source: JobG8
@@ -176,7 +176,7 @@ hub_fingerprint: 4b38be6b23fb3204c5aafb102410523e55c820c794078db3ee1832e489e1937
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Gloucestershire | Gloucestershire | £35000 per year | Office & Finance Assistant
 source_key: jobg8
 source: JobG8
@@ -194,7 +194,7 @@ hub_fingerprint: f47a045e0583d100da9b5ee50db39b0a833de8c3e1df96ebf3e97e30da4cceb
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Gloucestershire | Gloucestershire | £15 - £20 per hour | Part Time Accounts Assistant
 source_key: jobg8
 source: JobG8
@@ -212,7 +212,7 @@ hub_fingerprint: dd5d13cd56cd60e39488cbda8e984a040bb8d68821bc0d08801b4deb2a114c7
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Gloucestershire | Gloucestershire | £35000 per year | Talent & Recruitment Coordinator
 source_key: jobg8
 source: JobG8
@@ -230,7 +230,7 @@ hub_fingerprint: d6c0cfa65e42f3334e100dc30e22778228a272006892771c18bd8a59672198e
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | Greater Manchester - Manchester & Salford | Manchester | £30000 - £34500 per year | Office Coordinator - Team Supervision essential
 source_key: jobg8
 source: JobG8
@@ -248,7 +248,7 @@ hub_fingerprint: a96a749fdffa9cefb300a21082991344edc372969465a9a7c8cd109712ff2eb
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Hertfordshire | Hertfordshire | £35000 per year | Relocations Co-Ordinator
 source_key: jobg8
 source: JobG8
@@ -266,7 +266,7 @@ hub_fingerprint: 898ddd68e2b86b65fc6aec5fd5a8a6ddb1df1e80650b2d5cb390a5d7b254f93
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | Hertfordshire | Hertfordshire | £40000 per year | Security Test Co-ordinator
 source_key: jobg8
 source: JobG8
@@ -284,7 +284,7 @@ hub_fingerprint: b7560cd3af0ae2b5d2439f8b229034dc073738a2b0673f09c3a3bc95113be82
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Kent | Kent | £19 per hour | Customer Experience Coordinator
 source_key: jobg8
 source: JobG8
@@ -302,7 +302,7 @@ hub_fingerprint: 87d8e32aada09c3c63424d0b7cbc5f79b780ae037677fd866c5486a776f767a
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | London | Borehamwood | £40000 per year | Incident Reporting Administrator
 source_key: jobg8
 source: JobG8
@@ -320,7 +320,7 @@ hub_fingerprint: ae5ea8986fc74b7ef327bb8410ea6b885356215eeffc97a8dedc2273c9b6f56
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | London | London | £16.87 - £20.25 per hour | Day Care Assistant
 source_key: jobg8
 source: JobG8
@@ -338,7 +338,7 @@ hub_fingerprint: 626f95a8c9cbca2502fbaec4036d5d908bda033fdf5d1ecba73305da2bd1eb5
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | London | London | £40000 per year | Distributor Sales Coordinator
 source_key: jobg8
 source: JobG8
@@ -356,7 +356,7 @@ hub_fingerprint: b0e4be14a7047160743781dbf03e0cea6386f2c1a08192525fdaa708d538804
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | London | London | £55000 per year | Media Sales Administrator
 source_key: jobg8
 source: JobG8
@@ -374,7 +374,7 @@ hub_fingerprint: 41be90afc738ccd669596e539836c370766d13c49e5cbfc33c12364573de0dc
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | London | London | £16 - £18 per hour | Repairs Planner
 source_key: jobg8
 source: JobG8
@@ -392,7 +392,7 @@ hub_fingerprint: 956024a877c96e90f4c7de8be1a67d4e8baf6be72034c55faab0c33fa9a7bc3
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | London | Uxbridge | £200 per daily | Live-in Personal Care Assistant History & Politics Student
 source_key: jobg8
 source: JobG8
@@ -410,7 +410,7 @@ hub_fingerprint: 94e5495261eddfb5ae58b031771c565d0b4b56173e0984d80ee854ade9a15d5
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | Merseyside - Liverpool | Liverpool | £275 - £350 per daily | Lead Project Coordinator- Data Systems Migration
 source_key: jobg8
 source: JobG8
@@ -428,7 +428,7 @@ hub_fingerprint: 94aca952d877a5d276d9e15e8f2ba471d463dfc32a18c6082bef8530ffec13c
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Nottinghamshire | Nottinghamshire | £35000 per year | Affiliate & Rewards Coordinator
 source_key: jobg8
 source: JobG8
@@ -446,7 +446,7 @@ hub_fingerprint: d4ee7ac2e6ce6b086bf1d3101cb4cc0e6a5c9e62133df84b47e1e72345a5074
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Oxfordshire | Oxfordshire | £32,000 per annum | Business Administrator
 source_key: jobg8
 source: JobG8
@@ -464,7 +464,7 @@ hub_fingerprint: 6be2973df14072d34962481c9d5fafbde836330d46ac7b796885330ee6f262c
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | Somerset | Somerset | £70000 per year | Financial Planner (Investment Management)
 source_key: jobg8
 source: JobG8
@@ -482,7 +482,7 @@ hub_fingerprint: 3bb118bdc4b7b03aa26c00ba6f4d95274f050939abc78e141db1b3ecd6e3435
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | Somerset | Somerset | £45000 per year | Technical Coordinator
 source_key: jobg8
 source: JobG8
@@ -500,7 +500,7 @@ hub_fingerprint: 633c9b99908e54f31fe8e5ddd6543c7ce4a6ef4b3d84d3906f47e376ca30437
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Sussex | Crawley | £18 - £19 per hour | Complex Care Assistant
 source_key: jobg8
 source: JobG8
@@ -518,7 +518,7 @@ hub_fingerprint: 41ac4c40259ff0e7e88a41400df57903f07351d1f66d810bbfa9d590b75dd7c
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | Sussex | Sussex | £40600 per year | SharePoint Developer/Administrator
 source_key: jobg8
 source: JobG8
@@ -536,7 +536,7 @@ hub_fingerprint: 44b51207ee1b5fc62e348f8a30430eac74de3b902d3d730037c0e7342f684ba
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | West Midlands - Coventry & Warwickshire | Warwickshire | £13.45 - £20.18 per hour | Cash Allocation Administrator
 source_key: jobg8
 source: JobG8
@@ -554,7 +554,7 @@ hub_fingerprint: dd8fbc97f8a99350c7298c02f0043b59c771b1364ab83f554e97d8b9f8f56b1
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Yorkshire - East | Hull | £25000 - £32000 per year | Quotations & Estimating Coordinator
 source_key: jobg8
 source: JobG8
@@ -572,7 +572,7 @@ hub_fingerprint: 872ea9ebf574809c2492e6e5a3d8997a7b49fc3dd27ee0617339010e2309a7d
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Yorkshire - West | Bradford | £125 per daily | Project Support Administrator
 source_key: jobg8
 source: JobG8
@@ -590,7 +590,7 @@ hub_fingerprint: fd1a20ab96cd38d4f2c82a25d4738fa40706e5cfa70db3802bb3e1764be2b51
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Yorkshire - West | Halifax | £14.24 - £16 per hour (+ INC holiday pay) | Complex Care Assistant
 source_key: jobg8
 source: JobG8
@@ -608,7 +608,7 @@ hub_fingerprint: 24cc07a483b8403475caacf41d2dee4afc98e6c0b481b4b2ba455c80effece6
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | Yorkshire - West | Leeds | £40000 per year | Assistant Spatial Planner
 source_key: jobg8
 source: JobG8
