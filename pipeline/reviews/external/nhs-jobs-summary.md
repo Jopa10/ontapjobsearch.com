@@ -2,11 +2,11 @@
 
 review_date: 2026-08-27
 
-- Open Administrative & Clerical rows reviewed: 2507
+- Open Administrative & Clerical rows reviewed: 2505
 - Auto/remembered selected: 624
 - Selected HC Tier A: 260
 - Selected HC Tier B: 364
-- POSS awaiting decision: 1525
+- POSS awaiting decision: 1523
 - Excluded: 0
 - HARD_PASS: 358
 
@@ -4030,18 +4030,6 @@ region:
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/M9990-26-0601
 factual_fingerprint: b54373081b7e0213727651713d59b9c487af5d885733d87de6311aec7cee6532
----
-
----
-action:
-POSS | NHS Jobs | London | London, SE13 6LH | £25760.00 to £27476.00 | Team Administrator - Home Enteral Nutrition Team
-source_job_id: 5561701
-title: Team Administrator - Home Enteral Nutrition Team
-employer: Lewisham and Greenwich NHS Trust
-region: London
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9197-26-0796
-factual_fingerprint: 30b1704e88c6dfe080eab8677954331c657aa0c5c6d0ebc428b535a39bb5d31b
 ---
 
 ---
@@ -10306,18 +10294,6 @@ region: Leicestershire
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A2936-26-0005
 factual_fingerprint: c0baf5c0490d3a3608b8515f4cc9af41b4e7785b96fbf2f9d6302c60478482a3
----
-
----
-action:
-POSS | NHS Jobs | Sussex | Haywards Heath, RH17 6HB | £12.71 | Dispensary Counter Assistant - GP Surgery
-source_job_id: 5553552
-title: Dispensary Counter Assistant - GP Surgery
-employer: Ouse Valley Practice
-region: Sussex
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A3516-26-0004
-factual_fingerprint: 13578b32204e1f4ad65166382f626c098fce68b3d8bf6f90c3a2d5f88e14b580
 ---
 
 ---
