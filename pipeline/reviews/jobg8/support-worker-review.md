@@ -85,12 +85,6 @@ _No jobs in this group._
 
 ---
 action:
-SELECTED | Sussex | Bognor Regis | £30000 - £35000 per year ((DOE)) | Personal Assistant to the Directors
-job_id: 23643_225445462
----
-
----
-action:
 SELECTED | Sussex | Brighton | £14 - £16 per hour | Support Worker
 job_id: 23643_222307132
 ---
@@ -137,11 +131,7 @@ _No jobs in this group._
 
 ## CUMBRIA SOUTH — SELECTED
 
----
-action:
-SELECTED | Cumbria - South | Barrow-in-furness | £12.85 per hour | Waking Night Support Worker (Part Time)
-job_id: 107864411
----
+_No jobs in this group._
 
 ## CUMBRIA SOUTH — POSSIBLES
 
@@ -189,12 +179,6 @@ job_id: 1401784687
 action:
 SELECTED | Hampshire | Southampton | £25,947 - £26,305 per annum | Accommodation Support Worker
 job_id: 1674633
----
-
----
-action:
-SELECTED | Hampshire | Alton | £14 - £15 per hour (Excellent Pay) | Domiciliary Care Assistant
-job_id: 107332363
 ---
 
 ---
@@ -443,12 +427,6 @@ SELECTED | Oxfordshire | Oxford | £85 - £105 per daily | Youth Support Worker 
 job_id: 1695997
 ---
 
----
-action:
-SELECTED | Oxfordshire | Bicester | £26000 per year | Support Worker
-job_id: 107893300
----
-
 ## OXFORDSHIRE — POSSIBLES
 
 _No jobs in this group._
@@ -507,12 +485,6 @@ job_id: 1693131
 action:
 SELECTED | Wiltshire | Swindon | £26,227 per annum | Female BSW Crisis House Peer Support Worker
 job_id: 1787836
----
-
----
-action:
-SELECTED | Wiltshire | Warminster | £12000 per year | Support Worker
-job_id: 107879335
 ---
 
 ---
