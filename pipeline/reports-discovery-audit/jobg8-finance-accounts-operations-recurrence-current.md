@@ -2,48 +2,48 @@
 
 Canonical UK assessment universe: **78 markets**.
 Counts use content-unique adverts after source-reference dedupe.
-LIKELY_IN jobs mapped into the universe: **211**.
-BORDERLINE jobs mapped into the universe: **184**.
-Markets with at least one LIKELY_IN job: **58 / 78**.
+LIKELY_IN jobs mapped into the universe: **279**.
+BORDERLINE jobs mapped into the universe: **0**.
+Markets with at least one LIKELY_IN job: **59 / 78**.
 
 Descriptive current-feed spread only — these thresholds do not activate a slice:
-- markets with 3+ LIKELY_IN: **33**
-- markets with 6+ LIKELY_IN: **14**
-- markets with 9+ LIKELY_IN: **4**
+- markets with 3+ LIKELY_IN: **39**
+- markets with 6+ LIKELY_IN: **20**
+- markets with 9+ LIKELY_IN: **10**
 
 ## Strongest current markets
 
 | Market | LIKELY_IN | BORDERLINE | Plausible incl. borderline |
 |---|---:|---:|---:|
-| Yorkshire - North | 11 | 5 | 16 |
-| Bristol & Bath | 11 | 2 | 13 |
-| Shropshire | 11 | 0 | 11 |
-| North East | 10 | 2 | 12 |
-| Gloucestershire | 8 | 5 | 13 |
-| Northern Ireland - East | 8 | 4 | 12 |
-| Yorkshire - West | 8 | 3 | 11 |
-| Greater Manchester - Manchester & Salford | 7 | 6 | 13 |
-| Leicestershire | 7 | 5 | 12 |
-| Devon | 7 | 4 | 11 |
-| Essex | 6 | 6 | 12 |
-| Surrey | 6 | 4 | 10 |
-| Northamptonshire | 6 | 3 | 9 |
-| Norfolk | 6 | 1 | 7 |
-| Cambridgeshire | 5 | 4 | 9 |
-| Wiltshire | 5 | 4 | 9 |
-| Somerset | 5 | 3 | 8 |
-| Oxfordshire | 5 | 1 | 6 |
-| Yorkshire - South | 4 | 6 | 10 |
-| Cheshire - Warrington & Halton | 4 | 3 | 7 |
-| London | 3 | 15 | 18 |
-| Nottinghamshire | 3 | 11 | 14 |
-| Hampshire | 3 | 7 | 10 |
-| Buckinghamshire | 3 | 4 | 7 |
-| Kent | 3 | 4 | 7 |
-| Sussex | 3 | 4 | 7 |
-| Lincolnshire | 3 | 3 | 6 |
-| Scotland West - Glasgow | 3 | 3 | 6 |
-| Yorkshire - East | 3 | 3 | 6 |
-| Staffordshire | 3 | 2 | 5 |
+| Yorkshire - North | 14 | 0 | 14 |
+| Gloucestershire | 11 | 0 | 11 |
+| North East | 11 | 0 | 11 |
+| Bristol & Bath | 10 | 0 | 10 |
+| Northern Ireland - East | 10 | 0 | 10 |
+| Shropshire | 10 | 0 | 10 |
+| Yorkshire - West | 10 | 0 | 10 |
+| Devon | 9 | 0 | 9 |
+| Essex | 9 | 0 | 9 |
+| Surrey | 9 | 0 | 9 |
+| Cambridgeshire | 8 | 0 | 8 |
+| Greater Manchester - Manchester & Salford | 8 | 0 | 8 |
+| Leicestershire | 8 | 0 | 8 |
+| Nottinghamshire | 8 | 0 | 8 |
+| Norfolk | 7 | 0 | 7 |
+| Northamptonshire | 7 | 0 | 7 |
+| Somerset | 7 | 0 | 7 |
+| Kent | 6 | 0 | 6 |
+| Sussex | 6 | 0 | 6 |
+| Yorkshire - South | 6 | 0 | 6 |
+| Cheshire - Warrington & Halton | 5 | 0 | 5 |
+| Cheshire - West | 5 | 0 | 5 |
+| Hampshire | 5 | 0 | 5 |
+| Lincolnshire | 5 | 0 | 5 |
+| Oxfordshire | 5 | 0 | 5 |
+| Wiltshire | 5 | 0 | 5 |
+| Yorkshire - East | 5 | 0 | 5 |
+| Buckinghamshire | 4 | 0 | 4 |
+| Derbyshire | 4 | 0 | 4 |
+| Dorset | 4 | 0 | 4 |
 
 This report is diagnostic evidence only. New-family LIVE activation remains an explicit owner decision after the governed family boundary and national validation are complete.

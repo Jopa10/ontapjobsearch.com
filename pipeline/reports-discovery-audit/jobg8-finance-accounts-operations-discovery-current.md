@@ -14,10 +14,10 @@ Salary rule applied diagnostically: **over £45,000 = OUT; exactly £45,000 is n
 
 ## Early volume viability gate
 
-Provisional LIKELY_IN: **223**
-Provisional BORDERLINE: **203**
-Provisional OUT (specialist/salary): **647**
-Estimated genuine inventory before deep advert review: **~325** (working range **223–426**).
+Provisional LIKELY_IN: **298**
+Provisional BORDERLINE: **0**
+Provisional OUT (specialist/salary): **775**
+Estimated genuine inventory before deep advert review: **~298** (working range **298–298**).
 Viability floor: **~100 genuine jobs nationally**.
 Early verdict: **GO / SCALE CLEAR**.
 
@@ -25,10 +25,10 @@ Early verdict: **GO / SCALE CLEAR**.
 
 | Decision | Content-unique jobs |
 |---|---:|
+| OUT_SPECIALIST | 408 |
 | OUT_SALARY | 351 |
-| OUT_SPECIALIST | 296 |
-| LIKELY_IN | 223 |
-| BORDERLINE | 203 |
+| LIKELY_IN | 298 |
+| OUT_BOUNDARY | 16 |
 
 ## Salary distribution — content-unique broad universe
 
