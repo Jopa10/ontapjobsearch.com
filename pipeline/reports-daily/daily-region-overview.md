@@ -1,6 +1,6 @@
 # Ontap daily regional overview
 
-Generated: 2026-08-27T16:36:47+00:00
+Generated: 2026-08-27T17:00:37+00:00
 
 > LIVE Service Admin and Support Worker counts reconcile to `pipeline/reports-daily/live-job-source-count-2026-08-27.csv` on `main`, with factual detail/alias regions rolled into their canonical 78-market UK region before the LIVE table and headline are totalled. LIVE Sales Advisor, Paralegal, Marketing and HR / Recruitment counts come from their current published configured-slice JSON on `main`. The overview covers all 78 assessable UK markets; LIVE status remains controlled only by the slice register. Before same-feed 78-market coverage has run, NOT LIVE Admin/Support may fall back to the latest all-region Module 2 profile (2026-08-17), and Service Admin may also add current Teaching Vacancies regional candidate output. `—` means not assessed / no current source; it does NOT mean zero. NOT LIVE Service Admin and Support Worker were assessed from the same JobG8 daily feed (2026-08-27) used by the production family run, across 78 UK markets with the config-driven production wrappers, persistent review decisions and canonical geo. NOT LIVE Sales Advisor was assessed from that same feed across 78 UK markets using the governed Customer Sales classifier, canonical geo, campaign dedupe and final production QA. Sales diagnostic counts are evidence only and never activate a slice automatically; LIVE Sales Advisor counts continue to come from the current published Customer Sales configured-slice JSON. NOT LIVE Paralegal, Marketing and HR / Recruitment were assessed from that same feed across 78, 78 and 78 UK markets respectively, using their frozen production boundaries, content dedupe and canonical geo. All diagnostic counts are evidence only and never activate a slice automatically. Rolling family history stores one snapshot per feed date, replaces same-date reruns, retains the latest 14 feed dates and is used only as decision evidence for NOT LIVE slices.
 
@@ -9,52 +9,52 @@ Generated: 2026-08-27T16:36:47+00:00
 | Region | Service admin | Support worker | Sales advisor | Paralegal | Marketing | HR / Recruitment |
 |---|---:|---:|---:|---:|---:|---:|
 | Bedfordshire |  |  |  |  |  |  |
-| Berkshire | 22 |  |  |  | CHECK | 2 |
-| Bristol & Bath | 18 |  |  |  |  |  |
+| Berkshire | 21 |  |  |  | 10 | 1 |
+| Bristol & Bath | 17 |  |  |  |  |  |
 | Buckinghamshire | 12 |  |  |  |  |  |
-| Cambridgeshire | 31 |  |  |  |  |  |
-| Cheshire - East | 14 |  |  |  |  |  |
-| Cheshire - Warrington & Halton | 28 |  |  |  |  |  |
-| Cheshire - West | 8 |  |  |  |  |  |
+| Cambridgeshire | 28 |  |  |  |  |  |
+| Cheshire - East | 10 |  |  |  |  |  |
+| Cheshire - Warrington & Halton | 16 |  |  |  |  |  |
+| Cheshire - West | 4 |  |  |  |  |  |
 | Cornwall | 4 |  |  |  |  |  |
 | Cumbria - North |  |  |  |  |  |  |
 | Cumbria - South |  | 1 |  |  |  |  |
 | Cumbria - West |  |  |  |  |  |  |
-| Derbyshire | 10 |  |  |  |  |  |
-| Devon | 31 |  |  |  |  |  |
+| Derbyshire | 9 |  |  |  |  |  |
+| Devon | 32 |  |  |  |  |  |
 | Dorset | 13 |  |  |  |  |  |
 | Essex | 35 |  |  | 3 |  |  |
 | Gloucestershire | 26 |  |  |  |  |  |
-| Greater Manchester - Manchester & Salford | 28 |  | 5 |  | 11 | 4 |
+| Greater Manchester - Manchester & Salford | 26 |  | 5 |  | 11 | 4 |
 | Greater Manchester - North |  |  |  |  |  |  |
 | Greater Manchester - South | 5 |  |  |  |  |  |
-| Greater Manchester - Wigan & Bolton | 12 |  |  |  |  |  |
+| Greater Manchester - Wigan & Bolton | 4 |  |  |  |  |  |
 | Hampshire | 45 | 13 |  |  |  |  |
 | Herefordshire |  |  |  |  |  |  |
 | Hertfordshire | 17 |  |  |  |  |  |
-| Kent | 41 | CHECK |  |  |  |  |
+| Kent | 41 | 11 |  |  |  |  |
 | Lancashire - Blackpool & Fylde |  |  |  |  |  |  |
 | Lancashire - Central |  |  |  |  |  |  |
 | Lancashire - East |  |  |  |  |  |  |
 | Lancashire - North |  |  |  |  |  |  |
 | Lancashire - West |  |  |  |  |  |  |
 | Leicestershire | 29 |  |  |  |  |  |
-| Lincolnshire | 12 |  |  |  |  |  |
-| London | 100 | 16 | 18 | 8 | 29 | 6 |
-| Merseyside - Liverpool | 9 |  |  |  |  |  |
+| Lincolnshire | 11 |  |  |  |  |  |
+| London | 96 | 16 | 18 | 8 | 31 | 6 |
+| Merseyside - Liverpool | 7 |  |  |  |  |  |
 | Merseyside - Sefton |  |  |  |  |  |  |
 | Merseyside - St Helens & Knowsley |  |  |  |  |  |  |
 | Merseyside - Wirral |  |  |  |  |  |  |
 | Norfolk | 19 |  |  | CHECK |  |  |
-| North East | 57 | 4 | CHECK |  |  |  |
+| North East | 56 | 4 | 4 |  |  |  |
 | North Scotland |  |  |  |  |  |  |
 | North Wales - East |  |  |  |  |  |  |
 | North Wales - West |  |  |  |  |  |  |
-| Northamptonshire | 24 |  |  |  |  |  |
+| Northamptonshire | 25 |  |  |  |  |  |
 | Northern Ireland - East | 8 |  |  |  |  |  |
 | Northern Ireland - West |  |  |  |  |  |  |
 | Nottinghamshire | 16 |  |  |  |  | 3 |
-| Oxfordshire | 40 | CHECK |  |  |  |  |
+| Oxfordshire | 39 | 7 |  |  |  |  |
 | Rutland |  |  |  |  |  |  |
 | Scotland - Borders |  |  |  |  |  |  |
 | Scotland Central - Edinburgh & Lothians | 4 |  |  |  |  |  |
@@ -67,10 +67,10 @@ Generated: 2026-08-27T16:36:47+00:00
 | Scotland West - Renfrewshire & Inverclyde |  |  |  |  |  |  |
 | Shropshire | 13 |  |  |  |  |  |
 | Somerset | 12 |  |  |  |  |  |
-| Staffordshire | 19 |  |  |  |  |  |
+| Staffordshire | 16 |  |  |  |  |  |
 | Suffolk | 13 |  |  | CHECK |  |  |
 | Surrey | 44 | 3 |  |  | 7 |  |
-| Sussex | 29 | 8 |  |  |  |  |
+| Sussex | 28 | 8 |  |  |  |  |
 | Wales - Mid |  |  |  |  |  |  |
 | Wales - West |  |  |  |  |  |  |
 | Wales South - Cardiff & Vale |  |  |  |  |  |  |
@@ -78,14 +78,14 @@ Generated: 2026-08-27T16:36:47+00:00
 | Wales South - Swansea Bay |  |  |  |  |  |  |
 | Wales South - Valleys |  |  |  |  |  |  |
 | West Midlands - Birmingham & Solihull | 13 |  |  |  | 3 | 3 |
-| West Midlands - Black Country | 8 |  |  |  |  |  |
-| West Midlands - Coventry & Warwickshire | 26 |  |  |  |  |  |
+| West Midlands - Black Country | 7 |  |  |  |  |  |
+| West Midlands - Coventry & Warwickshire | 23 |  |  |  |  |  |
 | Wiltshire | 25 | 7 |  |  |  |  |
 | Worcestershire | 10 |  |  |  |  |  |
 | Yorkshire - East | 14 |  |  |  |  |  |
 | Yorkshire - North | 21 |  |  |  |  |  |
-| Yorkshire - South | 17 | 2 |  |  |  |  |
-| Yorkshire - West | 32 | 3 | 4 |  |  | 4 |
+| Yorkshire - South | 17 | 1 |  |  |  |  |
+| Yorkshire - West | 33 | 3 | 4 |  |  | 4 |
 
 ## NOT LIVE
 
@@ -177,6 +177,6 @@ Generated: 2026-08-27T16:36:47+00:00
 | Measure | Service admin | Support worker | Sales advisor | Paralegal | Marketing | HR / Recruitment |
 |---|---:|---:|---:|---:|---:|---:|
 | Live regions | 46 / 78 | 11 / 78 | 4 / 78 | 4 / 78 | 5 / 78 | 6 / 78 |
-| Live jobs | 1026 | 57 + 2 CHECK | 27 + 1 CHECK | 11 + 2 CHECK | 50 + 1 CHECK | 22 |
+| Live jobs | 976 | 74 | 31 | 11 + 2 CHECK | 62 | 21 |
 
 **Live slices: 76 / 468.**
