@@ -2,10 +2,67 @@ from __future__ import annotations
 
 from datetime import date
 
+import pytest
+
 from external_sources import nhs_admin_inventory as inventory
 from external_sources import nhs_admin_service as nhs
 
 TODAY = date(2026, 8, 20)
+
+
+def test_inventory_retries_small_live_count_movement(monkeypatch) -> None:
+    calls: list[bool] = []
+
+    def fake_sweep(*, max_pages, accept_small_movement):  # type: ignore[no-untyped-def]
+        calls.append(accept_small_movement)
+        if len(calls) == 1:
+            raise inventory._RetryableInventoryMovement("2374 -> 2375")
+        return [{"source_job_id": "stable"}], 2375, False
+
+    monkeypatch.setattr(inventory, "_fetch_sweep", fake_sweep)
+
+    rows, total = inventory.fetch_all()
+
+    assert rows == [{"source_job_id": "stable"}]
+    assert total == 2375
+    assert calls == [False, False]
+
+
+def test_inventory_accepts_at_most_15_movement_after_bounded_retries(monkeypatch) -> None:
+    calls = 0
+
+    def fake_sweep(*, max_pages, accept_small_movement):  # type: ignore[no-untyped-def]
+        nonlocal calls
+        calls += 1
+        if not accept_small_movement:
+            raise inventory._RetryableInventoryMovement("2374 -> 2389")
+        return [{"source_job_id": "latest"}], 2389, True
+
+    monkeypatch.setattr(inventory, "_fetch_sweep", fake_sweep)
+
+    with pytest.warns(RuntimeWarning, match="no more than 15"):
+        rows, total = inventory.fetch_all()
+
+    assert rows == [{"source_job_id": "latest"}]
+    assert total == 2389
+    assert calls == inventory.MAX_INVENTORY_ATTEMPTS
+
+
+def test_inventory_stops_when_live_count_movement_exceeds_15(monkeypatch) -> None:
+    def fake_request(page: int, *, limit: int = 100) -> bytes:
+        return str(page).encode()
+
+    def fake_parse(payload: bytes | str):  # type: ignore[no-untyped-def]
+        page = int(payload)
+        total = 100 if page == 1 else 116
+        return [{"source_job_id": f"job-{page}"}], 2, total
+
+    monkeypatch.setattr(inventory, "request_page", fake_request)
+    monkeypatch.setattr(inventory, "parse_page", fake_parse)
+    monkeypatch.setattr(inventory.time, "sleep", lambda _seconds: None)
+
+    with pytest.raises(RuntimeError, match="beyond the safe fetch tolerance"):
+        inventory._fetch_sweep(max_pages=None, accept_small_movement=True)
 
 
 def test_title_classification_uses_registry_and_is_conservative() -> None:

@@ -1,12 +1,13 @@
 # Ontap System Overview
 
 **Last updated:** 27 August 2026
-**Status:** Canonical production state including the owner-approved Google Jobs eligibility remediation deployed on 27 August 2026.
+**Status:** Canonical production state including the 27 August Google Jobs remediation and NHS live-inventory tolerance.
 
 This is the short owner view of how Ontap is organised. It mirrors the five canonical system buckets in `SYSTEM_MAP.md`.
 
 ## Recent canonical changes
 
+- 27 August 2026 — **A normal small change in the live NHS vacancy count no longer blocks that day's NHS update:** the fetch restarts from the beginning and tries up to three times. If NHS is still moving by 15 jobs or fewer, the final cleanly deduplicated sweep continues with a warning; a movement above 15 still holds NHS on its previous approved state. The existing transactional publication checks and 20% NHS page ceiling are unchanged.
 - 27 August 2026 — **JobG8 Google Jobs coverage approved for production:** all 1,056 current JobG8 detail URLs build as indexable pages with a normal link to apply. The 777 jobs whose feed description is complete now pass the local `JobPosting` gate, up from zero with all audited required fields because every one now uses its stable Ontap first-publication date. The other 279 contain JobG8's click-apply teaser and remain deliberately without job schema; the checked workbook has no fuller description field and Ontap does not invent one. Recruiter names are not presented as the hiring employer, generic locations are not asserted as towns, and the one genuinely fully remote eligible vacancy uses Google's remote-job fields.
 - 27 August 2026 — **`datePosted` is set once, not refreshed:** current JobG8 uses `ontap_first_published` because no dependable source posting date is supplied. A future source date, or a semantically valid future JobG8 `StartDate`, takes precedence when first available. The verified publisher retains the earliest stable date across daily republishes, slice moves and reappearances.
 - 26 August 2026 — **One conflicting duplicate JobG8 ID no longer stops every clean output:** if the same JobG8 display reference arrives with different factual metadata, that ambiguous job is left out and named while the clean jobs continue. Up to 15 conflicting IDs are isolated this way; 16 or more still stop JobG8 as a likely feed-wide problem. This uses the existing publication-isolation rule and does not affect external-source jobs.
