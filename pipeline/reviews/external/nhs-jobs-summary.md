@@ -3,10 +3,10 @@
 review_date: 2026-08-27
 
 - Open Administrative & Clerical rows reviewed: 2501
-- Auto/remembered selected: 619
-- Selected HC Tier A: 257
+- Auto/remembered selected: 620
+- Selected HC Tier A: 258
 - Selected HC Tier B: 362
-- POSS awaiting decision: 1524
+- POSS awaiting decision: 1523
 - Excluded: 0
 - HARD_PASS: 358
 
@@ -13246,18 +13246,6 @@ region: Cheshire - West
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9373-26-0536
 factual_fingerprint: bd3c203606e1d1eb930fe3a428b5ef2a6b194857e24a893a82d29dc5ce3585cd
----
-
----
-action:
-POSS | NHS Jobs | North East - Tees Valley | Billingham, TS23 2JW | £13.48 | Summariser and Coder
-source_job_id: 5532119
-title: Summariser and Coder
-employer: Melrose Medical Centre Ltd
-region: North East - Tees Valley
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A5973-26-0002
-factual_fingerprint: 6ee8b2d44ed130a8e3662f736e3ab82040de6b177a2c7c9f72640a8c84f5cc54
 ---
 
 ---
