@@ -1,7 +1,7 @@
 # VONNE ETL proof-of-concept review
 
 review_date: 2026-08-27
-review_fingerprint: b5cbb5ea11cc52d40a31ab6d72464f4f8dbabf1d2dc70859778a8c2e2d76c4a2
+review_fingerprint: b68cbb77b41fdfef6a60396cb36d55d5bd6b55aa1ca14a08bacc764f38ccf4c6
 
 This implementation is review-only. It has no approved-JSON or publishing mode.
 
@@ -10,9 +10,9 @@ Edit only the `action:` line in editable blocks:
 - `action: exclude` rejects a POSS vacancy or removes an HC vacancy.
 - Actions are same-day only and do not publish anything.
 
-Run generated: 2026-08-27T11:36:41+01:00
+Run generated: 2026-08-27T17:54:17+01:00
 Listing input: https://www.vonne.org.uk/vonne-jobs
-JobG8 comparison rows: 252
+JobG8 comparison rows: 248
 Approved NEJobs comparison rows: 30
 
 ## Funnel
@@ -21,17 +21,17 @@ Approved NEJobs comparison rows: 30
 - Detail pages fetched successfully: 4
 - Detail failures/listing fallbacks: 0
 - Obvious hard passes not detail-fetched: 11
-- Tees Valley explicitly excluded: 0
+- Tees Valley explicitly excluded: 1
 - Outside or unmapped geography excluded: 1
-- Generic/derived geography rows requiring review: 3
-- Retained target candidates: 14
+- Generic/derived geography rows requiring review: 2
+- Retained target candidates: 13
 
 ## Outcomes
 - HC: 0
-- POSS: 6
+- POSS: 5
 - HARD_PASS: 8
-- Final selected after same-day actions: 4
-- Final POSS awaiting decision: 0
+- Final selected after same-day actions: 2
+- Final POSS awaiting decision: 1
 - Manually excluded: 2
 
 ## Detail diagnostics
@@ -55,20 +55,6 @@ source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173358
 
 ---
 action: select
-SELECTED | North East - County Durham & Darlington/Hartlepool | Hybrid | £31,500 Pro Rata | Trusts and Community Fundraising Officer
-employer: Durham County Carers Support
-closing_date: 25 September 2026
-geography: DERIVED_REVIEW — employer-derived geography: area found in address: durham
-reason: North East geography is generic or derived and requires review
-source: VONNE
-tracking_key: vonne-173349
-vacancy_fingerprint: 11f227685f5e3a482053104d6ecbb8156ab3f437a2d893c21e97e1500a6be808
-source_job_id: 173349
-source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173349
----
-
----
-action: select
 SELECTED | North East - Tyneside, Wearside & Northumberland | Tyne and Wear | £26,402 to 28,141 Per Annum | Health & Wellbeing Projects Support Officer
 employer: VONNE
 closing_date: Sunday, September 13, 2026 - 00:00
@@ -81,24 +67,23 @@ source_job_id: 173310
 source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173310
 ---
 
----
-action: select
-SELECTED | North East - Tyneside, Wearside & Northumberland | Tyne and Wear | £25,334 to 26,419 Per Annum | Marketing Coordinator
-employer: Age UK North Tyneside
-closing_date: Wednesday, September 2, 2026 - 12:00
-geography: CONFIRMED — location: approved location fallback
-reason: provisional transferable-office review
-source: VONNE
-tracking_key: vonne-173347
-vacancy_fingerprint: 5ffc42da06b53f655acf29768aa1d1b990d1701bd3b16f82985d7f2b2005e8dd
-source_job_id: 173347
-source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173347
----
-
 
 ## POSS — choose SELECT or EXCLUDE
 
-- None.
+---
+action:
+POSS | North East - Tyneside, Wearside & Northumberland | Tyne and Wear | £29,02431,856 Pro Rata | Project Coordinator - Neuro Team
+employer: Children North East
+closing_date: Friday, September 11, 2026 - 12:00
+geography: CONFIRMED — location: approved location fallback
+reason: annualised upper salary £2,902,431,856 exceeds North East review point £30,000
+source: VONNE
+tracking_key: vonne-173367
+vacancy_fingerprint: 3dcdfbfb593f024c4838ab4e9c9c8311016c207f82745eaf9fa18a53e680a6fa
+source_job_id: 173367
+source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173367
+---
+
 
 ## EXCLUDED BY REVIEW
 
@@ -133,10 +118,10 @@ source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173363
 
 ## HARD_PASS
 
-- [Experienced & Trainee Telephone Debt Caseworker](https://www.vonne.org.uk/vonne-jobs-details?cid=173346) — out-of-scope VONNE occupation.
 - [Facilities and Compliance Manager](https://www.vonne.org.uk/vonne-jobs-details?cid=173354) — out-of-scope VONNE occupation.
-- [Families Advice and Support Team Manager](https://www.vonne.org.uk/vonne-jobs-details?cid=173348) — out-of-scope VONNE occupation.
-- [Gardening and Handyperson Supervisor](https://www.vonne.org.uk/vonne-jobs-details?cid=173184) — insufficient service-admin evidence.
+- [Finance Manager - Part time](https://www.vonne.org.uk/vonne-jobs-details?cid=173366) — out-of-scope VONNE occupation.
+- [Fundraising and Partnerships Manager](https://www.vonne.org.uk/vonne-jobs-details?cid=172769) — out-of-scope VONNE occupation.
+- [Outreach Adviser (Schools)](https://www.vonne.org.uk/vonne-jobs-details?cid=173370) — insufficient service-admin evidence.
 - [Project Worker: Disability Heritage in North Tyneside: The NTDF Story](https://www.vonne.org.uk/vonne-jobs-details?cid=173231) — out-of-scope VONNE occupation.
 - [Temporary Centre Manager](https://www.vonne.org.uk/vonne-jobs-details?cid=173361) — out-of-scope VONNE occupation.
 - [Welfare Benefits Advisor](https://www.vonne.org.uk/vonne-jobs-details?cid=172790) — insufficient service-admin evidence.
