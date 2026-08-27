@@ -2,15 +2,27 @@
 
 review_date: 2026-08-27
 
-- Open Administrative & Clerical rows reviewed: 2508
-- Auto/remembered selected: 624
+- Open Administrative & Clerical rows reviewed: 2510
+- Auto/remembered selected: 625
 - Selected HC Tier A: 260
-- Selected HC Tier B: 364
-- POSS awaiting decision: 1526
+- Selected HC Tier B: 365
+- POSS awaiting decision: 1527
 - Excluded: 0
 - HARD_PASS: 358
 
 Edit only each `action:` line for POSS rows. Unchanged decisions are restored by the shared decision ledger.
+
+---
+action:
+POSS | NHS Jobs | — | Little Waltham, CM3 3LL | Negotiable | Practice/PCN Manager
+source_job_id: 5563884
+title: Practice/PCN Manager
+employer: Primary Care Careers
+region: 
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/M0038-26-0818
+factual_fingerprint: 3a1088ff11aa1ff2ec53f636294c39bad98cb2aeb30dabd4dbcb39846dab0f96
+---
 
 ---
 action:
