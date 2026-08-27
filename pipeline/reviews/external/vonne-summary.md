@@ -8,11 +8,11 @@ This implementation is review-only. It has no approved-JSON or publishing mode.
 Edit only the `action:` line in editable blocks:
 - `action: select` promotes a POSS vacancy for discussion.
 - `action: exclude` rejects a POSS vacancy or removes an HC vacancy.
-- Actions are remembered while the same vacancy review facts remain unchanged; this review still does not publish anything.
+- Actions are same-day only and do not publish anything.
 
-Run generated: 2026-08-27T18:51:25+01:00
+Run generated: 2026-08-27T22:49:18+01:00
 Listing input: https://www.vonne.org.uk/vonne-jobs
-JobG8 comparison rows: 248
+JobG8 comparison rows: 250
 Approved NEJobs comparison rows: 30
 
 ## Funnel
@@ -30,9 +30,10 @@ Approved NEJobs comparison rows: 30
 - HC: 0
 - POSS: 5
 - HARD_PASS: 8
-- Final selected after remembered/manual actions: 2
-- Final POSS awaiting decision: 1
-- Manually excluded: 2
+- Final selected after same-day actions: 2
+- Final POSS awaiting decision: 0
+- Manually excluded: 3
+
 ## Detail diagnostics
 - No unresolved detail-page failures.
 
@@ -51,6 +52,7 @@ vacancy_fingerprint: bc1c2200fdc8dcfa64f31abb48d4a2d0d40df53ed9b1bdd1bf5d91948b8
 source_job_id: 173358
 source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173358
 ---
+
 ---
 action: select
 SELECTED | North East - Tyneside, Wearside & Northumberland | Tyne and Wear | £26,402 to 28,141 Per Annum | Health & Wellbeing Projects Support Officer
@@ -64,21 +66,12 @@ vacancy_fingerprint: 8a7ab286013372c433a61a3c5bcaad36cea77bc6812442d255b413a5866
 source_job_id: 173310
 source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173310
 ---
+
+
 ## POSS — choose SELECT or EXCLUDE
 
----
-action: exclude
-POSS | North East - Tyneside, Wearside & Northumberland | Tyne and Wear | £29,02431,856 Pro Rata | Project Coordinator - Neuro Team
-employer: Children North East
-closing_date: Friday, September 11, 2026 - 12:00
-geography: CONFIRMED — location: approved location fallback
-reason: annualised upper salary £2,902,431,856 exceeds North East review point £30,000
-source: VONNE
-tracking_key: vonne-173367
-vacancy_fingerprint: 3dcdfbfb593f024c4838ab4e9c9c8311016c207f82745eaf9fa18a53e680a6fa
-source_job_id: 173367
-source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173367
----
+- None.
+
 ## EXCLUDED BY REVIEW
 
 ---
@@ -94,6 +87,21 @@ vacancy_fingerprint: 25bce1025449c1002f480b7b77769ff54b70b170d8a01bd59a5f484ec77
 source_job_id: 173309
 source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173309
 ---
+
+---
+action: exclude
+EXCLUDED | North East - Tyneside, Wearside & Northumberland | Tyne and Wear | £29,02431,856 Pro Rata | Project Coordinator - Neuro Team
+employer: Children North East
+closing_date: Friday, September 11, 2026 - 12:00
+geography: CONFIRMED — location: approved location fallback
+reason: annualised upper salary £2,902,431,856 exceeds North East review point £30,000
+source: VONNE
+tracking_key: vonne-173367
+vacancy_fingerprint: 3dcdfbfb593f024c4838ab4e9c9c8311016c207f82745eaf9fa18a53e680a6fa
+source_job_id: 173367
+source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173367
+---
+
 ---
 action: exclude
 EXCLUDED | North East - Tyneside, Wearside & Northumberland | Newcastle | £34,625 Per Annum | Project Lead
@@ -107,6 +115,8 @@ vacancy_fingerprint: 2b3c14a2b6daf54c403013deddf082d852b216bd0f345f8373fe1b1a1bd
 source_job_id: 173363
 source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173363
 ---
+
+
 ## HARD_PASS
 
 - [Facilities and Compliance Manager](https://www.vonne.org.uk/vonne-jobs-details?cid=173354) — out-of-scope VONNE occupation.
