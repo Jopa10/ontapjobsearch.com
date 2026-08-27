@@ -22,7 +22,7 @@ jobs:
           python-version: '3.12'
 
       - name: Install analysis dependencies
-        run: python -m pip install --upgrade pandas openpyxl boto3
+        run: python -m pip install --upgrade pandas openpyxl boto3 tabulate
 
       - name: Configure archive access
         uses: aws-actions/configure-aws-credentials@v6
