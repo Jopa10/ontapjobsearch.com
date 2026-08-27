@@ -95,7 +95,7 @@ jobs:
         run: |
           set -euo pipefail
           approved_paths=(
-            "app/_configured-slices"
+            "app/_city-pages/configured-slices"
             "app/coventry-warwickshire/service-administrator-jobs.json"
             "app/hampshire/service-administrator-jobs.json"
             "app/kent/service-administrator-jobs.json"
@@ -137,7 +137,7 @@ jobs:
               -v history="$history_report" \
               -v newjobs="$new_jobs_report" \
               -v firstseen="$first_seen_report" \
-              '$0 !~ /^app\/_configured-slices\// &&
+              '$0 !~ /^app\/_city-pages\/configured-slices\// &&
                $0 != "app/coventry-warwickshire/service-administrator-jobs.json" &&
                $0 != "app/hampshire/service-administrator-jobs.json" &&
                $0 != "app/kent/service-administrator-jobs.json" &&
