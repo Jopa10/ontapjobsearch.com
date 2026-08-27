@@ -14,6 +14,7 @@ import ssl
 import time
 import urllib.parse
 import urllib.request
+import warnings
 import xml.etree.ElementTree as ET
 from html.parser import HTMLParser
 from pathlib import Path
@@ -21,6 +22,12 @@ from pathlib import Path
 BASE_URL = "https://www.jobs.nhs.uk/api/v1/search_xml"
 STAFF_GROUP = "ADMINISTRATIVE_AND_CLERICAL"
 USER_AGENT = "Ontap NHS admin inventory review/1.0 (+https://www.ontapjobsearch.com/contact)"
+TOTAL_RESULTS_TOLERANCE = 15
+MAX_INVENTORY_ATTEMPTS = 3
+
+
+class _RetryableInventoryMovement(RuntimeError):
+    """Signal a small live-inventory movement that merits a fresh sweep."""
 
 
 def clean(value: object) -> str:
@@ -75,27 +82,81 @@ def parse_page(payload: bytes | str) -> tuple[list[dict[str, str]], int, int]:
     return rows, total_pages, total_results
 
 
-def fetch_all(*, max_pages: int | None = None) -> tuple[list[dict[str, str]], int]:
+def _fetch_sweep(
+    *,
+    max_pages: int | None,
+    accept_small_movement: bool,
+) -> tuple[list[dict[str, str]], int, bool]:
     first = request_page(1)
     first_rows, total_pages, total_results = parse_page(first)
     if max_pages is not None:
         total_pages = min(total_pages, max_pages)
     rows = list(first_rows)
     seen = {row["source_job_id"] for row in rows if row["source_job_id"]}
-    for page in range(2, total_pages + 1):
+    observed_totals = {total_results} if total_results else set()
+    latest_total = total_results
+    page = 2
+    while page <= total_pages:
         time.sleep(0.15)
-        page_rows, _pages, page_total = parse_page(request_page(page))
-        if page_total and total_results and page_total != total_results:
+        page_rows, page_count, page_total = parse_page(request_page(page))
+        if page_total:
+            observed_totals.add(page_total)
+            latest_total = page_total
+        if observed_totals and max(observed_totals) - min(observed_totals) > TOTAL_RESULTS_TOLERANCE:
             raise RuntimeError(
-                f"NHS totalResults changed during fetch: {total_results} -> {page_total}"
+                "NHS totalResults moved beyond the safe fetch tolerance: "
+                f"{min(observed_totals)} -> {max(observed_totals)} "
+                f"(limit {TOTAL_RESULTS_TOLERANCE})"
             )
+        if page_total and total_results and page_total != total_results:
+            if not accept_small_movement:
+                raise _RetryableInventoryMovement(
+                    f"NHS totalResults changed during fetch: {total_results} -> {page_total}"
+                )
+            # On the final bounded attempt, follow a small increase into any newly
+            # added result page. A decrease naturally leaves an empty/short last page.
+            if max_pages is None:
+                total_pages = max(total_pages, page_count)
+            else:
+                total_pages = min(max(total_pages, page_count), max_pages)
         for row in page_rows:
             source_id = row["source_job_id"]
             if not source_id or source_id in seen:
                 continue
             seen.add(source_id)
             rows.append(row)
-    return rows, total_results
+        page += 1
+    return rows, latest_total, len(observed_totals) > 1
+
+
+def fetch_all(*, max_pages: int | None = None) -> tuple[list[dict[str, str]], int]:
+    """Fetch a coherent live inventory without failing on normal small movements.
+
+    A changing source is swept again from page one. If all bounded attempts see a
+    movement of 15 jobs or fewer, the final deduplicated sweep is accepted. A wider
+    movement remains a source-level integrity failure.
+    """
+    last_movement: _RetryableInventoryMovement | None = None
+    for attempt in range(1, MAX_INVENTORY_ATTEMPTS + 1):
+        final_attempt = attempt == MAX_INVENTORY_ATTEMPTS
+        try:
+            rows, reported_total, moved = _fetch_sweep(
+                max_pages=max_pages,
+                accept_small_movement=final_attempt,
+            )
+        except _RetryableInventoryMovement as exc:
+            last_movement = exc
+            continue
+        if moved:
+            warnings.warn(
+                "NHS inventory changed by no more than "
+                f"{TOTAL_RESULTS_TOLERANCE} jobs during all fetch attempts; "
+                "using the final deduplicated sweep.",
+                RuntimeWarning,
+                stacklevel=2,
+            )
+        return rows, reported_total
+    raise RuntimeError(f"NHS inventory retry exhausted: {last_movement}")
 
 
 class _AdvertTextParser(HTMLParser):
