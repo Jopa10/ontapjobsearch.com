@@ -4,7 +4,7 @@
 - Live route: `/hull/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 9
+- Effective included jobs: 11
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 9
+- automatic include: 11
 - automatic review: 5
 - automatic exclude: 0
-- effective include: 9
+- effective include: 11
 - effective review: 5
 - effective exclude: 0
 
-## INCLUDE (9)
+## INCLUDE (11)
 
 ---
 action: 
@@ -52,11 +52,11 @@ reason: Approved conservative Hull launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Business Support Co-ordinator
-company: KD Recruitment - Agency - Permanent
-location: Hull
-source: JobG8
-job_id: jobg8-23643_225537982
+title: Administration Assistant
+company: Humber Teaching NHS Foundation Trust
+location: Hull, HU3 2RT
+source: NHS Jobs
+job_id: nhs-5546058
 reason: Approved conservative Hull launch catchment.
 ---
 
@@ -64,11 +64,23 @@ reason: Approved conservative Hull launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: HR Administrator
-company: Office Angels - Agency - Temporary
+title: Administration Assistant
+company: Humber Teaching NHS Foundation Trust
+location: Hull, HU8 0RB
+source: NHS Jobs
+job_id: nhs-5548104
+reason: Approved conservative Hull launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Business Support Co-ordinator
+company: KD Recruitment - Agency - Permanent
 location: Hull
 source: JobG8
-job_id: jobg8-23643_225429963
+job_id: jobg8-23643_225537982
 reason: Approved conservative Hull launch catchment.
 ---
 
@@ -105,6 +117,18 @@ company: KD Recruitment Limited - Agency - Permanent
 location: Hull
 source: JobG8
 job_id: jobg8-107894712
+reason: Approved conservative Hull launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Receptionist
+company: The Oaks Medical Centre
+location: Hull, HU4 6RF
+source: NHS Jobs
+job_id: nhs-5552185
 reason: Approved conservative Hull launch catchment.
 ---
 

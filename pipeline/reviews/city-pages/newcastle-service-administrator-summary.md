@@ -4,7 +4,7 @@
 - Live route: `/newcastle/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 16
+- Effective included jobs: 21
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,50 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 16
-- automatic review: 23
-- automatic exclude: 18
-- effective include: 16
-- effective review: 23
-- effective exclude: 18
+- automatic include: 21
+- automatic review: 25
+- automatic exclude: 22
+- effective include: 21
+- effective review: 25
+- effective exclude: 22
 
-## INCLUDE (16)
+## INCLUDE (21)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administration Assistant
+company: Cumbria, Northumberland, Tyne and wear (CNTW) NHS Foundation Trust
+location: Gateshead, NE11 0AL
+source: NHS Jobs
+job_id: nhs-5541050
+reason: Approved Newcastle catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administration Assistant
+company: Cumbria, Northumberland, Tyne and wear (CNTW) NHS Foundation Trust
+location: Newcastle Upon Tyne, NE6 4PF
+source: NHS Jobs
+job_id: nhs-5550089
+reason: Approved Newcastle catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administration Assistant
+company: Cumbria, Northumberland, Tyne and wear (CNTW) NHS Foundation Trust
+location: Newcastle Upon Tyne, NE6 4PF
+source: NHS Jobs
+job_id: nhs-5564624
+reason: Approved Newcastle catchment.
+---
 
 ---
 action: 
@@ -160,11 +196,35 @@ reason: Approved Newcastle catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Marketing Coordinator
-company: Age UK North Tyneside
-location: North Tyneside
-source: VONNE
-job_id: vonne-173347
+title: Home Administrator
+company: Akari Care Limited
+location: Gateshead, NE11 9AE
+source: NHS Jobs
+job_id: nhs-5534064
+reason: Approved Newcastle catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Home Administrator
+company: Akari Care Limited
+location: Newcastle, NE5 5HQ
+source: NHS Jobs
+job_id: nhs-5541887
+reason: Approved Newcastle catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Medical Receptionist
+company: Betts Avenue Medical Centre
+location: Newcastle Upon Tyne, NE15 6TQ, Newcastle Upon Tyne, NE3 3QP
+source: NHS Jobs
+job_id: nhs-5555684
 reason: Approved Newcastle catchment.
 ---
 
@@ -216,7 +276,7 @@ job_id: nejobs-300777
 reason: Approved Newcastle catchment.
 ---
 
-## REVIEW (23)
+## REVIEW (25)
 
 ---
 action: 
@@ -402,12 +462,36 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
+title: Medical Receptionist
+company: The Stephenson Medical Practice
+location: Washington, NE37 2PU
+source: NHS Jobs
+job_id: nhs-5556970
+reason: No approved Newcastle catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Order & Delivery Administrator - Temp to Perm - Team Valley
 company: Office Angels - Agency - Temporary
 location: Tyne And Wear
 source: JobG8
 job_id: jobg8-23643_225474615
 reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Receptionist
+company: Marlborough Surgery
+location: Seaham, SR7 7JE
+source: NHS Jobs
+job_id: nhs-5532281
+reason: No approved Newcastle catchment rule matched; local review required.
 ---
 
 ---
@@ -450,6 +534,18 @@ reason: No approved Newcastle catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Senior Administrator- Medical Secretary
+company: Tees Esk and Wear Valleys NHS Foundation Trust
+location: Chester le Street, DH3 3UR
+source: NHS Jobs
+job_id: nhs-5563197
+reason: No approved Newcastle catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Support Administrator ? TOTEX Cluster
 company: Northern Gas - Agency - Permanent
 location: Tyne And Wear
@@ -482,19 +578,7 @@ job_id: jobg8-23643_225527835
 reason: No approved Newcastle catchment rule matched; local review required.
 ---
 
----
-action: 
-decision: review
-automatic_decision: review
-title: Trusts and Community Fundraising Officer
-company: Durham County Carers Support
-location: North East (hybrid)
-source: VONNE
-job_id: vonne-173349
-reason: Broad location; review before city inclusion.
----
-
-## EXCLUDE (18)
+## EXCLUDE (22)
 
 ---
 action: 
@@ -644,6 +728,30 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Medical Receptionist
+company: Claypath and University Medical Practice
+location: Durham, DH1 1QW, DURHAM, DH1 3JX
+source: NHS Jobs
+job_id: nhs-5547933
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Medical Receptionist
+company: Dunelm Medical Practice
+location: Durham, DH1 5BL, Durham, DH1 2QQ, Durham, DH7 7DG
+source: NHS Jobs
+job_id: nhs-5558529
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: PA Support Officer
 company: Darlington Borough Council
 location: Town Hall, Darlington
@@ -668,6 +776,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Receptionist
+company: Havelock Grange Practice
+location: Hartlepool, TS24 7PW
+source: NHS Jobs
+job_id: nhs-5544630
+reason: Outside Newcastle catchment.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: School Administrator
 company: First Class Supply & Training
 location: Sunderland
@@ -685,6 +805,18 @@ company: First Class Supply & Training
 location: Durham
 source: NEJobs
 job_id: nejobs-256127
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Team Administrator
+company: Tees Esk and Wear Valleys NHS Foundation Trust
+location: Durham, DH1 5RD
+source: NHS Jobs
+job_id: nhs-5539752
 reason: Separate employment market.
 ---
 

@@ -1,4 +1,5 @@
 decision,job_id,title,company,location,source,automatic_decision,effective_decision,reason,matched_rule,city_key
+include,nhs-5564526,Band 3 Administrator,Birmingham Community Healthcare NHS FT,"Birmingham, B21 9RY",NHS Jobs,include,include,Approved conservative Birmingham launch catchment.,birmingham,birmingham-service-administrator-jobs
 include,jobg8-23643_225446479,Bookings Coordinator,Office Angels - Agency - Permanent,Birmingham,JobG8,include,include,Approved conservative Birmingham launch catchment.,birmingham,birmingham-service-administrator-jobs
 include,jobg8-23643_225521012,Business Support Officer,Sellick Partnership - Agency - Contract,Birmingham,JobG8,include,include,Approved conservative Birmingham launch catchment.,birmingham,birmingham-service-administrator-jobs
 include,jobg8-23643_225465498,Customer Care Administrator,SF Partners - Agency - Permanent,Birmingham,JobG8,include,include,Approved conservative Birmingham launch catchment.,birmingham,birmingham-service-administrator-jobs
@@ -7,8 +8,10 @@ include,jobg8-23643_225537904,Finance Assistant,Gleeson Recruitment Group - Agen
 include,jobg8-23643_225473913,HR Assistant,Gleeson Recruitment Group - Agency - Permanent,Birmingham,JobG8,include,include,Approved conservative Birmingham launch catchment.,birmingham,birmingham-service-administrator-jobs
 include,jobg8-23643_225518765,Office Administrator,Alliance Personnel - Agency - Permanent,Birmingham,JobG8,include,include,Approved conservative Birmingham launch catchment.,birmingham,birmingham-service-administrator-jobs
 include,jobg8-23643_225493038,Office Administrator,ST Selection - Agency - Permanent,Birmingham,JobG8,include,include,Approved conservative Birmingham launch catchment.,birmingham,birmingham-service-administrator-jobs
+include,nhs-5557628,Receptionist/Administrator,The Wand Medical Centre,"Birmingham, B12 0UF",NHS Jobs,include,include,Approved conservative Birmingham launch catchment.,birmingham,birmingham-service-administrator-jobs
 include,jobg8-23643_225446183,Recruitment Administrator,Office Angels - Agency - Permanent,Birmingham,JobG8,include,include,Approved conservative Birmingham launch catchment.,birmingham,birmingham-service-administrator-jobs
 include,jobg8-23643_225445846,Recruitment Coordinator,Office Angels - Agency - Permanent,Birmingham,JobG8,include,include,Approved conservative Birmingham launch catchment.,birmingham,birmingham-service-administrator-jobs
 review,jobg8-23643_225507846,Motor Trade Sales Administrator,Brellis Recruitment - Agency - Permanent,Chelmsley Wood,JobG8,review,review,No approved Birmingham catchment rule matched; local review required.,fallback,birmingham-service-administrator-jobs
 review,jobg8-23643_225317543,Sales Administrator,Plum Personnel - Agency - Permanent,Shirley,JobG8,review,review,No approved Birmingham catchment rule matched; local review required.,fallback,birmingham-service-administrator-jobs
 exclude,jobg8-1800761,Database Administrator,The Curve Group - Agency - Permanent,Solihull,JobG8,exclude,exclude,Separate exact-city market at launch.,solihull,birmingham-service-administrator-jobs
+exclude,nhs-5530420,Receptionist,Tanworth in Arden Medical Practice,"Solihull, B94 5DY",NHS Jobs,exclude,exclude,Separate exact-city market at launch.,solihull,birmingham-service-administrator-jobs

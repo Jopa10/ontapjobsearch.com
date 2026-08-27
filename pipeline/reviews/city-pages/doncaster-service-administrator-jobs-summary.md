@@ -4,7 +4,7 @@
 - Live route: `/doncaster/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 3
+- Effective included jobs: 4
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 3
+- automatic include: 4
 - automatic review: 3
-- automatic exclude: 11
-- effective include: 3
+- automatic exclude: 14
+- effective include: 4
 - effective review: 3
-- effective exclude: 11
+- effective exclude: 14
 
-## INCLUDE (3)
+## INCLUDE (4)
 
 ---
 action: 
@@ -45,6 +45,18 @@ company: Edwards & Pearce Limited - Agency - Permanent
 location: Doncaster
 source: JobG8
 job_id: jobg8-107855575
+reason: Approved Doncaster catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Receptionist/Administrator
+company: Tickhill and Colliery Medical Practice
+location: Doncaster, DN11 9NA, Doncaster, DN11 8JT
+source: NHS Jobs
+job_id: nhs-5554992
 reason: Approved Doncaster catchment.
 ---
 
@@ -98,7 +110,7 @@ job_id: jobg8-23643_225516072
 reason: No approved Doncaster catchment rule matched; local review required.
 ---
 
-## EXCLUDE (11)
+## EXCLUDE (14)
 
 ---
 action: 
@@ -121,6 +133,18 @@ company: Treeton Church of England Primary School
 location: Rotherham
 source: Teaching Vacancies
 job_id: teaching-vacancies-administration-assistant-treeton-church-of-england-primary-school-rotherham-south-yorkshire
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Administrative Assistant
+company: Sheffield Teaching Hospitals NHS Foundation Trust
+location: Sheffield, S2 3QE
+source: NHS Jobs
+job_id: nhs-5565689
 reason: Separate employment market.
 ---
 
@@ -181,6 +205,30 @@ company: Sue Ross Recruitment Ltd - Agency - Contract
 location: Sheffield
 source: JobG8
 job_id: jobg8-23643_225439789
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Receptionist
+company: Sheffield Health Partnership University NHS Foundation Trust
+location: Sheffield, S11 9BJ
+source: NHS Jobs
+job_id: nhs-5565903
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Receptionist/Administrator
+company: Broom Lane Medical Centre
+location: Rotherham, S60 3EW, Rotherham, S61 3QH
+source: NHS Jobs
+job_id: nhs-5550923
 reason: Separate employment market.
 ---
 

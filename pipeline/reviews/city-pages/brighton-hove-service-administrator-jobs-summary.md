@@ -4,7 +4,7 @@
 - Live route: `/brighton-hove/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 1
+- Effective included jobs: 4
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 1
-- automatic review: 26
-- automatic exclude: 2
-- effective include: 1
-- effective review: 26
-- effective exclude: 2
+- automatic include: 4
+- automatic review: 25
+- automatic exclude: 6
+- effective include: 4
+- effective review: 25
+- effective exclude: 6
 
-## INCLUDE (1)
+## INCLUDE (4)
 
 ---
 action: 
@@ -36,7 +36,43 @@ job_id: teaching-vacancies-administrative-assistants-cardinal-newman-catholic-sc
 reason: Approved Brighton & Hove catchment.
 ---
 
-## REVIEW (26)
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administrator
+company: Sussex Community NHS Foundation Trust
+location: Brighton, BN2 3EW
+source: NHS Jobs
+job_id: nhs-5564904
+reason: Approved Brighton & Hove catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Receptionist
+company: Integrated Care 24 Ltd
+location: Brighton, BN1 1AE
+source: NHS Jobs
+job_id: nhs-5555750
+reason: Approved Brighton & Hove catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Receptionist (Bank)
+company: Warmdene Surgery
+location: Brighton, BN1 8DD
+source: NHS Jobs
+job_id: nhs-5548209
+reason: Approved Brighton & Hove catchment.
+---
+
+## REVIEW (25)
 
 ---
 action: 
@@ -306,18 +342,6 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Service Coordinator
-company: British Red Cross - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-107885562
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Temporary Project Support/ Project Coordinator
 company: Huntress - Crawley - Agency - Temporary
 location: Sussex
@@ -350,7 +374,19 @@ job_id: jobg8-23643_225462263
 reason: Broad location; review before city inclusion.
 ---
 
-## EXCLUDE (2)
+## EXCLUDE (6)
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Administrator
+company: Bersted Green Surgery
+location: Bognor Regis, PO22 9TD
+source: NHS Jobs
+job_id: nhs-5546075
+reason: Separate employment market.
+---
 
 ---
 action: 
@@ -373,5 +409,41 @@ company: Robsack Wood Primary School
 location: St Leonards-on-Sea
 source: Teaching Vacancies
 job_id: teaching-vacancies-hr-admin-assistant-robsack-wood-primary-school
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Receptionist
+company: Arlington Road Medical Practice
+location: Eastbourne, BN21 1DH
+source: NHS Jobs
+job_id: nhs-5536742
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Team Administrator
+company: Sussex Partnership NHS Foundation Trust
+location: Crawley, RH11 7DH
+source: NHS Jobs
+job_id: nhs-5537052
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Team Administrator / Coordinator
+company: Sussex Partnership NHS Foundation Trust
+location: Worthing, BN11 1HS
+source: NHS Jobs
+job_id: nhs-5538492
 reason: Separate employment market.
 ---

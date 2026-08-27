@@ -4,7 +4,7 @@
 - Live route: `/sheffield/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 8
+- Effective included jobs: 10
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 8
+- automatic include: 10
 - automatic review: 3
-- automatic exclude: 6
-- effective include: 8
+- automatic exclude: 8
+- effective include: 10
 - effective review: 3
-- effective exclude: 6
+- effective exclude: 8
 
-## INCLUDE (8)
+## INCLUDE (10)
 
 ---
 action: 
@@ -33,6 +33,18 @@ company: The Rowan School
 location: Sheffield
 source: Teaching Vacancies
 job_id: teaching-vacancies-admin-clerical-officer-level-2-rowan-school
+reason: Approved Sheffield catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administrative Assistant
+company: Sheffield Teaching Hospitals NHS Foundation Trust
+location: Sheffield, S2 3QE
+source: NHS Jobs
+job_id: nhs-5565689
 reason: Approved Sheffield catchment.
 ---
 
@@ -69,6 +81,18 @@ company: Sue Ross Recruitment Ltd - Agency - Contract
 location: Sheffield
 source: JobG8
 job_id: jobg8-23643_225439789
+reason: Approved Sheffield catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Receptionist
+company: Sheffield Health Partnership University NHS Foundation Trust
+location: Sheffield, S11 9BJ
+source: NHS Jobs
+job_id: nhs-5565903
 reason: Approved Sheffield catchment.
 ---
 
@@ -158,7 +182,7 @@ job_id: jobg8-23643_225516072
 reason: No approved Sheffield catchment rule matched; local review required.
 ---
 
-## EXCLUDE (6)
+## EXCLUDE (8)
 
 ---
 action: 
@@ -217,6 +241,30 @@ company: Edwards & Pearce Limited - Agency - Permanent
 location: Doncaster
 source: JobG8
 job_id: jobg8-107855575
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Receptionist/Administrator
+company: Broom Lane Medical Centre
+location: Rotherham, S60 3EW, Rotherham, S61 3QH
+source: NHS Jobs
+job_id: nhs-5550923
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Receptionist/Administrator
+company: Tickhill and Colliery Medical Practice
+location: Doncaster, DN11 9NA, Doncaster, DN11 8JT
+source: NHS Jobs
+job_id: nhs-5554992
 reason: Separate employment market.
 ---
 

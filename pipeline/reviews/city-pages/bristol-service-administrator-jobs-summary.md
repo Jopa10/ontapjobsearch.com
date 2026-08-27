@@ -4,7 +4,7 @@
 - Live route: `/bristol/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 15
+- Effective included jobs: 17
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 15
-- automatic review: 1
+- automatic include: 17
+- automatic review: 2
 - automatic exclude: 1
-- effective include: 15
-- effective review: 1
+- effective include: 17
+- effective review: 2
 - effective exclude: 1
 
-## INCLUDE (15)
+## INCLUDE (17)
 
 ---
 action: 
@@ -40,11 +40,35 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Administrative Assistant
+company: Royal Devon University Healthcare NHS Foundation Trust
+location: Bristol, BS2 8EG
+source: NHS Jobs
+job_id: nhs-5561013
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Administrator
-company: Adecco - Agency - Temporary
-location: Bristol
-source: JobG8
-job_id: jobg8-23643_225510538
+company: Bristol NHS Foundation Trust
+location: Bristol, BS2 8AE
+source: NHS Jobs
+job_id: nhs-5550852
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administrator
+company: Oxleas NHS Foundation Trust
+location: Bristol, BS16 9QJ
+source: NHS Jobs
+job_id: nhs-5559839
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -204,7 +228,19 @@ job_id: jobg8-23643_225466068
 reason: Approved conservative Bristol launch catchment.
 ---
 
-## REVIEW (1)
+## REVIEW (2)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: Oxford Health NHS Trust
+location: Keynsham, BS31 1HA
+source: NHS Jobs
+job_id: nhs-5545118
+reason: No approved Bristol catchment rule matched; local review required.
+---
 
 ---
 action: 

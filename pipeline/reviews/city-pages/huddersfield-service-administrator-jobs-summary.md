@@ -4,7 +4,7 @@
 - Live route: `/huddersfield/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 4
+- Effective included jobs: 5
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 4
-- automatic review: 7
-- automatic exclude: 24
-- effective include: 4
-- effective review: 7
-- effective exclude: 24
+- automatic include: 5
+- automatic review: 8
+- automatic exclude: 32
+- effective include: 5
+- effective review: 8
+- effective exclude: 32
 
-## INCLUDE (4)
+## INCLUDE (5)
 
 ---
 action: 
@@ -64,6 +64,18 @@ reason: Approved Huddersfield catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Radiology Clerical Officer
+company: Calderdale and Huddersfield NHS Foundation Trust
+location: Huddersfield, HD3 3EA
+source: NHS Jobs
+job_id: nhs-5565812
+reason: Approved Huddersfield catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Receptionist / Dental
 company: Edgerton Dental Clinic - Agency - Permanent
 location: Huddersfield
@@ -72,7 +84,7 @@ job_id: jobg8-23643_225463726
 reason: Approved Huddersfield catchment.
 ---
 
-## REVIEW (7)
+## REVIEW (8)
 
 ---
 action: 
@@ -150,6 +162,18 @@ reason: No approved Huddersfield catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Operations & Compliance Administrator
+company: Blackburn Road Medical Centre
+location: Batley, WF17 9PL
+source: NHS Jobs
+job_id: nhs-5551474
+reason: No approved Huddersfield catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Receptionist
 company: The King's School
 location: Pontefract
@@ -158,7 +182,7 @@ job_id: teaching-vacancies-receptionist-the-king-s-school-pontefract-west-yorksh
 reason: No approved Huddersfield catchment rule matched; local review required.
 ---
 
-## EXCLUDE (24)
+## EXCLUDE (32)
 
 ---
 action: 
@@ -181,6 +205,30 @@ company: Nigel Wright Recruitment - Agency - Temporary
 location: Leeds
 source: JobG8
 job_id: jobg8-23643_225488843
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Administrator
+company: Practice Plus Group - Health in Justice
+location: Leeds, LS12 2TJ
+source: NHS Jobs
+job_id: nhs-5544150
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Administrator
+company: The Pharmacist Network
+location: Leeds, NE4 7YB
+source: NHS Jobs
+job_id: nhs-5555590
 reason: Separate employment market.
 ---
 
@@ -225,6 +273,18 @@ action:
 decision: exclude
 automatic_decision: exclude
 title: HR Administrator
+company: Akari Care Limited
+location: Leeds, LS11 5DZ
+source: NHS Jobs
+job_id: nhs-5561629
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: HR Administrator
 company: Lucy Walker Recruitment - Agency - Temporary
 location: Leeds
 source: JobG8
@@ -248,11 +308,35 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Implementation Project Coordinator
+company: Elevation Recruitment Group - Agency - Permanent
+location: Wakefield
+source: JobG8
+job_id: jobg8-1726631
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Investigatory data administrator
 company: BDS (Northern) Limited - Agency - Temporary
 location: Bradford
 source: JobG8
 job_id: jobg8-23643_225499042
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Medical Receptionist / Care Navigator
+company: Clarendon Medical Centre
+location: Bradford, BD8 7SY
+source: NHS Jobs
+job_id: nhs-5565093
 reason: Separate employment market.
 ---
 
@@ -296,6 +380,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: People and Culture Administrator (Resourcing)
+company: Spectrum Community Health CIC
+location: Wakefield, WF1 5RH
+source: NHS Jobs
+job_id: nhs-5539626
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Project Support Administrator
 company: Belmont Recruitment - Agency - Contract
 location: Bradford
@@ -313,6 +409,30 @@ company: Brook Street UK - Agency - Temporary
 location: Leeds
 source: JobG8
 job_id: jobg8-107880455
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Receptionist / Administrator
+company: Ossett Surgery
+location: Wakefield, WF5 8DF
+source: NHS Jobs
+job_id: nhs-5558659
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Receptionist/ Administrator
+company: Stainland Road Medical Centre
+location: Halifax, HX4 8BD
+source: NHS Jobs
+job_id: nhs-5559992
 reason: Separate employment market.
 ---
 

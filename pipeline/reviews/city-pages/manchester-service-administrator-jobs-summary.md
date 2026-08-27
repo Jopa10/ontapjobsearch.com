@@ -4,7 +4,7 @@
 - Live route: `/manchester/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 25
+- Effective included jobs: 27
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,26 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 25
+- automatic include: 27
 - automatic review: 0
-- automatic exclude: 1
-- effective include: 25
+- automatic exclude: 3
+- effective include: 27
 - effective review: 0
-- effective exclude: 1
+- effective exclude: 3
 
-## INCLUDE (25)
+## INCLUDE (27)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administrative Assistant
+company: Manchester University NHS Foundation Trust
+location: Manchester, M13 9WL
+source: NHS Jobs
+job_id: nhs-5560541
+reason: Approved conservative Manchester launch catchment.
+---
 
 ---
 action: 
@@ -64,6 +76,18 @@ reason: Approved conservative Manchester launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Administrator/Receptionist
+company: Bodey Medical Centre
+location: Manchester, M14 6WP
+source: NHS Jobs
+job_id: nhs-5551494
+reason: Approved conservative Manchester launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Business Support Administrator
 company: V7 Recruitment - Agency - Permanent
 location: Manchester
@@ -93,18 +117,6 @@ company: Office Angels - Agency - Contract
 location: Manchester
 source: JobG8
 job_id: jobg8-23643_225445466
-reason: Approved conservative Manchester launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Customer Support Co-ordinator
-company: Ainscough Crane Hire Ltd - Agency - Permanent
-location: Manchester
-source: JobG8
-job_id: jobg8-107698537
 reason: Approved conservative Manchester launch catchment.
 ---
 
@@ -220,6 +232,30 @@ reason: Approved conservative Manchester launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Receptionist
+company: Delamere Medical Practice
+location: Manchester, M32 0DF
+source: NHS Jobs
+job_id: nhs-5550799
+reason: Approved conservative Manchester launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Receptionist & Admin
+company: The Vallance Brunswick Group
+location: Manchester, M13 9UJ
+source: NHS Jobs
+job_id: nhs-5535381
+reason: Approved conservative Manchester launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Sales & Client Relationship Coordinator (Conveyancing)
 company: Talent Finder - Agency - Permanent
 location: Manchester
@@ -249,18 +285,6 @@ company: Gibson Hollyhomes - Agency - Permanent
 location: Manchester
 source: JobG8
 job_id: jobg8-23643_225453508
-reason: Approved conservative Manchester launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Service Administrator
-company: Key Recruitment Limited - Agency - Permanent
-location: Manchester
-source: JobG8
-job_id: jobg8-23643_225430508
 reason: Approved conservative Manchester launch catchment.
 ---
 
@@ -326,7 +350,19 @@ reason: Approved conservative Manchester launch catchment.
 
 ## REVIEW (0)
 
-## EXCLUDE (1)
+## EXCLUDE (3)
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Administrator
+company: Greater Manchester Mental Health NHS Foundation Trust
+location: Salford, M27 8FB
+source: NHS Jobs
+job_id: nhs-5543104
+reason: Separate exact-city market at launch.
+---
 
 ---
 action: 
@@ -338,4 +374,16 @@ location: Salford
 source: JobG8
 job_id: jobg8-23643_225509200
 reason: Separate exact-city market at launch.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Receptionist
+company: SSP Health
+location: Tyldesley, M29 8AX, MANCHESTER, M46 0LE
+source: NHS Jobs
+job_id: nhs-5543726
+reason: Outside the conservative exact-city launch catchment.
 ---

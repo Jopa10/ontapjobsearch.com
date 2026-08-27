@@ -1,11 +1,13 @@
 decision,job_id,title,company,location,source,automatic_decision,effective_decision,reason,matched_rule,city_key
 include,jobg8-23643_225499816,Account Coordinator,Stafforce Recruitment - Agency - Permanent,Hull,JobG8,include,include,Approved conservative Hull launch catchment.,hull,hull-service-administrator-jobs
 include,jobg8-23643_225510748,Admin Assistant,KFM Recuitment - Agency - Contract,Hull,JobG8,include,include,Approved conservative Hull launch catchment.,hull,hull-service-administrator-jobs
+include,nhs-5546058,Administration Assistant,Humber Teaching NHS Foundation Trust,"Hull, HU3 2RT",NHS Jobs,include,include,Approved conservative Hull launch catchment.,hull,hull-service-administrator-jobs
+include,nhs-5548104,Administration Assistant,Humber Teaching NHS Foundation Trust,"Hull, HU8 0RB",NHS Jobs,include,include,Approved conservative Hull launch catchment.,hull,hull-service-administrator-jobs
 include,jobg8-23643_225537982,Business Support Co-ordinator,KD Recruitment - Agency - Permanent,Hull,JobG8,include,include,Approved conservative Hull launch catchment.,hull,hull-service-administrator-jobs
-include,jobg8-23643_225429963,HR Administrator,Office Angels - Agency - Temporary,Hull,JobG8,include,include,Approved conservative Hull launch catchment.,hull,hull-service-administrator-jobs
 include,jobg8-23643_225478069,Part Time Sales Administrator,Agenda Life Sciences - Agency - Permanent,Hull,JobG8,include,include,Approved conservative Hull launch catchment.,hull,hull-service-administrator-jobs
 include,jobg8-23643_225532268,Quotations & Estimating Coordinator,KD Recruitment - Agency - Permanent,Hull,JobG8,include,include,Approved conservative Hull launch catchment.,hull,hull-service-administrator-jobs
 include,jobg8-107894712,Quotations & Estimating Coordinator,KD Recruitment Limited - Agency - Permanent,Hull,JobG8,include,include,Approved conservative Hull launch catchment.,hull,hull-service-administrator-jobs
+include,nhs-5552185,Receptionist,The Oaks Medical Centre,"Hull, HU4 6RF",NHS Jobs,include,include,Approved conservative Hull launch catchment.,hull,hull-service-administrator-jobs
 include,jobg8-23643_225451205,Reigonal Network Coordinator (Maternity Cover),Vizion Network - Agency - Permanent,Hull,JobG8,include,include,Approved conservative Hull launch catchment.,hull,hull-service-administrator-jobs
 include,jobg8-23643_225511107,Sales Administrator,Edwards & Pearce - Agency - Permanent,Hull,JobG8,include,include,Approved conservative Hull launch catchment.,hull,hull-service-administrator-jobs
 review,jobg8-107841883,Accounts Administrator,Edwards & Pearce Limited - Agency - Permanent,Beverley,JobG8,review,review,No approved Hull catchment rule matched; local review required.,fallback,hull-service-administrator-jobs

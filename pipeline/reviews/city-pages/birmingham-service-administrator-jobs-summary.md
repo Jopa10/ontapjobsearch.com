@@ -4,7 +4,7 @@
 - Live route: `/birmingham/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 10
+- Effective included jobs: 12
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,26 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 10
+- automatic include: 12
 - automatic review: 2
-- automatic exclude: 1
-- effective include: 10
+- automatic exclude: 2
+- effective include: 12
 - effective review: 2
-- effective exclude: 1
+- effective exclude: 2
 
-## INCLUDE (10)
+## INCLUDE (12)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Band 3 Administrator
+company: Birmingham Community Healthcare NHS FT
+location: Birmingham, B21 9RY
+source: NHS Jobs
+job_id: nhs-5564526
+reason: Approved conservative Birmingham launch catchment.
+---
 
 ---
 action: 
@@ -124,6 +136,18 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Receptionist/Administrator
+company: The Wand Medical Centre
+location: Birmingham, B12 0UF
+source: NHS Jobs
+job_id: nhs-5557628
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Recruitment Administrator
 company: Office Angels - Agency - Permanent
 location: Birmingham
@@ -170,7 +194,7 @@ job_id: jobg8-23643_225317543
 reason: No approved Birmingham catchment rule matched; local review required.
 ---
 
-## EXCLUDE (1)
+## EXCLUDE (2)
 
 ---
 action: 
@@ -181,5 +205,17 @@ company: The Curve Group - Agency - Permanent
 location: Solihull
 source: JobG8
 job_id: jobg8-1800761
+reason: Separate exact-city market at launch.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Receptionist
+company: Tanworth in Arden Medical Practice
+location: Solihull, B94 5DY
+source: NHS Jobs
+job_id: nhs-5530420
 reason: Separate exact-city market at launch.
 ---

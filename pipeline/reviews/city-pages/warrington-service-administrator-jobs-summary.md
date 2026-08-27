@@ -4,8 +4,8 @@
 - Live route: `/warrington/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 13
-- Threshold currently met: yes
+- Effective included jobs: 2
+- Threshold currently met: no
 
 ## How to review
 Edit only the `action:` line inside a job block.
@@ -15,156 +15,24 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 13
-- automatic review: 8
-- automatic exclude: 7
-- effective include: 13
-- effective review: 8
-- effective exclude: 7
+- automatic include: 2
+- automatic review: 0
+- automatic exclude: 3
+- effective include: 2
+- effective review: 0
+- effective exclude: 3
 
-## INCLUDE (13)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Call Centre Agent - Uncapped Commission
-company: EE - Company - Permanent
-location: Warrington
-source: JobG8
-job_id: jobg8-21618_20279_61698-0e98839ddf36da8e64c34fe5ef0cda20-63789b22995f685322503af42147450a
-reason: Approved conservative Warrington launch catchment.
----
+## INCLUDE (2)
 
 ---
 action: 
 decision: include
 automatic_decision: include
-title: Call Centre Agent - Uncapped Commission
-company: EE - Company - Permanent
-location: Warrington
-source: JobG8
-job_id: jobg8-21618_20279_61698-22e23270f8ebd14d8abcf367c9b0bdc1
-reason: Approved conservative Warrington launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Call Centre Agent - Uncapped Commission
-company: EE - Company - Permanent
-location: Warrington
-source: JobG8
-job_id: jobg8-21618_20279_61698-89740a075c6163b74ea2c52702062e5d
-reason: Approved conservative Warrington launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Call Centre Operator - Uncapped Commission
-company: EE - Company - Permanent
-location: Warrington
-source: JobG8
-job_id: jobg8-21618_20279_61698-73862c8b83139033e4e4a8b6efca9a33
-reason: Approved conservative Warrington launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Call Centre Operator - Uncapped Commission
-company: EE - Company - Permanent
-location: Warrington
-source: JobG8
-job_id: jobg8-21618_20279_61698-e22242ba84bf98abd1c8488521625d74
-reason: Approved conservative Warrington launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Call Centre Operator - Uncapped Commission
-company: EE - Company - Permanent
-location: Warrington
-source: JobG8
-job_id: jobg8-21618_20279_61698-febc62af56f2024bba2b7d7e4822beac-63789b22995f685322503af42147450a
-reason: Approved conservative Warrington launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Contact Centre Agent - Uncapped Commission
-company: EE - Company - Permanent
-location: Warrington
-source: JobG8
-job_id: jobg8-21618_20279_61698-637fc511e4eb560482b6812cdcd0d531
-reason: Approved conservative Warrington launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Contact Centre Agent - Uncapped Commission
-company: EE - Company - Permanent
-location: Warrington
-source: JobG8
-job_id: jobg8-21618_20279_61698-d24d3d6916a209e15b1680693740da2f
-reason: Approved conservative Warrington launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Contact Centre Agent - Uncapped Commission
-company: EE - Company - Permanent
-location: Warrington
-source: JobG8
-job_id: jobg8-21618_20279_61698-ff99aaa433b07ac45aacb2d328e68571-63789b22995f685322503af42147450a
-reason: Approved conservative Warrington launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Customer Service Advisor - Uncapped Commission
-company: EE - Company - Permanent
-location: Warrington
-source: JobG8
-job_id: jobg8-21618_20279_61698-153faf593eb64b88272f45adeaa28d87
-reason: Approved conservative Warrington launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Customer Service Advisor - Uncapped Commission
-company: EE - Company - Permanent
-location: Warrington
-source: JobG8
-job_id: jobg8-21618_20279_61698-be0da432b3a040b9318b55b27aa49c2a-63789b22995f685322503af42147450a
-reason: Approved conservative Warrington launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Customer Service Advisor - Uncapped Commission
-company: EE - Company - Permanent
-location: Warrington
-source: JobG8
-job_id: jobg8-21618_20279_61698-ecde51dab00e54d27ce575427a4ba514
+title: Appointments Clerk (Higher Level)
+company: North Cheshire and Mersey NHS Foundation Trust (WHH)
+location: Warrington, WA5 1QG
+source: NHS Jobs
+job_id: nhs-5542085
 reason: Approved conservative Warrington launch catchment.
 ---
 
@@ -180,105 +48,9 @@ job_id: jobg8-107709595
 reason: Approved conservative Warrington launch catchment.
 ---
 
-## REVIEW (8)
+## REVIEW (0)
 
----
-action: 
-decision: review
-automatic_decision: review
-title: Call Centre Agent - Uncapped Commission
-company: EE - Company - Permanent
-location: Widnes
-source: JobG8
-job_id: jobg8-21618_20279_61698-97868bcab5ea2ebd43f55cf59028e39c
-reason: No approved Warrington catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Call Centre Agent - Uncapped Commission
-company: EE - Company - Permanent
-location: Lymm
-source: JobG8
-job_id: jobg8-21618_20279_61698-acae1f6c5bc74101c4f7e20ffb81ad67
-reason: No approved Warrington catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Call Centre Operator - Uncapped Commission
-company: EE - Company - Permanent
-location: Widnes
-source: JobG8
-job_id: jobg8-21618_20279_61698-2848878a98147df0051e7d135d2d5210
-reason: No approved Warrington catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Call Centre Operator - Uncapped Commission
-company: EE - Company - Permanent
-location: Lymm
-source: JobG8
-job_id: jobg8-21618_20279_61698-bebd6b72712070dd058ae6bc358e899c
-reason: No approved Warrington catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Contact Centre Agent - Uncapped Commission
-company: EE - Company - Permanent
-location: Lymm
-source: JobG8
-job_id: jobg8-21618_20279_61698-497d591f62e546863483312dd53dfef9
-reason: No approved Warrington catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Contact Centre Agent - Uncapped Commission
-company: EE - Company - Permanent
-location: Widnes
-source: JobG8
-job_id: jobg8-21618_20279_61698-e821632b595e066f84bc5bc2227491aa
-reason: No approved Warrington catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Customer Service Advisor - Uncapped Commission
-company: EE - Company - Permanent
-location: Widnes
-source: JobG8
-job_id: jobg8-21618_20279_61698-74576f7712f4d2665711d742594a5e6e
-reason: No approved Warrington catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Customer Service Advisor - Uncapped Commission
-company: EE - Company - Permanent
-location: Lymm
-source: JobG8
-job_id: jobg8-21618_20279_61698-872ae37268a541755e97df9c9ced56fa
-reason: No approved Warrington catchment rule matched; local review required.
----
-
-## EXCLUDE (7)
+## EXCLUDE (3)
 
 ---
 action: 
@@ -296,59 +68,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Call Centre Agent - Uncapped Commission
-company: EE - Company - Permanent
-location: Runcorn
-source: JobG8
-job_id: jobg8-21618_20279_61698-f95fb0abe95ec1d699d270ffff941d6f
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Call Centre Operator - Uncapped Commission
-company: EE - Company - Permanent
-location: Runcorn
-source: JobG8
-job_id: jobg8-21618_20279_61698-00a9a6350da241ecc876a19e242c605c
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Contact Centre Agent - Uncapped Commission
-company: EE - Company - Permanent
-location: Runcorn
-source: JobG8
-job_id: jobg8-21618_20279_61698-3e92b47ad3dbb60c9078d91c7601c50b
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Contribution Co-Ordinator
 company: Adecco - Agency - Temporary
 location: Runcorn
 source: JobG8
 job_id: jobg8-23643_225434841
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Customer Service Advisor - Uncapped Commission
-company: EE - Company - Permanent
-location: Runcorn
-source: JobG8
-job_id: jobg8-21618_20279_61698-fe97affcb7eb2cdceb67019e12eb7199
 reason: Separate employment market.
 ---
 
