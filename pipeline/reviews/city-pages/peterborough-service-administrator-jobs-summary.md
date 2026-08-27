@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 12
 - automatic review: 5
-- automatic exclude: 18
+- automatic exclude: 19
 - effective include: 12
 - effective review: 5
-- effective exclude: 18
+- effective exclude: 19
 
 ## INCLUDE (12)
 
@@ -230,7 +230,7 @@ job_id: jobg8-23643_225519683
 reason: No approved Peterborough catchment rule matched; local review required.
 ---
 
-## EXCLUDE (18)
+## EXCLUDE (19)
 
 ---
 action: 
@@ -361,6 +361,18 @@ company: Eclectic Recruitment - Agency - Permanent
 location: Cambridge
 source: JobG8
 job_id: jobg8-23643_225451667
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Project Coordinator
+company: Morson Edge - Agency - Contract
+location: Cambridge
+source: JobG8
+job_id: jobg8-107906443
 reason: Separate employment market.
 ---
 

@@ -4,7 +4,7 @@
 - Live route: `/cambridge/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 13
+- Effective included jobs: 14
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 13
+- automatic include: 14
 - automatic review: 5
 - automatic exclude: 17
-- effective include: 13
+- effective include: 14
 - effective review: 5
 - effective exclude: 17
 
-## INCLUDE (13)
+## INCLUDE (14)
 
 ---
 action: 
@@ -105,6 +105,18 @@ company: Eclectic Recruitment - Agency - Permanent
 location: Cambridge
 source: JobG8
 job_id: jobg8-23643_225451667
+reason: Approved conservative Cambridge launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Project Coordinator
+company: Morson Edge - Agency - Contract
+location: Cambridge
+source: JobG8
+job_id: jobg8-107906443
 reason: Approved conservative Cambridge launch catchment.
 ---
 

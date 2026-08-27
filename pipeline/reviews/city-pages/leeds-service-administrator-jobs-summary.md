@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 16
 - automatic review: 9
-- automatic exclude: 20
+- automatic exclude: 21
 - effective include: 16
 - effective review: 9
-- effective exclude: 20
+- effective exclude: 21
 
 ## INCLUDE (16)
 
@@ -28,11 +28,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 action: 
 decision: include
 automatic_decision: include
-title: Administrator
-company: Nigel Wright Recruitment - Agency - Temporary
+title: Accounts Administrator
+company: Baker Harding Limited - Agency - Permanent
 location: Leeds
 source: JobG8
-job_id: jobg8-23643_225434585
+job_id: jobg8-107906473
 reason: Approved Leeds catchment.
 ---
 
@@ -326,7 +326,7 @@ job_id: teaching-vacancies-receptionist-the-king-s-school-pontefract-west-yorksh
 reason: No approved Leeds catchment rule matched; local review required.
 ---
 
-## EXCLUDE (20)
+## EXCLUDE (21)
 
 ---
 action: 
@@ -517,6 +517,18 @@ company: The North Halifax Grammar School
 location: Halifax
 source: Teaching Vacancies
 job_id: teaching-vacancies-send-exam-access-arrangements-administrator
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Service Co-ordinator
+company: Veolia - Agency - Permanent
+location: Dewsbury
+source: JobG8
+job_id: jobg8-23643_225542036
 reason: Separate employment market.
 ---
 

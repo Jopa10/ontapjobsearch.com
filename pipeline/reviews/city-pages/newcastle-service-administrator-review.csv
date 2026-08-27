@@ -20,7 +20,7 @@ include,nejobs-256121,School Administrator,First Class Supply & Training,North T
 include,nejobs-256122,School Administrator,First Class Supply & Training,Newcastle,NEJobs,include,include,Approved Newcastle catchment.,newcastle,newcastle-service-administrator
 include,nejobs-256124,School Administrator,First Class Supply & Training,"School Administrators required, various roles available throughout Gateshead",NEJobs,include,include,Approved Newcastle catchment.,gateshead,newcastle-service-administrator
 include,nejobs-300777,Simpler Recycling Projects Coordinator,Gateshead Council,Gateshead,NEJobs,include,include,Approved Newcastle catchment.,gateshead,newcastle-service-administrator
-review,jobg8-23643_225433780,Ad hoc Receptionist - Newcastle City Centre,Office Angels - Agency - Temporary,Tyne And Wear,JobG8,review,review,Broad location; review before city inclusion.,tyne and wear,newcastle-service-administrator
+review,jobg8-107905195,Accounts Assistant,SI Recruitment - Agency - Permanent,Tyne And Wear,JobG8,review,review,Broad location; review before city inclusion.,tyne and wear,newcastle-service-administrator
 review,jobg8-23643_225461787,Ad Hoc Receptionist - Sunderland,Office Angels - Agency - Temporary,Tyne And Wear,JobG8,review,review,Broad location; review before city inclusion.,tyne and wear,newcastle-service-administrator
 review,nejobs-300646,Administrative Assistant,Prudhoe Town Council,Prudhoe,NEJobs,review,review,No approved Newcastle catchment rule matched; local review required.,fallback,newcastle-service-administrator
 review,jobg8-23643_225456443,Administrator,Supply Care Solutions - Agency - Temporary,Tyne And Wear,JobG8,review,review,Broad location; review before city inclusion.,tyne and wear,newcastle-service-administrator
@@ -47,14 +47,13 @@ review,jobg8-107870335,Support Coordinator,Home Group Limited - Agency - Permane
 review,jobg8-23643_225527835,Temporary Administrator - Ryton - Immediate Start,Office Angels - Agency - Temporary,Ryton,JobG8,review,review,No approved Newcastle catchment rule matched; local review required.,fallback,newcastle-service-administrator
 exclude,jobg8-107752679,Accounts Assistant,SI Recruitment - Agency - Permanent,County Durham,JobG8,exclude,exclude,Separate employment market.,durham,newcastle-service-administrator
 exclude,nejobs-300742,Admin Assistant – Finance/HR,Durham County Council,Bishop Auckland,NEJobs,exclude,exclude,Separate employment market.,context:durham,newcastle-service-administrator
+exclude,jobg8-23643_225427868,Administrative Assistant,Blu Tech consulting - Agency - Contract,County Durham,JobG8,exclude,exclude,Separate employment market.,durham,newcastle-service-administrator
 exclude,nejobs-299277,Administrative Assistant,Durham County Council,Sacriston,NEJobs,exclude,exclude,Separate employment market.,context:durham,newcastle-service-administrator
 exclude,nejobs-301034,Apprentice Economic Development Administrator,Durham County Council,"Green Lane, Spennymoor, Durham",NEJobs,exclude,exclude,Separate employment market.,durham,newcastle-service-administrator
 exclude,nejobs-299877,Attendance & Support Officer,Hartlepool Borough Council,"The Horizon School, CETL, Brierton Lane, Hartlepool",NEJobs,exclude,exclude,Outside Newcastle catchment.,hartlepool,newcastle-service-administrator
-exclude,jobg8-107820163,Billing and Invoicing Coordinator,SI Recruitment - Agency - Permanent,County Durham,JobG8,exclude,exclude,Separate employment market.,durham,newcastle-service-administrator
 exclude,nejobs-300776,Business Services Co-ordination and Improvement Officer,Durham County Council,"Annand House, Meadowfield",NEJobs,exclude,exclude,Separate employment market.,context:durham,newcastle-service-administrator
 exclude,jobg8-23643_225534483,Customer Experience Coordinator,Linear Recruitment Ltd - Agency - Contract,County Durham,JobG8,exclude,exclude,Separate employment market.,durham,newcastle-service-administrator
 exclude,nejobs-299796,Customer Service Advisor,Hartlepool Borough Council,Highlight Active Wellbeing Hub,NEJobs,exclude,exclude,Outside Newcastle catchment.,context:hartlepool,newcastle-service-administrator
-exclude,jobg8-107820330,Invoicing and Billing Coordinator - Part Time,SI Recruitment - Agency - Permanent,County Durham,JobG8,exclude,exclude,Separate employment market.,durham,newcastle-service-administrator
 exclude,jobg8-23643_225512280,Maintenance Administrator,Hays Business Support - Agency - Permanent,County Durham,JobG8,exclude,exclude,Separate employment market.,durham,newcastle-service-administrator
 exclude,nejobs-300955,Marketing & Events Assistant,Connect Multi-Academy Trust,County Durham,NEJobs,exclude,exclude,Separate employment market.,durham,newcastle-service-administrator
 exclude,nhs-5547933,Medical Receptionist,Claypath and University Medical Practice,"Durham, DH1 1QW, DURHAM, DH1 3JX",NHS Jobs,exclude,exclude,Separate employment market.,durham,newcastle-service-administrator

@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 5
 - automatic review: 8
-- automatic exclude: 32
+- automatic exclude: 33
 - effective include: 5
 - effective review: 8
-- effective exclude: 32
+- effective exclude: 33
 
 ## INCLUDE (5)
 
@@ -182,17 +182,17 @@ job_id: teaching-vacancies-receptionist-the-king-s-school-pontefract-west-yorksh
 reason: No approved Huddersfield catchment rule matched; local review required.
 ---
 
-## EXCLUDE (32)
+## EXCLUDE (33)
 
 ---
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Administrator
-company: Nigel Wright Recruitment - Agency - Temporary
+title: Accounts Administrator
+company: Baker Harding Limited - Agency - Permanent
 location: Leeds
 source: JobG8
-job_id: jobg8-23643_225434585
+job_id: jobg8-107906473
 reason: Separate employment market.
 ---
 
@@ -493,6 +493,18 @@ company: Working Solutions Recruitment - Agency - Permanent
 location: Leeds
 source: JobG8
 job_id: jobg8-23643_225524513
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Service Co-ordinator
+company: Veolia - Agency - Permanent
+location: Dewsbury
+source: JobG8
+job_id: jobg8-23643_225542036
 reason: Separate employment market.
 ---
 

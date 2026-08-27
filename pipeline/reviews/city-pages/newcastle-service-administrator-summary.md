@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 21
 - automatic review: 25
-- automatic exclude: 22
+- automatic exclude: 21
 - effective include: 21
 - effective review: 25
-- effective exclude: 22
+- effective exclude: 21
 
 ## INCLUDE (21)
 
@@ -282,11 +282,11 @@ reason: Approved Newcastle catchment.
 action: 
 decision: review
 automatic_decision: review
-title: Ad hoc Receptionist - Newcastle City Centre
-company: Office Angels - Agency - Temporary
+title: Accounts Assistant
+company: SI Recruitment - Agency - Permanent
 location: Tyne And Wear
 source: JobG8
-job_id: jobg8-23643_225433780
+job_id: jobg8-107905195
 reason: Broad location; review before city inclusion.
 ---
 
@@ -578,7 +578,7 @@ job_id: jobg8-23643_225527835
 reason: No approved Newcastle catchment rule matched; local review required.
 ---
 
-## EXCLUDE (22)
+## EXCLUDE (21)
 
 ---
 action: 
@@ -601,6 +601,18 @@ company: Durham County Council
 location: Bishop Auckland
 source: NEJobs
 job_id: nejobs-300742
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Administrative Assistant
+company: Blu Tech consulting - Agency - Contract
+location: County Durham
+source: JobG8
+job_id: jobg8-23643_225427868
 reason: Separate employment market.
 ---
 
@@ -644,18 +656,6 @@ reason: Outside Newcastle catchment.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Billing and Invoicing Coordinator
-company: SI Recruitment - Agency - Permanent
-location: County Durham
-source: JobG8
-job_id: jobg8-107820163
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Business Services Co-ordination and Improvement Officer
 company: Durham County Council
 location: Annand House, Meadowfield
@@ -686,18 +686,6 @@ location: Highlight Active Wellbeing Hub
 source: NEJobs
 job_id: nejobs-299796
 reason: Outside Newcastle catchment.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Invoicing and Billing Coordinator - Part Time
-company: SI Recruitment - Agency - Permanent
-location: County Durham
-source: JobG8
-job_id: jobg8-107820330
-reason: Separate employment market.
 ---
 
 ---

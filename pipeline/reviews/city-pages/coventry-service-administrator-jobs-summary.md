@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 3
 - automatic review: 2
-- automatic exclude: 23
+- automatic exclude: 22
 - effective include: 3
 - effective review: 2
-- effective exclude: 23
+- effective exclude: 22
 
 ## INCLUDE (3)
 
@@ -86,7 +86,7 @@ job_id: jobg8-23643_225526928
 reason: No approved Coventry catchment rule matched; local review required.
 ---
 
-## EXCLUDE (23)
+## EXCLUDE (22)
 
 ---
 action: 
@@ -145,18 +145,6 @@ company: Practice Plus Group
 location: Nuneaton, CV10 7DJ
 source: NHS Jobs
 job_id: nhs-5549024
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Business Administrator
-company: Industrial Trading Solutions Ltd - Agency - Permanent
-location: Warwickshire
-source: JobG8
-job_id: jobg8-23643_225433641
 reason: Separate employment market.
 ---
 

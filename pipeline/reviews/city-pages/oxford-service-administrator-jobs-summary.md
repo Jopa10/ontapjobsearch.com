@@ -4,7 +4,7 @@
 - Live route: `/oxford/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 10
+- Effective included jobs: 9
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 10
+- automatic include: 9
 - automatic review: 8
-- automatic exclude: 30
-- effective include: 10
+- automatic exclude: 28
+- effective include: 9
 - effective review: 8
-- effective exclude: 30
+- effective exclude: 28
 
-## INCLUDE (10)
+## INCLUDE (9)
 
 ---
 action: 
@@ -69,18 +69,6 @@ company: Oxford University Hospitals NHS Foundation Trust
 location: Oxford, OX3 7LE
 source: NHS Jobs
 job_id: nhs-5565421
-reason: Approved conservative Oxford launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: NetSuite Administrator
-company: Purdicom - Agency - Permanent
-location: Oxford
-source: JobG8
-job_id: jobg8-23643_225434155
 reason: Approved conservative Oxford launch catchment.
 ---
 
@@ -242,7 +230,7 @@ job_id: teaching-vacancies-school-office-receptionist-administrative-assistant
 reason: No approved Oxford catchment rule matched; local review required.
 ---
 
-## EXCLUDE (30)
+## EXCLUDE (28)
 
 ---
 action: 
@@ -464,18 +452,6 @@ reason: Broad county location; not Oxford-city evidence.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Office Coordinator
-company: Gill Cooke Personnel Ltd T/A The Recruitment Group - Agency - Permanent
-location: Oxfordshire
-source: JobG8
-job_id: jobg8-23643_225433735
-reason: Broad county location; not Oxford-city evidence.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Receptionist
 company: Crisis - Agency - Permanent
 location: Oxfordshire
@@ -505,18 +481,6 @@ company: The Recruitment Group - Agency - Permanent
 location: Oxfordshire
 source: JobG8
 job_id: jobg8-107901549
-reason: Broad county location; not Oxford-city evidence.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Sales Administrator
-company: Cameo Consultancy (Recruitment) Limited - Agency - Permanent
-location: Oxfordshire
-source: JobG8
-job_id: jobg8-107863291
 reason: Broad county location; not Oxford-city evidence.
 ---
 

@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 4
-- automatic review: 44
+- automatic review: 40
 - automatic exclude: 8
 - effective include: 4
-- effective review: 44
+- effective review: 40
 - effective exclude: 8
 
 ## INCLUDE (4)
@@ -72,7 +72,7 @@ job_id: teaching-vacancies-receptionist-ff80cc91-b028-4603-910d-80547a4ad86e
 reason: Approved Southampton catchment.
 ---
 
-## REVIEW (44)
+## REVIEW (40)
 
 ---
 action: 
@@ -102,18 +102,6 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: After Sales Support
-company: The Workshop - Agency - Temporary
-location: Hampshire
-source: JobG8
-job_id: jobg8-107754498
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Attendance Coordinator
 company: South Hampshire College Group - Agency - Permanent
 location: Hampshire
@@ -131,18 +119,6 @@ company: The Cinnamon Care Collection - Company - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225524482
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Care Coordinator
-company: Agincare Group - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-107886976
 reason: Broad location; review before city inclusion.
 ---
 
@@ -210,35 +186,11 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Dental Receptionist
-company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
-location: Petersfield, GU32 3LB
-source: NHS Jobs
-job_id: nhs-5545728
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Events Administrator
 company: Tate - Agency - Temporary
 location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225436745
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Expediting Administrator
-company: Workshop Recruitment - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-23643_225497720
 reason: Broad location; review before city inclusion.
 ---
 
@@ -620,11 +572,23 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Medical Receptionist
-company: Derby Road Practice
-location: Portsmouth, PO2 8HW
+title: Care Home Administrator
+company: Avery Healthcare Group Ltd.
+location: Winchester, SO22 5JH
 source: NHS Jobs
-job_id: nhs-5544734
+job_id: nhs-5566130
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Receptionist
+company: Avery Healthcare Group Ltd.
+location: Winchester, SO22 5JH
+source: NHS Jobs
+job_id: nhs-5566136
 reason: Separate employment market.
 ---
 
@@ -637,18 +601,6 @@ company: The Portsmouth Academy
 location: Portsmouth
 source: Teaching Vacancies
 job_id: teaching-vacancies-senior-administration-assistant-the-portsmouth-academy
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Single Point of Access Administrator
-company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
-location: Fareham, PO17 6AR
-source: NHS Jobs
-job_id: nhs-5553368
 reason: Separate employment market.
 ---
 

@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 4
-- automatic review: 25
-- automatic exclude: 6
+- automatic review: 24
+- automatic exclude: 5
 - effective include: 4
-- effective review: 25
-- effective exclude: 6
+- effective review: 24
+- effective exclude: 5
 
 ## INCLUDE (4)
 
@@ -72,7 +72,7 @@ job_id: nhs-5548209
 reason: Approved Brighton & Hove catchment.
 ---
 
-## REVIEW (25)
+## REVIEW (24)
 
 ---
 action: 
@@ -83,18 +83,6 @@ company: CMA Recruitment Group - Agency - Permanent
 location: Sussex
 source: JobG8
 job_id: jobg8-23643_225525164
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administration Assistant
-company: First Recruitment Services - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-23643_225461960
 reason: Broad location; review before city inclusion.
 ---
 
@@ -374,7 +362,7 @@ job_id: jobg8-23643_225462263
 reason: Broad location; review before city inclusion.
 ---
 
-## EXCLUDE (6)
+## EXCLUDE (5)
 
 ---
 action: 
@@ -433,17 +421,5 @@ company: Sussex Partnership NHS Foundation Trust
 location: Crawley, RH11 7DH
 source: NHS Jobs
 job_id: nhs-5537052
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Team Administrator / Coordinator
-company: Sussex Partnership NHS Foundation Trust
-location: Worthing, BN11 1HS
-source: NHS Jobs
-job_id: nhs-5538492
 reason: Separate employment market.
 ---

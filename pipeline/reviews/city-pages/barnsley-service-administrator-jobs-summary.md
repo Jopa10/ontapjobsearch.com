@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 2
 - automatic review: 3
-- automatic exclude: 16
+- automatic exclude: 13
 - effective include: 2
 - effective review: 3
-- effective exclude: 16
+- effective exclude: 13
 
 ## INCLUDE (2)
 
@@ -86,7 +86,7 @@ job_id: jobg8-23643_225516072
 reason: No approved Barnsley catchment rule matched; local review required.
 ---
 
-## EXCLUDE (16)
+## EXCLUDE (13)
 
 ---
 action: 
@@ -201,18 +201,6 @@ action:
 decision: exclude
 automatic_decision: exclude
 title: Receptionist/Administrator
-company: Broom Lane Medical Centre
-location: Rotherham, S60 3EW, Rotherham, S61 3QH
-source: NHS Jobs
-job_id: nhs-5550923
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Receptionist/Administrator
 company: Tickhill and Colliery Medical Practice
 location: Doncaster, DN11 9NA, Doncaster, DN11 8JT
 source: NHS Jobs
@@ -229,30 +217,6 @@ company: Lynx Employment Services Ltd - Agency - Temporary
 location: Sheffield
 source: JobG8
 job_id: jobg8-23643_225478960
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Sales & Marketing Coordinator
-company: Get-Recruited (UK) Ltd - Agency - Permanent
-location: Doncaster
-source: JobG8
-job_id: jobg8-23643_225433915
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Sales Administrator - German Speaking
-company: Rise Technical Recruitment - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-23643_225435429
 reason: Separate employment market.
 ---
 

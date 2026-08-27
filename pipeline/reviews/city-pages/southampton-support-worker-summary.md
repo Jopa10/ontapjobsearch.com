@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 2
-- automatic review: 7
+- automatic review: 6
 - automatic exclude: 4
 - effective include: 2
-- effective review: 7
+- effective review: 6
 - effective exclude: 4
 
 ## INCLUDE (2)
@@ -48,7 +48,7 @@ job_id: jobg8-1401784780
 reason: Approved Southampton catchment.
 ---
 
-## REVIEW (7)
+## REVIEW (6)
 
 ---
 action: 
@@ -108,18 +108,6 @@ location: Alton
 source: JobG8
 job_id: jobg8-1401784594
 reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Domiciliary Care Assistant
-company: ECS Recruitment Consultants Ltd - Agency - Permanent
-location: Alton
-source: JobG8
-job_id: jobg8-107332363
-reason: No approved Southampton catchment rule matched; local review required.
 ---
 
 ---
