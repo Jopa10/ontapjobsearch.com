@@ -649,7 +649,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5768-26-0004",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5768-26-0004",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5557131",
@@ -667,7 +671,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4324-260824",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4324-260824",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5555785",
@@ -685,7 +693,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/L0034-26-3479",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/L0034-26-3479",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5535946",
@@ -703,7 +715,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/F0041-8118",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/F0041-8118",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5564650",
@@ -721,24 +737,32 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0657-26-0002",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0657-26-0002",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
-    "job_id": "nhs-5559184",
+    "job_id": "nhs-5566412",
     "source": "NHS Jobs",
-    "title": "Receptionist - GP Surgery",
-    "company": "Box Surgery",
-    "advertiser_name": "Box Surgery",
-    "location": "Corsham, SN13 8NA",
+    "title": "Receptionist - Bank - Care Home",
+    "company": "Barchester Healthcare",
+    "advertiser_name": "Barchester Healthcare",
+    "location": "Chippenham, SN14 6UZ",
     "region": "Wiltshire",
-    "salary": "£12.71",
-    "employment_type": "Fixed-Term",
-    "posted_date": "2026-08-25T10:57:08.793391",
-    "closing_date": "2026-09-11",
-    "description": "Box Surgery is a small and friendly team where everyone is valued and use of initiative is encouraged.We are looking for a minimum of 12 months maternity leave cover in our surgery reception team. This is a part time position consisting of 24 hours over 4 days per week. The ideal candidate must be able to efficiently work under pressure in a fast-paced environment with a high volume of telephone work and be flexible to cover all shifts. Computer skills essential. Full training will be given. The main duties will be being the first point of contact for patients when they enter the surgery. An ability to listen, understand and process their requests or issues will be the main focus, and whilst the specialist training will be given, an underlying ability in customer service, problem solving, and the application of initiative will be needed. You will need to become familiar with the electronic patient record system and the clinical processes within the surgery. There are experienced receptionists who will train and assist and there will always be support available. The post-holder is a Receptionist. The Receptionist will be responsible for undertaking a wide range of reception duties and the provision of general support to the multidisciplinary team. Duties can include, but are not limited to, greeting and directing patients, the effective use of the appointment system, booking appointments, the processing of information (electronic and hard copy) in a timely manner and in accordance with current policies, assisting patients as required and supporting the administration team with patient registration, The post-holder will act as the central point of contact for patients, be responsible for the distribution of information, messages and enquiries for the clinical team, liaise with multi-disciplinary team members and external agencies such as secondary care and community service providers. The Receptionist will support staff with the distribution of information, messages and enquiries for the clinical team, liaising with multidisciplinary team members and external agencies such as secondary care and community service providers. The post-holder will be an integral part of the general practice team. The following are the core responsibilities of a Receptionist in delivering health services. There may be, on occasion, a requirement to carry out other tasks. This will be dependent upon factors such as workload and staffing levels: a. Accurately detail information on patients records within the clinical system b. Maintain and monitor the practice appointment system c. Process personal, telephone and e-requests for appointments Assist with total triage administration e. Answer incoming phone calls, transferring calls or dealing with the callers request appropriately f. Signpost patients to the correct service g. Initiate contact with and respond to, requests from patients, team members and external agencies h. Photocopy documentation as required i. Data entry of new and temporary registrations and relevant patient information as required j. Input data into patients healthcare records as necessary k. Direct requests for information, i.e., DSAR, insurance/solicitors letters and DVLA forms to the administrative team l. Manage all queries as necessary in an efficient manner m. Carry out system searches as requested n. Support all clinical staff with general administrative tasks as requested o. Undertake a broad spectrum of administrative duties commensurate with the role p. Be an integral part of the general practice team q. Act as a chaperone as required r. Be aware of duties and responsibilities regarding current legislation and adhere to practice policies and procedures on safeguarding adults and safeguarding children s. Support in the delivery of enhanced services and other service requirements t. Undertake all mandatory training and induction programmes u. Contribute to and embrace the spectrum of clinical governance v. Maintain a clean, tidy, effective working area at all times w. Attend a formal appraisal with their manager at least every 12 months. Once a performance/training objective has been set, progress will be reviewed on a regular basis so that new objectives can be agreed.",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1222-26-0002",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1222-26-0002",
+    "salary": "£13.37",
+    "employment_type": "Bank",
+    "posted_date": "2026-08-27T17:00:17.940037085",
+    "closing_date": "2026-10-26",
+    "description": "ABOUT THE ROLE This is a casual, part-time role offering flexible working. As a Bank Receptionist at a Barchester care home, you'll provide the warm welcome that helps to make sure every resident and visitor feels at home with us. As the first point of contact for almost everyone who comes to the home, you'll have a vitally important part to play in creating a positive and friendly environment. The role of Receptionist with us is very varied. You can expect to answer phone calls, greet visitors, manage the reception area and show prospective residents and their families around. We might also need you to carry out some administrative tasks, like typing, photocopying and filing. ABOUT YOU You'll need to be professional, caring, courteous and well organised to join us as a Receptionist. You'll take a real interest in our residents and go out of your way to make every visitor feel at home. No formal qualifications are required but you will need a good telephone manner and strong communication skills. As a Bank Receptionist at Barchester care home, you'll play a crucial role in ensuring every resident and visitor feels at home. The role is varied, involving answering phone calls, managing the reception area, greeting visitors, showing prospective residents and families around, and performing administrative tasks. You'll need to be professional, caring, courteous, and well-organized. A good telephone manner and strong communication skills are essential, but no formal qualifications are required. You'll provide a warm welcome as the first point of contact while ensuring a positive and friendly environment. ABOUT THE ROLE This is a casual, part-time role offering flexible working. As a Bank Receptionist at a Barchester care home, you'll provide the warm welcome that helps to make sure every resident and visitor feels at home with us. As the first point of contact for almost everyone who comes to the home, you'll have a vitally important part to play in creating a positive and friendly environment. The role of Receptionist with us is very varied. You can expect to answer phone calls, greet visitors, manage the reception area and show prospective residents and their families around. We might also need you to carry out some administrative tasks, like typing, photocopying and filing. ABOUT YOU You'll need to be professional, caring, courteous and well organised to join us as a Receptionist. You'll take a real interest in our residents and go out of your way to make every visitor feel at home. No formal qualifications are required but you will need a good telephone manner and strong communication skills. REWARDS PACKAGE As well as competitive pay, you can look forward to a role that offers true flexibility and plenty of free learning and development opportunities. As one of the UK's leading healthcare providers, we take the growth of everyone who works for us seriously. As this is a Bank position to provide cover as and when we need it, such as for annual leave or sick leave, the hours and days you work will vary. If you'd like to use your administration and people skills in an organisation that provides the quality care you'd expect for your loved ones, this is a rewarding place to be.",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0177-26-9385",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0177-26-9385",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

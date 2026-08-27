@@ -2595,12 +2595,12 @@
           "hr_recruitment": 0
         },
         "Devon": {
-          "service_admin": 20,
+          "service_admin": 19,
           "support_worker": 0,
           "customer_sales": 4,
           "legal_assistant_paralegal": 2,
           "marketing": 0,
-          "hr_recruitment": 1
+          "hr_recruitment": 0
         },
         "Dorset": {
           "service_admin": 12,
@@ -2747,7 +2747,7 @@
           "hr_recruitment": 2
         },
         "London": {
-          "service_admin": 89,
+          "service_admin": 90,
           "support_worker": 16,
           "customer_sales": 18,
           "legal_assistant_paralegal": 8,
@@ -2886,7 +2886,7 @@
           "service_admin": 6,
           "support_worker": 0,
           "customer_sales": 4,
-          "legal_assistant_paralegal": 4,
+          "legal_assistant_paralegal": 3,
           "marketing": 0,
           "hr_recruitment": 0
         },

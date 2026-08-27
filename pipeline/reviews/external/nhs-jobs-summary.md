@@ -2,15 +2,51 @@
 
 review_date: 2026-08-27
 
-- Open Administrative & Clerical rows reviewed: 2501
-- Auto/remembered selected: 620
-- Selected HC Tier A: 258
-- Selected HC Tier B: 362
-- POSS awaiting decision: 1523
+- Open Administrative & Clerical rows reviewed: 2508
+- Auto/remembered selected: 624
+- Selected HC Tier A: 260
+- Selected HC Tier B: 364
+- POSS awaiting decision: 1526
 - Excluded: 0
 - HARD_PASS: 358
 
 Edit only each `action:` line for POSS rows. Unchanged decisions are restored by the shared decision ledger.
+
+---
+action:
+POSS | NHS Jobs | Yorkshire - West | Leeds, LS11 8PN | £12.71 | Patient Care Advisor
+source_job_id: 5567010
+title: Patient Care Advisor
+employer: Beeston Village Surgery
+region: Yorkshire - West
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A3304-26-0003
+factual_fingerprint: 672637be2e6d4ed04b20929862bf34a3654c9f19a33cdbef843067222989fe19
+---
+
+---
+action:
+POSS | NHS Jobs | Bristol & Bath | Bristol, BS10 5NB | £32073.00 to £39043.00 | Fire Safety Trainer
+source_job_id: 5567048
+title: Fire Safety Trainer
+employer: Bristol NHS Foundation Trust
+region: Bristol & Bath
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9339-26-1055
+factual_fingerprint: 3f0fb943e70becbdda04a835aae7bcb4cb4829f44c7b61c61f9bda9512134d4f
+---
+
+---
+action:
+POSS | NHS Jobs | London | Thornton Heath, Croydon, CR7 7YE | £33262.00 to £36027.00 | Deputy Team Leader
+source_job_id: 5565936
+title: Deputy Team Leader
+employer: Moorfields Eye Hospital NHS Foundation Trust
+region: London
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9273-26-0211
+factual_fingerprint: aba001024e351c1ab5f2bdee2128bb19b255458f68182c2854dff97a37baa096
+---
 
 ---
 action:

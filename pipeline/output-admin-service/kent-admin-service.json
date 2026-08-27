@@ -1046,7 +1046,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2248-26-0003",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2248-26-0003",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5548929",
@@ -1064,7 +1068,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9380-26-0668",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9380-26-0668",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5541034",
@@ -1082,7 +1090,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4608-26-0008",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4608-26-0008",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5558509",
@@ -1100,7 +1112,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2753-26-0019",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2753-26-0019",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5551375",
@@ -1118,7 +1134,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0177-26-9074",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0177-26-9074",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5551925",
@@ -1136,7 +1156,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B0082-26-0054",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B0082-26-0054",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5547790",
@@ -1154,7 +1178,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9359-26-0184",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9359-26-0184",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5542176",
@@ -1172,7 +1200,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9333-26-1080",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9333-26-1080",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5531945",
@@ -1190,7 +1222,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1686-26-0012",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1686-26-0012",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5528953",
@@ -1208,6 +1244,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0525-26-0012",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0525-26-0012",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]
