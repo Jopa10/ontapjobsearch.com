@@ -26,11 +26,10 @@ job_id: 107728647
 ## WEST YORKSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - YORKSHIRE - WEST | Yorkshire - West | Huddersfield | £14.24 - £16 per hour (+ INC holiday pay) | Complex Care Assistant
 job_id: 107728806
 ---
-
 ## SOUTH YORKSHIRE — SELECTED
 
 ---
@@ -330,11 +329,10 @@ job_id: 1812536
 ## LONDON — POSSIBLES
 
 ---
-action:
+action: select
 POSS - LONDON | London | Surbiton | £246 per daily | Personal Care Assistant to a Business Management graduate
 job_id: 107900179
 ---
-
 ## SURREY — SELECTED
 
 ---

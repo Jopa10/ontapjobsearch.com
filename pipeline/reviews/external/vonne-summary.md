@@ -43,7 +43,7 @@ Approved NEJobs comparison rows: 29
 ## POSS — choose SELECT or EXCLUDE
 
 ---
-action:
+action: select
 POSS | North East | Regionwide | £30,150 Per Annum | Housing Support Officer
 employer: Handcrafted
 closing_date: Tuesday, September 1, 2026 - 17:00
@@ -108,7 +108,7 @@ source_job_id: 173347
 source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173347
 ---
 ---
-action:
+action: exclude
 POSS | North East - Tyneside, Wearside & Northumberland | Newcastle | £34,625 Per Annum | Project Lead
 employer: Changing Lives
 closing_date: 09 September 2026

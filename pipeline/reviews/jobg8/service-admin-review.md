@@ -796,17 +796,15 @@ job_id: 107893040
 ## LONDON — POSSIBLES
 
 ---
-action:
+action: select
 POSS - LONDON | London | London | £17 - £18.57 per hour | Administrator
 job_id: 23643_225534135
 ---
-
 ---
-action:
+action: select
 POSS - LONDON | London | Harrow | £18.22 per hour | School Financial Administrator
 job_id: 23643_225537842
 ---
-
 ## HAMPSHIRE — SELECTED
 
 ---
@@ -1064,11 +1062,10 @@ job_id: 107892817
 ## HAMPSHIRE — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - HAMPSHIRE | Hampshire | Hampshire | £70000 per year | Training Equipment Defect Co-ordinator
 job_id: 107889639
 ---
-
 ## SURREY — SELECTED
 
 ---
@@ -1590,11 +1587,10 @@ job_id: 23643_225537580
 ## KENT — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - KENT | Kent | Kent | £42000 per year | Contracts Coordinator
 job_id: 23643_225536606
 ---
-
 ## SUSSEX — SELECTED
 
 ---
@@ -2012,11 +2008,10 @@ job_id: 107840229
 ## BERKSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - BERKSHIRE | Berkshire | Berkshire | £16.34 per hour | Facilities Coordinator
 job_id: 23643_225534716
 ---
-
 ## BRISTOL & BATH — SELECTED
 
 ---
@@ -2106,11 +2101,10 @@ job_id: 107830644
 ## BRISTOL & BATH — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - BRISTOL & BATH | Bristol & Bath | Bath | £50000 per year | Contact Centre Product Owner
 job_id: 107811359
 ---
-
 ## BUCKINGHAMSHIRE — SELECTED
 
 ---
@@ -2614,23 +2608,20 @@ job_id: 23643_225525247
 ## CHESHIRE - WEST — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - CHESHIRE - WEST | Cheshire - West | Chester | £40000 per year | Trust / Estates Administrator (Chartered Accountancy)
 job_id: 107767176
 ---
-
 ---
-action:
+action: exclude
 POSS - CHESHIRE - WEST | Cheshire - West | Chester | £35000 - £40000 per year (Progression, Training, Company Benef) | Trust / Estates Administrator (Chartered Accountancy)
 job_id: 23643_225430066
 ---
-
 ---
-action:
+action: select
 POSS - CHESHIRE - WEST | Cheshire - West | Frodsham | £35000 per year | Marketing Coordinator
 job_id: 107840320
 ---
-
 ## CORNWALL — SELECTED
 
 ---
@@ -3110,17 +3101,15 @@ job_id: 23643_225538784
 ## ESSEX — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - ESSEX | Essex | Essex | £40000 per year | QUALITY & PROCESS COORDINATOR
 job_id: 107824928
 ---
-
 ---
-action:
+action: select
 POSS - ESSEX | Essex | Essex | £35000 per year | Recruitment Coordinator
 job_id: 23643_225534717
 ---
-
 ## GLOUCESTERSHIRE — SELECTED
 
 ---
@@ -3660,11 +3649,10 @@ job_id: 23643_225193642
 ## HERTFORDSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - HERTFORDSHIRE | Hertfordshire | Hertfordshire | £28500 - £36000 per year | Client Support Coordinator
 job_id: 23643_225013676
 ---
-
 ## LEICESTERSHIRE — SELECTED
 
 ---
@@ -3916,11 +3904,10 @@ job_id: 23643_225430380
 ## LINCOLNSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - LINCOLNSHIRE | Lincolnshire | Lincolnshire | £35000 per year | Human Resources Administrator
 job_id: 107772427
 ---
-
 ## MERSEYSIDE - LIVERPOOL — SELECTED
 
 ---
@@ -4082,11 +4069,10 @@ job_id: 107881724
 ## NORFOLK — POSSIBLES
 
 ---
-action:
+action: select
 POSS - NORFOLK | Norfolk | Norfolk | £40000 per year | Nature City Norwich Project Coordinator
 job_id: 107877724
 ---
-
 ## NORTHAMPTONSHIRE — SELECTED
 
 ---
@@ -4272,17 +4258,15 @@ job_id: 107852372
 ## NORTHERN IRELAND - EAST — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - NORTHERN IRELAND - EAST | Northern Ireland - East | Belfast | £75000 per year | ASPIRE Global Service Centre - Service Desk L1 L2 Team Leader - Belfast
 job_id: 107882747
 ---
-
 ---
-action:
+action: exclude
 POSS - NORTHERN IRELAND - EAST | Northern Ireland - East | Belfast | £45000 per year | ASPIRE GSC - Service Desk Level 1 Level 2 Analyst - Belfast Based
 job_id: 107882606
 ---
-
 ## NOTTINGHAMSHIRE — SELECTED
 
 ---
@@ -4600,17 +4584,15 @@ job_id: 1804346
 ## SCOTLAND CENTRAL - EDINBURGH & LOTHIANS — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - SCOTLAND CENTRAL - EDINBURGH & LOTHIANS | Scotland Central - Edinburgh & Lothians | Edinburgh | £70000 per year | Client Services Coordinator
 job_id: 107728052
 ---
-
 ---
-action:
+action: exclude
 POSS - SCOTLAND CENTRAL - EDINBURGH & LOTHIANS | Scotland Central - Edinburgh & Lothians | Livingston | £45 - £53 per hour | IT Asset Coordinator - Contract
 job_id: 107836714
 ---
-
 ## SCOTLAND WEST - GLASGOW — SELECTED
 
 ---
@@ -4676,17 +4658,15 @@ job_id: 107891475
 ## SCOTLAND WEST - GLASGOW — POSSIBLES
 
 ---
-action:
+action: select
 POSS - SCOTLAND WEST - GLASGOW | Scotland West - Glasgow | Glasgow | £27500 - £33000 per year (Depending on experience) | Office Administrator
 job_id: 23643_225465361
 ---
-
 ---
-action:
+action: select
 POSS - SCOTLAND WEST - GLASGOW | Scotland West - Glasgow | Glasgow | £18.06 - £20.87 per hour (+ Available on request) | Finance Assistant
 job_id: 107901355
 ---
-
 ## SHROPSHIRE — SELECTED
 
 ---
@@ -4962,11 +4942,10 @@ job_id: 107793245
 ## STAFFORDSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - STAFFORDSHIRE | Staffordshire | Staffordshire | £30000 - £35000 per year | Operations Administrator
 job_id: 23643_225538712
 ---
-
 ## SUFFOLK — SELECTED
 
 ---
@@ -5320,11 +5299,10 @@ job_id: 107901582
 ## WILTSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - WILTSHIRE | Wiltshire | Swindon | £12.98 - £16.83 per hour | Service Delivery Coordinator - Swindon
 job_id: 23643_225536263
 ---
-
 ## WORCESTERSHIRE — SELECTED
 
 ---
@@ -5378,17 +5356,15 @@ job_id: 107757849
 ## WORCESTERSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - WORCESTERSHIRE | Worcestershire | Worcestershire | £19 per hour | Governance Officer/Secretary
 job_id: 23643_225479319
 ---
-
 ---
-action:
+action: select
 POSS - WORCESTERSHIRE | Worcestershire | Worcestershire | £35000 - £37000 per year (Training + Monday to Friday + Days) | Operations Coordinator (Training on Quality Assessing)
 job_id: 23643_225436012
 ---
-
 ## YORKSHIRE - EAST — SELECTED
 
 ---
@@ -5472,11 +5448,10 @@ job_id: 23643_225429963
 ## YORKSHIRE - EAST — POSSIBLES
 
 ---
-action:
+action: select
 POSS - YORKSHIRE - EAST | Yorkshire - East | Hull | £27000 - £31000.24 per year (+ Bank Holidays, ability to buy add) | Quotations & Estimating Coordinator
 job_id: 107894712
 ---
-
 ## YORKSHIRE - NORTH — SELECTED
 
 ---
