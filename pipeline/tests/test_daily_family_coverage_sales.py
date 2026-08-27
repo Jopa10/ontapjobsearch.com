@@ -24,6 +24,7 @@ class DailyFamilyCoverageSalesTests(unittest.TestCase):
                 "London,customer_sales,LIVE\n"
                 "London,legal_assistant_paralegal,LIVE\n"
                 "London,marketing,LIVE\n"
+                "London,finance_accounts,LIVE\n"
                 "London,hr_recruitment,LIVE\n"
                 "Yorkshire - North,customer_sales,NOT LIVE\n"
                 "Cumbria - North,customer_sales,NOT LIVE\n",
@@ -33,11 +34,11 @@ class DailyFamilyCoverageSalesTests(unittest.TestCase):
                 "# Ontap daily regional overview\n\n"
                 "> LIVE Service Admin and Support Worker counts reconcile to `today.csv` on `main`. NOT LIVE old wording.\n\n"
                 "## NOT LIVE\n\n"
-                "| Region | Service admin | Support worker | Sales advisor | Paralegal | Marketing | HR / Recruitment |\n"
-                "|---|---:|---:|---:|---:|---:|---:|\n"
-                "| Cumbria - North | 3 | 6 | — | — | — | — |\n"
-                "| London |  |  |  |  |  |  |\n"
-                "| Yorkshire - North |  | 5 | — | — | — | — |\n\n"
+                "| Region | Service admin | Support worker | Sales advisor | Paralegal | Marketing | Finance / Accounts | HR / Recruitment |\n"
+                "|---|---:|---:|---:|---:|---:|---:|---:|\n"
+                "| Cumbria - North | 3 | 6 | — | — | — | — | — |\n"
+                "| London |  |  |  |  |  |  |  |\n"
+                "| Yorkshire - North |  | 5 | — | — | — | — | — |\n\n"
                 "## HEADLINE\n",
                 encoding="utf-8",
             )
@@ -57,6 +58,7 @@ class DailyFamilyCoverageSalesTests(unittest.TestCase):
                                         "customer_sales": 3,
                                         "legal_assistant_paralegal": 2,
                                         "marketing": 1,
+                                        "finance_accounts": 3,
                                         "hr_recruitment": 2,
                                     },
                                     "London": {
@@ -65,6 +67,7 @@ class DailyFamilyCoverageSalesTests(unittest.TestCase):
                                         "customer_sales": 18,
                                         "legal_assistant_paralegal": 40,
                                         "marketing": 25,
+                                        "finance_accounts": 14,
                                         "hr_recruitment": 16,
                                     },
                                     "Yorkshire - North": {
@@ -73,6 +76,7 @@ class DailyFamilyCoverageSalesTests(unittest.TestCase):
                                         "customer_sales": 6,
                                         "legal_assistant_paralegal": 5,
                                         "marketing": 4,
+                                        "finance_accounts": 5,
                                         "hr_recruitment": 3,
                                     },
                                 },
@@ -86,6 +90,7 @@ class DailyFamilyCoverageSalesTests(unittest.TestCase):
                                         "customer_sales": 2,
                                         "legal_assistant_paralegal": 4,
                                         "marketing": 3,
+                                        "finance_accounts": 5,
                                         "hr_recruitment": 4,
                                     },
                                     "London": {
@@ -94,6 +99,7 @@ class DailyFamilyCoverageSalesTests(unittest.TestCase):
                                         "customer_sales": 20,
                                         "legal_assistant_paralegal": 41,
                                         "marketing": 27,
+                                        "finance_accounts": 15,
                                         "hr_recruitment": 17,
                                     },
                                     "Yorkshire - North": {
@@ -102,6 +108,7 @@ class DailyFamilyCoverageSalesTests(unittest.TestCase):
                                         "customer_sales": 8,
                                         "legal_assistant_paralegal": 7,
                                         "marketing": 6,
+                                        "finance_accounts": 8,
                                         "hr_recruitment": 5,
                                     },
                                 },
@@ -117,6 +124,7 @@ class DailyFamilyCoverageSalesTests(unittest.TestCase):
             sales = {"Cumbria - North": 2, "London": 20, "Yorkshire - North": 8}
             legal = {"Cumbria - North": 4, "London": 41, "Yorkshire - North": 7}
             marketing = {"Cumbria - North": 3, "London": 27, "Yorkshire - North": 6}
+            finance = {"Cumbria - North": 5, "London": 15, "Yorkshire - North": 8}
             hr_counts = {"Cumbria - North": 4, "London": 17, "Yorkshire - North": 5}
             original_load_history = history.load_history
 
@@ -135,14 +143,15 @@ class DailyFamilyCoverageSalesTests(unittest.TestCase):
                         "customer_sales": sales,
                         "legal_assistant_paralegal": legal,
                         "marketing": marketing,
+                        "finance_accounts": finance,
                         "hr_recruitment": hr_counts,
                     },
                 )
 
             text = overview.read_text(encoding="utf-8")
-            self.assertIn("| Cumbria - North | 3 / 2.0 / 0/2 | 6 / 5.0 / 1/2 | 2 / 2.5 / 0/2 | 4 / 3.0 / 0/2 | 3 / 2.0 / 0/2 | 4 / 3.0 / 0/2 |", text)
-            self.assertIn("| Yorkshire - North | 4 / 5.0 / 1/2 | 5 / 6.0 / 1/2 | 8 / 7.0 / 2/2 | 7 / 6.0 / 1/2 | 6 / 5.0 / 1/2 | 5 / 4.0 / 0/2 |", text)
-            self.assertIn("| London | 100 / 95.0 / 2/2 | 10 / 9.0 / 2/2 |  |  |  |  |", text)
+            self.assertIn("| Cumbria - North | 3 / 2.0 / 0/2 | 6 / 5.0 / 1/2 | 2 / 2.5 / 0/2 | 4 / 3.0 / 0/2 | 3 / 2.0 / 0/2 | 5 / 4.0 / 0/2 | 4 / 3.0 / 0/2 |", text)
+            self.assertIn("| Yorkshire - North | 4 / 5.0 / 1/2 | 5 / 6.0 / 1/2 | 8 / 7.0 / 2/2 | 7 / 6.0 / 1/2 | 6 / 5.0 / 1/2 | 8 / 6.5 / 1/2 | 5 / 4.0 / 0/2 |", text)
+            self.assertIn("| London | 100 / 95.0 / 2/2 | 10 / 9.0 / 2/2 |  |  |  |  |  |", text)
             self.assertIn("today / 14d avg / 6+ days", text)
             self.assertIn("Sales diagnostic counts are evidence only", text)
             self.assertNotIn("NOT LIVE Sales Advisor remains `—`", text)
@@ -220,6 +229,7 @@ class DailyFamilyCoverageSalesTests(unittest.TestCase):
             self.assertEqual(counts["customer_sales"], {})
             self.assertEqual(counts["legal_assistant_paralegal"], {})
             self.assertEqual(counts["marketing"], {})
+            self.assertEqual(counts["finance_accounts"], {})
             self.assertEqual(counts["hr_recruitment"], {})
 
 

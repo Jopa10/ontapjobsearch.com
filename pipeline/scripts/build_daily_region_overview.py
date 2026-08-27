@@ -70,6 +70,17 @@ FAMILIES = (
         "published_slug": "marketing-jobs",
     },
     {
+        "key": "finance_accounts",
+        "label": "Finance / Accounts",
+        "register_category": "finance_accounts",
+        "source_category": "",
+        "decision_report": "",
+        "profile_category": "",
+        "candidate_dir": "",
+        "candidate_pattern": "",
+        "published_slug": "finance-accounts-jobs",
+    },
+    {
         "key": "hr_recruitment",
         "label": "HR / Recruitment",
         "register_category": "hr_recruitment",
@@ -338,12 +349,12 @@ def build() -> str:
         "",
         f"Generated: {datetime.now().astimezone().isoformat(timespec='seconds')}",
         "",
-        f"> LIVE Service Admin and Support Worker counts reconcile to `{source_report}` on `main`, with factual detail/alias regions rolled into their canonical 78-market UK region before the LIVE table and headline are totalled. LIVE Sales Advisor, Paralegal, Marketing and HR / Recruitment counts come from their current published configured-slice JSON on `main`. The overview covers all {EXPECTED_REGION_COUNT} assessable UK markets; LIVE status remains controlled only by the slice register. Before same-feed 78-market coverage has run, NOT LIVE Admin/Support may fall back to the latest all-region Module 2 profile ({profile_date or 'unavailable'}), and Service Admin may also add current Teaching Vacancies regional candidate output. `—` means not assessed / no current source; it does NOT mean zero.",
+        f"> LIVE Service Admin and Support Worker counts reconcile to `{source_report}` on `main`, with factual detail/alias regions rolled into their canonical 78-market UK region before the LIVE table and headline are totalled. LIVE Sales Advisor, Paralegal, Marketing, Finance / Accounts and HR / Recruitment counts come from their current published configured-slice JSON on `main`. The overview covers all {EXPECTED_REGION_COUNT} assessable UK markets; LIVE status remains controlled only by the slice register. Before same-feed 78-market coverage has run, NOT LIVE Admin/Support may fall back to the latest all-region Module 2 profile ({profile_date or 'unavailable'}), and Service Admin may also add current Teaching Vacancies regional candidate output. `—` means not assessed / no current source; it does NOT mean zero.",
         "",
         "## LIVE",
         "",
-        "| Region | Service admin | Support worker | Sales advisor | Paralegal | Marketing | HR / Recruitment |",
-        "|---|---:|---:|---:|---:|---:|---:|",
+        "| Region | Service admin | Support worker | Sales advisor | Paralegal | Marketing | Finance / Accounts | HR / Recruitment |",
+        "|---|---:|---:|---:|---:|---:|---:|---:|",
     ]
 
     for region_name, _slug, state in rows:
@@ -358,7 +369,7 @@ def build() -> str:
                 live_cells.append(str(item["live_count"]))
         lines.append(f"| {region_name} | " + " | ".join(live_cells) + " |")
 
-    lines.extend(["", "## NOT LIVE", "", "| Region | Service admin | Support worker | Sales advisor | Paralegal | Marketing | HR / Recruitment |", "|---|---:|---:|---:|---:|---:|---:|"])
+    lines.extend(["", "## NOT LIVE", "", "| Region | Service admin | Support worker | Sales advisor | Paralegal | Marketing | Finance / Accounts | HR / Recruitment |", "|---|---:|---:|---:|---:|---:|---:|---:|"])
     for region_name, _slug, state in rows:
         cells = []
         for family in FAMILIES:
@@ -391,8 +402,8 @@ def build() -> str:
 
     lines.extend([
         "", "## HEADLINE", "",
-        "| Measure | Service admin | Support worker | Sales advisor | Paralegal | Marketing | HR / Recruitment |",
-        "|---|---:|---:|---:|---:|---:|---:|",
+        "| Measure | Service admin | Support worker | Sales advisor | Paralegal | Marketing | Finance / Accounts | HR / Recruitment |",
+        "|---|---:|---:|---:|---:|---:|---:|---:|",
         "| Live regions | " + " | ".join(f"{live_regions[f['key']]} / {EXPECTED_REGION_COUNT}" for f in FAMILIES) + " |",
         "| Live jobs | " + " | ".join(headline_value(f["key"]) for f in FAMILIES) + " |",
         "", f"**Live slices: {total_live_slices} / {total_possible}.**", "",

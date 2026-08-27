@@ -22,7 +22,7 @@ Cumbria - North,support_worker,CANDIDATE
 London,customer_service_contact_centre,LIVE
 London,hr_recruitment,LIVE
 Greater Manchester - Manchester & Salford,admin_service,LIVE
-London,finance_accounts,LIVE
+London,finance_accounts,CANDIDATE
 Oxfordshire,admin_service,LIVE
 Bristol & Bath,admin_service,LIVE
 Essex,admin_service,LIVE
@@ -47,10 +47,10 @@ Hertfordshire,admin_service,LIVE
 Staffordshire,admin_service,LIVE
 Norfolk,admin_service,LIVE
 Sussex,finance_accounts,CANDIDATE
-Yorkshire - West,finance_accounts,CANDIDATE
-Gloucestershire,finance_accounts,CANDIDATE
+Yorkshire - West,finance_accounts,LIVE
+Gloucestershire,finance_accounts,LIVE
 Berkshire,customer_service_contact_centre,CANDIDATE
-Bristol & Bath,finance_accounts,CANDIDATE
+Bristol & Bath,finance_accounts,LIVE
 Essex,customer_service_contact_centre,CANDIDATE
 Kent,hr_recruitment,CANDIDATE
 Sussex,customer_service_contact_centre,CANDIDATE
@@ -58,7 +58,7 @@ West Midlands - Birmingham & Solihull,admin_service,LIVE
 Yorkshire - West,hr_recruitment,LIVE
 Greater Manchester - South,admin_service,LIVE
 Hampshire,finance_accounts,CANDIDATE
-North East,finance_accounts,CANDIDATE
+North East,finance_accounts,LIVE
 West Midlands - Birmingham & Solihull,finance_accounts,CANDIDATE
 Wiltshire,support_worker,LIVE
 Devon,support_worker,CANDIDATE
@@ -101,3 +101,6 @@ Berkshire,marketing,LIVE
 Kent,support_worker,LIVE
 North East,customer_sales,LIVE
 Oxfordshire,support_worker,LIVE
+Yorkshire - North,finance_accounts,LIVE
+Northern Ireland - East,finance_accounts,LIVE
+Shropshire,finance_accounts,LIVE

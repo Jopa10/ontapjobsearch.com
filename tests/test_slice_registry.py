@@ -28,7 +28,6 @@ class SliceRegistryTests(unittest.TestCase):
     def test_live_rows_include_new_white_collar_admin_support_and_sales_slices(self):
         live = live_slices()
         expected = {
-            ("London", "finance_accounts"),
             ("London", "customer_service_contact_centre"),
             ("London", "hr_recruitment"),
             ("London", "support_worker"),
@@ -133,6 +132,25 @@ class SliceRegistryTests(unittest.TestCase):
             "/job-search/oxfordshire/support-worker",
         )
 
+    def test_finance_accounts_live_set_is_exactly_the_eight_approved_regions(self):
+        finance_regions = {
+            region for region, category in live_slices() if category == "finance_accounts"
+        }
+        self.assertEqual(
+            finance_regions,
+            {
+                "Yorkshire - North",
+                "Gloucestershire",
+                "North East",
+                "Bristol & Bath",
+                "Northern Ireland - East",
+                "Shropshire",
+                "Yorkshire - West",
+                "Devon",
+            },
+        )
+        self.assertIn(("London", "finance_accounts"), candidate_slices())
+
     def test_hr_recruitment_live_set_is_exactly_the_six_owner_approved_regions(self):
         hr_regions = {
             region for region, category in live_slices() if category == "hr_recruitment"
@@ -161,8 +179,6 @@ class SliceRegistryTests(unittest.TestCase):
         expected = {
             ("Greater Manchester - Manchester & Salford", "customer_service_contact_centre"),
             ("Hampshire", "hr_recruitment"),
-            ("Yorkshire - West", "finance_accounts"),
-            ("North East", "finance_accounts"),
             ("Somerset", "support_worker"),
         }
         self.assertTrue(expected.issubset(candidates))

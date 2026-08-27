@@ -1,4 +1,4 @@
-"""Generate LIVE Finance and Customer-Service slices from audited title registers.
+"""Generate LIVE Customer-Service slices from its audited title register.
 
 Selection is deliberately narrow:
 - exact normalised title match only;
@@ -37,7 +37,6 @@ SUMMARY_PATH = OUTPUT_DIR / "registered-category-selection-summary.csv"
 PUBLISH_THRESHOLD = 6
 
 CATEGORIES = {
-    "finance_accounts": "finance_accounts_title_classification_register.csv",
     "customer_service_contact_centre": "customer_service_contact_centre_title_classification_register.csv",
 }
 SELECTED_CLASSIFICATIONS = {"HIGH_CONFIDENCE", "ELASTIC_FIT"}

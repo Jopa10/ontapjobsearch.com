@@ -10,11 +10,13 @@ on:
       - 'pipeline/scripts/slice_catalog.py'
       - 'pipeline/scripts/slice_registry.py'
       - 'pipeline/scripts/registered_category_pipeline.py'
+      - 'pipeline/scripts/finance_accounts_pipeline.py'
       - 'pipeline/scripts/customer_sales_pipeline.py'
       - 'pipeline/scripts/customer_sales_production_refine.py'
       - 'pipeline/scripts/marketing_pipeline.py'
       - 'pipeline/scripts/hr_recruitment_pipeline.py'
       - 'pipeline/config/family_discovery/hr_recruitment.json'
+      - 'pipeline/config/family_discovery/finance_accounts_operations.json'
       - 'pipeline/config/family_discovery/marketing.json'
       - 'pipeline/scripts/assess_daily_family_coverage.py'
       - 'pipeline/scripts/daily_family_coverage_history.py'
@@ -62,6 +64,7 @@ on:
       - '.github/workflows/test-slice-register.yml'
       - 'tests/test_slice_registry.py'
       - 'tests/test_customer_sales_pipeline.py'
+      - 'tests/test_finance_accounts_pipeline.py'
       - 'tests/test_marketing_pipeline.py'
       - 'tests/test_hr_recruitment_pipeline.py'
       - 'tests/test_publish_verified_pages.py'
@@ -80,11 +83,13 @@ on:
       - 'pipeline/scripts/slice_catalog.py'
       - 'pipeline/scripts/slice_registry.py'
       - 'pipeline/scripts/registered_category_pipeline.py'
+      - 'pipeline/scripts/finance_accounts_pipeline.py'
       - 'pipeline/scripts/customer_sales_pipeline.py'
       - 'pipeline/scripts/customer_sales_production_refine.py'
       - 'pipeline/scripts/marketing_pipeline.py'
       - 'pipeline/scripts/hr_recruitment_pipeline.py'
       - 'pipeline/config/family_discovery/hr_recruitment.json'
+      - 'pipeline/config/family_discovery/finance_accounts_operations.json'
       - 'pipeline/config/family_discovery/marketing.json'
       - 'pipeline/scripts/assess_daily_family_coverage.py'
       - 'pipeline/scripts/daily_family_coverage_history.py'
@@ -132,6 +137,7 @@ on:
       - '.github/workflows/test-slice-register.yml'
       - 'tests/test_slice_registry.py'
       - 'tests/test_customer_sales_pipeline.py'
+      - 'tests/test_finance_accounts_pipeline.py'
       - 'tests/test_marketing_pipeline.py'
       - 'tests/test_hr_recruitment_pipeline.py'
       - 'tests/test_publish_verified_pages.py'
@@ -157,6 +163,7 @@ jobs:
             pipeline/scripts/slice_catalog.py \
             pipeline/scripts/slice_registry.py \
             pipeline/scripts/registered_category_pipeline.py \
+            pipeline/scripts/finance_accounts_pipeline.py \
             pipeline/scripts/customer_sales_pipeline.py \
             pipeline/scripts/customer_sales_production_refine.py \
             pipeline/scripts/marketing_pipeline.py \
@@ -183,6 +190,7 @@ jobs:
           python -m unittest \
             tests.test_slice_registry \
             tests.test_customer_sales_pipeline \
+            tests.test_finance_accounts_pipeline \
             tests.test_marketing_pipeline \
             tests.test_hr_recruitment_pipeline \
             tests.test_publish_verified_pages \

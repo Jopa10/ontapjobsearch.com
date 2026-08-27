@@ -14,6 +14,7 @@ FAMILIES = (
     "customer_sales",
     "legal_assistant_paralegal",
     "marketing",
+    "finance_accounts",
     "hr_recruitment",
 )
 
@@ -50,6 +51,7 @@ def _snapshot_counts(
     sales_counts: dict[str, int],
     legal_counts: dict[str, int] | None = None,
     marketing_counts: dict[str, int] | None = None,
+    finance_counts: dict[str, int] | None = None,
     hr_counts: dict[str, int] | None = None,
 ) -> dict[str, dict[str, int]]:
     counts: dict[str, dict[str, int]] = {}
@@ -63,6 +65,8 @@ def _snapshot_counts(
             counts[region]["legal_assistant_paralegal"] = int(legal_counts[region])
         if marketing_counts is not None:
             counts[region]["marketing"] = int(marketing_counts[region])
+        if finance_counts is not None:
+            counts[region]["finance_accounts"] = int(finance_counts[region])
         if hr_counts is not None:
             counts[region]["hr_recruitment"] = int(hr_counts[region])
     return counts
@@ -76,6 +80,7 @@ def record_snapshot(
     sales_counts: dict[str, int],
     legal_counts: dict[str, int] | None = None,
     marketing_counts: dict[str, int] | None = None,
+    finance_counts: dict[str, int] | None = None,
     hr_counts: dict[str, int] | None = None,
     *,
     path: Path = HISTORY_PATH,
@@ -102,6 +107,7 @@ def record_snapshot(
                 sales_counts,
                 legal_counts,
                 marketing_counts,
+                finance_counts,
                 hr_counts,
             ),
         }

@@ -12,6 +12,7 @@ import pandas as pd
 from . import customer_sales_pipeline as sales
 from . import customer_sales_production_refine as sales_refine
 from . import daily_family_coverage_history as coverage_history
+from . import finance_accounts_pipeline as finance
 from . import legal_assistant_pipeline as legal
 from . import marketing_pipeline as marketing
 from . import hr_recruitment_pipeline as hr
@@ -40,6 +41,7 @@ FAMILY_KEYS = (
     "customer_sales",
     "legal_assistant_paralegal",
     "marketing",
+    "finance_accounts",
     "hr_recruitment",
 )
 
@@ -277,7 +279,7 @@ def _assess_new_family(
     family_key: str,
     regions: dict[str, dict[str, str]],
 ) -> tuple[str, dict[str, int]]:
-    """Assess Legal or Marketing across all 78 markets with production rules.
+    """Assess Legal, Marketing or Finance across all 78 markets with production rules.
 
     Both production modules expose their frozen advert classifier and reuse the
     same content fingerprint and canonical geography helpers. This diagnostic
@@ -314,8 +316,8 @@ def _assess_new_family(
     counts = {region: 0 for region in regions}
     seen_content: set[str] = set()
     location_lookup = (
-        marketing.load_location_lookup(marketing.GEO_PATH)
-        if family_key == "marketing"
+        module.load_location_lookup(module.GEO_PATH)
+        if family_key in {"marketing", "finance_accounts"}
         else []
     )
 
@@ -326,8 +328,8 @@ def _assess_new_family(
             continue
 
         period = module.norm(row.get(module.SALARY_PERIOD_COL, ""))
-        if family_key == "marketing":
-            keep, _reason = marketing.classify(
+        if family_key in {"marketing", "finance_accounts"}:
+            keep, _reason = module.classify(
                 title,
                 description,
                 period,
@@ -354,14 +356,14 @@ def _assess_new_family(
         if region not in target_regions:
             continue
 
-        if family_key == "marketing":
-            conflict = marketing.location_conflict(
+        if family_key in {"marketing", "finance_accounts"}:
+            conflict = module.location_conflict(
                 title,
                 description,
                 region,
                 location_lookup,
             )
-            conflict = conflict or marketing._based_in_conflict(
+            conflict = conflict or module._based_in_conflict(
                 description,
                 region,
                 location_lookup,
@@ -472,6 +474,7 @@ def _write_coverage_csv(
     sales_counts: dict[str, int],
     legal_counts: dict[str, int],
     marketing_counts: dict[str, int],
+    finance_counts: dict[str, int],
     hr_counts: dict[str, int],
 ) -> None:
     OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
@@ -488,6 +491,7 @@ def _write_coverage_csv(
             writer.writerow({"feed_date": feed_date, "region": region, "family": "customer_sales", "selected_count": sales_counts[region]})
             writer.writerow({"feed_date": feed_date, "region": region, "family": "legal_assistant_paralegal", "selected_count": legal_counts[region]})
             writer.writerow({"feed_date": feed_date, "region": region, "family": "marketing", "selected_count": marketing_counts[region]})
+            writer.writerow({"feed_date": feed_date, "region": region, "family": "finance_accounts", "selected_count": finance_counts[region]})
             writer.writerow({"feed_date": feed_date, "region": region, "family": "hr_recruitment", "selected_count": hr_counts[region]})
 
 
@@ -524,7 +528,7 @@ def _load_coverage_csv() -> tuple[str, dict[str, dict[str, int]]]:
             missing = sorted(assessable - present)
             raise RuntimeError(f"Coverage missing {family} region(s): " + ", ".join(missing))
 
-    for family in ("customer_sales", "legal_assistant_paralegal", "marketing", "hr_recruitment"):
+    for family in ("customer_sales", "legal_assistant_paralegal", "marketing", "finance_accounts", "hr_recruitment"):
         if not counts[family]:
             continue
         present = set(counts[family])
@@ -557,6 +561,7 @@ def _apply_to_overview(
     sales_counts = counts["customer_sales"]
     legal_counts = counts["legal_assistant_paralegal"]
     marketing_counts = counts["marketing"]
+    finance_counts = counts["finance_accounts"]
     hr_counts = counts["hr_recruitment"]
     sales_ready = bool(sales_counts)
     assessed_count = len(admin_counts)
@@ -577,9 +582,9 @@ def _apply_to_overview(
                 + f". NOT LIVE Service Admin and Support Worker were assessed from the same JobG8 daily feed ({feed_date}) used by the production family run, across {assessed_count} UK markets with the config-driven production wrappers, persistent review decisions and canonical geo."
                 + sales_note
                 + (
-                    f" NOT LIVE Paralegal, Marketing and HR / Recruitment were assessed from that same feed across {len(legal_counts)}, {len(marketing_counts)} and {len(hr_counts)} UK markets respectively, using their frozen production boundaries, content dedupe and canonical geo."
-                    if legal_counts and marketing_counts and hr_counts
-                    else " NOT LIVE Paralegal, Marketing and HR / Recruitment remain `—` until the first six-family coverage run."
+                    f" NOT LIVE Paralegal, Marketing, Finance / Accounts and HR / Recruitment were assessed from that same feed across {len(legal_counts)}, {len(marketing_counts)}, {len(finance_counts)} and {len(hr_counts)} UK markets respectively, using their frozen production boundaries, content dedupe and canonical geo."
+                    if legal_counts and marketing_counts and finance_counts and hr_counts
+                    else " NOT LIVE Paralegal, Marketing, Finance / Accounts and HR / Recruitment remain `—` until the first seven-family coverage run."
                 )
                 + " All diagnostic counts are evidence only and never activate a slice automatically. Rolling family history stores one snapshot per feed date, replaces same-date reruns, retains the latest 14 feed dates and is used only as decision evidence for NOT LIVE slices."
             )
@@ -598,7 +603,7 @@ def _apply_to_overview(
 
         if in_not_live and line.startswith("| ") and not line.startswith("| Region ") and not line.startswith("|---"):
             cells = [cell.strip() for cell in line.split("|")]
-            if len(cells) >= 9:
+            if len(cells) >= 10:
                 region = cells[1]
                 if region in admin_counts and region in support_counts:
                     cells[2] = "" if statuses.get((region, "admin_service"), "") == "LIVE" else coverage_history.format_metric(history, region, "service_admin", admin_counts[region], as_of_date=feed_date)
@@ -609,8 +614,10 @@ def _apply_to_overview(
                         cells[5] = "" if statuses.get((region, "legal_assistant_paralegal"), "") == "LIVE" else coverage_history.format_metric(history, region, "legal_assistant_paralegal", legal_counts[region], as_of_date=feed_date)
                     if region in marketing_counts:
                         cells[6] = "" if statuses.get((region, "marketing"), "") == "LIVE" else coverage_history.format_metric(history, region, "marketing", marketing_counts[region], as_of_date=feed_date)
+                    if region in finance_counts:
+                        cells[7] = "" if statuses.get((region, "finance_accounts"), "") == "LIVE" else coverage_history.format_metric(history, region, "finance_accounts", finance_counts[region], as_of_date=feed_date)
                     if region in hr_counts:
-                        cells[7] = "" if statuses.get((region, "hr_recruitment"), "") == "LIVE" else coverage_history.format_metric(history, region, "hr_recruitment", hr_counts[region], as_of_date=feed_date)
+                        cells[8] = "" if statuses.get((region, "hr_recruitment"), "") == "LIVE" else coverage_history.format_metric(history, region, "hr_recruitment", hr_counts[region], as_of_date=feed_date)
                     line = "| " + " | ".join(cells[1:-1]) + " |"
                     seen_regions.add(region)
         patched.append(line)
@@ -629,13 +636,14 @@ def build_coverage() -> tuple[str, dict[str, dict[str, int]]]:
     sales_date, sales_counts = _assess_customer_sales(regions)
     legal_date, legal_counts = _assess_new_family(legal, "legal_assistant_paralegal", regions)
     marketing_date, marketing_counts = _assess_new_family(marketing, "marketing", regions)
+    finance_date, finance_counts = _assess_new_family(finance, "finance_accounts", regions)
     hr_date, hr_counts = _assess_hr_recruitment(regions)
-    dates = {admin_date, support_date, sales_date, legal_date, marketing_date, hr_date}
+    dates = {admin_date, support_date, sales_date, legal_date, marketing_date, finance_date, hr_date}
     if len(dates) != 1:
         raise RuntimeError(
             "Family assessment feed-date mismatch: "
             f"admin={admin_date}, support={support_date}, sales={sales_date}, "
-            f"legal={legal_date}, marketing={marketing_date}, hr={hr_date}"
+            f"legal={legal_date}, marketing={marketing_date}, finance={finance_date}, hr={hr_date}"
         )
     _write_coverage_csv(
         admin_date,
@@ -645,6 +653,7 @@ def build_coverage() -> tuple[str, dict[str, dict[str, int]]]:
         sales_counts,
         legal_counts,
         marketing_counts,
+        finance_counts,
         hr_counts,
     )
     coverage_history.record_snapshot(
@@ -655,6 +664,7 @@ def build_coverage() -> tuple[str, dict[str, dict[str, int]]]:
         sales_counts,
         legal_counts,
         marketing_counts,
+        finance_counts,
         hr_counts,
     )
     return admin_date, {
@@ -663,6 +673,7 @@ def build_coverage() -> tuple[str, dict[str, dict[str, int]]]:
         "customer_sales": sales_counts,
         "legal_assistant_paralegal": legal_counts,
         "marketing": marketing_counts,
+        "finance_accounts": finance_counts,
         "hr_recruitment": hr_counts,
     }
 
@@ -684,7 +695,7 @@ def main() -> int:
 
     feed_date, _counts = build_coverage()
     print(
-        f"Wrote {OUTPUT_PATH}: {EXPECTED_REGION_COUNT} UK markets x 6 families for feed {feed_date}; "
+        f"Wrote {OUTPUT_PATH}: {EXPECTED_REGION_COUNT} UK markets x 7 families for feed {feed_date}; "
         f"updated {coverage_history.HISTORY_PATH}"
     )
     return 0

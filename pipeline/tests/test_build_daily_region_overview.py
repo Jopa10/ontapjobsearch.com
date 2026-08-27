@@ -6,14 +6,15 @@ from scripts.build_daily_region_overview import FAMILIES, _live_count_for_market
 
 
 class LiveRegionalRollupTests(unittest.TestCase):
-    def test_overview_includes_all_six_governed_families(self) -> None:
+    def test_overview_includes_all_seven_governed_families(self) -> None:
         self.assertEqual(
             [family["label"] for family in FAMILIES],
-            ["Service admin", "Support worker", "Sales advisor", "Paralegal", "Marketing", "HR / Recruitment"],
+            ["Service admin", "Support worker", "Sales advisor", "Paralegal", "Marketing", "Finance / Accounts", "HR / Recruitment"],
         )
         self.assertEqual(FAMILIES[3]["published_slug"], "paralegal-jobs")
         self.assertEqual(FAMILIES[4]["published_slug"], "marketing-jobs")
-        self.assertEqual(FAMILIES[5]["published_slug"], "hr-recruitment-jobs")
+        self.assertEqual(FAMILIES[5]["published_slug"], "finance-accounts-jobs")
+        self.assertEqual(FAMILIES[6]["published_slug"], "hr-recruitment-jobs")
 
     def test_canonical_market_includes_direct_and_detail_alias_counts(self) -> None:
         category = "Admin/Service – Office Support"
