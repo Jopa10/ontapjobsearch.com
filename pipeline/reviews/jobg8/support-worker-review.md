@@ -452,11 +452,10 @@ job_id: 107893300
 ## OXFORDSHIRE — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - OXFORDSHIRE | Oxfordshire | Oxford | £180 per daily | Live in Care Assistant to 3rd year Biology Uni Student
 job_id: 107840646
 ---
-
 ## SURREY — SELECTED
 
 ---

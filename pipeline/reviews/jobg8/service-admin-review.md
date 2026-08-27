@@ -790,11 +790,10 @@ job_id: 107893040
 ## LONDON — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - LONDON | London | London | £50000 - £70000 per year | Associate Planner
 job_id: 23643_225431172
 ---
-
 ## HAMPSHIRE — SELECTED
 
 ---
@@ -2340,11 +2339,10 @@ job_id: 107709595
 ## CHESHIRE - WARRINGTON & HALTON — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - CHESHIRE - WARRINGTON & HALTON | Cheshire - Warrington & Halton | Warrington | £16 - £17 per hour | Part Time Corporate Receptionist
 job_id: 23643_225537956
 ---
-
 ## CHESHIRE - WEST — SELECTED
 
 ---
