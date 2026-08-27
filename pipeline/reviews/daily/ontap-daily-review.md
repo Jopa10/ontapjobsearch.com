@@ -4,9 +4,9 @@
 > All active sources are current for 2026-08-27. You can start reviewing.
 
 review_date: 2026-08-27
-generated_at: 2026-08-27T10:27:12+00:00
+generated_at: 2026-08-27T16:41:03+00:00
 
-**55 job(s) need a human decision.**
+**29 job(s) need a human decision.**
 
 Edit only each `action:` line:
 - `action: select` = include the vacancy.
@@ -21,541 +21,75 @@ Edit only each `action:` line:
 
 | Source | Status | Review date | Needs review | Note |
 |---|---|---|---:|---|
-| JobG8 | OK | 2026-08-27 | 27 | — |
+| JobG8 | OK | 2026-08-27 | 3 | — |
 | NEJobs | OK | 2026-08-27 | 0 | — |
-| VONNE | OK | 2026-08-27 | 2 | — |
+| VONNE | OK | 2026-08-27 | 0 | — |
 | Teaching Vacancies | OK | 2026-08-27 | 26 | — |
 | NHS Jobs | OK | 2026-08-27 | 0 | automatic Tier A/B publish; NHS POSS stays in the NHS-specific review and is optional |
 
-## JobG8 — 27 to review
+## JobG8 — 3 to review
 
 ---
-action: select
-POSS | JobG8 | Berkshire | Berkshire | £16.34 per hour | Facilities Coordinator
+action:
+POSS | JobG8 | Cheshire - Warrington & Halton | Warrington | £16 - £17 per hour | Part Time Corporate Receptionist
 source_key: jobg8
 source: JobG8
 category: admin_service
-source_job_id: 23643_225534716
-title: Facilities Coordinator
+source_job_id: 23643_225537956
+title: Part Time Corporate Receptionist
 employer: 
-location: Berkshire
-region: Berkshire
-salary: £16.34 per hour
+location: Warrington
+region: Cheshire - Warrington & Halton
+salary: £16 - £17 per hour
 closing_date: 
 reason: JobG8 selector marked this vacancy POSS
 source_url: 
-hub_fingerprint: 27d2f5e6b0d596b1b88d7c7e70de42e2830c5e97dbe1f6205a5f7ded39b41b35
----
-
----
-action: exclude
-POSS | JobG8 | Bristol & Bath | Bath | £50000 per year | Contact Centre Product Owner
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 107811359
-title: Contact Centre Product Owner
-employer: 
-location: Bath
-region: Bristol & Bath
-salary: £50000 per year
-closing_date: 
-reason: JobG8 selector marked this vacancy POSS
-source_url: 
-hub_fingerprint: 9aba654f2f147c196c854ee5c09abc6a115cd8c63237ce42fc53ee72a740ff66
----
-
----
-action: exclude
-POSS | JobG8 | Cheshire - West | Chester | £40000 per year | Trust / Estates Administrator (Chartered Accountancy)
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 107767176
-title: Trust / Estates Administrator (Chartered Accountancy)
-employer: 
-location: Chester
-region: Cheshire - West
-salary: £40000 per year
-closing_date: 
-reason: JobG8 selector marked this vacancy POSS
-source_url: 
-hub_fingerprint: 0ba290f45547a4b64f0212937c52d1e15a711b23c70bc1a6181f6d7f503a54e4
+hub_fingerprint: 5d382e36d21bd2fabdb210e3732a69e6b387f805028a129f461465e6b776af91
 ---
 
 ---
 action:
-POSS | JobG8 | Cheshire - West | Chester | £35000 - £40000 per year (Progression, Training, Company Benef) | Trust / Estates Administrator (Chartered Accountancy)
+POSS | JobG8 | London | London | £50000 - £70000 per year | Associate Planner
 source_key: jobg8
 source: JobG8
 category: admin_service
-source_job_id: 23643_225430066
-title: Trust / Estates Administrator (Chartered Accountancy)
-employer: 
-location: Chester
-region: Cheshire - West
-salary: £35000 - £40000 per year (Progression, Training, Company Benef)
-closing_date: 
-reason: JobG8 selector marked this vacancy POSS
-source_url: 
-hub_fingerprint: 3946912e8b31b997ce4470499ffb14cca5ea59e01e54bc9fc84bc33ed2210d83
----
-
----
-action: select
-POSS | JobG8 | Cheshire - West | Frodsham | £35000 per year | Marketing Coordinator
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 107840320
-title: Marketing Coordinator
-employer: 
-location: Frodsham
-region: Cheshire - West
-salary: £35000 per year
-closing_date: 
-reason: JobG8 selector marked this vacancy POSS
-source_url: 
-hub_fingerprint: 86f503236ff9722e3fabdd2b2fd95f83524c0f7307dfce6355d36729cbe1d44d
----
-
----
-action: exclude
-POSS | JobG8 | Essex | Essex | £40000 per year | QUALITY & PROCESS COORDINATOR
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 107824928
-title: QUALITY & PROCESS COORDINATOR
-employer: 
-location: Essex
-region: Essex
-salary: £40000 per year
-closing_date: 
-reason: JobG8 selector marked this vacancy POSS
-source_url: 
-hub_fingerprint: aabb4b19e35257672d74609ded0bfba02b228477b5acec1e3637bc6558dcc61d
----
-
----
-action: select
-POSS | JobG8 | Essex | Essex | £35000 per year | Recruitment Coordinator
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 23643_225534717
-title: Recruitment Coordinator
-employer: 
-location: Essex
-region: Essex
-salary: £35000 per year
-closing_date: 
-reason: JobG8 selector marked this vacancy POSS
-source_url: 
-hub_fingerprint: ab53c7008f3cef1f4209ac9f80ccc9559a087e595041bcec83d62e8fbbec0dac
----
-
----
-action: exclude
-POSS | JobG8 | Hampshire | Hampshire | £70000 per year | Training Equipment Defect Co-ordinator
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 107889639
-title: Training Equipment Defect Co-ordinator
-employer: 
-location: Hampshire
-region: Hampshire
-salary: £70000 per year
-closing_date: 
-reason: JobG8 selector marked this vacancy POSS
-source_url: 
-hub_fingerprint: e5e4e86d5599b29d4fe5fb3a6ee89f29a1bd6374512556fa0a440ced83231340
----
-
----
-action: select
-POSS | JobG8 | Hertfordshire | Hertfordshire | £28500 - £36000 per year | Client Support Coordinator
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 23643_225013676
-title: Client Support Coordinator
-employer: 
-location: Hertfordshire
-region: Hertfordshire
-salary: £28500 - £36000 per year
-closing_date: 
-reason: JobG8 selector marked this vacancy POSS
-source_url: 
-hub_fingerprint: e15f5c4bc112a8afe096c4a41fe499b04e92ae112770df4590f04af38d86c0dd
----
-
----
-action: exclude
-POSS | JobG8 | Kent | Kent | £42000 per year | Contracts Coordinator
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 23643_225536606
-title: Contracts Coordinator
-employer: 
-location: Kent
-region: Kent
-salary: £42000 per year
-closing_date: 
-reason: JobG8 selector marked this vacancy POSS
-source_url: 
-hub_fingerprint: 2f0c7bf737c586f865f93a97d15cf48412127c09aae50288956c08cdb3e20f6e
----
-
----
-action: select
-POSS | JobG8 | Lincolnshire | Lincolnshire | £35000 per year | Human Resources Administrator
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 107772427
-title: Human Resources Administrator
-employer: 
-location: Lincolnshire
-region: Lincolnshire
-salary: £35000 per year
-closing_date: 
-reason: JobG8 selector marked this vacancy POSS
-source_url: 
-hub_fingerprint: 08cb552f1f2083b325d3869ea1e56b6fab051668b5731831b13ee21064bbd6f8
----
-
----
-action: select
-POSS | JobG8 | London | Harrow | £18.22 per hour | School Financial Administrator
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 23643_225537842
-title: School Financial Administrator
-employer: 
-location: Harrow
-region: London
-salary: £18.22 per hour
-closing_date: 
-reason: JobG8 selector marked this vacancy POSS
-source_url: 
-hub_fingerprint: 4c90835c2eef4c85016675c9f19718ba7ef08ccb1a0da6e12a2a5492b7b782e7
----
-
----
-action: select
-POSS | JobG8 | London | London | £17 - £18.57 per hour | Administrator
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 23643_225534135
-title: Administrator
+source_job_id: 23643_225431172
+title: Associate Planner
 employer: 
 location: London
 region: London
-salary: £17 - £18.57 per hour
+salary: £50000 - £70000 per year
 closing_date: 
 reason: JobG8 selector marked this vacancy POSS
 source_url: 
-hub_fingerprint: 788ff4ca94c512311e692aa8d12dc4e739777e322efb5518746ca24adb6830a3
+hub_fingerprint: 4269db8173249c92071df2e358d8cd0f8cbee6ec7dd4d6b91f83cf05bce2a0c8
 ---
 
 ---
-action: select
-POSS | JobG8 | London | Surbiton | £246 per daily | Personal Care Assistant to a Business Management graduate
+action:
+POSS | JobG8 | Oxfordshire | Oxford | £180 per daily | Live in Care Assistant to 3rd year Biology Uni Student
 source_key: jobg8
 source: JobG8
 category: support_worker
-source_job_id: 107900179
-title: Personal Care Assistant to a Business Management graduate
+source_job_id: 107840646
+title: Live in Care Assistant to 3rd year Biology Uni Student
 employer: 
-location: Surbiton
-region: London
-salary: £246 per daily
+location: Oxford
+region: Oxfordshire
+salary: £180 per daily
 closing_date: 
 reason: JobG8 selector marked this vacancy POSS
 source_url: 
-hub_fingerprint: 3df08f2f1af8e0e05acdbdecee2bee92afebae2329e45ed848d10329341ccd3e
----
-
----
-action: select
-POSS | JobG8 | Norfolk | Norfolk | £40000 per year | Nature City Norwich Project Coordinator
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 107877724
-title: Nature City Norwich Project Coordinator
-employer: 
-location: Norfolk
-region: Norfolk
-salary: £40000 per year
-closing_date: 
-reason: JobG8 selector marked this vacancy POSS
-source_url: 
-hub_fingerprint: cf8c5e7715de2aae5422ec9ac6d138ebf083176cc144150be45808c78d6a6558
----
-
----
-action: exclude
-POSS | JobG8 | Northern Ireland - East | Belfast | £75000 per year | ASPIRE Global Service Centre - Service Desk L1 L2 Team Leader - Belfast
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 107882747
-title: ASPIRE Global Service Centre - Service Desk L1 L2 Team Leader - Belfast
-employer: 
-location: Belfast
-region: Northern Ireland - East
-salary: £75000 per year
-closing_date: 
-reason: JobG8 selector marked this vacancy POSS
-source_url: 
-hub_fingerprint: b89994f59913c02b40b325fff2701345ca2dc245f26d97cdfe3d94e1d502c500
----
-
----
-action: exclude
-POSS | JobG8 | Northern Ireland - East | Belfast | £45000 per year | ASPIRE GSC - Service Desk Level 1 Level 2 Analyst - Belfast Based
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 107882606
-title: ASPIRE GSC - Service Desk Level 1 Level 2 Analyst - Belfast Based
-employer: 
-location: Belfast
-region: Northern Ireland - East
-salary: £45000 per year
-closing_date: 
-reason: JobG8 selector marked this vacancy POSS
-source_url: 
-hub_fingerprint: ee2666a843c884d4268411dc8e50465366de302b965a4a685a941aa6f19d5ef2
----
-
----
-action: exclude
-POSS | JobG8 | Scotland Central - Edinburgh & Lothians | Edinburgh | £70000 per year | Client Services Coordinator
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 107728052
-title: Client Services Coordinator
-employer: 
-location: Edinburgh
-region: Scotland Central - Edinburgh & Lothians
-salary: £70000 per year
-closing_date: 
-reason: JobG8 selector marked this vacancy POSS
-source_url: 
-hub_fingerprint: 5090004a9b6dddccd8a507ab318395d2f454e61e98b2be35b993ee005256434c
----
-
----
-action: exclude
-POSS | JobG8 | Scotland Central - Edinburgh & Lothians | Livingston | £45 - £53 per hour | IT Asset Coordinator - Contract
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 107836714
-title: IT Asset Coordinator - Contract
-employer: 
-location: Livingston
-region: Scotland Central - Edinburgh & Lothians
-salary: £45 - £53 per hour
-closing_date: 
-reason: JobG8 selector marked this vacancy POSS
-source_url: 
-hub_fingerprint: 8cd3edc3cbcfc2bbed7178974e2f08744e45982c8e51bfbff32db30cae889a30
----
-
----
-action: select
-POSS | JobG8 | Scotland West - Glasgow | Glasgow | £18.06 - £20.87 per hour (+ Available on request) | Finance Assistant
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 107901355
-title: Finance Assistant
-employer: 
-location: Glasgow
-region: Scotland West - Glasgow
-salary: £18.06 - £20.87 per hour (+ Available on request)
-closing_date: 
-reason: JobG8 selector marked this vacancy POSS
-source_url: 
-hub_fingerprint: 6f28709fcb2225c5b78e9633c5c943dcedf43fcac1f1b262e626077bb8bd9e2a
----
-
----
-action: select
-POSS | JobG8 | Scotland West - Glasgow | Glasgow | £27500 - £33000 per year (Depending on experience) | Office Administrator
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 23643_225465361
-title: Office Administrator
-employer: 
-location: Glasgow
-region: Scotland West - Glasgow
-salary: £27500 - £33000 per year (Depending on experience)
-closing_date: 
-reason: JobG8 selector marked this vacancy POSS
-source_url: 
-hub_fingerprint: abddcd141a1d91bc83c5b1ee30c17269901897eb2d944d877bbda49285c0e390
----
-
----
-action: select
-POSS | JobG8 | Staffordshire | Staffordshire | £30000 - £35000 per year | Operations Administrator
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 23643_225538712
-title: Operations Administrator
-employer: 
-location: Staffordshire
-region: Staffordshire
-salary: £30000 - £35000 per year
-closing_date: 
-reason: JobG8 selector marked this vacancy POSS
-source_url: 
-hub_fingerprint: 4bf2bb4b72a1e92c3c26cf91e7e8432949da77a7e6b50ff3ab9243ac7fc7bb39
----
-
----
-action: select
-POSS | JobG8 | Wiltshire | Swindon | £12.98 - £16.83 per hour | Service Delivery Coordinator - Swindon
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 23643_225536263
-title: Service Delivery Coordinator - Swindon
-employer: 
-location: Swindon
-region: Wiltshire
-salary: £12.98 - £16.83 per hour
-closing_date: 
-reason: JobG8 selector marked this vacancy POSS
-source_url: 
-hub_fingerprint: 197cc5d2f875139b1c0cec3e9f44bcb5ba5d2bfb804fc74cfc9f4a152a07173c
----
-
----
-action: select
-POSS | JobG8 | Worcestershire | Worcestershire | £19 per hour | Governance Officer/Secretary
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 23643_225479319
-title: Governance Officer/Secretary
-employer: 
-location: Worcestershire
-region: Worcestershire
-salary: £19 per hour
-closing_date: 
-reason: JobG8 selector marked this vacancy POSS
-source_url: 
-hub_fingerprint: 3a7b35e9a059b77eee693b677666c5ae5b2e8417438e6d5d36c78b5df580ecef
----
-
----
-action: select
-POSS | JobG8 | Worcestershire | Worcestershire | £35000 - £37000 per year (Training + Monday to Friday + Days) | Operations Coordinator (Training on Quality Assessing)
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 23643_225436012
-title: Operations Coordinator (Training on Quality Assessing)
-employer: 
-location: Worcestershire
-region: Worcestershire
-salary: £35000 - £37000 per year (Training + Monday to Friday + Days)
-closing_date: 
-reason: JobG8 selector marked this vacancy POSS
-source_url: 
-hub_fingerprint: 787100e6f6bd83a9fd630226615e61aaa7c44608e00155e6c776d4f929fc6977
----
-
----
-action: select
-POSS | JobG8 | Yorkshire - East | Hull | £27000 - £31000.24 per year (+ Bank Holidays, ability to buy add) | Quotations & Estimating Coordinator
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 107894712
-title: Quotations & Estimating Coordinator
-employer: 
-location: Hull
-region: Yorkshire - East
-salary: £27000 - £31000.24 per year (+ Bank Holidays, ability to buy add)
-closing_date: 
-reason: JobG8 selector marked this vacancy POSS
-source_url: 
-hub_fingerprint: 2db08d6b8beeb8fca629743ae7aebdcc24bf7ab7da378adc992684387bff610d
----
-
----
-action: select
-POSS | JobG8 | Yorkshire - West | Huddersfield | £14.24 - £16 per hour (+ INC holiday pay) | Complex Care Assistant
-source_key: jobg8
-source: JobG8
-category: support_worker
-source_job_id: 107728806
-title: Complex Care Assistant
-employer: 
-location: Huddersfield
-region: Yorkshire - West
-salary: £14.24 - £16 per hour (+ INC holiday pay)
-closing_date: 
-reason: JobG8 selector marked this vacancy POSS
-source_url: 
-hub_fingerprint: 64f1de611ad6c3135233156d8d22c1b2975e62beb0d16b73c26df82588aad723
+hub_fingerprint: ddc02da84976db89265b19f64e69afe2b4ba8ec011d28d7072a00780882a9682
 ---
 
 ## NEJobs — 0 to review
 
 _No new or changed human decisions required._
 
-## VONNE — 2 to review
+## VONNE — 0 to review
 
----
-action: select
-POSS | VONNE | North East | Regionwide | £30,150 Per Annum | Housing Support Officer
-source_key: vonne
-source: VONNE
-category: admin_service
-source_job_id: 173358
-title: Housing Support Officer
-employer: Handcrafted
-location: Regionwide
-region: North East
-salary: £30,150 Per Annum
-closing_date: Tuesday, September 1, 2026 - 17:00
-reason: North East geography is generic or derived and requires review
-source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173358
-hub_fingerprint: 72e9f7d2c7cb1c90bdf359f6711fa6126a7443b9202f95bb82f5c69e1417a425
----
-
----
-action: exclude
-POSS | VONNE | North East - Tyneside, Wearside & Northumberland | Newcastle | £34,625 Per Annum | Project Lead
-source_key: vonne
-source: VONNE
-category: admin_service
-source_job_id: 173363
-title: Project Lead
-employer: Changing Lives
-location: Newcastle
-region: North East - Tyneside, Wearside & Northumberland
-salary: £34,625 Per Annum
-closing_date: 09 September 2026
-reason: transferable title with specialist or borderline wording: lead
-source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173363
-hub_fingerprint: d7ef8998f8a50c806905683a20a352b0e85080241e11692e4d2ae10172ee29fa
----
+_No new or changed human decisions required._
 
 ## Teaching Vacancies — 26 to review
 
