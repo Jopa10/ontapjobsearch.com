@@ -260,8 +260,16 @@ def main() -> int:
             provisional = "BORDERLINE"
             reason = "title needs advert-context review"
         else:
-            provisional = "BORDERLINE"
-            reason = "description-led family signal needs advert review"
+            provisional = str(cfg.get("unmatched_decision", "BORDERLINE")).strip().upper()
+            if provisional not in {"BORDERLINE", "OUT_BOUNDARY"}:
+                raise SystemExit(
+                    f"Invalid unmatched_decision for {display_name}: {provisional}"
+                )
+            reason = (
+                "outside frozen family boundary"
+                if provisional == "OUT_BOUNDARY"
+                else "description-led family signal needs advert review"
+            )
 
         area = norm(source.get(AREA_COL, ""))
         location = norm(source.get(LOCATION_COL, ""))
@@ -313,7 +321,10 @@ def main() -> int:
     decision_counts = Counter(content_unique["provisional_decision"])
     likely_n = decision_counts.get("LIKELY_IN", 0)
     borderline_n = decision_counts.get("BORDERLINE", 0)
-    out_n = decision_counts.get("OUT_SPECIALIST", 0) + decision_counts.get("OUT_SALARY", 0)
+    out_n = sum(
+        count for decision, count in decision_counts.items()
+        if str(decision).startswith("OUT_")
+    )
     estimate = likely_n + round(borderline_n * 0.5)
     lower = likely_n
     upper = likely_n + borderline_n
