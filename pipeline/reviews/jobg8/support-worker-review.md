@@ -1,6 +1,6 @@
 # Support-worker manual review
 
-feed_date: 2026-08-26
+feed_date: 2026-08-27
 
 Edit only the `action:` line in each block:
 
@@ -37,6 +37,12 @@ job_id: 107728806
 action:
 SELECTED | Yorkshire - South | Barnsley | £24000 per year | Residential Child Care Worker
 job_id: 107881537
+---
+
+---
+action:
+SELECTED | Yorkshire - South | Doncaster | £12.85 per hour (plus rolled up holiday pay) | Relief Support Worker
+job_id: 107891312
 ---
 
 ## SOUTH YORKSHIRE — POSSIBLES
@@ -80,12 +86,6 @@ _No jobs in this group._
 _No jobs in this group._
 
 ## SUSSEX — SELECTED
-
----
-action:
-SELECTED | Sussex | Brighton | £25000 - £28000 per year | Personal Assistant - education sector
-job_id: 23643_225427103
----
 
 ---
 action:
@@ -135,29 +135,11 @@ SELECTED | Sussex | Midhurst | rate of up to £13.11 (plus a 12.07% holiday allo
 job_id: 107831119
 ---
 
----
-action:
-SELECTED | Sussex | Chichester | £12.71 per hour | Healthcare Assistant
-job_id: 107885550
----
-
 ## SUSSEX — POSSIBLES
 
 _No jobs in this group._
 
 ## CUMBRIA SOUTH — SELECTED
-
----
-action:
-SELECTED | Cumbria - South | Barrow-in-furness | £12.85 per hour (plus rolled up holiday pay) | Relief Support Worker
-job_id: 107877592
----
-
----
-action:
-SELECTED | Cumbria - South | Ulverston | £12.85 per hour | Support Worker
-job_id: 107891318
----
 
 ---
 action:
@@ -339,6 +321,12 @@ SELECTED | London | London | £13 per hour | Home Care Worker
 job_id: 107744963
 ---
 
+---
+action:
+SELECTED | London | London | £30,784.00 per annum | Support worker
+job_id: 1812536
+---
+
 ## LONDON — POSSIBLES
 
 ---
@@ -353,12 +341,6 @@ job_id: 107900179
 action:
 SELECTED | Surrey | Guildford | £13.05 per hour | Residential Childcare Support Worker (Casual)
 job_id: 107776110
----
-
----
-action:
-SELECTED | Surrey | Addlestone | £28687 - £32786 per year ((FTE)) | Family Support Worker
-job_id: 328187
 ---
 
 ---
