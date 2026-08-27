@@ -121,6 +121,60 @@ class FamilyDiscoveryTests(unittest.TestCase):
                 "mixed/ambiguous title requires advert-context review",
             )
 
+    def test_frozen_family_can_mark_unmatched_candidates_out(self) -> None:
+        with tempfile.TemporaryDirectory() as temp_dir:
+            root = Path(temp_dir)
+            input_dir = root / "input"
+            output_dir = root / "output"
+            input_dir.mkdir()
+
+            pd.DataFrame(
+                [{
+                    "/Job/Position": "Financial Administrator",
+                    "/Job/Description": "Provides financial administration support.",
+                    "/Job/Area": "London",
+                    "/Job/Location": "London",
+                    "/Job/DisplayReference": "frozen-out-1",
+                    "/Job/SalaryMinimum": "30000",
+                    "/Job/SalaryMaximum": "35000",
+                    "/Job/SalaryPeriod": "Annual",
+                }]
+            ).to_excel(input_dir / "2026-08-27.xlsx", index=False)
+
+            geo_path = root / "geo.xlsx"
+            pd.DataFrame([{"Area": "London", "Cluster": "London"}]).to_excel(geo_path, index=False)
+            markets_path = root / "markets.json"
+            markets_path.write_text(
+                json.dumps({"region_count": 1, "regions": {"London": {}}, "detail_rollups": {}}),
+                encoding="utf-8",
+            )
+            config_path = root / "family.json"
+            config_path.write_text(
+                json.dumps({
+                    "family_key": "finance",
+                    "display_name": "Finance",
+                    "broad_title_patterns": [r"\bfinancial\b"],
+                    "likely_in_title_patterns": [r"\bfinance\s+administrator\b"],
+                    "unmatched_decision": "OUT_BOUNDARY",
+                    "viability_floor": 1,
+                }),
+                encoding="utf-8",
+            )
+
+            argv = [
+                "jobg8_family_discovery.py", "--input-dir", str(input_dir),
+                "--config", str(config_path), "--output-dir", str(output_dir),
+                "--geo-lookup", str(geo_path), "--assessable-regions", str(markets_path),
+            ]
+            with patch.object(sys, "argv", argv):
+                self.assertEqual(jobg8_family_discovery.main(), 0)
+
+            result = pd.read_csv(
+                output_dir / "jobg8-finance-discovery-current.csv", dtype=str
+            ).fillna("")
+            self.assertEqual(result.loc[0, "provisional_decision"], "OUT_BOUNDARY")
+            self.assertEqual(result.loc[0, "provisional_reason"], "outside frozen family boundary")
+
 
 if __name__ == "__main__":
     unittest.main()
