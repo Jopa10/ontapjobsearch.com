@@ -1,4 +1,4 @@
-name: Run Teaching Vacancies review
+name: a2Run Teaching Vacancies review
 
 on:
   workflow_dispatch:
