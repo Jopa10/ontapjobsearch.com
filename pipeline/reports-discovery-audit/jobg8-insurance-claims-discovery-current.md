@@ -1,11 +1,11 @@
 # JobG8 Insurance & Claims Support discovery audit
 
-Feed: **2026-08-24.xlsx**
+Feed: **2026-08-27.xlsx**
 Jobs in feed: **10,000**
-Broad insurance/claims candidates: **201**
-Core support candidates: **51**
-Boundary-review candidates: **62**
-Specialist/senior exclusions at discovery stage: **88**
+Broad insurance/claims candidates: **99**
+Core support candidates: **16**
+Boundary-review candidates: **32**
+Specialist/senior exclusions at discovery stage: **51**
 
 Diagnostic only: this report does not change any Ontap publication or family-selection rule.
 
@@ -13,66 +13,60 @@ Diagnostic only: this report does not change any Ontap publication or family-sel
 
 | Decision | Jobs |
 |---|---:|
-| EXCLUDE_SPECIALIST | 88 |
-| REVIEW_OTHER_INSURANCE | 38 |
-| CORE_CLAIMS_SUPPORT | 35 |
-| CORE_INSURANCE_SUPPORT | 16 |
-| REVIEW_ACCOUNT_HANDLER | 14 |
-| REVIEW_CLAIMS_TECHNICAL | 7 |
-| REVIEW_DESCRIPTION_ONLY | 3 |
+| EXCLUDE_SPECIALIST | 51 |
+| REVIEW_OTHER_INSURANCE | 21 |
+| CORE_CLAIMS_SUPPORT | 9 |
+| REVIEW_ACCOUNT_HANDLER | 8 |
+| CORE_INSURANCE_SUPPORT | 7 |
+| REVIEW_CLAIMS_TECHNICAL | 2 |
+| REVIEW_DESCRIPTION_ONLY | 1 |
 
 ## Salary shape — core support only
 
 Soft reference range: **£25,000–£40,000** (diagnostic, not a hard gate).
-Core jobs with usable annualised salary: **32 / 51**.
-Median annualised midpoint: **£30,460**.
-Within soft range: **32 (100%)**; below: **0**; above: **0**.
+Core jobs with usable annualised salary: **12 / 16**.
+Median annualised midpoint: **£27,000**.
+Within soft range: **11 (92%)**; below: **1**; above: **0**.
 Hourly/daily/weekly figures are annualised approximately for discovery only.
 
 ## Recurring core titles
 
 | Jobs | Title |
 |---:|---|
-| 5 | Claims Handler |
-| 3 | Insurance Account Handler |
-| 2 | Senior Claims Handler |
-| 2 | Property Claims Handler |
-| 2 | Motor Claims Handler |
-| 2 | Legal Expenses Claims Handler |
-| 2 | Commercial Insurance Account Advisor |
+| 3 | Claims Handler |
 | 1 | Experienced Motor Claims Handler |
 | 1 | Third-Party Capture Claims Handler |
 | 1 | Insurance Administrator Friendly team + 25 days A/L |
+| 1 | Insurance Account Handler |
 | 1 | PROPERTY INSURANCE ACCOUNT HANDLER |
-| 1 | SENIOR MOTOR CLAIMS HANDLER -INTERVENTION |
-| 1 | COMMERCIAL INSURANCE ACCOUNT HANDLER |
-| 1 | Claims Handler - Defendant Personal Injury (EL/PL) |
-| 1 | Motor Trade Insurance Advisor |
-| 1 | Insurance Claims Advisor |
-| 1 | EL/PL Claims Handler |
-| 1 | NDA Small Claims Track File Handler |
-| 1 | Motor Claims Handler CH3 |
-| 1 | Trainee Insurance Advisor |
+| 1 | Legal Expenses Claims Handler |
+| 1 | Insurance Coordinator |
+| 1 | Insurance Advisor - Commercial |
+| 1 | Claims Administrator |
+| 1 | Commercial Insurance Account Advisor |
+| 1 | Motor Claims Handler |
+| 1 | Employer Liability and Public Liability Claims Handler (6 - Month FTC) |
+| 1 | Commercial Insurance Account Handler |
 
 ## Boundary titles to inspect
 
 | Jobs | Title |
 |---:|---|
-| 7 | Commercial Account Handler |
 | 6 | Commercial Property Adjuster |
-| 3 | Personal Lines Account Handler |
-| 2 | Property Desktop Adjuster |
+| 3 | Commercial Account Handler |
 | 2 | Insurance Account Executive |
 | 1 | Senior Claims Adjuster - Casualty |
 | 1 | Account Executive - Commercial Insurance |
 | 1 | Claims Specialist |
-| 1 | Senior Commercial Account Handler/Broker Manager |
-| 1 | Senior Insurance Account Executive |
-| 1 | Senior Internal Auditor - Insurance |
-| 1 | Commercial Insurance Account Executive - Book to take over |
+| 1 | Claims & Dispute Specialist |
 | 1 | Senior Claims Adjuster - Property D&F |
-| 1 | Claims Executive - CT Claims |
-| 1 | Insurance Technician |
+| 1 | Insurance Complaints Team Lead - Remote Working |
+| 1 | Account Executive - Trade Credit Insurance |
+| 1 | Senior Commercial Account Handler |
+| 1 | Senior Customer Service Adviser |
+| 1 | Personal Lines Account Handler |
+| 1 | Motor Claims Intervention Team Leader |
+| 1 | Operational Resilience Consultant - Insurance |
 
 ## JobG8 classifications feeding core support
 
@@ -80,29 +74,26 @@ Classification column detected: **/Job/Classification**.
 
 | Jobs | JobG8 classification |
 |---:|---|
-| 40 | Insurance & Superannuation |
-| 4 | Legal |
+| 7 | Insurance & Superannuation |
 | 2 | Administration |
 | 2 | Sales & Marketing |
 | 2 | Accounting |
+| 2 | Legal |
 | 1 | Call Centre / CustomerService |
 
 ## Core regional shape
 
 | Jobs | Ontap region |
 |---:|---|
-| 8 | Merseyside - Liverpool |
-| 5 | Yorkshire - West |
 | 3 | Norfolk |
 | 3 | Kent |
-| 3 | Staffordshire |
-| 3 | London |
-| 3 | Bristol & Bath |
-| 3 | Essex |
-| 2 | Greater Manchester - Wigan & Bolton |
-| 2 | Worcestershire |
+| 2 | Staffordshire |
 | 2 | Hampshire |
-| 2 | Oxfordshire |
+| 1 | London |
+| 1 | Bristol & Bath |
+| 1 | Oxfordshire |
+| 1 | Devon |
+| 1 | Northamptonshire |
 
 ## Discovery interpretation
 

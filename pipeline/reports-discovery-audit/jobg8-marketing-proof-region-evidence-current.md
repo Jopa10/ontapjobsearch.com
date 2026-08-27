@@ -1,111 +1,117 @@
 # JobG8 Marketing proof-region evidence candidates
 
-Content-unique national LIKELY_IN + BORDERLINE inventory: **136** against viability floor **100**.
+Content-unique national LIKELY_IN + BORDERLINE inventory: **152** against viability floor **100**.
 This report does not approve proof regions or any LIVE slice. It surfaces the strongest current markets for human boundary inspection after national discovery.
 
 ## London
 
-- LIKELY_IN: **17**
+- LIKELY_IN: **20**
 - BORDERLINE: **11**
-- Provisional OUT: **27**
+- Provisional OUT: **28**
+
+Most common LIKELY_IN titles:
+
+- Marketing Manager: 3
+- Senior Internal Communications Officer: 1
+- Direct Marketing Officer: 1
+- Marketing Executive: 1
+- Paid Social - Senior Marketing Executive: 1
+- Senior Editorial & Content Communications Manager: 1
+- Social Media Manager: 1
+- Strategic Marketing Manager: 1
+- Regional Marketing Manager - London South East: 1
+- Brand and Content Marketing Manager: 1
+- Channel & Planning Internal Communications Manager: 1
+- Senior Communications Officer: 1
+
+Borderline titles:
+
+- Marketing Science Lead: 2
+- External Engagement Officer: 1
+- B2B Campaign Manager: 1
+- Copywriter: 1
+- Marketing & Digital Analytics Recruitment Consultant: 1
+- Retail Content Ambassador: 1
+- CRM Marketing Automation Specialist Braze: 1
+- Production Manager - Creative, Marketing, Digital, Content and Channels: 1
+- Sales and Marketing Representative: 1
+- Paid Media Officer: 1
+
+## Berkshire
+
+- LIKELY_IN: **10**
+- BORDERLINE: **1**
+- Provisional OUT: **1**
 
 Most common LIKELY_IN titles:
 
 - Marketing Executive: 2
-- Senior Internal Communications Officer: 1
-- Marketing Executive - Science and Education: 1
-- Marketing Manager: 1
-- Interim Events & Communications Manager (6 months): 1
-- Marketing Executive - High-Growth Media Tech Scale-Up London Hybrid: 1
-- Senior Direct Marketing Executive: 1
-- Brand Coordinator & Administrator: 1
-- Policy and Communications Coordinator: 1
-- Senior Digital Marketing Coordinator - Events: 1
-- Direct Marketing Officer: 1
-- Social Media Manager: 1
+- Marketing Assistant/Administrator: 1
+- Shopper Marketing Assistant: 1
+- Graduate Social Media & Content Executive: 1
+- Senior CRM Engagement Manager: 1
+- B2B Email & Social Media Marketing Executive: 1
+- Senior Marketing Executive: 1
+- Social Media & Content Executive: 1
+- Digital Designer and Content Creator: 1
 
 Borderline titles:
 
-- External Engagement Officer: 1
-- B2B Campaign Manager: 1
-- Client Service Account Manager- Digital Marketing: 1
-- Marketing & Operations Assistant: 1
-- PPC Manager: 1
-- External Affairs Officer: 1
-- Interim Event Marketing Consultant: 1
-- Content and Influencer Executive (f/m/d): 1
-- Copywriter: 1
-- Media & PR Manager: 1
-- Marketing and Business Development Executive: 1
+- Marketing & Events Officer: 1
 
 ## Greater Manchester - Manchester & Salford
 
-- LIKELY_IN: **6**
-- BORDERLINE: **1**
-- Provisional OUT: **1**
+- LIKELY_IN: **9**
+- BORDERLINE: **3**
+- Provisional OUT: **3**
 
 Most common LIKELY_IN titles:
 
+- Ecommerce Executive: 2
 - Social Media Manager: 1
-- Performance Marketing Manager: 1
-- Paid Media Executive: 1
-- Senior Digital Marketing Executive: 1
-- Ecommerce Executive: 1
-- Investigative Content Writer: 1
+- Marketing Manager - Timber Division: 1
+- Digital Marketing Manager: 1
+- Digital Marketing Executive: 1
+- Senior Marketing Executive: 1
+- Marketing Manager: 1
+- Direct Marketing Executive: 1
 
 Borderline titles:
 
 - Paid Media Specialist: 1
+- Marketing Program Manager: 1
+- Technical SEO Manager: 1
 
-## Surrey
+## Yorkshire - West
 
-- LIKELY_IN: **6**
-- BORDERLINE: **1**
-- Provisional OUT: **1**
-
-Most common LIKELY_IN titles:
-
-- Communications Officer - Health Determinants Research: 1
-- Junior Marketing Executive: 1
-- Digital Marketing Manager - Luxury: 1
-- Junior Cluster Brand Manager: 1
-- Digital Marketing Manager: 1
-- Brand Marketing Assistant: 1
-
-Borderline titles:
-
-- Marketing Account Manager: 1
-
-## Berkshire
-
-- LIKELY_IN: **5**
-- BORDERLINE: **0**
+- LIKELY_IN: **4**
+- BORDERLINE: **2**
 - Provisional OUT: **2**
 
 Most common LIKELY_IN titles:
 
-- Marketing Assistant/Administrator: 1
-- Shopper Marketing Assistant: 1
-- Marketing Executive: 1
-- Graduate Social Media & Content Executive: 1
-- Marketing Officer: 1
-
-## West Midlands - Birmingham & Solihull
-
-- LIKELY_IN: **4**
-- BORDERLINE: **3**
-- Provisional OUT: **1**
-
-Most common LIKELY_IN titles:
-
-- Marketing Manager: 1
-- Marketing and Internal Communications Coordinator: 1
-- PR and Communications Executive: 1
-- PR and Communications Assistant: 1
+- Marketing Executive: 2
+- Digital Marketing Executive: 1
+- Paid Social Media Manager: 1
 
 Borderline titles:
 
-- PPC: 1
-- Paid Media Specialist: 1
-- Senior PR Account Manager: 1
+- Marketing Specialist: 1
+- Creative & Content Lead: 1
+
+## North East
+
+- LIKELY_IN: **4**
+- BORDERLINE: **1**
+- Provisional OUT: **0**
+
+Most common LIKELY_IN titles:
+
+- Marketing Executive: 2
+- Marketing Manager: 1
+- Marketing and Communications Manager: 1
+
+Borderline titles:
+
+- Marketing Business Partner: 1
 
