@@ -4,9 +4,9 @@
 > All active sources are current for 2026-08-27. You can start reviewing.
 
 review_date: 2026-08-27
-generated_at: 2026-08-27T18:24:24+00:00
+generated_at: 2026-08-27T21:37:20+00:00
 
-**22 job(s) need a human decision.**
+**26 job(s) need a human decision.**
 
 Edit only each `action:` line:
 - `action: select` = include the vacancy.
@@ -21,15 +21,85 @@ Edit only each `action:` line:
 
 | Source | Status | Review date | Needs review | Note |
 |---|---|---|---:|---|
-| JobG8 | OK | 2026-08-27 | 0 | — |
+| JobG8 | OK | 2026-08-27 | 4 | — |
 | NEJobs | OK | 2026-08-27 | 2 | — |
 | VONNE | OK | 2026-08-27 | 1 | — |
 | Teaching Vacancies | OK | 2026-08-27 | 19 | — |
 | NHS Jobs | OK | 2026-08-27 | 0 | automatic Tier A/B publish; NHS POSS stays in the NHS-specific review and is optional |
 
-## JobG8 — 0 to review
+## JobG8 — 4 to review
 
-_No new or changed human decisions required._
+---
+action:
+POSS | JobG8 | Cambridgeshire | Chatteris | £45000 per year | Technical & Quality Coordinator
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 107904065
+title: Technical & Quality Coordinator
+employer: 
+location: Chatteris
+region: Cambridgeshire
+salary: £45000 per year
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: 33f01681d849a52a4ce84b8a3b6574c56cd30ac4cce4696f079d7c7cb7429f3f
+---
+
+---
+action:
+POSS | JobG8 | Derbyshire | Derbyshire | £14 - £17.76 per hour | Repairs Scheduler
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 23643_225541823
+title: Repairs Scheduler
+employer: 
+location: Derbyshire
+region: Derbyshire
+salary: £14 - £17.76 per hour
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: 4cc1173baf46a5bea2244e9699ffbf0d717a6edec334e363ae3e55f01ba24189
+---
+
+---
+action:
+POSS | JobG8 | Nottinghamshire | Nottinghamshire | £40000 per year | Cyber Project Coordinator
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 107905364
+title: Cyber Project Coordinator
+employer: 
+location: Nottinghamshire
+region: Nottinghamshire
+salary: £40000 per year
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: 230a16a413a0f4ce8e5a8249bd412138649e6a836cba2b7475f97ef249bb424b
+---
+
+---
+action:
+POSS | JobG8 | Surrey | Surrey | £35 per hour | Bid Coordinator
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 107904710
+title: Bid Coordinator
+employer: 
+location: Surrey
+region: Surrey
+salary: £35 per hour
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: 4a43b14cfbd80bdcd68f9d896b4053f73108473508083ea0d49b9b8386b2cf8a
+---
 
 ## NEJobs — 2 to review
 
