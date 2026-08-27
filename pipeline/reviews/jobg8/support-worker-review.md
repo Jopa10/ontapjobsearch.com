@@ -41,12 +41,6 @@ SELECTED | Yorkshire - South | Barnsley | £24000 per year | Residential Child C
 job_id: 107881537
 ---
 
----
-action:
-SELECTED | Yorkshire - South | Doncaster | £12.85 per hour (plus rolled up holiday pay) | Relief Support Worker
-job_id: 107891312
----
-
 ## SOUTH YORKSHIRE — POSSIBLES
 
 _No jobs in this group._
