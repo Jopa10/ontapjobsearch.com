@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - West
 
-review_date: 2026-08-26
+review_date: 2026-08-27
 review_fingerprint: a53cf87b98679904246712ef31917f9e28d1f19928b783018e4543848a1c8f71
-routing_manifest_sha256: 2a90577f5e4e40d8e3b861a90ec0fca802e14e9d561f25998c5a4b6e21bb9939
+routing_manifest_sha256: 6c9d1768dffe7da3c4261304cf77d3080d88dbf0d535df794624f450db4c9e5b
 ontap_region: Yorkshire - West
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 29
+- Records: 27
 - Selected: 12
 - POSS awaiting decision: 3
 - Excluded: 0
-- Hard pass: 14
+- Hard pass: 12
 
 ## SELECTED
 
@@ -255,7 +255,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-the-king
 ## HARD_PASS
 
 - [Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-wakefield-snapethorpe-primary-school) — Insufficient admin/service evidence.
-- [Compliance Officer](https://teaching-vacancies.service.gov.uk/jobs/compliance-officer-delta-academies-trust) — Insufficient admin/service evidence.
 - [Exam Invigilator](https://teaching-vacancies.service.gov.uk/jobs/exam-invigilator-leeds-city-academy-leeds-west-yorkshire) — Insufficient admin/service evidence.
 - [Exams and Admissions Manager](https://teaching-vacancies.service.gov.uk/jobs/exams-and-admissions-manager-leeds-city-academy-leeds-west-yorkshire) — Manager title salary ceiling £35,558 is not below £28,000.
 - [Finance Manager (Core Team)](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-core-team) — Manager title salary ceiling £49,282 is not below £28,000.
@@ -267,7 +266,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-the-king
 - [School Reception Assistant](https://teaching-vacancies.service.gov.uk/jobs/school-reception-assistant-appleton-academy) — Insufficient admin/service evidence.
 - [Trust Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/trust-administration-assistant-waterton-academy-trust) — Insufficient admin/service evidence.
 - [TRUST ATTENDANCE IMPROVEMENT OFFICER](https://teaching-vacancies.service.gov.uk/jobs/trust-attendance-improvement-officer) — Insufficient admin/service evidence.
-- [Trust Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/trust-finance-officer-f1cbc046-b59f-467c-960b-8fc5c55604ba) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

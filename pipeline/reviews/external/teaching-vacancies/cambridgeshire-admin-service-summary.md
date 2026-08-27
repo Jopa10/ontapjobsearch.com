@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cambridgeshire
 
-review_date: 2026-08-26
-review_fingerprint: 6e2ba562adf46578b3fc5f058b04c28a654b1ecf08427069c89c9b6b67796a92
-routing_manifest_sha256: 2a90577f5e4e40d8e3b861a90ec0fca802e14e9d561f25998c5a4b6e21bb9939
+review_date: 2026-08-27
+review_fingerprint: b752e84b6208b9ab4041a46fb66b50f17b098ff168a9e1ef6031821091a1a576
+routing_manifest_sha256: 6c9d1768dffe7da3c4261304cf77d3080d88dbf0d535df794624f450db4c9e5b
 ontap_region: Cambridgeshire
 slice_category: admin_service
 slice_status: LIVE
@@ -252,15 +252,15 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/clerk-to-the-local-go
 action: 
 POSS | Cambridgeshire | Huntingdon, PE28 5TQ | £32,061.00 Annually (Actual) | Marketing & Communications Officer
 employer: Meridian Trust
-closing_date: 2026-09-16T23:59:00+01:00
+closing_date: 2026-09-16T08:00:00+01:00
 reason: Borderline school administration title: communications officer
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: df2781c36b86af59736979a60cc05bb4635d14f8b59e8149a729cc8dd00b7939
+factual_fingerprint: e81f6524f2891d8ae6321636a96aea841a7c51e9ab1b02a40ac2bc40dd62272e
 source: Teaching Vacancies
-source_job_id: marketing-communications-officer-5cb92852-d448-4bbf-bf75-b300eafb9fc7
-source_url: https://teaching-vacancies.service.gov.uk/jobs/marketing-communications-officer-5cb92852-d448-4bbf-bf75-b300eafb9fc7
+source_job_id: marketing-communications-officer-c270ff05-b00d-453f-bd88-72dd6829c693
+source_url: https://teaching-vacancies.service.gov.uk/jobs/marketing-communications-officer-c270ff05-b00d-453f-bd88-72dd6829c693
 ---
 
 ---

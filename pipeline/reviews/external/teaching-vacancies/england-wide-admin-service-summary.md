@@ -12,14 +12,14 @@ Edit only the `action:` line in each unresolved block:
 
 ## TOTALS
 
-- All routed roles: **526**
-- REVIEW NOW (LIVE regions): **473**
-- EDITABLE NOW (no remembered action): **443**
+- All routed roles: **519**
+- REVIEW NOW (LIVE regions): **469**
+- EDITABLE NOW (no remembered action): **439**
 - REMEMBERED / RESOLVED: **30**
-- DEFERRED - REGION NOT LIVE: **53**
-- SELECTED: **183**
+- DEFERRED - REGION NOT LIVE: **50**
+- SELECTED: **184**
 - POSS: **26**
-- HARD PASS / EXCLUDED: **264**
+- HARD PASS / EXCLUDED: **259**
 
 ## BERKSHIRE — SELECTED
 
@@ -87,17 +87,6 @@ reason: Clear admin/service title: administrator
 factual_fingerprint: d67290fae0c54aca400277bea0bdcd9874c77a5c85fcccfa832304aede9026a2
 source_job_id: sixth-form-administrator-the-windsor-boys-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/sixth-form-administrator-the-windsor-boys-school
----
-
----
-action:
-SELECTED | Berkshire | Slough, South East, SL2 5BA | £22,274 - £22,957 - | Welfare Assistant & Administrator
-employer: James Elliman Academy
-closing_date: 2026-08-31T12:00:00+01:00
-reason: Clear admin/service title: administrator
-factual_fingerprint: 210d56db4d638bcc27eb26d2d1c35447d61d6e778645825437167ea12568e576
-source_job_id: welfare-assistant-administrator
-source_url: https://teaching-vacancies.service.gov.uk/jobs/welfare-assistant-administrator
 ---
 
 ---
@@ -187,6 +176,17 @@ reason: Clear admin/service title: administrator, office administrator
 factual_fingerprint: e08a39e859333defc38ad25b7abaf8405b0cc0b26d3540cf135640e8b312a17e
 source_job_id: office-administrator-sir-william-ramsay-school-high-wycombe-buckinghamshire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-sir-william-ramsay-school-high-wycombe-buckinghamshire
+---
+
+---
+action:
+SELECTED | Buckinghamshire | High Wycombe, South East, HP15 6SP | £34,319.00 - £41,272.00 Annually (Actual) | PA to Headteacher
+employer: Holmer Green Senior School
+closing_date: 2026-09-01T09:00:00+01:00
+reason: Clear admin/service title: pa to
+factual_fingerprint: 3c45923266735b2528419ba5bbf83f236d909ef19bc00476d790825c111ef96e
+source_job_id: pa-to-headteacher-holmer-green-senior-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/pa-to-headteacher-holmer-green-senior-school
 ---
 
 ---
@@ -364,11 +364,11 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-sw
 action:
 POSS | Cambridgeshire | Huntingdon, PE28 5TQ | £32,061.00 Annually (Actual) | Marketing & Communications Officer
 employer: Meridian Trust
-closing_date: 2026-09-16T23:59:00+01:00
+closing_date: 2026-09-16T08:00:00+01:00
 reason: Borderline school administration title: communications officer
-factual_fingerprint: df2781c36b86af59736979a60cc05bb4635d14f8b59e8149a729cc8dd00b7939
-source_job_id: marketing-communications-officer-5cb92852-d448-4bbf-bf75-b300eafb9fc7
-source_url: https://teaching-vacancies.service.gov.uk/jobs/marketing-communications-officer-5cb92852-d448-4bbf-bf75-b300eafb9fc7
+factual_fingerprint: e81f6524f2891d8ae6321636a96aea841a7c51e9ab1b02a40ac2bc40dd62272e
+source_job_id: marketing-communications-officer-c270ff05-b00d-453f-bd88-72dd6829c693
+source_url: https://teaching-vacancies.service.gov.uk/jobs/marketing-communications-officer-c270ff05-b00d-453f-bd88-72dd6829c693
 ---
 
 ---
@@ -395,6 +395,34 @@ _No jobs in this group._
 _No jobs in this group._
 
 ## CHESHIRE - WARRINGTON & HALTON — POSSIBLES
+
+_No jobs in this group._
+
+## CHESHIRE - WEST — SELECTED
+
+---
+action:
+SELECTED | Cheshire - West | Ellesmere Port, North West, CH66 2NU | £22,429.00 - £24,821.00 Annually (Actual) Full-Time Equivalent: £25,989 to £28,142 | Pastoral Administrator
+employer: The Whitby High School
+closing_date: 2026-09-16T12:00:00+01:00
+reason: Clear admin/service title: administrator
+factual_fingerprint: 70a90e575968e6dd31a3c0941cd9d3e8167bc17400f329af995df60154c7ad1a
+source_job_id: pastoral-administrator-the-whitby-high-school-ellesmere-port-cheshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/pastoral-administrator-the-whitby-high-school-ellesmere-port-cheshire
+---
+
+---
+action:
+SELECTED | Cheshire - West | Chester, North West, CH2 1NN | £25,185.00 Annually (FTE) Actual pro rata salary = £12,589 | Receptionist
+employer: Upton-by-Chester High School
+closing_date: 2026-08-28T12:00:00+01:00
+reason: Clear admin/service title: receptionist
+factual_fingerprint: 90f1d0ec39642e77d8f35ccdfb5288fe9ec8fcada0cff6ea57d9da5c30fa63c6
+source_job_id: receptionist-upton-by-chester-high-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-upton-by-chester-high-school
+---
+
+## CHESHIRE - WEST — POSSIBLES
 
 _No jobs in this group._
 
@@ -572,17 +600,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/careers-and-work-expe
 
 ---
 action:
-SELECTED | Dorset | Wimborne, South West, BH21 5QB | £12,963.00 - £13,603.00 Annually (Actual) | Finance and HR Administrator
-employer: Cranborne Church of England First School
-closing_date: 2026-08-27T09:00:00+01:00
-reason: Clear admin/service title: administrator
-factual_fingerprint: cd33c06cd70221cfb10166fa57f0b8631b9cfa7aabcb3ffa4712c982c0bb554a
-source_job_id: finance-and-hr-administrator-cranborne-church-of-england-first-school-wimborne-dorset
-source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-and-hr-administrator-cranborne-church-of-england-first-school-wimborne-dorset
----
-
----
-action:
 SELECTED | Dorset | Shaftesbury, South West, SP7 8ER | £8,923.00 - £9,357.00 Annually (Actual) Grade 6, Point 6 - 9 (subject to experience) | School Administrator
 employer: Shaftesbury School
 closing_date: 2026-09-01T09:00:00+01:00
@@ -705,6 +722,17 @@ source_job_id: administration-assistant-c2f65b3b-e84d-4148-98e6-f9f60ceb2d22
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-c2f65b3b-e84d-4148-98e6-f9f60ceb2d22
 ---
 
+---
+action:
+SELECTED | Greater Manchester - Manchester & Salford | Manchester, North West, M14 4PX | £25,467 actual, pro rata FTE £28,075 | Student Services Administrator
+employer: Manchester Academy
+closing_date: 2026-08-31T23:59:00+01:00
+reason: Clear admin/service title: administrator
+factual_fingerprint: cdae53f44fb478feffd011f330657b4d6c109e6f0f2f9f8424a287b88d3488cf
+source_job_id: student-services-administrator-0021b1e8-bf27-4572-8796-0c06c359e8f0
+source_url: https://teaching-vacancies.service.gov.uk/jobs/student-services-administrator-0021b1e8-bf27-4572-8796-0c06c359e8f0
+---
+
 ## GREATER MANCHESTER - MANCHESTER & SALFORD — POSSIBLES
 
 _No jobs in this group._
@@ -783,6 +811,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-administration
 ---
 
 ## HERTFORDSHIRE — SELECTED
+
+---
+action:
+SELECTED | Hertfordshire | Watford, East of England, WD19 7UZ | £25,583.00 Annually (FTE) Salary is based on FTE - hours will be part time - 9am - 1pm - Monday - Thursday (16 hours per week) - H3 - 25,583 FTE (However, pay award pending national agreement) | Administrator - The Acorn Centre
+employer: Warren Dell Primary School
+closing_date: 2026-09-21T23:59:00+01:00
+reason: Clear admin/service title: administrator
+factual_fingerprint: 3fde78eead36f6596af8d08c6fc9fd507354eac13bca506330f439f3f4848598
+source_job_id: administrator-the-acorn-centre
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-the-acorn-centre
+---
 
 ---
 action:
@@ -976,17 +1015,6 @@ reason: Clear admin/service title: administrative assistant, receptionist
 factual_fingerprint: 3b9ced21f1b4234457ceca8feb9559887adf5dea3fc1c1e0978761bbfe9d5e99
 source_job_id: administrative-assistant-receptionist-wren-academy-enfield-enfield
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-receptionist-wren-academy-enfield-enfield
----
-
----
-action:
-SELECTED | London | Hayes, London, UB3 1PB | Scale 3, £29,436 fte (subject to pro rata) | Attendance Officer
-employer: Harlington School
-closing_date: 2026-08-26T23:59:00+01:00
-reason: Clear admin/service title: attendance officer
-factual_fingerprint: 147afe7051579a352ca13e6f15910ad5a58302da3d6d214bbdefd209effaf9c0
-source_job_id: attendance-officer-1cc7b9ae-114c-4858-8cb8-4caae38307df
-source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-1cc7b9ae-114c-4858-8cb8-4caae38307df
 ---
 
 ---
@@ -1692,17 +1720,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assist
 
 ---
 action:
-SELECTED | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B24 0ED | £19,969.00 - £21,695.00 Annually (Actual) 37 hours per week Term Time only | Admin Assistant
-employer: Yenton Primary School
-closing_date: 2026-09-01T12:00:00+01:00
-reason: Clear admin/service title: admin assistant
-factual_fingerprint: 9469291f767751dd4868efd9892086e147f7c94c5a30aa666b50bf309833203b
-source_job_id: admin-assistant-10329641-0e0b-41f7-ba37-1959636d06d8
-source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-10329641-0e0b-41f7-ba37-1959636d06d8
----
-
----
-action:
 SELECTED | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B37 6DF | £25,185.00 - £27,254.00 Annually (FTE) | Administrative Assistant (Grade 2) - Term Time Only
 employer: Yorkswood Primary School
 closing_date: 2026-09-18T12:00:00+01:00
@@ -1836,6 +1853,17 @@ _No jobs in this group._
 
 ---
 action:
+SELECTED | West Midlands - Coventry & Warwickshire | Coventry, West Midlands, CV3 4BD | £25,185.00 - £26,403.00 Annually (FTE) Grade 3, Actual Salary £21,854 - £22,911 | Administration Assistant
+employer: Meadow Park School
+closing_date: 2026-09-01T09:00:00+01:00
+reason: Clear admin/service title: administration assistant
+factual_fingerprint: 1a0d0c1f2337c589a0fa852b868011fb58ff964e72f8ab95b9973df529eed5cd
+source_job_id: administration-assistant-meadow-park-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-meadow-park-school
+---
+
+---
+action:
 SELECTED | West Midlands - Coventry & Warwickshire | Nuneaton, West Midlands, CV11 4QH | £22,608 - £24,637 (dependent on service and experience) This does not include the pending Pay Award. | Personal Assistant (PA) to the Headteachers (Oak Wood Schools)
 employer: Oak Wood Secondary School
 closing_date: 2026-09-11T12:00:00+01:00
@@ -1941,6 +1969,14 @@ source_job_id: admin-officer-queen-s-crescent-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-officer-queen-s-crescent-school
 ---
 
+## WORCESTERSHIRE — SELECTED
+
+_No jobs in this group._
+
+## WORCESTERSHIRE — POSSIBLES
+
+_No jobs in this group._
+
 ## YORKSHIRE - EAST — SELECTED
 
 ---
@@ -2019,17 +2055,6 @@ reason: Clear admin/service title: administration assistant
 factual_fingerprint: a0e1e5cb5c53cbc2aaf6ed9a08e1718b411e0c4e35e42de7aa6cb86da7b78ce2
 source_job_id: administration-assistant-treeton-church-of-england-primary-school-rotherham-south-yorkshire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-treeton-church-of-england-primary-school-rotherham-south-yorkshire
----
-
----
-action:
-SELECTED | Yorkshire - South | Barnsley, Yorkshire and the Humber, S71 2AY | £9,289.00 - £9,901.00 Annually (Actual) Grade 4 Term time plus 5 days | Business Support Officer
-employer: Springwell Special Academy
-closing_date: 2026-08-26T23:59:00+01:00
-reason: Clear admin/service title: business support officer
-factual_fingerprint: 52a6c6e89c44357f9c83245674551b8e6ca8b0d144b832ed04e067909e884393
-source_job_id: business-support-officer-2ea7277a-9574-40f3-acf2-2f61fc716fd1
-source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-officer-2ea7277a-9574-40f3-acf2-2f61fc716fd1
 ---
 
 ---
@@ -2265,7 +2290,6 @@ These roles remain visible in the CSV but are not individually marked until the 
 | Region | Total | Selected | POSS | Hard pass / excluded |
 |---|---:|---:|---:|---:|
 | Bedfordshire / admin_service | 14 | 8 | 0 | 6 |
-| Cheshire - West / admin_service | 2 | 2 | 0 | 0 |
 | Cumbria - North / admin_service | 2 | 1 | 0 | 1 |
 | Cumbria - West / admin_service | 3 | 0 | 1 | 2 |
 | East Midlands / admin_service | 8 | 4 | 0 | 4 |
@@ -2277,4 +2301,3 @@ These roles remain visible in the CSV but are not individually marked until the 
 | North East - Tees Valley / admin_service | 7 | 1 | 1 | 5 |
 | Rutland / admin_service | 1 | 0 | 0 | 1 |
 | South West / admin_service | 4 | 1 | 0 | 3 |
-| Worcestershire / admin_service | 1 | 0 | 0 | 1 |

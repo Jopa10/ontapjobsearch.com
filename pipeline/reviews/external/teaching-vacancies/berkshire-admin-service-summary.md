@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Berkshire
 
-review_date: 2026-08-26
-review_fingerprint: 749df3e84d342b1d04fc23cb96d85a4baee3ac73220a5a7ec7b2b94043a89bd6
-routing_manifest_sha256: 2a90577f5e4e40d8e3b861a90ec0fca802e14e9d561f25998c5a4b6e21bb9939
+review_date: 2026-08-27
+review_fingerprint: e62a2fd3d6fbb7764a08cd765f35dbfb5a54c3761af7ba7fe6a1810ea0d9b1f6
+routing_manifest_sha256: 6c9d1768dffe7da3c4261304cf77d3080d88dbf0d535df794624f450db4c9e5b
 ontap_region: Berkshire
 slice_category: admin_service
 slice_status: LIVE
@@ -14,10 +14,10 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 21
-- Selected: 8
+- Selected: 7
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 12
+- Hard pass: 13
 
 ## SELECTED
 
@@ -113,21 +113,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/sixth-form-administra
 
 ---
 action: 
-SELECTED | Berkshire | Slough, South East, SL2 5BA | £22,274 - £22,957 - | Welfare Assistant & Administrator
-employer: James Elliman Academy
-closing_date: 2026-08-31T12:00:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 210d56db4d638bcc27eb26d2d1c35447d61d6e778645825437167ea12568e576
-source: Teaching Vacancies
-source_job_id: welfare-assistant-administrator
-source_url: https://teaching-vacancies.service.gov.uk/jobs/welfare-assistant-administrator
----
-
----
-action: 
 SELECTED | Berkshire | Slough, South East, SL2 5BA | £22,274.00 - £22,957.00 Annually (Actual) | Welfare Assistant & Administrator
 employer: James Elliman Academy
 closing_date: 2026-09-30T12:00:00+01:00
@@ -174,6 +159,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/trust-governance-prof
 - [Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/operations-manager-reading-school) — Manager title salary ceiling £44,075 is not below £28,000.
 - [Passionate Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/passionate-finance-officer) — Insufficient admin/service evidence.
 - [Payroll Officer](https://teaching-vacancies.service.gov.uk/jobs/payroll-officer-the-park-federation-academy-trust-slough-not-recorded) — Insufficient admin/service evidence.
+- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-fb06354c-e52a-4d48-b4a2-2dff7115bcd9) — Manager title without salary evidence below £28,000.
 - [SEND Administration Officer - The Wren School](https://teaching-vacancies.service.gov.uk/jobs/send-administration-officer-the-wren-school) — Missing salary or pay scale.
 - [Senior Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-finance-officer-the-thames-learning-trust) — Insufficient admin/service evidence.
 

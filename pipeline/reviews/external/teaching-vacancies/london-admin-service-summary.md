@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — London
 
-review_date: 2026-08-26
-review_fingerprint: 86ce87b125ef1c10ec3ce69c33e97531f669bff8d44e5e128d206964412694bc
-routing_manifest_sha256: 2a90577f5e4e40d8e3b861a90ec0fca802e14e9d561f25998c5a4b6e21bb9939
+review_date: 2026-08-27
+review_fingerprint: 69d4b27b33bbb22a4da2200c1870f08deda29287a93c34a24a01f836ad28679c
+routing_manifest_sha256: 6c9d1768dffe7da3c4261304cf77d3080d88dbf0d535df794624f450db4c9e5b
 ontap_region: London
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 63
-- Selected: 16
+- Records: 60
+- Selected: 15
 - POSS awaiting decision: 9
 - Excluded: 0
-- Hard pass: 38
+- Hard pass: 36
 
 ## SELECTED
 
@@ -49,21 +49,6 @@ factual_fingerprint: 3b9ced21f1b4234457ceca8feb9559887adf5dea3fc1c1e0978761bbfe9
 source: Teaching Vacancies
 source_job_id: administrative-assistant-receptionist-wren-academy-enfield-enfield
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-receptionist-wren-academy-enfield-enfield
----
-
----
-action: 
-SELECTED | London | Hayes, London, UB3 1PB | Scale 3, £29,436 fte (subject to pro rata) | Attendance Officer
-employer: Harlington School
-closing_date: 2026-08-26T23:59:00+01:00
-reason: Clear admin/service title: attendance officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 147afe7051579a352ca13e6f15910ad5a58302da3d6d214bbdefd209effaf9c0
-source: Teaching Vacancies
-source_job_id: attendance-officer-1cc7b9ae-114c-4858-8cb8-4caae38307df
-source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-1cc7b9ae-114c-4858-8cb8-4caae38307df
 ---
 
 ---
@@ -410,7 +395,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 - [Attendance and Welfare Officer](https://teaching-vacancies.service.gov.uk/jobs/attendance-and-welfare-officer-st-thomas-more-language-college-london) — Insufficient admin/service evidence.
 - [Capital Projects Manager](https://teaching-vacancies.service.gov.uk/jobs/capital-projects-manager-girls-learning-trust-sutton-not-recorded) — Manager title salary ceiling £45,157 is not below £28,000.
 - [Clerk](https://teaching-vacancies.service.gov.uk/jobs/clerk-82945d82-8f4b-461e-afa7-8d80f9437591) — Insufficient admin/service evidence.
-- [Clerk to Governing Body (Wickham Common Primary School)](https://teaching-vacancies.service.gov.uk/jobs/clerk-to-governing-body-wickham-common-primary-school) — Insufficient admin/service evidence.
 - [Data and Examinations Manager](https://teaching-vacancies.service.gov.uk/jobs/data-and-examinations-manager-park-view-school) — Manager title salary ceiling £52,194 is not below £28,000.
 - [Facilities Manager](https://teaching-vacancies.service.gov.uk/jobs/facilities-manager-wimbledon-college) — Manager title salary ceiling £52,827 is not below £28,000.
 - [Financial Accountant](https://teaching-vacancies.service.gov.uk/jobs/financial-accountant-partnership-learning) — Insufficient admin/service evidence.
@@ -437,11 +421,10 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 - [SBM/CFO](https://teaching-vacancies.service.gov.uk/jobs/sbm-cfo) — Insufficient admin/service evidence.
 - [School Accountant](https://teaching-vacancies.service.gov.uk/jobs/school-accountant) — Insufficient admin/service evidence.
 - [School Business Leader](https://teaching-vacancies.service.gov.uk/jobs/school-business-leader-greatfields-school) — Insufficient admin/service evidence.
-- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-da3a3838-8f8c-483a-8c17-8b95a56f70de) — Manager title salary ceiling £46,512 is not below £28,000.
+- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-grimsdyke-school) — Manager title salary ceiling £54,843 is not below £28,000.
 - [School Office Manager](https://teaching-vacancies.service.gov.uk/jobs/school-office-manager-st-nicholas-church-of-england-primary) — Manager title salary ceiling £38,009 is not below £28,000.
 - [Senior Administrative Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-administrative-officer-b59b5f04-d0f8-4bf4-90be-32c5ddf40c75) — Insufficient admin/service evidence.
 - [Trust Executive Assistant](https://teaching-vacancies.service.gov.uk/jobs/trust-executive-assistant-astrum-multi-academy-trust) — Insufficient admin/service evidence.
-- [Workforce Co-ordinator](https://teaching-vacancies.service.gov.uk/jobs/workforce-co-ordinator) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

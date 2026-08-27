@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - South
 
-review_date: 2026-08-26
-review_fingerprint: 92ace9a1bdfc95abd42179a2b575a309a916de8a7e72bd74d5963db2fa67c12a
-routing_manifest_sha256: 2a90577f5e4e40d8e3b861a90ec0fca802e14e9d561f25998c5a4b6e21bb9939
+review_date: 2026-08-27
+review_fingerprint: 6a40956d2110bcc7b7aa91fe6ace99772dcaafd20131ef41c12c074af7c1fdb0
+routing_manifest_sha256: 6c9d1768dffe7da3c4261304cf77d3080d88dbf0d535df794624f450db4c9e5b
 ontap_region: Yorkshire - South
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 25
-- Selected: 7
+- Records: 24
+- Selected: 6
 - POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 16
@@ -49,21 +49,6 @@ factual_fingerprint: a0e1e5cb5c53cbc2aaf6ed9a08e1718b411e0c4e35e42de7aa6cb86da7b
 source: Teaching Vacancies
 source_job_id: administration-assistant-treeton-church-of-england-primary-school-rotherham-south-yorkshire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-treeton-church-of-england-primary-school-rotherham-south-yorkshire
----
-
----
-action: 
-SELECTED | Yorkshire - South | Barnsley, Yorkshire and the Humber, S71 2AY | £9,289.00 - £9,901.00 Annually (Actual) Grade 4 Term time plus 5 days | Business Support Officer
-employer: Springwell Special Academy
-closing_date: 2026-08-26T23:59:00+01:00
-reason: Clear admin/service title: business support officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 52a6c6e89c44357f9c83245674551b8e6ca8b0d144b832ed04e067909e884393
-source: Teaching Vacancies
-source_job_id: business-support-officer-2ea7277a-9574-40f3-acf2-2f61fc716fd1
-source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-officer-2ea7277a-9574-40f3-acf2-2f61fc716fd1
 ---
 
 ---

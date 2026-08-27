@@ -1,11 +1,11 @@
 # Teaching Vacancies regional review — Cheshire - West
 
-review_date: 2026-08-26
-review_fingerprint: 20c9622b2c894fe9f8539cfa47e35c8afa37c0601a27746777122eacd99ff509
-routing_manifest_sha256: 2a90577f5e4e40d8e3b861a90ec0fca802e14e9d561f25998c5a4b6e21bb9939
+review_date: 2026-08-27
+review_fingerprint: 33b8a73ee9177c9a489ee7d102c282185dccf68682525d59c5ddf0a9a09cabb9
+routing_manifest_sha256: 6c9d1768dffe7da3c4261304cf77d3080d88dbf0d535df794624f450db4c9e5b
 ontap_region: Cheshire - West
 slice_category: admin_service
-slice_status: UNREGISTERED
+slice_status: LIVE
 
 Edit only the `action:` line in each editable block.
 Blank POSS decisions remain unpublished.
@@ -28,7 +28,7 @@ employer: The Whitby High School
 closing_date: 2026-09-16T12:00:00+01:00
 reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
+slice_status: LIVE
 migration_status: 
 factual_fingerprint: 70a90e575968e6dd31a3c0941cd9d3e8167bc17400f329af995df60154c7ad1a
 source: Teaching Vacancies
@@ -43,7 +43,7 @@ employer: Upton-by-Chester High School
 closing_date: 2026-08-28T12:00:00+01:00
 reason: Clear admin/service title: receptionist
 jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
+slice_status: LIVE
 migration_status: 
 factual_fingerprint: 90f1d0ec39642e77d8f35ccdfb5288fe9ec8fcada0cff6ea57d9da5c30fa63c6
 source: Teaching Vacancies

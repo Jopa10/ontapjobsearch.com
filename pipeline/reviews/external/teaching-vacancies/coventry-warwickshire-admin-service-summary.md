@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Coventry & Warwickshire
 
-review_date: 2026-08-26
-review_fingerprint: 76f5119e2124354bd508e5fde43c0e6e2fc812a3fd31958808748cdc78b4c0ce
-routing_manifest_sha256: 2a90577f5e4e40d8e3b861a90ec0fca802e14e9d561f25998c5a4b6e21bb9939
+review_date: 2026-08-27
+review_fingerprint: a216b35245654e5bb113481509fe54285749186e8d4bf5b6c59a61e99620412c
+routing_manifest_sha256: 6c9d1768dffe7da3c4261304cf77d3080d88dbf0d535df794624f450db4c9e5b
 ontap_region: West Midlands - Coventry & Warwickshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 8
-- Selected: 5
+- Records: 9
+- Selected: 6
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 3
 
 ## SELECTED
+
+---
+action: 
+SELECTED | West Midlands - Coventry & Warwickshire | Coventry, West Midlands, CV3 4BD | £25,185.00 - £26,403.00 Annually (FTE) Grade 3, Actual Salary £21,854 - £22,911 | Administration Assistant
+employer: Meadow Park School
+closing_date: 2026-09-01T09:00:00+01:00
+reason: Clear admin/service title: administration assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 1a0d0c1f2337c589a0fa852b868011fb58ff964e72f8ab95b9973df529eed5cd
+source: Teaching Vacancies
+source_job_id: administration-assistant-meadow-park-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-meadow-park-school
+---
 
 ---
 action: 

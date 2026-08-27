@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Hertfordshire
 
-review_date: 2026-08-26
-review_fingerprint: 4425f119c4451707dffd0c3a0a91cb43ee22911d7f17492fe3ef7706ad15e1af
-routing_manifest_sha256: 2a90577f5e4e40d8e3b861a90ec0fca802e14e9d561f25998c5a4b6e21bb9939
+review_date: 2026-08-27
+review_fingerprint: fb9a77c497e320108c2d2edf07df151e0c7e5664142cfe8831265edb9d3c010e
+routing_manifest_sha256: 6c9d1768dffe7da3c4261304cf77d3080d88dbf0d535df794624f450db4c9e5b
 ontap_region: Hertfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 7
-- Selected: 3
+- Records: 8
+- Selected: 4
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 3
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Hertfordshire | Watford, East of England, WD19 7UZ | £25,583.00 Annually (FTE) Salary is based on FTE - hours will be part time - 9am - 1pm - Monday - Thursday (16 hours per week) - H3 - 25,583 FTE (However, pay award pending national agreement) | Administrator - The Acorn Centre
+employer: Warren Dell Primary School
+closing_date: 2026-09-21T23:59:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 3fde78eead36f6596af8d08c6fc9fd507354eac13bca506330f439f3f4848598
+source: Teaching Vacancies
+source_job_id: administrator-the-acorn-centre
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-the-acorn-centre
+---
 
 ---
 action: 

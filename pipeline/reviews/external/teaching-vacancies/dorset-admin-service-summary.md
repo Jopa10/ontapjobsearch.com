@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Dorset
 
-review_date: 2026-08-26
-review_fingerprint: d03ea49e32af0085d690638d97e15cb8c2788efa1d6779b7804f0b8970e1f783
-routing_manifest_sha256: 2a90577f5e4e40d8e3b861a90ec0fca802e14e9d561f25998c5a4b6e21bb9939
+review_date: 2026-08-27
+review_fingerprint: 3b12ff8486a2db1634ae4c2db2b852d000e64c2f9d28c77466536204e3254623
+routing_manifest_sha256: 6c9d1768dffe7da3c4261304cf77d3080d88dbf0d535df794624f450db4c9e5b
 ontap_region: Dorset
 slice_category: admin_service
 slice_status: LIVE
@@ -14,10 +14,10 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 5
-- Selected: 3
+- Selected: 2
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 0
+- Hard pass: 1
 
 ## SELECTED
 
@@ -34,21 +34,6 @@ factual_fingerprint: f26938550059614df068621441bdec772b06d8301a1148b15b996afe310
 source: Teaching Vacancies
 source_job_id: careers-and-work-experience-administrator-the-bishop-of-winchester-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/careers-and-work-experience-administrator-the-bishop-of-winchester-academy
----
-
----
-action: 
-SELECTED | Dorset | Wimborne, South West, BH21 5QB | £12,963.00 - £13,603.00 Annually (Actual) | Finance and HR Administrator
-employer: Cranborne Church of England First School
-closing_date: 2026-08-27T09:00:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: cd33c06cd70221cfb10166fa57f0b8631b9cfa7aabcb3ffa4712c982c0bb554a
-source: Teaching Vacancies
-source_job_id: finance-and-hr-administrator-cranborne-church-of-england-first-school-wimborne-dorset
-source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-and-hr-administrator-cranborne-church-of-england-first-school-wimborne-dorset
 ---
 
 ---
@@ -104,7 +89,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/data-manager-parkston
 
 ## HARD_PASS
 
-- None.
+- [Data Manager](https://teaching-vacancies.service.gov.uk/jobs/data-manager-glenmoor-academy) — Manager title salary ceiling £35,377 is not below £28,000.
 
 ## Safety boundary
 
