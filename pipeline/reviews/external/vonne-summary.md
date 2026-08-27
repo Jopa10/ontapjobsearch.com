@@ -67,7 +67,7 @@ source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173310
 ## POSS — choose SELECT or EXCLUDE
 
 ---
-action:
+action: exclude
 POSS | North East - Tyneside, Wearside & Northumberland | Tyne and Wear | £29,02431,856 Pro Rata | Project Coordinator - Neuro Team
 employer: Children North East
 closing_date: Friday, September 11, 2026 - 12:00

@@ -317,7 +317,7 @@ source_url: https://www.northeastjobs.org.uk/job/Simpler_Recycling_Projects_Coor
 ## POSS — choose SELECT or EXCLUDE
 
 ---
-action:
+action: exclude
 POSS | North East - County Durham & Darlington/Hartlepool | Peterlee Depot (North) or Chilton Depot (South) | £29,071 - £32,046 | Waste Operations Support Officers
 employer: Durham County Council
 closing_date: 09/09/2026
@@ -326,7 +326,7 @@ source_job_id: 301232
 source_url: https://www.northeastjobs.org.uk/job/Waste_Operations_Support_Officers/301232
 ---
 ---
-action:
+action: exclude
 POSS | North East - Tyneside, Wearside & Northumberland | Gateshead | £29,540 - £32,061 | Annual Review Officer (SEND)
 employer: Gateshead Council
 closing_date: 10/09/2026

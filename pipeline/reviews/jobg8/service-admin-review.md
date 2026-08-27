@@ -1288,11 +1288,10 @@ job_id: 107831123
 ## SURREY — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - SURREY | Surrey | Surrey | £35 per hour | Bid Coordinator
 job_id: 107904710
 ---
-
 ## KENT — SELECTED
 
 ---
@@ -2160,11 +2159,10 @@ job_id: 107906443
 ## CAMBRIDGESHIRE — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - CAMBRIDGESHIRE | Cambridgeshire | Chatteris | £45000 per year | Technical & Quality Coordinator
 job_id: 107904065
 ---
-
 ## CHESHIRE - EAST — SELECTED
 
 ---
@@ -2374,11 +2372,10 @@ job_id: 107894760
 ## DERBYSHIRE — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - DERBYSHIRE | Derbyshire | Derbyshire | £14 - £17.76 per hour | Repairs Scheduler
 job_id: 23643_225541823
 ---
-
 ## DEVON — SELECTED
 
 ---
@@ -3938,11 +3935,10 @@ job_id: 107905674
 ## NOTTINGHAMSHIRE — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - NOTTINGHAMSHIRE | Nottinghamshire | Nottinghamshire | £40000 per year | Cyber Project Coordinator
 job_id: 107905364
 ---
-
 ## OXFORDSHIRE — SELECTED
 
 ---
