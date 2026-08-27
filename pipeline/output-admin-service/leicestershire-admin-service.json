@@ -247,12 +247,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Systems administration",
-      "Data entry"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225484075",
@@ -352,11 +347,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225514239",
@@ -431,14 +422,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Email handling",
-      "Data entry",
-      "Document preparation",
-      "Quotations"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225528247",
@@ -513,11 +497,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Telephone handling",
-      "Quotations"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "107759995",
@@ -545,31 +525,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "107472530",
-    "title": "Financial Services Administrator",
-    "company": "North Oak Recruitment - Agency - Permanent",
-    "location": "Leicestershire",
-    "region": "Leicestershire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "26000",
-    "salary_max": "26000",
-    "salary_text": "£26000 per year",
-    "posted_date": "",
-    "description": "Administrator Support Finance & Wealth Management\n\nLocation: Leicester fully office based role, Monday to Friday 8am to 4pm\n\nSalary: £26,000 + benefits (our ref AL1416)\n\nMy client is well-established wealth management firm, and they are now seeking a highly organised and proactive Financial Services Administrator to support their advisers and ensure the smooth day-to-day running of the office click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?gZ0pd2TJz0IlRKQJQYC2QP5N59tRImN4s",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "North Oak Recruitment",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "107841648",
     "title": "Contracting Administrator",
     "company": "Tarmac Trading Limited - Company - Permanent",
@@ -591,6 +546,31 @@
     "advertiser_name": "Tarmac Trading Limited",
     "advertiser_type": "Company",
     "work_pattern": "Not Specified",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
+    "job_id": "107905005",
+    "title": "Financial Services Administrator",
+    "company": "North Oak Recruitment - Agency - Permanent",
+    "location": "Leicestershire",
+    "region": "Leicestershire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "26000",
+    "salary_max": "26000",
+    "salary_text": "£26000 per year",
+    "posted_date": "",
+    "description": "Financial Services Administrator\n\nLeicester (our Ref AL1424) office based, full-time role\n\nSalary up to £26,000 dep on experience + benefits\n\nMy client is an established IFA based in Leicester and they have an exciting new opportunity for an individual to join their administrative team.Ideally you will have experience within Financial Services or Banking, although consideration may be given to individu click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?QHpHeWTcrP5CrLc8ZlT1Gb5uEXNK3ZOMy",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "North Oak Recruitment",
+    "advertiser_type": "Agency",
+    "work_pattern": "Full Time",
     "salary_period": "Annual",
     "posted_date_basis": ""
   },

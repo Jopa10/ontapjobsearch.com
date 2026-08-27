@@ -122,11 +122,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Scheduling and bookings"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225476681",
@@ -151,11 +147,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Scheduling and bookings"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225522549",
@@ -180,11 +172,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Telephone handling",
-      "Systems administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225521989",
@@ -209,13 +197,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Telephone handling",
-      "Email handling",
-      "Scheduling and bookings",
-      "Systems administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225528836",
@@ -315,11 +297,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Records administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225473001",
@@ -344,12 +322,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Records administration",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "107821330",
@@ -449,11 +422,57 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Scheduling and bookings"
-    ]
+    "posted_date_basis": ""
+  },
+  {
+    "job_id": "23643_225542267",
+    "title": "Operations Co-Ordinator",
+    "company": "Zero Surplus - Agency - Permanent",
+    "location": "Hertfordshire",
+    "region": "Hertfordshire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "26000",
+    "salary_max": "28000",
+    "salary_text": "£26000 - £28000 per year (+ generous bonus)",
+    "posted_date": "",
+    "description": "We are currently recruiting for an exciting opportunity as an Operations Co-Ordinator to join a growing and dynamic team based in Hertfordshire. This role offers the chance to be at the centre of a thriving business, supporting the full lifecycle of order fulfilment, from supplier coordination to client communication and logistics management. The client is renowned for delivering comprehensive end-to-end procurement, supply chain management, logistics and financial solutions. The client boasts a global network, with offices in Europe, America, and Asia.\n\nYou will work closely with internal departments and external partners to ensure seamless delivery of goods and services, troubleshoot issues, and keep everything moving swiftly and efficiently. The successful candidate will drive negotiations with third-party service providers that assist with completing a job to the best possible standards. This role is perfect for someone detail-oriented, proactive, and eager to grow within a busy operations environment.\n\nYou will be responsible for raising purchase orders through the company's processes, initiating the supply chain by placing orders with suppliers, and ensuring timely order processing. A key part of the role includes investigating and resolving discrepancies raised by clients, suppliers, or internal teams, as well as escalating any ongoing issues to senior management for a swift resolution. This is a role where you will be required to go above and beyond for your clients, so a certain level of professionalism and a customer service mindset will be paramount.\n\nThis is an office-based position that is situated in Hertfordshire. Due to the location of the office, this role would be commutable from Hemel Hempstead, Watford, Amersham, St Albans, Beaconsfield, Uxbridge, Barnet, High Wycombe, Borehamwood & Welwyn Garden City. The role offers a generous salary, as well as a fantastic bonus scheme, that can be achieved after passing a probationary period.\n\nPlease upload a Microsoft Word version of your CV where possible, excluding text boxes or images. Any data we collect from you will be stored and processed in accordance with Zero Surplus' Privacy Policy.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?mDcEDJmYTbx1QsyVaUbuHLYW3u8BAbzrt",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Zero Surplus",
+    "advertiser_type": "Agency",
+    "work_pattern": "Full Time",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
+    "job_id": "107906575",
+    "title": "Operations Coordinator (Bonus Scheme)",
+    "company": "Ernest Gordon Recruitment - Agency - Permanent",
+    "location": "Hertfordshire",
+    "region": "Hertfordshire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "30000",
+    "salary_max": "30000",
+    "salary_text": "£30000 per year",
+    "posted_date": "",
+    "description": "Operations Coordinator (Bonus Scheme)\n£26,000 - £30,000 + Bonus (OTE up to 6k) + Progression + Training + Company Benefits\nWatford, Hertfordshire\n\nAre you from a customer service/office-based background with MS Office experience, looking for a rewarding opportunity where you will be fully trained within operations, whilst earning a generous bonus for a globally recognised company?\n\nAre you looking to click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?bZCSDJyF3N6%2fR4Zaqr8j5cuAun%2fgk88Rq",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Ernest Gordon Recruitment",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
   },
   {
     "job_id": "nhs-5553693",

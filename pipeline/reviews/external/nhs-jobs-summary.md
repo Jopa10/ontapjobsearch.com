@@ -2,11 +2,11 @@
 
 review_date: 2026-08-27
 
-- Open Administrative & Clerical rows reviewed: 2510
-- Auto/remembered selected: 625
+- Open Administrative & Clerical rows reviewed: 2507
+- Auto/remembered selected: 624
 - Selected HC Tier A: 260
-- Selected HC Tier B: 365
-- POSS awaiting decision: 1527
+- Selected HC Tier B: 364
+- POSS awaiting decision: 1525
 - Excluded: 0
 - HARD_PASS: 358
 
@@ -622,18 +622,6 @@ region: Yorkshire - West
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/B0532-26-0012
 factual_fingerprint: ebae3c4c6d65b9b2f34f4f724b3d2438930720f20da7287320ba85760f9b1a16
----
-
----
-action:
-POSS | NHS Jobs | London | London, WC1N 3JH | £34186.00 to £37389.00 | Admissions Coordinator
-source_job_id: 5566123
-title: Admissions Coordinator
-employer: Great Ormond Street Hospital for Children NHS Foundation Trust
-region: London
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9271-26-0349
-factual_fingerprint: 0d262e71c3fdc04ea65568c6cdcf27d42524da5a45ea3d2f3ad89da03d4b834b
 ---
 
 ---
@@ -3718,18 +3706,6 @@ region: Wales South - Valleys
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/H9110-26-0887
 factual_fingerprint: 296d6c8db8fd93f8558d3bff8746f60e95531044da4934c2de06810f1cffb998
----
-
----
-action:
-POSS | NHS Jobs | Sussex | Worthing, BN11 2DH | £57528.00 to £64750.00 | Business Intelligence Developer
-source_job_id: 5562578
-title: Business Intelligence Developer
-employer: University Hospitals Sussex NHS Foundation Trust (279)
-region: Sussex
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9279-26-1038
-factual_fingerprint: e7cfb455dd10397e6a7d38eb8cc7ce11ff287cd1e683a700be2c82b32cd756a5
 ---
 
 ---
