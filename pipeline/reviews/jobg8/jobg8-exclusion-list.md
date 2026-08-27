@@ -6,7 +6,7 @@ The `excluded_on` date is the day the exclusion decision was made.
 To restore a job, edit only its `action:` line to `action: select`.
 On the next JobG8 run that exact job ID will be restored and removed from this list.
 
-remembered_exclusions: 198
+remembered_exclusions: 202
 
 ## SERVICE / ADMIN — EXCLUDED
 
@@ -50,6 +50,30 @@ job_id: 107889639
 action:
 category: service_admin
 excluded_on: 2026-08-27
+title: Technical & Quality Coordinator
+employer: MorePeople
+region: 
+town: Cambridgeshire
+salary: 
+job_id: 107904065
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-27
+title: Repairs Scheduler
+employer: Sellick Partnership
+region: 
+town: Derbyshire
+salary: 
+job_id: 23643_225541823
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-27
 title: QUALITY & PROCESS COORDINATOR
 employer: Searchability (UK) Ltd
 region: 
@@ -86,6 +110,18 @@ job_id: 107836714
 action:
 category: service_admin
 excluded_on: 2026-08-27
+title: Cyber Project Coordinator
+employer: Littlefish
+region: 
+town: Nottinghamshire
+salary: 
+job_id: 107905364
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-27
 title: Contracts Coordinator
 employer: Huntress - Maidstone
 region: 
@@ -116,6 +152,18 @@ region:
 town: Midlothian
 salary: 
 job_id: 107728052
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-27
+title: Bid Coordinator
+employer: Technical Staffing Resources Limited
+region: 
+town: Surrey
+salary: 
+job_id: 107904710
 ---
 
 ---
