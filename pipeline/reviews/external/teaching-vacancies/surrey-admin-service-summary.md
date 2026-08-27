@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Surrey
 
 review_date: 2026-08-27
-review_fingerprint: 40bfe41e4f16271dfc147c502db1770210f3affdd63c0ff4ae12c733c13673c7
-routing_manifest_sha256: 6c9d1768dffe7da3c4261304cf77d3080d88dbf0d535df794624f450db4c9e5b
+review_fingerprint: 6e791ac7d9211d2273a6bc7212b1b4ce4750f7807b05470a208f57dc5daadffe
+routing_manifest_sha256: 2c66e3a01ddaa0fa081178a44f93a4052dba3b44385bb6445201fc498e6f8215
 ontap_region: Surrey
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 3
-- Selected: 2
+- Records: 5
+- Selected: 3
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 1
+- Hard pass: 2
 
 ## SELECTED
 
@@ -51,6 +51,21 @@ source_job_id: careers-administrator-1c0a6851-3e9c-4719-8774-31c627db4f71
 source_url: https://teaching-vacancies.service.gov.uk/jobs/careers-administrator-1c0a6851-3e9c-4719-8774-31c627db4f71
 ---
 
+---
+action: 
+SELECTED | Surrey | Oxted, South East, RH8 9BQ | £15,007.83 - £15,934.70 Annually (Actual) TPA 8 / NJC 6 - 10 - £27,915 - £29,196pa FTE | HR & Admin Assistant
+employer: Holland Junior School
+closing_date: 2026-09-06T23:59:00+01:00
+reason: Clear admin/service title: admin assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 0c1f67fb1cc3e05c8ede6cb7f6de43b3d2c0cd419ee85cfbe8a660508288029a
+source: Teaching Vacancies
+source_job_id: hr-admin-assistant-holland-junior-school-oxted-surrey
+source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-admin-assistant-holland-junior-school-oxted-surrey
+---
+
 ## POSS — choose SELECT or EXCLUDE
 
 - None.
@@ -61,6 +76,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/careers-administrator
 
 ## HARD_PASS
 
+- [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-the-kite-academy-trust) — Insufficient admin/service evidence.
 - [Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/operations-manager-st-john-s-primary-school) — Manager title salary ceiling £32,867 is not below £28,000.
 
 ## Safety boundary

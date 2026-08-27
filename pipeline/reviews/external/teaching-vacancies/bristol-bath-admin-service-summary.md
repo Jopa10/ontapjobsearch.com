@@ -2,7 +2,7 @@
 
 review_date: 2026-08-27
 review_fingerprint: 380b8887a164bec95ac67045caedfa8b9c270f450090d829175eee7bf27c0d08
-routing_manifest_sha256: 6c9d1768dffe7da3c4261304cf77d3080d88dbf0d535df794624f450db4c9e5b
+routing_manifest_sha256: 2c66e3a01ddaa0fa081178a44f93a4052dba3b44385bb6445201fc498e6f8215
 ontap_region: Bristol & Bath
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 13
+- Records: 14
 - Selected: 2
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 11
+- Hard pass: 12
 
 ## SELECTED
 
@@ -63,6 +63,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/digital-marketing-adm
 
 - [Financial Controller](https://teaching-vacancies.service.gov.uk/jobs/financial-controller-9097ffb6-9d63-4285-9dd2-537e38cf05ad) — Insufficient admin/service evidence.
 - [Governance Clerk](https://teaching-vacancies.service.gov.uk/jobs/governance-clerk-amplify-education-bristol-not-recorded) — Insufficient admin/service evidence.
+- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-whitchurch-primary-school) — Manager title without salary evidence below £28,000.
 - [Senior Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/senior-administration-assistant-frome-vale-academy) — Insufficient admin/service evidence.
 - [Senior Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-finance-officer-chipping-sodbury-school) — Insufficient admin/service evidence.
 - [Senior Trust Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/senior-trust-finance-manager) — Manager title salary ceiling £50,269 is not below £28,000.

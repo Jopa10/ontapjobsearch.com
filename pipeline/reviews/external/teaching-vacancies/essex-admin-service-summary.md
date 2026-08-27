@@ -2,7 +2,7 @@
 
 review_date: 2026-08-27
 review_fingerprint: e6b10de7848782dab4bda9c0afbf64da8378bae5aa50e1766ce6b32937313d8d
-routing_manifest_sha256: 6c9d1768dffe7da3c4261304cf77d3080d88dbf0d535df794624f450db4c9e5b
+routing_manifest_sha256: 2c66e3a01ddaa0fa081178a44f93a4052dba3b44385bb6445201fc498e6f8215
 ontap_region: Essex
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 11
+- Records: 12
 - Selected: 4
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 6
+- Hard pass: 7
 
 ## SELECTED
 
@@ -107,6 +107,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-notley-h
 - [Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-the-greenwell-academy) — Insufficient admin/service evidence.
 - [Admissions Coordinator](https://teaching-vacancies.service.gov.uk/jobs/admissions-coordinator) — Insufficient admin/service evidence.
 - [HR Business Partner](https://teaching-vacancies.service.gov.uk/jobs/hr-business-partner-discovery-educational-trust) — Insufficient admin/service evidence.
+- [Office Manager (Acting - 1 Year Fixed)](https://teaching-vacancies.service.gov.uk/jobs/office-manager-acting-1-year-fixed) — Manager title without salary evidence below £28,000.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-tudor-court-primary-school-grays-essex) — Manager title without salary evidence below £28,000.
 - [Senior HR Adviser](https://teaching-vacancies.service.gov.uk/jobs/senior-hr-adviser-b58d31ba-7650-4ead-a619-e0a3558161e2) — Insufficient admin/service evidence.
 - [Trust Operations Assistant](https://teaching-vacancies.service.gov.uk/jobs/trust-operations-assistant-discovery-educational-trust) — Insufficient admin/service evidence.

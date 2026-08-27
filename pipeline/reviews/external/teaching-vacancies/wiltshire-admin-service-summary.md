@@ -2,7 +2,7 @@
 
 review_date: 2026-08-27
 review_fingerprint: 37f5b5907b98e53518bc58bce96b8995cae81a0fc996f24a7936ccc12d15d926
-routing_manifest_sha256: 6c9d1768dffe7da3c4261304cf77d3080d88dbf0d535df794624f450db4c9e5b
+routing_manifest_sha256: 2c66e3a01ddaa0fa081178a44f93a4052dba3b44385bb6445201fc498e6f8215
 ontap_region: Wiltshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 12
+- Records: 11
 - Selected: 3
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 8
+- Hard pass: 7
 
 ## SELECTED
 
@@ -95,7 +95,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-officer-queen-s
 - [Exams & Admin Officer](https://teaching-vacancies.service.gov.uk/jobs/exams-admin-officer) — Insufficient admin/service evidence.
 - [Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-great-western-academy-swindon) — Insufficient admin/service evidence.
 - [Head of Finance](https://teaching-vacancies.service.gov.uk/jobs/head-of-finance-magna-learning-partnership) — Insufficient admin/service evidence.
-- [Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/operations-manager-wellington-lions-primary-academy) — Manager title salary ceiling £39,152 is not below £28,000.
 - [Recruitment Lead](https://teaching-vacancies.service.gov.uk/jobs/recruitment-lead-the-white-horse-federation) — Insufficient admin/service evidence.
 
 ## Safety boundary

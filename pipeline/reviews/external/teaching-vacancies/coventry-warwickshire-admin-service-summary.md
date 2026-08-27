@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Coventry & Warwickshire
 
 review_date: 2026-08-27
-review_fingerprint: a216b35245654e5bb113481509fe54285749186e8d4bf5b6c59a61e99620412c
-routing_manifest_sha256: 6c9d1768dffe7da3c4261304cf77d3080d88dbf0d535df794624f450db4c9e5b
+review_fingerprint: 54c4ab224ef02182116565f05a0c3e37c6948b1ccd5b6324845c13804609c6a6
+routing_manifest_sha256: 2c66e3a01ddaa0fa081178a44f93a4052dba3b44385bb6445201fc498e6f8215
 ontap_region: West Midlands - Coventry & Warwickshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 9
-- Selected: 6
+- Records: 10
+- Selected: 7
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 3
@@ -64,6 +64,21 @@ factual_fingerprint: 3c5fa14fee55a03810bce785cd2236fde4f3c9ea3c9a14eeee2726d5fcc
 source: Teaching Vacancies
 source_job_id: receptionist-and-administrator-ftc-contract-september-december-2026-kenilworth-school-and-sixth-form-kenilworth
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-and-administrator-ftc-contract-september-december-2026-kenilworth-school-and-sixth-form-kenilworth
+---
+
+---
+action: 
+SELECTED | West Midlands - Coventry & Warwickshire | Stratford-upon-Avon, West Midlands, CV37 6TQ | £15,411.00 - £16,758.00 Annually (Actual) | Receptionist/Admin Officer
+employer: Welcombe Hills School
+closing_date: 2026-09-07T09:00:00+01:00
+reason: Clear admin/service title: receptionist
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 9e92ac95c2d6e47d33c52d2ff11beac3999227390161f12863453bb6e3cb6678
+source: Teaching Vacancies
+source_job_id: receptionist-admin-officer-f47a5a75-5bef-45e1-a471-94bb514d5613
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-admin-officer-f47a5a75-5bef-45e1-a471-94bb514d5613
 ---
 
 ---

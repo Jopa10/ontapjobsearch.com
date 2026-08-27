@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — North East
 
 review_date: 2026-08-27
-review_fingerprint: 5f02eeda2d0261e12bb673dc9b733925d8bcb28379e5c65828357597704d8649
-routing_manifest_sha256: 6c9d1768dffe7da3c4261304cf77d3080d88dbf0d535df794624f450db4c9e5b
+review_fingerprint: 0712c023dca24464ebd5a0f4c5882d3669e373a7102603f4587d1acf643dfec4
+routing_manifest_sha256: 2c66e3a01ddaa0fa081178a44f93a4052dba3b44385bb6445201fc498e6f8215
 ontap_region: North East
 slice_category: admin_service
 slice_status: LIVE
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 5
-- Selected: 1
+- Records: 6
+- Selected: 2
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 4
 
 ## SELECTED
+
+---
+action: 
+SELECTED | North East | Newcastle-upon-Tyne, North East, NE3 2JH | £26,403.00 - £27,254.00 (£22,646 - £23,376) | Administrative Assistant Level 3
+employer: Gosforth Academy
+closing_date: 2026-09-10T09:00:00+01:00
+reason: Clear admin/service title: administrative assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 9e1bdba9ff641bb2093767001042df2b5a930eafbf3703b5538f202b81937596
+source: Teaching Vacancies
+source_job_id: administrative-assistant-level-3-gosforth-academy-newcastle-upon-tyne-tyne-and-wear
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-level-3-gosforth-academy-newcastle-upon-tyne-tyne-and-wear
+---
 
 ---
 action: 

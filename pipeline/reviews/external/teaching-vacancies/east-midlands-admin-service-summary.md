@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — East Midlands
 
 review_date: 2026-08-27
-review_fingerprint: ef92d9820226f74b8463d8f1286c88dc6c01ad59d5b2b15e852cdfa05d424009
-routing_manifest_sha256: 6c9d1768dffe7da3c4261304cf77d3080d88dbf0d535df794624f450db4c9e5b
+review_fingerprint: b91db5e2e20ed1f73e6fc1ac4a62083bdcbfd0b6eb381af3185259b929dbca4a
+routing_manifest_sha256: 2c66e3a01ddaa0fa081178a44f93a4052dba3b44385bb6445201fc498e6f8215
 ontap_region: East Midlands
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 8
-- Selected: 4
+- Records: 9
+- Selected: 5
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 4
@@ -79,6 +79,21 @@ factual_fingerprint: c3b48f4319cdab74a5d4d0eacfbb6be52ed21a49a2412ad73a9cb9429bd
 source: Teaching Vacancies
 source_job_id: receptionist-0873411c-0cfb-4f4d-945d-32e57ea5344f
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-0873411c-0cfb-4f4d-945d-32e57ea5344f
+---
+
+---
+action: 
+SELECTED | East Midlands | Melton Mowbray, East Midlands, LE13 0BN | £21,993.00 - £23,051.00 Annually (Actual) NJC 3-6 (37 hours per week, 39 weeks per year) | Receptionist
+employer: Long Field Spencer Academy
+closing_date: 2026-09-07T12:00:00+01:00
+reason: Clear admin/service title: receptionist
+jobg8_check: NO_MATCH
+slice_status: UNREGISTERED
+migration_status: 
+factual_fingerprint: 68260fdacefe2ce6c7d2835dedce01e4093eb635de13a8539bad130e63ae9270
+source: Teaching Vacancies
+source_job_id: receptionist-long-field-spencer-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-long-field-spencer-academy
 ---
 
 ## POSS — choose SELECT or EXCLUDE

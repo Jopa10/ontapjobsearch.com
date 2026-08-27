@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Norfolk
 
 review_date: 2026-08-27
-review_fingerprint: 9c1384e79835ef96f3a369ea9c593d3fd42424be022e2c42b760cd37b76f18f4
-routing_manifest_sha256: 6c9d1768dffe7da3c4261304cf77d3080d88dbf0d535df794624f450db4c9e5b
+review_fingerprint: ae065ee6f482d69023f51acca0b3ff06f257935d90c398d84fba8b2a0df05748
+routing_manifest_sha256: 2c66e3a01ddaa0fa081178a44f93a4052dba3b44385bb6445201fc498e6f8215
 ontap_region: Norfolk
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 13
-- Selected: 6
+- Records: 14
+- Selected: 7
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 7
@@ -34,6 +34,21 @@ factual_fingerprint: 724efa9fa5ba790ea57c3e92f0bbaf91fa0cdd1a7fee7fcfe7787789684
 source: Teaching Vacancies
 source_job_id: administration-assistant-d18e39b3-4741-40c0-9bbf-2a5916965727
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-d18e39b3-4741-40c0-9bbf-2a5916965727
+---
+
+---
+action: 
+SELECTED | Norfolk | Fakenham, East of England, NR21 8BN | £8,830.00 - £8,970.00 Annually (FTE) | Administration Assistant
+employer: Fakenham Junior School
+closing_date: 2026-09-11T23:59:00+01:00
+reason: Clear admin/service title: administration assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: f39faf831b170ef09761d20fab3084397d82187f562716d6ada38dfa8f8b0861
+source: Teaching Vacancies
+source_job_id: administration-assistant-fakenham-junior-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-fakenham-junior-school
 ---
 
 ---

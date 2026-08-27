@@ -2,7 +2,7 @@
 
 review_date: 2026-08-27
 review_fingerprint: a53cf87b98679904246712ef31917f9e28d1f19928b783018e4543848a1c8f71
-routing_manifest_sha256: 6c9d1768dffe7da3c4261304cf77d3080d88dbf0d535df794624f450db4c9e5b
+routing_manifest_sha256: 2c66e3a01ddaa0fa081178a44f93a4052dba3b44385bb6445201fc498e6f8215
 ontap_region: Yorkshire - West
 slice_category: admin_service
 slice_status: LIVE
@@ -254,11 +254,11 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-the-king
 
 ## HARD_PASS
 
-- [Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-wakefield-snapethorpe-primary-school) — Insufficient admin/service evidence.
+- [Compliance Officer](https://teaching-vacancies.service.gov.uk/jobs/compliance-officer-delta-academies-trust) — Insufficient admin/service evidence.
 - [Exam Invigilator](https://teaching-vacancies.service.gov.uk/jobs/exam-invigilator-leeds-city-academy-leeds-west-yorkshire) — Insufficient admin/service evidence.
 - [Exams and Admissions Manager](https://teaching-vacancies.service.gov.uk/jobs/exams-and-admissions-manager-leeds-city-academy-leeds-west-yorkshire) — Manager title salary ceiling £35,558 is not below £28,000.
+- [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-outwood-grange-academies-trust) — Manager title salary ceiling £53,881 is not below £28,000.
 - [Finance Manager (Core Team)](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-core-team) — Manager title salary ceiling £49,282 is not below £28,000.
-- [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-the-gorse-academies-trust) — Insufficient admin/service evidence.
 - [Human Resources Business Partner (Central HR Team)](https://teaching-vacancies.service.gov.uk/jobs/human-resources-business-partner-central-hr-team-the-gorse-academies-trust-leeds-not-recorded) — Insufficient admin/service evidence.
 - [Procurement Manager](https://teaching-vacancies.service.gov.uk/jobs/procurement-manager-outwood-grange-academies-trust) — Manager title salary ceiling £44,075 is not below £28,000.
 - [Reprographics and Digital Resource Technician](https://teaching-vacancies.service.gov.uk/jobs/reprographics-and-digital-resource-technician) — Out-of-scope occupation: technician.

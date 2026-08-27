@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - South
 
 review_date: 2026-08-27
-review_fingerprint: 6a40956d2110bcc7b7aa91fe6ace99772dcaafd20131ef41c12c074af7c1fdb0
-routing_manifest_sha256: 6c9d1768dffe7da3c4261304cf77d3080d88dbf0d535df794624f450db4c9e5b
+review_fingerprint: 2574f1acf6e55b1a4268b3c7e980e871a701642ceb42859e0418d2cae7b6d400
+routing_manifest_sha256: 2c66e3a01ddaa0fa081178a44f93a4052dba3b44385bb6445201fc498e6f8215
 ontap_region: Yorkshire - South
 slice_category: admin_service
 slice_status: LIVE
@@ -14,10 +14,10 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 24
-- Selected: 6
+- Selected: 5
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 16
+- Hard pass: 17
 
 ## SELECTED
 
@@ -49,21 +49,6 @@ factual_fingerprint: a0e1e5cb5c53cbc2aaf6ed9a08e1718b411e0c4e35e42de7aa6cb86da7b
 source: Teaching Vacancies
 source_job_id: administration-assistant-treeton-church-of-england-primary-school-rotherham-south-yorkshire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-treeton-church-of-england-primary-school-rotherham-south-yorkshire
----
-
----
-action: 
-SELECTED | Yorkshire - South | Sheffield, Yorkshire and the Humber, S10 2PW | Grade 4 Point 7 to 12 £26,403 to £28,598 pro rata (£22,709 to £24,597 actual) | Business Support Officer – Attendance
-employer: King Edward VII School
-closing_date: 2026-09-01T09:00:00+01:00
-reason: Clear admin/service title: business support officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 905df4ea5d57eb22742005fca2b24f22ee35193b18abe96e521c664fdebd1f57
-source: Teaching Vacancies
-source_job_id: business-support-officer-attendance-dc9edb4f-b36d-4bc3-be46-6508d1a2b957
-source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-officer-attendance-dc9edb4f-b36d-4bc3-be46-6508d1a2b957
 ---
 
 ---
@@ -161,6 +146,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/estates-and-complianc
 - [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-mercia-learning-trust-sheffield-not-recorded) — Manager title salary ceiling £53,052 is not below £28,000.
 - [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-hatfield-woodhouse-primary-school) — Insufficient admin/service evidence.
 - [HR Manager](https://teaching-vacancies.service.gov.uk/jobs/hr-manager-st-francis-catholic-multi-academy-trust-rotherham-not-recorded) — Manager title salary ceiling £54,495 is not below £28,000.
+- [Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/operations-manager-astrea-academy-trust) — Manager title salary ceiling £38,502 is not below £28,000.
 - [People Officer](https://teaching-vacancies.service.gov.uk/jobs/people-officer-astrea-academy-trust) — Insufficient admin/service evidence.
 - [People Operations - Team Leader](https://teaching-vacancies.service.gov.uk/jobs/people-operations-team-leader) — Insufficient admin/service evidence.
 - [Resources Assistant](https://teaching-vacancies.service.gov.uk/jobs/resources-assistant-westfield-school) — Insufficient admin/service evidence.

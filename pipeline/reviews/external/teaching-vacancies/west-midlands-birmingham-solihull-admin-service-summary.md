@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Birmingham & Solihull
 
 review_date: 2026-08-27
-review_fingerprint: a60887a6ba8a480aa7cb39ac2012eb157088978127580713e6a6c1fb21dd1b08
-routing_manifest_sha256: 6c9d1768dffe7da3c4261304cf77d3080d88dbf0d535df794624f450db4c9e5b
+review_fingerprint: 4a8c6bd1902eddf2108b5b0808f227a4dc19a2322711374ede28e605b4180f41
+routing_manifest_sha256: 2c66e3a01ddaa0fa081178a44f93a4052dba3b44385bb6445201fc498e6f8215
 ontap_region: West Midlands - Birmingham & Solihull
 slice_category: admin_service
 slice_status: LIVE
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 14
-- Selected: 8
+- Records: 16
+- Selected: 9
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 6
 
 ## SELECTED
+
+---
+action: 
+SELECTED | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B24 0ED | £19,969.00 - £21,695.00 Annually (Actual) 37 hours per week Term Time only | Admin Assistant
+employer: Yenton Primary School
+closing_date: 2026-09-01T12:00:00+01:00
+reason: Clear admin/service title: admin assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 9469291f767751dd4868efd9892086e147f7c94c5a30aa666b50bf309833203b
+source: Teaching Vacancies
+source_job_id: admin-assistant-10329641-0e0b-41f7-ba37-1959636d06d8
+source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-10329641-0e0b-41f7-ba37-1959636d06d8
+---
 
 ---
 action: 
@@ -164,6 +179,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/chief-finance-and-ope
 
 ## HARD_PASS
 
+- [Clerical Assistant](https://teaching-vacancies.service.gov.uk/jobs/clerical-assistant-hall-green-junior-school) — Insufficient admin/service evidence.
 - [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-our-lady-of-the-wayside-catholic-primary-school) — Insufficient admin/service evidence.
 - [HR Manager](https://teaching-vacancies.service.gov.uk/jobs/hr-manager-sutton-coldfield-grammar-school-for-girls-sutton-coldfield-west-midlands) — Manager title salary ceiling £49,282 is not below £28,000.
 - [HR Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-st-john-paul-ii-multi-academy-company) — Insufficient admin/service evidence.

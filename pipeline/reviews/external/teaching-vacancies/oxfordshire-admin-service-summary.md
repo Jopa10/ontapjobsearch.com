@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Oxfordshire
 
 review_date: 2026-08-27
-review_fingerprint: f7e23aa8cfde16b0bb99f707262d535927d511017082eae5a9f50915698b6430
-routing_manifest_sha256: 6c9d1768dffe7da3c4261304cf77d3080d88dbf0d535df794624f450db4c9e5b
+review_fingerprint: bb9146be60f2bc735e54349dd4b4d22ddc27f4a5e50c9812d682181dac363c39
+routing_manifest_sha256: 2c66e3a01ddaa0fa081178a44f93a4052dba3b44385bb6445201fc498e6f8215
 ontap_region: Oxfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 18
-- Selected: 7
+- Records: 20
+- Selected: 8
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 9
+- Hard pass: 10
 
 ## SELECTED
 
@@ -49,6 +49,21 @@ factual_fingerprint: 1536b7c65ef7138e688413e80eb8234b0339f2bbba3384bbfb2ddc81f79
 source: Teaching Vacancies
 source_job_id: educational-visits-administrator-faringdon-community-college-faringdon-oxfordshire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/educational-visits-administrator-faringdon-community-college-faringdon-oxfordshire
+---
+
+---
+action: 
+SELECTED | Oxfordshire | Oxford, South East, OX2 6AB | £26,824.00 - £29,064.00 Annually (FTE) Grade 6 Actual Annual Salary £23,940 | Grade 6 Office Administrator
+employer: St Philip and James' Church of England Aided Primary School Oxford
+closing_date: 2026-09-14T12:00:00+01:00
+reason: Clear admin/service title: administrator, office administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: af07c6e2ea149f4b4ad119cb9a7c6c065bf1cc9a4758fbe52b95b3996f0be647
+source: Teaching Vacancies
+source_job_id: grade-6-office-administrator-3e4de74e-af8a-4ee3-b949-0a2e141ed8ab
+source_url: https://teaching-vacancies.service.gov.uk/jobs/grade-6-office-administrator-3e4de74e-af8a-4ee3-b949-0a2e141ed8ab
 ---
 
 ---
@@ -169,10 +184,11 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-faringdo
 - [Admissions Manager](https://teaching-vacancies.service.gov.uk/jobs/admissions-manager-lord-williams-s-school) — Manager title salary ceiling £34,434 is not below £28,000.
 - [Chief Financial Officer](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-lord-williams-s-school-thame-oxfordshire) — Insufficient admin/service evidence.
 - [Data and Systems Lead](https://teaching-vacancies.service.gov.uk/jobs/data-and-systems-lead-acer-trust) — Insufficient admin/service evidence.
+- [Finance Manager (30 hrs p/w, term time only + 5 inset days + 4 weeks)](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-30-hrs-p-w-term-time-only-5-inset-days-4-weeks) — Manager title salary ceiling £49,282 is not below £28,000.
 - [HR Partner](https://teaching-vacancies.service.gov.uk/jobs/hr-partner-oxford-diocesan-bucks-schools-trust) — Insufficient admin/service evidence.
 - [Lettings & Community Officer](https://teaching-vacancies.service.gov.uk/jobs/lettings-community-officer-ridgeway-education-trust-didcot-not-recorded) — Insufficient admin/service evidence.
+- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-st-peter-s-church-of-england-school-alvescot) — Manager title salary ceiling £31,537 is not below £28,000.
 - [Operations Coordinator](https://teaching-vacancies.service.gov.uk/jobs/operations-coordinator-oxford-diocesan-bucks-schools-trust) — Insufficient admin/service evidence.
-- [School Estate Manager](https://teaching-vacancies.service.gov.uk/jobs/school-estate-manager-d3a8a1fa-5252-4ed4-a179-1d25e1eb8a94) — Manager title salary ceiling £37,280 is not below £28,000.
 
 ## Safety boundary
 

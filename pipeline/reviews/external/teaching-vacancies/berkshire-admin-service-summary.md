@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Berkshire
 
 review_date: 2026-08-27
-review_fingerprint: e62a2fd3d6fbb7764a08cd765f35dbfb5a54c3761af7ba7fe6a1810ea0d9b1f6
-routing_manifest_sha256: 6c9d1768dffe7da3c4261304cf77d3080d88dbf0d535df794624f450db4c9e5b
+review_fingerprint: 749df3e84d342b1d04fc23cb96d85a4baee3ac73220a5a7ec7b2b94043a89bd6
+routing_manifest_sha256: 2c66e3a01ddaa0fa081178a44f93a4052dba3b44385bb6445201fc498e6f8215
 ontap_region: Berkshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 21
-- Selected: 7
+- Records: 22
+- Selected: 8
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 13
@@ -109,6 +109,21 @@ factual_fingerprint: d67290fae0c54aca400277bea0bdcd9874c77a5c85fcccfa832304aede9
 source: Teaching Vacancies
 source_job_id: sixth-form-administrator-the-windsor-boys-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/sixth-form-administrator-the-windsor-boys-school
+---
+
+---
+action: 
+SELECTED | Berkshire | Slough, South East, SL2 5BA | £22,274 - £22,957 - | Welfare Assistant & Administrator
+employer: James Elliman Academy
+closing_date: 2026-08-31T12:00:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 210d56db4d638bcc27eb26d2d1c35447d61d6e778645825437167ea12568e576
+source: Teaching Vacancies
+source_job_id: welfare-assistant-administrator
+source_url: https://teaching-vacancies.service.gov.uk/jobs/welfare-assistant-administrator
 ---
 
 ---

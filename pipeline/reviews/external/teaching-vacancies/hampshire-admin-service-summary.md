@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Hampshire
 
 review_date: 2026-08-27
-review_fingerprint: e64eecaf27a51d11dabf6e1aa7faaf656d36a69c31877d22a7c3603af44631b5
-routing_manifest_sha256: 6c9d1768dffe7da3c4261304cf77d3080d88dbf0d535df794624f450db4c9e5b
+review_fingerprint: c111d333bcb481684753c2799cd80e11321cb1a158c3bd8e268b8baa8aec157e
+routing_manifest_sha256: 2c66e3a01ddaa0fa081178a44f93a4052dba3b44385bb6445201fc498e6f8215
 ontap_region: Hampshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 9
-- Selected: 3
-- POSS awaiting decision: 1
+- Records: 10
+- Selected: 5
+- POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 5
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Hampshire | Eastleigh, South East, SO53 2DW | Grade C (FTE £25,185 - £26,243) (Actual for 19.5 hrs £11,402 - £11,881) | Administration Assistant (Transition and Reception)
+employer: Thornden School
+closing_date: 2026-09-02T23:59:00+01:00
+reason: Clear admin/service title: administration assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: b7cdc77fe99b8247601cdc1c23dcad58ad36b922c2ef85477c01768b0f1c8620
+source: Teaching Vacancies
+source_job_id: administration-assistant-transition-and-reception
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-transition-and-reception
+---
 
 ---
 action: 
@@ -34,6 +49,21 @@ factual_fingerprint: 351366f73cf0a993ba908561c34c87b93e8d41e818b55bb87b9275a4765
 source: Teaching Vacancies
 source_job_id: attendance-officer-2ee0b8e3-e03c-4648-9a90-ae13e6c3a5a4
 source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-2ee0b8e3-e03c-4648-9a90-ae13e6c3a5a4
+---
+
+---
+action: 
+SELECTED | Hampshire | Alresford, South East, SO24 9BS | £27,780.00 - £30,564.00 Annually (FTE) Actual salary £24,980 - £27,484 per annum | Exams Officer and Assessment Data Co ordinator
+employer: Perins School
+closing_date: 2026-09-25T23:59:00+01:00
+reason: Clear admin/service title: exams officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 93ac0a2883e9e6d7958b298dae31923000cc48ae97c640decb903b6d5f68ef35
+source: Teaching Vacancies
+source_job_id: exams-officer-and-assessment-data-co-ordinator
+source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-and-assessment-data-co-ordinator
 ---
 
 ---
@@ -68,20 +98,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-ac
 
 ## POSS — choose SELECT or EXCLUDE
 
----
-action: 
-POSS | Hampshire | Portsmouth, South East, PO1 5PF | TSAT Pay Group 3 pro rata to £23,701 - £27,506 for hours and weeks stated (£26,866 - £31,179 FTE) | Senior Administration Assistant
-employer: The Portsmouth Academy
-closing_date: 2026-09-01T23:59:00+01:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 7135e780724d7b8bfeda7eac7d55c93a879d6ffbfdf033708b99d3f5fd6923c2
-source: Teaching Vacancies
-source_job_id: senior-administration-assistant-the-portsmouth-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-administration-assistant-the-portsmouth-academy
----
+- None.
 
 ## EXCLUDED BY REVIEW
 
@@ -91,8 +108,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-administration
 
 - [Attendance and Admin Officer](https://teaching-vacancies.service.gov.uk/jobs/attendance-and-admin-officer-shirley-warren-primary-nursery-school) — Insufficient admin/service evidence.
 - [Clerk to the Governing Body](https://teaching-vacancies.service.gov.uk/jobs/clerk-to-the-governing-body-elson-junior-school) — Insufficient admin/service evidence.
+- [Cover Co-ordinator and Cover Supervisor](https://teaching-vacancies.service.gov.uk/jobs/cover-co-ordinator-and-cover-supervisor) — Insufficient admin/service evidence.
 - [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-cams-hill-school) — Insufficient admin/service evidence.
-- [Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/operations-manager-wellington-eagles-primary-academy) — Manager title salary ceiling £39,152 is not below £28,000.
 - [Support Officer (Finance)](https://teaching-vacancies.service.gov.uk/jobs/support-officer-finance) — Insufficient admin/service evidence.
 
 ## Safety boundary

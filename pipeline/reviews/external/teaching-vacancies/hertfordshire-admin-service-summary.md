@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Hertfordshire
 
 review_date: 2026-08-27
-review_fingerprint: fb9a77c497e320108c2d2edf07df151e0c7e5664142cfe8831265edb9d3c010e
-routing_manifest_sha256: 6c9d1768dffe7da3c4261304cf77d3080d88dbf0d535df794624f450db4c9e5b
+review_fingerprint: a560eab22fd2b09884b81fa0b19741288b872bef4a77a183f0abaf5e55a76445
+routing_manifest_sha256: 2c66e3a01ddaa0fa081178a44f93a4052dba3b44385bb6445201fc498e6f8215
 ontap_region: Hertfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -30,7 +30,7 @@ reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 3fde78eead36f6596af8d08c6fc9fd507354eac13bca506330f439f3f4848598
+factual_fingerprint: 46da006c9425d6eb23da93402cfd6e79ee74701ed304868a058023f5699780b6
 source: Teaching Vacancies
 source_job_id: administrator-the-acorn-centre
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-the-acorn-centre

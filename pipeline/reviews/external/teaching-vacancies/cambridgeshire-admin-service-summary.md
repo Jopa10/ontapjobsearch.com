@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cambridgeshire
 
 review_date: 2026-08-27
-review_fingerprint: b752e84b6208b9ab4041a46fb66b50f17b098ff168a9e1ef6031821091a1a576
-routing_manifest_sha256: 6c9d1768dffe7da3c4261304cf77d3080d88dbf0d535df794624f450db4c9e5b
+review_fingerprint: 34f1f1d24ee8dcf97f6c8189a2843fc0414734d9c44f7205c2648018ec269c9b
+routing_manifest_sha256: 2c66e3a01ddaa0fa081178a44f93a4052dba3b44385bb6445201fc498e6f8215
 ontap_region: Cambridgeshire
 slice_category: admin_service
 slice_status: LIVE
@@ -14,8 +14,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 26
-- Selected: 14
-- POSS awaiting decision: 3
+- Selected: 15
+- POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 9
 
@@ -218,6 +218,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-
 
 ---
 action: 
+SELECTED | Cambridgeshire | Cambridge, East of England, CB25 0LG | Point 3 (£24,796 FTE) | Office Administrator
+employer: Swaffham Prior Church of England Primary School
+closing_date: 2026-09-06T23:59:00+01:00
+reason: Clear admin/service title: administrator, office administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 4fef45ce778b91ff8920f4d6734e41dddab2f705931b109d8a889829d598b7d3
+source: Teaching Vacancies
+source_job_id: office-administrator-swaffham-prior-church-of-england-primary-school-cambridge
+source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-swaffham-prior-church-of-england-primary-school-cambridge
+---
+
+---
+action: 
 SELECTED | Cambridgeshire | Cambridge, East of England, CB24 4RS | £12,564.75 - £13,609.32 Annually (Actual) £26,403 - £28598 FTE Grade 6, Points 7 - 12 on the Meridian Trust Support Staff Salary Scale | SEND Administrator
 employer: Swavesey Village College
 closing_date: 2026-09-08T09:00:00+01:00
@@ -261,21 +276,6 @@ factual_fingerprint: e81f6524f2891d8ae6321636a96aea841a7c51e9ab1b02a40ac2bc40dd6
 source: Teaching Vacancies
 source_job_id: marketing-communications-officer-c270ff05-b00d-453f-bd88-72dd6829c693
 source_url: https://teaching-vacancies.service.gov.uk/jobs/marketing-communications-officer-c270ff05-b00d-453f-bd88-72dd6829c693
----
-
----
-action: 
-POSS | Cambridgeshire | Ely, East of England, CB6 2JA | £26,403 | Receptionist
-employer: Witchford Village College
-closing_date: 2026-09-07T12:00:00+01:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 95dc52e6e03500dbf8356b18366e94c1f9b40d9a4acf21f9ee0913faedd48bc2
-source: Teaching Vacancies
-source_job_id: receptionist-witchford-village-college-ely-cambridgeshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-witchford-village-college-ely-cambridgeshire
 ---
 
 ## EXCLUDED BY REVIEW

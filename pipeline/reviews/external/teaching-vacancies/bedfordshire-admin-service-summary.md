@@ -2,7 +2,7 @@
 
 review_date: 2026-08-27
 review_fingerprint: 0aff8e3ee81b6049387b7cad0fd72d51f2ded6db7db6b05e872b7edc12400702
-routing_manifest_sha256: 6c9d1768dffe7da3c4261304cf77d3080d88dbf0d535df794624f450db4c9e5b
+routing_manifest_sha256: 2c66e3a01ddaa0fa081178a44f93a4052dba3b44385bb6445201fc498e6f8215
 ontap_region: Bedfordshire
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 14
+- Records: 12
 - Selected: 8
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 6
+- Hard pass: 4
 
 ## SELECTED
 
@@ -151,12 +151,10 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/safeguarding-attendan
 
 ## HARD_PASS
 
-- [Business Manager](https://teaching-vacancies.service.gov.uk/jobs/business-manager-the-chalk-hills-academy-luton-bedfordshire) — Manager title salary ceiling £45,401 is not below £28,000.
 - [Data and Exams Assistant](https://teaching-vacancies.service.gov.uk/jobs/data-and-exams-assistant-queensbury-academy) — Insufficient admin/service evidence.
 - [Finance Assistant - Purchase Ledger & Treasury](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-purchase-ledger-treasury) — Insufficient admin/service evidence.
 - [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-6f5cafa2-4f5b-47d7-8fa1-ebd48d98391c) — Manager title salary ceiling £33,699 is not below £28,000.
 - [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-st-matthew-s-primary-school) — Insufficient admin/service evidence.
-- [Online Marketing & Social Media Assistant](https://teaching-vacancies.service.gov.uk/jobs/online-marketing-social-media-assistant) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

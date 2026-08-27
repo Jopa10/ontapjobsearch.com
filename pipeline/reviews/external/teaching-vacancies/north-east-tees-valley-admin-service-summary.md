@@ -2,7 +2,7 @@
 
 review_date: 2026-08-27
 review_fingerprint: f15341515aec1d3b0ae274aa6fb7256cdd1994988a2e525624feec1b61f35efe
-routing_manifest_sha256: 6c9d1768dffe7da3c4261304cf77d3080d88dbf0d535df794624f450db4c9e5b
+routing_manifest_sha256: 2c66e3a01ddaa0fa081178a44f93a4052dba3b44385bb6445201fc498e6f8215
 ontap_region: North East - Tees Valley
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -59,10 +59,10 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/executive-assistant-t
 
 ## HARD_PASS
 
+- [Assistant Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/assistant-finance-manager-outwood-academy-normanby) — Manager title salary ceiling £44,075 is not below £28,000.
 - [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-the-legacy-learning-trust-middlesbrough-not-recorded) — Insufficient admin/service evidence.
 - [HR Assistant](https://teaching-vacancies.service.gov.uk/jobs/hr-assistant-outwood-academy-acklam-middlesbrough) — Insufficient admin/service evidence.
 - [Office Manager and PA to the Headteacher](https://teaching-vacancies.service.gov.uk/jobs/office-manager-and-pa-to-the-headteacher-our-lady-st-bede-catholic-academy) — Manager title salary ceiling £33,699 is not below £28,000.
-- [School Business Manager (Primary)](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-primary-st-bede-s-catholic-academy-stockton-on-tees-teesside) — Manager title salary ceiling £32,359 is not below £28,000.
 - [School Business Manager (Secondary)](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-secondary-our-lady-st-bede-catholic-academy) — Manager title salary ceiling £41,771 is not below £28,000.
 
 ## Safety boundary

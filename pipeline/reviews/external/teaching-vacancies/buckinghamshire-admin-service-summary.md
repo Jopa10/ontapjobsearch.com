@@ -2,7 +2,7 @@
 
 review_date: 2026-08-27
 review_fingerprint: d52083a029d486d980e6530e95676a8595a01783794fec261b6465d5e88995da
-routing_manifest_sha256: 6c9d1768dffe7da3c4261304cf77d3080d88dbf0d535df794624f450db4c9e5b
+routing_manifest_sha256: 2c66e3a01ddaa0fa081178a44f93a4052dba3b44385bb6445201fc498e6f8215
 ontap_region: Buckinghamshire
 slice_category: admin_service
 slice_status: LIVE

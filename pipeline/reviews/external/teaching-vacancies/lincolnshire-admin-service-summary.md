@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Lincolnshire
 
 review_date: 2026-08-27
-review_fingerprint: bb1a3ec640f4ad8885b2e4d5735ea00dc1ab091b0d3a172bf342150e17f19358
-routing_manifest_sha256: 6c9d1768dffe7da3c4261304cf77d3080d88dbf0d535df794624f450db4c9e5b
+review_fingerprint: bac2492afcf907befa2ca446160ab6721f307fa2ab17a8c0d24f055fe04eb36d
+routing_manifest_sha256: 2c66e3a01ddaa0fa081178a44f93a4052dba3b44385bb6445201fc498e6f8215
 ontap_region: Lincolnshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 19
+- Records: 18
 - Selected: 3
-- POSS awaiting decision: 5
+- POSS awaiting decision: 4
 - Excluded: 0
 - Hard pass: 11
 
@@ -67,21 +67,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-admin-of
 ---
 
 ## POSS — choose SELECT or EXCLUDE
-
----
-action: 
-POSS | Lincolnshire | Grimsby, Yorkshire and the Humber, DN31 2ES | £25,185.00 - £25,989.00 Annually (FTE) Grade C Points 4 to 6 (£25,185 to £25,989 Full Time Equivalent) subject to pro rata. The minimum actual pro rata salary per annum for this job starts at £21,758.06. | Administration Officer
-employer: Macaulay Primary Academy
-closing_date: 2026-09-02T23:59:00+01:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: a3ea0d2a35d1ceeb389c364c85759f57cb0dad649bdc73ddc62f659eabd90b86
-source: Teaching Vacancies
-source_job_id: administration-officer-macaulay-primary-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-officer-macaulay-primary-academy
----
 
 ---
 action: 
@@ -151,8 +136,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-manager-our-la
 
 - [Academy Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/academy-administration-officer-the-priory-witham-academy-lincoln-lincolnshire) — Insufficient admin/service evidence.
 - [Academy Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/academy-operations-manager-thomas-middlecott-academy-boston-lincolnshire) — Manager title salary ceiling £42,839 is not below £28,000.
-- [Admin and Reception Assistant](https://teaching-vacancies.service.gov.uk/jobs/admin-and-reception-assistant-outwood-academy-brumby) — Missing salary or pay scale.
 - [Clerical Assistant](https://teaching-vacancies.service.gov.uk/jobs/clerical-assistant-whaplode-church-of-england-primary-school) — Insufficient admin/service evidence.
+- [Data Manager](https://teaching-vacancies.service.gov.uk/jobs/data-manager-de-aston-school) — Manager title without salary evidence below £28,000.
 - [Examinations Officer](https://teaching-vacancies.service.gov.uk/jobs/examinations-officer-de-aston-school) — Missing salary or pay scale.
 - [Governance & Compliance Officer](https://teaching-vacancies.service.gov.uk/jobs/governance-compliance-officer-inspire-connected-communities-trust) — Insufficient admin/service evidence.
 - [Inclusion Administrator](https://teaching-vacancies.service.gov.uk/jobs/inclusion-administrator-ba6d2874-69fc-46df-b1a8-320f20cae17b) — Missing salary or pay scale.
