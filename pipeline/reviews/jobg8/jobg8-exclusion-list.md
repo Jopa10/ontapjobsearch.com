@@ -6,7 +6,7 @@ The `excluded_on` date is the day the exclusion decision was made.
 To restore a job, edit only its `action:` line to `action: select`.
 On the next JobG8 run that exact job ID will be restored and removed from this list.
 
-remembered_exclusions: 195
+remembered_exclusions: 198
 
 ## SERVICE / ADMIN — EXCLUDED
 
@@ -62,6 +62,18 @@ job_id: 107824928
 action:
 category: service_admin
 excluded_on: 2026-08-27
+title: Part Time Corporate Receptionist
+employer: Invictus Group
+region: 
+town: Cheshire
+salary: 
+job_id: 23643_225537956
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-27
 title: IT Asset Coordinator - Contract
 employer: KO2 Embedded Recruitment Solutions LTD
 region: 
@@ -104,6 +116,18 @@ region:
 town: Midlothian
 salary: 
 job_id: 107728052
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-27
+title: Associate Planner
+employer: Penguin Recruitment
+region: 
+town: London
+salary: 
+job_id: 23643_225431172
 ---
 
 ---
@@ -2303,6 +2327,18 @@ job_id: 23643_225460911
 ---
 
 ## SUPPORT WORKER — EXCLUDED
+
+---
+action:
+category: support_worker
+excluded_on: 2026-08-27
+title: Live in Care Assistant to 3rd year Biology Uni Student
+employer: Ask Jules
+region: 
+town: Oxfordshire
+salary: 
+job_id: 107840646
+---
 
 ---
 action:

@@ -122,12 +122,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Telephone handling",
-      "Records administration",
-      "Data entry"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225462000",
@@ -177,11 +172,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "107856993",
@@ -282,49 +273,5 @@
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
     "posted_date_basis": ""
-  },
-  {
-    "job_id": "nhs-5562166",
-    "source": "NHS Jobs",
-    "title": "Receptionist",
-    "company": "Market Cross Surgery",
-    "advertiser_name": "Market Cross Surgery",
-    "location": "Grantham, NG33 4BB",
-    "region": "Lincolnshire",
-    "salary": "£12.71",
-    "employment_type": "Permanent",
-    "posted_date": "2026-08-26T09:49:41.534880421",
-    "closing_date": "2026-10-30",
-    "description": "The GP receptionist is responsible for undertaking a wide range of reception duties and providing support to the multidisciplinary team. Duties may include, but are not limited to, greeting and directing patients, effective use of the appointment system, booking appointments, processing of personal information and assisting patients as required. To act as a central point of contact for patients, the distribution of information, messages and enquiries for the clinical team, liaising with the multidisciplinary team member and external agencies such as secondary care and community service providers. The core responsibilities of the receptionist are as follows. On occasion, there may be a requirement to carry out tasks not listed below, that are within the reasonable scope of the role. Maintain and monitor practice appointment system Process personal, telephone and e-requests for appointments Answer incoming phone calls, dealing with the callers request appropriately Signpost patients to the correct service Initiating contact with and responding to, requests from patients, team members and external agencies Data entry of new and temporary registrations and relevant patient information as requested Input data as necessary onto patients healthcare records Direct requests for information to relevant team members i.e., SAR, DVLA forms, insurance/solicitors letters Manage all queries as necessary in an efficient manner Carry out system searches as requested Support all clinical staff with general tasks as required Photocopy documentation as required Maintain a clean, tidy and effective working area Monitor and maintain the reception area and notice boards In addition to the core responsibilities, the Receptionist may be requested to; 1. Action incoming emails and correspondence as necessary 2. Complete opening and closing procedures in accordance with the rota 3. Partake in audit as directed by the audit lead 4. Support admin team, providing cover during absences 5. Scan patient related documents and attach scanned documents to patients healthcare record We currently have 2 part time vacancies available allowing us to be flexible for the right candidate. All hours will be worked between 08:00 and 18:30, Monday to Friday",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3629-26-0013",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3629-26-0013",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
-  },
-  {
-    "job_id": "nhs-5524779",
-    "source": "NHS Jobs",
-    "title": "Apprentice Clerical Assistant",
-    "company": "Care Plus Group",
-    "advertiser_name": "Care Plus Group",
-    "location": "Grimsby, DN31 2BH",
-    "region": "Lincolnshire",
-    "salary": "£8.00 to £12.71",
-    "employment_type": "Permanent",
-    "posted_date": "2026-08-19T12:03:45.844206",
-    "closing_date": "2026-09-02",
-    "description": "The NEL Community Therapy provides Occupational Therapy and Physiotherapy to support people with health and social care needs to stay in their own home and help them remain independent. Community Therapy staff are employed by both Care Plus Group and Northern Lincolnshire and Goole NHS Foundation Trust working in partnership and provide direct clinical interventions through assessment of need and person centered goal planning. The range of interventions includes treatment, rehabilitation, minor and major housing adaptations, loan of equipment and moving and handling solutions for children and adults with a primary physical disability. Please note that Care Plus Group are not currently registered to sponsor applicants from outside the EU and EEA. Apprentice Clerical Assistant Community Therapy Team Based: Cromwell Road Primary Care Centre 30 hours per week - Mon - Fri National Minimum Wage dependent on age. Apprenticeship course - Level 2 Administration Assistant This apprenticeship standard is open to: Young people aged 16-21 . Young people aged 22-24 who are care leavers, have an EHCP, or are prison leavers. Duration - 12 months Qualifications - Level 2 qualification in English and Maths is required (GCSE grade 4+/C+ or functional skills). The post holder will work with supervision close by and within established procedures and will: Provide administrative support to the manager and clinical staff in providing Occupational and Physiotherapy Therapy assessment and intervention to physically disabled residents living in North East Lincolnshire thereby helping to maintain people's independence and improved health and wellbeing. Undertake routine clerical duties, e.g. photocopying, scanning, computer work, message taking, telephone enquiries. If you would like more details or an informal chat about the post, please contact Helen Lucas on03033 306921 The job description is attached as a separate document with the person spec - please refer to it for more information. We appreciate how useful AI can be in todays workplace. For this application though, we want to understand your own thoughts and experience. We will be checking applications for AI usage, and those that appear to be significantly AI-generated may be subject to additional scrutiny.",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B9814-26-152",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B9814-26-152",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
   }
 ]
