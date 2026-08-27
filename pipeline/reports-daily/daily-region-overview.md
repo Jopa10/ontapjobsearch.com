@@ -1,6 +1,6 @@
 # Ontap daily regional overview
 
-Generated: 2026-08-27T17:00:37+00:00
+Generated: 2026-08-27T18:09:49+00:00
 
 > LIVE Service Admin and Support Worker counts reconcile to `pipeline/reports-daily/live-job-source-count-2026-08-27.csv` on `main`, with factual detail/alias regions rolled into their canonical 78-market UK region before the LIVE table and headline are totalled. LIVE Sales Advisor, Paralegal, Marketing and HR / Recruitment counts come from their current published configured-slice JSON on `main`. The overview covers all 78 assessable UK markets; LIVE status remains controlled only by the slice register. Before same-feed 78-market coverage has run, NOT LIVE Admin/Support may fall back to the latest all-region Module 2 profile (2026-08-17), and Service Admin may also add current Teaching Vacancies regional candidate output. `—` means not assessed / no current source; it does NOT mean zero. NOT LIVE Service Admin and Support Worker were assessed from the same JobG8 daily feed (2026-08-27) used by the production family run, across 78 UK markets with the config-driven production wrappers, persistent review decisions and canonical geo. NOT LIVE Sales Advisor was assessed from that same feed across 78 UK markets using the governed Customer Sales classifier, canonical geo, campaign dedupe and final production QA. Sales diagnostic counts are evidence only and never activate a slice automatically; LIVE Sales Advisor counts continue to come from the current published Customer Sales configured-slice JSON. NOT LIVE Paralegal, Marketing and HR / Recruitment were assessed from that same feed across 78, 78 and 78 UK markets respectively, using their frozen production boundaries, content dedupe and canonical geo. All diagnostic counts are evidence only and never activate a slice automatically. Rolling family history stores one snapshot per feed date, replaces same-date reruns, retains the latest 14 feed dates and is used only as decision evidence for NOT LIVE slices.
 
@@ -106,7 +106,7 @@ Generated: 2026-08-27T17:00:37+00:00
 | Cumbria - South | 1 / 1.3 / 0/6 |  | 1 / 0.8 / 0/6 | 0 / 0.0 / 0/4 | 1 / 0.5 / 0/4 | 0 / 0.0 / 0/3 |
 | Cumbria - West | 2 / 2.0 / 0/6 | 0 / 1.3 / 0/6 | 0 / 0.0 / 0/6 | 0 / 0.0 / 0/4 | 0 / 0.0 / 0/4 | 0 / 0.0 / 0/3 |
 | Derbyshire |  | 1 / 0.3 / 0/6 | 2 / 2.7 / 0/6 | 0 / 0.8 / 0/4 | 1 / 0.2 / 0/4 | 0 / 0.0 / 0/3 |
-| Devon |  | 0 / 0.0 / 0/6 | 4 / 3.3 / 0/6 | 2 / 3.0 / 0/4 | 0 / 0.0 / 0/4 | 1 / 1.7 / 0/3 |
+| Devon |  | 0 / 0.0 / 0/6 | 4 / 3.3 / 0/6 | 2 / 3.0 / 0/4 | 0 / 0.0 / 0/4 | 0 / 1.3 / 0/3 |
 | Dorset |  | 1 / 1.2 / 0/6 | 5 / 5.0 / 2/6 | 0 / 0.5 / 0/4 | 1 / 0.8 / 0/4 | 0 / 0.0 / 0/3 |
 | Essex |  | 0 / 0.8 / 0/6 | 1 / 2.0 / 0/6 |  | 2 / 2.0 / 0/4 | 1 / 1.3 / 0/3 |
 | Gloucestershire |  | 0 / 0.3 / 0/6 | 1 / 1.7 / 0/6 | 0 / 0.0 / 0/4 | 2 / 1.5 / 0/4 | 1 / 1.0 / 0/3 |
@@ -142,7 +142,7 @@ Generated: 2026-08-27T17:00:37+00:00
 | Oxfordshire |  |  | 5 / 3.3 / 0/6 | 2 / 1.8 / 0/4 | 4 / 3.2 / 0/4 | 0 / 0.3 / 0/3 |
 | Rutland | 0 / 0.0 / 0/6 | 0 / 0.0 / 0/6 | 0 / 0.0 / 0/6 | 0 / 0.0 / 0/4 | 0 / 0.0 / 0/4 | 0 / 0.0 / 0/3 |
 | Scotland - Borders | 1 / 1.0 / 0/5 | 0 / 0.0 / 0/5 | 0 / 0.0 / 0/5 | 0 / 0.0 / 0/4 | 0 / 0.0 / 0/4 | 0 / 0.0 / 0/3 |
-| Scotland Central - Edinburgh & Lothians |  | 0 / 0.2 / 0/5 | 4 / 2.6 / 0/5 | 4 / 3.2 / 0/4 | 0 / 0.0 / 0/4 | 0 / 0.7 / 0/3 |
+| Scotland Central - Edinburgh & Lothians |  | 0 / 0.2 / 0/5 | 4 / 2.6 / 0/5 | 3 / 3.0 / 0/4 | 0 / 0.0 / 0/4 | 0 / 0.7 / 0/3 |
 | Scotland Central - Falkirk & Stirling | 4 / 3.4 / 0/5 | 0 / 0.0 / 0/5 | 0 / 0.0 / 0/5 | 0 / 0.0 / 0/4 | 0 / 0.0 / 0/4 | 0 / 0.0 / 0/3 |
 | Scotland Central - Fife | 1 / 1.8 / 0/5 | 0 / 0.0 / 0/5 | 1 / 1.0 / 0/5 | 0 / 0.0 / 0/4 | 0 / 0.0 / 0/4 | 0 / 0.0 / 0/3 |
 | Scotland Central - Tayside | 4 / 4.4 / 0/5 | 0 / 0.0 / 0/5 | 0 / 0.4 / 0/5 | 1 / 1.0 / 0/4 | 0 / 0.0 / 0/4 | 0 / 0.0 / 0/3 |
