@@ -4,7 +4,7 @@
 - Live route: `/leeds/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 17
+- Effective included jobs: 13
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 17
-- automatic review: 10
-- automatic exclude: 20
-- effective include: 17
-- effective review: 10
-- effective exclude: 20
+- automatic include: 13
+- automatic review: 8
+- automatic exclude: 14
+- effective include: 13
+- effective review: 8
+- effective exclude: 14
 
-## INCLUDE (17)
+## INCLUDE (13)
 
 ---
 action: 
@@ -45,30 +45,6 @@ company: Nigel Wright Recruitment - Agency - Temporary
 location: Leeds
 source: JobG8
 job_id: jobg8-23643_225488843
-reason: Approved Leeds catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrator
-company: Practice Plus Group - Health in Justice
-location: Leeds, LS12 2TJ
-source: NHS Jobs
-job_id: nhs-5544150
-reason: Approved Leeds catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrator
-company: The Pharmacist Network
-location: Leeds, NE4 7YB
-source: NHS Jobs
-job_id: nhs-5555590
 reason: Approved Leeds catchment.
 ---
 
@@ -105,18 +81,6 @@ company: CSS - Agency - Contract
 location: Leeds
 source: JobG8
 job_id: jobg8-23643_224689396
-reason: Approved Leeds catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: HR Administrator
-company: Akari Care Limited
-location: Leeds, LS11 5DZ
-source: NHS Jobs
-job_id: nhs-5561629
 reason: Approved Leeds catchment.
 ---
 
@@ -196,18 +160,6 @@ reason: Approved Leeds catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Stock & Purchasing Coordinator
-company: Kinetic Office Recruitment - Agency - Permanent
-location: Leeds
-source: JobG8
-job_id: jobg8-23643_225526372
-reason: Approved Leeds catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Sustainable Funding Coordinator
 company: LJ Recruitment Limited - Agency - Permanent
 location: Leeds
@@ -228,7 +180,7 @@ job_id: jobg8-23643_225519206
 reason: Approved Leeds catchment.
 ---
 
-## REVIEW (10)
+## REVIEW (8)
 
 ---
 action: 
@@ -294,35 +246,11 @@ reason: No approved Leeds catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: HR Administrator
-company: HR 180 - Agency - Permanent
-location: Wetherby
-source: JobG8
-job_id: jobg8-23643_225427668
-reason: No approved Leeds catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Office Coordinator
 company: Sayjo Recruitment Ltd - Agency - Permanent
 location: Brighouse
 source: JobG8
 job_id: jobg8-23643_225476804
-reason: No approved Leeds catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Operations & Compliance Administrator
-company: Blackburn Road Medical Centre
-location: Batley, WF17 9PL
-source: NHS Jobs
-job_id: nhs-5551474
 reason: No approved Leeds catchment rule matched; local review required.
 ---
 
@@ -350,7 +278,7 @@ job_id: teaching-vacancies-receptionist-the-king-s-school-pontefract-west-yorksh
 reason: No approved Leeds catchment rule matched; local review required.
 ---
 
-## EXCLUDE (20)
+## EXCLUDE (14)
 
 ---
 action: 
@@ -404,18 +332,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Medical receptionist
-company: Almondbury Surgery
-location: Huddersfield, HD5 8XW
-source: NHS Jobs
-job_id: nhs-5559076
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Office Administrator
 company: TRC Yorkshire - Agency - Temporary
 location: Wakefield
@@ -440,18 +356,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: People and Culture Administrator (Resourcing)
-company: Spectrum Community Health CIC
-location: Wakefield, WF1 5RH
-source: NHS Jobs
-job_id: nhs-5539626
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Project Support Administrator
 company: Belmont Recruitment - Agency - Contract
 location: Bradford
@@ -464,35 +368,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Receptionist / Administrator
-company: Ossett Surgery
-location: Wakefield, WF5 8DF
-source: NHS Jobs
-job_id: nhs-5558659
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Receptionist / Dental
 company: Edgerton Dental Clinic - Agency - Permanent
 location: Huddersfield
 source: JobG8
 job_id: jobg8-23643_225463726
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Receptionist/ Administrator
-company: Stainland Road Medical Centre
-location: Halifax, HX4 8BD
-source: NHS Jobs
-job_id: nhs-5559992
 reason: Separate employment market.
 ---
 
@@ -524,35 +404,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Senior Administrator
-company: Turning Point
-location: Wakefield, WF2 7AW
-source: NHS Jobs
-job_id: nhs-5561913
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Specialist Administrator (SEND, Medical, Lead First Aid)
 company: Parkside School
 location: Bradford
 source: Teaching Vacancies
 job_id: teaching-vacancies-specialist-administrator-send-medical-lead-first-aid
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Technical Coordinator
-company: Vistry Group - Company - Permanent
-location: Wakefield
-source: JobG8
-job_id: jobg8-107743976
 reason: Separate employment market.
 ---
 

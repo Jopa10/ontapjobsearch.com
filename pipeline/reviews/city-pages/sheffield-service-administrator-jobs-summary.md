@@ -4,7 +4,7 @@
 - Live route: `/sheffield/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 9
+- Effective included jobs: 8
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 9
+- automatic include: 8
 - automatic review: 3
-- automatic exclude: 10
-- effective include: 9
+- automatic exclude: 6
+- effective include: 8
 - effective review: 3
-- effective exclude: 10
+- effective exclude: 6
 
-## INCLUDE (9)
+## INCLUDE (8)
 
 ---
 action: 
@@ -69,18 +69,6 @@ company: Sue Ross Recruitment Ltd - Agency - Contract
 location: Sheffield
 source: JobG8
 job_id: jobg8-23643_225439789
-reason: Approved Sheffield catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Receptionist
-company: Beauchief Medical Practice
-location: Sheffield, S8 0BJ, Sheffield, S174DQ
-source: NHS Jobs
-job_id: nhs-5549526
 reason: Approved Sheffield catchment.
 ---
 
@@ -170,7 +158,7 @@ job_id: jobg8-23643_225516072
 reason: No approved Sheffield catchment rule matched; local review required.
 ---
 
-## EXCLUDE (10)
+## EXCLUDE (6)
 
 ---
 action: 
@@ -200,35 +188,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Business Support Officer
-company: Springwell Special Academy
-location: Barnsley
-source: Teaching Vacancies
-job_id: teaching-vacancies-business-support-officer-2ea7277a-9574-40f3-acf2-2f61fc716fd1
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Customer Service Coordinator
 company: Gi Group - Agency - Permanent
 location: Barnsley
 source: JobG8
 job_id: jobg8-23643_225475228
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Receptionist
-company: Hollygreen Practice
-location: Rotherham, S63 9EH, Thurnscoe, s63 0LT, BARNSLEY, S72 0EJ
-source: NHS Jobs
-job_id: nhs-5544481
 reason: Separate employment market.
 ---
 
@@ -253,30 +217,6 @@ company: Edwards & Pearce Limited - Agency - Permanent
 location: Doncaster
 source: JobG8
 job_id: jobg8-107855575
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Receptionist/Administrator
-company: Broom Lane Medical Centre
-location: Rotherham, S60 3EW, Rotherham, S61 3QH
-source: NHS Jobs
-job_id: nhs-5550923
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Receptionist/Administrator
-company: Tickhill and Colliery Medical Practice
-location: Doncaster, DN11 9NA, Doncaster, DN11 8JT
-source: NHS Jobs
-job_id: nhs-5554992
 reason: Separate employment market.
 ---
 

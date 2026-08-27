@@ -4,7 +4,7 @@
 - Live route: `/cambridge/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 18
+- Effective included jobs: 10
 - Threshold currently met: yes
 
 ## How to review
@@ -15,38 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 18
+- automatic include: 10
 - automatic review: 5
-- automatic exclude: 15
-- effective include: 18
+- automatic exclude: 13
+- effective include: 10
 - effective review: 5
-- effective exclude: 15
+- effective exclude: 13
 
-## INCLUDE (18)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administration Assistant
-company: Cambridge University Hospital NHS Foundation Trust
-location: Cambridge, CB2 0SL
-source: NHS Jobs
-job_id: nhs-5560950
-reason: Approved conservative Cambridge launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrator
-company: Huntingdon Road Practice
-location: Cambridge, CB3 0DB
-source: NHS Jobs
-job_id: nhs-5527690
-reason: Approved conservative Cambridge launch catchment.
----
+## INCLUDE (10)
 
 ---
 action: 
@@ -88,47 +64,11 @@ reason: Approved conservative Cambridge launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Customer Service Advisor
-company: Factotum Telephone Answering Service - Agency - Permanent
-location: Cambridge
-source: JobG8
-job_id: jobg8-23643_225426858
-reason: Approved conservative Cambridge launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Exams Officer
 company: Cottenham Village College
 location: Cambridge
 source: Teaching Vacancies
 job_id: teaching-vacancies-exams-officer-cottenham-village-college-cambridge-cambridgeshire
-reason: Approved conservative Cambridge launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Facilities Administrator
-company: Hatched Recruitment Group - Agency - Temporary
-location: Cambridge
-source: JobG8
-job_id: jobg8-23643_225429684
-reason: Approved conservative Cambridge launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Fertility Administrator
-company: Cambridge University Hospital NHS Foundation Trust
-location: Cambridge, CB2 9LG
-source: NHS Jobs
-job_id: nhs-5547956
 reason: Approved conservative Cambridge launch catchment.
 ---
 
@@ -161,7 +101,7 @@ action:
 decision: include
 automatic_decision: include
 title: Receptionist
-company: Search - Agency - Contract
+company: Search Consultancy Ltd - Agency - Contract
 location: Cambridge
 source: JobG8
 job_id: jobg8-23643_225451600
@@ -201,42 +141,6 @@ company: Centre 33 - Agency - Permanent
 location: Cambridge
 source: JobG8
 job_id: jobg8-23643_225463613
-reason: Approved conservative Cambridge launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: SharePoint Administrator
-company: Belcan Technical Recruiting (UK) Ltd - Agency - Permanent
-location: Cambridge
-source: JobG8
-job_id: jobg8-107729655
-reason: Approved conservative Cambridge launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Undergraduate Medical Education Administrator
-company: Cambridgeshire and Peterborough NHS Foundation Trust
-location: Cambridge, CB21 5EF
-source: NHS Jobs
-job_id: nhs-5532772
-reason: Approved conservative Cambridge launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Ward Clerk
-company: Cambridge University Hospital NHS Foundation Trust
-location: Cambridge, CB2 0QQ
-source: NHS Jobs
-job_id: nhs-5560673
 reason: Approved conservative Cambridge launch catchment.
 ---
 
@@ -302,7 +206,7 @@ job_id: jobg8-23643_225519683
 reason: No approved Cambridge catchment rule matched; local review required.
 ---
 
-## EXCLUDE (15)
+## EXCLUDE (13)
 
 ---
 action: 
@@ -356,18 +260,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Administrator - Huntingdon
-company: Vaccination UK
-location: Huntingdon, PE296FH
-source: NHS Jobs
-job_id: nhs-5530494
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Attendance Administrator
 company: St Peter's School
 location: Huntingdon
@@ -397,18 +289,6 @@ company: New Appointments Group - Agency - Temporary
 location: Peterborough
 source: JobG8
 job_id: jobg8-23643_225478255
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: ED Reception Clerical Officer - Hinchingbrooke Hospital
-company: North West Anglia NHS Foundation Trust
-location: Huntingdon, PE29 6NT
-source: NHS Jobs
-job_id: nhs-5550201
 reason: Separate employment market.
 ---
 

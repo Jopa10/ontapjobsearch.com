@@ -4,7 +4,7 @@
 - Live route: `/southampton/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 5
+- Effective included jobs: 1
 - Threshold currently met: no
 
 ## How to review
@@ -15,50 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 5
-- automatic review: 48
-- automatic exclude: 8
-- effective include: 5
-- effective review: 48
-- effective exclude: 8
+- automatic include: 1
+- automatic review: 43
+- automatic exclude: 1
+- effective include: 1
+- effective review: 43
+- effective exclude: 1
 
-## INCLUDE (5)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrator
-company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
-location: Southampton, SO14 3DT
-source: NHS Jobs
-job_id: nhs-5558135
-reason: Approved Southampton catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Business Support Administrator
-company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
-location: Southampton, SO16 4XE
-source: NHS Jobs
-job_id: nhs-5557418
-reason: Approved Southampton catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Locality Administrator
-company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
-location: Southampton, SO14 0JY
-source: NHS Jobs
-job_id: nhs-5556972
-reason: Approved Southampton catchment.
----
+## INCLUDE (1)
 
 ---
 action: 
@@ -72,19 +36,7 @@ job_id: teaching-vacancies-receptionist-ff80cc91-b028-4603-910d-80547a4ad86e
 reason: Approved Southampton catchment.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: UEL Business Administrator
-company: UHS Estates Limited
-location: Southampton, SO16 6YD
-source: NHS Jobs
-job_id: nhs-5534493
-reason: Approved Southampton catchment.
----
-
-## REVIEW (48)
+## REVIEW (43)
 
 ---
 action: 
@@ -174,18 +126,6 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Contract Administrator
-company: Sureserve Group - Company - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-107747385
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Coordinator
 company: Dynamite Recruitment - Agency - Permanent
 location: Hampshire
@@ -239,18 +179,6 @@ company: Adecco - Agency - Temporary
 location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225512479
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Dental Receptionist
-company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
-location: Petersfield, GU32 3LB
-source: NHS Jobs
-job_id: nhs-5545728
 reason: Broad location; review before city inclusion.
 ---
 
@@ -438,18 +366,6 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Office Administrator
-company: Matchtech - Agency - Contract
-location: Hampshire
-source: JobG8
-job_id: jobg8-23643_225451240
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Onboarding Administrator
 company: Matchtech - Agency - Contract
 location: Hampshire
@@ -467,6 +383,18 @@ company: Wild Recruitment - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225508090
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Part Time Finance & Office Administrator
+company: The Workshop - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-107899917
 reason: Broad location; review before city inclusion.
 ---
 
@@ -618,18 +546,6 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Support Coordinator
-company: Home Group Limited - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-107899482
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Trainee Lettings & Property Coordinator
 company: Carrington West - Agency - Permanent
 location: Hampshire
@@ -638,67 +554,7 @@ job_id: jobg8-23643_225472585
 reason: Broad location; review before city inclusion.
 ---
 
----
-action: 
-decision: review
-automatic_decision: review
-title: Trust Administrator
-company: Carey Olsen Group Services Limited - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-107695008
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Young Carers Support Coordinator
-company: Get Staffed Online Recruitment - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-1595701
-reason: Broad location; review before city inclusion.
----
-
-## EXCLUDE (8)
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Administration Assistant (Head Office)
-company: Mid Hampshire Healthcare Ltd
-location: Winchester, SO23 0LD
-source: NHS Jobs
-job_id: nhs-5531413
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Medical Receptionist
-company: Derby Road Practice
-location: Portsmouth, PO2 8HW
-source: NHS Jobs
-job_id: nhs-5544734
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Receptionist
-company: Avery Healthcare Group Ltd.
-location: Winchester, SO22 5JH
-source: NHS Jobs
-job_id: nhs-5534148
-reason: Separate employment market.
----
+## EXCLUDE (1)
 
 ---
 action: 
@@ -709,53 +565,5 @@ company: The Portsmouth Academy
 location: Portsmouth
 source: Teaching Vacancies
 job_id: teaching-vacancies-senior-administration-assistant-the-portsmouth-academy
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Single Point of Access Administrator
-company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
-location: Fareham, PO17 6AR
-source: NHS Jobs
-job_id: nhs-5553368
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Subject Access Request Clerical Administrator
-company: Isle of Wight NHS Trust
-location: Portsmouth, PO3 5PR
-source: NHS Jobs
-job_id: nhs-5549069
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Team Administrator
-company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
-location: Basingstoke, RG21 4AP
-source: NHS Jobs
-job_id: nhs-5544487
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Trust Wide Band 2 Administrator
-company: Portsmouth Hospitals University NHS Trust
-location: Cosham, PO6 3LY
-source: NHS Jobs
-job_id: nhs-5544429
 reason: Separate employment market.
 ---

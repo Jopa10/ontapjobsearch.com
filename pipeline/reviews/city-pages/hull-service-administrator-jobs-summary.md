@@ -4,7 +4,7 @@
 - Live route: `/hull/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 10
+- Effective included jobs: 9
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 10
+- automatic include: 9
 - automatic review: 5
 - automatic exclude: 0
-- effective include: 10
+- effective include: 9
 - effective review: 5
 - effective exclude: 0
 
-## INCLUDE (10)
+## INCLUDE (9)
 
 ---
 action: 
@@ -52,23 +52,11 @@ reason: Approved conservative Hull launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Administration Assistant
-company: Humber Teaching NHS Foundation Trust
-location: Hull, HU3 2RT
-source: NHS Jobs
-job_id: nhs-5546058
-reason: Approved conservative Hull launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administration Assistant
-company: Humber Teaching NHS Foundation Trust
-location: Hull, HU8 0RB
-source: NHS Jobs
-job_id: nhs-5548104
+title: Business Support Co-ordinator
+company: KD Recruitment - Agency - Permanent
+location: Hull
+source: JobG8
+job_id: jobg8-23643_225537982
 reason: Approved conservative Hull launch catchment.
 ---
 
@@ -112,11 +100,11 @@ reason: Approved conservative Hull launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Receptionist
-company: The Oaks Medical Centre
-location: Hull, HU4 6RF
-source: NHS Jobs
-job_id: nhs-5552185
+title: Quotations & Estimating Coordinator
+company: KD Recruitment Limited - Agency - Permanent
+location: Hull
+source: JobG8
+job_id: jobg8-107894712
 reason: Approved conservative Hull launch catchment.
 ---
 

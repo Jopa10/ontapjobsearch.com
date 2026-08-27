@@ -4,7 +4,7 @@
 - Live route: `/warrington/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 16
+- Effective included jobs: 13
 - Threshold currently met: yes
 
 ## How to review
@@ -15,26 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 16
+- automatic include: 13
 - automatic review: 8
-- automatic exclude: 8
-- effective include: 16
+- automatic exclude: 7
+- effective include: 13
 - effective review: 8
-- effective exclude: 8
+- effective exclude: 7
 
-## INCLUDE (16)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Appointments Clerk (Higher Level)
-company: North Cheshire and Mersey NHS Foundation Trust (WHH)
-location: Warrington, WA5 1QG
-source: NHS Jobs
-job_id: nhs-5542085
-reason: Approved conservative Warrington launch catchment.
----
+## INCLUDE (13)
 
 ---
 action: 
@@ -184,35 +172,11 @@ reason: Approved conservative Warrington launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Medical Receptionist
-company: High Street Surgery
-location: Warrington, WA3 3GS
-source: NHS Jobs
-job_id: nhs-5543509
-reason: Approved conservative Warrington launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Sales Coordinator - Architecture
 company: Locker Group Ltd - Agency - Permanent
 location: Warrington
 source: JobG8
 job_id: jobg8-107709595
-reason: Approved conservative Warrington launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Workforce Administrator
-company: Elysium Healthcare
-location: Warrington, WA2 8TR
-source: NHS Jobs
-job_id: nhs-5503663
 reason: Approved conservative Warrington launch catchment.
 ---
 
@@ -314,7 +278,7 @@ job_id: jobg8-21618_20279_61698-872ae37268a541755e97df9c9ced56fa
 reason: No approved Warrington catchment rule matched; local review required.
 ---
 
-## EXCLUDE (8)
+## EXCLUDE (7)
 
 ---
 action: 
@@ -397,17 +361,5 @@ company: MedPal AI Plc - Agency - Permanent
 location: Runcorn
 source: JobG8
 job_id: jobg8-107824915
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Medical Receptionist
-company: Weaver Vale Practice
-location: Runcorn, WA7 2UT
-source: NHS Jobs
-job_id: nhs-5548306
 reason: Separate employment market.
 ---

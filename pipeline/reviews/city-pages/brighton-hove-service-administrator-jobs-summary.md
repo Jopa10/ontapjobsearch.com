@@ -4,7 +4,7 @@
 - Live route: `/brighton-hove/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 3
+- Effective included jobs: 1
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 3
-- automatic review: 27
-- automatic exclude: 7
-- effective include: 3
-- effective review: 27
-- effective exclude: 7
+- automatic include: 1
+- automatic review: 26
+- automatic exclude: 2
+- effective include: 1
+- effective review: 26
+- effective exclude: 2
 
-## INCLUDE (3)
+## INCLUDE (1)
 
 ---
 action: 
@@ -36,31 +36,7 @@ job_id: teaching-vacancies-administrative-assistants-cardinal-newman-catholic-sc
 reason: Approved Brighton & Hove catchment.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Receptionist
-company: Integrated Care 24 Ltd
-location: Brighton, BN1 1AE
-source: NHS Jobs
-job_id: nhs-5555750
-reason: Approved Brighton & Hove catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Receptionist (Bank)
-company: Warmdene Surgery
-location: Brighton, BN1 8DD
-source: NHS Jobs
-job_id: nhs-5548209
-reason: Approved Brighton & Hove catchment.
----
-
-## REVIEW (27)
+## REVIEW (26)
 
 ---
 action: 
@@ -95,18 +71,6 @@ company: CBSbutler Holdings Limited trading as CBSbutler - Agency - Temporary
 location: Sussex
 source: JobG8
 job_id: jobg8-23643_225460713
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
-company: Hays Business Support - Agency - Temporary
-location: Sussex
-source: JobG8
-job_id: jobg8-23643_225428472
 reason: Broad location; review before city inclusion.
 ---
 
@@ -215,18 +179,6 @@ company: Oraculum - Agency - Permanent
 location: Sussex
 source: JobG8
 job_id: jobg8-23643_225517937
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Mental Health Support Coordinator
-company: Southdown - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-107869789
 reason: Broad location; review before city inclusion.
 ---
 
@@ -354,6 +306,18 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
+title: Service Coordinator
+company: British Red Cross - Agency - Permanent
+location: Sussex
+source: JobG8
+job_id: jobg8-107885562
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Temporary Project Support/ Project Coordinator
 company: Huntress - Crawley - Agency - Temporary
 location: Sussex
@@ -386,31 +350,7 @@ job_id: jobg8-23643_225462263
 reason: Broad location; review before city inclusion.
 ---
 
-## EXCLUDE (7)
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Administrator
-company: Bersted Green Surgery
-location: Bognor Regis, PO22 9TD
-source: NHS Jobs
-job_id: nhs-5546075
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Administrator
-company: Sussex Community NHS Foundation Trust
-location: Chichester, PO201EZ
-source: NHS Jobs
-job_id: nhs-5550487
-reason: Separate employment market.
----
+## EXCLUDE (2)
 
 ---
 action: 
@@ -433,41 +373,5 @@ company: Robsack Wood Primary School
 location: St Leonards-on-Sea
 source: Teaching Vacancies
 job_id: teaching-vacancies-hr-admin-assistant-robsack-wood-primary-school
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Receptionist
-company: Arlington Road Medical Practice
-location: Eastbourne, BN21 1DH
-source: NHS Jobs
-job_id: nhs-5536742
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Receptionist/Administrator
-company: Sussex Partnership NHS Foundation Trust
-location: St Leonards on Sea, TN37 7PT
-source: NHS Jobs
-job_id: nhs-5546281
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Team Administrator
-company: Sussex Partnership NHS Foundation Trust
-location: Crawley, RH11 7DH
-source: NHS Jobs
-job_id: nhs-5537052
 reason: Separate employment market.
 ---

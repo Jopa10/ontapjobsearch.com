@@ -4,7 +4,7 @@
 - Live route: `/coventry/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 3
+- Effective included jobs: 2
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 3
-- automatic review: 2
-- automatic exclude: 27
-- effective include: 3
-- effective review: 2
-- effective exclude: 27
+- automatic include: 2
+- automatic review: 1
+- automatic exclude: 23
+- effective include: 2
+- effective review: 1
+- effective exclude: 23
 
-## INCLUDE (3)
+## INCLUDE (2)
 
 ---
 action: 
@@ -40,18 +40,6 @@ reason: Approved Coventry catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Receptionist/Admin
-company: Godiva Group Practice
-location: Coventry, CV2 4lj, Coventry, CV1 4DH, Coventry, CV6 5EA, Coventry, CV2 3DR
-source: NHS Jobs
-job_id: nhs-5525238
-reason: Approved Coventry catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: School Administrator
 company: President Kennedy School Academy
 location: Coventry
@@ -60,19 +48,7 @@ job_id: teaching-vacancies-school-administrator-president-kennedy-school-academy
 reason: Approved Coventry catchment.
 ---
 
-## REVIEW (2)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
-company: Abbey Medical Centre
-location: Kenilworth, CV8 1JD
-source: NHS Jobs
-job_id: nhs-5538096
-reason: No approved Coventry catchment rule matched; local review required.
----
+## REVIEW (1)
 
 ---
 action: 
@@ -86,7 +62,7 @@ job_id: jobg8-23643_225526928
 reason: No approved Coventry catchment rule matched; local review required.
 ---
 
-## EXCLUDE (27)
+## EXCLUDE (23)
 
 ---
 action: 
@@ -97,18 +73,6 @@ company: Pertemps Contracts - Agency - Temporary
 location: Warwickshire
 source: JobG8
 job_id: jobg8-23643_225436912
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Administrator
-company: Practice Plus Group - Health in Justice
-location: Rugby, CV23 8SZ
-source: NHS Jobs
-job_id: nhs-5553809
 reason: Separate employment market.
 ---
 
@@ -133,18 +97,6 @@ company: Adecco - Agency - Contract
 location: Warwickshire
 source: JobG8
 job_id: jobg8-23643_225441991
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Bank Receptionist
-company: Practice Plus Group
-location: Nuneaton, CV10 7DJ
-source: NHS Jobs
-job_id: nhs-5549024
 reason: Separate employment market.
 ---
 
@@ -181,18 +133,6 @@ company: Manpower - Agency - Permanent
 location: Warwickshire
 source: JobG8
 job_id: jobg8-107831626
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Clerical Assistant
-company: South Warwickshire University NHS Foundation Trust
-location: Rugby, CV21 3SR
-source: NHS Jobs
-job_id: nhs-5551216
 reason: Separate employment market.
 ---
 
@@ -248,6 +188,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Help Desk Operator
+company: VIQU IT Recruitment - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-1716181
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: HR Assistant
 company: Bell Cornwall Recruitment - Agency - Permanent
 location: Warwickshire
@@ -296,18 +248,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: MEDICAL RECEPTIONIST
-company: Valley Road Medical Practice
-location: Leamington Spa, CV32 7SJ
-source: NHS Jobs
-job_id: nhs-4151642
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Office & Facilities Administrator (Part-time)
 company: NES Group Ltd - Agency - Permanent
 location: Warwickshire
@@ -349,18 +289,6 @@ company: Office Angels - Agency - Temporary
 location: Warwickshire
 source: JobG8
 job_id: jobg8-23643_225460316
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: SAP Administrator
-company: Winner Recruitment - Agency - Permanent
-location: Warwickshire
-source: JobG8
-job_id: jobg8-23643_225429653
 reason: Separate employment market.
 ---
 

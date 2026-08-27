@@ -4,7 +4,7 @@
 - Live route: `/birmingham/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 11
+- Effective included jobs: 10
 - Threshold currently met: yes
 
 ## How to review
@@ -15,26 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 11
+- automatic include: 10
 - automatic review: 2
-- automatic exclude: 2
-- effective include: 11
+- automatic exclude: 1
+- effective include: 10
 - effective review: 2
-- effective exclude: 2
+- effective exclude: 1
 
-## INCLUDE (11)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrator - Birmingham
-company: Vaccination UK
-location: Birmingham, B18 7EE
-source: NHS Jobs
-job_id: nhs-5501562
-reason: Approved conservative Birmingham launch catchment.
----
+## INCLUDE (10)
 
 ---
 action: 
@@ -88,6 +76,18 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Finance Assistant
+company: Gleeson Recruitment Group - Agency - Permanent
+location: Birmingham
+source: JobG8
+job_id: jobg8-23643_225537904
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: HR Assistant
 company: Gleeson Recruitment Group - Agency - Permanent
 location: Birmingham
@@ -117,18 +117,6 @@ company: ST Selection - Agency - Permanent
 location: Birmingham
 source: JobG8
 job_id: jobg8-23643_225493038
-reason: Approved conservative Birmingham launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Receptionist/Administrator
-company: The Wand Medical Centre
-location: Birmingham, B12 0UF
-source: NHS Jobs
-job_id: nhs-5557628
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -182,7 +170,7 @@ job_id: jobg8-23643_225317543
 reason: No approved Birmingham catchment rule matched; local review required.
 ---
 
-## EXCLUDE (2)
+## EXCLUDE (1)
 
 ---
 action: 
@@ -193,17 +181,5 @@ company: The Curve Group - Agency - Permanent
 location: Solihull
 source: JobG8
 job_id: jobg8-1800761
-reason: Separate exact-city market at launch.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Receptionist
-company: Tanworth in Arden Medical Practice
-location: Solihull, B94 5DY
-source: NHS Jobs
-job_id: nhs-5530420
 reason: Separate exact-city market at launch.
 ---

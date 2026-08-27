@@ -4,8 +4,8 @@
 - Live route: `/oxford/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 10
-- Threshold currently met: yes
+- Effective included jobs: 3
+- Threshold currently met: no
 
 ## How to review
 Edit only the `action:` line inside a job block.
@@ -15,62 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 10
-- automatic review: 9
-- automatic exclude: 33
-- effective include: 10
-- effective review: 9
-- effective exclude: 33
+- automatic include: 3
+- automatic review: 6
+- automatic exclude: 31
+- effective include: 3
+- effective review: 6
+- effective exclude: 31
 
-## INCLUDE (10)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrative Assistant
-company: Oxford University Hospitals NHS Foundation Trust
-location: Headington, Oxford, OX3 7HE
-source: NHS Jobs
-job_id: nhs-5559481
-reason: Approved conservative Oxford launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Assistant Patient Pathway Administrator
-company: Oxford University Hospitals NHS Foundation Trust
-location: Oxford, OX3 7LE
-source: NHS Jobs
-job_id: nhs-5558622
-reason: Approved conservative Oxford launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Assistant Patient Pathway Administrator
-company: Oxford University Hospitals NHS Foundation Trust
-location: Oxford, OX3 9DU
-source: NHS Jobs
-job_id: nhs-5563254
-reason: Approved conservative Oxford launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Band 3 Administrator
-company: Oxford University Hospitals NHS Foundation Trust
-location: Oxford, OX2 9JA
-source: NHS Jobs
-job_id: nhs-5549776
-reason: Approved conservative Oxford launch catchment.
----
+## INCLUDE (3)
 
 ---
 action: 
@@ -100,18 +52,6 @@ reason: Approved conservative Oxford launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Programme Administrator
-company: Oxford University Hospitals NHS Foundation Trust
-location: Oxford, OX3 9DU
-source: NHS Jobs
-job_id: nhs-5533284
-reason: Approved conservative Oxford launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Reception & Administrative Assistant
 company: Meadowbrook College
 location: Oxford
@@ -120,55 +60,7 @@ job_id: teaching-vacancies-reception-administrative-assistant-93d935ac-3894-44fe
 reason: Approved conservative Oxford launch catchment.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Team Administrator
-company: Oxford Health NHS Trust
-location: Oxford, OX4 1XD
-source: NHS Jobs
-job_id: nhs-5539257
-reason: Approved conservative Oxford launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Ward Clerk
-company: Oxford University Hospitals NHS Foundation Trust
-location: Oxford, OX3 9DU
-source: NHS Jobs
-job_id: nhs-5561560
-reason: Approved conservative Oxford launch catchment.
----
-
-## REVIEW (9)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Admin Assistant - Care Home
-company: Barchester Healthcare
-location: Banbury, OX15 6EH
-source: NHS Jobs
-job_id: nhs-5558600
-reason: No approved Oxford catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
-company: The Key Medical Practice
-location: Kidlington, OX5 1AP, KIDLINGTON, OX5 1LT
-source: NHS Jobs
-job_id: nhs-5523397
-reason: No approved Oxford catchment rule matched; local review required.
----
+## REVIEW (6)
 
 ---
 action: 
@@ -191,18 +83,6 @@ company: Faringdon Community College
 location: Faringdon
 source: Teaching Vacancies
 job_id: teaching-vacancies-inclusion-administrator-640b849f-52fe-4514-87fa-cda0310e4990
-reason: No approved Oxford catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Medical Receptionist
-company: The Abingdon Surgery
-location: Abingdon, OX14 3LB
-source: NHS Jobs
-job_id: nhs-5547418
 reason: No approved Oxford catchment rule matched; local review required.
 ---
 
@@ -254,7 +134,7 @@ job_id: teaching-vacancies-school-office-receptionist-administrative-assistant
 reason: No approved Oxford catchment rule matched; local review required.
 ---
 
-## EXCLUDE (33)
+## EXCLUDE (31)
 
 ---
 action: 
@@ -357,18 +237,6 @@ action:
 decision: exclude
 automatic_decision: exclude
 title: Administrator
-company: Reed Specialist Recruitment - Agency - Permanent
-location: Oxfordshire
-source: JobG8
-job_id: jobg8-23643_225426419
-reason: Broad county location; not Oxford-city evidence.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Administrator
 company: Thompson & Terry Recruitment - Agency - Permanent
 location: Oxfordshire
 source: JobG8
@@ -392,18 +260,6 @@ reason: Broad county location; not Oxford-city evidence.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Cash Management Administrator
-company: Cameo Consultancy (Recruitment) Limited - Agency - Permanent
-location: Oxfordshire
-source: JobG8
-job_id: jobg8-107819254
-reason: Broad county location; not Oxford-city evidence.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Claims Administrator
 company: K2 Recruitment - Agency - Permanent
 location: Oxfordshire
@@ -416,11 +272,11 @@ reason: Broad county location; not Oxford-city evidence.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Customer Service Advisor
-company: Vibe Recruit - Agency - Contract
+title: Ecommerce Coordinator
+company: GXO Logistics - Company - Permanent
 location: Oxfordshire
 source: JobG8
-job_id: jobg8-23643_225426660
+job_id: jobg8-107860928
 reason: Broad county location; not Oxford-city evidence.
 ---
 
@@ -428,11 +284,11 @@ reason: Broad county location; not Oxford-city evidence.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Ecommerce Coordinator
-company: GXO Logistics - Company - Permanent
+title: Ecommerce Coordinator (Customer Service, Orders & Platform Support)
+company: Prodrive - Agency - Permanent
 location: Oxfordshire
 source: JobG8
-job_id: jobg8-107860928
+job_id: jobg8-107842716
 reason: Broad county location; not Oxford-city evidence.
 ---
 
@@ -501,18 +357,6 @@ action:
 decision: exclude
 automatic_decision: exclude
 title: Office Coordinator
-company: Cameo Consultancy - Agency - Permanent
-location: Oxfordshire
-source: JobG8
-job_id: jobg8-23643_225432777
-reason: Broad county location; not Oxford-city evidence.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Office Coordinator
 company: Gill Cooke Personnel Ltd T/A The Recruitment Group - Agency - Permanent
 location: Oxfordshire
 source: JobG8
@@ -560,6 +404,18 @@ reason: Broad county location; not Oxford-city evidence.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Sales & Customer Service Support Administrator
+company: The Recruitment Group - Agency - Permanent
+location: Oxfordshire
+source: JobG8
+job_id: jobg8-107901549
+reason: Broad county location; not Oxford-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Sales Administrator
 company: Cameo Consultancy (Recruitment) Limited - Agency - Permanent
 location: Oxfordshire
@@ -596,11 +452,11 @@ reason: Broad county location; not Oxford-city evidence.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Service Advisor
-company: Hawkfield Recruitment ltd - Agency - Permanent
+title: Support Coordinator
+company: Creative Support - Agency - Permanent
 location: Oxfordshire
 source: JobG8
-job_id: jobg8-107694840
+job_id: jobg8-107896166
 reason: Broad county location; not Oxford-city evidence.
 ---
 

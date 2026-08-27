@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 9
-- automatic review: 6
+- automatic review: 4
 - automatic exclude: 8
 - effective include: 9
-- effective review: 6
+- effective review: 4
 - effective exclude: 8
 
 ## INCLUDE (9)
@@ -57,6 +57,18 @@ company: Pratap Partnership Ltd - Agency - Permanent
 location: York
 source: JobG8
 job_id: jobg8-107771451
+reason: Approved York catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Accounts Assistant
+company: Stoneacre Motor Group. - Company - Permanent
+location: York
+source: JobG8
+job_id: jobg8-107760736
 reason: Approved York catchment.
 ---
 
@@ -120,19 +132,7 @@ job_id: jobg8-107836541
 reason: Approved York catchment.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Team Administrator
-company: Tees Esk and Wear Valleys NHS Foundation Trust
-location: York, YO31 7DE
-source: NHS Jobs
-job_id: nhs-5550198
-reason: Approved York catchment.
----
-
-## REVIEW (6)
+## REVIEW (4)
 
 ---
 action: 
@@ -167,30 +167,6 @@ company: KD Recruitment - Agency - Permanent
 location: Pickering
 source: JobG8
 job_id: jobg8-23643_225480415
-reason: No approved York catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Part-time Receptionist
-company: The Paradise Road Practice
-location: Richmond, TW9 1SA
-source: NHS Jobs
-job_id: nhs-5533330
-reason: No approved York catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Receptionist/Administrator
-company: Ripon Spa Surgery
-location: Ripon, HG4 2BE
-source: NHS Jobs
-job_id: nhs-5501480
 reason: No approved York catchment rule matched; local review required.
 ---
 
@@ -248,6 +224,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Distribution Coordinator
+company: SI Recruitment - Agency - Permanent
+location: Northallerton
+source: JobG8
+job_id: jobg8-107893306
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Finance Assistant
 company: IPS Finance - Agency - Permanent
 location: Harrogate
@@ -277,18 +265,6 @@ company: Braeburn Primary and Nursery Academy
 location: Scarborough
 source: Teaching Vacancies
 job_id: teaching-vacancies-senior-administrator-braeburn-primary-and-nursery-academy-scarborough-north-yorkshire
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Team Administrator
-company: Tees Esk and Wear Valleys NHS Foundation Trust
-location: Northallerton, DL6 2FG
-source: NHS Jobs
-job_id: nhs-5520240
 reason: Separate employment market.
 ---
 
