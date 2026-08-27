@@ -231,6 +231,78 @@ job_id: 1401784679
 
 _No jobs in this group._
 
+## KENT — SELECTED
+
+---
+action:
+SELECTED | Kent | Canterbury | £15 - £17 per hour | Paediatric Complex Care Assistant
+job_id: 107739939
+---
+
+---
+action:
+SELECTED | Kent | Tunbridge Wells | competitive + benefits | Qualified Hearing Care Assistant
+job_id: 1402264062
+---
+
+---
+action:
+SELECTED | Kent | Sittingbourne | £14 - £17 per hour | Complex Care Assistant
+job_id: 107882998
+---
+
+---
+action:
+SELECTED | Kent | Faversham | £14 - £17 per hour | Complex Care Assistant
+job_id: 107882995
+---
+
+---
+action:
+SELECTED | Kent | Kent | £13.79 - £14.31 per hour | Bank Care Assistant
+job_id: 107858271
+---
+
+---
+action:
+SELECTED | Kent | Folkestone | £14 - £17 per hour | Complex Care Assistant
+job_id: 107852539
+---
+
+---
+action:
+SELECTED | Kent | Deal | £15 - £17 per hour | Complex Care Assistant
+job_id: 107882993
+---
+
+---
+action:
+SELECTED | Kent | Herne Bay | £14 - £17 per hour | Complex Care Assistant
+job_id: 107883000
+---
+
+---
+action:
+SELECTED | Kent | Snodland | £14 - £16 per hour | Complex Care Assistant
+job_id: 107854067
+---
+
+---
+action:
+SELECTED | Kent | Tonbridge | £14 - £17 per hour | Complex Healthcare Assistant
+job_id: 107883007
+---
+
+---
+action:
+SELECTED | Kent | Chatham | £14 - £17 per hour | Complex Care Assistant
+job_id: 107882997
+---
+
+## KENT — POSSIBLES
+
+_No jobs in this group._
+
 ## LONDON — SELECTED
 
 ---
@@ -332,6 +404,58 @@ job_id: 107900179
 ## LONDON — POSSIBLES
 
 _No jobs in this group._
+
+## OXFORDSHIRE — SELECTED
+
+---
+action:
+SELECTED | Oxfordshire | Oxfordshire | £14.4 per hour | Home Carer
+job_id: 107617602
+---
+
+---
+action:
+SELECTED | Oxfordshire | Witney | £14.4 per hour | Home Carer
+job_id: 107626591
+---
+
+---
+action:
+SELECTED | Oxfordshire | Bicester | £14.4 per hour | Home Carer
+job_id: 107626594
+---
+
+---
+action:
+SELECTED | Oxfordshire | Banbury | £14.4 per hour | Home Carer
+job_id: 107626596
+---
+
+---
+action:
+SELECTED | Oxfordshire | Bicester | £30000 per year | Children Residential Support Worker
+job_id: 107758331
+---
+
+---
+action:
+SELECTED | Oxfordshire | Oxford | £85 - £105 per daily | Youth Support Worker - Oxford
+job_id: 1695997
+---
+
+---
+action:
+SELECTED | Oxfordshire | Bicester | £26000 per year | Support Worker
+job_id: 107893300
+---
+
+## OXFORDSHIRE — POSSIBLES
+
+---
+action:
+POSS - OXFORDSHIRE | Oxfordshire | Oxford | £180 per daily | Live in Care Assistant to 3rd year Biology Uni Student
+job_id: 107840646
+---
 
 ## SURREY — SELECTED
 
