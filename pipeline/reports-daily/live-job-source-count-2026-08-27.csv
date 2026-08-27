@@ -1,8 +1,8 @@
 report_date,level,source,region,category,count
-2026-08-27,total,All,,,1395
-2026-08-27,source_summary,JobG8,,,1057
+2026-08-27,total,All,,,1391
+2026-08-27,source_summary,JobG8,,,1053
 2026-08-27,source_summary,External,,,338
-2026-08-27,provider,JobG8,,,1057
+2026-08-27,provider,JobG8,,,1053
 2026-08-27,provider,NEJobs,,,30
 2026-08-27,provider,NHS Jobs,,,209
 2026-08-27,provider,Teaching Vacancies,,,97
@@ -57,7 +57,7 @@ report_date,level,source,region,category,count
 2026-08-27,region_category,JobG8,Northern Ireland - East,Finance / Accounts,10
 2026-08-27,region_category,JobG8,Nottinghamshire,Admin/Service – Office Support,13
 2026-08-27,region_category,JobG8,Nottinghamshire,HR / Recruitment,3
-2026-08-27,region_category,JobG8,Oxfordshire,Admin/Service – Office Support,29
+2026-08-27,region_category,JobG8,Oxfordshire,Admin/Service – Office Support,28
 2026-08-27,region_category,JobG8,Oxfordshire,Support Worker – Wide,6
 2026-08-27,region_category,JobG8,Scotland Central - Edinburgh & Lothians,Admin/Service – Office Support,6
 2026-08-27,region_category,JobG8,Scotland West - Glasgow,Admin/Service – Office Support,11
@@ -82,9 +82,9 @@ report_date,level,source,region,category,count
 2026-08-27,region_category,JobG8,Yorkshire - East,Admin/Service – Office Support,13
 2026-08-27,region_category,JobG8,Yorkshire - North,Admin/Service – Office Support,11
 2026-08-27,region_category,JobG8,Yorkshire - North,Finance / Accounts,13
-2026-08-27,region_category,JobG8,Yorkshire - South,Admin/Service – Office Support,12
+2026-08-27,region_category,JobG8,Yorkshire - South,Admin/Service – Office Support,10
 2026-08-27,region_category,JobG8,Yorkshire - South,Support Worker – Wide,1
-2026-08-27,region_category,JobG8,Yorkshire - West,Admin/Service – Office Support,22
+2026-08-27,region_category,JobG8,Yorkshire - West,Admin/Service – Office Support,21
 2026-08-27,region_category,JobG8,Yorkshire - West,Customer Sales / Sales Advisor,4
 2026-08-27,region_category,JobG8,Yorkshire - West,Finance / Accounts,10
 2026-08-27,region_category,JobG8,Yorkshire - West,HR / Recruitment,3
