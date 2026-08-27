@@ -3,12 +3,13 @@
   "display_name": "Accounts & Finance Operations",
   "hard_salary_max": 45000,
   "viability_floor": 100,
-  "purpose": "Broad national discovery and advert-level boundary review for accessible accounts, transactional-finance and payroll operations work before any family rules are frozen. JobG8 classification and assessable geography must not gate occupational scale.",
+  "purpose": "Frozen national boundary for accessible accounts, transactional-finance, bookkeeping and payroll operations work. JobG8 classification and assessable geography do not gate occupational fit or national scale.",
+  "unmatched_decision": "OUT_BOUNDARY",
   "boundary_notes": {
     "jobseeker_proposition": "Accessible accounts and finance-operations work for practical office workers: invoice processing, accounts payable and receivable, ledgers, credit control, reconciliations, payroll administration and day-to-day finance support.",
-    "likely_in": "Accounts/Finance Assistants and Administrators, Accounts Payable/Receivable, Purchase/Sales Ledger, Credit Control, Finance Officers, Accounts Clerks and similar transactional-finance support roles where the advert does not require professional-accountancy status.",
-    "advert_review": "Assistant Accountants, Bookkeepers, Payroll Administrators/Officers, Finance Officers, mixed office-and-finance titles and salary-appropriate specialist-looking titles require advert evidence that the role is accessible operations work rather than qualified-accountancy, pensions, tax, audit, systems or leadership work.",
-    "out": "Finance Directors, Controllers, Finance Managers, Management/Financial/Technical Accountants, business partners, analysts, tax, audit, treasury, investment/banking, insurance, pensions, qualified-practice and senior/specialist finance roles are outside the family.",
+    "likely_in": "Accounts/Finance Assistants, Administrators, Clerks, Officers and Coordinators; Accounts Payable/Receivable; Purchase/Sales Ledger; Credit Control; Bookkeeping; Billing/Invoicing; Payroll administration, processing and coordination; and mixed office-plus-finance operations roles below the hard salary ceiling.",
+    "advert_review": "The frozen discovery boundary is intentionally decisive. Ambiguous account-management, qualified-accountancy, financial-services and specialist titles are OUT rather than retained as an unresolved volume allowance.",
+    "out": "Accountants and accountancy-practice progression roles; senior, supervisory, managerial and leadership work; advisers, analysts and specialists; finance business partners/controllers; and tax, audit, treasury, investment, banking, mortgage, wealth, insurance, pensions, qualified-practice and financial-planning roles are outside the family.",
     "overlap": "A genuine Accounts & Finance Operations job may also qualify for Service Admin, HR / Recruitment or another appropriate family. Valid overlap is not a reason to remove it from this family."
   },
   "assessable_geography": "pipeline/config/uk_assessable_regions.json",
@@ -37,41 +38,34 @@
     "\\b(accounts?|accounting|finance|financial|ledger|credit|bookkeep(?:er|ing)|payroll|billing|invoic(?:e|ing))\\b"
   ],
   "likely_in_title_patterns": [
-    "\\b(accounts?|finance)\\s+(assistant|administrator|admin|clerk)\\b",
-    "\\b(accounts?\\s+payable|accounts?\\s+receivable)\\s+(assistant|administrator|admin|clerk|co-?ordinator)\\b",
-    "\\b(purchase|sales)\\s+ledger\\s+(assistant|administrator|admin|clerk)\\b",
+    "\\b(accounts?|finance)\\s+(assistant|administrator|admin|clerk|officer|co-?ordinator)\\b",
+    "\\baccounts?\\s+assi(?:s)?tant\\b",
+    "\\b(accounts?\\s+payable|accounts?\\s+receivable)\\s+(assistant|administrator|admin|clerk|officer|co-?ordinator)\\b",
+    "\\baccounts?\\s+(payable|receivable)\\b",
+    "\\b(purchase|sales)\\s+ledger(?:\\s+(assistant|administrator|admin|clerk|officer|co-?ordinator))?\\b",
     "\\bcredit\\s+control(?:ler)?\\b",
-    "\\bfinance\\s+officer\\b",
     "\\b(accounts?|finance)\\s+support\\b",
-    "\\b(payroll)\\s+(administrator|admin|assistant)\\b",
-    "\\b(invoicing|billing)\\s+(assistant|administrator|admin|clerk|co-?ordinator)\\b"
+    "\\bpayroll\\s+(administrator|admin|assistant|officer|co-?ordinator|executive|processor)\\b",
+    "\\bpayroll\\s+(clerk|support\\s+administrator|workforce\\s+admin)\\b",
+    "\\bpayroll\\s+(and|&)\\s+benefits?\\s+(assistant|administrator|admin|officer|co-?ordinator)\\b",
+    "\\b(invoicing|billing)\\s+(assistant|administrator|admin|clerk|officer|co-?ordinator)\\b",
+    "\\b(bookkeeper|bookkeeping\\s+assistant|junior\\s+bookkeeper)\\b",
+    "\\b(office|operations?|business|hr|people)\\s+(and|&)\\s+(finance|accounts?|payroll)\\b",
+    "\\b(finance|accounts?|payroll)\\s+(and|&)\\s+(office|operations?|business|hr|people)\\b",
+    "\\b(payments?|cashbook|ledger)\\s+(assistant|administrator|admin|clerk|officer|co-?ordinator)\\b"
   ],
-  "borderline_override_title_patterns": [
-    "\\bassistant\\s+accountant\\b",
-    "\\bbookkeep(?:er|ing)\\b",
-    "\\bpayroll\\s+(officer|co-?ordinator)\\b",
-    "\\b(finance|accounts?)\\s+(officer|executive|co-?ordinator)\\b",
-    "\\b(office|operations?|business|hr)\\s+(and|&)\\s+(finance|accounts?|payroll)\\b",
-    "\\b(finance|accounts?|payroll)\\s+(and|&)\\s+(office|operations?|business|hr)\\b"
-  ],
-  "borderline_title_patterns": [
-    "\\bassistant\\s+accountant\\b",
-    "\\bbookkeep(?:er|ing)\\b",
-    "\\bpayroll\\s+(officer|co-?ordinator)\\b",
-    "\\bfinance\\s+(officer|executive|co-?ordinator)\\b",
-    "\\baccounts?\\s+(officer|executive|co-?ordinator)\\b",
-    "\\bcredit\\s+control\\s+(lead|supervisor)\\b"
-  ],
+  "borderline_override_title_patterns": [],
+  "borderline_title_patterns": [],
   "specialist_out_title_patterns": [
-    "\\b(head|director|chief|group)\\s+.*\\b(finance|financial|accounts?|accounting)\\b",
-    "\\b(finance|financial|accounts?|accounting)\\s+(director|manager|controller|business\\s+partner|analyst|consultant|lead|specialist)\\b",
-    "\\b(management|financial|technical|fund|project|systems?)\\s+accountants?\\b",
-    "\\b(accountant|accounting)\\s+(manager|partner|director|consultant|specialist)\\b",
-    "\\b(tax|audit|treasury|investment|banking|risk|compliance|insurance|pensions?)\\b",
-    "\\b(finance|accounts?|accounting)\\b.*\\b(qualified|acca|cima|aca|cpa)\\b",
-    "\\b(senior|lead|principal|strategic|commercial)\\s+.*\\b(finance|financial|accounts?|accounting|payroll)\\b",
-    "\\bpayroll\\s+(manager|specialist|transformation|systems?)\\b",
-    "\\bfinance\\s+systems?\\b",
-    "\\baccount\\s+(manager|executive|handler)\\b"
+    "\\b(senior|semi[- ]?senior|lead|leader|supervisor|manager|head|director|chief|trustee|partner|principal|strategic)\\b.*\\b(finance|financial|accounts?|accounting|accountants?|bookkeep(?:er|ing)|payroll|ledger|credit\\s+control(?:ler)?)\\b",
+    "\\b(finance|financial|accounts?|accounting|bookkeep(?:er|ing)|payroll|ledger|credit\\s+control(?:ler)?)\\b.*\\b(senior|semi[- ]?senior|lead|leader|supervisor|manager|head|director|chief|trustee|partner|principal|strategic)\\b",
+    "\\b(accountant|accountancy|auditor|audit|tax|treasury|investment|banking|mortgage|insurance|pensions?|wealth|financial\\s+planning|financial\\s+advisers?|financial\\s+advisors?|independent\\s+financial|ifa|paraplanner)\\b",
+    "\\b(financial|finance)\\s+controller\\b",
+    "\\b(advisers?|advisors?|analysts?|consultants?|business\\s+partners?|specialists?|systems?|transformation|compliance|financial\\s+crime)\\b",
+    "\\bkey\\s+accounts?\\b",
+    "\\blegal\\s+credit\\s+controller\\b",
+    "\\baccount\\s+(manager|executive|handler|co-?ordinator)\\b",
+    "\\baccounts?\\s+executive\\b",
+    "\\b(finance|accounts?|accounting)\\b.*\\b(qualified|acca|cima|aca|cpa)\\b"
   ]
 }
