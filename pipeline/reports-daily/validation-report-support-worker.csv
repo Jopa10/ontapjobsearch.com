@@ -1,7 +1,7 @@
 ﻿metric,value
 total rows input,10000
-total rows included,56
-total rows dropped,9944
+total rows included,74
+total rows dropped,9925
 title classification count - HIGH_CONFIDENCE,155
 title classification count - ELASTIC_FIT,61
 title classification count - REVIEW_CONTEXT_DEPENDENT,17
@@ -55,6 +55,14 @@ anchor elastic count - Hampshire,0
 other elastic count - Hampshire,1
 total rows output - Hampshire,13
 job_id included - Hampshire,1674633; 1401784780; 1401784261; 1401784414; 1401784339; 1401784493; 1401784594; 107332363; 1401784687; 1401784767; 1401784682; 1401784679; 107856573
+selection scenario - Kent,SCENARIO_3_COMPLETE_WITH_OTHER_ELASTIC
+selection message - Kent,"Kent selection complete: 11 selected after HIGH_CONFIDENCE, Maidstone ELASTIC_FIT, and other ELASTIC_FIT roles."
+credible total - Kent,11
+high confidence count - Kent,4
+anchor elastic count - Kent,0
+other elastic count - Kent,7
+total rows output - Kent,11
+job_id included - Kent,107739939; 1402264062; 107858271; 107883007; 107882998; 107882995; 107852539; 107882993; 107883000; 107854067; 107882997
 selection scenario - London,SCENARIO_3_MANUAL_SELECTION_APPLIED
 selection message - London,London manual_select applied additively: 4 row(s) prioritised; 16 selected.
 credible total - London,16
@@ -63,6 +71,14 @@ anchor elastic count - London,1
 other elastic count - London,1
 total rows output - London,16
 job_id included - London,1621461; 23643_223283749; 23643_225516212; 1780022; 107885503; 107744963; 1812536; 1664745; 107823167; 1785508; 1785507; 107900179; 23643_225476071; 1787859; 23643_225535652; 23643_225513634
+selection scenario - Oxfordshire,SCENARIO_3_COMPLETE_WITH_OTHER_ELASTIC
+selection message - Oxfordshire,"Oxfordshire selection complete: 7 selected after HIGH_CONFIDENCE, Oxford ELASTIC_FIT, and other ELASTIC_FIT roles."
+credible total - Oxfordshire,7
+high confidence count - Oxfordshire,5
+anchor elastic count - Oxfordshire,1
+other elastic count - Oxfordshire,1
+total rows output - Oxfordshire,7
+job_id included - Oxfordshire,1695997; 107617602; 107626591; 107626594; 107893300; 107626596; 107758331
 selection scenario - Surrey,SCENARIO_4_BELOW_PUBLISH_THRESHOLD
 selection message - Surrey,Surrey selection below publish threshold: 3/6 credible roles. Do not publish/refresh this slice from this run.
 credible total - Surrey,3
