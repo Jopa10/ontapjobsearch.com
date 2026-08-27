@@ -169,7 +169,17 @@ jobs:
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
             git commit -m "Publish verified job pages"
-            git push origin main
+            for attempt in 1 2 3 4 5; do
+              git pull --rebase origin main
+              if git push origin main; then
+                break
+              fi
+              if [ "$attempt" -eq 5 ]; then
+                echo "::error::Could not push verified pages after 5 safe retries"
+                exit 1
+              fi
+              sleep $((attempt * 2))
+            done
             echo "created=true" >> "$GITHUB_OUTPUT"
             echo "Published verified pages commit: $(git rev-parse --short HEAD)" | tee -a "$GITHUB_STEP_SUMMARY"
           fi
