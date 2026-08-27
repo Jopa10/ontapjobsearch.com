@@ -1,12 +1,12 @@
 ﻿metric,value
 total rows input,10000
-total rows included,57
-total rows dropped,9943
-title classification count - HIGH_CONFIDENCE,156
-title classification count - ELASTIC_FIT,60
+total rows included,56
+total rows dropped,9944
+title classification count - HIGH_CONFIDENCE,155
+title classification count - ELASTIC_FIT,61
 title classification count - REVIEW_CONTEXT_DEPENDENT,17
-title classification count - HARD_PASS,5096
-title classification count - OUT_OF_SCOPE,4671
+title classification count - HARD_PASS,5141
+title classification count - OUT_OF_SCOPE,4626
 selection scenario - Yorkshire - West,SCENARIO_4_BELOW_PUBLISH_THRESHOLD
 selection message - Yorkshire - West,Yorkshire - West selection below publish threshold: 3/6 credible roles. Do not publish/refresh this slice from this run.
 credible total - Yorkshire - West,3
@@ -16,13 +16,13 @@ other elastic count - Yorkshire - West,0
 total rows output - Yorkshire - West,3
 job_id included - Yorkshire - West,107728647; 107728806; 23643_225476096
 selection scenario - Yorkshire - South,SCENARIO_4_BELOW_PUBLISH_THRESHOLD
-selection message - Yorkshire - South,Yorkshire - South selection below publish threshold: 2/6 credible roles. Do not publish/refresh this slice from this run.
-credible total - Yorkshire - South,2
+selection message - Yorkshire - South,Yorkshire - South selection below publish threshold: 1/6 credible roles. Do not publish/refresh this slice from this run.
+credible total - Yorkshire - South,1
 high confidence count - Yorkshire - South,0
 anchor elastic count - Yorkshire - South,0
-other elastic count - Yorkshire - South,2
-total rows output - Yorkshire - South,2
-job_id included - Yorkshire - South,107881537; 107891312
+other elastic count - Yorkshire - South,1
+total rows output - Yorkshire - South,1
+job_id included - Yorkshire - South,107881537
 selection scenario - North East,SCENARIO_4_BELOW_PUBLISH_THRESHOLD
 selection message - North East,North East selection below publish threshold: 4/6 credible roles. Do not publish/refresh this slice from this run.
 credible total - North East,4
