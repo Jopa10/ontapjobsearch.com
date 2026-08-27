@@ -49,7 +49,7 @@
       "region": "south-yorkshire",
       "slice": "service-administrator-jobs",
       "locality": "Sheffield",
-      "jobs": 10,
+      "jobs": 9,
       "threshold": 6,
       "status": "LIVE",
       "basis": "configured-catchment",
@@ -98,19 +98,6 @@
       "registered_market": true
     },
     {
-      "region": "south-yorkshire",
-      "slice": "service-administrator-jobs",
-      "locality": "Doncaster",
-      "jobs": 4,
-      "threshold": 6,
-      "status": "LIVE",
-      "basis": "configured-catchment",
-      "parent_json": "app/south-yorkshire/service-administrator-jobs.json",
-      "existing_route": "/doncaster/service-administrator-jobs",
-      "active": true,
-      "registered_market": true
-    },
-    {
       "region": "sussex",
       "slice": "service-administrator-jobs",
       "locality": "Brighton & Hove",
@@ -133,6 +120,19 @@
       "basis": "configured-catchment",
       "parent_json": "app/coventry-warwickshire/service-administrator-jobs.json",
       "existing_route": "/coventry/service-administrator-jobs",
+      "active": true,
+      "registered_market": true
+    },
+    {
+      "region": "south-yorkshire",
+      "slice": "service-administrator-jobs",
+      "locality": "Doncaster",
+      "jobs": 3,
+      "threshold": 6,
+      "status": "LIVE",
+      "basis": "configured-catchment",
+      "parent_json": "app/south-yorkshire/service-administrator-jobs.json",
+      "existing_route": "/doncaster/service-administrator-jobs",
       "active": true,
       "registered_market": true
     },
