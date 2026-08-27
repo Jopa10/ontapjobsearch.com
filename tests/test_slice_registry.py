@@ -89,7 +89,7 @@ class SliceRegistryTests(unittest.TestCase):
                 f"/job-search/{slug}/service-administrator-jobs",
             )
 
-    def test_customer_sales_live_set_is_exactly_the_three_approved_regions(self):
+    def test_customer_sales_live_set_is_exactly_the_four_approved_regions(self):
         sales_regions = {
             region for region, category in live_slices() if category == "customer_sales"
         }
@@ -99,11 +99,11 @@ class SliceRegistryTests(unittest.TestCase):
                 "London",
                 "Yorkshire - West",
                 "Greater Manchester - Manchester & Salford",
+                "North East",
             },
         )
-        self.assertNotIn(("North East", "customer_sales"), live_slices())
 
-    def test_marketing_live_set_is_exactly_the_four_owner_approved_regions(self):
+    def test_marketing_live_set_is_exactly_the_five_owner_approved_regions(self):
         marketing_regions = {
             region for region, category in live_slices() if category == "marketing"
         }
@@ -112,11 +112,26 @@ class SliceRegistryTests(unittest.TestCase):
             {
                 "London",
                 "Surrey",
+                "Berkshire",
                 "Greater Manchester - Manchester & Salford",
                 "West Midlands - Birmingham & Solihull",
             },
         )
         self.assertNotIn(("Kent", "marketing"), live_slices())
+
+    def test_27_august_support_worker_approvals_are_live(self):
+        approved = {"Kent", "Oxfordshire"}
+        self.assertTrue(
+            {(region, "support_worker") for region in approved}.issubset(live_slices())
+        )
+        self.assertEqual(
+            dynamic_route("Kent", "support_worker"),
+            "/job-search/kent/support-worker",
+        )
+        self.assertEqual(
+            dynamic_route("Oxfordshire", "support_worker"),
+            "/job-search/oxfordshire/support-worker",
+        )
 
     def test_hr_recruitment_live_set_is_exactly_the_six_owner_approved_regions(self):
         hr_regions = {
