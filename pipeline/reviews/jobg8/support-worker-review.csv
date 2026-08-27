@@ -1,7 +1,7 @@
 ﻿feed_date,decision,region,title,town,salary_text,manual_override,manual_select,job_id
 2026-08-27,SELECTED,Yorkshire - West,Healthcare Assistant,Bradford,"£13.75 - £14.5 per hour (Including holiday pay, flexible hours)",,,23643_225476096
 2026-08-27,SELECTED,Yorkshire - West,Complex Care Assistant,Halifax,£14.24 - £16 per hour (+ INC holiday pay),,,107728647
-2026-08-27,POSS - YORKSHIRE - WEST,Yorkshire - West,Complex Care Assistant,Huddersfield,£14.24 - £16 per hour (+ INC holiday pay),,,107728806
+2026-08-27,SELECTED,Yorkshire - West,Complex Care Assistant,Huddersfield,£14.24 - £16 per hour (+ INC holiday pay),,,107728806
 2026-08-27,SELECTED,Yorkshire - South,Residential Child Care Worker,Barnsley,£24000 per year,,,107881537
 2026-08-27,SELECTED,Yorkshire - South,Relief Support Worker,Doncaster,£12.85 per hour (plus rolled up holiday pay),,,107891312
 2026-08-27,SELECTED,"North East - Tyneside, Wearside & Northumberland",Complex Care Assistant,Houghton Le Spring,£14.24 per hour,,,107810260
@@ -45,7 +45,7 @@
 2026-08-27,SELECTED,London,Support Worker,Brentford,£125 - £130 per daily,,,23643_225535652
 2026-08-27,SELECTED,London,Home Care Worker,London,£13 per hour,,,107744963
 2026-08-27,SELECTED,London,Support worker,London,"£30,784.00 per annum",,,1812536
-2026-08-27,POSS - LONDON,London,Personal Care Assistant to a Business Management graduate,Surbiton,£246 per daily,,,107900179
+2026-08-27,SELECTED,London,Personal Care Assistant to a Business Management graduate,Surbiton,£246 per daily,,,107900179
 2026-08-27,SELECTED,Surrey,Residential Childcare Support Worker (Casual),Guildford,£13.05 per hour,,,107776110
 2026-08-27,SELECTED,Surrey,Children's Support Worker,Haslemere,£14 - £15 per hour,,,107741924
 2026-08-27,SELECTED,Surrey,Specialist Academic Support Worker,Farnham,£13.00 per hour,,,1692926

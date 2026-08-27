@@ -41,11 +41,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Part Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Personal care",
-      "Daily living support"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225516212",
@@ -67,11 +63,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Daily",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Daily living support",
-      "Safeguarding"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1780022",
@@ -247,6 +239,28 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
+    "posted_date_basis": ""
+  },
+  {
+    "job_id": "107900179",
+    "title": "Personal Care Assistant to a Business Management graduate",
+    "company": "Ask Jules - Agency - Permanent",
+    "location": "Surbiton",
+    "region": "London",
+    "country": "UK",
+    "category": "Support Worker – Wide",
+    "employment_type": "Permanent",
+    "salary_min": "246",
+    "salary_max": "246",
+    "salary_text": "£246 per daily",
+    "posted_date": "",
+    "description": "Business, football, travel, Star Wars and stand-up comedy if those sound like your kind of thing, this could be a very different first job after university.\n\nWe are recruiting a Live-in Personal Care Assistant (PA) for our client, a recent Business and Management graduate from the University of Kent , who is living at home in Surbiton and deciding what comes next click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?b0ZSEQFKUCIQD6gxxyBpyoN6eUGcZ7Iel",
+    "source": "JobG8",
+    "advertiser_name": "Ask Jules",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Daily",
     "posted_date_basis": ""
   },
   {

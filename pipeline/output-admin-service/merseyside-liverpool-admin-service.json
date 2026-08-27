@@ -22,11 +22,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Systems administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225469002",
@@ -76,12 +72,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Part Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Telephone handling",
-      "Document preparation"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "107729667",
@@ -181,32 +172,6 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Records administration"
-    ]
-  },
-  {
-    "job_id": "nhs-5558829",
-    "source": "NHS Jobs",
-    "title": "Clerical Officer",
-    "company": "Liverpool University Hospitals NHS Foundation Trust",
-    "advertiser_name": "Liverpool University Hospitals NHS Foundation Trust",
-    "location": "Liverpool, L7 8XP",
-    "region": "Merseyside - Liverpool",
-    "salary": "£25272.00",
-    "employment_type": "Permanent",
-    "posted_date": "2026-08-25T08:08:23.202955",
-    "closing_date": "2026-09-08",
-    "description": "The Radiology Department is looking to recruit an enthusiastic and motivated person to join our admin team based in the Royal Liverpool University Hospital. The post will also involve working as part of our reception team encompassing all the departments of the Directorate. Candidates must possess excellent organisational, communication and IT skills to be able to provide an optimum level of customer service to patients, both in person and over the telephone, and to other users of the service. The post holder must be self-motivated, work well under pressure and enjoy working with a diversity of peopleThe successful candidate will work in a friendly environment with a proactive team who will assist in your personal development. You should have a kind, efficient and respectful approach and will need to be able to remain calm and professional in this busy Imaging Department. To carry out administration duties, inputting and extracting data onto the patient administration system (PAS) and the departmental CRIS system (Computerised Radiology Information System, CRIS) and to search the patient database for existing records, ensuring all records are accurate and up to date. Reception duties for all areas of the Radiology department, including enquiries from medical staff, other hospitals, GP's and members of the public. Dealing with telephone and direct communication enquiries from the public and other health professions. Co-operation with and provision of assistance where necessary to all medical, nursing and other hospital staff. Maintain a high standard in all aspects of work. To rotate to all areas of the Radiology department including Main X-Ray, CT/MR, Ultrasound, A&E X-Ray, and Interventional Theatres. To input and extract data onto the patient administration system (PAS) and the departmental RIS system (Computerised Radiology Information System, CRIS), and to search the patient database for existing records, ensuring all records are accurate and up to date. Reception duties for all areas of the Radiology department, including enquiries from medical staff, other hospitals, GPs and members of the public. Dealing with telephone and direct communication enquiries from the public and other health professionals. Cooperation with and provision of assistance where necessary to all medical, nursing and other staff. Flexible working - 37.5 hours per week - Sunday - Saturday. For full duties please refer to the attached job description",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9287-26-1327",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9287-26-1327",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "posted_date_basis": ""
   }
 ]

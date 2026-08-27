@@ -6,9 +6,129 @@ The `excluded_on` date is the day the exclusion decision was made.
 To restore a job, edit only its `action:` line to `action: select`.
 On the next JobG8 run that exact job ID will be restored and removed from this list.
 
-remembered_exclusions: 185
+remembered_exclusions: 195
 
 ## SERVICE / ADMIN — EXCLUDED
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-27
+title: Trust / Estates Administrator (Chartered Accountancy)
+employer: Ernest Gordon Recruitment Limited
+region: 
+town: Cheshire
+salary: 
+job_id: 23643_225430066
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-27
+title: Trust / Estates Administrator (Chartered Accountancy)
+employer: Ernest Gordon Recruitment
+region: 
+town: Cheshire
+salary: 
+job_id: 107767176
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-27
+title: Training Equipment Defect Co-ordinator
+employer: Hackajob Ltd
+region: 
+town: Hampshire
+salary: 
+job_id: 107889639
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-27
+title: QUALITY & PROCESS COORDINATOR
+employer: Searchability (UK) Ltd
+region: 
+town: Essex
+salary: 
+job_id: 107824928
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-27
+title: IT Asset Coordinator - Contract
+employer: KO2 Embedded Recruitment Solutions LTD
+region: 
+town: West Lothian
+salary: 
+job_id: 107836714
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-27
+title: Contracts Coordinator
+employer: Huntress - Maidstone
+region: 
+town: Kent
+salary: 
+job_id: 23643_225536606
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-27
+title: Contact Centre Product Owner
+employer: Truespeed
+region: 
+town: Somerset
+salary: 
+job_id: 107811359
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-27
+title: Client Services Coordinator
+employer: Hackajob Ltd
+region: 
+town: Midlothian
+salary: 
+job_id: 107728052
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-27
+title: ASPIRE Global Service Centre - Service Desk L1 L2 Team Leader - Belfast
+employer: Hackajob Ltd
+region: 
+town: Belfast
+salary: 
+job_id: 107882747
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-27
+title: ASPIRE GSC - Service Desk Level 1 Level 2 Analyst - Belfast Based
+employer: Hackajob Ltd
+region: 
+town: Belfast
+salary: 
+job_id: 107882606
+---
 
 ---
 action:
