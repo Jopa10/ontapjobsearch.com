@@ -29,11 +29,13 @@ def main() -> int:
     if not mappings:
         raise SystemExit("STOP: no service-admin verified-page mappings are configured.")
     active_slices = core.live_slices()
+    shared_dates = core.load_shared_posted_dates(core.MAPPINGS)
     results = [
         core.publish_one(
             mapping,
             write=args.write,
             active_slices=active_slices,
+            shared_dates=shared_dates,
         )
         for mapping in mappings
     ]

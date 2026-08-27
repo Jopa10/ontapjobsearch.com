@@ -39,16 +39,16 @@ export default function ApplyButton({
         )
       );
     }
-
-    // open immediately
-    window.open(apply_url, "_blank", "noopener,noreferrer");
   };
 
   return (
-    <button
-      type="button"
+    <a
+      href={apply_url}
+      target="_blank"
+      rel="noopener noreferrer"
       onClick={handleClick}
       style={{
+        display: "inline-block",
         background: "#2563eb",
         color: "#fff",
         border: "none",
@@ -56,9 +56,10 @@ export default function ApplyButton({
         padding: "10px 16px",
         cursor: "pointer",
         fontSize: "16px",
+        textDecoration: "none",
       }}
     >
       Apply Now
-    </button>
+    </a>
   );
 }

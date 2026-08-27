@@ -160,7 +160,10 @@ export function buildJobFacts(job: JobFactsInput): JobFact[] {
       value: arrangement,
     });
   }
-  if (posted && postedBasis === "source") {
+  if (
+    posted &&
+    (postedBasis === "source" || postedBasis === "jobg8_start_date")
+  ) {
     facts.push({ key: "posted", label: "Posted", value: posted });
   } else if (posted && postedBasis === "ontap_first_published") {
     facts.push({ key: "posted", label: "First listed by Ontap", value: posted });

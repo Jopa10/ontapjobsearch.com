@@ -7,7 +7,8 @@ import JobFacts from "@/components/JobFacts";
 import MoreJobsNearby from "@/components/MoreJobsNearby";
 import TransferableFitCard from "@/components/TransferableFitCard";
 import { getActiveCityPageForJob } from "@/lib/city-page-data";
-import { cleanEmployerName, sourceLabel } from "@/lib/job-facts";
+import { sourceLabel } from "@/lib/job-facts";
+import { buildJobPostingSchema } from "@/lib/job-posting-schema";
 import {
   getJobPath,
   getPublishedJob,
@@ -35,86 +36,12 @@ export function generateStaticParams() {
   return getPublishedJobs().map((job) => ({ id: job.job_id }));
 }
 
-function validPostedDate(value: string) {
-  return /^\d{4}-\d{2}-\d{2}(?:T.*)?$/.test(value);
-}
-
-function validClosingDateTime(value: string) {
-  return (
-    /^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(?:Z|[+-]\d{2}:\d{2})$/.test(value) &&
-    !Number.isNaN(Date.parse(value))
-  );
-}
-
 function isExternalSource(source: string) {
   return Boolean(source && source.toLowerCase() !== "jobg8");
 }
 
 function isNhsSource(source: string) {
   return source.trim().toLowerCase() === "nhs jobs";
-}
-
-function hasCompleteDescription(value: string) {
-  const normalised = value.replace(/\s+/g, " ").trim();
-  return (
-    normalised.length >= 200 &&
-    !/click apply for full job details|click apply for more details/i.test(normalised)
-  );
-}
-
-function descriptionHtml(value: string) {
-  const escapeHtml = (text: string) =>
-    text
-      .replace(/&/g, "&amp;")
-      .replace(/</g, "&lt;")
-      .replace(/>/g, "&gt;")
-      .replace(/"/g, "&quot;")
-      .replace(/'/g, "&#39;");
-
-  return value
-    .split(/\n{2,}/)
-    .map((paragraph) => `<p>${escapeHtml(paragraph).replace(/\n/g, "<br>")}</p>`)
-    .join("");
-}
-
-function jobPostingSchema(job: PublishedJob, canonicalUrl: string) {
-  if (!hasCompleteDescription(job.description)) return null;
-
-  const schema: Record<string, unknown> = {
-    "@context": "https://schema.org",
-    "@type": "JobPosting",
-    title: job.title,
-    description: descriptionHtml(job.description),
-    hiringOrganization: {
-      "@type": "Organization",
-      name: cleanEmployerName(job) || "Confidential",
-    },
-    jobLocation: {
-      "@type": "Place",
-      address: {
-        "@type": "PostalAddress",
-        addressLocality: job.location,
-        addressRegion: job.region,
-        addressCountry: "GB",
-      },
-    },
-    url: canonicalUrl,
-  };
-
-  const sourceDateIsReliable =
-    job.posted_date_basis === "source" ||
-    (job.source.toLowerCase() === "nejobs" && !job.posted_date_basis);
-  if (sourceDateIsReliable && validPostedDate(job.posted_date)) {
-    schema.datePosted = job.posted_date;
-  }
-
-  if (validClosingDateTime(job.closing_datetime)) {
-    schema.validThrough = job.closing_datetime;
-  } else if (validPostedDate(job.closing_date)) {
-    schema.validThrough = `${job.closing_date.slice(0, 10)}T23:59:59+01:00`;
-  }
-
-  return schema;
 }
 
 function metaDescription(job: PublishedJob) {
@@ -182,7 +109,7 @@ export default async function JobPage({ params }: PageProps) {
   if (!job) notFound();
 
   const canonicalUrl = `${siteUrl}${getJobPath(job.job_id)}`;
-  const schema = jobPostingSchema(job, canonicalUrl);
+  const schema = buildJobPostingSchema(job, canonicalUrl);
   const applicationSource = isExternalSource(job.source) ? sourceLabel(job.source) : "";
   const transferableFit = getTransferableFit(job.job_id);
   const publishedJobs = getPublishedJobs();

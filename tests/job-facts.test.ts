@@ -86,6 +86,12 @@ test("distinguishes source and Ontap publication dates", () => {
     posted_date_basis: "ontap_first_published",
     source: "JobG8",
   });
+  const jobg8StartFacts = buildJobFacts({
+    company: "Example",
+    posted_date: "2026-07-09",
+    posted_date_basis: "jobg8_start_date",
+    source: "JobG8",
+  });
   const unknownFacts = buildJobFacts({
     company: "Example",
     posted_date: "2026-07-12",
@@ -93,6 +99,7 @@ test("distinguishes source and Ontap publication dates", () => {
   });
 
   assert.equal(sourceFacts.find((fact) => fact.key === "posted")?.label, "Posted");
+  assert.equal(jobg8StartFacts.find((fact) => fact.key === "posted")?.label, "Posted");
   assert.equal(ontapFacts.find((fact) => fact.key === "posted")?.label, "First listed by Ontap");
   assert.equal(unknownFacts.some((fact) => fact.key === "posted"), false);
 });

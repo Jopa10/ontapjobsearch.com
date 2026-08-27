@@ -213,8 +213,17 @@ export function getPublishedJobs(): PublishedJob[] {
   return cachedJobs;
 }
 
+export function decodePublishedJobId(jobId: string): string {
+  try {
+    return decodeURIComponent(jobId);
+  } catch {
+    return jobId;
+  }
+}
+
 export function getPublishedJob(jobId: string): PublishedJob | undefined {
-  return getPublishedJobs().find((job) => job.job_id === jobId);
+  const decodedJobId = decodePublishedJobId(jobId);
+  return getPublishedJobs().find((job) => job.job_id === decodedJobId);
 }
 
 export function getJobPath(jobId: string): string {

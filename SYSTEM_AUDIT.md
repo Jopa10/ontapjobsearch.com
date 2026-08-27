@@ -1,7 +1,7 @@
 # Ontap System Audit
 
 **Audit started:** 19 August 2026  
-**Status:** First architecture audit complete; agreed cleanup 1–5 merged into `main` via PR #211. Teaching Vacancies writeback resilience, 55-market geography reconciliation and 11-market Service Admin expansion verified 22 August 2026.
+**Status:** First architecture audit complete; agreed cleanup 1–5 merged into `main` via PR #211. Google Jobs eligibility remediation was audited, tested and owner-approved for production on 27 August 2026.
 
 The audit conclusion remains: **preserve the working core; remove historical scaffolding; consolidate duplicated mechanics; do not refactor for technical tidiness alone.**
 
@@ -125,6 +125,18 @@ The verified scalable mechanism for future expansion remains:
 - configured data under `app/_city-pages/configured-slices/`
 
 That does **not** create a business case for changing established routes by itself.
+
+## Google Jobs eligibility follow-up — 27 August 2026
+
+The audit evaluated all 1,187 current unique published jobs and the generated static HTML, with JobG8 treated as the primary commercial source. JobG8 contributes 1,056 unique vacancies. Before remediation, 777 JobG8 pages emitted `JobPosting` without `datePosted`, so zero JobG8 pages met all six audited schema-field requirements. The tested result is 777 complete-description JobG8 pages with valid local `JobPosting`; 279 teaser-description pages remain without job schema.
+
+The checked 10,000-row JobG8 workbook has only `/Job/Description` for advert copy. Its 279 currently published teaser rows have no upstream full-description alternative in that upload. They therefore remain visible, indexable job pages with a working apply route but are not misrepresented as complete Google job schema. No description, employer, location, posting date or expiry has been fabricated.
+
+For current JobG8, `datePosted` is the existing stable `ontap_first_published` date. Date precedence is: reliable original source/advert date; a populated and semantically valid JobG8 `/Job/StartDate`; otherwise stable Ontap first publication. Shared publication-date history prevents daily republication, a slice move or a reappearance from resetting that value. JobG8 supplies no current expiry value, so `validThrough` is omitted. It will be emitted only when a valid source expiry exists.
+
+The generated-page audit verified 1,056/1,056 JobG8 pages are indexable, 1,056/1,056 expose a normal apply anchor, and exactly 777 emit `JobPosting`. All 1,056 are in static parameters and the sitemap. One JobG8 reference containing spaces and square brackets formerly generated a `noindex` 404 because the encoded route parameter did not match the raw ID; lookup now decodes the parameter while preserving the published URL.
+
+The remediation was prepared and tested on `audit/google-jobs-eligibility`, then approved by the owner for production deployment on 27 August 2026.
 
 ## Merge state
 

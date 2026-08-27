@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import argparse
+import csv
 import json
 import os
 import tempfile
@@ -43,6 +44,10 @@ MAPPINGS: tuple[Mapping, ...] = (
 )
 
 STATUSES = ("published", "unchanged", "skipped", "failed")
+FIRST_SEEN_HISTORY = Path(
+    "pipeline/reports-daily/published-job-first-seen-history.csv"
+)
+SOURCE_DATE_BASES = {"source", "jobg8_start_date"}
 
 
 def canonical_json(data: Any) -> str:
@@ -100,11 +105,79 @@ def normalise_posted_date(value: str) -> str:
     return normalised
 
 
+def _prefer_stable_date(
+    current: tuple[str, str] | None,
+    candidate: tuple[str, str],
+) -> tuple[str, str]:
+    """Prefer factual source dates, then the earliest stable Ontap date."""
+    candidate_date, candidate_basis = candidate
+    if not candidate_date:
+        return current or ("", "")
+    if current is None or not current[0]:
+        return candidate
+
+    current_date, current_basis = current
+    current_source = current_basis in SOURCE_DATE_BASES
+    candidate_source = candidate_basis in SOURCE_DATE_BASES
+    if current_source != candidate_source:
+        return candidate if candidate_source else current
+    return min(current, candidate, key=lambda item: item[0])
+
+
+def load_shared_posted_dates(
+    mappings: Iterable[Mapping],
+    *,
+    root: Path = REPO_ROOT,
+) -> dict[str, tuple[str, str]]:
+    """Load stable dates across every live destination and the permanent ledger."""
+    dates: dict[str, tuple[str, str]] = {}
+
+    for mapping in mappings:
+        path = root / mapping.destination
+        if not path.is_file():
+            continue
+        try:
+            rows = load_json(path)
+        except (OSError, json.JSONDecodeError):
+            continue
+        if not isinstance(rows, list):
+            continue
+        for row in rows:
+            if not isinstance(row, dict):
+                continue
+            job_id = row.get("job_id")
+            posted = row.get("posted_date")
+            if not usable_text(job_id) or not usable_text(posted):
+                continue
+            basis = row.get("posted_date_basis", "")
+            basis = basis.strip() if isinstance(basis, str) else ""
+            candidate = (normalise_posted_date(posted), basis)
+            dates[job_id.strip()] = _prefer_stable_date(
+                dates.get(job_id.strip()), candidate
+            )
+
+    ledger_path = root / FIRST_SEEN_HISTORY
+    if ledger_path.is_file():
+        with ledger_path.open("r", encoding="utf-8-sig", newline="") as handle:
+            for row in csv.DictReader(handle):
+                job_id = (row.get("job_id") or "").strip()
+                first_seen = (row.get("first_seen_date") or "").strip()
+                if not job_id or not first_seen:
+                    continue
+                dates[job_id] = _prefer_stable_date(
+                    dates.get(job_id),
+                    (normalise_posted_date(first_seen), "ontap_first_published"),
+                )
+
+    return dates
+
+
 def add_stable_posted_dates(
     source_data: list[dict[str, Any]],
     destination_data: list[dict[str, Any]],
     *,
     publication_date: str,
+    shared_dates: dict[str, tuple[str, str]] | None = None,
 ) -> list[dict[str, Any]]:
     """Keep genuine source dates distinct from Ontap's first publication date."""
     previous_dates = {
@@ -121,6 +194,7 @@ def add_stable_posted_dates(
     }
 
     result: list[dict[str, Any]] = []
+    all_stable_dates = shared_dates or {}
     for source_row in source_data:
         row = dict(source_row)
         source_code = row.get("source", "JobG8")
@@ -128,25 +202,46 @@ def add_stable_posted_dates(
         basis = row.get("posted_date_basis", "")
         basis = basis.strip() if isinstance(basis, str) else ""
 
+        job_id = row["job_id"].strip()
+        previous = previous_dates.get(job_id)
+        shared = all_stable_dates.get(job_id)
+        stable = _prefer_stable_date(previous, shared) if shared else previous
+
         if usable_text(row.get("posted_date")):
-            row["posted_date"] = normalise_posted_date(row["posted_date"])
-            if basis:
-                row["posted_date_basis"] = basis
+            incoming_date = normalise_posted_date(row["posted_date"])
+            if basis in SOURCE_DATE_BASES:
+                existing_source = stable if stable and stable[1] in SOURCE_DATE_BASES else None
+                row["posted_date"], row["posted_date_basis"] = (
+                    existing_source or (incoming_date, basis)
+                )
+            elif basis == "ontap_first_published":
+                row["posted_date"], row["posted_date_basis"] = _prefer_stable_date(
+                    stable, (incoming_date, basis)
+                )
             elif source_code.lower() != "jobg8":
                 # Approved external-source dates are extracted directly from the
                 # provider record and are therefore safe to identify as source dates.
-                row["posted_date_basis"] = "source"
+                existing_source = stable if stable and stable[1] in SOURCE_DATE_BASES else None
+                row["posted_date"], row["posted_date_basis"] = (
+                    existing_source or (incoming_date, "source")
+                )
             else:
                 # Legacy JobG8 output may contain either a provider date or an
                 # Ontap fallback. Do not guess which one it is.
-                row.pop("posted_date_basis", None)
+                if stable:
+                    row["posted_date"], stable_basis = stable
+                    if stable_basis:
+                        row["posted_date_basis"] = stable_basis
+                    else:
+                        row.pop("posted_date_basis", None)
+                else:
+                    row["posted_date"] = incoming_date
+                    row.pop("posted_date_basis", None)
         else:
-            job_id = row["job_id"].strip()
-            previous_date, previous_basis = previous_dates.get(job_id, ("", ""))
-            if previous_date:
-                row["posted_date"] = previous_date
-                if previous_basis:
-                    row["posted_date_basis"] = previous_basis
+            if stable:
+                row["posted_date"], stable_basis = stable
+                if stable_basis:
+                    row["posted_date_basis"] = stable_basis
                 else:
                     row.pop("posted_date_basis", None)
             else:
@@ -176,6 +271,7 @@ def publish_one(
     active_slices: set[tuple[str, str]],
     root: Path = REPO_ROOT,
     publication_date: str | None = None,
+    shared_dates: dict[str, tuple[str, str]] | None = None,
 ) -> dict[str, Any]:
     source = root / mapping.source
     destination = root / mapping.destination
@@ -223,6 +319,7 @@ def publish_one(
             source_data,
             destination_data,
             publication_date=publication_date or date.today().isoformat(),
+            shared_dates=shared_dates,
         )
 
         source_canonical = canonical_json(source_data)
@@ -275,8 +372,14 @@ def main() -> int:
     args = parser.parse_args()
 
     active_slices = live_slices()
+    shared_dates = load_shared_posted_dates(MAPPINGS)
     results = [
-        publish_one(mapping, write=args.write, active_slices=active_slices)
+        publish_one(
+            mapping,
+            write=args.write,
+            active_slices=active_slices,
+            shared_dates=shared_dates,
+        )
         for mapping in MAPPINGS
     ]
     print(format_report(results), end="")

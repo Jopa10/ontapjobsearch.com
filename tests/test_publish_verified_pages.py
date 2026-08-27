@@ -169,6 +169,152 @@ class PublishVerifiedPagesTests(unittest.TestCase):
             self.assertEqual(preserved["posted_date"], "2026-07-15")
             self.assertEqual(preserved["posted_date_basis"], "ontap_first_published")
 
+    def test_shared_first_publication_date_survives_a_slice_move(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            source = Path("new-slice-source.json")
+            dest = Path("new-slice-live.json")
+            row = {
+                "job_id": "1",
+                "title": "Role",
+                "apply_url": "https://example.com/apply",
+                "posted_date": "",
+            }
+            self.write_json(root / source, [row])
+            self.write_json(root / dest, [])
+
+            result = publish.publish_one(
+                self.mapping(source, dest),
+                write=True,
+                active_slices=self.active(),
+                root=root,
+                publication_date="2026-07-20",
+                shared_dates={
+                    "1": ("2026-07-15", "ontap_first_published")
+                },
+            )
+
+            self.assertEqual(result["status"], "published")
+            preserved = json.loads((root / dest).read_text())[0]
+            self.assertEqual(preserved["posted_date"], "2026-07-15")
+            self.assertEqual(
+                preserved["posted_date_basis"], "ontap_first_published"
+            )
+
+    def test_existing_source_date_is_not_refreshed_by_a_changed_feed_value(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            source = Path("source.json")
+            dest = Path("live.json")
+            self.write_json(
+                root / source,
+                [
+                    {
+                        "job_id": "1",
+                        "title": "Role",
+                        "apply_url": "https://example.com/apply",
+                        "posted_date": "2026-07-16",
+                        "posted_date_basis": "source",
+                    }
+                ],
+            )
+            self.write_json(
+                root / dest,
+                [
+                    {
+                        "job_id": "1",
+                        "title": "Role",
+                        "apply_url": "https://example.com/apply",
+                        "posted_date": "2026-07-15",
+                        "posted_date_basis": "source",
+                    }
+                ],
+            )
+
+            result = publish.publish_one(
+                self.mapping(source, dest),
+                write=True,
+                active_slices=self.active(),
+                root=root,
+                publication_date="2026-07-20",
+            )
+
+            self.assertEqual(result["status"], "unchanged")
+            preserved = json.loads((root / dest).read_text())[0]
+            self.assertEqual(preserved["posted_date"], "2026-07-15")
+            self.assertEqual(preserved["posted_date_basis"], "source")
+
+    def test_first_reliable_source_date_replaces_ontap_fallback(self):
+        source_rows = [
+            {
+                "job_id": "1",
+                "title": "Role",
+                "apply_url": "https://example.com/apply",
+                "posted_date": "2026-07-10",
+                "posted_date_basis": "jobg8_start_date",
+            }
+        ]
+        destination_rows = [
+            {
+                "job_id": "1",
+                "title": "Role",
+                "apply_url": "https://example.com/apply",
+                "posted_date": "2026-07-15",
+                "posted_date_basis": "ontap_first_published",
+            }
+        ]
+
+        result = publish.add_stable_posted_dates(
+            source_rows,
+            destination_rows,
+            publication_date="2026-07-20",
+        )
+
+        self.assertEqual(result[0]["posted_date"], "2026-07-10")
+        self.assertEqual(result[0]["posted_date_basis"], "jobg8_start_date")
+
+    def test_shared_dates_use_earliest_ontap_date_across_destinations_and_ledger(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            first = self.mapping(Path("source-a.json"), Path("live-a.json"))
+            second = self.mapping(Path("source-b.json"), Path("live-b.json"))
+            self.write_json(
+                root / first.destination,
+                [
+                    {
+                        "job_id": "1",
+                        "title": "Role",
+                        "apply_url": "https://example.com/apply",
+                        "posted_date": "2026-07-15",
+                        "posted_date_basis": "ontap_first_published",
+                    }
+                ],
+            )
+            self.write_json(
+                root / second.destination,
+                [
+                    {
+                        "job_id": "1",
+                        "title": "Role",
+                        "apply_url": "https://example.com/apply",
+                        "posted_date": "2026-07-18",
+                        "posted_date_basis": "ontap_first_published",
+                    }
+                ],
+            )
+            ledger = root / publish.FIRST_SEEN_HISTORY
+            ledger.parent.mkdir(parents=True, exist_ok=True)
+            ledger.write_text(
+                "first_seen_date,job_id\n2026-07-17,1\n",
+                encoding="utf-8",
+            )
+
+            dates = publish.load_shared_posted_dates([first, second], root=root)
+
+            self.assertEqual(
+                dates["1"], ("2026-07-15", "ontap_first_published")
+            )
+
     def test_legacy_first_publication_date_is_preserved_without_guessing_basis(self):
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)
