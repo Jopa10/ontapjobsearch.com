@@ -6,7 +6,8 @@ Selection is deliberately narrow:
 - no JobG8 Classification gate;
 - existing geography and salary credibility rules remain in force;
 - salary review rows are reported but not auto-published;
-- a LIVE slice needs at least six selected current-day jobs to publish/refresh.
+- once a slice is explicitly LIVE, any non-zero selected count publishes/refreshes;
+- the six-job signal remains launch evidence for non-LIVE candidates only.
 
 The JSON files sit in output-admin-service with distinct category suffixes so the
 existing enrichment and commit steps can carry them without changing the
@@ -34,7 +35,7 @@ REGISTER_DIR = Path(__file__).resolve().parents[1] / "registers"
 OUTPUT_DIR = Path("output-admin-service")
 REPORT_PATH = OUTPUT_DIR / "registered-category-decision-report.csv"
 SUMMARY_PATH = OUTPUT_DIR / "registered-category-selection-summary.csv"
-PUBLISH_THRESHOLD = 6
+LIVE_PUBLISH_FLOOR = 1
 
 CATEGORIES = {
     "customer_service_contact_centre": "customer_service_contact_centre_title_classification_register.csv",
@@ -304,7 +305,7 @@ def run_live_registered_categories() -> int:
                 key(item.get("job_id")),
             )
         )
-        current_rows = rows if len(rows) >= PUBLISH_THRESHOLD else []
+        current_rows = rows if len(rows) >= LIVE_PUBLISH_FLOOR else []
         publishable[(region, category)] = current_rows
         path = OUTPUT_DIR / output_filename(region, category)
         path.write_text(
@@ -315,8 +316,7 @@ def run_live_registered_categories() -> int:
             print(f"{region} / {category}: {len(rows)} selected -> {path}")
         else:
             print(
-                f"{region} / {category}: {len(rows)}/{PUBLISH_THRESHOLD} selected; "
-                "refresh withheld"
+                f"{region} / {category}: 0 selected; LIVE page refresh withheld"
             )
 
     fieldnames = [
