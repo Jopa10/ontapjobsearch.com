@@ -4,7 +4,7 @@
 - Live route: `/bradford/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 7
+- Effective included jobs: 9
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,26 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 7
-- automatic review: 7
-- automatic exclude: 29
-- effective include: 7
-- effective review: 7
-- effective exclude: 29
+- automatic include: 9
+- automatic review: 5
+- automatic exclude: 32
+- effective include: 9
+- effective review: 5
+- effective exclude: 32
 
-## INCLUDE (7)
+## INCLUDE (9)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Academy Administrator L2
+company: Dixons McMillan Academy
+location: Bradford
+source: Teaching Vacancies
+job_id: teaching-vacancies-academy-administrator-l2-dixons-mcmillan-academy
+reason: Approved Bradford catchment.
+---
 
 ---
 action: 
@@ -76,6 +88,18 @@ reason: Approved Bradford catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Senior Administrator
+company: Appleton Academy
+location: Bradford
+source: Teaching Vacancies
+job_id: teaching-vacancies-senior-administrator-appleton-academy-bradford-west-yorkshire
+reason: Approved Bradford catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Specialist Administrator (SEND, Medical, Lead First Aid)
 company: Parkside School
 location: Bradford
@@ -108,7 +132,7 @@ job_id: jobg8-23643_225476845
 reason: Approved Bradford catchment.
 ---
 
-## REVIEW (7)
+## REVIEW (5)
 
 ---
 action: 
@@ -150,18 +174,6 @@ reason: No approved Bradford catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Data Officer
-company: De Lacy Academy
-location: Knottingley
-source: Teaching Vacancies
-job_id: teaching-vacancies-data-officer-2291e2c5-eec2-437c-a38c-78271e026f45
-reason: No approved Bradford catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Office Coordinator
 company: Sayjo Recruitment Ltd - Agency - Permanent
 location: Brighouse
@@ -182,19 +194,19 @@ job_id: nhs-5551474
 reason: No approved Bradford catchment rule matched; local review required.
 ---
 
+## EXCLUDE (32)
+
 ---
 action: 
-decision: review
-automatic_decision: review
-title: Receptionist
-company: The King's School
-location: Pontefract
+decision: exclude
+automatic_decision: exclude
+title: Administrator
+company: Benton Park School
+location: Leeds
 source: Teaching Vacancies
-job_id: teaching-vacancies-receptionist-the-king-s-school-pontefract-west-yorkshire
-reason: No approved Bradford catchment rule matched; local review required.
+job_id: teaching-vacancies-administrator-466b2045-c1e3-4fa9-bf7e-e43eb5901ad7
+reason: Separate employment market.
 ---
-
-## EXCLUDE (29)
 
 ---
 action: 
@@ -229,6 +241,18 @@ company: The Pharmacist Network
 location: Leeds, NE4 7YB
 source: NHS Jobs
 job_id: nhs-5555590
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Administrator (inc Finance)
+company: Benton Park School
+location: Leeds
+source: Teaching Vacancies
+job_id: teaching-vacancies-administrator-inc-finance
 reason: Separate employment market.
 ---
 
@@ -284,6 +308,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Cloud-First SQL Database Administrator - Azure
+company: IO Associates - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-107908451
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Customer Service Advisor
 company: Red Recruitment - Agency - Permanent
 location: Leeds
@@ -301,6 +337,18 @@ company: CSS - Agency - Contract
 location: Leeds
 source: JobG8
 job_id: jobg8-23643_224689396
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: HR Administrator
+company: Akari Care Limited
+location: Leeds, LS11 5DZ
+source: NHS Jobs
+job_id: nhs-5561629
 reason: Separate employment market.
 ---
 
@@ -337,18 +385,6 @@ company: Elevation Recruitment Group - Agency - Permanent
 location: Wakefield
 source: JobG8
 job_id: jobg8-1726631
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Office Administrator
-company: TRC Yorkshire - Agency - Temporary
-location: Wakefield
-source: JobG8
-job_id: jobg8-23643_225514711
 reason: Separate employment market.
 ---
 

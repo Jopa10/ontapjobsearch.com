@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 2
 - automatic review: 0
-- automatic exclude: 4
+- automatic exclude: 3
 - effective include: 2
 - effective review: 0
-- effective exclude: 4
+- effective exclude: 3
 
 ## INCLUDE (2)
 
@@ -50,7 +50,7 @@ reason: Approved conservative Warrington launch catchment.
 
 ## REVIEW (0)
 
-## EXCLUDE (4)
+## EXCLUDE (3)
 
 ---
 action: 
@@ -73,18 +73,6 @@ company: Mersey Care NHS Foundation Trust
 location: Runcorn, WA7 2DA
 source: NHS Jobs
 job_id: nhs-5567496
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Contribution Co-Ordinator
-company: Adecco - Agency - Temporary
-location: Runcorn
-source: JobG8
-job_id: jobg8-23643_225434841
 reason: Separate employment market.
 ---
 

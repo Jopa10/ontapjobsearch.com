@@ -4,7 +4,7 @@
 - Live route: `/southampton/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 4
+- Effective included jobs: 5
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 4
-- automatic review: 39
-- automatic exclude: 8
-- effective include: 4
-- effective review: 39
-- effective exclude: 8
+- automatic include: 5
+- automatic review: 44
+- automatic exclude: 9
+- effective include: 5
+- effective review: 44
+- effective exclude: 9
 
-## INCLUDE (4)
+## INCLUDE (5)
 
 ---
 action: 
@@ -33,6 +33,18 @@ company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
 location: Southampton, SO14 3DT
 source: NHS Jobs
 job_id: nhs-5558135
+reason: Approved Southampton catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administrator
+company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
+location: Southampton, SO14 3DT
+source: NHS Jobs
+job_id: nhs-5568990
 reason: Approved Southampton catchment.
 ---
 
@@ -72,7 +84,7 @@ job_id: teaching-vacancies-receptionist-ff80cc91-b028-4603-910d-80547a4ad86e
 reason: Approved Southampton catchment.
 ---
 
-## REVIEW (39)
+## REVIEW (44)
 
 ---
 action: 
@@ -114,23 +126,23 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Bank Admin Assistant
-company: The Cinnamon Care Collection - Company - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-23643_225524482
-reason: Broad location; review before city inclusion.
+title: Attendance Officer
+company: Ringwood School Academy
+location: Ringwood
+source: Teaching Vacancies
+job_id: teaching-vacancies-attendance-officer-2ee0b8e3-e03c-4648-9a90-ae13e6c3a5a4
+reason: No approved Southampton catchment rule matched; local review required.
 ---
 
 ---
 action: 
 decision: review
 automatic_decision: review
-title: Business Administrator
-company: Care Concern Group - Company - Permanent
+title: Bank Admin Assistant
+company: The Cinnamon Care Collection - Company - Permanent
 location: Hampshire
 source: JobG8
-job_id: jobg8-107907161
+job_id: jobg8-23643_225524482
 reason: Broad location; review before city inclusion.
 ---
 
@@ -198,12 +210,24 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Events Administrator
-company: Tate - Agency - Temporary
+title: Ecommerce Administrator
+company: Rubicon Recruitment - Agency - Temporary
 location: Hampshire
 source: JobG8
-job_id: jobg8-23643_225436745
+job_id: jobg8-23643_225545155
 reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Exams Officer and Assessment Data Co ordinator
+company: Perins School
+location: Alresford
+source: Teaching Vacancies
+job_id: teaching-vacancies-exams-officer-and-assessment-data-co-ordinator
+reason: No approved Southampton catchment rule matched; local review required.
 ---
 
 ---
@@ -390,6 +414,18 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
+title: Operations Coordinator
+company: Sammons Recruitment Ltd - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-107772787
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Planner
 company: Dynamite Recruitment - Agency - Permanent
 location: Hampshire
@@ -407,6 +443,18 @@ company: Venus Recruitment Ltd - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225511982
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Project Coordinator
+company: Searchability - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-1692885
 reason: Broad location; review before city inclusion.
 ---
 
@@ -475,6 +523,18 @@ action:
 decision: review
 automatic_decision: review
 title: Sales Coordinator
+company: The Workshop - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-107879301
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Sales Coordinator
 company: Workshop Recruitment - Agency - Permanent
 location: Hampshire
 source: JobG8
@@ -534,6 +594,18 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
+title: Support Coordinator
+company: NFP People - Agency - Contract
+location: Isle of Wight
+source: JobG8
+job_id: jobg8-107904656
+reason: No approved Southampton catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Trainee Lettings & Property Coordinator
 company: Carrington West - Agency - Permanent
 location: Hampshire
@@ -542,7 +614,7 @@ job_id: jobg8-23643_225472585
 reason: Broad location; review before city inclusion.
 ---
 
-## EXCLUDE (8)
+## EXCLUDE (9)
 
 ---
 action: 
@@ -553,6 +625,18 @@ company: Mid Hampshire Healthcare Ltd
 location: Winchester, SO23 0LD
 source: NHS Jobs
 job_id: nhs-5531413
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Administration Assistant (Transition and Reception)
+company: Thornden School
+location: Eastleigh
+source: Teaching Vacancies
+job_id: teaching-vacancies-administration-assistant-transition-and-reception
 reason: Separate employment market.
 ---
 

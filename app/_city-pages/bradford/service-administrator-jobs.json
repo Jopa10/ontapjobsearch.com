@@ -1,5 +1,33 @@
 [
   {
+    "job_id": "teaching-vacancies-academy-administrator-l2-dixons-mcmillan-academy",
+    "title": "Academy Administrator L2",
+    "company": "Dixons McMillan Academy",
+    "location": "Bradford",
+    "region": "Yorkshire - West",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "['full time']",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "DAT Level 2, SCP 14-17 (Actual salary £24,444 - £24,832)",
+    "work_pattern": "",
+    "posted_date": "2026-08-25",
+    "closing_date": "2026-09-08",
+    "closing_datetime": "2026-09-08T23:59:00+01:00",
+    "summary": "Academy Administrator L2 with Dixons McMillan Academy in Bradford. ['full time']; DAT Level 2, SCP 14-17 (Actual salary £24,444 - £24,832).",
+    "description": "Dixons McMillan Academy is recruiting for this vacancy in Bradford.\n\nThe advertised position is Academy Administrator L2.\n\nThe source lists the employment type as ['full time'].\n\nThe advertised salary or pay scale is DAT Level 2, SCP 14-17 (Actual salary £24,444 - £24,832).\n\nThe stated application deadline is 2026-09-08T23:59:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
+    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/academy-administrator-l2-dixons-mcmillan-academy?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
+    "source": "Teaching Vacancies",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Dixons McMillan Academy",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
+  },
+  {
     "job_id": "23643_225499042",
     "title": "Investigatory data administrator",
     "company": "BDS (Northern) Limited - Agency - Temporary",
@@ -78,6 +106,34 @@
     "posted_date_basis": "source"
   },
   {
+    "job_id": "teaching-vacancies-senior-administrator-appleton-academy-bradford-west-yorkshire",
+    "title": "Senior Administrator",
+    "company": "Appleton Academy",
+    "location": "Bradford",
+    "region": "Yorkshire - West",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "['full time']",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "£24,821.00 - £27,485.00 Annually (FTE) Band 7, SCP 11 to SCP 17 (actual salary £24,821 - £27,485 per annum), 37 hours per week, TTO+10",
+    "work_pattern": "",
+    "posted_date": "2026-08-24",
+    "closing_date": "2026-09-11",
+    "closing_datetime": "2026-09-11T12:00:00+01:00",
+    "summary": "Senior Administrator with Appleton Academy in Bradford. ['full time']; £24,821.00 - £27,485.00 Annually (FTE) Band 7, SCP 11 to SCP 17 (actual salary £24,821 - £27,485 per annum), 37 hours per week, TTO+10.",
+    "description": "Appleton Academy is recruiting for this vacancy in Bradford.\n\nThe advertised position is Senior Administrator.\n\nThe source lists the employment type as ['full time'].\n\nThe advertised salary or pay scale is £24,821.00 - £27,485.00 Annually (FTE) Band 7, SCP 11 to SCP 17 (actual salary £24,821 - £27,485 per annum), 37 hours per week, TTO+10.\n\nThe stated application deadline is 2026-09-11T12:00:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
+    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-appleton-academy-bradford-west-yorkshire?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
+    "source": "Teaching Vacancies",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Appleton Academy",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
+  },
+  {
     "job_id": "teaching-vacancies-specialist-administrator-send-medical-lead-first-aid",
     "title": "Specialist Administrator (SEND, Medical, Lead First Aid)",
     "company": "Parkside School",
@@ -128,7 +184,14 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Telephone handling",
+      "Customer enquiries",
+      "Records administration",
+      "Quotations",
+      "Order processing"
+    ]
   },
   {
     "job_id": "23643_225476845",
@@ -172,6 +235,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2598-26-0009",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   }
 ]

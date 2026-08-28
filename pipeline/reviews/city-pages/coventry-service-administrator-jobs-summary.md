@@ -4,7 +4,7 @@
 - Live route: `/coventry/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 3
+- Effective included jobs: 5
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 3
-- automatic review: 2
-- automatic exclude: 22
-- effective include: 3
-- effective review: 2
-- effective exclude: 22
+- automatic include: 5
+- automatic review: 3
+- automatic exclude: 24
+- effective include: 5
+- effective review: 3
+- effective exclude: 24
 
-## INCLUDE (3)
+## INCLUDE (5)
 
 ---
 action: 
@@ -60,7 +60,31 @@ job_id: teaching-vacancies-school-administrator-president-kennedy-school-academy
 reason: Approved Coventry catchment.
 ---
 
-## REVIEW (2)
+---
+action: 
+decision: include
+automatic_decision: include
+title: School Receptionist
+company: Cardinal Wiseman Catholic School
+location: Coventry
+source: Teaching Vacancies
+job_id: teaching-vacancies-school-receptionist-45aeb107-50df-4aa0-8e6f-1750a0fd6626
+reason: Approved Coventry catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Ward Clerk
+company: University Hospitals Coventry and Warwickshire NHS Trust
+location: Coventry, CV2 2DX
+source: NHS Jobs
+job_id: nhs-5565888
+reason: Approved Coventry catchment.
+---
+
+## REVIEW (3)
 
 ---
 action: 
@@ -86,7 +110,19 @@ job_id: jobg8-23643_225526928
 reason: No approved Coventry catchment rule matched; local review required.
 ---
 
-## EXCLUDE (22)
+---
+action: 
+decision: review
+automatic_decision: review
+title: Receptionist and Administrator FTC contract September - December 2026
+company: Kenilworth School and Sixth Form
+location: Kenilworth
+source: Teaching Vacancies
+job_id: teaching-vacancies-receptionist-and-administrator-ftc-contract-september-december-2026-kenilworth-school-and-sixth-form-kenilworth
+reason: No approved Coventry catchment rule matched; local review required.
+---
+
+## EXCLUDE (24)
 
 ---
 action: 
@@ -289,6 +325,30 @@ company: Gill Cooke Personnel Ltd T/A The Recruitment Group - Agency - Temporary
 location: Warwickshire
 source: JobG8
 job_id: jobg8-23643_225467522
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Personal Assistant (PA) to the Headteachers (Oak Wood Schools)
+company: Oak Wood Secondary School
+location: Nuneaton
+source: Teaching Vacancies
+job_id: teaching-vacancies-personal-assistant-pa-to-the-headteachers-oak-wood-schools
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Receptionist/Admin Officer
+company: Welcombe Hills School
+location: Stratford-upon-Avon
+source: Teaching Vacancies
+job_id: teaching-vacancies-receptionist-admin-officer-f47a5a75-5bef-45e1-a471-94bb514d5613
 reason: Separate employment market.
 ---
 

@@ -66,9 +66,9 @@ decision: include
 automatic_decision: include
 title: Administration Assistant
 company: Humber Teaching NHS Foundation Trust
-location: Hull, HU3 2RT
+location: Hull, HU8 0RB
 source: NHS Jobs
-job_id: nhs-5546058
+job_id: nhs-5548104
 reason: Approved conservative Hull launch catchment.
 ---
 
@@ -77,10 +77,10 @@ action:
 decision: include
 automatic_decision: include
 title: Administration Assistant
-company: Humber Teaching NHS Foundation Trust
-location: Hull, HU8 0RB
-source: NHS Jobs
-job_id: nhs-5548104
+company: Kingswood Parks Primary School
+location: Hull
+source: Teaching Vacancies
+job_id: teaching-vacancies-administration-assistant-kingswood-parks-primary-school
 reason: Approved conservative Hull launch catchment.
 ---
 
@@ -198,11 +198,11 @@ reason: No approved Hull catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Customer Service Assistant
-company: Genda Playnation Entertainment Ltd - Agency - Temporary
-location: Driffield
-source: JobG8
-job_id: jobg8-107770477
+title: Care Navigator / Receptionist
+company: The Ridings Medical Group
+location: HESSLE, HU13 9LZ, Brough, HU15 2JG, Brough, HU15 1AY, York, YO43 4BJ, Selby, YO8 6LY
+source: NHS Jobs
+job_id: nhs-5550886
 reason: No approved Hull catchment rule matched; local review required.
 ---
 

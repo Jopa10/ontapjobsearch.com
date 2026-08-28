@@ -4,7 +4,7 @@
 - Live route: `/peterborough/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 12
+- Effective included jobs: 16
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 12
-- automatic review: 5
-- automatic exclude: 20
-- effective include: 12
-- effective review: 5
-- effective exclude: 20
+- automatic include: 16
+- automatic review: 7
+- automatic exclude: 22
+- effective include: 16
+- effective review: 7
+- effective exclude: 22
 
-## INCLUDE (12)
+## INCLUDE (16)
 
 ---
 action: 
@@ -76,6 +76,18 @@ reason: Approved conservative Peterborough launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Administrator - Student Services
+company: Arthur Mellows Village College
+location: Peterborough
+source: Teaching Vacancies
+job_id: teaching-vacancies-administrator-student-services-d8658259-60b3-4622-8d3d-f3f1d76a784e
+reason: Approved conservative Peterborough launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Bid & Tender Co-ordinator
 company: Huntress - Agency - Permanent
 location: Peterborough
@@ -112,6 +124,30 @@ reason: Approved conservative Peterborough launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Data Administrator
+company: Queen Katharine Academy
+location: Peterborough
+source: Teaching Vacancies
+job_id: teaching-vacancies-data-administrator-799f6f5b-2740-4014-af1f-77a81945f8ec
+reason: Approved conservative Peterborough launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: GP Receptionist / Administrator
+company: Thomas Walker Westgate Healthcare
+location: Peterborough, PE1 2QP
+source: NHS Jobs
+job_id: nhs-5527811
+reason: Approved conservative Peterborough launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: HAP Coordinator
 company: Home Group Limited - Agency - Temporary
 location: Peterborough
@@ -129,6 +165,18 @@ company: Discovery Primary Academy
 location: Peterborough
 source: Teaching Vacancies
 job_id: teaching-vacancies-inclusion-administrator-discovery-primary-academy-peterborough-cambridgeshire
+reason: Approved conservative Peterborough launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Medical Secretary / Referrals Administrator
+company: Thomas Walker Westgate Healthcare
+location: Peterborough, PE1 2QP
+source: NHS Jobs
+job_id: nhs-5527904
 reason: Approved conservative Peterborough launch catchment.
 ---
 
@@ -168,7 +216,31 @@ job_id: jobg8-23643_225406910
 reason: Approved conservative Peterborough launch catchment.
 ---
 
-## REVIEW (5)
+## REVIEW (7)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Admin Assistant (Maternity Cover)
+company: Peckover Primary School
+location: Wisbech
+source: Teaching Vacancies
+job_id: teaching-vacancies-admin-assistant-maternity-cover-peckover-primary-school-wisbech-cambridgeshire
+reason: No approved Peterborough catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Admin Assistant - Attendance
+company: St Ivo Academy
+location: St Ives
+source: Teaching Vacancies
+job_id: teaching-vacancies-admin-assistant-attendance-st-ivo-academy
+reason: No approved Peterborough catchment rule matched; local review required.
+---
 
 ---
 action: 
@@ -179,18 +251,6 @@ company: Marshland High School
 location: Wisbech
 source: Teaching Vacancies
 job_id: teaching-vacancies-administrator-sen-and-careers
-reason: No approved Peterborough catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Clerk to the Local Governing Boards
-company: Burrowmoor Primary Academy
-location: March
-source: Teaching Vacancies
-job_id: teaching-vacancies-clerk-to-the-local-governing-boards
 reason: No approved Peterborough catchment rule matched; local review required.
 ---
 
@@ -222,6 +282,18 @@ reason: No approved Peterborough catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Finance / Admin Assistant
+company: Priory Junior School
+location: St Neots
+source: Teaching Vacancies
+job_id: teaching-vacancies-finance-admin-assistant-priory-junior-school-st-neots-cambridgeshire
+reason: No approved Peterborough catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Stock Administrator
 company: Interaction Recruitment - Agency - Temporary
 location: St. Ives
@@ -230,7 +302,7 @@ job_id: jobg8-23643_225519683
 reason: No approved Peterborough catchment rule matched; local review required.
 ---
 
-## EXCLUDE (20)
+## EXCLUDE (22)
 
 ---
 action: 
@@ -356,11 +428,35 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Marketing & Communications Officer
+company: Meridian Trust
+location: Huntingdon
+source: Teaching Vacancies
+job_id: teaching-vacancies-marketing-communications-officer-2a432f35-1c7d-4c5e-90a3-e035ce925749
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Office Administrator
 company: St Peter's School
 location: Huntingdon
 source: Teaching Vacancies
 job_id: teaching-vacancies-office-administrator-st-peter-s-school
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Office Administrator
+company: Swaffham Prior Church of England Primary School
+location: Cambridge
+source: Teaching Vacancies
+job_id: teaching-vacancies-office-administrator-swaffham-prior-church-of-england-primary-school-cambridge
 reason: Separate employment market.
 ---
 

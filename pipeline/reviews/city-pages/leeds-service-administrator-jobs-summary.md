@@ -4,7 +4,7 @@
 - Live route: `/leeds/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 14
+- Effective included jobs: 18
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,26 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 14
-- automatic review: 8
-- automatic exclude: 21
-- effective include: 14
-- effective review: 8
-- effective exclude: 21
+- automatic include: 18
+- automatic review: 6
+- automatic exclude: 22
+- effective include: 18
+- effective review: 6
+- effective exclude: 22
 
-## INCLUDE (14)
+## INCLUDE (18)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administrator
+company: Benton Park School
+location: Leeds
+source: Teaching Vacancies
+job_id: teaching-vacancies-administrator-466b2045-c1e3-4fa9-bf7e-e43eb5901ad7
+reason: Approved Leeds catchment.
+---
 
 ---
 action: 
@@ -64,11 +76,35 @@ reason: Approved Leeds catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Administrator (inc Finance)
+company: Benton Park School
+location: Leeds
+source: Teaching Vacancies
+job_id: teaching-vacancies-administrator-inc-finance
+reason: Approved Leeds catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Bid Coordinator
 company: Ridge & Partners LLP - Agency - Permanent
 location: Leeds
 source: JobG8
 job_id: jobg8-107880419
+reason: Approved Leeds catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Cloud-First SQL Database Administrator - Azure
+company: IO Associates - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-107908451
 reason: Approved Leeds catchment.
 ---
 
@@ -93,6 +129,18 @@ company: CSS - Agency - Contract
 location: Leeds
 source: JobG8
 job_id: jobg8-23643_224689396
+reason: Approved Leeds catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: HR Administrator
+company: Akari Care Limited
+location: Leeds, LS11 5DZ
+source: NHS Jobs
+job_id: nhs-5561629
 reason: Approved Leeds catchment.
 ---
 
@@ -192,7 +240,7 @@ job_id: jobg8-23643_225519206
 reason: Approved Leeds catchment.
 ---
 
-## REVIEW (8)
+## REVIEW (6)
 
 ---
 action: 
@@ -234,18 +282,6 @@ reason: No approved Leeds catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Data Officer
-company: De Lacy Academy
-location: Knottingley
-source: Teaching Vacancies
-job_id: teaching-vacancies-data-officer-2291e2c5-eec2-437c-a38c-78271e026f45
-reason: No approved Leeds catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Office Coordinator
 company: Sayjo Recruitment Ltd - Agency - Permanent
 location: Brighouse
@@ -278,19 +314,19 @@ job_id: jobg8-23643_225445220
 reason: No approved Leeds catchment rule matched; local review required.
 ---
 
+## EXCLUDE (22)
+
 ---
 action: 
-decision: review
-automatic_decision: review
-title: Receptionist
-company: The King's School
-location: Pontefract
+decision: exclude
+automatic_decision: exclude
+title: Academy Administrator L2
+company: Dixons McMillan Academy
+location: Bradford
 source: Teaching Vacancies
-job_id: teaching-vacancies-receptionist-the-king-s-school-pontefract-west-yorkshire
-reason: No approved Leeds catchment rule matched; local review required.
+job_id: teaching-vacancies-academy-administrator-l2-dixons-mcmillan-academy
+reason: Separate employment market.
 ---
-
-## EXCLUDE (21)
 
 ---
 action: 
@@ -361,18 +397,6 @@ company: Clarendon Medical Centre
 location: Bradford, BD8 7SY
 source: NHS Jobs
 job_id: nhs-5565093
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Office Administrator
-company: TRC Yorkshire - Agency - Temporary
-location: Wakefield
-source: JobG8
-job_id: jobg8-23643_225514711
 reason: Separate employment market.
 ---
 
@@ -481,6 +505,18 @@ company: The North Halifax Grammar School
 location: Halifax
 source: Teaching Vacancies
 job_id: teaching-vacancies-send-exam-access-arrangements-administrator
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Senior Administrator
+company: Appleton Academy
+location: Bradford
+source: Teaching Vacancies
+job_id: teaching-vacancies-senior-administrator-appleton-academy-bradford-west-yorkshire
 reason: Separate employment market.
 ---
 

@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 2
 - automatic review: 5
-- automatic exclude: 4
+- automatic exclude: 3
 - effective include: 2
 - effective review: 5
-- effective exclude: 4
+- effective exclude: 3
 
 ## INCLUDE (2)
 
@@ -110,7 +110,7 @@ job_id: jobg8-1401784682
 reason: Broad location; review before city inclusion.
 ---
 
-## EXCLUDE (4)
+## EXCLUDE (3)
 
 ---
 action: 
@@ -133,18 +133,6 @@ company: Hampshire County Council - Company - Permanent
 location: Basingstoke
 source: JobG8
 job_id: jobg8-1401784687
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Residential Support Worker
-company: SWAAY - Agency - Permanent
-location: Farnborough
-source: JobG8
-job_id: jobg8-107856573
 reason: Separate employment market.
 ---
 

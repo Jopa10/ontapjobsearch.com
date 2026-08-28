@@ -4,7 +4,7 @@
 - Live route: `/doncaster/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 3
+- Effective included jobs: 2
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 3
+- automatic include: 2
 - automatic review: 3
-- automatic exclude: 12
-- effective include: 3
+- automatic exclude: 16
+- effective include: 2
 - effective review: 3
-- effective exclude: 12
+- effective exclude: 16
 
-## INCLUDE (3)
+## INCLUDE (2)
 
 ---
 action: 
@@ -45,18 +45,6 @@ company: Edwards & Pearce Limited - Agency - Permanent
 location: Doncaster
 source: JobG8
 job_id: jobg8-107855575
-reason: Approved Doncaster catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Receptionist/Administrator
-company: Tickhill and Colliery Medical Practice
-location: Doncaster, DN11 9NA, Doncaster, DN11 8JT
-source: NHS Jobs
-job_id: nhs-5554992
 reason: Approved Doncaster catchment.
 ---
 
@@ -98,7 +86,7 @@ job_id: jobg8-23643_225516072
 reason: No approved Doncaster catchment rule matched; local review required.
 ---
 
-## EXCLUDE (12)
+## EXCLUDE (16)
 
 ---
 action: 
@@ -109,6 +97,18 @@ company: The Rowan School
 location: Sheffield
 source: Teaching Vacancies
 job_id: teaching-vacancies-admin-clerical-officer-level-2-rowan-school
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Administration Assistant
+company: The Market Surgery
+location: Rotherham, S63 7RA
+source: NHS Jobs
+job_id: nhs-5568486
 reason: Separate employment market.
 ---
 
@@ -152,18 +152,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Business Support Officer – Attendance
-company: King Edward VII School
-location: Sheffield
-source: Teaching Vacancies
-job_id: teaching-vacancies-business-support-officer-attendance-dc9edb4f-b36d-4bc3-be46-6508d1a2b957
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Customer Service Coordinator
 company: Gi Group - Agency - Permanent
 location: Barnsley
@@ -188,6 +176,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Part Time Administrator
+company: Office Angels - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-23643_225544680
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Project Co-ordinator
 company: Sue Ross Recruitment Ltd - Agency - Contract
 location: Sheffield
@@ -205,6 +205,30 @@ company: Sheffield Health Partnership University NHS Foundation Trust
 location: Sheffield, S11 9BJ
 source: NHS Jobs
 job_id: nhs-5565903
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Receptionist
+company: The Market Surgery
+location: Rotherham, S63 7RA
+source: NHS Jobs
+job_id: nhs-5568418
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Receptionist & Administrator
+company: Sheffield Park Academy
+location: Sheffield
+source: Teaching Vacancies
+job_id: teaching-vacancies-receptionist-administrator-sheffield-park-academy-sheffield-south-yorkshire
 reason: Separate employment market.
 ---
 
@@ -241,5 +265,17 @@ company: Aston Academy
 location: Sheffield
 source: Teaching Vacancies
 job_id: teaching-vacancies-send-administrator-aston-academy-sheffield-south-yorkshire
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Volunteer Coordinator
+company: South Yorkshire Fire & Rescue - Agency - Permanent
+location: Rotherham
+source: JobG8
+job_id: jobg8-107909022
 reason: Separate employment market.
 ---

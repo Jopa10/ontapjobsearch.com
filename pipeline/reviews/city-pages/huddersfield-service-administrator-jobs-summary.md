@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 5
-- automatic review: 7
-- automatic exclude: 31
+- automatic review: 5
+- automatic exclude: 36
 - effective include: 5
-- effective review: 7
-- effective exclude: 31
+- effective review: 5
+- effective exclude: 36
 
 ## INCLUDE (5)
 
@@ -84,7 +84,7 @@ job_id: jobg8-23643_225463726
 reason: Approved Huddersfield catchment.
 ---
 
-## REVIEW (7)
+## REVIEW (5)
 
 ---
 action: 
@@ -126,18 +126,6 @@ reason: No approved Huddersfield catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Data Officer
-company: De Lacy Academy
-location: Knottingley
-source: Teaching Vacancies
-job_id: teaching-vacancies-data-officer-2291e2c5-eec2-437c-a38c-78271e026f45
-reason: No approved Huddersfield catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Office Coordinator
 company: Sayjo Recruitment Ltd - Agency - Permanent
 location: Brighouse
@@ -158,19 +146,31 @@ job_id: nhs-5551474
 reason: No approved Huddersfield catchment rule matched; local review required.
 ---
 
+## EXCLUDE (36)
+
 ---
 action: 
-decision: review
-automatic_decision: review
-title: Receptionist
-company: The King's School
-location: Pontefract
+decision: exclude
+automatic_decision: exclude
+title: Academy Administrator L2
+company: Dixons McMillan Academy
+location: Bradford
 source: Teaching Vacancies
-job_id: teaching-vacancies-receptionist-the-king-s-school-pontefract-west-yorkshire
-reason: No approved Huddersfield catchment rule matched; local review required.
+job_id: teaching-vacancies-academy-administrator-l2-dixons-mcmillan-academy
+reason: Separate employment market.
 ---
 
-## EXCLUDE (31)
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Administrator
+company: Benton Park School
+location: Leeds
+source: Teaching Vacancies
+job_id: teaching-vacancies-administrator-466b2045-c1e3-4fa9-bf7e-e43eb5901ad7
+reason: Separate employment market.
+---
 
 ---
 action: 
@@ -212,11 +212,35 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Administrator (inc Finance)
+company: Benton Park School
+location: Leeds
+source: Teaching Vacancies
+job_id: teaching-vacancies-administrator-inc-finance
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Bid Coordinator
 company: Ridge & Partners LLP - Agency - Permanent
 location: Leeds
 source: JobG8
 job_id: jobg8-107880419
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Cloud-First SQL Database Administrator - Azure
+company: IO Associates - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-107908451
 reason: Separate employment market.
 ---
 
@@ -241,6 +265,18 @@ company: CSS - Agency - Contract
 location: Leeds
 source: JobG8
 job_id: jobg8-23643_224689396
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: HR Administrator
+company: Akari Care Limited
+location: Leeds, LS11 5DZ
+source: NHS Jobs
+job_id: nhs-5561629
 reason: Separate employment market.
 ---
 
@@ -301,18 +337,6 @@ company: Clarendon Medical Centre
 location: Bradford, BD8 7SY
 source: NHS Jobs
 job_id: nhs-5565093
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Office Administrator
-company: TRC Yorkshire - Agency - Temporary
-location: Wakefield
-source: JobG8
-job_id: jobg8-23643_225514711
 reason: Separate employment market.
 ---
 
@@ -433,6 +457,18 @@ company: The North Halifax Grammar School
 location: Halifax
 source: Teaching Vacancies
 job_id: teaching-vacancies-send-exam-access-arrangements-administrator
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Senior Administrator
+company: Appleton Academy
+location: Bradford
+source: Teaching Vacancies
+job_id: teaching-vacancies-senior-administrator-appleton-academy-bradford-west-yorkshire
 reason: Separate employment market.
 ---
 

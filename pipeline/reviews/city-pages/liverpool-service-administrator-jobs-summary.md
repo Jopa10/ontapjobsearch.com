@@ -4,7 +4,7 @@
 - Live route: `/liverpool/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 8
+- Effective included jobs: 11
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 8
+- automatic include: 11
 - automatic review: 0
 - automatic exclude: 0
-- effective include: 8
+- effective include: 11
 - effective review: 0
 - effective exclude: 0
 
-## INCLUDE (8)
+## INCLUDE (11)
 
 ---
 action: 
@@ -33,6 +33,18 @@ company: Recruitment Services UK - Agency - Permanent
 location: Liverpool
 source: JobG8
 job_id: jobg8-23643_225428643
+reason: Approved conservative Liverpool launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Clerical Officer
+company: Liverpool University Hospitals NHS Foundation Trust
+location: Liverpool, L7 8XP
+source: NHS Jobs
+job_id: nhs-5558829
 reason: Approved conservative Liverpool launch catchment.
 ---
 
@@ -112,11 +124,35 @@ reason: Approved conservative Liverpool launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Receptionist
+company: King's Leadership Academy Wavertree
+location: Liverpool
+source: Teaching Vacancies
+job_id: teaching-vacancies-receptionist-king-s-leadership-academy-wavertree-liverpool
+reason: Approved conservative Liverpool launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Receptionist/Administrator
 company: SSP Health
 location: Liverpool, L9 8BU
 source: NHS Jobs
 job_id: nhs-5565709
+reason: Approved conservative Liverpool launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Social Value and Engagement Coordinator
+company: Liverpool Experience Campus - Agency - Permanent
+location: Liverpool
+source: JobG8
+job_id: jobg8-107894994
 reason: Approved conservative Liverpool launch catchment.
 ---
 

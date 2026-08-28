@@ -4,7 +4,7 @@
 - Live route: `/cambridge/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 14
+- Effective included jobs: 15
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 14
-- automatic review: 5
-- automatic exclude: 18
-- effective include: 14
-- effective review: 5
-- effective exclude: 18
+- automatic include: 15
+- automatic review: 7
+- automatic exclude: 23
+- effective include: 15
+- effective review: 7
+- effective exclude: 23
 
-## INCLUDE (14)
+## INCLUDE (15)
 
 ---
 action: 
@@ -93,6 +93,18 @@ company: Cambridge University Hospital NHS Foundation Trust
 location: Cambridge, CB2 9LG
 source: NHS Jobs
 job_id: nhs-5547956
+reason: Approved conservative Cambridge launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Office Administrator
+company: Swaffham Prior Church of England Primary School
+location: Cambridge
+source: Teaching Vacancies
+job_id: teaching-vacancies-office-administrator-swaffham-prior-church-of-england-primary-school-cambridge
 reason: Approved conservative Cambridge launch catchment.
 ---
 
@@ -192,7 +204,31 @@ job_id: nhs-5560673
 reason: Approved conservative Cambridge launch catchment.
 ---
 
-## REVIEW (5)
+## REVIEW (7)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Admin Assistant (Maternity Cover)
+company: Peckover Primary School
+location: Wisbech
+source: Teaching Vacancies
+job_id: teaching-vacancies-admin-assistant-maternity-cover-peckover-primary-school-wisbech-cambridgeshire
+reason: No approved Cambridge catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Admin Assistant - Attendance
+company: St Ivo Academy
+location: St Ives
+source: Teaching Vacancies
+job_id: teaching-vacancies-admin-assistant-attendance-st-ivo-academy
+reason: No approved Cambridge catchment rule matched; local review required.
+---
 
 ---
 action: 
@@ -203,18 +239,6 @@ company: Marshland High School
 location: Wisbech
 source: Teaching Vacancies
 job_id: teaching-vacancies-administrator-sen-and-careers
-reason: No approved Cambridge catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Clerk to the Local Governing Boards
-company: Burrowmoor Primary Academy
-location: March
-source: Teaching Vacancies
-job_id: teaching-vacancies-clerk-to-the-local-governing-boards
 reason: No approved Cambridge catchment rule matched; local review required.
 ---
 
@@ -246,6 +270,18 @@ reason: No approved Cambridge catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Finance / Admin Assistant
+company: Priory Junior School
+location: St Neots
+source: Teaching Vacancies
+job_id: teaching-vacancies-finance-admin-assistant-priory-junior-school-st-neots-cambridgeshire
+reason: No approved Cambridge catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Stock Administrator
 company: Interaction Recruitment - Agency - Temporary
 location: St. Ives
@@ -254,7 +290,7 @@ job_id: jobg8-23643_225519683
 reason: No approved Cambridge catchment rule matched; local review required.
 ---
 
-## EXCLUDE (18)
+## EXCLUDE (23)
 
 ---
 action: 
@@ -332,6 +368,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Administrator - Student Services
+company: Arthur Mellows Village College
+location: Peterborough
+source: Teaching Vacancies
+job_id: teaching-vacancies-administrator-student-services-d8658259-60b3-4622-8d3d-f3f1d76a784e
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Attendance Administrator
 company: St Peter's School
 location: Huntingdon
@@ -380,11 +428,35 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Data Administrator
+company: Queen Katharine Academy
+location: Peterborough
+source: Teaching Vacancies
+job_id: teaching-vacancies-data-administrator-799f6f5b-2740-4014-af1f-77a81945f8ec
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: ED Reception Clerical Officer - Hinchingbrooke Hospital
 company: North West Anglia NHS Foundation Trust
 location: Huntingdon, PE29 6NT
 source: NHS Jobs
 job_id: nhs-5550201
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: GP Receptionist / Administrator
+company: Thomas Walker Westgate Healthcare
+location: Peterborough, PE1 2QP
+source: NHS Jobs
+job_id: nhs-5527811
 reason: Separate employment market.
 ---
 
@@ -409,6 +481,30 @@ company: Discovery Primary Academy
 location: Peterborough
 source: Teaching Vacancies
 job_id: teaching-vacancies-inclusion-administrator-discovery-primary-academy-peterborough-cambridgeshire
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Marketing & Communications Officer
+company: Meridian Trust
+location: Huntingdon
+source: Teaching Vacancies
+job_id: teaching-vacancies-marketing-communications-officer-2a432f35-1c7d-4c5e-90a3-e035ce925749
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Medical Secretary / Referrals Administrator
+company: Thomas Walker Westgate Healthcare
+location: Peterborough, PE1 2QP
+source: NHS Jobs
+job_id: nhs-5527904
 reason: Separate employment market.
 ---
 

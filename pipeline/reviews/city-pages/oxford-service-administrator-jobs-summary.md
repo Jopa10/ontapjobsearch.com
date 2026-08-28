@@ -4,7 +4,7 @@
 - Live route: `/oxford/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 9
+- Effective included jobs: 10
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 9
-- automatic review: 9
-- automatic exclude: 32
-- effective include: 9
-- effective review: 9
-- effective exclude: 32
+- automatic include: 10
+- automatic review: 8
+- automatic exclude: 29
+- effective include: 10
+- effective review: 8
+- effective exclude: 29
 
-## INCLUDE (9)
+## INCLUDE (10)
 
 ---
 action: 
@@ -69,6 +69,18 @@ company: Oxford University Hospitals NHS Foundation Trust
 location: Oxford, OX3 7LE
 source: NHS Jobs
 job_id: nhs-5565421
+reason: Approved conservative Oxford launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Grade 6 Office Administrator
+company: St Philip and James' Church of England Aided Primary School Oxford
+location: Oxford
+source: Teaching Vacancies
+job_id: teaching-vacancies-grade-6-office-administrator-3e4de74e-af8a-4ee3-b949-0a2e141ed8ab
 reason: Approved conservative Oxford launch catchment.
 ---
 
@@ -132,19 +144,7 @@ job_id: nhs-5561560
 reason: Approved conservative Oxford launch catchment.
 ---
 
-## REVIEW (9)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Admin Assistant - Care Home
-company: Barchester Healthcare
-location: Banbury, OX15 6EH
-source: NHS Jobs
-job_id: nhs-5558600
-reason: No approved Oxford catchment rule matched; local review required.
----
+## REVIEW (8)
 
 ---
 action: 
@@ -155,6 +155,18 @@ company: The Key Medical Practice
 location: Kidlington, OX5 1AP, KIDLINGTON, OX5 1LT
 source: NHS Jobs
 job_id: nhs-5523397
+reason: No approved Oxford catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Attendance Administrator
+company: Faringdon Community College
+location: Faringdon
+source: Teaching Vacancies
+job_id: teaching-vacancies-attendance-administrator-faringdon-community-college
 reason: No approved Oxford catchment rule matched; local review required.
 ---
 
@@ -198,18 +210,6 @@ reason: No approved Oxford catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Receptionist
-company: Faringdon Community College
-location: Faringdon
-source: Teaching Vacancies
-job_id: teaching-vacancies-receptionist-faringdon-community-college-faringdon-oxfordshire
-reason: No approved Oxford catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Receptionist - part time considered
 company: Gosford Hill School
 location: Kidlington
@@ -234,15 +234,15 @@ reason: No approved Oxford catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: School Office Receptionist & Administrative Assistant
+title: Sixth Form Administrator / Team Leader
 company: Lord Williams's School
 location: Thame
 source: Teaching Vacancies
-job_id: teaching-vacancies-school-office-receptionist-administrative-assistant
+job_id: teaching-vacancies-sixth-form-administrator-team-leader
 reason: No approved Oxford catchment rule matched; local review required.
 ---
 
-## EXCLUDE (32)
+## EXCLUDE (29)
 
 ---
 action: 
@@ -464,35 +464,11 @@ reason: Broad county location; not Oxford-city evidence.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Lifestyle Coordinator
-company: Care UK - Company - Permanent
-location: Oxfordshire
-source: JobG8
-job_id: jobg8-107723275
-reason: Broad county location; not Oxford-city evidence.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Office Administrator
 company: Planet Recruitment - Agency - Permanent
 location: Oxfordshire
 source: JobG8
 job_id: jobg8-23643_225472773
-reason: Broad county location; not Oxford-city evidence.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: PURCHASING COORDINATOR
-company: Euro-Projects Recruitment Ltd - Agency - Permanent
-location: Oxfordshire
-source: JobG8
-job_id: jobg8-23643_225462965
 reason: Broad county location; not Oxford-city evidence.
 ---
 
@@ -608,22 +584,10 @@ reason: Broad county location; not Oxford-city evidence.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Temporary Team Administrator
+title: Temporary Receptionist
 company: Allen Associates - Agency - Temporary
 location: Oxfordshire
 source: JobG8
-job_id: jobg8-23643_225464784
-reason: Broad county location; not Oxford-city evidence.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Workplace Coordinator
-company: Winner Recruitment - Agency - Permanent
-location: Oxfordshire
-source: JobG8
-job_id: jobg8-23643_225472204
+job_id: jobg8-23643_225544132
 reason: Broad county location; not Oxford-city evidence.
 ---

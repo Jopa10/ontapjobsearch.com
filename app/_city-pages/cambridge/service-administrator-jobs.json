@@ -103,6 +103,34 @@
     "posted_date_basis": "source"
   },
   {
+    "job_id": "teaching-vacancies-office-administrator-swaffham-prior-church-of-england-primary-school-cambridge",
+    "title": "Office Administrator",
+    "company": "Swaffham Prior Church of England Primary School",
+    "location": "Cambridge",
+    "region": "Cambridgeshire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "['part time']",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "Point 3 (£24,796 FTE)",
+    "work_pattern": "",
+    "posted_date": "2026-08-27",
+    "closing_date": "2026-09-06",
+    "closing_datetime": "2026-09-06T23:59:00+01:00",
+    "summary": "Office Administrator with Swaffham Prior Church of England Primary School in Cambridge. ['part time']; Point 3 (£24,796 FTE).",
+    "description": "Swaffham Prior Church of England Primary School is recruiting for this vacancy in Cambridge.\n\nThe advertised position is Office Administrator.\n\nThe source lists the employment type as ['part time'].\n\nThe advertised salary or pay scale is Point 3 (£24,796 FTE).\n\nThe stated application deadline is 2026-09-06T23:59:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
+    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/office-administrator-swaffham-prior-church-of-england-primary-school-cambridge?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
+    "source": "Teaching Vacancies",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Swaffham Prior Church of England Primary School",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
+  },
+  {
     "job_id": "23643_225451667",
     "title": "Order processing Coordinator",
     "company": "Eclectic Recruitment - Agency - Permanent",
@@ -125,7 +153,12 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Records administration",
+      "Quotations",
+      "Order processing"
+    ]
   },
   {
     "job_id": "107906443",
@@ -175,7 +208,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Telephone handling",
+      "Scheduling and bookings"
+    ]
   },
   {
     "job_id": "23643_225451600",
@@ -297,6 +334,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9180-26-1092",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -316,6 +356,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9180-26-1093",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -335,6 +378,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9180-26-1060",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   }
 ]

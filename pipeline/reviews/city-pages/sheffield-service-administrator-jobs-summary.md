@@ -4,7 +4,7 @@
 - Live route: `/sheffield/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 9
+- Effective included jobs: 10
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 9
+- automatic include: 10
 - automatic review: 3
-- automatic exclude: 6
-- effective include: 9
+- automatic exclude: 8
+- effective include: 10
 - effective review: 3
-- effective exclude: 6
+- effective exclude: 8
 
-## INCLUDE (9)
+## INCLUDE (10)
 
 ---
 action: 
@@ -52,11 +52,11 @@ reason: Approved Sheffield catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Business Support Officer – Attendance
-company: King Edward VII School
+title: Operations Administrator
+company: Sue Ross Recruitment Ltd - Agency - Permanent
 location: Sheffield
-source: Teaching Vacancies
-job_id: teaching-vacancies-business-support-officer-attendance-dc9edb4f-b36d-4bc3-be46-6508d1a2b957
+source: JobG8
+job_id: jobg8-23643_225522912
 reason: Approved Sheffield catchment.
 ---
 
@@ -64,11 +64,11 @@ reason: Approved Sheffield catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Operations Administrator
-company: Sue Ross Recruitment Ltd - Agency - Permanent
+title: Part Time Administrator
+company: Office Angels - Agency - Permanent
 location: Sheffield
 source: JobG8
-job_id: jobg8-23643_225522912
+job_id: jobg8-23643_225544680
 reason: Approved Sheffield catchment.
 ---
 
@@ -93,6 +93,18 @@ company: Sheffield Health Partnership University NHS Foundation Trust
 location: Sheffield, S11 9BJ
 source: NHS Jobs
 job_id: nhs-5565903
+reason: Approved Sheffield catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Receptionist & Administrator
+company: Sheffield Park Academy
+location: Sheffield
+source: Teaching Vacancies
+job_id: teaching-vacancies-receptionist-administrator-sheffield-park-academy-sheffield-south-yorkshire
 reason: Approved Sheffield catchment.
 ---
 
@@ -170,7 +182,19 @@ job_id: jobg8-23643_225516072
 reason: No approved Sheffield catchment rule matched; local review required.
 ---
 
-## EXCLUDE (6)
+## EXCLUDE (8)
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Administration Assistant
+company: The Market Surgery
+location: Rotherham, S63 7RA
+source: NHS Jobs
+job_id: nhs-5568486
+reason: Separate employment market.
+---
 
 ---
 action: 
@@ -212,6 +236,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Receptionist
+company: The Market Surgery
+location: Rotherham, S63 7RA
+source: NHS Jobs
+job_id: nhs-5568418
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Receptionist - AM shift - DN1
 company: Ideal Recruit Ltd - Agency - Temporary
 location: Doncaster
@@ -236,10 +272,10 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Receptionist/Administrator
-company: Tickhill and Colliery Medical Practice
-location: Doncaster, DN11 9NA, Doncaster, DN11 8JT
-source: NHS Jobs
-job_id: nhs-5554992
+title: Volunteer Coordinator
+company: South Yorkshire Fire & Rescue - Agency - Permanent
+location: Rotherham
+source: JobG8
+job_id: jobg8-107909022
 reason: Separate employment market.
 ---

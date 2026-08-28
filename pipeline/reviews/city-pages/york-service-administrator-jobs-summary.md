@@ -4,7 +4,7 @@
 - Live route: `/york/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 9
+- Effective included jobs: 11
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 9
-- automatic review: 5
-- automatic exclude: 9
-- effective include: 9
-- effective review: 5
-- effective exclude: 9
+- automatic include: 11
+- automatic review: 6
+- automatic exclude: 10
+- effective include: 11
+- effective review: 6
+- effective exclude: 10
 
-## INCLUDE (9)
+## INCLUDE (11)
 
 ---
 action: 
@@ -69,6 +69,30 @@ company: Stoneacre Motor Group. - Company - Permanent
 location: York
 source: JobG8
 job_id: jobg8-107760736
+reason: Approved York catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Assessment Administration Coordinator
+company: Advance HE - Agency - Permanent
+location: York
+source: JobG8
+job_id: jobg8-107909020
+reason: Approved York catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Assessment Administration Coordinator
+company: Advance HE - Agency - Permanent
+location: York
+source: JobG8
+job_id: jobg8-23643_225543992
 reason: Approved York catchment.
 ---
 
@@ -132,7 +156,7 @@ job_id: nhs-5550198
 reason: Approved York catchment.
 ---
 
-## REVIEW (5)
+## REVIEW (6)
 
 ---
 action: 
@@ -143,6 +167,18 @@ company: SI Recruitment - Agency - Contract
 location: Richmond
 source: JobG8
 job_id: jobg8-107893034
+reason: No approved York catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: HR Administrator
+company: Unity Resourcing Ltd - Agency - Permanent
+location: Knaresborough
+source: JobG8
+job_id: jobg8-23643_225544656
 reason: No approved York catchment rule matched; local review required.
 ---
 
@@ -194,7 +230,7 @@ job_id: teaching-vacancies-school-office-administrator-askwith-primary-school
 reason: No approved York catchment rule matched; local review required.
 ---
 
-## EXCLUDE (9)
+## EXCLUDE (10)
 
 ---
 action: 
@@ -289,6 +325,18 @@ company: Braeburn Primary and Nursery Academy
 location: Scarborough
 source: Teaching Vacancies
 job_id: teaching-vacancies-senior-administrator-braeburn-primary-and-nursery-academy-scarborough-north-yorkshire
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Team Administrator
+company: Tees Esk and Wear Valleys NHS Foundation Trust
+location: Northallerton, DL6 2FG
+source: NHS Jobs
+job_id: nhs-5520240
 reason: Separate employment market.
 ---
 

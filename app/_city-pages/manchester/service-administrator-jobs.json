@@ -1,5 +1,33 @@
 [
   {
+    "job_id": "teaching-vacancies-administration-assistant-c2f65b3b-e84d-4148-98e6-f9f60ceb2d22",
+    "title": "Administration Assistant",
+    "company": "Ellesmere Park High School",
+    "location": "Manchester",
+    "region": "Greater Manchester - Manchester & Salford",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "['full time']",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "£22,926.30 - £23,290.14 Annually (Actual) NJC Grade 3 (NJC Scale points 5 – 6 )",
+    "work_pattern": "",
+    "posted_date": "2026-08-20",
+    "closing_date": "2026-09-11",
+    "closing_datetime": "2026-09-11T09:00:00+01:00",
+    "summary": "Administration Assistant with Ellesmere Park High School in Manchester. ['full time']; £22,926.30 - £23,290.14 Annually (Actual) NJC Grade 3 (NJC Scale points 5 – 6 ).",
+    "description": "Ellesmere Park High School is recruiting for this vacancy in Manchester.\n\nThe advertised position is Administration Assistant.\n\nThe source lists the employment type as ['full time'].\n\nThe advertised salary or pay scale is £22,926.30 - £23,290.14 Annually (Actual) NJC Grade 3 (NJC Scale points 5 – 6 ).\n\nThe stated application deadline is 2026-09-11T09:00:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
+    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-c2f65b3b-e84d-4148-98e6-f9f60ceb2d22?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
+    "source": "Teaching Vacancies",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Ellesmere Park High School",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
+  },
+  {
     "job_id": "23643_225445681",
     "title": "Administrator",
     "company": "Anderselite - Agency - Contract",
@@ -22,7 +50,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Records administration",
+      "Quotations"
+    ]
   },
   {
     "job_id": "23643_225476366",
@@ -347,7 +379,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Records administration",
+      "Order processing"
+    ]
   },
   {
     "job_id": "107896400",
@@ -400,31 +436,6 @@
     "posted_date_basis": "ontap_first_published"
   },
   {
-    "job_id": "107771449",
-    "title": "Sales & Client Relationship Coordinator (Conveyancing)",
-    "company": "Talent Finder - Agency - Permanent",
-    "location": "Manchester",
-    "region": "Greater Manchester - Manchester & Salford",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "24000",
-    "salary_max": "24000",
-    "salary_text": "£24000 per year",
-    "posted_date": "2026-08-26",
-    "description": "Sales & Client Relationship Coordinator (Conveyancing)\n\nSalford Quays\n\n£25,000 + Uncapped Commission\n\nWe are looking for an enthusiastic, organised and motivated Sales & Client Relationship Coordinator to join our friendly and growing team based in Salford Quays.\n\nThis role is ideal for someone who thrives on turning enquiries into instructed conveyancing clients, enjoys building relationships, and takes click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?6WDmO0cNttr5f5NWt7lCDF3YLb47n%2bhca",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Talent Finder",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
-  },
-  {
     "job_id": "23643_225537660",
     "title": "Sales Support",
     "company": "Hays Business Support - Agency - Temporary",
@@ -447,7 +458,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Telephone handling",
+      "Scheduling and bookings"
+    ]
   },
   {
     "job_id": "23643_225453508",
@@ -525,6 +540,34 @@
     "posted_date_basis": "ontap_first_published"
   },
   {
+    "job_id": "teaching-vacancies-student-services-administrator-0021b1e8-bf27-4572-8796-0c06c359e8f0",
+    "title": "Student Services Administrator",
+    "company": "Manchester Academy",
+    "location": "Manchester",
+    "region": "Greater Manchester - Manchester & Salford",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "['full time']",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "£25,467 actual, pro rata FTE £28,075",
+    "work_pattern": "",
+    "posted_date": "2026-08-20",
+    "closing_date": "2026-08-31",
+    "closing_datetime": "2026-08-31T23:59:00+01:00",
+    "summary": "Student Services Administrator with Manchester Academy in Manchester. ['full time']; £25,467 actual, pro rata FTE £28,075.",
+    "description": "Manchester Academy is recruiting for this vacancy in Manchester.\n\nThe advertised position is Student Services Administrator.\n\nThe source lists the employment type as ['full time'].\n\nThe advertised salary or pay scale is £25,467 actual, pro rata FTE £28,075.\n\nThe stated application deadline is 2026-08-31T23:59:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
+    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/student-services-administrator-0021b1e8-bf27-4572-8796-0c06c359e8f0?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
+    "source": "Teaching Vacancies",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Manchester Academy",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
+  },
+  {
     "job_id": "107864416",
     "title": "Support Coordinator",
     "company": "Creative Support - Agency - Permanent",
@@ -597,7 +640,12 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Scheduling and bookings",
+      "Records administration",
+      "Systems administration"
+    ]
   },
   {
     "job_id": "23643_225522116",
@@ -622,7 +670,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Visitor reception",
+      "Data entry"
+    ]
   },
   {
     "job_id": "nhs-5530819",
@@ -641,6 +693,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1040-26-0004",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -660,6 +715,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2420-26-0005",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -679,6 +737,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9349-26-2527",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -698,6 +759,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2924-26-0002",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   }
 ]

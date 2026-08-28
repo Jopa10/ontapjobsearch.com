@@ -4,7 +4,7 @@
 - Live route: `/newcastle/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 21
+- Effective included jobs: 23
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 21
+- automatic include: 23
 - automatic review: 26
-- automatic exclude: 21
-- effective include: 21
+- automatic exclude: 19
+- effective include: 23
 - effective review: 26
-- effective exclude: 21
+- effective exclude: 19
 
-## INCLUDE (21)
+## INCLUDE (23)
 
 ---
 action: 
@@ -64,11 +64,35 @@ reason: Approved Newcastle catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Administration Assistant
+company: Cumbria, Northumberland, Tyne and wear (CNTW) NHS Foundation Trust
+location: Gateshead, NE10 8DX
+source: NHS Jobs
+job_id: nhs-5568696
+reason: Approved Newcastle catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Administrative Assistant Level 3
 company: Bishop Bewick Catholic Education Trust
 location: Sacred Heart Catholic High School, Fenham Hall Drive, Fenham, Newcastle upon Tyne NE4 9YH
 source: NEJobs
 job_id: nejobs-300745
+reason: Approved Newcastle catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administrative Assistant Level 3
+company: Gosforth Academy
+location: Newcastle-upon-Tyne
+source: Teaching Vacancies
+job_id: teaching-vacancies-administrative-assistant-level-3-gosforth-academy-newcastle-upon-tyne-tyne-and-wear
 reason: Approved Newcastle catchment.
 ---
 
@@ -590,7 +614,7 @@ job_id: nejobs-301243
 reason: No approved Newcastle catchment rule matched; local review required.
 ---
 
-## EXCLUDE (21)
+## EXCLUDE (19)
 
 ---
 action: 
@@ -601,18 +625,6 @@ company: SI Recruitment - Agency - Permanent
 location: County Durham
 source: JobG8
 job_id: jobg8-107752679
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Admin Assistant – Finance/HR
-company: Durham County Council
-location: Bishop Auckland
-source: NEJobs
-job_id: nejobs-300742
 reason: Separate employment market.
 ---
 
@@ -721,18 +733,6 @@ company: Connect Multi-Academy Trust
 location: County Durham
 source: NEJobs
 job_id: nejobs-300955
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Medical Receptionist
-company: Claypath and University Medical Practice
-location: Durham, DH1 1QW, DURHAM, DH1 3JX
-source: NHS Jobs
-job_id: nhs-5547933
 reason: Separate employment market.
 ---
 

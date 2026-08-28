@@ -4,7 +4,7 @@
 - Live route: `/manchester/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 29
+- Effective included jobs: 30
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,26 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 29
+- automatic include: 30
 - automatic review: 0
 - automatic exclude: 3
-- effective include: 29
+- effective include: 30
 - effective review: 0
 - effective exclude: 3
 
-## INCLUDE (29)
+## INCLUDE (30)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administration Assistant
+company: Ellesmere Park High School
+location: Manchester
+source: Teaching Vacancies
+job_id: teaching-vacancies-administration-assistant-c2f65b3b-e84d-4148-98e6-f9f60ceb2d22
+reason: Approved conservative Manchester launch catchment.
+---
 
 ---
 action: 
@@ -268,18 +280,6 @@ reason: Approved conservative Manchester launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Sales & Client Relationship Coordinator (Conveyancing)
-company: Talent Finder - Agency - Permanent
-location: Manchester
-source: JobG8
-job_id: jobg8-107771449
-reason: Approved conservative Manchester launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Sales Support
 company: Hays Business Support - Agency - Temporary
 location: Manchester
@@ -321,6 +321,18 @@ company: MANCHESTER COMMUNITY CENTRE - Agency - Permanent
 location: Manchester
 source: JobG8
 job_id: jobg8-1664753
+reason: Approved conservative Manchester launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Student Services Administrator
+company: Manchester Academy
+location: Manchester
+source: Teaching Vacancies
+job_id: teaching-vacancies-student-services-administrator-0021b1e8-bf27-4572-8796-0c06c359e8f0
 reason: Approved conservative Manchester launch catchment.
 ---
 

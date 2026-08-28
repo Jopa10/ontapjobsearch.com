@@ -72,7 +72,40 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Records administration",
+      "Systems administration",
+      "Order processing"
+    ]
+  },
+  {
+    "job_id": "teaching-vacancies-administration-assistant-kingswood-parks-primary-school",
+    "title": "Administration Assistant",
+    "company": "Kingswood Parks Primary School",
+    "location": "Hull",
+    "region": "Yorkshire - East",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "['full time']",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "£25,185 - £25,583 FTE, £21,682 - £22,025 Actual",
+    "work_pattern": "",
+    "posted_date": "2026-08-25",
+    "closing_date": "2026-09-07",
+    "closing_datetime": "2026-09-07T08:00:59+01:00",
+    "summary": "Administration Assistant with Kingswood Parks Primary School in Hull. ['full time']; £25,185 - £25,583 FTE, £21,682 - £22,025 Actual.",
+    "description": "Kingswood Parks Primary School is recruiting for this vacancy in Hull.\n\nThe advertised position is Administration Assistant.\n\nThe source lists the employment type as ['full time'].\n\nThe advertised salary or pay scale is £25,185 - £25,583 FTE, £21,682 - £22,025 Actual.\n\nThe stated application deadline is 2026-09-07T08:00:59+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
+    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-kingswood-parks-primary-school?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
+    "source": "Teaching Vacancies",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Kingswood Parks Primary School",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "23643_225537982",
@@ -97,7 +130,12 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Email handling",
+      "Scheduling and bookings",
+      "Reporting"
+    ]
   },
   {
     "job_id": "107902261",
@@ -147,7 +185,14 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Customer enquiries",
+      "Records administration",
+      "Systems administration",
+      "Quotations",
+      "Order processing"
+    ]
   },
   {
     "job_id": "23643_225532268",
@@ -247,7 +292,12 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Customer enquiries",
+      "Quotations",
+      "Order processing"
+    ]
   },
   {
     "job_id": "nhs-5559811",
@@ -266,25 +316,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9356-26-0594",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
-    "posted_date_basis": "source"
-  },
-  {
-    "job_id": "nhs-5546058",
-    "source": "NHS Jobs",
-    "title": "Administration Assistant",
-    "company": "Humber Teaching NHS Foundation Trust",
-    "advertiser_name": "Humber Teaching NHS Foundation Trust",
-    "location": "Hull, HU3 2RT",
-    "region": "Yorkshire - East",
-    "salary": "£25272.00",
-    "employment_type": "Permanent",
-    "posted_date": "2026-08-18T11:50:02.743022",
-    "closing_date": "2026-09-01",
-    "description": "\" Please note that this advertised vacancy does not meet the UKVI eligibility requirements for a Skilled Worker Visa and therefore HTFT would not be able to issue a Certificate of Sponsorship for this role.\" An opportunity has arisen for a full-time Band 2 Administration Assistant to work within our Mental Health Crisis Team based at Miranda House in Hull. You will be expected to be flexible and work in a fast paced and highly demanding environment within the main office as well as providing cover to a very busy reception area. The administration team provides 24 hour, 7 day a week cover which is worked on a rota basis incorporating enhanced pay for unsocial hours. This provides a refreshing work life balance. This role involves liaising with health care professionals from the Trust and outside agencies, also dealing with queries from patients requiring a service. Excellent interpersonal skills and being able to work on own initiative are both essential. The successful candidate will have good keyboard skills enabling them to assist in creating, developing and maintaining new processes and procedures. This includes regular data inputting using patient systems (Systm One ) in accordance with the Trust standards. Along with all other Microsoft Packages. Applicants will have RSA III and OCRIII/ECDL or equivalent NVQ Qualification, a good standard of Maths and English and have previous experience of carrying out general administrative procedures in an office environment. Experience of using software packages including Microsoft Word/Outlook and Excel are beneficial. Experience with the Trust Patient Information Systems (Systm One ) would be advantageous. For further details with regard to this vacancy opportunity, please see the attached Job Description and Person Specification.",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9338-26-0409",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9338-26-0409",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -304,6 +338,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9338-26-0412",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   }
 ]
