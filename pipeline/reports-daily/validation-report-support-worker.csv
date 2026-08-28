@@ -1,12 +1,12 @@
 ﻿metric,value
 total rows input,10000
-total rows included,71
-total rows dropped,9929
-title classification count - HIGH_CONFIDENCE,140
-title classification count - ELASTIC_FIT,58
+total rows included,78
+total rows dropped,9922
+title classification count - HIGH_CONFIDENCE,159
+title classification count - ELASTIC_FIT,64
 title classification count - REVIEW_CONTEXT_DEPENDENT,15
-title classification count - HARD_PASS,5172
-title classification count - OUT_OF_SCOPE,4615
+title classification count - HARD_PASS,5132
+title classification count - OUT_OF_SCOPE,4630
 selection scenario - Yorkshire - West,SCENARIO_4_BELOW_PUBLISH_THRESHOLD
 selection message - Yorkshire - West,Yorkshire - West selection below publish threshold: 3/6 credible roles. Do not publish/refresh this slice from this run.
 credible total - Yorkshire - West,3
@@ -24,13 +24,13 @@ other elastic count - Yorkshire - South,1
 total rows output - Yorkshire - South,2
 job_id included - Yorkshire - South,107798506; 107881537
 selection scenario - North East,SCENARIO_4_BELOW_PUBLISH_THRESHOLD
-selection message - North East,North East selection below publish threshold: 5/6 credible roles. Do not publish/refresh this slice from this run.
-credible total - North East,5
+selection message - North East,North East selection below publish threshold: 4/6 credible roles. Do not publish/refresh this slice from this run.
+credible total - North East,4
 high confidence count - North East,1
 anchor elastic count - North East,0
-other elastic count - North East,3
-total rows output - North East,5
-job_id included - North East,107494462; 23643_225493355; 107781117; 107810260; 107875285
+other elastic count - North East,2
+total rows output - North East,4
+job_id included - North East,107494462; 23643_225493355; 107781117; 107810260
 selection scenario - Sussex,SCENARIO_3_MANUAL_SELECTION_APPLIED
 selection message - Sussex,Sussex manual_select applied additively: 1 row(s) prioritised; 6 selected.
 credible total - Sussex,6
@@ -56,42 +56,42 @@ other elastic count - Hampshire,0
 total rows output - Hampshire,10
 job_id included - Hampshire,1674633; 1401784780; 1401784261; 1401784414; 1401784339; 1401784493; 1401784687; 1401784767; 1401784682; 1401784679
 selection scenario - Kent,SCENARIO_3_COMPLETE_WITH_OTHER_ELASTIC
-selection message - Kent,"Kent selection complete: 12 selected after HIGH_CONFIDENCE, Maidstone ELASTIC_FIT, and other ELASTIC_FIT roles."
-credible total - Kent,12
+selection message - Kent,"Kent selection complete: 13 selected after HIGH_CONFIDENCE, Maidstone ELASTIC_FIT, and other ELASTIC_FIT roles."
+credible total - Kent,13
 high confidence count - Kent,3
 anchor elastic count - Kent,0
-other elastic count - Kent,9
-total rows output - Kent,12
-job_id included - Kent,107739939; 1402264062; 107858271; 107882995; 107852539; 107883000; 107854067; 107882993; 107882997; 107882998; 107901714; 107901785
+other elastic count - Kent,10
+total rows output - Kent,13
+job_id included - Kent,107739939; 1402264062; 107858271; 107882995; 107852539; 107883000; 107854067; 107882997; 107882998; 107901714; 107882991; 107901785; 107882993
 selection scenario - London,SCENARIO_3_MANUAL_SELECTION_APPLIED
-selection message - London,London manual_select applied additively: 5 row(s) prioritised; 17 selected.
-credible total - London,17
-high confidence count - London,10
+selection message - London,London manual_select applied additively: 5 row(s) prioritised; 19 selected.
+credible total - London,19
+high confidence count - London,11
 anchor elastic count - London,1
-other elastic count - London,1
-total rows output - London,17
-job_id included - London,1621461; 23643_223283749; 23643_225516212; 1780022; 1812536; 107885503; 1818954; 1664745; 107751975; 107823167; 1785508; 1785507; 107900179; 23643_225476071; 1787859; 23643_225535652; 23643_225513634
+other elastic count - London,2
+total rows output - London,19
+job_id included - London,1621461; 23643_223283749; 23643_225516212; 1780022; 1812536; 107885503; 1818954; 1664745; 107751975; 107823167; 1785508; 1785507; 107900179; 23643_225476071; 1787859; 23643_225535652; 1815970; 23643_225513634; 1708252
 selection scenario - Oxfordshire,SCENARIO_3_COMPLETE_WITH_OTHER_ELASTIC
-selection message - Oxfordshire,"Oxfordshire selection complete: 6 selected after HIGH_CONFIDENCE, Oxford ELASTIC_FIT, and other ELASTIC_FIT roles."
-credible total - Oxfordshire,6
-high confidence count - Oxfordshire,4
-anchor elastic count - Oxfordshire,1
+selection message - Oxfordshire,"Oxfordshire selection complete: 9 selected after HIGH_CONFIDENCE, Oxford ELASTIC_FIT, and other ELASTIC_FIT roles."
+credible total - Oxfordshire,9
+high confidence count - Oxfordshire,6
+anchor elastic count - Oxfordshire,2
 other elastic count - Oxfordshire,1
-total rows output - Oxfordshire,6
-job_id included - Oxfordshire,1695997; 107617602; 107626591; 107626594; 107626596; 107758331
+total rows output - Oxfordshire,9
+job_id included - Oxfordshire,1721690; 1695997; 1819710; 107617602; 107626591; 107626594; 107626596; 1721685; 107758331
 selection scenario - Surrey,SCENARIO_4_BELOW_PUBLISH_THRESHOLD
-selection message - Surrey,Surrey selection below publish threshold: 3/6 credible roles. Do not publish/refresh this slice from this run.
-credible total - Surrey,3
-high confidence count - Surrey,2
-anchor elastic count - Surrey,1
-other elastic count - Surrey,0
-total rows output - Surrey,3
-job_id included - Surrey,107776110; 107741924; 1692926
+selection message - Surrey,Surrey selection below publish threshold: 4/6 credible roles. Do not publish/refresh this slice from this run.
+credible total - Surrey,4
+high confidence count - Surrey,3
+anchor elastic count - Surrey,0
+other elastic count - Surrey,1
+total rows output - Surrey,4
+job_id included - Surrey,107741924; 1692926; 1808686; 1808682
 selection scenario - Wiltshire,SCENARIO_3_COMPLETE_WITH_OTHER_ELASTIC
-selection message - Wiltshire,"Wiltshire selection complete: 7 selected after HIGH_CONFIDENCE, Swindon ELASTIC_FIT, and other ELASTIC_FIT roles."
-credible total - Wiltshire,7
-high confidence count - Wiltshire,6
+selection message - Wiltshire,"Wiltshire selection complete: 8 selected after HIGH_CONFIDENCE, Swindon ELASTIC_FIT, and other ELASTIC_FIT roles."
+credible total - Wiltshire,8
+high confidence count - Wiltshire,7
 anchor elastic count - Wiltshire,0
 other elastic count - Wiltshire,1
-total rows output - Wiltshire,7
-job_id included - Wiltshire,1787836; 107742510; 107840194; 1693230; 1693131; 107887003; 107899505
+total rows output - Wiltshire,8
+job_id included - Wiltshire,1787836; 107742510; 107840194; 1693230; 1693131; 1709295; 107887003; 107899505

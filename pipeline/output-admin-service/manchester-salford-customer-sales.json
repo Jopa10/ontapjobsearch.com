@@ -1,30 +1,5 @@
 [
   {
-    "job_id": "107876047",
-    "title": "Business Development Executive",
-    "company": "JLA Limited - Agency - Permanent",
-    "advertiser_name": "JLA Limited",
-    "advertiser_type": "Agency",
-    "location": "Not Specified",
-    "region": "Greater Manchester - Manchester & Salford",
-    "country": "UK",
-    "category": "Customer Sales / Sales Advisor",
-    "employment_type": "Permanent",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "",
-    "posted_date": "",
-    "description": "Job title\n\nBusiness Development Executive\n\nFunction\n\nSales\n\nLocation\n\nManchester or Ripponden\n\nReports to\nResponsible for staff\n\nN/A\n\nAbout our business\n\nJLA has been providing critical assets and services to a range of businesses and sectors including Care Homes, Hospitals, Schools, and Hotels for over 50 years click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?iZmgAWfngDyl6fry1R1llhREQF5QYiPzf",
-    "source": "JobG8",
-    "customer_sales_classification": "DIRECT_SALES",
-    "customer_sales_reason": "sales-led title: business development executive",
-    "customer_sales_overlap_policy": "non-exclusive",
-    "work_pattern": "Not Specified",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "107772801",
     "title": "Business Development Executive (Floristry / Wholesale)",
     "company": "Ernest Gordon Recruitment - Agency - Permanent",
@@ -44,56 +19,6 @@
     "source": "JobG8",
     "customer_sales_classification": "DIRECT_SALES",
     "customer_sales_reason": "sales-led title: business development executive",
-    "customer_sales_overlap_policy": "non-exclusive",
-    "work_pattern": "Not Specified",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
-    "job_id": "107903426",
-    "title": "Digital Sales Consultant",
-    "company": "CarFinance 247 - Agency - Permanent",
-    "advertiser_name": "CarFinance 247",
-    "advertiser_type": "Agency",
-    "location": "Not Specified",
-    "region": "Greater Manchester - Manchester & Salford",
-    "country": "UK",
-    "category": "Customer Sales / Sales Advisor",
-    "employment_type": "Permanent",
-    "salary_min": "60000",
-    "salary_max": "60000",
-    "salary_text": "£60000 per year",
-    "posted_date": "",
-    "description": "Are you a driven sales professional with a passion for digital solutions and relationship building?\nWe're looking for a confident and ambitious Digital Sales Consultant to join our growing dealer team at Car finance 247\nIn this role, you'll work closely within our dealer network, speaking directly with automotive dealerships and helping them grow through innovative digital and technology solutio click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?MQiKzVwZdh0u9B4G33OZzTUjmrGchS6ru",
-    "source": "JobG8",
-    "customer_sales_classification": "DIRECT_SALES",
-    "customer_sales_reason": "sales-led title: sales consultant",
-    "customer_sales_overlap_policy": "non-exclusive",
-    "work_pattern": "Not Specified",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
-    "job_id": "107822616",
-    "title": "Sales Executive (Machine Tools & Consumables)",
-    "company": "Ernest Gordon Recruitment - Agency - Permanent",
-    "advertiser_name": "Ernest Gordon Recruitment",
-    "advertiser_type": "Agency",
-    "location": "Not Specified",
-    "region": "Greater Manchester - Manchester & Salford",
-    "country": "UK",
-    "category": "Customer Sales / Sales Advisor",
-    "employment_type": "Permanent",
-    "salary_min": "45000",
-    "salary_max": "45000",
-    "salary_text": "£45000 per year",
-    "posted_date": "",
-    "description": "Sales Executive (Machine Tools & Consumables)\nGlobal Leading OEM Formal Training & Development to become a hands-on Technical Expert\n£32,100 base + £45k OTE + Bonus + Private Healthcare + Company Car + Outstanding OEM Training + Full Expense Package + Full Tooling & Equipment Supplied + Residential Training Course\nManchester / Leeds M62 corridor\nAre you a sales engineer looking to work for a Glo click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?QHpHeWTcrP7DwEm6OPJC8xEjX2ucFPeWy",
-    "source": "JobG8",
-    "customer_sales_classification": "DIRECT_SALES",
-    "customer_sales_reason": "sales-led title: sales executive",
     "customer_sales_overlap_policy": "non-exclusive",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
@@ -172,13 +97,7 @@
     "customer_sales_overlap_policy": "non-exclusive",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Telephone handling",
-      "Customer enquiries",
-      "Systems administration",
-      "Document preparation"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225473515",
@@ -203,10 +122,6 @@
     "customer_sales_overlap_policy": "non-exclusive",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Systems administration"
-    ]
+    "posted_date_basis": ""
   }
 ]

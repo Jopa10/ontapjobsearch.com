@@ -21,12 +21,7 @@
     "legal_family_reason": "approved Legal family title",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Scheduling and bookings",
-      "Quotations"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225116728",
@@ -49,6 +44,30 @@
     "source": "JobG8",
     "legal_family_reason": "approved Legal family title",
     "work_pattern": "Full Time",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
+    "job_id": "107770994",
+    "display_reference": "107770994",
+    "title": "Conveyancing Paralegal",
+    "company": "LJ Recruitment Limited - Agency - Permanent",
+    "advertiser_name": "LJ Recruitment Limited",
+    "advertiser_type": "Agency",
+    "location": "Essex",
+    "region": "Essex",
+    "country": "UK",
+    "category": "Legal Assistant / Paralegal",
+    "employment_type": "Permanent",
+    "salary_min": "30000",
+    "salary_max": "30000",
+    "salary_text": "£30000 per year",
+    "posted_date": "",
+    "description": "Conveyancing Paralegal\nLocation: Chelmsford / Leigh-on-Sea\nHours: Monday-Friday 9:00am-5:30pm\n\nAre you an experienced Conveyancing Paralegal looking to join a friendly, ambitious and growing law firm? This is an exciting opportunity to become part of a successful family-run practice that combines exceptional client service with a supportive team culture click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?wTAUM266l6dd8QY%2beuoULAod1DUET629h",
+    "source": "JobG8",
+    "legal_family_reason": "approved Legal family title",
+    "work_pattern": "Not Specified",
     "salary_period": "Annual",
     "posted_date_basis": ""
   }

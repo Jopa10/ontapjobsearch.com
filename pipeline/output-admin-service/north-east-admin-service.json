@@ -946,12 +946,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Telephone handling",
-      "Email handling",
-      "Records administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225445993",
@@ -1001,11 +996,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Telephone handling",
-      "Data entry"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225456443",
@@ -1080,11 +1071,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Records administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225474293",
@@ -1134,13 +1121,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Systems administration",
-      "Quotations",
-      "Order processing",
-      "Delivery coordination"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225515748",
@@ -1290,11 +1271,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Telephone handling",
-      "Data entry"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "107776158",
@@ -1344,12 +1321,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Scheduling and bookings",
-      "Records administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "107869330",
@@ -1474,12 +1446,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Scheduling and bookings",
-      "Records administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "107870335",
@@ -1705,6 +1672,28 @@
     "posted_date_basis": "source"
   },
   {
+    "job_id": "nhs-5569621",
+    "source": "NHS Jobs",
+    "title": "Medical Receptionist",
+    "company": "The Medical Group",
+    "advertiser_name": "The Medical Group",
+    "location": "Durham, DH7 8NH",
+    "region": "North East",
+    "salary": "Negotiable",
+    "employment_type": "Fixed-Term",
+    "posted_date": "2026-08-28T15:31:19.430893842",
+    "closing_date": "2026-09-18",
+    "description": "The Medical Group are currently seeking an experienced receptionist to work at Meadowfield Surgery. The position is full-time on a 1 year fixed term contract. Receive, assist and care navigate patients to accessing the appropriate service or health care professional in a courteous, efficient and effective way. Provide assistance to the Practice Team and project a friendly and positive image to patients and other visitors, either in person or via the telephone. Open the premises at the start of the day when first to arrive, de-activate alarm and make all necessary preparations to receive patients. When last to leave at the end of the day, ensure that the building is totally secured, internal lights are off, and the alarm is activated following the locking up checklist. Care Navigation signpost patients to the most appropriate service Ensure all new patients are registered onto the computer system promptly and accurately, ensuring they are within the Practice boundary. Explain Practice arrangements and formal requirements to new patients and those seeking temporary cover and ensure procedures are completed. Deal with all general enquiries, explain procedures and make new and follow-up appointments. Chaperone patients as and when required. Action medication queries, repeat prescriptions, online repeat prescription requests in a prompt manner. Liaise with patients and pharmacies to resolve issues with medication. Receive SystmOne training, the Practices computer system, and fully utilise the system. Enter requests for home visits electronically on SystmOne, ensuring all relevant details are documented accurately. Open and scan daily post onto SystmOne, allocating to the relevant clinician. Advise patients of relevant charges for private services (Non General Medical Services) and accept payment. Provide general support to clinicians, management team and other health professionals. Provide cover for colleagues in the event of sickness and shortage which may involve changing shift times/days and surgery base. Work extended hours service as required.",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1466-26-0010",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1466-26-0010",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
+  },
+  {
     "job_id": "nhs-5563197",
     "source": "NHS Jobs",
     "title": "Senior Administrator- Medical Secretary",
@@ -1763,28 +1752,6 @@
     "description": "INTERVIEW DATE: 22nd September 2026 Main duties: Covering reception desk (on a rota basis) Answering telephones Arranging appointments Scanning of clinical documents Supporting the administration team with our daily \"running\" task (please see full job description) 4.2Responsibilities To provide support to all clinical staff To ensure computers are made ready, telephones diverted and re-diverted, rooms opened for surgeries to commence Deal with all incoming and outgoing post Enter updated patient information onto the practice clinical system Receive telephone calls, take messages and respond to enquiries Receive and deal with any requests for repeat medication as appropriate to the role Deal with all ambulance booking requests Ensure collection and distribution of any specimens received Arrange and maintain appointment systems for the primary care team booking and cancelling appointments where appropriate Ensure waiting room is tidy at all times Ensuring locums receive all necessary information Provide support to the attached staff, to ensure patients receive an efficient service Responsible for dealing with actions required on path lab results and correspondence Responsible for IT issues, problem solving including hardware issues with support from third party provider Main duties of the job",
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1981-26-0009",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1981-26-0009",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
-  },
-  {
-    "job_id": "nhs-5555684",
-    "source": "NHS Jobs",
-    "title": "Medical Receptionist",
-    "company": "Betts Avenue Medical Centre",
-    "advertiser_name": "Betts Avenue Medical Centre",
-    "location": "Newcastle Upon Tyne, NE15 6TQ, Newcastle Upon Tyne, NE3 3QP",
-    "region": "North East",
-    "salary": "Negotiable",
-    "employment_type": "Permanent",
-    "posted_date": "2026-08-21T16:00:58.963994091",
-    "closing_date": "2026-09-11",
-    "description": "In order to strengthen our admin team, we are looking for a Medical Receptionist to join the practice. The Medical Receptionist provides a professional, efficient and patient-focused reception and administrative service within a busy GP Surgery. The post holder acts as the first point of contact for patients and healthcare professionals, ensuring a high standard of customer service while maintaining strict confidentiality and compliance with Practice policies. The role supports the smooth running of the practice by managing appointments, responding to patient enquiries, processing clinical administration tasks and assisting the multidisciplinary healthcare team. The post holder will work within the GP surgery systems while promoting patient access to healthcare services. Work in a busy reception and administration team greeting patients at reception and directing them to the relevant practitioner. Answering telephone calls and promptly dealing with patient queries to meet their needs. Signposting patients to alternative services where required. Dealing with requests from Patients to access on line services Other administrative duties as requried To work at either the Kenton or Benwell surgery as reqruied Job Purpose Key Responsibilities Reception and Patient Care Provide a professional, friendly and welcoming service to patients, visitors and healthcare professionals. Act as the first point of contact for patients attending the surgery or contacting the practice via telephone or online services. Direct patients to the most appropriate clinician or healthcare service Assist patients who require urgent medical attention and follow the triage/oncall protocol Monitor patient flow within the waiting area and keep patients informed of delays. Appointment and Access Management Manage the computerised appointment system SystmOne Book, amend and cancel appointments for GPs, nurses, pharmacists, healthcare assistants and other clinicians . Process appointment requests through telephone, online access systems and face-to-face enquiries . Record requests for home visits in accordance with practice protocols. Telephone and Communication Duties Answer incoming calls promptly and efficiently. Handle a high volume of calls while maintaining professionalism and patient confidentiality. Accurately record messages and forward them to clinicians or relevant team members. Communicate effectively with external healthcare organisations including hospitals, community services, pharmacies and laboratories . Patient Administration Process new patient registrations in line with practice procedures. Maintain and update patient records accurately. Scan and file clinical correspondence including hospital letters, discharge summaries, laboratory reports and referral documents . Manage incoming and outgoing correspondence via post and electronic systems. Prescription and Clinical Administration Process repeat prescription requests from patients and pharmacies through telephone, online services and email. Ensure prescription requests are processed in line with practice procedures. Assist with issuing test results and clinical information where appropriate. Ensure specimens are recorded, labelled and sent to the laboratory using the designated courier service. Ensure hospital results and laboratory reports are passed to the appropriate clinician for review when needed. Online Patient Services Promote and assist patients in registering for online services Respond to patient queries received through online messaging systems. Clinic and Practice Support Assist with the organisation and booking of annual reviews and seasonal flu clinics . Support patient recall systems for chronic disease management and annual reviews . Ensure consulting rooms are stocked Check and tidy clinical rooms Compliance, Governance and Safeguarding Maintain strict patient confidentiality in accordance with GDPR Adhere to practice policies including Safeguarding, Infection Prevention and Control, Health and Safety, and Equality and Diversity . Participate in essential training including safeguarding, information governance and mandatory training Teamwork and Professional Conduct Work effectively as part of a team including GPs, nurses, pharmacists, administrators and allied healthcare professionals. Communicate professionally with colleagues and external healthcare providers. Participate in practice meetings, training sessions Person Specification Essential Skills Excellent communication and interpersonal skills. Strong telephone and patient communication skills . Good organisational and time management abilities. Ability to work effectively in a busy environment . Ability to use initiative and prioritise workload. Ability to maintain confidentiality and professionalism at all times. Desirable Skills Experience using clinical systems Knowledge of NHS services, primary care pathways and care navigation . Experience Essential Experience working with the public in a customer service or reception role. Experience handling confidential or sensitive information. Desirable Previous experience in a GP practice, NHS or healthcare setting . Experience managing appointments or working within medical administration . Personal Attributes Professional appearance and positive attitude. Friendly, approachable and empathetic manner. Flexible and adaptable approach to work. Ability to work collaboratively within a team environment. Mature approach with the ability to deal sensitively with patients. Ability to remain calm and professional in high-pressure situations.",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0814-26-0007",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0814-26-0007",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
     "advertiser_type": "",
