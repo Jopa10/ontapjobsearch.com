@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 4
-- automatic review: 40
+- automatic review: 39
 - automatic exclude: 8
 - effective include: 4
-- effective review: 40
+- effective review: 39
 - effective exclude: 8
 
 ## INCLUDE (4)
@@ -72,7 +72,7 @@ job_id: teaching-vacancies-receptionist-ff80cc91-b028-4603-910d-80547a4ad86e
 reason: Approved Southampton catchment.
 ---
 
-## REVIEW (40)
+## REVIEW (39)
 
 ---
 action: 
@@ -119,6 +119,18 @@ company: The Cinnamon Care Collection - Company - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225524482
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Business Administrator
+company: Care Concern Group - Company - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-107907161
 reason: Broad location; review before city inclusion.
 ---
 
@@ -270,18 +282,6 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Housing Repairs Administrator
-company: Thorngate Churcher Trust - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-23643_225537561
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: HR Administrator - Permanent Position
 company: Berry Recruitment - Agency - Permanent
 location: Hampshire
@@ -383,18 +383,6 @@ company: Wild Recruitment - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225508090
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Part Time Finance & Office Administrator
-company: The Workshop - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-107899917
 reason: Broad location; review before city inclusion.
 ---
 

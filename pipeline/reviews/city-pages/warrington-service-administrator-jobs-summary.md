@@ -4,7 +4,7 @@
 - Live route: `/warrington/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 3
+- Effective included jobs: 2
 - Threshold currently met: no
 
 ## How to review
@@ -15,26 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 3
+- automatic include: 2
 - automatic review: 0
-- automatic exclude: 2
-- effective include: 3
+- automatic exclude: 4
+- effective include: 2
 - effective review: 0
-- effective exclude: 2
+- effective exclude: 4
 
-## INCLUDE (3)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Appointments Clerk (Higher Level)
-company: North Cheshire and Mersey NHS Foundation Trust (WHH)
-location: Warrington, WA5 1QG
-source: NHS Jobs
-job_id: nhs-5542085
-reason: Approved conservative Warrington launch catchment.
----
+## INCLUDE (2)
 
 ---
 action: 
@@ -62,7 +50,7 @@ reason: Approved conservative Warrington launch catchment.
 
 ## REVIEW (0)
 
-## EXCLUDE (2)
+## EXCLUDE (4)
 
 ---
 action: 
@@ -73,6 +61,30 @@ company: Building Careers UK Ltd - Agency - Permanent
 location: Runcorn
 source: JobG8
 job_id: jobg8-107752866
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Administration Assistant
+company: Mersey Care NHS Foundation Trust
+location: Runcorn, WA7 2DA
+source: NHS Jobs
+job_id: nhs-5567496
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Contribution Co-Ordinator
+company: Adecco - Agency - Temporary
+location: Runcorn
+source: JobG8
+job_id: jobg8-23643_225434841
 reason: Separate employment market.
 ---
 

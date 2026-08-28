@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 14
 - automatic review: 5
-- automatic exclude: 17
+- automatic exclude: 18
 - effective include: 14
 - effective review: 5
-- effective exclude: 17
+- effective exclude: 18
 
 ## INCLUDE (14)
 
@@ -254,7 +254,19 @@ job_id: jobg8-23643_225519683
 reason: No approved Cambridge catchment rule matched; local review required.
 ---
 
-## EXCLUDE (17)
+## EXCLUDE (18)
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Administration Assistant
+company: East of England Community Health and Care NHS Trust (Cambridge)
+location: Huntingdon, PE29 6NT
+source: NHS Jobs
+job_id: nhs-5567386
+reason: Separate employment market.
+---
 
 ---
 action: 
@@ -380,11 +392,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: GP Receptionist / Administrator
-company: Thomas Walker Westgate Healthcare
-location: Peterborough, PE1 2QP
-source: NHS Jobs
-job_id: nhs-5527811
+title: HAP Coordinator
+company: Home Group Limited - Agency - Temporary
+location: Peterborough
+source: JobG8
+job_id: jobg8-107823440
 reason: Separate employment market.
 ---
 

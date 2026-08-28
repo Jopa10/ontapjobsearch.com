@@ -4,7 +4,7 @@
 - Live route: `/leeds/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 16
+- Effective included jobs: 14
 - Threshold currently met: yes
 
 ## How to review
@@ -15,26 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 16
-- automatic review: 9
+- automatic include: 14
+- automatic review: 8
 - automatic exclude: 21
-- effective include: 16
-- effective review: 9
+- effective include: 14
+- effective review: 8
 - effective exclude: 21
 
-## INCLUDE (16)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Accounts Administrator
-company: Baker Harding Limited - Agency - Permanent
-location: Leeds
-source: JobG8
-job_id: jobg8-107906473
-reason: Approved Leeds catchment.
----
+## INCLUDE (14)
 
 ---
 action: 
@@ -105,18 +93,6 @@ company: CSS - Agency - Contract
 location: Leeds
 source: JobG8
 job_id: jobg8-23643_224689396
-reason: Approved Leeds catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: HR Administrator
-company: Akari Care Limited
-location: Leeds, LS11 5DZ
-source: NHS Jobs
-job_id: nhs-5561629
 reason: Approved Leeds catchment.
 ---
 
@@ -216,7 +192,7 @@ job_id: jobg8-23643_225519206
 reason: Approved Leeds catchment.
 ---
 
-## REVIEW (9)
+## REVIEW (8)
 
 ---
 action: 
@@ -263,18 +239,6 @@ company: De Lacy Academy
 location: Knottingley
 source: Teaching Vacancies
 job_id: teaching-vacancies-data-officer-2291e2c5-eec2-437c-a38c-78271e026f45
-reason: No approved Leeds catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Exams Officer
-company: Bingley Grammar School
-location: Bingley
-source: Teaching Vacancies
-job_id: teaching-vacancies-exams-officer-bingley-grammar-school
 reason: No approved Leeds catchment rule matched; local review required.
 ---
 

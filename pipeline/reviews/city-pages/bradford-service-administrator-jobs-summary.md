@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 7
-- automatic review: 8
-- automatic exclude: 31
+- automatic review: 7
+- automatic exclude: 29
 - effective include: 7
-- effective review: 8
-- effective exclude: 31
+- effective review: 7
+- effective exclude: 29
 
 ## INCLUDE (7)
 
@@ -108,7 +108,7 @@ job_id: jobg8-23643_225476845
 reason: Approved Bradford catchment.
 ---
 
-## REVIEW (8)
+## REVIEW (7)
 
 ---
 action: 
@@ -162,18 +162,6 @@ reason: No approved Bradford catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Exams Officer
-company: Bingley Grammar School
-location: Bingley
-source: Teaching Vacancies
-job_id: teaching-vacancies-exams-officer-bingley-grammar-school
-reason: No approved Bradford catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Office Coordinator
 company: Sayjo Recruitment Ltd - Agency - Permanent
 location: Brighouse
@@ -206,19 +194,7 @@ job_id: teaching-vacancies-receptionist-the-king-s-school-pontefract-west-yorksh
 reason: No approved Bradford catchment rule matched; local review required.
 ---
 
-## EXCLUDE (31)
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Accounts Administrator
-company: Baker Harding Limited - Agency - Permanent
-location: Leeds
-source: JobG8
-job_id: jobg8-107906473
-reason: Separate employment market.
----
+## EXCLUDE (29)
 
 ---
 action: 
@@ -325,18 +301,6 @@ company: CSS - Agency - Contract
 location: Leeds
 source: JobG8
 job_id: jobg8-23643_224689396
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: HR Administrator
-company: Akari Care Limited
-location: Leeds, LS11 5DZ
-source: NHS Jobs
-job_id: nhs-5561629
 reason: Separate employment market.
 ---
 

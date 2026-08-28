@@ -6,7 +6,6 @@ include,jobg8-107760736,Accounts Assistant,Stoneacre Motor Group. - Company - Pe
 include,jobg8-23643_225437275,Depot Administrator,Adecco - Agency - Temporary,York,JobG8,include,include,Approved York catchment.,york,york-service-administrator-jobs
 include,jobg8-107840612,"Design, Artwork & Social Media Co-ordinator",KD Recruitment Limited - Agency - Permanent,York,JobG8,include,include,Approved York catchment.,york,york-service-administrator-jobs
 include,jobg8-107833079,Invoicing Administrator,Capital Outsourcing Group Limited - Agency - Contract,York,JobG8,include,include,Approved York catchment.,york,york-service-administrator-jobs
-include,jobg8-107804499,Sales and Marketing Coordinator,KD Recruitment Limited - Agency - Permanent,York,JobG8,include,include,Approved York catchment.,york,york-service-administrator-jobs
 include,jobg8-107836541,Service Advisor - Ford,Stoneacre Motor Group. - Company - Permanent,York,JobG8,include,include,Approved York catchment.,york,york-service-administrator-jobs
 include,nhs-5550198,Team Administrator,Tees Esk and Wear Valleys NHS Foundation Trust,"York, YO31 7DE",NHS Jobs,include,include,Approved York catchment.,york,york-service-administrator-jobs
 review,jobg8-107893034,Finance Assistant - 12 month contract,SI Recruitment - Agency - Contract,Richmond,JobG8,review,review,No approved York catchment rule matched; local review required.,fallback,york-service-administrator-jobs
@@ -19,9 +18,7 @@ exclude,nhs-5564613,Administrator,Tees Esk and Wear Valleys NHS Foundation Trust
 exclude,nhs-5565624,Administrator - Receptionist,Tees Esk and Wear Valleys NHS Foundation Trust,"Scarborough, YO11 3TU",NHS Jobs,exclude,exclude,Separate employment market.,scarborough,york-service-administrator-jobs
 exclude,teaching-vacancies-apprentice-administrator-braeburn-primary-and-nursery-academy,Apprentice Administrator,Braeburn Primary and Nursery Academy,Scarborough,Teaching Vacancies,exclude,exclude,Separate employment market.,scarborough,york-service-administrator-jobs
 exclude,jobg8-107893393,Distribution Coordinator,MTrec Technical - Agency - Permanent,Northallerton,JobG8,exclude,exclude,Separate employment market.,northallerton,york-service-administrator-jobs
-exclude,jobg8-107893306,Distribution Coordinator,SI Recruitment - Agency - Permanent,Northallerton,JobG8,exclude,exclude,Separate employment market.,northallerton,york-service-administrator-jobs
 exclude,jobg8-23643_225477133,Finance Assistant,IPS Finance - Agency - Permanent,Harrogate,JobG8,exclude,exclude,Separate employment market.,harrogate,york-service-administrator-jobs
 exclude,jobg8-23643_225439444,Receptionist Part Time,KD Recruitment - Agency - Permanent,Scarborough,JobG8,exclude,exclude,Separate employment market.,scarborough,york-service-administrator-jobs
 exclude,teaching-vacancies-senior-administrator-braeburn-primary-and-nursery-academy-scarborough-north-yorkshire,Senior Administrator,Braeburn Primary and Nursery Academy,Scarborough,Teaching Vacancies,exclude,exclude,Separate employment market.,scarborough,york-service-administrator-jobs
-exclude,nhs-5520240,Team Administrator,Tees Esk and Wear Valleys NHS Foundation Trust,"Northallerton, DL6 2FG",NHS Jobs,exclude,exclude,Separate employment market.,northallerton,york-service-administrator-jobs
 exclude,jobg8-23643_225472878,Training and Recruitment administrator,Ashley Kate HR & Finance - Agency - Permanent,Harrogate,JobG8,exclude,exclude,Separate employment market.,harrogate,york-service-administrator-jobs

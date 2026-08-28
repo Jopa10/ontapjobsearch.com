@@ -4,7 +4,7 @@
 - Live route: `/york/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 10
+- Effective included jobs: 9
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 10
+- automatic include: 9
 - automatic review: 5
-- automatic exclude: 11
-- effective include: 10
+- automatic exclude: 9
+- effective include: 9
 - effective review: 5
-- effective exclude: 11
+- effective exclude: 9
 
-## INCLUDE (10)
+## INCLUDE (9)
 
 ---
 action: 
@@ -112,18 +112,6 @@ reason: Approved York catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Sales and Marketing Coordinator
-company: KD Recruitment Limited - Agency - Permanent
-location: York
-source: JobG8
-job_id: jobg8-107804499
-reason: Approved York catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Service Advisor - Ford
 company: Stoneacre Motor Group. - Company - Permanent
 location: York
@@ -206,7 +194,7 @@ job_id: teaching-vacancies-school-office-administrator-askwith-primary-school
 reason: No approved York catchment rule matched; local review required.
 ---
 
-## EXCLUDE (11)
+## EXCLUDE (9)
 
 ---
 action: 
@@ -272,18 +260,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Distribution Coordinator
-company: SI Recruitment - Agency - Permanent
-location: Northallerton
-source: JobG8
-job_id: jobg8-107893306
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Finance Assistant
 company: IPS Finance - Agency - Permanent
 location: Harrogate
@@ -313,18 +289,6 @@ company: Braeburn Primary and Nursery Academy
 location: Scarborough
 source: Teaching Vacancies
 job_id: teaching-vacancies-senior-administrator-braeburn-primary-and-nursery-academy-scarborough-north-yorkshire
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Team Administrator
-company: Tees Esk and Wear Valleys NHS Foundation Trust
-location: Northallerton, DL6 2FG
-source: NHS Jobs
-job_id: nhs-5520240
 reason: Separate employment market.
 ---
 

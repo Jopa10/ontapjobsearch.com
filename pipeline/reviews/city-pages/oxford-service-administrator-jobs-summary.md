@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 9
-- automatic review: 8
-- automatic exclude: 28
+- automatic review: 9
+- automatic exclude: 32
 - effective include: 9
-- effective review: 8
-- effective exclude: 28
+- effective review: 9
+- effective exclude: 32
 
 ## INCLUDE (9)
 
@@ -132,7 +132,19 @@ job_id: nhs-5561560
 reason: Approved conservative Oxford launch catchment.
 ---
 
-## REVIEW (8)
+## REVIEW (9)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Admin Assistant - Care Home
+company: Barchester Healthcare
+location: Banbury, OX15 6EH
+source: NHS Jobs
+job_id: nhs-5558600
+reason: No approved Oxford catchment rule matched; local review required.
+---
 
 ---
 action: 
@@ -230,7 +242,7 @@ job_id: teaching-vacancies-school-office-receptionist-administrative-assistant
 reason: No approved Oxford catchment rule matched; local review required.
 ---
 
-## EXCLUDE (28)
+## EXCLUDE (32)
 
 ---
 action: 
@@ -393,6 +405,18 @@ action:
 decision: exclude
 automatic_decision: exclude
 title: Finance Assistant
+company: Bucks & Berks Recruitment PLC - Agency - Temporary
+location: Oxfordshire
+source: JobG8
+job_id: jobg8-107900814
+reason: Broad county location; not Oxford-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Finance Assistant
 company: The Rosalind Franklin Institute - Company - Permanent
 location: Oxfordshire
 source: JobG8
@@ -428,6 +452,18 @@ reason: Broad county location; not Oxford-city evidence.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: IT Project Coordinator 12month FTC
+company: Safran - Agency - Permanent
+location: Oxfordshire
+source: JobG8
+job_id: jobg8-107893366
+reason: Broad county location; not Oxford-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Lifestyle Coordinator
 company: Care UK - Company - Permanent
 location: Oxfordshire
@@ -445,6 +481,18 @@ company: Planet Recruitment - Agency - Permanent
 location: Oxfordshire
 source: JobG8
 job_id: jobg8-23643_225472773
+reason: Broad county location; not Oxford-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: PURCHASING COORDINATOR
+company: Euro-Projects Recruitment Ltd - Agency - Permanent
+location: Oxfordshire
+source: JobG8
+job_id: jobg8-23643_225462965
 reason: Broad county location; not Oxford-city evidence.
 ---
 
@@ -565,5 +613,17 @@ company: Allen Associates - Agency - Temporary
 location: Oxfordshire
 source: JobG8
 job_id: jobg8-23643_225464784
+reason: Broad county location; not Oxford-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Workplace Coordinator
+company: Winner Recruitment - Agency - Permanent
+location: Oxfordshire
+source: JobG8
+job_id: jobg8-23643_225472204
 reason: Broad county location; not Oxford-city evidence.
 ---

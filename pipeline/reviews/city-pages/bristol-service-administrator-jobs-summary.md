@@ -4,7 +4,7 @@
 - Live route: `/bristol/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 17
+- Effective included jobs: 19
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 17
+- automatic include: 19
 - automatic review: 2
 - automatic exclude: 1
-- effective include: 17
+- effective include: 19
 - effective review: 2
 - effective exclude: 1
 
-## INCLUDE (17)
+## INCLUDE (19)
 
 ---
 action: 
@@ -53,10 +53,10 @@ action:
 decision: include
 automatic_decision: include
 title: Administrator
-company: Bristol NHS Foundation Trust
-location: Bristol, BS2 8AE
+company: Sirona care & health CIC
+location: Bristol, BS10 6DF
 source: NHS Jobs
-job_id: nhs-5550852
+job_id: nhs-5554527
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -65,10 +65,10 @@ action:
 decision: include
 automatic_decision: include
 title: Administrator
-company: Oxleas NHS Foundation Trust
-location: Bristol, BS16 9QJ
+company: Sirona care & health CIC
+location: Bradley Stoke, Bristol, BS32 4LB
 source: NHS Jobs
-job_id: nhs-5559839
+job_id: nhs-5554722
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -172,6 +172,18 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Lead Contract Support Administrator
+company: Rydon Group Ltd - Agency - Permanent
+location: Bristol
+source: JobG8
+job_id: jobg8-107858688
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Office Administrator
 company: Lancer Scott Holdings Ltd - Agency - Permanent
 location: Bristol
@@ -228,6 +240,18 @@ job_id: jobg8-23643_225466068
 reason: Approved conservative Bristol launch catchment.
 ---
 
+---
+action: 
+decision: include
+automatic_decision: include
+title: Service Desk Analyst - Bristol
+company: Experis - Agency - Permanent
+location: Bristol
+source: JobG8
+job_id: jobg8-107896132
+reason: Approved conservative Bristol launch catchment.
+---
+
 ## REVIEW (2)
 
 ---
@@ -235,10 +259,10 @@ action:
 decision: review
 automatic_decision: review
 title: Administrator
-company: Oxford Health NHS Trust
-location: Keynsham, BS31 1HA
+company: Sirona care & health CIC
+location: Congresbury, BS495AA
 source: NHS Jobs
-job_id: nhs-5545118
+job_id: nhs-5554523
 reason: No approved Bristol catchment rule matched; local review required.
 ---
 

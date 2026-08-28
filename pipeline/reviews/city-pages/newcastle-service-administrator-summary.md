@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 21
-- automatic review: 25
+- automatic review: 26
 - automatic exclude: 21
 - effective include: 21
-- effective review: 25
+- effective review: 26
 - effective exclude: 21
 
 ## INCLUDE (21)
@@ -276,7 +276,7 @@ job_id: nejobs-300777
 reason: Approved Newcastle catchment.
 ---
 
-## REVIEW (25)
+## REVIEW (26)
 
 ---
 action: 
@@ -575,6 +575,18 @@ company: Office Angels - Agency - Temporary
 location: Ryton
 source: JobG8
 job_id: jobg8-23643_225527835
+reason: No approved Newcastle catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Tenant Engagement Officer
+company: Northumberland County Council
+location: Eddie Ferguson House, Blyth, United Kingdom
+source: NEJobs
+job_id: nejobs-301243
 reason: No approved Newcastle catchment rule matched; local review required.
 ---
 

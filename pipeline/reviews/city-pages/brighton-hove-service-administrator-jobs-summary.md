@@ -4,7 +4,7 @@
 - Live route: `/brighton-hove/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 4
+- Effective included jobs: 5
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 4
+- automatic include: 5
 - automatic review: 24
-- automatic exclude: 5
-- effective include: 4
+- automatic exclude: 3
+- effective include: 5
 - effective review: 24
-- effective exclude: 5
+- effective exclude: 3
 
-## INCLUDE (4)
+## INCLUDE (5)
 
 ---
 action: 
@@ -45,6 +45,18 @@ company: Sussex Community NHS Foundation Trust
 location: Brighton, BN2 3EW
 source: NHS Jobs
 job_id: nhs-5564904
+reason: Approved Brighton & Hove catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Mental Health Act Administrator and Medical Secretary
+company: Elysium Healthcare
+location: Brighton, BN3 4FH
+source: NHS Jobs
+job_id: nhs-5551395
 reason: Approved Brighton & Hove catchment.
 ---
 
@@ -362,7 +374,7 @@ job_id: jobg8-23643_225462263
 reason: Broad location; review before city inclusion.
 ---
 
-## EXCLUDE (5)
+## EXCLUDE (3)
 
 ---
 action: 
@@ -392,34 +404,10 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: HR & Admin Assistant
-company: Robsack Wood Primary School
-location: St Leonards-on-Sea
-source: Teaching Vacancies
-job_id: teaching-vacancies-hr-admin-assistant-robsack-wood-primary-school
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Receptionist
 company: Arlington Road Medical Practice
 location: Eastbourne, BN21 1DH
 source: NHS Jobs
 job_id: nhs-5536742
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Team Administrator
-company: Sussex Partnership NHS Foundation Trust
-location: Crawley, RH11 7DH
-source: NHS Jobs
-job_id: nhs-5537052
 reason: Separate employment market.
 ---

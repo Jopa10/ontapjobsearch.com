@@ -4,7 +4,7 @@
 - Live route: `/manchester/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 27
+- Effective included jobs: 29
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 27
+- automatic include: 29
 - automatic review: 0
 - automatic exclude: 3
-- effective include: 27
+- effective include: 29
 - effective review: 0
 - effective exclude: 3
 
-## INCLUDE (27)
+## INCLUDE (29)
 
 ---
 action: 
@@ -124,11 +124,11 @@ reason: Approved conservative Manchester launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Finance Assistant
-company: Forrest Recruitment - Agency - Permanent
+title: Customer Service & Website Administrator
+company: NowSkills - Agency - Permanent
 location: Manchester
 source: JobG8
-job_id: jobg8-23643_225501230
+job_id: jobg8-107883067
 reason: Approved conservative Manchester launch catchment.
 ---
 
@@ -220,6 +220,18 @@ reason: Approved conservative Manchester launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Operations Coordinator
+company: phs Group - Company - Permanent
+location: Manchester
+source: JobG8
+job_id: jobg8-107896400
+reason: Approved conservative Manchester launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Property Management Administrator
 company: Aspire Recruitment - Agency - Temporary
 location: Manchester
@@ -233,10 +245,10 @@ action:
 decision: include
 automatic_decision: include
 title: Receptionist
-company: Delamere Medical Practice
-location: Manchester, M32 0DF
+company: Florence House Medical Practice
+location: Manchester, M11 1JG
 source: NHS Jobs
-job_id: nhs-5550799
+job_id: nhs-5530819
 reason: Approved conservative Manchester launch catchment.
 ---
 
@@ -309,6 +321,18 @@ company: MANCHESTER COMMUNITY CENTRE - Agency - Permanent
 location: Manchester
 source: JobG8
 job_id: jobg8-1664753
+reason: Approved conservative Manchester launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Support Coordinator
+company: Creative Support - Agency - Permanent
+location: Manchester
+source: JobG8
+job_id: jobg8-107864416
 reason: Approved conservative Manchester launch catchment.
 ---
 

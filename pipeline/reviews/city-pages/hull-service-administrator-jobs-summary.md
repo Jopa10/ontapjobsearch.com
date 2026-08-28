@@ -4,7 +4,7 @@
 - Live route: `/hull/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 11
+- Effective included jobs: 13
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 11
+- automatic include: 13
 - automatic review: 5
 - automatic exclude: 0
-- effective include: 11
+- effective include: 13
 - effective review: 5
 - effective exclude: 0
 
-## INCLUDE (11)
+## INCLUDE (13)
 
 ---
 action: 
@@ -33,6 +33,18 @@ company: Stafforce Recruitment - Agency - Permanent
 location: Hull
 source: JobG8
 job_id: jobg8-23643_225499816
+reason: Approved conservative Hull launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Admin / Accounts Assistant
+company: Get Staffed Online Recruitment - Agency - Permanent
+location: Hull
+source: JobG8
+job_id: jobg8-107906912
 reason: Approved conservative Hull launch catchment.
 ---
 
@@ -88,6 +100,18 @@ reason: Approved conservative Hull launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Graduate Customer Service Coordinator
+company: Consortium Professional Recruitment - Agency - Permanent
+location: Hull
+source: JobG8
+job_id: jobg8-107902261
+reason: Approved conservative Hull launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Part Time Sales Administrator
 company: Agenda Life Sciences - Agency - Permanent
 location: Hull
@@ -124,18 +148,6 @@ reason: Approved conservative Hull launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Receptionist
-company: The Oaks Medical Centre
-location: Hull, HU4 6RF
-source: NHS Jobs
-job_id: nhs-5552185
-reason: Approved conservative Hull launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Reigonal Network Coordinator (Maternity Cover)
 company: Vizion Network - Agency - Permanent
 location: Hull
@@ -153,6 +165,18 @@ company: Edwards & Pearce - Agency - Permanent
 location: Hull
 source: JobG8
 job_id: jobg8-23643_225511107
+reason: Approved conservative Hull launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Senior Administrator
+company: Hull University Teaching Hospitals NHS Trust
+location: Hull, HU16 5JQ
+source: NHS Jobs
+job_id: nhs-5559811
 reason: Approved conservative Hull launch catchment.
 ---
 

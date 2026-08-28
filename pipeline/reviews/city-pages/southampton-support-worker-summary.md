@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 2
-- automatic review: 6
+- automatic review: 5
 - automatic exclude: 4
 - effective include: 2
-- effective review: 6
+- effective review: 5
 - effective exclude: 4
 
 ## INCLUDE (2)
@@ -48,7 +48,7 @@ job_id: jobg8-1401784780
 reason: Approved Southampton catchment.
 ---
 
-## REVIEW (6)
+## REVIEW (5)
 
 ---
 action: 
@@ -95,18 +95,6 @@ company: Hampshire County Council - Company - Permanent
 location: Romsey
 source: JobG8
 job_id: jobg8-1401784767
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Day Opportunities Support Worker
-company: Hampshire County Council - Company - Permanent
-location: Alton
-source: JobG8
-job_id: jobg8-1401784594
 reason: Broad location; review before city inclusion.
 ---
 
