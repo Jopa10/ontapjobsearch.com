@@ -1,12 +1,12 @@
 # JobG8 Legal Assistant / Paralegal family discovery
 
-Feed: **2026-08-27.xlsx**
+Feed: **2026-08-28.xlsx**
 Jobs in feed: **10,000**
-Raw broad possible universe before exclusions/dedupe: **102**
+Raw broad possible universe before exclusions/dedupe: **98**
 Reference-key duplicates within broad universe: **0**
-Reference-deduped broad universe: **102**
+Reference-deduped broad universe: **98**
 Additional cross-reference content duplicates: **0**
-Content-unique broad universe: **102**
+Content-unique broad universe: **98**
 
 This is discovery evidence only. JobG8 classification is reported but never used as a candidate gate.
 All source rows remain in the CSV with duplicate flags; viability, geography and recurrence use content-unique adverts.
@@ -14,10 +14,10 @@ Salary rule applied diagnostically: **over £50,000 = OUT; exactly £50,000 is n
 
 ## Early volume viability gate
 
-Provisional LIKELY_IN: **87**
-Provisional BORDERLINE: **2**
+Provisional LIKELY_IN: **82**
+Provisional BORDERLINE: **3**
 Provisional OUT (specialist/salary): **13**
-Estimated genuine inventory before deep advert review: **~88** (working range **87–89**).
+Estimated genuine inventory before deep advert review: **~84** (working range **82–85**).
 Viability floor: **~100 genuine jobs nationally**.
 Early verdict: **STOP / VERY THIN**.
 
@@ -25,19 +25,19 @@ Early verdict: **STOP / VERY THIN**.
 
 | Decision | Content-unique jobs |
 |---|---:|
-| LIKELY_IN | 87 |
+| LIKELY_IN | 82 |
 | OUT_SPECIALIST | 9 |
 | OUT_SALARY | 4 |
-| BORDERLINE | 2 |
+| BORDERLINE | 3 |
 
 ## Salary distribution — content-unique broad universe
 
 | Salary bucket | Jobs |
 |---|---:|
-| £25k–£30k | 50 |
-| missing/unknown | 20 |
-| £30k–£40k | 18 |
-| <£25k | 7 |
+| £25k–£30k | 53 |
+| missing/unknown | 17 |
+| £30k–£40k | 15 |
+| <£25k | 6 |
 | >£50,000 OUT | 4 |
 | £40k–£50,000 | 3 |
 
@@ -47,50 +47,50 @@ Classification column: **/Job/Classification**
 
 | JobG8 classification | Jobs |
 |---|---:|
-| Legal | 85 |
-| Administration | 16 |
+| Legal | 82 |
+| Administration | 15 |
 | Call Centre / CustomerService | 1 |
 
 ## Geography — evidence only, not an occupational gate
 
 Canonical UK assessment universe: **78 markets**.
-Content-unique candidates mapping into that UK market universe: **99**.
+Content-unique candidates mapping into that UK market universe: **95**.
 Content-unique candidates outside it or unresolved: **3**.
 The national occupational discovery count above is not reduced by geography. Geography is used only to describe spread after occupational candidate discovery.
 Exact detail aliases are rolled up to their canonical UK assessment market; ambiguous generic geo values remain unresolved rather than being forced into the wrong market.
 
 | Assessable market / geo result | Jobs | In UK market universe? |
 |---|---:|---|
-| London | 11 | YES |
+| London | 13 | YES |
+| Yorkshire - West | 6 | YES |
 | Yorkshire - South | 5 | YES |
-| Yorkshire - West | 5 | YES |
-| Bristol & Bath | 5 | YES |
-| Kent | 4 | YES |
 | Bedfordshire | 4 | YES |
 | Greater Manchester - Manchester & Salford | 4 | YES |
-| West Midlands - Birmingham & Solihull | 4 | YES |
-| Hampshire | 4 | YES |
+| Kent | 4 | YES |
+| Bristol & Bath | 4 | YES |
 | Surrey | 4 | YES |
+| Wales South - Valleys | 4 | YES |
 | Nottinghamshire | 3 | YES |
-| Essex | 3 | YES |
+| West Midlands - Birmingham & Solihull | 3 | YES |
 | Wiltshire | 3 | YES |
-| Scotland Central - Edinburgh & Lothians | 3 | YES |
 | Other / Unknown | 3 | NO |
-| Devon | 2 | YES |
-| Wales South - Cardiff & Vale | 2 | YES |
 | Cambridgeshire | 2 | YES |
 | Leicestershire | 2 | YES |
 | Hertfordshire | 2 | YES |
 | Shropshire | 2 | YES |
-| Lincolnshire | 2 | YES |
+| Essex | 2 | YES |
+| Hampshire | 2 | YES |
 | North East | 2 | YES |
-| Wales South - Valleys | 2 | YES |
-| Wales - West | 2 | YES |
+| Scotland Central - Edinburgh & Lothians | 2 | YES |
 | Oxfordshire | 2 | YES |
 | Wales South - Gwent | 2 | YES |
-| Buckinghamshire | 2 | YES |
+| Wales South - Cardiff & Vale | 2 | YES |
 | Scotland Central - Tayside | 1 | YES |
 | Northern Ireland - East | 1 | YES |
+| Devon | 1 | YES |
+| Lincolnshire | 1 | YES |
+| Cheshire - Warrington & Halton | 1 | YES |
+| Northamptonshire | 1 | YES |
 
 ## Next gate
 

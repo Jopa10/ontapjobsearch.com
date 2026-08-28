@@ -1,8 +1,8 @@
-# JobG8 Legal Assistant / Paralegal proof-region evidence candidates
+# JobG8 Warehouse & Logistics Operations proof-region evidence candidates
 
 Status: **SKIPPED / BELOW NATIONAL VIABILITY FLOOR**.
 
-Content-unique LIKELY_IN + BORDERLINE national inventory: **85**.
+Content-unique LIKELY_IN + BORDERLINE national inventory: **42**.
 Viability floor: **100**.
 
 No proof-region advert expansion is generated for a family that is below the national scale gate.
