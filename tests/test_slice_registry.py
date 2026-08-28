@@ -102,6 +102,31 @@ class SliceRegistryTests(unittest.TestCase):
             },
         )
 
+    def test_customer_service_live_slices_publish_from_one_current_job(self):
+        from scripts import registered_category_pipeline as customer_service
+
+        customer_service_regions = {
+            region
+            for region, category in live_slices()
+            if category == "customer_service_contact_centre"
+        }
+        self.assertEqual(
+            customer_service_regions,
+            {"Hampshire", "London", "Staffordshire", "Surrey"},
+        )
+        self.assertEqual(customer_service.LIVE_PUBLISH_FLOOR, 1)
+        for region in customer_service_regions:
+            self.assertTrue(
+                output_filename(region, "customer_service_contact_centre").endswith(
+                    "-customer-service.json"
+                )
+            )
+            self.assertTrue(
+                dynamic_data_path(region, "customer_service_contact_centre")
+                .as_posix()
+                .endswith("/customer-service-jobs.json")
+            )
+
     def test_marketing_live_set_is_exactly_the_five_owner_approved_regions(self):
         marketing_regions = {
             region for region, category in live_slices() if category == "marketing"
