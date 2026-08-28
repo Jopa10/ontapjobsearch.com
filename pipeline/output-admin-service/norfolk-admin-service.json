@@ -50,31 +50,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "107877724",
-    "title": "Nature City Norwich Project Coordinator",
-    "company": "South Norfolk and Broadland Council - Agency - Permanent",
-    "location": "Norfolk",
-    "region": "Norfolk",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "40000",
-    "salary_max": "40000",
-    "salary_text": "£40000 per year",
-    "posted_date": "",
-    "description": "Band E £37,598 - £41,512 per annum pro rata - actual Salary Range based on 30 hours per week: £30,484 - £33, hours per week\n\nDo you have a passion for the environment and a talent for delivering complex, multi-partner projects?\n\nWe're looking for a Project Coordinator to lead Broadland District Council and South Norfolk Council's contributions to the exciting Nature City Norwich project, a coll click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?1tcg6Aj2zayYFSFnS4FldnHHN40ofhCZb",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "South Norfolk and Broadland Council",
-    "advertiser_type": "Agency",
-    "work_pattern": "Part Time",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "1642193",
     "title": "Administrator",
     "company": "Pilgrims' Friend Society - Agency - Permanent",
@@ -500,6 +475,31 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "107906887",
+    "title": "Distribution Coordinator",
+    "company": "Tarmac Trading Limited - Company - Permanent",
+    "location": "Norfolk",
+    "region": "Norfolk",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "",
+    "posted_date": "",
+    "description": "While the role will involve some selling and converting enquiries into sales, the primary focus is on day-to-day distribution. This includes planning and coordinating deliveries, maximising loads from each truck, and ensuring excellent customer service throughout the order and delivery process. Strong verbal communication and problem-solving skills are therefore essential click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?vAYWCB8ag%2fgT3h1klPSQl10TLn7AWUywi",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Tarmac Trading Limited",
+    "advertiser_type": "Company",
+    "work_pattern": "Not Specified",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
     "job_id": "nhs-5557389",
     "source": "NHS Jobs",
     "title": "Receptionist",
@@ -515,7 +515,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9246-26-0957",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9246-26-0957",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5554600",
@@ -533,7 +537,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9234-26-0727",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9234-26-0727",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5550506",
@@ -551,7 +559,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0179-1085",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0179-1085",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5549454",
@@ -569,7 +581,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9839-26-0315",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9839-26-0315",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5544865",
@@ -587,6 +603,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9448-26-0296",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9448-26-0296",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

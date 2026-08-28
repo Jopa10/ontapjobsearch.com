@@ -350,6 +350,31 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "107893505",
+    "title": "Learning and Development Coordinator",
+    "company": "Whale Tankers - Agency - Permanent",
+    "location": "Solihull",
+    "region": "West Midlands - Birmingham & Solihull",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "",
+    "posted_date": "",
+    "description": "Learning & Development Coordinator Salary - Dependent on Experience Solihull Full-Time Permanent\nWe are looking for a Learning & Development Coordinator to design, coordinate, deliver and evaluate learning and development initiatives that enhance employee skills, knowledge, and performance, supporting both individual career development and organisational success click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?Zg1fD7qgbpw%2bipvmdvlELHgl%2blEejoaie",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Whale Tankers",
+    "advertiser_type": "Agency",
+    "work_pattern": "Full Time",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
     "job_id": "nhs-5564526",
     "source": "NHS Jobs",
     "title": "Band 3 Administrator",
@@ -365,7 +390,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9820-26-0589",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9820-26-0589",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5566975",
@@ -383,7 +412,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/L0034-26-3590",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/L0034-26-3590",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5557628",
@@ -401,6 +434,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1771-26-0000",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1771-26-0000",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

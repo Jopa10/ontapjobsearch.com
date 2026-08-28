@@ -125,6 +125,31 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "107902261",
+    "title": "Graduate Customer Service Coordinator",
+    "company": "Consortium Professional Recruitment - Agency - Permanent",
+    "location": "Hull",
+    "region": "Yorkshire - East",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "26000",
+    "salary_max": "26000",
+    "salary_text": "£26000 per year",
+    "posted_date": "",
+    "description": "Job Title: Graduate Customer Service Coordinator\nLocation: Hull\nSalary: £27,000\n\nConsortium Professional Recruitment are pleased to be working with an established and growing organisation to recruit a Graduate Customer Service Coordinator. This is an exciting opportunity for a recent graduate or someone looking to begin their first professional role after university click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?Zg1fD7qgbpzU1XQAiMyW6Vy32FLgapP7e",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Consortium Professional Recruitment",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
     "job_id": "23643_225451205",
     "title": "Reigonal Network Coordinator (Maternity Cover)",
     "company": "Vizion Network - Agency - Permanent",
@@ -196,6 +221,31 @@
     "advertiser_name": "KD Recruitment",
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
+    "job_id": "107906912",
+    "title": "Admin / Accounts Assistant",
+    "company": "Get Staffed Online Recruitment - Agency - Permanent",
+    "location": "Hull",
+    "region": "Yorkshire - East",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "30000",
+    "salary_max": "30000",
+    "salary_text": "£30000 per year",
+    "posted_date": "",
+    "description": "Admin / Accounts Assistant\n\nPart Time or Full Time\n\nDo you have experience in general business administration or in a company accounts team Would you like a flexible role so that you can fit it around family or other commitments Are you someone who is in admin but looking to learn bookkeeping and frustrated that you're not getting the chance to show what you can do Are you someone who takes pride in t click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?G%2b5YiGNoEgocnWMI1Spt2UuWrJs%2fRHVSn",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Get Staffed Online Recruitment",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
     "salary_period": "Annual",
     "posted_date_basis": ""
   },
@@ -340,7 +390,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5769-26-0004",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5769-26-0004",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5548104",
@@ -358,7 +412,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9338-26-0412",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9338-26-0412",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5546058",
@@ -376,6 +434,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9338-26-0409",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9338-26-0409",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

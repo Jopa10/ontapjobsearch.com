@@ -1,33 +1,5 @@
 [
   {
-    "job_id": "teaching-vacancies-exams-officer-bingley-grammar-school",
-    "title": "Exams Officer",
-    "company": "Bingley Grammar School",
-    "location": "Bingley",
-    "region": "Yorkshire - West",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['full time']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "£31,537-£33,699",
-    "work_pattern": "",
-    "posted_date": "2026-08-12",
-    "closing_date": "2026-08-28",
-    "closing_datetime": "2026-08-28T09:00:00+01:00",
-    "summary": "Exams Officer with Bingley Grammar School in Bingley. ['full time']; £31,537-£33,699.",
-    "description": "Bingley Grammar School is recruiting for this vacancy in Bingley.\n\nThe advertised position is Exams Officer.\n\nThe source lists the employment type as ['full time'].\n\nThe advertised salary or pay scale is £31,537-£33,699.\n\nThe stated application deadline is 2026-08-28T09:00:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/exams-officer-bingley-grammar-school?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Bingley Grammar School",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
-  },
-  {
     "job_id": "teaching-vacancies-receptionist-the-king-s-school-pontefract-west-yorkshire",
     "title": "Receptionist",
     "company": "The King's School",
@@ -508,31 +480,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "107906473",
-    "title": "Accounts Administrator",
-    "company": "Baker Harding Limited - Agency - Permanent",
-    "location": "Leeds",
-    "region": "Yorkshire - West",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "30000",
-    "salary_max": "30000",
-    "salary_text": "£30000 per year",
-    "posted_date": "",
-    "description": "Role Overview\nThe Accounts Administrator will provide accurate, organised support across day-to-day finance administration. This is an excellent opportunity for a detail-focused professional who takes pride in maintaining reliable financial records and keeping essential processes running smoothly.\nKey Responsibilities Weekly wages - prepare and process weekly wages accurately and on time click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?mDcEDJmYTbwj10OypwqgwPVCAGhCvzTlt",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Baker Harding Limited",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "23643_225476554",
     "title": "HR Assistant",
     "company": "Sewell Wallis Ltd - Agency - Permanent",
@@ -973,7 +920,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1174-26-0001",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1174-26-0001",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5558659",
@@ -991,7 +942,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3394-26-0006",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3394-26-0006",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5555590",
@@ -1009,7 +964,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0145-26-0127",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0145-26-0127",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5551474",
@@ -1027,7 +986,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1533-26-0007",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1533-26-0007",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5544150",
@@ -1045,7 +1008,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0505-26-0142",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0505-26-0142",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5539626",
@@ -1063,7 +1030,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E9847-26-0269",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E9847-26-0269",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5565093",
@@ -1081,7 +1052,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2598-26-0009",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2598-26-0009",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5565812",
@@ -1099,24 +1074,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9372-26-0450",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9372-26-0450",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
-  },
-  {
-    "job_id": "nhs-5561629",
-    "source": "NHS Jobs",
-    "title": "HR Administrator",
-    "company": "Akari Care Limited",
-    "advertiser_name": "Akari Care Limited",
-    "location": "Leeds, LS11 5DZ",
-    "region": "Yorkshire - West",
-    "salary": "Negotiable",
-    "employment_type": "Permanent",
-    "posted_date": "2026-08-26T13:56:01.941141432",
-    "closing_date": "2026-10-25",
-    "description": "HR Administrator Role: The HR Administrator plays a key role in supporting the day-to-day operations of the Employee Relations Team. This role requires strong organisational skills, attention to detail, and the ability to handle sensitive information with confidentiality. Duties and Responsibilities: Management of the HR inbox and phoneline which is the first point of contact for general queries Ensuring queries are responded to within efficient timescales and identifying high priority emails which need to be escalated appropriately Maintain accurate and up-to-date employee records and ER systems Prepare and review HR documentation, such as Contracts of Employment, Offer Letters, Absence Review Invites, Maternity confirmation letters Conduct calls with company leavers to support employee retention strategies Issue company feedback surveys, collate data, and prepare results to be shared with senior stakeholders Support formal ER meetings through the provision of clear and accurate notetaking Provide administrative support to the ER advisors and management team ... The HR Administrator plays a key role in supporting the day-to-day operations of the Employee Relations Team. This role requires strong organisational skills, attention to detail, and the ability to handle sensitive information with confidentiality. Duties include the management of the HR inbox and phoneline, responding to queries swiftly, maintaining employee records, preparing HR documentation, conducting calls with company leavers, issuing feedback surveys, supporting formal ER meetings, and assisting with HR projects. Essentials include strong organisational skills, previous experience in Employee Relations, knowledge of employment law, proficiency in Microsoft Office, and report generation capabilities. Desirable qualifications include CIPD Level 3 (or working towards) and experience in the Social Care sector. Above all, applicants should approach the role with a personalised, kind, and caring attitude. HR Administrator Role: The HR Administrator plays a key role in supporting the day-to-day operations of the Employee Relations Team. This role requires strong organisational skills, attention to detail, and the ability to handle sensitive information with confidentiality. Duties and Responsibilities: Management of the HR inbox and phoneline which is the first point of contact for general queries Ensuring queries are responded to within efficient timescales and identifying high priority emails which need to be escalated appropriately Maintain accurate and up-to-date employee records and ER systems Prepare and review HR documentation, such as Contracts of Employment, Offer Letters, Absence Review Invites, Maternity confirmation letters Conduct calls with company leavers to support employee retention strategies Issue company feedback surveys, collate data, and prepare results to be shared with senior stakeholders Support formal ER meetings through the provision of clear and accurate notetaking Provide administrative support to the ER advisors and management team Responding to reference request for current and previous employees Assist with HR projects and initiatives as required Essentials: Strong organisational and time management skills Previous experience working within an Employee Relations function Foundational knowledge of employment law and ER best practices Proficiency in Microsoft Office, excel and word applications Capable of generate reports and data when required Desirable: CIPD Level 3 (or working towards) Experience within the Social Care sector is advantageous but not a necessity Above all we are looking for someone that shares in our company values. Applicants will need a personalised approach to both the role and other Colleagues, who treats people in a kind & caring way, can be trusted within their role displaying community spirit.",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/W0033-26-1144",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/W0033-26-1144",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

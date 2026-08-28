@@ -259,6 +259,31 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "107858688",
+    "title": "Lead Contract Support Administrator",
+    "company": "Rydon Group Ltd - Agency - Permanent",
+    "location": "Bristol",
+    "region": "Bristol & Bath",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "28000",
+    "salary_max": "28000",
+    "salary_text": "£28000 per year",
+    "posted_date": "",
+    "description": "We now have an exciting opportunity for a Lead Contract Support Administrator to join our hard facilities repairs and maintenance team at Blackberry Hill Hospital in Bristol.\n\nRydon has established a strong reputation for the quality within our maintenance division with a particular focus on NHS Hard Facilities Management - consisting of responsive repairs as well as planned/preventative maintenance click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?G%2b5YiGNoEgq%2f3%2b2xZUaFaaU95Fjzed%2fxn",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Rydon Group Ltd",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
     "job_id": "23643_225436357",
     "title": "Air Freight Co-Ordinator",
     "company": "Travail Employment Group - Agency - Permanent",
@@ -359,6 +384,31 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "107896132",
+    "title": "Service Desk Analyst - Bristol",
+    "company": "Experis - Agency - Permanent",
+    "location": "Bristol",
+    "region": "Bristol & Bath",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "30000",
+    "salary_max": "30000",
+    "salary_text": "£30000 per year",
+    "posted_date": "",
+    "description": "Service Desk Analyst - Bristol\n\nThis is an exciting opportunity to work for a high-profile North Bristol based company who are looking to expand their Service Desk team which provides first class support to employees based across two offices.\n\nThis is a busy and varied role providing technical support on a variety of systems, answering support queries either onsite or via phone or email click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?aziU08XVyRFGKnW%2bFerM769vee9S4wKZd",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Experis",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
     "job_id": "107793815",
     "title": "Recruitment Coordinator",
     "company": "Alexander Mae (HR) Ltd - Agency - Permanent",
@@ -424,7 +474,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C0023-26-1038",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C0023-26-1038",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5559839",
@@ -442,7 +496,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9277-26-0871",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9277-26-0871",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5545118",
@@ -460,7 +518,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9267-26-1002",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9267-26-1002",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5550852",
@@ -478,6 +540,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9387-26-1739",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9387-26-1739",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

@@ -550,27 +550,27 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "107905005",
-    "title": "Financial Services Administrator",
-    "company": "North Oak Recruitment - Agency - Permanent",
+    "job_id": "107907804",
+    "title": "Key Accounts Administrator",
+    "company": "Otis - Company - Permanent",
     "location": "Leicestershire",
     "region": "Leicestershire",
     "country": "UK",
     "category": "Admin/Service – Office Support",
     "employment_type": "Permanent",
-    "salary_min": "26000",
-    "salary_max": "26000",
-    "salary_text": "£26000 per year",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "",
     "posted_date": "",
-    "description": "Financial Services Administrator\n\nLeicester (our Ref AL1424) office based, full-time role\n\nSalary up to £26,000 dep on experience + benefits\n\nMy client is an established IFA based in Leicester and they have an exciting new opportunity for an individual to join their administrative team.Ideally you will have experience within Financial Services or Banking, although consideration may be given to individu click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?QHpHeWTcrP5CrLc8ZlT1Gb5uEXNK3ZOMy",
+    "description": "Role Overview\nWould you like to join a truly international, talent driven company that values Safety, Ethics, Quality, Innovation and Employee Opportunity?\nOtis is growing and we are recruiting a Customer Care Champion working within our Service Delivery Team, based in Leicester.\nThe working days are Monday to Friday click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?mDcEDJmYTbyb6Y0xqjYRYyB5h1%2bxKZOKt",
     "source": "JobG8",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "North Oak Recruitment",
-    "advertiser_type": "Agency",
-    "work_pattern": "Full Time",
+    "advertiser_name": "Otis",
+    "advertiser_type": "Company",
+    "work_pattern": "Not Specified",
     "salary_period": "Annual",
     "posted_date_basis": ""
   },
@@ -725,6 +725,31 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "107718381",
+    "title": "Recruitment Account Co-ordinator",
+    "company": "Nexus People - Agency - Temporary",
+    "location": "Leicestershire",
+    "region": "Leicestershire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Temporary",
+    "salary_min": "13.5",
+    "salary_max": "14.5",
+    "salary_text": "£13.5 - £14.5 per hour",
+    "posted_date": "",
+    "description": "Job Title:Recruitment Account Coordinator\nLocation:Lutterworth\nPay Rate: £13.50 to £14.00 per hour\nWorking Hours: Sunday to Thursday (07:00 - 15:00) or Sunday to Thursday (19:00 - 06:00)\nExperience: Previous experience working within Customer Services and/or Recruitment would be beneficial\nContract Type: Temp to Perm (after 12 weeks)\nLooking for a new role with excellent pay, regular hours and genuine o click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?wTAUM266l6cNunxM%2fTBCToFqc2PpP8IKh",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Nexus People",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Hourly",
+    "posted_date_basis": ""
+  },
+  {
     "job_id": "nhs-5565276",
     "source": "NHS Jobs",
     "title": "Administration Assistant",
@@ -740,7 +765,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9313-26-0379",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9313-26-0379",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5553430",
@@ -758,7 +787,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0505-26-0221",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0505-26-0221",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5550317",
@@ -776,7 +809,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9164-26-0774",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9164-26-0774",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5523687",
@@ -794,7 +831,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9313-26-0357",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9313-26-0357",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5560932",
@@ -812,7 +853,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9358-26-0573",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9358-26-0573",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5543166",
@@ -830,6 +875,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9358-26-0543",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9358-26-0543",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

@@ -1053,31 +1053,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "107771891",
-    "title": "Client and Sales Support",
-    "company": "Sammons Recruitment Ltd - Agency - Permanent",
-    "location": "Surrey",
-    "region": "Surrey",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "",
-    "posted_date": "",
-    "description": "We are seeking a proactive and detail-oriented Client & Sales Support Administrator to join a growing and friendly team. This varied role is ideal for someone who enjoys building relationships, providing excellent customer service and ensuring operations run smoothly behind the scenes.\nYou'll be responsible for supporting customers throughout the sales process, processing orders, coordinating with click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?d1vRzEYF65RqIkOnObkDJtoATRAlHI09x",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Sammons Recruitment Ltd",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "23643_225516181",
     "title": "Finance Assistant",
     "company": "Faith Recruitment - Agency - Temporary",
@@ -1128,6 +1103,31 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "107771891",
+    "title": "Client and Sales Support",
+    "company": "Sammons Recruitment Ltd - Agency - Permanent",
+    "location": "Surrey",
+    "region": "Surrey",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "",
+    "posted_date": "",
+    "description": "We are seeking a proactive and detail-oriented Client & Sales Support Administrator to join a growing and friendly team. This varied role is ideal for someone who enjoys building relationships, providing excellent customer service and ensuring operations run smoothly behind the scenes.\nYou'll be responsible for supporting customers throughout the sales process, processing orders, coordinating with click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?Dw9iAXzSqBYwf6hiY66ncZLyVBGYToqqk",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Sammons Recruitment Ltd",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
     "job_id": "23643_225359316",
     "title": "Office Co-Ordinator",
     "company": "AuB Talent - Agency - Permanent",
@@ -1168,7 +1168,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/U0103-26-0055",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/U0103-26-0055",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5559941",
@@ -1186,7 +1190,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/L0034-26-3514",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/L0034-26-3514",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5556013",
@@ -1204,7 +1212,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0455-26-0024",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0455-26-0024",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5547942",
@@ -1222,7 +1234,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0874-26-0003",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0874-26-0003",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5546636",
@@ -1240,7 +1256,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/U0103-26-0044",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/U0103-26-0044",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5533963",
@@ -1258,6 +1278,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0279-26-1996",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0279-26-1996",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

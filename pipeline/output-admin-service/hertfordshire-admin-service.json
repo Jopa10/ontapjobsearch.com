@@ -300,6 +300,31 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "23643_225435462",
+    "title": "Medical Receptionist",
+    "company": "Focus Recruitment - Agency - Temporary",
+    "location": "Hertfordshire",
+    "region": "Hertfordshire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Temporary",
+    "salary_min": "14",
+    "salary_max": "14.5",
+    "salary_text": "£14 - £14.5 per hour",
+    "posted_date": "",
+    "description": "We are looking for an experienced SystmOne Receptionist for an immediate start in a long term temporary position at a GP Practice near Stevenage.\n\nDuties include:\n- Booking Patient Appointments using SystmOne\n- Handling front desk & telephone enquiries\n- Back Office admin",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?mDcEDJmYTbzbWaWWbPgB4J3EANslCgR8t",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Focus Recruitment",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Hourly",
+    "posted_date_basis": ""
+  },
+  {
     "job_id": "23643_225473001",
     "title": "Sales Coordinator",
     "company": "Osborne Appointments - Agency - Permanent",
@@ -346,31 +371,6 @@
     "advertiser_name": "VolkerWessels Uk",
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
-    "job_id": "107891184",
-    "title": "Social Media Coordinator",
-    "company": "SCG Together - Agency - Permanent",
-    "location": "Hertfordshire",
-    "region": "Hertfordshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "28000",
-    "salary_max": "28000",
-    "salary_text": "£28000 per year",
-    "posted_date": "",
-    "description": "Location: Hemel Hempstead\n\nSalary: £26,500 - £28,000\n\n( Please note that this is a fully office-based role, you will need to be willing to travel to Hemel Hempstead five days a week)\n\nThe Social Media Coordinator will support the day-to-day delivery of SCGs social media activity. This is a hands-on coordination role, suited to a highly organised, creative and proactive marketing professional who is loo click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?ju9emE%2fz0VLe6yqLFDGpqfHg5Z9a1yoBw",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "SCG Together",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
     "salary_period": "Annual",
     "posted_date_basis": ""
   },
@@ -475,6 +475,31 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "107891184",
+    "title": "Social Media Coordinator",
+    "company": "SCG Together - Agency - Permanent",
+    "location": "Hertfordshire",
+    "region": "Hertfordshire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "28000",
+    "salary_max": "28000",
+    "salary_text": "£28000 per year",
+    "posted_date": "",
+    "description": "Location: Hemel Hempstead\n\nSalary: £26,500 - £28,000\n\n( Please note that this is a fully office-based role, you will need to be willing to travel to Hemel Hempstead five days a week)\n\nThe Social Media Coordinator will support the day-to-day delivery of SCGs social media activity. This is a hands-on coordination role, suited to a highly organised, creative and proactive marketing professional who is loo click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?wTAUM266l6ch%2fKvwV6EDQL7szNmNUnYdh",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "SCG Together",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
     "job_id": "nhs-5553693",
     "source": "NHS Jobs",
     "title": "Team Administrator",
@@ -490,7 +515,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9367-26-0790",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9367-26-0790",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5523647",
@@ -508,7 +537,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5985-26-0027",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5985-26-0027",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5520329",
@@ -526,7 +559,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B0525-26-0016",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B0525-26-0016",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5439405",
@@ -544,6 +581,32 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0106-26-0072",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0106-26-0072",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
+  },
+  {
+    "job_id": "nhs-5555027",
+    "source": "NHS Jobs",
+    "title": "Medical Receptionist",
+    "company": "Parkfield Medical Centre",
+    "advertiser_name": "Parkfield Medical Centre",
+    "location": "Potters Bar, EN6 1QH",
+    "region": "Hertfordshire",
+    "salary": "Negotiable",
+    "employment_type": "Permanent",
+    "posted_date": "2026-08-21T13:49:04.306974",
+    "closing_date": "2026-09-14",
+    "description": "We are looking for an enthusiastic new receptionist for 25 hours per week over 4 days to join our supportive team. The post would suit somebody who is empathetic, works well under pressure and likes a busy but rewarding working environment. Although previous experience would be an advantage, this is not essential as full training will be provided. The hours available are: Monday 8-5.30, Tuesday 8-1, Wednesday 8-1 and Friday 1-6.30. The role of a GP receptionist is varied and includes answering the telephone, booking appointments, greeting patients and processing clinical letters and repeat prescriptions. The post holder will need to be flexibly to cover annual leave. Main duties: Facilitate the booking of appointments Receive requests for prescription, sick notes, insurance forms and other correspondence and taking fees as appropriate. Explain surgery procedures, giving details about the practice to patients on registration, completing new patients paperwork. Managing all patients enquires Retrieve appointment cancellation messages Receiving and recording requests for home visits and ensuring the duty doctor is notified Receiving messages for doctors and all members of the Primary Health Care Team and ensure that they are passed to the relevant person Contacting patients at the doctors request Other duties Filing medical notes referrals and other correspondence when required Ensure details of any unresolved or urgent matters are passed to colleagues Opening the surgery premises and ensuring safe closure of the same Any other tasks as requested by the management or partners which assist the smooth running of the surgery Be aware of all practice protocols for reception Ensure personal e-learning is up to date Ensure the reception area is left tidy and ready for incoming colleagues",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0405-26-0006",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0405-26-0006",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

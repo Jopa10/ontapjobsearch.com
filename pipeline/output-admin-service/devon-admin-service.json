@@ -28,34 +28,6 @@
     "posted_date_basis": "source"
   },
   {
-    "job_id": "teaching-vacancies-school-administrator-st-budeaux-cofe-primary-academy",
-    "title": "School Administrator",
-    "company": "St Budeaux CofE Primary Academy",
-    "location": "Plymouth",
-    "region": "Devon",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['part time']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "25,989.00 - 26,403.00 FTE",
-    "work_pattern": "",
-    "posted_date": "2026-08-03",
-    "closing_date": "2026-08-28",
-    "closing_datetime": "2026-08-28T09:00:00+01:00",
-    "summary": "School Administrator with St Budeaux CofE Primary Academy in Plymouth. ['part time']; 25,989.00 - 26,403.00 FTE.",
-    "description": "St Budeaux CofE Primary Academy is recruiting for this vacancy in Plymouth.\n\nThe advertised position is School Administrator.\n\nThe source lists the employment type as ['part time'].\n\nThe advertised salary or pay scale is 25,989.00 - 26,403.00 FTE.\n\nThe stated application deadline is 2026-08-28T09:00:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/school-administrator-st-budeaux-cofe-primary-academy?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "St Budeaux CofE Primary Academy",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
-  },
-  {
     "job_id": "teaching-vacancies-school-administrator-receptionist-mayfield-chestnut",
     "title": "School Administrator & Receptionist - Mayfield Chestnut",
     "company": "Mayfield School",
@@ -801,7 +773,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9369-26-0655",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9369-26-0655",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5559147",
@@ -819,7 +795,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1739-26-0043",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1739-26-0043",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5555310",
@@ -837,7 +817,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C0023-26-1022",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C0023-26-1022",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5552054",
@@ -855,7 +839,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2737-26-0005",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2737-26-0005",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5549506",
@@ -873,7 +861,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C0023-26-1001",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C0023-26-1001",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5543626",
@@ -891,7 +883,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C0023-26-0994",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C0023-26-0994",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5538090",
@@ -909,6 +905,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B9832-2026-AC-1975",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B9832-2026-AC-1975",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]
