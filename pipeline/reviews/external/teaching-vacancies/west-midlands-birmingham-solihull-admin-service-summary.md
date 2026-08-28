@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Birmingham & Solihull
 
-review_date: 2026-08-27
-review_fingerprint: 4a8c6bd1902eddf2108b5b0808f227a4dc19a2322711374ede28e605b4180f41
-routing_manifest_sha256: 2c66e3a01ddaa0fa081178a44f93a4052dba3b44385bb6445201fc498e6f8215
+review_date: 2026-08-28
+review_fingerprint: 5cb42a1f674aaa5dd4549d819e20d889e979b90208c3931dd120b43a286c011c
+routing_manifest_sha256: 317da4c3580a017af1ca5a40549214600dbbe16fe90e5315b920822a2f47f1ee
 ontap_region: West Midlands - Birmingham & Solihull
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 16
-- Selected: 9
+- Records: 14
+- Selected: 7
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 6
 
 ## SELECTED
-
----
-action: 
-SELECTED | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B24 0ED | £19,969.00 - £21,695.00 Annually (Actual) 37 hours per week Term Time only | Admin Assistant
-employer: Yenton Primary School
-closing_date: 2026-09-01T12:00:00+01:00
-reason: Clear admin/service title: admin assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 9469291f767751dd4868efd9892086e147f7c94c5a30aa666b50bf309833203b
-source: Teaching Vacancies
-source_job_id: admin-assistant-10329641-0e0b-41f7-ba37-1959636d06d8
-source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-10329641-0e0b-41f7-ba37-1959636d06d8
----
 
 ---
 action: 
@@ -94,21 +79,6 @@ factual_fingerprint: eaad972636101473ea20c68fefdda4dc644a5aa3dc4c3a5fede74521be5
 source: Teaching Vacancies
 source_job_id: attendance-officer-4efd19d4-57e0-4ca7-b2db-17e1d24f0087
 source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-4efd19d4-57e0-4ca7-b2db-17e1d24f0087
----
-
----
-action: 
-SELECTED | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B42 2SY | £26,824.00 to £28,142.00 per annum (pro rata £24,847.04 to £26,067.90 per annum) | Business Support Officer - Receptionist & Admissions
-employer: Eden Boys' School, Birmingham
-closing_date: 2026-08-27T23:59:00+01:00
-reason: Clear admin/service title: receptionist, business support officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: f677e893c935dd9284410ebc02d518a47051bdbea43dd8aa86c108b783eccfd2
-source: Teaching Vacancies
-source_job_id: business-support-officer-receptionist-admissions-eden-boys-school-birmingham-birmingham-west-midlands
-source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-officer-receptionist-admissions-eden-boys-school-birmingham-birmingham-west-midlands
 ---
 
 ---

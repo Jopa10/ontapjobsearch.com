@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Sussex
 
-review_date: 2026-08-27
-review_fingerprint: 4f6b1b902833403b820ff8bf69fa8c4463e6fa0a17ee2b82128e843f26eae72e
-routing_manifest_sha256: 2c66e3a01ddaa0fa081178a44f93a4052dba3b44385bb6445201fc498e6f8215
+review_date: 2026-08-28
+review_fingerprint: b0a4879e0dd3f91f18e20d1f4cddad0fcdc1a0b0fff0e782bda8fe605a2735e2
+routing_manifest_sha256: 317da4c3580a017af1ca5a40549214600dbbe16fe90e5315b920822a2f47f1ee
 ontap_region: Sussex
 slice_category: admin_service
 slice_status: LIVE
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 5
+- Records: 4
 - Selected: 2
-- POSS awaiting decision: 1
+- POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 2
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Sussex | Hove, South East, BN3 6ND | £29,064 | Administrative Assistants
+employer: Cardinal Newman Catholic School
+closing_date: 2026-09-01T09:00:00+01:00
+reason: Clear admin/service title: administrative assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: e9368c3975f07e3495e72e1a0215cdabff51122f5721a2661b44367942d3ca77
+source: Teaching Vacancies
+source_job_id: administrative-assistants-cardinal-newman-catholic-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistants-cardinal-newman-catholic-school
+---
 
 ---
 action: 
@@ -36,37 +51,9 @@ source_job_id: admissions-and-attendance-officer-oakwood-primary-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/admissions-and-attendance-officer-oakwood-primary-academy
 ---
 
----
-action: 
-SELECTED | Sussex | St Leonards-on-Sea, South East, TN38 9TE | £16,702.60 - £17,798.37 Annually (Actual) TPA 8 / NJC 6 - 10 - £25,989 - £27,694pa FTE | HR & Admin Assistant
-employer: Robsack Wood Primary School
-closing_date: 2026-08-27T23:59:00+01:00
-reason: Clear admin/service title: admin assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 37311b0e9210511f9485b67bc95d3ac46bc78def9ebefa4165b8adff4b84b423
-source: Teaching Vacancies
-source_job_id: hr-admin-assistant-robsack-wood-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-admin-assistant-robsack-wood-primary-school
----
-
 ## POSS — choose SELECT or EXCLUDE
 
----
-action: 
-POSS | Sussex | Hove, South East, BN3 6ND | £29,064 | Administrative Assistants
-employer: Cardinal Newman Catholic School
-closing_date: 2026-09-01T09:00:00+01:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: e9368c3975f07e3495e72e1a0215cdabff51122f5721a2661b44367942d3ca77
-source: Teaching Vacancies
-source_job_id: administrative-assistants-cardinal-newman-catholic-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistants-cardinal-newman-catholic-school
----
+- None.
 
 ## EXCLUDED BY REVIEW
 

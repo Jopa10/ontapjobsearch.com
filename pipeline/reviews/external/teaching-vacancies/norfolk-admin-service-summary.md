@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Norfolk
 
-review_date: 2026-08-27
-review_fingerprint: ae065ee6f482d69023f51acca0b3ff06f257935d90c398d84fba8b2a0df05748
-routing_manifest_sha256: 2c66e3a01ddaa0fa081178a44f93a4052dba3b44385bb6445201fc498e6f8215
+review_date: 2026-08-28
+review_fingerprint: d1b2e059ef912ae865c97b16cfa5d7428a98a965ee1a385b8ecc0994547b1775
+routing_manifest_sha256: 317da4c3580a017af1ca5a40549214600dbbe16fe90e5315b920822a2f47f1ee
 ontap_region: Norfolk
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 14
-- Selected: 7
+- Records: 15
+- Selected: 8
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 7
@@ -49,6 +49,21 @@ factual_fingerprint: f39faf831b170ef09761d20fab3084397d82187f562716d6ada38dfa8f8
 source: Teaching Vacancies
 source_job_id: administration-assistant-fakenham-junior-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-fakenham-junior-school
+---
+
+---
+action: 
+SELECTED | Norfolk | Thetford, East of England, IP24 3DP | Support Staff Pay Scale D: £22,374 to £22,729 pro-rata per annum (Actual) (£25,583 - £25,989 full time/full year equivalent) | Administration Assistant
+employer: Queensway Junior Academy
+closing_date: 2026-09-10T01:00:00+01:00
+reason: Clear admin/service title: administration assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: c4219cc254372923cf3e85795a2fc84cbd08895dc2094fc56071cba3bd98902f
+source: Teaching Vacancies
+source_job_id: administration-assistant-queensway-junior-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-queensway-junior-academy
 ---
 
 ---

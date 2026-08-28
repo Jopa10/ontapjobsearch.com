@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - West
 
-review_date: 2026-08-27
-review_fingerprint: a53cf87b98679904246712ef31917f9e28d1f19928b783018e4543848a1c8f71
-routing_manifest_sha256: 2c66e3a01ddaa0fa081178a44f93a4052dba3b44385bb6445201fc498e6f8215
+review_date: 2026-08-28
+review_fingerprint: db467cc874116db7137f284141ee65348d128228028f7057b3f93bf4d6b3c8a1
+routing_manifest_sha256: 317da4c3580a017af1ca5a40549214600dbbe16fe90e5315b920822a2f47f1ee
 ontap_region: Yorkshire - West
 slice_category: admin_service
 slice_status: LIVE
@@ -14,10 +14,10 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 27
-- Selected: 12
-- POSS awaiting decision: 3
+- Selected: 11
+- POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 12
+- Hard pass: 14
 
 ## SELECTED
 
@@ -109,21 +109,6 @@ factual_fingerprint: fe74a58053c1d2c62aa7aaa1888b2acf2f93a6e2005d86ba2dda7c6fe2e
 source: Teaching Vacancies
 source_job_id: business-support-officer-student-services-a6b016b2-0cf8-4c1f-9ae0-103ce7f8ce62
 source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-officer-student-services-a6b016b2-0cf8-4c1f-9ae0-103ce7f8ce62
----
-
----
-action: 
-SELECTED | Yorkshire - West | Bingley, Yorkshire and the Humber, BD16 2RS | £31,537-£33,699 | Exams Officer
-employer: Bingley Grammar School
-closing_date: 2026-08-28T09:00:00+01:00
-reason: Clear admin/service title: exams officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: BLANK_POSS_PRESERVED
-factual_fingerprint: bc966ff7bd226288b38e3bbcf6b96cdb528138252df1856946d03346f993e0e0
-source: Teaching Vacancies
-source_job_id: exams-officer-bingley-grammar-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-bingley-grammar-school
 ---
 
 ---
@@ -233,32 +218,19 @@ source_job_id: data-officer-2291e2c5-eec2-437c-a38c-78271e026f45
 source_url: https://teaching-vacancies.service.gov.uk/jobs/data-officer-2291e2c5-eec2-437c-a38c-78271e026f45
 ---
 
----
-action: 
-POSS | Yorkshire - West | Pontefract, Yorkshire and the Humber, WF8 4JF | £20,971.00 - £21,300.00 pro rata (£24,796.00 - £25,185.00 FTE)per annum | Receptionist
-employer: The King's School
-closing_date: 2026-08-31T10:00:00+01:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: BLANK_POSS_PRESERVED
-factual_fingerprint: 2e34b0eae77924169f27dbbf1c35db41200b802c77f8be036b4d8d08c85bc848
-source: Teaching Vacancies
-source_job_id: receptionist-the-king-s-school-pontefract-west-yorkshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-the-king-s-school-pontefract-west-yorkshire
----
-
 ## EXCLUDED BY REVIEW
 
 - None.
 
 ## HARD_PASS
 
-- [Compliance Officer](https://teaching-vacancies.service.gov.uk/jobs/compliance-officer-delta-academies-trust) — Insufficient admin/service evidence.
+- [Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-wakefield-snapethorpe-primary-school) — Insufficient admin/service evidence.
+- [Data and Exams Manager](https://teaching-vacancies.service.gov.uk/jobs/data-and-exams-manager-dixons-city-academy) — Manager title salary ceiling £34,744 is not below £28,000.
 - [Exam Invigilator](https://teaching-vacancies.service.gov.uk/jobs/exam-invigilator-leeds-city-academy-leeds-west-yorkshire) — Insufficient admin/service evidence.
 - [Exams and Admissions Manager](https://teaching-vacancies.service.gov.uk/jobs/exams-and-admissions-manager-leeds-city-academy-leeds-west-yorkshire) — Manager title salary ceiling £35,558 is not below £28,000.
 - [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-outwood-grange-academies-trust) — Manager title salary ceiling £53,881 is not below £28,000.
 - [Finance Manager (Core Team)](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-core-team) — Manager title salary ceiling £49,282 is not below £28,000.
+- [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-the-gorse-academies-trust) — Insufficient admin/service evidence.
 - [Human Resources Business Partner (Central HR Team)](https://teaching-vacancies.service.gov.uk/jobs/human-resources-business-partner-central-hr-team-the-gorse-academies-trust-leeds-not-recorded) — Insufficient admin/service evidence.
 - [Procurement Manager](https://teaching-vacancies.service.gov.uk/jobs/procurement-manager-outwood-grange-academies-trust) — Manager title salary ceiling £44,075 is not below £28,000.
 - [Reprographics and Digital Resource Technician](https://teaching-vacancies.service.gov.uk/jobs/reprographics-and-digital-resource-technician) — Out-of-scope occupation: technician.

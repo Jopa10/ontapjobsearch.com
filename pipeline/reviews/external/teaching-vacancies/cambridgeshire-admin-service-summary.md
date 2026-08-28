@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cambridgeshire
 
-review_date: 2026-08-27
-review_fingerprint: 34f1f1d24ee8dcf97f6c8189a2843fc0414734d9c44f7205c2648018ec269c9b
-routing_manifest_sha256: 2c66e3a01ddaa0fa081178a44f93a4052dba3b44385bb6445201fc498e6f8215
+review_date: 2026-08-28
+review_fingerprint: 6b87f4ebd2bc212ef623473fbe5ca9c8f46e0dcd7d968e3c025fc06072c778ff
+routing_manifest_sha256: 317da4c3580a017af1ca5a40549214600dbbe16fe90e5315b920822a2f47f1ee
 ontap_region: Cambridgeshire
 slice_category: admin_service
 slice_status: LIVE
@@ -272,10 +272,10 @@ reason: Borderline school administration title: communications officer
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: e81f6524f2891d8ae6321636a96aea841a7c51e9ab1b02a40ac2bc40dd62272e
+factual_fingerprint: e17600e0d99d562376adc547dff4a4ad6911c120a634d2fee31e8a82f6fd72d3
 source: Teaching Vacancies
-source_job_id: marketing-communications-officer-c270ff05-b00d-453f-bd88-72dd6829c693
-source_url: https://teaching-vacancies.service.gov.uk/jobs/marketing-communications-officer-c270ff05-b00d-453f-bd88-72dd6829c693
+source_job_id: marketing-communications-officer-2a432f35-1c7d-4c5e-90a3-e035ce925749
+source_url: https://teaching-vacancies.service.gov.uk/jobs/marketing-communications-officer-2a432f35-1c7d-4c5e-90a3-e035ce925749
 ---
 
 ## EXCLUDED BY REVIEW

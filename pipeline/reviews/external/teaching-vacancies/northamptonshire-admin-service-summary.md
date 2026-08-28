@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Northamptonshire
 
-review_date: 2026-08-27
-review_fingerprint: 80b578421776a734689d6003609057b6fd85084738598b3a9ac33d30ce5a516a
-routing_manifest_sha256: 2c66e3a01ddaa0fa081178a44f93a4052dba3b44385bb6445201fc498e6f8215
+review_date: 2026-08-28
+review_fingerprint: 990a52c1de753e5ac761d3182e3471bb40382c354a084aebaabb68c4133f13a0
+routing_manifest_sha256: 317da4c3580a017af1ca5a40549214600dbbe16fe90e5315b920822a2f47f1ee
 ontap_region: Northamptonshire
 slice_category: admin_service
 slice_status: LIVE
@@ -14,10 +14,10 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 8
-- Selected: 5
+- Selected: 4
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 3
+- Hard pass: 4
 
 ## SELECTED
 
@@ -34,21 +34,6 @@ factual_fingerprint: b62095106145be161528f0bdaf567d0ab9edee7ee080a0cb6407ca43f34
 source: Teaching Vacancies
 source_job_id: admin-assistant-barry-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-barry-primary-school
----
-
----
-action: 
-SELECTED | Northamptonshire | Northampton, East Midlands, NN5 4UL | £26,016.00 Annually (FTE) £2654.57 | Admin Assistant
-employer: St Luke's Church of England Primary School
-closing_date: 2026-08-28T12:00:00+01:00
-reason: Clear admin/service title: admin assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: bc3045c9020ee97b63077b779dde29410782ed5063fa2a0afcdc5ef5e9278c2f
-source: Teaching Vacancies
-source_job_id: admin-assistant-st-luke-s-church-of-england-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-st-luke-s-church-of-england-primary-school
 ---
 
 ---
@@ -108,6 +93,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administ
 
 - [Exams Office Manager](https://teaching-vacancies.service.gov.uk/jobs/exams-office-manager) — Manager title salary ceiling £33,699 is not below £28,000.
 - [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-bishop-stopford-school) — Manager title salary ceiling £46,142 is not below £28,000.
+- [HR Manager](https://teaching-vacancies.service.gov.uk/jobs/hr-manager-tove-learning-trust) — Manager title without salary evidence below £28,000.
 - [St James Infant and Pre School Business Partner](https://teaching-vacancies.service.gov.uk/jobs/st-james-infant-and-pre-school-business-partner-inmat) — Insufficient admin/service evidence.
 
 ## Safety boundary

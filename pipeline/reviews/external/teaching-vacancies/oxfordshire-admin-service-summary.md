@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Oxfordshire
 
-review_date: 2026-08-27
+review_date: 2026-08-28
 review_fingerprint: bb9146be60f2bc735e54349dd4b4d22ddc27f4a5e50c9812d682181dac363c39
-routing_manifest_sha256: 2c66e3a01ddaa0fa081178a44f93a4052dba3b44385bb6445201fc498e6f8215
+routing_manifest_sha256: 317da4c3580a017af1ca5a40549214600dbbe16fe90e5315b920822a2f47f1ee
 ontap_region: Oxfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 20
+- Records: 19
 - Selected: 8
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 10
+- Hard pass: 9
 
 ## SELECTED
 
@@ -181,7 +181,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-faringdo
 
 - [Admin and Premises Assistant](https://teaching-vacancies.service.gov.uk/jobs/admin-and-premises-assistant-9d6fefc7-aa4d-4843-a7f1-fb8860efc481) — Insufficient admin/service evidence.
 - [Administration and Reception Assistant](https://teaching-vacancies.service.gov.uk/jobs/administration-and-reception-assistant-wheatley-church-of-england-primary-school) — Insufficient admin/service evidence.
-- [Admissions Manager](https://teaching-vacancies.service.gov.uk/jobs/admissions-manager-lord-williams-s-school) — Manager title salary ceiling £34,434 is not below £28,000.
 - [Chief Financial Officer](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-lord-williams-s-school-thame-oxfordshire) — Insufficient admin/service evidence.
 - [Data and Systems Lead](https://teaching-vacancies.service.gov.uk/jobs/data-and-systems-lead-acer-trust) — Insufficient admin/service evidence.
 - [Finance Manager (30 hrs p/w, term time only + 5 inset days + 4 weeks)](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-30-hrs-p-w-term-time-only-5-inset-days-4-weeks) — Manager title salary ceiling £49,282 is not below £28,000.

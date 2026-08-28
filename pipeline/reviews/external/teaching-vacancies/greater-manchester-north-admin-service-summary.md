@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Greater Manchester - North
 
-review_date: 2026-08-27
-review_fingerprint: 0e517b67f0bf43dd351e472613b15e08c27c62479f215c29b52c764448d34287
-routing_manifest_sha256: 2c66e3a01ddaa0fa081178a44f93a4052dba3b44385bb6445201fc498e6f8215
+review_date: 2026-08-28
+review_fingerprint: cf6e869445e55d78b550198621139c03425a71db92c46d998022c53a2835d9be
+routing_manifest_sha256: 317da4c3580a017af1ca5a40549214600dbbe16fe90e5315b920822a2f47f1ee
 ontap_region: Greater Manchester - North
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 5
-- Selected: 2
+- Records: 4
+- Selected: 1
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 3
 
 ## SELECTED
-
----
-action: 
-SELECTED | Greater Manchester - North | Bury, North West, BL9 8LP | £12.71 p/h (National Living Wage) | Apprentice Administrator
-employer: Brookhaven School
-closing_date: 2026-08-28T09:00:59+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: 217c1e21dd319fc6cf58454ce8b98403c4154d5c32e688a08ae65c239b6f2fa0
-source: Teaching Vacancies
-source_job_id: apprentice-administrator-brookhaven-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/apprentice-administrator-brookhaven-school
----
 
 ---
 action: 

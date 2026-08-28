@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Somerset
 
-review_date: 2026-08-27
+review_date: 2026-08-28
 review_fingerprint: 1217e1db0e985a94811b15298d4c7a6e0ec420efdd612d15164ae3ac082e40f6
-routing_manifest_sha256: 2c66e3a01ddaa0fa081178a44f93a4052dba3b44385bb6445201fc498e6f8215
+routing_manifest_sha256: 317da4c3580a017af1ca5a40549214600dbbe16fe90e5315b920822a2f47f1ee
 ontap_region: Somerset
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 14
+- Records: 13
 - Selected: 5
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 7
+- Hard pass: 6
 
 ## SELECTED
 
@@ -139,7 +139,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-administration
 - [Headteacher's PA & Office Manager](https://teaching-vacancies.service.gov.uk/jobs/headteacher-s-pa-office-manager-chilton-trinity-school-bridgwater-somerset) — Out-of-scope occupation: teacher, headteacher.
 - [Local Governance Professional (Clerk)](https://teaching-vacancies.service.gov.uk/jobs/local-governance-professional-clerk-churchill-academy-sixth-form) — Missing salary or pay scale.
 - [Office Manager and Work Placement Coordinator - Sixth Form](https://teaching-vacancies.service.gov.uk/jobs/office-manager-and-work-placement-coordinator-sixth-form-norton-hill-academy) — Manager title without salary evidence below £28,000.
-- [People Advisor](https://teaching-vacancies.service.gov.uk/jobs/people-advisor-pathway-trust) — Insufficient admin/service evidence.
 - [Systems Analyst](https://teaching-vacancies.service.gov.uk/jobs/systems-analyst-pathway-trust) — Insufficient admin/service evidence.
 
 ## Safety boundary

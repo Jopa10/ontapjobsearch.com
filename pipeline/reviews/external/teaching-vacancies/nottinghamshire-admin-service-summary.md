@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Nottinghamshire
 
-review_date: 2026-08-27
+review_date: 2026-08-28
 review_fingerprint: b7dce2b45cf1f6a17f9bf116e3585c3cee033ef2bdf177d60e252d90203119e3
-routing_manifest_sha256: 2c66e3a01ddaa0fa081178a44f93a4052dba3b44385bb6445201fc498e6f8215
+routing_manifest_sha256: 317da4c3580a017af1ca5a40549214600dbbe16fe90e5315b920822a2f47f1ee
 ontap_region: Nottinghamshire
 slice_category: admin_service
 slice_status: LIVE

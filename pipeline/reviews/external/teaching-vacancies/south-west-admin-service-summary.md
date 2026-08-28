@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — South West
 
-review_date: 2026-08-27
-review_fingerprint: b955904b8d5ca38b3540cc4710be7cb08c8258922b9f8490ce977a9d2d67b37b
-routing_manifest_sha256: 2c66e3a01ddaa0fa081178a44f93a4052dba3b44385bb6445201fc498e6f8215
+review_date: 2026-08-28
+review_fingerprint: 4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945
+routing_manifest_sha256: 317da4c3580a017af1ca5a40549214600dbbe16fe90e5315b920822a2f47f1ee
 ontap_region: South West
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,28 +13,15 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 3
-- Selected: 1
+- Records: 1
+- Selected: 0
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 2
+- Hard pass: 1
 
 ## SELECTED
 
----
-action: 
-SELECTED | South West | Wotton-under-Edge, South West, GL12 8HG | CSET 10 £27,274 FTE. £11,968 prorated | School Administrator
-employer: Tortworth Primary School
-closing_date: 2026-08-28T09:00:59+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: fea74c2bd744f6c8e20a68c10d5a8e822e1a3b4113f7f42768e8b63945f55d3a
-source: Teaching Vacancies
-source_job_id: school-administrator-tortworth-primary-school-wotton-under-edge-gloucestershire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-tortworth-primary-school-wotton-under-edge-gloucestershire
----
+- None.
 
 ## POSS — choose SELECT or EXCLUDE
 
@@ -46,7 +33,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 
 ## HARD_PASS
 
-- [Admissions and Marketing Officer](https://teaching-vacancies.service.gov.uk/jobs/admissions-and-marketing-officer-ff1f9398-14fa-4c69-b41e-7d0a763e5f54) — Insufficient admin/service evidence.
 - [Senior Trust Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/senior-trust-finance-manager-st-francis-catholic-primary-school) — Manager title salary ceiling £50,269 is not below £28,000.
 
 ## Safety boundary
