@@ -1,12 +1,13 @@
 # Ontap System Overview
 
-**Last updated:** 27 August 2026
-**Status:** Canonical production state including the 27 August eight-region Finance & Accounts launch, four-slice expansion, Google Jobs remediation and NHS live-inventory tolerance.
+**Last updated:** 28 August 2026
+**Status:** Canonical production state including Teaching Vacancies regional publish isolation and the 27 August production changes.
 
 This is the short owner view of how Ontap is organised. It mirrors the five canonical system buckets in `SYSTEM_MAP.md`.
 
 ## Recent canonical changes
 
+- 28 August 2026 — **One to three unavailable Teaching Vacancies regions no longer prevent clean regions publishing:** the England-wide TV publisher names each isolated region and retains its previous live page while verified regions proceed; four or more regional failures stop TV. North East's legitimate detailed NEJobs/VONNE region labels now resolve to the public North East slice, fixing the false missing-base failure. Tampered evidence, ambiguous/malformed outputs, external-only data and recomposition mismatches still stop the whole TV publish.
 - 27 August 2026 — **Finance & Accounts is LIVE in eight explicitly approved markets:** North Yorkshire 13, Gloucestershire 10, North East 7, Bristol & Bath 10, Northern Ireland East 10, Shropshire 10, West Yorkshire 10 and Devon 9—**79 published jobs** in total. The selector keeps practical accounts/finance support, AP/AR, ledgers, credit control, bookkeeping, billing/invoicing and payroll operations under £45,000, while excluding senior, qualified, specialist and financial-services work. Every LIVE market must retain at least six jobs. London is CANDIDATE rather than LIVE because the current governed feed yields only four. Finance now appears as the seventh family in the 78-market daily overview. The unrelated changed NEJobs live set was held for re-review and not forced through.
 - 27 August 2026 — **Four additional slices are approved for LIVE:** Berkshire Marketing, Kent Support Worker, North East Sales Advisor and Oxfordshire Support Worker. Their current / rolling-average / six-plus-day evidence is **10 / 7.0 / 2-of-4, 11 / 6.2 / 2-of-6, 4 / 5.3 / 3-of-6 and 7 / 4.8 / 3-of-6** respectively. They reuse the existing family selectors and regional-page publishing machinery; no other market is activated.
 - 27 August 2026 — **A normal small change in the live NHS vacancy count no longer blocks that day's NHS update:** the fetch restarts from the beginning and tries up to three times. If NHS is still moving by 15 jobs or fewer, the final cleanly deduplicated sweep continues with a warning; a movement above 15 still holds NHS on its previous approved state. The existing transactional publication checks and 20% NHS page ceiling are unchanged.
