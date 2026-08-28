@@ -298,6 +298,7 @@ jobs:
               'marketing',
               'finance_accounts',
               'hr_recruitment',
+              'customer_service_contact_centre',
           }
           assert {row['family'] for row in rows} == families
           feed_dates = {row['feed_date'] for row in rows}
