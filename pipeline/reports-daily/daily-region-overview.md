@@ -1,21 +1,21 @@
 # Ontap daily regional overview
 
-Generated: 2026-08-28T14:49:27+01:00
+Generated: 2026-08-28T15:06:13+01:00
 
 ## SITEWIDE RECONCILIATION
 
 | Measure | Count |
 |---|---:|
-| Unique live jobs | 1,482 |
+| Unique live jobs | 1,481 |
 | Unique JobG8 jobs | 1,059 |
-| Unique non-JobG8 jobs | 423 |
-| Regional/category slice placements | 1,529 |
+| Unique non-JobG8 jobs | 422 |
+| Regional/category slice placements | 1,528 |
 | Jobs appearing on multiple slices | 47 |
 | Extra slice placements | 47 |
 | Unique jobs outside governed slices | 0 |
 | Jobs found in non-LIVE slices | 0 |
 
-**Reconciliation: 1,482 unique jobs + 47 extra slice placements = 1,529 regional/category slice placements.**
+**Reconciliation: 1,481 unique jobs + 47 extra slice placements = 1,528 regional/category slice placements.**
 
 Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-08-28.csv` — **STALE — CSV says 1,400 for 2026-08-28**.
 
@@ -26,7 +26,7 @@ Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-08-2
 | JobG8 | 1,059 | 47 | 47 |
 | NEJobs | 30 | 0 | 0 |
 | NHS Jobs | 206 | 0 | 0 |
-| Teaching Vacancies | 185 | 0 | 0 |
+| Teaching Vacancies | 184 | 0 | 0 |
 | VONNE | 2 | 0 | 0 |
 
 > LIVE counts come directly from the current published `app/` JSON, deduplicated within each canonical region/family slice while preserving legitimate appearances in more than one family. This is the live-site authority for the reconciliation above; the dated source-count CSV is shown only as a freshness cross-check. The overview covers all 78 assessable UK markets; LIVE status remains controlled only by the slice register. Before same-feed 78-market coverage has run, NOT LIVE Admin/Support and Customer Service may fall back to the latest all-region Module 2 profile (2026-08-17), and Service Admin may also add current Teaching Vacancies regional candidate output. `—` means not assessed / no current source; it does NOT mean zero. NOT LIVE Service Admin and Support Worker were assessed from the same JobG8 daily feed (2026-08-28) used by the production family run, across 78 UK markets with the config-driven production wrappers, persistent review decisions and canonical geo. NOT LIVE Sales Advisor was assessed from that same feed across 78 UK markets using the governed Customer Sales classifier, canonical geo, campaign dedupe and final production QA. Sales diagnostic counts are evidence only and never activate a slice automatically; LIVE Sales Advisor counts continue to come from the current published Customer Sales configured-slice JSON. NOT LIVE Paralegal, Marketing, Finance / Accounts and HR / Recruitment were assessed from that same feed across 78, 78, 78 and 78 UK markets respectively, using their governed production boundaries and canonical geo. NOT LIVE Customer Service / Contact Centre temporarily retains the overview builder's latest Module 2 profile fallback until the first eight-family coverage run. All diagnostic counts are evidence only and never activate a slice automatically. Rolling family history stores one snapshot per feed date, replaces same-date reruns, retains the latest 14 feed dates and is used only as decision evidence for NOT LIVE slices.
@@ -77,7 +77,7 @@ Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-08-2
 | North Scotland |  |  |  |  |  |  |  |  |
 | North Wales - East |  |  |  |  |  |  |  |  |
 | North Wales - West |  |  |  |  |  |  |  |  |
-| Northamptonshire | 28 |  |  |  |  |  |  |  |
+| Northamptonshire | 27 |  |  |  |  |  |  |  |
 | Northern Ireland - East | 8 |  |  |  |  | 10 |  |  |
 | Northern Ireland - West |  |  |  |  |  |  |  |  |
 | Nottinghamshire | 23 |  |  |  |  |  | 3 |  |
@@ -204,6 +204,6 @@ Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-08-2
 | Measure | Service admin | Support worker | Sales advisor | Paralegal | Marketing | Finance / Accounts | HR / Recruitment | CS / Contact centre |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
 | Live regions | 46 / 78 | 11 / 78 | 4 / 78 | 4 / 78 | 5 / 78 | 8 / 78 | 6 / 78 | 4 / 78 |
-| Live slice placements | 1258 | 69 + 1 CHECK | 31 | 12 + 2 CHECK | 57 | 75 | 21 | 6 + 3 CHECK |
+| Live slice placements | 1257 | 69 + 1 CHECK | 31 | 12 + 2 CHECK | 57 | 75 | 21 | 6 + 3 CHECK |
 
 **Live slices: 88 / 624.**
