@@ -1,6 +1,6 @@
 # Support-worker manual review
 
-feed_date: 2026-08-27
+feed_date: 2026-08-28
 
 Edit only the `action:` line in each block:
 
@@ -39,6 +39,12 @@ _No jobs in this group._
 action:
 SELECTED | Yorkshire - South | Barnsley | £24000 per year | Residential Child Care Worker
 job_id: 107881537
+---
+
+---
+action:
+SELECTED | Yorkshire - South | Sheffield | £15 per hour | Hourly Care Assistant to Journalism Studies Uni student
+job_id: 107798506
 ---
 
 ## SOUTH YORKSHIRE — POSSIBLES
@@ -165,12 +171,6 @@ job_id: 1401784493
 
 ---
 action:
-SELECTED | Hampshire | Alton | £25186 - £26244 per year | Day Opportunities Support Worker
-job_id: 1401784594
----
-
----
-action:
 SELECTED | Hampshire | Basingstoke | £25186 - £26244 per year | Night Care Assistant (Adults)
 job_id: 1401784687
 ---
@@ -231,12 +231,6 @@ job_id: 1402264062
 
 ---
 action:
-SELECTED | Kent | Sittingbourne | £14 - £17 per hour | Complex Care Assistant
-job_id: 107882998
----
-
----
-action:
 SELECTED | Kent | Faversham | £14 - £17 per hour | Complex Care Assistant
 job_id: 107882995
 ---
@@ -255,12 +249,6 @@ job_id: 107852539
 
 ---
 action:
-SELECTED | Kent | Deal | £15 - £17 per hour | Complex Care Assistant
-job_id: 107882993
----
-
----
-action:
 SELECTED | Kent | Herne Bay | £14 - £17 per hour | Complex Care Assistant
 job_id: 107883000
 ---
@@ -273,14 +261,20 @@ job_id: 107854067
 
 ---
 action:
-SELECTED | Kent | Tonbridge | £14 - £17 per hour | Complex Healthcare Assistant
-job_id: 107883007
+SELECTED | Kent | Deal | £15 - £17 per hour | Complex Care Assistant
+job_id: 107882993
 ---
 
 ---
 action:
 SELECTED | Kent | Chatham | £14 - £17 per hour | Complex Care Assistant
 job_id: 107882997
+---
+
+---
+action:
+SELECTED | Kent | Sittingbourne | £14 - £17 per hour | Complex Care Assistant
+job_id: 107882998
 ---
 
 ## KENT — POSSIBLES
@@ -357,12 +351,6 @@ job_id: 1787859
 
 ---
 action:
-SELECTED | London | London | £35000 per year | Founders Personal Assistant / Executive Assistant
-job_id: 107885503
----
-
----
-action:
 SELECTED | London | Brentford | £125 - £130 per daily | Support Worker
 job_id: 23643_225535652
 ---
@@ -383,6 +371,18 @@ job_id: 1812536
 action:
 SELECTED | London | Surbiton | £246 per daily | Personal Care Assistant to a Business Management graduate
 job_id: 107900179
+---
+
+---
+action:
+SELECTED | London | City | £260 per daily | Care Assistant to a Psychology University Student
+job_id: 107751975
+---
+
+---
+action:
+SELECTED | London | London | £35000 per year | Founders Personal Assistant / Executive Assistant
+job_id: 107885503
 ---
 
 ## LONDON — POSSIBLES
