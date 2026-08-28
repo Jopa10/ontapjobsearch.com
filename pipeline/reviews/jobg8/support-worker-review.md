@@ -59,6 +59,12 @@ SELECTED | North East - Tyneside, Wearside & Northumberland | Houghton Le Spring
 job_id: 107810260
 ---
 
+---
+action:
+SELECTED | North East - Tyneside, Wearside & Northumberland | Newcastle Upon Tyne | £13.84 per hour | Care Assistants
+job_id: 107494462
+---
+
 ## NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL — SELECTED
 
 ---
@@ -99,12 +105,6 @@ job_id: 23643_222307132
 action:
 SELECTED | Sussex | Bexhill-on-sea | £13.79 - £14.31 per hour | Bank Care Assistant
 job_id: 107807365
----
-
----
-action:
-SELECTED | Sussex | Hastings | £13.79 per hour | Care Assistant
-job_id: 107826653
 ---
 
 ---
@@ -195,12 +195,6 @@ job_id: 1401784767
 
 ---
 action:
-SELECTED | Hampshire | Farnborough | £12.8 per hour ((depending on experience and qualifications)) | Residential Support Worker
-job_id: 107856573
----
-
----
-action:
 SELECTED | Hampshire | Romsey | £27780 - £30564 per year (), plus Market Supplement of £3,000 pro-rata, per annum and enhancemen) | Waking Night Childrens Home Support Worker
 job_id: 1401784682
 ---
@@ -275,6 +269,18 @@ job_id: 107882997
 action:
 SELECTED | Kent | Sittingbourne | £14 - £17 per hour | Complex Care Assistant
 job_id: 107882998
+---
+
+---
+action:
+SELECTED | Kent | Dover | £30000 per year | Residential Support Worker
+job_id: 107901714
+---
+
+---
+action:
+SELECTED | Kent | New Romney | £30000 per year | Residential Support Worker
+job_id: 107901785
 ---
 
 ## KENT — POSSIBLES
@@ -357,12 +363,6 @@ job_id: 23643_225535652
 
 ---
 action:
-SELECTED | London | London | £13 per hour | Home Care Worker
-job_id: 107744963
----
-
----
-action:
 SELECTED | London | London | £30,784.00 per annum | Support worker
 job_id: 1812536
 ---
@@ -383,6 +383,12 @@ job_id: 107751975
 action:
 SELECTED | London | London | £35000 per year | Founders Personal Assistant / Executive Assistant
 job_id: 107885503
+---
+
+---
+action:
+SELECTED | London | London | £31,200.00 per annum | Enhanced Support Worker
+job_id: 1818954
 ---
 
 ## LONDON — POSSIBLES
@@ -491,6 +497,12 @@ job_id: 1787836
 action:
 SELECTED | Wiltshire | Melksham | £12000 per year | Support Worker
 job_id: 107887003
+---
+
+---
+action:
+SELECTED | Wiltshire | Trowbridge | £30000 per year | Recovery Worker
+job_id: 107899505
 ---
 
 ## WILTSHIRE — POSSIBLES
