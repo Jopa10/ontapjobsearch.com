@@ -21,7 +21,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Macaulay Primary Academy",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-receptionist-administrator-beacon-academy-cleethorpes-north-east-lincolnshire",
@@ -45,7 +49,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Beacon Academy",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-assistant-administrator-bc00604f-24a2-4741-bbd7-1135c9c18070",
@@ -69,7 +77,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "St Thomas CofE Primary Academy",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-hr-administrator-tulip-academy",
@@ -93,7 +105,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Tulip Academy",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-receptionist-admin-officer-oasis-academy-parkwood",
@@ -117,7 +133,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Oasis Academy Parkwood",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "107772427",
@@ -435,7 +455,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3629-26-0013",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3629-26-0013",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5524779",
@@ -453,7 +477,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B9814-26-152",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B9814-26-152",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5549210",
@@ -471,6 +499,32 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5144-26-0002",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5144-26-0002",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
+  },
+  {
+    "job_id": "nhs-5536022",
+    "source": "NHS Jobs",
+    "title": "Office Administrator- Band 3",
+    "company": "United Lincolnshire Hospitals NHS Trust",
+    "advertiser_name": "United Lincolnshire Hospitals NHS Trust",
+    "location": "Lincoln, LN2 5QY",
+    "region": "Lincolnshire",
+    "salary": "£25760.00 to £27476.00",
+    "employment_type": "Permanent",
+    "posted_date": "2026-08-13T13:51:41.605115",
+    "closing_date": "2026-08-31",
+    "description": "This is an exciting opportunity to join the CEO and Deputy CEO/Chief Integration Officer (CIO) Offices at a pivotal stage in the organisation's development. As a newly created role, it offers the successful candidate the unique opportunity to help shape and embed a high-quality administrative support function, working closely with the Executive Business Managers to establish effective ways of working and maximise the impact of both offices. The post holder will provide comprehensive, proactive and efficient administrative support to the Chief Executive (CEO) and Chief Integration Officer (CIO) Executive Business Managers, contributing to the smooth and effective delivery of corporate, governance and operational activities across the Directorates. They will be instrumental in ensuring the CEO and CIO Offices operate efficiently and professional while maintaining high standards of service, communication and stakeholder engagement. Acting as a key point of contact for internal and external stakeholders, the role will provide a professional, responsive and customer-focused administrative service, supporting effective communication, coordinating information flow and ensuring actions are progressed in a timely manner. The role is ideally suited to an organised, adaptable and collaborative individual who thrives in a fast-paced environment and is committed to delivering high-quality support at executive level. Act as the first point of contact for visitors, colleagues and external stakeholders contacting or visiting the CEO and CIO Offices, providing a professional, courteous and welcoming service. Support effective communication between the CEO and CIO Offices and a wide range of internal and external stakeholders, including senior leaders, partner organisations, Councillors and system partners, maintaining professional and productive working relationships. Proactively identify opportunities to improve administrative systems, office processes and ways of working, supporting continuous improvement across the Executive Offices. The postholder will provide a range of comprehensive, confidential, and efficient administrative support to the CEO & CIO Executive Business Managers, enabling the smooth delivery of corporate, and governance functions across the Directorates.",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9357-26-0301",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9357-26-0301",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

@@ -21,7 +21,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "The Adeyfield Academy",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-office-administrator-bassingbourn-village-college",
@@ -45,7 +49,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Bassingbourn Village College",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-receptionist-admin-assistant-and-student-support-coordinator-6462fad5-44b0-4b6f-afcb-acca1d5cb30c",
@@ -69,7 +77,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Marriotts School",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-governance-administrator-aspire-academies-trust",
@@ -93,7 +105,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Aspire Academies Trust",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-administrator-the-acorn-centre",
@@ -117,7 +133,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Warren Dell Primary School",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "23643_225471282",
@@ -545,6 +565,31 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "107798822",
+    "title": "Sales Coordinator",
+    "company": "The Dove Partnership - Agency - Permanent",
+    "location": "Hertfordshire",
+    "region": "Hertfordshire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "30000",
+    "salary_max": "30000",
+    "salary_text": "£30000 per year",
+    "posted_date": "",
+    "description": "Exciting news I have the most amazing job based in Bishops Stortford working for a very good client of ours and it could be yours\n\nHandle customer enquiries via telephone & email\n\nBe thorough and clear in all communication\n\nProvide excellent customer service\n\nManage order entry\n\nRaise and manage customer complaints throughout the whole resolution process\n\nManage and carry out any other duties as assigne click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?Y5CHIaMSKAz%2fhaTAyhropg3VLUTFlVq6v",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "The Dove Partnership",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
     "job_id": "23643_225542267",
     "title": "Operations Co-Ordinator",
     "company": "Zero Surplus - Agency - Permanent",
@@ -635,7 +680,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9367-26-0790",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9367-26-0790",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5523647",
@@ -653,7 +702,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5985-26-0027",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5985-26-0027",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5520329",
@@ -671,7 +724,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B0525-26-0016",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B0525-26-0016",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5439405",
@@ -689,7 +746,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0106-26-0072",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0106-26-0072",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5555027",
@@ -707,6 +768,32 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0405-26-0006",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0405-26-0006",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
+  },
+  {
+    "job_id": "nhs-5547537",
+    "source": "NHS Jobs",
+    "title": "Senior Administrator",
+    "company": "Hertfordshire Community NHS Trust",
+    "advertiser_name": "Hertfordshire Community NHS Trust",
+    "location": "Watford, WD17 3EW",
+    "region": "Hertfordshire",
+    "salary": "£28392.00 to £31157.00",
+    "employment_type": "Permanent",
+    "posted_date": "2026-08-19T08:56:51.161970832",
+    "closing_date": "2026-09-01",
+    "description": "Full-Time - 9-5pmPeace Children's Centre - Watford This role will involve regular travel to Watford, Hemel Hempstead and St Albans This role will sit within the welcoming Senior Administrator Team, providing senior administrative support across Children's Specialist Services and to the associated administrative teams. This role offers extensive exposure to a broad range of clinical and administrative processes across the different Children's Specialist Services, providing an excellent opportunity to develop specialist knowledge and enhance professional administration skills within the NHS.The post would be particularly suited to an experienced administrator who is motivated to take on additional responsibilities, including the supervision and line management of staff, supporting service development, and contributing to the effective delivery of high-quality administrative services. *Proposed interview date: 14th September 2026* HCT will prioritise recruitment of workers living in England under the new immigration rules for care workers effective from 9 April 2025. Employers must first prove that they have attempted to recruit a worker from within England who needs new sponsorship. This ensures that those who came to the UK to pursue a career in adult social care can do so. Act as a key point of contact for clinical staff and the wider multidisciplinary team. Providing leadership and cross-cover supervisory support to the CSS Administration Teams to ensure the effective and seamless delivery of services. The post holder will oversee and support administrative workflows across a range of services, helping to drive consistency, efficiency and continuous improvement, whilst deputising for the Administration Leads as required. For more details about the responsibilities of this post please find attached links to the Job Description The successful candidate will demonstrate: Previous NHS administration experience at a Senior level including project management Excellent time management skills to manage a busy workload High attention to detail and accuracy Strong and clear communication skills Initiative and problem-solving abilities Energetic, flexible and proactive approach A pioneering approach, welcoming and embedding digital innovations to improve administrative processes and streamline efficiencies An inclusive , 'one team' approach to supporting colleagues and service users A caring attitude, supporting patients and colleagues with kindness and professionalism at all times Whilst it is not a legal requirement, Hertfordshire Community NHS Trust encourages and supports all staff to be vaccinated as this remains the best line of defence against COVID-19. We are committed to supporting flexible working options for staff, wherever possible, and welcome discussions on flexible working patterns to support our staff to maintain a healthy work life balance. Word versions of documents are available if needed to allow for any adaptations to be made i.e. font, colour, background, convert to Read Aloud. The use of AI is monitored and if you have used it then you are required to declare this, as well as what type of AI tools you have used and for what purpose. We reserve the right to further test your individual knowledge and skills in relation to the requirements for the post through robust and thorough interview and assessment.",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9812-26-0317",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9812-26-0317",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

@@ -21,7 +21,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Manchester Academy",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-administration-assistant-c2f65b3b-e84d-4148-98e6-f9f60ceb2d22",
@@ -45,7 +49,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Ellesmere Park High School",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "23643_225438494",
@@ -498,31 +506,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "107771449",
-    "title": "Sales & Client Relationship Coordinator (Conveyancing)",
-    "company": "Talent Finder - Agency - Permanent",
-    "location": "Manchester",
-    "region": "Greater Manchester - Manchester & Salford",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "24000",
-    "salary_max": "24000",
-    "salary_text": "£24000 per year",
-    "posted_date": "",
-    "description": "Sales & Client Relationship Coordinator (Conveyancing)\n\nSalford Quays\n\n£25,000 + Uncapped Commission\n\nWe are looking for an enthusiastic, organised and motivated Sales & Client Relationship Coordinator to join our friendly and growing team based in Salford Quays.\n\nThis role is ideal for someone who thrives on turning enquiries into instructed conveyancing clients, enjoys building relationships, and takes click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?6WDmO0cNttr5f5NWt7lCDF3YLb47n%2bhca",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Talent Finder",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "23643_225461115",
     "title": "Team Support Coordinator",
     "company": "Aspire Recruitment - Agency - Temporary",
@@ -713,7 +696,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9349-26-2527",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9349-26-2527",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5551494",
@@ -731,7 +718,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2924-26-0002",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2924-26-0002",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5543104",
@@ -749,7 +740,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9437-26-0727",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9437-26-0727",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5543726",
@@ -767,7 +762,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5035-26-0025",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5035-26-0025",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5535381",
@@ -785,7 +784,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2420-26-0005",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2420-26-0005",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5530819",
@@ -803,6 +806,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1040-26-0004",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1040-26-0004",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

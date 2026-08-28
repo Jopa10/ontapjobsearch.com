@@ -21,7 +21,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Notley High School and Braintree Sixth Form",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-attendance-and-send-administrator-unity-primary-academy",
@@ -45,7 +49,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Unity Primary Academy",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-lead-administrator-limebrook-primary-school-and-nursery",
@@ -69,7 +77,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Limebrook Primary School and Nursery",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-administration-assistant-responsibility-for-attendance",
@@ -93,7 +105,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Stifford Clays Primary School",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-trust-administrator-discovery-educational-trust",
@@ -117,7 +133,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Discovery Educational Trust",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "23643_225462925",
@@ -695,31 +715,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "107763662",
-    "title": "Land Rights Coordinator",
-    "company": "TriConnex - Agency - Permanent",
-    "location": "Essex",
-    "region": "Essex",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "",
-    "posted_date": "",
-    "description": "Land Rights Coordinator\n\nLocation: Braintree, Essex (Hybrid)\n\nSalary: Competitive plus benefits\n\nAs a Land Rights Coordinator you will be providing client support in the successful delivery of legal requirements for each project. You will be involved the tracking and reporting of projects, liaising with clients and stakeholders, and maintaining internal records to help eSmart Networks continually delive click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?Dw9iAXzSqBbiyUNk0FiaFYVGj58pJYwOk",
-    "source": "JobG8",
-    "working_arrangement": "hybrid",
-    "working_arrangement_text": "Hybrid working",
-    "working_arrangement_evidence": "Land Rights Coordinator Land Rights Coordinator Location: Braintree, Essex (Hybrid) Salary: Competitive plus benefits As a Land Rights Coordinator you will be providing client support in the successful delivery of legal requirements for each project.",
-    "advertiser_name": "TriConnex",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "23643_225464097",
     "title": "Repairs Coordinator (Entry Level)",
     "company": "Daniel Owen Ltd - Agency - Permanent",
@@ -910,7 +905,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9364-26-0808",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9364-26-0808",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5548458",
@@ -928,7 +927,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9364-26-0777",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9364-26-0777",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5465926",
@@ -946,7 +949,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0151-26-0022",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0151-26-0022",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5446642",
@@ -964,7 +971,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0106-26-0084",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0106-26-0084",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5559515",
@@ -982,7 +993,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3646-26-0010",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3646-26-0010",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5505587",
@@ -1000,7 +1015,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0132-26-1646",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0132-26-1646",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5493387",
@@ -1018,6 +1037,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0106-26-0099",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0106-26-0099",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

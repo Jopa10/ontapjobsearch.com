@@ -21,32 +21,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
-  },
-  {
-    "job_id": "107763613",
-    "title": "Accounts Assistant",
-    "company": "Tregothnan - Agency - Permanent",
-    "location": "Truro",
-    "region": "Cornwall",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "28000",
-    "salary_max": "28000",
-    "salary_text": "£28000 per year",
-    "posted_date": "",
-    "description": "Accounts Assistant\nApproximately 8 miles from Truro, Cornwall\nSalary from £29,000pa (depending on experience)\nFull-time, 35 hrs pw, Mon-Fri, 9.00am 5.00pm\nAbout Us\nTregothnan is a rural estate with a diverse portfolio of agricultural, property and business interests. The Estate sits on the banks of the River Fal and is home to a world-renowned botanical garden and pioneering tea plantations, and support click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?io0x8AEcaIPXVn3vdt02RhMSvYA0ZDpio",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Tregothnan",
-    "advertiser_type": "Agency",
-    "work_pattern": "Full Time",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
+    "advertiser_name": "Falmouth School",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "107824136",
@@ -139,6 +118,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4355-26-0004",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4355-26-0004",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

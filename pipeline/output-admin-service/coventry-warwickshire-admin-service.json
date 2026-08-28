@@ -21,7 +21,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Meadow Park School",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-school-administrator-president-kennedy-school-academy-coventry-west-midlands",
@@ -45,7 +49,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "President Kennedy School Academy",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-send-administrator-houlton-school",
@@ -69,7 +77,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Houlton School",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-school-receptionist-45aeb107-50df-4aa0-8e6f-1750a0fd6626",
@@ -93,7 +105,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Cardinal Wiseman Catholic School",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-receptionist-admin-officer-f47a5a75-5bef-45e1-a471-94bb514d5613",
@@ -117,7 +133,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Welcombe Hills School",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-receptionist-and-administrator-ftc-contract-september-december-2026-kenilworth-school-and-sixth-form-kenilworth",
@@ -141,7 +161,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Kenilworth School and Sixth Form",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-personal-assistant-pa-to-the-headteachers-oak-wood-schools",
@@ -165,7 +189,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Oak Wood Secondary School",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "23643_225441991",
@@ -658,7 +686,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0505-26-0225",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0505-26-0225",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5551216",
@@ -676,7 +708,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9203-26-0499",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9203-26-0499",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5549024",
@@ -694,7 +730,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0314-26-2774",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0314-26-2774",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5538096",
@@ -712,7 +752,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4791-26-0008",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4791-26-0008",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5525238",
@@ -730,6 +774,32 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2343-26-0008",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2343-26-0008",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
+  },
+  {
+    "job_id": "nhs-5565888",
+    "source": "NHS Jobs",
+    "title": "Ward Clerk",
+    "company": "University Hospitals Coventry and Warwickshire NHS Trust",
+    "advertiser_name": "University Hospitals Coventry and Warwickshire NHS Trust",
+    "location": "Coventry, CV2 2DX",
+    "region": "West Midlands - Coventry & Warwickshire",
+    "salary": "£25272.00",
+    "employment_type": "Permanent",
+    "posted_date": "2026-08-27T15:47:50.094296559",
+    "closing_date": "2026-09-04",
+    "description": "We have an exciting opportunity available for a Ward Clerk to join our Team here at UHCW. The post holder will be joining our Performance & Informatics (P&I) department who are well respected and the largest of our corporate services. The P&I portfolio encompasses Business Intelligence &Informatics, Information Systems Development, Clinical Coding, Data Quality and Patient Access. P&I work cross functionally to support the Trusts operational delivery of both national and internal targets which ensures the highest standards of patient care are delivered. A robust Performance Management Framework is embedded across UHCW that tracks and evaluates progress and supports both operational and clinical governance frameworks. New opportunities at a nationallevel are being developed by P&I in areas of health inequality, waiting list management and system working. As a Ward Clerk you will be expected to: Act as the first point of contact for dealing with routine enquiries and take action as necessary liaising with others as appropriate. This includes reception cover duties during working hours. Communicate with staff, patients and/or external organisations using appropriate methods. Please be advised that sponsorship is not eligible for this post. Maintain both manual and electronic filing systems and databases, as required by the department and Trust policies, ensuring all documents are accurately and appropriately archived. Maintain an efficient and comprehensive administrative service, including photocopying, providing support to the departments and other team members as requested. Utilise relevant Trust EPR systems, as determined by the role, ensure all relevant patient data is collected and input accurately in line with Trust guidelines. Collate, input and monitor department documentation and information to assist with the production of monthly reports for the department. Responsible for the dissemination of all relevant information to departments, external and internal users (e.g. dissemination of minutes, memos). Assist with training new team members in Trust operational systems and department procedures. Responsible for ordering stationery and other equipment whilst monitoring and maintaining stock levels using GHX system. Responsible for the receipt and distribution of incoming/outgoing post and action accordingly. Prioritise daily tasks to achieve timescales set. Act as first point of contact for complaints within the department, dealing with them accordingly and in line with Trust policy and values and departmental standards. Provide appropriate cover in the absence of other members of the team. Continually contribute to patient and business improvement Agendas. Share ideas for potential service improvement. For further details please see the attached job description.",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9218-26-1069",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9218-26-1069",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

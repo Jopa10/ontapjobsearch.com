@@ -1,29 +1,5 @@
 [
   {
-    "job_id": "teaching-vacancies-receptionist-olympic-primary-wellingborough",
-    "title": "Receptionist",
-    "company": "Olympic Primary",
-    "location": "Wellingborough",
-    "region": "Northamptonshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['part time']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "£24,796.00 - £25,185.00 Annually (FTE)",
-    "work_pattern": "",
-    "posted_date": "2026-08-03",
-    "closing_date": "2026-08-28",
-    "closing_datetime": "2026-08-28T15:00:00+01:00",
-    "summary": "Receptionist with Olympic Primary in Wellingborough. ['part time']; £24,796.00 - £25,185.00 Annually (FTE).",
-    "description": "Olympic Primary is recruiting for this vacancy in Wellingborough.\n\nThe advertised position is Receptionist.\n\nThe source lists the employment type as ['part time'].\n\nThe advertised salary or pay scale is £24,796.00 - £25,185.00 Annually (FTE).\n\nThe stated application deadline is 2026-08-28T15:00:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/receptionist-olympic-primary-wellingborough?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
-  },
-  {
     "job_id": "teaching-vacancies-receptionist-administrator-northgate-school-academy-trust",
     "title": "Receptionist / Administrator",
     "company": "Northgate School Academy Trust",
@@ -45,7 +21,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Northgate School Academy Trust",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-attendance-officer-studfall-infant-academy",
@@ -69,7 +49,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Studfall Infant Academy",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-admin-assistant-barry-primary-school",
@@ -93,7 +77,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Barry Primary School",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "23643_225346183",
@@ -446,6 +434,31 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "23643_225462965",
+    "title": "PURCHASING COORDINATOR",
+    "company": "Euro-Projects Recruitment Ltd - Agency - Permanent",
+    "location": "Northamptonshire",
+    "region": "Northamptonshire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "29000",
+    "salary_max": "29500",
+    "salary_text": "£29000 - £29500 per year (25days holiday + bank hols + 6% pen)",
+    "posted_date": "",
+    "description": "PURCHASING COORDINATOR\n\nBanbury Hybrid 29,500\n\nPurchasing Coordinator\n\nA fantastic opportunity has arisen for a Purchasing Coordinator to join a well-established organisation in Banbury.\n\nThis role would suit someone with experience in administration, customer service, logistics, supply chain or purchasing who is looking to take the next step in their career as a Purchasing Coordinator.\n\nWorking as part of a friendly and supportive team, the Purchasing Coordinator will be responsible for raising purchase orders, monitoring supplier deliveries, expediting orders and maintaining strong supplier relationships.\n\nResponsibilities as a Purchasing Coordinator.\n- Raise and manage purchase orders.\n- Monitor supplier deliveries and order status.\n- Expedite urgent and overdue orders.\n- Liaise with suppliers regarding deliveries, returns and quality issues.\n- Track supplier performance and service levels.\n- Work closely with internal departments to ensure product availability.\n- Support reporting and administrative activities.\n\nRequirements for this Purchasing Coordinator role\n- Previous office-based administration experience.\n- Strong communication and relationship-building skills.\n- Good organisational skills and attention to detail.\n- Ability to manage multiple priorities.\n- Confident user of Microsoft Office.\n- Purchasing, logistics, customer service or supply chain experience beneficial.\n\nBenefits\n- 29,500 salary\n- Hybrid working\n- 25 days holiday plus bank holidays\n- Employer pension contribution\n- Salary sacrifice car scheme\n- Life assurance\n- Employee wellbeing support\n- Retail discounts\n- Career development opportunities\n- Study support\n\nIdeal Backgrounds for a Purchasing Coordinator\n\nPurchasing Administrator, Procurement Assistant, Supply Chain Assistant, Logistics Administrator, Operations Administrator, Stock Controller, Customer Service Administrator or Sales Support Administrator.\n\nApply today to learn more about this exciting Purchasing Coordinator opportunity in Banbury.\n\nReference: PR/(phone number removed) Purchasing Coordinator.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?b0ZSEQFKUCJ3YVojQs4bGYz6p3HYpPAAl",
+    "source": "JobG8",
+    "working_arrangement": "hybrid",
+    "working_arrangement_text": "Hybrid working",
+    "working_arrangement_evidence": "PURCHASING COORDINATOR PURCHASING COORDINATOR Banbury Hybrid 29,500 Purchasing Coordinator A fantastic opportunity has arisen for a Purchasing Coordinator to join a well-established organisation in Banbury.",
+    "advertiser_name": "Euro-Projects Recruitment Ltd",
+    "advertiser_type": "Agency",
+    "work_pattern": "Full Time",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
     "job_id": "23643_225475580",
     "title": "Project Coordinator",
     "company": "Pertemps Northampton - Agency - Permanent",
@@ -586,7 +599,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2448-26-0003",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2448-26-0003",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5558575",
@@ -604,7 +621,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0790-26-0011",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0790-26-0011",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5558417",
@@ -622,7 +643,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0790-26-0010",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0790-26-0010",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5368470",
@@ -640,7 +665,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5452-26-0022",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5452-26-0022",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5362177",
@@ -658,6 +687,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0810-26-0005",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0810-26-0005",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]
