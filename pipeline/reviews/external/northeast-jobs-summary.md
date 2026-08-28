@@ -373,7 +373,7 @@ source_job_id: 300777
 source_url: https://www.northeastjobs.org.uk/job/Simpler_Recycling_Projects_Coordinator/300777
 ---
 ---
-action:
+action: select
 POSS | North East - Tyneside, Wearside & Northumberland | Eddie Ferguson House, Blyth, United Kingdom | £32,578 - £35,570 | Tenant Engagement Officer
 employer: Northumberland County Council
 closing_date: 20/09/2026

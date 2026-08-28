@@ -2582,17 +2582,15 @@ job_id: 107765584
 ## DORSET — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - DORSET | Dorset | Dorset | £40000 per year | Project Coordinator (Construction / Scaffolding / Renewables)
 job_id: 107724530
 ---
-
 ---
-action:
+action: exclude
 POSS - DORSET | Dorset | Dorset | £200 per daily | Project Coordinator
 job_id: 107671295
 ---
-
 ## ESSEX — SELECTED
 
 ---
@@ -2784,11 +2782,10 @@ job_id: 23643_225435199
 ## ESSEX — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - ESSEX | Essex | Essex | £40000 per year | QUALITY & PROCESS COORDINATOR
 job_id: 1713560
 ---
-
 ## GLOUCESTERSHIRE — SELECTED
 
 ---
@@ -4576,11 +4573,10 @@ job_id: 107665691
 ## STAFFORDSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - STAFFORDSHIRE | Staffordshire | Staffordshire | £30000 - £35000 per year | Operations Administrator - Stock & Logistics
 job_id: 23643_225543588
 ---
-
 ## SUFFOLK — SELECTED
 
 ---
