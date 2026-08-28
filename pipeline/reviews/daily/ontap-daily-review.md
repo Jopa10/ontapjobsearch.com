@@ -30,7 +30,7 @@ Edit only each `action:` line:
 ## JobG8 — 4 to review
 
 ---
-action:
+action: exclude
 POSS | JobG8 | Dorset | Dorset | £200 per daily | Project Coordinator
 source_key: jobg8
 source: JobG8
@@ -48,7 +48,7 @@ hub_fingerprint: 7d244c384ff821b3ac4c3bf81ffd38f44af2967aa261d77f9c2ce90e88fb430
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | Dorset | Dorset | £40000 per year | Project Coordinator (Construction / Scaffolding / Renewables)
 source_key: jobg8
 source: JobG8
@@ -66,7 +66,7 @@ hub_fingerprint: b24a2265b2932891fe1e7dce7fd5d29db5816eb4eecd946ea89685b82515f15
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | Essex | Essex | £40000 per year | QUALITY & PROCESS COORDINATOR
 source_key: jobg8
 source: JobG8
@@ -84,7 +84,7 @@ hub_fingerprint: d4fd22ba1f7d4f913839e6e494d6695d0e1e29a69f33f18fe71201c67e4270c
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Staffordshire | Staffordshire | £30000 - £35000 per year | Operations Administrator - Stock & Logistics
 source_key: jobg8
 source: JobG8
@@ -104,7 +104,7 @@ hub_fingerprint: 615ad690d9f8d23953f1313cf29ff3a326567ace7a261df7eff4944016e7fe6
 ## NEJobs — 1 to review
 
 ---
-action:
+action: select
 POSS | NEJobs | North East - Tyneside, Wearside & Northumberland | Eddie Ferguson House, Blyth,… | £32,578 - £35,570 | Tenant Engagement Officer
 source_key: nejobs
 source: NEJobs
@@ -146,7 +146,7 @@ hub_fingerprint: 0a71f4f2e22076be381864c77e031a679d81e0b596f18446520d12115e40c4c
 ---
 
 ---
-action:
+action: select
 POSS | Teaching Vacancies | Cambridgeshire | Huntingdon, PE28 5TQ | £32,061.00 Annually (Actual) | Marketing & Communications Officer
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -182,7 +182,7 @@ hub_fingerprint: f6b5a99b3a8eabb860c3eabbe8fa23a486f48b7931c13df53e8d146981ad93a
 ---
 
 ---
-action:
+action: select
 POSS | Teaching Vacancies | Hampshire | Portsmouth, South East, PO1 5PF | TSAT Pay Group 3 pro rata to £23,701 - £27,506 for hours and weeks stated (£26,866 - £31,179 FTE) | Senior Administration Assistant
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -236,7 +236,7 @@ hub_fingerprint: 2cb63b58beb5bae384e9e052e7d9410c3f0dc582b6d8cca6b7a6e00b205fa43
 ---
 
 ---
-action:
+action: select
 POSS | Teaching Vacancies | Lincolnshire | Grimsby, Yorkshire and the Humber, DN31 2ES | £25,185.00 - £25,989.00 Annually (FTE) Grade C Points 4 to 6 (£25,185 to £25,989 Full Time Equivalent) subject to pro rata. The minimum actual pro rata salary per annum for this job starts at £21,758.06. | Administration Officer
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -362,7 +362,7 @@ hub_fingerprint: 93a10592e03ed9d3f693438018eded1145b943920f3a912cde877298ba7ec1f
 ---
 
 ---
-action:
+action: select
 POSS | Teaching Vacancies | London | London, W12 7TF | £20,971.00 - £21,300.00 pro rata (£24,796.00 - £25,185.00 FTE)per annum | Receptionist
 source_key: teaching_vacancies
 source: Teaching Vacancies
