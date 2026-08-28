@@ -2,15 +2,159 @@
 
 review_date: 2026-08-28
 
-- Open Administrative & Clerical rows reviewed: 2504
+- Open Administrative & Clerical rows reviewed: 2517
 - Auto/remembered selected: 602
-- Selected HC Tier A: 254
-- Selected HC Tier B: 348
-- POSS awaiting decision: 1564
+- Selected HC Tier A: 255
+- Selected HC Tier B: 347
+- POSS awaiting decision: 1576
 - Excluded: 0
-- HARD_PASS: 338
+- HARD_PASS: 339
 
 Edit only each `action:` line for POSS rows. Unchanged decisions are restored by the shared decision ledger.
+
+---
+action:
+POSS | NHS Jobs | — | Fulham, SW10 9NH | £31554.00 to £33270.00 | Private Patient Care Coordinator
+source_job_id: 5569576
+title: Private Patient Care Coordinator
+employer: Chelsea and Westminster Hospital NHS Foundation Trust
+region: 
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9289-SC-443
+factual_fingerprint: 47a064000f61e2031c0d8c193c10b2705f5d962bcbd2c13144d7f905826773d7
+---
+
+---
+action:
+POSS | NHS Jobs | Hertfordshire | Watford, WD18 0HB | £51657.00 to £58785.00 | Band 7 - Governance Manager, Gynaecology
+source_job_id: 5569600
+title: Band 7 - Governance Manager, Gynaecology
+employer: West Hertfordshire Teaching Hospitals NHS Trust
+region: Hertfordshire
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9360-26-0381
+factual_fingerprint: d6cc88f28483dd05284a65b92c1c6971a6a6118880db9c365cd5cd020a32642f
+---
+
+---
+action:
+POSS | NHS Jobs | Greater Manchester - Manchester & Salford | England, S75 3FG, Manchester, M13 9LL, London, NW9 5BG, Bristol, BS34 7QH, Liverpool, L24 8RB, London, SW17 0RB, Barnsley, S75 3FG, Birmingham, B15 2SG | £49387.00 to £56515.00 | Senior Digital Developer
+source_job_id: 5569487
+title: Senior Digital Developer
+employer: NHS Blood and Transplant
+region: Greater Manchester - Manchester & Salford
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/M0048-26-0435
+factual_fingerprint: 08cb67c446e6fc903d091fb9214227e7b5ef5504b1061eae80271148d28beb09
+---
+
+---
+action:
+POSS | NHS Jobs | — | Ashgate Road, S42 7JE | £112782.00 to £129783.00 | Director of Clinical Operations & Nursing
+source_job_id: 5569543
+title: Director of Clinical Operations & Nursing
+employer: Derbyshire Community Health Services NHSFT
+region: 
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9842-26-0517
+factual_fingerprint: fdf266c96b952ce3a8e2c1c2a14941f24c0af5d55b088c309226b11da184c88f
+---
+
+---
+action:
+POSS | NHS Jobs | Leicestershire | Leicester, LE5 4PW | £49387.00 to £56515.00 | Senior Research Dietitian or Developmental Band 6 Research Dietitian
+source_job_id: 5569526
+title: Senior Research Dietitian or Developmental Band 6 Research Dietitian
+employer: University Hospitals of Leicester NHS Trust
+region: Leicestershire
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9358-26-0584
+factual_fingerprint: b5f886539cec86747eab3f63f8f88be34140152e844b31c6880343a52f48704c
+---
+
+---
+action:
+POSS | NHS Jobs | — | Tooting, SW17 0QT | £38488.00 to £46852.00 | Patient Navigator for the Vague Symptoms of Cancer Service
+source_job_id: 5568701
+title: Patient Navigator for the Vague Symptoms of Cancer Service
+employer: St George's University Hospitals NHS Foundation Trust
+region: 
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9200-26-0756
+factual_fingerprint: 3c7a011664be1880b7513b29333e8a053af1b45e5636ac345af98e1e3094e7c2
+---
+
+---
+action:
+POSS | NHS Jobs | Bedfordshire | Luton, LU4 0DZ | £25272.00 | Supply Chain Assistant
+source_job_id: 5569450
+title: Supply Chain Assistant
+employer: Bedfordshire Hospitals NHS Foundation Trust
+region: Bedfordshire
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9418-26-0898
+factual_fingerprint: 97eaa07fdb775e317097b82c91f5042ed3117521a84bffa9977b72adbc76b6e9
+---
+
+---
+action:
+POSS | NHS Jobs | Bedfordshire | Luton, LU4 0DZ | £25760.00 to £27476.00 | Facilities Helpdesk Co-ordinator
+source_job_id: 5569401
+title: Facilities Helpdesk Co-ordinator
+employer: Bedfordshire Hospitals NHS Foundation Trust
+region: Bedfordshire
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9418-26-0897
+factual_fingerprint: bf8bef78dcb0581ac054772ea6bffc55d7ce1c7e7dac85bfd74cbb61536f95e7
+---
+
+---
+action:
+POSS | NHS Jobs | Sussex | Worthing, BN11 1HS | £49387.00 to £56515.00 | Violence and Abuse Support Manager
+source_job_id: 5568588
+title: Violence and Abuse Support Manager
+employer: Sussex Partnership NHS Foundation Trust
+region: Sussex
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9354-26-1043
+factual_fingerprint: 13ad8bba667648e9497a8677bfc6c471e766d6362827ed8abaf31605836c38a3
+---
+
+---
+action:
+POSS | NHS Jobs | — | St Blazey, PL24 2HY | £39959.00 to £56515.00 | Deputy Finance Business Partner [Developmental Opportunity]
+source_job_id: 5569456
+title: Deputy Finance Business Partner [Developmental Opportunity]
+employer: Cornwall Partnership NHS Foundation Trust
+region: 
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9201-26-1096
+factual_fingerprint: fee38561555b8d8e94584b01c85971c6ae310ceca0e43ea28465de4dc63ad1fd
+---
+
+---
+action:
+POSS | NHS Jobs | — | St Blazey, PL24 2HY | £32073.00 to £39043.00 | Culture Development and Engagement Facilitator
+source_job_id: 5569432
+title: Culture Development and Engagement Facilitator
+employer: Cornwall Partnership NHS Foundation Trust
+region: 
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9201-26-1095
+factual_fingerprint: 29c000ac03afe6f66ded0537bf2f9ddc6f356465dee6f00cd403724e8681e76f
+---
+
+---
+action:
+POSS | NHS Jobs | Cornwall | Truro, TR1 3AY | £49387.00 to £56515.00 | Creative Health Lead
+source_job_id: 5569321
+title: Creative Health Lead
+employer: Cornwall Partnership NHS Foundation Trust
+region: Cornwall
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9201-26-1093
+factual_fingerprint: de6838fdb4a821fe3b0a1a433b35580153c4f104d8856e402b542ba01b3ce8ac
+---
 
 ---
 action:
@@ -33,7 +177,7 @@ employer: Guy's and St Thomas' NHS Foundation Trust
 region: London
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9196-26-1041
-factual_fingerprint: 6c922397b13c90943979466524e6c9216e46b014e89caac69a82bfae292c34a4
+factual_fingerprint: ff37d6e981e4338a63227b8b3e81941dbde822cb82472dcaf926b7b88b08552e
 ---
 
 ---
@@ -429,7 +573,7 @@ employer: The Royal Wolverhampton NHS Trust
 region: West Midlands - Black Country
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9225-26-0634
-factual_fingerprint: b50eb9e839dc5062311747376d4fe8a1feecf4eee5bd9d534f4377e9148dee37
+factual_fingerprint: 0d4741e1a5909063a0f01e3cfb26a39302a2dea4ce902714bb6f70504608e706
 ---
 
 ---
