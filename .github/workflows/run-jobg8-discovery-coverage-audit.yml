@@ -1,4 +1,4 @@
-name: Run JobG8 discovery coverage audit
+name: TEST salary-band discovery coverage audit
 
 on:
   workflow_dispatch:
@@ -30,10 +30,10 @@ jobs:
   audit:
     runs-on: ubuntu-latest
     steps:
-      - name: Check out main
+      - name: Check out test revision
         uses: actions/checkout@v4
         with:
-          ref: main
+          ref: ${{ github.sha }}
           fetch-depth: 0
 
       - name: Set up Python
@@ -158,43 +158,11 @@ jobs:
             fi
           done
 
-      - name: Commit diagnostic outputs only
+      - name: Confirm test remains artifact-only
         run: |
           set -euo pipefail
-          files=(
-            pipeline/reports-discovery-audit/jobg8-discovery-coverage-current.csv
-            pipeline/reports-discovery-audit/jobg8-discovery-coverage-current.md
-            pipeline/reports-discovery-audit/jobg8-broad-family-reconciliation-current.csv
-            pipeline/reports-discovery-audit/jobg8-broad-family-reconciliation-current.md
-            pipeline/reports-discovery-audit/jobg8-insurance-claims-discovery-current.csv
-            pipeline/reports-discovery-audit/jobg8-insurance-claims-discovery-current.md
-            pipeline/reports-discovery-audit/jobg8-insurance-claims-boundary-review-current.csv
-            pipeline/reports-discovery-audit/jobg8-claims-family-validation-current.csv
-            pipeline/reports-discovery-audit/jobg8-claims-family-validation-current.md
-            pipeline/reports-discovery-audit/jobg8-claims-slice-viability-current.csv
-            pipeline/reports-discovery-audit/jobg8-claims-slice-viability-current.md
-          )
-          while IFS= read -r -d '' file; do
-            files+=("$file")
-          done < <(find pipeline/reports-discovery-audit -maxdepth 1 -type f \( -name 'jobg8-*-discovery-current.csv' -o -name 'jobg8-*-discovery-current.md' -o -name 'jobg8-*-recurrence-current.csv' -o -name 'jobg8-*-recurrence-current.md' -o -name 'jobg8-*-proof-region-evidence-current.csv' -o -name 'jobg8-*-proof-region-evidence-current.md' \) -print0)
-          git add -- "${files[@]}"
-          if git diff --cached --quiet; then
-            echo 'Discovery audit unchanged'
-            exit 0
-          fi
-          staged="$(git diff --cached --name-only)"
-          unexpected="$(printf '%s\n' "$staged" | grep -Ev '^pipeline/reports-discovery-audit/(jobg8-discovery-coverage-current|jobg8-broad-family-reconciliation-current|jobg8-insurance-claims-discovery-current|jobg8-claims-family-validation-current|jobg8-claims-slice-viability-current)\.(csv|md)$|^pipeline/reports-discovery-audit/jobg8-insurance-claims-boundary-review-current\.csv$|^pipeline/reports-discovery-audit/jobg8-[a-z0-9-]+-(discovery|recurrence|proof-region-evidence)-current\.(csv|md)$' || true)"
-          if [ -n "$unexpected" ]; then
-            echo '::error::Unexpected staged path(s):'
-            printf '%s\n' "$unexpected"
-            git reset --mixed
-            exit 1
-          fi
-          git config user.name 'github-actions[bot]'
-          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git commit -m 'Run JobG8 discovery diagnostics'
-          git pull --rebase origin main
-          git push origin HEAD:main
+          test "$GITHUB_REF_NAME" = "test/salary-band-family-audit"
+          echo 'Test run only: reports will be uploaded as an artifact and will not be committed or pushed.'
 
       - name: Upload audit artifact
         if: always()
