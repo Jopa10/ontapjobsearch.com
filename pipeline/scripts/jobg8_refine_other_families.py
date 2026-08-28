@@ -17,7 +17,11 @@ TITLE_COL = "/Job/Position"
 DESCRIPTION_COL = "/Job/Description"
 AREA_COL = "/Job/Area"
 LOCATION_COL = "/Job/Location"
+SALARY_MIN_COL = "/Job/SalaryMinimum"
+SALARY_MAX_COL = "/Job/SalaryMaximum"
+SALARY_PERIOD_COL = "/Job/SalaryPeriod"
 AREA_UNUSABLE_VALUES = {"", "not specified", "unknown"}
+SALARY_BANDS = ["Below £20k / unknown", "£20k–<£35k", "£35k–£45k", "Over £45k"]
 
 CATEGORY_FAMILY = {
     "support_worker": "Care / Support Work",
@@ -84,6 +88,53 @@ def text(value: object) -> str:
     if value is None or pd.isna(value):
         return ""
     return re.sub(r"\s+", " ", str(value).strip())
+
+
+def annualised_salary(value: object, period: object) -> float | None:
+    raw = text(value).replace(",", "")
+    match = re.search(r"\d+(?:\.\d+)?", raw)
+    if not match:
+        return None
+    amount = float(match.group())
+    if amount <= 0:
+        return None
+    # Some JobG8 rows label an already-annual salary as Weekly. A five-figure
+    # value is therefore treated as annual before applying period multipliers.
+    if amount >= 10000:
+        return amount
+    salary_period = norm(period)
+    if any(term in salary_period for term in ("annual", "annum", "year")):
+        return amount
+    if "month" in salary_period:
+        return amount * 12
+    if "week" in salary_period:
+        return amount * 52
+    if "day" in salary_period:
+        return amount * 260
+    if "hour" in salary_period:
+        return amount * 1950
+    return None
+
+
+def salary_band(minimum: object, maximum: object, period: object) -> str:
+    values = [
+        value
+        for value in (
+            annualised_salary(minimum, period),
+            annualised_salary(maximum, period),
+        )
+        if value is not None
+    ]
+    if not values:
+        return "Below £20k / unknown"
+    midpoint = sum(values) / len(values)
+    if midpoint < 20000:
+        return "Below £20k / unknown"
+    if midpoint < 35000:
+        return "£20k–<£35k"
+    if midpoint <= 45000:
+        return "£35k–£45k"
+    return "Over £45k"
 
 
 def latest_feed(input_dir: Path) -> Path:
@@ -214,6 +265,21 @@ def family_geo_metrics(raw: pd.DataFrame, title_family: dict[str, str], geo_look
     return out
 
 
+def family_salary_metrics(raw: pd.DataFrame, title_family: dict[str, str]) -> dict[str, Counter[str]]:
+    counts: defaultdict[str, Counter[str]] = defaultdict(Counter)
+    for _, row in raw.iterrows():
+        family = title_family.get(norm(row.get(TITLE_COL, "")))
+        if not family:
+            continue
+        band = salary_band(
+            row.get(SALARY_MIN_COL, ""),
+            row.get(SALARY_MAX_COL, ""),
+            row.get(SALARY_PERIOD_COL, ""),
+        )
+        counts[family][band] += 1
+    return dict(counts)
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--input-csv", required=True, type=Path)
@@ -270,6 +336,7 @@ def main() -> int:
 
     title_family = {norm(row["title"]): str(row["refined_broad_family"]) for _, row in df.iterrows()}
     geo = family_geo_metrics(raw, title_family, args.geo_lookup)
+    salaries = family_salary_metrics(raw, title_family)
 
     args.output_dir.mkdir(parents=True, exist_ok=True)
     df.to_csv(args.output_dir / "jobg8-broad-family-reconciliation-current.csv", index=False, encoding="utf-8-sig")
@@ -292,7 +359,29 @@ def main() -> int:
     for family, count in family_counts.most_common():
         lines.append(f"| {family} | {count:,} | {(count / total * 100):.1f}% |")
 
-    lines += [f"| **TOTAL** | **{total:,}** | **100.0%** |", "", "## Opportunity and Ontap-region density", "",
+    lines += [f"| **TOTAL** | **{total:,}** | **100.0%** |", "", "## Refined family totals by salary band", "",
+              "Salary uses the midpoint of the available structured minimum/maximum after annualising hourly, daily, weekly or monthly amounts. Five-figure values are treated as annual even when the source period is inconsistent. The first column combines genuinely sub-£20k jobs with missing or unusable salary so every family reconciles exactly to its total.", "",
+              "| Broad family | Below £20k / unknown | £20k–<£35k | £35k–£45k | Over £45k | Total |",
+              "|---|---:|---:|---:|---:|---:|"]
+    salary_totals: Counter[str] = Counter()
+    for family, count in family_counts.most_common():
+        band_counts = salaries.get(family, Counter())
+        if sum(band_counts.values()) != count:
+            raise SystemExit(f"Salary-band reconciliation failed for {family}")
+        for band in SALARY_BANDS:
+            salary_totals[band] += band_counts.get(band, 0)
+        lines.append(
+            f"| {family} | {band_counts.get(SALARY_BANDS[0], 0):,} | {band_counts.get(SALARY_BANDS[1], 0):,} | "
+            f"{band_counts.get(SALARY_BANDS[2], 0):,} | {band_counts.get(SALARY_BANDS[3], 0):,} | {count:,} |"
+        )
+    if sum(salary_totals.values()) != total:
+        raise SystemExit("Overall salary-band reconciliation failed")
+    lines.append(
+        f"| **TOTAL** | **{salary_totals[SALARY_BANDS[0]]:,}** | **{salary_totals[SALARY_BANDS[1]]:,}** | "
+        f"**{salary_totals[SALARY_BANDS[2]]:,}** | **{salary_totals[SALARY_BANDS[3]]:,}** | **{total:,}** |"
+    )
+
+    lines += ["", "## Opportunity and Ontap-region density", "",
               "Geography uses the same geo_lookup Area→Cluster and controlled LocationFallback logic as Ontap Module 2. Existing-register jobs are already selected by a current Ontap register. New/uncovered is diagnostic only.", "",
               "| Broad family | Total | Existing register | New / uncovered | Ontap regions | Median / region | Regions 5+ | Regions 10+ | Geo unknown | Top regions |",
               "|---|---:|---:|---:|---:|---:|---:|---:|---:|---|"]
