@@ -47,7 +47,12 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Shared inboxes",
+      "Records administration",
+      "Data entry"
+    ]
   },
   {
     "job_id": "23643_225445236",
@@ -72,7 +77,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Customer enquiries",
+      "Quotations"
+    ]
   },
   {
     "job_id": "23643_225380328",
@@ -97,7 +106,12 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Customer enquiries",
+      "Records administration",
+      "Quotations"
+    ]
   },
   {
     "job_id": "23643_225521146",
@@ -147,7 +161,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Records administration",
+      "Data entry"
+    ]
   },
   {
     "job_id": "23643_225512252",
@@ -291,6 +309,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9373-26-0554",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -310,6 +331,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B0251-26-0019",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   }
 ]

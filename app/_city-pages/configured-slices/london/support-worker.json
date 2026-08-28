@@ -41,7 +41,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Part Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Personal care",
+      "Daily living support"
+    ]
   },
   {
     "job_id": "23643_225516212",
@@ -63,7 +67,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Daily",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Daily living support",
+      "Safeguarding"
+    ]
   },
   {
     "job_id": "1780022",
@@ -85,28 +93,6 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
-  },
-  {
-    "job_id": "107744963",
-    "title": "Home Care Worker",
-    "company": "Goldsmithpersonnel Ltd - Agency - Permanent",
-    "location": "London",
-    "region": "London",
-    "country": "UK",
-    "category": "Support Worker – Wide",
-    "employment_type": "Permanent",
-    "salary_min": "13",
-    "salary_max": "13",
-    "salary_text": "£13 per hour",
-    "posted_date": "2026-08-26",
-    "description": "Join Our Team Female Home Care Workers (Brent, London)\n\nGoldsmith Personnel Ltd is a well-established 24-hour care agency with over 20 years of experience supplying high-quality carers, nurses, and healthcare assistants across the UK.\n\nAs a growing and innovative company, we are committed to delivering exceptional care through modern and compassionate approaches always placing our clients and team m click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?d1vRzEYF65S568CXYCPs8liBa3M7HKwox",
-    "source": "JobG8",
-    "advertiser_name": "Goldsmithpersonnel Ltd",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Hourly",
     "posted_date_basis": "ontap_first_published"
   },
   {
@@ -148,6 +134,28 @@
     "apply_url": "https://www.jobg8.com/Traffic.aspx?vAYWCB8ag%2fhLLLOXWpeS6x1VLMbkybG7i",
     "source": "JobG8",
     "advertiser_name": "Media Photography Company",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Annual",
+    "posted_date_basis": "ontap_first_published"
+  },
+  {
+    "job_id": "1818954",
+    "title": "Enhanced Support Worker",
+    "company": "Look Ahead Care Support and Housing - Agency - Permanent",
+    "location": "London",
+    "region": "London",
+    "country": "UK",
+    "category": "Support Worker – Wide",
+    "employment_type": "Permanent",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "£31,200.00 per annum",
+    "posted_date": "2026-08-28",
+    "description": "We're looking for 3 kind, compassionate and resilient Enhanced Support Worker's to join our Mental Health Social Care Service in Westminster. No personal care or experience required, just the right values.\n\n£ 31,200.00 per annum, working 40 hours per week.\n\nWant to feel valued? You'll feel at home here.\n\nThis Service operates across multiple sites, and all staff are required to work flexibly across each hub as part of the service.\n\nMaking you feel at home here means helping you thrive in every way. That's why we offer a wide range of benefits, award-winning Learning & Development and a culture that welcomes all. These aren't token gestures - we've thought long and hard about how best to support our team. After all, our people are doing something amazing: helping to transform lives every day .\n\nOur benefits include:\n- Annual leave increasing up to 30 days with length of service\n- Free DBS\n- A generous pension - we will contribute up to 8% and life assurance cover up to 3x pensionable salary (T&Cs apply)\n- Exclusive discounts and cashback via Reward Gateway and opportunity to buy a Blue Light Card\n\nAll applicants must be legally eligible to work in the UK by the start of employment as Look Ahead are not able to offer sponsorship.\n\nTo enable vulnerable people living in a variety of different tenures to manage their tenancies/ licences and move towards greater independence within the community, by providing flexible and individually tailored support.\n\nWhat you'll do:\n\nThis is not an exhaustive list of all the duties and responsibilities that may be required from time to time and is subject to change in accordance with the needs of Look Ahead\n- Undertake initial and continuous assessment of needs and potential risks and agree levels of support actions and capture outcomes in Support and Risk Management files.\n- Create support/action plans for providing appropriate services based on the assessment and reflecting the services and resources available.\n- Support customers to undertake all domestic tasks wherever possible, including practical assistance where they have not yet developed the skills, to ensure customers enjoy a high quality of accommodation\n- Develop and maintain links with all key agencies and service providers in the local community especially the local mental health system to ensure that customers receive the best treatment available\n- Lead on an area of specialism (e.g. , health and wellbeing) , build partnerships and develop internal and external opportunities for service-users in this area\n\nAbout you:\n- Enjoys social interaction and the company of others, joins in local activities to encourage customer involvement\n- Approachable and open behaviour\n- Prefers working as part of a group or team\n\nEssential:\n- Up to NVQ Level 2/3 or equivalent or experience in the social care/charity sector\n\nDesirable:\n- Experience working in mental health\n\nAbout us:\n\nLook Ahead is committed to safeguarding and promoting the welfare of children and adults at risk, and expects all employees, workers and volunteers to share this commitment.\n\nIf your application for this role is unsuccessful, but we feel that you would be suitable for another role, we may contact you to discuss alternative opportunities. If this occurs you would not need to submit another application for the alternative role.\n\nWe reserve the right to close this advert early if we are able to appoint to the vacancy before the advertised closed date.\n\nWe are committed to diversity and inclusion at work and are accredited with Silver in the Inclusive Employers Standard 2021. We are a proud member of the Employers Domestic Abuse Covenant and encourage applications from a diverse range of applicants of all backgrounds.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?gZ0pd2TJz0IklKrLNk%2fzUgaeBsK3V4i8s",
+    "source": "JobG8",
+    "advertiser_name": "Look Ahead Care Support and Housing",
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",

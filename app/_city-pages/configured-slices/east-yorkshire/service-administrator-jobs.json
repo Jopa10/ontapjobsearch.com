@@ -22,6 +22,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "Kingswood Parks Primary School",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -97,7 +100,14 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Customer enquiries",
+      "Records administration",
+      "Systems administration",
+      "Quotations",
+      "Order processing"
+    ]
   },
   {
     "job_id": "23643_225510748",
@@ -122,7 +132,12 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Records administration",
+      "Systems administration",
+      "Order processing"
+    ]
   },
   {
     "job_id": "23643_225511107",
@@ -147,7 +162,12 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Customer enquiries",
+      "Quotations",
+      "Order processing"
+    ]
   },
   {
     "job_id": "107902261",
@@ -247,7 +267,12 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Email handling",
+      "Scheduling and bookings",
+      "Reporting"
+    ]
   },
   {
     "job_id": "107906912",
@@ -297,7 +322,12 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Scheduling and bookings",
+      "Records administration",
+      "Data entry"
+    ]
   },
   {
     "job_id": "107841883",
@@ -350,31 +380,6 @@
     "posted_date_basis": "ontap_first_published"
   },
   {
-    "job_id": "107770477",
-    "title": "Customer Service Assistant",
-    "company": "Genda Playnation Entertainment Ltd - Agency - Temporary",
-    "location": "Driffield",
-    "region": "Yorkshire - East",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Temporary",
-    "salary_min": "12.71",
-    "salary_max": "12.71",
-    "salary_text": "£12.71 per hour (Free Parking, Uniform provided, Discounts available)",
-    "posted_date": "2026-08-25",
-    "description": "Genda-Playnation Entertainment are now recruiting for:\n\nSeasonal Customer Service Assistants\n\nAt our arcade in\n\nSkirlington Leisure Park, Skipsea Road, Driffield YO25 8 SY\n\nIf you enjoy working with people, thrive in a fast-paced environment, and want a fun seasonal role, this Customer Service Assistant opportunity could be perfect for you click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?ju9emE%2fz0VK2Vu72vj%2f3hL4yMLyIUCTJw",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Genda Playnation Entertainment Ltd",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published"
-  },
-  {
     "job_id": "107785786",
     "title": "Customer Success & Sales Support Executive",
     "company": "Consortium Professional Recruitment - Agency - Permanent",
@@ -416,25 +421,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9338-26-0412",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "posted_date_basis": "source"
-  },
-  {
-    "job_id": "nhs-5546058",
-    "source": "NHS Jobs",
-    "title": "Administration Assistant",
-    "company": "Humber Teaching NHS Foundation Trust",
-    "advertiser_name": "Humber Teaching NHS Foundation Trust",
-    "location": "Hull, HU3 2RT",
-    "region": "Yorkshire - East",
-    "salary": "£25272.00",
-    "employment_type": "Permanent",
-    "posted_date": "2026-08-18T11:50:02.743022",
-    "closing_date": "2026-09-01",
-    "description": "\" Please note that this advertised vacancy does not meet the UKVI eligibility requirements for a Skilled Worker Visa and therefore HTFT would not be able to issue a Certificate of Sponsorship for this role.\" An opportunity has arisen for a full-time Band 2 Administration Assistant to work within our Mental Health Crisis Team based at Miranda House in Hull. You will be expected to be flexible and work in a fast paced and highly demanding environment within the main office as well as providing cover to a very busy reception area. The administration team provides 24 hour, 7 day a week cover which is worked on a rota basis incorporating enhanced pay for unsocial hours. This provides a refreshing work life balance. This role involves liaising with health care professionals from the Trust and outside agencies, also dealing with queries from patients requiring a service. Excellent interpersonal skills and being able to work on own initiative are both essential. The successful candidate will have good keyboard skills enabling them to assist in creating, developing and maintaining new processes and procedures. This includes regular data inputting using patient systems (Systm One ) in accordance with the Trust standards. Along with all other Microsoft Packages. Applicants will have RSA III and OCRIII/ECDL or equivalent NVQ Qualification, a good standard of Maths and English and have previous experience of carrying out general administrative procedures in an office environment. Experience of using software packages including Microsoft Word/Outlook and Excel are beneficial. Experience with the Trust Patient Information Systems (Systm One ) would be advantageous. For further details with regard to this vacancy opportunity, please see the attached Job Description and Person Specification.",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9338-26-0409",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9338-26-0409",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -454,6 +443,31 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9356-26-0594",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
+  },
+  {
+    "job_id": "nhs-5550886",
+    "source": "NHS Jobs",
+    "title": "Care Navigator / Receptionist",
+    "company": "The Ridings Medical Group",
+    "advertiser_name": "The Ridings Medical Group",
+    "location": "HESSLE, HU13 9LZ, Brough, HU15 2JG, Brough, HU15 1AY, York, YO43 4BJ, Selby, YO8 6LY",
+    "region": "Yorkshire - East",
+    "salary": "£12.91 to £13.17",
+    "employment_type": "Permanent",
+    "posted_date": "2026-08-20T14:41:34.937054684",
+    "closing_date": "2026-09-17",
+    "description": "We are looking for two part-time Care Navigators/Receptionists to join our busy and friendly team, providing a high quality service to patients, doctors and other members of the Primary Healthcare Team. Working 20 hours per week across our sites at Hessle, Brough and South Cave, Bubwith and Holme on Spalding Moor (HOSM). 1 x Care Navigator at 20hrs per week - mainly at HOSM & Bubwith, must be willing to work at any of our sites. 1 x Care Navigator at 20hrs per week - mainly at Hessle with cover for Brough & South Cave, must be willing to work at any of our sites. Candidates should be experienced in delivering excellent reception support, maintaining professionalism and discretion at all times and be able to work independently and as part of a team. Good communication skills and attention to detail are essential along with the flexibility to cover for annual/sick leave. Knowledge of SystmOne would be an advantage. You will have experience of working with the public, have a cheerful and polite manner, be able to multi-task and be a good team player. You must be able to contribute to the maintenance of patient confidentiality at all times, inside and outside the Practice. For more information on salary and working hours, please see attached documents. You will need to be a good communicator with excellent interpersonal and customer service skills; especially under pressure. You will have a range of patient facing and administrative tasks, so excellent organisational skills and time management are critical. A caring, empathetic character is essential. Your duties will include answering telephone calls, registering patients and general admin within the Practice. It is very important to have a 'can do' attitude. It is also important to be flexible and able cover shifts when required. PLEASE SEE ATTACHED JOB DESCRIPTION FOR A FULL LIST OF DUTIES. Greet patients and visitors to the Practice. Book in patients and visitors in line with Practice appointments and visitors procedures. Respond and/or redirect all patient and visitor requests accordingly and ensure unresolved and urgent matters are passed onto incoming colleagues at end of shift. Opening incoming mail and distribute as per protocol. Booking, amending, and cancelling patient appointments. Recording patient information onto the clinical system. Ensure waiting room temperature is comfortable for patients and responsible for tidying the waiting area (magazines, toys etc.) after each surgery Answering incoming telephone calls, ensuring calls are documented and redirected accordingly. Care Navigate all patients, including referring patients to outside providers. Book appointments using Improving Access System. Must be flexible to provide holiday and sickness cover on a regular basis. Maintenance of both computerised and manual filing systems (scanning, filing etc.). Ring Tasks sent by Clinicians using the flagged system. Prescriptions Hand paper copies to patients when Dispensary is closed. Make tea/coffee for colleagues, doctors and visitors as required Work safely at all times in accordance with Legislative requirements and Practice Policy and Procedures. Administration Duties Registrations, New Patient Questionnaires and Deductions must be kept up to date. Any other additional administration duties as required. This job description is not exhaustive and may be adjusted periodically after review and consultation. You will also be expected to carry out any reasonable duties which may be requested from time-to-time.",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0361-26-0008",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0361-26-0008",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   }
 ]

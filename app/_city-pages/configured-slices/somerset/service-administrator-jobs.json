@@ -22,6 +22,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "Kingsmead Academy",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -47,6 +50,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "Winterstoke Hundred Academy",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -72,6 +78,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "West Monkton Church of England School",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -97,6 +106,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "Willow Vale School",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -122,6 +134,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "Pathway Trust",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -147,7 +162,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Part Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Email handling",
+      "Records administration"
+    ]
   },
   {
     "job_id": "23643_225460309",
@@ -197,7 +216,12 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Records administration",
+      "Systems administration",
+      "Document preparation"
+    ]
   },
   {
     "job_id": "107861789",
@@ -391,6 +415,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9387-26-1771",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -410,6 +437,31 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2122-26-0011",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
+  },
+  {
+    "job_id": "nhs-5563157",
+    "source": "NHS Jobs",
+    "title": "Ward Administrator",
+    "company": "Somerset NHS Foundation Trust",
+    "advertiser_name": "Somerset NHS Foundation Trust",
+    "location": "Frome, BA11 2FH",
+    "region": "Somerset",
+    "salary": "£24465.00 to £24465.00",
+    "employment_type": "Permanent",
+    "posted_date": "2026-08-26T13:21:03.132384355",
+    "closing_date": "2026-09-09",
+    "description": "This is an exciting role front of house, working closely with clinical colleagues to ensure our patients receive the highest standard of care. The role requires someone who has a great level of attention to detail and good organisational skills for managing in a busy environment. Excellent communication and customer service skills are essential for dealing with colleagues, patients and families. The needs of the service user will be the utmost priority. The principle of high quality customer care is at the heart of this role. Working hours can be flexible to cover a mixture of the following: 08.00 -- 18.30 Monday -- Friday 08.00 -- 13.00 Saturday -- Sunday The post holder will be required to admit/discharge and transfer patients, answer telephone enquiries, create appointments and arrange transport for patients.The post holder will be responsible for ensuring the reception area is tidy and well organised and that office supplies and stationery are ordered and kept stocked up. See full job description for more information. Please see the Job Description for further information, as well as a full list of duties and responsibilities.",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9184-26-1263",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9184-26-1263",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   }
 ]

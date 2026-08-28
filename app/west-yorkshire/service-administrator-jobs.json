@@ -22,6 +22,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "Benton Park School",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -47,6 +50,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "Benton Park School",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -72,6 +78,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "Oastlers School",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -97,6 +106,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "Parkside School",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -122,6 +134,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "All Saints Catholic College",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -147,6 +162,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "All Saints Catholic College",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -172,6 +190,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "All Saints Catholic College",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -197,6 +218,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "The North Halifax Grammar School",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -222,6 +246,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "Dixons McMillan Academy",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -247,6 +274,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "Appleton Academy",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -272,6 +302,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "Dixons Cottingley Academy",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -297,6 +330,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "Fountain Primary School",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -372,7 +408,13 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Customer enquiries",
+      "Scheduling and bookings",
+      "Data entry",
+      "Document preparation"
+    ]
   },
   {
     "job_id": "23643_225515250",
@@ -397,7 +439,12 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Email handling",
+      "Systems administration",
+      "Pre-employment administration"
+    ]
   },
   {
     "job_id": "23643_225516031",
@@ -447,7 +494,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Scheduling and bookings",
+      "Document preparation"
+    ]
   },
   {
     "job_id": "23643_225524513",
@@ -472,7 +523,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Reporting",
+      "Quotations"
+    ]
   },
   {
     "job_id": "107880455",
@@ -497,6 +552,31 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
+    "posted_date_basis": "ontap_first_published"
+  },
+  {
+    "job_id": "107908451",
+    "title": "Cloud-First SQL Database Administrator - Azure",
+    "company": "IO Associates - Agency - Permanent",
+    "location": "Leeds",
+    "region": "Yorkshire - West",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "",
+    "posted_date": "2026-08-28",
+    "description": "Cloud-First SQL Database Administrator - Azure - Hybrid - Permanent\n\nThis is not a traditional on-premise SQL Server DBA position.\n\nWe are looking for a genuinely cloud-first DBA who combines strong SQL Server fundamentals with substantial, recent experience managing production database services in Microsoft Azure click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?kjuUUj3TFp7HRj3Cejpe%2fJjbq66F1viQg",
+    "source": "JobG8",
+    "working_arrangement": "hybrid",
+    "working_arrangement_text": "Hybrid working",
+    "working_arrangement_evidence": "Cloud-First SQL Database Administrator - Azure Cloud-First SQL Database Administrator - Azure - Hybrid - Permanent This is not a traditional on-premise SQL Server DBA position.",
+    "advertiser_name": "IO Associates",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Annual",
     "posted_date_basis": "ontap_first_published"
   },
   {
@@ -647,7 +727,12 @@
     "advertiser_type": "Agency",
     "work_pattern": "Part Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Telephone handling",
+      "Email handling",
+      "Records administration"
+    ]
   },
   {
     "job_id": "23643_225472240",
@@ -697,7 +782,14 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Telephone handling",
+      "Customer enquiries",
+      "Records administration",
+      "Quotations",
+      "Order processing"
+    ]
   },
   {
     "job_id": "23643_225476845",
@@ -747,7 +839,12 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Reporting",
+      "Order processing",
+      "Delivery coordination"
+    ]
   },
   {
     "job_id": "23643_225463726",
@@ -797,31 +894,6 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
-  },
-  {
-    "job_id": "23643_225514711",
-    "title": "Office Administrator",
-    "company": "TRC Yorkshire - Agency - Temporary",
-    "location": "Wakefield",
-    "region": "Yorkshire - West",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Temporary",
-    "salary_min": "12.71",
-    "salary_max": "12.71",
-    "salary_text": "£12.71 per hour",
-    "posted_date": "2026-08-21",
-    "description": "Office Administrator\n\nShift: Monday-Friday 8am-5pm\nType: Temp to Perm\n\nPay rate: 12.71\nLocation: Wakefield, WF1\n\nJob Summary\n\nWe are seeking an organised, reliable, and proactive Office Administrator to support the smooth day-to-day running of our office. The successful candidate will provide administrative support to the team, maintain accurate records, coordinate office activities, and ensure that employees, customers, and visitors receive a professional and efficient service.\n\nThe ideal candidate will have strong organisational and communication skills, excellent attention to detail, and the ability to manage multiple tasks and priorities effectively.\n\nKey Responsibilities\n- Provide general administrative and clerical support to management and staff.\n- Answer and direct telephone calls, emails, and general enquiries.\n- Welcome visitors and provide professional front-of-house support where required.\n- Manage diaries, appointments, meetings, and meeting room bookings.\n- Prepare letters, reports, spreadsheets, presentations, and other business documents.\n- Maintain accurate electronic and paper filing systems.\n- Process incoming and outgoing post, correspondence, and deliveries.\n- Order and maintain office supplies, stationery, and equipment.\n- Liaise with suppliers, contractors, customers, and other external contacts.\n- Assist with invoices, purchase orders, expenses, and basic financial administration.\n- Maintain employee, customer, supplier, and company records as appropriate.\n- Support onboarding and other basic HR administration when required.\n- Coordinate travel arrangements, meetings, and company events where necessary.\n- Monitor office facilities and report maintenance or equipment issues.\n- Ensure confidential and sensitive information is handled appropriately.\n- Support management and colleagues with ad-hoc administrative tasks and projects.\n- Help maintain an organised, professional, and efficient working environment.\n\nEssential:\n- Strong organisational and time-management skills.\n- Excellent written and verbal communication skills.\n- Good attention to detail and accuracy.\n- Confident using Microsoft Office, including Word, Excel, Outlook, and PowerPoint.\n- Ability to prioritise workload and manage multiple tasks.\n- Professional and courteous telephone and email manner.\n- Ability to work independently as well as part of a team.\n- Discretion when handling confidential information.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?aIHQjUdXakPYDqXau7wZMAltWHhM30ayr",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "TRC Yorkshire",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Hourly",
     "posted_date_basis": "ontap_first_published"
   },
   {
@@ -941,6 +1013,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1174-26-0001",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -960,6 +1035,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3394-26-0006",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -979,6 +1057,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0145-26-0127",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -998,6 +1079,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1533-26-0007",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1017,6 +1101,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0505-26-0142",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1036,6 +1123,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E9847-26-0269",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1055,6 +1145,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2598-26-0009",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1074,6 +1167,31 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9372-26-0450",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
+  },
+  {
+    "job_id": "nhs-5561629",
+    "source": "NHS Jobs",
+    "title": "HR Administrator",
+    "company": "Akari Care Limited",
+    "advertiser_name": "Akari Care Limited",
+    "location": "Leeds, LS11 5DZ",
+    "region": "Yorkshire - West",
+    "salary": "Negotiable",
+    "employment_type": "Permanent",
+    "posted_date": "2026-08-26T13:56:01.941141432",
+    "closing_date": "2026-10-25",
+    "description": "HR Administrator Role: The HR Administrator plays a key role in supporting the day-to-day operations of the Employee Relations Team. This role requires strong organisational skills, attention to detail, and the ability to handle sensitive information with confidentiality. Duties and Responsibilities: Management of the HR inbox and phoneline which is the first point of contact for general queries Ensuring queries are responded to within efficient timescales and identifying high priority emails which need to be escalated appropriately Maintain accurate and up-to-date employee records and ER systems Prepare and review HR documentation, such as Contracts of Employment, Offer Letters, Absence Review Invites, Maternity confirmation letters Conduct calls with company leavers to support employee retention strategies Issue company feedback surveys, collate data, and prepare results to be shared with senior stakeholders Support formal ER meetings through the provision of clear and accurate notetaking Provide administrative support to the ER advisors and management team ... The HR Administrator plays a key role in supporting the day-to-day operations of the Employee Relations Team. This role requires strong organisational skills, attention to detail, and the ability to handle sensitive information with confidentiality. Duties include the management of the HR inbox and phoneline, responding to queries swiftly, maintaining employee records, preparing HR documentation, conducting calls with company leavers, issuing feedback surveys, supporting formal ER meetings, and assisting with HR projects. Essentials include strong organisational skills, previous experience in Employee Relations, knowledge of employment law, proficiency in Microsoft Office, and report generation capabilities. Desirable qualifications include CIPD Level 3 (or working towards) and experience in the Social Care sector. Above all, applicants should approach the role with a personalised, kind, and caring attitude. HR Administrator Role: The HR Administrator plays a key role in supporting the day-to-day operations of the Employee Relations Team. This role requires strong organisational skills, attention to detail, and the ability to handle sensitive information with confidentiality. Duties and Responsibilities: Management of the HR inbox and phoneline which is the first point of contact for general queries Ensuring queries are responded to within efficient timescales and identifying high priority emails which need to be escalated appropriately Maintain accurate and up-to-date employee records and ER systems Prepare and review HR documentation, such as Contracts of Employment, Offer Letters, Absence Review Invites, Maternity confirmation letters Conduct calls with company leavers to support employee retention strategies Issue company feedback surveys, collate data, and prepare results to be shared with senior stakeholders Support formal ER meetings through the provision of clear and accurate notetaking Provide administrative support to the ER advisors and management team Responding to reference request for current and previous employees Assist with HR projects and initiatives as required Essentials: Strong organisational and time management skills Previous experience working within an Employee Relations function Foundational knowledge of employment law and ER best practices Proficiency in Microsoft Office, excel and word applications Capable of generate reports and data when required Desirable: CIPD Level 3 (or working towards) Experience within the Social Care sector is advantageous but not a necessity Above all we are looking for someone that shares in our company values. Applicants will need a personalised approach to both the role and other Colleagues, who treats people in a kind & caring way, can be trusted within their role displaying community spirit.",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/W0033-26-1144",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/W0033-26-1144",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   }
 ]

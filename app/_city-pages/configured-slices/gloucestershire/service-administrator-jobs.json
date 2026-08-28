@@ -22,6 +22,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "Brook Academy",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -50,6 +53,31 @@
     "posted_date_basis": "ontap_first_published"
   },
   {
+    "job_id": "23643_225321490",
+    "title": "Administrator",
+    "company": "BMSL Group Ltd - Agency - Permanent",
+    "location": "Gloucestershire",
+    "region": "Gloucestershire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "18",
+    "salary_max": "18",
+    "salary_text": "£18 per hour",
+    "posted_date": "2026-08-19",
+    "description": "BMSL Group have a part time vacancy for a competent administrator based in Patchway, Bristol.\n\nThis job role will be working for a mechanical & electrical contractor, helping them with on site administration tasks which can include sorting and filing documents correctly, making orders for materials / equipment, timesheet logging and other tasks as required.\n\nPrevious administration experience is required.\n\nThis is a part time role which will be based on a 3 day week, but additional days may be required depending on the work load.\n\n£18.00 p/hr\n\nWeekly pay (every Friday)\n\nExact days & working hours may vary and this will be discussed in more detail, but again it is a minimum of 3 days a week.\n\nImmediate start required.\n\nIf this job role interests you and you are available now, please apply with your CV.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?vAYWCB8ag%2fj0Z9sx4x6ajHBJlfBuB0Wri",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "BMSL Group Ltd",
+    "advertiser_type": "Agency",
+    "work_pattern": "Part Time",
+    "salary_period": "Hourly",
+    "posted_date_basis": "ontap_first_published"
+  },
+  {
     "job_id": "23643_225469323",
     "title": "Office & Finance Assistant",
     "company": "Anderson Recruitment Ltd - Agency - Permanent",
@@ -72,7 +100,13 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Visitor reception",
+      "Telephone handling",
+      "Email handling",
+      "Systems administration"
+    ]
   },
   {
     "job_id": "107709821",
@@ -139,6 +173,31 @@
     "posted_date": "2026-08-26",
     "description": "If you are looking for a career opportunity working in a busy and varied meaty administrative support role then this could be the ideal opportunity for you!\n\nTo be successful in this role, you'll need excellent written and verbal communication skills, a keen eye for detail, and the ability to break down complex problems into clear, practical solutions click apply for full job details",
     "apply_url": "https://www.jobg8.com/Traffic.aspx?iZmgAWfngDwu7qJnzYtQA8udMPJg8OyNf",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Anderson Recruitment",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Annual",
+    "posted_date_basis": "ontap_first_published"
+  },
+  {
+    "job_id": "107880013",
+    "title": "Talent & Recruitment Coordinator",
+    "company": "Anderson Recruitment - Agency - Permanent",
+    "location": "Gloucestershire",
+    "region": "Gloucestershire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "35000",
+    "salary_max": "35000",
+    "salary_text": "£35000 per year",
+    "posted_date": "2026-08-26",
+    "description": "Talent & Recruitment Coordinator\n\nOur well established, successful, and constantly developing client are currently looking for an experienced Talent & Recruitment Coordinator to join their friendly team in Stroud (Gloucestershire).\n\nIt is essential for this individual to have previous recruitment/talent acquisition experience, ideally for mechanical or engineering roles click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?io0x8AEcaIM2Bel3wPwocvIpJyCSvycgo",
     "source": "JobG8",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
@@ -222,7 +281,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Data entry",
+      "Quotations"
+    ]
   },
   {
     "job_id": "23643_225476234",
@@ -247,7 +310,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Visitor reception",
+      "Customer enquiries"
+    ]
   },
   {
     "job_id": "23643_225488647",
@@ -372,7 +439,12 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Customer enquiries",
+      "Scheduling and bookings",
+      "Records administration"
+    ]
   },
   {
     "job_id": "107794610",
@@ -446,31 +518,6 @@
     "advertiser_name": "Manpower UK Ltd",
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
-    "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
-  },
-  {
-    "job_id": "107770296",
-    "title": "Part Time Accounts Assistant (Self Employed)",
-    "company": "Anderson Recruitment - Agency - Permanent",
-    "location": "Gloucestershire",
-    "region": "Gloucestershire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "12000",
-    "salary_max": "12000",
-    "salary_text": "£12000 per year",
-    "posted_date": "2026-08-26",
-    "description": "Part Time Accounts Assistant (Self Employed)\n\nOur excellent client based in Stroud (Gloucestershire) are currently recruiting for an experienced individual to join their accounts/finance team on a self employed. part-time basis to support a 15 Month maternity cover period.\n\nHours: 15h pw across x 2 days: Monday + Thursday 8:45am 5pm (45min lunch break)\n\nSalary: Up to £12,000 pa (£30k FTE)\n\nWorking alongs click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?b0ZSEQFKUCJkZGG7WC8K%2fFjpGxpadfNVl",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Anderson Recruitment",
-    "advertiser_type": "Agency",
-    "work_pattern": "Part Time",
     "salary_period": "Annual",
     "posted_date_basis": "ontap_first_published"
   },
@@ -666,6 +713,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9327-26-0701",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -685,6 +735,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3648-26-0003",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -704,6 +757,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9318-26-0756",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -723,6 +779,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9327-26-0699",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -742,6 +801,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0319-26-0000",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -761,6 +823,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0568-26-0001",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   }
 ]

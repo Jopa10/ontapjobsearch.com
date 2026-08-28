@@ -22,6 +22,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "Lavington School",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -47,6 +50,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "Diocese Of Salisbury Academy Trust",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -72,6 +78,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "Excalibur Academies Trust",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -122,7 +131,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Records administration",
+      "Document preparation"
+    ]
   },
   {
     "job_id": "23643_225475225",
@@ -197,7 +210,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Telephone handling",
+      "Order processing"
+    ]
   },
   {
     "job_id": "23643_225454192",
@@ -222,7 +239,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Telephone handling",
+      "Order processing"
+    ]
   },
   {
     "job_id": "23643_225478870",
@@ -272,7 +293,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Email handling",
+      "Systems administration"
+    ]
   },
   {
     "job_id": "23643_225515784",
@@ -541,6 +566,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5768-26-0004",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -560,6 +588,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4324-260824",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -579,6 +610,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/L0034-26-3479",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -598,6 +632,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/F0041-8118",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -617,6 +654,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0657-26-0002",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   }
 ]

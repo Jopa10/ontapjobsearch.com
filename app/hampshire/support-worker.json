@@ -19,7 +19,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Safeguarding",
+      "Emotional support"
+    ]
   },
   {
     "job_id": "1401784780",
@@ -85,7 +89,11 @@
     "advertiser_type": "Company",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Risk and needs assessments",
+      "Safeguarding"
+    ]
   },
   {
     "job_id": "1401784339",
@@ -107,7 +115,11 @@
     "advertiser_type": "Company",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Personal care",
+      "Daily living support"
+    ]
   },
   {
     "job_id": "1401784493",
@@ -173,7 +185,11 @@
     "advertiser_type": "Company",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Support plans",
+      "Safeguarding"
+    ]
   },
   {
     "job_id": "1401784682",
@@ -217,28 +233,10 @@
     "advertiser_type": "Company",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
-  },
-  {
-    "job_id": "107856573",
-    "title": "Residential Support Worker",
-    "company": "SWAAY - Agency - Permanent",
-    "location": "Farnborough",
-    "region": "Hampshire",
-    "country": "UK",
-    "category": "Support Worker – Wide",
-    "employment_type": "Permanent",
-    "salary_min": "12.8",
-    "salary_max": "12.8",
-    "salary_text": "£12.8 per hour ((depending on experience and qualifications))",
-    "posted_date": "2026-08-24",
-    "description": "Earn £27,600 £29,000 including sleep ins Full Training Provided Career Changers Welcome Full Time & Part Time Available 6 Week Rolling Rota\nHourly Rate: £12.80 - £13.48 per hour (depending on experience and qualifications) + sleep ins\nShifts: 3pm 11pm, 10am 11pm, sleep ins click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?b0ZSEQFKUCKJFRrRv0aNjhbOoNEQIpzLl",
-    "source": "JobG8",
-    "advertiser_name": "SWAAY",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Personal care",
+      "Daily living support"
+    ]
   }
 ]

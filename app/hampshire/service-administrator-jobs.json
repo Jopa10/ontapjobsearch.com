@@ -22,6 +22,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "The Portsmouth Academy",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -47,6 +50,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "Thornden School",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -72,6 +78,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "Ringwood School Academy",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -97,6 +106,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "Perins School",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -122,6 +134,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "Wildern School",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -147,6 +162,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "Perins School",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -175,31 +193,6 @@
     "posted_date_basis": "ontap_first_published"
   },
   {
-    "job_id": "23643_225436745",
-    "title": "Events Administrator",
-    "company": "Tate - Agency - Temporary",
-    "location": "Hampshire",
-    "region": "Hampshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Temporary",
-    "salary_min": "14.55",
-    "salary_max": "14.55",
-    "salary_text": "£14.55 per hour",
-    "posted_date": "2026-08-12",
-    "description": "Student Recruitment Events Administrator\n\nLocation: Southampton\nDepartment: Global Recruitment and Admissions\nWorking Pattern: Full-time - Varying hybrid pattern\nContract Type: Temporary until November 2026\n\nAre you a highly organised administrator with a passion for delivering exceptional events and customer experiences?\n\nWe're looking for a Student Recruitment Events Administrator to join our Student Recruitment Marketing and Events team. In this varied and rewarding role, you'll support the planning, coordination and delivery of a wide range of student recruitment events that help prospective students discover what university life has to offer.\n\nFrom large-scale Open Days and Visit Days to campus tours, teacher engagement events and bespoke recruitment activities, you'll play a key role in ensuring every event runs smoothly and creates a positive experience for prospective students and their supporters.\n\nWhat You'll Be Doing\n\nAs a key member of the team, you will:\n- Provide administrative support for the planning and delivery of undergraduate and postgraduate recruitment events.\n- Coordinate venues, speaker bookings, schedules and event logistics.\n- Maintain event booking systems and support continuous improvement of processes.\n- Recruit, train and coordinate student ambassadors to support events.\n- Produce and update event materials, guides, programmes, promotional content and training resources.\n- Respond to enquiries from prospective students and stakeholders, providing an excellent customer experience.\n- Support event evaluation activities, reporting and data analysis to inform future planning.\n- Work collaboratively with colleagues across the University and external partners.\n\nEssential Requirements\n- Previous experience in an events administration, events support or similar administrative role.\n- Experience working in a customer-facing environment.\n- Strong organisational and planning skills, with the ability to manage multiple priorities.\n- Excellent written and verbal communication skills.\n- Good working knowledge of Microsoft Office and other business systems.\n- Ability to analyse information and produce clear reports and documentation.\n- Strong attention to detail and commitment to delivering high-quality service.\n- Ability to work independently and as part of a team.\n\nDesirable Requirements\n- Experience working within a higher or further education environment.\n- Experience monitoring budgets.\n- Experience using project management tools or systems.\n- Previous experience supervising or coordinating staff.\n- Knowledge of a second language.\n\nAdditional Information\n\nThis role supports a busy annual events calendar and will require:\n- Regular evening and weekend working during peak recruitment periods.\n- Occasional travel within the UK, including overnight stays when required.\n- Flexibility around annual leave during key recruitment events.\n\nPlease be aware this advert will remain open until the vacancy has been filled. Interviews will take place throughout this period, therefore we encourage you to apply early to avoid disappointment.\n\nTate is acting as an Employment Business in relation to this vacancy.\n\nTate is committed to promoting equal opportunities. To ensure that every candidate has the best experience with us, we encourage you to let us know if there are any adjustments we can make during the application or interview process. Your comfort and accessibility are our priority, and we are here to support you every step of the way. Additionally, we value and respect your individuality, and we invite you to share your preferred pronouns in your application.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?Y5CHIaMSKAwSxAeywci98PeHeI9giuhQv",
-    "source": "JobG8",
-    "working_arrangement": "hybrid",
-    "working_arrangement_text": "Hybrid working",
-    "working_arrangement_evidence": "Events Administrator Student Recruitment Events Administrator Location: Southampton Department: Global Recruitment and Admissions Working Pattern: Full-time - Varying hybrid pattern Contract Type: Temporary until November 2026 Are you a highly organised administrator with a passion for delivering exceptional events and customer experiences?",
-    "advertiser_name": "Tate",
-    "advertiser_type": "Agency",
-    "work_pattern": "Full Time",
-    "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published"
-  },
-  {
     "job_id": "23643_225452299",
     "title": "Mortgage Administrator",
     "company": "Dynamite Recruitment - Agency - Permanent",
@@ -222,7 +215,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Telephone handling",
+      "Records administration"
+    ]
   },
   {
     "job_id": "23643_225459037",
@@ -297,7 +294,14 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Telephone handling",
+      "Scheduling and bookings",
+      "Records administration",
+      "Order processing",
+      "Starters and leavers"
+    ]
   },
   {
     "job_id": "23643_225480542",
@@ -322,7 +326,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Records administration",
+      "Data entry"
+    ]
   },
   {
     "job_id": "23643_225477911",
@@ -447,7 +455,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Records administration",
+      "Quotations"
+    ]
   },
   {
     "job_id": "23643_225511982",
@@ -522,7 +534,14 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Customer enquiries",
+      "Records administration",
+      "Data entry",
+      "Filing and document handling",
+      "Quotations"
+    ]
   },
   {
     "job_id": "23643_225519192",
@@ -597,7 +616,11 @@
     "advertiser_type": "Company",
     "work_pattern": "Part Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Visitor reception",
+      "Customer enquiries"
+    ]
   },
   {
     "job_id": "107732027",
@@ -675,31 +698,6 @@
     "posted_date_basis": "ontap_first_published"
   },
   {
-    "job_id": "107907161",
-    "title": "Business Administrator",
-    "company": "Care Concern Group - Company - Permanent",
-    "location": "Hampshire",
-    "region": "Hampshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "£32,000 per annum",
-    "posted_date": "2026-08-28",
-    "description": "Our brand-new, luxury service is set in the small village of Crow, which is very close to Ringwood. We provide quality Residential, Dementia, Nursing and Respite care for 72-residents.\n\nWe're looking for Business Administrator with great organisational, inter-personal and first point of contact skills.\nBusiness Administrator Contract\n- £32,000 per annum\n- Contracted to 40 hours per week\n- Access to employee click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?1tcg6Aj2zay3X6E%2bb0%2bCk1nVQ3lNzBhzb",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Care Concern Group",
-    "advertiser_type": "Company",
-    "work_pattern": "Not Specified",
-    "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
-  },
-  {
     "job_id": "107797861",
     "title": "Financial Administrator",
     "company": "Job Board Direct - Agency - Permanent",
@@ -722,6 +720,56 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
+    "posted_date_basis": "ontap_first_published"
+  },
+  {
+    "job_id": "107772787",
+    "title": "Operations Coordinator",
+    "company": "Sammons Recruitment Ltd - Agency - Permanent",
+    "location": "Hampshire",
+    "region": "Hampshire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "",
+    "posted_date": "2026-08-28",
+    "description": "Our client, a growing organisation managing an extensive portfolio within the tech sector, is seeking an Operations Coordinator to join their dynamic team. This is an exciting opportunity for an organised and detail-driven individual to play a key role in ensuring the smooth and efficient delivery of content and campaigns across a diverse range of clients, from local independents to national brand click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?bZCSDJyF3N4F6VLaUfWwmTphmdCczZXqq",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Sammons Recruitment Ltd",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Annual",
+    "posted_date_basis": "ontap_first_published"
+  },
+  {
+    "job_id": "23643_225545155",
+    "title": "Ecommerce Administrator",
+    "company": "Rubicon Recruitment - Agency - Temporary",
+    "location": "Hampshire",
+    "region": "Hampshire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Temporary",
+    "salary_min": "12.71",
+    "salary_max": "12.71",
+    "salary_text": "£12.71 per hour",
+    "posted_date": "2026-08-28",
+    "description": "Ecommerce Administrator - Andover - £12.71ph\n\nYou'll be trained from the ground up to take ownership of a growing online product catalogue.\nThis eCommerce Administrator role starts at £12.71 per hour on a temp to perm basis, with a real route to a permanent position.\nIt's a close-knit team where personality matters just as much as the CV.\n\nAs an eCommerce Administrator, you will benefit from:\n- Full training provided, no prior eCommerce experience required\n- A genuine temp to perm route into a permanent role\n- Working within a small, supportive team where you're valued as an individual\n- The opportunity to take ownership of platforms and listings as you grow into the role\n- Exposure to multiple eCommerce systems and marketplaces\n\nAs an eCommerce Administrator, your responsibilities will include:\n- Create, upload and maintain product listings across multiple eCommerce platforms\n- Update pricing, stock levels, descriptions and product imagery\n- Monitor listings regularly to identify missing, incorrect or outdated information\n- Coordinate new product launches to ensure listings go live on schedule\n- Manage product categorisation, SKUs and wider catalogue data\n- Liaise with internal teams to resolve product data discrepancies\n\nAs an eCommerce Administrator, your experience will include:\n- A university degree with some general administration experience\n- Confident use of Microsoft Excel or Google Sheets\n- Strong attention to detail and a high level of accuracy\n- Good organisational and time management skills, comfortable handling large volumes of data\n- Experience in an eCommerce or online retail environment is desirable but not essential\n- Familiarity with platforms such as Shopify, Amazon Seller Central or eBay is a bonus\n\nIf you're looking for a role where you can grow into real ownership of a product catalogue and build a long-term career with a team that will invest in you, this eCommerce Administrator position is worth a closer look. Apply today with an up-to-date CV or call Claire at Rubicon for more information.\n\nWhile Rubicon uses AI to help speed up processes across the business, every application is reviewed by a human to ensure the right decision is made.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?mDcEDJmYTbz1OXIHEAT3SHUs4q5l9wMNt",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Rubicon Recruitment",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Hourly",
     "posted_date_basis": "ontap_first_published"
   },
   {
@@ -797,7 +845,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Telephone handling",
+      "Records administration"
+    ]
   },
   {
     "job_id": "23643_225476353",
@@ -922,7 +974,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Records administration",
+      "Order processing"
+    ]
   },
   {
     "job_id": "107718072",
@@ -997,6 +1053,35 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Telephone handling",
+      "Customer enquiries"
+    ]
+  },
+  {
+    "job_id": "1692885",
+    "title": "Project Coordinator",
+    "company": "Searchability - Agency - Permanent",
+    "location": "Hampshire",
+    "region": "Hampshire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "30000",
+    "salary_max": "30000",
+    "salary_text": "£30000 per year",
+    "posted_date": "2026-08-28",
+    "description": "PROJECT COORDINATOR - FAREHAM\n\nKEY POINTS\n- Based in Fareham\n- Salary up to £30,000\n- Coordinate multiple IT infrastructure projects from inception through to completion\n- Work closely with clients, engineers, internal teams and third-party suppliers\n\nABOUT THE CLIENT\n\nWe're supporting an established IT solutions provider delivering technology projects across the education and commercial sectors.\n\nDue to continued demand, they're looking for an organised and customer-focused Project Coordinator to join their Project Services team in Fareham, helping ensure multiple technology projects are delivered smoothly and efficiently.\n\nTHE PROJECT COORDINATOR ROLE:\n\nAs a Project Coordinator, you'll be responsible for coordinating and managing multiple projects from initial inception through to completion.\n\nYou'll act as a key point of communication between clients, internal technical teams and third parties, ensuring projects continue to progress in line with agreed plans.\n\nDay to day, you'll arrange and schedule technical resources, maintain project documentation and systems, support the onboarding of new clients and produce management reports covering project delivery KPIs.\n\nYou'll be joining a wider Project Services function responsible for delivering server, storage, networking, wireless and security projects, giving you excellent exposure to a range of IT infrastructure technologies and customer environments.\n\nPROJECT COORDINATOR ESSENTIAL SKILLS\n- Previous experience within a Project Coordinator or similar project-focused role\n- Strong organisational and planning skills\n- Experience coordinating multiple projects and priorities\n- Confident communicating with clients, internal teams and third parties\n- Excellent customer service and communication skills\n- Strong Microsoft Office and general IT skills\n- Good attention to detail\n- Ability to maintain accurate project systems and documentation\n- Comfortable working within a busy, deadline-driven environment\n- Full UK driving licence\n\nPrevious experience within the IT sector would be advantageous but isn't essential, so this could suit someone with strong project coordination experience looking to develop within the technology industry.\n\nDue to the organisation's work within the education sector, the successful candidate will also be subject to Right to Work and enhanced DBS checks.\n\nTO BE CONSIDERED:\n\nPlease either apply through this advert or email me directly via .\n\nFor further information please call me on / .\n\nBy applying for this role, you give express consent for us to process and submit (subject to required skills) your application to our client in conjunction with this vacancy only.\n\nKEY SKILLS\n\nProject Coordinator, Project Support, Project Administrator, PMO, Project Management, Project Delivery, IT Projects, IT Infrastructure, Resource Scheduling, Project Planning, Project Documentation, Stakeholder Management, Client Management, KPI Reporting, Microsoft Office, Server, Storage, Networking, Wireless, Security",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?io0x8AEcaIMWt5V5J8WF%2bw3ntV%2fxs5hwo",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Searchability",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Annual",
     "posted_date_basis": "ontap_first_published"
   },
   {
@@ -1022,7 +1107,13 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Customer enquiries",
+      "Records administration",
+      "Systems administration",
+      "Quotations"
+    ]
   },
   {
     "job_id": "107876875",
@@ -1075,6 +1166,31 @@
     "posted_date_basis": "ontap_first_published"
   },
   {
+    "job_id": "107879301",
+    "title": "Sales Coordinator",
+    "company": "The Workshop - Agency - Permanent",
+    "location": "Hampshire",
+    "region": "Hampshire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "26000",
+    "salary_max": "26000",
+    "salary_text": "£26000 per year",
+    "posted_date": "2026-08-28",
+    "description": "Customer Sales Coordinator\nWaterlooville\nPermanent\n\nDo you enjoy customer contact and contributing to sales? If so, an award-winning local business, who designs and manufactures bespoke products, whilst offering solutions to a wide range of clients and customers on both large and small scale projects are looking to grow the team with an additional Sales Coordinator click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?bZCSDJyF3N52GZ5Lqw0NVJOXU4UDDH5hq",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "The Workshop",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Annual",
+    "posted_date_basis": "ontap_first_published"
+  },
+  {
     "job_id": "107825061",
     "title": "Attendance Coordinator",
     "company": "South Hampshire College Group - Agency - Permanent",
@@ -1100,6 +1216,53 @@
     "posted_date_basis": "ontap_first_published"
   },
   {
+    "job_id": "107904656",
+    "title": "Support Coordinator",
+    "company": "NFP People - Agency - Contract",
+    "location": "Isle of Wight",
+    "region": "Hampshire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Contract",
+    "salary_min": "28000",
+    "salary_max": "28000",
+    "salary_text": "£28000 per year",
+    "posted_date": "2026-08-28",
+    "description": "Support Coordinator\n\nWe're looking for an innovative, passionate and professional individual with excellent communication and organisational skills to join the Life After Stroke Service on the Isle of Wight.\n\nPosition: 000048 Stroke Association Support Coordinator\n\nLocation: Home-based, Isle of Wight click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?aIHQjUdXakN3kxPrevN6Ge%2b3AnUVJ5Pxr",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "NFP People",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Annual",
+    "posted_date_basis": "ontap_first_published"
+  },
+  {
+    "job_id": "nhs-5568990",
+    "source": "NHS Jobs",
+    "title": "Administrator",
+    "company": "Hampshire and Isle of Wight Healthcare NHS Foundation Trust",
+    "advertiser_name": "Hampshire and Isle of Wight Healthcare NHS Foundation Trust",
+    "location": "Southampton, SO14 3DT",
+    "region": "Hampshire",
+    "salary": "£25730.00 to £27476.00",
+    "employment_type": "Permanent",
+    "posted_date": "2026-08-28T13:15:23.107720892",
+    "closing_date": "2026-09-13",
+    "description": "To provide a comprehensive administration service to the clinical team. The post holder will be responsible for the organisation of their own workload and delegated decisions/actions as deemed appropriate by the Administration Supervisor, Business Support Officer or Service Manager. The needs of the service user will be the utmost priority. This is a remote role, which would require travel to College Keep, Southampton to attend MDT meetings (monthly) Occasional travel to other trust sites may be required. To receive incoming telephone calls to the department and take messages for the team, taking appropriate action where required, including making calls to patients. To receive all incoming and outgoing mail to include taking action where appropriate. To type all correspondence using both copy typing and audio, including forms, rotas, assessments, GP letters, and reports as generated by the team To upload clinical documents using the relevant IT system To set up office systems and procedures to ensure that all documents can be retrieved easily To collate Health Records and register new referrals on to the relevant IT systems To book appointments on to the relevant computer system (Rio) To input data on to the relevant systems and take responsibility for the quality of the data, reporting to data custodian any arising issues around quality To organise meetings and support diary management for the Team To prepare agendas and take minutes for the weekly MDT meeting. To produce activity statistics as required To undertake any additional projects for the administration manager or team manager/leader as required To assist in the collection of data for the purpose of audit, research and service performance To contribute to the improvement of administrative services by highlighting areas of inefficiency or poor quality To identify issues of concern at work and alerting appropriate personnel To present a positive image of the team to the service and Trust Further information about the Trust and this role can be found on the Job Description and Person Specification document attached. It is important to us that we ensure our recruitment processes are accessible and inclusive to everyone - if as a potential candidate you are concerned a person specification may prevent or restrict your application for employment as a result of unintentional barriers on the grounds of your sex, race, age, sexual orientation, religion/belief or disability please initially contact the Trust's Recruitment team - detailed in the advert. The Trust will seek to resolve this issue wherever possible. We are happy to talk Flexible Working - all requests for flexible working options can be discussed as part of the interview process.",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9348-26-1867",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9348-26-1867",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
+  },
+  {
     "job_id": "nhs-5566136",
     "source": "NHS Jobs",
     "title": "Receptionist",
@@ -1116,6 +1279,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/L0034-26-3587",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1135,6 +1301,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9470-26-0485",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1154,6 +1323,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C8192-26-0467",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1173,6 +1345,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9348-26-1828",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1192,6 +1367,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C8192-26-0451",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1211,6 +1389,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9348-26-1724",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1230,6 +1411,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3690-26-0008",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1249,6 +1433,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/L0034-26-3583",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1268,6 +1455,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9348-26-1804",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1287,6 +1477,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9348-26-1797",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   }
 ]

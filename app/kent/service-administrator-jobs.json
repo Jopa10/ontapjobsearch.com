@@ -22,6 +22,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "Shears Green Junior School",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -47,6 +50,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "Nore Academy",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -72,6 +78,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "The Diocese Of Canterbury Academies Trust",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -97,6 +106,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "The University Of Kent Academies Trust",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -147,7 +159,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Part Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Scheduling and bookings",
+      "Quotations"
+    ]
   },
   {
     "job_id": "23643_225445558",
@@ -197,7 +213,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Customer enquiries",
+      "Quotations"
+    ]
   },
   {
     "job_id": "107825703",
@@ -247,7 +267,13 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Customer enquiries",
+      "Scheduling and bookings",
+      "Systems administration",
+      "Quotations"
+    ]
   },
   {
     "job_id": "23643_225447784",
@@ -372,7 +398,14 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Customer enquiries",
+      "Records administration",
+      "Systems administration",
+      "Quotations",
+      "Order processing"
+    ]
   },
   {
     "job_id": "23643_225476340",
@@ -397,7 +430,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Customer enquiries",
+      "Records administration"
+    ]
   },
   {
     "job_id": "23643_225475645",
@@ -600,31 +637,6 @@
     "posted_date_basis": "ontap_first_published"
   },
   {
-    "job_id": "107855886",
-    "title": "Service Advisor (HGV/Commercial Vehicles)",
-    "company": "Ernest Gordon Recruitment - Agency - Permanent",
-    "location": "Kent",
-    "region": "Kent",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "30000",
-    "salary_max": "30000",
-    "salary_text": "£30000 per year",
-    "posted_date": "2026-08-24",
-    "description": "Service Advisor (HGV/Commercial Vehicles)\n\nAylesford\n\n£27,000 - £30,000 + Monday-Friday + Progression + Company Benefits + Flexible starting times\n\nAre you a Service Advisor or similar with a background in the HGV or Commercial Vehicle industry looking for a stable, Monday to Friday position within a family-run automotive company known for its great working environment and commitment to its staff?\n\nDo you click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?Y5CHIaMSKAxC0xNcuj92ShZKa%2fcXlUM%2bv",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Ernest Gordon Recruitment",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
-  },
-  {
     "job_id": "107872738",
     "title": "Care Home Administrator",
     "company": "Crystal Care Group South East - Agency - Permanent",
@@ -700,31 +712,6 @@
     "posted_date_basis": "ontap_first_published"
   },
   {
-    "job_id": "23643_225435469",
-    "title": "Training Administrator",
-    "company": "Huntress - Maidstone - Agency - Temporary",
-    "location": "Kent",
-    "region": "Kent",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Temporary",
-    "salary_min": "13.77",
-    "salary_max": "14.29",
-    "salary_text": "£13.77 - £14.29 per hour (Holiday pay + Free Parking)",
-    "posted_date": "2026-08-12",
-    "description": "Training Administrator\n\nMaidstone, Kent 26,500 - 27,500 , Full Time, Temporary to Permanent Opportunity\n\nAbout the Role\n\nWe are seeking a highly organised and proactive Training Administrator to join a busy and growing team based in Maidstone. This is an excellent temp-to-perm opportunity for an individual with strong administrative skills who enjoys supporting learning and development activities within a fast-paced environment.\n\nKey Responsibilities\n- Coordinate and schedule internal and external training courses.\n- Manage training bookings, confirmations, and attendee communications.\n- Maintain accurate training records and employee learning databases.\n- Prepare training materials, presentations, and course documentation.\n- Monitor training compliance and certification expiry dates.\n- Produce reports on training attendance, completion rates, and compliance.\n- Liaise with trainers, managers, and external training providers.\n- Organise venues, equipment, and refreshments where required.\n- Support onboarding and induction training programmes.\n- Handle general administrative duties including emails, filing, and data entry.\n\nRecruitment Process Responsibilities\n- Coordinate interview scheduling between candidates and hiring managers.\n- Prepare recruitment documentation and interview packs.\n- Support onboarding administration for new starters.\n- Assist with pre-employment checks and right-to-work verification.\n- Maintain recruitment trackers and candidate records.\n- Liaise with recruitment agencies and internal stakeholders.\n- Ensure all recruitment activities comply with company policies and employment legislation.\n\nHuntress Search Ltd acts as a Recruitment Agency in relation to all Permanent roles and as a Recruitment Business in relation to all Temporary roles.\n\nWe practice a diverse and inclusive recruitment process that ensures equal opportunity for all we work with, irrespective of race, sexual orientation, mental or physical disability, age or gender. As an organisation, we encourage applications from all backgrounds and will ensure measures are met when required, to allow a fair process throughout.\n\nPLEASE NOTE: We can only consider applications from candidates who have the right to work in the UK.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?iZmgAWfngDxbd7fvUuuUvfwb9DAeIriDf",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Huntress - Maidstone",
-    "advertiser_type": "Agency",
-    "work_pattern": "Full Time",
-    "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published"
-  },
-  {
     "job_id": "23643_225473894",
     "title": "Purchasing Administrator",
     "company": "Adecco - Agency - Temporary",
@@ -747,7 +734,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Customer enquiries",
+      "Systems administration"
+    ]
   },
   {
     "job_id": "23643_225519271",
@@ -772,7 +763,12 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Customer enquiries",
+      "Shared inboxes",
+      "Records administration"
+    ]
   },
   {
     "job_id": "23643_225466245",
@@ -1025,6 +1021,28 @@
     "posted_date_basis": "ontap_first_published"
   },
   {
+    "job_id": "nhs-5567864",
+    "source": "NHS Jobs",
+    "title": "Receptionist",
+    "company": "Pelham Medical Practice",
+    "advertiser_name": "Pelham Medical Practice",
+    "location": "Gravesend, DA11 0HN, GRAVESEND, DA12 4JW",
+    "region": "Kent",
+    "salary": "£12.71",
+    "employment_type": "Permanent",
+    "posted_date": "2026-08-28T09:53:00.763675679",
+    "closing_date": "2026-09-04",
+    "description": "Pelham Medical Practice is looking for a friendly, reliable and motivated GP Receptionist to join our busy and supportive practice team on a part-time basis. The hours of work required are Monday 8.30am - 12.30pm, Wednesday 13.30pm- 18.30pm, Thursday 13.30pm -18.30pm, Friday 13.30pm -18.30pm. The successful candidate will work across our practice sites, providing an efficient, professional and welcoming reception service to our patients. You will be an important first point of contact for patients and will play a key role in supporting the smooth day-to-day running of the practice. The successful applicant will be responsible for a range of reception and administrative duties, including: Welcoming and assisting patients in person and by telephone. Booking, cancelling and amending appointments in line with practice procedures. Dealing with patient enquiries promptly, professionally and sensitively. Processing administrative requests. Signposting patients to appropriate services and sources of support. Liaising with GPs, nurses, administrative staff and other members of the wider healthcare team. Maintaining accurate and confidential patient records. Supporting the practice with general administrative duties as required. Working flexibly across our different practice sites. Job Purpose To provide a professional, efficient and welcoming reception service to patients, carers and visitors attending Pelham Medical Practice. The post holder will act as an important first point of contact for patients and will support the clinical and administrative teams in the delivery of a high-quality primary care service. The post holder will be required to work flexibly across the practice sites and demonstrate a commitment to providing excellent patient care and customer service at all times. Key Responsibilities and Duties Reception and Patient Services Provide a friendly, professional and welcoming reception service to all patients and visitors. Receive and respond to telephone calls, enquiries and requests in a polite, helpful and sensitive manner. Book, cancel and amend patient appointments in accordance with practice procedures. Ensure patients are directed or signposted to the most appropriate service or member of the practice team. Assist patients with general queries and provide information within the limits of the role. Deal sensitively and appropriately with patients who may be distressed, anxious or upset. Maintain a professional and respectful approach when dealing with challenging or difficult situations. Administrative Duties Process administrative requests, including prescription requests and other patient correspondence, in accordance with practice procedures. Maintain accurate and up-to-date patient information and records. Scan, process and appropriately distribute incoming correspondence and clinical information. Complete routine administrative tasks to support the smooth running of the practice. Liaise effectively with GPs, nurses, healthcare professionals and administrative colleagues. Follow practice protocols and procedures at all times. Team Working Work effectively as part of the wider practice team and contribute to a positive and supportive working environment. Communicate clearly and professionally with colleagues across all practice sites. Be flexible and willing to undertake duties appropriate to the role as required. Work across different practice locations according to service requirements. Support colleagues during periods of increased workload, staff absence or service pressures. Confidentiality and Information Governance Maintain strict patient confidentiality at all times in accordance with practice policies, NHS requirements and data protection legislation. Ensure that information is handled securely and appropriately. Adhere to all practice policies and procedures relating to confidentiality, information governance and safeguarding. Health, Safety and Quality Comply with practice health and safety policies and procedures. Report any concerns, incidents or risks to the appropriate member of staff. Participate in practice training, meetings and development activities as required. Maintain awareness of and comply with practice policies, including safeguarding, infection prevention and control, equality and diversity, and health and safety. Contribute to the continuous improvement of services and patient experience. General The post holder will be expected to undertake other duties commensurate with the grade and nature of the role as reasonably requested by the Practice Manager or senior member of the practice team. The duties and responsibilities outlined above are not exhaustive and may be reviewed periodically in line with the changing needs of the practice. The post holder is expected to demonstrate the values of Pelham Medical Practice through a commitment to patient-centred care, professionalism, confidentiality, teamwork and respect.",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4173-26-0008",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4173-26-0008",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
+  },
+  {
     "job_id": "nhs-5558403",
     "source": "NHS Jobs",
     "title": "Receptionist/administrator",
@@ -1041,25 +1059,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2248-26-0003",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "posted_date_basis": "source"
-  },
-  {
-    "job_id": "nhs-5548929",
-    "source": "NHS Jobs",
-    "title": "Administrator",
-    "company": "Kent and Medway Mental Health NHS Trust",
-    "advertiser_name": "Kent and Medway Mental Health NHS Trust",
-    "location": "Maidstone, ME16 9PL",
-    "region": "Kent",
-    "salary": "£25760.00 to £27476.00",
-    "employment_type": "Permanent",
-    "posted_date": "2026-08-19T12:55:25.919869752",
-    "closing_date": "2026-09-02",
-    "description": "We are seeking two self-motivated, forward-thinking Band 3 Administrators to join our Forensic Service at the Trevor Gibbens Unit both full time and part time (30 hours). This role supports people using our services by providing essential administrative assistance to the Consultant Forensic Psychiatrist and Multidisciplinary Team. Your standard hours are Monday to Friday 09:00-17:00 however a vital part of this role is providing flexible emergency cover for our Reception team. This includes being available for early starts and late finishes, weekends and Bank Holidays during staff absences. This part of the role is not regular however the candidate will need to be able to commit to the hours in the event of an emergency. You will work closely with internal colleagues and external stakeholders to ensure care is safe and efficient. By maintaining robust working systems and providing flexible reception cover, you will directly contribute to service improvements and help us deliver high-quality patient care every day. Provide high-level administration support to the Consulta Forensic Psychiatrist and MDT using audio/digital dictation (BigHand) to produce volume correspondence and legal reports Manage complex clinical diaries to coordinate MDT meetings of all sizes, including Case Conferences, Tribunals and Section Reviews Efficient diary management and understanding of constraints and time pressures Deliver professional minute-taking services ensuring accurate action notes are typed and distributed within one week Maintain patient records and upload documentation on electronic systems (Rio) ensuring strict adherence to GDPR and Information Governance Liaise with internal and external stakeholders including answering calls and enquiries from patients or carers Respond to urgent requests from MDT and external stakeholders May organisation interpreters as requested Provide support to Administration Team during overflow of workload or cover during absences Prioritise workload, interpret urgent nature of calls and tasks Provide essential flexible cover for Reception at short notice to account for staff absences, including early starts (07:15), late finishes (20:15), weekends and Bank Holidays Please refer to the attached job description for full details and main responsibilities of the role.",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9380-26-0668",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9380-26-0668",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1079,6 +1081,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4608-26-0008",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1098,6 +1103,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2753-26-0019",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1117,6 +1125,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0177-26-9074",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1136,6 +1147,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B0082-26-0054",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1155,6 +1169,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9359-26-0184",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1174,6 +1191,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9333-26-1080",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1193,6 +1213,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1686-26-0012",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   }
 ]

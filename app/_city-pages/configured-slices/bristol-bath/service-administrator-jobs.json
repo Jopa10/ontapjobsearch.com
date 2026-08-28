@@ -22,6 +22,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "Marlwood School",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -47,6 +50,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "Filton Avenue Primary School",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -97,7 +103,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Part Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Scheduling and bookings",
+      "Records administration"
+    ]
   },
   {
     "job_id": "23643_225456677",
@@ -172,7 +182,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Scheduling and bookings",
+      "Records administration"
+    ]
   },
   {
     "job_id": "23643_222234812",
@@ -250,31 +264,6 @@
     "posted_date_basis": "ontap_first_published"
   },
   {
-    "job_id": "23643_225436357",
-    "title": "Air Freight Co-Ordinator",
-    "company": "Travail Employment Group - Agency - Permanent",
-    "location": "Bristol",
-    "region": "Bristol & Bath",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "",
-    "posted_date": "2026-08-19",
-    "description": "Air Freight Coordinator\n\n26,000 to 30,000 per annum, Permanent, 09:00am to 17:30pm M-F, BS35 Severn Beach, Bristol, 31 days Holiday, Bonus, Pension, Health plan, Eye care, On site Parking and employee shares plan\n\nExpanding, forward thinking and team orientated, A multi-billion pound global freight forwarding business who are actively recruiting for a air freight coordinator to join their team. With 350 office's worldwide, this will see you working in their brand new, purpose built offices playing a vital part within their team :\n- Tracking and maintaining smooth running of freight process.\n- Accurate data entry of freight information.\n- Client and vendor invoicing.\n- Client contact updating on delivery and rapport building.\n- General department administration.\n\nThe successful air freight coordinator will have a need to hold an administrative background, be proficient within the use of Microsoft programs and be confident in picking up new packages. It would be beneficial to hold current CRM system experience but full training will be provided within their bespoke system. This would be an excellent opportunity for someone holding logistics administration, export administration, freight administration or transport administration type experience.\n\nThis opportunity working as an air freight coordinator will see you working within an office of 50 employees, within a personable team of 5 and with the full support of experienced air freight individuals and a direct line manager who is career served within freight forwarding. Offering future chance of progression, this is the chance to join a career focused business which will give you training, stability and a fantastic team culture.\n\nBenefits include :\n- 23 days holidays plus bank holidays\n- Bonus\n- Health plan\n- Eye care\n- Employee share purchase plan\n- On-site Parking\n- Working within a brand new, modern office space\n\nApply today for your immediate consideration or apply direct to (url removed)\n\nFor further information, please call Richard Hughes on (phone number removed) or (phone number removed).\n\nTravail Employment Group Ltd is acting as an Employment Agency in relation to this vacancy.\nThanks for your application. Due to the high level of responses we are currently receiving, whilst we endeavour to contact everyone, sometimes we are unable to. If you have not heard from us within 10 working days of making your application, please assume that you have been unsuccessful on this occasion.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?aziU08XVyRHYyjvkLAfIzonJ4Fb%2b8dTNd",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Travail Employment Group",
-    "advertiser_type": "Agency",
-    "work_pattern": "Full Time",
-    "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
-  },
-  {
     "job_id": "23643_225475414",
     "title": "Accounts Assistant",
     "company": "Hypercreate Ltd - Agency - Permanent",
@@ -322,7 +311,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Systems administration",
+      "Data entry"
+    ]
   },
   {
     "job_id": "107830644",
@@ -422,7 +415,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Part Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Systems administration",
+      "Reporting"
+    ]
   },
   {
     "job_id": "nhs-5554523",
@@ -441,6 +438,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B9083-26-0448",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -460,6 +460,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B9083-26-0449",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -479,6 +482,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B9083-26-0451",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -498,6 +504,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C0023-26-1038",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   }
 ]

@@ -22,6 +22,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "Notley High School and Braintree Sixth Form",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -47,6 +50,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "Unity Primary Academy",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -72,6 +78,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "Limebrook Primary School and Nursery",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -97,6 +106,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "Stifford Clays Primary School",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -122,6 +134,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "Discovery Educational Trust",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -147,7 +162,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Shared inboxes",
+      "Records administration"
+    ]
   },
   {
     "job_id": "23643_225473828",
@@ -197,7 +216,13 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Daily",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Customer enquiries",
+      "Shared inboxes",
+      "Scheduling and bookings",
+      "Systems administration"
+    ]
   },
   {
     "job_id": "23643_225446746",
@@ -272,7 +297,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Scheduling and bookings",
+      "Systems administration"
+    ]
   },
   {
     "job_id": "23643_225534717",
@@ -347,7 +376,13 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Email handling",
+      "Data entry",
+      "Document preparation",
+      "Order processing"
+    ]
   },
   {
     "job_id": "23643_225461819",
@@ -372,7 +407,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Email handling",
+      "Document preparation"
+    ]
   },
   {
     "job_id": "23643_225464133",
@@ -422,7 +461,12 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Email handling",
+      "Scheduling and bookings",
+      "Reporting"
+    ]
   },
   {
     "job_id": "23643_225473584",
@@ -447,7 +491,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Part Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Shared inboxes",
+      "Records administration"
+    ]
   },
   {
     "job_id": "23643_225472719",
@@ -472,7 +520,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Customer enquiries",
+      "Data entry"
+    ]
   },
   {
     "job_id": "23643_225474041",
@@ -522,7 +574,12 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Email handling",
+      "Systems administration",
+      "Document preparation"
+    ]
   },
   {
     "job_id": "23643_225512952",
@@ -597,7 +654,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Customer enquiries",
+      "Quotations"
+    ]
   },
   {
     "job_id": "23643_225523466",
@@ -697,32 +758,14 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
-  },
-  {
-    "job_id": "107763662",
-    "title": "Land Rights Coordinator",
-    "company": "TriConnex - Agency - Permanent",
-    "location": "Essex",
-    "region": "Essex",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "",
-    "posted_date": "2026-08-24",
-    "description": "Land Rights Coordinator\n\nLocation: Braintree, Essex (Hybrid)\n\nSalary: Competitive plus benefits\n\nAs a Land Rights Coordinator you will be providing client support in the successful delivery of legal requirements for each project. You will be involved the tracking and reporting of projects, liaising with clients and stakeholders, and maintaining internal records to help eSmart Networks continually delive click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?Dw9iAXzSqBbiyUNk0FiaFYVGj58pJYwOk",
-    "source": "JobG8",
-    "working_arrangement": "hybrid",
-    "working_arrangement_text": "Hybrid working",
-    "working_arrangement_evidence": "Land Rights Coordinator Land Rights Coordinator Location: Braintree, Essex (Hybrid) Salary: Competitive plus benefits As a Land Rights Coordinator you will be providing client support in the successful delivery of legal requirements for each project.",
-    "advertiser_name": "TriConnex",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Customer enquiries",
+      "Scheduling and bookings",
+      "Records administration",
+      "Quotations",
+      "Order processing"
+    ]
   },
   {
     "job_id": "23643_225464097",
@@ -875,31 +918,6 @@
     "posted_date_basis": "ontap_first_published"
   },
   {
-    "job_id": "23643_225435199",
-    "title": "Helpdesk Assistant",
-    "company": "Catch 22 - Agency - Permanent",
-    "location": "Essex",
-    "region": "Essex",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "14.14",
-    "salary_max": "14.14",
-    "salary_text": "£14.14 per hour (benefits package)",
-    "posted_date": "2026-08-19",
-    "description": "Catch 22 are working with a well-known property management company to recruit a Business Support Assistant - Helpdesk based at a busy public building in Grays, Essex. This is a customer-focused role supporting maintenance, compliance, and helpdesk operations across the site.\n\nWorking closely with contractors and site teams, you'll log and monitor maintenance tasks, update CAFM systems, support health & safety compliance activities, and provide excellent customer service. Previous administration, helpdesk, facilities, or customer service experience would be advantageous.\n\nHours: 25 hours per week on a rota basis, including weekends. Shifts vary, with early starts from 6:30am and late finishes up to 10:00pm.\n\nApply today to join a respected property management organisation in a varied and rewarding support role.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?aziU08XVyREjhfDbQAxEsX1B3%2f6VRRvvd",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Catch 22",
-    "advertiser_type": "Agency",
-    "work_pattern": "Full Time",
-    "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published"
-  },
-  {
     "job_id": "nhs-5563403",
     "source": "NHS Jobs",
     "title": "Administration Assistant",
@@ -916,6 +934,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9364-26-0808",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -935,6 +956,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9364-26-0777",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -954,6 +978,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0151-26-0022",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -973,6 +1000,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0106-26-0084",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -992,6 +1022,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3646-26-0010",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1011,6 +1044,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0132-26-1646",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1030,6 +1066,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0106-26-0099",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   }
 ]

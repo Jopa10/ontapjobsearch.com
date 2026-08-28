@@ -117,31 +117,13 @@
     "finance_accounts_family_reason": "approved Accounts & Finance Operations title",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
-  },
-  {
-    "job_id": "107770296",
-    "display_reference": "107770296",
-    "title": "Part Time Accounts Assistant (Self Employed)",
-    "company": "Anderson Recruitment - Agency - Permanent",
-    "advertiser_name": "Anderson Recruitment",
-    "advertiser_type": "Agency",
-    "location": "Gloucestershire",
-    "region": "Gloucestershire",
-    "country": "UK",
-    "category": "Finance / Accounts",
-    "employment_type": "Permanent",
-    "salary_min": "12000",
-    "salary_max": "12000",
-    "salary_text": "£12000 per year",
-    "posted_date": "2026-08-26",
-    "description": "Part Time Accounts Assistant (Self Employed)\n\nOur excellent client based in Stroud (Gloucestershire) are currently recruiting for an experienced individual to join their accounts/finance team on a self employed. part-time basis to support a 15 Month maternity cover period.\n\nHours: 15h pw across x 2 days: Monday + Thursday 8:45am 5pm (45min lunch break)\n\nSalary: Up to £12,000 pa (£30k FTE)\n\nWorking alongs click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?b0ZSEQFKUCJkZGG7WC8K%2fFjpGxpadfNVl",
-    "source": "JobG8",
-    "finance_accounts_family_reason": "approved Accounts & Finance Operations title",
-    "work_pattern": "Part Time",
-    "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Visitor reception",
+      "Telephone handling",
+      "Email handling",
+      "Systems administration"
+    ]
   },
   {
     "job_id": "107907113",
