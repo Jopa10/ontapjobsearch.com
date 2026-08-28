@@ -1,12 +1,12 @@
 # Ontap daily job review
 
 > **READY TO REVIEW**
-> All active sources are current for 2026-08-27. You can start reviewing.
+> All active sources are current for 2026-08-28. You can start reviewing.
 
-review_date: 2026-08-27
-generated_at: 2026-08-27T21:37:20+00:00
+review_date: 2026-08-28
+generated_at: 2026-08-28T09:35:20+00:00
 
-**26 job(s) need a human decision.**
+**24 job(s) need a human decision.**
 
 Edit only each `action:` line:
 - `action: select` = include the vacancy.
@@ -21,143 +21,109 @@ Edit only each `action:` line:
 
 | Source | Status | Review date | Needs review | Note |
 |---|---|---|---:|---|
-| JobG8 | OK | 2026-08-27 | 4 | — |
-| NEJobs | OK | 2026-08-27 | 2 | — |
-| VONNE | OK | 2026-08-27 | 1 | — |
-| Teaching Vacancies | OK | 2026-08-27 | 19 | — |
-| NHS Jobs | OK | 2026-08-27 | 0 | automatic Tier A/B publish; NHS POSS stays in the NHS-specific review and is optional |
+| JobG8 | OK | 2026-08-28 | 4 | — |
+| NEJobs | OK | 2026-08-28 | 1 | — |
+| VONNE | OK | 2026-08-28 | 0 | — |
+| Teaching Vacancies | OK | 2026-08-28 | 19 | — |
+| NHS Jobs | OK | 2026-08-28 | 0 | automatic Tier A/B publish; NHS POSS stays in the NHS-specific review and is optional |
 
 ## JobG8 — 4 to review
 
 ---
 action:
-POSS | JobG8 | Cambridgeshire | Chatteris | £45000 per year | Technical & Quality Coordinator
+POSS | JobG8 | Dorset | Dorset | £200 per daily | Project Coordinator
 source_key: jobg8
 source: JobG8
 category: admin_service
-source_job_id: 107904065
-title: Technical & Quality Coordinator
+source_job_id: 107671295
+title: Project Coordinator
 employer: 
-location: Chatteris
-region: Cambridgeshire
-salary: £45000 per year
+location: Dorset
+region: Dorset
+salary: £200 per daily
 closing_date: 
 reason: JobG8 selector marked this vacancy POSS
 source_url: 
-hub_fingerprint: 33f01681d849a52a4ce84b8a3b6574c56cd30ac4cce4696f079d7c7cb7429f3f
+hub_fingerprint: 7d244c384ff821b3ac4c3bf81ffd38f44af2967aa261d77f9c2ce90e88fb430a
 ---
 
 ---
 action:
-POSS | JobG8 | Derbyshire | Derbyshire | £14 - £17.76 per hour | Repairs Scheduler
+POSS | JobG8 | Dorset | Dorset | £40000 per year | Project Coordinator (Construction / Scaffolding / Renewables)
 source_key: jobg8
 source: JobG8
 category: admin_service
-source_job_id: 23643_225541823
-title: Repairs Scheduler
+source_job_id: 107724530
+title: Project Coordinator (Construction / Scaffolding / Renewables)
 employer: 
-location: Derbyshire
-region: Derbyshire
-salary: £14 - £17.76 per hour
-closing_date: 
-reason: JobG8 selector marked this vacancy POSS
-source_url: 
-hub_fingerprint: 4cc1173baf46a5bea2244e9699ffbf0d717a6edec334e363ae3e55f01ba24189
----
-
----
-action:
-POSS | JobG8 | Nottinghamshire | Nottinghamshire | £40000 per year | Cyber Project Coordinator
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 107905364
-title: Cyber Project Coordinator
-employer: 
-location: Nottinghamshire
-region: Nottinghamshire
+location: Dorset
+region: Dorset
 salary: £40000 per year
 closing_date: 
 reason: JobG8 selector marked this vacancy POSS
 source_url: 
-hub_fingerprint: 230a16a413a0f4ce8e5a8249bd412138649e6a836cba2b7475f97ef249bb424b
+hub_fingerprint: b24a2265b2932891fe1e7dce7fd5d29db5816eb4eecd946ea89685b82515f157
 ---
 
 ---
 action:
-POSS | JobG8 | Surrey | Surrey | £35 per hour | Bid Coordinator
+POSS | JobG8 | Essex | Essex | £40000 per year | QUALITY & PROCESS COORDINATOR
 source_key: jobg8
 source: JobG8
 category: admin_service
-source_job_id: 107904710
-title: Bid Coordinator
+source_job_id: 1713560
+title: QUALITY & PROCESS COORDINATOR
 employer: 
-location: Surrey
-region: Surrey
-salary: £35 per hour
+location: Essex
+region: Essex
+salary: £40000 per year
 closing_date: 
 reason: JobG8 selector marked this vacancy POSS
 source_url: 
-hub_fingerprint: 4a43b14cfbd80bdcd68f9d896b4053f73108473508083ea0d49b9b8386b2cf8a
+hub_fingerprint: d4fd22ba1f7d4f913839e6e494d6695d0e1e29a69f33f18fe71201c67e4270c2
 ---
-
-## NEJobs — 2 to review
 
 ---
 action:
-POSS | NEJobs | North East - County Durham & Darlington/Hartlepool | Peterlee Depot (North) or Chi… | £29,071 - £32,046 | Waste Operations Support Officers
+POSS | JobG8 | Staffordshire | Staffordshire | £30000 - £35000 per year | Operations Administrator - Stock & Logistics
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 23643_225543588
+title: Operations Administrator - Stock & Logistics
+employer: 
+location: Staffordshire
+region: Staffordshire
+salary: £30000 - £35000 per year
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: 615ad690d9f8d23953f1313cf29ff3a326567ace7a261df7eff4944016e7fe6e
+---
+
+## NEJobs — 1 to review
+
+---
+action:
+POSS | NEJobs | North East - Tyneside, Wearside & Northumberland | Eddie Ferguson House, Blyth,… | £32,578 - £35,570 | Tenant Engagement Officer
 source_key: nejobs
 source: NEJobs
 category: admin_service
-source_job_id: 301232
-title: Waste Operations Support Officers
-employer: Durham County Council
-location: Peterlee Depot (North) or Chi…
-region: North East - County Durham & Darlington/Hartlepool
-salary: £29,071 - £32,046
-closing_date: 09/09/2026
-reason: annualised upper salary £32,046 exceeds North East review point £30,000
-source_url: https://www.northeastjobs.org.uk/job/Waste_Operations_Support_Officers/301232
-hub_fingerprint: f3c5201b4527562cfea1dd753f4cef3569a572d6e45f5afaf13818ff3ac2d0bf
----
-
----
-action:
-POSS | NEJobs | North East - Tyneside, Wearside & Northumberland | Gateshead | £29,540 - £32,061 | Annual Review Officer (SEND)
-source_key: nejobs
-source: NEJobs
-category: admin_service
-source_job_id: 301235
-title: Annual Review Officer (SEND)
-employer: Gateshead Council
-location: Gateshead
+source_job_id: 301243
+title: Tenant Engagement Officer
+employer: Northumberland County Coun…
+location: Eddie Ferguson House, Blyth,…
 region: North East - Tyneside, Wearside & Northumberland
-salary: £29,540 - £32,061
-closing_date: 10/09/2026
-reason: transferable office/service title with specialist or borderline wording: send
-source_url: https://www.northeastjobs.org.uk/job/Annual_Review_Officer_SEND/301235
-hub_fingerprint: 539f1e70cedfa1d0623bddba811accf16f83ca16b211f8a136c34c51b05f31ae
+salary: £32,578 - £35,570
+closing_date: 20/09/2026
+reason: annualised upper salary £35,570 exceeds North East review point £30,000
+source_url: https://www.northeastjobs.org.uk/job/Tenant_Engagement_Officer/301243
+hub_fingerprint: 55fa0a81f5c8619f4d5c4619ac26b5d165cfafe2785d74f5e861387cab73659f
 ---
 
-## VONNE — 1 to review
+## VONNE — 0 to review
 
----
-action:
-POSS | VONNE | North East - Tyneside, Wearside & Northumberland | Tyne and Wear | £29,02431,856 Pro Rata | Project Coordinator - Neuro Team
-source_key: vonne
-source: VONNE
-category: admin_service
-source_job_id: 173367
-title: Project Coordinator - Neuro Team
-employer: Children North East
-location: Tyne and Wear
-region: North East - Tyneside, Wearside & Northumberland
-salary: £29,02431,856 Pro Rata
-closing_date: Friday, September 11, 2026 - 12:00
-reason: annualised upper salary £2,902,431,856 exceeds North East review point £30,000
-source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173367
-hub_fingerprint: 4b73de766fa6377bed27958cd45b3006eac88a5e247386dd2c2cc4c768bae1c5
----
+_No new or changed human decisions required._
 
 ## Teaching Vacancies — 19 to review
 
@@ -180,21 +146,21 @@ hub_fingerprint: 0a71f4f2e22076be381864c77e031a679d81e0b596f18446520d12115e40c4c
 ---
 
 ---
-action: select
-POSS | Teaching Vacancies | Devon | Ottery St Mary, South West, EX11 1RA | Support Staff Grade C3-C6. Actual Pro Rated Salary: £21,363-£23,260. | Administrative Assistant
+action:
+POSS | Teaching Vacancies | Cambridgeshire | Huntingdon, PE28 5TQ | £32,061.00 Annually (Actual) | Marketing & Communications Officer
 source_key: teaching_vacancies
 source: Teaching Vacancies
 category: admin_service
-source_job_id: administrative-assistant-the-king-s-school-ottery-st-mary-devon
-title: Administrative Assistant
-employer: The King's School
-location: Ottery St Mary, South West, EX11 1RA
-region: Devon
-salary: Support Staff Grade C3-C6. Actual Pro Rated Salary: £21,363-£23,260.
-closing_date: 2026-09-07T09:00:00+01:00
-reason: Possible JobG8 duplicate requires review
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-the-king-s-school-ottery-st-mary-devon
-hub_fingerprint: f57e507c4a6cd740654cd9d41b34a3b1c5b993b07f4588e38404ddc0b2c8c105
+source_job_id: marketing-communications-officer-2a432f35-1c7d-4c5e-90a3-e035ce925749
+title: Marketing & Communications Officer
+employer: Meridian Trust
+location: Huntingdon, PE28 5TQ
+region: Cambridgeshire
+salary: £32,061.00 Annually (Actual)
+closing_date: 2026-09-16T08:00:00+01:00
+reason: Borderline school administration title: communications officer
+source_url: https://teaching-vacancies.service.gov.uk/jobs/marketing-communications-officer-2a432f35-1c7d-4c5e-90a3-e035ce925749
+hub_fingerprint: 145b23dd3c74d385cba0a56aa77da35465248529dfc79df0811446a199ed1b5b
 ---
 
 ---
@@ -213,6 +179,24 @@ closing_date: 2026-08-30T23:59:00+01:00
 reason: Possible JobG8 duplicate requires review
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-notley-high-school-and-braintree-sixth-form-braintree-essex
 hub_fingerprint: f6b5a99b3a8eabb860c3eabbe8fa23a486f48b7931c13df53e8d146981ad93a1
+---
+
+---
+action:
+POSS | Teaching Vacancies | Hampshire | Portsmouth, South East, PO1 5PF | TSAT Pay Group 3 pro rata to £23,701 - £27,506 for hours and weeks stated (£26,866 - £31,179 FTE) | Senior Administration Assistant
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: senior-administration-assistant-the-portsmouth-academy
+title: Senior Administration Assistant
+employer: The Portsmouth Academy
+location: Portsmouth, South East, PO1 5PF
+region: Hampshire
+salary: TSAT Pay Group 3 pro rata to £23,701 - £27,506 for hours and weeks stated (£26,866 - £31,179 FTE)
+closing_date: 2026-09-01T23:59:00+01:00
+reason: Administrative duties evidenced in description
+source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-administration-assistant-the-portsmouth-academy
+hub_fingerprint: b51ef4500ba7502c994d9f0bd527b01dd86d7c7f108a9b0985450a7a02fc0537
 ---
 
 ---
@@ -249,6 +233,24 @@ closing_date: 2026-09-07T23:59:00+01:00
 reason: Possible JobG8 duplicate requires review
 source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-the-diocese-of-canterbury-academies-trust
 hub_fingerprint: 2cb63b58beb5bae384e9e052e7d9410c3f0dc582b6d8cca6b7a6e00b205fa430
+---
+
+---
+action:
+POSS | Teaching Vacancies | Lincolnshire | Grimsby, Yorkshire and the Humber, DN31 2ES | £25,185.00 - £25,989.00 Annually (FTE) Grade C Points 4 to 6 (£25,185 to £25,989 Full Time Equivalent) subject to pro rata. The minimum actual pro rata salary per annum for this job starts at £21,758.06. | Administration Officer
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: administration-officer-macaulay-primary-academy
+title: Administration Officer
+employer: Macaulay Primary Academy
+location: Grimsby, Yorkshire and the Humber, DN31 2ES
+region: Lincolnshire
+salary: £25,185.00 - £25,989.00 Annually (FTE) Grade C Points 4 to 6 (£25,185 to £25,989 Full Time Equivalent) subject to pro rata. The minimum actual pro rata salary per annum for this job starts at £21,758.06.
+closing_date: 2026-09-02T23:59:00+01:00
+reason: Administrative duties evidenced in description
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-officer-macaulay-primary-academy
+hub_fingerprint: e460dc3abc1a9d40f396210a6e6bded4ec394c1efd846100517457068114f5ee
 ---
 
 ---
@@ -360,6 +362,24 @@ hub_fingerprint: 93a10592e03ed9d3f693438018eded1145b943920f3a912cde877298ba7ec1f
 ---
 
 ---
+action:
+POSS | Teaching Vacancies | London | London, W12 7TF | £20,971.00 - £21,300.00 pro rata (£24,796.00 - £25,185.00 FTE)per annum | Receptionist
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: receptionist-the-king-s-school-pontefract-west-yorkshire
+title: Receptionist
+employer: Ark Schools
+location: London, W12 7TF
+region: London
+salary: £20,971.00 - £21,300.00 pro rata (£24,796.00 - £25,185.00 FTE)per annum
+closing_date: 2026-08-31T10:00:00+01:00
+reason: Possible JobG8 duplicate requires review
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-the-king-s-school-pontefract-west-yorkshire
+hub_fingerprint: f856de0d970257841ae088a9953612ef2e88b506f461aa7e0bb31e734152a761
+---
+
+---
 action: select
 POSS | Teaching Vacancies | London | Osterley, London, TW7 5PN | 28,195.00 - 29,852.00 | School Administrator
 source_key: teaching_vacancies
@@ -433,42 +453,6 @@ hub_fingerprint: 5ac2163c06159d1e25b77086c07e93aabb73a2d59fba3834fb30daa93020631
 
 ---
 action: select
-POSS | Teaching Vacancies | Sussex | Hove, South East, BN3 6ND | £29,064 | Administrative Assistants
-source_key: teaching_vacancies
-source: Teaching Vacancies
-category: admin_service
-source_job_id: administrative-assistants-cardinal-newman-catholic-school
-title: Administrative Assistants
-employer: Cardinal Newman Catholic School
-location: Hove, South East, BN3 6ND
-region: Sussex
-salary: £29,064
-closing_date: 2026-09-01T09:00:00+01:00
-reason: Possible JobG8 duplicate requires review
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistants-cardinal-newman-catholic-school
-hub_fingerprint: 83b1640099c80f61be914a0e895179ea8fb5e9ead48d5e2757076c944c262350
----
-
----
-action:
-POSS | Teaching Vacancies | Worcestershire | Malvern, West Midlands, WR14 1WD | £28,598.00 - £31,022.00 Annually (FTE) | Examinations and Data Officer
-source_key: teaching_vacancies
-source: Teaching Vacancies
-category: admin_service
-source_job_id: examinations-and-data-officer-dyson-perrins-cofe-academy-malvern-worcestershire
-title: Examinations and Data Officer
-employer: Dyson Perrins CofE Academy
-location: Malvern, West Midlands, WR14 1WD
-region: Worcestershire
-salary: £28,598.00 - £31,022.00 Annually (FTE)
-closing_date: 2026-09-02T23:59:00+01:00
-reason: Borderline school administration title: data officer
-source_url: https://teaching-vacancies.service.gov.uk/jobs/examinations-and-data-officer-dyson-perrins-cofe-academy-malvern-worcestershire
-hub_fingerprint: d18f74fb39819a7aba349f5681b439913cb1b9a91ea9289b85bfdbd5858ab8e7
----
-
----
-action: select
 POSS | Teaching Vacancies | Yorkshire - West | Leeds, Yorkshire and the Humber, LS19 6LX | £21,870.00 - £22,213.00 Annually (Actual) Full Time, Term time only plus 10 days | Administrator
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -483,24 +467,6 @@ closing_date: 2026-08-31T08:00:00+01:00
 reason: Possible JobG8 duplicate requires review
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-466b2045-c1e3-4fa9-bf7e-e43eb5901ad7
 hub_fingerprint: 4278d430425769ccd9e7afd8470c5455d1a9f439c3b88dd642b2f22502b1200b
----
-
----
-action: select
-POSS | Teaching Vacancies | Yorkshire - West | Pontefract, Yorkshire and the Humber, WF8 4JF | £20,971.00 - £21,300.00 pro rata (£24,796.00 - £25,185.00 FTE)per annum | Receptionist
-source_key: teaching_vacancies
-source: Teaching Vacancies
-category: admin_service
-source_job_id: receptionist-the-king-s-school-pontefract-west-yorkshire
-title: Receptionist
-employer: The King's School
-location: Pontefract, Yorkshire and the Humber, WF8 4JF
-region: Yorkshire - West
-salary: £20,971.00 - £21,300.00 pro rata (£24,796.00 - £25,185.00 FTE)per annum
-closing_date: 2026-08-31T10:00:00+01:00
-reason: Possible JobG8 duplicate requires review
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-the-king-s-school-pontefract-west-yorkshire
-hub_fingerprint: 8a699687f311a923a482da2b87ef13c03b310aa8f5744e506a899fcba06bc513
 ---
 
 ## NHS Jobs — 0 to review
