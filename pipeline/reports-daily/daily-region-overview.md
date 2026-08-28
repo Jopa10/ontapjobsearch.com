@@ -1,6 +1,6 @@
 # Ontap daily regional overview
 
-Generated: 2026-08-28T20:14:33+01:00
+Generated: 2026-08-28T22:15:29+01:00
 
 ## SITEWIDE RECONCILIATION
 
