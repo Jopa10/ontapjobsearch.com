@@ -79,12 +79,6 @@ SELECTED | North East - County Durham & Darlington/Hartlepool | Durham | £17 - 
 job_id: 23643_225493355
 ---
 
----
-action:
-SELECTED | North East - County Durham & Darlington/Hartlepool | County Durham | £12.85 per hour (plus rolled up holiday pay) | Relief Support Worker
-job_id: 107875285
----
-
 ## NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND — POSSIBLES
 
 _No jobs in this group._
@@ -255,12 +249,6 @@ job_id: 107854067
 
 ---
 action:
-SELECTED | Kent | Deal | £15 - £17 per hour | Complex Care Assistant
-job_id: 107882993
----
-
----
-action:
 SELECTED | Kent | Chatham | £14 - £17 per hour | Complex Care Assistant
 job_id: 107882997
 ---
@@ -281,6 +269,18 @@ job_id: 107901714
 action:
 SELECTED | Kent | New Romney | £30000 per year | Residential Support Worker
 job_id: 107901785
+---
+
+---
+action:
+SELECTED | Kent | Dover | £15 - £17 per hour | Complex Care Assistant
+job_id: 107882991
+---
+
+---
+action:
+SELECTED | Kent | Deal | £15 - £17 per hour | Complex Care Assistant
+job_id: 107882993
 ---
 
 ## KENT — POSSIBLES
@@ -391,6 +391,18 @@ SELECTED | London | London | £31,200.00 per annum | Enhanced Support Worker
 job_id: 1818954
 ---
 
+---
+action:
+SELECTED | London | Bromley | £100 - £110 per daily | Autism Support Worker
+job_id: 1815970
+---
+
+---
+action:
+SELECTED | London | Wandsworth | £95 - £115 per daily | Behaviour Support Assistant
+job_id: 1708252
+---
+
 ## LONDON — POSSIBLES
 
 _No jobs in this group._
@@ -433,17 +445,29 @@ SELECTED | Oxfordshire | Oxford | £85 - £105 per daily | Youth Support Worker 
 job_id: 1695997
 ---
 
+---
+action:
+SELECTED | Oxfordshire | Oxford | £85 - £110 per daily | Behaviour Support Assistant - Oxford
+job_id: 1819710
+---
+
+---
+action:
+SELECTED | Oxfordshire | Oxford | £90 - £105 per daily | Autism Support Worker - Oxford
+job_id: 1721690
+---
+
+---
+action:
+SELECTED | Oxfordshire | Kidlington | £85 - £110 per daily | Emotional Support Worker - Kidlington
+job_id: 1721685
+---
+
 ## OXFORDSHIRE — POSSIBLES
 
 _No jobs in this group._
 
 ## SURREY — SELECTED
-
----
-action:
-SELECTED | Surrey | Guildford | £13.05 per hour | Residential Childcare Support Worker (Casual)
-job_id: 107776110
----
 
 ---
 action:
@@ -455,6 +479,18 @@ job_id: 107741924
 action:
 SELECTED | Surrey | Farnham | £13.00 per hour | Specialist Academic Support Worker
 job_id: 1692926
+---
+
+---
+action:
+SELECTED | Surrey | Lingfield | £92.46 per day | Care assistant
+job_id: 1808686
+---
+
+---
+action:
+SELECTED | Surrey | Lingfield | £25308 - £27180 per year | Residential Support Worker
+job_id: 1808682
 ---
 
 ## SURREY — POSSIBLES
@@ -503,6 +539,12 @@ job_id: 107887003
 action:
 SELECTED | Wiltshire | Trowbridge | £30000 per year | Recovery Worker
 job_id: 107899505
+---
+
+---
+action:
+SELECTED | Wiltshire | Chippenham | £85 - £110 per daily | Emotional and Mental Health Support Worker
+job_id: 1709295
 ---
 
 ## WILTSHIRE — POSSIBLES
