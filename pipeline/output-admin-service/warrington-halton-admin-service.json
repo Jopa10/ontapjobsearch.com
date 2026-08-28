@@ -123,5 +123,23 @@
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
     "posted_date_basis": ""
+  },
+  {
+    "job_id": "nhs-5567496",
+    "source": "NHS Jobs",
+    "title": "Administration Assistant",
+    "company": "Mersey Care NHS Foundation Trust",
+    "advertiser_name": "Mersey Care NHS Foundation Trust",
+    "location": "Runcorn, WA7 2DA",
+    "region": "Cheshire - Warrington & Halton",
+    "salary": "£25272.00",
+    "employment_type": "Permanent",
+    "posted_date": "2026-08-28T08:46:03.949378029",
+    "closing_date": "2026-09-06",
+    "description": "We are seeking to recruit a part-time Administrative Assistant for Halton Later Life and Memory Service, Brooker Centre, Halton Hospital, Runcorn. This post will be part of an admin team who will support a clinical team and reception area. To provide an efficient and effective clerical service to the multi-disciplinary team. The role will include providing administrative support to the team and will include, supporting reception areas, answering telephone calls into the Service, photocopying, scanning, uploaded referrals and making appointments. **Please refer to the attached Job Description and Person Specification for a full list of duties and responsibilities**",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9350-26-0809",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9350-26-0809",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "A"
   }
 ]
