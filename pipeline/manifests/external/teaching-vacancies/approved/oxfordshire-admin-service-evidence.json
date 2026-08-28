@@ -1,25 +1,26 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-08-17T19:32:06+01:00",
+  "generated_at": "2026-08-28T12:31:09+01:00",
   "source": "Teaching Vacancies",
   "region": "Oxfordshire",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-08-17",
-  "review_fingerprint": "19bfa16305de0ea20ff8d9ad5631bacbe267a95e469bfed027d8631e7983d745",
-  "routing_manifest_sha256": "e40a3b90bfb36b8fceed7f5db7ff5e0b45f837a6512a59dfa3ad22f1904f2004",
-  "review_csv_sha256": "ca793ad7223c95409cbb358fdf929345ee021f2116e5eaf64178b8459dd19566",
-  "summary_md_sha256": "5427e0229b89246f56525ca6778de86872215473a3613b1d7bd74c11db8a02ef",
-  "approved_snapshot_sha256": "55c17400ae8d2650194e061d62c111bc7a90eb627311bdac9ba90d93f2d70d10",
-  "approved_rows": 8,
+  "review_date": "2026-08-28",
+  "review_fingerprint": "bb9146be60f2bc735e54349dd4b4d22ddc27f4a5e50c9812d682181dac363c39",
+  "routing_manifest_sha256": "317da4c3580a017af1ca5a40549214600dbbe16fe90e5315b920822a2f47f1ee",
+  "review_csv_sha256": "176a58d78bd44f59604174d2a143ece11216855e18b29beba880077c6195557c",
+  "summary_md_sha256": "55c14700aea5f6bf3702bd5d3dc2f1ccf3e87110858f1e7370eeee0cc29d74aa",
+  "approved_snapshot_sha256": "647001203aa160137a7820e2170a406e16a839b5f6b476131e5bea8d343707e8",
+  "approved_rows": 9,
   "approved_job_ids": [
-    "teaching-vacancies-receptionist-faringdon-community-college-faringdon-oxfordshire",
     "teaching-vacancies-receptionist-part-time-considered",
     "teaching-vacancies-reception-administrative-assistant-93d935ac-3894-44fe-84cc-ea67bd3c9571",
-    "teaching-vacancies-school-office-receptionist-administrative-assistant",
     "teaching-vacancies-educational-visits-administrator-faringdon-community-college-faringdon-oxfordshire",
     "teaching-vacancies-inclusion-administrator-640b849f-52fe-4514-87fa-cda0310e4990",
     "teaching-vacancies-school-administrator-4e6e25cf-c80f-4e62-864c-657610d00946",
-    "teaching-vacancies-office-administrator-barton-park-primary-school"
+    "teaching-vacancies-office-administrator-barton-park-primary-school",
+    "teaching-vacancies-sixth-form-administrator-team-leader",
+    "teaching-vacancies-attendance-administrator-faringdon-community-college",
+    "teaching-vacancies-grade-6-office-administrator-3e4de74e-af8a-4ee3-b949-0a2e141ed8ab"
   ]
 }

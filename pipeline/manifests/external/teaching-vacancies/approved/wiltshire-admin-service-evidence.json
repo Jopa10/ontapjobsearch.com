@@ -1,22 +1,20 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-08-17T19:32:06+01:00",
+  "generated_at": "2026-08-28T12:31:10+01:00",
   "source": "Teaching Vacancies",
   "region": "Wiltshire",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-08-17",
-  "review_fingerprint": "635271f36f0e710d24e461d2a2fd2e1d10eadb9c8f2b65ea0ea7774be2dbe69f",
-  "routing_manifest_sha256": "e40a3b90bfb36b8fceed7f5db7ff5e0b45f837a6512a59dfa3ad22f1904f2004",
-  "review_csv_sha256": "bbe30779b9ecab5e25949a78b306a64c9d20ebd5cc7180590e6fcedd7976cb7d",
-  "summary_md_sha256": "93339e92823c3311b41eb2abea29bdd5cbbcdc0b8fa0be5fc1d45801a33053de",
-  "approved_snapshot_sha256": "d7aa64b2ce4372562d64c412291fc6775bd74c054fea6cbac89795cc429bbc3c",
-  "approved_rows": 5,
+  "review_date": "2026-08-28",
+  "review_fingerprint": "78df24a9cceaf4a21fd737d58001e4ed59fd5bfe46c931351f51bb9d5cfef37f",
+  "routing_manifest_sha256": "317da4c3580a017af1ca5a40549214600dbbe16fe90e5315b920822a2f47f1ee",
+  "review_csv_sha256": "108ddc26aa154c0a9821ef11b2142c700ba21e1e5108b368186e843f61b43b08",
+  "summary_md_sha256": "ab1384fad4b5bff30d74bac59e984f6fddcdcfbe270f4c7d798184417a86f079",
+  "approved_snapshot_sha256": "76c26abaa4e05e7b5694b4bfb2d7314e38d924350e78c2cfab2c48cbf02e65d7",
+  "approved_rows": 3,
   "approved_job_ids": [
-    "teaching-vacancies-hr-operations-officer-the-white-horse-federation-swindon-not-recorded",
-    "teaching-vacancies-progression-administrator-bradon-forest-school",
     "teaching-vacancies-exams-officer-a0e6b270-9f8e-4c55-b68b-38b5e9214d1b",
-    "teaching-vacancies-admin-officer-queen-s-crescent-school",
-    "teaching-vacancies-governance-administrator-diocese-of-salisbury-academy-trust-salisbury-not-recorded"
+    "teaching-vacancies-governance-administrator-diocese-of-salisbury-academy-trust-salisbury-not-recorded",
+    "teaching-vacancies-it-system-administrator-excalibur-shared-services-1177ebd4-e195-4745-824b-6613f2065ccf"
   ]
 }

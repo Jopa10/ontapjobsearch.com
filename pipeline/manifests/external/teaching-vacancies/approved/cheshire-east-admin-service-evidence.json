@@ -1,0 +1,16 @@
+{
+  "contract_version": "teaching-vacancies-regional-approved-v1",
+  "generated_at": "2026-08-28T12:31:04+01:00",
+  "source": "Teaching Vacancies",
+  "region": "Cheshire - East",
+  "category": "admin_service",
+  "slice_status": "LIVE",
+  "review_date": "2026-08-28",
+  "review_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+  "routing_manifest_sha256": "317da4c3580a017af1ca5a40549214600dbbe16fe90e5315b920822a2f47f1ee",
+  "review_csv_sha256": "47d7f6f2dcca668d00f973affbe5665c4a420477e5b3d2f09e595199e3534331",
+  "summary_md_sha256": "1c640665d4ac1e15c79bda7bb35080fedf3c4c745617141e3b77a13c20bc7cbb",
+  "approved_snapshot_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+  "approved_rows": 0,
+  "approved_job_ids": []
+}

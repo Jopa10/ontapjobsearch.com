@@ -1,0 +1,16 @@
+{
+  "contract_version": "teaching-vacancies-regional-approved-v1",
+  "generated_at": "2026-08-28T12:31:09+01:00",
+  "source": "Teaching Vacancies",
+  "region": "Suffolk",
+  "category": "admin_service",
+  "slice_status": "LIVE",
+  "review_date": "2026-08-28",
+  "review_fingerprint": "3de123d4829da5e17b6870f1dcd5147c2f84fe8d43f345141f5ed2bc2883715c",
+  "routing_manifest_sha256": "317da4c3580a017af1ca5a40549214600dbbe16fe90e5315b920822a2f47f1ee",
+  "review_csv_sha256": "fd2fdee06cb02f3ee66cdeb7244e3a91ff8a904d7ccf15912f55a8452f268f16",
+  "summary_md_sha256": "6920b7611f7b985242446932d48c8029260eb0f5c040be207052df9def7ab582",
+  "approved_snapshot_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+  "approved_rows": 0,
+  "approved_job_ids": []
+}

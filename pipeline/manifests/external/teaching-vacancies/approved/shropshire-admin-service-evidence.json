@@ -1,0 +1,16 @@
+{
+  "contract_version": "teaching-vacancies-regional-approved-v1",
+  "generated_at": "2026-08-28T12:31:09+01:00",
+  "source": "Teaching Vacancies",
+  "region": "Shropshire",
+  "category": "admin_service",
+  "slice_status": "LIVE",
+  "review_date": "2026-08-28",
+  "review_fingerprint": "e13cecff965b5cfdc62b2302f2cd4d41c138770a58273d52cc759a1e6e5ddfd5",
+  "routing_manifest_sha256": "317da4c3580a017af1ca5a40549214600dbbe16fe90e5315b920822a2f47f1ee",
+  "review_csv_sha256": "f0758c586598a9e2eb5d9901575726e090b99d6c3b1c74d4a56f5c2e5bf26e13",
+  "summary_md_sha256": "7cf8e4b56c12640f55f5cea3b7538a33936d964ff398aa94cc8e4ecc418158c7",
+  "approved_snapshot_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+  "approved_rows": 0,
+  "approved_job_ids": []
+}

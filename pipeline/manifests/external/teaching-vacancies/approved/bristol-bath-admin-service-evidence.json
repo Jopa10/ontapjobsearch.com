@@ -1,19 +1,18 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-08-17T19:32:04+01:00",
+  "generated_at": "2026-08-28T12:31:04+01:00",
   "source": "Teaching Vacancies",
   "region": "Bristol & Bath",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-08-17",
-  "review_fingerprint": "13fefdbb2a85610e11ae25116aabb8e97fa43116c40a4a455f7db9ebe3fb2192",
-  "routing_manifest_sha256": "e40a3b90bfb36b8fceed7f5db7ff5e0b45f837a6512a59dfa3ad22f1904f2004",
-  "review_csv_sha256": "a58a3dbf5f317903083c3757e25035cde353d4d9b55a455279397f59662c812f",
-  "summary_md_sha256": "bcf60f5a7d5c1e2deb502b15f24e1e5faacbb4cec6df9e468692721256b5201d",
-  "approved_snapshot_sha256": "c1c6cc0cb78a8f7addc80101446d9ea308de88e73c3c08f7cdfd7b2ecccec79d",
-  "approved_rows": 3,
+  "review_date": "2026-08-28",
+  "review_fingerprint": "380b8887a164bec95ac67045caedfa8b9c270f450090d829175eee7bf27c0d08",
+  "routing_manifest_sha256": "317da4c3580a017af1ca5a40549214600dbbe16fe90e5315b920822a2f47f1ee",
+  "review_csv_sha256": "5627e9aae0915e9ffbda9f8cfcc8fb5980160e3bea0f5ba55b20f42d0a9c32dc",
+  "summary_md_sha256": "d002e25e975d1ed56f4db8fa5b1a60c241866359dace64425bc9661899b20c7d",
+  "approved_snapshot_sha256": "ecb614375c29bfa13f4347d2dfe4554afb9879deca67d5d1c6704cfc483be843",
+  "approved_rows": 2,
   "approved_job_ids": [
-    "teaching-vacancies-pa-to-principal-hr-lead-fairfield-high-school",
     "teaching-vacancies-attendance-administrator-marlwood-school",
     "teaching-vacancies-digital-marketing-administrator-filton-avenue-primary-school"
   ]

@@ -14,8 +14,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 26
-- Selected: 15
-- POSS awaiting decision: 2
+- Selected: 16
+- POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 9
 
@@ -202,6 +202,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/inclusion-administrat
 ---
 
 ---
+action: select
+SELECTED | Cambridgeshire | Huntingdon, PE28 5TQ | £32,061.00 Annually (Actual) | Marketing & Communications Officer
+employer: Meridian Trust
+closing_date: 2026-09-16T08:00:00+01:00
+reason: Borderline school administration title: communications officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: e17600e0d99d562376adc547dff4a4ad6911c120a634d2fee31e8a82f6fd72d3
+source: Teaching Vacancies
+source_job_id: marketing-communications-officer-2a432f35-1c7d-4c5e-90a3-e035ce925749
+source_url: https://teaching-vacancies.service.gov.uk/jobs/marketing-communications-officer-2a432f35-1c7d-4c5e-90a3-e035ce925749
+---
+
+---
 action: 
 SELECTED | Cambridgeshire | Huntingdon, East of England, PE29 7DD | £25,583.00 - £25,989.00 Annually (FTE) NJC Scale 3, Points 5 to 6 . Actual salary £22,439.24 per annum on point 5. | Office Administrator
 employer: St Peter's School
@@ -261,21 +276,6 @@ factual_fingerprint: 5acc3a4c567d81fda00c499b50fb9a9482e622278923774fec612824bf2
 source: Teaching Vacancies
 source_job_id: clerk-to-the-local-governing-boards
 source_url: https://teaching-vacancies.service.gov.uk/jobs/clerk-to-the-local-governing-boards
----
-
----
-action: 
-POSS | Cambridgeshire | Huntingdon, PE28 5TQ | £32,061.00 Annually (Actual) | Marketing & Communications Officer
-employer: Meridian Trust
-closing_date: 2026-09-16T08:00:00+01:00
-reason: Borderline school administration title: communications officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: e17600e0d99d562376adc547dff4a4ad6911c120a634d2fee31e8a82f6fd72d3
-source: Teaching Vacancies
-source_job_id: marketing-communications-officer-2a432f35-1c7d-4c5e-90a3-e035ce925749
-source_url: https://teaching-vacancies.service.gov.uk/jobs/marketing-communications-officer-2a432f35-1c7d-4c5e-90a3-e035ce925749
 ---
 
 ## EXCLUDED BY REVIEW

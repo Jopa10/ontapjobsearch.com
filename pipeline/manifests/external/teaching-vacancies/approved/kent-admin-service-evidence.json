@@ -1,20 +1,21 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-08-17T19:32:05+01:00",
+  "generated_at": "2026-08-28T12:31:07+01:00",
   "source": "Teaching Vacancies",
   "region": "Kent",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-08-17",
-  "review_fingerprint": "e2b097f8eb866bb5f03ee6f03ae388c0d570b048b3f0190d2d2316a36ed5f305",
-  "routing_manifest_sha256": "e40a3b90bfb36b8fceed7f5db7ff5e0b45f837a6512a59dfa3ad22f1904f2004",
-  "review_csv_sha256": "ddae1105894c108e68c5c8b41398300861c41e40ef6d374d21ebe782b997708f",
-  "summary_md_sha256": "daff803cf994c2ad5e7d9d01313d958bbe1ac4a94f155c2064cc7212c7366306",
-  "approved_snapshot_sha256": "335600c91e9a3ec20c8f445ea9242b9d97033e218616146d2c292181e199a728",
-  "approved_rows": 3,
+  "review_date": "2026-08-28",
+  "review_fingerprint": "07bfa10958ce0363e28637183766f2cad08c5ee4915f318e0e82dcc7d480432f",
+  "routing_manifest_sha256": "317da4c3580a017af1ca5a40549214600dbbe16fe90e5315b920822a2f47f1ee",
+  "review_csv_sha256": "4dc71103449a6d588c10cfa18024bfdcb1e06f60e84b01509767c61f8672e3a2",
+  "summary_md_sha256": "6080df1659b30c20292850e9c2bf8d5b3c649a3a506cb523c1d68075ff173d3f",
+  "approved_snapshot_sha256": "b4bfe24ae597cbcb1b4f251556e67fb7d886589e128a596240081c8f3ed157b1",
+  "approved_rows": 4,
   "approved_job_ids": [
-    "teaching-vacancies-pupil-records-administrator",
+    "teaching-vacancies-admissions-attendance-officer-shears-green-junior-school",
     "teaching-vacancies-receptionist-nore-academy",
-    "teaching-vacancies-hr-administrator-the-diocese-of-canterbury-academies-trust"
+    "teaching-vacancies-hr-administrator-the-diocese-of-canterbury-academies-trust",
+    "teaching-vacancies-admissions-officer-the-university-of-kent-academies-trust"
   ]
 }

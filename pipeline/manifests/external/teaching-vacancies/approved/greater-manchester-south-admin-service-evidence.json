@@ -1,0 +1,18 @@
+{
+  "contract_version": "teaching-vacancies-regional-approved-v1",
+  "generated_at": "2026-08-28T12:31:06+01:00",
+  "source": "Teaching Vacancies",
+  "region": "Greater Manchester - South",
+  "category": "admin_service",
+  "slice_status": "LIVE",
+  "review_date": "2026-08-28",
+  "review_fingerprint": "bc6ef791662c462aed68bebf60af007c119d576665fb9cb8366e1d43c62cf515",
+  "routing_manifest_sha256": "317da4c3580a017af1ca5a40549214600dbbe16fe90e5315b920822a2f47f1ee",
+  "review_csv_sha256": "3508783539904e27eccc1ed96fd7ac652fde4dcffeaac1f559382e958434421e",
+  "summary_md_sha256": "e10d66a17aa7a96e8fd354877cab4085885b71c406cd646c075e42877dbf2c92",
+  "approved_snapshot_sha256": "e89e945c305b681b7af4325af402d2cec3f31979e39a66fd7a918bccf907e1f4",
+  "approved_rows": 1,
+  "approved_job_ids": [
+    "teaching-vacancies-office-administrator-elmridge-primary-school"
+  ]
+}

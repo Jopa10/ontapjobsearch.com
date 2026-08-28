@@ -1,22 +1,21 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-08-17T19:32:05+01:00",
+  "generated_at": "2026-08-28T12:31:08+01:00",
   "source": "Teaching Vacancies",
   "region": "Northamptonshire",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-08-17",
-  "review_fingerprint": "4415836eb30a0f6e1a16633e88eaa299c9053cd3405c37c3ddc55445061e54bc",
-  "routing_manifest_sha256": "e40a3b90bfb36b8fceed7f5db7ff5e0b45f837a6512a59dfa3ad22f1904f2004",
-  "review_csv_sha256": "733e2edacccce49eadd64c8e78fa7ce0ece52ea0b0427f587ddcaaf3d33adb29",
-  "summary_md_sha256": "09c25471ce0a5a7fc7c41d71ff2e7c48f3f5d85d26152afd66ac284f6bdff3f8",
-  "approved_snapshot_sha256": "d8180de0b966f08f7a9788a97ec508afe62810c09262da95e0b597fe03aa222b",
-  "approved_rows": 5,
+  "review_date": "2026-08-28",
+  "review_fingerprint": "990a52c1de753e5ac761d3182e3471bb40382c354a084aebaabb68c4133f13a0",
+  "routing_manifest_sha256": "317da4c3580a017af1ca5a40549214600dbbe16fe90e5315b920822a2f47f1ee",
+  "review_csv_sha256": "4f1faf8e3fa35f5ffa8944ec72cde9f4f3cd5452cb5113ebb2d71f90a6730869",
+  "summary_md_sha256": "29c4a99a338708b7e2336cc1a8ee0472ce2d405941adf8ec5815d6920020b41a",
+  "approved_snapshot_sha256": "893242995e325baac4be5a14d856d0b2e8156c4280334d5f0b0adec10508dd0a",
+  "approved_rows": 4,
   "approved_job_ids": [
-    "teaching-vacancies-assessment-and-data-admin-officer",
-    "teaching-vacancies-administrator-guilsborough-church-of-england-primary-school",
-    "teaching-vacancies-admin-assistant-st-luke-s-church-of-england-primary-school",
     "teaching-vacancies-receptionist-olympic-primary-wellingborough",
-    "teaching-vacancies-attendance-officer-studfall-infant-academy"
+    "teaching-vacancies-receptionist-administrator-northgate-school-academy-trust",
+    "teaching-vacancies-attendance-officer-studfall-infant-academy",
+    "teaching-vacancies-admin-assistant-barry-primary-school"
   ]
 }

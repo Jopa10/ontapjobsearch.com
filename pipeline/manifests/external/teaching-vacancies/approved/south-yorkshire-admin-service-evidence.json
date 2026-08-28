@@ -1,24 +1,22 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-08-17T19:32:07+01:00",
+  "generated_at": "2026-08-28T12:31:11+01:00",
   "source": "Teaching Vacancies",
   "region": "Yorkshire - South",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-08-17",
-  "review_fingerprint": "b6132426d01d028c59d562bc0e117deee5f0a1ec8f11874eade64a5a15474be6",
-  "routing_manifest_sha256": "e40a3b90bfb36b8fceed7f5db7ff5e0b45f837a6512a59dfa3ad22f1904f2004",
-  "review_csv_sha256": "150ad87d4c56215a3eb70fb04ed5c3f7704d0f3e38bbd695c1264a9e963d5d19",
-  "summary_md_sha256": "d1fbdfce69089a61dc3594e88d9044c2aaa44d41b50b6056b1892384cff6185d",
-  "approved_snapshot_sha256": "c09957ce8e1856ff0a429707748a3e6b13a17481ec60d8675b33f583d786cf73",
-  "approved_rows": 7,
+  "review_date": "2026-08-28",
+  "review_fingerprint": "2574f1acf6e55b1a4268b3c7e980e871a701642ceb42859e0418d2cae7b6d400",
+  "routing_manifest_sha256": "317da4c3580a017af1ca5a40549214600dbbe16fe90e5315b920822a2f47f1ee",
+  "review_csv_sha256": "d7edf19b9bde5a729e6d53409f0711a09667a16e7c06bd93468e59d20b4a6ff0",
+  "summary_md_sha256": "7885d4a65582ba417fe9bb42419cd6e380ad51cdfd0c942aac19469707378a3d",
+  "approved_snapshot_sha256": "ea9a108b0d28fccf6a804fee351a73de773574d3b717b73a4c4f84f406240e55",
+  "approved_rows": 5,
   "approved_job_ids": [
-    "teaching-vacancies-attendance-officer-trinity-academy",
-    "teaching-vacancies-business-support-officer-2ea7277a-9574-40f3-acf2-2f61fc716fd1",
     "teaching-vacancies-send-administrative-assistant-westfield-school-sheffield",
     "teaching-vacancies-admin-clerical-officer-level-2-rowan-school",
     "teaching-vacancies-administration-assistant-treeton-church-of-england-primary-school-rotherham-south-yorkshire",
-    "teaching-vacancies-business-support-officer-attendance-dc9edb4f-b36d-4bc3-be46-6508d1a2b957",
+    "teaching-vacancies-receptionist-administrator-sheffield-park-academy-sheffield-south-yorkshire",
     "teaching-vacancies-send-administrator-aston-academy-sheffield-south-yorkshire"
   ]
 }

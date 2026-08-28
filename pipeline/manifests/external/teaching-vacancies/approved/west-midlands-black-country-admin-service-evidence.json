@@ -1,0 +1,20 @@
+{
+  "contract_version": "teaching-vacancies-regional-approved-v1",
+  "generated_at": "2026-08-28T12:31:10+01:00",
+  "source": "Teaching Vacancies",
+  "region": "West Midlands - Black Country",
+  "category": "admin_service",
+  "slice_status": "LIVE",
+  "review_date": "2026-08-28",
+  "review_fingerprint": "802a339381c95c05498b113215e839fdd46ccab1b9e6b79a9a8a699d805d6402",
+  "routing_manifest_sha256": "317da4c3580a017af1ca5a40549214600dbbe16fe90e5315b920822a2f47f1ee",
+  "review_csv_sha256": "a493e9e3b9463e1fef3890f886e45814bee20d8d29ccdbbab61afd00f940f5c2",
+  "summary_md_sha256": "aa43c6812ccb4e56eb3c1626401572cff6a935d06ccadf0763e69fe56d524706",
+  "approved_snapshot_sha256": "e8819b0e170860805b3e43192ecd0e25eb3cde50a99169a08cf4bc0ef140982b",
+  "approved_rows": 3,
+  "approved_job_ids": [
+    "teaching-vacancies-receptionist-tipton-green-junior-school-tipton-west-midlands",
+    "teaching-vacancies-senior-administrator-st-james-academy",
+    "teaching-vacancies-school-administrator-st-christopher-s-catholic-primary-academy"
+  ]
+}

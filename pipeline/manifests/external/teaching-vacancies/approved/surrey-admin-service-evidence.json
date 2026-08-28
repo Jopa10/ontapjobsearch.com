@@ -1,19 +1,20 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-08-17T19:32:06+01:00",
+  "generated_at": "2026-08-28T12:31:10+01:00",
   "source": "Teaching Vacancies",
   "region": "Surrey",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-08-17",
-  "review_fingerprint": "b32cca569dbdab7845c5340ef6df0fde47979c4bf0dbc8e6ac730c277b95a4bf",
-  "routing_manifest_sha256": "e40a3b90bfb36b8fceed7f5db7ff5e0b45f837a6512a59dfa3ad22f1904f2004",
-  "review_csv_sha256": "dac7eb470265ed3eb141bbdcab3ab94a7968e77911c6a75d3925b8259439dd66",
-  "summary_md_sha256": "f768bf803d6af52c8640a1bb0b6aa88f8c0b18568b727376a7fa096d08ecef02",
-  "approved_snapshot_sha256": "5978d6dc66cbc008bec60db27ea9fcc75d9ab036711ef44dae7002593bf90556",
-  "approved_rows": 2,
+  "review_date": "2026-08-28",
+  "review_fingerprint": "6e791ac7d9211d2273a6bc7212b1b4ce4750f7807b05470a208f57dc5daadffe",
+  "routing_manifest_sha256": "317da4c3580a017af1ca5a40549214600dbbe16fe90e5315b920822a2f47f1ee",
+  "review_csv_sha256": "f23cfa0a1ab4b527a3566796b23f2a4d38cdfa2dc233dcdf3dcb135a3558a291",
+  "summary_md_sha256": "1c291f9ad7c8b720f7f8abb1b6b36e999ad18093d4bd3f28d4b74a300512119f",
+  "approved_snapshot_sha256": "d6665c28ef574b3fef47a232d80789e490c335fc2aba72937e95ef27e5cb0bfe",
+  "approved_rows": 3,
   "approved_job_ids": [
-    "teaching-vacancies-admin-assistant-holly-lodge-primary-academy-ash-vale-surrey",
-    "teaching-vacancies-receptionist-office-administrator-bramley-cofe-infant-school-and-nursery"
+    "teaching-vacancies-attendance-and-admissions-officer-danetree-primary-school-epsom-surrey",
+    "teaching-vacancies-hr-admin-assistant-holland-junior-school-oxted-surrey",
+    "teaching-vacancies-careers-administrator-1c0a6851-3e9c-4719-8774-31c627db4f71"
   ]
 }

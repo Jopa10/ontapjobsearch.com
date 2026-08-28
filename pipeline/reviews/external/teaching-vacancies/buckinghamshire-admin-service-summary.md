@@ -14,8 +14,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 15
-- Selected: 6
-- POSS awaiting decision: 4
+- Selected: 7
+- POSS awaiting decision: 3
 - Excluded: 0
 - Hard pass: 5
 
@@ -64,6 +64,21 @@ factual_fingerprint: cc1ea49c19cce27da7e766345dac4a736c92817c95e63199775f32e344e
 source: Teaching Vacancies
 source_job_id: attendance-officer-af35235c-b4c2-4ef0-9706-890c839e4f10
 source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-af35235c-b4c2-4ef0-9706-890c839e4f10
+---
+
+---
+action: select
+SELECTED | Buckinghamshire | Milton Keynes, South East, MK17 8XY | £26,824.00 Annually (FTE) Grade D, £26,824 per annum | HR Administrator
+employer: Glebe Farm School
+closing_date: 2026-09-01T12:00:00+01:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 03522a2e3a49945b5059593b4bfd47d424a81f9c9d097e4eaab1500c2b2e30ef
+source: Teaching Vacancies
+source_job_id: hr-administrator-glebe-farm-school-milton-keynes-buckinghamshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-glebe-farm-school-milton-keynes-buckinghamshire
 ---
 
 ---
@@ -141,21 +156,6 @@ factual_fingerprint: 1a1016e6b6cb5039308bf2157b9ff5de96f0877f853545ac58425f61e51
 source: Teaching Vacancies
 source_job_id: executive-assistant-to-the-senior-leadership-team-glebe-farm-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/executive-assistant-to-the-senior-leadership-team-glebe-farm-school
----
-
----
-action: 
-POSS | Buckinghamshire | Milton Keynes, South East, MK17 8XY | £26,824.00 Annually (FTE) Grade D, £26,824 per annum | HR Administrator
-employer: Glebe Farm School
-closing_date: 2026-09-01T12:00:00+01:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 03522a2e3a49945b5059593b4bfd47d424a81f9c9d097e4eaab1500c2b2e30ef
-source: Teaching Vacancies
-source_job_id: hr-administrator-glebe-farm-school-milton-keynes-buckinghamshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-glebe-farm-school-milton-keynes-buckinghamshire
 ---
 
 ---

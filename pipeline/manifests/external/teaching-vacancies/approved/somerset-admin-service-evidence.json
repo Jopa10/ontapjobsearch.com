@@ -1,0 +1,22 @@
+{
+  "contract_version": "teaching-vacancies-regional-approved-v1",
+  "generated_at": "2026-08-28T12:31:09+01:00",
+  "source": "Teaching Vacancies",
+  "region": "Somerset",
+  "category": "admin_service",
+  "slice_status": "LIVE",
+  "review_date": "2026-08-28",
+  "review_fingerprint": "1217e1db0e985a94811b15298d4c7a6e0ec420efdd612d15164ae3ac082e40f6",
+  "routing_manifest_sha256": "317da4c3580a017af1ca5a40549214600dbbe16fe90e5315b920822a2f47f1ee",
+  "review_csv_sha256": "ba9850d68e0bf0b6a65dbafa3dc87752c8be60f92bf25aaec780ca2d8b774c33",
+  "summary_md_sha256": "afa7a15aaa1c3c48d362bc39e6a4e34733e8582ba1e0d8c3c98d2e9014e3fb74",
+  "approved_snapshot_sha256": "568fc5f169af843e70c1b7082667b747d1609a17277e8859fdf913687a86ae75",
+  "approved_rows": 5,
+  "approved_job_ids": [
+    "teaching-vacancies-administration-assistant-attendance-level-1",
+    "teaching-vacancies-administration-assistant-send-winterstoke-hundred-academy",
+    "teaching-vacancies-senior-office-administrator-west-monkton-church-of-england-school",
+    "teaching-vacancies-level-3-business-administrator-apprentice",
+    "teaching-vacancies-people-administrator-learning-and-development"
+  ]
+}

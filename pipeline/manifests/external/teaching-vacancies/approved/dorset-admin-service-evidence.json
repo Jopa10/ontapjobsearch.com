@@ -1,21 +1,19 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-08-17T19:32:04+01:00",
+  "generated_at": "2026-08-28T12:31:06+01:00",
   "source": "Teaching Vacancies",
   "region": "Dorset",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-08-17",
-  "review_fingerprint": "633e70f2b4aec3d6da1e3d26e961fc24e74e186716ca1aac435b4bfea472e9d0",
-  "routing_manifest_sha256": "e40a3b90bfb36b8fceed7f5db7ff5e0b45f837a6512a59dfa3ad22f1904f2004",
-  "review_csv_sha256": "89173966614378a30737ddec0d7b81ade2003308cf2fd475da0ec48818163da6",
-  "summary_md_sha256": "2d6a5f83993d8ac05a7f870ef5b842e31e5e3c3f53dd1a6c77585e07bfe63b1d",
-  "approved_snapshot_sha256": "622cf33dcd3ade97a589ce70bccbf1a2fdacd928d285218398e955497fc357b8",
-  "approved_rows": 4,
+  "review_date": "2026-08-28",
+  "review_fingerprint": "3b12ff8486a2db1634ae4c2db2b852d000e64c2f9d28c77466536204e3254623",
+  "routing_manifest_sha256": "317da4c3580a017af1ca5a40549214600dbbe16fe90e5315b920822a2f47f1ee",
+  "review_csv_sha256": "3fb67bc146ed825293811b2d617cac4ed602932142005fbab5e9999d5f08cbb7",
+  "summary_md_sha256": "d4d7738ba23779d60ce5bf5e9ae1d5e10a65b00a53e4c50181c4df4b1f42d204",
+  "approved_snapshot_sha256": "23f0d9704dc0e209db0f7b1102e9ceed8c4093287c9c183a0930d38060b289f2",
+  "approved_rows": 2,
   "approved_job_ids": [
-    "teaching-vacancies-pa-to-leadership-team-7ef9b92b-3c55-4c18-984d-f95690a3f7a2",
-    "teaching-vacancies-260720b-administrator",
-    "teaching-vacancies-finance-and-hr-administrator-cranborne-church-of-england-first-school-wimborne-dorset",
-    "teaching-vacancies-school-administrator-shaftesbury-school"
+    "teaching-vacancies-school-administrator-shaftesbury-school",
+    "teaching-vacancies-careers-and-work-experience-administrator-the-bishop-of-winchester-academy"
   ]
 }

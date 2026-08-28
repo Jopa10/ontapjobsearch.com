@@ -1,0 +1,18 @@
+{
+  "contract_version": "teaching-vacancies-regional-approved-v1",
+  "generated_at": "2026-08-28T12:31:11+01:00",
+  "source": "Teaching Vacancies",
+  "region": "Yorkshire - East",
+  "category": "admin_service",
+  "slice_status": "LIVE",
+  "review_date": "2026-08-28",
+  "review_fingerprint": "96b6dc8c07388ec78a71e79ea5229cf98af1867a9cf4da5ddf7bebc02a060578",
+  "routing_manifest_sha256": "317da4c3580a017af1ca5a40549214600dbbe16fe90e5315b920822a2f47f1ee",
+  "review_csv_sha256": "2f0539d55e203a364ba7c043da3e088dc2b6ff5ce4556b7f47b7b150558689ab",
+  "summary_md_sha256": "f9259f766629e5ae6a4c0c7cc3e4d6f32aaf644d2a6f7fd17fa63b2d0256557a",
+  "approved_snapshot_sha256": "cc3c82fcc7fd707c86710c87c385a6eb8cf9f038da7b29a62dbcf4cf519f557a",
+  "approved_rows": 1,
+  "approved_job_ids": [
+    "teaching-vacancies-administration-assistant-kingswood-parks-primary-school"
+  ]
+}

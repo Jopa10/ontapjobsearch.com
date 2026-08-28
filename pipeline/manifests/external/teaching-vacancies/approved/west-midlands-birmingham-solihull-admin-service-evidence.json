@@ -1,0 +1,24 @@
+{
+  "contract_version": "teaching-vacancies-regional-approved-v1",
+  "generated_at": "2026-08-28T12:31:10+01:00",
+  "source": "Teaching Vacancies",
+  "region": "West Midlands - Birmingham & Solihull",
+  "category": "admin_service",
+  "slice_status": "LIVE",
+  "review_date": "2026-08-28",
+  "review_fingerprint": "5cb42a1f674aaa5dd4549d819e20d889e979b90208c3931dd120b43a286c011c",
+  "routing_manifest_sha256": "317da4c3580a017af1ca5a40549214600dbbe16fe90e5315b920822a2f47f1ee",
+  "review_csv_sha256": "a90585a38a308f1d4d4d24c15f36dbb1a2dae8d6d504855a0106af1dce0fe737",
+  "summary_md_sha256": "2f4f8139432707e3654294e422c9a548c07a81b0a8f5a27bfba3b423764926ae",
+  "approved_snapshot_sha256": "9ce6f4a9e862fc33cf054b7b5c46a10db6dfc6f39b4aa3dfd358ac4542cd4ff7",
+  "approved_rows": 7,
+  "approved_job_ids": [
+    "teaching-vacancies-administrator-receptionist-john-henry-newman-catholic-college",
+    "teaching-vacancies-school-administrator-receptionist-ark-boulton-academy",
+    "teaching-vacancies-administrator-29a3a1df-9a3b-43db-97ba-8e6497b99ca1",
+    "teaching-vacancies-senior-administrator-hr-maternity-cover",
+    "teaching-vacancies-attendance-officer-4efd19d4-57e0-4ca7-b2db-17e1d24f0087",
+    "teaching-vacancies-school-administrator-90712575-ad48-4a39-98c3-9140ef281e9e",
+    "teaching-vacancies-administrative-assistant-grade-2-term-time-only"
+  ]
+}

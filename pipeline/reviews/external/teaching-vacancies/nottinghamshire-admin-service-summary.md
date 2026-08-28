@@ -14,8 +14,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 19
-- Selected: 3
-- POSS awaiting decision: 3
+- Selected: 4
+- POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 13
 
@@ -66,6 +66,21 @@ source_job_id: administrative-assistant-sixth-form-and-work-related-learning
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-sixth-form-and-work-related-learning
 ---
 
+---
+action: select
+SELECTED | Nottinghamshire | Nottingham, NG9 6RZ | £27,709.00 - £29,541.00 Annually (Actual) NJC8-12 | HR Administrator
+employer: The Spencer Academies Trust
+closing_date: 2026-08-31T12:00:00+01:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 1c8afe35cf3a9c8cd77715cbf45bd486d318efa025e9af61948f522da06bbeb9
+source: Teaching Vacancies
+source_job_id: hr-administrator-the-spencer-academies-trust
+source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-the-spencer-academies-trust
+---
+
 ## POSS — choose SELECT or EXCLUDE
 
 ---
@@ -96,21 +111,6 @@ factual_fingerprint: e3e5d2ae25c785ab06eb065f9bbf094a44c7c9f65438c997a24f348d0ae
 source: Teaching Vacancies
 source_job_id: house-support-asisstant
 source_url: https://teaching-vacancies.service.gov.uk/jobs/house-support-asisstant
----
-
----
-action: 
-POSS | Nottinghamshire | Nottingham, NG9 6RZ | £27,709.00 - £29,541.00 Annually (Actual) NJC8-12 | HR Administrator
-employer: The Spencer Academies Trust
-closing_date: 2026-08-31T12:00:00+01:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 1c8afe35cf3a9c8cd77715cbf45bd486d318efa025e9af61948f522da06bbeb9
-source: Teaching Vacancies
-source_job_id: hr-administrator-the-spencer-academies-trust
-source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-the-spencer-academies-trust
 ---
 
 ## EXCLUDED BY REVIEW

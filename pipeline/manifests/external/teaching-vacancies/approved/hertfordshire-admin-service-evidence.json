@@ -1,0 +1,22 @@
+{
+  "contract_version": "teaching-vacancies-regional-approved-v1",
+  "generated_at": "2026-08-28T12:31:07+01:00",
+  "source": "Teaching Vacancies",
+  "region": "Hertfordshire",
+  "category": "admin_service",
+  "slice_status": "LIVE",
+  "review_date": "2026-08-28",
+  "review_fingerprint": "a560eab22fd2b09884b81fa0b19741288b872bef4a77a183f0abaf5e55a76445",
+  "routing_manifest_sha256": "317da4c3580a017af1ca5a40549214600dbbe16fe90e5315b920822a2f47f1ee",
+  "review_csv_sha256": "8b13663e229aa5ce4d7696afd5d7e7d755c311de4e8949d77a73ff03ba6f85b2",
+  "summary_md_sha256": "66ef55e1dd4fc6aa7bea1dc42bc861f0ffc17218a8c6357f7d231c4aa569760d",
+  "approved_snapshot_sha256": "b02ca74d87f115e1d170e2fcd7f5f3bc798e797145a2ce7dc7d647951fadfc55",
+  "approved_rows": 5,
+  "approved_job_ids": [
+    "teaching-vacancies-examinations-officer-f64f071c-e84a-4dd7-afab-fb7ac4c7e56e",
+    "teaching-vacancies-office-administrator-bassingbourn-village-college",
+    "teaching-vacancies-receptionist-admin-assistant-and-student-support-coordinator-6462fad5-44b0-4b6f-afcb-acca1d5cb30c",
+    "teaching-vacancies-governance-administrator-aspire-academies-trust",
+    "teaching-vacancies-administrator-the-acorn-centre"
+  ]
+}

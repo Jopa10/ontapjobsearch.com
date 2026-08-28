@@ -22,9 +22,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Notley High School and Braintree Sixth Form",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -50,9 +47,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Unity Primary Academy",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -78,9 +72,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Limebrook Primary School and Nursery",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -106,9 +97,31 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Stifford Clays Primary School",
-    "advertiser_type": "",
-    "salary_period": "",
+    "posted_date_basis": "source"
+  },
+  {
+    "job_id": "teaching-vacancies-trust-administrator-discovery-educational-trust",
+    "title": "Trust Administrator",
+    "company": "Discovery Educational Trust",
+    "location": "Brentwood",
+    "region": "Essex",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "['part time']",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "£25,415.00 - £25,812.00 Annually (Actual) Essex Pay Scale 4 Point 8-9",
+    "work_pattern": "",
+    "posted_date": "2026-08-18",
+    "closing_date": "2026-09-09",
+    "closing_datetime": "2026-09-09T23:59:00+01:00",
+    "summary": "Trust Administrator with Discovery Educational Trust in Brentwood. ['part time']; £25,415.00 - £25,812.00 Annually (Actual) Essex Pay Scale 4 Point 8-9.",
+    "description": "Discovery Educational Trust is recruiting for this vacancy in Brentwood.\n\nThe advertised position is Trust Administrator.\n\nThe source lists the employment type as ['part time'].\n\nThe advertised salary or pay scale is £25,415.00 - £25,812.00 Annually (Actual) Essex Pay Scale 4 Point 8-9.\n\nThe stated application deadline is 2026-09-09T23:59:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
+    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/trust-administrator-discovery-educational-trust?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
+    "source": "Teaching Vacancies",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
     "posted_date_basis": "source"
   },
   {

@@ -14,12 +14,42 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 63
-- Selected: 16
-- POSS awaiting decision: 9
+- Selected: 23
+- POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 38
 
 ## SELECTED
+
+---
+action: select
+SELECTED | London | Dagenham, London, RM9 6PH | £25,514.00 Annually (Actual) | Administrative Assistant
+employer: Pathways School
+closing_date: 2026-09-11T23:59:00+01:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: d4f0fcdc2eeb963913798ea0bea40d4bad32b3547b5c16bb487fc17d452e5198
+source: Teaching Vacancies
+source_job_id: administrative-assistant-pathways-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-pathways-school
+---
+
+---
+action: select
+SELECTED | London | London, London, E15 3DN | Scaled 3 (dependent on experience) £25,524 Pro Rata | Administrative Assistant
+employer: Ranelagh Primary School
+closing_date: 2026-09-04T12:00:00+01:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: e0392ecbc9151c14ff733a0a4a1b873316d5eb6767a8c9db6d6c5dd624dcf418
+source: Teaching Vacancies
+source_job_id: administrative-assistant-ranelagh-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-ranelagh-primary-school
+---
 
 ---
 action: 
@@ -34,6 +64,21 @@ factual_fingerprint: 3b9ced21f1b4234457ceca8feb9559887adf5dea3fc1c1e0978761bbfe9
 source: Teaching Vacancies
 source_job_id: administrative-assistant-receptionist-wren-academy-enfield-enfield
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-receptionist-wren-academy-enfield-enfield
+---
+
+---
+action: select
+SELECTED | London | Borehamwood, East of England, WD6 2DW | £25,583.00 - £25,989.00 Annually (FTE) Hours Required: 8.30am to 3.30pm | Administrator
+employer: Summerswood Primary School
+closing_date: 2026-09-04T08:00:00+01:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 22f8de45fd278861069530f2cdb5e5348b7af0ebb81215ef2beffb4cc3450566
+source: Teaching Vacancies
+source_job_id: administrator-summerswood-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-summerswood-primary-school
 ---
 
 ---
@@ -112,6 +157,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-administrator
 ---
 
 ---
+action: select
+SELECTED | London | London, London, SW16 6NP | Grade 3 - Salary Spine point 5 to 6 - £31,086 to £31,530 (actual £28,592 to £29,002) | Office Administrator
+employer: St Leonard's Church of England Primary School
+closing_date: 2026-09-11T15:00:00+01:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: dfb8614e8859acc9e446d1f3a5130b800f5a77f9bf4b14abbd10dba60aa9a134
+source: Teaching Vacancies
+source_job_id: office-administrator-st-leonard-s-church-of-england-primary-school-london
+source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-st-leonard-s-church-of-england-primary-school-london
+---
+
+---
 action: 
 SELECTED | London | London, London, W1U 5BA | NJC points 16 - 25, depending on experience: £36,422 - £41,636 pa | PA to the SLT, including data systems & communications
 employer: The St Marylebone CofE School
@@ -124,6 +184,21 @@ factual_fingerprint: d1ca0eca4ded7126afdc3064ae6ce11fdb8fed91fc5f95a895e079dd834
 source: Teaching Vacancies
 source_job_id: pa-to-the-slt-including-data-systems-communications
 source_url: https://teaching-vacancies.service.gov.uk/jobs/pa-to-the-slt-including-data-systems-communications
+---
+
+---
+action: select
+SELECTED | London | London, W12 7TF | £20,971.00 - £21,300.00 pro rata (£24,796.00 - £25,185.00 FTE)per annum | Receptionist
+employer: Ark Schools
+closing_date: 2026-08-31T10:00:00+01:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 35c4f90518b55d25858697057bda9c04097f0e7516f1840f69c771a5ad02caff
+source: Teaching Vacancies
+source_job_id: receptionist-the-king-s-school-pontefract-west-yorkshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-the-king-s-school-pontefract-west-yorkshire
 ---
 
 ---
@@ -157,6 +232,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-part-tim
 ---
 
 ---
+action: select
+SELECTED | London | London, London, SW4 0AJ | £29,805.00 Annually (Actual) Inner London payscale Spine Point 2 | Receptionist / Administrator
+employer: Belleville Wix Academy
+closing_date: 2026-09-09T23:59:00+01:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 7a4b7b4eb302d24281f450f61dd21993ce3967b01b89d0aa99a1f4a0776b8272
+source: Teaching Vacancies
+source_job_id: receptionist-administrator-belleville-wix-academy-london
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrator-belleville-wix-academy-london
+---
+
+---
 action: 
 SELECTED | London | Ilford, London, IG2 6HX | £26,903.00 Annually (Actual) | Receptionist / Office Co-ordinator
 employer: Valentines High School
@@ -184,6 +274,21 @@ factual_fingerprint: 4adbb5f2680805816e88ee10137d889363773a29f8ec5e8ab820afa5e27
 source: Teaching Vacancies
 source_job_id: reprographics-administrator-bb959af5-cf9a-47b5-9c83-740a36b9e12c
 source_url: https://teaching-vacancies.service.gov.uk/jobs/reprographics-administrator-bb959af5-cf9a-47b5-9c83-740a36b9e12c
+---
+
+---
+action: select
+SELECTED | London | Osterley, London, TW7 5PN | 28,195.00 - 29,852.00 | School Administrator
+employer: Nishkam School West London
+closing_date: 2026-09-04T00:00:00+01:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 9c6ac77c14a552c4ef0813081b482a6769628f73926100a12cfe6c0f934f4dc1
+source: Teaching Vacancies
+source_job_id: school-administrator-nishkam-school-west-london
+source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-nishkam-school-west-london
 ---
 
 ---
@@ -265,51 +370,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/welfare-administrator
 
 ---
 action: 
-POSS | London | Dagenham, London, RM9 6PH | £25,514.00 Annually (Actual) | Administrative Assistant
-employer: Pathways School
-closing_date: 2026-09-11T23:59:00+01:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: d4f0fcdc2eeb963913798ea0bea40d4bad32b3547b5c16bb487fc17d452e5198
-source: Teaching Vacancies
-source_job_id: administrative-assistant-pathways-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-pathways-school
----
-
----
-action: 
-POSS | London | London, London, E15 3DN | Scaled 3 (dependent on experience) £25,524 Pro Rata | Administrative Assistant
-employer: Ranelagh Primary School
-closing_date: 2026-09-04T12:00:00+01:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: e0392ecbc9151c14ff733a0a4a1b873316d5eb6767a8c9db6d6c5dd624dcf418
-source: Teaching Vacancies
-source_job_id: administrative-assistant-ranelagh-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-ranelagh-primary-school
----
-
----
-action: 
-POSS | London | Borehamwood, East of England, WD6 2DW | £25,583.00 - £25,989.00 Annually (FTE) Hours Required: 8.30am to 3.30pm | Administrator
-employer: Summerswood Primary School
-closing_date: 2026-09-04T08:00:00+01:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 22f8de45fd278861069530f2cdb5e5348b7af0ebb81215ef2beffb4cc3450566
-source: Teaching Vacancies
-source_job_id: administrator-summerswood-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-summerswood-primary-school
----
-
----
-action: 
 POSS | London | Northwood, London, HA6 1QN | £28,790.00 - £30,000.00 Annually (Actual) | Attendance and Pastoral Support Worker
 employer: Northwood School
 closing_date: 2026-09-04T23:59:00+01:00
@@ -336,66 +396,6 @@ factual_fingerprint: aa89cc00ad21024a41eef760e8ed75681e66a7a7f176369ea91d96b366a
 source: Teaching Vacancies
 source_job_id: executive-assistant-data-protection-information-governance
 source_url: https://teaching-vacancies.service.gov.uk/jobs/executive-assistant-data-protection-information-governance
----
-
----
-action: 
-POSS | London | London, London, SW16 6NP | Grade 3 - Salary Spine point 5 to 6 - £31,086 to £31,530 (actual £28,592 to £29,002) | Office Administrator
-employer: St Leonard's Church of England Primary School
-closing_date: 2026-09-11T15:00:00+01:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: dfb8614e8859acc9e446d1f3a5130b800f5a77f9bf4b14abbd10dba60aa9a134
-source: Teaching Vacancies
-source_job_id: office-administrator-st-leonard-s-church-of-england-primary-school-london
-source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-st-leonard-s-church-of-england-primary-school-london
----
-
----
-action: 
-POSS | London | London, W12 7TF | £20,971.00 - £21,300.00 pro rata (£24,796.00 - £25,185.00 FTE)per annum | Receptionist
-employer: Ark Schools
-closing_date: 2026-08-31T10:00:00+01:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 35c4f90518b55d25858697057bda9c04097f0e7516f1840f69c771a5ad02caff
-source: Teaching Vacancies
-source_job_id: receptionist-the-king-s-school-pontefract-west-yorkshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-the-king-s-school-pontefract-west-yorkshire
----
-
----
-action: 
-POSS | London | London, London, SW4 0AJ | £29,805.00 Annually (Actual) Inner London payscale Spine Point 2 | Receptionist / Administrator
-employer: Belleville Wix Academy
-closing_date: 2026-09-09T23:59:00+01:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 7a4b7b4eb302d24281f450f61dd21993ce3967b01b89d0aa99a1f4a0776b8272
-source: Teaching Vacancies
-source_job_id: receptionist-administrator-belleville-wix-academy-london
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrator-belleville-wix-academy-london
----
-
----
-action: 
-POSS | London | Osterley, London, TW7 5PN | 28,195.00 - 29,852.00 | School Administrator
-employer: Nishkam School West London
-closing_date: 2026-09-04T00:00:00+01:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 9c6ac77c14a552c4ef0813081b482a6769628f73926100a12cfe6c0f934f4dc1
-source: Teaching Vacancies
-source_job_id: school-administrator-nishkam-school-west-london
-source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-nishkam-school-west-london
 ---
 
 ## EXCLUDED BY REVIEW

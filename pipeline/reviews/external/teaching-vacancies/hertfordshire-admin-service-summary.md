@@ -14,8 +14,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 8
-- Selected: 4
-- POSS awaiting decision: 1
+- Selected: 5
+- POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 3
 
@@ -67,6 +67,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/governance-administra
 ---
 
 ---
+action: select
+SELECTED | Hertfordshire | Royston, East of England, SG8 5NJ | NJC Cambridgeshire Scale 5 Point 12 - 14 (£28,598 - £29,540 FTE per annum) £12,426.16 - £12,835.47 pro rata, plus holiday pay. | Office Administrator
+employer: Bassingbourn Village College
+closing_date: 2026-08-31T23:59:00+01:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 8fccbba9d34a01eb62b0e77a6919dd3df5e0d8b3934242bfe78141469df2d5f8
+source: Teaching Vacancies
+source_job_id: office-administrator-bassingbourn-village-college
+source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-bassingbourn-village-college
+---
+
+---
 action: 
 SELECTED | Hertfordshire | Stevenage, East of England, SG2 8UT | £21,885.00 - £23,315.00 Annually (Actual) Term Time plus 5 days | Receptionist/Admin Assistant and Student Support Coordinator
 employer: Marriotts School
@@ -83,20 +98,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-admin-as
 
 ## POSS — choose SELECT or EXCLUDE
 
----
-action: 
-POSS | Hertfordshire | Royston, East of England, SG8 5NJ | NJC Cambridgeshire Scale 5 Point 12 - 14 (£28,598 - £29,540 FTE per annum) £12,426.16 - £12,835.47 pro rata, plus holiday pay. | Office Administrator
-employer: Bassingbourn Village College
-closing_date: 2026-08-31T23:59:00+01:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 8fccbba9d34a01eb62b0e77a6919dd3df5e0d8b3934242bfe78141469df2d5f8
-source: Teaching Vacancies
-source_job_id: office-administrator-bassingbourn-village-college
-source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-bassingbourn-village-college
----
+- None.
 
 ## EXCLUDED BY REVIEW
 

@@ -1,0 +1,21 @@
+{
+  "contract_version": "teaching-vacancies-regional-approved-v1",
+  "generated_at": "2026-08-28T12:31:09+01:00",
+  "source": "Teaching Vacancies",
+  "region": "Staffordshire",
+  "category": "admin_service",
+  "slice_status": "LIVE",
+  "review_date": "2026-08-28",
+  "review_fingerprint": "ad1726576b42c96f4bb7256b89a2fdf8484caa177438a8ad3e4e7ede6903232f",
+  "routing_manifest_sha256": "317da4c3580a017af1ca5a40549214600dbbe16fe90e5315b920822a2f47f1ee",
+  "review_csv_sha256": "ecd20831dd741a073f0529fe66db41eaf8caf6d09d91e99fd7c513ff631f3654",
+  "summary_md_sha256": "967c71b04750db7cb9562a42406bba0498278d732f1dfc6de497a96cb8c62ca3",
+  "approved_snapshot_sha256": "c1b0edcfc515a8c589362a0dc777e49c7c8d088ca372c2dbabfcf400c3bac26c",
+  "approved_rows": 4,
+  "approved_job_ids": [
+    "teaching-vacancies-school-administrator-st-patrick-s-catholic-primary-school",
+    "teaching-vacancies-administration-assistant-maple-court-academy",
+    "teaching-vacancies-finance-administrator-apprentice-manor-hall-academy-trust",
+    "teaching-vacancies-attendance-officer-level-4-longford-primary-academy"
+  ]
+}
