@@ -125,7 +125,13 @@ jobs:
           python - <<'PY'
           import json
           import os
+          import sys
           from pathlib import Path
+
+          sys.path.insert(0, "pipeline")
+          from external_sources.compose_teaching_vacancies_regional import (
+              current_base_contract,
+          )
 
           region = os.environ["REGION"].strip()
           slug = os.environ["SLUG"].strip()
@@ -144,14 +150,10 @@ jobs:
           matching = []
           for path in Path("pipeline/output-admin-service").glob("*.json"):
               rows = json.loads(path.read_text(encoding="utf-8"))
-              base_regions = {
-                  str(row.get("region", "")).strip()
-                  for row in rows
-                  if str(row.get("source", "")).strip().casefold()
-                  != "teaching vacancies"
-                  and str(row.get("region", "")).strip()
-              }
-              if base_regions == {region}:
+              if not rows:
+                  continue
+              base_region, base_rows, _ = current_base_contract(rows)
+              if base_rows and base_region == region:
                   matching.append((path, rows))
           if len(matching) != 1:
               raise SystemExit(

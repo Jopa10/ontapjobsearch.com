@@ -13,6 +13,9 @@ LEGACY_REVIEW = REPO_ROOT / ".github/workflows/run-teaching-vacancies-review.yml
 LEGACY_APPROVAL = (
     REPO_ROOT / ".github/workflows/build-approved-teaching-vacancies-output.yml"
 )
+ENGLAND_PUBLISH_WORKFLOW = (
+    REPO_ROOT / ".github/workflows/publish-reviewed-teaching-vacancies-england.yml"
+)
 
 
 def test_regional_review_workflow_is_review_only_and_complete() -> None:
@@ -38,10 +41,19 @@ def test_regional_approval_workflow_is_live_gated_and_region_scoped() -> None:
     assert "publishable_region" in text
     assert "teaching_vacancies_regional_approved" in text
     assert "compose_teaching_vacancies_regional" in text
+    assert "current_base_contract" in text
     assert '--region "$REGION"' in text
     assert "expected one current base output" in text
     assert "combined regional output is external-only" in text
     assert "git diff --exit-code -- app" in text
+
+
+def test_england_publish_canonicalises_regions_and_isolates_at_most_three() -> None:
+    text = ENGLAND_PUBLISH_WORKFLOW.read_text(encoding="utf-8")
+    assert "teaching_vacancies_publish_verification" in text
+    assert "--max-isolated-regions 3" in text
+    assert "--isolation-report" in text
+    assert "base_regions == {region}" not in text
 
 
 def test_legacy_west_operator_workflows_remain_for_rollback() -> None:

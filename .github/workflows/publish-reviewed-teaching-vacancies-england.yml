@@ -47,6 +47,7 @@ jobs:
             tests/test_teaching_vacancies_master_actions.py \
             tests/test_teaching_vacancies_regional_approved.py \
             tests/test_compose_teaching_vacancies_regional.py \
+            tests/test_teaching_vacancies_publish_verification.py \
             tests/test_teaching_vacancies_regional_integration.py \
             tests/test_teaching_vacancies_workflow_switch.py \
             tests/test_publish_verified_service_admin_pages.py \
@@ -162,94 +163,10 @@ jobs:
       - name: Verify every LIVE reviewed region composed safely
         working-directory: pipeline
         run: |
-          python - <<'PY'
-          import csv
-          import json
-          from datetime import date
-          from pathlib import Path
-
-          from external_sources.compose_teaching_vacancies_regional import (
-              canonical_rows,
-              compose_rows,
-          )
-          from external_sources.teaching_vacancies_master_review import REVIEW_NOW
-          from external_sources.teaching_vacancies_regional_review import region_slug
-
-          master_path = Path(
-              "reviews/external/teaching-vacancies/england-wide-admin-service-review.csv"
-          )
-          with master_path.open("r", encoding="utf-8-sig", newline="") as handle:
-              rows = list(csv.DictReader(handle))
-          regions = sorted(
-              {
-                  row["ontap_region"].strip()
-                  for row in rows
-                  if row.get("review_scope") == REVIEW_NOW
-                  and row.get("ontap_region", "").strip()
-              },
-              key=str.casefold,
-          )
-
-          output_files = list(Path("output-admin-service").glob("*-admin-service.json"))
-          for region in regions:
-              slug = region_slug(region)
-              snapshot_path = Path(
-                  "output-external/teaching-vacancies-regional"
-              ) / f"{slug}-admin-service.json"
-              evidence_path = Path(
-                  "manifests/external/teaching-vacancies/approved"
-              ) / f"{slug}-admin-service-evidence.json"
-              if not snapshot_path.is_file() or not evidence_path.is_file():
-                  raise SystemExit(
-                      f"STOP: missing approved Teaching Vacancies evidence for {region}."
-                  )
-              snapshot = json.loads(snapshot_path.read_text(encoding="utf-8"))
-
-              matching = []
-              for path in output_files:
-                  combined = json.loads(path.read_text(encoding="utf-8"))
-                  base_regions = {
-                      str(row.get("region", "")).strip()
-                      for row in combined
-                      if str(row.get("source", "")).strip().casefold()
-                      != "teaching vacancies"
-                      and str(row.get("region", "")).strip()
-                  }
-                  if base_regions == {region}:
-                      matching.append((path, combined))
-              if len(matching) != 1:
-                  raise SystemExit(
-                      f"STOP: expected one current admin-service base output for {region}; "
-                      f"found {len(matching)}."
-                  )
-              output_path, combined = matching[0]
-              expected, counts = compose_rows(
-                  combined,
-                  snapshot,
-                  region=region,
-                  today=date.today(),
-              )
-              if canonical_rows(expected) != canonical_rows(combined):
-                  raise SystemExit(
-                      f"STOP: {output_path} does not exactly match safe recomposition "
-                      f"for {region}."
-                  )
-              if not any(
-                  str(row.get("source", "")).strip().casefold()
-                  != "teaching vacancies"
-                  for row in combined
-              ):
-                  raise SystemExit(
-                      f"STOP: external-only overwrite detected for {region}."
-                  )
-              print(
-                  f"{region}: {counts['teaching_vacancies']} Teaching Vacancies in "
-                  f"{len(combined)} combined jobs; "
-                  f"{counts['duplicate_teaching_vacancies_skipped']} duplicate(s) and "
-                  f"{counts['expired_teaching_vacancies_skipped']} expired role(s) "
-                  f"safely omitted ({output_path})"
-              )
-          PY
+          python -m external_sources.teaching_vacancies_publish_verification \
+            --max-isolated-regions 3 \
+            --report-json "$RUNNER_TEMP/teaching-vacancies-regional-verification.json" \
+            --summary "$GITHUB_STEP_SUMMARY"
 
       - name: Verify approval stages did not touch live app files
         run: git diff --exit-code -- app
@@ -257,7 +174,9 @@ jobs:
       - name: Publish verified service-admin pages
         working-directory: pipeline
         run: |
-          python -m scripts.publish_verified_service_admin_pages --write
+          python -m scripts.publish_verified_service_admin_pages \
+            --write \
+            --isolation-report "$RUNNER_TEMP/teaching-vacancies-regional-verification.json"
 
       - name: Verify publisher changed only service-admin live files
         run: |
@@ -412,5 +331,6 @@ jobs:
             pipeline/reviews/external/teaching-vacancies/
             pipeline/output-external/teaching-vacancies-regional/
             pipeline/manifests/external/teaching-vacancies/approved/
+            ${{ runner.temp }}/teaching-vacancies-regional-verification.json
           if-no-files-found: error
           retention-days: 14
