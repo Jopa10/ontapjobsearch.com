@@ -6,9 +6,45 @@ The `excluded_on` date is the day the exclusion decision was made.
 To restore a job, edit only its `action:` line to `action: select`.
 On the next JobG8 run that exact job ID will be restored and removed from this list.
 
-remembered_exclusions: 202
+remembered_exclusions: 205
 
 ## SERVICE / ADMIN — EXCLUDED
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-28
+title: QUALITY & PROCESS COORDINATOR
+employer: Searchability
+region: 
+town: Essex
+salary: 
+job_id: 1713560
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-28
+title: Project Coordinator (Construction / Scaffolding / Renewables)
+employer: Ernest Gordon Recruitment
+region: 
+town: Dorset
+salary: 
+job_id: 107724530
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-28
+title: Project Coordinator
+employer: One Way Resourcing Limited
+region: 
+town: Dorset
+salary: 
+job_id: 107671295
+---
 
 ---
 action:

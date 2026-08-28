@@ -18,8 +18,8 @@ Cheshire - West,3,2,0,1,0,,3,Chester,SCENARIO_4_BELOW_PUBLISH_THRESHOLD,Cheshire
 Cornwall,4,0,1,3,0,,4,Truro,SCENARIO_4_BELOW_PUBLISH_THRESHOLD,Cornwall selection below publish threshold: 4/6 credible roles. Do not publish/refresh this slice from this run.
 Derbyshire,7,3,0,4,0,,7,Derby,SCENARIO_3_MANUAL_SELECTION_APPLIED,Derbyshire manual_select applied additively: 1 row(s) prioritised; 7 selected.
 Devon,18,13,0,5,0,,18,Exeter,SCENARIO_3_MANUAL_SELECTION_APPLIED,Devon manual_select applied additively: 2 row(s) prioritised; 18 selected.
-Dorset,11,7,0,4,2,,11,Bournemouth,SCENARIO_3_MANUAL_SELECTION_APPLIED,Dorset manual_select applied additively: 2 row(s) prioritised; 11 selected.
-Essex,31,19,0,12,1,,31,Chelmsford,SCENARIO_3_MANUAL_SELECTION_APPLIED,Essex manual_select applied additively: 7 row(s) prioritised; 31 selected.
+Dorset,11,7,0,4,0,,11,Bournemouth,SCENARIO_3_MANUAL_SELECTION_APPLIED,Dorset manual_select applied additively: 2 row(s) prioritised; 11 selected.
+Essex,31,19,0,12,0,,31,Chelmsford,SCENARIO_3_MANUAL_SELECTION_APPLIED,Essex manual_select applied additively: 7 row(s) prioritised; 31 selected.
 Gloucestershire,25,12,0,13,0,,25,Gloucester,SCENARIO_3_MANUAL_SELECTION_APPLIED,Gloucestershire manual_select applied additively: 5 row(s) prioritised; 25 selected.
 Greater Manchester - Manchester & Salford,26,16,10,0,0,,26,Manchester,SCENARIO_3_MANUAL_SELECTION_APPLIED,Greater Manchester - Manchester & Salford manual_select applied additively: 3 row(s) prioritised; 26 selected.
 Greater Manchester - South,5,5,0,0,0,,5,Stockport,SCENARIO_4_BELOW_PUBLISH_THRESHOLD,Greater Manchester - South selection below publish threshold: 5/6 credible roles. Do not publish/refresh this slice from this run.
@@ -37,7 +37,7 @@ Scotland Central - Edinburgh & Lothians,6,2,3,1,0,,6,Edinburgh,SCENARIO_3_FULL_V
 Scotland West - Glasgow,11,9,2,0,0,,11,Glasgow,SCENARIO_3_MANUAL_SELECTION_APPLIED,Scotland West - Glasgow manual_select applied additively: 1 row(s) prioritised; 11 selected.
 Shropshire,12,5,0,7,0,,12,Shrewsbury,SCENARIO_3_MANUAL_SELECTION_APPLIED,Shropshire manual_select applied additively: 3 row(s) prioritised; 12 selected.
 Somerset,10,6,0,4,0,,10,Taunton,SCENARIO_3_MANUAL_SELECTION_APPLIED,Somerset manual_select applied additively: 1 row(s) prioritised; 10 selected.
-Staffordshire,18,12,0,6,1,,18,Stafford,SCENARIO_3_MANUAL_SELECTION_APPLIED,Staffordshire manual_select applied additively: 3 row(s) prioritised; 18 selected.
+Staffordshire,19,13,0,6,0,,19,Stafford,SCENARIO_3_MANUAL_SELECTION_APPLIED,Staffordshire manual_select applied additively: 4 row(s) prioritised; 19 selected.
 Suffolk,11,6,0,5,0,,11,Ipswich,SCENARIO_3_MANUAL_SELECTION_APPLIED,Suffolk manual_select applied additively: 2 row(s) prioritised; 11 selected.
 West Midlands - Birmingham & Solihull,15,9,5,1,0,,15,Birmingham,SCENARIO_3_MANUAL_SELECTION_APPLIED,West Midlands - Birmingham & Solihull manual_select applied additively: 2 row(s) prioritised; 15 selected.
 West Midlands - Black Country,7,7,0,0,0,,7,Wolverhampton,SCENARIO_3_MANUAL_SELECTION_APPLIED,West Midlands - Black Country manual_select applied additively: 2 row(s) prioritised; 7 selected.

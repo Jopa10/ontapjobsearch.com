@@ -1,7 +1,7 @@
 ﻿metric,value
 total rows input,10000
-total rows included,834
-total rows dropped,9160
+total rows included,835
+total rows dropped,9163
 title classification count - HIGH_CONFIDENCE,659
 title classification count - ELASTIC_FIT,396
 title classification count - REVIEW_CONTEXT_DEPENDENT,0
@@ -312,13 +312,13 @@ other elastic count - Somerset,4
 total rows output - Somerset,10
 job_id included - Somerset,23643_225466290; 23643_225460309; 23643_225468680; 107861789; 107742675; 23643_225532752; 107830253; 107857540; 107866477; 107804771
 selection scenario - Staffordshire,SCENARIO_3_MANUAL_SELECTION_APPLIED
-selection message - Staffordshire,Staffordshire manual_select applied additively: 3 row(s) prioritised; 18 selected.
-credible total - Staffordshire,18
+selection message - Staffordshire,Staffordshire manual_select applied additively: 4 row(s) prioritised; 19 selected.
+credible total - Staffordshire,19
 high confidence count - Staffordshire,10
 anchor elastic count - Staffordshire,0
 other elastic count - Staffordshire,5
-total rows output - Staffordshire,18
-job_id included - Staffordshire,23643_225439422; 23643_225538712; 23643_225526372; 23643_225445309; 23643_225452979; 23643_225462046; 23643_225464304; 23643_225480317; 23643_225478358; 23643_225520846; 23643_225527666; 23643_225537967; 23643_225538781; 23643_225450232; 23643_225471384; 107793245; 107906527; 107665691
+total rows output - Staffordshire,19
+job_id included - Staffordshire,23643_225439422; 23643_225538712; 23643_225543588; 23643_225526372; 23643_225445309; 23643_225452979; 23643_225462046; 23643_225464304; 23643_225480317; 23643_225478358; 23643_225520846; 23643_225527666; 23643_225537967; 23643_225538781; 23643_225450232; 23643_225471384; 107793245; 107906527; 107665691
 selection scenario - Suffolk,SCENARIO_3_MANUAL_SELECTION_APPLIED
 selection message - Suffolk,Suffolk manual_select applied additively: 2 row(s) prioritised; 11 selected.
 credible total - Suffolk,11
