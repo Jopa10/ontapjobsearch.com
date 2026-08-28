@@ -2,15 +2,27 @@
 
 review_date: 2026-08-28
 
-- Open Administrative & Clerical rows reviewed: 2550
-- Auto/remembered selected: 608
+- Open Administrative & Clerical rows reviewed: 2549
+- Auto/remembered selected: 607
 - Selected HC Tier A: 258
-- Selected HC Tier B: 350
-- POSS awaiting decision: 1601
+- Selected HC Tier B: 349
+- POSS awaiting decision: 1600
 - Excluded: 0
-- HARD_PASS: 341
+- HARD_PASS: 342
 
 Edit only each `action:` line for POSS rows. Unchanged decisions are restored by the shared decision ledger.
+
+---
+action:
+POSS | NHS Jobs | Surrey | Woking, GU21 5BH | £13000.00 | Non Executive Director - Audit, Risk and Finance
+source_job_id: 5565920
+title: Non Executive Director - Audit, Risk and Finance
+employer: CSH Surrey
+region: Surrey
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/B9074-26-0061
+factual_fingerprint: 85cf460e8d7dea6b636e512ed07ed229f535c2e43f4b460cde313af868d94c6b
+---
 
 ---
 action:
@@ -7766,18 +7778,6 @@ factual_fingerprint: 4d6a7969fb69e1cc7fe4720643d68fca45cb223ee896ce3bdab42833788
 
 ---
 action:
-POSS | NHS Jobs | London | London, SW18 3HS | £34186.00 to £37389.00 | Medical Secretarial Administrator
-source_job_id: 5559327
-title: Medical Secretarial Administrator
-employer: Oxleas NHS Foundation Trust
-region: London
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9277-26-0867
-factual_fingerprint: d4bb7179dd014364dcdc0da2bc82ab368d2e38674842239cca1d87c6f4542e28
----
-
----
-action:
 POSS | NHS Jobs | Bristol & Bath | Bristol, BS2 8HW | £28392.00 to £31157.00 | Personal Assistant/Rota Co-ordinator
 source_job_id: 5559680
 title: Personal Assistant/Rota Co-ordinator
@@ -15478,18 +15478,6 @@ region: North Wales - East
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/H9050-26-1875
 factual_fingerprint: 5493e703803454d8cd78a9e00074c933f34c53773db9b5f5c7c372be7f676a82
----
-
----
-action:
-POSS | NHS Jobs | London | london, SW17 0QT | £38488.00 to £46852.00 | Paediatric Diabetes Care Coordinator
-source_job_id: 5543334
-title: Paediatric Diabetes Care Coordinator
-employer: St George's University Hospitals NHS Foundation Trust
-region: London
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9200-26-0771
-factual_fingerprint: c0262dadc1d726046361c3e5dd6e43f5fb376bcc862eed407471317e2889aa4f
 ---
 
 ---
