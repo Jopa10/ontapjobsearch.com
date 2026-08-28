@@ -47,6 +47,25 @@ class LiveJob:
 
 
 @dataclass(frozen=True)
+class LivePlacement:
+    canonical_job_id: str
+    job_id: str
+    region: str
+    category: str
+    source: str
+    source_file: str
+
+
+@dataclass(frozen=True)
+class LiveInventory:
+    jobs: list[LiveJob]
+    placements: list[LivePlacement]
+    job_json_files: int
+    duplicate_rows_ignored: int
+    jobs_with_repeated_rows: int
+
+
+@dataclass(frozen=True)
 class CountResult:
     report_date: str
     total_live_jobs: int
@@ -169,12 +188,35 @@ def collect_live_jobs(
     now: datetime | None = None,
 ) -> tuple[list[LiveJob], int, int]:
     """Return unique live jobs, job JSON file count and ignored duplicate row count."""
+    inventory = collect_live_inventory(app_dir, as_of=as_of, now=now)
+    return (
+        inventory.jobs,
+        inventory.job_json_files,
+        inventory.duplicate_rows_ignored,
+    )
+
+
+def collect_live_inventory(
+    app_dir: Path,
+    *,
+    as_of: date | None = None,
+    now: datetime | None = None,
+) -> LiveInventory:
+    """Return canonical live jobs plus every published JSON placement.
+
+    ``jobs`` is deduplicated by source ID and the existing vacancy fingerprint.
+    ``placements`` retains every otherwise-valid live JSON row and points it at
+    that canonical job. This lets operational reports distinguish unique
+    inventory from legitimate appearances on more than one public slice.
+    """
     if not app_dir.is_dir():
         raise FileNotFoundError(f"Published app directory not found: {app_dir}")
 
     jobs: list[LiveJob] = []
+    placements: list[LivePlacement] = []
     seen_ids: dict[str, LiveJob] = {}
     seen_fingerprints: dict[tuple[str, str, str], LiveJob] = {}
+    placement_counts: Counter[str] = Counter()
     job_files: set[Path] = set()
     duplicate_rows_ignored = 0
 
@@ -202,29 +244,48 @@ def collect_live_jobs(
                     f"{job.source!r} in {job.source_file}"
                 )
             duplicate_rows_ignored += 1
-            continue
+            canonical = existing
+        else:
+            fingerprint = (
+                _canonical_apply_url(job.apply_url),
+                _normalise_text(job.title),
+                _normalise_text(job.location),
+            )
+            existing = seen_fingerprints.get(fingerprint)
+            if existing:
+                if existing.source != job.source:
+                    raise ValueError(
+                        "Conflicting sources for duplicate vacancy fingerprint: "
+                        f"{existing.source!r} in {existing.source_file} and "
+                        f"{job.source!r} in {job.source_file}"
+                    )
+                duplicate_rows_ignored += 1
+                canonical = existing
+            else:
+                seen_ids[job.job_id] = job
+                seen_fingerprints[fingerprint] = job
+                jobs.append(job)
+                canonical = job
 
-        fingerprint = (
-            _canonical_apply_url(job.apply_url),
-            _normalise_text(job.title),
-            _normalise_text(job.location),
+        placement_counts[canonical.job_id] += 1
+        placements.append(
+            LivePlacement(
+                canonical_job_id=canonical.job_id,
+                job_id=job.job_id,
+                region=job.region,
+                category=job.category,
+                source=job.source,
+                source_file=job.source_file,
+            )
         )
-        existing = seen_fingerprints.get(fingerprint)
-        if existing:
-            if existing.source != job.source:
-                raise ValueError(
-                    "Conflicting sources for duplicate vacancy fingerprint: "
-                    f"{existing.source!r} in {existing.source_file} and "
-                    f"{job.source!r} in {job.source_file}"
-                )
-            duplicate_rows_ignored += 1
-            continue
 
-        seen_ids[job.job_id] = job
-        seen_fingerprints[fingerprint] = job
-        jobs.append(job)
-
-    return jobs, len(job_files), duplicate_rows_ignored
+    return LiveInventory(
+        jobs=jobs,
+        placements=placements,
+        job_json_files=len(job_files),
+        duplicate_rows_ignored=duplicate_rows_ignored,
+        jobs_with_repeated_rows=sum(count > 1 for count in placement_counts.values()),
+    )
 
 
 def _provider_field(source: str) -> str:

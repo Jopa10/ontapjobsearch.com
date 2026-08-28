@@ -16,6 +16,7 @@ FAMILIES = (
     "marketing",
     "finance_accounts",
     "hr_recruitment",
+    "customer_service_contact_centre",
 )
 
 
@@ -53,6 +54,7 @@ def _snapshot_counts(
     marketing_counts: dict[str, int] | None = None,
     finance_counts: dict[str, int] | None = None,
     hr_counts: dict[str, int] | None = None,
+    customer_service_counts: dict[str, int] | None = None,
 ) -> dict[str, dict[str, int]]:
     counts: dict[str, dict[str, int]] = {}
     for region in sorted(regions, key=str.casefold):
@@ -69,6 +71,8 @@ def _snapshot_counts(
             counts[region]["finance_accounts"] = int(finance_counts[region])
         if hr_counts is not None:
             counts[region]["hr_recruitment"] = int(hr_counts[region])
+        if customer_service_counts is not None:
+            counts[region]["customer_service_contact_centre"] = int(customer_service_counts[region])
     return counts
 
 
@@ -82,6 +86,7 @@ def record_snapshot(
     marketing_counts: dict[str, int] | None = None,
     finance_counts: dict[str, int] | None = None,
     hr_counts: dict[str, int] | None = None,
+    customer_service_counts: dict[str, int] | None = None,
     *,
     path: Path = HISTORY_PATH,
 ) -> dict[str, Any]:
@@ -109,6 +114,7 @@ def record_snapshot(
                 marketing_counts,
                 finance_counts,
                 hr_counts,
+                customer_service_counts,
             ),
         }
     )

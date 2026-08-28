@@ -9,11 +9,7 @@ on:
       - pipeline/registers/region_category_slice_register.csv
       - pipeline/reports-daily/live-job-source-count-*.csv
       - pipeline/reports-daily/daily-family-coverage.csv
-      - app/_city-pages/configured-slices/**/customer-sales-jobs.json
-      - app/_city-pages/configured-slices/**/paralegal-jobs.json
-      - app/_city-pages/configured-slices/**/marketing-jobs.json
-      - app/_city-pages/configured-slices/**/finance-accounts-jobs.json
-      - app/_city-pages/configured-slices/**/hr-recruitment-jobs.json
+      - app/**/*.json
       - pipeline/scripts/build_daily_region_overview.py
       - pipeline/scripts/assess_daily_family_coverage.py
       - pipeline/scripts/daily_family_coverage_history.py
@@ -25,6 +21,10 @@ on:
       - Apply and publish Ontap daily review
     types:
       - completed
+
+concurrency:
+  group: build-daily-regional-overview
+  cancel-in-progress: true
 
 permissions:
   contents: write
