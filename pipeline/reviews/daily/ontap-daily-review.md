@@ -4,9 +4,9 @@
 > All active sources are current for 2026-08-28. You can start reviewing.
 
 review_date: 2026-08-28
-generated_at: 2026-08-28T09:39:12+00:00
+generated_at: 2026-08-28T19:35:06+00:00
 
-**24 job(s) need a human decision.**
+**21 job(s) need a human decision.**
 
 Edit only each `action:` line:
 - `action: select` = include the vacancy.
@@ -22,110 +22,94 @@ Edit only each `action:` line:
 | Source | Status | Review date | Needs review | Note |
 |---|---|---|---:|---|
 | JobG8 | OK | 2026-08-28 | 4 | — |
-| NEJobs | OK | 2026-08-28 | 1 | — |
+| NEJobs | OK | 2026-08-28 | 0 | — |
 | VONNE | OK | 2026-08-28 | 0 | — |
-| Teaching Vacancies | OK | 2026-08-28 | 19 | — |
+| Teaching Vacancies | OK | 2026-08-28 | 17 | — |
 | NHS Jobs | OK | 2026-08-28 | 0 | automatic Tier A/B publish; NHS POSS stays in the NHS-specific review and is optional |
 
 ## JobG8 — 4 to review
 
 ---
-action: exclude
-POSS | JobG8 | Dorset | Dorset | £200 per daily | Project Coordinator
+action:
+POSS | JobG8 | Buckinghamshire | Buckinghamshire | £20 - £21 per hour | Facilities Coordinator
 source_key: jobg8
 source: JobG8
 category: admin_service
-source_job_id: 107671295
-title: Project Coordinator
+source_job_id: 23643_225544622
+title: Facilities Coordinator
 employer: 
-location: Dorset
-region: Dorset
-salary: £200 per daily
+location: Buckinghamshire
+region: Buckinghamshire
+salary: £20 - £21 per hour
 closing_date: 
 reason: JobG8 selector marked this vacancy POSS
 source_url: 
-hub_fingerprint: 7d244c384ff821b3ac4c3bf81ffd38f44af2967aa261d77f9c2ce90e88fb430a
+hub_fingerprint: 378f2a4057f35fe1f837ab70a808da414e7c36cb58a520612ec3d11e863a0e8d
 ---
 
 ---
-action: exclude
-POSS | JobG8 | Dorset | Dorset | £40000 per year | Project Coordinator (Construction / Scaffolding / Renewables)
+action:
+POSS | JobG8 | Greater Manchester - Manchester & Salford | Manchester | £40000 per year | HR Systems and reporting coordinator
 source_key: jobg8
 source: JobG8
 category: admin_service
-source_job_id: 107724530
-title: Project Coordinator (Construction / Scaffolding / Renewables)
+source_job_id: 107899847
+title: HR Systems and reporting coordinator
 employer: 
-location: Dorset
-region: Dorset
+location: Manchester
+region: Greater Manchester - Manchester & Salford
 salary: £40000 per year
 closing_date: 
 reason: JobG8 selector marked this vacancy POSS
 source_url: 
-hub_fingerprint: b24a2265b2932891fe1e7dce7fd5d29db5816eb4eecd946ea89685b82515f157
+hub_fingerprint: 68df80c0d1d7bee93dc4fa96e5e8918a38d9b8627815fab5523aa296765a1f8b
 ---
 
 ---
-action: exclude
-POSS | JobG8 | Essex | Essex | £40000 per year | QUALITY & PROCESS COORDINATOR
+action:
+POSS | JobG8 | London | Sutton | £25000 - £40000 per year | Goods Inwards / Administration Coordinator
 source_key: jobg8
 source: JobG8
 category: admin_service
-source_job_id: 1713560
-title: QUALITY & PROCESS COORDINATOR
+source_job_id: 23643_225545259
+title: Goods Inwards / Administration Coordinator
 employer: 
-location: Essex
-region: Essex
-salary: £40000 per year
+location: Sutton
+region: London
+salary: £25000 - £40000 per year
 closing_date: 
 reason: JobG8 selector marked this vacancy POSS
 source_url: 
-hub_fingerprint: d4fd22ba1f7d4f913839e6e494d6695d0e1e29a69f33f18fe71201c67e4270c2
+hub_fingerprint: 354ca0c6fc172291ddc80cbc17dcb1e3600e43afe2ce404980ca64822d8d1657
 ---
 
 ---
-action: select
-POSS | JobG8 | Staffordshire | Staffordshire | £30000 - £35000 per year | Operations Administrator - Stock & Logistics
+action:
+POSS | JobG8 | West Midlands - Coventry & Warwickshire | Warwickshire | £30002 per year | Service Delivery Coordinator
 source_key: jobg8
 source: JobG8
 category: admin_service
-source_job_id: 23643_225543588
-title: Operations Administrator - Stock & Logistics
+source_job_id: 23643_225435656
+title: Service Delivery Coordinator
 employer: 
-location: Staffordshire
-region: Staffordshire
-salary: £30000 - £35000 per year
+location: Warwickshire
+region: West Midlands - Coventry & Warwickshire
+salary: £30002 per year
 closing_date: 
 reason: JobG8 selector marked this vacancy POSS
 source_url: 
-hub_fingerprint: 615ad690d9f8d23953f1313cf29ff3a326567ace7a261df7eff4944016e7fe6e
+hub_fingerprint: 1db95a42a3b5f4d94abfab2aa254cba26801338ecab772efb07374c7b74ed34c
 ---
 
-## NEJobs — 1 to review
+## NEJobs — 0 to review
 
----
-action: select
-POSS | NEJobs | North East - Tyneside, Wearside & Northumberland | Eddie Ferguson House, Blyth,… | £32,578 - £35,570 | Tenant Engagement Officer
-source_key: nejobs
-source: NEJobs
-category: admin_service
-source_job_id: 301243
-title: Tenant Engagement Officer
-employer: Northumberland County Coun…
-location: Eddie Ferguson House, Blyth,…
-region: North East - Tyneside, Wearside & Northumberland
-salary: £32,578 - £35,570
-closing_date: 20/09/2026
-reason: annualised upper salary £35,570 exceeds North East review point £30,000
-source_url: https://www.northeastjobs.org.uk/job/Tenant_Engagement_Officer/301243
-hub_fingerprint: 55fa0a81f5c8619f4d5c4619ac26b5d165cfafe2785d74f5e861387cab73659f
----
+_No new or changed human decisions required._
 
 ## VONNE — 0 to review
 
 _No new or changed human decisions required._
 
-## Teaching Vacancies — 19 to review
+## Teaching Vacancies — 17 to review
 
 ---
 action: select
@@ -147,24 +131,6 @@ hub_fingerprint: 0a71f4f2e22076be381864c77e031a679d81e0b596f18446520d12115e40c4c
 
 ---
 action: select
-POSS | Teaching Vacancies | Cambridgeshire | Huntingdon, PE28 5TQ | £32,061.00 Annually (Actual) | Marketing & Communications Officer
-source_key: teaching_vacancies
-source: Teaching Vacancies
-category: admin_service
-source_job_id: marketing-communications-officer-2a432f35-1c7d-4c5e-90a3-e035ce925749
-title: Marketing & Communications Officer
-employer: Meridian Trust
-location: Huntingdon, PE28 5TQ
-region: Cambridgeshire
-salary: £32,061.00 Annually (Actual)
-closing_date: 2026-09-16T08:00:00+01:00
-reason: Borderline school administration title: communications officer
-source_url: https://teaching-vacancies.service.gov.uk/jobs/marketing-communications-officer-2a432f35-1c7d-4c5e-90a3-e035ce925749
-hub_fingerprint: 145b23dd3c74d385cba0a56aa77da35465248529dfc79df0811446a199ed1b5b
----
-
----
-action: select
 POSS | Teaching Vacancies | Essex | Braintree, East of England, CM7 1WY | Scale 3, Point 4 – 5 | Receptionist
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -179,24 +145,6 @@ closing_date: 2026-08-30T23:59:00+01:00
 reason: Possible JobG8 duplicate requires review
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-notley-high-school-and-braintree-sixth-form-braintree-essex
 hub_fingerprint: f6b5a99b3a8eabb860c3eabbe8fa23a486f48b7931c13df53e8d146981ad93a1
----
-
----
-action: select
-POSS | Teaching Vacancies | Hampshire | Portsmouth, South East, PO1 5PF | TSAT Pay Group 3 pro rata to £23,701 - £27,506 for hours and weeks stated (£26,866 - £31,179 FTE) | Senior Administration Assistant
-source_key: teaching_vacancies
-source: Teaching Vacancies
-category: admin_service
-source_job_id: senior-administration-assistant-the-portsmouth-academy
-title: Senior Administration Assistant
-employer: The Portsmouth Academy
-location: Portsmouth, South East, PO1 5PF
-region: Hampshire
-salary: TSAT Pay Group 3 pro rata to £23,701 - £27,506 for hours and weeks stated (£26,866 - £31,179 FTE)
-closing_date: 2026-09-01T23:59:00+01:00
-reason: Administrative duties evidenced in description
-source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-administration-assistant-the-portsmouth-academy
-hub_fingerprint: b51ef4500ba7502c994d9f0bd527b01dd86d7c7f108a9b0985450a7a02fc0537
 ---
 
 ---
@@ -237,24 +185,6 @@ hub_fingerprint: 2cb63b58beb5bae384e9e052e7d9410c3f0dc582b6d8cca6b7a6e00b205fa43
 
 ---
 action: select
-POSS | Teaching Vacancies | Lincolnshire | Grimsby, Yorkshire and the Humber, DN31 2ES | £25,185.00 - £25,989.00 Annually (FTE) Grade C Points 4 to 6 (£25,185 to £25,989 Full Time Equivalent) subject to pro rata. The minimum actual pro rata salary per annum for this job starts at £21,758.06. | Administration Officer
-source_key: teaching_vacancies
-source: Teaching Vacancies
-category: admin_service
-source_job_id: administration-officer-macaulay-primary-academy
-title: Administration Officer
-employer: Macaulay Primary Academy
-location: Grimsby, Yorkshire and the Humber, DN31 2ES
-region: Lincolnshire
-salary: £25,185.00 - £25,989.00 Annually (FTE) Grade C Points 4 to 6 (£25,185 to £25,989 Full Time Equivalent) subject to pro rata. The minimum actual pro rata salary per annum for this job starts at £21,758.06.
-closing_date: 2026-09-02T23:59:00+01:00
-reason: Administrative duties evidenced in description
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-officer-macaulay-primary-academy
-hub_fingerprint: e460dc3abc1a9d40f396210a6e6bded4ec394c1efd846100517457068114f5ee
----
-
----
-action: select
 POSS | Teaching Vacancies | Lincolnshire | Spalding, East Midlands, PE11 2EH | £23,973.00 - £26,409.00 Annually (Actual) G5.12-15 £27,254 - £30,024 FTE | HR Administrator
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -269,6 +199,24 @@ closing_date: 2026-09-07T23:59:00+01:00
 reason: Possible JobG8 duplicate requires review
 source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-tulip-academy
 hub_fingerprint: 49188d67866c546cc12434263960a78ecc42aedcb4669b54e7c0abc7f608016f
+---
+
+---
+action:
+POSS | Teaching Vacancies | London | Beckenham, London, BR3 1RF | £29,856.00 - £31,611.00 Annually (FTE) | Administration Officer
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: administration-officer-worsley-bridge-primary-school-beckenham-kent
+title: Administration Officer
+employer: Worsley Bridge Primary School
+location: Beckenham, London, BR3 1RF
+region: London
+salary: £29,856.00 - £31,611.00 Annually (FTE)
+closing_date: 2026-09-17T12:00:00+01:00
+reason: Administrative duties evidenced in description
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-officer-worsley-bridge-primary-school-beckenham-kent
+hub_fingerprint: a76df3cd94f8644b3a8afd5a6a516e8fc3af1fb1efb0f23662a69fe147fc373d
 ---
 
 ---
@@ -417,24 +365,6 @@ hub_fingerprint: 792a44b1355bb882826eef20df22d3f839aa2537b64125da61f3107956d549c
 
 ---
 action: select
-POSS | Teaching Vacancies | Oxfordshire | Faringdon, South East, SN7 7LB | £25,185.00 - £25,584.00 Annually (FTE) Support Staff NJC grade 4, SCP 4-5. 37 hours per week/38 weeks per year. Actual annual salary in the region of £21,116.65 - £21,451.20 | Receptionist
-source_key: teaching_vacancies
-source: Teaching Vacancies
-category: admin_service
-source_job_id: receptionist-faringdon-community-college-faringdon-oxfordshire
-title: Receptionist
-employer: Faringdon Community College
-location: Faringdon, South East, SN7 7LB
-region: Oxfordshire
-salary: £25,185.00 - £25,584.00 Annually (FTE) Support Staff NJC grade 4, SCP 4-5. 37 hours per week/38 weeks per year. Actual annual salary in the region of £21,116.65 - £21,451.20
-closing_date: 2026-08-28T12:00:00+01:00
-reason: Possible JobG8 duplicate requires review
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-faringdon-community-college-faringdon-oxfordshire
-hub_fingerprint: 08f6053263c1a6101e06492181ee0bd18df9b610e3d2b6475d560f92c2a2c99d
----
-
----
-action: select
 POSS | Teaching Vacancies | Oxfordshire | Oxford, South East, OX3 9WN | £26,824.00 Annually (FTE) Actual annual salary is £12,016 for 19.5 hours per week term time only plus 3 inset days | Office Administrator
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -449,6 +379,24 @@ closing_date: 2026-09-04T12:00:00+01:00
 reason: Possible JobG8 duplicate requires review
 source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-barton-park-primary-school
 hub_fingerprint: 5ac2163c06159d1e25b77086c07e93aabb73a2d59fba3834fb30daa930206311
+---
+
+---
+action:
+POSS | Teaching Vacancies | Wiltshire | Chippenham, South West, SN14 0QT | £29,064.00 - £31,022.00 Annually (FTE) Actual Salary: £25,640 - £27,368 per annum | Admin Officer
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: admin-officer-queen-s-crescent-school
+title: Admin Officer
+employer: Queen's Crescent School
+location: Chippenham, South West, SN14 0QT
+region: Wiltshire
+salary: £29,064.00 - £31,022.00 Annually (FTE) Actual Salary: £25,640 - £27,368 per annum
+closing_date: 2026-09-01T12:00:00+01:00
+reason: Administrative duties evidenced in description
+source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-officer-queen-s-crescent-school
+hub_fingerprint: b26a1f91da9bd30669a73843202f0f910517397544fd38db19cc8ca785f62af1
 ---
 
 ---
