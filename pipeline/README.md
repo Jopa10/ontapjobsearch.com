@@ -35,15 +35,15 @@ That helper downloads the current feed with retries, clears stale spreadsheet in
 
 Do not add another copy of the download/adapter shell sequence to a workflow. Extend the shared materializer instead.
 
-## Daily 78-market UK family coverage
+## Daily 78-market UK family coverage and live-site reconciliation
 
-The Service Admin / Support Worker / Customer Sales diagnostic assessment is part of `.github/workflows/run-full-jobg8-daily-process.yml`, so it uses the exact same materialized JobG8 workbook as the production family run rather than downloading a later copy of the feed.
+The eight-family diagnostic assessment is part of `.github/workflows/run-full-jobg8-daily-process.yml`, so it uses the exact same materialized JobG8 workbook as the production family run rather than downloading a later copy of the feed. The families are Service Admin, Support Worker, Customer Sales / Sales Advisor, Paralegal, Marketing, Finance / Accounts, HR / Recruitment and Customer Service / Contact Centre.
 
 `scripts/assess_daily_family_coverage.py` imports the config-driven production family wrappers, reuses persistent JobG8 review decisions and governed family rules, resolves factual locations through `geo/geo_lookup.xlsx`, and assesses the complete set in `config/uk_assessable_regions.json`. That file contains **78 assessable UK markets**: **58 England + 10 Scotland + 8 Wales + 2 Northern Ireland**. `config/england_assessable_regions.json` remains the verified England subset/reference. `North East` is the deliberate roll-up of all three underlying North East lookup regions, including Tees Valley; other exact safe aliases are also rolled up, while ambiguous generic geography is not force-assigned.
 
 The diagnostic writes `reports-daily/daily-family-coverage.csv` and updates rolling diagnostic history only. It does **not** change the slice register, production family JSON, LIVE status or public routes. A market may therefore be assessed even when no public slice exists for it.
 
-`.github/workflows/build-daily-region-overview.yml` remains the recurring owner of `reports-daily/daily-region-overview.md`. It builds LIVE state from published/configured data and applies the already committed same-feed 78-market UK family coverage to NOT LIVE cells. Service Admin, Support Worker and Customer Sales / Sales Advisor all use this recurring diagnostic evidence. A numeric zero means assessed zero, not unassessed.
+`.github/workflows/build-daily-region-overview.yml` remains the recurring owner of `reports-daily/daily-region-overview.md`. LIVE counts and the sitewide reconciliation come directly from current published `app/**/*.json`; NOT LIVE cells use the already committed same-feed 78-market family coverage. The report separates unique inventory from regional/category slice placements, shows dynamic provider totals, jobs on multiple slices and extra placements, and flags a dated source-count CSV when it is stale. Any published app JSON change triggers a concurrency-controlled refresh, including external-only updates and future providers such as WhatJobs. A numeric zero means assessed zero, not unassessed.
 
 ## External sources
 

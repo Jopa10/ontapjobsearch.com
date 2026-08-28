@@ -9,6 +9,7 @@ from pathlib import Path
 from pipeline.scripts.live_job_source_counter import (
     build_reports,
     canonical_source,
+    collect_live_inventory,
     collect_live_jobs,
 )
 
@@ -104,6 +105,13 @@ class LiveJobSourceCounterTests(unittest.TestCase):
             self.assertEqual(result.source_counts["VONNE"], 1)
             self.assertEqual(result.job_json_files, 2)
             self.assertEqual(result.duplicate_rows_ignored, 2)
+            inventory = collect_live_inventory(app)
+            self.assertEqual(len(inventory.placements), 6)
+            self.assertEqual(inventory.jobs_with_repeated_rows, 1)
+            self.assertEqual(
+                [placement.canonical_job_id for placement in inventory.placements].count("jobg8-1"),
+                3,
+            )
             self.assertTrue(result.daily_report_path.exists())
             self.assertTrue(result.history_path.exists())
 

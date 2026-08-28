@@ -16,6 +16,7 @@ from . import finance_accounts_pipeline as finance
 from . import legal_assistant_pipeline as legal
 from . import marketing_pipeline as marketing
 from . import hr_recruitment_pipeline as hr
+from . import registered_category_pipeline as customer_service
 from . import persistent_jobg8_review as persistence
 from . import service_admin_pipeline_live_config as admin_config
 from . import support_worker_pipeline_live_config as support_config
@@ -43,6 +44,7 @@ FAMILY_KEYS = (
     "marketing",
     "finance_accounts",
     "hr_recruitment",
+    "customer_service_contact_centre",
 )
 
 
@@ -466,6 +468,83 @@ def _assess_hr_recruitment(
     return feed_date, counts
 
 
+def _assess_customer_service(
+    regions: dict[str, dict[str, str]],
+) -> tuple[str, dict[str, int]]:
+    """Assess every UK market with the production exact-title CS boundary."""
+    category = "customer_service_contact_centre"
+    feed_path = customer_service.find_current_feed()
+    feed_date = resolve_feed_date(feed_path)
+    feed = customer_service.read_feed(feed_path)
+    columns = set(feed.columns)
+    required = {
+        customer_service.admin.COL["job_id"],
+        customer_service.admin.COL["title"],
+        customer_service.admin.COL["area"],
+        customer_service.admin.COL["location"],
+        customer_service.admin.COL["apply_url"],
+        customer_service.admin.COL["description"],
+    }
+    missing = sorted(required - columns)
+    if missing:
+        raise RuntimeError(
+            "Current JobG8 input missing Customer Service columns: " + ", ".join(missing)
+        )
+
+    titles = customer_service.load_titles(category)
+    area_map, fallback = customer_service.load_geo()
+    _regions, rollups = _load_region_config()
+    target_regions = set(regions)
+    counts = {region: 0 for region in regions}
+    seen_ids: dict[str, set[str]] = defaultdict(set)
+
+    for _, row in feed.iterrows():
+        title = customer_service.norm(row.get(customer_service.admin.COL["title"]))
+        if customer_service.key(title) not in titles:
+            continue
+
+        area = customer_service.norm(row.get(customer_service.admin.COL["area"]))
+        location = customer_service.norm(row.get(customer_service.admin.COL["location"]))
+        if customer_service.admin.area_is_unusable(area):
+            raw_region = fallback.get(customer_service.key(location), "")
+        else:
+            raw_region = area_map.get(customer_service.key(area), "")
+        candidate_regions = {
+            rollups.get(region, region)
+            for region in customer_service.candidate_regions(raw_region)
+        }
+
+        job_id = customer_service.norm(row.get(customer_service.admin.COL["job_id"]))
+        apply_url = customer_service.norm(row.get(customer_service.admin.COL["apply_url"]))
+        description = customer_service.norm(row.get(customer_service.admin.COL["description"]))
+        if (
+            not job_id
+            or not apply_url.lower().startswith("http")
+            or not customer_service.admin.clean_description(description)
+        ):
+            continue
+
+        salary_text, _salary_source = customer_service.admin.build_salary_details(row)
+        salary_period = customer_service.admin.normalise_salary_period(row)
+        for region in candidate_regions:
+            if region not in target_regions or job_id in seen_ids[region]:
+                continue
+            salary = customer_service.assess_salary(
+                salary_min=row.get(customer_service.admin.COL["salary_min"]),
+                salary_max=row.get(customer_service.admin.COL["salary_max"]),
+                salary_period=salary_period,
+                salary_text=salary_text,
+                region=region,
+                thresholds=customer_service.SALARY_THRESHOLDS,
+            )
+            if salary.corrupt or salary.review_required:
+                continue
+            seen_ids[region].add(job_id)
+            counts[region] += 1
+
+    return feed_date, counts
+
+
 def _write_coverage_csv(
     feed_date: str,
     regions: dict[str, dict[str, str]],
@@ -476,6 +555,7 @@ def _write_coverage_csv(
     marketing_counts: dict[str, int],
     finance_counts: dict[str, int],
     hr_counts: dict[str, int],
+    customer_service_counts: dict[str, int],
 ) -> None:
     OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
     with OUTPUT_PATH.open("w", encoding="utf-8-sig", newline="") as handle:
@@ -493,6 +573,7 @@ def _write_coverage_csv(
             writer.writerow({"feed_date": feed_date, "region": region, "family": "marketing", "selected_count": marketing_counts[region]})
             writer.writerow({"feed_date": feed_date, "region": region, "family": "finance_accounts", "selected_count": finance_counts[region]})
             writer.writerow({"feed_date": feed_date, "region": region, "family": "hr_recruitment", "selected_count": hr_counts[region]})
+            writer.writerow({"feed_date": feed_date, "region": region, "family": "customer_service_contact_centre", "selected_count": customer_service_counts[region]})
 
 
 def _load_coverage_csv() -> tuple[str, dict[str, dict[str, int]]]:
@@ -528,7 +609,14 @@ def _load_coverage_csv() -> tuple[str, dict[str, dict[str, int]]]:
             missing = sorted(assessable - present)
             raise RuntimeError(f"Coverage missing {family} region(s): " + ", ".join(missing))
 
-    for family in ("customer_sales", "legal_assistant_paralegal", "marketing", "finance_accounts", "hr_recruitment"):
+    for family in (
+        "customer_sales",
+        "legal_assistant_paralegal",
+        "marketing",
+        "finance_accounts",
+        "hr_recruitment",
+        "customer_service_contact_centre",
+    ):
         if not counts[family]:
             continue
         present = set(counts[family])
@@ -563,11 +651,12 @@ def _apply_to_overview(
     marketing_counts = counts["marketing"]
     finance_counts = counts["finance_accounts"]
     hr_counts = counts["hr_recruitment"]
+    customer_service_counts = counts.get("customer_service_contact_centre", {})
     sales_ready = bool(sales_counts)
     assessed_count = len(admin_counts)
 
     for line in lines:
-        if line.startswith("> LIVE Service Admin") or line.startswith("> LIVE counts reconcile"):
+        if line.startswith("> LIVE Service Admin") or line.startswith("> LIVE counts "):
             live_prefix = line.split(". NOT LIVE", 1)[0].rstrip(".")
             if sales_ready:
                 sales_note = (
@@ -582,9 +671,14 @@ def _apply_to_overview(
                 + f". NOT LIVE Service Admin and Support Worker were assessed from the same JobG8 daily feed ({feed_date}) used by the production family run, across {assessed_count} UK markets with the config-driven production wrappers, persistent review decisions and canonical geo."
                 + sales_note
                 + (
-                    f" NOT LIVE Paralegal, Marketing, Finance / Accounts and HR / Recruitment were assessed from that same feed across {len(legal_counts)}, {len(marketing_counts)}, {len(finance_counts)} and {len(hr_counts)} UK markets respectively, using their frozen production boundaries, content dedupe and canonical geo."
+                    f" NOT LIVE Paralegal, Marketing, Finance / Accounts and HR / Recruitment were assessed from that same feed across {len(legal_counts)}, {len(marketing_counts)}, {len(finance_counts)} and {len(hr_counts)} UK markets respectively, using their governed production boundaries and canonical geo."
                     if legal_counts and marketing_counts and finance_counts and hr_counts
-                    else " NOT LIVE Paralegal, Marketing, Finance / Accounts and HR / Recruitment remain `—` until the first seven-family coverage run."
+                    else " NOT LIVE Paralegal, Marketing, Finance / Accounts and HR / Recruitment remain `—` until their first persisted coverage run."
+                )
+                + (
+                    f" NOT LIVE Customer Service / Contact Centre was assessed from that same feed across {len(customer_service_counts)} UK markets using its governed exact-title, salary and geography rules."
+                    if customer_service_counts
+                    else " NOT LIVE Customer Service / Contact Centre temporarily retains the overview builder's latest Module 2 profile fallback until the first eight-family coverage run."
                 )
                 + " All diagnostic counts are evidence only and never activate a slice automatically. Rolling family history stores one snapshot per feed date, replaces same-date reruns, retains the latest 14 feed dates and is used only as decision evidence for NOT LIVE slices."
             )
@@ -603,7 +697,7 @@ def _apply_to_overview(
 
         if in_not_live and line.startswith("| ") and not line.startswith("| Region ") and not line.startswith("|---"):
             cells = [cell.strip() for cell in line.split("|")]
-            if len(cells) >= 10:
+            if len(cells) >= 11:
                 region = cells[1]
                 if region in admin_counts and region in support_counts:
                     cells[2] = "" if statuses.get((region, "admin_service"), "") == "LIVE" else coverage_history.format_metric(history, region, "service_admin", admin_counts[region], as_of_date=feed_date)
@@ -618,6 +712,8 @@ def _apply_to_overview(
                         cells[7] = "" if statuses.get((region, "finance_accounts"), "") == "LIVE" else coverage_history.format_metric(history, region, "finance_accounts", finance_counts[region], as_of_date=feed_date)
                     if region in hr_counts:
                         cells[8] = "" if statuses.get((region, "hr_recruitment"), "") == "LIVE" else coverage_history.format_metric(history, region, "hr_recruitment", hr_counts[region], as_of_date=feed_date)
+                    if region in customer_service_counts:
+                        cells[9] = "" if statuses.get((region, "customer_service_contact_centre"), "") == "LIVE" else coverage_history.format_metric(history, region, "customer_service_contact_centre", customer_service_counts[region], as_of_date=feed_date)
                     line = "| " + " | ".join(cells[1:-1]) + " |"
                     seen_regions.add(region)
         patched.append(line)
@@ -638,12 +734,23 @@ def build_coverage() -> tuple[str, dict[str, dict[str, int]]]:
     marketing_date, marketing_counts = _assess_new_family(marketing, "marketing", regions)
     finance_date, finance_counts = _assess_new_family(finance, "finance_accounts", regions)
     hr_date, hr_counts = _assess_hr_recruitment(regions)
-    dates = {admin_date, support_date, sales_date, legal_date, marketing_date, finance_date, hr_date}
+    customer_service_date, customer_service_counts = _assess_customer_service(regions)
+    dates = {
+        admin_date,
+        support_date,
+        sales_date,
+        legal_date,
+        marketing_date,
+        finance_date,
+        hr_date,
+        customer_service_date,
+    }
     if len(dates) != 1:
         raise RuntimeError(
             "Family assessment feed-date mismatch: "
             f"admin={admin_date}, support={support_date}, sales={sales_date}, "
-            f"legal={legal_date}, marketing={marketing_date}, finance={finance_date}, hr={hr_date}"
+            f"legal={legal_date}, marketing={marketing_date}, finance={finance_date}, "
+            f"hr={hr_date}, customer_service={customer_service_date}"
         )
     _write_coverage_csv(
         admin_date,
@@ -655,6 +762,7 @@ def build_coverage() -> tuple[str, dict[str, dict[str, int]]]:
         marketing_counts,
         finance_counts,
         hr_counts,
+        customer_service_counts,
     )
     coverage_history.record_snapshot(
         admin_date,
@@ -666,6 +774,7 @@ def build_coverage() -> tuple[str, dict[str, dict[str, int]]]:
         marketing_counts,
         finance_counts,
         hr_counts,
+        customer_service_counts,
     )
     return admin_date, {
         "service_admin": admin_counts,
@@ -675,6 +784,7 @@ def build_coverage() -> tuple[str, dict[str, dict[str, int]]]:
         "marketing": marketing_counts,
         "finance_accounts": finance_counts,
         "hr_recruitment": hr_counts,
+        "customer_service_contact_centre": customer_service_counts,
     }
 
 
@@ -695,7 +805,7 @@ def main() -> int:
 
     feed_date, _counts = build_coverage()
     print(
-        f"Wrote {OUTPUT_PATH}: {EXPECTED_REGION_COUNT} UK markets x 7 families for feed {feed_date}; "
+        f"Wrote {OUTPUT_PATH}: {EXPECTED_REGION_COUNT} UK markets x 8 families for feed {feed_date}; "
         f"updated {coverage_history.HISTORY_PATH}"
     )
     return 0

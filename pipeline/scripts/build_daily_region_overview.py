@@ -1,11 +1,19 @@
 from __future__ import annotations
 
+from collections import Counter, defaultdict
+from dataclasses import dataclass
 from datetime import datetime
 import csv
 import io
 import json
 from pathlib import Path
 import subprocess
+from zoneinfo import ZoneInfo
+
+try:
+    from .live_job_source_counter import LiveInventory, collect_live_inventory
+except ImportError:
+    from live_job_source_counter import LiveInventory, collect_live_inventory
 
 
 PIPELINE_ROOT = Path(__file__).resolve().parents[1]
@@ -25,6 +33,7 @@ FAMILIES = (
         "profile_category": "admin_service",
         "candidate_dir": "output-admin-service",
         "candidate_pattern": "{slug}-admin-service.json",
+        "published_filenames": ("service-administrator-jobs.json",),
     },
     {
         "key": "support_worker",
@@ -35,6 +44,7 @@ FAMILIES = (
         "profile_category": "support_worker",
         "candidate_dir": "output-support-worker",
         "candidate_pattern": "{slug}-support-worker.json",
+        "published_filenames": ("support-worker.json", "support-worker-jobs.json"),
     },
     {
         "key": "sales_advisor",
@@ -46,6 +56,7 @@ FAMILIES = (
         "candidate_dir": "",
         "candidate_pattern": "",
         "published_slug": "customer-sales-jobs",
+        "published_filenames": ("customer-sales-jobs.json",),
     },
     {
         "key": "legal_assistant_paralegal",
@@ -57,6 +68,7 @@ FAMILIES = (
         "candidate_dir": "",
         "candidate_pattern": "",
         "published_slug": "paralegal-jobs",
+        "published_filenames": ("paralegal-jobs.json",),
     },
     {
         "key": "marketing",
@@ -68,6 +80,7 @@ FAMILIES = (
         "candidate_dir": "",
         "candidate_pattern": "",
         "published_slug": "marketing-jobs",
+        "published_filenames": ("marketing-jobs.json",),
     },
     {
         "key": "finance_accounts",
@@ -79,6 +92,7 @@ FAMILIES = (
         "candidate_dir": "",
         "candidate_pattern": "",
         "published_slug": "finance-accounts-jobs",
+        "published_filenames": ("finance-accounts-jobs.json",),
     },
     {
         "key": "hr_recruitment",
@@ -90,8 +104,51 @@ FAMILIES = (
         "candidate_dir": "",
         "candidate_pattern": "",
         "published_slug": "hr-recruitment-jobs",
+        "published_filenames": ("hr-recruitment-jobs.json",),
+    },
+    {
+        "key": "customer_service_contact_centre",
+        "label": "CS / Contact centre",
+        "register_category": "customer_service_contact_centre",
+        "source_category": "Customer Service / Contact Centre",
+        "decision_report": "",
+        "profile_category": "customer_service_contact_centre",
+        "candidate_dir": "",
+        "candidate_pattern": "",
+        "published_slug": "customer-service-jobs",
+        "published_filenames": ("customer-service-jobs.json",),
     },
 )
+
+FAMILY_BY_FILENAME = {
+    filename: family["key"]
+    for family in FAMILIES
+    for filename in family["published_filenames"]
+}
+
+
+@dataclass(frozen=True)
+class SourceReportSummary:
+    path: str
+    report_date: str
+    total_live_jobs: int
+
+
+@dataclass(frozen=True)
+class SiteInventorySummary:
+    report_date: str
+    unique_live_jobs: int
+    unique_jobg8_jobs: int
+    unique_external_jobs: int
+    provider_counts: dict[str, int]
+    provider_duplicate_jobs: dict[str, int]
+    provider_extra_placements: dict[str, int]
+    slice_counts: dict[tuple[str, str], int]
+    slice_placements: int
+    jobs_on_multiple_slices: int
+    extra_slice_placements: int
+    jobs_outside_governed_slices: int
+    non_live_slice_jobs: int
 
 
 def _load_json(path: Path):
@@ -163,22 +220,84 @@ def _latest_live_source_report() -> tuple[str, str]:
     return report_path, _git_show_main(report_path)
 
 
-def _load_live_counts() -> tuple[str, dict[tuple[str, str], int]]:
+def _load_source_report_summary() -> SourceReportSummary:
     report_path, text = _latest_live_source_report()
-    counts: dict[tuple[str, str], int] = {}
     reader = csv.DictReader(io.StringIO(text))
-    required = {"level", "region", "category", "count"}
+    required = {"report_date", "level", "source", "count"}
     if not reader.fieldnames or not required.issubset(reader.fieldnames):
         raise RuntimeError(f"Unexpected live source report header in {report_path}")
     for row in reader:
-        if (row.get("level") or "").strip() != "region_category":
+        if (
+            (row.get("level") or "").strip() == "total"
+            and (row.get("source") or "").strip() == "All"
+        ):
+            return SourceReportSummary(
+                path=report_path,
+                report_date=(row.get("report_date") or "").strip(),
+                total_live_jobs=int((row.get("count") or "0").strip()),
+            )
+    raise RuntimeError(f"No total/All row found in {report_path}")
+
+
+def _site_inventory_summary(
+    inventory: LiveInventory,
+    *,
+    report_date: str,
+    rollups: dict[str, str],
+    statuses: dict[tuple[str, str], str],
+) -> SiteInventorySummary:
+    jobs_by_id = {job.job_id: job for job in inventory.jobs}
+    placements: set[tuple[str, str, str]] = set()
+
+    for placement in inventory.placements:
+        family_key = FAMILY_BY_FILENAME.get(Path(placement.source_file).name)
+        if not family_key:
             continue
-        region = (row.get("region") or "").strip()
-        category = (row.get("category") or "").strip()
-        if not region or not category:
+        region = rollups.get(placement.region, placement.region)
+        placements.add((placement.canonical_job_id, region, family_key))
+
+    placement_counts = Counter(job_id for job_id, _region, _family in placements)
+    represented_jobs = set(placement_counts)
+    all_jobs = set(jobs_by_id)
+    outside = all_jobs - represented_jobs
+
+    duplicate_jobs_by_provider: Counter[str] = Counter()
+    extra_placements_by_provider: Counter[str] = Counter()
+    for job_id, count in placement_counts.items():
+        if count <= 1:
             continue
-        counts[(region, category)] = counts.get((region, category), 0) + int((row.get("count") or "0").strip())
-    return report_path, counts
+        provider = jobs_by_id[job_id].source
+        duplicate_jobs_by_provider[provider] += 1
+        extra_placements_by_provider[provider] += count - 1
+
+    slice_counts: Counter[tuple[str, str]] = Counter()
+    non_live_jobs: set[str] = set()
+    family_register = {family["key"]: family["register_category"] for family in FAMILIES}
+    for job_id, region, family_key in placements:
+        register_category = family_register[family_key]
+        if statuses.get((region, register_category), "") == "LIVE":
+            slice_counts[(region, family_key)] += 1
+        else:
+            non_live_jobs.add(job_id)
+
+    provider_counts = Counter(job.source for job in inventory.jobs)
+    unique_jobs = len(inventory.jobs)
+    unique_jobg8 = provider_counts.get("JobG8", 0)
+    return SiteInventorySummary(
+        report_date=report_date,
+        unique_live_jobs=unique_jobs,
+        unique_jobg8_jobs=unique_jobg8,
+        unique_external_jobs=unique_jobs - unique_jobg8,
+        provider_counts=dict(provider_counts),
+        provider_duplicate_jobs=dict(duplicate_jobs_by_provider),
+        provider_extra_placements=dict(extra_placements_by_provider),
+        slice_counts=dict(slice_counts),
+        slice_placements=len(placements),
+        jobs_on_multiple_slices=sum(count > 1 for count in placement_counts.values()),
+        extra_slice_placements=sum(count - 1 for count in placement_counts.values()),
+        jobs_outside_governed_slices=len(outside),
+        non_live_slice_jobs=len(non_live_jobs),
+    )
 
 
 def _live_count_for_market(
@@ -276,7 +395,7 @@ def build() -> str:
         raise RuntimeError(f"Could not load assessable region catalogue: {CATALOG}")
 
     statuses = _load_statuses()
-    source_report, live_counts = _load_live_counts()
+    source_report = _load_source_report_summary()
     _profile_report, profile_date, profile_counts = _load_latest_profile_counts()
     decision_counts = {
         family["key"]: _load_selected_counts(family["decision_report"])
@@ -291,6 +410,19 @@ def build() -> str:
         )
 
     rollups = {str(k): str(v) for k, v in catalog.get("detail_rollups", {}).items()}
+    london_now = datetime.now(ZoneInfo("Europe/London"))
+    report_date = london_now.date().isoformat()
+    inventory = collect_live_inventory(
+        REPO_ROOT / "app",
+        as_of=london_now.date(),
+        now=london_now,
+    )
+    site = _site_inventory_summary(
+        inventory,
+        report_date=report_date,
+        rollups=rollups,
+        statuses=statuses,
+    )
     teaching_counts = _load_teaching_vacancies_counts(regions)
 
     def profile_count(region_name: str, category: str) -> int | None:
@@ -309,17 +441,7 @@ def build() -> str:
         for family in FAMILIES:
             status = statuses.get((region_name, family["register_category"]), "")
             is_live = status == "LIVE"
-            if is_live and family.get("published_slug"):
-                live_count = _published_configured_count(slug, family["published_slug"])
-            elif is_live:
-                live_count = _live_count_for_market(
-                    live_counts,
-                    rollups,
-                    region_name,
-                    family["source_category"],
-                )
-            else:
-                live_count = 0
+            live_count = site.slice_counts.get((region_name, family["key"]), 0) if is_live else 0
 
             candidate_count: int | None = None
             candidate_source = ""
@@ -344,17 +466,72 @@ def build() -> str:
             }
         rows.append((region_name, slug, family_state))
 
+    source_report_status = (
+        "CURRENT"
+        if source_report.report_date == site.report_date
+        and source_report.total_live_jobs == site.unique_live_jobs
+        else (
+            f"STALE — CSV says {source_report.total_live_jobs:,} for "
+            f"{source_report.report_date or 'unknown date'}"
+        )
+    )
+    provider_rows = []
+    for provider, count in sorted(
+        site.provider_counts.items(),
+        key=lambda item: (item[0] != "JobG8", item[0].casefold()),
+    ):
+        provider_rows.append(
+            f"| {provider} | {count:,} | "
+            f"{site.provider_duplicate_jobs.get(provider, 0):,} | "
+            f"{site.provider_extra_placements.get(provider, 0):,} |"
+        )
+
+    header = "| Region | " + " | ".join(family["label"] for family in FAMILIES) + " |"
+    divider = "|---|" + "---:|" * len(FAMILIES)
+
     lines = [
         "# Ontap daily regional overview",
         "",
-        f"Generated: {datetime.now().astimezone().isoformat(timespec='seconds')}",
+        f"Generated: {london_now.isoformat(timespec='seconds')}",
         "",
-        f"> LIVE Service Admin and Support Worker counts reconcile to `{source_report}` on `main`, with factual detail/alias regions rolled into their canonical 78-market UK region before the LIVE table and headline are totalled. LIVE Sales Advisor, Paralegal, Marketing, Finance / Accounts and HR / Recruitment counts come from their current published configured-slice JSON on `main`. The overview covers all {EXPECTED_REGION_COUNT} assessable UK markets; LIVE status remains controlled only by the slice register. Before same-feed 78-market coverage has run, NOT LIVE Admin/Support may fall back to the latest all-region Module 2 profile ({profile_date or 'unavailable'}), and Service Admin may also add current Teaching Vacancies regional candidate output. `—` means not assessed / no current source; it does NOT mean zero.",
+        "## SITEWIDE RECONCILIATION",
+        "",
+        "| Measure | Count |",
+        "|---|---:|",
+        f"| Unique live jobs | {site.unique_live_jobs:,} |",
+        f"| Unique JobG8 jobs | {site.unique_jobg8_jobs:,} |",
+        f"| Unique non-JobG8 jobs | {site.unique_external_jobs:,} |",
+        f"| Regional/category slice placements | {site.slice_placements:,} |",
+        f"| Jobs appearing on multiple slices | {site.jobs_on_multiple_slices:,} |",
+        f"| Extra slice placements | {site.extra_slice_placements:,} |",
+        f"| Unique jobs outside governed slices | {site.jobs_outside_governed_slices:,} |",
+        f"| Jobs found in non-LIVE slices | {site.non_live_slice_jobs:,} |",
+        "",
+        (
+            f"**Reconciliation: {site.unique_live_jobs:,} unique jobs + "
+            f"{site.extra_slice_placements:,} extra slice placements = "
+            f"{site.slice_placements:,} regional/category slice placements.**"
+            if site.jobs_outside_governed_slices == 0
+            else (
+                f"**CHECK: {site.jobs_outside_governed_slices:,} unique jobs are not represented "
+                "on a governed regional/category slice.**"
+            )
+        ),
+        "",
+        f"Latest source-count CSV: `{source_report.path}` — **{source_report_status}**.",
+        "",
+        "### Provider breakdown",
+        "",
+        "| Provider | Unique live jobs | Jobs on 2+ slices | Extra slice placements |",
+        "|---|---:|---:|---:|",
+        *provider_rows,
+        "",
+        f"> LIVE counts come directly from the current published `app/` JSON, deduplicated within each canonical region/family slice while preserving legitimate appearances in more than one family. This is the live-site authority for the reconciliation above; the dated source-count CSV is shown only as a freshness cross-check. The overview covers all {EXPECTED_REGION_COUNT} assessable UK markets; LIVE status remains controlled only by the slice register. Before same-feed 78-market coverage has run, NOT LIVE Admin/Support and Customer Service may fall back to the latest all-region Module 2 profile ({profile_date or 'unavailable'}), and Service Admin may also add current Teaching Vacancies regional candidate output. `—` means not assessed / no current source; it does NOT mean zero.",
         "",
         "## LIVE",
         "",
-        "| Region | Service admin | Support worker | Sales advisor | Paralegal | Marketing | Finance / Accounts | HR / Recruitment |",
-        "|---|---:|---:|---:|---:|---:|---:|---:|",
+        header,
+        divider,
     ]
 
     for region_name, _slug, state in rows:
@@ -369,7 +546,7 @@ def build() -> str:
                 live_cells.append(str(item["live_count"]))
         lines.append(f"| {region_name} | " + " | ".join(live_cells) + " |")
 
-    lines.extend(["", "## NOT LIVE", "", "| Region | Service admin | Support worker | Sales advisor | Paralegal | Marketing | Finance / Accounts | HR / Recruitment |", "|---|---:|---:|---:|---:|---:|---:|---:|"])
+    lines.extend(["", "## NOT LIVE", "", header, divider])
     for region_name, _slug, state in rows:
         cells = []
         for family in FAMILIES:
@@ -402,10 +579,10 @@ def build() -> str:
 
     lines.extend([
         "", "## HEADLINE", "",
-        "| Measure | Service admin | Support worker | Sales advisor | Paralegal | Marketing | Finance / Accounts | HR / Recruitment |",
-        "|---|---:|---:|---:|---:|---:|---:|---:|",
+        "| Measure | " + " | ".join(family["label"] for family in FAMILIES) + " |",
+        "|---|" + "---:|" * len(FAMILIES),
         "| Live regions | " + " | ".join(f"{live_regions[f['key']]} / {EXPECTED_REGION_COUNT}" for f in FAMILIES) + " |",
-        "| Live jobs | " + " | ".join(headline_value(f["key"]) for f in FAMILIES) + " |",
+        "| Live slice placements | " + " | ".join(headline_value(f["key"]) for f in FAMILIES) + " |",
         "", f"**Live slices: {total_live_slices} / {total_possible}.**", "",
     ])
     return "\n".join(lines)
