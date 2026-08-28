@@ -8,15 +8,4 @@ Use `action: approve` to launch that city page, or leave `action:` blank to hold
 Do not edit the technical city-page register; it is generated from this approval.
 A city appears here only after the opportunity process marks it READY FOR APPROVAL.
 
-## READY FOR APPROVAL (1)
-
----
-action: 
-status: READY FOR APPROVAL
-city: Wakefield
-region: west-yorkshire
-slice: service-administrator-jobs
-current_jobs: 6
-qualifying_runs: 6/3
-last_pipeline_runs: 10, 6, 7, 3, 6, 6, 6
----
+## READY FOR APPROVAL (0)
