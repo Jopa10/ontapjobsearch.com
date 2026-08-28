@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Northamptonshire
 
 review_date: 2026-08-28
-review_fingerprint: 990a52c1de753e5ac761d3182e3471bb40382c354a084aebaabb68c4133f13a0
-routing_manifest_sha256: 317da4c3580a017af1ca5a40549214600dbbe16fe90e5315b920822a2f47f1ee
+review_fingerprint: fcd44a33ee51f4027be7314728c9514dea5236832e6d5deaec9c0d924b38c90d
+routing_manifest_sha256: 319c5a159b13cd15a9073bbd5d31193b7d3aeabc88d7df4944052f911468430b
 ontap_region: Northamptonshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 8
-- Selected: 4
+- Records: 7
+- Selected: 3
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 4
@@ -49,21 +49,6 @@ factual_fingerprint: c0bebdbecc75f67eead992acddb4bef3f818090c26a3a43fc6b8a897324
 source: Teaching Vacancies
 source_job_id: attendance-officer-studfall-infant-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-studfall-infant-academy
----
-
----
-action: 
-SELECTED | Northamptonshire | Wellingborough, East Midlands, NN8 3QA | £24,796.00 - £25,185.00 Annually (FTE) | Receptionist
-employer: Olympic Primary
-closing_date: 2026-08-28T15:00:00+01:00
-reason: Clear admin/service title: receptionist
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: f2cb44dce38925f9be6515c7a1551d05615cab9dc6a66c65f34e0f03780c9c6b
-source: Teaching Vacancies
-source_job_id: receptionist-olympic-primary-wellingborough
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-olympic-primary-wellingborough
 ---
 
 ---

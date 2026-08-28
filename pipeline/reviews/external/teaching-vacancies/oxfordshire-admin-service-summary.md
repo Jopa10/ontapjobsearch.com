@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Oxfordshire
 
 review_date: 2026-08-28
-review_fingerprint: bb9146be60f2bc735e54349dd4b4d22ddc27f4a5e50c9812d682181dac363c39
-routing_manifest_sha256: 317da4c3580a017af1ca5a40549214600dbbe16fe90e5315b920822a2f47f1ee
+review_fingerprint: 7ace8e2060d43b52b4d342a0f350fd7bb8c37090a6fe8774313b8816ebb7ff34
+routing_manifest_sha256: 319c5a159b13cd15a9073bbd5d31193b7d3aeabc88d7df4944052f911468430b
 ontap_region: Oxfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 19
-- Selected: 10
-- POSS awaiting decision: 0
+- Records: 18
+- Selected: 8
+- POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 9
 
@@ -82,21 +82,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/inclusion-administrat
 ---
 
 ---
-action: select
-SELECTED | Oxfordshire | Oxford, South East, OX3 9WN | £26,824.00 Annually (FTE) Actual annual salary is £12,016 for 19.5 hours per week term time only plus 3 inset days | Office Administrator
-employer: Barton Park Primary School
-closing_date: 2026-09-04T12:00:00+01:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 6507fa5e4ea1f71f1a1f76eff33fba35fcf567d0ef52f77cff9d377bc363b4da
-source: Teaching Vacancies
-source_job_id: office-administrator-barton-park-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-barton-park-primary-school
----
-
----
 action: 
 SELECTED | Oxfordshire | Oxford, South East, OX3 0PG | £12,219.17 - £13,326.70 Annually (Actual) Grade 6 - Working a Wednesday, Thursday and Friday 8.30-15.30 (with a 30 min break) | Reception & Administrative Assistant
 employer: Meadowbrook College
@@ -109,21 +94,6 @@ factual_fingerprint: a17f33fa54a14a48f4b660265ba9bfbf537f47efe0b2898537e9091ba3e
 source: Teaching Vacancies
 source_job_id: reception-administrative-assistant-93d935ac-3894-44fe-84cc-ea67bd3c9571
 source_url: https://teaching-vacancies.service.gov.uk/jobs/reception-administrative-assistant-93d935ac-3894-44fe-84cc-ea67bd3c9571
----
-
----
-action: select
-SELECTED | Oxfordshire | Faringdon, South East, SN7 7LB | £25,185.00 - £25,584.00 Annually (FTE) Support Staff NJC grade 4, SCP 4-5. 37 hours per week/38 weeks per year. Actual annual salary in the region of £21,116.65 - £21,451.20 | Receptionist
-employer: Faringdon Community College
-closing_date: 2026-08-28T12:00:00+01:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 1112f08ada89de3e9857115888156174abb216efedb056c660f0368be2cd12bb
-source: Teaching Vacancies
-source_job_id: receptionist-faringdon-community-college-faringdon-oxfordshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-faringdon-community-college-faringdon-oxfordshire
 ---
 
 ---
@@ -173,7 +143,20 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/sixth-form-administra
 
 ## POSS — choose SELECT or EXCLUDE
 
-- None.
+---
+action: 
+POSS | Oxfordshire | Oxford, South East, OX3 9WN | £26,824.00 Annually (FTE) Actual annual salary is £12,016 for 19.5 hours per week term time only plus 3 inset days | Office Administrator
+employer: Barton Park Primary School
+closing_date: 2026-09-04T12:00:00+01:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: REVIEW_REQUIRED_DUPLICATE
+factual_fingerprint: 6507fa5e4ea1f71f1a1f76eff33fba35fcf567d0ef52f77cff9d377bc363b4da
+source: Teaching Vacancies
+source_job_id: office-administrator-barton-park-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-barton-park-primary-school
+---
 
 ## EXCLUDED BY REVIEW
 
@@ -181,8 +164,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/sixth-form-administra
 
 ## HARD_PASS
 
-- [Admin and Premises Assistant](https://teaching-vacancies.service.gov.uk/jobs/admin-and-premises-assistant-9d6fefc7-aa4d-4843-a7f1-fb8860efc481) — Insufficient admin/service evidence.
 - [Administration and Reception Assistant](https://teaching-vacancies.service.gov.uk/jobs/administration-and-reception-assistant-wheatley-church-of-england-primary-school) — Insufficient admin/service evidence.
+- [Admissions Manager](https://teaching-vacancies.service.gov.uk/jobs/admissions-manager-lord-williams-s-school) — Manager title salary ceiling £34,434 is not below £28,000.
 - [Chief Financial Officer](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-lord-williams-s-school-thame-oxfordshire) — Insufficient admin/service evidence.
 - [Data and Systems Lead](https://teaching-vacancies.service.gov.uk/jobs/data-and-systems-lead-acer-trust) — Insufficient admin/service evidence.
 - [Finance Manager (30 hrs p/w, term time only + 5 inset days + 4 weeks)](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-30-hrs-p-w-term-time-only-5-inset-days-4-weeks) — Manager title salary ceiling £49,282 is not below £28,000.

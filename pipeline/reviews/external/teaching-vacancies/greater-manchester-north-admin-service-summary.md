@@ -2,7 +2,7 @@
 
 review_date: 2026-08-28
 review_fingerprint: cf6e869445e55d78b550198621139c03425a71db92c46d998022c53a2835d9be
-routing_manifest_sha256: 317da4c3580a017af1ca5a40549214600dbbe16fe90e5315b920822a2f47f1ee
+routing_manifest_sha256: 319c5a159b13cd15a9073bbd5d31193b7d3aeabc88d7df4944052f911468430b
 ontap_region: Greater Manchester - North
 slice_category: admin_service
 slice_status: UNREGISTERED

@@ -2,7 +2,7 @@
 
 review_date: 2026-08-28
 review_fingerprint: bc6ef791662c462aed68bebf60af007c119d576665fb9cb8366e1d43c62cf515
-routing_manifest_sha256: 317da4c3580a017af1ca5a40549214600dbbe16fe90e5315b920822a2f47f1ee
+routing_manifest_sha256: 319c5a159b13cd15a9073bbd5d31193b7d3aeabc88d7df4944052f911468430b
 ontap_region: Greater Manchester - South
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 3
+- Records: 4
 - Selected: 1
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 2
+- Hard pass: 3
 
 ## SELECTED
 
@@ -46,6 +46,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-
 
 ## HARD_PASS
 
+- [Senior Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-finance-officer-tameside-alternative-provision-academy) — Insufficient admin/service evidence.
 - [Senior Finance Partner FP&A, Innovation, Procurement & Projects](https://teaching-vacancies.service.gov.uk/jobs/senior-finance-partner-fp-a-innovation-procurement-projects) — Insufficient admin/service evidence.
 - [Trust Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/trust-finance-manager-altrincham-college-altrincham-cheshire) — Manager title salary ceiling £39,681 is not below £28,000.
 

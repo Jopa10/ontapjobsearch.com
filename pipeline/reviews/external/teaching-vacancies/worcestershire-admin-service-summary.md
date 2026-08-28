@@ -2,7 +2,7 @@
 
 review_date: 2026-08-28
 review_fingerprint: 49185da3ac3400a51a2ac8368f9f3d51fa1937001615fcb9694f14e61193899a
-routing_manifest_sha256: 317da4c3580a017af1ca5a40549214600dbbe16fe90e5315b920822a2f47f1ee
+routing_manifest_sha256: 319c5a159b13cd15a9073bbd5d31193b7d3aeabc88d7df4944052f911468430b
 ontap_region: Worcestershire
 slice_category: admin_service
 slice_status: LIVE

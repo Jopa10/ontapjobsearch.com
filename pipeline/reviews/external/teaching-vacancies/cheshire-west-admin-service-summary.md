@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cheshire - West
 
 review_date: 2026-08-28
-review_fingerprint: 33b8a73ee9177c9a489ee7d102c282185dccf68682525d59c5ddf0a9a09cabb9
-routing_manifest_sha256: 317da4c3580a017af1ca5a40549214600dbbe16fe90e5315b920822a2f47f1ee
+review_fingerprint: 0661fedbbb32dd7b520bfacefad76e507bb007f0d4a00a791ce2b01a356662bb
+routing_manifest_sha256: 319c5a159b13cd15a9073bbd5d31193b7d3aeabc88d7df4944052f911468430b
 ontap_region: Cheshire - West
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 2
-- Selected: 2
+- Records: 1
+- Selected: 1
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 0
@@ -34,21 +34,6 @@ factual_fingerprint: 70a90e575968e6dd31a3c0941cd9d3e8167bc17400f329af995df60154c
 source: Teaching Vacancies
 source_job_id: pastoral-administrator-the-whitby-high-school-ellesmere-port-cheshire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/pastoral-administrator-the-whitby-high-school-ellesmere-port-cheshire
----
-
----
-action: 
-SELECTED | Cheshire - West | Chester, North West, CH2 1NN | £25,185.00 Annually (FTE) Actual pro rata salary = £12,589 | Receptionist
-employer: Upton-by-Chester High School
-closing_date: 2026-08-28T12:00:00+01:00
-reason: Clear admin/service title: receptionist
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 90f1d0ec39642e77d8f35ccdfb5288fe9ec8fcada0cff6ea57d9da5c30fa63c6
-source: Teaching Vacancies
-source_job_id: receptionist-upton-by-chester-high-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-upton-by-chester-high-school
 ---
 
 ## POSS — choose SELECT or EXCLUDE

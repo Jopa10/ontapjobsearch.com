@@ -2,7 +2,7 @@
 
 review_date: 2026-08-28
 review_fingerprint: 6b87f4ebd2bc212ef623473fbe5ca9c8f46e0dcd7d968e3c025fc06072c778ff
-routing_manifest_sha256: 317da4c3580a017af1ca5a40549214600dbbe16fe90e5315b920822a2f47f1ee
+routing_manifest_sha256: 319c5a159b13cd15a9073bbd5d31193b7d3aeabc88d7df4944052f911468430b
 ontap_region: Cambridgeshire
 slice_category: admin_service
 slice_status: LIVE
@@ -209,7 +209,7 @@ closing_date: 2026-09-16T08:00:00+01:00
 reason: Borderline school administration title: communications officer
 jobg8_check: NO_MATCH
 slice_status: LIVE
-migration_status: 
+migration_status: SAME_DAY_ACTION
 factual_fingerprint: e17600e0d99d562376adc547dff4a4ad6911c120a634d2fee31e8a82f6fd72d3
 source: Teaching Vacancies
 source_job_id: marketing-communications-officer-2a432f35-1c7d-4c5e-90a3-e035ce925749

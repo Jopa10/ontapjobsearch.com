@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Bristol & Bath
 
 review_date: 2026-08-28
-review_fingerprint: 380b8887a164bec95ac67045caedfa8b9c270f450090d829175eee7bf27c0d08
-routing_manifest_sha256: 317da4c3580a017af1ca5a40549214600dbbe16fe90e5315b920822a2f47f1ee
+review_fingerprint: a6dfc7a60524493e37f019f127318aa54516bacf77b3f76b7f5de2ebdb4866d4
+routing_manifest_sha256: 319c5a159b13cd15a9073bbd5d31193b7d3aeabc88d7df4944052f911468430b
 ontap_region: Bristol & Bath
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 14
-- Selected: 2
+- Records: 15
+- Selected: 3
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 12
@@ -49,6 +49,21 @@ factual_fingerprint: 70c29abe8caf12fd84911969c88a07acaf02b5adfa868d4eea9992311b4
 source: Teaching Vacancies
 source_job_id: digital-marketing-administrator-filton-avenue-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/digital-marketing-administrator-filton-avenue-primary-school
+---
+
+---
+action: 
+SELECTED | Bristol & Bath | Bristol, South West, BS3 5NR | £17,506.00 - £17,785.00 Annually (Actual) N6 (£25,989) - N7 (£26,403) FTE, ACTUAL salary £17,506.19 - £17,785.06 | School Administrator
+employer: Parson Street Primary School
+closing_date: 2026-09-13T23:00:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 8e4725667b8e683cfb5aab0eece4a5a05a802ffb830c7102e472338d050943ef
+source: Teaching Vacancies
+source_job_id: school-administrator-parson-street-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-parson-street-primary-school
 ---
 
 ## POSS — choose SELECT or EXCLUDE
