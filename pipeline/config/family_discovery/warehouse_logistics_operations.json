@@ -1,0 +1,72 @@
+{
+  "family_key": "warehouse_logistics_operations",
+  "display_name": "Warehouse & Logistics Operations",
+  "hard_salary_max": 45000,
+  "viability_floor": 100,
+  "purpose": "Governed national discovery for accessible warehouse, transport and logistics administration or coordination work. Manual warehouse labour, driving, management, sales, technical supply-chain and specialist procurement work are outside the proposed Ontap family.",
+  "boundary_notes": {
+    "jobseeker_proposition": "Practical office and systems-based work that keeps goods moving: warehouse and transport administration, logistics coordination, stock or inventory control, goods-in/despatch administration and routine import/export or shipping operations.",
+    "likely_in": "Warehouse, transport, logistics, distribution and supply-chain Administrators, Assistants, Clerks, Officers and Coordinators; Stock/Inventory Controllers or Administrators; Goods-In and Despatch Administrators; Shipping, Import and Export Administrators or Coordinators; and routine freight-forwarding operations support.",
+    "advert_review": "Generic operations, planning, materials, fulfilment, fleet, shipping and freight titles require evidence that the role is accessible day-to-day administration or coordination rather than manual work, management, sales, engineering, analytics or specialist compliance.",
+    "out": "Drivers, couriers, warehouse operatives, picker/packers, loaders, forklift roles and other manual work; managers, supervisors and team leaders; sales/account management; procurement and buyer careers; analysts, consultants, engineers and systems specialists; and senior or strategic supply-chain work.",
+    "overlap": "A genuine Warehouse & Logistics Operations job may also qualify for Service Admin, Customer Service or Finance / Accounts. Valid overlap is not a reason to remove it from this family."
+  },
+  "assessable_geography": "pipeline/config/uk_assessable_regions.json",
+  "broad_title_patterns": [
+    "\\b(warehouse|logistics?|transport|distribution|supply\\s+chain)\\b",
+    "\\b(stock|inventory|goods[- ]?in|despatch|dispatch)\\b",
+    "\\b(import|export|shipping|freight)\\b"
+  ],
+  "description_signals": [
+    "warehouse management system",
+    "transport administration",
+    "logistics administration",
+    "stock control",
+    "inventory control",
+    "goods in",
+    "goods out",
+    "dispatch documentation",
+    "despatch documentation",
+    "shipping documentation",
+    "import documentation",
+    "export documentation",
+    "freight forwarding"
+  ],
+  "description_min_hits": 2,
+  "description_title_context_patterns": [
+    "\\b(administrator|admin|assistant|clerk|officer|co-?ordinator|controller|operations?|planner)\\b"
+  ],
+  "likely_in_title_patterns": [
+    "\\b(warehouse|logistics?|transport|distribution|supply\\s+chain)\\s+(administrator|admin|assistant|clerk|officer|co-?ordinator)\\b",
+    "\\b(warehouse|logistics?|transport|distribution|supply\\s+chain)\\s+(operations?\\s+)?support\\b",
+    "\\b(stock|inventory)\\s+(administrator|admin|assistant|clerk|officer|co-?ordinator|controller)\\b",
+    "\\b(stock|inventory)\\s+(and|&)\\s+(systems?|control)\\s+(administrator|admin|assistant|clerk|officer|co-?ordinator|controller)\\b",
+    "\\b(goods[- ]?in|goods[- ]?out|despatch|dispatch)\\s+(administrator|admin|assistant|clerk|officer|co-?ordinator)\\b",
+    "\\b(import|export|shipping|freight)\\s+(administrator|admin|assistant|clerk|officer|co-?ordinator)\\b",
+    "\\b(import|export)\\s+(and|&)\\s+(export|import)\\s+(administrator|admin|assistant|clerk|officer|co-?ordinator)\\b",
+    "\\b(logistics?|transport)\\s+(and|&)\\s+(customer\\s+service|purchasing|operations?)\\s+(administrator|admin|assistant|co-?ordinator)\\b",
+    "\\b(junior\\s+)?(despatch|dispatch|shipping|freight)\\s+co-?ordinator\\b"
+  ],
+  "borderline_override_title_patterns": [
+    "\\b(senior|lead|team\\s+leader|supervisor|manager|head|director)\\b",
+    "\\b(sales|business\\s+development|account\\s+manager|account\\s+executive)\\b",
+    "\\b(analyst|consultant|engineer|specialist|scientist|architect|project|programme|systems?|wms|sap)\\b"
+  ],
+  "borderline_title_patterns": [
+    "\\b(operations?|materials?|fulfilment|fleet|shipping|freight)\\s+(assistant|administrator|admin|officer|co-?ordinator|controller|planner)\\b",
+    "\\b(transport|logistics?|distribution|supply\\s+chain)\\s+planner\\b",
+    "\\b(stock|inventory|materials?)\\s+planner\\b",
+    "\\bfreight\\s+forwarder\\b"
+  ],
+  "specialist_out_title_patterns": [
+    "\\b(driver|courier|rider|porter|loader|labourer|operative|picker|packer|forklift|flt|reach\\s+truck|counterbalance|warehouse\\s+worker|warehouse\\s+person|warehouse\\s+personnel)\\b",
+    "\\b(senior|lead|leader|supervisor|manager|head|director|chief|principal|strategic)\\b.*\\b(warehouse|logistics?|transport|distribution|supply\\s+chain|stock|inventory|shipping|freight)\\b",
+    "\\b(warehouse|logistics?|transport|distribution|supply\\s+chain|stock|inventory|shipping|freight)\\b.*\\b(senior|lead|leader|supervisor|manager|head|director|chief|principal|strategic)\\b",
+    "\\b(sales|business\\s+development|account\\s+manager|account\\s+executive|commercial)\\b",
+    "\\b(procurement|buyer|buying|category\\s+manager|purchasing\\s+manager)\\b",
+    "\\b(analyst|consultant|engineer|scientist|architect|developer|technician|specialist)\\b",
+    "\\b(project|programme|transformation|solutions?|systems?|wms|warehouse\\s+management\\s+cloud|sap)\\b",
+    "\\b(health\\s+and\\s+safety|quality|compliance|customs)\\b.*\\b(manager|lead|specialist|consultant|officer)\\b",
+    "\\bmechanic|technician|maintenance|cleaner|hygienist\\b"
+  ]
+}
