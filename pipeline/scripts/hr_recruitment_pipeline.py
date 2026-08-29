@@ -196,10 +196,13 @@ def classify(
         return False, "salary maximum over £50k"
 
     combined = f"{title} {description}"
-    if any_match(compile_many(cfg.get("specialist_out_title_patterns", [])), title):
-        return False, "specialist/senior title boundary"
     if TRAINING_ADVERT.search(combined):
         return False, "training-course advert boundary"
+    approved_exact = {norm_key(value) for value in cfg.get("owner_approved_exact_titles", [])}
+    if norm_key(title) in approved_exact:
+        return True, "owner-approved exact HR / Recruitment support title"
+    if any_match(compile_many(cfg.get("specialist_out_title_patterns", [])), title):
+        return False, "specialist/senior title boundary"
     if ADJACENT_OR_SPECIALIST_ROLE.search(title):
         return False, "adjacent/specialist role outside employee HR and recruitment support"
     if re.search(r"\btalent\s+acquisition\b", title, re.IGNORECASE) and re.search(

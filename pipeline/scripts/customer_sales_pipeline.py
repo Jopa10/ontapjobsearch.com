@@ -208,6 +208,9 @@ def classify(title: str, description: str, employer: str) -> tuple[str, str] | N
     if contains_any(d, RETAIL_PROPERTY_EXCLUDES):
         return None
 
+    if t == "customer engagement executive":
+        return "CUSTOMER_SALES", "owner-approved exact customer-sales title"
+
     if contains_any(t, ACCOUNT_TITLE_TERMS):
         if contains_any(combined, ACCOUNT_EXCLUDES):
             return None

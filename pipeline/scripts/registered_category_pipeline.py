@@ -25,7 +25,7 @@ from typing import Any
 import pandas as pd
 
 from . import service_admin_pipeline as admin
-from .pipeline_refinement import assess_salary, load_salary_thresholds, resolve_feed_date
+from .pipeline_refinement import assess_salary, load_refinement_rules, load_salary_thresholds, resolve_feed_date
 from .slice_catalog import category_meta, output_filename
 from .slice_registry import live_slices
 
@@ -97,6 +97,11 @@ def load_titles(category: str) -> dict[str, str]:
             classification = norm(row.get("classification")).upper()
             if title_key and classification in SELECTED_CLASSIFICATIONS:
                 result[title_key] = classification
+    for row in load_refinement_rules(category):
+        title_key = key(row.get("title"))
+        classification = norm(row.get("classification")).upper()
+        if title_key and classification in SELECTED_CLASSIFICATIONS:
+            result[title_key] = classification
     return result
 
 

@@ -5,6 +5,12 @@
   "viability_floor": 100,
   "purpose": "Frozen national boundary for accessible accounts, transactional-finance, bookkeeping and payroll operations work. JobG8 classification and assessable geography do not gate occupational fit or national scale.",
   "unmatched_decision": "OUT_BOUNDARY",
+  "owner_approved_exact_titles": [
+    "Accounts Payable Analyst",
+    "Accounts Payable Analyst Hybrid",
+    "Assistant Accountant (Hybrid)",
+    "Finance Administration Officer"
+  ],
   "boundary_notes": {
     "jobseeker_proposition": "Accessible accounts and finance-operations work for practical office workers: invoice processing, accounts payable and receivable, ledgers, credit control, reconciliations, payroll administration and day-to-day finance support.",
     "likely_in": "Accounts/Finance Assistants, Administrators, Clerks, Officers and Coordinators; Accounts Payable/Receivable; Purchase/Sales Ledger; Credit Control; Bookkeeping; Billing/Invoicing; Payroll administration, processing and coordination; and mixed office-plus-finance operations roles below the hard salary ceiling.",

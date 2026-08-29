@@ -4,6 +4,9 @@
   "hard_salary_max": 50000,
   "viability_floor": 100,
   "purpose": "Broad national discovery and advert-level boundary review for accessible HR, People and in-house recruitment support work before family rules are frozen; JobG8 classification and assessable geography must not gate occupational scale.",
+  "owner_approved_exact_titles": [
+    "HR and Payroll Administrator"
+  ],
   "boundary_notes": {
     "jobseeker_proposition": "Accessible HR, People, recruitment, onboarding and learning-and-development administration and coordination work centred on employee records, recruitment processes and the employee lifecycle.",
     "likely_in": "HR/Human Resources administrators, assistants, coordinators and team support; People/People Operations administrators and coordinators; Recruitment and Talent Acquisition administrators/coordinators; and salary-appropriate onboarding or L&D administration where the advert clearly sits inside an HR/People function.",
