@@ -30,7 +30,7 @@ Edit only each `action:` line:
 ## JobG8 — 4 to review
 
 ---
-action:
+action: select
 POSS | JobG8 | Buckinghamshire | Buckinghamshire | £20 - £21 per hour | Facilities Coordinator
 source_key: jobg8
 source: JobG8
@@ -48,7 +48,7 @@ hub_fingerprint: 378f2a4057f35fe1f837ab70a808da414e7c36cb58a520612ec3d11e863a0e8
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | Greater Manchester - Manchester & Salford | Manchester | £40000 per year | HR Systems and reporting coordinator
 source_key: jobg8
 source: JobG8
@@ -66,7 +66,7 @@ hub_fingerprint: 68df80c0d1d7bee93dc4fa96e5e8918a38d9b8627815fab5523aa296765a1f8
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | London | Sutton | £25000 - £40000 per year | Goods Inwards / Administration Coordinator
 source_key: jobg8
 source: JobG8
@@ -84,7 +84,7 @@ hub_fingerprint: 354ca0c6fc172291ddc80cbc17dcb1e3600e43afe2ce404980ca64822d8d165
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | West Midlands - Coventry & Warwickshire | Warwickshire | £30002 per year | Service Delivery Coordinator
 source_key: jobg8
 source: JobG8
@@ -202,7 +202,7 @@ hub_fingerprint: 49188d67866c546cc12434263960a78ecc42aedcb4669b54e7c0abc7f608016
 ---
 
 ---
-action:
+action: select
 POSS | Teaching Vacancies | London | Beckenham, London, BR3 1RF | £29,856.00 - £31,611.00 Annually (FTE) | Administration Officer
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -382,7 +382,7 @@ hub_fingerprint: 5ac2163c06159d1e25b77086c07e93aabb73a2d59fba3834fb30daa93020631
 ---
 
 ---
-action:
+action: select
 POSS | Teaching Vacancies | Wiltshire | Chippenham, South West, SN14 0QT | £29,064.00 - £31,022.00 Annually (FTE) Actual Salary: £25,640 - £27,368 per annum | Admin Officer
 source_key: teaching_vacancies
 source: Teaching Vacancies
