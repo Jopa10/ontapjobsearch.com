@@ -71,6 +71,43 @@ admin_service,Admin,HIGH_CONFIDENCE,,,AGREED_2026-08-29,Owner-reviewed advert co
 admin_service,Administrative Officer,HIGH_CONFIDENCE,,,AGREED_2026-08-29,Owner-reviewed advert confirms general administrative support rather than a specialist officer function
 admin_service,Admin Advertiser,HIGH_CONFIDENCE,,,AGREED_2026-08-29,Owner-reviewed advert confirms routine advertising records customer contact and office administration
 admin_service,Administration Support Assistant,HIGH_CONFIDENCE,,,AGREED_2026-08-29,Owner-reviewed advert confirms entry-level transferable office administration support
+admin_service,Complex Care Coordinator,ELASTIC_FIT,specialist_requirements_review,,AGREED_2026-08-29,Owner-reviewed advert confirms office-based care coordination
+admin_service,Event Administrator,HIGH_CONFIDENCE,,,AGREED_2026-08-29,Owner-reviewed advert confirms administration-heavy event support
+admin_service,General Administrator,HIGH_CONFIDENCE,,,AGREED_2026-08-29,Owner-reviewed advert confirms general transferable office administration
+finance_accounts,Accounts Payable Analyst,HIGH_CONFIDENCE,,,AGREED_2026-08-29,Owner-reviewed advert confirms practical accounts-payable reconciliation work below the salary ceiling
+finance_accounts,Accounts Payable Analyst Hybrid,HIGH_CONFIDENCE,,,AGREED_2026-08-29,Owner-reviewed advert confirms practical accounts-payable support work below the salary ceiling
+finance_accounts,Accounts Payable Officer,HIGH_CONFIDENCE,,,AGREED_2026-08-29,Owner-reviewed advert confirms practical accounts-payable operations
+finance_accounts,Accounts/Finance Assistant,HIGH_CONFIDENCE,,,AGREED_2026-08-29,Owner-reviewed advert confirms accessible finance administration
+finance_accounts,Assistant Accountant (Hybrid),HIGH_CONFIDENCE,,,AGREED_2026-08-29,Owner-reviewed advert confirms salary-appropriate practical accounts work
+finance_accounts,Credit control,HIGH_CONFIDENCE,,,AGREED_2026-08-29,Owner-reviewed advert confirms practical credit-control operations
+finance_accounts,Credit Controller - 6 month fixed term,HIGH_CONFIDENCE,,,AGREED_2026-08-29,Owner-reviewed advert confirms practical credit-control operations
+finance_accounts,Credit Controller - 6 Month FTC,HIGH_CONFIDENCE,,,AGREED_2026-08-29,Owner-reviewed advert confirms practical credit-control operations
+finance_accounts,Finance & Payroll Clerk,HIGH_CONFIDENCE,,,AGREED_2026-08-29,Owner-reviewed advert confirms practical finance and payroll processing
+finance_accounts,Finance Administration Officer,HIGH_CONFIDENCE,,,AGREED_2026-08-29,Owner-reviewed advert confirms accessible finance administration
+customer_service_contact_centre,Customer Success and Training Executive,HIGH_CONFIDENCE,,,AGREED_2026-08-29,Owner-reviewed advert confirms customer-success support within a SaaS service
+customer_service_contact_centre,Customer Support Specialist Long Term Temp,HIGH_CONFIDENCE,,,AGREED_2026-08-29,Owner-reviewed advert confirms order and customer-support delivery
+customer_service_contact_centre,Customer Care Coordinator,HIGH_CONFIDENCE,,,AGREED_2026-08-29,Owner-reviewed advert confirms transferable customer care
+customer_service_contact_centre,Customer Account Manager,HIGH_CONFIDENCE,,,AGREED_2026-08-29,Owner-reviewed adverts confirm office-based customer care and account support
+customer_service_contact_centre,Customer Engagement Officer,HIGH_CONFIDENCE,,,AGREED_2026-08-29,Owner-reviewed advert confirms customer engagement and service improvement work
+customer_service_contact_centre,Customer Service Advisor (4 on/ 4 off days),HIGH_CONFIDENCE,,,AGREED_2026-08-29,Owner-reviewed advert confirms direct customer service
+customer_service_contact_centre,Customer Service Consultant,HIGH_CONFIDENCE,,,AGREED_2026-08-29,Owner-reviewed advert confirms direct customer service
+customer_service_contact_centre,Customer Engagement Executive,HIGH_CONFIDENCE,,,AGREED_2026-08-29,Owner-reviewed advert confirms customer service with legitimate sales overlap
+customer_service_contact_centre,Digital Customer Success Executive,HIGH_CONFIDENCE,,,AGREED_2026-08-29,Owner-reviewed advert confirms digital-product customer success
+hr_recruitment,HR and Payroll Administrator,HIGH_CONFIDENCE,,,AGREED_2026-08-29,Owner-reviewed advert confirms employee-record and HR support with legitimate payroll overlap
+support_worker,Care Assistant/Support worker,HIGH_CONFIDENCE,owner_title_override,,AGREED_2026-08-29,Owner-reviewed advert confirms direct care and support work
+support_worker,Care Assistant (Older Adults),HIGH_CONFIDENCE,owner_title_override,,AGREED_2026-08-29,Owner-reviewed advert confirms direct older-adult care
+support_worker,Children's Home Support Worker,HIGH_CONFIDENCE,owner_title_override,,AGREED_2026-08-29,Owner-reviewed advert confirms direct residential child support
+support_worker,Female Personal Assistant,HIGH_CONFIDENCE,owner_title_override,,AGREED_2026-08-29,Owner-reviewed advert confirms direct personal support rather than office PA work
+support_worker,Female Support Worker (Driver),HIGH_CONFIDENCE,owner_title_override,,AGREED_2026-08-29,Driving is incidental to an owner-reviewed direct support-worker vacancy
+support_worker,Female Support Practitioner (UK Driving Licence),HIGH_CONFIDENCE,owner_title_override,,AGREED_2026-08-29,Owner-reviewed advert confirms direct support-practitioner work
+support_worker,Female Support Practitioner (Driving Licence),HIGH_CONFIDENCE,owner_title_override,,AGREED_2026-08-29,Owner-reviewed advert confirms direct support-practitioner work
+support_worker,Female Only Bank Support Practitioner,HIGH_CONFIDENCE,owner_title_override,,AGREED_2026-08-29,Owner-reviewed advert confirms direct bank support-practitioner work
+support_worker,FEMALE Support Workers(DRIVERS only),HIGH_CONFIDENCE,owner_title_override,,AGREED_2026-08-29,Driving is incidental to an owner-reviewed direct support-worker vacancy
+support_worker,Flexible Bank Support Coordinator,HIGH_CONFIDENCE,owner_title_override,,AGREED_2026-08-29,Owner-reviewed advert confirms direct customer support rather than office coordination
+support_worker,Housing Support Worker,HIGH_CONFIDENCE,owner_title_override,,AGREED_2026-08-29,Owner-reviewed adverts confirm direct support for vulnerable people and tenancy sustainment
+support_worker,Housing Management Worker,HIGH_CONFIDENCE,owner_title_override,,AGREED_2026-08-29,Owner-reviewed advert confirms direct tenancy and customer support
+support_worker,Housing and Support Officer,HIGH_CONFIDENCE,owner_title_override,,AGREED_2026-08-29,Owner-reviewed advert confirms direct housing support for vulnerable people
+support_worker,Housing Support Officer,HIGH_CONFIDENCE,owner_title_override,,AGREED_2026-08-29,Owner-reviewed advert confirms direct housing support for vulnerable people
 support_worker,PERSONAL ASSISTANT,REVIEW_CONTEXT_DEPENDENT,support_personal_assistant,35200,AGREED_2026-07-24,Include only where the description clearly establishes personal care or direct support
 support_worker,Family Support Worker - Barnsley,HIGH_CONFIDENCE,family_direct_support,35783,AGREED_2026-07-24,Include direct family support unless mandatory statutory casework or social-work requirements create a barrier
 support_worker,Domestic Abuse Support Worker,HIGH_CONFIDENCE,specialist_support_requirements,,AGREED_2026-07-24,Include direct support unless regulated qualifications or substantial mandatory experience create a barrier

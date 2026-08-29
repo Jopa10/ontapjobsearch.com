@@ -1510,6 +1510,17 @@ def classify_title(title: str, title_register: dict[str, dict[str, str]] | None 
     title_key = normalise_title_for_register(title)
     title_register = title_register or {}
 
+    exact = title_register.get(title_key)
+    if exact and exact.get("context_policy") == "owner_title_override":
+        classification = exact.get("classification", "REVIEW_CONTEXT_DEPENDENT")
+        if classification in {"HIGH_CONFIDENCE", "ELASTIC_FIT"}:
+            return (
+                classification,
+                "owner-approved exact title: " + exact.get("reason", "agreed title inclusion"),
+                CLASSIFICATION_PRIORITY[classification],
+                exact.get("review_status", "STABLE"),
+            )
+
     hard_hits = [p.strip() for p in HARD_PASS_PATTERNS if contains_pattern(title_key, p)]
     if hard_hits:
         classification = "HARD_PASS"

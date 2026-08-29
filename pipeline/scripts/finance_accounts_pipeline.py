@@ -96,6 +96,10 @@ def classify(
     if any(value is not None and value > hard_max for value in values):
         return False, "salary maximum over £45k"
 
+    approved_exact = {norm_key(value) for value in cfg.get("owner_approved_exact_titles", [])}
+    if norm_key(title) in approved_exact:
+        return True, "owner-approved exact Accounts & Finance Operations title"
+
     if any_match(compile_many(cfg.get("specialist_out_title_patterns", [])), title):
         return False, "specialist/senior title boundary"
     if any_match(compile_many(cfg.get("likely_in_title_patterns", [])), title):
