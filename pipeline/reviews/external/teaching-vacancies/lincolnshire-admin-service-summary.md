@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Lincolnshire
 
-review_date: 2026-08-28
-review_fingerprint: bac2492afcf907befa2ca446160ab6721f307fa2ab17a8c0d24f055fe04eb36d
-routing_manifest_sha256: 319c5a159b13cd15a9073bbd5d31193b7d3aeabc88d7df4944052f911468430b
+review_date: 2026-08-29
+review_fingerprint: bb1a3ec640f4ad8885b2e4d5735ea00dc1ab091b0d3a172bf342150e17f19358
+routing_manifest_sha256: 23602eb5504037190dcc20c0e56831c63bf2e19aec36fe6e427e89d027474532
 ontap_region: Lincolnshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 18
+- Records: 19
 - Selected: 3
-- POSS awaiting decision: 4
+- POSS awaiting decision: 5
 - Excluded: 0
 - Hard pass: 11
 
@@ -70,6 +70,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-admin-of
 
 ---
 action: 
+POSS | Lincolnshire | Grimsby, Yorkshire and the Humber, DN31 2ES | £25,185.00 - £25,989.00 Annually (FTE) Grade C Points 4 to 6 (£25,185 to £25,989 Full Time Equivalent) subject to pro rata. The minimum actual pro rata salary per annum for this job starts at £21,758.06. | Administration Officer
+employer: Macaulay Primary Academy
+closing_date: 2026-09-02T23:59:00+01:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: a3ea0d2a35d1ceeb389c364c85759f57cb0dad649bdc73ddc62f659eabd90b86
+source: Teaching Vacancies
+source_job_id: administration-officer-macaulay-primary-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-officer-macaulay-primary-academy
+---
+
+---
+action: 
 POSS | Lincolnshire | Lincoln, East Midlands, LN6 7SX | £14,432.00 - £16,317.00 Annually (Actual) Band 4, SCP 11 - 17 | Data Officer
 employer: St Peter and St Paul, Catholic Voluntary Academy
 closing_date: 2026-09-07T23:59:00+01:00
@@ -91,7 +106,7 @@ closing_date: 2026-09-07T23:59:00+01:00
 reason: Possible JobG8 duplicate requires review
 jobg8_check: POSSIBLE_DUPLICATE
 slice_status: LIVE
-migration_status: REVIEW_REQUIRED_DUPLICATE
+migration_status: 
 factual_fingerprint: 02e994d324dc6cad84715c483552b2fada9a74488d2225b2bbf8628080feb572
 source: Teaching Vacancies
 source_job_id: hr-administrator-tulip-academy

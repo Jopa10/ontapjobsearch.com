@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Leicestershire
 
-review_date: 2026-08-28
+review_date: 2026-08-29
 review_fingerprint: c3fa4ed295ff18dbb36bd663aa70dfbaa02c9bf1e5f75048201c651d7e526b6f
-routing_manifest_sha256: 319c5a159b13cd15a9073bbd5d31193b7d3aeabc88d7df4944052f911468430b
+routing_manifest_sha256: 23602eb5504037190dcc20c0e56831c63bf2e19aec36fe6e427e89d027474532
 ontap_region: Leicestershire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 8
+- Records: 9
 - Selected: 3
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 4
+- Hard pass: 5
 
 ## SELECTED
 
@@ -92,6 +92,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-office
 - [Apprentice Premises Officer](https://teaching-vacancies.service.gov.uk/jobs/apprentice-premises-officer-ash-field-academy) — Insufficient admin/service evidence.
 - [Director of Finance](https://teaching-vacancies.service.gov.uk/jobs/director-of-finance-rise-multi-academy-trust) — Insufficient admin/service evidence.
 - [Extended Services Club Manager (EXS031BC)](https://teaching-vacancies.service.gov.uk/jobs/extended-services-club-manager-exs031bc) — Manager title salary ceiling £28,146 is not below £28,000.
+- [School Business Lead](https://teaching-vacancies.service.gov.uk/jobs/school-business-lead-glenfield-primary-school-leicester-leicestershire) — Insufficient admin/service evidence.
 - [Sixth Form Coordinator](https://teaching-vacancies.service.gov.uk/jobs/sixth-form-coordinator-charnwood-college) — Insufficient admin/service evidence.
 
 ## Safety boundary

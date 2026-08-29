@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cambridgeshire
 
-review_date: 2026-08-28
-review_fingerprint: 6b87f4ebd2bc212ef623473fbe5ca9c8f46e0dcd7d968e3c025fc06072c778ff
-routing_manifest_sha256: 319c5a159b13cd15a9073bbd5d31193b7d3aeabc88d7df4944052f911468430b
+review_date: 2026-08-29
+review_fingerprint: 60f08f62e7ee780aac13f67bdf55cb9f869b14d576e5cfe0e2ec565132afa834
+routing_manifest_sha256: 23602eb5504037190dcc20c0e56831c63bf2e19aec36fe6e427e89d027474532
 ontap_region: Cambridgeshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 26
-- Selected: 16
-- POSS awaiting decision: 1
+- Records: 24
+- Selected: 13
+- POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 9
 
 ## SELECTED
-
----
-action: 
-SELECTED | Cambridgeshire | Wisbech, East of England, PE13 1PJ | £24,871.00 Annually (FTE) | Admin Assistant (Maternity Cover)
-employer: Peckover Primary School
-closing_date: 2026-09-02T12:00:00+01:00
-reason: Clear admin/service title: admin assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 18c773d8cae6ea3d386f3908f2cb86fe1cf109cab38ff589ae78239f7fc0b69d
-source: Teaching Vacancies
-source_job_id: admin-assistant-maternity-cover-peckover-primary-school-wisbech-cambridgeshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-maternity-cover-peckover-primary-school-wisbech-cambridgeshire
----
 
 ---
 action: 
@@ -143,21 +128,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/data-administrator-79
 
 ---
 action: 
-SELECTED | Cambridgeshire | Cambridge, East of England, CB24 8UA | £31,537.00 - £33,699.00 Annually (FTE) Pro rata salary - £29,044 - £31,035 | Exams Officer
-employer: Cottenham Village College
-closing_date: 2026-08-28T23:59:00+01:00
-reason: Clear admin/service title: exams officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: fe1b0769334cd8efdb0418b15efced8d9c1544ac5ee62b402c683e95049d665f
-source: Teaching Vacancies
-source_job_id: exams-officer-cottenham-village-college-cambridge-cambridgeshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-cottenham-village-college-cambridge-cambridgeshire
----
-
----
-action: 
 SELECTED | Cambridgeshire | St. Neots, East of England, PE19 2SH | £31,537.00 - £33,699.00 Annually (FTE) Pro rata salary - £29,044 - £31,035 | Exams Officer
 employer: Ernulf Academy
 closing_date: 2026-08-31T23:59:00+01:00
@@ -199,21 +169,6 @@ factual_fingerprint: 8a971593e6a9e85d7031475367b24719d6e0af28b637878427bc30c36d7
 source: Teaching Vacancies
 source_job_id: inclusion-administrator-discovery-primary-academy-peterborough-cambridgeshire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/inclusion-administrator-discovery-primary-academy-peterborough-cambridgeshire
----
-
----
-action: select
-SELECTED | Cambridgeshire | Huntingdon, PE28 5TQ | £32,061.00 Annually (Actual) | Marketing & Communications Officer
-employer: Meridian Trust
-closing_date: 2026-09-16T08:00:00+01:00
-reason: Borderline school administration title: communications officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: SAME_DAY_ACTION
-factual_fingerprint: e17600e0d99d562376adc547dff4a4ad6911c120a634d2fee31e8a82f6fd72d3
-source: Teaching Vacancies
-source_job_id: marketing-communications-officer-2a432f35-1c7d-4c5e-90a3-e035ce925749
-source_url: https://teaching-vacancies.service.gov.uk/jobs/marketing-communications-officer-2a432f35-1c7d-4c5e-90a3-e035ce925749
 ---
 
 ---
@@ -276,6 +231,21 @@ factual_fingerprint: 5acc3a4c567d81fda00c499b50fb9a9482e622278923774fec612824bf2
 source: Teaching Vacancies
 source_job_id: clerk-to-the-local-governing-boards
 source_url: https://teaching-vacancies.service.gov.uk/jobs/clerk-to-the-local-governing-boards
+---
+
+---
+action: 
+POSS | Cambridgeshire | Huntingdon, PE28 5TQ | £32,061.00 Annually (Actual) | Marketing & Communications Officer
+employer: Meridian Trust
+closing_date: 2026-09-16T08:00:00+01:00
+reason: Borderline school administration title: communications officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: e17600e0d99d562376adc547dff4a4ad6911c120a634d2fee31e8a82f6fd72d3
+source: Teaching Vacancies
+source_job_id: marketing-communications-officer-2a432f35-1c7d-4c5e-90a3-e035ce925749
+source_url: https://teaching-vacancies.service.gov.uk/jobs/marketing-communications-officer-2a432f35-1c7d-4c5e-90a3-e035ce925749
 ---
 
 ## EXCLUDED BY REVIEW

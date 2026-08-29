@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Birmingham & Solihull
 
-review_date: 2026-08-28
+review_date: 2026-08-29
 review_fingerprint: c362b29302d9a9fd9d5e1a35cd4ecc2fa4c28196ac5e8d7d7c04a51658af6d2c
-routing_manifest_sha256: 319c5a159b13cd15a9073bbd5d31193b7d3aeabc88d7df4944052f911468430b
+routing_manifest_sha256: 23602eb5504037190dcc20c0e56831c63bf2e19aec36fe6e427e89d027474532
 ontap_region: West Midlands - Birmingham & Solihull
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 14
+- Records: 15
 - Selected: 8
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 6
 
 ## SELECTED
 
@@ -165,6 +165,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/chief-finance-and-ope
 ## HARD_PASS
 
 - [Clerical Assistant](https://teaching-vacancies.service.gov.uk/jobs/clerical-assistant-hall-green-junior-school) — Insufficient admin/service evidence.
+- [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-our-lady-of-the-wayside-catholic-primary-school) — Insufficient admin/service evidence.
 - [HR Manager](https://teaching-vacancies.service.gov.uk/jobs/hr-manager-sutton-coldfield-grammar-school-for-girls-sutton-coldfield-west-midlands) — Manager title salary ceiling £49,282 is not below £28,000.
 - [HR Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-st-john-paul-ii-multi-academy-company) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-lindens-academy) — Manager title salary ceiling £34,434 is not below £28,000.

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - West
 
-review_date: 2026-08-28
+review_date: 2026-08-29
 review_fingerprint: db467cc874116db7137f284141ee65348d128228028f7057b3f93bf4d6b3c8a1
-routing_manifest_sha256: 319c5a159b13cd15a9073bbd5d31193b7d3aeabc88d7df4944052f911468430b
+routing_manifest_sha256: 23602eb5504037190dcc20c0e56831c63bf2e19aec36fe6e427e89d027474532
 ontap_region: Yorkshire - West
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 28
+- Records: 29
 - Selected: 11
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 15
+- Hard pass: 16
 
 ## SELECTED
 
@@ -225,6 +225,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/data-officer-2291e2c5
 ## HARD_PASS
 
 - [Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-wakefield-snapethorpe-primary-school) — Insufficient admin/service evidence.
+- [Compliance Officer](https://teaching-vacancies.service.gov.uk/jobs/compliance-officer-delta-academies-trust) — Insufficient admin/service evidence.
 - [Data and Exams Manager](https://teaching-vacancies.service.gov.uk/jobs/data-and-exams-manager-dixons-city-academy) — Manager title salary ceiling £34,744 is not below £28,000.
 - [Exam Invigilator](https://teaching-vacancies.service.gov.uk/jobs/exam-invigilator-leeds-city-academy-leeds-west-yorkshire) — Insufficient admin/service evidence.
 - [Exams and Admissions Manager](https://teaching-vacancies.service.gov.uk/jobs/exams-and-admissions-manager-leeds-city-academy-leeds-west-yorkshire) — Manager title salary ceiling £35,558 is not below £28,000.

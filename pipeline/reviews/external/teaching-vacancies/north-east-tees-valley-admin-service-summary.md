@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — North East - Tees Valley
 
-review_date: 2026-08-28
-review_fingerprint: f15341515aec1d3b0ae274aa6fb7256cdd1994988a2e525624feec1b61f35efe
-routing_manifest_sha256: 319c5a159b13cd15a9073bbd5d31193b7d3aeabc88d7df4944052f911468430b
+review_date: 2026-08-29
+review_fingerprint: ab7a5bdd883cfd4499cbca3acb14892908b62afe64c052509116004ca23a6c81
+routing_manifest_sha256: 23602eb5504037190dcc20c0e56831c63bf2e19aec36fe6e427e89d027474532
 ontap_region: North East - Tees Valley
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 9
+- Records: 8
 - Selected: 1
-- POSS awaiting decision: 1
+- POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 7
 
@@ -38,20 +38,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assist
 
 ## POSS — choose SELECT or EXCLUDE
 
----
-action: 
-POSS | North East - Tees Valley | Yarm, North East, TS15 9ET | £32,061 to £33,699, pending job evaluation | Executive Assistant to Head of School
-employer: Conyers School
-closing_date: 2026-09-01T12:00:00+01:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: b5181d942440617f0f8c36aeed8375efed53cb7b66f98500507d8280f536705d
-source: Teaching Vacancies
-source_job_id: executive-assistant-to-head-of-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/executive-assistant-to-head-of-school
----
+- None.
 
 ## EXCLUDED BY REVIEW
 

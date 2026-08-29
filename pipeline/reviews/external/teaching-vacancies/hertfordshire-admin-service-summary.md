@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Hertfordshire
 
-review_date: 2026-08-28
+review_date: 2026-08-29
 review_fingerprint: a560eab22fd2b09884b81fa0b19741288b872bef4a77a183f0abaf5e55a76445
-routing_manifest_sha256: 319c5a159b13cd15a9073bbd5d31193b7d3aeabc88d7df4944052f911468430b
+routing_manifest_sha256: 23602eb5504037190dcc20c0e56831c63bf2e19aec36fe6e427e89d027474532
 ontap_region: Hertfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 7
+- Records: 8
 - Selected: 4
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 2
+- Hard pass: 3
 
 ## SELECTED
 
@@ -91,7 +91,7 @@ closing_date: 2026-08-31T23:59:00+01:00
 reason: Possible JobG8 duplicate requires review
 jobg8_check: POSSIBLE_DUPLICATE
 slice_status: LIVE
-migration_status: REVIEW_REQUIRED_DUPLICATE
+migration_status: 
 factual_fingerprint: 8fccbba9d34a01eb62b0e77a6919dd3df5e0d8b3934242bfe78141469df2d5f8
 source: Teaching Vacancies
 source_job_id: office-administrator-bassingbourn-village-college
@@ -105,6 +105,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-
 ## HARD_PASS
 
 - [Assistant School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/assistant-school-business-manager-dame-alice-owen-s-school-potters-bar-hertfordshire) — Manager title salary ceiling £39,862 is not below £28,000.
+- [Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-hitchin-boys-school-hitchin-hertfordshire) — Insufficient admin/service evidence.
 - [Head of HR](https://teaching-vacancies.service.gov.uk/jobs/head-of-hr-danes-educational-trust-chorleywood-not-recorded) — Insufficient admin/service evidence.
 
 ## Safety boundary

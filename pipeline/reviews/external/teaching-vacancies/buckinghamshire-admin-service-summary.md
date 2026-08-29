@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Buckinghamshire
 
-review_date: 2026-08-28
-review_fingerprint: e1529ea9441f634ada9abf404c45bf5670c0217c0898aeda53c5d26285da099d
-routing_manifest_sha256: 319c5a159b13cd15a9073bbd5d31193b7d3aeabc88d7df4944052f911468430b
+review_date: 2026-08-29
+review_fingerprint: d97cac2fa3ee32117a0100a63a18d3c9904132563cedc1b8a9e94549cc5f83f1
+routing_manifest_sha256: 23602eb5504037190dcc20c0e56831c63bf2e19aec36fe6e427e89d027474532
 ontap_region: Buckinghamshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 13
-- Selected: 4
-- POSS awaiting decision: 4
+- Records: 12
+- Selected: 6
+- POSS awaiting decision: 3
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 3
 
 ## SELECTED
-
----
-action: 
-SELECTED | Buckinghamshire | High Wycombe, South East, HP12 4PR | £15,197.00 - £16,683.00 Annually (Actual) Bucks Pay Range 2-3 (dependent on experience). Salary is pro rata to hours and weeks worked. Actual estimated gross salary £15,197-£16,683 pro rata | Academy Administrator
-employer: Chepping View Primary Academy
-closing_date: 2026-08-28T23:59:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: f7e66b255404cd81fe7ac61d43817525cae45c48cab4c64443a0fb381e4110ff
-source: Teaching Vacancies
-source_job_id: academy-administrator-chepping-view-primary-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/academy-administrator-chepping-view-primary-academy
----
 
 ---
 action: 
@@ -53,6 +38,36 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-administra
 
 ---
 action: 
+SELECTED | Buckinghamshire | Milton Keynes, South East, MK7 7WH | £27,693.00 - £31,021.00 Annually (FTE) | Attendance Officer
+employer: Walton High
+closing_date: 2026-09-03T23:59:00+01:00
+reason: Clear admin/service title: attendance officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: cc1ea49c19cce27da7e766345dac4a736c92817c95e63199775f32e344ef5e4c
+source: Teaching Vacancies
+source_job_id: attendance-officer-af35235c-b4c2-4ef0-9706-890c839e4f10
+source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-af35235c-b4c2-4ef0-9706-890c839e4f10
+---
+
+---
+action: 
+SELECTED | Buckinghamshire | Milton Keynes, South East, MK17 8XY | £26,824.00 Annually (FTE) Grade D, £26,824 per annum | HR Administrator
+employer: Glebe Farm School
+closing_date: 2026-09-01T12:00:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 03522a2e3a49945b5059593b4bfd47d424a81f9c9d097e4eaab1500c2b2e30ef
+source: Teaching Vacancies
+source_job_id: hr-administrator-glebe-farm-school-milton-keynes-buckinghamshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-glebe-farm-school-milton-keynes-buckinghamshire
+---
+
+---
+action: 
 SELECTED | Buckinghamshire | High Wycombe, South East, HP15 7UB | £21,628.00 - £23,200.00 Annually (Actual) Salary – Bucks Pay Range 3 £21,628 - £23,200 (full time equivalent £29,114 - £31,230) | Office Administrator
 employer: Sir William Ramsay School
 closing_date: 2026-09-04T12:00:00+01:00
@@ -64,6 +79,21 @@ factual_fingerprint: e08a39e859333defc38ad25b7abaf8405b0cc0b26d3540cf135640e8b31
 source: Teaching Vacancies
 source_job_id: office-administrator-sir-william-ramsay-school-high-wycombe-buckinghamshire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-sir-william-ramsay-school-high-wycombe-buckinghamshire
+---
+
+---
+action: 
+SELECTED | Buckinghamshire | High Wycombe, South East, HP15 6SP | £34,319.00 - £41,272.00 Annually (Actual) | PA to Headteacher
+employer: Holmer Green Senior School
+closing_date: 2026-09-01T09:00:00+01:00
+reason: Clear admin/service title: pa to
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 3c45923266735b2528419ba5bbf83f236d909ef19bc00476d790825c111ef96e
+source: Teaching Vacancies
+source_job_id: pa-to-headteacher-holmer-green-senior-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/pa-to-headteacher-holmer-green-senior-school
 ---
 
 ---
@@ -115,21 +145,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/executive-assistant-t
 
 ---
 action: 
-POSS | Buckinghamshire | Milton Keynes, South East, MK17 8XY | £26,824.00 Annually (FTE) Grade D, £26,824 per annum | HR Administrator
-employer: Glebe Farm School
-closing_date: 2026-09-01T12:00:00+01:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: REVIEW_REQUIRED_DUPLICATE
-factual_fingerprint: 03522a2e3a49945b5059593b4bfd47d424a81f9c9d097e4eaab1500c2b2e30ef
-source: Teaching Vacancies
-source_job_id: hr-administrator-glebe-farm-school-milton-keynes-buckinghamshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-glebe-farm-school-milton-keynes-buckinghamshire
----
-
----
-action: 
 POSS | Buckinghamshire | Milton Keynes, South East, MK7 6BZ | £26,923.00 Annually (Actual) | Office Administrator: EVC and Cover Manager
 employer: Kents Hill Park all-through school
 closing_date: 2026-09-08T12:00:00+01:00
@@ -150,10 +165,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-
 ## HARD_PASS
 
 - [Data Assistant](https://teaching-vacancies.service.gov.uk/jobs/data-assistant-eec862cb-7829-4bfd-9435-a191b7aa5a85) — Insufficient admin/service evidence.
-- [Head of Operations](https://teaching-vacancies.service.gov.uk/jobs/head-of-operations-stephenson-mk-trust) — Insufficient admin/service evidence.
 - [HR & Training Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-training-officer) — Insufficient admin/service evidence.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-oak-green-school) — Manager title salary ceiling £41,272 is not below £28,000.
-- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-stephenson-academy-milton-keynes-buckinghamshire) — Manager title salary ceiling £47,181 is not below £28,000.
 
 ## Safety boundary
 

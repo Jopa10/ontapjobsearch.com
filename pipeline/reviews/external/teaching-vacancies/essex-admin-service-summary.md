@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Essex
 
-review_date: 2026-08-28
+review_date: 2026-08-29
 review_fingerprint: e6b10de7848782dab4bda9c0afbf64da8378bae5aa50e1766ce6b32937313d8d
-routing_manifest_sha256: 319c5a159b13cd15a9073bbd5d31193b7d3aeabc88d7df4944052f911468430b
+routing_manifest_sha256: 23602eb5504037190dcc20c0e56831c63bf2e19aec36fe6e427e89d027474532
 ontap_region: Essex
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 12
+- Records: 13
 - Selected: 4
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 7
+- Hard pass: 8
 
 ## SELECTED
 
@@ -91,7 +91,7 @@ closing_date: 2026-08-30T23:59:00+01:00
 reason: Possible JobG8 duplicate requires review
 jobg8_check: POSSIBLE_DUPLICATE
 slice_status: LIVE
-migration_status: REVIEW_REQUIRED_DUPLICATE
+migration_status: 
 factual_fingerprint: 027d840408b93a5de6fdfd2ad3a45ffbf462287282d2a8a0a6d2bd681b556a34
 source: Teaching Vacancies
 source_job_id: receptionist-notley-high-school-and-braintree-sixth-form-braintree-essex
@@ -107,10 +107,11 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-notley-h
 - [Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-the-greenwell-academy) — Insufficient admin/service evidence.
 - [Admissions Coordinator](https://teaching-vacancies.service.gov.uk/jobs/admissions-coordinator) — Insufficient admin/service evidence.
 - [HR Business Partner](https://teaching-vacancies.service.gov.uk/jobs/hr-business-partner-discovery-educational-trust) — Insufficient admin/service evidence.
-- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-tudor-court-primary-school-grays-essex) — Manager title without salary evidence below £28,000.
+- [Office Manager (Acting - 1 Year Fixed)](https://teaching-vacancies.service.gov.uk/jobs/office-manager-acting-1-year-fixed) — Manager title without salary evidence below £28,000.
 - [Senior Administrative Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-administrative-officer-mossbourne-fobbing-academy-stanford-le-hope) — Insufficient admin/service evidence.
 - [Senior HR Adviser](https://teaching-vacancies.service.gov.uk/jobs/senior-hr-adviser-b58d31ba-7650-4ead-a619-e0a3558161e2) — Insufficient admin/service evidence.
 - [Trust Data and Performance Manager](https://teaching-vacancies.service.gov.uk/jobs/trust-data-and-performance-manager) — Manager title salary ceiling £55,224 is not below £28,000.
+- [Trust Operations Assistant](https://teaching-vacancies.service.gov.uk/jobs/trust-operations-assistant-discovery-educational-trust) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

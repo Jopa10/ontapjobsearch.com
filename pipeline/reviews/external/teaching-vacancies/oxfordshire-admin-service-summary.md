@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Oxfordshire
 
-review_date: 2026-08-28
+review_date: 2026-08-29
 review_fingerprint: 7ace8e2060d43b52b4d342a0f350fd7bb8c37090a6fe8774313b8816ebb7ff34
-routing_manifest_sha256: 319c5a159b13cd15a9073bbd5d31193b7d3aeabc88d7df4944052f911468430b
+routing_manifest_sha256: 23602eb5504037190dcc20c0e56831c63bf2e19aec36fe6e427e89d027474532
 ontap_region: Oxfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 18
+- Records: 17
 - Selected: 8
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 9
+- Hard pass: 8
 
 ## SELECTED
 
@@ -151,7 +151,7 @@ closing_date: 2026-09-04T12:00:00+01:00
 reason: Possible JobG8 duplicate requires review
 jobg8_check: POSSIBLE_DUPLICATE
 slice_status: LIVE
-migration_status: REVIEW_REQUIRED_DUPLICATE
+migration_status: 
 factual_fingerprint: 6507fa5e4ea1f71f1a1f76eff33fba35fcf567d0ef52f77cff9d377bc363b4da
 source: Teaching Vacancies
 source_job_id: office-administrator-barton-park-primary-school
@@ -164,9 +164,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-
 
 ## HARD_PASS
 
-- [Administration and Reception Assistant](https://teaching-vacancies.service.gov.uk/jobs/administration-and-reception-assistant-wheatley-church-of-england-primary-school) — Insufficient admin/service evidence.
+- [Admin and Premises Assistant](https://teaching-vacancies.service.gov.uk/jobs/admin-and-premises-assistant-9d6fefc7-aa4d-4843-a7f1-fb8860efc481) — Insufficient admin/service evidence.
 - [Admissions Manager](https://teaching-vacancies.service.gov.uk/jobs/admissions-manager-lord-williams-s-school) — Manager title salary ceiling £34,434 is not below £28,000.
-- [Chief Financial Officer](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-lord-williams-s-school-thame-oxfordshire) — Insufficient admin/service evidence.
 - [Data and Systems Lead](https://teaching-vacancies.service.gov.uk/jobs/data-and-systems-lead-acer-trust) — Insufficient admin/service evidence.
 - [Finance Manager (30 hrs p/w, term time only + 5 inset days + 4 weeks)](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-30-hrs-p-w-term-time-only-5-inset-days-4-weeks) — Manager title salary ceiling £49,282 is not below £28,000.
 - [HR Partner](https://teaching-vacancies.service.gov.uk/jobs/hr-partner-oxford-diocesan-bucks-schools-trust) — Insufficient admin/service evidence.

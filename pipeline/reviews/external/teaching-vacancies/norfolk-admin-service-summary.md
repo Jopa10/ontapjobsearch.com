@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Norfolk
 
-review_date: 2026-08-28
-review_fingerprint: d1b2e059ef912ae865c97b16cfa5d7428a98a965ee1a385b8ecc0994547b1775
-routing_manifest_sha256: 319c5a159b13cd15a9073bbd5d31193b7d3aeabc88d7df4944052f911468430b
+review_date: 2026-08-29
+review_fingerprint: 041d1f9a7be6d597bfbab1a0686ba1d89988d56b4f1c995c1140071751ceb718
+routing_manifest_sha256: 23602eb5504037190dcc20c0e56831c63bf2e19aec36fe6e427e89d027474532
 ontap_region: Norfolk
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 15
-- Selected: 8
+- Records: 14
+- Selected: 7
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 7
@@ -79,21 +79,6 @@ factual_fingerprint: 143b7a8d39f562c4fbb73c37bf1ced97141434d5d5480a6c8bf6dc17b16
 source: Teaching Vacancies
 source_job_id: attendance-officer-diss-church-of-england-junior-academy-diss
 source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-diss-church-of-england-junior-academy-diss
----
-
----
-action: 
-SELECTED | Norfolk | Norwich, East of England, NR2 2LJ | £24,848 - £25,163 per annum | Office Administrator
-employer: Norwich City College of Further and Higher Education
-closing_date: 2026-08-28T23:59:00+01:00
-reason: Clear admin/service title: administrator, office administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: f1978ded33cdad6343e35faf44e91833e70b62b58447cc5b43f7775bc68490dd
-source: Teaching Vacancies
-source_job_id: office-administrator-norwich-city-college-of-further-and-higher-education
-source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-norwich-city-college-of-further-and-higher-education
 ---
 
 ---

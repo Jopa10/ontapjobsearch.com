@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — London
 
-review_date: 2026-08-28
-review_fingerprint: f02e2b33f7ae4dd942605a6e26a9493c946734107f0e6d760e0fb3d961446fc8
-routing_manifest_sha256: 319c5a159b13cd15a9073bbd5d31193b7d3aeabc88d7df4944052f911468430b
+review_date: 2026-08-29
+review_fingerprint: 1b5ac46aeb8ebbe4a46814a771eaabb8439ce08c2805e9ea7dc5fd3300ad5951
+routing_manifest_sha256: 23602eb5504037190dcc20c0e56831c63bf2e19aec36fe6e427e89d027474532
 ontap_region: London
 slice_category: admin_service
 slice_status: LIVE
@@ -128,6 +128,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-administrator
 
 ---
 action: 
+SELECTED | London | London, London, SW16 6NP | Grade 3 - Salary Spine point 5 to 6 - £31,086 to £31,530 (actual £28,592 to £29,002) | Office Administrator
+employer: St Leonard's Church of England Primary School
+closing_date: 2026-09-11T15:00:00+01:00
+reason: Clear admin/service title: administrator, office administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: dfb8614e8859acc9e446d1f3a5130b800f5a77f9bf4b14abbd10dba60aa9a134
+source: Teaching Vacancies
+source_job_id: office-administrator-st-leonard-s-church-of-england-primary-school-london
+source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-st-leonard-s-church-of-england-primary-school-london
+---
+
+---
+action: 
 SELECTED | London | London, London, W1U 5BA | NJC points 16 - 25, depending on experience: £36,422 - £41,636 pa | PA to the SLT, including data systems & communications
 employer: The St Marylebone CofE School
 closing_date: 2026-09-09T09:00:00+01:00
@@ -139,21 +154,6 @@ factual_fingerprint: d1ca0eca4ded7126afdc3064ae6ce11fdb8fed91fc5f95a895e079dd834
 source: Teaching Vacancies
 source_job_id: pa-to-the-slt-including-data-systems-communications
 source_url: https://teaching-vacancies.service.gov.uk/jobs/pa-to-the-slt-including-data-systems-communications
----
-
----
-action: 
-SELECTED | London | Harrow, London, HA2 9AG | £14,166.00 Annually (Actual) | Receptionist & Admin Assistant
-employer: Heathland School
-closing_date: 2026-09-06T23:59:00+01:00
-reason: Clear admin/service title: admin assistant, receptionist
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: d54c6e19d2b224f68173e20840ff699b0c8319fd95ee37c0e1301d48c17f55c9
-source: Teaching Vacancies
-source_job_id: receptionist-admin-assistant-heathland-school-harrow-middlesex
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-admin-assistant-heathland-school-harrow-middlesex
 ---
 
 ---
@@ -301,7 +301,7 @@ closing_date: 2026-09-11T23:59:00+01:00
 reason: Possible JobG8 duplicate requires review
 jobg8_check: POSSIBLE_DUPLICATE
 slice_status: LIVE
-migration_status: REVIEW_REQUIRED_DUPLICATE
+migration_status: 
 factual_fingerprint: d4f0fcdc2eeb963913798ea0bea40d4bad32b3547b5c16bb487fc17d452e5198
 source: Teaching Vacancies
 source_job_id: administrative-assistant-pathways-school
@@ -316,7 +316,7 @@ closing_date: 2026-09-04T12:00:00+01:00
 reason: Possible JobG8 duplicate requires review
 jobg8_check: POSSIBLE_DUPLICATE
 slice_status: LIVE
-migration_status: REVIEW_REQUIRED_DUPLICATE
+migration_status: 
 factual_fingerprint: e0392ecbc9151c14ff733a0a4a1b873316d5eb6767a8c9db6d6c5dd624dcf418
 source: Teaching Vacancies
 source_job_id: administrative-assistant-ranelagh-primary-school
@@ -331,7 +331,7 @@ closing_date: 2026-09-04T08:00:00+01:00
 reason: Possible JobG8 duplicate requires review
 jobg8_check: POSSIBLE_DUPLICATE
 slice_status: LIVE
-migration_status: REVIEW_REQUIRED_DUPLICATE
+migration_status: 
 factual_fingerprint: 22f8de45fd278861069530f2cdb5e5348b7af0ebb81215ef2beffb4cc3450566
 source: Teaching Vacancies
 source_job_id: administrator-summerswood-primary-school
@@ -370,32 +370,32 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/executive-assistant-d
 
 ---
 action: 
-POSS | London | London, London, SW16 6NP | Grade 3 - Salary Spine point 5 to 6 - £31,086 to £31,530 (actual £28,592 to £29,002) | Office Administrator
-employer: St Leonard's Church of England Primary School
-closing_date: 2026-09-11T15:00:00+01:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: REVIEW_REQUIRED_DUPLICATE
-factual_fingerprint: dfb8614e8859acc9e446d1f3a5130b800f5a77f9bf4b14abbd10dba60aa9a134
-source: Teaching Vacancies
-source_job_id: office-administrator-st-leonard-s-church-of-england-primary-school-london
-source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-st-leonard-s-church-of-england-primary-school-london
----
-
----
-action: 
 POSS | London | London, W12 7TF | £20,971.00 - £21,300.00 pro rata (£24,796.00 - £25,185.00 FTE)per annum | Receptionist
 employer: Ark Schools
 closing_date: 2026-08-31T10:00:00+01:00
 reason: Possible JobG8 duplicate requires review
 jobg8_check: POSSIBLE_DUPLICATE
 slice_status: LIVE
-migration_status: REVIEW_REQUIRED_DUPLICATE
+migration_status: 
 factual_fingerprint: 35c4f90518b55d25858697057bda9c04097f0e7516f1840f69c771a5ad02caff
 source: Teaching Vacancies
 source_job_id: receptionist-the-king-s-school-pontefract-west-yorkshire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-the-king-s-school-pontefract-west-yorkshire
+---
+
+---
+action: 
+POSS | London | Harrow, London, HA2 9AG | £14,166.00 Annually (Actual) | Receptionist & Admin Assistant
+employer: Heathland School
+closing_date: 2026-09-06T23:59:00+01:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: d54c6e19d2b224f68173e20840ff699b0c8319fd95ee37c0e1301d48c17f55c9
+source: Teaching Vacancies
+source_job_id: receptionist-admin-assistant-heathland-school-harrow-middlesex
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-admin-assistant-heathland-school-harrow-middlesex
 ---
 
 ---
@@ -406,7 +406,7 @@ closing_date: 2026-09-09T23:59:00+01:00
 reason: Possible JobG8 duplicate requires review
 jobg8_check: POSSIBLE_DUPLICATE
 slice_status: LIVE
-migration_status: REVIEW_REQUIRED_DUPLICATE
+migration_status: 
 factual_fingerprint: 7a4b7b4eb302d24281f450f61dd21993ce3967b01b89d0aa99a1f4a0776b8272
 source: Teaching Vacancies
 source_job_id: receptionist-administrator-belleville-wix-academy-london
@@ -421,7 +421,7 @@ closing_date: 2026-09-04T00:00:00+01:00
 reason: Possible JobG8 duplicate requires review
 jobg8_check: POSSIBLE_DUPLICATE
 slice_status: LIVE
-migration_status: REVIEW_REQUIRED_DUPLICATE
+migration_status: 
 factual_fingerprint: 9c6ac77c14a552c4ef0813081b482a6769628f73926100a12cfe6c0f934f4dc1
 source: Teaching Vacancies
 source_job_id: school-administrator-nishkam-school-west-london

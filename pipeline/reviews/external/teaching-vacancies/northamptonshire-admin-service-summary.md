@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Northamptonshire
 
-review_date: 2026-08-28
-review_fingerprint: fcd44a33ee51f4027be7314728c9514dea5236832e6d5deaec9c0d924b38c90d
-routing_manifest_sha256: 319c5a159b13cd15a9073bbd5d31193b7d3aeabc88d7df4944052f911468430b
+review_date: 2026-08-29
+review_fingerprint: 43e0b994095f66529259178a3cff8d0d3d5d305bc91e97c22ba370358d5666ec
+routing_manifest_sha256: 23602eb5504037190dcc20c0e56831c63bf2e19aec36fe6e427e89d027474532
 ontap_region: Northamptonshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 7
-- Selected: 3
+- Records: 6
+- Selected: 2
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 4
@@ -49,21 +49,6 @@ factual_fingerprint: c0bebdbecc75f67eead992acddb4bef3f818090c26a3a43fc6b8a897324
 source: Teaching Vacancies
 source_job_id: attendance-officer-studfall-infant-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-studfall-infant-academy
----
-
----
-action: 
-SELECTED | Northamptonshire | Northampton, East Midlands, NN2 6LR | £26,824.00 - £28,598.00 Annually (Actual) | Receptionist / Administrator
-employer: Northgate School Academy Trust
-closing_date: 2026-08-28T23:59:00+01:00
-reason: Clear admin/service title: administrator, receptionist
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 3b555bf9bd1c88c9d649ed9e4f14d04a7c2fc4e373769b329bcabc9fdd21b0e2
-source: Teaching Vacancies
-source_job_id: receptionist-administrator-northgate-school-academy-trust
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrator-northgate-school-academy-trust
 ---
 
 ## POSS — choose SELECT or EXCLUDE

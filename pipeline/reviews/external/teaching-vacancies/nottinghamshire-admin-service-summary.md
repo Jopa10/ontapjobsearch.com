@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Nottinghamshire
 
-review_date: 2026-08-28
-review_fingerprint: 891f5111ba475f697e307acffaeef3ac2253a49aed8129480926d3316451ac34
-routing_manifest_sha256: 319c5a159b13cd15a9073bbd5d31193b7d3aeabc88d7df4944052f911468430b
+review_date: 2026-08-29
+review_fingerprint: b7dce2b45cf1f6a17f9bf116e3585c3cee033ef2bdf177d60e252d90203119e3
+routing_manifest_sha256: 23602eb5504037190dcc20c0e56831c63bf2e19aec36fe6e427e89d027474532
 ontap_region: Nottinghamshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 18
+- Records: 19
 - Selected: 3
-- POSS awaiting decision: 2
+- POSS awaiting decision: 3
 - Excluded: 0
 - Hard pass: 13
 
@@ -85,13 +85,28 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-assistant-south
 
 ---
 action: 
+POSS | Nottinghamshire | Nottingham, East Midlands, NG12 2FQ | Redhill Academy Trust Pay Scale, Band 6, Scale point 29 - 32 | House Support Asisstant
+employer: South Nottinghamshire Academy
+closing_date: 2026-09-04T12:00:00+01:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: e3e5d2ae25c785ab06eb065f9bbf094a44c7c9f65438c997a24f348d0ae16fee
+source: Teaching Vacancies
+source_job_id: house-support-asisstant
+source_url: https://teaching-vacancies.service.gov.uk/jobs/house-support-asisstant
+---
+
+---
+action: 
 POSS | Nottinghamshire | Nottingham, NG9 6RZ | £27,709.00 - £29,541.00 Annually (Actual) NJC8-12 | HR Administrator
 employer: The Spencer Academies Trust
 closing_date: 2026-08-31T12:00:00+01:00
 reason: Possible JobG8 duplicate requires review
 jobg8_check: POSSIBLE_DUPLICATE
 slice_status: LIVE
-migration_status: REVIEW_REQUIRED_DUPLICATE
+migration_status: 
 factual_fingerprint: 1c8afe35cf3a9c8cd77715cbf45bd486d318efa025e9af61948f522da06bbeb9
 source: Teaching Vacancies
 source_job_id: hr-administrator-the-spencer-academies-trust

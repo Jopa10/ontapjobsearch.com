@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cumbria - North
 
-review_date: 2026-08-28
+review_date: 2026-08-29
 review_fingerprint: 4f2a3a555356562f245ce78e47e0e0730c5f5149bd6f442ba4eec39194a7211b
-routing_manifest_sha256: 319c5a159b13cd15a9073bbd5d31193b7d3aeabc88d7df4944052f911468430b
+routing_manifest_sha256: 23602eb5504037190dcc20c0e56831c63bf2e19aec36fe6e427e89d027474532
 ontap_region: Cumbria - North
 slice_category: admin_service
 slice_status: UNREGISTERED

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Kent
 
-review_date: 2026-08-28
+review_date: 2026-08-29
 review_fingerprint: 07bfa10958ce0363e28637183766f2cad08c5ee4915f318e0e82dcc7d480432f
-routing_manifest_sha256: 319c5a159b13cd15a9073bbd5d31193b7d3aeabc88d7df4944052f911468430b
+routing_manifest_sha256: 23602eb5504037190dcc20c0e56831c63bf2e19aec36fe6e427e89d027474532
 ontap_region: Kent
 slice_category: admin_service
 slice_status: LIVE
@@ -76,7 +76,7 @@ closing_date: 2026-09-07T23:59:00+01:00
 reason: Possible JobG8 duplicate requires review
 jobg8_check: POSSIBLE_DUPLICATE
 slice_status: LIVE
-migration_status: REVIEW_REQUIRED_DUPLICATE
+migration_status: 
 factual_fingerprint: 7e95f87de0e98b48358bf305bb31f93a7036a56578e206c6958529a65d86d2c8
 source: Teaching Vacancies
 source_job_id: hr-administrator-the-diocese-of-canterbury-academies-trust
