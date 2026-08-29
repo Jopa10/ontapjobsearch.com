@@ -2,11 +2,11 @@
 
 Feed: **2026-08-29.xlsx**
 Jobs in feed: **10,000**
-Raw broad possible universe before exclusions/dedupe: **81**
+Raw broad possible universe before exclusions/dedupe: **78**
 Reference-key duplicates within broad universe: **0**
-Reference-deduped broad universe: **81**
+Reference-deduped broad universe: **78**
 Additional cross-reference content duplicates: **0**
-Content-unique broad universe: **81**
+Content-unique broad universe: **78**
 
 This is discovery evidence only. JobG8 classification is reported but never used as a candidate gate.
 All source rows remain in the CSV with duplicate flags; viability, geography and recurrence use content-unique adverts.
@@ -14,10 +14,10 @@ Salary rule applied diagnostically: **over £50,000 = OUT; exactly £50,000 is n
 
 ## Early volume viability gate
 
-Provisional LIKELY_IN: **68**
+Provisional LIKELY_IN: **65**
 Provisional BORDERLINE: **2**
 Provisional OUT (specialist/salary): **11**
-Estimated genuine inventory before deep advert review: **~69** (working range **68–70**).
+Estimated genuine inventory before deep advert review: **~66** (working range **65–67**).
 Viability floor: **~100 genuine jobs nationally**.
 Early verdict: **STOP / VERY THIN**.
 
@@ -25,7 +25,7 @@ Early verdict: **STOP / VERY THIN**.
 
 | Decision | Content-unique jobs |
 |---|---:|
-| LIKELY_IN | 68 |
+| LIKELY_IN | 65 |
 | OUT_SPECIALIST | 7 |
 | OUT_SALARY | 4 |
 | BORDERLINE | 2 |
@@ -34,7 +34,7 @@ Early verdict: **STOP / VERY THIN**.
 
 | Salary bucket | Jobs |
 |---|---:|
-| £25k–£30k | 44 |
+| £25k–£30k | 41 |
 | £30k–£40k | 14 |
 | missing/unknown | 13 |
 | >£50,000 OUT | 4 |
@@ -47,23 +47,23 @@ Classification column: **/Job/Classification**
 
 | JobG8 classification | Jobs |
 |---|---:|
-| Legal | 66 |
-| Administration | 14 |
+| Legal | 64 |
+| Administration | 13 |
 | Call Centre / CustomerService | 1 |
 
 ## Geography — evidence only, not an occupational gate
 
 Canonical UK assessment universe: **78 markets**.
-Content-unique candidates mapping into that UK market universe: **79**.
+Content-unique candidates mapping into that UK market universe: **76**.
 Content-unique candidates outside it or unresolved: **2**.
 The national occupational discovery count above is not reduced by geography. Geography is used only to describe spread after occupational candidate discovery.
 Exact detail aliases are rolled up to their canonical UK assessment market; ambiguous generic geo values remain unresolved rather than being forced into the wrong market.
 
 | Assessable market / geo result | Jobs | In UK market universe? |
 |---|---:|---|
-| London | 12 | YES |
-| Yorkshire - South | 5 | YES |
-| Yorkshire - West | 5 | YES |
+| London | 10 | YES |
+| Yorkshire - South | 6 | YES |
+| Yorkshire - West | 4 | YES |
 | Greater Manchester - Manchester & Salford | 4 | YES |
 | Shropshire | 3 | YES |
 | Bedfordshire | 3 | YES |
@@ -79,7 +79,6 @@ Exact detail aliases are rolled up to their canonical UK assessment market; ambi
 | Essex | 2 | YES |
 | Oxfordshire | 2 | YES |
 | Other / Unknown | 2 | NO |
-| West Midlands - Black Country | 2 | YES |
 | Scotland Central - Tayside | 1 | YES |
 | Devon | 1 | YES |
 | Hertfordshire | 1 | YES |
@@ -91,6 +90,7 @@ Exact detail aliases are rolled up to their canonical UK assessment market; ambi
 | Hampshire | 1 | YES |
 | Cambridgeshire | 1 | YES |
 | Scotland Central - Edinburgh & Lothians | 1 | YES |
+| Wales - West | 1 | YES |
 
 ## Next gate
 

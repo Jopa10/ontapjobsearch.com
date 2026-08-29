@@ -34,9 +34,9 @@ Early verdict: **GO TO BOUNDARY SAMPLE / SCALE PLAUSIBLE**.
 
 | Salary bucket | Jobs |
 |---|---:|
-| missing/unknown | 65 |
+| missing/unknown | 64 |
 | £30k–£40k | 41 |
-| £25k–£30k | 27 |
+| £25k–£30k | 28 |
 | £40k–£50,000 | 12 |
 | >£50,000 OUT | 12 |
 | <£25k | 1 |
@@ -47,8 +47,8 @@ Classification column: **/Job/Classification**
 
 | JobG8 classification | Jobs |
 |---|---:|
-| I.T. & Communications | 140 |
-| Administration | 12 |
+| I.T. & Communications | 139 |
+| Administration | 13 |
 | Call Centre / CustomerService | 3 |
 | Real Estate & Property | 1 |
 | Sales & Marketing | 1 |
@@ -81,19 +81,19 @@ Exact detail aliases are rolled up to their canonical UK assessment market; ambi
 | Leicestershire | 3 | YES |
 | West Midlands - Black Country | 3 | YES |
 | Wiltshire | 3 | YES |
+| Bristol & Bath | 3 | YES |
 | Greater Manchester - Manchester & Salford | 3 | YES |
 | Norfolk | 3 | YES |
 | Worcestershire | 2 | YES |
 | Derbyshire | 2 | YES |
-| Wales South - Swansea Bay | 2 | YES |
 | North East | 2 | YES |
 | Sussex | 2 | YES |
 | Yorkshire - South | 2 | YES |
-| Bristol & Bath | 2 | YES |
 | West Midlands - Coventry & Warwickshire | 2 | YES |
 | Oxfordshire | 2 | YES |
 | Cambridgeshire | 2 | YES |
 | Lincolnshire | 1 | YES |
+| South West | 1 | NO |
 
 ## Next gate
 

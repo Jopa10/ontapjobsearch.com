@@ -4,8 +4,8 @@ Feed: **2026-08-29.xlsx**
 Jobs in feed: **10,000**
 Broad insurance/claims candidates: **101**
 Core support candidates: **15**
-Boundary-review candidates: **36**
-Specialist/senior exclusions at discovery stage: **50**
+Boundary-review candidates: **35**
+Specialist/senior exclusions at discovery stage: **51**
 
 Diagnostic only: this report does not change any Ontap publication or family-selection rule.
 
@@ -13,9 +13,9 @@ Diagnostic only: this report does not change any Ontap publication or family-sel
 
 | Decision | Jobs |
 |---|---:|
-| EXCLUDE_SPECIALIST | 50 |
+| EXCLUDE_SPECIALIST | 51 |
 | REVIEW_OTHER_INSURANCE | 19 |
-| REVIEW_ACCOUNT_HANDLER | 14 |
+| REVIEW_ACCOUNT_HANDLER | 13 |
 | CORE_CLAIMS_SUPPORT | 8 |
 | CORE_INSURANCE_SUPPORT | 7 |
 | REVIEW_CLAIMS_TECHNICAL | 2 |
@@ -57,7 +57,6 @@ Hourly/daily/weekly figures are annualised approximately for discovery only.
 | 2 | Senior Account Handler |
 | 2 | Account Handler |
 | 1 | Claims Specialist |
-| 1 | Trainee Account Handler |
 | 1 | Claims & Dispute Specialist |
 | 1 | Insurance Complaints Team Lead - Remote Working |
 | 1 | Senior Commercial Account Handler |
@@ -66,6 +65,7 @@ Hourly/daily/weekly figures are annualised approximately for discovery only.
 | 1 | Operational Resilience Consultant - Insurance |
 | 1 | Sales Executive Insurance |
 | 1 | Technical Account Handler |
+| 1 | Insurance Apprentice |
 
 ## JobG8 classifications feeding core support
 

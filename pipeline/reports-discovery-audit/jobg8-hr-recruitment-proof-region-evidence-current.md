@@ -7,7 +7,7 @@ This report does not approve proof regions or any LIVE slice. It surfaces the st
 
 - LIKELY_IN: **5**
 - BORDERLINE: **5**
-- Provisional OUT: **18**
+- Provisional OUT: **17**
 
 Most common LIKELY_IN titles:
 
@@ -20,10 +20,10 @@ Most common LIKELY_IN titles:
 Borderline titles:
 
 - Business Support Administrator: 1
-- HR Officer: 1
 - Recruitment Resourcer: 1
 - Help desk Administrator: 1
 - Marketing Assistant (FTC): 1
+- HR and Office Administrator: 1
 
 ## Sussex
 
@@ -60,7 +60,7 @@ Most common LIKELY_IN titles:
 
 - LIKELY_IN: **3**
 - BORDERLINE: **3**
-- Provisional OUT: **5**
+- Provisional OUT: **6**
 
 Most common LIKELY_IN titles:
 
@@ -78,7 +78,7 @@ Borderline titles:
 
 - LIKELY_IN: **3**
 - BORDERLINE: **2**
-- Provisional OUT: **7**
+- Provisional OUT: **6**
 
 Most common LIKELY_IN titles:
 

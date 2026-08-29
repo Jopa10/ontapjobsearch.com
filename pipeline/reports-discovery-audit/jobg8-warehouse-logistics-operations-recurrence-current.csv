@@ -1,6 +1,6 @@
 ﻿market,likely_in,borderline,plausible_including_borderline,out_salary,out_specialist
 Bedfordshire,0,0,0,0,0
-Berkshire,1,2,3,0,1
+Berkshire,1,2,3,0,2
 Bristol & Bath,0,0,0,0,2
 Buckinghamshire,1,0,1,1,1
 Cambridgeshire,1,1,2,0,0
@@ -11,7 +11,7 @@ Cornwall,0,0,0,0,0
 Cumbria - North,0,0,0,0,0
 Cumbria - South,1,0,1,0,0
 Cumbria - West,0,0,0,0,0
-Derbyshire,0,1,1,1,0
+Derbyshire,0,1,1,2,0
 Devon,0,0,0,0,0
 Dorset,0,0,0,0,0
 Essex,0,1,1,0,2
@@ -31,7 +31,7 @@ Lancashire - North,0,0,0,0,0
 Lancashire - West,0,0,0,0,0
 Leicestershire,2,0,2,0,1
 Lincolnshire,1,0,1,0,1
-London,0,2,2,3,2
+London,0,3,3,3,2
 Merseyside - Liverpool,0,0,0,0,0
 Merseyside - Sefton,0,0,0,0,0
 Merseyside - St Helens & Knowsley,0,0,0,0,0

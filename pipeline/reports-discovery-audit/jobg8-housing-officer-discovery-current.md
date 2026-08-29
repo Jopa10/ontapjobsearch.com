@@ -15,9 +15,9 @@ Salary rule applied diagnostically: **over £50,000 = OUT; exactly £50,000 is n
 ## Early volume viability gate
 
 Provisional LIKELY_IN: **26**
-Provisional BORDERLINE: **36**
-Provisional OUT (specialist/salary): **32**
-Estimated genuine inventory before deep advert review: **~44** (working range **26–62**).
+Provisional BORDERLINE: **37**
+Provisional OUT (specialist/salary): **31**
+Estimated genuine inventory before deep advert review: **~44** (working range **26–63**).
 Viability floor: **~100 genuine jobs nationally**.
 Early verdict: **STOP / VERY THIN**.
 
@@ -25,9 +25,9 @@ Early verdict: **STOP / VERY THIN**.
 
 | Decision | Content-unique jobs |
 |---|---:|
-| BORDERLINE | 36 |
+| BORDERLINE | 37 |
 | LIKELY_IN | 26 |
-| OUT_SALARY | 20 |
+| OUT_SALARY | 19 |
 | OUT_SPECIALIST | 12 |
 
 ## Salary distribution — content-unique broad universe
@@ -36,8 +36,8 @@ Early verdict: **STOP / VERY THIN**.
 |---|---:|
 | missing/unknown | 24 |
 | £25k–£30k | 21 |
-| >£50,000 OUT | 20 |
-| £30k–£40k | 18 |
+| £30k–£40k | 19 |
+| >£50,000 OUT | 19 |
 | <£25k | 7 |
 | £40k–£50,000 | 4 |
 
@@ -61,25 +61,25 @@ Classification column: **/Job/Classification**
 ## Geography — evidence only, not an occupational gate
 
 Canonical UK assessment universe: **78 markets**.
-Content-unique candidates mapping into that UK market universe: **85**.
-Content-unique candidates outside it or unresolved: **9**.
+Content-unique candidates mapping into that UK market universe: **86**.
+Content-unique candidates outside it or unresolved: **8**.
 The national occupational discovery count above is not reduced by geography. Geography is used only to describe spread after occupational candidate discovery.
 Exact detail aliases are rolled up to their canonical UK assessment market; ambiguous generic geo values remain unresolved rather than being forced into the wrong market.
 
 | Assessable market / geo result | Jobs | In UK market universe? |
 |---|---:|---|
 | London | 12 | YES |
-| Other / Unknown | 9 | NO |
+| Other / Unknown | 8 | NO |
 | Greater Manchester - Manchester & Salford | 7 | YES |
 | Oxfordshire | 6 | YES |
 | Surrey | 5 | YES |
 | Devon | 4 | YES |
 | Dorset | 4 | YES |
 | Hampshire | 4 | YES |
+| Bristol & Bath | 4 | YES |
 | Essex | 3 | YES |
 | Wiltshire | 3 | YES |
 | Sussex | 3 | YES |
-| Bristol & Bath | 3 | YES |
 | Cheshire - Warrington & Halton | 2 | YES |
 | Northamptonshire | 2 | YES |
 | Cambridgeshire | 2 | YES |

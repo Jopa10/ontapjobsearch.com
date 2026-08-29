@@ -1,6 +1,6 @@
 # JobG8 Accounts & Finance Operations proof-region evidence candidates
 
-Content-unique national LIKELY_IN + BORDERLINE inventory: **182** against viability floor **100**.
+Content-unique national LIKELY_IN + BORDERLINE inventory: **181** against viability floor **100**.
 This report does not approve proof regions or any LIVE slice. It surfaces the strongest current markets for human boundary inspection after national discovery.
 
 ## Devon
@@ -41,7 +41,7 @@ Most common LIKELY_IN titles:
 
 - LIKELY_IN: **9**
 - BORDERLINE: **0**
-- Provisional OUT: **14**
+- Provisional OUT: **13**
 
 Most common LIKELY_IN titles:
 

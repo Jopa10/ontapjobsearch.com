@@ -1,6 +1,6 @@
 # JobG8 Marketing proof-region evidence candidates
 
-Content-unique national LIKELY_IN + BORDERLINE inventory: **153** against viability floor **100**.
+Content-unique national LIKELY_IN + BORDERLINE inventory: **150** against viability floor **100**.
 This report does not approve proof regions or any LIVE slice. It surfaces the strongest current markets for human boundary inspection after national discovery.
 
 ## London
@@ -55,21 +55,6 @@ Borderline titles:
 - Paid Media Manager Hybrid: 1
 - SEO Account Manager: 1
 
-## Hampshire
-
-- LIKELY_IN: **6**
-- BORDERLINE: **0**
-- Provisional OUT: **1**
-
-Most common LIKELY_IN titles:
-
-- Commercial (Trade) Marketing Manager: 1
-- Campaigns & Marketing Associate: 1
-- Digital Marketing Executive: 1
-- Temp Digital Marketing Administrator: 1
-- Marketing Manager: 1
-- Ecommerce Administrator: 1
-
 ## Berkshire
 
 - LIKELY_IN: **5**
@@ -88,6 +73,20 @@ Borderline titles:
 
 - PPC Executive: 1
 - Marketing Events Specialist: 1
+
+## Hampshire
+
+- LIKELY_IN: **5**
+- BORDERLINE: **0**
+- Provisional OUT: **1**
+
+Most common LIKELY_IN titles:
+
+- Commercial (Trade) Marketing Manager: 1
+- Campaigns & Marketing Associate: 1
+- Digital Marketing Executive: 1
+- Temp Digital Marketing Administrator: 1
+- Ecommerce Administrator: 1
 
 ## Yorkshire - North
 

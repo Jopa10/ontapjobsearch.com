@@ -3,7 +3,7 @@
 Canonical UK assessment universe: **78 markets**.
 Counts use content-unique adverts after source-reference dedupe.
 LIKELY_IN jobs mapped into the universe: **26**.
-BORDERLINE jobs mapped into the universe: **36**.
+BORDERLINE jobs mapped into the universe: **37**.
 Markets with at least one LIKELY_IN job: **20 / 78**.
 
 Descriptive current-feed spread only — these thresholds do not activate a slice:
@@ -19,9 +19,9 @@ Descriptive current-feed spread only — these thresholds do not activate a slic
 | Greater Manchester - Manchester & Salford | 2 | 4 | 6 |
 | Dorset | 2 | 1 | 3 |
 | Essex | 2 | 0 | 2 |
+| Bristol & Bath | 1 | 2 | 3 |
 | Hampshire | 1 | 2 | 3 |
 | Sussex | 1 | 2 | 3 |
-| Bristol & Bath | 1 | 1 | 2 |
 | Devon | 1 | 1 | 2 |
 | Hertfordshire | 1 | 1 | 2 |
 | Kent | 1 | 1 | 2 |

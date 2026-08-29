@@ -1,7 +1,7 @@
 ﻿market,likely_in,borderline,plausible_including_borderline,out_salary,out_specialist
 Bedfordshire,0,0,0,0,0
 Berkshire,3,3,6,1,0
-Bristol & Bath,0,2,2,0,0
+Bristol & Bath,1,2,3,0,0
 Buckinghamshire,0,1,1,0,0
 Cambridgeshire,2,0,2,0,0
 Cheshire - East,0,0,0,0,0
@@ -73,7 +73,7 @@ Wales - Mid,0,0,0,0,0
 Wales - West,0,0,0,0,0
 Wales South - Cardiff & Vale,0,0,0,1,0
 Wales South - Gwent,0,0,0,0,0
-Wales South - Swansea Bay,2,0,2,0,0
+Wales South - Swansea Bay,1,0,1,0,0
 Wales South - Valleys,0,0,0,0,0
 Northern Ireland - East,2,2,4,0,0
 Northern Ireland - West,0,0,0,0,0

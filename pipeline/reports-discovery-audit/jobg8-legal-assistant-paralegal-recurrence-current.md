@@ -2,7 +2,7 @@
 
 Canonical UK assessment universe: **78 markets**.
 Counts use content-unique adverts after source-reference dedupe.
-LIKELY_IN jobs mapped into the universe: **67**.
+LIKELY_IN jobs mapped into the universe: **64**.
 BORDERLINE jobs mapped into the universe: **2**.
 Markets with at least one LIKELY_IN job: **33 / 78**.
 
@@ -15,8 +15,8 @@ Descriptive current-feed spread only — these thresholds do not activate a slic
 
 | Market | LIKELY_IN | BORDERLINE | Plausible incl. borderline |
 |---|---:|---:|---:|
-| London | 8 | 0 | 8 |
-| Yorkshire - West | 5 | 0 | 5 |
+| London | 7 | 0 | 7 |
+| Yorkshire - West | 4 | 0 | 4 |
 | Bedfordshire | 3 | 0 | 3 |
 | Kent | 3 | 0 | 3 |
 | Shropshire | 3 | 0 | 3 |
@@ -31,7 +31,6 @@ Descriptive current-feed spread only — these thresholds do not activate a slic
 | Northern Ireland - East | 2 | 0 | 2 |
 | Nottinghamshire | 2 | 0 | 2 |
 | Oxfordshire | 2 | 0 | 2 |
-| West Midlands - Black Country | 2 | 0 | 2 |
 | Bristol & Bath | 1 | 0 | 1 |
 | Cambridgeshire | 1 | 0 | 1 |
 | Cheshire - Warrington & Halton | 1 | 0 | 1 |
@@ -45,5 +44,6 @@ Descriptive current-feed spread only — these thresholds do not activate a slic
 | Scotland Central - Tayside | 1 | 0 | 1 |
 | Scotland West - Ayrshire | 1 | 0 | 1 |
 | Sussex | 1 | 0 | 1 |
+| Wales South - Cardiff & Vale | 1 | 0 | 1 |
 
 This report is diagnostic evidence only. New-family LIVE activation remains an explicit owner decision after the governed family boundary and national validation are complete.

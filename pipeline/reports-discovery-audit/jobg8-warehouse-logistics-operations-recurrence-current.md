@@ -3,7 +3,7 @@
 Canonical UK assessment universe: **78 markets**.
 Counts use content-unique adverts after source-reference dedupe.
 LIKELY_IN jobs mapped into the universe: **16**.
-BORDERLINE jobs mapped into the universe: **20**.
+BORDERLINE jobs mapped into the universe: **21**.
 Markets with at least one LIKELY_IN job: **14 / 78**.
 
 Descriptive current-feed spread only — these thresholds do not activate a slice:
@@ -29,7 +29,7 @@ Descriptive current-feed spread only — these thresholds do not activate a slic
 | Lincolnshire | 1 | 0 | 1 |
 | Oxfordshire | 1 | 0 | 1 |
 | Scotland Central - Tayside | 1 | 0 | 1 |
-| London | 0 | 2 | 2 |
+| London | 0 | 3 | 3 |
 | Derbyshire | 0 | 1 | 1 |
 | Essex | 0 | 1 | 1 |
 | Lancashire - East | 0 | 1 | 1 |
