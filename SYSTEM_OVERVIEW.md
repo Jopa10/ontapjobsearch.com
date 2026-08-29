@@ -1,12 +1,13 @@
 # Ontap System Overview
 
-**Last updated:** 28 August 2026
-**Status:** Canonical production state including live-site reporting reconciliation and Teaching Vacancies regional publish isolation.
+**Last updated:** 29 August 2026
+**Status:** Canonical production state including owner-facing JobG8 selection auditing, live-site reporting reconciliation and Teaching Vacancies regional publish isolation.
 
 This is the short owner view of how Ontap is organised. It mirrors the five canonical system buckets in `SYSTEM_MAP.md`.
 
 ## Recent canonical changes
 
+- 29 August 2026 — The manually run JobG8 discovery audit now supplies a downloadable Excel/CSV of every feed row, including source details, salary band, family evidence and why it is published, withheld, rejected or unmatched. It is an inspection report only and cannot change the live site.
 - 28 August 2026 — **Warehouse & Logistics Operations discovery is running, with nothing activated:** the deliberately narrow seam covers warehouse/transport/logistics administration and coordination, stock or inventory control, goods-in/despatch administration and routine import/export or shipping operations. Manual warehouse work, driving, management, sales, procurement, technical systems and specialist supply-chain roles are excluded or held for review. The first local 10,000-job baseline found only **28 clear fits plus 24 borderlines**, an absolute pre-review ceiling of 52 against the ~100 national viability floor; the governed current-feed run will confirm whether it should be parked. No catalogue entry, route or LIVE market exists.
 - 28 August 2026 — **The daily regional overview now accounts for everything currently live:** it shows unique JobG8 and non-JobG8 totals, every provider separately, jobs appearing on multiple slices, extra slice placements and any job left outside a governed slice. The totals reconcile unique jobs back to all regional/category placements, while a stale dated source-count CSV is clearly flagged rather than silently driving the headline. Customer Service / Contact Centre is added as the eighth LIVE/NOT LIVE family across all 78 UK markets; no existing LIVE-region decision changes. Future providers such as WhatJobs appear automatically in the provider breakdown. The six-job Customer Service measure remains evidence for launching a candidate slice; after explicit LIVE approval, any non-zero governed inventory publishes, preventing Hampshire, London or Staffordshire from being blanked merely because a daily count falls below six.
 - 28 August 2026 — **One to three unavailable Teaching Vacancies regions no longer prevent clean regions publishing:** the England-wide TV publisher names each isolated region and retains its previous live page while verified regions proceed; four or more regional failures stop TV. North East's legitimate detailed NEJobs/VONNE region labels now resolve to the public North East slice, fixing the false missing-base failure. Tampered evidence, ambiguous/malformed outputs, external-only data and recomposition mismatches still stop the whole TV publish.

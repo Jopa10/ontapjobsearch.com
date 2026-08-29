@@ -44,6 +44,9 @@ jobs:
       - name: Install dependencies
         run: python -m pip install --upgrade pip pandas openpyxl boto3
 
+      - name: Test selection-audit exporter
+        run: python -m unittest pipeline.tests.test_jobg8_selection_audit_export
+
       - name: Configure AWS credentials for JobG8 archive
         uses: aws-actions/configure-aws-credentials@v6
         with:
@@ -84,6 +87,16 @@ jobs:
             --input-dir "$JOBG8_AUDIT_INPUT_DIR" \
             --output-dir pipeline/reports-discovery-audit
           cat pipeline/reports-discovery-audit/jobg8-broad-family-reconciliation-current.md >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Build complete JobG8 selection audit workbook
+        run: |
+          set -euo pipefail
+          audit_output="$RUNNER_TEMP/jobg8-selection-audit"
+          python -m pipeline.scripts.jobg8_selection_audit_export \
+            --input-dir "$JOBG8_AUDIT_INPUT_DIR" \
+            --reconciliation-csv pipeline/reports-discovery-audit/jobg8-broad-family-reconciliation-current.csv \
+            --output-dir "$audit_output"
+          echo "JOBG8_SELECTION_AUDIT_OUTPUT=$audit_output" >> "$GITHUB_ENV"
 
       - name: Audit Insurance and Claims Support opportunity
         run: |
@@ -170,5 +183,16 @@ jobs:
         with:
           name: jobg8-discovery-coverage-audit
           path: pipeline/reports-discovery-audit/
+          if-no-files-found: warn
+          retention-days: 30
+
+      - name: Upload complete JobG8 selection audit
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: jobg8-selection-audit
+          path: |
+            ${{ env.JOBG8_SELECTION_AUDIT_OUTPUT }}/jobg8-selection-audit.xlsx
+            ${{ env.JOBG8_SELECTION_AUDIT_OUTPUT }}/jobg8-selection-audit.csv
           if-no-files-found: warn
           retention-days: 30
