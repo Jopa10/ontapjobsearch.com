@@ -63,10 +63,17 @@ export default function Page() {
       sectorFilterEnabled
       compactPageSpacing
       softPageBackground
-      relatedPage={{
-        href: "/job-search/london/paralegal-jobs",
-        prompt: "Looking for legal support work in London?",
-        label: "Paralegal jobs",
+      relatedPages={{
+        heading: "More London jobs",
+        prompt: "Explore other current job types across London.",
+        links: [
+          { href: "/job-search/london/customer-service-jobs", label: "Customer service" },
+          { href: "/job-search/london/customer-sales-jobs", label: "Sales advisor" },
+          { href: "/job-search/london/hr-recruitment-jobs", label: "HR & recruitment" },
+          { href: "/job-search/london/marketing-jobs", label: "Marketing" },
+          { href: "/job-search/london/paralegal-jobs", label: "Paralegal" },
+          { href: "/job-search/london/support-worker", label: "Support worker" },
+        ],
       }}
       browseLinks={{
         heading: "Browse London by area",
