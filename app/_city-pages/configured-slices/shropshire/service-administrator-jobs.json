@@ -47,11 +47,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Systems administration",
-      "Quotations"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "107793081",
@@ -176,11 +172,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Pre-employment administration"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225492971",
@@ -205,12 +197,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Systems administration",
-      "Order processing"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225476021",
@@ -235,12 +222,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Systems administration",
-      "Quotations"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225475092",
@@ -268,27 +250,27 @@
     "posted_date_basis": "ontap_first_published"
   },
   {
-    "job_id": "107800648",
-    "title": "Part-Time Accounts Assistant",
-    "company": "Prince Personnel Limited - Agency - Permanent",
+    "job_id": "107725444",
+    "title": "Assistant Planner",
+    "company": "Persimmon Homes - Agency - Permanent",
     "location": "Shropshire",
     "region": "Shropshire",
     "country": "UK",
     "category": "Admin/Service – Office Support",
     "employment_type": "Permanent",
-    "salary_min": "28000",
-    "salary_max": "28000",
-    "salary_text": "£28000 per year",
-    "posted_date": "2026-08-26",
-    "description": "Part-Time Accounts Assistant\n\nShrewsbury\n\nPermanent\n\nWorking hours 24.75 hours per week(flexible)\n\nSalary - £27,000 - £29,000 pro rata\n\nOur successful, Shrewsbury based, client are looking for a Part-Time Accounts Assistant on a permanent basis. Reporting to the Accounts Team Leader, this is a varied role working within a small team in a busy environment click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?eq2PR%2bX5ctx0RAKPnKs2xOv1AnDfMvDnp",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "",
+    "posted_date": "2026-08-22",
+    "description": "Location: Telford\n\nLooking for a career where your ambition meets real opportunity? Join Persimmon Homes as an Assistant Planner and step into a role where your success is celebrated, your growth supported, and your work truly matters.\n\nWhy Persimmon Homes?\n\nWe're one of the UK's largest and most established housebuilders - FTSE 100 listed, with 29 regional offices and thousands of quality homes buil click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?nbYVUHO1tX5xIm3AZF42jvpemgvfxwYqz",
     "source": "JobG8",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Prince Personnel Limited",
+    "advertiser_name": "Persimmon Homes",
     "advertiser_type": "Agency",
-    "work_pattern": "Part Time",
+    "work_pattern": "Not Specified",
     "salary_period": "Annual",
     "posted_date_basis": "ontap_first_published"
   },
@@ -309,9 +291,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9301-26-1239",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -331,9 +310,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0132-26-1896",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   }
 ]

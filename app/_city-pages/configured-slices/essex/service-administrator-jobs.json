@@ -162,11 +162,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Shared inboxes",
-      "Records administration"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225473828",
@@ -216,13 +212,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Daily",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Shared inboxes",
-      "Scheduling and bookings",
-      "Systems administration"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225446746",
@@ -297,11 +287,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Systems administration"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225534717",
@@ -376,13 +362,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Email handling",
-      "Data entry",
-      "Document preparation",
-      "Order processing"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225461819",
@@ -407,11 +387,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Email handling",
-      "Document preparation"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225464133",
@@ -461,12 +437,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Email handling",
-      "Scheduling and bookings",
-      "Reporting"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225473584",
@@ -491,11 +462,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Part Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Shared inboxes",
-      "Records administration"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225472719",
@@ -520,11 +487,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Data entry"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225474041",
@@ -574,12 +537,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Email handling",
-      "Systems administration",
-      "Document preparation"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225512952",
@@ -654,11 +612,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Quotations"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225523466",
@@ -711,31 +665,6 @@
     "posted_date_basis": "ontap_first_published"
   },
   {
-    "job_id": "107899589",
-    "title": "Service Accounts Administrator",
-    "company": "Spider - Agency - Permanent",
-    "location": "Essex",
-    "region": "Essex",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "30000",
-    "salary_max": "30000",
-    "salary_text": "£30000 per year",
-    "posted_date": "2026-08-26",
-    "description": "Service Accounts Administrator - Spider is advertising on behalf of a well-established and growing transport refrigeration company who are looking for a Service Accounts Administrator to join their busy service team on a full-time, permanent basis, based in Colchester, Essex.\n\nFantastic company benefits include:\n- Salary: £28,000 - £30,000 per annum, depending on experience\n- Holiday: 25 days annual leave click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?Zg1fD7qgbpxVVOY2v%2bBPUUzQshn9MaCQe",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Spider",
-    "advertiser_type": "Agency",
-    "work_pattern": "Full Time",
-    "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
-  },
-  {
     "job_id": "23643_225538784",
     "title": "Order Processing Administrator",
     "company": "Office Angels - Agency - Permanent",
@@ -758,14 +687,32 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Scheduling and bookings",
-      "Records administration",
-      "Quotations",
-      "Order processing"
-    ]
+    "posted_date_basis": "ontap_first_published"
+  },
+  {
+    "job_id": "107899589",
+    "title": "Service Accounts Administrator",
+    "company": "Spider - Agency - Permanent",
+    "location": "Essex",
+    "region": "Essex",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "30000",
+    "salary_max": "30000",
+    "salary_text": "£30000 per year",
+    "posted_date": "2026-08-26",
+    "description": "Service Accounts Administrator - Spider is advertising on behalf of a well-established and growing transport refrigeration company who are looking for a Service Accounts Administrator to join their busy service team on a full-time, permanent basis, based in Colchester, Essex.\n\nFantastic company benefits include:\n- Salary: £28,000 - £30,000 per annum, depending on experience\n- Holiday: 25 days annual leave click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?UzhMt9n%2bTsRmWuhpqwu8YsERNP961%2bKsm",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Spider",
+    "advertiser_type": "Agency",
+    "work_pattern": "Full Time",
+    "salary_period": "Annual",
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225464097",
@@ -934,9 +881,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9364-26-0808",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -956,9 +900,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9364-26-0777",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -978,9 +919,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0151-26-0022",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1000,9 +938,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0106-26-0084",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1022,9 +957,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3646-26-0010",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1044,9 +976,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0132-26-1646",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1066,9 +995,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0106-26-0099",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   }
 ]

@@ -131,11 +131,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Document preparation"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225475225",
@@ -210,11 +206,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Telephone handling",
-      "Order processing"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225454192",
@@ -239,11 +231,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Telephone handling",
-      "Order processing"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225478870",
@@ -293,11 +281,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Email handling",
-      "Systems administration"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225515784",
@@ -375,31 +359,6 @@
     "posted_date_basis": "ontap_first_published"
   },
   {
-    "job_id": "107901582",
-    "title": "Accounts Assistant / Accounts Administrator",
-    "company": "TSR Legal - Agency - Permanent",
-    "location": "Wiltshire",
-    "region": "Wiltshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "28000",
-    "salary_max": "28000",
-    "salary_text": "£28000 per year",
-    "posted_date": "2026-08-27",
-    "description": "Accounts Assistant / Accounts Administrator Devizes\n\nDevizes Full-time Permanent Salary dependent on experience\n\nTSR Legal are delighted to be working with a well-established and highly regarded law firm in Wiltshire who are looking to strengthen their accounts team with the appointment of an Accounts Assistant or Accounts Administrator click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?31Q%2fsvDzOVZj2fDm4aM%2b%2f5egdg%2fJ2Rd6j",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "TSR Legal",
-    "advertiser_type": "Agency",
-    "work_pattern": "Full Time",
-    "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
-  },
-  {
     "job_id": "107764572",
     "title": "Care Coordinator",
     "company": "Radfield Home Care Chippenham - Agency - Permanent",
@@ -450,9 +409,9 @@
     "posted_date_basis": "ontap_first_published"
   },
   {
-    "job_id": "107706604",
-    "title": "Learning and Development Coordinator (Hybrid / Remote)",
-    "company": "Essential Employment - Agency - Permanent",
+    "job_id": "107901582",
+    "title": "Accounts Assistant / Accounts Administrator",
+    "company": "TSR Legal - Agency - Permanent",
     "location": "Wiltshire",
     "region": "Wiltshire",
     "country": "UK",
@@ -461,47 +420,22 @@
     "salary_min": "28000",
     "salary_max": "28000",
     "salary_text": "£28000 per year",
-    "posted_date": "2026-08-26",
-    "description": "Learning and Development Coordinator (Hybrid / Remote) needed, £28,077 per annum - Reference:\n\nWe are looking for a candidate to support the delivery of effective learning, providing support and assistance to colleagues on a daily basis.\n\nYou will ideallyhave strong organisation and admin skills and have an understanding of learning and development and the employee lifecycle click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?mDcEDJmYTbwG2A%2fIpCv6Zm3N5Zy%2fVVn1t",
-    "source": "JobG8",
-    "working_arrangement": "hybrid",
-    "working_arrangement_text": "Hybrid working",
-    "working_arrangement_evidence": "Learning and Development Coordinator (Hybrid / Remote) Learning and Development Coordinator (Hybrid / Remote) needed, £28,077 per annum - Reference: We are looking for a candidate to support the delivery of effective learning, providing support and assistance to colleagues on a daily basis.",
-    "advertiser_name": "Essential Employment",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
-  },
-  {
-    "job_id": "107706860",
-    "title": "Accounts Assistant",
-    "company": "Ace Legal - Agency - Permanent",
-    "location": "Wiltshire",
-    "region": "Wiltshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "30000",
-    "salary_max": "30000",
-    "salary_text": "£30000 per year",
-    "posted_date": "2026-08-26",
-    "description": "We are currently recruiting for our client as a preferred supplier, a Law firm with offices across the South. Our client is recognised as one of the leading law firms in the South, with a strong reputation for delivering exceptional client service and building lasting relationships. As the firm continues to grow, they are seeking a proactive and detail-focused Legal Accounts Individual to join the click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?b0ZSEQFKUCICxX5QDOQZuHsvVGgJxNEAl",
+    "posted_date": "2026-08-27",
+    "description": "Accounts Assistant / Accounts Administrator Devizes\n\nDevizes Full-time Permanent Salary dependent on experience\n\nTSR Legal are delighted to be working with a well-established and highly regarded law firm in Wiltshire who are looking to strengthen their accounts team with the appointment of an Accounts Assistant or Accounts Administrator click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?bZCSDJyF3N5wESxKh9H6lQvfgLAmVtbZq",
     "source": "JobG8",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Ace Legal",
+    "advertiser_name": "TSR Legal",
     "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
+    "work_pattern": "Full Time",
     "salary_period": "Annual",
     "posted_date_basis": "ontap_first_published"
   },
   {
-    "job_id": "107888212",
-    "title": "Technical Sales Support",
+    "job_id": "107906394",
+    "title": "Service Advisor",
     "company": "Thrive Group - Agency - Permanent",
     "location": "Wiltshire",
     "region": "Wiltshire",
@@ -511,9 +445,9 @@
     "salary_min": "",
     "salary_max": "",
     "salary_text": "",
-    "posted_date": "2026-08-24",
-    "description": "Thrive Trowbridge are delighted to be working with our established and market leading client near Chippenham who urgently require a Technical Sales Advisor to join their busy team.\nIn this key role, you will be responsible for generating sales revenue for the business, duties will include the following :\n- First point of contact for both new and existing customers\n- Dealing with enquiries, gaining an click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?MQiKzVwZdh15msqVmjX3CFpa1FGeds2gu",
+    "posted_date": "2026-08-29",
+    "description": "Thrive Group are delighted to be working with our client based in Trowbridge who a looking to recruit a Service Advisor on a permanent basis\n\nWhat you will be doing:\n- Greet customers bringing in their vehicle to find out if they any issues.\n- Conduct vehicle inspections and provide detailed reports to customers click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?nbYVUHO1tX58v15eyNty%2fxtX%2bB3d86%2fpz",
     "source": "JobG8",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
@@ -521,31 +455,6 @@
     "advertiser_name": "Thrive Group",
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
-    "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
-  },
-  {
-    "job_id": "107786262",
-    "title": "Accounts Assistant",
-    "company": "Yolk Recruitment Limited - Agency - Permanent",
-    "location": "Wiltshire",
-    "region": "Wiltshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "",
-    "posted_date": "2026-08-24",
-    "description": "Accounts Assistant\n\nLocation: Devizes\nSalary: Competitive + Benefits\nJob Type: Full-time Permanent\n\nAre you an experienced Accounts Assistant looking for your next opportunity within a professional and supportive environment?\n\nWe're working with a well-established organisation that is looking to appoint an Accounts Assistant to join its finance team click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?Yic9job4bS%2bnethc5IkTR13jYpgtMfAec",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Yolk Recruitment Limited",
-    "advertiser_type": "Agency",
-    "work_pattern": "Full Time",
     "salary_period": "Annual",
     "posted_date_basis": "ontap_first_published"
   },
@@ -566,9 +475,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5768-26-0004",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -588,9 +494,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4324-260824",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -610,9 +513,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/L0034-26-3479",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -632,31 +532,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/F0041-8118",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
-  },
-  {
-    "job_id": "nhs-5564650",
-    "source": "NHS Jobs",
-    "title": "Medical Receptionist/Administrator",
-    "company": "Ramsbury & Wanborough Surgery",
-    "advertiser_name": "Ramsbury & Wanborough Surgery",
-    "location": "Marlborough, SN8 2QT, SWINDON, SN4 0DF",
-    "region": "Wiltshire",
-    "salary": "£13.97",
-    "employment_type": "Permanent",
-    "posted_date": "2026-08-27T12:52:42.196504736",
-    "closing_date": "2026-09-10",
-    "description": "Ramsbury & Wanborough Surgery seek a Medical Receptionist/Administrator to join our friendly team. If you are an organised person with good IT and administration skills, enjoy working within a team - this is the job for you! Within this role you will be required to demonstrate compassion and empathy whilst assisting patients with queries and signposting to the most appropriate provider/clinician. This is a very rewarding role and greatly appreciated by our patient population. This is a part time role - minimum 14.5 hours per week with an expectation to pick up additional hours available for holiday/sickness cover. Minimum hours - Thursday 1.30pm to 6.30pm and Friday 8.30am to 6.30pm. Participation on a Saturday morning rota at our Wanborough Surgery - approximately 1 in 5. 5.6 weeks annual leave plus bank holidays and birthday leave. KEY RESPONSIBILITIES Provide high quality front desk reception service to the Practice patient population Share in the general administrative duties associated with operating the Practice Answering the telephone to deal with enquiries, make appointments, transfer calls to appropriate team members etc Signposting patient enquiries to the most relevant clinician/service provider Opening and closing the surgery premises Taking part in team meetings and training Offer support and work together with the whole Practice Team",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0657-26-0002",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0657-26-0002",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   }
 ]
