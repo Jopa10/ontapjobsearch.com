@@ -2,15 +2,39 @@
 
 review_date: 2026-08-29
 
-- Open Administrative & Clerical rows reviewed: 2445
-- Auto/remembered selected: 568
+- Open Administrative & Clerical rows reviewed: 2444
+- Auto/remembered selected: 569
 - Selected HC Tier A: 239
-- Selected HC Tier B: 329
-- POSS awaiting decision: 1546
+- Selected HC Tier B: 330
+- POSS awaiting decision: 1544
 - Excluded: 0
 - HARD_PASS: 331
 
 Edit only each `action:` line for POSS rows. Unchanged decisions are restored by the shared decision ledger.
+
+---
+action:
+POSS | NHS Jobs | Cumbria - South | Barrow in Furness, LA14 2HG | £14.00 | Referral and Pathway Administrator
+source_job_id: 5569926
+title: Referral and Pathway Administrator
+employer: Morecambe Bay Primary Care Collaborative
+region: Cumbria - South
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/B0160-26-0022
+factual_fingerprint: 996372dcf8da138b20bf9af398c75e1c03328c33d2073b08d8acee3dbd2004df
+---
+
+---
+action:
+POSS | NHS Jobs | Norfolk | Wymondham, NR9 4AL | £13.80 | Administrator - Wymondham
+source_job_id: 5569949
+title: Administrator - Wymondham
+employer: Vaccination UK
+region: Norfolk
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/E0106-26-0122
+factual_fingerprint: 3a4cd8790fa44378e2354c33bc96411ea82d047a37658d633229060e51b36d11
+---
 
 ---
 action:
@@ -2546,18 +2570,6 @@ factual_fingerprint: 5f7e034aac4ae4585051a287bc5b4a31201a02bee84b6d65a56800132a6
 
 ---
 action:
-POSS | NHS Jobs | London | Sutton, SM2 5PT | £30630.00 to £32346.00 | GuestRelations& SchedulingAdministrator
-source_job_id: 5566608
-title: GuestRelations& SchedulingAdministrator
-employer: The Royal Marsden NHS Foundation Trust
-region: London
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9282-26-0761
-factual_fingerprint: 85b1ede25c67dc6b4ba435fd7cef02c2d987968e3bf01a35d60b704a4fc98c05
----
-
----
-action:
 POSS | NHS Jobs | — | Arnold, NG5 7EW | £49387.00 to £56515.00 | Clinical Business Analyst Team Leader
 source_job_id: 5566508
 title: Clinical Business Analyst Team Leader
@@ -2638,18 +2650,6 @@ region: Wales South - Swansea Bay
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/H9130-26-0325
 factual_fingerprint: 0cbcbd98b10b93756a958b75f6c42abf6d504cf0232a35403c6e448cb3778359
----
-
----
-action:
-POSS | NHS Jobs | West Midlands - Black Country | Dudley, DY5 1RU | £28392.00 to £31157.00 | Strategic Commissioning and Transformation PA/Project Support Officer
-source_job_id: 5564782
-title: Strategic Commissioning and Transformation PA/Project Support Officer
-employer: The Dudley Group NHS Foundation Trust
-region: West Midlands - Black Country
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9253-26-0413
-factual_fingerprint: 10d5b601ccd03fd126572b2e93a41d4dff4fabe0db355f918cb4d99b6459e372
 ---
 
 ---
@@ -6226,18 +6226,6 @@ region: Merseyside - Liverpool
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9287-26-1336
 factual_fingerprint: 2768488edc869baabe5290d5fd4e2691aa6552ed8076c264049745570dbddafe
----
-
----
-action:
-POSS | NHS Jobs | London | London, N1 5QJ | £31554.00 to £33270.00 | Patient Pathway Assistant
-source_job_id: 5561316
-title: Patient Pathway Assistant
-employer: Homerton Healthcare NHS Foundation Trust
-region: London
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9293-26-0437
-factual_fingerprint: b354d71872976b0ed6b53da48ad22f875b96f25560bccda7a6e4e1d57c1cec5f
 ---
 
 ---
@@ -11158,18 +11146,6 @@ region: Suffolk
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/B0142-26-0023
 factual_fingerprint: dc64665e70463028b6e1447b19b8a2b62c4dbfe24bc89df58777bc91f551f118
----
-
----
-action:
-POSS | NHS Jobs | Bedfordshire | Leighton Buzzard, LU7 2TD | £28392.00 to £31157.00 | Team Administrator - Aspire
-source_job_id: 5549545
-title: Team Administrator - Aspire
-employer: East London NHS Foundation Trust
-region: Bedfordshire
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9363-26-0987
-factual_fingerprint: e6c576805fd1f299b50d7f124ed90b52473671839bfa2bb80fabf64e0ab8bbae
 ---
 
 ---
