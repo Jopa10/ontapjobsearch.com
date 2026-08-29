@@ -1,27 +1,5 @@
 [
   {
-    "job_id": "107494462",
-    "title": "Care Assistants",
-    "company": "Eothen Homes Ltd - Agency - Permanent",
-    "location": "Newcastle Upon Tyne",
-    "region": "North East",
-    "country": "UK",
-    "category": "Support Worker – Wide",
-    "employment_type": "Permanent",
-    "salary_min": "13.84",
-    "salary_max": "13.84",
-    "salary_text": "£13.84 per hour",
-    "posted_date": "2026-08-28",
-    "description": "We currently have an opportunity for a Care Assistant to join Eothen Homes. The successful candidate will be based at our Gosforth care home working 24 hours per week (2 days).\n\nWe are looking for someone who is intuitive and aware of what matters most in life, who can demonstrate compassion and empathy and who is committed to improving the quality of life for older people click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?QHpHeWTcrP5VYPIeoFWHwUnadmBpzOUUy",
-    "source": "JobG8",
-    "advertiser_name": "Eothen Homes Ltd",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published"
-  },
-  {
     "job_id": "23643_225493355",
     "title": "Young Person Support Worker",
     "company": "Prospero Teaching Newcastle Health & Social Care - Agency - Temporary",
@@ -41,12 +19,29 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Daily living support",
-      "Support plans",
-      "Safeguarding"
-    ]
+    "posted_date_basis": "ontap_first_published"
+  },
+  {
+    "job_id": "107854762",
+    "title": "Female Support Worker",
+    "company": "Turning Point - Agency - Permanent",
+    "location": "Newcastle",
+    "region": "North East",
+    "country": "UK",
+    "category": "Support Worker – Wide",
+    "employment_type": "Permanent",
+    "salary_min": "24000",
+    "salary_max": "24000",
+    "salary_text": "£24000 per year",
+    "posted_date": "2026-08-29",
+    "description": "Job Introduction\n\nDo you have a caring nature? Are you looking to make a difference to people's lives? Do you want to work in an environment where no two days are the same? Are you flexible with your working hours? Can you see yourself providing care to adults who need your support?\n\nIf you have answered a big YES to these questions we would love to hear from you click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?ju9emE%2fz0VJtvp2dl%2bSkoiJ4WrJjqHXew",
+    "source": "JobG8",
+    "advertiser_name": "Turning Point",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Annual",
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "107781117",
@@ -89,28 +84,6 @@
     "advertiser_name": "Routes Healthcare (North)",
     "advertiser_type": "Agency",
     "work_pattern": "Part Time",
-    "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published"
-  },
-  {
-    "job_id": "107875285",
-    "title": "Relief Support Worker",
-    "company": "Creative Support - Agency - Contract",
-    "location": "County Durham",
-    "region": "North East",
-    "country": "UK",
-    "category": "Support Worker – Wide",
-    "employment_type": "Contract",
-    "salary_min": "12.85",
-    "salary_max": "12.85",
-    "salary_text": "£12.85 per hour (plus rolled up holiday pay)",
-    "posted_date": "2026-08-26",
-    "description": "Are you seeking a diverse role that is fun, stimulating, and rewarding every day? We're looking to recruit dedicated and enthusiastic Relief Support Workers to join our dynamic and expanding services in Stockton and Billingham.\nAbout Us: Our service offers a variety of support packages designed to aid individuals with mental health needs and learning disabilities click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?b0ZSEQFKUCIGxlFLfsWcFINZl1GtbvdXl",
-    "source": "JobG8",
-    "advertiser_name": "Creative Support",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
     "salary_period": "Hourly",
     "posted_date_basis": "ontap_first_published"
   }
