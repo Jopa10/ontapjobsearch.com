@@ -45,6 +45,45 @@ Every job is counted once and only once. Existing selected Ontap registers take 
 | Science / Laboratory | 12 | 0.1% |
 | **TOTAL** | **10,000** | **100.0%** |
 
+## Refined family totals by salary band
+
+Salary uses the midpoint of the available structured minimum/maximum after annualising hourly, daily, weekly or monthly amounts. Five-figure values are treated as annual even when the source period is inconsistent. The first column combines genuinely sub-£20k jobs with missing or unusable salary so every family reconciles exactly to its total.
+
+| Broad family | Below £20k / unknown | £20k–<£35k | £35k–£45k | Over £45k | Total |
+|---|---:|---:|---:|---:|---:|
+| Other / Unclassified | 733 | 328 | 246 | 588 | 1,895 |
+| Sales / Business Development | 308 | 259 | 214 | 367 | 1,148 |
+| IT / Data / Software | 377 | 30 | 130 | 475 | 1,012 |
+| Admin / Customer Service | 204 | 625 | 73 | 29 | 931 |
+| Professional Finance / Accountancy | 225 | 162 | 167 | 297 | 851 |
+| Healthcare / Clinical | 437 | 46 | 77 | 129 | 689 |
+| Engineering / Technical | 189 | 52 | 96 | 229 | 566 |
+| Management / Team Leadership | 118 | 151 | 115 | 91 | 475 |
+| Marketing / Digital / Creative | 109 | 45 | 74 | 72 | 300 |
+| Care / Support Work | 136 | 119 | 22 | 13 | 290 |
+| Operations / General Management | 124 | 10 | 37 | 115 | 286 |
+| HR / Recruitment | 52 | 108 | 48 | 19 | 227 |
+| Retail / Store | 74 | 87 | 30 | 15 | 206 |
+| Legal / Conveyancing | 51 | 60 | 21 | 68 | 200 |
+| Market Research / Field Interviewing | 139 | 28 | 0 | 0 | 167 |
+| Construction / Trades / Property | 28 | 27 | 30 | 40 | 125 |
+| Property / Housing / Planning | 16 | 19 | 18 | 25 | 78 |
+| Financial Advice / Mortgages | 16 | 9 | 17 | 35 | 77 |
+| Insurance / Claims | 38 | 9 | 11 | 10 | 68 |
+| Compliance / Risk / Quality | 28 | 2 | 8 | 27 | 65 |
+| Education / Teaching | 33 | 19 | 3 | 6 | 61 |
+| Procurement / Buying / Supply Chain | 21 | 9 | 12 | 16 | 58 |
+| Charity / Fundraising / Community | 34 | 3 | 4 | 0 | 41 |
+| Security / Emergency Services | 15 | 3 | 11 | 12 | 41 |
+| Driving / Warehouse / Logistics | 10 | 24 | 4 | 2 | 40 |
+| Hospitality / Catering | 5 | 10 | 5 | 3 | 23 |
+| Employment Support / Careers | 8 | 13 | 0 | 0 | 21 |
+| Manufacturing / Production | 2 | 7 | 4 | 6 | 19 |
+| Cleaning / Domestic / Facilities | 3 | 12 | 1 | 0 | 16 |
+| Agriculture / Environment | 2 | 3 | 4 | 3 | 12 |
+| Science / Laboratory | 3 | 1 | 4 | 4 | 12 |
+| **TOTAL** | **3,538** | **2,280** | **1,486** | **2,696** | **10,000** |
+
 ## Opportunity and Ontap-region density
 
 Geography uses the same geo_lookup Area→Cluster and controlled LocationFallback logic as Ontap Module 2. Existing-register jobs are already selected by a current Ontap register. New/uncovered is diagnostic only.
