@@ -1,0 +1,302 @@
+#!/usr/bin/env python3
+"""Export every row in the latest JobG8 feed with Ontap selection evidence.
+
+This is an owner-facing diagnostic only. It does not change registers, selection,
+published JSON or LIVE state.
+"""
+
+from __future__ import annotations
+
+import argparse
+import csv
+import json
+from collections import Counter
+from pathlib import Path
+from typing import Any
+
+import pandas as pd
+from openpyxl import Workbook
+from openpyxl.formatting.rule import FormulaRule
+from openpyxl.styles import Alignment, Font, PatternFill
+from openpyxl.utils import get_column_letter
+from openpyxl.worksheet.table import Table, TableStyleInfo
+
+from pipeline.scripts.jobg8_refine_other_families import annualised_salary, latest_feed, norm, text
+
+
+COL = {
+    "id": "/Job/DisplayReference",
+    "title": "/Job/Position",
+    "description": "/Job/Description",
+    "employer": "/Job/AdvertiserName",
+    "advertiser_type": "/Job/AdvertiserType",
+    "location": "/Job/Location",
+    "area": "/Job/Area",
+    "category": "/Job/Classification",
+    "salary_min": "/Job/SalaryMinimum",
+    "salary_max": "/Job/SalaryMaximum",
+    "salary_period": "/Job/SalaryPeriod",
+    "employment_type": "/Job/EmploymentType",
+    "work_hours": "/Job/WorkHours",
+    "apply_url": "/Job/ApplicationURL",
+    "sender_reference": "/Job/SenderReference",
+}
+
+CATEGORY_LABELS = {
+    "admin_service": "Admin / Customer Service",
+    "support_worker": "Support Worker",
+    "customer_service_contact_centre": "Customer Service / Contact Centre",
+    "finance_accounts": "Finance / Accounts",
+    "hr_recruitment": "HR / Recruitment",
+    "warehouse_logistics": "Warehouse / Logistics",
+    "marketing": "Marketing",
+    "customer_sales": "Customer Sales / Sales Advisor",
+    "legal_assistant_paralegal": "Legal Assistant / Paralegal",
+}
+
+OUTPUT_COLUMNS = [
+    "JobG8 ID", "Title", "Employer", "Advertiser type", "Location", "JobG8 area",
+    "Ontap region", "Original JobG8 category", "Employment type", "Work hours",
+    "Salary minimum", "Salary maximum", "Salary period", "Annualised minimum",
+    "Annualised maximum", "Annualised midpoint", "Salary band", "Refined broad family",
+    "Governed family matches", "Selection status", "Status evidence", "Application URL",
+    "Sender reference", "Full description",
+]
+
+
+def split_values(value: object) -> list[str]:
+    return [part.strip() for part in text(value).split(";") if part.strip()]
+
+
+def conflict_categories(conflicts: list[str]) -> set[str]:
+    return {item.split(":", 1)[0].strip() for item in conflicts if ":" in item}
+
+
+def salary_band(minimum: float | None, maximum: float | None) -> str:
+    values = [value for value in (minimum, maximum) if value is not None]
+    if not values:
+        return "Below £20k / unknown"
+    midpoint = sum(values) / len(values)
+    if midpoint < 20_000:
+        return "Below £20k / unknown"
+    if midpoint < 35_000:
+        return "£20k–<£35k"
+    if midpoint <= 45_000:
+        return "£35k–£45k"
+    return "Over £45k"
+
+
+def published_jobg8_ids(app_root: Path) -> set[str]:
+    ids: set[str] = set()
+    for path in app_root.rglob("*.json"):
+        try:
+            payload = json.loads(path.read_text(encoding="utf-8-sig"))
+        except (OSError, json.JSONDecodeError):
+            continue
+        rows: list[Any] = payload if isinstance(payload, list) else []
+        if isinstance(payload, dict):
+            rows = next((payload[key] for key in ("jobs", "items", "results") if isinstance(payload.get(key), list)), [])
+        for row in rows:
+            if isinstance(row, dict) and norm(row.get("source")) == "jobg8":
+                job_id = text(row.get("job_id") or row.get("id"))
+                if job_id:
+                    ids.add(job_id)
+    return ids
+
+
+def load_register(path: Path) -> dict[tuple[str, str], str]:
+    out: dict[tuple[str, str], str] = {}
+    with path.open(encoding="utf-8-sig", newline="") as handle:
+        reader = csv.DictReader(handle)
+        if reader.fieldnames != ["region", "category", "status"]:
+            raise SystemExit(f"Unexpected slice register header: {reader.fieldnames}")
+        for row in reader:
+            out[(text(row["region"]), text(row["category"]))] = text(row["status"]).upper()
+    return out
+
+
+def load_geo(path: Path) -> tuple[dict[str, str], dict[str, str]]:
+    areas = pd.read_excel(path, dtype=str).fillna("")
+    area_lookup = {norm(r["Area"]): text(r["Cluster"]) for _, r in areas.iterrows() if norm(r.get("Area"))}
+    fallbacks = pd.read_excel(path, sheet_name="LocationFallback", dtype=str).fillna("")
+    location_lookup = {
+        norm(r["Location"]): text(r["Cluster"])
+        for _, r in fallbacks.iterrows()
+        if norm(r.get("Status")) == "auto" and norm(r.get("Location"))
+    }
+    return area_lookup, location_lookup
+
+
+def resolve_region(row: pd.Series, areas: dict[str, str], locations: dict[str, str]) -> str:
+    area = norm(row.get(COL["area"], ""))
+    if area and area not in {"not specified", "unknown"}:
+        return areas.get(area, "Other / Unknown")
+    return locations.get(norm(row.get(COL["location"], "")), "Other / Unknown")
+
+
+def classify_status(
+    job_id: str,
+    region: str,
+    selected: list[str],
+    conflicts: list[str],
+    published_ids: set[str],
+    register: dict[tuple[str, str], str],
+) -> tuple[str, str]:
+    if job_id in published_ids:
+        return "Published", "JobG8 ID is present in the current published app JSON."
+    if selected:
+        live = [category for category in selected if register.get((region, category)) == "LIVE"]
+        labels = ", ".join(CATEGORY_LABELS.get(x, x) for x in selected)
+        if not live:
+            return "Selected but market not LIVE", f"Matched governed family register(s): {labels}; none is LIVE in {region}."
+        live_labels = ", ".join(CATEGORY_LABELS.get(x, x) for x in live)
+        return (
+            "Selected but below slice threshold / otherwise withheld",
+            f"Matched a governed family that is LIVE in {region}: {live_labels}; not present in current published JSON. Exact selector/threshold withholding needs family-level review.",
+        )
+    if conflicts:
+        return "Assessed and rejected", "; ".join(conflicts)
+    return "Not matched to any governed family", "No selected governed-family register match was found in the coverage audit."
+
+
+def build_rows(
+    raw: pd.DataFrame,
+    reconciliation: pd.DataFrame,
+    published_ids: set[str],
+    register: dict[tuple[str, str], str],
+    areas: dict[str, str],
+    locations: dict[str, str],
+) -> list[dict[str, Any]]:
+    by_title = {norm(row["title"]): row for _, row in reconciliation.iterrows()}
+    rows: list[dict[str, Any]] = []
+    for _, source in raw.iterrows():
+        title = text(source.get(COL["title"], ""))
+        evidence = by_title.get(norm(title), {})
+        conflicts = split_values(evidence.get("refinement_conflicts", ""))
+        selected = [
+            category for category in split_values(evidence.get("selected_categories", ""))
+            if category not in conflict_categories(conflicts)
+        ]
+        region = resolve_region(source, areas, locations)
+        job_id = text(source.get(COL["id"], ""))
+        status, reason = classify_status(job_id, region, selected, conflicts, published_ids, register)
+        annual_min = annualised_salary(source.get(COL["salary_min"], ""), source.get(COL["salary_period"], ""))
+        annual_max = annualised_salary(source.get(COL["salary_max"], ""), source.get(COL["salary_period"], ""))
+        annual_values = [v for v in (annual_min, annual_max) if v is not None]
+        rows.append({
+            "JobG8 ID": job_id,
+            "Title": title,
+            "Employer": text(source.get(COL["employer"], "")),
+            "Advertiser type": text(source.get(COL["advertiser_type"], "")),
+            "Location": text(source.get(COL["location"], "")),
+            "JobG8 area": text(source.get(COL["area"], "")),
+            "Ontap region": region,
+            "Original JobG8 category": text(source.get(COL["category"], "")),
+            "Employment type": text(source.get(COL["employment_type"], "")),
+            "Work hours": text(source.get(COL["work_hours"], "")),
+            "Salary minimum": text(source.get(COL["salary_min"], "")),
+            "Salary maximum": text(source.get(COL["salary_max"], "")),
+            "Salary period": text(source.get(COL["salary_period"], "")),
+            "Annualised minimum": annual_min,
+            "Annualised maximum": annual_max,
+            "Annualised midpoint": (sum(annual_values) / len(annual_values)) if annual_values else None,
+            "Salary band": salary_band(annual_min, annual_max),
+            "Refined broad family": text(evidence.get("refined_broad_family", evidence.get("primary_broad_family", "Other / Unclassified"))),
+            "Governed family matches": "; ".join(CATEGORY_LABELS.get(x, x) for x in selected),
+            "Selection status": status,
+            "Status evidence": reason,
+            "Application URL": text(source.get(COL["apply_url"], "")),
+            "Sender reference": text(source.get(COL["sender_reference"], "")),
+            "Full description": text(source.get(COL["description"], "")),
+        })
+    return rows
+
+
+def write_csv(rows: list[dict[str, Any]], path: Path) -> None:
+    with path.open("w", encoding="utf-8-sig", newline="") as handle:
+        writer = csv.DictWriter(handle, fieldnames=OUTPUT_COLUMNS)
+        writer.writeheader()
+        writer.writerows(rows)
+
+
+def write_xlsx(rows: list[dict[str, Any]], path: Path, source_name: str) -> None:
+    wb = Workbook()
+    ws = wb.active
+    ws.title = "JobG8 selection audit"
+    ws.sheet_view.showGridLines = False
+    counts = Counter(row["Selection status"] for row in rows)
+    ws.append(["JobG8 selection audit", "", "Source", source_name, "Rows", len(rows)])
+    ws.merge_cells("A1:B1")
+    ws.append(["Published", counts["Published"], "Not published", len(rows) - counts["Published"]])
+    ws.append(["Diagnostic only", "No selection, register, LIVE state or published JSON is changed."])
+    ws.append([])
+    ws.append(OUTPUT_COLUMNS)
+    for row in rows:
+        ws.append([row[column] for column in OUTPUT_COLUMNS])
+
+    ws.freeze_panes = "C6"
+    ws.auto_filter.ref = f"A5:{get_column_letter(len(OUTPUT_COLUMNS))}{len(rows)+5}"
+    table = Table(displayName="JobG8SelectionAudit", ref=f"A5:{get_column_letter(len(OUTPUT_COLUMNS))}{len(rows)+5}")
+    table.tableStyleInfo = TableStyleInfo(name="TableStyleMedium2", showRowStripes=True, showFirstColumn=False, showLastColumn=False)
+    ws.add_table(table)
+    ws.row_dimensions[1].height = 28
+    ws["A1"].font = Font(size=16, bold=True, color="FFFFFF")
+    for cell in ws[1]:
+        cell.fill = PatternFill("solid", fgColor="17324D")
+        cell.font = Font(color="FFFFFF", bold=True)
+    for cell in ws[5]:
+        cell.alignment = Alignment(wrap_text=True, vertical="center")
+    widths = [18, 30, 24, 16, 18, 24, 25, 28, 18, 16, 15, 15, 15, 18, 18, 18, 22, 30, 30, 42, 58, 38, 18, 90]
+    for index, width in enumerate(widths, 1):
+        ws.column_dimensions[get_column_letter(index)].width = width
+    for row_number in range(6, len(rows) + 6):
+        ws.row_dimensions[row_number].height = 48
+        for col in (2, 3, 5, 6, 7, 8, 18, 19, 20, 21, 24):
+            ws.cell(row_number, col).alignment = Alignment(vertical="top", wrap_text=True)
+        for col in (14, 15, 16):
+            ws.cell(row_number, col).number_format = '£#,##0'
+    status_col = get_column_letter(OUTPUT_COLUMNS.index("Selection status") + 1)
+    data_range = f"{status_col}6:{status_col}{len(rows)+5}"
+    for phrase, colour in (("Published", "DDF3E4"), ("market not LIVE", "FFF1C7"), ("withheld", "FFE7C2"), ("rejected", "FDE2E2"), ("Not matched", "E7E9ED")):
+        ws.conditional_formatting.add(data_range, FormulaRule(formula=[f'ISNUMBER(SEARCH("{phrase}",{status_col}6))'], fill=PatternFill("solid", fgColor=colour)))
+    wb.save(path)
+
+
+def main() -> int:
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--input-dir", required=True, type=Path)
+    parser.add_argument("--reconciliation-csv", required=True, type=Path)
+    parser.add_argument("--slice-register", type=Path, default=Path("pipeline/registers/region_category_slice_register.csv"))
+    parser.add_argument("--geo-lookup", type=Path, default=Path("pipeline/geo/geo_lookup.xlsx"))
+    parser.add_argument("--app-root", type=Path, default=Path("app"))
+    parser.add_argument("--output-dir", required=True, type=Path)
+    parser.add_argument("--limit", type=int)
+    args = parser.parse_args()
+
+    feed = latest_feed(args.input_dir)
+    raw = pd.read_excel(feed, dtype=str).fillna("")
+    if args.limit:
+        raw = raw.head(args.limit)
+    missing = [column for column in COL.values() if column not in raw.columns]
+    if missing:
+        raise SystemExit(f"JobG8 feed is missing expected columns: {missing}")
+    reconciliation = pd.read_csv(args.reconciliation_csv, dtype=str, encoding="utf-8-sig").fillna("")
+    areas, locations = load_geo(args.geo_lookup)
+    rows = build_rows(raw, reconciliation, published_jobg8_ids(args.app_root), load_register(args.slice_register), areas, locations)
+
+    args.output_dir.mkdir(parents=True, exist_ok=True)
+    csv_path = args.output_dir / "jobg8-selection-audit.csv"
+    xlsx_path = args.output_dir / "jobg8-selection-audit.xlsx"
+    write_csv(rows, csv_path)
+    write_xlsx(rows, xlsx_path, feed.name)
+    counts = Counter(row["Selection status"] for row in rows)
+    if sum(counts.values()) != len(raw) or len(rows) != len(raw):
+        raise SystemExit("Audit row reconciliation failed")
+    print(f"Exported {len(rows):,} JobG8 rows from {feed.name}")
+    for status, count in counts.most_common():
+        print(f"  {status}: {count:,}")
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())
