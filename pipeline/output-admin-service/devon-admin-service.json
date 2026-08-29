@@ -374,13 +374,7 @@
     "advertiser_type": "Company",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Telephone handling",
-      "Records administration",
-      "Document preparation"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225461743",
@@ -430,13 +424,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Records administration",
-      "Quotations",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225463000",
@@ -614,6 +602,31 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "107796437",
+    "title": "Shared Lives Coordinator",
+    "company": "Shared Lives South West - Agency - Permanent",
+    "location": "Devon",
+    "region": "Devon",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "30000",
+    "salary_max": "30000",
+    "salary_text": "£30000 per year",
+    "posted_date": "",
+    "description": "Shared Lives Coordinator\nKingsteignton, Devon\nShared Lives South West is an award-winning charity that provides long-term and short break care and support services throughout Devon, Cornwall, and Somerset.\nWere now looking for a passionate individual to join us as a Shared Lives Coordinator on a part-time, permanent basis, working 30 hours per week click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?aziU08XVyRGhSHYEpVnIVuAYqBd662MEd",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Shared Lives South West",
+    "advertiser_type": "Agency",
+    "work_pattern": "Part Time",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
     "job_id": "107724787",
     "title": "Accounts Assistant (Part time)",
     "company": "DK Recruitment Ltd - Agency - Contract",
@@ -658,31 +671,6 @@
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
     "advertiser_name": "Mego Employment Ltd",
-    "advertiser_type": "Agency",
-    "work_pattern": "Part Time",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
-    "job_id": "107793091",
-    "title": "Accounts Assistant (Part-time)",
-    "company": "Yolk Recruitment Limited - Agency - Contract",
-    "location": "Devon",
-    "region": "Devon",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Contract",
-    "salary_min": "30000",
-    "salary_max": "30000",
-    "salary_text": "£30000 per year",
-    "posted_date": "",
-    "description": "Accounts Assistant (Part-Time)\n\nPlymouth 20 Hours per Week 12-Month Fixed-Term Contract\n\nSalary: £28,000 - £30,000 FTE (£14,900 - £16,000 per annum, pro rata)\n\nWe're looking for an experienced Accounts Assistant to join a busy finance team on a 12-month fixed-term contract, supporting the business through the implementation of SAP S/4 HANA click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?b0ZSEQFKUCK0xuWaxKefSckS7Soggkzql",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Yolk Recruitment Limited",
     "advertiser_type": "Agency",
     "work_pattern": "Part Time",
     "salary_period": "Annual",
@@ -739,9 +727,9 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "107743618",
-    "title": "Account Support Coordinator",
-    "company": "Whistl - Agency - Permanent",
+    "job_id": "107911152",
+    "title": "Customer Care Coordinator",
+    "company": "Persimmon Homes - Agency - Permanent",
     "location": "Devon",
     "region": "Devon",
     "country": "UK",
@@ -751,13 +739,13 @@
     "salary_max": "",
     "salary_text": "",
     "posted_date": "",
-    "description": "Are you a customer-focused professional looking for your next challenge?\n\nWe're seeking an Account Support Coordinator to join our growing Fulfilment team in Wrangaton\n\nWorking with a portfolio of ecommerce and retail customers, you'll play a key role in delivering exceptional service, resolving queries, coordinating shipments and supporting day-to-day account activity click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?io0x8AEcaIMHFCc9IOm2HqHxZzwcC%2f9ao",
+    "description": "Job Title:\n\nLocation: Plymouth\n\nLooking for a career where your ambition meets real opportunity? Join Persimmon Homes as Customer Care Coordinator and step into a role where your success is celebrated, your growth supported, and your work truly matters.\n\nWhy Persimmon Homes?\n\nWe're one of the UK's largest and most established housebuilders - FTSE 100 listed, with 29 regional offices and thousands of click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?aziU08XVyRHbm39ig7GMj5UEvKDLyxELd",
     "source": "JobG8",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Whistl",
+    "advertiser_name": "Persimmon Homes",
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",

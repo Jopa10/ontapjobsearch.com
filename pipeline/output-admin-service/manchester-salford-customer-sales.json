@@ -1,5 +1,30 @@
 [
   {
+    "job_id": "107775095",
+    "title": "Business Development Executive",
+    "company": "This is Prime Limited - Agency - Permanent",
+    "advertiser_name": "This is Prime Limited",
+    "advertiser_type": "Agency",
+    "location": "Not Specified",
+    "region": "Greater Manchester - Manchester & Salford",
+    "country": "UK",
+    "category": "Customer Sales / Sales Advisor",
+    "employment_type": "Permanent",
+    "salary_min": "28000",
+    "salary_max": "28000",
+    "salary_text": "£28000 per year",
+    "posted_date": "",
+    "description": "Imagine starting your sales career speaking with founders building AI solutions, engineers creating new technology, and businesses solving complex problems - while helping them unlock funding to continue innovating.\n\nThis is your chance to join a specialist consultancy helping ambitious UK businesses access R&D Tax Relief - a government-backed scheme designed to reward companies investing in new pro click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?aIHQjUdXakMCtbzN%2felv3N7HXvRCa%2f0yr",
+    "source": "JobG8",
+    "customer_sales_classification": "DIRECT_SALES",
+    "customer_sales_reason": "sales-led title: business development executive",
+    "customer_sales_overlap_policy": "non-exclusive",
+    "work_pattern": "Not Specified",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
     "job_id": "107772801",
     "title": "Business Development Executive (Floristry / Wholesale)",
     "company": "Ernest Gordon Recruitment - Agency - Permanent",
@@ -19,6 +44,31 @@
     "source": "JobG8",
     "customer_sales_classification": "DIRECT_SALES",
     "customer_sales_reason": "sales-led title: business development executive",
+    "customer_sales_overlap_policy": "non-exclusive",
+    "work_pattern": "Not Specified",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
+    "job_id": "107776109",
+    "title": "Internal Sales HVAC Engineer / Key Account Estimator",
+    "company": "Flat Fee Recruiter - Agency - Permanent",
+    "advertiser_name": "Flat Fee Recruiter",
+    "advertiser_type": "Agency",
+    "location": "Salford",
+    "region": "Greater Manchester - Manchester & Salford",
+    "country": "UK",
+    "category": "Customer Sales / Sales Advisor",
+    "employment_type": "Permanent",
+    "salary_min": "35000",
+    "salary_max": "35000",
+    "salary_text": "£35000 per year",
+    "posted_date": "",
+    "description": "Air Handlers are looking for an Internal Sales HVAC Engineer /Key AccountsEstimator to join the team in Salford.\n\nDo you have excellent communication skills and enjoy supporting customers through the sales process? If the answer is yes, this is your opportunity to join our brilliant estimating team and work for an established manufacturing company with excellent opportunities for career progression click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?6WDmO0cNttoPEiaUmhdcmiiBdDgfbT7pa",
+    "source": "JobG8",
+    "customer_sales_classification": "DIRECT_SALES",
+    "customer_sales_reason": "sales-led title: internal sales",
     "customer_sales_overlap_policy": "non-exclusive",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
@@ -97,13 +147,7 @@
     "customer_sales_overlap_policy": "non-exclusive",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Telephone handling",
-      "Customer enquiries",
-      "Systems administration",
-      "Document preparation"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225473515",
@@ -128,10 +172,6 @@
     "customer_sales_overlap_policy": "non-exclusive",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Systems administration"
-    ]
+    "posted_date_basis": ""
   }
 ]

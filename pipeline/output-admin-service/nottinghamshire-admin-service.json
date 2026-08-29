@@ -184,11 +184,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Filing and document handling",
-      "Reporting"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "107893986",
@@ -238,12 +234,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Data entry",
-      "Quotations"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225474179",
@@ -318,11 +309,7 @@
     "advertiser_type": "Company",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Telephone handling"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225532950",
@@ -350,37 +337,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "23643_225440080",
-    "title": "Temporary HR Coordinator",
-    "company": "SF Partners - Agency - Temporary",
-    "location": "Nottinghamshire",
-    "region": "Nottinghamshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Temporary",
-    "salary_min": "14.44",
-    "salary_max": "14.44",
-    "salary_text": "£14.44 per hour",
-    "posted_date": "",
-    "description": "HR Coordinator\nNottingham\nTemp to Perm Full Time 37 Hours per Week\n£27,000 - £28,000\nSF Partners are delighted to be exclusively partnering with a well established and highly respected organisation in Nottingham to recruit an experienced HR Coordinator.\nThis is a fantastic opportunity to join a supportive HR team where you'll play a key role in delivering a professional and efficient HR service across the full employee lifecycle. This role would suit someone with previous HR administration or HR coordination experience who is looking to further develop their career within a busy and rewarding environment.\nAs HR Coordinator, you'll provide comprehensive administrative support to the HR function, ensuring processes run smoothly while delivering an excellent experience for employees and managers.\nKey responsibilities include:\n- Managing all HR administration throughout the employee lifecycle including starters, changes and leavers\n- Maintaining accurate employee records and HR systems\n- Acting as the first point of contact for day-to-day HR queries\n- Supporting recruitment activities including advertising vacancies, arranging interviews, onboarding and pre-employment checks\n- Preparing contracts, offer letters and HR documentation\n- Assisting with monthly payroll administration and employee changes\n- Producing HR reports including absence, turnover and workforce data\n- Supporting employee relations processes and HR projects\n- Coordinating training and learning & development administration\n- Ensuring compliance with employment legislation, GDPR and internal policies\n\nAbout You\n- Previous experience within a HR Administration or HR Coordinator position\n- Ideally CIPD Level 3 qualified, studying towards CIPD or equivalent practical experience\n- A good understanding of HR processes across the employee lifecycle\n- Experience supporting recruitment, onboarding and payroll administration\n- Strong organisational skills with the ability to manage multiple priorities\n- Excellent attention to detail and accuracy\n- Strong communication skills and confidence building relationships with managers and employees\n- Experience using HR systems together with Microsoft Office, particularly Excel\n- The ability to handle confidential information professionally\n\nIf you're an organised HR professional looking for your next opportunity and would like to find out more, we'd love to hear from you.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?wTAUM266l6de2z1TYPoz7xbS5wA%2bHopfh",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "SF Partners",
-    "advertiser_type": "Agency",
-    "work_pattern": "Full Time",
-    "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Records administration",
-      "Pre-employment administration",
-      "Payroll administration"
-    ]
-  },
-  {
     "job_id": "23643_225474228",
     "title": "Client Campaign Coordinator",
     "company": "TurnerFox Recruitment - Agency - Permanent",
@@ -403,11 +359,32 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Systems administration",
-      "Quotations"
-    ]
+    "posted_date_basis": ""
+  },
+  {
+    "job_id": "107833880",
+    "title": "Technical Coordinator",
+    "company": "Gleeson Homes - Agency - Permanent",
+    "location": "Nottinghamshire",
+    "region": "Nottinghamshire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "",
+    "posted_date": "",
+    "description": "Job Introduction:\nGleeson Homes are recruiting for a Technical Coordinator, responsible for for supporting support and assisting the Regional Technical team and operating team to support the regional and Group Business plan, commercial objectives, budgets and future growth requirements.\nThis role is ideal for people who are passionate about career development click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?QHpHeWTcrP5ag%2fgaAA3z7xYrlj7uWqDUy",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Gleeson Homes",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
   },
   {
     "job_id": "107830819",
@@ -456,6 +433,31 @@
     "advertiser_name": "RNN Group",
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
+    "job_id": "107906939",
+    "title": "Coordinator (ZOI)",
+    "company": "M Group - Company - Permanent",
+    "location": "Nottinghamshire",
+    "region": "Nottinghamshire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "",
+    "posted_date": "",
+    "description": "About The Role\nRight across infrastructure, theres a requirement to not only maintain, but also renew and reimagine. Whatever stage youre at in your career, with us youll have an opportunity to grow and develop. Delivering essential infrastructure services for life, while being safety first, and client and customer centric in a friendly, fun and respectful environment where you are encouraged to th click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?6WDmO0cNttoY%2fht1Nkx304Yqr4dviINia",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "M Group",
+    "advertiser_type": "Company",
+    "work_pattern": "Not Specified",
     "salary_period": "Annual",
     "posted_date_basis": ""
   },
