@@ -306,31 +306,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "107779296",
-    "title": "Account Coordinator - Part Time",
-    "company": "Staffline Operations - Agency - Temporary",
-    "location": "Dorset",
-    "region": "Dorset",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Temporary",
-    "salary_min": "13.1",
-    "salary_max": "13.1",
-    "salary_text": "£13.1 per hour",
-    "posted_date": "",
-    "description": "Great opportunity to work as a part-time Account Coordinator for our client's busy bakery site in Poole.\n\nThe rate of pay is £13.10 per hour.\n\nThis is a part-time role, the hours of work are:\n- Friday 5:30am-2pm\n- Sunday 12pm-8pm\n- Monday 12pm-8pm\n\nYour Time at Work\nAs an Account Coordinator, your duties include:\n- Supporting on-site clients with their recruitment requirements\n- Assisting our wor click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?UzhMt9n%2bTsQcLI%2b7%2fLOPBITyAjaj%2fk72m",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Staffline Operations",
-    "advertiser_type": "Agency",
-    "work_pattern": "Part Time",
-    "salary_period": "Hourly",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "nhs-5564709",
     "source": "NHS Jobs",
     "title": "Administrative Assistant",
@@ -346,7 +321,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9152-26-0912",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9152-26-0912",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5566898",
@@ -364,7 +343,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9152-26-0922",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9152-26-0922",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5562037",
@@ -382,6 +365,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/L0014-26-1531",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/L0014-26-1531",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

@@ -2,11 +2,11 @@
 
 review_date: 2026-08-29
 
-- Open Administrative & Clerical rows reviewed: 2444
-- Auto/remembered selected: 569
-- Selected HC Tier A: 239
+- Open Administrative & Clerical rows reviewed: 2441
+- Auto/remembered selected: 568
+- Selected HC Tier A: 238
 - Selected HC Tier B: 330
-- POSS awaiting decision: 1544
+- POSS awaiting decision: 1542
 - Excluded: 0
 - HARD_PASS: 331
 
@@ -2786,18 +2786,6 @@ factual_fingerprint: 4134ddbd7ea4ab277e957973342027b8553544c8bcfc1da5b4c1b6dbc6b
 
 ---
 action:
-POSS | NHS Jobs | Leicestershire | Leicester, LE1 5WW | £28392.00 to £31157.00 | Data Quality Co-ordinator
-source_job_id: 5564468
-title: Data Quality Co-ordinator
-employer: University Hospitals of Leicester NHS Trust
-region: Leicestershire
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9358-26-0576
-factual_fingerprint: ac1c546947c621fdb06c54bacc6889ea26606ac058ad669f2f582549419d0f4b
----
-
----
-action:
 POSS | NHS Jobs | Norfolk | Norwich, NR4 7UY | £25760.00 to £27476.00 | RTT Pathway and Administrative Support Coordinator
 source_job_id: 5566381
 title: RTT Pathway and Administrative Support Coordinator
@@ -4630,18 +4618,6 @@ region: Berkshire
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9371-26-0686
 factual_fingerprint: ec800c1f589ce63d1cb78531ceda02ad4af4e776654ff1c1faebb6bb2e95baca
----
-
----
-action:
-POSS | NHS Jobs | West Midlands - Birmingham & Solihull | Birmingham, B13 8JL | £25760.00 to £27476.00 | Band 3 Hub Coordinator–Ward Based
-source_job_id: 5561628
-title: Band 3 Hub Coordinator–Ward Based
-employer: Birmingham Community Healthcare NHS FT
-region: West Midlands - Birmingham & Solihull
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9820-26-0551
-factual_fingerprint: c3105208c5d7391fabb61c902e26742a6bd79964e8fc9677b678b4db40d578ba
 ---
 
 ---
