@@ -56,6 +56,15 @@ type RelatedPage = {
   label: string;
 };
 
+type RelatedPages = {
+  heading: string;
+  prompt: string;
+  links: Array<{
+    href: string;
+    label: string;
+  }>;
+};
+
 type BrowseLinks = {
   heading: string;
   intro?: string;
@@ -78,6 +87,7 @@ type JobSlicePageProps = {
   trainingItems?: TrainingItem[];
   jobFilter?: (job: JobRow) => boolean;
   relatedPage?: RelatedPage;
+  relatedPages?: RelatedPages;
   browseLinks?: BrowseLinks;
   sectorFilterEnabled?: boolean;
   compactPageSpacing?: boolean;
@@ -188,6 +198,24 @@ function RelatedPageLink({ relatedPage }: { relatedPage: RelatedPage }) {
   );
 }
 
+function RelatedPagesPanel({ relatedPages }: { relatedPages: RelatedPages }) {
+  return (
+    <nav className={styles.relatedPanel} aria-label={relatedPages.heading}>
+      <div className={styles.relatedCopy}>
+        <div className={styles.relatedEyebrow}>{relatedPages.heading}</div>
+        <p className={styles.relatedPrompt}>{relatedPages.prompt}</p>
+      </div>
+      <div className={styles.browseLinkList}>
+        {relatedPages.links.map((link) => (
+          <Link key={link.href} href={link.href} className={styles.relatedLink}>
+            {link.label} →
+          </Link>
+        ))}
+      </div>
+    </nav>
+  );
+}
+
 function BrowseLinksPanel({ browseLinks }: { browseLinks: BrowseLinks }) {
   if (!browseLinks.links.length) return null;
 
@@ -251,6 +279,7 @@ export default function JobSlicePage({
   trainingItems,
   jobFilter,
   relatedPage,
+  relatedPages,
   browseLinks,
   sectorFilterEnabled = false,
   compactPageSpacing = true,
@@ -350,6 +379,12 @@ export default function JobSlicePage({
           {relatedPage ? (
             <div style={{ marginBottom: 12 }}>
               <RelatedPageLink relatedPage={relatedPage} />
+            </div>
+          ) : null}
+
+          {relatedPages ? (
+            <div style={{ marginBottom: 12 }}>
+              <RelatedPagesPanel relatedPages={relatedPages} />
             </div>
           ) : null}
 
