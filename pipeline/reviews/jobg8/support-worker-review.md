@@ -1,6 +1,6 @@
 # Support-worker manual review
 
-feed_date: 2026-08-28
+feed_date: 2026-08-29
 
 Edit only the `action:` line in each block:
 
@@ -21,12 +21,6 @@ job_id: 23643_225476096
 action:
 SELECTED | Yorkshire - West | Halifax | £14.24 - £16 per hour (+ INC holiday pay) | Complex Care Assistant
 job_id: 107728647
----
-
----
-action:
-SELECTED | Yorkshire - West | Huddersfield | £14.24 - £16 per hour (+ INC holiday pay) | Complex Care Assistant
-job_id: 107728806
 ---
 
 ## WEST YORKSHIRE — POSSIBLES
@@ -61,8 +55,8 @@ job_id: 107810260
 
 ---
 action:
-SELECTED | North East - Tyneside, Wearside & Northumberland | Newcastle Upon Tyne | £13.84 per hour | Care Assistants
-job_id: 107494462
+SELECTED | North East - Tyneside, Wearside & Northumberland | Newcastle | £24000 per year | Female Support Worker
+job_id: 107854762
 ---
 
 ## NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL — SELECTED
@@ -125,6 +119,12 @@ SELECTED | Sussex | Midhurst | rate of up to £13.11 (plus a 12.07% holiday allo
 job_id: 107831119
 ---
 
+---
+action:
+SELECTED | Sussex | Littlehampton | £12.91 - £13.21 per hour | Part Time Support Worker - 20 hours
+job_id: 107907129
+---
+
 ## SUSSEX — POSSIBLES
 
 _No jobs in this group._
@@ -138,12 +138,6 @@ _No jobs in this group._
 _No jobs in this group._
 
 ## HAMPSHIRE — SELECTED
-
----
-action:
-SELECTED | Hampshire | Eastleigh | £32780 - £35564 per year (Market Supplement, plus Enhancements) | Secure Children's Home Support Worker
-job_id: 1401784261
----
 
 ---
 action:
@@ -225,38 +219,8 @@ job_id: 107882995
 
 ---
 action:
-SELECTED | Kent | Kent | £13.79 - £14.31 per hour | Bank Care Assistant
-job_id: 107858271
----
-
----
-action:
 SELECTED | Kent | Folkestone | £14 - £17 per hour | Complex Care Assistant
 job_id: 107852539
----
-
----
-action:
-SELECTED | Kent | Herne Bay | £14 - £17 per hour | Complex Care Assistant
-job_id: 107883000
----
-
----
-action:
-SELECTED | Kent | Snodland | £14 - £16 per hour | Complex Care Assistant
-job_id: 107854067
----
-
----
-action:
-SELECTED | Kent | Chatham | £14 - £17 per hour | Complex Care Assistant
-job_id: 107882997
----
-
----
-action:
-SELECTED | Kent | Sittingbourne | £14 - £17 per hour | Complex Care Assistant
-job_id: 107882998
 ---
 
 ---
@@ -277,23 +241,11 @@ SELECTED | Kent | Dover | £15 - £17 per hour | Complex Care Assistant
 job_id: 107882991
 ---
 
----
-action:
-SELECTED | Kent | Deal | £15 - £17 per hour | Complex Care Assistant
-job_id: 107882993
----
-
 ## KENT — POSSIBLES
 
 _No jobs in this group._
 
 ## LONDON — SELECTED
-
----
-action:
-SELECTED | London | London | £31,116.80 per annum | Specialist Behavioural Support Worker
-job_id: 1621461
----
 
 ---
 action:
@@ -317,12 +269,6 @@ job_id: 1664745
 action:
 SELECTED | London | Wandsworth | £95 - £115 per daily | Behaviour Support Assistant
 job_id: 23643_225513634
----
-
----
-action:
-SELECTED | London | Uxbridge | £200 per daily | Live-in Personal Care Assistant History & Politics Student
-job_id: 107823167
 ---
 
 ---
@@ -363,12 +309,6 @@ job_id: 23643_225535652
 
 ---
 action:
-SELECTED | London | London | £30,784.00 per annum | Support worker
-job_id: 1812536
----
-
----
-action:
 SELECTED | London | Surbiton | £246 per daily | Personal Care Assistant to a Business Management graduate
 job_id: 107900179
 ---
@@ -377,12 +317,6 @@ job_id: 107900179
 action:
 SELECTED | London | City | £260 per daily | Care Assistant to a Psychology University Student
 job_id: 107751975
----
-
----
-action:
-SELECTED | London | London | £35000 per year | Founders Personal Assistant / Executive Assistant
-job_id: 107885503
 ---
 
 ---
@@ -401,6 +335,12 @@ job_id: 1815970
 action:
 SELECTED | London | Wandsworth | £95 - £115 per daily | Behaviour Support Assistant
 job_id: 1708252
+---
+
+---
+action:
+SELECTED | London | London | £13 per hour | Home Care Worker
+job_id: 107745063
 ---
 
 ## LONDON — POSSIBLES
@@ -443,6 +383,12 @@ job_id: 107758331
 action:
 SELECTED | Oxfordshire | Oxford | £85 - £105 per daily | Youth Support Worker - Oxford
 job_id: 1695997
+---
+
+---
+action:
+SELECTED | Oxfordshire | Oxford | £85 - £100 per daily | Behaviour Support Assistant - Oxford
+job_id: 23643_225543862
 ---
 
 ---
@@ -537,14 +483,14 @@ job_id: 107887003
 
 ---
 action:
-SELECTED | Wiltshire | Trowbridge | £30000 per year | Recovery Worker
-job_id: 107899505
+SELECTED | Wiltshire | Chippenham | £85 - £110 per daily | Emotional and Mental Health Support Worker
+job_id: 1709295
 ---
 
 ---
 action:
-SELECTED | Wiltshire | Chippenham | £85 - £110 per daily | Emotional and Mental Health Support Worker
-job_id: 1709295
+SELECTED | Wiltshire | Swindon | £24000 per year | Healthcare Assistant
+job_id: 107909930
 ---
 
 ## WILTSHIRE — POSSIBLES
