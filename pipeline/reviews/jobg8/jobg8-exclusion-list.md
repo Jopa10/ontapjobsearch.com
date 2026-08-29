@@ -6,9 +6,129 @@ The `excluded_on` date is the day the exclusion decision was made.
 To restore a job, edit only its `action:` line to `action: select`.
 On the next JobG8 run that exact job ID will be restored and removed from this list.
 
-remembered_exclusions: 205
+remembered_exclusions: 215
 
 ## SERVICE / ADMIN — EXCLUDED
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-29
+title: Technical Sales Support
+employer: Hackajob Ltd
+region: 
+town: Manchester
+salary: 
+job_id: 107832581
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-29
+title: Software Sales Support & Product Demonstrator - Remote
+employer: Acorn by Synergie
+region: 
+town: Somerset
+salary: 
+job_id: 107787320
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-29
+title: ServiceNow Administrator
+employer: DGH Recruitment
+region: 
+town: Manchester
+salary: 
+job_id: 107735581
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-29
+title: Sales Coordinator Construction
+employer: Doufre Construction Personnel Ltd
+region: 
+town: Yorkshire
+salary: 
+job_id: 107775290
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-29
+title: Marketing Communications Coordinator
+employer: Heat Trace
+region: 
+town: Cheshire
+salary: 
+job_id: 107800641
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-29
+title: IP Administrator
+employer: Sacco Mann
+region: 
+town: Cambridgeshire
+salary: 
+job_id: 107793861
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-29
+title: Help Desk Administrator
+employer: EUROPEAN SOFTWARE SOLUTIONS (UK) LIMITED
+region: 
+town: Staffordshire
+salary: 
+job_id: 107825238
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-29
+title: Financial Services Administrator
+employer: Siamo Group Ltd
+region: 
+town: Wiltshire
+salary: 
+job_id: 107912524
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-29
+title: Cyber Security Incident Co-Ordinator
+employer: Hackajob Ltd
+region: 
+town: Wiltshire
+salary: 
+job_id: 107752293
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-29
+title: Bid Coordinator Construction Contractor
+employer: Build People
+region: 
+town: Yorkshire
+salary: 
+job_id: 107776147
+---
 
 ---
 action:
