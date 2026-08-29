@@ -16,9 +16,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B9083-26-0451",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -153,31 +150,6 @@
     "posted_date_basis": "source"
   },
   {
-    "job_id": "107830644",
-    "title": "Finance Assistant",
-    "company": "Robert Half Limited - Agency - Permanent",
-    "location": "Bristol",
-    "region": "Bristol & Bath",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "26000",
-    "salary_max": "26000",
-    "salary_text": "£26000 per year",
-    "posted_date": "2026-08-27",
-    "description": "Finance Assistant Bristol Hybrid Working £25,000-£27,000\n\nAre you a recent graduate looking for a role where you'll actually be trusted with real responsibility from day one? This is your chance to join the Accounts team of a well established and highly respected law firm in Bristol, in a role built for someone with drive, curiosity and a sharp eye for detail rather than years of experience click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?bZCSDJyF3N5OffwaFjgpuN8l55bGLiNWq",
-    "source": "JobG8",
-    "working_arrangement": "hybrid",
-    "working_arrangement_text": "Hybrid working",
-    "working_arrangement_evidence": "Finance Assistant Finance Assistant Bristol Hybrid Working £25,000-£27,000 Are you a recent graduate looking for a role where you'll actually be trusted with real responsibility from day one?",
-    "advertiser_name": "Robert Half Limited",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
-  },
-  {
     "job_id": "23643_225533642",
     "title": "Freight Co-Ordinator",
     "company": "Travail Employment Group - Agency - Permanent",
@@ -200,11 +172,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Systems administration",
-      "Data entry"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225456677",
@@ -232,9 +200,34 @@
     "posted_date_basis": "ontap_first_published"
   },
   {
-    "job_id": "107858688",
-    "title": "Lead Contract Support Administrator",
-    "company": "Rydon Group Ltd - Agency - Permanent",
+    "job_id": "107830279",
+    "title": "IP Administrator",
+    "company": "Withers & Rogers - Agency - Permanent",
+    "location": "Bristol",
+    "region": "Bristol & Bath",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "",
+    "posted_date": "2026-08-29",
+    "description": "IP Administrator\nAbout Us\nWithers & Rogers is one of Europes largest dedicated intellectual property law firms, with offices across the UK, Paris and Munich. Established more than 140 years ago, we remain as passionate as ever about making intellectual property work to our clients best advantage click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?aIHQjUdXakOqnsknaxu5e94a0%2bFSOnZ9r",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Withers & Rogers",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Annual",
+    "posted_date_basis": "ontap_first_published"
+  },
+  {
+    "job_id": "107814828",
+    "title": "Marketing Administrator",
+    "company": "Marstep Resourcing Solutions - Agency - Permanent",
     "location": "Bristol",
     "region": "Bristol & Bath",
     "country": "UK",
@@ -243,14 +236,14 @@
     "salary_min": "28000",
     "salary_max": "28000",
     "salary_text": "£28000 per year",
-    "posted_date": "2026-08-28",
-    "description": "We now have an exciting opportunity for a Lead Contract Support Administrator to join our hard facilities repairs and maintenance team at Blackberry Hill Hospital in Bristol.\n\nRydon has established a strong reputation for the quality within our maintenance division with a particular focus on NHS Hard Facilities Management - consisting of responsive repairs as well as planned/preventative maintenance click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?G%2b5YiGNoEgq%2f3%2b2xZUaFaaU95Fjzed%2fxn",
+    "posted_date": "2026-08-29",
+    "description": "The client, a long established and growing engineering distributorship are seeking a Sales and Marketing Administrator to work from their offices in Avonmouth.\n\nYou will join a friendly team in this organisation which is also part of larger group of companies.\n\nYou will ideally have good administration skills and also an interest in marketing/social media/e-commerce and would like to use your skills i click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?UzhMt9n%2bTsTSx6iPlbhSxOmcGDdKOerJm",
     "source": "JobG8",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Rydon Group Ltd",
+    "advertiser_name": "Marstep Resourcing Solutions",
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
@@ -279,11 +272,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Records administration"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225467962",
@@ -308,11 +297,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Part Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Records administration"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225104066",
@@ -336,6 +321,31 @@
     "advertiser_name": "Alexander Mae HR Ltd",
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
+    "salary_period": "Annual",
+    "posted_date_basis": "ontap_first_published"
+  },
+  {
+    "job_id": "1821573",
+    "title": "Sales and Partnerships Coordinator",
+    "company": "Not For Profit People - Agency - Permanent",
+    "location": "Bristol",
+    "region": "Bristol & Bath",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "",
+    "posted_date": "2026-08-29",
+    "description": "Sales and Partnerships Coordinator\n\nWe are seeking a proactive Sales and Partnerships Coordinator to generate new opportunities, build relationships and grow demand for consultancy and training services.\n\nSalary: £30,559 to £32,654 FTE\nHours: 22.5 hours per week, flexibly across three or more days\nLocation: Bristol, with flexible/remote working and some office attendance required\nContract: Permanent\nClosing date: Midday, Monday 5 October 2026\nInterviews: Thursday 15 October 2026\n\nAbout the role\n\nThis is an exciting opportunity to join a small, purpose-led organisation and play an important role in the growth and sustainability of its consultancy and training services.\n\nWorking within The Peer Partnership, a specialist peer support service, you will focus on generating new business, developing relationships with potential clients and key decision-makers, and increasing demand for The Peer Partnership's services, which include training, consultancy and service delivery.\n\nThe Peer Partnership helps organisations develop effective, safe and user-led peer support services for people living with long-term physical and mental health conditions and people with protected characteristics.\n\nKey responsibilities will include:\n- Identifying and developing new sales opportunities across the UK\n- Building strong relationships with potential clients, commissioners, stakeholders and decision-makers\n- Generating and converting leads for training, consultancy and service delivery\n- Developing approaches to increase awareness and demand for The Peer Partnership's services\n- Promoting the value and impact of peer support\n- Monitoring sales and income generation activity and using results to continually improve approaches\n- Supporting the ongoing growth and financial sustainability of the service\n\nAbout you\n\nYou will be proactive, ambitious and creative, with experience of generating new business, sales or developing income streams.\n\nAn excellent communicator and relationship builder, you will be comfortable engaging influential stakeholders and decision-makers and turning opportunities into new business.\n\nYou will have:\n- Experience in sales, income generation, business development or a related area\n- A track record of developing leads and securing new business\n- Strong relationship-building and communication skills\n- The confidence to engage commissioners and senior stakeholders\n- A commercial mindset combined with a commitment to delivering an excellent customer experience\n- The ability to monitor results, identify what is working and adapt your approach\n- An interest in peer support and improving outcomes for people experiencing challenging circumstances\n\nYou do not necessarily need previous charity sector experience, but you will need to share the organisation's values of respect, empowerment and inclusion.\n\nAbout the organisation\n\nYou will be joining a small charity with a 30-year history of providing high-quality support services.\n\nIts specialist peer support service, The Peer Partnership, works with people living with long-term health conditions and organisations to develop effective, safe and user-led peer support services. Through consultancy, training and service development, it shares expertise and best practice to help organisations establish and strengthen peer support.\n\nBenefits include 26 days' holiday plus bank holidays pro rata, a 6% pension contribution, ongoing training and professional development, regular one-to-one supervision, flexible working options and a Cycle to Work scheme.\n\nThe organisation is committed to reducing inequity, valuing diversity and enabling inclusion and welcomes applicants from diverse backgrounds with the appropriate skills to apply.\n\nOther roles you may have experience of could include: Lead Generator, Sales Coordinator, Sales Executive, Income Generation Coordinator, Business Development Executive, Partnerships Coordinator, Client Development Coordinator, Sales and Partnerships Officer or Business Development Coordinator.\n\nPlease note this role is advertised by the recruitment agency acting for the client, Not For Profit People.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?6WDmO0cNttpciQVwPYBZWoYPUWzCBnVTa",
+    "source": "JobG8",
+    "working_arrangement": "partly_remote",
+    "working_arrangement_text": "Hybrid working",
+    "working_arrangement_evidence": "Salary: £30,559 to £32,654 FTE Hours: 22.5 hours per week, flexibly across three or more days Location: Bristol, with flexible/remote working and some office attendance required Contract: Permanent Closing date: Midday, Monday 5 October 2026 Interviews: Thursday 15 October 2026 About the role This is an exciting opportunity to join a small, purpose-led organisation and play an important role in the growth and sustainability of its consultancy and training services.",
+    "advertiser_name": "Not For Profit People",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
     "salary_period": "Annual",
     "posted_date_basis": "ontap_first_published"
   },
@@ -365,31 +375,6 @@
     "posted_date_basis": "ontap_first_published"
   },
   {
-    "job_id": "107896132",
-    "title": "Service Desk Analyst - Bristol",
-    "company": "Experis - Agency - Permanent",
-    "location": "Bristol",
-    "region": "Bristol & Bath",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "30000",
-    "salary_max": "30000",
-    "salary_text": "£30000 per year",
-    "posted_date": "2026-08-26",
-    "description": "Service Desk Analyst - Bristol\n\nThis is an exciting opportunity to work for a high-profile North Bristol based company who are looking to expand their Service Desk team which provides first class support to employees based across two offices.\n\nThis is a busy and varied role providing technical support on a variety of systems, answering support queries either onsite or via phone or email click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?aziU08XVyRFGKnW%2bFerM769vee9S4wKZd",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Experis",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
-  },
-  {
     "job_id": "nhs-5554527",
     "source": "NHS Jobs",
     "title": "Administrator",
@@ -406,9 +391,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B9083-26-0449",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -428,9 +410,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C0023-26-1038",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   }
 ]

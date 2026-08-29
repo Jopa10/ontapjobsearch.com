@@ -4,7 +4,7 @@
 - Live route: `/leeds/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 18
+- Effective included jobs: 15
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 18
+- automatic include: 15
 - automatic review: 6
-- automatic exclude: 22
-- effective include: 18
+- automatic exclude: 21
+- effective include: 15
 - effective review: 6
-- effective exclude: 22
+- effective exclude: 21
 
-## INCLUDE (18)
+## INCLUDE (15)
 
 ---
 action: 
@@ -100,18 +100,6 @@ reason: Approved Leeds catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Cloud-First SQL Database Administrator - Azure
-company: IO Associates - Agency - Permanent
-location: Leeds
-source: JobG8
-job_id: jobg8-107908451
-reason: Approved Leeds catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Customer Service Advisor
 company: Red Recruitment - Agency - Permanent
 location: Leeds
@@ -129,18 +117,6 @@ company: CSS - Agency - Contract
 location: Leeds
 source: JobG8
 job_id: jobg8-23643_224689396
-reason: Approved Leeds catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: HR Administrator
-company: Akari Care Limited
-location: Leeds, LS11 5DZ
-source: NHS Jobs
-job_id: nhs-5561629
 reason: Approved Leeds catchment.
 ---
 
@@ -172,11 +148,11 @@ reason: Approved Leeds catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Receptionist
-company: Brook Street UK - Agency - Temporary
+title: Recruitment Account Coordinator
+company: Staffline Divisions - Agency - Temporary
 location: Leeds
 source: JobG8
-job_id: jobg8-107880455
+job_id: jobg8-107819626
 reason: Approved Leeds catchment.
 ---
 
@@ -213,18 +189,6 @@ company: Working Solutions Recruitment - Agency - Permanent
 location: Leeds
 source: JobG8
 job_id: jobg8-23643_225524513
-reason: Approved Leeds catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Sustainable Funding Coordinator
-company: LJ Recruitment Limited - Agency - Permanent
-location: Leeds
-source: JobG8
-job_id: jobg8-107876115
 reason: Approved Leeds catchment.
 ---
 
@@ -314,7 +278,7 @@ job_id: jobg8-23643_225445220
 reason: No approved Leeds catchment rule matched; local review required.
 ---
 
-## EXCLUDE (22)
+## EXCLUDE (21)
 
 ---
 action: 
@@ -541,18 +505,6 @@ company: Parkside School
 location: Bradford
 source: Teaching Vacancies
 job_id: teaching-vacancies-specialist-administrator-send-medical-lead-first-aid
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Temporary Office Support/Sales Administrator
-company: Office Angels - Agency - Temporary
-location: Bradford
-source: JobG8
-job_id: jobg8-23643_225436825
 reason: Separate employment market.
 ---
 

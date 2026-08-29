@@ -124,18 +124,6 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Finance Assistant
-company: Robert Half Limited - Agency - Permanent
-location: Bristol
-source: JobG8
-job_id: jobg8-107830644
-reason: Approved conservative Bristol launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Freight Co-Ordinator
 company: Travail Employment Group - Agency - Permanent
 location: Bristol
@@ -160,11 +148,23 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Lead Contract Support Administrator
-company: Rydon Group Ltd - Agency - Permanent
+title: IP Administrator
+company: Withers & Rogers - Agency - Permanent
 location: Bristol
 source: JobG8
-job_id: jobg8-107858688
+job_id: jobg8-107830279
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Marketing Administrator
+company: Marstep Resourcing Solutions - Agency - Permanent
+location: Bristol
+source: JobG8
+job_id: jobg8-107814828
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -208,11 +208,11 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Sales Support Administrator
-company: Fusion People Ltd - Agency - Permanent
+title: Sales and Partnerships Coordinator
+company: Not For Profit People - Agency - Permanent
 location: Bristol
 source: JobG8
-job_id: jobg8-23643_225466068
+job_id: jobg8-1821573
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -220,11 +220,11 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Service Desk Analyst - Bristol
-company: Experis - Agency - Permanent
+title: Sales Support Administrator
+company: Fusion People Ltd - Agency - Permanent
 location: Bristol
 source: JobG8
-job_id: jobg8-107896132
+job_id: jobg8-23643_225466068
 reason: Approved conservative Bristol launch catchment.
 ---
 

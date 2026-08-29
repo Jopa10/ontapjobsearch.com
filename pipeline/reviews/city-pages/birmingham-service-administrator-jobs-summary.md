@@ -64,6 +64,18 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Administrator - Birmingham
+company: Vaccination UK
+location: Birmingham, B18 7EE
+source: NHS Jobs
+job_id: nhs-5501562
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Administrator / Receptionist
 company: John Henry Newman Catholic College
 location: Birmingham
@@ -81,18 +93,6 @@ company: Prince Albert Junior and Infant School
 location: Birmingham
 source: Teaching Vacancies
 job_id: teaching-vacancies-attendance-officer-4efd19d4-57e0-4ca7-b2db-17e1d24f0087
-reason: Approved conservative Birmingham launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Band 3 Administrator
-company: Birmingham Community Healthcare NHS FT
-location: Birmingham, B21 9RY
-source: NHS Jobs
-job_id: nhs-5564526
 reason: Approved conservative Birmingham launch catchment.
 ---
 

@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 2
 - automatic review: 5
-- automatic exclude: 3
+- automatic exclude: 2
 - effective include: 2
 - effective review: 5
-- effective exclude: 3
+- effective exclude: 2
 
 ## INCLUDE (2)
 
@@ -110,7 +110,7 @@ job_id: jobg8-1401784682
 reason: Broad location; review before city inclusion.
 ---
 
-## EXCLUDE (3)
+## EXCLUDE (2)
 
 ---
 action: 
@@ -133,17 +133,5 @@ company: Hampshire County Council - Company - Permanent
 location: Basingstoke
 source: JobG8
 job_id: jobg8-1401784687
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Secure Children's Home Support Worker
-company: Hampshire County Council - Company - Permanent
-location: Eastleigh
-source: JobG8
-job_id: jobg8-1401784261
 reason: Separate employment market.
 ---

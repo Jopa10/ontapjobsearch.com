@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 5
-- automatic review: 44
+- automatic review: 42
 - automatic exclude: 9
 - effective include: 5
-- effective review: 44
+- effective review: 42
 - effective exclude: 9
 
 ## INCLUDE (5)
@@ -84,7 +84,7 @@ job_id: teaching-vacancies-receptionist-ff80cc91-b028-4603-910d-80547a4ad86e
 reason: Approved Southampton catchment.
 ---
 
-## REVIEW (44)
+## REVIEW (42)
 
 ---
 action: 
@@ -95,6 +95,18 @@ company: Hampshire Recruitment Group LTD - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225529475
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Account Coordinator
+company: Job&Talent - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-107881829
 reason: Broad location; review before city inclusion.
 ---
 
@@ -186,18 +198,6 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Customer Service Coordinator
-company: Vistry Group - Company - Contract
-location: Hampshire
-source: JobG8
-job_id: jobg8-107892817
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Data Entry Admin - Basingstoke
 company: Adecco - Agency - Temporary
 location: Hampshire
@@ -251,30 +251,6 @@ company: Thorngate Churcher Trust - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-107718072
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Financial Administrator
-company: Job Board Direct - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-107797861
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Financial Services Administrator
-company: AWD Online - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-107732027
 reason: Broad location; review before city inclusion.
 ---
 
@@ -342,18 +318,6 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: IT Asset Coordinator
-company: Frontier Resourcing Ltd - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-107723701
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Lifestyle Coordinator
 company: Care UK - Company - Permanent
 location: Hampshire
@@ -371,6 +335,18 @@ company: Entrust Resource Solutions - Agency - Temporary
 location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225474596
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Mental Health Support Coordinator
+company: Home Group Limited - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-107898278
 reason: Broad location; review before city inclusion.
 ---
 
@@ -514,7 +490,7 @@ title: Sales Coordinator
 company: Percival Aviation - Agency - Permanent
 location: Hampshire
 source: JobG8
-job_id: jobg8-23643_225476353
+job_id: jobg8-107821073
 reason: Broad location; review before city inclusion.
 ---
 
@@ -523,10 +499,10 @@ action:
 decision: review
 automatic_decision: review
 title: Sales Coordinator
-company: The Workshop - Agency - Permanent
+company: Percival Aviation - Agency - Permanent
 location: Hampshire
 source: JobG8
-job_id: jobg8-107879301
+job_id: jobg8-23643_225476353
 reason: Broad location; review before city inclusion.
 ---
 
@@ -582,24 +558,24 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Service Desk Coordinator
-company: Hey Clear - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-107876875
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Support Coordinator
 company: NFP People - Agency - Contract
 location: Isle of Wight
 source: JobG8
 job_id: jobg8-107904656
 reason: No approved Southampton catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Temp Digital Marketing Administrator
+company: Mulberry Recruitment - Agency - Temporary
+location: Hampshire
+source: JobG8
+job_id: jobg8-23643_225544259
+reason: Broad location; review before city inclusion.
 ---
 
 ---

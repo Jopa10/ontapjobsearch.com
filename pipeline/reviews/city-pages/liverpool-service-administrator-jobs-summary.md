@@ -4,7 +4,7 @@
 - Live route: `/liverpool/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 11
+- Effective included jobs: 10
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 11
+- automatic include: 10
 - automatic review: 0
 - automatic exclude: 0
-- effective include: 11
+- effective include: 10
 - effective review: 0
 - effective exclude: 0
 
-## INCLUDE (11)
+## INCLUDE (10)
 
 ---
 action: 
@@ -45,18 +45,6 @@ company: Liverpool University Hospitals NHS Foundation Trust
 location: Liverpool, L7 8XP
 source: NHS Jobs
 job_id: nhs-5558829
-reason: Approved conservative Liverpool launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Corporate Actions Administrator
-company: Rathbones Group Plc - Agency - Temporary
-location: Liverpool
-source: JobG8
-job_id: jobg8-107876066
 reason: Approved conservative Liverpool launch catchment.
 ---
 
@@ -100,11 +88,11 @@ reason: Approved conservative Liverpool launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Interior Designer - Space Planner
-company: Dams International. - Agency - Permanent
+title: Lead Activities Coordinator
+company: Exemplar Health Care - Company - Permanent
 location: Liverpool
 source: JobG8
-job_id: jobg8-107890257
+job_id: jobg8-107812674
 reason: Approved conservative Liverpool launch catchment.
 ---
 

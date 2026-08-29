@@ -4,7 +4,7 @@
 - Live route: `/peterborough/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 16
+- Effective included jobs: 13
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 16
-- automatic review: 7
-- automatic exclude: 22
-- effective include: 16
-- effective review: 7
-- effective exclude: 22
+- automatic include: 13
+- automatic review: 6
+- automatic exclude: 19
+- effective include: 13
+- effective review: 6
+- effective exclude: 19
 
-## INCLUDE (16)
+## INCLUDE (13)
 
 ---
 action: 
@@ -136,18 +136,6 @@ reason: Approved conservative Peterborough launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: GP Receptionist / Administrator
-company: Thomas Walker Westgate Healthcare
-location: Peterborough, PE1 2QP
-source: NHS Jobs
-job_id: nhs-5527811
-reason: Approved conservative Peterborough launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: HAP Coordinator
 company: Home Group Limited - Agency - Temporary
 location: Peterborough
@@ -165,30 +153,6 @@ company: Discovery Primary Academy
 location: Peterborough
 source: Teaching Vacancies
 job_id: teaching-vacancies-inclusion-administrator-discovery-primary-academy-peterborough-cambridgeshire
-reason: Approved conservative Peterborough launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Medical Secretary / Referrals Administrator
-company: Thomas Walker Westgate Healthcare
-location: Peterborough, PE1 2QP
-source: NHS Jobs
-job_id: nhs-5527904
-reason: Approved conservative Peterborough launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Quotation & Bid Administrator
-company: Infinity Recruitment Consultancy Limited - Agency - Permanent
-location: Peterborough
-source: JobG8
-job_id: jobg8-23643_225436892
 reason: Approved conservative Peterborough launch catchment.
 ---
 
@@ -216,7 +180,7 @@ job_id: jobg8-23643_225406910
 reason: Approved conservative Peterborough launch catchment.
 ---
 
-## REVIEW (7)
+## REVIEW (6)
 
 ---
 action: 
@@ -258,18 +222,6 @@ reason: No approved Peterborough catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Conveyancing Administrators and Case Handlers
-company: AllAboutRecruitmentLtd - Agency - Permanent
-location: St. Neots
-source: JobG8
-job_id: jobg8-107791497
-reason: No approved Peterborough catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Exams Officer
 company: Ernulf Academy
 location: St. Neots
@@ -302,7 +254,7 @@ job_id: jobg8-23643_225519683
 reason: No approved Peterborough catchment rule matched; local review required.
 ---
 
-## EXCLUDE (22)
+## EXCLUDE (19)
 
 ---
 action: 
@@ -404,18 +356,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Exams Officer
-company: Cottenham Village College
-location: Cambridge
-source: Teaching Vacancies
-job_id: teaching-vacancies-exams-officer-cottenham-village-college-cambridge-cambridgeshire
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Fertility Administrator
 company: Cambridge University Hospital NHS Foundation Trust
 location: Cambridge, CB2 9LG
@@ -476,18 +416,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Project Coordinator
-company: Morson Edge - Agency - Contract
-location: Cambridge
-source: JobG8
-job_id: jobg8-107906443
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Receptionist
 company: Peasgood & Skeates - Agency - Permanent
 location: Cambridge
@@ -541,18 +469,6 @@ company: Centre 33 - Agency - Permanent
 location: Cambridge
 source: JobG8
 job_id: jobg8-23643_225463613
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Temporary Accounts Assistant
-company: Interaction - Huntingdon - Agency - Temporary
-location: Huntingdon
-source: JobG8
-job_id: jobg8-107803434
 reason: Separate employment market.
 ---
 

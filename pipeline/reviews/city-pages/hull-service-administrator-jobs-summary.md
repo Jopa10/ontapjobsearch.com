@@ -4,7 +4,7 @@
 - Live route: `/hull/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 13
+- Effective included jobs: 11
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 13
-- automatic review: 5
+- automatic include: 11
+- automatic review: 4
 - automatic exclude: 0
-- effective include: 13
-- effective review: 5
+- effective include: 11
+- effective review: 4
 - effective exclude: 0
 
-## INCLUDE (13)
+## INCLUDE (11)
 
 ---
 action: 
@@ -33,18 +33,6 @@ company: Stafforce Recruitment - Agency - Permanent
 location: Hull
 source: JobG8
 job_id: jobg8-23643_225499816
-reason: Approved conservative Hull launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Admin / Accounts Assistant
-company: Get Staffed Online Recruitment - Agency - Permanent
-location: Hull
-source: JobG8
-job_id: jobg8-107906912
 reason: Approved conservative Hull launch catchment.
 ---
 
@@ -93,18 +81,6 @@ company: KD Recruitment - Agency - Permanent
 location: Hull
 source: JobG8
 job_id: jobg8-23643_225537982
-reason: Approved conservative Hull launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Graduate Customer Service Coordinator
-company: Consortium Professional Recruitment - Agency - Permanent
-location: Hull
-source: JobG8
-job_id: jobg8-107902261
 reason: Approved conservative Hull launch catchment.
 ---
 
@@ -180,7 +156,7 @@ job_id: nhs-5559811
 reason: Approved conservative Hull launch catchment.
 ---
 
-## REVIEW (5)
+## REVIEW (4)
 
 ---
 action: 
@@ -203,18 +179,6 @@ company: The Ridings Medical Group
 location: HESSLE, HU13 9LZ, Brough, HU15 2JG, Brough, HU15 1AY, York, YO43 4BJ, Selby, YO8 6LY
 source: NHS Jobs
 job_id: nhs-5550886
-reason: No approved Hull catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Customer Success & Sales Support Executive
-company: Consortium Professional Recruitment - Agency - Permanent
-location: Hessle
-source: JobG8
-job_id: jobg8-107785786
 reason: No approved Hull catchment rule matched; local review required.
 ---
 

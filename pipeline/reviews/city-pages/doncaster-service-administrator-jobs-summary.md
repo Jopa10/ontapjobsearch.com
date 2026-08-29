@@ -4,7 +4,7 @@
 - Live route: `/doncaster/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 2
+- Effective included jobs: 3
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,26 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 2
-- automatic review: 3
-- automatic exclude: 16
-- effective include: 2
-- effective review: 3
-- effective exclude: 16
+- automatic include: 3
+- automatic review: 4
+- automatic exclude: 23
+- effective include: 3
+- effective review: 4
+- effective exclude: 23
 
-## INCLUDE (2)
+## INCLUDE (3)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Account Coordinator - Part Time
+company: Staffline Operations - Agency - Temporary
+location: Doncaster
+source: JobG8
+job_id: jobg8-107804866
+reason: Approved Doncaster catchment.
+---
 
 ---
 action: 
@@ -40,15 +52,27 @@ reason: Approved Doncaster catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Receptionist / Purchase Ledger Clerk
-company: Edwards & Pearce Limited - Agency - Permanent
-location: Doncaster
-source: JobG8
-job_id: jobg8-107855575
+title: Receptionist/Administrator
+company: Tickhill and Colliery Medical Practice
+location: Doncaster, DN11 9NA, Doncaster, DN11 8JT
+source: NHS Jobs
+job_id: nhs-5554992
 reason: Approved Doncaster catchment.
 ---
 
-## REVIEW (3)
+## REVIEW (4)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Lead Activities Coordinator
+company: Exemplar Health Care - Company - Permanent
+location: Mexborough
+source: JobG8
+job_id: jobg8-107717102
+reason: No approved Doncaster catchment rule matched; local review required.
+---
 
 ---
 action: 
@@ -86,7 +110,7 @@ job_id: jobg8-23643_225516072
 reason: No approved Doncaster catchment rule matched; local review required.
 ---
 
-## EXCLUDE (16)
+## EXCLUDE (23)
 
 ---
 action: 
@@ -152,6 +176,102 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Call Centre Agent - Uncapped Commission
+company: EE - Company - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-20279_62295-89740a075c6163b74ea2c52702062e5d
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Call Centre Agent - Uncapped Commission
+company: EE - Company - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-21618_20279_62295-89740a075c6163b74ea2c52702062e5d
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Call Centre Operator - Uncapped Commission
+company: EE - Company - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-20279_62295-73862c8b83139033e4e4a8b6efca9a33
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Call Centre Operator - Uncapped Commission
+company: EE - Company - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-21618_20279_62295-73862c8b83139033e4e4a8b6efca9a33
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Contact Centre Agent - Uncapped Commission
+company: EE - Company - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-20279_62295-d24d3d6916a209e15b1680693740da2f
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Contact Centre Agent - Uncapped Commission
+company: EE - Company - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-21618_20279_62295-d24d3d6916a209e15b1680693740da2f
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Customer Service Advisor - Uncapped Commission
+company: EE - Company - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-20279_62295-153faf593eb64b88272f45adeaa28d87
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Customer Service Advisor - Uncapped Commission
+company: EE - Company - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-21618_20279_62295-153faf593eb64b88272f45adeaa28d87
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Customer Service Coordinator
 company: Gi Group - Agency - Permanent
 location: Barnsley
@@ -176,23 +296,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Part Time Administrator
-company: Office Angels - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-23643_225544680
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Project Co-ordinator
-company: Sue Ross Recruitment Ltd - Agency - Contract
-location: Sheffield
-source: JobG8
-job_id: jobg8-23643_225439789
+title: Receptionist
+company: Beauchief Medical Practice
+location: Sheffield, S8 0BJ, Sheffield, S174DQ
+source: NHS Jobs
+job_id: nhs-5549526
 reason: Separate employment market.
 ---
 
@@ -248,6 +356,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Sales Coordinator
+company: Ranson Barnes Recruitment Limited - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-107870378
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: SEND Administrative Assistant
 company: Westfield School
 location: Sheffield
@@ -265,17 +385,5 @@ company: Aston Academy
 location: Sheffield
 source: Teaching Vacancies
 job_id: teaching-vacancies-send-administrator-aston-academy-sheffield-south-yorkshire
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Volunteer Coordinator
-company: South Yorkshire Fire & Rescue - Agency - Permanent
-location: Rotherham
-source: JobG8
-job_id: jobg8-107909022
 reason: Separate employment market.
 ---

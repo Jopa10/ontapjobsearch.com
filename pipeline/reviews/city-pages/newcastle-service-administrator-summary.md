@@ -4,7 +4,7 @@
 - Live route: `/newcastle/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 23
+- Effective included jobs: 22
 - Threshold currently met: yes
 
 ## How to review
@@ -15,26 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 23
-- automatic review: 26
-- automatic exclude: 19
-- effective include: 23
-- effective review: 26
-- effective exclude: 19
+- automatic include: 22
+- automatic review: 24
+- automatic exclude: 17
+- effective include: 22
+- effective review: 24
+- effective exclude: 17
 
-## INCLUDE (23)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administration Assistant
-company: Cumbria, Northumberland, Tyne and wear (CNTW) NHS Foundation Trust
-location: Gateshead, NE11 0AL
-source: NHS Jobs
-job_id: nhs-5541050
-reason: Approved Newcastle catchment.
----
+## INCLUDE (22)
 
 ---
 action: 
@@ -300,19 +288,7 @@ job_id: nejobs-300777
 reason: Approved Newcastle catchment.
 ---
 
-## REVIEW (26)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Assistant
-company: SI Recruitment - Agency - Permanent
-location: Tyne And Wear
-source: JobG8
-job_id: jobg8-107905195
-reason: Broad location; review before city inclusion.
----
+## REVIEW (24)
 
 ---
 action: 
@@ -475,18 +451,6 @@ action:
 decision: review
 automatic_decision: review
 title: Medical Receptionist
-company: Staff Partners Business - Agency - Temporary
-location: Tyne And Wear
-source: JobG8
-job_id: jobg8-23643_225449718
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Medical Receptionist
 company: The Stephenson Medical Practice
 location: Washington, NE37 2PU
 source: NHS Jobs
@@ -614,7 +578,7 @@ job_id: nejobs-301243
 reason: No approved Newcastle catchment rule matched; local review required.
 ---
 
-## EXCLUDE (19)
+## EXCLUDE (17)
 
 ---
 action: 
@@ -716,18 +680,6 @@ reason: Outside Newcastle catchment.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Maintenance Administrator
-company: Hays Business Support - Agency - Permanent
-location: County Durham
-source: JobG8
-job_id: jobg8-23643_225512280
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Marketing & Events Assistant
 company: Connect Multi-Academy Trust
 location: County Durham
@@ -752,11 +704,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: PA Support Officer
-company: Darlington Borough Council
-location: Town Hall, Darlington
-source: NEJobs
-job_id: nejobs-300972
+title: Medical Receptionist
+company: The Medical Group
+location: Durham, DH7 8NH
+source: NHS Jobs
+job_id: nhs-5569621
 reason: Separate employment market.
 ---
 
@@ -764,11 +716,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Pricing Coordinator
-company: SI Recruitment - Agency - Permanent
-location: County Durham
-source: JobG8
-job_id: jobg8-107754499
+title: PA Support Officer
+company: Darlington Borough Council
+location: Town Hall, Darlington
+source: NEJobs
+job_id: nejobs-300972
 reason: Separate employment market.
 ---
 
@@ -805,18 +757,6 @@ company: First Class Supply & Training
 location: Durham
 source: NEJobs
 job_id: nejobs-256127
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Team Administrator
-company: Tees Esk and Wear Valleys NHS Foundation Trust
-location: Durham, DH1 5RD
-source: NHS Jobs
-job_id: nhs-5539752
 reason: Separate employment market.
 ---
 

@@ -75,34 +75,6 @@
     "posted_date_basis": "ontap_first_published"
   },
   {
-    "job_id": "teaching-vacancies-exams-officer-cottenham-village-college-cambridge-cambridgeshire",
-    "title": "Exams Officer",
-    "company": "Cottenham Village College",
-    "location": "Cambridge",
-    "region": "Cambridgeshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['full time']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "£31,537.00 - £33,699.00 Annually (FTE) Pro rata salary - £29,044 - £31,035",
-    "work_pattern": "",
-    "posted_date": "2026-08-03",
-    "closing_date": "2026-08-28",
-    "closing_datetime": "2026-08-28T23:59:00+01:00",
-    "summary": "Exams Officer with Cottenham Village College in Cambridge. ['full time']; £31,537.00 - £33,699.00 Annually (FTE) Pro rata salary - £29,044 - £31,035.",
-    "description": "Cottenham Village College is recruiting for this vacancy in Cambridge.\n\nThe advertised position is Exams Officer.\n\nThe source lists the employment type as ['full time'].\n\nThe advertised salary or pay scale is £31,537.00 - £33,699.00 Annually (FTE) Pro rata salary - £29,044 - £31,035.\n\nThe stated application deadline is 2026-08-28T23:59:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/exams-officer-cottenham-village-college-cambridge-cambridgeshire?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Cottenham Village College",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
-  },
-  {
     "job_id": "teaching-vacancies-office-administrator-swaffham-prior-church-of-england-primary-school-cambridge",
     "title": "Office Administrator",
     "company": "Swaffham Prior Church of England Primary School",
@@ -153,36 +125,6 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Quotations",
-      "Order processing"
-    ]
-  },
-  {
-    "job_id": "107906443",
-    "title": "Project Coordinator",
-    "company": "Morson Edge - Agency - Contract",
-    "location": "Cambridge",
-    "region": "Cambridgeshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Contract",
-    "salary_min": "30000",
-    "salary_max": "30000",
-    "salary_text": "£30000 per year",
-    "posted_date": "2026-08-27",
-    "description": "Overview:\n\nReporting to the Senior Project Manager, you will be a key member of the Programme Management Office (PMO), supporting the coordination and delivery of activities across the programme team. Working within a matrix organisation, you will collaborate with colleagues across engineering, procurement, supply chain, production, finance and project management to help ensure projects are effectiv click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?G%2b5YiGNoEgrAfVLhhtbqjLyRty1JUIqan",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Morson Edge",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Annual",
     "posted_date_basis": "ontap_first_published"
   },
   {
@@ -208,11 +150,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Telephone handling",
-      "Scheduling and bookings"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225451600",
@@ -334,9 +272,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9180-26-1092",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -356,9 +291,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9180-26-1093",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -378,9 +310,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9180-26-1060",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   }
 ]

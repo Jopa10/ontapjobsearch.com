@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 10
-- automatic review: 8
-- automatic exclude: 29
+- automatic review: 7
+- automatic exclude: 26
 - effective include: 10
-- effective review: 8
-- effective exclude: 29
+- effective review: 7
+- effective exclude: 26
 
 ## INCLUDE (10)
 
@@ -144,7 +144,7 @@ job_id: nhs-5561560
 reason: Approved conservative Oxford launch catchment.
 ---
 
-## REVIEW (8)
+## REVIEW (7)
 
 ---
 action: 
@@ -198,18 +198,6 @@ reason: No approved Oxford catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Medical Receptionist
-company: The Abingdon Surgery
-location: Abingdon, OX14 3LB
-source: NHS Jobs
-job_id: nhs-5547418
-reason: No approved Oxford catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Receptionist - part time considered
 company: Gosford Hill School
 location: Kidlington
@@ -242,43 +230,7 @@ job_id: teaching-vacancies-sixth-form-administrator-team-leader
 reason: No approved Oxford catchment rule matched; local review required.
 ---
 
-## EXCLUDE (29)
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Accounts Administrator
-company: The Recruitment Group - Agency - Permanent
-location: Oxfordshire
-source: JobG8
-job_id: jobg8-107862291
-reason: Broad county location; not Oxford-city evidence.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Accounts Administrator Entry Level Opportunity
-company: The Recruitment Group - Agency - Permanent
-location: Oxfordshire
-source: JobG8
-job_id: jobg8-107856250
-reason: Broad county location; not Oxford-city evidence.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Administrator
-company: Allen Associates - Agency - Temporary
-location: Oxfordshire
-source: JobG8
-job_id: jobg8-23643_225438847
-reason: Broad county location; not Oxford-city evidence.
----
+## EXCLUDE (26)
 
 ---
 action: 
@@ -368,6 +320,18 @@ reason: Broad county location; not Oxford-city evidence.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Care Coordinator
+company: Care Outlook Ltd - Agency - Permanent
+location: Oxfordshire
+source: JobG8
+job_id: jobg8-107905837
+reason: Broad county location; not Oxford-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Claims Administrator
 company: K2 Recruitment - Agency - Permanent
 location: Oxfordshire
@@ -385,18 +349,6 @@ company: GXO Logistics - Company - Permanent
 location: Oxfordshire
 source: JobG8
 job_id: jobg8-107860928
-reason: Broad county location; not Oxford-city evidence.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Ecommerce Coordinator (Customer Service, Orders & Platform Support)
-company: Prodrive - Agency - Permanent
-location: Oxfordshire
-source: JobG8
-job_id: jobg8-107842716
 reason: Broad county location; not Oxford-city evidence.
 ---
 
@@ -452,11 +404,11 @@ reason: Broad county location; not Oxford-city evidence.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: IT Project Coordinator 12month FTC
-company: Safran - Agency - Permanent
+title: Lifestyle Coordinator
+company: Care UK - Company - Permanent
 location: Oxfordshire
 source: JobG8
-job_id: jobg8-107893366
+job_id: jobg8-107723275
 reason: Broad county location; not Oxford-city evidence.
 ---
 

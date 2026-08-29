@@ -4,7 +4,7 @@
 - Live route: `/manchester/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 30
+- Effective included jobs: 24
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 30
+- automatic include: 24
 - automatic review: 0
 - automatic exclude: 3
-- effective include: 30
+- effective include: 24
 - effective review: 0
 - effective exclude: 3
 
-## INCLUDE (30)
+## INCLUDE (24)
 
 ---
 action: 
@@ -136,35 +136,11 @@ reason: Approved conservative Manchester launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Customer Service & Website Administrator
-company: NowSkills - Agency - Permanent
-location: Manchester
-source: JobG8
-job_id: jobg8-107883067
-reason: Approved conservative Manchester launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Finance Assistant (Temp To Perm)
 company: Axon Moore - Agency - Contract
 location: Manchester
 source: JobG8
 job_id: jobg8-23643_225477091
-reason: Approved conservative Manchester launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Helpdesk / Estimation Administrator (Construction)
-company: Ernest Gordon Recruitment - Agency - Permanent
-location: Manchester
-source: JobG8
-job_id: jobg8-107823203
 reason: Approved conservative Manchester launch catchment.
 ---
 
@@ -232,35 +208,11 @@ reason: Approved conservative Manchester launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Operations Coordinator
-company: phs Group - Company - Permanent
-location: Manchester
-source: JobG8
-job_id: jobg8-107896400
-reason: Approved conservative Manchester launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Property Management Administrator
 company: Aspire Recruitment - Agency - Temporary
 location: Manchester
 source: JobG8
 job_id: jobg8-23643_225457567
-reason: Approved conservative Manchester launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Receptionist
-company: Florence House Medical Practice
-location: Manchester, M11 1JG
-source: NHS Jobs
-job_id: nhs-5530819
 reason: Approved conservative Manchester launch catchment.
 ---
 
@@ -304,18 +256,6 @@ reason: Approved conservative Manchester launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Service Helpdesk Co-ordinator
-company: NMS Recruit Ltd t/a Russell Taylor Group - Agency - Permanent
-location: Manchester
-source: JobG8
-job_id: jobg8-23643_225438494
-reason: Approved conservative Manchester launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: SHARIAH COUNCIL ADMINISTRATOR
 company: MANCHESTER COMMUNITY CENTRE - Agency - Permanent
 location: Manchester
@@ -345,18 +285,6 @@ company: Creative Support - Agency - Permanent
 location: Manchester
 source: JobG8
 job_id: jobg8-107864416
-reason: Approved conservative Manchester launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Support Coordinator
-company: Home Group Limited - Agency - Permanent
-location: Manchester
-source: JobG8
-job_id: jobg8-107835840
 reason: Approved conservative Manchester launch catchment.
 ---
 

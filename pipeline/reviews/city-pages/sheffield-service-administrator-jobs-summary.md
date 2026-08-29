@@ -4,7 +4,7 @@
 - Live route: `/sheffield/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 10
+- Effective included jobs: 18
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 10
-- automatic review: 3
+- automatic include: 18
+- automatic review: 4
 - automatic exclude: 8
-- effective include: 10
-- effective review: 3
+- effective include: 18
+- effective review: 4
 - effective exclude: 8
 
-## INCLUDE (10)
+## INCLUDE (18)
 
 ---
 action: 
@@ -52,6 +52,102 @@ reason: Approved Sheffield catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Call Centre Agent - Uncapped Commission
+company: EE - Company - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-20279_62295-89740a075c6163b74ea2c52702062e5d
+reason: Approved Sheffield catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Call Centre Agent - Uncapped Commission
+company: EE - Company - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-21618_20279_62295-89740a075c6163b74ea2c52702062e5d
+reason: Approved Sheffield catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Call Centre Operator - Uncapped Commission
+company: EE - Company - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-20279_62295-73862c8b83139033e4e4a8b6efca9a33
+reason: Approved Sheffield catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Call Centre Operator - Uncapped Commission
+company: EE - Company - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-21618_20279_62295-73862c8b83139033e4e4a8b6efca9a33
+reason: Approved Sheffield catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Contact Centre Agent - Uncapped Commission
+company: EE - Company - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-20279_62295-d24d3d6916a209e15b1680693740da2f
+reason: Approved Sheffield catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Contact Centre Agent - Uncapped Commission
+company: EE - Company - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-21618_20279_62295-d24d3d6916a209e15b1680693740da2f
+reason: Approved Sheffield catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Customer Service Advisor - Uncapped Commission
+company: EE - Company - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-20279_62295-153faf593eb64b88272f45adeaa28d87
+reason: Approved Sheffield catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Customer Service Advisor - Uncapped Commission
+company: EE - Company - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-21618_20279_62295-153faf593eb64b88272f45adeaa28d87
+reason: Approved Sheffield catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Operations Administrator
 company: Sue Ross Recruitment Ltd - Agency - Permanent
 location: Sheffield
@@ -64,23 +160,11 @@ reason: Approved Sheffield catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Part Time Administrator
-company: Office Angels - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-23643_225544680
-reason: Approved Sheffield catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Project Co-ordinator
-company: Sue Ross Recruitment Ltd - Agency - Contract
-location: Sheffield
-source: JobG8
-job_id: jobg8-23643_225439789
+title: Receptionist
+company: Beauchief Medical Practice
+location: Sheffield, S8 0BJ, Sheffield, S174DQ
+source: NHS Jobs
+job_id: nhs-5549526
 reason: Approved Sheffield catchment.
 ---
 
@@ -124,6 +208,18 @@ reason: Approved Sheffield catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Sales Coordinator
+company: Ranson Barnes Recruitment Limited - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-107870378
+reason: Approved Sheffield catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: SEND Administrative Assistant
 company: Westfield School
 location: Sheffield
@@ -144,7 +240,19 @@ job_id: teaching-vacancies-send-administrator-aston-academy-sheffield-south-york
 reason: Approved Sheffield catchment.
 ---
 
-## REVIEW (3)
+## REVIEW (4)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Lead Activities Coordinator
+company: Exemplar Health Care - Company - Permanent
+location: Mexborough
+source: JobG8
+job_id: jobg8-107717102
+reason: No approved Sheffield catchment rule matched; local review required.
+---
 
 ---
 action: 
@@ -183,6 +291,18 @@ reason: No approved Sheffield catchment rule matched; local review required.
 ---
 
 ## EXCLUDE (8)
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Account Coordinator - Part Time
+company: Staffline Operations - Agency - Temporary
+location: Doncaster
+source: JobG8
+job_id: jobg8-107804866
+reason: Separate employment market.
+---
 
 ---
 action: 
@@ -260,22 +380,10 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Receptionist / Purchase Ledger Clerk
-company: Edwards & Pearce Limited - Agency - Permanent
-location: Doncaster
-source: JobG8
-job_id: jobg8-107855575
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Volunteer Coordinator
-company: South Yorkshire Fire & Rescue - Agency - Permanent
-location: Rotherham
-source: JobG8
-job_id: jobg8-107909022
+title: Receptionist/Administrator
+company: Tickhill and Colliery Medical Practice
+location: Doncaster, DN11 9NA, Doncaster, DN11 8JT
+source: NHS Jobs
+job_id: nhs-5554992
 reason: Separate employment market.
 ---

@@ -4,7 +4,7 @@
 - Live route: `/brighton-hove/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 5
+- Effective included jobs: 4
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 5
-- automatic review: 24
-- automatic exclude: 3
-- effective include: 5
-- effective review: 24
-- effective exclude: 3
+- automatic include: 4
+- automatic review: 23
+- automatic exclude: 4
+- effective include: 4
+- effective review: 23
+- effective exclude: 4
 
-## INCLUDE (5)
+## INCLUDE (4)
 
 ---
 action: 
@@ -52,18 +52,6 @@ reason: Approved Brighton & Hove catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Mental Health Act Administrator and Medical Secretary
-company: Elysium Healthcare
-location: Brighton, BN3 4FH
-source: NHS Jobs
-job_id: nhs-5551395
-reason: Approved Brighton & Hove catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Receptionist
 company: Integrated Care 24 Ltd
 location: Brighton, BN1 1AE
@@ -84,7 +72,7 @@ job_id: nhs-5548209
 reason: Approved Brighton & Hove catchment.
 ---
 
-## REVIEW (24)
+## REVIEW (23)
 
 ---
 action: 
@@ -155,18 +143,6 @@ company: Compass UK & Ireland - Company - Permanent
 location: Sussex
 source: JobG8
 job_id: jobg8-107860492
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Finance Assistant
-company: 77 Diamonds - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-107742906
 reason: Broad location; review before city inclusion.
 ---
 
@@ -374,7 +350,7 @@ job_id: jobg8-23643_225462263
 reason: Broad location; review before city inclusion.
 ---
 
-## EXCLUDE (3)
+## EXCLUDE (4)
 
 ---
 action: 
@@ -409,5 +385,17 @@ company: Arlington Road Medical Practice
 location: Eastbourne, BN21 1DH
 source: NHS Jobs
 job_id: nhs-5536742
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Receptionist/Care Navigator
+company: Parklands Surgery
+location: Chichester, PO19 3DT
+source: NHS Jobs
+job_id: nhs-5569929
 reason: Separate employment market.
 ---

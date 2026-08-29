@@ -5,17 +5,14 @@ include,nhs-5544150,Administrator,Practice Plus Group - Health in Justice,"Leeds
 include,nhs-5555590,Administrator,The Pharmacist Network,"Leeds, NE4 7YB",NHS Jobs,include,include,Approved Leeds catchment.,leeds,leeds-service-administrator-jobs
 include,teaching-vacancies-administrator-inc-finance,Administrator (inc Finance),Benton Park School,Leeds,Teaching Vacancies,include,include,Approved Leeds catchment.,leeds,leeds-service-administrator-jobs
 include,jobg8-107880419,Bid Coordinator,Ridge & Partners LLP - Agency - Permanent,Leeds,JobG8,include,include,Approved Leeds catchment.,leeds,leeds-service-administrator-jobs
-include,jobg8-107908451,Cloud-First SQL Database Administrator - Azure,IO Associates - Agency - Permanent,Leeds,JobG8,include,include,Approved Leeds catchment.,leeds,leeds-service-administrator-jobs
 include,jobg8-23643_225516031,Customer Service Advisor,Red Recruitment - Agency - Permanent,Leeds,JobG8,include,include,Approved Leeds catchment.,leeds,leeds-service-administrator-jobs
 include,jobg8-23643_224689396,Document Controller,CSS - Agency - Contract,Leeds,JobG8,include,include,Approved Leeds catchment.,leeds,leeds-service-administrator-jobs
-include,nhs-5561629,HR Administrator,Akari Care Limited,"Leeds, LS11 5DZ",NHS Jobs,include,include,Approved Leeds catchment.,leeds,leeds-service-administrator-jobs
 include,jobg8-23643_225451264,HR Administrator,Lucy Walker Recruitment - Agency - Temporary,Leeds,JobG8,include,include,Approved Leeds catchment.,leeds,leeds-service-administrator-jobs
 include,jobg8-23643_225476554,HR Assistant,Sewell Wallis Ltd - Agency - Permanent,Leeds,JobG8,include,include,Approved Leeds catchment.,leeds,leeds-service-administrator-jobs
-include,jobg8-107880455,Receptionist,Brook Street UK - Agency - Temporary,Leeds,JobG8,include,include,Approved Leeds catchment.,leeds,leeds-service-administrator-jobs
+include,jobg8-107819626,Recruitment Account Coordinator,Staffline Divisions - Agency - Temporary,Leeds,JobG8,include,include,Approved Leeds catchment.,leeds,leeds-service-administrator-jobs
 include,jobg8-23643_225515250,Recruitment Administrator,Adecco - Agency - Temporary,Leeds,JobG8,include,include,Approved Leeds catchment.,leeds,leeds-service-administrator-jobs
 include,teaching-vacancies-senior-administrator-fountain-primary-school-leeds-west-yorkshire,Senior Administrator,Fountain Primary School,Leeds,Teaching Vacancies,include,include,Approved Leeds catchment.,leeds,leeds-service-administrator-jobs
 include,jobg8-23643_225524513,Service Administrator,Working Solutions Recruitment - Agency - Permanent,Leeds,JobG8,include,include,Approved Leeds catchment.,leeds,leeds-service-administrator-jobs
-include,jobg8-107876115,Sustainable Funding Coordinator,LJ Recruitment Limited - Agency - Permanent,Leeds,JobG8,include,include,Approved Leeds catchment.,leeds,leeds-service-administrator-jobs
 include,jobg8-23643_225519206,Temporary Executive Support Administrator,Hays Business Support - Agency - Temporary,Leeds,JobG8,include,include,Approved Leeds catchment.,leeds,leeds-service-administrator-jobs
 review,teaching-vacancies-academy-administrator-l3-dixons-cottingley-academy,Academy Administrator L3,Dixons Cottingley Academy,Bingley,Teaching Vacancies,review,review,No approved Leeds catchment rule matched; local review required.,fallback,leeds-service-administrator-jobs
 review,jobg8-23643_225472240,Accounts Assistant,Hays Senior Finance - Agency - Permanent,Brighouse,JobG8,review,review,No approved Leeds catchment rule matched; local review required.,fallback,leeds-service-administrator-jobs
@@ -42,6 +39,5 @@ exclude,teaching-vacancies-send-exam-access-arrangements-administrator,SEND & Ex
 exclude,teaching-vacancies-senior-administrator-appleton-academy-bradford-west-yorkshire,Senior Administrator,Appleton Academy,Bradford,Teaching Vacancies,exclude,exclude,Separate employment market.,bradford,leeds-service-administrator-jobs
 exclude,jobg8-23643_225542036,Service Co-ordinator,Veolia - Agency - Permanent,Dewsbury,JobG8,exclude,exclude,Separate employment market.,dewsbury,leeds-service-administrator-jobs
 exclude,teaching-vacancies-specialist-administrator-send-medical-lead-first-aid,"Specialist Administrator (SEND, Medical, Lead First Aid)",Parkside School,Bradford,Teaching Vacancies,exclude,exclude,Separate employment market.,bradford,leeds-service-administrator-jobs
-exclude,jobg8-23643_225436825,Temporary Office Support/Sales Administrator,Office Angels - Agency - Temporary,Bradford,JobG8,exclude,exclude,Separate employment market.,bradford,leeds-service-administrator-jobs
 exclude,jobg8-23643_225476845,Temporary Receptionist,Tailored Recruitment Partners Limited - Agency - Temporary,Bradford,JobG8,exclude,exclude,Separate employment market.,bradford,leeds-service-administrator-jobs
 exclude,jobg8-23643_225465858,Training Administrator,Shorterm Group - Agency - Permanent,Wakefield,JobG8,exclude,exclude,Separate employment market.,wakefield,leeds-service-administrator-jobs

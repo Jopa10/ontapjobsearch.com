@@ -4,7 +4,7 @@
 - Live route: `/bradford/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 9
+- Effective included jobs: 8
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 9
+- automatic include: 8
 - automatic review: 5
-- automatic exclude: 32
-- effective include: 9
+- automatic exclude: 29
+- effective include: 8
 - effective review: 5
-- effective exclude: 32
+- effective exclude: 29
 
-## INCLUDE (9)
+## INCLUDE (8)
 
 ---
 action: 
@@ -112,18 +112,6 @@ reason: Approved Bradford catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Temporary Office Support/Sales Administrator
-company: Office Angels - Agency - Temporary
-location: Bradford
-source: JobG8
-job_id: jobg8-23643_225436825
-reason: Approved Bradford catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Temporary Receptionist
 company: Tailored Recruitment Partners Limited - Agency - Temporary
 location: Bradford
@@ -194,7 +182,7 @@ job_id: nhs-5551474
 reason: No approved Bradford catchment rule matched; local review required.
 ---
 
-## EXCLUDE (32)
+## EXCLUDE (29)
 
 ---
 action: 
@@ -308,18 +296,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Cloud-First SQL Database Administrator - Azure
-company: IO Associates - Agency - Permanent
-location: Leeds
-source: JobG8
-job_id: jobg8-107908451
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Customer Service Advisor
 company: Red Recruitment - Agency - Permanent
 location: Leeds
@@ -337,18 +313,6 @@ company: CSS - Agency - Contract
 location: Leeds
 source: JobG8
 job_id: jobg8-23643_224689396
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: HR Administrator
-company: Akari Care Limited
-location: Leeds, LS11 5DZ
-source: NHS Jobs
-job_id: nhs-5561629
 reason: Separate employment market.
 ---
 
@@ -440,18 +404,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Receptionist
-company: Brook Street UK - Agency - Temporary
-location: Leeds
-source: JobG8
-job_id: jobg8-107880455
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Receptionist / Administrator
 company: Ossett Surgery
 location: Wakefield, WF5 8DF
@@ -481,6 +433,18 @@ company: Stainland Road Medical Centre
 location: Halifax, HX4 8BD
 source: NHS Jobs
 job_id: nhs-5559992
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Recruitment Account Coordinator
+company: Staffline Divisions - Agency - Temporary
+location: Leeds
+source: JobG8
+job_id: jobg8-107819626
 reason: Separate employment market.
 ---
 
@@ -541,18 +505,6 @@ company: Veolia - Agency - Permanent
 location: Dewsbury
 source: JobG8
 job_id: jobg8-23643_225542036
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Sustainable Funding Coordinator
-company: LJ Recruitment Limited - Agency - Permanent
-location: Leeds
-source: JobG8
-job_id: jobg8-107876115
 reason: Separate employment market.
 ---
 

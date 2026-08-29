@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 5
-- automatic review: 3
-- automatic exclude: 24
+- automatic review: 2
+- automatic exclude: 23
 - effective include: 5
-- effective review: 3
-- effective exclude: 24
+- effective review: 2
+- effective exclude: 23
 
 ## INCLUDE (5)
 
@@ -84,19 +84,7 @@ job_id: nhs-5565888
 reason: Approved Coventry catchment.
 ---
 
-## REVIEW (3)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
-company: Abbey Medical Centre
-location: Kenilworth, CV8 1JD
-source: NHS Jobs
-job_id: nhs-5538096
-reason: No approved Coventry catchment rule matched; local review required.
----
+## REVIEW (2)
 
 ---
 action: 
@@ -122,19 +110,7 @@ job_id: teaching-vacancies-receptionist-and-administrator-ftc-contract-september
 reason: No approved Coventry catchment rule matched; local review required.
 ---
 
-## EXCLUDE (24)
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Administrator
-company: Pertemps Contracts - Agency - Temporary
-location: Warwickshire
-source: JobG8
-job_id: jobg8-23643_225436912
-reason: Separate employment market.
----
+## EXCLUDE (23)
 
 ---
 action: 
@@ -145,18 +121,6 @@ company: Practice Plus Group - Health in Justice
 location: Rugby, CV23 8SZ
 source: NHS Jobs
 job_id: nhs-5553809
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Administrator
-company: SF Partners - Agency - Permanent
-location: Warwickshire
-source: JobG8
-job_id: jobg8-23643_225437355
 reason: Separate employment market.
 ---
 
@@ -200,35 +164,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Cash Allocation Administrator
-company: Manpower - Agency - Permanent
-location: Warwickshire
-source: JobG8
-job_id: jobg8-107831626
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Clerical Assistant
 company: South Warwickshire University NHS Foundation Trust
 location: Rugby, CV21 3SR
 source: NHS Jobs
 job_id: nhs-5551216
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Customer Care Coordinator
-company: Persimmon Homes - Agency - Permanent
-location: Warwickshire
-source: JobG8
-job_id: jobg8-107856718
 reason: Separate employment market.
 ---
 
@@ -332,6 +272,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: MEDICAL RECEPTIONIST
+company: Valley Road Medical Practice
+location: Leamington Spa, CV32 7SJ
+source: NHS Jobs
+job_id: nhs-4151642
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Personal Assistant (PA) to the Headteachers (Oak Wood Schools)
 company: Oak Wood Secondary School
 location: Nuneaton
@@ -368,6 +320,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Sales Coordinator
+company: The Caraires Consultancy - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-107830347
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Sales Support Administrator
 company: Office Angels - Agency - Temporary
 location: Warwickshire
@@ -385,6 +349,18 @@ company: Houlton School
 location: RUGBY
 source: Teaching Vacancies
 job_id: teaching-vacancies-send-administrator-houlton-school
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Service Delivery Coordinator
+company: Pertemps North Midlands - Agency - Temporary
+location: Warwickshire
+source: JobG8
+job_id: jobg8-23643_225435656
 reason: Separate employment market.
 ---
 
