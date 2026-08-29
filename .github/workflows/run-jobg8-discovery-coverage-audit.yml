@@ -2,6 +2,20 @@ name: Run JobG8 discovery coverage audit
 
 on:
   workflow_dispatch:
+    inputs:
+      source_ref:
+        description: Code revision to audit
+        required: true
+        default: main
+        type: choice
+        options:
+          - main
+          - test/salary-band-family-audit
+      artifact_only:
+        description: Upload results without committing them
+        required: true
+        default: false
+        type: boolean
   push:
     paths:
       - '.github/workflows/run-jobg8-discovery-coverage-audit.yml'
@@ -23,17 +37,29 @@ permissions:
   id-token: write
 
 concurrency:
-  group: jobg8-discovery-coverage-audit
+  group: jobg8-discovery-coverage-audit-${{ github.event_name == 'workflow_dispatch' && inputs.source_ref || 'main' }}
   cancel-in-progress: true
 
 jobs:
   audit:
     runs-on: ubuntu-latest
     steps:
-      - name: Check out main
+      - name: Validate requested audit mode
+        if: github.event_name == 'workflow_dispatch'
+        env:
+          SOURCE_REF: ${{ inputs.source_ref }}
+          ARTIFACT_ONLY: ${{ inputs.artifact_only }}
+        run: |
+          set -euo pipefail
+          if [ "$SOURCE_REF" != 'main' ] && [ "$ARTIFACT_ONLY" != 'true' ]; then
+            echo '::error::A non-main audit must be artifact-only.'
+            exit 1
+          fi
+
+      - name: Check out requested revision
         uses: actions/checkout@v4
         with:
-          ref: main
+          ref: ${{ github.event_name == 'workflow_dispatch' && inputs.source_ref || 'main' }}
           fetch-depth: 0
 
       - name: Set up Python
@@ -159,6 +185,7 @@ jobs:
           done
 
       - name: Commit diagnostic outputs only
+        if: github.event_name != 'workflow_dispatch' || !inputs.artifact_only
         run: |
           set -euo pipefail
           files=(
@@ -195,6 +222,11 @@ jobs:
           git commit -m 'Run JobG8 discovery diagnostics'
           git pull --rebase origin main
           git push origin HEAD:main
+
+      - name: Confirm artifact-only test
+        if: github.event_name == 'workflow_dispatch' && inputs.artifact_only
+        run: |
+          echo 'Test audit complete: reports are uploaded below and nothing is committed or pushed.'
 
       - name: Upload audit artifact
         if: always()
