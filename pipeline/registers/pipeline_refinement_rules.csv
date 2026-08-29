@@ -67,6 +67,10 @@ admin_service,Merchandising Administrator,HARD_PASS,,,AGREED_2026-07-24,Merchand
 admin_service,Virtual Telecommute Research Panel. Flexible Hours. Customer Service Administrator Advisor Welcome,HARD_PASS,,,AGREED_2026-07-24,Keyword-stuffed research-panel advert is not a credible defined vacancy
 admin_service,Team Assistant and Office Coordinator in Insurance! City based!,HIGH_CONFIDENCE,specialist_requirements_review,,AGREED_2026-07-24,Office support remains transferable unless insurance expertise is mandatory
 admin_service,Administrator Bank and Part time Canary Wharf 32 hours per week,HIGH_CONFIDENCE,,,AGREED_2026-07-24,Bank or part-time status does not make general administration specialist
+admin_service,Admin,HIGH_CONFIDENCE,,,AGREED_2026-08-29,Owner-reviewed advert confirms the plain Admin title is genuine transferable office administration
+admin_service,Administrative Officer,HIGH_CONFIDENCE,,,AGREED_2026-08-29,Owner-reviewed advert confirms general administrative support rather than a specialist officer function
+admin_service,Admin Advertiser,HIGH_CONFIDENCE,,,AGREED_2026-08-29,Owner-reviewed advert confirms routine advertising records customer contact and office administration
+admin_service,Administration Support Assistant,HIGH_CONFIDENCE,,,AGREED_2026-08-29,Owner-reviewed advert confirms entry-level transferable office administration support
 support_worker,PERSONAL ASSISTANT,REVIEW_CONTEXT_DEPENDENT,support_personal_assistant,35200,AGREED_2026-07-24,Include only where the description clearly establishes personal care or direct support
 support_worker,Family Support Worker - Barnsley,HIGH_CONFIDENCE,family_direct_support,35783,AGREED_2026-07-24,Include direct family support unless mandatory statutory casework or social-work requirements create a barrier
 support_worker,Domestic Abuse Support Worker,HIGH_CONFIDENCE,specialist_support_requirements,,AGREED_2026-07-24,Include direct support unless regulated qualifications or substantial mandatory experience create a barrier
