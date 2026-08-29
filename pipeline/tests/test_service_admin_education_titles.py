@@ -13,6 +13,7 @@ from pipeline.scripts.service_admin_pipeline_education import (  # noqa: E402
     classify_title,
 )
 from pipeline.scripts.service_admin_pipeline import (  # noqa: E402
+    load_title_register,
     normalise_title_for_register,
 )
 
@@ -80,6 +81,22 @@ class ServiceAdminEducationTitleTests(unittest.TestCase):
 
     def test_plain_office_manager_is_excluded_by_agreed_seniority_rule(self) -> None:
         self.assertEqual("HARD_PASS", self.classification_for("Office Manager"))
+
+    def test_owner_reviewed_plain_admin_titles_are_eligible(self) -> None:
+        governed_register = load_title_register()
+        eligible_titles = (
+            "Admin",
+            "Administrative Officer",
+            "Admin Advertiser",
+            "Administration Support Assistant",
+        )
+        for title in eligible_titles:
+            with self.subTest(title=title):
+                classification, _reason, _priority, _review_status = classify_title(
+                    title,
+                    governed_register,
+                )
+                self.assertEqual("HIGH_CONFIDENCE", classification)
 
 
 if __name__ == "__main__":
