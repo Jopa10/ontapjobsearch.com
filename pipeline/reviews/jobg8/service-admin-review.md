@@ -146,17 +146,15 @@ job_id: 23643_225542036
 ## WEST YORKSHIRE — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - YORKSHIRE - WEST | Yorkshire - West | Leeds | £35000 per year | Sales Coordinator Construction
 job_id: 107775290
 ---
-
 ---
-action:
+action: exclude
 POSS - YORKSHIRE - WEST | Yorkshire - West | Leeds | £45000 per year | Bid Coordinator Construction Contractor
 job_id: 107776147
 ---
-
 ## SOUTH YORKSHIRE — SELECTED
 
 ---
@@ -746,11 +744,10 @@ job_id: 20091_322762
 ## LONDON — POSSIBLES
 
 ---
-action:
+action: select
 POSS - LONDON | London | Sutton | £25000 - £40000 per year | Goods Inwards / Administration Coordinator
 job_id: 23643_225545259
 ---
-
 ## HAMPSHIRE — SELECTED
 
 ---
@@ -1703,7 +1700,7 @@ job_id: 23643_225533754
 ## COVENTRY & WARWICKSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - COVENTRY & WARWICKSHIRE | West Midlands - Coventry & Warwickshire | Warwickshire | £30002 per year | Service Delivery Coordinator
 job_id: 23643_225435656
 ---
@@ -1970,11 +1967,10 @@ job_id: 107880406
 ## BUCKINGHAMSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - BUCKINGHAMSHIRE | Buckinghamshire | Buckinghamshire | £20 - £21 per hour | Facilities Coordinator
 job_id: 23643_225544622
 ---
-
 ## CAMBRIDGESHIRE — SELECTED
 
 ---
@@ -2076,11 +2072,10 @@ job_id: 107823440
 ## CAMBRIDGESHIRE — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - CAMBRIDGESHIRE | Cambridgeshire | Cambridge | £40000 per year | IP Administrator
 job_id: 107793861
 ---
-
 ## CHESHIRE - EAST — SELECTED
 
 ---
@@ -2176,11 +2171,10 @@ job_id: 23643_225525247
 ## CHESHIRE - WEST — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - CHESHIRE - WEST | Cheshire - West | Frodsham | £35000 per year | Marketing Communications Coordinator
 job_id: 107800641
 ---
-
 ## CORNWALL — SELECTED
 
 ---
@@ -2864,17 +2858,15 @@ job_id: 107864416
 ## GREATER MANCHESTER - MANCHESTER & SALFORD — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - GREATER MANCHESTER - MANCHESTER & SALFORD | Greater Manchester - Manchester & Salford | Manchester | £50000 per year | ServiceNow Administrator
 job_id: 107735581
 ---
-
 ---
-action:
+action: exclude
 POSS - GREATER MANCHESTER - MANCHESTER & SALFORD | Greater Manchester - Manchester & Salford | Manchester | £35000 per year | Technical Sales Support
 job_id: 107832581
 ---
-
 ## GREATER MANCHESTER - SOUTH — SELECTED
 
 ---
@@ -4104,11 +4096,10 @@ job_id: 107905240
 ## SOMERSET — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - SOMERSET | Somerset | Somerset | £35000 per year | Software Sales Support & Product Demonstrator - Remote
 job_id: 107787320
 ---
-
 ## STAFFORDSHIRE — SELECTED
 
 ---
@@ -4198,11 +4189,10 @@ job_id: 23643_225543588
 ## STAFFORDSHIRE — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - STAFFORDSHIRE | Staffordshire | Staffordshire | £450 per daily | Help Desk Administrator
 job_id: 107825238
 ---
-
 ## SUFFOLK — SELECTED
 
 ---
@@ -4508,17 +4498,15 @@ job_id: 107906394
 ## WILTSHIRE — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - WILTSHIRE | Wiltshire | Wiltshire | £15 - £18.5 per hour (Benefits + Excellent Company Benefits) | Financial Services Administrator
 job_id: 107912524
 ---
-
 ---
-action:
+action: exclude
 POSS - WILTSHIRE | Wiltshire | Wiltshire | £65000 per year | Cyber Security Incident Co-Ordinator
 job_id: 107752293
 ---
-
 ## WORCESTERSHIRE — SELECTED
 
 ---
