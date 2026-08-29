@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import JobSlicePage from "@/components/JobSlicePage";
+import AiTipsCard from "@/components/AiTipsCard";
 import { getJobPageStatus } from "@/config/job-page-status";
 import {
   getPublishedDynamicSlice,
@@ -75,6 +76,7 @@ export default async function Page({ params }: PageProps) {
               "Practical digital skills used across many office-based roles",
             trainingItems: officeTraining,
           })}
+      sidebarExtra={slice.regionSlug === "london" ? <AiTipsCard /> : undefined}
     />
   );
 }

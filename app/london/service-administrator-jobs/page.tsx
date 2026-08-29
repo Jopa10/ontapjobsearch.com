@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import JobSlicePage from "@/components/JobSlicePage";
+import AiTipsCard from "@/components/AiTipsCard";
 import { getJobPageStatus } from "@/config/job-page-status";
 import { isLondonJob } from "@/lib/london-job-area";
 
@@ -76,6 +77,7 @@ export default function Page() {
       trainingHeading="Boost your admin applications"
       trainingSubheading="Useful online learning commonly requested for service-administrator and office support roles"
       trainingItems={adminTraining}
+      sidebarExtra={<AiTipsCard />}
     />
   );
 }

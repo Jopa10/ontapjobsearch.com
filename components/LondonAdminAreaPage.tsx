@@ -1,4 +1,5 @@
 import JobSlicePage from "@/components/JobSlicePage";
+import AiTipsCard from "@/components/AiTipsCard";
 import { getJobPageStatus } from "@/config/job-page-status";
 import {
   isCentralLondonJob,
@@ -106,6 +107,7 @@ export default function LondonAdminAreaPage({ area }: { area: LondonSubArea }) {
       trainingHeading="Boost your admin applications"
       trainingSubheading="Useful online learning commonly requested for service-administrator and office support roles"
       trainingItems={adminTraining}
+      sidebarExtra={<AiTipsCard />}
     />
   );
 }
