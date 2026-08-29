@@ -65,14 +65,14 @@ export default function Page() {
       softPageBackground
       relatedPages={{
         heading: "More London jobs",
-        prompt: "Explore other current job types across London.",
+        prompt: "Other current job types across London",
         links: [
-          { href: "/job-search/london/customer-service-jobs", label: "Customer service" },
-          { href: "/job-search/london/customer-sales-jobs", label: "Sales advisor" },
-          { href: "/job-search/london/hr-recruitment-jobs", label: "HR & recruitment" },
+          { href: "/job-search/london/customer-service-jobs", label: "Cust Serv" },
+          { href: "/job-search/london/customer-sales-jobs", label: "Sales" },
+          { href: "/job-search/london/hr-recruitment-jobs", label: "HR" },
           { href: "/job-search/london/marketing-jobs", label: "Marketing" },
           { href: "/job-search/london/paralegal-jobs", label: "Paralegal" },
-          { href: "/job-search/london/support-worker", label: "Support worker" },
+          { href: "/job-search/london/support-worker", label: "Support" },
         ],
       }}
       browseLinks={{
