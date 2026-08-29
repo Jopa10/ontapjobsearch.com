@@ -200,11 +200,11 @@ function RelatedPageLink({ relatedPage }: { relatedPage: RelatedPage }) {
 
 function RelatedPagesPanel({ relatedPages }: { relatedPages: RelatedPages }) {
   return (
-    <nav className={styles.relatedPanel} aria-label={relatedPages.heading}>
-      <div className={styles.relatedCopy}>
-        <div className={styles.relatedEyebrow}>{relatedPages.heading}</div>
-        <p className={styles.relatedPrompt}>{relatedPages.prompt}</p>
-      </div>
+    <nav
+      className={`${styles.browsePanel} ${styles.compactBrowsePanel}`}
+      aria-label={relatedPages.heading}
+    >
+      <div className={styles.compactBrowseHeading}>{relatedPages.heading}</div>
       <div className={styles.browseLinkList}>
         {relatedPages.links.map((link) => (
           <Link key={link.href} href={link.href} className={styles.relatedLink}>
