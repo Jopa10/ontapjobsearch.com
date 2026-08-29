@@ -1,25 +1,28 @@
 # JobG8 IT Support proof-region evidence candidates
 
-Content-unique national LIKELY_IN + BORDERLINE inventory: **108** against viability floor **100**.
+Content-unique national LIKELY_IN + BORDERLINE inventory: **140** against viability floor **100**.
 This report does not approve proof regions or any LIVE slice. It surfaces the strongest current markets for human boundary inspection after national discovery.
 
 ## London
 
-- LIKELY_IN: **9**
-- BORDERLINE: **6**
-- Provisional OUT: **1**
+- LIKELY_IN: **15**
+- BORDERLINE: **8**
+- Provisional OUT: **2**
 
 Most common LIKELY_IN titles:
 
+- 2nd Line Corporate Service Desk IT Technician: 2
 - Help desk Coordinator: 1
+- IT Technician: 1
+- AV/IT Support Technician: 1
+- Junior Service Desk Analyst: 1
+- Desktop Support Analyst - Linux, Windows: 1
+- IT Support Engineer - up to &;40k + Bonus + Excellent Benefits: 1
 - Onsite Helpdesk Engineer - Japanese Speaker: 1
 - 1st Line Support Engineer: 1
 - First Line Support Engineer: 1
-- ASPIRE GSC-Onsite IT Support Engineer: 1
-- 2nd Line Corporate Service Desk IT Technician: 1
 - IT Support Officer: 1
 - Help desk Administrator: 1
-- Helpdesk Manager: 1
 
 Borderline titles:
 
@@ -28,56 +31,23 @@ Borderline titles:
 - Oracle Technical Support Lead (WMS) - up to &;95k + Bonus: 1
 - Spanish speaking Technical Support: 1
 - IT Infrastructure & Azure Specialist: 1
-- eDiscovery Support Analyst: 1
-
-## Essex
-
-- LIKELY_IN: **5**
-- BORDERLINE: **3**
-- Provisional OUT: **0**
-
-Most common LIKELY_IN titles:
-
-- Engineering Helpdesk Supervisor: 1
-- Helpdesk Assistant - Part Time: 1
-- Facilities Helpdesk Manager: 1
-- Technical Helpdesk: 1
-- 2nd Line IT Engineer?(6 month fixed term): 1
-
-Borderline titles:
-
-- Technical Support Officer (Compliance): 1
-- Applications Support Analyst - Business, iTrent, Zellis, RLDatix, HR: 1
-- Applications Support Analyst: 1
-
-## Hampshire
-
-- LIKELY_IN: **4**
-- BORDERLINE: **1**
-- Provisional OUT: **2**
-
-Most common LIKELY_IN titles:
-
-- Immediate Maintenance Helpdesk Administrator -£32K: 1
-- IT Support Engineer - Linux: 1
-- IT Support Technician: 1
-- Service Desk Coordinator: 1
-
-Borderline titles:
-
-- Support Engineer: 1
+- Support Analyst, 2nd / 3rd Line Support - Financial / Banking: 1
+- 2nd / 3rd Line Support Engineer: 1
+- Mandarin speaking IT Operator - Banking: 1
 
 ## Kent
 
-- LIKELY_IN: **3**
-- BORDERLINE: **5**
+- LIKELY_IN: **6**
+- BORDERLINE: **4**
 - Provisional OUT: **0**
 
 Most common LIKELY_IN titles:
 
-- Facilities Helpdesk Manager: 1
+- 1st Line Engineer: 2
 - Service Helpdesk Administrator: 1
-- 1st/2nd Line IT Support Engineer: 1
+- 2nd Line Engineer - 6-month contract: 1
+- 2nd Line Engineer: 1
+- IT Support Engineer: 1
 
 Borderline titles:
 
@@ -85,22 +55,50 @@ Borderline titles:
 - Systems Support Engineer: 1
 - 3rd Line Support Engineer: 1
 - L2 Software Support Analyst: 1
-- Business Systems Support Administrator: 1
 
-## Yorkshire - West
+## Hertfordshire
 
-- LIKELY_IN: **3**
-- BORDERLINE: **2**
-- Provisional OUT: **2**
+- LIKELY_IN: **4**
+- BORDERLINE: **0**
+- Provisional OUT: **0**
 
 Most common LIKELY_IN titles:
 
-- Help Desk Operative: 1
-- 2nd Line IT Support Technician: 1
-- Transport Service Desk Advisor: 1
+- IT Support Engineer: 2
+- 2nd Line IT Engineer: 1
+- Helpdesk Coordinator: 1
+
+## Berkshire
+
+- LIKELY_IN: **3**
+- BORDERLINE: **3**
+- Provisional OUT: **1**
+
+Most common LIKELY_IN titles:
+
+- Service Desk Advisor: 1
+- Second Line Support - MSP "Best Place to Work" - Azure: 1
+- Help Desk Coordinator: 1
 
 Borderline titles:
 
-- Technical Sales Support Engineer: 1
-- Area Support Engineer: 1
+- 2nd/3rd Line Support Engineer - Bracknell, Berkshire: 1
+- Technical Support Lead: 1
+- Application Support Engineer: 1
+
+## Gloucestershire
+
+- LIKELY_IN: **3**
+- BORDERLINE: **2**
+- Provisional OUT: **0**
+
+Most common LIKELY_IN titles:
+
+- Senior IT Support Technician: 2
+- Service Desk Analyst: 1
+
+Borderline titles:
+
+- Technical Support Engineer: 1
+- IT Analyst: 1
 

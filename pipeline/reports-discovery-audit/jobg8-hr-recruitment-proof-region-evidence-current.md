@@ -1,13 +1,13 @@
 # JobG8 HR / Recruitment proof-region evidence candidates
 
-Content-unique national LIKELY_IN + BORDERLINE inventory: **109** against viability floor **100**.
+Content-unique national LIKELY_IN + BORDERLINE inventory: **103** against viability floor **100**.
 This report does not approve proof regions or any LIVE slice. It surfaces the strongest current markets for human boundary inspection after national discovery.
 
 ## London
 
 - LIKELY_IN: **5**
-- BORDERLINE: **8**
-- Provisional OUT: **24**
+- BORDERLINE: **5**
+- Provisional OUT: **18**
 
 Most common LIKELY_IN titles:
 
@@ -22,17 +22,14 @@ Borderline titles:
 - Business Support Administrator: 1
 - HR Officer: 1
 - Recruitment Resourcer: 1
-- Partner & Counsel Onboarding Assistant: 1
-- HR Risk Manager- VP: 1
-- Internal Recruiter/LinkedIn Specialist: 1
 - Help desk Administrator: 1
-- People Officer: 1
+- Marketing Assistant (FTC): 1
 
 ## Sussex
 
 - LIKELY_IN: **5**
 - BORDERLINE: **1**
-- Provisional OUT: **1**
+- Provisional OUT: **0**
 
 Most common LIKELY_IN titles:
 
@@ -62,8 +59,8 @@ Most common LIKELY_IN titles:
 ## Greater Manchester - Manchester & Salford
 
 - LIKELY_IN: **3**
-- BORDERLINE: **4**
-- Provisional OUT: **6**
+- BORDERLINE: **3**
+- Provisional OUT: **5**
 
 Most common LIKELY_IN titles:
 
@@ -76,13 +73,12 @@ Borderline titles:
 - HR and Facilities Coordinator: 1
 - Recruitment and Compliance Administrator: 1
 - Recruitment and Resource Manager: 1
-- Payroll and HR Administrator: 1
 
 ## Yorkshire - West
 
 - LIKELY_IN: **3**
-- BORDERLINE: **1**
-- Provisional OUT: **6**
+- BORDERLINE: **2**
+- Provisional OUT: **7**
 
 Most common LIKELY_IN titles:
 
@@ -93,4 +89,5 @@ Most common LIKELY_IN titles:
 Borderline titles:
 
 - Branch Admin/ Resourcer: 1
+- Recruitment Account Coordinator: 1
 
