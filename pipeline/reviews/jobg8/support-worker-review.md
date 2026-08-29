@@ -17,12 +17,6 @@ SELECTED | Yorkshire - West | Bradford | £13.75 - £14.5 per hour (Including ho
 job_id: 23643_225476096
 ---
 
----
-action:
-SELECTED | Yorkshire - West | Halifax | £14.24 - £16 per hour (+ INC holiday pay) | Complex Care Assistant
-job_id: 107728647
----
-
 ## WEST YORKSHIRE — POSSIBLES
 
 _No jobs in this group._
@@ -51,12 +45,6 @@ _No jobs in this group._
 action:
 SELECTED | North East - Tyneside, Wearside & Northumberland | Houghton Le Spring | £14.24 per hour | Complex Care Assistant
 job_id: 107810260
----
-
----
-action:
-SELECTED | North East - Tyneside, Wearside & Northumberland | Newcastle | £24000 per year | Female Support Worker
-job_id: 107854762
 ---
 
 ## NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL — SELECTED
@@ -117,6 +105,12 @@ job_id: 107835737
 action:
 SELECTED | Sussex | Midhurst | rate of up to £13.11 (plus a 12.07% holiday allowance uplift | Bank Healthcare Assistant
 job_id: 107831119
+---
+
+---
+action:
+SELECTED | Sussex | Newhaven | £30000 per year | Residential Support Worker
+job_id: 107901961
 ---
 
 ---
@@ -239,6 +233,12 @@ job_id: 107901785
 action:
 SELECTED | Kent | Dover | £15 - £17 per hour | Complex Care Assistant
 job_id: 107882991
+---
+
+---
+action:
+SELECTED | Kent | Tonbridge | £14 - £17 per hour | Complex Healthcare Assistant
+job_id: 107883007
 ---
 
 ## KENT — POSSIBLES
@@ -489,8 +489,8 @@ job_id: 1709295
 
 ---
 action:
-SELECTED | Wiltshire | Swindon | £24000 per year | Healthcare Assistant
-job_id: 107909930
+SELECTED | Wiltshire | Swindon | £13 - £14 per hour | Care Assistant
+job_id: 107895281
 ---
 
 ## WILTSHIRE — POSSIBLES
