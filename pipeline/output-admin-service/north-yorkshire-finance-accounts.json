@@ -189,7 +189,14 @@
     "finance_accounts_family_reason": "approved Accounts & Finance Operations title",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": ""
+    "posted_date_basis": "",
+    "at_a_glance_attributes": [
+      "Scheduling and bookings",
+      "Systems administration",
+      "Reporting",
+      "Pre-employment administration",
+      "Payroll administration"
+    ]
   },
   {
     "job_id": "107834337",
