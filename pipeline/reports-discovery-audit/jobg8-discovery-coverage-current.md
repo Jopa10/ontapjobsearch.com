@@ -2,9 +2,9 @@
 
 Feed: `2026-08-30.xlsx`
 Jobs with titles: **10,000**
-Known to at least one register: **1,233**
-Unknown to every register: **8,767**
-Unknown jobs with an existing-category clue: **1,465**
+Known to at least one register: **1,235**
+Unknown to every register: **8,765**
+Unknown jobs with an existing-category clue: **1,461**
 Jobs in register/refinement conflicts: **19**
 
 ## Exact broad-family reconciliation
@@ -13,18 +13,18 @@ Every titled job below is counted once and only once using first-match broad occ
 
 | Broad family | Jobs | Share | Top geographies |
 |---|---:|---:|---|
-| Other / Unclassified | 3,535 | 35.4% | Not Specified (827); City (209); Bristol (85); Leeds (59); Glasgow (42) |
+| Other / Unclassified | 3,536 | 35.4% | Not Specified (827); City (210); Bristol (85); Leeds (59); Glasgow (42) |
 | Sales / Business Development | 1,190 | 11.9% | Not Specified (198); City (61); Bristol (30); Leeds (19); Nottingham (17) |
-| IT / Data / Software | 972 | 9.7% | Not Specified (290); Bristol (37); City (33); Newcastle Upon Tyne (24); Edinburgh (23) |
-| Admin / Customer Service | 833 | 8.3% | Not Specified (130); City (68); Leicester (12); Nottingham (10); Cambridge (9) |
+| IT / Data / Software | 973 | 9.7% | Not Specified (290); Bristol (37); City (33); Newcastle Upon Tyne (24); Edinburgh (23) |
+| Admin / Customer Service | 832 | 8.3% | Not Specified (129); City (68); Leicester (12); Nottingham (10); Cambridge (9) |
 | Professional Finance / Accountancy | 792 | 7.9% | Not Specified (147); City (41); Liverpool (23); Leeds (17); Leicester (16) |
-| Engineering / Technical | 572 | 5.7% | Not Specified (144); City (27); Bristol (23); Edinburgh (11); Glasgow (11) |
-| Healthcare / Clinical | 301 | 3.0% | Not Specified (41); City (24); Reading (6); Nottingham (5); Leicester (4) |
+| Engineering / Technical | 573 | 5.7% | Not Specified (145); City (27); Bristol (23); Edinburgh (11); Glasgow (11) |
+| Healthcare / Clinical | 300 | 3.0% | Not Specified (41); City (24); Reading (6); Nottingham (5); Leicester (4) |
 | Operations / General Management | 297 | 3.0% | Not Specified (65); Bristol (11); Glasgow (9); City (7); Leeds (6) |
 | Marketing / Digital / Creative | 272 | 2.7% | Not Specified (85); City (26); Leeds (6); Leicester (5); Bristol (4) |
 | Care / Support Work | 257 | 2.6% | Not Specified (33); Oxford (6); Southampton (5); City (4); Chippenham (4) |
 | Retail / Store | 199 | 2.0% | Not Specified (22); City (6); York (5); Swindon (5); Oxford (4) |
-| HR / Recruitment | 198 | 2.0% | Not Specified (43); Bristol (21); City (15); Newcastle Upon Tyne (4); Ipswich (3) |
+| HR / Recruitment | 197 | 2.0% | Not Specified (43); Bristol (21); City (15); Newcastle Upon Tyne (4); Southampton (3) |
 | Legal / Conveyancing | 180 | 1.8% | Not Specified (36); City (26); Bristol (5); Doncaster (5); Southend-on-sea (4) |
 | Construction / Trades / Property | 120 | 1.2% | Not Specified (22); City (10); Bristol (4); Peterborough (3); Bury St. Edmunds (3) |
 | Financial Advice / Mortgages | 75 | 0.8% | Not Specified (12); City (7); Newtownards (3); Bristol (2); Fareham (2) |
@@ -38,7 +38,7 @@ Every titled job below is counted once and only once using first-match broad occ
 
 ## Top titles inside each broad family
 
-### Other / Unclassified — 3,535
+### Other / Unclassified — 3,536
 
 | Count | Title |
 |---:|---|
@@ -72,7 +72,7 @@ Every titled job below is counted once and only once using first-match broad occ
 | 13 | Commercial Manager |
 | 11 | Sales Coordinator |
 
-### IT / Data / Software — 972
+### IT / Data / Software — 973
 
 | Count | Title |
 |---:|---|
@@ -85,15 +85,15 @@ Every titled job below is counted once and only once using first-match broad occ
 | 11 | Principal Systems Engineer |
 | 11 | Trainee Network Engineer |
 | 10 | Security Engineer |
+| 10 | Embedded Software Engineer |
 | 9 | Senior Infrastructure Engineer |
-| 9 | Embedded Software Engineer |
 | 8 | Software Engineer |
 
-### Admin / Customer Service — 833
+### Admin / Customer Service — 832
 
 | Count | Title |
 |---:|---|
-| 73 | Administrator |
+| 74 | Administrator |
 | 26 | Receptionist |
 | 24 | Office Administrator |
 | 16 | Personal Assistant |
@@ -123,14 +123,14 @@ Every titled job below is counted once and only once using first-match broad occ
 | 9 | Accountant |
 | 7 | Finance Administrator |
 
-### Engineering / Technical — 572
+### Engineering / Technical — 573
 
 | Count | Title |
 |---:|---|
 | 20 | Senior/Principal Hardware Engineer |
 | 10 | Electrician |
+| 10 | Automation Engineer |
 | 9 | Maintenance Manager |
-| 9 | Automation Engineer |
 | 7 | Platform Engineer |
 | 6 | AI Engineer Placement Programme No Experience Needed |
 | 6 | Senior Application Operation Engineer |
@@ -140,7 +140,7 @@ Every titled job below is counted once and only once using first-match broad occ
 | 4 | Principal AI Engineer |
 | 3 | Pharmacy Technician |
 
-### Healthcare / Clinical — 301
+### Healthcare / Clinical — 300
 
 | Count | Title |
 |---:|---|
@@ -195,7 +195,7 @@ Every titled job below is counted once and only once using first-match broad occ
 
 | Count | Title |
 |---:|---|
-| 37 | Support Worker |
+| 38 | Support Worker |
 | 13 | Complex Care Assistant |
 | 9 | Residential Support Worker |
 | 7 | Care Assistant |
@@ -225,13 +225,13 @@ Every titled job below is counted once and only once using first-match broad occ
 | 3 | Store Manager Designate |
 | 3 | Retail Shift Manager |
 
-### HR / Recruitment — 198
+### HR / Recruitment — 197
 
 | Count | Title |
 |---:|---|
 | 23 | Recruitment Consultant |
-| 9 | HR Advisor |
 | 9 | Trainee Recruitment Consultant |
+| 8 | HR Advisor |
 | 8 | Senior Recruitment Consultant |
 | 7 | HR Administrator |
 | 5 | Recruitment Coordinator |
@@ -392,8 +392,8 @@ Every titled job below is counted once and only once using first-match broad occ
 | 15 | Trainee Network Admin | admin_service | Not Specified (3); Swindon (1); Edinburgh (1); Plymouth (1); Luton (1) |
 | 14 | Network Admin - job guarantee | admin_service | Not Specified (2); Leeds (1); City (1); Luton (1); Newcastle Upon Tyne (1) |
 | 14 | Junior Network Admin | admin_service | Not Specified (2); Luton (1); Bath (1); City (1); Plymouth (1) |
-| 11 | HR Advisor | hr_recruitment | Ipswich (2); Lincoln (1); Sutton Coldfield (1); Hardingstone (1); Ringwood (1) |
 | 11 | Sales Coordinator | admin_service | Stevenage (1); Not Specified (1); Fareham (1); Basingstoke (1); Warter (1) |
+| 10 | HR Advisor | hr_recruitment | Ipswich (1); Lincoln (1); Sutton Coldfield (1); Hardingstone (1); Ringwood (1) |
 | 9 | Trainee Recruitment Consultant | hr_recruitment | Not Specified (3); Nottingham (2); Southampton (1); Maidstone (1); Highworth (1) |
 | 8 | Project Coordinator | admin_service | Stoke-on-trent (1); Farington (1); Poole (1); Not Specified (1); Kingsthorpe (1) |
 | 8 | Income Officer | admin_service | Not Specified (2); Newcastle Upon Tyne (1); Chichester (1); Ipswich (1); Liverpool (1) |

@@ -1,6 +1,6 @@
 ﻿title,count_in_latest_feed,primary_broad_family,status,register_matches,selected_categories,likely_category_clues,refinement_conflicts,top_geographies,refined_broad_family,reconciliation_basis
 Field Sales Representative,107,Sales / Business Development,UNKNOWN,,,,,Not Specified (8); Derby (2); Swansea (2); Sunderland (2); Middlesbrough (2),Sales / Business Development,title_rule_pass1
-Administrator,73,Admin / Customer Service,KNOWN,admin_service:HIGH_CONFIDENCE; customer_service_contact_centre:REVIEW_CONTEXT_DEPENDENT; hr_recruitment:REVIEW_CONTEXT_DEPENDENT,admin_service,admin_service,,Not Specified (10); City (5); Loughborough (2); Ambrosden (2); Didcot (2),Admin / Customer Service,existing_register:admin_service
+Administrator,74,Admin / Customer Service,KNOWN,admin_service:HIGH_CONFIDENCE; customer_service_contact_centre:REVIEW_CONTEXT_DEPENDENT; hr_recruitment:REVIEW_CONTEXT_DEPENDENT,admin_service,admin_service,,Not Specified (10); City (5); Loughborough (2); Ambrosden (2); Didcot (2),Admin / Customer Service,existing_register:admin_service
 Market Research Field Interviewer Car Required Part-time,65,Other / Unclassified,UNKNOWN,,,,,City (6); Not Specified (3); Omagh (1); Bury St. Edmunds (1); South Queensferry (1),Market Research / Field Interviewing,title_rule_pass2
 Project Manager,64,Operations / General Management,UNKNOWN,,,,,Not Specified (12); Bristol (4); Bedford (4); Derby (2); Luton (2),Operations / General Management,title_rule_pass1
 Market Research Field Interviewer Car Required,64,Other / Unclassified,UNKNOWN,,,,,Reading (4); Swindon (3); Not Specified (3); Northampton (2); Bradford-on-avon (2),Market Research / Field Interviewing,title_rule_pass2
@@ -8,8 +8,8 @@ Store Manager,63,Retail / Store,KNOWN,admin_service:OUT_OF_SCOPE,,,,Not Specifie
 Field Sales Executive,62,Sales / Business Development,UNKNOWN,,,,,Not Specified (5); Luton (2); Swindon (2); Hemel Hempstead (2); Exeter (2),Sales / Business Development,title_rule_pass1
 Business Development Manager,57,Sales / Business Development,UNKNOWN,,,,,Not Specified (11); Nottingham (3); Stevenage (2); Derby (2); Northampton (2),Sales / Business Development,title_rule_pass1
 Team Leader,40,Other / Unclassified,KNOWN,admin_service:OUT_OF_SCOPE,,,,Not Specified (3); Coventry (2); Cambridge (1); Stevenage (1); King's Lynn (1),Management / Team Leadership,title_rule_pass2
+Support Worker,38,Care / Support Work,KNOWN,admin_service:HARD_PASS; support_worker:HIGH_CONFIDENCE,support_worker,support_worker,,Not Specified (9); Whitby (2); Brentford (2); Slough (2); Londonderry (1),Care / Support Work,existing_register:support_worker
 Senior Systems Engineer,38,IT / Data / Software,UNKNOWN,,,,,Not Specified (3); Portsmouth (2); Bristol (2); Sevenoaks (2); Chatham (2),IT / Data / Software,title_rule_pass1
-Support Worker,37,Care / Support Work,KNOWN,admin_service:HARD_PASS; support_worker:HIGH_CONFIDENCE,support_worker,support_worker,,Not Specified (8); Whitby (2); Brentford (2); Slough (2); Londonderry (1),Care / Support Work,existing_register:support_worker
 Registered Manager,36,Other / Unclassified,KNOWN,admin_service:OUT_OF_SCOPE,,,,Hounslow (2); Redditch (2); Nottingham (2); Much Hadham (2); Chester (1),Management / Team Leadership,title_rule_pass2
 Account Manager,35,Sales / Business Development,UNKNOWN,,,,,Not Specified (9); City (3); Oxford (2); Cardiff (2); Exeter (2),Sales / Business Development,title_rule_pass1
 Sales Manager,33,Sales / Business Development,UNKNOWN,,,,,Not Specified (7); Eastleigh (2); Oxford (1); Stratford-upon-avon (1); Warrington (1),Sales / Business Development,title_rule_pass1
@@ -67,7 +67,6 @@ Customer Service Advisor,12,Admin / Customer Service,KNOWN,customer_service_cont
 Sales Development Representative,12,Sales / Business Development,UNKNOWN,,,,,Not Specified (3); Warrington (1); Bristol (1); Wokingham (1); Fleet (1),Sales / Business Development,title_rule_pass1
 Finance Assistant,12,Professional Finance / Accountancy,KNOWN,finance_accounts:HIGH_CONFIDENCE,finance_accounts,finance_accounts,,Hampsthwaite (1); Waterlooville (1); Wells-next-the-sea (1); Gosport (1); Knaphill (1),Professional Finance / Accountancy,existing_register:finance_accounts
 Data Engineer,12,IT / Data / Software,UNKNOWN,,,,,Not Specified (3); Leeds (1); Sheffield (1); Burton-on-trent (1); Altrincham (1),IT / Data / Software,title_rule_pass1
-HR Advisor,11,HR / Recruitment,UNKNOWN,,,hr_recruitment,,Ipswich (2); Lincoln (1); Sutton Coldfield (1); Hardingstone (1); Ringwood (1),HR / Recruitment,title_rule_pass1
 Credit Controller,11,Other / Unclassified,KNOWN,finance_accounts:HIGH_CONFIDENCE,finance_accounts,finance_accounts,,Bristol (2); City (1); Lisburn (1); Bath (1); Camberley (1),Professional Finance / Accountancy,existing_register:finance_accounts
 Clinical Lead,11,Healthcare / Clinical,KNOWN,admin_service:OUT_OF_SCOPE,,,,Holt (2); Accrington (1); Nottingham (1); Weston-super-mare (1); Stirling (1),Healthcare / Clinical,title_rule_pass1
 Property Manager,11,Construction / Trades / Property,UNKNOWN,,,,,Not Specified (2); City (2); Oxford (1); Cheltenham (1); Swadlincote (1),Construction / Trades / Property,title_rule_pass1
@@ -81,6 +80,7 @@ Occupational Therapist,11,Healthcare / Clinical,KNOWN,admin_service:HARD_PASS,,,
 Speech And Language Therapist,11,Healthcare / Clinical,KNOWN,admin_service:HARD_PASS,,,,Not Specified (2); Sutton (1); Carshalton (1); New Malden (1); Uxbridge (1),Healthcare / Clinical,title_rule_pass1
 Trainee Junior Network Consultant,11,Other / Unclassified,UNKNOWN,,,,,Not Specified (2); Manchester (1); Swindon (1); Bath (1); Cardiff (1),Other / Unclassified,still_unclassified
 Trainee Network Engineer,11,IT / Data / Software,UNKNOWN,,,,,Newcastle Upon Tyne (1); Manchester (1); Milton Keynes (1); Norwich (1); Edinburgh (1),IT / Data / Software,title_rule_pass1
+HR Advisor,10,HR / Recruitment,UNKNOWN,,,hr_recruitment,,Ipswich (1); Lincoln (1); Sutton Coldfield (1); Hardingstone (1); Ringwood (1),HR / Recruitment,title_rule_pass1
 Electrician,10,Engineering / Technical,UNKNOWN,,,,,Not Specified (2); City (1); Bournemouth (1); Chelmsford (1); Andover (1),Engineering / Technical,title_rule_pass1
 Branch Manager,10,Operations / General Management,UNKNOWN,,,,,Brixham (1); Derby (1); Salford (1); Chipping Norton (1); Bangor (1),Operations / General Management,title_rule_pass1
 Purchase Ledger Clerk,10,Professional Finance / Accountancy,KNOWN,finance_accounts:HIGH_CONFIDENCE,finance_accounts,finance_accounts,,Cambridge (2); Plymouth (1); Leicester (1); Gloucester (1); Telford (1),Professional Finance / Accountancy,existing_register:finance_accounts
@@ -88,9 +88,11 @@ Marketing Executive,10,Marketing / Digital / Creative,UNKNOWN,,,,,Stamford (1); 
 Bid Writer,10,Other / Unclassified,UNKNOWN,,,,,Not Specified (4); Derby (1); Waltham Abbey (1); Leeds (1); Nottingham (1),Marketing / Digital / Creative,title_rule_pass2
 Market Research Interviewer - Manchester,10,Other / Unclassified,UNKNOWN,,,,,City (1); Rochdale (1); Ramsbottom (1); Macclesfield (1); Stockport (1),Market Research / Field Interviewing,title_rule_pass2
 Field Sales Rep - Manchester,10,Sales / Business Development,UNKNOWN,,,,,City (1); Bolton (1); Woolston (1); Oldham (1); Ramsbottom (1),Sales / Business Development,title_rule_pass1
+Automation Engineer,10,Engineering / Technical,UNKNOWN,,,,,Not Specified (4); Ashby-de-la-zouch (1); Gloucester (1); Enfield (1); Barnsley (1),Engineering / Technical,title_rule_pass1
 Dispensing Optician Manager,10,Other / Unclassified,KNOWN,admin_service:OUT_OF_SCOPE,,,,Not Specified (5); City (1); Durham (1); Nottingham (1); Taunton (1),Healthcare / Clinical,title_rule_pass2
 Security Engineer,10,IT / Data / Software,UNKNOWN,,,,,Not Specified (5); Leicester (1); Portsmouth (1); Basingstoke (1); Sheffield (1),IT / Data / Software,title_rule_pass1
 Shop Manager,10,Retail / Store,UNKNOWN,,,,,Dartford (2); Leamington Spa (2); Lochgilphead (1); Wrexham (1); Windermere (1),Retail / Store,title_rule_pass1
+Embedded Software Engineer,10,IT / Data / Software,UNKNOWN,,,,,Not Specified (2); Bristol (2); St. Austell (1); Chesterfield (1); Andover (1),IT / Data / Software,title_rule_pass1
 Trainee Network Analyst,10,Other / Unclassified,UNKNOWN,,,,,Bath (1); Swindon (1); Luton (1); Newcastle Upon Tyne (1); Plymouth (1),Other / Unclassified,still_unclassified
 Customer Representative Field Based,10,Other / Unclassified,UNKNOWN,,,,,Not Specified (2); Perth (1); Kingston Upon Thames (1); Bath (1); Harrogate (1),Other / Unclassified,still_unclassified
 Trainee Recruitment Consultant,9,HR / Recruitment,UNKNOWN,,,hr_recruitment,,Not Specified (3); Nottingham (2); Southampton (1); Maidstone (1); Highworth (1),HR / Recruitment,title_rule_pass1
@@ -103,10 +105,8 @@ Client Manager,9,Other / Unclassified,UNKNOWN,,,,,Not Specified (1); Chepstow (1
 Maintenance Manager,9,Engineering / Technical,UNKNOWN,,,,,Not Specified (2); Barnsley (1); Atherstone (1); Burton-on-trent (1); Sutton Coldfield (1),Engineering / Technical,title_rule_pass1
 Market Research Interviewer - (INSERT LOCATION),9,Other / Unclassified,UNKNOWN,,,,,Kilwinning (1); Kilmarnock (1); Ardrossan (1); Dalmellington (1); Prestwick (1),Market Research / Field Interviewing,title_rule_pass2
 Market Research Interviewer - Dundee,9,Other / Unclassified,UNKNOWN,,,,,Perth (1); Newport-on-tay (1); Carnoustie (1); City (1); Tayport (1),Market Research / Field Interviewing,title_rule_pass2
-Automation Engineer,9,Engineering / Technical,UNKNOWN,,,,,Not Specified (3); Ashby-de-la-zouch (1); Gloucester (1); Enfield (1); Barnsley (1),Engineering / Technical,title_rule_pass1
 Senior Infrastructure Engineer,9,IT / Data / Software,UNKNOWN,,,,,City (3); Gloucester (2); Taunton (1); Leicester (1); Wallingford (1),IT / Data / Software,title_rule_pass1
 Employment Specialist,9,Other / Unclassified,UNKNOWN,,,,,Not Specified (3); Harrow (1); Northallerton (1); Bristol (1); Harrogate (1),Employment Support / Careers,title_rule_pass2
-Embedded Software Engineer,9,IT / Data / Software,UNKNOWN,,,,,Not Specified (2); Bristol (2); St. Austell (1); Chesterfield (1); Andover (1),IT / Data / Software,title_rule_pass1
 Residential Support Worker,9,Care / Support Work,KNOWN,admin_service:HARD_PASS; support_worker:ELASTIC_FIT,support_worker,support_worker,,Colchester (1); Swaffham (1); Thetford (1); Saxmundham (1); Dover (1),Care / Support Work,existing_register:support_worker
 Nurse Unit Manager,8,Healthcare / Clinical,KNOWN,admin_service:HARD_PASS,,,,Immingham (1); Leicester (1); Rotherham (1); Bishop Auckland (1); Cannock (1),Healthcare / Clinical,title_rule_pass1
 Care Assistant,8,Care / Support Work,KNOWN,admin_service:HARD_PASS; support_worker:HIGH_CONFIDENCE; hr_recruitment:REVIEW_CONTEXT_DEPENDENT,support_worker,support_worker,,Not Specified (2); Alton (1); Bexhill-on-sea (1); Havant (1); Lingfield (1),Care / Support Work,existing_register:support_worker
@@ -202,6 +202,7 @@ Temporary Receptionist,5,Admin / Customer Service,KNOWN,admin_service:HIGH_CONFI
 Finance Trustee,5,Professional Finance / Accountancy,UNKNOWN,,,finance_accounts,,Not Specified (2); Maidstone (1); Melrose (1); Weston-super-mare (1),Professional Finance / Accountancy,title_rule_pass1
 Chemotherapy Nurse,5,Healthcare / Clinical,KNOWN,admin_service:HARD_PASS,,,,Weston-super-mare (1); Northampton (1); Newcastle Upon Tyne (1); Washington (1); Bristol (1),Healthcare / Clinical,title_rule_pass1
 Business Support Officer,5,Admin / Customer Service,KNOWN,admin_service:HIGH_CONFIDENCE; hr_recruitment:REVIEW_CONTEXT_DEPENDENT,admin_service,admin_service,,City (2); St. Asaph (1); Chatham (1); Bristol (1),Admin / Customer Service,existing_register:admin_service
+Conveyancing Assistant,5,Other / Unclassified,UNKNOWN,,,,,City (2); Sutton Coldfield (1); Brinsworth (1); Leeds (1),Legal / Conveyancing,title_rule_pass2
 Service Administrator,5,Admin / Customer Service,KNOWN,admin_service:HIGH_CONFIDENCE; customer_service_contact_centre:ELASTIC_FIT; hr_recruitment:REVIEW_CONTEXT_DEPENDENT,admin_service; customer_service_contact_centre,admin_service,,Not Specified (2); Cambridge (1); Fetcham (1); City (1),Admin / Customer Service,existing_register:customer_service_contact_centre
 Parts Advisor,5,Other / Unclassified,UNKNOWN,,,,,Port Talbot (1); Stratford-upon-avon (1); Melksham (1); Cheltenham (1); Not Specified (1),Admin / Customer Service,title_rule_pass2
 Team Leader - Bank,5,Other / Unclassified,UNKNOWN,,,,,Cambridge (1); King's Lynn (1); March (1); Ipswich (1); Peterborough (1),Management / Team Leadership,title_rule_pass2
@@ -246,7 +247,6 @@ Development Manager,4,Other / Unclassified,UNKNOWN,,,,,Not Specified (2); Crawle
 Invoicing Administrator,4,Admin / Customer Service,KNOWN,finance_accounts:HIGH_CONFIDENCE,finance_accounts,admin_service,,Bristol (1); York (1); Keele (1); Stoke-on-trent (1),Professional Finance / Accountancy,existing_register:finance_accounts
 Commercial Finance Manager,4,Professional Finance / Accountancy,UNKNOWN,,,finance_accounts,,Wrexham (2); Not Specified (1); Nottingham (1),Professional Finance / Accountancy,title_rule_pass1
 Private Client Solicitor,4,Legal / Conveyancing,UNKNOWN,,,,,Saffron Walden (1); Tenbury Wells (1); Brinsworth (1); Leamington Spa (1),Legal / Conveyancing,title_rule_pass1
-Conveyancing Assistant,4,Other / Unclassified,UNKNOWN,,,,,City (1); Sutton Coldfield (1); Brinsworth (1); Leeds (1),Legal / Conveyancing,title_rule_pass2
 Town Planner,4,Other / Unclassified,UNKNOWN,,,,,Not Specified (1); Altrincham (1); Hitchin (1); Canterbury (1),Property / Housing / Planning,title_rule_pass2
 Resident Liaison Officer,4,Other / Unclassified,UNKNOWN,,,admin_service,,Norwich (1); Newark (1); Stevenage (1); Cambridge (1),Property / Housing / Planning,title_rule_pass2
 Hire Controller,4,Other / Unclassified,UNKNOWN,,,,,Uxbridge (1); Haverfordwest (1); Swadlincote (1); Bury St. Edmunds (1),Admin / Customer Service,title_rule_pass2
@@ -4169,7 +4169,6 @@ Engineering Transformation Manager,1,Engineering / Technical,UNKNOWN,,,,,Not Spe
 Infrastructure Engineer (VMWARE),1,IT / Data / Software,UNKNOWN,,,,,Huntingdon (1),IT / Data / Software,title_rule_pass1
 Senior Software Engineer C++ (Fixed Term Contract),1,IT / Data / Software,UNKNOWN,,,,,Nottingham (1),IT / Data / Software,title_rule_pass1
 Lifts Business Developments Manager,1,Other / Unclassified,UNKNOWN,,,,,Not Specified (1),Other / Unclassified,still_unclassified
-Hire Administrator,1,Admin / Customer Service,UNKNOWN,,,admin_service,,Not Specified (1),Admin / Customer Service,title_rule_pass1
 Software Engineer - Hardware Instrumentation,1,IT / Data / Software,UNKNOWN,,,,,Royston (1),IT / Data / Software,title_rule_pass1
 Boundary Managed Service Lead,1,Other / Unclassified,UNKNOWN,,,,,Farnborough (1),Other / Unclassified,still_unclassified
 Deputy Head of Student Services SEND,1,Other / Unclassified,UNKNOWN,,,,,Bournemouth (1),Other / Unclassified,still_unclassified
@@ -6016,7 +6015,6 @@ Product Safety Test Engineer,1,IT / Data / Software,UNKNOWN,,,,,Market Drayton (
 Spa Beauty Therapist - Drimsynie,1,Healthcare / Clinical,UNKNOWN,,,,,Lochgoilhead (1),Healthcare / Clinical,title_rule_pass1
 E-Commerce Listings Assistant,1,Marketing / Digital / Creative,UNKNOWN,,,,,Northampton (1),Marketing / Digital / Creative,title_rule_pass1
 Project Management Office,1,Other / Unclassified,UNKNOWN,,,admin_service,,Ipswich (1),Other / Unclassified,still_unclassified
-Trainee Administration Clerk,1,Admin / Customer Service,UNKNOWN,,,admin_service,,Pinxton (1),Admin / Customer Service,title_rule_pass1
 Technical Trainer (Vehicles),1,Other / Unclassified,UNKNOWN,,,,,Milton Keynes (1),Other / Unclassified,still_unclassified
 Mechanical Maintenance Fitter (Double Days),1,Engineering / Technical,UNKNOWN,,,,,Enniskillen (1),Engineering / Technical,title_rule_pass1
 Agent,1,Other / Unclassified,UNKNOWN,,,,,Beauly (1),Other / Unclassified,still_unclassified
@@ -6153,7 +6151,6 @@ Data Architect/ BI Consultant,1,Other / Unclassified,UNKNOWN,,,,,Not Specified (
 Interim Head of Data Science,1,Other / Unclassified,UNKNOWN,,,,,Not Specified (1),Other / Unclassified,still_unclassified
 Office Coordinator (German Speaking),1,Admin / Customer Service,UNKNOWN,,,admin_service,,Bletchley (1),Admin / Customer Service,title_rule_pass1
 Propulsion Systems Engineer,1,IT / Data / Software,UNKNOWN,,,,,Lower Hartwell (1),IT / Data / Software,title_rule_pass1
-"Psychology Clinician - CBT Therapist, associate psychologist",1,Healthcare / Clinical,UNKNOWN,,,,,Exeter (1),Healthcare / Clinical,title_rule_pass1
 "Military Area Manager, LCY3",1,Operations / General Management,UNKNOWN,,,,,Dartford (1),Operations / General Management,title_rule_pass1
 "Area Manager, Fulfilment Center",1,Operations / General Management,UNKNOWN,,,,,Swindon (1),Operations / General Management,title_rule_pass1
 Retail Sales Advisor,1,Sales / Business Development,UNKNOWN,,,,,Not Specified (1),Sales / Business Development,title_rule_pass1
@@ -6165,8 +6162,6 @@ Sales Executive (Machine Tools & Consumables),1,Sales / Business Development,UNK
 Reliability Maintenance Engineering Technician,1,Engineering / Technical,UNKNOWN,,,,,Northfleet (1),Engineering / Technical,title_rule_pass1
 Director of Finance and Resources,1,Professional Finance / Accountancy,UNKNOWN,,,finance_accounts,,City Of Westminster (1),Professional Finance / Accountancy,title_rule_pass1
 CIPD - Financial Controller,1,Professional Finance / Accountancy,UNKNOWN,,,,,Not Specified (1),Professional Finance / Accountancy,title_rule_pass1
-Residential Support Worker Children's Home,1,Care / Support Work,UNKNOWN,,,support_worker,,Not Specified (1),Care / Support Work,title_rule_pass1
-Care Worker - Looked After Children,1,Care / Support Work,UNKNOWN,,,support_worker,,Ammanford (1),Care / Support Work,title_rule_pass1
 "Consulting Manager, General Insurance",1,Other / Unclassified,UNKNOWN,,,,,City (1),Insurance / Claims,title_rule_pass2
 "Area Manager, DDD1",1,Operations / General Management,UNKNOWN,,,,,Dundee (1),Operations / General Management,title_rule_pass1
 Dispute Resolution Solicitor,1,Legal / Conveyancing,UNKNOWN,,,,,Tunbridge Wells (1),Legal / Conveyancing,title_rule_pass1
@@ -6179,3 +6174,4 @@ Case Assistant,1,Other / Unclassified,UNKNOWN,,,,,York (1),Other / Unclassified,
 Hybrid Sales Advisor,1,Sales / Business Development,UNKNOWN,,,,,Grantham (1),Sales / Business Development,title_rule_pass1
 Sales Progressor,1,Sales / Business Development,UNKNOWN,,,,,Wimborne (1),Sales / Business Development,title_rule_pass1
 Compliance and Sustainability Lead - Product Packaging,1,Other / Unclassified,UNKNOWN,,,,,Not Specified (1),Other / Unclassified,still_unclassified
+Family Support Worker - Nights,1,Care / Support Work,UNKNOWN,,,support_worker,,North Curry (1),Care / Support Work,title_rule_pass1

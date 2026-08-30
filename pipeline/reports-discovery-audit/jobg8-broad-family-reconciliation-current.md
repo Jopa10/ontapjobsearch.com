@@ -1,8 +1,8 @@
 # JobG8 register-first broad-family reconciliation
 
 Jobs reconciled: **10,000**
-Jobs assigned first from an existing selected Ontap register: **671**
-Original title-rule Other / Unclassified: **3,535**
+Jobs assigned first from an existing selected Ontap register: **673**
+Original title-rule Other / Unclassified: **3,536**
 Jobs resolved by description-majority pass: **69**
 Remaining Other / Unclassified after register-first + title + description passes: **1,882**
 
@@ -14,18 +14,18 @@ Every job is counted once and only once. Existing selected Ontap registers take 
 |---|---:|---:|
 | Other / Unclassified | 1,882 | 18.8% |
 | Sales / Business Development | 1,161 | 11.6% |
-| IT / Data / Software | 1,028 | 10.3% |
-| Admin / Customer Service | 934 | 9.3% |
+| IT / Data / Software | 1,029 | 10.3% |
+| Admin / Customer Service | 933 | 9.3% |
 | Professional Finance / Accountancy | 832 | 8.3% |
-| Healthcare / Clinical | 671 | 6.7% |
-| Engineering / Technical | 578 | 5.8% |
+| Healthcare / Clinical | 670 | 6.7% |
+| Engineering / Technical | 579 | 5.8% |
 | Management / Team Leadership | 488 | 4.9% |
 | Marketing / Digital / Creative | 298 | 3.0% |
 | Operations / General Management | 297 | 3.0% |
 | Care / Support Work | 286 | 2.9% |
-| HR / Recruitment | 222 | 2.2% |
+| HR / Recruitment | 221 | 2.2% |
 | Retail / Store | 203 | 2.0% |
-| Legal / Conveyancing | 193 | 1.9% |
+| Legal / Conveyancing | 194 | 1.9% |
 | Market Research / Field Interviewing | 175 | 1.8% |
 | Construction / Trades / Property | 120 | 1.2% |
 | Property / Housing / Planning | 75 | 0.8% |
@@ -53,18 +53,18 @@ Salary uses the midpoint of the available structured minimum/maximum after annua
 |---|---:|---:|---:|---:|---:|
 | Other / Unclassified | 729 | 327 | 240 | 586 | 1,882 |
 | Sales / Business Development | 309 | 265 | 223 | 364 | 1,161 |
-| IT / Data / Software | 385 | 31 | 134 | 478 | 1,028 |
-| Admin / Customer Service | 204 | 623 | 77 | 30 | 934 |
+| IT / Data / Software | 386 | 31 | 134 | 478 | 1,029 |
+| Admin / Customer Service | 203 | 623 | 77 | 30 | 933 |
 | Professional Finance / Accountancy | 219 | 156 | 165 | 292 | 832 |
-| Healthcare / Clinical | 427 | 47 | 82 | 115 | 671 |
-| Engineering / Technical | 198 | 51 | 100 | 229 | 578 |
+| Healthcare / Clinical | 427 | 47 | 82 | 114 | 670 |
+| Engineering / Technical | 198 | 51 | 100 | 230 | 579 |
 | Management / Team Leadership | 121 | 152 | 118 | 97 | 488 |
 | Marketing / Digital / Creative | 105 | 47 | 74 | 72 | 298 |
 | Operations / General Management | 132 | 11 | 39 | 115 | 297 |
 | Care / Support Work | 129 | 119 | 22 | 16 | 286 |
-| HR / Recruitment | 47 | 113 | 44 | 18 | 222 |
+| HR / Recruitment | 47 | 112 | 44 | 18 | 221 |
 | Retail / Store | 72 | 89 | 28 | 14 | 203 |
-| Legal / Conveyancing | 51 | 58 | 21 | 63 | 193 |
+| Legal / Conveyancing | 51 | 59 | 21 | 63 | 194 |
 | Market Research / Field Interviewing | 145 | 30 | 0 | 0 | 175 |
 | Construction / Trades / Property | 26 | 28 | 28 | 38 | 120 |
 | Property / Housing / Planning | 18 | 17 | 16 | 24 | 75 |
@@ -91,18 +91,18 @@ Geography uses the same geo_lookup Area→Cluster and controlled LocationFallbac
 | Broad family | Total | Existing register | New / uncovered | Ontap regions | Median / region | Regions 5+ | Regions 10+ | Geo unknown | Top regions |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---|
 | Sales / Business Development | 1,161 | 0 | 1,161 | 83 | 8 | 60 | 35 | 85 | London (156); Greater Manchester - Manchester & Salford (49); Hampshire (45); Hertfordshire (38); Kent (35) |
-| IT / Data / Software | 1,028 | 0 | 1,028 | 68 | 6.0 | 40 | 27 | 79 | London (218); Hampshire (63); Greater Manchester - Manchester & Salford (63); Bristol & Bath (45); Kent (45) |
-| Admin / Customer Service | 934 | 343 | 591 | 78 | 5.0 | 43 | 24 | 177 | London (147); Surrey (42); Hampshire (34); Kent (25); Leicestershire (25) |
+| IT / Data / Software | 1,029 | 0 | 1,029 | 68 | 6.0 | 40 | 27 | 79 | London (218); Hampshire (63); Greater Manchester - Manchester & Salford (63); Bristol & Bath (45); Kent (45) |
+| Admin / Customer Service | 933 | 344 | 589 | 78 | 5.0 | 43 | 24 | 176 | London (147); Surrey (42); Hampshire (34); Kent (25); Leicestershire (25) |
 | Professional Finance / Accountancy | 832 | 140 | 692 | 80 | 7.0 | 48 | 30 | 68 | London (121); Yorkshire - West (35); Yorkshire - North (24); Merseyside - Liverpool (24); Bristol & Bath (22) |
-| Healthcare / Clinical | 671 | 0 | 671 | 81 | 3 | 35 | 16 | 66 | London (111); Surrey (40); Hampshire (36); Sussex (33); North East - Tyneside, Wearside & Northumberland (24) |
-| Engineering / Technical | 578 | 0 | 578 | 63 | 5 | 35 | 19 | 44 | London (98); Greater Manchester - Manchester & Salford (38); Kent (28); Bristol & Bath (26); Hampshire (17) |
+| Healthcare / Clinical | 670 | 0 | 670 | 81 | 3 | 35 | 16 | 66 | London (111); Surrey (40); Hampshire (36); Sussex (33); North East - Tyneside, Wearside & Northumberland (24) |
+| Engineering / Technical | 579 | 0 | 579 | 63 | 5 | 35 | 19 | 44 | London (98); Greater Manchester - Manchester & Salford (39); Kent (28); Bristol & Bath (26); Hampshire (17) |
 | Management / Team Leadership | 488 | 0 | 488 | 76 | 4.0 | 32 | 17 | 24 | London (43); Essex (21); Oxfordshire (20); Sussex (19); Hampshire (16) |
 | Marketing / Digital / Creative | 298 | 0 | 298 | 52 | 2.5 | 16 | 4 | 29 | London (86); Greater Manchester - Manchester & Salford (14); Yorkshire - West (11); Hampshire (10); Surrey (9) |
 | Operations / General Management | 297 | 0 | 297 | 55 | 4 | 22 | 6 | 18 | London (41); Oxfordshire (14); Hampshire (14); Bristol & Bath (12); Yorkshire - West (10) |
-| Care / Support Work | 286 | 126 | 160 | 65 | 2 | 15 | 4 | 32 | London (41); Oxfordshire (19); Hampshire (15); Surrey (14); Somerset (9) |
-| HR / Recruitment | 222 | 60 | 162 | 43 | 3 | 12 | 3 | 35 | London (33); Bristol & Bath (22); Hampshire (11); Yorkshire - West (9); Essex (6) |
+| Care / Support Work | 286 | 127 | 159 | 64 | 2.0 | 15 | 5 | 31 | London (42); Oxfordshire (19); Hampshire (15); Surrey (14); Somerset (10) |
+| HR / Recruitment | 221 | 60 | 161 | 43 | 3 | 11 | 3 | 35 | London (33); Bristol & Bath (22); Hampshire (11); Yorkshire - West (9); Essex (6) |
 | Retail / Store | 203 | 0 | 203 | 57 | 2 | 10 | 2 | 27 | London (21); Yorkshire - North (15); Wiltshire (9); Oxfordshire (9); Kent (9) |
-| Legal / Conveyancing | 193 | 0 | 193 | 50 | 2.0 | 9 | 1 | 9 | London (56); Wiltshire (9); Yorkshire - South (8); Sussex (7); Greater Manchester - Manchester & Salford (7) |
+| Legal / Conveyancing | 194 | 0 | 194 | 50 | 2.0 | 9 | 1 | 9 | London (57); Wiltshire (9); Yorkshire - South (8); Sussex (7); Greater Manchester - Manchester & Salford (7) |
 | Market Research / Field Interviewing | 175 | 0 | 175 | 37 | 2 | 9 | 3 | 56 | Devon (12); Wiltshire (12); London (10); Scotland Central - Tayside (8); Berkshire (7) |
 | Construction / Trades / Property | 120 | 0 | 120 | 40 | 2.0 | 4 | 1 | 10 | London (20); Bristol & Bath (5); Essex (5); Greater Manchester - Manchester & Salford (5); Nottinghamshire (4) |
 | Property / Housing / Planning | 75 | 0 | 75 | 33 | 1 | 2 | 0 | 12 | London (8); Hertfordshire (5); Sussex (4); West Midlands - Coventry & Warwickshire (4); North East - Tyneside, Wearside & Northumberland (3) |
@@ -125,12 +125,12 @@ Geography uses the same geo_lookup Area→Cluster and controlled LocationFallbac
 
 | Basis | Jobs |
 |---|---:|
-| title_rule_pass1 | 5,839 |
+| title_rule_pass1 | 5,836 |
 | still_unclassified | 1,882 |
-| title_rule_pass2 | 1,539 |
-| existing_register:admin_service | 250 |
+| title_rule_pass2 | 1,540 |
+| existing_register:admin_service | 251 |
 | existing_register:finance_accounts | 140 |
-| existing_register:support_worker | 126 |
+| existing_register:support_worker | 127 |
 | existing_register:customer_service_contact_centre | 93 |
 | description_majority | 69 |
 | existing_register:hr_recruitment | 60 |
