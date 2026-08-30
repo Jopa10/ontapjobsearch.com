@@ -88,7 +88,7 @@ class SliceRegistryTests(unittest.TestCase):
                 f"/job-search/{slug}/service-administrator-jobs",
             )
 
-    def test_customer_sales_live_set_is_exactly_the_four_approved_regions(self):
+    def test_customer_sales_live_set_is_exactly_the_six_approved_regions(self):
         sales_regions = {
             region for region, category in live_slices() if category == "customer_sales"
         }
@@ -99,7 +99,29 @@ class SliceRegistryTests(unittest.TestCase):
                 "Yorkshire - West",
                 "Greater Manchester - Manchester & Salford",
                 "North East",
+                "Bristol & Bath",
+                "Hampshire",
             },
+        )
+
+    def test_30_august_approved_slices_are_live(self):
+        approved = {
+            ("Bedfordshire", "admin_service"),
+            ("Bristol & Bath", "customer_sales"),
+            ("Hampshire", "customer_sales"),
+        }
+        self.assertTrue(approved.issubset(live_slices()))
+        self.assertEqual(
+            dynamic_route("Bedfordshire", "admin_service"),
+            "/job-search/bedfordshire/service-administrator-jobs",
+        )
+        self.assertEqual(
+            dynamic_route("Bristol & Bath", "customer_sales"),
+            "/job-search/bristol-bath/customer-sales-jobs",
+        )
+        self.assertEqual(
+            dynamic_route("Hampshire", "customer_sales"),
+            "/job-search/hampshire/customer-sales-jobs",
         )
 
     def test_customer_service_live_slices_publish_from_one_current_job(self):

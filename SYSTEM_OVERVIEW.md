@@ -7,6 +7,7 @@ This is the short owner view of how Ontap is organised. It mirrors the five cano
 
 ## Recent canonical changes
 
+- 30 August 2026 — **Three further slices are approved for LIVE:** Bedfordshire Service Admin, Bristol & Bath Sales Advisor and Hampshire Sales Advisor. Their current / rolling-average / six-plus-day evidence is **8 / 5.6 / 4-of-9, 6 / 6.9 / 8-of-9 and 11 / 7.0 / 6-of-9** respectively. They reuse the existing governed selectors and regional publishing machinery; no other market is activated.
 - 30 August 2026 — **The owner-reviewed no-register sweep is encoded:** narrow exact decisions add the agreed routine Admin, Customer Service, Finance/Payroll, EA/PA, Legal Support and direct Support/Care titles without admitting the rejected optical, school-support, property/retail-sales, technical, managerial or specialist groups. Generic `City` geography now uses the job's actual location instead of defaulting to London, and the audit correctly bands SalaryAdditional-only pay. Normal LIVE-market, salary and duplicate rules still decide publication.
 - 30 August 2026 — **Expired Google Jobs links are now cleaned up sooner:** whenever published job inventory changes, Ontap automatically runs its existing deletion-first Google Indexing update instead of waiting until the evening fallback run.
 
@@ -99,7 +100,7 @@ The main JobG8 process remains the primary production ingest/process path. NEJob
 
 A source shown as `STALE` or `MISSING` in the unified review must not be interpreted as zero inventory. Repair/rerun that source, then rerun `Ontap daily review` to regenerate the master edit file before reviewing. The 22 August Teaching Vacancies recovery verified this operating sequence and the fail-soft source-isolation behaviour.
 
-Service Admin is now LIVE in **43 / 55 assessable England markets and 46 / 78 UK markets**. The six regional slices approved on 19 August remain live, the 22 August standing **>8 governed same-feed** rule added 11 recovered markets, and five named owner approvals were added on 26 August. All use the same central catalog, slice register, production selector and verified-page publishing mechanism.
+Service Admin is now LIVE in **44 / 55 assessable England markets and 47 / 78 UK markets**. The six regional slices approved on 19 August remain live, the 22 August standing **>8 governed same-feed** rule added 11 recovered markets, five named owner approvals were added on 26 August, and Bedfordshire was approved on 30 August. All use the same central catalog, slice register, production selector and verified-page publishing mechanism.
 
 Regional geography now has two deliberately separate layers. `pipeline/config/england_assessable_regions.json` defines the **55 assessable England markets** used for daily diagnostics and coverage reporting. `pipeline/config/job_slice_catalog.json` is the configured/public market layer and is not the national geography authority; `region_category_slice_register.csv` still decides what is LIVE. A mapped job can therefore be assessed even when its market has no LIVE slice. `North East` remains the deliberate roll-up of all three underlying North East lookup areas, including Tees Valley.
 

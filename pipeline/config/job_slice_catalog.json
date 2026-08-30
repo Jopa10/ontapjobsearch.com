@@ -65,6 +65,7 @@
     "North East": { "slug": "north-east", "anchor_town": "Newcastle" },
     "London": { "slug": "london", "anchor_town": "London" },
     "Northern Ireland - East": { "slug": "northern-ireland-east", "anchor_town": "Belfast" },
+    "Bedfordshire": { "slug": "bedfordshire", "anchor_town": "Bedford" },
     "Hampshire": { "slug": "hampshire", "anchor_town": "Southampton" },
     "Surrey": { "slug": "surrey", "anchor_town": "Guildford" },
     "Kent": { "slug": "kent", "anchor_town": "Maidstone" },
