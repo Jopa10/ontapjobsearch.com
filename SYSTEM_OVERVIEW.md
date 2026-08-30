@@ -7,6 +7,8 @@ This is the short owner view of how Ontap is organised. It mirrors the five cano
 
 ## Recent canonical changes
 
+- 30 August 2026 — **Expired Google Jobs links are now cleaned up sooner:** whenever published job inventory changes, Ontap automatically runs its existing deletion-first Google Indexing update instead of waiting until the evening fallback run.
+
 - 30 August 2026 — **Still-open NHS jobs are retained during JobG8 review publication:** JobG8 decisions and the refreshed NHS inventory are now composed into one commit, preventing short-lived missing job pages between the two source updates.
 
 - 30 August 2026 — **Automatic JobG8 discovery audits now run only after relevant changes reach `main`:** a feature-branch push can no longer launch a production archive/writeback run that AWS must reject. Non-main testing remains available only through the existing safe, manual artifact-only option.
