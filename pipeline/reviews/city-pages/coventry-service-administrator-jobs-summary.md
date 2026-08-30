@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 5
 - automatic review: 2
-- automatic exclude: 23
+- automatic exclude: 21
 - effective include: 5
 - effective review: 2
-- effective exclude: 23
+- effective exclude: 21
 
 ## INCLUDE (5)
 
@@ -110,7 +110,7 @@ job_id: teaching-vacancies-receptionist-and-administrator-ftc-contract-september
 reason: No approved Coventry catchment rule matched; local review required.
 ---
 
-## EXCLUDE (23)
+## EXCLUDE (21)
 
 ---
 action: 
@@ -272,18 +272,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: MEDICAL RECEPTIONIST
-company: Valley Road Medical Practice
-location: Leamington Spa, CV32 7SJ
-source: NHS Jobs
-job_id: nhs-4151642
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Personal Assistant (PA) to the Headteachers (Oak Wood Schools)
 company: Oak Wood Secondary School
 location: Nuneaton
@@ -349,18 +337,6 @@ company: Houlton School
 location: RUGBY
 source: Teaching Vacancies
 job_id: teaching-vacancies-send-administrator-houlton-school
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Service Delivery Coordinator
-company: Pertemps North Midlands - Agency - Temporary
-location: Warwickshire
-source: JobG8
-job_id: jobg8-23643_225435656
 reason: Separate employment market.
 ---
 

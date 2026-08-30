@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 10
 - automatic review: 7
-- automatic exclude: 26
+- automatic exclude: 25
 - effective include: 10
 - effective review: 7
-- effective exclude: 26
+- effective exclude: 25
 
 ## INCLUDE (10)
 
@@ -230,7 +230,7 @@ job_id: teaching-vacancies-sixth-form-administrator-team-leader
 reason: No approved Oxford catchment rule matched; local review required.
 ---
 
-## EXCLUDE (26)
+## EXCLUDE (25)
 
 ---
 action: 
@@ -313,18 +313,6 @@ company: Tradestech Recruitment - Agency - Contract
 location: Oxfordshire
 source: JobG8
 job_id: jobg8-23643_225456749
-reason: Broad county location; not Oxford-city evidence.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Care Coordinator
-company: Care Outlook Ltd - Agency - Permanent
-location: Oxfordshire
-source: JobG8
-job_id: jobg8-107905837
 reason: Broad county location; not Oxford-city evidence.
 ---
 
@@ -444,7 +432,7 @@ title: Receptionist
 company: Hamberley Care Management Limited - Company - Permanent
 location: Oxfordshire
 source: JobG8
-job_id: jobg8-23643_225435666
+job_id: jobg8-23643_225548050
 reason: Broad county location; not Oxford-city evidence.
 ---
 

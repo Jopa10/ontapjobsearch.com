@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 5
 - automatic review: 5
-- automatic exclude: 32
+- automatic exclude: 33
 - effective include: 5
 - effective review: 5
-- effective exclude: 32
+- effective exclude: 33
 
 ## INCLUDE (5)
 
@@ -146,7 +146,7 @@ job_id: nhs-5551474
 reason: No approved Huddersfield catchment rule matched; local review required.
 ---
 
-## EXCLUDE (32)
+## EXCLUDE (33)
 
 ---
 action: 
@@ -229,6 +229,18 @@ company: Ridge & Partners LLP - Agency - Permanent
 location: Leeds
 source: JobG8
 job_id: jobg8-107880419
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Cloud-First SQL Database Administrator - Azure
+company: IO Associates - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-107908451
 reason: Separate employment market.
 ---
 

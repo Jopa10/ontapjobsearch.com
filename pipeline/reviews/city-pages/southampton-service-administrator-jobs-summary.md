@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 5
-- automatic review: 42
+- automatic review: 43
 - automatic exclude: 9
 - effective include: 5
-- effective review: 42
+- effective review: 43
 - effective exclude: 9
 
 ## INCLUDE (5)
@@ -84,7 +84,7 @@ job_id: teaching-vacancies-receptionist-ff80cc91-b028-4603-910d-80547a4ad86e
 reason: Approved Southampton catchment.
 ---
 
-## REVIEW (42)
+## REVIEW (43)
 
 ---
 action: 
@@ -114,11 +114,11 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Administrator
-company: Adecco - Agency - Temporary
+title: Admin
+company: Randstad Construction and Property - Agency - Temporary
 location: Hampshire
 source: JobG8
-job_id: jobg8-23643_225480542
+job_id: jobg8-23643_225458940
 reason: Broad location; review before city inclusion.
 ---
 
@@ -126,11 +126,11 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Attendance Coordinator
-company: South Hampshire College Group - Agency - Permanent
+title: Administrator
+company: Adecco - Agency - Temporary
 location: Hampshire
 source: JobG8
-job_id: jobg8-107825061
+job_id: jobg8-23643_225480542
 reason: Broad location; review before city inclusion.
 ---
 
@@ -311,6 +311,18 @@ company: Hays Business Support - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225519192
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Junior Administrator
+company: Adecco - Agency - Temporary
+location: Hampshire
+source: JobG8
+job_id: jobg8-23643_225546549
 reason: Broad location; review before city inclusion.
 ---
 

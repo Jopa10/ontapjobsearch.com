@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 7
-- automatic review: 6
-- automatic exclude: 12
+- automatic review: 5
+- automatic exclude: 11
 - effective include: 7
-- effective review: 6
-- effective exclude: 12
+- effective review: 5
+- effective exclude: 11
 
 ## INCLUDE (7)
 
@@ -108,19 +108,7 @@ job_id: nhs-5550198
 reason: Approved York catchment.
 ---
 
-## REVIEW (6)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Admin Assistant
-company: SI Recruitment - Agency - Permanent
-location: Richmond
-source: JobG8
-job_id: jobg8-107820841
-reason: No approved York catchment rule matched; local review required.
----
+## REVIEW (5)
 
 ---
 action: 
@@ -182,7 +170,7 @@ job_id: teaching-vacancies-school-office-administrator-askwith-primary-school
 reason: No approved York catchment rule matched; local review required.
 ---
 
-## EXCLUDE (12)
+## EXCLUDE (11)
 
 ---
 action: 
@@ -301,18 +289,6 @@ company: Dale Power Solutions - Agency - Permanent
 location: Scarborough
 source: JobG8
 job_id: jobg8-107900212
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Team Administrator
-company: Tees Esk and Wear Valleys NHS Foundation Trust
-location: Northallerton, DL6 2FG
-source: NHS Jobs
-job_id: nhs-5520240
 reason: Separate employment market.
 ---
 

@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 2
-- automatic review: 5
-- automatic exclude: 2
+- automatic review: 4
+- automatic exclude: 1
 - effective include: 2
-- effective review: 5
-- effective exclude: 2
+- effective review: 4
+- effective exclude: 1
 
 ## INCLUDE (2)
 
@@ -48,7 +48,7 @@ job_id: jobg8-1401784780
 reason: Approved Southampton catchment.
 ---
 
-## REVIEW (5)
+## REVIEW (4)
 
 ---
 action: 
@@ -78,18 +78,6 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Care Assistant (Older Adults)
-company: Hampshire County Council - Company - Permanent
-location: Emsworth
-source: JobG8
-job_id: jobg8-1401784339
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Children's Homes Support Worker
 company: Hampshire County Council - Company - Permanent
 location: Romsey
@@ -110,19 +98,7 @@ job_id: jobg8-1401784682
 reason: Broad location; review before city inclusion.
 ---
 
-## EXCLUDE (2)
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Children's Home Support Worker
-company: Hampshire County Council - Company - Permanent
-location: Fareham
-source: JobG8
-job_id: jobg8-1401784414
-reason: Separate employment market.
----
+## EXCLUDE (1)
 
 ---
 action: 

@@ -4,7 +4,7 @@
 - Live route: `/brighton-hove/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 4
+- Effective included jobs: 5
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 4
-- automatic review: 23
+- automatic include: 5
+- automatic review: 26
 - automatic exclude: 4
-- effective include: 4
-- effective review: 23
+- effective include: 5
+- effective review: 26
 - effective exclude: 4
 
-## INCLUDE (4)
+## INCLUDE (5)
 
 ---
 action: 
@@ -52,6 +52,18 @@ reason: Approved Brighton & Hove catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Mental Health Act Administrator and Medical Secretary
+company: Elysium Healthcare
+location: Brighton, BN3 4FH
+source: NHS Jobs
+job_id: nhs-5551395
+reason: Approved Brighton & Hove catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Receptionist
 company: Integrated Care 24 Ltd
 location: Brighton, BN1 1AE
@@ -72,7 +84,7 @@ job_id: nhs-5548209
 reason: Approved Brighton & Hove catchment.
 ---
 
-## REVIEW (23)
+## REVIEW (26)
 
 ---
 action: 
@@ -119,6 +131,18 @@ company: First Recruitment Services - Agency - Temporary
 location: Sussex
 source: JobG8
 job_id: jobg8-23643_225523989
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Customer Operations Coordinator - Immediate Start
+company: Office Angels - Agency - Contract
+location: Sussex
+source: JobG8
+job_id: jobg8-23643_225547527
 reason: Broad location; review before city inclusion.
 ---
 
@@ -191,6 +215,30 @@ company: Oraculum - Agency - Permanent
 location: Sussex
 source: JobG8
 job_id: jobg8-23643_225517937
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Membership & Events Coordinator - Immediate Start
+company: Office Angels - Agency - Temporary
+location: Sussex
+source: JobG8
+job_id: jobg8-23643_225547249
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Mental Health Support Coordinator
+company: Southdown - Agency - Permanent
+location: Sussex
+source: JobG8
+job_id: jobg8-107869789
 reason: Broad location; review before city inclusion.
 ---
 

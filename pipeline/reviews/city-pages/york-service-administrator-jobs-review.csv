@@ -6,7 +6,6 @@ include,jobg8-23643_225543992,Assessment Administration Coordinator,Advance HE -
 include,jobg8-107833079,Invoicing Administrator,Capital Outsourcing Group Limited - Agency - Contract,York,JobG8,include,include,Approved York catchment.,york,york-service-administrator-jobs
 include,jobg8-107836541,Service Advisor - Ford,Stoneacre Motor Group. - Company - Permanent,York,JobG8,include,include,Approved York catchment.,york,york-service-administrator-jobs
 include,nhs-5550198,Team Administrator,Tees Esk and Wear Valleys NHS Foundation Trust,"York, YO31 7DE",NHS Jobs,include,include,Approved York catchment.,york,york-service-administrator-jobs
-review,jobg8-107820841,Admin Assistant,SI Recruitment - Agency - Permanent,Richmond,JobG8,review,review,No approved York catchment rule matched; local review required.,fallback,york-service-administrator-jobs
 review,jobg8-23643_225544656,HR Administrator,Unity Resourcing Ltd - Agency - Permanent,Knaresborough,JobG8,review,review,No approved York catchment rule matched; local review required.,fallback,york-service-administrator-jobs
 review,jobg8-107871574,Lifestyle Co-ordinator,Care UK - Company - Permanent,Whitby,JobG8,review,review,No approved York catchment rule matched; local review required.,fallback,york-service-administrator-jobs
 review,jobg8-23643_225480415,Office Administrator,KD Recruitment - Agency - Permanent,Pickering,JobG8,review,review,No approved York catchment rule matched; local review required.,fallback,york-service-administrator-jobs
@@ -22,5 +21,4 @@ exclude,jobg8-107893306,Distribution Coordinator,SI Recruitment - Agency - Perma
 exclude,jobg8-23643_225477133,Finance Assistant,IPS Finance - Agency - Permanent,Harrogate,JobG8,exclude,exclude,Separate employment market.,harrogate,york-service-administrator-jobs
 exclude,teaching-vacancies-senior-administrator-braeburn-primary-and-nursery-academy-scarborough-north-yorkshire,Senior Administrator,Braeburn Primary and Nursery Academy,Scarborough,Teaching Vacancies,exclude,exclude,Separate employment market.,scarborough,york-service-administrator-jobs
 exclude,jobg8-107900212,Service Coordinator (Generator),Dale Power Solutions - Agency - Permanent,Scarborough,JobG8,exclude,exclude,Separate employment market.,scarborough,york-service-administrator-jobs
-exclude,nhs-5520240,Team Administrator,Tees Esk and Wear Valleys NHS Foundation Trust,"Northallerton, DL6 2FG",NHS Jobs,exclude,exclude,Separate employment market.,northallerton,york-service-administrator-jobs
 exclude,jobg8-23643_225472878,Training and Recruitment administrator,Ashley Kate HR & Finance - Agency - Permanent,Harrogate,JobG8,exclude,exclude,Separate employment market.,harrogate,york-service-administrator-jobs

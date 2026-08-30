@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 22
-- automatic review: 24
-- automatic exclude: 17
+- automatic review: 23
+- automatic exclude: 18
 - effective include: 22
-- effective review: 24
-- effective exclude: 17
+- effective review: 23
+- effective exclude: 18
 
 ## INCLUDE (22)
 
@@ -288,7 +288,7 @@ job_id: nejobs-300777
 reason: Approved Newcastle catchment.
 ---
 
-## REVIEW (24)
+## REVIEW (23)
 
 ---
 action: 
@@ -383,18 +383,6 @@ company: Office Angels - Agency - Temporary
 location: Tyne And Wear
 source: JobG8
 job_id: jobg8-23643_225474293
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Development Planner
-company: Persimmon Homes - Agency - Permanent
-location: Tyne And Wear
-source: JobG8
-job_id: jobg8-107869330
 reason: Broad location; review before city inclusion.
 ---
 
@@ -578,7 +566,7 @@ job_id: nejobs-301243
 reason: No approved Newcastle catchment rule matched; local review required.
 ---
 
-## EXCLUDE (17)
+## EXCLUDE (18)
 
 ---
 action: 
@@ -613,6 +601,18 @@ company: Durham County Council
 location: Sacriston
 source: NEJobs
 job_id: nejobs-299277
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Administrative Officer
+company: Barker Ross - Agency - Temporary
+location: County Durham
+source: JobG8
+job_id: jobg8-23643_225479910
 reason: Separate employment market.
 ---
 

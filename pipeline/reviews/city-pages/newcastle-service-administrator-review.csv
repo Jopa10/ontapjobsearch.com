@@ -29,7 +29,6 @@ review,jobg8-23643_225444106,Administrator Gateshead - Temp to Perm,Office Angel
 review,jobg8-23643_225445993,Business Administrator,Spire Healthcare - Company - Permanent,Tyne And Wear,JobG8,review,review,Broad location; review before city inclusion.,tyne and wear,newcastle-service-administrator
 review,jobg8-23643_225494451,Customer Experience Coordinator,Linear Recruitment Ltd - Agency - Contract,Tyne And Wear,JobG8,review,review,Broad location; review before city inclusion.,tyne and wear,newcastle-service-administrator
 review,jobg8-23643_225474293,Customer Service & Complaints Administrator - Team Valley,Office Angels - Agency - Temporary,Tyne And Wear,JobG8,review,review,Broad location; review before city inclusion.,tyne and wear,newcastle-service-administrator
-review,jobg8-107869330,Development Planner,Persimmon Homes - Agency - Permanent,Tyne And Wear,JobG8,review,review,Broad location; review before city inclusion.,tyne and wear,newcastle-service-administrator
 review,jobg8-107776158,Finance Assistant,National Learning Group - Agency - Permanent,Tyne And Wear,JobG8,review,review,Broad location; review before city inclusion.,tyne and wear,newcastle-service-administrator
 review,jobg8-23643_225515748,Full Time Administrator - Temp to Perm - Gosforth,Office Angels - Agency - Temporary,Tyne And Wear,JobG8,review,review,Broad location; review before city inclusion.,tyne and wear,newcastle-service-administrator
 review,vonne-173310,Health & Wellbeing Projects Support Officer,VONNE,Tyne and Wear,VONNE,review,review,Broad location; review before city inclusion.,tyne and wear,newcastle-service-administrator
@@ -48,6 +47,7 @@ review,nejobs-301243,Tenant Engagement Officer,Northumberland County Council,"Ed
 exclude,jobg8-107752679,Accounts Assistant,SI Recruitment - Agency - Permanent,County Durham,JobG8,exclude,exclude,Separate employment market.,durham,newcastle-service-administrator
 exclude,jobg8-23643_225427868,Administrative Assistant,Blu Tech consulting - Agency - Contract,County Durham,JobG8,exclude,exclude,Separate employment market.,durham,newcastle-service-administrator
 exclude,nejobs-299277,Administrative Assistant,Durham County Council,Sacriston,NEJobs,exclude,exclude,Separate employment market.,context:durham,newcastle-service-administrator
+exclude,jobg8-23643_225479910,Administrative Officer,Barker Ross - Agency - Temporary,County Durham,JobG8,exclude,exclude,Separate employment market.,durham,newcastle-service-administrator
 exclude,nejobs-301034,Apprentice Economic Development Administrator,Durham County Council,"Green Lane, Spennymoor, Durham",NEJobs,exclude,exclude,Separate employment market.,durham,newcastle-service-administrator
 exclude,nejobs-299877,Attendance & Support Officer,Hartlepool Borough Council,"The Horizon School, CETL, Brierton Lane, Hartlepool",NEJobs,exclude,exclude,Outside Newcastle catchment.,hartlepool,newcastle-service-administrator
 exclude,nejobs-300776,Business Services Co-ordination and Improvement Officer,Durham County Council,"Annand House, Meadowfield",NEJobs,exclude,exclude,Separate employment market.,context:durham,newcastle-service-administrator

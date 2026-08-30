@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 8
 - automatic review: 5
-- automatic exclude: 29
+- automatic exclude: 30
 - effective include: 8
 - effective review: 5
-- effective exclude: 29
+- effective exclude: 30
 
 ## INCLUDE (8)
 
@@ -182,7 +182,7 @@ job_id: nhs-5551474
 reason: No approved Bradford catchment rule matched; local review required.
 ---
 
-## EXCLUDE (29)
+## EXCLUDE (30)
 
 ---
 action: 
@@ -289,6 +289,18 @@ company: All Saints Catholic College
 location: Huddersfield
 source: Teaching Vacancies
 job_id: teaching-vacancies-business-support-officer-student-services-a6b016b2-0cf8-4c1f-9ae0-103ce7f8ce62
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Cloud-First SQL Database Administrator - Azure
+company: IO Associates - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-107908451
 reason: Separate employment market.
 ---
 
