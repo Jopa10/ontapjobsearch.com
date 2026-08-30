@@ -1,12 +1,13 @@
 # Ontap System Overview
 
-**Last updated:** 29 August 2026
+**Last updated:** 30 August 2026
 **Status:** Canonical production state including owner-facing JobG8 selection auditing, live-site reporting reconciliation and Teaching Vacancies regional publish isolation.
 
 This is the short owner view of how Ontap is organised. It mirrors the five canonical system buckets in `SYSTEM_MAP.md`.
 
 ## Recent canonical changes
 
+- 30 August 2026 — **The remaining owner-approved missed JobG8 titles are encoded:** named Service Admin, Finance, Customer Service, Sales, Legal and HR roles now enter their existing family selectors through exact decisions only. Personal Assistant is included for clearly executive/office PA work but not direct care, legal PA or ambiguous adverts; `Payroll , Pensions and HR Administrator (Hybrid)` remains held. Broader exclusions and all existing pay, location, duplicate and LIVE-market checks are unchanged.
 - 29 August 2026 — **The agreed A–H missed-role review is encoded:** the reviewed practical Finance, Customer Service, HR, Admin, Support Worker/Housing Support, Sales, Marketing and Legal roles now enter their appropriate existing family selectors. Narrow exact-title exceptions correct the genuine false negatives without opening broad words such as `driver`, `housing`, `analyst`, `officer` or `manager` generally. The seven agreed exclusions remain out, and the six Housing Estates Officer adverts stay on hold for fuller evidence. Existing salary, location, duplicate and LIVE-market rules still decide whether an included family match is actually published.
 - 29 August 2026 — **Four missed Service Admin titles are now included:** full-advert review confirmed `Admin`, `Administrative Officer`, `Admin Advertiser` and `Administration Support Assistant` as ordinary transferable office administration. They now enter the normal governed selector, while the existing pay, specialist, location, duplicate and LIVE-market checks still apply.
 - 29 August 2026 — The manually run JobG8 discovery audit now supplies a downloadable Excel/CSV of every feed row, including source details, salary band, family evidence and why it is published, withheld, rejected or unmatched. It is an inspection report only and cannot change the live site.

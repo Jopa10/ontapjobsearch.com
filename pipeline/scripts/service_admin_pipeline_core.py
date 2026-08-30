@@ -1545,12 +1545,25 @@ def classify_title(title: str, title_register: dict[str, dict[str, str]] | None 
     title_key = normalise_title_for_register(title)
     title_register = title_register or {}
 
+    exact = title_register.get(title_key)
+    # Owner-agreed exact refinements are deliberately narrower than the stable
+    # substring exclusions. They may admit one reviewed title containing words
+    # such as production/transport, or explicitly hold it as HARD_PASS, without
+    # changing the generic exclusion pattern for any neighbouring title.
+    if exact and exact.get("review_status", "").startswith("AGREED_"):
+        classification = exact.get("classification", "REVIEW_CONTEXT_DEPENDENT")
+        return (
+            classification,
+            exact.get("reason", "agreed exact title refinement"),
+            CLASSIFICATION_PRIORITY[classification],
+            exact.get("review_status", "STABLE"),
+        )
+
     hard_hits = [p.strip() for p in HARD_PASS_PATTERNS if contains_pattern(title_key, p)]
     if hard_hits:
         classification = "HARD_PASS"
         return classification, "hard pass title pattern: " + ", ".join(hard_hits), CLASSIFICATION_PRIORITY[classification], "STABLE"
 
-    exact = title_register.get(title_key)
     if exact:
         classification = exact.get("classification", "REVIEW_CONTEXT_DEPENDENT")
         review_status = exact.get("review_status", "STABLE")
