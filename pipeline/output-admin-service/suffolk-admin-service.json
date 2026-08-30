@@ -200,31 +200,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "107716064",
-    "title": "Technical Coordinator",
-    "company": "M Group - Company - Permanent",
-    "location": "Suffolk",
-    "region": "Suffolk",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "",
-    "posted_date": "",
-    "description": "Right across infrastructure, theres a requirement to not only maintain, but also renew and reimagine. Whatever stage youre at in your career, with us youll have an opportunity to grow and develop. Delivering essential infrastructure services for life, while being safety first, and client and customer centric in a friendly, fun and respectful environment where you are encouraged to thrive click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?G%2b5YiGNoEgo3JFA59%2fdGjqTztN958MWln",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "M Group",
-    "advertiser_type": "Company",
-    "work_pattern": "Not Specified",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "1785818",
     "title": "Pricing Coordinator",
     "company": "Awaze - Agency - Permanent",
@@ -250,31 +225,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "107716054",
-    "title": "Field Technical Coordinator",
-    "company": "M Group - Company - Permanent",
-    "location": "Suffolk",
-    "region": "Suffolk",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "",
-    "posted_date": "",
-    "description": "Right across infrastructure, theres a requirement to not only maintain, but also renew and reimagine. Whatever stage youre at in your career, with us youll have an opportunity to grow and develop. Delivering essential infrastructure services for life, while being safety first, and client and customer centric in a friendly, fun and respectful environment where you are encouraged to thrive click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?wTAUM266l6eKplZmgP1t1AuEXTCt%2bHrzh",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "M Group",
-    "advertiser_type": "Company",
-    "work_pattern": "Not Specified",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "nhs-5568855",
     "source": "NHS Jobs",
     "title": "GP Receptionist",
@@ -290,7 +240,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0128-26-0004",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0128-26-0004",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5546340",
@@ -308,6 +262,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9246-26-0934",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9246-26-0934",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

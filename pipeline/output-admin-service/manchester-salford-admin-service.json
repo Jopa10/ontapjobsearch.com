@@ -406,6 +406,56 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "1701166",
+    "title": "IT Administrator",
+    "company": "Express Solicitors - Agency - Permanent",
+    "location": "Manchester",
+    "region": "Greater Manchester - Manchester & Salford",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "26500",
+    "salary_max": "26500",
+    "salary_text": "£26500 per year",
+    "posted_date": "",
+    "description": "Job Title: IT Administrator\n\nLocation: Sharston, Manchester M22 4 SN\n\nSalary: £26,500 per annum\n\nJob type: Full Time, Permanent\n\nAbout Us:\n\nEstablished in 2000, Express Solicitors is an award-winning, no win no fee law firm specialising exclusively in personal injury claims. Headquartered in Manchester, we support clients nationwide across all areas of personal injury, including employers' liability, serious injury, clinical negligence, occupiers' and public liability, road traffic accidents and industrial disease.\n\nWe are ranked 64th in The Lawyer UK Top 200, out of more than 10,000 law firms nationwide, and after achieving a 20% year-on-year growth, Express Solicitors are the largest personal injury claimant firm in the UK.\n\nOur commitment to outstanding client care is reflected in our Trustpilot rating of 4.8 (Excellent), placing us among the highest-rated firms in the sector.\n\nAbout the role:\n\nWe are currently recruiting for an IT Administrator to provide administrative support to our IT Team. This is an exciting opportunity for a talented individual to join our team and gain valuable specialist experience. The right candidate will have the chance to develop their career.\n\nResponsibilities:\n- Creating / modifying / removing users on our internal IT systems.\n- Maintaining external portal accounts with policy enforcement.\n- Coordinating licence procurement and assignment.\n- Maintaining the IT Asset Database and assigning equipment to staff via a dedicated system.\n- Assisting the Technician team, as and when required\n- Other ad hoc duties as required.\n\nPerson Specification:\n\nRequired Attributes:\n- GCSE Maths, IT and English at Grade C or above (or international equivalent)\n- Significant previous exposure to Microsoft Office suite - particularly Excel, Word, Outlook, and PowerPoint\n- Strong numerical and Administration skills\n- Attention to detail, and ability to work accurately.\n- Able to demonstrate ability to coordinate information.\n- Flexible attitude - ability to prioritise and adapt to constantly shifting priorities.\n- Resilient nature and able to work under pressure.\n- Willingness to learn.\n- Good communication skills, both written and verbal\n- Confident on the telephone\n- Ability to work in a fast-paced environment.\n\nDesired Attributes:\n- Previous experience of working as an IT Administrator\n\nSalary & Hours:\n- Salary of £26,500\n- Our standard working hours are 8:30am to 5:30pm Monday-Thursday and 8:30am to 5pm Friday.\n\nBenefits:\n- On-site Working - In our South Court office\n- 23 Days Holiday - Rising to 26 days, plus bank/public holidays.\n- Extra Holidays - 3 holiday buy backs and an extra day for your birthday after service length requirement.\n- Looking After Your Health - Private medical insurance available after 2 years' service, annual flu jab and Employee Assistance Programme.\n- Looking After Your Well-being - 24/7 onsite Gym, Netball/Football team, 10km Manchester team and more.\n- Work Life / Balance - Active social committee with generous departmental and firm-wide social budget.\n\nRecruitment Process:\n\nInterviews will be conducted by MS Teams and will include scenario-based questioning.\n\nOur employees are our most important asset, we rate skill and ability above all else and our recruitment policy encourages applications from all.\n\nPlease click APPLY to be redirected to our website to complete your application.\n\nCandidates with the relevant experience or job titles of; IT Administrator, IT Support Administrator, Software Administrator, Systems Developer, Systems Support, Software Support, 3rd Line Support, Systems Administrator, Systems Lead, Lead Systems Administrator, Lead Systems Support, Systems Architect will also be considered for this role.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?Y5CHIaMSKAz7f4%2fpctUpTR3EHcrtA5ACv",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Express Solicitors",
+    "advertiser_type": "Agency",
+    "work_pattern": "Full Time",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
+    "job_id": "107896400",
+    "title": "Operations Coordinator",
+    "company": "phs Group - Company - Permanent",
+    "location": "Manchester",
+    "region": "Greater Manchester - Manchester & Salford",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "26000",
+    "salary_max": "26000",
+    "salary_text": "£26000 per year",
+    "posted_date": "",
+    "description": "Operations Administrator\nAs an Operations Administrator, you play a key part in the success of phs. Working behind the scenes your skills help keep our Operations Centre running smoothly. This diverse and interesting role will require you to take responsibility for co-coordinatingthe service routes and effectively brief and debrief drivers to enhance delivery and customer service within the Operat click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?eq2PR%2bX5ctze0GkIRvP0Wqqilc8ZCplmp",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "phs Group",
+    "advertiser_type": "Company",
+    "work_pattern": "Not Specified",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
     "job_id": "23643_225461115",
     "title": "Team Support Coordinator",
     "company": "Aspire Recruitment - Agency - Temporary",
@@ -571,7 +621,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9349-26-2527",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9349-26-2527",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5551494",
@@ -589,7 +643,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2924-26-0002",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2924-26-0002",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5543104",
@@ -607,7 +665,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9437-26-0727",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9437-26-0727",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5543726",
@@ -625,7 +687,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5035-26-0025",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5035-26-0025",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5535381",
@@ -643,6 +709,32 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2420-26-0005",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2420-26-0005",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
+  },
+  {
+    "job_id": "nhs-5530819",
+    "source": "NHS Jobs",
+    "title": "Receptionist",
+    "company": "Florence House Medical Practice",
+    "advertiser_name": "Florence House Medical Practice",
+    "location": "Manchester, M11 1JG",
+    "region": "Greater Manchester - Manchester & Salford",
+    "salary": "£12.71",
+    "employment_type": "Permanent",
+    "posted_date": "2026-08-11T10:56:19.832818",
+    "closing_date": "2026-08-31",
+    "description": "PLEASE SEND CVs ONLY TO APPLY TO - julie.schofield1@nhs.net A receptionist / administrator is required for our busy inner-city practice in a purpose-built health centre. Experience preferred but full training will be provided. This is a varied and interesting role supporting the clinical team to deliver high quality care for our patients. Applicants should be enthusiastic, caring and conscientious and be able to work well as part of a team. You should be able to demonstrate excellent communication skills and experience of working in a GP Surgery or customer service would be a bonus. Applicants must understand the principles of confidentiality and be keen to represent the surgery in a sensitive, friendly, efficient and competent manner. The position is part time working 20 hours per week. Flexibility of hours is essential to meet the needs of the business. Suitable candidates will be expected to be available for both mornings and afternoons and for sickness and holiday cover. - Call handling - Online Triage Administration - Reception (Front Office) - Registrations - Emails / admin / tasks - Sample handling - Scanning / Filing / Coding The following are the core responsibilities of the post holder however, there may be on occasion, a requirement to carry out other tasks. Duties and Responsibilities The post holder must be able to undertake all aspects of front-office reception and back-office administration functions. Duties may vary according to workload and staffing levels and will be carried out under the direction of the management team. Reception & Patient-Facing Duties Provide cover at reception during practice hours, including handovers at shift changes and covering staff leave or sickness. Receive, assist and care navigate patients appropriately, either in person or by telephone. Telephone calls are answered promptly in line with the practice protocol Make external calls on behalf of the practice to patients or external agencies Manage the appointments system, including triage and booking, amending, and cancelling appointments. Organise requests for home visits and appropriate paperwork Handle difficult / distressed patients with tact and diplomacy Advise patients with regards to the practices complaints procedure Ensure the patients details are up to date e.g. correct telephone number Handle patient enquiries and signpost appropriately to clinicians or external services. Chaperone clinicians when requested in line with the practice chaperone policy Maintain a tidy and welcoming reception area, including displays and noticeboards. Register new patients and process patient deductions. Provide clear communication and guidance to patients in line with current practice policies. Administrative Duties Ensure administrative tasks are completed in a timely manner. Manage incoming and outgoing mail, both paper and electronic. Process and action clinical documents via Docman, including coding and patient recalls. Process repeat prescriptions in line with practice protocols. Maintain accurate and up-to-date patient records, including data entry, locating records and re-filing Order and monitor office and clinical supplies, including stationery. Provide support to the clinical and administrative teams (filing, scanning, photocopying, data input). Liaise with EMIS / ICB IT Helpdesk when required. Requests from colleagues are responded to willingly Understand the need for continued training and self-development. Participating in any training programme implemented by the practice. Be aware of security measures within the practice to always ensure patient and staff security.",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1040-26-0004",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1040-26-0004",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

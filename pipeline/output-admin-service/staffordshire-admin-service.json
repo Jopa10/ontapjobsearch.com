@@ -537,31 +537,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "107902379",
-    "title": "Operations Coordinator Facades",
-    "company": "Mitchell Maguire - Agency - Permanent",
-    "location": "Staffordshire",
-    "region": "Staffordshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "24000",
-    "salary_max": "24000",
-    "salary_text": "£24000 per year",
-    "posted_date": "",
-    "description": "Operations Coordinator Facades\n\nJob Title: Operations Coordinator Facades\n\nJob reference Number: -26238\n\nIndustry Sector: Logistics, Logistics Manager, Transport Manager, CPC, Transport, Distribution, Supply, Supplier, Construction, Construction Products, Facades, Warehouse, Warehousing, Dispatch, Drivers, Freight, Packing, Haulage, H&S, Operations, Administration, Procurement\n\nLocation: Newc click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?Y5CHIaMSKAyQBs%2b4eWZhO69TaSPLPO7jv",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Mitchell Maguire",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "nhs-5563411",
     "source": "NHS Jobs",
     "title": "Receptionist",
@@ -577,7 +552,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/L0034-26-3555",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/L0034-26-3555",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5549028",
@@ -595,7 +574,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9301-26-1192",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9301-26-1192",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5549468",
@@ -613,7 +596,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0605-26-0001",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0605-26-0001",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5545061",
@@ -631,7 +618,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9301-26-1177",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9301-26-1177",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5528862",
@@ -649,6 +640,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9301-26-1144",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9301-26-1144",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

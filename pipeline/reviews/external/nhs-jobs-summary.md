@@ -2,15 +2,27 @@
 
 review_date: 2026-08-30
 
-- Open Administrative & Clerical rows reviewed: 2427
+- Open Administrative & Clerical rows reviewed: 2428
 - Auto/remembered selected: 566
 - Selected HC Tier A: 238
 - Selected HC Tier B: 328
-- POSS awaiting decision: 1533
+- POSS awaiting decision: 1534
 - Excluded: 0
 - HARD_PASS: 328
 
 Edit only each `action:` line for POSS rows. Unchanged decisions are restored by the shared decision ledger.
+
+---
+action:
+POSS | NHS Jobs | West Midlands - Birmingham & Solihull | Birmingham, B15 1NT | £32073.00 to £39043.00 | Band 5 Senior Financial Management Assistant
+source_job_id: 5570010
+title: Band 5 Senior Financial Management Assistant
+employer: University Hospitals Birmingham NHS Foundation Trust
+region: West Midlands - Birmingham & Solihull
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C0020-26-1337
+factual_fingerprint: 6bb3070fd44b3df4bcfef70e84c43ec1e416f19d5d2be9583cb10d9c09de616b
+---
 
 ---
 action:

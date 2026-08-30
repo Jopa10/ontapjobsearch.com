@@ -393,6 +393,31 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "1707064",
+    "title": "Technical Helpdesk",
+    "company": "GXO Logistics - Company - Permanent",
+    "location": "Buckinghamshire",
+    "region": "Buckinghamshire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "",
+    "posted_date": "",
+    "description": "Do you thrive on solving problems in fast-moving environments? Do you enjoy digging into technical challenges and finding simple, smart solutions? Do you want a role where no two days are ever the same?\n\nHere at GXO, we are recruiting Technical Helpdesk Support as part of our Lifetime Services Helpdesk team. You'll be at the heart of keeping our clients' automated warehouse solutions running smoothly. You'll provide first-class technical support across software systems, work closely with cross-functional teams, and help ensure our customers receive fast, accurate, and professional resolutions.\n\nThis is a full-time permanent position. You'll be working shifts Monday to Friday 05:30 to 14:00, 13:30 to 22:00, 21:30 to 06:00with 24/7 on-call coverage built into the rota and an overlap for smooth handovers. This opportunity would offer hybrid working, but you will need to be able to commute to Milton Keynes & some of our customers sites on occasions\n\nPay, benefits and more:\n\nWe're looking to offer a salary of £26,000 to£32,000, depending on experience and 25 days annual leave (plus bank holidays). Your benefits package includes a company sponsored pension scheme and private medical cover.\n\nWhat you'll do on a typical day:\n- Providing 2nd-3rd line support for system-related issues, investigating incidents and delivering fixes within SLA\n- Triaging tickets, updating information, and escalating to relevant teams where needed\n- Communicating with customers through phone, email, and support software to deliver clear updates and technical insight\n- Running system monitoring tools, analysing data, and reporting findings\n- Taking ownership of technical problems, applying logic and creativity to keep systems performing at their best\n\nWhat you need to succeed at GXO:\n- Experience in a Technical Support or 2nd line support environment, ideally using ticketing systems\n- Knowledge of SQL, cloud hosting technologies (e.g., Azure), and confidence with WMS/WCS or similar systems\n- Strong communication skills, able to explain complex issues clearly to non-technical audiences\n- A proactive, analytical mindset with high attention to detail and a drive to learn, progress and take ownership\n- A full UK driving licence and willingness to travel, including potential overnight stays when required\n\nWe engineer faster, smarter, leaner supply chains.\n\nGXO is a leading provider of cutting-edge supply chain solutions to the most successful companies in the world. We help our customers manage their goods most efficiently using our technology and services. Our greatest strength is our global team - energetic, innovative people of all experience levels and talents who make GXO a great place to work. GXO is an equal opportunity employer. We celebrate, support and thrive on diversity and are committed to creating an inclusive environment for all employees. We believe that diversity and inclusion in our business is critical to our success as a global company, and we seek to recruit, develop and retain the most talented people from a diverse candidate pool. We are an Armed Forces friendly organisation and Disability Confident Leader as part of the Disability Confident Scheme (GIS) and actively welcome applications from people with disabilities.\n\nThe above statements are intended to describe the general nature and level of work being performed by people assigned to this classification. They are not intended to be construed as an exhaustive list of all responsibilities, duties, and skills required of personnel so classified. All employees may be required to perform duties outside of their normal responsibilities from time to time, as needed. Review GXO's candidate privacy statement",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?31Q%2fsvDzOVZ9OW2BTUhGTyUVzfC0MZbJj",
+    "source": "JobG8",
+    "working_arrangement": "hybrid",
+    "working_arrangement_text": "Hybrid working",
+    "working_arrangement_evidence": "This opportunity would offer hybrid working, but you will need to be able to commute to Milton Keynes & some of our customers sites on occasions Pay, benefits and more: We're looking to offer a salary of £26,000 to£32,000, depending on experience and 25 days annual leave (plus bank holidays).",
+    "advertiser_name": "GXO Logistics",
+    "advertiser_type": "Company",
+    "work_pattern": "Full Time",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
     "job_id": "1710374",
     "title": "Customer Care Coordinator",
     "company": "A.D.S CONSTRUCTION PERSONNEL LTD - Agency - Permanent",
@@ -418,31 +443,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "107880406",
-    "title": "Recruitment Coordinator",
-    "company": "24-7 Recruitment Services - Agency - Temporary",
-    "location": "Buckinghamshire",
-    "region": "Buckinghamshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Temporary",
-    "salary_min": "13.5",
-    "salary_max": "14.5",
-    "salary_text": "£13.5 - £14.5 per hour",
-    "posted_date": "",
-    "description": "Job Title: Multi-Site Recruitment Co-ordinator FTC 12 months\n\nLocation: (Liverpool, Runcorn and Skelmersdale - WA 12 ) Regional travel required across 3 sites Own vehicle required.\n\nSalary: £13.50-14.50 per hour\n\nAbout the Role\n\nWe are seeking an experienced Multi-Site Recruitment Co-ordinator to oversee and drive the operational success of our recruitment contracts across multiple client sites click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?6WDmO0cNttrFsUIAuQY5NtROqhOsbejWa",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "24-7 Recruitment Services",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Hourly",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "nhs-5567129",
     "source": "NHS Jobs",
     "title": "Receptionist - Bank",
@@ -458,7 +458,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/L0034-26-3596",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/L0034-26-3596",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5543958",
@@ -476,7 +480,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3962-26-0008",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3962-26-0008",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5559695",
@@ -494,7 +502,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1790-26-0001",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1790-26-0001",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5558801",
@@ -512,6 +524,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0054-26-0091CHMC",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0054-26-0091CHMC",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

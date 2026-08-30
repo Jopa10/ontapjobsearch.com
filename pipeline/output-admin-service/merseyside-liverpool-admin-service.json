@@ -153,6 +153,31 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "1786775",
+    "title": "Service Desk Analyst",
+    "company": "VIQU IT Recruitment - Agency - Permanent",
+    "location": "Liverpool",
+    "region": "Merseyside - Liverpool",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "",
+    "posted_date": "",
+    "description": "Service Desk Engineer - 3-month contract - Liverpool\n\nMy Legal customer looking for an experienced individual to join a busy and collaborative IT Service Desk, supporting users across the business and ensuring a first-class support experience.\n\nAs a Service Desk Engineer, you'll be the first point of contact for IT support requests, providing timely and effective resolution of a wide range of technical issues. Working as part of a supportive IT team, you'll manage incidents and service requests from initial contact through to resolution, ensuring users receive a professional and positive experience every time.\n\nKey experience required:\n- Experience as a Service desk engineer previously ideally in the legal industry\n- Microsoft 365 administration and support\n- ServiceNow - tickets\n- iManage (preferred)\n- Windows desktop support\n- Active Directory and user administration\n- General hardware, software and peripheral troubleshooting\n- Remote support tools\n\nKey responsibilities:\n- Providing 1st and 2nd line technical support to end users via phone, email and remote support.\n- Logging, managing and resolving incidents and service requests through to completion.\n- Troubleshooting hardware, software and Microsoft 365 related issues.\n- Supporting users across Windows desktop environments and core business applications.\n- Using ServiceNow to manage tickets in line with agreed service levels.\n- Supporting and troubleshooting iManage where required.\n- Escalating more complex issues to senior technical teams when appropriate.\n- Maintaining accurate documentation and updating knowledge articles.\n- Working collaboratively with colleagues across IT to deliver an excellent support service.\n\nThe Service Desk engineer is required onsite, in Liverpool 5 days a week.\n\nApply now to speak with VIQU IT in confidence. Or reach out to Connor Smal via the VIQU IT website.\n\nDo you know someone great? We'll thank you with up to £1,000 if your referral is successful (terms apply).\n\nFor more exciting roles and opportunities like this, please follow us on IT Recruitment.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?kjuUUj3TFp65rPD5d3yEx9MSoQ4QGvvog",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "VIQU IT Recruitment",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
     "job_id": "23643_225428643",
     "title": "Business Support Co-ordinator",
     "company": "Recruitment Services UK - Agency - Permanent",
@@ -218,7 +243,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5035-26-0063",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5035-26-0063",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5558829",
@@ -236,6 +265,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9287-26-1327",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9287-26-1327",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]
