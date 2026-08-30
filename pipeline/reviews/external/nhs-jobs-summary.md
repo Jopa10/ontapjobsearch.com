@@ -2,11 +2,11 @@
 
 review_date: 2026-08-30
 
-- Open Administrative & Clerical rows reviewed: 2428
+- Open Administrative & Clerical rows reviewed: 2427
 - Auto/remembered selected: 566
 - Selected HC Tier A: 238
 - Selected HC Tier B: 328
-- POSS awaiting decision: 1534
+- POSS awaiting decision: 1533
 - Excluded: 0
 - HARD_PASS: 328
 
@@ -442,18 +442,6 @@ region: Bedfordshire
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9418-26-0898
 factual_fingerprint: 97eaa07fdb775e317097b82c91f5042ed3117521a84bffa9977b72adbc76b6e9
----
-
----
-action:
-POSS | NHS Jobs | Bedfordshire | Luton, LU4 0DZ | £25760.00 to £27476.00 | Facilities Helpdesk Co-ordinator
-source_job_id: 5569401
-title: Facilities Helpdesk Co-ordinator
-employer: Bedfordshire Hospitals NHS Foundation Trust
-region: Bedfordshire
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9418-26-0897
-factual_fingerprint: bf8bef78dcb0581ac054772ea6bffc55d7ce1c7e7dac85bfd74cbb61536f95e7
 ---
 
 ---
