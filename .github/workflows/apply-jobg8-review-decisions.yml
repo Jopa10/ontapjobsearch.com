@@ -156,6 +156,9 @@ jobs:
           python -m external_sources.compose_northeast_admin --write
           python -m external_sources.compose_west_yorkshire_admin --write
           python -m external_sources.compose_teaching_vacancies_regional --write
+          # The JobG8 rebuild replaces the combined files. Recompose NHS in this
+          # same transaction so no intermediate main commit drops still-open jobs.
+          python -m external_sources.compose_nhs_admin_daily --write
 
       - name: Enrich service-admin job metadata
         if: steps.slice-register.outputs.admin_service == 'true'
@@ -220,6 +223,9 @@ jobs:
             "pipeline/reviews/jobg8/support-worker-review.csv"
             "pipeline/reviews/jobg8/support-worker-review.md"
             "pipeline/reviews/jobg8/jobg8-exclusion-list.md"
+            "pipeline/reviews/external/nhs-jobs-review.csv"
+            "pipeline/reviews/external/nhs-jobs-summary.md"
+            "pipeline/reviews/external/nhs-jobs-decisions.csv"
           )
 
           if [ -z "$(git status --porcelain -- ${allowed_paths[@]})" ]; then
@@ -240,7 +246,10 @@ jobs:
             $0 != "pipeline/reviews/jobg8/service-admin-review.md" &&
             $0 != "pipeline/reviews/jobg8/support-worker-review.csv" &&
             $0 != "pipeline/reviews/jobg8/support-worker-review.md" &&
-            $0 != "pipeline/reviews/jobg8/jobg8-exclusion-list.md"'; } || true)"
+            $0 != "pipeline/reviews/jobg8/jobg8-exclusion-list.md" &&
+            $0 != "pipeline/reviews/external/nhs-jobs-review.csv" &&
+            $0 != "pipeline/reviews/external/nhs-jobs-summary.md" &&
+            $0 != "pipeline/reviews/external/nhs-jobs-decisions.csv"'; } || true)"
           if [ -n "$unexpected_files" ]; then
             echo "::error::Refusing to commit files outside the JobG8 review-apply allow-list:"
             printf '%s\n' "$unexpected_files"
