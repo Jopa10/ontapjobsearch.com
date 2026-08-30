@@ -42,7 +42,7 @@ _No new or changed human decisions required._
 ## Teaching Vacancies — 19 to review
 
 ---
-action:
+action: select
 POSS | Teaching Vacancies | Essex | Braintree, East of England, CM7 1WY | Scale 3, Point 4 – 5 | Receptionist
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -60,7 +60,7 @@ hub_fingerprint: f6b5a99b3a8eabb860c3eabbe8fa23a486f48b7931c13df53e8d146981ad93a
 ---
 
 ---
-action:
+action: select
 POSS | Teaching Vacancies | Hampshire | Portsmouth, South East, PO1 5PF | TSAT Pay Group 3 pro rata to £23,701 - £27,506 for hours and weeks stated (£26,866 - £31,179 FTE) | Senior Administration Assistant
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -78,7 +78,7 @@ hub_fingerprint: b51ef4500ba7502c994d9f0bd527b01dd86d7c7f108a9b0985450a7a02fc053
 ---
 
 ---
-action:
+action: select
 POSS | Teaching Vacancies | Hertfordshire | Royston, East of England, SG8 5NJ | NJC Cambridgeshire Scale 5 Point 12 - 14 (£28,598 - £29,540 FTE per annum) £12,426.16 - £12,835.47 pro rata, plus holiday pay. | Office Administrator
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -96,7 +96,7 @@ hub_fingerprint: ba718d43711414a6d5ac4c235fa40163fa9d0d440591847c4b0d5994775f830
 ---
 
 ---
-action:
+action: select
 POSS | Teaching Vacancies | Kent | Canterbury, CT1 1NQ | £28,182.00 Annually (FTE) Actual annual salary £ 26057.39 | HR administrator
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -114,7 +114,7 @@ hub_fingerprint: 2cb63b58beb5bae384e9e052e7d9410c3f0dc582b6d8cca6b7a6e00b205fa43
 ---
 
 ---
-action:
+action: select
 POSS | Teaching Vacancies | Lincolnshire | Grimsby, Yorkshire and the Humber, DN31 2ES | £25,185.00 - £25,989.00 Annually (FTE) Grade C Points 4 to 6 (£25,185 to £25,989 Full Time Equivalent) subject to pro rata. The minimum actual pro rata salary per annum for this job starts at £21,758.06. | Administration Officer
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -132,7 +132,7 @@ hub_fingerprint: e460dc3abc1a9d40f396210a6e6bded4ec394c1efd846100517457068114f5e
 ---
 
 ---
-action:
+action: select
 POSS | Teaching Vacancies | Lincolnshire | Spalding, East Midlands, PE11 2EH | £23,973.00 - £26,409.00 Annually (Actual) G5.12-15 £27,254 - £30,024 FTE | HR Administrator
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -150,7 +150,7 @@ hub_fingerprint: 49188d67866c546cc12434263960a78ecc42aedcb4669b54e7c0abc7f608016
 ---
 
 ---
-action:
+action: select
 POSS | Teaching Vacancies | London | Beckenham, London, BR3 1RF | £29,856.00 - £31,611.00 Annually (FTE) | Administration Officer
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -168,7 +168,7 @@ hub_fingerprint: a76df3cd94f8644b3a8afd5a6a516e8fc3af1fb1efb0f23662a69fe147fc373
 ---
 
 ---
-action:
+action: select
 POSS | Teaching Vacancies | London | Borehamwood, East of England, WD6 2DW | £25,583.00 - £25,989.00 Annually (FTE) Hours Required: 8.30am to 3.30pm | Administrator
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -186,7 +186,7 @@ hub_fingerprint: 78a3e99b6bd8cb41fd331d48a203a50e9603a7e272eded8b52a439c26dd5e73
 ---
 
 ---
-action:
+action: select
 POSS | Teaching Vacancies | London | Dagenham, London, RM9 6PH | £25,514.00 Annually (Actual) | Administrative Assistant
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -204,7 +204,7 @@ hub_fingerprint: 2151d7e740021a7a3c2637680e853e574a844c73d52bf6f992dca5ece18de54
 ---
 
 ---
-action:
+action: select
 POSS | Teaching Vacancies | London | Harrow, London, HA2 9AG | £14,166.00 Annually (Actual) | Receptionist & Admin Assistant
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -222,7 +222,7 @@ hub_fingerprint: 713fbd5a3b8f904da63276b96b3ad8cc3e49f91f08e0ef47701ef1a7498c467
 ---
 
 ---
-action:
+action: select
 POSS | Teaching Vacancies | London | London, London, E15 3DN | Scaled 3 (dependent on experience) £25,524 Pro Rata | Administrative Assistant
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -240,7 +240,7 @@ hub_fingerprint: 994387633e5f9b980010b1d7809ea0d46af0b291fdf399e613f120c2b586caf
 ---
 
 ---
-action:
+action: select
 POSS | Teaching Vacancies | London | London, London, SW4 0AJ | £29,805.00 Annually (Actual) Inner London payscale Spine Point 2 | Receptionist / Administrator
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -258,7 +258,7 @@ hub_fingerprint: 93a10592e03ed9d3f693438018eded1145b943920f3a912cde877298ba7ec1f
 ---
 
 ---
-action:
+action: select
 POSS | Teaching Vacancies | London | London, W12 7TF | £20,971.00 - £21,300.00 pro rata (£24,796.00 - £25,185.00 FTE)per annum | Receptionist
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -276,7 +276,7 @@ hub_fingerprint: f856de0d970257841ae088a9953612ef2e88b506f461aa7e0bb31e734152a76
 ---
 
 ---
-action:
+action: select
 POSS | Teaching Vacancies | London | Osterley, London, TW7 5PN | 28,195.00 - 29,852.00 | School Administrator
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -294,7 +294,7 @@ hub_fingerprint: 49f608949386027b12514963c345f9f8a23231c1a6a2e4bc2f5344ca08ca33f
 ---
 
 ---
-action:
+action: select
 POSS | Teaching Vacancies | Nottinghamshire | Nottingham, East Midlands, NG12 2FQ | Redhill Academy Trust Pay Scale, Band 6, Scale point 29 - 32 | House Support Asisstant
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -312,7 +312,7 @@ hub_fingerprint: e629769cd2c378af8217300b0df7063f6a9c15f605d6349ecf35c8a4fdde03f
 ---
 
 ---
-action:
+action: select
 POSS | Teaching Vacancies | Nottinghamshire | Nottingham, NG9 6RZ | £27,709.00 - £29,541.00 Annually (Actual) NJC8-12 | HR Administrator
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -330,7 +330,7 @@ hub_fingerprint: 792a44b1355bb882826eef20df22d3f839aa2537b64125da61f3107956d549c
 ---
 
 ---
-action:
+action: select
 POSS | Teaching Vacancies | Oxfordshire | Oxford, South East, OX3 9WN | £26,824.00 Annually (FTE) Actual annual salary is £12,016 for 19.5 hours per week term time only plus 3 inset days | Office Administrator
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -348,7 +348,7 @@ hub_fingerprint: 5ac2163c06159d1e25b77086c07e93aabb73a2d59fba3834fb30daa93020631
 ---
 
 ---
-action:
+action: select
 POSS | Teaching Vacancies | Wiltshire | Chippenham, South West, SN14 0QT | £29,064.00 - £31,022.00 Annually (FTE) Actual Salary: £25,640 - £27,368 per annum | Admin Officer
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -366,7 +366,7 @@ hub_fingerprint: b26a1f91da9bd30669a73843202f0f910517397544fd38db19cc8ca785f62af
 ---
 
 ---
-action:
+action: select
 POSS | Teaching Vacancies | Yorkshire - West | Leeds, Yorkshire and the Humber, LS19 6LX | £21,870.00 - £22,213.00 Annually (Actual) Full Time, Term time only plus 10 days | Administrator
 source_key: teaching_vacancies
 source: Teaching Vacancies
