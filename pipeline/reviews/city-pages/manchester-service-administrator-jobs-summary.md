@@ -4,7 +4,7 @@
 - Live route: `/manchester/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 24
+- Effective included jobs: 27
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 24
+- automatic include: 27
 - automatic review: 0
 - automatic exclude: 3
-- effective include: 24
+- effective include: 27
 - effective review: 0
 - effective exclude: 3
 
-## INCLUDE (24)
+## INCLUDE (27)
 
 ---
 action: 
@@ -172,6 +172,18 @@ reason: Approved conservative Manchester launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: IT Administrator
+company: Express Solicitors - Agency - Permanent
+location: Manchester
+source: JobG8
+job_id: jobg8-1701166
+reason: Approved conservative Manchester launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Lettings Administrator
 company: The People Pod - Agency - Permanent
 location: Manchester
@@ -208,11 +220,35 @@ reason: Approved conservative Manchester launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Operations Coordinator
+company: phs Group - Company - Permanent
+location: Manchester
+source: JobG8
+job_id: jobg8-107896400
+reason: Approved conservative Manchester launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Property Management Administrator
 company: Aspire Recruitment - Agency - Temporary
 location: Manchester
 source: JobG8
 job_id: jobg8-23643_225457567
+reason: Approved conservative Manchester launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Receptionist
+company: Florence House Medical Practice
+location: Manchester, M11 1JG
+source: NHS Jobs
+job_id: nhs-5530819
 reason: Approved conservative Manchester launch catchment.
 ---
 

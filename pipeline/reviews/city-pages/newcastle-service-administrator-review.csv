@@ -30,7 +30,6 @@ review,jobg8-23643_225444106,Administrator Gateshead - Temp to Perm,Office Angel
 review,jobg8-23643_225445993,Business Administrator,Spire Healthcare - Company - Permanent,Tyne And Wear,JobG8,review,review,Broad location; review before city inclusion.,tyne and wear,newcastle-service-administrator
 review,jobg8-23643_225494451,Customer Experience Coordinator,Linear Recruitment Ltd - Agency - Contract,Tyne And Wear,JobG8,review,review,Broad location; review before city inclusion.,tyne and wear,newcastle-service-administrator
 review,jobg8-23643_225474293,Customer Service & Complaints Administrator - Team Valley,Office Angels - Agency - Temporary,Tyne And Wear,JobG8,review,review,Broad location; review before city inclusion.,tyne and wear,newcastle-service-administrator
-review,jobg8-107776158,Finance Assistant,National Learning Group - Agency - Permanent,Tyne And Wear,JobG8,review,review,Broad location; review before city inclusion.,tyne and wear,newcastle-service-administrator
 review,jobg8-23643_225515748,Full Time Administrator - Temp to Perm - Gosforth,Office Angels - Agency - Temporary,Tyne And Wear,JobG8,review,review,Broad location; review before city inclusion.,tyne and wear,newcastle-service-administrator
 review,vonne-173310,Health & Wellbeing Projects Support Officer,VONNE,Tyne and Wear,VONNE,review,review,Broad location; review before city inclusion.,tyne and wear,newcastle-service-administrator
 review,vonne-173358,Housing Support Officer,Handcrafted,Flexible / Regionwide,VONNE,review,review,Review physical workplace.,regionwide,newcastle-service-administrator
@@ -63,5 +62,6 @@ exclude,nejobs-300972,PA Support Officer,Darlington Borough Council,"Town Hall, 
 exclude,nhs-5544630,Receptionist,Havelock Grange Practice,"Hartlepool, TS24 7PW",NHS Jobs,exclude,exclude,Outside Newcastle catchment.,hartlepool,newcastle-service-administrator
 exclude,nejobs-256126,School Administrator,First Class Supply & Training,Sunderland,NEJobs,exclude,exclude,Separate employment market.,sunderland,newcastle-service-administrator
 exclude,nejobs-256127,School Administrator,First Class Supply & Training,Durham,NEJobs,exclude,exclude,Separate employment market.,durham,newcastle-service-administrator
+exclude,jobg8-1720386,Service Desk Analyst,Sellick Partnership - Agency - Permanent,County Durham,JobG8,exclude,exclude,Separate employment market.,durham,newcastle-service-administrator
 exclude,nejobs-300579,Technical and Support Officers,Durham County Council,"Council Offices, Green Lane, Spennymoor",NEJobs,exclude,exclude,Separate employment market.,context:durham,newcastle-service-administrator
 exclude,jobg8-23643_225523621,Temporary Data Administrator,Hays Business Support - Agency - Temporary,County Durham,JobG8,exclude,exclude,Separate employment market.,durham,newcastle-service-administrator

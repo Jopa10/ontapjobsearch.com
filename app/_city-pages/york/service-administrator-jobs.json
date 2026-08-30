@@ -97,7 +97,14 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Customer enquiries",
+      "Records administration",
+      "Systems administration",
+      "Document preparation",
+      "Reporting"
+    ]
   },
   {
     "job_id": "107833079",
@@ -120,31 +127,6 @@
     "working_arrangement_evidence": "",
     "advertiser_name": "Capital Outsourcing Group Limited",
     "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
-  },
-  {
-    "job_id": "107836541",
-    "title": "Service Advisor - Ford",
-    "company": "Stoneacre Motor Group. - Company - Permanent",
-    "location": "York",
-    "region": "Yorkshire - North",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "",
-    "posted_date": "2026-08-18",
-    "description": "About the role\n\nWe are excited to be recruiting for a Service Advisor. This is an unrivalled opportunity to join one of the UK's fastest growing motor groups.\n\nA fantastic opportunity to take the next step into your customer service development and become the best of the best.\n\nYou will be responsible for delivering the highest level of customer experience, managing the fast flow of information between click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?d1vRzEYF65TE1Bdp%2b8unmvcAU31CUi%2bwx",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Stoneacre Motor Group.",
-    "advertiser_type": "Company",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
     "posted_date_basis": "ontap_first_published"

@@ -138,6 +138,18 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
+title: Administrator - Start next week
+company: Hartley Resourcing - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-1816335
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Attendance Officer
 company: Ringwood School Academy
 location: Ringwood
@@ -155,18 +167,6 @@ company: The Cinnamon Care Collection - Company - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225524482
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Care Coordinator
-company: Nurse Plus - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-107824141
 reason: Broad location; review before city inclusion.
 ---
 
@@ -270,11 +270,11 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Housing Management Coordinator
-company: Home Group Limited - Agency - Permanent
+title: Housing Repairs Administrator
+company: Thorngate Churcher Trust - Agency - Permanent
 location: Hampshire
 source: JobG8
-job_id: jobg8-107887825
+job_id: jobg8-23643_225537561
 reason: Broad location; review before city inclusion.
 ---
 
@@ -318,6 +318,18 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
+title: IT Administrator
+company: Hartley Resourcing - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-1809424
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Junior Administrator
 company: Adecco - Agency - Temporary
 location: Hampshire
@@ -330,35 +342,11 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Lifestyle Coordinator
-company: Care UK - Company - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-107605314
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Medical Affairs Coordinator (IIR)
 company: Entrust Resource Solutions - Agency - Temporary
 location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225474596
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Mental Health Support Coordinator
-company: Home Group Limited - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-107898278
 reason: Broad location; review before city inclusion.
 ---
 
@@ -395,6 +383,18 @@ company: Wild Recruitment - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225508090
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Operations Assistant
+company: Matchtech - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-23643_225538632
 reason: Broad location; review before city inclusion.
 ---
 
@@ -630,12 +630,12 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Support Coordinator
-company: NFP People - Agency - Contract
-location: Isle of Wight
+title: Service Desk Analyst
+company: Nicholas Howard - Agency - Permanent
+location: Hampshire
 source: JobG8
-job_id: jobg8-107904656
-reason: No approved Southampton catchment rule matched; local review required.
+job_id: jobg8-1704543
+reason: Broad location; review before city inclusion.
 ---
 
 ---

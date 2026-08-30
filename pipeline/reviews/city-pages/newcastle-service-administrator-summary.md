@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 23
-- automatic review: 24
-- automatic exclude: 19
+- automatic review: 23
+- automatic exclude: 20
 - effective include: 23
-- effective review: 24
-- effective exclude: 19
+- effective review: 23
+- effective exclude: 20
 
 ## INCLUDE (23)
 
@@ -300,7 +300,7 @@ job_id: nejobs-300777
 reason: Approved Newcastle catchment.
 ---
 
-## REVIEW (24)
+## REVIEW (23)
 
 ---
 action: 
@@ -395,18 +395,6 @@ company: Office Angels - Agency - Temporary
 location: Tyne And Wear
 source: JobG8
 job_id: jobg8-23643_225474293
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Finance Assistant
-company: National Learning Group - Agency - Permanent
-location: Tyne And Wear
-source: JobG8
-job_id: jobg8-107776158
 reason: Broad location; review before city inclusion.
 ---
 
@@ -590,7 +578,7 @@ job_id: nejobs-301243
 reason: No approved Newcastle catchment rule matched; local review required.
 ---
 
-## EXCLUDE (19)
+## EXCLUDE (20)
 
 ---
 action: 
@@ -793,6 +781,18 @@ company: First Class Supply & Training
 location: Durham
 source: NEJobs
 job_id: nejobs-256127
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Service Desk Analyst
+company: Sellick Partnership - Agency - Permanent
+location: County Durham
+source: JobG8
+job_id: jobg8-1720386
 reason: Separate employment market.
 ---
 

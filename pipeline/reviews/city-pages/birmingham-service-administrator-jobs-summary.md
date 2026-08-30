@@ -4,7 +4,7 @@
 - Live route: `/birmingham/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 22
+- Effective included jobs: 25
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,26 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 22
+- automatic include: 25
 - automatic review: 3
-- automatic exclude: 2
-- effective include: 22
+- automatic exclude: 4
+- effective include: 25
 - effective review: 3
-- effective exclude: 2
+- effective exclude: 4
 
-## INCLUDE (22)
+## INCLUDE (25)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Admin Assistant
+company: Yenton Primary School
+location: Birmingham
+source: Teaching Vacancies
+job_id: teaching-vacancies-admin-assistant-10329641-0e0b-41f7-ba37-1959636d06d8
+reason: Approved conservative Birmingham launch catchment.
+---
 
 ---
 action: 
@@ -160,6 +172,18 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Executive Assistant
+company: Bell Cornwall Recruitment - Agency - Permanent
+location: Birmingham
+source: JobG8
+job_id: jobg8-23643_225476682
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Finance Assistant
 company: Gleeson Recruitment Group - Agency - Permanent
 location: Birmingham
@@ -288,6 +312,18 @@ job_id: teaching-vacancies-senior-administrator-hr-maternity-cover
 reason: Approved conservative Birmingham launch catchment.
 ---
 
+---
+action: 
+decision: include
+automatic_decision: include
+title: Service Desk Analyst
+company: Lorien - Agency - Permanent
+location: Birmingham
+source: JobG8
+job_id: jobg8-1706236
+reason: Approved conservative Birmingham launch catchment.
+---
+
 ## REVIEW (3)
 
 ---
@@ -326,7 +362,7 @@ job_id: jobg8-23643_225317543
 reason: No approved Birmingham catchment rule matched; local review required.
 ---
 
-## EXCLUDE (2)
+## EXCLUDE (4)
 
 ---
 action: 
@@ -344,10 +380,34 @@ reason: Separate exact-city market at launch.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Learning and Development Coordinator
+company: Whale Tankers - Agency - Permanent
+location: Solihull
+source: JobG8
+job_id: jobg8-107893505
+reason: Separate exact-city market at launch.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Receptionist
 company: Tanworth in Arden Medical Practice
 location: Solihull, B94 5DY
 source: NHS Jobs
 job_id: nhs-5530420
+reason: Separate exact-city market at launch.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Senior Receptionist
+company: GPS Healthcare
+location: Solihull, B90 4DD
+source: NHS Jobs
+job_id: nhs-5567778
 reason: Separate exact-city market at launch.
 ---

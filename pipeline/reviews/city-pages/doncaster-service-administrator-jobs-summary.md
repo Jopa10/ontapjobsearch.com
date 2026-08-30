@@ -4,7 +4,7 @@
 - Live route: `/doncaster/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 4
+- Effective included jobs: 5
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 4
+- automatic include: 5
 - automatic review: 4
-- automatic exclude: 23
-- effective include: 4
+- automatic exclude: 26
+- effective include: 5
 - effective review: 4
-- effective exclude: 23
+- effective exclude: 26
 
-## INCLUDE (4)
+## INCLUDE (5)
 
 ---
 action: 
@@ -69,6 +69,18 @@ company: Tickhill and Colliery Medical Practice
 location: Doncaster, DN11 9NA, Doncaster, DN11 8JT
 source: NHS Jobs
 job_id: nhs-5554992
+reason: Approved Doncaster catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Service Desk Analyst
+company: Identify Solutions - Agency - Permanent
+location: Doncaster
+source: JobG8
+job_id: jobg8-1708394
 reason: Approved Doncaster catchment.
 ---
 
@@ -122,7 +134,7 @@ job_id: jobg8-23643_225516072
 reason: No approved Doncaster catchment rule matched; local review required.
 ---
 
-## EXCLUDE (23)
+## EXCLUDE (26)
 
 ---
 action: 
@@ -181,6 +193,18 @@ company: Anonymous - Agency - Contract
 location: Barnsley
 source: JobG8
 job_id: jobg8-23643_225457187
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Business Support Officer – Attendance
+company: King Edward VII School
+location: Sheffield
+source: Teaching Vacancies
+job_id: teaching-vacancies-business-support-officer-attendance-dc9edb4f-b36d-4bc3-be46-6508d1a2b957
 reason: Separate employment market.
 ---
 
@@ -321,6 +345,18 @@ action:
 decision: exclude
 automatic_decision: exclude
 title: Receptionist
+company: Hollygreen Practice
+location: Rotherham, S63 9EH, Thurnscoe, s63 0LT, BARNSLEY, S72 0EJ
+source: NHS Jobs
+job_id: nhs-5544481
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Receptionist
 company: Sheffield Health Partnership University NHS Foundation Trust
 location: Sheffield, S11 9BJ
 source: NHS Jobs
@@ -397,5 +433,17 @@ company: Aston Academy
 location: Sheffield
 source: Teaching Vacancies
 job_id: teaching-vacancies-send-administrator-aston-academy-sheffield-south-yorkshire
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Service Desk Analyst
+company: Venn Group - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-1807172
 reason: Separate employment market.
 ---

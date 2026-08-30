@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 10
 - automatic review: 7
-- automatic exclude: 25
+- automatic exclude: 23
 - effective include: 10
 - effective review: 7
-- effective exclude: 25
+- effective exclude: 23
 
 ## INCLUDE (10)
 
@@ -230,7 +230,19 @@ job_id: teaching-vacancies-sixth-form-administrator-team-leader
 reason: No approved Oxford catchment rule matched; local review required.
 ---
 
-## EXCLUDE (25)
+## EXCLUDE (23)
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Accounts Administrator
+company: Flat Fee Recruiter - Agency - Permanent
+location: Oxfordshire
+source: JobG8
+job_id: jobg8-107910649
+reason: Broad county location; not Oxford-city evidence.
+---
 
 ---
 action: 
@@ -332,18 +344,6 @@ reason: Broad county location; not Oxford-city evidence.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Ecommerce Coordinator
-company: GXO Logistics - Company - Permanent
-location: Oxfordshire
-source: JobG8
-job_id: jobg8-107860928
-reason: Broad county location; not Oxford-city evidence.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Finance Assistant
 company: Bucks & Berks Recruitment PLC - Agency - Temporary
 location: Oxfordshire
@@ -380,23 +380,11 @@ reason: Broad county location; not Oxford-city evidence.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Housing Solutions - Accommodation Coordinator
-company: Publica Group Ltd - Agency - Permanent
+title: IT Service Desk Apprentice
+company: QA - Agency - Permanent
 location: Oxfordshire
 source: JobG8
-job_id: jobg8-107876963
-reason: Broad county location; not Oxford-city evidence.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Lifestyle Coordinator
-company: Care UK - Company - Permanent
-location: Oxfordshire
-source: JobG8
-job_id: jobg8-107723275
+job_id: jobg8-1706384
 reason: Broad county location; not Oxford-city evidence.
 ---
 
@@ -469,18 +457,6 @@ company: DJ Doors - Agency - Permanent
 location: Oxfordshire
 source: JobG8
 job_id: jobg8-23643_225476620
-reason: Broad county location; not Oxford-city evidence.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Support Coordinator
-company: Creative Support - Agency - Permanent
-location: Oxfordshire
-source: JobG8
-job_id: jobg8-107896166
 reason: Broad county location; not Oxford-city evidence.
 ---
 

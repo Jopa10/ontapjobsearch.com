@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 13
 - automatic review: 6
-- automatic exclude: 19
+- automatic exclude: 18
 - effective include: 13
 - effective review: 6
-- effective exclude: 19
+- effective exclude: 18
 
 ## INCLUDE (13)
 
@@ -160,11 +160,11 @@ reason: Approved conservative Peterborough launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: REO Co-ordinator
-company: McCain Foods (GB) Ltd - Agency - Permanent
+title: Sales Admin Coordinator
+company: Infinity Recruitment Consultancy Limited - Agency - Permanent
 location: Peterborough
 source: JobG8
-job_id: jobg8-107812794
+job_id: jobg8-23643_225406910
 reason: Approved conservative Peterborough launch catchment.
 ---
 
@@ -172,11 +172,11 @@ reason: Approved conservative Peterborough launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Sales Admin Coordinator
-company: Infinity Recruitment Consultancy Limited - Agency - Permanent
+title: Service Desk Analyst (Romanian Speaking)
+company: INTEC SELECT LIMITED - Agency - Permanent
 location: Peterborough
 source: JobG8
-job_id: jobg8-23643_225406910
+job_id: jobg8-1710347
 reason: Approved conservative Peterborough launch catchment.
 ---
 
@@ -254,7 +254,7 @@ job_id: jobg8-23643_225519683
 reason: No approved Peterborough catchment rule matched; local review required.
 ---
 
-## EXCLUDE (19)
+## EXCLUDE (18)
 
 ---
 action: 
@@ -361,18 +361,6 @@ company: Cambridge University Hospital NHS Foundation Trust
 location: Cambridge, CB2 9LG
 source: NHS Jobs
 job_id: nhs-5547956
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Marketing & Communications Officer
-company: Meridian Trust
-location: Huntingdon
-source: Teaching Vacancies
-job_id: teaching-vacancies-marketing-communications-officer-2a432f35-1c7d-4c5e-90a3-e035ce925749
 reason: Separate employment market.
 ---
 

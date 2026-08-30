@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 5
-- automatic review: 28
+- automatic review: 27
 - automatic exclude: 4
 - effective include: 5
-- effective review: 28
+- effective review: 27
 - effective exclude: 4
 
 ## INCLUDE (5)
@@ -84,7 +84,7 @@ job_id: nhs-5548209
 reason: Approved Brighton & Hove catchment.
 ---
 
-## REVIEW (28)
+## REVIEW (27)
 
 ---
 action: 
@@ -275,18 +275,6 @@ company: AWD Online - Agency - Contract
 location: Sussex
 source: JobG8
 job_id: jobg8-107876491
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Pallex Operations Planner
-company: Churchill Freight Services Ltd - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-107805697
 reason: Broad location; review before city inclusion.
 ---
 

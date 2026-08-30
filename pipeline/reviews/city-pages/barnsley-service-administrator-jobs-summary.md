@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 2
 - automatic review: 4
-- automatic exclude: 25
+- automatic exclude: 29
 - effective include: 2
 - effective review: 4
-- effective exclude: 25
+- effective exclude: 29
 
 ## INCLUDE (2)
 
@@ -98,7 +98,7 @@ job_id: jobg8-23643_225516072
 reason: No approved Barnsley catchment rule matched; local review required.
 ---
 
-## EXCLUDE (25)
+## EXCLUDE (29)
 
 ---
 action: 
@@ -157,6 +157,18 @@ company: Sheffield Teaching Hospitals NHS Foundation Trust
 location: Sheffield, S2 3QE
 source: NHS Jobs
 job_id: nhs-5565689
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Business Support Officer – Attendance
+company: King Edward VII School
+location: Sheffield
+source: Teaching Vacancies
+job_id: teaching-vacancies-business-support-officer-attendance-dc9edb4f-b36d-4bc3-be46-6508d1a2b957
 reason: Separate employment market.
 ---
 
@@ -297,6 +309,18 @@ action:
 decision: exclude
 automatic_decision: exclude
 title: Receptionist
+company: Hollygreen Practice
+location: Rotherham, S63 9EH, Thurnscoe, s63 0LT, BARNSLEY, S72 0EJ
+source: NHS Jobs
+job_id: nhs-5544481
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Receptionist
 company: Sheffield Health Partnership University NHS Foundation Trust
 location: Sheffield, S11 9BJ
 source: NHS Jobs
@@ -397,5 +421,29 @@ company: Aston Academy
 location: Sheffield
 source: Teaching Vacancies
 job_id: teaching-vacancies-send-administrator-aston-academy-sheffield-south-yorkshire
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Service Desk Analyst
+company: Identify Solutions - Agency - Permanent
+location: Doncaster
+source: JobG8
+job_id: jobg8-1708394
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Service Desk Analyst
+company: Venn Group - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-1807172
 reason: Separate employment market.
 ---
