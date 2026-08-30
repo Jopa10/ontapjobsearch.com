@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 8
 - automatic review: 5
-- automatic exclude: 30
+- automatic exclude: 32
 - effective include: 8
 - effective review: 5
-- effective exclude: 30
+- effective exclude: 32
 
 ## INCLUDE (8)
 
@@ -182,7 +182,7 @@ job_id: nhs-5551474
 reason: No approved Bradford catchment rule matched; local review required.
 ---
 
-## EXCLUDE (30)
+## EXCLUDE (32)
 
 ---
 action: 
@@ -333,6 +333,18 @@ action:
 decision: exclude
 automatic_decision: exclude
 title: HR Administrator
+company: Akari Care Limited
+location: Leeds, LS11 5DZ
+source: NHS Jobs
+job_id: nhs-5561629
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: HR Administrator
 company: Lucy Walker Recruitment - Agency - Temporary
 location: Leeds
 source: JobG8
@@ -397,6 +409,18 @@ company: Spectrum Community Health CIC
 location: Wakefield, WF1 5RH
 source: NHS Jobs
 job_id: nhs-5539626
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Personal Assistant
+company: AM Global - Agency - Permanent
+location: Huddersfield
+source: JobG8
+job_id: jobg8-23643_225511013
 reason: Separate employment market.
 ---
 

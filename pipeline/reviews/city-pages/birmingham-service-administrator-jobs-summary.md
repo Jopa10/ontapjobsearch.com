@@ -4,7 +4,7 @@
 - Live route: `/birmingham/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 21
+- Effective included jobs: 22
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 21
+- automatic include: 22
 - automatic review: 3
 - automatic exclude: 2
-- effective include: 21
+- effective include: 22
 - effective review: 3
 - effective exclude: 2
 
-## INCLUDE (21)
+## INCLUDE (22)
 
 ---
 action: 
@@ -201,6 +201,18 @@ company: ST Selection - Agency - Permanent
 location: Birmingham
 source: JobG8
 job_id: jobg8-23643_225493038
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Reception - Canon Birmingham
+company: Office Angels - Agency - Temporary
+location: Birmingham
+source: JobG8
+job_id: jobg8-23643_225451094
 reason: Approved conservative Birmingham launch catchment.
 ---
 

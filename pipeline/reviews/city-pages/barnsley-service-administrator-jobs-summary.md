@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 2
 - automatic review: 4
-- automatic exclude: 24
+- automatic exclude: 25
 - effective include: 2
 - effective review: 4
-- effective exclude: 24
+- effective exclude: 25
 
 ## INCLUDE (2)
 
@@ -98,7 +98,7 @@ job_id: jobg8-23643_225516072
 reason: No approved Barnsley catchment rule matched; local review required.
 ---
 
-## EXCLUDE (24)
+## EXCLUDE (25)
 
 ---
 action: 
@@ -265,6 +265,18 @@ company: Sue Ross Recruitment Ltd - Agency - Permanent
 location: Sheffield
 source: JobG8
 job_id: jobg8-23643_225522912
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Production Administrator
+company: Austin Banks - Agency - Permanent
+location: Doncaster
+source: JobG8
+job_id: jobg8-23643_225515295
 reason: Separate employment market.
 ---
 

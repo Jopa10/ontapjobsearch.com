@@ -4,7 +4,7 @@
 - Live route: `/newcastle/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 22
+- Effective included jobs: 23
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 22
-- automatic review: 23
-- automatic exclude: 18
-- effective include: 22
-- effective review: 23
-- effective exclude: 18
+- automatic include: 23
+- automatic review: 24
+- automatic exclude: 19
+- effective include: 23
+- effective review: 24
+- effective exclude: 19
 
-## INCLUDE (22)
+## INCLUDE (23)
 
 ---
 action: 
@@ -244,6 +244,18 @@ reason: Approved Newcastle catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Production Administrator
+company: KPI Recruiting - Agency - Permanent
+location: Newcastle
+source: JobG8
+job_id: jobg8-23643_225453582
+reason: Approved Newcastle catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: School Administrator
 company: First Class Supply & Training
 location: North Tyneside
@@ -288,7 +300,7 @@ job_id: nejobs-300777
 reason: Approved Newcastle catchment.
 ---
 
-## REVIEW (23)
+## REVIEW (24)
 
 ---
 action: 
@@ -474,6 +486,18 @@ reason: No approved Newcastle catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Sales Order Processor (Hybrid)
+company: Ernest Gordon Recruitment Limited - Agency - Permanent
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-23643_225477938
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: School Administrator
 company: First Class Supply & Training
 location: Northumberland
@@ -566,7 +590,7 @@ job_id: nejobs-301243
 reason: No approved Newcastle catchment rule matched; local review required.
 ---
 
-## EXCLUDE (18)
+## EXCLUDE (19)
 
 ---
 action: 
@@ -685,6 +709,18 @@ company: Connect Multi-Academy Trust
 location: County Durham
 source: NEJobs
 job_id: nejobs-300955
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Medical Receptionist
+company: Claypath and University Medical Practice
+location: Durham, DH1 1QW, DURHAM, DH1 3JX
+source: NHS Jobs
+job_id: nhs-5547933
 reason: Separate employment market.
 ---
 

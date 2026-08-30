@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 18
 - automatic review: 4
-- automatic exclude: 8
+- automatic exclude: 9
 - effective include: 18
 - effective review: 4
-- effective exclude: 8
+- effective exclude: 9
 
 ## INCLUDE (18)
 
@@ -290,7 +290,7 @@ job_id: jobg8-23643_225516072
 reason: No approved Sheffield catchment rule matched; local review required.
 ---
 
-## EXCLUDE (8)
+## EXCLUDE (9)
 
 ---
 action: 
@@ -349,6 +349,18 @@ company: Gi Group - Agency - Permanent
 location: Barnsley
 source: JobG8
 job_id: jobg8-23643_225475228
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Production Administrator
+company: Austin Banks - Agency - Permanent
+location: Doncaster
+source: JobG8
+job_id: jobg8-23643_225515295
 reason: Separate employment market.
 ---
 

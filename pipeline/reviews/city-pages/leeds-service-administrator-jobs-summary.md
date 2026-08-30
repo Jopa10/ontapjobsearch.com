@@ -4,7 +4,7 @@
 - Live route: `/leeds/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 16
+- Effective included jobs: 17
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 16
+- automatic include: 17
 - automatic review: 6
-- automatic exclude: 21
-- effective include: 16
+- automatic exclude: 22
+- effective include: 17
 - effective review: 6
-- effective exclude: 21
+- effective exclude: 22
 
-## INCLUDE (16)
+## INCLUDE (17)
 
 ---
 action: 
@@ -129,6 +129,18 @@ company: CSS - Agency - Contract
 location: Leeds
 source: JobG8
 job_id: jobg8-23643_224689396
+reason: Approved Leeds catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: HR Administrator
+company: Akari Care Limited
+location: Leeds, LS11 5DZ
+source: NHS Jobs
+job_id: nhs-5561629
 reason: Approved Leeds catchment.
 ---
 
@@ -290,7 +302,7 @@ job_id: jobg8-23643_225445220
 reason: No approved Leeds catchment rule matched; local review required.
 ---
 
-## EXCLUDE (21)
+## EXCLUDE (22)
 
 ---
 action: 
@@ -397,6 +409,18 @@ company: Spectrum Community Health CIC
 location: Wakefield, WF1 5RH
 source: NHS Jobs
 job_id: nhs-5539626
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Personal Assistant
+company: AM Global - Agency - Permanent
+location: Huddersfield
+source: JobG8
+job_id: jobg8-23643_225511013
 reason: Separate employment market.
 ---
 

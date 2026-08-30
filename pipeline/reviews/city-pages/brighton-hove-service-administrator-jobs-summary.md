@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 5
-- automatic review: 26
+- automatic review: 28
 - automatic exclude: 4
 - effective include: 5
-- effective review: 26
+- effective review: 28
 - effective exclude: 4
 
 ## INCLUDE (5)
@@ -84,7 +84,7 @@ job_id: nhs-5548209
 reason: Approved Brighton & Hove catchment.
 ---
 
-## REVIEW (26)
+## REVIEW (28)
 
 ---
 action: 
@@ -107,6 +107,18 @@ company: CBSbutler Holdings Limited trading as CBSbutler - Agency - Temporary
 location: Sussex
 source: JobG8
 job_id: jobg8-23643_225460713
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: Lloyd Recruitment - East Grinstead - Agency - Permanent
+location: Sussex
+source: JobG8
+job_id: jobg8-23643_225547434
 reason: Broad location; review before city inclusion.
 ---
 
@@ -287,6 +299,18 @@ company: First Recruitment Services - Agency - Permanent
 location: Sussex
 source: JobG8
 job_id: jobg8-23643_225283461
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Personal Assistant
+company: Guidant Global - Agency - Contract
+location: Sussex
+source: JobG8
+job_id: jobg8-23643_225479087
 reason: Broad location; review before city inclusion.
 ---
 

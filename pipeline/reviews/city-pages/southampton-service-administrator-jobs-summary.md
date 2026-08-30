@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 5
-- automatic review: 43
-- automatic exclude: 9
+- automatic review: 48
+- automatic exclude: 10
 - effective include: 5
-- effective review: 43
-- effective exclude: 9
+- effective review: 48
+- effective exclude: 10
 
 ## INCLUDE (5)
 
@@ -84,7 +84,7 @@ job_id: teaching-vacancies-receptionist-ff80cc91-b028-4603-910d-80547a4ad86e
 reason: Approved Southampton catchment.
 ---
 
-## REVIEW (43)
+## REVIEW (48)
 
 ---
 action: 
@@ -414,6 +414,30 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
+title: Operations Officer - £27k-£30k - REMOTE
+company: Office Angels - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-23643_225459533
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Personal Assistant
+company: ADS Group Ltd - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-23643_225460894
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Planner
 company: Dynamite Recruitment - Agency - Permanent
 location: Hampshire
@@ -450,6 +474,30 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
+title: Reception - Maternity Cover
+company: Berry Recruitment - Agency - Contract
+location: Hampshire
+source: JobG8
+job_id: jobg8-23643_225459368
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Reception Admin £28k! Full time & Part time available
+company: Office Angels - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-23643_225493402
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Receptionist - Part Time
 company: Office Angels - Agency - Permanent
 location: Hampshire
@@ -467,6 +515,18 @@ company: Invictus Group - Agency - Contract
 location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225452921
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Sales Admin - Global Company! £27k-£30k
+company: Office Angels - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-23643_225450866
 reason: Broad location; review before city inclusion.
 ---
 
@@ -602,7 +662,7 @@ job_id: jobg8-23643_225472585
 reason: Broad location; review before city inclusion.
 ---
 
-## EXCLUDE (9)
+## EXCLUDE (10)
 
 ---
 action: 
@@ -661,6 +721,18 @@ company: The Portsmouth Academy
 location: Portsmouth
 source: Teaching Vacancies
 job_id: teaching-vacancies-senior-administration-assistant-the-portsmouth-academy
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Single Point of Access Administrator
+company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
+location: Fareham, PO17 6AR
+source: NHS Jobs
+job_id: nhs-5553368
 reason: Separate employment market.
 ---
 
