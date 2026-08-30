@@ -1,24 +1,23 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-08-28T12:31:04+01:00",
+  "generated_at": "2026-08-30T18:31:21+01:00",
   "source": "Teaching Vacancies",
   "region": "Buckinghamshire",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-08-28",
-  "review_fingerprint": "d52083a029d486d980e6530e95676a8595a01783794fec261b6465d5e88995da",
-  "routing_manifest_sha256": "317da4c3580a017af1ca5a40549214600dbbe16fe90e5315b920822a2f47f1ee",
-  "review_csv_sha256": "9f6c4e1206d0003228acd7b92c780dd4def7c0c871ac07b04bd28f4b93be59b1",
-  "summary_md_sha256": "259296c364f2a3e2deaefa4c0d00bc195bdbfe4f8ff07d17e5c1c70f3fa49bf4",
-  "approved_snapshot_sha256": "051b5bd0966dddc04a1c74f247a737f79f7820758d449e0905ff9e409051315d",
-  "approved_rows": 7,
+  "review_date": "2026-08-30",
+  "review_fingerprint": "81bd40cef35e5c72e3d4539010cfd232f7db8bf654e3787af542a26a5f9c5658",
+  "routing_manifest_sha256": "eb6bef78d15e154b4b783b6172d6a6ca6bdd0bb4b53a2f803a298e90ed30ff0e",
+  "review_csv_sha256": "7bb3b6fd27a06a3aa52bfc13d7391c55469bf2a6d45b173d5778aec6975d000d",
+  "summary_md_sha256": "759b02ef6f21adc2bb83bdcdc07b25d5a5970cb00b3a4d22aee8189b5e37cf7a",
+  "approved_snapshot_sha256": "b22b1bdd9e7bb95904eaa6f434c93bf42835353a546730256649c67619cbb892",
+  "approved_rows": 6,
   "approved_job_ids": [
-    "teaching-vacancies-academy-administrator-chepping-view-primary-academy",
     "teaching-vacancies-hr-administrator-glebe-farm-school-milton-keynes-buckinghamshire",
-    "teaching-vacancies-pa-to-headteacher-holmer-green-senior-school",
     "teaching-vacancies-attendance-officer-af35235c-b4c2-4ef0-9706-890c839e4f10",
     "teaching-vacancies-office-administrator-sir-william-ramsay-school-high-wycombe-buckinghamshire",
     "teaching-vacancies-receptionist-and-faculty-support-assistant",
-    "teaching-vacancies-attendance-administrator-william-harding-school-aylesbury-buckinghamshire"
+    "teaching-vacancies-attendance-administrator-william-harding-school-aylesbury-buckinghamshire",
+    "teaching-vacancies-examinations-officer-aeb29f97-ce81-41ec-8b38-81ed01e3315f"
   ]
 }

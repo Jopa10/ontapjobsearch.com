@@ -22,9 +22,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Kingsmead Academy",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -50,9 +47,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Winterstoke Hundred Academy",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -78,9 +72,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "West Monkton Church of England School",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -106,9 +97,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Willow Vale School",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -134,9 +122,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Pathway Trust",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -162,7 +147,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Part Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Email handling",
+      "Records administration"
+    ]
   },
   {
     "job_id": "23643_225453674",
@@ -237,7 +226,12 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Records administration",
+      "Systems administration",
+      "Document preparation"
+    ]
   },
   {
     "job_id": "23643_225532752",
@@ -290,81 +284,6 @@
     "posted_date_basis": "ontap_first_published"
   },
   {
-    "job_id": "107830253",
-    "title": "Housing Management Coordinator",
-    "company": "Home Group Limited - Agency - Permanent",
-    "location": "Somerset",
-    "region": "Somerset",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "28000",
-    "salary_max": "28000",
-    "salary_text": "£28000 per year",
-    "posted_date": "2026-08-24",
-    "description": "About the role\nHousing Management Coordinator, part time (30 hpw) Monday to Friday\nPay £14.06per hour (£27,500 per annum) pro rata and great benefits including Health Cash Plan\nHome, a place where you belong\nThis is a great opportunity to join our team. As our Housing and Property Lead, youll focus on tenancy support for our customers, ensuring their homes are safe and well maintained click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?wTAUM266l6eY6tWmhHBxbtdnMbSHmaUnh",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Home Group Limited",
-    "advertiser_type": "Agency",
-    "work_pattern": "Part Time",
-    "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
-  },
-  {
-    "job_id": "107857540",
-    "title": "Patient Co-ordinator, Yatton, North Somerset",
-    "company": "Menlo Park - Agency - Permanent",
-    "location": "Somerset",
-    "region": "Somerset",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "26000",
-    "salary_max": "26000",
-    "salary_text": "£26000 per year",
-    "posted_date": "2026-08-22",
-    "description": "Patient Co-ordinator, Yatton\n\nProgressive GP Group of Practices\n\nLooking for a career that matters?\n\nEvery day, thousands of patients contact the practices in this large, innovative group looking for help, advice and support.\n\nAs a Patient Co-ordinator, you'll be the first person they speak to click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?31Q%2fsvDzOVbOl5aLiByyxoZ%2bCqn6WmmKj",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Menlo Park",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
-  },
-  {
-    "job_id": "107866477",
-    "title": "Technical Coordinator",
-    "company": "Muller Dairy - Company - Permanent",
-    "location": "Somerset",
-    "region": "Somerset",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "",
-    "posted_date": "2026-08-21",
-    "description": "Technical Coordinator\nLocation: Bridgwater\n\nWorking Pattern: Monday to Friday, 40 Hours per week\n\nContract: Permanent\nAt Mller, we're committed to delivering high-quality dairy products to millions of consumers across the UK. We're looking for a Technical Coordinator to join our Bridgwater Dairy and play a key role in maintaining and enhancing our Quality Management Systems, ensuring compliance, cont click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?iZmgAWfngDyZQO6kb%2fS1rTfKkeNGZUzkf",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Muller Dairy",
-    "advertiser_type": "Company",
-    "work_pattern": "Not Specified",
-    "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
-  },
-  {
     "job_id": "107804771",
     "title": "SAP Data Coordinator",
     "company": "Refresco Drinks UK Limited - Agency - Permanent",
@@ -406,6 +325,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9387-26-1771",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -425,6 +347,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2122-26-0011",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -444,6 +369,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9184-26-1263",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   }
 ]

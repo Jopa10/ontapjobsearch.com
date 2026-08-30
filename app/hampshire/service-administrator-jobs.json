@@ -22,9 +22,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "The Portsmouth Academy",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -50,9 +47,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Thornden School",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -78,9 +72,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Ringwood School Academy",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -106,9 +97,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Perins School",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -134,9 +122,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Wildern School",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -162,9 +147,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Perins School",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -215,7 +197,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Quotations",
+      "Order processing"
+    ]
   },
   {
     "job_id": "23643_225452299",
@@ -240,7 +226,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Telephone handling",
+      "Records administration"
+    ]
   },
   {
     "job_id": "23643_225458940",
@@ -290,7 +280,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Records administration",
+      "Document preparation"
+    ]
   },
   {
     "job_id": "23643_225459037",
@@ -365,7 +359,12 @@
     "advertiser_type": "Agency",
     "work_pattern": "Part Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Scheduling and bookings",
+      "Records administration",
+      "Systems administration"
+    ]
   },
   {
     "job_id": "23643_225472187",
@@ -415,7 +414,14 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Telephone handling",
+      "Scheduling and bookings",
+      "Records administration",
+      "Order processing",
+      "Starters and leavers"
+    ]
   },
   {
     "job_id": "23643_225480542",
@@ -440,7 +446,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Records administration",
+      "Data entry"
+    ]
   },
   {
     "job_id": "23643_225477911",
@@ -462,31 +472,6 @@
     "working_arrangement_text": "Hybrid working",
     "working_arrangement_evidence": "HR Administrator - Permanent Position Location: Lyndhurst / Hybrid Salary: 26,635 - 27,380 (pay award pending) Hours: 37 hours per week Contract: Permanent Working Pattern: Hybrid - approximately 50% remote working and 50% office/site based About the Role We are currently recruiting on behalf of New Forest District Council (NFDC) for a permanent HR Administrator to join their busy and varied HR service.",
     "advertiser_name": "Berry Recruitment",
-    "advertiser_type": "Agency",
-    "work_pattern": "Full Time",
-    "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
-  },
-  {
-    "job_id": "107824141",
-    "title": "Care Coordinator",
-    "company": "Nurse Plus - Agency - Permanent",
-    "location": "Hampshire",
-    "region": "Hampshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "",
-    "posted_date": "2026-08-14",
-    "description": "Care Coordinator - Care at Home\n\nFull UK driving license and your own vehicle is a requirement\n\nAndover Full Time Office Based\nNurseplus Care at Home\n\nAbout Nurseplus Care at Home\n\nNurseplus Care at Home provides high-quality, person-centred care to individuals in their own homes, helping them maintain independence, dignity, and choice click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?Dw9iAXzSqBb29PUPUGhW81sxNa%2fDnzjok",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Nurse Plus",
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
@@ -590,7 +575,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Records administration",
+      "Quotations"
+    ]
   },
   {
     "job_id": "23643_225511982",
@@ -665,7 +654,14 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Customer enquiries",
+      "Records administration",
+      "Data entry",
+      "Filing and document handling",
+      "Quotations"
+    ]
   },
   {
     "job_id": "23643_225519192",
@@ -740,7 +736,11 @@
     "advertiser_type": "Company",
     "work_pattern": "Part Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Visitor reception",
+      "Customer enquiries"
+    ]
   },
   {
     "job_id": "23643_225534205",
@@ -766,6 +766,60 @@
     "work_pattern": "Full Time",
     "salary_period": "Annual",
     "posted_date_basis": "ontap_first_published"
+  },
+  {
+    "job_id": "23643_225537561",
+    "title": "Housing Repairs Administrator",
+    "company": "Thorngate Churcher Trust - Agency - Permanent",
+    "location": "Hampshire",
+    "region": "Hampshire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "£30,000 per annum",
+    "posted_date": "2026-08-27",
+    "description": "Housing Repairs Administrator\n\nLocation: Gosport, Hampshire, PO12 3 BE\nSalary: Circa £30,000 per annum, FTE\nContract: Part time, Permanent 25 hours per week\n\nKeep homes running. Keep residents happy. Make a difference every day.\n\nAre you organised, practical and great with people?\n\nDo you enjoy coordinating workloads, solving problems and making sure things happen when they should\n\nWe're looking for a Housing Repairs Administrator to join our Property Services team and play a vital role in delivering a responsive, reliable and customer-focused repairs service for our residents.\n\nThis is a varied and rewarding role that combines administration, scheduling, customer service and practical property maintenance knowledge. You'll be the key link between residents reporting repairs, maintenance operatives carrying out work and contractors supporting the service.\n\nNo two days are the same. One moment you'll be coordinating urgent repair appointments and managing workloads, the next you'll be speaking with residents, updating repair records or helping colleagues resolve operational challenges.\n\nIf you enjoy working in a fast-paced environment where organisation, communication and problem-solving skills make a genuine difference, we'd love to hear from you.\n\nAbout the Role\n\nAs our Housing Repairs Administrator, you'll help ensure repairs are completed efficiently, appointments are managed effectively and residents receive excellent service throughout the repairs process.\n\nYou'll coordinate maintenance activities from initial report through to completion, ensuring jobs are correctly allocated, records are maintained and residents remain informed every step of the way.\n\nThis role is ideal for someone who understands property maintenance and enjoys combining practical knowledge with administration and customer service responsibilities.\n\nWhat You'll Be Doing\n- Coordinating Repairs and Maintenance\n- Receiving and processing repair requests from residents.\n- Scheduling routine, urgent and emergency maintenance work.\n- Managing operatives' diaries and allocating jobs based on priority, location and available skills.\n- Monitoring outstanding repairs and ensuring work progresses within agreed timescales.\n- Arranging follow-on works, contractor visits and additional appointments where required.\n- Maintaining accurate repair records and updating systems throughout the lifecycle of each job.\n- Acting as a key point of contact for residents regarding repairs and appointments.\n- Keeping residents informed about progress, delays or changes to scheduled works.\n- Responding professionally and empathetically to enquiries and concerns.\n- Helping ensure vulnerable residents receive the support and communication they need.\n- Using your maintenance knowledge to help identify repair requirements and allocate work appropriately.\n- Liaising with operatives and contractors regarding access, materials and scheduling.\n- Supporting the wider maintenance team to ensure repairs are completed efficiently.\n- Providing practical assistance with maintenance tasks when appropriate and within your level of competence.\n- Producing information and reports relating to repair activity and performance.\n- Identifying opportunities to improve scheduling, communication and service delivery.\n- Supporting compliance with health and safety, safeguarding and organisational policies.\n\nAbout You\n\nYou'll be a highly organised and proactive individual who enjoys balancing customer service with operational coordination.\n\nYou will have:\n- Previous experience in a repairs, maintenance, construction, property services or similar environment.\n- Practical maintenance knowledge and an understanding of common property repairs.\n- Experience coordinating workloads, appointments or operational activities.\n- Strong administration and organisational skills.\n- Confidence using IT systems and Microsoft Office applications, particularly Outlook, Word and Excel.\n- Excellent communication skills and the ability to build positive relationships with residents, contractors and colleagues.\n- A calm and professional approach when dealing with changing priorities and challenging situations.\n\nIt Would Be Great If You Also Have\n- Experience within social housing repairs and maintenance.\n- Experience scheduling maintenance operatives or trade teams.\n- Knowledge of responsive repairs, void properties or planned maintenance programmes.\n- Experience using housing management, repairs management or workforce scheduling systems.\n\nWhy Join Us\n\nThis is an opportunity to join an organisation where the work you do has a direct impact on residents' homes and wellbeing.\n\nYou'll become part of a supportive team that values collaboration, practical problem-solving and excellent customer service. You'll have the chance to use both your organisational skills and maintenance knowledge in a role that offers genuine variety and responsibility.\n\nEvery repair coordinated, every appointment managed and every problem resolved helps ensure residents receive the quality service they deserve.\n\nInterested\n\nIf you're looking for a role where you can combine administration, customer service and practical maintenance knowledge while making a meaningful difference to residents every day, we'd love to hear from you.\n\nApply now and help us deliver a repairs service that residents can rely on",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?MQiKzVwZdh392Q7dapjywIzEg3AUGhE7u",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Thorngate Churcher Trust",
+    "advertiser_type": "Agency",
+    "work_pattern": "Part Time",
+    "salary_period": "Annual",
+    "posted_date_basis": "ontap_first_published"
+  },
+  {
+    "job_id": "23643_225538632",
+    "title": "Operations Assistant",
+    "company": "Matchtech - Agency - Permanent",
+    "location": "Hampshire",
+    "region": "Hampshire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "",
+    "posted_date": "2026-08-30",
+    "description": "Our client is a global leader in ship management and marine services, supporting vessel operations across the world through technical, operational and commercial expertise. They are now seeking an organised and proactive Operations Coordinator to join their Southampton team, supporting the delivery of specialist underwater and diving projects.\nThis is an excellent opportunity to join a well-established maritime organisation, working within a busy operational environment where no two days are the same. You'll play a key role in ensuring projects are planned, coordinated and delivered efficiently, while working closely with customers, suppliers, subcontractors and internal stakeholders.\n\nThe Role\n\nWorking alongside the Underwater Contracts Manager and Operations Team, you will provide administrative and operational support across the full project lifecycle, from initial enquiry and mobilisation through to project completion and invoicing.\n\nKey Responsibilities:\n- Supporting the day-to-day coordination and administration of underwater operations projects.\n- Assisting with the preparation of quotations, work packs, project files and operational documentation.\n- Liaising with customers, suppliers, subcontractors and operational personnel to support project delivery.\n- Managing incoming enquiries and providing timely responses to requests and queries.\n- Maintaining accurate records, document control systems and project files.\n- Supporting project mobilisation and close-out activities, including preparation of reports and final documentation.\n- Assisting with subcontractor onboarding and maintaining records within company systems.\n- Supporting procurement activities, including purchase orders, supplier administration and invoice processing.\n- Assisting with customer invoicing and liaising with finance teams regarding queries and outstanding payments.\n- Ensuring activities are completed in accordance with company procedures, contractual obligations and safety standards.\n\nAbout You:\n\nWe're keen to speak with candidates who have experience within operational, project support or administrative environments and who enjoy working in a fast-paced setting with multiple priorities.\nYou will ideally have:\n- Previous experience in an Operations Coordinator, Project Coordinator, Contracts Administrator or similar position.\n- Strong administrative and organisational skills with excellent attention to detail.\n- Good working knowledge of Microsoft Office.\n- Strong written and verbal communication skills.\n- The ability to manage multiple tasks and priorities effectively.\n- Experience with procurement, purchase orders, invoicing or supplier administration would be advantageous.\n- Experience working with customers, suppliers or subcontractors in a professional environment would be beneficial.\n- An understanding of document control and record management processes.\n\nAdditional Requirements:\n- Eligible to obtain and maintain Security Clearance (SC).\n\nWhat's on Offer:\n- Competitive salary and benefits package.\n- Opportunity to join a globally recognised maritime organisation.\n- Exposure to specialist marine and underwater operations.\n- Long-term career development and progression opportunities.\n- Supportive and collaborative working environment.\n\nThis position would suit candidates from marine, engineering, defence, manufacturing, logistics, facilities management or other project-based industries who are looking to develop their career within a dynamic operational environment.\nIf you are an enthusiastic and experienced Operations Coordinator looking for a new opportunity within a leading maritime organisation, we would love to hear from you. Apply now to join our client's dynamic team in Southampton.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?iZmgAWfngDx0x6D1De0Sk%2bDXXR%2bqe1aZf",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Matchtech",
+    "advertiser_type": "Agency",
+    "work_pattern": "Full Time",
+    "salary_period": "Annual",
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Records administration",
+      "Quotations"
+    ]
   },
   {
     "job_id": "107772787",
@@ -843,6 +897,56 @@
     "posted_date_basis": "ontap_first_published"
   },
   {
+    "job_id": "1816335",
+    "title": "Administrator - Start next week",
+    "company": "Hartley Resourcing - Agency - Permanent",
+    "location": "Hampshire",
+    "region": "Hampshire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "",
+    "posted_date": "2026-08-30",
+    "description": "We are looking for an IT Administrator to provide basic IT and website support to users. This is an ongoing temporary position and would suit someone with an interest in IT, previous admin/support experience, or a recent graduate looking to gain experience.\n\nThe Administrator Role\n\nYou will be a first point of contact for IT and website-related queries, handling around 10 calls per day.\n\nMost queries will be straightforward, such as:\n- Password resets\n- Login and access issues\n- Basic troubleshooting\n- Website queries\n\nMore technical issues can be escalated to the wider team, so you won't be expected to know everything from day one. Full support will be provided.\n\nIdeal Candidate for the Temp Administrator Role\n\nWe're looking for someone who:\n- Is confident using computers and technology\n- Is comfortable speaking to people over the phone\n- Has good communication skills\n- Is friendly, patient and willing to learn\n- Has an interest in developing their IT skills\n\nPrevious IT experience is beneficial but not essential. Recent graduates are encouraged to apply.\n\nAdditional Information\n\nOngoing temporary position\n\nIf you do not hear from us within 3 days of applying, please assume you have not been successful on this occasion.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?bZCSDJyF3N5mwbaKx8CwTTzyryqM2J5pq",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Hartley Resourcing",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Annual",
+    "posted_date_basis": "ontap_first_published"
+  },
+  {
+    "job_id": "1809424",
+    "title": "IT Administrator",
+    "company": "Hartley Resourcing - Agency - Permanent",
+    "location": "Hampshire",
+    "region": "Hampshire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "",
+    "posted_date": "2026-08-30",
+    "description": "We are looking for an IT Administrator to provide basic IT and website support to users. This is an ongoing temporary position and would suit someone with an interest in IT, previous admin/support experience, or a recent graduate looking to gain experience.\n\nThe Role\n\nYou will be a first point of contact for IT and website-related queries, handling around 10 calls per day.\n\nMost queries will be straightforward, such as:\n- Password resets\n- Login and access issues\n- Basic troubleshooting\n- Website queries\n\nMore technical issues can be escalated to the wider team, so you won't be expected to know everything from day one. Full support will be provided.\n\nIdeal Candidate\n\nWe're looking for someone who:\n- Is confident using computers and technology\n- Is comfortable speaking to people over the phone\n- Has good communication skills\n- Is friendly, patient and willing to learn\n- Has an interest in developing their IT skills\n\nPrevious IT experience is beneficial but not essential. Recent graduates are encouraged to apply.\n\nAdditional Information\n\nOngoing temporary position\n\nIf you do not hear from us within 3 days of applying, please assume you have not been successful on this occasion.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?aIHQjUdXakOYE2WYgB1LpUXSPm6kiFmur",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Hartley Resourcing",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Annual",
+    "posted_date_basis": "ontap_first_published"
+  },
+  {
     "job_id": "23643_225546549",
     "title": "Junior Administrator",
     "company": "Adecco - Agency - Temporary",
@@ -863,31 +967,6 @@
     "working_arrangement_evidence": "",
     "advertiser_name": "Adecco",
     "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published"
-  },
-  {
-    "job_id": "107605314",
-    "title": "Lifestyle Coordinator",
-    "company": "Care UK - Company - Permanent",
-    "location": "Hampshire",
-    "region": "Hampshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "12.9",
-    "salary_max": "12.9",
-    "salary_text": "£12.9 per hour",
-    "posted_date": "2026-08-06",
-    "description": "Ancasta Grove, Sarisbury Green, Southampton\n\nAre you a passionate and caring individual looking for a rewarding career with excellent training and opportunities for development? Join Care UK, a multi award winning care provider as a Lifestyle Co-ordinator. Variety, fun, and a rewarding career is what you can expect click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?6WDmO0cNttrd9%2bNUrFOXXtX9y48rsxeOa",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Care UK",
-    "advertiser_type": "Company",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
     "posted_date_basis": "ontap_first_published"
@@ -940,7 +1019,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Telephone handling",
+      "Records administration"
+    ]
   },
   {
     "job_id": "23643_225476353",
@@ -1090,7 +1173,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Records administration",
+      "Order processing"
+    ]
   },
   {
     "job_id": "107718072",
@@ -1140,7 +1227,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Telephone handling",
+      "Customer enquiries"
+    ]
   },
   {
     "job_id": "107881829",
@@ -1193,6 +1284,31 @@
     "posted_date_basis": "ontap_first_published"
   },
   {
+    "job_id": "1704543",
+    "title": "Service Desk Analyst",
+    "company": "Nicholas Howard - Agency - Permanent",
+    "location": "Hampshire",
+    "region": "Hampshire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "",
+    "posted_date": "2026-08-30",
+    "description": "Nicholas Howard are delighted to be recruiting for a Service Desk Analyst.\n\nThis role is fully site based and will require flexibility around working shift patterns once fully trained.\n\nKey Responsibilities:\n- Work closely with team members to support daily operations and tasks.\n- Help identify, prioritise, and respond to incidents and issues in a timely manner, following clear procedures.\n- Use the service management tools to log and update incidents, ensuring information is accurate throughout the process.\n- Monitor servers and systems to spot and respond to any issues, using the event management tools.\n- Assist specialist teams with resolving technical problems.\n- Follow set processes and guidelines to fix incidents and problems.\n- Provide updates on ongoing incidents, keeping everyone informed.\n- Contribute to updating knowledge articles, helping improve the service desk's efficiency.\n- Help generate reports using data from the service management system.\n- Support software rebuilds or deployments following system failures.\n- Help with software configuration and deployment tasks.\n- Occasionally support shift work and be flexible with shift coverage when needed.\n- Assist the Senior Operations Engineer with various tasks, ensuring processes are followed and incidents are handled effectively.\n- Work on improving service quality by reviewing incidents and making suggestions for improvements.\n- Be proactive in learning new technical skills and knowledge from colleagues.\n\nRequired Skills, Qualifications & Experience:\n- Previous experience in customer-facing roles, ideally in technical support or service desk environments, demonstrating a willingness to help solve problems and improve customer satisfaction.\n- Demonstrates a proactive approach to challenges and can adapt quickly to new situations and technologies.\n- Enthusiasm to learn and grow within the IT field, with a willingness to take on new responsibilities and develop new skills.\n- Ability to identify simple ways to improve current processes and a willingness to suggest improvements.\n- Strong attention to detail with a growing ability to analyse and solve technical issues.\n- Comfortable learning new systems, applications, and tools that may not have been used in previous roles.\n\nShould you wish to be considered for this position, please apply below.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?nbYVUHO1tX454tVsbqDq3A9gDrksyIF9z",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Nicholas Howard",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Annual",
+    "posted_date_basis": "ontap_first_published"
+  },
+  {
     "job_id": "23643_225529475",
     "title": "Account Coordinator",
     "company": "Hampshire Recruitment Group LTD - Agency - Permanent",
@@ -1215,82 +1331,13 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
-  },
-  {
-    "job_id": "107887825",
-    "title": "Housing Management Coordinator",
-    "company": "Home Group Limited - Agency - Permanent",
-    "location": "Hampshire",
-    "region": "Hampshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "26000",
-    "salary_max": "26000",
-    "salary_text": "£26000 per year",
-    "posted_date": "2026-08-26",
-    "description": "About the role\nSalary £27,500 per annum + great benefits including Health Cash Plan\nHome, a place where you belong\nThis is a great opportunity to join our team. As our Housing and Property Lead, youll focus on tenancy support for our customers, ensuring their homes are safe and well maintained. Providing a housing management service, youll support them to manage and maintain their tenancy and rent ac click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?G%2b5YiGNoEgqEcWazCgJK8UxeU1yEA%2fJSn",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Home Group Limited",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
-  },
-  {
-    "job_id": "107898278",
-    "title": "Mental Health Support Coordinator",
-    "company": "Home Group Limited - Agency - Permanent",
-    "location": "Hampshire",
-    "region": "Hampshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "27500",
-    "salary_max": "27500",
-    "salary_text": "£27500 per year (plus 34 days leave (rising to 39))",
-    "posted_date": "2026-08-29",
-    "description": "About the role\nSalary £27,500 plus 34 days leave (rising to 39) and health cash plan worth over £1140\nHome, a place where you belong\nWant to be part of a team that truly cares, not only about our customers, but about you too? Our colleagues tell us that working here feels different. Were brilliant at what we do, and we look after each other just as much as we support our customers click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?iZmgAWfngDwkm06Q0eSmO4CADPHh%2fWuyf",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Home Group Limited",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
-  },
-  {
-    "job_id": "107904656",
-    "title": "Support Coordinator",
-    "company": "NFP People - Agency - Contract",
-    "location": "Isle of Wight",
-    "region": "Hampshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Contract",
-    "salary_min": "28000",
-    "salary_max": "28000",
-    "salary_text": "£28000 per year",
-    "posted_date": "2026-08-28",
-    "description": "Support Coordinator\n\nWe're looking for an innovative, passionate and professional individual with excellent communication and organisational skills to join the Life After Stroke Service on the Isle of Wight.\n\nPosition: 000048 Stroke Association Support Coordinator\n\nLocation: Home-based, Isle of Wight click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?aIHQjUdXakN3kxPrevN6Ge%2b3AnUVJ5Pxr",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "NFP People",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Customer enquiries",
+      "Records administration",
+      "Systems administration",
+      "Quotations"
+    ]
   },
   {
     "job_id": "nhs-5568990",
@@ -1309,6 +1356,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9348-26-1867",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1328,6 +1378,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/L0034-26-3587",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1347,6 +1400,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9470-26-0485",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1366,6 +1422,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C8192-26-0467",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1385,6 +1444,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9348-26-1828",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1404,6 +1466,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C8192-26-0451",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1423,6 +1488,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9348-26-1724",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1442,6 +1510,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3690-26-0008",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1461,6 +1532,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/L0034-26-3583",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1480,6 +1554,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9348-26-1804",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1499,6 +1576,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9348-26-1797",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1518,6 +1598,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9348-26-1773",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   }
 ]

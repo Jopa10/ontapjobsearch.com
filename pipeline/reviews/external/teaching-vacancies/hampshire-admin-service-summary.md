@@ -14,8 +14,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 12
-- Selected: 5
-- POSS awaiting decision: 1
+- Selected: 6
+- POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 6
 
@@ -96,11 +96,9 @@ source_job_id: send-administrator-access-arrangements-support-assistant
 source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-access-arrangements-support-assistant
 ---
 
-## POSS — choose SELECT or EXCLUDE
-
 ---
-action: 
-POSS | Hampshire | Portsmouth, South East, PO1 5PF | TSAT Pay Group 3 pro rata to £23,701 - £27,506 for hours and weeks stated (£26,866 - £31,179 FTE) | Senior Administration Assistant
+action: select
+SELECTED | Hampshire | Portsmouth, South East, PO1 5PF | TSAT Pay Group 3 pro rata to £23,701 - £27,506 for hours and weeks stated (£26,866 - £31,179 FTE) | Senior Administration Assistant
 employer: The Portsmouth Academy
 closing_date: 2026-09-01T23:59:00+01:00
 reason: Administrative duties evidenced in description
@@ -112,6 +110,10 @@ source: Teaching Vacancies
 source_job_id: senior-administration-assistant-the-portsmouth-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-administration-assistant-the-portsmouth-academy
 ---
+
+## POSS — choose SELECT or EXCLUDE
+
+- None.
 
 ## EXCLUDED BY REVIEW
 

@@ -22,9 +22,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "The Adeyfield Academy",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -50,9 +47,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Bassingbourn Village College",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -78,9 +72,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Marriotts School",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -106,9 +97,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Aspire Academies Trust",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -134,9 +122,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Warren Dell Primary School",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -262,7 +247,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Visitor reception",
+      "Scheduling and bookings"
+    ]
   },
   {
     "job_id": "23643_225476681",
@@ -287,7 +276,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Visitor reception",
+      "Scheduling and bookings"
+    ]
   },
   {
     "job_id": "23643_225522549",
@@ -312,7 +305,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Telephone handling",
+      "Systems administration"
+    ]
   },
   {
     "job_id": "23643_225521989",
@@ -337,7 +334,13 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Telephone handling",
+      "Email handling",
+      "Scheduling and bookings",
+      "Systems administration"
+    ]
   },
   {
     "job_id": "23643_225528836",
@@ -437,7 +440,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Customer enquiries",
+      "Records administration"
+    ]
   },
   {
     "job_id": "23643_225473001",
@@ -462,32 +469,12 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
-  },
-  {
-    "job_id": "107821330",
-    "title": "Apprentice Bid Coordinator",
-    "company": "VolkerWessels Uk - Agency - Permanent",
-    "location": "Hertfordshire",
-    "region": "Hertfordshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "£10 per hour",
-    "posted_date": "2026-08-19",
-    "description": "Level 3 Bid and Proposal Coordinator Apprenticeship\n\nLocation: Hoddesdon, Hertfordshire\n\nContract: Full-time, 40 hours per week\n\nSalary: Up to £10 p/h plus Benefits & Course fees\n\nStart: September/ October 2026 (course begins in October 2026)\n\nVolkerHighways is a market leader in the delivery of highways and street lighting term maintenance contracts click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?vAYWCB8ag%2fiTAYRJ4wy8Ot4LGtlDp5lsi",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "VolkerWessels Uk",
-    "advertiser_type": "Agency",
-    "work_pattern": "Full Time",
-    "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Customer enquiries",
+      "Records administration",
+      "Order processing"
+    ]
   },
   {
     "job_id": "107858206",
@@ -587,7 +574,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Visitor reception",
+      "Scheduling and bookings"
+    ]
   },
   {
     "job_id": "23643_225542267",
@@ -615,6 +606,31 @@
     "posted_date_basis": "ontap_first_published"
   },
   {
+    "job_id": "1810176",
+    "title": "1st Line IT Support / Helpdesk Analyst",
+    "company": "T2P Recruitment Ltd - Agency - Permanent",
+    "location": "Hertfordshire",
+    "region": "Hertfordshire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "",
+    "posted_date": "2026-08-30",
+    "description": "The Company\n\nAn established and progressive organisation with a strong reputation as an employer of choice.\n\nThe Role\n\nWe are looking for an IT Service Desk / 1st Line Support Analyst to join the team on a temporary basis, with the potential to becoming a permanent\n\nYou will be the first point of contact for a range of IT-related queries, providing friendly and effective technical support to users across the organisation. This is a great opportunity for someone with previous 1st line or service desk experience who is looking to build on their technical skills within an established IT environment.\n\nKey Requirements\n\nPrevious experience in a 1st Line Support, Service Desk or IT Support\n\nYou will ideally have experience supporting users with:\n- Windows operating systems\n- Microsoft Office 365\n- General hardware and software issues\n- Password and account-related queries\n- Basic troubleshooting and incident resolution\n- Logging and managing support tickets\n\nWe're open to candidates with varying levels of experience, so if you have a solid grounding in 1st line IT support and a good customer-service approach, we'd be keen to hear from you.\n\nWe're also open to graduates with a relevant IT degree or qualifications looking to start their career in IT support.\n\nWhat's on Offer?\n- Temporary position with a view to permanent\n- Opportunity to join an established and progressive organisation\n- Supportive IT team and working environment\n- Competitive rate, with some flexibility depending on experience\n- Excellent opportunity to develop your IT support career\n\nYou must be available immediately or on short notice to take on a temporary to permanent role\n\nBe able to commute near to the Uxbridge area easily and ideally be a car driver as public transport is limited to the location\n\nif you have not heard within 5 working days unfortunately your application was not successful on this occasion",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?b0ZSEQFKUCLgArWYxsJSboWYygNMjwpkl",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "T2P Recruitment Ltd",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Annual",
+    "posted_date_basis": "ontap_first_published"
+  },
+  {
     "job_id": "nhs-5553693",
     "source": "NHS Jobs",
     "title": "Team Administrator",
@@ -631,6 +647,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9367-26-0790",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -650,6 +669,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5985-26-0027",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -669,6 +691,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B0525-26-0016",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -688,6 +713,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0106-26-0072",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -707,6 +735,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9812-26-0338",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -726,6 +757,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0405-26-0006",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   }
 ]

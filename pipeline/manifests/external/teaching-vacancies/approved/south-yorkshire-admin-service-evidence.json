@@ -1,22 +1,23 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-08-28T12:31:11+01:00",
+  "generated_at": "2026-08-30T18:31:28+01:00",
   "source": "Teaching Vacancies",
   "region": "Yorkshire - South",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-08-28",
-  "review_fingerprint": "2574f1acf6e55b1a4268b3c7e980e871a701642ceb42859e0418d2cae7b6d400",
-  "routing_manifest_sha256": "317da4c3580a017af1ca5a40549214600dbbe16fe90e5315b920822a2f47f1ee",
-  "review_csv_sha256": "d7edf19b9bde5a729e6d53409f0711a09667a16e7c06bd93468e59d20b4a6ff0",
-  "summary_md_sha256": "7885d4a65582ba417fe9bb42419cd6e380ad51cdfd0c942aac19469707378a3d",
-  "approved_snapshot_sha256": "ea9a108b0d28fccf6a804fee351a73de773574d3b717b73a4c4f84f406240e55",
-  "approved_rows": 5,
+  "review_date": "2026-08-30",
+  "review_fingerprint": "552b97beab603a70bb4fc18faf6be6537d4878e425a18e60be86e6cc7dc769d3",
+  "routing_manifest_sha256": "eb6bef78d15e154b4b783b6172d6a6ca6bdd0bb4b53a2f803a298e90ed30ff0e",
+  "review_csv_sha256": "1db194dd17a16f09c06c0bce5c947f829124ac11b6b3abf2a96a12afdde8a072",
+  "summary_md_sha256": "db1bc830da05a80be9f405a362da806ddbe4ac45af90e7d4a1b469ae881f4f2f",
+  "approved_snapshot_sha256": "7916e001c87f4c02f566a88c28fb15754e5b12233c5852c5bffcbd6148b89445",
+  "approved_rows": 6,
   "approved_job_ids": [
     "teaching-vacancies-send-administrative-assistant-westfield-school-sheffield",
-    "teaching-vacancies-admin-clerical-officer-level-2-rowan-school",
     "teaching-vacancies-administration-assistant-treeton-church-of-england-primary-school-rotherham-south-yorkshire",
+    "teaching-vacancies-business-support-officer-attendance-dc9edb4f-b36d-4bc3-be46-6508d1a2b957",
     "teaching-vacancies-receptionist-administrator-sheffield-park-academy-sheffield-south-yorkshire",
-    "teaching-vacancies-send-administrator-aston-academy-sheffield-south-yorkshire"
+    "teaching-vacancies-send-administrator-aston-academy-sheffield-south-yorkshire",
+    "teaching-vacancies-admin-clerical-officer-level-2-rowan-school"
   ]
 }

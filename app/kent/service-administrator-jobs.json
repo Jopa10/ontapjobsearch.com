@@ -22,9 +22,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Shears Green Junior School",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -50,9 +47,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Nore Academy",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -78,9 +72,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "The Diocese Of Canterbury Academies Trust",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -106,9 +97,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "The University Of Kent Academies Trust",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -159,7 +147,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Part Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Scheduling and bookings",
+      "Quotations"
+    ]
   },
   {
     "job_id": "23643_225445558",
@@ -209,7 +201,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Customer enquiries",
+      "Quotations"
+    ]
   },
   {
     "job_id": "23643_225444978",
@@ -234,7 +230,13 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Customer enquiries",
+      "Scheduling and bookings",
+      "Systems administration",
+      "Quotations"
+    ]
   },
   {
     "job_id": "23643_225447784",
@@ -312,6 +314,31 @@
     "posted_date_basis": "ontap_first_published"
   },
   {
+    "job_id": "23643_225466145",
+    "title": "Executive Assistant",
+    "company": "New Appointments Group - Agency - Permanent",
+    "location": "Kent",
+    "region": "Kent",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "",
+    "posted_date": "2026-08-30",
+    "description": "Executive Assistant\nLocation: Canterbury\nSalary: Competitive plus benefits\n\nA well-established East Kent organisation is looking for a skilled Executive Assistant to provide high-level support to the Board Leadership Team managing key administrative and operational tasks while enhancing organisational efficiency.\n\nResponsibilities:\n- Ensure the smooth day-to-day running of the Directors' office\n- Manage complex diaries, meetings, and travel arrangements\n- Deliver high-quality board presentations and reports\n- Manage complex event programmes, ensuring seamless delivery and stakeholder satisfaction\n- Providing project management support\n- Manage financial administration processes, including invoices, expenses, and reconciliations, ensuring accuracy and compliance\n- Coordinate board and senior leadership meetings, including agenda preparation,\n- documentation, and follow-up actions\n- Support recruitment and onboarding processes, ensuring a seamless candidate and new starter experience\n- Build strong relationships with internal leadership teams and external stakeholders to support effective communication and collaboration\n\nEssential Requirements:\n- Proven experience at C Suite level supporting Board level Directors and Senior Executives\n- Previous experience working within corporate organisations\n- Advanced IT skills including Microsoft Office (Excel, Word, PowerPoint, Outlook, Teams)\n- Resilient, hardworking, can demonstrate a \"can-do\" attitude.\n- Excellent organisational and time management skills\n- Strong communication skills and attention to detail\n- High level of discretion and confidentiality\n- Ability to prioritise workload and meet deadlines\n- Strong analytical or reporting skills\n\nBenefits:\n- Holidays: 25 days + bank holidays\n- Good pension scheme\n- On-site parking\n\nPlease note: We can only accept applicants who have the full Right to Work in the UK and live within a 45 minute commute.\n\nIf interested, please call my direct line and we can discuss this role in more detail. Email: (url removed)\nNew Appointments Group, Expertly Matching Employers and Jobseekers since 1975.\n\nBefore submitting your CV, please take a moment to check the layout, spelling, and grammar. If your CV includes graphics or design features, we'd also appreciate a simplified version in Word format.\nIf this role isn't for you, please check out our website for other roles that may be suitable, or send us your CV, we would still like to hear from you! You can find us on our website or LinkedIn, Facebook, Instagram and\nWe are committed to fostering a diverse and inclusive environment in line with the Equality Act 2010. All qualified applicants will be considered regardless of age, disability, gender reassignment, marriage or civil partnership, pregnancy or maternity, race, religion or belief, sex, or sexual orientation. New Appointments Group acts as an Employment Agency for permanent roles and as an Employment Business for temporary roles.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?1tcg6Aj2zax6nUppiHkbveJzx7bePH0Pb",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "New Appointments Group",
+    "advertiser_type": "Agency",
+    "work_pattern": "Full Time",
+    "salary_period": "Annual",
+    "posted_date_basis": "ontap_first_published"
+  },
+  {
     "job_id": "23643_225473631",
     "title": "Training Administrator Hybrid £34k",
     "company": "Office Angels - Agency - Permanent",
@@ -359,7 +386,14 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Customer enquiries",
+      "Records administration",
+      "Systems administration",
+      "Quotations",
+      "Order processing"
+    ]
   },
   {
     "job_id": "23643_225476340",
@@ -384,7 +418,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Customer enquiries",
+      "Records administration"
+    ]
   },
   {
     "job_id": "23643_225475645",
@@ -587,25 +625,25 @@
     "posted_date_basis": "ontap_first_published"
   },
   {
-    "job_id": "107872738",
-    "title": "Care Home Administrator",
-    "company": "Crystal Care Group South East - Agency - Permanent",
+    "job_id": "1693117",
+    "title": "Sharepoint Administrator",
+    "company": "Pearson Whiffin Recruitment Ltd - Agency - Permanent",
     "location": "Kent",
     "region": "Kent",
     "country": "UK",
     "category": "Admin/Service – Office Support",
     "employment_type": "Permanent",
-    "salary_min": "30000",
-    "salary_max": "30000",
-    "salary_text": "£30000 per year",
-    "posted_date": "2026-08-24",
-    "description": "Care Home Administrator\nWhen registering to this job board you will be redirected to the online application form. Please ensure that this is completed in full in order that your application can be reviewed.\n\nBe the Organisational Heart of Our Home\n\nAt Crystal Care Collection , we're committed to creating luxury care homes that are exceptional places to live and rewarding places to work click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?d1vRzEYF65RZKcNZ2aHAcmuADBFygnqpx",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "",
+    "posted_date": "2026-08-30",
+    "description": "SharePoint Administrator\n\nWe are looking for an experienced SharePoint Administrator to take ownership of SharePoint Online across a Microsoft 365 tenant.\n\nThis is a hands-on role for a technical specialist who understands that effective SharePoint administration is about more than keeping sites running. You will own the structure, permissions, governance, security, lifecycle and ongoing development of a large SharePoint Online estate, ensuring content is accessible to the right people, protected appropriately and managed throughout its lifecycle.\n\nYou will work across the central SharePoint Hub, departmental and functional sites, restricted libraries, Teams-connected sites and approved non-standard environments. The role also has significant exposure to Microsoft Purview, automation, reporting and migration.\n- SharePoint architecture, provisioning & lifecycle\n- Permissions, access & sharing\n- Microsoft Purview & information protection\n- Platform administration\n- Automation & migration\n\nEssential experience\n\nYou will have strong, demonstrable experience in:\n- SharePoint Online tenant administration at scale, including hub architecture, structured site models, restricted content, Teams-connected sites and storage governance.\n- The SharePoint permission model, including inheritance, permission levels, sharing links, guest access and Microsoft 365/Entra ID integration.\n- Microsoft Purview, particularly sensitivity labels, retention, DLP, auditing and content search across SharePoint and OneDrive.\n- OneDrive for Business administration, including Known Folder Move, sync policies and storage management.\n- Advanced PowerShell, including SharePoint Online Management Shell, PnP PowerShell and Microsoft Graph PowerShell.\n- Managed metadata, Term Store and content type administration.\n- SharePoint search configuration, tuning and troubleshooting.\n- Diagnosing sharing, access, synchronisation, indexing and permissions issues.\n- SharePoint Online migration tooling and file-share migrations.\n- Producing clear technical documentation and guidance for both technical teams and business owners.\n\nDesirable experience\n\nIt would be advantageous to have experience with:\n- SharePoint Advanced Management, including Restricted Access Control, Data Access Governance reporting and Site Lifecycle Management.\n- eDiscovery Premium, Insider Risk Management, Communication Compliance or Information Barriers.\n- Entra ID access packages, entitlement management and access reviews.\n- SharePoint Framework, modern site pages and web part configuration.\n- Microsoft Graph and reporting APIs for estate-wide analysis.\n- Working with personal or customer data in a regulated environment.\n- CLI for Microsoft 365 or comparable administration tooling.\n\nQualifications\n\nMicrosoft certifications are desirable, particularly MS-102 and certification pathways covering Teamwork Administration and Information Protection & Compliance.\n\nThere is no formal degree requirement. We are primarily interested in practical expertise, technical capability and demonstrable experience managing SharePoint Online in a complex environment.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?vAYWCB8ag%2fh7nZN7lwhTALxzsv%2fXH8VOi",
     "source": "JobG8",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Crystal Care Group South East",
+    "advertiser_name": "Pearson Whiffin Recruitment Ltd",
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
@@ -684,7 +722,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Customer enquiries",
+      "Systems administration"
+    ]
   },
   {
     "job_id": "23643_225519271",
@@ -709,7 +751,12 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Customer enquiries",
+      "Shared inboxes",
+      "Records administration"
+    ]
   },
   {
     "job_id": "23643_225466245",
@@ -912,27 +959,52 @@
     "posted_date_basis": "ontap_first_published"
   },
   {
-    "job_id": "107876526",
-    "title": "EOTAS Coordinator",
-    "company": "Academics - Agency - Permanent",
+    "job_id": "1800151",
+    "title": "1st Line Support Helpdesk Analyst",
+    "company": "Constant Recruitment Ltd - Agency - Permanent",
     "location": "Kent",
     "region": "Kent",
     "country": "UK",
     "category": "Admin/Service – Office Support",
     "employment_type": "Permanent",
-    "salary_min": "18000",
-    "salary_max": "18000",
-    "salary_text": "£18000 per year",
-    "posted_date": "2026-08-26",
-    "description": "EOTAS Coordinator\nSupport Provision. Coordinate Impact. Make a Difference.\nRochester Education & SEND Sector\n\nAre you an organised SEND professional or experienced administrator ready to take on a varied and impactful role? We're looking for an EOTAS Coordinator to support our growing EOTAS service, helping deliver high-quality alternative education packages for learners outside mainstream setting click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?31Q%2fsvDzOVY9oaq955V%2f0t%2brbhaP3KyZj",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "",
+    "posted_date": "2026-08-30",
+    "description": "1st Line Support Helpdesk Analyst\n\nPaddock Wood\n\n£25k - £30k DOE\n\nDo you have experience of working in a MSP?\n\nAre you looking to advance your career in IT?\n\nMaybe you have some 1st line Support experience and are looking to progress your career with a leading MSP?\n\nLooking for a company to invest in your Training?\n\nIdeally we are looking or candidates from a Managed Services Background but will consider other candidates who have a customer focused attitude.\n\nAs part of the dedicated Services Desk, the 1st Line Support Helpdesk Analyst will work closely with the team supporting and helping clients succeed through technology. As first line support, you will be the first point of contact, providing exceptional telephone and remote support and if necessary an onsite response Due to the fast pace of a 1st line team, we require 1st line engineers to work from the office 5 days a week. Working hours are 8.30am to 17:30\n\nThis is a fun and rewarding environment where people are looked after and enabled to reach their full potential\n\nDuties\n- Provide Remote/Onsite 1st Line support to clients relating to their core technologies - Microsoft 365, SharePoint, MS Desktop (Windows 11), Switches, Routers, Firewalls (WatchGuard), DHCP, DNS, MS Office (365), Antivirus, Printers & Active Directory\n- First point of contact for support calls\n- Installation work of core technologies - Microsoft 365, SharePoint, MS Desktop (Windows 11), Switches, Routers, Firewalls (WatchGuard), DHCP, DNS, MS Office (365), Antivirus, Printers & Active Directory\n- Achieve both personal and team Golden KPIs targets such as customer satisfaction\n- Working in order of SLA and priority of tickets\n- System documentation\n\nRequirements\n- Great customer service skills\n- Positive and passionate about technology\n- Good problem solving skills\n- 1st Line level Experience with most of our core technologies: Microsoft 365, SharePoint, MS Desktop (Windows 11), Switches, Routers, Firewalls (WatchGuard), DHCP, DNS, MS Office (2010/365), Antivirus, Printers & Active Directory\n\nBenefits\n- 25 days holiday\n- Your Birthday as a bonus annual leave day\n- Annual Staff Bonus\n- Pension scheme\n- 2 weeks of dedicated training days\n- Service Desk gamification rewards\n- Free onsite parking\n- Ride 2work Scheme\n- Fully airconditioned offices\n- Onsite Games Room\n- Dress down Fridays\n- Unlimited free fruit and soft drinks.\n- Beans to cup coffee machine\n- Company paid quarterly social events\n- New client introduction bonus\n- New staff introduction bonus\n- Regular anonymous pulse surveys to help us help you\n- PerkBox discounts and offers\n\nOur client values diversity and operates a fair recruitment process free of discrimination. Due to the nature of this role, candidates will be expected to pass security clearance.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?Dw9iAXzSqBYYWs1A2j%2fb6Qzvrwe0MNMYk",
     "source": "JobG8",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Academics",
+    "advertiser_name": "Constant Recruitment Ltd",
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
+    "salary_period": "Annual",
+    "posted_date_basis": "ontap_first_published"
+  },
+  {
+    "job_id": "107909704",
+    "title": "Waste & Recycling Contract Co-Ordinator",
+    "company": "FGS Industrial Facilities Management - Agency - Permanent",
+    "location": "Kent",
+    "region": "Kent",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "",
+    "posted_date": "2026-08-30",
+    "description": "Job Title: Waste & Recycling Contract Co-Ordinator\n\nLocation: Thames Road DA1 5 QJ / Footscray\n\nSalary: Competitive\n\nJob type: Full time, Permanent\n\nWorking Hours / Pattern: 42.5 hours per week, Monday to Friday\n\nAbout Us:\n\nFGS Industrial Facilities Management is a Kent based multi-skilled business capable of responding to the needs of industrial clients and their sites click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?bZCSDJyF3N7Chd9xx2yVlvGc3Sk4ruv2q",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "FGS Industrial Facilities Management",
+    "advertiser_type": "Agency",
+    "work_pattern": "Full Time",
     "salary_period": "Annual",
     "posted_date_basis": "ontap_first_published"
   },
@@ -953,6 +1025,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0279-26-2325",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -972,6 +1047,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4173-26-0008",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -991,6 +1069,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2248-26-0003",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1010,6 +1091,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4608-26-0008",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1029,6 +1113,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2753-26-0019",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1048,6 +1135,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0177-26-9074",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1067,6 +1157,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B0082-26-0054",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1086,6 +1179,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9359-26-0184",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1105,6 +1201,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9333-26-1080",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   }
 ]

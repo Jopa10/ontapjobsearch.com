@@ -1,19 +1,18 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-08-28T12:31:04+01:00",
+  "generated_at": "2026-08-30T18:31:22+01:00",
   "source": "Teaching Vacancies",
   "region": "Cambridgeshire",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-08-28",
-  "review_fingerprint": "6b87f4ebd2bc212ef623473fbe5ca9c8f46e0dcd7d968e3c025fc06072c778ff",
-  "routing_manifest_sha256": "317da4c3580a017af1ca5a40549214600dbbe16fe90e5315b920822a2f47f1ee",
-  "review_csv_sha256": "e5915e6f73691f22ae3e4ad85161bff986882d7a2fea241504b776e902d0858a",
-  "summary_md_sha256": "c5a102756140406073a056d87c92cb0f9b540d85d880104df75ae4ece1f83203",
-  "approved_snapshot_sha256": "5dac175da17bd924cb5460626215402f7169b01e1fc609985c0ce465b3d941cd",
-  "approved_rows": 16,
+  "review_date": "2026-08-30",
+  "review_fingerprint": "337d6fae864b4e31adee042f54b34c0ee3c8232717eedc73c75ee77d77cc9dfd",
+  "routing_manifest_sha256": "eb6bef78d15e154b4b783b6172d6a6ca6bdd0bb4b53a2f803a298e90ed30ff0e",
+  "review_csv_sha256": "02aa0655708276ca585ebf7410ce62689463b4db435c40278bba141618ac14ae",
+  "summary_md_sha256": "8976f8deafe6bee0abeacd386f0f2683e24574f2ce23bf16158f784f5c335731",
+  "approved_snapshot_sha256": "18ce2c6dee3eefcb472812e0cbc37c93229656a1bbeb8504d873c9be9c164a2d",
+  "approved_rows": 14,
   "approved_job_ids": [
-    "teaching-vacancies-exams-officer-cottenham-village-college-cambridge-cambridgeshire",
     "teaching-vacancies-admin-assistant-attendance-st-ivo-academy",
     "teaching-vacancies-administrative-assistant-dogsthorpe-academy",
     "teaching-vacancies-administrator-sen-and-careers",
@@ -27,7 +26,6 @@
     "teaching-vacancies-administrator-student-services-d8658259-60b3-4622-8d3d-f3f1d76a784e",
     "teaching-vacancies-data-administrator-799f6f5b-2740-4014-af1f-77a81945f8ec",
     "teaching-vacancies-send-administrator-swavesey-village-college",
-    "teaching-vacancies-marketing-communications-officer-2a432f35-1c7d-4c5e-90a3-e035ce925749",
     "teaching-vacancies-finance-admin-assistant-priory-junior-school-st-neots-cambridgeshire"
   ]
 }

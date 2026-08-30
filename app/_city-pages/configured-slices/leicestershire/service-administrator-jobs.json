@@ -22,9 +22,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Millgate School",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -50,9 +47,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Krishna Avanti Primary School",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -78,35 +72,7 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Loughborough College",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
-  },
-  {
-    "job_id": "107786802",
-    "title": "Recruitment Operations Coordinator",
-    "company": "R&V Group Ltd - Agency - Contract",
-    "location": "Leicestershire",
-    "region": "Leicestershire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Contract",
-    "salary_min": "16",
-    "salary_max": "16",
-    "salary_text": "£16 per hour",
-    "posted_date": "2026-08-23",
-    "description": "Recruitment Operations Coordinator R&V Group Ltd\n\nR&V Group Ltd is growing, and were looking for an enthusiastic, organised, and motivated Recruitment Operations Coordinatorto join our team.\n\nThis role is ideal if you enjoy working with people, staying organised, and thrive in a busy environment where no two days are the same click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?wTAUM266l6ezZNpIsq7dtG0j1ihGwXWhh",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "R&V Group Ltd",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225493612",
@@ -256,7 +222,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Customer enquiries",
+      "Records administration"
+    ]
   },
   {
     "job_id": "1642188",
@@ -356,7 +326,12 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Records administration",
+      "Systems administration",
+      "Data entry"
+    ]
   },
   {
     "job_id": "23643_225468339",
@@ -381,7 +356,12 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Email handling",
+      "Records administration",
+      "Systems administration"
+    ]
   },
   {
     "job_id": "23643_225453216",
@@ -506,7 +486,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Customer enquiries",
+      "Order processing"
+    ]
   },
   {
     "job_id": "23643_225514239",
@@ -581,7 +565,14 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Customer enquiries",
+      "Email handling",
+      "Data entry",
+      "Document preparation",
+      "Quotations"
+    ]
   },
   {
     "job_id": "23643_225528247",
@@ -631,7 +622,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Telephone handling",
+      "Quotations"
+    ]
   },
   {
     "job_id": "107759995",
@@ -850,6 +845,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9313-26-0379",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -869,6 +867,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0505-26-0221",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -888,6 +889,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9313-26-0357",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -907,6 +911,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9358-26-0573",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -926,6 +933,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9358-26-0543",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   }
 ]

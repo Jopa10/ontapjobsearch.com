@@ -14,9 +14,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 20
-- Selected: 3
-- POSS awaiting decision: 4
-- Excluded: 0
+- Selected: 5
+- POSS awaiting decision: 1
+- Excluded: 1
 - Hard pass: 13
 
 ## SELECTED
@@ -66,6 +66,36 @@ source_job_id: administrative-assistant-sixth-form-and-work-related-learning
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-sixth-form-and-work-related-learning
 ---
 
+---
+action: select
+SELECTED | Nottinghamshire | Nottingham, East Midlands, NG12 2FQ | Redhill Academy Trust Pay Scale, Band 6, Scale point 29 - 32 | House Support Asisstant
+employer: South Nottinghamshire Academy
+closing_date: 2026-09-04T12:00:00+01:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: e3e5d2ae25c785ab06eb065f9bbf094a44c7c9f65438c997a24f348d0ae16fee
+source: Teaching Vacancies
+source_job_id: house-support-asisstant
+source_url: https://teaching-vacancies.service.gov.uk/jobs/house-support-asisstant
+---
+
+---
+action: select
+SELECTED | Nottinghamshire | Nottingham, NG9 6RZ | £27,709.00 - £29,541.00 Annually (Actual) NJC8-12 | HR Administrator
+employer: The Spencer Academies Trust
+closing_date: 2026-08-31T12:00:00+01:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 1c8afe35cf3a9c8cd77715cbf45bd486d318efa025e9af61948f522da06bbeb9
+source: Teaching Vacancies
+source_job_id: hr-administrator-the-spencer-academies-trust
+source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-the-spencer-academies-trust
+---
+
 ## POSS — choose SELECT or EXCLUDE
 
 ---
@@ -83,39 +113,11 @@ source_job_id: exams-assistant-south-nottinghamshire-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-assistant-south-nottinghamshire-academy
 ---
 
----
-action: 
-POSS | Nottinghamshire | Nottingham, East Midlands, NG12 2FQ | Redhill Academy Trust Pay Scale, Band 6, Scale point 29 - 32 | House Support Asisstant
-employer: South Nottinghamshire Academy
-closing_date: 2026-09-04T12:00:00+01:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: e3e5d2ae25c785ab06eb065f9bbf094a44c7c9f65438c997a24f348d0ae16fee
-source: Teaching Vacancies
-source_job_id: house-support-asisstant
-source_url: https://teaching-vacancies.service.gov.uk/jobs/house-support-asisstant
----
+## EXCLUDED BY REVIEW
 
 ---
-action: 
-POSS | Nottinghamshire | Nottingham, NG9 6RZ | £27,709.00 - £29,541.00 Annually (Actual) NJC8-12 | HR Administrator
-employer: The Spencer Academies Trust
-closing_date: 2026-08-31T12:00:00+01:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 1c8afe35cf3a9c8cd77715cbf45bd486d318efa025e9af61948f522da06bbeb9
-source: Teaching Vacancies
-source_job_id: hr-administrator-the-spencer-academies-trust
-source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-the-spencer-academies-trust
----
-
----
-action: 
-POSS | Nottinghamshire | Nottingham, NG7 2TU | PO1 (£39,863 to £44,075 per year - April 2026 pay award pending) | Lead Governance Professional
+action: exclude
+EXCLUDED | Nottinghamshire | Nottingham, NG7 2TU | PO1 (£39,863 to £44,075 per year - April 2026 pay award pending) | Lead Governance Professional
 employer: Nova Education Trust
 closing_date: 2026-09-01T09:00:00+01:00
 reason: Borderline school administration title: governance professional
@@ -127,10 +129,6 @@ source: Teaching Vacancies
 source_job_id: lead-governance-professional-nova-education-trust
 source_url: https://teaching-vacancies.service.gov.uk/jobs/lead-governance-professional-nova-education-trust
 ---
-
-## EXCLUDED BY REVIEW
-
-- None.
 
 ## HARD_PASS
 

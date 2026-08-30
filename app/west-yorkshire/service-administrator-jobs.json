@@ -22,9 +22,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Benton Park School",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -50,9 +47,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Benton Park School",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -78,9 +72,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Oastlers School",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -106,9 +97,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Parkside School",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -134,9 +122,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "All Saints Catholic College",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -162,9 +147,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "All Saints Catholic College",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -190,9 +172,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "All Saints Catholic College",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -218,9 +197,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "The North Halifax Grammar School",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -246,9 +222,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Dixons McMillan Academy",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -274,9 +247,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Appleton Academy",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -302,9 +272,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Dixons Cottingley Academy",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -330,9 +297,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Fountain Primary School",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -408,7 +372,13 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Customer enquiries",
+      "Scheduling and bookings",
+      "Data entry",
+      "Document preparation"
+    ]
   },
   {
     "job_id": "23643_225515250",
@@ -433,7 +403,12 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Email handling",
+      "Systems administration",
+      "Pre-employment administration"
+    ]
   },
   {
     "job_id": "23643_225516031",
@@ -483,7 +458,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Scheduling and bookings",
+      "Document preparation"
+    ]
   },
   {
     "job_id": "23643_225524513",
@@ -508,7 +487,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Reporting",
+      "Quotations"
+    ]
   },
   {
     "job_id": "107908451",
@@ -586,31 +569,6 @@
     "posted_date_basis": "ontap_first_published"
   },
   {
-    "job_id": "107880419",
-    "title": "Bid Coordinator",
-    "company": "Ridge & Partners LLP - Agency - Permanent",
-    "location": "Leeds",
-    "region": "Yorkshire - West",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "",
-    "posted_date": "2026-08-24",
-    "description": "We have an exciting opportunity for a Bid Coordinators in our Leeds office to join a growing team of win professionals who work closely with technical colleagues across the business to secure new projects and drive growth.\n\nAlthough based in a local office, the individual will work as part of a wider bidding team that supports opportunities across the geographic region, they will also be an integral click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?vAYWCB8ag%2fjQT5Wzo%2bxyG4TbfXVI2yGWi",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Ridge & Partners LLP",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
-  },
-  {
     "job_id": "23643_225458763",
     "title": "Administrator",
     "company": "Moulds Accountants & Advisory Services - Agency - Permanent",
@@ -633,7 +591,12 @@
     "advertiser_type": "Agency",
     "work_pattern": "Part Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Telephone handling",
+      "Email handling",
+      "Records administration"
+    ]
   },
   {
     "job_id": "23643_225499042",
@@ -733,7 +696,12 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Reporting",
+      "Order processing",
+      "Delivery coordination"
+    ]
   },
   {
     "job_id": "23643_225463726",
@@ -783,7 +751,13 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Scheduling and bookings",
+      "Records administration",
+      "Systems administration",
+      "Quotations"
+    ]
   },
   {
     "job_id": "23643_225465858",
@@ -832,6 +806,31 @@
     "advertiser_name": "Winsearch",
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
+    "salary_period": "Hourly",
+    "posted_date_basis": "ontap_first_published"
+  },
+  {
+    "job_id": "1704534",
+    "title": "Customer Service Advisor",
+    "company": "Reed Talent Solutions - Agency - Permanent",
+    "location": "Wakefield",
+    "region": "Yorkshire - West",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "",
+    "posted_date": "2026-08-30",
+    "description": "Plug into Fujitsu-your next role is just a click away\n\nWhy Choose Fujitsu?\n\nFujitsu are a global leader in information and communications technology (ICT), offering innovative solutions across computing, networking, AI, data security, and emerging technologies.\n\nIf you're someone who enjoys helping people, has a natural interest in technology, and thrives in a busy, customer-focused environment, then apply below!\n\nWhy This Role?\n- Hourly Rate- £ 13.45, PAYE, paid weekly\n- Location: Wakefield WF1 2 UF (on site full-time)\n- Start date: ASAP\n- Assignment type: 6 months rolling contract (With possibility to become permanent based on performance) through Reed Talent Solutions, as Fujitsu's trusted recruitment partner.\n\nWhere Shifts Work for You\n- Monday- Friday, 9am-5pm / 8am- 4pm\n\nWhy Your Skills Matter\n\nIn this role we are looking for:\n- Customer Service & Communication- Ability to speak clearly and professionally with users, showing empathy and patience while resolving issues over the phone.\n- Call Handling & Ticket Management- Skilled in managing high volumes of calls, accurately logging support tickets, and ensuring timely follow-up on open cases.\n- Basic IT Knowledge- Understanding of common technical issues such as login problems, system access errors, and basic software troubleshooting.\n- Problem-Solving & Escalation- Able to follow structured troubleshooting steps and identify when to escalate more complex issues to technical teams.\n- Attention to Detail & Willingness to Learn- Careful and thorough in documenting issues and solutions, with a proactive attitude toward training and learning new systems and processes.\n\nWhere Your Work Makes an Impact\n\nDay-to-day responsibilities may include:\n- Respond to inbound calls and support requests from client employees experiencing technical issues.\n- Log and manage IT support tickets, ensuring accurate documentation and timely follow-up.\n- Troubleshoot basic IT problems, such as login issues, password resets, and system access errors.\n- Provide clear, friendly guidance to non-technical users, ensuring a positive customer experience.\n- Escalate complex or unresolved issues to internal IT teams or senior support staff.\n- Deliver excellent customer service, maintaining professionalism and empathy in every interaction.\n- Apply basic IT knowledge (e.g., understanding of operating systems, software applications, and connectivity basics) to resolve common issues.\n\nWhy Apply for This Role\n- Chance to go permanent based on performance and business needs\n- Chance to nurture and build on your interest and experience within IT\n\nWhere to Apply\n\nApply now with your most up-to-date CV. A member of the Reed team will be in touch to guide you through the next steps, which includes a telephone interview with Reed, onsite interview with Fujitsu, and pre-employment vetting via Reed ahead of your start date",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?d1vRzEYF65QOhT8x5EIfErynG%2fMQbWu%2fx",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Reed Talent Solutions",
+    "advertiser_type": "Agency",
+    "work_pattern": "Full Time",
     "salary_period": "Hourly",
     "posted_date_basis": "ontap_first_published"
   },
@@ -952,6 +951,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1174-26-0001",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -971,6 +973,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3394-26-0006",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -990,6 +995,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0145-26-0127",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1009,6 +1017,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1533-26-0007",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1028,6 +1039,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0505-26-0142",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1047,6 +1061,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E9847-26-0269",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1066,6 +1083,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2598-26-0009",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1085,6 +1105,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9372-26-0450",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1104,6 +1127,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/W0033-26-1144",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   }
 ]

@@ -1,5 +1,30 @@
 [
   {
+    "job_id": "teaching-vacancies-administrative-assistant-level-3-gosforth-academy-newcastle-upon-tyne-tyne-and-wear",
+    "title": "Administrative Assistant Level 3",
+    "company": "Gosforth Academy",
+    "location": "Newcastle-upon-Tyne",
+    "region": "North East",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "['full time']",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "£26,403.00 - £27,254.00 (£22,646 - £23,376)",
+    "work_pattern": "",
+    "posted_date": "2026-08-27",
+    "closing_date": "2026-09-10",
+    "closing_datetime": "2026-09-10T09:00:00+01:00",
+    "summary": "Administrative Assistant Level 3 with Gosforth Academy in Newcastle-upon-Tyne. ['full time']; £26,403.00 - £27,254.00 (£22,646 - £23,376).",
+    "description": "Gosforth Academy is recruiting for this vacancy in Newcastle-upon-Tyne.\n\nThe advertised position is Administrative Assistant Level 3.\n\nThe source lists the employment type as ['full time'].\n\nThe advertised salary or pay scale is £26,403.00 - £27,254.00 (£22,646 - £23,376).\n\nThe stated application deadline is 2026-09-10T09:00:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
+    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-level-3-gosforth-academy-newcastle-upon-tyne-tyne-and-wear?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
+    "source": "Teaching Vacancies",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "posted_date_basis": "source"
+  },
+  {
     "job_id": "nejobs-299277",
     "title": "Administrative Assistant",
     "company": "Durham County Council",
@@ -800,34 +825,6 @@
     "posted_date_basis": "ontap_first_published"
   },
   {
-    "job_id": "teaching-vacancies-administrative-assistant-level-3-gosforth-academy-newcastle-upon-tyne-tyne-and-wear",
-    "title": "Administrative Assistant Level 3",
-    "company": "Gosforth Academy",
-    "location": "Newcastle-upon-Tyne",
-    "region": "North East",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['full time']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "£26,403.00 - £27,254.00 (£22,646 - £23,376)",
-    "work_pattern": "",
-    "posted_date": "2026-08-27",
-    "closing_date": "2026-09-10",
-    "closing_datetime": "2026-09-10T09:00:00+01:00",
-    "summary": "Administrative Assistant Level 3 with Gosforth Academy in Newcastle-upon-Tyne. ['full time']; £26,403.00 - £27,254.00 (£22,646 - £23,376).",
-    "description": "Gosforth Academy is recruiting for this vacancy in Newcastle-upon-Tyne.\n\nThe advertised position is Administrative Assistant Level 3.\n\nThe source lists the employment type as ['full time'].\n\nThe advertised salary or pay scale is £26,403.00 - £27,254.00 (£22,646 - £23,376).\n\nThe stated application deadline is 2026-09-10T09:00:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-level-3-gosforth-academy-newcastle-upon-tyne-tyne-and-wear?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Gosforth Academy",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
-  },
-  {
     "job_id": "23643_225444106",
     "title": "Administrator Gateshead - Temp to Perm",
     "company": "Office Angels - Agency - Permanent",
@@ -850,7 +847,12 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Telephone handling",
+      "Email handling",
+      "Records administration"
+    ]
   },
   {
     "job_id": "23643_225445993",
@@ -950,7 +952,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Customer enquiries",
+      "Records administration"
+    ]
   },
   {
     "job_id": "23643_225474293",
@@ -1000,7 +1006,13 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Systems administration",
+      "Quotations",
+      "Order processing",
+      "Delivery coordination"
+    ]
   },
   {
     "job_id": "23643_225477938",
@@ -1025,7 +1037,12 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Customer enquiries",
+      "Quotations",
+      "Order processing"
+    ]
   },
   {
     "job_id": "23643_225515748",
@@ -1200,7 +1217,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Telephone handling",
+      "Data entry"
+    ]
   },
   {
     "job_id": "23643_225494451",
@@ -1225,32 +1246,12 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
-  },
-  {
-    "job_id": "107776158",
-    "title": "Finance Assistant",
-    "company": "National Learning Group - Agency - Permanent",
-    "location": "Tyne And Wear",
-    "region": "North East - Tyneside, Wearside & Northumberland",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "28000",
-    "salary_max": "28000",
-    "salary_text": "£28000 per year",
-    "posted_date": "2026-08-24",
-    "description": "Benefits\n- Competitive Salary - £25,500 - £28,000 (DOE)\n- 31 days Annual Leave (incl public holidays)\n- Full time, Permanent Position\n- Pension Scheme\n- Employee Assistance Programme\n- Health Cash Back Plan\n- Cost Price Tutoring\n- Casual Dress Code\n- Progression Opportunities\n- Fun and Friendly Atmosphere\n\nNational Learning Group is looking for a confident and organised Finance Assistant to take ownership of cash collection and click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?6WDmO0cNttrq4cW%2fFgCpOtkkKZp1HSXba",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "National Learning Group",
-    "advertiser_type": "Agency",
-    "work_pattern": "Full Time",
-    "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Customer enquiries",
+      "Scheduling and bookings",
+      "Records administration"
+    ]
   },
   {
     "job_id": "107752679",
@@ -1300,6 +1301,36 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Customer enquiries",
+      "Scheduling and bookings",
+      "Records administration"
+    ]
+  },
+  {
+    "job_id": "1720386",
+    "title": "Service Desk Analyst",
+    "company": "Sellick Partnership - Agency - Permanent",
+    "location": "County Durham",
+    "region": "North East - County Durham & Darlington/Hartlepool",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "30000",
+    "salary_max": "30000",
+    "salary_text": "£30000 per year",
+    "posted_date": "2026-08-30",
+    "description": "ICT Service Desk Analyst\nLocation: County Durham\nSalary: Up to £30k\nWorking Pattern: 4 Day week, 8am - 6pm\nOffice Attendance: Hybrid working, occasional travel to other site\n\nWe are recruiting for an experienced ICT Service Desk Analyst to join a growing Technology Services team. This is an exciting opportunity to support a modern IT environment, providing high-quality 1st and 2nd line technical support while contributing to digital transformation and continuous service improvement.\n\nWorking as part of a collaborative IT team, you'll be responsible for supporting end users across a broad range of technologies, resolving technical issues, maintaining IT assets, and assisting with infrastructure and business technology projects. You'll play a key role in ensuring technology services remain reliable, secure and customer focused.\n\nKey Responsibilities\n- Provide 1st and 2nd line technical support for hardware, software and business applications.\n- Diagnose, troubleshoot and resolve incidents, escalating where specialist support is required.\n- Deliver routine service requests and approved changes in line with IT service management processes. Maintain accurate records of IT assets, incidents and service requests.\n- Support the deployment, configuration and management of laptops, desktops, mobile devices and associated technologies.\n- Assist with infrastructure, networking and end-user computing projects.\n- Contribute to incident, problem and change management activities to improve service performance.\n- Provide onsite technical support across organisational locations where required.\n- Support business continuity and disaster recovery activities. Participate in an on-call and out-of-hours support rota where applicable.\n- Work collaboratively with colleagues to identify opportunities for service improvement and digital transformation.\n- Deliver excellent customer service, ensuring users receive timely and effective technical support.\n\nAbout You\n- Experience working within an IT Service Desk or technical support environment.\n- A relevant IT qualification or equivalent practical experience.\n- Strong troubleshooting and problem-solving skills. Knowledge of Incident, Problem and Change Management best practices.\n- Excellent customer service and communication skills.\n- Experience supporting Windows devices, Microsoft 365 and end-user hardware.\n- The ability to prioritise workload and manage multiple support requests.\n- Experience working collaboratively within a technical team.\n\nDesirable:\n- ITIL Foundation certification.\n- Experience supporting networking, infrastructure or cloud technologies.\n- Knowledge of IT asset management and mobile device management.\n- Understanding of information security and data protection principles.\n- Full UK driving licence.\n\nWhat's on Offer\n- Permanent opportunity within a supportive and collaborative IT team.\n- Hybrid working arrangement.\n- Opportunities for professional development and technical training.\n- Exposure to a broad range of technologies and digital transformation initiatives.\n- Opportunity to contribute to service improvement and modernisation projects.\n- Competitive salary and comprehensive employee benefits package.\n\nIf you're passionate about delivering excellent IT support and enjoy working in a fast-paced, customer-focused environment, we'd love to hear from you.\n\nSellick Partnership is proud to be an inclusive and accessible recruitment business and we support applications from candidates of all backgrounds and circumstances. Please note, our advertisements use years' experience, hourly rates, and salary levels purely as a guide and we assess applications based on the experience and skills evidenced on the CV. For information on how your personal details may be used by Sellick Partnership, please review our data processing notice on our website.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?kjuUUj3TFp79%2bTQCZgOEBXS4BU0dh1YIg",
+    "source": "JobG8",
+    "working_arrangement": "hybrid",
+    "working_arrangement_text": "Hybrid working",
+    "working_arrangement_evidence": "Service Desk Analyst ICT Service Desk Analyst Location: County Durham Salary: Up to £30k Working Pattern: 4 Day week, 8am - 6pm Office Attendance: Hybrid working, occasional travel to other site We are recruiting for an experienced ICT Service Desk Analyst to join a growing Technology Services team.",
+    "advertiser_name": "Sellick Partnership",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Annual",
     "posted_date_basis": "ontap_first_published"
   },
   {
@@ -1344,6 +1375,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9263-26-0825",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1363,6 +1397,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9263-26-0818",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1382,6 +1419,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9263-26-0783",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1401,6 +1441,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/W0033-26-1106",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1420,6 +1463,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2611-26-0005",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1439,6 +1485,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/W0033-26-1091",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1458,6 +1507,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5604-26-0001",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1477,6 +1529,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1466-26-0010",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1496,6 +1551,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9346-26-1018",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1515,6 +1573,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3912-26-0001",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1534,6 +1595,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1981-26-0009",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1553,6 +1617,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0814-26-0007",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1572,6 +1639,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5962-26-0005",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   }
 ]

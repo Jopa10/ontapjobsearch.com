@@ -14,8 +14,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 28
-- Selected: 11
-- POSS awaiting decision: 2
+- Selected: 12
+- POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 15
 
@@ -49,6 +49,21 @@ factual_fingerprint: 62ddf1c60bc77af3e8a2087e03ac48d1b6b265d251b75839b65bd7f52c4
 source: Teaching Vacancies
 source_job_id: academy-administrator-l3-dixons-cottingley-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/academy-administrator-l3-dixons-cottingley-academy
+---
+
+---
+action: select
+SELECTED | Yorkshire - West | Leeds, Yorkshire and the Humber, LS19 6LX | £21,870.00 - £22,213.00 Annually (Actual) Full Time, Term time only plus 10 days | Administrator
+employer: Benton Park School
+closing_date: 2026-08-31T08:00:00+01:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: NEW_REVIEW
+factual_fingerprint: 68aa9cf7b6163d35229754cd1a615d924ea680f24abaa483a547cce8e3c418de
+source: Teaching Vacancies
+source_job_id: administrator-466b2045-c1e3-4fa9-bf7e-e43eb5901ad7
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-466b2045-c1e3-4fa9-bf7e-e43eb5901ad7
 ---
 
 ---
@@ -187,21 +202,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/specialist-administra
 ---
 
 ## POSS — choose SELECT or EXCLUDE
-
----
-action: 
-POSS | Yorkshire - West | Leeds, Yorkshire and the Humber, LS19 6LX | £21,870.00 - £22,213.00 Annually (Actual) Full Time, Term time only plus 10 days | Administrator
-employer: Benton Park School
-closing_date: 2026-08-31T08:00:00+01:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: NEW_REVIEW
-factual_fingerprint: 68aa9cf7b6163d35229754cd1a615d924ea680f24abaa483a547cce8e3c418de
-source: Teaching Vacancies
-source_job_id: administrator-466b2045-c1e3-4fa9-bf7e-e43eb5901ad7
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-466b2045-c1e3-4fa9-bf7e-e43eb5901ad7
----
 
 ---
 action: 

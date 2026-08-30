@@ -1,20 +1,18 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-08-28T12:31:08+01:00",
+  "generated_at": "2026-08-30T18:31:25+01:00",
   "source": "Teaching Vacancies",
   "region": "Northamptonshire",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-08-28",
-  "review_fingerprint": "990a52c1de753e5ac761d3182e3471bb40382c354a084aebaabb68c4133f13a0",
-  "routing_manifest_sha256": "317da4c3580a017af1ca5a40549214600dbbe16fe90e5315b920822a2f47f1ee",
-  "review_csv_sha256": "4f1faf8e3fa35f5ffa8944ec72cde9f4f3cd5452cb5113ebb2d71f90a6730869",
-  "summary_md_sha256": "29c4a99a338708b7e2336cc1a8ee0472ce2d405941adf8ec5815d6920020b41a",
-  "approved_snapshot_sha256": "893242995e325baac4be5a14d856d0b2e8156c4280334d5f0b0adec10508dd0a",
-  "approved_rows": 4,
+  "review_date": "2026-08-30",
+  "review_fingerprint": "43e0b994095f66529259178a3cff8d0d3d5d305bc91e97c22ba370358d5666ec",
+  "routing_manifest_sha256": "eb6bef78d15e154b4b783b6172d6a6ca6bdd0bb4b53a2f803a298e90ed30ff0e",
+  "review_csv_sha256": "86ff0542d02a43feb7075239e7bf46361db9519b57bc964c2e06ad47d79e8776",
+  "summary_md_sha256": "9c9f9e67ee37aa08ce1a8e2367b1b39e473ade477c7aeea409db64943449d02f",
+  "approved_snapshot_sha256": "014c291da6276ee638e80518dedf8e306c10a697eeac9634bf09e25086d19089",
+  "approved_rows": 2,
   "approved_job_ids": [
-    "teaching-vacancies-receptionist-olympic-primary-wellingborough",
-    "teaching-vacancies-receptionist-administrator-northgate-school-academy-trust",
     "teaching-vacancies-attendance-officer-studfall-infant-academy",
     "teaching-vacancies-admin-assistant-barry-primary-school"
   ]

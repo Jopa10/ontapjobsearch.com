@@ -14,8 +14,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 12
-- Selected: 4
-- POSS awaiting decision: 1
+- Selected: 5
+- POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 7
 
@@ -67,6 +67,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/lead-administrator-li
 ---
 
 ---
+action: select
+SELECTED | Essex | Braintree, East of England, CM7 1WY | Scale 3, Point 4 – 5 | Receptionist
+employer: Notley High School and Braintree Sixth Form
+closing_date: 2026-08-30T23:59:00+01:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 027d840408b93a5de6fdfd2ad3a45ffbf462287282d2a8a0a6d2bd681b556a34
+source: Teaching Vacancies
+source_job_id: receptionist-notley-high-school-and-braintree-sixth-form-braintree-essex
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-notley-high-school-and-braintree-sixth-form-braintree-essex
+---
+
+---
 action: 
 SELECTED | Essex | Brentwood, CM13 2HG | £25,415.00 - £25,812.00 Annually (Actual) Essex Pay Scale 4 Point 8-9 | Trust Administrator
 employer: Discovery Educational Trust
@@ -83,20 +98,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/trust-administrator-d
 
 ## POSS — choose SELECT or EXCLUDE
 
----
-action: 
-POSS | Essex | Braintree, East of England, CM7 1WY | Scale 3, Point 4 – 5 | Receptionist
-employer: Notley High School and Braintree Sixth Form
-closing_date: 2026-08-30T23:59:00+01:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 027d840408b93a5de6fdfd2ad3a45ffbf462287282d2a8a0a6d2bd681b556a34
-source: Teaching Vacancies
-source_job_id: receptionist-notley-high-school-and-braintree-sixth-form-braintree-essex
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-notley-high-school-and-braintree-sixth-form-braintree-essex
----
+- None.
 
 ## EXCLUDED BY REVIEW
 

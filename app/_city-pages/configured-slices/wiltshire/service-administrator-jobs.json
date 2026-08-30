@@ -22,9 +22,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Lavington School",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -50,9 +47,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Diocese Of Salisbury Academy Trust",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -78,9 +72,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Excalibur Academies Trust",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -131,7 +122,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Records administration",
+      "Document preparation"
+    ]
   },
   {
     "job_id": "23643_225475225",
@@ -206,7 +201,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Telephone handling",
+      "Order processing"
+    ]
   },
   {
     "job_id": "23643_225454192",
@@ -231,7 +230,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Telephone handling",
+      "Order processing"
+    ]
   },
   {
     "job_id": "23643_225478870",
@@ -281,7 +284,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Email handling",
+      "Systems administration"
+    ]
   },
   {
     "job_id": "23643_225515784",
@@ -303,81 +310,6 @@
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
     "advertiser_name": "247 Lifeline",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
-  },
-  {
-    "job_id": "107888215",
-    "title": "Financial Services Administrator",
-    "company": "Thrive Group - Agency - Permanent",
-    "location": "Wiltshire",
-    "region": "Wiltshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "",
-    "posted_date": "2026-08-24",
-    "description": "Thrive Trowbridge are delighted to be working with a growing financial planning practice who are looking to recruit a Financial Services Administrator to support to join their vibrant team on a permanent basis.\nWhat you will be doing:\nSupporting the Paraplanners and Advisors, you will collate and organise client policy information click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?Yic9job4bS9cL96e2gh7YDkcDYhjMCASc",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Thrive Group",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
-  },
-  {
-    "job_id": "107709806",
-    "title": "Administrator",
-    "company": "Walsh Employment - Agency - Permanent",
-    "location": "Wiltshire",
-    "region": "Wiltshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "30000",
-    "salary_max": "30000",
-    "salary_text": "£30000 per year",
-    "posted_date": "2026-08-27",
-    "description": "Administrator\n\nLocation: Marlborough, Wiltshire\nSalary:£25-32 K plus excellent benefits package\n\nAbout the Opportunity\n\nOur client is a prestigious specialist law firm based in Marlborough, recognised for its high professional standards, client-focused service and collaborative working environment click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?eq2PR%2bX5ctzD2p54z5RSBACcNmA7JL%2f0p",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Walsh Employment",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
-  },
-  {
-    "job_id": "107764572",
-    "title": "Care Coordinator",
-    "company": "Radfield Home Care Chippenham - Agency - Permanent",
-    "location": "Wiltshire",
-    "region": "Wiltshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "28000",
-    "salary_max": "28000",
-    "salary_text": "£28000 per year",
-    "posted_date": "2026-08-12",
-    "description": "At Radfield Home Care\n\nAt Radfield Home Care, we're passionate about helping people enjoy later life while supporting them to remain independent in the comfort of their own homes. Our Care Coordinators are a vital part of making this possible by ensuring high-quality care is delivered consistently and efficiently click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?MQiKzVwZdh2rAd3gTXzS1uhvDDodSTLiu",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Radfield Home Care Chippenham",
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
@@ -409,34 +341,9 @@
     "posted_date_basis": "ontap_first_published"
   },
   {
-    "job_id": "107901582",
-    "title": "Accounts Assistant / Accounts Administrator",
-    "company": "TSR Legal - Agency - Permanent",
-    "location": "Wiltshire",
-    "region": "Wiltshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "28000",
-    "salary_max": "28000",
-    "salary_text": "£28000 per year",
-    "posted_date": "2026-08-27",
-    "description": "Accounts Assistant / Accounts Administrator Devizes\n\nDevizes Full-time Permanent Salary dependent on experience\n\nTSR Legal are delighted to be working with a well-established and highly regarded law firm in Wiltshire who are looking to strengthen their accounts team with the appointment of an Accounts Assistant or Accounts Administrator click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?bZCSDJyF3N5wESxKh9H6lQvfgLAmVtbZq",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "TSR Legal",
-    "advertiser_type": "Agency",
-    "work_pattern": "Full Time",
-    "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
-  },
-  {
-    "job_id": "107906394",
-    "title": "Service Advisor",
-    "company": "Thrive Group - Agency - Permanent",
+    "job_id": "1788176",
+    "title": "Team Coordinator",
+    "company": "Exponential-e - Agency - Permanent",
     "location": "Wiltshire",
     "region": "Wiltshire",
     "country": "UK",
@@ -445,18 +352,22 @@
     "salary_min": "",
     "salary_max": "",
     "salary_text": "",
-    "posted_date": "2026-08-29",
-    "description": "Thrive Group are delighted to be working with our client based in Trowbridge who a looking to recruit a Service Advisor on a permanent basis\n\nWhat you will be doing:\n- Greet customers bringing in their vehicle to find out if they any issues.\n- Conduct vehicle inspections and provide detailed reports to customers click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?nbYVUHO1tX58v15eyNty%2fxtX%2bB3d86%2fpz",
+    "posted_date": "2026-08-30",
+    "description": "Exponential-e\n\nFounded in 2002, Exponential-e swiftly established itself as a UK Cloud, Connectivity and Communications pioneer. Throughout our history, a focus upon leveraging leading-edge technology to deliver profitable and innovative services to our clients and prospects has resulted in industry and peer recognition for our ground-breaking approach, a truly world-class ICT services company.\n\nWe're a company of innovators who think big and achieve bigger! Our people are crucial to the continuing success of our company. From our CEO to our new Graduates, each of our people demonstrates our PRIDE principles which are at the core of everything we do.\n\nOverall purpose of the job:\n- Support internal teams to deliver Vysiion solutions and services to customers predominantly focused on the Critical National Infrastructure sector.\n- Provide administrative and coordination support primarily to the Field Services and Data Centre teams, whilst also providing flexible support to other operations teams across the business as required.\n- The role will additionally provide administrative and facilities support for the Chippenham office, acting as the local point of contact for office administration and facilities matters. This will include coordinating with internal stakeholders and external suppliers to ensure the efficient day-to-day running of the office.\n\nKey responsibilities for this job:\n- Assisting with the development of project plans, including defining objectives, scope, H&S documentation and timelines.\n- Assist with the preparation, coordination & distribution of job packs (Technical Support will provided).\n- Providing administrative and logistical support to the Field Services team & delivery managers.\n- Coordinating resources (personnel, equipment, materials, accommodation bookings & fleet) to ensure efficient project execution.\n- Electronic filing of documentation internally and customer (including from site) within the appropriate file structure.\n- H&S - Equipment maintenance and inspection as per maintenance regime and updating registers.\n- Procurement of materials and liaising with suppliers as required. Responsible for goods receipting of all materials and maintaining records accordingly.\n- Coordinate change management activities to ensure timely delivery allowing benefits to be realised at earliest opportunity.\n- Actively manage and update schedules, KanBan board tasks, Meisterplan and Ops Reports through liaison with project engineers, contractors and project managers.\n- Update action logs, take minutes, prepare documentation and arrange meetings.\n- Assess risks and issues, work with teams to explore, develop and deliver effective mitigation and contingency countermeasures.\n- Provide a consolidation of outcomes from projects and feed these back into the business to assist future sales opportunities and the harvesting of active accounts for additional revenue.\n- Set high expectations concerning quality and put in place quality assurance processes in line with existing ISO accreditation's.\n- Validate that operations team activities, operate within, or in harmony with company policies and procedures.\n- Responsible for the monthly consolidation of project financial reports and explore new reporting and performance measures to underpin decision making.\n- Provide validation of project (financial) accounting with corporate financial managers.\n- Liaise with managers to capture and monitor cost and revenue across projects.\n- Any other fair and reasonable task or duty assigned to you by your manager, or other senior Exponential-e Ltd staff member\n\nKnowledge and experience required:\n- Experience working within an administrative or coordination role.\n- Competent user of M365 tools including Excel.\n- Excellent stakeholder management skills with the ability to establish and maintain positive working relationships with others.\n- Ability to manage multiple tasks, prioritize effectively and meet deadlines.\n- Excellent written and verbal communication skills.\n- Ability to work collaboratively and effectively with others to resolve problems.\n- The successful candidate must be eligible to obtain and maintain SC clearance for the duration of their employment in this role.\n- All applicants to Exponential-e Group will undergo a Baseline Personnel Security Standard check.\n\nDesirable knowledge and experience:\n- Experience working within a field engineering or project delivery environment\n\nOur People\n\nOur people are what makes Exponential-e Group the company it is today. This year's employee survey highlighted that 81% of employees who took the survey, would recommend a friend to work for our organisation.\n\nLearning and development are fundamental parts of daily life at Exponential-e. From their first day at the company, everyone is provided ample opportunities to develop their skills and broaden their horizons, with our own L&D team running a range of bespoke courses, based on the latest innovations and challenges across the digital landscape.\n\nExponential-e Group is committed to providing equal opportunities in employment and treating all employees with respect and dignity. The company respects and values the diversity of its staff, striving to maintain an environment where there is opportunity for everyone to feel valued, their talents to be utilised and for both personal and organisational aspirations to be met. Every employee plays a vital role in helping to create an inclusive working environment by understanding and harnessing difference in a positive way.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?d1vRzEYF65Qg5U5etVviWj08I3s9pf9Ex",
     "source": "JobG8",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Thrive Group",
+    "advertiser_name": "Exponential-e",
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Scheduling and bookings",
+      "Records administration"
+    ]
   },
   {
     "job_id": "nhs-5559783",
@@ -475,6 +386,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5768-26-0004",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -494,6 +408,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4324-260824",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -513,25 +430,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/L0034-26-3479",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "posted_date_basis": "source"
-  },
-  {
-    "job_id": "nhs-5535946",
-    "source": "NHS Jobs",
-    "title": "Panel Administrator",
-    "company": "Wiltshire Council",
-    "advertiser_name": "Wiltshire Council",
-    "location": "Trowbridge, BA14 8JN, BRISTOL, BS1 6XN, GLOUCESTER, GL1 2TP",
-    "region": "Wiltshire",
-    "salary": "£15452.00 to £15949.00",
-    "employment_type": "Permanent",
-    "posted_date": "2026-08-13T07:39:00.204268052",
-    "closing_date": "2026-08-31",
-    "description": "***WE ARE CURRENTLY UNABLE TO ACCEPT APPLICATIONS DIRECT ON NHS JOBS. IF YOU WISH TO BE CONSIDERED FOR THE ROLE PLEASE APPLY ON OUR WEBSITE OR COPY AND PASTE THE LINK BELOW IN TO YOUR BROWSER*** https://fa-euxi-saasfaukgovprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/8118/?utm_medium=jobshare&utm_source=External+Job+Share Adoption West is a regional adoption agency and registered voluntary adoption agency that provides adoption services for Bath & North East Somerset, Bristol, Gloucestershire, North Somerset, South Gloucestershire and Wiltshire Councils. Adoption West operates out of 3 hubs across the region, with offices based in Bristol, Gloucester and Trowbridge. You will be part of the wider Business Support Team, ensuring that all administration systems and processes are maintained and developed to meet the performance needs of the service. The role will also provide secretarial support for confidential and sensitive matters relating to various investigations, providing a fully responsive and flexible business support service within the department. Prepare and plan agendas for statutory Adoption Panels. Co-ordinating papers to ensure members have everything required to make safe recommendations to the Agency Decision Maker in relation to adopter approvals and adoption placements To attend and take full, formal and detailed minutes of the confidential Adoption Panels which are a statutory requirement. Minutes produced are distributed within and outside the organisation, forming part of a childs record. To attend and take full minutes of other confidential meetings. To initiate and maintain systems for the recording of panel items and changes to data as required. Finding solutions to unexpected problems such as Panel quoracy, missing paperwork, unexpected gaps in agendas To organise and book the Adoption Panels, along with co-ordinating independent and internal panel members attendance to ensure quoracy. Responsibility for the organisation of associated activities relating to Adoption Panels such as conferences, annual events, training days, etc; undertaking all associated activities (e.g. booking of venues, refreshments etc) assist the wider service in providing an effective and efficient administrative support function answer routine enquiries from service users, and internal and external customers, and ensure that enquiries are responded to professionally and relayed accurately maintaining systems / spreadsheets as appropriate to aid monitoring processes and enable the production of accurate records. The daily working environment for all administrative staff therefore necessitates dealing with distressing and sensitive information.Under the direction of the Administration Manager manage own workload and prioritise effectively:-1.To provide a confidential, secretarial minute taking and admin support service to Adoption Wests Adoption Panels and other meetings as required. Panels are held frequently and the post holder is responsible for ensuring Agendas are efficiently arranged, quoracy is maintained and that statutory guidelines and timescales are met.2.To be part of the wider Business Support Team, ensuring that all departmental systems and processes are maintained and developed to meet the performance needs of the service;3.To provide secretarial support for all confidential and sensitive matters relating to various investigations, providing a fully responsive and flexible business support service within the department.Specific duties and responsibilities include:Minute Taking and Administering MeetingsTo service meetings, including:-Prepare and plan agendas for statutory Adoption Panels. Co-ordinating papers to ensure members have everything required to make safe recommendations to the Agency Decision Maker in relation to adoption placementsTo attend and take full, formal and detailed minutes of the confidential Adoption Panels which are a statutory requirement. Minutes produced are distributed within and outside the organization and are kept for up to 100 years, forming part of a childs record. It is vital that minutes are accurate as failure to do so could lead to an illegal and potentially dangerous placement of a childTo attend and take full minutes of other confidential meetings.To initiate and maintain systems for the recording of panel items and changes to data as required.Liaise with all attendees of meetings and act as the contact point for communications. Attendees may be internal or external to the organization. Actions to be taken will include agreeing Panel member attendance to ensure quoracy and equity of attendance across the year; management of agenda items to ensure Panels run efficiently including postponing or replacing items.Finding solutions to unexpected problems such as Panel quoracy, missing paperwork, unexpected gaps in agendasOrganisation and Co-ordination ActivitiesTo organise and book the Adoption Panels, along with co-ordinating independent and internal panel members attendance to ensure quoracy.Responsibility for the organisation of associated activities relating to Adoption Panels such as conferences, annual events, training days, etc; undertaking all associated activities (e.g. booking of venues, refreshments etc)Text ProcessingTo apply a high skill level to the production of all text processing as required by senior managers (e.g. Complex reports, tables, minutes, presentations, leaflets, brochures, statistics etc), including the drafting of routine correspondence in the absence of managers; utilising shorthand skills and copy typing as required.Customer Care -To ensure a professional response service to all callers, including:-Being the point of contact for communications, ensuring the highest level of confidentiality, tact and discretion.Providing advice and guidance on Panel processes and requirements to practitioners, managers and attendees as necessary.Records and Information Systems -To be responsible for all records and information held in relation Adoption Panels, including:-Maintaining a confidential filing system, holding sensitive records, both electronic and paper based, ensuring the security of information/data and complying with policy and procedure.To assist with the maintenance of departmental databases Charms and operate all software systems, ensuring the accurate collection and recording of data and information.To interrogate and produce reports from various systems for senior managers as required.To collate statistical and other management information as requested.General Administrative Duties -To support the Business Services Team to deliver the full range of secretarial and administrative services across the Department, including:-To provide advice/guidance to other administrative staff as necessaryTo carry out specific project work, under the direction of the managerTo undertake routine processes associated with Reviews/Conferences of Children who are In Care and subject to Child Protection ProceduresTo respond flexibly to the needs of the whole service, providing cover across teams/Offices as and when requiredAssist in the development of all systems/procedures operating with the Team/Area",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/F0041-8118",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/F0041-8118",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   }
 ]
