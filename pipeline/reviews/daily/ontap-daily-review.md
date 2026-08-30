@@ -4,9 +4,9 @@
 > All active sources are current for 2026-08-30. You can start reviewing.
 
 review_date: 2026-08-30
-generated_at: 2026-08-30T12:32:26+00:00
+generated_at: 2026-08-30T13:16:37+00:00
 
-**21 job(s) need a human decision.**
+**19 job(s) need a human decision.**
 
 Edit only each `action:` line:
 - `action: select` = include the vacancy.
@@ -21,49 +21,15 @@ Edit only each `action:` line:
 
 | Source | Status | Review date | Needs review | Note |
 |---|---|---|---:|---|
-| JobG8 | OK | 2026-08-30 | 2 | — |
+| JobG8 | OK | 2026-08-30 | 0 | — |
 | NEJobs | OK | 2026-08-30 | 0 | — |
 | VONNE | OK | 2026-08-30 | 0 | — |
 | Teaching Vacancies | OK | 2026-08-30 | 19 | — |
 | NHS Jobs | OK | 2026-08-30 | 0 | automatic Tier A/B publish; NHS POSS stays in the NHS-specific review and is optional |
 
-## JobG8 — 2 to review
+## JobG8 — 0 to review
 
----
-action:
-POSS | JobG8 | Buckinghamshire | Buckinghamshire | £16.63 per hour | Personal Assistant
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 23643_225446883
-title: Personal Assistant
-employer: 
-location: Buckinghamshire
-region: Buckinghamshire
-salary: £16.63 per hour
-closing_date: 
-reason: JobG8 selector marked this vacancy POSS
-source_url: 
-hub_fingerprint: ec6203c074bcf5cb029724753054267bc03399fdf235c2b0564cbb565ac16336
----
-
----
-action:
-POSS | JobG8 | Yorkshire - East | Brough | £19.5 per hour | Personal Assistant
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 23643_225444500
-title: Personal Assistant
-employer: 
-location: Brough
-region: Yorkshire - East
-salary: £19.5 per hour
-closing_date: 
-reason: JobG8 selector marked this vacancy POSS
-source_url: 
-hub_fingerprint: b42cbce77ee0aa851ecafae67dbcdbc03a03d6ce239a1ef09274ad9a6f3b329e
----
+_No new or changed human decisions required._
 
 ## NEJobs — 0 to review
 
