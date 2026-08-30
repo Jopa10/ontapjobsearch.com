@@ -12,14 +12,14 @@ Edit only the `action:` line in each unresolved block:
 
 ## TOTALS
 
-- All routed roles: **533**
-- REVIEW NOW (LIVE regions): **484**
-- EDITABLE NOW (no remembered action): **450**
+- All routed roles: **527**
+- REVIEW NOW (LIVE regions): **478**
+- EDITABLE NOW (no remembered action): **444**
 - REMEMBERED / RESOLVED: **34**
 - DEFERRED - REGION NOT LIVE: **49**
-- SELECTED: **190**
+- SELECTED: **189**
 - POSS: **19**
-- HARD PASS / EXCLUDED: **275**
+- HARD PASS / EXCLUDED: **270**
 
 ## BERKSHIRE — SELECTED
 
@@ -130,17 +130,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-administra
 
 ---
 action:
-SELECTED | Bristol & Bath | Bristol, South West, BS7 9RP | £25,989.00 - £26,403.00 Annually (FTE) | Digital Marketing Administrator
-employer: Filton Avenue Primary School
-closing_date: 2026-09-01T09:00:00+01:00
-reason: Clear admin/service title: administrator
-factual_fingerprint: 70c29abe8caf12fd84911969c88a07acaf02b5adfa868d4eea9992311b4a74d6
-source_job_id: digital-marketing-administrator-filton-avenue-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/digital-marketing-administrator-filton-avenue-primary-school
----
-
----
-action:
 SELECTED | Bristol & Bath | Bristol, South West, BS3 5NR | £17,506.00 - £17,785.00 Annually (Actual) N6 (£25,989) - N7 (£26,403) FTE, ACTUAL salary £17,506.19 - £17,785.06 | School Administrator
 employer: Parson Street Primary School
 closing_date: 2026-09-13T23:00:00+01:00
@@ -180,6 +169,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-af
 
 ---
 action:
+SELECTED | Buckinghamshire | Aylesbury, HP22 6NL | £37,772.00 - £41,272.00 Annually (FTE) Bucks Pay Range 6 (point 31 - 35), pro-rata for 40 weeks per annum | Examinations Officer
+employer: Chiltern Way Academy Trust
+closing_date: 2026-09-13T20:00:00+01:00
+reason: Clear admin/service title: examinations officer
+factual_fingerprint: 259894bf98a91ee74c3022a25e438ee528eab4f82e5a835b5225febf7925969a
+source_job_id: examinations-officer-aeb29f97-ce81-41ec-8b38-81ed01e3315f
+source_url: https://teaching-vacancies.service.gov.uk/jobs/examinations-officer-aeb29f97-ce81-41ec-8b38-81ed01e3315f
+---
+
+---
+action:
 SELECTED | Buckinghamshire | Milton Keynes, South East, MK17 8XY | £26,824.00 Annually (FTE) Grade D, £26,824 per annum | HR Administrator
 employer: Glebe Farm School
 closing_date: 2026-09-01T12:00:00+01:00
@@ -202,17 +202,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-
 
 ---
 action:
-SELECTED | Buckinghamshire | High Wycombe, South East, HP15 6SP | £34,319.00 - £41,272.00 Annually (Actual) | PA to Headteacher
-employer: Holmer Green Senior School
-closing_date: 2026-09-01T09:00:00+01:00
-reason: Clear admin/service title: pa to
-factual_fingerprint: 3c45923266735b2528419ba5bbf83f236d909ef19bc00476d790825c111ef96e
-source_job_id: pa-to-headteacher-holmer-green-senior-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/pa-to-headteacher-holmer-green-senior-school
----
-
----
-action:
 SELECTED | Buckinghamshire | High Wycombe, South East, HP15 6SP | £17,318.00 - £18,768.00 Annually (Actual) | Receptionist and Faculty Support Assistant
 employer: Holmer Green Senior School
 closing_date: 2026-09-04T09:00:00+01:00
@@ -227,6 +216,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-and-facu
 _No jobs in this group._
 
 ## CAMBRIDGESHIRE — SELECTED
+
+---
+action:
+SELECTED | Cambridgeshire | Wisbech, East of England, PE13 1PJ | £24,871.00 Annually (FTE) | Admin Assistant (Maternity Cover)
+employer: Peckover Primary School
+closing_date: 2026-09-02T12:00:00+01:00
+reason: Clear admin/service title: admin assistant
+factual_fingerprint: 18c773d8cae6ea3d386f3908f2cb86fe1cf109cab38ff589ae78239f7fc0b69d
+source_job_id: admin-assistant-maternity-cover-peckover-primary-school-wisbech-cambridgeshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-maternity-cover-peckover-primary-school-wisbech-cambridgeshire
+---
 
 ---
 action:
@@ -521,17 +521,6 @@ source_job_id: receptionist-administrator-first-aid-plymstock-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrator-first-aid-plymstock-school
 ---
 
----
-action:
-SELECTED | Devon | Torquay, South West, TQ2 8NH | £25,989 | School Administrator & Receptionist - Mayfield Chestnut
-employer: Mayfield School
-closing_date: 2026-08-30T09:00:00+01:00
-reason: Clear admin/service title: administrator, receptionist
-factual_fingerprint: 981893ab7a2dcf3323de98404567875ade352b762df113268516eebc00237107
-source_job_id: school-administrator-receptionist-mayfield-chestnut
-source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-receptionist-mayfield-chestnut
----
-
 ## DEVON — POSSIBLES
 
 _No jobs in this group._
@@ -682,14 +671,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-
 ---
 
 ## GREATER MANCHESTER - SOUTH — POSSIBLES
-
-_No jobs in this group._
-
-## GREATER MANCHESTER - WIGAN & BOLTON — SELECTED
-
-_No jobs in this group._
-
-## GREATER MANCHESTER - WIGAN & BOLTON — POSSIBLES
 
 _No jobs in this group._
 
@@ -979,17 +960,6 @@ reason: Clear admin/service title: administrative assistant, receptionist
 factual_fingerprint: 3b9ced21f1b4234457ceca8feb9559887adf5dea3fc1c1e0978761bbfe9d5e99
 source_job_id: administrative-assistant-receptionist-wren-academy-enfield-enfield
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-receptionist-wren-academy-enfield-enfield
----
-
----
-action:
-SELECTED | London | New Malden, London, KT3 3TU | £21,039.00 - £22,270.00 Annually (Actual) Outer London Grade D5 to D9 | Attendance Officer
-employer: Coombe Girls' School
-closing_date: 2026-09-02T23:59:00+01:00
-reason: Clear admin/service title: attendance officer
-factual_fingerprint: 1ca0db19fc3c43e9e4cc41bb0682f9e50231436fe5d808f061be42e81ba394f2
-source_job_id: attendance-officer-coombe-girls-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-coombe-girls-school
 ---
 
 ---
@@ -1449,6 +1419,17 @@ reason: Possible JobG8 duplicate requires review
 factual_fingerprint: 1c8afe35cf3a9c8cd77715cbf45bd486d318efa025e9af61948f522da06bbeb9
 source_job_id: hr-administrator-the-spencer-academies-trust
 source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-the-spencer-academies-trust
+---
+
+---
+action:
+POSS | Nottinghamshire | Nottingham, NG7 2TU | PO1 (£39,863 to £44,075 per year - April 2026 pay award pending) | Lead Governance Professional
+employer: Nova Education Trust
+closing_date: 2026-09-01T09:00:00+01:00
+reason: Borderline school administration title: governance professional
+factual_fingerprint: 89711dba6b2004d52728723e47a7b4fc16f491a3f07b77a33d83b130990317ca
+source_job_id: lead-governance-professional-nova-education-trust
+source_url: https://teaching-vacancies.service.gov.uk/jobs/lead-governance-professional-nova-education-trust
 ---
 
 ## OXFORDSHIRE — SELECTED
@@ -1979,16 +1960,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/it-system-administrat
 
 ## WILTSHIRE — POSSIBLES
 
----
-action:
-POSS | Wiltshire | Chippenham, South West, SN14 0QT | £29,064.00 - £31,022.00 Annually (FTE) Actual Salary: £25,640 - £27,368 per annum | Admin Officer
-employer: Queen's Crescent School
-closing_date: 2026-09-01T12:00:00+01:00
-reason: Administrative duties evidenced in description
-factual_fingerprint: bae439fa258dd730bf3e81ecd3380d311521bf06699190ddf06e5a2503fc0955
-source_job_id: admin-officer-queen-s-crescent-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-officer-queen-s-crescent-school
----
+_No jobs in this group._
 
 ## WORCESTERSHIRE — SELECTED
 
@@ -2065,6 +2037,17 @@ reason: Clear admin/service title: admin clerical officer
 factual_fingerprint: b5b168a56f468ff6d306348bd1d72f085a0a5694ec6df76fecb7a61b753147a9
 source_job_id: admin-clerical-officer-level-2-rowan-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-clerical-officer-level-2-rowan-school
+---
+
+---
+action:
+SELECTED | Yorkshire - South | Rotherham, Yorkshire and the Humber, S60 5QS | £12,019.00 - £12,288.00 Annually (Actual) pay award pending | Administration Assistant
+employer: Treeton Church of England Primary School
+closing_date: 2026-09-01T23:59:00+01:00
+reason: Clear admin/service title: administration assistant
+factual_fingerprint: a0e1e5cb5c53cbc2aaf6ed9a08e1718b411e0c4e35e42de7aa6cb86da7b78ce2
+source_job_id: administration-assistant-treeton-church-of-england-primary-school-rotherham-south-yorkshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-treeton-church-of-england-primary-school-rotherham-south-yorkshire
 ---
 
 ---
@@ -2257,15 +2240,15 @@ These roles remain visible in the CSV but are not individually marked until the 
 
 | Region | Total | Selected | POSS | Hard pass / excluded |
 |---|---:|---:|---:|---:|
-| Bedfordshire / admin_service | 13 | 8 | 0 | 5 |
+| Bedfordshire / admin_service | 14 | 8 | 0 | 6 |
 | Cumbria - North / admin_service | 2 | 1 | 0 | 1 |
 | Cumbria - West / admin_service | 3 | 0 | 1 | 2 |
 | East Midlands / admin_service | 10 | 6 | 0 | 4 |
-| Greater Manchester - North / admin_service | 4 | 1 | 0 | 3 |
+| Greater Manchester - North / admin_service | 3 | 1 | 0 | 2 |
 | Lancashire - Blackpool & Fylde / admin_service | 1 | 0 | 0 | 1 |
 | Lancashire - Central / admin_service | 2 | 0 | 0 | 2 |
 | Lancashire - East / admin_service | 2 | 1 | 0 | 1 |
 | Merseyside - Wirral / admin_service | 1 | 1 | 0 | 0 |
-| North East - Tees Valley / admin_service | 8 | 1 | 0 | 7 |
+| North East - Tees Valley / admin_service | 9 | 1 | 1 | 7 |
 | Rutland / admin_service | 1 | 0 | 0 | 1 |
-| South West / admin_service | 2 | 0 | 0 | 2 |
+| South West / admin_service | 1 | 0 | 0 | 1 |

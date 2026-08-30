@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Buckinghamshire
 
-review_date: 2026-08-29
-review_fingerprint: d97cac2fa3ee32117a0100a63a18d3c9904132563cedc1b8a9e94549cc5f83f1
-routing_manifest_sha256: 23602eb5504037190dcc20c0e56831c63bf2e19aec36fe6e427e89d027474532
+review_date: 2026-08-30
+review_fingerprint: 81bd40cef35e5c72e3d4539010cfd232f7db8bf654e3787af542a26a5f9c5658
+routing_manifest_sha256: eb6bef78d15e154b4b783b6172d6a6ca6bdd0bb4b53a2f803a298e90ed30ff0e
 ontap_region: Buckinghamshire
 slice_category: admin_service
 slice_status: LIVE
@@ -53,6 +53,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-af
 
 ---
 action: 
+SELECTED | Buckinghamshire | Aylesbury, HP22 6NL | £37,772.00 - £41,272.00 Annually (FTE) Bucks Pay Range 6 (point 31 - 35), pro-rata for 40 weeks per annum | Examinations Officer
+employer: Chiltern Way Academy Trust
+closing_date: 2026-09-13T20:00:00+01:00
+reason: Clear admin/service title: examinations officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 259894bf98a91ee74c3022a25e438ee528eab4f82e5a835b5225febf7925969a
+source: Teaching Vacancies
+source_job_id: examinations-officer-aeb29f97-ce81-41ec-8b38-81ed01e3315f
+source_url: https://teaching-vacancies.service.gov.uk/jobs/examinations-officer-aeb29f97-ce81-41ec-8b38-81ed01e3315f
+---
+
+---
+action: 
 SELECTED | Buckinghamshire | Milton Keynes, South East, MK17 8XY | £26,824.00 Annually (FTE) Grade D, £26,824 per annum | HR Administrator
 employer: Glebe Farm School
 closing_date: 2026-09-01T12:00:00+01:00
@@ -79,21 +94,6 @@ factual_fingerprint: e08a39e859333defc38ad25b7abaf8405b0cc0b26d3540cf135640e8b31
 source: Teaching Vacancies
 source_job_id: office-administrator-sir-william-ramsay-school-high-wycombe-buckinghamshire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-sir-william-ramsay-school-high-wycombe-buckinghamshire
----
-
----
-action: 
-SELECTED | Buckinghamshire | High Wycombe, South East, HP15 6SP | £34,319.00 - £41,272.00 Annually (Actual) | PA to Headteacher
-employer: Holmer Green Senior School
-closing_date: 2026-09-01T09:00:00+01:00
-reason: Clear admin/service title: pa to
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 3c45923266735b2528419ba5bbf83f236d909ef19bc00476d790825c111ef96e
-source: Teaching Vacancies
-source_job_id: pa-to-headteacher-holmer-green-senior-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/pa-to-headteacher-holmer-green-senior-school
 ---
 
 ---

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Devon
 
-review_date: 2026-08-29
-review_fingerprint: 7ce182abb31e8bec243637b2adb8c5e0978579be15832032bb49d8ca2720dc03
-routing_manifest_sha256: 23602eb5504037190dcc20c0e56831c63bf2e19aec36fe6e427e89d027474532
+review_date: 2026-08-30
+review_fingerprint: ef25e0d796bf3ccf2c9ca5728d21f595c68bd14e40b7ba3bf4c0b700ca94f619
+routing_manifest_sha256: eb6bef78d15e154b4b783b6172d6a6ca6bdd0bb4b53a2f803a298e90ed30ff0e
 ontap_region: Devon
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 25
-- Selected: 10
+- Records: 24
+- Selected: 9
 - POSS awaiting decision: 4
 - Excluded: 0
 - Hard pass: 11
@@ -156,21 +156,6 @@ source_job_id: receptionist-administrator-first-aid-plymstock-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrator-first-aid-plymstock-school
 ---
 
----
-action: 
-SELECTED | Devon | Torquay, South West, TQ2 8NH | £25,989 | School Administrator & Receptionist - Mayfield Chestnut
-employer: Mayfield School
-closing_date: 2026-08-30T09:00:00+01:00
-reason: Clear admin/service title: administrator, receptionist
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 981893ab7a2dcf3323de98404567875ade352b762df113268516eebc00237107
-source: Teaching Vacancies
-source_job_id: school-administrator-receptionist-mayfield-chestnut
-source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-receptionist-mayfield-chestnut
----
-
 ## POSS — choose SELECT or EXCLUDE
 
 ---
@@ -239,7 +224,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-pupil-services
 
 ## HARD_PASS
 
-- [Chief Financial Officer (CFO)](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-cfo-torquay-boys-grammar-school-torquay-devon) — Insufficient admin/service evidence.
+- [Attendance Assistant](https://teaching-vacancies.service.gov.uk/jobs/attendance-assistant-exmouth-community-college) — Insufficient admin/service evidence.
 - [Cover Supervisor](https://teaching-vacancies.service.gov.uk/jobs/cover-supervisor-9fa63c24-e87e-4376-b59f-95affbf3dff3) — Insufficient admin/service evidence.
 - [Finance Apprentice](https://teaching-vacancies.service.gov.uk/jobs/finance-apprentice-westcountry-schools-trust) — Insufficient admin/service evidence.
 - [Finance Apprentice](https://teaching-vacancies.service.gov.uk/jobs/finance-apprentice-westcountry-schools-trust-ivybridge-not-recorded) — Insufficient admin/service evidence.

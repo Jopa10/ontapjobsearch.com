@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Nottinghamshire
 
-review_date: 2026-08-29
-review_fingerprint: b7dce2b45cf1f6a17f9bf116e3585c3cee033ef2bdf177d60e252d90203119e3
-routing_manifest_sha256: 23602eb5504037190dcc20c0e56831c63bf2e19aec36fe6e427e89d027474532
+review_date: 2026-08-30
+review_fingerprint: 51f48092c26594c2242ef783351e52a7bfe41317ec7d33fa8529a04fd95ac5f6
+routing_manifest_sha256: eb6bef78d15e154b4b783b6172d6a6ca6bdd0bb4b53a2f803a298e90ed30ff0e
 ontap_region: Nottinghamshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 19
+- Records: 20
 - Selected: 3
-- POSS awaiting decision: 3
+- POSS awaiting decision: 4
 - Excluded: 0
 - Hard pass: 13
 
@@ -111,6 +111,21 @@ factual_fingerprint: 1c8afe35cf3a9c8cd77715cbf45bd486d318efa025e9af61948f522da06
 source: Teaching Vacancies
 source_job_id: hr-administrator-the-spencer-academies-trust
 source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-the-spencer-academies-trust
+---
+
+---
+action: 
+POSS | Nottinghamshire | Nottingham, NG7 2TU | PO1 (£39,863 to £44,075 per year - April 2026 pay award pending) | Lead Governance Professional
+employer: Nova Education Trust
+closing_date: 2026-09-01T09:00:00+01:00
+reason: Borderline school administration title: governance professional
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 89711dba6b2004d52728723e47a7b4fc16f491a3f07b77a33d83b130990317ca
+source: Teaching Vacancies
+source_job_id: lead-governance-professional-nova-education-trust
+source_url: https://teaching-vacancies.service.gov.uk/jobs/lead-governance-professional-nova-education-trust
 ---
 
 ## EXCLUDED BY REVIEW

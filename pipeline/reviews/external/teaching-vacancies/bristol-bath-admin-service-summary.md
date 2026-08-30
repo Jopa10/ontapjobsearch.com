@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Bristol & Bath
 
-review_date: 2026-08-29
-review_fingerprint: a6dfc7a60524493e37f019f127318aa54516bacf77b3f76b7f5de2ebdb4866d4
-routing_manifest_sha256: 23602eb5504037190dcc20c0e56831c63bf2e19aec36fe6e427e89d027474532
+review_date: 2026-08-30
+review_fingerprint: e88b4755846420828ea7ad29e80f5088917694015fcb3e2c2a19c88cf8d1c51d
+routing_manifest_sha256: eb6bef78d15e154b4b783b6172d6a6ca6bdd0bb4b53a2f803a298e90ed30ff0e
 ontap_region: Bristol & Bath
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 15
-- Selected: 3
+- Records: 14
+- Selected: 2
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 12
@@ -34,21 +34,6 @@ factual_fingerprint: f3a4bf4abd173dfb4d8cc2797977d1885a92bc7d6e8c2dbfea1fc2d08ec
 source: Teaching Vacancies
 source_job_id: attendance-administrator-marlwood-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-administrator-marlwood-school
----
-
----
-action: 
-SELECTED | Bristol & Bath | Bristol, South West, BS7 9RP | £25,989.00 - £26,403.00 Annually (FTE) | Digital Marketing Administrator
-employer: Filton Avenue Primary School
-closing_date: 2026-09-01T09:00:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 70c29abe8caf12fd84911969c88a07acaf02b5adfa868d4eea9992311b4a74d6
-source: Teaching Vacancies
-source_job_id: digital-marketing-administrator-filton-avenue-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/digital-marketing-administrator-filton-avenue-primary-school
 ---
 
 ---
