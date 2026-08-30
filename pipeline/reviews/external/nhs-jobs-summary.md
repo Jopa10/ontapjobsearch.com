@@ -1,14 +1,14 @@
 # NHS Jobs admin/service review
 
-review_date: 2026-08-29
+review_date: 2026-08-30
 
-- Open Administrative & Clerical rows reviewed: 2441
-- Auto/remembered selected: 568
+- Open Administrative & Clerical rows reviewed: 2428
+- Auto/remembered selected: 566
 - Selected HC Tier A: 238
-- Selected HC Tier B: 330
-- POSS awaiting decision: 1542
+- Selected HC Tier B: 328
+- POSS awaiting decision: 1534
 - Excluded: 0
-- HARD_PASS: 331
+- HARD_PASS: 328
 
 Edit only each `action:` line for POSS rows. Unchanged decisions are restored by the shared decision ledger.
 
@@ -358,18 +358,6 @@ region: Worcestershire
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/L0014-26-1551
 factual_fingerprint: e594d0fcdebc01705446f5fb04a5460dd3863233d4a86909703fd3b2372e05e2
----
-
----
-action:
-POSS | NHS Jobs | — | Fulham, SW10 9NH | £31554.00 to £33270.00 | Private Patient Care Coordinator
-source_job_id: 5569576
-title: Private Patient Care Coordinator
-employer: Chelsea and Westminster Hospital NHS Foundation Trust
-region: 
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9289-SC-443
-factual_fingerprint: 47a064000f61e2031c0d8c193c10b2705f5d962bcbd2c13144d7f905826773d7
 ---
 
 ---
@@ -2606,18 +2594,6 @@ factual_fingerprint: 255ab35ac7d738c4cadbf1d798d633f504624defe9b871500c98fe211f6
 
 ---
 action:
-POSS | NHS Jobs | — | Chelsea, SW3 6JJ | £31554.00 to £33270.00 | Therapies Administrator
-source_job_id: 5566329
-title: Therapies Administrator
-employer: The Royal Marsden NHS Foundation Trust
-region: 
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9282-26-0759
-factual_fingerprint: 6d49dc2adfc6c588728ec0520ae393a92fc18103f37e7ba43f348e1d9659b61d
----
-
----
-action:
 POSS | NHS Jobs | Yorkshire - South | Sheffield, S4 7UQ | £49387.00 to £56515.00 | Category Procurement Specialist
 source_job_id: 5566612
 title: Category Procurement Specialist
@@ -2626,18 +2602,6 @@ region: Yorkshire - South
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9173-26-0402
 factual_fingerprint: f80b001f86da7dbd5ab30bd5aef52c38abde945f5cd42d7a4e74474053862a56
----
-
----
-action:
-POSS | NHS Jobs | London | London, SW10 9NH | £28392.00 to £31157.00 | Medicine Rota and Ops Administrator
-source_job_id: 5566595
-title: Medicine Rota and Ops Administrator
-employer: Chelsea and Westminster Hospital NHS Foundation Trust
-region: London
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9289-26-0205
-factual_fingerprint: 521ba000e480bab190ac8446a50721583b471ecf577d5281671c7973f86af0bb
 ---
 
 ---
@@ -8650,18 +8614,6 @@ region:
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9205-26-1731
 factual_fingerprint: 702f0a0a3a9589c7bfcc47ebfbf6c5f8f825783f66f8236df0bfe7121ed960f6
----
-
----
-action:
-POSS | NHS Jobs | Yorkshire - South | Rotherham, S60 2UD | £28392.00 to £31157.00 | Admin Team Leader
-source_job_id: 5558234
-title: Admin Team Leader
-employer: The Rotherham NHS Foundation Trust
-region: Yorkshire - South
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9165-26-06-069a
-factual_fingerprint: de177c94d03010c4e84f77ef5a66674803a16d5fac8a07ab6da94d312f356aa7
 ---
 
 ---
@@ -16706,18 +16658,6 @@ factual_fingerprint: 28ae4598b73fbd25972625dccc784bf0d7267ddab105b24681fe3a43425
 
 ---
 action:
-POSS | NHS Jobs | Cumbria - North | Carlisle, CA1 2NS | Negotiable | Department Support Volunteer
-source_job_id: 5534491
-title: Department Support Volunteer
-employer: North Cumbria Integrated Care NHS Foundation Trust
-region: Cumbria - North
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9262-26-1279
-factual_fingerprint: e07b155efa8ca0543ebf9aa1f5bdb97797584b76dfbcba49539a2aa2730a4df4
----
-
----
-action:
 POSS | NHS Jobs | Gloucestershire | Cheltenham, GL52 6HS | £12.75 | Care Navigator
 source_job_id: 5534053
 title: Care Navigator
@@ -17198,18 +17138,6 @@ factual_fingerprint: d846fa41518ad84f921b4fec3d6867296e00e0f2d93b712c2900a873911
 
 ---
 action:
-POSS | NHS Jobs | Leicestershire | Loughborough, LE11 2HS | £29343.00 | Safeguarding Lead
-source_job_id: 5526360
-title: Safeguarding Lead
-employer: Rainbows Hospice for Children and Young People
-region: Leicestershire
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/B0345-26-0020
-factual_fingerprint: b1dfcc5f23c8df9c553887c450d68acdd61b4551b09411185e4c94cf5132091a
----
-
----
-action:
 POSS | NHS Jobs | North Scotland | Inverness, IV2 7GG | £30658.00 | Payroll Officer
 source_job_id: 5525451
 title: Payroll Officer
@@ -17446,18 +17374,6 @@ region: Cambridgeshire
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9839-26-0302
 factual_fingerprint: 2e84d5a8a52e3cac36c3f9a8d489461fe77e51d43cffabc52728d74c4e18f04f
----
-
----
-action:
-POSS | NHS Jobs | Oxfordshire | Oxford, OX3 8RZ | Negotiable | Clinical Services Matron (Oxford)
-source_job_id: 5520902
-title: Clinical Services Matron (Oxford)
-employer: MSI Reproductive Choices
-region: Oxfordshire
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/B0539-26-0201
-factual_fingerprint: dcee2f3f1a59e5c508eabf9748b0fd7ad7d1677556468420a242b236cffa21e0
 ---
 
 ---
@@ -18226,18 +18142,6 @@ region: Yorkshire - North
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A3150-26-0013
 factual_fingerprint: 86d6554c83bdeef1a4b47a899c823eac3fb8408251b605f9dde7f042abb2f192
----
-
----
-action:
-POSS | NHS Jobs | London | London, SE1 2EL | £25000.00 to £32000.00 | Call Handler NHS - Patient Recall
-source_job_id: 5487376
-title: Call Handler NHS - Patient Recall
-employer: Penrose Health
-region: London
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A5321-26-0043
-factual_fingerprint: 2dfa66b9661c7183bced05bf0c0f3792c84820b2387d87feba3517d70b3c57fb
 ---
 
 ---

@@ -1,33 +1,5 @@
 [
   {
-    "job_id": "teaching-vacancies-school-administrator-receptionist-mayfield-chestnut",
-    "title": "School Administrator & Receptionist - Mayfield Chestnut",
-    "company": "Mayfield School",
-    "location": "Torquay",
-    "region": "Devon",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['full time']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "£25,989",
-    "work_pattern": "",
-    "posted_date": "2026-07-14",
-    "closing_date": "2026-08-30",
-    "closing_datetime": "2026-08-30T09:00:00+01:00",
-    "summary": "School Administrator & Receptionist - Mayfield Chestnut with Mayfield School in Torquay. ['full time']; £25,989.",
-    "description": "Mayfield School is recruiting for this vacancy in Torquay.\n\nThe advertised position is School Administrator & Receptionist - Mayfield Chestnut.\n\nThe source lists the employment type as ['full time'].\n\nThe advertised salary or pay scale is £25,989.\n\nThe stated application deadline is 2026-08-30T09:00:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/school-administrator-receptionist-mayfield-chestnut?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Mayfield School",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
-  },
-  {
     "job_id": "teaching-vacancies-260819-people-team-administrator",
     "title": "[260819] People Team Administrator",
     "company": "Reach South Academy Trust",
@@ -374,13 +346,7 @@
     "advertiser_type": "Company",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Telephone handling",
-      "Records administration",
-      "Document preparation"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225461743",
@@ -430,13 +396,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Records administration",
-      "Quotations",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225463000",
@@ -611,12 +571,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Email handling",
-      "Scheduling and bookings"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225466401",
@@ -765,31 +720,6 @@
     "advertiser_name": "Autograph Recruitment",
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
-    "job_id": "107911152",
-    "title": "Customer Care Coordinator",
-    "company": "Persimmon Homes - Agency - Permanent",
-    "location": "Devon",
-    "region": "Devon",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "",
-    "posted_date": "",
-    "description": "Job Title:\n\nLocation: Plymouth\n\nLooking for a career where your ambition meets real opportunity? Join Persimmon Homes as Customer Care Coordinator and step into a role where your success is celebrated, your growth supported, and your work truly matters.\n\nWhy Persimmon Homes?\n\nWe're one of the UK's largest and most established housebuilders - FTSE 100 listed, with 29 regional offices and thousands of click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?aziU08XVyRHbm39ig7GMj5UEvKDLyxELd",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Persimmon Homes",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
     "salary_period": "Annual",
     "posted_date_basis": ""
   },

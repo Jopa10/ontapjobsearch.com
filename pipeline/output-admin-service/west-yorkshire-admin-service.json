@@ -408,13 +408,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Scheduling and bookings",
-      "Data entry",
-      "Document preparation"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225515250",
@@ -439,12 +433,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Email handling",
-      "Systems administration",
-      "Pre-employment administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225516031",
@@ -494,11 +483,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Document preparation"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225524513",
@@ -523,11 +508,32 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Reporting",
-      "Quotations"
-    ]
+    "posted_date_basis": ""
+  },
+  {
+    "job_id": "107908451",
+    "title": "Cloud-First SQL Database Administrator - Azure",
+    "company": "IO Associates - Agency - Permanent",
+    "location": "Leeds",
+    "region": "Yorkshire - West",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "",
+    "posted_date": "",
+    "description": "Cloud-First SQL Database Administrator - Azure - Hybrid - Permanent\n\nThis is not a traditional on-premise SQL Server DBA position.\n\nWe are looking for a genuinely cloud-first DBA who combines strong SQL Server fundamentals with substantial, recent experience managing production database services in Microsoft Azure click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?nbYVUHO1tX5y%2fQrLoO0RNEVqQhR5%2fhd7z",
+    "source": "JobG8",
+    "working_arrangement": "hybrid",
+    "working_arrangement_text": "Hybrid working",
+    "working_arrangement_evidence": "Cloud-First SQL Database Administrator - Azure Cloud-First SQL Database Administrator - Azure - Hybrid - Permanent This is not a traditional on-premise SQL Server DBA position.",
+    "advertiser_name": "IO Associates",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225476554",
@@ -627,12 +633,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Part Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Telephone handling",
-      "Email handling",
-      "Records administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225499042",
@@ -732,12 +733,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Reporting",
-      "Order processing",
-      "Delivery coordination"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225463726",
