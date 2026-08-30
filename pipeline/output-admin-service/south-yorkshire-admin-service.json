@@ -565,6 +565,31 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "23643_225515295",
+    "title": "Production Administrator",
+    "company": "Austin Banks - Agency - Permanent",
+    "location": "Doncaster",
+    "region": "Yorkshire - South",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "28000",
+    "salary_max": "30000",
+    "salary_text": "£28000 - £30000 per year (Depending on experience)",
+    "posted_date": "",
+    "description": "Hours: Monday to Thursday 8am 5pm Friday 8am 4.30pm\n\nAbout the Role\n\nWe are looking for a highly organised and detail-focused Production Administrator to join our client's engineering business based in Doncaster. This is a key role acting as the vital link between the production and planning teams, ensuring smooth day-to-day operations through accurate administration, reporting, and communication.\n\nThe ideal candidate will have strong Excel skills, excellent attention to detail, and the confidence to raise issues, track delays, and keep all relevant stakeholders informed.\n\nKey Responsibilities\n- Act as the central point of contact between the production and planning teams, ensuring clear and consistent communication\n- Provide regular updates on production progress, schedules, and any changes affecting output\n- Support production forecasting, helping to track and predict workload and capacity\n- Maintain accurate and up-to-date records across all production administration tasks\n- Raise issues, delays, and discrepancies promptly to the relevant teams\n- Prepare and distribute reports on production performance, delays, and KPIs\n- Liaise closely with the planning team to align schedules and resolve conflicts\n- Support general administrative duties across the production department\n- Maintain and update spreadsheets, trackers, and databases with a high level of accuracy\n- Flag any risks to production timelines and escalate where necessary\n\nSkills & Experience Required\n- Strong Excel skills confident using formulas, spreadsheets, and data tracking tools (essential)\n- Excellent administrative skills with a high level of accuracy and attention to detail\n- Strong organisational skills with the ability to manage multiple tasks and priorities\n- Clear and confident communicator, comfortable liaising between different teams\n- Ability to work proactively, spotting and raising issues before they escalate\n- Experience in a production, manufacturing, or engineering environment is desirable but not essential\n- Comfortable working with reporting and forecasting data\n\nAbout you\n- Reliable, proactive, and a strong team player\n- Calm under pressure with the ability to problem-solve\n- Confident raising concerns and communicating delays or issues clearly\n- A genuine interest in supporting an efficient, well-run production operation",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?iZmgAWfngDyHifSPOKyqxeu2kLCHrtCwf",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Austin Banks",
+    "advertiser_type": "Agency",
+    "work_pattern": "Full Time",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
     "job_id": "107804866",
     "title": "Account Coordinator - Part Time",
     "company": "Staffline Operations - Agency - Temporary",
@@ -630,7 +655,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1153-26-0008",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1153-26-0008",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5568418",
@@ -648,7 +677,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1153-26-0000",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1153-26-0000",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5565689",
@@ -666,7 +699,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9190-26-0517",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9190-26-0517",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5565903",
@@ -684,7 +721,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9457-26-0258",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9457-26-0258",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5554992",
@@ -702,7 +743,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2131-26-0007",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2131-26-0007",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5549526",
@@ -720,6 +765,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3087-26-0012",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3087-26-0012",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

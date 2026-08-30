@@ -6,7 +6,7 @@ Sussex,,7,5,0,2,0,,7,Brighton,SCENARIO_3_MANUAL_SELECTION_APPLIED,Sussex manual_
 Cumbria - South,,0,0,0,0,0,,0,Barrow-in-Furness,SCENARIO_4_BELOW_PUBLISH_THRESHOLD,Cumbria - South selection below publish threshold: 0/6 credible roles. Do not publish/refresh this slice from this run.
 Hampshire,,7,7,0,0,0,,7,Southampton,SCENARIO_1_COMPLETE_HC_ONLY,Hampshire selection complete: HIGH_CONFIDENCE roles selected.
 Kent,,9,3,0,6,0,,9,Maidstone,SCENARIO_3_COMPLETE_WITH_OTHER_ELASTIC,"Kent selection complete: 9 selected after HIGH_CONFIDENCE, Maidstone ELASTIC_FIT, and other ELASTIC_FIT roles."
-London,,16,13,1,2,0,,16,London,SCENARIO_3_MANUAL_SELECTION_APPLIED,London manual_select applied additively: 4 row(s) prioritised; 16 selected.
+London,,17,14,1,2,0,,17,London,SCENARIO_3_MANUAL_SELECTION_APPLIED,London manual_select applied additively: 4 row(s) prioritised; 17 selected.
 Oxfordshire,,11,7,3,1,0,,11,Oxford,SCENARIO_3_COMPLETE_WITH_OTHER_ELASTIC,"Oxfordshire selection complete: 11 selected after HIGH_CONFIDENCE, Oxford ELASTIC_FIT, and other ELASTIC_FIT roles."
 Surrey,,4,3,0,1,0,,4,Guildford,SCENARIO_4_BELOW_PUBLISH_THRESHOLD,Surrey selection below publish threshold: 4/6 credible roles. Do not publish/refresh this slice from this run.
 Wiltshire,,7,7,0,0,0,,7,Swindon,SCENARIO_1_COMPLETE_HC_ONLY,Wiltshire selection complete: HIGH_CONFIDENCE roles selected.

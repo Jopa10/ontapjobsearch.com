@@ -4780,7 +4780,7 @@
         "Berkshire": {
           "service_admin": 15,
           "support_worker": 6,
-          "customer_sales": 1,
+          "customer_sales": 3,
           "legal_assistant_paralegal": 0,
           "marketing": 6,
           "finance_accounts": 0,
@@ -4790,7 +4790,7 @@
         "Bristol & Bath": {
           "service_admin": 15,
           "support_worker": 0,
-          "customer_sales": 8,
+          "customer_sales": 9,
           "legal_assistant_paralegal": 1,
           "marketing": 5,
           "finance_accounts": 4,
@@ -4818,7 +4818,7 @@
           "customer_service_contact_centre": 1
         },
         "Cheshire - East": {
-          "service_admin": 10,
+          "service_admin": 11,
           "support_worker": 0,
           "customer_sales": 1,
           "legal_assistant_paralegal": 0,
@@ -4830,7 +4830,7 @@
         "Cheshire - Warrington & Halton": {
           "service_admin": 1,
           "support_worker": 1,
-          "customer_sales": 1,
+          "customer_sales": 2,
           "legal_assistant_paralegal": 1,
           "marketing": 1,
           "finance_accounts": 4,
@@ -4838,7 +4838,7 @@
           "customer_service_contact_centre": 0
         },
         "Cheshire - West": {
-          "service_admin": 2,
+          "service_admin": 3,
           "support_worker": 1,
           "customer_sales": 1,
           "legal_assistant_paralegal": 1,
@@ -4848,7 +4848,7 @@
           "customer_service_contact_centre": 0
         },
         "Cornwall": {
-          "service_admin": 3,
+          "service_admin": 4,
           "support_worker": 3,
           "customer_sales": 0,
           "legal_assistant_paralegal": 0,
@@ -4898,7 +4898,7 @@
           "customer_service_contact_centre": 1
         },
         "Devon": {
-          "service_admin": 20,
+          "service_admin": 19,
           "support_worker": 0,
           "customer_sales": 4,
           "legal_assistant_paralegal": 1,
@@ -4928,7 +4928,7 @@
           "customer_service_contact_centre": 1
         },
         "Gloucestershire": {
-          "service_admin": 18,
+          "service_admin": 19,
           "support_worker": 0,
           "customer_sales": 0,
           "legal_assistant_paralegal": 0,
@@ -4940,7 +4940,7 @@
         "Greater Manchester - Manchester & Salford": {
           "service_admin": 20,
           "support_worker": 1,
-          "customer_sales": 7,
+          "customer_sales": 8,
           "legal_assistant_paralegal": 2,
           "marketing": 11,
           "finance_accounts": 4,
@@ -4978,9 +4978,9 @@
           "customer_service_contact_centre": 1
         },
         "Hampshire": {
-          "service_admin": 40,
+          "service_admin": 45,
           "support_worker": 7,
-          "customer_sales": 9,
+          "customer_sales": 14,
           "legal_assistant_paralegal": 1,
           "marketing": 5,
           "finance_accounts": 3,
@@ -5000,7 +5000,7 @@
         "Hertfordshire": {
           "service_admin": 19,
           "support_worker": 3,
-          "customer_sales": 3,
+          "customer_sales": 5,
           "legal_assistant_paralegal": 1,
           "marketing": 2,
           "finance_accounts": 1,
@@ -5010,7 +5010,7 @@
         "Kent": {
           "service_admin": 33,
           "support_worker": 9,
-          "customer_sales": 4,
+          "customer_sales": 5,
           "legal_assistant_paralegal": 4,
           "marketing": 2,
           "finance_accounts": 3,
@@ -5068,19 +5068,19 @@
           "customer_service_contact_centre": 0
         },
         "Leicestershire": {
-          "service_admin": 27,
+          "service_admin": 30,
           "support_worker": 0,
-          "customer_sales": 0,
+          "customer_sales": 1,
           "legal_assistant_paralegal": 1,
           "marketing": 2,
           "finance_accounts": 1,
-          "hr_recruitment": 1,
+          "hr_recruitment": 2,
           "customer_service_contact_centre": 3
         },
         "Lincolnshire": {
           "service_admin": 10,
           "support_worker": 2,
-          "customer_sales": 2,
+          "customer_sales": 3,
           "legal_assistant_paralegal": 2,
           "marketing": 3,
           "finance_accounts": 2,
@@ -5089,7 +5089,7 @@
         },
         "London": {
           "service_admin": 77,
-          "support_worker": 16,
+          "support_worker": 17,
           "customer_sales": 18,
           "legal_assistant_paralegal": 8,
           "marketing": 26,
@@ -5144,11 +5144,11 @@
           "legal_assistant_paralegal": 0,
           "marketing": 2,
           "finance_accounts": 4,
-          "hr_recruitment": 0,
+          "hr_recruitment": 1,
           "customer_service_contact_centre": 1
         },
         "North East": {
-          "service_admin": 19,
+          "service_admin": 21,
           "support_worker": 3,
           "customer_sales": 5,
           "legal_assistant_paralegal": 1,
@@ -5188,10 +5188,10 @@
           "customer_service_contact_centre": 1
         },
         "Northamptonshire": {
-          "service_admin": 15,
+          "service_admin": 17,
           "support_worker": 0,
-          "customer_sales": 6,
-          "legal_assistant_paralegal": 1,
+          "customer_sales": 7,
+          "legal_assistant_paralegal": 2,
           "marketing": 2,
           "finance_accounts": 2,
           "hr_recruitment": 2,
@@ -5218,9 +5218,9 @@
           "customer_service_contact_centre": 0
         },
         "Nottinghamshire": {
-          "service_admin": 15,
+          "service_admin": 17,
           "support_worker": 0,
-          "customer_sales": 0,
+          "customer_sales": 1,
           "legal_assistant_paralegal": 2,
           "marketing": 2,
           "finance_accounts": 4,
@@ -5230,7 +5230,7 @@
         "Oxfordshire": {
           "service_admin": 25,
           "support_worker": 11,
-          "customer_sales": 4,
+          "customer_sales": 5,
           "legal_assistant_paralegal": 2,
           "marketing": 6,
           "finance_accounts": 2,
@@ -5291,7 +5291,7 @@
           "service_admin": 3,
           "support_worker": 0,
           "customer_sales": 0,
-          "legal_assistant_paralegal": 1,
+          "legal_assistant_paralegal": 2,
           "marketing": 0,
           "finance_accounts": 1,
           "hr_recruitment": 0,
@@ -5308,9 +5308,9 @@
           "customer_service_contact_centre": 0
         },
         "Scotland West - Glasgow": {
-          "service_admin": 11,
+          "service_admin": 12,
           "support_worker": 0,
-          "customer_sales": 2,
+          "customer_sales": 3,
           "legal_assistant_paralegal": 0,
           "marketing": 0,
           "finance_accounts": 0,
@@ -5349,8 +5349,8 @@
         },
         "Somerset": {
           "service_admin": 10,
-          "support_worker": 4,
-          "customer_sales": 2,
+          "support_worker": 5,
+          "customer_sales": 3,
           "legal_assistant_paralegal": 0,
           "marketing": 1,
           "finance_accounts": 3,
@@ -5358,17 +5358,17 @@
           "customer_service_contact_centre": 0
         },
         "Staffordshire": {
-          "service_admin": 15,
+          "service_admin": 18,
           "support_worker": 0,
-          "customer_sales": 2,
+          "customer_sales": 3,
           "legal_assistant_paralegal": 0,
           "marketing": 2,
-          "finance_accounts": 1,
+          "finance_accounts": 2,
           "hr_recruitment": 0,
-          "customer_service_contact_centre": 3
+          "customer_service_contact_centre": 4
         },
         "Suffolk": {
-          "service_admin": 9,
+          "service_admin": 11,
           "support_worker": 0,
           "customer_sales": 2,
           "legal_assistant_paralegal": 0,
@@ -5378,17 +5378,17 @@
           "customer_service_contact_centre": 1
         },
         "Surrey": {
-          "service_admin": 44,
+          "service_admin": 46,
           "support_worker": 4,
           "customer_sales": 2,
           "legal_assistant_paralegal": 3,
           "marketing": 5,
           "finance_accounts": 5,
           "hr_recruitment": 2,
-          "customer_service_contact_centre": 6
+          "customer_service_contact_centre": 7
         },
         "Sussex": {
-          "service_admin": 27,
+          "service_admin": 29,
           "support_worker": 7,
           "customer_sales": 3,
           "legal_assistant_paralegal": 1,
@@ -5430,7 +5430,7 @@
         "Wales South - Gwent": {
           "service_admin": 2,
           "support_worker": 0,
-          "customer_sales": 0,
+          "customer_sales": 1,
           "legal_assistant_paralegal": 1,
           "marketing": 0,
           "finance_accounts": 1,
@@ -5458,7 +5458,7 @@
           "customer_service_contact_centre": 0
         },
         "West Midlands - Birmingham & Solihull": {
-          "service_admin": 14,
+          "service_admin": 15,
           "support_worker": 1,
           "customer_sales": 2,
           "legal_assistant_paralegal": 3,
@@ -5480,11 +5480,11 @@
         "West Midlands - Coventry & Warwickshire": {
           "service_admin": 16,
           "support_worker": 0,
-          "customer_sales": 1,
+          "customer_sales": 2,
           "legal_assistant_paralegal": 0,
           "marketing": 3,
           "finance_accounts": 2,
-          "hr_recruitment": 3,
+          "hr_recruitment": 4,
           "customer_service_contact_centre": 0
         },
         "Wiltshire": {
@@ -5528,17 +5528,17 @@
           "customer_service_contact_centre": 2
         },
         "Yorkshire - South": {
-          "service_admin": 19,
+          "service_admin": 20,
           "support_worker": 2,
-          "customer_sales": 2,
-          "legal_assistant_paralegal": 2,
+          "customer_sales": 3,
+          "legal_assistant_paralegal": 3,
           "marketing": 2,
           "finance_accounts": 1,
           "hr_recruitment": 0,
           "customer_service_contact_centre": 1
         },
         "Yorkshire - West": {
-          "service_admin": 23,
+          "service_admin": 24,
           "support_worker": 2,
           "customer_sales": 3,
           "legal_assistant_paralegal": 4,

@@ -1,12 +1,12 @@
 ﻿metric,value
 total rows input,10000
-total rows included,68
-total rows dropped,9932
+total rows included,69
+total rows dropped,9931
 title classification count - HIGH_CONFIDENCE,153
 title classification count - ELASTIC_FIT,56
 title classification count - REVIEW_CONTEXT_DEPENDENT,16
-title classification count - HARD_PASS,5069
-title classification count - OUT_OF_SCOPE,4706
+title classification count - HARD_PASS,5067
+title classification count - OUT_OF_SCOPE,4708
 selection scenario - Yorkshire - West,SCENARIO_4_BELOW_PUBLISH_THRESHOLD
 selection message - Yorkshire - West,Yorkshire - West selection below publish threshold: 2/6 credible roles. Do not publish/refresh this slice from this run.
 credible total - Yorkshire - West,2
@@ -64,13 +64,13 @@ other elastic count - Kent,6
 total rows output - Kent,9
 job_id included - Kent,107739939; 1402264062; 107883007; 107852539; 107901714; 107882991; 107901785; 107882989; 107854067
 selection scenario - London,SCENARIO_3_MANUAL_SELECTION_APPLIED
-selection message - London,London manual_select applied additively: 4 row(s) prioritised; 16 selected.
-credible total - London,16
-high confidence count - London,9
+selection message - London,London manual_select applied additively: 4 row(s) prioritised; 17 selected.
+credible total - London,17
+high confidence count - London,10
 anchor elastic count - London,1
 other elastic count - London,2
-total rows output - London,16
-job_id included - London,23643_223283749; 23643_225516212; 1780022; 1818954; 107745063; 1664745; 107751975; 1785508; 1785507; 107900179; 23643_225476071; 1787859; 23643_225535652; 1815970; 23643_225513634; 1708252
+total rows output - London,17
+job_id included - London,23643_223283749; 23643_225516212; 1780022; 1818954; 107745063; 23643_225165439; 1664745; 107751975; 1785508; 1785507; 107900179; 23643_225476071; 1787859; 23643_225535652; 1815970; 23643_225513634; 1708252
 selection scenario - Oxfordshire,SCENARIO_3_COMPLETE_WITH_OTHER_ELASTIC
 selection message - Oxfordshire,"Oxfordshire selection complete: 11 selected after HIGH_CONFIDENCE, Oxford ELASTIC_FIT, and other ELASTIC_FIT roles."
 credible total - Oxfordshire,11

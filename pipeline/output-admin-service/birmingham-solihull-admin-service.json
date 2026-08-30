@@ -271,6 +271,31 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "23643_225451094",
+    "title": "Reception - Canon Birmingham",
+    "company": "Office Angels - Agency - Temporary",
+    "location": "Birmingham",
+    "region": "West Midlands - Birmingham & Solihull",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Temporary",
+    "salary_min": "13.45",
+    "salary_max": "13.45",
+    "salary_text": "£13.45 per hour",
+    "posted_date": "",
+    "description": "Exciting Opportunity: Temporary Receptionist Wanted!\nLocation: Coleshill Heath, Birmingham\nHourly Rate: 13.45 per hour\nContract Type: Temporary (Full Time)\nStart Date: August 7, 2026\n\nWhat You'll Be Doing:\nAs the first point of contact for our visitors and clients, you'll play a key role in creating a welcoming atmosphere. Your daily tasks will include:\n\nGreeting guests with a warm and friendly smile\nAnswering phone calls and directing them to the appropriate departments\nManaging the reception area to ensure it is tidy and organised\nAssisting with administrative tasks as needed\nCoordinating appointments and meetings with professionalism\n\nWho We're Looking For:\nWe want someone who is enthusiastic, organised, and ready to bring their best self to our team. Ideal candidates will have:\n- Previous experience in a receptionist or customer service role\n- Excellent communication skills, both written and verbal\n- A friendly demeanour and a can-do attitude\n- Strong organisational skills with attention to detail\n- Proficiency in MS Office and general office equipment\n\nNote: This is a temporary position with a start date of August 7, 2026. Only applicants eligible to work in the UK will be considered.\n\nOffice Angels is an employment agency. We are an equal opportunities employer who put expertise, energy, and enthusiasm into improving everyone's chance of being part of the workplace. We respect and appreciate people of all ethnicities, generations, religious beliefs, sexual orientations, gender identities, abilities and more. We do this by showcasing their talents, skills and unique experience in an inclusive environment that helps them thrive. If you require reasonable adjustments at any stage, please let us know and we will be happy to support you.\n\nOffice Angels is an employment agency and business. We are an equal-opportunities employer who puts expertise, energy and enthusiasm into improving everyone's chance of being part of the workplace. We respect and appreciate people of all ethnicities, generations, religious beliefs, sexual orientations, gender identities, abilities and more. By showcasing talents, skills and unique experiences in an inclusive environment, we help individuals thrive. If you require reasonable adjustments at any stage, please let us know and we will be happy to support you.\n\nOffice Angels acts as an employment agency for permanent recruitment and an employment business for the supply of temporary workers. Office Angels UK is an Equal Opportunities Employer.\n\nBy applying for this role your details will be submitted to Office Angels. Our Candidate Privacy Information Statement explaining how we will use your information is available on our website.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?gZ0pd2TJz0KGlE%2f1zr7VofJO%2bK6e3W55s",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Office Angels",
+    "advertiser_type": "Agency",
+    "work_pattern": "Full Time",
+    "salary_period": "Hourly",
+    "posted_date_basis": ""
+  },
+  {
     "job_id": "23643_225493038",
     "title": "Office Administrator",
     "company": "ST Selection - Agency - Permanent",
@@ -561,7 +586,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1924-26-0030",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1924-26-0030",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5566975",
@@ -579,7 +608,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/L0034-26-3590",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/L0034-26-3590",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5557628",
@@ -597,7 +630,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1771-26-0000",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1771-26-0000",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5530420",
@@ -615,7 +652,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4784-26-0001",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4784-26-0001",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5501562",
@@ -633,6 +674,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0106-26-0100",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0106-26-0100",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]
