@@ -1,18 +1,13 @@
 ﻿feed_date,decision,region,title,town,salary_text,manual_override,manual_select,job_id
 2026-08-30,SELECTED,Yorkshire - West,Healthcare Assistant,Bradford,"£13.75 - £14.5 per hour (Including holiday pay, flexible hours)",,,23643_225476096
 2026-08-30,SELECTED,Yorkshire - West,Complex Care Assistant,Halifax,£14.24 - £16 per hour (+ INC holiday pay),,,107728647
-2026-08-30,SELECTED,Yorkshire - South,Residential Child Care Worker,Barnsley,£24000 per year,,,107881537
 2026-08-30,SELECTED,Yorkshire - South,Hourly Care Assistant to Journalism Studies Uni student,Sheffield,£15 per hour,,,107798506
 2026-08-30,SELECTED,"North East - Tyneside, Wearside & Northumberland",Complex Care Assistant,Houghton Le Spring,£14.24 per hour,,,107810260
 2026-08-30,SELECTED,North East - County Durham & Darlington/Hartlepool,Complex Care Assistant,Crook,£14.24 per hour (+ Including holiday pay),,,107781117
 2026-08-30,SELECTED,North East - County Durham & Darlington/Hartlepool,Young Person Support Worker,Durham,£17 - £20 per hour,,,23643_225493355
 2026-08-30,SELECTED,Sussex,Support Worker,Brighton,£14 - £16 per hour,,,23643_222307132
-2026-08-30,SELECTED,Sussex,Bank Care Assistant,Bexhill-on-sea,£13.79 - £14.31 per hour,,,107807365
 2026-08-30,SELECTED,Sussex,Complex Care Assistant,Crawley,£18 - £19 per hour,,,107854069
-2026-08-30,SELECTED,Sussex,Care Assistant,Bexhill-on-sea,£13.79 per hour,,,107864483
 2026-08-30,SELECTED,Sussex,Care Assistant to a Creative Writing Uni Graduate,Hove,£16 per hour,,,107835737
-2026-08-30,SELECTED,Sussex,Residential Support Worker,Newhaven,£30000 per year,,,107901961
-2026-08-30,SELECTED,Sussex,Part Time Support Worker - 20 hours,Littlehampton,£12.91 - £13.21 per hour,,,107907129
 2026-08-30,SELECTED,Hampshire,Care Assistant,Alton,£25186 - £26244 per year (plus Market Supplement),,,1401784493
 2026-08-30,SELECTED,Hampshire,Night Care Assistant (Adults),Basingstoke,£25186 - £26244 per year,,,1401784687
 2026-08-30,SELECTED,Hampshire,Accommodation Support Worker,Southampton,"£25,947 - £26,305 per annum",,,1674633
@@ -23,10 +18,7 @@
 2026-08-30,SELECTED,Kent,Paediatric Complex Care Assistant,Canterbury,£15 - £17 per hour,,,107739939
 2026-08-30,SELECTED,Kent,Qualified Hearing Care Assistant,Tunbridge Wells,competitive + benefits,,,1402264062
 2026-08-30,SELECTED,Kent,Complex Care Assistant,Folkestone,£14 - £17 per hour,,,107852539
-2026-08-30,SELECTED,Kent,Residential Support Worker,Dover,£30000 per year,,,107901714
-2026-08-30,SELECTED,Kent,Residential Support Worker,New Romney,£30000 per year,,,107901785
 2026-08-30,SELECTED,Kent,Complex Care Assistant,Dover,£15 - £17 per hour,,,107882991
-2026-08-30,SELECTED,Kent,Complex Healthcare Assistant,Tonbridge,£14 - £17 per hour,,,107883007
 2026-08-30,SELECTED,Kent,Complex Care Assistant,Snodland,£14 - £16 per hour,,,107854067
 2026-08-30,SELECTED,Kent,Complex Care Assistant,New Romney,£14 - £17 per hour,,,107882989
 2026-08-30,SELECTED,London,Healthcare Assistant,City,"£13.75 - £14.5 per hour (Including holiday pay, flexible hours)",,,23643_225476071
@@ -39,32 +31,20 @@
 2026-08-30,SELECTED,London,Communication Support Worker,Morden,£35 per hour,,,1785507
 2026-08-30,SELECTED,London,Residential Support Worker (Mental Health),City,"£26,229 per annum",,,1787859
 2026-08-30,SELECTED,London,Support Worker,Brentford,£125 - £130 per daily,,,23643_225535652
-2026-08-30,SELECTED,London,Personal Care Assistant to a Business Management graduate,Surbiton,£246 per daily,,,107900179
 2026-08-30,SELECTED,London,Care Assistant to a Psychology University Student,City,£260 per daily,,,107751975
 2026-08-30,SELECTED,London,Enhanced Support Worker,London,"£31,200.00 per annum",,,1818954
 2026-08-30,SELECTED,London,Autism Support Worker,Bromley,£100 - £110 per daily,,,1815970
 2026-08-30,SELECTED,London,Behaviour Support Assistant,Wandsworth,£95 - £115 per daily,,,1708252
-2026-08-30,SELECTED,London,Home Care Worker,London,£13 per hour,,,107745063
 2026-08-30,SELECTED,London,Support Worker,London,£14.8 per hour,,,23643_225165439
-2026-08-30,SELECTED,Oxfordshire,Home Carer,Oxfordshire,£14.4 per hour,,,107617602
-2026-08-30,SELECTED,Oxfordshire,Home Carer,Witney,£14.4 per hour,,,107626591
-2026-08-30,SELECTED,Oxfordshire,Home Carer,Bicester,£14.4 per hour,,,107626594
-2026-08-30,SELECTED,Oxfordshire,Home Carer,Banbury,£14.4 per hour,,,107626596
-2026-08-30,SELECTED,Oxfordshire,Children Residential Support Worker,Bicester,£30000 per year,,,107758331
 2026-08-30,SELECTED,Oxfordshire,Youth Support Worker - Oxford,Oxford,£85 - £105 per daily,,,1695997
 2026-08-30,SELECTED,Oxfordshire,Behaviour Support Assistant - Oxford,Oxford,£85 - £100 per daily,,,23643_225543862
 2026-08-30,SELECTED,Oxfordshire,Behaviour Support Assistant - Oxford,Oxford,£85 - £110 per daily,,,1819710
 2026-08-30,SELECTED,Oxfordshire,Autism Support Worker - Oxford,Oxford,£90 - £105 per daily,,,1721690
 2026-08-30,SELECTED,Oxfordshire,Emotional Support Worker - Kidlington,Kidlington,£85 - £110 per daily,,,1721685
-2026-08-30,SELECTED,Oxfordshire,Support Worker,Bicester,£26000 per year,,,107893300
-2026-08-30,SELECTED,Surrey,Children's Support Worker,Haslemere,£14 - £15 per hour,,,107741924
 2026-08-30,SELECTED,Surrey,Specialist Academic Support Worker,Farnham,£13.00 per hour,,,1692926
 2026-08-30,SELECTED,Surrey,Care assistant,Lingfield,£92.46 per day,,,1808686
 2026-08-30,SELECTED,Surrey,Residential Support Worker,Lingfield,£25308 - £27180 per year,,,1808682
-2026-08-30,SELECTED,Wiltshire,ASD Support Worker,Calne,£90 - £105 per daily,,,107742510
 2026-08-30,SELECTED,Wiltshire,Mental Health Support Worker,Trowbridge,£85 - £110 per daily,,,1693230
 2026-08-30,SELECTED,Wiltshire,Autism Support Worker,Chippenham,£85 - £110 per daily,,,1693131
 2026-08-30,SELECTED,Wiltshire,Female BSW Crisis House Peer Support Worker,Swindon,"£26,227 per annum",,,1787836
-2026-08-30,SELECTED,Wiltshire,Support Worker,Melksham,£12000 per year,,,107887003
 2026-08-30,SELECTED,Wiltshire,Emotional and Mental Health Support Worker,Chippenham,£85 - £110 per daily,,,1709295
-2026-08-30,SELECTED,Wiltshire,Care Assistant,Swindon,£13 - £14 per hour,,,107895281

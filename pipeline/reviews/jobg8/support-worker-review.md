@@ -31,12 +31,6 @@ _No jobs in this group._
 
 ---
 action:
-SELECTED | Yorkshire - South | Barnsley | £24000 per year | Residential Child Care Worker
-job_id: 107881537
----
-
----
-action:
 SELECTED | Yorkshire - South | Sheffield | £15 per hour | Hourly Care Assistant to Journalism Studies Uni student
 job_id: 107798506
 ---
@@ -85,38 +79,14 @@ job_id: 23643_222307132
 
 ---
 action:
-SELECTED | Sussex | Bexhill-on-sea | £13.79 - £14.31 per hour | Bank Care Assistant
-job_id: 107807365
----
-
----
-action:
 SELECTED | Sussex | Crawley | £18 - £19 per hour | Complex Care Assistant
 job_id: 107854069
 ---
 
 ---
 action:
-SELECTED | Sussex | Bexhill-on-sea | £13.79 per hour | Care Assistant
-job_id: 107864483
----
-
----
-action:
 SELECTED | Sussex | Hove | £16 per hour | Care Assistant to a Creative Writing Uni Graduate
 job_id: 107835737
----
-
----
-action:
-SELECTED | Sussex | Newhaven | £30000 per year | Residential Support Worker
-job_id: 107901961
----
-
----
-action:
-SELECTED | Sussex | Littlehampton | £12.91 - £13.21 per hour | Part Time Support Worker - 20 hours
-job_id: 107907129
 ---
 
 ## SUSSEX — POSSIBLES
@@ -201,26 +171,8 @@ job_id: 107852539
 
 ---
 action:
-SELECTED | Kent | Dover | £30000 per year | Residential Support Worker
-job_id: 107901714
----
-
----
-action:
-SELECTED | Kent | New Romney | £30000 per year | Residential Support Worker
-job_id: 107901785
----
-
----
-action:
 SELECTED | Kent | Dover | £15 - £17 per hour | Complex Care Assistant
 job_id: 107882991
----
-
----
-action:
-SELECTED | Kent | Tonbridge | £14 - £17 per hour | Complex Healthcare Assistant
-job_id: 107883007
 ---
 
 ---
@@ -303,12 +255,6 @@ job_id: 23643_225535652
 
 ---
 action:
-SELECTED | London | Surbiton | £246 per daily | Personal Care Assistant to a Business Management graduate
-job_id: 107900179
----
-
----
-action:
 SELECTED | London | City | £260 per daily | Care Assistant to a Psychology University Student
 job_id: 107751975
 ---
@@ -333,12 +279,6 @@ job_id: 1708252
 
 ---
 action:
-SELECTED | London | London | £13 per hour | Home Care Worker
-job_id: 107745063
----
-
----
-action:
 SELECTED | London | London | £14.8 per hour | Support Worker
 job_id: 23643_225165439
 ---
@@ -348,36 +288,6 @@ job_id: 23643_225165439
 _No jobs in this group._
 
 ## OXFORDSHIRE — SELECTED
-
----
-action:
-SELECTED | Oxfordshire | Oxfordshire | £14.4 per hour | Home Carer
-job_id: 107617602
----
-
----
-action:
-SELECTED | Oxfordshire | Witney | £14.4 per hour | Home Carer
-job_id: 107626591
----
-
----
-action:
-SELECTED | Oxfordshire | Bicester | £14.4 per hour | Home Carer
-job_id: 107626594
----
-
----
-action:
-SELECTED | Oxfordshire | Banbury | £14.4 per hour | Home Carer
-job_id: 107626596
----
-
----
-action:
-SELECTED | Oxfordshire | Bicester | £30000 per year | Children Residential Support Worker
-job_id: 107758331
----
 
 ---
 action:
@@ -409,23 +319,11 @@ SELECTED | Oxfordshire | Kidlington | £85 - £110 per daily | Emotional Support
 job_id: 1721685
 ---
 
----
-action:
-SELECTED | Oxfordshire | Bicester | £26000 per year | Support Worker
-job_id: 107893300
----
-
 ## OXFORDSHIRE — POSSIBLES
 
 _No jobs in this group._
 
 ## SURREY — SELECTED
-
----
-action:
-SELECTED | Surrey | Haslemere | £14 - £15 per hour | Children's Support Worker
-job_id: 107741924
----
 
 ---
 action:
@@ -453,12 +351,6 @@ _No jobs in this group._
 
 ---
 action:
-SELECTED | Wiltshire | Calne | £90 - £105 per daily | ASD Support Worker
-job_id: 107742510
----
-
----
-action:
 SELECTED | Wiltshire | Trowbridge | £85 - £110 per daily | Mental Health Support Worker
 job_id: 1693230
 ---
@@ -477,20 +369,8 @@ job_id: 1787836
 
 ---
 action:
-SELECTED | Wiltshire | Melksham | £12000 per year | Support Worker
-job_id: 107887003
----
-
----
-action:
 SELECTED | Wiltshire | Chippenham | £85 - £110 per daily | Emotional and Mental Health Support Worker
 job_id: 1709295
----
-
----
-action:
-SELECTED | Wiltshire | Swindon | £13 - £14 per hour | Care Assistant
-job_id: 107895281
 ---
 
 ## WILTSHIRE — POSSIBLES
