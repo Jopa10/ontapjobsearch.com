@@ -31,6 +31,14 @@ class SalaryDescriptionFallbackTests(unittest.TestCase):
             "£14.50 per hour",
         )
 
+    def test_annual_salary_is_not_misread_as_hourly_rate(self):
+        self.assertEqual(
+            core.extract_salary_from_description(
+                "Salary: £13,928.53 Hourly rate: £13.35 per hour rising to £13.66 per hour"
+            ),
+            "£13.35 per hour",
+        )
+
 
 if __name__ == "__main__":
     unittest.main()

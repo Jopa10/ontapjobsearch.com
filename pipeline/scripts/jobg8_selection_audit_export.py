@@ -10,6 +10,7 @@ from __future__ import annotations
 import argparse
 import csv
 import json
+import re
 from collections import Counter
 from pathlib import Path
 from typing import Any
@@ -22,6 +23,8 @@ from openpyxl.utils import get_column_letter
 from openpyxl.worksheet.table import Table, TableStyleInfo
 
 from pipeline.scripts.jobg8_refine_other_families import annualised_salary, latest_feed, norm, text
+from pipeline.scripts import service_admin_pipeline_core as selector_salary
+from pipeline.scripts.pipeline_refinement import ANNUAL_SALARY_FACTORS
 
 
 COL = {
@@ -58,8 +61,9 @@ OUTPUT_COLUMNS = [
     "JobG8 ID", "Title", "Employer", "Advertiser type", "Location", "JobG8 area",
     "Ontap region", "Original JobG8 category", "Employment type", "Work hours",
     "Salary minimum", "Salary maximum", "Salary period", "Annualised minimum",
-    "Annualised maximum", "Annualised midpoint", "Salary band", "Refined broad family",
-    "Governed family matches", "Selection status", "Status evidence", "Application URL",
+    "Salary source", "Effective salary", "Annualised maximum", "Annualised midpoint",
+    "Salary band", "Refined broad family",
+    "Governed family matches", "Publication / coverage status", "Coverage evidence", "Application URL",
     "Sender reference", "Full description",
 ]
 
@@ -84,6 +88,35 @@ def salary_band(minimum: float | None, maximum: float | None) -> str:
     if midpoint <= 45_000:
         return "£35k–£45k"
     return "Over £45k"
+
+
+def effective_salary(row: pd.Series) -> tuple[str, str, float | None, float | None]:
+    """Return the same structured/description/missing salary evidence used by selectors."""
+    salary_text, salary_source = selector_salary.build_salary_details(row)
+    if salary_source == "structured":
+        period = selector_salary.normalise_salary_period(row)
+        annual_min = annualised_salary(row.get(COL["salary_min"], ""), period)
+        annual_max = annualised_salary(row.get(COL["salary_max"], ""), period)
+        return salary_source, salary_text, annual_min, annual_max
+    if salary_source != "description_fallback":
+        return salary_source, salary_text, None, None
+
+    amounts = [
+        float(value.replace(",", ""))
+        for value in re.findall(r"£\s*(\d[\d,]*(?:\.\d+)?)", salary_text)
+    ]
+    period = next(
+        (
+            candidate
+            for candidate in ANNUAL_SALARY_FACTORS
+            if re.search(rf"\b{re.escape(candidate)}\b", salary_text, flags=re.IGNORECASE)
+        ),
+        "",
+    )
+    if not amounts or not period:
+        return salary_source, salary_text, None, None
+    annualised = [amount * ANNUAL_SALARY_FACTORS[period] for amount in amounts]
+    return salary_source, salary_text, min(annualised), max(annualised)
 
 
 def published_jobg8_ids(app_root: Path) -> set[str]:
@@ -148,15 +181,15 @@ def classify_status(
         live = [category for category in selected if register.get((region, category)) == "LIVE"]
         labels = ", ".join(CATEGORY_LABELS.get(x, x) for x in selected)
         if not live:
-            return "Selected but market not LIVE", f"Matched governed family register(s): {labels}; none is LIVE in {region}."
+            return "Governed match; market not LIVE", f"Matched governed family register(s): {labels}; none is LIVE in {region}. This is coverage evidence, not a production-selector decision."
         live_labels = ", ".join(CATEGORY_LABELS.get(x, x) for x in live)
         return (
-            "Selected but below slice threshold / otherwise withheld",
-            f"Matched a governed family that is LIVE in {region}: {live_labels}; not present in current published JSON. Exact selector/threshold withholding needs family-level review.",
+            "Governed match in LIVE market; not published",
+            f"Matched a governed family that is LIVE in {region}: {live_labels}; JobG8 ID is absent from current published JSON. The reason is not established because this audit does not execute the production family selector.",
         )
     if conflicts:
-        return "Assessed and rejected", "; ".join(conflicts)
-    return "Not matched to any governed family", "No selected governed-family register match was found in the coverage audit."
+        return "Governed register rejection", "; ".join(conflicts)
+    return "No governed register match", "No governed-family register match was found in the coverage audit. This is not a production-selector decision."
 
 
 def build_rows(
@@ -180,8 +213,7 @@ def build_rows(
         region = resolve_region(source, areas, locations)
         job_id = text(source.get(COL["id"], ""))
         status, reason = classify_status(job_id, region, selected, conflicts, published_ids, register)
-        annual_min = annualised_salary(source.get(COL["salary_min"], ""), source.get(COL["salary_period"], ""))
-        annual_max = annualised_salary(source.get(COL["salary_max"], ""), source.get(COL["salary_period"], ""))
+        salary_source, effective_salary_text, annual_min, annual_max = effective_salary(source)
         annual_values = [v for v in (annual_min, annual_max) if v is not None]
         rows.append({
             "JobG8 ID": job_id,
@@ -198,13 +230,15 @@ def build_rows(
             "Salary maximum": text(source.get(COL["salary_max"], "")),
             "Salary period": text(source.get(COL["salary_period"], "")),
             "Annualised minimum": annual_min,
+            "Salary source": salary_source,
+            "Effective salary": effective_salary_text,
             "Annualised maximum": annual_max,
             "Annualised midpoint": (sum(annual_values) / len(annual_values)) if annual_values else None,
             "Salary band": salary_band(annual_min, annual_max),
             "Refined broad family": text(evidence.get("refined_broad_family", evidence.get("primary_broad_family", "Other / Unclassified"))),
             "Governed family matches": "; ".join(CATEGORY_LABELS.get(x, x) for x in selected),
-            "Selection status": status,
-            "Status evidence": reason,
+            "Publication / coverage status": status,
+            "Coverage evidence": reason,
             "Application URL": text(source.get(COL["apply_url"], "")),
             "Sender reference": text(source.get(COL["sender_reference"], "")),
             "Full description": text(source.get(COL["description"], "")),
@@ -224,7 +258,7 @@ def write_xlsx(rows: list[dict[str, Any]], path: Path, source_name: str) -> None
     ws = wb.active
     ws.title = "JobG8 selection audit"
     ws.sheet_view.showGridLines = False
-    counts = Counter(row["Selection status"] for row in rows)
+    counts = Counter(row["Publication / coverage status"] for row in rows)
     ws.append(["JobG8 selection audit", "", "Source", source_name, "Rows", len(rows)])
     ws.merge_cells("A1:B1")
     ws.append(["Published", counts["Published"], "Not published", len(rows) - counts["Published"]])
@@ -246,18 +280,18 @@ def write_xlsx(rows: list[dict[str, Any]], path: Path, source_name: str) -> None
         cell.font = Font(color="FFFFFF", bold=True)
     for cell in ws[5]:
         cell.alignment = Alignment(wrap_text=True, vertical="center")
-    widths = [18, 30, 24, 16, 18, 24, 25, 28, 18, 16, 15, 15, 15, 18, 18, 18, 22, 30, 30, 42, 58, 38, 18, 90]
+    widths = [18, 30, 24, 16, 18, 24, 25, 28, 18, 16, 15, 15, 15, 18, 18, 30, 18, 18, 22, 30, 30, 42, 58, 38, 18, 90]
     for index, width in enumerate(widths, 1):
         ws.column_dimensions[get_column_letter(index)].width = width
     for row_number in range(6, len(rows) + 6):
         ws.row_dimensions[row_number].height = 48
-        for col in (2, 3, 5, 6, 7, 8, 18, 19, 20, 21, 24):
+        for col in (2, 3, 5, 6, 7, 8, 16, 20, 21, 22, 23, 26):
             ws.cell(row_number, col).alignment = Alignment(vertical="top", wrap_text=True)
-        for col in (14, 15, 16):
+        for col in (14, 17, 18):
             ws.cell(row_number, col).number_format = '£#,##0'
-    status_col = get_column_letter(OUTPUT_COLUMNS.index("Selection status") + 1)
+    status_col = get_column_letter(OUTPUT_COLUMNS.index("Publication / coverage status") + 1)
     data_range = f"{status_col}6:{status_col}{len(rows)+5}"
-    for phrase, colour in (("Published", "DDF3E4"), ("market not LIVE", "FFF1C7"), ("withheld", "FFE7C2"), ("rejected", "FDE2E2"), ("Not matched", "E7E9ED")):
+    for phrase, colour in (("Published", "DDF3E4"), ("market not LIVE", "FFF1C7"), ("not published", "FFE7C2"), ("rejection", "FDE2E2"), ("No governed", "E7E9ED")):
         ws.conditional_formatting.add(data_range, FormulaRule(formula=[f'ISNUMBER(SEARCH("{phrase}",{status_col}6))'], fill=PatternFill("solid", fgColor=colour)))
     wb.save(path)
 
@@ -289,7 +323,7 @@ def main() -> int:
     xlsx_path = args.output_dir / "jobg8-selection-audit.xlsx"
     write_csv(rows, csv_path)
     write_xlsx(rows, xlsx_path, feed.name)
-    counts = Counter(row["Selection status"] for row in rows)
+    counts = Counter(row["Publication / coverage status"] for row in rows)
     if sum(counts.values()) != len(raw) or len(rows) != len(raw):
         raise SystemExit("Audit row reconciliation failed")
     print(f"Exported {len(rows):,} JobG8 rows from {feed.name}")
