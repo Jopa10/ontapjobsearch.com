@@ -4,9 +4,9 @@
 > All active sources are current for 2026-08-30. You can start reviewing.
 
 review_date: 2026-08-30
-generated_at: 2026-08-30T13:16:37+00:00
+generated_at: 2026-08-30T17:24:12+00:00
 
-**19 job(s) need a human decision.**
+**49 job(s) need a human decision.**
 
 Edit only each `action:` line:
 - `action: select` = include the vacancy.
@@ -21,15 +21,553 @@ Edit only each `action:` line:
 
 | Source | Status | Review date | Needs review | Note |
 |---|---|---|---:|---|
-| JobG8 | OK | 2026-08-30 | 0 | — |
+| JobG8 | OK | 2026-08-30 | 30 | — |
 | NEJobs | OK | 2026-08-30 | 0 | — |
 | VONNE | OK | 2026-08-30 | 0 | — |
 | Teaching Vacancies | OK | 2026-08-30 | 19 | — |
 | NHS Jobs | OK | 2026-08-30 | 0 | automatic Tier A/B publish; NHS POSS stays in the NHS-specific review and is optional |
 
-## JobG8 — 0 to review
+## JobG8 — 30 to review
 
-_No new or changed human decisions required._
+---
+action:
+POSS | JobG8 | Berkshire | Berkshire | £45000 per year | Night Coordinator
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 107911372
+title: Night Coordinator
+employer: 
+location: Berkshire
+region: Berkshire
+salary: £45000 per year
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: c28cc4cd0e1ff26d504abf513e7a81aa54067af017a39162e406ab0e40cfb0ac
+---
+
+---
+action:
+POSS | JobG8 | Bristol & Bath | Bristol | £32500 - £37000 per year | Business Systems Project Coordinator / Lead
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 1776928
+title: Business Systems Project Coordinator / Lead
+employer: 
+location: Bristol
+region: Bristol & Bath
+salary: £32500 - £37000 per year
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: f60c7e432906daf9fc077ff156a455faf13d8db729531157a1d94f11f2717197
+---
+
+---
+action:
+POSS | JobG8 | Bristol & Bath | Bristol | £40000 per year | Service Desk Consultant
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 1710429
+title: Service Desk Consultant
+employer: 
+location: Bristol
+region: Bristol & Bath
+salary: £40000 per year
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: aacc4910cef6b943b8024eb1511bfe90ee650ffa04bcaf397dbc6e2309eab84a
+---
+
+---
+action:
+POSS | JobG8 | Derbyshire | Derbyshire | £35000 - £45000 per year | Microsoft 365 & Cloud Administrator
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 1805280
+title: Microsoft 365 & Cloud Administrator
+employer: 
+location: Derbyshire
+region: Derbyshire
+salary: £35000 - £45000 per year
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: 1ac32470b5c9580d9073c459b3bc2cf2ff3a03604f99ce6f2845c542bfd259f8
+---
+
+---
+action:
+POSS | JobG8 | Greater Manchester - Manchester & Salford | Manchester | £40000 per year | HR Systems and reporting coordinator
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 107899847
+title: HR Systems and reporting coordinator
+employer: 
+location: Manchester
+region: Greater Manchester - Manchester & Salford
+salary: £40000 per year
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: 68df80c0d1d7bee93dc4fa96e5e8918a38d9b8627815fab5523aa296765a1f8b
+---
+
+---
+action:
+POSS | JobG8 | Hampshire | Hampshire | £30000 - £38000 per year | Executive Assistant
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 23643_225456062
+title: Executive Assistant
+employer: 
+location: Hampshire
+region: Hampshire
+salary: £30000 - £38000 per year
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: c99a240a51ea5c14951aaa99a6140344a7ac357b975e513edb6817a08e118e10
+---
+
+---
+action:
+POSS | JobG8 | Hampshire | Hampshire | £40000 per year | IT Service Desk Team Leader
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 1720326
+title: IT Service Desk Team Leader
+employer: 
+location: Hampshire
+region: Hampshire
+salary: £40000 per year
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: d1edee42405d4deebd98b9a06721c3d02682b29acb81b11c5f629d6faa205b84
+---
+
+---
+action:
+POSS | JobG8 | Hampshire | Hampshire | £40000 per year | IT Service Desk Team Leader
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 1806225
+title: IT Service Desk Team Leader
+employer: 
+location: Hampshire
+region: Hampshire
+salary: £40000 per year
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: f32e3ad5431fd7d3c1fe5419a031fd0d64814679d35f2787029802f7459fe994
+---
+
+---
+action:
+POSS | JobG8 | Hampshire | Hampshire | £45000 per year | Linux System Administrator
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 1701057
+title: Linux System Administrator
+employer: 
+location: Hampshire
+region: Hampshire
+salary: £45000 per year
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: 6771fda9760b4e9922d33e4ca85407558ff03ced21955e8926be46fe5c813ccb
+---
+
+---
+action:
+POSS | JobG8 | London | London | £285 - £300 per daily | Executive Assistant
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 23643_225470323
+title: Executive Assistant
+employer: 
+location: London
+region: London
+salary: £285 - £300 per daily
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: 6d7a313e295554d292a09049c6c69f885fd6ec7fa635c75a4adb93f4b723266b
+---
+
+---
+action:
+POSS | JobG8 | London | London | £53000 - £68000 per year | Executive Assistant
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 23643_225473542
+title: Executive Assistant
+employer: 
+location: London
+region: London
+salary: £53000 - £68000 per year
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: 3483652026a7ce579ca15ec39b04353ad9dfb853edd043b7ed877cafb5b06834
+---
+
+---
+action:
+POSS | JobG8 | London | London | £38000 per year | Executive Assistant
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 23643_225523650
+title: Executive Assistant
+employer: 
+location: London
+region: London
+salary: £38000 per year
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: c8f7261964cf0844d8f83c2bbe9df43651d637de89a508910be8650f51776cb4
+---
+
+---
+action:
+POSS | JobG8 | London | London | £35000 - £38000 per year | Executive Assistant
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 23643_225534070
+title: Executive Assistant
+employer: 
+location: London
+region: London
+salary: £35000 - £38000 per year
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: c661e28e18c54d003a2b7b2ee43ba4bc3150b24e1da25d0ac6f3993db65be91a
+---
+
+---
+action:
+POSS | JobG8 | London | London | £19 - £20 per hour | IT Security & Operations Administrator
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 1808439
+title: IT Security & Operations Administrator
+employer: 
+location: London
+region: London
+salary: £19 - £20 per hour
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: d8402eb033f919caeef84585119a77a2321cc3c79559719c32ff0316c7909ee3
+---
+
+---
+action:
+POSS | JobG8 | London | London | £400 per daily | Project Coordinator
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 1802628
+title: Project Coordinator
+employer: 
+location: London
+region: London
+salary: £400 per daily
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: 4f5435874f9a1f5f22f03302f04a512f88c7938b7a688807b41564e12cb08172
+---
+
+---
+action:
+POSS | JobG8 | London | London | £60000 - £75000 per year | Project Coordinator
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 1821604
+title: Project Coordinator
+employer: 
+location: London
+region: London
+salary: £60000 - £75000 per year
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: dccaeeca90d8ad99de237a8ceb78f0d6f8fa3848a1fa4597b6de7566b936ad01
+---
+
+---
+action:
+POSS | JobG8 | London | London | £35000 - £40000 per year | Sales & Accounts Coordinator
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 1689332
+title: Sales & Accounts Coordinator
+employer: 
+location: London
+region: London
+salary: £35000 - £40000 per year
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: dfa73373bd69e4550f7c98aa3058d8921607f30fe6cdedf10efbaac6c347aaf1
+---
+
+---
+action:
+POSS | JobG8 | London | London | £50000 per year | Service Desk Team Leader
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 1693459
+title: Service Desk Team Leader
+employer: 
+location: London
+region: London
+salary: £50000 per year
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: 2ecf52f692a75f680fcab73b5d8e275cda5f81c576c671945acba707b89a7409
+---
+
+---
+action:
+POSS | JobG8 | London | Sutton-in-ashfield | £50000 - £70000 per year | Executive Assistant
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 23643_225475553
+title: Executive Assistant
+employer: 
+location: Sutton-in-ashfield
+region: London
+salary: £50000 - £70000 per year
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: e5e229f28d07435cf9910a8352f4db06ca8227495303d827c48c0f41fade5060
+---
+
+---
+action:
+POSS | JobG8 | Norfolk | Norfolk | £17.21 per hour | IT Service Desk Analyst
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 1690805
+title: IT Service Desk Analyst
+employer: 
+location: Norfolk
+region: Norfolk
+salary: £17.21 per hour
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: ef9b9e84ff68d275716f078626a6c6581b0437f453f90bc92379d830bd319f32
+---
+
+---
+action:
+POSS | JobG8 | Oxfordshire | Oxfordshire | £210 per daily | Data Entry Administrator
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 1690947
+title: Data Entry Administrator
+employer: 
+location: Oxfordshire
+region: Oxfordshire
+salary: £210 per daily
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: 5bd40a17b355ecf57ced89820a9bde457bf8a38cdbb0b8408a997cc8bf5d38cf
+---
+
+---
+action:
+POSS | JobG8 | Oxfordshire | Oxfordshire | £40000 - £45000 per year | Executive Assistant
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 23643_225476635
+title: Executive Assistant
+employer: 
+location: Oxfordshire
+region: Oxfordshire
+salary: £40000 - £45000 per year
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: 47c844f14a0e1125747eb20b1d09b17e10127ac21006e3de023905cfcd88d805
+---
+
+---
+action:
+POSS | JobG8 | Scotland West - Glasgow | Glasgow | £40000 per year | Service Desk Consultant
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 1710430
+title: Service Desk Consultant
+employer: 
+location: Glasgow
+region: Scotland West - Glasgow
+salary: £40000 per year
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: 31c905105c7fd689f89b58e7e39befa353a2a53afe6ac49a2c250255df251d76
+---
+
+---
+action:
+POSS | JobG8 | Surrey | Staines | £30000 - £40000 per year | IT Project Coordinator
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 1802161
+title: IT Project Coordinator
+employer: 
+location: Staines
+region: Surrey
+salary: £30000 - £40000 per year
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: 6eca904f322f3965e411a49a1d2d072f9914f2e668ce722942379ac9ffa87b70
+---
+
+---
+action:
+POSS | JobG8 | Sussex | Sussex | £35000 - £37000 per year | CRM Administrator (HubSpot)
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 1703306
+title: CRM Administrator (HubSpot)
+employer: 
+location: Sussex
+region: Sussex
+salary: £35000 - £37000 per year
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: a5d09962457c87b590cce370e9cf94cbbb45824f963fb3b77e3168e7cef1d0df
+---
+
+---
+action:
+POSS | JobG8 | West Midlands - Birmingham & Solihull | Shirley | £23.6 per hour (6 Months) | Executive Assistant
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 23643_225533056
+title: Executive Assistant
+employer: 
+location: Shirley
+region: West Midlands - Birmingham & Solihull
+salary: £23.6 per hour (6 Months)
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: 1516fa24b439c35ee79868e39081ba7410a7564920bdbf12d99fd2fccb924ecd
+---
+
+---
+action:
+POSS | JobG8 | West Midlands - Coventry & Warwickshire | Coventry | £35000 - £45000 per year ((depending on experience)) | Executive Assistant
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 23643_225497892
+title: Executive Assistant
+employer: 
+location: Coventry
+region: West Midlands - Coventry & Warwickshire
+salary: £35000 - £45000 per year ((depending on experience))
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: 8faf227704acb1248184972ba07f1c50c2c42fa302471c78959edb5cb90b6871
+---
+
+---
+action:
+POSS | JobG8 | Yorkshire - East | Hull | £35000 - £38000 per year (£35,000 - £38,000) | Executive Assistant
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 23643_225516073
+title: Executive Assistant
+employer: 
+location: Hull
+region: Yorkshire - East
+salary: £35000 - £38000 per year (£35,000 - £38,000)
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: e40efafaf7616243fe17ecbf5c214b57efc870324753c508d06d1c1f4ed9f300
+---
+
+---
+action:
+POSS | JobG8 | Yorkshire - West | Bradford | £43017 per year | Salesforce Administrator (ICT)
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 1809360
+title: Salesforce Administrator (ICT)
+employer: 
+location: Bradford
+region: Yorkshire - West
+salary: £43017 per year
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: 571001f59bc6ce62feb735e2d568395c21cf2cad951f1f127c005fae9fd75fcf
+---
+
+---
+action:
+POSS | JobG8 | Yorkshire - West | Leeds | £38000 - £45000 per year | Executive Assistant
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 23643_225460895
+title: Executive Assistant
+employer: 
+location: Leeds
+region: Yorkshire - West
+salary: £38000 - £45000 per year
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: 757810bc026967a84952e63c612f6aa27bc6a303b12bb9575ede9713f5bb760b
+---
 
 ## NEJobs — 0 to review
 
