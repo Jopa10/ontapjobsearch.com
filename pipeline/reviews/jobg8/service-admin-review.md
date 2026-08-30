@@ -2060,11 +2060,10 @@ job_id: 107880406
 ## BUCKINGHAMSHIRE — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - BUCKINGHAMSHIRE | Buckinghamshire | Buckinghamshire | £16.63 per hour | Personal Assistant
 job_id: 23643_225446883
 ---
-
 ## CAMBRIDGESHIRE — SELECTED
 
 ---
@@ -4782,11 +4781,10 @@ job_id: 107894712
 ## YORKSHIRE - EAST — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - YORKSHIRE - EAST | Yorkshire - East | Brough | £19.5 per hour | Personal Assistant
 job_id: 23643_225444500
 ---
-
 ## YORKSHIRE - NORTH — SELECTED
 
 ---
