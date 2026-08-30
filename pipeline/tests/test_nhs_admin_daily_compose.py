@@ -78,3 +78,21 @@ def test_verify_composition_rejects_missing_nhs_description(tmp_path: Path) -> N
 
     with pytest.raises(RuntimeError, match="no description"):
         verify_composition(current, composed)
+
+
+def test_jobg8_review_apply_recomposes_nhs_before_committing() -> None:
+    workflow = (
+        Path(__file__).parents[2] / ".github/workflows/apply-jobg8-review-decisions.yml"
+    ).read_text(encoding="utf-8")
+
+    service_admin = workflow.index("python -m scripts.service_admin_pipeline_north_yorkshire")
+    nhs_compose = workflow.index("python -m external_sources.compose_nhs_admin_daily --write")
+    commit = workflow.index("- name: Commit applied review decisions")
+
+    assert service_admin < nhs_compose < commit
+    for path in (
+        "pipeline/reviews/external/nhs-jobs-review.csv",
+        "pipeline/reviews/external/nhs-jobs-summary.md",
+        "pipeline/reviews/external/nhs-jobs-decisions.csv",
+    ):
+        assert path in workflow
