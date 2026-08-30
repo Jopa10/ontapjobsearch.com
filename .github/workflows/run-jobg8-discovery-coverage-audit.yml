@@ -17,6 +17,8 @@ on:
         default: false
         type: boolean
   push:
+    branches:
+      - main
     paths:
       - '.github/workflows/run-jobg8-discovery-coverage-audit.yml'
       - 'pipeline/scripts/jobg8_discovery_coverage_audit.py'
