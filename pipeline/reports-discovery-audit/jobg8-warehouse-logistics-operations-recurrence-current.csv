@@ -6,7 +6,7 @@ Buckinghamshire,1,0,1,1,1
 Cambridgeshire,1,1,2,0,0
 Cheshire - East,0,0,0,0,0
 Cheshire - Warrington & Halton,0,0,0,0,0
-Cheshire - West,0,0,0,0,0
+Cheshire - West,0,0,0,1,0
 Cornwall,0,0,0,0,0
 Cumbria - North,0,0,0,0,0
 Cumbria - South,1,0,1,0,0
@@ -16,7 +16,7 @@ Devon,0,0,0,0,0
 Dorset,0,0,0,0,0
 Essex,0,1,1,0,2
 Gloucestershire,0,0,0,0,1
-Greater Manchester - Manchester & Salford,0,0,0,2,0
+Greater Manchester - Manchester & Salford,0,0,0,1,0
 Greater Manchester - North,0,0,0,0,0
 Greater Manchester - South,0,0,0,0,0
 Greater Manchester - Wigan & Bolton,0,0,0,0,0
@@ -31,15 +31,15 @@ Lancashire - North,0,0,0,0,0
 Lancashire - West,0,0,0,0,0
 Leicestershire,2,0,2,0,1
 Lincolnshire,1,0,1,0,1
-London,0,3,3,3,2
-Merseyside - Liverpool,0,0,0,0,0
+London,0,2,2,3,2
+Merseyside - Liverpool,0,0,0,0,1
 Merseyside - Sefton,0,0,0,0,0
 Merseyside - St Helens & Knowsley,0,0,0,0,0
 Merseyside - Wirral,0,0,0,0,0
 Norfolk,0,0,0,0,0
 North East,0,0,0,0,1
-Northamptonshire,1,1,2,0,1
-Nottinghamshire,1,1,2,0,0
+Northamptonshire,1,1,2,0,0
+Nottinghamshire,1,0,1,0,0
 Oxfordshire,1,0,1,0,0
 Rutland,0,0,0,0,0
 Shropshire,0,0,0,0,1
@@ -50,11 +50,11 @@ Surrey,0,1,1,0,0
 Sussex,0,0,0,0,0
 West Midlands - Birmingham & Solihull,0,0,0,0,1
 West Midlands - Black Country,1,1,2,0,1
-West Midlands - Coventry & Warwickshire,1,1,2,0,1
+West Midlands - Coventry & Warwickshire,1,0,1,0,1
 Wiltshire,0,0,0,1,0
 Worcestershire,0,1,1,0,0
 Yorkshire - East,0,0,0,0,0
-Yorkshire - North,2,0,2,0,1
+Yorkshire - North,2,0,2,0,0
 Yorkshire - South,0,0,0,0,0
 Yorkshire - West,0,1,1,1,1
 North Scotland,0,0,0,0,0
@@ -64,7 +64,7 @@ Scotland Central - Falkirk & Stirling,0,0,0,0,0
 Scotland Central - Fife,0,0,0,0,0
 Scotland Central - Tayside,1,0,1,0,0
 Scotland West - Ayrshire,0,0,0,0,0
-Scotland West - Glasgow,0,1,1,2,1
+Scotland West - Glasgow,0,0,0,2,1
 Scotland West - Lanarkshire,0,0,0,0,1
 Scotland West - Renfrewshire & Inverclyde,0,0,0,0,0
 North Wales - East,0,0,0,0,0

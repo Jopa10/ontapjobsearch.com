@@ -1,10 +1,10 @@
 # JobG8 Insurance & Claims Support discovery audit
 
-Feed: **2026-08-29.xlsx**
+Feed: **2026-08-30.xlsx**
 Jobs in feed: **10,000**
 Broad insurance/claims candidates: **101**
-Core support candidates: **15**
-Boundary-review candidates: **35**
+Core support candidates: **14**
+Boundary-review candidates: **36**
 Specialist/senior exclusions at discovery stage: **51**
 
 Diagnostic only: this report does not change any Ontap publication or family-selection rule.
@@ -15,16 +15,16 @@ Diagnostic only: this report does not change any Ontap publication or family-sel
 |---|---:|
 | EXCLUDE_SPECIALIST | 51 |
 | REVIEW_OTHER_INSURANCE | 19 |
-| REVIEW_ACCOUNT_HANDLER | 13 |
-| CORE_CLAIMS_SUPPORT | 8 |
+| REVIEW_ACCOUNT_HANDLER | 15 |
 | CORE_INSURANCE_SUPPORT | 7 |
-| REVIEW_CLAIMS_TECHNICAL | 2 |
+| CORE_CLAIMS_SUPPORT | 7 |
 | REVIEW_DESCRIPTION_ONLY | 1 |
+| REVIEW_CLAIMS_TECHNICAL | 1 |
 
 ## Salary shape — core support only
 
 Soft reference range: **£25,000–£40,000** (diagnostic, not a hard gate).
-Core jobs with usable annualised salary: **12 / 15**.
+Core jobs with usable annualised salary: **12 / 14**.
 Median annualised midpoint: **£27,000**.
 Within soft range: **11 (92%)**; below: **1**; above: **0**.
 Hourly/daily/weekly figures are annualised approximately for discovery only.
@@ -42,7 +42,6 @@ Hourly/daily/weekly figures are annualised approximately for discovery only.
 | 1 | Insurance Advisor - Commercial |
 | 1 | Claims Administrator |
 | 1 | Motor Claims Handler |
-| 1 | Employer Liability and Public Liability Claims Handler (6 - Month FTC) |
 | 1 | Commercial Insurance Account Handler |
 | 1 | Experienced Motor Claims Handler |
 | 1 | Third-Party Capture Claims Handler |
@@ -52,7 +51,7 @@ Hourly/daily/weekly figures are annualised approximately for discovery only.
 | Jobs | Title |
 |---:|---|
 | 6 | Commercial Property Adjuster |
-| 5 | Commercial Account Handler |
+| 6 | Commercial Account Handler |
 | 2 | Insurance Account Executive |
 | 2 | Senior Account Handler |
 | 2 | Account Handler |
@@ -73,7 +72,7 @@ Classification column detected: **/Job/Classification**.
 
 | Jobs | JobG8 classification |
 |---:|---|
-| 5 | Insurance & Superannuation |
+| 4 | Insurance & Superannuation |
 | 3 | Sales & Marketing |
 | 2 | Administration |
 | 2 | Accounting |
@@ -91,7 +90,6 @@ Classification column detected: **/Job/Classification**.
 | 1 | London |
 | 1 | Bristol & Bath |
 | 1 | Oxfordshire |
-| 1 | Northamptonshire |
 | 1 | Hertfordshire |
 
 ## Discovery interpretation

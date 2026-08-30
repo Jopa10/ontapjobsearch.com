@@ -1,13 +1,13 @@
 # JobG8 Accounts & Finance Operations proof-region evidence candidates
 
-Content-unique national LIKELY_IN + BORDERLINE inventory: **181** against viability floor **100**.
+Content-unique national LIKELY_IN + BORDERLINE inventory: **171** against viability floor **100**.
 This report does not approve proof regions or any LIVE slice. It surfaces the strongest current markets for human boundary inspection after national discovery.
 
 ## Devon
 
 - LIKELY_IN: **10**
 - BORDERLINE: **0**
-- Provisional OUT: **17**
+- Provisional OUT: **18**
 
 Most common LIKELY_IN titles:
 
@@ -19,23 +19,6 @@ Most common LIKELY_IN titles:
 - Accounts Assistant (Part time): 1
 - Purchase Ledger Assistant: 1
 - Finance Administrator: 1
-
-## Yorkshire - North
-
-- LIKELY_IN: **10**
-- BORDERLINE: **0**
-- Provisional OUT: **11**
-
-Most common LIKELY_IN titles:
-
-- Accounts Administrator FTC: 2
-- Accounts Assistant: 2
-- Payroll Administrator: 1
-- Invoicing Administrator: 1
-- People and Payroll Assistant: 1
-- Ledger Clerk: 1
-- Purchase Ledger Clerk: 1
-- Bookkeeper: 1
 
 ## Northern Ireland - East
 
@@ -54,11 +37,27 @@ Most common LIKELY_IN titles:
 - Accounts Assistant & Income recovery: 1
 - Credit Controller FTC: 1
 
+## Yorkshire - North
+
+- LIKELY_IN: **9**
+- BORDERLINE: **0**
+- Provisional OUT: **11**
+
+Most common LIKELY_IN titles:
+
+- Accounts Administrator FTC: 2
+- Accounts Assistant: 2
+- Payroll Administrator: 1
+- Invoicing Administrator: 1
+- People and Payroll Assistant: 1
+- Ledger Clerk: 1
+- Purchase Ledger Clerk: 1
+
 ## Gloucestershire
 
 - LIKELY_IN: **7**
 - BORDERLINE: **0**
-- Provisional OUT: **10**
+- Provisional OUT: **11**
 
 Most common LIKELY_IN titles:
 
@@ -74,7 +73,7 @@ Most common LIKELY_IN titles:
 
 - LIKELY_IN: **6**
 - BORDERLINE: **0**
-- Provisional OUT: **4**
+- Provisional OUT: **5**
 
 Most common LIKELY_IN titles:
 

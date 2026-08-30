@@ -1,7 +1,7 @@
 ﻿market,likely_in,borderline,plausible_including_borderline,out_salary,out_specialist
 Bedfordshire,1,0,1,0,1
 Berkshire,1,1,2,1,0
-Bristol & Bath,2,3,5,1,20
+Bristol & Bath,2,3,5,1,19
 Buckinghamshire,1,0,1,0,4
 Cambridgeshire,0,0,0,1,0
 Cheshire - East,0,0,0,0,0
@@ -12,9 +12,9 @@ Cumbria - North,0,1,1,0,0
 Cumbria - South,0,0,0,0,0
 Cumbria - West,0,0,0,0,0
 Derbyshire,0,0,0,0,0
-Devon,0,2,2,1,3
+Devon,0,2,2,1,4
 Dorset,0,0,0,0,2
-Essex,1,4,5,1,2
+Essex,1,4,5,1,1
 Gloucestershire,1,2,3,0,3
 Greater Manchester - Manchester & Salford,3,3,6,1,5
 Greater Manchester - North,0,0,0,0,0
@@ -25,30 +25,30 @@ Herefordshire,0,0,0,0,0
 Hertfordshire,0,0,0,0,2
 Kent,1,0,1,0,5
 Lancashire - Blackpool & Fylde,0,0,0,0,0
-Lancashire - Central,0,0,0,1,3
+Lancashire - Central,0,0,0,0,3
 Lancashire - East,0,0,0,0,1
 Lancashire - North,0,0,0,0,0
 Lancashire - West,0,0,0,0,0
 Leicestershire,1,1,2,0,3
-Lincolnshire,1,2,3,0,3
-London,5,5,10,8,9
+Lincolnshire,1,1,2,0,3
+London,5,4,9,9,8
 Merseyside - Liverpool,0,1,1,0,2
-Merseyside - Sefton,0,1,1,0,0
+Merseyside - Sefton,0,0,0,0,0
 Merseyside - St Helens & Knowsley,0,0,0,0,0
 Merseyside - Wirral,0,0,0,0,0
 Norfolk,0,0,0,0,1
 North East,1,1,2,0,8
-Northamptonshire,2,0,2,0,2
+Northamptonshire,2,0,2,0,3
 Nottinghamshire,1,1,2,1,3
 Oxfordshire,0,0,0,0,4
 Rutland,0,0,0,0,0
 Shropshire,1,1,2,0,1
-Somerset,0,1,1,0,3
+Somerset,0,1,1,0,2
 Staffordshire,0,1,1,0,1
 Suffolk,1,0,1,0,4
 Surrey,1,1,2,0,2
 Sussex,5,1,6,0,0
-West Midlands - Birmingham & Solihull,4,0,4,1,4
+West Midlands - Birmingham & Solihull,3,0,3,1,4
 West Midlands - Black Country,0,0,0,0,0
 West Midlands - Coventry & Warwickshire,3,0,3,0,0
 Wiltshire,0,0,0,0,0
@@ -64,7 +64,7 @@ Scotland Central - Falkirk & Stirling,0,0,0,0,0
 Scotland Central - Fife,0,0,0,0,0
 Scotland Central - Tayside,0,0,0,0,0
 Scotland West - Ayrshire,0,0,0,0,0
-Scotland West - Glasgow,0,2,2,0,1
+Scotland West - Glasgow,0,1,1,0,1
 Scotland West - Lanarkshire,0,0,0,0,0
 Scotland West - Renfrewshire & Inverclyde,0,0,0,0,0
 North Wales - East,0,0,0,0,1

@@ -1,12 +1,12 @@
 # JobG8 Claims Support family validation
 
-Feed: **2026-08-29.xlsx**
+Feed: **2026-08-30.xlsx**
 Jobs in feed: **10,000**
 Broad insurance/claims universe: **101** raw rows
-IN after advert-level boundary rules: **11** raw rows
+IN after advert-level boundary rules: **10** raw rows
 BORDERLINE: **0** raw rows
-OUT: **90** raw rows
-Content-unique IN jobs: **11** (removed **0** exact-content duplicate rows)
+OUT: **91** raw rows
+Content-unique IN jobs: **10** (removed **0** exact-content duplicate rows)
 
 Diagnostic only: no LIVE slice, publishing rule or production family status is changed.
 
@@ -23,9 +23,9 @@ Diagnostic only: no LIVE slice, publishing rule or production family status is c
 
 | Decision | Raw rows |
 |---|---:|
-| IN | 11 |
+| IN | 10 |
 | BORDERLINE | 0 |
-| OUT | 90 |
+| OUT | 91 |
 
 ## Content-unique IN regional shape
 
@@ -36,13 +36,12 @@ Diagnostic only: no LIVE slice, publishing rule or production family status is c
 | 1 | Staffordshire |
 | 1 | Bristol & Bath |
 | 1 | Oxfordshire |
-| 1 | Northamptonshire |
 
 ## JobG8 classifications feeding content-unique IN jobs
 
 | Jobs | JobG8 classification |
 |---:|---|
-| 4 | Insurance & Superannuation |
+| 3 | Insurance & Superannuation |
 | 2 | Administration |
 | 2 | Call Centre / CustomerService |
 | 2 | Legal |
@@ -59,7 +58,6 @@ Diagnostic only: no LIVE slice, publishing rule or production family status is c
 | 1 | Senior Customer Service Adviser |
 | 1 | Claims Administrator |
 | 1 | Motor Claims Handler |
-| 1 | Employer Liability and Public Liability Claims Handler (6 - Month FTC) |
 | 1 | Experienced Motor Claims Handler |
 | 1 | Third-Party Capture Claims Handler |
 

@@ -57,7 +57,6 @@
 107862411,Mortgage Broker,Amersham,Buckinghamshire,Buckinghamshire,Banking & Financial Services,100000.00,100000.00,Annual,100000.0,100000.0,100000.0,EXCLUDE_SPECIALIST,specialist/senior insurance boundary
 107881821,Mortgage Broker,Basildon,Essex,Essex,Banking & Financial Services,30000.00,30000.00,Annual,30000.0,30000.0,30000.0,EXCLUDE_SPECIALIST,specialist/senior insurance boundary
 107816769,Operational Resilience Consultant - Insurance,City,London,London,Consulting & Corporate Strategy,60000.00,60000.00,Annual,60000.0,60000.0,60000.0,REVIEW_OTHER_INSURANCE,insurance/claims title needs boundary review
-107792065,Employer Liability and Public Liability Claims Handler (6 - Month FTC),Northampton,Northamptonshire,Northamptonshire,Insurance & Superannuation,,,Annual,,,,CORE_CLAIMS_SUPPORT,claims + support/service title
 107803444,Broker Development Manager,Not Specified,Birmingham,West Midlands - Birmingham & Solihull,Insurance & Superannuation,,,Annual,,,,EXCLUDE_SPECIALIST,specialist/senior insurance boundary
 107539916,Sales Executive Insurance,Witney,Oxfordshire,Oxfordshire,Sales & Marketing,35000.00,35000.00,Annual,35000.0,35000.0,35000.0,REVIEW_OTHER_INSURANCE,insurance/claims title needs boundary review
 107700709,Commercial Insurance Account Handler,Basingstoke,Hampshire,Hampshire,Sales & Marketing,25.00,25.00,Annual,25.0,25.0,25.0,CORE_INSURANCE_SUPPORT,insurance + support/service title
@@ -67,19 +66,17 @@
 107890286,Product Manager - Claims and Operations,Bournemouth,Dorset,Dorset,Executive Positions,90000.00,90000.00,Annual,90000.0,90000.0,90000.0,EXCLUDE_SPECIALIST,specialist/senior insurance boundary
 107888743,Senior Account Handler,Cambridge,Cambridgeshire,Cambridgeshire,Sales & Marketing,45000.00,45000.00,Annual,45000.0,45000.0,45000.0,REVIEW_ACCOUNT_HANDLER,insurance/broking account-handler boundary
 107889266,"Assistant Director - Relationship Manager, Insurance",Not Specified,London,London,Call Centre / CustomerService,95000.00,95000.00,Annual,95000.0,95000.0,95000.0,EXCLUDE_SPECIALIST,specialist/senior insurance boundary
-107889992,Product Manager - London Market Insurance Software,Not Specified,London,London,Insurance & Superannuation,100000.00,100000.00,Annual,100000.0,100000.0,100000.0,EXCLUDE_SPECIALIST,specialist/senior insurance boundary
 107807640,Operations Manager - Insurance,Peterborough,Cambridgeshire,Cambridgeshire,Executive Positions,70000.00,70000.00,Annual,70000.0,70000.0,70000.0,EXCLUDE_SPECIALIST,specialist/senior insurance boundary
 107853950,UK Technical Underwriting Manager Risk Managed,City,London,London,Insurance & Superannuation,,,Annual,,,,EXCLUDE_SPECIALIST,specialist/senior insurance boundary
 107888738,Client Facing Account Handler,Ipswich,Suffolk,Suffolk,Sales & Marketing,35000.00,35000.00,Annual,35000.0,35000.0,35000.0,REVIEW_ACCOUNT_HANDLER,insurance/broking account-handler boundary
 107836232,Insurance Lead,City,London,London,Executive Positions,,,Annual,,,,REVIEW_OTHER_INSURANCE,insurance/claims title needs boundary review
 107882628,Business Development Director - Insurance,Not Specified,London,London,I.T. & Communications,100000.00,100000.00,Annual,100000.0,100000.0,100000.0,EXCLUDE_SPECIALIST,specialist/senior insurance boundary
 107837664,Bridging Finance Broker,City,London,London,Banking & Financial Services,100000.00,100000.00,Annual,100000.0,100000.0,100000.0,EXCLUDE_SPECIALIST,specialist/senior insurance boundary
-107809608,Senior Pensions Actuary,Not Specified,Manchester,Greater Manchester - Manchester & Salford,Insurance & Superannuation,,,Annual,,,,EXCLUDE_SPECIALIST,specialist/senior insurance boundary
 107465443,Insurance Account Executive,Telford,Shropshire,Shropshire,Insurance & Superannuation,40000.00,40000.00,Annual,40000.0,40000.0,40000.0,REVIEW_OTHER_INSURANCE,insurance/claims title needs boundary review
 107728507,Senior Claims Adjuster - Casualty,City,London,London,Insurance & Superannuation,,,Annual,,,,REVIEW_CLAIMS_TECHNICAL,claims technical boundary
 107734747,Experienced Motor Claims Handler,Norwich,Norfolk,Norfolk,Insurance & Superannuation,30000.00,30000.00,Annual,30000.0,30000.0,30000.0,CORE_CLAIMS_SUPPORT,claims + support/service title
 107752321,Third-Party Capture Claims Handler,Norwich,Norfolk,Norfolk,Insurance & Superannuation,30000.00,30000.00,Annual,30000.0,30000.0,30000.0,CORE_CLAIMS_SUPPORT,claims + support/service title
-107754488,Head of Distribution - Commercial Insurance,Not Specified,Essex,Essex,Insurance & Superannuation,,,Annual,,,,EXCLUDE_SPECIALIST,specialist/senior insurance boundary
+107754488,Head of Distribution - Commercial Insurance,Not Specified,Essex,Essex,Sales & Marketing,,,Annual,,,,EXCLUDE_SPECIALIST,specialist/senior insurance boundary
 107758543,Account Executive - Commercial Insurance,Bridgend,Mid Glamorgan,Wales South - Swansea Bay,Insurance & Superannuation,26000.00,26000.00,Annual,26000.0,26000.0,26000.0,REVIEW_OTHER_INSURANCE,insurance/claims title needs boundary review
 107890093,Insurance Software Presales Consultant,Not Specified,London,London,Insurance & Superannuation,90000.00,90000.00,Annual,90000.0,90000.0,90000.0,REVIEW_OTHER_INSURANCE,insurance/claims title needs boundary review
 107770852,Insurance Account Handler,Not Specified,Hertfordshire,Hertfordshire,Sales & Marketing,40000.00,40000.00,Annual,40000.0,40000.0,40000.0,CORE_INSURANCE_SUPPORT,insurance + support/service title
@@ -93,10 +90,13 @@
 107900107,Senior Account Handler,Leeds,Yorkshire,Yorkshire - West,Sales & Marketing,50000.00,50000.00,Annual,50000.0,50000.0,50000.0,REVIEW_ACCOUNT_HANDLER,insurance/broking account-handler boundary
 107889709,Senior Pricing Analyst - Insurance,Wilmslow,Cheshire,Cheshire - East,Insurance & Superannuation,,,Annual,,,,REVIEW_OTHER_INSURANCE,insurance/claims title needs boundary review
 107717682,Account Handler,Bournemouth,Dorset,Dorset,Sales & Marketing,,,Annual,,,,REVIEW_ACCOUNT_HANDLER,insurance/broking account-handler boundary
-107717745,Account Executive - Trade Credit Insurance,Not Specified,Not Specified,Other / Unknown,Insurance & Superannuation,80000.00,80000.00,Annual,80000.0,80000.0,80000.0,REVIEW_OTHER_INSURANCE,insurance/claims title needs boundary review
+107717745,Account Executive - Trade Credit Insurance,Not Specified,Not Specified,Other / Unknown,Sales & Marketing,80000.00,80000.00,Annual,80000.0,80000.0,80000.0,REVIEW_OTHER_INSURANCE,insurance/claims title needs boundary review
 107842560,Commercial Insurance Account Manager,Newton Abbot,Devon,Devon,Sales & Marketing,35000.00,35000.00,Annual,35000.0,35000.0,35000.0,EXCLUDE_SPECIALIST,specialist/senior insurance boundary
-107765632,Property Claims Technician,Stoke-on-trent,Staffordshire,Staffordshire,Real Estate & Property,,,Annual,,,,REVIEW_CLAIMS_TECHNICAL,claims technical boundary
 107890403,Actuarial Manager - Life Valuations Reporting,Not Specified,London,London,Insurance & Superannuation,100000.00,100000.00,Annual,100000.0,100000.0,100000.0,EXCLUDE_SPECIALIST,specialist/senior insurance boundary
 107903817,Account Handler,Brierley Hill,West Midlands,West Midlands - Black Country,Insurance & Superannuation,,,Annual,,,,REVIEW_ACCOUNT_HANDLER,insurance/broking account-handler boundary
 107890424,Actuarial Analyst - Life Actuarial,Not Specified,London,London,Insurance & Superannuation,65000.00,65000.00,Annual,65000.0,65000.0,65000.0,EXCLUDE_SPECIALIST,specialist/senior insurance boundary
+107855976,Commercial Account Handler,Newcastle Upon Tyne,Tyne And Wear,"North East - Tyneside, Wearside & Northumberland",Sales & Marketing,40000.00,40000.00,Annual,40000.0,40000.0,40000.0,REVIEW_ACCOUNT_HANDLER,insurance/broking account-handler boundary
+107776023,Trainee Account Handler,Not Specified,Cheshire,Other / Unknown,Sales & Marketing,30000.00,30000.00,Annual,30000.0,30000.0,30000.0,REVIEW_ACCOUNT_HANDLER,insurance/broking account-handler boundary
 107879236,Claims Manager,Northampton,Northamptonshire,Northamptonshire,Insurance & Superannuation,,,Annual,,,,EXCLUDE_SPECIALIST,specialist/senior insurance boundary
+107913799,Junior Broker,Newcastle Upon Tyne,Tyne And Wear,"North East - Tyneside, Wearside & Northumberland",Banking & Financial Services,24000.00,24000.00,Annual,24000.0,24000.0,24000.0,EXCLUDE_SPECIALIST,specialist/senior insurance boundary
+107771411,"Consulting Manager, General Insurance",City,London,London,Insurance & Superannuation,,,Annual,,,,EXCLUDE_SPECIALIST,specialist/senior insurance boundary

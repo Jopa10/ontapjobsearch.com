@@ -1,6 +1,6 @@
 # JobG8 IT Support proof-region evidence candidates
 
-Content-unique national LIKELY_IN + BORDERLINE inventory: **140** against viability floor **100**.
+Content-unique national LIKELY_IN + BORDERLINE inventory: **136** against viability floor **100**.
 This report does not approve proof regions or any LIVE slice. It surfaces the strongest current markets for human boundary inspection after national discovery.
 
 ## London
@@ -86,19 +86,20 @@ Borderline titles:
 - Technical Support Lead: 1
 - Application Support Engineer: 1
 
-## Gloucestershire
+## Hampshire
 
 - LIKELY_IN: **3**
 - BORDERLINE: **2**
-- Provisional OUT: **0**
+- Provisional OUT: **2**
 
 Most common LIKELY_IN titles:
 
-- Senior IT Support Technician: 2
-- Service Desk Analyst: 1
+- Immediate Maintenance Helpdesk Administrator -£32K: 1
+- IT Support Engineer - Linux: 1
+- Senior IT Support Engineer: 1
 
 Borderline titles:
 
-- Technical Support Engineer: 1
-- IT Analyst: 1
+- Senior ICT Analyst: 1
+- Support Engineer: 1
 

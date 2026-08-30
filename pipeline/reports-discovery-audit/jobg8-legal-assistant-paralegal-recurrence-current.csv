@@ -23,7 +23,7 @@ Greater Manchester - Wigan & Bolton,0,0,0,0,0
 Hampshire,1,0,1,0,0
 Herefordshire,0,0,0,0,0
 Hertfordshire,1,0,1,0,0
-Kent,3,0,3,0,0
+Kent,4,0,4,0,0
 Lancashire - Blackpool & Fylde,0,0,0,0,0
 Lancashire - Central,0,0,0,0,0
 Lancashire - East,0,0,0,0,0
@@ -31,7 +31,7 @@ Lancashire - North,0,0,0,0,0
 Lancashire - West,0,0,0,0,0
 Leicestershire,0,1,1,1,0
 Lincolnshire,2,0,2,0,0
-London,7,0,7,2,1
+London,8,0,8,2,1
 Merseyside - Liverpool,0,0,0,0,0
 Merseyside - Sefton,0,0,0,0,0
 Merseyside - St Helens & Knowsley,0,0,0,0,0
@@ -55,7 +55,7 @@ Wiltshire,3,0,3,0,0
 Worcestershire,0,0,0,0,0
 Yorkshire - East,1,0,1,0,0
 Yorkshire - North,0,0,0,0,0
-Yorkshire - South,3,0,3,0,3
+Yorkshire - South,2,0,2,0,3
 Yorkshire - West,4,0,4,0,0
 North Scotland,0,0,0,0,0
 Scotland - Borders,0,0,0,0,0
@@ -70,10 +70,10 @@ Scotland West - Renfrewshire & Inverclyde,0,0,0,0,0
 North Wales - East,0,0,0,0,0
 North Wales - West,0,0,0,0,0
 Wales - Mid,0,0,0,0,0
-Wales - West,0,0,0,0,1
+Wales - West,0,0,0,0,0
 Wales South - Cardiff & Vale,1,0,1,0,0
 Wales South - Gwent,1,0,1,0,0
 Wales South - Swansea Bay,0,0,0,0,0
-Wales South - Valleys,3,0,3,0,0
+Wales South - Valleys,4,0,4,0,0
 Northern Ireland - East,2,0,2,0,0
 Northern Ireland - West,0,0,0,0,0

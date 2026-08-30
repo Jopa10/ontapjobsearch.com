@@ -5,7 +5,7 @@ This report does not approve proof regions or any LIVE slice. It surfaces the st
 
 ## London
 
-- LIKELY_IN: **16**
+- LIKELY_IN: **14**
 - BORDERLINE: **6**
 - Provisional OUT: **25**
 
@@ -26,18 +26,17 @@ Most common LIKELY_IN titles:
 
 Borderline titles:
 
+- Marketing Science Lead: 2
 - B2B Campaign Manager: 1
 - Copywriter: 1
-- Marketing Science Lead: 1
 - Technical SEO Specialist: 1
 - Assistant Sales & Marketing Manager: 1
-- Creative Content Lead (12 month fixed term contract): 1
 
 ## Greater Manchester - Manchester & Salford
 
 - LIKELY_IN: **7**
 - BORDERLINE: **4**
-- Provisional OUT: **1**
+- Provisional OUT: **2**
 
 Most common LIKELY_IN titles:
 
@@ -46,7 +45,7 @@ Most common LIKELY_IN titles:
 - Marketing Assistant - French Speaking: 1
 - Senior Marketing Executive: 1
 - Direct Marketing Executive: 1
-- Senior Marketing Manager: 1
+- Marketing Manager: 1
 
 Borderline titles:
 
@@ -54,6 +53,27 @@ Borderline titles:
 - Marketing Program Manager: 1
 - Paid Media Manager Hybrid: 1
 - SEO Account Manager: 1
+
+## Yorkshire - West
+
+- LIKELY_IN: **5**
+- BORDERLINE: **4**
+- Provisional OUT: **0**
+
+Most common LIKELY_IN titles:
+
+- Senior Paid Social Media Executive: 1
+- Marketing Executive: 1
+- CRM Marketing Manager: 1
+- Paid Social Media Manager: 1
+- Digital Content Assistant: 1
+
+Borderline titles:
+
+- SEO Manager: 1
+- PPC Executive: 1
+- Marketing Specialist: 1
+- Digital Marketing Tester: 1
 
 ## Berkshire
 
@@ -87,18 +107,4 @@ Most common LIKELY_IN titles:
 - Digital Marketing Executive: 1
 - Temp Digital Marketing Administrator: 1
 - Ecommerce Administrator: 1
-
-## Yorkshire - North
-
-- LIKELY_IN: **5**
-- BORDERLINE: **0**
-- Provisional OUT: **0**
-
-Most common LIKELY_IN titles:
-
-- Marketing Executive: 1
-- Social Media Content Creator: 1
-- Digital Marketing Executive: 1
-- Marketing Manager: 1
-- Senior Content Creator: 1
 
