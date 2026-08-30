@@ -1,6 +1,6 @@
 # Support-worker manual review
 
-feed_date: 2026-08-29
+feed_date: 2026-08-30
 
 Edit only the `action:` line in each block:
 
@@ -17,9 +17,19 @@ SELECTED | Yorkshire - West | Bradford | £13.75 - £14.5 per hour (Including ho
 job_id: 23643_225476096
 ---
 
+---
+action:
+SELECTED | Yorkshire - West | Halifax | £14.24 - £16 per hour (+ INC holiday pay) | Complex Care Assistant
+job_id: 107728647
+---
+
 ## WEST YORKSHIRE — POSSIBLES
 
-_No jobs in this group._
+---
+action:
+POSS - YORKSHIRE - WEST | Yorkshire - West | Halifax | £12.85 - £17.14 per hour | Housing Support Worker
+job_id: 23643_225519021
+---
 
 ## SOUTH YORKSHIRE — SELECTED
 
@@ -103,12 +113,6 @@ job_id: 107835737
 
 ---
 action:
-SELECTED | Sussex | Midhurst | rate of up to £13.11 (plus a 12.07% holiday allowance uplift | Bank Healthcare Assistant
-job_id: 107831119
----
-
----
-action:
 SELECTED | Sussex | Newhaven | £30000 per year | Residential Support Worker
 job_id: 107901961
 ---
@@ -132,18 +136,6 @@ _No jobs in this group._
 _No jobs in this group._
 
 ## HAMPSHIRE — SELECTED
-
----
-action:
-SELECTED | Hampshire | Fareham | £27780 - £30564 per year | Children's Home Support Worker
-job_id: 1401784414
----
-
----
-action:
-SELECTED | Hampshire | Emsworth | £25186 - £26244 per year | Care Assistant (Older Adults)
-job_id: 1401784339
----
 
 ---
 action:
@@ -189,7 +181,17 @@ job_id: 1401784679
 
 ## HAMPSHIRE — POSSIBLES
 
-_No jobs in this group._
+---
+action:
+POSS - HAMPSHIRE | Hampshire | Fareham | £27780 - £30564 per year | Children's Home Support Worker
+job_id: 1401784414
+---
+
+---
+action:
+POSS - HAMPSHIRE | Hampshire | Emsworth | £25186 - £26244 per year | Care Assistant (Older Adults)
+job_id: 1401784339
+---
 
 ## KENT — SELECTED
 
@@ -203,12 +205,6 @@ job_id: 107739939
 action:
 SELECTED | Kent | Tunbridge Wells | competitive + benefits | Qualified Hearing Care Assistant
 job_id: 1402264062
----
-
----
-action:
-SELECTED | Kent | Faversham | £14 - £17 per hour | Complex Care Assistant
-job_id: 107882995
 ---
 
 ---
@@ -239,6 +235,18 @@ job_id: 107882991
 action:
 SELECTED | Kent | Tonbridge | £14 - £17 per hour | Complex Healthcare Assistant
 job_id: 107883007
+---
+
+---
+action:
+SELECTED | Kent | Snodland | £14 - £16 per hour | Complex Care Assistant
+job_id: 107854067
+---
+
+---
+action:
+SELECTED | Kent | New Romney | £14 - £17 per hour | Complex Care Assistant
+job_id: 107882989
 ---
 
 ## KENT — POSSIBLES
@@ -409,6 +417,12 @@ SELECTED | Oxfordshire | Kidlington | £85 - £110 per daily | Emotional Support
 job_id: 1721685
 ---
 
+---
+action:
+SELECTED | Oxfordshire | Bicester | £26000 per year | Support Worker
+job_id: 107893300
+---
+
 ## OXFORDSHIRE — POSSIBLES
 
 _No jobs in this group._
@@ -449,12 +463,6 @@ _No jobs in this group._
 action:
 SELECTED | Wiltshire | Calne | £90 - £105 per daily | ASD Support Worker
 job_id: 107742510
----
-
----
-action:
-SELECTED | Wiltshire | Salisbury | £13.5 - £14 per hour | Community health care assistant
-job_id: 107840194
 ---
 
 ---
