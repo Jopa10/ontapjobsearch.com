@@ -1,21 +1,21 @@
 # Ontap daily regional overview
 
-Generated: 2026-08-30T13:27:23+01:00
+Generated: 2026-08-30T13:45:18+01:00
 
 ## SITEWIDE RECONCILIATION
 
 | Measure | Count |
 |---|---:|
-| Unique live jobs | 1,371 |
-| Unique JobG8 jobs | 956 |
-| Unique non-JobG8 jobs | 415 |
-| Regional/category slice placements | 1,411 |
-| Jobs appearing on multiple slices | 40 |
-| Extra slice placements | 40 |
+| Unique live jobs | 1,409 |
+| Unique JobG8 jobs | 988 |
+| Unique non-JobG8 jobs | 421 |
+| Regional/category slice placements | 1,451 |
+| Jobs appearing on multiple slices | 42 |
+| Extra slice placements | 42 |
 | Unique jobs outside governed slices | 0 |
 | Jobs found in non-LIVE slices | 0 |
 
-**Reconciliation: 1,371 unique jobs + 40 extra slice placements = 1,411 regional/category slice placements.**
+**Reconciliation: 1,409 unique jobs + 42 extra slice placements = 1,451 regional/category slice placements.**
 
 Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-08-30.csv` — **CURRENT**.
 
@@ -23,9 +23,9 @@ Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-08-3
 
 | Provider | Unique live jobs | Jobs on 2+ slices | Extra slice placements |
 |---|---:|---:|---:|
-| JobG8 | 956 | 40 | 40 |
+| JobG8 | 988 | 42 | 42 |
 | NEJobs | 30 | 0 | 0 |
-| NHS Jobs | 206 | 0 | 0 |
+| NHS Jobs | 212 | 0 | 0 |
 | Teaching Vacancies | 177 | 0 | 0 |
 | VONNE | 2 | 0 | 0 |
 
@@ -40,23 +40,23 @@ Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-08-3
 | Bristol & Bath | 21 |  |  |  |  | CHECK |  |  |
 | Buckinghamshire | 21 |  |  |  |  |  |  |  |
 | Cambridgeshire | 38 |  |  |  |  |  |  |  |
-| Cheshire - East | 12 |  |  |  |  |  |  |  |
+| Cheshire - East | 13 |  |  |  |  |  |  |  |
 | Cheshire - Warrington & Halton | 1 |  |  |  |  |  |  |  |
-| Cheshire - West | 3 |  |  |  |  |  |  |  |
-| Cornwall | 5 |  |  |  |  |  |  |  |
+| Cheshire - West | 5 |  |  |  |  |  |  |  |
+| Cornwall | 6 |  |  |  |  |  |  |  |
 | Cumbria - North |  |  |  |  |  |  |  |  |
 | Cumbria - South |  | CHECK |  |  |  |  |  |  |
 | Cumbria - West |  |  |  |  |  |  |  |  |
 | Derbyshire | 9 |  |  |  |  |  |  |  |
-| Devon | 35 |  |  |  |  | 10 |  |  |
+| Devon | 33 |  |  |  |  | 10 |  |  |
 | Dorset | 16 |  |  |  |  |  |  |  |
 | Essex | 40 |  |  | 2 |  |  |  |  |
-| Gloucestershire | 23 |  |  |  |  | 8 |  |  |
-| Greater Manchester - Manchester & Salford | 27 |  | 7 |  | 11 |  | 3 |  |
+| Gloucestershire | 25 |  |  |  |  | 8 |  |  |
+| Greater Manchester - Manchester & Salford | 27 |  | 8 |  | 11 |  | 3 |  |
 | Greater Manchester - North |  |  |  |  |  |  |  |  |
 | Greater Manchester - South | 7 |  |  |  |  |  |  |  |
 | Greater Manchester - Wigan & Bolton | 5 |  |  |  |  |  |  |  |
-| Hampshire | 57 | 7 |  |  |  |  |  | 6 |
+| Hampshire | 63 | 7 |  |  |  |  |  | 6 |
 | Herefordshire |  |  |  |  |  |  |  |  |
 | Hertfordshire | 30 |  |  |  |  |  |  |  |
 | Kent | 46 | 9 |  |  |  |  |  |  |
@@ -65,22 +65,22 @@ Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-08-3
 | Lancashire - East |  |  |  |  |  |  |  |  |
 | Lancashire - North |  |  |  |  |  |  |  |  |
 | Lancashire - West |  |  |  |  |  |  |  |  |
-| Leicestershire | 35 |  |  |  |  |  |  |  |
+| Leicestershire | 38 |  |  |  |  |  |  |  |
 | Lincolnshire | 18 |  |  |  |  |  |  |  |
-| London | 125 | 16 | 18 | 8 | 26 |  | 5 | 3 |
+| London | 125 | 17 | 18 | 8 | 26 |  | 5 | 3 |
 | Merseyside - Liverpool | 10 |  |  |  |  |  |  |  |
 | Merseyside - Sefton |  |  |  |  |  |  |  |  |
 | Merseyside - St Helens & Knowsley |  |  |  |  |  |  |  |  |
 | Merseyside - Wirral |  |  |  |  |  |  |  |  |
 | Norfolk | 30 |  |  | CHECK |  |  |  |  |
-| North East | 63 | 3 | 5 |  |  | CHECK |  |  |
+| North East | 66 | 3 | 5 |  |  | CHECK |  |  |
 | North Scotland |  |  |  |  |  |  |  |  |
 | North Wales - East |  |  |  |  |  |  |  |  |
 | North Wales - West |  |  |  |  |  |  |  |  |
-| Northamptonshire | 21 |  |  |  |  |  |  |  |
+| Northamptonshire | 23 |  |  |  |  |  |  |  |
 | Northern Ireland - East | 5 |  |  |  |  | 9 |  |  |
 | Northern Ireland - West |  |  |  |  |  |  |  |  |
-| Nottinghamshire | 23 |  |  |  |  |  | 2 |  |
+| Nottinghamshire | 26 |  |  |  |  |  | 2 |  |
 | Oxfordshire | 42 | 11 |  |  |  |  |  |  |
 | Rutland |  |  |  |  |  |  |  |  |
 | Scotland - Borders |  |  |  |  |  |  |  |  |
@@ -89,30 +89,30 @@ Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-08-3
 | Scotland Central - Fife |  |  |  |  |  |  |  |  |
 | Scotland Central - Tayside |  |  |  |  |  |  |  |  |
 | Scotland West - Ayrshire |  |  |  |  |  |  |  |  |
-| Scotland West - Glasgow | 11 |  |  |  |  |  |  |  |
+| Scotland West - Glasgow | 12 |  |  |  |  |  |  |  |
 | Scotland West - Lanarkshire |  |  |  |  |  |  |  |  |
 | Scotland West - Renfrewshire & Inverclyde |  |  |  |  |  |  |  |  |
 | Shropshire | 13 |  |  |  |  | 6 |  |  |
 | Somerset | 18 |  |  |  |  |  |  |  |
-| Staffordshire | 23 |  |  |  |  |  |  | 3 |
-| Suffolk | 11 |  |  | CHECK |  |  |  |  |
-| Surrey | 53 | 4 |  |  | 5 |  |  | 6 |
-| Sussex | 35 | 7 |  |  |  |  |  |  |
+| Staffordshire | 27 |  |  |  |  |  |  | 4 |
+| Suffolk | 13 |  |  | CHECK |  |  |  |  |
+| Surrey | 55 | 4 |  |  | 5 |  |  | 7 |
+| Sussex | 37 | 7 |  |  |  |  |  |  |
 | Wales - Mid |  |  |  |  |  |  |  |  |
 | Wales - West |  |  |  |  |  |  |  |  |
 | Wales South - Cardiff & Vale |  |  |  |  |  |  |  |  |
 | Wales South - Gwent |  |  |  |  |  |  |  |  |
 | Wales South - Swansea Bay |  |  |  |  |  |  |  |  |
 | Wales South - Valleys |  |  |  |  |  |  |  |  |
-| West Midlands - Birmingham & Solihull | 26 |  |  |  | 3 |  | 3 |  |
+| West Midlands - Birmingham & Solihull | 27 |  |  |  | 3 |  | 3 |  |
 | West Midlands - Black Country | 12 |  |  |  |  |  |  |  |
 | West Midlands - Coventry & Warwickshire | 28 |  |  |  |  |  |  |  |
 | Wiltshire | 22 | 7 |  |  |  |  |  |  |
 | Worcestershire | 10 |  |  |  |  |  |  |  |
 | Yorkshire - East | 15 |  |  |  |  |  |  |  |
 | Yorkshire - North | 23 |  |  |  |  | 9 |  |  |
-| Yorkshire - South | 30 | 2 |  |  |  |  |  |  |
-| Yorkshire - West | 43 | 2 | 3 |  |  | CHECK | 4 |  |
+| Yorkshire - South | 31 | 2 |  |  |  |  |  |  |
+| Yorkshire - West | 45 | 2 | 3 |  |  | CHECK | 4 |  |
 
 ## NOT LIVE
 
@@ -204,6 +204,6 @@ Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-08-3
 | Measure | Service admin | Support worker | Sales advisor | Paralegal | Marketing | Finance / Accounts | HR / Recruitment | CS / Contact centre |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
 | Live regions | 46 / 78 | 11 / 78 | 4 / 78 | 4 / 78 | 5 / 78 | 8 / 78 | 6 / 78 | 4 / 78 |
-| Live slice placements | 1171 | 68 + 1 CHECK | 33 | 10 + 2 CHECK | 51 | 42 + 3 CHECK | 18 | 18 |
+| Live slice placements | 1207 | 69 + 1 CHECK | 34 | 10 + 2 CHECK | 51 | 42 + 3 CHECK | 18 | 20 |
 
 **Live slices: 88 / 624.**
