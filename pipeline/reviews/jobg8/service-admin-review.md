@@ -85,6 +85,12 @@ job_id: 23643_225499042
 
 ---
 action:
+SELECTED | Yorkshire - West | Huddersfield |  | Personal Assistant
+job_id: 23643_225511013
+---
+
+---
+action:
 SELECTED | Yorkshire - West | Leeds | £17 per hour | Document Controller
 job_id: 23643_224689396
 ---
@@ -183,6 +189,12 @@ job_id: 23643_225478960
 action:
 SELECTED | Yorkshire - South | Doncaster | £13 per hour | Receptionist - AM shift - DN1
 job_id: 23643_225488492
+---
+
+---
+action:
+SELECTED | Yorkshire - South | Doncaster | £28000 - £30000 per year (Depending on experience) | Production Administrator
+job_id: 23643_225515295
 ---
 
 ---
@@ -759,6 +771,12 @@ job_id: 23643_225452921
 
 ---
 action:
+SELECTED | Hampshire | Hampshire | £27000 - £30000 per year | Sales Admin - Global Company! £27k-£30k
+job_id: 23643_225450866
+---
+
+---
+action:
 SELECTED | Hampshire | Hampshire | £25000 - £28500 per year (£25,000 - £28,500) | Mortgage Administrator
 job_id: 23643_225452299
 ---
@@ -771,14 +789,32 @@ job_id: 23643_225458940
 
 ---
 action:
+SELECTED | Hampshire | Hampshire | £27000 - £30000 per year | Operations Officer - £27k-£30k - REMOTE
+job_id: 23643_225459533
+---
+
+---
+action:
 SELECTED | Hampshire | Hampshire | £30000 - £32000 per year | Immediate Maintenance Helpdesk Administrator -£32K
 job_id: 23643_225459037
 ---
 
 ---
 action:
+SELECTED | Hampshire | Hampshire | £12.71 per hour | Reception - Maternity Cover
+job_id: 23643_225459368
+---
+
+---
+action:
 SELECTED | Hampshire | Hampshire | £12.9 per hour | Lifestyle Coordinator
 job_id: 107605314
+---
+
+---
+action:
+SELECTED | Hampshire | Hampshire |  | Personal Assistant
+job_id: 23643_225460894
 ---
 
 ---
@@ -839,6 +875,12 @@ job_id: 107821073
 action:
 SELECTED | Hampshire | Hampshire |  | Care Coordinator
 job_id: 107824141
+---
+
+---
+action:
+SELECTED | Hampshire | Hampshire | £27000 - £29000 per year | Reception Admin £28k! Full time & Part time available
+job_id: 23643_225493402
 ---
 
 ---
@@ -1047,6 +1089,12 @@ job_id: 23643_225448746
 
 ---
 action:
+SELECTED | Surrey | Surrey | £13 - £14 per hour | Temporary Order Processor
+job_id: 23643_225452425
+---
+
+---
+action:
 SELECTED | Surrey | Surrey | £26000 - £30000 per year (Hybrid + Training + Progression) | Operations & Finance Coordinator (Hybrid)
 job_id: 23643_225460207
 ---
@@ -1223,6 +1271,12 @@ job_id: 1402264245
 action:
 SELECTED | Surrey | Surrey | £12.71 - £13.71 per hour | Temporary Receptionist - Guildford
 job_id: 23643_225538700
+---
+
+---
+action:
+SELECTED | Surrey | Surrey | £25879 - £27710 per year | Operations Assistant (Eve)
+job_id: 23643_225538742
 ---
 
 ---
@@ -1545,6 +1599,12 @@ job_id: 23643_225476714
 
 ---
 action:
+SELECTED | Sussex | Sussex | £16.1 per hour | Personal Assistant
+job_id: 23643_225479087
+---
+
+---
+action:
 SELECTED | Sussex | Sussex | £14 - £15 per hour | School HR Administrator
 job_id: 23643_225498357
 ---
@@ -1601,6 +1661,12 @@ job_id: 23643_224364482
 action:
 SELECTED | Sussex | Sussex | £30000 per year | Operations Coordinator
 job_id: 107876491
+---
+
+---
+action:
+SELECTED | Sussex | Sussex | £25000 - £30000 per year (plus company benefits) | Administrator
+job_id: 23643_225547434
 ---
 
 ---
@@ -1993,7 +2059,11 @@ job_id: 107880406
 
 ## BUCKINGHAMSHIRE — POSSIBLES
 
-_No jobs in this group._
+---
+action:
+POSS - BUCKINGHAMSHIRE | Buckinghamshire | Buckinghamshire | £16.63 per hour | Personal Assistant
+job_id: 23643_225446883
+---
 
 ## CAMBRIDGESHIRE — SELECTED
 
@@ -2155,6 +2225,12 @@ job_id: 107889022
 
 ---
 action:
+SELECTED | Cheshire - East | Crewe | £13.25 per hour | Operational Support Officer AO
+job_id: 107893769
+---
+
+---
+action:
 SELECTED | Cheshire - East | Macclesfield |  | Financial Services Administrator
 job_id: 107871844
 ---
@@ -2185,6 +2261,12 @@ job_id: 23643_225455811
 
 ---
 action:
+SELECTED | Cheshire - West | Chester | £14 per hour | Reception - Chester
+job_id: 23643_225522761
+---
+
+---
+action:
 SELECTED | Cheshire - West | Chester | £25000 - £28000 per year (+ Benefits + Career) | Data & Research Administrator
 job_id: 23643_225525247
 ---
@@ -2211,6 +2293,12 @@ job_id: 107861755
 action:
 SELECTED | Cornwall | Redruth | £13.5 per hour | On Site Coordinator
 job_id: 107870927
+---
+
+---
+action:
+SELECTED | Cornwall | Truro | £14.85 per hour | Personal Assistant
+job_id: 23643_225537203
 ---
 
 ## CORNWALL — POSSIBLES
@@ -2361,12 +2449,6 @@ job_id: 107724787
 action:
 SELECTED | Devon | Devon | £16000 per year | Accounts Assistant
 job_id: 107832723
----
-
----
-action:
-SELECTED | Devon | Devon | £25000 per year | Hire Administrator
-job_id: 23643_225422547
 ---
 
 ---
@@ -2721,6 +2803,12 @@ job_id: 107870311
 action:
 SELECTED | Gloucestershire | Gloucestershire | £28000 - £30000 per year | Scheduling Administrator
 job_id: 23643_225522823
+---
+
+---
+action:
+SELECTED | Gloucestershire | Gloucestershire | £27000 - £30000 per year (+ Benefits) | Operations Assistant - Supply Chain & Procurement
+job_id: 23643_225522508
 ---
 
 ---
@@ -3103,6 +3191,12 @@ job_id: 23643_225455602
 
 ---
 action:
+SELECTED | Leicestershire | Leicestershire | £13.91 per hour | Personal Assistant
+job_id: 23643_225461629
+---
+
+---
+action:
 SELECTED | Leicestershire | Leicestershire |  | Administrator
 job_id: 1642188
 ---
@@ -3123,6 +3217,18 @@ job_id: 23643_225453353
 action:
 SELECTED | Leicestershire | Leicestershire | £14 per hour | Administrator
 job_id: 23643_225453666
+---
+
+---
+action:
+SELECTED | Leicestershire | Leicestershire | £13.21 per hour | Warehouse Admin
+job_id: 23643_225468339
+---
+
+---
+action:
+SELECTED | Leicestershire | Leicestershire | £12.71 per hour | Scanning & Processing Assistant
+job_id: 23643_225453216
 ---
 
 ---
@@ -3535,6 +3641,12 @@ job_id: 23643_225389352
 
 ---
 action:
+SELECTED | Northamptonshire | Northamptonshire | £14.56 per hour | Transport Administration Assistant
+job_id: 23643_225522869
+---
+
+---
+action:
 SELECTED | Northamptonshire | Northamptonshire | £26000 - £28000 per year (+ Benefits) | Client Relations Administrator
 job_id: 23643_225521648
 ---
@@ -3543,6 +3655,12 @@ job_id: 23643_225521648
 action:
 SELECTED | Northamptonshire | Northamptonshire | £24000 per year | Customer Support Administrator
 job_id: 23643_225524164
+---
+
+---
+action:
+SELECTED | Northamptonshire | Northamptonshire | £15 per hour (+ day 1 rights) | Production Administrator
+job_id: 23643_225524753
 ---
 
 ---
@@ -3667,8 +3785,20 @@ job_id: 107880833
 
 ---
 action:
+SELECTED | Nottinghamshire | Nottinghamshire | £28000 - £30000 per year (Pension, Death-in-Service) | Production Office Coordinator
+job_id: 23643_225528054
+---
+
+---
+action:
 SELECTED | Nottinghamshire | Nottinghamshire | £25000 - £26500 per year | Maintenance Administrator
 job_id: 23643_225532950
+---
+
+---
+action:
+SELECTED | Nottinghamshire | Nottinghamshire | £13.26 per hour | Transport Admin (Days)
+job_id: 23643_225537102
 ---
 
 ---
@@ -3891,6 +4021,12 @@ _No jobs in this group._
 action:
 SELECTED | Scotland West - Glasgow | Glasgow |  | Administrator
 job_id: 23643_225450290
+---
+
+---
+action:
+SELECTED | Scotland West - Glasgow | Glasgow | £25000 - £28000 per year (30 Days Holiday + Healthcare + Train) | Service Admin (Office Based)
+job_id: 23643_225455869
 ---
 
 ---
@@ -4147,6 +4283,18 @@ job_id: 23643_225478358
 
 ---
 action:
+SELECTED | Staffordshire | Staffordshire | £13.95 - £14 per hour | Production Administrator
+job_id: 23643_225497951
+---
+
+---
+action:
+SELECTED | Staffordshire | Staffordshire | £28000 per year | Production Planner / Customer Service Coordinator
+job_id: 107840501
+---
+
+---
+action:
 SELECTED | Staffordshire | Staffordshire | £26500 - £28000 per year (+ Training + Progression) | Graduate Operations Administrator(Logistics / Purchasing)
 job_id: 23643_225520846
 ---
@@ -4161,6 +4309,12 @@ job_id: 23643_225527666
 action:
 SELECTED | Staffordshire | Staffordshire | £13 per hour (£12.80 - £13.46 per hour DOE) | Invoicing Administrator
 job_id: 23643_225537967
+---
+
+---
+action:
+SELECTED | Staffordshire | Staffordshire | £30000 - £35000 per year | Operations Assistant - Stock, Purchasing & Logistics
+job_id: 23643_225538712
 ---
 
 ---
@@ -4207,6 +4361,12 @@ job_id: 23643_225344061
 
 ---
 action:
+SELECTED | Suffolk | Suffolk | £27000 - £29000 per year | Operations Administration Support
+job_id: 23643_225462763
+---
+
+---
+action:
 SELECTED | Suffolk | Suffolk |  | Site Administrator
 job_id: 23643_225467931
 ---
@@ -4227,6 +4387,12 @@ job_id: 23643_225480072
 action:
 SELECTED | Suffolk | Suffolk |  | Technical Coordinator
 job_id: 107716064
+---
+
+---
+action:
+SELECTED | Suffolk | Suffolk | £13.45 per hour | Reception
+job_id: 23643_225505551
 ---
 
 ---
@@ -4269,6 +4435,12 @@ job_id: 23643_225445846
 action:
 SELECTED | West Midlands - Birmingham & Solihull | Birmingham | £27000 - £29000 per year | Bookings Coordinator
 job_id: 23643_225446479
+---
+
+---
+action:
+SELECTED | West Midlands - Birmingham & Solihull | Birmingham | £13.45 per hour | Reception - Canon Birmingham
+job_id: 23643_225451094
 ---
 
 ---
@@ -4609,7 +4781,11 @@ job_id: 107894712
 
 ## YORKSHIRE - EAST — POSSIBLES
 
-_No jobs in this group._
+---
+action:
+POSS - YORKSHIRE - EAST | Yorkshire - East | Brough | £19.5 per hour | Personal Assistant
+job_id: 23643_225444500
+---
 
 ## YORKSHIRE - NORTH — SELECTED
 
