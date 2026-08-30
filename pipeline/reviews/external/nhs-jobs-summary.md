@@ -2,11 +2,11 @@
 
 review_date: 2026-08-30
 
-- Open Administrative & Clerical rows reviewed: 2428
+- Open Administrative & Clerical rows reviewed: 2427
 - Auto/remembered selected: 566
 - Selected HC Tier A: 238
 - Selected HC Tier B: 328
-- POSS awaiting decision: 1534
+- POSS awaiting decision: 1533
 - Excluded: 0
 - HARD_PASS: 328
 
@@ -8410,18 +8410,6 @@ region: Hampshire
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9348-26-1835
 factual_fingerprint: c9af24d59b29b8a91e3425802745c2fa91a08c41e878a8e11670e6cf46b55d83
----
-
----
-action:
-POSS | NHS Jobs | Merseyside - St Helens & Knowsley | Prescot, L35 5DR | £39959.00 to £48117.00 | Assistant Directorate Manager
-source_job_id: 5558411
-title: Assistant Directorate Manager
-employer: Mersey and West Lancashire Teaching Hospitals NHS Trust
-region: Merseyside - St Helens & Knowsley
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9409-26-0850
-factual_fingerprint: 8b29dabbfc3063932a658a1bdf8c1b1ff06d0a16a17797f15aab5d0366a468d9
 ---
 
 ---
