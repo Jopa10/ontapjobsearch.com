@@ -6,9 +6,93 @@ The `excluded_on` date is the day the exclusion decision was made.
 To restore a job, edit only its `action:` line to `action: select`.
 On the next JobG8 run that exact job ID will be restored and removed from this list.
 
-remembered_exclusions: 215
+remembered_exclusions: 225
 
 ## SERVICE / ADMIN — EXCLUDED
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-30
+title: Town Planner
+employer: Carrington West
+region: 
+town: Kent
+salary: 
+job_id: 23643_225546987
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-30
+title: Office Coordinator (German Speaking)
+employer: GBR Recruitment Limited
+region: 
+town: Buckinghamshire
+salary: 
+job_id: 23643_225307646
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-30
+title: Office Administrator
+employer: Matchtech
+region: 
+town: Hampshire
+salary: 
+job_id: 23643_225548269
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-30
+title: Learning Management System Administrator
+employer: Hackajob Ltd
+region: 
+town: Berkshire
+salary: 
+job_id: 107889634
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-30
+title: Financial Services Administrator
+employer: Siamo Recruitment a division of Siamo Group
+region: 
+town: Wiltshire
+salary: 
+job_id: 23643_225547846
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-30
+title: FM Coordinator
+employer: AMB Recruitment Group
+region: 
+town: Cheshire
+salary: 
+job_id: 23643_225548223
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-08-30
+title: Customer Service Advisor
+employer: Solus Accident Repair Centres
+region: 
+town: Birmingham
+salary: 
+job_id: 23643_225547982
+---
 
 ---
 action:
@@ -2531,6 +2615,42 @@ job_id: 23643_225460911
 ---
 
 ## SUPPORT WORKER — EXCLUDED
+
+---
+action:
+category: support_worker
+excluded_on: 2026-08-30
+title: Housing Support Worker
+employer: Reed Specialist Recruitment
+region: 
+town: Yorkshire
+salary: 
+job_id: 23643_225519021
+---
+
+---
+action:
+category: support_worker
+excluded_on: 2026-08-30
+title: Children's Home Support Worker
+employer: Hampshire County Council
+region: 
+town: Hampshire
+salary: 
+job_id: 1401784414
+---
+
+---
+action:
+category: support_worker
+excluded_on: 2026-08-30
+title: Care Assistant (Older Adults)
+employer: Hampshire County Council
+region: 
+town: Hampshire
+salary: 
+job_id: 1401784339
+---
 
 ---
 action:

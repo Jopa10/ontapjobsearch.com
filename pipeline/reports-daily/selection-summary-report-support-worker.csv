@@ -1,10 +1,10 @@
 ﻿region,cap,selected_total,selected_high_confidence,selected_anchor_elastic,selected_other_elastic,possible_candidates,remaining_slots,credible_total,anchor_town,scenario,message
-Yorkshire - West,,2,1,0,1,1,,2,Leeds,SCENARIO_4_BELOW_PUBLISH_THRESHOLD,Yorkshire - West selection below publish threshold: 2/6 credible roles. Do not publish/refresh this slice from this run.
+Yorkshire - West,,2,1,0,1,0,,2,Leeds,SCENARIO_4_BELOW_PUBLISH_THRESHOLD,Yorkshire - West selection below publish threshold: 2/6 credible roles. Do not publish/refresh this slice from this run.
 Yorkshire - South,,2,1,0,1,0,,2,Sheffield,SCENARIO_4_BELOW_PUBLISH_THRESHOLD,Yorkshire - South selection below publish threshold: 2/6 credible roles. Do not publish/refresh this slice from this run.
 North East,,3,0,0,3,0,,3,Newcastle Upon Tyne,SCENARIO_4_BELOW_PUBLISH_THRESHOLD,North East selection below publish threshold: 3/6 credible roles. Do not publish/refresh this slice from this run.
 Sussex,,7,5,0,2,0,,7,Brighton,SCENARIO_3_MANUAL_SELECTION_APPLIED,Sussex manual_select applied additively: 1 row(s) prioritised; 7 selected.
 Cumbria - South,,0,0,0,0,0,,0,Barrow-in-Furness,SCENARIO_4_BELOW_PUBLISH_THRESHOLD,Cumbria - South selection below publish threshold: 0/6 credible roles. Do not publish/refresh this slice from this run.
-Hampshire,,7,7,0,0,2,,7,Southampton,SCENARIO_1_COMPLETE_HC_ONLY,Hampshire selection complete: HIGH_CONFIDENCE roles selected.
+Hampshire,,7,7,0,0,0,,7,Southampton,SCENARIO_1_COMPLETE_HC_ONLY,Hampshire selection complete: HIGH_CONFIDENCE roles selected.
 Kent,,9,3,0,6,0,,9,Maidstone,SCENARIO_3_COMPLETE_WITH_OTHER_ELASTIC,"Kent selection complete: 9 selected after HIGH_CONFIDENCE, Maidstone ELASTIC_FIT, and other ELASTIC_FIT roles."
 London,,16,13,1,2,0,,16,London,SCENARIO_3_MANUAL_SELECTION_APPLIED,London manual_select applied additively: 4 row(s) prioritised; 16 selected.
 Oxfordshire,,11,7,3,1,0,,11,Oxford,SCENARIO_3_COMPLETE_WITH_OTHER_ELASTIC,"Oxfordshire selection complete: 11 selected after HIGH_CONFIDENCE, Oxford ELASTIC_FIT, and other ELASTIC_FIT roles."

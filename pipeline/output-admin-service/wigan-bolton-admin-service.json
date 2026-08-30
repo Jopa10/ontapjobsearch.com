@@ -22,12 +22,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Records administration",
-      "Pre-employment administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225469389",
@@ -102,32 +97,6 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Records administration"
-    ]
-  },
-  {
-    "job_id": "nhs-5548215",
-    "source": "NHS Jobs",
-    "title": "Receptionist/Administrator",
-    "company": "Alastair Ross Medical Practice",
-    "advertiser_name": "Alastair Ross Medical Practice",
-    "location": "Bolton, BL2 6DQ",
-    "region": "Greater Manchester - Wigan & Bolton",
-    "salary": "£12.71",
-    "employment_type": "Permanent",
-    "posted_date": "2026-08-19T10:18:35.134118550",
-    "closing_date": "2026-09-30",
-    "description": "We are looking for an enthusiastic GP Surgery Receptionist to join our busy and friendly practice team. The successful candidate will work Monday to Friday, 2:30pm to 6:30pm , and should be flexible and adaptable to the needs of the practice. As a key member of our reception team, you will be the first point of contact for patients, both face-to-face and over the telephone. You will provide a welcoming, professional and compassionate service while helping to ensure that patients receive timely and appropriate care. Previous experience working within a GP practice or general practice environment is essential, along with confidence using EMIS Web. Welcoming patients and visitors in a professional and compassionate manner. Handling telephone calls and patient queries efficiently, ensuring appropriate signposting. Booking, amending, and cancelling appointments via EMIS Web. Processing patient registrations, repeat prescription requests, and clinical correspondence. Scanning and accurately registering clinical documents onto patient records. Assisting with monitoring and recording data for QOF (Quality and Outcomes Framework) KPIs. Referring patients to the relevant specialties or external services as directed. Supporting clinicians and the wider team with administrative tasks. Ensuring confidentiality and compliance with NHS policies, GDPR, and safeguarding procedures. Greet and assist patients and visitors in a polite, professional, and compassionate manner. Answer and manage incoming telephone calls, dealing with patient queries and signposting appropriately. Book, amend, and cancel patient appointments using the practice clinical system (e.g., EMIS Web). Process new patient registrations, temporary residents, and patient record updates. Manage repeat prescription requests in line with practice protocols. Handle patient correspondence, referrals, and medical reports. Ensure the reception area is tidy, organised, and welcoming at all times. Scan, code, and file clinical documents into patient records accurately. Assist with monitoring and inputting data for QOF (Quality and Outcomes Framework) and other performance indicators. Prepare and send patient referrals to secondary care and community services. Support the management of recalls, long-term condition reviews, and screening programmes. Carry out administrative support for clinicians, nurses, and the management team. Maintain confidentiality and adhere to GDPR and NHS information governance policies. Contribute to maintaining practice policies, procedures, and quality standards.",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2782-26-0004",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2782-26-0004",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "posted_date_basis": ""
   }
 ]
