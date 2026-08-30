@@ -10,7 +10,7 @@ Sussex,28,17,0,11,0,,28,Brighton,SCENARIO_3_MANUAL_SELECTION_APPLIED,Sussex manu
 West Midlands - Coventry & Warwickshire,16,10,0,6,0,,16,Coventry,SCENARIO_3_MANUAL_SELECTION_APPLIED,West Midlands - Coventry & Warwickshire manual_select applied additively: 4 row(s) prioritised; 16 selected.
 Berkshire,15,8,0,7,0,,15,Reading,SCENARIO_3_MANUAL_SELECTION_APPLIED,Berkshire manual_select applied additively: 2 row(s) prioritised; 15 selected.
 Bristol & Bath,15,9,4,2,0,,15,Bristol,SCENARIO_3_MANUAL_SELECTION_APPLIED,Bristol & Bath manual_select applied additively: 2 row(s) prioritised; 15 selected.
-Buckinghamshire,11,5,0,6,1,,11,Milton Keynes,SCENARIO_3_MANUAL_SELECTION_APPLIED,Buckinghamshire manual_select applied additively: 3 row(s) prioritised; 11 selected.
+Buckinghamshire,11,5,0,6,0,,11,Milton Keynes,SCENARIO_3_MANUAL_SELECTION_APPLIED,Buckinghamshire manual_select applied additively: 3 row(s) prioritised; 11 selected.
 Cambridgeshire,16,10,2,4,0,,16,Cambridge,SCENARIO_3_MANUAL_SELECTION_APPLIED,Cambridgeshire manual_select applied additively: 5 row(s) prioritised; 16 selected.
 Cheshire - East,11,10,0,1,0,,11,Crewe,SCENARIO_3_FULL_VALID_SELECTION,"Cheshire - East selection complete: all 11 valid selected role(s) retained after HIGH_CONFIDENCE, Crewe ELASTIC_FIT and other ELASTIC_FIT ordering."
 Cheshire - Warrington & Halton,1,0,1,0,0,,1,Warrington,SCENARIO_4_BELOW_PUBLISH_THRESHOLD,Cheshire - Warrington & Halton selection below publish threshold: 1/6 credible roles. Do not publish/refresh this slice from this run.
@@ -43,5 +43,5 @@ West Midlands - Birmingham & Solihull,15,10,5,0,0,,15,Birmingham,SCENARIO_3_MANU
 West Midlands - Black Country,7,7,0,0,0,,7,Wolverhampton,SCENARIO_3_MANUAL_SELECTION_APPLIED,West Midlands - Black Country manual_select applied additively: 2 row(s) prioritised; 7 selected.
 Wiltshire,15,13,2,0,0,,15,Swindon,SCENARIO_3_MANUAL_SELECTION_APPLIED,Wiltshire manual_select applied additively: 2 row(s) prioritised; 15 selected.
 Worcestershire,8,7,0,1,0,,8,Worcester,SCENARIO_3_MANUAL_SELECTION_APPLIED,Worcestershire manual_select applied additively: 1 row(s) prioritised; 8 selected.
-Yorkshire - East,11,6,5,0,1,,11,Hull,SCENARIO_3_MANUAL_SELECTION_APPLIED,Yorkshire - East manual_select applied additively: 2 row(s) prioritised; 11 selected.
+Yorkshire - East,11,6,5,0,0,,11,Hull,SCENARIO_3_MANUAL_SELECTION_APPLIED,Yorkshire - East manual_select applied additively: 2 row(s) prioritised; 11 selected.
 Yorkshire - North,16,9,2,5,0,,16,York,SCENARIO_3_MANUAL_SELECTION_APPLIED,Yorkshire - North manual_select applied additively: 1 row(s) prioritised; 16 selected.

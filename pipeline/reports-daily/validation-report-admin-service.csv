@@ -1,10 +1,10 @@
 ﻿metric,value
 total rows input,10000
 total rows included,786
-total rows dropped,9210
-title classification count - HIGH_CONFIDENCE,666
+total rows dropped,9212
+title classification count - HIGH_CONFIDENCE,664
 title classification count - ELASTIC_FIT,332
-title classification count - REVIEW_CONTEXT_DEPENDENT,9
+title classification count - REVIEW_CONTEXT_DEPENDENT,11
 title classification count - HARD_PASS,5180
 title classification count - OUT_OF_SCOPE,3813
 selection scenario - Yorkshire - West,SCENARIO_3_MANUAL_SELECTION_APPLIED
