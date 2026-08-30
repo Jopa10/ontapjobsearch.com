@@ -743,9 +743,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1153-26-0008",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -765,9 +762,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1153-26-0000",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -787,9 +781,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9190-26-0517",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -809,9 +800,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9457-26-0258",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -831,9 +819,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2131-26-0007",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -853,9 +838,25 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3087-26-0012",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
+    "posted_date_basis": "source"
+  },
+  {
+    "job_id": "nhs-5544481",
+    "source": "NHS Jobs",
+    "title": "Receptionist",
+    "company": "Hollygreen Practice",
+    "advertiser_name": "Hollygreen Practice",
+    "location": "Rotherham, S63 9EH, Thurnscoe, s63 0LT, BARNSLEY, S72 0EJ",
+    "region": "Yorkshire - South",
+    "salary": "£12.71",
+    "employment_type": "Permanent",
+    "posted_date": "2026-08-17T15:38:07.586618",
+    "closing_date": "2026-09-11",
+    "description": "As a receptionist you will be the first port of call for the practice and first impressions count. It is important that our patients get the the best patient experience when contacting or visiting the practice. The hours we are looking for are as below: Monday 8am - 6pm Tuesday 8am - 12 Noon Wednesday 8am - 4pm Thursday 1.45pm - 6pm Friday 1.15pm - 6pm Meeting and greeting patients on reception and helping with the enquiries. Booking of appointments and managing the appointment system. Answering the phones, assisting our patients with requests and sign posting them to the most appropriate service. Admin duties which require attention to detail and accuracy. Maintaining patient confidentiality and accurate record keeping. Admin tasks such as scanning on clinical documents, filing, word processing, handling test results, writing emails, taking messages for your team. Adhering to practice policies and procedures In brief this includes: * Answering the telephone and dealing with patients queries * Booking and arriving patients in for their appointments with healthcare professionals * Unlocking and preparing clinical rooms and ensuring they are stocked * Support the day to day running of the practice in general * Deal with people wishing to register with the practice * Scan on hospital/clinic letters for patients and attach to medical records to ensure records are kept up to date * Deal with medication requests and prescriptions",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1206-26-0002",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1206-26-0002",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "A",
     "posted_date_basis": "source"
   }
 ]
