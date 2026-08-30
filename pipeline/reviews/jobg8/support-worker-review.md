@@ -26,11 +26,10 @@ job_id: 107728647
 ## WEST YORKSHIRE — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - YORKSHIRE - WEST | Yorkshire - West | Halifax | £12.85 - £17.14 per hour | Housing Support Worker
 job_id: 23643_225519021
 ---
-
 ## SOUTH YORKSHIRE — SELECTED
 
 ---
@@ -182,17 +181,15 @@ job_id: 1401784679
 ## HAMPSHIRE — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - HAMPSHIRE | Hampshire | Fareham | £27780 - £30564 per year | Children's Home Support Worker
 job_id: 1401784414
 ---
-
 ---
-action:
+action: exclude
 POSS - HAMPSHIRE | Hampshire | Emsworth | £25186 - £26244 per year | Care Assistant (Older Adults)
 job_id: 1401784339
 ---
-
 ## KENT — SELECTED
 
 ---

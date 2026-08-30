@@ -994,11 +994,10 @@ job_id: 23643_225546549
 ## HAMPSHIRE — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - HAMPSHIRE | Hampshire | Hampshire | £18 per hour | Office Administrator
 job_id: 23643_225548269
 ---
-
 ## SURREY — SELECTED
 
 ---
@@ -1472,11 +1471,10 @@ job_id: 23643_225546573
 ## KENT — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - KENT | Kent | Kent | £35000 - £45000 per year | Town Planner
 job_id: 23643_225546987
 ---
-
 ## SUSSEX — SELECTED
 
 ---
@@ -1834,11 +1832,10 @@ job_id: 23643_225544182
 ## BERKSHIRE — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - BERKSHIRE | Berkshire | Berkshire | £80000 per year | Learning Management System Administrator
 job_id: 107889634
 ---
-
 ## BRISTOL & BATH — SELECTED
 
 ---
@@ -2006,11 +2003,10 @@ job_id: 107880406
 ## BUCKINGHAMSHIRE — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - BUCKINGHAMSHIRE | Buckinghamshire | Buckinghamshire | £29000 - £32000 per year (£29K basic, £32K inc. Bonus /Hybri) | Office Coordinator (German Speaking)
 job_id: 23643_225307646
 ---
-
 ## CAMBRIDGESHIRE — SELECTED
 
 ---
@@ -2178,11 +2174,10 @@ job_id: 107871844
 ## CHESHIRE - EAST — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - CHESHIRE - EAST | Cheshire - East | Knutsford | £28000 - £32000 per year | FM Coordinator
 job_id: 23643_225548223
 ---
-
 ## CHESHIRE - WARRINGTON & HALTON — SELECTED
 
 ---
@@ -4360,11 +4355,10 @@ job_id: 23643_225543172
 ## WEST MIDLANDS - BIRMINGHAM & SOLIHULL — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - WEST MIDLANDS - BIRMINGHAM & SOLIHULL | West Midlands - Birmingham & Solihull | Birmingham | £27976 - £30230 per year | Customer Service Advisor
 job_id: 23643_225547982
 ---
-
 ## WEST MIDLANDS - BLACK COUNTRY — SELECTED
 
 ---
@@ -4508,11 +4502,10 @@ job_id: 107906394
 ## WILTSHIRE — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - WILTSHIRE | Wiltshire | Wiltshire | £15 - £18.5 per hour (+ Excellent Company Benefits) | Financial Services Administrator
 job_id: 23643_225547846
 ---
-
 ## WORCESTERSHIRE — SELECTED
 
 ---
