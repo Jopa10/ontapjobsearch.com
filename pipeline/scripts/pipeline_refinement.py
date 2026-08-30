@@ -251,6 +251,11 @@ _CORPORATE_PA_RE = re.compile(
     r"minute taking|corporate office)\b",
     re.IGNORECASE,
 )
+_LEGAL_PA_RE = re.compile(
+    r"\b(?:law firm|legal practice|legal department|solicitors?|fee earners?|"
+    r"conveyancing|litigation|legal documents?|court bundles?)\b",
+    re.IGNORECASE,
+)
 
 
 def assess_context_policy(policy: str, description: Any) -> ContextAssessment:
@@ -274,6 +279,27 @@ def assess_context_policy(policy: str, description: Any) -> ContextAssessment:
         return ContextAssessment(
             "ok",
             "Personal Assistant description explicitly establishes personal care or direct support",
+        )
+
+    if policy_key == "admin_personal_assistant":
+        if _DIRECT_CARE_RE.search(text):
+            return ContextAssessment(
+                "exclude",
+                "Personal Assistant description signals direct care or personal support",
+            )
+        if _LEGAL_PA_RE.search(text):
+            return ContextAssessment(
+                "exclude",
+                "Personal Assistant description signals a legal PA function",
+            )
+        if not _CORPORATE_PA_RE.search(text):
+            return ContextAssessment(
+                "exclude",
+                "Personal Assistant description has no explicit executive or office PA context",
+            )
+        return ContextAssessment(
+            "ok",
+            "Personal Assistant description explicitly establishes executive or office PA work",
         )
 
     if policy_key == "family_direct_support":

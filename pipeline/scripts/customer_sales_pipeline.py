@@ -40,6 +40,15 @@ CATEGORY = "customer_sales"
 INPUT_PATH = Path("input/jobg8.xlsx")
 GEO_PATH = Path("geo/geo_lookup.xlsx")
 AREA_UNUSABLE = {"", "not specified", "unknown"}
+OWNER_APPROVED_EXACT_TITLES = {
+    "inside sale advisor",
+    "sales development executive",
+    "sales development representative",
+    "sales co ordinator",
+    "sales coordinator",
+    "junior sales admin (full training and career progression)",
+    "junior sales person (msp / cyber security)",
+}
 
 DIRECT_TITLE_TERMS = [
     "sales advisor", "sales adviser", "sales executive", "sales consultant",
@@ -207,6 +216,9 @@ def classify(title: str, description: str, employer: str) -> tuple[str, str] | N
         return None
     if contains_any(d, RETAIL_PROPERTY_EXCLUDES):
         return None
+
+    if t in OWNER_APPROVED_EXACT_TITLES:
+        return "DIRECT_SALES", "owner-approved exact customer-sales title"
 
     if t == "customer engagement executive":
         return "CUSTOMER_SALES", "owner-approved exact customer-sales title"

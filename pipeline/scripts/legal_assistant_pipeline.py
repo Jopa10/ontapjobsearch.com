@@ -53,6 +53,10 @@ INPUT_PATH = Path("input/jobg8.xlsx")
 GEO_PATH = Path("geo/geo_lookup.xlsx")
 CONFIG_PATH = Path("config/family_discovery/legal_assistant_paralegal.json")
 ASSESSABLE_PATH = Path("config/uk_assessable_regions.json")
+OWNER_APPROVED_EXACT_TITLES = {
+    "legal operations administrator (7 months ftc)",
+    "legal enquiry advisor",
+}
 
 # Advert-level rules approved during the discovery review. These deliberately
 # solve only the two observed generic-title IN cases and the one departmental-lead OUT edge.
@@ -85,6 +89,9 @@ def _include(title: str, description: str, period: str, salary_min: object, sala
         return False, "specialist/senior title boundary"
     if DESCRIPTION_OUT.search(description):
         return False, "department-lead/senior advert boundary"
+
+    if norm_key(title) in OWNER_APPROVED_EXACT_TITLES:
+        return True, "owner-approved exact Legal family title"
 
     likely = compile_many(cfg.get("likely_in_title_patterns", []))
     if any_match(likely, title):

@@ -100,6 +100,27 @@ class ContextPolicyTests(unittest.TestCase):
         )
         self.assertTrue(assessment.excluded)
 
+    def test_admin_personal_assistant_is_narrowly_context_gated(self) -> None:
+        executive = policy.assess_context_policy(
+            "admin_personal_assistant",
+            "Manage the Chief Executive's diary and prepare board meetings in the corporate office.",
+        )
+        direct_care = policy.assess_context_policy(
+            "admin_personal_assistant",
+            "Provide personal care, medication support and help with daily living.",
+        )
+        legal = policy.assess_context_policy(
+            "admin_personal_assistant",
+            "Support solicitors and fee earners with court bundles and legal documents.",
+        )
+        ambiguous = policy.assess_context_policy(
+            "admin_personal_assistant", "A varied role supporting a busy individual."
+        )
+        self.assertEqual("ok", executive.status)
+        self.assertTrue(direct_care.excluded)
+        self.assertTrue(legal.excluded)
+        self.assertTrue(ambiguous.excluded)
+
 
 class ManualReviewFeedDateTests(unittest.TestCase):
     def assert_date_scoped_actions(self, module) -> None:
@@ -184,6 +205,12 @@ class AgreedTitleRuleTests(unittest.TestCase):
         self.assertEqual("REVIEW_CONTEXT_DEPENDENT", result[0])
         rule = self.support_register[support.normalise_title_for_register("Personal Assistant")]
         self.assertEqual("support_personal_assistant", rule["context_policy"])
+
+    def test_admin_personal_assistant_uses_separate_context_rule(self) -> None:
+        result = admin.classify_title("Personal Assistant", self.admin_register)
+        self.assertEqual("REVIEW_CONTEXT_DEPENDENT", result[0])
+        rule = self.admin_register[admin.normalise_title_for_register("Personal Assistant")]
+        self.assertEqual("admin_personal_assistant", rule["context_policy"])
 
     def test_paraplanner_titles_are_hard_passed_before_manual_review(self) -> None:
         titles = (

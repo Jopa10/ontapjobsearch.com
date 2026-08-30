@@ -119,3 +119,31 @@ support_worker,Young Person's Support Worker Gateshead/Newcastle,HIGH_CONFIDENCE
 support_worker,Children and Young Persons Support Worker,HIGH_CONFIDENCE,,44850,AGREED_2026-07-24,Direct support for children and young people is eligible
 support_worker,Scottish Island Support Worker,HARD_PASS,,,AGREED_2026-07-24,Actual workplace conflicts with the target regional slice
 support_worker,Young Person's Support Worker Durham,HIGH_CONFIDENCE,,42900,AGREED_2026-07-24,Client-group wording alone is not exclusionary
+admin_service,Personal Assistant,REVIEW_CONTEXT_DEPENDENT,admin_personal_assistant,,AGREED_2026-08-30,Owner-approved only for explicit executive or office PA descriptions; direct-care and legal PA work stays excluded
+admin_service,Operations Administration Support,HIGH_CONFIDENCE,,,AGREED_2026-08-30,Owner-reviewed exact transferable operations administration title
+admin_service,Operations Officer - £27k-£30k - REMOTE,HIGH_CONFIDENCE,,,AGREED_2026-08-30,Owner-reviewed exact transferable remote operations support title
+admin_service,Production Administrator,HIGH_CONFIDENCE,,,AGREED_2026-08-30,Owner-reviewed exact transferable production administration title
+admin_service,Production Office Coordinator,HIGH_CONFIDENCE,,,AGREED_2026-08-30,Owner-reviewed exact transferable production office coordination title
+admin_service,Temporary Order Processor,HIGH_CONFIDENCE,,,AGREED_2026-08-30,Owner-reviewed exact transferable order-processing title
+admin_service,Sales Order Processor (Hybrid),HIGH_CONFIDENCE,,,AGREED_2026-08-30,Owner-reviewed exact transferable sales-order processing title
+admin_service,Scanning & Processing Assistant,HIGH_CONFIDENCE,,,AGREED_2026-08-30,Owner-reviewed exact transferable scanning and processing support title
+admin_service,Reception - Canon Birmingham,HIGH_CONFIDENCE,,,AGREED_2026-08-30,Owner-reviewed exact transferable reception title
+admin_service,Reception - Maternity Cover,HIGH_CONFIDENCE,,,AGREED_2026-08-30,Owner-reviewed exact transferable reception title
+admin_service,Reception Admin £28k! Full time & Part time available,HIGH_CONFIDENCE,,,AGREED_2026-08-30,Owner-reviewed exact transferable reception administration title
+admin_service,Reception,HIGH_CONFIDENCE,,,AGREED_2026-08-30,Owner-reviewed exact transferable reception title
+admin_service,Reception - Chester,HIGH_CONFIDENCE,,,AGREED_2026-08-30,Owner-reviewed exact transferable reception title
+admin_service,Service Admin (Office Based),HIGH_CONFIDENCE,,,AGREED_2026-08-30,Owner-reviewed exact transferable office-based service administration title
+admin_service,Sales Admin - Global Company! £27k-£30k,HIGH_CONFIDENCE,,,AGREED_2026-08-30,Owner-reviewed exact transferable sales administration title
+admin_service,Warehouse Admin,HIGH_CONFIDENCE,,,AGREED_2026-08-30,Owner-reviewed exact transferable warehouse administration title
+admin_service,Transport Administration Assistant,HIGH_CONFIDENCE,,,AGREED_2026-08-30,Owner-reviewed exact transferable transport administration title
+admin_service,Transport Admin (Days),HIGH_CONFIDENCE,,,AGREED_2026-08-30,Owner-reviewed exact transferable transport administration title
+admin_service,Operations Assistant - Supply Chain & Procurement,HIGH_CONFIDENCE,,,AGREED_2026-08-30,Owner-reviewed exact transferable operations support title
+admin_service,"Operations Assistant - Stock, Purchasing & Logistics",HIGH_CONFIDENCE,,,AGREED_2026-08-30,Owner-reviewed exact transferable operations support title
+admin_service,Operations Assistant (Eve),HIGH_CONFIDENCE,,,AGREED_2026-08-30,Owner-reviewed exact transferable operations support title
+admin_service,Operational Support Officer AO,HIGH_CONFIDENCE,,,AGREED_2026-08-30,Owner-reviewed exact transferable operational support title
+admin_service,Production Planner / Customer Service Coordinator,HIGH_CONFIDENCE,,,AGREED_2026-08-30,Owner-reviewed exact production planning and customer service coordination title
+admin_service,"Payroll , Pensions and HR Administrator (Hybrid)",HARD_PASS,,,AGREED_2026-08-30,Owner explicitly held this mixed payroll pensions and HR title
+finance_accounts,Payroll And Workforce Admin,HIGH_CONFIDENCE,,,AGREED_2026-08-30,Owner-reviewed exact practical payroll and workforce administration title
+customer_service_contact_centre,Temporary Order Processor,HIGH_CONFIDENCE,,,AGREED_2026-08-30,Owner-reviewed exact customer order-processing title
+customer_service_contact_centre,Order Management Administrator,HIGH_CONFIDENCE,,,AGREED_2026-08-30,Owner-reviewed exact customer order-management title
+customer_service_contact_centre,Production Planner / Customer Service Coordinator,HIGH_CONFIDENCE,,,AGREED_2026-08-30,Owner-reviewed exact customer service coordination title
