@@ -103,7 +103,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": ""
+    "posted_date_basis": "",
+    "at_a_glance_attributes": [
+      "Scheduling and bookings",
+      "Data entry"
+    ]
   },
   {
     "job_id": "23643_225452492",
@@ -203,7 +207,12 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": ""
+    "posted_date_basis": "",
+    "at_a_glance_attributes": [
+      "Shared inboxes",
+      "Reporting",
+      "Quotations"
+    ]
   },
   {
     "job_id": "23643_225475468",
@@ -228,7 +237,12 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": ""
+    "posted_date_basis": "",
+    "at_a_glance_attributes": [
+      "Customer enquiries",
+      "Systems administration",
+      "Quotations"
+    ]
   },
   {
     "job_id": "23643_225476714",
@@ -478,7 +492,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": ""
+    "posted_date_basis": "",
+    "at_a_glance_attributes": [
+      "Visitor reception",
+      "Records administration"
+    ]
   },
   {
     "job_id": "107860492",
@@ -553,7 +571,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": ""
+    "posted_date_basis": "",
+    "at_a_glance_attributes": [
+      "Customer enquiries",
+      "Records administration"
+    ]
   },
   {
     "job_id": "107805697",
@@ -603,7 +625,12 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": ""
+    "posted_date_basis": "",
+    "at_a_glance_attributes": [
+      "Customer enquiries",
+      "Systems administration",
+      "Quotations"
+    ]
   },
   {
     "job_id": "23643_225517937",
@@ -678,7 +705,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": ""
+    "posted_date_basis": "",
+    "at_a_glance_attributes": [
+      "Telephone handling",
+      "Order processing"
+    ]
   },
   {
     "job_id": "23643_225547249",
@@ -728,7 +759,12 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": ""
+    "posted_date_basis": "",
+    "at_a_glance_attributes": [
+      "Customer enquiries",
+      "Reporting",
+      "Order processing"
+    ]
   },
   {
     "job_id": "107869789",
