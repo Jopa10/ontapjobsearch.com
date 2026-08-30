@@ -1048,7 +1048,9 @@ def extract_salary_from_description(raw_description: Any) -> str:
         r"(?:"
         r"per\s+(?:hour|hr|annum|year|sleep[- ]?in|shift|week|month|day)"
         r"|an\s+hour|a\s+year"
-        r"|p/?h|ph|hourly|annually|annual"
+        # Do not attach the label "Hourly rate" to a preceding annual amount,
+        # e.g. "Salary: £13,928.53 Hourly rate: £13.35 per hour".
+        r"|p/?h|ph|hourly(?!\s+rate)|annually|annual"
         r")"
     )
     salary_phrase = rf"{range_amount}\s*(?:{period})"
