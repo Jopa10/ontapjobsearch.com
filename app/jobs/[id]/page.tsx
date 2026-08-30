@@ -30,7 +30,7 @@ type ListingLink = {
   label: string;
 };
 
-export const dynamicParams = false;
+// Keep published jobs pre-rendered while allowing removed URLs to reach the useful segment 404.\nexport const dynamicParams = true;
 
 export function generateStaticParams() {
   return getPublishedJobs().map((job) => ({ id: job.job_id }));
