@@ -7,6 +7,7 @@ This is the short owner view of how Ontap is organised. It mirrors the five cano
 
 ## Recent canonical changes
 
+- 30 August 2026 — **The owner-reviewed no-register sweep is encoded:** narrow exact decisions add the agreed routine Admin, Customer Service, Finance/Payroll, EA/PA, Legal Support and direct Support/Care titles without admitting the rejected optical, school-support, property/retail-sales, technical, managerial or specialist groups. Generic `City` geography now uses the job's actual location instead of defaulting to London, and the audit correctly bands SalaryAdditional-only pay. Normal LIVE-market, salary and duplicate rules still decide publication.
 - 30 August 2026 — **Expired Google Jobs links are now cleaned up sooner:** whenever published job inventory changes, Ontap automatically runs its existing deletion-first Google Indexing update instead of waiting until the evening fallback run.
 
 - 30 August 2026 — **Still-open NHS jobs are retained during JobG8 review publication:** JobG8 decisions and the refreshed NHS inventory are now composed into one commit, preventing short-lived missing job pages between the two source updates.

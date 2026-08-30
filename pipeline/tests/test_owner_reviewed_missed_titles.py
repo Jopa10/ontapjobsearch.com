@@ -6,6 +6,7 @@ from pipeline.scripts import customer_sales_pipeline
 from pipeline.scripts import finance_accounts_pipeline
 from pipeline.scripts import hr_recruitment_pipeline
 from pipeline.scripts import registered_category_pipeline
+from pipeline.scripts import service_admin_pipeline_core
 from pipeline.scripts import support_worker_pipeline
 
 
@@ -16,6 +17,13 @@ class OwnerReviewedMissedTitleTests(unittest.TestCase):
             "Accounts Payable Analyst Hybrid",
             "Assistant Accountant (Hybrid)",
             "Finance Administration Officer",
+            "Purchase Ledger Clerk Role",
+            "Accounts Payable Clerk",
+            "Accounts Receivable Clerk",
+            "Accounts Administrator (legal)",
+            "HR Operations/ Payroll Coordinator",
+            "Payroll & Finance Coordinator",
+            "Payroll Systems Assistant",
         ):
             with self.subTest(title=title):
                 keep, _reason = finance_accounts_pipeline.classify(
@@ -53,9 +61,30 @@ class OwnerReviewedMissedTitleTests(unittest.TestCase):
             "Customer Service Consultant",
             "Customer Engagement Executive",
             "Digital Customer Success Executive",
+            "Customer Tech Support Advisor",
+            "Customer Support Agent",
+            "Customer Service Clerk",
+            "Customer Care Assistant",
         ):
             with self.subTest(title=title):
                 self.assertIn(registered_category_pipeline.key(title), titles)
+
+    def test_owner_reviewed_admin_titles_are_in(self) -> None:
+        register = service_admin_pipeline_core.load_title_register()
+        for title in (
+            "Admin with Excel",
+            "Booking Clerk",
+            "Office / Events Administrator",
+            "Bank Receptionist",
+            "Business Support Assistant",
+            "Operations Assistant",
+            "Executive Assistant",
+            "Personal Assistant to the Head of Prep",
+            "Service Department Coordinator",
+        ):
+            with self.subTest(title=title):
+                classification, *_ = service_admin_pipeline_core.classify_title(title, register)
+                self.assertIn(classification, {"HIGH_CONFIDENCE", "ELASTIC_FIT"})
 
     def test_owner_reviewed_support_titles_override_generic_exclusions(self) -> None:
         register = support_worker_pipeline.load_title_register()
@@ -69,6 +98,15 @@ class OwnerReviewedMissedTitleTests(unittest.TestCase):
             "Housing Management Worker",
             "Housing and Support Officer",
             "Housing Support Officer",
+            "Care Assistant- Daleview",
+            "Support Worker - O'Hanlon House",
+            "Care Assistant - Drivers Only",
+            "Floating Support Worker - Young Persons",
+            "Support Worker - Supported Housing - Bristol",
+            "Live in Care Assistant to Medical Sciences Uni Student",
+            "Live-In Personal Assistant for Law Student at University",
+            "Live in Care Assistant to 3rd year Biology Uni Student",
+            "Live-in Care Assistant for a Graphic Design Student",
         ):
             with self.subTest(title=title):
                 classification, _reason, _priority, _review = support_worker_pipeline.classify_title(

@@ -97,9 +97,14 @@ def effective_salary(row: pd.Series) -> tuple[str, str, float | None, float | No
         period = selector_salary.normalise_salary_period(row)
         annual_min = annualised_salary(row.get(COL["salary_min"], ""), period)
         annual_max = annualised_salary(row.get(COL["salary_max"], ""), period)
-        return salary_source, salary_text, annual_min, annual_max
+        if annual_min is not None or annual_max is not None:
+            return salary_source, salary_text, annual_min, annual_max
+        # SalaryAdditional is structured evidence too.  When JobG8 leaves its
+        # numeric min/max blank, annualise the effective text just as the live
+        # selector does instead of incorrectly leaving the audit band unknown.
     if salary_source != "description_fallback":
-        return salary_source, salary_text, None, None
+        if not salary_text:
+            return salary_source, salary_text, None, None
 
     amounts = [
         float(value.replace(",", ""))
@@ -162,7 +167,7 @@ def load_geo(path: Path) -> tuple[dict[str, str], dict[str, str]]:
 
 def resolve_region(row: pd.Series, areas: dict[str, str], locations: dict[str, str]) -> str:
     area = norm(row.get(COL["area"], ""))
-    if area and area not in {"not specified", "unknown"}:
+    if area and area not in {"not specified", "unknown", "city"}:
         return areas.get(area, "Other / Unknown")
     return locations.get(norm(row.get(COL["location"], "")), "Other / Unknown")
 

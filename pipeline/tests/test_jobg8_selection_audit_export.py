@@ -2,7 +2,7 @@ import unittest
 
 import pandas as pd
 
-from pipeline.scripts.jobg8_selection_audit_export import COL, classify_status, effective_salary, salary_band
+from pipeline.scripts.jobg8_selection_audit_export import COL, classify_status, effective_salary, resolve_region, salary_band
 
 
 class JobG8SelectionAuditExportTest(unittest.TestCase):
@@ -43,6 +43,24 @@ class JobG8SelectionAuditExportTest(unittest.TestCase):
             COL["description"]: "Customer support role with competitive benefits.",
         })
         self.assertEqual(effective_salary(row), ("missing", "", None, None))
+
+    def test_salary_additional_only_is_annualised(self):
+        row = pd.Series({
+            COL["salary_min"]: "",
+            COL["salary_max"]: "",
+            COL["salary_period"]: "Annual",
+            "/Job/SalaryAdditional": "£14.00 - £14.50/hour",
+            COL["description"]: "Routine administration role.",
+        })
+        source, salary_text, annual_min, annual_max = effective_salary(row)
+        self.assertEqual(source, "structured")
+        self.assertIn("£14.50", salary_text)
+        self.assertEqual(annual_min, 27_300)
+        self.assertEqual(annual_max, 28_275)
+
+    def test_generic_city_area_uses_precise_location(self):
+        row = pd.Series({COL["area"]: "City", COL["location"]: "Sheffield"})
+        self.assertEqual(resolve_region(row, {"city": "London"}, {"sheffield": "Yorkshire - South"}), "Yorkshire - South")
 
 
 if __name__ == "__main__":

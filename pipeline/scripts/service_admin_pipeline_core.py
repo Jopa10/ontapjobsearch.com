@@ -894,7 +894,9 @@ def build_location_fallback_lookup(fallback_df: pd.DataFrame) -> dict[str, str]:
 
 
 def area_is_unusable(area: str) -> bool:
-    return norm_key(area) in {"", "not specified", "unknown"}
+    # JobG8's generic Area="City" is not London geography.  Prefer the precise
+    # Location fallback (for example Sheffield, Belfast or Liverpool).
+    return norm_key(area) in {"", "not specified", "unknown", "city"}
 
 
 def included_by_title(title: str) -> tuple[bool, str]:
