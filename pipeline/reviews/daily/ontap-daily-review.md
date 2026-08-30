@@ -32,7 +32,7 @@ Edit only each `action:` line:
 ## JobG8 — 10 to review
 
 ---
-action:
+action: exclude
 POSS | JobG8 | Berkshire | Berkshire | £80000 per year | Learning Management System Administrator
 source_key: jobg8
 source: JobG8
@@ -50,7 +50,7 @@ hub_fingerprint: 6e95c673b4415f69416ac814e68fc426379c7209615d9a13d010aaa9879eb61
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | Buckinghamshire | Buckinghamshire | £29000 - £32000 per year (£29K basic, £32K inc. Bonus /Hybri) | Office Coordinator (German Speaking)
 source_key: jobg8
 source: JobG8
@@ -68,7 +68,7 @@ hub_fingerprint: 0c5d5b5a168d61ea00f83a74be68ad5106a5a8c7f0645324f2d7ad304e8036b
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Cheshire - East | Knutsford | £28000 - £32000 per year | FM Coordinator
 source_key: jobg8
 source: JobG8
@@ -86,7 +86,7 @@ hub_fingerprint: 0c6eb5ede0a433b20a776231231c8c58b5865fdd7af13ae03a3b0f8ddf9bfe9
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Hampshire | Emsworth | £25186 - £26244 per year | Care Assistant (Older Adults)
 source_key: jobg8
 source: JobG8
@@ -104,7 +104,7 @@ hub_fingerprint: be7a3bc37e7e24477f1481a44294431136ae029bb807aca35c19d42f44d3af2
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Hampshire | Fareham | £27780 - £30564 per year | Children's Home Support Worker
 source_key: jobg8
 source: JobG8
@@ -122,7 +122,7 @@ hub_fingerprint: f0b6274f41c65c7e9460de3dc5760ad93e53e81475cf718cc13d391f46c7730
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Hampshire | Hampshire | £18 per hour | Office Administrator
 source_key: jobg8
 source: JobG8
@@ -140,7 +140,7 @@ hub_fingerprint: 5fbb6584fc974c733eee3dd7c7ec6ab8f29e51757f1d12361882a937a0709cc
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | Kent | Kent | £35000 - £45000 per year | Town Planner
 source_key: jobg8
 source: JobG8
@@ -158,7 +158,7 @@ hub_fingerprint: 9cd372e148e7947b705c6713c4b8c91c494e0e1194de0f0f32d35940c5e6e16
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | West Midlands - Birmingham & Solihull | Birmingham | £27976 - £30230 per year | Customer Service Advisor
 source_key: jobg8
 source: JobG8
@@ -176,7 +176,7 @@ hub_fingerprint: 04ee88eb87867194f5e6ff694a99228aa89c91044db0683fbcc8061ca0b5575
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | Wiltshire | Wiltshire | £15 - £18.5 per hour (+ Excellent Company Benefits) | Financial Services Administrator
 source_key: jobg8
 source: JobG8
@@ -194,7 +194,7 @@ hub_fingerprint: c73b1ade2c92b9e9172afb6eac5f1f1d52c375dbd0cd80762f214ef93412b3a
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Yorkshire - West | Halifax | £12.85 - £17.14 per hour | Housing Support Worker
 source_key: jobg8
 source: JobG8
