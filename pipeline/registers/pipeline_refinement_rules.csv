@@ -118,6 +118,37 @@ support_worker,Young Person's Support Worker Northumberland,HIGH_CONFIDENCE,,429
 support_worker,Young Person's Support Worker Gateshead/Newcastle,HIGH_CONFIDENCE,,42900,AGREED_2026-07-24,Client-group wording alone is not exclusionary
 support_worker,Children and Young Persons Support Worker,HIGH_CONFIDENCE,,44850,AGREED_2026-07-24,Direct support for children and young people is eligible
 support_worker,Scottish Island Support Worker,HARD_PASS,,,AGREED_2026-07-24,Actual workplace conflicts with the target regional slice
+admin_service,Admin with Excel,HIGH_CONFIDENCE,,,AGREED_2026-08-30,Owner-reviewed advert confirms routine Excel-based office administration
+admin_service,Booking Clerk,HIGH_CONFIDENCE,specialist_requirements_review,,AGREED_2026-08-30,Owner-reviewed advert confirms routine booking and administrative processing
+admin_service,Office / Events Administrator,HIGH_CONFIDENCE,,,AGREED_2026-08-30,Owner-reviewed advert confirms general office and events administration
+admin_service,Bank Receptionist,HIGH_CONFIDENCE,specialist_requirements_review,,AGREED_2026-08-30,Owner-reviewed advert confirms a transferable reception role
+admin_service,Business Support Assistant,HIGH_CONFIDENCE,specialist_requirements_review,,AGREED_2026-08-30,Owner-reviewed advert confirms transferable business support
+admin_service,Operations Assistant,HIGH_CONFIDENCE,specialist_requirements_review,,AGREED_2026-08-30,Owner-reviewed advert confirms office-based operational support unless specialist expertise is mandatory
+admin_service,Executive Assistant,HIGH_CONFIDENCE,specialist_requirements_review,,AGREED_2026-08-30,Owner-reviewed adverts confirm corporate executive office support
+admin_service,Personal Assistant to the Head of Prep,HIGH_CONFIDENCE,specialist_requirements_review,,AGREED_2026-08-30,Owner-reviewed advert confirms professional school-office PA support
+admin_service,Service Department Coordinator,HIGH_CONFIDENCE,specialist_requirements_review,,AGREED_2026-08-30,Owner-reviewed advert confirms customer-facing service administration
+customer_service_contact_centre,Customer Tech Support Advisor,HIGH_CONFIDENCE,,,AGREED_2026-08-30,Owner-reviewed advert confirms direct broadband customer support rather than technical engineering
+customer_service_contact_centre,Customer Support Agent,HIGH_CONFIDENCE,,,AGREED_2026-08-30,Owner-reviewed advert confirms direct customer support
+customer_service_contact_centre,Customer Service Clerk,HIGH_CONFIDENCE,,,AGREED_2026-08-30,Owner-reviewed advert confirms customer enquiries order processing and administration
+customer_service_contact_centre,Customer Care Assistant,HIGH_CONFIDENCE,,,AGREED_2026-08-30,Owner-reviewed advert confirms office-based customer care rather than direct personal care
+finance_accounts,Purchase Ledger Clerk Role,HIGH_CONFIDENCE,,,AGREED_2026-08-30,Owner-reviewed title confirms routine purchase-ledger processing
+finance_accounts,Accounts Payable Clerk,HIGH_CONFIDENCE,,,AGREED_2026-08-30,Owner-reviewed title confirms routine accounts-payable processing
+finance_accounts,Accounts Receivable Clerk,HIGH_CONFIDENCE,,,AGREED_2026-08-30,Owner-reviewed title confirms routine accounts-receivable processing
+finance_accounts,Accounts Administrator (legal),HIGH_CONFIDENCE,,,AGREED_2026-08-30,Owner-reviewed advert confirms practical accounts administration within a legal employer
+finance_accounts,HR Operations/ Payroll Coordinator,HIGH_CONFIDENCE,,,AGREED_2026-08-30,Owner-reviewed advert confirms operational payroll coordination
+finance_accounts,Payroll & Finance Coordinator,HIGH_CONFIDENCE,,,AGREED_2026-08-30,Owner-reviewed advert confirms practical payroll and finance operations
+finance_accounts,Payroll Systems Assistant,HIGH_CONFIDENCE,,,AGREED_2026-08-30,Owner-reviewed advert confirms assistant-level in-house payroll systems support
+legal_assistant_paralegal,Paralegal/Legal Secretary - Belfast,HIGH_CONFIDENCE,,,AGREED_2026-08-30,Owner-reviewed title confirms legal support rather than qualified-lawyer work
+legal_assistant_paralegal,Legal Assistant,HIGH_CONFIDENCE,,,AGREED_2026-08-30,Owner-reviewed title confirms accessible legal support
+support_worker,Care Assistant- Daleview,HIGH_CONFIDENCE,owner_title_override,,AGREED_2026-08-30,Owner-reviewed advert confirms direct care work
+support_worker,Support Worker - O'Hanlon House,HIGH_CONFIDENCE,owner_title_override,,AGREED_2026-08-30,Owner-reviewed advert confirms direct homelessness support
+support_worker,Care Assistant - Drivers Only,HIGH_CONFIDENCE,owner_title_override,,AGREED_2026-08-30,Driving is incidental to owner-reviewed direct home care
+support_worker,Floating Support Worker - Young Persons,HIGH_CONFIDENCE,owner_title_override,,AGREED_2026-08-30,Owner-reviewed advert confirms practical direct support for young people
+support_worker,Support Worker - Supported Housing - Bristol,HIGH_CONFIDENCE,owner_title_override,,AGREED_2026-08-30,Owner-reviewed advert confirms direct supported-housing work
+support_worker,Live in Care Assistant to Medical Sciences Uni Student,HIGH_CONFIDENCE,owner_title_override,,AGREED_2026-08-30,Owner-reviewed advert confirms direct personal care
+support_worker,Live-In Personal Assistant for Law Student at University,HIGH_CONFIDENCE,owner_title_override,,AGREED_2026-08-30,Owner-reviewed advert confirms direct disability support rather than office PA work
+support_worker,Live in Care Assistant to 3rd year Biology Uni Student,HIGH_CONFIDENCE,owner_title_override,,AGREED_2026-08-30,Owner-reviewed advert confirms direct personal care
+support_worker,Live-in Care Assistant for a Graphic Design Student,HIGH_CONFIDENCE,owner_title_override,,AGREED_2026-08-30,Owner-reviewed advert confirms direct personal care
 support_worker,Young Person's Support Worker Durham,HIGH_CONFIDENCE,,42900,AGREED_2026-07-24,Client-group wording alone is not exclusionary
 admin_service,Personal Assistant,REVIEW_CONTEXT_DEPENDENT,admin_personal_assistant,,AGREED_2026-08-30,Owner-approved only for explicit executive or office PA descriptions; direct-care and legal PA work stays excluded
 admin_service,Operations Administration Support,HIGH_CONFIDENCE,,,AGREED_2026-08-30,Owner-reviewed exact transferable operations administration title
