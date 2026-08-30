@@ -115,5 +115,64 @@ class OwnerReviewedMissedTitleTests(unittest.TestCase):
                 self.assertEqual("HIGH_CONFIDENCE", classification)
 
 
+    def test_fourth_sweep_registered_titles_are_governed(self) -> None:
+        expected = {
+            "admin_service": (
+                "PA Executive Assistant",
+                "Production Planning Administrator",
+                "Admin Assistant",
+                "Customer Support / Admin Support Roles",
+                "Production Administrator",
+                "Administration Support",
+                "Maintenance Helpdesk Administrator",
+                "Administrator / Business Support",
+                "Administration Assistant - Part Time",
+                "Business Support Coordinator",
+            ),
+            "finance_accounts": (
+                "Payroll Administrator (Part Time)",
+                "Payroll & Benefits Administrator",
+                "Payroll Support Administrator",
+                "Book Keeper - Part Time",
+                "Payroll Associate (Part Time/Full Time - Accountancy Practice)",
+                "Payroll , Pensions and HR Administrator (Hybrid)",
+            ),
+            "legal_assistant_paralegal": (
+                "Legal Secretary 12 month FTC",
+                "Legal Secretary / Legal Administration",
+                "Legal Secretary / Legal Assistant",
+                "Paralegal",
+            ),
+            "hr_recruitment": ("People and Operations Assistant",),
+            "customer_sales": ("Sales Coordinator", "Sales Coordinator Construction"),
+        }
+        for family, family_titles in expected.items():
+            governed = registered_category_pipeline.load_titles(family)
+            for title in family_titles:
+                with self.subTest(family=family, title=title):
+                    self.assertIn(registered_category_pipeline.key(title), governed)
+
+    def test_fourth_sweep_direct_care_titles_override_generic_exclusions(self) -> None:
+        register = support_worker_pipeline.load_title_register()
+        for title in (
+            "Day Centre Support Worker",
+            "Care Assistant Nursing - Dayshift - Ratheane",
+            "Mental Health Support Worker - Thatcham, Berkshire",
+            "Support Worker (Weekend)",
+            "Support Worker Flexible Across Services",
+            "Support Worker (part time)",
+            "Care Assistant (Care homes)",
+            "Care Assistant (Nights)",
+            "Housing Support Worker (Casual)",
+            "Care Assistant - Female Only - Driver Only",
+            "Support Worker Waking Nights",
+        ):
+            with self.subTest(title=title):
+                classification, _reason, _priority, _review = support_worker_pipeline.classify_title(
+                    title, register
+                )
+                self.assertEqual("HIGH_CONFIDENCE", classification)
+
+
 if __name__ == "__main__":
     unittest.main(verbosity=2)
