@@ -7,6 +7,8 @@ This is the short owner view of how Ontap is organised. It mirrors the five cano
 
 ## Recent canonical changes
 
+- 30 August 2026 — **The fourth owner title sweep is encoded:** further agreed Admin, Payroll/Finance, Legal Support, Care/Support, People Operations and Sales Coordination titles now enter their existing governed families. Ambiguous roles, IT Support and Housing Officer remain parked; ordinary publication rules still decide what becomes live. The earlier `City` geography fix already corrects this workbook's definite false-London mappings without forcing ambiguous county conflicts.
+
 - 30 August 2026 — **The owner-reviewed no-register sweep is encoded:** narrow exact decisions add the agreed routine Admin, Customer Service, Finance/Payroll, EA/PA, Legal Support and direct Support/Care titles without admitting the rejected optical, school-support, property/retail-sales, technical, managerial or specialist groups. Generic `City` geography now uses the job's actual location instead of defaulting to London, and the audit correctly bands SalaryAdditional-only pay. Normal LIVE-market, salary and duplicate rules still decide publication.
 - 30 August 2026 — **Expired Google Jobs links are now cleaned up sooner:** whenever published job inventory changes, Ontap automatically runs its existing deletion-first Google Indexing update instead of waiting until the evening fallback run.
 

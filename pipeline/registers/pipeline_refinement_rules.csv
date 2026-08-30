@@ -178,3 +178,41 @@ finance_accounts,Payroll And Workforce Admin,HIGH_CONFIDENCE,,,AGREED_2026-08-30
 customer_service_contact_centre,Temporary Order Processor,HIGH_CONFIDENCE,,,AGREED_2026-08-30,Owner-reviewed exact customer order-processing title
 customer_service_contact_centre,Order Management Administrator,HIGH_CONFIDENCE,,,AGREED_2026-08-30,Owner-reviewed exact customer order-management title
 customer_service_contact_centre,Production Planner / Customer Service Coordinator,HIGH_CONFIDENCE,,,AGREED_2026-08-30,Owner-reviewed exact customer service coordination title
+admin_service,PA Executive Assistant,HIGH_CONFIDENCE,specialist_requirements_review,,AGREED_2026-08-30,Owner-reviewed advert confirms corporate executive office support
+admin_service,"PA - Commercial, Technology & IP",HIGH_CONFIDENCE,specialist_requirements_review,,AGREED_2026-08-30,Owner-reviewed advert confirms PA support; specialist legal requirements remain fail-closed
+admin_service,PA,REVIEW_CONTEXT_DEPENDENT,admin_personal_assistant,,AGREED_2026-08-30,Include only where the description establishes executive or corporate-office PA support
+admin_service,Executive Assistant (6-12 Month FTC - Maternity Cover),HIGH_CONFIDENCE,specialist_requirements_review,,AGREED_2026-08-30,Owner-reviewed advert confirms corporate executive office support
+admin_service,Executive Assistant- Part Time,HIGH_CONFIDENCE,specialist_requirements_review,,AGREED_2026-08-30,Owner-reviewed advert confirms corporate executive office support
+admin_service,Production Planning Administrator,HIGH_CONFIDENCE,specialist_requirements_review,,AGREED_2026-08-30,Owner-reviewed advert confirms office-based production planning administration
+admin_service,Admin Assistant,HIGH_CONFIDENCE,,,AGREED_2026-08-30,Owner-reviewed adverts confirm routine transferable administration
+admin_service,Customer Support / Admin Support Roles,HIGH_CONFIDENCE,specialist_requirements_review,,AGREED_2026-08-30,Owner-reviewed advert confirms customer and administrative support
+admin_service,Administration Support,HIGH_CONFIDENCE,,,AGREED_2026-08-30,Owner-reviewed advert confirms routine transferable administration
+admin_service,Maintenance Helpdesk Administrator,HIGH_CONFIDENCE,specialist_requirements_review,,AGREED_2026-08-30,Owner-reviewed advert confirms helpdesk administration rather than technical engineering
+admin_service,Administrator / Business Support,HIGH_CONFIDENCE,,,AGREED_2026-08-30,Owner-reviewed advert confirms routine business administration
+admin_service,Administration Assistant - Part Time,HIGH_CONFIDENCE,,,AGREED_2026-08-30,Owner-reviewed advert confirms routine transferable administration
+admin_service,Business Support Coordinator,HIGH_CONFIDENCE,specialist_requirements_review,,AGREED_2026-08-30,Owner-reviewed advert confirms transferable business support
+finance_accounts,Payroll Administrator (Part Time),HIGH_CONFIDENCE,,,AGREED_2026-08-30,Owner-reviewed advert confirms operational payroll administration
+finance_accounts,Payroll & Benefits Administrator,HIGH_CONFIDENCE,specialist_requirements_review,,AGREED_2026-08-30,Owner-reviewed advert confirms operational payroll and benefits administration
+finance_accounts,Payroll Support Administrator,HIGH_CONFIDENCE,,,AGREED_2026-08-30,Owner-reviewed advert confirms operational payroll support
+finance_accounts,Book Keeper - Part Time,HIGH_CONFIDENCE,specialist_requirements_review,,AGREED_2026-08-30,Owner-reviewed advert confirms practical bookkeeping below the family ceiling
+finance_accounts,Payroll Associate (Part Time/Full Time - Accountancy Practice),HIGH_CONFIDENCE,specialist_requirements_review,,AGREED_2026-08-30,Owner-reviewed advert confirms operational payroll work; qualification barriers remain fail-closed
+finance_accounts,"Payroll , Pensions and HR Administrator (Hybrid)",HIGH_CONFIDENCE,specialist_requirements_review,,AGREED_2026-08-30,Owner-approved for operational payroll and HR administration in the Finance family
+legal_assistant_paralegal,Legal Secretary 12 month FTC,HIGH_CONFIDENCE,,,AGREED_2026-08-30,Owner-reviewed title confirms legal support
+legal_assistant_paralegal,Legal Secretary / Legal Administration,HIGH_CONFIDENCE,,,AGREED_2026-08-30,Owner-reviewed title confirms legal support
+legal_assistant_paralegal,Legal Secretary / Legal Assistant,HIGH_CONFIDENCE,,,AGREED_2026-08-30,Owner-reviewed title confirms legal support
+legal_assistant_paralegal,Paralegal,HIGH_CONFIDENCE,,,AGREED_2026-08-30,Owner-reviewed title confirms accessible legal support
+legal_assistant_paralegal,Executive Assistants & Personal Assistants Legal Sector,HIGH_CONFIDENCE,specialist_requirements_review,,AGREED_2026-08-30,Owner-reviewed advert confirms legal-sector support rather than qualified-lawyer work
+support_worker,Day Centre Support Worker,HIGH_CONFIDENCE,owner_title_override,,AGREED_2026-08-30,Owner-reviewed advert confirms direct day-centre support
+support_worker,Care Assistant Nursing - Dayshift - Ratheane,HIGH_CONFIDENCE,owner_title_override,,AGREED_2026-08-30,Owner-reviewed advert confirms direct care rather than nursing
+support_worker,"Mental Health Support Worker - Thatcham, Berkshire",HIGH_CONFIDENCE,owner_title_override,,AGREED_2026-08-30,Owner-reviewed advert confirms direct mental-health support
+support_worker,Support Worker (Weekend),HIGH_CONFIDENCE,owner_title_override,,AGREED_2026-08-30,Owner-reviewed advert confirms direct support work
+support_worker,Support Worker Flexible Across Services,HIGH_CONFIDENCE,owner_title_override,,AGREED_2026-08-30,Owner-reviewed advert confirms direct support work
+support_worker,Support Worker (part time),HIGH_CONFIDENCE,owner_title_override,,AGREED_2026-08-30,Owner-reviewed advert confirms direct support work
+support_worker,Care Assistant (Care homes),HIGH_CONFIDENCE,owner_title_override,,AGREED_2026-08-30,Owner-reviewed advert confirms direct care-home work
+support_worker,Care Assistant (Nights),HIGH_CONFIDENCE,owner_title_override,,AGREED_2026-08-30,Owner-reviewed advert confirms direct night care
+support_worker,Housing Support Worker (Casual),HIGH_CONFIDENCE,owner_title_override,,AGREED_2026-08-30,Owner-reviewed advert confirms direct supported-housing work
+support_worker,Care Assistant - Female Only - Driver Only,HIGH_CONFIDENCE,owner_title_override,,AGREED_2026-08-30,Driving is incidental to owner-reviewed direct home care
+support_worker,Support Worker Waking Nights,HIGH_CONFIDENCE,owner_title_override,,AGREED_2026-08-30,Owner-reviewed advert confirms direct waking-night support
+hr_recruitment,People and Operations Assistant,HIGH_CONFIDENCE,specialist_requirements_review,,AGREED_2026-08-30,Owner-reviewed advert confirms accessible people-operations support
+customer_sales,Sales Coordinator,HIGH_CONFIDENCE,specialist_requirements_review,,AGREED_2026-08-30,Owner-reviewed advert confirms accessible sales coordination
+customer_sales,Sales Coordinator Construction,HIGH_CONFIDENCE,specialist_requirements_review,,AGREED_2026-08-30,Owner-reviewed advert confirms sales coordination; specialist construction requirements remain fail-closed
