@@ -5563,7 +5563,7 @@
           "customer_service_contact_centre": 1
         },
         "Berkshire": {
-          "service_admin": 13,
+          "service_admin": 12,
           "support_worker": 3,
           "customer_sales": 1,
           "legal_assistant_paralegal": 0,
@@ -5673,7 +5673,7 @@
           "customer_service_contact_centre": 0
         },
         "Derbyshire": {
-          "service_admin": 6,
+          "service_admin": 8,
           "support_worker": 0,
           "customer_sales": 2,
           "legal_assistant_paralegal": 0,
@@ -5763,7 +5763,7 @@
           "customer_service_contact_centre": 1
         },
         "Hampshire": {
-          "service_admin": 40,
+          "service_admin": 39,
           "support_worker": 6,
           "customer_sales": 4,
           "legal_assistant_paralegal": 0,
@@ -5794,7 +5794,7 @@
         },
         "Kent": {
           "service_admin": 31,
-          "support_worker": 1,
+          "support_worker": 2,
           "customer_sales": 1,
           "legal_assistant_paralegal": 0,
           "marketing": 1,
@@ -5873,12 +5873,12 @@
           "customer_service_contact_centre": 0
         },
         "London": {
-          "service_admin": 77,
+          "service_admin": 75,
           "support_worker": 10,
           "customer_sales": 10,
           "legal_assistant_paralegal": 7,
           "marketing": 21,
-          "finance_accounts": 1,
+          "finance_accounts": 0,
           "hr_recruitment": 6,
           "customer_service_contact_centre": 3
         },
@@ -6003,7 +6003,7 @@
           "customer_service_contact_centre": 0
         },
         "Nottinghamshire": {
-          "service_admin": 12,
+          "service_admin": 11,
           "support_worker": 0,
           "customer_sales": 0,
           "legal_assistant_paralegal": 1,
@@ -6013,7 +6013,7 @@
           "customer_service_contact_centre": 1
         },
         "Oxfordshire": {
-          "service_admin": 19,
+          "service_admin": 20,
           "support_worker": 5,
           "customer_sales": 0,
           "legal_assistant_paralegal": 0,
@@ -6123,7 +6123,7 @@
           "customer_service_contact_centre": 0
         },
         "Shropshire": {
-          "service_admin": 7,
+          "service_admin": 8,
           "support_worker": 0,
           "customer_sales": 0,
           "legal_assistant_paralegal": 1,
@@ -6298,7 +6298,7 @@
           "customer_sales": 0,
           "legal_assistant_paralegal": 0,
           "marketing": 0,
-          "finance_accounts": 1,
+          "finance_accounts": 2,
           "hr_recruitment": 1,
           "customer_service_contact_centre": 2
         },
@@ -6313,14 +6313,14 @@
           "customer_service_contact_centre": 1
         },
         "Yorkshire - South": {
-          "service_admin": 19,
+          "service_admin": 18,
           "support_worker": 0,
           "customer_sales": 0,
           "legal_assistant_paralegal": 3,
           "marketing": 0,
           "finance_accounts": 0,
           "hr_recruitment": 0,
-          "customer_service_contact_centre": 1
+          "customer_service_contact_centre": 0
         },
         "Yorkshire - West": {
           "service_admin": 22,

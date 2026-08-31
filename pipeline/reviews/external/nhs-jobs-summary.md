@@ -2,11 +2,11 @@
 
 review_date: 2026-08-31
 
-- Open Administrative & Clerical rows reviewed: 2287
-- Auto/remembered selected: 517
-- Selected HC Tier A: 226
+- Open Administrative & Clerical rows reviewed: 2283
+- Auto/remembered selected: 515
+- Selected HC Tier A: 224
 - Selected HC Tier B: 291
-- POSS awaiting decision: 1465
+- POSS awaiting decision: 1463
 - Excluded: 0
 - HARD_PASS: 305
 
@@ -94,18 +94,6 @@ region: Surrey
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/B9074-26-0061
 factual_fingerprint: 85cf460e8d7dea6b636e512ed07ed229f535c2e43f4b460cde313af868d94c6b
----
-
----
-action:
-POSS | NHS Jobs | — | North Manchester, M8 5RB | £25272.00 | Radiology Receptionist
-source_job_id: 5569671
-title: Radiology Receptionist
-employer: Manchester University NHS Foundation Trust
-region: 
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9349-26-2562
-factual_fingerprint: 7f682d9944650a184140eea98af62a543f52e2c3b005a82ae23415d158f7bc5e
 ---
 
 ---
@@ -4678,18 +4666,6 @@ region: Surrey
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/B9078-FC1120
 factual_fingerprint: d9299d656e9102adb7a36979605e66bd9d3506e5301fdb4a31f47f796aceff05
----
-
----
-action:
-POSS | NHS Jobs | London | London, WC1N 3HZ | £58133.00 to £65261.00 | ICT Senior Networking & Security Engineer
-source_job_id: 5563655
-title: ICT Senior Networking & Security Engineer
-employer: Great Ormond Street Hospital for Children NHS Foundation Trust
-region: London
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9271-26-0347
-factual_fingerprint: f71ec9afd574513d81b7099ea176bf589909f92768d422b6750c7ceeaf9305a5
 ---
 
 ---

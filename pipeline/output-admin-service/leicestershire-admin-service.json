@@ -21,7 +21,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Krishna Avanti Primary School",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-learning-support-administrator-loughborough-college",
@@ -45,7 +49,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Loughborough College",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "23643_225493612",
@@ -713,7 +721,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9313-26-0379",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9313-26-0379",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5553430",
@@ -731,7 +743,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0505-26-0221",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0505-26-0221",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5523687",
@@ -749,7 +765,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9313-26-0357",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9313-26-0357",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5560932",
@@ -767,7 +787,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9358-26-0573",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9358-26-0573",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5543166",
@@ -785,6 +809,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9358-26-0543",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9358-26-0543",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

@@ -1,12 +1,12 @@
 ﻿metric,value
-total rows input,5436
-total rows included,31
-total rows dropped,5404
+total rows input,5354
+total rows included,32
+total rows dropped,5319
 title classification count - HIGH_CONFIDENCE,77
 title classification count - ELASTIC_FIT,16
 title classification count - REVIEW_CONTEXT_DEPENDENT,12
-title classification count - HARD_PASS,2404
-title classification count - OUT_OF_SCOPE,2927
+title classification count - HARD_PASS,2349
+title classification count - OUT_OF_SCOPE,2900
 selection scenario - Yorkshire - West,SCENARIO_4_BELOW_PUBLISH_THRESHOLD
 selection message - Yorkshire - West,Yorkshire - West selection below publish threshold: 1/6 credible roles. Do not publish/refresh this slice from this run.
 credible total - Yorkshire - West,1
@@ -56,13 +56,13 @@ other elastic count - Hampshire,0
 total rows output - Hampshire,6
 job_id included - Hampshire,1401784780; 1401784493; 1401784687; 1401784767; 1401784682; 1401784679
 selection scenario - Kent,SCENARIO_4_BELOW_PUBLISH_THRESHOLD
-selection message - Kent,Kent selection below publish threshold: 1/6 credible roles. Do not publish/refresh this slice from this run.
-credible total - Kent,1
-high confidence count - Kent,1
+selection message - Kent,Kent selection below publish threshold: 2/6 credible roles. Do not publish/refresh this slice from this run.
+credible total - Kent,2
+high confidence count - Kent,2
 anchor elastic count - Kent,0
 other elastic count - Kent,0
-total rows output - Kent,1
-job_id included - Kent,1402264062
+total rows output - Kent,2
+job_id included - Kent,1402264062; 23643_225442302
 selection scenario - London,SCENARIO_3_MANUAL_SELECTION_APPLIED
 selection message - London,London manual_select applied additively: 2 row(s) prioritised; 10 selected.
 credible total - London,10
