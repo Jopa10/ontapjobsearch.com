@@ -47,11 +47,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Reporting"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "2048066",
@@ -75,31 +71,6 @@
     "advertiser_name": "Honeycomb Jobs Ltd",
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
-    "job_id": "107877249",
-    "title": "Accounts Assistant & Income recovery",
-    "company": "Hays - Agency - Permanent",
-    "location": "Belfast",
-    "region": "Northern Ireland - East",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "30000",
-    "salary_max": "30000",
-    "salary_text": "£30000 per year",
-    "posted_date": "",
-    "description": "Accounts Assistant & Income Recovery\nYour New CompanyHays are delighted to be partnering with a well-established and growing organisation that is seeking an Accounts Assistant & Income Recovery professional to join its finance team. This is an excellent opportunity to join a successful business with a strong reputation in its sector, offering a varied role within a supportive and collaborative work click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?Zg1fD7qgbpyClND5amXLFIvzyk0W9r8le",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Hays",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
     "salary_period": "Annual",
     "posted_date_basis": ""
   }
