@@ -109,7 +109,17 @@ job_id: 1401784679
 
 ## HAMPSHIRE — POSSIBLES
 
-_No jobs in this group._
+---
+action:
+POSS - HAMPSHIRE | Hampshire | Havant | £33178 - £36369 per year | Support Worker (Out of Hours)
+job_id: 1401784888
+---
+
+---
+action:
+POSS - HAMPSHIRE | Hampshire | Eastleigh | £32780 - £35564 per year (Market Supplement, plus Enhancements) | Secure Children's Home Support Worker
+job_id: 1401784900
+---
 
 ## KENT — SELECTED
 
@@ -119,13 +129,15 @@ SELECTED | Kent | Tunbridge Wells | competitive + benefits | Qualified Hearing C
 job_id: 1402264062
 ---
 
-## KENT — POSSIBLES
-
 ---
 action:
-POSS - KENT | Kent | Kent | £13.45 per hour (£13.45) | Housing Support Worker (Casual)
-job_id: 23643_225534852
+SELECTED | Kent | Kent | £25845 per year | Female Support Worker
+job_id: 23643_225442302
 ---
+
+## KENT — POSSIBLES
+
+_No jobs in this group._
 
 ## LONDON — SELECTED
 
@@ -251,7 +263,11 @@ job_id: 1808682
 
 ## SURREY — POSSIBLES
 
-_No jobs in this group._
+---
+action:
+POSS - SURREY | Surrey | Cobham | £13.45 per hour (£13.45) | Housing Support Worker (Casual)
+job_id: 23643_225534852
+---
 
 ## WILTSHIRE — SELECTED
 

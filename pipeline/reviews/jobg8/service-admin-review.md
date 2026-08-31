@@ -173,12 +173,6 @@ job_id: 23643_225457187
 
 ---
 action:
-SELECTED | Yorkshire - South | Barnsley | £26000 - £26500 per year | Customer Service Coordinator
-job_id: 23643_225475228
----
-
----
-action:
 SELECTED | Yorkshire - South | Sheffield | £14 - £14.5 per hour | Recruitment Resourcer / Administrator
 job_id: 23643_225478960
 ---
@@ -613,12 +607,6 @@ job_id: 23643_225524594
 
 ---
 action:
-SELECTED | London | London | £32000 - £40000 per year | Operations & Sales Coordinator
-job_id: 23643_225413953
----
-
----
-action:
 SELECTED | London | London |  | IT Service Desk Apprentice
 job_id: 1706403
 ---
@@ -743,12 +731,6 @@ SELECTED | London | London |  | SQL Database Administrator
 job_id: 1776246
 ---
 
----
-action:
-SELECTED | London | London | £29000 per year | Front Of House Property Admin
-job_id: 23643_225454050
----
-
 ## LONDON — POSSIBLES
 
 ---
@@ -797,12 +779,6 @@ job_id: 1821604
 action:
 POSS - LONDON | London | London | £400 per daily | Project Coordinator
 job_id: 1802628
----
-
----
-action:
-POSS - LONDON | London | London | £35000 - £40000 per year | Sales & Accounts Coordinator
-job_id: 1689332
 ---
 
 ---
@@ -1009,12 +985,6 @@ job_id: 23643_225529475
 action:
 SELECTED | Hampshire | Hampshire | £32500 per year | Service Coordinator
 job_id: 23643_225534205
----
-
----
-action:
-SELECTED | Hampshire | Hampshire | £30,000 per annum | Housing Repairs Administrator
-job_id: 23643_225537561
 ---
 
 ---
@@ -1837,12 +1807,6 @@ job_id: 23643_225455907
 
 ---
 action:
-SELECTED | Berkshire | Berkshire | £13.47 - £14.43 per hour | Workplace Coordinator
-job_id: 23643_225472204
----
-
----
-action:
 SELECTED | Berkshire | Reading | £14.23 per hour | Case Disposals Administrator CJ
 job_id: 23643_225474975
 ---
@@ -2273,8 +2237,20 @@ job_id: 23643_225461525
 
 ---
 action:
+SELECTED | Derbyshire | Derbyshire | £12.71 per hour | Admin Advertiser
+job_id: 23643_225511181
+---
+
+---
+action:
 SELECTED | Derbyshire | Derbyshire | £28000 - £30000 per year | Service Technical Planner
 job_id: 23643_225518063
+---
+
+---
+action:
+SELECTED | Derbyshire | Derbyshire | £32000 - £40000 per year | Operations & Sales Coordinator
+job_id: 23643_225413953
 ---
 
 ---
@@ -3413,12 +3389,6 @@ job_id: 23643_225494401
 
 ---
 action:
-SELECTED | Nottinghamshire | Nottinghamshire | £12.71 per hour | Admin Advertiser
-job_id: 23643_225511181
----
-
----
-action:
 SELECTED | Nottinghamshire | Nottinghamshire | £15.95 per hour | PA/Secretary
 job_id: 23643_225519438
 ---
@@ -3475,6 +3445,12 @@ job_id: 23643_225464294
 action:
 SELECTED | Oxfordshire | Oxfordshire | £13 per hour | Administrator
 job_id: 23643_225358207
+---
+
+---
+action:
+SELECTED | Oxfordshire | Oxfordshire | £13.47 - £14.43 per hour | Workplace Coordinator
+job_id: 23643_225472204
 ---
 
 ---
@@ -3735,6 +3711,12 @@ job_id: 23643_225492971
 action:
 SELECTED | Shropshire | Shropshire | £28000 - £33000 per year | Client Coordinator
 job_id: 23643_225512376
+---
+
+---
+action:
+SELECTED | Shropshire | Shropshire | £30,000 per annum | Housing Repairs Administrator
+job_id: 23643_225537561
 ---
 
 ---
