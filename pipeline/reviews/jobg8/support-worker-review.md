@@ -1,6 +1,6 @@
 # Support-worker manual review
 
-feed_date: 2026-08-30
+feed_date: 2026-08-31
 
 Edit only the `action:` line in each block:
 
@@ -17,23 +17,13 @@ SELECTED | Yorkshire - West | Bradford | £13.75 - £14.5 per hour (Including ho
 job_id: 23643_225476096
 ---
 
----
-action:
-SELECTED | Yorkshire - West | Halifax | £14.24 - £16 per hour (+ INC holiday pay) | Complex Care Assistant
-job_id: 107728647
----
-
 ## WEST YORKSHIRE — POSSIBLES
 
 _No jobs in this group._
 
 ## SOUTH YORKSHIRE — SELECTED
 
----
-action:
-SELECTED | Yorkshire - South | Sheffield | £15 per hour | Hourly Care Assistant to Journalism Studies Uni student
-job_id: 107798506
----
+_No jobs in this group._
 
 ## SOUTH YORKSHIRE — POSSIBLES
 
@@ -41,19 +31,9 @@ _No jobs in this group._
 
 ## NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND — SELECTED
 
----
-action:
-SELECTED | North East - Tyneside, Wearside & Northumberland | Houghton Le Spring | £14.24 per hour | Complex Care Assistant
-job_id: 107810260
----
+_No jobs in this group._
 
 ## NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL — SELECTED
-
----
-action:
-SELECTED | North East - County Durham & Darlington/Hartlepool | Crook | £14.24 per hour (+ Including holiday pay) | Complex Care Assistant
-job_id: 107781117
----
 
 ---
 action:
@@ -75,18 +55,6 @@ _No jobs in this group._
 action:
 SELECTED | Sussex | Brighton | £14 - £16 per hour | Support Worker
 job_id: 23643_222307132
----
-
----
-action:
-SELECTED | Sussex | Crawley | £18 - £19 per hour | Complex Care Assistant
-job_id: 107854069
----
-
----
-action:
-SELECTED | Sussex | Hove | £16 per hour | Care Assistant to a Creative Writing Uni Graduate
-job_id: 107835737
 ---
 
 ## SUSSEX — POSSIBLES
@@ -113,12 +81,6 @@ job_id: 1401784493
 action:
 SELECTED | Hampshire | Basingstoke | £25186 - £26244 per year | Night Care Assistant (Adults)
 job_id: 1401784687
----
-
----
-action:
-SELECTED | Hampshire | Southampton | £25,947 - £26,305 per annum | Accommodation Support Worker
-job_id: 1674633
 ---
 
 ---
@@ -153,43 +115,17 @@ _No jobs in this group._
 
 ---
 action:
-SELECTED | Kent | Canterbury | £15 - £17 per hour | Paediatric Complex Care Assistant
-job_id: 107739939
----
-
----
-action:
 SELECTED | Kent | Tunbridge Wells | competitive + benefits | Qualified Hearing Care Assistant
 job_id: 1402264062
 ---
 
----
-action:
-SELECTED | Kent | Folkestone | £14 - £17 per hour | Complex Care Assistant
-job_id: 107852539
----
-
----
-action:
-SELECTED | Kent | Dover | £15 - £17 per hour | Complex Care Assistant
-job_id: 107882991
----
-
----
-action:
-SELECTED | Kent | Snodland | £14 - £16 per hour | Complex Care Assistant
-job_id: 107854067
----
-
----
-action:
-SELECTED | Kent | New Romney | £14 - £17 per hour | Complex Care Assistant
-job_id: 107882989
----
-
 ## KENT — POSSIBLES
 
-_No jobs in this group._
+---
+action:
+POSS - KENT | Kent | Kent | £13.45 per hour (£13.45) | Housing Support Worker (Casual)
+job_id: 23643_225534852
+---
 
 ## LONDON — SELECTED
 
@@ -207,12 +143,6 @@ job_id: 23643_223283749
 
 ---
 action:
-SELECTED | London | London | £23,088.00 per annum | Waking Night Support Worker
-job_id: 1664745
----
-
----
-action:
 SELECTED | London | Wandsworth | £95 - £115 per daily | Behaviour Support Assistant
 job_id: 23643_225513634
 ---
@@ -221,12 +151,6 @@ job_id: 23643_225513634
 action:
 SELECTED | London | London | £85 - £105 per daily (Excellent training and Career progression) | Support Worker
 job_id: 23643_225516212
----
-
----
-action:
-SELECTED | London | London | £14.80 per hour | Support Worker
-job_id: 1780022
 ---
 
 ---
@@ -243,26 +167,8 @@ job_id: 1785507
 
 ---
 action:
-SELECTED | London | City | £26,229 per annum | Residential Support Worker (Mental Health)
-job_id: 1787859
----
-
----
-action:
 SELECTED | London | Brentford | £125 - £130 per daily | Support Worker
 job_id: 23643_225535652
----
-
----
-action:
-SELECTED | London | City | £260 per daily | Care Assistant to a Psychology University Student
-job_id: 107751975
----
-
----
-action:
-SELECTED | London | London | £31,200.00 per annum | Enhanced Support Worker
-job_id: 1818954
 ---
 
 ---
@@ -359,12 +265,6 @@ job_id: 1693230
 action:
 SELECTED | Wiltshire | Chippenham | £85 - £110 per daily | Autism Support Worker
 job_id: 1693131
----
-
----
-action:
-SELECTED | Wiltshire | Swindon | £26,227 per annum | Female BSW Crisis House Peer Support Worker
-job_id: 1787836
 ---
 
 ---

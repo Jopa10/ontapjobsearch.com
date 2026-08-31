@@ -1,50 +1,33 @@
 ﻿feed_date,decision,region,title,town,salary_text,manual_override,manual_select,job_id
-2026-08-30,SELECTED,Yorkshire - West,Healthcare Assistant,Bradford,"£13.75 - £14.5 per hour (Including holiday pay, flexible hours)",,,23643_225476096
-2026-08-30,SELECTED,Yorkshire - West,Complex Care Assistant,Halifax,£14.24 - £16 per hour (+ INC holiday pay),,,107728647
-2026-08-30,SELECTED,Yorkshire - South,Hourly Care Assistant to Journalism Studies Uni student,Sheffield,£15 per hour,,,107798506
-2026-08-30,SELECTED,"North East - Tyneside, Wearside & Northumberland",Complex Care Assistant,Houghton Le Spring,£14.24 per hour,,,107810260
-2026-08-30,SELECTED,North East - County Durham & Darlington/Hartlepool,Complex Care Assistant,Crook,£14.24 per hour (+ Including holiday pay),,,107781117
-2026-08-30,SELECTED,North East - County Durham & Darlington/Hartlepool,Young Person Support Worker,Durham,£17 - £20 per hour,,,23643_225493355
-2026-08-30,SELECTED,Sussex,Support Worker,Brighton,£14 - £16 per hour,,,23643_222307132
-2026-08-30,SELECTED,Sussex,Complex Care Assistant,Crawley,£18 - £19 per hour,,,107854069
-2026-08-30,SELECTED,Sussex,Care Assistant to a Creative Writing Uni Graduate,Hove,£16 per hour,,,107835737
-2026-08-30,SELECTED,Hampshire,Care Assistant,Alton,£25186 - £26244 per year (plus Market Supplement),,,1401784493
-2026-08-30,SELECTED,Hampshire,Night Care Assistant (Adults),Basingstoke,£25186 - £26244 per year,,,1401784687
-2026-08-30,SELECTED,Hampshire,Accommodation Support Worker,Southampton,"£25,947 - £26,305 per annum",,,1674633
-2026-08-30,SELECTED,Hampshire,Secure Childrens Home Support Worker (Weekends),Southampton,£27780 - £30564 per year,,,1401784780
-2026-08-30,SELECTED,Hampshire,Children's Homes Support Worker,Romsey,£27780 - £30564 per year,,,1401784767
-2026-08-30,SELECTED,Hampshire,Waking Night Childrens Home Support Worker,Romsey,"£27780 - £30564 per year (), plus Market Supplement of £3,000 pro-rata, per annum and enhancemen)",,,1401784682
-2026-08-30,SELECTED,Hampshire,Care Assistant,Havant,£25186 - £26244 per year,,,1401784679
-2026-08-30,SELECTED,Kent,Paediatric Complex Care Assistant,Canterbury,£15 - £17 per hour,,,107739939
-2026-08-30,SELECTED,Kent,Qualified Hearing Care Assistant,Tunbridge Wells,competitive + benefits,,,1402264062
-2026-08-30,SELECTED,Kent,Complex Care Assistant,Folkestone,£14 - £17 per hour,,,107852539
-2026-08-30,SELECTED,Kent,Complex Care Assistant,Dover,£15 - £17 per hour,,,107882991
-2026-08-30,SELECTED,Kent,Complex Care Assistant,Snodland,£14 - £16 per hour,,,107854067
-2026-08-30,SELECTED,Kent,Complex Care Assistant,New Romney,£14 - £17 per hour,,,107882989
-2026-08-30,SELECTED,London,Healthcare Assistant,City,"£13.75 - £14.5 per hour (Including holiday pay, flexible hours)",,,23643_225476071
-2026-08-30,SELECTED,London,Care Assistant,London,£12.82 per hour,,,23643_223283749
-2026-08-30,SELECTED,London,Waking Night Support Worker,London,"£23,088.00 per annum",,,1664745
-2026-08-30,SELECTED,London,Behaviour Support Assistant,Wandsworth,£95 - £115 per daily,,,23643_225513634
-2026-08-30,SELECTED,London,Support Worker,London,£85 - £105 per daily (Excellent training and Career progression),,,23643_225516212
-2026-08-30,SELECTED,London,Support Worker,London,£14.80 per hour,,,1780022
-2026-08-30,SELECTED,London,Communication Support Worker,Carshalton,£35 per hour,,,1785508
-2026-08-30,SELECTED,London,Communication Support Worker,Morden,£35 per hour,,,1785507
-2026-08-30,SELECTED,London,Residential Support Worker (Mental Health),City,"£26,229 per annum",,,1787859
-2026-08-30,SELECTED,London,Support Worker,Brentford,£125 - £130 per daily,,,23643_225535652
-2026-08-30,SELECTED,London,Care Assistant to a Psychology University Student,City,£260 per daily,,,107751975
-2026-08-30,SELECTED,London,Enhanced Support Worker,London,"£31,200.00 per annum",,,1818954
-2026-08-30,SELECTED,London,Autism Support Worker,Bromley,£100 - £110 per daily,,,1815970
-2026-08-30,SELECTED,London,Behaviour Support Assistant,Wandsworth,£95 - £115 per daily,,,1708252
-2026-08-30,SELECTED,London,Support Worker,London,£14.8 per hour,,,23643_225165439
-2026-08-30,SELECTED,Oxfordshire,Youth Support Worker - Oxford,Oxford,£85 - £105 per daily,,,1695997
-2026-08-30,SELECTED,Oxfordshire,Behaviour Support Assistant - Oxford,Oxford,£85 - £100 per daily,,,23643_225543862
-2026-08-30,SELECTED,Oxfordshire,Behaviour Support Assistant - Oxford,Oxford,£85 - £110 per daily,,,1819710
-2026-08-30,SELECTED,Oxfordshire,Autism Support Worker - Oxford,Oxford,£90 - £105 per daily,,,1721690
-2026-08-30,SELECTED,Oxfordshire,Emotional Support Worker - Kidlington,Kidlington,£85 - £110 per daily,,,1721685
-2026-08-30,SELECTED,Surrey,Specialist Academic Support Worker,Farnham,£13.00 per hour,,,1692926
-2026-08-30,SELECTED,Surrey,Care assistant,Lingfield,£92.46 per day,,,1808686
-2026-08-30,SELECTED,Surrey,Residential Support Worker,Lingfield,£25308 - £27180 per year,,,1808682
-2026-08-30,SELECTED,Wiltshire,Mental Health Support Worker,Trowbridge,£85 - £110 per daily,,,1693230
-2026-08-30,SELECTED,Wiltshire,Autism Support Worker,Chippenham,£85 - £110 per daily,,,1693131
-2026-08-30,SELECTED,Wiltshire,Female BSW Crisis House Peer Support Worker,Swindon,"£26,227 per annum",,,1787836
-2026-08-30,SELECTED,Wiltshire,Emotional and Mental Health Support Worker,Chippenham,£85 - £110 per daily,,,1709295
+2026-08-31,SELECTED,Yorkshire - West,Healthcare Assistant,Bradford,"£13.75 - £14.5 per hour (Including holiday pay, flexible hours)",,,23643_225476096
+2026-08-31,SELECTED,North East - County Durham & Darlington/Hartlepool,Young Person Support Worker,Durham,£17 - £20 per hour,,,23643_225493355
+2026-08-31,SELECTED,Sussex,Support Worker,Brighton,£14 - £16 per hour,,,23643_222307132
+2026-08-31,SELECTED,Hampshire,Care Assistant,Alton,£25186 - £26244 per year (plus Market Supplement),,,1401784493
+2026-08-31,SELECTED,Hampshire,Night Care Assistant (Adults),Basingstoke,£25186 - £26244 per year,,,1401784687
+2026-08-31,SELECTED,Hampshire,Secure Childrens Home Support Worker (Weekends),Southampton,£27780 - £30564 per year,,,1401784780
+2026-08-31,SELECTED,Hampshire,Children's Homes Support Worker,Romsey,£27780 - £30564 per year,,,1401784767
+2026-08-31,SELECTED,Hampshire,Waking Night Childrens Home Support Worker,Romsey,"£27780 - £30564 per year (), plus Market Supplement of £3,000 pro-rata, per annum and enhancemen)",,,1401784682
+2026-08-31,SELECTED,Hampshire,Care Assistant,Havant,£25186 - £26244 per year,,,1401784679
+2026-08-31,SELECTED,Kent,Qualified Hearing Care Assistant,Tunbridge Wells,competitive + benefits,,,1402264062
+2026-08-31,POSS - KENT,Kent,Housing Support Worker (Casual),Kent,£13.45 per hour (£13.45),,,23643_225534852
+2026-08-31,SELECTED,London,Healthcare Assistant,City,"£13.75 - £14.5 per hour (Including holiday pay, flexible hours)",,,23643_225476071
+2026-08-31,SELECTED,London,Care Assistant,London,£12.82 per hour,,,23643_223283749
+2026-08-31,SELECTED,London,Behaviour Support Assistant,Wandsworth,£95 - £115 per daily,,,23643_225513634
+2026-08-31,SELECTED,London,Support Worker,London,£85 - £105 per daily (Excellent training and Career progression),,,23643_225516212
+2026-08-31,SELECTED,London,Communication Support Worker,Carshalton,£35 per hour,,,1785508
+2026-08-31,SELECTED,London,Communication Support Worker,Morden,£35 per hour,,,1785507
+2026-08-31,SELECTED,London,Support Worker,Brentford,£125 - £130 per daily,,,23643_225535652
+2026-08-31,SELECTED,London,Autism Support Worker,Bromley,£100 - £110 per daily,,,1815970
+2026-08-31,SELECTED,London,Behaviour Support Assistant,Wandsworth,£95 - £115 per daily,,,1708252
+2026-08-31,SELECTED,London,Support Worker,London,£14.8 per hour,,,23643_225165439
+2026-08-31,SELECTED,Oxfordshire,Youth Support Worker - Oxford,Oxford,£85 - £105 per daily,,,1695997
+2026-08-31,SELECTED,Oxfordshire,Behaviour Support Assistant - Oxford,Oxford,£85 - £100 per daily,,,23643_225543862
+2026-08-31,SELECTED,Oxfordshire,Behaviour Support Assistant - Oxford,Oxford,£85 - £110 per daily,,,1819710
+2026-08-31,SELECTED,Oxfordshire,Autism Support Worker - Oxford,Oxford,£90 - £105 per daily,,,1721690
+2026-08-31,SELECTED,Oxfordshire,Emotional Support Worker - Kidlington,Kidlington,£85 - £110 per daily,,,1721685
+2026-08-31,SELECTED,Surrey,Specialist Academic Support Worker,Farnham,£13.00 per hour,,,1692926
+2026-08-31,SELECTED,Surrey,Care assistant,Lingfield,£92.46 per day,,,1808686
+2026-08-31,SELECTED,Surrey,Residential Support Worker,Lingfield,£25308 - £27180 per year,,,1808682
+2026-08-31,SELECTED,Wiltshire,Mental Health Support Worker,Trowbridge,£85 - £110 per daily,,,1693230
+2026-08-31,SELECTED,Wiltshire,Autism Support Worker,Chippenham,£85 - £110 per daily,,,1693131
+2026-08-31,SELECTED,Wiltshire,Emotional and Mental Health Support Worker,Chippenham,£85 - £110 per daily,,,1709295
