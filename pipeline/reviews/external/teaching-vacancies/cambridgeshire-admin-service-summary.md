@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cambridgeshire
 
-review_date: 2026-08-30
-review_fingerprint: 337d6fae864b4e31adee042f54b34c0ee3c8232717eedc73c75ee77d77cc9dfd
-routing_manifest_sha256: eb6bef78d15e154b4b783b6172d6a6ca6bdd0bb4b53a2f803a298e90ed30ff0e
+review_date: 2026-08-31
+review_fingerprint: 841f576b626b4675750dcfb9b35d801c2a55715ca06381b0809a4a4a03c4f5f9
+routing_manifest_sha256: ffa8ac4eb0bf3616c1711502490fa7d8374f8e356872cc2c477737141b15a14c
 ontap_region: Cambridgeshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 25
-- Selected: 14
+- Records: 23
+- Selected: 13
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 9
+- Hard pass: 8
 
 ## SELECTED
 
@@ -79,21 +79,6 @@ factual_fingerprint: 6c272f15e0ff933eae04681c17af0093cb543cfa8dc2e1e90d38262cbdf
 source: Teaching Vacancies
 source_job_id: administrative-assistant-nene-park-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-nene-park-academy
----
-
----
-action: 
-SELECTED | Cambridgeshire | Wisbech, East of England, PE14 7HA | Scale D, Pt 6-7, £13.47 - £13.68/hour (FTE £25,989 - £26,403 per year, based on a 37hr week) Please note this salary will be paid pro rata | Administrator (SEN and Careers)
-employer: Marshland High School
-closing_date: 2026-08-31T01:00:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 8725e616e5191b7fb654d748e74620ef5e081c840208f744a89c38cc58c2191f
-source: Teaching Vacancies
-source_job_id: administrator-sen-and-careers
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-sen-and-careers
 ---
 
 ---
@@ -272,7 +257,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/marketing-communicati
 - [Data, Assessment & Cover Manager](https://teaching-vacancies.service.gov.uk/jobs/data-assessment-cover-manager) — Manager title salary ceiling £35,412 is not below £28,000.
 - [HR Adviser (Field based)](https://teaching-vacancies.service.gov.uk/jobs/hr-adviser-field-based) — Insufficient admin/service evidence.
 - [HR Assistant](https://teaching-vacancies.service.gov.uk/jobs/hr-assistant-c4d8ed09-594f-4562-a120-505c05f1230f) — Insufficient admin/service evidence.
-- [HR Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-29710c09-99f0-4051-a00b-f29e45698bda) — Insufficient admin/service evidence.
 - [MAT Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/mat-finance-officer-four-cs-mat) — Insufficient admin/service evidence.
 - [Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-0ac27fb8-22a7-4d23-9c79-0a117c28f623) — Insufficient admin/service evidence.
 - [Senior HR Adviser (Field based Cambridge and Ely area primarily)](https://teaching-vacancies.service.gov.uk/jobs/senior-hr-adviser-field-based-cambridge-and-ely-area-primarily) — Insufficient admin/service evidence.

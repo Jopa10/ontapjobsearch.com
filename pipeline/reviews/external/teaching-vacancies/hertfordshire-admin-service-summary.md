@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Hertfordshire
 
-review_date: 2026-08-30
-review_fingerprint: a560eab22fd2b09884b81fa0b19741288b872bef4a77a183f0abaf5e55a76445
-routing_manifest_sha256: eb6bef78d15e154b4b783b6172d6a6ca6bdd0bb4b53a2f803a298e90ed30ff0e
+review_date: 2026-08-31
+review_fingerprint: 41921ad69450250e6ccda5b3bc6e34b648d70780f8556e457d9c65db1115a028
+routing_manifest_sha256: ffa8ac4eb0bf3616c1711502490fa7d8374f8e356872cc2c477737141b15a14c
 ontap_region: Hertfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 8
+- Records: 9
 - Selected: 5
-- POSS awaiting decision: 0
+- POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 3
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Hertfordshire | St Albans, East of England, AL4 0TT | £22,915.00 - £23,631.00 Annually (Actual) | Admin Assistant (Learning Support)
+employer: Nicholas Breakspear Catholic School
+closing_date: 2026-09-14T23:59:00+01:00
+reason: Clear admin/service title: admin assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 14ed5689f64af360c775162d670539b4155f3a8ef94b77b1097af54eb8e2a0a9
+source: Teaching Vacancies
+source_job_id: admin-assistant-learning-support-nicholas-breakspear-catholic-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-learning-support-nicholas-breakspear-catholic-school
+---
 
 ---
 action: 
@@ -67,21 +82,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/governance-administra
 ---
 
 ---
-action: select
-SELECTED | Hertfordshire | Royston, East of England, SG8 5NJ | NJC Cambridgeshire Scale 5 Point 12 - 14 (£28,598 - £29,540 FTE per annum) £12,426.16 - £12,835.47 pro rata, plus holiday pay. | Office Administrator
-employer: Bassingbourn Village College
-closing_date: 2026-08-31T23:59:00+01:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 8fccbba9d34a01eb62b0e77a6919dd3df5e0d8b3934242bfe78141469df2d5f8
-source: Teaching Vacancies
-source_job_id: office-administrator-bassingbourn-village-college
-source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-bassingbourn-village-college
----
-
----
 action: 
 SELECTED | Hertfordshire | Stevenage, East of England, SG2 8UT | £21,885.00 - £23,315.00 Annually (Actual) Term Time plus 5 days | Receptionist/Admin Assistant and Student Support Coordinator
 employer: Marriotts School
@@ -98,7 +98,20 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-admin-as
 
 ## POSS — choose SELECT or EXCLUDE
 
-- None.
+---
+action: 
+POSS | Hertfordshire | Royston, East of England, SG8 5NJ | NJC Cambridgeshire Scale 5 Point 12 - 14 (£28,598 - £29,540 FTE per annum) £12,426.16 - £12,835.47 pro rata, plus holiday pay. | Office Administrator
+employer: Bassingbourn Village College
+closing_date: 2026-08-31T23:59:00+01:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 8fccbba9d34a01eb62b0e77a6919dd3df5e0d8b3934242bfe78141469df2d5f8
+source: Teaching Vacancies
+source_job_id: office-administrator-bassingbourn-village-college
+source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-bassingbourn-village-college
+---
 
 ## EXCLUDED BY REVIEW
 

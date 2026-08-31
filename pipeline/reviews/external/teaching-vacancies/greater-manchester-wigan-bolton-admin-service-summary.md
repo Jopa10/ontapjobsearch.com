@@ -1,9 +1,9 @@
-# Teaching Vacancies regional review — Cheshire - Warrington & Halton
+# Teaching Vacancies regional review — Greater Manchester - Wigan & Bolton
 
 review_date: 2026-08-31
 review_fingerprint: 4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945
 routing_manifest_sha256: ffa8ac4eb0bf3616c1711502490fa7d8374f8e356872cc2c477737141b15a14c
-ontap_region: Cheshire - Warrington & Halton
+ontap_region: Greater Manchester - Wigan & Bolton
 slice_category: admin_service
 slice_status: LIVE
 
@@ -33,8 +33,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## HARD_PASS
 
-- [Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-halton-lodge-nursery-primary-school) — Insufficient admin/service evidence.
-- [Trust HR Assistant](https://teaching-vacancies.service.gov.uk/jobs/trust-hr-assistant-the-heath-family-north-west) — Insufficient admin/service evidence.
+- [Senior Clerical Assistant](https://teaching-vacancies.service.gov.uk/jobs/senior-clerical-assistant-598f1f7d-7f62-4080-ba2f-598a194bcbae) — Insufficient admin/service evidence.
+- [Senior Clerical Assistant](https://teaching-vacancies.service.gov.uk/jobs/senior-clerical-assistant-st-mary-s-cofe-primary-school-deane) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Kent
 
-review_date: 2026-08-30
+review_date: 2026-08-31
 review_fingerprint: 07bfa10958ce0363e28637183766f2cad08c5ee4915f318e0e82dcc7d480432f
-routing_manifest_sha256: eb6bef78d15e154b4b783b6172d6a6ca6bdd0bb4b53a2f803a298e90ed30ff0e
+routing_manifest_sha256: ffa8ac4eb0bf3616c1711502490fa7d8374f8e356872cc2c477737141b15a14c
 ontap_region: Kent
 slice_category: admin_service
 slice_status: LIVE
@@ -14,8 +14,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 9
-- Selected: 4
-- POSS awaiting decision: 0
+- Selected: 3
+- POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 5
 
@@ -52,21 +52,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/admissions-officer-th
 ---
 
 ---
-action: select
-SELECTED | Kent | Canterbury, CT1 1NQ | £28,182.00 Annually (FTE) Actual annual salary £ 26057.39 | HR administrator
-employer: The Diocese Of Canterbury Academies Trust
-closing_date: 2026-09-07T23:59:00+01:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 7e95f87de0e98b48358bf305bb31f93a7036a56578e206c6958529a65d86d2c8
-source: Teaching Vacancies
-source_job_id: hr-administrator-the-diocese-of-canterbury-academies-trust
-source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-the-diocese-of-canterbury-academies-trust
----
-
----
 action: 
 SELECTED | Kent | Sheerness, South East, ME12 3AP | £8,557.00 - £8,693.00 Annually (Actual) | Receptionist
 employer: Nore Academy
@@ -83,7 +68,20 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-nore-aca
 
 ## POSS — choose SELECT or EXCLUDE
 
-- None.
+---
+action: 
+POSS | Kent | Canterbury, CT1 1NQ | £28,182.00 Annually (FTE) Actual annual salary £ 26057.39 | HR administrator
+employer: The Diocese Of Canterbury Academies Trust
+closing_date: 2026-09-07T23:59:00+01:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 7e95f87de0e98b48358bf305bb31f93a7036a56578e206c6958529a65d86d2c8
+source: Teaching Vacancies
+source_job_id: hr-administrator-the-diocese-of-canterbury-academies-trust
+source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-the-diocese-of-canterbury-academies-trust
+---
 
 ## EXCLUDED BY REVIEW
 

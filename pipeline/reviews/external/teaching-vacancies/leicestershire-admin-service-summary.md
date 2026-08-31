@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Leicestershire
 
-review_date: 2026-08-30
-review_fingerprint: c3fa4ed295ff18dbb36bd663aa70dfbaa02c9bf1e5f75048201c651d7e526b6f
-routing_manifest_sha256: eb6bef78d15e154b4b783b6172d6a6ca6bdd0bb4b53a2f803a298e90ed30ff0e
+review_date: 2026-08-31
+review_fingerprint: d8c260512a52e28e919a0029cbd37d0f08c7f0d893796a5c1d4d5237cef136e0
+routing_manifest_sha256: ffa8ac4eb0bf3616c1711502490fa7d8374f8e356872cc2c477737141b15a14c
 ontap_region: Leicestershire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 9
-- Selected: 3
+- Records: 8
+- Selected: 2
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 5
 
 ## SELECTED
-
----
-action: 
-SELECTED | Leicestershire | Leicester, East Midlands, LE2 6DW | £25,191.00 - £25,590.00 Annually (FTE) Approximate starting salary of £21,552.62 | Administration Assistant (MIL138BC)
-employer: Millgate School
-closing_date: 2026-08-31T12:00:00+01:00
-reason: Clear admin/service title: administration assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: af002fb46e563adb7c9ee3cdeebf9a4a849a5f65284d2dc6a0a16819fe1c1468
-source: Teaching Vacancies
-source_job_id: administration-assistant-mil138bc
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-mil138bc
----
 
 ---
 action: 

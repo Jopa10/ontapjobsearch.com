@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Black Country
 
-review_date: 2026-08-30
-review_fingerprint: 802a339381c95c05498b113215e839fdd46ccab1b9e6b79a9a8a699d805d6402
-routing_manifest_sha256: eb6bef78d15e154b4b783b6172d6a6ca6bdd0bb4b53a2f803a298e90ed30ff0e
+review_date: 2026-08-31
+review_fingerprint: 4e246203ee1e7c053518add137f4d86b0311034be70448415c20fc4f6c510a11
+routing_manifest_sha256: ffa8ac4eb0bf3616c1711502490fa7d8374f8e356872cc2c477737141b15a14c
 ontap_region: West Midlands - Black Country
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 8
-- Selected: 3
+- Records: 4
+- Selected: 2
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 2
 
 ## SELECTED
-
----
-action: 
-SELECTED | West Midlands - Black Country | Tipton, West Midlands, DY4 8PR | £13.05 - £13.47 Hourly | Receptionist
-employer: Tipton Green Junior School
-closing_date: 2026-08-31T09:00:00+01:00
-reason: Clear admin/service title: receptionist
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 101c226ec566144d503f690e36627a9e5bfdf748236a06a0e96921e321196f1a
-source: Teaching Vacancies
-source_job_id: receptionist-tipton-green-junior-school-tipton-west-midlands
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-tipton-green-junior-school-tipton-west-midlands
----
 
 ---
 action: 
@@ -76,9 +61,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-
 
 ## HARD_PASS
 
-- [Business Administration Apprentice](https://teaching-vacancies.service.gov.uk/jobs/business-administration-apprentice-st-regis-church-of-england-academy-wolverhampton-west-midlands) — Insufficient admin/service evidence.
-- [Communications & Engagement Manager](https://teaching-vacancies.service.gov.uk/jobs/communications-engagement-manager) — Manager title salary ceiling £32,079 is not below £28,000.
-- [Data and MIS Manager](https://teaching-vacancies.service.gov.uk/jobs/data-and-mis-manager-ormiston-new-academy-wolverhampton-west-midlands) — Manager title salary ceiling £36,363 is not below £28,000.
 - [Multi School Facilities Coordinator](https://teaching-vacancies.service.gov.uk/jobs/multi-school-facilities-coordinator) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-withymoor-primary-school) — Manager title salary ceiling £28,214 is not below £28,000.
 

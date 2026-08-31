@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Birmingham & Solihull
 
-review_date: 2026-08-30
-review_fingerprint: c362b29302d9a9fd9d5e1a35cd4ecc2fa4c28196ac5e8d7d7c04a51658af6d2c
-routing_manifest_sha256: eb6bef78d15e154b4b783b6172d6a6ca6bdd0bb4b53a2f803a298e90ed30ff0e
+review_date: 2026-08-31
+review_fingerprint: 75529196cc1d77ae107d2b6607eba180dc37c3a1231083cc0b960421734330ed
+routing_manifest_sha256: ffa8ac4eb0bf3616c1711502490fa7d8374f8e356872cc2c477737141b15a14c
 ontap_region: West Midlands - Birmingham & Solihull
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 15
-- Selected: 8
+- Records: 13
+- Selected: 6
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 6
@@ -68,21 +68,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-29a3a1d
 
 ---
 action: 
-SELECTED | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B37 5GA | £26,824.00 - £29,540.00 Annually (FTE) Salary Band C £26,824 to £29,540 (FTE) | Administrator / Receptionist
-employer: John Henry Newman Catholic College
-closing_date: 2026-08-31T12:00:00+01:00
-reason: Clear admin/service title: administrator, receptionist
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: f08c85e658c8ebd109837f38dfa3aeb6c829253ea7afe93ce4f57a23650c59a3
-source: Teaching Vacancies
-source_job_id: administrator-receptionist-john-henry-newman-catholic-college
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-receptionist-john-henry-newman-catholic-college
----
-
----
-action: 
 SELECTED | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B6 5NH | £10,887.00 - £12,048.00 Annually (Actual) | Attendance Officer
 employer: Prince Albert Junior and Infant School
 closing_date: 2026-09-06T23:59:00+01:00
@@ -109,21 +94,6 @@ factual_fingerprint: 25fa9c29ded8f64ef11c392fa7a323d512b3a8ab6822462cc71cbbd2a01
 source: Teaching Vacancies
 source_job_id: school-administrator-90712575-ad48-4a39-98c3-9140ef281e9e
 source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-90712575-ad48-4a39-98c3-9140ef281e9e
----
-
----
-action: 
-SELECTED | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B11 2QG | £25,583 - £28,598 per year | School Administrator/Receptionist
-employer: Ark Boulton Academy
-closing_date: 2026-08-31T01:00:00+01:00
-reason: Clear admin/service title: administrator, receptionist
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: e2419f2dc2104fcdade8c4fa62f2e7471009f0fa07ac18112dac7e42c6cf6039
-source: Teaching Vacancies
-source_job_id: school-administrator-receptionist-ark-boulton-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-receptionist-ark-boulton-academy
 ---
 
 ---

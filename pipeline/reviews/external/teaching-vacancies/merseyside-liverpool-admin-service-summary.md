@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Merseyside - Liverpool
 
-review_date: 2026-08-30
+review_date: 2026-08-31
 review_fingerprint: a94f77293003c0faca958e3ba112f2e7ff09c0811719c9a5d7980d13f4a4d9a7
-routing_manifest_sha256: eb6bef78d15e154b4b783b6172d6a6ca6bdd0bb4b53a2f803a298e90ed30ff0e
+routing_manifest_sha256: ffa8ac4eb0bf3616c1711502490fa7d8374f8e356872cc2c477737141b15a14c
 ontap_region: Merseyside - Liverpool
 slice_category: admin_service
 slice_status: LIVE

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Nottinghamshire
 
-review_date: 2026-08-30
-review_fingerprint: 51f48092c26594c2242ef783351e52a7bfe41317ec7d33fa8529a04fd95ac5f6
-routing_manifest_sha256: eb6bef78d15e154b4b783b6172d6a6ca6bdd0bb4b53a2f803a298e90ed30ff0e
+review_date: 2026-08-31
+review_fingerprint: c440a6c6183f9a00d84cb493275965c2b4fea38b103e87afb05413ce4677c136
+routing_manifest_sha256: ffa8ac4eb0bf3616c1711502490fa7d8374f8e356872cc2c477737141b15a14c
 ontap_region: Nottinghamshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 20
-- Selected: 5
-- POSS awaiting decision: 1
-- Excluded: 1
-- Hard pass: 13
+- Records: 16
+- Selected: 3
+- POSS awaiting decision: 3
+- Excluded: 0
+- Hard pass: 10
 
 ## SELECTED
 
@@ -66,36 +66,6 @@ source_job_id: administrative-assistant-sixth-form-and-work-related-learning
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-sixth-form-and-work-related-learning
 ---
 
----
-action: select
-SELECTED | Nottinghamshire | Nottingham, East Midlands, NG12 2FQ | Redhill Academy Trust Pay Scale, Band 6, Scale point 29 - 32 | House Support Asisstant
-employer: South Nottinghamshire Academy
-closing_date: 2026-09-04T12:00:00+01:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: e3e5d2ae25c785ab06eb065f9bbf094a44c7c9f65438c997a24f348d0ae16fee
-source: Teaching Vacancies
-source_job_id: house-support-asisstant
-source_url: https://teaching-vacancies.service.gov.uk/jobs/house-support-asisstant
----
-
----
-action: select
-SELECTED | Nottinghamshire | Nottingham, NG9 6RZ | £27,709.00 - £29,541.00 Annually (Actual) NJC8-12 | HR Administrator
-employer: The Spencer Academies Trust
-closing_date: 2026-08-31T12:00:00+01:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 1c8afe35cf3a9c8cd77715cbf45bd486d318efa025e9af61948f522da06bbeb9
-source: Teaching Vacancies
-source_job_id: hr-administrator-the-spencer-academies-trust
-source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-the-spencer-academies-trust
----
-
 ## POSS — choose SELECT or EXCLUDE
 
 ---
@@ -113,11 +83,24 @@ source_job_id: exams-assistant-south-nottinghamshire-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-assistant-south-nottinghamshire-academy
 ---
 
-## EXCLUDED BY REVIEW
+---
+action: 
+POSS | Nottinghamshire | Nottingham, East Midlands, NG12 2FQ | Redhill Academy Trust Pay Scale, Band 6, Scale point 29 - 32 | House Support Asisstant
+employer: South Nottinghamshire Academy
+closing_date: 2026-09-04T12:00:00+01:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: e3e5d2ae25c785ab06eb065f9bbf094a44c7c9f65438c997a24f348d0ae16fee
+source: Teaching Vacancies
+source_job_id: house-support-asisstant
+source_url: https://teaching-vacancies.service.gov.uk/jobs/house-support-asisstant
+---
 
 ---
-action: exclude
-EXCLUDED | Nottinghamshire | Nottingham, NG7 2TU | PO1 (£39,863 to £44,075 per year - April 2026 pay award pending) | Lead Governance Professional
+action: 
+POSS | Nottinghamshire | Nottingham, NG7 2TU | PO1 (£39,863 to £44,075 per year - April 2026 pay award pending) | Lead Governance Professional
 employer: Nova Education Trust
 closing_date: 2026-09-01T09:00:00+01:00
 reason: Borderline school administration title: governance professional
@@ -130,18 +113,19 @@ source_job_id: lead-governance-professional-nova-education-trust
 source_url: https://teaching-vacancies.service.gov.uk/jobs/lead-governance-professional-nova-education-trust
 ---
 
+## EXCLUDED BY REVIEW
+
+- None.
+
 ## HARD_PASS
 
 - [Accounts Payable Assistant](https://teaching-vacancies.service.gov.uk/jobs/accounts-payable-assistant-greenwood-academies-trust) — Insufficient admin/service evidence.
 - [Administration and Attendance Support](https://teaching-vacancies.service.gov.uk/jobs/administration-and-attendance-support) — Insufficient admin/service evidence.
 - [Assistant Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/assistant-operations-manager-8e287efa-6467-481b-8c80-56f74d927bdb) — Manager title salary ceiling £33,699 is not below £28,000.
-- [HR Business Partner](https://teaching-vacancies.service.gov.uk/jobs/hr-business-partner-the-spencer-academies-trust) — Insufficient admin/service evidence.
 - [Maternity Cover – Fixed Term Receptionist/Administrator Ref: ADM26](https://teaching-vacancies.service.gov.uk/jobs/maternity-cover-fixed-term-receptionist-administrator-ref-adm26) — Missing salary or pay scale.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-sycamore-academy) — Manager title salary ceiling £40,446 is not below £28,000.
 - [People & Culture Advisor](https://teaching-vacancies.service.gov.uk/jobs/people-culture-advisor-tapestry-learning-partnership-nottingham-not-recorded) — Insufficient admin/service evidence.
 - [People & Culture Business Partner](https://teaching-vacancies.service.gov.uk/jobs/people-culture-business-partner-tapestry-learning-partnership) — Insufficient admin/service evidence.
-- [People Advisor](https://teaching-vacancies.service.gov.uk/jobs/people-advisor-diverse-academies-trust) — Insufficient admin/service evidence.
-- [Personal Care and Teaching Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-and-teaching-assistant-colonel-frank-seely-academy) — Out-of-scope occupation: teaching assistant.
 - [Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-redgate-primary-academy-mansfield-nottinghamshire) — Insufficient admin/service evidence.
 - [Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-yeoman-park-academy-mansfield-nottinghamshire) — Insufficient admin/service evidence.
 - [Trust Safeguarding Lead](https://teaching-vacancies.service.gov.uk/jobs/trust-safeguarding-lead-redhill-academy-trust) — Insufficient admin/service evidence.

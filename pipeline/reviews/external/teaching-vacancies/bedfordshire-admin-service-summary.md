@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Bedfordshire
 
-review_date: 2026-08-30
-review_fingerprint: 0aff8e3ee81b6049387b7cad0fd72d51f2ded6db7db6b05e872b7edc12400702
-routing_manifest_sha256: eb6bef78d15e154b4b783b6172d6a6ca6bdd0bb4b53a2f803a298e90ed30ff0e
+review_date: 2026-08-31
+review_fingerprint: 6c24059697c43349067f5a92b76baafd2885f6addaf76774a80ebe10165c252e
+routing_manifest_sha256: ffa8ac4eb0bf3616c1711502490fa7d8374f8e356872cc2c477737141b15a14c
 ontap_region: Bedfordshire
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 14
-- Selected: 8
+- Records: 13
+- Selected: 7
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 6
@@ -79,21 +79,6 @@ factual_fingerprint: b87df8eb56b1c558f241443c4304f406868998194760bc77a41c423b33c
 source: Teaching Vacancies
 source_job_id: clerical-assistant-attendance-administrator-arnold-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/clerical-assistant-attendance-administrator-arnold-academy
----
-
----
-action: 
-SELECTED | Bedfordshire | Bedford, East of England, MK44 1JL | £21,971.86 Annually (Actual) | Finance & Trips Admin Assistant
-employer: Sharnbrook Academy
-closing_date: 2026-08-31T09:00:00+01:00
-reason: Clear admin/service title: admin assistant
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: b7a6a8f61f991c40680f0796ce1b6e220681dbffbceeab353402865031d0893c
-source: Teaching Vacancies
-source_job_id: finance-trips-admin-assistant-sharnbrook-academy-bedford-bedfordshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-trips-admin-assistant-sharnbrook-academy-bedford-bedfordshire
 ---
 
 ---

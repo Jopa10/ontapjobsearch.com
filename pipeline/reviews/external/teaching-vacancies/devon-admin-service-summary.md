@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Devon
 
-review_date: 2026-08-30
-review_fingerprint: ef25e0d796bf3ccf2c9ca5728d21f595c68bd14e40b7ba3bf4c0b700ca94f619
-routing_manifest_sha256: eb6bef78d15e154b4b783b6172d6a6ca6bdd0bb4b53a2f803a298e90ed30ff0e
+review_date: 2026-08-31
+review_fingerprint: e0437611ff415b8574a676908b4088a1c31b73d5e18a61ddbf4e0ba8c4c5b2bb
+routing_manifest_sha256: ffa8ac4eb0bf3616c1711502490fa7d8374f8e356872cc2c477737141b15a14c
 ontap_region: Devon
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 24
-- Selected: 9
+- Records: 20
+- Selected: 7
 - POSS awaiting decision: 4
 - Excluded: 0
-- Hard pass: 11
+- Hard pass: 9
 
 ## SELECTED
-
----
-action: 
-SELECTED | Devon | Plymouth, PL1 4RL | £26,824.00 - £29,540.00 Annually (FTE) NJC Plymouth Grade D Pt 8-14 | [260819] People Team Administrator
-employer: Reach South Academy Trust
-closing_date: 2026-08-31T23:59:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 63801244f23b42a3bcabf6408e8d70cfbd109a767f3f447e30cb86d4f1782812
-source: Teaching Vacancies
-source_job_id: 260819-people-team-administrator
-source_url: https://teaching-vacancies.service.gov.uk/jobs/260819-people-team-administrator
----
 
 ---
 action: 
@@ -141,21 +126,6 @@ source_job_id: people-administrator-dartmoor-multi-academy-trust
 source_url: https://teaching-vacancies.service.gov.uk/jobs/people-administrator-dartmoor-multi-academy-trust
 ---
 
----
-action: 
-SELECTED | Devon | Plymouth, South West, PL9 9AZ | £21,911.60 - £22,613.92 Annually (Actual) Grade C SCP 5 - 7 FTE £25,583 - £26,403 | Receptionist / Administrator / First Aid
-employer: Plymstock School
-closing_date: 2026-08-31T09:00:00+01:00
-reason: Clear admin/service title: administrator, receptionist
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: a1533a5ebb1edbbed5b7e3321ac6ae4d493ca7c541a8f95eed6e2d1d83e2da99
-source: Teaching Vacancies
-source_job_id: receptionist-administrator-first-aid-plymstock-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrator-first-aid-plymstock-school
----
-
 ## POSS — choose SELECT or EXCLUDE
 
 ---
@@ -226,8 +196,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-pupil-services
 
 - [Attendance Assistant](https://teaching-vacancies.service.gov.uk/jobs/attendance-assistant-exmouth-community-college) — Insufficient admin/service evidence.
 - [Cover Supervisor](https://teaching-vacancies.service.gov.uk/jobs/cover-supervisor-9fa63c24-e87e-4376-b59f-95affbf3dff3) — Insufficient admin/service evidence.
-- [Finance Apprentice](https://teaching-vacancies.service.gov.uk/jobs/finance-apprentice-westcountry-schools-trust) — Insufficient admin/service evidence.
-- [Finance Apprentice](https://teaching-vacancies.service.gov.uk/jobs/finance-apprentice-westcountry-schools-trust-ivybridge-not-recorded) — Insufficient admin/service evidence.
 - [Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-learning-academies-trust-plymouth-not-recorded) — Insufficient admin/service evidence.
 - [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-ivy-education-trust) — Insufficient admin/service evidence.
 - [HR Policy and Projects Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-policy-and-projects-officer) — Insufficient admin/service evidence.

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Berkshire
 
-review_date: 2026-08-30
-review_fingerprint: 749df3e84d342b1d04fc23cb96d85a4baee3ac73220a5a7ec7b2b94043a89bd6
-routing_manifest_sha256: eb6bef78d15e154b4b783b6172d6a6ca6bdd0bb4b53a2f803a298e90ed30ff0e
+review_date: 2026-08-31
+review_fingerprint: 41a29689149ca7b7fdadd09af0dc30a2c8be8cfe0ad40c384f88c48cefb0e600
+routing_manifest_sha256: ffa8ac4eb0bf3616c1711502490fa7d8374f8e356872cc2c477737141b15a14c
 ontap_region: Berkshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 22
-- Selected: 8
+- Records: 18
+- Selected: 5
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 13
+- Hard pass: 12
 
 ## SELECTED
 
@@ -34,36 +34,6 @@ factual_fingerprint: 54e3609401caefa3994767441c85b6c84cf6ecd083e9e3cee5a525dd209
 source: Teaching Vacancies
 source_job_id: admissions-officer-the-westgate-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/admissions-officer-the-westgate-school
----
-
----
-action: 
-SELECTED | Berkshire | Reading, South East, RG5 4RF | £13,606.99 - £14,503.20 Annually (Actual) NJC Grade 4 SCP 7 to 11 | General Administrator
-employer: Waingels
-closing_date: 2026-08-31T12:00:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 1e316ac589c612b8eb9c9c3f02c695289bf5df3503ebe6f1f634e6d10ae3bcc3
-source: Teaching Vacancies
-source_job_id: general-administrator-waingels
-source_url: https://teaching-vacancies.service.gov.uk/jobs/general-administrator-waingels
----
-
----
-action: 
-SELECTED | Berkshire | Reading, South East, RG5 4RF | £14,886.23 - £15,866.69 Annually (Actual) Grade 4 SCP 7 to 11 | General Administrator with Silent Study Supervisor
-employer: Waingels
-closing_date: 2026-08-31T12:00:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: fbfa259eeba745314df1c2250a6db33d9fbc8dc1851473ed9a63f1a2e978845f
-source: Teaching Vacancies
-source_job_id: general-administrator-with-silent-study-supervisor
-source_url: https://teaching-vacancies.service.gov.uk/jobs/general-administrator-with-silent-study-supervisor
 ---
 
 ---
@@ -113,21 +83,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/sixth-form-administra
 
 ---
 action: 
-SELECTED | Berkshire | Slough, South East, SL2 5BA | £22,274 - £22,957 - | Welfare Assistant & Administrator
-employer: James Elliman Academy
-closing_date: 2026-08-31T12:00:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 210d56db4d638bcc27eb26d2d1c35447d61d6e778645825437167ea12568e576
-source: Teaching Vacancies
-source_job_id: welfare-assistant-administrator
-source_url: https://teaching-vacancies.service.gov.uk/jobs/welfare-assistant-administrator
----
-
----
-action: 
 SELECTED | Berkshire | Slough, South East, SL2 5BA | £22,274.00 - £22,957.00 Annually (Actual) | Welfare Assistant & Administrator
 employer: James Elliman Academy
 closing_date: 2026-09-30T12:00:00+01:00
@@ -172,7 +127,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/trust-governance-prof
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-king-s-academy-meadow-vale) — Manager title salary ceiling £36,363 is not below £28,000.
 - [Office Manager - Southcote Primary School](https://teaching-vacancies.service.gov.uk/jobs/office-manager-southcote-primary-school-southcote-primary-school) — Manager title salary ceiling £34,386 is not below £28,000.
 - [Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/operations-manager-reading-school) — Manager title salary ceiling £44,075 is not below £28,000.
-- [Passionate Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/passionate-finance-officer) — Insufficient admin/service evidence.
 - [Payroll Officer](https://teaching-vacancies.service.gov.uk/jobs/payroll-officer-the-park-federation-academy-trust-slough-not-recorded) — Insufficient admin/service evidence.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-fb06354c-e52a-4d48-b4a2-2dff7115bcd9) — Manager title without salary evidence below £28,000.
 - [SEND Administration Officer - The Wren School](https://teaching-vacancies.service.gov.uk/jobs/send-administration-officer-the-wren-school) — Missing salary or pay scale.

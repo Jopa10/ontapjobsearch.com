@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Somerset
 
-review_date: 2026-08-30
-review_fingerprint: 1217e1db0e985a94811b15298d4c7a6e0ec420efdd612d15164ae3ac082e40f6
-routing_manifest_sha256: eb6bef78d15e154b4b783b6172d6a6ca6bdd0bb4b53a2f803a298e90ed30ff0e
+review_date: 2026-08-31
+review_fingerprint: f70fea663f9cb56e840e9b045a0adb5e50d643b7acaebcf5da1f860a27aaa5f2
+routing_manifest_sha256: ffa8ac4eb0bf3616c1711502490fa7d8374f8e356872cc2c477737141b15a14c
 ontap_region: Somerset
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 13
-- Selected: 5
+- Records: 10
+- Selected: 4
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 6
+- Hard pass: 4
 
 ## SELECTED
 
@@ -34,21 +34,6 @@ factual_fingerprint: 588c894e22bc304271f29fa46890c9d5bc24802c912330c9619e2232c6d
 source: Teaching Vacancies
 source_job_id: administration-assistant-send-winterstoke-hundred-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-send-winterstoke-hundred-academy
----
-
----
-action: 
-SELECTED | Somerset | Taunton, South West, TA4 2NE | £22,947 - £25,010 (Based on hours/working weeks) | Administration Assistant – Attendance (Level 1)
-employer: Kingsmead Academy
-closing_date: 2026-08-30T23:59:59+01:00
-reason: Clear admin/service title: administration assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 06441a592219c2370fb60da94f5a6ed1225e4852a41a033acfe4fdcf31f40b3c
-source: Teaching Vacancies
-source_job_id: administration-assistant-attendance-level-1
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-attendance-level-1
 ---
 
 ---
@@ -137,8 +122,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-administration
 - [Careers Lead](https://teaching-vacancies.service.gov.uk/jobs/careers-lead-the-castle-school-taunton-somerset) — Insufficient admin/service evidence.
 - [Exams Officer](https://teaching-vacancies.service.gov.uk/jobs/exams-officer-west-somerset-college-minehead-somerset) — Missing salary or pay scale.
 - [Headteacher's PA & Office Manager](https://teaching-vacancies.service.gov.uk/jobs/headteacher-s-pa-office-manager-chilton-trinity-school-bridgwater-somerset) — Out-of-scope occupation: teacher, headteacher.
-- [Local Governance Professional (Clerk)](https://teaching-vacancies.service.gov.uk/jobs/local-governance-professional-clerk-churchill-academy-sixth-form) — Missing salary or pay scale.
-- [Office Manager and Work Placement Coordinator - Sixth Form](https://teaching-vacancies.service.gov.uk/jobs/office-manager-and-work-placement-coordinator-sixth-form-norton-hill-academy) — Manager title without salary evidence below £28,000.
 - [Systems Analyst](https://teaching-vacancies.service.gov.uk/jobs/systems-analyst-pathway-trust) — Insufficient admin/service evidence.
 
 ## Safety boundary
