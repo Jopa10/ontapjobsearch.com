@@ -2,11 +2,11 @@
 
 review_date: 2026-08-31
 
-- Open Administrative & Clerical rows reviewed: 2290
+- Open Administrative & Clerical rows reviewed: 2287
 - Auto/remembered selected: 517
 - Selected HC Tier A: 226
 - Selected HC Tier B: 291
-- POSS awaiting decision: 1468
+- POSS awaiting decision: 1465
 - Excluded: 0
 - HARD_PASS: 305
 
@@ -4370,18 +4370,6 @@ factual_fingerprint: bd354689e53a62026404020fb8d010ece84f0fe6879a4f19fc278f2bdee
 
 ---
 action:
-POSS | NHS Jobs | Norfolk | Norwich, NR4 7UY | £25272.00 | Receptionist - Urology
-source_job_id: 5563391
-title: Receptionist - Urology
-employer: Norfolk and Norwich University Hospital
-region: Norfolk
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9234-26-0785
-factual_fingerprint: b3307c1ec1fdbf15feb8f4ed5550eb2bc5586e0f71ad5410aaf91482784bdd03
----
-
----
-action:
 POSS | NHS Jobs | Bristol & Bath | Bristol, BS30 8HS | £12.76 | Front Line Health Worker
 source_job_id: 5564245
 title: Front Line Health Worker
@@ -6962,18 +6950,6 @@ factual_fingerprint: bdf0694f7bd4006b7d1ea93a4a660107bc6dd1843a88a52717a1b2599d5
 
 ---
 action:
-POSS | NHS Jobs | West Midlands - Black Country | Dudley, DY1 2HQ | £25760.00 to £27476.00 | Communications Assistant
-source_job_id: 5560856
-title: Communications Assistant
-employer: The Dudley Group NHS Foundation Trust
-region: West Midlands - Black Country
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9253-26-0400
-factual_fingerprint: 059250f394dcc5cb55997854b85c0c08dae140e204310d0068d530e11be5e327
----
-
----
-action:
 POSS | NHS Jobs | Derbyshire | Chesterfield, S43 4PL | £13.05 to £13.12 | Receptionist (20 hours) 12 Months Fixed Term Contract
 source_job_id: 5560787
 title: Receptionist (20 hours) 12 Months Fixed Term Contract
@@ -9466,18 +9442,6 @@ region: Wales - West
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/H9100-26-1025
 factual_fingerprint: 4fc8267df60d6db8e7c0fa1fae59778e5b3ef5f1d480b664471f7f64a2eefe94
----
-
----
-action:
-POSS | NHS Jobs | Berkshire | Reading, RG1 5UZ | £25760.00 to £27476.00 | Logistics Operative
-source_job_id: 5556727
-title: Logistics Operative
-employer: Royal Berkshire NHS Foundation Trust
-region: Berkshire
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9193-26-0548
-factual_fingerprint: cdf76090ae6f5669d9caeefa488d9f64aa25dd84f5b8e1b0eb8e8ae1dedd3090
 ---
 
 ---
