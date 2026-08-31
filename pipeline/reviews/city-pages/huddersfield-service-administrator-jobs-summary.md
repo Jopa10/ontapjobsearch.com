@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 6
 - automatic review: 5
-- automatic exclude: 34
+- automatic exclude: 29
 - effective include: 6
 - effective review: 5
-- effective exclude: 34
+- effective exclude: 29
 
 ## INCLUDE (6)
 
@@ -158,7 +158,7 @@ job_id: nhs-5551474
 reason: No approved Huddersfield catchment rule matched; local review required.
 ---
 
-## EXCLUDE (34)
+## EXCLUDE (29)
 
 ---
 action: 
@@ -169,18 +169,6 @@ company: Dixons McMillan Academy
 location: Bradford
 source: Teaching Vacancies
 job_id: teaching-vacancies-academy-administrator-l2-dixons-mcmillan-academy
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Administrator
-company: Benton Park School
-location: Leeds
-source: Teaching Vacancies
-job_id: teaching-vacancies-administrator-466b2045-c1e3-4fa9-bf7e-e43eb5901ad7
 reason: Separate employment market.
 ---
 
@@ -224,30 +212,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Administrator (inc Finance)
-company: Benton Park School
-location: Leeds
-source: Teaching Vacancies
-job_id: teaching-vacancies-administrator-inc-finance
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Cloud-First SQL Database Administrator - Azure
-company: IO Associates - Agency - Permanent
-location: Leeds
-source: JobG8
-job_id: jobg8-107908451
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Customer Service Advisor
 company: Red Recruitment - Agency - Permanent
 location: Leeds
@@ -277,18 +241,6 @@ company: CSS - Agency - Contract
 location: Leeds
 source: JobG8
 job_id: jobg8-23643_224689396
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: HR Administrator
-company: Akari Care Limited
-location: Leeds, LS11 5DZ
-source: NHS Jobs
-job_id: nhs-5561629
 reason: Separate employment market.
 ---
 
@@ -433,18 +385,6 @@ company: Oastlers School
 location: Bradford
 source: Teaching Vacancies
 job_id: teaching-vacancies-receptionist-administrator-49a47934-628e-47bf-b7a9-6fe782d91f05
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Recruitment Account Coordinator
-company: Staffline Divisions - Agency - Temporary
-location: Leeds
-source: JobG8
-job_id: jobg8-107819626
 reason: Separate employment market.
 ---
 

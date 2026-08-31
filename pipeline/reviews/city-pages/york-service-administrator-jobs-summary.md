@@ -4,8 +4,8 @@
 - Live route: `/york/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 6
-- Threshold currently met: yes
+- Effective included jobs: 1
+- Threshold currently met: no
 
 ## How to review
 Edit only the `action:` line inside a job block.
@@ -15,50 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 6
+- automatic include: 1
 - automatic review: 3
-- automatic exclude: 8
-- effective include: 6
+- automatic exclude: 6
+- effective include: 1
 - effective review: 3
-- effective exclude: 8
+- effective exclude: 6
 
-## INCLUDE (6)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Accounts Administrator FTC
-company: Brook Street UK - Agency - Contract
-location: York
-source: JobG8
-job_id: jobg8-107830734
-reason: Approved York catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Accounts Administrator FTC
-company: Manpower - Agency - Contract
-location: York
-source: JobG8
-job_id: jobg8-107825403
-reason: Approved York catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Accounts Assistant
-company: Pratap Partnership Ltd - Agency - Permanent
-location: York
-source: JobG8
-job_id: jobg8-107771451
-reason: Approved York catchment.
----
+## INCLUDE (1)
 
 ---
 action: 
@@ -69,30 +33,6 @@ company: Advance HE - Agency - Permanent
 location: York
 source: JobG8
 job_id: jobg8-23643_225543992
-reason: Approved York catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Invoicing Administrator
-company: Capital Outsourcing Group Limited - Agency - Contract
-location: York
-source: JobG8
-job_id: jobg8-107833079
-reason: Approved York catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Team Administrator
-company: Tees Esk and Wear Valleys NHS Foundation Trust
-location: York, YO31 7DE
-source: NHS Jobs
-job_id: nhs-5550198
 reason: Approved York catchment.
 ---
 
@@ -134,19 +74,7 @@ job_id: teaching-vacancies-school-office-administrator-askwith-primary-school
 reason: No approved York catchment rule matched; local review required.
 ---
 
-## EXCLUDE (8)
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Accounts Assistant
-company: SI Recruitment - Agency - Permanent
-location: Northallerton
-source: JobG8
-job_id: jobg8-107893148
-reason: Separate employment market.
----
+## EXCLUDE (6)
 
 ---
 action: 
@@ -181,18 +109,6 @@ company: Braeburn Primary and Nursery Academy
 location: Scarborough
 source: Teaching Vacancies
 job_id: teaching-vacancies-apprentice-administrator-braeburn-primary-and-nursery-academy
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Distribution Coordinator
-company: MTrec Technical - Agency - Permanent
-location: Northallerton
-source: JobG8
-job_id: jobg8-107893393
 reason: Separate employment market.
 ---
 

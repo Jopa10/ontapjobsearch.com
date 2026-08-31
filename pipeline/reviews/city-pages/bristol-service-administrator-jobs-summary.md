@@ -4,7 +4,7 @@
 - Live route: `/bristol/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 21
+- Effective included jobs: 18
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 21
+- automatic include: 18
 - automatic review: 2
 - automatic exclude: 0
-- effective include: 21
+- effective include: 18
 - effective review: 2
 - effective exclude: 0
 
-## INCLUDE (21)
+## INCLUDE (18)
 
 ---
 action: 
@@ -112,6 +112,18 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Digital Marketing Administrator
+company: Filton Avenue Primary School
+location: Bristol
+source: Teaching Vacancies
+job_id: teaching-vacancies-digital-marketing-administrator-filton-avenue-primary-school
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Freight Co-Ordinator
 company: Travail Employment Group - Agency - Permanent
 location: Bristol
@@ -148,18 +160,6 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: IP Administrator
-company: Withers & Rogers - Agency - Permanent
-location: Bristol
-source: JobG8
-job_id: jobg8-107830279
-reason: Approved conservative Bristol launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: IT Co-ordinator
 company: Framatome Limited - Company - Permanent
 location: Bristol
@@ -177,18 +177,6 @@ company: Artis Recruitment - Agency - Permanent
 location: Bristol
 source: JobG8
 job_id: jobg8-1778194
-reason: Approved conservative Bristol launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Marketing Administrator
-company: Marstep Resourcing Solutions - Agency - Permanent
-location: Bristol
-source: JobG8
-job_id: jobg8-107814828
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -232,18 +220,6 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Sales and Partnerships Coordinator
-company: Not For Profit People - Agency - Permanent
-location: Bristol
-source: JobG8
-job_id: jobg8-1821573
-reason: Approved conservative Bristol launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Sales Support Administrator
 company: Fusion People Ltd - Agency - Permanent
 location: Bristol
@@ -261,18 +237,6 @@ company: Parson Street Primary School
 location: Bristol
 source: Teaching Vacancies
 job_id: teaching-vacancies-school-administrator-parson-street-primary-school
-reason: Approved conservative Bristol launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Service Desk Analyst - Bristol
-company: Experis - Agency - Permanent
-location: Bristol
-source: JobG8
-job_id: jobg8-107896132
 reason: Approved conservative Bristol launch catchment.
 ---
 

@@ -4,7 +4,7 @@
 - Live route: `/sheffield/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 20
+- Effective included jobs: 19
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 20
-- automatic review: 4
-- automatic exclude: 11
-- effective include: 20
-- effective review: 4
-- effective exclude: 11
+- automatic include: 19
+- automatic review: 3
+- automatic exclude: 9
+- effective include: 19
+- effective review: 3
+- effective exclude: 9
 
-## INCLUDE (20)
+## INCLUDE (19)
 
 ---
 action: 
@@ -220,18 +220,6 @@ reason: Approved Sheffield catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Sales Coordinator
-company: Ranson Barnes Recruitment Limited - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-107870378
-reason: Approved Sheffield catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: SEND Administrative Assistant
 company: Westfield School
 location: Sheffield
@@ -264,19 +252,7 @@ job_id: jobg8-1807172
 reason: Approved Sheffield catchment.
 ---
 
-## REVIEW (4)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Lead Activities Coordinator
-company: Exemplar Health Care - Company - Permanent
-location: Mexborough
-source: JobG8
-job_id: jobg8-107717102
-reason: No approved Sheffield catchment rule matched; local review required.
----
+## REVIEW (3)
 
 ---
 action: 
@@ -314,19 +290,7 @@ job_id: jobg8-23643_225516072
 reason: No approved Sheffield catchment rule matched; local review required.
 ---
 
-## EXCLUDE (11)
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Account Coordinator - Part Time
-company: Staffline Operations - Agency - Temporary
-location: Doncaster
-source: JobG8
-job_id: jobg8-107804866
-reason: Separate employment market.
----
+## EXCLUDE (9)
 
 ---
 action: 
@@ -385,18 +349,6 @@ company: Austin Banks - Agency - Permanent
 location: Doncaster
 source: JobG8
 job_id: jobg8-23643_225515295
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Receptionist
-company: Hollygreen Practice
-location: Rotherham, S63 9EH, Thurnscoe, s63 0LT, BARNSLEY, S72 0EJ
-source: NHS Jobs
-job_id: nhs-5544481
 reason: Separate employment market.
 ---
 

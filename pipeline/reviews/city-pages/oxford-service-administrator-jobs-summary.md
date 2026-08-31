@@ -4,7 +4,7 @@
 - Live route: `/oxford/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 10
+- Effective included jobs: 8
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 10
-- automatic review: 7
-- automatic exclude: 23
-- effective include: 10
-- effective review: 7
-- effective exclude: 23
+- automatic include: 8
+- automatic review: 6
+- automatic exclude: 19
+- effective include: 8
+- effective review: 6
+- effective exclude: 19
 
-## INCLUDE (10)
+## INCLUDE (8)
 
 ---
 action: 
@@ -45,18 +45,6 @@ company: Oxford University Hospitals NHS Foundation Trust
 location: Oxford, OX3 7LE
 source: NHS Jobs
 job_id: nhs-5558622
-reason: Approved conservative Oxford launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Assistant Patient Pathway Administrator
-company: Oxford University Hospitals NHS Foundation Trust
-location: Oxford, OX3 9DU
-source: NHS Jobs
-job_id: nhs-5563254
 reason: Approved conservative Oxford launch catchment.
 ---
 
@@ -124,18 +112,6 @@ reason: Approved conservative Oxford launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Team Administrator
-company: Oxford Health NHS Trust
-location: Oxford, OX4 1XD
-source: NHS Jobs
-job_id: nhs-5539257
-reason: Approved conservative Oxford launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Ward Clerk
 company: Oxford University Hospitals NHS Foundation Trust
 location: Oxford, OX3 9DU
@@ -144,7 +120,7 @@ job_id: nhs-5561560
 reason: Approved conservative Oxford launch catchment.
 ---
 
-## REVIEW (7)
+## REVIEW (6)
 
 ---
 action: 
@@ -198,18 +174,6 @@ reason: No approved Oxford catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Receptionist - part time considered
-company: Gosford Hill School
-location: Kidlington
-source: Teaching Vacancies
-job_id: teaching-vacancies-receptionist-part-time-considered
-reason: No approved Oxford catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: School Administrator
 company: Carterton Primary School
 location: Carterton
@@ -230,19 +194,7 @@ job_id: teaching-vacancies-sixth-form-administrator-team-leader
 reason: No approved Oxford catchment rule matched; local review required.
 ---
 
-## EXCLUDE (23)
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Accounts Administrator
-company: Flat Fee Recruiter - Agency - Permanent
-location: Oxfordshire
-source: JobG8
-job_id: jobg8-107910649
-reason: Broad county location; not Oxford-city evidence.
----
+## EXCLUDE (19)
 
 ---
 action: 
@@ -345,18 +297,6 @@ action:
 decision: exclude
 automatic_decision: exclude
 title: Finance Assistant
-company: Bucks & Berks Recruitment PLC - Agency - Temporary
-location: Oxfordshire
-source: JobG8
-job_id: jobg8-107900814
-reason: Broad county location; not Oxford-city evidence.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Finance Assistant
 company: The Rosalind Franklin Institute - Company - Permanent
 location: Oxfordshire
 source: JobG8
@@ -405,34 +345,10 @@ action:
 decision: exclude
 automatic_decision: exclude
 title: Receptionist
-company: Crisis - Agency - Permanent
-location: Oxfordshire
-source: JobG8
-job_id: jobg8-1780036
-reason: Broad county location; not Oxford-city evidence.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Receptionist
 company: Hamberley Care Management Limited - Company - Permanent
 location: Oxfordshire
 source: JobG8
 job_id: jobg8-23643_225548050
-reason: Broad county location; not Oxford-city evidence.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Sales & Customer Service Support Administrator
-company: The Recruitment Group - Agency - Permanent
-location: Oxfordshire
-source: JobG8
-job_id: jobg8-107901549
 reason: Broad county location; not Oxford-city evidence.
 ---
 

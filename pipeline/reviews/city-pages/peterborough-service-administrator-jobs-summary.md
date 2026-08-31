@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 13
-- automatic review: 6
-- automatic exclude: 18
+- automatic review: 5
+- automatic exclude: 17
 - effective include: 13
-- effective review: 6
-- effective exclude: 18
+- effective review: 5
+- effective exclude: 17
 
 ## INCLUDE (13)
 
@@ -136,11 +136,11 @@ reason: Approved conservative Peterborough launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: HAP Coordinator
-company: Home Group Limited - Agency - Temporary
-location: Peterborough
-source: JobG8
-job_id: jobg8-107823440
+title: GP Receptionist / Administrator
+company: Thomas Walker Westgate Healthcare
+location: Peterborough, PE1 2QP
+source: NHS Jobs
+job_id: nhs-5527811
 reason: Approved conservative Peterborough launch catchment.
 ---
 
@@ -180,7 +180,7 @@ job_id: jobg8-1710347
 reason: Approved conservative Peterborough launch catchment.
 ---
 
-## REVIEW (6)
+## REVIEW (5)
 
 ---
 action: 
@@ -203,18 +203,6 @@ company: St Ivo Academy
 location: St Ives
 source: Teaching Vacancies
 job_id: teaching-vacancies-admin-assistant-attendance-st-ivo-academy
-reason: No approved Peterborough catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator (SEN and Careers)
-company: Marshland High School
-location: Wisbech
-source: Teaching Vacancies
-job_id: teaching-vacancies-administrator-sen-and-careers
 reason: No approved Peterborough catchment rule matched; local review required.
 ---
 
@@ -254,7 +242,7 @@ job_id: jobg8-23643_225519683
 reason: No approved Peterborough catchment rule matched; local review required.
 ---
 
-## EXCLUDE (18)
+## EXCLUDE (17)
 
 ---
 action: 
@@ -349,18 +337,6 @@ company: North West Anglia NHS Foundation Trust
 location: Huntingdon, PE29 6NT
 source: NHS Jobs
 job_id: nhs-5550201
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Fertility Administrator
-company: Cambridge University Hospital NHS Foundation Trust
-location: Cambridge, CB2 9LG
-source: NHS Jobs
-job_id: nhs-5547956
 reason: Separate employment market.
 ---
 

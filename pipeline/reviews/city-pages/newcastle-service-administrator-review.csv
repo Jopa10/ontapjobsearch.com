@@ -26,7 +26,6 @@ review,jobg8-23643_225461787,Ad Hoc Receptionist - Sunderland,Office Angels - Ag
 review,nejobs-300646,Administrative Assistant,Prudhoe Town Council,Prudhoe,NEJobs,review,review,No approved Newcastle catchment rule matched; local review required.,fallback,newcastle-service-administrator
 review,jobg8-23643_225456443,Administrator,Supply Care Solutions - Agency - Temporary,Tyne And Wear,JobG8,review,review,Broad location; review before city inclusion.,tyne and wear,newcastle-service-administrator
 review,jobg8-23643_225468085,Administrator - Temporary to Permanent - Team Valley,Office Angels - Agency - Temporary,Tyne And Wear,JobG8,review,review,Broad location; review before city inclusion.,tyne and wear,newcastle-service-administrator
-review,jobg8-23643_225444106,Administrator Gateshead - Temp to Perm,Office Angels - Agency - Permanent,Tyne And Wear,JobG8,review,review,Broad location; review before city inclusion.,tyne and wear,newcastle-service-administrator
 review,jobg8-23643_225445993,Business Administrator,Spire Healthcare - Company - Permanent,Tyne And Wear,JobG8,review,review,Broad location; review before city inclusion.,tyne and wear,newcastle-service-administrator
 review,jobg8-23643_225494451,Customer Experience Coordinator,Linear Recruitment Ltd - Agency - Contract,Tyne And Wear,JobG8,review,review,Broad location; review before city inclusion.,tyne and wear,newcastle-service-administrator
 review,jobg8-23643_225474293,Customer Service & Complaints Administrator - Team Valley,Office Angels - Agency - Temporary,Tyne And Wear,JobG8,review,review,Broad location; review before city inclusion.,tyne and wear,newcastle-service-administrator
@@ -42,10 +41,8 @@ review,nejobs-256125,School Administrator,First Class Supply & Training,"School 
 review,nejobs-299750,SEN Administrator,Sedgefield Community College,Sedgefield,NEJobs,review,review,No approved Newcastle catchment rule matched; local review required.,fallback,newcastle-service-administrator
 review,nhs-5563197,Senior Administrator- Medical Secretary,Tees Esk and Wear Valleys NHS Foundation Trust,"Chester le Street, DH3 3UR",NHS Jobs,review,review,No approved Newcastle catchment rule matched; local review required.,fallback,newcastle-service-administrator
 review,jobg8-23643_225527268,Support Administrator ? TOTEX Cluster,Northern Gas - Agency - Permanent,Tyne And Wear,JobG8,review,review,Broad location; review before city inclusion.,tyne and wear,newcastle-service-administrator
-review,jobg8-107870335,Support Coordinator,Home Group Limited - Agency - Permanent,Northumberland,JobG8,review,review,No approved Newcastle catchment rule matched; local review required.,fallback,newcastle-service-administrator
 review,jobg8-23643_225527835,Temporary Administrator - Ryton - Immediate Start,Office Angels - Agency - Temporary,Ryton,JobG8,review,review,No approved Newcastle catchment rule matched; local review required.,fallback,newcastle-service-administrator
 review,nejobs-301243,Tenant Engagement Officer,Northumberland County Council,"Eddie Ferguson House, Blyth, United Kingdom",NEJobs,review,review,No approved Newcastle catchment rule matched; local review required.,fallback,newcastle-service-administrator
-exclude,jobg8-107752679,Accounts Assistant,SI Recruitment - Agency - Permanent,County Durham,JobG8,exclude,exclude,Separate employment market.,durham,newcastle-service-administrator
 exclude,jobg8-23643_225427868,Administrative Assistant,Blu Tech consulting - Agency - Contract,County Durham,JobG8,exclude,exclude,Separate employment market.,durham,newcastle-service-administrator
 exclude,nejobs-299277,Administrative Assistant,Durham County Council,Sacriston,NEJobs,exclude,exclude,Separate employment market.,context:durham,newcastle-service-administrator
 exclude,jobg8-23643_225479910,Administrative Officer,Barker Ross - Agency - Temporary,County Durham,JobG8,exclude,exclude,Separate employment market.,durham,newcastle-service-administrator
@@ -55,11 +52,11 @@ exclude,nejobs-300776,Business Services Co-ordination and Improvement Officer,Du
 exclude,jobg8-23643_225534483,Customer Experience Coordinator,Linear Recruitment Ltd - Agency - Contract,County Durham,JobG8,exclude,exclude,Separate employment market.,durham,newcastle-service-administrator
 exclude,nejobs-299796,Customer Service Advisor,Hartlepool Borough Council,Highlight Active Wellbeing Hub,NEJobs,exclude,exclude,Outside Newcastle catchment.,context:hartlepool,newcastle-service-administrator
 exclude,nejobs-300955,Marketing & Events Assistant,Connect Multi-Academy Trust,County Durham,NEJobs,exclude,exclude,Separate employment market.,durham,newcastle-service-administrator
-exclude,nhs-5547933,Medical Receptionist,Claypath and University Medical Practice,"Durham, DH1 1QW, DURHAM, DH1 3JX",NHS Jobs,exclude,exclude,Separate employment market.,durham,newcastle-service-administrator
 exclude,nhs-5558529,Medical Receptionist,Dunelm Medical Practice,"Durham, DH1 5BL, Durham, DH1 2QQ, Durham, DH7 7DG",NHS Jobs,exclude,exclude,Separate employment market.,durham,newcastle-service-administrator
 exclude,nhs-5569621,Medical Receptionist,The Medical Group,"Durham, DH7 8NH",NHS Jobs,exclude,exclude,Separate employment market.,durham,newcastle-service-administrator
 exclude,nejobs-300972,PA Support Officer,Darlington Borough Council,"Town Hall, Darlington",NEJobs,exclude,exclude,Separate employment market.,darlington,newcastle-service-administrator
 exclude,nhs-5544630,Receptionist,Havelock Grange Practice,"Hartlepool, TS24 7PW",NHS Jobs,exclude,exclude,Outside Newcastle catchment.,hartlepool,newcastle-service-administrator
+exclude,jobg8-23643_225548483,Scheduling Administrator,Hays Business Support - Agency - Permanent,County Durham,JobG8,exclude,exclude,Separate employment market.,durham,newcastle-service-administrator
 exclude,nejobs-256126,School Administrator,First Class Supply & Training,Sunderland,NEJobs,exclude,exclude,Separate employment market.,sunderland,newcastle-service-administrator
 exclude,nejobs-256127,School Administrator,First Class Supply & Training,Durham,NEJobs,exclude,exclude,Separate employment market.,durham,newcastle-service-administrator
 exclude,jobg8-1720386,Service Desk Analyst,Sellick Partnership - Agency - Permanent,County Durham,JobG8,exclude,exclude,Separate employment market.,durham,newcastle-service-administrator

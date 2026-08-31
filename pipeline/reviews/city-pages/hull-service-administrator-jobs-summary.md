@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 10
-- automatic review: 5
+- automatic review: 2
 - automatic exclude: 0
 - effective include: 10
-- effective review: 5
+- effective review: 2
 - effective exclude: 0
 
 ## INCLUDE (10)
@@ -144,43 +144,7 @@ job_id: nhs-5559811
 reason: Approved conservative Hull launch catchment.
 ---
 
-## REVIEW (5)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Administrator
-company: Edwards & Pearce Limited - Agency - Permanent
-location: Beverley
-source: JobG8
-job_id: jobg8-107841883
-reason: No approved Hull catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Care Navigator / Receptionist
-company: The Ridings Medical Group
-location: HESSLE, HU13 9LZ, Brough, HU15 2JG, Brough, HU15 1AY, York, YO43 4BJ, Selby, YO8 6LY
-source: NHS Jobs
-job_id: nhs-5550886
-reason: No approved Hull catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: IT/OT System Administrator
-company: Guardian Industries - Agency - Permanent
-location: Goole
-source: JobG8
-job_id: jobg8-107817702
-reason: No approved Hull catchment rule matched; local review required.
----
+## REVIEW (2)
 
 ---
 action: 

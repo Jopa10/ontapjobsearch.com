@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 8
 - automatic review: 5
-- automatic exclude: 32
+- automatic exclude: 27
 - effective include: 8
 - effective review: 5
-- effective exclude: 32
+- effective exclude: 27
 
 ## INCLUDE (8)
 
@@ -182,19 +182,7 @@ job_id: nhs-5551474
 reason: No approved Bradford catchment rule matched; local review required.
 ---
 
-## EXCLUDE (32)
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Administrator
-company: Benton Park School
-location: Leeds
-source: Teaching Vacancies
-job_id: teaching-vacancies-administrator-466b2045-c1e3-4fa9-bf7e-e43eb5901ad7
-reason: Separate employment market.
----
+## EXCLUDE (27)
 
 ---
 action: 
@@ -229,18 +217,6 @@ company: The Pharmacist Network
 location: Leeds, NE4 7YB
 source: NHS Jobs
 job_id: nhs-5555590
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Administrator (inc Finance)
-company: Benton Park School
-location: Leeds
-source: Teaching Vacancies
-job_id: teaching-vacancies-administrator-inc-finance
 reason: Separate employment market.
 ---
 
@@ -284,18 +260,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Cloud-First SQL Database Administrator - Azure
-company: IO Associates - Agency - Permanent
-location: Leeds
-source: JobG8
-job_id: jobg8-107908451
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Customer Service Advisor
 company: Red Recruitment - Agency - Permanent
 location: Leeds
@@ -325,18 +289,6 @@ company: CSS - Agency - Contract
 location: Leeds
 source: JobG8
 job_id: jobg8-23643_224689396
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: HR Administrator
-company: Akari Care Limited
-location: Leeds, LS11 5DZ
-source: NHS Jobs
-job_id: nhs-5561629
 reason: Separate employment market.
 ---
 
@@ -469,18 +421,6 @@ company: Stainland Road Medical Centre
 location: Halifax, HX4 8BD
 source: NHS Jobs
 job_id: nhs-5559992
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Recruitment Account Coordinator
-company: Staffline Divisions - Agency - Temporary
-location: Leeds
-source: JobG8
-job_id: jobg8-107819626
 reason: Separate employment market.
 ---
 

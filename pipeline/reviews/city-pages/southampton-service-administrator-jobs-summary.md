@@ -4,7 +4,7 @@
 - Live route: `/southampton/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 5
+- Effective included jobs: 4
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 5
-- automatic review: 48
-- automatic exclude: 10
-- effective include: 5
-- effective review: 48
-- effective exclude: 10
+- automatic include: 4
+- automatic review: 44
+- automatic exclude: 8
+- effective include: 4
+- effective review: 44
+- effective exclude: 8
 
-## INCLUDE (5)
+## INCLUDE (4)
 
 ---
 action: 
@@ -64,18 +64,6 @@ reason: Approved Southampton catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Locality Administrator
-company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
-location: Southampton, SO14 0JY
-source: NHS Jobs
-job_id: nhs-5556972
-reason: Approved Southampton catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Receptionist
 company: Wildern School
 location: Southampton
@@ -84,7 +72,7 @@ job_id: teaching-vacancies-receptionist-ff80cc91-b028-4603-910d-80547a4ad86e
 reason: Approved Southampton catchment.
 ---
 
-## REVIEW (48)
+## REVIEW (44)
 
 ---
 action: 
@@ -95,18 +83,6 @@ company: Hampshire Recruitment Group LTD - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225529475
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Account Coordinator
-company: Job&Talent - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-107881829
 reason: Broad location; review before city inclusion.
 ---
 
@@ -186,11 +162,11 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Customer Service Coordinator
-company: The Workshop - Agency - Contract
+title: Data Entry Admin - Basingstoke
+company: Adecco - Agency - Temporary
 location: Hampshire
 source: JobG8
-job_id: jobg8-107787258
+job_id: jobg8-23643_225512479
 reason: Broad location; review before city inclusion.
 ---
 
@@ -198,11 +174,11 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Data Entry Admin - Basingstoke
-company: Adecco - Agency - Temporary
-location: Hampshire
-source: JobG8
-job_id: jobg8-23643_225512479
+title: Dental Receptionist
+company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
+location: Petersfield, GU32 3LB
+source: NHS Jobs
+job_id: nhs-5545728
 reason: Broad location; review before city inclusion.
 ---
 
@@ -228,30 +204,6 @@ location: Alresford
 source: Teaching Vacancies
 job_id: teaching-vacancies-exams-officer-and-assessment-data-co-ordinator
 reason: No approved Southampton catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Finance Assistant
-company: Oaklands Catholic School - Agency - Contract
-location: Hampshire
-source: JobG8
-job_id: jobg8-107716803
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Finance Assistant
-company: Thorngate Churcher Trust - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-107718072
-reason: Broad location; review before city inclusion.
 ---
 
 ---
@@ -402,18 +354,6 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Operations Coordinator
-company: Sammons Recruitment Ltd - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-107772787
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Operations Officer - £27k-£30k - REMOTE
 company: Office Angels - Agency - Permanent
 location: Hampshire
@@ -443,6 +383,18 @@ company: Dynamite Recruitment - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225497761
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Production Planning Administrator
+company: Workshop Recruitment - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-23643_225472206
 reason: Broad location; review before city inclusion.
 ---
 
@@ -562,18 +514,6 @@ title: Sales Coordinator
 company: Percival Aviation - Agency - Permanent
 location: Hampshire
 source: JobG8
-job_id: jobg8-107821073
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Sales Coordinator
-company: Percival Aviation - Agency - Permanent
-location: Hampshire
-source: JobG8
 job_id: jobg8-23643_225476353
 reason: Broad location; review before city inclusion.
 ---
@@ -662,7 +602,7 @@ job_id: jobg8-23643_225472585
 reason: Broad location; review before city inclusion.
 ---
 
-## EXCLUDE (10)
+## EXCLUDE (8)
 
 ---
 action: 
@@ -716,18 +656,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Senior Administration Assistant
-company: The Portsmouth Academy
-location: Portsmouth
-source: Teaching Vacancies
-job_id: teaching-vacancies-senior-administration-assistant-the-portsmouth-academy
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Single Point of Access Administrator
 company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
 location: Fareham, PO17 6AR
@@ -757,18 +685,6 @@ company: Portsmouth Hospitals University NHS Trust
 location: Portsmouth, PO3 5PR
 source: NHS Jobs
 job_id: nhs-5566347
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Team Administrator
-company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
-location: Basingstoke, RG21 4AP
-source: NHS Jobs
-job_id: nhs-5544487
 reason: Separate employment market.
 ---
 

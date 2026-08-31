@@ -4,7 +4,7 @@
 - Live route: `/southampton/support-worker`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 2
+- Effective included jobs: 1
 - Threshold currently met: no
 
 ## How to review
@@ -15,26 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 2
+- automatic include: 1
 - automatic review: 4
 - automatic exclude: 1
-- effective include: 2
+- effective include: 1
 - effective review: 4
 - effective exclude: 1
 
-## INCLUDE (2)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Accommodation Support Worker
-company: The Society of St James - Agency - Permanent
-location: Southampton
-source: JobG8
-job_id: jobg8-1674633
-reason: Approved Southampton catchment.
----
+## INCLUDE (1)
 
 ---
 action: 

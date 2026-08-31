@@ -4,7 +4,7 @@
 - Live route: `/brighton-hove/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 5
+- Effective included jobs: 4
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 5
-- automatic review: 27
+- automatic include: 4
+- automatic review: 25
 - automatic exclude: 4
-- effective include: 5
-- effective review: 27
+- effective include: 4
+- effective review: 25
 - effective exclude: 4
 
-## INCLUDE (5)
+## INCLUDE (4)
 
 ---
 action: 
@@ -52,18 +52,6 @@ reason: Approved Brighton & Hove catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Mental Health Act Administrator and Medical Secretary
-company: Elysium Healthcare
-location: Brighton, BN3 4FH
-source: NHS Jobs
-job_id: nhs-5551395
-reason: Approved Brighton & Hove catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Receptionist
 company: Integrated Care 24 Ltd
 location: Brighton, BN1 1AE
@@ -84,7 +72,7 @@ job_id: nhs-5548209
 reason: Approved Brighton & Hove catchment.
 ---
 
-## REVIEW (27)
+## REVIEW (25)
 
 ---
 action: 
@@ -174,11 +162,11 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Finance Administrator - Brighton College
-company: Compass UK & Ireland - Company - Permanent
+title: Customer Service Co-ordinator
+company: UK Power Networks (Operations) Ltd - Company - Permanent
 location: Sussex
 source: JobG8
-job_id: jobg8-107860492
+job_id: jobg8-23643_225548414
 reason: Broad location; review before city inclusion.
 ---
 
@@ -246,35 +234,11 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Mental Health Support Coordinator
-company: Southdown - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-107869789
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Office Coordinator
 company: Premier Work Support - Agency - Temporary
 location: Sussex
 source: JobG8
 job_id: jobg8-23643_225528910
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Operations Coordinator
-company: AWD Online - Agency - Contract
-location: Sussex
-source: JobG8
-job_id: jobg8-107876491
 reason: Broad location; review before city inclusion.
 ---
 

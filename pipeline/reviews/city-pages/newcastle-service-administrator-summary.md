@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 23
-- automatic review: 23
-- automatic exclude: 20
+- automatic review: 21
+- automatic exclude: 19
 - effective include: 23
-- effective review: 23
-- effective exclude: 20
+- effective review: 21
+- effective exclude: 19
 
 ## INCLUDE (23)
 
@@ -300,7 +300,7 @@ job_id: nejobs-300777
 reason: Approved Newcastle catchment.
 ---
 
-## REVIEW (23)
+## REVIEW (21)
 
 ---
 action: 
@@ -347,18 +347,6 @@ company: Office Angels - Agency - Temporary
 location: Tyne And Wear
 source: JobG8
 job_id: jobg8-23643_225468085
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator Gateshead - Temp to Perm
-company: Office Angels - Agency - Permanent
-location: Tyne And Wear
-source: JobG8
-job_id: jobg8-23643_225444106
 reason: Broad location; review before city inclusion.
 ---
 
@@ -546,18 +534,6 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Support Coordinator
-company: Home Group Limited - Agency - Permanent
-location: Northumberland
-source: JobG8
-job_id: jobg8-107870335
-reason: No approved Newcastle catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Temporary Administrator - Ryton - Immediate Start
 company: Office Angels - Agency - Temporary
 location: Ryton
@@ -578,19 +554,7 @@ job_id: nejobs-301243
 reason: No approved Newcastle catchment rule matched; local review required.
 ---
 
-## EXCLUDE (20)
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Accounts Assistant
-company: SI Recruitment - Agency - Permanent
-location: County Durham
-source: JobG8
-job_id: jobg8-107752679
-reason: Separate employment market.
----
+## EXCLUDE (19)
 
 ---
 action: 
@@ -705,18 +669,6 @@ action:
 decision: exclude
 automatic_decision: exclude
 title: Medical Receptionist
-company: Claypath and University Medical Practice
-location: Durham, DH1 1QW, DURHAM, DH1 3JX
-source: NHS Jobs
-job_id: nhs-5547933
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Medical Receptionist
 company: Dunelm Medical Practice
 location: Durham, DH1 5BL, Durham, DH1 2QQ, Durham, DH7 7DG
 source: NHS Jobs
@@ -758,6 +710,18 @@ location: Hartlepool, TS24 7PW
 source: NHS Jobs
 job_id: nhs-5544630
 reason: Outside Newcastle catchment.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Scheduling Administrator
+company: Hays Business Support - Agency - Permanent
+location: County Durham
+source: JobG8
+job_id: jobg8-23643_225548483
+reason: Separate employment market.
 ---
 
 ---

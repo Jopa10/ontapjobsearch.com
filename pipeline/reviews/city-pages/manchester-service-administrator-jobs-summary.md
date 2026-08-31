@@ -4,7 +4,7 @@
 - Live route: `/manchester/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 27
+- Effective included jobs: 23
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 27
+- automatic include: 23
 - automatic review: 0
 - automatic exclude: 3
-- effective include: 27
+- effective include: 23
 - effective review: 0
 - effective exclude: 3
 
-## INCLUDE (27)
+## INCLUDE (23)
 
 ---
 action: 
@@ -220,35 +220,11 @@ reason: Approved conservative Manchester launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Operations Coordinator
-company: phs Group - Company - Permanent
-location: Manchester
-source: JobG8
-job_id: jobg8-107896400
-reason: Approved conservative Manchester launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Property Management Administrator
 company: Aspire Recruitment - Agency - Temporary
 location: Manchester
 source: JobG8
 job_id: jobg8-23643_225457567
-reason: Approved conservative Manchester launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Receptionist
-company: Florence House Medical Practice
-location: Manchester, M11 1JG
-source: NHS Jobs
-job_id: nhs-5530819
 reason: Approved conservative Manchester launch catchment.
 ---
 
@@ -292,35 +268,11 @@ reason: Approved conservative Manchester launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: SHARIAH COUNCIL ADMINISTRATOR
-company: MANCHESTER COMMUNITY CENTRE - Agency - Permanent
-location: Manchester
-source: JobG8
-job_id: jobg8-1664753
-reason: Approved conservative Manchester launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Student Services Administrator
 company: Manchester Academy
 location: Manchester
 source: Teaching Vacancies
 job_id: teaching-vacancies-student-services-administrator-0021b1e8-bf27-4572-8796-0c06c359e8f0
-reason: Approved conservative Manchester launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Support Coordinator
-company: Creative Support - Agency - Permanent
-location: Manchester
-source: JobG8
-job_id: jobg8-107864416
 reason: Approved conservative Manchester launch catchment.
 ---
 

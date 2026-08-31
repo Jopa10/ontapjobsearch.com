@@ -122,12 +122,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Quotations",
-      "Order processing"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225513578",
@@ -152,11 +147,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Telephone handling",
-      "Scheduling and bookings"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225451600",
@@ -294,25 +285,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9180-26-1093",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "posted_date_basis": "source"
-  },
-  {
-    "job_id": "nhs-5547956",
-    "source": "NHS Jobs",
-    "title": "Fertility Administrator",
-    "company": "Cambridge University Hospital NHS Foundation Trust",
-    "advertiser_name": "Cambridge University Hospital NHS Foundation Trust",
-    "location": "Cambridge, CB2 9LG",
-    "region": "Cambridgeshire",
-    "salary": "£28392.00 to £31157.00",
-    "employment_type": "Permanent",
-    "posted_date": "2026-08-19T12:53:06.337471",
-    "closing_date": "2026-08-30",
-    "description": "We are looking for a Fertility Administrator to join our friendly and dedicated team at Cambridge IVF in Trumpington. This is a rewarding opportunity for an organised, compassionate and highly professional administrator who will be an important point of contact for our patients throughout their Fertility treatment.You will be responsible for providing efficient administrative support to both our patients and clinical team. The Ideal candidate will have excellent customer service, attention to detail and the ability to maintain confidentiality in a sensitive healthcare environment. For further details please contact Karen McPhee on 07923240676 Interviews will be held on Monday 7th September 2026. Coordinating patient consultations, scans, investigations and treatment appointments.Managing patient correspondence, treatment documentation and clinical records.Communicating with patients by telephone or email in a professional and sensitive manner.Processing referrals, test results and clinical correspondence accurately and promptly.Maintaining accurate, confidential and up-to-date patient records.Managing appointment changes and responding effectively to patient queries.Ensuring all administrative processes comply with clinic policies, confidentiality requirements and relevant regulatory standards.Handle patient payments and receipts as required.Coordinate with nurses, doctors and laboratory staff to ensure smooth patient flow and timely service delivery. Please see the attached Applicant Information Pack (combined Job Description and Person Specification) for key duties and responsibilities. As per Home Office guidelines, please be aware that, unfortunately, the Trust is unable to offer sponsorship for this particular position. Due to Home Office immigration rules, a full time permanent vacancy cannot be filled by individuals on a Student visa. Therefore, please be advised that if you are a Student visa holder, we will not be able to offer you a full time permanent contract unless you have: - applied for a Graduate visa - or you will have successfully completed your course and have applied for a Graduate visa before the anticipated start date of your employment - Please note that we cannot accept applications from individuals who do not have the right to work in the UK or who have less than 6 months remaining on their visa from the proposed start date.\" This vacancy will close at midnight on 30th August 2026. Interviews are due to be held on 7th September 2026. Benefits to you At Cambridge University Hospitals, we want to do all we can to support good working days. We offer development opportunities and a wide range of benefits, including on-site leisure facilities, shopping concourse and day nurseries. Our good work programme currently includes providing reduced cost Stagecoach bus travel to and from Cambridge University Hospital site. Park and Ride bus journeys between Babraham Road and Trumpington sites are free, as is the route to and from Cambridge train station and our hospitals. We also subsidise the cost of parking on site for eligible staff. On CUH campus, hot food is available 24/7 and at a reduced cost for colleagues. Recently we launched the first of our staff pod break spaces. Located in the Deakin Centre, we have a purpose-created colleague-only caf, with free tea and coffee, a break space and private outside area for colleagues to rest, refuel and recharge. Just one of the ways we are working hard to support good working days at CUH. CUH is committed to assisting employees in achieving a good work-life balance irrespective of role or personal circumstances. Flexible arrangements may include, but are not limited to, part-time working, job-share, term-time working and flexible start and finish times. Please note if you would like to discuss the required hours of this role further, you should approach the contact given. In some cases, alternative working hours will be considered. We welcome applications from the Armed Forces.",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9180-26-1060",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9180-26-1060",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "B",
     "posted_date_basis": "source"
   }
 ]

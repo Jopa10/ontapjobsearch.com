@@ -4,7 +4,7 @@
 - Live route: `/coventry/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 5
+- Effective included jobs: 4
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 5
+- automatic include: 4
 - automatic review: 2
-- automatic exclude: 21
-- effective include: 5
+- automatic exclude: 17
+- effective include: 4
 - effective review: 2
-- effective exclude: 21
+- effective exclude: 17
 
-## INCLUDE (5)
+## INCLUDE (4)
 
 ---
 action: 
@@ -72,18 +72,6 @@ job_id: teaching-vacancies-school-receptionist-45aeb107-50df-4aa0-8e6f-1750a0fd6
 reason: Approved Coventry catchment.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Ward Clerk
-company: University Hospitals Coventry and Warwickshire NHS Trust
-location: Coventry, CV2 2DX
-source: NHS Jobs
-job_id: nhs-5565888
-reason: Approved Coventry catchment.
----
-
 ## REVIEW (2)
 
 ---
@@ -110,7 +98,7 @@ job_id: teaching-vacancies-receptionist-and-administrator-ftc-contract-september
 reason: No approved Coventry catchment rule matched; local review required.
 ---
 
-## EXCLUDE (21)
+## EXCLUDE (17)
 
 ---
 action: 
@@ -121,18 +109,6 @@ company: Practice Plus Group - Health in Justice
 location: Rugby, CV23 8SZ
 source: NHS Jobs
 job_id: nhs-5553809
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Apprenticeship Administrator
-company: Adecco - Agency - Contract
-location: Warwickshire
-source: JobG8
-job_id: jobg8-23643_225441991
 reason: Separate employment market.
 ---
 
@@ -200,18 +176,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Group Accounts Assistant (Purchase Ledger)
-company: NFU - Agency - Permanent
-location: Warwickshire
-source: JobG8
-job_id: jobg8-107807876
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Help Desk Operator
 company: VIQU IT Recruitment - Agency - Permanent
 location: Warwickshire
@@ -241,18 +205,6 @@ company: Arden Personnel - Agency - Contract
 location: Warwickshire
 source: JobG8
 job_id: jobg8-23643_225526643
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Learning and Development Coordinator
-company: Rose & Young Recruitment Ltd - Agency - Permanent
-location: Warwickshire
-source: JobG8
-job_id: jobg8-107875425
 reason: Separate employment market.
 ---
 
@@ -301,18 +253,6 @@ company: Options Resourcing Ltd - Agency - Permanent
 location: Warwickshire
 source: JobG8
 job_id: jobg8-23643_225454507
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Sales Coordinator
-company: The Caraires Consultancy - Agency - Permanent
-location: Warwickshire
-source: JobG8
-job_id: jobg8-107830347
 reason: Separate employment market.
 ---
 

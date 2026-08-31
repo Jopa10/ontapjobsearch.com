@@ -4,7 +4,7 @@
 - Live route: `/doncaster/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 5
+- Effective included jobs: 4
 - Threshold currently met: no
 
 ## How to review
@@ -15,26 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 5
-- automatic review: 4
-- automatic exclude: 26
-- effective include: 5
-- effective review: 4
-- effective exclude: 26
+- automatic include: 4
+- automatic review: 3
+- automatic exclude: 24
+- effective include: 4
+- effective review: 3
+- effective exclude: 24
 
-## INCLUDE (5)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Account Coordinator - Part Time
-company: Staffline Operations - Agency - Temporary
-location: Doncaster
-source: JobG8
-job_id: jobg8-107804866
-reason: Approved Doncaster catchment.
----
+## INCLUDE (4)
 
 ---
 action: 
@@ -84,19 +72,7 @@ job_id: jobg8-1708394
 reason: Approved Doncaster catchment.
 ---
 
-## REVIEW (4)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Lead Activities Coordinator
-company: Exemplar Health Care - Company - Permanent
-location: Mexborough
-source: JobG8
-job_id: jobg8-107717102
-reason: No approved Doncaster catchment rule matched; local review required.
----
+## REVIEW (3)
 
 ---
 action: 
@@ -134,7 +110,7 @@ job_id: jobg8-23643_225516072
 reason: No approved Doncaster catchment rule matched; local review required.
 ---
 
-## EXCLUDE (26)
+## EXCLUDE (24)
 
 ---
 action: 
@@ -345,18 +321,6 @@ action:
 decision: exclude
 automatic_decision: exclude
 title: Receptionist
-company: Hollygreen Practice
-location: Rotherham, S63 9EH, Thurnscoe, s63 0LT, BARNSLEY, S72 0EJ
-source: NHS Jobs
-job_id: nhs-5544481
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Receptionist
 company: Sheffield Health Partnership University NHS Foundation Trust
 location: Sheffield, S11 9BJ
 source: NHS Jobs
@@ -397,18 +361,6 @@ company: Lynx Employment Services Ltd - Agency - Temporary
 location: Sheffield
 source: JobG8
 job_id: jobg8-23643_225478960
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Sales Coordinator
-company: Ranson Barnes Recruitment Limited - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-107870378
 reason: Separate employment market.
 ---
 

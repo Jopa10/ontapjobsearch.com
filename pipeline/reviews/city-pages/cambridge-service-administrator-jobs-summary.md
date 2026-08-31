@@ -4,7 +4,7 @@
 - Live route: `/cambridge/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 13
+- Effective included jobs: 12
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 13
-- automatic review: 6
+- automatic include: 12
+- automatic review: 5
 - automatic exclude: 18
-- effective include: 13
-- effective review: 6
+- effective include: 12
+- effective review: 5
 - effective exclude: 18
 
-## INCLUDE (13)
+## INCLUDE (12)
 
 ---
 action: 
@@ -69,18 +69,6 @@ company: Invictus Group - Agency - Contract
 location: Cambridge
 source: JobG8
 job_id: jobg8-23643_225445219
-reason: Approved conservative Cambridge launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Fertility Administrator
-company: Cambridge University Hospital NHS Foundation Trust
-location: Cambridge, CB2 9LG
-source: NHS Jobs
-job_id: nhs-5547956
 reason: Approved conservative Cambridge launch catchment.
 ---
 
@@ -180,7 +168,7 @@ job_id: nhs-5560673
 reason: Approved conservative Cambridge launch catchment.
 ---
 
-## REVIEW (6)
+## REVIEW (5)
 
 ---
 action: 
@@ -203,18 +191,6 @@ company: St Ivo Academy
 location: St Ives
 source: Teaching Vacancies
 job_id: teaching-vacancies-admin-assistant-attendance-st-ivo-academy
-reason: No approved Cambridge catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator (SEN and Careers)
-company: Marshland High School
-location: Wisbech
-source: Teaching Vacancies
-job_id: teaching-vacancies-administrator-sen-and-careers
 reason: No approved Cambridge catchment rule matched; local review required.
 ---
 
@@ -416,11 +392,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: HAP Coordinator
-company: Home Group Limited - Agency - Temporary
-location: Peterborough
-source: JobG8
-job_id: jobg8-107823440
+title: GP Receptionist / Administrator
+company: Thomas Walker Westgate Healthcare
+location: Peterborough, PE1 2QP
+source: NHS Jobs
+job_id: nhs-5527811
 reason: Separate employment market.
 ---
 

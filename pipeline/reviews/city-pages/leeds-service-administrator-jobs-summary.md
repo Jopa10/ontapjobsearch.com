@@ -4,7 +4,7 @@
 - Live route: `/leeds/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 16
+- Effective included jobs: 11
 - Threshold currently met: yes
 
 ## How to review
@@ -15,26 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 16
+- automatic include: 11
 - automatic review: 6
 - automatic exclude: 23
-- effective include: 16
+- effective include: 11
 - effective review: 6
 - effective exclude: 23
 
-## INCLUDE (16)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrator
-company: Benton Park School
-location: Leeds
-source: Teaching Vacancies
-job_id: teaching-vacancies-administrator-466b2045-c1e3-4fa9-bf7e-e43eb5901ad7
-reason: Approved Leeds catchment.
----
+## INCLUDE (11)
 
 ---
 action: 
@@ -76,30 +64,6 @@ reason: Approved Leeds catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Administrator (inc Finance)
-company: Benton Park School
-location: Leeds
-source: Teaching Vacancies
-job_id: teaching-vacancies-administrator-inc-finance
-reason: Approved Leeds catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Cloud-First SQL Database Administrator - Azure
-company: IO Associates - Agency - Permanent
-location: Leeds
-source: JobG8
-job_id: jobg8-107908451
-reason: Approved Leeds catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Customer Service Advisor
 company: Red Recruitment - Agency - Permanent
 location: Leeds
@@ -125,18 +89,6 @@ action:
 decision: include
 automatic_decision: include
 title: HR Administrator
-company: Akari Care Limited
-location: Leeds, LS11 5DZ
-source: NHS Jobs
-job_id: nhs-5561629
-reason: Approved Leeds catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: HR Administrator
 company: Lucy Walker Recruitment - Agency - Temporary
 location: Leeds
 source: JobG8
@@ -153,18 +105,6 @@ company: Sewell Wallis Ltd - Agency - Permanent
 location: Leeds
 source: JobG8
 job_id: jobg8-23643_225476554
-reason: Approved Leeds catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Recruitment Account Coordinator
-company: Staffline Divisions - Agency - Temporary
-location: Leeds
-source: JobG8
-job_id: jobg8-107819626
 reason: Approved Leeds catchment.
 ---
 
