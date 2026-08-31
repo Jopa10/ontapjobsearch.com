@@ -1,22 +1,19 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-08-30T18:31:25+01:00",
+  "generated_at": "2026-08-31T18:55:55+01:00",
   "source": "Teaching Vacancies",
   "region": "London",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-08-30",
-  "review_fingerprint": "745464bad9f586c19a0d395e1911fd5853ffec6a6513e2c9e0e8e7a84f358ba9",
-  "routing_manifest_sha256": "eb6bef78d15e154b4b783b6172d6a6ca6bdd0bb4b53a2f803a298e90ed30ff0e",
-  "review_csv_sha256": "4e1217622be6588ee7959ef8ef4e43a768d979c146572c3cc9e2068e5bbf09fe",
-  "summary_md_sha256": "db3065163047d8baea2a43dfdb03845226dc596e4c9ef52c50cf6a34e92250cf",
-  "approved_snapshot_sha256": "0f77ec8dba6323998873bf1e8c193348f0dc23ccd084bf3857cda831ee019d8c",
-  "approved_rows": 24,
+  "review_date": "2026-08-31",
+  "review_fingerprint": "294ed79a331ba927abb1b5676a2eedc7228c2df085c970079c2aee9fa3187479",
+  "routing_manifest_sha256": "ffa8ac4eb0bf3616c1711502490fa7d8374f8e356872cc2c477737141b15a14c",
+  "review_csv_sha256": "ece62049541db2d52626102b636799759f575d14af1c5f2437a31f61c8c26b9d",
+  "summary_md_sha256": "1331a77c0d59975b6da29e84086b82d9c301205bc77a33d45f9ffbe06243824b",
+  "approved_snapshot_sha256": "1f2289b0b0b4201de943f3532669312bc3088bed4dfd95c8b4c17e074f05905e",
+  "approved_rows": 20,
   "approved_job_ids": [
-    "teaching-vacancies-finance-administrator-beecholme-primary-school",
     "teaching-vacancies-behaviour-support-administrator-the-douay-martyrs-catholic-school",
-    "teaching-vacancies-course-administrator",
-    "teaching-vacancies-receptionist-the-king-s-school-pontefract-west-yorkshire",
     "teaching-vacancies-sen-administrative-assistant-9f0c4fa6-782a-4d62-be80-5a33930422aa",
     "teaching-vacancies-supported-learning-funding-administrator-0-4-fte",
     "teaching-vacancies-supported-learning-funding-administrator-0-6-fte-new-city-college",
@@ -35,7 +32,6 @@
     "teaching-vacancies-receptionist-administrator-belleville-wix-academy-london",
     "teaching-vacancies-administrative-assistant-pathways-school",
     "teaching-vacancies-office-administrator-st-leonard-s-church-of-england-primary-school-london",
-    "teaching-vacancies-administration-officer-worsley-bridge-primary-school-beckenham-kent",
     "teaching-vacancies-senior-data-administrator"
   ]
 }

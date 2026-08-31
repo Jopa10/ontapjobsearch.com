@@ -100,6 +100,31 @@
     "posted_date_basis": "source"
   },
   {
+    "job_id": "teaching-vacancies-admin-assistant-learning-support-nicholas-breakspear-catholic-school",
+    "title": "Admin Assistant (Learning Support)",
+    "company": "Nicholas Breakspear Catholic School",
+    "location": "St Albans",
+    "region": "Hertfordshire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "['full time', 'part time']",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "£22,915.00 - £23,631.00 Annually (Actual)",
+    "work_pattern": "",
+    "posted_date": "2026-08-31",
+    "closing_date": "2026-09-14",
+    "closing_datetime": "2026-09-14T23:59:00+01:00",
+    "summary": "Admin Assistant (Learning Support) with Nicholas Breakspear Catholic School in St Albans. ['full time', 'part time']; £22,915.00 - £23,631.00 Annually (Actual).",
+    "description": "Nicholas Breakspear Catholic School is recruiting for this vacancy in St Albans.\n\nThe advertised position is Admin Assistant (Learning Support).\n\nThe source lists the employment type as ['full time', 'part time'].\n\nThe advertised salary or pay scale is £22,915.00 - £23,631.00 Annually (Actual).\n\nThe stated application deadline is 2026-09-14T23:59:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
+    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-learning-support-nicholas-breakspear-catholic-school?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
+    "source": "Teaching Vacancies",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "posted_date_basis": "source"
+  },
+  {
     "job_id": "teaching-vacancies-administrator-the-acorn-centre",
     "title": "Administrator - The Acorn Centre",
     "company": "Warren Dell Primary School",
@@ -247,11 +272,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Scheduling and bookings"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225476681",
@@ -276,11 +297,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Scheduling and bookings"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225522549",
@@ -305,11 +322,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Telephone handling",
-      "Systems administration"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225521989",
@@ -334,13 +347,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Telephone handling",
-      "Email handling",
-      "Scheduling and bookings",
-      "Systems administration"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225528836",
@@ -364,31 +371,6 @@
     "advertiser_name": "Adecco",
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
-    "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
-  },
-  {
-    "job_id": "107882047",
-    "title": "Contracts Administrator",
-    "company": "Trinity Estates - Agency - Permanent",
-    "location": "Hertfordshire",
-    "region": "Hertfordshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "24000",
-    "salary_max": "24000",
-    "salary_text": "£24000 per year",
-    "posted_date": "2026-08-24",
-    "description": "BUILDING SAFETY CONTRACTS ADMINISTRATOR\n- Trinity Estates £Competitive, aligned to experience Hybrid Hemel Hempstead\n\nROLE OVERVIEW\n\nWe're looking for a Building Safety Contracts Administrator to help keep our planned maintenance and servicing programme on track across the portfolio click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?UzhMt9n%2bTsTSwavnRsnbEKYkOCll0RESm",
-    "source": "JobG8",
-    "working_arrangement": "hybrid",
-    "working_arrangement_text": "Hybrid working",
-    "working_arrangement_evidence": "Contracts Administrator BUILDING SAFETY CONTRACTS ADMINISTRATOR - Trinity Estates £Competitive, aligned to experience Hybrid Hemel Hempstead ROLE OVERVIEW We're looking for a Building Safety Contracts Administrator to help keep our planned maintenance and servicing programme on track across the portfolio click apply for full job details Hertfordshire Hertfordshire",
-    "advertiser_name": "Trinity Estates",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
     "salary_period": "Annual",
     "posted_date_basis": "ontap_first_published"
   },
@@ -440,11 +422,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Records administration"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225473001",
@@ -468,86 +446,6 @@
     "advertiser_name": "Osborne Appointments",
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
-    "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Records administration",
-      "Order processing"
-    ]
-  },
-  {
-    "job_id": "107858206",
-    "title": "Helpdesk Coordinator",
-    "company": "Recruitment Helpline Ltd - Agency - Permanent",
-    "location": "Hertfordshire",
-    "region": "Hertfordshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "",
-    "posted_date": "2026-08-29",
-    "description": "An excellent opportunity for an experienced Helpdesk Coordinator to join a well-established company based in Kings Langley, Hertfordshire.\n\nAbout The Company:\n\nThe company provides mechanical, electrical, fabric and management services to buildings across the public, residential, commercial and private sectors click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?QHpHeWTcrP5JBqC2OMM%2bc9SPHNI2Oyqvy",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Recruitment Helpline Ltd",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
-  },
-  {
-    "job_id": "107742606",
-    "title": "Sales Coordinator",
-    "company": "Made Employment Ltd - Agency - Permanent",
-    "location": "Hertfordshire",
-    "region": "Hertfordshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "30000",
-    "salary_max": "30000",
-    "salary_text": "£30000 per year",
-    "posted_date": "2026-08-29",
-    "description": "Do you have outbound sales experience? Are you tired of hunting down cold leads but still enjoy the sales process? We have the perfect sales coordinator role for you!\n\nOur client are the largest removals and storage company in the world and they're looking for a sales coordinator to join their team in Kings Langley!\n- Excellent bonus opportunity\n- Employee Assistance Programme - EAP (supports our employee click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?nbYVUHO1tX4WguDjlb%2bA%2fML6TPzXw5tLz",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Made Employment Ltd",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
-  },
-  {
-    "job_id": "107791040",
-    "title": "Streetwork Coordinator",
-    "company": "Barhale - Agency - Permanent",
-    "location": "Hertfordshire",
-    "region": "Hertfordshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "",
-    "posted_date": "2026-08-26",
-    "description": "About Barhale\n\nWho are Barhale?\n\nBarhale is a business founded on family values, having been established by our Chairman, Dennis Curran, in 1980. We are one of the largest privately owned civil engineering and infrastructure specialists in the UK, with over 40 years of experience in providing design, civil engineering and maintenance services working across multiple sectors, including:\n- Water\n- Transport\n- B click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?Y5CHIaMSKAyz0W7G1jsBMnpb5nTqf8Amv",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Barhale",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
     "salary_period": "Annual",
     "posted_date_basis": "ontap_first_published"
   },
@@ -574,11 +472,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Scheduling and bookings"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225542267",
@@ -647,6 +541,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9367-26-0790",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -666,6 +563,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5985-26-0027",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -685,6 +585,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B0525-26-0016",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -704,6 +607,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0106-26-0072",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -723,25 +629,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9812-26-0338",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
-    "posted_date_basis": "source"
-  },
-  {
-    "job_id": "nhs-5555027",
-    "source": "NHS Jobs",
-    "title": "Medical Receptionist",
-    "company": "Parkfield Medical Centre",
-    "advertiser_name": "Parkfield Medical Centre",
-    "location": "Potters Bar, EN6 1QH",
-    "region": "Hertfordshire",
-    "salary": "Negotiable",
-    "employment_type": "Permanent",
-    "posted_date": "2026-08-21T13:49:04.306974",
-    "closing_date": "2026-09-14",
-    "description": "We are looking for an enthusiastic new receptionist for 25 hours per week over 4 days to join our supportive team. The post would suit somebody who is empathetic, works well under pressure and likes a busy but rewarding working environment. Although previous experience would be an advantage, this is not essential as full training will be provided. The hours available are: Monday 8-5.30, Tuesday 8-1, Wednesday 8-1 and Friday 1-6.30. The role of a GP receptionist is varied and includes answering the telephone, booking appointments, greeting patients and processing clinical letters and repeat prescriptions. The post holder will need to be flexibly to cover annual leave. Main duties: Facilitate the booking of appointments Receive requests for prescription, sick notes, insurance forms and other correspondence and taking fees as appropriate. Explain surgery procedures, giving details about the practice to patients on registration, completing new patients paperwork. Managing all patients enquires Retrieve appointment cancellation messages Receiving and recording requests for home visits and ensuring the duty doctor is notified Receiving messages for doctors and all members of the Primary Health Care Team and ensure that they are passed to the relevant person Contacting patients at the doctors request Other duties Filing medical notes referrals and other correspondence when required Ensure details of any unresolved or urgent matters are passed to colleagues Opening the surgery premises and ensuring safe closure of the same Any other tasks as requested by the management or partners which assist the smooth running of the surgery Be aware of all practice protocols for reception Ensure personal e-learning is up to date Ensure the reception area is left tidy and ready for incoming colleagues",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0405-26-0006",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0405-26-0006",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   }
 ]

@@ -1,30 +1,5 @@
 [
   {
-    "job_id": "teaching-vacancies-receptionist-tipton-green-junior-school-tipton-west-midlands",
-    "title": "Receptionist",
-    "company": "Tipton Green Junior School",
-    "location": "Tipton",
-    "region": "West Midlands - Black Country",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['part time']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "£13.05 - £13.47 Hourly",
-    "work_pattern": "",
-    "posted_date": "2026-08-14",
-    "closing_date": "2026-08-31",
-    "closing_datetime": "2026-08-31T09:00:00+01:00",
-    "summary": "Receptionist with Tipton Green Junior School in Tipton. ['part time']; £13.05 - £13.47 Hourly.",
-    "description": "Tipton Green Junior School is recruiting for this vacancy in Tipton.\n\nThe advertised position is Receptionist.\n\nThe source lists the employment type as ['part time'].\n\nThe advertised salary or pay scale is £13.05 - £13.47 Hourly.\n\nThe stated application deadline is 2026-08-31T09:00:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/receptionist-tipton-green-junior-school-tipton-west-midlands?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "posted_date_basis": "source"
-  },
-  {
     "job_id": "teaching-vacancies-senior-administrator-st-james-academy",
     "title": "Senior Administrator",
     "company": "St James Academy",
@@ -147,13 +122,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Records administration",
-      "Quotations",
-      "Order processing"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225476102",
@@ -178,12 +147,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Systems administration",
-      "Quotations",
-      "Order processing"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225444410",
@@ -208,13 +172,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Records administration",
-      "Order processing",
-      "Delivery coordination"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225453901",
@@ -239,14 +197,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Email handling",
-      "Scheduling and bookings",
-      "Records administration",
-      "Systems administration"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225519315",
@@ -290,6 +241,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9225-26-0625",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -309,6 +263,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9285-26-0519",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   }
 ]

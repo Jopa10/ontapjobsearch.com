@@ -1,30 +1,5 @@
 [
   {
-    "job_id": "teaching-vacancies-administration-assistant-attendance-level-1",
-    "title": "Administration Assistant – Attendance (Level 1)",
-    "company": "Kingsmead Academy",
-    "location": "Taunton",
-    "region": "Somerset",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['full time', 'part time']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "£22,947 - £25,010 (Based on hours/working weeks)",
-    "work_pattern": "",
-    "posted_date": "2026-08-13",
-    "closing_date": "2026-08-30",
-    "closing_datetime": "2026-08-30T23:59:59+01:00",
-    "summary": "Administration Assistant – Attendance (Level 1) with Kingsmead Academy in Taunton. ['full time', 'part time']; £22,947 - £25,010 (Based on hours/working weeks).",
-    "description": "Kingsmead Academy is recruiting for this vacancy in Taunton.\n\nThe advertised position is Administration Assistant – Attendance (Level 1).\n\nThe source lists the employment type as ['full time', 'part time'].\n\nThe advertised salary or pay scale is £22,947 - £25,010 (Based on hours/working weeks).\n\nThe stated application deadline is 2026-08-30T23:59:59+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-attendance-level-1?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "posted_date_basis": "source"
-  },
-  {
     "job_id": "teaching-vacancies-administration-assistant-send-winterstoke-hundred-academy",
     "title": "Administration Assistant (SEND)",
     "company": "Winterstoke Hundred Academy",
@@ -147,11 +122,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Part Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Email handling",
-      "Records administration"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225453674",
@@ -226,12 +197,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Systems administration",
-      "Document preparation"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225532752",
@@ -284,31 +250,6 @@
     "posted_date_basis": "ontap_first_published"
   },
   {
-    "job_id": "107804771",
-    "title": "SAP Data Coordinator",
-    "company": "Refresco Drinks UK Limited - Agency - Permanent",
-    "location": "Somerset",
-    "region": "Somerset",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "",
-    "posted_date": "2026-08-19",
-    "description": "Company description:\n\nRefresco UK\n\nJob description:\n\nJoin Refresco, the worlds largest independent beverage manufacturer, in a pivotal role at the heart of our operations. As Master Data Coordinator, youll ensure the accuracy and control of product and technical data across SAP, supporting production, compliance and key commercial decisions click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?Yic9job4bS%2f40%2bE9IheHQy1E9WQ6Ru8rc",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Refresco Drinks UK Limited",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
-  },
-  {
     "job_id": "nhs-5564958",
     "source": "NHS Jobs",
     "title": "Receptionist/Administration Assistant",
@@ -325,6 +266,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9387-26-1771",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -344,25 +288,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2122-26-0011",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
-    "posted_date_basis": "source"
-  },
-  {
-    "job_id": "nhs-5563157",
-    "source": "NHS Jobs",
-    "title": "Ward Administrator",
-    "company": "Somerset NHS Foundation Trust",
-    "advertiser_name": "Somerset NHS Foundation Trust",
-    "location": "Frome, BA11 2FH",
-    "region": "Somerset",
-    "salary": "£24465.00 to £24465.00",
-    "employment_type": "Permanent",
-    "posted_date": "2026-08-26T13:21:03.132384355",
-    "closing_date": "2026-09-09",
-    "description": "This is an exciting role front of house, working closely with clinical colleagues to ensure our patients receive the highest standard of care. The role requires someone who has a great level of attention to detail and good organisational skills for managing in a busy environment. Excellent communication and customer service skills are essential for dealing with colleagues, patients and families. The needs of the service user will be the utmost priority. The principle of high quality customer care is at the heart of this role. Working hours can be flexible to cover a mixture of the following: 08.00 -- 18.30 Monday -- Friday 08.00 -- 13.00 Saturday -- Sunday The post holder will be required to admit/discharge and transfer patients, answer telephone enquiries, create appointments and arrange transport for patients.The post holder will be responsible for ensuring the reception area is tidy and well organised and that office supplies and stationery are ordered and kept stocked up. See full job description for more information. Please see the Job Description for further information, as well as a full list of duties and responsibilities.",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9184-26-1263",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9184-26-1263",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   }
 ]

@@ -14,8 +14,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 15
-- Selected: 3
-- POSS awaiting decision: 4
+- Selected: 4
+- POSS awaiting decision: 3
 - Excluded: 0
 - Hard pass: 8
 
@@ -34,6 +34,21 @@ factual_fingerprint: 9a9c646b13ddf6ac455156904f9f5bd223fd3eb3ffac61a7ad4c6dab887
 source: Teaching Vacancies
 source_job_id: assistant-administrator-bc00604f-24a2-4741-bbd7-1135c9c18070
 source_url: https://teaching-vacancies.service.gov.uk/jobs/assistant-administrator-bc00604f-24a2-4741-bbd7-1135c9c18070
+---
+
+---
+action: select
+SELECTED | Lincolnshire | Spalding, East Midlands, PE11 2EH | £23,973.00 - £26,409.00 Annually (Actual) G5.12-15 £27,254 - £30,024 FTE | HR Administrator
+employer: Tulip Academy
+closing_date: 2026-09-07T23:59:00+01:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 02e994d324dc6cad84715c483552b2fada9a74488d2225b2bbf8628080feb572
+source: Teaching Vacancies
+source_job_id: hr-administrator-tulip-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-tulip-academy
 ---
 
 ---
@@ -96,21 +111,6 @@ factual_fingerprint: dca197f864df2ba40b1537d3caf44a0a3a47a49f4643001faac65ea9c32
 source: Teaching Vacancies
 source_job_id: data-officer-st-peter-and-st-paul-catholic-voluntary-academy-lincoln-lincolnshire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/data-officer-st-peter-and-st-paul-catholic-voluntary-academy-lincoln-lincolnshire
----
-
----
-action: 
-POSS | Lincolnshire | Spalding, East Midlands, PE11 2EH | £23,973.00 - £26,409.00 Annually (Actual) G5.12-15 £27,254 - £30,024 FTE | HR Administrator
-employer: Tulip Academy
-closing_date: 2026-09-07T23:59:00+01:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 02e994d324dc6cad84715c483552b2fada9a74488d2225b2bbf8628080feb572
-source: Teaching Vacancies
-source_job_id: hr-administrator-tulip-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-tulip-academy
 ---
 
 ---

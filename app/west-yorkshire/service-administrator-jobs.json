@@ -1,55 +1,5 @@
 [
   {
-    "job_id": "teaching-vacancies-administrator-466b2045-c1e3-4fa9-bf7e-e43eb5901ad7",
-    "title": "Administrator",
-    "company": "Benton Park School",
-    "location": "Leeds",
-    "region": "Yorkshire - West",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['full time']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "£21,870.00 - £22,213.00 Annually (Actual) Full Time, Term time only plus 10 days",
-    "work_pattern": "",
-    "posted_date": "2026-08-21",
-    "closing_date": "2026-08-31",
-    "closing_datetime": "2026-08-31T08:00:00+01:00",
-    "summary": "Administrator with Benton Park School in Leeds. ['full time']; £21,870.00 - £22,213.00 Annually (Actual) Full Time, Term time only plus 10 days.",
-    "description": "Benton Park School is recruiting for this vacancy in Leeds.\n\nThe advertised position is Administrator.\n\nThe source lists the employment type as ['full time'].\n\nThe advertised salary or pay scale is £21,870.00 - £22,213.00 Annually (Actual) Full Time, Term time only plus 10 days.\n\nThe stated application deadline is 2026-08-31T08:00:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/administrator-466b2045-c1e3-4fa9-bf7e-e43eb5901ad7?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "posted_date_basis": "source"
-  },
-  {
-    "job_id": "teaching-vacancies-administrator-inc-finance",
-    "title": "Administrator (inc Finance)",
-    "company": "Benton Park School",
-    "location": "Leeds",
-    "region": "Yorkshire - West",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['full time']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "£25,337.00 - £26,601.00 Annually (Actual) Term time only plus 10 days",
-    "work_pattern": "",
-    "posted_date": "2026-08-17",
-    "closing_date": "2026-08-31",
-    "closing_datetime": "2026-08-31T09:00:00+01:00",
-    "summary": "Administrator (inc Finance) with Benton Park School in Leeds. ['full time']; £25,337.00 - £26,601.00 Annually (Actual) Term time only plus 10 days.",
-    "description": "Benton Park School is recruiting for this vacancy in Leeds.\n\nThe advertised position is Administrator (inc Finance).\n\nThe source lists the employment type as ['full time'].\n\nThe advertised salary or pay scale is £25,337.00 - £26,601.00 Annually (Actual) Term time only plus 10 days.\n\nThe stated application deadline is 2026-08-31T09:00:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/administrator-inc-finance?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "posted_date_basis": "source"
-  },
-  {
     "job_id": "teaching-vacancies-receptionist-administrator-49a47934-628e-47bf-b7a9-6fe782d91f05",
     "title": "Receptionist/Administrator",
     "company": "Oastlers School",
@@ -372,13 +322,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Scheduling and bookings",
-      "Data entry",
-      "Document preparation"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225515250",
@@ -403,12 +347,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Email handling",
-      "Systems administration",
-      "Pre-employment administration"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225516031",
@@ -458,11 +397,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Document preparation"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225524513",
@@ -486,35 +421,6 @@
     "advertiser_name": "Working Solutions Recruitment",
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
-    "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Reporting",
-      "Quotations"
-    ]
-  },
-  {
-    "job_id": "107908451",
-    "title": "Cloud-First SQL Database Administrator - Azure",
-    "company": "IO Associates - Agency - Permanent",
-    "location": "Leeds",
-    "region": "Yorkshire - West",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "",
-    "posted_date": "2026-08-28",
-    "description": "Cloud-First SQL Database Administrator - Azure - Hybrid - Permanent\n\nThis is not a traditional on-premise SQL Server DBA position.\n\nWe are looking for a genuinely cloud-first DBA who combines strong SQL Server fundamentals with substantial, recent experience managing production database services in Microsoft Azure click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?nbYVUHO1tX5y%2fQrLoO0RNEVqQhR5%2fhd7z",
-    "source": "JobG8",
-    "working_arrangement": "hybrid",
-    "working_arrangement_text": "Hybrid working",
-    "working_arrangement_evidence": "Cloud-First SQL Database Administrator - Azure Cloud-First SQL Database Administrator - Azure - Hybrid - Permanent This is not a traditional on-premise SQL Server DBA position.",
-    "advertiser_name": "IO Associates",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
     "salary_period": "Annual",
     "posted_date_basis": "ontap_first_published"
   },
@@ -544,31 +450,6 @@
     "posted_date_basis": "ontap_first_published"
   },
   {
-    "job_id": "107819626",
-    "title": "Recruitment Account Coordinator",
-    "company": "Staffline Divisions - Agency - Temporary",
-    "location": "Leeds",
-    "region": "Yorkshire - West",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Temporary",
-    "salary_min": "13.5",
-    "salary_max": "13.5",
-    "salary_text": "£13.5 per hour",
-    "posted_date": "2026-08-29",
-    "description": "Apply today to work as a Recruitment Account Coordinator for our client's main distribution center for supermarkets.\n\nStaffline is recruiting for a Recruitment Account Coordinator in Sherburn in Elmet.\n\nThe rate of pay is £13.50 per hour\n\nThis is a full-time role working 5 days out of 7 the hours of work are:\n- Flexible between the hours of 6am and 6pm\n\nYour Time at Work\n\nAs a Recruitment Account C click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?d1vRzEYF65Tt5sxIcCZQREeHbcGO4TKix",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Staffline Divisions",
-    "advertiser_type": "Agency",
-    "work_pattern": "Full Time",
-    "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published"
-  },
-  {
     "job_id": "23643_225458763",
     "title": "Administrator",
     "company": "Moulds Accountants & Advisory Services - Agency - Permanent",
@@ -591,12 +472,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Part Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Telephone handling",
-      "Email handling",
-      "Records administration"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225499042",
@@ -696,12 +572,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Reporting",
-      "Order processing",
-      "Delivery coordination"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225463726",
@@ -751,13 +622,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Records administration",
-      "Systems administration",
-      "Quotations"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225465858",
@@ -951,6 +816,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1174-26-0001",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -970,6 +838,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3394-26-0006",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -989,6 +860,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0145-26-0127",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1008,6 +882,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1533-26-0007",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1027,6 +904,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0505-26-0142",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1046,6 +926,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E9847-26-0269",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1065,6 +948,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2598-26-0009",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1084,25 +970,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9372-26-0450",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
-    "posted_date_basis": "source"
-  },
-  {
-    "job_id": "nhs-5561629",
-    "source": "NHS Jobs",
-    "title": "HR Administrator",
-    "company": "Akari Care Limited",
-    "advertiser_name": "Akari Care Limited",
-    "location": "Leeds, LS11 5DZ",
-    "region": "Yorkshire - West",
-    "salary": "Negotiable",
-    "employment_type": "Permanent",
-    "posted_date": "2026-08-26T13:56:01.941141432",
-    "closing_date": "2026-10-25",
-    "description": "HR Administrator Role: The HR Administrator plays a key role in supporting the day-to-day operations of the Employee Relations Team. This role requires strong organisational skills, attention to detail, and the ability to handle sensitive information with confidentiality. Duties and Responsibilities: Management of the HR inbox and phoneline which is the first point of contact for general queries Ensuring queries are responded to within efficient timescales and identifying high priority emails which need to be escalated appropriately Maintain accurate and up-to-date employee records and ER systems Prepare and review HR documentation, such as Contracts of Employment, Offer Letters, Absence Review Invites, Maternity confirmation letters Conduct calls with company leavers to support employee retention strategies Issue company feedback surveys, collate data, and prepare results to be shared with senior stakeholders Support formal ER meetings through the provision of clear and accurate notetaking Provide administrative support to the ER advisors and management team ... The HR Administrator plays a key role in supporting the day-to-day operations of the Employee Relations Team. This role requires strong organisational skills, attention to detail, and the ability to handle sensitive information with confidentiality. Duties include the management of the HR inbox and phoneline, responding to queries swiftly, maintaining employee records, preparing HR documentation, conducting calls with company leavers, issuing feedback surveys, supporting formal ER meetings, and assisting with HR projects. Essentials include strong organisational skills, previous experience in Employee Relations, knowledge of employment law, proficiency in Microsoft Office, and report generation capabilities. Desirable qualifications include CIPD Level 3 (or working towards) and experience in the Social Care sector. Above all, applicants should approach the role with a personalised, kind, and caring attitude. HR Administrator Role: The HR Administrator plays a key role in supporting the day-to-day operations of the Employee Relations Team. This role requires strong organisational skills, attention to detail, and the ability to handle sensitive information with confidentiality. Duties and Responsibilities: Management of the HR inbox and phoneline which is the first point of contact for general queries Ensuring queries are responded to within efficient timescales and identifying high priority emails which need to be escalated appropriately Maintain accurate and up-to-date employee records and ER systems Prepare and review HR documentation, such as Contracts of Employment, Offer Letters, Absence Review Invites, Maternity confirmation letters Conduct calls with company leavers to support employee retention strategies Issue company feedback surveys, collate data, and prepare results to be shared with senior stakeholders Support formal ER meetings through the provision of clear and accurate notetaking Provide administrative support to the ER advisors and management team Responding to reference request for current and previous employees Assist with HR projects and initiatives as required Essentials: Strong organisational and time management skills Previous experience working within an Employee Relations function Foundational knowledge of employment law and ER best practices Proficiency in Microsoft Office, excel and word applications Capable of generate reports and data when required Desirable: CIPD Level 3 (or working towards) Experience within the Social Care sector is advantageous but not a necessity Above all we are looking for someone that shares in our company values. Applicants will need a personalised approach to both the role and other Colleagues, who treats people in a kind & caring way, can be trusted within their role displaying community spirit.",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/W0033-26-1144",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/W0033-26-1144",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   }
 ]

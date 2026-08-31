@@ -1,30 +1,5 @@
 [
   {
-    "job_id": "teaching-vacancies-senior-administration-assistant-the-portsmouth-academy",
-    "title": "Senior Administration Assistant",
-    "company": "The Portsmouth Academy",
-    "location": "Portsmouth",
-    "region": "Hampshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['full time']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "TSAT Pay Group 3 pro rata to £23,701 - £27,506 for hours and weeks stated (£26,866 - £31,179 FTE)",
-    "work_pattern": "",
-    "posted_date": "2026-07-24",
-    "closing_date": "2026-09-01",
-    "closing_datetime": "2026-09-01T23:59:00+01:00",
-    "summary": "Senior Administration Assistant with The Portsmouth Academy in Portsmouth. ['full time']; TSAT Pay Group 3 pro rata to £23,701 - £27,506 for hours and weeks stated (£26,866 - £31,179 FTE).",
-    "description": "The Portsmouth Academy is recruiting for this vacancy in Portsmouth.\n\nThe advertised position is Senior Administration Assistant.\n\nThe source lists the employment type as ['full time'].\n\nThe advertised salary or pay scale is TSAT Pay Group 3 pro rata to £23,701 - £27,506 for hours and weeks stated (£26,866 - £31,179 FTE).\n\nThe stated application deadline is 2026-09-01T23:59:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/senior-administration-assistant-the-portsmouth-academy?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "posted_date_basis": "source"
-  },
-  {
     "job_id": "teaching-vacancies-administration-assistant-transition-and-reception",
     "title": "Administration Assistant (Transition and Reception)",
     "company": "Thornden School",
@@ -197,11 +172,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Quotations",
-      "Order processing"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225452299",
@@ -226,11 +197,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Telephone handling",
-      "Records administration"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225458940",
@@ -280,11 +247,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Document preparation"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225459037",
@@ -359,12 +322,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Part Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Records administration",
-      "Systems administration"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225472187",
@@ -414,14 +372,32 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Telephone handling",
-      "Scheduling and bookings",
-      "Records administration",
-      "Order processing",
-      "Starters and leavers"
-    ]
+    "posted_date_basis": "ontap_first_published"
+  },
+  {
+    "job_id": "23643_225472206",
+    "title": "Production Planning Administrator",
+    "company": "Workshop Recruitment - Agency - Permanent",
+    "location": "Hampshire",
+    "region": "Hampshire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "28000",
+    "salary_max": "31000",
+    "salary_text": "£28000 - £31000 per year",
+    "posted_date": "2026-08-31",
+    "description": "Planning Administrator Portsmouth, PO6 £28,000 £31,000 + 25 Days Holiday + Pension + Life Assurance + Christmas Bonus Full-Time Permanent\n\nAre you a Planning Administrator with strong ERP system experience and excellent organisational skills?\n\nA well-established specialist electronics manufacturing business in Portsmouth is looking for a Planning Administrator to join its Production Planning team. Working within a team of five and reporting to the Planning Manager, you will help ensure materials and production kits are released accurately and on time.\n\nThis Planning Administrator role is ideal for someone who enjoys working with ERP systems, maintaining accurate information and supporting a busy manufacturing operation.\n\nJob Responsibilities\n- Release production kits and materials in line with manufacturing requirements.\n- Maintain accurate planning and production information within the ERP system.\n- Support the Planning Manager with day-to-day production planning activities.\n- Monitor material availability and identify potential shortages or delays.\n- Update production schedules and planning records accurately.\n- Liaise with production, purchasing and other internal departments.\n- Maintain accurate system data to support manufacturing priorities.\n- Provide general administrative support to the wider planning function.\n\nSkills & Knowledge Required\n- Demonstrate previous experience in a planning, production or administrative role.\n- Have practical experience using an ERP system.\n- Ideally have experience with Oracle, SAP or a similar ERP platform.\n- Possess strong administration and organisational skills.\n- Maintain excellent attention to detail and data accuracy.\n- Confidently manage multiple priorities and deadlines.\n- Communicate effectively with colleagues across different departments.\n- Work well independently and as part of a collaborative team.\n\nThe successful Planning Administrator will play an important role in keeping production organised and materials moving efficiently through the manufacturing process. Additional benefits include on-site parking and an Employee Assistance Programme.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?31Q%2fsvDzOVaX0XeKxexdhTNo4IGJHz6pj",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Workshop Recruitment",
+    "advertiser_type": "Agency",
+    "work_pattern": "Full Time",
+    "salary_period": "Annual",
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225480542",
@@ -446,11 +422,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Data entry"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225477911",
@@ -528,31 +500,6 @@
     "posted_date_basis": "ontap_first_published"
   },
   {
-    "job_id": "107787258",
-    "title": "Customer Service Coordinator",
-    "company": "The Workshop - Agency - Contract",
-    "location": "Hampshire",
-    "region": "Hampshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Contract",
-    "salary_min": "28000",
-    "salary_max": "28000",
-    "salary_text": "£28000 per year",
-    "posted_date": "2026-08-24",
-    "description": "Are you an organised and customer-focused professional looking for your next step as a Customer Service Coordinator This is a fantastic opportunity to join a well-established and growing business within the construction sector.\n\nAs a Customer Service Coordinator, you'll play a key role in ensuring customer enquiries and orders are handled efficiently, while supporting transport operations click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?gZ0pd2TJz0IbRkH4%2f%2b4gzFAO4oZTwd%2bCs",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "The Workshop",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
-  },
-  {
     "job_id": "23643_225508090",
     "title": "Operations Administrator",
     "company": "Wild Recruitment - Agency - Permanent",
@@ -575,11 +522,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Quotations"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225511982",
@@ -654,14 +597,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Records administration",
-      "Data entry",
-      "Filing and document handling",
-      "Quotations"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225519192",
@@ -736,11 +672,7 @@
     "advertiser_type": "Company",
     "work_pattern": "Part Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Customer enquiries"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225534205",
@@ -814,35 +746,6 @@
     "advertiser_name": "Matchtech",
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
-    "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Quotations"
-    ]
-  },
-  {
-    "job_id": "107772787",
-    "title": "Operations Coordinator",
-    "company": "Sammons Recruitment Ltd - Agency - Permanent",
-    "location": "Hampshire",
-    "region": "Hampshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "",
-    "posted_date": "2026-08-28",
-    "description": "Our client, a growing organisation managing an extensive portfolio within the tech sector, is seeking an Operations Coordinator to join their dynamic team. This is an exciting opportunity for an organised and detail-driven individual to play a key role in ensuring the smooth and efficient delivery of content and campaigns across a diverse range of clients, from local independents to national brand click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?bZCSDJyF3N4F6VLaUfWwmTphmdCczZXqq",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Sammons Recruitment Ltd",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
     "salary_period": "Annual",
     "posted_date_basis": "ontap_first_published"
   },
@@ -1019,11 +922,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Telephone handling",
-      "Records administration"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225476353",
@@ -1076,31 +975,6 @@
     "posted_date_basis": "ontap_first_published"
   },
   {
-    "job_id": "107821073",
-    "title": "Sales Coordinator",
-    "company": "Percival Aviation - Agency - Permanent",
-    "location": "Hampshire",
-    "region": "Hampshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "",
-    "posted_date": "2026-08-29",
-    "description": "Percival Aviation is a privately-owned organisation in Fareham, specialising in aircraft interiors and equipment. As a leading supplier, the company is expanding globally to provide innovative and cost-effective solutions for clients. With in-house design capabilities and production competencies, Percival Aviation is dedicated to delivering high-quality, certified products click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?Zg1fD7qgbpw4tXwemblIGlNVBOVx00%2b9e",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Percival Aviation",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
-  },
-  {
     "job_id": "23643_225497761",
     "title": "Planner",
     "company": "Dynamite Recruitment - Agency - Permanent",
@@ -1120,31 +994,6 @@
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
     "advertiser_name": "Dynamite Recruitment",
-    "advertiser_type": "Agency",
-    "work_pattern": "Full Time",
-    "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
-  },
-  {
-    "job_id": "107716803",
-    "title": "Finance Assistant",
-    "company": "Oaklands Catholic School - Agency - Contract",
-    "location": "Hampshire",
-    "region": "Hampshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Contract",
-    "salary_min": "24000",
-    "salary_max": "24000",
-    "salary_text": "£24000 per year",
-    "posted_date": "2026-08-24",
-    "description": "Job Title: Finance Assistant\n\nLocation: Waterlooville, Hampshire\n\nSalary: C1 £25,186 per annum FTE\n\nJob Type: Full Time, 37 hours a week, 52 weeks a year, Fixed-term 1-year contract with possible extension\n\nHours: Monday to Thursday 8 click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?aziU08XVyRHpY6OOa6zKCXt501VNGglGd",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Oaklands Catholic School",
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
@@ -1173,35 +1022,6 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Order processing"
-    ]
-  },
-  {
-    "job_id": "107718072",
-    "title": "Finance Assistant",
-    "company": "Thorngate Churcher Trust - Agency - Permanent",
-    "location": "Hampshire",
-    "region": "Hampshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "30000",
-    "salary_max": "30000",
-    "salary_text": "£30000 per year",
-    "posted_date": "2026-08-24",
-    "description": "Finance Assistant\n\nLocation: Head Office, Clare House, Gosport\nSalary: £27,000 - £30,000 FTE\nContract and Hours: Part time, 22.5 - 30 hours per week - We are open to various working patterns\nBenefits: 20 days annual leave plus bank holidays (pro rata), Annual leave increases by one day per completed year of service up to a maximum of 25 days (pro rata), Pension scheme, Free onsite parking and Support f click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?vAYWCB8ag%2fiY1Uf0e6J9FzBcD0fOEeNQi",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Thorngate Churcher Trust",
-    "advertiser_type": "Agency",
-    "work_pattern": "Part Time",
-    "salary_period": "Annual",
     "posted_date_basis": "ontap_first_published"
   },
   {
@@ -1226,35 +1046,6 @@
     "advertiser_name": "Workshop Recruitment",
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
-    "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Telephone handling",
-      "Customer enquiries"
-    ]
-  },
-  {
-    "job_id": "107881829",
-    "title": "Account Coordinator",
-    "company": "Job&Talent - Agency - Permanent",
-    "location": "Hampshire",
-    "region": "Hampshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "30000",
-    "salary_max": "30000",
-    "salary_text": "£30000 per year",
-    "posted_date": "2026-08-29",
-    "description": "Account Coordinator - Southampton\n\nLocation: Southampton\nCompany: Job&Talent\nSalary: Up to £31,000 per year, paid monthly\nContract: Permanent\nProbation Period: 3 months\nWorking Hours: Monday to Friday, 08:30-17:00\nWork Location: Southampton J&T Office\nTraining: Full training provided\n\nJob&Talent is looking for an organised and proactive Account Coordinator to support the day-to-day delivery of one of our key click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?1tcg6Aj2zawynDLaWuPH6ny9V%2btIFDOHb",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Job&Talent",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
     "salary_period": "Annual",
     "posted_date_basis": "ontap_first_published"
   },
@@ -1331,13 +1122,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Records administration",
-      "Systems administration",
-      "Quotations"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "nhs-5568990",
@@ -1356,6 +1141,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9348-26-1867",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1375,6 +1163,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/L0034-26-3587",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1394,6 +1185,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9470-26-0485",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1413,6 +1207,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C8192-26-0467",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1432,6 +1229,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9348-26-1828",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1451,25 +1251,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C8192-26-0451",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "posted_date_basis": "source"
-  },
-  {
-    "job_id": "nhs-5544487",
-    "source": "NHS Jobs",
-    "title": "Team Administrator",
-    "company": "Hampshire and Isle of Wight Healthcare NHS Foundation Trust",
-    "advertiser_name": "Hampshire and Isle of Wight Healthcare NHS Foundation Trust",
-    "location": "Basingstoke, RG21 4AP",
-    "region": "Hampshire",
-    "salary": "£25760.00 to £27476.00",
-    "employment_type": "Permanent",
-    "posted_date": "2026-08-17T15:42:41.859843425",
-    "closing_date": "2026-08-30",
-    "description": "There is an exciting opportunity to join the Early Intervention in Psychosis (EIP) Team who are looking to recruit a part time Team Administrator to join our friendly but fast paced multi-disciplinary team. The post holder must have experience of working within an administrative environment and will be working closely with our doctors. You will need to have a warm and professional manner; the successful candidate will be working as part of a team and therefore being a team player is essential as well as having the ability to work independently with good IT skills. Please note this is a part time role for 27.5 hours per week and cannot be offered as full time hours To provide confidential and courteous administration support to the Early Intervention in Psychosis Team. Receipt of new referrals ensuring they are triaged and carryout the required administration, arranging initial assessments, liaising with our Service\\users to agree a suitable date/time for their assessment. Booking in the HCP diary and liaising with the assessor. Provide excellent administrative support to the Early Intervention in Psychosis Team, including sending of assessment/discharge letters, arranging assessments. Sending out letters either electronically to the GP or emailed as appropriate once they have been reviewed as accurate and then uploaded onto the RIO system. Preparation of the notes for the daily Zoning MDT meetings and weekly Multi-Disciplinary Team meeting and recording all outcomes on spreadsheets and caseload management on the Electronic Patient Recording System. Ensuring all agreed actions are carried out immediately on receipt and raise any issues that may result to the Care Navigator immediately. To allocate care coordinator following outcome of MDT and to discharge referrals etc. Ensure that patient medical record systems are available and monitor that they are correctly maintained. This includes, but is not limited to, ensuring correct RIO demographics, validations systems, and spine synchronisation, up-loading and maintaining correct documentation. To manage telephone enquiries on behalf of the Team and any other admin ad hoc duties. Further information about the Trust and this role can be found on the Job Description and Person Specification document attached. It is important to us that we ensure our recruitment processes are accessible and inclusive to everyone - if as a potential candidate you are concerned a person specification may prevent or restrict your application for employment as a result of unintentional barriers on the grounds of your sex, race, age, sexual orientation, religion/belief or disability please initially contact the Trust's Recruitment team - detailed in the advert. The Trust will seek to resolve this issue wherever possible. We are happy to talk Flexible Working - all requests for flexible working options can be discussed as part of the interview process.",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9348-26-1724",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9348-26-1724",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1489,6 +1273,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3690-26-0008",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1508,6 +1295,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/L0034-26-3583",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1527,25 +1317,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9348-26-1804",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
-    "posted_date_basis": "source"
-  },
-  {
-    "job_id": "nhs-5556972",
-    "source": "NHS Jobs",
-    "title": "Locality Administrator",
-    "company": "Hampshire and Isle of Wight Healthcare NHS Foundation Trust",
-    "advertiser_name": "Hampshire and Isle of Wight Healthcare NHS Foundation Trust",
-    "location": "Southampton, SO14 0JY",
-    "region": "Hampshire",
-    "salary": "£25760.00 to £27476.00",
-    "employment_type": "Permanent",
-    "posted_date": "2026-08-24T10:46:20.774244283",
-    "closing_date": "2026-08-30",
-    "description": "Open only to applicants from Hampshire & Isle of Wight NHS system, which is limited to; Hampshire IOW Healthcare NHS Trust, Hampshire and Isle of Wight ICB, Portsmouth Hospitals University NHS Trust, Isle of Wight NHS Trust, University Hospital Southampton Foundation Trust, South Central Ambulance Service or Hampshire Hospitals Foundation Trust. An exciting opportunity has arisen for an enthusiastic, committed and well-motivated Locality Administrator to join the Community Nursing and CIS Team based at Thomas Lewis House in Southampton. The Locality Administrator role is a pivotal part of the Service, supporting both the administrative and clinical teams across Southampton City. You will need to possess strong prioritising and excellent organisational skills together with the ability to remain calm in a busy and dynamic environment. The work is varied, challenging and fast paced which requires a flexible approach. We are looking for someone that has experience in working in a team. You need to be able to demonstrate strong communication skills, be organised and possess good IT skills, including competence with Microsoft Office. Experience of System One is desirable although all training will be provided. The successful applicant must be flexible, should possess excellent time management skills, be self-motivated and have a positive attitude with a customer focused approach. The role is full time based on 37.5 hours per week, Monday to Friday. Our core hours are 08:30 to 16:30. To provide comprehensive administrative support to the service. To work as part of a skill mix team to provide a comprehensive administrative support service. To effectively prioritise and manage own workload and oversee workload of team as necessary, whilst maintaining confidentiality and diplomacy at all times, both independently and as part of a team. To work without direct supervision and show extensive use of initiative in prioritising and making decisions in relation to effectively supporting the smooth operation of the service. To carry out other duties as necessary to meet the changing needs of HIOW Healthcare NHS Trust, accordance with management requirements and appropriate to banding. All duties will be carried out within the Trusts Information Governance, recording, and data sharing procedures and guidance. Further information about the Trust and this role can be found on the Job Description and Person Specification document attached. It is important to us that we ensure our recruitment processes are accessible and inclusive to everyone - if as a potential candidate you are concerned a person specification may prevent or restrict your application for employment as a result of unintentional barriers on the grounds of your sex, race, age, sexual orientation, religion/belief or disability please initially contact the Trust's Recruitment team - detailed in the advert. The Trust will seek to resolve this issue wherever possible. We are happy to talk Flexible Working - all requests for flexible working options can be discussed as part of the interview process.",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9348-26-1797",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9348-26-1797",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1565,6 +1339,31 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9348-26-1773",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
+  },
+  {
+    "job_id": "nhs-5545728",
+    "source": "NHS Jobs",
+    "title": "Dental Receptionist",
+    "company": "Hampshire and Isle of Wight Healthcare NHS Foundation Trust",
+    "advertiser_name": "Hampshire and Isle of Wight Healthcare NHS Foundation Trust",
+    "location": "Petersfield, GU32 3LB",
+    "region": "Hampshire",
+    "salary": "£25760.00 to £27476.00",
+    "employment_type": "Permanent",
+    "posted_date": "2026-08-18T11:01:01.099875772",
+    "closing_date": "2026-09-01",
+    "description": "Are you an enthusiastic, flexible, reliable team player with excellent communication skills? HIOWH Special Care Dental Service is looking to recruit a Dental Receptionist to work within the Special Care Dental clinic situated within Petersfield Community Hospital. Our service delivers routine and urgent care to patients, adults and children who are unable to access care in the General Dental Services due to their additional needs. This includes adults and children with a physical, sensory, intellectual, mental, medical, social impairment or disability and individuals with behavioural difficulties or dental anxiety. You will provide reception and administrative support to the whole dental team, providing an efficient effective service for our special care patients. There will be a need for you to provide cover as and when needed at the other clinics with the possibility for travel over the wider area of Hampshire. You will be confident, able to work under pressure with the ability to communicate effectively, delivering care with dignity and respect in a kind compassionate manner. It is important that applicants can demonstrate strong interpersonal, communication skills, excellent IT and organisational skills, and knowledge of a dental software package would be an advantage. Please note that, due to budgetary limitations, we are unable to sponsor work visas for this position. Applicants must therefore have an existing right to work in the UK without employer sponsorship. Administrative support for Dental Officer, Dental Therapist and Dental Nurse, ensuring smooth running of clinics and/or dental administration offices. Be responsible for opening and closing of dental clinic premises. Provide general clerical support including typing correspondence and clinical letters, mail handling, stock control and photocopying. Maintain appropriate records, registry system (postal), and file correspondence and clinical records, ensuring compliance with the agreed record keeping systems of the Trust, including completion of NHS Dental Forms. Order and maintain stock, stationery and consumables. File records, clinical correspondence and radiographs. Take minutes for meetings as and when required to do so. Further information about the Trust and this role can be found on the Job Description and Person Specification document attached. It is important to us that we ensure our recruitment processes are accessible and inclusive to everyone - if as a potential candidate you are concerned a person specification may prevent or restrict your application for employment as a result of unintentional barriers on the grounds of your sex, race, age, sexual orientation, religion/belief or disability please initially contact the Trust's Recruitment team - detailed in the advert. The Trust will seek to resolve this issue wherever possible. We are happy to talk Flexible Working - all requests for flexible working options can be discussed as part of the interview process.",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9348-26-1737",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9348-26-1737",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   }
 ]

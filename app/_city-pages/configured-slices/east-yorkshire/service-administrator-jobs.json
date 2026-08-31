@@ -72,14 +72,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Records administration",
-      "Systems administration",
-      "Quotations",
-      "Order processing"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225510748",
@@ -104,12 +97,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Systems administration",
-      "Order processing"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225511107",
@@ -134,12 +122,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Quotations",
-      "Order processing"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225451205",
@@ -214,12 +197,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Email handling",
-      "Scheduling and bookings",
-      "Reporting"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225499018",
@@ -244,36 +222,6 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Records administration",
-      "Data entry"
-    ]
-  },
-  {
-    "job_id": "107841883",
-    "title": "Accounts Administrator",
-    "company": "Edwards & Pearce Limited - Agency - Permanent",
-    "location": "Beverley",
-    "region": "Yorkshire - East",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "26000",
-    "salary_max": "26000",
-    "salary_text": "£26000 per year",
-    "posted_date": "2026-08-24",
-    "description": "A valued client of Edwards & Pearce is seeking an Accounts Administrator to provide additional support to their accounts team. In this part time role you will be assisting with a variety of duties specifically purchase and sales ledger as well as all accounts related administration. Experience is therefore required and in return the client offers a supportive, welcoming environment click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?Dw9iAXzSqBZbg0ZLt9YDpX7dWWLraiULk",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Edwards & Pearce Limited",
-    "advertiser_type": "Agency",
-    "work_pattern": "Part Time",
-    "salary_period": "Annual",
     "posted_date_basis": "ontap_first_published"
   },
   {
@@ -302,31 +250,6 @@
     "posted_date_basis": "ontap_first_published"
   },
   {
-    "job_id": "107817702",
-    "title": "IT/OT System Administrator",
-    "company": "Guardian Industries - Agency - Permanent",
-    "location": "Goole",
-    "region": "Yorkshire - East",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "",
-    "posted_date": "2026-08-30",
-    "description": "Company description\n\nAs a Koch company, Guardian Industries makes products that improve the quality of life. From glass that dramatically reduces energy usage and increases comfort in buildings, to automotive parts that enhance connectivity, we have a relentless focus on making better products and developing better solutions for our customers click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?vAYWCB8ag%2fj1j5htZ0RvqPwdP1Q6pUVLi",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Guardian Industries",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
-  },
-  {
     "job_id": "nhs-5548104",
     "source": "NHS Jobs",
     "title": "Administration Assistant",
@@ -343,6 +266,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9338-26-0412",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -362,25 +288,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9356-26-0594",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
-    "posted_date_basis": "source"
-  },
-  {
-    "job_id": "nhs-5550886",
-    "source": "NHS Jobs",
-    "title": "Care Navigator / Receptionist",
-    "company": "The Ridings Medical Group",
-    "advertiser_name": "The Ridings Medical Group",
-    "location": "HESSLE, HU13 9LZ, Brough, HU15 2JG, Brough, HU15 1AY, York, YO43 4BJ, Selby, YO8 6LY",
-    "region": "Yorkshire - East",
-    "salary": "£12.91 to £13.17",
-    "employment_type": "Permanent",
-    "posted_date": "2026-08-20T14:41:34.937054684",
-    "closing_date": "2026-09-17",
-    "description": "We are looking for two part-time Care Navigators/Receptionists to join our busy and friendly team, providing a high quality service to patients, doctors and other members of the Primary Healthcare Team. Working 20 hours per week across our sites at Hessle, Brough and South Cave, Bubwith and Holme on Spalding Moor (HOSM). 1 x Care Navigator at 20hrs per week - mainly at HOSM & Bubwith, must be willing to work at any of our sites. 1 x Care Navigator at 20hrs per week - mainly at Hessle with cover for Brough & South Cave, must be willing to work at any of our sites. Candidates should be experienced in delivering excellent reception support, maintaining professionalism and discretion at all times and be able to work independently and as part of a team. Good communication skills and attention to detail are essential along with the flexibility to cover for annual/sick leave. Knowledge of SystmOne would be an advantage. You will have experience of working with the public, have a cheerful and polite manner, be able to multi-task and be a good team player. You must be able to contribute to the maintenance of patient confidentiality at all times, inside and outside the Practice. For more information on salary and working hours, please see attached documents. You will need to be a good communicator with excellent interpersonal and customer service skills; especially under pressure. You will have a range of patient facing and administrative tasks, so excellent organisational skills and time management are critical. A caring, empathetic character is essential. Your duties will include answering telephone calls, registering patients and general admin within the Practice. It is very important to have a 'can do' attitude. It is also important to be flexible and able cover shifts when required. PLEASE SEE ATTACHED JOB DESCRIPTION FOR A FULL LIST OF DUTIES. Greet patients and visitors to the Practice. Book in patients and visitors in line with Practice appointments and visitors procedures. Respond and/or redirect all patient and visitor requests accordingly and ensure unresolved and urgent matters are passed onto incoming colleagues at end of shift. Opening incoming mail and distribute as per protocol. Booking, amending, and cancelling patient appointments. Recording patient information onto the clinical system. Ensure waiting room temperature is comfortable for patients and responsible for tidying the waiting area (magazines, toys etc.) after each surgery Answering incoming telephone calls, ensuring calls are documented and redirected accordingly. Care Navigate all patients, including referring patients to outside providers. Book appointments using Improving Access System. Must be flexible to provide holiday and sickness cover on a regular basis. Maintenance of both computerised and manual filing systems (scanning, filing etc.). Ring Tasks sent by Clinicians using the flagged system. Prescriptions Hand paper copies to patients when Dispensary is closed. Make tea/coffee for colleagues, doctors and visitors as required Work safely at all times in accordance with Legislative requirements and Practice Policy and Procedures. Administration Duties Registrations, New Patient Questionnaires and Deductions must be kept up to date. Any other additional administration duties as required. This job description is not exhaustive and may be adjusted periodically after review and consultation. You will also be expected to carry out any reasonable duties which may be requested from time-to-time.",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0361-26-0008",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0361-26-0008",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   }
 ]

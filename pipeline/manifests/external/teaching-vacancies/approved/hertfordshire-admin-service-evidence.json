@@ -1,22 +1,23 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-08-30T18:31:24+01:00",
+  "generated_at": "2026-08-31T18:55:54+01:00",
   "source": "Teaching Vacancies",
   "region": "Hertfordshire",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-08-30",
-  "review_fingerprint": "a560eab22fd2b09884b81fa0b19741288b872bef4a77a183f0abaf5e55a76445",
-  "routing_manifest_sha256": "eb6bef78d15e154b4b783b6172d6a6ca6bdd0bb4b53a2f803a298e90ed30ff0e",
-  "review_csv_sha256": "ad62c883089e66b2fd49899e6e2bc090a1708845408ebbaecb100a28f1b255d7",
-  "summary_md_sha256": "a767eaa22a9d8d598af8f78493b45c6be34b8f8a9344edf37171fe25f83b7465",
-  "approved_snapshot_sha256": "b02ca74d87f115e1d170e2fcd7f5f3bc798e797145a2ce7dc7d647951fadfc55",
-  "approved_rows": 5,
+  "review_date": "2026-08-31",
+  "review_fingerprint": "41921ad69450250e6ccda5b3bc6e34b648d70780f8556e457d9c65db1115a028",
+  "routing_manifest_sha256": "ffa8ac4eb0bf3616c1711502490fa7d8374f8e356872cc2c477737141b15a14c",
+  "review_csv_sha256": "87af35c6afb63372de1249542486ff3c77fb6e15f880333aa7437bd18ad864b0",
+  "summary_md_sha256": "d1ed62f21489973d9f0607d6165153d094375e640f0087a9dabd92a10a14cd62",
+  "approved_snapshot_sha256": "507d364f26fc6c72bc67beeef11d16c04c02b988592bf31636b6340059bb1526",
+  "approved_rows": 6,
   "approved_job_ids": [
     "teaching-vacancies-examinations-officer-f64f071c-e84a-4dd7-afab-fb7ac4c7e56e",
     "teaching-vacancies-office-administrator-bassingbourn-village-college",
     "teaching-vacancies-receptionist-admin-assistant-and-student-support-coordinator-6462fad5-44b0-4b6f-afcb-acca1d5cb30c",
     "teaching-vacancies-governance-administrator-aspire-academies-trust",
+    "teaching-vacancies-admin-assistant-learning-support-nicholas-breakspear-catholic-school",
     "teaching-vacancies-administrator-the-acorn-centre"
   ]
 }

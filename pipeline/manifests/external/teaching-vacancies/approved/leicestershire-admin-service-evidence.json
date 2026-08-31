@@ -1,19 +1,18 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-08-30T18:31:24+01:00",
+  "generated_at": "2026-08-31T18:55:55+01:00",
   "source": "Teaching Vacancies",
   "region": "Leicestershire",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-08-30",
-  "review_fingerprint": "c3fa4ed295ff18dbb36bd663aa70dfbaa02c9bf1e5f75048201c651d7e526b6f",
-  "routing_manifest_sha256": "eb6bef78d15e154b4b783b6172d6a6ca6bdd0bb4b53a2f803a298e90ed30ff0e",
-  "review_csv_sha256": "1f89bafcbe630acb631ba6c8da7a1a68202fa3f3cf59b21e97c2e77e60c1bbf8",
-  "summary_md_sha256": "7a1e7498a8341f157b5b10eb6d7ce3477968e794529f11bd6f68ab0c9c980fbf",
-  "approved_snapshot_sha256": "e41a9662ff1e1a875a0eff81600e92600e3dd110e23b07ba7e7fcbfb1fbf9432",
-  "approved_rows": 3,
+  "review_date": "2026-08-31",
+  "review_fingerprint": "d8c260512a52e28e919a0029cbd37d0f08c7f0d893796a5c1d4d5237cef136e0",
+  "routing_manifest_sha256": "ffa8ac4eb0bf3616c1711502490fa7d8374f8e356872cc2c477737141b15a14c",
+  "review_csv_sha256": "e0a6de6709e9aa870a97cd319989e7b5356255b27852aced6f30a68ba75044de",
+  "summary_md_sha256": "c42dc69fcb7095367ac9053ab8fff9405da69b161ddcd712f17a7c430e107828",
+  "approved_snapshot_sha256": "7190c21516dfa5e89ec8c8133384f8e6bfccba03afcaca4449e552d9f24a7a88",
+  "approved_rows": 2,
   "approved_job_ids": [
-    "teaching-vacancies-administration-assistant-mil138bc",
     "teaching-vacancies-administrative-assistant-receptionist-krishna-avanti-primary-school",
     "teaching-vacancies-learning-support-administrator-loughborough-college"
   ]

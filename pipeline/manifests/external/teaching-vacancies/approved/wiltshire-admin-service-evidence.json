@@ -1,19 +1,18 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-08-30T18:31:28+01:00",
+  "generated_at": "2026-08-31T18:55:58+01:00",
   "source": "Teaching Vacancies",
   "region": "Wiltshire",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-08-30",
-  "review_fingerprint": "78df24a9cceaf4a21fd737d58001e4ed59fd5bfe46c931351f51bb9d5cfef37f",
-  "routing_manifest_sha256": "eb6bef78d15e154b4b783b6172d6a6ca6bdd0bb4b53a2f803a298e90ed30ff0e",
-  "review_csv_sha256": "0ced8ac89110c5a0f25f07cb953d4d99e3f78e6de94b2b5a917e2327fdd66319",
-  "summary_md_sha256": "c0fdf694d0f5d5b06c72f3ab94370debdcbae6b7f87cc636e829d7017680fa98",
-  "approved_snapshot_sha256": "76c26abaa4e05e7b5694b4bfb2d7314e38d924350e78c2cfab2c48cbf02e65d7",
-  "approved_rows": 3,
+  "review_date": "2026-08-31",
+  "review_fingerprint": "2de4c5cee654dc3d288c784db647e738a96b24fc8ad773c1a677ba3571e54943",
+  "routing_manifest_sha256": "ffa8ac4eb0bf3616c1711502490fa7d8374f8e356872cc2c477737141b15a14c",
+  "review_csv_sha256": "54b15f7b7b7b1f6073497d29faaeea62af4b59db46ec9a71d2c714ada728f227",
+  "summary_md_sha256": "f6cc4f4000471f1558a7d2d3b0c31253b5cbd412fc60b05c4a32ab1093cc7c81",
+  "approved_snapshot_sha256": "e6230d37c8787dad0f8ed06a8ff808120d5fb667e345b9ba20b958cfe389dcd8",
+  "approved_rows": 2,
   "approved_job_ids": [
-    "teaching-vacancies-exams-officer-a0e6b270-9f8e-4c55-b68b-38b5e9214d1b",
     "teaching-vacancies-governance-administrator-diocese-of-salisbury-academy-trust-salisbury-not-recorded",
     "teaching-vacancies-it-system-administrator-excalibur-shared-services-1177ebd4-e195-4745-824b-6613f2065ccf"
   ]

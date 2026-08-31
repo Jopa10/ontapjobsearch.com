@@ -14,8 +14,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 16
-- Selected: 7
-- POSS awaiting decision: 1
+- Selected: 8
+- POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 8
 
@@ -82,6 +82,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/inclusion-administrat
 ---
 
 ---
+action: select
+SELECTED | Oxfordshire | Oxford, South East, OX3 9WN | £26,824.00 Annually (FTE) Actual annual salary is £12,016 for 19.5 hours per week term time only plus 3 inset days | Office Administrator
+employer: Barton Park Primary School
+closing_date: 2026-09-04T12:00:00+01:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 6507fa5e4ea1f71f1a1f76eff33fba35fcf567d0ef52f77cff9d377bc363b4da
+source: Teaching Vacancies
+source_job_id: office-administrator-barton-park-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-barton-park-primary-school
+---
+
+---
 action: 
 SELECTED | Oxfordshire | Oxford, South East, OX3 0PG | £12,219.17 - £13,326.70 Annually (Actual) Grade 6 - Working a Wednesday, Thursday and Friday 8.30-15.30 (with a 30 min break) | Reception & Administrative Assistant
 employer: Meadowbrook College
@@ -128,20 +143,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/sixth-form-administra
 
 ## POSS — choose SELECT or EXCLUDE
 
----
-action: 
-POSS | Oxfordshire | Oxford, South East, OX3 9WN | £26,824.00 Annually (FTE) Actual annual salary is £12,016 for 19.5 hours per week term time only plus 3 inset days | Office Administrator
-employer: Barton Park Primary School
-closing_date: 2026-09-04T12:00:00+01:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 6507fa5e4ea1f71f1a1f76eff33fba35fcf567d0ef52f77cff9d377bc363b4da
-source: Teaching Vacancies
-source_job_id: office-administrator-barton-park-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-barton-park-primary-school
----
+- None.
 
 ## EXCLUDED BY REVIEW
 

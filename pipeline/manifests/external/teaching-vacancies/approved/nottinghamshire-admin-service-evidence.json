@@ -1,22 +1,20 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-08-30T18:31:26+01:00",
+  "generated_at": "2026-08-31T18:55:56+01:00",
   "source": "Teaching Vacancies",
   "region": "Nottinghamshire",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-08-30",
-  "review_fingerprint": "51f48092c26594c2242ef783351e52a7bfe41317ec7d33fa8529a04fd95ac5f6",
-  "routing_manifest_sha256": "eb6bef78d15e154b4b783b6172d6a6ca6bdd0bb4b53a2f803a298e90ed30ff0e",
-  "review_csv_sha256": "361f2a71ee9bbac248d92f77ecc6e8b83195e437bda2f966c01b6adb22cd5371",
-  "summary_md_sha256": "9352bb8dd9cd81200765c08f9b991842c86a7b1bce5a9cf512b35a9ac85a459c",
-  "approved_snapshot_sha256": "ae560f9b308e95afe6b7d487cade2de468f87e4d4370fb06bb01ba6b2d641f89",
-  "approved_rows": 5,
+  "review_date": "2026-08-31",
+  "review_fingerprint": "c440a6c6183f9a00d84cb493275965c2b4fea38b103e87afb05413ce4677c136",
+  "routing_manifest_sha256": "ffa8ac4eb0bf3616c1711502490fa7d8374f8e356872cc2c477737141b15a14c",
+  "review_csv_sha256": "1c8be41008d4f0f5d0bab35eb5aeacbd5f2896e5bd4009236f81a8ba6869f2d7",
+  "summary_md_sha256": "44accce1b39a5ba5c4b93cea86e93b9e82caa974742e1cf10382134b386a682d",
+  "approved_snapshot_sha256": "7a5ebd9230a264f5e758da2bf35d871603c7002e663513b813197990b16cd3dc",
+  "approved_rows": 3,
   "approved_job_ids": [
-    "teaching-vacancies-hr-administrator-the-spencer-academies-trust",
     "teaching-vacancies-administrative-assistant-8cc06080-4f90-4fa2-9942-346474e89b5e",
     "teaching-vacancies-administrative-assistant-sixth-form-and-work-related-learning",
-    "teaching-vacancies-house-support-asisstant",
     "teaching-vacancies-administration-assistant-horizons-academy"
   ]
 }
