@@ -391,9 +391,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0667-26-0002",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -413,9 +410,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1807-26-0005",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -435,31 +429,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0045-26-0077",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
-  },
-  {
-    "job_id": "nhs-5535630",
-    "source": "NHS Jobs",
-    "title": "Receptionist",
-    "company": "Newgate Medical Group",
-    "advertiser_name": "Newgate Medical Group",
-    "location": "Worksop, S80 1HP",
-    "region": "Nottinghamshire",
-    "salary": "£12.71",
-    "employment_type": "Permanent",
-    "posted_date": "2026-08-13T09:26:46.106375",
-    "closing_date": "2026-08-31",
-    "description": "*Interviews will take place on 3rd and 4th September 2026* Are you enthusiastic about working with the public in a healthcare environment? Are you a team player who is well organised, communicates effectively, and has a calm, reassuring manner? If so, we have an exciting opportunity to join our friendly and ever-expanding team as a fulltime Receptionist at a busy GP practice in the heart of Worksop. This role will include working 1 in 4 Saturdays 8:30am to 5pm (13 per annum) and two late finishes till 8pm. We offer a supportive team environment, training, pension and good holiday package for the right candidate. To be responsible for undertaking a wide range of reception duties and the provision of general support to the multidisciplinary team. Duties can include, but are not limited to, greeting and directing patients, effective use of the appointment system, booking appointments, the processing of information and assisting patients as required. To act as the central point of contact for patients, the distribution of information, messages and enquiries for the clinical team, liaising with multi-disciplinary team members and external agencies such as secondary care and community service providers. Maintain and monitor the practice appointment system Process personal, telephone and e-requests for appointments Answer incoming phone calls, transferring calls or dealing with the callers request appropriately Signpost patients to the correct service Initiating contact with and responding to, requests from patients, team members and external agencies Photocopy documentation as required Data entry of new and temporary registrations and relevant patient information as required when required Input data into patients healthcare records as necessary Manage all queries as necessary in an efficient manner including prescription queries. Carry out system searches as requested Maintain a clean, tidy, effective working area at all times Monitor and maintain the reception area and notice boards Support all clinical staff with general tasks as requested",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1310-26-0018",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1310-26-0018",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   }
 ]

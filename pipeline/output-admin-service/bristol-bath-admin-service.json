@@ -412,11 +412,7 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B9083-26-0448",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B9083-26-0448",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "A"
   },
   {
     "job_id": "nhs-5554527",
@@ -434,11 +430,7 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B9083-26-0449",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B9083-26-0449",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "A"
   },
   {
     "job_id": "nhs-5554722",
@@ -456,10 +448,24 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B9083-26-0451",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B9083-26-0451",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "A"
+  },
+  {
+    "job_id": "nhs-5561013",
+    "source": "NHS Jobs",
+    "title": "Administrative Assistant",
+    "company": "Royal Devon University Healthcare NHS Foundation Trust",
+    "advertiser_name": "Royal Devon University Healthcare NHS Foundation Trust",
+    "location": "Bristol, BS2 8EG",
+    "region": "Bristol & Bath",
+    "salary": "£25272.00",
+    "employment_type": "Fixed-Term",
+    "posted_date": "2026-08-25T15:29:13.488805615",
+    "closing_date": "2026-09-04",
+    "description": "An exciting opportunity has become available to join the team our Clinical Genetics team as an Administrative Assistant based in our BRISTOL SITES ST MICHAELS HOSPITAL AND ABBOTS HOUSE. This post will work with colleagues across the South West Clinical Genetics service to ensure the provision of a professional, efficient, accurate and timely local service. For more detail about the main duties of this role, please see the job description section below. As a key member of the Royal Devon University Healthcare NHS Foundation Trust, you will be joining an exceptional team working together to help our patients to stay healthy, when they need it most. For more information on the Job Description and Responsibilities please click the link below. More detail about the role To provide an efficient and responsive clinic prep (medical records) service, in accordance with Trust policies and standards relating to confidentiality and customer care. To provide professional, efficient and effective administrative support function to the wider team as required. Use multiple computer systems within the department such as EPIC, TrakGene (in-house database system), and Microsoft Office applications. Working Pattern: Weekdays, Monday to Friday. Interview Date: To be confirmed For further information please contact: Daisy Romagnoli Silva, Manager, daisy.silva@nhs.net This is a fixed term contract for 12 months. For current NHS employees this post could be a secondment opportunity. As an inclusive employer, the Royal Devon values diversity and is committed to creating a culture of inclusivity where everyone can be themselves and reach their full potential. We believe in fostering a sense of belonging and actively encourage applications from individuals of all backgrounds, cultures, and abilities. We recognise the advantages of having a diverse workforce that reflects the communities we serve. Preference will be given to staff with Priority and 'At Risk' status including NHS At Risk staff throughout Devon. The Royal Devon University Healthcare NHS Foundation Trust reserves the right to close vacancy when sufficient applications have been received. The Royal Devon University Healthcare NHS Foundation Trust was established in April 2022, bringing together the expertise of both the Royal Devon and Exeter NHS Foundation Trust and Northern Devon Healthcare NHS Trust. Benefits We will work together to maintain a culture that develops and supports you and your team. This might include funding for a care certificate, a degree or leadership qualifications. Or it might include days off to study, engage in CPD or rotational placements to help you hone your skills. Wherever you are heading in the NHS, we'll help you get there. Looking after you is important to us. We strive to help our staff create a healthy work-life balance through flexible working schemes and our family friendly policies. If you're starting out in the NHS, you'll start with 27 days paid annual leave (plus bank holidays), rising to 33 days plus bank holidays. You'll benefit from access to our own comprehensive occupational health services, including counselling, onsite wellbeing activities and groups. Salary is not the only financial benefit You'll have access to an extensive range of staff discounts on shopping, fitness and leisure options and you can spread the cost of technology and home appliance purchases from major retailers. You will also have access to other benefits including: National discount services such as the Blue Light Card and Health Service Discounts. Salary sacrifice options including our OFSTED rated outstanding nursery onsite at Exeter Car lease schemes. The NHS Pension scheme (one of the most generous and comprehensive in the UK). Cycle to work scheme These are just a few of the benefits available if the role is something you are interested in, we'd love to hear from you.",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C0023-26-1038",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C0023-26-1038",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "A"
   }
 ]
