@@ -1,11 +1,13 @@
 # Ontap System Map
 
-**Last updated:** 30 August 2026
-**Status:** Canonical production architecture including owner-facing JobG8 selection auditing, live-site reporting reconciliation and Teaching Vacancies regional publish isolation.
+**Last updated:** 1 September 2026
+**Status:** Canonical production architecture including restored NHS Google Jobs eligibility, owner-facing JobG8 selection auditing, live-site reporting reconciliation and Teaching Vacancies regional publish isolation.
 
 This is the authoritative technical map of the persistent Ontap system. It is organised into five canonical buckets. Facts not verified from the repository are marked `UNKNOWN / NEEDS AUDIT` rather than inferred from chat history.
 
 ## Recent canonical changes
+
+- 1 September 2026 — **NHS Google Jobs eligibility restored after strict-date regression:** NHS Jobs source timestamps containing fractional seconds without a timezone are now emitted as their factual `YYYY-MM-DD` source date in `JobPosting`, without inventing timezone precision. Strict fail-closed behaviour remains unchanged for every other source and malformed date. NHS-only Indexing API fingerprints are versioned once so restored NHS pages are resubmitted without consuming the daily quota on unchanged JobG8 or other-provider URLs.
 
 - 30 August 2026 — **Fourth owner sweep extends governed title coverage:** exact reviewed titles add further routine Admin/Business Support, operational Payroll/Finance, Legal Support, direct Care/Support, People Operations and Sales Coordination roles to their existing governed families. Context-dependent PA variants retain advert checks; Housing Officer remains parked for its proper future family, IT Support remains parked, and the agreed managerial, training-advert, specialist and ambiguous titles remain outside automatic matching. The earlier generic `Area=City` geography correction already resolves the definite Belfast/Leeds/Birmingham/Nottinghamshire/Surrey misroutes in this workbook; ambiguous county/area conflicts remain unresolved rather than being force-mapped. Existing LIVE-market, salary, dedupe and specialist gates remain unchanged.
 
