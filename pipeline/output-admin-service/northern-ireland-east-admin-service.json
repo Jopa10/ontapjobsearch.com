@@ -72,7 +72,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": ""
+    "posted_date_basis": "",
+    "at_a_glance_attributes": [
+      "Quotations",
+      "Order processing"
+    ]
   },
   {
     "job_id": "107861572",

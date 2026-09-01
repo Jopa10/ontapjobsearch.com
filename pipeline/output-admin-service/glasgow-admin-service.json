@@ -22,7 +22,13 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": ""
+    "posted_date_basis": "",
+    "at_a_glance_attributes": [
+      "Customer enquiries",
+      "Records administration",
+      "Data entry",
+      "Order processing"
+    ]
   },
   {
     "job_id": "23643_225455869",
@@ -147,7 +153,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Part Time",
     "salary_period": "Annual",
-    "posted_date_basis": ""
+    "posted_date_basis": "",
+    "at_a_glance_attributes": [
+      "Reporting",
+      "Quotations"
+    ]
   },
   {
     "job_id": "23643_225505549",
@@ -172,7 +182,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Part Time",
     "salary_period": "Annual",
-    "posted_date_basis": ""
+    "posted_date_basis": "",
+    "at_a_glance_attributes": [
+      "Customer enquiries",
+      "Email handling"
+    ]
   },
   {
     "job_id": "1766683",
@@ -197,7 +211,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Part Time",
     "salary_period": "Annual",
-    "posted_date_basis": ""
+    "posted_date_basis": "",
+    "at_a_glance_attributes": [
+      "Reporting",
+      "Quotations"
+    ]
   },
   {
     "job_id": "1765398",
@@ -247,7 +265,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": ""
+    "posted_date_basis": "",
+    "at_a_glance_attributes": [
+      "Records administration",
+      "Data entry"
+    ]
   },
   {
     "job_id": "23643_225533514",
@@ -397,7 +419,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": ""
+    "posted_date_basis": "",
+    "at_a_glance_attributes": [
+      "Records administration",
+      "Reporting"
+    ]
   },
   {
     "job_id": "107881043",
