@@ -7,6 +7,8 @@ This is the authoritative technical map of the persistent Ontap system. It is or
 
 ## Recent canonical changes
 
+- 1 September 2026 — **Daily regional overview is directly downloadable as Excel:** the existing overview workflow now exports and commits `pipeline/reports-daily/daily-region-overview.xlsx` alongside the Markdown report. The workbook has four formatted tabs matching the owner's principal tables: Sitewide, JobG8 categories, LIVE and NOT LIVE. It refreshes from the same generated Markdown on every overview run; counts and statuses are not independently recalculated in Excel.
+
 - 1 September 2026 — **Daily overview now records the factual JobG8 feed profile:** each non-artifact JobG8 coverage audit writes the exact row count and `/Job/Category` distribution from its latest archived raw feed into `pipeline/reports-daily/jobg8-feed-category-profile.csv`. The existing daily regional overview displays that JobG8-supplied total and classification table immediately after the provider breakdown. Counts reconcile exactly to the audit workbook rows and are deliberately separate from Ontap's governed families and published inventory.
 
 - 1 September 2026 — **Three owner-approved regional slices activated:** Bedfordshire Service Admin, Bristol & Bath Customer Sales / Sales Advisor and Buckinghamshire Marketing are now `LIVE` through the existing central slice register, governed selectors, configured dynamic routes and verified publisher. The approval evidence is respectively **9 / 6.0 / 6-of-11, 9 / 6.6 / 9-of-11 and 13 / 4.1 / 2-of-9**. The current governed footprints become **Service Admin 47 / 78, Customer Sales 5 / 78 and Marketing 6 / 78**; no other market is activated.

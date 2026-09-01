@@ -525,6 +525,8 @@ def build() -> str:
         "",
         f"Generated: {london_now.isoformat(timespec='seconds')}",
         "",
+        "[Download this overview as Excel](./daily-region-overview.xlsx)",
+        "",
         "## SITEWIDE RECONCILIATION",
         "",
         "| Measure | Count |",
