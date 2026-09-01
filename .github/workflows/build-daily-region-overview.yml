@@ -12,9 +12,11 @@ on:
       - pipeline/reports-daily/jobg8-feed-category-profile.csv
       - app/**/*.json
       - pipeline/scripts/build_daily_region_overview.py
+      - pipeline/scripts/export_daily_region_overview_xlsx.py
       - pipeline/scripts/assess_daily_family_coverage.py
       - pipeline/scripts/daily_family_coverage_history.py
       - pipeline/tests/test_build_daily_region_overview.py
+      - pipeline/tests/test_export_daily_region_overview_xlsx.py
       - .github/workflows/build-daily-region-overview.yml
   workflow_run:
     workflows:
@@ -56,10 +58,16 @@ jobs:
 
       - name: Test canonical LIVE region rollups
         working-directory: pipeline
-        run: python -m unittest tests.test_build_daily_region_overview -v
+        run: python -m unittest tests.test_build_daily_region_overview tests.test_export_daily_region_overview_xlsx -v
 
       - name: Build daily regional overview
         run: python pipeline/scripts/build_daily_region_overview.py
+
+      - name: Export daily regional overview workbook
+        run: |
+          python pipeline/scripts/export_daily_region_overview_xlsx.py \
+            --markdown pipeline/reports-daily/daily-region-overview.md \
+            --output pipeline/reports-daily/daily-region-overview.xlsx
 
       - name: Apply same-feed 78-market family coverage
         working-directory: pipeline
@@ -69,8 +77,9 @@ jobs:
         run: |
           set -euo pipefail
           test -s pipeline/reports-daily/daily-region-overview.md
+          test -s pipeline/reports-daily/daily-region-overview.xlsx
           test -s pipeline/reports-daily/daily-family-coverage.csv
-          unexpected="$(git diff --name-only | grep -v '^pipeline/reports-daily/daily-region-overview.md$' || true)"
+          unexpected="$(git diff --name-only | grep -Ev '^pipeline/reports-daily/daily-region-overview\.(md|xlsx)$' || true)"
           if [ -n "$unexpected" ]; then
             echo "::error::Overview builder changed unexpected files:"
             printf '%s\n' "$unexpected"
@@ -82,7 +91,7 @@ jobs:
           set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add pipeline/reports-daily/daily-region-overview.md
+          git add pipeline/reports-daily/daily-region-overview.md pipeline/reports-daily/daily-region-overview.xlsx
           if git diff --cached --quiet; then
             echo "No overview change to commit"
             exit 0

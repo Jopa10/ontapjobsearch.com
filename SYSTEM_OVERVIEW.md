@@ -7,6 +7,8 @@ This is the short owner view of how Ontap is organised. It mirrors the five cano
 
 ## Recent canonical changes
 
+- 1 September 2026 — The daily regional overview is now also generated as a downloadable Excel workbook with separate Sitewide, JobG8 categories, LIVE and NOT LIVE tabs, removing the need to copy and paste the tables manually.
+
 - 1 September 2026 — The main daily regional overview now shows how many jobs the latest JobG8 coverage audit actually received and the count in each of JobG8's own supplied classifications. This is kept distinct from Ontap categories and live-job totals.
 
 - 1 September 2026 — **Three more regional slices are approved for LIVE:** Bedfordshire Service Admin, Bristol & Bath Sales Advisor and Buckinghamshire Marketing. Their current / rolling-average / six-plus-day evidence is **9 / 6.0 / 6-of-11, 9 / 6.6 / 9-of-11 and 13 / 4.1 / 2-of-9** respectively. They use the existing selectors and regional-page publisher; no other market changes.
