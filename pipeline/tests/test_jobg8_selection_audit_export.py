@@ -1,8 +1,11 @@
+import csv
+import tempfile
 import unittest
+from pathlib import Path
 
 import pandas as pd
 
-from pipeline.scripts.jobg8_selection_audit_export import COL, classify_status, effective_salary, resolve_region, salary_band
+from pipeline.scripts.jobg8_selection_audit_export import COL, classify_status, effective_salary, resolve_region, salary_band, write_jobg8_category_profile
 
 
 class JobG8SelectionAuditExportTest(unittest.TestCase):
@@ -61,6 +64,23 @@ class JobG8SelectionAuditExportTest(unittest.TestCase):
     def test_generic_city_area_uses_precise_location(self):
         row = pd.Series({COL["area"]: "City", COL["location"]: "Sheffield"})
         self.assertEqual(resolve_region(row, {"city": "London"}, {"sheffield": "Yorkshire - South"}), "Yorkshire - South")
+
+    def test_jobg8_category_profile_reconciles_raw_audit_rows(self):
+        rows = [
+            {"Original JobG8 category": "Administration"},
+            {"Original JobG8 category": "I.T. & Communications"},
+            {"Original JobG8 category": "Administration"},
+        ]
+        with tempfile.TemporaryDirectory() as directory:
+            output = Path(directory) / "profile.csv"
+            write_jobg8_category_profile(rows, output, "2026-09-01")
+            with output.open(encoding="utf-8") as handle:
+                written = list(csv.DictReader(handle))
+        self.assertEqual(written[0], {
+            "feed_date": "2026-09-01", "total_jobs": "3",
+            "jobg8_category": "Administration", "count": "2",
+        })
+        self.assertEqual(sum(int(row["count"]) for row in written), 3)
 
 
 if __name__ == "__main__":
