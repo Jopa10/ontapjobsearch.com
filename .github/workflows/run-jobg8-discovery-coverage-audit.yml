@@ -83,21 +83,33 @@ jobs:
           role-to-assume: arn:aws:iam::179402568934:role/OntapJobG8ArchiveGitHubRole
           aws-region: eu-west-2
 
-      - name: Materialize current August JobG8 archive
+      - name: Resolve current UK audit date
+        run: |
+          set -euo pipefail
+          audit_date="$(TZ=Europe/London date +%F)"
+          audit_month="${audit_date%-*}"
+          echo "JOBG8_AUDIT_DATE=$audit_date" >> "$GITHUB_ENV"
+          echo "JOBG8_AUDIT_MONTH=$audit_month" >> "$GITHUB_ENV"
+
+      - name: Materialize current JobG8 archive
         env:
           JOBG8_ARCHIVE_BUCKET: ontap-jobg8-archive-179402568934-eu-west-2-an
           JOBG8_ARCHIVE_REGION: eu-west-2
         run: |
           set -euo pipefail
-          staging_dir="$RUNNER_TEMP/jobg8-discovery-audit/2026-08"
+          staging_dir="$RUNNER_TEMP/jobg8-discovery-audit/$JOBG8_AUDIT_MONTH"
           python pipeline/scripts/materialize_jobg8_archive_month.py \
-            --month '2026-08' \
+            --month "$JOBG8_AUDIT_MONTH" \
             --bucket "$JOBG8_ARCHIVE_BUCKET" \
             --region "$JOBG8_ARCHIVE_REGION" \
             --prefix 'jobg8/raw' \
             --s3-start-date '2026-08-14' \
-            --legacy-dir 'pipeline/input-jobg8-archive/2026-08' \
+            --legacy-dir "pipeline/input-jobg8-archive/$JOBG8_AUDIT_MONTH" \
             --output-dir "$staging_dir"
+          test -s "$staging_dir/$JOBG8_AUDIT_DATE.xlsx" || {
+            echo "Refusing audit: current UK JobG8 feed $JOBG8_AUDIT_DATE.xlsx is unavailable" >&2
+            exit 1
+          }
           echo "JOBG8_AUDIT_INPUT_DIR=$staging_dir" >> "$GITHUB_ENV"
 
       - name: Run discovery coverage audit
@@ -126,6 +138,7 @@ jobs:
             --input-dir "$JOBG8_AUDIT_INPUT_DIR" \
             --reconciliation-csv pipeline/reports-discovery-audit/jobg8-broad-family-reconciliation-current.csv \
             --output-dir "$audit_output" \
+            --expected-feed-date "$JOBG8_AUDIT_DATE" \
             --category-profile-output pipeline/reports-daily/jobg8-feed-category-profile.csv
           echo "JOBG8_SELECTION_AUDIT_OUTPUT=$audit_output" >> "$GITHUB_ENV"
 

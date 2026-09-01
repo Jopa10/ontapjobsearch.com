@@ -262,6 +262,8 @@ Core controls are:
 - manual-only Vercel CLI recovery using `VERCEL_TOKEN` if Git deployment fails;
 - Google indexing and operational monitoring.
 
+The JobG8 discovery coverage audit now uses the exact current Europe/London feed date rather than a fixed monthly archive. If that day’s raw feed is unavailable, or the selected feed date differs from the audit date, it stops without publishing a report. This keeps the published JobG8 total, JobG8-supplied category breakdown and genuine published-but-absent exceptions on one same-day basis.
+
 The 11:45 safety net checks for a successful manual Apply and publish run on the current London date. If found, it exits without a second publication. Otherwise it uses the same publisher chain in automatic-withhold mode: unresolved review jobs are omitted without becoming remembered exclusions, regardless of queue size, while valid existing decisions and automatically eligible jobs continue. Freshness, fingerprint, source-publisher and combined-publication integrity controls are unchanged.
 
 `Ontap daily status` is the normal owner check. It runs when the daily master review finishes and when the production deployment guard finishes, plus 09:15 and 12:15 UK-time fallback snapshots. Before publication, a green result means every named source has same-day review state and the master edit file is current. After publication, green means every source publisher, verified-page build, same-day live-source report and Vercel deployment completed; the summary explicitly says **MANUAL** or **AUTOMATIC**. If a source was retained fail-soft, the site may still have updated, but the status check fails visibly and names that source rather than presenting the day as wholly green.

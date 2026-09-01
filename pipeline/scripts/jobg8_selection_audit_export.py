@@ -400,10 +400,18 @@ def main() -> int:
     parser.add_argument("--app-root", type=Path, default=Path("app"))
     parser.add_argument("--output-dir", required=True, type=Path)
     parser.add_argument("--category-profile-output", type=Path)
+    parser.add_argument("--expected-feed-date")
     parser.add_argument("--limit", type=int)
     args = parser.parse_args()
 
     feed = latest_feed(args.input_dir)
+    feed_date_match = re.search(r"(20\d{2}-\d{2}-\d{2})", feed.stem)
+    feed_date = feed_date_match.group(1) if feed_date_match else feed.stem
+    if args.expected_feed_date and feed_date != args.expected_feed_date:
+        raise SystemExit(
+            "Refusing mismatched JobG8 audit: "
+            f"expected feed date {args.expected_feed_date}, but selected {feed_date} ({feed.name})"
+        )
     raw = pd.read_excel(feed, dtype=str).fillna("")
     if args.limit:
         raw = raw.head(args.limit)
@@ -423,8 +431,6 @@ def main() -> int:
     write_xlsx(rows, xlsx_path, feed.name)
     write_published_absent_current_feed(raw, args.input_dir, published_details, args.output_dir / "jobg8-published-absent-current-feed.csv")
     if args.category_profile_output:
-        feed_date_match = re.search(r"(20\d{2}-\d{2}-\d{2})", feed.stem)
-        feed_date = feed_date_match.group(1) if feed_date_match else feed.stem
         write_jobg8_category_profile(rows, args.category_profile_output, feed_date, published_ids)
     counts = Counter(row["Publication / coverage status"] for row in rows)
     if sum(counts.values()) != len(raw) or len(rows) != len(raw):
