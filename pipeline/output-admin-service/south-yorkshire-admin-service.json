@@ -1,33 +1,5 @@
 [
   {
-    "job_id": "teaching-vacancies-send-administrative-assistant-westfield-school-sheffield",
-    "title": "SEND Administrative Assistant",
-    "company": "Westfield School",
-    "location": "Sheffield",
-    "region": "Yorkshire - South",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['full time']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "£26,403.00 - £28,598.00 Annually (FTE) Grade 4 SCP 7 - 12 (Actual salary £22,709 - £24,597)",
-    "work_pattern": "",
-    "posted_date": "2026-07-22",
-    "closing_date": "2026-08-31",
-    "closing_datetime": "2026-08-31T23:59:00+01:00",
-    "summary": "SEND Administrative Assistant with Westfield School in Sheffield. ['full time']; £26,403.00 - £28,598.00 Annually (FTE) Grade 4 SCP 7 - 12 (Actual salary £22,709 - £24,597).",
-    "description": "Westfield School is recruiting for this vacancy in Sheffield.\n\nThe advertised position is SEND Administrative Assistant.\n\nThe source lists the employment type as ['full time'].\n\nThe advertised salary or pay scale is £26,403.00 - £28,598.00 Annually (FTE) Grade 4 SCP 7 - 12 (Actual salary £22,709 - £24,597).\n\nThe stated application deadline is 2026-08-31T23:59:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/send-administrative-assistant-westfield-school-sheffield?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Westfield School",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
-  },
-  {
     "job_id": "teaching-vacancies-administration-assistant-treeton-church-of-england-primary-school-rotherham-south-yorkshire",
     "title": "Administration Assistant",
     "company": "Treeton Church of England Primary School",
@@ -51,34 +23,6 @@
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
     "advertiser_name": "Treeton Church of England Primary School",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
-  },
-  {
-    "job_id": "teaching-vacancies-business-support-officer-attendance-dc9edb4f-b36d-4bc3-be46-6508d1a2b957",
-    "title": "Business Support Officer – Attendance",
-    "company": "King Edward VII School",
-    "location": "Sheffield",
-    "region": "Yorkshire - South",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['full time']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "Grade 4 Point 7 to 12 £26,403 to £28,598 pro rata (£22,709 to £24,597 actual)",
-    "work_pattern": "",
-    "posted_date": "2026-07-03",
-    "closing_date": "2026-09-01",
-    "closing_datetime": "2026-09-01T09:00:00+01:00",
-    "summary": "Business Support Officer – Attendance with King Edward VII School in Sheffield. ['full time']; Grade 4 Point 7 to 12 £26,403 to £28,598 pro rata (£22,709 to £24,597 actual).",
-    "description": "King Edward VII School is recruiting for this vacancy in Sheffield.\n\nThe advertised position is Business Support Officer – Attendance.\n\nThe source lists the employment type as ['full time'].\n\nThe advertised salary or pay scale is Grade 4 Point 7 to 12 £26,403 to £28,598 pro rata (£22,709 to £24,597 actual).\n\nThe stated application deadline is 2026-09-01T09:00:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/business-support-officer-attendance-dc9edb4f-b36d-4bc3-be46-6508d1a2b957?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "King Edward VII School",
     "advertiser_type": "",
     "salary_period": "",
     "posted_date_basis": "source"
@@ -190,11 +134,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Records administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225522912",
@@ -219,11 +159,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Records administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "21618_20279_62295-d24d3d6916a209e15b1680693740da2f",
@@ -426,6 +362,31 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "107870378",
+    "title": "Sales Coordinator",
+    "company": "Ranson Barnes Recruitment Limited - Agency - Permanent",
+    "location": "Sheffield",
+    "region": "Yorkshire - South",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "26000",
+    "salary_max": "26000",
+    "salary_text": "£26000 per year",
+    "posted_date": "",
+    "description": "We are proud to be working with our long standing client in the recruitment of a Sales Coordinator. This exciting opportunity is available due to an internal promotion.\n\nThis leading Sheffield Engineering and Manufacturing business has been a client of one of our Directors since 2006, within this time he has seen the business go from strength to strength with many past candidates still being with th click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?Yic9job4bS%2fy8ORNb8vrWWm4TEtxo0Ydc",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Ranson Barnes Recruitment Limited",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
     "job_id": "1807172",
     "title": "Service Desk Analyst",
     "company": "Venn Group - Agency - Permanent",
@@ -473,11 +434,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Data entry"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225516026",
@@ -502,13 +459,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Part Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Scheduling and bookings",
-      "Data entry",
-      "Document preparation"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225516072",
@@ -558,12 +509,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Telephone handling",
-      "Email handling",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225488492",
@@ -588,11 +534,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Telephone handling"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225515295",
@@ -620,9 +562,9 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "1708394",
-    "title": "Service Desk Analyst",
-    "company": "Identify Solutions - Agency - Permanent",
+    "job_id": "1771158",
+    "title": "Production Administrator",
+    "company": "Austin Banks - Agency - Permanent",
     "location": "Doncaster",
     "region": "Yorkshire - South",
     "country": "UK",
@@ -632,16 +574,116 @@
     "salary_max": "",
     "salary_text": "",
     "posted_date": "",
-    "description": "Service Desk Analyst\n\nWe're partnering with a growing, founder-led SaaS technology business operating within the workforce management and operations technology space.\n\nLed by a highly successful leadership team with a track record of building and scaling technology businesses, the company is helping organisations improve workforce visibility, employee safety, attendance, onboarding and operational efficiency through a combination of software, automation and innovative workplace technology.\n\nTheir customers span a range of sectors including facilities management, healthcare, logistics, retail, manufacturing and hospitality, supporting organisations with large frontline and operational workforces.\n\nWith continued growth and an expanding customer base, they are now looking to strengthen their Service Desk team with the addition of a customer-focused Service Desk Analyst.\n\nThe Opportunity\n\nAs a Service Desk Analyst, you'll be the first point of contact for customers using the platform and will play a key role in delivering an excellent support experience. You'll help customers resolve queries, investigate issues, provide guidance and ensure they get maximum value from the technology.\n\nThis is an excellent opportunity for someone with strong customer service skills who enjoys helping people and wants to build a career within technology and software support.\n\nWhat You'll Be Doing\n- Acting as the first point of contact for customers via phone, email and ticketing systems.\n- Delivering a professional, friendly and efficient customer experience.\n- Logging, prioritising and managing customer enquiries and incidents.\n- Investigating issues and identifying solutions using internal documentation and knowledge resources.\n- Keeping customers informed throughout the lifecycle of their enquiry.\n- Resolving issues wherever possible within agreed service levels.\n- Escalating more complex incidents to specialist teams with clear and accurate information.\n- Maintaining detailed records of customer interactions and resolutions.\n- Contributing to internal knowledge articles and support documentation.\n- Working collaboratively with colleagues to continuously improve customer service delivery.\n\nWhat We're Looking For\n\nWe're looking for someone who genuinely enjoys helping customers and takes pride in delivering a great service experience.\n\nYou'll likely have experience in:\n- Customer Service Advisor\n- Customer Support Advisor\n- Helpdesk Advisor\n- Service Desk Analyst\n- Contact Centre Advisor\n- Technical Support Administrator\n- Customer Experience Executive\n\nEssential Skills\n- Excellent verbal and written communication skills.\n- Strong customer service mindset.\n- Positive and professional approach.\n- Good problem-solving abilities and attention to detail.\n- Ability to manage multiple tasks and prioritise workload.\n- Confidence using technology and learning new systems.\n- Proactive attitude with a willingness to take ownership.\n- Ability to work independently in a remote environment whilst contributing effectively to a team.\n\nDesirable Experience\n\nWhilst not essential, we'd be particularly interested in people with:\n- Previous customer service experience.\n- Experience using business software.\n- Exposure to helpdesk or ticket management systems.\n- An interest in technology and software.\n- Previous experience working within a support environment.\n\nWhy Apply?\n- Hybrid working.\n- Comprehensive training and onboarding.\n- Opportunity to join a growing SaaS business.\n- Supportive and collaborative team culture.\n- Clear pathway into software and technology support.\n- Exposure to a modern technology platform used by organisations across the UK\n- £26,000 salary plus benefits",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?eq2PR%2bX5ctxCDA%2fnHXTzNvLs%2bb6OiEdJp",
+    "description": "About the Role\n\nWe are looking for a highly organised and detail-focused Production Administrator to join our client's engineering business based in Doncaster. This is a key role acting as the vital link between the production and planning teams, ensuring smooth day-to-day operations through accurate administration, reporting, and communication.\n\nThe ideal candidate will have strong Excel skills, excellent attention to detail, and the confidence to raise issues, track delays, and keep all relevant stakeholders informed.\n\nKey Responsibilities\n- Act as the central point of contact between the production and planning teams, ensuring clear and consistent communication\n- Provide regular updates on production progress, schedules, and any changes affecting output\n- Support production forecasting, helping to track and predict workload and capacity\n- Maintain accurate and up-to-date records across all production administration tasks\n- Raise issues, delays, and discrepancies promptly to the relevant teams\n- Prepare and distribute reports on production performance, delays, and KPIs\n- Liaise closely with the planning team to align schedules and resolve conflicts\n- Support general administrative duties across the production department\n- Maintain and update spreadsheets, trackers, and databases with a high level of accuracy\n- Flag any risks to production timelines and escalate where necessary\n\nSkills & Experience Required\n- Strong Excel skills - confident using formulas, spreadsheets, and data tracking tools (essential)\n- Excellent administrative skills with a high level of accuracy and attention to detail\n- Strong organisational skills with the ability to manage multiple tasks and priorities\n- Clear and confident communicator, comfortable liaising between different teams\n- Ability to work proactively, spotting and raising issues before they escalate\n- Experience in a production, manufacturing, or engineering environment is desirable but not essential\n- Comfortable working with reporting and forecasting data\n\nAbout you\n- Reliable, proactive, and a strong team player\n- Calm under pressure with the ability to problem-solve\n- Confident raising concerns and communicating delays or issues clearly\n- A genuine interest in supporting an efficient, well-run production operation",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?QHpHeWTcrP5th%2fc14nlc96Xmr8ixr5dYy",
     "source": "JobG8",
-    "working_arrangement": "hybrid",
-    "working_arrangement_text": "Hybrid working",
-    "working_arrangement_evidence": "Why Apply? - Hybrid working. - Comprehensive training and onboarding. - Opportunity to join a growing Saa S business. - Supportive and collaborative team culture. - Clear pathway into software and technology support. - Exposure to a modern technology platform used by organisations across the UK - £26,000 salary plus benefits Doncaster Yorkshire - South",
-    "advertiser_name": "Identify Solutions",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Austin Banks",
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
+    "job_id": "107910255",
+    "title": "Care Coordinator",
+    "company": "HICA - Agency - Permanent",
+    "location": "Doncaster",
+    "region": "Yorkshire - South",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "14",
+    "salary_max": "14",
+    "salary_text": "£14 per hour",
+    "posted_date": "",
+    "description": "Care Coordinator HICA Doncaster Homecare\n\nAs the leaves change, change lives. Join HICA and warm people's hearts this autumn.\n- Pay: £14.00 per hour\n- Contract: 40 hours per week\n\nNEW benefit for 2026! Introducing STREAM, giving you instant access to 50% of the money youve earned without waiting for payday!\n\nAt HICA, we believe in promoting from within click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?eq2PR%2bX5ctzTOl7IyKyoZWbS8bT2vX0Dp",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "HICA",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Hourly",
+    "posted_date_basis": ""
+  },
+  {
+    "job_id": "1771622",
+    "title": "Part Time Receptionist/Administrative Assistant",
+    "company": "BEYOND TALENT SOLUTIONS LIMITED - Agency - Permanent",
+    "location": "Rotherham",
+    "region": "Yorkshire - South",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "",
+    "posted_date": "",
+    "description": "Beyond Talent Solutions are delighted to be supporting a\n\nRotherham-based organisation with the appointment of a Part Time\n\nReceptionist / Administrator on a fixed term contract basis until\n\nthe end of the year. This is a fantastic opportunity for someone\n\nwho enjoys being at the heart of a busy office environment,\n\nproviding a warm welcome to visitors whilst keeping day-to-day\n\noperations running smoothly behind the scenes.\n\nThe Role\n\nYou'll play a key part in the administrative team, supporting\n\nwith both front-of-house reception duties and wider admin support\n\nacross the business.\n\nThis is a varied position, ideal for someone who enjoys\n\nmultitasking and being the go-to person for getting things done.\n\nKey Responsibilities\n\nManaging reception, ensuring a professional and welcoming\n\nenvironment\n\nHandling incoming calls, emails, and post\n\nMeeting and greeting visitors, managing sign-in and building\n\naccess\n\nSupporting meeting room bookings and set-up (including basic\n\ntech support)\n\nMaintaining diaries and coordinating room usage via Outlook\n\nOrdering office supplies and managing stock levels\n\nProviding general administrative support across teams\n\nAssisting with document preparation, scanning, and filing\n\nSupporting internal systems and data entry\n\nHelping with event organisation and meeting coordination\n\nProviding cover for administrative colleagues where needed\n\nWhat We're Looking For\n\nPrevious experience in an administrative or reception role\n\nConfident using Microsoft Office (Outlook, Word, Excel)\n\nStrong organisational skills and great attention to detail\n\nExcellent communication skills and a professional telephone\n\nmanner\n\nAbility to manage multiple tasks and prioritise effectively\n\nA proactive, team-focused approach with the confidence to work\n\nindependently\n\nSomeone who understands the importance of confidentiality\n\nThe Opportunity\n\nSeptember start\n\nPart-time hours offering work-life balance (Wednesday-Friday,\n\n9am - 4pm)\n\nFantastic benefits\n\nA varied and people-focused role within a supportive team\n\nIdeal for someone looking for short-term work over the summer\n\nperiod\n\nInterested?\n\nPlease get in touch with Beyond Talent Solutions for a\n\nconfidential conversation or apply today to find out more.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?UzhMt9n%2bTsTH3Q7AjzGeiPrc14gTwPKVm",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "BEYOND TALENT SOLUTIONS LIMITED",
+    "advertiser_type": "Agency",
+    "work_pattern": "Part Time",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
+    "job_id": "1770785",
+    "title": "Commercial Office Administrator",
+    "company": "Elevation Recruitment Group - Agency - Permanent",
+    "location": "Rotherham",
+    "region": "Yorkshire - South",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "18667",
+    "salary_max": "18667",
+    "salary_text": "£18667 per year",
+    "posted_date": "",
+    "description": "Commercial Office Administrator\nPart-Time 25 hours per week, Monday-Friday Permanent Onsite Rotherham £18,667 per annum\n\nElevation Recruitment Group are delighted to be recruiting for a Commercial Office Administrator to join a supportive and growing business based in Rotherham. This is a fantastic opportunity for an organised and proactive administrator looking to build their career in a varied commercial environment. The role would suit a recent graduate or someone with previous office-based experience who enjoys working across different areas of a business and building strong relationships with colleagues and customers.\n\nWorking closely with the Commercial, Finance, Engineering and Operations teams, you'll provide essential administrative support while gaining valuable exposure to commercial processes, customer service, finance and business operations.\n\nAs Commercial Office Administrator, you'll play an important role in keeping the day-to-day running of the business organised and efficient.\n\nYour responsibilities will include:\n- Managing incoming calls, emails, correspondence, meetings, calendars and filing systems\n- Preparing and formatting reports, spreadsheets, presentations and business documentation\n- Providing a high level of customer service, including responding to enquiries, providing order updates and resolving queries\n- Supporting the commercial team with spare parts quotations, quotation tracking and KPI reporting\n- Assisting with order book reporting, including gross and net order book data\n- Processing purchase orders, invoices and expenses\n- Maintaining accurate records and updating CRM and internal systems\n- Supporting reporting and data analysis to help monitor business performance\n- Coordinating office requirements, including supplies, travel and accommodation\n- Liaising with external providers, including maintenance and IT support\n- Maintaining accurate document control and records to support compliance and audits\n- Supporting export documentation, with training provided where required\n- Maintaining confidentiality and following company procedures and data protection requirements\n- Working collaboratively across departments to ensure a smooth and professional service\n\nWe're looking for someone who is:\n- Highly organised with excellent attention to detail\n- Confident communicating with customers and colleagues\n- Able to manage multiple priorities and meet deadlines\n- Proactive and comfortable working independently\n- Customer-focused with a professional approach\n- Confident using Microsoft Office, particularly Excel and Outlook\n- Keen to learn and develop within a commercial environment\n\nPrevious experience within an administrative, commercial or office-based role would be beneficial but is not essential.\n\nExperience with Sage or similar accounting software would be advantageous, as would exposure to export documentation. Full training will be provided.\n\nWhat's On Offer?\n- Permanent, part-time position working 25 hours Monday-Friday\n- £18,667 per annum\n- Onsite role based in Rotherham\n- Supportive and collaborative working environment\n- Varied role with exposure to multiple areas of the business\n- Ongoing training and development\n- Opportunity to build a long-term career within a growing organisation\n- Interview Date: Tuesday 1 September - onsite.\n\nIf you're an organised and enthusiastic administrator looking for a varied role where you can develop your skills and make a real contribution, we'd love to hear from you.\n\nFor more information, please contact Amy Wood or Sarah Larkin at Elevation Recruitment Group.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?vAYWCB8ag%2fi2hsuzxp%2frMwNJSDakqZnZi",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Elevation Recruitment Group",
+    "advertiser_type": "Agency",
+    "work_pattern": "Part Time",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
+    "job_id": "107804866",
+    "title": "Account Coordinator - Part Time",
+    "company": "Staffline Operations - Agency - Temporary",
+    "location": "Doncaster",
+    "region": "Yorkshire - South",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Temporary",
+    "salary_min": "13.5",
+    "salary_max": "13.5",
+    "salary_text": "£13.5 per hour",
+    "posted_date": "",
+    "description": "Great opportunity to work as an Part Time Account Coordinator for our client. The company produces Yorkshire Puddings for its customer portfolio in food retail.\n\nStaffline is recruiting an Account Coordinator in Thorne.\n\nThe rate of pay is up to £13.50 per hour\n\nThis is a part-time role working Monday to Friday, and the hours of work are:\n- 2pm to 6pm\n\nYour Time at Work\n\nAs a Account Coordinator yo click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?UzhMt9n%2bTsQNhng6xOs2RMiJ6WJockuim",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Staffline Operations",
+    "advertiser_type": "Agency",
+    "work_pattern": "Part Time",
+    "salary_period": "Hourly",
     "posted_date_basis": ""
   },
   {
