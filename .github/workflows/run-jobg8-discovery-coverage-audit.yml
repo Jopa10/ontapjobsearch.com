@@ -22,6 +22,8 @@ on:
     paths:
       - '.github/workflows/run-jobg8-discovery-coverage-audit.yml'
       - 'pipeline/scripts/jobg8_discovery_coverage_audit.py'
+      - 'pipeline/scripts/jobg8_selection_audit_export.py'
+      - 'pipeline/tests/test_jobg8_selection_audit_export.py'
       - 'pipeline/scripts/jobg8_refine_other_families.py'
       - 'pipeline/scripts/jobg8_insurance_claims_discovery.py'
       - 'pipeline/scripts/jobg8_family_boundary_review.py'
