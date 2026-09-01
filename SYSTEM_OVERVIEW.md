@@ -7,7 +7,7 @@ This is the short owner view of how Ontap is organised. It mirrors the five cano
 
 ## Recent canonical changes
 
-- 1 September 2026 — The downloadable daily regional overview workbook has separate Sitewide, JobG8 categories, LIVE and NOT LIVE tabs. NOT LIVE is laid out in compact single-line cells, while JobG8 categories shows both jobs received and the number currently published by Ontap in each supplier classification, with a published total that reconciles automatically.
+- 1 September 2026 — The downloadable daily regional overview workbook has separate Sitewide, JobG8 categories, LIVE and NOT LIVE tabs. NOT LIVE is exported only after its rolling evidence has been applied, so each compact single-line cell shows `today / 14d average / 6+ days`. JobG8 categories shows both jobs received and the number currently published by Ontap in each supplier classification, with a published total that reconciles automatically.
 
 - 1 September 2026 — The main daily regional overview now shows how many jobs the latest JobG8 coverage audit actually received and the count in each of JobG8's own supplied classifications. This is kept distinct from Ontap categories and live-job totals.
 

@@ -63,15 +63,15 @@ jobs:
       - name: Build daily regional overview
         run: python pipeline/scripts/build_daily_region_overview.py
 
-      - name: Export daily regional overview workbook
+      - name: Apply same-feed 78-market family coverage
+        working-directory: pipeline
+        run: python -m scripts.assess_daily_family_coverage --apply-existing
+
+      - name: Export final daily regional overview workbook
         run: |
           python pipeline/scripts/export_daily_region_overview_xlsx.py \
             --markdown pipeline/reports-daily/daily-region-overview.md \
             --output pipeline/reports-daily/daily-region-overview.xlsx
-
-      - name: Apply same-feed 78-market family coverage
-        working-directory: pipeline
-        run: python -m scripts.assess_daily_family_coverage --apply-existing
 
       - name: Verify overview isolation
         run: |
