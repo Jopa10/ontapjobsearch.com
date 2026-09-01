@@ -1,6 +1,6 @@
 # Support-worker manual review
 
-feed_date: 2026-08-31
+feed_date: 2026-09-01
 
 Edit only the `action:` line in each block:
 
@@ -57,13 +57,35 @@ SELECTED | Sussex | Brighton | £14 - £16 per hour | Support Worker
 job_id: 23643_222307132
 ---
 
+---
+action:
+SELECTED | Sussex | Bognor Regis | £16.50 per hour | Waking Night Support Worker
+job_id: 1756847
+---
+
+---
+action:
+SELECTED | Sussex | Hastings | £13.79 per hour | Care Assistant
+job_id: 107826653
+---
+
 ## SUSSEX — POSSIBLES
 
 _No jobs in this group._
 
 ## CUMBRIA SOUTH — SELECTED
 
-_No jobs in this group._
+---
+action:
+SELECTED | Cumbria - South | Barrow-in-furness | £12.85 per hour (plus rolled up holiday pay) | Relief Support Worker
+job_id: 107877592
+---
+
+---
+action:
+SELECTED | Cumbria - South | Barrow-in-furness | £12.85 per hour | Waking Night Extra Care Support Worker
+job_id: 107911831
+---
 
 ## CUMBRIA SOUTH — POSSIBLES
 
@@ -103,22 +125,22 @@ job_id: 1401784682
 
 ---
 action:
-SELECTED | Hampshire | Havant | £25186 - £26244 per year | Care Assistant
-job_id: 1401784679
+SELECTED | Hampshire | Southampton | £29,453 per annum | Waking Night Support Worker
+job_id: 1663151
 ---
 
 ## HAMPSHIRE — POSSIBLES
 
 ---
 action:
-POSS - HAMPSHIRE | Hampshire | Havant | £33178 - £36369 per year | Support Worker (Out of Hours)
-job_id: 1401784888
+POSS - HAMPSHIRE | Hampshire | Eastleigh | £32780 - £35564 per year (Market Supplement, plus Enhancements) | Secure Children's Home Support Worker
+job_id: 1401784900
 ---
 
 ---
 action:
-POSS - HAMPSHIRE | Hampshire | Eastleigh | £32780 - £35564 per year (Market Supplement, plus Enhancements) | Secure Children's Home Support Worker
-job_id: 1401784900
+POSS - HAMPSHIRE | Hampshire | Havant | £33178 - £36369 per year | Support Worker (Out of Hours)
+job_id: 1401784888
 ---
 
 ## KENT — SELECTED
@@ -131,8 +153,8 @@ job_id: 1402264062
 
 ---
 action:
-SELECTED | Kent | Kent | £25845 per year | Female Support Worker
-job_id: 23643_225442302
+SELECTED | Kent | Kent | £13.79 - £14.31 per hour | Bank Care Assistant
+job_id: 107858271
 ---
 
 ## KENT — POSSIBLES
@@ -185,14 +207,14 @@ job_id: 23643_225535652
 
 ---
 action:
-SELECTED | London | Bromley | £100 - £110 per daily | Autism Support Worker
-job_id: 1815970
+SELECTED | London | London | £35000 per year | Founders Personal Assistant / Executive Assistant
+job_id: 107885503
 ---
 
 ---
 action:
-SELECTED | London | Wandsworth | £95 - £115 per daily | Behaviour Support Assistant
-job_id: 1708252
+SELECTED | London | Bromley | £100 - £110 per daily | Autism Support Worker
+job_id: 1815970
 ---
 
 ---
@@ -201,17 +223,23 @@ SELECTED | London | London | £14.8 per hour | Support Worker
 job_id: 23643_225165439
 ---
 
+---
+action:
+SELECTED | London | City | £26,229 per annum | Residential Support Worker (Mental Health)
+job_id: 1787859
+---
+
+---
+action:
+SELECTED | London | London | £23,088.00 per annum | Waking Night Support Worker
+job_id: 1664745
+---
+
 ## LONDON — POSSIBLES
 
 _No jobs in this group._
 
 ## OXFORDSHIRE — SELECTED
-
----
-action:
-SELECTED | Oxfordshire | Oxford | £85 - £105 per daily | Youth Support Worker - Oxford
-job_id: 1695997
----
 
 ---
 action:
@@ -227,14 +255,14 @@ job_id: 1819710
 
 ---
 action:
-SELECTED | Oxfordshire | Oxford | £90 - £105 per daily | Autism Support Worker - Oxford
-job_id: 1721690
+SELECTED | Oxfordshire | Bicester | £26000 per year | Support Worker
+job_id: 107893300
 ---
 
 ---
 action:
-SELECTED | Oxfordshire | Kidlington | £85 - £110 per daily | Emotional Support Worker - Kidlington
-job_id: 1721685
+SELECTED | Oxfordshire | Oxford | £26000 per year | Male Support Worker
+job_id: 107893161
 ---
 
 ## OXFORDSHIRE — POSSIBLES
@@ -261,6 +289,12 @@ SELECTED | Surrey | Lingfield | £25308 - £27180 per year | Residential Support
 job_id: 1808682
 ---
 
+---
+action:
+SELECTED | Surrey | Guildford | £13.05 per hour | Residential Childcare Support Worker (Casual)
+job_id: 107910707
+---
+
 ## SURREY — POSSIBLES
 
 ---
@@ -273,20 +307,14 @@ job_id: 23643_225534852
 
 ---
 action:
-SELECTED | Wiltshire | Trowbridge | £85 - £110 per daily | Mental Health Support Worker
-job_id: 1693230
+SELECTED | Wiltshire | Swindon | £26,227 per annum | Female BSW Crisis House Peer Support Worker
+job_id: 1787836
 ---
 
 ---
 action:
-SELECTED | Wiltshire | Chippenham | £85 - £110 per daily | Autism Support Worker
-job_id: 1693131
----
-
----
-action:
-SELECTED | Wiltshire | Chippenham | £85 - £110 per daily | Emotional and Mental Health Support Worker
-job_id: 1709295
+SELECTED | Wiltshire | Trowbridge | £30000 per year | Recovery Worker
+job_id: 107899505
 ---
 
 ## WILTSHIRE — POSSIBLES
