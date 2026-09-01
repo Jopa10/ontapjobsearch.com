@@ -1,11 +1,13 @@
 # Ontap System Overview
 
-**Last updated:** 30 August 2026
-**Status:** Canonical production state including owner-facing JobG8 selection auditing, live-site reporting reconciliation and Teaching Vacancies regional publish isolation.
+**Last updated:** 1 September 2026
+**Status:** Canonical production state including restored NHS Google Jobs eligibility, owner-facing JobG8 selection auditing, live-site reporting reconciliation and Teaching Vacancies regional publish isolation.
 
 This is the short owner view of how Ontap is organised. It mirrors the five canonical system buckets in `SYSTEM_MAP.md`.
 
 ## Recent canonical changes
+
+- 1 September 2026 — **NHS vacancies are eligible for Google Jobs again:** the strict 27 August posting-date check accidentally rejected NHS's fractional source timestamps and suppressed NHS `JobPosting` markup. Ontap now retains the factual NHS posting date as `YYYY-MM-DD`, keeps other malformed dates fail-closed and marks only NHS URLs for Indexing API resubmission.
 
 - 30 August 2026 — **The fourth owner title sweep is encoded:** further agreed Admin, Payroll/Finance, Legal Support, Care/Support, People Operations and Sales Coordination titles now enter their existing governed families. Ambiguous roles, IT Support and Housing Officer remain parked; ordinary publication rules still decide what becomes live. The earlier `City` geography fix already corrects this workbook's definite false-London mappings without forcing ambiguous county conflicts.
 
