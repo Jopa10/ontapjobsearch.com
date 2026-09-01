@@ -1,6 +1,6 @@
 # Ontap daily regional overview
 
-Generated: 2026-09-01T12:36:26+01:00
+Generated: 2026-09-01T13:08:23+01:00
 
 ## SITEWIDE RECONCILIATION
 
@@ -35,10 +35,10 @@ Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-09-0
 
 | Region | Service admin | Support worker | Sales advisor | Paralegal | Marketing | Finance / Accounts | HR / Recruitment | CS / Contact centre |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| Bedfordshire |  |  |  |  |  |  |  |  |
+| Bedfordshire | CHECK |  |  |  |  |  |  |  |
 | Berkshire | 29 |  |  |  | 13 |  | 2 |  |
-| Bristol & Bath | 26 |  |  |  |  | CHECK |  |  |
-| Buckinghamshire | 30 |  |  |  |  |  |  |  |
+| Bristol & Bath | 26 |  | CHECK |  |  | CHECK |  |  |
+| Buckinghamshire | 30 |  |  |  | CHECK |  |  |  |
 | Cambridgeshire | 28 |  |  |  |  |  |  |  |
 | Cheshire - East | 11 |  |  |  |  |  |  |  |
 | Cheshire - Warrington & Halton | 1 |  |  |  |  |  |  |  |
@@ -120,10 +120,10 @@ Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-09-0
 
 | Region | Service admin | Support worker | Sales advisor | Paralegal | Marketing | Finance / Accounts | HR / Recruitment | CS / Contact centre |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| Bedfordshire | 9 / 6.0 / 6/11 | 0 / 0.2 / 0/11 | 2 / 2.2 / 0/11 | 4 / 3.8 / 0/9 | 1 / 1.1 / 0/9 | 1 / 0.7 / 0/6 | 1 / 1.0 / 0/8 | 1 / 1.0 / 0/5 |
+| Bedfordshire |  | 0 / 0.2 / 0/11 | 2 / 2.2 / 0/11 | 4 / 3.8 / 0/9 | 1 / 1.1 / 0/9 | 1 / 0.7 / 0/6 | 1 / 1.0 / 0/8 | 1 / 1.0 / 0/5 |
 | Berkshire |  | 0 / 3.5 / 3/11 | 7 / 1.7 / 1/11 | 2 / 0.7 / 0/9 |  | 2 / 0.5 / 0/6 |  | 1 / 0.2 / 0/5 |
-| Bristol & Bath |  | 1 / 1.0 / 0/11 | 9 / 6.6 / 9/11 | 3 / 2.9 / 1/9 | 7 / 2.6 / 1/9 |  | 2 / 1.8 / 0/8 | 5 / 2.0 / 0/5 |
-| Buckinghamshire |  | 0 / 0.7 / 0/11 | 1 / 0.6 / 0/11 | 1 / 1.0 / 0/9 | 13 / 4.1 / 2/9 | 1 / 2.0 / 0/6 | 1 / 0.8 / 0/8 | 6 / 2.4 / 1/5 |
+| Bristol & Bath |  | 1 / 1.0 / 0/11 |  | 3 / 2.9 / 1/9 | 7 / 2.6 / 1/9 |  | 2 / 1.8 / 0/8 | 5 / 2.0 / 0/5 |
+| Buckinghamshire |  | 0 / 0.7 / 0/11 | 1 / 0.6 / 0/11 | 1 / 1.0 / 0/9 |  | 1 / 2.0 / 0/6 | 1 / 0.8 / 0/8 | 6 / 2.4 / 1/5 |
 | Cambridgeshire |  | 0 / 0.1 / 0/11 | 3 / 2.5 / 0/11 | 1 / 1.2 / 0/9 | 6 / 2.6 / 1/9 | 3 / 4.5 / 2/6 | 0 / 0.1 / 0/8 | 1 / 1.0 / 0/5 |
 | Cheshire - East |  | 0 / 0.6 / 0/11 | 3 / 1.5 / 0/11 | 0 / 0.2 / 0/9 | 3 / 1.0 / 0/9 | 0 / 0.0 / 0/6 | 0 / 0.0 / 0/8 | 3 / 1.8 / 0/5 |
 | Cheshire - Warrington & Halton |  | 1 / 1.4 / 0/11 | 6 / 2.1 / 1/11 | 2 / 1.3 / 0/9 | 1 / 0.3 / 0/9 | 7 / 4.7 / 2/6 | 0 / 0.1 / 0/8 | 0 / 0.0 / 0/5 |
@@ -203,7 +203,7 @@ Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-09-0
 
 | Measure | Service admin | Support worker | Sales advisor | Paralegal | Marketing | Finance / Accounts | HR / Recruitment | CS / Contact centre |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| Live regions | 46 / 78 | 11 / 78 | 4 / 78 | 4 / 78 | 5 / 78 | 8 / 78 | 6 / 78 | 4 / 78 |
-| Live slice placements | 1403 | 37 + 1 CHECK | 77 | 21 + 1 CHECK | 120 | 0 + 8 CHECK | 28 | 36 |
+| Live regions | 47 / 78 | 11 / 78 | 5 / 78 | 4 / 78 | 6 / 78 | 8 / 78 | 6 / 78 | 4 / 78 |
+| Live slice placements | 1403 + 1 CHECK | 37 + 1 CHECK | 77 + 1 CHECK | 21 + 1 CHECK | 120 + 1 CHECK | 0 + 8 CHECK | 28 | 36 |
 
-**Live slices: 88 / 624.**
+**Live slices: 91 / 624.**
