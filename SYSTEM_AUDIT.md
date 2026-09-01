@@ -13,7 +13,7 @@ Business priority wins over technical neatness. Website routes and public URLs a
 
 ### Scheduled source refresh
 
-- `run-full-jobg8-daily-process.yml` — primary JobG8 production entry point, twice daily.
+- `run-full-jobg8-daily-process.yml` — primary JobG8 production entry point, twice daily. GitHub cron is primary; cron-job.org dispatches the same workflow at 08:35 and 17:35 Europe/London as an idempotent fallback. A committed same-date morning/evening marker is written only after a successful complete run, and the workflow concurrency lock means a late duplicate exits before work starts.
 - `run-nejobs-review.yml` — daily NEJobs review refresh.
 - `run-vonne-review.yml` — daily VONNE review refresh.
 - `run-teaching-vacancies-regional-review.yml` — daily Teaching Vacancies review refresh; its evidence writeback now uses full-history checkout plus pull-rebase/push retry protection against concurrent `main` updates.

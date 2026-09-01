@@ -1,11 +1,13 @@
 # Ontap System Overview
 
 **Last updated:** 1 September 2026
-**Status:** Canonical production state including restored NHS Google Jobs eligibility, owner-facing JobG8 selection auditing, live-site reporting reconciliation and Teaching Vacancies regional publish isolation.
+**Status:** Canonical production state including an idempotent external fallback for the JobG8 daily process, restored NHS Google Jobs eligibility, owner-facing JobG8 selection auditing, live-site reporting reconciliation and Teaching Vacancies regional publish isolation.
 
 This is the short owner view of how Ontap is organised. It mirrors the five canonical system buckets in `SYSTEM_MAP.md`.
 
 ## Recent canonical changes
+
+- 1 September 2026 — **The twice-daily JobG8 refresh has a safe fallback:** cron-job.org can trigger the existing morning and evening JobG8 workflow at 08:35 and 17:35 UK time. The workflow records a completed UK cycle only after its normal process and commit succeed. If GitHub’s own delayed cron run then arrives, it recognises that completed cycle and ends without rerunning or making duplicate commits. If the first attempt fails, it is not marked complete, so the other trigger can still run it.
 
 - 1 September 2026 — **NHS vacancies are eligible for Google Jobs again:** the strict 27 August posting-date check accidentally rejected NHS's fractional source timestamps and suppressed NHS `JobPosting` markup. Ontap now retains the factual NHS posting date as `YYYY-MM-DD`, keeps other malformed dates fail-closed and marks only NHS URLs for Indexing API resubmission.
 

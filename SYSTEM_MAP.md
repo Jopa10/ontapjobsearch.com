@@ -1,11 +1,13 @@
 # Ontap System Map
 
 **Last updated:** 1 September 2026
-**Status:** Canonical production architecture including restored NHS Google Jobs eligibility, owner-facing JobG8 selection auditing, live-site reporting reconciliation and Teaching Vacancies regional publish isolation.
+**Status:** Canonical production architecture including an idempotent external fallback for the twice-daily JobG8 process, restored NHS Google Jobs eligibility, owner-facing JobG8 selection auditing, live-site reporting reconciliation and Teaching Vacancies regional publish isolation.
 
 This is the authoritative technical map of the persistent Ontap system. It is organised into five canonical buckets. Facts not verified from the repository are marked `UNKNOWN / NEEDS AUDIT` rather than inferred from chat history.
 
 ## Recent canonical changes
+
+- 1 September 2026 — **JobG8 has a safe external scheduling fallback:** `Run full JobG8 daily process` accepts an authenticated `workflow_dispatch` for an explicit UK `morning` or `evening` cycle. A small committed state file records a cycle only after its full pipeline succeeds and is included in the existing guarded output commit. The workflow-wide `jobg8-daily` concurrency lock serialises GitHub cron and external requests; any later request for a completed same-date/cycle exits successfully without downloading, archiving, composing or committing a second time. A failed or unpushed run leaves no completion marker, so the fallback remains able to recover it. cron-job.org is configuration only, not a second pipeline or repository secret.
 
 - 1 September 2026 — **NHS Google Jobs eligibility restored after strict-date regression:** NHS Jobs source timestamps containing fractional seconds without a timezone are now emitted as their factual `YYYY-MM-DD` source date in `JobPosting`, without inventing timezone precision. Strict fail-closed behaviour remains unchanged for every other source and malformed date. NHS-only Indexing API fingerprints are versioned once so restored NHS pages are resubmitted without consuming the daily quota on unchanged JobG8 or other-provider URLs.
 
@@ -110,7 +112,7 @@ Canonical stages:
 
 ### Main scheduled JobG8 path
 
-Primary scheduled entry point: `.github/workflows/run-full-jobg8-daily-process.yml`.
+Primary scheduled entry point: `.github/workflows/run-full-jobg8-daily-process.yml`. GitHub cron remains the primary trigger. cron-job.org may call its existing `workflow_dispatch` endpoint at 08:35 and 17:35 Europe/London as the scheduling fallback, sending the explicit `morning`/`evening` input respectively.
 
 It runs at 07:30 and 15:30 Europe/London and performs:
 
@@ -380,7 +382,7 @@ NHS/public-sector inventory is a complementary supply and sector-switching advan
 
 Core scheduled workflows include:
 
-- `run-full-jobg8-daily-process.yml` — 07:30 and 15:30 Europe/London; includes fresh transactional NHS Service Admin composition, generation of all currently LIVE Customer Sales slices, same-feed 55-market diagnostic coverage for Service Admin, Support Worker and Customer Sales, and rolling 14-feed-date history maintenance;
+- `run-full-jobg8-daily-process.yml` — GitHub cron remains primary; cron-job.org dispatches the existing workflow at 08:35 and 17:35 Europe/London as a fallback. A persisted same-date `morning`/`evening` completion marker plus the workflow-wide concurrency lock makes either trigger idempotent: a late duplicate exits before feed download, while a failed/unpushed attempt is not marked complete and can retry. The workflow includes fresh transactional NHS Service Admin composition, generation of all currently LIVE Customer Sales slices, same-feed 78-market diagnostic coverage and rolling 14-feed-date history maintenance;
 - `run-nejobs-review.yml` — 06:15 daily;
 - `run-vonne-review.yml` — 06:35 daily;
 - `run-teaching-vacancies-regional-review.yml` — 06:55 daily; final review/manifests commit is protected by full-history checkout plus up to three pull-rebase/push attempts so concurrent `main` writes do not strand fresh TV state;
