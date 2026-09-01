@@ -73,6 +73,11 @@ function fingerprint(job: PublishedJob) {
     posted_date_basis: job.posted_date_basis,
     closing_date: job.closing_date,
     closing_datetime: job.closing_datetime,
+    // Version only NHS fingerprints for the restored schema so the repaired
+    // URLs are resubmitted without spending quota on unchanged providers.
+    ...(job.source.trim().toLowerCase() === "nhs jobs"
+      ? { nhsSchemaVersion: "posted-date-v1" }
+      : {}),
   };
 
   return crypto
