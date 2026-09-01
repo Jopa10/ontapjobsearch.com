@@ -129,6 +129,18 @@ SELECTED | Hampshire | Southampton | £29,453 per annum | Waking Night Support W
 job_id: 1663151
 ---
 
+---
+action:
+SELECTED | Hampshire | Southampton | £25186 - £26244 per year | Night Care Worker
+job_id: 1401784887
+---
+
+---
+action:
+SELECTED | Hampshire | Basingstoke | £25186 - £26244 per year | Day Opportunities Support Worker
+job_id: 1401784678
+---
+
 ## HAMPSHIRE — POSSIBLES
 
 ---
@@ -159,7 +171,11 @@ job_id: 107858271
 
 ## KENT — POSSIBLES
 
-_No jobs in this group._
+---
+action:
+POSS - KENT | Kent | Kent | £13.45 per hour (£13.45) | Housing Support Worker (Casual)
+job_id: 23643_225534852
+---
 
 ## LONDON — SELECTED
 
@@ -259,12 +275,6 @@ SELECTED | Oxfordshire | Bicester | £26000 per year | Support Worker
 job_id: 107893300
 ---
 
----
-action:
-SELECTED | Oxfordshire | Oxford | £26000 per year | Male Support Worker
-job_id: 107893161
----
-
 ## OXFORDSHIRE — POSSIBLES
 
 _No jobs in this group._
@@ -289,19 +299,9 @@ SELECTED | Surrey | Lingfield | £25308 - £27180 per year | Residential Support
 job_id: 1808682
 ---
 
----
-action:
-SELECTED | Surrey | Guildford | £13.05 per hour | Residential Childcare Support Worker (Casual)
-job_id: 107910707
----
-
 ## SURREY — POSSIBLES
 
----
-action:
-POSS - SURREY | Surrey | Cobham | £13.45 per hour (£13.45) | Housing Support Worker (Casual)
-job_id: 23643_225534852
----
+_No jobs in this group._
 
 ## WILTSHIRE — SELECTED
 

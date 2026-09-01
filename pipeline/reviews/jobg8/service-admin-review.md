@@ -211,12 +211,6 @@ job_id: 23643_225542036
 
 ---
 action:
-SELECTED | Yorkshire - West | Leeds | £13.27 per hour | Lead Activities Coordinator
-job_id: 107902255
----
-
----
-action:
 SELECTED | Yorkshire - West | Wetherby | £28000 - £30000 per year | Operations Coordinator
 job_id: 23643_225445220
 ---
@@ -1133,18 +1127,6 @@ job_id: 107888542
 
 ---
 action:
-SELECTED | London | London |  | Campaign Co-ordinator 1371-1
-job_id: 107909025
----
-
----
-action:
-SELECTED | London | London | £30000 per year | New Business Coordinators Asset Finance
-job_id: 107907297
----
-
----
-action:
 SELECTED | London | London | £30000 per year | Reward Coordinator
 job_id: 107786275
 ---
@@ -1165,6 +1147,12 @@ job_id: 20091_322762
 action:
 SELECTED | London | London |  | The Free Churches Group Secretary for Prison Chaplaincy
 job_id: 1830018
+---
+
+---
+action:
+SELECTED | London | London |  | Campaign Co-ordinator 1371-1
+job_id: 107909025
 ---
 
 ## LONDON — POSSIBLES
@@ -1215,6 +1203,12 @@ job_id: 1808439
 action:
 POSS - LONDON | London | Sutton-in-ashfield | £50000 - £70000 per year | Executive Assistant
 job_id: 23643_225475553
+---
+
+---
+action:
+POSS - LONDON | London | London | £80000 - £95000 per year | Chartered Financial Planner
+job_id: 1733895
 ---
 
 ---
@@ -1461,6 +1455,12 @@ job_id: 1769524
 
 ---
 action:
+SELECTED | Hampshire | Hampshire |  | HR Assistant
+job_id: 1769284
+---
+
+---
+action:
 SELECTED | Hampshire | Hampshire | £31600 per year | Planner
 job_id: 1782929
 ---
@@ -1601,6 +1601,18 @@ job_id: 107825061
 action:
 SELECTED | Hampshire | Hampshire | £28000 per year | Customer Service Coordinator
 job_id: 107787258
+---
+
+---
+action:
+SELECTED | Hampshire | Isle of Wight | £28000 per year | Support Coordinator
+job_id: 107904656
+---
+
+---
+action:
+SELECTED | Hampshire | Hampshire | £32,000 per annum | Business Administrator
+job_id: 107907161
 ---
 
 ## HAMPSHIRE — POSSIBLES
@@ -1941,12 +1953,6 @@ job_id: 23643_225548075
 action:
 SELECTED | Surrey | Surrey | £13.75 per hour | French Speaking Customer Service Administrator
 job_id: 23643_225443129
----
-
----
-action:
-SELECTED | Surrey | Sunbury-on-thames |  | Sales Support Executive
-job_id: 107900868
 ---
 
 ---
@@ -2635,12 +2641,6 @@ job_id: 23643_225497892
 
 ---
 action:
-SELECTED | Berkshire | Berkshire | £25000 - £26000 per year (FTE) | Junior Despatch Coordinator
-job_id: 23643_225223268
----
-
----
-action:
 SELECTED | Berkshire | Berkshire | £13.5 per hour | Receptionist
 job_id: 23643_225448055
 ---
@@ -2655,6 +2655,12 @@ job_id: 23643_225451460
 action:
 SELECTED | Berkshire | Berkshire | £10692 - £11751 per year | HR Coordinator
 job_id: 23643_225455907
+---
+
+---
+action:
+SELECTED | Berkshire | Berkshire | £13.47 - £14.43 per hour | Workplace Coordinator
+job_id: 23643_225472204
 ---
 
 ---
@@ -2763,6 +2769,12 @@ job_id: 17537_0000032984
 action:
 SELECTED | Berkshire | Berkshire |  | Customer Service Advisor - German Speaking (fixed-term)
 job_id: 21618_17537_0000032984
+---
+
+---
+action:
+SELECTED | Berkshire | Berkshire |  | Customer Service Advisor - German Speaking (fixed-term)
+job_id: 107787076
 ---
 
 ## BERKSHIRE — POSSIBLES
@@ -2885,14 +2897,14 @@ job_id: 23643_225547840
 
 ---
 action:
-SELECTED | Bristol & Bath | Bristol | £30000 per year | Sales and Partnerships Coordinator
-job_id: 107909264
+SELECTED | Bristol & Bath | Bristol |  | Sales and Partnerships Coordinator
+job_id: 1821573
 ---
 
 ---
 action:
-SELECTED | Bristol & Bath | Bristol |  | Sales and Partnerships Coordinator
-job_id: 1821573
+SELECTED | Bristol & Bath | Bristol | £30000 per year | Sales and Partnerships Coordinator
+job_id: 107909264
 ---
 
 ## BRISTOL & BATH — POSSIBLES
@@ -3287,12 +3299,6 @@ job_id: 23643_225461525
 
 ---
 action:
-SELECTED | Derbyshire | Derbyshire | £12.71 per hour | Admin Advertiser
-job_id: 23643_225511181
----
-
----
-action:
 SELECTED | Derbyshire | Derbyshire | £28000 - £30000 per year | Service Technical Planner
 job_id: 23643_225518063
 ---
@@ -3441,6 +3447,12 @@ job_id: 1767541
 
 ---
 action:
+SELECTED | Devon | Devon | £12.87 Per Hour | Customer Service Advisor
+job_id: 1733398
+---
+
+---
+action:
 SELECTED | Devon | Devon | £24000 per year | Admin Assistant
 job_id: 107719278
 ---
@@ -3467,6 +3479,12 @@ job_id: 107893592
 action:
 SELECTED | Devon | Devon |  | Customer Care Coordinator
 job_id: 107911152
+---
+
+---
+action:
+SELECTED | Devon | Devon |  | Receptionist
+job_id: 107903772
 ---
 
 ## DEVON — POSSIBLES
@@ -4467,14 +4485,14 @@ job_id: 107580099
 
 ---
 action:
-SELECTED | Hertfordshire | Hertfordshire | £28000 per year | Social Media Coordinator
-job_id: 107891184
+SELECTED | Hertfordshire | Hertfordshire | £30000 per year | Sales Coordinator
+job_id: 107798822
 ---
 
 ---
 action:
-SELECTED | Hertfordshire | Hertfordshire | £30000 per year | Sales Coordinator
-job_id: 107798822
+SELECTED | Hertfordshire | Hertfordshire | £28000 per year | Social Media Coordinator
+job_id: 107891184
 ---
 
 ## HERTFORDSHIRE — POSSIBLES
@@ -5069,17 +5087,17 @@ SELECTED | Northamptonshire | Northamptonshire | £16 per hour | Recruitment Ope
 job_id: 107786406
 ---
 
+---
+action:
+SELECTED | Northamptonshire | Northamptonshire | £26000 per year | Sales Administrator
+job_id: 107875009
+---
+
 ## NORTHAMPTONSHIRE — POSSIBLES
 
 _No jobs in this group._
 
 ## NORTHERN IRELAND - EAST — SELECTED
-
----
-action:
-SELECTED | Northern Ireland - East | Belfast | £12.71 - £14.08 per hour | Administrators
-job_id: 2047973
----
 
 ---
 action:
@@ -5161,6 +5179,12 @@ job_id: 23643_225472766
 action:
 SELECTED | Nottinghamshire | Nottinghamshire | £12.72 per hour | Receptionist - Bank
 job_id: 23643_225494401
+---
+
+---
+action:
+SELECTED | Nottinghamshire | Nottinghamshire | £12.71 per hour | Admin Advertiser
+job_id: 23643_225511181
 ---
 
 ---
@@ -5279,12 +5303,6 @@ job_id: 23643_225464294
 action:
 SELECTED | Oxfordshire | Oxfordshire | £13 per hour | Administrator
 job_id: 23643_225358207
----
-
----
-action:
-SELECTED | Oxfordshire | Oxfordshire | £13.47 - £14.43 per hour | Workplace Coordinator
-job_id: 23643_225472204
 ---
 
 ---
@@ -5417,12 +5435,6 @@ job_id: 107901549
 action:
 SELECTED | Oxfordshire | Oxfordshire | £12.79 per hour | Receptionist
 job_id: 23643_225548050
----
-
----
-action:
-SELECTED | Oxfordshire | Oxfordshire | £30000 per year | Accounts Administrator
-job_id: 107910649
 ---
 
 ---
@@ -5635,12 +5647,6 @@ job_id: 23643_225492971
 
 ---
 action:
-SELECTED | Shropshire | Shropshire | £30000 per year | Key Accounts Administrator
-job_id: 107819872
----
-
----
-action:
 SELECTED | Shropshire | Shropshire | £28000 - £33000 per year | Client Coordinator
 job_id: 23643_225512376
 ---
@@ -5757,6 +5763,12 @@ job_id: 23643_225541272
 action:
 SELECTED | Somerset | Somerset |  | Marketing Coordinator
 job_id: 107837716
+---
+
+---
+action:
+SELECTED | Somerset | Somerset | £12.71 - £13.5 per hour | Business Administrator
+job_id: 107877530
 ---
 
 ## SOMERSET — POSSIBLES
@@ -6129,12 +6141,6 @@ job_id: 23643_225543172
 action:
 SELECTED | West Midlands - Birmingham & Solihull | Birmingham |  | Account Coordinator
 job_id: 107796411
----
-
----
-action:
-SELECTED | West Midlands - Birmingham & Solihull | Solihull |  | Learning and Development Coordinator
-job_id: 107893505
 ---
 
 ## WEST MIDLANDS - BIRMINGHAM & SOLIHULL — POSSIBLES
@@ -6523,12 +6529,6 @@ job_id: 107893306
 
 ---
 action:
-SELECTED | Yorkshire - North | York | £30000 per year | Sales and Marketing Coordinator
-job_id: 107804499
----
-
----
-action:
 SELECTED | Yorkshire - North | York | £30000 per year | Assessment Administration Coordinator
 job_id: 107909020
 ---
@@ -6537,6 +6537,18 @@ job_id: 107909020
 action:
 SELECTED | Yorkshire - North | York | £28000 per year | Design, Artwork & Social Media Co-ordinator
 job_id: 107840612
+---
+
+---
+action:
+SELECTED | Yorkshire - North | Scarborough |  | Service Coordinator (Generator)
+job_id: 107900212
+---
+
+---
+action:
+SELECTED | Yorkshire - North | York | £30000 per year | Sales and Marketing Coordinator
+job_id: 107804499
 ---
 
 ## YORKSHIRE - NORTH — POSSIBLES
