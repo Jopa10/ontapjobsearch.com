@@ -1,6 +1,6 @@
 # Ontap daily regional overview
 
-Generated: 2026-09-01T15:55:15+01:00
+Generated: 2026-09-01T16:12:25+01:00
 
 ## SITEWIDE RECONCILIATION
 
@@ -31,7 +31,7 @@ Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-09-0
 
 ## JOBG8 FEED RECEIVED
 
-**JobG8 jobs received: 5,354** (feed date: 2026-09-01)
+**JobG8 jobs received: 5,354** (feed date: 2026-08-31)
 
 | JobG8 classification | Jobs received |
 |---|---:|
