@@ -1,6 +1,6 @@
 # Ontap daily regional overview
 
-Generated: 2026-09-01T16:54:14+01:00
+Generated: 2026-09-01T17:07:46+01:00
 
 [Download this overview as Excel](./daily-region-overview.xlsx)
 
@@ -8,16 +8,16 @@ Generated: 2026-09-01T16:54:14+01:00
 
 | Measure | Count |
 |---|---:|
-| Unique live jobs | 1,671 |
+| Unique live jobs | 1,670 |
 | Unique JobG8 jobs | 1,308 |
-| Unique non-JobG8 jobs | 363 |
-| Regional/category slice placements | 1,722 |
+| Unique non-JobG8 jobs | 362 |
+| Regional/category slice placements | 1,721 |
 | Jobs appearing on multiple slices | 51 |
 | Extra slice placements | 51 |
 | Unique jobs outside governed slices | 0 |
 | Jobs found in non-LIVE slices | 0 |
 
-**Reconciliation: 1,671 unique jobs + 51 extra slice placements = 1,722 regional/category slice placements.**
+**Reconciliation: 1,670 unique jobs + 51 extra slice placements = 1,721 regional/category slice placements.**
 
 Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-09-01.csv` — **STALE — CSV says 1,690 for 2026-09-01**.
 
@@ -29,7 +29,7 @@ Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-09-0
 | NEJobs | 19 | 0 | 0 |
 | NHS Jobs | 223 | 0 | 0 |
 | Teaching Vacancies | 119 | 0 | 0 |
-| VONNE | 2 | 0 | 0 |
+| VONNE | 1 | 0 | 0 |
 
 ## JOBG8 FEED RECEIVED
 
@@ -37,23 +37,24 @@ Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-09-0
 
 | JobG8 classification | Jobs received | Ontap jobs |
 |---|---:|---:|
-| I.T. & Communications | 2,547 |  |
-| Administration | 920 |  |
-| Healthcare & Medical | 669 |  |
-| Sales & Marketing | 267 |  |
-| HR / Recruitment | 125 |  |
-| Call Centre / CustomerService | 116 |  |
-| Real Estate & Property | 108 |  |
-| Legal | 107 |  |
-| Accounting | 101 |  |
-| Retail & Consumer Products | 99 |  |
-| Consulting & Corporate Strategy | 84 |  |
-| Advert / Media / Entertainment | 83 |  |
-| Banking & Financial Services | 65 |  |
+| I.T. & Communications | 2,547 | 28 |
+| Administration | 920 | 511 |
+| Healthcare & Medical | 669 | 30 |
+| Sales & Marketing | 267 | 25 |
+| HR / Recruitment | 125 | 15 |
+| Call Centre / CustomerService | 116 | 40 |
+| Real Estate & Property | 108 | 7 |
+| Legal | 107 | 10 |
+| Accounting | 101 | 13 |
+| Retail & Consumer Products | 99 | 7 |
+| Consulting & Corporate Strategy | 84 | 4 |
+| Advert / Media / Entertainment | 83 | 5 |
+| Banking & Financial Services | 65 | 1 |
 | Executive Positions | 29 |  |
 | Insurance & Superannuation | 23 |  |
 | Science & Technology | 11 |  |
-| Total JobG8 jobs received | 5,354 |  |
+| Published JobG8 ID absent from current feed | 0 | 612 |
+| Total Ontap JobG8 jobs published today | 5,354 | 1,308 |
 
 > LIVE counts come directly from the current published `app/` JSON, deduplicated within each canonical region/family slice while preserving legitimate appearances in more than one family. This is the live-site authority for the reconciliation above; the dated source-count CSV is shown only as a freshness cross-check. The overview covers all 78 assessable UK markets; LIVE status remains controlled only by the slice register. Before same-feed 78-market coverage has run, NOT LIVE Admin/Support and Customer Service may fall back to the latest all-region Module 2 profile (2026-08-17), and Service Admin may also add current Teaching Vacancies regional candidate output. `—` means not assessed / no current source; it does NOT mean zero. NOT LIVE Service Admin and Support Worker were assessed from the same JobG8 daily feed (2026-09-01) used by the production family run, across 78 UK markets with the config-driven production wrappers, persistent review decisions and canonical geo. NOT LIVE Sales Advisor was assessed from that same feed across 78 UK markets using the governed Customer Sales classifier, canonical geo, campaign dedupe and final production QA. Sales diagnostic counts are evidence only and never activate a slice automatically; LIVE Sales Advisor counts continue to come from the current published Customer Sales configured-slice JSON. NOT LIVE Paralegal, Marketing, Finance / Accounts and HR / Recruitment were assessed from that same feed across 78, 78, 78 and 78 UK markets respectively, using their governed production boundaries and canonical geo. NOT LIVE Customer Service / Contact Centre was assessed from that same feed across 78 UK markets using its governed exact-title, salary and geography rules. All diagnostic counts are evidence only and never activate a slice automatically. Rolling family history stores one snapshot per feed date, replaces same-date reruns, retains the latest 14 feed dates and is used only as decision evidence for NOT LIVE slices.
 
@@ -99,7 +100,7 @@ Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-09-0
 | Merseyside - St Helens & Knowsley |  |  |  |  |  |  |  |  |
 | Merseyside - Wirral |  |  |  |  |  |  |  |  |
 | Norfolk | 31 |  |  | CHECK |  |  |  |  |
-| North East | 66 | 1 | 10 |  |  | CHECK |  |  |
+| North East | 65 | 1 | 10 |  |  | CHECK |  |  |
 | North Scotland |  |  |  |  |  |  |  |  |
 | North Wales - East |  |  |  |  |  |  |  |  |
 | North Wales - West |  |  |  |  |  |  |  |  |
@@ -230,6 +231,6 @@ Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-09-0
 | Measure | Service admin | Support worker | Sales advisor | Paralegal | Marketing | Finance / Accounts | HR / Recruitment | CS / Contact centre |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
 | Live regions | 47 / 78 | 11 / 78 | 5 / 78 | 4 / 78 | 6 / 78 | 8 / 78 | 6 / 78 | 4 / 78 |
-| Live slice placements | 1403 + 1 CHECK | 37 + 1 CHECK | 77 + 1 CHECK | 21 + 1 CHECK | 120 + 1 CHECK | 0 + 8 CHECK | 28 | 36 |
+| Live slice placements | 1402 + 1 CHECK | 37 + 1 CHECK | 77 + 1 CHECK | 21 + 1 CHECK | 120 + 1 CHECK | 0 + 8 CHECK | 28 | 36 |
 
 **Live slices: 91 / 624.**
