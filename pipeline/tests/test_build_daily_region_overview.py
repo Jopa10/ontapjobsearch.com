@@ -1,16 +1,34 @@
 from __future__ import annotations
 
 import unittest
+from unittest.mock import patch
 
 from scripts.build_daily_region_overview import (
     FAMILIES,
     _live_count_for_market,
+    _load_jobg8_category_profile,
     _site_inventory_summary,
 )
 from scripts.live_job_source_counter import LiveInventory, LiveJob, LivePlacement
 
 
 class LiveRegionalRollupTests(unittest.TestCase):
+    def test_jobg8_profile_reconciles_category_counts(self) -> None:
+        from pathlib import Path
+        import tempfile
+        with tempfile.TemporaryDirectory() as directory:
+            profile = Path(directory) / "profile.csv"
+            profile.write_text(
+                "feed_date,total_jobs,jobg8_category,count\n"
+                "2026-09-01,5354,I.T. & Communications,2547\n"
+                "2026-09-01,5354,Administration,2807\n",
+                encoding="utf-8",
+            )
+            with patch("scripts.build_daily_region_overview.JOBG8_CATEGORY_PROFILE", profile):
+                loaded = _load_jobg8_category_profile()
+        self.assertEqual(loaded.total_jobs, 5354)
+        self.assertEqual(loaded.counts[0], ("I.T. & Communications", 2547))
+
     def test_overview_includes_all_eight_governed_families(self) -> None:
         self.assertEqual(
             [family["label"] for family in FAMILIES],
