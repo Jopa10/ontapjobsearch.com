@@ -76,12 +76,23 @@ function descriptionHtml(value: string): string {
 function postedDate(job: PublishedJob): string {
   const basis = text(job.posted_date_basis).toLowerCase();
   const legacyNeJobsSourceDate = job.source.toLowerCase() === 'nejobs' && !basis;
+  const candidate = text(job.posted_date);
 
   if (
     (RELIABLE_POSTED_DATE_BASES.has(basis) || legacyNeJobsSourceDate) &&
-    isValidIsoDate(job.posted_date)
+    isValidIsoDate(candidate)
   ) {
-    return job.posted_date;
+    return candidate;
+  }
+
+  // NHS Jobs source timestamps can contain provider precision without a timezone,
+  // for example 2026-08-18T11:20:36.306867. Google accepts a factual date-only
+  // value, so retain that source date without asserting an unknown timezone.
+  if (job.source.trim().toLowerCase() === 'nhs jobs' && basis === 'source') {
+    const nhsTimestamp = candidate.match(
+      /^(\d{4}-\d{2}-\d{2})T\d{2}:\d{2}:\d{2}(?:\.\d+)?$/
+    );
+    if (nhsTimestamp && isValidDateOnly(nhsTimestamp[1])) return nhsTimestamp[1];
   }
   return '';
 }
