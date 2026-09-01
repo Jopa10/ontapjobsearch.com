@@ -21,6 +21,7 @@ REPO_ROOT = PIPELINE_ROOT.parent
 CATALOG = PIPELINE_ROOT / "config" / "uk_assessable_regions.json"
 REGISTER = PIPELINE_ROOT / "registers" / "region_category_slice_register.csv"
 OUTPUT = PIPELINE_ROOT / "reports-daily" / "daily-region-overview.md"
+JOBG8_CATEGORY_PROFILE = PIPELINE_ROOT / "reports-daily" / "jobg8-feed-category-profile.csv"
 EXPECTED_REGION_COUNT = 78
 
 FAMILIES = (
@@ -149,6 +150,35 @@ class SiteInventorySummary:
     extra_slice_placements: int
     jobs_outside_governed_slices: int
     non_live_slice_jobs: int
+
+
+@dataclass(frozen=True)
+class JobG8CategoryProfile:
+    feed_date: str
+    total_jobs: int
+    counts: tuple[tuple[str, int], ...]
+
+
+def _load_jobg8_category_profile() -> JobG8CategoryProfile | None:
+    if not JOBG8_CATEGORY_PROFILE.is_file():
+        return None
+    with JOBG8_CATEGORY_PROFILE.open("r", encoding="utf-8-sig", newline="") as handle:
+        rows = list(csv.DictReader(handle))
+    required = {"feed_date", "total_jobs", "jobg8_category", "count"}
+    if not rows or not required.issubset(rows[0]):
+        raise RuntimeError(f"Unexpected JobG8 category profile: {JOBG8_CATEGORY_PROFILE}")
+    feed_dates = {(row.get("feed_date") or "").strip() for row in rows}
+    totals = {int((row.get("total_jobs") or "0").strip()) for row in rows}
+    if len(feed_dates) != 1 or len(totals) != 1:
+        raise RuntimeError("JobG8 category profile contains inconsistent feed dates or totals")
+    counts = tuple(
+        ((row.get("jobg8_category") or "(blank)").strip(), int((row.get("count") or "0").strip()))
+        for row in rows
+    )
+    total = totals.pop()
+    if sum(count for _category, count in counts) != total:
+        raise RuntimeError("JobG8 category profile does not reconcile to its stated total")
+    return JobG8CategoryProfile(feed_dates.pop(), total, counts)
 
 
 def _load_json(path: Path):
@@ -396,6 +426,7 @@ def build() -> str:
 
     statuses = _load_statuses()
     source_report = _load_source_report_summary()
+    jobg8_profile = _load_jobg8_category_profile()
     _profile_report, profile_date, profile_counts = _load_latest_profile_counts()
     decision_counts = {
         family["key"]: _load_selected_counts(family["decision_report"])
@@ -526,13 +557,28 @@ def build() -> str:
         "|---|---:|---:|---:|",
         *provider_rows,
         "",
+    ]
+
+    if jobg8_profile:
+        lines.extend([
+            "## JOBG8 FEED RECEIVED",
+            "",
+            f"**JobG8 jobs received: {jobg8_profile.total_jobs:,}** (feed date: {jobg8_profile.feed_date})",
+            "",
+            "| JobG8 classification | Jobs received |",
+            "|---|---:|",
+            *(f"| {category} | {count:,} |" for category, count in jobg8_profile.counts),
+            "",
+        ])
+
+    lines.extend([
         f"> LIVE counts come directly from the current published `app/` JSON, deduplicated within each canonical region/family slice while preserving legitimate appearances in more than one family. This is the live-site authority for the reconciliation above; the dated source-count CSV is shown only as a freshness cross-check. The overview covers all {EXPECTED_REGION_COUNT} assessable UK markets; LIVE status remains controlled only by the slice register. Before same-feed 78-market coverage has run, NOT LIVE Admin/Support and Customer Service may fall back to the latest all-region Module 2 profile ({profile_date or 'unavailable'}), and Service Admin may also add current Teaching Vacancies regional candidate output. `—` means not assessed / no current source; it does NOT mean zero.",
         "",
         "## LIVE",
         "",
         header,
         divider,
-    ]
+    ])
 
     for region_name, _slug, state in rows:
         live_cells = []
