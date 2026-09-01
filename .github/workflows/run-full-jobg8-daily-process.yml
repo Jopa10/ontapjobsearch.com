@@ -2,6 +2,16 @@ name: Run full JobG8 daily process
 
 on:
   workflow_dispatch:
+    inputs:
+      cycle:
+        description: 'Cycle to run; cron-job.org must set morning or evening.'
+        required: false
+        default: auto
+        type: choice
+        options:
+          - auto
+          - morning
+          - evening
   schedule:
     - cron: '30 7,15 * * *'
       timezone: 'Europe/London'
@@ -15,8 +25,38 @@ permissions:
   id-token: write
 
 jobs:
+  resolve-jobg8-daily-cycle:
+    name: Resolve JobG8 daily cycle
+    runs-on: ubuntu-latest
+    outputs:
+      should_run: ${{ steps.cycle.outputs.should_run }}
+      cycle: ${{ steps.cycle.outputs.cycle }}
+      date: ${{ steps.cycle.outputs.date }}
+
+    steps:
+      - name: Check out current main state
+        uses: actions/checkout@v4
+
+      - name: Check whether this UK daily cycle is already complete
+        id: cycle
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          EVENT_SCHEDULE: ${{ github.event.schedule }}
+          REQUESTED_CYCLE: ${{ inputs.cycle || 'auto' }}
+        run: |
+          python pipeline/scripts/jobg8_daily_cycle.py check \
+            --event-name "$EVENT_NAME" \
+            --schedule "$EVENT_SCHEDULE" \
+            --requested-cycle "$REQUESTED_CYCLE" \
+            --github-output "$GITHUB_OUTPUT"
+          if [ "$(grep '^should_run=' "$GITHUB_OUTPUT" | tail -1 | cut -d= -f2)" = false ]; then
+            echo "::notice::This JobG8 UK daily cycle has already completed; skipping duplicate run."
+          fi
+
   run-full-jobg8-daily-process:
     name: Run full JobG8 daily process
+    needs: resolve-jobg8-daily-cycle
+    if: needs.resolve-jobg8-daily-cycle.outputs.should_run == 'true'
     runs-on: ubuntu-latest
 
     steps:
@@ -330,6 +370,23 @@ jobs:
         working-directory: pipeline
         run: python -m scripts.persistent_jobg8_review --refresh-exclusion-report
 
+      - name: Mark completed JobG8 UK daily cycle
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          EVENT_SCHEDULE: ${{ github.event.schedule }}
+          REQUESTED_CYCLE: ${{ inputs.cycle || 'auto' }}
+          CYCLE: ${{ needs.resolve-jobg8-daily-cycle.outputs.cycle }}
+          CYCLE_DATE: ${{ needs.resolve-jobg8-daily-cycle.outputs.date }}
+          RUN_ID: ${{ github.run_id }}
+        run: |
+          set -euo pipefail
+          python pipeline/scripts/jobg8_daily_cycle.py mark \
+            --event-name "$EVENT_NAME" \
+            --schedule "$EVENT_SCHEDULE" \
+            --requested-cycle "$CYCLE" \
+            --run-id "$RUN_ID"
+          echo "Marked completed $CYCLE cycle for $CYCLE_DATE UK time"
+
       - name: Commit JobG8 daily output
         run: |
           set -euo pipefail
@@ -337,6 +394,7 @@ jobs:
             "pipeline/output-admin-service/*.json"
             "pipeline/output-support-worker/*.json"
             "pipeline/reports-daily"
+            "pipeline/reports-daily/jobg8-daily-cycle-state.json"
             "pipeline/reviews/external/nhs-jobs-review.csv"
             "pipeline/reviews/external/nhs-jobs-summary.md"
             "pipeline/reviews/external/nhs-jobs-decisions.csv"
@@ -357,7 +415,7 @@ jobs:
             exit 0
           fi
 
-          unexpected_files="$({ printf '%s\n' "$staged_files" | awk '$0 !~ /^pipeline\/output-admin-service\/.*\.json$/ && $0 !~ /^pipeline\/output-support-worker\/.*\.json$/ && $0 !~ /^pipeline\/reports-daily\/(decision-report|validation-report|selection-summary-report)-(admin-service|support-worker)\.csv$/ && $0 != "pipeline/reports-daily/potential-jobg8-duplicates.csv" && $0 != "pipeline/reports-daily/daily-family-coverage.csv" && $0 != "pipeline/reports-daily/daily-family-coverage-history.json" && $0 != "pipeline/reviews/external/nhs-jobs-review.csv" && $0 != "pipeline/reviews/external/nhs-jobs-summary.md" && $0 != "pipeline/reviews/external/nhs-jobs-decisions.csv"'; } || true)"
+          unexpected_files="$({ printf '%s\n' "$staged_files" | awk '$0 !~ /^pipeline\/output-admin-service\/.*\.json$/ && $0 !~ /^pipeline\/output-support-worker\/.*\.json$/ && $0 !~ /^pipeline\/reports-daily\/(decision-report|validation-report|selection-summary-report)-(admin-service|support-worker)\.csv$/ && $0 != "pipeline/reports-daily/potential-jobg8-duplicates.csv" && $0 != "pipeline/reports-daily/daily-family-coverage.csv" && $0 != "pipeline/reports-daily/daily-family-coverage-history.json" && $0 != "pipeline/reports-daily/jobg8-daily-cycle-state.json" && $0 != "pipeline/reviews/external/nhs-jobs-review.csv" && $0 != "pipeline/reviews/external/nhs-jobs-summary.md" && $0 != "pipeline/reviews/external/nhs-jobs-decisions.csv"'; } || true)"
           if [ -n "$unexpected_files" ]; then
             echo "::error::Refusing to commit files outside JobG8 daily output folders. Staged files:"
             printf '%s\n' "$unexpected_files"
