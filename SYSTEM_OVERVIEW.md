@@ -7,6 +7,8 @@ This is the short owner view of how Ontap is organised. It mirrors the five cano
 
 ## Recent canonical changes
 
+- 1 September 2026 — **The homepage makes Ontap's value clearer:** a stronger search-first hero shows the live vacancy count and the Apply direct, No signup and Updated daily promises. Four newly posted real jobs now appear before the unchanged role-and-region directory.
+
 - 1 September 2026 — The JobG8 coverage-audit download now includes a separate CSV of published jobs absent from the latest feed, showing each job's identity, Ontap posted date, apply link and last date seen in the available JobG8 archive.
 
 - 1 September 2026 — The downloadable daily regional overview workbook has separate Sitewide, JobG8 categories, LIVE and NOT LIVE tabs. NOT LIVE is exported only after its rolling evidence has been applied, so each compact single-line cell shows `today / 14d average / 6+ days`. JobG8 categories shows both jobs received and the number currently published by Ontap in each supplier classification, with a published total that reconciles automatically.

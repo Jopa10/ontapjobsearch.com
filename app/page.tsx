@@ -154,10 +154,10 @@ function SearchPanel({ totalJobs }: { totalJobs: number }) {
   return (
     <section
       aria-labelledby="homepage-search-heading"
-      className="rounded-xl border border-gray-200 bg-white p-4 shadow-sm"
+      className="rounded-2xl border border-white/70 bg-white p-5 shadow-2xl shadow-blue-950/20 sm:p-6"
     >
-      <h2 id="homepage-search-heading" className="text-lg font-semibold text-gray-900">
-        Search jobs by role, keyword or location
+      <h2 id="homepage-search-heading" className="text-xl font-bold text-gray-950">
+        Search by role or keyword
       </h2>
 
       <form method="get" action="/jobs/search" className="mt-3 grid gap-2.5">
@@ -184,7 +184,7 @@ function SearchPanel({ totalJobs }: { totalJobs: number }) {
             name="q"
             type="search"
             placeholder="e.g. Administrator, Paralegal, Sales Advisor"
-            className="w-full rounded-lg border border-gray-300 bg-white py-2.5 pl-11 pr-4 text-base text-gray-900 outline-none transition focus:border-blue-500 focus:ring-2 focus:ring-blue-100"
+            className="w-full rounded-xl border border-gray-300 bg-white py-3 pl-11 pr-4 text-base text-gray-900 outline-none transition focus:border-blue-500 focus:ring-2 focus:ring-blue-100"
           />
         </div>
 
@@ -211,14 +211,14 @@ function SearchPanel({ totalJobs }: { totalJobs: number }) {
             id="homepage-job-location"
             name="location"
             type="search"
-            placeholder="e.g. Newcastle, Surrey, Leeds"
-            className="w-full rounded-lg border border-gray-300 bg-white py-2.5 pl-11 pr-4 text-base text-gray-900 outline-none transition focus:border-blue-500 focus:ring-2 focus:ring-blue-100"
+            placeholder="Town, city or region"
+            className="w-full rounded-xl border border-gray-300 bg-white py-3 pl-11 pr-4 text-base text-gray-900 outline-none transition focus:border-blue-500 focus:ring-2 focus:ring-blue-100"
           />
         </div>
 
         <button
           type="submit"
-          className="rounded-lg bg-blue-600 px-5 py-2.5 font-semibold text-white transition hover:bg-blue-700"
+          className="rounded-xl bg-blue-600 px-5 py-3 font-semibold text-white transition hover:bg-blue-700"
         >
           Search jobs →
         </button>
@@ -277,31 +277,34 @@ function CompactRegionLinks({ regions }: { regions: RegionLink[] }) {
   );
 }
 
-function CurrentJobCard({ job }: { job: PublishedJob }) {
+function RecentJobCard({ job }: { job: PublishedJob }) {
   const company = job.company || job.advertiser_name;
 
   return (
-    <article className="border-b border-gray-200 py-2.5 last:border-b-0">
-      <Link href={getJobPath(job.job_id)} className="group block">
-        <div className="flex items-start justify-between gap-4">
-          <div className="min-w-0">
-            <h3 className="font-semibold leading-snug text-gray-900 group-hover:text-blue-700">
-              {job.title}
-            </h3>
-            <p className="mt-0.5 text-sm leading-snug text-gray-600">
-              {[company, job.location].filter(Boolean).join(' • ')}
-            </p>
-            {job.salary_text ? (
-              <p className="mt-0.5 text-sm font-medium text-gray-800">{cleanSalary(job.salary_text)}</p>
-            ) : null}
-          </div>
-          <span aria-hidden="true" className="mt-1 shrink-0 text-blue-600">
-            →
-          </span>
+    <article className="h-full rounded-xl border border-gray-200 bg-white p-4 shadow-sm transition hover:-translate-y-0.5 hover:border-blue-300 hover:shadow-md">
+      <Link href={getJobPath(job.job_id)} className="group flex h-full flex-col">
+        <div className="mb-3 flex items-center justify-between gap-3">
+          <span className="rounded-md bg-amber-100 px-2 py-1 text-xs font-bold text-amber-800">New</span>
+          <span className="text-xs text-gray-500">View job →</span>
         </div>
+        <h3 className="font-bold leading-snug text-gray-950 group-hover:text-blue-700">{job.title}</h3>
+        <p className="mt-2 text-sm leading-snug text-gray-600">{company}</p>
+        <p className="mt-1 text-sm text-gray-500">{job.location}</p>
+        {job.salary_text ? (
+          <p className="mt-auto pt-3 text-sm font-bold text-amber-700">{cleanSalary(job.salary_text)}</p>
+        ) : null}
       </Link>
     </article>
   );
+}
+
+function newestJobs(jobs: PublishedJob[], limit: number): PublishedJob[] {
+  return [...jobs]
+    .sort((left, right) => {
+      const dateOrder = right.posted_date.localeCompare(left.posted_date);
+      return dateOrder || right.job_id.localeCompare(left.job_id);
+    })
+    .slice(0, limit);
 }
 
 export default function Page() {
@@ -319,7 +322,7 @@ export default function Page() {
     ...withCounts(jobs, supportWorkerRoutes),
     ...activeCityLinks('support'),
   ];
-  const currentJobs = jobs.slice(0, 4);
+  const currentJobs = newestJobs(jobs, 4);
 
   return (
     <>
@@ -345,19 +348,36 @@ export default function Page() {
       `}</style>
 
       <main data-homepage>
-        <section className="border-b border-gray-100 bg-gradient-to-b from-white to-gray-50">
-          <div className="mx-auto grid max-w-7xl gap-4 px-4 py-4 sm:px-6 lg:grid-cols-[1.2fr_0.8fr] lg:items-center lg:px-8 lg:py-5">
+        <section className="relative overflow-hidden bg-gradient-to-br from-blue-950 via-blue-800 to-blue-600 text-white">
+          <div
+            aria-hidden="true"
+            className="pointer-events-none absolute inset-0 opacity-20"
+            style={{
+              backgroundImage: 'radial-gradient(rgba(255,255,255,0.65) 1px, transparent 1px)',
+              backgroundSize: '26px 26px',
+              maskImage: 'linear-gradient(to bottom, black, transparent)',
+            }}
+          />
+          <div className="relative mx-auto grid max-w-7xl gap-8 px-4 py-9 sm:px-6 sm:py-11 lg:grid-cols-[1.15fr_0.85fr] lg:items-center lg:px-8 lg:py-12">
             <div>
-              <h1 className="max-w-3xl text-3xl font-bold leading-[1.04] tracking-tight text-gray-950 sm:text-4xl">
-                Find admin, customer service, sales, marketing, HR, recruitment and legal support jobs across the UK
+              <div className="inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-3 py-1.5 text-sm font-semibold text-blue-50">
+                <span className="h-2 w-2 rounded-full bg-emerald-400" />
+                {jobs.length.toLocaleString('en-GB')} jobs live today
+              </div>
+              <h1 className="mt-5 max-w-3xl text-4xl font-black leading-[0.98] tracking-tight text-white sm:text-5xl lg:text-6xl">
+                Find work that fits.
+                <span className="mt-1 block text-blue-200">Apply direct.</span>
               </h1>
-              <p className="mt-2 max-w-2xl text-base leading-7 text-gray-600 sm:text-lg">
-                Curated UK jobs, updated daily. Browse by role and region, or search the current job supply directly.
+              <p className="mt-5 max-w-2xl text-base leading-7 text-blue-100 sm:text-lg">
+                Curated UK jobs across admin, service and support roles — updated daily.
               </p>
-              <div className="mt-2 flex flex-wrap gap-x-5 gap-y-1 text-sm font-medium text-gray-600">
-                <span>Apply direct</span>
-                <span>No signup</span>
-                <span>Updated daily</span>
+              <div className="mt-4 flex flex-wrap gap-x-5 gap-y-2 text-sm font-semibold text-white">
+                {['Apply direct', 'No signup', 'Updated daily'].map((promise) => (
+                  <span key={promise} className="inline-flex items-center gap-2">
+                    <span aria-hidden="true" className="grid h-5 w-5 place-items-center rounded-full border border-blue-300 text-xs">✓</span>
+                    {promise}
+                  </span>
+                ))}
               </div>
             </div>
 
@@ -365,7 +385,25 @@ export default function Page() {
           </div>
         </section>
 
-        <div className="mx-auto max-w-7xl px-4 py-3 sm:px-6 lg:px-8">
+        <section className="border-b border-gray-200 bg-gray-50" aria-labelledby="recent-jobs-heading">
+          <div className="mx-auto max-w-7xl px-4 py-5 sm:px-6 lg:px-8">
+            <div className="flex items-center justify-between gap-3">
+              <h2 id="recent-jobs-heading" className="text-xl font-bold text-gray-950">
+                Recently added
+              </h2>
+              <Link href="/jobs/search?q=&location=" className="text-sm font-semibold text-blue-700 hover:text-blue-900">
+                View all jobs →
+              </Link>
+            </div>
+            <div className="mt-3 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
+              {currentJobs.map((job) => (
+                <RecentJobCard key={job.job_id} job={job} />
+              ))}
+            </div>
+          </div>
+        </section>
+
+        <div className="mx-auto max-w-7xl px-4 py-5 sm:px-6 lg:px-8">
           <section aria-labelledby="browse-role-heading">
             <div className="flex flex-wrap items-end justify-between gap-2">
               <div>
@@ -434,39 +472,6 @@ export default function Page() {
             </div>
           </section>
 
-          <section className="mt-5 grid gap-3 lg:grid-cols-[1fr_300px]" aria-labelledby="current-jobs-heading">
-            <div className="rounded-xl border border-gray-200 bg-white p-4">
-              <div className="flex items-center justify-between gap-3">
-                <h2 id="current-jobs-heading" className="text-xl font-bold text-gray-900">Current jobs</h2>
-                <Link href="/jobs/search?q=&location=" className="text-sm font-semibold text-blue-700 hover:text-blue-900">
-                  Search jobs →
-                </Link>
-              </div>
-              <div className="mt-1">
-                {currentJobs.map((job) => (
-                  <CurrentJobCard key={job.job_id} job={job} />
-                ))}
-              </div>
-            </div>
-
-            <aside className="rounded-xl border border-blue-100 bg-blue-50 p-4">
-              <h2 className="text-lg font-semibold text-gray-900">Built for a quicker job search</h2>
-              <div className="mt-3 grid gap-3 text-sm leading-snug text-gray-700">
-                <div>
-                  <div className="font-semibold text-gray-900">Apply direct</div>
-                  <p className="mt-0.5">Ontap sends you towards the employer application route.</p>
-                </div>
-                <div>
-                  <div className="font-semibold text-gray-900">No signup</div>
-                  <p className="mt-0.5">Browse and search without creating an account.</p>
-                </div>
-                <div>
-                  <div className="font-semibold text-gray-900">Fresh regional pages</div>
-                  <p className="mt-0.5">Current job supply is refreshed as new roles are published.</p>
-                </div>
-              </div>
-            </aside>
-          </section>
         </div>
       </main>
     </>
