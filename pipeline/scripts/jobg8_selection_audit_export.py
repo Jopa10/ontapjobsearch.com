@@ -258,19 +258,51 @@ def write_csv(rows: list[dict[str, Any]], path: Path) -> None:
         writer.writerows(rows)
 
 
-def write_jobg8_category_profile(rows: list[dict[str, Any]], path: Path, feed_date: str) -> None:
-    """Persist the factual JobG8-supplied category mix for the owner overview."""
+def write_jobg8_category_profile(
+    rows: list[dict[str, Any]],
+    path: Path,
+    feed_date: str,
+    published_ids: set[str] | None = None,
+) -> None:
+    """Persist supplied and currently published counts by JobG8 classification."""
     counts = Counter((row.get("Original JobG8 category") or "(blank)").strip() for row in rows)
+    published_counts: Counter[str] = Counter()
+    matched_published_ids: set[str] = set()
+    for row in rows:
+        if row.get("Publication / coverage status") != "Published":
+            continue
+        job_id = text(row.get("JobG8 ID"))
+        if job_id and job_id in matched_published_ids:
+            continue
+        if job_id:
+            matched_published_ids.add(job_id)
+        published_counts[(row.get("Original JobG8 category") or "(blank)").strip()] += 1
+    if published_ids is not None:
+        missing_ids = published_ids - matched_published_ids
+        if missing_ids:
+            published_counts["Published JobG8 ID absent from current feed"] = len(missing_ids)
+        published_total = len(published_ids)
+    else:
+        published_total = sum(published_counts.values())
     path.parent.mkdir(parents=True, exist_ok=True)
     with path.open("w", encoding="utf-8", newline="") as handle:
-        writer = csv.DictWriter(handle, fieldnames=["feed_date", "total_jobs", "jobg8_category", "count"])
+        writer = csv.DictWriter(
+            handle,
+            fieldnames=[
+                "feed_date", "total_jobs", "published_jobg8_jobs",
+                "jobg8_category", "count", "published_count",
+            ],
+        )
         writer.writeheader()
-        for category, count in sorted(counts.items(), key=lambda item: (-item[1], item[0].casefold())):
+        categories = set(counts) | set(published_counts)
+        for category in sorted(categories, key=lambda item: (-counts.get(item, 0), item.casefold())):
             writer.writerow({
                 "feed_date": feed_date,
                 "total_jobs": len(rows),
+                "published_jobg8_jobs": published_total,
                 "jobg8_category": category,
-                "count": count,
+                "count": counts.get(category, 0),
+                "published_count": published_counts.get(category, 0),
             })
 
 
@@ -338,7 +370,8 @@ def main() -> int:
         raise SystemExit(f"JobG8 feed is missing expected columns: {missing}")
     reconciliation = pd.read_csv(args.reconciliation_csv, dtype=str, encoding="utf-8-sig").fillna("")
     areas, locations = load_geo(args.geo_lookup)
-    rows = build_rows(raw, reconciliation, published_jobg8_ids(args.app_root), load_register(args.slice_register), areas, locations)
+    published_ids = published_jobg8_ids(args.app_root)
+    rows = build_rows(raw, reconciliation, published_ids, load_register(args.slice_register), areas, locations)
 
     args.output_dir.mkdir(parents=True, exist_ok=True)
     csv_path = args.output_dir / "jobg8-selection-audit.csv"
@@ -348,7 +381,7 @@ def main() -> int:
     if args.category_profile_output:
         feed_date_match = re.search(r"(20\d{2}-\d{2}-\d{2})", feed.stem)
         feed_date = feed_date_match.group(1) if feed_date_match else feed.stem
-        write_jobg8_category_profile(rows, args.category_profile_output, feed_date)
+        write_jobg8_category_profile(rows, args.category_profile_output, feed_date, published_ids)
     counts = Counter(row["Publication / coverage status"] for row in rows)
     if sum(counts.values()) != len(raw) or len(rows) != len(raw):
         raise SystemExit("Audit row reconciliation failed")

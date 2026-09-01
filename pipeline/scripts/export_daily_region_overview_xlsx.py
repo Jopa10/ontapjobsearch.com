@@ -83,8 +83,8 @@ def export(markdown_path: Path, output_path: Path) -> None:
                 cell.border = Border(bottom=light_border)
                 cell.alignment = Alignment(
                     horizontal="right" if isinstance(cell.value, int) else "left",
-                    vertical="top",
-                    wrap_text=True,
+                    vertical="center" if sheet_name == "NOT LIVE" else "top",
+                    wrap_text=sheet_name != "NOT LIVE",
                 )
                 if isinstance(cell.value, int):
                     cell.number_format = "#,##0"
@@ -95,7 +95,19 @@ def export(markdown_path: Path, output_path: Path) -> None:
         if sheet_name in {"LIVE", "NOT LIVE"}:
             sheet.column_dimensions["A"].width = 34
             for column in range(2, sheet.max_column + 1):
-                sheet.column_dimensions[get_column_letter(column)].width = 18
+                sheet.column_dimensions[get_column_letter(column)].width = 24 if sheet_name == "NOT LIVE" else 18
+        if sheet_name == "NOT LIVE":
+            for row_number in range(2, sheet.max_row + 1):
+                sheet.row_dimensions[row_number].height = 20
+        if sheet_name == "JobG8 categories" and sheet.max_column >= 3:
+            green_fill = PatternFill("solid", fgColor="E2F0D9")
+            for row_number in range(1, sheet.max_row + 1):
+                sheet.cell(row_number, 3).fill = green_fill
+            sheet.cell(1, 3).font = Font(color="000000", bold=False)
+            sheet.cell(1, 3).alignment = Alignment(horizontal="left", vertical="center")
+            for cell in sheet[sheet.max_row]:
+                cell.fill = green_fill
+                cell.font = Font(bold=True)
 
     output_path.parent.mkdir(parents=True, exist_ok=True)
     workbook.save(output_path)

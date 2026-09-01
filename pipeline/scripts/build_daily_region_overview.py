@@ -156,7 +156,8 @@ class SiteInventorySummary:
 class JobG8CategoryProfile:
     feed_date: str
     total_jobs: int
-    counts: tuple[tuple[str, int], ...]
+    published_jobs: int | None
+    counts: tuple[tuple[str, int, int | None], ...]
 
 
 def _load_jobg8_category_profile() -> JobG8CategoryProfile | None:
@@ -171,14 +172,27 @@ def _load_jobg8_category_profile() -> JobG8CategoryProfile | None:
     totals = {int((row.get("total_jobs") or "0").strip()) for row in rows}
     if len(feed_dates) != 1 or len(totals) != 1:
         raise RuntimeError("JobG8 category profile contains inconsistent feed dates or totals")
+    has_published_counts = {"published_jobg8_jobs", "published_count"}.issubset(rows[0])
+    published_totals = {
+        int((row.get("published_jobg8_jobs") or "0").strip()) for row in rows
+    } if has_published_counts else set()
+    if has_published_counts and len(published_totals) != 1:
+        raise RuntimeError("JobG8 category profile contains inconsistent published totals")
     counts = tuple(
-        ((row.get("jobg8_category") or "(blank)").strip(), int((row.get("count") or "0").strip()))
+        (
+            (row.get("jobg8_category") or "(blank)").strip(),
+            int((row.get("count") or "0").strip()),
+            int((row.get("published_count") or "0").strip()) if has_published_counts else None,
+        )
         for row in rows
     )
     total = totals.pop()
-    if sum(count for _category, count in counts) != total:
+    if sum(count for _category, count, _published in counts) != total:
         raise RuntimeError("JobG8 category profile does not reconcile to its stated total")
-    return JobG8CategoryProfile(feed_dates.pop(), total, counts)
+    published_total = published_totals.pop() if has_published_counts else None
+    if published_total is not None and sum(count or 0 for _category, _received, count in counts) != published_total:
+        raise RuntimeError("JobG8 category profile does not reconcile to its published total")
+    return JobG8CategoryProfile(feed_dates.pop(), total, published_total, counts)
 
 
 def _load_json(path: Path):
@@ -567,9 +581,21 @@ def build() -> str:
             "",
             f"**JobG8 jobs received: {jobg8_profile.total_jobs:,}** (feed date: {jobg8_profile.feed_date})",
             "",
-            "| JobG8 classification | Jobs received |",
-            "|---|---:|",
-            *(f"| {category} | {count:,} |" for category, count in jobg8_profile.counts),
+            "| JobG8 classification | Jobs received | Ontap jobs |",
+            "|---|---:|---:|",
+            *(
+                (
+                    f"| {category} | {received:,} | {published:,} |"
+                    if published else f"| {category} | {received:,} |  |"
+                )
+                for category, received, published in jobg8_profile.counts
+            ),
+            (
+                f"| Total Ontap JobG8 jobs published today | {jobg8_profile.total_jobs:,} | "
+                f"{jobg8_profile.published_jobs:,} |"
+                if jobg8_profile.published_jobs is not None else
+                f"| Total JobG8 jobs received | {jobg8_profile.total_jobs:,} |  |"
+            ),
             "",
         ])
 

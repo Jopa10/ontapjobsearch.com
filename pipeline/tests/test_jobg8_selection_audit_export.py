@@ -67,20 +67,22 @@ class JobG8SelectionAuditExportTest(unittest.TestCase):
 
     def test_jobg8_category_profile_reconciles_raw_audit_rows(self):
         rows = [
-            {"Original JobG8 category": "Administration"},
-            {"Original JobG8 category": "I.T. & Communications"},
-            {"Original JobG8 category": "Administration"},
+            {"JobG8 ID": "1", "Original JobG8 category": "Administration", "Publication / coverage status": "Published"},
+            {"JobG8 ID": "2", "Original JobG8 category": "I.T. & Communications", "Publication / coverage status": "No governed register match"},
+            {"JobG8 ID": "3", "Original JobG8 category": "Administration", "Publication / coverage status": "Published"},
         ]
         with tempfile.TemporaryDirectory() as directory:
             output = Path(directory) / "profile.csv"
-            write_jobg8_category_profile(rows, output, "2026-09-01")
+            write_jobg8_category_profile(rows, output, "2026-09-01", {"1", "3", "4"})
             with output.open(encoding="utf-8") as handle:
                 written = list(csv.DictReader(handle))
         self.assertEqual(written[0], {
-            "feed_date": "2026-09-01", "total_jobs": "3",
-            "jobg8_category": "Administration", "count": "2",
+            "feed_date": "2026-09-01", "total_jobs": "3", "published_jobg8_jobs": "3",
+            "jobg8_category": "Administration", "count": "2", "published_count": "2",
         })
         self.assertEqual(sum(int(row["count"]) for row in written), 3)
+        self.assertEqual(sum(int(row["published_count"]) for row in written), 3)
+        self.assertEqual(written[-1]["jobg8_category"], "Published JobG8 ID absent from current feed")
 
 
 if __name__ == "__main__":

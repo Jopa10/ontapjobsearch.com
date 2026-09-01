@@ -19,15 +19,16 @@ class LiveRegionalRollupTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as directory:
             profile = Path(directory) / "profile.csv"
             profile.write_text(
-                "feed_date,total_jobs,jobg8_category,count\n"
-                "2026-09-01,5354,I.T. & Communications,2547\n"
-                "2026-09-01,5354,Administration,2807\n",
+                "feed_date,total_jobs,published_jobg8_jobs,jobg8_category,count,published_count\n"
+                "2026-09-01,5354,1308,I.T. & Communications,2547,684\n"
+                "2026-09-01,5354,1308,Administration,2807,624\n",
                 encoding="utf-8",
             )
             with patch("scripts.build_daily_region_overview.JOBG8_CATEGORY_PROFILE", profile):
                 loaded = _load_jobg8_category_profile()
         self.assertEqual(loaded.total_jobs, 5354)
-        self.assertEqual(loaded.counts[0], ("I.T. & Communications", 2547))
+        self.assertEqual(loaded.published_jobs, 1308)
+        self.assertEqual(loaded.counts[0], ("I.T. & Communications", 2547, 684))
 
     def test_overview_includes_all_eight_governed_families(self) -> None:
         self.assertEqual(
