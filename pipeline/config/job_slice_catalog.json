@@ -85,6 +85,7 @@
     "Staffordshire": { "slug": "staffordshire", "anchor_town": "Stafford" },
     "Wiltshire": { "slug": "wiltshire", "anchor_town": "Swindon" },
     "Northamptonshire": { "slug": "northamptonshire", "anchor_town": "Northampton" },
+    "Bedfordshire": { "slug": "bedfordshire", "anchor_town": "Bedford" },
     "Berkshire": { "slug": "berkshire", "anchor_town": "Reading" },
     "Nottinghamshire": { "slug": "nottinghamshire", "anchor_town": "Nottingham" },
     "Buckinghamshire": { "slug": "buckinghamshire", "anchor_town": "Milton Keynes" },
