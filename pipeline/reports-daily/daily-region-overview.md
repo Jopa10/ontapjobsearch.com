@@ -1,6 +1,8 @@
 # Ontap daily regional overview
 
-Generated: 2026-09-01T16:12:25+01:00
+Generated: 2026-09-01T16:25:08+01:00
+
+[Download this overview as Excel](./daily-region-overview.xlsx)
 
 ## SITEWIDE RECONCILIATION
 
