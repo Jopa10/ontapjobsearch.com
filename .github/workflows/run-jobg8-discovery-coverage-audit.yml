@@ -123,7 +123,8 @@ jobs:
           python -m pipeline.scripts.jobg8_selection_audit_export \
             --input-dir "$JOBG8_AUDIT_INPUT_DIR" \
             --reconciliation-csv pipeline/reports-discovery-audit/jobg8-broad-family-reconciliation-current.csv \
-            --output-dir "$audit_output"
+            --output-dir "$audit_output" \
+            --category-profile-output pipeline/reports-daily/jobg8-feed-category-profile.csv
           echo "JOBG8_SELECTION_AUDIT_OUTPUT=$audit_output" >> "$GITHUB_ENV"
 
       - name: Audit Insurance and Claims Support opportunity
@@ -215,6 +216,7 @@ jobs:
             pipeline/reports-discovery-audit/jobg8-claims-family-validation-current.md
             pipeline/reports-discovery-audit/jobg8-claims-slice-viability-current.csv
             pipeline/reports-discovery-audit/jobg8-claims-slice-viability-current.md
+            pipeline/reports-daily/jobg8-feed-category-profile.csv
           )
           while IFS= read -r -d '' file; do
             files+=("$file")
@@ -225,7 +227,7 @@ jobs:
             exit 0
           fi
           staged="$(git diff --cached --name-only)"
-          unexpected="$(printf '%s\n' "$staged" | grep -Ev '^pipeline/reports-discovery-audit/(jobg8-discovery-coverage-current|jobg8-broad-family-reconciliation-current|jobg8-insurance-claims-discovery-current|jobg8-claims-family-validation-current|jobg8-claims-slice-viability-current)\.(csv|md)$|^pipeline/reports-discovery-audit/jobg8-insurance-claims-boundary-review-current\.csv$|^pipeline/reports-discovery-audit/jobg8-[a-z0-9-]+-(discovery|recurrence|proof-region-evidence)-current\.(csv|md)$' || true)"
+          unexpected="$(printf '%s\n' "$staged" | grep -Ev '^pipeline/reports-discovery-audit/(jobg8-discovery-coverage-current|jobg8-broad-family-reconciliation-current|jobg8-insurance-claims-discovery-current|jobg8-claims-family-validation-current|jobg8-claims-slice-viability-current)\.(csv|md)$|^pipeline/reports-discovery-audit/jobg8-insurance-claims-boundary-review-current\.csv$|^pipeline/reports-discovery-audit/jobg8-[a-z0-9-]+-(discovery|recurrence|proof-region-evidence)-current\.(csv|md)$|^pipeline/reports-daily/jobg8-feed-category-profile\.csv$' || true)"
           if [ -n "$unexpected" ]; then
             echo '::error::Unexpected staged path(s):'
             printf '%s\n' "$unexpected"
