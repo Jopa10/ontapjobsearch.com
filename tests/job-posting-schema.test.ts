@@ -64,6 +64,39 @@ test('source date and JobG8 StartDate basis both take precedence when supplied',
   }
 });
 
+test('NHS fractional source timestamps emit a factual Google date without inventing a timezone', () => {
+  const schema = buildJobPostingSchema(
+    job({
+      job_id: 'nhs-5545061',
+      source: 'NHS Jobs',
+      company: 'Example NHS Foundation Trust',
+      advertiser_name: 'Example NHS Foundation Trust',
+      advertiser_type: '',
+      posted_date: '2026-08-18T11:20:36.306867',
+      posted_date_basis: 'source',
+      closing_date: '2026-09-01',
+    }),
+    'https://www.ontapjobsearch.com/jobs/nhs-5545061'
+  );
+
+  assert.ok(schema);
+  assert.equal(schema.datePosted, '2026-08-18');
+  assert.equal(schema.validThrough, '2026-09-01T23:59:59+01:00');
+});
+
+test('fractional timezone-less timestamps remain rejected outside NHS Jobs', () => {
+  const schema = buildJobPostingSchema(
+    job({
+      source: 'Teaching Vacancies',
+      posted_date: '2026-08-18T11:20:36.306867',
+      posted_date_basis: 'source',
+    }),
+    'https://www.ontapjobsearch.com/jobs/job-1'
+  );
+
+  assert.equal(schema, null);
+});
+
 test('teaser descriptions never emit JobPosting schema', () => {
   const description =
     'Administrator required for a busy office with varied duties and full-time hours ' +
