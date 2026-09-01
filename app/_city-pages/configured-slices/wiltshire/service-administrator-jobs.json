@@ -1,30 +1,5 @@
 [
   {
-    "job_id": "teaching-vacancies-governance-administrator-diocese-of-salisbury-academy-trust-salisbury-not-recorded",
-    "title": "Governance Administrator",
-    "company": "Diocese Of Salisbury Academy Trust",
-    "location": "Salisbury",
-    "region": "Wiltshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['part time']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "£25,989.00 - £26,824.00 Annually (Actual)",
-    "work_pattern": "",
-    "posted_date": "2026-07-22",
-    "closing_date": "2026-09-01",
-    "closing_datetime": "2026-09-01T09:00:00+01:00",
-    "summary": "Governance Administrator with Diocese Of Salisbury Academy Trust in Salisbury. ['part time']; £25,989.00 - £26,824.00 Annually (Actual).",
-    "description": "Diocese Of Salisbury Academy Trust is recruiting for this vacancy in Salisbury.\n\nThe advertised position is Governance Administrator.\n\nThe source lists the employment type as ['part time'].\n\nThe advertised salary or pay scale is £25,989.00 - £26,824.00 Annually (Actual).\n\nThe stated application deadline is 2026-09-01T09:00:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/governance-administrator-diocese-of-salisbury-academy-trust-salisbury-not-recorded?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "posted_date_basis": "source"
-  },
-  {
     "job_id": "teaching-vacancies-it-system-administrator-excalibur-shared-services-1177ebd4-e195-4745-824b-6613f2065ccf",
     "title": "IT System Administrator - Excalibur Shared Services",
     "company": "Excalibur Academies Trust",
@@ -47,6 +22,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "Excalibur Academies Trust",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -97,7 +75,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Records administration",
+      "Document preparation"
+    ]
   },
   {
     "job_id": "23643_225475225",
@@ -172,7 +154,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Telephone handling",
+      "Order processing"
+    ]
   },
   {
     "job_id": "23643_225454192",
@@ -197,7 +183,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Telephone handling",
+      "Order processing"
+    ]
   },
   {
     "job_id": "23643_225478870",
@@ -247,7 +237,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Email handling",
+      "Systems administration"
+    ]
   },
   {
     "job_id": "23643_225515784",
@@ -269,6 +263,56 @@
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
     "advertiser_name": "247 Lifeline",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Annual",
+    "posted_date_basis": "ontap_first_published"
+  },
+  {
+    "job_id": "107709806",
+    "title": "Administrator",
+    "company": "Walsh Employment - Agency - Permanent",
+    "location": "Wiltshire",
+    "region": "Wiltshire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "30000",
+    "salary_max": "30000",
+    "salary_text": "£30000 per year",
+    "posted_date": "2026-08-27",
+    "description": "Administrator\n\nLocation: Marlborough, Wiltshire\nSalary:£25-32 K plus excellent benefits package\n\nAbout the Opportunity\n\nOur client is a prestigious specialist law firm based in Marlborough, recognised for its high professional standards, client-focused service and collaborative working environment click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?eq2PR%2bX5ctzD2p54z5RSBACcNmA7JL%2f0p",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Walsh Employment",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Annual",
+    "posted_date_basis": "ontap_first_published"
+  },
+  {
+    "job_id": "107906394",
+    "title": "Service Advisor",
+    "company": "Thrive Group - Agency - Permanent",
+    "location": "Wiltshire",
+    "region": "Wiltshire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "",
+    "posted_date": "2026-08-29",
+    "description": "Thrive Group are delighted to be working with our client based in Trowbridge who a looking to recruit a Service Advisor on a permanent basis\n\nWhat you will be doing:\n- Greet customers bringing in their vehicle to find out if they any issues.\n- Conduct vehicle inspections and provide detailed reports to customers click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?nbYVUHO1tX58v15eyNty%2fxtX%2bB3d86%2fpz",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Thrive Group",
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
@@ -297,7 +341,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Scheduling and bookings",
+      "Records administration"
+    ]
   },
   {
     "job_id": "nhs-5559783",

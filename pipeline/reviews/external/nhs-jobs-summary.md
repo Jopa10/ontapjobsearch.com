@@ -14,6 +14,42 @@ Edit only each `action:` line for POSS rows. Unchanged decisions are restored by
 
 ---
 action:
+POSS | NHS Jobs | Berkshire | Reading, RG1 5AN | £32073.00 to £39043.00 | Corporate Governance Officer
+source_job_id: 5568718
+title: Corporate Governance Officer
+employer: Royal Berkshire NHS Foundation Trust
+region: Berkshire
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9193-26-0561
+factual_fingerprint: af5a8c34ce75ee2be644b1427fc9c3edd9d2c1a42fa59c10ce79b8cbf3eaddd0
+---
+
+---
+action:
+POSS | NHS Jobs | Surrey | Leatherhead, KT22 7AD | £96626.00 to £111084.00 | Deputy Director of Analytics & Insights
+source_job_id: 5570529
+title: Deputy Director of Analytics & Insights
+employer: Surrey and Borders Partnership NHS Foundation Trust
+region: Surrey
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9325-26-0617
+factual_fingerprint: 514b90c65828b086247631731db9ecda121a34266424b3794393dc54a894335d
+---
+
+---
+action:
+POSS | NHS Jobs | West Midlands - Birmingham & Solihull | Solihull, B91 2JL | £66582.00 to £77368.00 | Band 8b Estates Manager - Solihull Hospital
+source_job_id: 5554726
+title: Band 8b Estates Manager - Solihull Hospital
+employer: University Hospitals Birmingham NHS Foundation Trust
+region: West Midlands - Birmingham & Solihull
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C0020-26-1283
+factual_fingerprint: abf916acb026fc8519f5b8c6c43c4493e816e1083dfde57d706b4676bf77bd2c
+---
+
+---
+action:
 POSS | NHS Jobs | — | Ealing, UB5 6WL | £32199.00 to £34876.00 | 16-25 Link Worker
 source_job_id: 5570501
 title: 16-25 Link Worker
@@ -626,18 +662,6 @@ factual_fingerprint: 96ab0913bd85c2fa4ec3f6f762abe41346e223c9d183a224245c049d9b9
 
 ---
 action:
-POSS | NHS Jobs | West Midlands - Coventry & Warwickshire | Coventry, CV2 2DX | £32073.00 to £39043.00 | Business Administrator / Coordinator
-source_job_id: 5569259
-title: Business Administrator / Coordinator
-employer: University Hospitals Coventry and Warwickshire NHS Trust
-region: West Midlands - Coventry & Warwickshire
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9218-26-1079
-factual_fingerprint: 3bab1cd1bf4f1693a8165e59cdbaa531b8ecc99de7291443d3b0b564c8d5f396
----
-
----
-action:
 POSS | NHS Jobs | London | London, SW10 9NH | £34186.00 to £37389.00 | Private Patient Billing Officer
 source_job_id: 5569608
 title: Private Patient Billing Officer
@@ -826,18 +850,6 @@ region: Cornwall
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9201-26-1093
 factual_fingerprint: de6838fdb4a821fe3b0a1a433b35580153c4f104d8856e402b542ba01b3ce8ac
----
-
----
-action:
-POSS | NHS Jobs | — | Warsop, NG20 0BP | £12.81 | Data Quality and Medical Secretary
-source_job_id: 5569316
-title: Data Quality and Medical Secretary
-employer: Primary Integrated Community Services
-region: 
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/E0220-26-0009MED
-factual_fingerprint: 6bfc8e377c4a10a9594ec99e5bd7d9ae153505422c12380c53fb5a7adf902a58
 ---
 
 ---
@@ -5366,18 +5378,6 @@ factual_fingerprint: af5bdf01ca14e179d03187b3765962e6b6f0735785bcb4a432f105056fe
 
 ---
 action:
-POSS | NHS Jobs | Merseyside - Liverpool | Liverpool, L7 8YE | £28392.00 to £31157.00 | Clerical Supervisor
-source_job_id: 5561275
-title: Clerical Supervisor
-employer: Liverpool University Hospitals NHS Foundation Trust
-region: Merseyside - Liverpool
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9287-26-1332
-factual_fingerprint: 4f2c3b1e6736d49e65f32cedb00772dc7ee3877a8e0169cd4fbe95c6f1624db6
----
-
----
-action:
 POSS | NHS Jobs | London | Harrow, HA1 3UJ | £55524.00 to £62652.00 | Senior Server and Datacentre Engineer
 source_job_id: 5563230
 title: Senior Server and Datacentre Engineer
@@ -6429,7 +6429,7 @@ employer: King's College Hospital NHS Foundation Trust
 region: London
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9213-26-0732
-factual_fingerprint: 1b423e22b8dc19d646199cbbce43a0421ed26c9443e1c0486230e26096a726ac
+factual_fingerprint: 08914548d9d0e7bda9f74170badd6d0a329d6ca236a18c0207cf1d9feba4c50c
 ---
 
 ---

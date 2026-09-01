@@ -1,30 +1,5 @@
 [
   {
-    "job_id": "teaching-vacancies-senior-administrator-st-james-academy",
-    "title": "Senior Administrator",
-    "company": "St James Academy",
-    "location": "Walsall",
-    "region": "West Midlands - Black Country",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['full time']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "£23,441.00 - £26,682.00 Annually (FTE)",
-    "work_pattern": "",
-    "posted_date": "2026-07-21",
-    "closing_date": "2026-08-31",
-    "closing_datetime": "2026-08-31T23:59:00+01:00",
-    "summary": "Senior Administrator with St James Academy in Walsall. ['full time']; £23,441.00 - £26,682.00 Annually (FTE).",
-    "description": "St James Academy is recruiting for this vacancy in Walsall.\n\nThe advertised position is Senior Administrator.\n\nThe source lists the employment type as ['full time'].\n\nThe advertised salary or pay scale is £23,441.00 - £26,682.00 Annually (FTE).\n\nThe stated application deadline is 2026-08-31T23:59:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-st-james-academy?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "posted_date_basis": "source"
-  },
-  {
     "job_id": "teaching-vacancies-school-administrator-st-christopher-s-catholic-primary-academy",
     "title": "School Administrator",
     "company": "St Christopher's Catholic Primary Academy",
@@ -47,6 +22,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "St Christopher's Catholic Primary Academy",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -122,7 +100,13 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Customer enquiries",
+      "Records administration",
+      "Quotations",
+      "Order processing"
+    ]
   },
   {
     "job_id": "23643_225476102",
@@ -147,32 +131,12 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
-  },
-  {
-    "job_id": "23643_225444410",
-    "title": "Export Sales Administrator",
-    "company": "Workforce Staffing Ltd - Agency - Permanent",
-    "location": "West Bromwich",
-    "region": "West Midlands - Black Country",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "28000",
-    "salary_max": "28000",
-    "salary_text": "£28000 per year",
-    "posted_date": "2026-08-22",
-    "description": "Export Sales Administrator\n\nLocation: West Bromwich B70\nSalary: Up to £28,000\n\nContract: Full Time Permanent\nOur client is a global manufacturer and distributor of infrastructure solutions supporting electrical, mechanical, and safety industries. With an international presence and a strong reputation for quality and innovation, they support customers across multiple global markets and are committed to delivering exceptional service and operational excellence.\nThey are now seeking an organised and customer-focused Export Sales Administrator to join their growing team.\nThe Export Sales Administrator will be responsible for managing international customer orders, ensuring all export documentation is completed accurately, and maintaining high service standards. You will support International Sales Managers while acting as a key contact for customers and logistics providers.\nBenefits\n- 25 days annual leave plus Christmas shutdown\n- Company bonus scheme\n- Pension scheme\n- Life assurance (4x salary)\n- Training and career development opportunities\n- Recognition and long-service awards\n- Discounted gym membership\n- Enhanced family-friendly policies\n- Employee Assistance Programme including 24/7 GP access\n- Cash health plan\n- Cycle to work scheme\n- Free flu vaccinations\n- Free onsite parking\n- Home cyber security training\n\nKey Responsibilities\n- Process customer orders using internal systems and ensure orders are completed within agreed timeframes\n- Check stock availability and resolve customer queries including credits and debits\n- Act as a key point of contact for customers, international sales teams, and transport providers\n- Manage orders from receipt through to dispatch\n- Prepare and verify export shipping documentation and invoices\n- Arrange transport collections and coordinate deliveries\n- Ensure compliance with international export regulations and customs requirements\n- Liaise with internal departments including manufacturing, assembly, and dispatch teams\n- Support Sales Managers with customer enquiries relating to stock, pricing, and product information\n- Maintain accurate records of all export shipment documentation\n- Update dispatch schedules and communicate delivery updates to customers\n- Follow company procedures and administrative processes\n- Support health and safety standards within the workplace\n\nAbout You\n- Previous experience working with export documentation is essential\n- Experience working with international customers is desirable\n- Strong administrative and organisational skills\n- Good working knowledge of Microsoft Word and Excel\n- Confident communicator with a professional telephone manner\n- Strong attention to detail\n- Ability to work both independently and as part of a team\n- Excellent time management and workload prioritisation skills\n- Good level of English and Maths",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?vAYWCB8ag%2fi2kI%2bKkCHqcSV7TmnImD2oi",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Workforce Staffing Ltd",
-    "advertiser_type": "Agency",
-    "work_pattern": "Full Time",
-    "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Systems administration",
+      "Quotations",
+      "Order processing"
+    ]
   },
   {
     "job_id": "23643_225453901",
@@ -197,7 +161,14 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Customer enquiries",
+      "Email handling",
+      "Scheduling and bookings",
+      "Records administration",
+      "Systems administration"
+    ]
   },
   {
     "job_id": "23643_225519315",
@@ -223,6 +194,37 @@
     "work_pattern": "Full Time",
     "salary_period": "Annual",
     "posted_date_basis": "ontap_first_published"
+  },
+  {
+    "job_id": "23643_225444410",
+    "title": "Export Sales Administrator",
+    "company": "Workforce Staffing Ltd - Agency - Permanent",
+    "location": "West Bromwich",
+    "region": "West Midlands - Black Country",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "28000",
+    "salary_max": "28000",
+    "salary_text": "£28000 per year",
+    "posted_date": "2026-08-22",
+    "description": "Export Sales Administrator\n\nLocation: West Bromwich B70\nSalary: Up to £28,000\n\nContract: Full Time Permanent\nOur client is a global manufacturer and distributor of infrastructure solutions supporting electrical, mechanical, and safety industries. With an international presence and a strong reputation for quality and innovation, they support customers across multiple global markets and are committed to delivering exceptional service and operational excellence.\nThey are now seeking an organised and customer-focused Export Sales Administrator to join their growing team.\nThe Export Sales Administrator will be responsible for managing international customer orders, ensuring all export documentation is completed accurately, and maintaining high service standards. You will support International Sales Managers while acting as a key contact for customers and logistics providers.\nBenefits\n- 25 days annual leave plus Christmas shutdown\n- Company bonus scheme\n- Pension scheme\n- Life assurance (4x salary)\n- Training and career development opportunities\n- Recognition and long-service awards\n- Discounted gym membership\n- Enhanced family-friendly policies\n- Employee Assistance Programme including 24/7 GP access\n- Cash health plan\n- Cycle to work scheme\n- Free flu vaccinations\n- Free onsite parking\n- Home cyber security training\n\nKey Responsibilities\n- Process customer orders using internal systems and ensure orders are completed within agreed timeframes\n- Check stock availability and resolve customer queries including credits and debits\n- Act as a key point of contact for customers, international sales teams, and transport providers\n- Manage orders from receipt through to dispatch\n- Prepare and verify export shipping documentation and invoices\n- Arrange transport collections and coordinate deliveries\n- Ensure compliance with international export regulations and customs requirements\n- Liaise with internal departments including manufacturing, assembly, and dispatch teams\n- Support Sales Managers with customer enquiries relating to stock, pricing, and product information\n- Maintain accurate records of all export shipment documentation\n- Update dispatch schedules and communicate delivery updates to customers\n- Follow company procedures and administrative processes\n- Support health and safety standards within the workplace\n\nAbout You\n- Previous experience working with export documentation is essential\n- Experience working with international customers is desirable\n- Strong administrative and organisational skills\n- Good working knowledge of Microsoft Word and Excel\n- Confident communicator with a professional telephone manner\n- Strong attention to detail\n- Ability to work both independently and as part of a team\n- Excellent time management and workload prioritisation skills\n- Good level of English and Maths",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?aziU08XVyRGeWeV5mOPwZTgIeGKvsFkUd",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Workforce Staffing Ltd",
+    "advertiser_type": "Agency",
+    "work_pattern": "Full Time",
+    "salary_period": "Annual",
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Customer enquiries",
+      "Records administration",
+      "Order processing",
+      "Delivery coordination"
+    ]
   },
   {
     "job_id": "nhs-5557579",
