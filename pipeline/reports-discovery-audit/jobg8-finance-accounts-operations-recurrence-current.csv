@@ -1,79 +1,79 @@
 ﻿market,likely_in,borderline,plausible_including_borderline,out_salary,out_specialist
-Bedfordshire,0,0,0,0,0
-Berkshire,0,0,0,4,1
-Bristol & Bath,2,0,2,1,4
-Buckinghamshire,1,0,1,0,3
-Cambridgeshire,1,0,1,0,2
-Cheshire - East,0,0,0,0,0
-Cheshire - Warrington & Halton,2,0,2,0,0
-Cheshire - West,0,0,0,0,1
-Cornwall,0,0,0,0,0
-Cumbria - North,0,0,0,1,0
-Cumbria - South,0,0,0,0,0
+Bedfordshire,1,0,1,2,4
+Berkshire,2,0,2,10,5
+Bristol & Bath,4,0,4,6,22
+Buckinghamshire,2,0,2,4,13
+Cambridgeshire,3,0,3,5,8
+Cheshire - East,0,0,0,1,1
+Cheshire - Warrington & Halton,7,0,7,1,2
+Cheshire - West,1,0,1,3,3
+Cornwall,0,0,0,0,2
+Cumbria - North,0,0,0,1,2
+Cumbria - South,0,0,0,0,1
 Cumbria - West,0,0,0,0,0
-Derbyshire,2,0,2,1,2
-Devon,1,0,1,1,1
-Dorset,0,0,0,0,0
-Essex,2,0,2,0,0
-Gloucestershire,1,0,1,0,1
-Greater Manchester - Manchester & Salford,2,0,2,2,4
+Derbyshire,2,0,2,0,3
+Devon,2,0,2,5,12
+Dorset,1,0,1,0,4
+Essex,5,0,5,4,9
+Gloucestershire,2,0,2,3,8
+Greater Manchester - Manchester & Salford,2,0,2,10,24
 Greater Manchester - North,0,0,0,0,1
-Greater Manchester - South,0,0,0,0,1
+Greater Manchester - South,0,0,0,1,2
 Greater Manchester - Wigan & Bolton,0,0,0,0,0
-Hampshire,0,0,0,1,3
-Herefordshire,0,0,0,0,0
-Hertfordshire,1,0,1,2,0
-Kent,1,0,1,0,2
-Lancashire - Blackpool & Fylde,0,0,0,0,0
-Lancashire - Central,0,0,0,0,0
-Lancashire - East,0,0,0,0,0
-Lancashire - North,0,0,0,0,0
-Lancashire - West,0,0,0,0,0
-Leicestershire,1,0,1,0,1
-Lincolnshire,1,0,1,0,0
-London,0,0,0,17,21
-Merseyside - Liverpool,0,0,0,0,0
+Hampshire,1,0,1,5,13
+Herefordshire,0,0,0,0,1
+Hertfordshire,1,0,1,3,16
+Kent,0,0,0,3,7
+Lancashire - Blackpool & Fylde,1,0,1,0,2
+Lancashire - Central,1,0,1,1,1
+Lancashire - East,0,0,0,1,2
+Lancashire - North,0,0,0,0,1
+Lancashire - West,0,0,0,0,2
+Leicestershire,2,0,2,3,4
+Lincolnshire,1,0,1,2,2
+London,11,0,11,74,77
+Merseyside - Liverpool,1,0,1,3,5
 Merseyside - Sefton,0,0,0,0,0
-Merseyside - St Helens & Knowsley,1,0,1,0,0
-Merseyside - Wirral,0,0,0,0,0
-Norfolk,2,0,2,0,0
-North East,0,0,0,0,1
-Northamptonshire,1,0,1,0,2
-Nottinghamshire,1,0,1,0,1
-Oxfordshire,1,0,1,1,1
+Merseyside - St Helens & Knowsley,1,0,1,1,3
+Merseyside - Wirral,1,0,1,0,0
+Norfolk,3,0,3,2,1
+North East,0,0,0,5,9
+Northamptonshire,2,0,2,1,16
+Nottinghamshire,1,0,1,2,7
+Oxfordshire,1,0,1,9,10
 Rutland,0,0,0,0,0
-Shropshire,2,0,2,0,0
-Somerset,1,0,1,0,3
-Staffordshire,2,0,2,1,1
-Suffolk,0,0,0,0,1
-Surrey,4,0,4,1,0
-Sussex,3,0,3,0,5
-West Midlands - Birmingham & Solihull,2,0,2,0,4
-West Midlands - Black Country,1,0,1,0,1
-West Midlands - Coventry & Warwickshire,0,0,0,2,0
-Wiltshire,0,0,0,0,0
-Worcestershire,0,0,0,0,0
-Yorkshire - East,2,0,2,0,1
-Yorkshire - North,0,0,0,0,1
-Yorkshire - South,0,0,0,1,0
-Yorkshire - West,1,0,1,2,1
-North Scotland,0,0,0,0,0
-Scotland - Borders,0,0,0,0,0
-Scotland Central - Edinburgh & Lothians,0,0,0,0,1
+Shropshire,2,0,2,1,5
+Somerset,1,0,1,2,6
+Staffordshire,3,0,3,2,4
+Suffolk,1,0,1,1,12
+Surrey,4,0,4,11,7
+Sussex,4,0,4,2,9
+West Midlands - Birmingham & Solihull,3,0,3,8,17
+West Midlands - Black Country,2,0,2,2,3
+West Midlands - Coventry & Warwickshire,3,0,3,2,7
+Wiltshire,0,0,0,0,7
+Worcestershire,0,0,0,1,4
+Yorkshire - East,2,0,2,1,2
+Yorkshire - North,3,0,3,3,8
+Yorkshire - South,0,0,0,3,6
+Yorkshire - West,3,0,3,11,19
+North Scotland,2,0,2,2,5
+Scotland - Borders,1,0,1,0,1
+Scotland Central - Edinburgh & Lothians,1,0,1,4,4
 Scotland Central - Falkirk & Stirling,1,0,1,0,0
 Scotland Central - Fife,0,0,0,0,0
-Scotland Central - Tayside,0,0,0,0,0
-Scotland West - Ayrshire,0,0,0,0,0
-Scotland West - Glasgow,0,0,0,0,1
-Scotland West - Lanarkshire,0,0,0,0,0
-Scotland West - Renfrewshire & Inverclyde,0,0,0,0,0
-North Wales - East,0,0,0,0,0
+Scotland Central - Tayside,0,0,0,1,1
+Scotland West - Ayrshire,0,0,0,0,2
+Scotland West - Glasgow,0,0,0,3,4
+Scotland West - Lanarkshire,0,0,0,1,0
+Scotland West - Renfrewshire & Inverclyde,0,0,0,0,2
+North Wales - East,1,0,1,3,1
 North Wales - West,0,0,0,0,0
 Wales - Mid,0,0,0,0,0
-Wales - West,0,0,0,0,0
-Wales South - Cardiff & Vale,0,0,0,0,0
+Wales - West,0,0,0,1,0
+Wales South - Cardiff & Vale,0,0,0,0,3
 Wales South - Gwent,0,0,0,0,0
-Wales South - Swansea Bay,0,0,0,0,0
-Wales South - Valleys,0,0,0,0,0
-Northern Ireland - East,1,0,1,0,2
+Wales South - Swansea Bay,0,0,0,0,3
+Wales South - Valleys,0,0,0,0,1
+Northern Ireland - East,3,0,3,2,8
 Northern Ireland - West,0,0,0,0,0
