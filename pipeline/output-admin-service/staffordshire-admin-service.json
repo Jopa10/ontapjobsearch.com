@@ -128,12 +128,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Records administration",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225462046",
@@ -158,12 +153,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Records administration",
-      "Data entry"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225464304",
@@ -188,11 +178,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Systems administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225480317",
@@ -267,12 +253,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Email handling",
-      "Records administration",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "107840501",
@@ -372,11 +353,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer portals",
-      "Reporting"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225537967",
@@ -426,11 +403,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Quotations"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225450232",
@@ -455,11 +428,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Quotations"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225471384",
@@ -552,7 +521,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/L0034-26-3555",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/L0034-26-3555",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5549028",
@@ -570,7 +543,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9301-26-1192",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9301-26-1192",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5549468",
@@ -588,7 +565,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0605-26-0001",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0605-26-0001",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5545061",
@@ -606,6 +587,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9301-26-1177",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9301-26-1177",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

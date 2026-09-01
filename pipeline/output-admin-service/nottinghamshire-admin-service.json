@@ -156,11 +156,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Filing and document handling",
-      "Reporting"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1767549",
@@ -210,12 +206,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Data entry",
-      "Quotations"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225474179",
@@ -290,11 +281,32 @@
     "advertiser_type": "Company",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Telephone handling"
-    ]
+    "posted_date_basis": ""
+  },
+  {
+    "job_id": "23643_225511181",
+    "title": "Admin Advertiser",
+    "company": "Simple Recruitment Services Ltd - Agency - Permanent",
+    "location": "Nottinghamshire",
+    "region": "Nottinghamshire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "12.71",
+    "salary_max": "12.71",
+    "salary_text": "£12.71 per hour",
+    "posted_date": "",
+    "description": "We are seeking a highly organised and detail-oriented Admin Advertiser to provide administrative support for advertising and commercial activities. The role involves creating and managing advertisements, maintaining accurate records, communicating with customers and supporting the wider team with day-to-day administrative tasks.\n\nWorking hours are 9am - 4pm\n\n£12.71 per hour increasing after 3 months\n\nKey Responsibilities\n- Create, update and publish advertisements across relevant platforms.\n- Ensure adverts contain accurate information, pricing, images and contact details.\n- Manage advertising schedules and ensure adverts are published on time.\n- Maintain accurate databases, customer records and advertising documentation.\n- Respond to enquiries from customers and prospective clients.\n- Liaise with clients to obtain advertising information, artwork and approvals.\n- Make amendments to advertisements as requested.\n- Monitor advertisements and ensure they remain accurate and up to date.\n- Prepare invoices, quotations, reports and other administrative documents.\n- Track advertising bookings, payments and renewals.\n- Support the sales and commercial teams with general administration.\n- Organise files, emails and digital records.\n- Use spreadsheets and internal systems to maintain accurate information.\n- Provide general office and administrative support as required.\n- Ensure company procedures and advertising guidelines are followed.\n\nSkills & Experience\n- Previous administration, advertising, sales or customer service experience is desirable.\n- Excellent organisational and time-management skills.\n- Strong attention to detail and accuracy.\n- Good written and verbal communication skills.\n- Confident using Microsoft Office, particularly Word and Excel.\n- Ability to manage multiple tasks and meet deadlines.\n- Good customer service skills.\n- Ability to work independently and as part of a team.\n- A proactive and professional approach to work.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?wTAUM266l6cqVazNxZWpPPofPPSWV%2fMqh",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Simple Recruitment Services Ltd",
+    "advertiser_type": "Agency",
+    "work_pattern": "Full Time",
+    "salary_period": "Hourly",
+    "posted_date_basis": ""
   },
   {
     "job_id": "1783423",
@@ -319,12 +331,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Records administration",
-      "Document preparation"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1782957",
@@ -474,11 +481,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Systems administration",
-      "Quotations"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "107830819",
@@ -621,7 +624,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0667-26-0002",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0667-26-0002",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5543621",
@@ -639,7 +646,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1807-26-0005",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1807-26-0005",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5564627",
@@ -657,7 +668,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0045-26-0081",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0045-26-0081",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5549977",
@@ -675,7 +690,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0567-26-0011",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0567-26-0011",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5536230",
@@ -693,6 +712,32 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2564-26-0008",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2564-26-0008",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
+  },
+  {
+    "job_id": "nhs-5517806",
+    "source": "NHS Jobs",
+    "title": "Medical Receptionist/Administrator",
+    "company": "The Linden Medical Group",
+    "advertiser_name": "The Linden Medical Group",
+    "location": "Nottingham, NG9 8DA",
+    "region": "Nottinghamshire",
+    "salary": "£12.71",
+    "employment_type": "Permanent",
+    "posted_date": "2026-08-04T15:43:40.134447",
+    "closing_date": "2026-09-30",
+    "description": "The Linden Medical Group is seeking to further expand our fabulous reception/administration team. We are looking to recruit an experienced, efficient, enthusiastic, highly motivated, flexible and well organised Medical Receptionist/Administrator. The working pattern is 27 hours over 4 days as follows: Monday & Tuesday 8am - 2pm Wednesday 8am-5:30pm with 1 hour unpaid lunch Friday 10am-5:30pm with 1 hour unpaid lunch This is an extremely busy role which requires hard work, the ability to multi task, to deal with multiple different demands on your time, the ability to calm a situation to prevent escalation, a good sense of humour, active listening skills, the ability to fit in with an established, friendly, team, the ability to prioritise to ensure all tasks are completed in a timely manner, excellent customer service skills and a smart, professional appearance. Previous experience of the SystmOne clinical system is necessary We are looking for candidates who can demonstrate the following: Excellent customer service skills. The ability to empathise. The ability to remain calm under pressure. Demonstrates active listening skills. Be sensitive to the needs of others. Who are adept at problem-solving. Excellent attention to detail. The ability to prioritise daily work to ensure all tasks are completed in a timely fashion. The ability to integrate into an established team. Good Sense of humour. Positive attitude. Professional Telephone manner In return we can offer a position within a very friendly Practice and pleasant working conditions. We actively look to encourage training for staff which, in turn, gives variety to the role. Our ideal candidate will have previous experience in a similar role. JOB TITLE: MEDICAL RECEPTIONIST/ADMINISTRATOR REPORTS TO: Operations Manager ACCOUNTABLE TO: Practice Manager Job Summary: Receive, assist and direct patients in accessing the appropriate service or healthcare professional in a courteous, efficient and effective way. Provide general assistance to the Practice team and project a positive and friendly image to patients and other visitors, either in person or via the telephone. Additional responsibilities include maintaining computerised records. Job Responsibilities: To ensure that the Reception/Administration functioning of the Practice runs smoothly and provides a high level of service to patients, doctors, nurses and other members of the Practice Team. Duties and Responsibilities: Telephone Duties Making appointments Taking and passing on messages Making appointments to discuss results Signpost callers to the appropriate healthcare professional Home visit requests Deal with general enquiries Contact patients, other team members and associated healthcare agencies and providers Reception Duties Greet and direct patients and visitors Register new patients and temporary residents Make appointments Ensure outstanding queries are explained and handed over to colleagues as necessary Respond to requests of doctors and nurses during clinics Collect payments from patients for non-NHS services Scanning and Filing Prescriptions Dealing with requests and queries relating to prescriptions Raising prescriptions as per Practice protocols Processing of incoming correspondence, this involves scanning letters, adding clinical codes and attaching to the patient records - training will be provided to perform this. Register new patients on to the system on a daily basis Complete electronic tasks on a daily basis Any other delegated duties considered appropriate to the post",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3455-26-0005",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3455-26-0005",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

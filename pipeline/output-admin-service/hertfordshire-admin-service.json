@@ -1,33 +1,5 @@
 [
   {
-    "job_id": "teaching-vacancies-receptionist-admin-assistant-and-student-support-coordinator-6462fad5-44b0-4b6f-afcb-acca1d5cb30c",
-    "title": "Receptionist/Admin Assistant and Student Support Coordinator",
-    "company": "Marriotts School",
-    "location": "Stevenage",
-    "region": "Hertfordshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['full time']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "£21,885.00 - £23,315.00 Annually (Actual) Term Time plus 5 days",
-    "work_pattern": "",
-    "posted_date": "2026-06-11",
-    "closing_date": "2026-09-01",
-    "closing_datetime": "2026-09-01T10:00:00+01:00",
-    "summary": "Receptionist/Admin Assistant and Student Support Coordinator with Marriotts School in Stevenage. ['full time']; £21,885.00 - £23,315.00 Annually (Actual) Term Time plus 5 days.",
-    "description": "Marriotts School is recruiting for this vacancy in Stevenage.\n\nThe advertised position is Receptionist/Admin Assistant and Student Support Coordinator.\n\nThe source lists the employment type as ['full time'].\n\nThe advertised salary or pay scale is £21,885.00 - £23,315.00 Annually (Actual) Term Time plus 5 days.\n\nThe stated application deadline is 2026-09-01T10:00:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/receptionist-admin-assistant-and-student-support-coordinator-6462fad5-44b0-4b6f-afcb-acca1d5cb30c?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Marriotts School",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
-  },
-  {
     "job_id": "teaching-vacancies-governance-administrator-aspire-academies-trust",
     "title": "Governance Administrator",
     "company": "Aspire Academies Trust",
@@ -259,11 +231,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Scheduling and bookings"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225522549",
@@ -288,11 +256,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Telephone handling",
-      "Systems administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225521989",
@@ -317,13 +281,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Telephone handling",
-      "Email handling",
-      "Scheduling and bookings",
-      "Systems administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1771181",
@@ -348,12 +306,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Systems administration",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1749312",
@@ -378,11 +331,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Scheduling and bookings"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1780989",
@@ -457,12 +406,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Systems administration",
-      "Quotations"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225528836",
@@ -587,11 +531,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Records administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "107580099",
@@ -641,12 +581,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Records administration",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "107862911",
@@ -746,12 +681,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Quotations",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1743719",
@@ -801,12 +731,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Scheduling and bookings",
-      "Systems administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1734756",
@@ -881,12 +806,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Quotations",
-      "Delivery coordination"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1778586",
@@ -936,11 +856,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Scheduling and bookings"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225542267",
@@ -993,31 +909,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "107891184",
-    "title": "Social Media Coordinator",
-    "company": "SCG Together - Agency - Permanent",
-    "location": "Hertfordshire",
-    "region": "Hertfordshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "28000",
-    "salary_max": "28000",
-    "salary_text": "£28000 per year",
-    "posted_date": "",
-    "description": "Location: Hemel Hempstead\n\nSalary: £26,500 - £28,000\n\n( Please note that this is a fully office-based role, you will need to be willing to travel to Hemel Hempstead five days a week)\n\nThe Social Media Coordinator will support the day-to-day delivery of SCGs social media activity. This is a hands-on coordination role, suited to a highly organised, creative and proactive marketing professional who is loo click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?aziU08XVyREdhw6SqGhLUUHi9fLtl2v8d",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "SCG Together",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "107798822",
     "title": "Sales Coordinator",
     "company": "The Dove Partnership - Agency - Permanent",
@@ -1043,6 +934,31 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "107891184",
+    "title": "Social Media Coordinator",
+    "company": "SCG Together - Agency - Permanent",
+    "location": "Hertfordshire",
+    "region": "Hertfordshire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "28000",
+    "salary_max": "28000",
+    "salary_text": "£28000 per year",
+    "posted_date": "",
+    "description": "Location: Hemel Hempstead\n\nSalary: £26,500 - £28,000\n\n( Please note that this is a fully office-based role, you will need to be willing to travel to Hemel Hempstead five days a week)\n\nThe Social Media Coordinator will support the day-to-day delivery of SCGs social media activity. This is a hands-on coordination role, suited to a highly organised, creative and proactive marketing professional who is loo click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?MQiKzVwZdh0ilCwRrLbG7aNdE5tOf7F4u",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "SCG Together",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
     "job_id": "nhs-5553693",
     "source": "NHS Jobs",
     "title": "Team Administrator",
@@ -1058,7 +974,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9367-26-0790",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9367-26-0790",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5520329",
@@ -1076,7 +996,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B0525-26-0016",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B0525-26-0016",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5439405",
@@ -1094,7 +1018,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0106-26-0072",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0106-26-0072",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5566843",
@@ -1112,7 +1040,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9812-26-0338",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9812-26-0338",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5555027",
@@ -1130,7 +1062,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0405-26-0006",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0405-26-0006",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5547537",
@@ -1148,6 +1084,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9812-26-0317",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9812-26-0317",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

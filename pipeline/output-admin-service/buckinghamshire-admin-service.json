@@ -1,33 +1,5 @@
 [
   {
-    "job_id": "teaching-vacancies-hr-administrator-glebe-farm-school-milton-keynes-buckinghamshire",
-    "title": "HR Administrator",
-    "company": "Glebe Farm School",
-    "location": "Milton Keynes",
-    "region": "Buckinghamshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['full time']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "£26,824.00 Annually (FTE) Grade D, £26,824 per annum",
-    "work_pattern": "",
-    "posted_date": "2026-07-24",
-    "closing_date": "2026-09-01",
-    "closing_datetime": "2026-09-01T12:00:00+01:00",
-    "summary": "HR Administrator with Glebe Farm School in Milton Keynes. ['full time']; £26,824.00 Annually (FTE) Grade D, £26,824 per annum.",
-    "description": "Glebe Farm School is recruiting for this vacancy in Milton Keynes.\n\nThe advertised position is HR Administrator.\n\nThe source lists the employment type as ['full time'].\n\nThe advertised salary or pay scale is £26,824.00 Annually (FTE) Grade D, £26,824 per annum.\n\nThe stated application deadline is 2026-09-01T12:00:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-glebe-farm-school-milton-keynes-buckinghamshire?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Glebe Farm School",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
-  },
-  {
     "job_id": "teaching-vacancies-attendance-officer-af35235c-b4c2-4ef0-9706-890c839e4f10",
     "title": "Attendance Officer",
     "company": "Walton High",
@@ -190,11 +162,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Records administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225528642",
@@ -219,13 +187,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Document preparation",
-      "Reporting",
-      "Quotations"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225544622",
@@ -350,11 +312,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Records administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1771203",
@@ -404,12 +362,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Email handling",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1733933",
@@ -434,12 +387,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Email handling",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1733870",
@@ -464,11 +412,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1734734",
@@ -568,11 +512,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Records administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225473506",
@@ -690,7 +630,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/L0034-26-3596",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/L0034-26-3596",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5543958",
@@ -708,7 +652,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3962-26-0008",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3962-26-0008",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5559695",
@@ -726,7 +674,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1790-26-0001",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1790-26-0001",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5558801",
@@ -744,7 +696,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0054-26-0091CHMC",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0054-26-0091CHMC",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5555759",
@@ -762,7 +718,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0177-26-9142",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0177-26-9142",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5551850",
@@ -780,6 +740,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9434-26-0486",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9434-26-0486",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

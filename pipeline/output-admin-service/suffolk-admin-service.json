@@ -22,11 +22,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Part Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Pre-employment administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225466833",
@@ -51,13 +47,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Records administration",
-      "Quotations",
-      "Delivery coordination"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225344061",
@@ -82,12 +72,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Records administration",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225462763",
@@ -112,14 +97,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Shared inboxes",
-      "Records administration",
-      "Systems administration",
-      "Quotations",
-      "Delivery coordination"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225467931",
@@ -144,11 +122,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225480072",
@@ -391,7 +365,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0128-26-0004",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0128-26-0004",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5546340",
@@ -409,7 +387,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9246-26-0934",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9246-26-0934",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5536497",
@@ -427,6 +409,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4547-26-0000",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4547-26-0000",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

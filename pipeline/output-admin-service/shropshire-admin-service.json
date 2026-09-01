@@ -47,11 +47,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Systems administration",
-      "Quotations"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225459653",
@@ -76,31 +72,6 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": ""
-  },
-  {
-    "job_id": "107819872",
-    "title": "Key Accounts Administrator",
-    "company": "Prince Personnel Limited - Agency - Permanent",
-    "location": "Shropshire",
-    "region": "Shropshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "30000",
-    "salary_max": "30000",
-    "salary_text": "£30000 per year",
-    "posted_date": "",
-    "description": "Key Accounts Administrator\n\nSouth Shropshire\n\nPermanent\n\n£28,000 - £30,000\n\nMondayFriday, 9am - 5pm\n\nWere looking for a Key Accounts Administrator to join a growing commercial business and play a central role in delivering an excellent customer experience. This is a varied, hands-on role that sits across customer service, sales support and operational coordination click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?d1vRzEYF65TdaoXDniTEHagrLYwz%2b2%2fjx",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Prince Personnel Limited",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Annual",
     "posted_date_basis": ""
   },
   {
@@ -176,11 +147,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Pre-employment administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225492971",
@@ -205,12 +172,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Systems administration",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225476021",
@@ -235,12 +197,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Systems administration",
-      "Quotations"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225475092",
@@ -308,7 +265,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9301-26-1239",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9301-26-1239",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5564870",
@@ -326,6 +287,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0132-26-1896",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0132-26-1896",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

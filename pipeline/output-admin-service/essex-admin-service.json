@@ -78,11 +78,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Shared inboxes",
-      "Records administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225473828",
@@ -132,13 +128,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Daily",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Shared inboxes",
-      "Scheduling and bookings",
-      "Systems administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225462773",
@@ -188,11 +178,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Systems administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225534717",
@@ -242,11 +228,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Email handling",
-      "Document preparation"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225464133",
@@ -296,12 +278,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Email handling",
-      "Scheduling and bookings",
-      "Reporting"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225473584",
@@ -326,11 +303,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Part Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Shared inboxes",
-      "Records administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225472719",
@@ -355,11 +328,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Data entry"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225474041",
@@ -409,12 +378,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Email handling",
-      "Systems administration",
-      "Document preparation"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225512952",
@@ -489,11 +453,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Quotations"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225523466",
@@ -593,11 +553,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Quotations"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1769452",
@@ -622,12 +578,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Email handling",
-      "Records administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1733700",
@@ -702,12 +653,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Email handling",
-      "Scheduling and bookings",
-      "Reporting"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1798034",
@@ -782,14 +728,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Scheduling and bookings",
-      "Records administration",
-      "Quotations",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225464097",
@@ -1057,7 +996,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9364-26-0808",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9364-26-0808",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5548458",
@@ -1075,7 +1018,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9364-26-0777",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9364-26-0777",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5465926",
@@ -1093,7 +1040,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0151-26-0022",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0151-26-0022",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5446642",
@@ -1111,7 +1062,33 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0106-26-0084",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0106-26-0084",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
+  },
+  {
+    "job_id": "nhs-5570839",
+    "source": "NHS Jobs",
+    "title": "Ward Clerk",
+    "company": "Essex Partnership University NHS Foundation Trust",
+    "advertiser_name": "Essex Partnership University NHS Foundation Trust",
+    "location": "Chelmsford, CM1 7LF",
+    "region": "Essex",
+    "salary": "£25760.00 to £27476.00",
+    "employment_type": "Fixed-Term",
+    "posted_date": "2026-09-01T10:13:26.945685",
+    "closing_date": "2026-09-15",
+    "description": "*Previous applicants need not apply* We are looking for an enthusiastic, highly committed, flexible person to support our expanding team and service with various administration duties The appropriate candidate will be flexible, demonstrating an eagerness to contribute to offering the best care and service to our patients and their families. Excellent time management and ability to prioritise along with strong communication skills are essential Processing and management of patient clinical records meeting note taking management of emails and telephone enquiries data collection and audit (please read job description and person specification for further details)",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9364-26-0823",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9364-26-0823",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5559515",
@@ -1129,7 +1106,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3646-26-0010",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3646-26-0010",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5493387",
@@ -1147,6 +1128,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0106-26-0099",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0106-26-0099",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

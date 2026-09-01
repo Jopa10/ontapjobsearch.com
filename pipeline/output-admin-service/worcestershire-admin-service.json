@@ -147,11 +147,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Part Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Records administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1744156",
@@ -176,11 +172,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Quotations"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1782921",
@@ -205,11 +197,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Records administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1734780",
@@ -327,7 +315,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9798-2586",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9798-2586",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5553424",
@@ -345,7 +337,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9798-2569",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9798-2569",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5543616",
@@ -363,6 +359,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9798-2551",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9798-2551",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

@@ -212,13 +212,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Scheduling and bookings",
-      "Data entry",
-      "Document preparation"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225515250",
@@ -243,12 +237,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Email handling",
-      "Systems administration",
-      "Pre-employment administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225516031",
@@ -298,11 +287,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Document preparation"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225524513",
@@ -327,11 +312,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Reporting",
-      "Quotations"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1744198",
@@ -406,12 +387,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Email handling",
-      "Systems administration",
-      "Pre-employment administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1733703",
@@ -436,12 +412,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Records administration",
-      "Document preparation"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225476554",
@@ -544,31 +515,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "107902255",
-    "title": "Lead Activities Coordinator",
-    "company": "Exemplar Health Care - Company - Permanent",
-    "location": "Leeds",
-    "region": "Yorkshire - West",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "13.27",
-    "salary_max": "13.27",
-    "salary_text": "£13.27 per hour",
-    "posted_date": "",
-    "description": "Lead Activities Coordinator\n\nWhen registering to this job board you will be redirected to the online application form. Please ensure that this is completed in full in order that your application can be reviewed.\n\nPosition: Lead Activities Coordinator\nCare home: Copperfields\nLocation: Cross Green, Leeds\nContract type: 40 hours per week click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?bZCSDJyF3N6uGT8JJiOZcBIvWRdwtgLvq",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Exemplar Health Care",
-    "advertiser_type": "Company",
-    "work_pattern": "Not Specified",
-    "salary_period": "Hourly",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "23643_225458763",
     "title": "Administrator",
     "company": "Moulds Accountants & Advisory Services - Agency - Permanent",
@@ -591,12 +537,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Part Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Telephone handling",
-      "Email handling",
-      "Records administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225499042",
@@ -696,12 +637,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Reporting",
-      "Order processing",
-      "Delivery coordination"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225463726",
@@ -751,13 +687,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Records administration",
-      "Systems administration",
-      "Quotations"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225465858",
@@ -882,13 +812,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Reporting",
-      "Quotations",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1704534",
@@ -963,12 +887,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Records administration",
-      "Systems administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1770678",
@@ -1086,7 +1005,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3394-26-0006",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3394-26-0006",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5555590",
@@ -1104,7 +1027,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0145-26-0127",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0145-26-0127",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5551474",
@@ -1122,7 +1049,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1533-26-0007",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1533-26-0007",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5539626",
@@ -1140,7 +1071,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E9847-26-0269",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E9847-26-0269",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5565093",
@@ -1158,7 +1093,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2598-26-0009",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2598-26-0009",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5565812",
@@ -1176,7 +1115,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9372-26-0450",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9372-26-0450",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5561629",
@@ -1194,7 +1137,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/W0033-26-1144",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/W0033-26-1144",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5559076",
@@ -1212,7 +1159,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0911-26-0001",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0911-26-0001",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5561913",
@@ -1230,24 +1181,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B0471-26-0046",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B0471-26-0046",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
-  },
-  {
-    "job_id": "nhs-5561893",
-    "source": "NHS Jobs",
-    "title": "Ward Clerk",
-    "company": "Calderdale and Huddersfield NHS Foundation Trust",
-    "advertiser_name": "Calderdale and Huddersfield NHS Foundation Trust",
-    "location": "Huddersfield, HD3 3EA",
-    "region": "Yorkshire - West",
-    "salary": "£25272.00",
-    "employment_type": "Permanent",
-    "posted_date": "2026-08-26T08:35:58.284453849",
-    "closing_date": "2026-09-04",
-    "description": "We are looking for an enthusiastic and motivated individual who enjoys the challenge of working in an acute busy environment. The successful candidate will be hardworking and support the ward staff and promote excellent patient care. The post holder is responsible for providing all clerical/admin and secretarial support to ward 11B staff, including a good working knowledge of all Trust electronic systems. The post holder is required to deal with queries from patients, visitors and staff. Participate in regular supervision. Attend all mandatory training. Participate annually identifying, developing and agreeing your own development plan with your Line Manager using the Trust Appraisal. Comply with all Trust policies, procedures and protocols. Carry out duties with due regard to the Trusts Equal Opportunity Policy. Seek advice and support from Line Manager whenever necessary. Maintain professional conduct including appearance at all times.",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9372-26-0447",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9372-26-0447",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]
