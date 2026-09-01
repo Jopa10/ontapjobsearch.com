@@ -1,12 +1,12 @@
 # Ontap daily job review
 
-> **NOT READY TO REVIEW — waiting for: NEJobs, VONNE, Teaching Vacancies**
+> **NOT READY TO REVIEW — waiting for: NEJobs**
 > Do not start reviewing yet. Rebuild this review after those source refreshes complete.
 
 review_date: 2026-09-01
-generated_at: 2026-09-01T08:52:20+00:00
+generated_at: 2026-09-01T12:44:20+00:00
 
-**44 job(s) need a human decision.**
+**57 job(s) need a human decision.**
 
 Edit only each `action:` line:
 - `action: select` = include the vacancy.
@@ -21,15 +21,15 @@ Edit only each `action:` line:
 
 | Source | Status | Review date | Needs review | Note |
 |---|---|---|---:|---|
-| JobG8 | OK | 2026-09-01 | 44 | — |
+| JobG8 | OK | 2026-09-01 | 45 | — |
 | NEJobs | STALE | 2026-08-31 | 0 | — |
-| VONNE | STALE | 2026-08-31 | 0 | — |
-| Teaching Vacancies | STALE | 2026-08-31 | 0 | — |
+| VONNE | OK | 2026-09-01 | 1 | — |
+| Teaching Vacancies | OK | 2026-09-01 | 11 | — |
 | NHS Jobs | OK | 2026-09-01 | 0 | automatic Tier A/B publish; NHS POSS stays in the NHS-specific review and is optional |
 
 > **Attention:** one or more active source reviews are stale or missing. Those sources contribute no jobs to this file and must not be treated as zero inventory.
 
-## JobG8 — 44 to review
+## JobG8 — 45 to review
 
 ---
 action:
@@ -375,6 +375,24 @@ hub_fingerprint: 59a09068c6c15e053da38c26396fa2af45fd525de2c7a20a0a0d03c1a9700be
 
 ---
 action:
+POSS | JobG8 | Kent | Kent | £13.45 per hour (£13.45) | Housing Support Worker (Casual)
+source_key: jobg8
+source: JobG8
+category: support_worker
+source_job_id: 23643_225534852
+title: Housing Support Worker (Casual)
+employer: 
+location: Kent
+region: Kent
+salary: £13.45 per hour (£13.45)
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: 4c35858fce34a3d727fe19152a1bea725a533fbdf01470d0fc9de0c7e71403df
+---
+
+---
+action:
 POSS | JobG8 | London | Islington | £38,000.00 per annum | Fundraising and Social Value Coordinator
 source_key: jobg8
 source: JobG8
@@ -389,6 +407,24 @@ closing_date:
 reason: JobG8 selector marked this vacancy POSS
 source_url: 
 hub_fingerprint: bad56045ca6ef215344ee118dde479cb7dcf7f96adecf01df31adda33a249627
+---
+
+---
+action:
+POSS | JobG8 | London | London | £80000 - £95000 per year | Chartered Financial Planner
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 1733895
+title: Chartered Financial Planner
+employer: 
+location: London
+region: London
+salary: £80000 - £95000 per year
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: 0aeaf3e5d087ca009362fd19304f05d97cf52963731206a405d27691d24b0614
 ---
 
 ---
@@ -626,24 +662,6 @@ hub_fingerprint: 47c844f14a0e1125747eb20b1d09b17e10127ac21006e3de023905cfcd88d80
 ---
 
 ---
-action:
-POSS | JobG8 | Surrey | Cobham | £13.45 per hour (£13.45) | Housing Support Worker (Casual)
-source_key: jobg8
-source: JobG8
-category: support_worker
-source_job_id: 23643_225534852
-title: Housing Support Worker (Casual)
-employer: 
-location: Cobham
-region: Surrey
-salary: £13.45 per hour (£13.45)
-closing_date: 
-reason: JobG8 selector marked this vacancy POSS
-source_url: 
-hub_fingerprint: c7873a5e3e7843094aa9feb4fb353251add36f575b579e5f9058113644c78fd2
----
-
----
 action: exclude
 POSS | JobG8 | Surrey | Staines | £30000 - £40000 per year | IT Project Coordinator
 source_key: jobg8
@@ -821,6 +839,226 @@ closing_date:
 reason: JobG8 selector marked this vacancy POSS
 source_url: 
 hub_fingerprint: 101a7daac8c2b7972a9d7963347f8bcc7defe30cdad4f363cd023ebb0ed2d3b2
+---
+
+## VONNE — 1 to review
+
+---
+action:
+POSS | VONNE | North East - Tyneside, Wearside & Northumberland | Tyne and Wear | £23,370 to 23,790 | Receptionist
+source_key: vonne
+source: VONNE
+category: admin_service
+source_job_id: 173374
+title: Receptionist
+employer: Foundation of Light
+location: Tyne and Wear
+region: North East - Tyneside, Wearside & Northumberland
+salary: £23,370 to 23,790
+closing_date: Friday, September 11, 2026 - 00:00
+reason: possible cross-source duplicate requires review
+source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173374
+hub_fingerprint: 84c2c6fd7152830b8f2c3816ea6b7a0a9deecf2410a41386c7a55728a4a95bf1
+---
+
+## Teaching Vacancies — 11 to review
+
+---
+action:
+POSS | Teaching Vacancies | Hertfordshire | Chorleywood, WD3 6EW | £29,540.00 Annually (FTE) | HR Advisor
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: hr-advisor-eb9c5bf8-2603-48ba-bfc8-df41ec1204b1
+title: HR Advisor
+employer: Danes Educational Trust
+location: Chorleywood, WD3 6EW
+region: Hertfordshire
+salary: £29,540.00 Annually (FTE)
+closing_date: 2026-09-21T09:00:00+01:00
+reason: Administrative duties evidenced in description
+source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-advisor-eb9c5bf8-2603-48ba-bfc8-df41ec1204b1
+hub_fingerprint: 63b4e126d7161a29af59f6b4707d4ecce289454298cb2b113bdaedd0133e4766
+---
+
+---
+action:
+POSS | Teaching Vacancies | Kent | Canterbury, CT1 1NQ | £28,182.00 Annually (FTE) Actual annual salary £ 26057.39 | HR administrator
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: hr-administrator-the-diocese-of-canterbury-academies-trust
+title: HR administrator
+employer: The Diocese Of Canterbury Academies Trust
+location: Canterbury, CT1 1NQ
+region: Kent
+salary: £28,182.00 Annually (FTE) Actual annual salary £ 26057.39
+closing_date: 2026-09-07T23:59:00+01:00
+reason: Possible JobG8 duplicate requires review
+source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-the-diocese-of-canterbury-academies-trust
+hub_fingerprint: 2cb63b58beb5bae384e9e052e7d9410c3f0dc582b6d8cca6b7a6e00b205fa430
+---
+
+---
+action:
+POSS | Teaching Vacancies | Kent | Sheerness, South East, ME12 3AP | £8,557.00 - £8,693.00 Annually (Actual) | Receptionist
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: receptionist-nore-academy
+title: Receptionist
+employer: Nore Academy
+location: Sheerness, South East, ME12 3AP
+region: Kent
+salary: £8,557.00 - £8,693.00 Annually (Actual)
+closing_date: 2026-09-04T12:00:00+01:00
+reason: Possible JobG8 duplicate requires review
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-nore-academy
+hub_fingerprint: 1bc4d13ea6c2ee61d760d55cbded78b35311c5e01857d2d620f75de6e289be06
+---
+
+---
+action:
+POSS | Teaching Vacancies | Lincolnshire | Spalding, East Midlands, PE11 2EH | £23,973.00 - £26,409.00 Annually (Actual) G5.12-15 £27,254 - £30,024 FTE | HR Administrator
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: hr-administrator-tulip-academy
+title: HR Administrator
+employer: Tulip Academy
+location: Spalding, East Midlands, PE11 2EH
+region: Lincolnshire
+salary: £23,973.00 - £26,409.00 Annually (Actual) G5.12-15 £27,254 - £30,024 FTE
+closing_date: 2026-09-07T23:59:00+01:00
+reason: Possible JobG8 duplicate requires review
+source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-tulip-academy
+hub_fingerprint: 49188d67866c546cc12434263960a78ecc42aedcb4669b54e7c0abc7f608016f
+---
+
+---
+action:
+POSS | Teaching Vacancies | London | Borehamwood, East of England, WD6 2DW | £25,583.00 - £25,989.00 Annually (FTE) Hours Required: 8.30am to 3.30pm | Administrator
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: administrator-summerswood-primary-school
+title: Administrator
+employer: Summerswood Primary School
+location: Borehamwood, East of England, WD6 2DW
+region: London
+salary: £25,583.00 - £25,989.00 Annually (FTE) Hours Required: 8.30am to 3.30pm
+closing_date: 2026-09-04T08:00:00+01:00
+reason: Possible JobG8 duplicate requires review
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-summerswood-primary-school
+hub_fingerprint: 78a3e99b6bd8cb41fd331d48a203a50e9603a7e272eded8b52a439c26dd5e735
+---
+
+---
+action:
+POSS | Teaching Vacancies | London | Dagenham, London, RM9 6PH | £25,514.00 Annually (Actual) | Administrative Assistant
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: administrative-assistant-pathways-school
+title: Administrative Assistant
+employer: Pathways School
+location: Dagenham, London, RM9 6PH
+region: London
+salary: £25,514.00 Annually (Actual)
+closing_date: 2026-09-11T23:59:00+01:00
+reason: Possible JobG8 duplicate requires review
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-pathways-school
+hub_fingerprint: 2151d7e740021a7a3c2637680e853e574a844c73d52bf6f992dca5ece18de543
+---
+
+---
+action:
+POSS | Teaching Vacancies | London | Harrow, London, HA2 9AG | £14,166.00 Annually (Actual) | Receptionist & Admin Assistant
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: receptionist-admin-assistant-heathland-school-harrow-middlesex
+title: Receptionist & Admin Assistant
+employer: Heathland School
+location: Harrow, London, HA2 9AG
+region: London
+salary: £14,166.00 Annually (Actual)
+closing_date: 2026-09-06T23:59:00+01:00
+reason: Possible JobG8 duplicate requires review
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-admin-assistant-heathland-school-harrow-middlesex
+hub_fingerprint: 713fbd5a3b8f904da63276b96b3ad8cc3e49f91f08e0ef47701ef1a7498c4677
+---
+
+---
+action:
+POSS | Teaching Vacancies | London | London, London, E15 3DN | Scaled 3 (dependent on experience) £25,524 Pro Rata | Administrative Assistant
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: administrative-assistant-ranelagh-primary-school
+title: Administrative Assistant
+employer: Ranelagh Primary School
+location: London, London, E15 3DN
+region: London
+salary: Scaled 3 (dependent on experience) £25,524 Pro Rata
+closing_date: 2026-09-04T12:00:00+01:00
+reason: Possible JobG8 duplicate requires review
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-ranelagh-primary-school
+hub_fingerprint: 994387633e5f9b980010b1d7809ea0d46af0b291fdf399e613f120c2b586cafb
+---
+
+---
+action:
+POSS | Teaching Vacancies | London | London, London, SW4 0AJ | £29,805.00 Annually (Actual) Inner London payscale Spine Point 2 | Receptionist / Administrator
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: receptionist-administrator-belleville-wix-academy-london
+title: Receptionist / Administrator
+employer: Belleville Wix Academy
+location: London, London, SW4 0AJ
+region: London
+salary: £29,805.00 Annually (Actual) Inner London payscale Spine Point 2
+closing_date: 2026-09-09T23:59:00+01:00
+reason: Possible JobG8 duplicate requires review
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrator-belleville-wix-academy-london
+hub_fingerprint: 93a10592e03ed9d3f693438018eded1145b943920f3a912cde877298ba7ec1f5
+---
+
+---
+action:
+POSS | Teaching Vacancies | London | Osterley, London, TW7 5PN | 28,195.00 - 29,852.00 | School Administrator
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: school-administrator-nishkam-school-west-london
+title: School Administrator
+employer: Nishkam School West London
+location: Osterley, London, TW7 5PN
+region: London
+salary: 28,195.00 - 29,852.00
+closing_date: 2026-09-04T00:00:00+01:00
+reason: Possible JobG8 duplicate requires review
+source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-nishkam-school-west-london
+hub_fingerprint: 49f608949386027b12514963c345f9f8a23231c1a6a2e4bc2f5344ca08ca33f2
+---
+
+---
+action:
+POSS | Teaching Vacancies | Oxfordshire | Oxford, South East, OX3 9WN | £26,824.00 Annually (FTE) Actual annual salary is £12,016 for 19.5 hours per week term time only plus 3 inset days | Office Administrator
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: office-administrator-barton-park-primary-school
+title: Office Administrator
+employer: Barton Park Primary School
+location: Oxford, South East, OX3 9WN
+region: Oxfordshire
+salary: £26,824.00 Annually (FTE) Actual annual salary is £12,016 for 19.5 hours per week term time only plus 3 inset days
+closing_date: 2026-09-04T12:00:00+01:00
+reason: Possible JobG8 duplicate requires review
+source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-barton-park-primary-school
+hub_fingerprint: 5ac2163c06159d1e25b77086c07e93aabb73a2d59fba3834fb30daa930206311
 ---
 
 ## NHS Jobs — 0 to review
