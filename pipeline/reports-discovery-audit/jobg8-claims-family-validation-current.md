@@ -1,12 +1,12 @@
 # JobG8 Claims Support family validation
 
-Feed: **2026-08-30.xlsx**
-Jobs in feed: **10,000**
-Broad insurance/claims universe: **101** raw rows
-IN after advert-level boundary rules: **10** raw rows
+Feed: **2026-08-31.xlsx**
+Jobs in feed: **5,354**
+Broad insurance/claims universe: **32** raw rows
+IN after advert-level boundary rules: **7** raw rows
 BORDERLINE: **0** raw rows
-OUT: **91** raw rows
-Content-unique IN jobs: **10** (removed **0** exact-content duplicate rows)
+OUT: **25** raw rows
+Content-unique IN jobs: **7** (removed **0** exact-content duplicate rows)
 
 Diagnostic only: no LIVE slice, publishing rule or production family status is changed.
 
@@ -23,15 +23,14 @@ Diagnostic only: no LIVE slice, publishing rule or production family status is c
 
 | Decision | Raw rows |
 |---|---:|
-| IN | 10 |
+| IN | 7 |
 | BORDERLINE | 0 |
-| OUT | 91 |
+| OUT | 25 |
 
 ## Content-unique IN regional shape
 
 | Jobs | Ontap region |
 |---:|---|
-| 3 | Norfolk |
 | 2 | Kent |
 | 1 | Staffordshire |
 | 1 | Bristol & Bath |
@@ -41,7 +40,6 @@ Diagnostic only: no LIVE slice, publishing rule or production family status is c
 
 | Jobs | JobG8 classification |
 |---:|---|
-| 3 | Insurance & Superannuation |
 | 2 | Administration |
 | 2 | Call Centre / CustomerService |
 | 2 | Legal |
@@ -57,11 +55,8 @@ Diagnostic only: no LIVE slice, publishing rule or production family status is c
 | 1 | Insurance Coordinator |
 | 1 | Senior Customer Service Adviser |
 | 1 | Claims Administrator |
-| 1 | Motor Claims Handler |
-| 1 | Experienced Motor Claims Handler |
-| 1 | Third-Party Capture Claims Handler |
 
 ## Salary guard check
 
-Content-unique IN jobs with usable annualised maximum: **9**.
+Content-unique IN jobs with usable annualised maximum: **6**.
 IN jobs still over £50k: **0** (must be zero).
