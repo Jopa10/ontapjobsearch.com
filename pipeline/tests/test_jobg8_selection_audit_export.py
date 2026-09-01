@@ -1,6 +1,8 @@
 import csv
+import sys
 import tempfile
 import unittest
+from unittest.mock import patch
 from pathlib import Path
 
 import pandas as pd
@@ -9,6 +11,23 @@ from pipeline.scripts.jobg8_selection_audit_export import COL, classify_status, 
 
 
 class JobG8SelectionAuditExportTest(unittest.TestCase):
+    def test_export_refuses_feed_date_mismatch_before_reading_feed(self):
+        with tempfile.TemporaryDirectory() as directory:
+            input_dir = Path(directory) / "input"
+            input_dir.mkdir()
+            (input_dir / "2026-08-31.xlsx").touch()
+            argv = [
+                "jobg8_selection_audit_export",
+                "--input-dir", str(input_dir),
+                "--reconciliation-csv", str(Path(directory) / "unused.csv"),
+                "--output-dir", str(Path(directory) / "output"),
+                "--expected-feed-date", "2026-09-01",
+            ]
+            with patch.object(sys, "argv", argv):
+                from pipeline.scripts.jobg8_selection_audit_export import main
+                with self.assertRaisesRegex(SystemExit, "expected feed date 2026-09-01, but selected 2026-08-31"):
+                    main()
+
     def test_salary_bands_use_annualised_midpoint(self):
         self.assertEqual(salary_band(20_000, 34_000), "£20k–<£35k")
         self.assertEqual(salary_band(35_000, 45_000), "£35k–£45k")
