@@ -69,6 +69,12 @@ SELECTED | Sussex | Hastings | £13.79 per hour | Care Assistant
 job_id: 107826653
 ---
 
+---
+action:
+SELECTED | Sussex | Bexhill-on-sea | £13.45 per hour | Support Worker- Nights
+job_id: 107828547
+---
+
 ## SUSSEX — POSSIBLES
 
 _No jobs in this group._
@@ -269,12 +275,6 @@ SELECTED | Oxfordshire | Oxford | £85 - £110 per daily | Behaviour Support Ass
 job_id: 1819710
 ---
 
----
-action:
-SELECTED | Oxfordshire | Bicester | £26000 per year | Support Worker
-job_id: 107893300
----
-
 ## OXFORDSHIRE — POSSIBLES
 
 _No jobs in this group._
@@ -315,6 +315,12 @@ job_id: 1787836
 action:
 SELECTED | Wiltshire | Trowbridge | £30000 per year | Recovery Worker
 job_id: 107899505
+---
+
+---
+action:
+SELECTED | Wiltshire | Wiltshire | £13.81 per hour | Care Assistant - Bank - Care Home
+job_id: 23643_225549480
 ---
 
 ## WILTSHIRE — POSSIBLES
