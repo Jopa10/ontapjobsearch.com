@@ -1,6 +1,6 @@
 # Ontap daily regional overview
 
-Generated: 2026-09-01T20:35:11+01:00
+Generated: 2026-09-01T20:40:12+01:00
 
 [Download this overview as Excel](./daily-region-overview.xlsx)
 
