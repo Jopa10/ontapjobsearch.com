@@ -7,6 +7,8 @@ This is the short owner view of how Ontap is organised. It mirrors the five cano
 
 ## Recent canonical changes
 
+- 1 September 2026 — The main daily regional overview now shows how many jobs the latest JobG8 coverage audit actually received and the count in each of JobG8's own supplied classifications. This is kept distinct from Ontap categories and live-job totals.
+
 - 1 September 2026 — **Three more regional slices are approved for LIVE:** Bedfordshire Service Admin, Bristol & Bath Sales Advisor and Buckinghamshire Marketing. Their current / rolling-average / six-plus-day evidence is **9 / 6.0 / 6-of-11, 9 / 6.6 / 9-of-11 and 13 / 4.1 / 2-of-9** respectively. They use the existing selectors and regional-page publisher; no other market changes.
 
 - 1 September 2026 — **The twice-daily JobG8 refresh has a safe fallback:** cron-job.org can trigger the existing morning and evening JobG8 workflow at 08:35 and 17:35 UK time. The workflow records a completed UK cycle only after its normal process and commit succeed. If GitHub’s own delayed cron run then arrives, it recognises that completed cycle and ends without rerunning or making duplicate commits. If the first attempt fails, it is not marked complete, so the other trigger can still run it.

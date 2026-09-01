@@ -258,6 +258,22 @@ def write_csv(rows: list[dict[str, Any]], path: Path) -> None:
         writer.writerows(rows)
 
 
+def write_jobg8_category_profile(rows: list[dict[str, Any]], path: Path, feed_date: str) -> None:
+    """Persist the factual JobG8-supplied category mix for the owner overview."""
+    counts = Counter((row.get("Original JobG8 category") or "(blank)").strip() for row in rows)
+    path.parent.mkdir(parents=True, exist_ok=True)
+    with path.open("w", encoding="utf-8", newline="") as handle:
+        writer = csv.DictWriter(handle, fieldnames=["feed_date", "total_jobs", "jobg8_category", "count"])
+        writer.writeheader()
+        for category, count in sorted(counts.items(), key=lambda item: (-item[1], item[0].casefold())):
+            writer.writerow({
+                "feed_date": feed_date,
+                "total_jobs": len(rows),
+                "jobg8_category": category,
+                "count": count,
+            })
+
+
 def write_xlsx(rows: list[dict[str, Any]], path: Path, source_name: str) -> None:
     wb = Workbook()
     ws = wb.active
@@ -309,6 +325,7 @@ def main() -> int:
     parser.add_argument("--geo-lookup", type=Path, default=Path("pipeline/geo/geo_lookup.xlsx"))
     parser.add_argument("--app-root", type=Path, default=Path("app"))
     parser.add_argument("--output-dir", required=True, type=Path)
+    parser.add_argument("--category-profile-output", type=Path)
     parser.add_argument("--limit", type=int)
     args = parser.parse_args()
 
@@ -328,6 +345,10 @@ def main() -> int:
     xlsx_path = args.output_dir / "jobg8-selection-audit.xlsx"
     write_csv(rows, csv_path)
     write_xlsx(rows, xlsx_path, feed.name)
+    if args.category_profile_output:
+        feed_date_match = re.search(r"(20\d{2}-\d{2}-\d{2})", feed.stem)
+        feed_date = feed_date_match.group(1) if feed_date_match else feed.stem
+        write_jobg8_category_profile(rows, args.category_profile_output, feed_date)
     counts = Counter(row["Publication / coverage status"] for row in rows)
     if sum(counts.values()) != len(raw) or len(rows) != len(raw):
         raise SystemExit("Audit row reconciliation failed")
