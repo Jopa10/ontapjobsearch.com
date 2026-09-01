@@ -142,6 +142,48 @@ def published_jobg8_ids(app_root: Path) -> set[str]:
     return ids
 
 
+def published_jobg8_details(app_root: Path) -> dict[str, dict[str, str]]:
+    details: dict[str, dict[str, str]] = {}
+    for path in app_root.rglob("*.json"):
+        try:
+            payload = json.loads(path.read_text(encoding="utf-8-sig"))
+        except (OSError, json.JSONDecodeError):
+            continue
+        for row in payload if isinstance(payload, list) else []:
+            if not isinstance(row, dict) or norm(row.get("source")) != "jobg8":
+                continue
+            job_id = text(row.get("job_id") or row.get("id"))
+            if job_id and job_id not in details:
+                details[job_id] = {
+                    "JobG8 ID": job_id, "Title": text(row.get("title")),
+                    "Employer": text(row.get("company") or row.get("advertiser_name")),
+                    "Ontap posted date": text(row.get("posted_date")),
+                    "Apply URL": text(row.get("apply_url")),
+                }
+    return details
+
+
+def write_published_absent_current_feed(raw: pd.DataFrame, input_dir: Path, published: dict[str, dict[str, str]], path: Path) -> None:
+    current_ids = {text(value) for value in raw[COL["id"]] if text(value)}
+    absent_ids = set(published) - current_ids
+    last_seen: dict[str, str] = {}
+    for feed in sorted(input_dir.glob("*.xlsx")):
+        match = re.search(r"(20\d{2}-\d{2}-\d{2})", feed.stem)
+        feed_date = match.group(1) if match else feed.stem
+        for value in pd.read_excel(feed, usecols=[COL["id"]], dtype=str).fillna("")[COL["id"]]:
+            job_id = text(value)
+            if job_id in absent_ids:
+                last_seen[job_id] = feed_date
+    fields = ["JobG8 ID", "Title", "Employer", "Ontap posted date", "Last seen in JobG8 archive", "Apply URL"]
+    with path.open("w", encoding="utf-8-sig", newline="") as handle:
+        writer = csv.DictWriter(handle, fieldnames=fields)
+        writer.writeheader()
+        for job_id in sorted(absent_ids, key=lambda value: (last_seen.get(value, ""), value), reverse=True):
+            row = dict(published[job_id])
+            row["Last seen in JobG8 archive"] = last_seen.get(job_id, "Not found in available archive")
+            writer.writerow(row)
+
+
 def load_register(path: Path) -> dict[tuple[str, str], str]:
     out: dict[tuple[str, str], str] = {}
     with path.open(encoding="utf-8-sig", newline="") as handle:
@@ -370,7 +412,8 @@ def main() -> int:
         raise SystemExit(f"JobG8 feed is missing expected columns: {missing}")
     reconciliation = pd.read_csv(args.reconciliation_csv, dtype=str, encoding="utf-8-sig").fillna("")
     areas, locations = load_geo(args.geo_lookup)
-    published_ids = published_jobg8_ids(args.app_root)
+    published_details = published_jobg8_details(args.app_root)
+    published_ids = set(published_details)
     rows = build_rows(raw, reconciliation, published_ids, load_register(args.slice_register), areas, locations)
 
     args.output_dir.mkdir(parents=True, exist_ok=True)
@@ -378,6 +421,7 @@ def main() -> int:
     xlsx_path = args.output_dir / "jobg8-selection-audit.xlsx"
     write_csv(rows, csv_path)
     write_xlsx(rows, xlsx_path, feed.name)
+    write_published_absent_current_feed(raw, args.input_dir, published_details, args.output_dir / "jobg8-published-absent-current-feed.csv")
     if args.category_profile_output:
         feed_date_match = re.search(r"(20\d{2}-\d{2}-\d{2})", feed.stem)
         feed_date = feed_date_match.group(1) if feed_date_match else feed.stem

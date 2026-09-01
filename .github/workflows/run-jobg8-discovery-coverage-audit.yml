@@ -264,5 +264,6 @@ jobs:
           path: |
             ${{ env.JOBG8_SELECTION_AUDIT_OUTPUT }}/jobg8-selection-audit.xlsx
             ${{ env.JOBG8_SELECTION_AUDIT_OUTPUT }}/jobg8-selection-audit.csv
+            ${{ env.JOBG8_SELECTION_AUDIT_OUTPUT }}/jobg8-published-absent-current-feed.csv
           if-no-files-found: warn
           retention-days: 30
