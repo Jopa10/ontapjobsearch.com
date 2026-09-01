@@ -4,7 +4,7 @@
 - Live route: `/sheffield/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 19
+- Effective included jobs: 18
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 19
+- automatic include: 18
 - automatic review: 3
-- automatic exclude: 9
-- effective include: 19
+- automatic exclude: 12
+- effective include: 18
 - effective review: 3
-- effective exclude: 9
+- effective exclude: 12
 
-## INCLUDE (19)
+## INCLUDE (18)
 
 ---
 action: 
@@ -45,18 +45,6 @@ company: Sheffield Teaching Hospitals NHS Foundation Trust
 location: Sheffield, S2 3QE
 source: NHS Jobs
 job_id: nhs-5565689
-reason: Approved Sheffield catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Business Support Officer – Attendance
-company: King Edward VII School
-location: Sheffield
-source: Teaching Vacancies
-job_id: teaching-vacancies-business-support-officer-attendance-dc9edb4f-b36d-4bc3-be46-6508d1a2b957
 reason: Approved Sheffield catchment.
 ---
 
@@ -220,11 +208,11 @@ reason: Approved Sheffield catchment.
 action: 
 decision: include
 automatic_decision: include
-title: SEND Administrative Assistant
-company: Westfield School
+title: Sales Coordinator
+company: Ranson Barnes Recruitment Limited - Agency - Permanent
 location: Sheffield
-source: Teaching Vacancies
-job_id: teaching-vacancies-send-administrative-assistant-westfield-school-sheffield
+source: JobG8
+job_id: jobg8-107870378
 reason: Approved Sheffield catchment.
 ---
 
@@ -290,7 +278,19 @@ job_id: jobg8-23643_225516072
 reason: No approved Sheffield catchment rule matched; local review required.
 ---
 
-## EXCLUDE (9)
+## EXCLUDE (12)
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Account Coordinator - Part Time
+company: Staffline Operations - Agency - Temporary
+location: Doncaster
+source: JobG8
+job_id: jobg8-107804866
+reason: Separate employment market.
+---
 
 ---
 action: 
@@ -332,11 +332,47 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Customer Service Coordinator
-company: Gi Group - Agency - Permanent
-location: Barnsley
+title: Care Coordinator
+company: HICA - Agency - Permanent
+location: Doncaster
 source: JobG8
-job_id: jobg8-23643_225475228
+job_id: jobg8-107910255
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Commercial Office Administrator
+company: Elevation Recruitment Group - Agency - Permanent
+location: Rotherham
+source: JobG8
+job_id: jobg8-1770785
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Part Time Receptionist/Administrative Assistant
+company: BEYOND TALENT SOLUTIONS LIMITED - Agency - Permanent
+location: Rotherham
+source: JobG8
+job_id: jobg8-1771622
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Production Administrator
+company: Austin Banks - Agency - Permanent
+location: Doncaster
+source: JobG8
+job_id: jobg8-1771158
 reason: Separate employment market.
 ---
 
@@ -385,17 +421,5 @@ company: Tickhill and Colliery Medical Practice
 location: Doncaster, DN11 9NA, Doncaster, DN11 8JT
 source: NHS Jobs
 job_id: nhs-5554992
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Service Desk Analyst
-company: Identify Solutions - Agency - Permanent
-location: Doncaster
-source: JobG8
-job_id: jobg8-1708394
 reason: Separate employment market.
 ---

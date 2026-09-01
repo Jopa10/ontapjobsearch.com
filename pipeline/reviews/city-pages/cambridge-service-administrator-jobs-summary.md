@@ -4,7 +4,7 @@
 - Live route: `/cambridge/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 12
+- Effective included jobs: 10
 - Threshold currently met: yes
 
 ## How to review
@@ -15,24 +15,24 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 12
-- automatic review: 5
-- automatic exclude: 18
-- effective include: 12
-- effective review: 5
-- effective exclude: 18
+- automatic include: 10
+- automatic review: 4
+- automatic exclude: 14
+- effective include: 10
+- effective review: 4
+- effective exclude: 14
 
-## INCLUDE (12)
+## INCLUDE (10)
 
 ---
 action: 
 decision: include
 automatic_decision: include
-title: Administration Assistant
-company: Cambridge University Hospital NHS Foundation Trust
-location: Cambridge, CB2 0SL
-source: NHS Jobs
-job_id: nhs-5560950
+title: Administrator
+company: Reed - Agency - Permanent
+location: Cambridge
+source: JobG8
+job_id: jobg8-1770672
 reason: Approved conservative Cambridge launch catchment.
 ---
 
@@ -57,18 +57,6 @@ company: Penguin Recruitment - Agency - Permanent
 location: Cambridge
 source: JobG8
 job_id: jobg8-23643_225468873
-reason: Approved conservative Cambridge launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Corporate Receptionist
-company: Invictus Group - Agency - Contract
-location: Cambridge
-source: JobG8
-job_id: jobg8-23643_225445219
 reason: Approved conservative Cambridge launch catchment.
 ---
 
@@ -124,18 +112,6 @@ reason: Approved conservative Cambridge launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Receptionist Administrator
-company: The HireWorks Ltd - Agency - Permanent
-location: Cambridge
-source: JobG8
-job_id: jobg8-23643_225444568
-reason: Approved conservative Cambridge launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: SEND Administrator
 company: Swavesey Village College
 location: Cambridge
@@ -168,7 +144,7 @@ job_id: nhs-5560673
 reason: Approved conservative Cambridge launch catchment.
 ---
 
-## REVIEW (5)
+## REVIEW (4)
 
 ---
 action: 
@@ -186,23 +162,11 @@ reason: No approved Cambridge catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Admin Assistant - Attendance
-company: St Ivo Academy
-location: St Ives
-source: Teaching Vacancies
-job_id: teaching-vacancies-admin-assistant-attendance-st-ivo-academy
-reason: No approved Cambridge catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Exams Officer
-company: Ernulf Academy
+title: Conveyancing Administrators and Case Handlers
+company: AllAboutRecruitmentLtd - Agency - Permanent
 location: St. Neots
-source: Teaching Vacancies
-job_id: teaching-vacancies-exams-officer-ernulf-academy
+source: JobG8
+job_id: jobg8-107791497
 reason: No approved Cambridge catchment rule matched; local review required.
 ---
 
@@ -230,7 +194,7 @@ job_id: jobg8-23643_225519683
 reason: No approved Cambridge catchment rule matched; local review required.
 ---
 
-## EXCLUDE (18)
+## EXCLUDE (14)
 
 ---
 action: 
@@ -241,30 +205,6 @@ company: East of England Community Health and Care NHS Trust (Cambridge)
 location: Huntingdon, PE29 6NT
 source: NHS Jobs
 job_id: nhs-5567386
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Administrative Assistant
-company: Dogsthorpe Academy
-location: Peterborough
-source: Teaching Vacancies
-job_id: teaching-vacancies-administrative-assistant-dogsthorpe-academy
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Administrative Assistant
-company: Nene Park Academy
-location: Peterborough
-source: Teaching Vacancies
-job_id: teaching-vacancies-administrative-assistant-nene-park-academy
 reason: Separate employment market.
 ---
 
@@ -392,18 +332,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: GP Receptionist / Administrator
-company: Thomas Walker Westgate Healthcare
-location: Peterborough, PE1 2QP
-source: NHS Jobs
-job_id: nhs-5527811
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Inclusion Administrator
 company: Discovery Primary Academy
 location: Peterborough
@@ -433,17 +361,5 @@ company: Infinity Recruitment Consultancy Limited - Agency - Permanent
 location: Peterborough
 source: JobG8
 job_id: jobg8-23643_225406910
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Service Desk Analyst (Romanian Speaking)
-company: INTEC SELECT LIMITED - Agency - Permanent
-location: Peterborough
-source: JobG8
-job_id: jobg8-1710347
 reason: Separate employment market.
 ---

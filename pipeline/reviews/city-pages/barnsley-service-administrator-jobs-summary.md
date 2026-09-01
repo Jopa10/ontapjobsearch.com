@@ -4,7 +4,7 @@
 - Live route: `/barnsley/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 2
+- Effective included jobs: 1
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 2
+- automatic include: 1
 - automatic review: 3
-- automatic exclude: 26
-- effective include: 2
+- automatic exclude: 29
+- effective include: 1
 - effective review: 3
-- effective exclude: 26
+- effective exclude: 29
 
-## INCLUDE (2)
+## INCLUDE (1)
 
 ---
 action: 
@@ -33,18 +33,6 @@ company: Anonymous - Agency - Contract
 location: Barnsley
 source: JobG8
 job_id: jobg8-23643_225457187
-reason: Approved Barnsley catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Customer Service Coordinator
-company: Gi Group - Agency - Permanent
-location: Barnsley
-source: JobG8
-job_id: jobg8-23643_225475228
 reason: Approved Barnsley catchment.
 ---
 
@@ -86,7 +74,19 @@ job_id: jobg8-23643_225516072
 reason: No approved Barnsley catchment rule matched; local review required.
 ---
 
-## EXCLUDE (26)
+## EXCLUDE (29)
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Account Coordinator - Part Time
+company: Staffline Operations - Agency - Temporary
+location: Doncaster
+source: JobG8
+job_id: jobg8-107804866
+reason: Separate employment market.
+---
 
 ---
 action: 
@@ -140,18 +140,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Business Support Officer – Attendance
-company: King Edward VII School
-location: Sheffield
-source: Teaching Vacancies
-job_id: teaching-vacancies-business-support-officer-attendance-dc9edb4f-b36d-4bc3-be46-6508d1a2b957
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Call Centre Agent - Uncapped Commission
 company: EE - Company - Permanent
 location: Sheffield
@@ -193,6 +181,30 @@ company: EE - Company - Permanent
 location: Sheffield
 source: JobG8
 job_id: jobg8-21618_20279_62295-73862c8b83139033e4e4a8b6efca9a33
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Care Coordinator
+company: HICA - Agency - Permanent
+location: Doncaster
+source: JobG8
+job_id: jobg8-107910255
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Commercial Office Administrator
+company: Elevation Recruitment Group - Agency - Permanent
+location: Rotherham
+source: JobG8
+job_id: jobg8-1770785
 reason: Separate employment market.
 ---
 
@@ -253,6 +265,30 @@ company: Sue Ross Recruitment Ltd - Agency - Permanent
 location: Sheffield
 source: JobG8
 job_id: jobg8-23643_225522912
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Part Time Receptionist/Administrative Assistant
+company: BEYOND TALENT SOLUTIONS LIMITED - Agency - Permanent
+location: Rotherham
+source: JobG8
+job_id: jobg8-1771622
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Production Administrator
+company: Austin Banks - Agency - Permanent
+location: Doncaster
+source: JobG8
+job_id: jobg8-1771158
 reason: Separate employment market.
 ---
 
@@ -356,11 +392,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: SEND Administrative Assistant
-company: Westfield School
+title: Sales Coordinator
+company: Ranson Barnes Recruitment Limited - Agency - Permanent
 location: Sheffield
-source: Teaching Vacancies
-job_id: teaching-vacancies-send-administrative-assistant-westfield-school-sheffield
+source: JobG8
+job_id: jobg8-107870378
 reason: Separate employment market.
 ---
 
@@ -373,18 +409,6 @@ company: Aston Academy
 location: Sheffield
 source: Teaching Vacancies
 job_id: teaching-vacancies-send-administrator-aston-academy-sheffield-south-yorkshire
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Service Desk Analyst
-company: Identify Solutions - Agency - Permanent
-location: Doncaster
-source: JobG8
-job_id: jobg8-1708394
 reason: Separate employment market.
 ---
 

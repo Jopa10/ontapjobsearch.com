@@ -4,7 +4,7 @@
 - Live route: `/southampton/support-worker`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 1
+- Effective included jobs: 2
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 1
-- automatic review: 4
+- automatic include: 2
+- automatic review: 3
 - automatic exclude: 1
-- effective include: 1
-- effective review: 4
+- effective include: 2
+- effective review: 3
 - effective exclude: 1
 
-## INCLUDE (1)
+## INCLUDE (2)
 
 ---
 action: 
@@ -36,7 +36,19 @@ job_id: jobg8-1401784780
 reason: Approved Southampton catchment.
 ---
 
-## REVIEW (4)
+---
+action: 
+decision: include
+automatic_decision: include
+title: Waking Night Support Worker
+company: The Society of St James - Agency - Permanent
+location: Southampton
+source: JobG8
+job_id: jobg8-1663151
+reason: Approved Southampton catchment.
+---
+
+## REVIEW (3)
 
 ---
 action: 
@@ -47,18 +59,6 @@ company: Hampshire County Council - Company - Permanent
 location: Alton
 source: JobG8
 job_id: jobg8-1401784493
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Care Assistant
-company: Hampshire County Council - Company - Permanent
-location: Havant
-source: JobG8
-job_id: jobg8-1401784679
 reason: Broad location; review before city inclusion.
 ---
 

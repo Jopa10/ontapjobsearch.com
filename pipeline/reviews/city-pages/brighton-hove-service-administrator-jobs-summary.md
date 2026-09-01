@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 4
-- automatic review: 25
-- automatic exclude: 4
+- automatic review: 33
+- automatic exclude: 3
 - effective include: 4
-- effective review: 25
-- effective exclude: 4
+- effective review: 33
+- effective exclude: 3
 
 ## INCLUDE (4)
 
@@ -28,11 +28,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 action: 
 decision: include
 automatic_decision: include
-title: Administrative Assistants
-company: Cardinal Newman Catholic School
-location: Hove
-source: Teaching Vacancies
-job_id: teaching-vacancies-administrative-assistants-cardinal-newman-catholic-school
+title: Mental Health Act Administrator and Medical Secretary
+company: Elysium Healthcare
+location: Brighton, BN3 4FH
+source: NHS Jobs
+job_id: nhs-5551395
 reason: Approved Brighton & Hove catchment.
 ---
 
@@ -40,11 +40,11 @@ reason: Approved Brighton & Hove catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Administrator
-company: Sussex Community NHS Foundation Trust
-location: Brighton, BN2 3EW
+title: PCN Office Administrator
+company: East and Central Brighton Primary Care Network
+location: Brighton, BN1 1ND
 source: NHS Jobs
-job_id: nhs-5564904
+job_id: nhs-5492880
 reason: Approved Brighton & Hove catchment.
 ---
 
@@ -72,7 +72,7 @@ job_id: nhs-5548209
 reason: Approved Brighton & Hove catchment.
 ---
 
-## REVIEW (25)
+## REVIEW (33)
 
 ---
 action: 
@@ -83,6 +83,18 @@ company: CMA Recruitment Group - Agency - Permanent
 location: Sussex
 source: JobG8
 job_id: jobg8-23643_225525164
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administration Assistant
+company: Hiring People - Agency - Permanent
+location: Sussex
+source: JobG8
+job_id: jobg8-1767581
 reason: Broad location; review before city inclusion.
 ---
 
@@ -107,6 +119,18 @@ company: Lloyd Recruitment - East Grinstead - Agency - Permanent
 location: Sussex
 source: JobG8
 job_id: jobg8-23643_225547434
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: Reed - Agency - Permanent
+location: Sussex
+source: JobG8
+job_id: jobg8-1766316
 reason: Broad location; review before city inclusion.
 ---
 
@@ -190,6 +214,18 @@ title: Hotel Receptionist
 company: First Recruitment Services - Agency - Permanent
 location: Sussex
 source: JobG8
+job_id: jobg8-1781441
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Hotel Receptionist
+company: First Recruitment Services - Agency - Permanent
+location: Sussex
+source: JobG8
 job_id: jobg8-23643_225527297
 reason: Broad location; review before city inclusion.
 ---
@@ -222,6 +258,18 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
+title: HR Operations Coordinator - Temp Role
+company: Reed - Agency - Permanent
+location: Sussex
+source: JobG8
+job_id: jobg8-1771464
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Membership & Events Coordinator - Immediate Start
 company: Office Angels - Agency - Temporary
 location: Sussex
@@ -239,6 +287,18 @@ company: Premier Work Support - Agency - Temporary
 location: Sussex
 source: JobG8
 job_id: jobg8-23643_225528910
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Optical call centre assistant
+company: Lunaria Recruitment - Agency - Permanent
+location: Sussex
+source: JobG8
+job_id: jobg8-1770698
 reason: Broad location; review before city inclusion.
 ---
 
@@ -282,6 +342,18 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
+title: Procurement Administrator - Immediate Start!
+company: Office Angels - Agency - Permanent
+location: Sussex
+source: JobG8
+job_id: jobg8-1765206
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Receptionist
 company: Grafters Recruitment Consultants Ltd - Agency - Temporary
 location: Sussex
@@ -299,6 +371,30 @@ company: Pertemps Crawley - Agency - Permanent
 location: Sussex
 source: JobG8
 job_id: jobg8-23643_225476714
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Sales Administrator
+company: KHR Recruitment Specialists - Agency - Permanent
+location: Sussex
+source: JobG8
+job_id: jobg8-1772111
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Sales Administrator
+company: Reed - Agency - Permanent
+location: Sussex
+source: JobG8
+job_id: jobg8-1766310
 reason: Broad location; review before city inclusion.
 ---
 
@@ -374,7 +470,7 @@ job_id: jobg8-23643_225462263
 reason: Broad location; review before city inclusion.
 ---
 
-## EXCLUDE (4)
+## EXCLUDE (3)
 
 ---
 action: 
@@ -385,18 +481,6 @@ company: Bersted Green Surgery
 location: Bognor Regis, PO22 9TD
 source: NHS Jobs
 job_id: nhs-5546075
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Admissions and Attendance Officer
-company: Oakwood Primary Academy
-location: Eastbourne
-source: Teaching Vacancies
-job_id: teaching-vacancies-admissions-and-attendance-officer-oakwood-primary-academy
 reason: Separate employment market.
 ---
 

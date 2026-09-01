@@ -1,5 +1,34 @@
 [
   {
+    "job_id": "1770672",
+    "title": "Administrator",
+    "company": "Reed - Agency - Permanent",
+    "location": "Cambridge",
+    "region": "Cambridgeshire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "26000",
+    "salary_max": "30000",
+    "salary_text": "£26000 - £30000 per year",
+    "posted_date": "2026-08-24",
+    "description": "Administrator\n- Location: Caxton, Cambridgeshire\n- Job Type: Full-time\n- Salary: £26,000 - £30,000pa dependent on experience\n\nReed are working with a great company who are seeking an Administrator to provide effective administrative and operational support at their depot/branch. This role is crucial for ensuring accurate processing of documentation, maintaining stock records, handling customer enquiries and supporting day-to-day business activities. The ideal candidate will have strong organisational skills, attention to detail and a commitment to teamwork.\n\nDay-to-day of the role:\n- Serve as the first point of contact for customers, visitors and telephone enquiries, providing professional and friendly service.\n- Assist with processing customer requests, orders and general enquiries in line with company procedures.\n- Support colleagues across the branch to ensure efficient day-to-day operations.\n- Manage goods in administration, including processing delivery notes, stock transfer documents and ensuring accurate entry into company systems.\n- Oversee goods out administration to ensure all products leaving the premises have the required documentation and maintain accurate records of outbound goods.\n- Support the administration of stock transfers and assist in maintaining accurate stock records and inventory levels.\n- Handle dispatch and invoicing administration, ensuring timely processing of delivery notes and accurate invoicing.\n- Process credit requests and maintain accurate records, providing necessary information to Head Office.\n- Complete end-of-day administrative procedures, reconcile payments, and maintain accurate financial records.\n- Order office supplies, maintain filing systems and support the overall organisation and efficiency of the depot/branch.\n\nRequired Skills & Qualifications:\n- Good computer literacy and willingness to learn internal systems and procedures.\n- Strong organisational skills and meticulous attention to detail.\n- Excellent communication and customer service skills.\n- Ability to prioritise workload and work accurately under pressure.\n- Positive and proactive attitude with a strong commitment to teamwork.\n- Flexibility to support a variety of administrative and operational activities.\n\nTo apply for the Administrator position, please submit your CV detailing your relevant experience and why you are interested in this role.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?eq2PR%2bX5ctxlDO796Bi3r1V8eZ7fDu6Cp",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Reed",
+    "advertiser_type": "Agency",
+    "work_pattern": "Full Time",
+    "salary_period": "Annual",
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Telephone handling",
+      "Records administration"
+    ]
+  },
+  {
     "job_id": "23643_225498733",
     "title": "Administrator (Renewable Energy)",
     "company": "Rise Technical Recruitment - Agency - Permanent",
@@ -50,31 +79,6 @@
     "posted_date_basis": "ontap_first_published"
   },
   {
-    "job_id": "23643_225445219",
-    "title": "Corporate Receptionist",
-    "company": "Invictus Group - Agency - Contract",
-    "location": "Cambridge",
-    "region": "Cambridgeshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Contract",
-    "salary_min": "17",
-    "salary_max": "17",
-    "salary_text": "£17 per hour",
-    "posted_date": "2026-08-19",
-    "description": "Corporate Receptionist - Cambridge - Temporary (Immediate Start)\n\nLocation: Cambridge\n\nHours of Work: Mon - Fri 8am - 5pm\n\nHourly Pay Rate: 17.00p/h Via Umbrella\n\nA World Leading Service Provider who operates on an International scale is seeking an experienced Corporate Receptionist based in the Cambridge area on a Temporary Contract working in large corporate office site. The successful candidate would ideally need to be very client facing and has good experience working in a FOH environment.\n\nKey Responsibilities include:\n\nWelcoming all staff and visitors and act as host to create excellent relationships with the customers (To make refreshments as and when required)\n\nManagement of the staff car parking and visitor spaces.\n\nArrange all business lunches, conference room bookings and conference calls dial in.\n\nEnsure the front of house is kept tidy and regular checks of visitor washrooms.\n\nManage all incoming and outgoing post, parcels and couriers\n\nWelcome delivery drivers and couriers.\n\nSign for parcels and place in post room for recipient to collect (keep records).\n\nKeep the telephone listings up to date at all times and liaise daily with the Service Centre to ensure the telephone and Contract lists are up to date so they can receive incoming calls.\n\nTo answer internal calls only.\n\nAdministration duties for the Service Centre and the Finance Teams (or any other department upon the request of your manager).\n\nTo keep all Front of House Literature up to date and tidy\n\nThe successful candidate must be able to demonstrate the following:\n\nCustomer Service and Front of House experience is required.\n\nExcellent communication (face to face, telephone and written)\n\nWell presented with excellent attention to detail.\n\nExtremely organised individual.\n\nIf this role would be of any interest or you know someone that might be of interest then please do apply below",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?gZ0pd2TJz0I2o5QQR0vFSPqI%2bm6%2b6HHfs",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Invictus Group",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published"
-  },
-  {
     "job_id": "teaching-vacancies-office-administrator-swaffham-prior-church-of-england-primary-school-cambridge",
     "title": "Office Administrator",
     "company": "Swaffham Prior Church of England Primary School",
@@ -97,6 +101,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "Swaffham Prior Church of England Primary School",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -122,7 +129,12 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Records administration",
+      "Quotations",
+      "Order processing"
+    ]
   },
   {
     "job_id": "23643_225513578",
@@ -147,7 +159,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Telephone handling",
+      "Scheduling and bookings"
+    ]
   },
   {
     "job_id": "23643_225451600",
@@ -169,31 +185,6 @@
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
     "advertiser_name": "Search Consultancy Ltd",
-    "advertiser_type": "Agency",
-    "work_pattern": "Full Time",
-    "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published"
-  },
-  {
-    "job_id": "23643_225444568",
-    "title": "Receptionist Administrator",
-    "company": "The HireWorks Ltd - Agency - Permanent",
-    "location": "Cambridge",
-    "region": "Cambridgeshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "12.71",
-    "salary_max": "12.71",
-    "salary_text": "£12.71 per hour",
-    "posted_date": "2026-08-12",
-    "description": "Full job description\n\nOur client is seeking a professional and organised Receptionist to join their team close to by Bar Hill. This is a varied front of house and administrative role, suited to someone who enjoys providing excellent customer service while supporting the smooth day to day running of the office.\n\nAs the first point of contact for visitors, suppliers and telephone enquiries, you will play an important role in creating a welcoming and efficient environment.\n\nThe role is working Monday to Friday - 8:00am - 5:00pm.\n\nTypical duties include:\n- Greeting visitors and managing the reception area.\n- Answering and directing telephone calls, taking accurate messages where required.\n- Managing incoming and outgoing post, deliveries and courier bookings.\n- Booking meeting rooms, arranging refreshments and providing meeting room support.\n- Assisting with general administrative tasks, stationery ordering and facilities coordination.\n\nThe successful candidate will have:\n- Previous experience within a reception or administrative position.\n- Good IT skills, including Microsoft Word, Excel and Outlook.\n- Excellent communication and customer service skills.\n- Strong organisational skills with a high level of accuracy and attention to detail.\n- A proactive approach with the ability to work independently and as part of a team.\n\nThis is a temp to perm opportunity offering a stable position within a friendly office environment for someone who enjoys a varied administrative role.\n\nPlease apply via the advert or contact Chloe at The HireWorks for more information.\n\nWe endeavour to reply to every candidate, every time, but if you haven't heard back within 10 days, please understand that you have unfortunately been unsuccessful for this position, or the position has been filled. Please call the office or send an email to discuss other potential opportunities.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?ju9emE%2fz0VLp27ttxIxNbNThpZU1SVClw",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "The HireWorks Ltd",
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
@@ -222,6 +213,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "Swavesey Village College",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -266,25 +260,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9180-26-1092",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
-    "posted_date_basis": "source"
-  },
-  {
-    "job_id": "nhs-5560950",
-    "source": "NHS Jobs",
-    "title": "Administration Assistant",
-    "company": "Cambridge University Hospital NHS Foundation Trust",
-    "advertiser_name": "Cambridge University Hospital NHS Foundation Trust",
-    "location": "Cambridge, CB2 0SL",
-    "region": "Cambridgeshire",
-    "salary": "£25760.00 to £27476.00",
-    "employment_type": "Permanent",
-    "posted_date": "2026-08-25T15:27:40.786468269",
-    "closing_date": "2026-08-31",
-    "description": "East Genomics delivers genomic testing to a patient population of around 9 million people, across the East Midlands and East of England. Our service gives diagnoses to patients, enables healthcare choices and treatment selection, and drives research to improve outcomes. At East Genomics, we recognise the importance of using high-quality data to power strategic and operational decision making, drive cutting edge research, and measure the benefits of providing care to our patients. If you have a demonstrated experience in an admin setting supporting a fast-changing operational environment, this position could be the next step for you to take in your career. We are looking for an Admin Assistant to join a small team based at the lead organisation in Cambridge University Hospitals. 1. To process medical reports, upload and send out to the appropriate areas 2. To receive goods and supplies ensuring relevant staff are informed of the arrival of deliveries 3. Prompt and accurate filing of reports and correspondence, and assist with maintenance of the departmental filing systems 4. To receive and process internal and external post/emails 5. To liaise with colleagues, both immediate and departmental, to ensure accurate and timely flows of relevant information 6. To attend all relevant meetings and be an active team member 7. To use existing skills and knowledge in the use of all relevant Information Technology systems in the department including electronic patient records 8. A willingness to develop existing IT skills 9. To use procurement systems to order and receipt supplies and other goods 10. To work in a safe manner at all times in line with Trust policies, and reporting issues appropriately 11. To be aware of and utilise risk reporting systems in the Trust where relevant 12. To be aware of and utilise quality management systems within the department 13. To actively share ideas and innovations for improvements to the efficient and effective delivery of the service 14. To plan and organise daily tasks to ensure work produced is of the quality and quantity required to meet expected standards. 15. To organise meetings, take accurate minutes of meetings. 16. To organise travel arrangements for senior members of staff Please see the attached Applicant Information Pack (combined Job Description and Person Specification) for key duties and responsibilities. As per Home Office guidelines, please be aware that, unfortunately, the Trust is unable to offer sponsorship for this particular position. Due to Home Office immigration rules, a full time permanent vacancy cannot be filled by individuals on a Student visa. Therefore, please be advised that if you are a Student visa holder, we will not be able to offer you a full time permanent contract unless you have: - applied for a Graduate visa - or you will have successfully completed your course and have applied for a Graduate visa before the anticipated start date of your employment This vacancy will close at midnight on 31st August 2026. Interviews are due to be held on 7th September 2026. Benefits to you At Cambridge University Hospitals, we want to do all we can to support good working days. We offer development opportunities and a wide range of benefits, including on-site leisure facilities, shopping concourse and day nurseries. Our good work programme currently includes providing reduced cost Stagecoach bus travel to and from Cambridge University Hospital site. Park and Ride bus journeys between Babraham Road and Trumpington sites are free, as is the route to and from Cambridge train station and our hospitals. We also subsidise the cost of parking on site for eligible staff. On CUH campus, hot food is available 24/7 and at a reduced cost for colleagues. Recently we launched the first of our staff pod break spaces. Located in the Deakin Centre, we have a purpose-created colleague-only caf, with free tea and coffee, a break space and private outside area for colleagues to rest, refuel and recharge. Just one of the ways we are working hard to support good working days at CUH. CUH is committed to assisting employees in achieving a good work-life balance irrespective of role or personal circumstances. Flexible arrangements may include, but are not limited to, part-time working, job-share, term-time working and flexible start and finish times. Please note if you would like to discuss the required hours of this role further, you should approach the contact given. In some cases, alternative working hours will be considered. We welcome applications from the Armed Forces.",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9180-26-1093",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9180-26-1093",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "A",
     "posted_date_basis": "source"
   }
 ]

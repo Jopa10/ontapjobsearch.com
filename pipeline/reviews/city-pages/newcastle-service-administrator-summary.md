@@ -4,7 +4,7 @@
 - Live route: `/newcastle/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 23
+- Effective included jobs: 20
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 23
-- automatic review: 21
-- automatic exclude: 19
-- effective include: 23
-- effective review: 21
-- effective exclude: 19
+- automatic include: 20
+- automatic review: 29
+- automatic exclude: 17
+- effective include: 20
+- effective review: 29
+- effective exclude: 17
 
-## INCLUDE (23)
+## INCLUDE (20)
 
 ---
 action: 
@@ -172,18 +172,6 @@ reason: Approved Newcastle catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Customer Service Assistant
-company: Newcastle City Council
-location: Newcastle upon Tyne
-source: NEJobs
-job_id: nejobs-300896
-reason: Approved Newcastle catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: DBS01122/26 - Business Administrator Apprentice - Longbenton High School
 company: North Tyneside Council
 location: Longbenton High School Hailsham Ave, Newcastle upon Tyne NE12 8ER
@@ -244,47 +232,23 @@ reason: Approved Newcastle catchment.
 action: 
 decision: include
 automatic_decision: include
+title: PA to the PRINCIPAL & CHIEF EXECUTIVE
+company: Newcastle and Stafford Colleges Group - Agency - Permanent
+location: Newcastle
+source: JobG8
+job_id: jobg8-107910929
+reason: Approved Newcastle catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Production Administrator
 company: KPI Recruiting - Agency - Permanent
 location: Newcastle
 source: JobG8
 job_id: jobg8-23643_225453582
-reason: Approved Newcastle catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: School Administrator
-company: First Class Supply & Training
-location: North Tyneside
-source: NEJobs
-job_id: nejobs-256121
-reason: Approved Newcastle catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: School Administrator
-company: First Class Supply & Training
-location: Newcastle
-source: NEJobs
-job_id: nejobs-256122
-reason: Approved Newcastle catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: School Administrator
-company: First Class Supply & Training
-location: School Administrators required, various roles available throughout Gateshead
-source: NEJobs
-job_id: nejobs-256124
 reason: Approved Newcastle catchment.
 ---
 
@@ -300,7 +264,7 @@ job_id: nejobs-300777
 reason: Approved Newcastle catchment.
 ---
 
-## REVIEW (21)
+## REVIEW (29)
 
 ---
 action: 
@@ -354,11 +318,35 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Business Administrator
-company: Spire Healthcare - Company - Permanent
+title: Administrator Gateshead - Temp to Perm
+company: Office Angels - Agency - Permanent
 location: Tyne And Wear
 source: JobG8
-job_id: jobg8-23643_225445993
+job_id: jobg8-23643_225444106
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Bid Coordinator
+company: COLEMAN JAMES LTD - Agency - Permanent
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-107881364
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Casualty Claims Handler
+company: Adjusting Appointments Limited - Agency - Permanent
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-1785990
 reason: Broad location; review before city inclusion.
 ---
 
@@ -383,6 +371,42 @@ company: Office Angels - Agency - Temporary
 location: Tyne And Wear
 source: JobG8
 job_id: jobg8-23643_225474293
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Customer Service Advisor
+company: Reed - Agency - Permanent
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-1766754
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Customer Service Advisor
+company: Reed - Agency - Permanent
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-1767584
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Full Time Administrator - Temp to Perm - Gosforth
+company: Office Angels - Agency - Permanent
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-1771437
 reason: Broad location; review before city inclusion.
 ---
 
@@ -439,10 +463,34 @@ action:
 decision: review
 automatic_decision: review
 title: Order & Delivery Administrator - Temp to Perm - Team Valley
+company: Office Angels - Agency - Permanent
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-1748505
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Order & Delivery Administrator - Temp to Perm - Team Valley
 company: Office Angels - Agency - Temporary
 location: Tyne And Wear
 source: JobG8
 job_id: jobg8-23643_225474615
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Part-Time Sales Administrator - Hebburn - Immediate Start
+company: Office Angels - Agency - Permanent
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-1744866
 reason: Broad location; review before city inclusion.
 ---
 
@@ -468,30 +516,6 @@ location: Tyne And Wear
 source: JobG8
 job_id: jobg8-23643_225477938
 reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: School Administrator
-company: First Class Supply & Training
-location: Northumberland
-source: NEJobs
-job_id: nejobs-256120
-reason: No approved Newcastle catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: School Administrator
-company: First Class Supply & Training
-location: School Administrators required, various roles available throughout South Tyneside
-source: NEJobs
-job_id: nejobs-256125
-reason: No approved Newcastle catchment rule matched; local review required.
 ---
 
 ---
@@ -534,12 +558,48 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
+title: Temporary Administrator - Houghton le Spring - Immediate Start
+company: Office Angels - Agency - Permanent
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-1769286
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Temporary Administrator - Ryton - Immediate Start
 company: Office Angels - Agency - Temporary
 location: Ryton
 source: JobG8
 job_id: jobg8-23643_225527835
 reason: No approved Newcastle catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Temporary Customer Service Advisor
+company: Gem Partnership Ltd - Agency - Permanent
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-1703707
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Temporary Receptionist - Sunderland
+company: Office Angels - Agency - Permanent
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-1704676
+reason: Broad location; review before city inclusion.
 ---
 
 ---
@@ -554,7 +614,7 @@ job_id: nejobs-301243
 reason: No approved Newcastle catchment rule matched; local review required.
 ---
 
-## EXCLUDE (19)
+## EXCLUDE (17)
 
 ---
 action: 
@@ -565,18 +625,6 @@ company: Blu Tech consulting - Agency - Contract
 location: County Durham
 source: JobG8
 job_id: jobg8-23643_225427868
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Administrative Assistant
-company: Durham County Council
-location: Sacriston
-source: NEJobs
-job_id: nejobs-299277
 reason: Separate employment market.
 ---
 
@@ -644,12 +692,24 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Customer Service Advisor
-company: Hartlepool Borough Council
-location: Highlight Active Wellbeing Hub
-source: NEJobs
-job_id: nejobs-299796
-reason: Outside Newcastle catchment.
+title: Internal Sales Administrator
+company: Breedon Group plc - Company - Permanent
+location: County Durham
+source: JobG8
+job_id: jobg8-1782635
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Lettings Administrator
+company: Nigel Wright Group - Agency - Permanent
+location: County Durham
+source: JobG8
+job_id: jobg8-1770020
+reason: Separate employment market.
 ---
 
 ---
@@ -661,6 +721,18 @@ company: Connect Multi-Academy Trust
 location: County Durham
 source: NEJobs
 job_id: nejobs-300955
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Medical Receptionist
+company: Claypath and University Medical Practice
+location: Durham, DH1 1QW, DURHAM, DH1 3JX
+source: NHS Jobs
+job_id: nhs-5547933
 reason: Separate employment market.
 ---
 
@@ -716,59 +788,23 @@ reason: Outside Newcastle catchment.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Sales Administrator
+company: Reed - Agency - Permanent
+location: County Durham
+source: JobG8
+job_id: jobg8-1743125
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Scheduling Administrator
 company: Hays Business Support - Agency - Permanent
 location: County Durham
 source: JobG8
 job_id: jobg8-23643_225548483
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: School Administrator
-company: First Class Supply & Training
-location: Sunderland
-source: NEJobs
-job_id: nejobs-256126
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: School Administrator
-company: First Class Supply & Training
-location: Durham
-source: NEJobs
-job_id: nejobs-256127
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Service Desk Analyst
-company: Sellick Partnership - Agency - Permanent
-location: County Durham
-source: JobG8
-job_id: jobg8-1720386
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Technical and Support Officers
-company: Durham County Council
-location: Council Offices, Green Lane, Spennymoor
-source: NEJobs
-job_id: nejobs-300579
 reason: Separate employment market.
 ---
 

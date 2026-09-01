@@ -4,8 +4,8 @@
 - Live route: `/huddersfield/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 6
-- Threshold currently met: yes
+- Effective included jobs: 5
+- Threshold currently met: no
 
 ## How to review
 Edit only the `action:` line inside a job block.
@@ -15,48 +15,24 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 6
+- automatic include: 5
 - automatic review: 5
-- automatic exclude: 29
-- effective include: 6
+- automatic exclude: 40
+- effective include: 5
 - effective review: 5
-- effective exclude: 29
+- effective exclude: 40
 
-## INCLUDE (6)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Business Support Officer
-company: All Saints Catholic College
-location: Huddersfield
-source: Teaching Vacancies
-job_id: teaching-vacancies-business-support-officer-8b441777-7da2-48ad-9c51-0f5af614ff49
-reason: Approved Huddersfield catchment.
----
+## INCLUDE (5)
 
 ---
 action: 
 decision: include
 automatic_decision: include
-title: Business Support Officer - Attendance
-company: All Saints Catholic College
-location: Huddersfield
-source: Teaching Vacancies
-job_id: teaching-vacancies-business-support-officer-attendance-3ce0d54f-db0c-49af-b00c-ddcf690bf636
-reason: Approved Huddersfield catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Business Support Officer - Student Services
-company: All Saints Catholic College
-location: Huddersfield
-source: Teaching Vacancies
-job_id: teaching-vacancies-business-support-officer-student-services-a6b016b2-0cf8-4c1f-9ae0-103ce7f8ce62
+title: Medical receptionist
+company: Almondbury Surgery
+location: Huddersfield, HD5 8XW
+source: NHS Jobs
+job_id: nhs-5559076
 reason: Approved Huddersfield catchment.
 ---
 
@@ -93,6 +69,18 @@ company: Edgerton Dental Clinic - Agency - Permanent
 location: Huddersfield
 source: JobG8
 job_id: jobg8-23643_225463726
+reason: Approved Huddersfield catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Ward Clerk
+company: Calderdale and Huddersfield NHS Foundation Trust
+location: Huddersfield, HD3 3EA
+source: NHS Jobs
+job_id: nhs-5561893
 reason: Approved Huddersfield catchment.
 ---
 
@@ -158,7 +146,7 @@ job_id: nhs-5551474
 reason: No approved Huddersfield catchment rule matched; local review required.
 ---
 
-## EXCLUDE (29)
+## EXCLUDE (40)
 
 ---
 action: 
@@ -169,6 +157,18 @@ company: Dixons McMillan Academy
 location: Bradford
 source: Teaching Vacancies
 job_id: teaching-vacancies-academy-administrator-l2-dixons-mcmillan-academy
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Administrator
+company: Consula Group LTD - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-1733703
 reason: Separate employment market.
 ---
 
@@ -189,10 +189,10 @@ action:
 decision: exclude
 automatic_decision: exclude
 title: Administrator
-company: Practice Plus Group - Health in Justice
-location: Leeds, LS12 2TJ
+company: The Pharmacist Network
+location: Leeds, NE4 7YB
 source: NHS Jobs
-job_id: nhs-5544150
+job_id: nhs-5555590
 reason: Separate employment market.
 ---
 
@@ -200,11 +200,35 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Administrator
-company: The Pharmacist Network
-location: Leeds, NE4 7YB
-source: NHS Jobs
-job_id: nhs-5555590
+title: Bid Coordinator
+company: Ridge & Partners LLP - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-107880419
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Call Centre Handler
+company: MPJ Recruitment Ltd - Agency - Permanent
+location: Bradford
+source: JobG8
+job_id: jobg8-1772096
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Casualty Claims Handler
+company: Adjusting Appointments Limited - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-1785909
 reason: Separate employment market.
 ---
 
@@ -248,6 +272,30 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Eccomerce Customer Service Advisor
+company: Michael Page Business Support - Agency - Permanent
+location: Wakefield
+source: JobG8
+job_id: jobg8-1743831
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: HR Administrator
+company: Akari Care Limited
+location: Leeds, LS11 5DZ
+source: NHS Jobs
+job_id: nhs-5561629
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: HR Administrator
 company: Lucy Walker Recruitment - Agency - Temporary
 location: Leeds
@@ -272,11 +320,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Implementation Project Coordinator
-company: Elevation Recruitment Group - Agency - Permanent
-location: Wakefield
+title: Internal Sales Administrator
+company: Breedon Group plc - Company - Permanent
+location: Leeds
 source: JobG8
-job_id: jobg8-1726631
+job_id: jobg8-1785761
 reason: Separate employment market.
 ---
 
@@ -289,6 +337,18 @@ company: BDS (Northern) Limited - Agency - Temporary
 location: Bradford
 source: JobG8
 job_id: jobg8-23643_225499042
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Lead Activities Coordinator
+company: Exemplar Health Care - Company - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-107902255
 reason: Separate employment market.
 ---
 
@@ -332,6 +392,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Part-time Administrator
+company: Reed - Agency - Permanent
+location: Bradford
+source: JobG8
+job_id: jobg8-1770678
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: People and Culture Administrator (Resourcing)
 company: Spectrum Community Health CIC
 location: Wakefield, WF1 5RH
@@ -356,6 +428,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Receptionist
+company: Dynamite Recruitment Solutions Ltd - Agency - Permanent
+location: Bradford
+source: JobG8
+job_id: jobg8-1782927
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Receptionist / Administrator
 company: Ossett Surgery
 location: Wakefield, WF5 8DF
@@ -368,11 +452,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Receptionist/ Administrator
-company: Stainland Road Medical Centre
-location: Halifax, HX4 8BD
-source: NHS Jobs
-job_id: nhs-5559992
+title: Recruitment Account Coordinator
+company: Staffline Divisions - Agency - Temporary
+location: Leeds
+source: JobG8
+job_id: jobg8-107819626
 reason: Separate employment market.
 ---
 
@@ -380,11 +464,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Receptionist/Administrator
-company: Oastlers School
-location: Bradford
-source: Teaching Vacancies
-job_id: teaching-vacancies-receptionist-administrator-49a47934-628e-47bf-b7a9-6fe782d91f05
+title: Recruitment Administrator
+company: Adecco - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-1771147
 reason: Separate employment market.
 ---
 
@@ -397,6 +481,30 @@ company: Adecco - Agency - Temporary
 location: Leeds
 source: JobG8
 job_id: jobg8-23643_225515250
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Sales Administrator
+company: Huntress - Agency - Permanent
+location: Wakefield
+source: JobG8
+job_id: jobg8-1733278
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Sales Administrator
+company: pyramid8 - Agency - Permanent
+location: Wakefield
+source: JobG8
+job_id: jobg8-1765964
 reason: Separate employment market.
 ---
 
@@ -440,6 +548,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Senior Administrator
+company: Turning Point
+location: Wakefield, WF2 7AW
+source: NHS Jobs
+job_id: nhs-5561913
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Service Administrator
 company: Working Solutions Recruitment - Agency - Permanent
 location: Leeds
@@ -464,11 +584,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Specialist Administrator (SEND, Medical, Lead First Aid)
-company: Parkside School
-location: Bradford
-source: Teaching Vacancies
-job_id: teaching-vacancies-specialist-administrator-send-medical-lead-first-aid
+title: Temporary Accounts Payable Administrator
+company: Office Angels - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-1744198
 reason: Separate employment market.
 ---
 

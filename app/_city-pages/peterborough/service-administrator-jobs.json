@@ -1,55 +1,5 @@
 [
   {
-    "job_id": "teaching-vacancies-administrative-assistant-dogsthorpe-academy",
-    "title": "Administrative Assistant",
-    "company": "Dogsthorpe Academy",
-    "location": "Peterborough",
-    "region": "Cambridgeshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['full time']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "£21,519.00 - £21,856.00 Annually (Actual) Grade 3",
-    "work_pattern": "",
-    "posted_date": "2026-08-10",
-    "closing_date": "2026-08-31",
-    "closing_datetime": "2026-08-31T23:59:00+01:00",
-    "summary": "Administrative Assistant with Dogsthorpe Academy in Peterborough. ['full time']; £21,519.00 - £21,856.00 Annually (Actual) Grade 3.",
-    "description": "Dogsthorpe Academy is recruiting for this vacancy in Peterborough.\n\nThe advertised position is Administrative Assistant.\n\nThe source lists the employment type as ['full time'].\n\nThe advertised salary or pay scale is £21,519.00 - £21,856.00 Annually (Actual) Grade 3.\n\nThe stated application deadline is 2026-08-31T23:59:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-dogsthorpe-academy?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "posted_date_basis": "source"
-  },
-  {
-    "job_id": "teaching-vacancies-administrative-assistant-nene-park-academy",
-    "title": "Administrative Assistant",
-    "company": "Nene Park Academy",
-    "location": "Peterborough",
-    "region": "Cambridgeshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['part time']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "£14,389.00 Annually (Actual)",
-    "work_pattern": "",
-    "posted_date": "2026-07-20",
-    "closing_date": "2026-09-01",
-    "closing_datetime": "2026-09-01T09:00:00+01:00",
-    "summary": "Administrative Assistant with Nene Park Academy in Peterborough. ['part time']; £14,389.00 Annually (Actual).",
-    "description": "Nene Park Academy is recruiting for this vacancy in Peterborough.\n\nThe advertised position is Administrative Assistant.\n\nThe source lists the employment type as ['part time'].\n\nThe advertised salary or pay scale is £14,389.00 Annually (Actual).\n\nThe stated application deadline is 2026-09-01T09:00:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-nene-park-academy?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "posted_date_basis": "source"
-  },
-  {
     "job_id": "23643_225452723",
     "title": "Administrator",
     "company": "Barker Ross - Agency - Temporary",
@@ -72,7 +22,13 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Email handling",
+      "Scheduling and bookings",
+      "Data entry",
+      "Document preparation"
+    ]
   },
   {
     "job_id": "23643_225468369",
@@ -97,7 +53,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Records administration",
+      "Document preparation"
+    ]
   },
   {
     "job_id": "teaching-vacancies-administrator-student-services-d8658259-60b3-4622-8d3d-f3f1d76a784e",
@@ -122,6 +82,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "Arthur Mellows Village College",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -172,7 +135,12 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Data entry",
+      "Filing and document handling",
+      "Order processing"
+    ]
   },
   {
     "job_id": "teaching-vacancies-data-administrator-799f6f5b-2740-4014-af1f-77a81945f8ec",
@@ -197,6 +165,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "Queen Katharine Academy",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -222,6 +193,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "Discovery Primary Academy",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -247,51 +221,12 @@
     "advertiser_type": "Agency",
     "work_pattern": "Part Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
-  },
-  {
-    "job_id": "1710347",
-    "title": "Service Desk Analyst (Romanian Speaking)",
-    "company": "INTEC SELECT LIMITED - Agency - Permanent",
-    "location": "Peterborough",
-    "region": "Cambridgeshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "",
-    "posted_date": "2026-08-30",
-    "description": "Customer Service Advisor - (Romanian speaking) - IT Consultancy - £15.84 PAYE Figure - Fully Onsite\n- No experience required, full training provided\n- Romanian language skills are essential\n\nOverview:\nI'm currently partnered with a leading IT consultancy delivering innovative data and digital solutions to a range of enterprise clients across sectors including retail, healthcare, and manufacturing. The team thrives on solving complex business challenges using modern technologies and are now looking to expand their data capability with a customer-focused Service Desk Analyst to join their dynamic team in Peterborough.\n\nKey Responsibilities:\n- Communicate clearly and transparently with customers, keeping them informed and confident in the service\n- Work within established policies and procedures to ensure high standards and compliance\n- Seek opportunities to enhance the customer experience by identifying improvements to existing processes\n- Manage incidents involving vulnerable customers with care and sensitivity\n- Record, investigate and resolve customer complaints promptly, aiming for first-time resolution\n- Report any policy or process breaches swiftly and accurately\n- Use various tools and platforms to maintain effective communication with customers\n- Identify issues through clear and confident communication, and deliver timely, appropriate resolutions\n- Use active listening and questioning techniques to fully understand the customer's needs and manage incidents through to completion\n\nSkills & Experience Required:\n- A confident and friendly telephone manner\n- Strong verbal and written communication skills\n- Ability to meet and exceed targets\n- A proactive attitude, comfortable working both independently and in a team\n- Excellent multitasking and organisational skills\n- Sharp attention to detail\n- Fluent in Romanian\n\nPackage:\n- £15.84 PAYE Figure\n- 3-6 month contract (may be extended)\n- Office based in Peterborough\n- Collaborative and forward-thinking data culture\n- Opportunities to work with modern cloud-based data platforms",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?io0x8AEcaIO36Q0R%2fZ4moeXTxLN2zzqCo",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "INTEC SELECT LIMITED",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
-  },
-  {
-    "job_id": "nhs-5527811",
-    "source": "NHS Jobs",
-    "title": "GP Receptionist / Administrator",
-    "company": "Thomas Walker Westgate Healthcare",
-    "advertiser_name": "Thomas Walker Westgate Healthcare",
-    "location": "Peterborough, PE1 2QP",
-    "region": "Cambridgeshire",
-    "salary": "£12.71",
-    "employment_type": "Permanent",
-    "posted_date": "2026-08-10T10:34:19.336517337",
-    "closing_date": "2026-08-31",
-    "description": "An exciting opportunity has arisen within the team at Thomas Walker Westgate Healthcare. We are looking for a dynamic and enthusiastic individual to join our existing team, in supporting the efficient operation of the Practice in delivering health care support to patients. This is a multi-faceted and interesting role which includes all aspects of Front of house reception duties, telephone and administration tasks related to patient care, utilising the new digital triage service and supporting the completion of patient prescriptions. Hours of work: 37.5 hours per week Monday - Friday 10.30-18.30 Carry out administrative duties related to patient care, including processing prescriptions, managing patient records, and supporting digital triage. Assist clinical and non-clinical teams by relaying messages, distributing documents, scanning and coding information, and maintaining patient confidentiality. Contribute to the cleanliness and safety of the environment, comply with infection control policies, and follow data protection guidelines. Promote equality and diversity, engage in personal development, and participate in performance reviews and training. Communicate effectively with patients, carers, and colleagues to support high-quality healthcare delivery. Work collaboratively to uphold the Practices standards, contribute to audits and quality improvements, and manage time and resources efficiently. To support the efficient operation of the Practice in delivering health care support to patients. This is a multi-faceted and interesting role which includes all aspects of Front of house reception duties, administration tasks related to patient care and supporting the completion of patient prescriptions. The post holder will be required to work 10.30 -18.30 Monday to Friday Reception & telephone booking services duties may include; General telephonist duties Booking appointments for all clinical and/or non-clinical staff Explaining general procedures, making other appointments and dealing with general queries Giving results over phone/passing urgent results to a doctor Taking and relaying messages by means of computer for District Nurses, Health Visitors and Midwives and other health authorities Ensuring reception area and waiting room are tidy Ensuring sufficient forms and documents are available in Reception Checking doctors rooms Opening and closing doors at the beginning, and end of day The performance of any other reasonable duties requested by the Doctors, Practice Manager or Reception Team Leader. Work safely at all times in accordance with practice policy Receiving and routing patients for appointments on arrival The post-holder will be part of a team that uses good Care Navigation skills to deliver Triage through the Practices new Digital Triage service Administrative and prescription tasks include; Dealing appropriately with tasks and notifications to and from doctors, midwives, health visitors and district nurses and other health authorities Dealing with personal tasks assigned to you within agreed service levels Giving prescriptions to patients, checking status; Printing off list of medications for hospital purposes Printing summaries for patient home visits Changing patients addresses on the clinical system (Systm One) printing off labels, putting them on paper notes, photocopying relevant documents, updating system and paper notes. New patients registration checking forms, printing forms etc. Taking fees from patients, entering in day book and issuing receipts. Distributing patient information sheets, prescriptions, questionnaires etc. Distributing doctors questionnaires as required Scanning documents and coding accurately as required Confidentiality: In the performance of the duties outlined in this role you must act within the confines of the data protection and confidentiality policy of the organisation at all times. You will be required to complete mandatory on-line training for this element of the role. As a business organisation. All such information from any source is to be regarded as strictly confidential. Information relating to patients, carers, colleagues, other healthcare workers or the business of the practice may only be divulged to authorised persons in accordance with the Practice policies and procedures relating to confidentiality and the protection of personal and sensitive data Health & Safety: The post-holder will assist in promoting and maintaining their own and others health, safety and security as defined in the practice Health & Safety policy, the Practice Health & Safety manual, and the Practice infection control policy and published procedures. This will include: Using personal security systems within the workplace according to Practice guidelines Identifying the risks involved in work activities and undertaking such activities in a way that manages those risks. You will be required to complete mandatory on-line training for this element of the role. Actively reporting of health and safety hazards and infection hazards immediately when recognised Keeping own work areas and general/patient areas generally clean, assisting in the maintenance of standards of cleanliness consistent with the scope of the job holders role Undertaking periodic infection control training (minimum annually) Demonstrate due regard for safeguarding and promoting the welfare of children Equality and diversity: The post-holder will support the equality, diversity and rights of patients, carers and colleagues, to include: Acting in a way that recognises the importance of peoples rights, interpreting them in a way that is consistent with practice procedures and policies, and current legislation. You will be required to complete mandatory on-line training for this element of the role. Respecting the privacy, dignity, needs and beliefs of patients, carers and colleagues Personal/professional development: The post-holder will participate in any training programme implemented by the Practice as part of this employment, with such training to include: Participation in an annual individual performance review, including taking responsibility formaintaining a record of own personal and/or professional development and demonstrating skills and activities to others who are undertaking similar work Quality: The post-holder will be expecting to work to agreed quality standards and service levels within the Practice, and will: Alert other team members to issues of quality and risk Assess own performance and take accountability for own actions, either directly or undersupervision Contribute to the effectiveness of the team by reflecting on own and team activities and making suggestions on ways to improve and enhance the teams performance Work effectively with individuals in other agencies to meet patients needs Effectively manage own time, workload and resources Communication: The post-holder should recognise the importance of effective communication within the team and will: Communicate effectively with other team members Communicate effectively with patients and carers Recognise peoples needs for alternative methods of communication and respond accordingly Contribution to the implementation of services: The post-holder will: Apply Practice policies, standards and guidance Discuss with other members of the team how the policies, standards and guidelines will affect own work as required, attending team meeting and participating in local surveys as required Participate in audits where appropriate",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5113-26-0004",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5113-26-0004",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "B",
-    "posted_date_basis": "source"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Customer enquiries",
+      "Quotations",
+      "Order processing"
+    ]
   },
   {
     "job_id": "nhs-5530863",

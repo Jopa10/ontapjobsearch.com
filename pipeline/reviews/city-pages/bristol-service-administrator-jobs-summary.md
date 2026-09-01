@@ -4,7 +4,7 @@
 - Live route: `/bristol/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 18
+- Effective included jobs: 22
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 18
+- automatic include: 22
 - automatic review: 2
-- automatic exclude: 0
-- effective include: 18
+- automatic exclude: 2
+- effective include: 22
 - effective review: 2
-- effective exclude: 0
+- effective exclude: 2
 
-## INCLUDE (18)
+## INCLUDE (22)
 
 ---
 action: 
@@ -45,6 +45,18 @@ company: Royal Devon University Healthcare NHS Foundation Trust
 location: Bristol, BS2 8EG
 source: NHS Jobs
 job_id: nhs-5561013
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administrator
+company: Oxleas NHS Foundation Trust
+location: Bristol, BS16 9QJ
+source: NHS Jobs
+job_id: nhs-5559839
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -88,35 +100,11 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Attendance Administrator
-company: Marlwood School
-location: Bristol
-source: Teaching Vacancies
-job_id: teaching-vacancies-attendance-administrator-marlwood-school
-reason: Approved conservative Bristol launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Business Support Officer
 company: Blue Arrow - Agency - Temporary
 location: Bristol
 source: JobG8
 job_id: jobg8-23643_225519387
-reason: Approved conservative Bristol launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Digital Marketing Administrator
-company: Filton Avenue Primary School
-location: Bristol
-source: Teaching Vacancies
-job_id: teaching-vacancies-digital-marketing-administrator-filton-avenue-primary-school
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -184,6 +172,18 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Marketing Administrator
+company: Marstep Resourcing Solutions - Agency - Permanent
+location: Bristol
+source: JobG8
+job_id: jobg8-107814828
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Office Administrator
 company: Lancer Scott Holdings Ltd - Agency - Permanent
 location: Bristol
@@ -209,10 +209,46 @@ action:
 decision: include
 automatic_decision: include
 title: Sales Administrator
+company: Aaron Wallis Sales Recruitment - Agency - Permanent
+location: Bristol
+source: JobG8
+job_id: jobg8-1780698
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Sales Administrator
 company: Alexander Mae HR Ltd - Agency - Permanent
 location: Bristol
 source: JobG8
 job_id: jobg8-23643_225104066
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Sales and Partnerships Coordinator
+company: NFP People - Agency - Permanent
+location: Bristol
+source: JobG8
+job_id: jobg8-107909264
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Sales and Partnerships Coordinator
+company: Not For Profit People - Agency - Permanent
+location: Bristol
+source: JobG8
+job_id: jobg8-1821573
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -237,6 +273,18 @@ company: Parson Street Primary School
 location: Bristol
 source: Teaching Vacancies
 job_id: teaching-vacancies-school-administrator-parson-street-primary-school
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Service Coordinator - Equipment Hire
+company: Elix Sourcing Solutions Limited - Agency - Permanent
+location: Bristol
+source: JobG8
+job_id: jobg8-1772093
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -266,4 +314,28 @@ job_id: jobg8-23643_225515534
 reason: No approved Bristol catchment rule matched; local review required.
 ---
 
-## EXCLUDE (0)
+## EXCLUDE (2)
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Customer Service Advisor
+company: Juice Recruitment Ltd - Agency - Permanent
+location: Bath
+source: JobG8
+job_id: jobg8-1766156
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Recruitment Coordinator
+company: Alexander Mae (HR) Ltd - Agency - Permanent
+location: Bath
+source: JobG8
+job_id: jobg8-107793815
+reason: Separate employment market.
+---
