@@ -1,12 +1,12 @@
 ﻿metric,value
 total rows input,10000
-total rows included,37
-total rows dropped,9960
-title classification count - HIGH_CONFIDENCE,115
-title classification count - ELASTIC_FIT,28
-title classification count - REVIEW_CONTEXT_DEPENDENT,21
-title classification count - HARD_PASS,4768
-title classification count - OUT_OF_SCOPE,5068
+total rows included,38
+total rows dropped,9959
+title classification count - HIGH_CONFIDENCE,114
+title classification count - ELASTIC_FIT,29
+title classification count - REVIEW_CONTEXT_DEPENDENT,19
+title classification count - HARD_PASS,4737
+title classification count - OUT_OF_SCOPE,5101
 selection scenario - Yorkshire - West,SCENARIO_4_BELOW_PUBLISH_THRESHOLD
 selection message - Yorkshire - West,Yorkshire - West selection below publish threshold: 1/6 credible roles. Do not publish/refresh this slice from this run.
 credible total - Yorkshire - West,1
@@ -32,13 +32,13 @@ other elastic count - North East,0
 total rows output - North East,1
 job_id included - North East,23643_225493355
 selection scenario - Sussex,SCENARIO_4_BELOW_PUBLISH_THRESHOLD
-selection message - Sussex,Sussex selection below publish threshold: 3/6 credible roles. Do not publish/refresh this slice from this run.
-credible total - Sussex,3
-high confidence count - Sussex,2
+selection message - Sussex,Sussex selection below publish threshold: 4/6 credible roles. Do not publish/refresh this slice from this run.
+credible total - Sussex,4
+high confidence count - Sussex,3
 anchor elastic count - Sussex,0
 other elastic count - Sussex,1
-total rows output - Sussex,3
-job_id included - Sussex,23643_222307132; 107826653; 1756847
+total rows output - Sussex,4
+job_id included - Sussex,23643_222307132; 107826653; 107828547; 1756847
 selection scenario - Cumbria - South,SCENARIO_4_BELOW_PUBLISH_THRESHOLD
 selection message - Cumbria - South,Cumbria - South selection below publish threshold: 2/6 credible roles. Do not publish/refresh this slice from this run.
 credible total - Cumbria - South,2
@@ -72,13 +72,13 @@ other elastic count - London,1
 total rows output - London,12
 job_id included - London,23643_223283749; 23643_225516212; 107885503; 23643_225165439; 1664745; 1785508; 1785507; 23643_225476071; 1787859; 23643_225535652; 1815970; 23643_225513634
 selection scenario - Oxfordshire,SCENARIO_4_BELOW_PUBLISH_THRESHOLD
-selection message - Oxfordshire,Oxfordshire selection below publish threshold: 3/6 credible roles. Do not publish/refresh this slice from this run.
-credible total - Oxfordshire,3
-high confidence count - Oxfordshire,1
+selection message - Oxfordshire,Oxfordshire selection below publish threshold: 2/6 credible roles. Do not publish/refresh this slice from this run.
+credible total - Oxfordshire,2
+high confidence count - Oxfordshire,0
 anchor elastic count - Oxfordshire,2
 other elastic count - Oxfordshire,0
-total rows output - Oxfordshire,3
-job_id included - Oxfordshire,23643_225543862; 1819710; 107893300
+total rows output - Oxfordshire,2
+job_id included - Oxfordshire,23643_225543862; 1819710
 selection scenario - Surrey,SCENARIO_4_BELOW_PUBLISH_THRESHOLD
 selection message - Surrey,Surrey selection below publish threshold: 3/6 credible roles. Do not publish/refresh this slice from this run.
 credible total - Surrey,3
@@ -88,10 +88,10 @@ other elastic count - Surrey,1
 total rows output - Surrey,3
 job_id included - Surrey,1692926; 1808686; 1808682
 selection scenario - Wiltshire,SCENARIO_4_BELOW_PUBLISH_THRESHOLD
-selection message - Wiltshire,Wiltshire selection below publish threshold: 2/6 credible roles. Do not publish/refresh this slice from this run.
-credible total - Wiltshire,2
+selection message - Wiltshire,Wiltshire selection below publish threshold: 3/6 credible roles. Do not publish/refresh this slice from this run.
+credible total - Wiltshire,3
 high confidence count - Wiltshire,1
 anchor elastic count - Wiltshire,0
-other elastic count - Wiltshire,1
-total rows output - Wiltshire,2
-job_id included - Wiltshire,1787836; 107899505
+other elastic count - Wiltshire,2
+total rows output - Wiltshire,3
+job_id included - Wiltshire,1787836; 107899505; 23643_225549480
