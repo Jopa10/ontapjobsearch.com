@@ -107,7 +107,11 @@
     "advertiser_type": "Company",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": ""
+    "posted_date_basis": "",
+    "at_a_glance_attributes": [
+      "Support plans",
+      "Safeguarding"
+    ]
   },
   {
     "job_id": "1401784682",
