@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Leicestershire
 
-review_date: 2026-08-31
-review_fingerprint: d8c260512a52e28e919a0029cbd37d0f08c7f0d893796a5c1d4d5237cef136e0
-routing_manifest_sha256: ffa8ac4eb0bf3616c1711502490fa7d8374f8e356872cc2c477737141b15a14c
+review_date: 2026-09-01
+review_fingerprint: b63fa6bd95c2ac8ee3d76f3d27f51a042ac082f29009728e66721c6d5901060a
+routing_manifest_sha256: 987772ee12e2a9bbbaf1e7aa2170ab8a9c426878de897c9ff36e2be51a6defa2
 ontap_region: Leicestershire
 slice_category: admin_service
 slice_status: LIVE
@@ -14,10 +14,10 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 8
-- Selected: 2
+- Selected: 3
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 4
 
 ## SELECTED
 
@@ -51,6 +51,21 @@ source_job_id: learning-support-administrator-loughborough-college
 source_url: https://teaching-vacancies.service.gov.uk/jobs/learning-support-administrator-loughborough-college
 ---
 
+---
+action: 
+SELECTED | Leicestershire | Lutterworth, East Midlands, LE17 4EX | Grade 4 SCP 5-6 £24804 - £24999 | Receptionist
+employer: Sherrier Church of England Primary School
+closing_date: 2026-09-13T23:59:59+01:00
+reason: Clear admin/service title: receptionist
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: ede08936a06e68feb68565a5dee8f38565c2a163e6064e65e4218e45fb180bd6
+source: Teaching Vacancies
+source_job_id: receptionist-sherrier-church-of-england-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-sherrier-church-of-england-primary-school
+---
+
 ## POSS — choose SELECT or EXCLUDE
 
 ---
@@ -76,8 +91,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-office
 
 - [Apprentice Premises Officer](https://teaching-vacancies.service.gov.uk/jobs/apprentice-premises-officer-ash-field-academy) — Insufficient admin/service evidence.
 - [Director of Finance](https://teaching-vacancies.service.gov.uk/jobs/director-of-finance-rise-multi-academy-trust) — Insufficient admin/service evidence.
-- [Extended Services Club Manager (EXS031BC)](https://teaching-vacancies.service.gov.uk/jobs/extended-services-club-manager-exs031bc) — Manager title salary ceiling £28,146 is not below £28,000.
-- [School Business Lead](https://teaching-vacancies.service.gov.uk/jobs/school-business-lead-glenfield-primary-school-leicester-leicestershire) — Insufficient admin/service evidence.
+- [Extended Services Club Manager (EXS031BC)](https://teaching-vacancies.service.gov.uk/jobs/extended-services-club-manager-exs031bc-sileby-redlands-community-primary-school) — Manager title salary ceiling £28,146 is not below £28,000.
 - [Sixth Form Coordinator](https://teaching-vacancies.service.gov.uk/jobs/sixth-form-coordinator-charnwood-college) — Insufficient admin/service evidence.
 
 ## Safety boundary

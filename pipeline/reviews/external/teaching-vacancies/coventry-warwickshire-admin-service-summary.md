@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Coventry & Warwickshire
 
-review_date: 2026-08-31
-review_fingerprint: 54c4ab224ef02182116565f05a0c3e37c6948b1ccd5b6324845c13804609c6a6
-routing_manifest_sha256: ffa8ac4eb0bf3616c1711502490fa7d8374f8e356872cc2c477737141b15a14c
+review_date: 2026-09-01
+review_fingerprint: 0ac961f885c001baaf8c9792566ecc32b416a33d77536249c261926543611dfb
+routing_manifest_sha256: 987772ee12e2a9bbbaf1e7aa2170ab8a9c426878de897c9ff36e2be51a6defa2
 ontap_region: West Midlands - Coventry & Warwickshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 10
-- Selected: 7
+- Records: 6
+- Selected: 5
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 3
+- Hard pass: 1
 
 ## SELECTED
-
----
-action: 
-SELECTED | West Midlands - Coventry & Warwickshire | Coventry, West Midlands, CV3 4BD | £25,185.00 - £26,403.00 Annually (FTE) Grade 3, Actual Salary £21,854 - £22,911 | Administration Assistant
-employer: Meadow Park School
-closing_date: 2026-09-01T09:00:00+01:00
-reason: Clear admin/service title: administration assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 1a0d0c1f2337c589a0fa852b868011fb58ff964e72f8ab95b9973df529eed5cd
-source: Teaching Vacancies
-source_job_id: administration-assistant-meadow-park-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-meadow-park-school
----
 
 ---
 action: 
@@ -111,21 +96,6 @@ source_job_id: school-receptionist-45aeb107-50df-4aa0-8e6f-1750a0fd6626
 source_url: https://teaching-vacancies.service.gov.uk/jobs/school-receptionist-45aeb107-50df-4aa0-8e6f-1750a0fd6626
 ---
 
----
-action: 
-SELECTED | West Midlands - Coventry & Warwickshire | RUGBY, West Midlands, CV23 1ED | NJC07 £24,294.00 – NJC11 £25,979.00 FTE Actual Salary: £20,779.00 to £22,220.00 | SEND Administrator
-employer: Houlton School
-closing_date: 2026-09-01T09:00:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 28fd004090aec611ed970833df36ac874ca2986db2f3c58858321c32f03f6835
-source: Teaching Vacancies
-source_job_id: send-administrator-houlton-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-houlton-school
----
-
 ## POSS — choose SELECT or EXCLUDE
 
 - None.
@@ -137,8 +107,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-ho
 ## HARD_PASS
 
 - [Assistant Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/assistant-operations-manager-finham-park-school-coventry-west-midlands) — Manager title salary ceiling £34,434 is not below £28,000.
-- [Chief Financial Officer (CFO)](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-cfo-triumph-learning-trust) — Insufficient admin/service evidence.
-- [Senior Leisure & Lettings Coordinator](https://teaching-vacancies.service.gov.uk/jobs/senior-leisure-lettings-coordinator) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

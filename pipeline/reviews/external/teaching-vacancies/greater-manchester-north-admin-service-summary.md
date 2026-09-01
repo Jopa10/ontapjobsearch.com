@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Greater Manchester - North
 
-review_date: 2026-08-31
+review_date: 2026-09-01
 review_fingerprint: cf6e869445e55d78b550198621139c03425a71db92c46d998022c53a2835d9be
-routing_manifest_sha256: ffa8ac4eb0bf3616c1711502490fa7d8374f8e356872cc2c477737141b15a14c
+routing_manifest_sha256: 987772ee12e2a9bbbaf1e7aa2170ab8a9c426878de897c9ff36e2be51a6defa2
 ontap_region: Greater Manchester - North
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 3
+- Records: 4
 - Selected: 1
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 2
+- Hard pass: 3
 
 ## SELECTED
 
@@ -46,6 +46,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-offi
 
 ## HARD_PASS
 
+- [Accounts Payable Officer](https://teaching-vacancies.service.gov.uk/jobs/accounts-payable-officer) — Insufficient admin/service evidence.
 - [Attendance Support Officer](https://teaching-vacancies.service.gov.uk/jobs/attendance-support-officer-st-gabriel-s-rc-high-school-a-voluntary-academy) — Insufficient admin/service evidence.
 - [Senior Human Resources Advisor](https://teaching-vacancies.service.gov.uk/jobs/senior-human-resources-advisor-kingfisher-learning-trust) — Insufficient admin/service evidence.
 

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Berkshire
 
-review_date: 2026-08-31
-review_fingerprint: 41a29689149ca7b7fdadd09af0dc30a2c8be8cfe0ad40c384f88c48cefb0e600
-routing_manifest_sha256: ffa8ac4eb0bf3616c1711502490fa7d8374f8e356872cc2c477737141b15a14c
+review_date: 2026-09-01
+review_fingerprint: 8dcf82ba875d29163e9ec59e0742f0bf57fb312689ef5b06dd8cc61c056054f1
+routing_manifest_sha256: 987772ee12e2a9bbbaf1e7aa2170ab8a9c426878de897c9ff36e2be51a6defa2
 ontap_region: Berkshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 18
-- Selected: 5
+- Records: 15
+- Selected: 4
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 12
+- Hard pass: 10
 
 ## SELECTED
 
@@ -68,21 +68,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-of
 
 ---
 action: 
-SELECTED | Berkshire | Windsor, South East, SL4 5EH | Salary for full time (37 hours per week), term time only is £24,114 which can be pro-rated for part time, depending on hours. | Sixth Form Administrator
-employer: The Windsor Boys' School
-closing_date: 2026-08-31T23:59:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: d67290fae0c54aca400277bea0bdcd9874c77a5c85fcccfa832304aede9026a2
-source: Teaching Vacancies
-source_job_id: sixth-form-administrator-the-windsor-boys-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/sixth-form-administrator-the-windsor-boys-school
----
-
----
-action: 
 SELECTED | Berkshire | Slough, South East, SL2 5BA | £22,274.00 - £22,957.00 Annually (Actual) | Welfare Assistant & Administrator
 employer: James Elliman Academy
 closing_date: 2026-09-30T12:00:00+01:00
@@ -125,10 +110,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/trust-governance-prof
 - [HR & Recruitment Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-recruitment-officer-the-park-federation-academy-trust) — Insufficient admin/service evidence.
 - [Lettings Assistant](https://teaching-vacancies.service.gov.uk/jobs/lettings-assistant-reading-school) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-king-s-academy-meadow-vale) — Manager title salary ceiling £36,363 is not below £28,000.
-- [Office Manager - Southcote Primary School](https://teaching-vacancies.service.gov.uk/jobs/office-manager-southcote-primary-school-southcote-primary-school) — Manager title salary ceiling £34,386 is not below £28,000.
 - [Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/operations-manager-reading-school) — Manager title salary ceiling £44,075 is not below £28,000.
 - [Payroll Officer](https://teaching-vacancies.service.gov.uk/jobs/payroll-officer-the-park-federation-academy-trust-slough-not-recorded) — Insufficient admin/service evidence.
-- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-fb06354c-e52a-4d48-b4a2-2dff7115bcd9) — Manager title without salary evidence below £28,000.
 - [SEND Administration Officer - The Wren School](https://teaching-vacancies.service.gov.uk/jobs/send-administration-officer-the-wren-school) — Missing salary or pay scale.
 - [Senior Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-finance-officer-the-thames-learning-trust) — Insufficient admin/service evidence.
 

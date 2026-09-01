@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Bedfordshire
 
-review_date: 2026-08-31
-review_fingerprint: 6c24059697c43349067f5a92b76baafd2885f6addaf76774a80ebe10165c252e
-routing_manifest_sha256: ffa8ac4eb0bf3616c1711502490fa7d8374f8e356872cc2c477737141b15a14c
+review_date: 2026-09-01
+review_fingerprint: 55a608f24c53dc14cb0312d3bd037505389ded191c002db4c44f475a0eec6954
+routing_manifest_sha256: 987772ee12e2a9bbbaf1e7aa2170ab8a9c426878de897c9ff36e2be51a6defa2
 ontap_region: Bedfordshire
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 13
-- Selected: 7
+- Records: 6
+- Selected: 3
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 6
+- Hard pass: 3
 
 ## SELECTED
-
----
-action: 
-SELECTED | Bedfordshire | Bedford, East of England, MK45 4NS | £4,366.00 Annually (Actual) Level 2A point 4 | Administration Assistant
-employer: Ramsey Manor Lower School
-closing_date: 2026-08-31T23:59:00+01:00
-reason: Clear admin/service title: administration assistant
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: c118d74ab318bfdce3db4f3a81f0859f9c33b271947f91a2baa1efae81f5843c
-source: Teaching Vacancies
-source_job_id: administration-assistant-18c67456-fe5d-4f62-84f3-8db757ea20be
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-18c67456-fe5d-4f62-84f3-8db757ea20be
----
 
 ---
 action: 
@@ -53,36 +38,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assist
 
 ---
 action: 
-SELECTED | Bedfordshire | Luton, East of England, LU2 0NJ | £23,113.00 - £25,620.00 Annually (Actual) L4 | Admissions and Attendance Officer
-employer: St Matthew's Primary School
-closing_date: 2026-08-31T23:59:00+01:00
-reason: Clear admin/service title: attendance officer
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: a73062f8e3c52bf597d25201bca57a1ccb1c71adc8e8b37a594de8460d6c1a07
-source: Teaching Vacancies
-source_job_id: admissions-and-attendance-officer-st-matthew-s-primary-school-luton-bedfordshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/admissions-and-attendance-officer-st-matthew-s-primary-school-luton-bedfordshire
----
-
----
-action: 
-SELECTED | Bedfordshire | Bedford, East of England, MK45 4JZ | £19,812.00 - £20,447.00 Annually (Actual) NJC Grade 3A (Points 5-7) | Clerical Assistant & Attendance Administrator
-employer: Arnold Academy
-closing_date: 2026-09-01T08:00:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: b87df8eb56b1c558f241443c4304f406868998194760bc77a41c423b33c8d71d
-source: Teaching Vacancies
-source_job_id: clerical-assistant-attendance-administrator-arnold-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/clerical-assistant-attendance-administrator-arnold-academy
----
-
----
-action: 
 SELECTED | Bedfordshire | Luton, LU3 3QN | £16,006.00 - £17,349.00 Annually (Actual) L4 pts 9 - 14 pro rata'd | HR Administrator
 employer: Chiltern Learning Trust
 closing_date: 2026-09-04T09:00:00+01:00
@@ -94,21 +49,6 @@ factual_fingerprint: 85f0264700aecd0c51b3098c63a44b54cada2a60ead2b7a68f239186eb4
 source: Teaching Vacancies
 source_job_id: hr-administrator-86d9fe65-1a75-4481-9155-0c7b4d9c9eb0
 source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-86d9fe65-1a75-4481-9155-0c7b4d9c9eb0
----
-
----
-action: 
-SELECTED | Bedfordshire | Luton, East of England, LU4 0NE | £25,495.00 - £25,893.00 Annually (FTE) AS 4-5 FTE £25,495-£25,893 pro rata £24,393-£24,774 | Receptionist and Clerical Assistant
-employer: The Chalk Hills Academy
-closing_date: 2026-09-01T08:00:00+01:00
-reason: Clear admin/service title: receptionist
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: 7a62451b24157a7f3c42a19917d0ca4e101ba309e9847e3b16d11bde67b7b126
-source: Teaching Vacancies
-source_job_id: receptionist-and-clerical-assistant-066aa8a5-43e7-4649-9eec-a1fcf6c1d684
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-and-clerical-assistant-066aa8a5-43e7-4649-9eec-a1fcf6c1d684
 ---
 
 ---
@@ -136,11 +76,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/safeguarding-attendan
 
 ## HARD_PASS
 
-- [Business Manager](https://teaching-vacancies.service.gov.uk/jobs/business-manager-the-chalk-hills-academy-luton-bedfordshire) — Manager title salary ceiling £45,401 is not below £28,000.
 - [Data and Exams Assistant](https://teaching-vacancies.service.gov.uk/jobs/data-and-exams-assistant-queensbury-academy) — Insufficient admin/service evidence.
 - [Finance Assistant - Purchase Ledger & Treasury](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-purchase-ledger-treasury) — Insufficient admin/service evidence.
-- [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-6f5cafa2-4f5b-47d7-8fa1-ebd48d98391c) — Manager title salary ceiling £33,699 is not below £28,000.
-- [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-st-matthew-s-primary-school) — Insufficient admin/service evidence.
 - [Online Marketing & Social Media Assistant](https://teaching-vacancies.service.gov.uk/jobs/online-marketing-social-media-assistant) — Insufficient admin/service evidence.
 
 ## Safety boundary

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Nottinghamshire
 
-review_date: 2026-08-31
-review_fingerprint: c440a6c6183f9a00d84cb493275965c2b4fea38b103e87afb05413ce4677c136
-routing_manifest_sha256: ffa8ac4eb0bf3616c1711502490fa7d8374f8e356872cc2c477737141b15a14c
+review_date: 2026-09-01
+review_fingerprint: 92f7742f9d87439201b8625c951e35c71ac7eddafcd4ae8dc5517afeeb715ac6
+routing_manifest_sha256: 987772ee12e2a9bbbaf1e7aa2170ab8a9c426878de897c9ff36e2be51a6defa2
 ontap_region: Nottinghamshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,54 +13,39 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 16
-- Selected: 3
-- POSS awaiting decision: 3
+- Records: 11
+- Selected: 2
+- POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 10
+- Hard pass: 7
 
 ## SELECTED
 
 ---
 action: 
-SELECTED | Nottinghamshire | Mansfield, East Midlands, NG18 2DP | £25,588.00 (actual salary £21,848.22) | Administration Assistant
-employer: Horizons Academy
-closing_date: 2026-09-06T23:59:00+01:00
-reason: Clear admin/service title: administration assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: f6f97a59ea42f0840efc57a6e42cc520715530761c895d780beea2269b8b20ba
-source: Teaching Vacancies
-source_job_id: administration-assistant-horizons-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-horizons-academy
----
-
----
-action: 
 SELECTED | Nottinghamshire | Nottingham, East Midlands, NG5 7JZ | £24,796.00 - £25,583.00 Annually (FTE) Salary will be paid pro rate based on term time weeks and hours worked | Administrative Assistant
 employer: Christ The King Voluntary Academy
-closing_date: 2026-09-01T23:59:00+01:00
+closing_date: 2026-09-07T23:59:00+01:00
 reason: Clear admin/service title: administrative assistant
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 1596477af103822603c2aafed29b5a1894f36fef4c9e255a15fa6989155ccc1a
+factual_fingerprint: fa463f0d606dbdad54230fa82112d93bc5fba363f36f4137f5b619fb1ba69040
 source: Teaching Vacancies
-source_job_id: administrative-assistant-8cc06080-4f90-4fa2-9942-346474e89b5e
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-8cc06080-4f90-4fa2-9942-346474e89b5e
+source_job_id: administrative-assistant-6dd3cd8b-9366-40d4-aff9-a0419363ea61
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-6dd3cd8b-9366-40d4-aff9-a0419363ea61
 ---
 
 ---
 action: 
 SELECTED | Nottinghamshire | Nottingham, East Midlands, NG5 7JZ | £25,989.00 - £27,254.00 Annually (FTE) Salary will be paid pro rate based on term time weeks and hours worked | Administrative Assistant - Sixth Form and Work-Related Learning
 employer: Christ The King Voluntary Academy
-closing_date: 2026-09-02T23:59:00+01:00
+closing_date: 2026-09-07T23:59:00+01:00
 reason: Clear admin/service title: administrative assistant
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: e2db5b2181a3e134f4f9d6d4987fb8b27642dfe8fe01c0674f6d8b33213e75f4
+factual_fingerprint: 15a2d66e4b2490795f23fc4f5d57164bc8eafdc7c7cec77821fd7359746ca67f
 source: Teaching Vacancies
 source_job_id: administrative-assistant-sixth-form-and-work-related-learning
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-sixth-form-and-work-related-learning
@@ -98,21 +83,6 @@ source_job_id: house-support-asisstant
 source_url: https://teaching-vacancies.service.gov.uk/jobs/house-support-asisstant
 ---
 
----
-action: 
-POSS | Nottinghamshire | Nottingham, NG7 2TU | PO1 (£39,863 to £44,075 per year - April 2026 pay award pending) | Lead Governance Professional
-employer: Nova Education Trust
-closing_date: 2026-09-01T09:00:00+01:00
-reason: Borderline school administration title: governance professional
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 89711dba6b2004d52728723e47a7b4fc16f491a3f07b77a33d83b130990317ca
-source: Teaching Vacancies
-source_job_id: lead-governance-professional-nova-education-trust
-source_url: https://teaching-vacancies.service.gov.uk/jobs/lead-governance-professional-nova-education-trust
----
-
 ## EXCLUDED BY REVIEW
 
 - None.
@@ -120,15 +90,12 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/lead-governance-profe
 ## HARD_PASS
 
 - [Accounts Payable Assistant](https://teaching-vacancies.service.gov.uk/jobs/accounts-payable-assistant-greenwood-academies-trust) — Insufficient admin/service evidence.
-- [Administration and Attendance Support](https://teaching-vacancies.service.gov.uk/jobs/administration-and-attendance-support) — Insufficient admin/service evidence.
 - [Assistant Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/assistant-operations-manager-8e287efa-6467-481b-8c80-56f74d927bdb) — Manager title salary ceiling £33,699 is not below £28,000.
-- [Maternity Cover – Fixed Term Receptionist/Administrator Ref: ADM26](https://teaching-vacancies.service.gov.uk/jobs/maternity-cover-fixed-term-receptionist-administrator-ref-adm26) — Missing salary or pay scale.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-sycamore-academy) — Manager title salary ceiling £40,446 is not below £28,000.
 - [People & Culture Advisor](https://teaching-vacancies.service.gov.uk/jobs/people-culture-advisor-tapestry-learning-partnership-nottingham-not-recorded) — Insufficient admin/service evidence.
 - [People & Culture Business Partner](https://teaching-vacancies.service.gov.uk/jobs/people-culture-business-partner-tapestry-learning-partnership) — Insufficient admin/service evidence.
 - [Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-redgate-primary-academy-mansfield-nottinghamshire) — Insufficient admin/service evidence.
 - [Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-yeoman-park-academy-mansfield-nottinghamshire) — Insufficient admin/service evidence.
-- [Trust Safeguarding Lead](https://teaching-vacancies.service.gov.uk/jobs/trust-safeguarding-lead-redhill-academy-trust) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

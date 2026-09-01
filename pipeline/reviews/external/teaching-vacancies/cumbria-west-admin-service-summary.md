@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cumbria - West
 
-review_date: 2026-08-31
+review_date: 2026-09-01
 review_fingerprint: 79b94c81de947c877bf1d44e3b6f88a0869ecafbb74aa0ce4678e257ef8b38ae
-routing_manifest_sha256: ffa8ac4eb0bf3616c1711502490fa7d8374f8e356872cc2c477737141b15a14c
+routing_manifest_sha256: 987772ee12e2a9bbbaf1e7aa2170ab8a9c426878de897c9ff36e2be51a6defa2
 ontap_region: Cumbria - West
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 3
+- Records: 2
 - Selected: 0
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 2
+- Hard pass: 1
 
 ## SELECTED
 
@@ -46,7 +46,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/executive-assistant-s
 
 ## HARD_PASS
 
-- [Data Manager](https://teaching-vacancies.service.gov.uk/jobs/data-manager-st-josephs-catholic-high-school-workington) — Manager title salary ceiling £32,597 is not below £28,000.
 - [School Office Manager](https://teaching-vacancies.service.gov.uk/jobs/school-office-manager-our-lady-and-st-patrick-s-catholic-primary-school-maryport) — Manager title salary ceiling £35,412 is not below £28,000.
 
 ## Safety boundary

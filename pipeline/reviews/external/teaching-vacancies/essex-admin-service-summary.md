@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Essex
 
-review_date: 2026-08-31
-review_fingerprint: e27b84f080f143519b15ca1899364988d0c6a649453877557b6af7fc5e5281d1
-routing_manifest_sha256: ffa8ac4eb0bf3616c1711502490fa7d8374f8e356872cc2c477737141b15a14c
+review_date: 2026-09-01
+review_fingerprint: d8375616e206840b4b498628048d4670534170371144f021cd4b96ea697802a9
+routing_manifest_sha256: 987772ee12e2a9bbbaf1e7aa2170ab8a9c426878de897c9ff36e2be51a6defa2
 ontap_region: Essex
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 8
-- Selected: 3
+- Records: 7
+- Selected: 2
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 5
@@ -34,21 +34,6 @@ factual_fingerprint: c02b65c767c492d4115348bb49bf3c18f641091dd853a298a6c986528b4
 source: Teaching Vacancies
 source_job_id: administration-assistant-responsibility-for-attendance
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-responsibility-for-attendance
----
-
----
-action: 
-SELECTED | Essex | Maldon, East of England, CM9 6NE | £26,824.00 - £28,142.00 Annually (Actual) | Lead Administrator
-employer: Limebrook Primary School and Nursery
-closing_date: 2026-08-31T23:59:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 37c5b4fbc4a4053158f7544c1d79ed4791b1b08c8105caa5af3ec50beff4872c
-source: Teaching Vacancies
-source_job_id: lead-administrator-limebrook-primary-school-and-nursery
-source_url: https://teaching-vacancies.service.gov.uk/jobs/lead-administrator-limebrook-primary-school-and-nursery
 ---
 
 ---
@@ -77,10 +62,10 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/trust-administrator-d
 ## HARD_PASS
 
 - [Admissions Coordinator](https://teaching-vacancies.service.gov.uk/jobs/admissions-coordinator) — Insufficient admin/service evidence.
-- [Office Manager (Acting - 1 Year Fixed)](https://teaching-vacancies.service.gov.uk/jobs/office-manager-acting-1-year-fixed) — Manager title without salary evidence below £28,000.
+- [HR Business Partner](https://teaching-vacancies.service.gov.uk/jobs/hr-business-partner-discovery-educational-trust) — Insufficient admin/service evidence.
 - [Senior Administrative Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-administrative-officer-mossbourne-fobbing-academy-stanford-le-hope) — Insufficient admin/service evidence.
-- [Senior HR Adviser](https://teaching-vacancies.service.gov.uk/jobs/senior-hr-adviser-b58d31ba-7650-4ead-a619-e0a3558161e2) — Insufficient admin/service evidence.
 - [Trust Data and Performance Manager](https://teaching-vacancies.service.gov.uk/jobs/trust-data-and-performance-manager) — Manager title salary ceiling £55,224 is not below £28,000.
+- [Trust Operations Assistant](https://teaching-vacancies.service.gov.uk/jobs/trust-operations-assistant-discovery-educational-trust) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

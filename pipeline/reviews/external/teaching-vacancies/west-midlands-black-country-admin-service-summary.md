@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Black Country
 
-review_date: 2026-08-31
-review_fingerprint: 4e246203ee1e7c053518add137f4d86b0311034be70448415c20fc4f6c510a11
-routing_manifest_sha256: ffa8ac4eb0bf3616c1711502490fa7d8374f8e356872cc2c477737141b15a14c
+review_date: 2026-09-01
+review_fingerprint: a06695d7b4089711e71ace21298c1c36f1eaebe67c430c37620063b4d4cf456d
+routing_manifest_sha256: 987772ee12e2a9bbbaf1e7aa2170ab8a9c426878de897c9ff36e2be51a6defa2
 ontap_region: West Midlands - Black Country
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 4
-- Selected: 2
+- Records: 3
+- Selected: 1
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 2
@@ -36,21 +36,6 @@ source_job_id: school-administrator-st-christopher-s-catholic-primary-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-st-christopher-s-catholic-primary-academy
 ---
 
----
-action: 
-SELECTED | West Midlands - Black Country | Walsall, West Midlands, WS8 6AE | £23,441.00 - £26,682.00 Annually (FTE) | Senior Administrator
-employer: St James Academy
-closing_date: 2026-08-31T23:59:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 0fad2d21d1d181e28853fc6c4ab9ce9789be1d97375807c429e4a402d9643902
-source: Teaching Vacancies
-source_job_id: senior-administrator-st-james-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-st-james-academy
----
-
 ## POSS — choose SELECT or EXCLUDE
 
 - None.
@@ -61,7 +46,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-
 
 ## HARD_PASS
 
-- [Multi School Facilities Coordinator](https://teaching-vacancies.service.gov.uk/jobs/multi-school-facilities-coordinator) — Insufficient admin/service evidence.
+- [Communications & Engagement Manager](https://teaching-vacancies.service.gov.uk/jobs/communications-engagement-manager) — Manager title salary ceiling £32,079 is not below £28,000.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-withymoor-primary-school) — Manager title salary ceiling £28,214 is not below £28,000.
 
 ## Safety boundary

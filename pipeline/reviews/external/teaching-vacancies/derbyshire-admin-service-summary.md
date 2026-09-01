@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Derbyshire
 
-review_date: 2026-08-31
+review_date: 2026-09-01
 review_fingerprint: 81f455dca59dffbbb053f6367949f96bc12edd5dcff707f1e5e7ced9bcc1fa85
-routing_manifest_sha256: ffa8ac4eb0bf3616c1711502490fa7d8374f8e356872cc2c477737141b15a14c
+routing_manifest_sha256: 987772ee12e2a9bbbaf1e7aa2170ab8a9c426878de897c9ff36e2be51a6defa2
 ontap_region: Derbyshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 6
+- Records: 7
 - Selected: 1
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 6
 
 ## SELECTED
 
@@ -46,6 +46,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assist
 
 ## HARD_PASS
 
+- [Community Development Assistant](https://teaching-vacancies.service.gov.uk/jobs/community-development-assistant) — Insufficient admin/service evidence.
 - [PA to Senior Leadership Team & Cover Manager](https://teaching-vacancies.service.gov.uk/jobs/pa-to-senior-leadership-team-cover-manager) — Manager title salary ceiling £37,280 is not below £28,000.
 - [Safeguarding Officer](https://teaching-vacancies.service.gov.uk/jobs/safeguarding-officer-the-bolsover-school) — Insufficient admin/service evidence.
 - [School Business Assistant](https://teaching-vacancies.service.gov.uk/jobs/school-business-assistant-heath-primary-school-chesterfield-derbyshire) — Insufficient admin/service evidence.

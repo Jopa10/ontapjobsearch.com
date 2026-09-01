@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Hampshire
 
-review_date: 2026-08-31
+review_date: 2026-09-01
 review_fingerprint: 4e4753082f5571ec7f2f41dcda17775b0e7b9e66a95b0fce37897a45e2f5d604
-routing_manifest_sha256: ffa8ac4eb0bf3616c1711502490fa7d8374f8e356872cc2c477737141b15a14c
+routing_manifest_sha256: 987772ee12e2a9bbbaf1e7aa2170ab8a9c426878de897c9ff36e2be51a6defa2
 ontap_region: Hampshire
 slice_category: admin_service
 slice_status: LIVE
@@ -119,9 +119,9 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-administration
 
 ## HARD_PASS
 
+- [Attendance and Admin Officer](https://teaching-vacancies.service.gov.uk/jobs/attendance-and-admin-officer-shirley-warren-primary-nursery-school) — Insufficient admin/service evidence.
 - [Clerk to the Governing Body](https://teaching-vacancies.service.gov.uk/jobs/clerk-to-the-governing-body-elson-junior-school) — Insufficient admin/service evidence.
 - [Cover Co-ordinator and Cover Supervisor](https://teaching-vacancies.service.gov.uk/jobs/cover-co-ordinator-and-cover-supervisor) — Insufficient admin/service evidence.
-- [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-cams-hill-school) — Insufficient admin/service evidence.
 - [Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/operations-manager-wellington-eagles-primary-academy) — Manager title salary ceiling £39,152 is not below £28,000.
 - [Support Officer (Finance)](https://teaching-vacancies.service.gov.uk/jobs/support-officer-finance) — Insufficient admin/service evidence.
 

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Birmingham & Solihull
 
-review_date: 2026-08-31
-review_fingerprint: 75529196cc1d77ae107d2b6607eba180dc37c3a1231083cc0b960421734330ed
-routing_manifest_sha256: ffa8ac4eb0bf3616c1711502490fa7d8374f8e356872cc2c477737141b15a14c
+review_date: 2026-09-01
+review_fingerprint: b6c2e122ebf76c2bb63c79b2e568a4419f27d4ce5539fcc36b74205d3fb00e53
+routing_manifest_sha256: 987772ee12e2a9bbbaf1e7aa2170ab8a9c426878de897c9ff36e2be51a6defa2
 ontap_region: West Midlands - Birmingham & Solihull
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 13
-- Selected: 6
+- Records: 11
+- Selected: 4
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 6
 
 ## SELECTED
-
----
-action: 
-SELECTED | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B24 0ED | £19,969.00 - £21,695.00 Annually (Actual) 37 hours per week Term Time only | Admin Assistant
-employer: Yenton Primary School
-closing_date: 2026-09-01T12:00:00+01:00
-reason: Clear admin/service title: admin assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 9469291f767751dd4868efd9892086e147f7c94c5a30aa666b50bf309833203b
-source: Teaching Vacancies
-source_job_id: admin-assistant-10329641-0e0b-41f7-ba37-1959636d06d8
-source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-10329641-0e0b-41f7-ba37-1959636d06d8
----
 
 ---
 action: 
@@ -49,21 +34,6 @@ factual_fingerprint: 24fc53290ed60d6573fa863747c2b7aaf7f99cc64e87ba56dbd9e23acb6
 source: Teaching Vacancies
 source_job_id: administrative-assistant-grade-2-term-time-only
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-grade-2-term-time-only
----
-
----
-action: 
-SELECTED | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B29 4HE | £23,226.59 - £25,195.30 Annually (Actual) SCP 12-17 | Administrator
-employer: E-ACT Shenley Academy
-closing_date: 2026-09-01T09:00:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 0b8ed5dd4f77a486471a06427a7083b2e4c7ff2cd7b0eef92c54d7df7f717afb
-source: Teaching Vacancies
-source_job_id: administrator-29a3a1df-9a3b-43db-97ba-8e6497b99ca1
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-29a3a1df-9a3b-43db-97ba-8e6497b99ca1
 ---
 
 ---

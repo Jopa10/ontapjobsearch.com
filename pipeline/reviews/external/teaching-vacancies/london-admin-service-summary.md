@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — London
 
-review_date: 2026-08-31
-review_fingerprint: 294ed79a331ba927abb1b5676a2eedc7228c2df085c970079c2aee9fa3187479
-routing_manifest_sha256: ffa8ac4eb0bf3616c1711502490fa7d8374f8e356872cc2c477737141b15a14c
+review_date: 2026-09-01
+review_fingerprint: 15869af89d7d811db675a630215f4e8cec1ed552767079c8e87a56c3b6bf1b67
+routing_manifest_sha256: 987772ee12e2a9bbbaf1e7aa2170ab8a9c426878de897c9ff36e2be51a6defa2
 ontap_region: London
 slice_category: admin_service
 slice_status: LIVE
@@ -13,43 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 58
-- Selected: 20
-- POSS awaiting decision: 3
+- Records: 46
+- Selected: 10
+- POSS awaiting decision: 8
 - Excluded: 0
-- Hard pass: 35
+- Hard pass: 28
 
 ## SELECTED
-
----
-action: select
-SELECTED | London | Dagenham, London, RM9 6PH | £25,514.00 Annually (Actual) | Administrative Assistant
-employer: Pathways School
-closing_date: 2026-09-11T23:59:00+01:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: d4f0fcdc2eeb963913798ea0bea40d4bad32b3547b5c16bb487fc17d452e5198
-source: Teaching Vacancies
-source_job_id: administrative-assistant-pathways-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-pathways-school
----
-
----
-action: select
-SELECTED | London | London, London, E15 3DN | Scaled 3 (dependent on experience) £25,524 Pro Rata | Administrative Assistant
-employer: Ranelagh Primary School
-closing_date: 2026-09-04T12:00:00+01:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: e0392ecbc9151c14ff733a0a4a1b873316d5eb6767a8c9db6d6c5dd624dcf418
-source: Teaching Vacancies
-source_job_id: administrative-assistant-ranelagh-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-ranelagh-primary-school
----
 
 ---
 action: 
@@ -67,18 +37,18 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assist
 ---
 
 ---
-action: select
-SELECTED | London | Borehamwood, East of England, WD6 2DW | £25,583.00 - £25,989.00 Annually (FTE) Hours Required: 8.30am to 3.30pm | Administrator
-employer: Summerswood Primary School
-closing_date: 2026-09-04T08:00:00+01:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
+action: 
+SELECTED | London | New Malden, London, KT3 3TU | £21,039.00 - £22,270.00 Annually (Actual) Outer London Grade D5 to D9 | Attendance Officer
+employer: Coombe Girls' School
+closing_date: 2026-09-02T23:59:00+01:00
+reason: Clear admin/service title: attendance officer
+jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 22f8de45fd278861069530f2cdb5e5348b7af0ebb81215ef2beffb4cc3450566
+factual_fingerprint: 1ca0db19fc3c43e9e4cc41bb0682f9e50231436fe5d808f061be42e81ba394f2
 source: Teaching Vacancies
-source_job_id: administrator-summerswood-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-summerswood-primary-school
+source_job_id: attendance-officer-coombe-girls-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-coombe-girls-school
 ---
 
 ---
@@ -94,21 +64,6 @@ factual_fingerprint: 7f5617f73d9a564a28f96237d4491f8e4009974d5282d4df4de3d31530a
 source: Teaching Vacancies
 source_job_id: attendance-officer-fbfa075b-7785-41df-89e3-60e1478b9e71
 source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-fbfa075b-7785-41df-89e3-60e1478b9e71
----
-
----
-action: 
-SELECTED | London | Uxbridge, London, UB10 8QY | £27.752 pa | Behaviour Support Administrator
-employer: The Douay Martyrs Catholic School
-closing_date: 2026-08-31T23:59:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 55c4732c3d888fec3c5dedc2ad5ff6b84ee00c763477cdc2c3ef2386d540c3ce
-source: Teaching Vacancies
-source_job_id: behaviour-support-administrator-the-douay-martyrs-catholic-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/behaviour-support-administrator-the-douay-martyrs-catholic-school
 ---
 
 ---
@@ -157,21 +112,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/pa-to-the-slt-includi
 ---
 
 ---
-action: select
-SELECTED | London | Harrow, London, HA2 9AG | £14,166.00 Annually (Actual) | Receptionist & Admin Assistant
-employer: Heathland School
-closing_date: 2026-09-06T23:59:00+01:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: d54c6e19d2b224f68173e20840ff699b0c8319fd95ee37c0e1301d48c17f55c9
-source: Teaching Vacancies
-source_job_id: receptionist-admin-assistant-heathland-school-harrow-middlesex
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-admin-assistant-heathland-school-harrow-middlesex
----
-
----
 action: 
 SELECTED | London | Upminster, London, RM14 1SF | £29,434 - £31,155 | Receptionist (Part-time)
 employer: Hall Mead School
@@ -184,21 +124,6 @@ factual_fingerprint: e5b6eea25b8d7d9e64e668db4a61fd54ee16ae562de5752253787404fe0
 source: Teaching Vacancies
 source_job_id: receptionist-part-time-hall-mead-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-part-time-hall-mead-school
----
-
----
-action: select
-SELECTED | London | London, London, SW4 0AJ | £29,805.00 Annually (Actual) Inner London payscale Spine Point 2 | Receptionist / Administrator
-employer: Belleville Wix Academy
-closing_date: 2026-09-09T23:59:00+01:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 7a4b7b4eb302d24281f450f61dd21993ce3967b01b89d0aa99a1f4a0776b8272
-source: Teaching Vacancies
-source_job_id: receptionist-administrator-belleville-wix-academy-london
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrator-belleville-wix-academy-london
 ---
 
 ---
@@ -232,36 +157,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/reprographics-adminis
 ---
 
 ---
-action: select
-SELECTED | London | Osterley, London, TW7 5PN | 28,195.00 - 29,852.00 | School Administrator
-employer: Nishkam School West London
-closing_date: 2026-09-04T00:00:00+01:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 9c6ac77c14a552c4ef0813081b482a6769628f73926100a12cfe6c0f934f4dc1
-source: Teaching Vacancies
-source_job_id: school-administrator-nishkam-school-west-london
-source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-nishkam-school-west-london
----
-
----
-action: 
-SELECTED | London | Worcester Park, South East, KT4 7DD | £13,891.00 - £15,113.00 Annually (FTE) Partnership Grade 5 (£27,782pa - £30,226pa FTE) | SEN Administrative Assistant
-employer: Cuddington Community Primary School
-closing_date: 2026-08-31T23:59:00+01:00
-reason: Clear admin/service title: administrative assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: fd1a3ea5a9146db152c955b75f3fdb7df85d3045be8af4f01ac471710aa1051a
-source: Teaching Vacancies
-source_job_id: sen-administrative-assistant-9f0c4fa6-782a-4d62-be80-5a33930422aa
-source_url: https://teaching-vacancies.service.gov.uk/jobs/sen-administrative-assistant-9f0c4fa6-782a-4d62-be80-5a33930422aa
----
-
----
 action: 
 SELECTED | London | London, EC1V 1JX | 38,256 FTE - £39,276 FTE. NJC Grade 7 SCP 23 - 25 (Outer London) | Senior Data Administrator
 employer: The Beckmead Trust
@@ -274,51 +169,6 @@ factual_fingerprint: c064416c5f27166e032b2169144aa77066401d966ad23062069eecb00b8
 source: Teaching Vacancies
 source_job_id: senior-data-administrator
 source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-data-administrator
----
-
----
-action: 
-SELECTED | London | London, London, E14 0AF | Between £35,200 and £37,300 | Supported Learning Funding Administrator 0.4 FTE
-employer: New City College
-closing_date: 2026-08-31T23:59:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: f30afb30c38a40af979c51108cc750d116808073076f8b65c660ed9ac070328c
-source: Teaching Vacancies
-source_job_id: supported-learning-funding-administrator-0-4-fte
-source_url: https://teaching-vacancies.service.gov.uk/jobs/supported-learning-funding-administrator-0-4-fte
----
-
----
-action: 
-SELECTED | London | London, London, E14 0AF | Between £35,200 and £37,300 | Supported Learning Funding Administrator 0.6 FTE
-employer: New City College
-closing_date: 2026-08-31T23:59:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 5590f6c45d71cbc6f5be41e2863a1bf090b52d47740d4097a228af67143e7007
-source: Teaching Vacancies
-source_job_id: supported-learning-funding-administrator-0-6-fte-new-city-college
-source_url: https://teaching-vacancies.service.gov.uk/jobs/supported-learning-funding-administrator-0-6-fte-new-city-college
----
-
----
-action: 
-SELECTED | London | London, London, NW9 4AS | £20,559.00 - £23,767.00 Annually (Actual) Pay rise expected from September following Board approval. | Welfare Administrator
-employer: Saracens High School
-closing_date: 2026-09-06T23:59:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: af4bdca5a26b79f06e968b15bee52f86891d4e055516856344068303e6402b4c
-source: Teaching Vacancies
-source_job_id: welfare-administrator-3dd90b50-3a52-43fe-9d80-f9dcd6216326
-source_url: https://teaching-vacancies.service.gov.uk/jobs/welfare-administrator-3dd90b50-3a52-43fe-9d80-f9dcd6216326
 ---
 
 ## POSS — choose SELECT or EXCLUDE
@@ -340,17 +190,47 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-office
 
 ---
 action: 
-POSS | London | Northwood, London, HA6 1QN | £28,790.00 - £30,000.00 Annually (Actual) | Attendance and Pastoral Support Worker
-employer: Northwood School
-closing_date: 2026-09-04T23:59:00+01:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
+POSS | London | Dagenham, London, RM9 6PH | £25,514.00 Annually (Actual) | Administrative Assistant
+employer: Pathways School
+closing_date: 2026-09-11T23:59:00+01:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: dd3cf44058bb3d29d7301d044fca8eaeaef2d6c0c9bec52a9f522147f89ac119
+factual_fingerprint: d4f0fcdc2eeb963913798ea0bea40d4bad32b3547b5c16bb487fc17d452e5198
 source: Teaching Vacancies
-source_job_id: attendance-and-pastoral-support-worker-northwood-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-and-pastoral-support-worker-northwood-school
+source_job_id: administrative-assistant-pathways-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-pathways-school
+---
+
+---
+action: 
+POSS | London | London, London, E15 3DN | Scaled 3 (dependent on experience) £25,524 Pro Rata | Administrative Assistant
+employer: Ranelagh Primary School
+closing_date: 2026-09-04T12:00:00+01:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: e0392ecbc9151c14ff733a0a4a1b873316d5eb6767a8c9db6d6c5dd624dcf418
+source: Teaching Vacancies
+source_job_id: administrative-assistant-ranelagh-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-ranelagh-primary-school
+---
+
+---
+action: 
+POSS | London | Borehamwood, East of England, WD6 2DW | £25,583.00 - £25,989.00 Annually (FTE) Hours Required: 8.30am to 3.30pm | Administrator
+employer: Summerswood Primary School
+closing_date: 2026-09-04T08:00:00+01:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 22f8de45fd278861069530f2cdb5e5348b7af0ebb81215ef2beffb4cc3450566
+source: Teaching Vacancies
+source_job_id: administrator-summerswood-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-summerswood-primary-school
 ---
 
 ---
@@ -368,6 +248,51 @@ source_job_id: executive-assistant-data-protection-information-governance
 source_url: https://teaching-vacancies.service.gov.uk/jobs/executive-assistant-data-protection-information-governance
 ---
 
+---
+action: 
+POSS | London | Harrow, London, HA2 9AG | £14,166.00 Annually (Actual) | Receptionist & Admin Assistant
+employer: Heathland School
+closing_date: 2026-09-06T23:59:00+01:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: d54c6e19d2b224f68173e20840ff699b0c8319fd95ee37c0e1301d48c17f55c9
+source: Teaching Vacancies
+source_job_id: receptionist-admin-assistant-heathland-school-harrow-middlesex
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-admin-assistant-heathland-school-harrow-middlesex
+---
+
+---
+action: 
+POSS | London | London, London, SW4 0AJ | £29,805.00 Annually (Actual) Inner London payscale Spine Point 2 | Receptionist / Administrator
+employer: Belleville Wix Academy
+closing_date: 2026-09-09T23:59:00+01:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 7a4b7b4eb302d24281f450f61dd21993ce3967b01b89d0aa99a1f4a0776b8272
+source: Teaching Vacancies
+source_job_id: receptionist-administrator-belleville-wix-academy-london
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrator-belleville-wix-academy-london
+---
+
+---
+action: 
+POSS | London | Osterley, London, TW7 5PN | 28,195.00 - 29,852.00 | School Administrator
+employer: Nishkam School West London
+closing_date: 2026-09-04T00:00:00+01:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 9c6ac77c14a552c4ef0813081b482a6769628f73926100a12cfe6c0f934f4dc1
+source: Teaching Vacancies
+source_job_id: school-administrator-nishkam-school-west-london
+source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-nishkam-school-west-london
+---
+
 ## EXCLUDED BY REVIEW
 
 - None.
@@ -379,18 +304,14 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/executive-assistant-d
 - [Attendance and Welfare Officer](https://teaching-vacancies.service.gov.uk/jobs/attendance-and-welfare-officer-st-thomas-more-language-college-london) — Insufficient admin/service evidence.
 - [Capital Projects Manager](https://teaching-vacancies.service.gov.uk/jobs/capital-projects-manager-girls-learning-trust-sutton-not-recorded) — Manager title salary ceiling £45,157 is not below £28,000.
 - [Clerk](https://teaching-vacancies.service.gov.uk/jobs/clerk-82945d82-8f4b-461e-afa7-8d80f9437591) — Insufficient admin/service evidence.
-- [Compliance Officer](https://teaching-vacancies.service.gov.uk/jobs/compliance-officer-orchard-hill-college-academy-trust-sutton-not-recorded) — Insufficient admin/service evidence.
+- [Clerk to Governing Body (Wickham Common Primary School)](https://teaching-vacancies.service.gov.uk/jobs/clerk-to-governing-body-wickham-common-primary-school) — Insufficient admin/service evidence.
 - [Data and Examinations Manager](https://teaching-vacancies.service.gov.uk/jobs/data-and-examinations-manager-park-view-school) — Manager title salary ceiling £52,194 is not below £28,000.
 - [Exams & Access Arrangements Assistant](https://teaching-vacancies.service.gov.uk/jobs/exams-access-arrangements-assistant) — Insufficient admin/service evidence.
 - [Facilities Manager](https://teaching-vacancies.service.gov.uk/jobs/facilities-manager-wimbledon-college) — Manager title salary ceiling £52,827 is not below £28,000.
 - [Financial Accountant](https://teaching-vacancies.service.gov.uk/jobs/financial-accountant-partnership-learning) — Insufficient admin/service evidence.
 - [Fundraising Officer](https://teaching-vacancies.service.gov.uk/jobs/fundraising-officer-ac67c185-438c-4d63-82c9-4fcd5524afc9) — Insufficient admin/service evidence.
 - [Head of Finance Business Partnering](https://teaching-vacancies.service.gov.uk/jobs/head-of-finance-business-partnering-orchard-hill-college-academy-trust) — Insufficient admin/service evidence.
-- [HLTA Nursery Admin](https://teaching-vacancies.service.gov.uk/jobs/hlta-nursery-admin) — Out-of-scope occupation: nurse.
-- [HR Apprentice](https://teaching-vacancies.service.gov.uk/jobs/hr-apprentice-orion-education) — Insufficient admin/service evidence.
 - [HR Manager](https://teaching-vacancies.service.gov.uk/jobs/hr-manager-chiswick-school-london) — Manager title salary ceiling £50,084 is not below £28,000.
-- [Human Resources Apprentice (Level 3)](https://teaching-vacancies.service.gov.uk/jobs/human-resources-apprentice-level-3-orchard-hill-college-academy-trust-sutton-not-recorded) — Insufficient admin/service evidence.
-- [Human Resources Business Partner](https://teaching-vacancies.service.gov.uk/jobs/human-resources-business-partner-aspirations-academies-trust) — Insufficient admin/service evidence.
 - [Human Resources Manager (Schools)](https://teaching-vacancies.service.gov.uk/jobs/human-resources-manager-schools) — Manager title salary ceiling £41,000 is not below £28,000.
 - [Inclusion Manager](https://teaching-vacancies.service.gov.uk/jobs/inclusion-manager-wren-academy-finchley-london) — Manager title salary ceiling £38,126 is not below £28,000.
 - [Learning Resource Centre Manager](https://teaching-vacancies.service.gov.uk/jobs/learning-resource-centre-manager-harris-city-academy-crystal-palace-london) — Manager title salary ceiling £34,488 is not below £28,000.
@@ -399,16 +320,13 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/executive-assistant-d
 - [Payroll Officer](https://teaching-vacancies.service.gov.uk/jobs/payroll-officer-b2efa37a-6b4a-4d64-ab55-23d9744d8569) — Insufficient admin/service evidence.
 - [Personal Care and Medical Teaching Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-and-medical-teaching-assistant-heron-hall-academy) — Out-of-scope occupation: teaching assistant.
 - [Procurement and Payments Manager](https://teaching-vacancies.service.gov.uk/jobs/procurement-and-payments-manager) — Manager title salary ceiling £50,675 is not below £28,000.
-- [Purchase Ledger](https://teaching-vacancies.service.gov.uk/jobs/purchase-ledger-nower-hill-high-school) — Insufficient admin/service evidence.
 - [SBM/CFO](https://teaching-vacancies.service.gov.uk/jobs/sbm-cfo) — Insufficient admin/service evidence.
-- [School Accountant](https://teaching-vacancies.service.gov.uk/jobs/school-accountant) — Insufficient admin/service evidence.
 - [School Business Leader](https://teaching-vacancies.service.gov.uk/jobs/school-business-leader-greatfields-school) — Insufficient admin/service evidence.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-da3a3838-8f8c-483a-8c17-8b95a56f70de) — Manager title salary ceiling £46,512 is not below £28,000.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-grimsdyke-school) — Manager title salary ceiling £54,843 is not below £28,000.
 - [School Operations, Communications & Development Officer](https://teaching-vacancies.service.gov.uk/jobs/school-operations-communications-development-officer) — Insufficient admin/service evidence.
 - [Senior Executive Assistant to Headteacher](https://teaching-vacancies.service.gov.uk/jobs/senior-executive-assistant-to-headteacher) — Out-of-scope occupation: teacher, headteacher.
 - [Trust Executive Assistant](https://teaching-vacancies.service.gov.uk/jobs/trust-executive-assistant-astrum-multi-academy-trust) — Insufficient admin/service evidence.
-- [Workforce Co-ordinator](https://teaching-vacancies.service.gov.uk/jobs/workforce-co-ordinator) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

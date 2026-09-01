@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Hertfordshire
 
-review_date: 2026-08-31
-review_fingerprint: 41921ad69450250e6ccda5b3bc6e34b648d70780f8556e457d9c65db1115a028
-routing_manifest_sha256: ffa8ac4eb0bf3616c1711502490fa7d8374f8e356872cc2c477737141b15a14c
+review_date: 2026-09-01
+review_fingerprint: 1667aa9cd11a97ccc141cbe4c27486eb6437f3eaf3128dabc7001b07e2c06ad3
+routing_manifest_sha256: 987772ee12e2a9bbbaf1e7aa2170ab8a9c426878de897c9ff36e2be51a6defa2
 ontap_region: Hertfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 9
-- Selected: 6
-- POSS awaiting decision: 0
+- Records: 7
+- Selected: 3
+- POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 3
 
@@ -53,21 +53,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-the-aco
 
 ---
 action: 
-SELECTED | Hertfordshire | Hemel Hempstead, East of England, HP2 4DE | £28,837.00 - £30,971.00 Annually (Actual) H7.19-23 Depending on Experience | Examinations Officer
-employer: The Adeyfield Academy
-closing_date: 2026-08-31T23:59:00+01:00
-reason: Clear admin/service title: examinations officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 744660dec25be90bb10ed083bcdba61b4d2c1c8c21534a3a6c23d49a36b6d083
-source: Teaching Vacancies
-source_job_id: examinations-officer-f64f071c-e84a-4dd7-afab-fb7ac4c7e56e
-source_url: https://teaching-vacancies.service.gov.uk/jobs/examinations-officer-f64f071c-e84a-4dd7-afab-fb7ac4c7e56e
----
-
----
-action: 
 SELECTED | Hertfordshire | Hemel Hempstead, HP2 5TD | £26,718.00 - £27,983.00 Annually (FTE) | Governance Administrator
 employer: Aspire Academies Trust
 closing_date: 2026-09-09T12:00:00+01:00
@@ -81,39 +66,22 @@ source_job_id: governance-administrator-aspire-academies-trust
 source_url: https://teaching-vacancies.service.gov.uk/jobs/governance-administrator-aspire-academies-trust
 ---
 
----
-action: select
-SELECTED | Hertfordshire | Royston, East of England, SG8 5NJ | NJC Cambridgeshire Scale 5 Point 12 - 14 (£28,598 - £29,540 FTE per annum) £12,426.16 - £12,835.47 pro rata, plus holiday pay. | Office Administrator
-employer: Bassingbourn Village College
-closing_date: 2026-08-31T23:59:00+01:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 8fccbba9d34a01eb62b0e77a6919dd3df5e0d8b3934242bfe78141469df2d5f8
-source: Teaching Vacancies
-source_job_id: office-administrator-bassingbourn-village-college
-source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-bassingbourn-village-college
----
+## POSS — choose SELECT or EXCLUDE
 
 ---
 action: 
-SELECTED | Hertfordshire | Stevenage, East of England, SG2 8UT | £21,885.00 - £23,315.00 Annually (Actual) Term Time plus 5 days | Receptionist/Admin Assistant and Student Support Coordinator
-employer: Marriotts School
-closing_date: 2026-09-01T10:00:00+01:00
-reason: Clear admin/service title: admin assistant, receptionist
+POSS | Hertfordshire | Chorleywood, WD3 6EW | £29,540.00 Annually (FTE) | HR Advisor
+employer: Danes Educational Trust
+closing_date: 2026-09-21T09:00:00+01:00
+reason: Administrative duties evidenced in description
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 680b4aa239a5571fa2ea4b335621bc5bb1b76eec2bc3b9d56bb5cb830385fd19
+factual_fingerprint: a5185ec4709fd8fa0b87b390aab8205ae0f2d574ce413d2a29b0ecf57c1199b8
 source: Teaching Vacancies
-source_job_id: receptionist-admin-assistant-and-student-support-coordinator-6462fad5-44b0-4b6f-afcb-acca1d5cb30c
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-admin-assistant-and-student-support-coordinator-6462fad5-44b0-4b6f-afcb-acca1d5cb30c
+source_job_id: hr-advisor-eb9c5bf8-2603-48ba-bfc8-df41ec1204b1
+source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-advisor-eb9c5bf8-2603-48ba-bfc8-df41ec1204b1
 ---
-
-## POSS — choose SELECT or EXCLUDE
-
-- None.
 
 ## EXCLUDED BY REVIEW
 

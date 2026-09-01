@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cambridgeshire
 
-review_date: 2026-08-31
-review_fingerprint: 841f576b626b4675750dcfb9b35d801c2a55715ca06381b0809a4a4a03c4f5f9
-routing_manifest_sha256: ffa8ac4eb0bf3616c1711502490fa7d8374f8e356872cc2c477737141b15a14c
+review_date: 2026-09-01
+review_fingerprint: 6fc7199a2346c855530038d56a43f3fb5a0f8204e8979614131fed8163e29939
+routing_manifest_sha256: 987772ee12e2a9bbbaf1e7aa2170ab8a9c426878de897c9ff36e2be51a6defa2
 ontap_region: Cambridgeshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 23
-- Selected: 13
+- Records: 20
+- Selected: 9
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 8
+- Hard pass: 9
 
 ## SELECTED
 
@@ -34,51 +34,6 @@ factual_fingerprint: 18c773d8cae6ea3d386f3908f2cb86fe1cf109cab38ff589ae78239f7fc
 source: Teaching Vacancies
 source_job_id: admin-assistant-maternity-cover-peckover-primary-school-wisbech-cambridgeshire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-maternity-cover-peckover-primary-school-wisbech-cambridgeshire
----
-
----
-action: 
-SELECTED | Cambridgeshire | St Ives, East of England, PE27 6RR | £25,185.00 - £25,989.00 Annually (Actual) SCP4-6 pro rata - £21,601 - £22,291 | Admin Assistant - Attendance
-employer: St Ivo Academy
-closing_date: 2026-08-31T23:59:00+01:00
-reason: Clear admin/service title: admin assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: dda51c64934bf4dad9bc62a053c993517afbd62a3e333f5bafbb55fd09c1a54a
-source: Teaching Vacancies
-source_job_id: admin-assistant-attendance-st-ivo-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-attendance-st-ivo-academy
----
-
----
-action: 
-SELECTED | Cambridgeshire | Peterborough, East of England, PE1 4LH | £21,519.00 - £21,856.00 Annually (Actual) Grade 3 | Administrative Assistant
-employer: Dogsthorpe Academy
-closing_date: 2026-08-31T23:59:00+01:00
-reason: Clear admin/service title: administrative assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: a0e4466a11a4d73af50a8736b3a0b42cb369da28046c479487c87414f2b5beda
-source: Teaching Vacancies
-source_job_id: administrative-assistant-dogsthorpe-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-dogsthorpe-academy
----
-
----
-action: 
-SELECTED | Cambridgeshire | Peterborough, East of England, PE2 7EA | £14,389.00 Annually (Actual) | Administrative Assistant
-employer: Nene Park Academy
-closing_date: 2026-09-01T09:00:00+01:00
-reason: Clear admin/service title: administrative assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 6c272f15e0ff933eae04681c17af0093cb543cfa8dc2e1e90d38262cbdff8191
-source: Teaching Vacancies
-source_job_id: administrative-assistant-nene-park-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-nene-park-academy
 ---
 
 ---
@@ -124,21 +79,6 @@ factual_fingerprint: f6b8b602bc47440ac5432d07969b9c6e99fd92deea785fef82408227f70
 source: Teaching Vacancies
 source_job_id: data-administrator-799f6f5b-2740-4014-af1f-77a81945f8ec
 source_url: https://teaching-vacancies.service.gov.uk/jobs/data-administrator-799f6f5b-2740-4014-af1f-77a81945f8ec
----
-
----
-action: 
-SELECTED | Cambridgeshire | St. Neots, East of England, PE19 2SH | £31,537.00 - £33,699.00 Annually (FTE) Pro rata salary - £29,044 - £31,035 | Exams Officer
-employer: Ernulf Academy
-closing_date: 2026-08-31T23:59:00+01:00
-reason: Clear admin/service title: exams officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: c80439bcbbfd2aff0f1641ff51d771a7b8449e27815fce5af53b1c1ce51fca3f
-source: Teaching Vacancies
-source_job_id: exams-officer-ernulf-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-ernulf-academy
 ---
 
 ---
@@ -255,9 +195,10 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/marketing-communicati
 ## HARD_PASS
 
 - [Data, Assessment & Cover Manager](https://teaching-vacancies.service.gov.uk/jobs/data-assessment-cover-manager) — Manager title salary ceiling £35,412 is not below £28,000.
+- [Head of HR Business Partnering](https://teaching-vacancies.service.gov.uk/jobs/head-of-hr-business-partnering) — Insufficient admin/service evidence.
+- [Head of HR Operations](https://teaching-vacancies.service.gov.uk/jobs/head-of-hr-operations-meridian-trust) — Insufficient admin/service evidence.
+- [Head of HR Operations](https://teaching-vacancies.service.gov.uk/jobs/head-of-hr-operations-united-learning-trust) — Insufficient admin/service evidence.
 - [HR Adviser (Field based)](https://teaching-vacancies.service.gov.uk/jobs/hr-adviser-field-based) — Insufficient admin/service evidence.
-- [HR Assistant](https://teaching-vacancies.service.gov.uk/jobs/hr-assistant-c4d8ed09-594f-4562-a120-505c05f1230f) — Insufficient admin/service evidence.
-- [MAT Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/mat-finance-officer-four-cs-mat) — Insufficient admin/service evidence.
 - [Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-0ac27fb8-22a7-4d23-9c79-0a117c28f623) — Insufficient admin/service evidence.
 - [Senior HR Adviser (Field based Cambridge and Ely area primarily)](https://teaching-vacancies.service.gov.uk/jobs/senior-hr-adviser-field-based-cambridge-and-ely-area-primarily) — Insufficient admin/service evidence.
 - [Trust Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/trust-finance-officer-act-multi-academy-trust) — Insufficient admin/service evidence.

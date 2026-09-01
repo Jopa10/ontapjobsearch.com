@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Buckinghamshire
 
-review_date: 2026-08-31
-review_fingerprint: 78f22c5f3020dfc96c51d087467dfb34faac76a236fbb6fc4ea8f597519598b7
-routing_manifest_sha256: ffa8ac4eb0bf3616c1711502490fa7d8374f8e356872cc2c477737141b15a14c
+review_date: 2026-09-01
+review_fingerprint: 10314ee0394f709940a6b08227c1490b463daa074b14282453e23b6e4f6ce243
+routing_manifest_sha256: 987772ee12e2a9bbbaf1e7aa2170ab8a9c426878de897c9ff36e2be51a6defa2
 ontap_region: Buckinghamshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 13
-- Selected: 7
+- Records: 10
+- Selected: 5
 - POSS awaiting decision: 3
 - Excluded: 0
-- Hard pass: 3
+- Hard pass: 2
 
 ## SELECTED
 
@@ -68,21 +68,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/examinations-officer-
 
 ---
 action: 
-SELECTED | Buckinghamshire | Milton Keynes, South East, MK17 8XY | £26,824.00 Annually (FTE) Grade D, £26,824 per annum | HR Administrator
-employer: Glebe Farm School
-closing_date: 2026-09-01T12:00:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 03522a2e3a49945b5059593b4bfd47d424a81f9c9d097e4eaab1500c2b2e30ef
-source: Teaching Vacancies
-source_job_id: hr-administrator-glebe-farm-school-milton-keynes-buckinghamshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-glebe-farm-school-milton-keynes-buckinghamshire
----
-
----
-action: 
 SELECTED | Buckinghamshire | High Wycombe, South East, HP15 7UB | £21,628.00 - £23,200.00 Annually (Actual) Salary – Bucks Pay Range 3 £21,628 - £23,200 (full time equivalent £29,114 - £31,230) | Office Administrator
 employer: Sir William Ramsay School
 closing_date: 2026-09-04T12:00:00+01:00
@@ -94,21 +79,6 @@ factual_fingerprint: e08a39e859333defc38ad25b7abaf8405b0cc0b26d3540cf135640e8b31
 source: Teaching Vacancies
 source_job_id: office-administrator-sir-william-ramsay-school-high-wycombe-buckinghamshire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-sir-william-ramsay-school-high-wycombe-buckinghamshire
----
-
----
-action: 
-SELECTED | Buckinghamshire | High Wycombe, South East, HP15 6SP | £34,319.00 - £41,272.00 Annually (Actual) | PA to Headteacher
-employer: Holmer Green Senior School
-closing_date: 2026-09-01T09:00:00+01:00
-reason: Clear admin/service title: pa to
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 3c45923266735b2528419ba5bbf83f236d909ef19bc00476d790825c111ef96e
-source: Teaching Vacancies
-source_job_id: pa-to-headteacher-holmer-green-senior-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/pa-to-headteacher-holmer-green-senior-school
 ---
 
 ---
@@ -181,7 +151,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-
 
 - [Data Assistant](https://teaching-vacancies.service.gov.uk/jobs/data-assistant-eec862cb-7829-4bfd-9435-a191b7aa5a85) — Insufficient admin/service evidence.
 - [HR & Training Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-training-officer) — Insufficient admin/service evidence.
-- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-oak-green-school) — Manager title salary ceiling £41,272 is not below £28,000.
 
 ## Safety boundary
 

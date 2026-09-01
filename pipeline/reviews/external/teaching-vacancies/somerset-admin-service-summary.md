@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Somerset
 
-review_date: 2026-08-31
-review_fingerprint: f70fea663f9cb56e840e9b045a0adb5e50d643b7acaebcf5da1f860a27aaa5f2
-routing_manifest_sha256: ffa8ac4eb0bf3616c1711502490fa7d8374f8e356872cc2c477737141b15a14c
+review_date: 2026-09-01
+review_fingerprint: 668d9f50b08df55680d133415dfbcb712d6846e4f67fea64bf618e42bf8542bf
+routing_manifest_sha256: 987772ee12e2a9bbbaf1e7aa2170ab8a9c426878de897c9ff36e2be51a6defa2
 ontap_region: Somerset
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 10
-- Selected: 4
-- POSS awaiting decision: 2
+- Records: 7
+- Selected: 2
+- POSS awaiting decision: 3
 - Excluded: 0
-- Hard pass: 4
+- Hard pass: 2
 
 ## SELECTED
-
----
-action: 
-SELECTED | Somerset | Weston-Super-Mare, South West, BS24 8EE | £8,062 - £8,787 | Administration Assistant (SEND)
-employer: Winterstoke Hundred Academy
-closing_date: 2026-08-31T23:59:59+01:00
-reason: Clear admin/service title: administration assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 588c894e22bc304271f29fa46890c9d5bc24802c912330c9619e2232c6d59e45
-source: Teaching Vacancies
-source_job_id: administration-assistant-send-winterstoke-hundred-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-send-winterstoke-hundred-academy
----
 
 ---
 action: 
@@ -64,21 +49,6 @@ factual_fingerprint: 6d0f4ee29a73619a08a09351e9965f336c02fa07dcd63188ddf0830139c
 source: Teaching Vacancies
 source_job_id: people-administrator-learning-and-development
 source_url: https://teaching-vacancies.service.gov.uk/jobs/people-administrator-learning-and-development
----
-
----
-action: 
-SELECTED | Somerset | Taunton, South West, TA2 8FT | Actual Annual Salary | Senior Office Administrator
-employer: West Monkton Church of England School
-closing_date: 2026-09-02T17:00:59+01:00
-reason: Clear admin/service title: administrator, office administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 9635d7fcfa24ad8ea27d94caeb5c619a2b50e3a903767e77b82a7c27e4ab4ac8
-source: Teaching Vacancies
-source_job_id: senior-office-administrator-west-monkton-church-of-england-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-office-administrator-west-monkton-church-of-england-school
 ---
 
 ## POSS — choose SELECT or EXCLUDE
@@ -113,15 +83,28 @@ source_job_id: senior-administration-assistant-send
 source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-administration-assistant-send
 ---
 
+---
+action: 
+POSS | Somerset | Taunton, South West, TA2 8FT | Actual Annual Salary | Senior Office Administrator
+employer: West Monkton Church of England School
+closing_date: 2026-09-02T17:00:59+01:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 9635d7fcfa24ad8ea27d94caeb5c619a2b50e3a903767e77b82a7c27e4ab4ac8
+source: Teaching Vacancies
+source_job_id: senior-office-administrator-west-monkton-church-of-england-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-office-administrator-west-monkton-church-of-england-school
+---
+
 ## EXCLUDED BY REVIEW
 
 - None.
 
 ## HARD_PASS
 
-- [Careers Lead](https://teaching-vacancies.service.gov.uk/jobs/careers-lead-the-castle-school-taunton-somerset) — Insufficient admin/service evidence.
-- [Exams Officer](https://teaching-vacancies.service.gov.uk/jobs/exams-officer-west-somerset-college-minehead-somerset) — Missing salary or pay scale.
-- [Headteacher's PA & Office Manager](https://teaching-vacancies.service.gov.uk/jobs/headteacher-s-pa-office-manager-chilton-trinity-school-bridgwater-somerset) — Out-of-scope occupation: teacher, headteacher.
+- [Local Governance Professional (Clerk)](https://teaching-vacancies.service.gov.uk/jobs/local-governance-professional-clerk-churchill-academy-sixth-form) — Missing salary or pay scale.
 - [Systems Analyst](https://teaching-vacancies.service.gov.uk/jobs/systems-analyst-pathway-trust) — Insufficient admin/service evidence.
 
 ## Safety boundary

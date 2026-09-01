@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Devon
 
-review_date: 2026-08-31
-review_fingerprint: e0437611ff415b8574a676908b4088a1c31b73d5e18a61ddbf4e0ba8c4c5b2bb
-routing_manifest_sha256: ffa8ac4eb0bf3616c1711502490fa7d8374f8e356872cc2c477737141b15a14c
+review_date: 2026-09-01
+review_fingerprint: 26ab9ac472e823a949d8827f9be1a0b66bce57e3ad5ad925dfc0aa73e2c3a99a
+routing_manifest_sha256: 987772ee12e2a9bbbaf1e7aa2170ab8a9c426878de897c9ff36e2be51a6defa2
 ontap_region: Devon
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 20
-- Selected: 7
+- Records: 17
+- Selected: 5
 - POSS awaiting decision: 4
 - Excluded: 0
-- Hard pass: 9
+- Hard pass: 8
 
 ## SELECTED
-
----
-action: 
-SELECTED | Devon | Tiverton, South West, EX16 5HB | £25,185.00 - £26,403.00 Annually (FTE) NJC Grade C Pt 5 - 7 | [260820C] Administrator
-employer: ACE Tiverton Special School
-closing_date: 2026-08-31T23:59:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 1df285a129f76ce523da74c8a8e5a5a8d7c6c48deba3b467a5322cd4b0b56526
-source: Teaching Vacancies
-source_job_id: 260820c-administrator
-source_url: https://teaching-vacancies.service.gov.uk/jobs/260820c-administrator
----
 
 ---
 action: 
@@ -94,21 +79,6 @@ factual_fingerprint: 1d1911698055c7b815976a7bcebfacce22076b5e63e0d1a6aa4fc8fadd9
 source: Teaching Vacancies
 source_job_id: attendance-officer-okehampton-college-okehampton-devon
 source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-okehampton-college-okehampton-devon
----
-
----
-action: 
-SELECTED | Devon | Torquay, South West, TQ1 4RN | £22,889.00 - £24,396.00 Annually (Actual) | Finance & Data Protection Administrator
-employer: St Cuthbert Mayne School
-closing_date: 2026-09-01T09:00:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 211aa822b561a4afacad5d6dbea8d4eba8f57aed8a8bf1c5c716fad1943cb071
-source: Teaching Vacancies
-source_job_id: finance-data-protection-administrator
-source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-data-protection-administrator
 ---
 
 ---
@@ -195,14 +165,13 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-pupil-services
 ## HARD_PASS
 
 - [Attendance Assistant](https://teaching-vacancies.service.gov.uk/jobs/attendance-assistant-exmouth-community-college) — Insufficient admin/service evidence.
+- [Chief Financial Officer (CFO)](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-cfo-torquay-boys-grammar-school-torquay-devon) — Insufficient admin/service evidence.
 - [Cover Supervisor](https://teaching-vacancies.service.gov.uk/jobs/cover-supervisor-9fa63c24-e87e-4376-b59f-95affbf3dff3) — Insufficient admin/service evidence.
 - [Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-learning-academies-trust-plymouth-not-recorded) — Insufficient admin/service evidence.
-- [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-ivy-education-trust) — Insufficient admin/service evidence.
 - [HR Policy and Projects Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-policy-and-projects-officer) — Insufficient admin/service evidence.
 - [Medical Conditions and Student Health Lead](https://teaching-vacancies.service.gov.uk/jobs/medical-conditions-and-student-health-lead) — Insufficient admin/service evidence.
 - [Payroll and HR Systems Officer (Central Team)](https://teaching-vacancies.service.gov.uk/jobs/payroll-and-hr-systems-officer-central-team-plymouth-cast) — Insufficient admin/service evidence.
 - [People Lead (Maternity Cover)](https://teaching-vacancies.service.gov.uk/jobs/people-lead-maternity-cover-bideford-college) — Insufficient admin/service evidence.
-- [Resource Assistant - Humanities and Human Sciences](https://teaching-vacancies.service.gov.uk/jobs/resource-assistant-humanities-and-human-sciences) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

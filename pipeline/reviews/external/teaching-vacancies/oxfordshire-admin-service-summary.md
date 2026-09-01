@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Oxfordshire
 
-review_date: 2026-08-31
-review_fingerprint: c0b86e7b9d8c9578f7c2b00a2b30cc592b136514d116fdf4ed6f36f83bf7b559
-routing_manifest_sha256: ffa8ac4eb0bf3616c1711502490fa7d8374f8e356872cc2c477737141b15a14c
+review_date: 2026-09-01
+review_fingerprint: dba91d6ee4e64b98ca5508dc8258a8076b2fc3eee4669739ffefe0cd81fa9429
+routing_manifest_sha256: 987772ee12e2a9bbbaf1e7aa2170ab8a9c426878de897c9ff36e2be51a6defa2
 ontap_region: Oxfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 16
-- Selected: 8
-- POSS awaiting decision: 0
+- Records: 13
+- Selected: 6
+- POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 8
+- Hard pass: 6
 
 ## SELECTED
 
@@ -82,36 +82,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/inclusion-administrat
 ---
 
 ---
-action: select
-SELECTED | Oxfordshire | Oxford, South East, OX3 9WN | £26,824.00 Annually (FTE) Actual annual salary is £12,016 for 19.5 hours per week term time only plus 3 inset days | Office Administrator
-employer: Barton Park Primary School
-closing_date: 2026-09-04T12:00:00+01:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 6507fa5e4ea1f71f1a1f76eff33fba35fcf567d0ef52f77cff9d377bc363b4da
-source: Teaching Vacancies
-source_job_id: office-administrator-barton-park-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-barton-park-primary-school
----
-
----
-action: 
-SELECTED | Oxfordshire | Oxford, South East, OX3 0PG | £12,219.17 - £13,326.70 Annually (Actual) Grade 6 - Working a Wednesday, Thursday and Friday 8.30-15.30 (with a 30 min break) | Reception & Administrative Assistant
-employer: Meadowbrook College
-closing_date: 2026-09-01T08:00:00+01:00
-reason: Clear admin/service title: administrative assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: a17f33fa54a14a48f4b660265ba9bfbf537f47efe0b2898537e9091ba3e53d0d
-source: Teaching Vacancies
-source_job_id: reception-administrative-assistant-93d935ac-3894-44fe-84cc-ea67bd3c9571
-source_url: https://teaching-vacancies.service.gov.uk/jobs/reception-administrative-assistant-93d935ac-3894-44fe-84cc-ea67bd3c9571
----
-
----
 action: 
 SELECTED | Oxfordshire | Carterton, South East, OX18 3AD | £26,824.00 - £29,064.00 Annually (FTE) Paid pro rata. Actual salary £12157 | School Administrator
 employer: Carterton Primary School
@@ -143,7 +113,20 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/sixth-form-administra
 
 ## POSS — choose SELECT or EXCLUDE
 
-- None.
+---
+action: 
+POSS | Oxfordshire | Oxford, South East, OX3 9WN | £26,824.00 Annually (FTE) Actual annual salary is £12,016 for 19.5 hours per week term time only plus 3 inset days | Office Administrator
+employer: Barton Park Primary School
+closing_date: 2026-09-04T12:00:00+01:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 6507fa5e4ea1f71f1a1f76eff33fba35fcf567d0ef52f77cff9d377bc363b4da
+source: Teaching Vacancies
+source_job_id: office-administrator-barton-park-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-barton-park-primary-school
+---
 
 ## EXCLUDED BY REVIEW
 
@@ -151,12 +134,10 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/sixth-form-administra
 
 ## HARD_PASS
 
-- [Admin and Premises Assistant](https://teaching-vacancies.service.gov.uk/jobs/admin-and-premises-assistant-9d6fefc7-aa4d-4843-a7f1-fb8860efc481) — Insufficient admin/service evidence.
+- [Admissions Manager](https://teaching-vacancies.service.gov.uk/jobs/admissions-manager-lord-williams-s-school) — Manager title salary ceiling £34,434 is not below £28,000.
 - [Chief Financial Officer](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-lord-williams-s-school-thame-oxfordshire) — Insufficient admin/service evidence.
 - [Data and Systems Lead](https://teaching-vacancies.service.gov.uk/jobs/data-and-systems-lead-acer-trust) — Insufficient admin/service evidence.
-- [Finance Manager (30 hrs p/w, term time only + 5 inset days + 4 weeks)](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-30-hrs-p-w-term-time-only-5-inset-days-4-weeks) — Manager title salary ceiling £49,282 is not below £28,000.
 - [HR Partner](https://teaching-vacancies.service.gov.uk/jobs/hr-partner-oxford-diocesan-bucks-schools-trust) — Insufficient admin/service evidence.
-- [Lettings & Community Officer](https://teaching-vacancies.service.gov.uk/jobs/lettings-community-officer-ridgeway-education-trust-didcot-not-recorded) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-st-peter-s-church-of-england-school-alvescot) — Manager title salary ceiling £31,537 is not below £28,000.
 - [Operations Coordinator](https://teaching-vacancies.service.gov.uk/jobs/operations-coordinator-oxford-diocesan-bucks-schools-trust) — Insufficient admin/service evidence.
 

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Greater Manchester - South
 
-review_date: 2026-08-31
-review_fingerprint: bc6ef791662c462aed68bebf60af007c119d576665fb9cb8366e1d43c62cf515
-routing_manifest_sha256: ffa8ac4eb0bf3616c1711502490fa7d8374f8e356872cc2c477737141b15a14c
+review_date: 2026-09-01
+review_fingerprint: 5554f693f2a048cfc7c8528567f5646a98042478a5c43aaa619aa24d42719289
+routing_manifest_sha256: 987772ee12e2a9bbbaf1e7aa2170ab8a9c426878de897c9ff36e2be51a6defa2
 ontap_region: Greater Manchester - South
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 3
-- Selected: 1
+- Records: 4
+- Selected: 2
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 2
@@ -34,6 +34,21 @@ factual_fingerprint: 0f5bd2f1d4f519cb20de50e1c068c99f376b227c1426fc186288cfe892b
 source: Teaching Vacancies
 source_job_id: office-administrator-elmridge-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-elmridge-primary-school
+---
+
+---
+action: 
+SELECTED | Greater Manchester - South | Cheadle, North West, SK8 7JY | £15.07 per hour | Student Attendance Officer
+employer: Cheadle Hulme High School
+closing_date: 2026-09-15T09:00:59+01:00
+reason: Clear admin/service title: attendance officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 4cbe591d217997a3ab2b4c55106004493899105d351d16fa8feb4459f5cffc8c
+source: Teaching Vacancies
+source_job_id: student-attendance-officer-cheadle-hulme-high-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/student-attendance-officer-cheadle-hulme-high-school
 ---
 
 ## POSS — choose SELECT or EXCLUDE

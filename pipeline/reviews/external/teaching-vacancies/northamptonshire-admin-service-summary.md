@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Northamptonshire
 
-review_date: 2026-08-31
+review_date: 2026-09-01
 review_fingerprint: 43e0b994095f66529259178a3cff8d0d3d5d305bc91e97c22ba370358d5666ec
-routing_manifest_sha256: ffa8ac4eb0bf3616c1711502490fa7d8374f8e356872cc2c477737141b15a14c
+routing_manifest_sha256: 987772ee12e2a9bbbaf1e7aa2170ab8a9c426878de897c9ff36e2be51a6defa2
 ontap_region: Northamptonshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 6
+- Records: 5
 - Selected: 2
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 4
+- Hard pass: 3
 
 ## SELECTED
 
@@ -63,7 +63,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-st
 
 - [Exams Office Manager](https://teaching-vacancies.service.gov.uk/jobs/exams-office-manager) — Manager title salary ceiling £33,699 is not below £28,000.
 - [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-bishop-stopford-school) — Manager title salary ceiling £46,142 is not below £28,000.
-- [HR Manager](https://teaching-vacancies.service.gov.uk/jobs/hr-manager-tove-learning-trust) — Manager title without salary evidence below £28,000.
 - [St James Infant and Pre School Business Partner](https://teaching-vacancies.service.gov.uk/jobs/st-james-infant-and-pre-school-business-partner-inmat) — Insufficient admin/service evidence.
 
 ## Safety boundary

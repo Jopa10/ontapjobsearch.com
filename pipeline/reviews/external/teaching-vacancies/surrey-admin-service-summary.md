@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Surrey
 
-review_date: 2026-08-31
+review_date: 2026-09-01
 review_fingerprint: 6e791ac7d9211d2273a6bc7212b1b4ce4750f7807b05470a208f57dc5daadffe
-routing_manifest_sha256: ffa8ac4eb0bf3616c1711502490fa7d8374f8e356872cc2c477737141b15a14c
+routing_manifest_sha256: 987772ee12e2a9bbbaf1e7aa2170ab8a9c426878de897c9ff36e2be51a6defa2
 ontap_region: Surrey
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 5
+- Records: 3
 - Selected: 3
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 2
+- Hard pass: 0
 
 ## SELECTED
 
@@ -76,8 +76,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-admin-assistant-ho
 
 ## HARD_PASS
 
-- [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-the-kite-academy-trust) — Insufficient admin/service evidence.
-- [Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/operations-manager-st-john-s-primary-school) — Manager title salary ceiling £32,867 is not below £28,000.
+- None.
 
 ## Safety boundary
 

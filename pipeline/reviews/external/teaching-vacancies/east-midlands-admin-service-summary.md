@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — East Midlands
 
-review_date: 2026-08-31
+review_date: 2026-09-01
 review_fingerprint: e630b7a0cd9d5e0bb95e0012dd49f8226c42a5489017e0f889319d4c3206c35f
-routing_manifest_sha256: ffa8ac4eb0bf3616c1711502490fa7d8374f8e356872cc2c477737141b15a14c
+routing_manifest_sha256: 987772ee12e2a9bbbaf1e7aa2170ab8a9c426878de897c9ff36e2be51a6defa2
 ontap_region: East Midlands
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 10
+- Records: 9
 - Selected: 6
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 4
+- Hard pass: 3
 
 ## SELECTED
 
@@ -124,7 +124,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-long-fie
 - [Level 1 Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/level-1-personal-care-assistant-village-primary-academy) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-37d931fd-e898-412f-bd8e-d53558f8deba) — Manager title salary ceiling £29,362 is not below £28,000.
 - [Senior Contract & Procurement Manager](https://teaching-vacancies.service.gov.uk/jobs/senior-contract-procurement-manager-embark-multi-academy-trust-derby-not-recorded) — Manager title salary ceiling £54,000 is not below £28,000.
-- [Trust Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/trust-finance-manager-affinity-learning-partnership) — Manager title salary ceiling £44,075 is not below £28,000.
 
 ## Safety boundary
 

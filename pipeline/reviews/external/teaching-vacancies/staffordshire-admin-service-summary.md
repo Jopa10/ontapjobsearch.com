@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Staffordshire
 
-review_date: 2026-08-31
-review_fingerprint: ad1726576b42c96f4bb7256b89a2fdf8484caa177438a8ad3e4e7ede6903232f
-routing_manifest_sha256: ffa8ac4eb0bf3616c1711502490fa7d8374f8e356872cc2c477737141b15a14c
+review_date: 2026-09-01
+review_fingerprint: dd233d4b0e09356cf9f513ac5cdf1c9157040bdf33296bc0a12ea546bda06f4b
+routing_manifest_sha256: 987772ee12e2a9bbbaf1e7aa2170ab8a9c426878de897c9ff36e2be51a6defa2
 ontap_region: Staffordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 8
-- Selected: 4
+- Records: 5
+- Selected: 2
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 4
+- Hard pass: 3
 
 ## SELECTED
-
----
-action: 
-SELECTED | Staffordshire | Stoke-on-Trent, West Midlands, ST2 0QD | £17,861 - £18,725 | Administration Assistant
-employer: Maple Court Academy
-closing_date: 2026-09-01T09:00:00+01:00
-reason: Clear admin/service title: administration assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 2cb410dfa298e2cc638ba20c2c7dd9caa99838ff6d160d87907fc344c1ae9b35
-source: Teaching Vacancies
-source_job_id: administration-assistant-maple-court-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-maple-court-academy
----
 
 ---
 action: 
@@ -66,21 +51,6 @@ source_job_id: finance-administrator-apprentice-manor-hall-academy-trust
 source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-administrator-apprentice-manor-hall-academy-trust
 ---
 
----
-action: 
-SELECTED | Staffordshire | Stafford, West Midlands, ST16 3BT | £25,185.00 Annually (FTE) Grade 4 - Term-time, plus INSETS, plus 4 weeks | School Administrator
-employer: St Patrick's Catholic Primary School
-closing_date: 2026-08-31T23:59:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 8f6a6c5f6dfb438dc52f70b869e52f476709064d395f535e0f7e1414788482f2
-source: Teaching Vacancies
-source_job_id: school-administrator-st-patrick-s-catholic-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-st-patrick-s-catholic-primary-school
----
-
 ## POSS — choose SELECT or EXCLUDE
 
 - None.
@@ -91,7 +61,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 
 ## HARD_PASS
 
-- [Attendance Assistant](https://teaching-vacancies.service.gov.uk/jobs/attendance-assistant-ormiston-sir-stanley-matthews-academy) — Insufficient admin/service evidence.
 - [Management Accountant](https://teaching-vacancies.service.gov.uk/jobs/management-accountant-discovery-academy) — Insufficient admin/service evidence.
 - [Trust Governance Manager](https://teaching-vacancies.service.gov.uk/jobs/trust-governance-manager-community-academies-trust) — Manager title salary ceiling £41,771 is not below £28,000.
 - [Trust Payroll Officer](https://teaching-vacancies.service.gov.uk/jobs/trust-payroll-officer-a8f45de3-8ece-41fc-909e-9dacae971fa0) — Insufficient admin/service evidence.

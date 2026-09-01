@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - North
 
-review_date: 2026-08-31
+review_date: 2026-09-01
 review_fingerprint: b0754cf116fc08fa0050061c07bf14ea9935d6c62feef44679be74398e56f411
-routing_manifest_sha256: ffa8ac4eb0bf3616c1711502490fa7d8374f8e356872cc2c477737141b15a14c
+routing_manifest_sha256: 987772ee12e2a9bbbaf1e7aa2170ab8a9c426878de897c9ff36e2be51a6defa2
 ontap_region: Yorkshire - North
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 10
+- Records: 9
 - Selected: 3
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 7
+- Hard pass: 6
 
 ## SELECTED
 
@@ -76,7 +76,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-
 
 ## HARD_PASS
 
-- [Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-joseph-rowntree-school) — Insufficient admin/service evidence.
 - [Clerk to School Governing Body](https://teaching-vacancies.service.gov.uk/jobs/clerk-to-school-governing-body-ebor-academy-trust) — Insufficient admin/service evidence.
 - [Finance Director](https://teaching-vacancies.service.gov.uk/jobs/finance-director-pathfinder-multi-academy-trust) — Insufficient admin/service evidence.
 - [HR Business Partner](https://teaching-vacancies.service.gov.uk/jobs/hr-business-partner-pathfinder-multi-academy-trust) — Insufficient admin/service evidence.

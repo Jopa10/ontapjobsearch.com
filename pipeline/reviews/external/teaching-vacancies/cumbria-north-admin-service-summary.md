@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cumbria - North
 
-review_date: 2026-08-31
+review_date: 2026-09-01
 review_fingerprint: 4f2a3a555356562f245ce78e47e0e0730c5f5149bd6f442ba4eec39194a7211b
-routing_manifest_sha256: ffa8ac4eb0bf3616c1711502490fa7d8374f8e356872cc2c477737141b15a14c
+routing_manifest_sha256: 987772ee12e2a9bbbaf1e7aa2170ab8a9c426878de897c9ff36e2be51a6defa2
 ontap_region: Cumbria - North
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 2
+- Records: 1
 - Selected: 1
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 1
+- Hard pass: 0
 
 ## SELECTED
 
@@ -46,7 +46,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assist
 
 ## HARD_PASS
 
-- [Clerk to the Board (Central Team Post - Office Based)](https://teaching-vacancies.service.gov.uk/jobs/clerk-to-the-board-central-team-post-office-based) — Insufficient admin/service evidence.
+- None.
 
 ## Safety boundary
 

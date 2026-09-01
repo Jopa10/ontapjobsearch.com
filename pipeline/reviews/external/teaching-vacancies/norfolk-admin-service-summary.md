@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Norfolk
 
-review_date: 2026-08-31
-review_fingerprint: 041d1f9a7be6d597bfbab1a0686ba1d89988d56b4f1c995c1140071751ceb718
-routing_manifest_sha256: ffa8ac4eb0bf3616c1711502490fa7d8374f8e356872cc2c477737141b15a14c
+review_date: 2026-09-01
+review_fingerprint: d4fe78902683fd911c8303274f5d09c121ba13f3034445a61ab10abf85566915
+routing_manifest_sha256: 987772ee12e2a9bbbaf1e7aa2170ab8a9c426878de897c9ff36e2be51a6defa2
 ontap_region: Norfolk
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 13
-- Selected: 7
+- Records: 11
+- Selected: 6
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 6
+- Hard pass: 5
 
 ## SELECTED
 
@@ -83,21 +83,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-di
 
 ---
 action: 
-SELECTED | Norfolk | Norwich, East of England, NR1 2PL | Salary: Support Staff Pay Scale C: £12,894 to £13,096 pro-rata per annum (Actual) (£24,796 - £25,185 full time/full year equivalent) | Receptionist
-employer: Hewett Academy
-closing_date: 2026-09-01T01:00:00+01:00
-reason: Clear admin/service title: receptionist
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 990179e32e820c801ce59601f0ba66b8c7f731640433c519d0f5e8ec668b6aba
-source: Teaching Vacancies
-source_job_id: receptionist-hewett-academy-norwich-norfolk
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-hewett-academy-norwich-norfolk
----
-
----
-action: 
 SELECTED | Norfolk | Norwich, East of England, NR3 3HR | £25,989.00 - £26,403.00 Annually (FTE) £9,022 - £9,165 Actual salary | School Administrator
 employer: Angel Road Infant School
 closing_date: 2026-09-11T23:59:00+01:00
@@ -140,7 +125,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/secretary-fleggburgh-
 - [Administrator](https://teaching-vacancies.service.gov.uk/jobs/administrator-d3689c09-b164-4585-b47e-b87553162134) — Missing salary or pay scale.
 - [Attendance Lead](https://teaching-vacancies.service.gov.uk/jobs/attendance-lead-fred-nicholson-school) — Insufficient admin/service evidence.
 - [Development Officer](https://teaching-vacancies.service.gov.uk/jobs/development-officer-norwich-city-college-of-further-and-higher-education) — Insufficient admin/service evidence.
-- [School Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/school-operations-manager-sheringham-woodfields-school-sheringham-norfolk) — Manager title salary ceiling £36,363 is not below £28,000.
 - [Teaching Assistant (Personal Care)](https://teaching-vacancies.service.gov.uk/jobs/teaching-assistant-personal-care-wayland-academy-thetford-norfolk) — Out-of-scope occupation: teaching assistant.
 
 ## Safety boundary
