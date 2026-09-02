@@ -12,10 +12,12 @@ on:
       - pipeline/reports-daily/jobg8-feed-category-profile.csv
       - app/**/*.json
       - pipeline/scripts/build_daily_region_overview.py
+      - pipeline/scripts/build_jobg8_category_profile.py
       - pipeline/scripts/export_daily_region_overview_xlsx.py
       - pipeline/scripts/assess_daily_family_coverage.py
       - pipeline/scripts/daily_family_coverage_history.py
       - pipeline/tests/test_build_daily_region_overview.py
+      - pipeline/tests/test_build_jobg8_category_profile.py
       - pipeline/tests/test_export_daily_region_overview_xlsx.py
       - .github/workflows/build-daily-region-overview.yml
   workflow_run:
