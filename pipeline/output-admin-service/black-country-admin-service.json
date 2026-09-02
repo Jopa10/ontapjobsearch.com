@@ -100,13 +100,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Records administration",
-      "Quotations",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225476102",
@@ -131,12 +125,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Systems administration",
-      "Quotations",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225519315",
@@ -164,6 +153,31 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "23643_225555693",
+    "title": "Office Administrator",
+    "company": "Focus Resourcing - Agency - Permanent",
+    "location": "Walsall",
+    "region": "West Midlands - Black Country",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "23132",
+    "salary_max": "23132",
+    "salary_text": "£23132 per year",
+    "posted_date": "",
+    "description": "Office Administrator\n\nWe are recruiting for an Office Administrator to join a well-established organisation based in Walsall.\n\nThis is a varied role combining billing administration, file management and general office support, making it ideal for someone who is highly organised, accurate and enjoys working in a busy office environment.\n\nAs the Office Administrator, you will be responsible for:\n- Checking files to ensure time and travel records are accurate\n- Creating and inputting Legal Aid bills using the case management system\n- Managing online billing submissions, including Mental Health billing\n- Archiving files once payment has been received\n- Managing petty cash and files returned from Costs Draftsmen\n- Archiving, retrieving and returning files to storage\n- Providing reception cover, including answering calls and meeting visitors\n- Processing incoming and outgoing post\n- Ordering stationery and office supplies\n- Maintaining accurate administrative records\n- Supporting the Office Manager with general administrative duties\n- Providing occasional support at the Aldridge office\n\nThe successful Office Administrator will have the following related skills / experience:\n- Have strong administration and IT skills\n- Be highly organised with excellent attention to detail\n- Be accurate and confident working with records and data\n- Have a proactive and flexible approach to work\n- Be comfortable working in a busy, varied environment\n- Previous experience within a legal, billing or professional services environment would be advantageous",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?iZmgAWfngDz%2fLDFgofZoFQr%2f0JweH9Gdf",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Focus Resourcing",
+    "advertiser_type": "Agency",
+    "work_pattern": "Full Time",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
     "job_id": "nhs-5557579",
     "source": "NHS Jobs",
     "title": "Receptionist",
@@ -179,6 +193,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9225-26-0625",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9225-26-0625",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

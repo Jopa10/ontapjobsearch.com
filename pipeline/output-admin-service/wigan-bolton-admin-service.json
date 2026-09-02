@@ -22,12 +22,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Records administration",
-      "Pre-employment administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225469389",
@@ -77,14 +72,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Records administration",
-      "Systems administration",
-      "Quotations",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_224997027",
@@ -108,6 +96,31 @@
     "advertiser_name": "Forrest Recruitment",
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
+    "job_id": "1775481",
+    "title": "Third Party Claims Handler",
+    "company": "MPJ Recruitment Ltd - Agency - Permanent",
+    "location": "Bolton",
+    "region": "Greater Manchester - Wigan & Bolton",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "",
+    "posted_date": "",
+    "description": "Third Party Claims Handler\n\nLocation: Bolton\nSalary: From £24,479 - £35,000 DOE\nHours: 35 hours per week, Monday-Friday, 9am-5pm\nJob Type: Full-time, Permanent\n\nAre you an experienced Motor Claims Handler with experience handling Third Party Vehicle Damage, Property Damage or Credit Hire claims?\n\nWe are currently recruiting for a Third Party Claims Handler to join a well-established and reputable insurance business based in Bolton.\n\nDue to continued growth and internal promotions, this is an excellent opportunity for an ambitious claims professional looking to develop their career within a supportive and forward-thinking organisation.\n\nThe Role\n\nAs a Third Party Claims Handler, you will manage a portfolio of Third Party Vehicle Damage and Property Damage claims, ensuring cases are handled efficiently while delivering an excellent level of service to all parties involved.\n\nYour responsibilities will include:\n- Managing a portfolio of Third Party Motor and Property Damage claims.\n- Prioritising your own workload and managing claims efficiently.\n- Investigating claims and establishing liability.\n- Handling more complex cases, including Liability and High Value claims.\n- Liaising with solicitors, insurers, accident management companies and other third parties.\n- Identifying and referring potentially fraudulent activity.\n- Working closely with internal departments throughout the claims process.\n- Delivering a consistently high level of customer service.\n\nAbout You\n\nWe are looking for someone with previous experience within Motor Claims, Third Party Claims or Credit Hire who is looking for their next career opportunity.\n\nYou will ideally have:\n- Previous experience handling Third Party Motor claims and/or Credit Hire claims.\n- Strong customer service and communication skills.\n- Excellent attention to detail.\n- The ability to build effective relationships with customers and third parties.\n- Strong organisational and computer skills.\n- The ability to manage and prioritise a busy workload.\n- A CII qualification, or the willingness to work towards this.\n- GCSE English and Maths at Grade C/4 or above, or equivalent.\n\nCandidates with 2+ years of Motor Claims experience may be considered for the higher end of the salary range.\n\nWhat's in it for you?\n\nAlongside a competitive salary, you will receive an excellent benefits package, including:\n- Increased holiday allowance with length of service.\n- Your birthday off.\n- Half-day off for seasonal shopping.\n- Holiday sell scheme.\n- Contributory pension scheme.\n- Support with industry-relevant qualifications, including CII.\n- Discounted sports and social activities.\n- Free on-site parking.\n- Casual dress code and branded clothing allocation.\n- Cycle to Work scheme.\n- Cash bonuses for going above and beyond.\n- Trained Mental Health and First Aid staff on-site.\n- Flexible working patterns available.\n- Sociable Monday-Friday working hours.\n- And much more!\n\nIf you're an experienced Motor Claims or Third Party Claims Handler looking for a new opportunity with genuine career progression and development, we'd love to hear from you.\n\nApply today with your CV to be considered.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?io0x8AEcaIO23vwCgJKUlfOuPvvwxD%2fco",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "MPJ Recruitment Ltd",
+    "advertiser_type": "Agency",
+    "work_pattern": "Full Time",
     "salary_period": "Annual",
     "posted_date_basis": ""
   },
@@ -152,6 +165,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2782-26-0004",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2782-26-0004",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

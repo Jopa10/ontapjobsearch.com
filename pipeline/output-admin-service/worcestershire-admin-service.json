@@ -122,11 +122,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Part Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Records administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1744156",
@@ -151,11 +147,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Quotations"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1782921",
@@ -180,11 +172,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Records administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_223653837",
@@ -262,25 +250,25 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "107889388",
-    "title": "Support Coordinator",
-    "company": "Home Group Limited - Agency - Permanent",
+    "job_id": "23643_225560318",
+    "title": "Sales Administrator",
+    "company": "Michael Page - Agency - Contract",
     "location": "Worcestershire",
     "region": "Worcestershire",
     "country": "UK",
     "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "28000",
-    "salary_max": "28000",
-    "salary_text": "£28000 per year",
+    "employment_type": "Contract",
+    "salary_min": "26000",
+    "salary_max": "26000",
+    "salary_text": "£26000 per year",
     "posted_date": "",
-    "description": "About the role\nSalary £27,500 per annum plus 34 days leave (rising to 39) and health cash plan worth over £1140\nHome, a place where you belong\nWant to be part of a team that truly cares, not only about our customers, but about you too? Our colleagues tell us that working here feels different. Were brilliant at what we do, and we look after each other just as much as we support our customers click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?vAYWCB8ag%2fhjNLXqYqkwNJYUiCxTvwjmi",
+    "description": "As a Sales Administrator in the industrial and manufacturing sector, you'll play a key role in supporting the customer service department. Based in Redditch, you'll handle a variety of administrative tasks to ensure smooth operations and help maintain excellent customer relationships.\n\nClient Details\n\nThis role is within the industrial and manufacturing sector.\n\nDescription\n- Process and manage customer orders accurately and efficiently.\n- Coordinate with internal teams to ensure timely delivery of products.\n- Maintain accurate records and update customer information in the system.\n- Prepare and send invoices to customers.\n- Handle customer queries and provide prompt, helpful responses.\n- Assist with preparing reports and documentation as required.\n- Support the sales team with administrative tasks and data management.\n- Ensure compliance with company policies and procedures.\n\nProfile\n\nA successful Sales Administrator should have:\n- Strong organisational skills and attention to detail.\n- Experience in an administrative or customer service role, ideally within industrial or manufacturing sectors.\n- Good communication skills, both written and verbal.\n- Proficiency in Microsoft Office, particularly Excel and Word.\n- A proactive and problem-solving approach to tasks.\n- Ability to work collaboratively within a team environment.\n\nJob Offer\n- 26,000 per annum salary.\n- Fixed-term contract with a defined duration.\n- Opportunities to work in the industrial and manufacturing sector.\n- A chance to go perm.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?wTAUM266l6dEWa6aHhDFjrSF8pR5vUaDh",
     "source": "JobG8",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Home Group Limited",
+    "advertiser_name": "Michael Page",
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
@@ -302,7 +290,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9798-2586",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9798-2586",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5553424",
@@ -320,6 +312,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9798-2569",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9798-2569",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

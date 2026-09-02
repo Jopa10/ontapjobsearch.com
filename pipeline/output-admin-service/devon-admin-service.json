@@ -156,11 +156,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Filing and document handling"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225455962",
@@ -210,13 +206,7 @@
     "advertiser_type": "Company",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Telephone handling",
-      "Records administration",
-      "Document preparation"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225461743",
@@ -266,13 +256,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Records administration",
-      "Quotations",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225463000",
@@ -422,12 +406,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Quotations",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225546267",
@@ -452,12 +431,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Email handling",
-      "Scheduling and bookings"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225466401",
@@ -510,31 +484,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "107893592",
-    "title": "Apprentice Service and Sales Coordinator",
-    "company": "AEP Compressed Air Technologies - Agency - Contract",
-    "location": "Devon",
-    "region": "Devon",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Contract",
-    "salary_min": "16000",
-    "salary_max": "16000",
-    "salary_text": "£16000 per year",
-    "posted_date": "",
-    "description": "Ready to kick-start your career in business and administration? At AEP Ltd, we're looking for an organised, enthusiastic, and customer-focused individual to join our Service Department as a Business Administration Apprentice.\n\nThis is a fantastic opportunity to gain hands-on experience in a busy engineering business while studying towards a Business Administration qualification with Exeter College click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?QHpHeWTcrP6D2ThbUXyVP7R0L3CByytEy",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "AEP Compressed Air Technologies",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "107911152",
     "title": "Customer Care Coordinator",
     "company": "Persimmon Homes - Agency - Permanent",
@@ -560,6 +509,31 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "107893592",
+    "title": "Apprentice Service and Sales Coordinator",
+    "company": "AEP Compressed Air Technologies - Agency - Contract",
+    "location": "Devon",
+    "region": "Devon",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Contract",
+    "salary_min": "16000",
+    "salary_max": "16000",
+    "salary_text": "£16000 per year",
+    "posted_date": "",
+    "description": "Ready to kick-start your career in business and administration? At AEP Ltd, we're looking for an organised, enthusiastic, and customer-focused individual to join our Service Department as a Business Administration Apprentice.\n\nThis is a fantastic opportunity to gain hands-on experience in a busy engineering business while studying towards a Business Administration qualification with Exeter College click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?io0x8AEcaINT6q38me26GgpqYuTABLkCo",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "AEP Compressed Air Technologies",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
     "job_id": "nhs-5567539",
     "source": "NHS Jobs",
     "title": "Programme Administrator",
@@ -575,7 +549,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C0023-26-1052",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C0023-26-1052",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5558778",
@@ -593,7 +571,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9369-26-0655",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9369-26-0655",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5559147",
@@ -611,7 +593,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1739-26-0043",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1739-26-0043",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5555310",
@@ -629,7 +615,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C0023-26-1022",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C0023-26-1022",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5552054",
@@ -647,6 +637,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2737-26-0005",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2737-26-0005",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

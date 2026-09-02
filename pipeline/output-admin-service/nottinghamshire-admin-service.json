@@ -103,11 +103,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Filing and document handling",
-      "Reporting"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1767549",
@@ -157,12 +153,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Data entry",
-      "Quotations"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225474179",
@@ -237,11 +228,7 @@
     "advertiser_type": "Company",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Telephone handling"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1783423",
@@ -266,12 +253,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Records administration",
-      "Document preparation"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1782957",
@@ -446,11 +428,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Systems administration",
-      "Quotations"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "107830819",
@@ -500,31 +478,6 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": ""
-  },
-  {
-    "job_id": "107880833",
-    "title": "Personal Development Coordinator",
-    "company": "RNN Group - Agency - Permanent",
-    "location": "Nottinghamshire",
-    "region": "Nottinghamshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "26000",
-    "salary_max": "26000",
-    "salary_text": "£26000 per year",
-    "posted_date": "",
-    "description": "Personal Development Coordinator\n\nHours; Full time (37 hours each week, working 40 weeks each year)\n\nDuration; Permanent\n\nSalary; £26,745 (£24,070.50 pro-rata) a year + benefits\n\nLocation; North Notts College, Worksop\n\nApply by: 01/09/2026\n\nAbout the Role\n\nAre you passionate about empowering young people, building essential life skills, and helping students achieve their full potential?\n\nRNN Group is looking for click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?aIHQjUdXakPVnTiMtZmAaCaemWv95iI2r",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "RNN Group",
-    "advertiser_type": "Agency",
-    "work_pattern": "Full Time",
-    "salary_period": "Annual",
     "posted_date_basis": ""
   },
   {
@@ -593,7 +546,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5931-26-0012",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5931-26-0012",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5543621",
@@ -611,7 +568,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1807-26-0005",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1807-26-0005",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5564627",
@@ -629,7 +590,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0045-26-0081",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0045-26-0081",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5549977",
@@ -647,7 +612,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0567-26-0011",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0567-26-0011",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5536230",
@@ -665,6 +634,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2564-26-0008",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2564-26-0008",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

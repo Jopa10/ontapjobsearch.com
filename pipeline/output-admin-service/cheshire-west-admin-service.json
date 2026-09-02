@@ -50,11 +50,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Telephone handling",
-      "Data entry"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225525247",
@@ -120,7 +116,7 @@
     "salary_text": "£35000 per year",
     "posted_date": "",
     "description": "Do you enjoy creating engaging content, developing communications and supporting projects that make a real impact? We are recruiting for a Marketing Co-ordinator to join a well established, globally operating Manufacturing and Engineering organisation which is part of an international group.\n\nYou will be based at the Helsby headquarters, whilst co-ordinating marketing and communication activity acro click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?G%2b5YiGNoEgp5qvxsmiQm9qXSD94udiIHn",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?UzhMt9n%2bTsRscJTuf7CvuMHHECLa4Xwbm",
     "source": "JobG8",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
@@ -179,13 +175,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Scheduling and bookings",
-      "Records administration",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1785911",
@@ -228,7 +218,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9373-26-0570",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9373-26-0570",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5551085",
@@ -246,6 +240,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0279-26-2160",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0279-26-2160",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

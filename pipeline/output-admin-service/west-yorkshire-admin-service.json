@@ -187,13 +187,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Scheduling and bookings",
-      "Data entry",
-      "Document preparation"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225515250",
@@ -218,12 +212,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Email handling",
-      "Systems administration",
-      "Pre-employment administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225516031",
@@ -273,11 +262,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Document preparation"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225524513",
@@ -302,11 +287,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Reporting",
-      "Quotations"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1785761",
@@ -356,12 +337,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Email handling",
-      "Systems administration",
-      "Pre-employment administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1733703",
@@ -386,12 +362,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Records administration",
-      "Document preparation"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225550655",
@@ -438,6 +409,56 @@
     "working_arrangement_text": "2 days from home",
     "working_arrangement_evidence": "Facilities Administrator Administrator Department: Operations Reporting to: Head of UK Operations Location: Leeds City Centre & Home Working Working Pattern: 3 days in the Leeds office / 2 days working from home Employment Type: Permanent Start Date: ASAP The Role We are looking for an organised and proactive Administrator to join our Operations team.",
     "advertiser_name": "Morgan King",
+    "advertiser_type": "Agency",
+    "work_pattern": "Full Time",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
+    "job_id": "23643_225554903",
+    "title": "Car Showroom Receptionist",
+    "company": "Huntress - Leeds - Agency - Temporary",
+    "location": "Leeds",
+    "region": "Yorkshire - West",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Temporary",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "",
+    "posted_date": "",
+    "description": "ASAP start!\n\nAre you confident, polished and naturally welcoming? Do you take pride in creating an exceptional first impression?\nWe are looking for a Receptionist / Showroom Host to join a prestigious automotive showroom, where customer experience is at the heart of everything they do.\nThis is a fantastic opportunity for someone who enjoys working in a professional, high-end environment and has the personality to make every customer feel genuinely valued from the moment they walk through the door.\nThe Role\nAs the first point of contact for customers visiting the showroom, you will play an important role in delivering a warm, professional and seamless experience.\nYour responsibilities will include:\n- Welcoming customers and visitors into the showroom with a friendly and professional approach\n- Offering refreshments and ensuring customers are comfortable while they wait\n- Understanding the reason for each customer's visit and directing them to the appropriate member of the team\n- Answering and transferring incoming telephone calls professionally\n- Managing the reception area and ensuring the showroom always presents an exceptional first impression\n- Booking appointments and supporting the wider showroom team with administrative duties\n- Maintaining excellent standards of customer service at all times\n- Assisting with events, customer visits and showroom activities when required\n- Handling customer enquiries professionally and efficiently\n\nAbout You\nWe are looking for someone who is immaculately presented, personable and confident, with a genuine passion for providing outstanding customer service.\nYou will ideally have experience in a reception, hospitality, customer service, luxury retail or automotive environment, although personality and attitude are just as important as previous experience.\nYou will need to be:\n- Warm, friendly and naturally engaging\n- Professional and well presented\n- Confident communicating with customers at all levels\n- Organised with excellent attention to detail\n- Comfortable working in a fast-paced, customer-facing environment\n- Able to remain calm and professional under pressure\n- A team player with a positive and flexible attitude\n\nPlease call the office on (phone number removed) or email your CV to (url removed)\n\nHuntress Search Ltd acts as a Recruitment Agency in relation to all Permanent roles and as a Recruitment Business in relation to all Temporary roles.\n\nWe practice a diverse and inclusive recruitment process that ensures equal opportunity for all we work with, irrespective of race, sexual orientation, mental or physical disability, age or gender. As an organisation, we encourage applications from all backgrounds and will ensure measures are met when required, to allow a fair process throughout.\n\nPLEASE NOTE: We can only consider applications from candidates who have the right to work in the UK.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?kjuUUj3TFp4eV96fZ1UQEdQnUhzuiP%2fkg",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Huntress - Leeds",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
+    "job_id": "23643_225557189",
+    "title": "Debt Customer Service Advisor",
+    "company": "Michael Page - Agency - Permanent",
+    "location": "Leeds",
+    "region": "Yorkshire - West",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "29000",
+    "salary_max": "30000",
+    "salary_text": "£29000 - £30000 per year",
+    "posted_date": "",
+    "description": "Michael Page have registered a new exciting Permanent Debt Customer Service Advisor Position to work for a reputable organisation within the Energy Sector!\n\nThis would be an exceptional opportunity for someone experienced with customer services looking for that next in their career and to join a vibrant team which offer excellent progression and development routes!\n\nIf you are driven and passionate about customer services please apply now!\n\nClient Details\n\nMichael Page have registered a new exciting Permanent Debt Customer Service Advisor Position to work for a reputable organisation within the Energy Sector!\n\nThis would be an exceptional opportunity for someone experienced with customer services looking for that next in their career and to join a vibrant team which offer excellent progression and development routes!\n\nIf you are driven and passionate about customer services please apply now!\n\nDescription\n\nAs a Debt Customer Service Advisor you will be having consultative conversations with businesses to enable to help and support with any arrears they have in place.\n\nYou will be taking payments and setting up suitable payment plans providing excellent support and guidance and ensure recovery targets and service level agreements are met.\n\nThe role will be corresponding with customers mainly over the telephone there will be emails too alongside administrative duties and as the role progresses will be involved with other responsibilities within the team.\n\nThe position will also be supporting the off shore team with any customer service queries making sure they are resolved as soon as possible for the client.\n\nProfile\n\nPrevious customer service/contact centre experience\n\nExcellent communication skills and a confident telephone manner\n\nAble to work in a busy volume environment\n\nThe ability to prioritise your workload and excellent organisation\n\nThrive working in a team and also independently\n\nResilience and an excellent problem solver\n\nDriven and passionate about customer experience and delivering the best service\n\nJob Offer\n\nSalary of 29000 rising to 31000 after three months with the business+ annual bonus+ growing team exciting time to join the team+ full training provided+ excellent progression and development+ central location in Leeds+ free parking+ fantastic benefits+ 9am-5pm Monday to Friday+ superb offices+ excellent team and culture+ immediate interview",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?b0ZSEQFKUCJ%2bxJd9%2fW0xg6tfZU2W7d0Cl",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Michael Page",
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
@@ -566,12 +587,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Part Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Telephone handling",
-      "Email handling",
-      "Records administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225499042",
@@ -696,13 +712,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Records administration",
-      "Systems administration",
-      "Quotations"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225465858",
@@ -827,13 +837,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Reporting",
-      "Quotations",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1704534",
@@ -883,13 +887,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Customer enquiries",
-      "Records administration",
-      "Systems administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225476845",
@@ -939,12 +937,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Records administration",
-      "Systems administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1770678",
@@ -1022,31 +1015,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "107921054",
-    "title": "E Commerce Administrator",
-    "company": "Rec 2 Rec Search - Agency - Permanent",
-    "location": "Cleckheaton",
-    "region": "Yorkshire - West",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "28000",
-    "salary_max": "28000",
-    "salary_text": "£28000 per year",
-    "posted_date": "",
-    "description": "E-Commerce Assistant Fashion\n\n£28,000 per annum, rising to £30,000 following successful completion of training\n\nMondayFriday, 9am 5pm\n\nCleckheaton\n\nFancy a role where no two days look the same?\n\nThis is a family-run, online fashion retail business, looking for a bright, organised and commercially minded E-Commerce Assistant to join our team click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?vAYWCB8ag%2fgix2L8efcgnr83Qmkp5fyxi",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Rec 2 Rec Search",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "23643_225548918",
     "title": "Finance Assistant - Property",
     "company": "Card Factory - Agency - Permanent",
@@ -1112,7 +1080,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3394-26-0006",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3394-26-0006",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5551474",
@@ -1130,7 +1102,33 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1533-26-0007",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1533-26-0007",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
+  },
+  {
+    "job_id": "nhs-5573894",
+    "source": "NHS Jobs",
+    "title": "Patient Administrator",
+    "company": "Hillfoot Surgery",
+    "advertiser_name": "Hillfoot Surgery",
+    "location": "Pudsey, LS28 7QR",
+    "region": "Yorkshire - West",
+    "salary": "£12.71",
+    "employment_type": "Permanent",
+    "posted_date": "2026-09-02T10:54:32.473579429",
+    "closing_date": "2026-09-18",
+    "description": "We are looking for an organised, efficient and friendly patient administrator for this newly designed post. The postholder will be responsible for clearing the task list in SystmOne, ringing and booking patients in for reviews and tests, and responding to queries. They will work alongside the care navigation team and clinical teams to help deliver an excellent standard of care for our patients. The post is 24-28 hours per week, with days and hours to suit the successful candidate. A GP practice is a fast-paced, teamworking environment, requiring the ability to work under pressure and to absorb regular changes. Excellent attention to detail and high levels of accuracy are required to ensure an excellent and safe service for our patients. Candidates who recently applied for the temporary admin/secretarial post are welcome to apply for this post. Responsible for clearing the admin team task list throughout the week, which will include: Contacting patients to arrange their healthcare reviews, blood tests, etc. either by phone, Anima (eConsultation/SMS system), email or letter. Dealing with patients in a caring, respectful and polite manner. Ensuring patients are kept up to date with the progress of any routine issue they may have raised, e.g. an update on their care pathway, prescription query, etc. Arranging home blood pressure monitoring. Ensuring patient information is passed onto the correct staff member in a timely manner and recorded clearly on the patient record. Liaising with clinical colleagues and managerial staff to ensure the most efficient use of the appointment system. The Patient Administrator is primarily responsible for clearing the admin task list in SystmOne Workflow and booking patients in for their reviews and/or tests in an organised and efficient manner. This post involves a lot of patient contact and so the postholder will be friendly, polite, caring and professional. Primary responsibilities: Clearing the admin teams task list in SystmOne workflow. Contacting patients to organise healthcare reviews and tests, in a kind and courteous manner. Putting patients at ease and providing clear, concise information. Making clear and concise notes of patient interactions and ensuring these are documented accurately in the SystmOne clinical software tool. Dealing appropriately with instructions and queries from clinicians and outside agencies. Maintaining strict confidentiality in relation to all issues concerned within requirements of the Data Protection Act 1984, Information Governance and Caldicott Principles. Remaining up to date with all statutory and mandatory training. Additional (as appropriate) Dealing with patient requests received via the online consult system. Responding to email requests received, as appropriate. Supporting the pharmacy team with patient prescription requests.",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2887-26-0004",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2887-26-0004",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5565093",
@@ -1138,17 +1136,21 @@
     "title": "Medical Receptionist / Care Navigator",
     "company": "Clarendon Medical Centre",
     "advertiser_name": "Clarendon Medical Centre",
-    "location": "Bradford, BD8 7SY",
+    "location": "Bradford, BD1 3DN",
     "region": "Yorkshire - West",
     "salary": "£13.20",
     "employment_type": "Permanent",
-    "posted_date": "2026-08-27T09:47:48.338183647",
-    "closing_date": "2026-09-13",
+    "posted_date": "2026-08-27T09:47:48.338184",
+    "closing_date": "2026-09-19",
     "description": "Job Description This position is perfect for individuals who enjoy helping others, have a passion for health and wellness, and are looking for a team-based work environment. The Care Navigator will work with our clients to ensure that they receive the highest quality of care during their treatment, as well as provide them with all the resources and information they need, including scheduling appointments and helping to control the cost of their care. To have a thorough knowledge of all Practice procedures. To work in accordance of written protocols. Ensure an effective and efficient reception service is provided to patients and any other visitors to the Practice Deal with all general enquiries, explain procedures and make new and follow-up appointments. Using your own judgment and communication skills ensure that patients with no prior appointment but who need urgent consultation are seen in a logical and non-disruptive manner. Explain Practice arrangements and formal requirements to new patients and those seeking temporary cover and ensure procedures are completed. Receive and make telephone calls as required. Divert calls and take messages, ensuring accuracy of detail and prompt appropriate delivery. Enter requests for home visits onto clinical system, ensuring careful recording of all relevant details and where necessary refer to Duty Doctor. Action repeat prescription requests and ensure that they are ready for collection by the patient within 48 hours, either on the computer or manually. Advise patients of relevant charges for private (non General Medical Services) services, accept payment and issue receipts for same. Enter patient information on to the computer as required, i.e. change of addresses, names, telephone numbers and any ad-hoc information as appropriate. Ensure the waiting room is kept tidy in turn with other staff members. Premises Ensure building security have thorough knowledge of doors/windows/alarm. Open up premises at the start of the day when first to arrive, and make all necessary preparations to receive patients. When last to leave at the end of the day, ensure that the building is totally secured, and rooms are tidied and ready for the next day. Ensure that all new patients are registered onto the computer system promptly and accurately, including Temporary Residents. Contact patients for routine screening as appropriate. Do necessary administration of Pathology Data. Arranging transport for patients when necessary. Opening, stamping with date and action stamp all incoming post. Scan hospital letters and patient correspondence in accordance with Practice guidelines. Advising Office Manager when stationary or other equipment is required. Sending faxes to outside organisations when required. Filing clinical letters into relevant concertina files. Action tasks within a timely manner. Restock the reception area. Complete all annual Mandatory training as appropriate Have working knowledge of telephone system, during and after hours Undertake any other additional duties appropriate to the post as requested by the Partners or the Practice Manager. This post requires clear DBS, really good previous references and clean employment track record.",
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2598-26-0009",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2598-26-0009",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5565812",
@@ -1166,7 +1168,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9372-26-0450",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9372-26-0450",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5561629",
@@ -1184,7 +1190,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/W0033-26-1144",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/W0033-26-1144",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5559076",
@@ -1202,7 +1212,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0911-26-0001",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0911-26-0001",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5561913",
@@ -1220,7 +1234,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B0471-26-0046",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B0471-26-0046",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5561893",
@@ -1238,7 +1256,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9372-26-0447",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9372-26-0447",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5550046",
@@ -1256,24 +1278,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5995-26-0008",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5995-26-0008",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
-  },
-  {
-    "job_id": "nhs-5549469",
-    "source": "NHS Jobs",
-    "title": "Medical Centre Receptionist / Care Navigator",
-    "company": "Arthington Medical Centre",
-    "advertiser_name": "Arthington Medical Centre",
-    "location": "Leeds, LS10 2JJ",
-    "region": "Yorkshire - West",
-    "salary": "Negotiable",
-    "employment_type": "Permanent",
-    "posted_date": "2026-08-19T14:30:47.560231607",
-    "closing_date": "2026-09-06",
-    "description": "We are looking for a friendly, helpful and efficient individual(s) required for a busy GP surgery in Hunslet, Leeds. Hours are 30 - 37.5 per week over 4-5 days but must be flexible to swap shifts for holiday & any; sickness cover. We may consider two part timers depending on experience and flexibility. The post is varied and duties include: Complex patient enquiries, Pleasantly greeting patients, Sending referrals via online system, scanning patient documents, booking appointments, answering patient calls in a busy environment, processing prescriptions, working as part of a team and independently. Full training is given, but a friendly manner, accuracy and an attention to detail are all essential qualities for the post. The reception-admin team work in an open plan space, so an ability to concentrate on the task at hand, while remaining flexible to demands that arise is also needed. DUTIES AND RESPONSIBILITIES: Ensure that patients without appointments but who need an \"urgent consultation\" are seen in a logical and non-disruptive manner. Keeping up to date with all procedures and policies. Respond to all queries and requests for assistance from patients and other visitors, including medical reps. Ensure that request for repeat prescriptions are actioned, where possible, the same day, but certainly within 48 hours. Action requests for ambulance and/or hospital transportation and enter details in patient computer record. When necessary, liaise with hospitals and other agencies, as directed by doctor. Ensure reception and waiting areas are kept neat and tidy. Advise potentially new patients regarding registration. Inform patients of test results, as per practice policy. Book appointments, checking date of birth and address, ensuring that the correct patient is booked in and their computer details are correct and up to date. Prompt patients to amend registration details, as appropriate. We are seeking for a Medical Receptionist and Administrator to join our caring, friendly and busy practice at Arthington Medical Centre. The role of the medical receptionist and administrator will include responding to telephone queries, booking appointments, receiving patients at the reception desk and a host of administrative duties, for example scanning and processing documents, processing prescriptions, summarising patient records and registering patients amongst other duties. The applicant must have primary care experience however, comprehensive in-house training will be given along with a willingness to learn.",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4011-26-0002",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4011-26-0002",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

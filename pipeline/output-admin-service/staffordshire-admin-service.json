@@ -128,12 +128,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Records administration",
-      "Data entry"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225464304",
@@ -158,11 +153,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Systems administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225480317",
@@ -237,12 +228,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Email handling",
-      "Records administration",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "107840501",
@@ -342,11 +328,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer portals",
-      "Reporting"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225537967",
@@ -396,11 +378,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Quotations"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225471384",
@@ -478,6 +456,28 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "nhs-5573956",
+    "source": "NHS Jobs",
+    "title": "Administration Assistant",
+    "company": "Langton Medical Group",
+    "advertiser_name": "Langton Medical Group",
+    "location": "Lichfield, WS13 7FA, Lichfield, WS14 9LR, Burntwood, WS7 2EY",
+    "region": "Staffordshire",
+    "salary": "£12.71",
+    "employment_type": "Permanent",
+    "posted_date": "2026-09-02T10:23:02.965740717",
+    "closing_date": "2026-09-18",
+    "description": "We are seeking a proactive and detail-oriented Administration Assistant to join our busy General Practice team. The successful candidate will play a vital role in supporting the clinical and administrative functions of the practice, ensuring smooth day-to-day operations and contributing to high-quality patient care. Provide general administrative support to the practice including answering emails, data inputting, managing patient registrations and handling correspondence. Please see the job description for further information about the role. Please Note: We reserve the right to close this vacancy earlier than the advertised closing date if we receive a high volume of suitable applications. We therefore encourage interested candidates to apply as soon as possible. - Assist with scanning, filing, and maintaining electronic and paper records. - Process patient referrals via the electronic referral system. - Provide basic IT support to practice staff and raise IT support requests. - Contribute and take minutes of staff meetings. - Support the wider admin team during busy periods or staff absence. - Uphold patient confidentiality and data protection at all times.",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1331-26-0007",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1331-26-0007",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
+  },
+  {
     "job_id": "nhs-5563411",
     "source": "NHS Jobs",
     "title": "Receptionist",
@@ -493,7 +493,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/L0034-26-3555",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/L0034-26-3555",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5549028",
@@ -511,7 +515,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9301-26-1192",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9301-26-1192",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5572988",
@@ -529,24 +537,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0536-26-0002",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0536-26-0002",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
-  },
-  {
-    "job_id": "nhs-5549468",
-    "source": "NHS Jobs",
-    "title": "Practice Administrator",
-    "company": "Balance Street Practice",
-    "advertiser_name": "Balance Street Practice",
-    "location": "Uttoxeter, ST14 8JG",
-    "region": "Staffordshire",
-    "salary": "Negotiable",
-    "employment_type": "Permanent",
-    "posted_date": "2026-08-19T14:57:42.033955679",
-    "closing_date": "2026-09-04",
-    "description": "To act as a focal point of communication between the GPs, practice manager and other members of the Balance Street Practice.To ensure administrative and clerical duties within the practice are carried out within the practices guidelines and policies. To support registrations administrator with the processing of all aspects of registration process. To ensure the day-to-day activities of the practice are carried out accordingly. Opening post and scanning documents when required. Processing EDT and scanned documents to patient records using AI software and ensuring each document is sent on correct task pathway. Supervision and management of admin team Accurx inbox and actions required and liaising with clinical staff and secretaries. Supervision and management of practice emails and actions required and liaising with clinical staff and secretaries Processing EMIS documents Sending texts and letters to patients that have DNAd hospital appointments- focusing on vulnerable adults and children to raise any potential safeguarding concerns. Returning letters that patients aren't registered at the PracticeProcessing notifications of death and liaising with GPs to ensure they are dealt with efficiently and sensitively. Recording Patient respect forms. Supporting registrations administrator by booking in received patient notes and checking newly registered patients records for digitised notes. Assisting with processing of all aspects of registrations. GP2GP degraded events Issue and receipt of standard communications and records between the practice and the Health Authority and other outside agencies. Opening post and scanning documents when required. Processing EDT and scanned documents to patient records using AI software and ensuring each document is sent on correct task pathway. Supervision and management of admin team Accurx inbox and actions required and liaising with clinical staff and secretaries. Supervision and management of practice emails and actions required and liaising with clinical staff and secretaries. Processing EMIS documentsSending texts and letters to patients that have DNAd hospital appointments- focusing on vulnerable adults and children to raise any potential safeguarding concerns. Returning letters that patients aren't registered at the Practice Processing notifications of death and liaising with GPs to ensure they are dealt with efficiently and sensitively. Recording Patient respect forms. Supporting registrations administrator by booking in received patient notes and checking newly registered patients records for digitised notes. Assisting with processing of all aspects of registrations. GP2GP degraded events",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0605-26-0001",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0605-26-0001",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]
