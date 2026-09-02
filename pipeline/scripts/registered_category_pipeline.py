@@ -25,6 +25,8 @@ from typing import Any
 import pandas as pd
 
 from . import service_admin_pipeline as admin
+from .customer_sales_pipeline import campaign_key
+from .customer_sales_production_refine import load_location_lookup, location_conflict
 from .pipeline_refinement import assess_salary, load_refinement_rules, load_salary_thresholds, resolve_feed_date
 from .slice_catalog import category_meta, output_filename
 from .slice_registry import live_slices
@@ -160,6 +162,7 @@ def run_live_registered_categories() -> int:
     active_categories = sorted({category for _, category in active})
     titles = {category: load_titles(category) for category in active_categories}
     area_map, fallback = load_geo()
+    location_lookup = load_location_lookup()
     feed_path = find_current_feed()
     feed = read_feed(feed_path)
     columns = set(feed.columns)
@@ -179,6 +182,7 @@ def run_live_registered_categories() -> int:
 
     outputs: dict[tuple[str, str], list[dict[str, Any]]] = {pair: [] for pair in active}
     seen: dict[tuple[str, str], set[str]] = defaultdict(set)
+    seen_campaigns: dict[tuple[str, str], set[str]] = defaultdict(set)
     decisions: list[dict[str, Any]] = []
 
     for _, row in feed.iterrows():
@@ -222,6 +226,39 @@ def run_live_registered_categories() -> int:
             for region in sorted(regions):
                 pair = (region, category)
                 if pair not in active or job_id in seen[pair]:
+                    continue
+
+                conflict = location_conflict(title, raw_description, region, location_lookup)
+                if conflict:
+                    decisions.append(
+                        {
+                            "decision": "DROPPED",
+                            "region": region,
+                            "category": category,
+                            "title": title,
+                            "job_id": job_id,
+                            "classification": classification,
+                            "salary_text": salary_text,
+                            "reason": conflict,
+                        }
+                    )
+                    continue
+
+                employer = norm(row.get(admin.COL["advertiser_name"]))
+                campaign = campaign_key(region, employer, raw_description, title)
+                if campaign in seen_campaigns[pair]:
+                    decisions.append(
+                        {
+                            "decision": "DROPPED",
+                            "region": region,
+                            "category": category,
+                            "title": title,
+                            "job_id": job_id,
+                            "classification": classification,
+                            "salary_text": salary_text,
+                            "reason": "duplicate employer campaign advert",
+                        }
+                    )
                     continue
 
                 salary = assess_salary(
@@ -287,6 +324,7 @@ def run_live_registered_categories() -> int:
                 )
                 outputs[pair].append(item)
                 seen[pair].add(job_id)
+                seen_campaigns[pair].add(campaign)
                 decisions.append(
                     {
                         "decision": "SELECTED",
