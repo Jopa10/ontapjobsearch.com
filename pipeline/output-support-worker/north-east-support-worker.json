@@ -19,11 +19,28 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Daily living support",
-      "Support plans",
-      "Safeguarding"
-    ]
+    "posted_date_basis": ""
+  },
+  {
+    "job_id": "107921425",
+    "title": "Part-Time Support Worker (24 hours per week)",
+    "company": "Orbis Support - Agency - Permanent",
+    "location": "Hexham",
+    "region": "North East",
+    "country": "UK",
+    "category": "Support Worker – Wide",
+    "employment_type": "Permanent",
+    "salary_min": "14.22",
+    "salary_max": "14.22",
+    "salary_text": "£14.22 per hour (& £101.68 for sleep-ins, average annual salary of £20)",
+    "posted_date": "",
+    "description": "We are an employee-owned supported living organisation who specialise in providing bespoke packages of support to people with learning disabilities and complex needs who wish to live in the community in their own home. We are looking for Support Workers to work in Hexham in the North-East, UK.\n\nWe support adults & young people with learning disabilities, Autism, physical disabilities, support with click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?aIHQjUdXakOeFjYyKYGH9PgvSzWS6c%2bBr",
+    "source": "JobG8",
+    "advertiser_name": "Orbis Support",
+    "advertiser_type": "Agency",
+    "work_pattern": "Part Time",
+    "salary_period": "Hourly",
+    "posted_date_basis": ""
   }
 ]

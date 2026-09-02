@@ -1,33 +1,5 @@
 [
   {
-    "job_id": "teaching-vacancies-administration-assistant-the-beacon-church-of-england-primary-school",
-    "title": "Administration Assistant",
-    "company": "The Beacon Church of England Primary School",
-    "location": "Liverpool",
-    "region": "Merseyside - Liverpool",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['full time', 'part time']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "£25,583.00 Annually (FTE)",
-    "work_pattern": "",
-    "posted_date": "2026-08-04",
-    "closing_date": "2026-09-01",
-    "closing_datetime": "2026-09-01T23:59:00+01:00",
-    "summary": "Administration Assistant with The Beacon Church of England Primary School in Liverpool. ['full time', 'part time']; £25,583.00 Annually (FTE).",
-    "description": "The Beacon Church of England Primary School is recruiting for this vacancy in Liverpool.\n\nThe advertised position is Administration Assistant.\n\nThe source lists the employment type as ['full time', 'part time'].\n\nThe advertised salary or pay scale is £25,583.00 Annually (FTE).\n\nThe stated application deadline is 2026-09-01T23:59:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-the-beacon-church-of-england-primary-school?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "The Beacon Church of England Primary School",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
-  },
-  {
     "job_id": "teaching-vacancies-receptionist-king-s-leadership-academy-wavertree-liverpool",
     "title": "Receptionist",
     "company": "King's Leadership Academy Wavertree",
@@ -78,11 +50,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Systems administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1770074",
@@ -107,11 +75,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Reporting"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225469002",
@@ -161,12 +125,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Part Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Telephone handling",
-      "Document preparation"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "107729667",
@@ -341,11 +300,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Records administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "nhs-5565709",

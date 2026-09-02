@@ -1,33 +1,5 @@
 [
   {
-    "job_id": "teaching-vacancies-administrative-assistant-8cc06080-4f90-4fa2-9942-346474e89b5e",
-    "title": "Administrative Assistant",
-    "company": "Christ The King Voluntary Academy",
-    "location": "Nottingham",
-    "region": "Nottinghamshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['part time']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "£24,796.00 - £25,583.00 Annually (FTE) Salary will be paid pro rate based on term time weeks and hours worked",
-    "work_pattern": "",
-    "posted_date": "2026-07-21",
-    "closing_date": "2026-09-01",
-    "closing_datetime": "2026-09-01T23:59:00+01:00",
-    "summary": "Administrative Assistant with Christ The King Voluntary Academy in Nottingham. ['part time']; £24,796.00 - £25,583.00 Annually (FTE) Salary will be paid pro rate based on term time weeks and hours worked.",
-    "description": "Christ The King Voluntary Academy is recruiting for this vacancy in Nottingham.\n\nThe advertised position is Administrative Assistant.\n\nThe source lists the employment type as ['part time'].\n\nThe advertised salary or pay scale is £24,796.00 - £25,583.00 Annually (FTE) Salary will be paid pro rate based on term time weeks and hours worked.\n\nThe stated application deadline is 2026-09-01T23:59:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-8cc06080-4f90-4fa2-9942-346474e89b5e?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Christ The King Voluntary Academy",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
-  },
-  {
     "job_id": "teaching-vacancies-administrative-assistant-sixth-form-and-work-related-learning",
     "title": "Administrative Assistant - Sixth Form and Work-Related Learning",
     "company": "Christ The King Voluntary Academy",
@@ -131,11 +103,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Filing and document handling",
-      "Reporting"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1767549",
@@ -185,12 +153,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Data entry",
-      "Quotations"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225474179",
@@ -265,41 +228,7 @@
     "advertiser_type": "Company",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Telephone handling"
-    ]
-  },
-  {
-    "job_id": "23643_225511181",
-    "title": "Admin Advertiser",
-    "company": "Simple Recruitment Services Ltd - Agency - Permanent",
-    "location": "Nottinghamshire",
-    "region": "Nottinghamshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "12.71",
-    "salary_max": "12.71",
-    "salary_text": "£12.71 per hour",
-    "posted_date": "",
-    "description": "We are seeking a highly organised and detail-oriented Admin Advertiser to provide administrative support for advertising and commercial activities. The role involves creating and managing advertisements, maintaining accurate records, communicating with customers and supporting the wider team with day-to-day administrative tasks.\n\nWorking hours are 9am - 4pm\n\n£12.71 per hour increasing after 3 months\n\nKey Responsibilities\n- Create, update and publish advertisements across relevant platforms.\n- Ensure adverts contain accurate information, pricing, images and contact details.\n- Manage advertising schedules and ensure adverts are published on time.\n- Maintain accurate databases, customer records and advertising documentation.\n- Respond to enquiries from customers and prospective clients.\n- Liaise with clients to obtain advertising information, artwork and approvals.\n- Make amendments to advertisements as requested.\n- Monitor advertisements and ensure they remain accurate and up to date.\n- Prepare invoices, quotations, reports and other administrative documents.\n- Track advertising bookings, payments and renewals.\n- Support the sales and commercial teams with general administration.\n- Organise files, emails and digital records.\n- Use spreadsheets and internal systems to maintain accurate information.\n- Provide general office and administrative support as required.\n- Ensure company procedures and advertising guidelines are followed.\n\nSkills & Experience\n- Previous administration, advertising, sales or customer service experience is desirable.\n- Excellent organisational and time-management skills.\n- Strong attention to detail and accuracy.\n- Good written and verbal communication skills.\n- Confident using Microsoft Office, particularly Word and Excel.\n- Ability to manage multiple tasks and meet deadlines.\n- Good customer service skills.\n- Ability to work independently and as part of a team.\n- A proactive and professional approach to work.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?wTAUM266l6cqVazNxZWpPPofPPSWV%2fMqh",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Simple Recruitment Services Ltd",
-    "advertiser_type": "Agency",
-    "work_pattern": "Full Time",
-    "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Records administration",
-      "Quotations"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1783423",
@@ -324,12 +253,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Records administration",
-      "Document preparation"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1782957",
@@ -457,6 +381,31 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "23643_225551173",
+    "title": "Apprentice Administrator",
+    "company": "Fosterplus - Agency - Permanent",
+    "location": "Nottinghamshire",
+    "region": "Nottinghamshire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "",
+    "posted_date": "",
+    "description": "Fosterplus - Apprentice Administrator\nSalary: 14,600.04 per annum\nContract Term: Apprenticeship\nLocation: Long Eaton, Nottingham\nHours: 35 hours per week\n\nCourse Information\nBusiness Administration Level 3. You will be allocated the time required during the working week to attend learning that supports your apprenticeship course, which is likely to be one day per week, either in college or online with a training provider.\n\nBenefits\n- 30 days' annual leave, increasing to 35 days with length of service\n- Bank holidays\n- Company Pension\n- Life Assurance\n- Employee Discount Scheme\n- Bike to Work Scheme\n\nAbout Us\n\nWe are delighted to be seeking a Business Administration Apprentice to join our team at Fosterplus.\n\nFosterplus was founded in 1996, giving us almost 30 years' continuous experience as an independent fostering agency. Continuity is important to us, and we look to create it in everything we do - most critically, for the children and young people we look after.\n\nMany who enter our care have experienced a disrupted childhood and our aim is to break this cycle and provide more stability. We do this by carefully matching the right foster parents to the right children, and making sure we're always on hand with support, guidance and help.\n\nOur expertise helps ensure more successful placements - and that's exactly the sort of continuity we want. This commitment is spelled out in our mission, which is to \"provide positive and stable family environments for the children and young people placed with our foster parents and ensure that, with the support of our foster parents, they can thrive emotionally and academically.\"\n\nTo provide this continuity, we focus on connections.\n\nWe are looking for an Apprentice who will work within the Fostering Regulations and National Minimum Standards, maintaining databases and electronic filing systems, managing fostering paperwork and forms, as well as general ad-hoc administration.\n\nIt is essential that applicants have excellent written and verbal communication skills, excellent interpersonal skills, and a warm, confident personality.\n\nRole Responsibilities\n\nRole responsibilities include, but are not limited to:\n- Provide a comprehensive day-to-day administrative service for the office team, including:\n- Maintaining databases\n- Producing professionally written emails and letters\n- Processing incoming and outgoing post\n- Photocopying\n- Message taking and signposting\n- Processing invoices\n- Support the social work team with data collection, recording, filing and auditing\n- Maintain accurate databases/registers of all families and children placed\n- Provide information from these databases to the Registered Manager as required\n- Be responsible for the smooth running of the office premises under the direction of the Manager\n- Build up and maintain a supportive relationship with foster parents, as the post holder will be one of the first points of contact within the office\n- Liaise with Local Authority Social Workers and other professionals\n- Distribute and collate paperwork and feedback forms\n- Review payment runs to ensure foster families are receiving the correct payments\n- Carry out statutory checks for approved foster families and their support network\n- Maintain office Health and Safety records\n- Monitor foster parent and staff training records, ensuring compliance\n- Receive visitors\n- Order stationery, receive orders and be responsible for the maintenance of office equipment\n- Take minutes of monthly team meetings and distribute to relevant personnel\n- Attend regular team meetings\n- Create content for the online information platform and the Registration's Newsletter\n- Make constructive use of supervision and work closely with team members to enhance personal and team development\n- Represent and promote Fosterplus at every opportunity\n\nThe Ideal Candidate\n\nThe ideal candidate must have the following skills and experience:\n- Basic administration skills\n- GCSE/equivalent in maths and English. A Level 2 Functional Skills qualification can be completed alongside your qualification if not already obtained and if desired\n- Ability to manage own workload and work independently\n- Excellent customer service skills\n- An understanding of the use of IT and electronic communications, including Microsoft Office, e.g. Word, Excel and Outlook\n- Good organisational skills\n- Open to direction, using initiative to seek advice where necessary\n\nThe successful candidate will be required to complete a DBS check, the cost of which will be met by Fosterplus.\n\nFosterplus is an equal opportunities employer and positively encourages applications from suitably qualified and eligible candidates.\n\nFosterplus is committed to safeguarding and promoting the welfare of children, young people and vulnerable adults and expects all staff to share this commitment.\n\nPandoLogic. Category:General,",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?io0x8AEcaIPqrxZbxxkuhC2mLf34x20Po",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Fosterplus",
+    "advertiser_type": "Agency",
+    "work_pattern": "Full Time",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
     "job_id": "23643_225474228",
     "title": "Client Campaign Coordinator",
     "company": "TurnerFox Recruitment - Agency - Permanent",
@@ -479,11 +428,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Systems administration",
-      "Quotations"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "107830819",
@@ -611,28 +556,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "nhs-5555484",
-    "source": "NHS Jobs",
-    "title": "Receptionist",
-    "company": "VICTORIA AND MAPPERLEY PRACTICE",
-    "advertiser_name": "VICTORIA AND MAPPERLEY PRACTICE",
-    "location": "Notts, NG1 3LW, Nottingham, NG3 5QQ",
-    "region": "Nottinghamshire",
-    "salary": "£12.71",
-    "employment_type": "Permanent",
-    "posted_date": "2026-08-21T15:29:45.651638911",
-    "closing_date": "2026-09-01",
-    "description": "We are looking to recruit a part time receptionist to join the team at the Victoria and Mapperley Practice. Experience is desired but not essential as full training will be given to the right candidate. The successful candidate will contribute to working co-operatively and efficiently with other members of the reception team to ensure the smooth running of the department. We are looking to recruit for the following hours: Wednesday 7:45am to 6:45 pm - Victoria Health centre Friday 12:45pm to 6:45 pm - Victoria Health centre Total 17 hours Your key role will be to help patients at the reception desk and promptly answer the telephone, booking appointments, dealing with queries and taking clear messages for other colleagues working at the Practice. You will also be responsible for a number of administrative duties. We are looking for someone who enjoys dealing with people and has excellent verbal and written communication. You should be calm under pressure and have a caring and sympathetic nature. Confidentiality is essential in this role. A full job specification is included in the job advert. The following are the core responsibilities of the Receptionist. There may be, on occasion, a requirement to carry out other tasks. This will be dependent upon factors such as workload and staffing levels: a.Maintain and monitor the practice appointment system b.Process personal, telephone and e-requests for appointments c.Answer incoming phone calls, transferring calls or dealing with the callers request appropriately d.Manage all queries as necessary in an efficient manner e.Signpost patients to the correct service f.Initiating contact with and responding to, requests from patients, team members and external agencies g.Clinically code data on EMIS h.Process GP download documents i.Process repeat prescriptions accurately and efficiently j.Action incoming emails and correspondence as necessary k.Scan patient related documentation and attach scanned documents to patients healthcare records l.Data entry of new and temporary registrations and relevant patient information as required m.Input data into patients healthcare records as necessary n.Work through the task list to ensure they are dealt with in a timely fashion o.Direct requests for information, i.e., SAR, insurance/solicitors letters and DVLA forms to the administrative team p.Complete opening and closing procedures in accordance with the duty rota q.Maintain a clean, tidy, effective working area at all times r.Understand and maintain appropriate infection control procedures s.Monitor and maintain the reception area and notice boards t.Support all clinical staff with general tasks as requested u.Support the health promotion lead and display promotional material on the allocated noticed boards and in the waiting room",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0667-26-0002",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0667-26-0002",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
-  },
-  {
     "job_id": "nhs-5543621",
     "source": "NHS Jobs",
     "title": "Administrator",
@@ -713,6 +636,28 @@
     "description": "Are you an experienced administrator with excellent IT skills, strong attention to detail and a desire to do work that supports patient care? Following an internal promotion, we are looking for a confident, positive and organised administrator to join our friendly Practice Team. This is not a reception-based role. You will work behind the scenes to help maintain accurate patient records, manage patient recall systems, support safe and effective patient care, ensuring the Practice continues to meet its quality and service requirements. This is an excellent opportunity for someone who enjoys working with data, solving problems and keeping information accurate and well organised, taking pride in getting things right. Previous experience in a GP practice or healthcare setting would be helpful, but it is not essential. We welcome applications from experienced administrators in other sectors who have strong transferable skills and are keen to learn. Main Duties of the Job Working as part of our Data Quality Team, you will help maintain high standards of data quality and patient record keeping. Your responsibilities will include: Undertaking searches and systems audits. Supporting and following the Practice recall system. Updating practice templates where required. Checking and maintaining the accuracy of clinical coding. Ensuring important clinical information is accurately captured. Supporting the Practice to achieve its Quality and Outcomes Framework (QOF) and enhanced service requirements. Identifying data-quality issues, trends and opportunities for improvement Contributing to the quality, safety and overall performance of the Practice. Maintaining strict patient confidentiality This is a role where attention to detail really matters. The information you manage and maintain helps our clinical team provide safe, effective and high-quality care to our patients. Full training and support relating to Practice processes and systems will be provided as appropriate. You should be able to work independently while also contributing positively to the wider team. Provide data quality support across the practice Maintain good quality of data recorded Ensure the efficient running of the practice computer system, carrying out searches, audits and recalls as required by the practice Interrogate & present data for audit purposes, clearly & concisely Set up & maintain clinical templates & referral letters Effectively monitor patient call and recall systems Responsible for maintaining and ensuring practice achievement of QoF or other incentivised contracts held Read Coding information into the practice clinical system consistently & accurately Ensure accurate report output Investigate routine data improvement enquiries/queries and provide assistance and advice as required Identify data quality trends and assess common themes through regular use of data quality queries and reporting, and highlight areas for improvement/inaccuracies to the Data Quality & IT Lead to improve processes or resolve problems Proactively initiate data quality improvement projects Assist and participate with regular Data Quality Audits using clinical systems Ensure enhanced service claims are made correctly and appropriately Effectively keep & maintain records of claims for payment Provide audit statistics to the ICB / NHSE or other governing bodies when required Support the sustainable improvement in data quality across the practice IT systems (e.g. through the output of data quality audits) Use own judgement to resolve data improvement issues Be able to work without supervision, but feel confident to seek advice when needed Summarising of patient medical records following practice protocols Be a contributing member of the Data Quality Team Prepare statistical or data reports as requested by the practice Process & keep safeguarding records in accordance with practice policy Support and guide members of staff in the use of the computer system Attend meetings relevant to the post Minute meetings where required Ensure the security and confidentiality of all clinical data handled, including the safe keeping of all health records. Maintain strict confidentiality in relation to all issues concerned within the service and adhere to the requirements of the Data Protection Act 2018, Information Governance and Caldicott Principles Undertake any other additional duties appropriate to the post as requested by management or partners This list is not exhaustive and will also include, from time-to-time, reasonable management requests which are not included in the above",
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2564-26-0008",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2564-26-0008",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
+  },
+  {
+    "job_id": "nhs-5517806",
+    "source": "NHS Jobs",
+    "title": "Medical Receptionist/Administrator",
+    "company": "The Linden Medical Group",
+    "advertiser_name": "The Linden Medical Group",
+    "location": "Nottingham, NG9 8DA",
+    "region": "Nottinghamshire",
+    "salary": "£12.71",
+    "employment_type": "Permanent",
+    "posted_date": "2026-08-04T15:43:40.134447",
+    "closing_date": "2026-09-30",
+    "description": "The Linden Medical Group is seeking to further expand our fabulous reception/administration team. We are looking to recruit an experienced, efficient, enthusiastic, highly motivated, flexible and well organised Medical Receptionist/Administrator. The working pattern is 27 hours over 4 days as follows: Monday & Tuesday 8am - 2pm Wednesday 8am-5:30pm with 1 hour unpaid lunch Friday 10am-5:30pm with 1 hour unpaid lunch This is an extremely busy role which requires hard work, the ability to multi task, to deal with multiple different demands on your time, the ability to calm a situation to prevent escalation, a good sense of humour, active listening skills, the ability to fit in with an established, friendly, team, the ability to prioritise to ensure all tasks are completed in a timely manner, excellent customer service skills and a smart, professional appearance. Previous experience of the SystmOne clinical system is necessary We are looking for candidates who can demonstrate the following: Excellent customer service skills. The ability to empathise. The ability to remain calm under pressure. Demonstrates active listening skills. Be sensitive to the needs of others. Who are adept at problem-solving. Excellent attention to detail. The ability to prioritise daily work to ensure all tasks are completed in a timely fashion. The ability to integrate into an established team. Good Sense of humour. Positive attitude. Professional Telephone manner In return we can offer a position within a very friendly Practice and pleasant working conditions. We actively look to encourage training for staff which, in turn, gives variety to the role. Our ideal candidate will have previous experience in a similar role. JOB TITLE: MEDICAL RECEPTIONIST/ADMINISTRATOR REPORTS TO: Operations Manager ACCOUNTABLE TO: Practice Manager Job Summary: Receive, assist and direct patients in accessing the appropriate service or healthcare professional in a courteous, efficient and effective way. Provide general assistance to the Practice team and project a positive and friendly image to patients and other visitors, either in person or via the telephone. Additional responsibilities include maintaining computerised records. Job Responsibilities: To ensure that the Reception/Administration functioning of the Practice runs smoothly and provides a high level of service to patients, doctors, nurses and other members of the Practice Team. Duties and Responsibilities: Telephone Duties Making appointments Taking and passing on messages Making appointments to discuss results Signpost callers to the appropriate healthcare professional Home visit requests Deal with general enquiries Contact patients, other team members and associated healthcare agencies and providers Reception Duties Greet and direct patients and visitors Register new patients and temporary residents Make appointments Ensure outstanding queries are explained and handed over to colleagues as necessary Respond to requests of doctors and nurses during clinics Collect payments from patients for non-NHS services Scanning and Filing Prescriptions Dealing with requests and queries relating to prescriptions Raising prescriptions as per Practice protocols Processing of incoming correspondence, this involves scanning letters, adding clinical codes and attaching to the patient records - training will be provided to perform this. Register new patients on to the system on a daily basis Complete electronic tasks on a daily basis Any other delegated duties considered appropriate to the post",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3455-26-0005",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3455-26-0005",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
     "advertiser_type": "",

@@ -147,12 +147,7 @@
     "customer_sales_overlap_policy": "non-exclusive",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Systems administration",
-      "Reporting"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "107776109",
@@ -302,11 +297,7 @@
     "customer_sales_overlap_policy": "non-exclusive",
     "work_pattern": "Not Specified",
     "salary_period": "Monthly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Records administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "107822616",
@@ -324,7 +315,7 @@
     "salary_text": "£45000 per year",
     "posted_date": "",
     "description": "Sales Executive (Machine Tools & Consumables)\nGlobal Leading OEM Formal Training & Development to become a hands-on Technical Expert\n£32,100 base + £45k OTE + Bonus + Private Healthcare + Company Car + Outstanding OEM Training + Full Expense Package + Full Tooling & Equipment Supplied + Residential Training Course\nManchester / Leeds M62 corridor\nAre you a sales engineer looking to work for a Glo click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?Dw9iAXzSqBZxz4VeTJ7LahktoRWGOsmsk",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?1tcg6Aj2zaxqEYVYN29UoY7Jc30GTvi2b",
     "source": "JobG8",
     "customer_sales_classification": "DIRECT_SALES",
     "customer_sales_reason": "sales-led title: sales executive",
@@ -481,13 +472,7 @@
     "customer_sales_overlap_policy": "non-exclusive",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Telephone handling",
-      "Customer enquiries",
-      "Systems administration",
-      "Document preparation"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225473515",
@@ -512,10 +497,6 @@
     "customer_sales_overlap_policy": "non-exclusive",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Systems administration"
-    ]
+    "posted_date_basis": ""
   }
 ]
