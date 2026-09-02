@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
-import { selectHomepageRecentJobs } from '../lib/homepage-recent-jobs';
+import { formatHomepageSalary, selectHomepageRecentJobs } from '../lib/homepage-recent-jobs';
 import type { PublishedJob } from '../lib/published-jobs';
 
 function job(
@@ -61,4 +61,17 @@ test('homepage recent jobs fall back safely when fewer than four roles exist', (
 
   assert.equal(selected.length, 4);
   assert.equal(new Set(selected.map((item) => item.title)).size, 4);
+});
+
+test('homepage salary adds separators only to annual amounts', () => {
+  assert.equal(
+    formatHomepageSalary('Â£40000 - Â£45000 per year'),
+    '£40,000 - £45,000 per year'
+  );
+  assert.equal(
+    formatHomepageSalary('£28000 - £32000 per year (£28-30k basic + bonus)'),
+    '£28,000 - £32,000 per year (£28-30k basic + bonus)'
+  );
+  assert.equal(formatHomepageSalary('£13 - £13.13 per hour'), '£13 - £13.13 per hour');
+  assert.equal(formatHomepageSalary('£92.54 - £97 per daily'), '£92.54 - £97 per daily');
 });
