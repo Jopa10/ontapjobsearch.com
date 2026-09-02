@@ -4,7 +4,7 @@
 - Live route: `/birmingham/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 34
+- Effective included jobs: 31
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 34
+- automatic include: 31
 - automatic review: 3
-- automatic exclude: 4
-- effective include: 34
+- automatic exclude: 3
+- effective include: 31
 - effective review: 3
-- effective exclude: 4
+- effective exclude: 3
 
-## INCLUDE (34)
+## INCLUDE (31)
 
 ---
 action: 
@@ -33,18 +33,6 @@ company: Baltic Recruitment Services Ltd - Agency - Permanent
 location: Birmingham
 source: JobG8
 job_id: jobg8-107796411
-reason: Approved conservative Birmingham launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Admin Assistant
-company: Yenton Primary School
-location: Birmingham
-source: Teaching Vacancies
-job_id: teaching-vacancies-admin-assistant-10329641-0e0b-41f7-ba37-1959636d06d8
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -304,18 +292,6 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Medical Receptionist
-company: Yardley Wood Health Centre
-location: Birmingham, B14 4DU
-source: NHS Jobs
-job_id: nhs-5558970
-reason: Approved conservative Birmingham launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Office Administrator
 company: Alliance Personnel - Agency - Permanent
 location: Birmingham
@@ -357,18 +333,6 @@ company: Michael Page Business Support - Agency - Permanent
 location: Birmingham
 source: JobG8
 job_id: jobg8-1766165
-reason: Approved conservative Birmingham launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Reception - Canon Birmingham
-company: Office Angels - Agency - Temporary
-location: Birmingham
-source: JobG8
-job_id: jobg8-23643_225451094
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -470,7 +434,7 @@ job_id: jobg8-23643_225317543
 reason: No approved Birmingham catchment rule matched; local review required.
 ---
 
-## EXCLUDE (4)
+## EXCLUDE (3)
 
 ---
 action: 
@@ -481,18 +445,6 @@ company: The Curve Group - Agency - Permanent
 location: Solihull
 source: JobG8
 job_id: jobg8-1800761
-reason: Separate exact-city market at launch.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Learning and Development Coordinator
-company: Whale Tankers - Agency - Permanent
-location: Solihull
-source: JobG8
-job_id: jobg8-107893505
 reason: Separate exact-city market at launch.
 ---
 

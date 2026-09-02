@@ -1,2 +1,3 @@
 decision,job_id,title,company,location,source,automatic_decision,effective_decision,reason,matched_rule,city_key
 include,jobg8-1733299,Business Support Officer,Hays Specialist Recruitment Limited - Agency - Permanent,Warrington,JobG8,include,include,Approved conservative Warrington launch catchment.,warrington,warrington-service-administrator-jobs
+exclude,jobg8-23643_225545347,Data Entry & GP Liaison Administrator,MedPal AI Plc - Agency - Permanent,Runcorn,JobG8,exclude,exclude,Separate employment market.,runcorn,warrington-service-administrator-jobs

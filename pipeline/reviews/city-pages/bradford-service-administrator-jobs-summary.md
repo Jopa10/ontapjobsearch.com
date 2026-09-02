@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 9
-- automatic review: 5
-- automatic exclude: 36
+- automatic review: 8
+- automatic exclude: 34
 - effective include: 9
-- effective review: 5
-- effective exclude: 36
+- effective review: 8
+- effective exclude: 34
 
 ## INCLUDE (9)
 
@@ -132,7 +132,7 @@ job_id: jobg8-23643_225476845
 reason: Approved Bradford catchment.
 ---
 
-## REVIEW (5)
+## REVIEW (8)
 
 ---
 action: 
@@ -174,6 +174,30 @@ reason: No approved Bradford catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: E Commerce Administrator
+company: Rec 2 Rec Search - Agency - Permanent
+location: Cleckheaton
+source: JobG8
+job_id: jobg8-107921054
+reason: No approved Bradford catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: GP Receptionist / Care Navigator
+company: Robin Lane Health & Wellbeing Centre
+location: Pudsey, LS28 7DE
+source: NHS Jobs
+job_id: nhs-5550046
+reason: No approved Bradford catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Office Coordinator
 company: Sayjo Recruitment Ltd - Agency - Permanent
 location: Brighouse
@@ -194,7 +218,19 @@ job_id: nhs-5551474
 reason: No approved Bradford catchment rule matched; local review required.
 ---
 
-## EXCLUDE (36)
+---
+action: 
+decision: review
+automatic_decision: review
+title: Part Time Receptionist
+company: Kingdom People - Agency - Permanent
+location: Brighouse
+source: JobG8
+job_id: jobg8-23643_225555933
+reason: No approved Bradford catchment rule matched; local review required.
+---
+
+## EXCLUDE (34)
 
 ---
 action: 
@@ -217,18 +253,6 @@ company: Nigel Wright Recruitment - Agency - Temporary
 location: Leeds
 source: JobG8
 job_id: jobg8-23643_225488843
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Administrator
-company: The Pharmacist Network
-location: Leeds, NE4 7YB
-source: NHS Jobs
-job_id: nhs-5555590
 reason: Separate employment market.
 ---
 
@@ -308,11 +332,23 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: HR Administrator
-company: Akari Care Limited
-location: Leeds, LS11 5DZ
-source: NHS Jobs
-job_id: nhs-5561629
+title: Facilities Administrator
+company: Morgan King - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-23643_225552127
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Finance Assistant - Property
+company: Card Factory - Agency - Permanent
+location: Wakefield
+source: JobG8
+job_id: jobg8-23643_225548918
 reason: Separate employment market.
 ---
 
@@ -321,10 +357,10 @@ action:
 decision: exclude
 automatic_decision: exclude
 title: HR Administrator
-company: Lucy Walker Recruitment - Agency - Temporary
-location: Leeds
-source: JobG8
-job_id: jobg8-23643_225451264
+company: Akari Care Limited
+location: Leeds, LS11 5DZ
+source: NHS Jobs
+job_id: nhs-5561629
 reason: Separate employment market.
 ---
 
@@ -356,11 +392,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Lead Activities Coordinator
-company: Exemplar Health Care - Company - Permanent
-location: Leeds
-source: JobG8
-job_id: jobg8-107902255
+title: Medical Centre Receptionist / Care Navigator
+company: Arthington Medical Centre
+location: Leeds, LS10 2JJ
+source: NHS Jobs
+job_id: nhs-5549469
 reason: Separate employment market.
 ---
 
@@ -380,11 +416,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Operations Coordinator
-company: Huntress - Leeds - Agency - Permanent
-location: Wetherby
+title: Operations Administrator
+company: Kingston Barnes Ltd - Agency - Permanent
+location: Leeds
 source: JobG8
-job_id: jobg8-23643_225445220
+job_id: jobg8-23643_225550655
 reason: Separate employment market.
 ---
 
@@ -397,18 +433,6 @@ company: Winsearch - Agency - Temporary
 location: Wakefield
 source: JobG8
 job_id: jobg8-23643_225522242
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: People and Culture Administrator (Resourcing)
-company: Spectrum Community Health CIC
-location: Wakefield, WF1 5RH
-source: NHS Jobs
-job_id: nhs-5539626
 reason: Separate employment market.
 ---
 
@@ -577,18 +601,6 @@ company: Veolia - Agency - Permanent
 location: Dewsbury
 source: JobG8
 job_id: jobg8-23643_225542036
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Temporary Accounts Payable Administrator
-company: Office Angels - Agency - Permanent
-location: Leeds
-source: JobG8
-job_id: jobg8-1744198
 reason: Separate employment market.
 ---
 

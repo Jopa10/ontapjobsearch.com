@@ -1,6 +1,5 @@
 decision,job_id,title,company,location,source,automatic_decision,effective_decision,reason,matched_rule,city_key
 include,jobg8-1766251,Accounts Assistant,Reed - Agency - Permanent,Liverpool,JobG8,include,include,Approved conservative Liverpool launch catchment.,liverpool,liverpool-service-administrator-jobs
-include,teaching-vacancies-administration-assistant-the-beacon-church-of-england-primary-school,Administration Assistant,The Beacon Church of England Primary School,Liverpool,Teaching Vacancies,include,include,Approved conservative Liverpool launch catchment.,liverpool,liverpool-service-administrator-jobs
 include,jobg8-107894134,Administrator - Contracts,Rathbones Group Plc - Agency - Temporary,Liverpool,JobG8,include,include,Approved conservative Liverpool launch catchment.,liverpool,liverpool-service-administrator-jobs
 include,jobg8-23643_225428643,Business Support Co-ordinator,Recruitment Services UK - Agency - Permanent,Liverpool,JobG8,include,include,Approved conservative Liverpool launch catchment.,liverpool,liverpool-service-administrator-jobs
 include,nhs-5558829,Clerical Officer,Liverpool University Hospitals NHS Foundation Trust,"Liverpool, L7 8XP",NHS Jobs,include,include,Approved conservative Liverpool launch catchment.,liverpool,liverpool-service-administrator-jobs

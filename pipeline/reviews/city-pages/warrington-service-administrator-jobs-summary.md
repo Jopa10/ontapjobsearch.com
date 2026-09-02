@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 1
 - automatic review: 0
-- automatic exclude: 0
+- automatic exclude: 1
 - effective include: 1
 - effective review: 0
-- effective exclude: 0
+- effective exclude: 1
 
 ## INCLUDE (1)
 
@@ -38,4 +38,16 @@ reason: Approved conservative Warrington launch catchment.
 
 ## REVIEW (0)
 
-## EXCLUDE (0)
+## EXCLUDE (1)
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Data Entry & GP Liaison Administrator
+company: MedPal AI Plc - Agency - Permanent
+location: Runcorn
+source: JobG8
+job_id: jobg8-23643_225545347
+reason: Separate employment market.
+---

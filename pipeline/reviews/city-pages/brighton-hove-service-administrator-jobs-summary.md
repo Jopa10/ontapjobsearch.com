@@ -4,7 +4,7 @@
 - Live route: `/brighton-hove/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 4
+- Effective included jobs: 5
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,26 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 4
-- automatic review: 33
-- automatic exclude: 3
-- effective include: 4
-- effective review: 33
-- effective exclude: 3
+- automatic include: 5
+- automatic review: 31
+- automatic exclude: 2
+- effective include: 5
+- effective review: 31
+- effective exclude: 2
 
-## INCLUDE (4)
+## INCLUDE (5)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administrator
+company: Sussex Community NHS Foundation Trust
+location: Brighton, BN2 3EW
+source: NHS Jobs
+job_id: nhs-5572729
+reason: Approved Brighton & Hove catchment.
+---
 
 ---
 action: 
@@ -72,7 +84,7 @@ job_id: nhs-5548209
 reason: Approved Brighton & Hove catchment.
 ---
 
-## REVIEW (33)
+## REVIEW (31)
 
 ---
 action: 
@@ -83,18 +95,6 @@ company: CMA Recruitment Group - Agency - Permanent
 location: Sussex
 source: JobG8
 job_id: jobg8-23643_225525164
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administration Assistant
-company: Hiring People - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-1767581
 reason: Broad location; review before city inclusion.
 ---
 
@@ -198,6 +198,18 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
+title: Customer Support Administrator - Immediate Start
+company: Office Angels - Agency - Contract
+location: Sussex
+source: JobG8
+job_id: jobg8-23643_225547554
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Financial Services Administrator
 company: First Recruitment Services - Agency - Permanent
 location: Sussex
@@ -227,18 +239,6 @@ company: First Recruitment Services - Agency - Permanent
 location: Sussex
 source: JobG8
 job_id: jobg8-23643_225527297
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: HR Administrator
-company: Office Angels - Agency - Contract
-location: Sussex
-source: JobG8
-job_id: jobg8-23643_225454060
 reason: Broad location; review before city inclusion.
 ---
 
@@ -450,18 +450,6 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Temporary Sales Administrator
-company: Huntress - Crawley - Agency - Temporary
-location: Sussex
-source: JobG8
-job_id: jobg8-23643_225452492
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Tour Coordinator
 company: Travail Employment Group - Agency - Permanent
 location: Sussex
@@ -470,19 +458,7 @@ job_id: jobg8-23643_225462263
 reason: Broad location; review before city inclusion.
 ---
 
-## EXCLUDE (3)
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Administrator
-company: Bersted Green Surgery
-location: Bognor Regis, PO22 9TD
-source: NHS Jobs
-job_id: nhs-5546075
-reason: Separate employment market.
----
+## EXCLUDE (2)
 
 ---
 action: 

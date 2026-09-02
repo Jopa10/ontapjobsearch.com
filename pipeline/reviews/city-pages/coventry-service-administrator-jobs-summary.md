@@ -4,7 +4,7 @@
 - Live route: `/coventry/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 4
+- Effective included jobs: 3
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 4
+- automatic include: 3
 - automatic review: 2
-- automatic exclude: 25
-- effective include: 4
+- automatic exclude: 23
+- effective include: 3
 - effective review: 2
-- effective exclude: 25
+- effective exclude: 23
 
-## INCLUDE (4)
+## INCLUDE (3)
 
 ---
 action: 
@@ -33,18 +33,6 @@ company: Godiva Group Practice
 location: Coventry, CV2 4lj, Coventry, CV1 4DH, Coventry, CV6 5EA, Coventry, CV2 3DR
 source: NHS Jobs
 job_id: nhs-5525238
-reason: Approved Coventry catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: School Administrator
-company: President Kennedy School Academy
-location: Coventry
-source: Teaching Vacancies
-job_id: teaching-vacancies-school-administrator-president-kennedy-school-academy-coventry-west-midlands
 reason: Approved Coventry catchment.
 ---
 
@@ -98,7 +86,7 @@ job_id: teaching-vacancies-receptionist-and-administrator-ftc-contract-september
 reason: No approved Coventry catchment rule matched; local review required.
 ---
 
-## EXCLUDE (25)
+## EXCLUDE (23)
 
 ---
 action: 
@@ -121,18 +109,6 @@ company: Practice Plus Group
 location: Nuneaton, CV10 7DJ
 source: NHS Jobs
 job_id: nhs-5549024
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Business Administrator
-company: The Cinnamon Care Collection - Company - Permanent
-location: Warwickshire
-source: JobG8
-job_id: jobg8-23643_225451278
 reason: Separate employment market.
 ---
 
@@ -229,18 +205,6 @@ company: Gill Cooke Personnel Ltd T/A The Recruitment Group - Agency - Temporary
 location: Warwickshire
 source: JobG8
 job_id: jobg8-23643_225467522
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Medical Administrator
-company: Red Roofs Surgery
-location: Nuneaton, CV11 5TW
-source: NHS Jobs
-job_id: nhs-5521618
 reason: Separate employment market.
 ---
 

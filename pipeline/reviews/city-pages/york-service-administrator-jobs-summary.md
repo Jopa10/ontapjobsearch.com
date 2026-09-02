@@ -4,8 +4,8 @@
 - Live route: `/york/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 6
-- Threshold currently met: yes
+- Effective included jobs: 4
+- Threshold currently met: no
 
 ## How to review
 Edit only the `action:` line inside a job block.
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 6
+- automatic include: 4
 - automatic review: 6
-- automatic exclude: 9
-- effective include: 6
+- automatic exclude: 10
+- effective include: 4
 - effective review: 6
-- effective exclude: 9
+- effective exclude: 10
 
-## INCLUDE (6)
+## INCLUDE (4)
 
 ---
 action: 
@@ -64,35 +64,11 @@ reason: Approved York catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Sales and Marketing Coordinator
-company: KD Recruitment Limited - Agency - Permanent
-location: York
-source: JobG8
-job_id: jobg8-107804499
-reason: Approved York catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Service Advisor - Ford
 company: Stoneacre Motor Group. - Company - Permanent
 location: York
 source: JobG8
 job_id: jobg8-107836541
-reason: Approved York catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Team Administrator
-company: Tees Esk and Wear Valleys NHS Foundation Trust
-location: York, YO31 7DE
-source: NHS Jobs
-job_id: nhs-5550198
 reason: Approved York catchment.
 ---
 
@@ -150,18 +126,6 @@ reason: No approved York catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Part-time Receptionist
-company: The Paradise Road Practice
-location: Richmond, TW9 1SA
-source: NHS Jobs
-job_id: nhs-5533330
-reason: No approved York catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: School Office Administrator
 company: Askwith Primary School
 location: Otley
@@ -170,7 +134,19 @@ job_id: teaching-vacancies-school-office-administrator-askwith-primary-school
 reason: No approved York catchment rule matched; local review required.
 ---
 
-## EXCLUDE (9)
+---
+action: 
+decision: review
+automatic_decision: review
+title: Team Administrator
+company: Tees Esk and Wear Valleys NHS Foundation Trust
+location: Knaresborough, HG5 0UB
+source: NHS Jobs
+job_id: nhs-5570653
+reason: No approved York catchment rule matched; local review required.
+---
+
+## EXCLUDE (10)
 
 ---
 action: 
@@ -202,9 +178,9 @@ decision: exclude
 automatic_decision: exclude
 title: Administrator - Receptionist
 company: Tees Esk and Wear Valleys NHS Foundation Trust
-location: Scarborough, YO11 3TU
+location: Harrogate, HG1 5QE
 source: NHS Jobs
-job_id: nhs-5565624
+job_id: nhs-5570628
 reason: Separate employment market.
 ---
 
@@ -265,6 +241,18 @@ company: Braeburn Primary and Nursery Academy
 location: Scarborough
 source: Teaching Vacancies
 job_id: teaching-vacancies-senior-administrator-braeburn-primary-and-nursery-academy-scarborough-north-yorkshire
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Team Administrator
+company: Tees Esk and Wear Valleys NHS Foundation Trust
+location: Northallerton, DL6 2FG
+source: NHS Jobs
+job_id: nhs-5570734
 reason: Separate employment market.
 ---
 

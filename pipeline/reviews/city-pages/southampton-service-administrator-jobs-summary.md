@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 5
 - automatic review: 66
-- automatic exclude: 7
+- automatic exclude: 8
 - effective include: 5
 - effective review: 66
-- effective exclude: 7
+- effective exclude: 8
 
 ## INCLUDE (5)
 
@@ -126,6 +126,18 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
+title: Admin Assistant - Bank - Care Home
+company: Barchester Healthcare
+location: Ringwood, BH24 2DW
+source: NHS Jobs
+job_id: nhs-5573045
+reason: No approved Southampton catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Administrator
 company: Adecco - Agency - Temporary
 location: Hampshire
@@ -138,11 +150,11 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Administrator - Start next week
-company: Hartley Resourcing - Agency - Permanent
+title: Administrator - Business Support
+company: Pin Point Recruitment - Agency - Permanent
 location: Hampshire
 source: JobG8
-job_id: jobg8-1816335
+job_id: jobg8-23643_225542279
 reason: Broad location; review before city inclusion.
 ---
 
@@ -150,11 +162,11 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Attendance Coordinator
-company: South Hampshire College Group - Agency - Permanent
+title: Administrator - Start next week
+company: Hartley Resourcing - Agency - Permanent
 location: Hampshire
 source: JobG8
-job_id: jobg8-107825061
+job_id: jobg8-1816335
 reason: Broad location; review before city inclusion.
 ---
 
@@ -179,6 +191,18 @@ company: The Cinnamon Care Collection - Company - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225524482
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Business Administrator
+company: Care Concern Group - Company - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-107907161
 reason: Broad location; review before city inclusion.
 ---
 
@@ -306,20 +330,8 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Dental Receptionist
-company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
-location: Petersfield, GU32 3LB
-source: NHS Jobs
-job_id: nhs-5545728
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Ecommerce Administrator
-company: Rubicon Recruitment - Agency - Temporary
+company: Rubicon Recruitment - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225545155
@@ -354,11 +366,35 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
+title: Housing Repairs Administrator
+company: Thorngate Churcher Trust - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-23643_225537561
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: HR Administrator - Permanent Position
 company: Berry Recruitment - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225477911
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: HR Assistant
+company: Reed - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-1769284
 reason: Broad location; review before city inclusion.
 ---
 
@@ -443,18 +479,6 @@ company: Entrust Resource Solutions - Agency - Temporary
 location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225474596
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Mortgage Administrator
-company: Dynamite Recruitment - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-23643_225452299
 reason: Broad location; review before city inclusion.
 ---
 
@@ -570,18 +594,6 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Planner
-company: Dynamite Recruitment Solutions Ltd - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-1782929
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Production Planning Administrator
 company: Workshop Recruitment - Agency - Permanent
 location: Hampshire
@@ -671,30 +683,6 @@ company: Office Angels - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225472592
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Receptionist/Concierge
-company: Invictus Group - Agency - Contract
-location: Hampshire
-source: JobG8
-job_id: jobg8-23643_225452921
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Sales Admin - Global Company! £27k-£30k
-company: Office Angels - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-23643_225450866
 reason: Broad location; review before city inclusion.
 ---
 
@@ -834,6 +822,18 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
+title: Support Coordinator
+company: NFP People - Agency - Contract
+location: Isle of Wight
+source: JobG8
+job_id: jobg8-107904656
+reason: No approved Southampton catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Technical Customer Service Advisor
 company: Reed - Agency - Permanent
 location: Hampshire
@@ -878,7 +878,7 @@ job_id: jobg8-1733980
 reason: Broad location; review before city inclusion.
 ---
 
-## EXCLUDE (7)
+## EXCLUDE (8)
 
 ---
 action: 
@@ -913,6 +913,18 @@ company: Avery Healthcare Group Ltd.
 location: Winchester, SO22 5JH
 source: NHS Jobs
 job_id: nhs-5566130
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: GP Receptionist
+company: Bartlett Group Practice
+location: Aldershot, GU12 5BA, CAMBERLEY, GU16 6QQ
+source: NHS Jobs
+job_id: nhs-5571549
 reason: Separate employment market.
 ---
 

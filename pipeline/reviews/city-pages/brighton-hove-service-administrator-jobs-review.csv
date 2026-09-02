@@ -1,10 +1,10 @@
 decision,job_id,title,company,location,source,automatic_decision,effective_decision,reason,matched_rule,city_key
+include,nhs-5572729,Administrator,Sussex Community NHS Foundation Trust,"Brighton, BN2 3EW",NHS Jobs,include,include,Approved Brighton & Hove catchment.,brighton,brighton-hove-service-administrator-jobs
 include,nhs-5551395,Mental Health Act Administrator and Medical Secretary,Elysium Healthcare,"Brighton, BN3 4FH",NHS Jobs,include,include,Approved Brighton & Hove catchment.,brighton,brighton-hove-service-administrator-jobs
 include,nhs-5492880,PCN Office Administrator,East and Central Brighton Primary Care Network,"Brighton, BN1 1ND",NHS Jobs,include,include,Approved Brighton & Hove catchment.,brighton,brighton-hove-service-administrator-jobs
 include,nhs-5555750,Receptionist,Integrated Care 24 Ltd,"Brighton, BN1 1AE",NHS Jobs,include,include,Approved Brighton & Hove catchment.,brighton,brighton-hove-service-administrator-jobs
 include,nhs-5548209,Receptionist (Bank),Warmdene Surgery,"Brighton, BN1 8DD",NHS Jobs,include,include,Approved Brighton & Hove catchment.,brighton,brighton-hove-service-administrator-jobs
 review,jobg8-23643_225525164,Accounts Assistant,CMA Recruitment Group - Agency - Permanent,Sussex,JobG8,review,review,Broad location; review before city inclusion.,sussex,brighton-hove-service-administrator-jobs
-review,jobg8-1767581,Administration Assistant,Hiring People - Agency - Permanent,Sussex,JobG8,review,review,Broad location; review before city inclusion.,sussex,brighton-hove-service-administrator-jobs
 review,jobg8-23643_225460713,Administrator,CBSbutler Holdings Limited trading as CBSbutler - Agency - Temporary,Sussex,JobG8,review,review,Broad location; review before city inclusion.,sussex,brighton-hove-service-administrator-jobs
 review,jobg8-23643_225547434,Administrator,Lloyd Recruitment - East Grinstead - Agency - Permanent,Sussex,JobG8,review,review,Broad location; review before city inclusion.,sussex,brighton-hove-service-administrator-jobs
 review,jobg8-1766316,Administrator,Reed - Agency - Permanent,Sussex,JobG8,review,review,Broad location; review before city inclusion.,sussex,brighton-hove-service-administrator-jobs
@@ -13,10 +13,10 @@ review,jobg8-23643_225523989,Administrator (Part-Time),First Recruitment Service
 review,jobg8-23643_225547527,Customer Operations Coordinator - Immediate Start,Office Angels - Agency - Contract,Sussex,JobG8,review,review,Broad location; review before city inclusion.,sussex,brighton-hove-service-administrator-jobs
 review,jobg8-23643_224364482,Customer Service Advisor,Grafters Recruitment Consultants Ltd - Agency - Permanent,Sussex,JobG8,review,review,Broad location; review before city inclusion.,sussex,brighton-hove-service-administrator-jobs
 review,jobg8-23643_225548414,Customer Service Co-ordinator,UK Power Networks (Operations) Ltd - Company - Permanent,Sussex,JobG8,review,review,Broad location; review before city inclusion.,sussex,brighton-hove-service-administrator-jobs
+review,jobg8-23643_225547554,Customer Support Administrator - Immediate Start,Office Angels - Agency - Contract,Sussex,JobG8,review,review,Broad location; review before city inclusion.,sussex,brighton-hove-service-administrator-jobs
 review,jobg8-23643_225514099,Financial Services Administrator,First Recruitment Services - Agency - Permanent,Sussex,JobG8,review,review,Broad location; review before city inclusion.,sussex,brighton-hove-service-administrator-jobs
 review,jobg8-1781441,Hotel Receptionist,First Recruitment Services - Agency - Permanent,Sussex,JobG8,review,review,Broad location; review before city inclusion.,sussex,brighton-hove-service-administrator-jobs
 review,jobg8-23643_225527297,Hotel Receptionist,First Recruitment Services - Agency - Permanent,Sussex,JobG8,review,review,Broad location; review before city inclusion.,sussex,brighton-hove-service-administrator-jobs
-review,jobg8-23643_225454060,HR Administrator,Office Angels - Agency - Contract,Sussex,JobG8,review,review,Broad location; review before city inclusion.,sussex,brighton-hove-service-administrator-jobs
 review,jobg8-23643_225517937,HR Coordinator,Oraculum - Agency - Permanent,Sussex,JobG8,review,review,Broad location; review before city inclusion.,sussex,brighton-hove-service-administrator-jobs
 review,jobg8-1771464,HR Operations Coordinator - Temp Role,Reed - Agency - Permanent,Sussex,JobG8,review,review,Broad location; review before city inclusion.,sussex,brighton-hove-service-administrator-jobs
 review,jobg8-23643_225547249,Membership & Events Coordinator - Immediate Start,Office Angels - Agency - Temporary,Sussex,JobG8,review,review,Broad location; review before city inclusion.,sussex,brighton-hove-service-administrator-jobs
@@ -34,8 +34,6 @@ review,jobg8-23643_225475468,Sales Support Administrator,First Recruitment Servi
 review,jobg8-23643_225475445,Sales Support Co-ordinator,First Recruitment Services - Agency - Permanent,Sussex,JobG8,review,review,Broad location; review before city inclusion.,sussex,brighton-hove-service-administrator-jobs
 review,jobg8-23643_225498357,School HR Administrator,Office Angels - Agency - Permanent,Sussex,JobG8,review,review,Broad location; review before city inclusion.,sussex,brighton-hove-service-administrator-jobs
 review,jobg8-23643_225468462,Temporary Project Support/ Project Coordinator,Huntress - Crawley - Agency - Temporary,Sussex,JobG8,review,review,Broad location; review before city inclusion.,sussex,brighton-hove-service-administrator-jobs
-review,jobg8-23643_225452492,Temporary Sales Administrator,Huntress - Crawley - Agency - Temporary,Sussex,JobG8,review,review,Broad location; review before city inclusion.,sussex,brighton-hove-service-administrator-jobs
 review,jobg8-23643_225462263,Tour Coordinator,Travail Employment Group - Agency - Permanent,Sussex,JobG8,review,review,Broad location; review before city inclusion.,sussex,brighton-hove-service-administrator-jobs
-exclude,nhs-5546075,Administrator,Bersted Green Surgery,"Bognor Regis, PO22 9TD",NHS Jobs,exclude,exclude,Separate employment market.,bognor regis,brighton-hove-service-administrator-jobs
 exclude,nhs-5536742,Receptionist,Arlington Road Medical Practice,"Eastbourne, BN21 1DH",NHS Jobs,exclude,exclude,Separate employment market.,eastbourne,brighton-hove-service-administrator-jobs
 exclude,nhs-5569929,Receptionist/Care Navigator,Parklands Surgery,"Chichester, PO19 3DT",NHS Jobs,exclude,exclude,Separate employment market.,chichester,brighton-hove-service-administrator-jobs

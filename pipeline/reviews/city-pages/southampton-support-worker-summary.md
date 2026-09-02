@@ -4,7 +4,7 @@
 - Live route: `/southampton/support-worker`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 2
+- Effective included jobs: 3
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,26 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 2
-- automatic review: 3
+- automatic include: 3
+- automatic review: 2
 - automatic exclude: 1
-- effective include: 2
-- effective review: 3
+- effective include: 3
+- effective review: 2
 - effective exclude: 1
 
-## INCLUDE (2)
+## INCLUDE (3)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Night Care Worker
+company: Hampshire County Council - Company - Permanent
+location: Southampton
+source: JobG8
+job_id: jobg8-1401784887
+reason: Approved Southampton catchment.
+---
 
 ---
 action: 
@@ -48,7 +60,7 @@ job_id: jobg8-1663151
 reason: Approved Southampton catchment.
 ---
 
-## REVIEW (3)
+## REVIEW (2)
 
 ---
 action: 
@@ -71,18 +83,6 @@ company: Hampshire County Council - Company - Permanent
 location: Romsey
 source: JobG8
 job_id: jobg8-1401784767
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Waking Night Childrens Home Support Worker
-company: Hampshire County Council - Company - Permanent
-location: Romsey
-source: JobG8
-job_id: jobg8-1401784682
 reason: Broad location; review before city inclusion.
 ---
 

@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 6
-- automatic review: 7
-- automatic exclude: 30
+- automatic review: 8
+- automatic exclude: 27
 - effective include: 6
-- effective review: 7
-- effective exclude: 30
+- effective review: 8
+- effective exclude: 27
 
 ## INCLUDE (6)
 
@@ -96,7 +96,7 @@ job_id: nhs-5533284
 reason: Approved conservative Oxford launch catchment.
 ---
 
-## REVIEW (7)
+## REVIEW (8)
 
 ---
 action: 
@@ -107,6 +107,18 @@ company: Barchester Healthcare
 location: Banbury, OX15 6EH
 source: NHS Jobs
 job_id: nhs-5558600
+reason: No approved Oxford catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: Practice Plus Group - Health in Justice
+location: Bicester, OX25 1PZ
+source: NHS Jobs
+job_id: nhs-5570709
 reason: No approved Oxford catchment rule matched; local review required.
 ---
 
@@ -182,19 +194,7 @@ job_id: teaching-vacancies-sixth-form-administrator-team-leader
 reason: No approved Oxford catchment rule matched; local review required.
 ---
 
-## EXCLUDE (30)
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Accounts Administrator
-company: Flat Fee Recruiter - Agency - Permanent
-location: Oxfordshire
-source: JobG8
-job_id: jobg8-107910649
-reason: Broad county location; not Oxford-city evidence.
----
+## EXCLUDE (27)
 
 ---
 action: 
@@ -356,18 +356,6 @@ reason: Broad county location; not Oxford-city evidence.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Lifestyle Coordinator
-company: Care UK - Company - Permanent
-location: Oxfordshire
-source: JobG8
-job_id: jobg8-107723275
-reason: Broad county location; not Oxford-city evidence.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Office Administrator
 company: Planet Recruitment - Agency - Permanent
 location: Oxfordshire
@@ -385,18 +373,6 @@ company: Australasian Recruitment Company - Agency - Permanent
 location: Oxfordshire
 source: JobG8
 job_id: jobg8-1789870
-reason: Broad county location; not Oxford-city evidence.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Receptionist
-company: Crisis - Agency - Permanent
-location: Oxfordshire
-source: JobG8
-job_id: jobg8-1780036
 reason: Broad county location; not Oxford-city evidence.
 ---
 
@@ -512,6 +488,18 @@ reason: Broad county location; not Oxford-city evidence.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Temporary Administrators - Register Your Interest
+company: Allen Associates - Agency - Temporary
+location: Oxfordshire
+source: JobG8
+job_id: jobg8-23643_225544143
+reason: Broad county location; not Oxford-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Temporary Medical Secretary
 company: Allen Associates - Agency - Temporary
 location: Oxfordshire
@@ -529,17 +517,5 @@ company: Allen Associates - Agency - Temporary
 location: Oxfordshire
 source: JobG8
 job_id: jobg8-23643_225544132
-reason: Broad county location; not Oxford-city evidence.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Workplace Coordinator
-company: Winner Recruitment - Agency - Permanent
-location: Oxfordshire
-source: JobG8
-job_id: jobg8-23643_225472204
 reason: Broad county location; not Oxford-city evidence.
 ---

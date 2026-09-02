@@ -4,7 +4,7 @@
 - Live route: `/bristol/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 22
+- Effective included jobs: 21
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 22
+- automatic include: 21
 - automatic review: 2
 - automatic exclude: 2
-- effective include: 22
+- effective include: 21
 - effective review: 2
 - effective exclude: 2
 
-## INCLUDE (22)
+## INCLUDE (21)
 
 ---
 action: 
@@ -81,6 +81,18 @@ company: Sirona care & health CIC
 location: Bradley Stoke, Bristol, BS32 4LB
 source: NHS Jobs
 job_id: nhs-5554722
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administrator
+company: Tate - Agency - Temporary
+location: Bristol
+source: JobG8
+job_id: jobg8-23643_225546891
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -196,35 +208,11 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Office Coordinator
-company: Adecco - Agency - Temporary
-location: Bristol
-source: JobG8
-job_id: jobg8-23643_225467962
-reason: Approved conservative Bristol launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Sales Administrator
 company: Aaron Wallis Sales Recruitment - Agency - Permanent
 location: Bristol
 source: JobG8
 job_id: jobg8-1780698
-reason: Approved conservative Bristol launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Sales Administrator
-company: Alexander Mae HR Ltd - Agency - Permanent
-location: Bristol
-source: JobG8
-job_id: jobg8-23643_225104066
 reason: Approved conservative Bristol launch catchment.
 ---
 

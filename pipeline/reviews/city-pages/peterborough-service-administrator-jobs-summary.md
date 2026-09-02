@@ -4,7 +4,7 @@
 - Live route: `/peterborough/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 9
+- Effective included jobs: 7
 - Threshold currently met: yes
 
 ## How to review
@@ -15,24 +15,24 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 9
+- automatic include: 7
 - automatic review: 4
-- automatic exclude: 15
-- effective include: 9
+- automatic exclude: 12
+- effective include: 7
 - effective review: 4
-- effective exclude: 15
+- effective exclude: 12
 
-## INCLUDE (9)
+## INCLUDE (7)
 
 ---
 action: 
 decision: include
 automatic_decision: include
-title: Administrator
-company: Barker Ross - Agency - Temporary
-location: Peterborough
-source: JobG8
-job_id: jobg8-23643_225452723
+title: Admin Assistant - Care Home
+company: Barchester Healthcare
+location: Peterborough, PE7 8NF
+source: NHS Jobs
+job_id: nhs-5571038
 reason: Approved conservative Peterborough launch catchment.
 ---
 
@@ -57,30 +57,6 @@ company: Arthur Mellows Village College
 location: Peterborough
 source: Teaching Vacancies
 job_id: teaching-vacancies-administrator-student-services-d8658259-60b3-4622-8d3d-f3f1d76a784e
-reason: Approved conservative Peterborough launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Bid & Tender Co-ordinator
-company: Huntress - Agency - Permanent
-location: Peterborough
-source: JobG8
-job_id: jobg8-23643_225450023
-reason: Approved conservative Peterborough launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Care Coordinator/Medical Receptionist
-company: Bretton Park Healthcare
-location: Peterborough, PE3 8DT, Peterborough, PE1 2UF
-source: NHS Jobs
-job_id: nhs-5530863
 reason: Approved conservative Peterborough launch catchment.
 ---
 
@@ -182,7 +158,7 @@ job_id: jobg8-23643_225519683
 reason: No approved Peterborough catchment rule matched; local review required.
 ---
 
-## EXCLUDE (15)
+## EXCLUDE (12)
 
 ---
 action: 
@@ -260,18 +236,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: ED Reception Clerical Officer - Hinchingbrooke Hospital
-company: North West Anglia NHS Foundation Trust
-location: Huntingdon, PE29 6NT
-source: NHS Jobs
-job_id: nhs-5550201
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Office Administrator
 company: St Peter's School
 location: Huntingdon
@@ -296,35 +260,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Order processing Coordinator
-company: Eclectic Recruitment - Agency - Permanent
-location: Cambridge
-source: JobG8
-job_id: jobg8-23643_225451667
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Receptionist
 company: Peasgood & Skeates - Agency - Permanent
 location: Cambridge
 source: JobG8
 job_id: jobg8-23643_225513578
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Receptionist
-company: Search Consultancy Ltd - Agency - Contract
-location: Cambridge
-source: JobG8
-job_id: jobg8-23643_225451600
 reason: Separate employment market.
 ---
 

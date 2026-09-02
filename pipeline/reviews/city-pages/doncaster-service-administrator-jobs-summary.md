@@ -4,7 +4,7 @@
 - Live route: `/doncaster/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 6
+- Effective included jobs: 7
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 6
-- automatic review: 3
+- automatic include: 7
+- automatic review: 4
 - automatic exclude: 24
-- effective include: 6
-- effective review: 3
+- effective include: 7
+- effective review: 4
 - effective exclude: 24
 
-## INCLUDE (6)
+## INCLUDE (7)
 
 ---
 action: 
@@ -45,6 +45,18 @@ company: HICA - Agency - Permanent
 location: Doncaster
 source: JobG8
 job_id: jobg8-107910255
+reason: Approved Doncaster catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Customer Service Advisor
+company: EE - Company - Permanent
+location: Doncaster
+source: JobG8
+job_id: jobg8-20279_62308-153faf593eb64b88272f45adeaa28d87
 reason: Approved Doncaster catchment.
 ---
 
@@ -96,7 +108,19 @@ job_id: nhs-5554992
 reason: Approved Doncaster catchment.
 ---
 
-## REVIEW (3)
+## REVIEW (4)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Medical Receptionist
+company: Mexborough Health Centre
+location: Mexborough, S64 0BY
+source: NHS Jobs
+job_id: nhs-5569947
+reason: No approved Doncaster catchment rule matched; local review required.
+---
 
 ---
 action: 
@@ -164,18 +188,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Administration Assistant
-company: Treeton Church of England Primary School
-location: Rotherham
-source: Teaching Vacancies
-job_id: teaching-vacancies-administration-assistant-treeton-church-of-england-primary-school-rotherham-south-yorkshire
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Administrative Assistant
 company: Sheffield Teaching Hospitals NHS Foundation Trust
 location: Sheffield, S2 3QE
@@ -193,6 +205,18 @@ company: Anonymous - Agency - Contract
 location: Barnsley
 source: JobG8
 job_id: jobg8-23643_225457187
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Administrator
+company: Office Angels - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-23643_225546289
 reason: Separate employment market.
 ---
 
@@ -320,23 +344,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Part Time Receptionist/Administrative Assistant
-company: BEYOND TALENT SOLUTIONS LIMITED - Agency - Permanent
-location: Rotherham
-source: JobG8
-job_id: jobg8-1771622
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Receptionist
-company: Beauchief Medical Practice
-location: Sheffield, S8 0BJ, Sheffield, S174DQ
+company: Hollygreen Practice
+location: Rotherham, S63 9EH, Thurnscoe, s63 0LT, BARNSLEY, S72 0EJ
 source: NHS Jobs
-job_id: nhs-5549526
+job_id: nhs-5544481
 reason: Separate employment market.
 ---
 
@@ -409,6 +421,18 @@ company: Aston Academy
 location: Sheffield
 source: Teaching Vacancies
 job_id: teaching-vacancies-send-administrator-aston-academy-sheffield-south-yorkshire
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Service Coordinator
+company: Veolia - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-23643_225545159
 reason: Separate employment market.
 ---
 

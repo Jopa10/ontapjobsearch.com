@@ -112,11 +112,11 @@ reason: Approved conservative Manchester launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Casualty Claims Handler
-company: Adjusting Appointments Limited - Agency - Permanent
-location: Manchester
-source: JobG8
-job_id: jobg8-1785991
+title: Care Navigator Receptionist
+company: Orchard Medical Centre
+location: Manchester, M28 1LZ
+source: NHS Jobs
+job_id: nhs-5571870
 reason: Approved conservative Manchester launch catchment.
 ---
 
@@ -124,11 +124,11 @@ reason: Approved conservative Manchester launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Claims Handler
-company: Everywhen, part of the Ardonagh Group - Agency - Permanent
+title: Casualty Claims Handler
+company: Adjusting Appointments Limited - Agency - Permanent
 location: Manchester
 source: JobG8
-job_id: jobg8-1769980
+job_id: jobg8-1785991
 reason: Approved conservative Manchester launch catchment.
 ---
 
@@ -232,6 +232,18 @@ reason: Approved conservative Manchester launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Internal Sales Support
+company: Jobwise Ltd - Agency - Permanent
+location: Manchester
+source: JobG8
+job_id: jobg8-23643_225547354
+reason: Approved conservative Manchester launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Lettings Administrator
 company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Manchester
@@ -256,35 +268,23 @@ reason: Approved conservative Manchester launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Medical Administrator
-company: RADCLIFFE MEDICAL PRACTICE
-location: Manchester, M26 2SP
-source: NHS Jobs
-job_id: nhs-5565500
-reason: Approved conservative Manchester launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Medical Administrator
-company: RADCLIFFE MEDICAL PRACTICE
-location: Manchester, M26 2SP
-source: NHS Jobs
-job_id: nhs-5565592
-reason: Approved conservative Manchester launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Office Assistant -Governance
 company: Hays Business Support - Agency - Temporary
 location: Manchester
 source: JobG8
 job_id: jobg8-23643_225459213
+reason: Approved conservative Manchester launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Operations Administrator
+company: MFK Recruitment - Agency - Permanent
+location: Manchester
+source: JobG8
+job_id: jobg8-1733204
 reason: Approved conservative Manchester launch catchment.
 ---
 
@@ -309,6 +309,18 @@ company: Aspire Recruitment - Agency - Temporary
 location: Manchester
 source: JobG8
 job_id: jobg8-23643_225457567
+reason: Approved conservative Manchester launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Receptionist
+company: Cherry Medical Practice
+location: Manchester, M28 0BB
+source: NHS Jobs
+job_id: nhs-5572945
 reason: Approved conservative Manchester launch catchment.
 ---
 
@@ -369,18 +381,6 @@ company: Hays Business Support - Agency - Temporary
 location: Manchester
 source: JobG8
 job_id: jobg8-23643_225537660
-reason: Approved conservative Manchester launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Sales Support Administrator
-company: Gibson Hollyhomes - Agency - Permanent
-location: Manchester
-source: JobG8
-job_id: jobg8-23643_225453508
 reason: Approved conservative Manchester launch catchment.
 ---
 

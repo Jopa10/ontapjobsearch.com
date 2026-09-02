@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 1
-- automatic review: 3
-- automatic exclude: 29
+- automatic review: 4
+- automatic exclude: 30
 - effective include: 1
-- effective review: 3
-- effective exclude: 29
+- effective review: 4
+- effective exclude: 30
 
 ## INCLUDE (1)
 
@@ -36,7 +36,19 @@ job_id: jobg8-23643_225457187
 reason: Approved Barnsley catchment.
 ---
 
-## REVIEW (3)
+## REVIEW (4)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Medical Receptionist
+company: Mexborough Health Centre
+location: Mexborough, S64 0BY
+source: NHS Jobs
+job_id: nhs-5569947
+reason: No approved Barnsley catchment rule matched; local review required.
+---
 
 ---
 action: 
@@ -74,7 +86,7 @@ job_id: jobg8-23643_225516072
 reason: No approved Barnsley catchment rule matched; local review required.
 ---
 
-## EXCLUDE (29)
+## EXCLUDE (30)
 
 ---
 action: 
@@ -116,11 +128,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Administration Assistant
-company: Treeton Church of England Primary School
-location: Rotherham
-source: Teaching Vacancies
-job_id: teaching-vacancies-administration-assistant-treeton-church-of-england-primary-school-rotherham-south-yorkshire
+title: Administrative Assistant
+company: Sheffield Teaching Hospitals NHS Foundation Trust
+location: Sheffield, S2 3QE
+source: NHS Jobs
+job_id: nhs-5565689
 reason: Separate employment market.
 ---
 
@@ -128,11 +140,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Administrative Assistant
-company: Sheffield Teaching Hospitals NHS Foundation Trust
-location: Sheffield, S2 3QE
-source: NHS Jobs
-job_id: nhs-5565689
+title: Administrator
+company: Office Angels - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-23643_225546289
 reason: Separate employment market.
 ---
 
@@ -236,6 +248,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Customer Service Advisor
+company: EE - Company - Permanent
+location: Doncaster
+source: JobG8
+job_id: jobg8-20279_62308-153faf593eb64b88272f45adeaa28d87
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Customer Service Advisor - Uncapped Commission
 company: EE - Company - Permanent
 location: Sheffield
@@ -272,18 +296,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Part Time Receptionist/Administrative Assistant
-company: BEYOND TALENT SOLUTIONS LIMITED - Agency - Permanent
-location: Rotherham
-source: JobG8
-job_id: jobg8-1771622
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Production Administrator
 company: Austin Banks - Agency - Permanent
 location: Doncaster
@@ -309,10 +321,10 @@ action:
 decision: exclude
 automatic_decision: exclude
 title: Receptionist
-company: Beauchief Medical Practice
-location: Sheffield, S8 0BJ, Sheffield, S174DQ
+company: Hollygreen Practice
+location: Rotherham, S63 9EH, Thurnscoe, s63 0LT, BARNSLEY, S72 0EJ
 source: NHS Jobs
-job_id: nhs-5549526
+job_id: nhs-5544481
 reason: Separate employment market.
 ---
 
@@ -409,6 +421,18 @@ company: Aston Academy
 location: Sheffield
 source: Teaching Vacancies
 job_id: teaching-vacancies-send-administrator-aston-academy-sheffield-south-yorkshire
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Service Coordinator
+company: Veolia - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-23643_225545159
 reason: Separate employment market.
 ---
 

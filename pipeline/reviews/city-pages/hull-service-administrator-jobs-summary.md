@@ -88,6 +88,18 @@ reason: Approved conservative Hull launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Clinical Team Administrator
+company: Tees Esk and Wear Valleys NHS Foundation Trust
+location: Hull, HU9 5LS
+source: NHS Jobs
+job_id: nhs-5572582
+reason: Approved conservative Hull launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Graduate Administrator
 company: Edwards & Pearce - Doncaster - Agency - Permanent
 location: Hull
@@ -148,11 +160,11 @@ reason: Approved conservative Hull launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Reigonal Network Coordinator (Maternity Cover)
-company: Vizion Network - Agency - Permanent
-location: Hull
-source: JobG8
-job_id: jobg8-23643_225451205
+title: Receptionist
+company: The Oaks Medical Centre
+location: Hull, HU4 6RF
+source: NHS Jobs
+job_id: nhs-5570885
 reason: Approved conservative Hull launch catchment.
 ---
 
@@ -180,29 +192,17 @@ job_id: jobg8-1734284
 reason: Approved conservative Hull launch catchment.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Senior Administrator
-company: Hull University Teaching Hospitals NHS Trust
-location: Hull, HU16 5JQ
-source: NHS Jobs
-job_id: nhs-5559811
-reason: Approved conservative Hull launch catchment.
----
-
 ## REVIEW (4)
 
 ---
 action: 
 decision: review
 automatic_decision: review
-title: Care Navigator / Receptionist
-company: The Ridings Medical Group
-location: HESSLE, HU13 9LZ, Brough, HU15 2JG, Brough, HU15 1AY, York, YO43 4BJ, Selby, YO8 6LY
-source: NHS Jobs
-job_id: nhs-5550886
+title: Market Research Coordinator
+company: Elevation Recruitment Group - Agency - Permanent
+location: Driffield
+source: JobG8
+job_id: jobg8-1776844
 reason: No approved Hull catchment rule matched; local review required.
 ---
 
