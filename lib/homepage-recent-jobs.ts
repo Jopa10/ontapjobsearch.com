@@ -2,6 +2,15 @@ import type { PublishedJob } from '@/lib/published-jobs';
 
 const recentWindowMs = 48 * 60 * 60 * 1000;
 
+export function formatHomepageSalary(value: string): string {
+  const cleaned = value.replaceAll('Â£', '£');
+  if (!/\b(per year|per annum|annual(?:ly)?|p\.?a\.?)\b/i.test(cleaned)) return cleaned;
+
+  return cleaned.replace(/£\s*(\d{4,})(?![\d,])/g, (_, amount: string) =>
+    `£${Number(amount).toLocaleString('en-GB')}`
+  );
+}
+
 function hasClearSalary(job: PublishedJob): boolean {
   return /\d/.test(job.salary_text.trim());
 }
