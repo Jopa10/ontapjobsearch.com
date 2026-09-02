@@ -107,6 +107,7 @@
     "West Midlands - Black Country": { "slug": "black-country", "anchor_town": "Wolverhampton" },
     "Worcestershire": { "slug": "worcestershire", "anchor_town": "Worcester" },
     "Scotland Central - Edinburgh & Lothians": { "slug": "edinburgh-lothians", "anchor_town": "Edinburgh" },
-    "Scotland West - Glasgow": { "slug": "glasgow", "anchor_town": "Glasgow" }
+    "Scotland West - Glasgow": { "slug": "glasgow", "anchor_town": "Glasgow" },
+    "Wales South - Cardiff & Vale": { "slug": "cardiff-vale", "anchor_town": "Cardiff" }
   }
 }
