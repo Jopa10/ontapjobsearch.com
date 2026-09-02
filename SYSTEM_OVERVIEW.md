@@ -7,6 +7,8 @@ This is the short owner view of how Ontap is organised. It mirrors the five cano
 
 ## Recent canonical changes
 
+- 2 September 2026 — **Repeated Customer Service recruitment campaigns count once:** JobG8 can send one employer campaign under many IDs and synonymous titles. Customer Service diagnostics and LIVE pages now collapse those variants and reject adverts whose opening location belongs to another region. This prevents the North East's 78 raw rows—mostly one EE campaign—from being mistaken for 78 separate opportunities.
+
 - 2 September 2026 — **Twelve more regional slices are LIVE:** Wales South – Cardiff & Vale Service Admin; Berkshire, Hertfordshire, Kent, Glasgow, Surrey and Sussex Sales Advisor; and Bristol & Bath, Gloucestershire, Hertfordshire, Kent and Oxfordshire Marketing. Their most recent governed counts are respectively **9**; **8, 9, 9, 7, 6, 7**; and **8, 7, 9, 7, 9**. No other slice changes.
 
 - 2 September 2026 — **All four daily regional overview sheets now use one JobG8 feed date:** the daily JobG8 run refreshes the JobG8 category sheet from its own feed and prepared published outputs, while the overview blocks any mixed-date workbook. Sitewide, JobG8 categories, LIVE and NOT LIVE therefore represent the same most recent successful JobG8 run.

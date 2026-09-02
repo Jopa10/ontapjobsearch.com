@@ -497,6 +497,8 @@ def _assess_customer_service(
     target_regions = set(regions)
     counts = {region: 0 for region in regions}
     seen_ids: dict[str, set[str]] = defaultdict(set)
+    seen_campaigns: dict[str, set[str]] = defaultdict(set)
+    location_lookup = sales_refine.load_location_lookup()
 
     for _, row in feed.iterrows():
         title = customer_service.norm(row.get(customer_service.admin.COL["title"]))
@@ -529,6 +531,14 @@ def _assess_customer_service(
         for region in candidate_regions:
             if region not in target_regions or job_id in seen_ids[region]:
                 continue
+            if sales_refine.location_conflict(title, description, region, location_lookup):
+                continue
+            employer = customer_service.norm(
+                row.get(customer_service.admin.COL["advertiser_name"])
+            )
+            campaign = sales.campaign_key(region, employer, description, title)
+            if campaign in seen_campaigns[region]:
+                continue
             salary = customer_service.assess_salary(
                 salary_min=row.get(customer_service.admin.COL["salary_min"]),
                 salary_max=row.get(customer_service.admin.COL["salary_max"]),
@@ -540,6 +550,7 @@ def _assess_customer_service(
             if salary.corrupt or salary.review_required:
                 continue
             seen_ids[region].add(job_id)
+            seen_campaigns[region].add(campaign)
             counts[region] += 1
 
     return feed_date, counts
