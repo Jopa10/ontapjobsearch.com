@@ -7,12 +7,28 @@ from scripts.build_daily_region_overview import (
     FAMILIES,
     _live_count_for_market,
     _load_jobg8_category_profile,
+    _load_family_coverage_date,
     _site_inventory_summary,
 )
 from scripts.live_job_source_counter import LiveInventory, LiveJob, LivePlacement
 
 
 class LiveRegionalRollupTests(unittest.TestCase):
+    def test_family_coverage_requires_one_feed_date(self) -> None:
+        from pathlib import Path
+        import tempfile
+        with tempfile.TemporaryDirectory() as directory:
+            coverage = Path(directory) / "reports-daily" / "daily-family-coverage.csv"
+            coverage.parent.mkdir()
+            coverage.write_text(
+                "feed_date,region,family,selected_count\n"
+                "2026-09-02,London,service_admin,2\n"
+                "2026-09-02,Kent,service_admin,1\n",
+                encoding="utf-8",
+            )
+            with patch("scripts.build_daily_region_overview.PIPELINE_ROOT", Path(directory)):
+                self.assertEqual(_load_family_coverage_date(), "2026-09-02")
+
     def test_jobg8_profile_reconciles_category_counts(self) -> None:
         from pathlib import Path
         import tempfile

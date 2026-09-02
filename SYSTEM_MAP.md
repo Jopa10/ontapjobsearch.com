@@ -7,6 +7,8 @@ This is the authoritative technical map of the persistent Ontap system. It is or
 
 ## Recent canonical changes
 
+- 2 September 2026 — **Daily overview enforces one JobG8 feed date across all four sheets:** the full JobG8 daily process now writes the supplier-category and published-category profile from the same materialised feed and prepared JobG8 outputs used for that run. The overview refuses to build if that profile date differs from the 78-market family-coverage date, preventing a current Sitewide/LIVE/NOT LIVE workbook from silently carrying a previous day's JobG8 categories.
+
 - 2 September 2026 — **Homepage recent jobs diversified automatically:** the four-card homepage block uses genuine published vacancies from the newest 48-hour window with a clear numeric salary, then prefers distinct role families, regions and normalised titles before filling any remaining spaces. This prevents blank-pay cards and one same-source burst, such as several receptionist vacancies, from visually narrowing Ontap's range; no carousel, manual curation or publishing change is introduced.
 
 - 1 September 2026 — **Homepage discovery hierarchy strengthened:** the homepage now leads with a branded search hero, dynamic live-job count and direct-apply/no-signup trust signals, followed by four of the newest real published vacancies before the existing role-and-region directory. Search behaviour, job destinations, routes and publishing pipelines are unchanged.

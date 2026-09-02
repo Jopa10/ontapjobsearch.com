@@ -7,6 +7,8 @@ This is the short owner view of how Ontap is organised. It mirrors the five cano
 
 ## Recent canonical changes
 
+- 2 September 2026 — **All four daily regional overview sheets now use one JobG8 feed date:** the daily JobG8 run refreshes the JobG8 category sheet from its own feed and prepared published outputs, while the overview blocks any mixed-date workbook. Sitewide, JobG8 categories, LIVE and NOT LIVE therefore represent the same most recent successful JobG8 run.
+
 - 2 September 2026 — **The homepage's four recent vacancies now show breadth:** cards come from genuine jobs in the newest 48-hour window only when they include a clear numeric salary, and the automatic choice prefers different roles, regions and titles instead of repeating one vacancy type from a source burst.
 
 - 1 September 2026 — **The homepage makes Ontap's value clearer:** a stronger search-first hero shows the live vacancy count and the Apply direct, No signup and Updated daily promises. Four newly posted real jobs now appear before the unchanged role-and-region directory.

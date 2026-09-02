@@ -362,6 +362,18 @@ jobs:
           print('Verified 78 assessable UK markets x 8 families plus rolling 14-day history')
           PY
 
+      - name: Build same-feed JobG8 category profile
+        run: |
+          cd pipeline
+          python -m unittest tests.test_build_jobg8_category_profile -v
+          cd ..
+          python pipeline/scripts/build_jobg8_category_profile.py \
+            --input pipeline/input/jobg8.xlsx \
+            --coverage pipeline/reports-daily/daily-family-coverage.csv \
+            --published-output-dir pipeline/output-admin-service \
+            --published-output-dir pipeline/output-support-worker \
+            --output pipeline/reports-daily/jobg8-feed-category-profile.csv
+
       - name: Test persistent review and exclusion behavior
         working-directory: pipeline
         run: python -m unittest discover -s tests -p 'test_persistent_jobg8_review.py' -v
@@ -415,7 +427,7 @@ jobs:
             exit 0
           fi
 
-          unexpected_files="$({ printf '%s\n' "$staged_files" | awk '$0 !~ /^pipeline\/output-admin-service\/.*\.json$/ && $0 !~ /^pipeline\/output-support-worker\/.*\.json$/ && $0 !~ /^pipeline\/reports-daily\/(decision-report|validation-report|selection-summary-report)-(admin-service|support-worker)\.csv$/ && $0 != "pipeline/reports-daily/potential-jobg8-duplicates.csv" && $0 != "pipeline/reports-daily/daily-family-coverage.csv" && $0 != "pipeline/reports-daily/daily-family-coverage-history.json" && $0 != "pipeline/reports-daily/jobg8-daily-cycle-state.json" && $0 != "pipeline/reviews/external/nhs-jobs-review.csv" && $0 != "pipeline/reviews/external/nhs-jobs-summary.md" && $0 != "pipeline/reviews/external/nhs-jobs-decisions.csv"'; } || true)"
+          unexpected_files="$({ printf '%s\n' "$staged_files" | awk '$0 !~ /^pipeline\/output-admin-service\/.*\.json$/ && $0 !~ /^pipeline\/output-support-worker\/.*\.json$/ && $0 !~ /^pipeline\/reports-daily\/(decision-report|validation-report|selection-summary-report)-(admin-service|support-worker)\.csv$/ && $0 != "pipeline/reports-daily/potential-jobg8-duplicates.csv" && $0 != "pipeline/reports-daily/daily-family-coverage.csv" && $0 != "pipeline/reports-daily/daily-family-coverage-history.json" && $0 != "pipeline/reports-daily/jobg8-feed-category-profile.csv" && $0 != "pipeline/reports-daily/jobg8-daily-cycle-state.json" && $0 != "pipeline/reviews/external/nhs-jobs-review.csv" && $0 != "pipeline/reviews/external/nhs-jobs-summary.md" && $0 != "pipeline/reviews/external/nhs-jobs-decisions.csv"'; } || true)"
           if [ -n "$unexpected_files" ]; then
             echo "::error::Refusing to commit files outside JobG8 daily output folders. Staged files:"
             printf '%s\n' "$unexpected_files"
