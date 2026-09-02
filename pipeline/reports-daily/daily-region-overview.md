@@ -1,6 +1,6 @@
 # Ontap daily regional overview
 
-Generated: 2026-09-02T11:52:17+01:00
+Generated: 2026-09-02T12:17:22+01:00
 
 [Download this overview as Excel](./daily-region-overview.xlsx)
 
@@ -8,16 +8,16 @@ Generated: 2026-09-02T11:52:17+01:00
 
 | Measure | Count |
 |---|---:|
-| Unique live jobs | 1,752 |
+| Unique live jobs | 1,749 |
 | Unique JobG8 jobs | 1,390 |
-| Unique non-JobG8 jobs | 362 |
-| Regional/category slice placements | 1,801 |
+| Unique non-JobG8 jobs | 359 |
+| Regional/category slice placements | 1,798 |
 | Jobs appearing on multiple slices | 49 |
 | Extra slice placements | 49 |
 | Unique jobs outside governed slices | 0 |
 | Jobs found in non-LIVE slices | 0 |
 
-**Reconciliation: 1,752 unique jobs + 49 extra slice placements = 1,801 regional/category slice placements.**
+**Reconciliation: 1,749 unique jobs + 49 extra slice placements = 1,798 regional/category slice placements.**
 
 Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-09-02.csv` — **STALE — CSV says 1,772 for 2026-09-02**.
 
@@ -28,7 +28,7 @@ Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-09-0
 | JobG8 | 1,390 | 49 | 49 |
 | NEJobs | 19 | 0 | 0 |
 | NHS Jobs | 230 | 0 | 0 |
-| Teaching Vacancies | 112 | 0 | 0 |
+| Teaching Vacancies | 109 | 0 | 0 |
 | VONNE | 1 | 0 | 0 |
 
 ## JOBG8 FEED RECEIVED
@@ -65,7 +65,7 @@ Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-09-0
 | Berkshire | 29 |  | CHECK |  | 13 |  | 2 |  |
 | Bristol & Bath | 25 |  | 8 |  | CHECK | CHECK |  |  |
 | Buckinghamshire | 28 |  |  |  | 12 |  |  |  |
-| Cambridgeshire | 22 |  |  |  |  |  |  |  |
+| Cambridgeshire | 21 |  |  |  |  |  |  |  |
 | Cheshire - East | 11 |  |  |  |  |  |  |  |
 | Cheshire - Warrington & Halton | 2 |  |  |  |  |  |  |  |
 | Cheshire - West | 10 |  |  |  |  |  |  |  |
@@ -107,7 +107,7 @@ Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-09-0
 | Northern Ireland - East | 3 |  |  |  |  | CHECK |  |  |
 | Northern Ireland - West |  |  |  |  |  |  |  |  |
 | Nottinghamshire | 27 |  |  |  |  |  | 3 |  |
-| Oxfordshire | 41 | 2 |  |  | CHECK |  |  |  |
+| Oxfordshire | 39 | 2 |  |  | CHECK |  |  |  |
 | Rutland |  |  |  |  |  |  |  |  |
 | Scotland - Borders |  |  |  |  |  |  |  |  |
 | Scotland Central - Edinburgh & Lothians | 11 |  |  |  |  |  |  |  |
@@ -230,6 +230,6 @@ Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-09-0
 | Measure | Service admin | Support worker | Sales advisor | Paralegal | Marketing | Finance / Accounts | HR / Recruitment | CS / Contact centre |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
 | Live regions | 48 / 78 | 11 / 78 | 11 / 78 | 4 / 78 | 11 / 78 | 8 / 78 | 6 / 78 | 4 / 78 |
-| Live slice placements | 1466 + 1 CHECK | 38 + 1 CHECK | 89 + 6 CHECK | 24 + 1 CHECK | 124 + 5 CHECK | 0 + 8 CHECK | 26 | 34 |
+| Live slice placements | 1463 + 1 CHECK | 38 + 1 CHECK | 89 + 6 CHECK | 24 + 1 CHECK | 124 + 5 CHECK | 0 + 8 CHECK | 26 | 34 |
 
 **Live slices: 103 / 624.**
