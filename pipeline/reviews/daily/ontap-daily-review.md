@@ -1,12 +1,12 @@
 # Ontap daily job review
 
-> **NOT READY TO REVIEW — waiting for: NEJobs**
+> **NOT READY TO REVIEW — waiting for: NEJobs, VONNE, Teaching Vacancies**
 > Do not start reviewing yet. Rebuild this review after those source refreshes complete.
 
-review_date: 2026-09-01
-generated_at: 2026-09-01T12:44:20+00:00
+review_date: 2026-09-02
+generated_at: 2026-09-02T08:39:56+00:00
 
-**57 job(s) need a human decision.**
+**59 job(s) need a human decision.**
 
 Edit only each `action:` line:
 - `action: select` = include the vacancy.
@@ -21,15 +21,123 @@ Edit only each `action:` line:
 
 | Source | Status | Review date | Needs review | Note |
 |---|---|---|---:|---|
-| JobG8 | OK | 2026-09-01 | 45 | — |
+| JobG8 | OK | 2026-09-02 | 59 | — |
 | NEJobs | STALE | 2026-08-31 | 0 | — |
-| VONNE | OK | 2026-09-01 | 1 | — |
-| Teaching Vacancies | OK | 2026-09-01 | 11 | — |
-| NHS Jobs | OK | 2026-09-01 | 0 | automatic Tier A/B publish; NHS POSS stays in the NHS-specific review and is optional |
+| VONNE | STALE | 2026-09-01 | 0 | — |
+| Teaching Vacancies | STALE | 2026-09-01 | 0 | — |
+| NHS Jobs | OK | 2026-09-02 | 0 | automatic Tier A/B publish; NHS POSS stays in the NHS-specific review and is optional |
 
 > **Attention:** one or more active source reviews are stale or missing. Those sources contribute no jobs to this file and must not be treated as zero inventory.
 
-## JobG8 — 45 to review
+## JobG8 — 59 to review
+
+---
+action:
+POSS | JobG8 | Bedfordshire | Bedfordshire | £28000 - £32000 per year | Assistant Town Planner
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 23643_225460898
+title: Assistant Town Planner
+employer: 
+location: Bedfordshire
+region: Bedfordshire
+salary: £28000 - £32000 per year
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: f3abb496eb8ee82e02f64163d611916d9e9717611dc145d0aa05ecbb964ca97c
+---
+
+---
+action:
+POSS | JobG8 | Bedfordshire | Bedfordshire | £20.88 - £27.61 per hour | Estate Operations Coordinator
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 23643_225365242
+title: Estate Operations Coordinator
+employer: 
+location: Bedfordshire
+region: Bedfordshire
+salary: £20.88 - £27.61 per hour
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: 33ef7cd0548e7f691de0ad1318f451d913d2996172bef90807eb1d4a6818a281
+---
+
+---
+action:
+POSS | JobG8 | Bedfordshire | Bedfordshire | £35000 per year | Learning & Development Coordinator
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 107776346
+title: Learning & Development Coordinator
+employer: 
+location: Bedfordshire
+region: Bedfordshire
+salary: £35000 per year
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: 18e109982aacc4d99c9b522f15057ac45968a2d5aafd365193991b42c1f8fca2
+---
+
+---
+action:
+POSS | JobG8 | Bedfordshire | Bedfordshire | £30000 - £32000 per year (bonus scheme) | Operations Administrator
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 23643_225548201
+title: Operations Administrator
+employer: 
+location: Bedfordshire
+region: Bedfordshire
+salary: £30000 - £32000 per year (bonus scheme)
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: 004ac8c0cadda4b3f39187937b9fea981b12975b337153f4f51078576efa0a21
+---
+
+---
+action:
+POSS | JobG8 | Bedfordshire | Bedfordshire | £26400 - £35000 per year | Production Administrator
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 23643_225521203
+title: Production Administrator
+employer: 
+location: Bedfordshire
+region: Bedfordshire
+salary: £26400 - £35000 per year
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: e31a59e0376fb2025cd78514d5289a0ad5a32e7f3e2f626999f88d9c7d385a5b
+---
+
+---
+action:
+POSS | JobG8 | Bedfordshire | Bedfordshire | £19.5 - £20 per hour | Project Coordinator
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 23643_225553976
+title: Project Coordinator
+employer: 
+location: Bedfordshire
+region: Bedfordshire
+salary: £19.5 - £20 per hour
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: 0613ab4b9f93f653265adc34518f3769207879e9a3d8de4f4c8f07f3667d3588
+---
 
 ---
 action: select
@@ -101,6 +209,24 @@ closing_date:
 reason: JobG8 selector marked this vacancy POSS
 source_url: 
 hub_fingerprint: 6bf850fb814423617c9aca73f003a2879ed65e4d678346a9fefe9ee05a0f84c4
+---
+
+---
+action:
+POSS | JobG8 | Cheshire - Warrington & Halton | Warrington | £35000 - £35001 per year | Commercial Administrator
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 23643_225545989
+title: Commercial Administrator
+employer: 
+location: Warrington
+region: Cheshire - Warrington & Halton
+salary: £35000 - £35001 per year
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: e17d946aafc26d31dc5a08fc0665fe36d70550b06a47ce44037d3e0013d57b4f
 ---
 
 ---
@@ -212,24 +338,6 @@ hub_fingerprint: 8297770f0b103648608114e43b1ba6617744eefad3211e2ebd8d14a9cb32761
 ---
 
 ---
-action: exclude
-POSS | JobG8 | Gloucestershire | Gloucestershire | £306 per daily | Windchill Administrator
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 107911441
-title: Windchill Administrator
-employer: 
-location: Gloucestershire
-region: Gloucestershire
-salary: £306 per daily
-closing_date: 
-reason: JobG8 selector marked this vacancy POSS
-source_url: 
-hub_fingerprint: abdecb401cec286e0635fd5ac0ea7a2fcbaeb28c54cafc24b7223e3f515d89c0
----
-
----
 action: select
 POSS | JobG8 | Greater Manchester - Manchester & Salford | Manchester | £32,000.00 per annum | Continuous Improvement Coordinator
 source_key: jobg8
@@ -281,6 +389,24 @@ closing_date:
 reason: JobG8 selector marked this vacancy POSS
 source_url: 
 hub_fingerprint: 4a11125ab8071521d7492c8362fe33c6b78a203897a5f16daa63fd2125a38b18
+---
+
+---
+action:
+POSS | JobG8 | Greater Manchester - South | Altrincham | £30000 - £32000 per year | Scheduling Coordinator
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 23643_225546542
+title: Scheduling Coordinator
+employer: 
+location: Altrincham
+region: Greater Manchester - South
+salary: £30000 - £32000 per year
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: 7e1b5f87b94a9e9e10a0c9cd12972a026ec6efd58acd1bff02d739369f07de75
 ---
 
 ---
@@ -338,6 +464,24 @@ hub_fingerprint: f32e3ad5431fd7d3c1fe5419a031fd0d64814679d35f2787029802f7459fe99
 ---
 
 ---
+action:
+POSS | JobG8 | Hampshire | Hampshire | £20.43 per hour | Quality Assurance Coordinator
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 107910998
+title: Quality Assurance Coordinator
+employer: 
+location: Hampshire
+region: Hampshire
+salary: £20.43 per hour
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: 87be6b0c745c1ae6a174f5743b529a922a6e8c8c087863c567aa09bd27b299ea
+---
+
+---
 action: select
 POSS | JobG8 | Hampshire | Havant | £33178 - £36369 per year | Support Worker (Out of Hours)
 source_key: jobg8
@@ -371,6 +515,24 @@ closing_date:
 reason: JobG8 selector marked this vacancy POSS
 source_url: 
 hub_fingerprint: 59a09068c6c15e053da38c26396fa2af45fd525de2c7a20a0a0d03c1a9700be1
+---
+
+---
+action:
+POSS | JobG8 | Hertfordshire | Hertfordshire | £32100 per year | Service Advisor
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 23643_225546661
+title: Service Advisor
+employer: 
+location: Hertfordshire
+region: Hertfordshire
+salary: £32100 per year
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: 8ca73f45d5dfd2317d4c7fd6095f0b7ac51b719253f07215a29ab5bb70f7e943
 ---
 
 ---
@@ -555,24 +717,6 @@ hub_fingerprint: d8402eb033f919caeef84585119a77a2321cc3c79559719c32ff0316c7909ee
 
 ---
 action: exclude
-POSS | JobG8 | London | London | £400 per daily | Project Coordinator
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 1802628
-title: Project Coordinator
-employer: 
-location: London
-region: London
-salary: £400 per daily
-closing_date: 
-reason: JobG8 selector marked this vacancy POSS
-source_url: 
-hub_fingerprint: 4f5435874f9a1f5f22f03302f04a512f88c7938b7a688807b41564e12cb08172
----
-
----
-action: exclude
 POSS | JobG8 | London | London | £60000 - £75000 per year | Project Coordinator
 source_key: jobg8
 source: JobG8
@@ -608,21 +752,21 @@ hub_fingerprint: e5e229f28d07435cf9910a8352f4db06ca8227495303d827c48c0f41fade506
 ---
 
 ---
-action: exclude
-POSS | JobG8 | Northern Ireland - East | Ballymena | £40000 per year | Planning & Logistics Co-ordinator
+action:
+POSS | JobG8 | Northamptonshire | Northamptonshire | £30500 per year | Customer Service Advisor - Dutch
 source_key: jobg8
 source: JobG8
 category: admin_service
-source_job_id: 107793717
-title: Planning & Logistics Co-ordinator
+source_job_id: 23643_225449834
+title: Customer Service Advisor - Dutch
 employer: 
-location: Ballymena
-region: Northern Ireland - East
-salary: £40000 per year
+location: Northamptonshire
+region: Northamptonshire
+salary: £30500 per year
 closing_date: 
 reason: JobG8 selector marked this vacancy POSS
 source_url: 
-hub_fingerprint: 39495c7678596a9a93e19542a43c02d110680ae39cb0550a1241db36d8187820
+hub_fingerprint: bd05974a8be4bd8baf1f497021423c8499a9ad17b549e5f124440dd1d8a89cfc
 ---
 
 ---
@@ -662,6 +806,78 @@ hub_fingerprint: 47c844f14a0e1125747eb20b1d09b17e10127ac21006e3de023905cfcd88d80
 ---
 
 ---
+action:
+POSS | JobG8 | Oxfordshire | Oxfordshire | £13 - £16 per hour (Holiday Pay) | Temporary Office Assistant
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 23643_225544109
+title: Temporary Office Assistant
+employer: 
+location: Oxfordshire
+region: Oxfordshire
+salary: £13 - £16 per hour (Holiday Pay)
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: a184eb93f41acb644233a6a31f134fee8f80604957d7176f26086abd3e000946
+---
+
+---
+action:
+POSS | JobG8 | Scotland West - Glasgow | Glasgow | £16.41 per hour (Depending on experience) | Office Receptionist
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 23643_225548786
+title: Office Receptionist
+employer: 
+location: Glasgow
+region: Scotland West - Glasgow
+salary: £16.41 per hour (Depending on experience)
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: f8bd64a5fe737ff889542b019d3dd5ac54cd7965ddf7cbd5dcad72fdafbfb7f5
+---
+
+---
+action:
+POSS | JobG8 | Staffordshire | Staffordshire | £30000 - £35000 per year | Stock & Purchasing Coordinator
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 23643_225543603
+title: Stock & Purchasing Coordinator
+employer: 
+location: Staffordshire
+region: Staffordshire
+salary: £30000 - £35000 per year
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: 9248e9c3152275e35a41ea98d3b94c9b545e81f4523f6d151ed90e66a1c7cbf9
+---
+
+---
+action:
+POSS | JobG8 | Suffolk | Suffolk | £40000 - £45000 per year | Document Controller
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 23643_225545103
+title: Document Controller
+employer: 
+location: Suffolk
+region: Suffolk
+salary: £40000 - £45000 per year
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: 286c41559dca70c78bc098f480914460fc94fdd81d935705988b3a25cd0770d0
+---
+
+---
 action: exclude
 POSS | JobG8 | Surrey | Staines | £30000 - £40000 per year | IT Project Coordinator
 source_key: jobg8
@@ -677,6 +893,24 @@ closing_date:
 reason: JobG8 selector marked this vacancy POSS
 source_url: 
 hub_fingerprint: 6eca904f322f3965e411a49a1d2d072f9914f2e668ce722942379ac9ffa87b70
+---
+
+---
+action:
+POSS | JobG8 | West Midlands - Birmingham & Solihull | Birmingham | £16 per hour | Executive Administrator
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 23643_225332726
+title: Executive Administrator
+employer: 
+location: Birmingham
+region: West Midlands - Birmingham & Solihull
+salary: £16 per hour
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: 9937bbcca9b0b760b2cfad46592933ab4cb56345dbfdc856bb911ff4218d955b
 ---
 
 ---
@@ -788,6 +1022,24 @@ hub_fingerprint: 2032e69915540ef71fd927a609deef309ccb77171c4c9577f2f68bb50a920a2
 ---
 
 ---
+action:
+POSS | JobG8 | Yorkshire - South | Sheffield | £36000 per year | Executive Assistant
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 23643_225546545
+title: Executive Assistant
+employer: 
+location: Sheffield
+region: Yorkshire - South
+salary: £36000 per year
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: 81ae60643ce0d48fdaea92413586848756f9dcb83b2c64c242c8ed5ebd5ca994
+---
+
+---
 action: exclude
 POSS | JobG8 | Yorkshire - West | Bradford | £43017 per year | Salesforce Administrator (ICT)
 source_key: jobg8
@@ -839,226 +1091,6 @@ closing_date:
 reason: JobG8 selector marked this vacancy POSS
 source_url: 
 hub_fingerprint: 101a7daac8c2b7972a9d7963347f8bcc7defe30cdad4f363cd023ebb0ed2d3b2
----
-
-## VONNE — 1 to review
-
----
-action: select
-POSS | VONNE | North East - Tyneside, Wearside & Northumberland | Tyne and Wear | £23,370 to 23,790 | Receptionist
-source_key: vonne
-source: VONNE
-category: admin_service
-source_job_id: 173374
-title: Receptionist
-employer: Foundation of Light
-location: Tyne and Wear
-region: North East - Tyneside, Wearside & Northumberland
-salary: £23,370 to 23,790
-closing_date: Friday, September 11, 2026 - 00:00
-reason: possible cross-source duplicate requires review
-source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173374
-hub_fingerprint: 84c2c6fd7152830b8f2c3816ea6b7a0a9deecf2410a41386c7a55728a4a95bf1
----
-
-## Teaching Vacancies — 11 to review
-
----
-action: select
-POSS | Teaching Vacancies | Hertfordshire | Chorleywood, WD3 6EW | £29,540.00 Annually (FTE) | HR Advisor
-source_key: teaching_vacancies
-source: Teaching Vacancies
-category: admin_service
-source_job_id: hr-advisor-eb9c5bf8-2603-48ba-bfc8-df41ec1204b1
-title: HR Advisor
-employer: Danes Educational Trust
-location: Chorleywood, WD3 6EW
-region: Hertfordshire
-salary: £29,540.00 Annually (FTE)
-closing_date: 2026-09-21T09:00:00+01:00
-reason: Administrative duties evidenced in description
-source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-advisor-eb9c5bf8-2603-48ba-bfc8-df41ec1204b1
-hub_fingerprint: 63b4e126d7161a29af59f6b4707d4ecce289454298cb2b113bdaedd0133e4766
----
-
----
-action: select
-POSS | Teaching Vacancies | Kent | Canterbury, CT1 1NQ | £28,182.00 Annually (FTE) Actual annual salary £ 26057.39 | HR administrator
-source_key: teaching_vacancies
-source: Teaching Vacancies
-category: admin_service
-source_job_id: hr-administrator-the-diocese-of-canterbury-academies-trust
-title: HR administrator
-employer: The Diocese Of Canterbury Academies Trust
-location: Canterbury, CT1 1NQ
-region: Kent
-salary: £28,182.00 Annually (FTE) Actual annual salary £ 26057.39
-closing_date: 2026-09-07T23:59:00+01:00
-reason: Possible JobG8 duplicate requires review
-source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-the-diocese-of-canterbury-academies-trust
-hub_fingerprint: 2cb63b58beb5bae384e9e052e7d9410c3f0dc582b6d8cca6b7a6e00b205fa430
----
-
----
-action: select
-POSS | Teaching Vacancies | Kent | Sheerness, South East, ME12 3AP | £8,557.00 - £8,693.00 Annually (Actual) | Receptionist
-source_key: teaching_vacancies
-source: Teaching Vacancies
-category: admin_service
-source_job_id: receptionist-nore-academy
-title: Receptionist
-employer: Nore Academy
-location: Sheerness, South East, ME12 3AP
-region: Kent
-salary: £8,557.00 - £8,693.00 Annually (Actual)
-closing_date: 2026-09-04T12:00:00+01:00
-reason: Possible JobG8 duplicate requires review
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-nore-academy
-hub_fingerprint: 1bc4d13ea6c2ee61d760d55cbded78b35311c5e01857d2d620f75de6e289be06
----
-
----
-action: select
-POSS | Teaching Vacancies | Lincolnshire | Spalding, East Midlands, PE11 2EH | £23,973.00 - £26,409.00 Annually (Actual) G5.12-15 £27,254 - £30,024 FTE | HR Administrator
-source_key: teaching_vacancies
-source: Teaching Vacancies
-category: admin_service
-source_job_id: hr-administrator-tulip-academy
-title: HR Administrator
-employer: Tulip Academy
-location: Spalding, East Midlands, PE11 2EH
-region: Lincolnshire
-salary: £23,973.00 - £26,409.00 Annually (Actual) G5.12-15 £27,254 - £30,024 FTE
-closing_date: 2026-09-07T23:59:00+01:00
-reason: Possible JobG8 duplicate requires review
-source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-tulip-academy
-hub_fingerprint: 49188d67866c546cc12434263960a78ecc42aedcb4669b54e7c0abc7f608016f
----
-
----
-action: select
-POSS | Teaching Vacancies | London | Borehamwood, East of England, WD6 2DW | £25,583.00 - £25,989.00 Annually (FTE) Hours Required: 8.30am to 3.30pm | Administrator
-source_key: teaching_vacancies
-source: Teaching Vacancies
-category: admin_service
-source_job_id: administrator-summerswood-primary-school
-title: Administrator
-employer: Summerswood Primary School
-location: Borehamwood, East of England, WD6 2DW
-region: London
-salary: £25,583.00 - £25,989.00 Annually (FTE) Hours Required: 8.30am to 3.30pm
-closing_date: 2026-09-04T08:00:00+01:00
-reason: Possible JobG8 duplicate requires review
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-summerswood-primary-school
-hub_fingerprint: 78a3e99b6bd8cb41fd331d48a203a50e9603a7e272eded8b52a439c26dd5e735
----
-
----
-action: select
-POSS | Teaching Vacancies | London | Dagenham, London, RM9 6PH | £25,514.00 Annually (Actual) | Administrative Assistant
-source_key: teaching_vacancies
-source: Teaching Vacancies
-category: admin_service
-source_job_id: administrative-assistant-pathways-school
-title: Administrative Assistant
-employer: Pathways School
-location: Dagenham, London, RM9 6PH
-region: London
-salary: £25,514.00 Annually (Actual)
-closing_date: 2026-09-11T23:59:00+01:00
-reason: Possible JobG8 duplicate requires review
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-pathways-school
-hub_fingerprint: 2151d7e740021a7a3c2637680e853e574a844c73d52bf6f992dca5ece18de543
----
-
----
-action: select
-POSS | Teaching Vacancies | London | Harrow, London, HA2 9AG | £14,166.00 Annually (Actual) | Receptionist & Admin Assistant
-source_key: teaching_vacancies
-source: Teaching Vacancies
-category: admin_service
-source_job_id: receptionist-admin-assistant-heathland-school-harrow-middlesex
-title: Receptionist & Admin Assistant
-employer: Heathland School
-location: Harrow, London, HA2 9AG
-region: London
-salary: £14,166.00 Annually (Actual)
-closing_date: 2026-09-06T23:59:00+01:00
-reason: Possible JobG8 duplicate requires review
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-admin-assistant-heathland-school-harrow-middlesex
-hub_fingerprint: 713fbd5a3b8f904da63276b96b3ad8cc3e49f91f08e0ef47701ef1a7498c4677
----
-
----
-action: select
-POSS | Teaching Vacancies | London | London, London, E15 3DN | Scaled 3 (dependent on experience) £25,524 Pro Rata | Administrative Assistant
-source_key: teaching_vacancies
-source: Teaching Vacancies
-category: admin_service
-source_job_id: administrative-assistant-ranelagh-primary-school
-title: Administrative Assistant
-employer: Ranelagh Primary School
-location: London, London, E15 3DN
-region: London
-salary: Scaled 3 (dependent on experience) £25,524 Pro Rata
-closing_date: 2026-09-04T12:00:00+01:00
-reason: Possible JobG8 duplicate requires review
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-ranelagh-primary-school
-hub_fingerprint: 994387633e5f9b980010b1d7809ea0d46af0b291fdf399e613f120c2b586cafb
----
-
----
-action: select
-POSS | Teaching Vacancies | London | London, London, SW4 0AJ | £29,805.00 Annually (Actual) Inner London payscale Spine Point 2 | Receptionist / Administrator
-source_key: teaching_vacancies
-source: Teaching Vacancies
-category: admin_service
-source_job_id: receptionist-administrator-belleville-wix-academy-london
-title: Receptionist / Administrator
-employer: Belleville Wix Academy
-location: London, London, SW4 0AJ
-region: London
-salary: £29,805.00 Annually (Actual) Inner London payscale Spine Point 2
-closing_date: 2026-09-09T23:59:00+01:00
-reason: Possible JobG8 duplicate requires review
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrator-belleville-wix-academy-london
-hub_fingerprint: 93a10592e03ed9d3f693438018eded1145b943920f3a912cde877298ba7ec1f5
----
-
----
-action: select
-POSS | Teaching Vacancies | London | Osterley, London, TW7 5PN | 28,195.00 - 29,852.00 | School Administrator
-source_key: teaching_vacancies
-source: Teaching Vacancies
-category: admin_service
-source_job_id: school-administrator-nishkam-school-west-london
-title: School Administrator
-employer: Nishkam School West London
-location: Osterley, London, TW7 5PN
-region: London
-salary: 28,195.00 - 29,852.00
-closing_date: 2026-09-04T00:00:00+01:00
-reason: Possible JobG8 duplicate requires review
-source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-nishkam-school-west-london
-hub_fingerprint: 49f608949386027b12514963c345f9f8a23231c1a6a2e4bc2f5344ca08ca33f2
----
-
----
-action: select
-POSS | Teaching Vacancies | Oxfordshire | Oxford, South East, OX3 9WN | £26,824.00 Annually (FTE) Actual annual salary is £12,016 for 19.5 hours per week term time only plus 3 inset days | Office Administrator
-source_key: teaching_vacancies
-source: Teaching Vacancies
-category: admin_service
-source_job_id: office-administrator-barton-park-primary-school
-title: Office Administrator
-employer: Barton Park Primary School
-location: Oxford, South East, OX3 9WN
-region: Oxfordshire
-salary: £26,824.00 Annually (FTE) Actual annual salary is £12,016 for 19.5 hours per week term time only plus 3 inset days
-closing_date: 2026-09-04T12:00:00+01:00
-reason: Possible JobG8 duplicate requires review
-source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-barton-park-primary-school
-hub_fingerprint: 5ac2163c06159d1e25b77086c07e93aabb73a2d59fba3834fb30daa930206311
 ---
 
 ## NHS Jobs — 0 to review
