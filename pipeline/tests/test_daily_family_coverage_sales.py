@@ -9,9 +9,24 @@ from unittest import mock
 
 from scripts import assess_daily_family_coverage as coverage
 from scripts import daily_family_coverage_history as history
+from scripts import registered_category_pipeline as customer_service
 
 
 class DailyFamilyCoverageSalesTests(unittest.TestCase):
+    def test_customer_service_collapses_same_employer_campaign_title_variants(self) -> None:
+        description = (
+            "Where: EE Tyneside, Silver Fox Way, Newcastle upon Tyne NE27 0QJ. "
+            "Full time permanent. Salary £26,116 rising to £26,738. "
+            "Start date October 2026. Join our customer contact team."
+        )
+        first = customer_service.campaign_key(
+            "North East", "EE", description, "Call Centre Agent"
+        )
+        second = customer_service.campaign_key(
+            "North East", "EE", description, "Customer Service Representative"
+        )
+        self.assertEqual(first, second)
+
     def test_apply_existing_populates_nonlive_rolling_metrics_only(self) -> None:
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)
