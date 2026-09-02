@@ -1,6 +1,6 @@
 # Support-worker manual review
 
-feed_date: 2026-09-01
+feed_date: 2026-09-02
 
 Edit only the `action:` line in each block:
 
@@ -31,7 +31,11 @@ _No jobs in this group._
 
 ## NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND — SELECTED
 
-_No jobs in this group._
+---
+action:
+SELECTED | North East - Tyneside, Wearside & Northumberland | Hexham | £14.22 per hour (& £101.68 for sleep-ins, average annual salary of £20) | Part-Time Support Worker (24 hours per week)
+job_id: 107921425
+---
 
 ## NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL — SELECTED
 
@@ -71,8 +75,8 @@ job_id: 107826653
 
 ---
 action:
-SELECTED | Sussex | Bexhill-on-sea | £13.45 per hour | Support Worker- Nights
-job_id: 107828547
+SELECTED | Sussex | Eastbourne | £92.54 - £97 per daily | ADHD Support Worker
+job_id: 23643_225552397
 ---
 
 ## SUSSEX — POSSIBLES
@@ -125,12 +129,6 @@ job_id: 1401784767
 
 ---
 action:
-SELECTED | Hampshire | Romsey | £27780 - £30564 per year (), plus Market Supplement of £3,000 pro-rata, per annum and enhancemen) | Waking Night Childrens Home Support Worker
-job_id: 1401784682
----
-
----
-action:
 SELECTED | Hampshire | Southampton | £29,453 per annum | Waking Night Support Worker
 job_id: 1663151
 ---
@@ -139,12 +137,6 @@ job_id: 1663151
 action:
 SELECTED | Hampshire | Southampton | £25186 - £26244 per year | Night Care Worker
 job_id: 1401784887
----
-
----
-action:
-SELECTED | Hampshire | Basingstoke | £25186 - £26244 per year | Day Opportunities Support Worker
-job_id: 1401784678
 ---
 
 ## HAMPSHIRE — POSSIBLES
@@ -255,6 +247,12 @@ job_id: 1787859
 action:
 SELECTED | London | London | £23,088.00 per annum | Waking Night Support Worker
 job_id: 1664745
+---
+
+---
+action:
+SELECTED | London | London | £13.5 - £14 per hour | Residential Support Worker - Childrens Services
+job_id: 23643_225452668
 ---
 
 ## LONDON — POSSIBLES
