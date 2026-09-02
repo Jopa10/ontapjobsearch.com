@@ -11,6 +11,7 @@ import {
   getPublishedJobs,
   type PublishedJob,
 } from '@/lib/published-jobs';
+import { selectHomepageRecentJobs } from '@/lib/homepage-recent-jobs';
 
 const canonicalUrl = 'https://www.ontapjobsearch.com/';
 const homepageCityMinimumJobs = 4;
@@ -298,15 +299,6 @@ function RecentJobCard({ job }: { job: PublishedJob }) {
   );
 }
 
-function newestJobs(jobs: PublishedJob[], limit: number): PublishedJob[] {
-  return [...jobs]
-    .sort((left, right) => {
-      const dateOrder = right.posted_date.localeCompare(left.posted_date);
-      return dateOrder || right.job_id.localeCompare(left.job_id);
-    })
-    .slice(0, limit);
-}
-
 export default function Page() {
   const jobs = getPublishedJobs();
   const adminRegions = [
@@ -322,7 +314,7 @@ export default function Page() {
     ...withCounts(jobs, supportWorkerRoutes),
     ...activeCityLinks('support'),
   ];
-  const currentJobs = newestJobs(jobs, 4);
+  const currentJobs = selectHomepageRecentJobs(jobs, 4);
 
   return (
     <>

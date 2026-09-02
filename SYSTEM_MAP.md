@@ -1,11 +1,13 @@
 # Ontap System Map
 
-**Last updated:** 1 September 2026
+**Last updated:** 2 September 2026
 **Status:** Canonical production architecture including an idempotent external fallback for the twice-daily JobG8 process, restored NHS Google Jobs eligibility, owner-facing JobG8 selection auditing, live-site reporting reconciliation and Teaching Vacancies regional publish isolation.
 
 This is the authoritative technical map of the persistent Ontap system. It is organised into five canonical buckets. Facts not verified from the repository are marked `UNKNOWN / NEEDS AUDIT` rather than inferred from chat history.
 
 ## Recent canonical changes
+
+- 2 September 2026 — **Homepage recent jobs diversified automatically:** the four-card homepage block still uses genuine published vacancies from the newest 48-hour window, but now prefers distinct role families, regions and normalised titles before filling any remaining spaces. This prevents one same-source burst, such as several receptionist vacancies, from visually narrowing Ontap's range; no carousel, manual curation or publishing change is introduced.
 
 - 1 September 2026 — **Homepage discovery hierarchy strengthened:** the homepage now leads with a branded search hero, dynamic live-job count and direct-apply/no-signup trust signals, followed by four of the newest real published vacancies before the existing role-and-region directory. Search behaviour, job destinations, routes and publishing pipelines are unchanged.
 

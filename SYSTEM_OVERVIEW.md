@@ -1,11 +1,13 @@
 # Ontap System Overview
 
-**Last updated:** 1 September 2026
+**Last updated:** 2 September 2026
 **Status:** Canonical production state including an idempotent external fallback for the JobG8 daily process, restored NHS Google Jobs eligibility, owner-facing JobG8 selection auditing, live-site reporting reconciliation and Teaching Vacancies regional publish isolation.
 
 This is the short owner view of how Ontap is organised. It mirrors the five canonical system buckets in `SYSTEM_MAP.md`.
 
 ## Recent canonical changes
+
+- 2 September 2026 — **The homepage's four recent vacancies now show breadth:** cards still come from genuine jobs in the newest 48-hour window, but the automatic choice prefers different roles, regions and titles instead of repeating one vacancy type from a source burst.
 
 - 1 September 2026 — **The homepage makes Ontap's value clearer:** a stronger search-first hero shows the live vacancy count and the Apply direct, No signup and Updated daily promises. Four newly posted real jobs now appear before the unchanged role-and-region directory.
 
@@ -229,7 +231,7 @@ High-confidence spelling correction is applied from the current published-job vo
 
 Production verification on 21 August includes `lumley office` → Great Lumley Surgery, `lumley offcie` → corrected `lumley office` → the same vacancy, and `admin` + `newcastle` returning 21 current matches whether the role/location values are entered in the normal or reversed boxes. After the final build-time metadata optimisation, live browser testing confirmed that the earlier roughly 4–5 second perceived search wait was removed and search felt very fast, without changing the verified result behaviour.
 
-On the homepage, regional slices are deliberately listed before city pages. This gives the primary browse area a stronger sense of breadth and current inventory; city pages remain a secondary local-discovery layer beneath the regional coverage.
+On the homepage, the four recently added cards are selected from genuine vacancies in the newest 48-hour window while preferring different role families, regions and titles. Regional slices are deliberately listed before city pages. This gives the primary browse area a stronger sense of breadth and current inventory; city pages remain a secondary local-discovery layer beneath the regional coverage.
 
 City pages use the common city-page framework and private `app/_city-pages/...` derived JSON, avoiding duplicate job-detail URLs. The homepage city grid independently suppresses active city cards below 4 current jobs without changing the route, sitemap/indexing status or daily refresh behaviour.
 
