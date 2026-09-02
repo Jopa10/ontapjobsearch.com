@@ -45,7 +45,11 @@
     "hr_recruitment_family_reason": "advert confirms substantive HR / Recruitment delivery",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": ""
+    "posted_date_basis": "",
+    "at_a_glance_attributes": [
+      "Systems administration",
+      "Reporting"
+    ]
   },
   {
     "job_id": "23643_225538102",
@@ -189,7 +193,12 @@
     "hr_recruitment_family_reason": "approved HR / Recruitment support title",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": ""
+    "posted_date_basis": "",
+    "at_a_glance_attributes": [
+      "Telephone handling",
+      "Scheduling and bookings",
+      "Payroll administration"
+    ]
   },
   {
     "job_id": "1766963",
