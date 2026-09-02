@@ -11,7 +11,7 @@ import {
   getPublishedJobs,
   type PublishedJob,
 } from '@/lib/published-jobs';
-import { selectHomepageRecentJobs } from '@/lib/homepage-recent-jobs';
+import { formatHomepageSalary, selectHomepageRecentJobs } from '@/lib/homepage-recent-jobs';
 
 const canonicalUrl = 'https://www.ontapjobsearch.com/';
 const homepageCityMinimumJobs = 4;
@@ -56,10 +56,6 @@ const customerSalesHomepageLabels: Record<string, string> = {
   'Greater Manchester - Manchester & Salford': 'Manchester & Salford',
   'Yorkshire - West': 'West Yorkshire',
 };
-
-function cleanSalary(value: string): string {
-  return value.replaceAll('Â£', '£');
-}
 
 function countBySlice(jobs: PublishedJob[], slicePath: string): number {
   return jobs.reduce((count, job) => count + (job.slice_path === slicePath ? 1 : 0), 0);
@@ -292,7 +288,9 @@ function RecentJobCard({ job }: { job: PublishedJob }) {
         <p className="mt-2 text-sm leading-snug text-gray-600">{company}</p>
         <p className="mt-1 text-sm text-gray-500">{job.location}</p>
         {job.salary_text ? (
-          <p className="mt-auto pt-3 text-sm font-bold text-amber-700">{cleanSalary(job.salary_text)}</p>
+          <p className="mt-auto pt-3 text-sm font-bold text-amber-700">
+            {formatHomepageSalary(job.salary_text)}
+          </p>
         ) : null}
       </Link>
     </article>
