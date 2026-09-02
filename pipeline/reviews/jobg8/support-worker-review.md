@@ -139,6 +139,12 @@ SELECTED | Hampshire | Southampton | £25186 - £26244 per year | Night Care Wor
 job_id: 1401784887
 ---
 
+---
+action:
+SELECTED | Hampshire | Gosport | £26018 - £27111 per year | Day Opportunities Support Worker (HCC Care YA)
+job_id: 1401784915
+---
+
 ## HAMPSHIRE — POSSIBLES
 
 ---
@@ -203,6 +209,12 @@ job_id: 23643_225516212
 
 ---
 action:
+SELECTED | London | Barnet | £12.30 per hour | Learning Disabilities Support Worker
+job_id: 1775476
+---
+
+---
+action:
 SELECTED | London | Carshalton | £35 per hour | Communication Support Worker
 job_id: 1785508
 ---
@@ -247,12 +259,6 @@ job_id: 1787859
 action:
 SELECTED | London | London | £23,088.00 per annum | Waking Night Support Worker
 job_id: 1664745
----
-
----
-action:
-SELECTED | London | London | £13.5 - £14 per hour | Residential Support Worker - Childrens Services
-job_id: 23643_225452668
 ---
 
 ## LONDON — POSSIBLES
