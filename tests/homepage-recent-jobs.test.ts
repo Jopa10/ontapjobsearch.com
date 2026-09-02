@@ -8,7 +8,8 @@ function job(
   title: string,
   category: string,
   region: string,
-  posted_date = '2026-09-02'
+  posted_date = '2026-09-02',
+  salary_text = '£25,000 per year'
 ): PublishedJob {
   return {
     job_id,
@@ -16,6 +17,7 @@ function job(
     category,
     region,
     posted_date,
+    salary_text,
     slice_path: `/${region.toLowerCase()}/${category.toLowerCase()}-jobs`,
   } as PublishedJob;
 }
@@ -33,6 +35,20 @@ test('homepage recent jobs prefer different roles and regions', () => {
     selected.map((item) => item.job_id),
     ['5', '3', '2', '1']
   );
+});
+
+test('homepage recent jobs exclude vacancies without a clear numeric salary', () => {
+  const selected = selectHomepageRecentJobs([
+    job('5', 'GP Receptionist', 'Admin', 'London', '2026-09-02T09:00:00Z', ''),
+    job('4', 'Office Administrator', 'Admin', 'Kent'),
+    job('3', 'Support Worker', 'Support', 'Sussex'),
+    job('2', 'Sales Adviser', 'Sales', 'North East'),
+    job('1', 'Marketing Assistant', 'Marketing', 'Yorkshire'),
+  ]);
+
+  assert.equal(selected.length, 4);
+  assert.ok(selected.every((item) => /\d/.test(item.salary_text)));
+  assert.ok(!selected.some((item) => item.job_id === '5'));
 });
 
 test('homepage recent jobs fall back safely when fewer than four roles exist', () => {
