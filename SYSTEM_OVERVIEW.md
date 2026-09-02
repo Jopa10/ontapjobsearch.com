@@ -7,6 +7,8 @@ This is the short owner view of how Ontap is organised. It mirrors the five cano
 
 ## Recent canonical changes
 
+- 2 September 2026 — **Twelve more regional slices are LIVE:** Wales South – Cardiff & Vale Service Admin; Berkshire, Hertfordshire, Kent, Glasgow, Surrey and Sussex Sales Advisor; and Bristol & Bath, Gloucestershire, Hertfordshire, Kent and Oxfordshire Marketing. Their most recent governed counts are respectively **9**; **8, 9, 9, 7, 6, 7**; and **8, 7, 9, 7, 9**. No other slice changes.
+
 - 2 September 2026 — **All four daily regional overview sheets now use one JobG8 feed date:** the daily JobG8 run refreshes the JobG8 category sheet from its own feed and prepared published outputs, while the overview blocks any mixed-date workbook. Sitewide, JobG8 categories, LIVE and NOT LIVE therefore represent the same most recent successful JobG8 run.
 
 - 2 September 2026 — **The homepage's four recent vacancies now show breadth:** cards come from genuine jobs in the newest 48-hour window only when they include a clear numeric salary, and the automatic choice prefers different roles, regions and titles instead of repeating one vacancy type from a source burst.
