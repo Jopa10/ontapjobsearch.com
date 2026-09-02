@@ -195,6 +195,15 @@ def _load_jobg8_category_profile() -> JobG8CategoryProfile | None:
     return JobG8CategoryProfile(feed_dates.pop(), total, published_total, counts)
 
 
+def _load_family_coverage_date() -> str:
+    path = PIPELINE_ROOT / "reports-daily" / "daily-family-coverage.csv"
+    with path.open("r", encoding="utf-8-sig", newline="") as handle:
+        dates = {(row.get("feed_date") or "").strip() for row in csv.DictReader(handle)}
+    if len(dates) != 1 or not next(iter(dates)):
+        raise RuntimeError(f"Expected one current family-coverage feed date, found {dates}")
+    return dates.pop()
+
+
 def _load_json(path: Path):
     if not path.is_file():
         return None
@@ -441,6 +450,12 @@ def build() -> str:
     statuses = _load_statuses()
     source_report = _load_source_report_summary()
     jobg8_profile = _load_jobg8_category_profile()
+    family_coverage_date = _load_family_coverage_date()
+    if jobg8_profile and jobg8_profile.feed_date != family_coverage_date:
+        raise RuntimeError(
+            "Refusing mixed-date overview: JobG8 category profile is "
+            f"{jobg8_profile.feed_date}, family coverage is {family_coverage_date}"
+        )
     _profile_report, profile_date, profile_counts = _load_latest_profile_counts()
     decision_counts = {
         family["key"]: _load_selected_counts(family["decision_report"])
