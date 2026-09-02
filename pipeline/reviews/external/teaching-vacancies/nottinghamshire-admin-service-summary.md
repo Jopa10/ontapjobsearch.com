@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Nottinghamshire
 
-review_date: 2026-09-01
-review_fingerprint: 92f7742f9d87439201b8625c951e35c71ac7eddafcd4ae8dc5517afeeb715ac6
-routing_manifest_sha256: 987772ee12e2a9bbbaf1e7aa2170ab8a9c426878de897c9ff36e2be51a6defa2
+review_date: 2026-09-02
+review_fingerprint: 261e8b603569f1d33882991006512974f5efae42364211bbfe9315f2eaa12467
+routing_manifest_sha256: 45126380b2f0881c6111fd0ec45395c24b25f255bc5776d6bc5371d4f2bd1c2a
 ontap_region: Nottinghamshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 11
-- Selected: 2
+- Records: 14
+- Selected: 3
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 7
+- Hard pass: 9
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Nottinghamshire | Mansfield, East Midlands, NG18 2DP | £25,588.00 (actual salary £21,848.22) | Administration Assistant
+employer: Horizons Academy
+closing_date: 2026-09-06T23:59:00+01:00
+reason: Clear admin/service title: administration assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: f6f97a59ea42f0840efc57a6e42cc520715530761c895d780beea2269b8b20ba
+source: Teaching Vacancies
+source_job_id: administration-assistant-horizons-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-horizons-academy
+---
 
 ---
 action: 
@@ -90,7 +105,9 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/house-support-asissta
 ## HARD_PASS
 
 - [Accounts Payable Assistant](https://teaching-vacancies.service.gov.uk/jobs/accounts-payable-assistant-greenwood-academies-trust) — Insufficient admin/service evidence.
+- [Administration and Attendance Support](https://teaching-vacancies.service.gov.uk/jobs/administration-and-attendance-support) — Insufficient admin/service evidence.
 - [Assistant Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/assistant-operations-manager-8e287efa-6467-481b-8c80-56f74d927bdb) — Manager title salary ceiling £33,699 is not below £28,000.
+- [Exams and Assessment Assistant](https://teaching-vacancies.service.gov.uk/jobs/exams-and-assessment-assistant-965ac6ec-7678-47d6-8b9f-daf363a12cdd) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-sycamore-academy) — Manager title salary ceiling £40,446 is not below £28,000.
 - [People & Culture Advisor](https://teaching-vacancies.service.gov.uk/jobs/people-culture-advisor-tapestry-learning-partnership-nottingham-not-recorded) — Insufficient admin/service evidence.
 - [People & Culture Business Partner](https://teaching-vacancies.service.gov.uk/jobs/people-culture-business-partner-tapestry-learning-partnership) — Insufficient admin/service evidence.

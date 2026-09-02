@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Lincolnshire
 
-review_date: 2026-09-01
+review_date: 2026-09-02
 review_fingerprint: 1ef75acf31e4daf3dbcf60736a5a66233d6ad5cf8f8f9835830126073fff13ec
-routing_manifest_sha256: 987772ee12e2a9bbbaf1e7aa2170ab8a9c426878de897c9ff36e2be51a6defa2
+routing_manifest_sha256: 45126380b2f0881c6111fd0ec45395c24b25f255bc5776d6bc5371d4f2bd1c2a
 ontap_region: Lincolnshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 16
+- Records: 13
 - Selected: 3
 - POSS awaiting decision: 4
 - Excluded: 0
-- Hard pass: 9
+- Hard pass: 6
 
 ## SELECTED
 
@@ -138,9 +138,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-manager-5960c3
 - [Academy Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/academy-operations-manager-thomas-middlecott-academy-boston-lincolnshire) — Manager title salary ceiling £42,839 is not below £28,000.
 - [Admin and Reception Assistant](https://teaching-vacancies.service.gov.uk/jobs/admin-and-reception-assistant-outwood-academy-brumby) — Missing salary or pay scale.
 - [Data Manager](https://teaching-vacancies.service.gov.uk/jobs/data-manager-de-aston-school) — Manager title without salary evidence below £28,000.
-- [Examinations Officer](https://teaching-vacancies.service.gov.uk/jobs/examinations-officer-de-aston-school) — Missing salary or pay scale.
-- [Governance & Compliance Officer](https://teaching-vacancies.service.gov.uk/jobs/governance-compliance-officer-inspire-connected-communities-trust) — Insufficient admin/service evidence.
-- [Inclusion Administrator](https://teaching-vacancies.service.gov.uk/jobs/inclusion-administrator-ba6d2874-69fc-46df-b1a8-320f20cae17b) — Missing salary or pay scale.
 - [School Bursar](https://teaching-vacancies.service.gov.uk/jobs/school-bursar-cliffedale-primary-school) — Insufficient admin/service evidence.
 - [Senior Administrative Officer (15 hours) - Ulceby CofE Primary School](https://teaching-vacancies.service.gov.uk/jobs/senior-administrative-officer-15-hours-ulceby-cofe-primary-school) — Insufficient admin/service evidence.
 

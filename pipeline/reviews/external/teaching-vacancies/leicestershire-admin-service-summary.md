@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Leicestershire
 
-review_date: 2026-09-01
+review_date: 2026-09-02
 review_fingerprint: b63fa6bd95c2ac8ee3d76f3d27f51a042ac082f29009728e66721c6d5901060a
-routing_manifest_sha256: 987772ee12e2a9bbbaf1e7aa2170ab8a9c426878de897c9ff36e2be51a6defa2
+routing_manifest_sha256: 45126380b2f0881c6111fd0ec45395c24b25f255bc5776d6bc5371d4f2bd1c2a
 ontap_region: Leicestershire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 8
+- Records: 7
 - Selected: 3
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 4
+- Hard pass: 3
 
 ## SELECTED
 
@@ -90,7 +90,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-office
 ## HARD_PASS
 
 - [Apprentice Premises Officer](https://teaching-vacancies.service.gov.uk/jobs/apprentice-premises-officer-ash-field-academy) — Insufficient admin/service evidence.
-- [Director of Finance](https://teaching-vacancies.service.gov.uk/jobs/director-of-finance-rise-multi-academy-trust) — Insufficient admin/service evidence.
 - [Extended Services Club Manager (EXS031BC)](https://teaching-vacancies.service.gov.uk/jobs/extended-services-club-manager-exs031bc-sileby-redlands-community-primary-school) — Manager title salary ceiling £28,146 is not below £28,000.
 - [Sixth Form Coordinator](https://teaching-vacancies.service.gov.uk/jobs/sixth-form-coordinator-charnwood-college) — Insufficient admin/service evidence.
 

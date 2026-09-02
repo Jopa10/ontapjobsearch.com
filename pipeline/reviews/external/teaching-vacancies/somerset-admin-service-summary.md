@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Somerset
 
-review_date: 2026-09-01
-review_fingerprint: 668d9f50b08df55680d133415dfbcb712d6846e4f67fea64bf618e42bf8542bf
-routing_manifest_sha256: 987772ee12e2a9bbbaf1e7aa2170ab8a9c426878de897c9ff36e2be51a6defa2
+review_date: 2026-09-02
+review_fingerprint: 0db9fe442a19073c526ea96f24160be1983b15f8fcd7ca3fe380302f4ae1ec1c
+routing_manifest_sha256: 45126380b2f0881c6111fd0ec45395c24b25f255bc5776d6bc5371d4f2bd1c2a
 ontap_region: Somerset
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 7
+- Records: 6
 - Selected: 2
-- POSS awaiting decision: 3
+- POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 2
 
@@ -66,21 +66,6 @@ factual_fingerprint: 75a8f2e94a4b9e6fcb6ece1f0cf10c4892803a75b04b96fe99f6daf1eb6
 source: Teaching Vacancies
 source_job_id: data-manager-kingsmead-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/data-manager-kingsmead-academy
----
-
----
-action: 
-POSS | Somerset | Taunton, South West, TA4 2NE | £26,837 - £28,931 (CLF Grade C) | Senior Administration Assistant (SEND)
-employer: Kingsmead Academy
-closing_date: 2026-09-21T23:59:59+01:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: e2ef416884654f5754753dc6d133c310ea638adad699077b63c0b33e367c6f95
-source: Teaching Vacancies
-source_job_id: senior-administration-assistant-send
-source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-administration-assistant-send
 ---
 
 ---

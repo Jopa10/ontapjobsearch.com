@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Birmingham & Solihull
 
-review_date: 2026-09-01
-review_fingerprint: b6c2e122ebf76c2bb63c79b2e568a4419f27d4ce5539fcc36b74205d3fb00e53
-routing_manifest_sha256: 987772ee12e2a9bbbaf1e7aa2170ab8a9c426878de897c9ff36e2be51a6defa2
+review_date: 2026-09-02
+review_fingerprint: 03625f72772441fccf074bf717c8081fb94bf78115298a6e8e9db9795b2694ef
+routing_manifest_sha256: 45126380b2f0881c6111fd0ec45395c24b25f255bc5776d6bc5371d4f2bd1c2a
 ontap_region: West Midlands - Birmingham & Solihull
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 11
-- Selected: 4
-- POSS awaiting decision: 1
+- Records: 14
+- Selected: 5
+- POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 6
+- Hard pass: 7
 
 ## SELECTED
 
@@ -49,6 +49,21 @@ factual_fingerprint: eaad972636101473ea20c68fefdda4dc644a5aa3dc4c3a5fede74521be5
 source: Teaching Vacancies
 source_job_id: attendance-officer-4efd19d4-57e0-4ca7-b2db-17e1d24f0087
 source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-4efd19d4-57e0-4ca7-b2db-17e1d24f0087
+---
+
+---
+action: 
+SELECTED | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B45 0EU | £22,121.00 Annually (Actual) | Receptionist
+employer: King Edward VI Balaam Wood Academy
+closing_date: 2026-09-21T09:00:00+01:00
+reason: Clear admin/service title: receptionist
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: f9d1389180deee068952f032ce09b1d6ee768cc4c19d9b82d03eeadc00668a78
+source: Teaching Vacancies
+source_job_id: receptionist-king-edward-vi-balaam-wood-academy-birmingham-west-midlands
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-king-edward-vi-balaam-wood-academy-birmingham-west-midlands
 ---
 
 ---
@@ -98,6 +113,21 @@ source_job_id: chief-finance-and-operations-officer-cfoo-create-partnership-trus
 source_url: https://teaching-vacancies.service.gov.uk/jobs/chief-finance-and-operations-officer-cfoo-create-partnership-trust
 ---
 
+---
+action: 
+POSS | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B31 4BS | £28,827.30 - £28,827.30 Annually (Actual) Pro Rata Salary: £28,827.30 (FTE £32,677) | Exam's and Data Officer
+employer: Turves Green Boys' School
+closing_date: 2026-09-11T23:59:00+01:00
+reason: Borderline school administration title: data officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 7a21b4184bc3d0b09c159c5e2696009b67ec9999624a1e9743e1db4f385af83b
+source: Teaching Vacancies
+source_job_id: exam-s-and-data-officer
+source_url: https://teaching-vacancies.service.gov.uk/jobs/exam-s-and-data-officer
+---
+
 ## EXCLUDED BY REVIEW
 
 - None.
@@ -106,6 +136,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/chief-finance-and-ope
 
 - [Clerical Assistant](https://teaching-vacancies.service.gov.uk/jobs/clerical-assistant-hall-green-junior-school) — Insufficient admin/service evidence.
 - [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-our-lady-of-the-wayside-catholic-primary-school) — Insufficient admin/service evidence.
+- [Head of Marketing](https://teaching-vacancies.service.gov.uk/jobs/head-of-marketing-ormiston-academies-trust) — Insufficient admin/service evidence.
 - [HR Manager](https://teaching-vacancies.service.gov.uk/jobs/hr-manager-sutton-coldfield-grammar-school-for-girls-sutton-coldfield-west-midlands) — Manager title salary ceiling £49,282 is not below £28,000.
 - [HR Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-st-john-paul-ii-multi-academy-company) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-lindens-academy) — Manager title salary ceiling £34,434 is not below £28,000.

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Hertfordshire
 
-review_date: 2026-09-01
+review_date: 2026-09-02
 review_fingerprint: 1667aa9cd11a97ccc141cbe4c27486eb6437f3eaf3128dabc7001b07e2c06ad3
-routing_manifest_sha256: 987772ee12e2a9bbbaf1e7aa2170ab8a9c426878de897c9ff36e2be51a6defa2
+routing_manifest_sha256: 45126380b2f0881c6111fd0ec45395c24b25f255bc5776d6bc5371d4f2bd1c2a
 ontap_region: Hertfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -90,8 +90,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-advisor-eb9c5bf8-2
 ## HARD_PASS
 
 - [Assistant School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/assistant-school-business-manager-dame-alice-owen-s-school-potters-bar-hertfordshire) — Manager title salary ceiling £39,862 is not below £28,000.
-- [Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-hitchin-boys-school-hitchin-hertfordshire) — Insufficient admin/service evidence.
 - [Head of HR](https://teaching-vacancies.service.gov.uk/jobs/head-of-hr-danes-educational-trust-chorleywood-not-recorded) — Insufficient admin/service evidence.
+- [Teaching Assistant including personal care: Part Time / Full Time (H3)](https://teaching-vacancies.service.gov.uk/jobs/teaching-assistant-including-personal-care-part-time-full-time-h3-beaumont-school-st-albans-hertfordshire) — Out-of-scope occupation: teaching assistant.
 
 ## Safety boundary
 

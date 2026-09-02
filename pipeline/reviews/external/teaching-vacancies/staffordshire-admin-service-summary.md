@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Staffordshire
 
-review_date: 2026-09-01
-review_fingerprint: dd233d4b0e09356cf9f513ac5cdf1c9157040bdf33296bc0a12ea546bda06f4b
-routing_manifest_sha256: 987772ee12e2a9bbbaf1e7aa2170ab8a9c426878de897c9ff36e2be51a6defa2
+review_date: 2026-09-02
+review_fingerprint: 3ec8931d37f08740dff3d696769f7fbb902be4a502668473287ef786621a94dd
+routing_manifest_sha256: 45126380b2f0881c6111fd0ec45395c24b25f255bc5776d6bc5371d4f2bd1c2a
 ontap_region: Staffordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 5
-- Selected: 2
+- Records: 6
+- Selected: 3
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 3
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Staffordshire | Stoke-On-Trent, ST7 4DL | G5 SCP 16-20-£25,989 - £27,254 FTE-Pay Award Pend | Administrative Assistant
+employer: The Shaw Education Trust
+closing_date: 2026-09-11T09:00:59+01:00
+reason: Clear admin/service title: administrative assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: d9b5b8a68d9df8f93ee165da1bb5c52fc8842adbc5eee40507660e9cb4f40578
+source: Teaching Vacancies
+source_job_id: administrative-assistant-the-shaw-education-trust
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-the-shaw-education-trust
+---
 
 ---
 action: 

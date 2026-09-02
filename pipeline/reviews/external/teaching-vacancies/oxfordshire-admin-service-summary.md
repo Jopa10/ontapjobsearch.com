@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Oxfordshire
 
-review_date: 2026-09-01
-review_fingerprint: dba91d6ee4e64b98ca5508dc8258a8076b2fc3eee4669739ffefe0cd81fa9429
-routing_manifest_sha256: 987772ee12e2a9bbbaf1e7aa2170ab8a9c426878de897c9ff36e2be51a6defa2
+review_date: 2026-09-02
+review_fingerprint: 995ec19a2ad9b7dc592c33a3431de05b12470beb06e2d30350046025bb72f581
+routing_manifest_sha256: 45126380b2f0881c6111fd0ec45395c24b25f255bc5776d6bc5371d4f2bd1c2a
 ontap_region: Oxfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 13
-- Selected: 6
+- Records: 9
+- Selected: 3
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 6
+- Hard pass: 5
 
 ## SELECTED
 
@@ -38,21 +38,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-administra
 
 ---
 action: 
-SELECTED | Oxfordshire | Faringdon, South East, SN7 7LB | £26,824.00 - £29,065.00 Annually (FTE) Support Staff NJC grade 6, SCP 8-13. 30 hours per week/38 weeks per year. Actual annual salary in the region of £18,235.86 - £19,759.37 | Educational Visits Administrator
-employer: Faringdon Community College
-closing_date: 2026-09-02T12:00:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 1536b7c65ef7138e688413e80eb8234b0339f2bbba3384bbfb2ddc81f790c83f
-source: Teaching Vacancies
-source_job_id: educational-visits-administrator-faringdon-community-college-faringdon-oxfordshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/educational-visits-administrator-faringdon-community-college-faringdon-oxfordshire
----
-
----
-action: 
 SELECTED | Oxfordshire | Oxford, South East, OX2 6AB | £26,824.00 - £29,064.00 Annually (FTE) Grade 6 Actual Annual Salary £23,940 | Grade 6 Office Administrator
 employer: St Philip and James' Church of England Aided Primary School Oxford
 closing_date: 2026-09-14T12:00:00+01:00
@@ -64,36 +49,6 @@ factual_fingerprint: af07c6e2ea149f4b4ad119cb9a7c6c065bf1cc9a4758fbe52b95b3996f0
 source: Teaching Vacancies
 source_job_id: grade-6-office-administrator-3e4de74e-af8a-4ee3-b949-0a2e141ed8ab
 source_url: https://teaching-vacancies.service.gov.uk/jobs/grade-6-office-administrator-3e4de74e-af8a-4ee3-b949-0a2e141ed8ab
----
-
----
-action: 
-SELECTED | Oxfordshire | Faringdon, South East, SN7 7LB | £26,824.00 - £29,065.00 Annually (FTE) Support Staff NJC grade 6, SCP 8-13. 30 hours per week/38 weeks per year. Actual annual salary in the region of £18,235.86 - £19,759.37 | Inclusion Administrator
-employer: Faringdon Community College
-closing_date: 2026-09-02T12:00:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 2c7df1f2e68fbdbcf6ffbf249283183c300f25bed97000f60dcd61ff561366ea
-source: Teaching Vacancies
-source_job_id: inclusion-administrator-640b849f-52fe-4514-87fa-cda0310e4990
-source_url: https://teaching-vacancies.service.gov.uk/jobs/inclusion-administrator-640b849f-52fe-4514-87fa-cda0310e4990
----
-
----
-action: 
-SELECTED | Oxfordshire | Carterton, South East, OX18 3AD | £26,824.00 - £29,064.00 Annually (FTE) Paid pro rata. Actual salary £12157 | School Administrator
-employer: Carterton Primary School
-closing_date: 2026-09-02T23:59:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 6445e1bb793b17257cb24de3dadf596f223fd1913f35ece33bb72ca2ee15e2e3
-source: Teaching Vacancies
-source_job_id: school-administrator-4e6e25cf-c80f-4e62-864c-657610d00946
-source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-4e6e25cf-c80f-4e62-864c-657610d00946
 ---
 
 ---
@@ -136,7 +91,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-
 
 - [Admissions Manager](https://teaching-vacancies.service.gov.uk/jobs/admissions-manager-lord-williams-s-school) — Manager title salary ceiling £34,434 is not below £28,000.
 - [Chief Financial Officer](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-lord-williams-s-school-thame-oxfordshire) — Insufficient admin/service evidence.
-- [Data and Systems Lead](https://teaching-vacancies.service.gov.uk/jobs/data-and-systems-lead-acer-trust) — Insufficient admin/service evidence.
 - [HR Partner](https://teaching-vacancies.service.gov.uk/jobs/hr-partner-oxford-diocesan-bucks-schools-trust) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-st-peter-s-church-of-england-school-alvescot) — Manager title salary ceiling £31,537 is not below £28,000.
 - [Operations Coordinator](https://teaching-vacancies.service.gov.uk/jobs/operations-coordinator-oxford-diocesan-bucks-schools-trust) — Insufficient admin/service evidence.

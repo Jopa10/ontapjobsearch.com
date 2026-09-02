@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — East Midlands
 
-review_date: 2026-09-01
+review_date: 2026-09-02
 review_fingerprint: e630b7a0cd9d5e0bb95e0012dd49f8226c42a5489017e0f889319d4c3206c35f
-routing_manifest_sha256: 987772ee12e2a9bbbaf1e7aa2170ab8a9c426878de897c9ff36e2be51a6defa2
+routing_manifest_sha256: 45126380b2f0881c6111fd0ec45395c24b25f255bc5776d6bc5371d4f2bd1c2a
 ontap_region: East Midlands
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 9
+- Records: 10
 - Selected: 6
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 3
+- Hard pass: 4
 
 ## SELECTED
 
@@ -123,6 +123,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-long-fie
 
 - [Level 1 Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/level-1-personal-care-assistant-village-primary-academy) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-37d931fd-e898-412f-bd8e-d53558f8deba) — Manager title salary ceiling £29,362 is not below £28,000.
+- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-village-primary-academy-derby-derbyshire) — Manager title salary ceiling £32,597 is not below £28,000.
 - [Senior Contract & Procurement Manager](https://teaching-vacancies.service.gov.uk/jobs/senior-contract-procurement-manager-embark-multi-academy-trust-derby-not-recorded) — Manager title salary ceiling £54,000 is not below £28,000.
 
 ## Safety boundary

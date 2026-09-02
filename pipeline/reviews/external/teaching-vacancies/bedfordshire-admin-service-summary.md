@@ -1,11 +1,11 @@
 # Teaching Vacancies regional review — Bedfordshire
 
-review_date: 2026-09-01
-review_fingerprint: 55a608f24c53dc14cb0312d3bd037505389ded191c002db4c44f475a0eec6954
-routing_manifest_sha256: 987772ee12e2a9bbbaf1e7aa2170ab8a9c426878de897c9ff36e2be51a6defa2
+review_date: 2026-09-02
+review_fingerprint: 2452d994cfb9a86d41d9bb7c7ac68f5e257de8ebed4e41be456b5daf761be431
+routing_manifest_sha256: 45126380b2f0881c6111fd0ec45395c24b25f255bc5776d6bc5371d4f2bd1c2a
 ontap_region: Bedfordshire
 slice_category: admin_service
-slice_status: UNREGISTERED
+slice_status: LIVE
 
 Edit only the `action:` line in each editable block.
 Blank POSS decisions remain unpublished.
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 6
+- Records: 8
 - Selected: 3
-- POSS awaiting decision: 0
+- POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 3
+- Hard pass: 4
 
 ## SELECTED
 
@@ -28,7 +28,7 @@ employer: Biggleswade Academy
 closing_date: 2026-09-06T23:59:00+01:00
 reason: Clear admin/service title: administrative assistant
 jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
+slice_status: LIVE
 migration_status: 
 factual_fingerprint: e1bb6ab1271b728a537c3bd419112165cfe8d20d8674fc7a512e71a6e2e416bc
 source: Teaching Vacancies
@@ -43,7 +43,7 @@ employer: Chiltern Learning Trust
 closing_date: 2026-09-04T09:00:00+01:00
 reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
+slice_status: LIVE
 migration_status: 
 factual_fingerprint: 85f0264700aecd0c51b3098c63a44b54cada2a60ead2b7a68f239186eb418b7d
 source: Teaching Vacancies
@@ -58,7 +58,7 @@ employer: The Stockwood Park Academy
 closing_date: 2026-09-07T08:00:00+01:00
 reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
+slice_status: LIVE
 migration_status: 
 factual_fingerprint: 642f6c2348baaadf37ad1e7450fcabebd754676074846164659e1a128053bd40
 source: Teaching Vacancies
@@ -68,7 +68,20 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/safeguarding-attendan
 
 ## POSS — choose SELECT or EXCLUDE
 
-- None.
+---
+action: 
+POSS | Bedfordshire | Luton, LU4 0PF | £16.62 - £17.85 Hourly | Governance Professional (Clerk)
+employer: St Thomas Catholic Academies Trust
+closing_date: 2026-09-25T12:00:00+01:00
+reason: Borderline school administration title: governance professional
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: b7765419421b98a6e313425f38252f166a41ab38f62495f578e3b18fa8176693
+source: Teaching Vacancies
+source_job_id: governance-professional-clerk-st-thomas-catholic-academies-trust-luton-not-recorded
+source_url: https://teaching-vacancies.service.gov.uk/jobs/governance-professional-clerk-st-thomas-catholic-academies-trust-luton-not-recorded
+---
 
 ## EXCLUDED BY REVIEW
 
@@ -78,6 +91,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/safeguarding-attendan
 
 - [Data and Exams Assistant](https://teaching-vacancies.service.gov.uk/jobs/data-and-exams-assistant-queensbury-academy) — Insufficient admin/service evidence.
 - [Finance Assistant - Purchase Ledger & Treasury](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-purchase-ledger-treasury) — Insufficient admin/service evidence.
+- [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-st-matthew-s-primary-school) — Insufficient admin/service evidence.
 - [Online Marketing & Social Media Assistant](https://teaching-vacancies.service.gov.uk/jobs/online-marketing-social-media-assistant) — Insufficient admin/service evidence.
 
 ## Safety boundary

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Hampshire
 
-review_date: 2026-09-01
-review_fingerprint: 4e4753082f5571ec7f2f41dcda17775b0e7b9e66a95b0fce37897a45e2f5d604
-routing_manifest_sha256: 987772ee12e2a9bbbaf1e7aa2170ab8a9c426878de897c9ff36e2be51a6defa2
+review_date: 2026-09-02
+review_fingerprint: c111d333bcb481684753c2799cd80e11321cb1a158c3bd8e268b8baa8aec157e
+routing_manifest_sha256: 45126380b2f0881c6111fd0ec45395c24b25f255bc5776d6bc5371d4f2bd1c2a
 ontap_region: Hampshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 11
+- Records: 9
 - Selected: 5
-- POSS awaiting decision: 1
+- POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 4
 
 ## SELECTED
 
@@ -98,20 +98,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-ac
 
 ## POSS — choose SELECT or EXCLUDE
 
----
-action: 
-POSS | Hampshire | Portsmouth, South East, PO1 5PF | TSAT Pay Group 3 pro rata to £23,701 - £27,506 for hours and weeks stated (£26,866 - £31,179 FTE) | Senior Administration Assistant
-employer: The Portsmouth Academy
-closing_date: 2026-09-01T23:59:00+01:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 7135e780724d7b8bfeda7eac7d55c93a879d6ffbfdf033708b99d3f5fd6923c2
-source: Teaching Vacancies
-source_job_id: senior-administration-assistant-the-portsmouth-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-administration-assistant-the-portsmouth-academy
----
+- None.
 
 ## EXCLUDED BY REVIEW
 
@@ -122,7 +109,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-administration
 - [Attendance and Admin Officer](https://teaching-vacancies.service.gov.uk/jobs/attendance-and-admin-officer-shirley-warren-primary-nursery-school) — Insufficient admin/service evidence.
 - [Clerk to the Governing Body](https://teaching-vacancies.service.gov.uk/jobs/clerk-to-the-governing-body-elson-junior-school) — Insufficient admin/service evidence.
 - [Cover Co-ordinator and Cover Supervisor](https://teaching-vacancies.service.gov.uk/jobs/cover-co-ordinator-and-cover-supervisor) — Insufficient admin/service evidence.
-- [Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/operations-manager-wellington-eagles-primary-academy) — Manager title salary ceiling £39,152 is not below £28,000.
 - [Support Officer (Finance)](https://teaching-vacancies.service.gov.uk/jobs/support-officer-finance) — Insufficient admin/service evidence.
 
 ## Safety boundary

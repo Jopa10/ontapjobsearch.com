@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Bristol & Bath
 
-review_date: 2026-09-01
+review_date: 2026-09-02
 review_fingerprint: ba872ad7b19666c82d0cb91b3c5aead939b97af6b6db6237f96b204406737e9c
-routing_manifest_sha256: 987772ee12e2a9bbbaf1e7aa2170ab8a9c426878de897c9ff36e2be51a6defa2
+routing_manifest_sha256: 45126380b2f0881c6111fd0ec45395c24b25f255bc5776d6bc5371d4f2bd1c2a
 ontap_region: Bristol & Bath
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 5
+- Records: 3
 - Selected: 1
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 4
+- Hard pass: 2
 
 ## SELECTED
 
@@ -46,9 +46,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 
 ## HARD_PASS
 
-- [Financial Controller](https://teaching-vacancies.service.gov.uk/jobs/financial-controller-9097ffb6-9d63-4285-9dd2-537e38cf05ad) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-whitchurch-primary-school) — Manager title without salary evidence below £28,000.
-- [Senior Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/senior-administration-assistant-frome-vale-academy) — Insufficient admin/service evidence.
 - [Senior Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-finance-officer-chipping-sodbury-school) — Insufficient admin/service evidence.
 
 ## Safety boundary

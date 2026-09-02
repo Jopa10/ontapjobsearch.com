@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Wiltshire
 
-review_date: 2026-09-01
+review_date: 2026-09-02
 review_fingerprint: 5c6fa853caf69e56b152e82a471d344d6b4f59676cd224be9a35bf9d37cf2370
-routing_manifest_sha256: 987772ee12e2a9bbbaf1e7aa2170ab8a9c426878de897c9ff36e2be51a6defa2
+routing_manifest_sha256: 45126380b2f0881c6111fd0ec45395c24b25f255bc5776d6bc5371d4f2bd1c2a
 ontap_region: Wiltshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 6
+- Records: 5
 - Selected: 1
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 4
 
 ## SELECTED
 
@@ -48,8 +48,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/it-system-administrat
 
 - [Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-st-nicholas-church-of-england-primary-school-bromham) — Insufficient admin/service evidence.
 - [Exams & Admin Officer](https://teaching-vacancies.service.gov.uk/jobs/exams-admin-officer) — Insufficient admin/service evidence.
-- [Head of Finance](https://teaching-vacancies.service.gov.uk/jobs/head-of-finance-magna-learning-partnership) — Insufficient admin/service evidence.
-- [Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/operations-manager-wellington-lions-primary-academy) — Manager title salary ceiling £39,152 is not below £28,000.
+- [Field HR Professional](https://teaching-vacancies.service.gov.uk/jobs/field-hr-professional) — Insufficient admin/service evidence.
 - [Recruitment Lead](https://teaching-vacancies.service.gov.uk/jobs/recruitment-lead-the-white-horse-federation) — Insufficient admin/service evidence.
 
 ## Safety boundary

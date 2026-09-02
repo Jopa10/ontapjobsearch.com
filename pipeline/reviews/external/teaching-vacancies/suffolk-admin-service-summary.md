@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Suffolk
 
-review_date: 2026-09-01
-review_fingerprint: 4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945
-routing_manifest_sha256: 987772ee12e2a9bbbaf1e7aa2170ab8a9c426878de897c9ff36e2be51a6defa2
+review_date: 2026-09-02
+review_fingerprint: 0af86a25d3a777a5b1b9015ddf77fac0e1f4305ce5ec939b010bfd3f83a1bb02
+routing_manifest_sha256: 45126380b2f0881c6111fd0ec45395c24b25f255bc5776d6bc5371d4f2bd1c2a
 ontap_region: Suffolk
 slice_category: admin_service
 slice_status: LIVE
@@ -13,15 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 5
-- Selected: 0
+- Records: 7
+- Selected: 1
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 6
 
 ## SELECTED
 
-- None.
+---
+action: 
+SELECTED | Suffolk | Woodbridge, East of England, IP12 4JX | £33,675.00 - £36,834.00 Annually (Actual) | Examinations Officer
+employer: Farlingaye High School
+closing_date: 2026-09-21T09:00:00+01:00
+reason: Clear admin/service title: examinations officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 1aaa84681556895d18d0d45059aa734c15eb2505b65cecf2bff2c7d22e198a6c
+source: Teaching Vacancies
+source_job_id: examinations-officer-farlingaye-high-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/examinations-officer-farlingaye-high-school
+---
 
 ## POSS — choose SELECT or EXCLUDE
 
@@ -38,6 +51,7 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 - [HR Assistant](https://teaching-vacancies.service.gov.uk/jobs/hr-assistant-6dd405b8-2fc8-4e6a-b2e7-62e15c258380) — Insufficient admin/service evidence.
 - [HR Assistant Apprentice](https://teaching-vacancies.service.gov.uk/jobs/hr-assistant-apprentice-piper-s-vale-primary-a-paradigm-academy-ipswich-suffolk) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-chalk-hill-sudbury-suffolk) — Manager title salary ceiling £33,699 is not below £28,000.
+- [Trust Business Manager](https://teaching-vacancies.service.gov.uk/jobs/trust-business-manager-asset-education-ipswich-not-recorded) — Manager title salary ceiling £36,581 is not below £28,000.
 
 ## Safety boundary
 

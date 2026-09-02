@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cambridgeshire
 
-review_date: 2026-09-01
-review_fingerprint: 6fc7199a2346c855530038d56a43f3fb5a0f8204e8979614131fed8163e29939
-routing_manifest_sha256: 987772ee12e2a9bbbaf1e7aa2170ab8a9c426878de897c9ff36e2be51a6defa2
+review_date: 2026-09-02
+review_fingerprint: 90e24f80e964a700fa6eafc7b8bef7852dc708967705f0a460a8cbdba1a376bd
+routing_manifest_sha256: 45126380b2f0881c6111fd0ec45395c24b25f255bc5776d6bc5371d4f2bd1c2a
 ontap_region: Cambridgeshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 20
-- Selected: 9
-- POSS awaiting decision: 2
+- Records: 17
+- Selected: 7
+- POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 9
 
 ## SELECTED
-
----
-action: 
-SELECTED | Cambridgeshire | Wisbech, East of England, PE13 1PJ | £24,871.00 Annually (FTE) | Admin Assistant (Maternity Cover)
-employer: Peckover Primary School
-closing_date: 2026-09-02T12:00:00+01:00
-reason: Clear admin/service title: admin assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 18c773d8cae6ea3d386f3908f2cb86fe1cf109cab38ff589ae78239f7fc0b69d
-source: Teaching Vacancies
-source_job_id: admin-assistant-maternity-cover-peckover-primary-school-wisbech-cambridgeshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-maternity-cover-peckover-primary-school-wisbech-cambridgeshire
----
 
 ---
 action: 
@@ -98,21 +83,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-admin-assista
 
 ---
 action: 
-SELECTED | Cambridgeshire | Peterborough, East of England, PE4 6HX | £14,422.00 Annually (Actual) Grade 5 | Inclusion Administrator
-employer: Discovery Primary Academy
-closing_date: 2026-09-02T09:00:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 8a971593e6a9e85d7031475367b24719d6e0af28b637878427bc30c36d7ad389
-source: Teaching Vacancies
-source_job_id: inclusion-administrator-discovery-primary-academy-peterborough-cambridgeshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/inclusion-administrator-discovery-primary-academy-peterborough-cambridgeshire
----
-
----
-action: 
 SELECTED | Cambridgeshire | Huntingdon, East of England, PE29 7DD | £25,583.00 - £25,989.00 Annually (FTE) NJC Scale 3, Points 5 to 6 . Actual salary £22,439.24 per annum on point 5. | Office Administrator
 employer: St Peter's School
 closing_date: 2026-09-04T09:00:00+01:00
@@ -160,21 +130,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-sw
 
 ---
 action: 
-POSS | Cambridgeshire | March, East of England, PE15 9RP | £27,063.00 Annually (FTE) £14.03 per hour | Clerk to the Local Governing Boards
-employer: Burrowmoor Primary Academy
-closing_date: 2026-09-01T23:59:00+01:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 5acc3a4c567d81fda00c499b50fb9a9482e622278923774fec612824bf2c3918
-source: Teaching Vacancies
-source_job_id: clerk-to-the-local-governing-boards
-source_url: https://teaching-vacancies.service.gov.uk/jobs/clerk-to-the-local-governing-boards
----
-
----
-action: 
 POSS | Cambridgeshire | Huntingdon, PE28 5TQ | £32,061.00 Annually (Actual) | Marketing & Communications Officer
 employer: Meridian Trust
 closing_date: 2026-09-16T08:00:00+01:00
@@ -198,7 +153,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/marketing-communicati
 - [Head of HR Business Partnering](https://teaching-vacancies.service.gov.uk/jobs/head-of-hr-business-partnering) — Insufficient admin/service evidence.
 - [Head of HR Operations](https://teaching-vacancies.service.gov.uk/jobs/head-of-hr-operations-meridian-trust) — Insufficient admin/service evidence.
 - [Head of HR Operations](https://teaching-vacancies.service.gov.uk/jobs/head-of-hr-operations-united-learning-trust) — Insufficient admin/service evidence.
-- [HR Adviser (Field based)](https://teaching-vacancies.service.gov.uk/jobs/hr-adviser-field-based) — Insufficient admin/service evidence.
+- [MAT Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/mat-finance-officer-four-cs-mat) — Insufficient admin/service evidence.
 - [Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-0ac27fb8-22a7-4d23-9c79-0a117c28f623) — Insufficient admin/service evidence.
 - [Senior HR Adviser (Field based Cambridge and Ely area primarily)](https://teaching-vacancies.service.gov.uk/jobs/senior-hr-adviser-field-based-cambridge-and-ely-area-primarily) — Insufficient admin/service evidence.
 - [Trust Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/trust-finance-officer-act-multi-academy-trust) — Insufficient admin/service evidence.

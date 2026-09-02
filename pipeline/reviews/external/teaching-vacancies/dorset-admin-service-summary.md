@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Dorset
 
-review_date: 2026-09-01
+review_date: 2026-09-02
 review_fingerprint: 8f2cae9e7bf16f9c96e2cc67a851f19ce38c1f96b9bd7a354e77c4f172ea630b
-routing_manifest_sha256: 987772ee12e2a9bbbaf1e7aa2170ab8a9c426878de897c9ff36e2be51a6defa2
+routing_manifest_sha256: 45126380b2f0881c6111fd0ec45395c24b25f255bc5776d6bc5371d4f2bd1c2a
 ontap_region: Dorset
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 2
+- Records: 3
 - Selected: 1
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 0
+- Hard pass: 1
 
 ## SELECTED
 
@@ -59,7 +59,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/data-manager-parkston
 
 ## HARD_PASS
 
-- None.
+- [Reception/Administration & Marketing Assistant](https://teaching-vacancies.service.gov.uk/jobs/reception-administration-marketing-assistant-the-cornerstone-academy) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

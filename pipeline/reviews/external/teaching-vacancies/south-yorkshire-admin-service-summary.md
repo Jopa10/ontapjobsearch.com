@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - South
 
-review_date: 2026-09-01
-review_fingerprint: f5a8084eb0c646207b7752778a5d1913c7dba1a24f423777ce8af2127694f862
-routing_manifest_sha256: 987772ee12e2a9bbbaf1e7aa2170ab8a9c426878de897c9ff36e2be51a6defa2
+review_date: 2026-09-02
+review_fingerprint: 9bce21f664c1709a0f49a7098f47181a57edb2f441984187c4566f7c9148fa27
+routing_manifest_sha256: 45126380b2f0881c6111fd0ec45395c24b25f255bc5776d6bc5371d4f2bd1c2a
 ontap_region: Yorkshire - South
 slice_category: admin_service
 slice_status: LIVE
@@ -14,10 +14,10 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 18
-- Selected: 5
+- Selected: 4
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 12
+- Hard pass: 13
 
 ## SELECTED
 
@@ -34,21 +34,6 @@ factual_fingerprint: b5b168a56f468ff6d306348bd1d72f085a0a5694ec6df76fecb7a61b753
 source: Teaching Vacancies
 source_job_id: admin-clerical-officer-level-2-rowan-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-clerical-officer-level-2-rowan-school
----
-
----
-action: 
-SELECTED | Yorkshire - South | Rotherham, Yorkshire and the Humber, S60 5QS | £12,019.00 - £12,288.00 Annually (Actual) pay award pending | Administration Assistant
-employer: Treeton Church of England Primary School
-closing_date: 2026-09-01T23:59:00+01:00
-reason: Clear admin/service title: administration assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: a0e1e5cb5c53cbc2aaf6ed9a08e1718b411e0c4e35e42de7aa6cb86da7b78ce2
-source: Teaching Vacancies
-source_job_id: administration-assistant-treeton-church-of-england-primary-school-rotherham-south-yorkshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-treeton-church-of-england-primary-school-rotherham-south-yorkshire
 ---
 
 ---
@@ -129,6 +114,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/estates-and-complianc
 - [Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-st-clare-catholic-multi-academy-trust) — Insufficient admin/service evidence.
 - [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-mercia-learning-trust-sheffield-not-recorded) — Manager title salary ceiling £53,052 is not below £28,000.
 - [HR Manager](https://teaching-vacancies.service.gov.uk/jobs/hr-manager-st-francis-catholic-multi-academy-trust-rotherham-not-recorded) — Manager title salary ceiling £54,495 is not below £28,000.
+- [People Officer](https://teaching-vacancies.service.gov.uk/jobs/people-officer-astrea-academy-trust) — Insufficient admin/service evidence.
 - [Resources Assistant](https://teaching-vacancies.service.gov.uk/jobs/resources-assistant-westfield-school) — Insufficient admin/service evidence.
 - [School Administration Assistant: HR and Payroll](https://teaching-vacancies.service.gov.uk/jobs/school-administration-assistant-hr-and-payroll) — Insufficient admin/service evidence.
 

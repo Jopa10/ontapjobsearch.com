@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Kent
 
-review_date: 2026-09-01
+review_date: 2026-09-02
 review_fingerprint: 910a25b605b28c2367cc433a8d4e5f3e3642114526422fc4e430b685eeccb0f4
-routing_manifest_sha256: 987772ee12e2a9bbbaf1e7aa2170ab8a9c426878de897c9ff36e2be51a6defa2
+routing_manifest_sha256: 45126380b2f0881c6111fd0ec45395c24b25f255bc5776d6bc5371d4f2bd1c2a
 ontap_region: Kent
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 7
+- Records: 9
 - Selected: 2
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 3
+- Hard pass: 5
 
 ## SELECTED
 
@@ -91,6 +91,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-nore-aca
 
 - [HR Apprentice](https://teaching-vacancies.service.gov.uk/jobs/hr-apprentice-the-howard-academy-trust-chatham-not-recorded) — Insufficient admin/service evidence.
 - [HR Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-swale-academies-trust) — Insufficient admin/service evidence.
+- [Lead Safeguarding Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/lead-safeguarding-administration-officer-the-robert-napier-school-gillingham-kent) — Insufficient admin/service evidence.
+- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-whitstable-junior-school) — Manager title salary ceiling £35,035 is not below £28,000.
 - [School Data and Exam Support Officer](https://teaching-vacancies.service.gov.uk/jobs/school-data-and-exam-support-officer) — Insufficient admin/service evidence.
 
 ## Safety boundary

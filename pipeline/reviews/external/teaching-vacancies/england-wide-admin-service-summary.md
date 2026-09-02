@@ -12,14 +12,62 @@ Edit only the `action:` line in each unresolved block:
 
 ## TOTALS
 
-- All routed roles: **381**
+- All routed roles: **376**
 - REVIEW NOW (LIVE regions): **347**
-- EDITABLE NOW (no remembered action): **316**
-- REMEMBERED / RESOLVED: **31**
-- DEFERRED - REGION NOT LIVE: **34**
-- SELECTED: **135**
-- POSS: **11**
-- HARD PASS / EXCLUDED: **201**
+- EDITABLE NOW (no remembered action): **320**
+- REMEMBERED / RESOLVED: **27**
+- DEFERRED - REGION NOT LIVE: **29**
+- SELECTED: **134**
+- POSS: **14**
+- HARD PASS / EXCLUDED: **199**
+
+## BEDFORDSHIRE — SELECTED
+
+---
+action:
+SELECTED | Bedfordshire | Biggleswade, East of England, SG18 8JU | £12.85 Hourly Level 2A point 3 (£12.85 per hour). | Administrative Assistant
+employer: Biggleswade Academy
+closing_date: 2026-09-06T23:59:00+01:00
+reason: Clear admin/service title: administrative assistant
+factual_fingerprint: e1bb6ab1271b728a537c3bd419112165cfe8d20d8674fc7a512e71a6e2e416bc
+source_job_id: administrative-assistant-39c3ce62-ad82-43cf-a920-db593d957c9a
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-39c3ce62-ad82-43cf-a920-db593d957c9a
+---
+
+---
+action:
+SELECTED | Bedfordshire | Luton, LU3 3QN | £16,006.00 - £17,349.00 Annually (Actual) L4 pts 9 - 14 pro rata'd | HR Administrator
+employer: Chiltern Learning Trust
+closing_date: 2026-09-04T09:00:00+01:00
+reason: Clear admin/service title: administrator
+factual_fingerprint: 85f0264700aecd0c51b3098c63a44b54cada2a60ead2b7a68f239186eb418b7d
+source_job_id: hr-administrator-86d9fe65-1a75-4481-9155-0c7b4d9c9eb0
+source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-86d9fe65-1a75-4481-9155-0c7b4d9c9eb0
+---
+
+---
+action:
+SELECTED | Bedfordshire | Luton, East of England, LU1 5PP | £27,564.00 - £29,850.00 Annually (FTE) AS 9-14 FTE £27,564-£29,850 pro rata £25,146-£27,232 | Safeguarding, Attendance & Welfare Administrator
+employer: The Stockwood Park Academy
+closing_date: 2026-09-07T08:00:00+01:00
+reason: Clear admin/service title: administrator
+factual_fingerprint: 642f6c2348baaadf37ad1e7450fcabebd754676074846164659e1a128053bd40
+source_job_id: safeguarding-attendance-welfare-administrator
+source_url: https://teaching-vacancies.service.gov.uk/jobs/safeguarding-attendance-welfare-administrator
+---
+
+## BEDFORDSHIRE — POSSIBLES
+
+---
+action:
+POSS | Bedfordshire | Luton, LU4 0PF | £16.62 - £17.85 Hourly | Governance Professional (Clerk)
+employer: St Thomas Catholic Academies Trust
+closing_date: 2026-09-25T12:00:00+01:00
+reason: Borderline school administration title: governance professional
+factual_fingerprint: b7765419421b98a6e313425f38252f166a41ab38f62495f578e3b18fa8176693
+source_job_id: governance-professional-clerk-st-thomas-catholic-academies-trust-luton-not-recorded
+source_url: https://teaching-vacancies.service.gov.uk/jobs/governance-professional-clerk-st-thomas-catholic-academies-trust-luton-not-recorded
+---
 
 ## BERKSHIRE — SELECTED
 
@@ -153,17 +201,6 @@ _No jobs in this group._
 
 ---
 action:
-SELECTED | Cambridgeshire | Wisbech, East of England, PE13 1PJ | £24,871.00 Annually (FTE) | Admin Assistant (Maternity Cover)
-employer: Peckover Primary School
-closing_date: 2026-09-02T12:00:00+01:00
-reason: Clear admin/service title: admin assistant
-factual_fingerprint: 18c773d8cae6ea3d386f3908f2cb86fe1cf109cab38ff589ae78239f7fc0b69d
-source_job_id: admin-assistant-maternity-cover-peckover-primary-school-wisbech-cambridgeshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-maternity-cover-peckover-primary-school-wisbech-cambridgeshire
----
-
----
-action:
 SELECTED | Cambridgeshire | Peterborough, East of England, PE6 7JX | £22,469.00 Annually (FTE) | Administrator - Student Services
 employer: Arthur Mellows Village College
 closing_date: 2026-09-07T09:00:00+01:00
@@ -204,17 +241,6 @@ reason: Clear admin/service title: admin assistant
 factual_fingerprint: bb12afb2ad0a0d201446df474b26ad57f0c365e5f1f55a6cd1674dde7b21b66c
 source_job_id: finance-admin-assistant-priory-junior-school-st-neots-cambridgeshire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-admin-assistant-priory-junior-school-st-neots-cambridgeshire
----
-
----
-action:
-SELECTED | Cambridgeshire | Peterborough, East of England, PE4 6HX | £14,422.00 Annually (Actual) Grade 5 | Inclusion Administrator
-employer: Discovery Primary Academy
-closing_date: 2026-09-02T09:00:00+01:00
-reason: Clear admin/service title: administrator
-factual_fingerprint: 8a971593e6a9e85d7031475367b24719d6e0af28b637878427bc30c36d7ad389
-source_job_id: inclusion-administrator-discovery-primary-academy-peterborough-cambridgeshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/inclusion-administrator-discovery-primary-academy-peterborough-cambridgeshire
 ---
 
 ---
@@ -345,17 +371,6 @@ source_job_id: attendance-officer-okehampton-college-okehampton-devon
 source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-okehampton-college-okehampton-devon
 ---
 
----
-action:
-SELECTED | Devon | Okehampton, EX20 1PU | £21,072.00 - £21,407.00 Annually (Actual) NJC Grade C. Range 6 to 7 | People Administrator
-employer: Dartmoor Multi Academy Trust
-closing_date: 2026-09-01T23:59:00+01:00
-reason: Clear admin/service title: administrator
-factual_fingerprint: b54bafbdb90bbd6b8c936d4dda5a5d8f6a765aae6d52c6343e90b7ee9825ac7c
-source_job_id: people-administrator-dartmoor-multi-academy-trust
-source_url: https://teaching-vacancies.service.gov.uk/jobs/people-administrator-dartmoor-multi-academy-trust
----
-
 ## DEVON — POSSIBLES
 
 _No jobs in this group._
@@ -433,6 +448,17 @@ reason: Clear admin/service title: administration assistant
 factual_fingerprint: 4f47a9b4fabd4982aca927926fb7e70c6d67b4cf0961d9dfb9d9cd10b70379fc
 source_job_id: administration-assistant-c2f65b3b-e84d-4148-98e6-f9f60ceb2d22
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-c2f65b3b-e84d-4148-98e6-f9f60ceb2d22
+---
+
+---
+action:
+SELECTED | Greater Manchester - Manchester & Salford | Manchester, North West, M23 2SX | DAT Level 2, SCP 14-17 (Actual salary £24,444 - £24,832) | Level 2 Academy Administrator
+employer: Dixons Newall Green Academy
+closing_date: 2026-09-10T23:59:00+01:00
+reason: Clear admin/service title: administrator
+factual_fingerprint: acd9370ce704d991be635830eb837f9bde5fa27469b376189db3d007efc2ecbd
+source_job_id: level-2-academy-administrator-b06ab9cb-ab9d-4cf2-9142-0597902d3d58
+source_url: https://teaching-vacancies.service.gov.uk/jobs/level-2-academy-administrator-b06ab9cb-ab9d-4cf2-9142-0597902d3d58
 ---
 
 ## GREATER MANCHESTER - MANCHESTER & SALFORD — POSSIBLES
@@ -715,13 +741,13 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-tuli
 
 ---
 action:
-SELECTED | London | Enfield, London, EN2 8GH | £24,459.00 - £25,583.00 Annually (Actual) NJC salary scale 6-9 | Administrative Assistant - Receptionist
-employer: Wren Academy Enfield
-closing_date: 2026-09-02T09:00:00+01:00
-reason: Clear admin/service title: administrative assistant, receptionist
-factual_fingerprint: 3b9ced21f1b4234457ceca8feb9559887adf5dea3fc1c1e0978761bbfe9d5e99
-source_job_id: administrative-assistant-receptionist-wren-academy-enfield-enfield
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-receptionist-wren-academy-enfield-enfield
+SELECTED | London | Dagenham, London, RM9 6PH | £25,514.00 Annually (Actual) | Administrative Assistant
+employer: Pathways School
+closing_date: 2026-09-11T23:59:00+01:00
+reason: Clear admin/service title: administrative assistant
+factual_fingerprint: d4f0fcdc2eeb963913798ea0bea40d4bad32b3547b5c16bb487fc17d452e5198
+source_job_id: administrative-assistant-pathways-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-pathways-school
 ---
 
 ---
@@ -759,17 +785,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/ehcp-administrator-li
 
 ---
 action:
-SELECTED | London | London, London, SW16 6NP | Grade 3 - Salary Spine point 5 to 6 - £31,086 to £31,530 (actual £28,592 to £29,002) | Office Administrator
-employer: St Leonard's Church of England Primary School
-closing_date: 2026-09-11T15:00:00+01:00
-reason: Clear admin/service title: administrator, office administrator
-factual_fingerprint: dfb8614e8859acc9e446d1f3a5130b800f5a77f9bf4b14abbd10dba60aa9a134
-source_job_id: office-administrator-st-leonard-s-church-of-england-primary-school-london
-source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-st-leonard-s-church-of-england-primary-school-london
----
-
----
-action:
 SELECTED | London | London, London, W1U 5BA | NJC points 16 - 25, depending on experience: £36,422 - £41,636 pa | PA to the SLT, including data systems & communications
 employer: The St Marylebone CofE School
 closing_date: 2026-09-09T09:00:00+01:00
@@ -777,6 +792,17 @@ reason: Clear admin/service title: pa to
 factual_fingerprint: d1ca0eca4ded7126afdc3064ae6ce11fdb8fed91fc5f95a895e079dd83462e4c
 source_job_id: pa-to-the-slt-including-data-systems-communications
 source_url: https://teaching-vacancies.service.gov.uk/jobs/pa-to-the-slt-including-data-systems-communications
+---
+
+---
+action:
+SELECTED | London | Harrow, London, HA3 6LE | £25,335.00 - £26,436.00 Annually (Actual) | Pastoral/EHCP Administrator Term Time Only
+employer: Shaftesbury High School
+closing_date: 2026-09-09T23:59:00+01:00
+reason: Clear admin/service title: administrator
+factual_fingerprint: e97b9f2d102e677b644bdf94881deb6655aeadf98e6f0185853ec9eff35a4dfb
+source_job_id: pastoral-ehcp-administrator-term-time-only
+source_url: https://teaching-vacancies.service.gov.uk/jobs/pastoral-ehcp-administrator-term-time-only
 ---
 
 ---
@@ -803,6 +829,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/reprographics-adminis
 
 ---
 action:
+SELECTED | London | Worcester Park, South East, KT4 7DD | £13,891.00 - £15,113.00 Annually (FTE) Partnership Grade 5 (£27,782pa - £30,226pa FTE) | SEN Administrative Assistant
+employer: Cuddington Community Primary School
+closing_date: 2026-09-18T23:59:00+01:00
+reason: Clear admin/service title: administrative assistant
+factual_fingerprint: 68a12e2c899fb28b819780f2abae5a89556842f2501fd753af6e3a2271969862
+source_job_id: sen-administrative-assistant-37c055f6-3851-49a6-9a98-deeec3db7db2
+source_url: https://teaching-vacancies.service.gov.uk/jobs/sen-administrative-assistant-37c055f6-3851-49a6-9a98-deeec3db7db2
+---
+
+---
+action:
 SELECTED | London | London, EC1V 1JX | 38,256 FTE - £39,276 FTE. NJC Grade 7 SCP 23 - 25 (Outer London) | Senior Data Administrator
 employer: The Beckmead Trust
 closing_date: 2026-09-30T00:00:00+01:00
@@ -812,18 +849,18 @@ source_job_id: senior-data-administrator
 source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-data-administrator
 ---
 
-## LONDON — POSSIBLES
-
 ---
 action:
-POSS | London | Dagenham, London, RM9 6PH | £25,514.00 Annually (Actual) | Administrative Assistant
-employer: Pathways School
-closing_date: 2026-09-11T23:59:00+01:00
-reason: Possible JobG8 duplicate requires review
-factual_fingerprint: d4f0fcdc2eeb963913798ea0bea40d4bad32b3547b5c16bb487fc17d452e5198
-source_job_id: administrative-assistant-pathways-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-pathways-school
+SELECTED | London | London, London, NW9 4AS | £20,559.00 - £23,767.00 Annually (Actual) Pay rise expected from September following Board approval. | Welfare Administrator
+employer: Saracens High School
+closing_date: 2026-09-06T23:59:00+01:00
+reason: Clear admin/service title: administrator
+factual_fingerprint: af4bdca5a26b79f06e968b15bee52f86891d4e055516856344068303e6402b4c
+source_job_id: welfare-administrator-3dd90b50-3a52-43fe-9d80-f9dcd6216326
+source_url: https://teaching-vacancies.service.gov.uk/jobs/welfare-administrator-3dd90b50-3a52-43fe-9d80-f9dcd6216326
 ---
+
+## LONDON — POSSIBLES
 
 ---
 action:
@@ -845,6 +882,28 @@ reason: Possible JobG8 duplicate requires review
 factual_fingerprint: 22f8de45fd278861069530f2cdb5e5348b7af0ebb81215ef2beffb4cc3450566
 source_job_id: administrator-summerswood-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-summerswood-primary-school
+---
+
+---
+action:
+POSS | London | Northwood, London, HA6 1QN | £28,790.00 - £30,000.00 Annually (Actual) | Attendance and Pastoral Support Worker
+employer: Northwood School
+closing_date: 2026-09-04T23:59:00+01:00
+reason: Administrative duties evidenced in description
+factual_fingerprint: dd3cf44058bb3d29d7301d044fca8eaeaef2d6c0c9bec52a9f522147f89ac119
+source_job_id: attendance-and-pastoral-support-worker-northwood-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-and-pastoral-support-worker-northwood-school
+---
+
+---
+action:
+POSS | London | London, London, SW16 6NP | Grade 3 - Salary Spine point 5 to 6 - £31,086 to £31,530 (actual £28,592 to £29,002) | Office Administrator
+employer: St Leonard's Church of England Primary School
+closing_date: 2026-09-11T15:00:00+01:00
+reason: Possible JobG8 duplicate requires review
+factual_fingerprint: dfb8614e8859acc9e446d1f3a5130b800f5a77f9bf4b14abbd10dba60aa9a134
+source_job_id: office-administrator-st-leonard-s-church-of-england-primary-school-london
+source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-st-leonard-s-church-of-england-primary-school-london
 ---
 
 ---
@@ -881,17 +940,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 ---
 
 ## MERSEYSIDE - LIVERPOOL — SELECTED
-
----
-action:
-SELECTED | Merseyside - Liverpool | Liverpool, North West, L5 3QG | £25,583.00 Annually (FTE) | Administration Assistant
-employer: The Beacon Church of England Primary School
-closing_date: 2026-09-01T23:59:00+01:00
-reason: Clear admin/service title: administration assistant
-factual_fingerprint: 54413cf712ace5c00e8995fd5a654e609b1949c8e7962ad24fd09439785a3f4f
-source_job_id: administration-assistant-the-beacon-church-of-england-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-the-beacon-church-of-england-primary-school
----
 
 ---
 action:
@@ -1040,6 +1088,17 @@ _No jobs in this group._
 
 ---
 action:
+SELECTED | Nottinghamshire | Mansfield, East Midlands, NG18 2DP | £25,588.00 (actual salary £21,848.22) | Administration Assistant
+employer: Horizons Academy
+closing_date: 2026-09-06T23:59:00+01:00
+reason: Clear admin/service title: administration assistant
+factual_fingerprint: f6f97a59ea42f0840efc57a6e42cc520715530761c895d780beea2269b8b20ba
+source_job_id: administration-assistant-horizons-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-horizons-academy
+---
+
+---
+action:
 SELECTED | Nottinghamshire | Nottingham, East Midlands, NG5 7JZ | £24,796.00 - £25,583.00 Annually (FTE) Salary will be paid pro rate based on term time weeks and hours worked | Administrative Assistant
 employer: Christ The King Voluntary Academy
 closing_date: 2026-09-07T23:59:00+01:00
@@ -1079,17 +1138,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-administra
 
 ---
 action:
-SELECTED | Oxfordshire | Faringdon, South East, SN7 7LB | £26,824.00 - £29,065.00 Annually (FTE) Support Staff NJC grade 6, SCP 8-13. 30 hours per week/38 weeks per year. Actual annual salary in the region of £18,235.86 - £19,759.37 | Educational Visits Administrator
-employer: Faringdon Community College
-closing_date: 2026-09-02T12:00:00+01:00
-reason: Clear admin/service title: administrator
-factual_fingerprint: 1536b7c65ef7138e688413e80eb8234b0339f2bbba3384bbfb2ddc81f790c83f
-source_job_id: educational-visits-administrator-faringdon-community-college-faringdon-oxfordshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/educational-visits-administrator-faringdon-community-college-faringdon-oxfordshire
----
-
----
-action:
 SELECTED | Oxfordshire | Oxford, South East, OX2 6AB | £26,824.00 - £29,064.00 Annually (FTE) Grade 6 Actual Annual Salary £23,940 | Grade 6 Office Administrator
 employer: St Philip and James' Church of England Aided Primary School Oxford
 closing_date: 2026-09-14T12:00:00+01:00
@@ -1097,28 +1145,6 @@ reason: Clear admin/service title: administrator, office administrator
 factual_fingerprint: af07c6e2ea149f4b4ad119cb9a7c6c065bf1cc9a4758fbe52b95b3996f0be647
 source_job_id: grade-6-office-administrator-3e4de74e-af8a-4ee3-b949-0a2e141ed8ab
 source_url: https://teaching-vacancies.service.gov.uk/jobs/grade-6-office-administrator-3e4de74e-af8a-4ee3-b949-0a2e141ed8ab
----
-
----
-action:
-SELECTED | Oxfordshire | Faringdon, South East, SN7 7LB | £26,824.00 - £29,065.00 Annually (FTE) Support Staff NJC grade 6, SCP 8-13. 30 hours per week/38 weeks per year. Actual annual salary in the region of £18,235.86 - £19,759.37 | Inclusion Administrator
-employer: Faringdon Community College
-closing_date: 2026-09-02T12:00:00+01:00
-reason: Clear admin/service title: administrator
-factual_fingerprint: 2c7df1f2e68fbdbcf6ffbf249283183c300f25bed97000f60dcd61ff561366ea
-source_job_id: inclusion-administrator-640b849f-52fe-4514-87fa-cda0310e4990
-source_url: https://teaching-vacancies.service.gov.uk/jobs/inclusion-administrator-640b849f-52fe-4514-87fa-cda0310e4990
----
-
----
-action:
-SELECTED | Oxfordshire | Carterton, South East, OX18 3AD | £26,824.00 - £29,064.00 Annually (FTE) Paid pro rata. Actual salary £12157 | School Administrator
-employer: Carterton Primary School
-closing_date: 2026-09-02T23:59:00+01:00
-reason: Clear admin/service title: administrator
-factual_fingerprint: 6445e1bb793b17257cb24de3dadf596f223fd1913f35ece33bb72ca2ee15e2e3
-source_job_id: school-administrator-4e6e25cf-c80f-4e62-864c-657610d00946
-source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-4e6e25cf-c80f-4e62-864c-657610d00946
 ---
 
 ---
@@ -1185,6 +1211,17 @@ _No jobs in this group._
 
 ---
 action:
+SELECTED | Staffordshire | Stoke-On-Trent, ST7 4DL | G5 SCP 16-20-£25,989 - £27,254 FTE-Pay Award Pend | Administrative Assistant
+employer: The Shaw Education Trust
+closing_date: 2026-09-11T09:00:59+01:00
+reason: Clear admin/service title: administrative assistant
+factual_fingerprint: d9b5b8a68d9df8f93ee165da1bb5c52fc8842adbc5eee40507660e9cb4f40578
+source_job_id: administrative-assistant-the-shaw-education-trust
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-the-shaw-education-trust
+---
+
+---
+action:
 SELECTED | Staffordshire | Cannock, West Midlands, WS11 1PD | £25,185.00 - £26,403.00 Annually (FTE) Mornings, Monday to Friday - pro rata, term time | Attendance Officer - Level 4
 employer: Longford Primary Academy
 closing_date: 2026-09-10T12:00:00+01:00
@@ -1211,7 +1248,16 @@ _No jobs in this group._
 
 ## SUFFOLK — SELECTED
 
-_No jobs in this group._
+---
+action:
+SELECTED | Suffolk | Woodbridge, East of England, IP12 4JX | £33,675.00 - £36,834.00 Annually (Actual) | Examinations Officer
+employer: Farlingaye High School
+closing_date: 2026-09-21T09:00:00+01:00
+reason: Clear admin/service title: examinations officer
+factual_fingerprint: 1aaa84681556895d18d0d45059aa734c15eb2505b65cecf2bff2c7d22e198a6c
+source_job_id: examinations-officer-farlingaye-high-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/examinations-officer-farlingaye-high-school
+---
 
 ## SUFFOLK — POSSIBLES
 
@@ -1290,6 +1336,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-4e
 
 ---
 action:
+SELECTED | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B45 0EU | £22,121.00 Annually (Actual) | Receptionist
+employer: King Edward VI Balaam Wood Academy
+closing_date: 2026-09-21T09:00:00+01:00
+reason: Clear admin/service title: receptionist
+factual_fingerprint: f9d1389180deee068952f032ce09b1d6ee768cc4c19d9b82d03eeadc00668a78
+source_job_id: receptionist-king-edward-vi-balaam-wood-academy-birmingham-west-midlands
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-king-edward-vi-balaam-wood-academy-birmingham-west-midlands
+---
+
+---
+action:
 SELECTED | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B8 3QF | £13,422.00 - £14,753.00 Annually (Actual) | School Administrator
 employer: Highfield Junior and Infant School
 closing_date: 2026-09-06T23:59:00+01:00
@@ -1312,7 +1369,16 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-
 
 ## WEST MIDLANDS - BIRMINGHAM & SOLIHULL — POSSIBLES
 
-_No jobs in this group._
+---
+action:
+POSS | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B31 4BS | £28,827.30 - £28,827.30 Annually (Actual) Pro Rata Salary: £28,827.30 (FTE £32,677) | Exam's and Data Officer
+employer: Turves Green Boys' School
+closing_date: 2026-09-11T23:59:00+01:00
+reason: Borderline school administration title: data officer
+factual_fingerprint: 7a21b4184bc3d0b09c159c5e2696009b67ec9999624a1e9743e1db4f385af83b
+source_job_id: exam-s-and-data-officer
+source_url: https://teaching-vacancies.service.gov.uk/jobs/exam-s-and-data-officer
+---
 
 ## WEST MIDLANDS - BLACK COUNTRY — SELECTED
 
@@ -1368,17 +1434,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-admin-of
 
 ---
 action:
-SELECTED | West Midlands - Coventry & Warwickshire | Coventry, West Midlands, CV6 4GL | Grade 3 - £23,764 - £24,915 pro rata | School Administrator
-employer: President Kennedy School Academy
-closing_date: 2026-09-01T23:59:00+01:00
-reason: Clear admin/service title: administrator
-factual_fingerprint: 6b3de123b28dbbff7cc190312bf6e55bd25ae048bc6b9a888e0c7b66bf26a7cd
-source_job_id: school-administrator-president-kennedy-school-academy-coventry-west-midlands
-source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-president-kennedy-school-academy-coventry-west-midlands
----
-
----
-action:
 SELECTED | West Midlands - Coventry & Warwickshire | Coventry, West Midlands, CV2 2AJ | £21,854.00 - £22,911.00 Annually (Actual) Romero Grade 3 | School Receptionist
 employer: Cardinal Wiseman Catholic School
 closing_date: 2026-09-03T09:00:00+01:00
@@ -1406,14 +1461,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/it-system-administrat
 ---
 
 ## WILTSHIRE — POSSIBLES
-
-_No jobs in this group._
-
-## WORCESTERSHIRE — SELECTED
-
-_No jobs in this group._
-
-## WORCESTERSHIRE — POSSIBLES
 
 _No jobs in this group._
 
@@ -1488,17 +1535,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-clerical-office
 
 ---
 action:
-SELECTED | Yorkshire - South | Rotherham, Yorkshire and the Humber, S60 5QS | £12,019.00 - £12,288.00 Annually (Actual) pay award pending | Administration Assistant
-employer: Treeton Church of England Primary School
-closing_date: 2026-09-01T23:59:00+01:00
-reason: Clear admin/service title: administration assistant
-factual_fingerprint: a0e1e5cb5c53cbc2aaf6ed9a08e1718b411e0c4e35e42de7aa6cb86da7b78ce2
-source_job_id: administration-assistant-treeton-church-of-england-primary-school-rotherham-south-yorkshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-treeton-church-of-england-primary-school-rotherham-south-yorkshire
----
-
----
-action:
 SELECTED | Yorkshire - South | Sheffield, Yorkshire and the Humber, S2 5ED | £25,583 to £25,989 | Permanent Admin Assistant
 employer: Wybourn Community Primary & Nursery School
 closing_date: 2026-09-14T09:00:00+01:00
@@ -1560,6 +1596,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/academy-administrator
 
 ---
 action:
+SELECTED | Yorkshire - West | Bradford, Yorkshire and the Humber, BD15 7HB | £19,027.44 - £19,634.87 Annually (Actual) Band 5 - SCP4/6 | Admin/Receptionist
+employer: Beckfoot Allerton Primary School and Nursery
+closing_date: 2026-09-16T09:00:00+01:00
+reason: Clear admin/service title: receptionist
+factual_fingerprint: 8611deca3e4dbe0220ad2e74a63dda917923dcc5246ee541614bb001192387ba
+source_job_id: admin-receptionist-beckfoot-allerton-primary-school-and-nursery
+source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-receptionist-beckfoot-allerton-primary-school-and-nursery
+---
+
+---
+action:
 SELECTED | Yorkshire - West | Halifax, Yorkshire and the Humber, HX2 9SU | £24,939.00 - £29,387.00 Annually (Actual) Term time plus 5 days | SEND & Exam Access Arrangements Administrator
 employer: The North Halifax Grammar School
 closing_date: 2026-09-03T12:00:00+01:00
@@ -1601,10 +1648,9 @@ These roles remain visible in the CSV but are not individually marked until the 
 
 | Region | Total | Selected | POSS | Hard pass / excluded |
 |---|---:|---:|---:|---:|
-| Bedfordshire / admin_service | 6 | 3 | 0 | 3 |
 | Cumbria - North / admin_service | 1 | 1 | 0 | 0 |
 | Cumbria - West / admin_service | 2 | 0 | 1 | 1 |
-| East Midlands / admin_service | 9 | 6 | 0 | 3 |
+| East Midlands / admin_service | 10 | 6 | 0 | 4 |
 | Greater Manchester - North / admin_service | 4 | 1 | 0 | 3 |
 | Lancashire - Blackpool & Fylde / admin_service | 1 | 0 | 0 | 1 |
 | Lancashire - Central / admin_service | 1 | 0 | 0 | 1 |

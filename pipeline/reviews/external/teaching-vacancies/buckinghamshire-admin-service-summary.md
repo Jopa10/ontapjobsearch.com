@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Buckinghamshire
 
-review_date: 2026-09-01
+review_date: 2026-09-02
 review_fingerprint: 10314ee0394f709940a6b08227c1490b463daa074b14282453e23b6e4f6ce243
-routing_manifest_sha256: 987772ee12e2a9bbbaf1e7aa2170ab8a9c426878de897c9ff36e2be51a6defa2
+routing_manifest_sha256: 45126380b2f0881c6111fd0ec45395c24b25f255bc5776d6bc5371d4f2bd1c2a
 ontap_region: Buckinghamshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 10
+- Records: 11
 - Selected: 5
 - POSS awaiting decision: 3
 - Excluded: 0
-- Hard pass: 2
+- Hard pass: 3
 
 ## SELECTED
 
@@ -150,6 +150,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-
 ## HARD_PASS
 
 - [Data Assistant](https://teaching-vacancies.service.gov.uk/jobs/data-assistant-eec862cb-7829-4bfd-9435-a191b7aa5a85) — Insufficient admin/service evidence.
+- [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-5-dimensions-trust) — Manager title salary ceiling £39,862 is not below £28,000.
 - [HR & Training Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-training-officer) — Insufficient admin/service evidence.
 
 ## Safety boundary

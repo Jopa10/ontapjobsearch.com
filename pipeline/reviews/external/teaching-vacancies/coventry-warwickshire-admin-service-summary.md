@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Coventry & Warwickshire
 
-review_date: 2026-09-01
-review_fingerprint: 0ac961f885c001baaf8c9792566ecc32b416a33d77536249c261926543611dfb
-routing_manifest_sha256: 987772ee12e2a9bbbaf1e7aa2170ab8a9c426878de897c9ff36e2be51a6defa2
+review_date: 2026-09-02
+review_fingerprint: 6ea0f83c7250c8b38e164266a43eea06fcfffc5a9a757de5ba7db96fd0dd7739
+routing_manifest_sha256: 45126380b2f0881c6111fd0ec45395c24b25f255bc5776d6bc5371d4f2bd1c2a
 ontap_region: West Midlands - Coventry & Warwickshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 6
-- Selected: 5
+- Records: 7
+- Selected: 4
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 1
+- Hard pass: 3
 
 ## SELECTED
 
@@ -68,21 +68,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-admin-of
 
 ---
 action: 
-SELECTED | West Midlands - Coventry & Warwickshire | Coventry, West Midlands, CV6 4GL | Grade 3 - £23,764 - £24,915 pro rata | School Administrator
-employer: President Kennedy School Academy
-closing_date: 2026-09-01T23:59:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 6b3de123b28dbbff7cc190312bf6e55bd25ae048bc6b9a888e0c7b66bf26a7cd
-source: Teaching Vacancies
-source_job_id: school-administrator-president-kennedy-school-academy-coventry-west-midlands
-source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-president-kennedy-school-academy-coventry-west-midlands
----
-
----
-action: 
 SELECTED | West Midlands - Coventry & Warwickshire | Coventry, West Midlands, CV2 2AJ | £21,854.00 - £22,911.00 Annually (Actual) Romero Grade 3 | School Receptionist
 employer: Cardinal Wiseman Catholic School
 closing_date: 2026-09-03T09:00:00+01:00
@@ -107,6 +92,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-receptionist-4
 ## HARD_PASS
 
 - [Assistant Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/assistant-operations-manager-finham-park-school-coventry-west-midlands) — Manager title salary ceiling £34,434 is not below £28,000.
+- [Chief Financial Officer (CFO)](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-cfo-triumph-learning-trust) — Insufficient admin/service evidence.
+- [Senior Leisure & Lettings Coordinator](https://teaching-vacancies.service.gov.uk/jobs/senior-leisure-lettings-coordinator) — Insufficient admin/service evidence.
 
 ## Safety boundary
 
