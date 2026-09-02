@@ -2,6 +2,10 @@ import type { PublishedJob } from '@/lib/published-jobs';
 
 const recentWindowMs = 48 * 60 * 60 * 1000;
 
+function hasClearSalary(job: PublishedJob): boolean {
+  return /\d/.test(job.salary_text.trim());
+}
+
 function sortNewest(jobs: PublishedJob[]): PublishedJob[] {
   return [...jobs].sort((left, right) => {
     const dateOrder = right.posted_date.localeCompare(left.posted_date);
@@ -63,7 +67,8 @@ function addDiverseJobs(candidates: PublishedJob[], selected: PublishedJob[], li
 export function selectHomepageRecentJobs(jobs: PublishedJob[], limit = 4): PublishedJob[] {
   if (limit <= 0 || jobs.length === 0) return [];
 
-  const sorted = sortNewest(jobs);
+  const sorted = sortNewest(jobs.filter(hasClearSalary));
+  if (sorted.length === 0) return [];
   const newestTimestamp = Math.max(
     ...sorted.map((job) => Date.parse(job.posted_date)).filter(Number.isFinite)
   );
