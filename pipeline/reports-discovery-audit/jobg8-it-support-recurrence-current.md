@@ -3,8 +3,8 @@
 Canonical UK assessment universe: **78 markets**.
 Counts use content-unique adverts after source-reference dedupe.
 LIKELY_IN jobs mapped into the universe: **112**.
-BORDERLINE jobs mapped into the universe: **66**.
-Markets with at least one LIKELY_IN job: **39 / 78**.
+BORDERLINE jobs mapped into the universe: **65**.
+Markets with at least one LIKELY_IN job: **40 / 78**.
 
 Descriptive current-feed spread only — these thresholds do not activate a slice:
 - markets with 3+ LIKELY_IN: **12**
@@ -15,7 +15,7 @@ Descriptive current-feed spread only — these thresholds do not activate a slic
 
 | Market | LIKELY_IN | BORDERLINE | Plausible incl. borderline |
 |---|---:|---:|---:|
-| London | 23 | 19 | 42 |
+| London | 22 | 19 | 41 |
 | West Midlands - Birmingham & Solihull | 8 | 2 | 10 |
 | Surrey | 7 | 4 | 11 |
 | Essex | 7 | 1 | 8 |
@@ -34,7 +34,7 @@ Descriptive current-feed spread only — these thresholds do not activate a slic
 | Northamptonshire | 2 | 0 | 2 |
 | North East | 1 | 6 | 7 |
 | Buckinghamshire | 1 | 2 | 3 |
-| Cumbria - West | 1 | 2 | 3 |
+| Cumbria - West | 1 | 1 | 2 |
 | Dorset | 1 | 1 | 2 |
 | Oxfordshire | 1 | 1 | 2 |
 | Scotland Central - Edinburgh & Lothians | 1 | 1 | 2 |

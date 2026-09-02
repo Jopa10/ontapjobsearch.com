@@ -26,12 +26,12 @@ Hertfordshire,0,0,0,0,0
 Kent,0,0,0,0,5
 Lancashire - Blackpool & Fylde,0,0,0,0,0
 Lancashire - Central,0,0,0,0,0
-Lancashire - East,0,0,0,0,0
+Lancashire - East,0,1,1,0,0
 Lancashire - North,0,0,0,0,0
 Lancashire - West,0,0,0,0,0
 Leicestershire,3,0,3,0,1
 Lincolnshire,1,0,1,0,0
-London,0,3,3,2,3
+London,0,3,3,3,3
 Merseyside - Liverpool,0,0,0,0,2
 Merseyside - Sefton,0,0,0,0,0
 Merseyside - St Helens & Knowsley,0,0,0,0,0
@@ -43,7 +43,7 @@ Nottinghamshire,1,0,1,1,0
 Oxfordshire,1,0,1,0,1
 Rutland,0,0,0,0,0
 Shropshire,0,0,0,0,1
-Somerset,0,1,1,1,0
+Somerset,0,0,0,1,0
 Staffordshire,1,4,5,0,0
 Suffolk,0,0,0,0,0
 Surrey,0,2,2,0,0
@@ -55,7 +55,7 @@ Wiltshire,1,0,1,0,0
 Worcestershire,0,0,0,0,0
 Yorkshire - East,0,0,0,0,0
 Yorkshire - North,2,0,2,0,1
-Yorkshire - South,0,0,0,1,0
+Yorkshire - South,1,0,1,1,0
 Yorkshire - West,0,1,1,0,1
 North Scotland,0,0,0,0,0
 Scotland - Borders,0,0,0,0,0
@@ -65,7 +65,7 @@ Scotland Central - Fife,0,0,0,1,0
 Scotland Central - Tayside,1,0,1,0,0
 Scotland West - Ayrshire,0,0,0,0,0
 Scotland West - Glasgow,0,0,0,1,0
-Scotland West - Lanarkshire,0,0,0,0,0
+Scotland West - Lanarkshire,0,0,0,0,1
 Scotland West - Renfrewshire & Inverclyde,0,0,0,0,0
 North Wales - East,0,0,0,0,0
 North Wales - West,0,0,0,0,0
@@ -75,5 +75,5 @@ Wales South - Cardiff & Vale,0,0,0,0,0
 Wales South - Gwent,0,0,0,0,0
 Wales South - Swansea Bay,0,0,0,1,0
 Wales South - Valleys,0,0,0,0,0
-Northern Ireland - East,1,0,1,0,1
+Northern Ireland - East,0,0,0,0,1
 Northern Ireland - West,0,0,0,0,0

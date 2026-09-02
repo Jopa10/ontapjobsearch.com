@@ -1,11 +1,11 @@
 # JobG8 IT Support proof-region evidence candidates
 
-Content-unique national LIKELY_IN + BORDERLINE inventory: **186** against viability floor **100**.
+Content-unique national LIKELY_IN + BORDERLINE inventory: **185** against viability floor **100**.
 This report does not approve proof regions or any LIVE slice. It surfaces the strongest current markets for human boundary inspection after national discovery.
 
 ## London
 
-- LIKELY_IN: **23**
+- LIKELY_IN: **22**
 - BORDERLINE: **19**
 - Provisional OUT: **2**
 
@@ -15,7 +15,6 @@ Most common LIKELY_IN titles:
 - 2nd Line Corporate Service Desk IT Technician: 2
 - IT Support Officer: 2
 - IT Support Assistant: 2
-- Help desk Coordinator: 1
 - 2nd Line Support: 1
 - IT Service Desk Apprentice: 1
 - Onsite Helpdesk Engineer - Japanese Speaker: 1
@@ -23,6 +22,7 @@ Most common LIKELY_IN titles:
 - ICT Technician: 1
 - IT Technician - Onsite: 1
 - 2nd Line Support Engineer: 1
+- 1st/2nd Line IT Support- 3 month FTC: 1
 
 Borderline titles:
 

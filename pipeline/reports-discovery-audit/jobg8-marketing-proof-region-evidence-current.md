@@ -1,28 +1,28 @@
 # JobG8 Marketing proof-region evidence candidates
 
-Content-unique national LIKELY_IN + BORDERLINE inventory: **335** against viability floor **100**.
+Content-unique national LIKELY_IN + BORDERLINE inventory: **324** against viability floor **100**.
 This report does not approve proof regions or any LIVE slice. It surfaces the strongest current markets for human boundary inspection after national discovery.
 
 ## London
 
-- LIKELY_IN: **33**
-- BORDERLINE: **26**
-- Provisional OUT: **48**
+- LIKELY_IN: **31**
+- BORDERLINE: **29**
+- Provisional OUT: **49**
 
 Most common LIKELY_IN titles:
 
 - Marketing Executive: 4
-- Marketing Manager: 2
-- Social Media Manager: 2
+- Marketing Manager: 3
+- Social Media Manager: 3
 - Senior Internal Communications Officer: 1
-- eCommerce Assistant: 1
 - Talent Marketing and Employer Brand Manager: 1
 - Temporary Marketing Administrator: 1
-- Policy and Communications Coordinator: 1
 - Paid Media Executive: 1
-- Amazon Paid Media Executive, Beauty, London, c. £40K: 1
 - Interim Marketing Executive HYBRID: 1
 - BD & Marketing Manager - Project Development & Finance - Global Law Firm: 1
+- Social Media Manager - 12 month FTC: 1
+- Senior Internal Communications Executive: 1
+- Marketing Assistant: 1
 
 Borderline titles:
 
@@ -41,7 +41,6 @@ Borderline titles:
 - Influencer Marketing Lead: 1
 - Digital & Content Strategy Lead: 1
 - Marketing Analytics Manager - Loyalty Programme: 1
-- Retail Content Ambassador: 1
 - Assistant Sales & Marketing Manager: 1
 - Account Manager - Creative Agency / Channel Marketing: 1
 - Group SEO Manager: 1
@@ -51,21 +50,25 @@ Borderline titles:
 - Sales and Marketing Representative: 1
 - Paid Media Manager: 1
 - Paid Media Officer: 1
+- Marketing Operations Manager Monday - Friday: 1
+- CRM Marketing Specialist - FinTech: 1
+- Senior Manager, Financial Intermediaries Marketing: 1
+- PR Account Manager: 1
 
 ## Greater Manchester - Manchester & Salford
 
-- LIKELY_IN: **14**
+- LIKELY_IN: **13**
 - BORDERLINE: **7**
 - Provisional OUT: **11**
 
 Most common LIKELY_IN titles:
 
 - Ecommerce Executive: 2
-- Senior Marketing Manager: 2
 - Social Media Manager: 1
 - Marketing Assistant - French Speaking: 1
 - Music Content Coordinator: 1
 - Marketing Executive: 1
+- Senior Marketing Manager: 1
 - Performance Marketing Manager: 1
 - Senior Marketing Executive: 1
 - Direct Marketing Executive: 1
@@ -97,8 +100,8 @@ Most common LIKELY_IN titles:
 - Senior Marketing Manager: 1
 - Digital Marketing Executive: 1
 - CRM Marketing Manager: 1
-- Digital Content Assistant: 1
 - Paid Social Media Manager: 1
+- Digital Content Assistant: 1
 - Marketing Assistant: 1
 
 Borderline titles:
@@ -106,13 +109,37 @@ Borderline titles:
 - SEO Manager: 1
 - PPC Manager: 1
 - PPC Executive: 1
-- Marketing Specialist: 1
 - Paid Media Manager: 1
+- Marketing Specialist: 1
+
+## Berkshire
+
+- LIKELY_IN: **11**
+- BORDERLINE: **4**
+- Provisional OUT: **1**
+
+Most common LIKELY_IN titles:
+
+- Marketing Executive: 4
+- Shopper Marketing Assistant: 1
+- Graduate Social Media & Content Executive: 1
+- B2B Email & Social Media Marketing Executive: 1
+- Regional Marketing Manager: 1
+- Marketing Officer: 1
+- Marketing Manager: 1
+- Regional Marketing Coordinator: 1
+
+Borderline titles:
+
+- Marketing and Fundraising Manager: 1
+- Marketing Events Specialist: 1
+- SEO Manager: 1
+- Senior SEO Executive: 1
 
 ## Yorkshire - North
 
 - LIKELY_IN: **11**
-- BORDERLINE: **3**
+- BORDERLINE: **2**
 - Provisional OUT: **0**
 
 Most common LIKELY_IN titles:
@@ -130,28 +157,4 @@ Borderline titles:
 
 - Marketing & Communications Lead: 1
 - Design, Artwork & Social Media Co-ordinator: 1
-- Sales and Marketing Coordinator: 1
-
-## Berkshire
-
-- LIKELY_IN: **9**
-- BORDERLINE: **5**
-- Provisional OUT: **1**
-
-Most common LIKELY_IN titles:
-
-- Marketing Executive: 4
-- Shopper Marketing Assistant: 1
-- Graduate Social Media & Content Executive: 1
-- B2B Email & Social Media Marketing Executive: 1
-- Regional Marketing Manager: 1
-- Marketing Officer: 1
-
-Borderline titles:
-
-- Marketing and Fundraising Manager: 1
-- Marketing Events Specialist: 1
-- PPC / Paid Search Manager - Agency of the Year 25: 1
-- SEO Manager: 1
-- Senior SEO Executive: 1
 

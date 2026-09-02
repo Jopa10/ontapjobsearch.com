@@ -1,9 +1,9 @@
 ﻿market,likely_in,borderline,plausible_including_borderline,out_salary,out_specialist
 Bedfordshire,0,0,0,0,0
 Berkshire,1,1,2,0,0
-Bristol & Bath,0,0,0,0,1
+Bristol & Bath,1,0,1,0,1
 Buckinghamshire,1,0,1,0,0
-Cambridgeshire,0,2,2,1,0
+Cambridgeshire,0,1,1,1,0
 Cheshire - East,1,0,1,0,0
 Cheshire - Warrington & Halton,0,0,0,0,1
 Cheshire - West,0,0,0,0,0
@@ -12,15 +12,15 @@ Cumbria - North,0,0,0,0,0
 Cumbria - South,0,0,0,0,0
 Cumbria - West,0,0,0,0,0
 Derbyshire,0,0,0,0,0
-Devon,1,1,2,1,0
+Devon,0,1,1,1,0
 Dorset,2,1,3,1,0
-Essex,1,0,1,0,0
+Essex,2,0,2,0,0
 Gloucestershire,0,1,1,0,0
 Greater Manchester - Manchester & Salford,1,3,4,0,1
 Greater Manchester - North,0,0,0,0,0
 Greater Manchester - South,0,0,0,0,0
 Greater Manchester - Wigan & Bolton,0,0,0,0,0
-Hampshire,0,2,2,0,1
+Hampshire,0,3,3,0,1
 Herefordshire,0,0,0,0,0
 Hertfordshire,0,1,1,0,0
 Kent,1,1,2,0,1
@@ -42,7 +42,7 @@ Northamptonshire,0,0,0,1,1
 Nottinghamshire,0,1,1,1,0
 Oxfordshire,0,5,5,0,0
 Rutland,0,0,0,0,0
-Shropshire,0,1,1,0,0
+Shropshire,0,0,0,0,0
 Somerset,0,0,0,0,0
 Staffordshire,1,0,1,0,0
 Suffolk,1,0,1,0,0

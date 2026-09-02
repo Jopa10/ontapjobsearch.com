@@ -25,17 +25,17 @@ Descriptive current-feed spread only — these thresholds do not activate a slic
 | Buckinghamshire | 1 | 0 | 1 |
 | Lincolnshire | 1 | 0 | 1 |
 | Norfolk | 1 | 0 | 1 |
-| Northern Ireland - East | 1 | 0 | 1 |
 | Nottinghamshire | 1 | 0 | 1 |
 | Oxfordshire | 1 | 0 | 1 |
 | Scotland Central - Tayside | 1 | 0 | 1 |
 | West Midlands - Coventry & Warwickshire | 1 | 0 | 1 |
 | Wiltshire | 1 | 0 | 1 |
+| Yorkshire - South | 1 | 0 | 1 |
 | London | 0 | 3 | 3 |
 | Surrey | 0 | 2 | 2 |
 | Devon | 0 | 1 | 1 |
 | Greater Manchester - Manchester & Salford | 0 | 1 | 1 |
-| Somerset | 0 | 1 | 1 |
+| Lancashire - East | 0 | 1 | 1 |
 | West Midlands - Birmingham & Solihull | 0 | 1 | 1 |
 | Yorkshire - West | 0 | 1 | 1 |
 | Bedfordshire | 0 | 0 | 0 |

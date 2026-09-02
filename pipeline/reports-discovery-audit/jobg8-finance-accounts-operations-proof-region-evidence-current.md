@@ -1,13 +1,13 @@
 # JobG8 Accounts & Finance Operations proof-region evidence candidates
 
-Content-unique national LIKELY_IN + BORDERLINE inventory: **114** against viability floor **100**.
+Content-unique national LIKELY_IN + BORDERLINE inventory: **113** against viability floor **100**.
 This report does not approve proof regions or any LIVE slice. It surfaces the strongest current markets for human boundary inspection after national discovery.
 
 ## London
 
-- LIKELY_IN: **11**
+- LIKELY_IN: **8**
 - BORDERLINE: **0**
-- Provisional OUT: **151**
+- Provisional OUT: **157**
 
 Most common LIKELY_IN titles:
 
@@ -18,9 +18,6 @@ Most common LIKELY_IN titles:
 - Accounts Payable Administrator: 1
 - Temp Part-time Bookkeeper - Entertainment: 1
 - Accounts Payable Clerk: 1
-- Assistant Purchase Ledger: 1
-- Finance Officer - Accounts Payable: 1
-- Finance Officer (Accounts Payable): 1
 
 ## Cheshire - Warrington & Halton
 
@@ -54,7 +51,7 @@ Most common LIKELY_IN titles:
 
 - LIKELY_IN: **4**
 - BORDERLINE: **0**
-- Provisional OUT: **28**
+- Provisional OUT: **27**
 
 Most common LIKELY_IN titles:
 

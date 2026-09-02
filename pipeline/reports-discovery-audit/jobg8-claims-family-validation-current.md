@@ -1,12 +1,12 @@
 # JobG8 Claims Support family validation
 
-Feed: **2026-09-01.xlsx**
+Feed: **2026-09-02.xlsx**
 Jobs in feed: **10,000**
-Broad insurance/claims universe: **206** raw rows
-IN after advert-level boundary rules: **37** raw rows
+Broad insurance/claims universe: **200** raw rows
+IN after advert-level boundary rules: **36** raw rows
 BORDERLINE: **1** raw rows
-OUT: **168** raw rows
-Content-unique IN jobs: **36** (removed **1** exact-content duplicate rows)
+OUT: **163** raw rows
+Content-unique IN jobs: **35** (removed **1** exact-content duplicate rows)
 
 Diagnostic only: no LIVE slice, publishing rule or production family status is changed.
 
@@ -23,9 +23,9 @@ Diagnostic only: no LIVE slice, publishing rule or production family status is c
 
 | Decision | Raw rows |
 |---|---:|
-| IN | 37 |
+| IN | 36 |
 | BORDERLINE | 1 |
-| OUT | 168 |
+| OUT | 163 |
 
 ## Content-unique IN regional shape
 
@@ -34,11 +34,11 @@ Diagnostic only: no LIVE slice, publishing rule or production family status is c
 | 4 | Essex |
 | 3 | Yorkshire - West |
 | 3 | London |
-| 3 | Greater Manchester - Manchester & Salford |
-| 3 | Norfolk |
 | 2 | Staffordshire |
 | 2 | Scotland West - Glasgow |
 | 2 | West Midlands - Birmingham & Solihull |
+| 2 | Greater Manchester - Manchester & Salford |
+| 2 | Norfolk |
 | 1 | Bristol & Bath |
 | 1 | Kent |
 | 1 | Oxfordshire |
@@ -51,27 +51,27 @@ Diagnostic only: no LIVE slice, publishing rule or production family status is c
 | 1 | Wales South - Cardiff & Vale |
 | 1 | Hampshire |
 | 1 | Lancashire - Central |
+| 1 | Gloucestershire |
 
 ## JobG8 classifications feeding content-unique IN jobs
 
 | Jobs | JobG8 classification |
 |---:|---|
-| 27 | Insurance & Superannuation |
+| 25 | Insurance & Superannuation |
 | 4 | Call Centre / CustomerService |
 | 2 | Legal |
+| 2 | Administration |
 | 1 | Accounting |
-| 1 | Administration |
 | 1 | Banking & Financial Services |
 
 ## Recurring content-unique IN titles
 
 | Jobs | Title |
 |---:|---|
-| 10 | Claims Handler |
+| 9 | Claims Handler |
 | 7 | Casualty Claims Handler |
 | 3 | HNW / Private Clients Claims Technician |
 | 2 | Credit Hire Claims Handler |
-| 2 | Motor Claims Handler |
 | 1 | Legal Expenses Claims Handler |
 | 1 | Insurance Coordinator |
 | 1 | Senior Customer Service Adviser |
@@ -79,8 +79,10 @@ Diagnostic only: no LIVE slice, publishing rule or production family status is c
 | 1 | Commercial Claims Handler |
 | 1 | Claims Assistant |
 | 1 | Real Estate Claims Handler |
+| 1 | Motor Claims Handler |
 | 1 | Senior Claims Handler FTC |
 | 1 | Customer Service Advisor - Weekends |
+| 1 | Experience Insurance Claims Clerk |
 | 1 | Experienced Motor Claims Handler |
 | 1 | Third-Party Capture Claims Handler |
 | 1 | Senior Motor Fraud Claims Handler |
