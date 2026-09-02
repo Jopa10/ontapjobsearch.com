@@ -1,6 +1,6 @@
 # Ontap daily regional overview
 
-Generated: 2026-09-02T08:59:07+01:00
+Generated: 2026-09-02T09:44:42+01:00
 
 [Download this overview as Excel](./daily-region-overview.xlsx)
 
@@ -8,27 +8,27 @@ Generated: 2026-09-02T08:59:07+01:00
 
 | Measure | Count |
 |---|---:|
-| Unique live jobs | 1,650 |
-| Unique JobG8 jobs | 1,308 |
-| Unique non-JobG8 jobs | 342 |
-| Regional/category slice placements | 1,701 |
-| Jobs appearing on multiple slices | 51 |
-| Extra slice placements | 51 |
+| Unique live jobs | 1,752 |
+| Unique JobG8 jobs | 1,390 |
+| Unique non-JobG8 jobs | 362 |
+| Regional/category slice placements | 1,801 |
+| Jobs appearing on multiple slices | 49 |
+| Extra slice placements | 49 |
 | Unique jobs outside governed slices | 0 |
 | Jobs found in non-LIVE slices | 0 |
 
-**Reconciliation: 1,650 unique jobs + 51 extra slice placements = 1,701 regional/category slice placements.**
+**Reconciliation: 1,752 unique jobs + 49 extra slice placements = 1,801 regional/category slice placements.**
 
-Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-09-01.csv` — **STALE — CSV says 1,690 for 2026-09-01**.
+Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-09-02.csv` — **STALE — CSV says 1,772 for 2026-09-02**.
 
 ### Provider breakdown
 
 | Provider | Unique live jobs | Jobs on 2+ slices | Extra slice placements |
 |---|---:|---:|---:|
-| JobG8 | 1,308 | 51 | 51 |
+| JobG8 | 1,390 | 49 | 49 |
 | NEJobs | 19 | 0 | 0 |
-| NHS Jobs | 208 | 0 | 0 |
-| Teaching Vacancies | 114 | 0 | 0 |
+| NHS Jobs | 230 | 0 | 0 |
+| Teaching Vacancies | 112 | 0 | 0 |
 | VONNE | 1 | 0 | 0 |
 
 ## JOBG8 FEED RECEIVED
@@ -62,84 +62,84 @@ Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-09-0
 
 | Region | Service admin | Support worker | Sales advisor | Paralegal | Marketing | Finance / Accounts | HR / Recruitment | CS / Contact centre |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| Bedfordshire | CHECK |  |  |  |  |  |  |  |
-| Berkshire | 28 |  |  |  | 13 |  | 2 |  |
-| Bristol & Bath | 26 |  | CHECK |  |  | CHECK |  |  |
-| Buckinghamshire | 30 |  |  |  | CHECK |  |  |  |
-| Cambridgeshire | 27 |  |  |  |  |  |  |  |
+| Bedfordshire | 10 |  |  |  |  |  |  |  |
+| Berkshire | 29 |  |  |  | 13 |  | 2 |  |
+| Bristol & Bath | 25 |  | 8 |  |  | CHECK |  |  |
+| Buckinghamshire | 28 |  |  |  | 12 |  |  |  |
+| Cambridgeshire | 22 |  |  |  |  |  |  |  |
 | Cheshire - East | 11 |  |  |  |  |  |  |  |
-| Cheshire - Warrington & Halton | 1 |  |  |  |  |  |  |  |
+| Cheshire - Warrington & Halton | 2 |  |  |  |  |  |  |  |
 | Cheshire - West | 10 |  |  |  |  |  |  |  |
-| Cornwall | 3 |  |  |  |  |  |  |  |
+| Cornwall | 28 |  |  |  |  |  |  |  |
 | Cumbria - North |  |  |  |  |  |  |  |  |
 | Cumbria - South |  | 2 |  |  |  |  |  |  |
 | Cumbria - West |  |  |  |  |  |  |  |  |
-| Derbyshire | 12 |  |  |  |  |  |  |  |
-| Devon | 30 |  |  |  |  | CHECK |  |  |
+| Derbyshire | 10 |  |  |  |  |  |  |  |
+| Devon | 26 |  |  |  |  | CHECK |  |  |
 | Dorset | 18 |  |  |  |  |  |  |  |
-| Essex | 45 |  |  | 6 |  |  |  |  |
-| Gloucestershire | 32 |  |  |  |  | CHECK |  |  |
-| Greater Manchester - Manchester & Salford | 38 |  | 19 |  | 22 |  | 4 |  |
+| Essex | 46 |  |  | 6 |  |  |  |  |
+| Gloucestershire | 28 |  |  |  |  | CHECK |  |  |
+| Greater Manchester - Manchester & Salford | 38 |  | 20 |  | 20 |  | 3 |  |
 | Greater Manchester - North |  |  |  |  |  |  |  |  |
 | Greater Manchester - South | 10 |  |  |  |  |  |  |  |
 | Greater Manchester - Wigan & Bolton | 6 |  |  |  |  |  |  |  |
-| Hampshire | 77 | 6 |  |  |  |  |  | 12 |
+| Hampshire | 79 | 6 |  |  |  |  |  | 12 |
 | Herefordshire |  |  |  |  |  |  |  |  |
-| Hertfordshire | 43 |  |  |  |  |  |  |  |
-| Kent | 66 | 2 |  |  |  |  |  |  |
+| Hertfordshire | 41 |  |  |  |  |  |  |  |
+| Kent | 62 | 2 |  |  |  |  |  |  |
 | Lancashire - Blackpool & Fylde |  |  |  |  |  |  |  |  |
 | Lancashire - Central |  |  |  |  |  |  |  |  |
 | Lancashire - East |  |  |  |  |  |  |  |  |
 | Lancashire - North |  |  |  |  |  |  |  |  |
 | Lancashire - West |  |  |  |  |  |  |  |  |
-| Leicestershire | 40 |  |  |  |  |  |  |  |
+| Leicestershire | 36 |  |  |  |  |  |  |  |
 | Lincolnshire | 16 |  |  |  |  |  |  |  |
-| London | 175 | 12 | 42 | 14 | 70 |  | 12 | 6 |
+| London | 185 | 13 | 42 | 17 | 67 |  | 13 | 6 |
 | Merseyside - Liverpool | 15 |  |  |  |  |  |  |  |
 | Merseyside - Sefton |  |  |  |  |  |  |  |  |
 | Merseyside - St Helens & Knowsley |  |  |  |  |  |  |  |  |
 | Merseyside - Wirral |  |  |  |  |  |  |  |  |
 | Norfolk | 30 |  |  | CHECK |  |  |  |  |
-| North East | 63 | 1 | 10 |  |  | CHECK |  |  |
+| North East | 134 | 2 | 13 |  |  | CHECK |  |  |
 | North Scotland |  |  |  |  |  |  |  |  |
 | North Wales - East |  |  |  |  |  |  |  |  |
 | North Wales - West |  |  |  |  |  |  |  |  |
-| Northamptonshire | 25 |  |  |  |  |  |  |  |
-| Northern Ireland - East | 6 |  |  |  |  | CHECK |  |  |
+| Northamptonshire | 24 |  |  |  |  |  |  |  |
+| Northern Ireland - East | 3 |  |  |  |  | CHECK |  |  |
 | Northern Ireland - West |  |  |  |  |  |  |  |  |
-| Nottinghamshire | 26 |  |  |  |  |  | 3 |  |
-| Oxfordshire | 43 | 4 |  |  |  |  |  |  |
+| Nottinghamshire | 27 |  |  |  |  |  | 3 |  |
+| Oxfordshire | 41 | 2 |  |  |  |  |  |  |
 | Rutland |  |  |  |  |  |  |  |  |
 | Scotland - Borders |  |  |  |  |  |  |  |  |
-| Scotland Central - Edinburgh & Lothians | 9 |  |  |  |  |  |  |  |
+| Scotland Central - Edinburgh & Lothians | 11 |  |  |  |  |  |  |  |
 | Scotland Central - Falkirk & Stirling |  |  |  |  |  |  |  |  |
 | Scotland Central - Fife |  |  |  |  |  |  |  |  |
 | Scotland Central - Tayside |  |  |  |  |  |  |  |  |
 | Scotland West - Ayrshire |  |  |  |  |  |  |  |  |
-| Scotland West - Glasgow | 16 |  |  |  |  |  |  |  |
+| Scotland West - Glasgow | 22 |  |  |  |  |  |  |  |
 | Scotland West - Lanarkshire |  |  |  |  |  |  |  |  |
 | Scotland West - Renfrewshire & Inverclyde |  |  |  |  |  |  |  |  |
-| Shropshire | 13 |  |  |  |  | CHECK |  |  |
+| Shropshire | 12 |  |  |  |  | CHECK |  |  |
 | Somerset | 21 |  |  |  |  |  |  |  |
-| Staffordshire | 23 |  |  |  |  |  |  | 5 |
-| Suffolk | 16 |  |  | 1 |  |  |  |  |
-| Surrey | 65 | 4 |  |  | 12 |  |  | 13 |
-| Sussex | 39 | 3 |  |  |  |  |  |  |
+| Staffordshire | 22 |  |  |  |  |  |  | 4 |
+| Suffolk | 15 |  |  | 1 |  |  |  |  |
+| Surrey | 60 | 3 |  |  | 10 |  |  | 12 |
+| Sussex | 38 | 4 |  |  |  |  |  |  |
 | Wales - Mid |  |  |  |  |  |  |  |  |
 | Wales - West |  |  |  |  |  |  |  |  |
 | Wales South - Cardiff & Vale |  |  |  |  |  |  |  |  |
 | Wales South - Gwent |  |  |  |  |  |  |  |  |
 | Wales South - Swansea Bay |  |  |  |  |  |  |  |  |
 | Wales South - Valleys |  |  |  |  |  |  |  |  |
-| West Midlands - Birmingham & Solihull | 40 |  |  |  | 3 |  | 3 |  |
-| West Midlands - Black Country | 10 |  |  |  |  |  |  |  |
-| West Midlands - Coventry & Warwickshire | 30 |  |  |  |  |  |  |  |
-| Wiltshire | 16 | 2 |  |  |  |  |  |  |
-| Worcestershire | 14 |  |  |  |  |  |  |  |
+| West Midlands - Birmingham & Solihull | 37 |  |  |  | 2 |  | 2 |  |
+| West Midlands - Black Country | 7 |  |  |  |  |  |  |  |
+| West Midlands - Coventry & Warwickshire | 28 |  |  |  |  |  |  |  |
+| Wiltshire | 16 | 3 |  |  |  |  |  |  |
+| Worcestershire | 13 |  |  |  |  |  |  |  |
 | Yorkshire - East | 18 |  |  |  |  |  |  |  |
-| Yorkshire - North | 21 |  |  |  |  | CHECK |  |  |
-| Yorkshire - South | 31 | CHECK |  |  |  |  |  |  |
-| Yorkshire - West | 48 | 1 | 6 |  |  | CHECK | 4 |  |
+| Yorkshire - North | 20 |  |  |  |  | CHECK |  |  |
+| Yorkshire - South | 35 | CHECK |  |  |  |  |  |  |
+| Yorkshire - West | 51 | 1 | 6 |  |  | CHECK | 3 |  |
 
 ## NOT LIVE
 
@@ -231,6 +231,6 @@ Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-09-0
 | Measure | Service admin | Support worker | Sales advisor | Paralegal | Marketing | Finance / Accounts | HR / Recruitment | CS / Contact centre |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
 | Live regions | 47 / 78 | 11 / 78 | 5 / 78 | 4 / 78 | 6 / 78 | 8 / 78 | 6 / 78 | 4 / 78 |
-| Live slice placements | 1382 + 1 CHECK | 37 + 1 CHECK | 77 + 1 CHECK | 21 + 1 CHECK | 120 + 1 CHECK | 0 + 8 CHECK | 28 | 36 |
+| Live slice placements | 1466 | 38 + 1 CHECK | 89 | 24 + 1 CHECK | 124 | 0 + 8 CHECK | 26 | 34 |
 
 **Live slices: 91 / 624.**
