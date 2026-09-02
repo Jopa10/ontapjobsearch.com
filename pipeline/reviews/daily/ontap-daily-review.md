@@ -32,7 +32,7 @@ Edit only each `action:` line:
 ## JobG8 — 45 to review
 
 ---
-action:
+action: select
 POSS | JobG8 | Berkshire | Berkshire | £15 - £17 per hour | Part Time Credit Controller & Customer Collections Administrator
 source_key: jobg8
 source: JobG8
@@ -50,7 +50,7 @@ hub_fingerprint: d75c7c8ee8b2f874d78e5c18e0728b104d4bb33431fe44b9201a111f2fa4beb
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Bristol & Bath | Bristol | £35000 per year | Account Coordinator
 source_key: jobg8
 source: JobG8
@@ -68,7 +68,7 @@ hub_fingerprint: ed2a03dd79b9efce79bf08fd3b48d00fbeea4c27e7ada16a8350c3193d7cf73
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Bristol & Bath | Bristol | £33009 - £36011 per year | Executive Assistant
 source_key: jobg8
 source: JobG8
@@ -86,7 +86,7 @@ hub_fingerprint: a9aae2333b66027520e1ab4172abb402fbe82abcefa6d7af24f3b4a0ea9cdc1
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Buckinghamshire | Buckinghamshire | £32000 per year | Account Coordinator
 source_key: jobg8
 source: JobG8
@@ -104,7 +104,7 @@ hub_fingerprint: 6bf850fb814423617c9aca73f003a2879ed65e4d678346a9fefe9ee05a0f84c
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Cheshire - West | Chester | £17.24 Per Hour | HR Administrator
 source_key: jobg8
 source: JobG8
@@ -140,7 +140,7 @@ hub_fingerprint: 1ac32470b5c9580d9073c459b3bc2cf2ff3a03604f99ce6f2845c542bfd259f
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Devon | Devon | £35000 - £39000 per year | Executive Assistant
 source_key: jobg8
 source: JobG8
@@ -176,7 +176,7 @@ hub_fingerprint: 1a2ca2a9f353a862edebae3aa744b0a3006507c4de4ada9e596bc3cae0b4f85
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | Gloucestershire | Gloucestershire | £35000 per year | Software Sales Support & Product Demonstrator
 source_key: jobg8
 source: JobG8
@@ -194,7 +194,7 @@ hub_fingerprint: 372212eda4498c8b1e78d3d0df202b4cb4cf2cf6cce80fcd850343e601a7653
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | Gloucestershire | Gloucestershire | £35000 per year | Software Sales Support & Product Demonstrator
 source_key: jobg8
 source: JobG8
@@ -212,7 +212,7 @@ hub_fingerprint: 8297770f0b103648608114e43b1ba6617744eefad3211e2ebd8d14a9cb32761
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | Gloucestershire | Gloucestershire | £306 per daily | Windchill Administrator
 source_key: jobg8
 source: JobG8
@@ -230,7 +230,7 @@ hub_fingerprint: abdecb401cec286e0635fd5ac0ea7a2fcbaeb28c54cafc24b7223e3f515d89c
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Greater Manchester - Manchester & Salford | Manchester | £32,000.00 per annum | Continuous Improvement Coordinator
 source_key: jobg8
 source: JobG8
@@ -248,7 +248,7 @@ hub_fingerprint: c74c4b8ff03dd99275da469873010e7658198d2b997db13f77a502478ca1390
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | Greater Manchester - Manchester & Salford | Manchester | £40000 per year | HR Systems and reporting coordinator
 source_key: jobg8
 source: JobG8
@@ -266,7 +266,7 @@ hub_fingerprint: 68df80c0d1d7bee93dc4fa96e5e8918a38d9b8627815fab5523aa296765a1f8
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | Greater Manchester - Manchester & Salford | Manchester | £50000 per year | Music Content Coordinator
 source_key: jobg8
 source: JobG8
@@ -284,7 +284,7 @@ hub_fingerprint: 4a11125ab8071521d7492c8362fe33c6b78a203897a5f16daa63fd2125a38b1
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Hampshire | Eastleigh | £32780 - £35564 per year (Market Supplement, plus Enhancements) | Secure Children's Home Support Worker
 source_key: jobg8
 source: JobG8
@@ -338,7 +338,7 @@ hub_fingerprint: f32e3ad5431fd7d3c1fe5419a031fd0d64814679d35f2787029802f7459fe99
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Hampshire | Havant | £33178 - £36369 per year | Support Worker (Out of Hours)
 source_key: jobg8
 source: JobG8
@@ -356,7 +356,7 @@ hub_fingerprint: 17e356fa600aa55dca87c814b5f7ba8efe0f44e013620d2a89751bb870288ac
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | Hertfordshire | Hertfordshire | £50 per hour | Health, Safety and Training Administrator
 source_key: jobg8
 source: JobG8
@@ -374,7 +374,7 @@ hub_fingerprint: 59a09068c6c15e053da38c26396fa2af45fd525de2c7a20a0a0d03c1a9700be
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Kent | Kent | £13.45 per hour (£13.45) | Housing Support Worker (Casual)
 source_key: jobg8
 source: JobG8
@@ -392,7 +392,7 @@ hub_fingerprint: 4c35858fce34a3d727fe19152a1bea725a533fbdf01470d0fc9de0c7e71403d
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | London | Islington | £38,000.00 per annum | Fundraising and Social Value Coordinator
 source_key: jobg8
 source: JobG8
@@ -410,7 +410,7 @@ hub_fingerprint: bad56045ca6ef215344ee118dde479cb7dcf7f96adecf01df31adda33a24962
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | London | London | £80000 - £95000 per year | Chartered Financial Planner
 source_key: jobg8
 source: JobG8
@@ -428,7 +428,7 @@ hub_fingerprint: 0aeaf3e5d087ca009362fd19304f05d97cf52963731206a405d27691d24b061
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | London | London | £50000 - £60000 per year | Executive Assistant
 source_key: jobg8
 source: JobG8
@@ -446,7 +446,7 @@ hub_fingerprint: ca8beb6ac7d992df749d40460526d44f6d4886bc34624af20936e4a29c291f7
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | London | London | £270 per daily | Executive Assistant
 source_key: jobg8
 source: JobG8
@@ -608,7 +608,7 @@ hub_fingerprint: e5e229f28d07435cf9910a8352f4db06ca8227495303d827c48c0f41fade506
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | Northern Ireland - East | Ballymena | £40000 per year | Planning & Logistics Co-ordinator
 source_key: jobg8
 source: JobG8
@@ -626,7 +626,7 @@ hub_fingerprint: 39495c7678596a9a93e19542a43c02d110680ae39cb0550a1241db36d818782
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Nottinghamshire | Nottinghamshire | £35000 per year | Sales Support Executive
 source_key: jobg8
 source: JobG8
@@ -752,7 +752,7 @@ hub_fingerprint: e40efafaf7616243fe17ecbf5c214b57efc870324753c508d06d1c1f4ed9f30
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Yorkshire - East | Hull | £25000 - £32000 per year | Sales Administrator
 source_key: jobg8
 source: JobG8
@@ -770,7 +770,7 @@ hub_fingerprint: aa5e3a025f6de26f468be5ac054033eeb47a9be1177c4d7ea01506aa147ff92
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Yorkshire - South | Doncaster | £35000 per year | Sales & Marketing Coordinator
 source_key: jobg8
 source: JobG8
@@ -824,7 +824,7 @@ hub_fingerprint: 757810bc026967a84952e63c612f6aa27bc6a303b12bb9575ede9713f5bb760
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | Yorkshire - West | Leeds | £40000 per year | Sales Administrator Construction Contractor
 source_key: jobg8
 source: JobG8
@@ -844,7 +844,7 @@ hub_fingerprint: 101a7daac8c2b7972a9d7963347f8bcc7defe30cdad4f363cd023ebb0ed2d3b
 ## VONNE — 1 to review
 
 ---
-action:
+action: select
 POSS | VONNE | North East - Tyneside, Wearside & Northumberland | Tyne and Wear | £23,370 to 23,790 | Receptionist
 source_key: vonne
 source: VONNE
@@ -864,7 +864,7 @@ hub_fingerprint: 84c2c6fd7152830b8f2c3816ea6b7a0a9deecf2410a41386c7a55728a4a95bf
 ## Teaching Vacancies — 11 to review
 
 ---
-action:
+action: select
 POSS | Teaching Vacancies | Hertfordshire | Chorleywood, WD3 6EW | £29,540.00 Annually (FTE) | HR Advisor
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -882,7 +882,7 @@ hub_fingerprint: 63b4e126d7161a29af59f6b4707d4ecce289454298cb2b113bdaedd0133e476
 ---
 
 ---
-action:
+action: select
 POSS | Teaching Vacancies | Kent | Canterbury, CT1 1NQ | £28,182.00 Annually (FTE) Actual annual salary £ 26057.39 | HR administrator
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -900,7 +900,7 @@ hub_fingerprint: 2cb63b58beb5bae384e9e052e7d9410c3f0dc582b6d8cca6b7a6e00b205fa43
 ---
 
 ---
-action:
+action: select
 POSS | Teaching Vacancies | Kent | Sheerness, South East, ME12 3AP | £8,557.00 - £8,693.00 Annually (Actual) | Receptionist
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -918,7 +918,7 @@ hub_fingerprint: 1bc4d13ea6c2ee61d760d55cbded78b35311c5e01857d2d620f75de6e289be0
 ---
 
 ---
-action:
+action: select
 POSS | Teaching Vacancies | Lincolnshire | Spalding, East Midlands, PE11 2EH | £23,973.00 - £26,409.00 Annually (Actual) G5.12-15 £27,254 - £30,024 FTE | HR Administrator
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -936,7 +936,7 @@ hub_fingerprint: 49188d67866c546cc12434263960a78ecc42aedcb4669b54e7c0abc7f608016
 ---
 
 ---
-action:
+action: select
 POSS | Teaching Vacancies | London | Borehamwood, East of England, WD6 2DW | £25,583.00 - £25,989.00 Annually (FTE) Hours Required: 8.30am to 3.30pm | Administrator
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -954,7 +954,7 @@ hub_fingerprint: 78a3e99b6bd8cb41fd331d48a203a50e9603a7e272eded8b52a439c26dd5e73
 ---
 
 ---
-action:
+action: select
 POSS | Teaching Vacancies | London | Dagenham, London, RM9 6PH | £25,514.00 Annually (Actual) | Administrative Assistant
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -972,7 +972,7 @@ hub_fingerprint: 2151d7e740021a7a3c2637680e853e574a844c73d52bf6f992dca5ece18de54
 ---
 
 ---
-action:
+action: select
 POSS | Teaching Vacancies | London | Harrow, London, HA2 9AG | £14,166.00 Annually (Actual) | Receptionist & Admin Assistant
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -990,7 +990,7 @@ hub_fingerprint: 713fbd5a3b8f904da63276b96b3ad8cc3e49f91f08e0ef47701ef1a7498c467
 ---
 
 ---
-action:
+action: select
 POSS | Teaching Vacancies | London | London, London, E15 3DN | Scaled 3 (dependent on experience) £25,524 Pro Rata | Administrative Assistant
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -1008,7 +1008,7 @@ hub_fingerprint: 994387633e5f9b980010b1d7809ea0d46af0b291fdf399e613f120c2b586caf
 ---
 
 ---
-action:
+action: select
 POSS | Teaching Vacancies | London | London, London, SW4 0AJ | £29,805.00 Annually (Actual) Inner London payscale Spine Point 2 | Receptionist / Administrator
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -1026,7 +1026,7 @@ hub_fingerprint: 93a10592e03ed9d3f693438018eded1145b943920f3a912cde877298ba7ec1f
 ---
 
 ---
-action:
+action: select
 POSS | Teaching Vacancies | London | Osterley, London, TW7 5PN | 28,195.00 - 29,852.00 | School Administrator
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -1044,7 +1044,7 @@ hub_fingerprint: 49f608949386027b12514963c345f9f8a23231c1a6a2e4bc2f5344ca08ca33f
 ---
 
 ---
-action:
+action: select
 POSS | Teaching Vacancies | Oxfordshire | Oxford, South East, OX3 9WN | £26,824.00 Annually (FTE) Actual annual salary is £12,016 for 19.5 hours per week term time only plus 3 inset days | Office Administrator
 source_key: teaching_vacancies
 source: Teaching Vacancies
