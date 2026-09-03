@@ -22,7 +22,7 @@ Cumbria - North,support_worker,CANDIDATE
 London,customer_service_contact_centre,LIVE
 London,hr_recruitment,LIVE
 Greater Manchester - Manchester & Salford,admin_service,LIVE
-London,finance_accounts,CANDIDATE
+London,finance_accounts,LIVE
 Oxfordshire,admin_service,LIVE
 Bristol & Bath,admin_service,LIVE
 Essex,admin_service,LIVE
@@ -90,7 +90,7 @@ Berkshire,hr_recruitment,LIVE
 Greater Manchester - Manchester & Salford,hr_recruitment,LIVE
 Nottinghamshire,hr_recruitment,LIVE
 West Midlands - Birmingham & Solihull,hr_recruitment,LIVE
-Sussex,hr_recruitment,CANDIDATE
+Sussex,hr_recruitment,LIVE
 Bristol & Bath,hr_recruitment,CANDIDATE
 Essex,hr_recruitment,CANDIDATE
 Cheshire - West,admin_service,LIVE
@@ -119,3 +119,14 @@ Gloucestershire,marketing,LIVE
 Hertfordshire,marketing,LIVE
 Kent,marketing,LIVE
 Oxfordshire,marketing,LIVE
+North Scotland,admin_service,LIVE
+Scotland Central - Tayside,admin_service,LIVE
+Wales South - Valleys,admin_service,LIVE
+Cambridgeshire,marketing,LIVE
+Cheshire - West,marketing,LIVE
+Essex,marketing,LIVE
+Merseyside - Liverpool,marketing,LIVE
+North East,marketing,LIVE
+Cheshire - Warrington & Halton,finance_accounts,LIVE
+Buckinghamshire,customer_service_contact_centre,LIVE
+North East,customer_service_contact_centre,LIVE

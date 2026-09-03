@@ -88,7 +88,7 @@ class SliceRegistryTests(unittest.TestCase):
                 f"/job-search/{slug}/service-administrator-jobs",
             )
 
-    def test_customer_sales_live_set_is_exactly_the_four_approved_regions(self):
+    def test_customer_sales_live_set_matches_owner_approved_regions(self):
         sales_regions = {
             region for region, category in live_slices() if category == "customer_sales"
         }
@@ -99,6 +99,13 @@ class SliceRegistryTests(unittest.TestCase):
                 "Yorkshire - West",
                 "Greater Manchester - Manchester & Salford",
                 "North East",
+                "Berkshire",
+                "Bristol & Bath",
+                "Hertfordshire",
+                "Kent",
+                "Scotland West - Glasgow",
+                "Surrey",
+                "Sussex",
             },
         )
 
@@ -112,7 +119,14 @@ class SliceRegistryTests(unittest.TestCase):
         }
         self.assertEqual(
             customer_service_regions,
-            {"Hampshire", "London", "Staffordshire", "Surrey"},
+            {
+                "Buckinghamshire",
+                "Hampshire",
+                "London",
+                "North East",
+                "Staffordshire",
+                "Surrey",
+            },
         )
         self.assertEqual(customer_service.LIVE_PUBLISH_FLOOR, 1)
         for region in customer_service_regions:
@@ -127,7 +141,7 @@ class SliceRegistryTests(unittest.TestCase):
                 .endswith("/customer-service-jobs.json")
             )
 
-    def test_marketing_live_set_is_exactly_the_five_owner_approved_regions(self):
+    def test_marketing_live_set_matches_owner_approved_regions(self):
         marketing_regions = {
             region for region, category in live_slices() if category == "marketing"
         }
@@ -137,11 +151,22 @@ class SliceRegistryTests(unittest.TestCase):
                 "London",
                 "Surrey",
                 "Berkshire",
+                "Bristol & Bath",
+                "Buckinghamshire",
+                "Cambridgeshire",
+                "Cheshire - West",
+                "Essex",
+                "Gloucestershire",
                 "Greater Manchester - Manchester & Salford",
+                "Hertfordshire",
+                "Kent",
                 "West Midlands - Birmingham & Solihull",
+                "Merseyside - Liverpool",
+                "North East",
+                "Oxfordshire",
             },
         )
-        self.assertNotIn(("Kent", "marketing"), live_slices())
+        self.assertIn(("Kent", "marketing"), live_slices())
 
     def test_27_august_support_worker_approvals_are_live(self):
         approved = {"Kent", "Oxfordshire"}
@@ -157,7 +182,7 @@ class SliceRegistryTests(unittest.TestCase):
             "/job-search/oxfordshire/support-worker",
         )
 
-    def test_finance_accounts_live_set_is_exactly_the_eight_approved_regions(self):
+    def test_finance_accounts_live_set_matches_owner_approved_regions(self):
         finance_regions = {
             region for region, category in live_slices() if category == "finance_accounts"
         }
@@ -168,15 +193,17 @@ class SliceRegistryTests(unittest.TestCase):
                 "Gloucestershire",
                 "North East",
                 "Bristol & Bath",
+                "Cheshire - Warrington & Halton",
                 "Northern Ireland - East",
+                "London",
                 "Shropshire",
                 "Yorkshire - West",
                 "Devon",
             },
         )
-        self.assertIn(("London", "finance_accounts"), candidate_slices())
+        self.assertNotIn(("London", "finance_accounts"), candidate_slices())
 
-    def test_hr_recruitment_live_set_is_exactly_the_six_owner_approved_regions(self):
+    def test_hr_recruitment_live_set_matches_owner_approved_regions(self):
         hr_regions = {
             region for region, category in live_slices() if category == "hr_recruitment"
         }
@@ -188,10 +215,11 @@ class SliceRegistryTests(unittest.TestCase):
                 "Berkshire",
                 "Greater Manchester - Manchester & Salford",
                 "Nottinghamshire",
+                "Sussex",
                 "West Midlands - Birmingham & Solihull",
             },
         )
-        reserves = {"Sussex", "Bristol & Bath", "Essex"}
+        reserves = {"Bristol & Bath", "Essex"}
         self.assertTrue(
             {(region, "hr_recruitment") for region in reserves}.issubset(candidate_slices())
         )

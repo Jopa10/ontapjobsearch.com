@@ -108,6 +108,9 @@
     "Worcestershire": { "slug": "worcestershire", "anchor_town": "Worcester" },
     "Scotland Central - Edinburgh & Lothians": { "slug": "edinburgh-lothians", "anchor_town": "Edinburgh" },
     "Scotland West - Glasgow": { "slug": "glasgow", "anchor_town": "Glasgow" },
-    "Wales South - Cardiff & Vale": { "slug": "cardiff-vale", "anchor_town": "Cardiff" }
+    "Wales South - Cardiff & Vale": { "slug": "cardiff-vale", "anchor_town": "Cardiff" },
+    "North Scotland": { "slug": "north-scotland", "anchor_town": "Aberdeen" },
+    "Scotland Central - Tayside": { "slug": "tayside", "anchor_town": "Dundee" },
+    "Wales South - Valleys": { "slug": "south-wales-valleys", "anchor_town": "Merthyr Tydfil" }
   }
 }
