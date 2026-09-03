@@ -1,33 +1,5 @@
 [
   {
-    "job_id": "teaching-vacancies-administrative-assistant-sir-john-hunt-community-sports-college",
-    "title": "Administrative Assistant",
-    "company": "Sir John Hunt Community Sports College",
-    "location": "Plymouth",
-    "region": "Devon",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['part time']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "£25,583",
-    "work_pattern": "",
-    "posted_date": "2026-07-20",
-    "closing_date": "2026-09-03",
-    "closing_datetime": "2026-09-03T09:00:00+01:00",
-    "summary": "Administrative Assistant with Sir John Hunt Community Sports College in Plymouth. ['part time']; £25,583.",
-    "description": "Sir John Hunt Community Sports College is recruiting for this vacancy in Plymouth.\n\nThe advertised position is Administrative Assistant.\n\nThe source lists the employment type as ['part time'].\n\nThe advertised salary or pay scale is £25,583.\n\nThe stated application deadline is 2026-09-03T09:00:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-sir-john-hunt-community-sports-college?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Sir John Hunt Community Sports College",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
-  },
-  {
     "job_id": "teaching-vacancies-administrative-assistant-the-king-s-school-ottery-st-mary-devon",
     "title": "Administrative Assistant",
     "company": "The King's School",
@@ -156,11 +128,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Filing and document handling"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225461743",
@@ -210,13 +178,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Records administration",
-      "Quotations",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225463000",
@@ -366,12 +328,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Quotations",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225546267",
@@ -396,12 +353,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Email handling",
-      "Scheduling and bookings"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225460045",
@@ -426,13 +378,7 @@
     "advertiser_type": "Company",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Telephone handling",
-      "Records administration",
-      "Document preparation"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "107818981",

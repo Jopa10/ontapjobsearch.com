@@ -72,12 +72,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Shared inboxes",
-      "Reporting",
-      "Quotations"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225475468",
@@ -102,12 +97,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Systems administration",
-      "Quotations"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225476714",
@@ -282,12 +272,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Shared inboxes",
-      "Quotations"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1770698",
@@ -312,11 +297,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Scheduling and bookings"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1766310",
@@ -391,12 +372,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Quotations",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225527297",
@@ -471,11 +447,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Records administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225547434",
@@ -500,11 +472,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Records administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225548414",
@@ -554,11 +522,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Data entry"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225458792",
@@ -608,11 +572,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Records administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225475445",
@@ -637,12 +597,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Systems administration",
-      "Quotations"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225517937",
@@ -717,11 +672,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Reporting",
-      "Contract changes"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225528910",
@@ -746,11 +697,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Telephone handling",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225547249",
@@ -800,12 +747,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Reporting",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "nhs-5570979",
@@ -918,20 +860,20 @@
     "posted_date_basis": "source"
   },
   {
-    "job_id": "nhs-5569929",
+    "job_id": "nhs-5569427",
     "source": "NHS Jobs",
-    "title": "Receptionist/Care Navigator",
-    "company": "Parklands Surgery",
-    "advertiser_name": "Parklands Surgery",
-    "location": "Chichester, PO19 3DT",
+    "title": "Digital Health Records Administration Assistant",
+    "company": "East Sussex Healthcare NHS Trust",
+    "advertiser_name": "East Sussex Healthcare NHS Trust",
+    "location": "Eastbourne, BN21 2UD",
     "region": "Sussex",
-    "salary": "£12.81",
-    "employment_type": "Permanent",
-    "posted_date": "2026-08-29T05:07:45.958232650",
-    "closing_date": "2026-09-30",
-    "description": "Parklands Surgery is a busy GP practice located in the centre of Chichester We are looking to recruit an additional member of staff to add to our current team of 6 friendly medical receptionists. 25.5 hours over 3 days (no weekends/bank holidays). Hours to be worked between: Monday - Friday 8am - 6.30pm, plus overtime available for holiday and sickness cover. The ideal candidate will need to possess extensive customer service experience, excellent verbal and written communication skills, be fully computer literate and be able to work under pressure, in a fast paced environment whilst providing the best possible care for our patients. Main Duties and Responsibilities Provide a warm, caring and professional welcome to patients attending the surgery Answering patient queries. Process patient requests and assist them in booking the most appropriate appointment. Use clinical database (SystmOne). Assist with the effective recording of data onto the clinical system. Record all patient contacts onto the computerised records in line with Practice protocols. Processing requests for repeat medication. Provide a high standard of customer service. Qualifications O-Level / GCSE or equivalent English Grade C or above Desirable O-Level / GCSE or equivalent Mathematics Grade C or above Desirable. Essential Experience Customer or Patient facing role Microsoft Office in particular MS Word, Excell and Outlook. A computer literacy test will apply. Desirable Experience Working in a busy reception (ideally in a GP or other NHS setting) Administration Emis Web or Systm1 clinical system Working in an NHS environment Medical terminology Working with customer management systems (Looking up records and finding out information from computer systems). Personal Attributes Able to communicate clearly with a wide range of people Professional and responsible attitude, reliable and punctual Able to work independently / self-motivated Able to use judgement and plan and prioritise tasks and workflows Able to take initiative and be resourceful when responding to enquiries Team-worker - flexible approach and able to adapt to changes Willing to develop and train according to the needs of the role Resilient, calm manner in busy environments Able to respect confidentiality and discretion.",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4501-26-0003",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4501-26-0003",
+    "salary": "£25272.00",
+    "employment_type": "Fixed-Term",
+    "posted_date": "2026-09-03T07:58:38.070219",
+    "closing_date": "2026-09-11",
+    "description": "We are recruiting! The role: Digital Health Records Administration Assistant (Fixed term contract, up to 18 months) The Department: Digital Health Records We are looking for a methodical and Digitally fluent Digital Health Records Administration Assistant to join our Digital Health Records team. In this role, you will be responsible for preparing and managing digital health records to ensure clinicians have accurate, up-to-date information ready for outpatient appointments. Your work will directly support the delivery of safe, efficient, and high-quality care. You will need to be a highly organised and self-motivated individual with a proactive, can-do attitude, committed to delivering a high-quality digital patient record within the fast-paced and changing environment of Digital Health Records and Clinic Preparation. Review upcoming clinic schedules and prepare day forward packs (DFPs) from the electronic patient record systems. Ensure all relevant documents have been correctly uploaded e.g. referrals, Clinical Summaries or previous clinical correspondence. Flag missing or incomplete information and follow up with appropriate departments Maintain confidentiality and comply with data protection regulations (e.g., GDPR) Collaborate with clinical and administrative staff to streamline patient flow Support digital record audits and quality improvement initiatives Prepare physical health records for scanning, including sorting, removing staples, and categorising documents. Support the flow of incoming and outgoing Inpatient and Outpatient day forward packs. Potential applicants should ensure they evidence the skills listed above in their application. Please refer to the job description attached. If you have any questions about this position please do not hesitate to contact us.",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9374-26-0803",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9374-26-0803",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
     "advertiser_type": "",
@@ -940,20 +882,20 @@
     "posted_date_basis": "source"
   },
   {
-    "job_id": "nhs-5492880",
+    "job_id": "nhs-5574965",
     "source": "NHS Jobs",
-    "title": "PCN Office Administrator",
-    "company": "East and Central Brighton Primary Care Network",
-    "advertiser_name": "East and Central Brighton Primary Care Network",
-    "location": "Brighton, BN1 1ND",
+    "title": "MSK Therapies - Booking Clerk",
+    "company": "East Sussex Healthcare NHS Trust",
+    "advertiser_name": "East Sussex Healthcare NHS Trust",
+    "location": "Hastings, TN37 7RD",
     "region": "Sussex",
-    "salary": "Negotiable",
+    "salary": "£25272.00",
     "employment_type": "Permanent",
-    "posted_date": "2026-08-20T08:52:11.404107576",
-    "closing_date": "2026-09-06",
-    "description": "East & Central Brighton PCN are seeking an experienced and highly organised Office Administrator to provide operational, administrative, workforce and governance support across the PCN. What We Offer NHS Pension Scheme. Generous annual leave entitlement. Training and development opportunities. Flexible and supportive working arrangements. The opportunity to contribute to improving healthcare services for local communities across Brighton. This is an exciting opportunity for an individual with strong organisational and people skills who enjoys working in a fast-paced healthcare environment and supporting service development.The Office Administrator will be responsible for the smooth day-to-day running of the PCN office environment and administrative functions. The post holder will coordinate office systems, workforce administration, recruitment processes, governance requirements and staff support activities, contributing to a well-managed and compliant organisation. Main Responsibilities Office and Facilities Management Oversee the day-to-day operation of PCN office facilities, ensuring they are safe, organised and welcoming. Manage room bookings and coordinate the use of administrative spaces. Liaise with premises providers and contractors regarding maintenance, repairs and service issues. Order and manage office supplies, equipment and resources. Maintain equipment inventories and coordinate servicing, testing and maintenance schedules. Support compliance with health and safety requirements, including fire safety, risk assessments and first aid arrangements. Workforce and HR Administration Coordinate recruitment processes, including advertising vacancies, arranging interviews and issuing correspondence. Assist with onboarding new staff, preparing offer documentation, induction packs and access requests. Support pre-employment checks, including DBS applications, right-to-work checks, references and employment compliance requirements. Maintain accurate and confidential staff records in line with GDPR, employment legislation and CQC requirements. Monitor annual leave, sickness absence and workforce records, escalating issues where appropriate. Maintain records relating to mandatory training, professional registration, occupational health and staff vaccinations. Support workforce planning, staff wellbeing initiatives and learning and development activities. Assist with the development and maintenance of an annual PCN training programme. Governance and Compliance Support compliance with CQC standards and PCN governance requirements. Maintain policy, procedure and operational documentation, ensuring version control and accessibility. Assist with internal and external audits and provide evidence and documentation as required. Ensure information governance, confidentiality and data protection requirements are adhered to at all times. Support the implementation and review of policies and procedures across the organisation. Administrative and Operational Support Organise and minute Board meetings, leadership meetings and other PCN forums. Manage PCN-wide communications, ensuring information is shared effectively with practices and staff. Process staff expense claims and maintain associated records. Act as a key point of contact for PCN staff, practices and external stakeholders. Provide administrative support to service developments, projects and operational initiatives. Provide support covering reception at our weekly Health Hub. Service Support and Improvement Work with clinical and operational colleagues to support the smooth delivery of PCN clinics. Coordinate resources, space and equipment to support efficient service delivery. Identify opportunities to improve administrative systems, processes and staff experience. Contribute to service improvement projects and the development of efficient ways of working.",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/M0022-26-0007",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/M0022-26-0007",
+    "posted_date": "2026-09-03T07:58:28.108584",
+    "closing_date": "2026-09-16",
+    "description": "An exciting opportunity has arisen to be part of the MSK Therapies service. The post will be based at Conquest Hospital however there may be opportunities to support other sites across the community. You will be part of a highly motivated, supportive and friendly team, and will interact with a wide range of organisations and clients. This is a part time post, for 21 hours per week. The role will involve the provision of administrative support to the MSK Triage Team, ensuring patient administration systems are kept up to date, booking appointments and being a first point of contact for patients via phone or email. We are looking for a dynamic, motivated individual who has previous experience of working within a busy office environment, or similar. Please refer to the job description attached. If you have any questions about this position please do not hesitate to contact us.",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9374-26-0816",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9374-26-0816",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
     "advertiser_type": "",
