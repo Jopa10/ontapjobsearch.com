@@ -59,5 +59,9 @@
   {"region_key":"coventry-warwickshire","market_key":"stratford-upon-avon","display_name":"Stratford-upon-Avon","include_patterns":["stratford-upon-avon","stratford upon avon"]},
   {"region_key":"cumbria-south","market_key":"kendal","display_name":"Kendal","include_patterns":["kendal"]},
   {"region_key":"cumbria-south","market_key":"barrow","display_name":"Barrow-in-Furness","include_patterns":["barrow-in-furness","barrow in furness","barrow"]},
-  {"region_key":"cumbria-south","market_key":"ulverston","display_name":"Ulverston","include_patterns":["ulverston"]}
+  {"region_key":"cumbria-south","market_key":"ulverston","display_name":"Ulverston","include_patterns":["ulverston"]},
+  {"region_key":"northern-ireland-east","market_key":"belfast","display_name":"Belfast","include_patterns":["belfast"]},
+  {"region_key":"glasgow","market_key":"glasgow","display_name":"Glasgow","include_patterns":["glasgow"]},
+  {"region_key":"edinburgh-lothians","market_key":"edinburgh","display_name":"Edinburgh","include_patterns":["edinburgh"]},
+  {"region_key":"cardiff-vale","market_key":"cardiff","display_name":"Cardiff","include_patterns":["cardiff"]}
 ]

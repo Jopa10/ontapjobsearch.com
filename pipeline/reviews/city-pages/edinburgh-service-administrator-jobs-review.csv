@@ -1,0 +1,12 @@
+decision,job_id,title,company,location,source,automatic_decision,effective_decision,reason,matched_rule,city_key
+include,jobg8-23643_225461959,Administrator,Search Consultancy Ltd - Agency - Permanent,Edinburgh,JobG8,include,include,Approved conservative Edinburgh launch catchment.,edinburgh,edinburgh-service-administrator-jobs
+include,jobg8-1787097,Business Support Administrator,Pertemps Scotland Temps - Agency - Permanent,Edinburgh,JobG8,include,include,Approved conservative Edinburgh launch catchment.,edinburgh,edinburgh-service-administrator-jobs
+include,jobg8-1804346,Faculties Coordinator,Royal College of Surgeons Edinburgh - Agency - Permanent,Edinburgh,JobG8,include,include,Approved conservative Edinburgh launch catchment.,edinburgh,edinburgh-service-administrator-jobs
+include,jobg8-1748475,HR Administrator,Reed - Agency - Permanent,Edinburgh,JobG8,include,include,Approved conservative Edinburgh launch catchment.,edinburgh,edinburgh-service-administrator-jobs
+include,jobg8-23643_225457991,Italian speaking Office Administrator,Language Matters Recruitment Consultants Ltd - Agency - Permanent,Edinburgh,JobG8,include,include,Approved conservative Edinburgh launch catchment.,edinburgh,edinburgh-service-administrator-jobs
+include,jobg8-1789719,Platform Administrator,Meraki Talent Limited - Agency - Permanent,Edinburgh,JobG8,include,include,Approved conservative Edinburgh launch catchment.,edinburgh,edinburgh-service-administrator-jobs
+include,jobg8-23643_225546858,Temporary Adhoc Receptionist,Office Angels - Agency - Temporary,Edinburgh,JobG8,include,include,Approved conservative Edinburgh launch catchment.,edinburgh,edinburgh-service-administrator-jobs
+include,jobg8-23643_225541613,Temporary Administrator,Escape - Agency - Temporary,Edinburgh,JobG8,include,include,Approved conservative Edinburgh launch catchment.,edinburgh,edinburgh-service-administrator-jobs
+include,jobg8-23643_225542471,Temporary Finance Assistant,Office Angels - Agency - Temporary,Edinburgh,JobG8,include,include,Approved conservative Edinburgh launch catchment.,edinburgh,edinburgh-service-administrator-jobs
+include,jobg8-1764128,Weekend Receptionist,Ritz Recruitment Ltd - Agency - Permanent,Edinburgh,JobG8,include,include,Approved conservative Edinburgh launch catchment.,edinburgh,edinburgh-service-administrator-jobs
+review,jobg8-23643_225476669,Customer & Sales Coordinator,Escape - Agency - Permanent,Livingston,JobG8,review,review,No approved Edinburgh catchment rule matched; local review required.,fallback,edinburgh-service-administrator-jobs
