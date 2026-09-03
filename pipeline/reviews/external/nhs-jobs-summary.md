@@ -2,15 +2,63 @@
 
 review_date: 2026-09-03
 
-- Open Administrative & Clerical rows reviewed: 1996
-- Auto/remembered selected: 414
-- Selected HC Tier A: 187
+- Open Administrative & Clerical rows reviewed: 2001
+- Auto/remembered selected: 415
+- Selected HC Tier A: 188
 - Selected HC Tier B: 227
-- POSS awaiting decision: 1398
+- POSS awaiting decision: 1402
 - Excluded: 0
 - HARD_PASS: 184
 
 Edit only each `action:` line for POSS rows. Unchanged decisions are restored by the shared decision ledger.
+
+---
+action:
+POSS | NHS Jobs | Norfolk | Great Yarmouth, NR31 6LA | £24937.00 to £26598.00 | Outpatient Booking Coordinator
+source_job_id: 5576462
+title: Outpatient Booking Coordinator
+employer: James Paget University Hospitals NHS Foundation Trust
+region: Norfolk
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9177-26-0371
+factual_fingerprint: 2cb2520d2f49d713cc546a6758a86c0c01969d9ec6b47bac62688d712e7b4516
+---
+
+---
+action:
+POSS | NHS Jobs | Cheshire - West | Chester, CH2 1UL | £39959.00 to £48117.00 | Facilities Manager - Domestic Services
+source_job_id: 5576421
+title: Facilities Manager - Domestic Services
+employer: Countess of Chester Hospital NHS Foundation Trust
+region: Cheshire - West
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9210-26-0401
+factual_fingerprint: 079edf887118ee7fa3d7a419ffc1fa5e8617848e6d7de1332e243fcc9315036c
+---
+
+---
+action:
+POSS | NHS Jobs | — | Holgate, YO26 4GG | £25591.37 to £27295.41 | Care Co-Ordinator
+source_job_id: 5576360
+title: Care Co-Ordinator
+employer: Nimbuscare Ltd
+region: 
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/B0260-26-0062
+factual_fingerprint: 69d25bfe68cc4e4526044d62fbdd32fdee35120b337028e0edf3c50505e5c943
+---
+
+---
+action:
+POSS | NHS Jobs | — | Swindon / Bath / Salisbury, SN3 6BB | £57528.00 to £64750.00 | Group Integration and Development Manager
+source_job_id: 5576319
+title: Group Integration and Development Manager
+employer: Royal United Hospitals Bath NHS Foundation Trust
+region: 
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9427-26-0556
+factual_fingerprint: da7f3f94d13786fd490bd5af5e16d81d640475accd53fcf7cdc625c0900c4c6f
+---
 
 ---
 action:
@@ -1545,7 +1593,7 @@ employer: Humber Teaching NHS Foundation Trust
 region: Yorkshire - East
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9338-26-0441
-factual_fingerprint: 279a2e217e03f557e3efa2185bd12d801865f6e07e218d59676f76ac56ed8498
+factual_fingerprint: 7e4ef93e1a58f93877f6f61d22e4e7851e2ef13dab2ec2fac475fc1268971ce5
 ---
 
 ---
@@ -9069,7 +9117,7 @@ employer: Gloucestershire Health and Care NHS Foundation Trust
 region: Gloucestershire
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9327-26-0713
-factual_fingerprint: b13fee93d5b6843f11c99eb9787849f26b8ed44518ed8a12028629bc184f16b8
+factual_fingerprint: e4a4483744c4647f7e6711789e8126e9d2dbe9333c447d30bedcde2f8aa9a7b9
 ---
 
 ---
