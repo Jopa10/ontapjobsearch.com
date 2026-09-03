@@ -153,12 +153,6 @@ SELECTED | Hampshire | Gosport | £26018 - £27111 per year | Day Opportunities 
 job_id: 1401784915
 ---
 
----
-action:
-SELECTED | Hampshire | Freshwater | £14000 per year | Care Assistant
-job_id: 107893077
----
-
 ## HAMPSHIRE — POSSIBLES
 
 _No jobs in this group._
@@ -169,6 +163,12 @@ _No jobs in this group._
 action:
 SELECTED | Kent | Tunbridge Wells | competitive + benefits | Qualified Hearing Care Assistant
 job_id: 1402264062
+---
+
+---
+action:
+SELECTED | Kent | Kent | £13.45 per hour (£13.45) | Housing Support Worker (Casual)
+job_id: 23643_225534852
 ---
 
 ---
@@ -261,12 +261,6 @@ SELECTED | London | London | £23,088.00 per annum | Waking Night Support Worker
 job_id: 1664745
 ---
 
----
-action:
-SELECTED | London | London | £95 - £100 per daily | Autism Support Worker
-job_id: 23643_225456590
----
-
 ## LONDON — POSSIBLES
 
 _No jobs in this group._
@@ -299,12 +293,6 @@ job_id: 1692926
 
 ---
 action:
-SELECTED | Surrey | Cobham | £13.45 per hour (£13.45) | Housing Support Worker (Casual)
-job_id: 23643_225534852
----
-
----
-action:
 SELECTED | Surrey | Lingfield | £92.46 per day | Care assistant
 job_id: 1808686
 ---
@@ -325,12 +313,6 @@ _No jobs in this group._
 action:
 SELECTED | Wiltshire | Swindon | £26,227 per annum | Female BSW Crisis House Peer Support Worker
 job_id: 1787836
----
-
----
-action:
-SELECTED | Wiltshire | Trowbridge | £30000 per year | Recovery Worker
-job_id: 107899505
 ---
 
 ---
