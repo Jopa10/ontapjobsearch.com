@@ -45,7 +45,11 @@
     "finance_accounts_family_reason": "approved Accounts & Finance Operations title",
     "work_pattern": "Part Time",
     "salary_period": "Hourly",
-    "posted_date_basis": ""
+    "posted_date_basis": "",
+    "at_a_glance_attributes": [
+      "Starters and leavers",
+      "Payroll administration"
+    ]
   },
   {
     "job_id": "107812530",

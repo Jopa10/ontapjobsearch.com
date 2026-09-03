@@ -22,7 +22,12 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": ""
+    "posted_date_basis": "",
+    "at_a_glance_attributes": [
+      "Customer enquiries",
+      "Email handling",
+      "Scheduling and bookings"
+    ]
   },
   {
     "job_id": "1767554",
