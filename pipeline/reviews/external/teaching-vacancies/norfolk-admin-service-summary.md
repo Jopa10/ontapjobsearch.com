@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Norfolk
 
-review_date: 2026-09-02
+review_date: 2026-09-03
 review_fingerprint: d4fe78902683fd911c8303274f5d09c121ba13f3034445a61ab10abf85566915
-routing_manifest_sha256: 45126380b2f0881c6111fd0ec45395c24b25f255bc5776d6bc5371d4f2bd1c2a
+routing_manifest_sha256: a0efbb5ba12fcb4fb47f18be53367aa23ab13a40edcd3794d25c9c2fad579f57
 ontap_region: Norfolk
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 12
+- Records: 13
 - Selected: 6
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 6
+- Hard pass: 7
 
 ## SELECTED
 
@@ -126,6 +126,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/secretary-fleggburgh-
 - [Attendance Lead](https://teaching-vacancies.service.gov.uk/jobs/attendance-lead-fred-nicholson-school) — Insufficient admin/service evidence.
 - [Development Officer](https://teaching-vacancies.service.gov.uk/jobs/development-officer-norwich-city-college-of-further-and-higher-education) — Insufficient admin/service evidence.
 - [Planning and Timetabling Officer](https://teaching-vacancies.service.gov.uk/jobs/planning-and-timetabling-officer) — Insufficient admin/service evidence.
+- [Secretarial Assistant](https://teaching-vacancies.service.gov.uk/jobs/secretarial-assistant-john-grant-school-caister-on-sea) — Insufficient admin/service evidence.
 - [Teaching Assistant (Personal Care)](https://teaching-vacancies.service.gov.uk/jobs/teaching-assistant-personal-care-wayland-academy-thetford-norfolk) — Out-of-scope occupation: teaching assistant.
 
 ## Safety boundary

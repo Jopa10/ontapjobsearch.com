@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — North East - Tees Valley
 
-review_date: 2026-09-02
-review_fingerprint: 4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945
-routing_manifest_sha256: 45126380b2f0881c6111fd0ec45395c24b25f255bc5776d6bc5371d4f2bd1c2a
+review_date: 2026-09-03
+review_fingerprint: 7dd11fa0c44833f9fe9ea5786c3647eb834547cf32d968750303830db89852da
+routing_manifest_sha256: a0efbb5ba12fcb4fb47f18be53367aa23ab13a40edcd3794d25c9c2fad579f57
 ontap_region: North East - Tees Valley
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -14,14 +14,27 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 7
-- Selected: 0
+- Selected: 1
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 7
+- Hard pass: 6
 
 ## SELECTED
 
-- None.
+---
+action: 
+SELECTED | North East - Tees Valley | Stockton-on-Tees, North East, TS16 0EU | (Grade D, SCP 4) | Administration Assistant
+employer: Junction Farm Primary School
+closing_date: 2026-09-16T09:00:00+01:00
+reason: Clear admin/service title: administration assistant
+jobg8_check: NO_MATCH
+slice_status: UNREGISTERED
+migration_status: 
+factual_fingerprint: 80557e8cf9cf87fdd6b8c8e433ad520cf5c51a5a293580bc04a712a6764e67d5
+source: Teaching Vacancies
+source_job_id: administration-assistant-junction-farm-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-junction-farm-primary-school
+---
 
 ## POSS — choose SELECT or EXCLUDE
 
@@ -37,7 +50,6 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 - [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-the-legacy-learning-trust-middlesbrough-not-recorded) — Insufficient admin/service evidence.
 - [HR Assistant](https://teaching-vacancies.service.gov.uk/jobs/hr-assistant-outwood-academy-acklam-middlesbrough) — Insufficient admin/service evidence.
 - [Office Manager and PA to the Headteacher](https://teaching-vacancies.service.gov.uk/jobs/office-manager-and-pa-to-the-headteacher-our-lady-st-bede-catholic-academy) — Manager title salary ceiling £33,699 is not below £28,000.
-- [School Business Manager (Primary)](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-primary-st-bede-s-catholic-academy-stockton-on-tees-teesside) — Manager title salary ceiling £32,359 is not below £28,000.
 - [School Business Manager (Secondary)](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-secondary-our-lady-st-bede-catholic-academy) — Manager title salary ceiling £41,771 is not below £28,000.
 - [Trust Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/trust-finance-assistant-spark-education-trust) — Insufficient admin/service evidence.
 

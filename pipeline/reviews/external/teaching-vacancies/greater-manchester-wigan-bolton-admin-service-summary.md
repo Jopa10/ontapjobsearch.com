@@ -1,9 +1,9 @@
-# Teaching Vacancies regional review — Cheshire - East
+# Teaching Vacancies regional review — Greater Manchester - Wigan & Bolton
 
-review_date: 2026-09-02
+review_date: 2026-09-03
 review_fingerprint: 4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945
-routing_manifest_sha256: 45126380b2f0881c6111fd0ec45395c24b25f255bc5776d6bc5371d4f2bd1c2a
-ontap_region: Cheshire - East
+routing_manifest_sha256: a0efbb5ba12fcb4fb47f18be53367aa23ab13a40edcd3794d25c9c2fad579f57
+ontap_region: Greater Manchester - Wigan & Bolton
 slice_category: admin_service
 slice_status: LIVE
 
@@ -33,7 +33,7 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## HARD_PASS
 
-- [School Administrator](https://teaching-vacancies.service.gov.uk/jobs/school-administrator-5ab80ec7-b0fc-452c-aaa2-4e56f328035d) — Missing salary or pay scale.
+- [MIS Systems & Operational Data Manager](https://teaching-vacancies.service.gov.uk/jobs/mis-systems-operational-data-manager) — Manager title salary ceiling £34,678 is not below £28,000.
 
 ## Safety boundary
 

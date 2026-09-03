@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Worcestershire
 
-review_date: 2026-09-02
-review_fingerprint: 49185da3ac3400a51a2ac8368f9f3d51fa1937001615fcb9694f14e61193899a
-routing_manifest_sha256: 45126380b2f0881c6111fd0ec45395c24b25f255bc5776d6bc5371d4f2bd1c2a
+review_date: 2026-09-03
+review_fingerprint: 2d1ab446ca40e4eb5ce0ee4f16fce13424b06a4e779185b48ce0f03ee8ef69e4
+routing_manifest_sha256: a0efbb5ba12fcb4fb47f18be53367aa23ab13a40edcd3794d25c9c2fad579f57
 ontap_region: Worcestershire
 slice_category: admin_service
 slice_status: LIVE
@@ -27,17 +27,17 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ---
 action: 
-POSS | Worcestershire | Malvern, West Midlands, WR14 1WD | £28,598.00 - £31,022.00 Annually (FTE) | Examinations and Data Officer
-employer: Dyson Perrins CofE Academy
-closing_date: 2026-09-02T23:59:00+01:00
-reason: Borderline school administration title: data officer
+POSS | Worcestershire | Redditch, West Midlands, B98 0GF | £21,327.00 - £21,662.00 Annually (Actual) | Reprographics Officer
+employer: Arrow Vale High School
+closing_date: 2026-09-11T09:00:00+01:00
+reason: Administrative duties evidenced in description
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: fa6f89684111e0102db412e3c9dff8d25fb12323967e36d9dd8e6fc4f53aae05
+factual_fingerprint: 4c442467e183f6344979ea8d6570e765dcd728a3948c62b194f1204d9935da10
 source: Teaching Vacancies
-source_job_id: examinations-and-data-officer-dyson-perrins-cofe-academy-malvern-worcestershire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/examinations-and-data-officer-dyson-perrins-cofe-academy-malvern-worcestershire
+source_job_id: reprographics-officer-arrow-vale-high-school-redditch
+source_url: https://teaching-vacancies.service.gov.uk/jobs/reprographics-officer-arrow-vale-high-school-redditch
 ---
 
 ## EXCLUDED BY REVIEW

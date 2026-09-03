@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Hampshire
 
-review_date: 2026-09-02
-review_fingerprint: c111d333bcb481684753c2799cd80e11321cb1a158c3bd8e268b8baa8aec157e
-routing_manifest_sha256: 45126380b2f0881c6111fd0ec45395c24b25f255bc5776d6bc5371d4f2bd1c2a
+review_date: 2026-09-03
+review_fingerprint: 9d0a04d856a59b237990db2307e61310f6653be807380a3a801eadf20d799359
+routing_manifest_sha256: a0efbb5ba12fcb4fb47f18be53367aa23ab13a40edcd3794d25c9c2fad579f57
 ontap_region: Hampshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 9
-- Selected: 5
+- Records: 7
+- Selected: 4
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 4
+- Hard pass: 3
 
 ## SELECTED
-
----
-action: 
-SELECTED | Hampshire | Eastleigh, South East, SO53 2DW | Grade C (FTE £25,185 - £26,243) (Actual for 19.5 hrs £11,402 - £11,881) | Administration Assistant (Transition and Reception)
-employer: Thornden School
-closing_date: 2026-09-02T23:59:00+01:00
-reason: Clear admin/service title: administration assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: b7cdc77fe99b8247601cdc1c23dcad58ad36b922c2ef85477c01768b0f1c8620
-source: Teaching Vacancies
-source_job_id: administration-assistant-transition-and-reception
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-transition-and-reception
----
 
 ---
 action: 
@@ -109,7 +94,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-ac
 - [Attendance and Admin Officer](https://teaching-vacancies.service.gov.uk/jobs/attendance-and-admin-officer-shirley-warren-primary-nursery-school) — Insufficient admin/service evidence.
 - [Clerk to the Governing Body](https://teaching-vacancies.service.gov.uk/jobs/clerk-to-the-governing-body-elson-junior-school) — Insufficient admin/service evidence.
 - [Cover Co-ordinator and Cover Supervisor](https://teaching-vacancies.service.gov.uk/jobs/cover-co-ordinator-and-cover-supervisor) — Insufficient admin/service evidence.
-- [Support Officer (Finance)](https://teaching-vacancies.service.gov.uk/jobs/support-officer-finance) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — North East
 
-review_date: 2026-09-02
-review_fingerprint: 0712c023dca24464ebd5a0f4c5882d3669e373a7102603f4587d1acf643dfec4
-routing_manifest_sha256: 45126380b2f0881c6111fd0ec45395c24b25f255bc5776d6bc5371d4f2bd1c2a
+review_date: 2026-09-03
+review_fingerprint: a794447204dadee113374dc1f2d4babffcd60cd0eb5b7d48feacedac87bdba5a
+routing_manifest_sha256: a0efbb5ba12fcb4fb47f18be53367aa23ab13a40edcd3794d25c9c2fad579f57
 ontap_region: North East
 slice_category: admin_service
 slice_status: LIVE
@@ -14,10 +14,10 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 5
-- Selected: 2
+- Selected: 1
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 3
+- Hard pass: 4
 
 ## SELECTED
 
@@ -36,21 +36,6 @@ source_job_id: administrative-assistant-level-3-gosforth-academy-newcastle-upon-
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-level-3-gosforth-academy-newcastle-upon-tyne-tyne-and-wear
 ---
 
----
-action: 
-SELECTED | North East | Newcastle-upon-Tyne, North East, NE4 9YH | BB04 £26,403 - £27,254 per annum pro rata | Administrative Assistant Level 3
-employer: Sacred Heart Catholic High School
-closing_date: 2026-09-03T09:00:59+01:00
-reason: Clear admin/service title: administrative assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: efba484b296e0dc97829bab00fec8c13f328160365ba19a84a3dd7320934a011
-source: Teaching Vacancies
-source_job_id: administrative-assistant-level-3-sacred-heart-catholic-high-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-level-3-sacred-heart-catholic-high-school
----
-
 ## POSS — choose SELECT or EXCLUDE
 
 - None.
@@ -64,6 +49,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assist
 - [Associate Operational Support Lead](https://teaching-vacancies.service.gov.uk/jobs/associate-operational-support-lead-northern-leaders-trust) — Insufficient admin/service evidence.
 - [Business Manager](https://teaching-vacancies.service.gov.uk/jobs/business-manager-st-anthony-s-girls-catholic-academy) — Manager title salary ceiling £40,777 is not below £28,000.
 - [Communications and Administration Manager](https://teaching-vacancies.service.gov.uk/jobs/communications-and-administration-manager) — Manager title salary ceiling £39,862 is not below £28,000.
+- [Deputy Administration Manager](https://teaching-vacancies.service.gov.uk/jobs/deputy-administration-manager) — Manager title salary ceiling £33,119 is not below £28,000.
 
 ## Safety boundary
 

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cambridgeshire
 
-review_date: 2026-09-02
-review_fingerprint: 90e24f80e964a700fa6eafc7b8bef7852dc708967705f0a460a8cbdba1a376bd
-routing_manifest_sha256: 45126380b2f0881c6111fd0ec45395c24b25f255bc5776d6bc5371d4f2bd1c2a
+review_date: 2026-09-03
+review_fingerprint: 75b3e6614dad88d1a98e38cefb2df4742a24e412d00dd398a1fc1e341f1bea16
+routing_manifest_sha256: a0efbb5ba12fcb4fb47f18be53367aa23ab13a40edcd3794d25c9c2fad579f57
 ontap_region: Cambridgeshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 17
-- Selected: 7
+- Records: 21
+- Selected: 8
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 9
+- Hard pass: 12
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Cambridgeshire | Ely, East of England, CB6 2WL | £8,428.00 Annually (Actual) Meridian Trust Support Staff Pay Scale (Grade 3) | Administrative Assistant
+employer: Lantern Community Primary School
+closing_date: 2026-09-14T09:00:00+01:00
+reason: Clear admin/service title: administrative assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: c72e0d5ba20078054661924b9df28fc40ce274c7b9ce12dc4621599f88a07086
+source: Teaching Vacancies
+source_job_id: administrative-assistant-lantern-community-primary-school-ely-cambridgeshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-lantern-community-primary-school-ely-cambridgeshire
+---
 
 ---
 action: 
@@ -153,9 +168,12 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/marketing-communicati
 - [Head of HR Business Partnering](https://teaching-vacancies.service.gov.uk/jobs/head-of-hr-business-partnering) — Insufficient admin/service evidence.
 - [Head of HR Operations](https://teaching-vacancies.service.gov.uk/jobs/head-of-hr-operations-meridian-trust) — Insufficient admin/service evidence.
 - [Head of HR Operations](https://teaching-vacancies.service.gov.uk/jobs/head-of-hr-operations-united-learning-trust) — Insufficient admin/service evidence.
+- [HR Adviser (Field based)](https://teaching-vacancies.service.gov.uk/jobs/hr-adviser-field-based) — Insufficient admin/service evidence.
 - [MAT Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/mat-finance-officer-four-cs-mat) — Insufficient admin/service evidence.
 - [Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-0ac27fb8-22a7-4d23-9c79-0a117c28f623) — Insufficient admin/service evidence.
 - [Senior HR Adviser (Field based Cambridge and Ely area primarily)](https://teaching-vacancies.service.gov.uk/jobs/senior-hr-adviser-field-based-cambridge-and-ely-area-primarily) — Insufficient admin/service evidence.
+- [Trust Accountant](https://teaching-vacancies.service.gov.uk/jobs/trust-accountant-7bdb7712-1f61-48da-8325-8b7fd7b8d935) — Insufficient admin/service evidence.
+- [Trust Accountant](https://teaching-vacancies.service.gov.uk/jobs/trust-accountant-swavesey-village-college) — Insufficient admin/service evidence.
 - [Trust Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/trust-finance-officer-act-multi-academy-trust) — Insufficient admin/service evidence.
 - [Trust Payroll, Pensions and HR Officer](https://teaching-vacancies.service.gov.uk/jobs/trust-payroll-pensions-and-hr-officer) — Insufficient admin/service evidence.
 

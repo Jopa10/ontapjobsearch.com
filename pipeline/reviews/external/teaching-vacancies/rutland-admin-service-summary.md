@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Rutland
 
-review_date: 2026-09-02
+review_date: 2026-09-03
 review_fingerprint: 4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945
-routing_manifest_sha256: 45126380b2f0881c6111fd0ec45395c24b25f255bc5776d6bc5371d4f2bd1c2a
+routing_manifest_sha256: a0efbb5ba12fcb4fb47f18be53367aa23ab13a40edcd3794d25c9c2fad579f57
 ontap_region: Rutland
 slice_category: admin_service
 slice_status: UNREGISTERED

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Coventry & Warwickshire
 
-review_date: 2026-09-02
-review_fingerprint: 6ea0f83c7250c8b38e164266a43eea06fcfffc5a9a757de5ba7db96fd0dd7739
-routing_manifest_sha256: 45126380b2f0881c6111fd0ec45395c24b25f255bc5776d6bc5371d4f2bd1c2a
+review_date: 2026-09-03
+review_fingerprint: 245885e5212a1166f8cb40da07c094aa11e89d5fefdfd0a16e34aca217d109b2
+routing_manifest_sha256: a0efbb5ba12fcb4fb47f18be53367aa23ab13a40edcd3794d25c9c2fad579f57
 ontap_region: West Midlands - Coventry & Warwickshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 7
-- Selected: 4
+- Records: 4
+- Selected: 3
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 3
+- Hard pass: 1
 
 ## SELECTED
 
@@ -66,21 +66,6 @@ source_job_id: receptionist-admin-officer-f47a5a75-5bef-45e1-a471-94bb514d5613
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-admin-officer-f47a5a75-5bef-45e1-a471-94bb514d5613
 ---
 
----
-action: 
-SELECTED | West Midlands - Coventry & Warwickshire | Coventry, West Midlands, CV2 2AJ | £21,854.00 - £22,911.00 Annually (Actual) Romero Grade 3 | School Receptionist
-employer: Cardinal Wiseman Catholic School
-closing_date: 2026-09-03T09:00:00+01:00
-reason: Clear admin/service title: receptionist
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 5b37fbfb8c3dec2813af0c37419eb0a8196ed23ab1139aa015e049232af91057
-source: Teaching Vacancies
-source_job_id: school-receptionist-45aeb107-50df-4aa0-8e6f-1750a0fd6626
-source_url: https://teaching-vacancies.service.gov.uk/jobs/school-receptionist-45aeb107-50df-4aa0-8e6f-1750a0fd6626
----
-
 ## POSS — choose SELECT or EXCLUDE
 
 - None.
@@ -91,9 +76,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-receptionist-4
 
 ## HARD_PASS
 
-- [Assistant Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/assistant-operations-manager-finham-park-school-coventry-west-midlands) — Manager title salary ceiling £34,434 is not below £28,000.
 - [Chief Financial Officer (CFO)](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-cfo-triumph-learning-trust) — Insufficient admin/service evidence.
-- [Senior Leisure & Lettings Coordinator](https://teaching-vacancies.service.gov.uk/jobs/senior-leisure-lettings-coordinator) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

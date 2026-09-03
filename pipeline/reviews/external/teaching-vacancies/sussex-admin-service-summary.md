@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Sussex
 
-review_date: 2026-09-02
-review_fingerprint: 4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945
-routing_manifest_sha256: 45126380b2f0881c6111fd0ec45395c24b25f255bc5776d6bc5371d4f2bd1c2a
+review_date: 2026-09-03
+review_fingerprint: d837debc2ceb7d99900dd650c1314837dd6a87b1a4d76c1752c14a224bd4e078
+routing_manifest_sha256: a0efbb5ba12fcb4fb47f18be53367aa23ab13a40edcd3794d25c9c2fad579f57
 ontap_region: Sussex
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 2
+- Records: 1
 - Selected: 0
-- POSS awaiting decision: 0
+- POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 2
+- Hard pass: 0
 
 ## SELECTED
 
@@ -25,7 +25,20 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## POSS — choose SELECT or EXCLUDE
 
-- None.
+---
+action: 
+POSS | Sussex | Crawley, South East, RH10 6DG | Associate 3 Actual Salary - £21,643.44 to £23,380. | Office Manager
+employer: Southgate Primary
+closing_date: 2026-10-14T23:59:59+01:00
+reason: Manager title below £28,000 salary ceiling requires review
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 38aa431f36df9d158d1de52563f0f46b852796672497a2da9f460542843396fc
+source: Teaching Vacancies
+source_job_id: office-manager-southgate-primary-crawley-west-sussex
+source_url: https://teaching-vacancies.service.gov.uk/jobs/office-manager-southgate-primary-crawley-west-sussex
+---
 
 ## EXCLUDED BY REVIEW
 
@@ -33,8 +46,7 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## HARD_PASS
 
-- [MI Systems and Reporting Manager](https://teaching-vacancies.service.gov.uk/jobs/mi-systems-and-reporting-manager) — Manager title salary ceiling £48,633 is not below £28,000.
-- [MIS Director](https://teaching-vacancies.service.gov.uk/jobs/mis-director) — Insufficient admin/service evidence.
+- None.
 
 ## Safety boundary
 

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Lincolnshire
 
-review_date: 2026-09-02
-review_fingerprint: 1ef75acf31e4daf3dbcf60736a5a66233d6ad5cf8f8f9835830126073fff13ec
-routing_manifest_sha256: 45126380b2f0881c6111fd0ec45395c24b25f255bc5776d6bc5371d4f2bd1c2a
+review_date: 2026-09-03
+review_fingerprint: c66c5144317b21eb16a392fffab90b6c082256d540d928512296f4549a42ade2
+routing_manifest_sha256: a0efbb5ba12fcb4fb47f18be53367aa23ab13a40edcd3794d25c9c2fad579f57
 ontap_region: Lincolnshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 13
+- Records: 12
 - Selected: 3
 - POSS awaiting decision: 4
 - Excluded: 0
-- Hard pass: 6
+- Hard pass: 5
 
 ## SELECTED
 
@@ -70,17 +70,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-admin-of
 
 ---
 action: 
-POSS | Lincolnshire | Grimsby, Yorkshire and the Humber, DN31 2ES | £25,185.00 - £25,989.00 Annually (FTE) Grade C Points 4 to 6 (£25,185 to £25,989 Full Time Equivalent) subject to pro rata. The minimum actual pro rata salary per annum for this job starts at £21,758.06. | Administration Officer
-employer: Macaulay Primary Academy
-closing_date: 2026-09-02T23:59:00+01:00
-reason: Administrative duties evidenced in description
+POSS | Lincolnshire | Grimsby, Yorkshire and the Humber, DN34 5AH | £26,060.00 - £28,284.00 Annually (Actual) | Data Officer
+employer: Ormiston Maritime Academy
+closing_date: 2026-09-13T08:00:00+01:00
+reason: Borderline school administration title: data officer
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: a3ea0d2a35d1ceeb389c364c85759f57cb0dad649bdc73ddc62f659eabd90b86
+factual_fingerprint: febc3933d2c2fb318ae06752e6530c1c9b34dd07adb878a2217063f5307d720e
 source: Teaching Vacancies
-source_job_id: administration-officer-macaulay-primary-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-officer-macaulay-primary-academy
+source_job_id: data-officer-ormiston-maritime-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/data-officer-ormiston-maritime-academy
 ---
 
 ---
@@ -136,7 +136,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-manager-5960c3
 
 - [Academy Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/academy-administration-officer-the-priory-witham-academy-lincoln-lincolnshire) — Insufficient admin/service evidence.
 - [Academy Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/academy-operations-manager-thomas-middlecott-academy-boston-lincolnshire) — Manager title salary ceiling £42,839 is not below £28,000.
-- [Admin and Reception Assistant](https://teaching-vacancies.service.gov.uk/jobs/admin-and-reception-assistant-outwood-academy-brumby) — Missing salary or pay scale.
 - [Data Manager](https://teaching-vacancies.service.gov.uk/jobs/data-manager-de-aston-school) — Manager title without salary evidence below £28,000.
 - [School Bursar](https://teaching-vacancies.service.gov.uk/jobs/school-bursar-cliffedale-primary-school) — Insufficient admin/service evidence.
 - [Senior Administrative Officer (15 hours) - Ulceby CofE Primary School](https://teaching-vacancies.service.gov.uk/jobs/senior-administrative-officer-15-hours-ulceby-cofe-primary-school) — Insufficient admin/service evidence.

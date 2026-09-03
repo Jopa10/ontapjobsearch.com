@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Staffordshire
 
-review_date: 2026-09-02
-review_fingerprint: 3ec8931d37f08740dff3d696769f7fbb902be4a502668473287ef786621a94dd
-routing_manifest_sha256: 45126380b2f0881c6111fd0ec45395c24b25f255bc5776d6bc5371d4f2bd1c2a
+review_date: 2026-09-03
+review_fingerprint: 670050bc7c4fad55fa3248c64dda09abef4bccb8d093141cf49e280257a582a9
+routing_manifest_sha256: a0efbb5ba12fcb4fb47f18be53367aa23ab13a40edcd3794d25c9c2fad579f57
 ontap_region: Staffordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 6
-- Selected: 3
+- Records: 5
+- Selected: 2
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 3
@@ -34,21 +34,6 @@ factual_fingerprint: d9b5b8a68d9df8f93ee165da1bb5c52fc8842adbc5eee40507660e9cb4f
 source: Teaching Vacancies
 source_job_id: administrative-assistant-the-shaw-education-trust
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-the-shaw-education-trust
----
-
----
-action: 
-SELECTED | Staffordshire | Cannock, West Midlands, WS11 1PD | £25,185.00 - £26,403.00 Annually (FTE) Mornings, Monday to Friday - pro rata, term time | Attendance Officer - Level 4
-employer: Longford Primary Academy
-closing_date: 2026-09-10T12:00:00+01:00
-reason: Clear admin/service title: attendance officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: f4455e989e4688917fb04cf60d807f41123d5838dd0489c9c68ac8053e655aee
-source: Teaching Vacancies
-source_job_id: attendance-officer-level-4-longford-primary-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-level-4-longford-primary-academy
 ---
 
 ---

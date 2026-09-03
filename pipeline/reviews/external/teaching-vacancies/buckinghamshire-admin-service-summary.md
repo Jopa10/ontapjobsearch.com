@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Buckinghamshire
 
-review_date: 2026-09-02
-review_fingerprint: 10314ee0394f709940a6b08227c1490b463daa074b14282453e23b6e4f6ce243
-routing_manifest_sha256: 45126380b2f0881c6111fd0ec45395c24b25f255bc5776d6bc5371d4f2bd1c2a
+review_date: 2026-09-03
+review_fingerprint: ac7376993f57717a0dabd875de2c4e9741c6179a171ed2a0c8cdcff7ebb0b56a
+routing_manifest_sha256: a0efbb5ba12fcb4fb47f18be53367aa23ab13a40edcd3794d25c9c2fad579f57
 ontap_region: Buckinghamshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 11
-- Selected: 5
+- Records: 12
+- Selected: 6
 - POSS awaiting decision: 3
 - Excluded: 0
 - Hard pass: 3
@@ -49,6 +49,21 @@ factual_fingerprint: cc1ea49c19cce27da7e766345dac4a736c92817c95e63199775f32e344e
 source: Teaching Vacancies
 source_job_id: attendance-officer-af35235c-b4c2-4ef0-9706-890c839e4f10
 source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-af35235c-b4c2-4ef0-9706-890c839e4f10
+---
+
+---
+action: 
+SELECTED | Buckinghamshire | Amersham, South East, HP7 9HH | Bucks Pay Range 3.16 £24,074 pro rata / £29,114 FTE | Attendance Officer
+employer: Amersham School
+closing_date: 2026-09-18T23:59:00+01:00
+reason: Clear admin/service title: attendance officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: b32644a80dd55010784a06a704d1a69c6c3c5d03fb2842c61d860686c88b0759
+source: Teaching Vacancies
+source_job_id: attendance-officer-amersham-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-amersham-school
 ---
 
 ---
@@ -149,9 +164,9 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-
 
 ## HARD_PASS
 
-- [Data Assistant](https://teaching-vacancies.service.gov.uk/jobs/data-assistant-eec862cb-7829-4bfd-9435-a191b7aa5a85) — Insufficient admin/service evidence.
 - [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-5-dimensions-trust) — Manager title salary ceiling £39,862 is not below £28,000.
 - [HR & Training Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-training-officer) — Insufficient admin/service evidence.
+- [Lettings & Community Officer](https://teaching-vacancies.service.gov.uk/jobs/lettings-community-officer-5-dimensions-trust-milton-keynes-not-recorded) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

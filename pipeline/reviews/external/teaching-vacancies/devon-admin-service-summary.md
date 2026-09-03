@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Devon
 
-review_date: 2026-09-02
-review_fingerprint: 46adb4af2eb4f9c8e6ff1b806f51ab08419c87118fb96f5d345a026e2d69c83f
-routing_manifest_sha256: 45126380b2f0881c6111fd0ec45395c24b25f255bc5776d6bc5371d4f2bd1c2a
+review_date: 2026-09-03
+review_fingerprint: 2f5e136ee9e1b664133b85fafc14d94f58d36caea53c65d0eca67200d269b6df
+routing_manifest_sha256: a0efbb5ba12fcb4fb47f18be53367aa23ab13a40edcd3794d25c9c2fad579f57
 ontap_region: Devon
 slice_category: admin_service
 slice_status: LIVE
@@ -13,43 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 13
-- Selected: 4
-- POSS awaiting decision: 4
+- Records: 9
+- Selected: 2
+- POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 5
 
 ## SELECTED
-
----
-action: 
-SELECTED | Devon | Plymouth, South West, PL5 4AA | £25,583 | Administrative Assistant
-employer: Sir John Hunt Community Sports College
-closing_date: 2026-09-03T09:00:00+01:00
-reason: Clear admin/service title: administrative assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 9274255198beff82066953e7c05d39524f5b5f3f7d286bdcb5be2794d6705d2a
-source: Teaching Vacancies
-source_job_id: administrative-assistant-sir-john-hunt-community-sports-college
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-sir-john-hunt-community-sports-college
----
-
----
-action: 
-SELECTED | Devon | Plymouth, South West, PL5 4AA | £25,583 | Administrative Assistant
-employer: Sir John Hunt Community Sports College
-closing_date: 2026-09-03T09:00:00+01:00
-reason: Clear admin/service title: administrative assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 9494f7b60d2da66a0947caa74256a0b71e5b87a872415fdb7b4b4c6176deb68e
-source: Teaching Vacancies
-source_job_id: administrative-assistant-sir-john-hunt-community-sports-college-plymouth-devon
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-sir-john-hunt-community-sports-college-plymouth-devon
----
 
 ---
 action: 
@@ -85,21 +55,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-ok
 
 ---
 action: 
-POSS | Devon | Torquay, South West, TQ1 4QH | £26,016.00 Annually (FTE) | Pupil Services Officer
-employer: St Marychurch Church of England Primary and Nursery School
-closing_date: 2026-09-03T09:00:00+01:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 6f27d070e60179e6ed589b6efe7b3291d8becb3b847daaa1a5fbcc0720dfce67
-source: Teaching Vacancies
-source_job_id: pupil-services-officer-st-marychurch-church-of-england-primary-and-nursery-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/pupil-services-officer-st-marychurch-church-of-england-primary-and-nursery-school
----
-
----
-action: 
 POSS | Devon | Exeter, South West, EX1 2PS | £27,709.00 - £29,070.00 Annually (FTE) | Senior Pupil Services Officer
 employer: Ladysmith Infant & Nursery School
 closing_date: 2026-09-07T09:00:00+01:00
@@ -128,32 +83,17 @@ source_job_id: senior-pupil-services-officer-st-leonard-s-cofe-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-pupil-services-officer-st-leonard-s-cofe-primary-school
 ---
 
----
-action: 
-POSS | Devon | Exeter, South West, EX1 2SN | £9,058.00 Annually (Actual) | Senior Pupil Services officer - 2 days/week
-employer: St Michael's Church of England Primary Academy
-closing_date: 2026-09-03T09:00:00+01:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: c1ce5984367c49534946d71c2d79909f11ee4429564ef706a6c8dd619ad43ff9
-source: Teaching Vacancies
-source_job_id: senior-pupil-services-officer-2-days-week
-source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-pupil-services-officer-2-days-week
----
-
 ## EXCLUDED BY REVIEW
 
 - None.
 
 ## HARD_PASS
 
+- [Chief Financial Officer (CFO)](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-cfo-torquay-boys-grammar-school-torquay-devon) — Insufficient admin/service evidence.
 - [Cover Supervisor](https://teaching-vacancies.service.gov.uk/jobs/cover-supervisor-9fa63c24-e87e-4376-b59f-95affbf3dff3) — Insufficient admin/service evidence.
 - [Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-learning-academies-trust-plymouth-not-recorded) — Insufficient admin/service evidence.
 - [Medical Conditions and Student Health Lead](https://teaching-vacancies.service.gov.uk/jobs/medical-conditions-and-student-health-lead) — Insufficient admin/service evidence.
 - [Payroll and HR Systems Officer (Central Team)](https://teaching-vacancies.service.gov.uk/jobs/payroll-and-hr-systems-officer-central-team-plymouth-cast) — Insufficient admin/service evidence.
-- [People Lead (Maternity Cover)](https://teaching-vacancies.service.gov.uk/jobs/people-lead-maternity-cover-bideford-college) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

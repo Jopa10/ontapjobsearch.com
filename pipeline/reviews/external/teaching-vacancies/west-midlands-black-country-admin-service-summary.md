@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Black Country
 
-review_date: 2026-09-02
-review_fingerprint: a06695d7b4089711e71ace21298c1c36f1eaebe67c430c37620063b4d4cf456d
-routing_manifest_sha256: 45126380b2f0881c6111fd0ec45395c24b25f255bc5776d6bc5371d4f2bd1c2a
+review_date: 2026-09-03
+review_fingerprint: ab3dbaf43b60acb284fba1da730b60d542fd3f8547f477bd3d292174d9f998a4
+routing_manifest_sha256: a0efbb5ba12fcb4fb47f18be53367aa23ab13a40edcd3794d25c9c2fad579f57
 ontap_region: West Midlands - Black Country
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 3
+- Records: 4
 - Selected: 1
-- POSS awaiting decision: 0
+- POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 2
 
@@ -38,7 +38,20 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 
 ## POSS — choose SELECT or EXCLUDE
 
-- None.
+---
+action: 
+POSS | West Midlands - Black Country | Wednesbury, West Midlands, WS10 7PZ | £22,828 – £23,935 | Office Administrator
+employer: Holyhead Primary Academy
+closing_date: 2026-09-13T23:59:00+01:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 985a2af32b1c0c3c520d0424c9d981c137c27079e4c5236d2281fcdec294c8e6
+source: Teaching Vacancies
+source_job_id: office-administrator-holyhead-primary-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-holyhead-primary-academy
+---
 
 ## EXCLUDED BY REVIEW
 

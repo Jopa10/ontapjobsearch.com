@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Hertfordshire
 
-review_date: 2026-09-02
-review_fingerprint: 1667aa9cd11a97ccc141cbe4c27486eb6437f3eaf3128dabc7001b07e2c06ad3
-routing_manifest_sha256: 45126380b2f0881c6111fd0ec45395c24b25f255bc5776d6bc5371d4f2bd1c2a
+review_date: 2026-09-03
+review_fingerprint: 28bfb74227c406b786cabe147f544d618d6ea16943a0b11bf6b8136a7d6117e2
+routing_manifest_sha256: a0efbb5ba12fcb4fb47f18be53367aa23ab13a40edcd3794d25c9c2fad579f57
 ontap_region: Hertfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 7
-- Selected: 3
-- POSS awaiting decision: 1
+- Records: 11
+- Selected: 4
+- POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 3
+- Hard pass: 5
 
 ## SELECTED
 
@@ -66,6 +66,21 @@ source_job_id: governance-administrator-aspire-academies-trust
 source_url: https://teaching-vacancies.service.gov.uk/jobs/governance-administrator-aspire-academies-trust
 ---
 
+---
+action: 
+SELECTED | Hertfordshire | Rickmansworth, East of England, WD3 8AB | £21,306.00 - £26,176.00 Annually (FTE) Academy Trust Scale based on skills and experience (£21,306 to £26,176 FTE, pro-rata for part-time) | School Receptionist - Part-time
+employer: The Reach Free School
+closing_date: 2026-09-17T12:00:00+01:00
+reason: Clear admin/service title: receptionist
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: c81ae4890e8d0c38f52cfe44d27c1ff7bafaabcd7cc3a3fe6be474c629e8d12f
+source: Teaching Vacancies
+source_job_id: school-receptionist-part-time
+source_url: https://teaching-vacancies.service.gov.uk/jobs/school-receptionist-part-time
+---
+
 ## POSS — choose SELECT or EXCLUDE
 
 ---
@@ -83,6 +98,21 @@ source_job_id: hr-advisor-eb9c5bf8-2603-48ba-bfc8-df41ec1204b1
 source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-advisor-eb9c5bf8-2603-48ba-bfc8-df41ec1204b1
 ---
 
+---
+action: 
+POSS | Hertfordshire | St Albans, AL1 5AR | £27,600.00 - £28,906.00 Annually (Actual) Grade: H4 + Fringe Annual Salary: £27,600 progressing to £28,906 (Fringe allowance included) | MIS Administrator
+employer: Scholars' Education Trust
+closing_date: 2026-09-17T09:00:00+01:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: d0c8306918503eda5644e6fb8d8efda82d6280642c338310b0c4b069ca03580d
+source: Teaching Vacancies
+source_job_id: mis-administrator
+source_url: https://teaching-vacancies.service.gov.uk/jobs/mis-administrator
+---
+
 ## EXCLUDED BY REVIEW
 
 - None.
@@ -90,7 +120,9 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-advisor-eb9c5bf8-2
 ## HARD_PASS
 
 - [Assistant School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/assistant-school-business-manager-dame-alice-owen-s-school-potters-bar-hertfordshire) — Manager title salary ceiling £39,862 is not below £28,000.
+- [Development Director](https://teaching-vacancies.service.gov.uk/jobs/development-director-watford-grammar-school-for-boys) — Insufficient admin/service evidence.
 - [Head of HR](https://teaching-vacancies.service.gov.uk/jobs/head-of-hr-danes-educational-trust-chorleywood-not-recorded) — Insufficient admin/service evidence.
+- [Headteacher's PA + Office Manager](https://teaching-vacancies.service.gov.uk/jobs/headteacher-s-pa-office-manager-robert-barclay-academy) — Out-of-scope occupation: teacher, headteacher.
 - [Teaching Assistant including personal care: Part Time / Full Time (H3)](https://teaching-vacancies.service.gov.uk/jobs/teaching-assistant-including-personal-care-part-time-full-time-h3-beaumont-school-st-albans-hertfordshire) — Out-of-scope occupation: teaching assistant.
 
 ## Safety boundary

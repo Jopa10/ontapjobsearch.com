@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Berkshire
 
-review_date: 2026-09-02
-review_fingerprint: 8dcf82ba875d29163e9ec59e0742f0bf57fb312689ef5b06dd8cc61c056054f1
-routing_manifest_sha256: 45126380b2f0881c6111fd0ec45395c24b25f255bc5776d6bc5371d4f2bd1c2a
+review_date: 2026-09-03
+review_fingerprint: 4c882f28c92491a604e6f662d3f69afe1c91a33b2a1b07185d088548502c138a
+routing_manifest_sha256: a0efbb5ba12fcb4fb47f18be53367aa23ab13a40edcd3794d25c9c2fad579f57
 ontap_region: Berkshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,27 +13,42 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 15
-- Selected: 4
+- Records: 17
+- Selected: 5
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 10
+- Hard pass: 11
 
 ## SELECTED
 
 ---
 action: 
-SELECTED | Berkshire | Slough, South East, SL1 5AH | £24,523.00 - £26,907.00 Annually (Actual) NJC Level 4 Points 8-12 | Admissions Officer
-employer: The Westgate School
-closing_date: 2026-09-21T23:59:00+01:00
-reason: Clear admin/service title: admissions officer
+SELECTED | Berkshire | Slough, South East, SL1 2TE | £22,858.00 - £23,559.00 Annually (Actual) | Attendance & Admissions Administrator (Maternity Cover)
+employer: Montem Academy
+closing_date: 2026-10-30T12:00:00+00:00
+reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 54e3609401caefa3994767441c85b6c84cf6ecd083e9e3cee5a525dd209de92a
+factual_fingerprint: 695c2e7898f7f3b1edb675e7c368e8236e10b8d22b9cb7258e5d59b239daad74
 source: Teaching Vacancies
-source_job_id: admissions-officer-the-westgate-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/admissions-officer-the-westgate-school
+source_job_id: attendance-admissions-administrator-maternity-cover
+source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-admissions-administrator-maternity-cover
+---
+
+---
+action: 
+SELECTED | Berkshire | Reading, South East, RG1 5BN | £23,548 to £28,198 Per year | Attendance Officer and Administration Coordinator - Kendrick School
+employer: Kendrick School
+closing_date: 2026-09-20T23:59:00+01:00
+reason: Clear admin/service title: attendance officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: d6981f750621c042e19c58978840f5e605b9091d74da79f6d018fabfc35baa2d
+source: Teaching Vacancies
+source_job_id: attendance-officer-and-administration-coordinator-kendrick-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-and-administration-coordinator-kendrick-school
 ---
 
 ---
@@ -112,6 +127,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/trust-governance-prof
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-king-s-academy-meadow-vale) — Manager title salary ceiling £36,363 is not below £28,000.
 - [Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/operations-manager-reading-school) — Manager title salary ceiling £44,075 is not below £28,000.
 - [Payroll Officer](https://teaching-vacancies.service.gov.uk/jobs/payroll-officer-the-park-federation-academy-trust-slough-not-recorded) — Insufficient admin/service evidence.
+- [PFM Compliance and Site Officer](https://teaching-vacancies.service.gov.uk/jobs/pfm-compliance-and-site-officer-beechwood-school-slough-berkshire) — Insufficient admin/service evidence.
 - [SEND Administration Officer - The Wren School](https://teaching-vacancies.service.gov.uk/jobs/send-administration-officer-the-wren-school) — Missing salary or pay scale.
 - [Senior Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-finance-officer-the-thames-learning-trust) — Insufficient admin/service evidence.
 

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Nottinghamshire
 
-review_date: 2026-09-02
-review_fingerprint: 261e8b603569f1d33882991006512974f5efae42364211bbfe9315f2eaa12467
-routing_manifest_sha256: 45126380b2f0881c6111fd0ec45395c24b25f255bc5776d6bc5371d4f2bd1c2a
+review_date: 2026-09-03
+review_fingerprint: 97870b956fbd29eaf6556955d37f1fce8b0235e7f6f3c4d24ac253bcaf62e017
+routing_manifest_sha256: a0efbb5ba12fcb4fb47f18be53367aa23ab13a40edcd3794d25c9c2fad579f57
 ontap_region: Nottinghamshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 14
-- Selected: 3
+- Records: 16
+- Selected: 5
 - POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 9
@@ -64,6 +64,36 @@ factual_fingerprint: 15a2d66e4b2490795f23fc4f5d57164bc8eafdc7c7cec77821fd7359746
 source: Teaching Vacancies
 source_job_id: administrative-assistant-sixth-form-and-work-related-learning
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-sixth-form-and-work-related-learning
+---
+
+---
+action: 
+SELECTED | Nottinghamshire | Nottingham, East Midlands, NG3 7EB | £22,934.00 - £25,229.00 Annually (Actual) GAT 4/5, 37 hours per week, 39 weeks per year | Attendance Administrator - Secondary Site
+employer: Nottingham Academy
+closing_date: 2026-09-13T23:59:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: d4eb222c458d6357f22a1a1d1bf7771149f6aeac84b7f50b8c7d004519a35194
+source: Teaching Vacancies
+source_job_id: attendance-administrator-secondary-site
+source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-administrator-secondary-site
+---
+
+---
+action: 
+SELECTED | Nottinghamshire | Nottingham, East Midlands, NG3 7EB | £13,946.00 - £15,342.00 Annually (Actual) GAT 4/5, 22.5 hours per week, 39 weeks per year | Part Time Attendance Administrator - Secondary Site
+employer: Nottingham Academy
+closing_date: 2026-09-13T23:59:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 5500d8768914cfeac03664843c5ad0c84f3d4ed0528f45be1538aa328ca19895
+source: Teaching Vacancies
+source_job_id: part-time-attendance-administrator-secondary-site
+source_url: https://teaching-vacancies.service.gov.uk/jobs/part-time-attendance-administrator-secondary-site
 ---
 
 ## POSS — choose SELECT or EXCLUDE

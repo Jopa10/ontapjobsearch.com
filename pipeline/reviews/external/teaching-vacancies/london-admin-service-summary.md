@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — London
 
-review_date: 2026-09-02
-review_fingerprint: 219d1730fa75b78bfa8096fae0b74b94d4b860e61fbdeddb55ca3955f9560737
-routing_manifest_sha256: 45126380b2f0881c6111fd0ec45395c24b25f255bc5776d6bc5371d4f2bd1c2a
+review_date: 2026-09-03
+review_fingerprint: e0854bb8f36a9873619d70e72c1823936dc50c2830822fbc08197e182e3562d7
+routing_manifest_sha256: a0efbb5ba12fcb4fb47f18be53367aa23ab13a40edcd3794d25c9c2fad579f57
 ontap_region: London
 slice_category: admin_service
 slice_status: LIVE
@@ -34,21 +34,6 @@ factual_fingerprint: d4f0fcdc2eeb963913798ea0bea40d4bad32b3547b5c16bb487fc17d452
 source: Teaching Vacancies
 source_job_id: administrative-assistant-pathways-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-pathways-school
----
-
----
-action: 
-SELECTED | London | New Malden, London, KT3 3TU | £21,039.00 - £22,270.00 Annually (Actual) Outer London Grade D5 to D9 | Attendance Officer
-employer: Coombe Girls' School
-closing_date: 2026-09-02T23:59:00+01:00
-reason: Clear admin/service title: attendance officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 1ca0db19fc3c43e9e4cc41bb0682f9e50231436fe5d808f061be42e81ba394f2
-source: Teaching Vacancies
-source_job_id: attendance-officer-coombe-girls-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-coombe-girls-school
 ---
 
 ---
@@ -109,6 +94,21 @@ factual_fingerprint: e97b9f2d102e677b644bdf94881deb6655aeadf98e6f0185853ec9eff35
 source: Teaching Vacancies
 source_job_id: pastoral-ehcp-administrator-term-time-only
 source_url: https://teaching-vacancies.service.gov.uk/jobs/pastoral-ehcp-administrator-term-time-only
+---
+
+---
+action: 
+SELECTED | London | Ruislip, London, HA4 0LS | £22,978.00 - £24,675.00 Annually (Actual) NJC Scales 4-5, Point 7-12 | Post 16 Academic Supervisor and Administrator
+employer: Queensmead School
+closing_date: 2026-09-17T09:00:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: de58b31d3165ecf190bf02264052f749c634055d2cd2aa9152a7e9303ddcf151
+source: Teaching Vacancies
+source_job_id: post-16-academic-supervisor-and-administrator
+source_url: https://teaching-vacancies.service.gov.uk/jobs/post-16-academic-supervisor-and-administrator
 ---
 
 ---
@@ -348,11 +348,10 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 - [Assistant Business Manager (Part Time)](https://teaching-vacancies.service.gov.uk/jobs/assistant-business-manager-part-time) — Manager title salary ceiling £40,681 is not below £28,000.
 - [Attendance & Welfare Lead and Deputy Designated Safeguarding Lead (DDSL)](https://teaching-vacancies.service.gov.uk/jobs/attendance-welfare-lead-and-deputy-designated-safeguarding-lead-ddsl) — Insufficient admin/service evidence.
 - [Attendance and Welfare Officer](https://teaching-vacancies.service.gov.uk/jobs/attendance-and-welfare-officer-st-thomas-more-language-college-london) — Insufficient admin/service evidence.
-- [Capital Projects Manager](https://teaching-vacancies.service.gov.uk/jobs/capital-projects-manager-girls-learning-trust-sutton-not-recorded) — Manager title salary ceiling £45,157 is not below £28,000.
-- [Clerk to Governing Body (Wickham Common Primary School)](https://teaching-vacancies.service.gov.uk/jobs/clerk-to-governing-body-wickham-common-primary-school) — Insufficient admin/service evidence.
 - [Data and Examinations Manager](https://teaching-vacancies.service.gov.uk/jobs/data-and-examinations-manager-park-view-school) — Manager title salary ceiling £52,194 is not below £28,000.
 - [Exams & Access Arrangements Assistant](https://teaching-vacancies.service.gov.uk/jobs/exams-access-arrangements-assistant) — Insufficient admin/service evidence.
 - [Facilities Manager](https://teaching-vacancies.service.gov.uk/jobs/facilities-manager-wimbledon-college) — Manager title salary ceiling £52,827 is not below £28,000.
+- [Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-alternative-learning-trust) — Insufficient admin/service evidence.
 - [Financial Accountant](https://teaching-vacancies.service.gov.uk/jobs/financial-accountant-partnership-learning) — Insufficient admin/service evidence.
 - [Fundraising Officer](https://teaching-vacancies.service.gov.uk/jobs/fundraising-officer-ac67c185-438c-4d63-82c9-4fcd5524afc9) — Insufficient admin/service evidence.
 - [HR Manager](https://teaching-vacancies.service.gov.uk/jobs/hr-manager-chiswick-school-london) — Manager title salary ceiling £50,084 is not below £28,000.
@@ -360,6 +359,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 - [Human Resources & Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/human-resources-operations-manager-the-woodland-academy-trust) — Manager title salary ceiling £59,778 is not below £28,000.
 - [Human Resources Business Partner](https://teaching-vacancies.service.gov.uk/jobs/human-resources-business-partner-aspirations-academies-trust) — Insufficient admin/service evidence.
 - [Human Resources Manager (Schools)](https://teaching-vacancies.service.gov.uk/jobs/human-resources-manager-schools) — Manager title salary ceiling £41,000 is not below £28,000.
+- [Inclusion Manager](https://teaching-vacancies.service.gov.uk/jobs/inclusion-manager-wren-academy-finchley-london) — Manager title salary ceiling £38,126 is not below £28,000.
 - [Learning Resource Centre Manager](https://teaching-vacancies.service.gov.uk/jobs/learning-resource-centre-manager-harris-city-academy-crystal-palace-london) — Manager title salary ceiling £34,488 is not below £28,000.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-1a973059-d7f8-42e5-b5fb-d95788720396) — Manager title salary ceiling £44,235 is not below £28,000.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-cf4ed5f9-993c-4290-bdde-9e62b7a08c9c) — Manager title salary ceiling £34,817 is not below £28,000.
@@ -369,8 +369,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 - [Procurement and Payments Manager](https://teaching-vacancies.service.gov.uk/jobs/procurement-and-payments-manager) — Manager title salary ceiling £50,675 is not below £28,000.
 - [SBM/CFO](https://teaching-vacancies.service.gov.uk/jobs/sbm-cfo) — Insufficient admin/service evidence.
 - [School Accountant](https://teaching-vacancies.service.gov.uk/jobs/school-accountant) — Insufficient admin/service evidence.
-- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-da3a3838-8f8c-483a-8c17-8b95a56f70de) — Manager title salary ceiling £46,512 is not below £28,000.
 - [School Operations, Communications & Development Officer](https://teaching-vacancies.service.gov.uk/jobs/school-operations-communications-development-officer) — Insufficient admin/service evidence.
+- [School Social Worker](https://teaching-vacancies.service.gov.uk/jobs/school-social-worker-whitefriars-school) — Out-of-scope occupation: social worker.
 - [Senior Executive Assistant to Headteacher](https://teaching-vacancies.service.gov.uk/jobs/senior-executive-assistant-to-headteacher) — Out-of-scope occupation: teacher, headteacher.
 - [Trust Executive Assistant](https://teaching-vacancies.service.gov.uk/jobs/trust-executive-assistant-astrum-multi-academy-trust) — Insufficient admin/service evidence.
 

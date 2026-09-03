@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Kent
 
-review_date: 2026-09-02
+review_date: 2026-09-03
 review_fingerprint: 910a25b605b28c2367cc433a8d4e5f3e3642114526422fc4e430b685eeccb0f4
-routing_manifest_sha256: 45126380b2f0881c6111fd0ec45395c24b25f255bc5776d6bc5371d4f2bd1c2a
+routing_manifest_sha256: a0efbb5ba12fcb4fb47f18be53367aa23ab13a40edcd3794d25c9c2fad579f57
 ontap_region: Kent
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 9
+- Records: 10
 - Selected: 2
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 6
 
 ## SELECTED
 
@@ -89,6 +89,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-nore-aca
 
 ## HARD_PASS
 
+- [Attendance and Family Liaison Officer](https://teaching-vacancies.service.gov.uk/jobs/attendance-and-family-liaison-officer-will-adams-academy) — Insufficient admin/service evidence.
 - [HR Apprentice](https://teaching-vacancies.service.gov.uk/jobs/hr-apprentice-the-howard-academy-trust-chatham-not-recorded) — Insufficient admin/service evidence.
 - [HR Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-swale-academies-trust) — Insufficient admin/service evidence.
 - [Lead Safeguarding Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/lead-safeguarding-administration-officer-the-robert-napier-school-gillingham-kent) — Insufficient admin/service evidence.

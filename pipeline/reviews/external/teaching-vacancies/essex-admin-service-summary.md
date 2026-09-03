@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Essex
 
-review_date: 2026-09-02
-review_fingerprint: d8375616e206840b4b498628048d4670534170371144f021cd4b96ea697802a9
-routing_manifest_sha256: 45126380b2f0881c6111fd0ec45395c24b25f255bc5776d6bc5371d4f2bd1c2a
+review_date: 2026-09-03
+review_fingerprint: 8ade49d11eddd998b9e985880bb4fbfe4760705424ad203bc66f8819b05e85cc
+routing_manifest_sha256: a0efbb5ba12fcb4fb47f18be53367aa23ab13a40edcd3794d25c9c2fad579f57
 ontap_region: Essex
 slice_category: admin_service
 slice_status: LIVE
@@ -14,26 +14,41 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 7
-- Selected: 2
+- Selected: 3
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 4
 
 ## SELECTED
 
 ---
 action: 
-SELECTED | Essex | Grays, East of England, RM16 2ST | £11,916.00 - £12,910.00 Annually (Actual) | Administration Assistant - Responsibility for Attendance
-employer: Stifford Clays Primary School
-closing_date: 2026-09-03T12:00:00+01:00
-reason: Clear admin/service title: administration assistant
+SELECTED | Essex | Chelmsford, CM1 2QE | Scale 3 Points 6 - 7 | Admin Assistant
+employer: The Chelmsford Learning Partnership
+closing_date: 2026-09-04T12:00:00+01:00
+reason: Clear admin/service title: admin assistant
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: c02b65c767c492d4115348bb49bf3c18f641091dd853a298a6c986528b41be28
+factual_fingerprint: e2fd13f193c2632e60d7dea3cbb9267a8f915863900b89e812b4d733aec9d23b
 source: Teaching Vacancies
-source_job_id: administration-assistant-responsibility-for-attendance
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-responsibility-for-attendance
+source_job_id: admin-assistant-the-chelmsford-learning-partnership
+source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-the-chelmsford-learning-partnership
+---
+
+---
+action: 
+SELECTED | Essex | Chelmsford, CM1 2QE | £18,645 - £18,944 | Administrative Assistant - Pupil Admissions & Pupil Data
+employer: The Chelmsford Learning Partnership
+closing_date: 2026-09-16T12:00:00+01:00
+reason: Clear admin/service title: administrative assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: c07eb8a1c4c187fb324c1e187933248171094adc694ad6ee4ea8bc7237c620c6
+source: Teaching Vacancies
+source_job_id: administrative-assistant-pupil-admissions-pupil-data
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-pupil-admissions-pupil-data
 ---
 
 ---
@@ -62,10 +77,9 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/trust-administrator-d
 ## HARD_PASS
 
 - [Admissions Coordinator](https://teaching-vacancies.service.gov.uk/jobs/admissions-coordinator) — Insufficient admin/service evidence.
-- [HR Business Partner](https://teaching-vacancies.service.gov.uk/jobs/hr-business-partner-discovery-educational-trust) — Insufficient admin/service evidence.
+- [School Support Assistant](https://teaching-vacancies.service.gov.uk/jobs/school-support-assistant-hilltop-junior-school) — Insufficient admin/service evidence.
 - [Senior Administrative Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-administrative-officer-mossbourne-fobbing-academy-stanford-le-hope) — Insufficient admin/service evidence.
 - [Trust Data and Performance Manager](https://teaching-vacancies.service.gov.uk/jobs/trust-data-and-performance-manager) — Manager title salary ceiling £55,224 is not below £28,000.
-- [Trust Operations Assistant](https://teaching-vacancies.service.gov.uk/jobs/trust-operations-assistant-discovery-educational-trust) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

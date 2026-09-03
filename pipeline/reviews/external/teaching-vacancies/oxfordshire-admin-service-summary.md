@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Oxfordshire
 
-review_date: 2026-09-02
+review_date: 2026-09-03
 review_fingerprint: 995ec19a2ad9b7dc592c33a3431de05b12470beb06e2d30350046025bb72f581
-routing_manifest_sha256: 45126380b2f0881c6111fd0ec45395c24b25f255bc5776d6bc5371d4f2bd1c2a
+routing_manifest_sha256: a0efbb5ba12fcb4fb47f18be53367aa23ab13a40edcd3794d25c9c2fad579f57
 ontap_region: Oxfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -91,9 +91,9 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-
 
 - [Admissions Manager](https://teaching-vacancies.service.gov.uk/jobs/admissions-manager-lord-williams-s-school) — Manager title salary ceiling £34,434 is not below £28,000.
 - [Chief Financial Officer](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-lord-williams-s-school-thame-oxfordshire) — Insufficient admin/service evidence.
+- [Exams and Data Manager](https://teaching-vacancies.service.gov.uk/jobs/exams-and-data-manager-whitelands-academy) — Manager title salary ceiling £40,444 is not below £28,000.
 - [HR Partner](https://teaching-vacancies.service.gov.uk/jobs/hr-partner-oxford-diocesan-bucks-schools-trust) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-st-peter-s-church-of-england-school-alvescot) — Manager title salary ceiling £31,537 is not below £28,000.
-- [Operations Coordinator](https://teaching-vacancies.service.gov.uk/jobs/operations-coordinator-oxford-diocesan-bucks-schools-trust) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

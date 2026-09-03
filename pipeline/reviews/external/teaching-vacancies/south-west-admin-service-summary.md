@@ -1,11 +1,11 @@
-# Teaching Vacancies regional review — Merseyside - Liverpool
+# Teaching Vacancies regional review — South West
 
 review_date: 2026-09-03
-review_fingerprint: 5237adbb8b5b0bfa16914dad9fe5beac3df5cc129caa30b35b21811d1238241e
+review_fingerprint: ba8db3bea42bdc7a858a0c5e0bbbf0b8205824df2bc17fe881732d4dafb82f86
 routing_manifest_sha256: a0efbb5ba12fcb4fb47f18be53367aa23ab13a40edcd3794d25c9c2fad579f57
-ontap_region: Merseyside - Liverpool
+ontap_region: South West
 slice_category: admin_service
-slice_status: LIVE
+slice_status: UNREGISTERED
 
 Edit only the `action:` line in each editable block.
 Blank POSS decisions remain unpublished.
@@ -23,17 +23,17 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ---
 action: 
-SELECTED | Merseyside - Liverpool | Liverpool, North West, L13 1HD | £21,588.00 - £21,930.00 Annually (Actual) Please see recruitment pack for further details - Term Time Only | Receptionist
-employer: King's Leadership Academy Wavertree
-closing_date: 2026-09-13T23:59:00+01:00
-reason: Clear admin/service title: receptionist
+SELECTED | South West | Pewsey, South West, SN9 5LZ | £26,223.00 - £26,639.00 Annually (FTE) £7,316.22 - £7,432.28 (Actual) | School Administrator
+employer: Easton Royal Academy
+closing_date: 2026-09-25T09:00:00+01:00
+reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
-slice_status: LIVE
+slice_status: UNREGISTERED
 migration_status: 
-factual_fingerprint: 0b9b14ab4c1467274fb32118e3b10864178aa3729bde48cbe33ee33c61349fa7
+factual_fingerprint: 83a0e41dd04b2b4a5722f65f8179c361e4bc22b7e7417969baaf436b6ee821f9
 source: Teaching Vacancies
-source_job_id: receptionist-king-s-leadership-academy-wavertree-liverpool
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-king-s-leadership-academy-wavertree-liverpool
+source_job_id: school-administrator-easton-royal-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-easton-royal-academy
 ---
 
 ## POSS — choose SELECT or EXCLUDE

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Wiltshire
 
-review_date: 2026-09-02
-review_fingerprint: 5c6fa853caf69e56b152e82a471d344d6b4f59676cd224be9a35bf9d37cf2370
-routing_manifest_sha256: 45126380b2f0881c6111fd0ec45395c24b25f255bc5776d6bc5371d4f2bd1c2a
+review_date: 2026-09-03
+review_fingerprint: 77706c22818c4145b832b5870953d0e04c83297c45beb19eaf757b1896b83cf0
+routing_manifest_sha256: a0efbb5ba12fcb4fb47f18be53367aa23ab13a40edcd3794d25c9c2fad579f57
 ontap_region: Wiltshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 5
+- Records: 9
 - Selected: 1
-- POSS awaiting decision: 0
+- POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 4
+- Hard pass: 7
 
 ## SELECTED
 
@@ -38,7 +38,20 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/it-system-administrat
 
 ## POSS — choose SELECT or EXCLUDE
 
-- None.
+---
+action: 
+POSS | Wiltshire | Salisbury, South West, SP2 8JZ | £8,751.00 - £9,031.00 Annually (Actual) Wiltshire Grade D - rises incrementally each year from point 4 to 6 (FTE for 25/26 is £25,185 - £25,989) | Admin Officer (SEND and Attendance focus)
+employer: Harnham Church of England Controlled Junior School
+closing_date: 2026-09-07T23:59:00+01:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 084781c92a4fe5501c80674a8821d1803cf66a16e3b70fc238a88900ae717fb5
+source: Teaching Vacancies
+source_job_id: admin-officer-send-and-attendance-focus-harnham-church-of-england-controlled-junior-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-officer-send-and-attendance-focus-harnham-church-of-england-controlled-junior-school
+---
 
 ## EXCLUDED BY REVIEW
 
@@ -49,7 +62,10 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/it-system-administrat
 - [Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-st-nicholas-church-of-england-primary-school-bromham) — Insufficient admin/service evidence.
 - [Exams & Admin Officer](https://teaching-vacancies.service.gov.uk/jobs/exams-admin-officer) — Insufficient admin/service evidence.
 - [Field HR Professional](https://teaching-vacancies.service.gov.uk/jobs/field-hr-professional) — Insufficient admin/service evidence.
+- [Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-great-western-academy-swindon) — Insufficient admin/service evidence.
+- [Head of Finance](https://teaching-vacancies.service.gov.uk/jobs/head-of-finance-magna-learning-partnership) — Insufficient admin/service evidence.
 - [Recruitment Lead](https://teaching-vacancies.service.gov.uk/jobs/recruitment-lead-the-white-horse-federation) — Insufficient admin/service evidence.
+- [Senior HR Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-hr-officer-ascend-learning-trust) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

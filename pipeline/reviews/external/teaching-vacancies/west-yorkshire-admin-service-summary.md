@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - West
 
-review_date: 2026-09-02
-review_fingerprint: aeb3120677945b6f45a1b884e876f2328702aa5c59153a4125ae651e26f33ca6
-routing_manifest_sha256: 45126380b2f0881c6111fd0ec45395c24b25f255bc5776d6bc5371d4f2bd1c2a
+review_date: 2026-09-03
+review_fingerprint: 78dde8c0dbbdde83b5070ffa8fd5f94719bf2a92d4aada826c6246452b13a9ce
+routing_manifest_sha256: a0efbb5ba12fcb4fb47f18be53367aa23ab13a40edcd3794d25c9c2fad579f57
 ontap_region: Yorkshire - West
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 18
-- Selected: 6
+- Records: 19
+- Selected: 5
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 12
+- Hard pass: 14
 
 ## SELECTED
 
@@ -68,21 +68,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-receptionist-be
 
 ---
 action: 
-SELECTED | Yorkshire - West | Halifax, Yorkshire and the Humber, HX2 9SU | £24,939.00 - £29,387.00 Annually (Actual) Term time plus 5 days | SEND & Exam Access Arrangements Administrator
-employer: The North Halifax Grammar School
-closing_date: 2026-09-03T12:00:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: BLANK_POSS_PRESERVED
-factual_fingerprint: 4ae1baec6f4ee87986d1180a30b3337b49c7a1652bfdc0175829f0de71695fae
-source: Teaching Vacancies
-source_job_id: send-exam-access-arrangements-administrator
-source_url: https://teaching-vacancies.service.gov.uk/jobs/send-exam-access-arrangements-administrator
----
-
----
-action: 
 SELECTED | Yorkshire - West | Bradford, Yorkshire and the Humber, BD12 8AL | £24,821.00 - £27,485.00 Annually (FTE) Band 7, SCP 11 to SCP 17 (actual salary £24,821 - £27,485 per annum), 37 hours per week, TTO+10 | Senior Administrator
 employer: Appleton Academy
 closing_date: 2026-09-11T12:00:00+01:00
@@ -121,8 +106,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-
 
 ## HARD_PASS
 
-- [Compliance Officer](https://teaching-vacancies.service.gov.uk/jobs/compliance-officer-delta-academies-trust) — Insufficient admin/service evidence.
 - [Data and Exams Manager](https://teaching-vacancies.service.gov.uk/jobs/data-and-exams-manager-dixons-city-academy) — Manager title salary ceiling £34,744 is not below £28,000.
+- [Data, Assessment, and MIS Officer](https://teaching-vacancies.service.gov.uk/jobs/data-assessment-and-mis-officer-crofton-academy) — Insufficient admin/service evidence.
 - [Exam Invigilator](https://teaching-vacancies.service.gov.uk/jobs/exam-invigilator-leeds-city-academy-leeds-west-yorkshire) — Insufficient admin/service evidence.
 - [Exams and Admissions Manager](https://teaching-vacancies.service.gov.uk/jobs/exams-and-admissions-manager-leeds-city-academy-leeds-west-yorkshire) — Manager title salary ceiling £35,558 is not below £28,000.
 - [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-outwood-grange-academies-trust) — Manager title salary ceiling £53,881 is not below £28,000.
@@ -130,6 +115,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-
 - [Human Resources Business Partner (Central HR Team)](https://teaching-vacancies.service.gov.uk/jobs/human-resources-business-partner-central-hr-team-the-gorse-academies-trust-leeds-not-recorded) — Insufficient admin/service evidence.
 - [Operations Lead](https://teaching-vacancies.service.gov.uk/jobs/operations-lead-menston-primary-school-ilkley-west-yorkshire) — Insufficient admin/service evidence.
 - [Procurement Manager](https://teaching-vacancies.service.gov.uk/jobs/procurement-manager-outwood-grange-academies-trust) — Manager title salary ceiling £44,075 is not below £28,000.
+- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-1b36ee5c-0c17-4759-81a0-a7f12e916e50) — Manager title salary ceiling £59,005 is not below £28,000.
+- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-9bdfb809-a83a-40f4-96f0-6df1b12f41b5) — Manager title salary ceiling £59,005 is not below £28,000.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-f912cf2f-f9e1-442a-ab12-88a4e6edbe6a) — Manager title salary ceiling £42,964 is not below £28,000.
 - [School Reception Assistant](https://teaching-vacancies.service.gov.uk/jobs/school-reception-assistant-appleton-academy) — Insufficient admin/service evidence.
 - [Trust Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/trust-administration-assistant-waterton-academy-trust) — Insufficient admin/service evidence.

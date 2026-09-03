@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Birmingham & Solihull
 
-review_date: 2026-09-02
-review_fingerprint: 03625f72772441fccf074bf717c8081fb94bf78115298a6e8e9db9795b2694ef
-routing_manifest_sha256: 45126380b2f0881c6111fd0ec45395c24b25f255bc5776d6bc5371d4f2bd1c2a
+review_date: 2026-09-03
+review_fingerprint: 5a0bc239634b9c4ab837a6435302efc2367ed44cd289cf546ddfcc3967fbf53a
+routing_manifest_sha256: a0efbb5ba12fcb4fb47f18be53367aa23ab13a40edcd3794d25c9c2fad579f57
 ontap_region: West Midlands - Birmingham & Solihull
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 14
-- Selected: 5
-- POSS awaiting decision: 2
+- Records: 13
+- Selected: 3
+- POSS awaiting decision: 3
 - Excluded: 0
 - Hard pass: 7
 
@@ -53,21 +53,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-4e
 
 ---
 action: 
-SELECTED | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B45 0EU | £22,121.00 Annually (Actual) | Receptionist
-employer: King Edward VI Balaam Wood Academy
-closing_date: 2026-09-21T09:00:00+01:00
-reason: Clear admin/service title: receptionist
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: f9d1389180deee068952f032ce09b1d6ee768cc4c19d9b82d03eeadc00668a78
-source: Teaching Vacancies
-source_job_id: receptionist-king-edward-vi-balaam-wood-academy-birmingham-west-midlands
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-king-edward-vi-balaam-wood-academy-birmingham-west-midlands
----
-
----
-action: 
 SELECTED | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B8 3QF | £13,422.00 - £14,753.00 Annually (Actual) | School Administrator
 employer: Highfield Junior and Infant School
 closing_date: 2026-09-06T23:59:00+01:00
@@ -79,21 +64,6 @@ factual_fingerprint: 25fa9c29ded8f64ef11c392fa7a323d512b3a8ab6822462cc71cbbd2a01
 source: Teaching Vacancies
 source_job_id: school-administrator-90712575-ad48-4a39-98c3-9140ef281e9e
 source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-90712575-ad48-4a39-98c3-9140ef281e9e
----
-
----
-action: 
-SELECTED | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B11 3EY | NJC Grade 4 £34,434 – £41,771 FTE, Term-time only plus five days of school holidays, Actual salary £30,998 - £37,603 p.a. | SENIOR ADMINISTRATOR (HR) (Maternity Cover)
-employer: Yardleys School
-closing_date: 2026-09-03T09:00:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 333cb1035351af1f5854a83c86b3e325523ae22a05909b092cfda087e165f1b9
-source: Teaching Vacancies
-source_job_id: senior-administrator-hr-maternity-cover
-source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-hr-maternity-cover
 ---
 
 ## POSS — choose SELECT or EXCLUDE
@@ -126,6 +96,21 @@ factual_fingerprint: 7a21b4184bc3d0b09c159c5e2696009b67ec9999624a1e9743e1db4f385
 source: Teaching Vacancies
 source_job_id: exam-s-and-data-officer
 source_url: https://teaching-vacancies.service.gov.uk/jobs/exam-s-and-data-officer
+---
+
+---
+action: 
+POSS | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B45 0EU | £22,121.00 Annually (Actual) | Receptionist
+employer: King Edward VI Balaam Wood Academy
+closing_date: 2026-09-21T09:00:00+01:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: f9d1389180deee068952f032ce09b1d6ee768cc4c19d9b82d03eeadc00668a78
+source: Teaching Vacancies
+source_job_id: receptionist-king-edward-vi-balaam-wood-academy-birmingham-west-midlands
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-king-edward-vi-balaam-wood-academy-birmingham-west-midlands
 ---
 
 ## EXCLUDED BY REVIEW
