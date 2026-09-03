@@ -198,6 +198,18 @@ jobs:
           test -s pipeline/output-support-worker/hampshire-support-worker.json
           test -s pipeline/output-support-worker/london-support-worker.json
 
+      - name: Refresh same-feed JobG8 category profile
+        run: |
+          cd pipeline
+          python -m unittest tests.test_build_jobg8_category_profile -v
+          cd ..
+          python pipeline/scripts/build_jobg8_category_profile.py \
+            --input pipeline/input/jobg8.xlsx \
+            --coverage pipeline/reports-daily/daily-family-coverage.csv \
+            --published-output-dir pipeline/output-admin-service \
+            --published-output-dir pipeline/output-support-worker \
+            --output pipeline/reports-daily/jobg8-feed-category-profile.csv
+
       - name: Test persistent review and exclusion behavior
         working-directory: pipeline
         run: python -m unittest discover -s tests -p 'test_persistent_jobg8_review.py' -v
@@ -218,6 +230,7 @@ jobs:
             "pipeline/reports-daily/decision-report-support-worker.csv"
             "pipeline/reports-daily/validation-report-support-worker.csv"
             "pipeline/reports-daily/selection-summary-report-support-worker.csv"
+            "pipeline/reports-daily/jobg8-feed-category-profile.csv"
             "pipeline/reviews/jobg8/service-admin-review.csv"
             "pipeline/reviews/jobg8/service-admin-review.md"
             "pipeline/reviews/jobg8/support-worker-review.csv"
@@ -242,6 +255,7 @@ jobs:
             $0 !~ /^pipeline\/output-admin-service\/.*\.json$/ &&
             $0 !~ /^pipeline\/output-support-worker\/.*\.json$/ &&
             $0 !~ /^pipeline\/reports-daily\/(decision-report|validation-report|selection-summary-report)-(admin-service|support-worker)\.csv$/ &&
+            $0 != "pipeline/reports-daily/jobg8-feed-category-profile.csv" &&
             $0 != "pipeline/reviews/jobg8/service-admin-review.csv" &&
             $0 != "pipeline/reviews/jobg8/service-admin-review.md" &&
             $0 != "pipeline/reviews/jobg8/support-worker-review.csv" &&
