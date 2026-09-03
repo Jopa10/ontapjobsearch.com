@@ -13,6 +13,7 @@ SECTION_SHEETS = (
     ("## SITEWIDE RECONCILIATION", "Sitewide"),
     ("## JOBG8 FEED RECEIVED", "JobG8 categories"),
     ("## PAGES", "PAGES"),
+    ("## CITY OPPORTUNITIES", "CITY OPPORTUNITIES"),
     ("## LIVE", "LIVE"),
     ("## NOT LIVE", "NOT LIVE"),
 )
@@ -106,6 +107,10 @@ def export(markdown_path: Path, output_path: Path) -> None:
                 for cell in sheet[row_number]:
                     cell.fill = PatternFill("solid", fgColor="D9EAF7")
                     cell.font = Font(bold=True)
+        if sheet_name == "CITY OPPORTUNITIES":
+            widths = {"A": 18, "B": 30, "C": 34, "D": 16, "E": 16, "F": 60}
+            for column, width in widths.items():
+                sheet.column_dimensions[column].width = width
         if sheet_name == "NOT LIVE":
             for row_number in range(2, sheet.max_row + 1):
                 sheet.row_dimensions[row_number].height = 20

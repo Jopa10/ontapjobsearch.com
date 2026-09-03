@@ -10,6 +10,8 @@ on:
       - pipeline/reports-daily/live-job-source-count-*.csv
       - pipeline/reports-daily/daily-family-coverage.csv
       - pipeline/reports-daily/jobg8-feed-category-profile.csv
+      - pipeline/geo/geo_lookup.xlsx
+      - pipeline/city_pages/city-page-register.json
       - app/**/*.json
       - pipeline/scripts/build_daily_region_overview.py
       - pipeline/scripts/build_jobg8_category_profile.py

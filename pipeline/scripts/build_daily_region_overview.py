@@ -11,6 +11,8 @@ import re
 import subprocess
 from zoneinfo import ZoneInfo
 
+from openpyxl import load_workbook
+
 try:
     from .live_job_source_counter import LiveInventory, collect_live_inventory
 except ImportError:
@@ -23,6 +25,24 @@ CATALOG = PIPELINE_ROOT / "config" / "uk_assessable_regions.json"
 REGISTER = PIPELINE_ROOT / "registers" / "region_category_slice_register.csv"
 OUTPUT = PIPELINE_ROOT / "reports-daily" / "daily-region-overview.md"
 JOBG8_CATEGORY_PROFILE = PIPELINE_ROOT / "reports-daily" / "jobg8-feed-category-profile.csv"
+GEO_LOOKUP = PIPELINE_ROOT / "geo" / "geo_lookup.xlsx"
+CITY_PAGE_REGISTER = PIPELINE_ROOT / "city_pages" / "city-page-register.json"
+CITY_PAGE_THRESHOLD = 4
+NON_LOCALITY_LABELS = {
+    "city",
+    "not specified",
+    "remote",
+    "various",
+    "multiple locations",
+    "nationwide",
+    "uk",
+    "united kingdom",
+}
+LOCALITY_ALIASES = {
+    "newcastle upon tyne": "newcastle",
+    "newcastle-upon-tyne": "newcastle",
+    "brighton": "brighton & hove",
+}
 EXPECTED_REGION_COUNT = 78
 CORE_ROUTES = {
     "/",
@@ -169,6 +189,140 @@ class JobG8CategoryProfile:
     total_jobs: int
     published_jobs: int | None
     counts: tuple[tuple[str, int, int | None], ...]
+
+
+@dataclass(frozen=True)
+class CityOpportunityRow:
+    status: str
+    locality: str
+    region: str
+    live_jobs: int
+    existing_pages: int
+    routes: str
+
+
+def _normalise_place(value: object) -> str:
+    return re.sub(r"\s+", " ", str(value or "")).strip().casefold()
+
+
+def _location_candidates(value: str) -> tuple[str, ...]:
+    """Return conservative exact-place candidates from a published location."""
+    clean = re.sub(
+        r"\s*\((?:[^)]*\b(?:hybrid|remote|home[- ]based|working)\b[^)]*)\)\s*$",
+        "",
+        value,
+        flags=re.IGNORECASE,
+    ).strip()
+    candidates = [clean]
+    if "," in clean:
+        candidates.append(clean.split(",", 1)[0].strip())
+    return tuple(dict.fromkeys(item for item in candidates if item))
+
+
+def _load_mapped_localities(path: Path = GEO_LOOKUP) -> dict[str, tuple[str, str]]:
+    workbook = load_workbook(path, read_only=True, data_only=True)
+    try:
+        sheet = workbook["Sheet1"]
+        rows = sheet.iter_rows(values_only=True)
+        header = next(rows, None)
+        if header != ("Area", "Cluster"):
+            raise RuntimeError(f"Unexpected geo lookup header in {path}: {header}")
+        result: dict[str, tuple[str, str]] = {}
+        for area, cluster in rows:
+            area_text = str(area or "").strip()
+            cluster_text = str(cluster or "").strip()
+            key = _normalise_place(area_text)
+            if key and cluster_text:
+                result[key] = (area_text, cluster_text)
+        return result
+    finally:
+        workbook.close()
+
+
+def _active_city_pages(path: Path = CITY_PAGE_REGISTER) -> dict[str, list[str]]:
+    raw = _load_json(path)
+    if not isinstance(raw, list):
+        raise RuntimeError(f"City-page register must be an array: {path}")
+    result: dict[str, list[str]] = defaultdict(list)
+    for item in raw:
+        if not isinstance(item, dict) or _normalise_place(item.get("lifecycle_state")) != "active":
+            continue
+        locality = _normalise_place(item.get("display_name"))
+        route = str(item.get("route") or "").strip()
+        if locality and route:
+            result[locality].append(route)
+    return result
+
+
+def _city_opportunity_rows(
+    inventory: LiveInventory,
+    *,
+    geo_lookup_path: Path = GEO_LOOKUP,
+    city_register_path: Path = CITY_PAGE_REGISTER,
+) -> tuple[list[CityOpportunityRow], int, int]:
+    """Aggregate every unique live job by its recognised stated town/locality."""
+    mapped = _load_mapped_localities(geo_lookup_path)
+    active_pages = _active_city_pages(city_register_path)
+    counts: Counter[str] = Counter()
+    labels: dict[str, tuple[str, str]] = {}
+    mapped_jobs = 0
+
+    for job in inventory.jobs:
+        raw_location = _normalise_place(job.location)
+        if raw_location in NON_LOCALITY_LABELS:
+            continue
+        match: tuple[str, str] | None = None
+        for candidate in _location_candidates(job.location):
+            candidate_key = _normalise_place(candidate)
+            candidate_key = LOCALITY_ALIASES.get(candidate_key, candidate_key)
+            if candidate_key in active_pages:
+                mapped_match = mapped.get(candidate_key)
+                match = (
+                    mapped_match[0] if mapped_match else candidate_key.title(),
+                    mapped_match[1] if mapped_match else job.region,
+                )
+            else:
+                match = mapped.get(candidate_key)
+            if match:
+                break
+        if not match:
+            continue
+        locality, region = match
+        if _normalise_place(locality) == _normalise_place(region):
+            continue
+        key = _normalise_place(locality)
+        counts[key] += 1
+        labels[key] = (locality, region)
+        mapped_jobs += 1
+
+    keys = set(counts) | set(active_pages)
+    rows: list[CityOpportunityRow] = []
+    for key in keys:
+        locality, region = labels.get(key, (key.title(), ""))
+        routes = sorted(set(active_pages.get(key, [])))
+        count = counts.get(key, 0)
+        if routes:
+            status = "LIVE PAGE"
+        elif _normalise_place(region) == "london":
+            status = "HOLD – LONDON"
+        elif count >= CITY_PAGE_THRESHOLD:
+            status = "CREATE"
+        else:
+            status = "MONITOR"
+        rows.append(
+            CityOpportunityRow(
+                status=status,
+                locality=locality,
+                region=region,
+                live_jobs=count,
+                existing_pages=len(routes),
+                routes=", ".join(routes),
+            )
+        )
+
+    order = {"CREATE": 0, "LIVE PAGE": 1, "HOLD – LONDON": 2, "MONITOR": 3}
+    rows.sort(key=lambda row: (order[row.status], -row.live_jobs, row.locality.casefold()))
+    return rows, mapped_jobs, len(inventory.jobs) - mapped_jobs
 
 
 def _load_jobg8_category_profile() -> JobG8CategoryProfile | None:
@@ -610,6 +764,7 @@ def build() -> str:
         statuses=statuses,
     )
     page_rows, page_counts = _published_page_inventory()
+    city_rows, city_mapped_jobs, city_unmapped_jobs = _city_opportunity_rows(inventory)
     teaching_counts = _load_teaching_vacancies_counts(regions)
 
     def profile_count(region_name: str, category: str) -> int | None:
@@ -759,6 +914,27 @@ def build() -> str:
                 for cell in row
             ) + " |"
             for row in page_rows
+        ),
+        "",
+    ])
+
+    lines.extend([
+        "## CITY OPPORTUNITIES",
+        "",
+        (
+            f"**{len(city_rows):,} mapped towns/localities with live jobs or an existing city page.** "
+            f"Counts use all {site.unique_live_jobs:,} unique live Ontap jobs across every role and provider: "
+            f"{city_mapped_jobs:,} have an exact recognised town/locality and "
+            f"{city_unmapped_jobs:,} have only broader or unrecognised location evidence. "
+            f"CREATE means {CITY_PAGE_THRESHOLD}+ current jobs and no existing city page; London is held separately."
+        ),
+        "",
+        "| Status | Town/city/locality | Region | All live jobs | Existing pages | Current routes |",
+        "|---|---|---|---:|---:|---|",
+        *(
+            f"| {row.status} | {row.locality} | {row.region} | {row.live_jobs:,} | "
+            f"{row.existing_pages:,} | {row.routes} |"
+            for row in city_rows
         ),
         "",
     ])

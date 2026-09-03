@@ -7,6 +7,8 @@ This is the authoritative technical map of the persistent Ontap system. It is or
 
 ## Recent canonical changes
 
+- 3 September 2026 — **Daily overview adds all-role city opportunities:** `build_daily_region_overview.py` now deduplicates the complete live Ontap inventory and groups every job with an exact recognised town/locality from the canonical geo lookup, regardless of role family or provider. The Markdown report and Excel workbook add a filterable `CITY OPPORTUNITIES` table showing all-role live-job counts, existing permanent city routes, `CREATE` at 4+ jobs, `MONITOR` below four and a separate London hold. The first snapshot contains **283 mapped localities: 23 CREATE, 24 with an existing live page, 33 London holds and 203 monitors**. This is decision support only and does not publish pages automatically.
+
 - 3 September 2026 — **Daily overview now reports every published/indexable page:** `build_daily_region_overview.py` mirrors the sitemap gates for core, regional/category, permanent city and individual live-job routes, then emits a reconciled `PAGES` section with one row per non-job URL. The Excel exporter adds a filterable `PAGES` tab with summary totals, live-job counts and explicit London sub-area routes. The first generated snapshot is **1,964 URLs: 1,833 individual jobs, 98 regional/category pages, 25 city pages and 8 core pages**.
 
 - 3 September 2026 — **Thirteen additional regional/category slices approved for LIVE:** Service Admin adds North Scotland, Scotland Central - Tayside and Wales South - Valleys; Marketing adds Cambridgeshire, Cheshire - West, Essex, Merseyside - Liverpool and North East; Finance / Accounts adds Cheshire - Warrington & Halton and London; HR / Recruitment adds Sussex; Customer Service / Contact Centre adds Buckinghamshire and North East. The central register now contains **51 Service Admin, 16 Marketing, 10 Finance / Accounts, 7 HR / Recruitment and 6 Customer Service / Contact Centre LIVE markets**. The three newly configured UK markets reuse the canonical UK geography slugs and anchors; no family boundary or automatic activation rule changes.
@@ -338,7 +340,7 @@ Operational reports include:
 - `pipeline/reviews/daily/ontap-daily-review.md` — daily owner review;
 - `pipeline/reports-daily/daily-family-coverage.csv` — current same-feed eight-family assessment across all 78 UK markets (624 region/family rows after the next full JobG8 run; older seven-family snapshots remain readable during transition);
 - `pipeline/reports-daily/daily-family-coverage-history.json` — rolling latest-14-feed-date history for every family present in each snapshot; one snapshot per feed date, with same-date reruns replacing rather than duplicating;
-- `pipeline/reports-daily/daily-region-overview.md` — sitewide unique/provider/duplicate reconciliation plus regional LIVE/NOT LIVE overview; NOT LIVE family cells display `today / 14d avg / 6+ days`, while LIVE cells count current published slice placements;
+- `pipeline/reports-daily/daily-region-overview.md` — sitewide unique/provider/duplicate reconciliation, all-role city/locality opportunities, page inventory and regional LIVE/NOT LIVE overview; NOT LIVE family cells display `today / 14d avg / 6+ days`, while LIVE cells count current published slice placements;
 - `pipeline/reports-daily/live-job-source-count-YYYY-MM-DD.csv` — current provider/source counts, including NHS Jobs after verified publication;
 - `pipeline/reports/city-opportunities-current.md` and `.json` — current city/local-market opportunity state;
 - `pipeline/reports/city-opportunity-history.json` — rolling qualification history.
@@ -350,6 +352,8 @@ Customer Sales national/55-market assessment is recurring diagnostic evidence fo
 `pipeline/reports-daily/daily-region-overview.md` treats Sales Advisor as both a production family for LIVE reporting and a diagnostic family for NOT LIVE reporting. LIVE rows read the current published `app/_city-pages/configured-slices/**/customer-sales-jobs.json` data directly. NOT LIVE rows read the same-feed Customer Sales counts persisted in `daily-family-coverage.csv` and combine them with the observed history; a numeric `0` means assessed and none survived the governed rules. These non-LIVE values are decision support only and never switch a slice to LIVE automatically.
 
 The city-opportunity scanner is diagnostic/decision support. It must not auto-activate a city page.
+
+The daily overview's `CITY OPPORTUNITIES` section is the owner-facing all-role view. It counts each canonical live job once, matches only exact recognised town/locality evidence from `geo_lookup.xlsx`, shows existing routes from `city-page-register.json`, flags non-London localities at four or more current jobs as `CREATE`, and keeps London as `HOLD – LONDON`. Broader and unrecognised job locations remain visible in the summary count but are not guessed into a city. It complements rather than replaces the slice-specific seven-run scanner and never activates a route.
 
 Compiler Modules 1, 2 and 3 remain legitimate specialist/manual analysis workflows.
 
