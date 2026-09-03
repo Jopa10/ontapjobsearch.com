@@ -1,7 +1,7 @@
 # VONNE ETL proof-of-concept review
 
-review_date: 2026-09-02
-review_fingerprint: 8f0c4ef7ce3c1725ba537e204328cd0c810d5f0f36d217e2b5bd524280613350
+review_date: 2026-09-03
+review_fingerprint: e04071e92657d628764353c91801309f2e18a9eeff511da23efd8a772499cbfc
 
 This implementation is review-only. It has no approved-JSON or publishing mode.
 
@@ -10,10 +10,10 @@ Edit only the `action:` line in editable blocks:
 - `action: exclude` rejects a POSS vacancy or removes an HC vacancy.
 - Actions are remembered while the same vacancy review facts remain unchanged; this review still does not publish anything.
 
-Run generated: 2026-09-02T12:36:13+01:00
+Run generated: 2026-09-03T12:33:09+01:00
 Listing input: https://www.vonne.org.uk/vonne-jobs
 JobG8 comparison rows: 413
-Approved NEJobs comparison rows: 19
+Approved NEJobs comparison rows: 15
 
 ## Funnel
 - VONNE listings read: 15
@@ -28,11 +28,11 @@ Approved NEJobs comparison rows: 19
 
 ## Outcomes
 - HC: 0
-- POSS: 6
-- HARD_PASS: 7
+- POSS: 5
+- HARD_PASS: 8
 - Final selected after remembered/manual actions: 1
-- Final POSS awaiting decision: 2
-- Manually excluded: 3
+- Final POSS awaiting decision: 3
+- Manually excluded: 1
 ## Detail diagnostics
 - No unresolved detail-page failures.
 
@@ -82,30 +82,17 @@ source_job_id: 173310
 source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173310
 ---
 ---
-action: exclude
-POSS | North East - Tyneside, Wearside & Northumberland | Tyne and Wear | £29,02431,856 Pro Rata | Project Coordinator - Neuro Team
+action:
+POSS | North East - Tyneside, Wearside & Northumberland | Tyne and Wear | £29,024 to 31,856 Pro Rata | Project Coordinator - Neuro Team
 employer: Children North East
 closing_date: Friday, September 11, 2026 - 12:00
 geography: CONFIRMED — location: approved location fallback
-reason: annualised upper salary £2,902,431,856 exceeds North East review point £30,000
+reason: annualised upper salary £31,856 exceeds North East review point £30,000
 source: VONNE
 tracking_key: vonne-173367
-vacancy_fingerprint: 3dcdfbfb593f024c4838ab4e9c9c8311016c207f82745eaf9fa18a53e680a6fa
+vacancy_fingerprint: cedbaf6586bc62cc093f617d1ff9b460bb28624ebc687cb05292e9c719aab864
 source_job_id: 173367
 source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173367
----
----
-action: exclude
-POSS | North East - Tyneside, Wearside & Northumberland | Newcastle | £34,625 Per Annum | Project Lead
-employer: Changing Lives
-closing_date: 09 September 2026
-geography: CONFIRMED — location: exact area
-reason: transferable title with specialist or borderline wording: lead
-source: VONNE
-tracking_key: vonne-173363
-vacancy_fingerprint: 2b3c14a2b6daf54c403013deddf082d852b216bd0f345f8373fe1b1a1bdf2c8d
-source_job_id: 173363
-source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173363
 ---
 ---
 action:
@@ -131,6 +118,7 @@ source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173374
 - [Fundraising and Partnerships Manager](https://www.vonne.org.uk/vonne-jobs-details?cid=172769) — out-of-scope VONNE occupation.
 - [NEYA Trainee Youth Voice Worker](https://www.vonne.org.uk/vonne-jobs-details?cid=173381) — out-of-scope VONNE occupation.
 - [Outreach Adviser (Schools)](https://www.vonne.org.uk/vonne-jobs-details?cid=173370) — insufficient service-admin evidence.
+- [Part time Play & Youth Worker](https://www.vonne.org.uk/vonne-jobs-details?cid=173388) — out-of-scope VONNE occupation.
 - [Stock Controller](https://www.vonne.org.uk/vonne-jobs-details?cid=173378) — insufficient service-admin evidence.
 - [Women's Project Support Worker](https://www.vonne.org.uk/vonne-jobs-details?cid=173373) — out-of-scope VONNE occupation.
 
