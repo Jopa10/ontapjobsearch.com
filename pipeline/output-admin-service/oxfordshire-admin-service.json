@@ -1,33 +1,5 @@
 [
   {
-    "job_id": "teaching-vacancies-school-administrator-4e6e25cf-c80f-4e62-864c-657610d00946",
-    "title": "School Administrator",
-    "company": "Carterton Primary School",
-    "location": "Carterton",
-    "region": "Oxfordshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['part time']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "£26,824.00 - £29,064.00 Annually (FTE) Paid pro rata. Actual salary £12157",
-    "work_pattern": "",
-    "posted_date": "2026-07-01",
-    "closing_date": "2026-09-02",
-    "closing_datetime": "2026-09-02T23:59:00+01:00",
-    "summary": "School Administrator with Carterton Primary School in Carterton. ['part time']; £26,824.00 - £29,064.00 Annually (FTE) Paid pro rata. Actual salary £12157.",
-    "description": "Carterton Primary School is recruiting for this vacancy in Carterton.\n\nThe advertised position is School Administrator.\n\nThe source lists the employment type as ['part time'].\n\nThe advertised salary or pay scale is £26,824.00 - £29,064.00 Annually (FTE) Paid pro rata. Actual salary £12157.\n\nThe stated application deadline is 2026-09-02T23:59:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/school-administrator-4e6e25cf-c80f-4e62-864c-657610d00946?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Carterton Primary School",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
-  },
-  {
     "job_id": "teaching-vacancies-office-administrator-barton-park-primary-school",
     "title": "Office Administrator",
     "company": "Barton Park Primary School",
@@ -162,11 +134,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Customer enquiries"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225461932",
@@ -241,12 +209,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Email handling",
-      "Customer portals",
-      "Data entry"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225358207",
@@ -271,11 +234,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Data entry"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225472773",
@@ -525,11 +484,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1778720",
@@ -579,11 +534,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Telephone handling",
-      "Scheduling and bookings"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225533669",
@@ -683,11 +634,7 @@
     "advertiser_type": "Company",
     "work_pattern": "Part Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Telephone handling"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "107842072",
@@ -787,12 +734,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Quotations",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1247531 [JSP51654]",
@@ -867,11 +809,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Starters and leavers"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "nhs-5570709",

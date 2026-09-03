@@ -293,11 +293,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Telephone handling",
-      "Scheduling and bookings"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1770672",
@@ -322,11 +318,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Telephone handling",
-      "Records administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225468369",
@@ -351,11 +343,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Document preparation"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225478255",
@@ -380,12 +368,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Data entry",
-      "Filing and document handling",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225519683",
@@ -460,12 +443,32 @@
     "advertiser_type": "Agency",
     "work_pattern": "Part Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Quotations",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
+  },
+  {
+    "job_id": "107925777",
+    "title": "Account Coordinator",
+    "company": "Staffline Operations - Agency - Temporary",
+    "location": "Peterborough",
+    "region": "Cambridgeshire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Temporary",
+    "salary_min": "12.94",
+    "salary_max": "12.94",
+    "salary_text": "£12.94 per hour",
+    "posted_date": "",
+    "description": "Great opportunity to work as an Account Coordinator at our fast-paced Peterborough Office.\n\nStaffline is recruiting for an Account Coordinator to work in Peterborough.\n\nApplicants will need to be flexible and mobile as they will be required to work between the sites and Peterborough Offices once trained click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?Yic9job4bS%2fY0xJBZaRCJfY%2bXT2HR44Kc",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Staffline Operations",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Hourly",
+    "posted_date_basis": ""
   },
   {
     "job_id": "nhs-5574563",
