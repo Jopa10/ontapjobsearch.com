@@ -23,6 +23,7 @@ on:
   workflow_run:
     workflows:
       - Run full JobG8 daily process
+      - Apply JobG8 review decisions
       - Apply and publish Ontap daily review
       - Run JobG8 discovery coverage audit
     types:
