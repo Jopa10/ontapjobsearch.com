@@ -140,7 +140,7 @@ hub_fingerprint: 0613ab4b9f93f653265adc34518f3769207879e9a3d8de4f4c8f07f3667d358
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Berkshire | Berkshire | £16.34 per hour | Facilities Coordinator
 source_key: jobg8
 source: JobG8
@@ -230,7 +230,7 @@ hub_fingerprint: 6bf850fb814423617c9aca73f003a2879ed65e4d678346a9fefe9ee05a0f84c
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Buckinghamshire | Buckinghamshire | £17.47 per hour | Events Coordinator
 source_key: jobg8
 source: JobG8
@@ -320,7 +320,7 @@ hub_fingerprint: 26ae90e1b89c9641d994b3f339f91de7e749e51ddf4338fcba3f0d785e289ef
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Dorset | Dorset | £33974 per year | Care Home Administrator
 source_key: jobg8
 source: JobG8
@@ -392,7 +392,7 @@ hub_fingerprint: 8297770f0b103648608114e43b1ba6617744eefad3211e2ebd8d14a9cb32761
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | Gloucestershire | Gloucestershire | £306 per daily | Windchill Administrator
 source_key: jobg8
 source: JobG8
@@ -554,7 +554,7 @@ hub_fingerprint: 8ca73f45d5dfd2317d4c7fd6095f0b7ac51b719253f07215a29ab5bb70f7e94
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Leicestershire | Leicestershire | £35000 per year | Salesforce Analyst & Administrator
 source_key: jobg8
 source: JobG8
@@ -608,7 +608,7 @@ hub_fingerprint: 0aeaf3e5d087ca009362fd19304f05d97cf52963731206a405d27691d24b061
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | London | London | £20 - £21 per hour (35,000) | Exams Coordinator
 source_key: jobg8
 source: JobG8
@@ -788,7 +788,7 @@ hub_fingerprint: e5e229f28d07435cf9910a8352f4db06ca8227495303d827c48c0f41fade506
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | Northern Ireland - East | Belfast | £35000 per year | Front of House
 source_key: jobg8
 source: JobG8
@@ -806,7 +806,7 @@ hub_fingerprint: e76bf919e5d407c5cc12085ac1b64009573c2eeef98dd5b91b7b0b4337e8baa
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Northern Ireland - East | Belfast | £15.83 per hour | HR Administrator
 source_key: jobg8
 source: JobG8
@@ -824,7 +824,7 @@ hub_fingerprint: 9e0c71110e2bc285ae5b3be7ef54191d7e85dc25d0aa70209134d5f5a26a83b
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Northern Ireland - East | Belfast | £32000 per year | HR Coordinator
 source_key: jobg8
 source: JobG8
@@ -842,7 +842,7 @@ hub_fingerprint: 052187df3b50c69e28d8694caf8c67575a311545e050e6426fce169062d58da
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Northern Ireland - East | Lisburn | £16.68 per hour | HR Administrator (Lisburn)
 source_key: jobg8
 source: JobG8
@@ -860,7 +860,7 @@ hub_fingerprint: 0979f25dc9b6c18d119b1f56b8fdfd034c8c5aef8e3c0bf30786a2f081c352d
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Nottinghamshire | Nottinghamshire | £15 - £18 per hour | Administrator (Migration Support)
 source_key: jobg8
 source: JobG8
@@ -986,7 +986,7 @@ hub_fingerprint: 286c41559dca70c78bc098f480914460fc94fdd81d935705988b3a25cd0770d
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Surrey | Cobham | £13.45 per hour (£13.45) | Housing Support Worker (Casual)
 source_key: jobg8
 source: JobG8
@@ -1022,7 +1022,7 @@ hub_fingerprint: 6eca904f322f3965e411a49a1d2d072f9914f2e668ce722942379ac9ffa87b7
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Wales South - Cardiff & Vale | Barry | £30684 per year | Administrator
 source_key: jobg8
 source: JobG8
@@ -1040,7 +1040,7 @@ hub_fingerprint: c245c4d06f1dbaf0a0d502d74e1951c77ef935911074a3cfd40c21e6c68aa28
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | Wales South - Cardiff & Vale | Cardiff | £50000 - £60000 per year | Office Lead - Town Planning Masterplanner /Urban Design Landscape Architect
 source_key: jobg8
 source: JobG8
@@ -1112,7 +1112,7 @@ hub_fingerprint: 8faf227704acb1248184972ba07f1c50c2c42fa302471c78959edb5cb90b687
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | West Midlands - Coventry & Warwickshire | Warwickshire | £14.82 - £16.08 per hour | Personal Assistant
 source_key: jobg8
 source: JobG8
@@ -1130,7 +1130,7 @@ hub_fingerprint: 1dd2bde5f2e20b9be508d5d6b399c13f67231d82909b4bf0f0c3a47f4be4403
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | Worcestershire | Worcestershire | £35000 per year | Skoda Service Advisor
 source_key: jobg8
 source: JobG8
@@ -1184,7 +1184,7 @@ hub_fingerprint: aa5e3a025f6de26f468be5ac054033eeb47a9be1177c4d7ea01506aa147ff92
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Yorkshire - North | Northallerton | £36600 per year (36600) | Executive Assistant
 source_key: jobg8
 source: JobG8
