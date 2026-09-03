@@ -45,11 +45,7 @@
     "hr_recruitment_family_reason": "advert confirms substantive HR / Recruitment delivery",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Systems administration",
-      "Reporting"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225538102",
@@ -124,6 +120,30 @@
     "posted_date_basis": "ontap_first_published"
   },
   {
+    "job_id": "1842834",
+    "display_reference": "1842834",
+    "title": "HR Administrator (Maternity Cover, Part-Time)",
+    "company": "Progressive Judaism - Agency - Permanent",
+    "advertiser_name": "Progressive Judaism",
+    "advertiser_type": "Agency",
+    "location": "London",
+    "region": "London",
+    "country": "UK",
+    "category": "HR / Recruitment",
+    "employment_type": "Permanent",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "",
+    "posted_date": "2026-09-03",
+    "description": "The HR Administrator will join our friendly and collaborative team and play a vital role in delivering a responsive, high-quality HR service accross the entire lifecycle.\n\nThis role supports every stage of the employee journey from recruitment and onboarding through to employee well-being and offboarding. The postholder will ensure that HR processes are delivered efficiently, accurately and compliantly, while helping to create a positive employee experience that reflects the values of Progressive Judaism.\n\nWorking closely with managers and colleagues accross the organisation, the HR Administrator will contribute to building an inclusive, supportive and well-organised workplace where people feel welcomed, valued and empowered to thrive. h",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?d1vRzEYF65SlOjNROYQiP60uTjA9fre7x",
+    "source": "JobG8",
+    "hr_recruitment_family_reason": "approved HR / Recruitment support title",
+    "work_pattern": "Part Time",
+    "salary_period": "Annual",
+    "posted_date_basis": "ontap_first_published"
+  },
+  {
     "job_id": "23643_225474190",
     "display_reference": "23643_225474190",
     "title": "HR and People Coordinator",
@@ -193,12 +213,7 @@
     "hr_recruitment_family_reason": "approved HR / Recruitment support title",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Telephone handling",
-      "Scheduling and bookings",
-      "Payroll administration"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "1766963",

@@ -45,12 +45,7 @@
     "hr_recruitment_family_reason": "approved HR / Recruitment support title",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Email handling",
-      "Systems administration",
-      "Pre-employment administration"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "1771147",
@@ -74,11 +69,6 @@
     "hr_recruitment_family_reason": "approved HR / Recruitment support title",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Email handling",
-      "Systems administration",
-      "Pre-employment administration"
-    ]
+    "posted_date_basis": "ontap_first_published"
   }
 ]
