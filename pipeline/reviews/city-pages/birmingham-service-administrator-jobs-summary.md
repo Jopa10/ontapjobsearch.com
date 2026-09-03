@@ -4,7 +4,7 @@
 - Live route: `/birmingham/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 29
+- Effective included jobs: 30
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 29
+- automatic include: 30
 - automatic review: 3
 - automatic exclude: 3
-- effective include: 29
+- effective include: 30
 - effective review: 3
 - effective exclude: 3
 
-## INCLUDE (29)
+## INCLUDE (30)
 
 ---
 action: 
@@ -189,6 +189,18 @@ company: AX UK - Agency - Permanent
 location: Birmingham
 source: JobG8
 job_id: jobg8-1789841
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Executive Administrator
+company: Oakley Recruitment Limited - Agency - Contract
+location: Birmingham
+source: JobG8
+job_id: jobg8-23643_225332726
 reason: Approved conservative Birmingham launch catchment.
 ---
 

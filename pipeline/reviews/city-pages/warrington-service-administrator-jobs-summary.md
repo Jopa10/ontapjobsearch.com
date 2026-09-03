@@ -4,7 +4,7 @@
 - Live route: `/warrington/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 1
+- Effective included jobs: 2
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 1
+- automatic include: 2
 - automatic review: 0
 - automatic exclude: 1
-- effective include: 1
+- effective include: 2
 - effective review: 0
 - effective exclude: 1
 
-## INCLUDE (1)
+## INCLUDE (2)
 
 ---
 action: 
@@ -33,6 +33,18 @@ company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Warrington
 source: JobG8
 job_id: jobg8-1733299
+reason: Approved conservative Warrington launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Commercial Administrator
+company: McLaren Resourcing - Agency - Permanent
+location: Warrington
+source: JobG8
+job_id: jobg8-23643_225545989
 reason: Approved conservative Warrington launch catchment.
 ---
 

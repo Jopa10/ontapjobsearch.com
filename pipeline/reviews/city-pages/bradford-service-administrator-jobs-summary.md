@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 9
 - automatic review: 8
-- automatic exclude: 36
+- automatic exclude: 38
 - effective include: 9
 - effective review: 8
-- effective exclude: 36
+- effective exclude: 38
 
 ## INCLUDE (9)
 
@@ -230,7 +230,7 @@ job_id: nhs-5573894
 reason: No approved Bradford catchment rule matched; local review required.
 ---
 
-## EXCLUDE (36)
+## EXCLUDE (38)
 
 ---
 action: 
@@ -253,6 +253,18 @@ company: Nigel Wright Recruitment - Agency - Temporary
 location: Leeds
 source: JobG8
 job_id: jobg8-23643_225488843
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Administrator
+company: The Pharmacist Network
+location: Leeds, NE4 7YB
+source: NHS Jobs
+job_id: nhs-5576344
 reason: Separate employment market.
 ---
 
@@ -361,6 +373,18 @@ company: Michael Page Business Support - Agency - Permanent
 location: Wakefield
 source: JobG8
 job_id: jobg8-1743831
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Executive Assistant
+company: Office Angels - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-23643_225460895
 reason: Separate employment market.
 ---
 

@@ -1,4 +1,5 @@
 decision,job_id,title,company,location,source,automatic_decision,effective_decision,reason,matched_rule,city_key
+include,jobg8-23643_225497892,Executive Assistant,Spider - Agency - Permanent,Coventry,JobG8,include,include,Approved Coventry catchment.,coventry,coventry-service-administrator-jobs
 include,nhs-5525238,Receptionist/Admin,Godiva Group Practice,"Coventry, CV2 4lj, Coventry, CV1 4DH, Coventry, CV6 5EA, Coventry, CV2 3DR",NHS Jobs,include,include,Approved Coventry catchment.,coventry,coventry-service-administrator-jobs
 include,nhs-5565888,Ward Clerk,University Hospitals Coventry and Warwickshire NHS Trust,"Coventry, CV2 2DX",NHS Jobs,include,include,Approved Coventry catchment.,coventry,coventry-service-administrator-jobs
 review,jobg8-23643_225526928,Administrator - Purchasing,Options Resourcing Ltd - Agency - Permanent,Southam,JobG8,review,review,No approved Coventry catchment rule matched; local review required.,fallback,coventry-service-administrator-jobs
@@ -15,6 +16,7 @@ exclude,jobg8-23643_225467522,Logistics & Customer Service Administrator,Gill Co
 exclude,nhs-5521618,Medical Administrator,Red Roofs Surgery,"Nuneaton, CV11 5TW",NHS Jobs,exclude,exclude,Separate employment market.,nuneaton,coventry-service-administrator-jobs
 exclude,nhs-4151642,MEDICAL RECEPTIONIST,Valley Road Medical Practice,"Leamington Spa, CV32 7SJ",NHS Jobs,exclude,exclude,Separate employment market.,leamington,coventry-service-administrator-jobs
 exclude,jobg8-1800544,Part-Time Finance Assistant,Hays Specialist Recruitment Limited - Agency - Permanent,Warwickshire,JobG8,exclude,exclude,Separate employment market.,warwick,coventry-service-administrator-jobs
+exclude,jobg8-23643_225562122,Personal Assistant,Opus People Solutions Ltd - Agency - Temporary,Warwickshire,JobG8,exclude,exclude,Separate employment market.,warwick,coventry-service-administrator-jobs
 exclude,teaching-vacancies-personal-assistant-pa-to-the-headteachers-oak-wood-schools,Personal Assistant (PA) to the Headteachers (Oak Wood Schools),Oak Wood Secondary School,Nuneaton,Teaching Vacancies,exclude,exclude,Separate employment market.,nuneaton,coventry-service-administrator-jobs
 exclude,teaching-vacancies-receptionist-admin-officer-f47a5a75-5bef-45e1-a471-94bb514d5613,Receptionist/Admin Officer,Welcombe Hills School,Stratford-upon-Avon,Teaching Vacancies,exclude,exclude,Separate employment market.,stratford-upon-avon,coventry-service-administrator-jobs
 exclude,jobg8-107840991,Recruitment Account Coordinator,Winner Recruitment - Agency - Permanent,Warwickshire,JobG8,exclude,exclude,Separate employment market.,warwick,coventry-service-administrator-jobs

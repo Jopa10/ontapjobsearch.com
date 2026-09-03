@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 6
 - automatic review: 5
-- automatic exclude: 28
+- automatic exclude: 30
 - effective include: 6
 - effective review: 5
-- effective exclude: 28
+- effective exclude: 30
 
 ## INCLUDE (6)
 
@@ -158,7 +158,7 @@ job_id: teaching-vacancies-sixth-form-administrator-team-leader
 reason: No approved Oxford catchment rule matched; local review required.
 ---
 
-## EXCLUDE (28)
+## EXCLUDE (30)
 
 ---
 action: 
@@ -253,6 +253,18 @@ company: Plus One Recruitment - Agency - Permanent
 location: Oxfordshire
 source: JobG8
 job_id: jobg8-1786192
+reason: Broad county location; not Oxford-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Executive Assistant
+company: Allen Associates - Agency - Permanent
+location: Oxfordshire
+source: JobG8
+job_id: jobg8-23643_225476635
 reason: Broad county location; not Oxford-city evidence.
 ---
 
@@ -481,6 +493,18 @@ company: Allen Associates - Agency - Temporary
 location: Oxfordshire
 source: JobG8
 job_id: jobg8-23643_225560219
+reason: Broad county location; not Oxford-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Temporary Office Assistant
+company: Allen Associates - Agency - Temporary
+location: Oxfordshire
+source: JobG8
+job_id: jobg8-23643_225544109
 reason: Broad county location; not Oxford-city evidence.
 ---
 

@@ -1,6 +1,8 @@
 decision,job_id,title,company,location,source,automatic_decision,effective_decision,reason,matched_rule,city_key
+include,jobg8-107751903,Account Coordinator,EMPLOYAL LTD - Agency - Permanent,Bristol,JobG8,include,include,Approved conservative Bristol launch catchment.,bristol,bristol-service-administrator-jobs
 include,jobg8-23643_225475414,Accounts Assistant,Hypercreate Ltd - Agency - Permanent,Bristol,JobG8,include,include,Approved conservative Bristol launch catchment.,bristol,bristol-service-administrator-jobs
 include,nhs-5561013,Administrative Assistant,Royal Devon University Healthcare NHS Foundation Trust,"Bristol, BS2 8EG",NHS Jobs,include,include,Approved conservative Bristol launch catchment.,bristol,bristol-service-administrator-jobs
+include,nhs-5559839,Administrator,Oxleas NHS Foundation Trust,"Bristol, BS16 9QJ",NHS Jobs,include,include,Approved conservative Bristol launch catchment.,bristol,bristol-service-administrator-jobs
 include,nhs-5554527,Administrator,Sirona care & health CIC,"Bristol, BS10 6DF",NHS Jobs,include,include,Approved conservative Bristol launch catchment.,bristol,bristol-service-administrator-jobs
 include,nhs-5554722,Administrator,Sirona care & health CIC,"Bradley Stoke, Bristol, BS32 4LB",NHS Jobs,include,include,Approved conservative Bristol launch catchment.,bristol,bristol-service-administrator-jobs
 include,jobg8-23643_225546891,Administrator,Tate - Agency - Temporary,Bristol,JobG8,include,include,Approved conservative Bristol launch catchment.,bristol,bristol-service-administrator-jobs
@@ -8,6 +10,7 @@ include,jobg8-23643_222234812,Administrator and Customer Support Specialist,Anth
 include,jobg8-23643_225557768,Air Freight Co-Ordinator,Travail Employment Group - Agency - Permanent,Bristol,JobG8,include,include,Approved conservative Bristol launch catchment.,bristol,bristol-service-administrator-jobs
 include,jobg8-23643_225558310,Business Support Officer,Blue Arrow - Agency - Temporary,Bristol,JobG8,include,include,Approved conservative Bristol launch catchment.,bristol,bristol-service-administrator-jobs
 include,jobg8-23643_225557766,Customs Administrator,Travail Employment Group - Agency - Permanent,Bristol,JobG8,include,include,Approved conservative Bristol launch catchment.,bristol,bristol-service-administrator-jobs
+include,jobg8-1778935,Executive Assistant,Reed - Agency - Permanent,Bristol,JobG8,include,include,Approved conservative Bristol launch catchment.,bristol,bristol-service-administrator-jobs
 include,jobg8-23643_225533642,Freight Co-Ordinator,Travail Employment Group - Agency - Permanent,Bristol,JobG8,include,include,Approved conservative Bristol launch catchment.,bristol,bristol-service-administrator-jobs
 include,jobg8-23643_225547840,Helpdesk Administrator - FM,Thrive SW - Agency - Permanent,Bristol,JobG8,include,include,Approved conservative Bristol launch catchment.,bristol,bristol-service-administrator-jobs
 include,jobg8-23643_225556797,Imaging Administrator,Spire Healthcare - Company - Permanent,Bristol,JobG8,include,include,Approved conservative Bristol launch catchment.,bristol,bristol-service-administrator-jobs

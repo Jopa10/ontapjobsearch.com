@@ -4,7 +4,7 @@
 - Live route: `/doncaster/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 8
+- Effective included jobs: 9
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 8
+- automatic include: 9
 - automatic review: 1
-- automatic exclude: 17
-- effective include: 8
+- automatic exclude: 18
+- effective include: 9
 - effective review: 1
-- effective exclude: 17
+- effective exclude: 18
 
-## INCLUDE (8)
+## INCLUDE (9)
 
 ---
 action: 
@@ -120,6 +120,18 @@ job_id: nhs-5554992
 reason: Approved Doncaster catchment.
 ---
 
+---
+action: 
+decision: include
+automatic_decision: include
+title: Sales & Marketing Coordinator
+company: Get Recruited (UK) Ltd - Agency - Permanent
+location: Doncaster
+source: JobG8
+job_id: jobg8-107771227
+reason: Approved Doncaster catchment.
+---
+
 ## REVIEW (1)
 
 ---
@@ -134,7 +146,7 @@ job_id: jobg8-23643_225516026
 reason: No approved Doncaster catchment rule matched; local review required.
 ---
 
-## EXCLUDE (17)
+## EXCLUDE (18)
 
 ---
 action: 
@@ -229,6 +241,18 @@ company: EE - Company - Permanent
 location: Sheffield
 source: JobG8
 job_id: jobg8-20279_62295-153faf593eb64b88272f45adeaa28d87
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Executive Assistant
+company: Sue Ross Recruitment Ltd - Agency - Contract
+location: Sheffield
+source: JobG8
+job_id: jobg8-23643_225546545
 reason: Separate employment market.
 ---
 

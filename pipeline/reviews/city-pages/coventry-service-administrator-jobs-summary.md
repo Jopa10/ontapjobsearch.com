@@ -4,7 +4,7 @@
 - Live route: `/coventry/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 2
+- Effective included jobs: 3
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,26 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 2
+- automatic include: 3
 - automatic review: 2
-- automatic exclude: 23
-- effective include: 2
+- automatic exclude: 24
+- effective include: 3
 - effective review: 2
-- effective exclude: 23
+- effective exclude: 24
 
-## INCLUDE (2)
+## INCLUDE (3)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Executive Assistant
+company: Spider - Agency - Permanent
+location: Coventry
+source: JobG8
+job_id: jobg8-23643_225497892
+reason: Approved Coventry catchment.
+---
 
 ---
 action: 
@@ -74,7 +86,7 @@ job_id: teaching-vacancies-receptionist-and-administrator-ftc-contract-september
 reason: No approved Coventry catchment rule matched; local review required.
 ---
 
-## EXCLUDE (23)
+## EXCLUDE (24)
 
 ---
 action: 
@@ -217,6 +229,18 @@ company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Warwickshire
 source: JobG8
 job_id: jobg8-1800544
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Personal Assistant
+company: Opus People Solutions Ltd - Agency - Temporary
+location: Warwickshire
+source: JobG8
+job_id: jobg8-23643_225562122
 reason: Separate employment market.
 ---
 

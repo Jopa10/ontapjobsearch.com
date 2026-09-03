@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 4
 - automatic review: 6
-- automatic exclude: 11
+- automatic exclude: 12
 - effective include: 4
 - effective review: 6
-- effective exclude: 11
+- effective exclude: 12
 
 ## INCLUDE (4)
 
@@ -146,7 +146,7 @@ job_id: nhs-5570653
 reason: No approved York catchment rule matched; local review required.
 ---
 
-## EXCLUDE (11)
+## EXCLUDE (12)
 
 ---
 action: 
@@ -217,6 +217,18 @@ company: SI Recruitment - Agency - Permanent
 location: Northallerton
 source: JobG8
 job_id: jobg8-107893306
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Executive Assistant
+company: Hays Business Support - Agency - Permanent
+location: Northallerton
+source: JobG8
+job_id: jobg8-23643_225555701
 reason: Separate employment market.
 ---
 

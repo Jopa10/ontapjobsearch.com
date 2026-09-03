@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 3
-- automatic review: 4
-- automatic exclude: 0
+- automatic review: 5
+- automatic exclude: 1
 - effective include: 3
-- effective review: 4
-- effective exclude: 0
+- effective review: 5
+- effective exclude: 1
 
 ## INCLUDE (3)
 
@@ -60,7 +60,7 @@ job_id: jobg8-1663151
 reason: Approved Southampton catchment.
 ---
 
-## REVIEW (4)
+## REVIEW (5)
 
 ---
 action: 
@@ -110,4 +110,28 @@ job_id: jobg8-1401784915
 reason: Broad location; review before city inclusion.
 ---
 
-## EXCLUDE (0)
+---
+action: 
+decision: review
+automatic_decision: review
+title: Support Worker (Out of Hours)
+company: Hampshire County Council - Company - Permanent
+location: Havant
+source: JobG8
+job_id: jobg8-1401784888
+reason: Broad location; review before city inclusion.
+---
+
+## EXCLUDE (1)
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Secure Children's Home Support Worker
+company: Hampshire County Council - Company - Permanent
+location: Eastleigh
+source: JobG8
+job_id: jobg8-1401784900
+reason: Separate employment market.
+---

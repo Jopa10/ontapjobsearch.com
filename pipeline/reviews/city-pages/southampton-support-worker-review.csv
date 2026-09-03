@@ -6,3 +6,5 @@ review,jobg8-107893077,Care Assistant,All Care - Agency - Permanent,Freshwater,J
 review,jobg8-1401784493,Care Assistant,Hampshire County Council - Company - Permanent,Alton,JobG8,review,review,Broad location; review before city inclusion.,context:hampshire,southampton-support-worker
 review,jobg8-1401784767,Children's Homes Support Worker,Hampshire County Council - Company - Permanent,Romsey,JobG8,review,review,Broad location; review before city inclusion.,context:hampshire,southampton-support-worker
 review,jobg8-1401784915,Day Opportunities Support Worker (HCC Care YA),Hampshire County Council - Company - Permanent,Gosport,JobG8,review,review,Broad location; review before city inclusion.,context:hampshire,southampton-support-worker
+review,jobg8-1401784888,Support Worker (Out of Hours),Hampshire County Council - Company - Permanent,Havant,JobG8,review,review,Broad location; review before city inclusion.,context:hampshire,southampton-support-worker
+exclude,jobg8-1401784900,Secure Children's Home Support Worker,Hampshire County Council - Company - Permanent,Eastleigh,JobG8,exclude,exclude,Separate employment market.,eastleigh,southampton-support-worker

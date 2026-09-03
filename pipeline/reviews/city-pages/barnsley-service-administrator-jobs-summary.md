@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 0
 - automatic review: 1
-- automatic exclude: 25
+- automatic exclude: 27
 - effective include: 0
 - effective review: 1
-- effective exclude: 25
+- effective exclude: 27
 
 ## INCLUDE (0)
 
@@ -38,7 +38,7 @@ job_id: jobg8-23643_225516026
 reason: No approved Barnsley catchment rule matched; local review required.
 ---
 
-## EXCLUDE (25)
+## EXCLUDE (27)
 
 ---
 action: 
@@ -188,6 +188,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Executive Assistant
+company: Sue Ross Recruitment Ltd - Agency - Contract
+location: Sheffield
+source: JobG8
+job_id: jobg8-23643_225546545
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Operations Administrator
 company: Sue Ross Recruitment Ltd - Agency - Permanent
 location: Sheffield
@@ -289,6 +301,18 @@ company: Lynx Employment Services Ltd - Agency - Temporary
 location: Sheffield
 source: JobG8
 job_id: jobg8-23643_225478960
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Sales & Marketing Coordinator
+company: Get Recruited (UK) Ltd - Agency - Permanent
+location: Doncaster
+source: JobG8
+job_id: jobg8-107771227
 reason: Separate employment market.
 ---
 
