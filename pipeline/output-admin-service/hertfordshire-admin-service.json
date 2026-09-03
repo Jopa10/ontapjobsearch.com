@@ -109,6 +109,31 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "23643_225546661",
+    "title": "Service Advisor",
+    "company": "Office Angels - Agency - Permanent",
+    "location": "Hertfordshire",
+    "region": "Hertfordshire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "32100",
+    "salary_max": "32100",
+    "salary_text": "£32100 per year",
+    "posted_date": "",
+    "description": "Service Advisor\n\nLocation: Waltham Cross\n\nSalary: 31,200 + Excellent Benefits\n\nWorking hours: Monday to Friday shifts between 6am-3pm / 7am-6pm, every other Saturday 8am-12pm\n\nBenefits\n- 20 days holiday plus Bank Holidays\n- Clear progression and career development opportunities\n- On-site parking\n- Supportive and friendly working environment\n- Convenient location just a 5 minute walk from Waltham Cross Train Station\n\nAre you a customer focused professional who enjoys delivering exceptional service and building strong relationships? We are recruiting on behalf of a well established organisation for a Service Advisor to join their busy and friendly team in Waltham Cross.\n\nAs the first point of contact for customers, you will play a vital role in ensuring a seamless service experience, managing enquiries from initial contact through to completion while maintaining the highest levels of customer satisfaction.\n\nKey Responsibilities\n- Welcome customers and act as the main point of contact for all service related enquiries.\n- Book appointments and efficiently manage schedules using the company's service management system.\n- Liaise between customers and technicians, communicating recommendations, estimated costs, and timescales.\n- Obtain customer approval before any additional work is carried out.\n- Keep customers informed throughout the service process, providing regular updates on progress and completion times.\n- Ensure all customer records, service history, and communications are accurately maintained.\n- Complete all associated paperwork and administration with a high level of accuracy.\n- Handle customer queries, concerns, and complaints professionally, ensuring a positive outcome wherever possible.\n\nTo be successful in this role, you will have:\n- Excellent communication and interpersonal skills.\n- A positive, friendly, and professional approach.\n- Strong organisational skills with excellent attention to detail.\n- The ability to multitask and manage a busy workload.\n- Confidence in handling customer queries and resolving issues effectively.\n- Strong problem solving skills and a customer first mindset.\n- Previous experience in a customer service, service advisor, or administrative role would be advantageous.\n\nOffice Angels is an employment agency and business. We are an equal-opportunities employer who puts expertise, energy and enthusiasm into improving everyone's chance of being part of the workplace. We respect and appreciate people of all ethnicities, generations, religious beliefs, sexual orientations, gender identities, abilities and more. By showcasing talents, skills and unique experiences in an inclusive environment, we help individuals thrive. If you require reasonable adjustments at any stage, please let us know and we will be happy to support you.\n\nOffice Angels acts as an employment agency for permanent recruitment and an employment business for the supply of temporary workers. Office Angels UK is an Equal Opportunities Employer.\n\nBy applying for this role your details will be submitted to Office Angels. Our Candidate Privacy Information Statement explaining how we will use your information is available on our website.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?1tcg6Aj2zazJqbOz2jrUXQyvY1yt9xnHb",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Office Angels",
+    "advertiser_type": "Agency",
+    "work_pattern": "Full Time",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
     "job_id": "23643_225522507",
     "title": "Office Operations and Customer Care Co-ordinator",
     "company": "Tate - Agency - Permanent",
@@ -874,7 +899,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9367-26-0790",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9367-26-0790",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5439405",
@@ -892,7 +921,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0106-26-0072",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0106-26-0072",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5566843",
@@ -910,7 +943,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9812-26-0338",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9812-26-0338",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5555027",
@@ -928,6 +965,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0405-26-0006",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0405-26-0006",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

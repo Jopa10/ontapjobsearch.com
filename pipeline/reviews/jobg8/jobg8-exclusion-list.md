@@ -6,9 +6,357 @@ The `excluded_on` date is the day the exclusion decision was made.
 To restore a job, edit only its `action:` line to `action: select`.
 On the next JobG8 run that exact job ID will be restored and removed from this list.
 
-remembered_exclusions: 227
+remembered_exclusions: 256
 
 ## SERVICE / ADMIN — EXCLUDED
+
+---
+action:
+category: service_admin
+excluded_on: 2026-09-03
+title: Windchill Administrator
+employer: Mindbox S.A.
+region: 
+town: Gloucestershire
+salary: 
+job_id: 107911441
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-09-03
+title: Software Sales Support & Product Demonstrator
+employer: Acorn by Synergie
+region: 
+town: Gloucestershire
+salary: 
+job_id: 107736535
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-09-03
+title: Software Sales Support & Product Demonstrator
+employer: Acorn by Synergie
+region: 
+town: Gloucestershire
+salary: 
+job_id: 107736509
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-09-03
+title: Skoda Service Advisor
+employer: Listers
+region: 
+town: Worcestershire
+salary: 
+job_id: 107909599
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-09-03
+title: Salesforce Administrator (ICT)
+employer: Goodman Masson
+region: 
+town: Yorkshire
+salary: 
+job_id: 1809360
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-09-03
+title: Salesforce Administrator
+employer: UBT
+region: 
+town: Gloucestershire
+salary: 
+job_id: 1821856
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-09-03
+title: Sales Administrator Construction Contractor
+employer: Build People
+region: 
+town: Yorkshire
+salary: 
+job_id: 107811412
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-09-03
+title: Project Coordinator
+employer: Daniel Owen Ltd
+region: 
+town: Bedfordshire
+salary: 
+job_id: 23643_225553976
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-09-03
+title: Project Coordinator
+employer: Consula Group LTD
+region: 
+town: London
+salary: 
+job_id: 1821604
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-09-03
+title: Office Lead - Town Planning Masterplanner /Urban Design Landscape Architect
+employer: Penguin Recruitment
+region: 
+town: Cardiff
+salary: 
+job_id: 23643_225541557
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-09-03
+title: Microsoft 365 & Cloud Administrator
+employer: Precept Recruit
+region: 
+town: Derbyshire
+salary: 
+job_id: 1805280
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-09-03
+title: IT Service Desk Team Leader
+employer: Randstad Delivery (GBS)
+region: 
+town: Hampshire
+salary: 
+job_id: 1806225
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-09-03
+title: IT Security & Operations Administrator
+employer: Venn Group
+region: 
+town: London
+salary: 
+job_id: 1808439
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-09-03
+title: IT Project Coordinator
+employer: Reed
+region: 
+town: Middlesex
+salary: 
+job_id: 1802161
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-09-03
+title: Health, Safety and Training Administrator
+employer: Booker Group
+region: 
+town: Hertfordshire
+salary: 
+job_id: 1770354
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-09-03
+title: HR Systems and reporting coordinator
+employer: Essential Employment
+region: 
+town: Manchester
+salary: 
+job_id: 107899847
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-09-03
+title: Front of House
+employer: Staff Source Ltd
+region: 
+town: Belfast
+salary: 
+job_id: 2051231
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-09-03
+title: Executive Assistant
+employer: Contechs Consulting
+region: 
+town: West Midlands
+salary: 
+job_id: 23643_225533056
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-09-03
+title: Executive Assistant
+employer: Red Personnel
+region: 
+town: London
+salary: 
+job_id: 23643_225523650
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-09-03
+title: Executive Assistant
+employer: Michael Page
+region: 
+town: Nottinghamshire
+salary: 
+job_id: 23643_225475553
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-09-03
+title: Executive Assistant
+employer: Tiger Recruitment
+region: 
+town: London
+salary: 
+job_id: 23643_225473542
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-09-03
+title: Executive Assistant
+employer: Goodman Masson
+region: 
+town: London
+salary: 
+job_id: 23643_225470323
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-09-03
+title: Executive Assistant
+employer: Insight Select Ltd
+region: 
+town: London
+salary: 
+job_id: 1786162
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-09-03
+title: Executive Assistant
+employer: Paragon Personnel
+region: 
+town: London
+salary: 
+job_id: 1769281
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-09-03
+title: Exams Coordinator
+employer: Gordon Yates Recruitment Consultancy
+region: 
+town: London
+salary: 
+job_id: 23643_225559009
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-09-03
+title: Estate Operations Coordinator
+employer: TRI Consulting Ltd
+region: 
+town: Bedfordshire
+salary: 
+job_id: 23643_225365242
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-09-03
+title: Document Controller
+employer: Fawkes & Reece London
+region: 
+town: Suffolk
+salary: 
+job_id: 23643_225545103
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-09-03
+title: Chartered Financial Planner
+employer: Blakemore Recruitment
+region: 
+town: London
+salary: 
+job_id: 1733895
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-09-03
+title: Assistant Town Planner
+employer: Carrington West
+region: 
+town: Bedfordshire
+salary: 
+job_id: 23643_225460898
+---
 
 ---
 action:

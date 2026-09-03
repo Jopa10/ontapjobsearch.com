@@ -131,6 +131,31 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "1733511",
+    "title": "Executive Assistant",
+    "company": "Bridgewater Resources - Agency - Permanent",
+    "location": "Devon",
+    "region": "Devon",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "35000",
+    "salary_max": "39000",
+    "salary_text": "£35000 - £39000 per year",
+    "posted_date": "",
+    "description": "Are you an experienced Executive Assistant or Personal Assistant who thrives in a busy, varied environment where no two days are the same?\n\nWe're looking for an Executive Assistant to support a senior Regional Director within a major national business, following a regional restructure and the creation of a new South West regional office in Exeter.\n\nThis is a high-profile role within a well-established and highly successful £1.7 billion distribution group, supporting a senior team and acting as a key point of contact for the region. You'll work with a wide range of people across the business, build strong relationships with senior stakeholders and external contacts, and play an important role in keeping the regional operation running smoothly.\n\nYou'll also have the benefit of a comprehensive handover and training from the current Executive Assistant, who is remaining within the business in another region.\n\nRole Responsibilities\n\nThis is a broad and varied Executive Assistant position with significant responsibility. You'll be trusted to manage relationships, coordinate important meetings and events, handle confidential information and ensure senior stakeholders have the support they need.\n\nYour responsibilities will include:\n- Organising internal and external events, including travel, accommodation, entertainment and meals\n- Organising staff meetings, preparing agendas, PowerPoint presentations and action logs\n- Arranging meetings with suppliers and other business contacts\n- Acting as a primary point of contact for the region, dealing with internal and external enquiries\n- Building and maintaining relationships with senior contacts, suppliers, PAs and other key stakeholders\n- Creating and maintaining spreadsheets to monitor a range of business data\n- Providing proactive administrative support to a senior regional team\n\nRequirements\n\nTo be successful in this role you should be an experienced Executive Assistant or PA, ideally someone who has worked within a larger business and is comfortable operating at senior level. You'll be someone who:\n- Is confident building relationships with a wide range of people\n- Has experience managing relationships and communications on behalf of a senior director or leadership team\n- Is assertive, proactive and influential, with the confidence to get things done\n- Is highly organised and able to manage multiple priorities simultaneously\n- Can work independently and use initiative\n- Has excellent attention to detail and strong time-management skills\n- Has excellent Microsoft Office skills, particularly Excel, PowerPoint, Word and Outlook\n- Holds a full UK driving licence\n\nRewards\n- Starting salary of £35,000 - £39,000\n- Annual bonus\n- Excellent pension scheme\n- Full training and handover from an experienced Executive Assistant\n- Working hours are Monday-Friday,\n\nApply today to find out more!",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?QHpHeWTcrP6NRTRhNz89OjB6Gebh%2be7Cy",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Bridgewater Resources",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
     "job_id": "23643_225461743",
     "title": "Receptionist / Admin Assistant",
     "company": "Interaction Recruitment - Agency - Temporary",
@@ -521,7 +546,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C0023-26-1052",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C0023-26-1052",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5558778",
@@ -539,7 +568,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9369-26-0655",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9369-26-0655",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5559147",
@@ -557,7 +590,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1739-26-0043",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1739-26-0043",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5555310",
@@ -575,7 +612,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C0023-26-1022",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C0023-26-1022",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5552054",
@@ -593,6 +634,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2737-26-0005",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2737-26-0005",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

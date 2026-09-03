@@ -200,6 +200,31 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "23643_225480882",
+    "title": "Administrator",
+    "company": "Adecco - Agency - Contract",
+    "location": "Barry",
+    "region": "Wales South - Cardiff & Vale",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Contract",
+    "salary_min": "30684",
+    "salary_max": "30684",
+    "salary_text": "£30684 per year",
+    "posted_date": "",
+    "description": "Join Our Team as an Administrator/Documentor!\n\nAre you ready to take on a key role in a dynamic and busy manufacturing environment? Our client, a leading global organisation based in Barry, is seeking a dedicated and detail-oriented Administrator/Documentor to join their team on a fixed-term contract for 12 months on a full time basis, 40 hours per week.\n\nWhat You'll Do:\n\nAs an Administrator/Documentor, you'll play a pivotal role in ensuring that all paperwork and documentation processes run smoothly. Your responsibilities will include:\n- Daily Duties:\n- Run reports to retrieve work required for printing.\n- Print and distribute work packs for various departments.\n- Update files with hours and technical findings.\n- Ensure compliance paperwork is accurate and submitted to the integrity department.\n- Weekly Tasks:\n- Print work packs for lubrication, pipework, welding, and rotating services.\n- Prepare and email service work orders\n- Monthly Responsibilities:\n- Run reports and print lubrication work orders for the team.\n- Ongoing Administration:\n- Update databases and spreadsheets as needed.\n- File documentation both electronically and manually.\n- Manage incoming paperwork for different departments.\n- Assist with any other administrative or ad-hoc tasks as required.\n\nWho You Are:\n\nWe're looking for someone who thrives in a fast-paced environment and possesses the following skills:\n- Strong administrative background or similar experience.\n- Excellent communication skills for effective collaboration.\n- Exceptional organisation and attention to detail.\n- Proficient in data entry and data management.\n- Ability to work well under pressure while maintaining accuracy.\n\nWhy Join Us?\n- Be part of a global leader in manufacturing.\n- Gain valuable experience in a supportive team environment.\n- Opportunity for personal and professional growth.\n- Competitive salary and benefits package.\n\nIf you're enthusiastic about making a difference and believe the role of Administrator/Documentor is the perfect fit for you, we want to hear from you!\n\nApply today and join our vibrant team! We are eager to welcome someone who is ready to contribute to our success as soon as possible.\n\nTake the Next Step in Your Career!\n\nSend in your application now and embark on an exciting journey with us - please note this advert will close once a suitable applicant is found.\n\nAdecco is a disability-confident employer. It is important to us that we run an inclusive and accessible recruitment process to support candidates of all backgrounds and all abilities to apply. Adecco is committed to building a supportive environment for you to explore the next steps in your career. If you require reasonable adjustments at any stage, please let us know and we will be happy to support you.\n\nAdecco acts as an employment agency for permanent recruitment and an employment business for the supply of temporary workers. The Adecco Group UK & Ireland is an Equal Opportunities Employer.\n\nBy applying for this role your details will be submitted to Adecco. Our Candidate Privacy Information Statement explains how we will use your information - please copy and paste the following link in to your browser (url removed)",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?kjuUUj3TFp4GAnq8KR7oC1fOrL%2fQivNEg",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Adecco",
+    "advertiser_type": "Agency",
+    "work_pattern": "Full Time",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
     "job_id": "nhs-5556922",
     "source": "NHS Jobs",
     "title": "Receptionist",
@@ -215,7 +240,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4471-26-0007",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4471-26-0007",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5544161",
@@ -233,6 +262,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3280-26-0001",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3280-26-0001",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]
