@@ -1,6 +1,6 @@
 # Support-worker manual review
 
-feed_date: 2026-09-02
+feed_date: 2026-09-03
 
 Edit only the `action:` line in each block:
 
@@ -17,6 +17,12 @@ SELECTED | Yorkshire - West | Bradford | £13.75 - £14.5 per hour (Including ho
 job_id: 23643_225476096
 ---
 
+---
+action:
+SELECTED | Yorkshire - West | Wakefield | £28,031.56 per annum | Support Worker (Outreach)
+job_id: 1775593
+---
+
 ## WEST YORKSHIRE — POSSIBLES
 
 _No jobs in this group._
@@ -31,11 +37,7 @@ _No jobs in this group._
 
 ## NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND — SELECTED
 
----
-action:
-SELECTED | North East - Tyneside, Wearside & Northumberland | Hexham | £14.22 per hour (& £101.68 for sleep-ins, average annual salary of £20) | Part-Time Support Worker (24 hours per week)
-job_id: 107921425
----
+_No jobs in this group._
 
 ## NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL — SELECTED
 
@@ -111,12 +113,6 @@ job_id: 1401784493
 
 ---
 action:
-SELECTED | Hampshire | Basingstoke | £25186 - £26244 per year | Night Care Assistant (Adults)
-job_id: 1401784687
----
-
----
-action:
 SELECTED | Hampshire | Southampton | £27780 - £30564 per year | Secure Childrens Home Support Worker (Weekends)
 job_id: 1401784780
 ---
@@ -143,6 +139,12 @@ job_id: 1401784887
 action:
 SELECTED | Hampshire | Gosport | £26018 - £27111 per year | Day Opportunities Support Worker (HCC Care YA)
 job_id: 1401784915
+---
+
+---
+action:
+SELECTED | Hampshire | Freshwater | £14000 per year | Care Assistant
+job_id: 107893077
 ---
 
 ## HAMPSHIRE — POSSIBLES
@@ -175,11 +177,7 @@ job_id: 107858271
 
 ## KENT — POSSIBLES
 
----
-action:
-POSS - KENT | Kent | Kent | £13.45 per hour (£13.45) | Housing Support Worker (Casual)
-job_id: 23643_225534852
----
+_No jobs in this group._
 
 ## LONDON — SELECTED
 
@@ -261,6 +259,12 @@ SELECTED | London | London | £23,088.00 per annum | Waking Night Support Worker
 job_id: 1664745
 ---
 
+---
+action:
+SELECTED | London | London | £95 - £100 per daily | Autism Support Worker
+job_id: 23643_225456590
+---
+
 ## LONDON — POSSIBLES
 
 _No jobs in this group._
@@ -305,7 +309,11 @@ job_id: 1808682
 
 ## SURREY — POSSIBLES
 
-_No jobs in this group._
+---
+action:
+POSS - SURREY | Surrey | Cobham | £13.45 per hour (£13.45) | Housing Support Worker (Casual)
+job_id: 23643_225534852
+---
 
 ## WILTSHIRE — SELECTED
 
