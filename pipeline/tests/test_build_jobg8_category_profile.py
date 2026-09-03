@@ -55,6 +55,24 @@ class JobG8CategoryProfileTests(unittest.TestCase):
         self.assertEqual(by_category["Administration"]["published_count"], "1")
         self.assertEqual(by_category["Sales"]["published_count"], "1")
 
+    def test_review_apply_workflow_refreshes_profile_before_commit(self) -> None:
+        repo_root = Path(__file__).resolve().parents[2]
+        workflow = (
+            repo_root / ".github/workflows/apply-jobg8-review-decisions.yml"
+        ).read_text(encoding="utf-8")
+
+        refresh = workflow.index("Refresh same-feed JobG8 category profile")
+        commit = workflow.index("Commit applied review decisions")
+        self.assertLess(refresh, commit)
+        self.assertIn(
+            "--output pipeline/reports-daily/jobg8-feed-category-profile.csv",
+            workflow,
+        )
+        self.assertGreaterEqual(
+            workflow.count('"pipeline/reports-daily/jobg8-feed-category-profile.csv"'),
+            2,
+        )
+
 
 if __name__ == "__main__":
     unittest.main()

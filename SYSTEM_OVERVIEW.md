@@ -1,11 +1,13 @@
 # Ontap System Overview
 
-**Last updated:** 2 September 2026
+**Last updated:** 3 September 2026
 **Status:** Canonical production state including an idempotent external fallback for the JobG8 daily process, restored NHS Google Jobs eligibility, owner-facing JobG8 selection auditing, live-site reporting reconciliation and Teaching Vacancies regional publish isolation.
 
 This is the short owner view of how Ontap is organised. It mirrors the five canonical system buckets in `SYSTEM_MAP.md`.
 
 ## Recent canonical changes
+
+- 3 September 2026 — **The JobG8 classification sheet now stays aligned after manual review:** applying owner decisions refreshes the same-feed JobG8 category counts from the final reviewed outputs before the daily overview is rebuilt. Newly selected or excluded jobs therefore appear in both the Sitewide JobG8 total and the supplier-classification breakdown for that publication.
 
 - 2 September 2026 — **Repeated Customer Service recruitment campaigns count once:** JobG8 can send one employer campaign under many IDs and synonymous titles. Customer Service diagnostics and LIVE pages now collapse those variants and reject adverts whose opening location belongs to another region. This prevents the North East's 78 raw rows—mostly one EE campaign—from being mistaken for 78 separate opportunities.
 
