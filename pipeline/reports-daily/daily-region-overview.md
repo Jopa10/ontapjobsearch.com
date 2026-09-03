@@ -1,6 +1,6 @@
 # Ontap daily regional overview
 
-Generated: 2026-09-03T16:41:14+01:00
+Generated: 2026-09-03T17:05:42+01:00
 
 [Download this overview as Excel](./daily-region-overview.xlsx)
 
@@ -64,11 +64,11 @@ Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-09-0
 | Bedfordshire | 12 |  |  |  |  |  |  |  |
 | Berkshire | 32 |  | 8 |  | 12 |  | 1 |  |
 | Bristol & Bath | 31 |  | 7 |  | 6 | CHECK |  |  |
-| Buckinghamshire | 30 |  |  |  | 12 |  |  |  |
-| Cambridgeshire | 22 |  |  |  |  |  |  |  |
+| Buckinghamshire | 30 |  |  |  | 12 |  |  | CHECK |
+| Cambridgeshire | 22 |  |  |  | CHECK |  |  |  |
 | Cheshire - East | 11 |  |  |  |  |  |  |  |
-| Cheshire - Warrington & Halton | 3 |  |  |  |  |  |  |  |
-| Cheshire - West | 10 |  |  |  |  |  |  |  |
+| Cheshire - Warrington & Halton | 3 |  |  |  |  | CHECK |  |  |
+| Cheshire - West | 10 |  |  |  | CHECK |  |  |  |
 | Cornwall | 3 |  |  |  |  |  |  |  |
 | Cumbria - North |  |  |  |  |  |  |  |  |
 | Cumbria - South |  | 2 |  |  |  |  |  |  |
@@ -76,7 +76,7 @@ Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-09-0
 | Derbyshire | 10 |  |  |  |  |  |  |  |
 | Devon | 26 |  |  |  |  | CHECK |  |  |
 | Dorset | 21 |  |  |  |  |  |  |  |
-| Essex | 44 |  |  | 6 |  |  |  |  |
+| Essex | 44 |  |  | 6 | CHECK |  |  |  |
 | Gloucestershire | 28 |  |  |  | 7 | CHECK |  |  |
 | Greater Manchester - Manchester & Salford | 40 |  | 22 |  | 16 |  | 1 |  |
 | Greater Manchester - North |  |  |  |  |  |  |  |  |
@@ -93,14 +93,14 @@ Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-09-0
 | Lancashire - West |  |  |  |  |  |  |  |  |
 | Leicestershire | 32 |  |  |  |  |  |  |  |
 | Lincolnshire | 13 |  |  |  |  |  |  |  |
-| London | 188 | 14 | 44 | 19 | 68 |  | 14 | 5 |
-| Merseyside - Liverpool | 12 |  |  |  |  |  |  |  |
+| London | 188 | 14 | 44 | 19 | 68 | CHECK | 14 | 5 |
+| Merseyside - Liverpool | 12 |  |  |  | CHECK |  |  |  |
 | Merseyside - Sefton |  |  |  |  |  |  |  |  |
 | Merseyside - St Helens & Knowsley |  |  |  |  |  |  |  |  |
 | Merseyside - Wirral |  |  |  |  |  |  |  |  |
 | Norfolk | 28 |  |  | CHECK |  |  |  |  |
-| North East | 144 | 1 | 12 |  |  | CHECK |  |  |
-| North Scotland |  |  |  |  |  |  |  |  |
+| North East | 144 | 1 | 12 |  | CHECK | CHECK |  | CHECK |
+| North Scotland | CHECK |  |  |  |  |  |  |  |
 | North Wales - East |  |  |  |  |  |  |  |  |
 | North Wales - West |  |  |  |  |  |  |  |  |
 | Northamptonshire | 23 |  |  |  |  |  |  |  |
@@ -113,7 +113,7 @@ Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-09-0
 | Scotland Central - Edinburgh & Lothians | 11 |  |  |  |  |  |  |  |
 | Scotland Central - Falkirk & Stirling |  |  |  |  |  |  |  |  |
 | Scotland Central - Fife |  |  |  |  |  |  |  |  |
-| Scotland Central - Tayside |  |  |  |  |  |  |  |  |
+| Scotland Central - Tayside | CHECK |  |  |  |  |  |  |  |
 | Scotland West - Ayrshire |  |  |  |  |  |  |  |  |
 | Scotland West - Glasgow | 21 |  | 7 |  |  |  |  |  |
 | Scotland West - Lanarkshire |  |  |  |  |  |  |  |  |
@@ -123,13 +123,13 @@ Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-09-0
 | Staffordshire | 23 |  |  |  |  |  |  | 4 |
 | Suffolk | 20 |  |  | 1 |  |  |  |  |
 | Surrey | 60 | 4 | 5 |  | 10 |  |  | 11 |
-| Sussex | 37 | 4 | 7 |  |  |  |  |  |
+| Sussex | 37 | 4 | 7 |  |  |  | CHECK |  |
 | Wales - Mid |  |  |  |  |  |  |  |  |
 | Wales - West |  |  |  |  |  |  |  |  |
 | Wales South - Cardiff & Vale | 11 |  |  |  |  |  |  |  |
 | Wales South - Gwent |  |  |  |  |  |  |  |  |
 | Wales South - Swansea Bay |  |  |  |  |  |  |  |  |
-| Wales South - Valleys |  |  |  |  |  |  |  |  |
+| Wales South - Valleys | CHECK |  |  |  |  |  |  |  |
 | West Midlands - Birmingham & Solihull | 36 |  |  |  | 2 |  | 1 |  |
 | West Midlands - Black Country | 7 |  |  |  |  |  |  |  |
 | West Midlands - Coventry & Warwickshire | 29 |  |  |  |  |  |  |  |
@@ -149,11 +149,11 @@ Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-09-0
 | Bedfordshire |  | 0 / 0.2 / 0/13 | 1 / 2.1 / 0/13 | 4 / 3.8 / 0/11 | 1 / 1.1 / 0/11 | 1 / 0.8 / 0/8 | 1 / 1.0 / 0/10 | 1 / 1.0 / 0/7 |
 | Berkshire |  | 0 / 3.0 / 3/13 |  | 2 / 0.9 / 0/11 |  | 1 / 0.6 / 0/8 |  | 1 / 0.4 / 0/7 |
 | Bristol & Bath |  | 0 / 0.8 / 0/13 |  | 3 / 3.0 / 1/11 |  |  | 2 / 1.8 / 0/10 | 5 / 2.9 / 0/7 |
-| Buckinghamshire |  | 0 / 0.6 / 0/13 | 1 / 0.7 / 0/13 | 1 / 1.0 / 0/11 |  | 2 / 2.1 / 0/8 | 1 / 0.8 / 0/10 | 6 / 3.4 / 3/7 |
-| Cambridgeshire |  | 1 / 0.2 / 0/13 | 3 / 2.6 / 0/13 | 1 / 1.2 / 0/11 | 6 / 3.2 / 3/11 | 3 / 4.1 / 2/8 | 0 / 0.1 / 0/10 | 1 / 1.0 / 0/7 |
+| Buckinghamshire |  | 0 / 0.6 / 0/13 | 1 / 0.7 / 0/13 | 1 / 1.0 / 0/11 |  | 2 / 2.1 / 0/8 | 1 / 0.8 / 0/10 |  |
+| Cambridgeshire |  | 1 / 0.2 / 0/13 | 3 / 2.6 / 0/13 | 1 / 1.2 / 0/11 |  | 3 / 4.1 / 2/8 | 0 / 0.1 / 0/10 | 1 / 1.0 / 0/7 |
 | Cheshire - East |  | 0 / 0.5 / 0/13 | 3 / 1.8 / 0/13 | 0 / 0.2 / 0/11 | 1 / 1.1 / 0/11 | 0 / 0.0 / 0/8 | 0 / 0.0 / 0/10 | 3 / 2.1 / 0/7 |
-| Cheshire - Warrington & Halton |  | 1 / 1.3 / 0/13 | 1 / 1.9 / 1/13 | 2 / 1.5 / 0/11 | 1 / 0.5 / 0/11 | 7 / 5.2 / 4/8 | 0 / 0.1 / 0/10 | 0 / 0.0 / 0/7 |
-| Cheshire - West |  | 0 / 1.2 / 0/13 | 1 / 1.8 / 0/13 | 2 / 1.2 / 0/11 | 6 / 2.9 / 3/11 | 1 / 1.9 / 0/8 | 1 / 0.4 / 0/10 | 1 / 0.4 / 0/7 |
+| Cheshire - Warrington & Halton |  | 1 / 1.3 / 0/13 | 1 / 1.9 / 1/13 | 2 / 1.5 / 0/11 | 1 / 0.5 / 0/11 |  | 0 / 0.1 / 0/10 | 0 / 0.0 / 0/7 |
+| Cheshire - West |  | 0 / 1.2 / 0/13 | 1 / 1.8 / 0/13 | 2 / 1.2 / 0/11 |  | 1 / 1.9 / 0/8 | 1 / 0.4 / 0/10 | 1 / 0.4 / 0/7 |
 | Cornwall |  | 0 / 1.2 / 0/13 | 1 / 0.8 / 0/13 | 0 / 0.0 / 0/11 | 0 / 0.2 / 0/11 | 0 / 0.2 / 0/8 | 0 / 0.0 / 0/10 | 0 / 0.9 / 0/7 |
 | Cumbria - North | 1 / 1.5 / 0/13 | 0 / 2.4 / 3/13 | 0 / 0.0 / 0/13 | 0 / 0.0 / 0/11 | 0 / 0.0 / 0/11 | 0 / 0.1 / 0/8 | 0 / 0.0 / 0/10 | 0 / 0.0 / 0/7 |
 | Cumbria - South | 1 / 1.1 / 0/13 |  | 1 / 0.8 / 0/13 | 0 / 0.0 / 0/11 | 2 / 0.8 / 0/11 | 0 / 0.5 / 0/8 | 1 / 0.3 / 0/10 | 0 / 0.0 / 0/7 |
@@ -161,7 +161,7 @@ Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-09-0
 | Derbyshire |  | 0 / 0.3 / 0/13 | 3 / 2.5 / 0/13 | 2 / 0.8 / 0/11 | 3 / 1.2 / 0/11 | 2 / 2.9 / 0/8 | 0 / 0.0 / 0/10 | 3 / 1.9 / 0/7 |
 | Devon |  | 3 / 0.6 / 0/13 | 5 / 3.5 / 0/13 | 2 / 2.1 / 0/11 | 5 / 2.0 / 2/11 |  | 1 / 1.1 / 0/10 | 2 / 1.3 / 0/7 |
 | Dorset |  | 1 / 1.0 / 0/13 | 3 / 3.8 / 2/13 | 0 / 0.2 / 0/11 | 3 / 1.6 / 0/11 | 1 / 2.6 / 0/8 | 0 / 0.0 / 0/10 | 3 / 0.7 / 0/7 |
-| Essex |  | 0 / 0.6 / 0/13 | 6 / 2.6 / 1/13 |  | 7 / 3.5 / 3/11 | 5 / 5.6 / 2/8 | 1 / 1.1 / 0/10 | 4 / 2.6 / 0/7 |
+| Essex |  | 0 / 0.6 / 0/13 | 6 / 2.6 / 1/13 |  |  | 5 / 5.6 / 2/8 | 1 / 1.1 / 0/10 | 4 / 2.6 / 0/7 |
 | Gloucestershire |  | 1 / 0.4 / 0/13 | 4 / 1.8 / 0/13 | 0 / 0.0 / 0/11 |  |  | 1 / 1.2 / 0/10 | 2 / 1.9 / 0/7 |
 | Greater Manchester - Manchester & Salford |  | 3 / 1.3 / 0/13 |  | 4 / 3.9 / 2/11 |  | 4 / 3.8 / 0/8 |  | 3 / 2.4 / 0/7 |
 | Greater Manchester - North | 3 / 3.1 / 1/13 | 0 / 0.0 / 0/13 | 0 / 0.2 / 0/13 | 0 / 0.0 / 0/11 | 0 / 0.0 / 0/11 | 0 / 0.0 / 0/8 | 0 / 0.1 / 0/10 | 1 / 0.4 / 0/7 |
@@ -178,14 +178,14 @@ Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-09-0
 | Lancashire - West | 0 / 1.1 / 0/12 | 0 / 0.1 / 0/12 | 1 / 1.2 / 0/12 | 0 / 0.0 / 0/11 | 0 / 0.0 / 0/11 | 0 / 0.0 / 0/8 | 0 / 0.0 / 0/10 | 0 / 0.0 / 0/7 |
 | Leicestershire |  | 0 / 0.1 / 0/13 | 2 / 1.6 / 0/13 | 2 / 1.5 / 0/11 | 2 / 1.2 / 0/11 | 2 / 2.8 / 1/8 | 1 / 0.8 / 0/10 | 2 / 2.6 / 0/7 |
 | Lincolnshire |  | 0 / 1.5 / 0/13 | 5 / 1.8 / 0/13 | 2 / 1.5 / 0/11 | 2 / 2.6 / 0/11 | 1 / 2.4 / 0/8 | 2 / 1.5 / 0/10 | 1 / 1.0 / 0/7 |
-| London |  |  |  |  |  | 7 / 5.6 / 4/8 |  |  |
-| Merseyside - Liverpool |  | 0 / 0.3 / 0/13 | 0 / 0.2 / 0/13 | 2 / 0.6 / 0/11 | 7 / 2.7 / 2/11 | 1 / 0.6 / 0/8 | 0 / 0.1 / 0/10 | 0 / 0.0 / 0/7 |
+| London |  |  |  |  |  |  |  |  |
+| Merseyside - Liverpool |  | 0 / 0.3 / 0/13 | 0 / 0.2 / 0/13 | 2 / 0.6 / 0/11 |  | 1 / 0.6 / 0/8 | 0 / 0.1 / 0/10 | 0 / 0.0 / 0/7 |
 | Merseyside - Sefton | 0 / 0.1 / 0/12 | 0 / 0.0 / 0/12 | 0 / 0.0 / 0/12 | 0 / 0.0 / 0/11 | 0 / 0.0 / 0/11 | 0 / 0.0 / 0/8 | 0 / 0.0 / 0/10 | 0 / 0.0 / 0/7 |
 | Merseyside - St Helens & Knowsley | 1 / 1.8 / 0/12 | 0 / 0.0 / 0/12 | 1 / 0.8 / 0/12 | 0 / 0.0 / 0/11 | 0 / 0.0 / 0/11 | 1 / 1.5 / 0/8 | 0 / 0.0 / 0/10 | 0 / 0.0 / 0/7 |
 | Merseyside - Wirral | 1 / 1.5 / 0/13 | 0 / 0.4 / 0/13 | 1 / 1.0 / 0/13 | 1 / 0.5 / 0/11 | 2 / 0.7 / 0/11 | 1 / 0.4 / 0/8 | 0 / 0.0 / 0/10 | 1 / 1.0 / 0/7 |
 | Norfolk |  | 0 / 0.9 / 0/13 | 1 / 0.7 / 0/13 |  | 1 / 1.5 / 0/11 | 2 / 3.6 / 2/8 | 0 / 0.2 / 0/10 | 1 / 0.9 / 0/7 |
-| North East |  |  |  | 1 / 1.0 / 0/11 | 6 / 4.5 / 3/11 |  | 1 / 1.1 / 0/10 | 8 / 7.9 / 3/7 |
-| North Scotland | 5 / 5.5 / 4/12 | 0 / 0.0 / 0/12 | 6 / 3.5 / 3/12 | 0 / 0.2 / 0/11 | 0 / 0.0 / 0/11 | 1 / 1.5 / 0/8 | 0 / 0.0 / 0/10 | 0 / 0.0 / 0/7 |
+| North East |  |  |  | 1 / 1.0 / 0/11 |  |  | 1 / 1.1 / 0/10 |  |
+| North Scotland |  | 0 / 0.0 / 0/12 | 6 / 3.5 / 3/12 | 0 / 0.2 / 0/11 | 0 / 0.0 / 0/11 | 1 / 1.5 / 0/8 | 0 / 0.0 / 0/10 | 0 / 0.0 / 0/7 |
 | North Wales - East | 4 / 4.5 / 1/12 | 0 / 0.2 / 0/12 | 2 / 1.5 / 0/12 | 0 / 0.0 / 0/11 | 1 / 0.5 / 0/11 | 1 / 1.4 / 0/8 | 0 / 0.0 / 0/10 | 1 / 1.0 / 0/7 |
 | North Wales - West | 3 / 2.0 / 0/12 | 0 / 0.0 / 0/12 | 0 / 0.0 / 0/12 | 0 / 0.0 / 0/11 | 0 / 0.0 / 0/11 | 0 / 0.0 / 0/8 | 1 / 0.4 / 0/10 | 1 / 0.6 / 0/7 |
 | Northamptonshire |  | 0 / 0.0 / 0/13 | 10 / 4.5 / 3/13 | 1 / 1.3 / 0/11 | 4 / 2.5 / 0/11 | 1 / 2.9 / 2/8 | 3 / 2.6 / 1/10 | 1 / 0.4 / 0/7 |
@@ -198,7 +198,7 @@ Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-09-0
 | Scotland Central - Edinburgh & Lothians |  | 0 / 0.1 / 0/12 | 3 / 2.4 / 0/12 | 3 / 2.5 / 0/11 | 1 / 0.3 / 0/11 | 1 / 1.1 / 0/8 | 1 / 0.5 / 0/10 | 1 / 0.4 / 0/7 |
 | Scotland Central - Falkirk & Stirling | 1 / 2.4 / 0/12 | 0 / 0.0 / 0/12 | 0 / 0.0 / 0/12 | 0 / 0.0 / 0/11 | 0 / 0.0 / 0/11 | 0 / 1.0 / 0/8 | 0 / 0.0 / 0/10 | 0 / 0.0 / 0/7 |
 | Scotland Central - Fife | 2 / 1.6 / 0/12 | 0 / 0.0 / 0/12 | 2 / 1.2 / 0/12 | 0 / 0.0 / 0/11 | 0 / 0.0 / 0/11 | 0 / 0.5 / 0/8 | 0 / 0.0 / 0/10 | 0 / 0.0 / 0/7 |
-| Scotland Central - Tayside | 5 / 4.0 / 0/12 | 0 / 0.0 / 0/12 | 0 / 0.2 / 0/12 | 1 / 1.2 / 0/11 | 0 / 0.2 / 0/11 | 0 / 0.5 / 0/8 | 0 / 0.0 / 0/10 | 1 / 0.4 / 0/7 |
+| Scotland Central - Tayside |  | 0 / 0.0 / 0/12 | 0 / 0.2 / 0/12 | 1 / 1.2 / 0/11 | 0 / 0.2 / 0/11 | 0 / 0.5 / 0/8 | 0 / 0.0 / 0/10 | 1 / 0.4 / 0/7 |
 | Scotland West - Ayrshire | 1 / 0.6 / 0/12 | 0 / 0.0 / 0/12 | 0 / 0.0 / 0/12 | 1 / 0.5 / 0/11 | 0 / 0.0 / 0/11 | 0 / 0.0 / 0/8 | 0 / 0.0 / 0/10 | 1 / 0.7 / 0/7 |
 | Scotland West - Glasgow |  | 0 / 0.0 / 0/12 |  | 1 / 0.4 / 0/11 | 1 / 0.3 / 0/11 | 0 / 0.2 / 0/8 | 0 / 0.5 / 0/10 | 4 / 3.4 / 1/7 |
 | Scotland West - Lanarkshire | 0 / 0.4 / 0/12 | 0 / 0.1 / 0/12 | 0 / 0.3 / 0/12 | 0 / 0.0 / 0/11 | 0 / 0.0 / 0/11 | 1 / 0.1 / 0/8 | 0 / 0.0 / 0/10 | 0 / 0.0 / 0/7 |
@@ -208,13 +208,13 @@ Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-09-0
 | Staffordshire |  | 0 / 0.2 / 0/13 | 2 / 1.5 / 0/13 | 0 / 0.0 / 0/11 | 1 / 1.3 / 0/11 | 3 / 2.6 / 0/8 | 0 / 0.1 / 0/10 |  |
 | Suffolk |  | 0 / 0.8 / 0/13 | 3 / 1.8 / 0/13 |  | 1 / 0.5 / 0/11 | 1 / 1.6 / 0/8 | 1 / 1.0 / 0/10 | 1 / 0.6 / 0/7 |
 | Surrey |  |  |  | 6 / 4.2 / 1/11 |  | 3 / 4.6 / 2/8 | 3 / 2.2 / 0/10 |  |
-| Sussex |  |  |  | 4 / 2.4 / 0/11 | 5 / 2.9 / 0/11 | 3 / 3.9 / 0/8 | 5 / 5.6 / 6/10 | 5 / 3.3 / 0/7 |
+| Sussex |  |  |  | 4 / 2.4 / 0/11 | 5 / 2.9 / 0/11 | 3 / 3.9 / 0/8 |  | 5 / 3.3 / 0/7 |
 | Wales - Mid | 0 / 0.1 / 0/12 | 0 / 0.0 / 0/12 | 0 / 0.0 / 0/12 | 0 / 0.0 / 0/11 | 0 / 0.0 / 0/11 | 0 / 0.0 / 0/8 | 0 / 0.0 / 0/10 | 0 / 0.0 / 0/7 |
 | Wales - West | 4 / 2.2 / 0/12 | 0 / 0.0 / 0/12 | 0 / 0.0 / 0/12 | 0 / 0.0 / 0/11 | 0 / 0.0 / 0/11 | 0 / 0.5 / 0/8 | 1 / 0.3 / 0/10 | 0 / 0.0 / 0/7 |
 | Wales South - Cardiff & Vale |  | 0 / 0.0 / 0/12 | 3 / 1.9 / 0/12 | 2 / 1.5 / 0/11 | 1 / 1.0 / 0/11 | 0 / 0.9 / 0/8 | 0 / 0.0 / 0/10 | 1 / 0.4 / 0/7 |
 | Wales South - Gwent | 1 / 2.4 / 0/12 | 0 / 0.1 / 0/12 | 0 / 0.2 / 0/12 | 2 / 1.5 / 0/11 | 0 / 0.0 / 0/11 | 0 / 0.5 / 0/8 | 0 / 0.0 / 0/10 | 0 / 0.0 / 0/7 |
 | Wales South - Swansea Bay | 4 / 3.3 / 1/12 | 0 / 0.1 / 0/12 | 1 / 1.7 / 0/12 | 0 / 0.6 / 0/11 | 0 / 0.1 / 0/11 | 0 / 0.2 / 0/8 | 0 / 0.0 / 0/10 | 0 / 0.0 / 0/7 |
-| Wales South - Valleys | 7 / 3.4 / 4/12 | 0 / 0.0 / 0/12 | 2 / 0.7 / 0/12 | 4 / 2.8 / 0/11 | 0 / 0.4 / 0/11 | 0 / 0.1 / 0/8 | 0 / 0.0 / 0/10 | 2 / 1.1 / 0/7 |
+| Wales South - Valleys |  | 0 / 0.0 / 0/12 | 2 / 0.7 / 0/12 | 4 / 2.8 / 0/11 | 0 / 0.4 / 0/11 | 0 / 0.1 / 0/8 | 0 / 0.0 / 0/10 | 2 / 1.1 / 0/7 |
 | West Midlands - Birmingham & Solihull |  | 1 / 1.0 / 0/13 | 10 / 4.9 / 3/13 | 4 / 4.0 / 2/11 |  | 3 / 2.8 / 0/8 |  | 5 / 3.9 / 0/7 |
 | West Midlands - Black Country |  | 1 / 1.1 / 0/13 | 1 / 1.0 / 0/13 | 3 / 1.5 / 0/11 | 1 / 0.5 / 0/11 | 1 / 1.2 / 0/8 | 0 / 0.0 / 0/10 | 1 / 1.0 / 0/7 |
 | West Midlands - Coventry & Warwickshire |  | 0 / 0.0 / 0/13 | 6 / 2.0 / 3/13 | 1 / 0.6 / 0/11 | 3 / 2.6 / 0/11 | 2 / 2.2 / 0/8 | 3 / 3.1 / 0/10 | 1 / 0.6 / 0/7 |
@@ -229,7 +229,7 @@ Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-09-0
 
 | Measure | Service admin | Support worker | Sales advisor | Paralegal | Marketing | Finance / Accounts | HR / Recruitment | CS / Contact centre |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| Live regions | 48 / 78 | 11 / 78 | 11 / 78 | 4 / 78 | 11 / 78 | 8 / 78 | 6 / 78 | 4 / 78 |
-| Live slice placements | 1497 | 43 + 1 CHECK | 136 | 26 + 1 CHECK | 158 | 0 + 8 CHECK | 23 | 30 |
+| Live regions | 51 / 78 | 11 / 78 | 11 / 78 | 4 / 78 | 16 / 78 | 10 / 78 | 7 / 78 | 6 / 78 |
+| Live slice placements | 1497 + 3 CHECK | 43 + 1 CHECK | 136 | 26 + 1 CHECK | 158 + 5 CHECK | 0 + 10 CHECK | 23 + 1 CHECK | 30 + 2 CHECK |
 
-**Live slices: 103 / 624.**
+**Live slices: 116 / 624.**
