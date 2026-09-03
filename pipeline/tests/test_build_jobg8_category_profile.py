@@ -73,6 +73,14 @@ class JobG8CategoryProfileTests(unittest.TestCase):
             2,
         )
 
+    def test_overview_rebuilds_after_review_apply_completes(self) -> None:
+        repo_root = Path(__file__).resolve().parents[2]
+        workflow = (
+            repo_root / ".github/workflows/build-daily-region-overview.yml"
+        ).read_text(encoding="utf-8")
+
+        self.assertIn("- Apply JobG8 review decisions", workflow)
+
 
 if __name__ == "__main__":
     unittest.main()

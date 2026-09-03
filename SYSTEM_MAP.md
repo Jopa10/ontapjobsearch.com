@@ -7,7 +7,7 @@ This is the authoritative technical map of the persistent Ontap system. It is or
 
 ## Recent canonical changes
 
-- 3 September 2026 — **Post-review JobG8 category counts now reconcile to live inventory:** `Apply JobG8 review decisions` rebuilds `jobg8-feed-category-profile.csv` after applying owner decisions and before committing the reviewed outputs. The profile therefore includes newly selected or excluded jobs from the same restored feed, and the subsequent daily overview's JobG8 classification total matches its authoritative live-site JobG8 total instead of retaining the pre-review snapshot.
+- 3 September 2026 — **Post-review JobG8 category counts now reconcile to live inventory:** `Apply JobG8 review decisions` rebuilds `jobg8-feed-category-profile.csv` after applying owner decisions and before committing the reviewed outputs. `Build daily regional overview` listens directly for completion of that workflow because GitHub suppresses `push` events created with the workflow token; it therefore rebuilds the Markdown and Excel reports from the corrected profile rather than retaining the pre-review snapshot.
 
 - 2 September 2026 — **Customer Service coverage and publication now deduplicate employer campaigns:** exact-title matches sharing the same region, employer and normalised advert campaign count once even when JobG8 supplies many IDs and synonymous titles. The same opening-location conflict guard used by Customer Sales rejects adverts whose stated location belongs to another region. This corrects the North East diagnostic spike from 78 raw rows—73 from EE, including 71 variants of one campaign—to distinct regional opportunities, and the rule is shared by diagnostics and LIVE publication.
 
