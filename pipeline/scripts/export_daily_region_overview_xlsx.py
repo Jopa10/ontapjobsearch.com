@@ -12,6 +12,7 @@ from openpyxl.utils import get_column_letter
 SECTION_SHEETS = (
     ("## SITEWIDE RECONCILIATION", "Sitewide"),
     ("## JOBG8 FEED RECEIVED", "JobG8 categories"),
+    ("## PAGES", "PAGES"),
     ("## LIVE", "LIVE"),
     ("## NOT LIVE", "NOT LIVE"),
 )
@@ -96,6 +97,15 @@ def export(markdown_path: Path, output_path: Path) -> None:
             sheet.column_dimensions["A"].width = 34
             for column in range(2, sheet.max_column + 1):
                 sheet.column_dimensions[get_column_letter(column)].width = 24 if sheet_name == "NOT LIVE" else 18
+        if sheet_name == "PAGES":
+            widths = {"A": 12, "B": 24, "C": 34, "D": 30, "E": 58, "F": 14, "G": 14, "H": 12}
+            for column, width in widths.items():
+                sheet.column_dimensions[column].width = width
+            sheet.freeze_panes = "A2"
+            for row_number in range(2, min(sheet.max_row, 6) + 1):
+                for cell in sheet[row_number]:
+                    cell.fill = PatternFill("solid", fgColor="D9EAF7")
+                    cell.font = Font(bold=True)
         if sheet_name == "NOT LIVE":
             for row_number in range(2, sheet.max_row + 1):
                 sheet.row_dimensions[row_number].height = 20

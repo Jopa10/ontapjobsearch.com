@@ -7,6 +7,8 @@ This is the short owner view of how Ontap is organised. It mirrors the five cano
 
 ## Recent canonical changes
 
+- 3 September 2026 — **The daily regional overview workbook now includes a `PAGES` tab:** it shows the total number of published/indexable URLs, separates individual job, regional/category, city and core pages, and lists every non-job URL with its current job count. London-wide Admin and its Central, North, East, South and West pages are listed separately rather than hidden behind one regional cell. The first snapshot totals **1,964 URLs (1,833 job + 98 regional/category + 25 city + 8 core)**.
+
 - 3 September 2026 — **Thirteen additional regional/category slices are LIVE:** North Scotland, Tayside and South Wales Valleys Service Admin; Cambridgeshire, Cheshire West, Essex, Liverpool and North East Marketing; Warrington & Halton and London Finance / Accounts; Sussex HR / Recruitment; and Buckinghamshire and North East Customer Service / Contact Centre. They use the existing governed selectors and shared regional-page publisher. The LIVE register totals are now **51 / 16 / 10 / 7 / 6** markets for those five families respectively; no classifier or general launch-rule change is included.
 
 - 3 September 2026 — **Belfast, Glasgow, Edinburgh and Cardiff city pages are LIVE:** the four permanent Service Admin city routes launch with **27, 21, 10 and 10** exact-city jobs respectively, drawn from Northern Ireland East, Glasgow, Edinburgh & Lothians and Cardiff & Vale. This is an owner-approved one-off waiver of missing 3-of-7 history after live-site/analytics review; the normal city launch rule remains unchanged.

@@ -7,6 +7,7 @@ import csv
 import io
 import json
 from pathlib import Path
+import re
 import subprocess
 from zoneinfo import ZoneInfo
 
@@ -23,6 +24,16 @@ REGISTER = PIPELINE_ROOT / "registers" / "region_category_slice_register.csv"
 OUTPUT = PIPELINE_ROOT / "reports-daily" / "daily-region-overview.md"
 JOBG8_CATEGORY_PROFILE = PIPELINE_ROOT / "reports-daily" / "jobg8-feed-category-profile.csv"
 EXPECTED_REGION_COUNT = 78
+CORE_ROUTES = {
+    "/",
+    "/browse-jobs",
+    "/about",
+    "/ai-tips",
+    "/contact",
+    "/privacy-policy",
+    "/terms-of-service",
+    "/sector-switching",
+}
 
 FAMILIES = (
     {
@@ -246,6 +257,121 @@ def _load_statuses() -> dict[tuple[str, str], str]:
             if region and category:
                 statuses[(region, category)] = status
     return statuses
+
+
+def _published_page_inventory() -> tuple[list[list[object]], dict[str, int]]:
+    """Mirror the public sitemap's non-job routes and published job-page gate."""
+    sitemap_source = (REPO_ROOT / "app" / "sitemap.ts").read_text(encoding="utf-8")
+    base_match = re.search(r"const baseRoutes = \[(.*?)\]", sitemap_source, re.S)
+    if not base_match:
+        raise RuntimeError("Could not read baseRoutes from app/sitemap.ts")
+    base_routes = re.findall(r"['\"](/[^'\"]*)['\"]", base_match.group(1))
+
+    route_catalog = _load_json(PIPELINE_ROOT / "config" / "job_slice_catalog.json") or {}
+    categories = route_catalog.get("categories", {})
+    regions = route_catalog.get("regions", {})
+    statuses = _load_statuses()
+
+    details: list[list[object]] = []
+    seen_routes: set[str] = set()
+
+    def add(page_type: str, area: str, family: str, route: str, jobs: int | str = "") -> None:
+        if route in seen_routes:
+            return
+        seen_routes.add(route)
+        details.append(["Detail", page_type, area, family, route, 1, jobs, "Yes"])
+
+    for route in base_routes:
+        if route in CORE_ROUTES:
+            add("Core", "Sitewide", "", route)
+            continue
+        parts = route.strip("/").split("/")
+        area = parts[0].replace("-", " ").title() if parts else ""
+        family = parts[-1].replace("-", " ").title() if parts else ""
+        data_path = REPO_ROOT / "app" / f"{route.strip('/')}.json"
+        if not data_path.is_file() and route.endswith("/support-worker"):
+            alternate = REPO_ROOT / "app" / f"{route.strip('/')}-jobs.json"
+            data_path = alternate if alternate.is_file() else data_path
+        add("Regional/category", area, family, route, _job_count(data_path) if data_path.is_file() else "")
+
+    city_register = _load_json(PIPELINE_ROOT / "city_pages" / "city-page-register.json") or []
+    for row in city_register:
+        if row.get("lifecycle_state") != "active" or row.get("mode") != "publish":
+            continue
+        route = str(row.get("route") or "").strip()
+        output = REPO_ROOT / str(row.get("output_json") or "")
+        if route:
+            add(
+                "City",
+                str(row.get("display_name") or ""),
+                str(row.get("category_label") or ""),
+                route,
+                _job_count(output) if output.is_file() else 0,
+            )
+
+    configured_files: list[Path] = []
+    for (region, category), status in statuses.items():
+        if status != "LIVE" or region not in regions or category not in categories:
+            continue
+        region_slug = regions[region]["slug"]
+        category_slug = categories[category]["route_slug"]
+        if (REPO_ROOT / "app" / region_slug / category_slug / "page.tsx").is_file():
+            continue
+        data_path = REPO_ROOT / "app" / "_city-pages" / "configured-slices" / region_slug / f"{category_slug}.json"
+        jobs = _job_count(data_path) if data_path.is_file() else 0
+        if not jobs:
+            continue
+        configured_files.append(data_path)
+        add(
+            "Regional/category",
+            region,
+            str(categories[category].get("display_label") or category),
+            f"/job-search/{region_slug}/{category_slug}",
+            jobs,
+        )
+
+    northern_ireland_headline = re.compile(
+        r"\b(?:belfast|londonderry|derriaghy|northern ireland|l['’]?derry|derry)\b", re.I
+    )
+    northern_ireland_description = re.compile(
+        r"\b(?:belfast|londonderry|derriaghy|l['’]?derry|derry)(?:\s+city\s+centre)?(?:-based|\s+based)?\b"
+        r"|\bbased\s+(?:in|at)\s+(?:belfast|londonderry|derriaghy|l['’]?derry|derry)\b"
+        r"|\bnorthern\s+ireland\b",
+        re.I,
+    )
+    published_ids: set[str] = set()
+    static_files = [
+        path for path in (REPO_ROOT / "app").rglob("*.json")
+        if "_city-pages" not in path.parts
+    ]
+    for path in sorted([*static_files, *configured_files]):
+        data = _load_json(path)
+        if not isinstance(data, list):
+            continue
+        for row in data:
+            if not isinstance(row, dict):
+                continue
+            job_id = str(row.get("job_id") or "").strip()
+            if not job_id or not str(row.get("title") or "").strip() or not str(row.get("apply_url") or "").strip():
+                continue
+            if str(row.get("region") or "").strip().lower() == "london":
+                headline = f"{row.get('title', '')} {row.get('location', '')}"
+                description = f"{row.get('description', '')} {row.get('full_description', '')}"
+                if northern_ireland_headline.search(headline) or northern_ireland_description.search(description):
+                    continue
+            published_ids.add(job_id)
+
+    counts = Counter(row[1] for row in details)
+    counts["Individual job"] = len(published_ids)
+    counts["Total"] = len(details) + len(published_ids)
+    summary = [
+        ["Summary", "All published/indexable URLs", "Sitewide", "", "", counts["Total"], "", "Yes"],
+        ["Summary", "Individual job", "Sitewide", "", "/jobs/[id]", counts["Individual job"], counts["Individual job"], "Yes"],
+        ["Summary", "Regional/category", "Sitewide", "", "Multiple", counts["Regional/category"], "", "Yes"],
+        ["Summary", "City", "Sitewide", "", "Multiple", counts["City"], "", "Yes"],
+        ["Summary", "Core", "Sitewide", "", "Multiple", counts["Core"], "", "Yes"],
+    ]
+    return [*summary, *details], dict(counts)
 
 
 def _git_show_main(repo_path: str) -> str:
@@ -483,6 +609,7 @@ def build() -> str:
         rollups=rollups,
         statuses=statuses,
     )
+    page_rows, page_counts = _published_page_inventory()
     teaching_counts = _load_teaching_vacancies_counts(regions)
 
     def profile_count(region_name: str, category: str) -> int | None:
@@ -613,6 +740,28 @@ def build() -> str:
             ),
             "",
         ])
+
+    lines.extend([
+        "## PAGES",
+        "",
+        (
+            f"**Published/indexable URLs: {page_counts['Total']:,}** — "
+            f"{page_counts['Individual job']:,} individual job pages, "
+            f"{page_counts['Regional/category']:,} regional/category pages, "
+            f"{page_counts['City']:,} city pages and {page_counts['Core']:,} core pages."
+        ),
+        "",
+        "| Level | Page type | Area | Family | URL | Page count | Live jobs | In sitemap |",
+        "|---|---|---|---|---|---:|---:|---|",
+        *(
+            "| " + " | ".join(
+                (f"{cell:,}" if isinstance(cell, int) else str(cell).replace("|", "\\|"))
+                for cell in row
+            ) + " |"
+            for row in page_rows
+        ),
+        "",
+    ])
 
     lines.extend([
         f"> LIVE counts come directly from the current published `app/` JSON, deduplicated within each canonical region/family slice while preserving legitimate appearances in more than one family. This is the live-site authority for the reconciliation above; the dated source-count CSV is shown only as a freshness cross-check. The overview covers all {EXPECTED_REGION_COUNT} assessable UK markets; LIVE status remains controlled only by the slice register. Before same-feed 78-market coverage has run, NOT LIVE Admin/Support and Customer Service may fall back to the latest all-region Module 2 profile ({profile_date or 'unavailable'}), and Service Admin may also add current Teaching Vacancies regional candidate output. `—` means not assessed / no current source; it does NOT mean zero.",

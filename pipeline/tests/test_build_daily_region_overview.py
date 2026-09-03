@@ -8,12 +8,31 @@ from scripts.build_daily_region_overview import (
     _live_count_for_market,
     _load_jobg8_category_profile,
     _load_family_coverage_date,
+    _published_page_inventory,
     _site_inventory_summary,
 )
 from scripts.live_job_source_counter import LiveInventory, LiveJob, LivePlacement
 
 
 class LiveRegionalRollupTests(unittest.TestCase):
+    def test_page_inventory_reconciles_and_expands_london_routes(self) -> None:
+        rows, counts = _published_page_inventory()
+        self.assertEqual(
+            counts["Total"],
+            counts["Individual job"] + counts["Regional/category"] + counts["City"] + counts["Core"],
+        )
+        routes = {row[4] for row in rows if row[0] == "Detail"}
+        london_admin_routes = {
+            "/london/service-administrator-jobs",
+            "/london/central-service-administrator-jobs",
+            "/london/north-service-administrator-jobs",
+            "/london/east-service-administrator-jobs",
+            "/london/south-service-administrator-jobs",
+            "/london/west-service-administrator-jobs",
+        }
+        self.assertTrue(london_admin_routes.issubset(routes))
+        self.assertEqual(counts["City"], 25)
+
     def test_family_coverage_requires_one_feed_date(self) -> None:
         from pathlib import Path
         import tempfile
