@@ -72,12 +72,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Shared inboxes",
-      "Reporting",
-      "Quotations"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225475468",
@@ -102,12 +97,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Systems administration",
-      "Quotations"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225476714",
@@ -282,12 +272,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Shared inboxes",
-      "Quotations"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "1770698",
@@ -312,35 +297,6 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Scheduling and bookings"
-    ]
-  },
-  {
-    "job_id": "1781441",
-    "title": "Hotel Receptionist",
-    "company": "First Recruitment Services - Agency - Permanent",
-    "location": "Sussex",
-    "region": "Sussex",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "£12.71 per hour",
-    "posted_date": "2026-08-24",
-    "description": "Part Time Receptionist\n\nHaywards Heath area - with free parking available on site - due to unique workplace location your own transport is essential.\n\nPart Time permanent role - 24 hours per week. Working three days per week x 8 hours. Eight hour shifts vary between earliest start of 0700 and latest finish 2300. Working days are on a roster basis and could include some weekend working.\n\nSalary £12.71 per hour, this is the equivalent of £15862 per year based upon 24 hours per week. A large range of benefits is available including a good pension scheme, long service awards, staff discounts and a share of tips and gratuities. Full training and uniform provided.\n\nAn exciting opportunity has arisen for a Part-Time Receptionist to join a prestigious local venue. This role offers the chance to work in ahigh-end hospitality environment, delivering exceptional customer experience. This role is ideal for candidates with customer service or hospitality experience, or those looking to move into a professional front-of-house role.\n\nPart Time Receptionist\n\nDuties will include:\n- Welcoming guests and delivering a professional, friendly first impression\n- Managing check-in and check-out process efficiently\n- Handling guest enquiries, bookings, and reservations\n- Processing guest information accurately and updating systems\n- Supporting the wider team to ensure smooth daily operations\n\nExperience, competencies and knowledge required:\n- Driver with own vehicle due to workplace location.\n- Strong customer service skills with a positive and friendly manner\n- Excellent attention to detail and organisation skills\n- Great communication skills (spoken and written English)\n- Ability to work flexible shifts including some evenings and weekends\n\nFor more information regarding this new and exciting Part Time Receptionist opportunity, please apply now! Short-listing will take place soon - don't miss out!\n\nWild Recruitment Ltd T/A First Recruitment Services is acting as an Employment Agency in relation to this vacancy.\n\nPlease note that no terminology in this advert is intended to discriminate on the grounds of a person's gender, marital status, race, religion, colour, age, disability or sexual orientation. Every candidate will be assessed only in accordance with their merits, qualifications and ability to perform the duties of the job",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?mDcEDJmYTbxKia0hmTHB%2be8uI5JtPqAit",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "First Recruitment Services",
-    "advertiser_type": "Agency",
-    "work_pattern": "Part Time",
-    "salary_period": "Hourly",
     "posted_date_basis": "ontap_first_published"
   },
   {
@@ -416,12 +372,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Quotations",
-      "Order processing"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225527297",
@@ -496,11 +447,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Records administration"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225547434",
@@ -525,11 +472,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Records administration"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225548414",
@@ -579,32 +522,28 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Data entry"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
-    "job_id": "23643_225460325",
-    "title": "Premises Co-ordinator - ASAP Start",
-    "company": "Office Angels - Agency - Contract",
+    "job_id": "23643_225458792",
+    "title": "Customer Service Coordinator",
+    "company": "Morgan Mckinley (Crawley) - Agency - Temporary",
     "location": "Sussex",
     "region": "Sussex",
     "country": "UK",
     "category": "Admin/Service – Office Support",
-    "employment_type": "Contract",
-    "salary_min": "15",
-    "salary_max": "15",
-    "salary_text": "£15 per hour",
-    "posted_date": "2026-08-12",
-    "description": "JOB ROLE: School Premises Coordinator\n\nHOURS: Monday - Friday 7am - 3pm (Flex required)\n\nSALARY: 15 - 16 per hour\n\nLOCATION: Burgess Hill Must be a car driver\n\nDURATION: Ongoing\n\nDUTIES INCLUDE;\n\nWorking closely with the School Business Manager and Site Team, you will play a key role in coordinating the day-to-day operations of the school's premises, facilities, health and safety requirements, and contractor activities.\n\nKey Responsibilities:\n- Coordinate the day-to-day operation of the school's premises and facilities.\n- Support the maintenance, security, and cleanliness of the school site.\n- Monitor and manage planned preventative maintenance schedules.\n- Liaise with contractors and service providers, ensuring work is completed to agreed standards.\n- Assist with health and safety compliance, inspections, and record keeping.\n- Coordinate site access for visitors, contractors, and external organisations.\n- Support the management of lettings and community use of school facilities.\n- Report and respond to maintenance issues promptly and effectively.\n- Help ensure the school site is safe, secure, and compliant with statutory requirements.\n- Maintain accurate records relating to premises, facilities, and health and safety.\n\nPerson Specification:\n- Proven experience in premises or facilities management (preferably in an educational setting).\n- Strong understanding of health and safety legislation.\n- Excellent organisational and problem-solving skills.\n- Ability to lead a team and manage contractors effectively.\n- Practical skills in building maintenance and repair.\n- Flexibility to respond to out-of-hours emergencies when required.\n\nNext steps:\n- Apply today, the client is looking for someone to start immediately!\n- Please apply today with your up to date CV\n- If you experience any issues applying, please send your CV along with the name of the role you are applying for to (url removed)\n- We are committed to safeguarding and promoting the welfare of children and expect all staff and volunteers to share this commitment. Where applicable to the role a Criminal Record Check at the appropriate level for the role will be required prior to commencing employment.\n\nWorking as a temp is an ideal way of exploring different job roles and industries. It's also gives you control of your own work/life balance. Here are just some of the benefits you can expect when you become part of the Office Angels team:\n- Employed directly with Office Angels, meaning we're always on hand to ensure you're being well looked after\n- Eye care vouchers and money towards glasses should you require them for VDU purposes\n- We can search for permanent work whilst you're in assignments and offer expert interview support and advice\n- Weekly pay\n- Pension scheme option (with employer contributions)\n- 28 days paid annual leave (Based on a weekly accrual)\n\nOffice Angels are an equal opportunity employer and are acting as a recruitment agency for this vacancy.\nPlease be aware we receive a lot of applicants for our roles if you have not been contacted within the next 5 days of applying for this role on this occasion you have not been successful but please go to our website for more vacancies - (url removed).\n\nOffice Angels are an equal opportunity employer and are acting as a recruitment agency for this vacancy.\n\nOffice Angels is an employment agency and business. We are an equal-opportunities employer who puts expertise, energy and enthusiasm into improving everyone's chance of being part of the workplace. We respect and appreciate people of all ethnicities, generations, religious beliefs, sexual orientations, gender identities, abilities and more. By showcasing talents, skills and unique experiences in an inclusive environment, we help individuals thrive. If you require reasonable adjustments at any stage, please let us know and we will be happy to support you.\n\nOffice Angels acts as an employment agency for permanent recruitment and an employment business for the supply of temporary workers. Office Angels UK is an Equal Opportunities Employer.\n\nBy applying for this role your details will be submitted to Office Angels. Our Candidate Privacy Information Statement explaining how we will use your information is available on our website.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?MQiKzVwZdh2zcowXhU5om7hAcx3MI5ntu",
+    "employment_type": "Temporary",
+    "salary_min": "12.98",
+    "salary_max": "13.22",
+    "salary_text": "£12.98 - £13.22 per hour",
+    "posted_date": "2026-09-03",
+    "description": "We're currently recruiting for an experienced Customer Service Coordinator to join our client's busy operations team on an ongoing temporary basis. This is a fantastic opportunity for someone who thrives in a fast-paced, client-focused environment.\n\nAs the first point of contact for customers, you'll manage enquiries via phone and email, resolve operational issues, coordinate with internal teams, oversee customer accounts, and ensure excellent service delivery.\n\nWhat we're looking for:\n- Previous experience in customer service roles\n- Excellent communication and relationship-building skills\n- Strong problem-solving abilities and attention to detail\n- Experience using CRM and ticketing systems\n- Ability to manage multiple priorities in a busy environment\n- A proactive, team-focused approach with a passion for delivering exceptional customer service\n\nThis is an ongoing temporary position offering an immediate start, and the opportunity to gain experience with a well-established business. If you're organised, customer-focused, and ready for your next challenge, we'd love to hear from you.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?mDcEDJmYTbxO9cftHw0hzKHSOpX9ZrwOt",
     "source": "JobG8",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Office Angels",
+    "advertiser_name": "Morgan Mckinley (Crawley)",
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
@@ -633,11 +572,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Records administration"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225475445",
@@ -662,12 +597,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Systems administration",
-      "Quotations"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225517937",
@@ -742,11 +672,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Reporting",
-      "Contract changes"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225528910",
@@ -771,11 +697,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Telephone handling",
-      "Order processing"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225547249",
@@ -825,12 +747,26 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Reporting",
-      "Order processing"
-    ]
+    "posted_date_basis": "ontap_first_published"
+  },
+  {
+    "job_id": "nhs-5570979",
+    "source": "NHS Jobs",
+    "title": "Reception Administrator",
+    "company": "Sussex Partnership NHS Foundation Trust",
+    "advertiser_name": "Sussex Partnership NHS Foundation Trust",
+    "location": "Hove, BN3 7HY",
+    "region": "Sussex",
+    "salary": "£25760.00 to £27476.00",
+    "employment_type": "Permanent",
+    "posted_date": "2026-09-03T06:15:23.386875600",
+    "closing_date": "2026-09-15",
+    "description": "We are a large NHS Mental Health Trust in South East England. We're looking for people to help us provide high quality services for the patients, carers and local communities we serve. We want patients and staff to recommend our organisation as a place where they would be happy for their friends and family to be treated. You can help us do this by bringing your skills, experience and commitment to Sussex Partnership. We are looking for an enthusiastic, self-motivated and experienced part time receptionist. You will be based to work at Hove Polyclinic, First floor on the Millview Hospital site in Nevill Avenue, Hove. The post holder will look forward to a varied and rewarding work environment, in which finding a balance between team working and utilising initiative is important. You will need the ability to foster positive working relationships & in return be an essential part of the team. The post holder will be motivated and able to organise their workload, demonstrate a professional face to face and telephone manner, and be able to liaise effectively with other agencies and members of the public. The successful candidate will provide reception duties (checking in clients, taking in deliveries, liaising with team staff, booking rooms, taking calls etc) and general office tasks to support the admin team. An ability to deal sensitively with people who may be distressed at times is also essential. To deal with all incoming telephone calls and sign post as required To ensure post both internal and external is sent to the correct staff/team To be responsible for locking up at the end of the day To deal with all room booking requests via a generic inbox and booking resource scheduler system To support the wider team with duties such as Uploading Calling service users to advise prescriptions are ready for collection Photocopying see job description for further information",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9354-26-1044",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9354-26-1044",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "A",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5572729",
@@ -909,58 +845,39 @@
     "posted_date_basis": "source"
   },
   {
-    "job_id": "nhs-5569929",
+    "job_id": "nhs-5569427",
     "source": "NHS Jobs",
-    "title": "Receptionist/Care Navigator",
-    "company": "Parklands Surgery",
-    "advertiser_name": "Parklands Surgery",
-    "location": "Chichester, PO19 3DT",
+    "title": "Digital Health Records Administration Assistant",
+    "company": "East Sussex Healthcare NHS Trust",
+    "advertiser_name": "East Sussex Healthcare NHS Trust",
+    "location": "Eastbourne, BN21 2UD",
     "region": "Sussex",
-    "salary": "£12.81",
-    "employment_type": "Permanent",
-    "posted_date": "2026-08-29T05:07:45.958232650",
-    "closing_date": "2026-09-30",
-    "description": "Parklands Surgery is a busy GP practice located in the centre of Chichester We are looking to recruit an additional member of staff to add to our current team of 6 friendly medical receptionists. 25.5 hours over 3 days (no weekends/bank holidays). Hours to be worked between: Monday - Friday 8am - 6.30pm, plus overtime available for holiday and sickness cover. The ideal candidate will need to possess extensive customer service experience, excellent verbal and written communication skills, be fully computer literate and be able to work under pressure, in a fast paced environment whilst providing the best possible care for our patients. Main Duties and Responsibilities Provide a warm, caring and professional welcome to patients attending the surgery Answering patient queries. Process patient requests and assist them in booking the most appropriate appointment. Use clinical database (SystmOne). Assist with the effective recording of data onto the clinical system. Record all patient contacts onto the computerised records in line with Practice protocols. Processing requests for repeat medication. Provide a high standard of customer service. Qualifications O-Level / GCSE or equivalent English Grade C or above Desirable O-Level / GCSE or equivalent Mathematics Grade C or above Desirable. Essential Experience Customer or Patient facing role Microsoft Office in particular MS Word, Excell and Outlook. A computer literacy test will apply. Desirable Experience Working in a busy reception (ideally in a GP or other NHS setting) Administration Emis Web or Systm1 clinical system Working in an NHS environment Medical terminology Working with customer management systems (Looking up records and finding out information from computer systems). Personal Attributes Able to communicate clearly with a wide range of people Professional and responsible attitude, reliable and punctual Able to work independently / self-motivated Able to use judgement and plan and prioritise tasks and workflows Able to take initiative and be resourceful when responding to enquiries Team-worker - flexible approach and able to adapt to changes Willing to develop and train according to the needs of the role Resilient, calm manner in busy environments Able to respect confidentiality and discretion.",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4501-26-0003",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4501-26-0003",
+    "salary": "£25272.00",
+    "employment_type": "Fixed-Term",
+    "posted_date": "2026-09-03T07:58:38.070219",
+    "closing_date": "2026-09-11",
+    "description": "We are recruiting! The role: Digital Health Records Administration Assistant (Fixed term contract, up to 18 months) The Department: Digital Health Records We are looking for a methodical and Digitally fluent Digital Health Records Administration Assistant to join our Digital Health Records team. In this role, you will be responsible for preparing and managing digital health records to ensure clinicians have accurate, up-to-date information ready for outpatient appointments. Your work will directly support the delivery of safe, efficient, and high-quality care. You will need to be a highly organised and self-motivated individual with a proactive, can-do attitude, committed to delivering a high-quality digital patient record within the fast-paced and changing environment of Digital Health Records and Clinic Preparation. Review upcoming clinic schedules and prepare day forward packs (DFPs) from the electronic patient record systems. Ensure all relevant documents have been correctly uploaded e.g. referrals, Clinical Summaries or previous clinical correspondence. Flag missing or incomplete information and follow up with appropriate departments Maintain confidentiality and comply with data protection regulations (e.g., GDPR) Collaborate with clinical and administrative staff to streamline patient flow Support digital record audits and quality improvement initiatives Prepare physical health records for scanning, including sorting, removing staples, and categorising documents. Support the flow of incoming and outgoing Inpatient and Outpatient day forward packs. Potential applicants should ensure they evidence the skills listed above in their application. Please refer to the job description attached. If you have any questions about this position please do not hesitate to contact us.",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9374-26-0803",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9374-26-0803",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
     "posted_date_basis": "source"
   },
   {
-    "job_id": "nhs-5551395",
+    "job_id": "nhs-5574965",
     "source": "NHS Jobs",
-    "title": "Mental Health Act Administrator and Medical Secretary",
-    "company": "Elysium Healthcare",
-    "advertiser_name": "Elysium Healthcare",
-    "location": "Brighton, BN3 4FH",
+    "title": "MSK Therapies - Booking Clerk",
+    "company": "East Sussex Healthcare NHS Trust",
+    "advertiser_name": "East Sussex Healthcare NHS Trust",
+    "location": "Hastings, TN37 7RD",
     "region": "Sussex",
-    "salary": "£28000.00",
+    "salary": "£25272.00",
     "employment_type": "Permanent",
-    "posted_date": "2026-08-20T12:25:46.875120909",
-    "closing_date": "2026-09-18",
-    "description": "As the Mental Health Act Administrator and Medical Secretary you will work as part of the administration team at a service for Children and Young Peoples Mental Health Service (CYPMHS). You will work 37.5 hours a week ensuring the department upholds a confidential and efficient service in accordance with the Mental Health Act 1983 (amended November 2007). You will be responsible for managing and analysing Mental Health Act correspondence and documentation, this includes undertaking assessment requests, transfer of authority, consent to treatments, renewals of detention, consent to treatments and arranging hearings, tribunals and appeals. You will also liaise with clinicians, allied professionals, service users, their families, legal representatives and official agencies, receiving and responding to enquiries and requests for information in accordance with company policy, service level agreements and statutory regulations. As the Medical Secretary, you will work alongside the Registered Clinicians assisting with confidential paperwork, servi As the Mental Health Act Administrator and Medical Secretary, you will join the administration team at the Children and Young Peoples Mental Health Service (CYPMHS). Your role involves managing and analyzing Mental Health Act documentation, handling assessment requests, authority transfers, consent to treatments, detention renewals, and organizing hearings, tribunals, and appeals. You will liaise with various stakeholders, ensuring compliance with company policy and statutory regulations. As a Medical Secretary, you support Registered Clinicians with confidential paperwork and service user records, improving process efficiency. You will contribute to administrative tasks, undertake meetings as a minute taker, and ensure information is correctly processed to meet legal requirements. Elysium Healthcare offers various training courses to help reach your career goals, emphasizing wellbeing and career development for its staff. As the Mental Health Act Administrator and Medical Secretary you will work as part of the administration team at a service for Children and Young Peoples Mental Health Service (CYPMHS). You will work 37.5 hours a week ensuring the department upholds a confidential and efficient service in accordance with the Mental Health Act 1983 (amended November 2007). You will be responsible for managing and analysing Mental Health Act correspondence and documentation, this includes undertaking assessment requests, transfer of authority, consent to treatments, renewals of detention, consent to treatments and arranging hearings, tribunals and appeals. You will also liaise with clinicians, allied professionals, service users, their families, legal representatives and official agencies, receiving and responding to enquiries and requests for information in accordance with company policy, service level agreements and statutory regulations. As the Medical Secretary, you will work alongside the Registered Clinicians assisting with confidential paperwork, service users records and GP letters. You will liaise with external agencies to get up-to-date information on service users and GP letters. In this role, you will have the opportunity to improve processes and the general flow of information so that the service can operate efficiently. At Elysium, we want the best for you. That’s why you will have continuous access to a range of training courses to enable you to reach your career goals. After all, a better you means better care. That’s what delivering great healthcare should feel like. As a Mental Health Act Administrator and Medical Secretary, you will be: Dealing with administrative tasks associated with Associate Managers appeal, renewal Hearings and Mental Health Tribunals including meeting with detained patients to explain their rights of appeal against detention under the MHA. Attending Associate Hospital Managers Hearings and support Mental Health Tribunals. Dealing with the administration of Consent to Treatment Regulations. Assisting in the administrative tasks associated with Care Quality Commission visits and reports. Co-ordinating the accurate and timely completion and processing of section papers and associated documentation ensuring the relevant information, signatories and permissions are obtained and recorded in accordance with the requirements of the MHA and code of practice. Ensuring that all information and documentation is correctly processed in line with policies and procedures in order that regulatory and statutory requirements are met. Maintaining the audit trail ensuring up-to-date and accurate information can be provided or accessed as required. Supporting the Registered Clinician with letters and general documentation Supporting all meetings as minute taker as requested chaired by the Medical Director, SMT or ad hoc. Receiving and record typing, checking, and amending for spelling and grammatical errors, completing within given deadlines. Participating in the administration, development and evaluation of regulatory matters. Co-ordinating the hospital diary and the whereabouts of the clinicians Booking in meetings Arranging Conference Calls To be successful in this role, you'll need: 4 GCSEs or equivalent (including English) Word Processing qualification is desirable MHA Administration qualification or equivalent is desirable Computer literate (Microsoft Office preferred) Experience of Medical Records administration in a mental health setting is desirable Experience of administration/office systems Experience taking notes on the meetings Communication and organisational skills Location : New Church Road Hove BN3 4FH Brighton & Hove Clinic provides a Children and Young People's Mental Health Service (CYPMHS) Tier 4 Eating Disorder service for young people aged 12 up to 18 years with a primary diagnosis of eating disorder; or an eating difficulty with a co-morbid presentation for example mental health or psychological issues, such as depression, OCD or anxiety or self-harm. What You’ll Get At Elysium Healthcare, we believe in taking care of the people who care for others, you’ll enjoy a comprehensive benefits package designed to support your wellbeing, growth, and future: Annual base salary of £28,000 The equivalent of 33 days annual leave (including bank holidays) – plus your birthday off and the option to buy additional annual leave, in our annual selection window. Career development and training to help you achieve your professional goals Access to our Rewards & Benefits platform Ely-Vate; Your one-stop destination for everyday savings, exclusive benefits, and wellbeing hub! Wellbeing support and activities to help you maintain a healthy work-life balance Access to Blue Light Card, which provides a range of exclusive offers and discounts Life Assurance, for added peace of mind Stream – instant access to earned wages when you need it, plus access to save, directly from your wages, alongside financial wellbeing support. 24/7 GP service and second medical opinion, to ensure you are the best you can be Enhanced Maternity Package, so you can truly enjoy this special time Pension contribution, to help secure your future Free meals About your next employer: Elysium Health care has over 8,000 employees and a unique approach to the delivery of care. With a network of over 80 services across England and Wales covering Mental Health, Neurological, Learning Disabilities & Autism, Children & Education, there is opportunity for you to grow and move. Elysium Healthcare is part of Ramsay Health Care with a global network that extends across 10 countries and employs over 86,000 people globally. Elysium Healthcare follows safer recruitment of staff for all appointments and is a Disability Confident employer, committed to inclusive and accessible recruitment. It is a requirement that all staff understand it is each person’s individual responsibility to promote and safeguard the welfare of service users. All candidates will be subject to a DBS disclosure",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0132-26-1831",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0132-26-1831",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "B",
-    "posted_date_basis": "source"
-  },
-  {
-    "job_id": "nhs-5492880",
-    "source": "NHS Jobs",
-    "title": "PCN Office Administrator",
-    "company": "East and Central Brighton Primary Care Network",
-    "advertiser_name": "East and Central Brighton Primary Care Network",
-    "location": "Brighton, BN1 1ND",
-    "region": "Sussex",
-    "salary": "Negotiable",
-    "employment_type": "Permanent",
-    "posted_date": "2026-08-20T08:52:11.404107576",
-    "closing_date": "2026-09-06",
-    "description": "East & Central Brighton PCN are seeking an experienced and highly organised Office Administrator to provide operational, administrative, workforce and governance support across the PCN. What We Offer NHS Pension Scheme. Generous annual leave entitlement. Training and development opportunities. Flexible and supportive working arrangements. The opportunity to contribute to improving healthcare services for local communities across Brighton. This is an exciting opportunity for an individual with strong organisational and people skills who enjoys working in a fast-paced healthcare environment and supporting service development.The Office Administrator will be responsible for the smooth day-to-day running of the PCN office environment and administrative functions. The post holder will coordinate office systems, workforce administration, recruitment processes, governance requirements and staff support activities, contributing to a well-managed and compliant organisation. Main Responsibilities Office and Facilities Management Oversee the day-to-day operation of PCN office facilities, ensuring they are safe, organised and welcoming. Manage room bookings and coordinate the use of administrative spaces. Liaise with premises providers and contractors regarding maintenance, repairs and service issues. Order and manage office supplies, equipment and resources. Maintain equipment inventories and coordinate servicing, testing and maintenance schedules. Support compliance with health and safety requirements, including fire safety, risk assessments and first aid arrangements. Workforce and HR Administration Coordinate recruitment processes, including advertising vacancies, arranging interviews and issuing correspondence. Assist with onboarding new staff, preparing offer documentation, induction packs and access requests. Support pre-employment checks, including DBS applications, right-to-work checks, references and employment compliance requirements. Maintain accurate and confidential staff records in line with GDPR, employment legislation and CQC requirements. Monitor annual leave, sickness absence and workforce records, escalating issues where appropriate. Maintain records relating to mandatory training, professional registration, occupational health and staff vaccinations. Support workforce planning, staff wellbeing initiatives and learning and development activities. Assist with the development and maintenance of an annual PCN training programme. Governance and Compliance Support compliance with CQC standards and PCN governance requirements. Maintain policy, procedure and operational documentation, ensuring version control and accessibility. Assist with internal and external audits and provide evidence and documentation as required. Ensure information governance, confidentiality and data protection requirements are adhered to at all times. Support the implementation and review of policies and procedures across the organisation. Administrative and Operational Support Organise and minute Board meetings, leadership meetings and other PCN forums. Manage PCN-wide communications, ensuring information is shared effectively with practices and staff. Process staff expense claims and maintain associated records. Act as a key point of contact for PCN staff, practices and external stakeholders. Provide administrative support to service developments, projects and operational initiatives. Provide support covering reception at our weekly Health Hub. Service Support and Improvement Work with clinical and operational colleagues to support the smooth delivery of PCN clinics. Coordinate resources, space and equipment to support efficient service delivery. Identify opportunities to improve administrative systems, processes and staff experience. Contribute to service improvement projects and the development of efficient ways of working.",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/M0022-26-0007",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/M0022-26-0007",
+    "posted_date": "2026-09-03T07:58:28.108584",
+    "closing_date": "2026-09-16",
+    "description": "An exciting opportunity has arisen to be part of the MSK Therapies service. The post will be based at Conquest Hospital however there may be opportunities to support other sites across the community. You will be part of a highly motivated, supportive and friendly team, and will interact with a wide range of organisations and clients. This is a part time post, for 21 hours per week. The role will involve the provision of administrative support to the MSK Triage Team, ensuring patient administration systems are kept up to date, booking appointments and being a first point of contact for patients via phone or email. We are looking for a dynamic, motivated individual who has previous experience of working within a busy office environment, or similar. Please refer to the job description attached. If you have any questions about this position please do not hesitate to contact us.",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9374-26-0816",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9374-26-0816",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
     "posted_date_basis": "source"

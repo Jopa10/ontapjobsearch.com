@@ -131,14 +131,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Records administration",
-      "Systems administration",
-      "Document preparation",
-      "Reporting"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "107909020",
@@ -312,6 +305,31 @@
     "advertiser_name": "SI Recruitment",
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
+    "salary_period": "Annual",
+    "posted_date_basis": "ontap_first_published"
+  },
+  {
+    "job_id": "107900212",
+    "title": "Service Coordinator (Generator)",
+    "company": "Dale Power Solutions - Agency - Permanent",
+    "location": "Scarborough",
+    "region": "Yorkshire - North",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "",
+    "posted_date": "2026-08-29",
+    "description": "Job Title: Service Coordinator (Generator)\n\nLocation: Scarborough\n\nSalary: Competitive.\n\nJob type: Full Time - Permanent. 37.50 Hrs per week Mon/Friday.\n\nWhat you'll do:\n- Coordinate all aspects of service contracts including scheduling of regular maintenance, call outs and remedial works click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?vAYWCB8ag%2fim9H3pqg4FKSXWv8WrcdYAi",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Dale Power Solutions",
+    "advertiser_type": "Agency",
+    "work_pattern": "Full Time",
     "salary_period": "Annual",
     "posted_date_basis": "ontap_first_published"
   },

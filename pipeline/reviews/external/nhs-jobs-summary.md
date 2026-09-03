@@ -2,15 +2,75 @@
 
 review_date: 2026-09-03
 
-- Open Administrative & Clerical rows reviewed: 1977
+- Open Administrative & Clerical rows reviewed: 1982
 - Auto/remembered selected: 413
 - Selected HC Tier A: 186
 - Selected HC Tier B: 227
-- POSS awaiting decision: 1380
+- POSS awaiting decision: 1385
 - Excluded: 0
 - HARD_PASS: 184
 
 Edit only each `action:` line for POSS rows. Unchanged decisions are restored by the shared decision ledger.
+
+---
+action:
+POSS | NHS Jobs | West Midlands - Black Country | Dudley, DY5 2HQ | £28392.00 to £31157.00 | DILS (Dudley Integrated Liver Service) Co-Ordinator
+source_job_id: 5576194
+title: DILS (Dudley Integrated Liver Service) Co-Ordinator
+employer: The Dudley Group NHS Foundation Trust
+region: West Midlands - Black Country
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9253-26-0419
+factual_fingerprint: 29d2d207c96c75f1f878304b05295e82a742a257410067eafdb23538e913aaed
+---
+
+---
+action:
+POSS | NHS Jobs | Essex | Basildon, SS16 5NL | £28392.00 | STACC Rota Coordinator
+source_job_id: 5576116
+title: STACC Rota Coordinator
+employer: Mid and South Essex NHS Foundation Trust
+region: Essex
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9390-26-2075
+factual_fingerprint: b8ff3828873948d4a00e759f23dd1e71c876a185c1f47494ac6b0f31cd35c979
+---
+
+---
+action:
+POSS | NHS Jobs | North East | Gateshead, NE8 4YL | £25760.00 to £27476.00 | Call Handler
+source_job_id: 5576120
+title: Call Handler
+employer: Cumbria, Northumberland, Tyne and wear (CNTW) NHS Foundation Trust
+region: North East
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9263-26-0836
+factual_fingerprint: 567595734563cfd42b8a82bee6251015f912acd8b8ee5e995443baba00bfb058
+---
+
+---
+action:
+POSS | NHS Jobs | London | London, NW1 2PG | £38488.00 to £46852.00 | Assistant Cost and Management Accountant
+source_job_id: 5575897
+title: Assistant Cost and Management Accountant
+employer: University College London Hospitals NHS Foundation Trust
+region: London
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9309-26-0886
+factual_fingerprint: 3b1678e645ac0ba3937fb2b6c394d2b1f047e5a8b1beb992e5572dd91b58ba74
+---
+
+---
+action:
+POSS | NHS Jobs | London | London, NW3 2QG | £21.72 | Bank Executive Office Support Officer (Admin & Clerical Band 6 )
+source_job_id: 5576140
+title: Bank Executive Office Support Officer (Admin & Clerical Band 6 )
+employer: Royal Free London NHS Foundation Trust
+region: London
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9391-26-1531
+factual_fingerprint: e99a5784126a56fd81bdff427ab46a8888f7d40dd8ae0edbd121348f75b22713
+---
 
 ---
 action:
@@ -69,7 +129,7 @@ employer: Bristol NHS Foundation Trust
 region: Bristol & Bath
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9387-26-1813
-factual_fingerprint: 661cdd5cf4f630828b593c0967e11c7034de2533a59e44319a0731acbb669a61
+factual_fingerprint: d687b5a1086dc3704054fd2a01c3b651a2e865cc311f8680142b50b8eb2e5dd3
 ---
 
 ---
@@ -8061,7 +8121,7 @@ employer: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
 region: Hampshire
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9348-26-1858
-factual_fingerprint: 169838f0d9543eba103b0e38b394863fabe21fa0c35ed008c658210a627ff6ec
+factual_fingerprint: f69657003dcf748df10ec06280f41f29eb6f55892daf334d62d4a7fdbccc91a9
 ---
 
 ---
