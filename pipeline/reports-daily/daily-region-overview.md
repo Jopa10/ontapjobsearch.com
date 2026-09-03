@@ -1,6 +1,6 @@
 # Ontap daily regional overview
 
-Generated: 2026-09-03T11:40:27+01:00
+Generated: 2026-09-03T15:44:27+01:00
 
 [Download this overview as Excel](./daily-region-overview.xlsx)
 
@@ -8,27 +8,27 @@ Generated: 2026-09-03T11:40:27+01:00
 
 | Measure | Count |
 |---|---:|
-| Unique live jobs | 1,854 |
+| Unique live jobs | 1,851 |
 | Unique JobG8 jobs | 1,504 |
-| Unique non-JobG8 jobs | 350 |
-| Regional/category slice placements | 1,916 |
+| Unique non-JobG8 jobs | 347 |
+| Regional/category slice placements | 1,913 |
 | Jobs appearing on multiple slices | 60 |
 | Extra slice placements | 62 |
 | Unique jobs outside governed slices | 0 |
 | Jobs found in non-LIVE slices | 0 |
 
-**Reconciliation: 1,854 unique jobs + 62 extra slice placements = 1,916 regional/category slice placements.**
+**Reconciliation: 1,851 unique jobs + 62 extra slice placements = 1,913 regional/category slice placements.**
 
-Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-09-03.csv` — **CURRENT**.
+Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-09-03.csv` — **STALE — CSV says 1,854 for 2026-09-03**.
 
 ### Provider breakdown
 
 | Provider | Unique live jobs | Jobs on 2+ slices | Extra slice placements |
 |---|---:|---:|---:|
 | JobG8 | 1,504 | 60 | 62 |
-| NEJobs | 16 | 0 | 0 |
+| NEJobs | 15 | 0 | 0 |
 | NHS Jobs | 232 | 0 | 0 |
-| Teaching Vacancies | 101 | 0 | 0 |
+| Teaching Vacancies | 99 | 0 | 0 |
 | VONNE | 1 | 0 | 0 |
 
 ## JOBG8 FEED RECEIVED
@@ -76,7 +76,7 @@ Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-09-0
 | Derbyshire | 10 |  |  |  |  |  |  |  |
 | Devon | 26 |  |  |  |  | CHECK |  |  |
 | Dorset | 21 |  |  |  |  |  |  |  |
-| Essex | 45 |  |  | 6 |  |  |  |  |
+| Essex | 44 |  |  | 6 |  |  |  |  |
 | Gloucestershire | 28 |  |  |  | 7 | CHECK |  |  |
 | Greater Manchester - Manchester & Salford | 40 |  | 22 |  | 16 |  | 1 |  |
 | Greater Manchester - North |  |  |  |  |  |  |  |  |
@@ -99,7 +99,7 @@ Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-09-0
 | Merseyside - St Helens & Knowsley |  |  |  |  |  |  |  |  |
 | Merseyside - Wirral |  |  |  |  |  |  |  |  |
 | Norfolk | 28 |  |  | CHECK |  |  |  |  |
-| North East | 145 | 1 | 12 |  |  | CHECK |  |  |
+| North East | 144 | 1 | 12 |  |  | CHECK |  |  |
 | North Scotland |  |  |  |  |  |  |  |  |
 | North Wales - East |  |  |  |  |  |  |  |  |
 | North Wales - West |  |  |  |  |  |  |  |  |
@@ -138,7 +138,7 @@ Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-09-0
 | Yorkshire - East | 22 |  |  |  |  |  |  |  |
 | Yorkshire - North | 22 |  |  |  |  | CHECK |  |  |
 | Yorkshire - South | 28 | CHECK |  |  |  |  |  |  |
-| Yorkshire - West | 55 | 2 | 5 |  |  | CHECK | 3 |  |
+| Yorkshire - West | 54 | 2 | 5 |  |  | CHECK | 3 |  |
 
 ## NOT LIVE
 
@@ -230,6 +230,6 @@ Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-09-0
 | Measure | Service admin | Support worker | Sales advisor | Paralegal | Marketing | Finance / Accounts | HR / Recruitment | CS / Contact centre |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
 | Live regions | 48 / 78 | 11 / 78 | 11 / 78 | 4 / 78 | 11 / 78 | 8 / 78 | 6 / 78 | 4 / 78 |
-| Live slice placements | 1500 | 43 + 1 CHECK | 136 | 26 + 1 CHECK | 158 | 0 + 8 CHECK | 23 | 30 |
+| Live slice placements | 1497 | 43 + 1 CHECK | 136 | 26 + 1 CHECK | 158 | 0 + 8 CHECK | 23 | 30 |
 
 **Live slices: 103 / 624.**
