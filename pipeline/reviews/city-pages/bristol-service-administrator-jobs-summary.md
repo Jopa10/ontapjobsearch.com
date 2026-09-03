@@ -4,7 +4,7 @@
 - Live route: `/bristol/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 21
+- Effective included jobs: 24
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 21
+- automatic include: 24
 - automatic review: 2
 - automatic exclude: 2
-- effective include: 21
+- effective include: 24
 - effective review: 2
 - effective exclude: 2
 
-## INCLUDE (21)
+## INCLUDE (24)
 
 ---
 action: 
@@ -45,18 +45,6 @@ company: Royal Devon University Healthcare NHS Foundation Trust
 location: Bristol, BS2 8EG
 source: NHS Jobs
 job_id: nhs-5561013
-reason: Approved conservative Bristol launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrator
-company: Oxleas NHS Foundation Trust
-location: Bristol, BS16 9QJ
-source: NHS Jobs
-job_id: nhs-5559839
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -112,11 +100,35 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Air Freight Co-Ordinator
+company: Travail Employment Group - Agency - Permanent
+location: Bristol
+source: JobG8
+job_id: jobg8-23643_225557768
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Business Support Officer
 company: Blue Arrow - Agency - Temporary
 location: Bristol
 source: JobG8
-job_id: jobg8-23643_225519387
+job_id: jobg8-23643_225558310
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Customs Administrator
+company: Travail Employment Group - Agency - Permanent
+location: Bristol
+source: JobG8
+job_id: jobg8-23643_225557766
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -141,6 +153,18 @@ company: Thrive SW - Agency - Permanent
 location: Bristol
 source: JobG8
 job_id: jobg8-23643_225547840
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Imaging Administrator
+company: Spire Healthcare - Company - Permanent
+location: Bristol
+source: JobG8
+job_id: jobg8-23643_225556797
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -201,6 +225,18 @@ company: Lancer Scott Holdings Ltd - Agency - Permanent
 location: Bristol
 source: JobG8
 job_id: jobg8-23643_225469737
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Reception and Appointment Clerk
+company: Bristol NHS Foundation Trust
+location: Bristol, BS2 8EL
+source: NHS Jobs
+job_id: nhs-5575417
 reason: Approved conservative Bristol launch catchment.
 ---
 

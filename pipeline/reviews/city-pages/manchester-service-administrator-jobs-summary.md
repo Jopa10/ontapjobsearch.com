@@ -40,6 +40,18 @@ reason: Approved conservative Manchester launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Administration Assistant
+company: Greater Manchester Mental Health NHS Foundation Trust
+location: Old Trafford, Manchester, M16 9HD
+source: NHS Jobs
+job_id: nhs-5570713
+reason: Approved conservative Manchester launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Administrative Assistant
 company: Manchester University NHS Foundation Trust
 location: Manchester, M13 9WL
@@ -57,6 +69,18 @@ company: Consula Group LTD - Agency - Permanent
 location: Manchester
 source: JobG8
 job_id: jobg8-1743709
+reason: Approved conservative Manchester launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administrator
+company: Manchester University NHS Foundation Trust
+location: Manchester, M14 4GP
+source: NHS Jobs
+job_id: nhs-5573700
 reason: Approved conservative Manchester launch catchment.
 ---
 
@@ -105,18 +129,6 @@ company: V7 Recruitment - Agency - Permanent
 location: Manchester
 source: JobG8
 job_id: jobg8-23643_225527036
-reason: Approved conservative Manchester launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Care Navigator Receptionist
-company: Orchard Medical Centre
-location: Manchester, M28 1LZ
-source: NHS Jobs
-job_id: nhs-5571870
 reason: Approved conservative Manchester launch catchment.
 ---
 
@@ -201,18 +213,6 @@ company: Hiring People - Agency - Permanent
 location: Manchester
 source: JobG8
 job_id: jobg8-1767548
-reason: Approved conservative Manchester launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: HR and Facilities Coordinator
-company: Jobwise Ltd - Agency - Permanent
-location: Manchester
-source: JobG8
-job_id: jobg8-23643_225494042
 reason: Approved conservative Manchester launch catchment.
 ---
 
@@ -328,11 +328,11 @@ reason: Approved conservative Manchester launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Receptionist & Admin
-company: The Vallance Brunswick Group
-location: Manchester, M13 9UJ
+title: Receptionist
+company: Greater Manchester Mental Health NHS Foundation Trust
+location: Manchester, M40 5BP
 source: NHS Jobs
-job_id: nhs-5535381
+job_id: nhs-5573617
 reason: Approved conservative Manchester launch catchment.
 ---
 
@@ -388,18 +388,6 @@ reason: Approved conservative Manchester launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Senior Receptionist
-company: Uplands Medical Practice
-location: Whitefield, Manchester, M45 8GH
-source: NHS Jobs
-job_id: nhs-5569272
-reason: Approved conservative Manchester launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: SHARIAH COUNCIL ADMINISTRATOR
 company: MANCHESTER COMMUNITY CENTRE - Agency - Permanent
 location: Manchester
@@ -429,6 +417,18 @@ company: Aspire Recruitment - Agency - Temporary
 location: Manchester
 source: JobG8
 job_id: jobg8-23643_225461115
+reason: Approved conservative Manchester launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Temporary Office Administrator
+company: Office Angels - Agency - Permanent
+location: Manchester
+source: JobG8
+job_id: jobg8-1775893
 reason: Approved conservative Manchester launch catchment.
 ---
 

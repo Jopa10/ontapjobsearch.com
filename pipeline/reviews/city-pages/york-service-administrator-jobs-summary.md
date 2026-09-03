@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 4
 - automatic review: 6
-- automatic exclude: 10
+- automatic exclude: 11
 - effective include: 4
 - effective review: 6
-- effective exclude: 10
+- effective exclude: 11
 
 ## INCLUDE (4)
 
@@ -146,7 +146,7 @@ job_id: nhs-5570653
 reason: No approved York catchment rule matched; local review required.
 ---
 
-## EXCLUDE (10)
+## EXCLUDE (11)
 
 ---
 action: 
@@ -241,6 +241,18 @@ company: Braeburn Primary and Nursery Academy
 location: Scarborough
 source: Teaching Vacancies
 job_id: teaching-vacancies-senior-administrator-braeburn-primary-and-nursery-academy-scarborough-north-yorkshire
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Service Coordinator (Generator)
+company: Dale Power Solutions - Agency - Permanent
+location: Scarborough
+source: JobG8
+job_id: jobg8-107900212
 reason: Separate employment market.
 ---
 

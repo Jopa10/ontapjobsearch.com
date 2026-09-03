@@ -4,7 +4,7 @@
 - Live route: `/birmingham/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 31
+- Effective included jobs: 29
 - Threshold currently met: yes
 
 ## How to review
@@ -15,26 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 31
+- automatic include: 29
 - automatic review: 3
 - automatic exclude: 3
-- effective include: 31
+- effective include: 29
 - effective review: 3
 - effective exclude: 3
 
-## INCLUDE (31)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Account Coordinator
-company: Baltic Recruitment Services Ltd - Agency - Permanent
-location: Birmingham
-source: JobG8
-job_id: jobg8-107796411
-reason: Approved conservative Birmingham launch catchment.
----
+## INCLUDE (29)
 
 ---
 action: 
@@ -148,6 +136,18 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Contract Administrator
+company: Sureserve Group - Company - Permanent
+location: Birmingham
+source: JobG8
+job_id: jobg8-107931464
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Customer Care Administrator
 company: SF Partners - Agency - Permanent
 location: Birmingham
@@ -184,18 +184,6 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Customer Service Advisor - Remote work uk
-company: Coaching & Recruitment - Agency - Permanent
-location: Birmingham
-source: JobG8
-job_id: jobg8-1798036
-reason: Approved conservative Birmingham launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Customer Support Advisor
 company: AX UK - Agency - Permanent
 location: Birmingham
@@ -225,18 +213,6 @@ company: Gleeson Recruitment Group - Agency - Permanent
 location: Birmingham
 source: JobG8
 job_id: jobg8-23643_225537904
-reason: Approved conservative Birmingham launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: HR Assistant
-company: Gleeson Recruitment Group - Agency - Permanent
-location: Birmingham
-source: JobG8
-job_id: jobg8-23643_225473913
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -340,6 +316,18 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Receptionist
+company: Major Recruitment Oldbury - Agency - Permanent
+location: Birmingham
+source: JobG8
+job_id: jobg8-23643_225557310
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Receptionist/Administrator
 company: The Wand Medical Centre
 location: Birmingham, B12 0UF
@@ -369,18 +357,6 @@ company: Highfield Junior and Infant School
 location: Birmingham
 source: Teaching Vacancies
 job_id: teaching-vacancies-school-administrator-90712575-ad48-4a39-98c3-9140ef281e9e
-reason: Approved conservative Birmingham launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: SENIOR ADMINISTRATOR (HR) (Maternity Cover)
-company: Yardleys School
-location: Birmingham
-source: Teaching Vacancies
-job_id: teaching-vacancies-senior-administrator-hr-maternity-cover
 reason: Approved conservative Birmingham launch catchment.
 ---
 

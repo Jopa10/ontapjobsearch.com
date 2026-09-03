@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 9
 - automatic review: 8
-- automatic exclude: 34
+- automatic exclude: 36
 - effective include: 9
 - effective review: 8
-- effective exclude: 34
+- effective exclude: 36
 
 ## INCLUDE (9)
 
@@ -66,7 +66,7 @@ decision: include
 automatic_decision: include
 title: Medical Receptionist / Care Navigator
 company: Clarendon Medical Centre
-location: Bradford, BD8 7SY
+location: Bradford, BD1 3DN
 source: NHS Jobs
 job_id: nhs-5565093
 reason: Approved Bradford catchment.
@@ -162,23 +162,11 @@ reason: No approved Bradford catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Administrator
-company: Moulds Accountants & Advisory Services - Agency - Permanent
-location: Wetherby
+title: Credit Control - Part Time Administrator - 12 FTC Maternity Cover
+company: Centric Talent - Agency - Permanent
+location: Brighouse
 source: JobG8
-job_id: jobg8-23643_225458763
-reason: No approved Bradford catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: E Commerce Administrator
-company: Rec 2 Rec Search - Agency - Permanent
-location: Cleckheaton
-source: JobG8
-job_id: jobg8-107921054
+job_id: jobg8-107926764
 reason: No approved Bradford catchment rule matched; local review required.
 ---
 
@@ -230,7 +218,19 @@ job_id: jobg8-23643_225555933
 reason: No approved Bradford catchment rule matched; local review required.
 ---
 
-## EXCLUDE (34)
+---
+action: 
+decision: review
+automatic_decision: review
+title: Patient Administrator
+company: Hillfoot Surgery
+location: Pudsey, LS28 7QR
+source: NHS Jobs
+job_id: nhs-5573894
+reason: No approved Bradford catchment rule matched; local review required.
+---
+
+## EXCLUDE (36)
 
 ---
 action: 
@@ -272,6 +272,30 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Business Support Coordinator
+company: Conexus Healthcare CIC
+location: Wakefield, WF2 7PJ
+source: NHS Jobs
+job_id: nhs-5532564
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Car Showroom Receptionist
+company: Huntress - Leeds - Agency - Temporary
+location: Leeds
+source: JobG8
+job_id: jobg8-23643_225554903
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Casualty Claims Handler
 company: Adjusting Appointments Limited - Agency - Permanent
 location: Leeds
@@ -301,6 +325,18 @@ company: Reed Talent Solutions - Agency - Permanent
 location: Wakefield
 source: JobG8
 job_id: jobg8-1704534
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Debt Customer Service Advisor
+company: Michael Page - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-23643_225557189
 reason: Separate employment market.
 ---
 
@@ -392,18 +428,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Medical Centre Receptionist / Care Navigator
-company: Arthington Medical Centre
-location: Leeds, LS10 2JJ
-source: NHS Jobs
-job_id: nhs-5549469
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Medical receptionist
 company: Almondbury Surgery
 location: Huddersfield, HD5 8XW
@@ -452,18 +476,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Radiology Clerical Officer
-company: Calderdale and Huddersfield NHS Foundation Trust
-location: Huddersfield, HD3 3EA
-source: NHS Jobs
-job_id: nhs-5565812
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Receptionist / Administrator
 company: Ossett Surgery
 location: Wakefield, WF5 8DF
@@ -481,6 +493,18 @@ company: Edgerton Dental Clinic - Agency - Permanent
 location: Huddersfield
 source: JobG8
 job_id: jobg8-23643_225463726
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Receptionist/ Front of House
+company: Search Consultancy Ltd - Agency - Contract
+location: Leeds
+source: JobG8
+job_id: jobg8-23643_225558955
 reason: Separate employment market.
 ---
 

@@ -4,7 +4,7 @@
 - Live route: `/newcastle/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 85
+- Effective included jobs: 95
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 85
-- automatic review: 31
+- automatic include: 95
+- automatic review: 32
 - automatic exclude: 18
-- effective include: 85
-- effective review: 31
+- effective include: 95
+- effective review: 32
 - effective exclude: 18
 
-## INCLUDE (85)
+## INCLUDE (95)
 
 ---
 action: 
@@ -45,18 +45,6 @@ company: Cumbria, Northumberland, Tyne and wear (CNTW) NHS Foundation Trust
 location: Gateshead, NE10 8DX
 source: NHS Jobs
 job_id: nhs-5568696
-reason: Approved Newcastle catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrative Assistant Level 3
-company: Bishop Bewick Catholic Education Trust
-location: Sacred Heart Catholic High School, Fenham Hall Drive, Fenham, Newcastle upon Tyne NE4 9YH
-source: NEJobs
-job_id: nejobs-300745
 reason: Approved Newcastle catchment.
 ---
 
@@ -93,30 +81,6 @@ company: North East Futures - UTC
 location: Newcastle
 source: NEJobs
 job_id: nejobs-300632
-reason: Approved Newcastle catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Business Support Assistant
-company: Gateshead Council
-location: Gateshead
-source: NEJobs
-job_id: nejobs-300950
-reason: Approved Newcastle catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Business Support Assistant
-company: Gateshead Council
-location: Gateshead
-source: NEJobs
-job_id: nejobs-301018
 reason: Approved Newcastle catchment.
 ---
 
@@ -308,6 +272,18 @@ title: Call Centre Agent
 company: EE - Company - Permanent
 location: Newcastle upon Tyne
 source: JobG8
+job_id: jobg8-21618_20279_61775-20fc350b6789c39cd18ccac91ac57148
+reason: Approved Newcastle catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Call Centre Agent
+company: EE - Company - Permanent
+location: Newcastle upon Tyne
+source: JobG8
 job_id: jobg8-21618_20279_61775-33210dbc92626a35bffe42114b330ff3
 reason: Approved Newcastle catchment.
 ---
@@ -357,6 +333,18 @@ company: EE - Company - Permanent
 location: Newcastle upon Tyne
 source: JobG8
 job_id: jobg8-21618_20279_61775-89740a075c6163b74ea2c52702062e5d
+reason: Approved Newcastle catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Call Centre Agent
+company: EE - Company - Permanent
+location: Newcastle upon Tyne
+source: JobG8
+job_id: jobg8-21618_20279_61775-89740a075c6163b74ea2c52702062e5d-714afb01ebf3664bdb0febe6b0f96c3d
 reason: Approved Newcastle catchment.
 ---
 
@@ -464,6 +452,18 @@ title: Call Centre Operator
 company: EE - Company - Permanent
 location: Newcastle upon Tyne
 source: JobG8
+job_id: jobg8-20279_61775-a2e2a028139730a5ef289161f72b755f
+reason: Approved Newcastle catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Call Centre Operator
+company: EE - Company - Permanent
+location: Newcastle upon Tyne
+source: JobG8
 job_id: jobg8-20279_61775-a6e2ad7cee3c43ab7465fc57eabd4302
 reason: Approved Newcastle catchment.
 ---
@@ -477,6 +477,18 @@ company: EE - Company - Permanent
 location: Newcastle upon Tyne
 source: JobG8
 job_id: jobg8-20279_61775-bbd8f3ecb6935e720a2d5c3d16688989
+reason: Approved Newcastle catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Call Centre Operator
+company: EE - Company - Permanent
+location: Newcastle upon Tyne
+source: JobG8
+job_id: jobg8-20279_61775-c1a6ac509cb9c4268f3a1776a95bcbae
 reason: Approved Newcastle catchment.
 ---
 
@@ -512,7 +524,31 @@ title: Call Centre Operator
 company: EE - Company - Permanent
 location: Newcastle upon Tyne
 source: JobG8
+job_id: jobg8-21618_20279_61775-5eabb6aaa6c5dac84023535f868d0408
+reason: Approved Newcastle catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Call Centre Operator
+company: EE - Company - Permanent
+location: Newcastle upon Tyne
+source: JobG8
 job_id: jobg8-21618_20279_61775-66639f8323c007f7dc9fbe6bba756b48
+reason: Approved Newcastle catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Call Centre Operator
+company: EE - Company - Permanent
+location: Newcastle upon Tyne
+source: JobG8
+job_id: jobg8-21618_20279_61775-73862c8b83139033e4e4a8b6efca9a33
 reason: Approved Newcastle catchment.
 ---
 
@@ -537,6 +573,18 @@ company: EE - Company - Permanent
 location: Newcastle upon Tyne
 source: JobG8
 job_id: jobg8-21618_20279_61775-73862c8b83139033e4e4a8b6efca9a33-714afb01ebf3664bdb0febe6b0f96c3d
+reason: Approved Newcastle catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Call Centre Operator
+company: EE - Company - Permanent
+location: Newcastle upon Tyne
+source: JobG8
+job_id: jobg8-21618_20279_61775-9e0925ea7011aabd1d54e5dea129a8dc
 reason: Approved Newcastle catchment.
 ---
 
@@ -788,6 +836,18 @@ title: Customer Service Advisor
 company: EE - Company - Permanent
 location: Newcastle upon Tyne
 source: JobG8
+job_id: jobg8-20279_61775-ae45e7c1357810322902c535fc20bb38
+reason: Approved Newcastle catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Customer Service Advisor
+company: EE - Company - Permanent
+location: Newcastle upon Tyne
+source: JobG8
 job_id: jobg8-20279_61775-bc07315b5e693bf3b4ea520e30fc6b93
 reason: Approved Newcastle catchment.
 ---
@@ -872,6 +932,30 @@ title: Customer Service Advisor
 company: EE - Company - Permanent
 location: Newcastle upon Tyne
 source: JobG8
+job_id: jobg8-21618_20279_61775-153faf593eb64b88272f45adeaa28d87
+reason: Approved Newcastle catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Customer Service Advisor
+company: EE - Company - Permanent
+location: Newcastle upon Tyne
+source: JobG8
+job_id: jobg8-21618_20279_61775-153faf593eb64b88272f45adeaa28d87-41cdf25d056349db306149492f169b31
+reason: Approved Newcastle catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Customer Service Advisor
+company: EE - Company - Permanent
+location: Newcastle upon Tyne
+source: JobG8
 job_id: jobg8-21618_20279_61775-153faf593eb64b88272f45adeaa28d87-714afb01ebf3664bdb0febe6b0f96c3d
 reason: Approved Newcastle catchment.
 ---
@@ -908,6 +992,18 @@ title: Customer Service Advisor
 company: EE - Company - Permanent
 location: Newcastle upon Tyne
 source: JobG8
+job_id: jobg8-21618_20279_61775-8ef0e6749cf58d9b5561096820a10361
+reason: Approved Newcastle catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Customer Service Advisor
+company: EE - Company - Permanent
+location: Newcastle upon Tyne
+source: JobG8
 job_id: jobg8-21618_20279_61775-bc07315b5e693bf3b4ea520e30fc6b93
 reason: Approved Newcastle catchment.
 ---
@@ -933,6 +1029,30 @@ company: EE - Company - Permanent
 location: Newcastle upon Tyne
 source: JobG8
 job_id: jobg8-21618_20279_61775-dc0a27dec7f9767a517f1bdee6e96749
+reason: Approved Newcastle catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Customer Service Advisor
+company: EE - Company - Permanent
+location: Newcastle upon Tyne
+source: JobG8
+job_id: jobg8-21618_20279_61775-eaa48b5f9c7219de72f15842102c0231
+reason: Approved Newcastle catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Customer Service Advisor
+company: EE - Company - Permanent
+location: Newcastle upon Tyne
+source: JobG8
+job_id: jobg8-21618_20279_61775-f8d5be08cfc7a3399ff87aa3de9e4a4a
 reason: Approved Newcastle catchment.
 ---
 
@@ -1044,7 +1164,7 @@ job_id: nejobs-300777
 reason: Approved Newcastle catchment.
 ---
 
-## REVIEW (31)
+## REVIEW (32)
 
 ---
 action: 
@@ -1356,6 +1476,18 @@ location: Chester le Street, DH3 3UR
 source: NHS Jobs
 job_id: nhs-5563197
 reason: No approved Newcastle catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Shared Services Team Administrator
+company: Shaftesbury group - Agency - Permanent
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-23643_225559091
+reason: Broad location; review before city inclusion.
 ---
 
 ---

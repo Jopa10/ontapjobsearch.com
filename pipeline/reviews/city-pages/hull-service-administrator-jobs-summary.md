@@ -4,7 +4,7 @@
 - Live route: `/hull/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 14
+- Effective included jobs: 15
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 14
-- automatic review: 4
+- automatic include: 15
+- automatic review: 5
 - automatic exclude: 0
-- effective include: 14
-- effective review: 4
+- effective include: 15
+- effective review: 5
 - effective exclude: 0
 
-## INCLUDE (14)
+## INCLUDE (15)
 
 ---
 action: 
@@ -45,18 +45,6 @@ company: KFM Recuitment - Agency - Contract
 location: Hull
 source: JobG8
 job_id: jobg8-23643_225510748
-reason: Approved conservative Hull launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administration Assistant
-company: Humber Teaching NHS Foundation Trust
-location: Hull, HU8 0RB
-source: NHS Jobs
-job_id: nhs-5548104
 reason: Approved conservative Hull launch catchment.
 ---
 
@@ -192,7 +180,43 @@ job_id: jobg8-1734284
 reason: Approved conservative Hull launch catchment.
 ---
 
-## REVIEW (4)
+---
+action: 
+decision: include
+automatic_decision: include
+title: Senior Administration Assistant
+company: Humber Teaching NHS Foundation Trust
+location: HULL, HU2 9AY
+source: NHS Jobs
+job_id: nhs-5575163
+reason: Approved conservative Hull launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Senior Administration Assistant
+company: Humber Teaching NHS Foundation Trust
+location: Hull, HU2 9AY
+source: NHS Jobs
+job_id: nhs-5575288
+reason: Approved conservative Hull launch catchment.
+---
+
+## REVIEW (5)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Customer Service Assistant
+company: Genda Playnation Entertainment Ltd - Agency - Temporary
+location: Driffield
+source: JobG8
+job_id: jobg8-107770477
+reason: No approved Hull catchment rule matched; local review required.
+---
 
 ---
 action: 

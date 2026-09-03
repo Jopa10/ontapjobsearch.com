@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 6
-- automatic review: 8
-- automatic exclude: 27
+- automatic review: 5
+- automatic exclude: 28
 - effective include: 6
-- effective review: 8
-- effective exclude: 27
+- effective review: 5
+- effective exclude: 28
 
 ## INCLUDE (6)
 
@@ -96,7 +96,7 @@ job_id: nhs-5533284
 reason: Approved conservative Oxford launch catchment.
 ---
 
-## REVIEW (8)
+## REVIEW (5)
 
 ---
 action: 
@@ -138,47 +138,11 @@ reason: No approved Oxford catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Educational Visits Administrator
-company: Faringdon Community College
-location: Faringdon
-source: Teaching Vacancies
-job_id: teaching-vacancies-educational-visits-administrator-faringdon-community-college-faringdon-oxfordshire
-reason: No approved Oxford catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Inclusion Administrator
-company: Faringdon Community College
-location: Faringdon
-source: Teaching Vacancies
-job_id: teaching-vacancies-inclusion-administrator-640b849f-52fe-4514-87fa-cda0310e4990
-reason: No approved Oxford catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Medical Receptionist
 company: The Abingdon Surgery
 location: Abingdon, OX14 3LB
 source: NHS Jobs
 job_id: nhs-5547418
-reason: No approved Oxford catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: School Administrator
-company: Carterton Primary School
-location: Carterton
-source: Teaching Vacancies
-job_id: teaching-vacancies-school-administrator-4e6e25cf-c80f-4e62-864c-657610d00946
 reason: No approved Oxford catchment rule matched; local review required.
 ---
 
@@ -194,7 +158,7 @@ job_id: teaching-vacancies-sixth-form-administrator-team-leader
 reason: No approved Oxford catchment rule matched; local review required.
 ---
 
-## EXCLUDE (27)
+## EXCLUDE (28)
 
 ---
 action: 
@@ -265,18 +229,6 @@ company: Thompson & Terry Recruitment - Agency - Permanent
 location: Oxfordshire
 source: JobG8
 job_id: jobg8-23643_225493985
-reason: Broad county location; not Oxford-city evidence.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Administrator
-company: Tradestech Recruitment - Agency - Contract
-location: Oxfordshire
-source: JobG8
-job_id: jobg8-23643_225456749
 reason: Broad county location; not Oxford-city evidence.
 ---
 
@@ -440,6 +392,18 @@ reason: Broad county location; not Oxford-city evidence.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Service Advisor
+company: The Solution Automotive Limited - Agency - Permanent
+location: Oxfordshire
+source: JobG8
+job_id: jobg8-107842072
+reason: Broad county location; not Oxford-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Service Coordinator
 company: Downtown Recruitment - Agency - Permanent
 location: Oxfordshire
@@ -505,6 +469,18 @@ company: Allen Associates - Agency - Temporary
 location: Oxfordshire
 source: JobG8
 job_id: jobg8-23643_225533669
+reason: Broad county location; not Oxford-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Temporary Office Administrator
+company: Allen Associates - Agency - Temporary
+location: Oxfordshire
+source: JobG8
+job_id: jobg8-23643_225560219
 reason: Broad county location; not Oxford-city evidence.
 ---
 

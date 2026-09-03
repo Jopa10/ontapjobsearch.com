@@ -1,7 +1,6 @@
 decision,job_id,title,company,location,source,automatic_decision,effective_decision,reason,matched_rule,city_key
 include,jobg8-23643_225499816,Account Coordinator,Stafforce Recruitment - Agency - Permanent,Hull,JobG8,include,include,Approved conservative Hull launch catchment.,hull,hull-service-administrator-jobs
 include,jobg8-23643_225510748,Admin Assistant,KFM Recuitment - Agency - Contract,Hull,JobG8,include,include,Approved conservative Hull launch catchment.,hull,hull-service-administrator-jobs
-include,nhs-5548104,Administration Assistant,Humber Teaching NHS Foundation Trust,"Hull, HU8 0RB",NHS Jobs,include,include,Approved conservative Hull launch catchment.,hull,hull-service-administrator-jobs
 include,teaching-vacancies-administration-assistant-kingswood-parks-primary-school,Administration Assistant,Kingswood Parks Primary School,Hull,Teaching Vacancies,include,include,Approved conservative Hull launch catchment.,hull,hull-service-administrator-jobs
 include,jobg8-23643_225537982,Business Support Co-ordinator,KD Recruitment - Agency - Permanent,Hull,JobG8,include,include,Approved conservative Hull launch catchment.,hull,hull-service-administrator-jobs
 include,nhs-5572582,Clinical Team Administrator,Tees Esk and Wear Valleys NHS Foundation Trust,"Hull, HU9 5LS",NHS Jobs,include,include,Approved conservative Hull launch catchment.,hull,hull-service-administrator-jobs
@@ -13,6 +12,9 @@ include,jobg8-107894712,Quotations & Estimating Coordinator,KD Recruitment Limit
 include,nhs-5570885,Receptionist,The Oaks Medical Centre,"Hull, HU4 6RF",NHS Jobs,include,include,Approved conservative Hull launch catchment.,hull,hull-service-administrator-jobs
 include,jobg8-23643_225511107,Sales Administrator,Edwards & Pearce - Agency - Permanent,Hull,JobG8,include,include,Approved conservative Hull launch catchment.,hull,hull-service-administrator-jobs
 include,jobg8-1734284,Sales Administrator,Edwards & Pearce - Doncaster - Agency - Permanent,Hull,JobG8,include,include,Approved conservative Hull launch catchment.,hull,hull-service-administrator-jobs
+include,nhs-5575163,Senior Administration Assistant,Humber Teaching NHS Foundation Trust,"HULL, HU2 9AY",NHS Jobs,include,include,Approved conservative Hull launch catchment.,hull,hull-service-administrator-jobs
+include,nhs-5575288,Senior Administration Assistant,Humber Teaching NHS Foundation Trust,"Hull, HU2 9AY",NHS Jobs,include,include,Approved conservative Hull launch catchment.,hull,hull-service-administrator-jobs
+review,jobg8-107770477,Customer Service Assistant,Genda Playnation Entertainment Ltd - Agency - Temporary,Driffield,JobG8,review,review,No approved Hull catchment rule matched; local review required.,fallback,hull-service-administrator-jobs
 review,jobg8-1776844,Market Research Coordinator,Elevation Recruitment Group - Agency - Permanent,Driffield,JobG8,review,review,No approved Hull catchment rule matched; local review required.,fallback,hull-service-administrator-jobs
 review,jobg8-1763883,Part time Office and Accounts Administrator - Hessle,Office Angels - Agency - Permanent,Hessle,JobG8,review,review,No approved Hull catchment rule matched; local review required.,fallback,hull-service-administrator-jobs
 review,jobg8-23643_225499018,Part time Office and Accounts Administrator - Hessle,Office Angels - Agency - Permanent,Hessle,JobG8,review,review,No approved Hull catchment rule matched; local review required.,fallback,hull-service-administrator-jobs

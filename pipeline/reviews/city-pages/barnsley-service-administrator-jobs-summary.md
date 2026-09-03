@@ -4,7 +4,7 @@
 - Live route: `/barnsley/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 1
+- Effective included jobs: 0
 - Threshold currently met: no
 
 ## How to review
@@ -15,52 +15,16 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 1
-- automatic review: 4
-- automatic exclude: 30
-- effective include: 1
-- effective review: 4
-- effective exclude: 30
+- automatic include: 0
+- automatic review: 1
+- automatic exclude: 25
+- effective include: 0
+- effective review: 1
+- effective exclude: 25
 
-## INCLUDE (1)
+## INCLUDE (0)
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrator
-company: Anonymous - Agency - Contract
-location: Barnsley
-source: JobG8
-job_id: jobg8-23643_225457187
-reason: Approved Barnsley catchment.
----
-
-## REVIEW (4)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Medical Receptionist
-company: Mexborough Health Centre
-location: Mexborough, S64 0BY
-source: NHS Jobs
-job_id: nhs-5569947
-reason: No approved Barnsley catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Office Administrator
-company: V-Recruit - Agency - Permanent
-location: Brinsworth
-source: JobG8
-job_id: jobg8-23643_225459485
-reason: No approved Barnsley catchment rule matched; local review required.
----
+## REVIEW (1)
 
 ---
 action: 
@@ -74,19 +38,7 @@ job_id: jobg8-23643_225516026
 reason: No approved Barnsley catchment rule matched; local review required.
 ---
 
----
-action: 
-decision: review
-automatic_decision: review
-title: Post Completion Administration Assistant
-company: Andy File Associates Ltd - Agency - Permanent
-location: Brinsworth
-source: JobG8
-job_id: jobg8-23643_225516072
-reason: No approved Barnsley catchment rule matched; local review required.
----
-
-## EXCLUDE (30)
+## EXCLUDE (25)
 
 ---
 action: 
@@ -140,18 +92,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Administrator
-company: Office Angels - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-23643_225546289
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Call Centre Agent - Uncapped Commission
 company: EE - Company - Permanent
 location: Sheffield
@@ -164,35 +104,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Call Centre Agent - Uncapped Commission
-company: EE - Company - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-21618_20279_62295-89740a075c6163b74ea2c52702062e5d
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Call Centre Operator - Uncapped Commission
 company: EE - Company - Permanent
 location: Sheffield
 source: JobG8
 job_id: jobg8-20279_62295-73862c8b83139033e4e4a8b6efca9a33
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Call Centre Operator - Uncapped Commission
-company: EE - Company - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-21618_20279_62295-73862c8b83139033e4e4a8b6efca9a33
 reason: Separate employment market.
 ---
 
@@ -236,11 +152,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Contact Centre Agent - Uncapped Commission
+title: Customer Service Advisor
 company: EE - Company - Permanent
-location: Sheffield
+location: Doncaster
 source: JobG8
-job_id: jobg8-21618_20279_62295-d24d3d6916a209e15b1680693740da2f
+job_id: jobg8-20279_62308-153faf593eb64b88272f45adeaa28d87
 reason: Separate employment market.
 ---
 
@@ -252,7 +168,7 @@ title: Customer Service Advisor
 company: EE - Company - Permanent
 location: Doncaster
 source: JobG8
-job_id: jobg8-20279_62308-153faf593eb64b88272f45adeaa28d87
+job_id: jobg8-21618_20279_62308-153faf593eb64b88272f45adeaa28d87
 reason: Separate employment market.
 ---
 
@@ -272,11 +188,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Customer Service Advisor - Uncapped Commission
-company: EE - Company - Permanent
+title: Operations Administrator
+company: Sue Ross Recruitment Ltd - Agency - Permanent
 location: Sheffield
 source: JobG8
-job_id: jobg8-21618_20279_62295-153faf593eb64b88272f45adeaa28d87
+job_id: jobg8-23643_225522912
 reason: Separate employment market.
 ---
 
@@ -284,11 +200,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Operations Administrator
-company: Sue Ross Recruitment Ltd - Agency - Permanent
+title: Part Time Administrator - 12 Hour Per Week
+company: Office Angels - Agency - Permanent
 location: Sheffield
 source: JobG8
-job_id: jobg8-23643_225522912
+job_id: jobg8-23643_225558215
 reason: Separate employment market.
 ---
 
@@ -321,18 +237,6 @@ action:
 decision: exclude
 automatic_decision: exclude
 title: Receptionist
-company: Hollygreen Practice
-location: Rotherham, S63 9EH, Thurnscoe, s63 0LT, BARNSLEY, S72 0EJ
-source: NHS Jobs
-job_id: nhs-5544481
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Receptionist
 company: Sheffield Health Partnership University NHS Foundation Trust
 location: Sheffield, S11 9BJ
 source: NHS Jobs
@@ -349,18 +253,6 @@ company: The Market Surgery
 location: Rotherham, S63 7RA
 source: NHS Jobs
 job_id: nhs-5568418
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Receptionist & Administrator
-company: Sheffield Park Academy
-location: Sheffield
-source: Teaching Vacancies
-job_id: teaching-vacancies-receptionist-administrator-sheffield-park-academy-sheffield-south-yorkshire
 reason: Separate employment market.
 ---
 

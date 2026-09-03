@@ -4,7 +4,7 @@
 - Live route: `/brighton-hove/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 5
+- Effective included jobs: 4
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 5
-- automatic review: 31
-- automatic exclude: 2
-- effective include: 5
-- effective review: 31
-- effective exclude: 2
+- automatic include: 4
+- automatic review: 30
+- automatic exclude: 3
+- effective include: 4
+- effective review: 30
+- effective exclude: 3
 
-## INCLUDE (5)
+## INCLUDE (4)
 
 ---
 action: 
@@ -40,23 +40,11 @@ reason: Approved Brighton & Hove catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Mental Health Act Administrator and Medical Secretary
-company: Elysium Healthcare
-location: Brighton, BN3 4FH
+title: Reception Administrator
+company: Sussex Partnership NHS Foundation Trust
+location: Hove, BN3 7HY
 source: NHS Jobs
-job_id: nhs-5551395
-reason: Approved Brighton & Hove catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: PCN Office Administrator
-company: East and Central Brighton Primary Care Network
-location: Brighton, BN1 1ND
-source: NHS Jobs
-job_id: nhs-5492880
+job_id: nhs-5570979
 reason: Approved Brighton & Hove catchment.
 ---
 
@@ -84,7 +72,7 @@ job_id: nhs-5548209
 reason: Approved Brighton & Hove catchment.
 ---
 
-## REVIEW (31)
+## REVIEW (30)
 
 ---
 action: 
@@ -198,6 +186,18 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
+title: Customer Service Coordinator
+company: Morgan Mckinley (Crawley) - Agency - Temporary
+location: Sussex
+source: JobG8
+job_id: jobg8-23643_225458792
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Customer Support Administrator - Immediate Start
 company: Office Angels - Agency - Contract
 location: Sussex
@@ -215,18 +215,6 @@ company: First Recruitment Services - Agency - Permanent
 location: Sussex
 source: JobG8
 job_id: jobg8-23643_225514099
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Hotel Receptionist
-company: First Recruitment Services - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-1781441
 reason: Broad location; review before city inclusion.
 ---
 
@@ -323,18 +311,6 @@ company: Guidant Global - Agency - Contract
 location: Sussex
 source: JobG8
 job_id: jobg8-23643_225479087
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Premises Co-ordinator - ASAP Start
-company: Office Angels - Agency - Contract
-location: Sussex
-source: JobG8
-job_id: jobg8-23643_225460325
 reason: Broad location; review before city inclusion.
 ---
 
@@ -458,7 +434,31 @@ job_id: jobg8-23643_225462263
 reason: Broad location; review before city inclusion.
 ---
 
-## EXCLUDE (2)
+## EXCLUDE (3)
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Digital Health Records Administration Assistant
+company: East Sussex Healthcare NHS Trust
+location: Eastbourne, BN21 2UD
+source: NHS Jobs
+job_id: nhs-5569427
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: MSK Therapies - Booking Clerk
+company: East Sussex Healthcare NHS Trust
+location: Hastings, TN37 7RD
+source: NHS Jobs
+job_id: nhs-5574965
+reason: Separate employment market.
+---
 
 ---
 action: 
@@ -469,17 +469,5 @@ company: Arlington Road Medical Practice
 location: Eastbourne, BN21 1DH
 source: NHS Jobs
 job_id: nhs-5536742
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Receptionist/Care Navigator
-company: Parklands Surgery
-location: Chichester, PO19 3DT
-source: NHS Jobs
-job_id: nhs-5569929
 reason: Separate employment market.
 ---

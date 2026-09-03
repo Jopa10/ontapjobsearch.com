@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 7
-- automatic review: 4
+- automatic review: 3
 - automatic exclude: 12
 - effective include: 7
-- effective review: 4
+- effective review: 3
 - effective exclude: 12
 
 ## INCLUDE (7)
@@ -28,11 +28,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 action: 
 decision: include
 automatic_decision: include
-title: Admin Assistant - Care Home
-company: Barchester Healthcare
-location: Peterborough, PE7 8NF
-source: NHS Jobs
-job_id: nhs-5571038
+title: Account Coordinator
+company: Staffline Operations - Agency - Temporary
+location: Peterborough
+source: JobG8
+job_id: jobg8-107925777
 reason: Approved conservative Peterborough launch catchment.
 ---
 
@@ -88,11 +88,11 @@ reason: Approved conservative Peterborough launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Inclusion Administrator
-company: Discovery Primary Academy
-location: Peterborough
-source: Teaching Vacancies
-job_id: teaching-vacancies-inclusion-administrator-discovery-primary-academy-peterborough-cambridgeshire
+title: Medical Receptionist/ Administrator
+company: Dr Laliwala and Partners
+location: Peterborough, PE1 4FS
+source: NHS Jobs
+job_id: nhs-5575779
 reason: Approved conservative Peterborough launch catchment.
 ---
 
@@ -108,19 +108,7 @@ job_id: jobg8-23643_225406910
 reason: Approved conservative Peterborough launch catchment.
 ---
 
-## REVIEW (4)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Admin Assistant (Maternity Cover)
-company: Peckover Primary School
-location: Wisbech
-source: Teaching Vacancies
-job_id: teaching-vacancies-admin-assistant-maternity-cover-peckover-primary-school-wisbech-cambridgeshire
-reason: No approved Peterborough catchment rule matched; local review required.
----
+## REVIEW (3)
 
 ---
 action: 
@@ -169,6 +157,18 @@ company: East of England Community Health and Care NHS Trust (Cambridge)
 location: Huntingdon, PE29 6NT
 source: NHS Jobs
 job_id: nhs-5567386
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Administrator
+company: Cambridgeshire and Peterborough NHS Foundation Trust
+location: Cambridge, CB4 1PR
+source: NHS Jobs
+job_id: nhs-5574563
 reason: Separate employment market.
 ---
 
@@ -289,17 +289,5 @@ company: Centre 33 - Agency - Permanent
 location: Cambridge
 source: JobG8
 job_id: jobg8-23643_225463613
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Ward Clerk
-company: Cambridge University Hospital NHS Foundation Trust
-location: Cambridge, CB2 0QQ
-source: NHS Jobs
-job_id: nhs-5560673
 reason: Separate employment market.
 ---

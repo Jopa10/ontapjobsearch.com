@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 5
-- automatic review: 66
-- automatic exclude: 8
+- automatic review: 62
+- automatic exclude: 6
 - effective include: 5
-- effective review: 66
-- effective exclude: 8
+- effective review: 62
+- effective exclude: 6
 
 ## INCLUDE (5)
 
@@ -84,7 +84,7 @@ job_id: teaching-vacancies-receptionist-ff80cc91-b028-4603-910d-80547a4ad86e
 reason: Approved Southampton catchment.
 ---
 
-## REVIEW (66)
+## REVIEW (62)
 
 ---
 action: 
@@ -114,18 +114,6 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Admin
-company: Randstad Construction and Property - Agency - Temporary
-location: Hampshire
-source: JobG8
-job_id: jobg8-23643_225458940
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Admin Assistant - Bank - Care Home
 company: Barchester Healthcare
 location: Ringwood, BH24 2DW
@@ -143,6 +131,18 @@ company: Adecco - Agency - Temporary
 location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225480542
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: Hampshire Recruitment Group LTD - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-23643_225555162
 reason: Broad location; review before city inclusion.
 ---
 
@@ -191,18 +191,6 @@ company: The Cinnamon Care Collection - Company - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225524482
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Business Administrator
-company: Care Concern Group - Company - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-107907161
 reason: Broad location; review before city inclusion.
 ---
 
@@ -354,6 +342,18 @@ reason: No approved Southampton catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Financial Administrator
+company: DCA Recruitment - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-23643_225456621
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Hire Coordinator
 company: Dovetail Recruitment Ltd - Agency - Permanent
 location: Hampshire
@@ -395,18 +395,6 @@ company: Reed - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-1769284
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Immediate Maintenance Helpdesk Administrator -£32K
-company: RGB Network - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-23643_225459037
 reason: Broad location; review before city inclusion.
 ---
 
@@ -534,18 +522,6 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Operations Officer - £27k-£30k - REMOTE
-company: Office Angels - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-23643_225459533
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Part Time Customer Service Advisor
 company: Reed - Agency - Permanent
 location: Hampshire
@@ -635,18 +611,6 @@ company: Searchability - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-1692885
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Reception - Maternity Cover
-company: Berry Recruitment - Agency - Contract
-location: Hampshire
-source: JobG8
-job_id: jobg8-23643_225459368
 reason: Broad location; review before city inclusion.
 ---
 
@@ -822,18 +786,6 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Support Coordinator
-company: NFP People - Agency - Contract
-location: Isle of Wight
-source: JobG8
-job_id: jobg8-107904656
-reason: No approved Southampton catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Technical Customer Service Advisor
 company: Reed - Agency - Permanent
 location: Hampshire
@@ -878,7 +830,7 @@ job_id: jobg8-1733980
 reason: Broad location; review before city inclusion.
 ---
 
-## EXCLUDE (8)
+## EXCLUDE (6)
 
 ---
 action: 
@@ -896,11 +848,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Administration Assistant (Transition and Reception)
-company: Thornden School
-location: Eastleigh
-source: Teaching Vacancies
-job_id: teaching-vacancies-administration-assistant-transition-and-reception
+title: Administrator
+company: Practice Plus Group - Health in Justice
+location: Winchester, SO22 5DF
+source: NHS Jobs
+job_id: nhs-5573451
 reason: Separate employment market.
 ---
 
@@ -949,29 +901,5 @@ company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
 location: Fareham, PO17 6AR
 source: NHS Jobs
 job_id: nhs-5553368
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Subject Access Request Clerical Administrator
-company: Isle of Wight NHS Trust
-location: Portsmouth, PO3 5PR, Newport, PO30 5TG
-source: NHS Jobs
-job_id: nhs-5566346
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Subject Access Request Clerical Administrator
-company: Portsmouth Hospitals University NHS Trust
-location: Portsmouth, PO3 5PR
-source: NHS Jobs
-job_id: nhs-5566347
 reason: Separate employment market.
 ---

@@ -4,7 +4,7 @@
 - Live route: `/coventry/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 3
+- Effective included jobs: 2
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 3
+- automatic include: 2
 - automatic review: 2
 - automatic exclude: 23
-- effective include: 3
+- effective include: 2
 - effective review: 2
 - effective exclude: 23
 
-## INCLUDE (3)
+## INCLUDE (2)
 
 ---
 action: 
@@ -33,18 +33,6 @@ company: Godiva Group Practice
 location: Coventry, CV2 4lj, Coventry, CV1 4DH, Coventry, CV6 5EA, Coventry, CV2 3DR
 source: NHS Jobs
 job_id: nhs-5525238
-reason: Approved Coventry catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: School Receptionist
-company: Cardinal Wiseman Catholic School
-location: Coventry
-source: Teaching Vacancies
-job_id: teaching-vacancies-school-receptionist-45aeb107-50df-4aa0-8e6f-1750a0fd6626
 reason: Approved Coventry catchment.
 ---
 
@@ -97,18 +85,6 @@ company: Reed - Agency - Permanent
 location: Warwickshire
 source: JobG8
 job_id: jobg8-1769740
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Bank Receptionist
-company: Practice Plus Group
-location: Nuneaton, CV10 7DJ
-source: NHS Jobs
-job_id: nhs-5549024
 reason: Separate employment market.
 ---
 
@@ -212,6 +188,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Medical Administrator
+company: Red Roofs Surgery
+location: Nuneaton, CV11 5TW
+source: NHS Jobs
+job_id: nhs-5521618
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: MEDICAL RECEPTIONIST
 company: Valley Road Medical Practice
 location: Leamington Spa, CV32 7SJ
@@ -284,18 +272,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Sales Administrator
-company: Options Resourcing Ltd - Agency - Permanent
-location: Warwickshire
-source: JobG8
-job_id: jobg8-23643_225454507
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Sales Coordinator
 company: The Caraires Consultancy - Agency - Permanent
 location: Warwickshire
@@ -313,6 +289,18 @@ company: Office Angels - Agency - Temporary
 location: Warwickshire
 source: JobG8
 job_id: jobg8-23643_225460316
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Team Data Administrator
+company: Pontoon - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-1775929
 reason: Separate employment market.
 ---
 

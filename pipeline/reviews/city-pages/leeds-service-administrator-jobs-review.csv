@@ -2,16 +2,19 @@ decision,job_id,title,company,location,source,automatic_decision,effective_decis
 include,jobg8-1733703,Administrator,Consula Group LTD - Agency - Permanent,Leeds,JobG8,include,include,Approved Leeds catchment.,leeds,leeds-service-administrator-jobs
 include,jobg8-23643_225488843,Administrator,Nigel Wright Recruitment - Agency - Temporary,Leeds,JobG8,include,include,Approved Leeds catchment.,leeds,leeds-service-administrator-jobs
 include,jobg8-107880419,Bid Coordinator,Ridge & Partners LLP - Agency - Permanent,Leeds,JobG8,include,include,Approved Leeds catchment.,leeds,leeds-service-administrator-jobs
+include,jobg8-23643_225554903,Car Showroom Receptionist,Huntress - Leeds - Agency - Temporary,Leeds,JobG8,include,include,Approved Leeds catchment.,leeds,leeds-service-administrator-jobs
 include,jobg8-1785909,Casualty Claims Handler,Adjusting Appointments Limited - Agency - Permanent,Leeds,JobG8,include,include,Approved Leeds catchment.,leeds,leeds-service-administrator-jobs
 include,jobg8-23643_225516031,Customer Service Advisor,Red Recruitment - Agency - Permanent,Leeds,JobG8,include,include,Approved Leeds catchment.,leeds,leeds-service-administrator-jobs
+include,jobg8-23643_225557189,Debt Customer Service Advisor,Michael Page - Agency - Permanent,Leeds,JobG8,include,include,Approved Leeds catchment.,leeds,leeds-service-administrator-jobs
 include,jobg8-23643_224689396,Document Controller,CSS - Agency - Contract,Leeds,JobG8,include,include,Approved Leeds catchment.,leeds,leeds-service-administrator-jobs
 include,jobg8-23643_225552127,Facilities Administrator,Morgan King - Agency - Permanent,Leeds,JobG8,include,include,Approved Leeds catchment.,leeds,leeds-service-administrator-jobs
 include,nhs-5550046,GP Receptionist / Care Navigator,Robin Lane Health & Wellbeing Centre,"Pudsey, LS28 7DE",NHS Jobs,include,include,Approved Leeds catchment.,pudsey,leeds-service-administrator-jobs
 include,nhs-5561629,HR Administrator,Akari Care Limited,"Leeds, LS11 5DZ",NHS Jobs,include,include,Approved Leeds catchment.,leeds,leeds-service-administrator-jobs
 include,jobg8-23643_225476554,HR Assistant,Sewell Wallis Ltd - Agency - Permanent,Leeds,JobG8,include,include,Approved Leeds catchment.,leeds,leeds-service-administrator-jobs
 include,jobg8-1785761,Internal Sales Administrator,Breedon Group plc - Company - Permanent,Leeds,JobG8,include,include,Approved Leeds catchment.,leeds,leeds-service-administrator-jobs
-include,nhs-5549469,Medical Centre Receptionist / Care Navigator,Arthington Medical Centre,"Leeds, LS10 2JJ",NHS Jobs,include,include,Approved Leeds catchment.,leeds,leeds-service-administrator-jobs
 include,jobg8-23643_225550655,Operations Administrator,Kingston Barnes Ltd - Agency - Permanent,Leeds,JobG8,include,include,Approved Leeds catchment.,leeds,leeds-service-administrator-jobs
+include,nhs-5573894,Patient Administrator,Hillfoot Surgery,"Pudsey, LS28 7QR",NHS Jobs,include,include,Approved Leeds catchment.,pudsey,leeds-service-administrator-jobs
+include,jobg8-23643_225558955,Receptionist/ Front of House,Search Consultancy Ltd - Agency - Contract,Leeds,JobG8,include,include,Approved Leeds catchment.,leeds,leeds-service-administrator-jobs
 include,jobg8-107819626,Recruitment Account Coordinator,Staffline Divisions - Agency - Temporary,Leeds,JobG8,include,include,Approved Leeds catchment.,leeds,leeds-service-administrator-jobs
 include,jobg8-1771147,Recruitment Administrator,Adecco - Agency - Permanent,Leeds,JobG8,include,include,Approved Leeds catchment.,leeds,leeds-service-administrator-jobs
 include,jobg8-23643_225515250,Recruitment Administrator,Adecco - Agency - Temporary,Leeds,JobG8,include,include,Approved Leeds catchment.,leeds,leeds-service-administrator-jobs
@@ -20,24 +23,23 @@ include,jobg8-23643_225524513,Service Administrator,Working Solutions Recruitmen
 include,jobg8-23643_225519206,Temporary Executive Support Administrator,Hays Business Support - Agency - Temporary,Leeds,JobG8,include,include,Approved Leeds catchment.,leeds,leeds-service-administrator-jobs
 review,teaching-vacancies-academy-administrator-l3-dixons-cottingley-academy,Academy Administrator L3,Dixons Cottingley Academy,Bingley,Teaching Vacancies,review,review,No approved Leeds catchment rule matched; local review required.,fallback,leeds-service-administrator-jobs
 review,jobg8-23643_225472240,Accounts Assistant,Hays Senior Finance - Agency - Permanent,Brighouse,JobG8,review,review,No approved Leeds catchment rule matched; local review required.,fallback,leeds-service-administrator-jobs
-review,jobg8-23643_225458763,Administrator,Moulds Accountants & Advisory Services - Agency - Permanent,Wetherby,JobG8,review,review,No approved Leeds catchment rule matched; local review required.,fallback,leeds-service-administrator-jobs
-review,jobg8-107921054,E Commerce Administrator,Rec 2 Rec Search - Agency - Permanent,Cleckheaton,JobG8,review,review,No approved Leeds catchment rule matched; local review required.,fallback,leeds-service-administrator-jobs
+review,jobg8-107926764,Credit Control - Part Time Administrator - 12 FTC Maternity Cover,Centric Talent - Agency - Permanent,Brighouse,JobG8,review,review,No approved Leeds catchment rule matched; local review required.,fallback,leeds-service-administrator-jobs
 review,jobg8-23643_225476804,Office Coordinator,Sayjo Recruitment Ltd - Agency - Permanent,Brighouse,JobG8,review,review,No approved Leeds catchment rule matched; local review required.,fallback,leeds-service-administrator-jobs
 review,nhs-5551474,Operations & Compliance Administrator,Blackburn Road Medical Centre,"Batley, WF17 9PL",NHS Jobs,review,review,No approved Leeds catchment rule matched; local review required.,fallback,leeds-service-administrator-jobs
 review,jobg8-23643_225555933,Part Time Receptionist,Kingdom People - Agency - Permanent,Brighouse,JobG8,review,review,No approved Leeds catchment rule matched; local review required.,fallback,leeds-service-administrator-jobs
 exclude,teaching-vacancies-academy-administrator-l2-dixons-mcmillan-academy,Academy Administrator L2,Dixons McMillan Academy,Bradford,Teaching Vacancies,exclude,exclude,Separate employment market.,bradford,leeds-service-administrator-jobs
+exclude,nhs-5532564,Business Support Coordinator,Conexus Healthcare CIC,"Wakefield, WF2 7PJ",NHS Jobs,exclude,exclude,Separate employment market.,wakefield,leeds-service-administrator-jobs
 exclude,jobg8-1772096,Call Centre Handler,MPJ Recruitment Ltd - Agency - Permanent,Bradford,JobG8,exclude,exclude,Separate employment market.,bradford,leeds-service-administrator-jobs
 exclude,jobg8-1704534,Customer Service Advisor,Reed Talent Solutions - Agency - Permanent,Wakefield,JobG8,exclude,exclude,Separate employment market.,wakefield,leeds-service-administrator-jobs
 exclude,jobg8-1743831,Eccomerce Customer Service Advisor,Michael Page Business Support - Agency - Permanent,Wakefield,JobG8,exclude,exclude,Separate employment market.,wakefield,leeds-service-administrator-jobs
 exclude,jobg8-23643_225548918,Finance Assistant - Property,Card Factory - Agency - Permanent,Wakefield,JobG8,exclude,exclude,Separate employment market.,wakefield,leeds-service-administrator-jobs
 exclude,jobg8-23643_225499042,Investigatory data administrator,BDS (Northern) Limited - Agency - Temporary,Bradford,JobG8,exclude,exclude,Separate employment market.,bradford,leeds-service-administrator-jobs
 exclude,nhs-5559076,Medical receptionist,Almondbury Surgery,"Huddersfield, HD5 8XW",NHS Jobs,exclude,exclude,Separate employment market.,huddersfield,leeds-service-administrator-jobs
-exclude,nhs-5565093,Medical Receptionist / Care Navigator,Clarendon Medical Centre,"Bradford, BD8 7SY",NHS Jobs,exclude,exclude,Separate employment market.,bradford,leeds-service-administrator-jobs
+exclude,nhs-5565093,Medical Receptionist / Care Navigator,Clarendon Medical Centre,"Bradford, BD1 3DN",NHS Jobs,exclude,exclude,Separate employment market.,bradford,leeds-service-administrator-jobs
 exclude,jobg8-23643_225522242,Order Management Administrator,Winsearch - Agency - Temporary,Wakefield,JobG8,exclude,exclude,Separate employment market.,wakefield,leeds-service-administrator-jobs
 exclude,jobg8-1770678,Part-time Administrator,Reed - Agency - Permanent,Bradford,JobG8,exclude,exclude,Separate employment market.,bradford,leeds-service-administrator-jobs
 exclude,jobg8-23643_225511013,Personal Assistant,AM Global - Agency - Permanent,Huddersfield,JobG8,exclude,exclude,Separate employment market.,huddersfield,leeds-service-administrator-jobs
 exclude,jobg8-23643_225530760,Project Support Administrator,Belmont Recruitment - Agency - Contract,Bradford,JobG8,exclude,exclude,Separate employment market.,bradford,leeds-service-administrator-jobs
-exclude,nhs-5565812,Radiology Clerical Officer,Calderdale and Huddersfield NHS Foundation Trust,"Huddersfield, HD3 3EA",NHS Jobs,exclude,exclude,Separate employment market.,huddersfield,leeds-service-administrator-jobs
 exclude,jobg8-1782927,Receptionist,Dynamite Recruitment Solutions Ltd - Agency - Permanent,Bradford,JobG8,exclude,exclude,Separate employment market.,bradford,leeds-service-administrator-jobs
 exclude,nhs-5558659,Receptionist / Administrator,Ossett Surgery,"Wakefield, WF5 8DF",NHS Jobs,exclude,exclude,Separate employment market.,wakefield,leeds-service-administrator-jobs
 exclude,jobg8-23643_225463726,Receptionist / Dental,Edgerton Dental Clinic - Agency - Permanent,Huddersfield,JobG8,exclude,exclude,Separate employment market.,huddersfield,leeds-service-administrator-jobs

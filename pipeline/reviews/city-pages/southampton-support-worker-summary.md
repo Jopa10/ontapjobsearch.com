@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 3
-- automatic review: 2
-- automatic exclude: 1
+- automatic review: 4
+- automatic exclude: 0
 - effective include: 3
-- effective review: 2
-- effective exclude: 1
+- effective review: 4
+- effective exclude: 0
 
 ## INCLUDE (3)
 
@@ -60,7 +60,19 @@ job_id: jobg8-1663151
 reason: Approved Southampton catchment.
 ---
 
-## REVIEW (2)
+## REVIEW (4)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Care Assistant
+company: All Care - Agency - Permanent
+location: Freshwater
+source: JobG8
+job_id: jobg8-107893077
+reason: No approved Southampton catchment rule matched; local review required.
+---
 
 ---
 action: 
@@ -86,16 +98,16 @@ job_id: jobg8-1401784767
 reason: Broad location; review before city inclusion.
 ---
 
-## EXCLUDE (1)
-
 ---
 action: 
-decision: exclude
-automatic_decision: exclude
-title: Night Care Assistant (Adults)
+decision: review
+automatic_decision: review
+title: Day Opportunities Support Worker (HCC Care YA)
 company: Hampshire County Council - Company - Permanent
-location: Basingstoke
+location: Gosport
 source: JobG8
-job_id: jobg8-1401784687
-reason: Separate employment market.
+job_id: jobg8-1401784915
+reason: Broad location; review before city inclusion.
 ---
+
+## EXCLUDE (0)
