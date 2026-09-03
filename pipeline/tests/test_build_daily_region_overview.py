@@ -6,6 +6,7 @@ from unittest.mock import patch
 from scripts.build_daily_region_overview import (
     FAMILIES,
     _live_count_for_market,
+    _city_opportunity_rows,
     _load_jobg8_category_profile,
     _load_family_coverage_date,
     _published_page_inventory,
@@ -15,6 +16,38 @@ from scripts.live_job_source_counter import LiveInventory, LiveJob, LivePlacemen
 
 
 class LiveRegionalRollupTests(unittest.TestCase):
+    def test_city_opportunities_count_all_unique_live_roles_once(self) -> None:
+        from pathlib import Path
+        import json
+        import tempfile
+        from openpyxl import Workbook
+
+        jobs = [
+            LiveJob("j1", "Administrator", "Lincoln", "Lincolnshire", "Admin", "JobG8", "https://example/j1", "app/a.json"),
+            LiveJob("j2", "Marketing Executive", "Lincoln", "Lincolnshire", "Marketing", "JobG8", "https://example/j2", "app/b.json"),
+            LiveJob("j3", "Support Worker", "Lincolnshire", "Lincolnshire", "Support", "NHS Jobs", "https://example/j3", "app/c.json"),
+        ]
+        inventory = LiveInventory(jobs, [], 3, 0, 0)
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            geo = root / "geo.xlsx"
+            workbook = Workbook()
+            sheet = workbook.active
+            sheet.title = "Sheet1"
+            sheet.append(["Area", "Cluster"])
+            sheet.append(["Lincoln", "Lincolnshire"])
+            sheet.append(["Lincolnshire", "Lincolnshire"])
+            workbook.save(geo)
+            register = root / "cities.json"
+            register.write_text(json.dumps([]), encoding="utf-8")
+            rows, mapped_jobs, unmapped_jobs = _city_opportunity_rows(
+                inventory, geo_lookup_path=geo, city_register_path=register
+            )
+
+        self.assertEqual([(row.locality, row.live_jobs) for row in rows], [("Lincoln", 2)])
+        self.assertEqual(mapped_jobs, 2)
+        self.assertEqual(unmapped_jobs, 1)
+
     def test_page_inventory_reconciles_and_expands_london_routes(self) -> None:
         rows, counts = _published_page_inventory()
         self.assertEqual(
