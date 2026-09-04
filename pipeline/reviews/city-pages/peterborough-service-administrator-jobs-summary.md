@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 7
 - automatic review: 3
-- automatic exclude: 12
+- automatic exclude: 11
 - effective include: 7
 - effective review: 3
-- effective exclude: 12
+- effective exclude: 11
 
 ## INCLUDE (7)
 
@@ -146,7 +146,7 @@ job_id: jobg8-23643_225519683
 reason: No approved Peterborough catchment rule matched; local review required.
 ---
 
-## EXCLUDE (12)
+## EXCLUDE (11)
 
 ---
 action: 
@@ -277,17 +277,5 @@ company: Swavesey Village College
 location: Cambridge
 source: Teaching Vacancies
 job_id: teaching-vacancies-send-administrator-swavesey-village-college
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Service Administrator
-company: Centre 33 - Agency - Permanent
-location: Cambridge
-source: JobG8
-job_id: jobg8-23643_225463613
 reason: Separate employment market.
 ---

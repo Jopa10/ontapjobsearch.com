@@ -4,7 +4,7 @@
 - Live route: `/oxford/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 6
+- Effective included jobs: 7
 - Threshold currently met: yes
 
 ## How to review
@@ -15,24 +15,24 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 6
-- automatic review: 5
-- automatic exclude: 30
-- effective include: 6
-- effective review: 5
-- effective exclude: 30
+- automatic include: 7
+- automatic review: 4
+- automatic exclude: 27
+- effective include: 7
+- effective review: 4
+- effective exclude: 27
 
-## INCLUDE (6)
+## INCLUDE (7)
 
 ---
 action: 
 decision: include
 automatic_decision: include
-title: Administrative Assistant
-company: Oxford University Hospitals NHS Foundation Trust
-location: Headington, Oxford, OX3 7HE
+title: Administrator
+company: Oxford Health NHS Trust
+location: Oxford, OX2 8TA
 source: NHS Jobs
-job_id: nhs-5559481
+job_id: nhs-5577835
 reason: Approved conservative Oxford launch catchment.
 ---
 
@@ -57,6 +57,18 @@ company: Oxford University Hospitals NHS Foundation Trust
 location: Oxford, OX3 7LE
 source: NHS Jobs
 job_id: nhs-5565421
+reason: Approved conservative Oxford launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Forensic Administrator - Littlemore, Oxford
+company: Oxford Health NHS Trust
+location: Oxford, OX4 4XN
+source: NHS Jobs
+job_id: nhs-5573609
 reason: Approved conservative Oxford launch catchment.
 ---
 
@@ -96,19 +108,7 @@ job_id: nhs-5533284
 reason: Approved conservative Oxford launch catchment.
 ---
 
-## REVIEW (5)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Admin Assistant - Care Home
-company: Barchester Healthcare
-location: Banbury, OX15 6EH
-source: NHS Jobs
-job_id: nhs-5558600
-reason: No approved Oxford catchment rule matched; local review required.
----
+## REVIEW (4)
 
 ---
 action: 
@@ -138,11 +138,11 @@ reason: No approved Oxford catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Medical Receptionist
-company: The Abingdon Surgery
-location: Abingdon, OX14 3LB
+title: Part-time Forensic Administrator - HMP Huntercombe
+company: Oxford Health NHS Trust
+location: Henley-On-Thames, RG9 5SG
 source: NHS Jobs
-job_id: nhs-5547418
+job_id: nhs-5573643
 reason: No approved Oxford catchment rule matched; local review required.
 ---
 
@@ -158,7 +158,7 @@ job_id: teaching-vacancies-sixth-form-administrator-team-leader
 reason: No approved Oxford catchment rule matched; local review required.
 ---
 
-## EXCLUDE (30)
+## EXCLUDE (27)
 
 ---
 action: 
@@ -444,18 +444,6 @@ title: Temporary Administrator
 company: Berry Recruitment - Agency - Temporary
 location: Oxfordshire
 source: JobG8
-job_id: jobg8-23643_225463257
-reason: Broad county location; not Oxford-city evidence.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Temporary Administrator
-company: Berry Recruitment - Agency - Temporary
-location: Oxfordshire
-source: JobG8
 job_id: jobg8-23643_225524539
 reason: Broad county location; not Oxford-city evidence.
 ---
@@ -469,18 +457,6 @@ company: Allen Associates - Agency - Temporary
 location: Oxfordshire
 source: JobG8
 job_id: jobg8-23643_225544143
-reason: Broad county location; not Oxford-city evidence.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Temporary Medical Secretary
-company: Allen Associates - Agency - Temporary
-location: Oxfordshire
-source: JobG8
-job_id: jobg8-23643_225533669
 reason: Broad county location; not Oxford-city evidence.
 ---
 
@@ -505,17 +481,5 @@ company: Allen Associates - Agency - Temporary
 location: Oxfordshire
 source: JobG8
 job_id: jobg8-23643_225544109
-reason: Broad county location; not Oxford-city evidence.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Temporary Receptionist
-company: Allen Associates - Agency - Temporary
-location: Oxfordshire
-source: JobG8
-job_id: jobg8-23643_225544132
 reason: Broad county location; not Oxford-city evidence.
 ---

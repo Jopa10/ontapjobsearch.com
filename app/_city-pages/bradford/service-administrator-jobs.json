@@ -50,7 +50,12 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Customer enquiries",
+      "Records administration",
+      "Systems administration"
+    ]
   },
   {
     "job_id": "23643_225499042",
@@ -222,6 +227,25 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2598-26-0009",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "posted_date_basis": "source"
+  },
+  {
+    "job_id": "nhs-5579658",
+    "source": "NHS Jobs",
+    "title": "Receptionist",
+    "company": "Manor Medical Practice",
+    "advertiser_name": "Manor Medical Practice",
+    "location": "Bradford, BD8 9PB, Bradford, BD15 7WA",
+    "region": "Yorkshire - West",
+    "salary": "Negotiable",
+    "employment_type": "Permanent",
+    "posted_date": "2026-09-04T11:18:19.860218645",
+    "closing_date": "2026-09-25",
+    "description": "We are looking for part time receptionists to be responsible for undertaking a wide range of reception duties and the provision of general support to the multidisciplinary team. we have two roles available on at 25.5 hours and one at 20.5 hours spread across 4 days: Mon: 6 hours, 8AM - 2PM Tues: 9 hours, 8AM - 6PM Wed: 5 hours, 8AM - 1PM Fri: 5.5 hours, 1PM - 6:30PM OR Mon: 5 hours, 1PM - 6PM Tues: 5 hours, 8AM - 1PM Wed: 5.5 hours, 1PM - 6:30PM Thurs: 5 hours, 8AM - 1PM Duties can include but are not limited to, greeting, and directing patients, effective use of the appointment system, booking appointments, processing of information, and assisting patients as required. To act as the central point of contact for patients, the distribution of information, messages, and enquiries for the clinical team, liaising with multidisciplinary team members and external agencies such as secondary care and community service providers. The following are the core responsibilities of the receptionist. There may be on occasion, a requirement to carry out other tasks; this will be dependent upon factors such as workload and staffing levels: a. Maintaining and monitoring the practice appointment system b. Process personal, telephone and e-requests for appointments c. Answer incoming phone calls, transferring calls or dealing with the callers request appropriately d. Front desk duties, including correct procedure for arriving patients. e. Prescription requests f. Signpost patients to the correct service g. Initiating contact with and responding to, requests from patients, team members and external agencies h. Read code data on SystmOne i. Photocopy documentation as required j. Data entry of new and temporary registrations and relevant patient information as required k. Input data into the patients healthcare records as necessary l. Direct requests for information i.e., SAR, insurance / solicitors letters and DVLA forms to the Medical Secretary. m. Manage all queries as necessary in an efficient manner n. Carry out system searches as requested o. Maintain a clean, tidy, effective working area always p. Monitor and maintain the reception area and notice boards q. Support all clinical staff with general tasks as requested",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1399-26-0019",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1399-26-0019",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "A",
     "posted_date_basis": "source"
   }
 ]

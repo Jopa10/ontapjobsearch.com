@@ -4,7 +4,7 @@
 - Live route: `/york/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 4
+- Effective included jobs: 5
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 4
+- automatic include: 5
 - automatic review: 6
 - automatic exclude: 12
-- effective include: 4
+- effective include: 5
 - effective review: 6
 - effective exclude: 12
 
-## INCLUDE (4)
+## INCLUDE (5)
 
 ---
 action: 
@@ -57,6 +57,18 @@ company: KD Recruitment Limited - Agency - Permanent
 location: York
 source: JobG8
 job_id: jobg8-107840612
+reason: Approved York catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Sales and Marketing Coordinator
+company: KD Recruitment Limited - Agency - Permanent
+location: York
+source: JobG8
+job_id: jobg8-107804499
 reason: Approved York catchment.
 ---
 

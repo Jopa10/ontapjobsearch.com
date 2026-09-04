@@ -4,7 +4,7 @@
 - Live route: `/belfast/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 27
+- Effective included jobs: 29
 - Threshold currently met: yes
 
 ## How to review
@@ -15,26 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 27
-- automatic review: 5
+- automatic include: 29
+- automatic review: 8
 - automatic exclude: 0
-- effective include: 27
-- effective review: 5
+- effective include: 29
+- effective review: 8
 - effective exclude: 0
 
-## INCLUDE (27)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrators
-company: MPA Recruitment - Agency - Permanent
-location: Belfast
-source: JobG8
-job_id: jobg8-2047973
-reason: Approved conservative Belfast launch catchment.
----
+## INCLUDE (29)
 
 ---
 action: 
@@ -64,6 +52,18 @@ reason: Approved conservative Belfast launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Business Administrator
+company: Hays - Agency - Permanent
+location: Belfast
+source: JobG8
+job_id: jobg8-2051637
+reason: Approved conservative Belfast launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Clerical Officer
 company: Apple Recruitment - Agency - Permanent
 location: Belfast
@@ -76,11 +76,23 @@ reason: Approved conservative Belfast launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Customer Planner/Front of House
-company: Hays - Agency - Permanent
+title: Clerical Officers
+company: CCEA - Agency - Permanent
 location: Belfast
 source: JobG8
-job_id: jobg8-2049852
+job_id: jobg8-2051396
+reason: Approved conservative Belfast launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Contact Centre Executive
+company: Sysco - Company - Permanent
+location: Belfast
+source: JobG8
+job_id: jobg8-2050717
 reason: Approved conservative Belfast launch catchment.
 ---
 
@@ -105,6 +117,18 @@ company: Brook Street UK - Agency - Permanent
 location: Belfast
 source: JobG8
 job_id: jobg8-107836604
+reason: Approved conservative Belfast launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Customer Service Assistant
+company: Belfast City Council - Agency - Permanent
+location: Belfast
+source: JobG8
+job_id: jobg8-2050586
 reason: Approved conservative Belfast launch catchment.
 ---
 
@@ -160,18 +184,6 @@ reason: Approved conservative Belfast launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: HR Administrator
-company: Hays - Agency - Permanent
-location: Belfast
-source: JobG8
-job_id: jobg8-2049909
-reason: Approved conservative Belfast launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: HR Coordinator
 company: MCS Group - Agency - Permanent
 location: Belfast
@@ -196,11 +208,11 @@ reason: Approved conservative Belfast launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Medical Receptionist (30-37.5 hrs pw)
+title: Medical Receptionist (17.5 hrs pw)
 company: Lynda Jacobs Recruitment - Agency - Permanent
 location: Belfast
 source: JobG8
-job_id: jobg8-2048231
+job_id: jobg8-2051645
 reason: Approved conservative Belfast launch catchment.
 ---
 
@@ -208,11 +220,11 @@ reason: Approved conservative Belfast launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Office Administrator
-company: Reed Specialist Recruitment - Agency - Permanent
+title: Medical Receptionist (37.5 hrs pw)
+company: Lynda Jacobs Recruitment - Agency - Permanent
 location: Belfast
 source: JobG8
-job_id: jobg8-2051224
+job_id: jobg8-2049936
 reason: Approved conservative Belfast launch catchment.
 ---
 
@@ -268,11 +280,11 @@ reason: Approved conservative Belfast launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Receptionist Administrator
-company: Reed Specialist Recruitment - Agency - Permanent
+title: Receptionist/ Administrator (30-37.5 hrs per week)
+company: Lynda Jacobs Recruitment - Agency - Permanent
 location: Belfast
 source: JobG8
-job_id: jobg8-2051243
+job_id: jobg8-2048235
 reason: Approved conservative Belfast launch catchment.
 ---
 
@@ -316,6 +328,18 @@ reason: Approved conservative Belfast launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Sales Support Admin (Maternity Cover)
+company: Honeycomb Jobs Ltd - Agency - Permanent
+location: Belfast
+source: JobG8
+job_id: jobg8-2051485
+reason: Approved conservative Belfast launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Sales Support Specialist
 company: Wilkins Talent Solutions - Agency - Permanent
 location: Belfast
@@ -348,7 +372,31 @@ job_id: jobg8-2051377
 reason: Approved conservative Belfast launch catchment.
 ---
 
-## REVIEW (5)
+## REVIEW (8)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Admin Scheduler
+company: Apple Recruitment - Agency - Permanent
+location: Newtownabbey
+source: JobG8
+job_id: jobg8-2051713
+reason: No approved Belfast catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Business Support Officer
+company: Platinum Recruitment - Agency - Permanent
+location: Newry
+source: JobG8
+job_id: jobg8-2051712
+reason: No approved Belfast catchment rule matched; local review required.
+---
 
 ---
 action: 
@@ -378,11 +426,11 @@ reason: No approved Belfast catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Medical Receptionist/ Administrator (14 hrs pw)
+title: Medical Receptionist (21.5 hrs pw)
 company: Lynda Jacobs Recruitment - Agency - Permanent
 location: Newtownabbey
 source: JobG8
-job_id: jobg8-2051410
+job_id: jobg8-2050449
 reason: No approved Belfast catchment rule matched; local review required.
 ---
 
@@ -395,6 +443,18 @@ company: Honeycomb Jobs Ltd - Agency - Permanent
 location: Newry
 source: JobG8
 job_id: jobg8-2051465
+reason: No approved Belfast catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Sales Coordinator
+company: Brook Street UK - Agency - Permanent
+location: Ballyclare
+source: JobG8
+job_id: jobg8-107922303
 reason: No approved Belfast catchment rule matched; local review required.
 ---
 

@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 24
 - automatic review: 6
-- automatic exclude: 25
+- automatic exclude: 22
 - effective include: 24
 - effective review: 6
-- effective exclude: 25
+- effective exclude: 22
 
 ## INCLUDE (24)
 
@@ -100,6 +100,18 @@ reason: Approved Leeds catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Clerical Officer/Receptionist
+company: Leeds Teaching Hospitals
+location: Leeds, LS1 3EX
+source: NHS Jobs
+job_id: nhs-5577774
+reason: Approved Leeds catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Customer Service Advisor
 company: Red Recruitment - Agency - Permanent
 location: Leeds
@@ -136,47 +148,11 @@ reason: Approved Leeds catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Executive Assistant
-company: Office Angels - Agency - Permanent
-location: Leeds
-source: JobG8
-job_id: jobg8-23643_225460895
-reason: Approved Leeds catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Facilities Administrator
 company: Morgan King - Agency - Permanent
 location: Leeds
 source: JobG8
 job_id: jobg8-23643_225552127
-reason: Approved Leeds catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: GP Receptionist / Care Navigator
-company: Robin Lane Health & Wellbeing Centre
-location: Pudsey, LS28 7DE
-source: NHS Jobs
-job_id: nhs-5550046
-reason: Approved Leeds catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: HR Administrator
-company: Akari Care Limited
-location: Leeds, LS11 5DZ
-source: NHS Jobs
-job_id: nhs-5561629
 reason: Approved Leeds catchment.
 ---
 
@@ -208,6 +184,18 @@ reason: Approved Leeds catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Medical Administrator
+company: Oakwood Lane Medical Practice
+location: Leeds, LS8 3BZ
+source: NHS Jobs
+job_id: nhs-5577142
+reason: Approved Leeds catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Operations Administrator
 company: Kingston Barnes Ltd - Agency - Permanent
 location: Leeds
@@ -225,6 +213,18 @@ company: Hillfoot Surgery
 location: Pudsey, LS28 7QR
 source: NHS Jobs
 job_id: nhs-5573894
+reason: Approved Leeds catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Receptionist
+company: Leeds and York Partnership NHS Foundation Trust
+location: Leeds, LS9 7BE
+source: NHS Jobs
+job_id: nhs-5578840
 reason: Approved Leeds catchment.
 ---
 
@@ -386,7 +386,7 @@ job_id: jobg8-23643_225555933
 reason: No approved Leeds catchment rule matched; local review required.
 ---
 
-## EXCLUDE (25)
+## EXCLUDE (22)
 
 ---
 action: 
@@ -397,18 +397,6 @@ company: Dixons McMillan Academy
 location: Bradford
 source: Teaching Vacancies
 job_id: teaching-vacancies-academy-administrator-l2-dixons-mcmillan-academy
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Business Support Coordinator
-company: Conexus Healthcare CIC
-location: Wakefield, WF2 7PJ
-source: NHS Jobs
-job_id: nhs-5532564
 reason: Separate employment market.
 ---
 
@@ -469,18 +457,6 @@ company: BDS (Northern) Limited - Agency - Temporary
 location: Bradford
 source: JobG8
 job_id: jobg8-23643_225499042
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Medical receptionist
-company: Almondbury Surgery
-location: Huddersfield, HD5 8XW
-source: NHS Jobs
-job_id: nhs-5559076
 reason: Separate employment market.
 ---
 
@@ -560,6 +536,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Receptionist
+company: Manor Medical Practice
+location: Bradford, BD8 9PB, Bradford, BD15 7WA
+source: NHS Jobs
+job_id: nhs-5579658
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Receptionist / Administrator
 company: Ossett Surgery
 location: Wakefield, WF5 8DF
@@ -572,11 +560,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Receptionist / Dental
-company: Edgerton Dental Clinic - Agency - Permanent
-location: Huddersfield
-source: JobG8
-job_id: jobg8-23643_225463726
+title: Receptionist/ Telephonist
+company: Elmwood Family Doctors
+location: Huddersfield, HD9 3TR, Holmfirth, HD9 4EN
+source: NHS Jobs
+job_id: nhs-5579570
 reason: Separate employment market.
 ---
 
@@ -608,18 +596,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: SEND & Exam Access Arrangements Administrator
-company: The North Halifax Grammar School
-location: Halifax
-source: Teaching Vacancies
-job_id: teaching-vacancies-send-exam-access-arrangements-administrator
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Senior Administrator
 company: Appleton Academy
 location: Bradford
@@ -632,11 +608,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Senior Administrator
-company: Turning Point
-location: Wakefield, WF2 7AW
-source: NHS Jobs
-job_id: nhs-5561913
+title: Service Co-ordinator
+company: Veolia - Agency - Permanent
+location: Dewsbury
+source: JobG8
+job_id: jobg8-23643_225542036
 reason: Separate employment market.
 ---
 
@@ -648,7 +624,7 @@ title: Service Co-ordinator
 company: Veolia - Agency - Permanent
 location: Dewsbury
 source: JobG8
-job_id: jobg8-23643_225542036
+job_id: jobg8-23643_225563194
 reason: Separate employment market.
 ---
 
@@ -673,17 +649,5 @@ company: Shorterm Group - Agency - Permanent
 location: Wakefield
 source: JobG8
 job_id: jobg8-23643_225465858
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Ward Clerk
-company: Calderdale and Huddersfield NHS Foundation Trust
-location: Huddersfield, HD3 3EA
-source: NHS Jobs
-job_id: nhs-5561893
 reason: Separate employment market.
 ---

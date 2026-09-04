@@ -1,12 +1,11 @@
 decision,job_id,title,company,location,source,automatic_decision,effective_decision,reason,matched_rule,city_key
+include,jobg8-23643_225564170,Accounts Assistant,Michael Page - Agency - Permanent,Cardiff,JobG8,include,include,Approved conservative Cardiff launch catchment.,cardiff,cardiff-service-administrator-jobs
 include,nhs-5544161,Admin/Receptionist,Butetown Medical Practice,"Cardiff, CF10 5HW",NHS Jobs,include,include,Approved conservative Cardiff launch catchment.,cardiff,cardiff-service-administrator-jobs
 include,jobg8-1770973,Claims Handler,"Everywhen, part of the Ardonagh Group - Agency - Permanent",Cardiff,JobG8,include,include,Approved conservative Cardiff launch catchment.,cardiff,cardiff-service-administrator-jobs
-include,jobg8-20279_62226,Customer Service Advisor,EE - Company - Permanent,Cardiff,JobG8,include,include,Approved conservative Cardiff launch catchment.,cardiff,cardiff-service-administrator-jobs
 include,jobg8-21618_20279_61680-f8145293a99ee8a5fe099e7dc9419d9b,Customer Service Advisor,EE - Company - Permanent,Cardiff,JobG8,include,include,Approved conservative Cardiff launch catchment.,cardiff,cardiff-service-administrator-jobs
-include,jobg8-20279_61857-6235aa603e3e92e53d1200c49faf4748,Customer Service Advisor - Part-time Evenings,EE - Company - Permanent,Cardiff,JobG8,include,include,Approved conservative Cardiff launch catchment.,cardiff,cardiff-service-administrator-jobs
 include,jobg8-1734772,Investment Management Administrator,NJR Recruitment - Agency - Permanent,Cardiff,JobG8,include,include,Approved conservative Cardiff launch catchment.,cardiff,cardiff-service-administrator-jobs
+include,jobg8-107791604,Key Account Coordinator and Customer Support,Work Wales - Agency - Permanent,Cardiff,JobG8,include,include,Approved conservative Cardiff launch catchment.,cardiff,cardiff-service-administrator-jobs
 include,nhs-5556922,Receptionist,Four Elms Medical centre,"Cardiff, CF24 2HB, Cardiff, CF24 0SZ",NHS Jobs,include,include,Approved conservative Cardiff launch catchment.,cardiff,cardiff-service-administrator-jobs
 include,jobg8-1769444,Sales Administrator,Oakmoor Recruitment limited - Agency - Permanent,Cardiff,JobG8,include,include,Approved conservative Cardiff launch catchment.,cardiff,cardiff-service-administrator-jobs
 include,jobg8-23643_225534217,Service Coordinator,Veolia - Agency - Permanent,Cardiff,JobG8,include,include,Approved conservative Cardiff launch catchment.,cardiff,cardiff-service-administrator-jobs
-include,jobg8-23643_225465231,Service Department Coordinator,Work Wales - Agency - Permanent,Cardiff,JobG8,include,include,Approved conservative Cardiff launch catchment.,cardiff,cardiff-service-administrator-jobs
 review,jobg8-23643_225480882,Administrator,Adecco - Agency - Contract,Barry,JobG8,review,review,No approved Cardiff catchment rule matched; local review required.,fallback,cardiff-service-administrator-jobs

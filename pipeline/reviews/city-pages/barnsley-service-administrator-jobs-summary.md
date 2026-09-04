@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 0
 - automatic review: 1
-- automatic exclude: 27
+- automatic exclude: 21
 - effective include: 0
 - effective review: 1
-- effective exclude: 27
+- effective exclude: 21
 
 ## INCLUDE (0)
 
@@ -38,7 +38,7 @@ job_id: jobg8-23643_225516026
 reason: No approved Barnsley catchment rule matched; local review required.
 ---
 
-## EXCLUDE (27)
+## EXCLUDE (21)
 
 ---
 action: 
@@ -92,42 +92,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Call Centre Agent - Uncapped Commission
-company: EE - Company - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-20279_62295-89740a075c6163b74ea2c52702062e5d
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Call Centre Operator - Uncapped Commission
-company: EE - Company - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-20279_62295-73862c8b83139033e4e4a8b6efca9a33
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Care Coordinator
-company: HICA - Agency - Permanent
-location: Doncaster
-source: JobG8
-job_id: jobg8-107910255
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Commercial Office Administrator
 company: Elevation Recruitment Group - Agency - Permanent
 location: Rotherham
@@ -140,47 +104,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Contact Centre Agent - Uncapped Commission
-company: EE - Company - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-20279_62295-d24d3d6916a209e15b1680693740da2f
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Customer Service Advisor
-company: EE - Company - Permanent
-location: Doncaster
-source: JobG8
-job_id: jobg8-20279_62308-153faf593eb64b88272f45adeaa28d87
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Customer Service Advisor
 company: EE - Company - Permanent
 location: Doncaster
 source: JobG8
 job_id: jobg8-21618_20279_62308-153faf593eb64b88272f45adeaa28d87
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Customer Service Advisor - Uncapped Commission
-company: EE - Company - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-20279_62295-153faf593eb64b88272f45adeaa28d87
 reason: Separate employment market.
 ---
 
@@ -249,18 +177,6 @@ action:
 decision: exclude
 automatic_decision: exclude
 title: Receptionist
-company: Sheffield Health Partnership University NHS Foundation Trust
-location: Sheffield, S11 9BJ
-source: NHS Jobs
-job_id: nhs-5565903
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Receptionist
 company: The Market Surgery
 location: Rotherham, S63 7RA
 source: NHS Jobs
@@ -313,6 +229,18 @@ company: Get Recruited (UK) Ltd - Agency - Permanent
 location: Doncaster
 source: JobG8
 job_id: jobg8-107771227
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Sales & Operations Coordinator
+company: Major Recruitment - Perm Manager - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-23643_225563636
 reason: Separate employment market.
 ---
 

@@ -4,7 +4,7 @@
 - Live route: `/cardiff/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 10
+- Effective included jobs: 9
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,26 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 10
+- automatic include: 9
 - automatic review: 1
 - automatic exclude: 0
-- effective include: 10
+- effective include: 9
 - effective review: 1
 - effective exclude: 0
 
-## INCLUDE (10)
+## INCLUDE (9)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Accounts Assistant
+company: Michael Page - Agency - Permanent
+location: Cardiff
+source: JobG8
+job_id: jobg8-23643_225564170
+reason: Approved conservative Cardiff launch catchment.
+---
 
 ---
 action: 
@@ -56,31 +68,7 @@ title: Customer Service Advisor
 company: EE - Company - Permanent
 location: Cardiff
 source: JobG8
-job_id: jobg8-20279_62226
-reason: Approved conservative Cardiff launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Customer Service Advisor
-company: EE - Company - Permanent
-location: Cardiff
-source: JobG8
 job_id: jobg8-21618_20279_61680-f8145293a99ee8a5fe099e7dc9419d9b
-reason: Approved conservative Cardiff launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Customer Service Advisor - Part-time Evenings
-company: EE - Company - Permanent
-location: Cardiff
-source: JobG8
-job_id: jobg8-20279_61857-6235aa603e3e92e53d1200c49faf4748
 reason: Approved conservative Cardiff launch catchment.
 ---
 
@@ -93,6 +81,18 @@ company: NJR Recruitment - Agency - Permanent
 location: Cardiff
 source: JobG8
 job_id: jobg8-1734772
+reason: Approved conservative Cardiff launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Key Account Coordinator and Customer Support
+company: Work Wales - Agency - Permanent
+location: Cardiff
+source: JobG8
+job_id: jobg8-107791604
 reason: Approved conservative Cardiff launch catchment.
 ---
 
@@ -129,18 +129,6 @@ company: Veolia - Agency - Permanent
 location: Cardiff
 source: JobG8
 job_id: jobg8-23643_225534217
-reason: Approved conservative Cardiff launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Service Department Coordinator
-company: Work Wales - Agency - Permanent
-location: Cardiff
-source: JobG8
-job_id: jobg8-23643_225465231
 reason: Approved conservative Cardiff launch catchment.
 ---
 

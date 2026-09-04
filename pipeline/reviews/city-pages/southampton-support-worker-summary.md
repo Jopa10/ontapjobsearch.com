@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 3
-- automatic review: 5
+- automatic review: 4
 - automatic exclude: 1
 - effective include: 3
-- effective review: 5
+- effective review: 4
 - effective exclude: 1
 
 ## INCLUDE (3)
@@ -60,19 +60,7 @@ job_id: jobg8-1663151
 reason: Approved Southampton catchment.
 ---
 
-## REVIEW (5)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Care Assistant
-company: All Care - Agency - Permanent
-location: Freshwater
-source: JobG8
-job_id: jobg8-107893077
-reason: No approved Southampton catchment rule matched; local review required.
----
+## REVIEW (4)
 
 ---
 action: 

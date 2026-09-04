@@ -222,6 +222,18 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
+title: Customer Service Administrator
+company: Wild Recruitment - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-23643_225564928
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Customer Service Advisor
 company: Dynamite Recruitment - Agency - Permanent
 location: Hampshire
@@ -247,10 +259,10 @@ action:
 decision: review
 automatic_decision: review
 title: Customer Service Advisor
-company: TCC Group - Agency - Permanent
+company: Red Snapper Recruitment Limited - Agency - Contract
 location: Hampshire
 source: JobG8
-job_id: jobg8-1770069
+job_id: jobg8-23643_225566529
 reason: Broad location; review before city inclusion.
 ---
 
@@ -259,10 +271,10 @@ action:
 decision: review
 automatic_decision: review
 title: Customer Service Advisor
-company: The Work Shop - Agency - Permanent
+company: TCC Group - Agency - Permanent
 location: Hampshire
 source: JobG8
-job_id: jobg8-1786242
+job_id: jobg8-1770069
 reason: Broad location; review before city inclusion.
 ---
 
@@ -342,35 +354,11 @@ reason: No approved Southampton catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Financial Administrator
-company: DCA Recruitment - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-23643_225456621
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Hire Coordinator
 company: Dovetail Recruitment Ltd - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225467954
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Housing Repairs Administrator
-company: Thorngate Churcher Trust - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-23643_225537561
 reason: Broad location; review before city inclusion.
 ---
 
@@ -474,6 +462,18 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
+title: Office Administrators
+company: Lloyd Recruitment - Epsom - Agency - Temporary
+location: Hampshire
+source: JobG8
+job_id: jobg8-23643_225566708
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Onboarding Administrator
 company: Matchtech - Agency - Contract
 location: Hampshire
@@ -540,18 +540,6 @@ location: Romsey, SO51 8EN, Romsey, SO517QN
 source: NHS Jobs
 job_id: nhs-5522984
 reason: No approved Southampton catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Personal Assistant
-company: ADS Group Ltd - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-23643_225460894
-reason: Broad location; review before city inclusion.
 ---
 
 ---
@@ -647,6 +635,18 @@ company: Office Angels - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225472592
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Receptionist/ Front of House
+company: Search Consultancy Ltd - Agency - Contract
+location: Hampshire
+source: JobG8
+job_id: jobg8-23643_225564118
 reason: Broad location; review before city inclusion.
 ---
 
@@ -762,11 +762,11 @@ reason: No approved Southampton catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Service Coordinator
-company: Veolia - Agency - Permanent
+title: SME Administrator
+company: Rapier - Agency - Permanent
 location: Hampshire
 source: JobG8
-job_id: jobg8-23643_225534205
+job_id: jobg8-1767352
 reason: Broad location; review before city inclusion.
 ---
 
@@ -774,11 +774,11 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: SME Administrator
-company: Rapier - Agency - Permanent
+title: Stock Data Administrator
+company: Uxbridge Employment Agency - Agency - Permanent
 location: Hampshire
 source: JobG8
-job_id: jobg8-1767352
+job_id: jobg8-23643_225397700
 reason: Broad location; review before city inclusion.
 ---
 
@@ -849,6 +849,18 @@ action:
 decision: exclude
 automatic_decision: exclude
 title: Administrator
+company: Island City Practice
+location: Portsmouth, PO4 8TA
+source: NHS Jobs
+job_id: nhs-5577957
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Administrator
 company: Practice Plus Group - Health in Justice
 location: Winchester, SO22 5DF
 source: NHS Jobs
@@ -877,18 +889,6 @@ company: Bartlett Group Practice
 location: Aldershot, GU12 5BA, CAMBERLEY, GU16 6QQ
 source: NHS Jobs
 job_id: nhs-5571549
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Receptionist
-company: Avery Healthcare Group Ltd.
-location: Winchester, SO22 5JH
-source: NHS Jobs
-job_id: nhs-5566136
 reason: Separate employment market.
 ---
 

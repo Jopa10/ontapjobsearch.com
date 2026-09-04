@@ -2,7 +2,6 @@ decision,job_id,title,company,location,source,automatic_decision,effective_decis
 include,jobg8-1401784887,Night Care Worker,Hampshire County Council - Company - Permanent,Southampton,JobG8,include,include,Approved Southampton catchment.,southampton,southampton-support-worker
 include,jobg8-1401784780,Secure Childrens Home Support Worker (Weekends),Hampshire County Council - Company - Permanent,Southampton,JobG8,include,include,Approved Southampton catchment.,southampton,southampton-support-worker
 include,jobg8-1663151,Waking Night Support Worker,The Society of St James - Agency - Permanent,Southampton,JobG8,include,include,Approved Southampton catchment.,southampton,southampton-support-worker
-review,jobg8-107893077,Care Assistant,All Care - Agency - Permanent,Freshwater,JobG8,review,review,No approved Southampton catchment rule matched; local review required.,fallback,southampton-support-worker
 review,jobg8-1401784493,Care Assistant,Hampshire County Council - Company - Permanent,Alton,JobG8,review,review,Broad location; review before city inclusion.,context:hampshire,southampton-support-worker
 review,jobg8-1401784767,Children's Homes Support Worker,Hampshire County Council - Company - Permanent,Romsey,JobG8,review,review,Broad location; review before city inclusion.,context:hampshire,southampton-support-worker
 review,jobg8-1401784915,Day Opportunities Support Worker (HCC Care YA),Hampshire County Council - Company - Permanent,Gosport,JobG8,review,review,Broad location; review before city inclusion.,context:hampshire,southampton-support-worker

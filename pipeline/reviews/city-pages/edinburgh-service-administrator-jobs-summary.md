@@ -4,7 +4,7 @@
 - Live route: `/edinburgh/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 10
+- Effective included jobs: 9
 - Threshold currently met: yes
 
 ## How to review
@@ -15,26 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 10
+- automatic include: 9
 - automatic review: 1
 - automatic exclude: 0
-- effective include: 10
+- effective include: 9
 - effective review: 1
 - effective exclude: 0
 
-## INCLUDE (10)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrator
-company: Search Consultancy Ltd - Agency - Permanent
-location: Edinburgh
-source: JobG8
-job_id: jobg8-23643_225461959
-reason: Approved conservative Edinburgh launch catchment.
----
+## INCLUDE (9)
 
 ---
 action: 
@@ -45,18 +33,6 @@ company: Pertemps Scotland Temps - Agency - Permanent
 location: Edinburgh
 source: JobG8
 job_id: jobg8-1787097
-reason: Approved conservative Edinburgh launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Faculties Coordinator
-company: Royal College of Surgeons Edinburgh - Agency - Permanent
-location: Edinburgh
-source: JobG8
-job_id: jobg8-1804346
 reason: Approved conservative Edinburgh launch catchment.
 ---
 
@@ -76,11 +52,11 @@ reason: Approved conservative Edinburgh launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Italian speaking Office Administrator
-company: Language Matters Recruitment Consultants Ltd - Agency - Permanent
+title: Platform Administrator
+company: Meraki Talent Limited - Agency - Permanent
 location: Edinburgh
 source: JobG8
-job_id: jobg8-23643_225457991
+job_id: jobg8-1789719
 reason: Approved conservative Edinburgh launch catchment.
 ---
 
@@ -88,11 +64,11 @@ reason: Approved conservative Edinburgh launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Platform Administrator
-company: Meraki Talent Limited - Agency - Permanent
+title: Receptionist
+company: Pertemps Scotland - Agency - Temporary
 location: Edinburgh
 source: JobG8
-job_id: jobg8-1789719
+job_id: jobg8-23643_225563421
 reason: Approved conservative Edinburgh launch catchment.
 ---
 
@@ -129,6 +105,18 @@ company: Office Angels - Agency - Temporary
 location: Edinburgh
 source: JobG8
 job_id: jobg8-23643_225542471
+reason: Approved conservative Edinburgh launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Town Planner
+company: Michael Page - Agency - Permanent
+location: Edinburgh
+source: JobG8
+job_id: jobg8-23643_225563467
 reason: Approved conservative Edinburgh launch catchment.
 ---
 

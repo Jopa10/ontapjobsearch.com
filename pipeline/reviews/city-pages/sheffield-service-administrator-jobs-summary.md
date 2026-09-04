@@ -4,7 +4,7 @@
 - Live route: `/sheffield/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 15
+- Effective included jobs: 11
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 15
+- automatic include: 11
 - automatic review: 1
-- automatic exclude: 12
-- effective include: 15
+- automatic exclude: 10
+- effective include: 11
 - effective review: 1
-- effective exclude: 12
+- effective exclude: 10
 
-## INCLUDE (15)
+## INCLUDE (11)
 
 ---
 action: 
@@ -45,54 +45,6 @@ company: Sheffield Teaching Hospitals NHS Foundation Trust
 location: Sheffield, S2 3QE
 source: NHS Jobs
 job_id: nhs-5565689
-reason: Approved Sheffield catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Call Centre Agent - Uncapped Commission
-company: EE - Company - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-20279_62295-89740a075c6163b74ea2c52702062e5d
-reason: Approved Sheffield catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Call Centre Operator - Uncapped Commission
-company: EE - Company - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-20279_62295-73862c8b83139033e4e4a8b6efca9a33
-reason: Approved Sheffield catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Contact Centre Agent - Uncapped Commission
-company: EE - Company - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-20279_62295-d24d3d6916a209e15b1680693740da2f
-reason: Approved Sheffield catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Customer Service Advisor - Uncapped Commission
-company: EE - Company - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-20279_62295-153faf593eb64b88272f45adeaa28d87
 reason: Approved Sheffield catchment.
 ---
 
@@ -136,11 +88,11 @@ reason: Approved Sheffield catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Receptionist
-company: Sheffield Health Partnership University NHS Foundation Trust
-location: Sheffield, S11 9BJ
-source: NHS Jobs
-job_id: nhs-5565903
+title: Recruitment Resourcer / Administrator
+company: Lynx Employment Services Ltd - Agency - Temporary
+location: Sheffield
+source: JobG8
+job_id: jobg8-23643_225478960
 reason: Approved Sheffield catchment.
 ---
 
@@ -148,11 +100,11 @@ reason: Approved Sheffield catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Recruitment Resourcer / Administrator
-company: Lynx Employment Services Ltd - Agency - Temporary
+title: Sales & Operations Coordinator
+company: Major Recruitment - Perm Manager - Agency - Permanent
 location: Sheffield
 source: JobG8
-job_id: jobg8-23643_225478960
+job_id: jobg8-23643_225563636
 reason: Approved Sheffield catchment.
 ---
 
@@ -218,7 +170,7 @@ job_id: jobg8-23643_225516026
 reason: No approved Sheffield catchment rule matched; local review required.
 ---
 
-## EXCLUDE (12)
+## EXCLUDE (10)
 
 ---
 action: 
@@ -248,35 +200,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Care Coordinator
-company: HICA - Agency - Permanent
-location: Doncaster
-source: JobG8
-job_id: jobg8-107910255
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Commercial Office Administrator
 company: Elevation Recruitment Group - Agency - Permanent
 location: Rotherham
 source: JobG8
 job_id: jobg8-1770785
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Customer Service Advisor
-company: EE - Company - Permanent
-location: Doncaster
-source: JobG8
-job_id: jobg8-20279_62308-153faf593eb64b88272f45adeaa28d87
 reason: Separate employment market.
 ---
 

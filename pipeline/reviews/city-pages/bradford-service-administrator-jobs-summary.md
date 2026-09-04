@@ -4,7 +4,7 @@
 - Live route: `/bradford/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 9
+- Effective included jobs: 10
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 9
-- automatic review: 8
-- automatic exclude: 38
-- effective include: 9
-- effective review: 8
-- effective exclude: 38
+- automatic include: 10
+- automatic review: 7
+- automatic exclude: 35
+- effective include: 10
+- effective review: 7
+- effective exclude: 35
 
-## INCLUDE (9)
+## INCLUDE (10)
 
 ---
 action: 
@@ -112,6 +112,18 @@ reason: Approved Bradford catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Receptionist
+company: Manor Medical Practice
+location: Bradford, BD8 9PB, Bradford, BD15 7WA
+source: NHS Jobs
+job_id: nhs-5579658
+reason: Approved Bradford catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Senior Administrator
 company: Appleton Academy
 location: Bradford
@@ -132,7 +144,7 @@ job_id: jobg8-23643_225476845
 reason: Approved Bradford catchment.
 ---
 
-## REVIEW (8)
+## REVIEW (7)
 
 ---
 action: 
@@ -167,18 +179,6 @@ company: Centric Talent - Agency - Permanent
 location: Brighouse
 source: JobG8
 job_id: jobg8-107926764
-reason: No approved Bradford catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: GP Receptionist / Care Navigator
-company: Robin Lane Health & Wellbeing Centre
-location: Pudsey, LS28 7DE
-source: NHS Jobs
-job_id: nhs-5550046
 reason: No approved Bradford catchment rule matched; local review required.
 ---
 
@@ -230,7 +230,7 @@ job_id: nhs-5573894
 reason: No approved Bradford catchment rule matched; local review required.
 ---
 
-## EXCLUDE (38)
+## EXCLUDE (35)
 
 ---
 action: 
@@ -284,18 +284,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Business Support Coordinator
-company: Conexus Healthcare CIC
-location: Wakefield, WF2 7PJ
-source: NHS Jobs
-job_id: nhs-5532564
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Car Showroom Receptionist
 company: Huntress - Leeds - Agency - Temporary
 location: Leeds
@@ -313,6 +301,18 @@ company: Adjusting Appointments Limited - Agency - Permanent
 location: Leeds
 source: JobG8
 job_id: jobg8-1785909
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Clerical Officer/Receptionist
+company: Leeds Teaching Hospitals
+location: Leeds, LS1 3EX
+source: NHS Jobs
+job_id: nhs-5577774
 reason: Separate employment market.
 ---
 
@@ -380,18 +380,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Executive Assistant
-company: Office Angels - Agency - Permanent
-location: Leeds
-source: JobG8
-job_id: jobg8-23643_225460895
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Facilities Administrator
 company: Morgan King - Agency - Permanent
 location: Leeds
@@ -409,18 +397,6 @@ company: Card Factory - Agency - Permanent
 location: Wakefield
 source: JobG8
 job_id: jobg8-23643_225548918
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: HR Administrator
-company: Akari Care Limited
-location: Leeds, LS11 5DZ
-source: NHS Jobs
-job_id: nhs-5561629
 reason: Separate employment market.
 ---
 
@@ -452,11 +428,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Medical receptionist
-company: Almondbury Surgery
-location: Huddersfield, HD5 8XW
+title: Medical Administrator
+company: Oakwood Lane Medical Practice
+location: Leeds, LS8 3BZ
 source: NHS Jobs
-job_id: nhs-5559076
+job_id: nhs-5577142
 reason: Separate employment market.
 ---
 
@@ -500,6 +476,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Receptionist
+company: Leeds and York Partnership NHS Foundation Trust
+location: Leeds, LS9 7BE
+source: NHS Jobs
+job_id: nhs-5578840
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Receptionist / Administrator
 company: Ossett Surgery
 location: Wakefield, WF5 8DF
@@ -512,11 +500,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Receptionist / Dental
-company: Edgerton Dental Clinic - Agency - Permanent
-location: Huddersfield
+title: Receptionist/ Front of House
+company: Search Consultancy Ltd - Agency - Contract
+location: Leeds
 source: JobG8
-job_id: jobg8-23643_225463726
+job_id: jobg8-23643_225558955
 reason: Separate employment market.
 ---
 
@@ -524,11 +512,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Receptionist/ Front of House
-company: Search Consultancy Ltd - Agency - Contract
-location: Leeds
-source: JobG8
-job_id: jobg8-23643_225558955
+title: Receptionist/ Telephonist
+company: Elmwood Family Doctors
+location: Huddersfield, HD9 3TR, Holmfirth, HD9 4EN
+source: NHS Jobs
+job_id: nhs-5579570
 reason: Separate employment market.
 ---
 
@@ -596,35 +584,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: SEND & Exam Access Arrangements Administrator
-company: The North Halifax Grammar School
-location: Halifax
-source: Teaching Vacancies
-job_id: teaching-vacancies-send-exam-access-arrangements-administrator
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Senior Administrator
 company: Fountain Primary School
 location: Leeds
 source: Teaching Vacancies
 job_id: teaching-vacancies-senior-administrator-fountain-primary-school-leeds-west-yorkshire
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Senior Administrator
-company: Turning Point
-location: Wakefield, WF2 7AW
-source: NHS Jobs
-job_id: nhs-5561913
 reason: Separate employment market.
 ---
 
@@ -656,6 +620,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Service Co-ordinator
+company: Veolia - Agency - Permanent
+location: Dewsbury
+source: JobG8
+job_id: jobg8-23643_225563194
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Temporary Executive Support Administrator
 company: Hays Business Support - Agency - Temporary
 location: Leeds
@@ -673,17 +649,5 @@ company: Shorterm Group - Agency - Permanent
 location: Wakefield
 source: JobG8
 job_id: jobg8-23643_225465858
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Ward Clerk
-company: Calderdale and Huddersfield NHS Foundation Trust
-location: Huddersfield, HD3 3EA
-source: NHS Jobs
-job_id: nhs-5561893
 reason: Separate employment market.
 ---

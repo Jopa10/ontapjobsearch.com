@@ -4,7 +4,7 @@
 - Live route: `/liverpool/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 12
+- Effective included jobs: 16
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 12
+- automatic include: 16
 - automatic review: 0
 - automatic exclude: 0
-- effective include: 12
+- effective include: 16
 - effective review: 0
 - effective exclude: 0
 
-## INCLUDE (12)
+## INCLUDE (16)
 
 ---
 action: 
@@ -45,6 +45,30 @@ company: Search Consultancy Ltd - Agency - Permanent
 location: Liverpool
 source: JobG8
 job_id: jobg8-23643_225558463
+reason: Approved conservative Liverpool launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Bookkeeper / Accounts Assistant
+company: TJ Thomas Estates Group - Agency - Permanent
+location: Liverpool
+source: JobG8
+job_id: jobg8-1848342
+reason: Approved conservative Liverpool launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Bookkeeper / Accounts Assistant
+company: TJ Thomas Estates Group - Agency - Permanent
+location: Liverpool
+source: JobG8
+job_id: jobg8-419438022493208576037340
 reason: Approved conservative Liverpool launch catchment.
 ---
 
@@ -148,6 +172,18 @@ reason: Approved conservative Liverpool launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Receptionist/Administration Assistant
+company: Mersey Care NHS Foundation Trust
+location: Liverpool, L34 1PJ
+source: NHS Jobs
+job_id: nhs-5559589
+reason: Approved conservative Liverpool launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Receptionist/Administrator
 company: SSP Health
 location: Liverpool, L9 8BU
@@ -165,6 +201,18 @@ company: VIQU IT Recruitment - Agency - Permanent
 location: Liverpool
 source: JobG8
 job_id: jobg8-1786775
+reason: Approved conservative Liverpool launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Temporary Receptionist
+company: Office Angels - Agency - Permanent
+location: Liverpool
+source: JobG8
+job_id: jobg8-1744017
 reason: Approved conservative Liverpool launch catchment.
 ---
 

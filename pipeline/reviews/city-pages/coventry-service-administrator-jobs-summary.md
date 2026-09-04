@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 3
 - automatic review: 2
-- automatic exclude: 24
+- automatic exclude: 22
 - effective include: 3
 - effective review: 2
-- effective exclude: 24
+- effective exclude: 22
 
 ## INCLUDE (3)
 
@@ -86,7 +86,7 @@ job_id: teaching-vacancies-receptionist-and-administrator-ftc-contract-september
 reason: No approved Coventry catchment rule matched; local review required.
 ---
 
-## EXCLUDE (24)
+## EXCLUDE (22)
 
 ---
 action: 
@@ -109,18 +109,6 @@ company: South Warwickshire University NHS Foundation Trust
 location: Rugby, CV21 3SR
 source: NHS Jobs
 job_id: nhs-5551216
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Customer Care Coordinator
-company: Persimmon Homes - Agency - Permanent
-location: Warwickshire
-source: JobG8
-job_id: jobg8-107856718
 reason: Separate employment market.
 ---
 
@@ -188,18 +176,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Logistics & Customer Service Administrator
-company: Gill Cooke Personnel Ltd T/A The Recruitment Group - Agency - Temporary
-location: Warwickshire
-source: JobG8
-job_id: jobg8-23643_225467522
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Medical Administrator
 company: Red Roofs Surgery
 location: Nuneaton, CV11 5TW
@@ -217,6 +193,18 @@ company: Valley Road Medical Practice
 location: Leamington Spa, CV32 7SJ
 source: NHS Jobs
 job_id: nhs-4151642
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Onsite Recruitment Account Coordinator
+company: Winner Recruitment - Agency - Contract
+location: Warwickshire
+source: JobG8
+job_id: jobg8-107925904
 reason: Separate employment market.
 ---
 
@@ -301,18 +289,6 @@ company: The Caraires Consultancy - Agency - Permanent
 location: Warwickshire
 source: JobG8
 job_id: jobg8-107830347
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Sales Support Administrator
-company: Office Angels - Agency - Temporary
-location: Warwickshire
-source: JobG8
-job_id: jobg8-23643_225460316
 reason: Separate employment market.
 ---
 

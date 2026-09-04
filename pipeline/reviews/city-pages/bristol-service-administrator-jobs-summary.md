@@ -4,7 +4,7 @@
 - Live route: `/bristol/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 27
+- Effective included jobs: 26
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 27
+- automatic include: 26
 - automatic review: 2
 - automatic exclude: 2
-- effective include: 27
+- effective include: 26
 - effective review: 2
 - effective exclude: 2
 
-## INCLUDE (27)
+## INCLUDE (26)
 
 ---
 action: 
@@ -201,18 +201,6 @@ company: Spire Healthcare - Company - Permanent
 location: Bristol
 source: JobG8
 job_id: jobg8-23643_225556797
-reason: Approved conservative Bristol launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Invoicing Administrator
-company: Lancer Scott Holdings Ltd - Agency - Permanent
-location: Bristol
-source: JobG8
-job_id: jobg8-23643_225456677
 reason: Approved conservative Bristol launch catchment.
 ---
 

@@ -1,6 +1,8 @@
 decision,job_id,title,company,location,source,automatic_decision,effective_decision,reason,matched_rule,city_key
 include,jobg8-1766251,Accounts Assistant,Reed - Agency - Permanent,Liverpool,JobG8,include,include,Approved conservative Liverpool launch catchment.,liverpool,liverpool-service-administrator-jobs
 include,jobg8-23643_225558463,Administrator,Search Consultancy Ltd - Agency - Permanent,Liverpool,JobG8,include,include,Approved conservative Liverpool launch catchment.,liverpool,liverpool-service-administrator-jobs
+include,jobg8-1848342,Bookkeeper / Accounts Assistant,TJ Thomas Estates Group - Agency - Permanent,Liverpool,JobG8,include,include,Approved conservative Liverpool launch catchment.,liverpool,liverpool-service-administrator-jobs
+include,jobg8-419438022493208576037340,Bookkeeper / Accounts Assistant,TJ Thomas Estates Group - Agency - Permanent,Liverpool,JobG8,include,include,Approved conservative Liverpool launch catchment.,liverpool,liverpool-service-administrator-jobs
 include,jobg8-23643_225428643,Business Support Co-ordinator,Recruitment Services UK - Agency - Permanent,Liverpool,JobG8,include,include,Approved conservative Liverpool launch catchment.,liverpool,liverpool-service-administrator-jobs
 include,nhs-5558829,Clerical Officer,Liverpool University Hospitals NHS Foundation Trust,"Liverpool, L7 8XP",NHS Jobs,include,include,Approved conservative Liverpool launch catchment.,liverpool,liverpool-service-administrator-jobs
 include,jobg8-23643_225524310,Events Administrator,Adecco - Agency - Temporary,Liverpool,JobG8,include,include,Approved conservative Liverpool launch catchment.,liverpool,liverpool-service-administrator-jobs
@@ -9,5 +11,7 @@ include,jobg8-23643_225469002,German Speaking Customer Service Administrator,Sea
 include,jobg8-1780172,Motor Claims Handler,Keoghs LLP - Agency - Permanent,Liverpool,JobG8,include,include,Approved conservative Liverpool launch catchment.,liverpool,liverpool-service-administrator-jobs
 include,jobg8-23643_225476291,Part Time Receptionist,Adecco - Agency - Temporary,Liverpool,JobG8,include,include,Approved conservative Liverpool launch catchment.,liverpool,liverpool-service-administrator-jobs
 include,teaching-vacancies-receptionist-king-s-leadership-academy-wavertree-liverpool,Receptionist,King's Leadership Academy Wavertree,Liverpool,Teaching Vacancies,include,include,Approved conservative Liverpool launch catchment.,liverpool,liverpool-service-administrator-jobs
+include,nhs-5559589,Receptionist/Administration Assistant,Mersey Care NHS Foundation Trust,"Liverpool, L34 1PJ",NHS Jobs,include,include,Approved conservative Liverpool launch catchment.,liverpool,liverpool-service-administrator-jobs
 include,nhs-5565709,Receptionist/Administrator,SSP Health,"Liverpool, L9 8BU",NHS Jobs,include,include,Approved conservative Liverpool launch catchment.,liverpool,liverpool-service-administrator-jobs
 include,jobg8-1786775,Service Desk Analyst,VIQU IT Recruitment - Agency - Permanent,Liverpool,JobG8,include,include,Approved conservative Liverpool launch catchment.,liverpool,liverpool-service-administrator-jobs
+include,jobg8-1744017,Temporary Receptionist,Office Angels - Agency - Permanent,Liverpool,JobG8,include,include,Approved conservative Liverpool launch catchment.,liverpool,liverpool-service-administrator-jobs

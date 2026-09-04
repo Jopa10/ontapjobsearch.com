@@ -4,7 +4,7 @@
 - Live route: `/manchester/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 37
+- Effective included jobs: 33
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 37
+- automatic include: 33
 - automatic review: 0
 - automatic exclude: 3
-- effective include: 37
+- effective include: 33
 - effective review: 0
 - effective exclude: 3
 
-## INCLUDE (37)
+## INCLUDE (33)
 
 ---
 action: 
@@ -33,18 +33,6 @@ company: Ellesmere Park High School
 location: Manchester
 source: Teaching Vacancies
 job_id: teaching-vacancies-administration-assistant-c2f65b3b-e84d-4148-98e6-f9f60ceb2d22
-reason: Approved conservative Manchester launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administration Assistant
-company: Greater Manchester Mental Health NHS Foundation Trust
-location: Old Trafford, Manchester, M16 9HD
-source: NHS Jobs
-job_id: nhs-5570713
 reason: Approved conservative Manchester launch catchment.
 ---
 
@@ -112,18 +100,6 @@ reason: Approved conservative Manchester launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Administrator/Receptionist
-company: Bodey Medical Centre
-location: Manchester, M14 6WP
-source: NHS Jobs
-job_id: nhs-5551494
-reason: Approved conservative Manchester launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Business Support Administrator
 company: V7 Recruitment - Agency - Permanent
 location: Manchester
@@ -184,18 +160,6 @@ reason: Approved conservative Manchester launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Customer Service & Website Administrator
-company: NowSkills - Agency - Permanent
-location: Manchester
-source: JobG8
-job_id: jobg8-107883067
-reason: Approved conservative Manchester launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Customer Service Advisor
 company: The Portfolio Group - Agency - Permanent
 location: Manchester
@@ -225,6 +189,18 @@ company: Hiring People - Agency - Permanent
 location: Manchester
 source: JobG8
 job_id: jobg8-1767548
+reason: Approved conservative Manchester launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: HR Administrator
+company: Adecco - Agency - Permanent
+location: Manchester
+source: JobG8
+job_id: jobg8-1743298
 reason: Approved conservative Manchester launch catchment.
 ---
 
@@ -280,11 +256,11 @@ reason: Approved conservative Manchester launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Office Assistant -Governance
-company: Hays Business Support - Agency - Temporary
-location: Manchester
-source: JobG8
-job_id: jobg8-23643_225459213
+title: Medical Receptionist
+company: North Trafford Group Practice
+location: Manchester, M32 0PA, Manchester, M160LW
+source: NHS Jobs
+job_id: nhs-5577644
 reason: Approved conservative Manchester launch catchment.
 ---
 
@@ -309,18 +285,6 @@ company: MFK Recruitment - Agency - Permanent
 location: Manchester
 source: JobG8
 job_id: jobg8-23643_225509120
-reason: Approved conservative Manchester launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Property Management Administrator
-company: Aspire Recruitment - Agency - Temporary
-location: Manchester
-source: JobG8
-job_id: jobg8-23643_225457567
 reason: Approved conservative Manchester launch catchment.
 ---
 
@@ -429,18 +393,6 @@ company: Hamilton Woods - Agency - Permanent
 location: Manchester
 source: JobG8
 job_id: jobg8-1789910
-reason: Approved conservative Manchester launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Team Support Coordinator
-company: Aspire Recruitment - Agency - Temporary
-location: Manchester
-source: JobG8
-job_id: jobg8-23643_225461115
 reason: Approved conservative Manchester launch catchment.
 ---
 

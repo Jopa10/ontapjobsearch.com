@@ -22,7 +22,12 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Scheduling and bookings",
+      "Records administration",
+      "Document preparation"
+    ]
   },
   {
     "job_id": "23643_225488843",
@@ -47,7 +52,13 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Customer enquiries",
+      "Scheduling and bookings",
+      "Data entry",
+      "Document preparation"
+    ]
   },
   {
     "job_id": "107880419",
@@ -197,31 +208,6 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published"
-  },
-  {
-    "job_id": "23643_225460895",
-    "title": "Executive Assistant",
-    "company": "Office Angels - Agency - Permanent",
-    "location": "Leeds",
-    "region": "Yorkshire - West",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "38000",
-    "salary_max": "45000",
-    "salary_text": "£38000 - £45000 per year",
-    "posted_date": "2026-09-03",
-    "description": "Role: EA to the Exec Chairman\n\nLocation: North Leeds, LS17\n\nHours: Monday to Friday, 08:45 - 17:15\n\nType: Permanent, Full time in the office\n\nSalary: 38-45,000 per annum\n\nAre you an exceptional Executive Assistant or Personal Assistant who thrives in a fast-paced, high-profile environment?\n\nHave you previously provided business and private office support for an Executive who is an owner of/stakeholder in multiple businesses?\n\nWe are currently partnering with a successful UK manufacturing business with a growing global presence and ambitious plans for expansion to recruit a highly professional and proactive Executive Assistant to support the Executive Chairman and help drive efficiency at the highest level of the organisation.\n\nWorking alongside an established EA, you'll become a trusted partner to the Executive Chairman, providing seamless support across both business and personal affairs.\n\nThis is a rare opportunity to support a very high net worth individual. It's a varied and influential role that requires outstanding organisational skills, sound judgement, and the ability to operate with the utmost discretion.\n\nWhat you'll be doing:\n- Managing a complex and ever-changing executive diary, ensuring priorities are effectively aligned\n- Coordinating UK and international travel, including detailed itineraries, accommodation and logistics\n- Organising executive meetings, preparing agendas, presentations and board papers\n- Managing communications and acting as a key point of contact for internal and external stakeholders\n- Producing high-quality documents, reports and correspondence\n- Supporting confidential private office matters, including liaison with relevant parties\n- Working collaboratively with the existing EA to provide seamless executive support and coverage\n\nWhat we're looking for:\n- Proven experience supporting senior executives, directors or business owners in an EA capacity\n- Outstanding organisational and diary management skills\n- Experience coordinating complex travel arrangements and executive schedules\n- A confident communicator who can build credibility with stakeholders at all levels\n- Exceptional attention to detail and strong written communication skills\n- High levels of professionalism, discretion and integrity\n- Strong Microsoft Office skills, particularly Outlook, Word, Excel and PowerPoint\n- A proactive, solutions-focused approach with the ability to anticipate needs and manage competing priorities\n- A full UK driving licence and willingness to travel occasionally\n\nIf you're a polished, highly capable Executive Assistant looking for a role where you can make a genuine impact and become a trusted partner to a senior business leader, we'd love to hear from you.\n\nOffice Angels is an employment agency and business. We are an equal-opportunities employer who puts expertise, energy and enthusiasm into improving everyone's chance of being part of the workplace. We respect and appreciate people of all ethnicities, generations, religious beliefs, sexual orientations, gender identities, abilities and more. By showcasing talents, skills and unique experiences in an inclusive environment, we help individuals thrive. If you require reasonable adjustments at any stage, please let us know and we will be happy to support you.\n\nOffice Angels acts as an employment agency for permanent recruitment and an employment business for the supply of temporary workers. Office Angels UK is an Equal Opportunities Employer.\n\nBy applying for this role your details will be submitted to Office Angels. Our Candidate Privacy Information Statement explaining how we will use your information is available on our website.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?QHpHeWTcrP6xjTYTpjOeX1k0yVBFMWU6y",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Office Angels",
-    "advertiser_type": "Agency",
-    "work_pattern": "Full Time",
-    "salary_period": "Annual",
     "posted_date_basis": "ontap_first_published"
   },
   {
@@ -397,7 +383,12 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Email handling",
+      "Systems administration",
+      "Pre-employment administration"
+    ]
   },
   {
     "job_id": "23643_225515250",
@@ -422,7 +413,12 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Email handling",
+      "Systems administration",
+      "Pre-employment administration"
+    ]
   },
   {
     "job_id": "teaching-vacancies-senior-administrator-fountain-primary-school-leeds-west-yorkshire",
@@ -475,7 +471,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Reporting",
+      "Quotations"
+    ]
   },
   {
     "job_id": "23643_225519206",
@@ -500,25 +500,67 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Scheduling and bookings",
+      "Document preparation"
+    ]
   },
   {
-    "job_id": "nhs-5561629",
+    "job_id": "nhs-5577774",
     "source": "NHS Jobs",
-    "title": "HR Administrator",
-    "company": "Akari Care Limited",
-    "advertiser_name": "Akari Care Limited",
-    "location": "Leeds, LS11 5DZ",
+    "title": "Clerical Officer/Receptionist",
+    "company": "Leeds Teaching Hospitals",
+    "advertiser_name": "Leeds Teaching Hospitals",
+    "location": "Leeds, LS1 3EX",
+    "region": "Yorkshire - West",
+    "salary": "£25272.00",
+    "employment_type": "Permanent",
+    "posted_date": "2026-09-03T13:28:34.511239434",
+    "closing_date": "2026-09-17",
+    "description": "To provide a high standard of clerical/reception service to patients and the department, adhering to departmental guidelines and policies. The post holder will receive and check documentation, reports, patient information, processing appropriately, within departmental guidelines, including entering information on to the appropriate IT system, and retrieve information as and when required. To process patient and other documentation. To be the first point of contact for patients and other visitors to the department. To provide an administrative/clerical service to the department/team. To support the delivery of a high standard of service to patients, staff and Trust departments. For questions about this job, contact: Name: Madison Calvert Position: Supervisor Email: madisoncalvert@nhs.net Shortlisting Date: 24-09-2026 Interview Date: 30-09-2026 Why you should join our Team Come and join our diverse workforce and become part of The Leeds Way sharing our vision and values. Leeds Teaching Hospitals NHS Trust is one of the largest acute health providers in the UK and based in one of the fastest growing and vibrant cities in the north. At Leeds Dental Hospital we aim to be a fair, inclusive and supportive CSU with positive caring teams who are champions of the Leeds Way values. Our Trust values of being kind, open and honest, responsible and one team, make us different from other Trusts and we see this as a strength, as well as a responsibility. We offer employees a range of value propositions such as job security, possible flexible working, pension scheme, cycle to work scheme, option to purchase additional annual leave, salary sacrifice scheme + more What you will bring to the role The candidate will bring a professional, organised and positive approach to the role, with the ability to work independently while also contributing effectively as part of a team. They have strong interpersonal and communication skills, enabling them to communicate clearly and respectfully with patients, colleagues and stakeholders. They are able to multitask and prioritise effectively in a busy environment, while managing their workload efficiently and working within agreed departmental guidelines. They are also willing to undertake any training required, including learning a range of Patient Administration and other systems, demonstrating a commitment to developing their skills and supporting the needs of the service. Please see the attached job description for further information about this vacancy. About Leeds Teaching Hospital NHS Trust Our values are part of what make us different from other trusts, so we see this as a strength, as well as a responsibility. They have been developed by our staff and set out what they see as important to how we work. Our four values are: Kind Open and Honest Responsible One Team All our actions and endeavours will be guided and evaluated through these values Were committed to recruiting exceptional people to deliver outstanding services across Leeds Teaching Hospitals NHS Trust and helping every colleague reach their full potential. Were looking for a compassionate, inclusive, and collaborative leader who shares our values and can build strong partnerships. We warmly invite applications from people from a variety of backgrounds and sectors, and are especially keen to hear from individuals from a minority ethnic background. Were dedicated to creating a diverse and inclusive environment where everyone feels valued, supported, and has a true sense of belonging, as we work together to deliver the best in healthcare to the people of Leeds and beyond. Application guidance: We understand that more applicants are using artificial intelligence (AI) technology to help with their applications. While these tools can be useful, they cannot fully capture your skills, knowledge, and experience. Its important that you personalise your application. Relying solely on AI is not recommended, as it may reduce your chances of success. Our screening process is thorough, so if you have used AI, please make sure to disclose this on your application form. Sponsorship Eligibility To comply with UK Government regulations on Skilled Worker sponsorship, Leeds Teaching Hospital NHS Trust is unable to provide sponsorship to applicants who do not meet the eligibility criteria or the salary threshold concessions set out under the Skilled Worker visa route. Please take this into consideration before submitting your application. Full guidance on these concessions, including details of who may qualify, can be found here. We reserve the right to close this advert early if we receive a high number of suitable applications.",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9298-26-0885",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9298-26-0885",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "A",
+    "posted_date_basis": "source"
+  },
+  {
+    "job_id": "nhs-5577142",
+    "source": "NHS Jobs",
+    "title": "Medical Administrator",
+    "company": "Oakwood Lane Medical Practice",
+    "advertiser_name": "Oakwood Lane Medical Practice",
+    "location": "Leeds, LS8 3BZ",
     "region": "Yorkshire - West",
     "salary": "Negotiable",
     "employment_type": "Permanent",
-    "posted_date": "2026-08-26T13:56:01.941141432",
-    "closing_date": "2026-10-25",
-    "description": "HR Administrator Role: The HR Administrator plays a key role in supporting the day-to-day operations of the Employee Relations Team. This role requires strong organisational skills, attention to detail, and the ability to handle sensitive information with confidentiality. Duties and Responsibilities: Management of the HR inbox and phoneline which is the first point of contact for general queries Ensuring queries are responded to within efficient timescales and identifying high priority emails which need to be escalated appropriately Maintain accurate and up-to-date employee records and ER systems Prepare and review HR documentation, such as Contracts of Employment, Offer Letters, Absence Review Invites, Maternity confirmation letters Conduct calls with company leavers to support employee retention strategies Issue company feedback surveys, collate data, and prepare results to be shared with senior stakeholders Support formal ER meetings through the provision of clear and accurate notetaking Provide administrative support to the ER advisors and management team ... The HR Administrator plays a key role in supporting the day-to-day operations of the Employee Relations Team. This role requires strong organisational skills, attention to detail, and the ability to handle sensitive information with confidentiality. Duties include the management of the HR inbox and phoneline, responding to queries swiftly, maintaining employee records, preparing HR documentation, conducting calls with company leavers, issuing feedback surveys, supporting formal ER meetings, and assisting with HR projects. Essentials include strong organisational skills, previous experience in Employee Relations, knowledge of employment law, proficiency in Microsoft Office, and report generation capabilities. Desirable qualifications include CIPD Level 3 (or working towards) and experience in the Social Care sector. Above all, applicants should approach the role with a personalised, kind, and caring attitude. HR Administrator Role: The HR Administrator plays a key role in supporting the day-to-day operations of the Employee Relations Team. This role requires strong organisational skills, attention to detail, and the ability to handle sensitive information with confidentiality. Duties and Responsibilities: Management of the HR inbox and phoneline which is the first point of contact for general queries Ensuring queries are responded to within efficient timescales and identifying high priority emails which need to be escalated appropriately Maintain accurate and up-to-date employee records and ER systems Prepare and review HR documentation, such as Contracts of Employment, Offer Letters, Absence Review Invites, Maternity confirmation letters Conduct calls with company leavers to support employee retention strategies Issue company feedback surveys, collate data, and prepare results to be shared with senior stakeholders Support formal ER meetings through the provision of clear and accurate notetaking Provide administrative support to the ER advisors and management team Responding to reference request for current and previous employees Assist with HR projects and initiatives as required Essentials: Strong organisational and time management skills Previous experience working within an Employee Relations function Foundational knowledge of employment law and ER best practices Proficiency in Microsoft Office, excel and word applications Capable of generate reports and data when required Desirable: CIPD Level 3 (or working towards) Experience within the Social Care sector is advantageous but not a necessity Above all we are looking for someone that shares in our company values. Applicants will need a personalised approach to both the role and other Colleagues, who treats people in a kind & caring way, can be trusted within their role displaying community spirit.",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/W0033-26-1144",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/W0033-26-1144",
+    "posted_date": "2026-09-04T09:56:48.987771032",
+    "closing_date": "2026-09-20",
+    "description": "Oakwood Lane Medical Practice is delighted to offer an opportunity for a dedicated Medical Administrator to join our friendly, forward thinking team. We care for a diverse population of over 14,000 patients and pride ourselves on delivering high quality, patient centred healthcare. We are looking for an enthusiastic, organised and proactive administrator who is passionate about supporting excellent patient care. You will play a key role in ensuring patients receive the right care at the right time, contributing to the smooth and efficient running of the practice. Join us and become part of a supportive, inclusive and dynamic team committed to delivering outstanding healthcare. Document and Record Management Process, scan and code incoming clinical correspondence. Assign documents to the correct clinician or administrative team promptly and accurately. Identify and escalate urgent or clinically significant information. Liaise with clinicians to clarify documentation queries and ensure appropriate action. Maintain accurate patient records using workflow systems. Process incoming and outgoing patient records. Referral Administration Complete and submit patient referrals to specialists and external providers, ensuring all documentation is accurate and complete. Take ownership of referrals from initiation to completion, including monitoring rejections and responses. Provide clear information to patients regarding referral pathways and progress. Ensure all referral communications are documented and filed appropriately. Insurance and Third Party Requests Manage insurance forms, medical reports and third party documentation with accuracy and compliance. Support patients and staff with queries relating to access to medical records and permissions. General Administrative Support Provide flexible administrative cover across departments as required. Support statutory and contractual practice obligations. Assist with ad-hoc administrative tasks to ensure smooth day to day operations. Work collaboratively with colleagues and contribute to continuous improvement initiatives. Process, scan and code incoming clinical correspondence including hospital letters, discharge summaries, ambulance notifications and out of hours reports. Review correspondence and ensure documents are attached to the correct patient record. Code or free text clinical information on to the patient record. Assign documents to the appropriate clinician or administrative team promptly and accurately. Identify urgent, abnormal or clinically significant information and escalate in accordance with practice procedures. Liaise with clinical staff to clarify documentation queries and ensure appropriate actions are completed. Maintain accurate patient records using practice workflow and clinical systems. Process incoming and outgoing patient records in accordance with NHS and practice procedures, ensuring records are transferred, received and managed accurately and securely. Monitor workflow queues to ensure correspondence is processed within agreed timescales. Deal with queries relating to correspondence management and document processing. Complete and submit referrals to secondary care, community services and external providers, ensuring all supporting documentation is accurate and complete. Take ownership of referrals from initiation through to completion. Monitor referral progress, including rejected referrals, requests for further information and provider responses. Liaise with clinicians to obtain information required to support referrals. Provide patients with information regarding referral pathways, appointments and progress where appropriate. Ensure all referral activity, communications and outcomes are accurately documented and filed within the patient record. Support the practice in achieving referral processing targets and standards. Manage insurance reports, medical reports and third-party documentation requests in accordance with practice procedures and relevant legislation. Ensure documentation is completed accurately and within agreed timescales. Support patients and staff with queries relating to access to medical records, consent and permissions. Maintain accurate records of requests, actions and outcomes. Escalate complex or sensitive requests to the appropriate manager or clinician. Statutory and Contractual Support Support the management of requests for information, reports and returns relating to the practice's statutory and contractual obligations. Assist with administrative processes required to support regulatory, contractual and operational requirements. Undertake any other reasonable duties requested by the management team in support of the practice's business operations.",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1168-26-0008",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1168-26-0008",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "posted_date_basis": "source"
+  },
+  {
+    "job_id": "nhs-5578840",
+    "source": "NHS Jobs",
+    "title": "Receptionist",
+    "company": "Leeds and York Partnership NHS Foundation Trust",
+    "advertiser_name": "Leeds and York Partnership NHS Foundation Trust",
+    "location": "Leeds, LS9 7BE",
+    "region": "Yorkshire - West",
+    "salary": "£25272.00",
+    "employment_type": "Permanent",
+    "posted_date": "2026-09-04T08:49:03.288978241",
+    "closing_date": "2026-09-18",
+    "description": "As a Support Service Administrator/Receptionist, you will work as part of a team to provide a welcoming, efficient, and customer-focused administrative and reception service. Acting as one of the first points of contact, communicating with service users, carers, visitors, staff, and external professionals both face-to-face and via telephone and email. Supporting the smooth day-to-day running of the service by carrying out a range of administrative duties, maintaining accurate records, managing appointments, handling enquiries, and ensuring information is processed confidentially and in line with Trust policies. Contributing to delivering a positive experience for service users while supporting clinical and administrative teams to provide an effective and responsive service. Provide a professional, friendly, and efficient reception and administrative service, acting as a first point of contact for service users, carers, visitors, staff, and external agencies. Responsibilities include handling telephone, email, and face-to-face enquiries, managing appointments, maintaining accurate electronic and paper records, processing correspondence, supporting clinical and administrative teams with clerical tasks, ensuring data quality and confidentiality. and contributing to the smooth day-to-day running of the service. The role also involves working collaboratively with colleagues, responding appropriately to enquiries, providing excellent customer service, and supporting the delivery of effective healthcare services in line with Trust policies and procedures. We recruit people based on their values and qualifications (where required) and believe that their lived experience is an advantage, this means that together we are as diverse as the communities we care for. Simply put, when we employ caring people who act with integrity and have the right skills, we can give those with mental health challenges, learning disabilities and neurodiversity high-quality care and support to live fulfilling lives, and make our staff feel purposeful, happy and valued. All our information is available in accessible formats. Please contact the Recruitment team recruitment.lypft@nhs.net Attached to this advert is our candidates guide to values-based recruitment and supporting guidance on how to make a successful application. If you require a reasonable adjustment, please contact the Recruitment Team or see the attached candidate guide to reasonable adjustments. To find out more about the key responsibilities and the specific skills and experience youll need, look at the Job Description & Person Specification attachments under the Supporting Documents heading. So that youre even more equipped to make an informed decision to apply to us, youll need to take time to read the Candidate Guide to Values Based Recruitment . This document provides you with information to help you apply.",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9173-26-0425",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9173-26-0425",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "A",
     "posted_date_basis": "source"
   },
   {
@@ -538,25 +580,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0145-26-0133",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "posted_date_basis": "source"
-  },
-  {
-    "job_id": "nhs-5550046",
-    "source": "NHS Jobs",
-    "title": "GP Receptionist / Care Navigator",
-    "company": "Robin Lane Health & Wellbeing Centre",
-    "advertiser_name": "Robin Lane Health & Wellbeing Centre",
-    "location": "Pudsey, LS28 7DE",
-    "region": "Yorkshire - West",
-    "salary": "£12.71 to £13.00",
-    "employment_type": "Permanent",
-    "posted_date": "2026-08-20T08:07:27.757398659",
-    "closing_date": "2026-09-04",
-    "description": "Due to staff retirement, we are recruiting for a Care Navigator to join our team. The role will be part time, working 25 hours per week with the following shift pattern: Monday to Friday, 13:30pm-18:30pm. Working within the Robin Lane reception team, the post-holder will help provide a friendly and welcoming service for all patients. The Care Navigator will support patients to access the right health care in a professional and efficient manner. Follow practice processes to actively signpost patients to the most appropriate healthcare professional and service, whilst handling any complex queries and challenging situations in a professional manner, ensuring any issues are resolved where possible, at the first point of contact. Assist both clinical and admin colleagues with the smooth running of the reception area and surgery building.The post-holder is expected to comply with the employment policies and procedures, with due regard to clinical and information governance policies and procedures, and any other policies and procedures necessary for the safe and effective discharge of the duties contained within this document. This job description is subject to a flexibility clause and may change according to business requirements. This advert may close early should the right candidate be found. To welcome patients presenting either in person or by telephone; ensuring you respond promptly and positively. Book appointments for patients and cancel appointments where needed. Support patients in navigating to the most appropriate service, which may include informing patients of external health care providers and online services. Effectively handle all queries that present at the practice; problem solving, signposting and escalation of matters, as appropriate. Ensure patient records are accurate and kept up to date and that all patient contacts are documented in the system using the Care Navigation Template. Initiating contact with and responding to requests from patients, other team members and associated healthcare providers. Carrying out administrative duties which include scanning, tasks, out of hours reports, new patient registrations (including basic urine dip), opening and sorting of post (both internal and external), photocopying reports, updating patient details, filing INR reports and data inputting as requested. Processing medication requests, including issuing repeat medication and appliance items, as well as forwarding patient requests onto the practice pharmacy team/on-call GP. Communicating effectively with local pharmacy staff and resolving/investigating any queries they may have. Processing e-consults via system one and triaging the patient accordingly using signposting where necessary. Opening up/locking up of practice premises and maintaining security in accordance with practice protocols. Carry out chronic disease recalls and vaccination campaigns, booking relevant appointments working from a list to ensure clinics are fully utilised Informing patients of test results and following up with instructions from clinicians. Keeping the reception area and notice boards clean, tidy and up to date. Taking payments for private documents from patients and providing receipts Support all clinical staff with general tasks as required. Assisting the Site Co-ordinator with weekly fire alarm checks and weekly/monthly legionella testing, when required. Assisting the Site Co-ordinator with weekly room plans and petty cash records, when required. To be able to work with people from a wide variety of cultures and backgrounds, and people with disabilities and learning difficulties, and to be able to communicate with them (and, when necessary, their carers) appropriately to facilitate their care and understanding of their care within the service. Attend and positively contribute to team meetings. Fully comply with all company Health and Safety requirements, including reporting all accidents, near accidents, and hazards. Treat all patients fairly and with respect. Provide cover across all sites as required. This is not an exhaustive list, and it is expected that this role will develop as the business grows.",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5995-26-0008",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5995-26-0008",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "B",
     "posted_date_basis": "source"
   },
   {
