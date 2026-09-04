@@ -147,7 +147,12 @@
     "customer_sales_overlap_policy": "non-exclusive",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Customer enquiries",
+      "Systems administration",
+      "Reporting"
+    ]
   },
   {
     "job_id": "107776109",
@@ -190,7 +195,7 @@
     "salary_text": "£26000 per year",
     "posted_date": "2026-08-30",
     "description": "Sales Development Executive\n\nManchester City Centre next to Victoria Station\n\nStarting salary upto £27,000 dependent on experience + Quarterly Bonuses + Uncapped Commission + Profit Share\n\nOur top achievers are earning over £90,000 per annum\n\nExcellent Benefits Package, including a free on-site gym\n\n8 click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?aIHQjUdXakM1cqV6bamIbajVnhkdm7ADr",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?G%2b5YiGNoEgpV%2f5ambu4P%2bGBcYdMdeKgln",
     "source": "JobG8",
     "customer_sales_classification": "DIRECT_SALES",
     "customer_sales_reason": "owner-approved exact customer-sales title",
@@ -297,32 +302,11 @@
     "customer_sales_overlap_policy": "non-exclusive",
     "work_pattern": "Not Specified",
     "salary_period": "Monthly",
-    "posted_date_basis": "ontap_first_published"
-  },
-  {
-    "job_id": "107822616",
-    "title": "Sales Executive (Machine Tools & Consumables)",
-    "company": "Ernest Gordon Recruitment - Agency - Permanent",
-    "advertiser_name": "Ernest Gordon Recruitment",
-    "advertiser_type": "Agency",
-    "location": "Not Specified",
-    "region": "Greater Manchester - Manchester & Salford",
-    "country": "UK",
-    "category": "Customer Sales / Sales Advisor",
-    "employment_type": "Permanent",
-    "salary_min": "45000",
-    "salary_max": "45000",
-    "salary_text": "£45000 per year",
-    "posted_date": "2026-08-28",
-    "description": "Sales Executive (Machine Tools & Consumables)\nGlobal Leading OEM Formal Training & Development to become a hands-on Technical Expert\n£32,100 base + £45k OTE + Bonus + Private Healthcare + Company Car + Outstanding OEM Training + Full Expense Package + Full Tooling & Equipment Supplied + Residential Training Course\nManchester / Leeds M62 corridor\nAre you a sales engineer looking to work for a Glo click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?kjuUUj3TFp4S2E9kGxXYNnJWoNKmOqI%2fg",
-    "source": "JobG8",
-    "customer_sales_classification": "DIRECT_SALES",
-    "customer_sales_reason": "sales-led title: sales executive",
-    "customer_sales_overlap_policy": "non-exclusive",
-    "work_pattern": "Not Specified",
-    "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Customer enquiries",
+      "Records administration"
+    ]
   },
   {
     "job_id": "107799162",
@@ -347,56 +331,6 @@
     "customer_sales_overlap_policy": "non-exclusive",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
-  },
-  {
-    "job_id": "107924982",
-    "title": "Sales Representative (Chemicals & Hygiene)",
-    "company": "Ernest Gordon Recruitment - Agency - Permanent",
-    "advertiser_name": "Ernest Gordon Recruitment",
-    "advertiser_type": "Agency",
-    "location": "Not Specified",
-    "region": "Greater Manchester - Manchester & Salford",
-    "country": "UK",
-    "category": "Customer Sales / Sales Advisor",
-    "employment_type": "Permanent",
-    "salary_min": "35000",
-    "salary_max": "35000",
-    "salary_text": "£35000 per year",
-    "posted_date": "2026-09-03",
-    "description": "Sales Representative (Chemicals & Hygiene)\n\nManchester (M60 Patch)\n\n£32,000 - £35,000 (OTE £60,000) + Training + Progression + Uncapped Commission + Company Car + Laptop + Phone\n\nAre you a driven Area Sales Manager from a Chemicals, Hygiene or similar background, looking for a step up and to progress into senior roles within an established, growing business?\n\nDo you have the ability to hit the floor runn click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?b0ZSEQFKUCJNqc5n8KLYknUcSjVM2pRRl",
-    "source": "JobG8",
-    "customer_sales_classification": "DIRECT_SALES",
-    "customer_sales_reason": "sales-led title: sales representative",
-    "customer_sales_overlap_policy": "non-exclusive",
-    "work_pattern": "Not Specified",
-    "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
-  },
-  {
-    "job_id": "107922374",
-    "title": "Sales Representative North West",
-    "company": "ThermaHome - Agency - Permanent",
-    "advertiser_name": "ThermaHome",
-    "advertiser_type": "Agency",
-    "location": "Not Specified",
-    "region": "Greater Manchester - Manchester & Salford",
-    "country": "UK",
-    "category": "Customer Sales / Sales Advisor",
-    "employment_type": "Permanent",
-    "salary_min": "600",
-    "salary_max": "1000",
-    "salary_text": "£600 - £1000 per daily",
-    "posted_date": "2026-09-03",
-    "description": "Warm Leads Uncapped Earnings £3,000£5,000 Average Weekly Earnings\nAre you an experienced salesperson looking for an opportunity where your earning potential has no ceiling?\nTherma Home is looking for ambitious, driven Sales Representatives to cover the North West, meeting homeowners on warm, qualified leads and selling high-quality roof home improvement solutions click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?Y5CHIaMSKAxvEIc7UUWU4zmZBf1dLXulv",
-    "source": "JobG8",
-    "customer_sales_classification": "DIRECT_SALES",
-    "customer_sales_reason": "sales-led title: sales representative",
-    "customer_sales_overlap_policy": "non-exclusive",
-    "work_pattern": "Not Specified",
-    "salary_period": "Daily",
     "posted_date_basis": "ontap_first_published"
   },
   {
@@ -522,6 +456,37 @@
     "customer_sales_overlap_policy": "non-exclusive",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Telephone handling",
+      "Customer enquiries",
+      "Systems administration",
+      "Document preparation"
+    ]
+  },
+  {
+    "job_id": "107935265",
+    "title": "Enterprise Account Executive Mission Critical Software",
+    "company": "Sales Recruit UK - Agency - Permanent",
+    "advertiser_name": "Sales Recruit UK",
+    "advertiser_type": "Agency",
+    "location": "Not Specified",
+    "region": "Greater Manchester - Manchester & Salford",
+    "country": "UK",
+    "category": "Customer Sales / Sales Advisor",
+    "employment_type": "Permanent",
+    "salary_min": "80000",
+    "salary_max": "80000",
+    "salary_text": "£80000 per year",
+    "posted_date": "2026-09-04",
+    "description": "Enterprise Account Executive Mission Critical Software\n\n£7080,000 Basic Salary + Bonus + Company Car\nUK-based Remote working North West office (1 day per week)\n\nWhat if you could combine complex solution selling, public sector engagement and mission-critical technology in a role with genuine autonomy and growth potential?\n\nIm working with a globally recognised technology business that delivers comm click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?Dw9iAXzSqBZL0hkDc62VpH7Y%2bOAyNQMmk",
+    "source": "JobG8",
+    "customer_sales_classification": "CONDITIONAL_ACCOUNT_SALES",
+    "customer_sales_reason": "account-based title with sales and office/digital evidence",
+    "customer_sales_overlap_policy": "non-exclusive",
+    "work_pattern": "Not Specified",
+    "salary_period": "Annual",
     "posted_date_basis": "ontap_first_published"
   },
   {
@@ -547,6 +512,10 @@
     "customer_sales_overlap_policy": "non-exclusive",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Records administration",
+      "Systems administration"
+    ]
   }
 ]

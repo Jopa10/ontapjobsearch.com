@@ -45,7 +45,11 @@
     "hr_recruitment_family_reason": "advert confirms substantive HR / Recruitment delivery",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Systems administration",
+      "Reporting"
+    ]
   },
   {
     "job_id": "23643_225538102",
@@ -120,30 +124,6 @@
     "posted_date_basis": "ontap_first_published"
   },
   {
-    "job_id": "1842834",
-    "display_reference": "1842834",
-    "title": "HR Administrator (Maternity Cover, Part-Time)",
-    "company": "Progressive Judaism - Agency - Permanent",
-    "advertiser_name": "Progressive Judaism",
-    "advertiser_type": "Agency",
-    "location": "London",
-    "region": "London",
-    "country": "UK",
-    "category": "HR / Recruitment",
-    "employment_type": "Permanent",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "",
-    "posted_date": "2026-09-03",
-    "description": "The HR Administrator will join our friendly and collaborative team and play a vital role in delivering a responsive, high-quality HR service accross the entire lifecycle.\n\nThis role supports every stage of the employee journey from recruitment and onboarding through to employee well-being and offboarding. The postholder will ensure that HR processes are delivered efficiently, accurately and compliantly, while helping to create a positive employee experience that reflects the values of Progressive Judaism.\n\nWorking closely with managers and colleagues accross the organisation, the HR Administrator will contribute to building an inclusive, supportive and well-organised workplace where people feel welcomed, valued and empowered to thrive. h",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?d1vRzEYF65SlOjNROYQiP60uTjA9fre7x",
-    "source": "JobG8",
-    "hr_recruitment_family_reason": "approved HR / Recruitment support title",
-    "work_pattern": "Part Time",
-    "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
-  },
-  {
     "job_id": "23643_225474190",
     "display_reference": "23643_225474190",
     "title": "HR and People Coordinator",
@@ -213,7 +193,12 @@
     "hr_recruitment_family_reason": "approved HR / Recruitment support title",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Telephone handling",
+      "Scheduling and bookings",
+      "Payroll administration"
+    ]
   },
   {
     "job_id": "1766963",
@@ -309,6 +294,30 @@
     "hr_recruitment_family_reason": "advert confirms substantive HR / Recruitment delivery",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
+    "posted_date_basis": "ontap_first_published"
+  },
+  {
+    "job_id": "1770745",
+    "display_reference": "1770745",
+    "title": "Senior Learning & Development Coordinator",
+    "company": "Tiger Recruitment - Agency - Permanent",
+    "advertiser_name": "Tiger Recruitment",
+    "advertiser_type": "Agency",
+    "location": "London",
+    "region": "London",
+    "country": "UK",
+    "category": "HR / Recruitment",
+    "employment_type": "Permanent",
+    "salary_min": "40000",
+    "salary_max": "45000",
+    "salary_text": "£40000 - £45000 per year",
+    "posted_date": "2026-08-24",
+    "description": "Senior Learning & Development Coordinator Perm £40,000 - £45,000 City of London Hybrid working\n\nOur client, a highly respected heritage architecture practice based in London, is looking for a Senior Learning & Development Coordinator to join their People team at an exciting time of growth.\n\nThe L&D agenda within the business has expanded significantly in scale and complexity in recent years. Alongside a strong externally delivered training offering, the practice runs a substantial number of internal development initiatives that require close coordination across multiple contributors, regions, and business functions - including their well-regarded internal Academy programme, which has received excellent feedback and continues to grow year on year.\n\nThis newly created role will provide the dedicated capacity, coordination, and expertise needed to strengthen the L&D offering and support the business's continued investment in its people.\n\nThe role:\n- Supporting the Head of People in delivering and coordinating the wider Learning & Development programme\n- Supporting the delivery and ongoing embedding of the practice's in-house Academy\n- Coordinating the firm's Strategic Away Day\n- Managing professional development, technical training, and compliance learning requirements - including record keeping, accreditations, and ensuring compliance with relevant ISO and mandatory training standards\n- Building and maintaining skills knowledge records, working closely with leaders to support effective resourcing decisions\n- Coordinating internal and external facilitators and subject matter experts\n- Gathering feedback and evaluating learning outcomes to ensure return on investment\n- Supporting the Head of People in showcasing the L&D programme externally - including testimonials, awards, and website content to reflect the strength of the practice's offering\n\nAbout you:\n- Proven experience in a Learning & Development coordination role, ideally within a professional services or design/architecture environment\n- Highly organised, with the ability to manage multiple stakeholders and competing priorities across a growing L&D function\n- Strong attention to detail, particularly around compliance, accreditation, and record keeping\n- Confident communicator, comfortable liaising with facilitators, subject matter experts, and senior leadership\n- A genuine interest in people development, with an eye for evaluating impact and ROI\n\nBenefits:\n- 3:2 Hybrid working policy\n- 25 days annual leave + bank holidays\n- Subsidied Gym membership\n- Family leave policies\n- Life Assurance\n- Season ticket loan\n\nThis is a fantastic opportunity to join a highly respected, design-led practice at a pivotal moment for its L&D function, with real scope to shape how learning is delivered and celebrated across the business.\n\nApply now to avoid disappointment!\n\nREF: JGA/206453\n\nTiger is B Corp Certified. We are part of a global movement of businesses committed to improving social and environmental conditions around the world.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?kjuUUj3TFp7IoWgGRiS%2fsLmMLVMgTR0%2fg",
+    "source": "JobG8",
+    "hr_recruitment_family_reason": "approved HR / Recruitment support title",
+    "work_pattern": "Not Specified",
+    "salary_period": "Annual",
     "posted_date_basis": "ontap_first_published"
   },
   {

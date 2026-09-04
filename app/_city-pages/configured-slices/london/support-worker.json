@@ -19,7 +19,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Part Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Personal care",
+      "Daily living support"
+    ]
   },
   {
     "job_id": "23643_225516212",
@@ -41,7 +45,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Daily",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Daily living support",
+      "Safeguarding"
+    ]
   },
   {
     "job_id": "107885503",
@@ -85,29 +93,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published"
-  },
-  {
-    "job_id": "23643_225456590",
-    "title": "Autism Support Worker",
-    "company": "Reeson Education - Agency - Temporary",
-    "location": "London",
-    "region": "London",
-    "country": "UK",
-    "category": "Support Worker – Wide",
-    "employment_type": "Temporary",
-    "salary_min": "95",
-    "salary_max": "100",
-    "salary_text": "£95 - £100 per daily",
-    "posted_date": "2026-09-03",
-    "description": "Autism Support Worker - SEN School - Brixton\n\nAre you passionate about supporting children with autism and looking for a role where you can truly make an impact? A dynamic and growing SEN school in Brixton is seeking a dedicated Autism Support Worker to join their team and support pupils in a nurturing, well-equipped environment in September 2026.\n\nLocation: Brixton\nPay: (Apply online only) per day\nContract: Full-time\n\nWhen: September 2026\n\nWhy This School?\n- Easily accessible location with excellent transport connections\n- Purpose-built facilities tailored for students with special educational needs\n- Small class sizes for more focused, meaningful support\n- A friendly, inclusive, and collaborative school culture\n- Experienced teaching staff in every classroom\n- Competitive Inner London pay rates\n\nThe Role\n\nThis is a full-time, long-term position starting after the summer break, with the potential to continue beyond the academic year.\n\nAs an Autism Support Worker, you'll play a key role in supporting pupils with autism and complex needs. You'll work in a structured, supportive classroom setting, helping students develop academically, socially, and emotionally.\n\nYour responsibilities will include:\n- Supporting students on a 1:1 basis or in small groups\n- Delivering engaging, personalised activities\n- Encouraging independence, confidence, and life skills\n- Helping to maintain a calm and positive learning environment\n\nWho We're Looking For\n\nWe're looking for someone who:\n- Has experience with (or a strong understanding of) ASD and complex needs\n- Is patient, empathetic, and approachable\n- Feels confident working both one-to-one and within a classroom\n- Builds strong relationships with students and colleagues\n- Is passionate about supporting children with SEN\n\nExperience is helpful but not essential - attitude, commitment, and willingness to learn are just as important.\n- Experience as an Autism Support Worker, Teaching Assistant, or similar role (preferred)\n- A genuine interest in supporting children with autism and SEN\n- A valid DBS on the update service (or willingness to apply)\n\nReeson Education:\n\nReeson Education is England's Premier Recruitment Agency. Established in 2006 by experienced teachers, education professionals and recruitment specialists, we have built our business and reputation on the cores values of honesty, integrity and excellence.\n\nWe care about education and the provision of education and have established an excellent reputation with schools and teachers alike.\n\nAt Reeson Education we work closely with a large network of Nurseries, Primary Schools, Secondary Schools and Colleges across England. Our client base provides us with an abundance of available daily supply, long term and permanent opportunities across all age groups in all areas of London.\n\nReeson Education is an Equal Opportunities employer and is committed to the highest standards of safeguarding and the promotion of the welfare of children, young people and adults and expects all staff to share this commitment.\n\nPlease note, where a salary or daily rate range is stated, the higher rate applies to candidates who meet the enhanced experience, training or qualification requirements specified within the advert. All daily/hourly rates quoted are inclusive of holiday pay at 12.07%",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?ju9emE%2fz0VL%2fwJlKahw0ZK5co%2bjVFFiYw",
-    "source": "JobG8",
-    "advertiser_name": "Reeson Education",
-    "advertiser_type": "Agency",
-    "work_pattern": "Full Time",
-    "salary_period": "Daily",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Personal care",
+      "Daily living support"
+    ]
   },
   {
     "job_id": "1664745",
@@ -217,6 +207,28 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
+    "posted_date_basis": "ontap_first_published"
+  },
+  {
+    "job_id": "2049628",
+    "title": "Support Worker - Day Centre Belfast",
+    "company": "First Choice Selection Services - Agency - Permanent",
+    "location": "City",
+    "region": "London",
+    "country": "UK",
+    "category": "Support Worker – Wide",
+    "employment_type": "Permanent",
+    "salary_min": "12.75",
+    "salary_max": "12.75",
+    "salary_text": "£12.75 per hour",
+    "posted_date": "2026-09-04",
+    "description": "Support Workers are required for various day centres operated by our public sector the Belfast Trust. These roles are for a minimum of six months, working between 25-30 hours per week depending on the centre, Monday to Friday, with an hourly rate of £12.75. These are a range of day centres located throughout Belfast.\n\nIn this role, you will be working as part of a team to support adults with physical disabilities, sensory impairments, or learning disabilities. This is a sociable role where you will interact and provide support to the service users, assisting with activities within the centre and supervising outings.\n\nWhat We Need From You:\n- Willingness to undergo an enhanced Access NI check\n- Experience working within the healthcare sector\n- To be NISCC registered, or willing to apply\n\nWhat We Will Offer You:\n- Opportunity to work alongside the Belfast Trust\n- Paid Annual Leave\n- Free comprehensive and ongoing annual training courses\n- Weekly Pay\n\nThe Next Steps:\n- Contact Ella Milligan or Ronan Lavery at First Choice Belfast\n- To apply, send your CV via the link\n\nFirst Choice is an equal opportunities employer",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?b0ZSEQFKUCIdWULTmnr3lL0VODhd0a%2bwl",
+    "source": "JobG8",
+    "advertiser_name": "First Choice Selection Services",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Hourly",
     "posted_date_basis": "ontap_first_published"
   },
   {

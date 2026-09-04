@@ -1,5 +1,33 @@
 [
   {
+    "job_id": "1770760",
+    "display_reference": "1770760",
+    "title": "HR Administrator",
+    "company": "Reed - Agency - Permanent",
+    "advertiser_name": "Reed",
+    "advertiser_type": "Agency",
+    "location": "Berkshire",
+    "region": "Berkshire",
+    "country": "UK",
+    "category": "HR / Recruitment",
+    "employment_type": "Permanent",
+    "salary_min": "35000",
+    "salary_max": "35000",
+    "salary_text": "£35000 per year",
+    "posted_date": "2026-08-24",
+    "description": "HR Administrator\n\nLocation: Office-based (5 days per week) - SL1\nHours: Full-time, Monday to Friday\nWorking Hours: 9:00am - 5:00pm (flexibility to work 8:00am - 4:00pm available)\nSalary: up to £35,000 per annum\n\nAbout the Role\n\nI am recruiting for a proactive and organised HR Administrator to join my clients' growing HR team. This is an excellent opportunity for an HR professional with around 18 months' experience who is looking to further develop their career within a generalist HR environment.\n\nThe successful candidate will play a key role in supporting the employee lifecycle, ensuring HR processes are delivered efficiently and accurately while providing an excellent service to employees and managers.\n\nKey Responsibilities\n- Conduct Right to Work checks and ensure compliance with UK employment legislation.\n- Process employee identification documentation and maintain accurate records.\n- Coordinate and manage onboarding activities for new starters.\n- Prepare contracts, offer letters and new starter documentation.\n- Manage and respond to the HR inbox, handling employee queries in a professional and timely manner.\n- Maintain and update employee records within HR systems.\n- Support recruitment administration and interview scheduling.\n- Assist with HR reporting and data management.\n- Support employee lifecycle activities including changes, promotions and leavers.\n- Ensure all HR administration is completed accurately and in line with company policies.\n- Provide administrative support to the wider HR team as required.\n\nAbout You\n- Minimum 18 months' experience within an HR Administrator, HR Assistant or generalist HR support role.\n- Strong understanding of HR administration processes and employee lifecycle activities.\n- Experience conducting Right to Work checks and onboarding new employees.\n- Confident managing a busy HR inbox and handling employee queries.\n- Highly organised with excellent attention to detail.\n- Strong communication and interpersonal skills.\n- Comfortable working in a fast-paced office environment.\n- Proficient in Microsoft Office applications.\n\nBenefits\n- Competitive salary of £30,000\n- 25 days annual leave plus bank holidays\n- Flexible start and finish times (8:00am - 4:00pm or 9:00am - 5:00pm)\n- Free onsite parking\n- Career development opportunities\n- Supportive and collaborative working environment\n- Additional employee benefits and wellbeing initiatives",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?QHpHeWTcrP6U5w4jkMEQ%2fhmpdJbBBCwFy",
+    "source": "JobG8",
+    "hr_recruitment_family_reason": "approved HR / Recruitment support title",
+    "work_pattern": "Full Time",
+    "salary_period": "Annual",
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Records administration",
+      "Document preparation"
+    ]
+  },
+  {
     "job_id": "1733151",
     "display_reference": "1733151",
     "title": "Recruitment Specialist",
@@ -21,6 +49,10 @@
     "hr_recruitment_family_reason": "advert confirms recruitment sourcing/coordination delivery",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Scheduling and bookings",
+      "Pre-employment administration"
+    ]
   }
 ]
