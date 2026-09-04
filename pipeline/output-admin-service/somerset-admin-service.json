@@ -78,11 +78,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Part Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Email handling",
-      "Records administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225468680",
@@ -107,12 +103,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Systems administration",
-      "Document preparation"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "107861789",
@@ -187,12 +178,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Systems administration",
-      "Quotations"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1780684",
@@ -420,6 +406,31 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "107804771",
+    "title": "SAP Data Coordinator",
+    "company": "Refresco Drinks UK Limited - Agency - Permanent",
+    "location": "Somerset",
+    "region": "Somerset",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "",
+    "posted_date": "",
+    "description": "Company description:\n\nRefresco UK\n\nJob description:\n\nJoin Refresco, the worlds largest independent beverage manufacturer, in a pivotal role at the heart of our operations. As Master Data Coordinator, youll ensure the accuracy and control of product and technical data across SAP, supporting production, compliance and key commercial decisions click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?nbYVUHO1tX445odt%2bvIBjXXkp0%2fQ%2brTAz",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Refresco Drinks UK Limited",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
     "job_id": "nhs-5564958",
     "source": "NHS Jobs",
     "title": "Receptionist/Administration Assistant",
@@ -435,7 +446,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9387-26-1771",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9387-26-1771",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5567096",
@@ -453,7 +468,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2122-26-0011",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2122-26-0011",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5563157",
@@ -471,6 +490,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9184-26-1263",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9184-26-1263",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

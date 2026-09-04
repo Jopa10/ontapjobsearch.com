@@ -22,12 +22,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Records administration",
-      "Pre-employment administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225469389",
@@ -53,38 +48,6 @@
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
     "posted_date_basis": ""
-  },
-  {
-    "job_id": "1756804",
-    "title": "Sales Administrator",
-    "company": "The People Pod - Agency - Permanent",
-    "location": "Bolton",
-    "region": "Greater Manchester - Wigan & Bolton",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "",
-    "posted_date": "",
-    "description": "Sales Administrator\n\nCompetitive Salary up to £29,000 + Bonus + Benefits\nOffice Based Full Time\n\nDeliver outstanding customer service. Support a successful sales team. Build lasting customer relationships.\n\nWe're looking for a proactive and organised Sales Administrator to join our busy Trade Sales team.\n\nThis is a fantastic opportunity for someone who enjoys helping customers, keeping things organised and being an integral part of a fast-paced commercial environment.\n\nYou'll become a trusted point of contact for trade customers, supporting the sales team by processing orders, managing enquiries and ensuring every customer receives an exceptional experience.\n\nWhat You'll Be Doing\n- Providing first-class customer service by phone and email.\n- Processing customer orders accurately and efficiently.\n- Supporting the external sales team with quotations and enquiries.\n- Updating customers on orders, stock and deliveries.\n- Resolving customer queries quickly and professionally.\n- Building strong relationships with existing trade customers.\n- Maintaining accurate customer records using CRM/ERP systems.\n- Working closely with Warehouse, Purchasing and Customer Service teams.\n- Identifying opportunities to maximise sales through excellent customer service.\n\nAbout You\n\nYou'll ideally have:\n- Previous Sales Administration or Customer Service experience.\n- Excellent communication and organisational skills.\n- Strong attention to detail.\n- Good IT skills, including Microsoft Office.\n- Experience using CRM or ERP systems.\n- A positive, proactive and team-focused attitude.\n\nExperience within trade, wholesale, distribution or manufacturing would be advantageous but isn't essential.\n\nIn Return\n- Competitive Salary\n- Performance Bonus\n- Company Pension\n- Ongoing Training & Development\n- Supportive Team Environment\n- Career Progression\n- Monday to Friday Working\n\nIf you enjoy building customer relationships, thrive in a busy office environment and take pride in delivering outstanding service, we'd love to hear from you.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?aIHQjUdXakOmoSUhKex5dGOk%2bhSO4ohZr",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "The People Pod",
-    "advertiser_type": "Agency",
-    "work_pattern": "Full Time",
-    "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Records administration",
-      "Systems administration",
-      "Quotations",
-      "Order processing"
-    ]
   },
   {
     "job_id": "23643_224997027",
@@ -177,6 +140,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2782-26-0004",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2782-26-0004",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

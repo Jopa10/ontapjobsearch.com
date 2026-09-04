@@ -78,11 +78,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Correspondence"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225478960",
@@ -107,11 +103,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Records administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225522912",
@@ -136,11 +128,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Records administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225545159",
@@ -190,6 +178,31 @@
     "advertiser_type": "Agency",
     "work_pattern": "Part Time",
     "salary_period": "Hourly",
+    "posted_date_basis": ""
+  },
+  {
+    "job_id": "23643_225571785",
+    "title": "Data Administrator",
+    "company": "Hays Business Support - Agency - Temporary",
+    "location": "Sheffield",
+    "region": "Yorkshire - South",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Temporary",
+    "salary_min": "26300",
+    "salary_max": "26300",
+    "salary_text": "£26300 per year (£26,325)",
+    "posted_date": "",
+    "description": "Data Administrator required in Sheffield - Temporary ,Full-Time (35 Hours per Week) Office BasedStart Date: Mid-September 2026 Duration: Until January 2027\n\nA respected and well-established organisation in\n\ncentral Sheffield is seeking a Data Administrator to support a key business project through to January 2027.\n\nThis is an excellent opportunity for an experienced administrator with strong data management skills to join a busy and collaborative team. Working closely with an Asset Coordinator, you will play a pivotal role in maintaining the accuracy and integrity of asset-related information across several business systems.\n\nThe role is fully office-based due to the nature of the project and would suit someone who enjoys working with large volumes of data, has exceptional attention to detail and can confidently manage deadlines within a fast-paced environment.\n\nDuties and Responsibilities\n- Accurately input, update and maintain asset-related information across multiple systems.\n- Complete high-volume data entry and data validation activities.\n- Review and analyse asset reports and supporting documentation.\n- Utilise Excel to review, check and reconcile data records.\n- Identify discrepancies, missing information and data anomalies.\n- Support the Asset Coordinator with reporting and project administration tasks.\n- Liaise with colleagues across the wider business to obtain and verify information.\n- Respond to queries relating to missing or incomplete data.\n- Maintain accurate records and ensure information is updated in a timely manner.\n- Produce regular updates and reports regarding project progress and data quality.\n- Work within established processes and procedures to ensure compliance and accuracy.\n\nAbout YouTo be successful in this role you will have:\n- Previous experience in a Data Administrator, Data Entry, Office Administrator or similar administration position.\n- Excellent attention to detail and a methodical approach to work.\n- Strong data processing and information management skills.\n- Good working knowledge of Microsoft Excel.\n- Ability to identify errors, inconsistencies and missing information.\n- Strong organisational and prioritisation skills.\n- Excellent communication skills and confidence liaising with internal stakeholders.\n- The ability to work independently whilst supporting a wider team.\n\nWorking Hours\n- 8:00am - 4:00pm /8:30am - 4:30pm\n\n35 hours per week, Monday to Friday.What's on Offer?\n- Opportunity to work for a highly reputable Sheffield organisation.\n- Central Sheffield location with excellent transport links.\n- Supportive and collaborative working environment.\n- Valuable project-based experience.\n- Potential future opportunities within the organisation, subject to business requirements.\n\nPlease note: Applicants must be available to start in mid-September and possess recent, and ideally have experience in administration and data management/data processing roles.\n\nHays Specialist Recruitment Limited acts as an employment agency for permanent recruitment and employment business for the supply of temporary workers. By applying for this job you accept the T&C's, Privacy Policy and Disclaimers which can be found at (url removed)",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?Y5CHIaMSKAwVXDayYBNeb414RSE83Oc6v",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Hays Business Support",
+    "advertiser_type": "Agency",
+    "work_pattern": "Full Time",
+    "salary_period": "Annual",
     "posted_date_basis": ""
   },
   {
@@ -315,11 +328,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Telephone handling"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225515295",
@@ -419,13 +428,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Part Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Scheduling and bookings",
-      "Data entry",
-      "Document preparation"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1770785",
@@ -450,14 +453,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Part Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Records administration",
-      "Reporting",
-      "Quotations",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "107804866",
@@ -500,7 +496,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1153-26-0008",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1153-26-0008",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5568418",
@@ -518,7 +518,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1153-26-0000",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1153-26-0000",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5565689",
@@ -536,7 +540,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9190-26-0517",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9190-26-0517",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5554992",
@@ -554,6 +562,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2131-26-0007",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2131-26-0007",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

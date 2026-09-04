@@ -47,12 +47,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Shared inboxes",
-      "Records administration",
-      "Data entry"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1785888",
@@ -102,12 +97,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Records administration",
-      "Quotations"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225521146",
@@ -157,11 +147,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Data entry"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225512252",
@@ -186,6 +172,31 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
+    "job_id": "23643_225567144",
+    "title": "Medical Receptionist",
+    "company": "Adecco - Agency - Temporary",
+    "location": "Macclesfield",
+    "region": "Cheshire - East",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Temporary",
+    "salary_min": "12.71",
+    "salary_max": "13",
+    "salary_text": "£12.71 - £13 per hour",
+    "posted_date": "",
+    "description": "Medical Receptionist\n\nLocation: Macclesfield\nContract: Temporary, initially 3 months (potential to extend up to 6 months)\nHours: Full Time, Monday to Friday, 08:30 - 17:00\nPay Rate: 12.71 - 13.50 per hour (dependent on experience)\n\nOverview\n\nWe are currently recruiting for a Medical Receptionist to join a busy healthcare setting in Macclesfield. This is a full-time temporary position initially for 3 months, with the possibility of extension up to 6 months for the right candidate.\n\nThis is a front-facing role requiring excellent customer service, strong organisational skills, and the ability to work effectively within a fast-paced environment.\n\nKey Responsibilities\n- Greeting patients and visitors in a professional and friendly manner.\n- Checking patients in for appointments and updating patient records where required.\n- Providing directions and general assistance to patients and visitors.\n- Managing incoming telephone calls and responding to enquiries.\n- Booking, amending and cancelling appointments.\n- Ensuring patient information is handled confidentially at all times.\n- Maintaining accurate records and updating databases as required.\n- Managing reception and waiting areas to ensure a welcoming and professional environment.\n- Liaising with clinicians and other healthcare professionals.\n- Undertaking general administrative and reception duties to support the wider team.\n\nPerson Specification\n- Previous reception, administration, customer service, or medical reception experience preferred.\n- Excellent communication and interpersonal skills.\n- Strong organisational skills with the ability to prioritise workload.\n- Confident using Microsoft Office and internal computer systems.\n- Professional, approachable, and patient-focused.\n- Ability to work efficiently in a busy environment.\n- High level of discretion and confidentiality.\n\nAdecco acts as an employment agency for permanent recruitment and an employment business for the supply of temporary workers. The Adecco Group UK & Ireland is an Equal Opportunities Employer.\n\nBy applying for this role your details will be submitted to Adecco. Our Candidate Privacy Information Statement explaining how we will use your information is available on our website.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?io0x8AEcaIMDUA6bcnqwQ0mLKcLvSXpXo",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Adecco",
+    "advertiser_type": "Agency",
+    "work_pattern": "Full Time",
+    "salary_period": "Hourly",
     "posted_date_basis": ""
   },
   {
@@ -229,7 +240,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9373-26-0554",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9373-26-0554",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5568463",
@@ -247,6 +262,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1030-26-0002",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1030-26-0002",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

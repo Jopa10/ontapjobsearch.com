@@ -1,61 +1,5 @@
 [
   {
-    "job_id": "teaching-vacancies-office-administrator-barton-park-primary-school",
-    "title": "Office Administrator",
-    "company": "Barton Park Primary School",
-    "location": "Oxford",
-    "region": "Oxfordshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['part time']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "£26,824.00 Annually (FTE) Actual annual salary is £12,016 for 19.5 hours per week term time only plus 3 inset days",
-    "work_pattern": "",
-    "posted_date": "2026-08-14",
-    "closing_date": "2026-09-04",
-    "closing_datetime": "2026-09-04T12:00:00+01:00",
-    "summary": "Office Administrator with Barton Park Primary School in Oxford. ['part time']; £26,824.00 Annually (FTE) Actual annual salary is £12,016 for 19.5 hours per week term time only plus 3 inset days.",
-    "description": "Barton Park Primary School is recruiting for this vacancy in Oxford.\n\nThe advertised position is Office Administrator.\n\nThe source lists the employment type as ['part time'].\n\nThe advertised salary or pay scale is £26,824.00 Annually (FTE) Actual annual salary is £12,016 for 19.5 hours per week term time only plus 3 inset days.\n\nThe stated application deadline is 2026-09-04T12:00:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/office-administrator-barton-park-primary-school?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Barton Park Primary School",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
-  },
-  {
-    "job_id": "teaching-vacancies-sixth-form-administrator-team-leader",
-    "title": "Sixth Form Administrator / Team Leader",
-    "company": "Lord Williams's School",
-    "location": "Thame",
-    "region": "Oxfordshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['full time', 'part time']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "£28,140.00 Annually (Actual) Actual salary based on 37 hours per week, term time plus 2 weeks work in the summer holidays. The full-time equivalent salary is £31,537 to £34,434 per annum",
-    "work_pattern": "",
-    "posted_date": "2026-08-18",
-    "closing_date": "2026-09-04",
-    "closing_datetime": "2026-09-04T09:00:00+01:00",
-    "summary": "Sixth Form Administrator / Team Leader with Lord Williams's School in Thame. ['full time', 'part time']; £28,140.00 Annually (Actual) Actual salary based on 37 hours per week, term time plus 2 weeks work in the summer holidays. The full-time equivalent salary is £31,537 to £34,434 per annum.",
-    "description": "Lord Williams's School is recruiting for this vacancy in Thame.\n\nThe advertised position is Sixth Form Administrator / Team Leader.\n\nThe source lists the employment type as ['full time', 'part time'].\n\nThe advertised salary or pay scale is £28,140.00 Annually (Actual) Actual salary based on 37 hours per week, term time plus 2 weeks work in the summer holidays. The full-time equivalent salary is £31,537 to £34,434 per annum.\n\nThe stated application deadline is 2026-09-04T09:00:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/sixth-form-administrator-team-leader?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Lord Williams's School",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
-  },
-  {
     "job_id": "teaching-vacancies-attendance-administrator-faringdon-community-college",
     "title": "Attendance Administrator",
     "company": "Faringdon Community College",
@@ -134,11 +78,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Customer enquiries"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225476635",
@@ -163,12 +103,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Records administration",
-      "Document preparation"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225544109",
@@ -193,13 +128,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Scheduling and bookings",
-      "Records administration",
-      "Data entry"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225358207",
@@ -224,11 +153,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Data entry"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225472773",
@@ -478,11 +403,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1778720",
@@ -532,11 +453,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Telephone handling",
-      "Scheduling and bookings"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225544143",
@@ -586,11 +503,7 @@
     "advertiser_type": "Company",
     "work_pattern": "Part Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Telephone handling"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "107842072",
@@ -644,18 +557,18 @@
   },
   {
     "job_id": "23643_225560219",
-    "title": "Temporary Office Administrator",
-    "company": "Allen Associates - Agency - Temporary",
+    "title": "Office Administrator (12-month FTC)",
+    "company": "Allen Associates - Agency - Contract",
     "location": "Oxfordshire",
     "region": "Oxfordshire",
     "country": "UK",
     "category": "Admin/Service – Office Support",
-    "employment_type": "Temporary",
-    "salary_min": "14",
-    "salary_max": "14",
-    "salary_text": "£14 per hour (Holiday pay)",
+    "employment_type": "Contract",
+    "salary_min": "26000",
+    "salary_max": "28000",
+    "salary_text": "£26000 - £28000 per year",
     "posted_date": "",
-    "description": "Are you highly organised, proactive, and seeking a varied administrative role where your skills can make a real difference?\n\nThis is an excellent opportunity to support a vibrant organisation in a busy, community-oriented environment.\n\nPlease note, this is a temporary position paid on a weekly PAYE basis and will require an immediate start; lengthy notice periods cannot be accommodated.\n\nAlso, due to the location it will be essential that you drive and have access to your own vehicle.\n\nTemporary Office Administrator Responsibilities\n- Providing a professional front-of-house service to all visitors and callers, representing the organisation positively.\n- Supporting meeting bookings, preparing spaces and materials for events and meetings.\n- Assisting with administrative tasks such as data entry, filing, and maintaining office records.\n- Processing expenses and invoices accurately and efficiently.\n- Coordinating and supporting in-office events and visitor arrangements.\n- Assisting colleagues with ad hoc administrative requests as needed.\n- Maintaining cleanliness and organisation of communal areas and resources.\n\nTemporary Office Administrator Rewards\n- Competitive hourly rate\n- Team oriented setting\n\nThe Company\n\nOur client is a professional business with an inclusive and collaborative culture.\n\nTemporary Office Administrator Experience Essentials\n- Prior experience in a commercial administrative position\n- Confidence working with Microsoft Office products including Outlook, Excel, PowerPoint, and Teams\n- Strong organisational skills with a high level of accuracy and attention to detail\n- Excellent verbal and written communication skills\n- Ability to handle confidential information discreetly and professionally\n- Full UK driving licence and own transport\n\nLocation\nBased near Didcot, the role will require a car to get to it. There is onsite parking available.\n\nAction\nIf you would like to find out more about this excellent opportunity, then please apply online today.\n\nAllen Associates is a leading recruitment company in Oxfordshire recruiting for Marketing, Finance, Human Resources and PA/Administrative roles. Allen Associates operates as an Employment Agency for permanent recruitment and an Employment Business for temporary recruitment. For more information on current vacancies please visit (url removed) and follow us on LinkedIn.",
+    "description": "Are you highly organised, proactive, and seeking a varied administrative role where your skills can make a real difference?\n\nThis is an excellent opportunity to support a vibrant organisation in a busy, community-oriented environment. Working on a 12-month fixed term contract, it will be essential you can start in the next few weeks.\n\nAlso, due to the location it will be essential that you drive and have access to your own vehicle.\n\nOffice Administrator Responsibilities\n- Providing a professional front-of-house service to all visitors and callers, representing the organisation positively.\n- Supporting meeting bookings, preparing spaces and materials for events and meetings.\n- Assisting with administrative tasks such as data entry, filing, and maintaining office records.\n- Processing expenses and invoices accurately and efficiently.\n- Coordinating and supporting in-office events and visitor arrangements.\n- Assisting colleagues with ad hoc administrative requests as needed.\n- Maintaining cleanliness and organisation of communal areas and resources.\n\nOffice Administrator Rewards\n- Competitive hourly rate\n- Team oriented setting\n\nThe Company\n\nOur client is a professional business with an inclusive and collaborative culture.\n\nOffice Administrator Experience Essentials\n- Prior experience in a commercial administrative position\n- Confidence working with Microsoft Office products including Outlook, Excel, PowerPoint, and Teams\n- Strong organisational skills with a high level of accuracy and attention to detail\n- Excellent verbal and written communication skills\n- Ability to handle confidential information discreetly and professionally\n- Full UK driving licence and own transport\n\nLocation\nBased near Didcot, the role will require a car to get to it. There is onsite parking available.\n\nAction\nIf you would like to find out more about this excellent opportunity, then please apply online today.\n\nAllen Associates is a leading recruitment company in Oxfordshire recruiting for Marketing, Finance, Human Resources and PA/Administrative roles. Allen Associates operates as an Employment Agency for permanent recruitment and an Employment Business for temporary recruitment. For more information on current vacancies please visit (url removed) and follow us on LinkedIn.",
     "apply_url": "https://www.jobg8.com/Traffic.aspx?kjuUUj3TFp5bvBHFhpNTPVUC%2foSF3CsVg",
     "source": "JobG8",
     "working_arrangement": "onsite_or_not_stated",
@@ -664,7 +577,7 @@
     "advertiser_name": "Allen Associates",
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
-    "salary_period": "Hourly",
+    "salary_period": "Annual",
     "posted_date_basis": ""
   },
   {
@@ -693,36 +606,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "23643_225464294",
-    "title": "Administrator",
-    "company": "Gill Cooke Personnel Ltd T/A The Recruitment Group - Agency - Temporary",
-    "location": "Oxfordshire",
-    "region": "Oxfordshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Temporary",
-    "salary_min": "13",
-    "salary_max": "14",
-    "salary_text": "£13 - £14 per hour",
-    "posted_date": "",
-    "description": "Temporary Administrator\nFull-Time Office Based 4-6 Week Temporary Assignment\nWe're recruiting on behalf of our client for a Temporary Administrator to provide support to a busy logistics operation. This is a fantastic opportunity for an organised and reliable administrator who enjoys working in a fast-paced environment and is available to start immediately.\nKey responsibilities include:\n- Booking deliveries and appointments with customers\n- Updating WMS or similar systems with booking information\n- Carrying out general administration, filing and data entry\n- Answering telephone and email enquiries\n- Using customer portals to schedule deliveries\n- Ordering office stationery and supplies when required\n\nThe ideal candidate will have:\n- Previous administration experience\n- Strong IT skills, including Microsoft Word and Excel\n- Excellent communication and organisational skills\n- A proactive approach with great attention to detail\n\nIf you're available for an immediate start and are looking for your next temporary opportunity, we'd love to hear from you.\nApply today or get in touch for more information.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?io0x8AEcaIP3RlQ3%2f4pACXjLGpO2t7gro",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Gill Cooke Personnel Ltd T/A The Recruitment Group",
-    "advertiser_type": "Agency",
-    "work_pattern": "Full Time",
-    "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Email handling",
-      "Customer portals",
-      "Data entry"
-    ]
-  },
-  {
     "job_id": "23643_225476620",
     "title": "Scheduling Co-ordinator",
     "company": "DJ Doors - Agency - Permanent",
@@ -745,12 +628,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Quotations",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1247531 [JSP51654]",
@@ -825,11 +703,29 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Starters and leavers"
-    ]
+    "posted_date_basis": ""
+  },
+  {
+    "job_id": "nhs-5579704",
+    "source": "NHS Jobs",
+    "title": "Administrator",
+    "company": "Oxford Health NHS Trust",
+    "advertiser_name": "Oxford Health NHS Trust",
+    "location": "Oxford, OX3 7JH",
+    "region": "Oxfordshire",
+    "salary": "£28392.00 to £31157.00",
+    "employment_type": "Permanent",
+    "posted_date": "2026-09-04T13:32:06.706183972",
+    "closing_date": "2026-09-10",
+    "description": "Are you looking for a new office based challenge working for a hardworking enthusiastic and vibrant mental health service? Would you like to be part of a well functioning team which values the wellbeing of all members of the team and prides itself on being a team people want people want to work for? We are seeking a part time Administrator to join the team! Based within the Oxfordshire Early Intervention Service (OEIS) office, the post holder will undertake a range of day to day administrative duties including managing records, processing referrals, coordinating meetings, maintaining electronic systems, and supporting communication across the team. We would love to hear from you should this exciting role appeal to you. Please contact Cynthia Wakonyo (Performance & Administration Manager) if you have any questions regarding this post. Be responsible for providing an efficient administrative/secretarial service to the OEIS team Be a contact and channel of communication between users of the service and the team, maintaining a professional but sympathetic manner. Taking minutes of meetings. Deal appropriately with sensitive and confidential information from the clinical team using initiative to direct appropriately. Provide reception cover Provide ad hoc, flexible, and focussed admin support to the team as required, ensuring that the office is stocked with relevant forms and stationery to ensure a smooth-running office. We hope that the advert has given you a clear understanding of the skills we are seeking and the opportunity at hand. You will need to use the supporting statement element of your application form to demonstrate your suitability for this role and you should refer to the job description, person specification and the guidance notes attached to this role to help you tailor your application. The essential and desirable criteria will be used to shortlist for interview, and you should ensure that you refer to these within your application to increase your chances of being selected for interview.",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9267-26-1065",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9267-26-1065",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5577835",
@@ -847,7 +743,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9267-26-1023",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9267-26-1023",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5570709",
@@ -865,7 +765,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0505-26-0272",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0505-26-0272",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5533284",
@@ -883,7 +787,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9321-26-1360",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9321-26-1360",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5573609",
@@ -895,13 +803,17 @@
     "region": "Oxfordshire",
     "salary": "£28392.00 to £31157.00",
     "employment_type": "Fixed-Term",
-    "posted_date": "2026-09-04T10:29:24.207112676",
+    "posted_date": "2026-09-04T10:29:24.207113",
     "closing_date": "2026-09-16",
     "description": "We are looking for an excellent Administrator to join our admin team at Oxford Clinic, Littlemore Mental Health Centre in Oxford. You will work with senior members of the multidisciplinary team to provide direct administrative support. We are looking for an enthusiastic, flexible, empathetic and self-motivated individual to work within our team. Please note the interview is face to face and will contain a minute taking exercise. The successful candidate will need to have proven administrative experience with a good eye for detail, excellent communication, administrative and organisational / prioritisation skills, knowledge of Microsoft Office, Word, Excel, managing Outlook diaries, and minute taking and will be able to liaise with employees at all levels. They will also have the skills to handle all contacts confidently with compassion, patience and professionalism. The role will suit someone who enjoys being busy, where they would be able to work as a part of a team, as well as using their own initiative. This is an important role which helps run an efficient service but is also an extremely rewarding one. We will offer the successful candidate a supportive team, with regular supervision meetings, opportunities for continued professional development and a friendly and sometimes challenging working environment. We are looking for an individual with Experience of working within an administrative role Good communication skills Good written and verbal skills Experience of servicing meetings including minute taking. Word processing experience with audio and copy typing The ability to work under pressure Ability to prioritise own workload An understanding of GDPR and the Data Protection Act A commitment to safeguarding and promoting the welfare of children, young people and vulnerable adults. Knowledge of Microsoft Office packages including Microsoft Teams",
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9267-26-1046",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9267-26-1046",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5573643",
@@ -913,13 +825,17 @@
     "region": "Oxfordshire",
     "salary": "£28392.00 to £31157.00",
     "employment_type": "Permanent",
-    "posted_date": "2026-09-04T10:29:46.077479954",
+    "posted_date": "2026-09-04T10:29:46.077480",
     "closing_date": "2026-09-16",
     "description": "We are looking for a part-time Forensic Administrator to join our team at HMP Huntercombe near Henley working 22.5 hours per week. You will work with senior members of the multidisciplinary team to provide direct administrative support. We are looking for an enthusiastic, flexible, empathetic and self-motivated individual to work within our team. You'll need to have proven administrative experience with a good eye for detail, excellent communication, administrative and organisational skills. Knowledge of Microsoft Office suite, managing diaries and minute taking is essential. You'll be liaising with employees at all levels so you'll need to be comfortable handling contacts with compassion, patience and professionalism. This role would suit someone who enjoys being busy with a variety of duties, working as part of a team, and using their own initiative. This is an important and rewarding role which helps us run an efficient service across the prison. We will offer you a supportive team environment, with regular supervision meetings, opportunities for continued professional development and a friendly and sometimes challenging yet rewarding working environment. Working hours for this role are Wednesday, Thursday and Friday on-site at HMP Huntercombe; we are not able to offer any remote working for this position. This role includes an RSU allowance of £1,446 per annum on top of your salary. Produce correspondence and reports as required for the MDT. Organising and attending meetings, preparing agendas, ensuring all appropriate arrangements have been made prior to meetings, including collation and distribution of any relevant papers, taking minutes, and ensuring their timely Ensure electronic diaries/System1 ledgers are efficiently maintained and coordinated for the multidisciplinary Receiving complex or sensitive information, and ensuring that the information is shared with clinicians in a timely manner Entering patient information into System1 ensuring the information is entered accurately and in a timely This includes updating demographic information, uploading correspondence, creating new referrals and endings as needed. To work with, and support, other forensic administrators to maintain a comprehensive and equitable administrative service. To provide cover for other administrators in times of absence. Please refer to the job description attached for a comprehensive list of duties We hope that the advert has given you a clear understanding of the skills we are seeking and the opportunity at hand. You will need to use the supporting statement element of your application form to demonstrate your suitability for this role and you should refer to the job description, person specification and the guidance notes attached to this role to help you tailor your application. The essential and desirable criteria will be used to shortlist for interview, and you should ensure that you refer to these within your application to increase your chances of being selected for interview. We are aware that some candidates may choose to use AI tools to support their application. We kindly remind applicants that submissions should remain an honest and accurate representation of their experience and must take care to ensure the use of AI tools does not generate an application that does not accurately reflect their knowledge, skills and values.",
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9267-26-1048",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9267-26-1048",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5565421",
@@ -937,24 +853,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9321-26-1501",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9321-26-1501",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
-  },
-  {
-    "job_id": "nhs-5558622",
-    "source": "NHS Jobs",
-    "title": "Assistant Patient Pathway Administrator",
-    "company": "Oxford University Hospitals NHS Foundation Trust",
-    "advertiser_name": "Oxford University Hospitals NHS Foundation Trust",
-    "location": "Oxford, OX3 7LE",
-    "region": "Oxfordshire",
-    "salary": "£25760.00 to £27476.00",
-    "employment_type": "Permanent",
-    "posted_date": "2026-08-25T11:31:31.777001339",
-    "closing_date": "2026-09-07",
-    "description": "The Assistant Patient Pathway Administrator provides administrative support to ensure patient pathways are managed accurately and efficiently. The role involves booking appointments, maintaining waiting lists, updating patient records, and responding to patient and clinician enquiries using Trust IT systems. Working under supervision, the postholder supports compliance with national access standards and contributes to the smooth delivery of outpatient, diagnostic and treatment services. Support the administration and tracking of patient pathways to ensure timely progression in line with national access standards (including RTT and cancer where applicable).Book, reschedule and cancel outpatient, diagnostic and treatment appointments using Trust patient administration systems. Maintain accurate and up-to-date patient records, including outcomes, clinic decisions and correspondence. Manage waiting lists and support validation activities to ensure data quality and performance compliance. Act as a point of contact for patients, clinicians and internal teams, responding to queries in a professional and patient-focused manner. Process referrals, clinic outcome forms and related documentation in accordance with local procedures. Escalate pathway delays, breaches or data issues to senior administrators or team leads as appropriate. Adhere to Trust policies on confidentiality, data protection and information governance. Support colleagues and contribute to the smooth running of the administrative service. OXFORD UNIVERSITY HOSPITALS NHS TRUST JOB TITLE: Assistant Patient Pathway Administrator / Assistant Medical Secretary GRADE: Band 3 DEPARTMENT: RESPONSIBLE TO: General Surgery Administration Manager and Medical Secretary. ACCOUNTABLE TO: Administration Manager. MAIN PURPOSE OF POST: To assist in the provision of a professional, comprehensive and efficient secretarial service which is effectively delivered to all patients and members of the Department. RESPONSIBILITIES: 1. Use of the digital transcription service as part of the letter generation process to type letters from the outpatient clinic attendance, Pre-Operative Assessment Clinic attendances, and Ward discharges as required. 2. Receiving and taking relevant action on telephone calls from patients, General Practitioners etc. Providing reassurance and support to patients and families by telephone and making judgements about finding appropriate solutions to problems, which requires the ability to be able to understand and explain basic medical procedures. 3. Arranging investigations, ensuring that these have been performed, results received and seen by relevant clinician and filing/redirection of all investigation results as appropriate. 4. Preparing notes for clinics, including front sheets and referral letters and delivering the trolley to the Outpatient Department as necessary. 5. To maintain case note tracking on the Patient Administration System (EPR). 6. Updating patient details and viewing events using Patient Administration System (EPR). Registering patients and making up new case notes as necessary. 7. Ensure that case notes/X-rays/results are available for clinics and wards as appropriate. Ensure prompt location of case notes/X-rays/results to enable the surgeons to respond to correspondence/telephone calls received. 8. Ensuring that clinic letters are sent out promptly to General Practitioners. 9. To liaise with other departments as required. 10. Filing of all correspondence and results in hospital notes whether in the office or elsewhere, including Medical Records at the John Radcliffe Hospital. 11. To comply with the requirements of the Data Protection Act, Access to Health Records and legislation issued in relation to confidential data. 12. Any other duties as directed by the Administration Manager / Medical Secretary. This job description should be regarded only as a guide to the duties required and is not intended to be definitive. It may be reviewed in the light of the changing circumstances following consultation with the post holder. The job description does not form part of the contract of employment. The management of risk is the responsibility of everyone and will be achieved within a progressive, honest and open environment. Staff will be provided with the necessary education, training and support to enable them to meet this responsibility. Staff should be familiar with the Major Incident Policy Fire Policy and should make themselves familiar with the local response plan and their role within that response. The post holder is responsible for ensuring that all duties and responsibilities of this post are carried out in compliance with the Health & Safety at Work Act 1974, Statutory Regulations and Trust Policies and Procedures. This will be supported by the provision of training and specialist advice where required. PERSON SPECIFICATION JOB TITLE: Assistant Medical Secretary GRADE: Band 3 DEPARTMENT: General Surgery Attainments: Essential: Desirable: Good general level of education (e.g. 5 GCSEs grade C or above or equivalent) EPR trained ECDL Previous admin/secretarial experience Up-to-date experience of MS Office Excellent communication skills both written and verbal. Audiotyping Previous experience within the NHS/public sector. Digital transcription experience. Knowledge of medical terminology. Ability to prioritise. Ability to work independently, but also as a member of a team. Flexible approach. Evidence of team working. Excellent interpersonal skills. Ability to communicate effectively with individuals at all levels. Able to demonstrate initiative. Ability to cope effectively under pressure. Accurate attention to detail. Ability to work to tight deadlines and prioritise own workload.",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9321-26-1464",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9321-26-1464",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

@@ -150,11 +150,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Records administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_222234812",
@@ -229,12 +225,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Systems administration",
-      "Quotations"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225546891",
@@ -259,12 +250,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Systems administration",
-      "Document preparation"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225547840",
@@ -289,11 +275,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer portals",
-      "Quotations"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225556797",
@@ -443,11 +425,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Systems administration",
-      "Data entry"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1819615",
@@ -547,11 +525,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Systems administration",
-      "Data entry"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1766156",
@@ -576,11 +550,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Systems administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "107793815",
@@ -630,11 +600,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Part Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Systems administration",
-      "Reporting"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "nhs-5575417",
@@ -652,7 +618,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9387-26-1810",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9387-26-1810",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5554523",
@@ -670,7 +640,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B9083-26-0448",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B9083-26-0448",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5554527",
@@ -688,25 +662,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B9083-26-0449",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B9083-26-0449",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
-  },
-  {
-    "job_id": "nhs-5554722",
-    "source": "NHS Jobs",
-    "title": "Administrator",
-    "company": "Sirona care & health CIC",
-    "advertiser_name": "Sirona care & health CIC",
-    "location": "Bradley Stoke, Bristol, BS32 4LB",
-    "region": "Bristol & Bath",
-    "salary": "£25760.00 to £27476.00",
-    "employment_type": "Permanent",
-    "posted_date": "2026-08-28T09:35:05.769282",
-    "closing_date": "2026-09-04",
-    "description": "Please note, we cannot offer a Certificate of Sponsorship for this role. If you currently require a visa to work in the UK, there must be a minimum of 14 months remaining until the expiry date. If you do not disclose your expiry date within your application, it may not be considered. Please state the date and not your share code. We are looking for an Administrator to join our Integrated Network Team in South Gloucestershire! The INT is a multi-disciplinary team who assess and manage a caseload of patients with varied and complex needs. You will support clinicians in a wide range of administrative tasks. The post holder will offer administrative support across the locality and will need to be flexible with regards to working across bases. You must be able to communicate effectively with service users and colleagues alike and able to express yourself equally well verbally and in writing. This is a busy role with a need for excellent IT skills and the ability to learn new IT systems efficiently. You must be adept at multi-tasking and excellent at managing your time and prioritising tasks to facilitate the smooth running of this key team function. As part of your role, you will be expected to work weekends and bank holidays on a rota basis. Early shifts start at 8 AM and Late shifts finish at 8 PM. Travel to Warmley Business Park base , BS30 8XP will be required on a rota basis. ***PLEASE NOTE: We do not offer remote working. The role is office-based*** Provide administration support to the Integrated Network Team and Administration Leads as required Use Community Electronic system EMIS daily Use Community Electronic systems i.e. ESR, Health Roster Manage telephone and e-mail queries Place orders, manage deliveries and replenish stock cupboards Support with sickness logging and reporting Assist with booking/authorising bank shifts Maintain spreadsheets and electronic documents Prioritise workload, work without direct supervision Reserve meeting rooms Complete regular audits and stock checks Attend meetings and training as required Circulate information to staff as directed by the management team, ensuring distribution lists are kept up to date Report any Health and Safety issues to Admin Lead Record Compliments/Complaints and Adverse Events Please see the attached Job Description for a full list of duties and responsibilities before applying for this position. If you refer to qualifications or employment within your supporting statement, that has not been included in your Qualifications, Training or Employment History, this information may be discounted.",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B9083-26-0451",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B9083-26-0451",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5561013",
@@ -724,7 +684,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C0023-26-1038",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C0023-26-1038",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5559839",
@@ -742,6 +706,32 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9277-26-0871",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9277-26-0871",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
+  },
+  {
+    "job_id": "nhs-5550823",
+    "source": "NHS Jobs",
+    "title": "Receptionist Call Handler",
+    "company": "Fairfield Park Health Centre",
+    "advertiser_name": "Fairfield Park Health Centre",
+    "location": "Bath, BA1 6EA",
+    "region": "Bristol & Bath",
+    "salary": "£12.90",
+    "employment_type": "Permanent",
+    "posted_date": "2026-08-20T14:14:35.427672681",
+    "closing_date": "2026-09-18",
+    "description": "An opportunity has arisen within our reception team for a team player with a can do attitude who thrives working in a busy, demanding and ever-changing customer service environment. The majority of the work will be telephone based which requires a skill set to efficiently deal with high call volumes whilst maintaining a pleasant and caring manner. In addition you will provide general assistance to the practice team and project a positive and friendly image to patients and other visitors arriving at the practice. The work pattern is part time Monday to Friday and some Saturdays. Flexibility to cover additional shifts due to annual leave, training and sickness is an essential requirement of this role. Previous call centre experience is desirable. For a full job description please e-mail your request. Blow is an outline of the Key Areas of Responsibility: Ensure a professional and efficient reception service is provided to patients and other visitors Deal with general enquiries and explain practice procedures where required Make new and follow-up appointments Communicate test results in an accurate manner Explain practice arrangements and formal requirements to new patients and those seeking temporary cover and ensure procedures are completed Enter patient information on to the practice clinical system as required Process prescriptions and deal with enquiries Receive payment for non-NHS services provided Open and distribute practice mail Keep waiting area tidy and ensure information is up to date General administrative duties Undertake a share of communal duties and any other additional duties appropriate to the post as requested by the Office Manager, Practice Manager or Partners Key Responsibilities Patient Access and Customer Service Act as the first point of contact for patients, relatives, carers, and healthcare professionals. Handle telephone, face-to-face and electronic enquiries professionally and efficiently. Book, amend and cancel appointments in accordance with practice procedures. Support patients to access the most appropriate service through effective signposting. Manage walk-in enquiries and maintain an organised waiting environment. Patient Administration Complete new patient and temporary resident registrations. Maintain accurate patient records and demographic information. Process requests for medical summaries, letters, results, sick notes and vaccination-related services. Manage eConsultations and other digital requests in accordance with practice processes. Complete administrative workflows allocated by clinicians and colleagues. Prescriptions and Clinical Support Process prescription requests accurately and efficiently. Respond to prescription enquiries and liaise with pharmacies and clinicians. Support clinicians with administrative tasks linked to patient care. Act as a chaperone when trained and required. Communication and Correspondence Manage generic email accounts and incoming practice correspondence. Process ambulance reports, letters and electronic communications. Print and distribute documentation as required. Ensure all reception tasks are actioned within agreed timescales. Operational Responsibilities Open and close reception and practice areas in accordance with procedures. Process payments received in person and by telephone. Manage incoming deliveries, post and internal correspondence. Maintain stock levels of forms, leaflets and administrative supplies. Monitor designated storage and sample areas where applicable. Maintain a clean, professional and welcoming environment. Clinics and Service Support Support seasonal vaccination programmes including Flu and COVID clinics. Provide support for Saturday and extended access clinics where required. Assist with patient recalls, invitations and clinic administration. Team Working Work collaboratively with colleagues to ensure continuity of service. Respond flexibly to changing workloads and operational pressures. Contribute positively to team objectives and service improvements. Core Competencies Excellent communication, customer service, attention to detail, organisation, digital literacy, professionalism, confidentiality and problem-solving skills. Values and Behaviours Patient focused, respectful, inclusive, accountable, reliable, professional and committed to continuous improvement. Confidentiality and Information Governance Maintain confidentiality at all times and comply with data protection legislation, information governance standards and practice policies. Health, Safety and Safeguarding Support a safe environment for patients, visitors and colleagues and comply with safeguarding, infection prevention and health and safety procedures. Training and Development Participate in mandatory training, appraisal and ongoing professional development activities. Flexibility Clause This job description is not exhaustive and may be amended to reflect changing service needs. The post holder may be required to undertake other duties consistent with the role.",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4271-26-0011",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4271-26-0011",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

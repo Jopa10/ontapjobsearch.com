@@ -100,13 +100,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Telephone handling",
-      "Email handling",
-      "Systems administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225465867",
@@ -131,11 +125,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Data entry",
-      "Quotations"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225476234",
@@ -160,11 +150,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Customer enquiries"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225488647",
@@ -264,12 +250,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Scheduling and bookings",
-      "Records administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225522508",
@@ -294,11 +275,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Systems administration",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1733704",
@@ -323,11 +300,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Quotations",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1766933",
@@ -427,11 +400,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Quotations",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1733365",
@@ -556,12 +525,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Scheduling and bookings",
-      "Quotations"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225476106",
@@ -689,6 +653,28 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "nhs-5579261",
+    "source": "NHS Jobs",
+    "title": "Team Administrator",
+    "company": "Gloucestershire Health and Care NHS Foundation Trust",
+    "advertiser_name": "Gloucestershire Health and Care NHS Foundation Trust",
+    "location": "Stroud, GL5 2HZ",
+    "region": "Gloucestershire",
+    "salary": "£25760.00 to £27476.00",
+    "employment_type": "Permanent",
+    "posted_date": "2026-09-04T13:11:42.224238226",
+    "closing_date": "2026-09-18",
+    "description": "*Internal applicants who wish to be considered for a secondment opportunity should discuss with their line manager the suitability of a possible secondment* This is an exciting and varied opportunity to join our Inpatient Mental Health and Urgent care Admin Team at Weavers Croft, Stroud, as a Full Time Team Administrator for the Stroud Crisis Team. If you have a 'can do' attitude, and enjoy building good working relationships, we welcome your application. The post holder must possess a competent working knowledge of all Microsoft Office packages. The role will include taking minutes at the team meeting, processing referrals and completing administration tasks for the Team Manager and Clinicians. On occasion typing up letters for the Crisis Consultant and making appointments for them and the Team. You will also be asked to support with some auditing and monitoring tasks for Team compliance's. You will be completing administration tasks on RiO, our patient computer system, as well as using other systems for example E-Roster, ESR and Centros Integra, training will be offered. You will also handle calls coming in to the Crisis Team and take appropriate messages in order to relay to the Clinical Team and Consultant. The qualification, training & experience requirements for the role are underlined in the Job Description/Person Specification. Working for the Stroud Crisis Team, ensuring delivery of a full professional administration service providing assistance with administration and data . To undertake typing, inputting onto a database and administrative work. To project the professional image of the business through demonstrating excellent customer care and confidentiality in all activities. Occasional typing up letters for the Crisis Consultant and making appointments for them and the Team. To provide a full and comprehensive administration / secretarial service. To use own initiative in prioritising workload to ensure deadlines are met. When appropriate, propose changes to working practices to maximise efficiency / effectiveness of role. To produce copy and / or audio typing of correspondence, reports, presentations and spreadsheets, ensuring all documents are accurate and produced to a high standard. To use Microsoft Office packages to produce reports, spreadsheets, presentations, emails to a high quality standard. To handle all correspondence, including opening, redirecting, distribution and drafting replies to all mail. At times be responsible, in the Managers absence, for opening, actioning and responding to emails and other correspondence To be responsible for day-to-day diary management, arranging and co-ordinating meetings and to resolve conflicting diary appointments",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9327-26-0748",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9327-26-0748",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
+  },
+  {
     "job_id": "nhs-5551929",
     "source": "NHS Jobs",
     "title": "Receptionist & Administration Assistant",
@@ -704,7 +690,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9327-26-0701",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9327-26-0701",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5562669",
@@ -722,7 +712,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3648-26-0003",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3648-26-0003",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5558227",
@@ -735,12 +729,16 @@
     "salary": "£25272.00",
     "employment_type": "Fixed-Term",
     "posted_date": "2026-08-24T14:32:12.481925",
-    "closing_date": "2026-09-07",
+    "closing_date": "2026-09-04",
     "description": "- To provide an efficient and friendly service to all patients and visitors attending outpatient departments - To record patient attendance accurately and timely, in accordance with departmental policy - To ensure patient outcomes are actioned accurately and timely, in accordance with departmental policy - Where appropriate, make follow up appointment and any associated administration, without direct supervision - Support nursing team with organisation of return transport for patients attending appointments where appropriate. - Ensure the professional image of the department and Trust is maintained at all times - Flexible approach to working hours to meet the demands of the service. - To work in collaboration with the clinical and non-clinical team members providing admin support such as stock ordering. You will also work directly with patients resolving their queries and recognise the importance of first-class communication skills to achieve patient satisfaction. The primary objective is to provide: - Excellent customer service - Effective and timely resolution of queries received - To support the Trust in providing quality care to its patients. - To work cross site support the OPD Team - Ensure the timely and accurate update of Trak, to include liaising with and response to, the Information team, and their weekly reports. - Ensure compliance with Health and Safety requirements in area of responsibility. - Any other duties as required, commensurate with the grade. - Call patients following up / confirming their appointments. - Provide efficient and courteous reception to patients. - Check all demographics and update Patient Administration System in accordance with Trust policy, taking responsibility for patient confidentiality at all times. - Inform patients of any delays affecting the smooth running of clinics, direct them to correct waiting area, or to other departments if pre appointment tests are required e.g. x-ray. - Make appropriate follow up, clearly communicating that to patient or populate pending list in accordance with clinician request. - Book support service e.g. transport, interpreter for appointment - Deal with telephone callers professionally and timely. - Flexibility with hours and working area to provide cover for colleagues across site and department when requested. - Assist supervisor with on the job training for new staff - Complete all training in accordance with trust policy, this may mean off site attendance - Good working knowledge of trust Cancellation/DNA policy - Maintain a smart, professional appearance at all times, keep reception work area tidy, be familiar with Trust infection control policy - Deal efficiently and competently on a daily basis with complex administrative tasks often with tight deadlines. - Being the first point of contact, provide non-clinical advice and exercise own judgement when dealing with enquires and independently communicate effectively on behalf of the team to service users and other professionals. - Deal professionally and promptly with telephone enquiries, taking and processing messages accurately and maintaining confidentiality at all times as per the Message Taking Policy and ensuring standards for customer services excellence are met. - Ensuring safeguarding correspondence and other sensitive data is processed and entered correctly and in a timely manner, always adhering to data protection regulations. - Receive, sort and distribute internal and external mail, ensuring that important and sensitive information is brought to an appropriate persons attention in a timely manner. Stationery and equipment management including ordering and monitoring supplies - Attendance at departmental meetings. - Demonstrate daily duties to new starters and less experienced staff to support their induction. - Have knowledge of the lone working policies and procedures and maintain team contact information. - Complete the daily administrative functions. - Assess and manage own workload under the supervision of the line manager. - To highlight any risks, adverse events or near misses to the line manager. - Maintain high quality standards by ensuring that the data entered onto Trust systems is accurate, complete and up to date. - Ensure that all Trust wide standards are maintained and monitored to improve quality and total care to all who come in contact with the service. - Ensure your work area and equipment is left in a good working condition on a daily basis. The elements that require actioning from your new admin employee when employed will be: - Assist in managing bookings- (This involves ringing patients prior to appointments and moving requests off appointments for patients who cannot attend and document any changes on the Radiology booking system). - Liaising with Radiology appointment team when necessary. - Good Communication skills",
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9318-26-0756",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9318-26-0756",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5551856",
@@ -758,7 +756,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9327-26-0699",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9327-26-0699",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5546699",
@@ -776,6 +778,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0319-26-0000",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0319-26-0000",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]
