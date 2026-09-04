@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - South
 
-review_date: 2026-09-03
+review_date: 2026-09-04
 review_fingerprint: c1f8df2fccd6f25ee28bcb5b26035a41d7ff4680da700d668c16d837746263d0
-routing_manifest_sha256: a0efbb5ba12fcb4fb47f18be53367aa23ab13a40edcd3794d25c9c2fad579f57
+routing_manifest_sha256: e64214c9afd89b7217da910a14d3eadaab33a7e91faaf564fff5dbf2a9b00415
 ontap_region: Yorkshire - South
 slice_category: admin_service
 slice_status: LIVE
@@ -104,19 +104,19 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/estates-and-complianc
 
 ## HARD_PASS
 
-- [Administration Assistant and Receptionist](https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-and-receptionist-king-edward-vii-school-sheffield-south-yorkshire) — Missing salary or pay scale.
+- [Admin Officer](https://teaching-vacancies.service.gov.uk/jobs/admin-officer-meynell-nursery-primary-school) — Insufficient admin/service evidence.
 - [Attendance and Admissions Manager](https://teaching-vacancies.service.gov.uk/jobs/attendance-and-admissions-manager-westfield-school-sheffield) — Manager title salary ceiling £41,771 is not below £28,000.
 - [Business Support Manager](https://teaching-vacancies.service.gov.uk/jobs/business-support-manager-beck-primary-school) — Manager title salary ceiling £39,614 is not below £28,000.
 - [Business Support Manager](https://teaching-vacancies.service.gov.uk/jobs/business-support-manager-whiteways-primary-school) — Manager title salary ceiling £39,614 is not below £28,000.
 - [Chief Financial Officer](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-st-clare-catholic-multi-academy-trust) — Insufficient admin/service evidence.
-- [Clerical Officer](https://teaching-vacancies.service.gov.uk/jobs/clerical-officer-mossbrook-school) — Insufficient admin/service evidence.
+- [Cluster People Officer - Primary](https://teaching-vacancies.service.gov.uk/jobs/cluster-people-officer-primary) — Insufficient admin/service evidence.
 - [Data and Systems Manager](https://teaching-vacancies.service.gov.uk/jobs/data-and-systems-manager-st-francis-catholic-multi-academy-trust) — Manager title salary ceiling £47,181 is not below £28,000.
 - [Data, Systems and Insights Specialist](https://teaching-vacancies.service.gov.uk/jobs/data-systems-and-insights-specialist) — Insufficient admin/service evidence.
-- [Finance & Admin Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-admin-manager) — Manager title salary ceiling £43,442 is not below £28,000.
+- [Finance & Admin Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-admin-manager-prince-edward-primary-school-sheffield-south-yorkshire) — Manager title salary ceiling £41,771 is not below £28,000.
 - [Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-57d3025b-f701-43b4-bf16-13498ff4c547) — Insufficient admin/service evidence.
-- [Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-st-clare-catholic-multi-academy-trust) — Insufficient admin/service evidence.
 - [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-mercia-learning-trust-sheffield-not-recorded) — Manager title salary ceiling £53,052 is not below £28,000.
 - [HR Manager](https://teaching-vacancies.service.gov.uk/jobs/hr-manager-st-francis-catholic-multi-academy-trust-rotherham-not-recorded) — Manager title salary ceiling £54,495 is not below £28,000.
+- [Learner Support Compliance & Standards Lead](https://teaching-vacancies.service.gov.uk/jobs/learner-support-compliance-standards-lead) — Insufficient admin/service evidence.
 - [People Officer](https://teaching-vacancies.service.gov.uk/jobs/people-officer-astrea-academy-trust) — Insufficient admin/service evidence.
 - [Resources Assistant](https://teaching-vacancies.service.gov.uk/jobs/resources-assistant-westfield-school) — Insufficient admin/service evidence.
 - [School Administration Assistant: HR and Payroll](https://teaching-vacancies.service.gov.uk/jobs/school-administration-assistant-hr-and-payroll) — Insufficient admin/service evidence.

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Hampshire
 
-review_date: 2026-09-03
-review_fingerprint: 9d0a04d856a59b237990db2307e61310f6653be807380a3a801eadf20d799359
-routing_manifest_sha256: a0efbb5ba12fcb4fb47f18be53367aa23ab13a40edcd3794d25c9c2fad579f57
+review_date: 2026-09-04
+review_fingerprint: afe4f5f8e128c2ac250a27901073ee7f1d820803e83ffd1dcc9afabc4af98282
+routing_manifest_sha256: e64214c9afd89b7217da910a14d3eadaab33a7e91faaf564fff5dbf2a9b00415
 ontap_region: Hampshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 7
+- Records: 5
 - Selected: 4
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 3
+- Hard pass: 1
 
 ## SELECTED
 
@@ -53,17 +53,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-and-ass
 
 ---
 action: 
-SELECTED | Hampshire | Southampton, South East, SO30 4EJ | £24,796.00 Annually (FTE) Grade B – Step 1 - Actual Annual Salary £20,369.06 (which is equivalent to a full-time salary of £24,796) | Receptionist
+SELECTED | Hampshire | Southampton, South East, SO30 4EJ | £25,614.00 Annually (FTE) Grade B – Step 1 - Actual Annual Salary £21,041.02 (which is equivalent to a full-time salary of £25,614 | Receptionist
 employer: Wildern School
 closing_date: 2026-09-14T12:00:00+01:00
 reason: Clear admin/service title: receptionist
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: e6ca797ae27acb4e150765256233c1786959a8fae6403218e1b43c9a1d0a5a43
+factual_fingerprint: 40ceb15ad32c310bc90a1f6f105bebc66b3dd918eb713d55823640a87fb49e55
 source: Teaching Vacancies
-source_job_id: receptionist-ff80cc91-b028-4603-910d-80547a4ad86e
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-ff80cc91-b028-4603-910d-80547a4ad86e
+source_job_id: receptionist-1dcaf299-1719-4cef-a999-af235a29010e
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-1dcaf299-1719-4cef-a999-af235a29010e
 ---
 
 ---
@@ -91,8 +91,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-ac
 
 ## HARD_PASS
 
-- [Attendance and Admin Officer](https://teaching-vacancies.service.gov.uk/jobs/attendance-and-admin-officer-shirley-warren-primary-nursery-school) — Insufficient admin/service evidence.
-- [Clerk to the Governing Body](https://teaching-vacancies.service.gov.uk/jobs/clerk-to-the-governing-body-elson-junior-school) — Insufficient admin/service evidence.
 - [Cover Co-ordinator and Cover Supervisor](https://teaching-vacancies.service.gov.uk/jobs/cover-co-ordinator-and-cover-supervisor) — Insufficient admin/service evidence.
 
 ## Safety boundary

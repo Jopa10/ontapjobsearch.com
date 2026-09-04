@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cornwall
 
-review_date: 2026-09-03
+review_date: 2026-09-04
 review_fingerprint: 33bce8b53591073436e6d3cdfab02e0829b2b37f953432a2ad267a3ae950b6fa
-routing_manifest_sha256: a0efbb5ba12fcb4fb47f18be53367aa23ab13a40edcd3794d25c9c2fad579f57
+routing_manifest_sha256: e64214c9afd89b7217da910a14d3eadaab33a7e91faaf564fff5dbf2a9b00415
 ontap_region: Cornwall
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 3
+- Records: 4
 - Selected: 1
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 2
+- Hard pass: 3
 
 ## SELECTED
 
@@ -47,6 +47,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-falmout
 ## HARD_PASS
 
 - [Academy Administrator](https://teaching-vacancies.service.gov.uk/jobs/academy-administrator-cubert-primary-school) — Missing salary or pay scale.
+- [Cover Supervisor](https://teaching-vacancies.service.gov.uk/jobs/cover-supervisor-a61f8bdb-44ee-4637-b8f0-f20a88acc959) — Insufficient admin/service evidence.
 - [Management Accountant](https://teaching-vacancies.service.gov.uk/jobs/management-accountant-a1d12639-0487-4f99-8987-545bccb8f803) — Insufficient admin/service evidence.
 
 ## Safety boundary

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Norfolk
 
-review_date: 2026-09-03
-review_fingerprint: d4fe78902683fd911c8303274f5d09c121ba13f3034445a61ab10abf85566915
-routing_manifest_sha256: a0efbb5ba12fcb4fb47f18be53367aa23ab13a40edcd3794d25c9c2fad579f57
+review_date: 2026-09-04
+review_fingerprint: 029122890e785bce3e88b007d653c350032032476c6ddc0a73c1ea1c17c14ad3
+routing_manifest_sha256: e64214c9afd89b7217da910a14d3eadaab33a7e91faaf564fff5dbf2a9b00415
 ontap_region: Norfolk
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 13
-- Selected: 6
+- Records: 12
+- Selected: 5
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 7
@@ -40,12 +40,12 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assist
 action: 
 SELECTED | Norfolk | Fakenham, East of England, NR21 8BN | £8,830.00 - £8,970.00 Annually (FTE) | Administration Assistant
 employer: Fakenham Junior School
-closing_date: 2026-09-11T23:59:00+01:00
+closing_date: 2026-09-09T23:59:00+01:00
 reason: Clear admin/service title: administration assistant
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: f39faf831b170ef09761d20fab3084397d82187f562716d6ada38dfa8f8b0861
+factual_fingerprint: ed6edb3a4a2d050937fc2691ae7536d68f3a20930da58201241bbbf225370c55
 source: Teaching Vacancies
 source_job_id: administration-assistant-fakenham-junior-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-fakenham-junior-school
@@ -64,21 +64,6 @@ factual_fingerprint: c4219cc254372923cf3e85795a2fc84cbd08895dc2094fc56071cba3bd9
 source: Teaching Vacancies
 source_job_id: administration-assistant-queensway-junior-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-queensway-junior-academy
----
-
----
-action: 
-SELECTED | Norfolk | Diss, East of England, IP22 4NT | £9,168 - £9,772 actual pa | Attendance Officer
-employer: Diss Church of England Junior Academy
-closing_date: 2026-09-04T01:00:00+01:00
-reason: Clear admin/service title: attendance officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 143b7a8d39f562c4fbb73c37bf1ced97141434d5d5480a6c8bf6dc17b1631113
-source: Teaching Vacancies
-source_job_id: attendance-officer-diss-church-of-england-junior-academy-diss
-source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-diss-church-of-england-junior-academy-diss
 ---
 
 ---
@@ -126,8 +111,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/secretary-fleggburgh-
 - [Attendance Lead](https://teaching-vacancies.service.gov.uk/jobs/attendance-lead-fred-nicholson-school) — Insufficient admin/service evidence.
 - [Development Officer](https://teaching-vacancies.service.gov.uk/jobs/development-officer-norwich-city-college-of-further-and-higher-education) — Insufficient admin/service evidence.
 - [Planning and Timetabling Officer](https://teaching-vacancies.service.gov.uk/jobs/planning-and-timetabling-officer) — Insufficient admin/service evidence.
+- [Regional People Partner](https://teaching-vacancies.service.gov.uk/jobs/regional-people-partner-ormiston-victory-academy-norwich-norfolk) — Insufficient admin/service evidence.
 - [Secretarial Assistant](https://teaching-vacancies.service.gov.uk/jobs/secretarial-assistant-john-grant-school-caister-on-sea) — Insufficient admin/service evidence.
-- [Teaching Assistant (Personal Care)](https://teaching-vacancies.service.gov.uk/jobs/teaching-assistant-personal-care-wayland-academy-thetford-norfolk) — Out-of-scope occupation: teaching assistant.
 
 ## Safety boundary
 

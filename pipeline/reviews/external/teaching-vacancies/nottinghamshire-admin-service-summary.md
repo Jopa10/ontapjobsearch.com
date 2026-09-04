@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Nottinghamshire
 
-review_date: 2026-09-03
-review_fingerprint: 97870b956fbd29eaf6556955d37f1fce8b0235e7f6f3c4d24ac253bcaf62e017
-routing_manifest_sha256: a0efbb5ba12fcb4fb47f18be53367aa23ab13a40edcd3794d25c9c2fad579f57
+review_date: 2026-09-04
+review_fingerprint: 1f2b422443579bac933afc16046b44585765ae642808cb3926ebde25f4f4411c
+routing_manifest_sha256: e64214c9afd89b7217da910a14d3eadaab33a7e91faaf564fff5dbf2a9b00415
 ontap_region: Nottinghamshire
 slice_category: admin_service
 slice_status: LIVE
@@ -14,8 +14,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 16
-- Selected: 5
-- POSS awaiting decision: 2
+- Selected: 6
+- POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 9
 
@@ -49,6 +49,21 @@ factual_fingerprint: fa463f0d606dbdad54230fa82112d93bc5fba363f36f4137f5b619fb1ba
 source: Teaching Vacancies
 source_job_id: administrative-assistant-6dd3cd8b-9366-40d4-aff9-a0419363ea61
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-6dd3cd8b-9366-40d4-aff9-a0419363ea61
+---
+
+---
+action: 
+SELECTED | Nottinghamshire | Nottingham, East Midlands, NG14 5EB | £21,190 (FTE - £25,614) | Administrative Assistant
+employer: Burton Joyce Primary School
+closing_date: 2026-09-24T12:00:00+01:00
+reason: Clear admin/service title: administrative assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: b97c523ae128a987ffe73f1767463bd248500cb31e7017c94bc9e34cfabadb92
+source: Teaching Vacancies
+source_job_id: administrative-assistant-burton-joyce-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-burton-joyce-primary-school
 ---
 
 ---
@@ -100,32 +115,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/part-time-attendance-
 
 ---
 action: 
-POSS | Nottinghamshire | Nottingham, East Midlands, NG12 2FQ | Redhill Academy Trust Pay Scale, Band 6, Scale point 29 - 32 | Exams Assistant
-employer: South Nottinghamshire Academy
-closing_date: 2026-09-04T12:00:00+01:00
-reason: Administrative duties evidenced in description
+POSS | Nottinghamshire | Nottingham, NG9 3GA | £15,092.87 - £16,940.13 Annually (Actual) NJE Grade 5 - £31,015 - £34,811 (FTE) | Data Officer
+employer: The White Hills Park Trust Ltd
+closing_date: 2026-10-02T09:00:00+01:00
+reason: Borderline school administration title: data officer
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 2059b5f28707065dcde8e6a20e0d67d79efdcb20998b8680d0c65534749909e0
+factual_fingerprint: 205cb81db075e4052dbf10e809c511f0c86f0f8a1b7625e18ccc2fe669648211
 source: Teaching Vacancies
-source_job_id: exams-assistant-south-nottinghamshire-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-assistant-south-nottinghamshire-academy
----
-
----
-action: 
-POSS | Nottinghamshire | Nottingham, East Midlands, NG12 2FQ | Redhill Academy Trust Pay Scale, Band 6, Scale point 29 - 32 | House Support Asisstant
-employer: South Nottinghamshire Academy
-closing_date: 2026-09-04T12:00:00+01:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: e3e5d2ae25c785ab06eb065f9bbf094a44c7c9f65438c997a24f348d0ae16fee
-source: Teaching Vacancies
-source_job_id: house-support-asisstant
-source_url: https://teaching-vacancies.service.gov.uk/jobs/house-support-asisstant
+source_job_id: data-officer-the-white-hills-park-trust-ltd
+source_url: https://teaching-vacancies.service.gov.uk/jobs/data-officer-the-white-hills-park-trust-ltd
 ---
 
 ## EXCLUDED BY REVIEW

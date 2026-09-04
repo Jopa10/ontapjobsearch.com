@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Oxfordshire
 
-review_date: 2026-09-03
-review_fingerprint: 995ec19a2ad9b7dc592c33a3431de05b12470beb06e2d30350046025bb72f581
-routing_manifest_sha256: a0efbb5ba12fcb4fb47f18be53367aa23ab13a40edcd3794d25c9c2fad579f57
+review_date: 2026-09-04
+review_fingerprint: c9b610943c7182294e1bfef8ee6cc8c3bac0a7d2e7fa350631aa3ea82f4ac8cf
+routing_manifest_sha256: e64214c9afd89b7217da910a14d3eadaab33a7e91faaf564fff5dbf2a9b00415
 ontap_region: Oxfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 9
+- Records: 7
 - Selected: 3
-- POSS awaiting decision: 1
+- POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 4
 
 ## SELECTED
 
@@ -55,12 +55,12 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/grade-6-office-admini
 action: 
 SELECTED | Oxfordshire | Thame, South East, OX9 2AQ | £28,140.00 Annually (Actual) Actual salary based on 37 hours per week, term time plus 2 weeks work in the summer holidays. The full-time equivalent salary is £31,537 to £34,434 per annum | Sixth Form Administrator / Team Leader
 employer: Lord Williams's School
-closing_date: 2026-09-04T09:00:00+01:00
+closing_date: 2026-09-07T09:00:00+01:00
 reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 39675ab49f458edabeb9d2bfd1783934384eb4475953fdd18eb571a7df31d65b
+factual_fingerprint: f5e6e828ea85b0103227e88c35b4d127637af83482caf60081d2fe20072c93ec
 source: Teaching Vacancies
 source_job_id: sixth-form-administrator-team-leader
 source_url: https://teaching-vacancies.service.gov.uk/jobs/sixth-form-administrator-team-leader
@@ -68,20 +68,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/sixth-form-administra
 
 ## POSS — choose SELECT or EXCLUDE
 
----
-action: 
-POSS | Oxfordshire | Oxford, South East, OX3 9WN | £26,824.00 Annually (FTE) Actual annual salary is £12,016 for 19.5 hours per week term time only plus 3 inset days | Office Administrator
-employer: Barton Park Primary School
-closing_date: 2026-09-04T12:00:00+01:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 6507fa5e4ea1f71f1a1f76eff33fba35fcf567d0ef52f77cff9d377bc363b4da
-source: Teaching Vacancies
-source_job_id: office-administrator-barton-park-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-barton-park-primary-school
----
+- None.
 
 ## EXCLUDED BY REVIEW
 
@@ -89,9 +76,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-
 
 ## HARD_PASS
 
-- [Admissions Manager](https://teaching-vacancies.service.gov.uk/jobs/admissions-manager-lord-williams-s-school) — Manager title salary ceiling £34,434 is not below £28,000.
-- [Chief Financial Officer](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-lord-williams-s-school-thame-oxfordshire) — Insufficient admin/service evidence.
 - [Exams and Data Manager](https://teaching-vacancies.service.gov.uk/jobs/exams-and-data-manager-whitelands-academy) — Manager title salary ceiling £40,444 is not below £28,000.
+- [Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-24437cdc-05bf-4102-bc88-8beac49a5637) — Insufficient admin/service evidence.
 - [HR Partner](https://teaching-vacancies.service.gov.uk/jobs/hr-partner-oxford-diocesan-bucks-schools-trust) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-st-peter-s-church-of-england-school-alvescot) — Manager title salary ceiling £31,537 is not below £28,000.
 

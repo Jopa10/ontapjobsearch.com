@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Black Country
 
-review_date: 2026-09-03
+review_date: 2026-09-04
 review_fingerprint: ab3dbaf43b60acb284fba1da730b60d542fd3f8547f477bd3d292174d9f998a4
-routing_manifest_sha256: a0efbb5ba12fcb4fb47f18be53367aa23ab13a40edcd3794d25c9c2fad579f57
+routing_manifest_sha256: e64214c9afd89b7217da910a14d3eadaab33a7e91faaf564fff5dbf2a9b00415
 ontap_region: West Midlands - Black Country
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 4
+- Records: 3
 - Selected: 1
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 2
+- Hard pass: 1
 
 ## SELECTED
 
@@ -59,7 +59,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-
 
 ## HARD_PASS
 
-- [Communications & Engagement Manager](https://teaching-vacancies.service.gov.uk/jobs/communications-engagement-manager) — Manager title salary ceiling £32,079 is not below £28,000.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-withymoor-primary-school) — Manager title salary ceiling £28,214 is not below £28,000.
 
 ## Safety boundary

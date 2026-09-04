@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Somerset
 
-review_date: 2026-09-03
-review_fingerprint: 563583c6ce088e3b844ce039673fb904d4a3f3d8dd37c5599fc48edf670c501f
-routing_manifest_sha256: a0efbb5ba12fcb4fb47f18be53367aa23ab13a40edcd3794d25c9c2fad579f57
+review_date: 2026-09-04
+review_fingerprint: 367bc93cd279843f410a6ca5b4a2819a9033f47c9fdf2da893e7eaf33c2a6a2a
+routing_manifest_sha256: e64214c9afd89b7217da910a14d3eadaab33a7e91faaf564fff5dbf2a9b00415
 ontap_region: Somerset
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 5
+- Records: 6
 - Selected: 2
-- POSS awaiting decision: 1
+- POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 2
 
@@ -68,13 +68,28 @@ source_job_id: data-manager-kingsmead-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/data-manager-kingsmead-academy
 ---
 
+---
+action: 
+POSS | Somerset | Taunton, South West, TA2 8FT | Actual Annual Salary | Senior Office Administrator
+employer: West Monkton Church of England School
+closing_date: 2026-09-10T12:00:59+01:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 01d53c9541cb9974d967e23c0adad87911f62973058bfe7fe5ea66772641ee38
+source: Teaching Vacancies
+source_job_id: senior-office-administrator-west-monkton-church-of-england-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-office-administrator-west-monkton-church-of-england-school
+---
+
 ## EXCLUDED BY REVIEW
 
 - None.
 
 ## HARD_PASS
 
-- [Local Governance Professional (Clerk)](https://teaching-vacancies.service.gov.uk/jobs/local-governance-professional-clerk-churchill-academy-sixth-form) — Missing salary or pay scale.
+- [Careers Lead](https://teaching-vacancies.service.gov.uk/jobs/careers-lead-the-castle-school-taunton-somerset) — Insufficient admin/service evidence.
 - [Systems Analyst](https://teaching-vacancies.service.gov.uk/jobs/systems-analyst-pathway-trust) — Insufficient admin/service evidence.
 
 ## Safety boundary

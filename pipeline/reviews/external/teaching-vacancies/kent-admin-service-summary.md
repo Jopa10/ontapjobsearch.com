@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Kent
 
-review_date: 2026-09-03
-review_fingerprint: 910a25b605b28c2367cc433a8d4e5f3e3642114526422fc4e430b685eeccb0f4
-routing_manifest_sha256: a0efbb5ba12fcb4fb47f18be53367aa23ab13a40edcd3794d25c9c2fad579f57
+review_date: 2026-09-04
+review_fingerprint: 03c6be346277019f7641b6f8eb22276950f6670f08f8e0eb89eae6fd7e172f99
+routing_manifest_sha256: e64214c9afd89b7217da910a14d3eadaab33a7e91faaf564fff5dbf2a9b00415
 ontap_region: Kent
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 10
-- Selected: 2
-- POSS awaiting decision: 2
+- Records: 9
+- Selected: 3
+- POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 6
 
@@ -51,15 +51,13 @@ source_job_id: admissions-officer-the-university-of-kent-academies-trust
 source_url: https://teaching-vacancies.service.gov.uk/jobs/admissions-officer-the-university-of-kent-academies-trust
 ---
 
-## POSS — choose SELECT or EXCLUDE
-
 ---
 action: 
-POSS | Kent | Canterbury, CT1 1NQ | £28,182.00 Annually (FTE) Actual annual salary £ 26057.39 | HR administrator
+SELECTED | Kent | Canterbury, CT1 1NQ | £28,182.00 Annually (FTE) Actual annual salary £ 26057.39 | HR administrator
 employer: The Diocese Of Canterbury Academies Trust
 closing_date: 2026-09-07T23:59:00+01:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
 factual_fingerprint: 7e95f87de0e98b48358bf305bb31f93a7036a56578e206c6958529a65d86d2c8
@@ -68,20 +66,9 @@ source_job_id: hr-administrator-the-diocese-of-canterbury-academies-trust
 source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-the-diocese-of-canterbury-academies-trust
 ---
 
----
-action: 
-POSS | Kent | Sheerness, South East, ME12 3AP | £8,557.00 - £8,693.00 Annually (Actual) | Receptionist
-employer: Nore Academy
-closing_date: 2026-09-04T12:00:00+01:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: f90ddb2cacb224471acb87fe2628722be9a0f71024b7d52ad28de66b62b3f7e6
-source: Teaching Vacancies
-source_job_id: receptionist-nore-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-nore-academy
----
+## POSS — choose SELECT or EXCLUDE
+
+- None.
 
 ## EXCLUDED BY REVIEW
 

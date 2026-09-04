@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Coventry & Warwickshire
 
-review_date: 2026-09-03
+review_date: 2026-09-04
 review_fingerprint: 245885e5212a1166f8cb40da07c094aa11e89d5fefdfd0a16e34aca217d109b2
-routing_manifest_sha256: a0efbb5ba12fcb4fb47f18be53367aa23ab13a40edcd3794d25c9c2fad579f57
+routing_manifest_sha256: e64214c9afd89b7217da910a14d3eadaab33a7e91faaf564fff5dbf2a9b00415
 ontap_region: West Midlands - Coventry & Warwickshire
 slice_category: admin_service
 slice_status: LIVE
@@ -76,7 +76,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-admin-of
 
 ## HARD_PASS
 
-- [Chief Financial Officer (CFO)](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-cfo-triumph-learning-trust) — Insufficient admin/service evidence.
+- [Senior Leisure & Lettings Coordinator](https://teaching-vacancies.service.gov.uk/jobs/senior-leisure-lettings-coordinator) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

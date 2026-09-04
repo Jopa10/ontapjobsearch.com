@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Buckinghamshire
 
-review_date: 2026-09-03
-review_fingerprint: ac7376993f57717a0dabd875de2c4e9741c6179a171ed2a0c8cdcff7ebb0b56a
-routing_manifest_sha256: a0efbb5ba12fcb4fb47f18be53367aa23ab13a40edcd3794d25c9c2fad579f57
+review_date: 2026-09-04
+review_fingerprint: ce4c0025fe94eae75328dd176b11bc980544881ac68f63ee07dc6e78e930a9da
+routing_manifest_sha256: e64214c9afd89b7217da910a14d3eadaab33a7e91faaf564fff5dbf2a9b00415
 ontap_region: Buckinghamshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 12
-- Selected: 6
-- POSS awaiting decision: 3
+- Records: 11
+- Selected: 3
+- POSS awaiting decision: 4
 - Excluded: 0
-- Hard pass: 3
+- Hard pass: 4
 
 ## SELECTED
 
@@ -34,21 +34,6 @@ factual_fingerprint: 2e33d1c0600d42e6202fe86ee2056ed0bbef47b23ab8f35ed48e84e7533
 source: Teaching Vacancies
 source_job_id: attendance-administrator-william-harding-school-aylesbury-buckinghamshire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-administrator-william-harding-school-aylesbury-buckinghamshire
----
-
----
-action: 
-SELECTED | Buckinghamshire | Milton Keynes, South East, MK7 7WH | £27,693.00 - £31,021.00 Annually (FTE) | Attendance Officer
-employer: Walton High
-closing_date: 2026-09-03T23:59:00+01:00
-reason: Clear admin/service title: attendance officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: cc1ea49c19cce27da7e766345dac4a736c92817c95e63199775f32e344ef5e4c
-source: Teaching Vacancies
-source_job_id: attendance-officer-af35235c-b4c2-4ef0-9706-890c839e4f10
-source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-af35235c-b4c2-4ef0-9706-890c839e4f10
 ---
 
 ---
@@ -81,37 +66,22 @@ source_job_id: examinations-officer-aeb29f97-ce81-41ec-8b38-81ed01e3315f
 source_url: https://teaching-vacancies.service.gov.uk/jobs/examinations-officer-aeb29f97-ce81-41ec-8b38-81ed01e3315f
 ---
 
----
-action: 
-SELECTED | Buckinghamshire | High Wycombe, South East, HP15 7UB | £21,628.00 - £23,200.00 Annually (Actual) Salary – Bucks Pay Range 3 £21,628 - £23,200 (full time equivalent £29,114 - £31,230) | Office Administrator
-employer: Sir William Ramsay School
-closing_date: 2026-09-04T12:00:00+01:00
-reason: Clear admin/service title: administrator, office administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: e08a39e859333defc38ad25b7abaf8405b0cc0b26d3540cf135640e8b312a17e
-source: Teaching Vacancies
-source_job_id: office-administrator-sir-william-ramsay-school-high-wycombe-buckinghamshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-sir-william-ramsay-school-high-wycombe-buckinghamshire
----
-
----
-action: 
-SELECTED | Buckinghamshire | High Wycombe, South East, HP15 6SP | £17,318.00 - £18,768.00 Annually (Actual) | Receptionist and Faculty Support Assistant
-employer: Holmer Green Senior School
-closing_date: 2026-09-04T09:00:00+01:00
-reason: Clear admin/service title: receptionist
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: bbde664a6775f872bae59e72c87edddbaa522405e3cf4b2363b82eececc74e33
-source: Teaching Vacancies
-source_job_id: receptionist-and-faculty-support-assistant
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-and-faculty-support-assistant
----
-
 ## POSS — choose SELECT or EXCLUDE
+
+---
+action: 
+POSS | Buckinghamshire | Milton Keynes, South East, MK10 7HE | £25,988.00 - £27,254.00 Annually (FTE) | Administrator
+employer: Brooklands Academy
+closing_date: 2026-09-11T12:00:00+01:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 299bea4d4b95c990a7df49a02b373d0d69827baac2e1eaab2bc8494c8721d0af
+source: Teaching Vacancies
+source_job_id: administrator-brooklands-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-brooklands-academy
+---
 
 ---
 action: 
@@ -164,6 +134,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-
 
 ## HARD_PASS
 
+- [Exams and Data Team Leader](https://teaching-vacancies.service.gov.uk/jobs/exams-and-data-team-leader) — Insufficient admin/service evidence.
 - [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-5-dimensions-trust) — Manager title salary ceiling £39,862 is not below £28,000.
 - [HR & Training Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-training-officer) — Insufficient admin/service evidence.
 - [Lettings & Community Officer](https://teaching-vacancies.service.gov.uk/jobs/lettings-community-officer-5-dimensions-trust-milton-keynes-not-recorded) — Insufficient admin/service evidence.

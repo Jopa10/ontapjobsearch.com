@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Essex
 
-review_date: 2026-09-03
-review_fingerprint: 8ade49d11eddd998b9e985880bb4fbfe4760705424ad203bc66f8819b05e85cc
-routing_manifest_sha256: a0efbb5ba12fcb4fb47f18be53367aa23ab13a40edcd3794d25c9c2fad579f57
+review_date: 2026-09-04
+review_fingerprint: 7ccc783d1a3add525fd71d8c254d235cd00e0851d62074e4cd50f44d1d268e18
+routing_manifest_sha256: e64214c9afd89b7217da910a14d3eadaab33a7e91faaf564fff5dbf2a9b00415
 ontap_region: Essex
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 7
-- Selected: 3
+- Records: 6
+- Selected: 2
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 4
 
 ## SELECTED
-
----
-action: 
-SELECTED | Essex | Chelmsford, CM1 2QE | Scale 3 Points 6 - 7 | Admin Assistant
-employer: The Chelmsford Learning Partnership
-closing_date: 2026-09-04T12:00:00+01:00
-reason: Clear admin/service title: admin assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: e2fd13f193c2632e60d7dea3cbb9267a8f915863900b89e812b4d733aec9d23b
-source: Teaching Vacancies
-source_job_id: admin-assistant-the-chelmsford-learning-partnership
-source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-the-chelmsford-learning-partnership
----
 
 ---
 action: 

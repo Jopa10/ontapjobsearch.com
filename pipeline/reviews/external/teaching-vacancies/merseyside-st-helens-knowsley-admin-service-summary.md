@@ -1,11 +1,11 @@
-# Teaching Vacancies regional review — Greater Manchester - Wigan & Bolton
+# Teaching Vacancies regional review — Merseyside - St Helens & Knowsley
 
 review_date: 2026-09-04
 review_fingerprint: 4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945
 routing_manifest_sha256: e64214c9afd89b7217da910a14d3eadaab33a7e91faaf564fff5dbf2a9b00415
-ontap_region: Greater Manchester - Wigan & Bolton
+ontap_region: Merseyside - St Helens & Knowsley
 slice_category: admin_service
-slice_status: LIVE
+slice_status: UNREGISTERED
 
 Edit only the `action:` line in each editable block.
 Blank POSS decisions remain unpublished.
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 2
+- Records: 1
 - Selected: 0
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 2
+- Hard pass: 1
 
 ## SELECTED
 
@@ -33,8 +33,7 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## HARD_PASS
 
-- [Exams & Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/exams-administration-officer) — Insufficient admin/service evidence.
-- [MIS Systems & Operational Data Manager](https://teaching-vacancies.service.gov.uk/jobs/mis-systems-operational-data-manager) — Manager title salary ceiling £34,678 is not below £28,000.
+- [HR Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-rainhill-high-school) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cheshire - Warrington & Halton
 
-review_date: 2026-09-03
+review_date: 2026-09-04
 review_fingerprint: 4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945
-routing_manifest_sha256: a0efbb5ba12fcb4fb47f18be53367aa23ab13a40edcd3794d25c9c2fad579f57
+routing_manifest_sha256: e64214c9afd89b7217da910a14d3eadaab33a7e91faaf564fff5dbf2a9b00415
 ontap_region: Cheshire - Warrington & Halton
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 2
+- Records: 1
 - Selected: 0
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 2
+- Hard pass: 1
 
 ## SELECTED
 
@@ -34,7 +34,6 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## HARD_PASS
 
 - [Chief Financial Officer](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-the-great-schools-trust) — Insufficient admin/service evidence.
-- [Trust HR Assistant](https://teaching-vacancies.service.gov.uk/jobs/trust-hr-assistant-the-heath-family-north-west) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

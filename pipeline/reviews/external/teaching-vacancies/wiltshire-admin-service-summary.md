@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Wiltshire
 
-review_date: 2026-09-03
+review_date: 2026-09-04
 review_fingerprint: 77706c22818c4145b832b5870953d0e04c83297c45beb19eaf757b1896b83cf0
-routing_manifest_sha256: a0efbb5ba12fcb4fb47f18be53367aa23ab13a40edcd3794d25c9c2fad579f57
+routing_manifest_sha256: e64214c9afd89b7217da910a14d3eadaab33a7e91faaf564fff5dbf2a9b00415
 ontap_region: Wiltshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 9
+- Records: 8
 - Selected: 1
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 7
+- Hard pass: 6
 
 ## SELECTED
 
@@ -59,12 +59,11 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-officer-send-an
 
 ## HARD_PASS
 
-- [Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-st-nicholas-church-of-england-primary-school-bromham) — Insufficient admin/service evidence.
 - [Exams & Admin Officer](https://teaching-vacancies.service.gov.uk/jobs/exams-admin-officer) — Insufficient admin/service evidence.
-- [Field HR Professional](https://teaching-vacancies.service.gov.uk/jobs/field-hr-professional) — Insufficient admin/service evidence.
 - [Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-great-western-academy-swindon) — Insufficient admin/service evidence.
 - [Head of Finance](https://teaching-vacancies.service.gov.uk/jobs/head-of-finance-magna-learning-partnership) — Insufficient admin/service evidence.
-- [Recruitment Lead](https://teaching-vacancies.service.gov.uk/jobs/recruitment-lead-the-white-horse-federation) — Insufficient admin/service evidence.
+- [HR Generalist](https://teaching-vacancies.service.gov.uk/jobs/hr-generalist) — Insufficient admin/service evidence.
+- [Recruitment Lead](https://teaching-vacancies.service.gov.uk/jobs/recruitment-lead-the-white-horse-federation-swindon-not-recorded) — Insufficient admin/service evidence.
 - [Senior HR Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-hr-officer-ascend-learning-trust) — Insufficient admin/service evidence.
 
 ## Safety boundary

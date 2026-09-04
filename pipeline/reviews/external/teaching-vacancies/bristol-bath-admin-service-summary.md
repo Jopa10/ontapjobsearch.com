@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Bristol & Bath
 
-review_date: 2026-09-03
+review_date: 2026-09-04
 review_fingerprint: ba872ad7b19666c82d0cb91b3c5aead939b97af6b6db6237f96b204406737e9c
-routing_manifest_sha256: a0efbb5ba12fcb4fb47f18be53367aa23ab13a40edcd3794d25c9c2fad579f57
+routing_manifest_sha256: e64214c9afd89b7217da910a14d3eadaab33a7e91faaf564fff5dbf2a9b00415
 ontap_region: Bristol & Bath
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 3
+- Records: 4
 - Selected: 1
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 2
+- Hard pass: 3
 
 ## SELECTED
 
@@ -47,6 +47,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 ## HARD_PASS
 
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-whitchurch-primary-school) — Manager title without salary evidence below £28,000.
+- [School Office Manager](https://teaching-vacancies.service.gov.uk/jobs/school-office-manager-st-mary-s-cofe-primary-school) — Manager title salary ceiling £29,728 is not below £28,000.
 - [Senior Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-finance-officer-chipping-sodbury-school) — Insufficient admin/service evidence.
 
 ## Safety boundary

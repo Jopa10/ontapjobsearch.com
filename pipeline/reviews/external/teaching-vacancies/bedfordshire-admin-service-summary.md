@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Bedfordshire
 
-review_date: 2026-09-03
-review_fingerprint: 2452d994cfb9a86d41d9bb7c7ac68f5e257de8ebed4e41be456b5daf761be431
-routing_manifest_sha256: a0efbb5ba12fcb4fb47f18be53367aa23ab13a40edcd3794d25c9c2fad579f57
+review_date: 2026-09-04
+review_fingerprint: d38cf895e503037f447ca61641f533d0f314d84e58b8436e6e402009c6111b35
+routing_manifest_sha256: e64214c9afd89b7217da910a14d3eadaab33a7e91faaf564fff5dbf2a9b00415
 ontap_region: Bedfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 8
-- Selected: 3
+- Records: 7
+- Selected: 2
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 4
@@ -34,21 +34,6 @@ factual_fingerprint: e1bb6ab1271b728a537c3bd419112165cfe8d20d8674fc7a512e71a6e2e
 source: Teaching Vacancies
 source_job_id: administrative-assistant-39c3ce62-ad82-43cf-a920-db593d957c9a
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-39c3ce62-ad82-43cf-a920-db593d957c9a
----
-
----
-action: 
-SELECTED | Bedfordshire | Luton, LU3 3QN | £16,006.00 - £17,349.00 Annually (Actual) L4 pts 9 - 14 pro rata'd | HR Administrator
-employer: Chiltern Learning Trust
-closing_date: 2026-09-04T09:00:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 85f0264700aecd0c51b3098c63a44b54cada2a60ead2b7a68f239186eb418b7d
-source: Teaching Vacancies
-source_job_id: hr-administrator-86d9fe65-1a75-4481-9155-0c7b4d9c9eb0
-source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-86d9fe65-1a75-4481-9155-0c7b4d9c9eb0
 ---
 
 ---

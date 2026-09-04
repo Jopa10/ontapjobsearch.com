@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Berkshire
 
-review_date: 2026-09-03
+review_date: 2026-09-04
 review_fingerprint: 4c882f28c92491a604e6f662d3f69afe1c91a33b2a1b07185d088548502c138a
-routing_manifest_sha256: a0efbb5ba12fcb4fb47f18be53367aa23ab13a40edcd3794d25c9c2fad579f57
+routing_manifest_sha256: e64214c9afd89b7217da910a14d3eadaab33a7e91faaf564fff5dbf2a9b00415
 ontap_region: Berkshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 17
+- Records: 18
 - Selected: 5
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 11
+- Hard pass: 12
 
 ## SELECTED
 
@@ -124,10 +124,11 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/trust-governance-prof
 - [Finance Officer - Addington School](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-addington-school) — Insufficient admin/service evidence.
 - [HR & Recruitment Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-recruitment-officer-the-park-federation-academy-trust) — Insufficient admin/service evidence.
 - [Lettings Assistant](https://teaching-vacancies.service.gov.uk/jobs/lettings-assistant-reading-school) — Insufficient admin/service evidence.
-- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-king-s-academy-meadow-vale) — Manager title salary ceiling £36,363 is not below £28,000.
+- [Office Manager - Southcote Primary School](https://teaching-vacancies.service.gov.uk/jobs/office-manager-southcote-primary-school-southcote-primary-school-reading-berkshire) — Manager title salary ceiling £35,521 is not below £28,000.
 - [Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/operations-manager-reading-school) — Manager title salary ceiling £44,075 is not below £28,000.
 - [Payroll Officer](https://teaching-vacancies.service.gov.uk/jobs/payroll-officer-the-park-federation-academy-trust-slough-not-recorded) — Insufficient admin/service evidence.
 - [PFM Compliance and Site Officer](https://teaching-vacancies.service.gov.uk/jobs/pfm-compliance-and-site-officer-beechwood-school-slough-berkshire) — Insufficient admin/service evidence.
+- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-datchet-st-mary-s-cofe-primary-school) — Manager title salary ceiling £46,979 is not below £28,000.
 - [SEND Administration Officer - The Wren School](https://teaching-vacancies.service.gov.uk/jobs/send-administration-officer-the-wren-school) — Missing salary or pay scale.
 - [Senior Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-finance-officer-the-thames-learning-trust) — Insufficient admin/service evidence.
 

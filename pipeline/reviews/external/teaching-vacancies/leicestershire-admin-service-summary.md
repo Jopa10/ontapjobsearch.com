@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Leicestershire
 
-review_date: 2026-09-03
-review_fingerprint: b63fa6bd95c2ac8ee3d76f3d27f51a042ac082f29009728e66721c6d5901060a
-routing_manifest_sha256: a0efbb5ba12fcb4fb47f18be53367aa23ab13a40edcd3794d25c9c2fad579f57
+review_date: 2026-09-04
+review_fingerprint: 11cca4f7a2cecf862becd67dc2f73b1bfd0fb921959be78305825a5477a66205
+routing_manifest_sha256: e64214c9afd89b7217da910a14d3eadaab33a7e91faaf564fff5dbf2a9b00415
 ontap_region: Leicestershire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 8
+- Records: 7
 - Selected: 3
-- POSS awaiting decision: 1
+- POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 4
 
@@ -68,20 +68,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-sherrier
 
 ## POSS — choose SELECT or EXCLUDE
 
----
-action: 
-POSS | Leicestershire | Wigston, East Midlands, LE18 1HG | Grade 6 | Administrative Officer
-employer: Water Leys Primary School
-closing_date: 2026-09-04T09:00:00+01:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: ed819a3dc6cdd5e17abbcbb9f1f2d714518601f944ce81f20855d92dc143b4be
-source: Teaching Vacancies
-source_job_id: administrative-officer-water-leys-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-officer-water-leys-primary-school
----
+- None.
 
 ## EXCLUDED BY REVIEW
 

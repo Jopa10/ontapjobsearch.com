@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - West
 
-review_date: 2026-09-03
+review_date: 2026-09-04
 review_fingerprint: 78dde8c0dbbdde83b5070ffa8fd5f94719bf2a92d4aada826c6246452b13a9ce
-routing_manifest_sha256: a0efbb5ba12fcb4fb47f18be53367aa23ab13a40edcd3794d25c9c2fad579f57
+routing_manifest_sha256: e64214c9afd89b7217da910a14d3eadaab33a7e91faaf564fff5dbf2a9b00415
 ontap_region: Yorkshire - West
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 19
+- Records: 18
 - Selected: 5
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 14
+- Hard pass: 13
 
 ## SELECTED
 
@@ -109,7 +109,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-
 - [Data and Exams Manager](https://teaching-vacancies.service.gov.uk/jobs/data-and-exams-manager-dixons-city-academy) — Manager title salary ceiling £34,744 is not below £28,000.
 - [Data, Assessment, and MIS Officer](https://teaching-vacancies.service.gov.uk/jobs/data-assessment-and-mis-officer-crofton-academy) — Insufficient admin/service evidence.
 - [Exam Invigilator](https://teaching-vacancies.service.gov.uk/jobs/exam-invigilator-leeds-city-academy-leeds-west-yorkshire) — Insufficient admin/service evidence.
-- [Exams and Admissions Manager](https://teaching-vacancies.service.gov.uk/jobs/exams-and-admissions-manager-leeds-city-academy-leeds-west-yorkshire) — Manager title salary ceiling £35,558 is not below £28,000.
 - [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-outwood-grange-academies-trust) — Manager title salary ceiling £53,881 is not below £28,000.
 - [Finance Manager (Core Team)](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-core-team) — Manager title salary ceiling £49,282 is not below £28,000.
 - [Human Resources Business Partner (Central HR Team)](https://teaching-vacancies.service.gov.uk/jobs/human-resources-business-partner-central-hr-team-the-gorse-academies-trust-leeds-not-recorded) — Insufficient admin/service evidence.

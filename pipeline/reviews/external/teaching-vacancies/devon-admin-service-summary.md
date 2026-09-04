@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Devon
 
-review_date: 2026-09-03
-review_fingerprint: 2f5e136ee9e1b664133b85fafc14d94f58d36caea53c65d0eca67200d269b6df
-routing_manifest_sha256: a0efbb5ba12fcb4fb47f18be53367aa23ab13a40edcd3794d25c9c2fad579f57
+review_date: 2026-09-04
+review_fingerprint: 15af014b604edc243f6d9aeeca2e90abf32e0a4f14bbf82855bc19ed5aa5b6f2
+routing_manifest_sha256: e64214c9afd89b7217da910a14d3eadaab33a7e91faaf564fff5dbf2a9b00415
 ontap_region: Devon
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 9
+- Records: 10
 - Selected: 2
-- POSS awaiting decision: 2
+- POSS awaiting decision: 3
 - Excluded: 0
 - Hard pass: 5
 
@@ -38,20 +38,35 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assist
 
 ---
 action: 
-SELECTED | Devon | Okehampton, South West, EX20 1PW | £23,560.00 - £25,119.00 Annually (Actual) NJC Grade D. Range 8 to 12 | Attendance Officer
-employer: Okehampton College
-closing_date: 2026-09-09T12:00:00+01:00
-reason: Clear admin/service title: attendance officer
+SELECTED | Devon | Plymouth, PL4 8QZ | £26,824.00 - £29,540.00 Annually (FTE) | Estates Administrator
+employer: Learning Academies Trust
+closing_date: 2026-09-28T09:00:00+01:00
+reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 1d1911698055c7b815976a7bcebfacce22076b5e63e0d1a6aa4fc8fadd94b9aa
+factual_fingerprint: a0e1df8f9b1b0e778378253a0ca85d8a9577eeced2e3670dae0861dce245ebf5
 source: Teaching Vacancies
-source_job_id: attendance-officer-okehampton-college-okehampton-devon
-source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-okehampton-college-okehampton-devon
+source_job_id: estates-administrator-learning-academies-trust
+source_url: https://teaching-vacancies.service.gov.uk/jobs/estates-administrator-learning-academies-trust
 ---
 
 ## POSS — choose SELECT or EXCLUDE
+
+---
+action: 
+POSS | Devon | Torquay, South West, TQ2 7EL | £27254 (actual salary £9340) | Reception and Administration Assistant
+employer: Torquay Boys' Grammar School
+closing_date: 2026-09-28T12:00:00+01:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 4cc27fee84565a5d0435d0a02d6c1a76a2419535afaca6824797e2ee0d0d2ec4
+source: Teaching Vacancies
+source_job_id: reception-and-administration-assistant-a596734b-acdb-41f5-8c0c-60b9d0a47e07
+source_url: https://teaching-vacancies.service.gov.uk/jobs/reception-and-administration-assistant-a596734b-acdb-41f5-8c0c-60b9d0a47e07
+---
 
 ---
 action: 

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Greater Manchester - North
 
-review_date: 2026-09-03
-review_fingerprint: cf6e869445e55d78b550198621139c03425a71db92c46d998022c53a2835d9be
-routing_manifest_sha256: a0efbb5ba12fcb4fb47f18be53367aa23ab13a40edcd3794d25c9c2fad579f57
+review_date: 2026-09-04
+review_fingerprint: b802cd7bce11b98e2696c52dfb9776ed361b266413db0c45dd1cfe883856e660
+routing_manifest_sha256: e64214c9afd89b7217da910a14d3eadaab33a7e91faaf564fff5dbf2a9b00415
 ontap_region: Greater Manchester - North
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 4
+- Records: 5
 - Selected: 1
-- POSS awaiting decision: 0
+- POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 3
 
@@ -38,7 +38,20 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-offi
 
 ## POSS — choose SELECT or EXCLUDE
 
-- None.
+---
+action: 
+POSS | Greater Manchester - North | Oldham, North West, OL8 3EP | £29,542.00 - £32,046.00 Annually (FTE) Points 12 - 17 of the School Support Staff pay spine, currently £29,542 to £32,046 per annum (actual term time salary £26,372 - £28,607 per annum) | Administrative Support Officer
+employer: The Hathershaw College
+closing_date: 2026-09-21T09:00:00+01:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: UNREGISTERED
+migration_status: 
+factual_fingerprint: 73f20b03bcc68f0d4fa62e3d8b5671bcdce3171fd4007907557f4763ae881fbc
+source: Teaching Vacancies
+source_job_id: administrative-support-officer-the-hathershaw-college
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-support-officer-the-hathershaw-college
+---
 
 ## EXCLUDED BY REVIEW
 
@@ -46,8 +59,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-offi
 
 ## HARD_PASS
 
-- [Accounts Payable Officer](https://teaching-vacancies.service.gov.uk/jobs/accounts-payable-officer) — Insufficient admin/service evidence.
 - [Attendance Support Officer](https://teaching-vacancies.service.gov.uk/jobs/attendance-support-officer-st-gabriel-s-rc-high-school-a-voluntary-academy) — Insufficient admin/service evidence.
+- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-the-hathershaw-college) — Manager title salary ceiling £44,253 is not below £28,000.
 - [Senior Human Resources Advisor](https://teaching-vacancies.service.gov.uk/jobs/senior-human-resources-advisor-kingfisher-learning-trust) — Insufficient admin/service evidence.
 
 ## Safety boundary

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Greater Manchester - Manchester & Salford
 
-review_date: 2026-09-03
+review_date: 2026-09-04
 review_fingerprint: 30e8e074459d066eb9c9b3c3f1decb9338e7a568ec506bc6631661ebcfd8211b
-routing_manifest_sha256: a0efbb5ba12fcb4fb47f18be53367aa23ab13a40edcd3794d25c9c2fad579f57
+routing_manifest_sha256: e64214c9afd89b7217da910a14d3eadaab33a7e91faaf564fff5dbf2a9b00415
 ontap_region: Greater Manchester - Manchester & Salford
 slice_category: admin_service
 slice_status: LIVE
@@ -92,7 +92,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/pastoral-administrato
 ## HARD_PASS
 
 - [Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-bright-futures-educational-trust-manchester-not-recorded) — Insufficient admin/service evidence.
-- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-72bddd8a-83f1-4c6f-9647-2deb1fc1e032) — Manager title salary ceiling £44,075 is not below £28,000.
+- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-7986b875-3afd-40fe-a6d9-35bfdfc945f0) — Manager title salary ceiling £44,075 is not below £28,000.
 
 ## Safety boundary
 

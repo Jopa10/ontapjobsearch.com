@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Lincolnshire
 
-review_date: 2026-09-03
-review_fingerprint: c66c5144317b21eb16a392fffab90b6c082256d540d928512296f4549a42ade2
-routing_manifest_sha256: a0efbb5ba12fcb4fb47f18be53367aa23ab13a40edcd3794d25c9c2fad579f57
+review_date: 2026-09-04
+review_fingerprint: 1fc2e6dc510691ac166f335c038ecc8fd68c13ad40cee231e3bbb946904af445
+routing_manifest_sha256: e64214c9afd89b7217da910a14d3eadaab33a7e91faaf564fff5dbf2a9b00415
 ontap_region: Lincolnshire
 slice_category: admin_service
 slice_status: LIVE
@@ -14,8 +14,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 12
-- Selected: 3
-- POSS awaiting decision: 4
+- Selected: 5
+- POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 5
 
@@ -34,6 +34,36 @@ factual_fingerprint: 9a9c646b13ddf6ac455156904f9f5bd223fd3eb3ffac61a7ad4c6dab887
 source: Teaching Vacancies
 source_job_id: assistant-administrator-bc00604f-24a2-4741-bbd7-1135c9c18070
 source_url: https://teaching-vacancies.service.gov.uk/jobs/assistant-administrator-bc00604f-24a2-4741-bbd7-1135c9c18070
+---
+
+---
+action: 
+SELECTED | Lincolnshire | Boston, East Midlands, PE20 1JS | £30,023.00 - £30,023.00 Annually (FTE) NJC13 £30,023 FTE (£26,371.55 pro rata) | Data & Exams Officer
+employer: Thomas Middlecott Academy
+closing_date: 2026-10-07T23:59:00+01:00
+reason: Clear admin/service title: exams officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 25b7d646b0e428bd399657677446b620888dafaadd0f37c6bc39b2fa7a256699
+source: Teaching Vacancies
+source_job_id: data-exams-officer-thomas-middlecott-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/data-exams-officer-thomas-middlecott-academy
+---
+
+---
+action: 
+SELECTED | Lincolnshire | Spalding, East Midlands, PE11 2EH | £23,973.00 - £26,409.00 Annually (Actual) G5.12-15 £27,254 - £30,024 FTE | HR Administrator
+employer: Tulip Academy
+closing_date: 2026-09-07T23:59:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 02e994d324dc6cad84715c483552b2fada9a74488d2225b2bbf8628080feb572
+source: Teaching Vacancies
+source_job_id: hr-administrator-tulip-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-tulip-academy
 ---
 
 ---
@@ -70,21 +100,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-admin-of
 
 ---
 action: 
-POSS | Lincolnshire | Grimsby, Yorkshire and the Humber, DN34 5AH | £26,060.00 - £28,284.00 Annually (Actual) | Data Officer
-employer: Ormiston Maritime Academy
-closing_date: 2026-09-13T08:00:00+01:00
-reason: Borderline school administration title: data officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: febc3933d2c2fb318ae06752e6530c1c9b34dd07adb878a2217063f5307d720e
-source: Teaching Vacancies
-source_job_id: data-officer-ormiston-maritime-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/data-officer-ormiston-maritime-academy
----
-
----
-action: 
 POSS | Lincolnshire | Lincoln, East Midlands, LN6 7SX | £14,432.00 - £16,317.00 Annually (Actual) Band 4, SCP 11 - 17 | Data Officer
 employer: St Peter and St Paul, Catholic Voluntary Academy
 closing_date: 2026-09-07T23:59:00+01:00
@@ -96,21 +111,6 @@ factual_fingerprint: dca197f864df2ba40b1537d3caf44a0a3a47a49f4643001faac65ea9c32
 source: Teaching Vacancies
 source_job_id: data-officer-st-peter-and-st-paul-catholic-voluntary-academy-lincoln-lincolnshire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/data-officer-st-peter-and-st-paul-catholic-voluntary-academy-lincoln-lincolnshire
----
-
----
-action: 
-POSS | Lincolnshire | Spalding, East Midlands, PE11 2EH | £23,973.00 - £26,409.00 Annually (Actual) G5.12-15 £27,254 - £30,024 FTE | HR Administrator
-employer: Tulip Academy
-closing_date: 2026-09-07T23:59:00+01:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 02e994d324dc6cad84715c483552b2fada9a74488d2225b2bbf8628080feb572
-source: Teaching Vacancies
-source_job_id: hr-administrator-tulip-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-tulip-academy
 ---
 
 ---

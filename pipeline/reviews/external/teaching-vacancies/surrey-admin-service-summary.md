@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Surrey
 
-review_date: 2026-09-03
+review_date: 2026-09-04
 review_fingerprint: 6e791ac7d9211d2273a6bc7212b1b4ce4750f7807b05470a208f57dc5daadffe
-routing_manifest_sha256: a0efbb5ba12fcb4fb47f18be53367aa23ab13a40edcd3794d25c9c2fad579f57
+routing_manifest_sha256: e64214c9afd89b7217da910a14d3eadaab33a7e91faaf564fff5dbf2a9b00415
 ontap_region: Surrey
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 3
+- Records: 4
 - Selected: 3
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 0
+- Hard pass: 1
 
 ## SELECTED
 
@@ -76,7 +76,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-admin-assistant-ho
 
 ## HARD_PASS
 
-- None.
+- [Regional Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/regional-finance-manager-6115d723-d9e6-4abb-9837-bae40f36fdb8) — Manager title salary ceiling £28,167 is not below £28,000.
 
 ## Safety boundary
 

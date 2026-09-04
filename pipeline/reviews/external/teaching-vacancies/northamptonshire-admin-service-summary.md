@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Northamptonshire
 
-review_date: 2026-09-03
-review_fingerprint: cac6a726169e67f4ee6c5843e33ce3dde1ccaeae260ddd208856132d747a452f
-routing_manifest_sha256: a0efbb5ba12fcb4fb47f18be53367aa23ab13a40edcd3794d25c9c2fad579f57
+review_date: 2026-09-04
+review_fingerprint: fb3f2fd3362bba20618c515a3b7d0a60950db79f2416bdc51cfea7551ad9911d
+routing_manifest_sha256: e64214c9afd89b7217da910a14d3eadaab33a7e91faaf564fff5dbf2a9b00415
 ontap_region: Northamptonshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 5
+- Records: 6
 - Selected: 3
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 2
+- Hard pass: 3
 
 ## SELECTED
 
@@ -53,17 +53,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assist
 
 ---
 action: 
-SELECTED | Northamptonshire | Corby, East Midlands, NN17 2BP | £25,583.00 - £25,989.00 Annually (FTE) salary grade - GAT 4, hours per week - 31, weeks per year - 39 | Attendance Officer
-employer: Studfall Infant Academy
-closing_date: 2026-09-04T23:59:00+01:00
-reason: Clear admin/service title: attendance officer
+SELECTED | Northamptonshire | Wellingborough, East Midlands, NN9 6NB | £25,989.00 - £26,403.00 Annually (FTE) | Administrator
+employer: Raunds Park Infant School
+closing_date: 2026-09-16T23:59:00+01:00
+reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: c0bebdbecc75f67eead992acddb4bef3f818090c26a3a43fc6b8a897324bf396
+factual_fingerprint: 7250e9f6d2f5f1a299ddd10334a09ecddf98b985d5589cdfcda11109e3587328
 source: Teaching Vacancies
-source_job_id: attendance-officer-studfall-infant-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-studfall-infant-academy
+source_job_id: administrator-raunds-park-infant-school-wellingborough-northamptonshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-raunds-park-infant-school-wellingborough-northamptonshire
 ---
 
 ## POSS — choose SELECT or EXCLUDE
@@ -77,6 +77,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-st
 ## HARD_PASS
 
 - [Exams Office Manager](https://teaching-vacancies.service.gov.uk/jobs/exams-office-manager) — Manager title salary ceiling £33,699 is not below £28,000.
+- [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-bishop-stopford-school) — Manager title salary ceiling £46,142 is not below £28,000.
 - [St James Infant and Pre School Business Partner](https://teaching-vacancies.service.gov.uk/jobs/st-james-infant-and-pre-school-business-partner-inmat) — Insufficient admin/service evidence.
 
 ## Safety boundary

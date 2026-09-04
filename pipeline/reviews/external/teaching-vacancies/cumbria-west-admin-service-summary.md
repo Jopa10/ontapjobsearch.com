@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cumbria - West
 
-review_date: 2026-09-03
-review_fingerprint: 79b94c81de947c877bf1d44e3b6f88a0869ecafbb74aa0ce4678e257ef8b38ae
-routing_manifest_sha256: a0efbb5ba12fcb4fb47f18be53367aa23ab13a40edcd3794d25c9c2fad579f57
+review_date: 2026-09-04
+review_fingerprint: 4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945
+routing_manifest_sha256: e64214c9afd89b7217da910a14d3eadaab33a7e91faaf564fff5dbf2a9b00415
 ontap_region: Cumbria - West
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 2
+- Records: 1
 - Selected: 0
-- POSS awaiting decision: 1
+- POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 1
 
@@ -25,20 +25,7 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## POSS — choose SELECT or EXCLUDE
 
----
-action: 
-POSS | Cumbria - West | Workington, North West, CA14 3EE | £32,061.00 - £32,597.00 Annually (FTE) Pro rata salary for term time plus working [Pay Award pending] | Executive Assistant & SLT Operations Officer
-employer: St Josephs Catholic High School, Workington
-closing_date: 2026-09-03T23:59:00+01:00
-reason: Borderline school administration title: operations officer
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: 8b31d86abd520d9aac65c57da29910558e46f3420618d78d28a9c42bd091c22f
-source: Teaching Vacancies
-source_job_id: executive-assistant-slt-operations-officer
-source_url: https://teaching-vacancies.service.gov.uk/jobs/executive-assistant-slt-operations-officer
----
+- None.
 
 ## EXCLUDED BY REVIEW
 

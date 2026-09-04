@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cambridgeshire
 
-review_date: 2026-09-03
-review_fingerprint: 75b3e6614dad88d1a98e38cefb2df4742a24e412d00dd398a1fc1e341f1bea16
-routing_manifest_sha256: a0efbb5ba12fcb4fb47f18be53367aa23ab13a40edcd3794d25c9c2fad579f57
+review_date: 2026-09-04
+review_fingerprint: 236cb8e069e59ffd9ee8d07dee7ed13aae0522475816d32f49cc81f3f1b98e05
+routing_manifest_sha256: e64214c9afd89b7217da910a14d3eadaab33a7e91faaf564fff5dbf2a9b00415
 ontap_region: Cambridgeshire
 slice_category: admin_service
 slice_status: LIVE
@@ -14,8 +14,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 21
-- Selected: 8
-- POSS awaiting decision: 1
+- Selected: 7
+- POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 12
 
@@ -53,21 +53,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-student
 
 ---
 action: 
-SELECTED | Cambridgeshire | Huntingdon, East of England, PE29 7DD | £25,583.00 - £25,989.00 Annually (FTE) NJC Scale 3, Points 5 to 6. Actual salary £ 21,942.34 per annum on point 5. | Attendance Administrator
-employer: St Peter's School
-closing_date: 2026-09-04T09:00:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: ea803d181c7f1651aec8c46862b758e363e9c4d93d198629c0ab3b5976f0ff2f
-source: Teaching Vacancies
-source_job_id: attendance-administrator-d9c8d521-d886-4881-ad29-ebd6ebb9ffa5
-source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-administrator-d9c8d521-d886-4881-ad29-ebd6ebb9ffa5
----
-
----
-action: 
 SELECTED | Cambridgeshire | Peterborough, East of England, PE4 6HX | £21,567 - £22,970 per annum (FTE £25,185 - £26,824) | Data Administrator
 employer: Queen Katharine Academy
 closing_date: 2026-09-07T09:00:00+01:00
@@ -98,21 +83,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-admin-assista
 
 ---
 action: 
-SELECTED | Cambridgeshire | Huntingdon, East of England, PE29 7DD | £25,583.00 - £25,989.00 Annually (FTE) NJC Scale 3, Points 5 to 6 . Actual salary £22,439.24 per annum on point 5. | Office Administrator
-employer: St Peter's School
-closing_date: 2026-09-04T09:00:00+01:00
-reason: Clear admin/service title: administrator, office administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 1ffb58e813126b3fa95fd17df39dc7ef17bd2b1172cd96edf335fa2816a41bf3
-source: Teaching Vacancies
-source_job_id: office-administrator-st-peter-s-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-st-peter-s-school
----
-
----
-action: 
 SELECTED | Cambridgeshire | Cambridge, East of England, CB25 0LG | Point 3 (£24,796 FTE) | Office Administrator
 employer: Swaffham Prior Church of England Primary School
 closing_date: 2026-09-06T23:59:00+01:00
@@ -124,6 +94,21 @@ factual_fingerprint: 4fef45ce778b91ff8920f4d6734e41dddab2f705931b109d8a889829d59
 source: Teaching Vacancies
 source_job_id: office-administrator-swaffham-prior-church-of-england-primary-school-cambridge
 source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-swaffham-prior-church-of-england-primary-school-cambridge
+---
+
+---
+action: 
+SELECTED | Cambridgeshire | Peterborough, East of England, PE4 6HX | £23,339 – £24,889 per year (FTE £27,254 - £29,064) | Pastoral Services Administrator
+employer: Queen Katharine Academy
+closing_date: 2026-09-18T09:00:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 05bfe645e044fb7eadcb717b9281ac561e7f1b70bb88c1e3788515e6d41063eb
+source: Teaching Vacancies
+source_job_id: pastoral-services-administrator-queen-katharine-academy-peterborough-cambridgeshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/pastoral-services-administrator-queen-katharine-academy-peterborough-cambridgeshire
 ---
 
 ---
@@ -142,6 +127,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-sw
 ---
 
 ## POSS — choose SELECT or EXCLUDE
+
+---
+action: 
+POSS | Cambridgeshire | Peterborough, East of England, PE6 7JX | £14,802.00 Annually (Actual) | Administrator
+employer: Arthur Mellows Village College
+closing_date: 2026-09-14T09:00:00+01:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: f1cb160ba772b2e2384e97a44e6559dcd7d92b357c813b1c62444e3355a792c4
+source: Teaching Vacancies
+source_job_id: administrator-9219e9ba-082d-4b75-91ee-2e1cd2dd8f75
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-9219e9ba-082d-4b75-91ee-2e1cd2dd8f75
+---
 
 ---
 action: 
@@ -164,11 +164,11 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/marketing-communicati
 
 ## HARD_PASS
 
-- [Data, Assessment & Cover Manager](https://teaching-vacancies.service.gov.uk/jobs/data-assessment-cover-manager) — Manager title salary ceiling £35,412 is not below £28,000.
 - [Head of HR Business Partnering](https://teaching-vacancies.service.gov.uk/jobs/head-of-hr-business-partnering) — Insufficient admin/service evidence.
 - [Head of HR Operations](https://teaching-vacancies.service.gov.uk/jobs/head-of-hr-operations-meridian-trust) — Insufficient admin/service evidence.
 - [Head of HR Operations](https://teaching-vacancies.service.gov.uk/jobs/head-of-hr-operations-united-learning-trust) — Insufficient admin/service evidence.
 - [HR Adviser (Field based)](https://teaching-vacancies.service.gov.uk/jobs/hr-adviser-field-based) — Insufficient admin/service evidence.
+- [HR Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-b7cc2a7e-7614-47f6-82b4-5ec3bff78735) — Insufficient admin/service evidence.
 - [MAT Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/mat-finance-officer-four-cs-mat) — Insufficient admin/service evidence.
 - [Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-0ac27fb8-22a7-4d23-9c79-0a117c28f623) — Insufficient admin/service evidence.
 - [Senior HR Adviser (Field based Cambridge and Ely area primarily)](https://teaching-vacancies.service.gov.uk/jobs/senior-hr-adviser-field-based-cambridge-and-ely-area-primarily) — Insufficient admin/service evidence.
