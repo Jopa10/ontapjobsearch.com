@@ -246,31 +246,6 @@
     "posted_date_basis": "ontap_first_published"
   },
   {
-    "job_id": "23643_225463613",
-    "title": "Service Administrator",
-    "company": "Centre 33 - Agency - Permanent",
-    "location": "Cambridge",
-    "region": "Cambridgeshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "25500",
-    "salary_max": "28000",
-    "salary_text": "£25500 - £28000 per year",
-    "posted_date": "2026-08-12",
-    "description": "Service Administrator\n\nPart-time position: 3 full days per week (Monday Wednesday).\n\nThere will be some occasional Saturday mornings. Part-time roles are 21 hours per week across 3 days working 9:30am 5:30pm with a 1-hour unpaid lunch break.\n\nSalary: £25,500 £28,000 pro rata\n\nDuration: Permanent\n\nLocation: Cambridge\n\nClosing Date: 3rd of September\n\nInterviews to be held 10th of September\n\nAn exciting new opportunity has arisen for a Service Administrator to work within the Someone to Talk to Service Delivery team. Centre 33 is a well-respected charity based in five Hubs in Cambridgeshire and Peterborough and is well known for providing support to young people.\n\nYou will provide a provision of full administration support to the Someone to Talk to service, including but not limited to handling incoming communication and enquiries from service users and external agencies via our frontline telephone, email, WhatsApp and text streams, providing admin support during our drop-in services, as well as supporting referrals, bookings and managing waiting lists for our services.\n\nThis role requires working every day from our Centre 33 Cambridge hub. There will be some travel to other hubs within Cambridgeshire for training and team development.\n\nYou will work to Centre 33 s values of being young person-led, collaborative, inclusive and striving for excellence.\n\nIf you are looking for a positive working environment and an opportunity to contribute to our important work, then we d love to hear from you.\n\nClick apply now and you'll be redirected to our careers page to complete your application.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?Dw9iAXzSqBbEVwAMqV%2fa7nppYdhu%2fSibk",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Centre 33",
-    "advertiser_type": "Agency",
-    "work_pattern": "Part Time",
-    "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
-  },
-  {
     "job_id": "23643_225513578",
     "title": "Receptionist",
     "company": "Peasgood & Skeates - Agency - Permanent",
@@ -293,7 +268,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Telephone handling",
+      "Scheduling and bookings"
+    ]
   },
   {
     "job_id": "1770672",
@@ -318,7 +297,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Telephone handling",
+      "Records administration"
+    ]
   },
   {
     "job_id": "23643_225468369",
@@ -343,7 +326,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Records administration",
+      "Document preparation"
+    ]
   },
   {
     "job_id": "23643_225478255",
@@ -368,7 +355,12 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Data entry",
+      "Filing and document handling",
+      "Order processing"
+    ]
   },
   {
     "job_id": "23643_225519683",
@@ -443,7 +435,12 @@
     "advertiser_type": "Agency",
     "work_pattern": "Part Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Customer enquiries",
+      "Quotations",
+      "Order processing"
+    ]
   },
   {
     "job_id": "107925777",

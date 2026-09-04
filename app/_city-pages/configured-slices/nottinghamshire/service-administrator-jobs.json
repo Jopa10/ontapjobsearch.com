@@ -50,7 +50,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Filing and document handling",
+      "Reporting"
+    ]
   },
   {
     "job_id": "23643_225559400",
@@ -150,7 +154,12 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Customer enquiries",
+      "Data entry",
+      "Quotations"
+    ]
   },
   {
     "job_id": "23643_225474179",
@@ -225,7 +234,11 @@
     "advertiser_type": "Company",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Visitor reception",
+      "Telephone handling"
+    ]
   },
   {
     "job_id": "1783423",
@@ -250,7 +263,12 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Scheduling and bookings",
+      "Records administration",
+      "Document preparation"
+    ]
   },
   {
     "job_id": "1782957",
@@ -400,7 +418,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Systems administration",
+      "Quotations"
+    ]
   },
   {
     "job_id": "107830819",
@@ -425,31 +447,6 @@
     "advertiser_type": "Company",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
-  },
-  {
-    "job_id": "107803492",
-    "title": "Recruitment Account Coordinator",
-    "company": "Staffline Divisions - Agency - Temporary",
-    "location": "Nottinghamshire",
-    "region": "Nottinghamshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Temporary",
-    "salary_min": "13.5",
-    "salary_max": "13.5",
-    "salary_text": "£13.5 per hour",
-    "posted_date": "2026-09-01",
-    "description": "Do you have flexibility and a positive attitude toward delivering excellent service? If so, apply today to work as a Recruitment Account Coordinator for our client, a third-party logistics provider who collaborates with well-known fashion, home, and beauty brands!\n\nStaffline is recruiting a Recruitment Account Coordinator in Ollerton, Newark click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?eq2PR%2bX5ctyB1Eze81Wz60lBtKPM5wUap",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Staffline Divisions",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Hourly",
     "posted_date_basis": "ontap_first_published"
   },
   {
@@ -500,6 +497,31 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
+    "posted_date_basis": "ontap_first_published"
+  },
+  {
+    "job_id": "107803492",
+    "title": "Recruitment Account Coordinator",
+    "company": "Staffline Divisions - Agency - Temporary",
+    "location": "Nottinghamshire",
+    "region": "Nottinghamshire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Temporary",
+    "salary_min": "13.5",
+    "salary_max": "13.5",
+    "salary_text": "£13.5 per hour",
+    "posted_date": "2026-09-01",
+    "description": "Do you have flexibility and a positive attitude toward delivering excellent service? If so, apply today to work as a Recruitment Account Coordinator for our client, a third-party logistics provider who collaborates with well-known fashion, home, and beauty brands!\n\nStaffline is recruiting a Recruitment Account Coordinator in Ollerton, Newark click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?nbYVUHO1tX4ewXZVFgSKqo4IGpSD%2by%2bsz",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Staffline Divisions",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Hourly",
     "posted_date_basis": "ontap_first_published"
   },
   {
@@ -560,6 +582,25 @@
     "posted_date_basis": "source"
   },
   {
+    "job_id": "nhs-5579271",
+    "source": "NHS Jobs",
+    "title": "GP Receptionist/Administrator",
+    "company": "St Luke’s Surgery",
+    "advertiser_name": "St Luke’s Surgery",
+    "location": "Nottingham, NG7 3GW",
+    "region": "Nottinghamshire",
+    "salary": "£12.71",
+    "employment_type": "Bank",
+    "posted_date": "2026-09-04T09:46:52.947923718",
+    "closing_date": "2026-10-02",
+    "description": "St Luke's Surgery are looking to recruit a hard working flexible new member of our team. This post is predominantly to cover sickness, however, with a view to become permanent. The post will involve day to day operational support to the reception team. Operational support to reception, and administration team. Arranging and canceling appointments, administration duties. Reception and admin duties. Including a wide and varied work schedule. Must be flexible, hard working, and eager to learn and progress.",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1908-26-0001",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1908-26-0001",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "B",
+    "posted_date_basis": "source"
+  },
+  {
     "job_id": "nhs-5564627",
     "source": "NHS Jobs",
     "title": "Practice Administrator",
@@ -574,25 +615,6 @@
     "description": "We are delighted to offer an exciting opportunity to join Belvoir Health Group as a Practice Administrator. We are looking for enthusiastic, organised and motivated administrators to join our team on a full-time or part-time basis. The successful candidates will provide essential administrative support across our practices, helping to ensure the smooth and efficient delivery of high-quality patient care. The role offers a varied range of administrative responsibilities, including processing incoming correspondence, maintaining accurate patient records, summarising medical records and accurately coding clinical information. We are looking for someone who is highly organised, self-motivated and able to work independently, with excellent attention to detail. Previous administrative experience is essential, and experience within a healthcare or primary care setting would be an advantage. In return, we offer a supportive working environment, opportunities to develop your skills and experience, and access to the NHS Pension Scheme. The Practice Administrator will provide administrative support across the practice, with responsibility for maintaining accurate and up-to-date patient records. Key responsibilities will include: Processing incoming correspondence and clinical documentation in a timely and accurate manner. Scanning, attaching and accurately coding correspondence to the correct patient record. Reviewing clinical documentation and ensuring relevant information is accurately recorded within the practice clinical system. Assigning appropriate diagnosis and procedure codes in accordance with practice procedures and coding guidance. Summarising new patient medical records to ensure key clinical information is accurately captured and readily available to clinicians. Maintaining accurate and up-to-date electronic medical records in accordance with practice standards. Identifying and appropriately processing information received from hospitals, community services and other healthcare providers. Ensuring all patient information is handled securely and confidentially in accordance with GDPR, NHS requirements and practice policies. Working collaboratively with colleagues across the practice and contributing to the effective running of the administrative team. Undertaking any other appropriate administrative duties required to support the smooth operation of the practice. Job Description - Practice Administrator Role in Practice - Maintain accurate records, file medical notes, input data, word processing and scanning documents into the computer system. Responsible to - Team Leader Summary - The post-holder will be responsible for providing effective and efficient administrative support to the Partners and other Professional staff. Responsibilities - Administration To have a thorough knowledge of all practice procedures including summarising, private work, deductions, immunisations, scanning and coding and other administrative tasks as required To work in accordance with written protocols Accurately retrieving filing of both electronic and paper notes and updating demographic information as necessary Filing post including scanning test results and clinical correspondence into in medical records Dealing with incoming post Computer Registration of new patients computer data entry and making amendments to medical records Process patients change of address and other demographic information inputting computer data and medical records, having knowledge of the practice area and data protection protocols Knowledge of Microsoft Outlook, Word and Excel messages clearly and accurately Confidentiality: In the course of seeking treatment, patients entrust us with, or allow us to gather, sensitive information in relation to their health and other matters. They do so in confidence and have the right to expect that staff will respect their privacy and act appropriately according to the Data Protection Act and other information governance guidelines and employees will receive regular training regarding this. In the performance of the duties outlined in this job description, the post-holder may have access to confidential information relating to patients and their carers, practice staff and other healthcare workers. They may also have access to information relating to the practice as a business organisation. All such information from any source is to be regarded as strictly confidential Information relating to patients, carers, colleagues, other healthcare workers or the business of the practice may only be divulged to authorised persons in accordance with the practice policies and procedures relating to confidentiality and the protection of personal and sensitive data. Other Tasks Ability to work within a team Lock up the building where required Be familiar with and adhere to Practice policies and procedures ensuring that patient confidentiality is maintained at all times Possess the ability to self-motivate, organise and prioritise own workload To participate in further professional development training courses to be discussed in consultation with line manager To undertake other responsibilities, within the scope of the grade You are requested to be flexible and the Partners reserve the right to alter such fixed hours as may be considered necessary to ensure the Practice runs smoothly.",
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0045-26-0081",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0045-26-0081",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "B",
-    "posted_date_basis": "source"
-  },
-  {
-    "job_id": "nhs-5549977",
-    "source": "NHS Jobs",
-    "title": "Part-Time Receptionist (Care Coordinator)",
-    "company": "Park House Medical Centre",
-    "advertiser_name": "Park House Medical Centre",
-    "location": "Nottingham, NG4 3DQ, Nottingham, NG14 7BG",
-    "region": "Nottinghamshire",
-    "salary": "£12.71",
-    "employment_type": "Permanent",
-    "posted_date": "2026-08-20T07:39:26.736859151",
-    "closing_date": "2026-09-06",
-    "description": "Join Our Friendly Team at Jubilee Park Medical Partnership Are you a people person with a passion for helping others? Do you thrive in a fast-paced, supportive environment? We would love to have you on board! Jubilee Park Medical Partnership is a welcoming GP practice serving 12,300 patients across two sites in Carlton and Lowdham. Were looking for an enthusiastic, flexible, and friendly team member to join our Care Coordination Team. What's in it for you: A caring, supportive, and fun team A role where no two days are the same Training to help you feel confident The chance to make a real difference Available Positions: 25 Hours/Week Monday : 8:00 AM 1:00 PM(Every 3rd week 3:00 PM 8:00 PM) Tuesday :8:00 AM 1:00 PM Wednesday : 8:00 AM 1:00 PM Thursday : 1:30 PM 6:30 PM Friday :8:00 AM 1:00 PM Some weekend work may be required across both sites. Why Join Us: Be part of a supportive and fun team Make a difference every day Comprehensive training A fulfilling and rewarding role Apply today and become part of the Jubilee Park family! Interviews will be held on Friday 29th May 2026. Join Our Front Desk Team as a Care Coordinator As the first point of contact for our patients, youll be the friendly face and reassuring voice they rely on. Youll be at the heart of our practice, ensuring everything runs smoothly by: Welcoming patients with warmth and assisting them in person or over the phone Handling reception and administrative duties with ease and professionalism Collaborating with healthcare professionals to provide seamless care Managing patient appointments and directing them to the appropriate services Offering exceptional customer service with a positive, problem-solving mindset This role is perfect for someone who loves helping others, thrives in a fast-paced environment, and enjoys being part of a dynamic team! To be responsible for undertaking a wide range of reception duties and the provision of general support to the multidisciplinary team. Duties can include but are not limited to, greeting and directing patients, effective use of the appointment system, booking appointments, processing of information and assisting patients as required. To act as the central point of contact for patients, the distribution of information, messages and enquiries for the clinical team, liaising with multidisciplinary team members and external agencies such as secondary care and community service providers. Flexibility to work across sites is essential. Please read the attached Job Description and Person Specification. Interviews will take place on Friday 11th September 2026",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0567-26-0011",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0567-26-0011",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
     "posted_date_basis": "source"

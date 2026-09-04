@@ -531,17 +531,13 @@
     "region": "Northamptonshire",
     "salary": "Negotiable",
     "employment_type": "Permanent",
-    "posted_date": "2026-08-25T12:01:47.913825576",
-    "closing_date": "2026-09-04",
+    "posted_date": "2026-08-25T12:01:47.913826",
+    "closing_date": "2026-09-11",
     "description": "Higham Ferrer's Surgery is a friendly, supportive, semi rural village practice with approximately 6,000 patients. We are currently looking to recruit a part time enthusiastic and motivated Receptionist/Admin to join our team on a part time contract, 25 hours per week. This role is a 5 hour working day, applicants must be available to work between the hours of 8am to 6:30pm, Monday to Friday. Reception Duties- Front of House. Taking Queries and answering the phones. Admin Duties- Coding, Recalling, Scanning as per the business needs Opening up/locking up of practice premises and maintaining security in accordance with practice protocols Maintaining and monitoring the practice appointments system Processing personal and telephone requests for appointments, visits and telephone consultations, and ensuring callers are directed to the appropriate healthcare professional Processing and distributing incoming (and outgoing) mail Taking messages and passing on information Filing and retrieving paperwork Processing repeat prescriptions in accordance with practice guidelines Computer data entry Ordering, re-ordering and monitoring of stationery and other supplies Summarizing patient notes",
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2448-26-0003",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2448-26-0003",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "A"
   },
   {
     "job_id": "nhs-5558575",
@@ -559,11 +555,7 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0790-26-0011",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0790-26-0011",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "A"
   },
   {
     "job_id": "nhs-5558417",
@@ -581,10 +573,6 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0790-26-0010",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0790-26-0010",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "A"
   }
 ]

@@ -540,11 +540,7 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0327-26-0430",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0327-26-0430",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "A"
   },
   {
     "job_id": "nhs-5573163",
@@ -562,11 +558,7 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5931-26-0012",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5931-26-0012",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "A"
   },
   {
     "job_id": "nhs-5543621",
@@ -584,11 +576,25 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1807-26-0005",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1807-26-0005",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "A"
+  },
+  {
+    "job_id": "nhs-5579271",
+    "source": "NHS Jobs",
+    "title": "GP Receptionist/Administrator",
+    "company": "St Luke’s Surgery",
+    "advertiser_name": "St Luke’s Surgery",
+    "location": "Nottingham, NG7 3GW",
+    "region": "Nottinghamshire",
+    "salary": "£12.71",
+    "employment_type": "Bank",
+    "posted_date": "2026-09-04T09:46:52.947923718",
+    "closing_date": "2026-10-02",
+    "description": "St Luke's Surgery are looking to recruit a hard working flexible new member of our team. This post is predominantly to cover sickness, however, with a view to become permanent. The post will involve day to day operational support to the reception team. Operational support to reception, and administration team. Arranging and canceling appointments, administration duties. Reception and admin duties. Including a wide and varied work schedule. Must be flexible, hard working, and eager to learn and progress.",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1908-26-0001",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1908-26-0001",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "B"
   },
   {
     "job_id": "nhs-5564627",
@@ -606,32 +612,6 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0045-26-0081",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0045-26-0081",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
-  },
-  {
-    "job_id": "nhs-5549977",
-    "source": "NHS Jobs",
-    "title": "Part-Time Receptionist (Care Coordinator)",
-    "company": "Park House Medical Centre",
-    "advertiser_name": "Park House Medical Centre",
-    "location": "Nottingham, NG4 3DQ, Nottingham, NG14 7BG",
-    "region": "Nottinghamshire",
-    "salary": "£12.71",
-    "employment_type": "Permanent",
-    "posted_date": "2026-08-20T07:39:26.736859151",
-    "closing_date": "2026-09-06",
-    "description": "Join Our Friendly Team at Jubilee Park Medical Partnership Are you a people person with a passion for helping others? Do you thrive in a fast-paced, supportive environment? We would love to have you on board! Jubilee Park Medical Partnership is a welcoming GP practice serving 12,300 patients across two sites in Carlton and Lowdham. Were looking for an enthusiastic, flexible, and friendly team member to join our Care Coordination Team. What's in it for you: A caring, supportive, and fun team A role where no two days are the same Training to help you feel confident The chance to make a real difference Available Positions: 25 Hours/Week Monday : 8:00 AM 1:00 PM(Every 3rd week 3:00 PM 8:00 PM) Tuesday :8:00 AM 1:00 PM Wednesday : 8:00 AM 1:00 PM Thursday : 1:30 PM 6:30 PM Friday :8:00 AM 1:00 PM Some weekend work may be required across both sites. Why Join Us: Be part of a supportive and fun team Make a difference every day Comprehensive training A fulfilling and rewarding role Apply today and become part of the Jubilee Park family! Interviews will be held on Friday 29th May 2026. Join Our Front Desk Team as a Care Coordinator As the first point of contact for our patients, youll be the friendly face and reassuring voice they rely on. Youll be at the heart of our practice, ensuring everything runs smoothly by: Welcoming patients with warmth and assisting them in person or over the phone Handling reception and administrative duties with ease and professionalism Collaborating with healthcare professionals to provide seamless care Managing patient appointments and directing them to the appropriate services Offering exceptional customer service with a positive, problem-solving mindset This role is perfect for someone who loves helping others, thrives in a fast-paced environment, and enjoys being part of a dynamic team! To be responsible for undertaking a wide range of reception duties and the provision of general support to the multidisciplinary team. Duties can include but are not limited to, greeting and directing patients, effective use of the appointment system, booking appointments, processing of information and assisting patients as required. To act as the central point of contact for patients, the distribution of information, messages and enquiries for the clinical team, liaising with multidisciplinary team members and external agencies such as secondary care and community service providers. Flexibility to work across sites is essential. Please read the attached Job Description and Person Specification. Interviews will take place on Friday 11th September 2026",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0567-26-0011",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0567-26-0011",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "B"
   }
 ]

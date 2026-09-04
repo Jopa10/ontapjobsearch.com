@@ -150,7 +150,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Visitor reception",
+      "Customer enquiries"
+    ]
   },
   {
     "job_id": "1733656",
@@ -175,7 +179,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Records administration",
+      "Quotations"
+    ]
   },
   {
     "job_id": "1756870",
@@ -247,20 +255,20 @@
     "posted_date_basis": "source"
   },
   {
-    "job_id": "nhs-5565345",
+    "job_id": "nhs-5578666",
     "source": "NHS Jobs",
-    "title": "GP Receptionist / Administrator",
-    "company": "Barrington Medical Centre Partnership",
-    "advertiser_name": "Barrington Medical Centre Partnership",
-    "location": "Altrincham, WA14 1PF",
+    "title": "Medical Receptionist/ Care Navigator",
+    "company": "Bodmin Road Health Centre",
+    "advertiser_name": "Bodmin Road Health Centre",
+    "location": "Sale, M33 5JH",
     "region": "Greater Manchester - South",
     "salary": "£12.71",
-    "employment_type": "Fixed-Term",
-    "posted_date": "2026-08-27T10:36:04.752056557",
-    "closing_date": "2026-09-18",
-    "description": "Barrington Medical Centre are recruiting for a Receptionist, the successful candidate will play a key role in ensuring patients feel supported, listened to and guided to the right care at the right time, while working closely with a friendly multidisciplinary healthcare team. This is a varied, fast-paced and people-focused role where no two days are the same, perfect for someone who thrives on organisation, communication and delivering excellent patient service. You should work with us if you are motivated by purpose, enjoy teamwork, and want to contribute to high-quality healthcare within your local community. We offer a supportive working environment, opportunities to learn and develop, and the chance to be part of a practice that genuinely values both patients and staff. We are seeking a Receptionist to work 23 hours per week over 4 days as part of a reception rota system. Shifts will include 8.00am starts and 6.30pm finishes. The role focuses on being the first point of contact for patients and ensuring their experience with the practice is smooth, respectful and efficient. You will manage day-to-day interactions at reception and on the telephone, help patients access the most appropriate services, and support the wider clinical and administrative teams by handling information accurately and sensitively. Working within a busy GP practice environment, you will play an important part in keeping the surgery running effectively, balancing patient needs with administrative responsibilities throughout the day. Maintain and monitor the practice appointment system Process personal, telephone and online requests for appointments Answer incoming telephone calls, transferring calls or dealing with requests appropriately Signpost patients to the most appropriate service Initiate contact with and respond to requests from patients, colleagues and external agencies Once trained, clinically code information onto EMIS Photocopy, scan and process documentation as required Register new and temporary patients and update patient demographics where required Input data into patient healthcare records as necessary Direct requests for information, including SARs, insurance reports and DVLA forms, to the relevant team Manage queries efficiently and sensitively Carry out system searches as requested Maintain a clean, tidy and effective working area at all times Monitor and maintain the reception area and patient notice boards Support clinical and administrative staff with general tasks as requested Work flexibly as part of the wider reception and administrative team",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4163-26-0005",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4163-26-0005",
+    "employment_type": "Permanent",
+    "posted_date": "2026-09-04T07:39:13.342054561",
+    "closing_date": "2026-09-21",
+    "description": "This is an exciting career opportunity for a Part-Time Medical Receptionist (Care Navigators) to join a friendly, four partner training practice serving around 9000 patients in the ever-popular suburb of Sale, South Manchester. We are looking for friendly, helpful, enthusiastic people to join our busy team. We have excellent staff retainment. We are advertising due to retirement. Permanent vacancy for 20 hours per week Working week is based on a two week rota: Week 1 Mon - 8.00-12.30 Wed - 13.00-18.30 Thu - 8.00-1.00 Fri - 8.00-1.00 Week 2 Wed - 13.00-18.00 Thu - 13.00-18.00 Fri - 13.00-18.00 Previous Experience of Medical Reception is desirable but not essential. A background of administration and/or customer service would also be considered. MEDICAL RECEPTIONIST JOB DESCRIPTION RECEPTION DESK Welcoming patients into the Surgery Checking them in on screen (or advising to use self- check in) Accepting samples and directing them to correct person/ collection Accepting deliveries/ informing relevant department. Accepting new registrations, completing relevant paperwork Accepting and booking travel immunisation APTS. Ensuring reception well stocked with sample pots/ forms/ registration packs. Answering telephone queries/appointments when necessary. (will only be necessary when only 3 or less members of staff on duty. PRESCRIPTIONS Processing of prescriptions received from pharmacies, online requests, and hand-written requests from prescription box. Processing appliance requests from Bullen/Ainsworth/Charter etc. Making sure all medications queries are passed to either a GP or medicines management for clarification. Directing hospital and other agency letters sent via the prescription email are passed to the relevant department. Answering the Telephone for queries/ accepting and entering patient requests onto ASKMYGP for patients without internet access. Accurx online tool Allocation of all requests to GP, FCP, Pharmacists whilst Accurx is operational. SCAN TASKS Processing all tasks in both EMIS and Docman Routine Appointments first contact by letter, second contact by text or phone then complete. Urgent appointments patient to be contacted and booked in. All patient documents to be scanned to notes. Scanning to workflow to be processed when needed due to holiday cover. OTHER DUTIES Filing Summarising Making sure all printers (including Doctors rooms) have adequate paper blood forms and prescriptions. Photocopying general forms and medical records for the purpose of legal documents. Making up Registration Packs. PERSONAL EXTRA ROLE Change of Address Personal Details forms are actioned both on screen and in Paper Medical Records",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5308-26-0006",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5308-26-0006",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
     "posted_date_basis": "source"

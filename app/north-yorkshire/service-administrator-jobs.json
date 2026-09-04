@@ -131,7 +131,14 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Customer enquiries",
+      "Records administration",
+      "Systems administration",
+      "Document preparation",
+      "Reporting"
+    ]
   },
   {
     "job_id": "107909020",
@@ -173,6 +180,31 @@
     "posted_date": "2026-08-26",
     "description": "Are you a creative Design or Marketing professional looking for your next opportunity in the Pocklington area? Do you enjoy using Adobe Illustrator and Photoshop to create and amend artwork, while also getting involved with social media and marketing content? Are you someone who has a great eye for detail, enjoys plenty of variety and likes seeing a project through from artwork to print?\n\nIf so, click apply for full job details",
     "apply_url": "https://www.jobg8.com/Traffic.aspx?MQiKzVwZdh3PLhIRArt5XBjGsDoLncbsu",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "KD Recruitment Limited",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Annual",
+    "posted_date_basis": "ontap_first_published"
+  },
+  {
+    "job_id": "107804499",
+    "title": "Sales and Marketing Coordinator",
+    "company": "KD Recruitment Limited - Agency - Permanent",
+    "location": "York",
+    "region": "Yorkshire - North",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "30000",
+    "salary_max": "30000",
+    "salary_text": "£30000 per year",
+    "posted_date": "2026-08-22",
+    "description": "Are you a meticulous and proactive individual seeking a pivotal role within a dynamic sales team? Our client is a privately owned business with a small, close-knit office team in the Pocklington area who are looking to recruit a Sales and Marketing Coordinator to cover a maternity leave.\n\nOur client has built a reputation for providing high-quality products within the manufacturing industry click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?gZ0pd2TJz0KcaFOAnfEpJe5V1ncJuiYSs",
     "source": "JobG8",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",

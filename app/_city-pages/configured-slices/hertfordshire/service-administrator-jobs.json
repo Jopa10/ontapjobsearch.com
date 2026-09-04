@@ -231,7 +231,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Visitor reception",
+      "Scheduling and bookings"
+    ]
   },
   {
     "job_id": "23643_225522549",
@@ -256,7 +260,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Telephone handling",
+      "Systems administration"
+    ]
   },
   {
     "job_id": "23643_225521989",
@@ -281,7 +289,13 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Telephone handling",
+      "Email handling",
+      "Scheduling and bookings",
+      "Systems administration"
+    ]
   },
   {
     "job_id": "1771181",
@@ -306,7 +320,12 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Customer enquiries",
+      "Systems administration",
+      "Order processing"
+    ]
   },
   {
     "job_id": "1749312",
@@ -331,7 +350,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Visitor reception",
+      "Scheduling and bookings"
+    ]
   },
   {
     "job_id": "1780989",
@@ -406,7 +429,12 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Customer enquiries",
+      "Systems administration",
+      "Quotations"
+    ]
   },
   {
     "job_id": "23643_225528836",
@@ -531,7 +559,69 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Customer enquiries",
+      "Records administration"
+    ]
+  },
+  {
+    "job_id": "23643_225565093",
+    "title": "Administrator",
+    "company": "Mission 4 Recruitment - Agency - Permanent",
+    "location": "Hertfordshire",
+    "region": "Hertfordshire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "25000",
+    "salary_max": "25000",
+    "salary_text": "£25000 per year",
+    "posted_date": "2026-09-04",
+    "description": "On behalf of our Hertford client, a specialist in property debt collection, we are seeking an organised and professional Property Debt Recovery Administrator. You would provide the essential organisational and clerical backbone for the office, ensuring that databases, documents, and communications run smoothly so that claims handlers and debt recovery agents can focus on resolving accounts.\n\nKey Responsibilities:\n- Data Entry and Management: Update customer accounts, track payment statuses, and input new debt claim files accurately into the company database.\n- Document Handling: Sort, scan, and file incoming and outgoing correspondence, including legal notices, bank statements, and payment receipts.\n- Customer Support: Answer incoming phone calls and emails from debtors or landlords, handling basic inquiries and directing complex issues to the appropriate claims handler.\n- Financial Processing: Record payments, reconcile accounts, and assist the finance team with basic invoicing or refund requests.\n- Administrative Coordination: Prepare routine letters, payment reminders, and statements, ensuring all mailings meet compliance and deadlines\n\nThe successful candidate will have:\n- Proficiency in Microsoft Office and database management.\n- Strong organisational skills with a high level of accuracy and attention to detail.\n- Professional, polite communication skills for dealing with sensitive financial matters.\n- Ability to handle confidential information with strict discretion.\n\nBenefits:\n- 25 days holiday plus 1 additional day for every full year of service.\n- Discretionary bonus.\n- On-site parking.\n- Company Pension.\n- Company social events.\n- Death in service.\n- Progression opportunities.\n\nDespite our best efforts it is not always possible to respond to every application individually due to the high volume of responses we receive on each vacancy. Only candidates who are short listed will be contacted for this particular role and if you have not heard from us within 7 days please assume that you have not been successful. However, we will keep your details on our database, and will contact you when other suitable positions become available.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?G%2b5YiGNoEgojacm7kGhHLaYn%2bCKffuJVn",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Mission 4 Recruitment",
+    "advertiser_type": "Agency",
+    "work_pattern": "Full Time",
+    "salary_period": "Annual",
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Telephone handling",
+      "Data entry"
+    ]
+  },
+  {
+    "job_id": "23643_225564863",
+    "title": "Merchandise Administrator",
+    "company": "Osborne Appointments - Agency - Permanent",
+    "location": "Hertfordshire",
+    "region": "Hertfordshire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "28000",
+    "salary_max": "28000",
+    "salary_text": "£28000 per year (benefits)",
+    "posted_date": "2026-09-04",
+    "description": "OA are recruiting for a Merchandise Administrator to join our client s growing team.\n\nThis role is within the Fabric side of the business, working closely with the Fabric Merchandise Manager to support the day-to-day management of this category.\n\nThe objective of the role is to ensure that all aspects of the supply chain are effectively managed for production orders placed with suppliers, ensuring orders are delivered on time, stock levels are maintained and customer expectations are consistently met. The role will involve close communication with international suppliers, mills and freight forwarders, alongside accurate system and report management.\n\nLocation: Welham Green\nHours: Monday-Thursday 8:30am-5pm. Friday 8:30am-4:30pm. Office based.\nSalary: £28,000\n\nMerchandise Administrator Benefits\n- 21 days holiday plus bank holidays\n- Additional Christmas closedown (3 working days, depending on dates)\n- Staff discount\n- Subsidised canteen\n- Free on-site parking\n\nMerchandise Administrator Key Responsibilities\n- Managing and processing purchase orders accurately and in a timely manner, ensuring orders are placed with the relevant mills.\n- Following up sales confirmations with suppliers and proactively challenging any lengthy delays or discrepancies.\n- Maintaining accurate system arrival dates to ensure customers are quoted realistic and achievable delivery dates.\n- Managing the Ready Goods list alongside the Fabric Merchandise Manager to support effective stock levels and product availability.\n- Liaising with mills, suppliers and freight forwarders around the world to ensure the timely arrival of purchase orders.\n- Using in-house reports and systems to monitor order status, identifying potential delays and taking action to achieve required intake dates.\n- Running weekly reports accurately and on time, providing key information to support decision making across the team.\n- Monitoring outstanding orders and proactively escalating any issues that may impact stock availability or customer delivery dates.\n- Timely management and processing of invoices for authorisation.\n- Maintaining accurate records and ensuring all merchandising and supply chain information is kept up to date.\n- Working closely with the Fabric Merchandise Manager and wider team to resolve supply chain issues and ensure orders progress efficiently.\n\nMerchandise Administrator Executive Skills & Experience\n- Previous experience within merchandising administration, purchasing, supply chain, logistics, order management or a similar environment.\n- Experience of purchase order management and following orders through from placement to delivery.\n- Understanding of shipping, freight forwarding and international logistics (desirable)\n- Excellent communication skills, with the confidence to liaise with suppliers and challenge delays where necessary.\n- Strong organisational skills with excellent attention to detail.\n- Strong Excel skills and confidence working with data and reports.\n- Strong numerical and analytical skills.\n- Ability to manage multiple tasks and deadlines effectively.\n- Ability to work under pressure and adapt to changing priorities.\n- Proactive approach with strong problem-solving skills.\n- A positive attitude and ability to work effectively as part of a team.\n\nIf you are interested in this position, please apply online with your CV.\n\nBARNPERM\n\nBy applying to this job advertisement, you confirm you have read and understood our Data Protection and Privacy statement and give OA Group authorisation to hold the data you have provided.\n\nThank you for your interest in this vacancy, which is being advertised by OA Group, who are acting as an employment agency / business. Your application will be considered in competition with others and we will contact you within 3 working days.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?Yic9job4bS%2fO4Xaa8%2bB0bSPQWNpVQA3Vc",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Osborne Appointments",
+    "advertiser_type": "Agency",
+    "work_pattern": "Full Time",
+    "salary_period": "Annual",
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Records administration",
+      "Order processing"
+    ]
   },
   {
     "job_id": "23643_225473001",
@@ -556,7 +646,12 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Customer enquiries",
+      "Records administration",
+      "Order processing"
+    ]
   },
   {
     "job_id": "107742606",
@@ -656,7 +751,12 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Customer enquiries",
+      "Scheduling and bookings",
+      "Systems administration"
+    ]
   },
   {
     "job_id": "1734756",
@@ -731,7 +831,12 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Records administration",
+      "Quotations",
+      "Delivery coordination"
+    ]
   },
   {
     "job_id": "1778586",
@@ -781,7 +886,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Visitor reception",
+      "Scheduling and bookings"
+    ]
   },
   {
     "job_id": "23643_225542267",
@@ -919,25 +1028,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0106-26-0072",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "posted_date_basis": "source"
-  },
-  {
-    "job_id": "nhs-5566843",
-    "source": "NHS Jobs",
-    "title": "Senior Administrator",
-    "company": "Hertfordshire Community NHS Trust",
-    "advertiser_name": "Hertfordshire Community NHS Trust",
-    "location": "St Albans, AL4 9XR",
-    "region": "Hertfordshire",
-    "salary": "£28392.00 to £31157.00",
-    "employment_type": "Fixed-Term",
-    "posted_date": "2026-08-28T17:19:04.092129317",
-    "closing_date": "2026-09-03",
-    "description": "An exciting opportunity has arisen for a Senior Administrator to join our ever evolving team providing Administrative support to PALMS where we have a proven track record of our Administrators developing and progressing to other careers within the NHS in a range of roles. We are seeking to appoint a motivated and forward thinking Senior Administrator who can work flexibly and is committed to supporting the development of PALMS. Interviews will be run in person at Sandridge Gate Business Centre, full details and instructions will be provided to successful candidates. *Proposed interview date: 9th September 2026* HCT will prioritise recruitment of workers living in England under the new immigration rules for care workers effective from 9 April 2025. Employers must first prove that they have attempted to recruit a worker from within England who needs new sponsorship. This ensures that those who came to the UK to pursue a career in adult social care can do so. The ideal candidate will: Be a hardworking, well organised and adaptable individual Be able to evaluate and prioritise work, responding quickly to daily changes in work pattern Be able to work in a team environment and make valuable contributions Have an excellent telephone manner, communicating with professionals and families with tact and sensitivity Have excellent written and verbal communication skills Have excellent touch typing skills and be able to type from digitally dictated files PALMS is a friendly, cohesive and proactive team who value feedback. We empower all team members to contribute to the continuous development of the service and welcome innovation and change. We can offer you: Regular appraisal, personal development planning and opportunities for continuing professional development. Regular line management and support including clinical supervision The chance to work with a number of different professionals In addition to the basic salary, this post attracts a High Cost Area Supplement of up to 5% of basic salary A full valid driving licence and access to a car insured to use for business purposes is essential (unless you have a disability as defined by the Equality Act 2010). Applicants to be aware that PALMS work within the ULEZ zone and any charges due to non-compliant vehicles can not be reimbursed by the Trust. We are committed to supporting flexible working options for staff, wherever possible, and welcome discussions on flexible working patterns to support our staff to maintain a healthy work life balance. We welcome diversity in our workforce and are interested in applicants from all backgrounds and ages. The use of AI is monitored and if you have used it then you are required to declare this, as well as what type of AI tools you have used and for what purpose. We reserve the right to further test your individual knowledge and skills in relation to the requirements for the post through robust and thorough interview and assessment.",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9812-26-0338",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9812-26-0338",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "B",
     "posted_date_basis": "source"
   },
   {

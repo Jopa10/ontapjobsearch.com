@@ -150,7 +150,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Scheduling and bookings",
+      "Records administration"
+    ]
   },
   {
     "job_id": "23643_222234812",
@@ -225,7 +229,12 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Customer enquiries",
+      "Systems administration",
+      "Quotations"
+    ]
   },
   {
     "job_id": "23643_225546891",
@@ -250,7 +259,12 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Records administration",
+      "Systems administration",
+      "Document preparation"
+    ]
   },
   {
     "job_id": "23643_225547840",
@@ -275,7 +289,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Customer portals",
+      "Quotations"
+    ]
   },
   {
     "job_id": "23643_225556797",
@@ -347,31 +365,6 @@
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
     "advertiser_name": "Travail Employment Group",
-    "advertiser_type": "Agency",
-    "work_pattern": "Full Time",
-    "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
-  },
-  {
-    "job_id": "23643_225456677",
-    "title": "Invoicing Administrator",
-    "company": "Lancer Scott Holdings Ltd - Agency - Permanent",
-    "location": "Bristol",
-    "region": "Bristol & Bath",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "25000",
-    "salary_max": "27000",
-    "salary_text": "£25000 - £27000 per year",
-    "posted_date": "2026-08-12",
-    "description": "Why work for us?\n\nEstablished in 1998 Lancer Scott offers renowned high-quality construction projects and facilities management services. Based in the heart of Bristol we have enjoyed success and significant growth, particularly in the last four years with turnover increasing from £56 million in 2020 to £125 million in 2025.\n\nTo ensure our business remains fully supported we are investing into our people strategy and infrastructure to give our employees the tools to perform to the best of their ability. If you would like to join a rapidly expanding business that can offer up good opportunities for career development and professional personal growth, you should apply today and lets talk.\n\nWhat will be my core responsibilities?\n\nTo be the first point of contact to our external and internal clients, supporting the business in processing new and existing work orders via our internal system. Playing a key role within the Service Delivery Team to ensure we provide an exceptional client experience. You will be held accountable and responsible for specific Accounts/ Contracts and understanding the contract scope. Carrying out all elements of scheduling Maintenance work and ensuring all information on each work order remains current and up to date.\n\nThis role will be based in our Head office in Central Bristol.\n- Build strong relationships with external and internal clients, delivering an exceptional client experience.\n- Be the first point of contact for clients and engineers that are contacting the Service Delivery Team by phone or email.\n- Ensure all work orders are recorded accurately, allocated and processed in line with the process via our internal CAFM system and client portals.\n- Respond to enquires from our Clients, Account Managers and Engineers within set timescales.\n- Ensure work orders are processed meeting client SLAs, KPIs and internal process.\n- Maintain diary management and ensure that all tasks set by Team Leader and Head of Service Delivery are completed with the correct timeframe.\n- Meet all client requirements set by Account Mangers & Head of Service Delivery.\n- Manage and monitor the mailbox throughout the day highlighting emergency call outs for team members to action.\n- Ensure all works are assigned to the correct LS Engineer/ Subcontractor via skill set and area and that each day is strategically planned, and all work is to be delivered & completed within the FSLA.\n- Manage all works sent to a subcontractor, raising purchase orders at the correct mandate level. Obtaining weekly updates/ ETAs transferring all information to both Lancer Scott CAFM system and Client portal.\n\nWhat skills and experience do I need to be successful in this role?\n- A customer-focused attitude and willingness to problem solve and help.\n- Strong attention to detail.\n- Happy and able to work at pace and be flexible to respond to customer needs.\n- Excellent organisational skill with the ability to multitask, prioritise and meet deadlines.\n- Proficiency in Microsoft Office Suite including Word, Excel and Outlook and to learn new systems.\n- A professional communication style, both written and verbal.\n- A collaborative approach to contribute to team success.\n\nWe are an equal opportunities employer committed to creating a diverse and inclusive environment and welcome applications from all suitably qualified candidates.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?1tcg6Aj2zayhfap29OQw8%2bgbVDsomGPQb",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Lancer Scott Holdings Ltd",
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
@@ -450,7 +443,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Systems administration",
+      "Data entry"
+    ]
   },
   {
     "job_id": "1819615",
@@ -550,7 +547,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Systems administration",
+      "Data entry"
+    ]
   },
   {
     "job_id": "1766156",
@@ -575,7 +576,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Customer enquiries",
+      "Systems administration"
+    ]
   },
   {
     "job_id": "107793815",
@@ -625,7 +630,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Part Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
+    "posted_date_basis": "ontap_first_published",
+    "at_a_glance_attributes": [
+      "Systems administration",
+      "Reporting"
+    ]
   },
   {
     "job_id": "nhs-5575417",
