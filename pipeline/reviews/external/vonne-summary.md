@@ -1,7 +1,7 @@
 # VONNE ETL proof-of-concept review
 
-review_date: 2026-09-03
-review_fingerprint: e04071e92657d628764353c91801309f2e18a9eeff511da23efd8a772499cbfc
+review_date: 2026-09-04
+review_fingerprint: 0ea7a71e0ce3c4cb157bb87f31a2da9cea44daca26a743e5518626dcb843b566
 
 This implementation is review-only. It has no approved-JSON or publishing mode.
 
@@ -10,28 +10,28 @@ Edit only the `action:` line in editable blocks:
 - `action: exclude` rejects a POSS vacancy or removes an HC vacancy.
 - Actions are remembered while the same vacancy review facts remain unchanged; this review still does not publish anything.
 
-Run generated: 2026-09-03T12:33:09+01:00
+Run generated: 2026-09-04T12:35:33+01:00
 Listing input: https://www.vonne.org.uk/vonne-jobs
-JobG8 comparison rows: 413
-Approved NEJobs comparison rows: 15
+JobG8 comparison rows: 283
+Approved NEJobs comparison rows: 16
 
 ## Funnel
 - VONNE listings read: 15
-- Detail-page candidates: 4
-- Detail pages fetched successfully: 4
+- Detail-page candidates: 3
+- Detail pages fetched successfully: 3
 - Detail failures/listing fallbacks: 0
-- Obvious hard passes not detail-fetched: 11
+- Obvious hard passes not detail-fetched: 12
 - Tees Valley explicitly excluded: 2
 - Outside or unmapped geography excluded: 0
-- Generic/derived geography rows requiring review: 2
+- Generic/derived geography rows requiring review: 1
 - Retained target candidates: 13
 
 ## Outcomes
 - HC: 0
-- POSS: 5
-- HARD_PASS: 8
+- POSS: 4
+- HARD_PASS: 9
 - Final selected after remembered/manual actions: 1
-- Final POSS awaiting decision: 3
+- Final POSS awaiting decision: 2
 - Manually excluded: 1
 ## Detail diagnostics
 - No unresolved detail-page failures.
@@ -83,19 +83,6 @@ source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173310
 ---
 ---
 action:
-POSS | North East - Tyneside, Wearside & Northumberland | Tyne and Wear | £29,024 to 31,856 Pro Rata | Project Coordinator - Neuro Team
-employer: Children North East
-closing_date: Friday, September 11, 2026 - 12:00
-geography: CONFIRMED — location: approved location fallback
-reason: annualised upper salary £31,856 exceeds North East review point £30,000
-source: VONNE
-tracking_key: vonne-173367
-vacancy_fingerprint: cedbaf6586bc62cc093f617d1ff9b460bb28624ebc687cb05292e9c719aab864
-source_job_id: 173367
-source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173367
----
----
-action:
 POSS | North East - Tyneside, Wearside & Northumberland | Tyne and Wear | £23,370 to 23,790 | Receptionist
 employer: Foundation of Light
 closing_date: Friday, September 11, 2026 - 00:00
@@ -113,13 +100,14 @@ source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173374
 
 ## HARD_PASS
 
-- [Chief Executive Officer](https://www.vonne.org.uk/vonne-jobs-details?cid=173376) — confirmed JobG8 duplicate.
-- [Finance Manager - Part time](https://www.vonne.org.uk/vonne-jobs-details?cid=173366) — out-of-scope VONNE occupation.
+- [Chief Executive Officer](https://www.vonne.org.uk/vonne-jobs-details?cid=173376) — out-of-scope VONNE occupation.
 - [Fundraising and Partnerships Manager](https://www.vonne.org.uk/vonne-jobs-details?cid=172769) — out-of-scope VONNE occupation.
+- [Gardening and Handyperson Supervisor](https://www.vonne.org.uk/vonne-jobs-details?cid=173184) — insufficient service-admin evidence.
 - [NEYA Trainee Youth Voice Worker](https://www.vonne.org.uk/vonne-jobs-details?cid=173381) — out-of-scope VONNE occupation.
 - [Outreach Adviser (Schools)](https://www.vonne.org.uk/vonne-jobs-details?cid=173370) — insufficient service-admin evidence.
 - [Part time Play & Youth Worker](https://www.vonne.org.uk/vonne-jobs-details?cid=173388) — out-of-scope VONNE occupation.
 - [Stock Controller](https://www.vonne.org.uk/vonne-jobs-details?cid=173378) — insufficient service-admin evidence.
+- [Support Manager](https://www.vonne.org.uk/vonne-jobs-details?cid=172597) — out-of-scope VONNE occupation.
 - [Women's Project Support Worker](https://www.vonne.org.uk/vonne-jobs-details?cid=173373) — out-of-scope VONNE occupation.
 
 ## Safety boundary
