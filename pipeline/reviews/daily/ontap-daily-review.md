@@ -1,12 +1,12 @@
 # Ontap daily job review
 
-> **NOT READY TO REVIEW — waiting for: VONNE, Teaching Vacancies**
-> Do not start reviewing yet. Rebuild this review after those source refreshes complete.
+> **READY TO REVIEW**
+> All active sources are current for 2026-09-04. You can start reviewing.
 
 review_date: 2026-09-04
-generated_at: 2026-09-04T11:22:10+00:00
+generated_at: 2026-09-04T12:15:33+00:00
 
-**28 job(s) need a human decision.**
+**42 job(s) need a human decision.**
 
 Edit only each `action:` line:
 - `action: select` = include the vacancy.
@@ -22,12 +22,10 @@ Edit only each `action:` line:
 | Source | Status | Review date | Needs review | Note |
 |---|---|---|---:|---|
 | JobG8 | OK | 2026-09-04 | 21 | — |
-| NEJobs | OK | 2026-09-04 | 7 | — |
-| VONNE | STALE | 2026-09-03 | 0 | — |
-| Teaching Vacancies | STALE | 2026-09-03 | 0 | — |
+| NEJobs | OK | 2026-09-04 | 0 | — |
+| VONNE | OK | 2026-09-04 | 2 | — |
+| Teaching Vacancies | OK | 2026-09-04 | 19 | — |
 | NHS Jobs | OK | 2026-09-04 | 0 | automatic Tier A/B publish; NHS POSS stays in the NHS-specific review and is optional |
-
-> **Attention:** one or more active source reviews are stale or missing. Those sources contribute no jobs to this file and must not be treated as zero inventory.
 
 ## JobG8 — 21 to review
 
@@ -409,132 +407,390 @@ source_url:
 hub_fingerprint: e242f6d4fc86c3572a6110de3aa97d04c689f51680f68f8c11764d28fda95247
 ---
 
-## NEJobs — 7 to review
+## NEJobs — 0 to review
+
+_No new or changed human decisions required._
+
+## VONNE — 2 to review
 
 ---
-action: exclude
-POSS | NEJobs | North East - County Durham & Darlington/Hartlepool | Civic Centre, Hartlepool | £47,665 - £51,928 per annum | Practice Development Coordinator
-source_key: nejobs
-source: NEJobs
+action:
+POSS | VONNE | North East | Hybrid | £ Per Annum | Project Development Co-ordinator
+source_key: vonne
+source: VONNE
 category: admin_service
-source_job_id: 301368
-title: Practice Development Coordinator
-employer: Hartlepool Borough Council
-location: Civic Centre, Hartlepool
-region: North East - County Durham & Darlington/Hartlepool
-salary: £47,665 - £51,928 per annum
-closing_date: 21/09/2026 12:00
-reason: annualised upper salary £51,928 exceeds North East review point £30,000
-source_url: https://www.northeastjobs.org.uk/job/Practice_Development_Coordinator/301368
-hub_fingerprint: 1a61d362a3205c1c8a48b0272c4c470da167f6c0fb073b344108134aa344dcb2
----
-
----
-action: exclude
-POSS | NEJobs | North East - Tyneside, Wearside & Northumberland | Gateshead | £30,515 - £33,119 | Annual Review Officer (SEND)
-source_key: nejobs
-source: NEJobs
-category: admin_service
-source_job_id: 301235
-title: Annual Review Officer (SEND)
-employer: Gateshead Council
-location: Gateshead
-region: North East - Tyneside, Wearside & Northumberland
-salary: £30,515 - £33,119
-closing_date: 10/09/2026
-reason: transferable office/service title with specialist or borderline wording: send
-source_url: https://www.northeastjobs.org.uk/job/Annual_Review_Officer_SEND/301235
-hub_fingerprint: 6d98904536e821ebe64543ec67372e2330a6ccd7422460a25518b5760a211d01
+source_job_id: 173385
+title: Project Development Co-ordinator
+employer: National Energy Action
+location: Hybrid
+region: North East
+salary: £ Per Annum
+closing_date: 17 September 2026
+reason: North East geography is generic or derived and requires review
+source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173385
+hub_fingerprint: 2504644706011993d13fbbeae417c59b60173eb9e209f7b20729309fc33985b3
 ---
 
 ---
 action:
-POSS | NEJobs | North East - Tyneside, Wearside & Northumberland | Gateshead | £43,149 - £46,579 | Simpler Recycling Projects Coordinator
-source_key: nejobs
-source: NEJobs
+POSS | VONNE | North East - Tyneside, Wearside & Northumberland | Tyne and Wear | £23,370 to 23,790 | Receptionist
+source_key: vonne
+source: VONNE
 category: admin_service
-source_job_id: 300777
-title: Simpler Recycling Projects Coordinator
-employer: Gateshead Council
-location: Gateshead
+source_job_id: 173374
+title: Receptionist
+employer: Foundation of Light
+location: Tyne and Wear
 region: North East - Tyneside, Wearside & Northumberland
-salary: £43,149 - £46,579
-closing_date: 08/09/2026
-reason: annualised upper salary £46,579 exceeds North East review point £30,000
-source_url: https://www.northeastjobs.org.uk/job/Simpler_Recycling_Projects_Coordinator/300777
-hub_fingerprint: 55308de7fafb46d0c4e91af8e88a96550cbf3ac8037721568875a7cff609fe14
+salary: £23,370 to 23,790
+closing_date: Friday, September 11, 2026 - 00:00
+reason: possible cross-source duplicate requires review
+source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173374
+hub_fingerprint: 84c2c6fd7152830b8f2c3816ea6b7a0a9deecf2410a41386c7a55728a4a95bf1
+---
+
+## Teaching Vacancies — 19 to review
+
+---
+action:
+POSS | Teaching Vacancies | Bedfordshire | Luton, LU4 0PF | £16.62 - £17.85 Hourly | Governance Professional (Clerk)
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: governance-professional-clerk-st-thomas-catholic-academies-trust-luton-not-recorded
+title: Governance Professional (Clerk)
+employer: St Thomas Catholic Academies Trust
+location: Luton, LU4 0PF
+region: Bedfordshire
+salary: £16.62 - £17.85 Hourly
+closing_date: 2026-09-25T12:00:00+01:00
+reason: Borderline school administration title: governance professional
+source_url: https://teaching-vacancies.service.gov.uk/jobs/governance-professional-clerk-st-thomas-catholic-academies-trust-luton-not-recorded
+hub_fingerprint: 27ef22e5cfb4e6cb3522624fd4f23b033d97db1f332c86c5c1d7404710189e49
 ---
 
 ---
 action:
-POSS | NEJobs | North East - Tyneside, Wearside & Northumberland | Kyloe House, Stannington, Uni… | £25,485.96 - £27,646.17 (equa… | Behaviour Support Officer - Kyloe Hou…
-source_key: nejobs
-source: NEJobs
+POSS | Teaching Vacancies | Buckinghamshire | Milton Keynes, South East, MK10 7HE | £25,988.00 - £27,254.00 Annually (FTE) | Administrator
+source_key: teaching_vacancies
+source: Teaching Vacancies
 category: admin_service
-source_job_id: 301477
-title: Behaviour Support Officer - Kyloe Hou…
-employer: Northumberland County Coun…
-location: Kyloe House, Stannington, Uni…
-region: North East - Tyneside, Wearside & Northumberland
-salary: £25,485.96 - £27,646.17 (equa…
-closing_date: 17/09/2026 00:00
-reason: provisional transferable-office review
-source_url: https://www.northeastjobs.org.uk/job/Behaviour_Support_Officer_Kyloe_House/301477
-hub_fingerprint: 97fa4befbe69e8c5793f898d91de3b8d366ef8216dd7d5dbd4bc8c579a9cb8bd
+source_job_id: administrator-brooklands-academy
+title: Administrator
+employer: Brooklands Academy
+location: Milton Keynes, South East, MK10 7HE
+region: Buckinghamshire
+salary: £25,988.00 - £27,254.00 Annually (FTE)
+closing_date: 2026-09-11T12:00:00+01:00
+reason: Possible JobG8 duplicate requires review
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-brooklands-academy
+hub_fingerprint: 7191fb5804507cb5431e83433a37998b15af5ac70711379b4f2b579e16ddb470
 ---
 
 ---
-action: select
-POSS | NEJobs | North East - Tyneside, Wearside & Northumberland | Sunderland City Council (deri… | Grade 5 (SCP 17-22) £31,022 -… | Active Sunderland Weight Management S…
-source_key: nejobs
-source: NEJobs
+action:
+POSS | Teaching Vacancies | Cambridgeshire | Peterborough, East of England, PE6 7JX | £14,802.00 Annually (Actual) | Administrator
+source_key: teaching_vacancies
+source: Teaching Vacancies
 category: admin_service
-source_job_id: 301079
-title: Active Sunderland Weight Management S…
-employer: Sunderland City Council
-location: Sunderland City Council (deri…
-region: North East - Tyneside, Wearside & Northumberland
-salary: Grade 5 (SCP 17-22) £31,022 -…
-closing_date: 14/09/2026
-reason: annualised upper salary £33,699 exceeds North East review point £30,000
-source_url: https://www.northeastjobs.org.uk/job/Active_Sunderland_Weight_Management_Support_Officer/301079
-hub_fingerprint: 6830beab6b9ee65ae5db4283e0f4693e03c32a72248a22a39b8f134fc0704db3
+source_job_id: administrator-9219e9ba-082d-4b75-91ee-2e1cd2dd8f75
+title: Administrator
+employer: Arthur Mellows Village College
+location: Peterborough, East of England, PE6 7JX
+region: Cambridgeshire
+salary: £14,802.00 Annually (Actual)
+closing_date: 2026-09-14T09:00:00+01:00
+reason: Possible JobG8 duplicate requires review
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-9219e9ba-082d-4b75-91ee-2e1cd2dd8f75
+hub_fingerprint: 3e5f9ed64f7da742098604816c1900d5f5dfd85e49c7035c3aa7956c1f05893f
 ---
 
 ---
-action: exclude
-POSS | NEJobs | North East - Tyneside, Wearside & Northumberland | Sunderland City Council (deri… | Grade 5 (SCP 17-22) £31,022 -… | Driving Assessment Officer
-source_key: nejobs
-source: NEJobs
+action:
+POSS | Teaching Vacancies | Devon | Torquay, South West, TQ2 7EL | £27254 (actual salary £9340) | Reception and Administration Assistant
+source_key: teaching_vacancies
+source: Teaching Vacancies
 category: admin_service
-source_job_id: 301282
-title: Driving Assessment Officer
-employer: Sunderland City Council
-location: Sunderland City Council (deri…
-region: North East - Tyneside, Wearside & Northumberland
-salary: Grade 5 (SCP 17-22) £31,022 -…
-closing_date: 14/09/2026
-reason: annualised upper salary £33,699 exceeds North East review point £30,000
-source_url: https://www.northeastjobs.org.uk/job/Driving_Assessment_Officer/301282
-hub_fingerprint: 8e63a03ce0789ce6a83694c06bb19b0b757dbefd16d5a7148dc09fb5f13b69fa
+source_job_id: reception-and-administration-assistant-a596734b-acdb-41f5-8c0c-60b9d0a47e07
+title: Reception and Administration Assistant
+employer: Torquay Boys' Grammar School
+location: Torquay, South West, TQ2 7EL
+region: Devon
+salary: £27254 (actual salary £9340)
+closing_date: 2026-09-28T12:00:00+01:00
+reason: Administrative duties evidenced in description
+source_url: https://teaching-vacancies.service.gov.uk/jobs/reception-and-administration-assistant-a596734b-acdb-41f5-8c0c-60b9d0a47e07
+hub_fingerprint: c34667c9ac1add850cb91196f5fc97583755914e4c2a2cca1a2062f8cabb2cc7
 ---
 
 ---
-action: exclude
-POSS | NEJobs | North East - Tyneside, Wearside & Northumberland | Sunderland City Council (deri… | 4 (SCP 12 - 17) £28,598 - £31… | Environmental Enforcement Support Off…
-source_key: nejobs
-source: NEJobs
+action:
+POSS | Teaching Vacancies | Greater Manchester - South | Stockport, North West, SK2 6BW | Scale 5, Points 12-17: £28,598 - £31,022* (full-time, full year salary) (*to be reduced on a pro-rata basis to the actual part-time hours / term-time weeks worked) | Attendance Assistant – Educational Outreach Officer
+source_key: teaching_vacancies
+source: Teaching Vacancies
 category: admin_service
-source_job_id: 301401
-title: Environmental Enforcement Support Off…
-employer: Sunderland City Council
-location: Sunderland City Council (deri…
-region: North East - Tyneside, Wearside & Northumberland
-salary: 4 (SCP 12 - 17) £28,598 - £31…
-closing_date: 16/09/2026
-reason: annualised upper salary £31,022 exceeds North East review point £30,000
-source_url: https://www.northeastjobs.org.uk/job/Environmental_Enforcement_Support_Officer/301401
-hub_fingerprint: 4ca12abde40da10b62d3450e75bfbacfcab22f14f2ed126c2b4eb30a1add2969
+source_job_id: attendance-assistant-educational-outreach-officer-stockport-school-stockport-cheshire
+title: Attendance Assistant – Educational Outreach Officer
+employer: Stockport School
+location: Stockport, North West, SK2 6BW
+region: Greater Manchester - South
+salary: Scale 5, Points 12-17: £28,598 - £31,022* (full-time, full year salary) (*to be reduced on a pro-rata basis to the actual part-time hours / term-time weeks worked)
+closing_date: 2026-09-21T09:00:00+01:00
+reason: Administrative duties evidenced in description
+source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-assistant-educational-outreach-officer-stockport-school-stockport-cheshire
+hub_fingerprint: b233e29a37d4138bfbe511d9cb821c4170dc9c6963cda813ed6ee911263fd078
+---
+
+---
+action:
+POSS | Teaching Vacancies | Hertfordshire | Chorleywood, WD3 6EW | £29,540.00 Annually (FTE) | HR Advisor
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: hr-advisor-eb9c5bf8-2603-48ba-bfc8-df41ec1204b1
+title: HR Advisor
+employer: Danes Educational Trust
+location: Chorleywood, WD3 6EW
+region: Hertfordshire
+salary: £29,540.00 Annually (FTE)
+closing_date: 2026-09-21T09:00:00+01:00
+reason: Administrative duties evidenced in description
+source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-advisor-eb9c5bf8-2603-48ba-bfc8-df41ec1204b1
+hub_fingerprint: 63b4e126d7161a29af59f6b4707d4ecce289454298cb2b113bdaedd0133e4766
+---
+
+---
+action:
+POSS | Teaching Vacancies | Hertfordshire | St Albans, AL1 5AR | £27,600.00 - £28,906.00 Annually (Actual) Grade: H4 + Fringe Annual Salary: £27,600 progressing to £28,906 (Fringe allowance included) | MIS Administrator
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: mis-administrator
+title: MIS Administrator
+employer: Scholars' Education Trust
+location: St Albans, AL1 5AR
+region: Hertfordshire
+salary: £27,600.00 - £28,906.00 Annually (Actual) Grade: H4 + Fringe Annual Salary: £27,600 progressing to £28,906 (Fringe allowance included)
+closing_date: 2026-09-17T09:00:00+01:00
+reason: Possible JobG8 duplicate requires review
+source_url: https://teaching-vacancies.service.gov.uk/jobs/mis-administrator
+hub_fingerprint: f15da0bebf34823275ac5049361d04f427b46a0b69ab1e0658e0f2252e510c8f
+---
+
+---
+action:
+POSS | Teaching Vacancies | Hertfordshire | St Albans, East of England, AL1 5AR | £16,800.00 Annually (Actual) H3 + Fringe | Inclusion Administration Assistant
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: inclusion-administration-assistant-samuel-ryder-academy-st-albans-hertfordshire
+title: Inclusion Administration Assistant
+employer: Samuel Ryder Academy
+location: St Albans, East of England, AL1 5AR
+region: Hertfordshire
+salary: £16,800.00 Annually (Actual) H3 + Fringe
+closing_date: 2026-09-17T09:00:00+01:00
+reason: Administrative duties evidenced in description
+source_url: https://teaching-vacancies.service.gov.uk/jobs/inclusion-administration-assistant-samuel-ryder-academy-st-albans-hertfordshire
+hub_fingerprint: 69596723d6ae4391f8a97b59c995b1e26c3ffb1bbdc178e785d99c339fe6952a
+---
+
+---
+action:
+POSS | Teaching Vacancies | London | London, London, NW10 2UF | £27,254.00 Annually (FTE) Term Time Only | Administrator
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: administrator-north-brent-school
+title: Administrator
+employer: North Brent School
+location: London, London, NW10 2UF
+region: London
+salary: £27,254.00 Annually (FTE) Term Time Only
+closing_date: 2026-09-11T23:59:00+01:00
+reason: Possible JobG8 duplicate requires review
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-north-brent-school
+hub_fingerprint: 898c481e106602acca25562bfac7c2417b3798e8dbfdf831142db811422bfc07
+---
+
+---
+action:
+POSS | Teaching Vacancies | London | London, London, SW16 6NP | Grade 3 - Salary Spine point 5 to 6 - £31,086 to £31,530 (actual £28,592 to £29,002) | Office Administrator
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: office-administrator-st-leonard-s-church-of-england-primary-school-london
+title: Office Administrator
+employer: St Leonard's Church of England Primary School
+location: London, London, SW16 6NP
+region: London
+salary: Grade 3 - Salary Spine point 5 to 6 - £31,086 to £31,530 (actual £28,592 to £29,002)
+closing_date: 2026-09-11T15:00:00+01:00
+reason: Possible JobG8 duplicate requires review
+source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-st-leonard-s-church-of-england-primary-school-london
+hub_fingerprint: 1984d1007b1a095a4dda5ca99086c8a7bb05c0290fbf4c309e4192be1be9e493
+---
+
+---
+action:
+POSS | Teaching Vacancies | London | Northwood, London, HA6 1QN | £28,790.00 - £30,000.00 Annually (Actual) | Attendance and Pastoral Support Worker
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: attendance-and-pastoral-support-worker-northwood-school
+title: Attendance and Pastoral Support Worker
+employer: Northwood School
+location: Northwood, London, HA6 1QN
+region: London
+salary: £28,790.00 - £30,000.00 Annually (Actual)
+closing_date: 2026-09-04T23:59:00+01:00
+reason: Administrative duties evidenced in description
+source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-and-pastoral-support-worker-northwood-school
+hub_fingerprint: d8571485bbe494c4543011935a6fbea6f9b5ed36216d0a555de2772f14897e19
+---
+
+---
+action:
+POSS | Teaching Vacancies | Nottinghamshire | Nottingham, NG9 3GA | £15,092.87 - £16,940.13 Annually (Actual) NJE Grade 5 - £31,015 - £34,811 (FTE) | Data Officer
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: data-officer-the-white-hills-park-trust-ltd
+title: Data Officer
+employer: The White Hills Park Trust Ltd
+location: Nottingham, NG9 3GA
+region: Nottinghamshire
+salary: £15,092.87 - £16,940.13 Annually (Actual) NJE Grade 5 - £31,015 - £34,811 (FTE)
+closing_date: 2026-10-02T09:00:00+01:00
+reason: Borderline school administration title: data officer
+source_url: https://teaching-vacancies.service.gov.uk/jobs/data-officer-the-white-hills-park-trust-ltd
+hub_fingerprint: 61a67055e7303171acc26effab063633fdfbe523dbd2a09ca28e591e2a24beac
+---
+
+---
+action:
+POSS | Teaching Vacancies | Somerset | Taunton, South West, TA2 8FT | Actual Annual Salary | Senior Office Administrator
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: senior-office-administrator-west-monkton-church-of-england-school
+title: Senior Office Administrator
+employer: West Monkton Church of England School
+location: Taunton, South West, TA2 8FT
+region: Somerset
+salary: Actual Annual Salary
+closing_date: 2026-09-10T12:00:59+01:00
+reason: Possible JobG8 duplicate requires review
+source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-office-administrator-west-monkton-church-of-england-school
+hub_fingerprint: 983d60adfc8385d957d783b3e6b0b33e165c61d135c22ec2f92dfdcc64ea8e0a
+---
+
+---
+action:
+POSS | Teaching Vacancies | Sussex | Crawley, South East, RH10 6DG | Associate 3 Actual Salary - £21,643.44 to £23,380. | Office Manager
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: office-manager-southgate-primary-crawley-west-sussex
+title: Office Manager
+employer: Southgate Primary
+location: Crawley, South East, RH10 6DG
+region: Sussex
+salary: Associate 3 Actual Salary - £21,643.44 to £23,380.
+closing_date: 2026-10-14T23:59:59+01:00
+reason: Manager title below £28,000 salary ceiling requires review
+source_url: https://teaching-vacancies.service.gov.uk/jobs/office-manager-southgate-primary-crawley-west-sussex
+hub_fingerprint: 44d84c4c702740383e6df6a0e3ae47ba32795c55b0d6e215664eb39ab0012080
+---
+
+---
+action:
+POSS | Teaching Vacancies | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B31 4BS | £28,827.30 - £28,827.30 Annually (Actual) Pro Rata Salary: £28,827.30 (FTE £32,677) | Exam's and Data Officer
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: exam-s-and-data-officer
+title: Exam's and Data Officer
+employer: Turves Green Boys' School
+location: Birmingham, West Midlands, B31 4BS
+region: West Midlands - Birmingham & Solihull
+salary: £28,827.30 - £28,827.30 Annually (Actual) Pro Rata Salary: £28,827.30 (FTE £32,677)
+closing_date: 2026-09-11T23:59:00+01:00
+reason: Borderline school administration title: data officer
+source_url: https://teaching-vacancies.service.gov.uk/jobs/exam-s-and-data-officer
+hub_fingerprint: 66c8b355ec8eda3407e4fb0b83aa89cb222ded2aa87e6c0cc6f1b64983cf7144
+---
+
+---
+action:
+POSS | Teaching Vacancies | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B45 9BN | £6,072.00 - £6,072.00 Annually (Actual) | Office Administrator
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: office-administrator-st-james-catholic-primary-school
+title: Office Administrator
+employer: St James Catholic Primary School
+location: Birmingham, West Midlands, B45 9BN
+region: West Midlands - Birmingham & Solihull
+salary: £6,072.00 - £6,072.00 Annually (Actual)
+closing_date: 2026-09-16T09:00:00+01:00
+reason: Possible JobG8 duplicate requires review
+source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-st-james-catholic-primary-school
+hub_fingerprint: 93794985125b820b557a999b74afac410b51ed80259c8a312909d4be586c13ee
+---
+
+---
+action:
+POSS | Teaching Vacancies | West Midlands - Black Country | Wednesbury, West Midlands, WS10 7PZ | £22,828 – £23,935 | Office Administrator
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: office-administrator-holyhead-primary-academy
+title: Office Administrator
+employer: Holyhead Primary Academy
+location: Wednesbury, West Midlands, WS10 7PZ
+region: West Midlands - Black Country
+salary: £22,828 – £23,935
+closing_date: 2026-09-13T23:59:00+01:00
+reason: Possible JobG8 duplicate requires review
+source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-holyhead-primary-academy
+hub_fingerprint: 14d9d135660ee449d5023a33ffcb36825276d571431f5c12daeb2db23cccd097
+---
+
+---
+action:
+POSS | Teaching Vacancies | Wiltshire | Salisbury, South West, SP2 8JZ | £8,751.00 - £9,031.00 Annually (Actual) Wiltshire Grade D - rises incrementally each year from point 4 to 6 (FTE for 25/26 is £25,185 - £25,989) | Admin Officer (SEND and Attendance focus)
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: admin-officer-send-and-attendance-focus-harnham-church-of-england-controlled-junior-school
+title: Admin Officer (SEND and Attendance focus)
+employer: Harnham Church of England Controlled Junior School
+location: Salisbury, South West, SP2 8JZ
+region: Wiltshire
+salary: £8,751.00 - £9,031.00 Annually (Actual) Wiltshire Grade D - rises incrementally each year from point 4 to 6 (FTE for 25/26 is £25,185 - £25,989)
+closing_date: 2026-09-07T23:59:00+01:00
+reason: Administrative duties evidenced in description
+source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-officer-send-and-attendance-focus-harnham-church-of-england-controlled-junior-school
+hub_fingerprint: 3d1c5f69008e465d17ac9abef2f371a65d8e3f3551c9fd35be32e36ffd6fd410
+---
+
+---
+action:
+POSS | Teaching Vacancies | Worcestershire | Redditch, West Midlands, B98 0GF | £21,327.00 - £21,662.00 Annually (Actual) | Reprographics Officer
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: reprographics-officer-arrow-vale-high-school-redditch
+title: Reprographics Officer
+employer: Arrow Vale High School
+location: Redditch, West Midlands, B98 0GF
+region: Worcestershire
+salary: £21,327.00 - £21,662.00 Annually (Actual)
+closing_date: 2026-09-11T09:00:00+01:00
+reason: Administrative duties evidenced in description
+source_url: https://teaching-vacancies.service.gov.uk/jobs/reprographics-officer-arrow-vale-high-school-redditch
+hub_fingerprint: 323da6976524af77e6fdaaa28dac144053384f2451ad5255d6dc06f2b1187518
 ---
 
 ## NHS Jobs — 0 to review
