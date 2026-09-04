@@ -1,6 +1,6 @@
 # Ontap daily regional overview
 
-Generated: 2026-09-04T12:29:58+01:00
+Generated: 2026-09-04T15:34:04+01:00
 
 [Download this overview as Excel](./daily-region-overview.xlsx)
 
@@ -8,16 +8,16 @@ Generated: 2026-09-04T12:29:58+01:00
 
 | Measure | Count |
 |---|---:|
-| Unique live jobs | 1,799 |
+| Unique live jobs | 1,798 |
 | Unique JobG8 jobs | 1,470 |
-| Unique non-JobG8 jobs | 329 |
-| Regional/category slice placements | 1,877 |
+| Unique non-JobG8 jobs | 328 |
+| Regional/category slice placements | 1,876 |
 | Jobs appearing on multiple slices | 75 |
 | Extra slice placements | 78 |
 | Unique jobs outside governed slices | 0 |
 | Jobs found in non-LIVE slices | 0 |
 
-**Reconciliation: 1,799 unique jobs + 78 extra slice placements = 1,877 regional/category slice placements.**
+**Reconciliation: 1,798 unique jobs + 78 extra slice placements = 1,876 regional/category slice placements.**
 
 Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-09-04.csv` — **STALE — CSV says 1,893 for 2026-09-04**.
 
@@ -26,7 +26,7 @@ Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-09-0
 | Provider | Unique live jobs | Jobs on 2+ slices | Extra slice placements |
 |---|---:|---:|---:|
 | JobG8 | 1,470 | 75 | 78 |
-| NEJobs | 16 | 0 | 0 |
+| NEJobs | 15 | 0 | 0 |
 | NHS Jobs | 227 | 0 | 0 |
 | Teaching Vacancies | 85 | 0 | 0 |
 | VONNE | 1 | 0 | 0 |
@@ -213,17 +213,17 @@ Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-09-0
 
 ## CITY OPPORTUNITIES
 
-**271 mapped towns/localities with live jobs or an existing city page.** Counts use all 1,799 unique live Ontap jobs across every role and provider: 795 have an exact recognised town/locality and 1,004 have only broader or unrecognised location evidence. CREATE means 4+ current jobs and no existing city page; London is held separately.
+**271 mapped towns/localities with live jobs or an existing city page.** Counts use all 1,798 unique live Ontap jobs across every role and provider: 794 have an exact recognised town/locality and 1,004 have only broader or unrecognised location evidence. CREATE means 4+ current jobs and no existing city page; London is held separately.
 
 | Status | Town/city/locality | Region | All live jobs | Existing pages | Current routes |
 |---|---|---|---:|---:|---|
 | CREATE | Wakefield | Yorkshire - West | 9 | 0 |  |
 | CREATE | Bolton | Greater Manchester - Wigan & Bolton | 7 | 0 |  |
 | CREATE | Reading | Berkshire | 7 | 0 |  |
-| CREATE | Gateshead | North East - Tyneside, Wearside & Northumberland | 6 | 0 |  |
 | CREATE | Norwich | Norfolk | 6 | 0 |  |
 | CREATE | Chester | Cheshire - West | 5 | 0 |  |
 | CREATE | Durham | North East - County Durham & Darlington/Hartlepool | 5 | 0 |  |
+| CREATE | Gateshead | North East - Tyneside, Wearside & Northumberland | 5 | 0 |  |
 | CREATE | Maidstone | Kent | 5 | 0 |  |
 | CREATE | Northallerton | Yorkshire - North | 5 | 0 |  |
 | CREATE | Salford | Greater Manchester - Manchester & Salford | 5 | 0 |  |
@@ -533,7 +533,7 @@ Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-09-0
 | Merseyside - St Helens & Knowsley |  |  |  |  |  |  |  |  |
 | Merseyside - Wirral |  |  |  |  |  |  |  |  |
 | Norfolk | 26 |  |  | CHECK |  |  |  |  |
-| North East | 102 | 2 | 9 |  | 5 | CHECK |  | 6 |
+| North East | 101 | 2 | 9 |  | 5 | CHECK |  | 6 |
 | North Scotland | 5 |  |  |  |  |  |  |  |
 | North Wales - East |  |  |  |  |  |  |  |  |
 | North Wales - West |  |  |  |  |  |  |  |  |
@@ -664,6 +664,6 @@ Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-09-0
 | Measure | Service admin | Support worker | Sales advisor | Paralegal | Marketing | Finance / Accounts | HR / Recruitment | CS / Contact centre |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
 | Live regions | 51 / 78 | 11 / 78 | 11 / 78 | 4 / 78 | 16 / 78 | 10 / 78 | 7 / 78 | 6 / 78 |
-| Live slice placements | 1407 | 44 + 1 CHECK | 137 | 25 + 1 CHECK | 187 | 13 + 8 CHECK | 30 | 34 |
+| Live slice placements | 1406 | 44 + 1 CHECK | 137 | 25 + 1 CHECK | 187 | 13 + 8 CHECK | 30 | 34 |
 
 **Live slices: 116 / 624.**
