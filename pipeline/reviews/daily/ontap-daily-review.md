@@ -34,7 +34,7 @@ _No new or changed human decisions required._
 ## NEJobs — 6 to review
 
 ---
-action:
+action: exclude
 POSS | NEJobs | North East - County Durham & Darlington/Hartlepool | Civic Centre, Hartlepool | £47,665 - £51,928 per annum | Practice Development Coordinator
 source_key: nejobs
 source: NEJobs
@@ -52,7 +52,7 @@ hub_fingerprint: 1a61d362a3205c1c8a48b0272c4c470da167f6c0fb073b344108134aa344dcb
 ---
 
 ---
-action:
+action: exclude
 POSS | NEJobs | North East - Tyneside, Wearside & Northumberland | Gateshead | £30,515 - £33,119 | Annual Review Officer (SEND)
 source_key: nejobs
 source: NEJobs
@@ -70,7 +70,7 @@ hub_fingerprint: 6d98904536e821ebe64543ec67372e2330a6ccd7422460a25518b5760a211d0
 ---
 
 ---
-action:
+action: exclude
 POSS | NEJobs | North East - Tyneside, Wearside & Northumberland | Gateshead | £43,149 - £46,579 | Simpler Recycling Projects Coordinator
 source_key: nejobs
 source: NEJobs
@@ -88,7 +88,7 @@ hub_fingerprint: 16c08877e602f03e0fef023d73373004a4424cd5dcaa4bc49997994d16972c5
 ---
 
 ---
-action:
+action: select
 POSS | NEJobs | North East - Tyneside, Wearside & Northumberland | Sunderland City Council (deri… | Grade 5 (SCP 17-22) £31,022 -… | Active Sunderland Weight Management S…
 source_key: nejobs
 source: NEJobs
@@ -106,7 +106,7 @@ hub_fingerprint: 6830beab6b9ee65ae5db4283e0f4693e03c32a72248a22a39b8f134fc0704db
 ---
 
 ---
-action:
+action: exclude
 POSS | NEJobs | North East - Tyneside, Wearside & Northumberland | Sunderland City Council (deri… | Grade 5 (SCP 17-22) £31,022 -… | Driving Assessment Officer
 source_key: nejobs
 source: NEJobs
@@ -124,7 +124,7 @@ hub_fingerprint: 8e63a03ce0789ce6a83694c06bb19b0b757dbefd16d5a7148dc09fb5f13b69f
 ---
 
 ---
-action:
+action: exclude
 POSS | NEJobs | North East - Tyneside, Wearside & Northumberland | Sunderland City Council (deri… | 4 (SCP 12 - 17) £28,598 - £31… | Environmental Enforcement Support Off…
 source_key: nejobs
 source: NEJobs
@@ -144,7 +144,7 @@ hub_fingerprint: 4ca12abde40da10b62d3450e75bfbacfcab22f14f2ed126c2b4eb30a1add296
 ## VONNE — 3 to review
 
 ---
-action:
+action: exclude
 POSS | VONNE | North East | Hybrid | £ Per Annum | Project Development Co-ordinator
 source_key: vonne
 source: VONNE
@@ -162,7 +162,7 @@ hub_fingerprint: 2504644706011993d13fbbeae417c59b60173eb9e209f7b20729309fc33985b
 ---
 
 ---
-action:
+action: select
 POSS | VONNE | North East - Tyneside, Wearside & Northumberland | Tyne and Wear | £29,024 to 31,856 Pro Rata | Project Coordinator - Neuro Team
 source_key: vonne
 source: VONNE
@@ -180,7 +180,7 @@ hub_fingerprint: 5c26e1cec4f76e5f55e6c2bfd2313b186d33aede333facf3bb0dff246889042
 ---
 
 ---
-action:
+action: select
 POSS | VONNE | North East - Tyneside, Wearside & Northumberland | Tyne and Wear | £23,370 to 23,790 | Receptionist
 source_key: vonne
 source: VONNE
@@ -200,7 +200,7 @@ hub_fingerprint: 84c2c6fd7152830b8f2c3816ea6b7a0a9deecf2410a41386c7a55728a4a95bf
 ## Teaching Vacancies — 21 to review
 
 ---
-action:
+action: select
 POSS | Teaching Vacancies | Bedfordshire | Luton, LU4 0PF | £16.62 - £17.85 Hourly | Governance Professional (Clerk)
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -218,7 +218,7 @@ hub_fingerprint: 27ef22e5cfb4e6cb3522624fd4f23b033d97db1f332c86c5c1d7404710189e4
 ---
 
 ---
-action:
+action: select
 POSS | Teaching Vacancies | Hertfordshire | Chorleywood, WD3 6EW | £29,540.00 Annually (FTE) | HR Advisor
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -236,7 +236,7 @@ hub_fingerprint: 63b4e126d7161a29af59f6b4707d4ecce289454298cb2b113bdaedd0133e476
 ---
 
 ---
-action:
+action: select
 POSS | Teaching Vacancies | Hertfordshire | St Albans, AL1 5AR | £27,600.00 - £28,906.00 Annually (Actual) Grade: H4 + Fringe Annual Salary: £27,600 progressing to £28,906 (Fringe allowance included) | MIS Administrator
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -254,7 +254,7 @@ hub_fingerprint: f15da0bebf34823275ac5049361d04f427b46a0b69ab1e0658e0f2252e510c8
 ---
 
 ---
-action:
+action: select
 POSS | Teaching Vacancies | Kent | Canterbury, CT1 1NQ | £28,182.00 Annually (FTE) Actual annual salary £ 26057.39 | HR administrator
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -272,7 +272,7 @@ hub_fingerprint: 2cb63b58beb5bae384e9e052e7d9410c3f0dc582b6d8cca6b7a6e00b205fa43
 ---
 
 ---
-action:
+action: select
 POSS | Teaching Vacancies | Kent | Sheerness, South East, ME12 3AP | £8,557.00 - £8,693.00 Annually (Actual) | Receptionist
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -290,7 +290,7 @@ hub_fingerprint: 1bc4d13ea6c2ee61d760d55cbded78b35311c5e01857d2d620f75de6e289be0
 ---
 
 ---
-action:
+action: select
 POSS | Teaching Vacancies | Lincolnshire | Grimsby, Yorkshire and the Humber, DN34 5AH | £26,060.00 - £28,284.00 Annually (Actual) | Data Officer
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -308,7 +308,7 @@ hub_fingerprint: e7e6d911caba546843e9ae522764ab3b55f5de17fdddfddbb35807f6d688240
 ---
 
 ---
-action:
+action: select
 POSS | Teaching Vacancies | Lincolnshire | Spalding, East Midlands, PE11 2EH | £23,973.00 - £26,409.00 Annually (Actual) G5.12-15 £27,254 - £30,024 FTE | HR Administrator
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -326,7 +326,7 @@ hub_fingerprint: 49188d67866c546cc12434263960a78ecc42aedcb4669b54e7c0abc7f608016
 ---
 
 ---
-action:
+action: select
 POSS | Teaching Vacancies | London | Borehamwood, East of England, WD6 2DW | £25,583.00 - £25,989.00 Annually (FTE) Hours Required: 8.30am to 3.30pm | Administrator
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -344,7 +344,7 @@ hub_fingerprint: 78a3e99b6bd8cb41fd331d48a203a50e9603a7e272eded8b52a439c26dd5e73
 ---
 
 ---
-action:
+action: select
 POSS | Teaching Vacancies | London | Harrow, London, HA2 9AG | £14,166.00 Annually (Actual) | Receptionist & Admin Assistant
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -362,7 +362,7 @@ hub_fingerprint: 713fbd5a3b8f904da63276b96b3ad8cc3e49f91f08e0ef47701ef1a7498c467
 ---
 
 ---
-action:
+action: select
 POSS | Teaching Vacancies | London | London, London, E15 3DN | Scaled 3 (dependent on experience) £25,524 Pro Rata | Administrative Assistant
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -380,7 +380,7 @@ hub_fingerprint: 994387633e5f9b980010b1d7809ea0d46af0b291fdf399e613f120c2b586caf
 ---
 
 ---
-action:
+action: select
 POSS | Teaching Vacancies | London | London, London, SW16 6NP | Grade 3 - Salary Spine point 5 to 6 - £31,086 to £31,530 (actual £28,592 to £29,002) | Office Administrator
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -398,7 +398,7 @@ hub_fingerprint: 1984d1007b1a095a4dda5ca99086c8a7bb05c0290fbf4c309e4192be1be9e49
 ---
 
 ---
-action:
+action: select
 POSS | Teaching Vacancies | London | London, London, SW4 0AJ | £29,805.00 Annually (Actual) Inner London payscale Spine Point 2 | Receptionist / Administrator
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -416,7 +416,7 @@ hub_fingerprint: 93a10592e03ed9d3f693438018eded1145b943920f3a912cde877298ba7ec1f
 ---
 
 ---
-action:
+action: select
 POSS | Teaching Vacancies | London | Northwood, London, HA6 1QN | £28,790.00 - £30,000.00 Annually (Actual) | Attendance and Pastoral Support Worker
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -434,7 +434,7 @@ hub_fingerprint: d8571485bbe494c4543011935a6fbea6f9b5ed36216d0a555de2772f14897e1
 ---
 
 ---
-action:
+action: select
 POSS | Teaching Vacancies | London | Osterley, London, TW7 5PN | 28,195.00 - 29,852.00 | School Administrator
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -452,7 +452,7 @@ hub_fingerprint: 49f608949386027b12514963c345f9f8a23231c1a6a2e4bc2f5344ca08ca33f
 ---
 
 ---
-action:
+action: select
 POSS | Teaching Vacancies | Oxfordshire | Oxford, South East, OX3 9WN | £26,824.00 Annually (FTE) Actual annual salary is £12,016 for 19.5 hours per week term time only plus 3 inset days | Office Administrator
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -470,7 +470,7 @@ hub_fingerprint: 5ac2163c06159d1e25b77086c07e93aabb73a2d59fba3834fb30daa93020631
 ---
 
 ---
-action:
+action: select
 POSS | Teaching Vacancies | Sussex | Crawley, South East, RH10 6DG | Associate 3 Actual Salary - £21,643.44 to £23,380. | Office Manager
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -488,7 +488,7 @@ hub_fingerprint: 44d84c4c702740383e6df6a0e3ae47ba32795c55b0d6e215664eb39ab001208
 ---
 
 ---
-action:
+action: select
 POSS | Teaching Vacancies | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B31 4BS | £28,827.30 - £28,827.30 Annually (Actual) Pro Rata Salary: £28,827.30 (FTE £32,677) | Exam's and Data Officer
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -506,7 +506,7 @@ hub_fingerprint: 66c8b355ec8eda3407e4fb0b83aa89cb222ded2aa87e6c0cc6f1b64983cf714
 ---
 
 ---
-action:
+action: select
 POSS | Teaching Vacancies | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B45 0EU | £22,121.00 Annually (Actual) | Receptionist
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -524,7 +524,7 @@ hub_fingerprint: a1905a7e887a5f5e0f667ce28f3d2d66e460d6fe83635c756dcc383ebf0e0a4
 ---
 
 ---
-action:
+action: select
 POSS | Teaching Vacancies | West Midlands - Black Country | Wednesbury, West Midlands, WS10 7PZ | £22,828 – £23,935 | Office Administrator
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -542,7 +542,7 @@ hub_fingerprint: 14d9d135660ee449d5023a33ffcb36825276d571431f5c12daeb2db23cccd09
 ---
 
 ---
-action:
+action: select
 POSS | Teaching Vacancies | Wiltshire | Salisbury, South West, SP2 8JZ | £8,751.00 - £9,031.00 Annually (Actual) Wiltshire Grade D - rises incrementally each year from point 4 to 6 (FTE for 25/26 is £25,185 - £25,989) | Admin Officer (SEND and Attendance focus)
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -560,7 +560,7 @@ hub_fingerprint: 3d1c5f69008e465d17ac9abef2f371a65d8e3f3551c9fd35be32e36ffd6fd41
 ---
 
 ---
-action:
+action: exclude
 POSS | Teaching Vacancies | Worcestershire | Redditch, West Midlands, B98 0GF | £21,327.00 - £21,662.00 Annually (Actual) | Reprographics Officer
 source_key: teaching_vacancies
 source: Teaching Vacancies
