@@ -1,6 +1,6 @@
 # Service-admin manual review
 
-feed_date: 2026-09-03
+feed_date: 2026-09-04
 
 Edit only the `action:` line in each block:
 
@@ -10,18 +10,6 @@ Edit only the `action:` line in each block:
 - Manual edits are matched by `job_id`.
 
 ## WEST YORKSHIRE — SELECTED
-
----
-action:
-SELECTED | Yorkshire - West | Leeds | £38000 - £45000 per year | Executive Assistant
-job_id: 23643_225460895
----
-
----
-action:
-SELECTED | Yorkshire - West | Huddersfield | £12.71 per hour | Receptionist / Dental
-job_id: 23643_225463726
----
 
 ---
 action:
@@ -277,12 +265,6 @@ job_id: 23643_225515295
 
 ---
 action:
-SELECTED | Yorkshire - South | Doncaster | £13.5 per hour | Account Coordinator - Part Time
-job_id: 107804866
----
-
----
-action:
 SELECTED | Yorkshire - South | Brinsworth | £25000 - £26500 per year | Part Time Receptionist/Administrative Assistant
 job_id: 23643_225516026
 ---
@@ -331,36 +313,6 @@ job_id: 23643_225546545
 
 ---
 action:
-SELECTED | Yorkshire - South | Sheffield |  | Call Centre Operator - Uncapped Commission
-job_id: 20279_62295-73862c8b83139033e4e4a8b6efca9a33
----
-
----
-action:
-SELECTED | Yorkshire - South | Sheffield |  | Call Centre Agent - Uncapped Commission
-job_id: 20279_62295-89740a075c6163b74ea2c52702062e5d
----
-
----
-action:
-SELECTED | Yorkshire - South | Sheffield |  | Contact Centre Agent - Uncapped Commission
-job_id: 20279_62295-d24d3d6916a209e15b1680693740da2f
----
-
----
-action:
-SELECTED | Yorkshire - South | Sheffield |  | Customer Service Advisor - Uncapped Commission
-job_id: 20279_62295-153faf593eb64b88272f45adeaa28d87
----
-
----
-action:
-SELECTED | Yorkshire - South | Doncaster | £14 per hour | Care Coordinator
-job_id: 107910255
----
-
----
-action:
 SELECTED | Yorkshire - South | Doncaster | £35000 per year | Sales & Marketing Coordinator
 job_id: 107771227
 ---
@@ -373,14 +325,20 @@ job_id: 21618_20279_62308-153faf593eb64b88272f45adeaa28d87
 
 ---
 action:
-SELECTED | Yorkshire - South | Doncaster |  | Customer Service Advisor
-job_id: 20279_62308-153faf593eb64b88272f45adeaa28d87
+SELECTED | Yorkshire - South | Sheffield | £12.71 - £13 per hour | Part Time Administrator - 12 Hour Per Week
+job_id: 23643_225558215
 ---
 
 ---
 action:
-SELECTED | Yorkshire - South | Sheffield | £12.71 - £13 per hour | Part Time Administrator - 12 Hour Per Week
-job_id: 23643_225558215
+SELECTED | Yorkshire - South | Sheffield | £26910 per year | Sales & Operations Coordinator
+job_id: 23643_225563636
+---
+
+---
+action:
+SELECTED | Yorkshire - South | Doncaster | £13.5 per hour | Account Coordinator - Part Time
+job_id: 107804866
 ---
 
 ## SOUTH YORKSHIRE — POSSIBLES
@@ -396,42 +354,6 @@ _No jobs in this group._
 _No jobs in this group._
 
 ## LONDON — SELECTED
-
----
-action:
-SELECTED | London | Broxbourne | £17 - £18 per hour | Customer Service Advisor
-job_id: 23643_225461934
----
-
----
-action:
-SELECTED | London | London | £25000 per year | Probate Administrator
-job_id: 23643_225461671
----
-
----
-action:
-SELECTED | London | Loughton | £28000 - £32000 per year | Office Assistant / Administrator
-job_id: 23643_225463028
----
-
----
-action:
-SELECTED | London | Hammersmith And Fulham | £28000 per year | Receptionist
-job_id: 23643_225464987
----
-
----
-action:
-SELECTED | London | London | £16 - £25 per hour | Temporary Executive Assistant / Administrator
-job_id: 23643_225465331
----
-
----
-action:
-SELECTED | London | London | £30000 - £35000 per year | Town Planner
-job_id: 23643_223514356
----
 
 ---
 action:
@@ -1089,12 +1011,6 @@ job_id: 107786275
 
 ---
 action:
-SELECTED | London | South Croydon | £27000 per year ((depending on experience)) | Receptionist/Administrator
-job_id: 20091_322762
----
-
----
-action:
 SELECTED | London | London |  | The Free Churches Group Secretary for Prison Chaplaincy
 job_id: 1830018
 ---
@@ -1149,18 +1065,6 @@ job_id: 23643_225558473
 
 ---
 action:
-SELECTED | London | London |  | Bid Coordinator
-job_id: 107793877
----
-
----
-action:
-SELECTED | London | London |  | HR Administrator (Maternity Cover, Part-Time)
-job_id: 1842834
----
-
----
-action:
 SELECTED | London | London | £33000 - £35000 per year | Member Events Coordinator
 job_id: 23643_225561914
 ---
@@ -1185,8 +1089,56 @@ job_id: 23643_225563140
 
 ---
 action:
+SELECTED | London | Croydon | £35000 per year | Sales and Marketing Coordinator
+job_id: 107929803
+---
+
+---
+action:
+SELECTED | London | London | £14.5 per hour | Administrator
+job_id: 23643_225564148
+---
+
+---
+action:
+SELECTED | London | London | £14.24 - £15 per hour | Medical Receptionist
+job_id: 23643_225566815
+---
+
+---
+action:
+SELECTED | London | London | £29000 - £32000 per year | Operations Administrator
+job_id: 23643_225565627
+---
+
+---
+action:
 SELECTED | London | London | £25000 per year (25K plus bens) | Education Administrator
 job_id: 23643_225512635
+---
+
+---
+action:
+SELECTED | London | London | £30000 - £35000 per year | Town Planner
+job_id: 23643_223514356
+---
+
+---
+action:
+SELECTED | London | London | £25000 - £29103 per year (6 month fixed term conrtact) | Customer Service Advisor (6 month contract)
+job_id: 23643_225568316
+---
+
+---
+action:
+SELECTED | London | London | £30000 per year | Content Coordinator
+job_id: 107936054
+---
+
+---
+action:
+SELECTED | London | London |  | Executive Assistant and Board Administrator
+job_id: 1854985
 ---
 
 ## LONDON — POSSIBLES
@@ -1198,12 +1150,6 @@ job_id: 23643_225530777
 ---
 
 ## HAMPSHIRE — SELECTED
-
----
-action:
-SELECTED | Hampshire | Hampshire |  | Personal Assistant
-job_id: 23643_225460894
----
 
 ---
 action:
@@ -1357,12 +1303,6 @@ job_id: 1786588
 
 ---
 action:
-SELECTED | Hampshire | Hampshire |  | Customer Service Advisor
-job_id: 1786242
----
-
----
-action:
 SELECTED | Hampshire | Hampshire | £24000 per year | Customer Service Advisor
 job_id: 1770069
 ---
@@ -1443,12 +1383,6 @@ job_id: 1692885
 action:
 SELECTED | Hampshire | Hampshire | £27000 - £30000 per year | Account Coordinator
 job_id: 23643_225529475
----
-
----
-action:
-SELECTED | Hampshire | Hampshire | £32500 per year | Service Coordinator
-job_id: 23643_225534205
 ---
 
 ---
@@ -1541,6 +1475,24 @@ SELECTED | Hampshire | Hampshire | £28300 - £28500 per year | Customer Service
 job_id: 23643_225564928
 ---
 
+---
+action:
+SELECTED | Hampshire | Hampshire | £13.1 - £14.1 per hour | Customer Service Advisor
+job_id: 23643_225566529
+---
+
+---
+action:
+SELECTED | Hampshire | Hampshire |  | Receptionist/ Front of House
+job_id: 23643_225564118
+---
+
+---
+action:
+SELECTED | Hampshire | Hampshire |  | Office Administrators
+job_id: 23643_225566708
+---
+
 ## HAMPSHIRE — POSSIBLES
 
 ---
@@ -1550,18 +1502,6 @@ job_id: 107910998
 ---
 
 ## SURREY — SELECTED
-
----
-action:
-SELECTED | Surrey | Surrey | £23000 - £24784 per year (Good Benefits) | Junior Airtime Administrator
-job_id: 23643_225462488
----
-
----
-action:
-SELECTED | Surrey | Surrey | £28000 - £31000 per year (Permanent + Full Time) | Receptionist / Administrator
-job_id: 23643_225462857
----
 
 ---
 action:
@@ -1715,12 +1655,6 @@ job_id: 1771672
 
 ---
 action:
-SELECTED | Surrey | Surrey |  | Part Time - Term Time - Medical Administrator
-job_id: 1771002
----
-
----
-action:
 SELECTED | Surrey | Surrey |  | Korean speaking Sales Administrator
 job_id: 1783302
 ---
@@ -1729,12 +1663,6 @@ job_id: 1783302
 action:
 SELECTED | Surrey | Surrey | £13.50 per hour | Temporary Appointment Scheduler
 job_id: 1733551
----
-
----
-action:
-SELECTED | Surrey | Surrey | £13.50 per hour | Contact Centre Agent
-job_id: 1733521
 ---
 
 ---
@@ -1851,6 +1779,18 @@ SELECTED | Surrey | Surrey | £12 - £15 per hour | Receptionist
 job_id: 23643_225561746
 ---
 
+---
+action:
+SELECTED | Surrey | Surrey | £26000 - £28000 per year ((Fully Remote)) | Operations Assistant
+job_id: 23643_225566200
+---
+
+---
+action:
+SELECTED | Surrey | Surrey | £28000 - £31000 per year (Permanent + Full Time) | Receptionist / Administrator
+job_id: 23643_225462857
+---
+
 ## SURREY — POSSIBLES
 
 ---
@@ -1860,18 +1800,6 @@ job_id: 23643_225562897
 ---
 
 ## KENT — SELECTED
-
----
-action:
-SELECTED | Kent | Kent | £14.5 per hour | Hr Administrator
-job_id: 23643_225461884
----
-
----
-action:
-SELECTED | Kent | Kent | £35000 - £38000 per year | Service & Quotations Coordinator
-job_id: 23643_225463025
----
 
 ---
 action:
@@ -1931,12 +1859,6 @@ job_id: 23643_225475645
 action:
 SELECTED | Kent | Kent | £29000 - £31000 per year | Home Administrator
 job_id: 23643_225477097
----
-
----
-action:
-SELECTED | Kent | Kent | £35000 per year | Service & Quotations Coordinator
-job_id: 107804446
 ---
 
 ---
@@ -2185,17 +2107,29 @@ SELECTED | Kent | Kent | £28000 - £30000 per year (FTE) | Part time Administra
 job_id: 23643_225563125
 ---
 
+---
+action:
+SELECTED | Kent | Kent |  | Customer Care Coordinator
+job_id: 107935818
+---
+
+---
+action:
+SELECTED | Kent | Kent | £35000 per year | Service & Quotations Coordinator
+job_id: 107804446
+---
+
+---
+action:
+SELECTED | Kent | Kent | £27000 per year | Insurance Administrator Friendly team + 25 days A/L
+job_id: 23643_225568322
+---
+
 ## KENT — POSSIBLES
 
 _No jobs in this group._
 
 ## SUSSEX — SELECTED
-
----
-action:
-SELECTED | Sussex | Sussex |  | Administrator
-job_id: 23643_225460713
----
 
 ---
 action:
@@ -2359,6 +2293,12 @@ SELECTED | Sussex | Sussex | £13 - £13.5 per hour | Receptionist
 job_id: 23643_225448794
 ---
 
+---
+action:
+SELECTED | Sussex | Sussex | £26000 - £28000 per year | Internal Sales Coordinator
+job_id: 23643_225564678
+---
+
 ## SUSSEX — POSSIBLES
 
 _No jobs in this group._
@@ -2480,7 +2420,11 @@ job_id: 107925904
 
 ## COVENTRY & WARWICKSHIRE — POSSIBLES
 
-_No jobs in this group._
+---
+action:
+POSS - COVENTRY & WARWICKSHIRE | West Midlands - Coventry & Warwickshire | Warwickshire | £28000 - £32000 per year | Accounts Assistant (AR)
+job_id: 1744021
+---
 ## BEDFORDSHIRE — SELECTED
 
 ---
@@ -2549,6 +2493,12 @@ SELECTED | Bedfordshire | Bedfordshire |  | Operations Administrator
 job_id: 23643_225564132
 ---
 
+---
+action:
+SELECTED | Bedfordshire | Bedfordshire | £28000 per year | Early Careers Coordinator
+job_id: 107933358
+---
+
 ## BEDFORDSHIRE — POSSIBLES
 
 _No jobs in this group._
@@ -2595,6 +2545,12 @@ job_id: 1786866
 action:
 SELECTED | Berkshire | Berkshire | £32000 - £38000 per year | PA TO THE CEO
 job_id: 1786825
+---
+
+---
+action:
+SELECTED | Berkshire | Berkshire | £35000 per year | HR Administrator
+job_id: 1770760
 ---
 
 ---
@@ -2679,6 +2635,12 @@ job_id: 23643_225223268
 action:
 SELECTED | Berkshire | Berkshire | £13.5 per hour | Receptionist
 job_id: 23643_225556755
+---
+
+---
+action:
+SELECTED | Berkshire | Berkshire |  | Regional Marketing Coordinator
+job_id: 107922025
 ---
 
 ## BERKSHIRE — POSSIBLES
@@ -2825,24 +2787,12 @@ SELECTED | Bristol & Bath | Bristol | £25000 per year (Holiday, Pension, Parkin
 job_id: 23643_225557766
 ---
 
----
-action:
-SELECTED | Bristol & Bath | Bristol |  | HR & Office Coordinator
-job_id: 1846334
----
-
 ## BRISTOL & BATH — POSSIBLES
 
 ---
 action:
 POSS - BRISTOL & BATH | Bristol & Bath | Bristol | £10000 - £35000 per year (Pension, flexible benefits) | Executive Assistant
 job_id: 23643_225564040
----
-
----
-action:
-POSS - BRISTOL & BATH | Bristol & Bath | Bristol | £35000 per year | Executive Assistant
-job_id: 107932845
 ---
 
 ## BUCKINGHAMSHIRE — SELECTED
@@ -2903,12 +2853,6 @@ job_id: 1734734
 
 ---
 action:
-SELECTED | Buckinghamshire | Buckinghamshire |  | Admin Assistant - Bank - Care Home
-job_id: 1779175
----
-
----
-action:
 SELECTED | Buckinghamshire | Buckinghamshire | £35000 - £40000 per year | Sales Support Coordinator
 job_id: 23643_225528642
 ---
@@ -2965,6 +2909,12 @@ job_id: 23643_225559029
 action:
 SELECTED | Buckinghamshire | Buckinghamshire | £30000 - £35000 per year | Business Coordinator/ Junior PA
 job_id: 23643_225427059
+---
+
+---
+action:
+SELECTED | Buckinghamshire | Buckinghamshire | £14.05 per hour | Administrator
+job_id: 23643_225565413
 ---
 
 ## BUCKINGHAMSHIRE — POSSIBLES
@@ -3185,12 +3135,6 @@ _No jobs in this group._
 
 ---
 action:
-SELECTED | Derbyshire | Derbyshire | £28000 per year (£28,000) | Customer Services Administrator
-job_id: 23643_225461525
----
-
----
-action:
 SELECTED | Derbyshire | Derbyshire | £12.71 per hour | Admin Advertiser
 job_id: 23643_225511181
 ---
@@ -3217,6 +3161,12 @@ job_id: 1772101
 action:
 SELECTED | Derbyshire | Derbyshire |  | Customer Services Administrator
 job_id: 1748868
+---
+
+---
+action:
+SELECTED | Derbyshire | Derbyshire |  | Customer Services Administrator
+job_id: 1743975
 ---
 
 ---
@@ -3254,24 +3204,6 @@ job_id: 23643_225470678
 _No jobs in this group._
 
 ## DEVON — SELECTED
-
----
-action:
-SELECTED | Devon | Devon | £12.71 per hour | Receptionist / Admin Assistant
-job_id: 23643_225461743
----
-
----
-action:
-SELECTED | Devon | Devon | £12.87 per hour | Customer Service Advisor
-job_id: 23643_225462053
----
-
----
-action:
-SELECTED | Devon | Devon | £13.5 - £14.5 per hour | Temporary Part Time Administrator Immediate Start
-job_id: 23643_225463000
----
 
 ---
 action:
@@ -3347,21 +3279,25 @@ job_id: 107893592
 
 ---
 action:
+SELECTED | Devon | Devon | £13.5 per hour | Complaints Administrator
+job_id: 23643_225563591
+---
+
+---
+action:
 SELECTED | Devon | Devon |  | Customer Care Coordinator
 job_id: 107927670
 ---
 
 ## DEVON — POSSIBLES
 
-_No jobs in this group._
-
-## DORSET — SELECTED
-
 ---
 action:
-SELECTED | Dorset | Dorset | £28000 - £30000 per year | Project Coordinator
-job_id: 23643_225465013
+POSS - DEVON | Devon | Devon | £35000 per year | Client Services Coordinator
+job_id: 107936510
 ---
+
+## DORSET — SELECTED
 
 ---
 action:
@@ -3401,12 +3337,6 @@ job_id: 1766324
 
 ---
 action:
-SELECTED | Dorset | Dorset |  | French or Spanish speaking Administrator
-job_id: 1733085
----
-
----
-action:
 SELECTED | Dorset | Dorset |  | Operations Coordinator
 job_id: 1708177
 ---
@@ -3419,20 +3349,8 @@ job_id: 1789718
 
 ---
 action:
-SELECTED | Dorset | Dorset | £15.33 per hour (£15.33) | Receptionist
-job_id: 23643_225532057
----
-
----
-action:
 SELECTED | Dorset | Dorset | £26000 - £31000 per year (25 days hols) | Trust Administrator
 job_id: 23643_225429242
----
-
----
-action:
-SELECTED | Dorset | Dorset |  | Purchase Ledger Administrator Sage 200
-job_id: 107896691
 ---
 
 ---
@@ -3447,47 +3365,17 @@ SELECTED | Dorset | Dorset | £14.9 per hour | Customer Service Coordinator
 job_id: 23643_225561857
 ---
 
+---
+action:
+SELECTED | Dorset | Dorset | £28000 - £30000 per year | Customer Service Coordinator
+job_id: 23643_225464999
+---
+
 ## DORSET — POSSIBLES
 
 _No jobs in this group._
 
 ## ESSEX — SELECTED
-
----
-action:
-SELECTED | Essex | Essex | £31000 - £35500 per year | Projects Coordinator
-job_id: 23643_225462773
----
-
----
-action:
-SELECTED | Essex | Essex | £31000 - £35500 per year | Projects Administrator
-job_id: 23643_225462925
----
-
----
-action:
-SELECTED | Essex | Essex | £12.71 per hour | Tenancy Administrator
-job_id: 23643_225461819
----
-
----
-action:
-SELECTED | Essex | Essex | £26000 - £28000 per year | Repairs Coordinator (Entry Level)
-job_id: 23643_225464097
----
-
----
-action:
-SELECTED | Essex | Essex | £32000 - £35000 per year | Repairs Coordinator
-job_id: 23643_225464120
----
-
----
-action:
-SELECTED | Essex | Essex | £12.71 per hour | Receptionist
-job_id: 23643_225464133
----
 
 ---
 action:
@@ -3681,6 +3569,24 @@ SELECTED | Essex | Essex | £15 per hour | Office Administrator
 job_id: 23643_225564744
 ---
 
+---
+action:
+SELECTED | Essex | Essex | £31000 - £35500 per year | Projects Coordinator
+job_id: 23643_225462773
+---
+
+---
+action:
+SELECTED | Essex | Essex | £31000 - £35500 per year | Projects Administrator
+job_id: 23643_225462925
+---
+
+---
+action:
+SELECTED | Essex | Essex | £12.71 per hour | Receptionist
+job_id: 23643_225464133
+---
+
 ## ESSEX — POSSIBLES
 
 _No jobs in this group._
@@ -3815,14 +3721,14 @@ job_id: 107876563
 
 ---
 action:
-SELECTED | Gloucestershire | Gloucestershire |  | IS Management Coordinator
-job_id: 107831167
+SELECTED | Gloucestershire | Gloucestershire | £13.45 per hour (+ Holiday Allowance) | Customer Service Coordinator
+job_id: 107801465
 ---
 
 ---
 action:
-SELECTED | Gloucestershire | Gloucestershire | £13.45 per hour (+ Holiday Allowance) | Customer Service Coordinator
-job_id: 107801465
+SELECTED | Gloucestershire | Gloucestershire |  | Sales Coordinator
+job_id: 107900135
 ---
 
 ---
@@ -3831,17 +3737,17 @@ SELECTED | Gloucestershire | Gloucestershire | £26000 per year | Pricing & Cont
 job_id: 107864459
 ---
 
+---
+action:
+SELECTED | Gloucestershire | Gloucestershire | £28000 - £30000 per year | Service Coordinator
+job_id: 23643_225565298
+---
+
 ## GLOUCESTERSHIRE — POSSIBLES
 
 _No jobs in this group._
 
 ## GREATER MANCHESTER - MANCHESTER & SALFORD — SELECTED
-
----
-action:
-SELECTED | Greater Manchester - Manchester & Salford | Manchester | £24999 - £25878 per year | Team Support Coordinator
-job_id: 23643_225461115
----
 
 ---
 action:
@@ -3901,6 +3807,12 @@ job_id: 1785916
 action:
 SELECTED | Greater Manchester - Manchester & Salford | Manchester |  | Casualty Claims Handler
 job_id: 1785991
+---
+
+---
+action:
+SELECTED | Greater Manchester - Manchester & Salford | Manchester | £13.46 per hour | HR Administrator
+job_id: 1743298
 ---
 
 ---
@@ -4007,7 +3919,11 @@ job_id: 1664753
 
 ## GREATER MANCHESTER - MANCHESTER & SALFORD — POSSIBLES
 
-_No jobs in this group._
+---
+action:
+POSS - GREATER MANCHESTER - MANCHESTER & SALFORD | Greater Manchester - Manchester & Salford | Manchester | £14.5 - £16.5 per hour | Conveyancing Secretary
+job_id: 23643_225564604
+---
 
 ## GREATER MANCHESTER - SOUTH — SELECTED
 
@@ -4301,8 +4217,14 @@ job_id: 107798822
 
 ---
 action:
-SELECTED | Hertfordshire | Hertfordshire |  | Contracts Administrator
-job_id: 107580099
+SELECTED | Hertfordshire | Hertfordshire | £25000 per year | Administrator
+job_id: 23643_225565093
+---
+
+---
+action:
+SELECTED | Hertfordshire | Hertfordshire | £28000 per year (benefits) | Merchandise Administrator
+job_id: 23643_225564863
 ---
 
 ## HERTFORDSHIRE — POSSIBLES
@@ -4310,12 +4232,6 @@ job_id: 107580099
 _No jobs in this group._
 
 ## LEICESTERSHIRE — SELECTED
-
----
-action:
-SELECTED | Leicestershire | Leicestershire | £13.91 per hour | Personal Assistant
-job_id: 23643_225461629
----
 
 ---
 action:
@@ -4473,28 +4389,26 @@ SELECTED | Leicestershire | Leicestershire | £26000 - £28000 per year (Mon-Fri
 job_id: 23643_225563154
 ---
 
+---
+action:
+SELECTED | Leicestershire | Leicestershire |  | PA - Commercial, Technology & IP
+job_id: 23643_225566284
+---
+
 ## LEICESTERSHIRE — POSSIBLES
 
-_No jobs in this group._
+---
+action:
+POSS - LEICESTERSHIRE | Leicestershire | Leicestershire | £50000 per year | Salesforce Analyst & Administrator (Cyber Security)
+job_id: 107929699
+---
 
 ## LINCOLNSHIRE — SELECTED
 
 ---
 action:
-SELECTED | Lincolnshire | Lincolnshire |  | Business Ventures Administrator
-job_id: 23643_225462000
----
-
----
-action:
 SELECTED | Lincolnshire | Lincolnshire | £28500 - £32500 per year (Generous Package) | Marketing Coordinator
 job_id: 23643_225476109
----
-
----
-action:
-SELECTED | Lincolnshire | Lincolnshire | £26500 per year | Administrator
-job_id: 23643_225523480
 ---
 
 ---
@@ -4591,6 +4505,12 @@ job_id: 23643_225558463
 action:
 SELECTED | Merseyside - Liverpool | Liverpool | £25000 - £30000 per year | Bookkeeper / Accounts Assistant
 job_id: 1848342
+---
+
+---
+action:
+SELECTED | Merseyside - Liverpool | Liverpool | £25,000 to £30,000 per annum | Bookkeeper / Accounts Assistant
+job_id: 419438022493208576037340
 ---
 
 ## MERSEYSIDE - LIVERPOOL — POSSIBLES
@@ -4971,8 +4891,20 @@ job_id: 2050773
 
 ---
 action:
+SELECTED | Northern Ireland - East | Belfast | £13.19 per hour | Contact Centre Executive
+job_id: 2050717
+---
+
+---
+action:
 SELECTED | Northern Ireland - East | Belfast | £13 - £14 per hour | Receptionist (Immediate Start)
 job_id: 2050694
+---
+
+---
+action:
+SELECTED | Northern Ireland - East | Belfast |  | Customer Service Assistant
+job_id: 2050586
 ---
 
 ---
@@ -5079,7 +5011,11 @@ job_id: 107922303
 
 ## NORTHERN IRELAND - EAST — POSSIBLES
 
-_No jobs in this group._
+---
+action:
+POSS - NORTHERN IRELAND - EAST | Northern Ireland - East | Belfast | £16 per hour | Receptionist and Patient co-ordinator
+job_id: 2050528
+---
 
 ## NOTTINGHAMSHIRE — SELECTED
 
@@ -5129,12 +5065,6 @@ job_id: 23643_225519438
 action:
 SELECTED | Nottinghamshire | Nottinghamshire |  | Bid Coordinator
 job_id: 107830819
----
-
----
-action:
-SELECTED | Nottinghamshire | Nottinghamshire | £13.5 per hour | Recruitment Account Coordinator
-job_id: 107803492
 ---
 
 ---
@@ -5197,29 +5127,17 @@ SELECTED | Nottinghamshire | Nottinghamshire | £15 - £18 per hour | Administra
 job_id: 23643_225559400
 ---
 
+---
+action:
+SELECTED | Nottinghamshire | Nottinghamshire | £13.5 per hour | Recruitment Account Coordinator
+job_id: 107803492
+---
+
 ## NOTTINGHAMSHIRE — POSSIBLES
 
 _No jobs in this group._
 
 ## OXFORDSHIRE — SELECTED
-
----
-action:
-SELECTED | Oxfordshire | Oxfordshire | £26000 per year | Sales and Parts Administrator
-job_id: 23643_225461932
----
-
----
-action:
-SELECTED | Oxfordshire | Oxfordshire | £14.35 per hour | Temporary Administrator
-job_id: 23643_225463257
----
-
----
-action:
-SELECTED | Oxfordshire | Oxfordshire | £13 - £14 per hour | Administrator
-job_id: 23643_225464294
----
 
 ---
 action:
@@ -5371,17 +5289,33 @@ SELECTED | Oxfordshire | Oxfordshire | £14 per hour (Holiday pay) | Temporary O
 job_id: 23643_225560219
 ---
 
-## OXFORDSHIRE — POSSIBLES
-
-_No jobs in this group._
-
-## SCOTLAND CENTRAL - EDINBURGH & LOTHIANS — SELECTED
+---
+action:
+SELECTED | Oxfordshire | Oxfordshire | £26000 per year | Sales and Parts Administrator
+job_id: 23643_225461932
+---
 
 ---
 action:
-SELECTED | Scotland Central - Edinburgh & Lothians | Edinburgh | £23000 - £26000 per year | Administrator
-job_id: 23643_225461959
+SELECTED | Oxfordshire | Oxfordshire | £13 - £14 per hour | Administrator
+job_id: 23643_225464294
 ---
+
+## OXFORDSHIRE — POSSIBLES
+
+---
+action:
+POSS - OXFORDSHIRE | Oxfordshire | Oxfordshire | £29000 - £35000 per year (career development) | Sales Administrator
+job_id: 23643_225563866
+---
+
+---
+action:
+POSS - OXFORDSHIRE | Oxfordshire | Oxfordshire | £35000 per year | Global Learning & Development Coordinator
+job_id: 107936162
+---
+
+## SCOTLAND CENTRAL - EDINBURGH & LOTHIANS — SELECTED
 
 ---
 action:
@@ -5429,12 +5363,6 @@ job_id: 23643_225542471
 action:
 SELECTED | Scotland Central - Edinburgh & Lothians | Edinburgh | £13 per hour | Temporary Adhoc Receptionist
 job_id: 23643_225546858
----
-
----
-action:
-SELECTED | Scotland Central - Edinburgh & Lothians | Edinburgh |  | Faculties Coordinator
-job_id: 1804346
 ---
 
 ---
@@ -5493,19 +5421,13 @@ POSS - SCOTLAND CENTRAL - TAYSIDE | Scotland Central - Tayside | Forfar | £3000
 job_id: 23643_225556195
 ---
 
+---
+action:
+POSS - SCOTLAND CENTRAL - TAYSIDE | Scotland Central - Tayside | Kirriemuir | £35000 per year | Agricultural Machinery Sales Admin (Progression to Coordinator)
+job_id: 107922956
+---
+
 ## SCOTLAND WEST - GLASGOW — SELECTED
-
----
-action:
-SELECTED | Scotland West - Glasgow | Glasgow | £12.82 per hour (Depending on experience) | Customer Service Administrator - Immediate Start
-job_id: 23643_225461921
----
-
----
-action:
-SELECTED | Scotland West - Glasgow | Glasgow | £27500 - £33000 per year (Depending on experience) | Office Administrator
-job_id: 23643_225465361
----
 
 ---
 action:
@@ -5689,12 +5611,6 @@ job_id: 107861789
 
 ---
 action:
-SELECTED | Somerset | Somerset |  | SAP Data Coordinator
-job_id: 107804771
----
-
----
-action:
 SELECTED | Somerset | Somerset | £13.00 per hour | Temporary Receptionist Immediate Start
 job_id: 1772235
 ---
@@ -5753,23 +5669,17 @@ SELECTED | Somerset | Somerset | £12.71 per hour | Temporary Administrator Imme
 job_id: 23643_225556047
 ---
 
+---
+action:
+SELECTED | Somerset | Somerset |  | Property Maintenance Administrator
+job_id: 23643_225565833
+---
+
 ## SOMERSET — POSSIBLES
 
 _No jobs in this group._
 
 ## STAFFORDSHIRE — SELECTED
-
----
-action:
-SELECTED | Staffordshire | Staffordshire | £26320 per year | Client Services Administrator
-job_id: 23643_225462046
----
-
----
-action:
-SELECTED | Staffordshire | Staffordshire | £27900 per year | French Speaking Sales Administrator
-job_id: 23643_225464304
----
 
 ---
 action:
@@ -5965,12 +5875,6 @@ _No jobs in this group._
 
 ---
 action:
-SELECTED | Wales South - Cardiff & Vale | Cardiff |  | Service Department Coordinator
-job_id: 23643_225465231
----
-
----
-action:
 SELECTED | Wales South - Cardiff & Vale | Barry | £30684 per year | Administrator
 job_id: 23643_225480882
 ---
@@ -6007,18 +5911,6 @@ job_id: 21618_20279_61680-f8145293a99ee8a5fe099e7dc9419d9b
 
 ---
 action:
-SELECTED | Wales South - Cardiff & Vale | Cardiff |  | Customer Service Advisor
-job_id: 20279_62226
----
-
----
-action:
-SELECTED | Wales South - Cardiff & Vale | Cardiff |  | Customer Service Advisor - Part-time Evenings
-job_id: 20279_61857-6235aa603e3e92e53d1200c49faf4748
----
-
----
-action:
 SELECTED | Wales South - Cardiff & Vale | Cardiff | £28000 per year | Key Account Coordinator and Customer Support
 job_id: 107791604
 ---
@@ -6031,7 +5923,11 @@ job_id: 23643_225564170
 
 ## WALES SOUTH - CARDIFF & VALE — POSSIBLES
 
-_No jobs in this group._
+---
+action:
+POSS - WALES SOUTH - CARDIFF & VALE | Wales South - Cardiff & Vale | Cardiff | £15.54 per hour | Sales Support Administrator
+job_id: 23643_225565612
+---
 
 ## WALES SOUTH - VALLEYS — SELECTED
 
@@ -6041,59 +5937,11 @@ SELECTED | Wales South - Valleys | Pontypridd |  | Customer Service Advisor
 job_id: 21618_20279_61680-1090fef1a0d74276851cea13699470b2
 ---
 
----
-action:
-SELECTED | Wales South - Valleys | Pontypridd |  | Customer Service Advisor - Part-time Evenings
-job_id: 20279_61857-ac6fe7c58fa7f4c62d3f484985958101
----
-
----
-action:
-SELECTED | Wales South - Valleys | Merthyr Tydfil |  | Customer Service Advisor - Part-time Evenings
-job_id: 20279_61857-02439291e3796b3032962bc6ec19653c
----
-
----
-action:
-SELECTED | Wales South - Valleys | Merthyr Tydfil |  | Customer Service Advisor - Part-time Evenings
-job_id: 20279_61857
----
-
----
-action:
-SELECTED | Wales South - Valleys | Merthyr Tydfil |  | Customer Service Advisor - Part-time Evenings
-job_id: 20279_61857-7190aefafbcc0317f221abc012c437ee
----
-
----
-action:
-SELECTED | Wales South - Valleys | Caerphilly |  | Customer Service Advisor
-job_id: 20279_62226-930d87c56726c0e862a0ffc61a71ddbc
----
-
----
-action:
-SELECTED | Wales South - Valleys | Pontypridd |  | Customer Service Advisor
-job_id: 20279_62226-ac6fe7c58fa7f4c62d3f484985958101
----
-
 ## WALES SOUTH - VALLEYS — POSSIBLES
 
 _No jobs in this group._
 
 ## WEST MIDLANDS - BIRMINGHAM & SOLIHULL — SELECTED
-
----
-action:
-SELECTED | West Midlands - Birmingham & Solihull | Shirley | £23000 - £25000 per year | Sales Administrator
-job_id: 23643_225317543
----
-
----
-action:
-SELECTED | West Midlands - Birmingham & Solihull | Birmingham | £28000 - £35000 per year | Customer Care Administrator
-job_id: 23643_225465498
----
 
 ---
 action:
@@ -6333,6 +6181,12 @@ job_id: 23643_225554574
 
 ---
 action:
+POSS - WILTSHIRE | Wiltshire | Wiltshire | £35000 per year | Personal Assistant
+job_id: 1743937
+---
+
+---
+action:
 POSS - WILTSHIRE | Wiltshire | Wiltshire | £35000 per year | Aftersales Service Advisor
 job_id: 107919550
 ---
@@ -6405,9 +6259,19 @@ SELECTED | Worcestershire | Worcestershire | £26000 per year | Sales Administra
 job_id: 23643_225560318
 ---
 
+---
+action:
+SELECTED | Worcestershire | Worcestershire | £27000 - £29000 per year | Personal Assistant
+job_id: 23643_225566715
+---
+
 ## WORCESTERSHIRE — POSSIBLES
 
-_No jobs in this group._
+---
+action:
+POSS - WORCESTERSHIRE | Worcestershire | Worcestershire | £115 - £134 per daily | Technical Administrator
+job_id: 23643_225564884
+---
 
 ## YORKSHIRE - EAST — SELECTED
 
@@ -6609,16 +6473,16 @@ SELECTED | Yorkshire - North | Scarborough |  | Service Coordinator (Generator)
 job_id: 107900212
 ---
 
+---
+action:
+SELECTED | Yorkshire - North | York | £30000 per year | Sales and Marketing Coordinator
+job_id: 107804499
+---
+
 ## YORKSHIRE - NORTH — POSSIBLES
 
 _No jobs in this group._
 ## ACTIVE MANUAL ACTIONS
-
----
-action:
-DROPPED | Hampshire | Hampshire | £45000 - £55000 per year | Associate Town Planner
-job_id: 23643_225460911
----
 
 ---
 action:

@@ -1,6 +1,6 @@
 # Support-worker manual review
 
-feed_date: 2026-09-03
+feed_date: 2026-09-04
 
 Edit only the `action:` line in each block:
 
@@ -37,7 +37,11 @@ _No jobs in this group._
 
 ## NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND — SELECTED
 
-_No jobs in this group._
+---
+action:
+SELECTED | North East - Tyneside, Wearside & Northumberland | Newcastle Upon Tyne | £14.50 - £15.00 per hour | Social Care Assistant
+job_id: 1743976
+---
 
 ## NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL — SELECTED
 
@@ -177,6 +181,12 @@ SELECTED | Kent | Kent | £13.79 - £14.31 per hour | Bank Care Assistant
 job_id: 107858271
 ---
 
+---
+action:
+SELECTED | Kent | Faversham | £14 - £17 per hour | Complex Care Support Worker
+job_id: 107923038
+---
+
 ## KENT — POSSIBLES
 
 _No jobs in this group._
@@ -261,11 +271,33 @@ SELECTED | London | London | £23,088.00 per annum | Waking Night Support Worker
 job_id: 1664745
 ---
 
+---
+action:
+SELECTED | London | City | £12.75 per hour | Support Worker - Day Centre Belfast
+job_id: 2049628
+---
+
 ## LONDON — POSSIBLES
 
-_No jobs in this group._
+---
+action:
+POSS - LONDON | London | City | £12.75 - £21.55 per hour | Children's Residential Support Worker - Belfast
+job_id: 2049697
+---
+
+---
+action:
+POSS - LONDON | London | City | £14.5 - £19.75 per hour | Housing Support Worker
+job_id: 23643_224986550
+---
 
 ## OXFORDSHIRE — SELECTED
+
+---
+action:
+SELECTED | Oxfordshire | Oxford | £85 - £105 per daily | Youth Support Worker - Oxford
+job_id: 1695997
+---
 
 ---
 action:
