@@ -1,7 +1,7 @@
 # North East Jobs ETL proof-of-concept review
 
-review_date: 2026-09-03
-review_fingerprint: 19499f85b21f7d82b2ff00f43c3c1c40583ec449e2019730aabfeaa85d670cd8
+review_date: 2026-09-04
+review_fingerprint: efb13955a2d5fa9da84ba3d6b29dd4c3f972999ae09a5c4d17be74948c0ecaba
 
 Edit only the `action:` line in each editable block:
 
@@ -11,18 +11,18 @@ Edit only the `action:` line in each editable block:
 - Commit the edit; the review workflow will remember the decision.
 - Decisions are carried forward only while the same vacancy review facts remain unchanged.
 
-Run generated: 2026-09-03T12:12:58+01:00
+Run generated: 2026-09-04T12:16:42+01:00
 RSS input: https://www.northeastjobs.org.uk/RSSJobs.aspx?orgid=62
-JobG8 comparison rows in target geographies: 413
+JobG8 comparison rows in target geographies: 283
 
 ## Funnel
 
-- RSS vacancies read: 551
-- Hard-pass title/teaser screen before detail requests: 515
-- Detail candidates: 36
+- RSS vacancies read: 585
+- Hard-pass title/teaser screen before detail requests: 545
+- Detail candidates: 40
 - Detail failures or unavailable snapshots: 0
-- Outside the two target geographies: 3
-- Tees Valley explicitly excluded: 7
+- Outside the two target geographies: 5
+- Tees Valley explicitly excluded: 9
 - Target-geography candidates reviewed: 26
 
 ## Detail diagnostics
@@ -34,15 +34,15 @@ JobG8 comparison rows in target geographies: 413
 - HC: 10
 - POSS: 14
 - Hard pass: 2
-- Final selected after remembered/manual actions: 16
-- Final POSS awaiting decision: 6
+- Final selected after remembered/manual actions: 15
+- Final POSS awaiting decision: 7
 - Manually excluded: 2
 - Confirmed JobG8 duplicates: 0
 - Possible JobG8 duplicates: 0
 - Likely unique to North East Jobs: 26
 - Rows in possible within-source duplicate groups: 0
 
-- Manual review warning: manual review date 2026-09-02 is not 2026-09-03; old actions ignored
+- Manual review warning: manual review date 2026-09-03 is not 2026-09-04; old actions ignored
 
 ## SELECTED
 
@@ -57,12 +57,12 @@ source_url: https://www.northeastjobs.org.uk/job/Apprentice_Economic_Development
 ---
 ---
 action:
-SELECTED | North East - Tyneside, Wearside & Northumberland | Prudhoe | SCP 2 - 5 (£24,413 - £25,583 (pro rata) depending upon qualifications and experience | Administrative Assistant
-employer: Prudhoe Town Council
-closing_date: 04/09/2026 12:00
-reason: clear transferable title: administrative assistant
-source_job_id: 300646
-source_url: https://www.northeastjobs.org.uk/job/Administrative_Assistant/300646
+SELECTED | North East - County Durham & Darlington/Hartlepool | Corten House, Durham | Grade 4 (£26,427 - £27,709) | Passenger Transport Administration Assistant
+employer: Durham County Council
+closing_date: 16/09/2026
+reason: clear transferable title: administration assistant
+source_job_id: 301481
+source_url: https://www.northeastjobs.org.uk/job/Passenger_Transport_Administration_Assistant/301481
 ---
 ---
 action:
@@ -81,15 +81,6 @@ closing_date: 10/09/2026 09:00
 reason: clear transferable title: administrative assistant
 source_job_id: 301207
 source_url: https://www.northeastjobs.org.uk/job/Administrative_Assistant_Level_3/301207
----
----
-action:
-SELECTED | North East - Tyneside, Wearside & Northumberland | North Tyneside | Grade 5 (£26,403 - £27,254) per annum | Business Support Assistant - Care point
-employer: North Tyneside Council
-closing_date: 04/09/2026 00:00
-reason: clear transferable title: business support assistant
-source_job_id: 301062
-source_url: https://www.northeastjobs.org.uk/job/Business_Support_Assistant_Care_point/301062
 ---
 ---
 action:
@@ -120,6 +111,15 @@ source_url: https://www.northeastjobs.org.uk/job/Business_Support_Officer/300710
 ---
 ---
 action:
+SELECTED | North East - Tyneside, Wearside & Northumberland | South Tyneside Council (derived for filtering) | £29,542 pa | Customer Service Advisor x 2 Posts
+employer: South Tyneside Council
+closing_date: 17/09/2026 12:00
+reason: clear transferable title: customer service advisor
+source_job_id: 301438
+source_url: https://www.northeastjobs.org.uk/job/Customer_Service_Advisor_x_2_Posts/301438
+---
+---
+action:
 SELECTED | North East - Tyneside, Wearside & Northumberland | Longbenton High School Hailsham Ave, Newcastle upon Tyne NE12 8ER | £24,551 | DBS01122/26 - Business Administrator Apprentice - Longbenton High School
 employer: North Tyneside Council
 closing_date: 14/09/2026 12:00
@@ -138,15 +138,6 @@ source_url: https://www.northeastjobs.org.uk/job/DBS01125_26_Receptionist_Norham
 ---
 ## POSS — choose SELECT or EXCLUDE
 
----
-action: select
-POSS | North East - County Durham & Darlington/Hartlepool | The Horizon School, CETL, Brierton Lane, Hartlepool | Band 7 £23,175 - £24,314 pa | Attendance & Support Officer
-employer: Hartlepool Borough Council
-closing_date: 04/09/2026 12:00
-reason: transferable office/service title with specialist or borderline wording: attendance
-source_job_id: 299877
-source_url: https://www.northeastjobs.org.uk/job/Attendance_Support_Officer/299877
----
 ---
 action: select
 POSS | North East - County Durham & Darlington/Hartlepool | Annand House, Meadowfield | Grade 6 - £28,142- £31,022 (Pay award pending) | Business Services Co-ordination and Improvement Officer
@@ -221,6 +212,15 @@ source_url: https://www.northeastjobs.org.uk/job/Attendance_Officer/300632
 ---
 ---
 action:
+POSS | North East - Tyneside, Wearside & Northumberland | Kyloe House, Stannington, United Kingdom | £25,485.96 - £27,646.17 (equated salary quoted) | Behaviour Support Officer - Kyloe House
+employer: Northumberland County Council
+closing_date: 17/09/2026 00:00
+reason: provisional transferable-office review
+source_job_id: 301477
+source_url: https://www.northeastjobs.org.uk/job/Behaviour_Support_Officer_Kyloe_House/301477
+---
+---
+action:
 POSS | North East - Tyneside, Wearside & Northumberland | Sunderland City Council (derived for filtering) | Grade 5 (SCP 17-22) £31,022 - £33,699 | Driving Assessment Officer
 employer: Sunderland City Council
 closing_date: 14/09/2026
@@ -250,7 +250,7 @@ source_url: https://www.northeastjobs.org.uk/job/Senior_Support_Coordinator/3010
 action:
 POSS | North East - Tyneside, Wearside & Northumberland | Gateshead | £43,149 - £46,579 | Simpler Recycling Projects Coordinator
 employer: Gateshead Council
-closing_date: 06/09/2026
+closing_date: 08/09/2026
 reason: annualised upper salary £46,579 exceeds North East review point £30,000
 source_job_id: 300777
 source_url: https://www.northeastjobs.org.uk/job/Simpler_Recycling_Projects_Coordinator/300777
