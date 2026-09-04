@@ -1,11 +1,13 @@
 # Ontap System Map
 
-**Last updated:** 3 September 2026
+**Last updated:** 4 September 2026
 **Status:** Canonical production architecture including an idempotent external fallback for the twice-daily JobG8 process, restored NHS Google Jobs eligibility, owner-facing JobG8 selection auditing, live-site reporting reconciliation and Teaching Vacancies regional publish isolation.
 
 This is the authoritative technical map of the persistent Ontap system. It is organised into five canonical buckets. Facts not verified from the repository are marked `UNKNOWN / NEEDS AUDIT` rather than inferred from chat history.
 
 ## Recent canonical changes
+
+- 4 September 2026 — **The no-edit publication safety net accepts an external fallback dispatch:** `Apply and publish Ontap daily review` now accepts exact `AUTOMATIC_FALLBACK` as well as the owner-only `PUBLISH` approval. `AUTOMATIC_FALLBACK` follows the existing scheduled automatic-withhold path, including the same-date successful-dispatch check; it never enters manual quarantine mode. This allows cron-job.org to recover a delayed GitHub 11:45 schedule without turning untouched review items into exclusions or publishing twice. Manual `PUBLISH` behaviour is unchanged.
 
 - 3 September 2026 — **Daily overview adds all-role city opportunities:** `build_daily_region_overview.py` now deduplicates the complete live Ontap inventory and groups every job with an exact recognised town/locality from the canonical geo lookup, regardless of role family or provider. The Markdown report and Excel workbook add a filterable `CITY OPPORTUNITIES` table showing all-role live-job counts, existing permanent city routes, `CREATE` at 4+ jobs, `MONITOR` below four and a separate London hold. The first snapshot contains **283 mapped localities: 23 CREATE, 24 with an existing live page, 33 London holds and 203 monitors**. This is decision support only and does not publish pages automatically.
 
@@ -225,7 +227,7 @@ Owner-facing orchestrator: `.github/workflows/apply-publish-ontap-daily-review.y
 
 It reconciles the master review, applies valid decisions back to source-owned review files, dispatches source-specific approved publishers, and invokes `publish-verified-pages.yml` when the shared final publish is required.
 
-Manual dispatch requires exact `PUBLISH`. The same workflow also runs at 11:45 Europe/London as a safety net. It skips when a successful manual dispatch already completed on that London date; otherwise unresolved review items are withheld for the run without recording an exclusion, and the existing guarded source/final publishers refresh clean and automatic inventory. This automatic mode does not convert a day off into permanent review decisions. Source freshness and factual-fingerprint checks remain authoritative.
+Manual reviewed publication requires exact `PUBLISH`. The same workflow also runs at 11:45 Europe/London as a safety net, and an authenticated external scheduler can invoke that identical unattended path with exact `AUTOMATIC_FALLBACK`. The automatic path skips when a successful publication dispatch already completed on that London date; otherwise unresolved review items are withheld for the run without recording an exclusion, and the existing guarded source/final publishers refresh clean and automatic inventory. This automatic mode does not convert a day off into permanent review decisions. Source freshness and factual-fingerprint checks remain authoritative.
 
 Publication isolation is hierarchical:
 

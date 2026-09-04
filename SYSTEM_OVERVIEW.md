@@ -1,11 +1,13 @@
 # Ontap System Overview
 
-**Last updated:** 3 September 2026
+**Last updated:** 4 September 2026
 **Status:** Canonical production state including an idempotent external fallback for the JobG8 daily process, restored NHS Google Jobs eligibility, owner-facing JobG8 selection auditing, live-site reporting reconciliation and Teaching Vacancies regional publish isolation.
 
 This is the short owner view of how Ontap is organised. It mirrors the five canonical system buckets in `SYSTEM_MAP.md`.
 
 ## Recent canonical changes
+
+- 4 September 2026 — The 11:45 no-edit publication safety net can now be triggered by an authenticated external fallback using `AUTOMATIC_FALLBACK`. It behaves exactly like the scheduled safety net: it skips after a successful same-day publication and otherwise withholds untouched review items so they remain available later. Normal manual `PUBLISH` and quarantine behaviour are unchanged.
 
 - 3 September 2026 — **The daily overview now has an all-role `CITY OPPORTUNITIES` tab:** every unique live job with a recognised town/locality is counted once across all roles and sources. Existing city pages are identified, non-London places with 4+ jobs are marked `CREATE`, lower counts are `MONITOR`, and London is held separately. The first snapshot shows **283 localities, including 23 CREATE candidates and 24 places with an existing live page**. It is a reporting structure only; it does not create pages automatically.
 
@@ -289,7 +291,7 @@ The JobG8 discovery coverage audit now uses the exact current Europe/London feed
 
 After every successful coverage-audit run, the daily regional overview workflow is triggered directly and rebuilds both the Markdown report and Excel download. This direct workflow-completion link avoids GitHub's restriction that prevents a workflow-token commit from triggering another workflow through a normal `push` event.
 
-The 11:45 safety net checks for a successful manual Apply and publish run on the current London date. If found, it exits without a second publication. Otherwise it uses the same publisher chain in automatic-withhold mode: unresolved review jobs are omitted without becoming remembered exclusions, regardless of queue size, while valid existing decisions and automatically eligible jobs continue. Freshness, fingerprint, source-publisher and combined-publication integrity controls are unchanged.
+The 11:45 safety net checks for a successful Apply and publish dispatch on the current London date. If found, it exits without a second publication. Otherwise it uses the same publisher chain in automatic-withhold mode: unresolved review jobs are omitted without becoming remembered exclusions, regardless of queue size, while valid existing decisions and automatically eligible jobs continue. An authenticated external fallback can invoke this same path with `AUTOMATIC_FALLBACK`; it cannot enter manual quarantine mode. Freshness, fingerprint, source-publisher and combined-publication integrity controls are unchanged.
 
 `Ontap daily status` is the normal owner check. It runs when the daily master review finishes and when the production deployment guard finishes, plus 09:15 and 12:15 UK-time fallback snapshots. Before publication, a green result means every named source has same-day review state and the master edit file is current. After publication, green means every source publisher, verified-page build, same-day live-source report and Vercel deployment completed; the summary explicitly says **MANUAL** or **AUTOMATIC**. If a source was retained fail-soft, the site may still have updated, but the status check fails visibly and names that source rather than presenting the day as wholly green.
 

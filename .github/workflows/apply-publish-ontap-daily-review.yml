@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       approval:
-        description: Type PUBLISH after completing the one Ontap daily review file
+        description: Type PUBLISH after review, or AUTOMATIC_FALLBACK for the unattended safety net
         required: true
         type: string
   schedule:
@@ -30,8 +30,8 @@ jobs:
         env:
           APPROVAL: ${{ inputs.approval }}
         run: |
-          if [ "$APPROVAL" != "PUBLISH" ]; then
-            echo "::error::Approval must be exactly PUBLISH."
+          if [ "$APPROVAL" != "PUBLISH" ] && [ "$APPROVAL" != "AUTOMATIC_FALLBACK" ]; then
+            echo "::error::Approval must be exactly PUBLISH or AUTOMATIC_FALLBACK."
             exit 1
           fi
 
@@ -39,15 +39,20 @@ jobs:
         id: mode
         env:
           EVENT_NAME: ${{ github.event_name }}
+          APPROVAL: ${{ inputs.approval }}
           GH_TOKEN: ${{ github.token }}
           GH_REPO: ${{ github.repository }}
         run: |
           set -euo pipefail
-          if [ "$EVENT_NAME" = "workflow_dispatch" ]; then
+          if [ "$EVENT_NAME" = "workflow_dispatch" ] && [ "$APPROVAL" = "PUBLISH" ]; then
             echo "skip=false" >> "$GITHUB_OUTPUT"
             echo "unresolved_policy=quarantine" >> "$GITHUB_OUTPUT"
             echo "Manual PUBLISH mode selected."
             exit 0
+          fi
+
+          if [ "$EVENT_NAME" = "workflow_dispatch" ]; then
+            echo "Authenticated automatic-fallback mode selected."
           fi
 
           runs_json="$(gh run list \
@@ -80,10 +85,10 @@ jobs:
           if [ -n "$successful_run" ]; then
             echo "skip=true" >> "$GITHUB_OUTPUT"
             echo "manual_run_url=$successful_run" >> "$GITHUB_OUTPUT"
-            echo "A successful manual publication already completed today: $successful_run"
+            echo "A successful publication dispatch already completed today: $successful_run"
           else
             echo "skip=false" >> "$GITHUB_OUTPUT"
-            echo "No successful manual publication found today; starting the 11:45 automatic safety-net publish."
+            echo "No successful publication dispatch found today; starting the automatic safety-net publish."
           fi
 
       - name: Check out main
