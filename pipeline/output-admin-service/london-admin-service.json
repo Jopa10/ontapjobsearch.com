@@ -1,61 +1,5 @@
 [
   {
-    "job_id": "teaching-vacancies-attendance-officer-fbfa075b-7785-41df-89e3-60e1478b9e71",
-    "title": "Attendance Officer",
-    "company": "Harlington School",
-    "location": "Hayes",
-    "region": "London",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['full time']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "Scale 3, £29,436 fte (subject to pro rata)",
-    "work_pattern": "",
-    "posted_date": "2026-07-06",
-    "closing_date": "2026-09-03",
-    "closing_datetime": "2026-09-03T23:59:00+01:00",
-    "summary": "Attendance Officer with Harlington School in Hayes. ['full time']; Scale 3, £29,436 fte (subject to pro rata).",
-    "description": "Harlington School is recruiting for this vacancy in Hayes.\n\nThe advertised position is Attendance Officer.\n\nThe source lists the employment type as ['full time'].\n\nThe advertised salary or pay scale is Scale 3, £29,436 fte (subject to pro rata).\n\nThe stated application deadline is 2026-09-03T23:59:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-fbfa075b-7785-41df-89e3-60e1478b9e71?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Harlington School",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
-  },
-  {
-    "job_id": "teaching-vacancies-ehcp-administrator-lime-academy-ravensbourne",
-    "title": "EHCP Administrator",
-    "company": "Lime Academy Ravensbourne",
-    "location": "Romford",
-    "region": "London",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['full time']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "£28,939.00 - £31,144.00 Annually (Actual) NJC Points 14-19, 36 hours per week, 39 weeks per year (term time only plus inset)",
-    "work_pattern": "",
-    "posted_date": "2026-08-06",
-    "closing_date": "2026-09-03",
-    "closing_datetime": "2026-09-03T23:59:00+01:00",
-    "summary": "EHCP Administrator with Lime Academy Ravensbourne in Romford. ['full time']; £28,939.00 - £31,144.00 Annually (Actual) NJC Points 14-19, 36 hours per week, 39 weeks per year (term time only plus inset).",
-    "description": "Lime Academy Ravensbourne is recruiting for this vacancy in Romford.\n\nThe advertised position is EHCP Administrator.\n\nThe source lists the employment type as ['full time'].\n\nThe advertised salary or pay scale is £28,939.00 - £31,144.00 Annually (Actual) NJC Points 14-19, 36 hours per week, 39 weeks per year (term time only plus inset).\n\nThe stated application deadline is 2026-09-03T23:59:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/ehcp-administrator-lime-academy-ravensbourne?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Lime Academy Ravensbourne",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
-  },
-  {
     "job_id": "teaching-vacancies-administrative-assistant-ranelagh-primary-school",
     "title": "Administrative Assistant",
     "company": "Ranelagh Primary School",
@@ -84,34 +28,6 @@
     "posted_date_basis": "source"
   },
   {
-    "job_id": "teaching-vacancies-administrator-summerswood-primary-school",
-    "title": "Administrator",
-    "company": "Summerswood Primary School",
-    "location": "Borehamwood",
-    "region": "London",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['part time']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "£25,583.00 - £25,989.00 Annually (FTE) Hours Required: 8.30am to 3.30pm",
-    "work_pattern": "",
-    "posted_date": "2026-08-25",
-    "closing_date": "2026-09-04",
-    "closing_datetime": "2026-09-04T08:00:00+01:00",
-    "summary": "Administrator with Summerswood Primary School in Borehamwood. ['part time']; £25,583.00 - £25,989.00 Annually (FTE) Hours Required: 8.30am to 3.30pm.",
-    "description": "Summerswood Primary School is recruiting for this vacancy in Borehamwood.\n\nThe advertised position is Administrator.\n\nThe source lists the employment type as ['part time'].\n\nThe advertised salary or pay scale is £25,583.00 - £25,989.00 Annually (FTE) Hours Required: 8.30am to 3.30pm.\n\nThe stated application deadline is 2026-09-04T08:00:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/administrator-summerswood-primary-school?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Summerswood Primary School",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
-  },
-  {
     "job_id": "teaching-vacancies-reprographics-administrator-bb959af5-cf9a-47b5-9c83-740a36b9e12c",
     "title": "Reprographics Administrator",
     "company": "The Sydney Russell School",
@@ -135,34 +51,6 @@
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
     "advertiser_name": "The Sydney Russell School",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
-  },
-  {
-    "job_id": "teaching-vacancies-school-administrator-nishkam-school-west-london",
-    "title": "School Administrator",
-    "company": "Nishkam School West London",
-    "location": "Osterley",
-    "region": "London",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['full time']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "28,195.00 - 29,852.00",
-    "work_pattern": "",
-    "posted_date": "2026-08-03",
-    "closing_date": "2026-09-04",
-    "closing_datetime": "2026-09-04T00:00:00+01:00",
-    "summary": "School Administrator with Nishkam School West London in Osterley. ['full time']; 28,195.00 - 29,852.00.",
-    "description": "Nishkam School West London is recruiting for this vacancy in Osterley.\n\nThe advertised position is School Administrator.\n\nThe source lists the employment type as ['full time'].\n\nThe advertised salary or pay scale is 28,195.00 - 29,852.00.\n\nThe stated application deadline is 2026-09-04T00:00:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/school-administrator-nishkam-school-west-london?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Nishkam School West London",
     "advertiser_type": "",
     "salary_period": "",
     "posted_date_basis": "source"
@@ -420,37 +308,6 @@
     "posted_date_basis": "source"
   },
   {
-    "job_id": "23643_225465331",
-    "title": "Temporary Executive Assistant / Administrator",
-    "company": "Office Angels - Agency - Temporary",
-    "location": "London",
-    "region": "London",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Temporary",
-    "salary_min": "16",
-    "salary_max": "25",
-    "salary_text": "£16 - £25 per hour",
-    "posted_date": "",
-    "description": "Temporary Executive Assistant / Administrator\n\nLocation: Twickenham\nDuration: 4-8 Weeks\nStart Date: ASAP\nContract Type: Temporary\n\nOverview\n\nOur client is seeking an experienced and highly organised Temporary Executive Assistant / Administrator to provide a blend of executive support and office administration. This is an excellent opportunity for someone who enjoys working in a fast-paced environment and can quickly adapt to new systems and processes.\n\nThe role is split approximately 50/50 between supporting the Manager and providing general office administration support.\n\nKey Responsibilities\nExecutive Assistant Support\n- Manage the Manager's diary and calendar, ensuring schedules are effectively coordinated.\n- Arrange and coordinate meetings, including sending invitations and managing meeting logistics.\n- Monitor and manage email inboxes, prioritising correspondence and responding where appropriate.\n- Act as a key point of contact for internal and external stakeholders.\n- Provide general administrative support to the Manager as required.\n\nAdministration & Office Support\n- Manage incoming emails through a ticketing system, ensuring requests are allocated to the appropriate teams for action.\n- Monitor ticket progress and assist with follow-up where necessary.\n- Maintain accurate records and update internal systems.\n- Support day-to-day office administration activities.\n- Assist with document management, filing and general business support tasks.\n- Collaborate with colleagues to ensure smooth operational processes.\n\nSkills & Experience Required\n- Previous experience in an Executive Assistant, Personal Assistant, Office Administrator or similar support role.\n- Strong organisational and time management skills.\n- Experience managing busy calendars and coordinating meetings.\n- Confident handling multiple priorities in a fast-paced environment.\n- Excellent written and verbal communication skills.\n- High attention to detail and ability to work independently.\n\nSystems Experience\n- HubSpot (essential)\n- Microsoft Outlook (essential)\n- Experience working with ticketing or workflow management systems would be advantageous.\n\nPerson Specification\n- Proactive and self-sufficient approach to work.\n- Strong problem-solving abilities.\n- Professional and approachable manner.\n- Able to hit the ground running with minimal supervision.\n- Flexible and adaptable to changing priorities.\n\nWhat's on Offer\n- Immediate start available.\n- Short-term temporary assignment (4-8 weeks).\n- Varied role combining EA and administrative responsibilities.\n- Opportunity to gain experience within a dynamic business environment.\n\nInterested candidates should be available to start immediately and commit to the duration of the assignment.\n\nOffice Angels is an employment agency and business. We are an equal-opportunities employer who puts expertise, energy and enthusiasm into improving everyone's chance of being part of the workplace. We respect and appreciate people of all ethnicities, generations, religious beliefs, sexual orientations, gender identities, abilities and more. By showcasing talents, skills and unique experiences in an inclusive environment, we help individuals thrive. If you require reasonable adjustments at any stage, please let us know and we will be happy to support you.\n\nOffice Angels acts as an employment agency for permanent recruitment and an employment business for the supply of temporary workers. Office Angels UK is an Equal Opportunities Employer.\n\nBy applying for this role your details will be submitted to Office Angels. Our Candidate Privacy Information Statement explaining how we will use your information is available on our website.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?b0ZSEQFKUCJ0iJ%2ff1a3eyAWustArIk8vl",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Office Angels",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Email handling",
-      "Records administration",
-      "Systems administration",
-      "Filing and document handling"
-    ]
-  },
-  {
     "job_id": "23643_225474593",
     "title": "HR Administrator",
     "company": "Morgan Mckinley (Crawley) - Agency - Permanent",
@@ -548,11 +405,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Shared inboxes",
-      "Records administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225472925",
@@ -755,31 +608,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "23643_225461671",
-    "title": "Probate Administrator",
-    "company": "Blue Arrow - Agency - Permanent",
-    "location": "London",
-    "region": "London",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "25000",
-    "salary_max": "25000",
-    "salary_text": "£25000 per year",
-    "posted_date": "",
-    "description": "Probate Administrator\n\nSouth Croydon Permanent Full-Time\nSalary: Competitive and dependent on experience\n\nWe are seeking an experienced and highly organised Probate Administrator to join our busy and growing probate team. This is an excellent opportunity for a knowledgeable probate professional who can hit the ground running and play a key role in supporting the efficient administration of estates.\n\nDue to increasing workload and business demand, we are looking for a committed individual with genuine hands-on probate experience who can manage case files confidently while delivering an excellent client experience.\n\nThe Role\n\nAs a Probate Administrator, you will be responsible for supporting the administration of estates from initial instruction through to completion. You will work closely with clients, financial institutions, and other third parties to ensure matters are progressed efficiently and accurately.\n\nThis role requires someone with practical probate administration experience and the ability to manage their workload independently within a supportive team environment.\n\nKey Responsibilities\n- Setting up new probate files and managing case administration from instruction through to completion\n- Gathering and collating estate and asset information from financial institutions and third parties\n- Preparing probate documentation and applications for submission to the Probate Registry\n- Assisting with inheritance tax assessments and related documentation\n- Liaising with banks, building societies, investment providers, utility companies, and other organisations\n- Maintaining accurate file records and case management systems\n- Providing regular updates and support to clients throughout the probate process\n- Chasing outstanding information and documentation to ensure cases progress efficiently\n- Supporting the team in managing workloads and reducing case backlogs\n- Ensuring all work is completed accurately and in accordance with company procedures and relevant regulations\n\nCandidate Requirements\nEssential\n- Previous experience as a Probate Administrator, Probate Case Handler, Estate Administrator, or in a similar role\n- Proven hands-on experience of probate and estate administration\n- Strong understanding of the probate process from application through to estate administration\n- Experience handling probate applications and estate-related correspondence\n- Excellent organisational and administrative skills\n- Strong communication skills, both written and verbal\n- Ability to manage multiple cases and priorities effectively\n- High level of accuracy and attention to detail\n\nDesirable\n- Experience using Exizent or similar probate case management software\n- Knowledge of trusts and charitable legacies\n- Experience conducting client onboarding and providing ongoing client updates\n- Previous experience within a legal, will-writing, or specialist probate environment\n\nAbout You\n\nThe successful candidate will:\n- Have practical, real-world probate experience rather than solely academic knowledge\n- Be capable of working independently and taking ownership of their workload\n- Be organised, reliable, and committed to delivering high standards of service\n- Enjoy working as part of a collaborative and supportive team\n- Be looking for a stable, long-term career opportunity\n\nWhat's on Offer\n- Permanent, full-time position\n- Competitive salary based on experience\n- Supportive and friendly team culture\n- Opportunity to further develop your probate expertise\n- Long-term career prospects within an established and growing business\n\nLocation\n\nSouth Croydon\n\nThis is an office-based role and candidates should be able to commute reliably to the office.\n\nBlue Arrow is proud to be a Disability Confident Employer and is committed to helping find great work opportunities for great people.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?Yic9job4bS%2fPd3tApx%2bNqBBFmLqv%2fKJuc",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Blue Arrow",
-    "advertiser_type": "Agency",
-    "work_pattern": "Full Time",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "23643_225465706",
     "title": "Receptionist",
     "company": "Hamberley Care Management Limited - Company - Permanent",
@@ -802,11 +630,7 @@
     "advertiser_type": "Company",
     "work_pattern": "Part Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Telephone handling"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225466886",
@@ -856,11 +680,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Email handling",
-      "Records administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225474668",
@@ -910,11 +730,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Records administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225489159",
@@ -989,12 +805,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Systems administration",
-      "Filing and document handling"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225497881",
@@ -1244,11 +1055,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1744625",
@@ -1273,12 +1080,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Part Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Telephone handling",
-      "Scheduling and bookings"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1770499",
@@ -1328,11 +1130,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Records administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1769351",
@@ -1357,11 +1155,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Systems administration",
-      "Reporting"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1769736",
@@ -1486,11 +1280,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Systems administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1733325",
@@ -1515,11 +1305,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Part Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Data entry"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1763337",
@@ -1544,12 +1330,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Systems administration",
-      "Filing and document handling"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1732907",
@@ -1624,12 +1405,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Shared inboxes",
-      "Systems administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1779173",
@@ -1679,14 +1455,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Telephone handling",
-      "Scheduling and bookings",
-      "Systems administration",
-      "Data entry"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1767159",
@@ -1761,12 +1530,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Telephone handling",
-      "Scheduling and bookings",
-      "Reporting"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1775598",
@@ -1891,11 +1655,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Part Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Data entry"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225526851",
@@ -2045,12 +1805,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Email handling",
-      "Scheduling and bookings"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225547627",
@@ -2075,11 +1830,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Reporting",
-      "Payroll administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225548519",
@@ -2207,27 +1958,77 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "1842834",
-    "title": "HR Administrator (Maternity Cover, Part-Time)",
-    "company": "Progressive Judaism - Agency - Permanent",
+    "job_id": "23643_225564148",
+    "title": "Administrator",
+    "company": "Office Angels - Agency - Temporary",
+    "location": "London",
+    "region": "London",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Temporary",
+    "salary_min": "14.5",
+    "salary_max": "14.5",
+    "salary_text": "£14.5 per hour",
+    "posted_date": "",
+    "description": "Temporary Administrator\n\n14.50 per hour\n\nChingford\n\nAssignment Duration : 4 weeks possibly longer\n\nStart date : ASAP\n\nHours : 8.30am - 5.30pm\n\nAre you detail oriented and passionate about delivering exceptional service? Our client, a small, friendly team based in Chingford is seeking an enthusiastic Order Processing Administrator to join their vibrant team on a temporary contract for 4 weeks, you must be available immediately to be considered for this role.\n\nThis is an exciting opportunity to contribute to a fast-paced environment while honing your administrative skills.\n\nKey Responsibilities:\n- Efficiently process customer orders from receipt to delivery, ensuring accuracy and timeliness.\n- Liaise with various departments to resolve any discrepancies or issues related to orders.\n- Maintain and update order tracking systems, ensuring all information is current and accurate.\n- Provide outstanding support to customers by addressing inquiries and providing updates on order status.\n- Assist with the preparation of reports and documentation related to order processing.\n- Collaborate with team members to enhance operational efficiency and improve processes.\n\nOffice Angels is an employment agency and business. We are an equal-opportunities employer who puts expertise, energy and enthusiasm into improving everyone's chance of being part of the workplace. We respect and appreciate people of all ethnicities, generations, religious beliefs, sexual orientations, gender identities, abilities and more. By showcasing talents, skills and unique experiences in an inclusive environment, we help individuals thrive. If you require reasonable adjustments at any stage, please let us know and we will be happy to support you.\n\nOffice Angels acts as an employment agency for permanent recruitment and an employment business for the supply of temporary workers. Office Angels UK is an Equal Opportunities Employer.\n\nBy applying for this role your details will be submitted to Office Angels. Our Candidate Privacy Information Statement explaining how we will use your information is available on our website.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?mDcEDJmYTbza%2fFjEUcQWy9z5AKD%2bXVF8t",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Office Angels",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Hourly",
+    "posted_date_basis": ""
+  },
+  {
+    "job_id": "23643_225566815",
+    "title": "Medical Receptionist",
+    "company": "Staff Partners Business - Agency - Permanent",
     "location": "London",
     "region": "London",
     "country": "UK",
     "category": "Admin/Service – Office Support",
     "employment_type": "Permanent",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "",
+    "salary_min": "14.24",
+    "salary_max": "15",
+    "salary_text": "£14.24 - £15 per hour",
     "posted_date": "",
-    "description": "The HR Administrator will join our friendly and collaborative team and play a vital role in delivering a responsive, high-quality HR service accross the entire lifecycle.\n\nThis role supports every stage of the employee journey from recruitment and onboarding through to employee well-being and offboarding. The postholder will ensure that HR processes are delivered efficiently, accurately and compliantly, while helping to create a positive employee experience that reflects the values of Progressive Judaism.\n\nWorking closely with managers and colleagues accross the organisation, the HR Administrator will contribute to building an inclusive, supportive and well-organised workplace where people feel welcomed, valued and empowered to thrive. h",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?d1vRzEYF65SlOjNROYQiP60uTjA9fre7x",
+    "description": "Medical Receptionist\n\nLocation : Chelsea SW3\n\nHourly rate : 14.50per hour\n\nAre you looking for a new opportunity and happy to take on a new challenge ?\n\nDo you have previous NHS Gp experience using EMIS/SystemOne ?\n\nWe are working with a lovely Gp practice in the area of Chelsea, and surrounding areas who require the support of a Medical Receptionist/ Administrator on a full time ongoing temporary basis.\n\nOur client requires someone who can hit the ground running with a good working knowledge of Emis/SystemOne and previous experience working within a GP surgery, along with an excellent telephone manner and customer services skills.\n\nDuties\n- Greet patients and visitors in a professional and friendly manner\n- Schedule appointments and manage the appointment diary efficiently\n- Answer phone calls, emails, and inquiries promptly and direct them to the appropriate personnel\n- Maintain patient records accurately and ensure confidentiality\n- Process patient registrations, insurance forms, and payments\n- Assist with administrative tasks such as filing, scanning, and data entry\n- Coordinate with medical staff to ensure smooth patient flow\n\nQualifications\n- Proven experience as a Medical Receptionist or in a similar role\n- Knowledge of medical terminology and procedures is advantageous\n- Excellent communication and interpersonal skills\n- Strong organisational abilities with attention to detail\n- Proficiency in using office software and electronic health records systems\n- Ability to multitask in a fast-paced environment\n\nIf you are a proactive individual with a passion for delivering high-quality patient care through efficient administrative support, we welcome your application for the Medical Receptionist position.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?d1vRzEYF65RsuWEaS8FeLopdFJlbJyr%2bx",
     "source": "JobG8",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Progressive Judaism",
+    "advertiser_name": "Staff Partners Business",
     "advertiser_type": "Agency",
-    "work_pattern": "Part Time",
+    "work_pattern": "Full Time",
+    "salary_period": "Hourly",
+    "posted_date_basis": ""
+  },
+  {
+    "job_id": "23643_225565627",
+    "title": "Operations Administrator",
+    "company": "The Channel Recruiter - Agency - Permanent",
+    "location": "London",
+    "region": "London",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "29000",
+    "salary_max": "32000",
+    "salary_text": "£29000 - £32000 per year",
+    "posted_date": "",
+    "description": "Job title: Operations Administrator\n\nLocation: London - EC2 A\n\nSalary: £29,000 - £32,000 plus potential yearly bonus\n\nDo you have strong attention to detail, but also enjoy the social side of a role and feel comfortable speaking with customers on the phone? Do you love being organised, keeping busy and getting involved in different areas of a business?\n\nIf so, we may have the role for you!\n\nOur client is a trusted technology partner specialising in delivering innovative network, data centre and IT infrastructure solutions to businesses of all sizes. With a highly experienced team of consultants and certified engineers, they pride themselves on providing tailored, cost-effective solutions while building strong, long-term partnerships with their customers.\n\nWe are looking for someone motivated, organised and eager to learn to join a fast-paced and supportive team as an Operations Administrator.\n\nThis is a fantastic opportunity for someone who enjoys variety and wants to gain exposure across different areas of a business, while building a career within operations and business administration.\n\nWhat you ll be doing: Operations Administrator\n\nYou will provide day-to-day administrative and operational support across the business, working across client support, office administration, HR administration and records management. No two days will be exactly the same, so we are looking for someone proactive who enjoys getting involved and keeping things organised.\n- Customer & Client Support Answer incoming calls, respond to client requests and process customer purchase orders.\n- Office & Facilities Administration Monitor inventory and order supplies, coordinate the maintenance of facilities and equipment, and support with the organisation of company events.\n- HR & Staff Administration Manage and maintain staff time-tracking tools and support new starter, onboarding and internal staff move processes.\n- Records & Compliance Maintain accurate financial, employee and client records, as well as supporting the review and updating of company policies to ensure compliance.\n\nWhat we re looking for: Operations Administrator\n- Previous experience within an administrative, office support or operations role.\n- Experience with purchase orders or invoicing would be desirable.\n- Strong organisational and administrative skills.\n- Excellent written and verbal communication skills.\n- Comfortable answering phones and communicating directly with clients.\n- Ability to manage multiple tasks and priorities effectively.\n- Strong attention to detail, particularly when maintaining records and documentation.\n- Proficiency with Microsoft 365 and general office systems.\n- A proactive attitude with a willingness to learn and get involved across different areas of the business.\n\nWe are registered as a Disability Confident Employer (Level 1) and, as such, we will ensure that individuals who have a disability are provided with reasonable adjustments to enable full participation in the job application and interview process.\n\nIf you have any such requirements, please do not hesitate to contact your consultant, Zoe Chatley, at (url removed), who will be happy to support your requests.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?kjuUUj3TFp7up2I31i26sflk20Dnb72lg",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "The Channel Recruiter",
+    "advertiser_type": "Agency",
+    "work_pattern": "Full Time",
     "salary_period": "Annual",
     "posted_date_basis": ""
   },
@@ -2254,34 +2055,55 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Records administration"
-    ]
+    "posted_date_basis": ""
   },
   {
-    "job_id": "23643_223514356",
-    "title": "Town Planner",
-    "company": "PEBBLE RECRUITMENT LTD - Agency - Permanent",
+    "job_id": "23643_225568316",
+    "title": "Customer Service Advisor (6 month contract)",
+    "company": "Gordon Yates Recruitment Consultancy - Agency - Contract",
+    "location": "London",
+    "region": "London",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Contract",
+    "salary_min": "25000",
+    "salary_max": "29103",
+    "salary_text": "£25000 - £29103 per year (6 month fixed term conrtact)",
+    "posted_date": "",
+    "description": "Customer Support Advisor Contact Centre\nCentral London\n£29,103.85 per annum (6 month contract)\nFull-time 35 hours per week\nHybrid working 1 day from home\nAre you an experienced Customer Service or Contact Centre professional who genuinely enjoys speaking to people, solving problems and building relationships?\nWe are recruiting a Customer Support Advisor to join an established and highly regarded professional membership organisation in Central London.\nThis is a busy and varied customer-facing role where you'll be the first point of contact for students, members, employers and customers. You'll handle a mixture of inbound and outbound contact, responding to enquiries, resolving problems and helping customers get the most from their membership, qualifications, training and events.\nWe're looking for someone who is confident on the telephone, commercially aware and highly IT literate, with previous experience gained within a busy customer service, call centre or contact centre environment.\nWhat will you be doing?\nAs part of the Customer Support team, you'll:\n- Handle inbound and outbound calls and respond to customer enquiries by email\n- Act as a first point of resolution for customer and member queries\n- Provide clear advice and guidance on memberships, qualifications, training and events\n- Build strong customer relationships and provide a personalised service\n- Accurately record customer interactions using the CRM\n- Support membership applications, renewals, upgrades and retention\n- Deal with student queries relating to study and examinations\n- Make welcome and follow-up calls to support onboarding and retention\n- Process payments for memberships, subscriptions, conferences and events\n- Promote relevant membership benefits, training, qualifications and events\n- Identify appropriate opportunities to upsell and cross-sell services\n- Work towards individual and team customer service and commercial targets\n- Liaise with colleagues across the organisation to ensure customers receive a joined-up service\n\nAbout You\nYou'll ideally have experience working within a busy inbound and outbound customer service, call centre or contact centre environment.\nYou'll also need:\n- Strong telephone-based customer service experience\n- A track record of building positive customer relationships\n- Excellent verbal and written communication skills\n- Strong listening and questioning skills\n- Experience using a CRM or customer database\n- Excellent IT skills and confidence learning new systems\n- The ability to multitask and manage a varied workload\n- A proactive approach and willingness to take ownership\n- Good problem-solving skills and the confidence to use your initiative\n- A calm and professional approach when working under pressure\n- A positive, resilient and adaptable personality\n- A collaborative, customer-first approach\n- The motivation to work towards customer service and commercial targets\n\nPrevious experience within a commercial customer service environment would be particularly beneficial.\nWhat's in it for you?\nAlongside a salary of £29,103.85 per annum, you'll receive an excellent benefits package including:\n- 25 days' annual leave plus bank holidays\n- Additional discretionary days over Christmas\n- Group personal pension scheme\n- Life assurance and critical illness cover\n- One day's paid leave when moving home\n- Two paid volunteering days each year\n- Perkbox benefits and discounts\n- Employee Assistance Programme\n- Cycle to Work scheme\n- Regular wellbeing initiatives and workshops\n- Hybrid working with one day per week from home\n\nWhy Apply?\nThis is an excellent opportunity for an experienced customer service professional who enjoys taking ownership, solving problems and speaking to customers.\nYou'll join an established organisation offering a supportive working environment, excellent benefits and the opportunity to build long-term relationships with customers and members.\nThe role offers plenty of variety and would particularly suit someone who enjoys delivering a genuinely high standard of service while also being comfortable working towards clear service and commercial targets.\n6 month fixed term £29,103.85 per annum Central London\nTo apply for this role, please click on the 'Apply' button below.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?Y5CHIaMSKAwSVPcyW0hmFrCGk8pOsmChv",
+    "source": "JobG8",
+    "working_arrangement": "hybrid",
+    "working_arrangement_text": "1 day from home",
+    "working_arrangement_evidence": "Customer Service Advisor (6 month contract) Customer Support Advisor Contact Centre Central London £29,103.85 per annum (6 month contract) Full-time 35 hours per week Hybrid working 1 day from home Are you an experienced Customer Service or Contact Centre professional who genuinely enjoys speaking to people, solving problems and building relationships?",
+    "advertiser_name": "Gordon Yates Recruitment Consultancy",
+    "advertiser_type": "Agency",
+    "work_pattern": "Full Time",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
+    "job_id": "1854985",
+    "title": "Executive Assistant and Board Administrator",
+    "company": "Harris Hill Charity Recruitment Specialists - Agency - Permanent",
     "location": "London",
     "region": "London",
     "country": "UK",
     "category": "Admin/Service – Office Support",
     "employment_type": "Permanent",
-    "salary_min": "30000",
-    "salary_max": "35000",
-    "salary_text": "£30000 - £35000 per year",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "",
     "posted_date": "",
-    "description": "Town Planner Permanent London\n\nRef: DB025\n\nA leading independent planning consultancy is seeking an experienced Planner to join their growing team. This is an excellent opportunity to gain exposure to a diverse portfolio of projects, ranging from high-density urban developments to strategic land and regeneration schemes.\n\nTown Planner Responsibilities\n- Prepare and submit planning applications and supporting documents\n- Draft planning statements, appeal documents, and site appraisals\n- Undertake policy and site research\n- Attend client meetings and liaise with local authorities\n- Support senior planners on strategy and project delivery\n\nTown Planner Requirements\n- Relevant experience in similar role\n- RTPI-accredited planning degree\n- Strong written and verbal communication skills\n- Full UK driving license\n\nBenefits\n- Competitive Salary\n- Pension\n- Generous Holiday Allowance\n- Hybrid Working\n- Clear path for career progression\n- Supportive and Sociable Team Culture\n- Full RTPI support\n\nInterested? Please email your CV to Dina Bunkheila or contact (phone number removed) (phone number removed)",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?aziU08XVyRGu1wr1jp0eQ%2fwRyMpumoNbd",
+    "description": "Harris Hill is delighted to be partnering with a leading UK charity that works to increase the flow of philanthropic funding to charities, not-for-profits and social enterprises around the world. We are seeking an experienced Executive Assistant & Board Administrator to join its growing and entrepreneurial team.\n\nThis is a varied opportunity for an experienced Executive Assistant who enjoys working in a fast-paced environment with senior stakeholders and has strong Board governance experience. Reporting to the Deputy CEO, you will provide comprehensive support to the CEO and Deputy CEO, while also playing a key role in the effective administration of the organisation's Board and Committees. You will manage senior diaries, meetings and travel, prepare papers and presentations, handle confidential information and act as a key point of contact for internal and external stakeholders.\n\nYou will also coordinate the full Board and Committee meeting cycle, including scheduling, meeting logistics and Board packs, attending meetings, producing accurate minutes and tracking actions through to completion. Alongside this, you will support Foundation Boards, shared inboxes, governance and compliance activity, and a range of executive projects.\n\nWe are looking for someone with significant experience in an Executive Assistant or similar role, ideally supporting C-suite executives. You will have proven experience preparing Board meeting minutes, excellent organisational and communication skills, meticulous attention to detail and the ability to manage competing priorities effectively. Discretion, emotional intelligence, resilience, sound judgement and the ability to work independently are essential.\n\nThis is an excellent opportunity to join a purpose-driven organisation with a strong reputation in the philanthropy sector and play a central role supporting its executive and governance functions.\n\nTo apply, please submit your up-to-date CV by 11 September 2026 at 11:59 AM. Shortlisted candidates will be asked to submit a tailored cover letter after reviewing the full job description.\n\nPlease note that only applicants with an unrestricted right to work in the UK will be considered for this position.\n\nPlease note, only successful applicants will be contacted with further information.\n\nAs a leading charity recruitment specialist and a certified B Corp , Harris Hill is committed to high and ever-improving standards of equitable and inclusive recruitment. We actively welcome applications from all sections of the community regardless of age, disability, gender, race, religion, sexuality and other protected characteristics.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?1tcg6Aj2zaxCqzXdjab7Pua6CcIx9DaOb",
     "source": "JobG8",
-    "working_arrangement": "hybrid",
-    "working_arrangement_text": "Hybrid working",
-    "working_arrangement_evidence": "Town Planner Responsibilities - Prepare and submit planning applications and supporting documents - Draft planning statements, appeal documents, and site appraisals - Undertake policy and site research - Attend client meetings and liaise with local authorities - Support senior planners on strategy and project delivery Town Planner Requirements - Relevant experience in similar role - RTPI-accredited planning degree - Strong written and verbal communication skills - Full UK driving license Benefits - Competitive Salary - Pension - Generous Holiday Allowance - Hybrid Working - Clear path for career progression - Supportive and Sociable Team Culture - Full RTPI support Interested?",
-    "advertiser_name": "PEBBLE RECRUITMENT LTD",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Harris Hill Charity Recruitment Specialists",
     "advertiser_type": "Agency",
-    "work_pattern": "Full Time",
+    "work_pattern": "Not Specified",
     "salary_period": "Annual",
     "posted_date_basis": ""
   },
@@ -2358,11 +2180,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Filing and document handling"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225479282",
@@ -2512,12 +2330,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Systems administration",
-      "Data entry"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1783385",
@@ -2542,12 +2355,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Records administration",
-      "Systems administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1767112",
@@ -2672,12 +2480,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Telephone handling",
-      "Scheduling and bookings",
-      "Payroll administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1766879",
@@ -2702,12 +2505,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Telephone handling",
-      "Scheduling and bookings",
-      "Payroll administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1768718",
@@ -3035,31 +2833,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "107793877",
-    "title": "Bid Coordinator",
-    "company": "Ridge & Partners LLP - Agency - Permanent",
-    "location": "London",
-    "region": "London",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "",
-    "posted_date": "",
-    "description": "We are looking for a proactive and highly organised Bid Coordinator to support the smooth running of bid activity in our London office. This role would suit someone with strong administrative skills, excellent attention to detail, and the ability to keep multiple deadlines and workstreams under control.\n\nYou will be responsible for coordinating bid activity across submissions inboxes, procurement po click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?aziU08XVyRHzl2nA4mBHHfxZ%2fOUnMf46d",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Ridge & Partners LLP",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "23643_225561914",
     "title": "Member Events Coordinator",
     "company": "Hurlingham Club - Agency - Permanent",
@@ -3135,28 +2908,53 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "23643_225461934",
-    "title": "Customer Service Advisor",
-    "company": "Daniel Owen Ltd - Agency - Contract",
-    "location": "Broxbourne",
+    "job_id": "23643_223514356",
+    "title": "Town Planner",
+    "company": "PEBBLE RECRUITMENT LTD - Agency - Permanent",
+    "location": "London",
     "region": "London",
     "country": "UK",
     "category": "Admin/Service – Office Support",
-    "employment_type": "Contract",
-    "salary_min": "17",
-    "salary_max": "18",
-    "salary_text": "£17 - £18 per hour",
+    "employment_type": "Permanent",
+    "salary_min": "30000",
+    "salary_max": "35000",
+    "salary_text": "£30000 - £35000 per year",
     "posted_date": "",
-    "description": "Customer Service Advisors\nBased in Hertfordshire\nTemp rolling contract\n17-18per hour based on experience\n\nDetails on the role:\n- Initial 6 month contract\n- 37 hours per week\n- Office based\n- 17-18per hour ( based on experience)\n\nYou'll be the first point of contact for customers and a vital part of the Property and Housing Services team. You'll provide friendly, efficient administrative support across all service areas, helping our teams deliver the best possible experience to residents and colleagues alike.\n\nFrom diagnosing and logging repairs over the phone to resolving a wide range of housing and property enquiries, you'll play a key role in ensuring that every request is handled promptly and with care. This is your chance to join a collaborative team that's committed to excellent customer service and putting people first.\n\nSOCIAL HOUSING EXPERIENCE IS ESSENTIAL FOR THIS ROLE",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?mDcEDJmYTbwkB1D9betr8jgtbFLw4X67t",
+    "description": "Town Planner Permanent London\n\nRef: DB025\n\nA leading independent planning consultancy is seeking an experienced Planner to join their growing team. This is an excellent opportunity to gain exposure to a diverse portfolio of projects, ranging from high-density urban developments to strategic land and regeneration schemes.\n\nTown Planner Responsibilities\n- Prepare and submit planning applications and supporting documents\n- Draft planning statements, appeal documents, and site appraisals\n- Undertake policy and site research\n- Attend client meetings and liaise with local authorities\n- Support senior planners on strategy and project delivery\n\nTown Planner Requirements\n- Relevant experience in similar role\n- RTPI-accredited planning degree\n- Strong written and verbal communication skills\n- Full UK driving license\n\nBenefits\n- Competitive Salary\n- Pension\n- Generous Holiday Allowance\n- Hybrid Working\n- Clear path for career progression\n- Supportive and Sociable Team Culture\n- Full RTPI support\n\nInterested? Please email your CV to Dina Bunkheila or contact (phone number removed) (phone number removed)",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?bZCSDJyF3N6768k9Adb7idilN9Oq5z4kq",
+    "source": "JobG8",
+    "working_arrangement": "hybrid",
+    "working_arrangement_text": "Hybrid working",
+    "working_arrangement_evidence": "Town Planner Responsibilities - Prepare and submit planning applications and supporting documents - Draft planning statements, appeal documents, and site appraisals - Undertake policy and site research - Attend client meetings and liaise with local authorities - Support senior planners on strategy and project delivery Town Planner Requirements - Relevant experience in similar role - RTPI-accredited planning degree - Strong written and verbal communication skills - Full UK driving license Benefits - Competitive Salary - Pension - Generous Holiday Allowance - Hybrid Working - Clear path for career progression - Supportive and Sociable Team Culture - Full RTPI support Interested?",
+    "advertiser_name": "PEBBLE RECRUITMENT LTD",
+    "advertiser_type": "Agency",
+    "work_pattern": "Full Time",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
+    "job_id": "107936054",
+    "title": "Content Coordinator",
+    "company": "Missing People - Agency - Permanent",
+    "location": "London",
+    "region": "London",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "30000",
+    "salary_max": "30000",
+    "salary_text": "£30000 per year",
+    "posted_date": "",
+    "description": "Content Coordinator - National Charity\nSalary: £30,000 to £33,000 per annum\nHours: 35 hours per week. Some out of office hours work will be required\nLocation: South West London with a high degree of flexibility available.\nContract: Permanent\nAbout Missing People\nSomebody goes missing in the UK every 90 seconds click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?Dw9iAXzSqBb9Pdg1EO4mxcn8XHwRQbVEk",
     "source": "JobG8",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Daniel Owen Ltd",
+    "advertiser_name": "Missing People",
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
-    "salary_period": "Hourly",
+    "salary_period": "Annual",
     "posted_date_basis": ""
   },
   {
@@ -3285,56 +3083,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "23643_225463028",
-    "title": "Office Assistant / Administrator",
-    "company": "Office Angels - Agency - Permanent",
-    "location": "Loughton",
-    "region": "London",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "28000",
-    "salary_max": "32000",
-    "salary_text": "£28000 - £32000 per year",
-    "posted_date": "",
-    "description": "Office Assistant / Administrator\n\nLocation: Loughton, Essex\n\nSalary: 28,000 - 32,000\n\nHours: Monday - Friday, 8:30am - 4:30pm\n\nBenefits:\n- 25 days holiday + Bank Holidays\n- On site parking\n- Private healthcare\n- Pension scheme\n- On site gym\n- Salary reviews & discretionary bonuses\n- Team social events\n\nOur client, a successful and growing organisation based in Loughton, is seeking a confident and organised individual to join their team. This is a fantastic opportunity to become an integral part of a dynamic business, where your contributions will be valued and rewarded.\n\nKey Responsibilities:\n- Support the smooth day to day running of the office\n- Manage office supplies and equipment, ensuring stock levels are maintained\n- Assist with scheduling meetings and diary coordination\n- Provide support to Directors, including liaising with their external PA\n- Work collaboratively with the Office Manager to maintain office efficiency\n- Assist with fire alarm compliance checks and accurate record keeping\n- Maintain visitor logs and manage sign in procedures, including vehicle registration details where required\n- Coordinate servicing and repairs of office equipment; source new items when directed\n- Provide clerical and administrative support, including answering calls, handling emails, filing, and general organisation\n- Assist with Director's dogs, including walking and taking them to the groomers\n- Support new starters with equipment setup (computers, phones, liaising with IT provider)\n- Order office supplies and maintain a tidy, functional workspace\n- Handle post and deliveries, including occasional trips to the post office\n- Carry out errands to support business operations, such as collecting lunch for the team or assisting with meeting preparations\n\nWhat We're Looking For:\n- Proven experience in a busy office environment\n- Excellent communication and interpersonal skills\n- Strong organisational skills and attention to detail\n- Ability to thrive under pressure in a fast-paced setting\n- Proficiency in Microsoft Office\n- Positive, enthusiastic, and professional attitude\n- Discretion when handling confidential information\n\nOffice Angels is an employment agency and business. We are an equal-opportunities employer who puts expertise, energy and enthusiasm into improving everyone's chance of being part of the workplace. We respect and appreciate people of all ethnicities, generations, religious beliefs, sexual orientations, gender identities, abilities and more. By showcasing talents, skills and unique experiences in an inclusive environment, we help individuals thrive. If you require reasonable adjustments at any stage, please let us know and we will be happy to support you.\n\nOffice Angels acts as an employment agency for permanent recruitment and an employment business for the supply of temporary workers. Office Angels UK is an Equal Opportunities Employer.\n\nBy applying for this role your details will be submitted to Office Angels. Our Candidate Privacy Information Statement explaining how we will use your information is available on our website.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?bZCSDJyF3N4ugXfwW4atqb6T3sjqr0pnq",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Office Angels",
-    "advertiser_type": "Agency",
-    "work_pattern": "Full Time",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
-    "job_id": "23643_225464987",
-    "title": "Receptionist",
-    "company": "Office Angels - Agency - Permanent",
-    "location": "Hammersmith And Fulham",
-    "region": "London",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "28000",
-    "salary_max": "28000",
-    "salary_text": "£28000 per year",
-    "posted_date": "",
-    "description": "Join Our Team as a Receptionist in Healthcare!\n\nLocation: Hammersmith and Fulham, Greater London\nContract Type: Permanent Working Pattern: Full Time\n\nAre you a friendly, organised, and proactive individual looking to make a meaningful impact in the healthcare industry? If so, we have an exciting opportunity for you! Our client is seeking a Receptionist to be the welcoming face of their clinic, ensuring a smooth and positive experience for every patient who walks through the door.\n\nKey Responsibilities:\n- Manage new patient inquiries through various channels: telephone, WhatsApp, social media and in-person\n- Explain clinic services and daily operations with clarity and enthusiasm\n- Foster human connections with new patients, providing excellent customer service at all times\n- Prepare patient records and responses to patient inquiries\n- Handle product deliveries and manage orders from suppliers\n- Act as the point of sales post-treatment, taking payments and booking follow-up appointments\n- Collaborate with clinic staff to anticipate their needs, ensuring an efficient workflow\n- Support social media management, creating and posting engaging content and updates\n\nWhat We're Looking For:\n- Excellent written and verbal communication skills and the ability to build relationships at all levels\n- Experience and comfort in using social media for business purposes\n- Strong organisational skills and the ability to anticipate needs\n- A proactive approach to problem-solving and a willingness to go the extra mile\n- Professional experience in a similar role would be advantageous\n- Team-oriented mindset, ready to pitch in and use your initiative\n\nWhy Join Us?\n- Salary: 28,000 per annum\n- Perks: 30 days annual leave + BHs, contribution pension scheme, discounts on products,\n- - Pension contribution to secure your future.\n- 50% discount on clinic products after a 6-month probation period.\n- Incentives\n- Career Progression: Opportunity to advance to a Clinic Manager role in the future!\n\nWorking Pattern:\n- Tuesday: 10 AM - 5 PM\n- Wednesday: 9 AM - 6 PM\n- Thursday: 11 AM - 8 PM\n- Friday: 10 AM - 6 PM\n- Saturday: 9 AM - 5 PM\n\nIf you are excited about being a vital part of a dedicated team in the healthcare sector and are passionate about providing exceptional service, we want to hear from you!\n\nApply Now!\nTake the next step in your career and become a valued member of our client's team. We can't wait to meet you!\n\nOffice Angels is an employment agency. We are an equal opportunities employer who put expertise, energy, and enthusiasm into improving everyone's chance of being part of the workplace. We respect and appreciate people of all ethnicities, generations, religious beliefs, sexual orientations, gender identities, abilities and more. We do this by showcasing their talents, skills and unique experience in an inclusive environment that helps them thrive. If you require reasonable adjustments at any stage, please let us know and we will be happy to support you.\n\nOffice Angels is an employment agency and business. We are an equal-opportunities employer who puts expertise, energy and enthusiasm into improving everyone's chance of being part of the workplace. We respect and appreciate people of all ethnicities, generations, religious beliefs, sexual orientations, gender identities, abilities and more. By showcasing talents, skills and unique experiences in an inclusive environment, we help individuals thrive. If you require reasonable adjustments at any stage, please let us know and we will be happy to support you.\n\nOffice Angels acts as an employment agency for permanent recruitment and an employment business for the supply of temporary workers. Office Angels UK is an Equal Opportunities Employer.\n\nBy applying for this role your details will be submitted to Office Angels. Our Candidate Privacy Information Statement explaining how we will use your information is available on our website.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?Y5CHIaMSKAym5aLV0TSG63oxh7sud99Ov",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Office Angels",
-    "advertiser_type": "Agency",
-    "work_pattern": "Full Time",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "23643_225515301",
     "title": "Sales Office Administrator",
     "company": "TurnerFox Recruitment - Agency - Permanent",
@@ -3357,13 +3105,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Telephone handling",
-      "Customer enquiries",
-      "Records administration",
-      "Quotations"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225517912",
@@ -3438,11 +3180,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Delivery coordination"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225527983",
@@ -3467,14 +3205,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Records administration",
-      "Data entry",
-      "Quotations",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225555899",
@@ -3549,12 +3280,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Reporting",
-      "Quotations"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1772289",
@@ -3654,12 +3380,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Records administration",
-      "Systems administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1772199",
@@ -3684,11 +3405,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1733402",
@@ -3713,11 +3430,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Systems administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225535480",
@@ -3742,11 +3455,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Data entry",
-      "Filing and document handling"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "29310_HF07833-HAR",
@@ -3799,26 +3508,26 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "20091_322762",
-    "title": "Receptionist/Administrator",
-    "company": "Blenheim Schools - Company - Permanent",
-    "location": "South Croydon",
+    "job_id": "107929803",
+    "title": "Sales and Marketing Coordinator",
+    "company": "Recruitment Helpline Ltd - Agency - Permanent",
+    "location": "Croydon",
     "region": "London",
     "country": "UK",
     "category": "Admin/Service – Office Support",
     "employment_type": "Permanent",
-    "salary_min": "27000",
-    "salary_max": "27000",
-    "salary_text": "£27000 per year ((depending on experience))",
+    "salary_min": "35000",
+    "salary_max": "35000",
+    "salary_text": "£35000 per year",
     "posted_date": "",
-    "description": "Step Into Education That Truly Changes Lives\n\nLocation: Cumnor House School\nJob Title: Receptionist/Administrator\nContract: Permanent, Full-Time 52 Weeks Per Year\nHours: 40 hours per week\nSalary: Up to £27,000 Per Annum (depending on experience)\nStart Date: End of September 2026\n\nAbout Cumnor House\n\nHere at Cumnor House , we are dedicated to giving our children the perfect platform to achieve their potential. Our philosophy is to ensure that each pupil at Cumnor House is given the opportunity to develop not just on an educational level, but also socially. Therefore, our curriculum contains varied subjects and activities, ensuring that every child gets the most out of the time they spend at school.\nBy striking the perfect balance between disciplined learning practices and a friendly atmosphere we can be confident in providing the perfect environment for our children to flourish.\n\nRole Purpose\n\nTo provide support and administration services for Cumnor House Schools. Offering practical and effective solutions to day-to-day functions of the front of house and any administration duties quickly, decisively, calmly, and professionally, including travelling between school sites to support when required. Provide support to the Senior Leadership Team in ensuring all relevant parties are informed and supporting the admin team.\n\nWhat you will be doing\n\nKey Responsibilities\n- Ensuring all visitors, contractors etc. are greeted professionally and that the necessary security and safety procedures are followed.\n- To manage responses to parental enquiries and provide excellent customer service\n- Answering telephone calls/emails and dealing with queries in a prompt and professional manner.\n- Record and maintain attendance registers using the schools preferred Management Information System.\n- Manage pupils' needs when they come to the reception area at various key points in the day including early morning transport shuttles between sites\n- To work with others to introduce and improve procedures and processes.\n- Work collaboratively with the other members of the Admin Team to provide general administration of wraparound care and school bus service, including the Parent Portal (Blenheim Connect), payment systems and various platforms to support school operations.\n- Provide admin/secretarial support to SLT and other staff as required.\n- Be the first point of contact to support parents with the Parent Portal (Blenheim Connect).\n- Transport bookings for trips and visits.\n- Responsible for working with admissions team ensuring accurate and timely processing of all data of new students.To assist the Designated Safeguarding Lead with administration as and when required.\n- To provide cover for administration colleagues' absences, including travelling to any of the Cumnor sites to undertake the cover requirement.\n\no What you'll bring\n- Literate & numerate, GCSE or equivalent Grade C in English & Maths minimum.\n- Proactive and positive can-do attitude\n- Ability to build and maintain excellent working relationships.\n- Proficient knowledge of Microsoft packages: Word, PowerPoint, Excel, Outlook.\n- Strong administration & organisational skills (accurate and meticulous attention to detail grammatically & numerically).\n- Significant experience of working in an administrative role within a busy office environment and educational settings.\n- Excellent customer-facing and interpersonal skills.\n- Ability to work calmly under pressure adapt effectively to changing circumstances/situations whilst remaining firm and fair.\n- Excellent people skills - confident & friendly with a good awareness of customer care.\n- Excellent telephone manner.\n- Reliable and flexible with ways of working, including covering any of the school sites if required.\n- Able to show initiative and provide attention to time critical duties.\n\nDesirable\n- First Aid qualification\n- Experience of working in a busy school environment, or relevant experience in children's settings\n\nWe reserve the right to close the vacancy early if we receive a high volume of suitable applications.\n\nOutcomes First Group is committed to carrying out a fair, thorough and efficient recruitment process in line with Keeping Children Safe in Education. Whilst we aim to keep applicants informed throughout, Outcomes First Group does not accept liability for any loss of earnings or other associated costs incurred by applicants as a result of delays or changes in the compliance process. All stages of the compliance process are subject to necessary safeguarding checks and compliance with statutory requirements, which may affect timescales.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?1tcg6Aj2zayhCaGfXJiT1b45rzCyyg1jb",
+    "description": "Excellent opportunity for a Sales and Marketing Coordinator to join a well-established company based in Coulsdon\n\nSalary: £30,000 - £35,000 per annum\n\nJob Type: Full Time / Permanent\n\nBenefits: pension, private medical, free parking\n\nAbout The Company\n\nThey are a small but growing electrical contractor based in Coulsdon click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?G%2b5YiGNoEgrAmDCPpNa%2fquCllzvrpyzan",
     "source": "JobG8",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Blenheim Schools",
-    "advertiser_type": "Company",
+    "advertiser_name": "Recruitment Helpline Ltd",
+    "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
     "posted_date_basis": ""
@@ -3871,11 +3580,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Systems administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "nhs-5574559",
@@ -3892,6 +3597,28 @@
     "description": "Record and process all outpatient attendances / cancellations & DNAs on EPR within stipulated timeframes Advise clinics of patients who are late arriving for their appointments Book follow-up appointments File documents according to Information Governance policy Maintain an uncluttered and tidy reception area Maintain reception areas in a hygienic and sanitary condition including cleaning and wiping of surfaces To cover clinics between hours of 8:30am - 8:00pm on rotational basis following working time directive (WTD) Support the Managers and Supervisors in developing a patient focused service. Customer Care: Communicate with patients, visitors and staff in a professional and courteous manner Update patient demographics and assist with wayfinding o Record all outpatient attendances / cancellations / DNAs on EPR within stipulated timeframes o Analyse patient pathways vs outcomes and escalate to relevant clinical / non-clinical staff if the patient requires an earlier appointment or diagnostic in order to achieve RTT targets o Ensure that all patients attending in person are checked in o Ensure patient information is complete and up to date on the Trust ERS o Identify, investigate and correct EPR discrepancies ensuring GP and personal contact details are accurate and up to date o Follow the appropriate processes for audit forms, walk-in patients, booking of BSL interpreters and transport patients in line with Trust standards o Use your excellent written and verbal communication and interpersonal skills to interact with patients, their carers and relatives, visitors and staff o Communicate effectively using all available forms of communication o Be a calm, supportive, flexible and adaptable member of the team o Deal with all enquiries in a professional and co-operative manner o Respond politely but firmly with people behaving antisocially and report and record any abuse including verbal abuse o Answer all telephone calls within 3 rings, redirect queries to the appropriate person using available information and initiative and send messages via email where possible o Provide non-clinical advice and guidance regarding appointments o Process patient data and appointments using the Trust EPR To view the main responsibility, please see the attached the Job Description and Person Specification.",
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9337-26-0705",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9337-26-0705",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
+  },
+  {
+    "job_id": "nhs-5578622",
+    "source": "NHS Jobs",
+    "title": "Operations Administrator",
+    "company": "TIC Health",
+    "advertiser_name": "TIC Health",
+    "location": "London, HA8 6AG",
+    "region": "London",
+    "salary": "£26000.00",
+    "employment_type": "Permanent",
+    "posted_date": "2026-09-03T21:31:36.386031",
+    "closing_date": "2026-09-11",
+    "description": "Were looking for a proactive and organised Rota Administrator to support our team with the smooth scheduling and coordination of staff across multiple sites. with administrators working on a weekly rotation (3 to 4 days each time) to ensure full coverage and continuity. Working hours: 7am to 7pm. This role is ideal for someone with excellent attention to detail, strong communication skills, and the ability to manage competing priorities in a fast-paced environment. Manage and maintain staff rotas, ensuring adequate cover across all shifts (MondaySunday). Liaise with team members to confirm availability and book shifts in line with service needs. Coordinate last minute changes, sickness cover, and shift swaps efficiently. Support recruitment activity by assisting with onboarding and shift scheduling for new starters. Provide occasional support to the Logistics team to ensure all sites and set-ups have the resources, equipment, and information they need to operate smoothly. Liaise with the Service Department to coordinate activities, share updates, and maintain clear communication across teams. Communicate clearly with internal teams and external stakeholders regarding rota updates or changes. Maintain accurate and up to date records of hours worked and shift allocations. Collaborate effectively with your job share counterpart to ensure seamless handovers and consistent service. Contribute to process improvements to ensure effective rota management and workforce planning. Manage the shared Operations inbox, ensuring timely responses and professional communication. Triage incoming queries to the appropriate teams (logistics, servicing, IT, LCS, bookings). Support the preparation of weekly operational reports shared with senior management and client partners.",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0455-26-0020",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0455-26-0020",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
     "advertiser_type": "",
@@ -4618,50 +4345,6 @@
     "description": "We are looking for a bright, friendly, self motivated, responsible and reliable individual to join the reception team in this busy GP Surgery. The role is part-time at 25 hours per week delivered in 5 hour shifts across the week, but we require flexibility to schedule for morning or afternoon shifts and cover others whilst on leave. Main Duties: 1. To provide positive, friendly and helpful customer service to our patients, both in person and on the telephone. 2. Book, confirm and cancel appointments and handle enquiries 3. Compose, print, mail and scan correspondence 4. Ensure the correct processing of administrative tasks 5. Protects patients' rights by maintaining confidentiality of personal and financial information. 6. Maintain business office inventory and equipment by checking stock to determine inventory level; anticipating needed supplies; placing and expediting orders for supplies; verifying receipt of supplies; scheduling equipment service and repairs 7. Maintain operations by following policies and procedures; reporting needed changes. 8. Support and promote Health and Safety practice at the surgery 9. Support and cover other staff members as necessary Key Qualities: Excellent telephone and inter-personal manner, Customer Facing Skills, Multi-tasking, Maintaining Inventory, Ability to work independently and within a team, Flexibility, Excellent Time Management and Organisational skills, the ability to demonstrate initiative and responsibility. Attention to detail, Professionalism, Quality Focus, Able to take personal responsibility and deliver a high quality standard of work.",
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4450-AUG-2026",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4450-AUG-2026",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
-  },
-  {
-    "job_id": "nhs-5527518",
-    "source": "NHS Jobs",
-    "title": "Receptionist - GP Surgery",
-    "company": "Southall Medical Centre",
-    "advertiser_name": "Southall Medical Centre",
-    "location": "Southall, UB1 2PT, Southall, UB2 4EY",
-    "region": "London",
-    "salary": "Negotiable",
-    "employment_type": "Fixed-Term",
-    "posted_date": "2026-08-10T09:23:34.615363794",
-    "closing_date": "2026-09-07",
-    "description": "This is not for locum agencies For queries, please email i.sanghera@nhs.net Southall Medical Centre has an exciting new vacancy for a part-time (20-25 hours/week) receptionist / administrator to join our dynamic admin team! No prior GP practice experience is required, however the ideal candidate must be familiar with the role of primary care / GPs in the NHS. Good IT and computer skills are essential for this position. Key responsibilities and duties include: Triaging appointment requests and booking appointments appropriately for patients Handling incoming telephone calls to the surgery Processing repeat prescriptions according to practice policy Scanning and processing medical documents through SystmOne (clinical system) Completing tasks set by the practice manager and the doctors / clinicians Opening and closing front doors in line with opening times Greeting patients kindly and courteously Working as part of a team collaboratively with other team members Preparing the surgery, waiting area, consulting rooms in preparation for clinics You must be a friendly, courteous people-person as this role primarily involves handling patient queries and have a strong work-ethic and resolve to help provide excellent patient care, in line with our practice vision. Ability to speak Panjabi, Hindi, Gujarati or Urdu would also be extremely beneficial for this position. The role of reception / administrator is mainly an administrative role, and requires excellent people-person and communication skills, due to the patient-facing nature of the role. Duties and responsibilities of receptionists include, but are not limited to: appointments, handling telephone calls, document workflows, processing repeat prescription requests, completing tasks set by practice manager or doctors, opening/closing front doors, maintaining cleanliness of waiting area and consulting rooms, keeping noticeboards and patient areas up-to-date, working collaboratively as part of our practice team. The ideal candidate will have some experience of the NHS, however no previous GP surgery employment is required. Strong work-ethic, commitment to the role, flexibility and efficiency are key traits in a successful applicant. Although you will be well-supported by our existing administrative and management team, you must be able to work independently, autonomously, with a problem-solving and can-do attitude. As the first port of call for our patients, a friendly and warm welcome and excellent communication skills are crucial to this role. The surgery is fully computerised, so good IT and computer skills are a necessity. Successful applicants will be proficient in Microsoft Office (Word, Excel, PowerPoint) as well as SystmOne (clinical system training provided).",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2742-26-0005",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2742-26-0005",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
-  },
-  {
-    "job_id": "nhs-5524966",
-    "source": "NHS Jobs",
-    "title": "Medical Receptionist",
-    "company": "Lane End Medical Group",
-    "advertiser_name": "Lane End Medical Group",
-    "location": "Edgware, HA8 9GJ",
-    "region": "London",
-    "salary": "£12.71",
-    "employment_type": "Permanent",
-    "posted_date": "2026-08-07T14:33:13.347803247",
-    "closing_date": "2026-09-04",
-    "description": "Receptionist required for a busy, friendly, doctors surgery in Edgware. Hours of work: - Monday - Friday 2pm - 7pm 25 hours per week, but you may be asked to do additional hours to cover absence. Pay is £12.71 per hour. Please note that the successful candidate will need to start as soon as possible. When applying please state your notice period that you have with your current employer. To answer general enquiries in person and over the phone. To process repeat prescription requests. Respond to all queries and requests for assistance from patients and other visitors Book transport when needed Ensure reception and waiting areas are neat and tidy Ensure total familiarity with all appointment systems in effect Book appointments and recalls Answer external and internal telephones promptly Receive and make calls as required. Divert calls and take messages as appropriate. Ensure that the system is operational at the beginning of the day To receive and accurately record messages for GPs, nurses and any other staff To deal with patient requests for test results Management of medical records Documentation management To act as chaperone on occasions for the doctors or nurses. To attend training when organised by the Practice Manager To attend meetings when necessary Any other duties appropriate to the grade Management of appointment system Operation of telephone system Medical records management Document management Chaperoning General filing Handling samples Reception duties Comply with Information Governance, Data Security and other protocols",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4177-26-0004",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4177-26-0004",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
     "advertiser_type": "",

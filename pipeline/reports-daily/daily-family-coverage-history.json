@@ -8688,6 +8688,791 @@
           "customer_service_contact_centre": 3
         }
       }
+    },
+    {
+      "feed_date": "2026-09-04",
+      "counts": {
+        "Bedfordshire": {
+          "service_admin": 12,
+          "support_worker": 0,
+          "customer_sales": 1,
+          "legal_assistant_paralegal": 3,
+          "marketing": 1,
+          "finance_accounts": 1,
+          "hr_recruitment": 1,
+          "customer_service_contact_centre": 1
+        },
+        "Berkshire": {
+          "service_admin": 23,
+          "support_worker": 3,
+          "customer_sales": 9,
+          "legal_assistant_paralegal": 2,
+          "marketing": 15,
+          "finance_accounts": 1,
+          "hr_recruitment": 2,
+          "customer_service_contact_centre": 1
+        },
+        "Bristol & Bath": {
+          "service_admin": 23,
+          "support_worker": 0,
+          "customer_sales": 7,
+          "legal_assistant_paralegal": 2,
+          "marketing": 6,
+          "finance_accounts": 2,
+          "hr_recruitment": 3,
+          "customer_service_contact_centre": 5
+        },
+        "Buckinghamshire": {
+          "service_admin": 20,
+          "support_worker": 0,
+          "customer_sales": 2,
+          "legal_assistant_paralegal": 1,
+          "marketing": 12,
+          "finance_accounts": 2,
+          "hr_recruitment": 1,
+          "customer_service_contact_centre": 6
+        },
+        "Cambridgeshire": {
+          "service_admin": 10,
+          "support_worker": 1,
+          "customer_sales": 3,
+          "legal_assistant_paralegal": 1,
+          "marketing": 6,
+          "finance_accounts": 2,
+          "hr_recruitment": 0,
+          "customer_service_contact_centre": 0
+        },
+        "Cheshire - East": {
+          "service_admin": 8,
+          "support_worker": 0,
+          "customer_sales": 3,
+          "legal_assistant_paralegal": 0,
+          "marketing": 2,
+          "finance_accounts": 0,
+          "hr_recruitment": 0,
+          "customer_service_contact_centre": 2
+        },
+        "Cheshire - Warrington & Halton": {
+          "service_admin": 3,
+          "support_worker": 1,
+          "customer_sales": 1,
+          "legal_assistant_paralegal": 2,
+          "marketing": 0,
+          "finance_accounts": 6,
+          "hr_recruitment": 0,
+          "customer_service_contact_centre": 0
+        },
+        "Cheshire - West": {
+          "service_admin": 7,
+          "support_worker": 0,
+          "customer_sales": 1,
+          "legal_assistant_paralegal": 2,
+          "marketing": 7,
+          "finance_accounts": 1,
+          "hr_recruitment": 1,
+          "customer_service_contact_centre": 1
+        },
+        "Cornwall": {
+          "service_admin": 2,
+          "support_worker": 1,
+          "customer_sales": 2,
+          "legal_assistant_paralegal": 0,
+          "marketing": 0,
+          "finance_accounts": 0,
+          "hr_recruitment": 0,
+          "customer_service_contact_centre": 0
+        },
+        "Cumbria - North": {
+          "service_admin": 1,
+          "support_worker": 0,
+          "customer_sales": 0,
+          "legal_assistant_paralegal": 0,
+          "marketing": 0,
+          "finance_accounts": 0,
+          "hr_recruitment": 0,
+          "customer_service_contact_centre": 0
+        },
+        "Cumbria - South": {
+          "service_admin": 1,
+          "support_worker": 2,
+          "customer_sales": 1,
+          "legal_assistant_paralegal": 0,
+          "marketing": 2,
+          "finance_accounts": 0,
+          "hr_recruitment": 1,
+          "customer_service_contact_centre": 0
+        },
+        "Cumbria - West": {
+          "service_admin": 0,
+          "support_worker": 1,
+          "customer_sales": 0,
+          "legal_assistant_paralegal": 0,
+          "marketing": 0,
+          "finance_accounts": 0,
+          "hr_recruitment": 0,
+          "customer_service_contact_centre": 0
+        },
+        "Derbyshire": {
+          "service_admin": 11,
+          "support_worker": 0,
+          "customer_sales": 3,
+          "legal_assistant_paralegal": 2,
+          "marketing": 2,
+          "finance_accounts": 2,
+          "hr_recruitment": 0,
+          "customer_service_contact_centre": 2
+        },
+        "Devon": {
+          "service_admin": 14,
+          "support_worker": 3,
+          "customer_sales": 6,
+          "legal_assistant_paralegal": 2,
+          "marketing": 6,
+          "finance_accounts": 2,
+          "hr_recruitment": 1,
+          "customer_service_contact_centre": 2
+        },
+        "Dorset": {
+          "service_admin": 12,
+          "support_worker": 1,
+          "customer_sales": 4,
+          "legal_assistant_paralegal": 0,
+          "marketing": 2,
+          "finance_accounts": 0,
+          "hr_recruitment": 0,
+          "customer_service_contact_centre": 4
+        },
+        "Essex": {
+          "service_admin": 35,
+          "support_worker": 0,
+          "customer_sales": 6,
+          "legal_assistant_paralegal": 5,
+          "marketing": 7,
+          "finance_accounts": 5,
+          "hr_recruitment": 1,
+          "customer_service_contact_centre": 5
+        },
+        "Gloucestershire": {
+          "service_admin": 25,
+          "support_worker": 1,
+          "customer_sales": 4,
+          "legal_assistant_paralegal": 0,
+          "marketing": 6,
+          "finance_accounts": 3,
+          "hr_recruitment": 0,
+          "customer_service_contact_centre": 4
+        },
+        "Greater Manchester - Manchester & Salford": {
+          "service_admin": 28,
+          "support_worker": 2,
+          "customer_sales": 20,
+          "legal_assistant_paralegal": 5,
+          "marketing": 17,
+          "finance_accounts": 5,
+          "hr_recruitment": 2,
+          "customer_service_contact_centre": 3
+        },
+        "Greater Manchester - North": {
+          "service_admin": 2,
+          "support_worker": 0,
+          "customer_sales": 0,
+          "legal_assistant_paralegal": 0,
+          "marketing": 0,
+          "finance_accounts": 0,
+          "hr_recruitment": 0,
+          "customer_service_contact_centre": 1
+        },
+        "Greater Manchester - South": {
+          "service_admin": 8,
+          "support_worker": 0,
+          "customer_sales": 0,
+          "legal_assistant_paralegal": 1,
+          "marketing": 2,
+          "finance_accounts": 0,
+          "hr_recruitment": 0,
+          "customer_service_contact_centre": 3
+        },
+        "Greater Manchester - Wigan & Bolton": {
+          "service_admin": 6,
+          "support_worker": 0,
+          "customer_sales": 1,
+          "legal_assistant_paralegal": 1,
+          "marketing": 0,
+          "finance_accounts": 0,
+          "hr_recruitment": 1,
+          "customer_service_contact_centre": 1
+        },
+        "Hampshire": {
+          "service_admin": 57,
+          "support_worker": 8,
+          "customer_sales": 13,
+          "legal_assistant_paralegal": 0,
+          "marketing": 12,
+          "finance_accounts": 2,
+          "hr_recruitment": 4,
+          "customer_service_contact_centre": 8
+        },
+        "Herefordshire": {
+          "service_admin": 0,
+          "support_worker": 1,
+          "customer_sales": 0,
+          "legal_assistant_paralegal": 0,
+          "marketing": 0,
+          "finance_accounts": 0,
+          "hr_recruitment": 0,
+          "customer_service_contact_centre": 0
+        },
+        "Hertfordshire": {
+          "service_admin": 34,
+          "support_worker": 2,
+          "customer_sales": 9,
+          "legal_assistant_paralegal": 0,
+          "marketing": 10,
+          "finance_accounts": 1,
+          "hr_recruitment": 1,
+          "customer_service_contact_centre": 3
+        },
+        "Kent": {
+          "service_admin": 54,
+          "support_worker": 4,
+          "customer_sales": 11,
+          "legal_assistant_paralegal": 5,
+          "marketing": 7,
+          "finance_accounts": 0,
+          "hr_recruitment": 1,
+          "customer_service_contact_centre": 4
+        },
+        "Lancashire - Blackpool & Fylde": {
+          "service_admin": 0,
+          "support_worker": 0,
+          "customer_sales": 0,
+          "legal_assistant_paralegal": 0,
+          "marketing": 2,
+          "finance_accounts": 0,
+          "hr_recruitment": 0,
+          "customer_service_contact_centre": 0
+        },
+        "Lancashire - Central": {
+          "service_admin": 2,
+          "support_worker": 0,
+          "customer_sales": 1,
+          "legal_assistant_paralegal": 0,
+          "marketing": 0,
+          "finance_accounts": 1,
+          "hr_recruitment": 0,
+          "customer_service_contact_centre": 0
+        },
+        "Lancashire - East": {
+          "service_admin": 3,
+          "support_worker": 1,
+          "customer_sales": 0,
+          "legal_assistant_paralegal": 0,
+          "marketing": 3,
+          "finance_accounts": 0,
+          "hr_recruitment": 0,
+          "customer_service_contact_centre": 0
+        },
+        "Lancashire - North": {
+          "service_admin": 2,
+          "support_worker": 0,
+          "customer_sales": 1,
+          "legal_assistant_paralegal": 0,
+          "marketing": 0,
+          "finance_accounts": 0,
+          "hr_recruitment": 1,
+          "customer_service_contact_centre": 0
+        },
+        "Lancashire - West": {
+          "service_admin": 0,
+          "support_worker": 0,
+          "customer_sales": 1,
+          "legal_assistant_paralegal": 0,
+          "marketing": 0,
+          "finance_accounts": 0,
+          "hr_recruitment": 0,
+          "customer_service_contact_centre": 0
+        },
+        "Leicestershire": {
+          "service_admin": 27,
+          "support_worker": 0,
+          "customer_sales": 2,
+          "legal_assistant_paralegal": 1,
+          "marketing": 1,
+          "finance_accounts": 2,
+          "hr_recruitment": 1,
+          "customer_service_contact_centre": 2
+        },
+        "Lincolnshire": {
+          "service_admin": 5,
+          "support_worker": 0,
+          "customer_sales": 4,
+          "legal_assistant_paralegal": 2,
+          "marketing": 2,
+          "finance_accounts": 1,
+          "hr_recruitment": 2,
+          "customer_service_contact_centre": 1
+        },
+        "London": {
+          "service_admin": 131,
+          "support_worker": 14,
+          "customer_sales": 47,
+          "legal_assistant_paralegal": 19,
+          "marketing": 60,
+          "finance_accounts": 7,
+          "hr_recruitment": 14,
+          "customer_service_contact_centre": 5
+        },
+        "Merseyside - Liverpool": {
+          "service_admin": 12,
+          "support_worker": 0,
+          "customer_sales": 0,
+          "legal_assistant_paralegal": 1,
+          "marketing": 8,
+          "finance_accounts": 3,
+          "hr_recruitment": 0,
+          "customer_service_contact_centre": 0
+        },
+        "Merseyside - Sefton": {
+          "service_admin": 0,
+          "support_worker": 0,
+          "customer_sales": 0,
+          "legal_assistant_paralegal": 0,
+          "marketing": 0,
+          "finance_accounts": 0,
+          "hr_recruitment": 0,
+          "customer_service_contact_centre": 0
+        },
+        "Merseyside - St Helens & Knowsley": {
+          "service_admin": 1,
+          "support_worker": 0,
+          "customer_sales": 1,
+          "legal_assistant_paralegal": 0,
+          "marketing": 0,
+          "finance_accounts": 1,
+          "hr_recruitment": 0,
+          "customer_service_contact_centre": 0
+        },
+        "Merseyside - Wirral": {
+          "service_admin": 1,
+          "support_worker": 0,
+          "customer_sales": 1,
+          "legal_assistant_paralegal": 1,
+          "marketing": 2,
+          "finance_accounts": 1,
+          "hr_recruitment": 0,
+          "customer_service_contact_centre": 1
+        },
+        "Norfolk": {
+          "service_admin": 17,
+          "support_worker": 0,
+          "customer_sales": 1,
+          "legal_assistant_paralegal": 0,
+          "marketing": 0,
+          "finance_accounts": 2,
+          "hr_recruitment": 0,
+          "customer_service_contact_centre": 1
+        },
+        "North East": {
+          "service_admin": 66,
+          "support_worker": 2,
+          "customer_sales": 9,
+          "legal_assistant_paralegal": 1,
+          "marketing": 5,
+          "finance_accounts": 0,
+          "hr_recruitment": 1,
+          "customer_service_contact_centre": 6
+        },
+        "North Scotland": {
+          "service_admin": 5,
+          "support_worker": 0,
+          "customer_sales": 6,
+          "legal_assistant_paralegal": 1,
+          "marketing": 0,
+          "finance_accounts": 1,
+          "hr_recruitment": 0,
+          "customer_service_contact_centre": 0
+        },
+        "North Wales - East": {
+          "service_admin": 3,
+          "support_worker": 0,
+          "customer_sales": 2,
+          "legal_assistant_paralegal": 0,
+          "marketing": 1,
+          "finance_accounts": 1,
+          "hr_recruitment": 0,
+          "customer_service_contact_centre": 1
+        },
+        "North Wales - West": {
+          "service_admin": 3,
+          "support_worker": 0,
+          "customer_sales": 0,
+          "legal_assistant_paralegal": 1,
+          "marketing": 0,
+          "finance_accounts": 0,
+          "hr_recruitment": 1,
+          "customer_service_contact_centre": 1
+        },
+        "Northamptonshire": {
+          "service_admin": 18,
+          "support_worker": 0,
+          "customer_sales": 10,
+          "legal_assistant_paralegal": 1,
+          "marketing": 3,
+          "finance_accounts": 1,
+          "hr_recruitment": 2,
+          "customer_service_contact_centre": 1
+        },
+        "Northern Ireland - East": {
+          "service_admin": 37,
+          "support_worker": 2,
+          "customer_sales": 0,
+          "legal_assistant_paralegal": 9,
+          "marketing": 1,
+          "finance_accounts": 3,
+          "hr_recruitment": 3,
+          "customer_service_contact_centre": 3
+        },
+        "Northern Ireland - West": {
+          "service_admin": 22,
+          "support_worker": 0,
+          "customer_sales": 3,
+          "legal_assistant_paralegal": 0,
+          "marketing": 1,
+          "finance_accounts": 1,
+          "hr_recruitment": 0,
+          "customer_service_contact_centre": 2
+        },
+        "Nottinghamshire": {
+          "service_admin": 19,
+          "support_worker": 2,
+          "customer_sales": 3,
+          "legal_assistant_paralegal": 2,
+          "marketing": 3,
+          "finance_accounts": 1,
+          "hr_recruitment": 3,
+          "customer_service_contact_centre": 1
+        },
+        "Oxfordshire": {
+          "service_admin": 27,
+          "support_worker": 3,
+          "customer_sales": 4,
+          "legal_assistant_paralegal": 2,
+          "marketing": 8,
+          "finance_accounts": 1,
+          "hr_recruitment": 2,
+          "customer_service_contact_centre": 3
+        },
+        "Rutland": {
+          "service_admin": 0,
+          "support_worker": 0,
+          "customer_sales": 0,
+          "legal_assistant_paralegal": 0,
+          "marketing": 0,
+          "finance_accounts": 0,
+          "hr_recruitment": 0,
+          "customer_service_contact_centre": 0
+        },
+        "Scotland - Borders": {
+          "service_admin": 2,
+          "support_worker": 0,
+          "customer_sales": 0,
+          "legal_assistant_paralegal": 0,
+          "marketing": 0,
+          "finance_accounts": 0,
+          "hr_recruitment": 0,
+          "customer_service_contact_centre": 0
+        },
+        "Scotland Central - Edinburgh & Lothians": {
+          "service_admin": 12,
+          "support_worker": 0,
+          "customer_sales": 3,
+          "legal_assistant_paralegal": 3,
+          "marketing": 0,
+          "finance_accounts": 1,
+          "hr_recruitment": 1,
+          "customer_service_contact_centre": 1
+        },
+        "Scotland Central - Falkirk & Stirling": {
+          "service_admin": 1,
+          "support_worker": 0,
+          "customer_sales": 0,
+          "legal_assistant_paralegal": 0,
+          "marketing": 0,
+          "finance_accounts": 0,
+          "hr_recruitment": 0,
+          "customer_service_contact_centre": 0
+        },
+        "Scotland Central - Fife": {
+          "service_admin": 2,
+          "support_worker": 0,
+          "customer_sales": 2,
+          "legal_assistant_paralegal": 0,
+          "marketing": 0,
+          "finance_accounts": 0,
+          "hr_recruitment": 0,
+          "customer_service_contact_centre": 0
+        },
+        "Scotland Central - Tayside": {
+          "service_admin": 5,
+          "support_worker": 0,
+          "customer_sales": 0,
+          "legal_assistant_paralegal": 1,
+          "marketing": 0,
+          "finance_accounts": 0,
+          "hr_recruitment": 0,
+          "customer_service_contact_centre": 1
+        },
+        "Scotland West - Ayrshire": {
+          "service_admin": 1,
+          "support_worker": 0,
+          "customer_sales": 0,
+          "legal_assistant_paralegal": 1,
+          "marketing": 0,
+          "finance_accounts": 0,
+          "hr_recruitment": 0,
+          "customer_service_contact_centre": 1
+        },
+        "Scotland West - Glasgow": {
+          "service_admin": 14,
+          "support_worker": 0,
+          "customer_sales": 5,
+          "legal_assistant_paralegal": 1,
+          "marketing": 0,
+          "finance_accounts": 0,
+          "hr_recruitment": 1,
+          "customer_service_contact_centre": 1
+        },
+        "Scotland West - Lanarkshire": {
+          "service_admin": 0,
+          "support_worker": 0,
+          "customer_sales": 0,
+          "legal_assistant_paralegal": 0,
+          "marketing": 0,
+          "finance_accounts": 1,
+          "hr_recruitment": 0,
+          "customer_service_contact_centre": 0
+        },
+        "Scotland West - Renfrewshire & Inverclyde": {
+          "service_admin": 1,
+          "support_worker": 0,
+          "customer_sales": 1,
+          "legal_assistant_paralegal": 0,
+          "marketing": 0,
+          "finance_accounts": 0,
+          "hr_recruitment": 0,
+          "customer_service_contact_centre": 0
+        },
+        "Shropshire": {
+          "service_admin": 11,
+          "support_worker": 0,
+          "customer_sales": 1,
+          "legal_assistant_paralegal": 1,
+          "marketing": 1,
+          "finance_accounts": 2,
+          "hr_recruitment": 2,
+          "customer_service_contact_centre": 0
+        },
+        "Somerset": {
+          "service_admin": 14,
+          "support_worker": 2,
+          "customer_sales": 3,
+          "legal_assistant_paralegal": 1,
+          "marketing": 4,
+          "finance_accounts": 1,
+          "hr_recruitment": 1,
+          "customer_service_contact_centre": 2
+        },
+        "Staffordshire": {
+          "service_admin": 15,
+          "support_worker": 0,
+          "customer_sales": 2,
+          "legal_assistant_paralegal": 0,
+          "marketing": 2,
+          "finance_accounts": 3,
+          "hr_recruitment": 0,
+          "customer_service_contact_centre": 3
+        },
+        "Suffolk": {
+          "service_admin": 15,
+          "support_worker": 0,
+          "customer_sales": 3,
+          "legal_assistant_paralegal": 1,
+          "marketing": 1,
+          "finance_accounts": 1,
+          "hr_recruitment": 0,
+          "customer_service_contact_centre": 1
+        },
+        "Surrey": {
+          "service_admin": 48,
+          "support_worker": 3,
+          "customer_sales": 7,
+          "legal_assistant_paralegal": 5,
+          "marketing": 10,
+          "finance_accounts": 3,
+          "hr_recruitment": 3,
+          "customer_service_contact_centre": 6
+        },
+        "Sussex": {
+          "service_admin": 29,
+          "support_worker": 4,
+          "customer_sales": 9,
+          "legal_assistant_paralegal": 4,
+          "marketing": 5,
+          "finance_accounts": 2,
+          "hr_recruitment": 4,
+          "customer_service_contact_centre": 4
+        },
+        "Wales - Mid": {
+          "service_admin": 0,
+          "support_worker": 0,
+          "customer_sales": 0,
+          "legal_assistant_paralegal": 0,
+          "marketing": 0,
+          "finance_accounts": 0,
+          "hr_recruitment": 0,
+          "customer_service_contact_centre": 0
+        },
+        "Wales - West": {
+          "service_admin": 3,
+          "support_worker": 0,
+          "customer_sales": 0,
+          "legal_assistant_paralegal": 0,
+          "marketing": 0,
+          "finance_accounts": 0,
+          "hr_recruitment": 1,
+          "customer_service_contact_centre": 0
+        },
+        "Wales South - Cardiff & Vale": {
+          "service_admin": 8,
+          "support_worker": 0,
+          "customer_sales": 3,
+          "legal_assistant_paralegal": 2,
+          "marketing": 1,
+          "finance_accounts": 0,
+          "hr_recruitment": 0,
+          "customer_service_contact_centre": 0
+        },
+        "Wales South - Gwent": {
+          "service_admin": 2,
+          "support_worker": 0,
+          "customer_sales": 0,
+          "legal_assistant_paralegal": 2,
+          "marketing": 0,
+          "finance_accounts": 0,
+          "hr_recruitment": 0,
+          "customer_service_contact_centre": 0
+        },
+        "Wales South - Swansea Bay": {
+          "service_admin": 2,
+          "support_worker": 0,
+          "customer_sales": 1,
+          "legal_assistant_paralegal": 1,
+          "marketing": 1,
+          "finance_accounts": 0,
+          "hr_recruitment": 0,
+          "customer_service_contact_centre": 0
+        },
+        "Wales South - Valleys": {
+          "service_admin": 1,
+          "support_worker": 0,
+          "customer_sales": 1,
+          "legal_assistant_paralegal": 4,
+          "marketing": 0,
+          "finance_accounts": 0,
+          "hr_recruitment": 0,
+          "customer_service_contact_centre": 1
+        },
+        "West Midlands - Birmingham & Solihull": {
+          "service_admin": 24,
+          "support_worker": 2,
+          "customer_sales": 11,
+          "legal_assistant_paralegal": 4,
+          "marketing": 3,
+          "finance_accounts": 3,
+          "hr_recruitment": 2,
+          "customer_service_contact_centre": 4
+        },
+        "West Midlands - Black Country": {
+          "service_admin": 5,
+          "support_worker": 1,
+          "customer_sales": 1,
+          "legal_assistant_paralegal": 4,
+          "marketing": 1,
+          "finance_accounts": 1,
+          "hr_recruitment": 0,
+          "customer_service_contact_centre": 1
+        },
+        "West Midlands - Coventry & Warwickshire": {
+          "service_admin": 19,
+          "support_worker": 1,
+          "customer_sales": 6,
+          "legal_assistant_paralegal": 1,
+          "marketing": 4,
+          "finance_accounts": 3,
+          "hr_recruitment": 3,
+          "customer_service_contact_centre": 0
+        },
+        "Wiltshire": {
+          "service_admin": 8,
+          "support_worker": 2,
+          "customer_sales": 3,
+          "legal_assistant_paralegal": 4,
+          "marketing": 2,
+          "finance_accounts": 0,
+          "hr_recruitment": 1,
+          "customer_service_contact_centre": 2
+        },
+        "Worcestershire": {
+          "service_admin": 12,
+          "support_worker": 0,
+          "customer_sales": 2,
+          "legal_assistant_paralegal": 2,
+          "marketing": 1,
+          "finance_accounts": 1,
+          "hr_recruitment": 0,
+          "customer_service_contact_centre": 2
+        },
+        "Yorkshire - East": {
+          "service_admin": 17,
+          "support_worker": 0,
+          "customer_sales": 0,
+          "legal_assistant_paralegal": 2,
+          "marketing": 2,
+          "finance_accounts": 2,
+          "hr_recruitment": 1,
+          "customer_service_contact_centre": 3
+        },
+        "Yorkshire - North": {
+          "service_admin": 16,
+          "support_worker": 1,
+          "customer_sales": 4,
+          "legal_assistant_paralegal": 0,
+          "marketing": 9,
+          "finance_accounts": 2,
+          "hr_recruitment": 1,
+          "customer_service_contact_centre": 2
+        },
+        "Yorkshire - South": {
+          "service_admin": 16,
+          "support_worker": 0,
+          "customer_sales": 3,
+          "legal_assistant_paralegal": 3,
+          "marketing": 5,
+          "finance_accounts": 0,
+          "hr_recruitment": 0,
+          "customer_service_contact_centre": 1
+        },
+        "Yorkshire - West": {
+          "service_admin": 38,
+          "support_worker": 2,
+          "customer_sales": 5,
+          "legal_assistant_paralegal": 4,
+          "marketing": 18,
+          "finance_accounts": 3,
+          "hr_recruitment": 3,
+          "customer_service_contact_centre": 3
+        }
+      }
     }
   ]
 }

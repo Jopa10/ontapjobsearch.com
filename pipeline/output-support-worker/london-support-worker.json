@@ -19,11 +19,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Part Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Personal care",
-      "Daily living support"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225516212",
@@ -45,11 +41,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Daily",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Daily living support",
-      "Safeguarding"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "107885503",
@@ -93,11 +85,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Personal care",
-      "Daily living support"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1664745",
@@ -207,6 +195,28 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
+    "job_id": "2049628",
+    "title": "Support Worker - Day Centre Belfast",
+    "company": "First Choice Selection Services - Agency - Permanent",
+    "location": "City",
+    "region": "London",
+    "country": "UK",
+    "category": "Support Worker – Wide",
+    "employment_type": "Permanent",
+    "salary_min": "12.75",
+    "salary_max": "12.75",
+    "salary_text": "£12.75 per hour",
+    "posted_date": "",
+    "description": "Support Workers are required for various day centres operated by our public sector the Belfast Trust. These roles are for a minimum of six months, working between 25-30 hours per week depending on the centre, Monday to Friday, with an hourly rate of £12.75. These are a range of day centres located throughout Belfast.\n\nIn this role, you will be working as part of a team to support adults with physical disabilities, sensory impairments, or learning disabilities. This is a sociable role where you will interact and provide support to the service users, assisting with activities within the centre and supervising outings.\n\nWhat We Need From You:\n- Willingness to undergo an enhanced Access NI check\n- Experience working within the healthcare sector\n- To be NISCC registered, or willing to apply\n\nWhat We Will Offer You:\n- Opportunity to work alongside the Belfast Trust\n- Paid Annual Leave\n- Free comprehensive and ongoing annual training courses\n- Weekly Pay\n\nThe Next Steps:\n- Contact Ella Milligan or Ronan Lavery at First Choice Belfast\n- To apply, send your CV via the link\n\nFirst Choice is an equal opportunities employer",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?b0ZSEQFKUCIdWULTmnr3lL0VODhd0a%2bwl",
+    "source": "JobG8",
+    "advertiser_name": "First Choice Selection Services",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Hourly",
     "posted_date_basis": ""
   },
   {

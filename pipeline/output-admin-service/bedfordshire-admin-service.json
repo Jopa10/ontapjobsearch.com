@@ -97,13 +97,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Records administration",
-      "Quotations",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225474065",
@@ -178,13 +172,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Scheduling and bookings",
-      "Records administration",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225564132",
@@ -234,11 +222,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Data entry"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225543403",
@@ -289,6 +273,53 @@
     "work_pattern": "Full Time",
     "salary_period": "Annual",
     "posted_date_basis": ""
+  },
+  {
+    "job_id": "107933358",
+    "title": "Early Careers Coordinator",
+    "company": "BPHA - Agency - Permanent",
+    "location": "Bedfordshire",
+    "region": "Bedfordshire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "28000",
+    "salary_max": "28000",
+    "salary_text": "£28000 per year",
+    "posted_date": "",
+    "description": "Early Careers Coordinator\n\nSalary: £28,000 per annum\n\nLocation: Hybrid\nHours: 37 hours per week\n\nCreating opportunities. Growing talent. Building future careers.\n\nWe're looking for an enthusiastic and organised Early Careers Coordinator to help deliver and develop our early careers offer across apprenticeships, graduate programmes and work experience placements click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?kjuUUj3TFp6S5vuVyDg%2fSn215Njd%2fUdvg",
+    "source": "JobG8",
+    "working_arrangement": "hybrid",
+    "working_arrangement_text": "Hybrid working",
+    "working_arrangement_evidence": "Early Careers Coordinator Early Careers Coordinator Salary: £28,000 per annum Location: Hybrid Hours: 37 hours per week Creating opportunities.",
+    "advertiser_name": "BPHA",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
+    "job_id": "nhs-5544598",
+    "source": "NHS Jobs",
+    "title": "Receptionist",
+    "company": "Primary Care Careers",
+    "advertiser_name": "Primary Care Careers",
+    "location": "Bedford, MK42 8QD",
+    "region": "Bedfordshire",
+    "salary": "£13.22",
+    "employment_type": "Permanent",
+    "posted_date": "2026-09-03T18:05:44.951388749",
+    "closing_date": "2026-09-10",
+    "description": "King Street Surgery in Kempston is recruiting a receptionist/administrator to join our busy team. This position is offered on a part-time basis, for 19 hours per week, working the following hours: Monday 2.30 - 6.30pm Wednesday 1.30 - 6.30pm Thursday 2.30 - 6.30pm Friday 12.30 - 6.30pm We are a large GP practice in Kempston, Bedford, across three sites, with a team of doctors, nurses, administrators and receptionists. To be part of the team contributing to the smooth running of the practice by ensuring that all enquiries from patients in person or by telephone are handled efficiently and courteously. Filing, record keeping and the processing of documents. The role involves liaising with doctors and other members of staff. Prepare for each surgery, ensuring premises are tidy. Receive and make telephone calls and take accurate notes. Book and cancel appointments as necessary and deal efficiently with the computerised appointments system. Answer general enquiries and explain practice procedures e.g. on registration, changes of address, etc. Issue medication prepared by the dispenser when the dispensary is closed, and to take and account for any prescription charges due as appropriate. Maintain and operate computer and manual administrative systems. Open and close surgery premises. Inform patients of results of hospital tests as directed by the doctor. The reception/admin staff forms one team and provides cover across a range of administrative duties associated with the surgery. If you would like to find out more information about this role, please do not hesitate to get in contact with us.",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/M0038-26-0733",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/M0038-26-0733",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5568712",
