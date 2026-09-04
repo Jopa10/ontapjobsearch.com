@@ -69,12 +69,6 @@ job_id: 23643_222307132
 
 ---
 action:
-SELECTED | Sussex | Bognor Regis | £16.50 per hour | Waking Night Support Worker
-job_id: 1756847
----
-
----
-action:
 SELECTED | Sussex | Hastings | £13.79 per hour | Care Assistant
 job_id: 107826653
 ---
@@ -83,6 +77,12 @@ job_id: 107826653
 action:
 SELECTED | Sussex | Eastbourne | £92.54 - £97 per daily | ADHD Support Worker
 job_id: 23643_225552397
+---
+
+---
+action:
+SELECTED | Sussex | East Grinstead | £14.25 per hour | Care assistant - East Grinstead
+job_id: 23643_225567530
 ---
 
 ## SUSSEX — POSSIBLES
@@ -157,6 +157,12 @@ SELECTED | Hampshire | Gosport | £26018 - £27111 per year | Day Opportunities 
 job_id: 1401784915
 ---
 
+---
+action:
+SELECTED | Hampshire | Southampton | £25,947 - £26,305 per annum | Accommodation Support Worker
+job_id: 1854961
+---
+
 ## HAMPSHIRE — POSSIBLES
 
 _No jobs in this group._
@@ -167,12 +173,6 @@ _No jobs in this group._
 action:
 SELECTED | Kent | Tunbridge Wells | competitive + benefits | Qualified Hearing Care Assistant
 job_id: 1402264062
----
-
----
-action:
-SELECTED | Kent | Kent | £13.45 per hour (£13.45) | Housing Support Worker (Casual)
-job_id: 23643_225534852
 ---
 
 ---
@@ -273,11 +273,23 @@ job_id: 1664745
 
 ---
 action:
+SELECTED | London | City | £13.69 per hour | Mental Health Support Worker Nightshift - Female Only
+job_id: 2049999
+---
+
+---
+action:
 SELECTED | London | City | £12.75 per hour | Support Worker - Day Centre Belfast
 job_id: 2049628
 ---
 
 ## LONDON — POSSIBLES
+
+---
+action:
+POSS - LONDON | London | London | £15.5 - £20 per hour | Reconnect+ Support Worker
+job_id: 23643_225572316
+---
 
 ---
 action:
@@ -321,6 +333,12 @@ _No jobs in this group._
 action:
 SELECTED | Surrey | Farnham | £13.00 per hour | Specialist Academic Support Worker
 job_id: 1692926
+---
+
+---
+action:
+SELECTED | Surrey | Cobham | £13.45 per hour (£13.45) | Housing Support Worker (Casual)
+job_id: 23643_225534852
 ---
 
 ---
