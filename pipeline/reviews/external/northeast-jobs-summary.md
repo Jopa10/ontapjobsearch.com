@@ -166,7 +166,7 @@ source_job_id: 300972
 source_url: https://www.northeastjobs.org.uk/job/PA_Support_Officer/300972
 ---
 ---
-action:
+action: exclude
 POSS | North East - County Durham & Darlington/Hartlepool | Civic Centre, Hartlepool | £47,665 - £51,928 per annum | Practice Development Coordinator
 employer: Hartlepool Borough Council
 closing_date: 21/09/2026 12:00
@@ -184,7 +184,7 @@ source_job_id: 301232
 source_url: https://www.northeastjobs.org.uk/job/Waste_Operations_Support_Officers/301232
 ---
 ---
-action:
+action: select
 POSS | North East - Tyneside, Wearside & Northumberland | Sunderland City Council (derived for filtering) | Grade 5 (SCP 17-22) £31,022 - £33,699 | Active Sunderland Weight Management Support Officer
 employer: Sunderland City Council
 closing_date: 14/09/2026
@@ -193,7 +193,7 @@ source_job_id: 301079
 source_url: https://www.northeastjobs.org.uk/job/Active_Sunderland_Weight_Management_Support_Officer/301079
 ---
 ---
-action:
+action: exclude
 POSS | North East - Tyneside, Wearside & Northumberland | Gateshead | £30,515 - £33,119 | Annual Review Officer (SEND)
 employer: Gateshead Council
 closing_date: 10/09/2026
@@ -211,7 +211,7 @@ source_job_id: 300632
 source_url: https://www.northeastjobs.org.uk/job/Attendance_Officer/300632
 ---
 ---
-action:
+action: exclude
 POSS | North East - Tyneside, Wearside & Northumberland | Kyloe House, Stannington, United Kingdom | £25,485.96 - £27,646.17 (equated salary quoted) | Behaviour Support Officer - Kyloe House
 employer: Northumberland County Council
 closing_date: 17/09/2026 00:00
@@ -220,7 +220,7 @@ source_job_id: 301477
 source_url: https://www.northeastjobs.org.uk/job/Behaviour_Support_Officer_Kyloe_House/301477
 ---
 ---
-action:
+action: exclude
 POSS | North East - Tyneside, Wearside & Northumberland | Sunderland City Council (derived for filtering) | Grade 5 (SCP 17-22) £31,022 - £33,699 | Driving Assessment Officer
 employer: Sunderland City Council
 closing_date: 14/09/2026
@@ -229,7 +229,7 @@ source_job_id: 301282
 source_url: https://www.northeastjobs.org.uk/job/Driving_Assessment_Officer/301282
 ---
 ---
-action:
+action: exclude
 POSS | North East - Tyneside, Wearside & Northumberland | Sunderland City Council (derived for filtering) | 4 (SCP 12 - 17) £28,598 - £31,022 | Environmental Enforcement Support Officer
 employer: Sunderland City Council
 closing_date: 16/09/2026
@@ -247,7 +247,7 @@ source_job_id: 301056
 source_url: https://www.northeastjobs.org.uk/job/Senior_Support_Coordinator/301056
 ---
 ---
-action:
+action: exclude
 POSS | North East - Tyneside, Wearside & Northumberland | Gateshead | £43,149 - £46,579 | Simpler Recycling Projects Coordinator
 employer: Gateshead Council
 closing_date: 08/09/2026
