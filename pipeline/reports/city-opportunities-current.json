@@ -2,8 +2,8 @@
   "threshold": 6,
   "near_threshold": 4,
   "published_slices_scanned": 16,
-  "jobs_scanned": 723,
-  "regional_markets_defined": 61,
+  "jobs_scanned": 652,
+  "regional_markets_defined": 65,
   "market_rows_monitored": 94,
   "opportunities": [
     {
@@ -23,7 +23,7 @@
       "region": "west-yorkshire",
       "slice": "service-administrator-jobs",
       "locality": "Leeds",
-      "jobs": 22,
+      "jobs": 24,
       "threshold": 6,
       "status": "LIVE",
       "basis": "configured-catchment",
@@ -36,12 +36,25 @@
       "region": "south-yorkshire",
       "slice": "service-administrator-jobs",
       "locality": "Sheffield",
-      "jobs": 14,
+      "jobs": 15,
       "threshold": 6,
       "status": "LIVE",
       "basis": "configured-catchment",
       "parent_json": "app/south-yorkshire/service-administrator-jobs.json",
       "existing_route": "/sheffield/service-administrator-jobs",
+      "active": true,
+      "registered_market": true
+    },
+    {
+      "region": "south-yorkshire",
+      "slice": "service-administrator-jobs",
+      "locality": "Doncaster",
+      "jobs": 9,
+      "threshold": 6,
+      "status": "LIVE",
+      "basis": "configured-catchment",
+      "parent_json": "app/south-yorkshire/service-administrator-jobs.json",
+      "existing_route": "/doncaster/service-administrator-jobs",
       "active": true,
       "registered_market": true
     },
@@ -55,19 +68,6 @@
       "basis": "configured-catchment",
       "parent_json": "app/west-yorkshire/service-administrator-jobs.json",
       "existing_route": "/bradford/service-administrator-jobs",
-      "active": true,
-      "registered_market": true
-    },
-    {
-      "region": "south-yorkshire",
-      "slice": "service-administrator-jobs",
-      "locality": "Doncaster",
-      "jobs": 8,
-      "threshold": 6,
-      "status": "LIVE",
-      "basis": "configured-catchment",
-      "parent_json": "app/south-yorkshire/service-administrator-jobs.json",
-      "existing_route": "/doncaster/service-administrator-jobs",
       "active": true,
       "registered_market": true
     },
@@ -124,6 +124,19 @@
       "registered_market": true
     },
     {
+      "region": "coventry-warwickshire",
+      "slice": "service-administrator-jobs",
+      "locality": "Coventry",
+      "jobs": 3,
+      "threshold": 6,
+      "status": "LIVE",
+      "basis": "configured-catchment",
+      "parent_json": "app/coventry-warwickshire/service-administrator-jobs.json",
+      "existing_route": "/coventry/service-administrator-jobs",
+      "active": true,
+      "registered_market": true
+    },
+    {
       "region": "hampshire",
       "slice": "support-worker",
       "locality": "Southampton",
@@ -133,19 +146,6 @@
       "basis": "configured-catchment",
       "parent_json": "app/hampshire/support-worker.json",
       "existing_route": "/southampton/support-worker",
-      "active": true,
-      "registered_market": true
-    },
-    {
-      "region": "coventry-warwickshire",
-      "slice": "service-administrator-jobs",
-      "locality": "Coventry",
-      "jobs": 2,
-      "threshold": 6,
-      "status": "LIVE",
-      "basis": "configured-catchment",
-      "parent_json": "app/coventry-warwickshire/service-administrator-jobs.json",
-      "existing_route": "/coventry/service-administrator-jobs",
       "active": true,
       "registered_market": true
     },
@@ -179,7 +179,7 @@
       "region": "coventry-warwickshire",
       "slice": "service-administrator-jobs",
       "locality": "Warwickshire",
-      "jobs": 19,
+      "jobs": 17,
       "threshold": 6,
       "status": "QUALIFIES",
       "basis": "exact-location-unregistered",
@@ -187,19 +187,6 @@
       "existing_route": "",
       "active": false,
       "registered_market": false
-    },
-    {
-      "region": "west-yorkshire",
-      "slice": "service-administrator-jobs",
-      "locality": "Wakefield",
-      "jobs": 10,
-      "threshold": 6,
-      "status": "QUALIFIES",
-      "basis": "regional-market",
-      "parent_json": "app/west-yorkshire/service-administrator-jobs.json",
-      "existing_route": "",
-      "active": false,
-      "registered_market": true
     },
     {
       "region": "north-east",
@@ -215,17 +202,30 @@
       "registered_market": false
     },
     {
-      "region": "london",
+      "region": "west-yorkshire",
       "slice": "service-administrator-jobs",
-      "locality": "Borehamwood",
+      "locality": "Wakefield",
+      "jobs": 8,
+      "threshold": 6,
+      "status": "QUALIFIES",
+      "basis": "regional-market",
+      "parent_json": "app/west-yorkshire/service-administrator-jobs.json",
+      "existing_route": "",
+      "active": false,
+      "registered_market": true
+    },
+    {
+      "region": "north-east",
+      "slice": "service-administrator-jobs",
+      "locality": "Durham",
       "jobs": 5,
       "threshold": 6,
       "status": "NEAR",
-      "basis": "exact-location-unregistered",
-      "parent_json": "app/london/service-administrator-jobs.json",
+      "basis": "regional-market",
+      "parent_json": "app/north-east/service-administrator-jobs.json",
       "existing_route": "",
       "active": false,
-      "registered_market": false
+      "registered_market": true
     },
     {
       "region": "north-yorkshire",
@@ -256,19 +256,6 @@
     {
       "region": "london",
       "slice": "service-administrator-jobs",
-      "locality": "Croydon",
-      "jobs": 4,
-      "threshold": 6,
-      "status": "NEAR",
-      "basis": "exact-location-unregistered",
-      "parent_json": "app/london/service-administrator-jobs.json",
-      "existing_route": "",
-      "active": false,
-      "registered_market": false
-    },
-    {
-      "region": "london",
-      "slice": "service-administrator-jobs",
       "locality": "Uxbridge",
       "jobs": 4,
       "threshold": 6,
@@ -291,19 +278,6 @@
       "existing_route": "",
       "active": false,
       "registered_market": false
-    },
-    {
-      "region": "north-east",
-      "slice": "service-administrator-jobs",
-      "locality": "Durham",
-      "jobs": 4,
-      "threshold": 6,
-      "status": "NEAR",
-      "basis": "regional-market",
-      "parent_json": "app/north-east/service-administrator-jobs.json",
-      "existing_route": "",
-      "active": false,
-      "registered_market": true
     },
     {
       "region": "north-yorkshire",
@@ -332,19 +306,6 @@
       "registered_market": false
     },
     {
-      "region": "hampshire",
-      "slice": "service-administrator-jobs",
-      "locality": "Winchester",
-      "jobs": 3,
-      "threshold": 6,
-      "status": "BUILDING",
-      "basis": "regional-market",
-      "parent_json": "app/hampshire/service-administrator-jobs.json",
-      "existing_route": "",
-      "active": false,
-      "registered_market": true
-    },
-    {
       "region": "kent",
       "slice": "service-administrator-jobs",
       "locality": "Medway",
@@ -353,6 +314,19 @@
       "status": "BUILDING",
       "basis": "regional-market",
       "parent_json": "app/kent/service-administrator-jobs.json",
+      "existing_route": "",
+      "active": false,
+      "registered_market": true
+    },
+    {
+      "region": "north-east",
+      "slice": "service-administrator-jobs",
+      "locality": "Darlington",
+      "jobs": 3,
+      "threshold": 6,
+      "status": "BUILDING",
+      "basis": "regional-market",
+      "parent_json": "app/north-east/service-administrator-jobs.json",
       "existing_route": "",
       "active": false,
       "registered_market": true
@@ -423,14 +397,14 @@
       "registered_market": true
     },
     {
-      "region": "north-east",
+      "region": "hampshire",
       "slice": "service-administrator-jobs",
-      "locality": "Darlington",
+      "locality": "Winchester",
       "jobs": 2,
       "threshold": 6,
       "status": "BUILDING",
       "basis": "regional-market",
-      "parent_json": "app/north-east/service-administrator-jobs.json",
+      "parent_json": "app/hampshire/service-administrator-jobs.json",
       "existing_route": "",
       "active": false,
       "registered_market": true
@@ -438,7 +412,7 @@
     {
       "region": "north-east",
       "slice": "service-administrator-jobs",
-      "locality": "Hartlepool",
+      "locality": "Sunderland",
       "jobs": 2,
       "threshold": 6,
       "status": "BUILDING",
@@ -462,14 +436,14 @@
       "registered_market": true
     },
     {
-      "region": "sussex",
+      "region": "west-yorkshire",
       "slice": "service-administrator-jobs",
-      "locality": "Eastbourne",
+      "locality": "Dewsbury",
       "jobs": 2,
       "threshold": 6,
       "status": "BUILDING",
       "basis": "regional-market",
-      "parent_json": "app/sussex/service-administrator-jobs.json",
+      "parent_json": "app/west-yorkshire/service-administrator-jobs.json",
       "existing_route": "",
       "active": false,
       "registered_market": true
@@ -528,6 +502,19 @@
     },
     {
       "region": "hampshire",
+      "slice": "service-administrator-jobs",
+      "locality": "Portsmouth",
+      "jobs": 1,
+      "threshold": 6,
+      "status": "BUILDING",
+      "basis": "regional-market",
+      "parent_json": "app/hampshire/service-administrator-jobs.json",
+      "existing_route": "",
+      "active": false,
+      "registered_market": true
+    },
+    {
+      "region": "hampshire",
       "slice": "support-worker",
       "locality": "Eastleigh",
       "jobs": 1,
@@ -535,19 +522,6 @@
       "status": "BUILDING",
       "basis": "regional-market",
       "parent_json": "app/hampshire/support-worker.json",
-      "existing_route": "",
-      "active": false,
-      "registered_market": true
-    },
-    {
-      "region": "kent",
-      "slice": "service-administrator-jobs",
-      "locality": "Ashford",
-      "jobs": 1,
-      "threshold": 6,
-      "status": "BUILDING",
-      "basis": "regional-market",
-      "parent_json": "app/kent/service-administrator-jobs.json",
       "existing_route": "",
       "active": false,
       "registered_market": true
@@ -593,8 +567,34 @@
     },
     {
       "region": "north-east",
+      "slice": "service-administrator-jobs",
+      "locality": "Hartlepool",
+      "jobs": 1,
+      "threshold": 6,
+      "status": "BUILDING",
+      "basis": "regional-market",
+      "parent_json": "app/north-east/service-administrator-jobs.json",
+      "existing_route": "",
+      "active": false,
+      "registered_market": true
+    },
+    {
+      "region": "north-east",
       "slice": "support-worker-jobs",
       "locality": "Durham",
+      "jobs": 1,
+      "threshold": 6,
+      "status": "BUILDING",
+      "basis": "regional-market",
+      "parent_json": "app/north-east/support-worker-jobs.json",
+      "existing_route": "",
+      "active": false,
+      "registered_market": true
+    },
+    {
+      "region": "north-east",
+      "slice": "support-worker-jobs",
+      "locality": "Newcastle",
       "jobs": 1,
       "threshold": 6,
       "status": "BUILDING",
@@ -633,7 +633,33 @@
     {
       "region": "sussex",
       "slice": "service-administrator-jobs",
+      "locality": "Eastbourne",
+      "jobs": 1,
+      "threshold": 6,
+      "status": "BUILDING",
+      "basis": "regional-market",
+      "parent_json": "app/sussex/service-administrator-jobs.json",
+      "existing_route": "",
+      "active": false,
+      "registered_market": true
+    },
+    {
+      "region": "sussex",
+      "slice": "service-administrator-jobs",
       "locality": "Hastings & St Leonards",
+      "jobs": 1,
+      "threshold": 6,
+      "status": "BUILDING",
+      "basis": "regional-market",
+      "parent_json": "app/sussex/service-administrator-jobs.json",
+      "existing_route": "",
+      "active": false,
+      "registered_market": true
+    },
+    {
+      "region": "sussex",
+      "slice": "service-administrator-jobs",
+      "locality": "Worthing",
       "jobs": 1,
       "threshold": 6,
       "status": "BUILDING",
@@ -691,32 +717,6 @@
       "status": "BUILDING",
       "basis": "regional-market",
       "parent_json": "app/sussex/support-worker.json",
-      "existing_route": "",
-      "active": false,
-      "registered_market": true
-    },
-    {
-      "region": "west-yorkshire",
-      "slice": "service-administrator-jobs",
-      "locality": "Dewsbury",
-      "jobs": 1,
-      "threshold": 6,
-      "status": "BUILDING",
-      "basis": "regional-market",
-      "parent_json": "app/west-yorkshire/service-administrator-jobs.json",
-      "existing_route": "",
-      "active": false,
-      "registered_market": true
-    },
-    {
-      "region": "west-yorkshire",
-      "slice": "service-administrator-jobs",
-      "locality": "Halifax",
-      "jobs": 1,
-      "threshold": 6,
-      "status": "BUILDING",
-      "basis": "regional-market",
-      "parent_json": "app/west-yorkshire/service-administrator-jobs.json",
       "existing_route": "",
       "active": false,
       "registered_market": true
@@ -827,19 +827,6 @@
     },
     {
       "region": "hampshire",
-      "slice": "service-administrator-jobs",
-      "locality": "Portsmouth",
-      "jobs": 0,
-      "threshold": 6,
-      "status": "BELOW",
-      "basis": "regional-market",
-      "parent_json": "app/hampshire/service-administrator-jobs.json",
-      "existing_route": "",
-      "active": false,
-      "registered_market": true
-    },
-    {
-      "region": "hampshire",
       "slice": "support-worker",
       "locality": "Aldershot",
       "jobs": 0,
@@ -932,6 +919,19 @@
     {
       "region": "kent",
       "slice": "service-administrator-jobs",
+      "locality": "Ashford",
+      "jobs": 0,
+      "threshold": 6,
+      "status": "BELOW",
+      "basis": "regional-market",
+      "parent_json": "app/kent/service-administrator-jobs.json",
+      "existing_route": "",
+      "active": false,
+      "registered_market": true
+    },
+    {
+      "region": "kent",
+      "slice": "service-administrator-jobs",
       "locality": "Folkestone",
       "jobs": 0,
       "threshold": 6,
@@ -957,19 +957,6 @@
     },
     {
       "region": "north-east",
-      "slice": "service-administrator-jobs",
-      "locality": "Sunderland",
-      "jobs": 0,
-      "threshold": 6,
-      "status": "BELOW",
-      "basis": "regional-market",
-      "parent_json": "app/north-east/service-administrator-jobs.json",
-      "existing_route": "",
-      "active": false,
-      "registered_market": true
-    },
-    {
-      "region": "north-east",
       "slice": "support-worker-jobs",
       "locality": "Darlington",
       "jobs": 0,
@@ -985,19 +972,6 @@
       "region": "north-east",
       "slice": "support-worker-jobs",
       "locality": "Hartlepool",
-      "jobs": 0,
-      "threshold": 6,
-      "status": "BELOW",
-      "basis": "regional-market",
-      "parent_json": "app/north-east/support-worker-jobs.json",
-      "existing_route": "",
-      "active": false,
-      "registered_market": true
-    },
-    {
-      "region": "north-east",
-      "slice": "support-worker-jobs",
-      "locality": "Newcastle",
       "jobs": 0,
       "threshold": 6,
       "status": "BELOW",
@@ -1204,19 +1178,6 @@
     },
     {
       "region": "sussex",
-      "slice": "service-administrator-jobs",
-      "locality": "Worthing",
-      "jobs": 0,
-      "threshold": 6,
-      "status": "BELOW",
-      "basis": "regional-market",
-      "parent_json": "app/sussex/service-administrator-jobs.json",
-      "existing_route": "",
-      "active": false,
-      "registered_market": true
-    },
-    {
-      "region": "sussex",
       "slice": "support-worker",
       "locality": "Chichester",
       "jobs": 0,
@@ -1276,6 +1237,19 @@
       "status": "BELOW",
       "basis": "regional-market",
       "parent_json": "app/sussex/support-worker.json",
+      "existing_route": "",
+      "active": false,
+      "registered_market": true
+    },
+    {
+      "region": "west-yorkshire",
+      "slice": "service-administrator-jobs",
+      "locality": "Halifax",
+      "jobs": 0,
+      "threshold": 6,
+      "status": "BELOW",
+      "basis": "regional-market",
+      "parent_json": "app/west-yorkshire/service-administrator-jobs.json",
       "existing_route": "",
       "active": false,
       "registered_market": true
