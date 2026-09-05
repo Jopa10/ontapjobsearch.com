@@ -1,11 +1,13 @@
 # Ontap System Map
 
-**Last updated:** 4 September 2026
+**Last updated:** 5 September 2026
 **Status:** Canonical production architecture including an idempotent external fallback for the twice-daily JobG8 process, restored NHS Google Jobs eligibility, owner-facing JobG8 selection auditing, live-site reporting reconciliation and Teaching Vacancies regional publish isolation.
 
 This is the authoritative technical map of the persistent Ontap system. It is organised into five canonical buckets. Facts not verified from the repository are marked `UNKNOWN / NEEDS AUDIT` rather than inferred from chat history.
 
 ## Recent canonical changes
+
+- 5 September 2026 — **Discovery recommendation registers are committed as inactive review-only governance:** role_relationships.csv records exact-role rank 0 plus explicit transferable role relationships, with private-sector targets only; employer_sector_rules.csv records exact and evidence-based NHS/public/council/education/charity/private classifications and fail-closed unknowns; canonical_location_coordinates.csv provides review-only location coordinates. build_location_proximity_review.py calculates straight-line Haversine pairs at a fixed 15-mile maximum and city_nearby_rules.csv is the approval/exclusion surface. build_employer_sector_review.py writes the employer-sector audit. None of these components is connected to job pages, enabled, or permitted to make recommendations until explicit approval and a separately reviewed implementation.
 
 - 4 September 2026 — **The no-edit publication safety net accepts an external fallback dispatch:** `Apply and publish Ontap daily review` now accepts exact `AUTOMATIC_FALLBACK` as well as the owner-only `PUBLISH` approval. `AUTOMATIC_FALLBACK` follows the existing scheduled automatic-withhold path, including the same-date successful-dispatch check; it never enters manual quarantine mode. This allows cron-job.org to recover a delayed GitHub 11:45 schedule without turning untouched review items into exclusions or publishing twice. Manual `PUBLISH` behaviour is unchanged.
 
