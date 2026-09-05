@@ -73,3 +73,60 @@ test("permits private-to-private matches but never points a private job to publi
     ["private-target"],
   );
 });
+
+test("uses the published family when an exact source-title relationship is absent", () => {
+  const current = job({
+    job_id: "harrow-school",
+    title: "Receptionist & Admin Assistant",
+    company: "Heathland School",
+    location: "Harrow",
+    region: "London",
+    source: "Teaching Vacancies",
+  });
+  const jobs = [
+    current,
+    job({
+      job_id: "private-receptionist",
+      title: "Receptionist",
+      company: "Hamberley Care Management Limited",
+      location: "London",
+      region: "London",
+      source: "JobG8",
+    }),
+    job({
+      job_id: "other-family",
+      title: "Marketing Assistant",
+      category: "Marketing",
+      company: "Sky",
+      location: "London",
+      region: "London",
+      source: "JobG8",
+    }),
+  ];
+
+  assert.deepEqual(
+    getDiscoveryRecommendations(current, jobs).map((result) => result.job_id),
+    ["private-receptionist"],
+  );
+});
+
+test("an unknown landing employer can see same-family private jobs but never public jobs", () => {
+  const current = job({
+    job_id: "agency-source",
+    title: "Unregistered Admin Variant",
+    company: "Office Angels - Agency - Permanent",
+    advertiser_name: "Office Angels",
+    advertiser_type: "Agency",
+    source: "JobG8",
+  });
+  const jobs = [
+    current,
+    job({ job_id: "private-target", title: "Receptionist", company: "Spire Healthcare" }),
+    job({ job_id: "public-target", title: "Receptionist", company: "Royal Wolverhampton NHS Trust" }),
+  ];
+
+  assert.deepEqual(
+    getDiscoveryRecommendations(current, jobs).map((result) => result.job_id),
+    ["private-target"],
+  );
+});

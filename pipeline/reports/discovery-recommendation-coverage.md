@@ -1,19 +1,18 @@
 # Discovery recommendation coverage
 
-Generated from 1,807 unique published jobs. Rules remain exact-title, evidence-based and capped at 15 straight-line miles.
+Generated from 1,807 unique published jobs. Matches use the published family or an explicit role relationship, require an evidenced private target and remain capped at 15 straight-line miles.
 
 ## Outcome
 
-- Ranked-job panels: 61
-- Slice fallbacks: 1,746
-- Total eligible recommendation pairs: 857
+- Ranked-job panels: 475
+- Slice fallbacks: 1,332
+- Total eligible recommendation pairs: 2,663
 
 ## Fallback blockers
 
-- source_employer_sector_unknown: 1,463
-- no_eligible_private_target_within_15_miles: 119
-- no_exact_source_role_rule: 102
-- source_location_unresolved_or_broad: 62
+- source_location_unresolved_or_broad: 756
+- no_eligible_private_target_within_15_miles: 528
+- source_family_unclassified_and_no_exact_role_rule: 48
 
 ## Source sectors
 
@@ -28,19 +27,21 @@ Generated from 1,807 unique published jobs. Rules remain exact-title, evidence-b
 
 - Call Centre Agent — EE: 11 pages, up to 32 eligible targets
 - Call Centre Operator — EE: 11 pages, up to 32 eligible targets
+- Administrative Assistant - Level 1 — Newcastle City Council: 1 page, up to 32 eligible targets
+- Administrative Assistant Level 3 — Gosforth Academy: 1 page, up to 32 eligible targets
+- Business Support Assistant - Children's Social Care — Together for Children - Sunderland: 1 page, up to 32 eligible targets
+- Business Support Assistant - Family Hubs — Gateshead Council: 1 page, up to 32 eligible targets
+- Business Support Officer — Newcastle City Council: 1 page, up to 32 eligible targets
+- DBS01122/26 - Business Administrator Apprentice - Longbenton High School — North Tyneside Council: 1 page, up to 32 eligible targets
+- Passenger Transport Administration Assistant — Durham County Council: 1 page, up to 32 eligible targets
+- Temporary Administrator - Ryton - Immediate Start — Office Angels: 1 page, up to 32 eligible targets
+- Tenant Engagement Officer — Northumberland County Council: 1 page, up to 32 eligible targets
+- Customer Service Advisor — EE: 14 pages, up to 31 eligible targets
+- Customer Service Advisor — Reed: 2 pages, up to 12 eligible targets
 - Customer Service Representative — EE: 1 page, up to 11 eligible targets
-- Customer Service Advisor — EE: 13 pages, up to 10 eligible targets
-- Medical Receptionist — Primary Care Management Solutions Ltd: 4 pages, up to 2 eligible targets
-- Administrator/Receptionist — South London and Maudsley NHS Foundation Trust: 1 page, up to 2 eligible targets
-- Receptionist / Administrator — Belleville Wix Academy: 1 page, up to 2 eligible targets
-- Ward Clerk — Whittington Hospital NHS Trust: 1 page, up to 2 eligible targets
-- Care Home Administrator — Avery Healthcare Group Ltd.: 3 pages, up to 1 eligible target
-- Admin Assistant - Care Home — Barchester Healthcare: 2 pages, up to 1 eligible target
-- Administrator — Hampshire and Isle of Wight Healthcare NHS Foundation Trust: 2 pages, up to 1 eligible target
-- Assistant Patient Pathway Administrator — Oxford University Hospitals NHS Foundation Trust: 2 pages, up to 1 eligible target
-- Home Administrator — Akari Care Limited: 2 pages, up to 1 eligible target
-- Receptionist - Bank - Care Home — Barchester Healthcare: 2 pages, up to 1 eligible target
-- Service Co-ordinator — Veolia: 2 pages, up to 1 eligible target
-- Administrator — Oxford Health NHS Trust: 1 page, up to 1 eligible target
-- Customer Service Advisor Part-time — Muller UK & Ireland: 1 page, up to 1 eligible target
-- Receptionist - Bank — Avery Healthcare Group Ltd.: 1 page, up to 1 eligible target
+- Medical Administrator — Office Angels: 1 page, up to 8 eligible targets
+- Medical Receptionist — Staff Partners Business: 1 page, up to 7 eligible targets
+- Administration Assistant — Office Angels: 2 pages, up to 6 eligible targets
+- Administrator — Office Angels: 2 pages, up to 6 eligible targets
+- Administrator — Crystal Clear Recruitment: 1 page, up to 6 eligible targets
+- Administrator — Huntress: 1 page, up to 6 eligible targets

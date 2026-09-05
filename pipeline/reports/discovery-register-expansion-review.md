@@ -8,14 +8,14 @@ Date: 5 September 2026
 - Role-relationship register: 159 explicit exact-title or named transferable-title relationships were added across Service Admin, Customer Service / Contact Centre, HR / Recruitment and Finance / Accounts.
 - The largest additions cover recurring Service Admin variants such as `Administration Assistant`, `Sales Administrator`, `Operations Administrator`, combined receptionist/administrator titles, care-home administrator titles and `Service Co-ordinator`.
 - Customer-service additions explicitly cover `Call Centre Agent`, `Call Centre Operator`, `Customer Service Coordinator`, `Customer Services Administrator` and closely named variants.
-- All active additions retain one-way private-target routing, exact source titles, explicit target titles and the existing ranking policy. No public-sector target rule was added.
+- All active additions retain private-target-only routing. Exact titles and explicit relationships refine ranking; governed same-family membership supplies the broader fallback. No public-sector target rule was added.
 
 ## Current-inventory impact
 
 - Published jobs audited: 1,807.
-- Job pages with at least one governed ranked target: 61, up from the pre-expansion production audit of 21.
-- Eligible recommendation pairs before the six-result display limit: 857.
-- Remaining slice fallbacks: 1,746.
+- Job pages with at least one governed ranked target: 475, up from the pre-expansion production audit of 21.
+- Eligible recommendation pairs before the six-result display limit: 2,663.
+- Remaining slice fallbacks: 1,332.
 
 ## Assumptions
 
@@ -26,10 +26,10 @@ Date: 5 September 2026
 
 ## Gaps
 
-- 1,463 current pages still have an `unknown` source-employer sector, principally agency adverts. They fail closed.
-- 119 evidenced-sector pages have no eligible private target within 15 miles.
-- 102 evidenced-sector pages have no exact approved source-role relationship.
-- 62 pages have a broad or unresolved source location.
+- 1,463 current pages have an `unknown` source-employer sector, principally agency adverts, but this no longer blocks same-family private-target discovery.
+- 528 pages have no eligible evidenced-private target within 15 miles.
+- 756 pages have a broad or unresolved source location.
+- 48 pages have neither a governed published family nor an exact approved source-role relationship.
 - Repeated campaign adverts can create many eligible pairs; the page resolver still limits display to six and ranks by role priority, distance and posted date.
 
 ## Questionable entries held for review

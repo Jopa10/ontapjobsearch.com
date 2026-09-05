@@ -177,9 +177,13 @@ def main() -> None:
         for job in jobs
     }
     private_by_title: dict[str, list[dict[str, object]]] = defaultdict(list)
+    private_by_family: dict[str, list[dict[str, object]]] = defaultdict(list)
     for job in jobs:
         if sectors[str(job["job_id"])] == "private sector" and resolved[str(job["job_id"])]:
             private_by_title[normalise(job.get("title"))].append(job)
+            family = normalise(job.get("category"))
+            if family:
+                private_by_family[family].append(job)
 
     rules_by_source: dict[str, list[dict[str, str]]] = defaultdict(list)
     for rule in role_rules:
@@ -192,31 +196,33 @@ def main() -> None:
         job_id = str(job["job_id"])
         sector = sectors[job_id]
         source_place = resolved[job_id]
+        source_family = normalise(job.get("category"))
         candidates = [
             rule for rule in rules_by_source.get(normalise(job.get("title")), [])
-            if sector in {normalise(value) for value in rule["source_sector_scope"].split("|")}
+            if sector == "unknown"
+            or sector in {normalise(value) for value in rule["source_sector_scope"].split("|")}
         ]
-        recommendations = 0
-        if sector != "unknown" and source_place and candidates:
+        recommendation_ids: set[str] = set()
+        if source_place:
             targets = {normalise(rule["target_role"]) for rule in candidates}
+            potential_targets = list(private_by_family.get(source_family, []))
             for target in targets:
-                for other in private_by_title.get(target, []):
-                    other_id = str(other["job_id"])
-                    if other_id != job_id and distance(source_place, resolved[other_id]) <= MAX_DISTANCE_MILES:
-                        recommendations += 1
+                potential_targets.extend(private_by_title.get(target, []))
+            for other in potential_targets:
+                other_id = str(other["job_id"])
+                if other_id != job_id and distance(source_place, resolved[other_id]) <= MAX_DISTANCE_MILES:
+                    recommendation_ids.add(other_id)
+        recommendations = len(recommendation_ids)
 
         if recommendations:
             blocker = ""
             panel_mode = "ranked_jobs"
             examples.append((str(job.get("title") or ""), employer_identity(job), recommendations))
-        elif sector == "unknown":
-            blocker = "source_employer_sector_unknown"
-            panel_mode = "slice_fallback"
         elif not source_place:
             blocker = "source_location_unresolved_or_broad"
             panel_mode = "slice_fallback"
-        elif not candidates:
-            blocker = "no_exact_source_role_rule"
+        elif not source_family and not candidates:
+            blocker = "source_family_unclassified_and_no_exact_role_rule"
             panel_mode = "slice_fallback"
         else:
             blocker = "no_eligible_private_target_within_15_miles"
@@ -227,6 +233,7 @@ def main() -> None:
             "title": job.get("title") or "",
             "employer_identity": employer_identity(job),
             "source_sector": sector,
+            "source_family": job.get("category") or "",
             "location": job.get("location") or "",
             "location_resolved": "TRUE" if source_place else "FALSE",
             "applicable_role_rule_count": len(candidates),
@@ -238,7 +245,7 @@ def main() -> None:
     output.sort(key=lambda row: (row["panel_mode"] != "ranked_jobs", -int(row["recommendation_count"]), str(row["job_id"])))
     REPORT.parent.mkdir(parents=True, exist_ok=True)
     with REPORT.open("w", encoding="utf-8", newline="") as handle:
-        writer = csv.DictWriter(handle, fieldnames=list(output[0]))
+        writer = csv.DictWriter(handle, fieldnames=list(output[0]), lineterminator="\n")
         writer.writeheader()
         writer.writerows(output)
 
@@ -248,7 +255,7 @@ def main() -> None:
     lines = [
         "# Discovery recommendation coverage",
         "",
-        f"Generated from {len(jobs):,} unique published jobs. Rules remain exact-title, evidence-based and capped at 15 straight-line miles.",
+        f"Generated from {len(jobs):,} unique published jobs. Matches use the published family or an explicit role relationship, require an evidenced private target and remain capped at 15 straight-line miles.",
         "",
         "## Outcome",
         "",

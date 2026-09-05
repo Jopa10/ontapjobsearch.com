@@ -247,8 +247,9 @@ export function classifyDiscoverySector(job: PublishedJob): string {
 }
 
 /**
- * Returns only owner-approved, private-sector targets. A source whose employer
- * cannot be evidenced is intentionally excluded rather than guessed.
+ * Returns only evidenced private-sector targets. The landing job's published
+ * family can safely drive same-family discovery even when its employer sector
+ * is unknown, because no recommendation target can be public or unknown.
  */
 export function getDiscoveryRecommendations(
   current: PublishedJob,
@@ -258,16 +259,16 @@ export function getDiscoveryRecommendations(
   const { roleRules, placesByName, excludedPairs } = loadRules();
   const sourceSector = classifyDiscoverySector(current);
   const sourceRole = normalise(current.title);
+  const sourceFamily = normalise(current.category);
   const sourcePlace = resolvePlace(current.location, current.region, placesByName);
-  if (!sourcePlace || sourceSector === "unknown") return [];
+  if (!sourcePlace) return [];
 
   const applicableRules = roleRules.filter((rule) =>
     rule.direction === "ONE_WAY_PUBLIC_TO_PRIVATE"
       && rule.sourceRole === sourceRole
-      && rule.sourceSectors.has(sourceSector)
+      && (sourceSector === "unknown" || rule.sourceSectors.has(sourceSector))
       && rule.targetSector === "private sector"
   );
-  if (!applicableRules.length) return [];
   const targetPriorities = new Map<string, number>();
   for (const rule of applicableRules) {
     const existing = targetPriorities.get(rule.targetRole);
@@ -277,7 +278,12 @@ export function getDiscoveryRecommendations(
   return jobs
     .filter((candidate) => candidate.job_id !== current.job_id)
     .map((candidate) => {
-      const priority = targetPriorities.get(normalise(candidate.title));
+      const candidateRole = normalise(candidate.title);
+      const sameFamily = Boolean(sourceFamily) && normalise(candidate.category) === sourceFamily;
+      const explicitPriority = targetPriorities.get(candidateRole);
+      const priority = sameFamily && candidateRole === sourceRole
+        ? 0
+        : explicitPriority ?? (sameFamily ? 10 : undefined);
       const targetPlace = resolvePlace(candidate.location, candidate.region, placesByName);
       if (priority === undefined || !targetPlace || classifyDiscoverySector(candidate) !== "private sector") return undefined;
       if (excludedPairs.has(`${placeKey(sourcePlace)}>${placeKey(targetPlace)}`)) return undefined;
