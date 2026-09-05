@@ -15,8 +15,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 - Records: 8
 - Selected: 2
-- POSS awaiting decision: 1
-- Excluded: 0
+- POSS awaiting decision: 0
+- Excluded: 1
 - Hard pass: 5
 
 ## SELECTED
@@ -53,9 +53,13 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/safeguarding-attendan
 
 ## POSS — choose SELECT or EXCLUDE
 
+- None.
+
+## EXCLUDED BY REVIEW
+
 ---
-action: 
-POSS | Bedfordshire | Luton, LU4 0PF | £16.62 - £17.85 Hourly | Governance Professional (Clerk)
+action: exclude
+EXCLUDED | Bedfordshire | Luton, LU4 0PF | £16.62 - £17.85 Hourly | Governance Professional (Clerk)
 employer: St Thomas Catholic Academies Trust
 closing_date: 2026-09-25T12:00:00+01:00
 reason: Borderline school administration title: governance professional
@@ -67,10 +71,6 @@ source: Teaching Vacancies
 source_job_id: governance-professional-clerk-st-thomas-catholic-academies-trust-luton-not-recorded
 source_url: https://teaching-vacancies.service.gov.uk/jobs/governance-professional-clerk-st-thomas-catholic-academies-trust-luton-not-recorded
 ---
-
-## EXCLUDED BY REVIEW
-
-- None.
 
 ## HARD_PASS
 

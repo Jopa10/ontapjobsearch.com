@@ -1,19 +1,19 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-08-31T18:55:58+01:00",
+  "generated_at": "2026-09-05T13:12:18+01:00",
   "source": "Teaching Vacancies",
   "region": "Wiltshire",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-08-31",
-  "review_fingerprint": "2de4c5cee654dc3d288c784db647e738a96b24fc8ad773c1a677ba3571e54943",
-  "routing_manifest_sha256": "ffa8ac4eb0bf3616c1711502490fa7d8374f8e356872cc2c477737141b15a14c",
-  "review_csv_sha256": "54b15f7b7b7b1f6073497d29faaeea62af4b59db46ec9a71d2c714ada728f227",
-  "summary_md_sha256": "f6cc4f4000471f1558a7d2d3b0c31253b5cbd412fc60b05c4a32ab1093cc7c81",
-  "approved_snapshot_sha256": "e6230d37c8787dad0f8ed06a8ff808120d5fb667e345b9ba20b958cfe389dcd8",
+  "review_date": "2026-09-05",
+  "review_fingerprint": "77706c22818c4145b832b5870953d0e04c83297c45beb19eaf757b1896b83cf0",
+  "routing_manifest_sha256": "470681d9f37d503102980dcb1fe7f45c6d8d4a374fc3c1cab53df51803c03f75",
+  "review_csv_sha256": "451689972b4f12ffa3529927b9be63995ab51ea77556d5e12f43efeaa25d9305",
+  "summary_md_sha256": "4edcbfb3131b70630a9bbb10e72215a516619c9091d7c2692fad93e679f75852",
+  "approved_snapshot_sha256": "8b6cc7c390a20184e6e551a99f7d6f0056e1f0f83b94c1ee00cbf045ca0d9aff",
   "approved_rows": 2,
   "approved_job_ids": [
-    "teaching-vacancies-governance-administrator-diocese-of-salisbury-academy-trust-salisbury-not-recorded",
+    "teaching-vacancies-admin-officer-send-and-attendance-focus-harnham-church-of-england-controlled-junior-school",
     "teaching-vacancies-it-system-administrator-excalibur-shared-services-1177ebd4-e195-4745-824b-6613f2065ccf"
   ]
 }

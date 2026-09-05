@@ -1,20 +1,26 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-08-31T18:55:56+01:00",
+  "generated_at": "2026-09-05T13:12:16+01:00",
   "source": "Teaching Vacancies",
   "region": "Nottinghamshire",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-08-31",
-  "review_fingerprint": "c440a6c6183f9a00d84cb493275965c2b4fea38b103e87afb05413ce4677c136",
-  "routing_manifest_sha256": "ffa8ac4eb0bf3616c1711502490fa7d8374f8e356872cc2c477737141b15a14c",
-  "review_csv_sha256": "1c8be41008d4f0f5d0bab35eb5aeacbd5f2896e5bd4009236f81a8ba6869f2d7",
-  "summary_md_sha256": "44accce1b39a5ba5c4b93cea86e93b9e82caa974742e1cf10382134b386a682d",
-  "approved_snapshot_sha256": "7a5ebd9230a264f5e758da2bf35d871603c7002e663513b813197990b16cd3dc",
-  "approved_rows": 3,
+  "review_date": "2026-09-05",
+  "review_fingerprint": "098ff2db0f99587bb312e1f83e9d6d312df63e0ae700e1deea6ad367785a3477",
+  "routing_manifest_sha256": "470681d9f37d503102980dcb1fe7f45c6d8d4a374fc3c1cab53df51803c03f75",
+  "review_csv_sha256": "0dae1525d47ac063a2a6d52fbdcd559ed0e8d9ac86c15815fb75a22ac0ad77a3",
+  "summary_md_sha256": "7d493eaf3a560b5da7ad89ce1f20344b56b746784e5cb96ebf4ba9c3eae5638a",
+  "approved_snapshot_sha256": "1a925212527e9c59213d27e955c0ddd9705c946e9c8447915ead1f904cf189d5",
+  "approved_rows": 9,
   "approved_job_ids": [
-    "teaching-vacancies-administrative-assistant-8cc06080-4f90-4fa2-9942-346474e89b5e",
+    "teaching-vacancies-administration-assistant-horizons-academy",
+    "teaching-vacancies-administrative-assistant-6dd3cd8b-9366-40d4-aff9-a0419363ea61",
     "teaching-vacancies-administrative-assistant-sixth-form-and-work-related-learning",
-    "teaching-vacancies-administration-assistant-horizons-academy"
+    "teaching-vacancies-attendance-administrator-secondary-site",
+    "teaching-vacancies-part-time-attendance-administrator-secondary-site",
+    "teaching-vacancies-administrative-assistant-the-spencer-academies-trust-nottingham-not-recorded",
+    "teaching-vacancies-administrative-assistant-burton-joyce-primary-school",
+    "teaching-vacancies-administrative-assistant-hucknall-flying-high-academy",
+    "teaching-vacancies-data-officer-the-white-hills-park-trust-ltd"
   ]
 }

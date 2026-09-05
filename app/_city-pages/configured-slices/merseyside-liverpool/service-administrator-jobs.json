@@ -22,9 +22,31 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "King's Leadership Academy Wavertree",
-    "advertiser_type": "",
-    "salary_period": "",
+    "posted_date_basis": "source"
+  },
+  {
+    "job_id": "teaching-vacancies-school-operations-pa-to-headteacher",
+    "title": "School Operations & PA to Headteacher",
+    "company": "Knotty Ash Primary School",
+    "location": "Liverpool",
+    "region": "Merseyside - Liverpool",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "['full time']",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "£31,015.00 - £33,119.00 Annually (FTE) NJC SCP 15 - 19",
+    "work_pattern": "",
+    "posted_date": "2026-07-10",
+    "closing_date": "2026-09-16",
+    "closing_datetime": "2026-09-16T12:00:00+01:00",
+    "summary": "School Operations & PA to Headteacher with Knotty Ash Primary School in Liverpool. ['full time']; £31,015.00 - £33,119.00 Annually (FTE) NJC SCP 15 - 19.",
+    "description": "Knotty Ash Primary School is recruiting for this vacancy in Liverpool.\n\nThe advertised position is School Operations & PA to Headteacher.\n\nThe source lists the employment type as ['full time'].\n\nThe advertised salary or pay scale is £31,015.00 - £33,119.00 Annually (FTE) NJC SCP 15 - 19.\n\nThe stated application deadline is 2026-09-16T12:00:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
+    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/school-operations-pa-to-headteacher?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
+    "source": "Teaching Vacancies",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
     "posted_date_basis": "source"
   },
   {
@@ -50,11 +72,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Systems administration"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "1770074",
@@ -79,35 +97,6 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Reporting"
-    ]
-  },
-  {
-    "job_id": "23643_225469002",
-    "title": "German Speaking Customer Service Administrator",
-    "company": "Search Consultancy Ltd - Agency - Permanent",
-    "location": "Liverpool",
-    "region": "Merseyside - Liverpool",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "27256",
-    "salary_max": "27256",
-    "salary_text": "£27256 per year (Hybrid working, great benefits)",
-    "posted_date": "2026-08-22",
-    "description": "German Speaking Customer Service Administrator\n- Location: Liverpool / Hybrid (2 days from home)\n- Salary: 27,256\n- Contract: Full time, Permanent\n- Hours: Monday to Friday, 35 hours per week (8am - 4pm or 10am - 6pm)\n\nMy client is looking to recruit a German Speaking Customer Service Administrator to work out of their main office in South Liverpool.\n\nThe main purpose of your role is to manage sales orders from receipt to delivery whilst ensuring excellent customer service is delivered at all times. Key duties will include: handling customer queries, managing order processing, liaising with customers and communicating with other internal departments. You will also be expected to complete any other ad-hoc administration tasks as well as building relationships and keeping up to date with any new product information.\n\nThe salary for this role is 27,256 per annum.\n\nJob Description:\n- To accurately record orders received by telephone and e-mail for order processing.\n- To deal with enquiries from customers by providing details on products, samples and prices.\n- Provide sales support for the team, incorporating all administrative elements and contact.\n- Update spreadsheets as and when required.\n\nPerson Specification:\n- Strong communicator who's fluent in German\n- Previous experience in Client Support, Customer Service, Administration, Retail, Hospitality etc.\n- Organised and professional\n\nBenefits of the role:\n- Competitive Salary\n- Monday to Friday (no weekends)\n- Free onsite parking\n- Learning & development opportunities\n\nApply for this role now or email your cv directly to (url removed)\n\nSearch is an equal opportunities recruiter and we welcome applications from all suitably skilled or qualified applicants, regardless of their race, sex, disability, religion/beliefs, sexual orientation or age.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?G%2b5YiGNoEgod6KEHmvDHUCuGgKQ7y33an",
-    "source": "JobG8",
-    "working_arrangement": "hybrid",
-    "working_arrangement_text": "2 days from home",
-    "working_arrangement_evidence": "German Speaking Customer Service Administrator German Speaking Customer Service Administrator - Location: Liverpool / Hybrid (2 days from home) - Salary: 27,256 - Contract: Full time, Permanent - Hours: Monday to Friday, 35 hours per week (8am - 4pm or 10am - 6pm) My client is looking to recruit a German Speaking Customer Service Administrator to work out of their main office in South Liverpool.",
-    "advertiser_name": "Search Consultancy Ltd",
-    "advertiser_type": "Agency",
-    "work_pattern": "Full Time",
-    "salary_period": "Annual",
     "posted_date_basis": "ontap_first_published"
   },
   {
@@ -133,12 +122,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Part Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Telephone handling",
-      "Document preparation"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "1744017",
@@ -187,35 +171,6 @@
     "advertiser_name": "Search Consultancy Ltd",
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
-    "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Records administration"
-    ]
-  },
-  {
-    "job_id": "1780172",
-    "title": "Motor Claims Handler",
-    "company": "Keoghs LLP - Agency - Permanent",
-    "location": "Liverpool",
-    "region": "Merseyside - Liverpool",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "",
-    "posted_date": "2026-09-01",
-    "description": "The File Handler will handle their own caseload of litigated small, fast track Motor claims and MOJ files from a variety of clients.\n\nKey Responsibilities\n- Handling a caseload of predominately Litigated Motor Claims to settlement\n- Create case strategy following Client Guidelines and review of information available\n- Assessing cases and liability of claims\n- Undertake discussions and negotiations with Clients and Third Party Solicitors to pursue the rapid and appropriate settlement of cases and the apportionment of costs\n- Timely and accurate maintenance of all case management, billing and management information systems to ensure completeness of records and aid business decision making\n- Allocate funds to the appropriate client accounts as per agreed procedures to ensure the client and Keoghs receive appropriate payments\n- Undertaking periodic reviews of files in line with Client requirements\n- Updating reports\n- Meeting agreed performance targets\n- Ensuring files are kept within ISO 9001 guidelines\n- Provide written updates by email or letter to clients detailing case activity to ensure that they receive up to date and accurate information about progress when requested\n- To ensure compliance with the SRA Standards & Regulations\n\nWorking Hours\n35 hours per week, Monday-Friday 9am-5pm with 1 hour unpaid for lunch.\n\nSkills, Knowledge and Expertise\n- Previous experience as a minimum in a similar role\n- Experience of handling litigated files\n- Experience of MOJ processes at all stages\n- Good telephone negotiation skills\n- Have an understanding of protocols\n- Excellent listening and verbal communication skills\n- Proficient IT skills\n- Adhere to Keoghs Values\n\nBenefits\n- Davies Incentive Plan\n- 25 days holiday per year which increases with level of service (opportunity to buy & sell 3 days)\n- Family Cover Private Medical Insurance (Bupa)\n- Simply Health Care Cash Plan\n- WeCare - 24/7 online GP, mental health support and virtual wellbeing covering a whole host of topics to do with health, mental health, wellbeing & healthy living and financial & legal wellbeing\n- Death in Service\n- Critical Illness Cover\n- PHI/Income Protection (Private health insurance)\n- Pension Contribution based 5% Employee / 3% Employer\n- Employee Resource Groups\n- Employee Volunteering Programme\n- Cycle to Work Scheme\n- Tech Scheme\n- Season Ticket Loan\n- Gym Flex\n- Access to Online Discount Sites\n- Discounted Gourmet Society Membership\n- Discounted Tickets for Merlin Attractions nationwide\n- Discounts at local retail outlets\n\nafter successfully completing probation",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?mDcEDJmYTbzPQQEDJ3pNzNQc2ttqf%2b%2fet",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Keoghs LLP",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
     "salary_period": "Annual",
     "posted_date_basis": "ontap_first_published"
   },
@@ -292,11 +247,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Records administration"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "1848342",
@@ -365,6 +316,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5035-26-0063",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -384,25 +338,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9287-26-1327",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "posted_date_basis": "source"
-  },
-  {
-    "job_id": "nhs-5559589",
-    "source": "NHS Jobs",
-    "title": "Receptionist/Administration Assistant",
-    "company": "Mersey Care NHS Foundation Trust",
-    "advertiser_name": "Mersey Care NHS Foundation Trust",
-    "location": "Liverpool, L34 1PJ",
-    "region": "Merseyside - Liverpool",
-    "salary": "£25272.00",
-    "employment_type": "Permanent",
-    "posted_date": "2026-08-25T10:03:26.763827552",
-    "closing_date": "2026-09-07",
-    "description": "We have vacancies for motivated and enthusiastic staff members to work for the Community Reception team. The post holder will be customer focused and provide a comprehensive service. Communication and organisational skills are essential. The post holder must have excellent inter personal skills, and be able to organise and prioritise their work schedule. They must be able to work on their own initiative, with excellent telephone manner and respectful confidentiality. Previous experience is desirable . Staff member must be willing to work across all sites as required. Post holder will be required to cover sickness and absence. The service is open Monday to Friday 7am to 7pm depending on service needs and shifts are allocated according to ensuring service needs are met. The post holder will provide reception and administrative duties to ensure the smooth day to day running of the work environment. Work with colleagues in establishing and maintaining administrative procedures to promote patient satisfaction, respecting the confidential nature of information relating to the Trust, its staff and patients. To participate in training and development programmes both internal and externally. Ensure the delivery of the quality strategy within the designated area incorporating establishment of systems and processes. Receive and direct patients and visitors on arrival at the centre, providing reception services for patients, staff, public, internal and external customers and organisations ensuring sensitivity when dealing with distressing situations. Answering telephone calls using the switchboard system receive and process incoming and outgoing telephones calls, taking messages and responding appropriately to maintain effective communication channels. Sorting and distribution of mail to all departments. Assisting with the collection of data and statistics to produce standardised computer generated reports and/or statistical information for managers as and when required. Maintain filing systems and other records as required ensuring they are up to date and accurate and implement changes to systems and procedures as directed. To participate in meetings as required. To ensure a professional approach to work maintaining confidentiality throughout. Generally monitor security within the building. Ensuring reception and waiting areas are kept clean, tidy and safe. Report any incidents or accidents in accordance with Trust Policy. Staff may be required to work from other bases within the organisation.",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9350-26-0798",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9350-26-0798",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   }
 ]

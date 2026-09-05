@@ -1,24 +1,22 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-08-31T18:55:53+01:00",
+  "generated_at": "2026-09-05T13:12:13+01:00",
   "source": "Teaching Vacancies",
   "region": "Devon",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-08-31",
-  "review_fingerprint": "e0437611ff415b8574a676908b4088a1c31b73d5e18a61ddbf4e0ba8c4c5b2bb",
-  "routing_manifest_sha256": "ffa8ac4eb0bf3616c1711502490fa7d8374f8e356872cc2c477737141b15a14c",
-  "review_csv_sha256": "2c5615c74de49f0d7b0e41469c8e8ba2208fc67ddf5f7d97322fe50facef6ebb",
-  "summary_md_sha256": "0bfa2a0dde2dad42d24cdf2408dce45989a6b0e5fa104cf0b613242bc796d8b7",
-  "approved_snapshot_sha256": "e9e23376472035584375d548dae348049aa9b0a2b5c50a75d835da658edde188",
-  "approved_rows": 7,
+  "review_date": "2026-09-05",
+  "review_fingerprint": "c9383fd62d518fa46b635b01a24df819644c9ff6d373d14f7bc3c01ba41bb091",
+  "routing_manifest_sha256": "470681d9f37d503102980dcb1fe7f45c6d8d4a374fc3c1cab53df51803c03f75",
+  "review_csv_sha256": "a60fecdd4d2e0051506d899305ac40a5f7d9a7aadf78fea27f2fd4c1e38dbefe",
+  "summary_md_sha256": "70c8d66ee95be9d08804be0eb191a05c0c6889042a46918cdf7141adeb00cd3b",
+  "approved_snapshot_sha256": "41d5a0bd0fd592cd5b9cb45e10912775f19163fab0ce1b2ff024c8653940efd7",
+  "approved_rows": 5,
   "approved_job_ids": [
-    "teaching-vacancies-260820c-administrator",
-    "teaching-vacancies-finance-data-protection-administrator",
-    "teaching-vacancies-people-administrator-dartmoor-multi-academy-trust",
-    "teaching-vacancies-administrative-assistant-sir-john-hunt-community-sports-college",
-    "teaching-vacancies-administrative-assistant-sir-john-hunt-community-sports-college-plymouth-devon",
     "teaching-vacancies-administrative-assistant-the-king-s-school-ottery-st-mary-devon",
-    "teaching-vacancies-attendance-officer-okehampton-college-okehampton-devon"
+    "teaching-vacancies-attendance-officer-okehampton-college-okehampton-devon",
+    "teaching-vacancies-attendance-administrator-65068773-d1be-4711-9b88-bde2f62d9e1b",
+    "teaching-vacancies-estates-administrator-learning-academies-trust",
+    "teaching-vacancies-reception-and-administration-assistant-109b825b-7a0b-44c3-a80d-67ce740b1847"
   ]
 }

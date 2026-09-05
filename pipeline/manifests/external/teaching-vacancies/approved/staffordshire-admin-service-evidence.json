@@ -1,21 +1,20 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-08-31T18:55:57+01:00",
+  "generated_at": "2026-09-05T13:12:16+01:00",
   "source": "Teaching Vacancies",
   "region": "Staffordshire",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-08-31",
-  "review_fingerprint": "ad1726576b42c96f4bb7256b89a2fdf8484caa177438a8ad3e4e7ede6903232f",
-  "routing_manifest_sha256": "ffa8ac4eb0bf3616c1711502490fa7d8374f8e356872cc2c477737141b15a14c",
-  "review_csv_sha256": "ccc1ece1ad34287b267b23fd09c5e0afa448aa473240e4858b9e9afef7c927ab",
-  "summary_md_sha256": "978f8d9fd634ae9415700edd64fc8ca81d57f8dfa65f9b532b4968bbbc54aa31",
-  "approved_snapshot_sha256": "c1b0edcfc515a8c589362a0dc777e49c7c8d088ca372c2dbabfcf400c3bac26c",
-  "approved_rows": 4,
+  "review_date": "2026-09-05",
+  "review_fingerprint": "3ec8931d37f08740dff3d696769f7fbb902be4a502668473287ef786621a94dd",
+  "routing_manifest_sha256": "470681d9f37d503102980dcb1fe7f45c6d8d4a374fc3c1cab53df51803c03f75",
+  "review_csv_sha256": "f4f082a3482cf386cfb32a798dd153bded47f05176c82f5f12b76e77226dcc4b",
+  "summary_md_sha256": "85e72a026b88591bac19fc77b1b8dd8a237b8cd8e8557c50ade359c3c20c1261",
+  "approved_snapshot_sha256": "46cfc027d104018569fed5376c55503d785340a85d05221fe9ad5afa347b9764",
+  "approved_rows": 3,
   "approved_job_ids": [
-    "teaching-vacancies-school-administrator-st-patrick-s-catholic-primary-school",
-    "teaching-vacancies-administration-assistant-maple-court-academy",
     "teaching-vacancies-finance-administrator-apprentice-manor-hall-academy-trust",
-    "teaching-vacancies-attendance-officer-level-4-longford-primary-academy"
+    "teaching-vacancies-attendance-officer-level-4-longford-primary-academy",
+    "teaching-vacancies-administrative-assistant-the-shaw-education-trust"
   ]
 }

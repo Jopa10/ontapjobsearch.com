@@ -14,9 +14,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 14
-- Selected: 7
-- POSS awaiting decision: 3
-- Excluded: 0
+- Selected: 9
+- POSS awaiting decision: 0
+- Excluded: 1
 - Hard pass: 4
 
 ## SELECTED
@@ -82,6 +82,36 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/governance-administra
 ---
 
 ---
+action: select
+SELECTED | Hertfordshire | Chorleywood, WD3 6EW | £29,540.00 Annually (FTE) | HR Advisor
+employer: Danes Educational Trust
+closing_date: 2026-09-21T09:00:00+01:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: a5185ec4709fd8fa0b87b390aab8205ae0f2d574ce413d2a29b0ecf57c1199b8
+source: Teaching Vacancies
+source_job_id: hr-advisor-eb9c5bf8-2603-48ba-bfc8-df41ec1204b1
+source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-advisor-eb9c5bf8-2603-48ba-bfc8-df41ec1204b1
+---
+
+---
+action: select
+SELECTED | Hertfordshire | St Albans, East of England, AL1 5AR | £16,800.00 Annually (Actual) H3 + Fringe | Inclusion Administration Assistant
+employer: Samuel Ryder Academy
+closing_date: 2026-09-17T09:00:00+01:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 92fa4dd60ce866e370480855e8e657a6841b4fdff4aa4c30f579c4c4656f5829
+source: Teaching Vacancies
+source_job_id: inclusion-administration-assistant-samuel-ryder-academy-st-albans-hertfordshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/inclusion-administration-assistant-samuel-ryder-academy-st-albans-hertfordshire
+---
+
+---
 action: 
 SELECTED | Hertfordshire | Rickmansworth, East of England, WD3 3LR | £26,847.00 - £28,153.00 Annually (FTE) | Pastoral Administrator
 employer: Croxley Danes School
@@ -128,39 +158,13 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-receptionist-p
 
 ## POSS — choose SELECT or EXCLUDE
 
----
-action: 
-POSS | Hertfordshire | Chorleywood, WD3 6EW | £29,540.00 Annually (FTE) | HR Advisor
-employer: Danes Educational Trust
-closing_date: 2026-09-21T09:00:00+01:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: a5185ec4709fd8fa0b87b390aab8205ae0f2d574ce413d2a29b0ecf57c1199b8
-source: Teaching Vacancies
-source_job_id: hr-advisor-eb9c5bf8-2603-48ba-bfc8-df41ec1204b1
-source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-advisor-eb9c5bf8-2603-48ba-bfc8-df41ec1204b1
----
+- None.
+
+## EXCLUDED BY REVIEW
 
 ---
-action: 
-POSS | Hertfordshire | St Albans, East of England, AL1 5AR | £16,800.00 Annually (Actual) H3 + Fringe | Inclusion Administration Assistant
-employer: Samuel Ryder Academy
-closing_date: 2026-09-17T09:00:00+01:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 92fa4dd60ce866e370480855e8e657a6841b4fdff4aa4c30f579c4c4656f5829
-source: Teaching Vacancies
-source_job_id: inclusion-administration-assistant-samuel-ryder-academy-st-albans-hertfordshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/inclusion-administration-assistant-samuel-ryder-academy-st-albans-hertfordshire
----
-
----
-action: 
-POSS | Hertfordshire | St Albans, AL1 5AR | £27,600.00 - £28,906.00 Annually (Actual) Grade: H4 + Fringe Annual Salary: £27,600 progressing to £28,906 (Fringe allowance included) | MIS Administrator
+action: exclude
+EXCLUDED | Hertfordshire | St Albans, AL1 5AR | £27,600.00 - £28,906.00 Annually (Actual) Grade: H4 + Fringe Annual Salary: £27,600 progressing to £28,906 (Fringe allowance included) | MIS Administrator
 employer: Scholars' Education Trust
 closing_date: 2026-09-17T09:00:00+01:00
 reason: Possible JobG8 duplicate requires review
@@ -172,10 +176,6 @@ source: Teaching Vacancies
 source_job_id: mis-administrator
 source_url: https://teaching-vacancies.service.gov.uk/jobs/mis-administrator
 ---
-
-## EXCLUDED BY REVIEW
-
-- None.
 
 ## HARD_PASS
 

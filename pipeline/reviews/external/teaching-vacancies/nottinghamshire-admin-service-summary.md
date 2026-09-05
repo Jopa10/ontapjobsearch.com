@@ -14,8 +14,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 19
-- Selected: 8
-- POSS awaiting decision: 1
+- Selected: 9
+- POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 10
 
@@ -127,6 +127,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-administra
 ---
 
 ---
+action: select
+SELECTED | Nottinghamshire | Nottingham, NG9 3GA | £15,092.87 - £16,940.13 Annually (Actual) NJE Grade 5 - £31,015 - £34,811 (FTE) | Data Officer
+employer: The White Hills Park Trust Ltd
+closing_date: 2026-10-02T09:00:00+01:00
+reason: Borderline school administration title: data officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 205cb81db075e4052dbf10e809c511f0c86f0f8a1b7625e18ccc2fe669648211
+source: Teaching Vacancies
+source_job_id: data-officer-the-white-hills-park-trust-ltd
+source_url: https://teaching-vacancies.service.gov.uk/jobs/data-officer-the-white-hills-park-trust-ltd
+---
+
+---
 action: 
 SELECTED | Nottinghamshire | Nottingham, East Midlands, NG3 7EB | £13,946.00 - £15,342.00 Annually (Actual) GAT 4/5, 22.5 hours per week, 39 weeks per year | Part Time Attendance Administrator - Secondary Site
 employer: Nottingham Academy
@@ -143,20 +158,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/part-time-attendance-
 
 ## POSS — choose SELECT or EXCLUDE
 
----
-action: 
-POSS | Nottinghamshire | Nottingham, NG9 3GA | £15,092.87 - £16,940.13 Annually (Actual) NJE Grade 5 - £31,015 - £34,811 (FTE) | Data Officer
-employer: The White Hills Park Trust Ltd
-closing_date: 2026-10-02T09:00:00+01:00
-reason: Borderline school administration title: data officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 205cb81db075e4052dbf10e809c511f0c86f0f8a1b7625e18ccc2fe669648211
-source: Teaching Vacancies
-source_job_id: data-officer-the-white-hills-park-trust-ltd
-source_url: https://teaching-vacancies.service.gov.uk/jobs/data-officer-the-white-hills-park-trust-ltd
----
+- None.
 
 ## EXCLUDED BY REVIEW
 

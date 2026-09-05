@@ -1,24 +1,21 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-08-31T18:55:52+01:00",
+  "generated_at": "2026-09-05T13:12:11+01:00",
   "source": "Teaching Vacancies",
   "region": "Buckinghamshire",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-08-31",
-  "review_fingerprint": "78f22c5f3020dfc96c51d087467dfb34faac76a236fbb6fc4ea8f597519598b7",
-  "routing_manifest_sha256": "ffa8ac4eb0bf3616c1711502490fa7d8374f8e356872cc2c477737141b15a14c",
-  "review_csv_sha256": "edfc0985f3cce0d6d99b8a489d98c9d0e631caf60c3cb9607d9f0381b47f55e0",
-  "summary_md_sha256": "d367ebd8af1db7b28297074f2166345f2b1ad8203af4f938fae5cd99ef7504b2",
-  "approved_snapshot_sha256": "b7f202a54d22c084b4fc2f444f37cbe9d09874c2abd0c385b799f55ea9b04c16",
-  "approved_rows": 7,
+  "review_date": "2026-09-05",
+  "review_fingerprint": "ce4c0025fe94eae75328dd176b11bc980544881ac68f63ee07dc6e78e930a9da",
+  "routing_manifest_sha256": "470681d9f37d503102980dcb1fe7f45c6d8d4a374fc3c1cab53df51803c03f75",
+  "review_csv_sha256": "d826ae8eb00bdd8caba9506e8749a805140473601ec37203578100704ef8f485",
+  "summary_md_sha256": "1ac87a271b7902614ebc174da3679f05c499c3333b7a59372550087ca108c7ec",
+  "approved_snapshot_sha256": "c879cd262ec60a96ed35c431edc9fa9630a5f25dc9be80790bf6d56d24bdafb0",
+  "approved_rows": 4,
   "approved_job_ids": [
-    "teaching-vacancies-hr-administrator-glebe-farm-school-milton-keynes-buckinghamshire",
-    "teaching-vacancies-pa-to-headteacher-holmer-green-senior-school",
-    "teaching-vacancies-attendance-officer-af35235c-b4c2-4ef0-9706-890c839e4f10",
-    "teaching-vacancies-office-administrator-sir-william-ramsay-school-high-wycombe-buckinghamshire",
-    "teaching-vacancies-receptionist-and-faculty-support-assistant",
+    "teaching-vacancies-administrator-brooklands-academy",
     "teaching-vacancies-attendance-administrator-william-harding-school-aylesbury-buckinghamshire",
-    "teaching-vacancies-examinations-officer-aeb29f97-ce81-41ec-8b38-81ed01e3315f"
+    "teaching-vacancies-examinations-officer-aeb29f97-ce81-41ec-8b38-81ed01e3315f",
+    "teaching-vacancies-attendance-officer-amersham-school"
   ]
 }

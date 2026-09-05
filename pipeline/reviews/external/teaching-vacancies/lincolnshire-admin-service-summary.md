@@ -14,12 +14,27 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 13
-- Selected: 5
-- POSS awaiting decision: 3
+- Selected: 6
+- POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 5
 
 ## SELECTED
+
+---
+action: select
+SELECTED | Lincolnshire | Boston, East Midlands, PE21 7QG | £11,666.20 Annually (Actual) National Apprentice Rate | Administration Apprentice
+employer: Boston West Academy
+closing_date: 2026-09-18T23:59:00+01:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 2f229cddd431678b7e83d8604555f3e41a0f6a645e5dd139ede517c271b309e0
+source: Teaching Vacancies
+source_job_id: administration-apprentice-boston-west-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-apprentice-boston-west-academy
+---
 
 ---
 action: 
@@ -97,21 +112,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-admin-of
 ---
 
 ## POSS — choose SELECT or EXCLUDE
-
----
-action: 
-POSS | Lincolnshire | Boston, East Midlands, PE21 7QG | £11,666.20 Annually (Actual) National Apprentice Rate | Administration Apprentice
-employer: Boston West Academy
-closing_date: 2026-09-18T23:59:00+01:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 2f229cddd431678b7e83d8604555f3e41a0f6a645e5dd139ede517c271b309e0
-source: Teaching Vacancies
-source_job_id: administration-apprentice-boston-west-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-apprentice-boston-west-academy
----
 
 ---
 action: 

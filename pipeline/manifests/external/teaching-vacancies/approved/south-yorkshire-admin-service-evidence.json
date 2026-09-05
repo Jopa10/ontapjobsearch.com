@@ -1,23 +1,22 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-08-31T18:55:59+01:00",
+  "generated_at": "2026-09-05T13:12:18+01:00",
   "source": "Teaching Vacancies",
   "region": "Yorkshire - South",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-08-31",
-  "review_fingerprint": "552b97beab603a70bb4fc18faf6be6537d4878e425a18e60be86e6cc7dc769d3",
-  "routing_manifest_sha256": "ffa8ac4eb0bf3616c1711502490fa7d8374f8e356872cc2c477737141b15a14c",
-  "review_csv_sha256": "c62d7934851a4c66b4b6ea982d78f94050c2d3d4c780085a8f0d89ab133aabbf",
-  "summary_md_sha256": "ba3599a809c4b66a7260535035970b262e1dde98a58ea74758fe0a9a2342f12a",
-  "approved_snapshot_sha256": "7916e001c87f4c02f566a88c28fb15754e5b12233c5852c5bffcbd6148b89445",
-  "approved_rows": 6,
+  "review_date": "2026-09-05",
+  "review_fingerprint": "25701323d167859e4ea089fb846bdf06b28e1ec0d271c0a34e99111eca260f4a",
+  "routing_manifest_sha256": "470681d9f37d503102980dcb1fe7f45c6d8d4a374fc3c1cab53df51803c03f75",
+  "review_csv_sha256": "bb726f39a65e7c93d7c14d19ac7b668abf65ba55fa2cbe80e0060cbd775f1573",
+  "summary_md_sha256": "e170bb13c7599702f44bcf589838f84165f9d6951087365ffa0dd0e2cda54359",
+  "approved_snapshot_sha256": "d5ab4f9907d97d431fe57171cb3663c5d535cfe76f3e80e9582be27ead012c91",
+  "approved_rows": 5,
   "approved_job_ids": [
-    "teaching-vacancies-send-administrative-assistant-westfield-school-sheffield",
-    "teaching-vacancies-administration-assistant-treeton-church-of-england-primary-school-rotherham-south-yorkshire",
-    "teaching-vacancies-business-support-officer-attendance-dc9edb4f-b36d-4bc3-be46-6508d1a2b957",
-    "teaching-vacancies-receptionist-administrator-sheffield-park-academy-sheffield-south-yorkshire",
+    "teaching-vacancies-senior-administrator-higher-education",
     "teaching-vacancies-send-administrator-aston-academy-sheffield-south-yorkshire",
-    "teaching-vacancies-admin-clerical-officer-level-2-rowan-school"
+    "teaching-vacancies-permanent-admin-assistant",
+    "teaching-vacancies-admin-clerical-officer-level-2-rowan-school",
+    "teaching-vacancies-receptionist-totley-primary-school"
   ]
 }

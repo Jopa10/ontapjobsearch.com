@@ -1,61 +1,5 @@
 [
   {
-    "job_id": "teaching-vacancies-admissions-attendance-officer-shears-green-junior-school",
-    "title": "Admissions & Attendance Officer",
-    "company": "Shears Green Junior School",
-    "location": "Gravesend",
-    "region": "Kent",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['part time']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "£26,822.00 - £27,765.00 Annually (FTE) Kent Scheme B or C dependant on experience",
-    "work_pattern": "",
-    "posted_date": "2026-08-26",
-    "closing_date": "2026-09-04",
-    "closing_datetime": "2026-09-04T23:59:00+01:00",
-    "summary": "Admissions & Attendance Officer with Shears Green Junior School in Gravesend. ['part time']; £26,822.00 - £27,765.00 Annually (FTE) Kent Scheme B or C dependant on experience.",
-    "description": "Shears Green Junior School is recruiting for this vacancy in Gravesend.\n\nThe advertised position is Admissions & Attendance Officer.\n\nThe source lists the employment type as ['part time'].\n\nThe advertised salary or pay scale is £26,822.00 - £27,765.00 Annually (FTE) Kent Scheme B or C dependant on experience.\n\nThe stated application deadline is 2026-09-04T23:59:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/admissions-attendance-officer-shears-green-junior-school?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Shears Green Junior School",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
-  },
-  {
-    "job_id": "teaching-vacancies-receptionist-nore-academy",
-    "title": "Receptionist",
-    "company": "Nore Academy",
-    "location": "Sheerness",
-    "region": "Kent",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['part time']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "£8,557.00 - £8,693.00 Annually (Actual)",
-    "work_pattern": "",
-    "posted_date": "2026-07-28",
-    "closing_date": "2026-09-04",
-    "closing_datetime": "2026-09-04T12:00:00+01:00",
-    "summary": "Receptionist with Nore Academy in Sheerness. ['part time']; £8,557.00 - £8,693.00 Annually (Actual).",
-    "description": "Nore Academy is recruiting for this vacancy in Sheerness.\n\nThe advertised position is Receptionist.\n\nThe source lists the employment type as ['part time'].\n\nThe advertised salary or pay scale is £8,557.00 - £8,693.00 Annually (Actual).\n\nThe stated application deadline is 2026-09-04T12:00:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/receptionist-nore-academy?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Nore Academy",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
-  },
-  {
     "job_id": "teaching-vacancies-hr-administrator-the-diocese-of-canterbury-academies-trust",
     "title": "HR administrator",
     "company": "The Diocese Of Canterbury Academies Trust",
@@ -78,9 +22,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "The Diocese Of Canterbury Academies Trust",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -106,9 +47,31 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "The University Of Kent Academies Trust",
-    "advertiser_type": "",
-    "salary_period": "",
+    "posted_date_basis": "source"
+  },
+  {
+    "job_id": "teaching-vacancies-examinations-admissions-officer",
+    "title": "Examinations & Admissions Officer",
+    "company": "Waterfront UTC",
+    "location": "Chatham",
+    "region": "Kent",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "['full time']",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "£24,553.00 - £26,171.00 Annually (Actual) NJC D2 point 7-11",
+    "work_pattern": "",
+    "posted_date": "2026-09-04",
+    "closing_date": "2026-09-18",
+    "closing_datetime": "2026-09-18T23:59:00+01:00",
+    "summary": "Examinations & Admissions Officer with Waterfront UTC in Chatham. ['full time']; £24,553.00 - £26,171.00 Annually (Actual) NJC D2 point 7-11.",
+    "description": "Waterfront UTC is recruiting for this vacancy in Chatham.\n\nThe advertised position is Examinations & Admissions Officer.\n\nThe source lists the employment type as ['full time'].\n\nThe advertised salary or pay scale is £24,553.00 - £26,171.00 Annually (Actual) NJC D2 point 7-11.\n\nThe stated application deadline is 2026-09-18T23:59:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
+    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/examinations-admissions-officer?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
+    "source": "Teaching Vacancies",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
     "posted_date_basis": "source"
   },
   {
@@ -134,11 +97,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Part Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Quotations"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "107825703",
@@ -166,28 +125,28 @@
     "posted_date_basis": "ontap_first_published"
   },
   {
-    "job_id": "23643_225466145",
-    "title": "Executive Assistant",
-    "company": "New Appointments Group - Agency - Permanent",
-    "location": "Kent",
+    "job_id": "23643_225473894",
+    "title": "Purchasing Administrator",
+    "company": "Adecco - Agency - Temporary",
+    "location": "Gillingham",
     "region": "Kent",
     "country": "UK",
     "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "",
-    "posted_date": "2026-08-30",
-    "description": "Executive Assistant\nLocation: Canterbury\nSalary: Competitive plus benefits\n\nA well-established East Kent organisation is looking for a skilled Executive Assistant to provide high-level support to the Board Leadership Team managing key administrative and operational tasks while enhancing organisational efficiency.\n\nResponsibilities:\n- Ensure the smooth day-to-day running of the Directors' office\n- Manage complex diaries, meetings, and travel arrangements\n- Deliver high-quality board presentations and reports\n- Manage complex event programmes, ensuring seamless delivery and stakeholder satisfaction\n- Providing project management support\n- Manage financial administration processes, including invoices, expenses, and reconciliations, ensuring accuracy and compliance\n- Coordinate board and senior leadership meetings, including agenda preparation,\n- documentation, and follow-up actions\n- Support recruitment and onboarding processes, ensuring a seamless candidate and new starter experience\n- Build strong relationships with internal leadership teams and external stakeholders to support effective communication and collaboration\n\nEssential Requirements:\n- Proven experience at C Suite level supporting Board level Directors and Senior Executives\n- Previous experience working within corporate organisations\n- Advanced IT skills including Microsoft Office (Excel, Word, PowerPoint, Outlook, Teams)\n- Resilient, hardworking, can demonstrate a \"can-do\" attitude.\n- Excellent organisational and time management skills\n- Strong communication skills and attention to detail\n- High level of discretion and confidentiality\n- Ability to prioritise workload and meet deadlines\n- Strong analytical or reporting skills\n\nBenefits:\n- Holidays: 25 days + bank holidays\n- Good pension scheme\n- On-site parking\n\nPlease note: We can only accept applicants who have the full Right to Work in the UK and live within a 45 minute commute.\n\nIf interested, please call my direct line and we can discuss this role in more detail. Email: (url removed)\nNew Appointments Group, Expertly Matching Employers and Jobseekers since 1975.\n\nBefore submitting your CV, please take a moment to check the layout, spelling, and grammar. If your CV includes graphics or design features, we'd also appreciate a simplified version in Word format.\nIf this role isn't for you, please check out our website for other roles that may be suitable, or send us your CV, we would still like to hear from you! You can find us on our website or LinkedIn, Facebook, Instagram and\nWe are committed to fostering a diverse and inclusive environment in line with the Equality Act 2010. All qualified applicants will be considered regardless of age, disability, gender reassignment, marriage or civil partnership, pregnancy or maternity, race, religion or belief, sex, or sexual orientation. New Appointments Group acts as an Employment Agency for permanent roles and as an Employment Business for temporary roles.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?1tcg6Aj2zax6nUppiHkbveJzx7bePH0Pb",
+    "employment_type": "Temporary",
+    "salary_min": "16",
+    "salary_max": "16",
+    "salary_text": "£16 per hour (short working week)",
+    "posted_date": "2026-08-19",
+    "description": "Purchasing Administrator\nLocation: Gillingham\nPay Rate: Up to 16.00 per hour DOE\nHours: Average 37 hours per week, Monday to Friday, with flexible working hours and a reduced working week\n\nWe are seeking a highly organised and detail-oriented Administrator to join our busy Purchasing Department. This is an excellent opportunity for an experienced administrator looking for a varied role within a professional and supportive environment that offers excellent flexibility and work-life balance.\n\nKey Responsibilities\n- Manage and monitor the department email inbox, responding to enquiries and directing correspondence as required.\n- Liaise with clients to obtain purchase orders and accurately update the CRM system.\n- Create, organise, and maintain project folders and associated documentation.\n- Prepare and process invoices, ensuring accuracy and timely submission.\n- Update spreadsheets relating to client surveys, project progress, and invoice schedules.\n- Chase outstanding reports and documentation to ensure client SLA requirements are met and invoices can be released promptly.\n- Attend internal meetings, taking accurate notes and tracking follow-up actions.\n- Coordinate the booking of subcontractors and process related invoices.\n- Provide general administrative support to the Purchasing team and wider business as required.\n\nSkills & Experience\nEssential\n- Previous experience in an administrative or office support role.\n- Excellent organisational skills with the ability to manage multiple priorities.\n- Strong attention to detail and a high level of accuracy.\n- Confident IT skills, including Microsoft Office applications, particularly Excel.\n- Ability to work independently and effectively within a fast-paced environment.\n- Strong communication skills, both written and verbal.\n\nDesirable\n- Previous experience within a Purchasing, Procurement, or Supply Chain environment.\n- Knowledge of purchase orders, invoicing processes, and SAGE.\n- Experience working within a manufacturing or engineering environment.\n\nWhat's on Offer?\n- Flexible start and finish times.\n- Reduced working week.\n- Free on-site parking and convenient public transport links.\n- Weekly pay.\n- Accrued holiday pay.\n- Access to Adecco's employee benefits package, including retail discounts and wellbeing support.\n\nIf you're a proactive and organised administrator looking to develop your career within a growing and supportive business, we'd love to hear from you. Apply today to find out more.\n\nAdecco acts as an employment agency for permanent recruitment and an employment business for the supply of temporary workers. The Adecco Group UK & Ireland is an Equal Opportunities Employer.\n\nBy applying for this role your details will be submitted to Adecco. Our Candidate Privacy Information Statement explaining how we will use your information is available on our website.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?1tcg6Aj2zawhthmLcdHhiCGd5ExXBp9xb",
     "source": "JobG8",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "New Appointments Group",
+    "advertiser_name": "Adecco",
     "advertiser_type": "Agency",
-    "work_pattern": "Full Time",
-    "salary_period": "Annual",
+    "work_pattern": "Not Specified",
+    "salary_period": "Hourly",
     "posted_date_basis": "ontap_first_published"
   },
   {
@@ -238,14 +197,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Records administration",
-      "Systems administration",
-      "Quotations",
-      "Order processing"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225476340",
@@ -270,11 +222,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Records administration"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225475645",
@@ -524,14 +472,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Records administration",
-      "Systems administration",
-      "Quotations",
-      "Order processing"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "1742806",
@@ -556,11 +497,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Order processing"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "1769470",
@@ -585,11 +522,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Scheduling and bookings"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "1743702",
@@ -764,13 +697,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Records administration",
-      "Quotations",
-      "Order processing"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "1765933",
@@ -795,13 +722,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Scheduling and bookings",
-      "Records administration",
-      "Systems administration"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "1766152",
@@ -951,13 +872,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Scheduling and bookings",
-      "Systems administration",
-      "Quotations"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225554750",
@@ -1060,33 +975,54 @@
     "posted_date_basis": "ontap_first_published"
   },
   {
-    "job_id": "23643_225473894",
-    "title": "Purchasing Administrator",
-    "company": "Adecco - Agency - Temporary",
-    "location": "Gillingham",
+    "job_id": "23643_225466145",
+    "title": "Executive Assistant",
+    "company": "New Appointments Group - Agency - Permanent",
+    "location": "Kent",
     "region": "Kent",
     "country": "UK",
     "category": "Admin/Service – Office Support",
-    "employment_type": "Temporary",
-    "salary_min": "16",
-    "salary_max": "16",
-    "salary_text": "£16 per hour (short working week)",
-    "posted_date": "2026-08-19",
-    "description": "Purchasing Administrator\nLocation: Gillingham\nPay Rate: Up to 16.00 per hour DOE\nHours: Average 37 hours per week, Monday to Friday, with flexible working hours and a reduced working week\n\nWe are seeking a highly organised and detail-oriented Administrator to join our busy Purchasing Department. This is an excellent opportunity for an experienced administrator looking for a varied role within a professional and supportive environment that offers excellent flexibility and work-life balance.\n\nKey Responsibilities\n- Manage and monitor the department email inbox, responding to enquiries and directing correspondence as required.\n- Liaise with clients to obtain purchase orders and accurately update the CRM system.\n- Create, organise, and maintain project folders and associated documentation.\n- Prepare and process invoices, ensuring accuracy and timely submission.\n- Update spreadsheets relating to client surveys, project progress, and invoice schedules.\n- Chase outstanding reports and documentation to ensure client SLA requirements are met and invoices can be released promptly.\n- Attend internal meetings, taking accurate notes and tracking follow-up actions.\n- Coordinate the booking of subcontractors and process related invoices.\n- Provide general administrative support to the Purchasing team and wider business as required.\n\nSkills & Experience\nEssential\n- Previous experience in an administrative or office support role.\n- Excellent organisational skills with the ability to manage multiple priorities.\n- Strong attention to detail and a high level of accuracy.\n- Confident IT skills, including Microsoft Office applications, particularly Excel.\n- Ability to work independently and effectively within a fast-paced environment.\n- Strong communication skills, both written and verbal.\n\nDesirable\n- Previous experience within a Purchasing, Procurement, or Supply Chain environment.\n- Knowledge of purchase orders, invoicing processes, and SAGE.\n- Experience working within a manufacturing or engineering environment.\n\nWhat's on Offer?\n- Flexible start and finish times.\n- Reduced working week.\n- Free on-site parking and convenient public transport links.\n- Weekly pay.\n- Accrued holiday pay.\n- Access to Adecco's employee benefits package, including retail discounts and wellbeing support.\n\nIf you're a proactive and organised administrator looking to develop your career within a growing and supportive business, we'd love to hear from you. Apply today to find out more.\n\nAdecco acts as an employment agency for permanent recruitment and an employment business for the supply of temporary workers. The Adecco Group UK & Ireland is an Equal Opportunities Employer.\n\nBy applying for this role your details will be submitted to Adecco. Our Candidate Privacy Information Statement explaining how we will use your information is available on our website.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?1tcg6Aj2zawhthmLcdHhiCGd5ExXBp9xb",
+    "employment_type": "Permanent",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "",
+    "posted_date": "2026-08-30",
+    "description": "Executive Assistant\nLocation: Canterbury\nSalary: Competitive plus benefits\n\nA well-established East Kent organisation is looking for a skilled Executive Assistant to provide high-level support to the Board Leadership Team managing key administrative and operational tasks while enhancing organisational efficiency.\n\nResponsibilities:\n- Ensure the smooth day-to-day running of the Directors' office\n- Manage complex diaries, meetings, and travel arrangements\n- Deliver high-quality board presentations and reports\n- Manage complex event programmes, ensuring seamless delivery and stakeholder satisfaction\n- Providing project management support\n- Manage financial administration processes, including invoices, expenses, and reconciliations, ensuring accuracy and compliance\n- Coordinate board and senior leadership meetings, including agenda preparation,\n- documentation, and follow-up actions\n- Support recruitment and onboarding processes, ensuring a seamless candidate and new starter experience\n- Build strong relationships with internal leadership teams and external stakeholders to support effective communication and collaboration\n\nEssential Requirements:\n- Proven experience at C Suite level supporting Board level Directors and Senior Executives\n- Previous experience working within corporate organisations\n- Advanced IT skills including Microsoft Office (Excel, Word, PowerPoint, Outlook, Teams)\n- Resilient, hardworking, can demonstrate a \"can-do\" attitude.\n- Excellent organisational and time management skills\n- Strong communication skills and attention to detail\n- High level of discretion and confidentiality\n- Ability to prioritise workload and meet deadlines\n- Strong analytical or reporting skills\n\nBenefits:\n- Holidays: 25 days + bank holidays\n- Good pension scheme\n- On-site parking\n\nPlease note: We can only accept applicants who have the full Right to Work in the UK and live within a 45 minute commute.\n\nIf interested, please call my direct line and we can discuss this role in more detail. Email: (url removed)\nNew Appointments Group, Expertly Matching Employers and Jobseekers since 1975.\n\nBefore submitting your CV, please take a moment to check the layout, spelling, and grammar. If your CV includes graphics or design features, we'd also appreciate a simplified version in Word format.\nIf this role isn't for you, please check out our website for other roles that may be suitable, or send us your CV, we would still like to hear from you! You can find us on our website or LinkedIn, Facebook, Instagram and\nWe are committed to fostering a diverse and inclusive environment in line with the Equality Act 2010. All qualified applicants will be considered regardless of age, disability, gender reassignment, marriage or civil partnership, pregnancy or maternity, race, religion or belief, sex, or sexual orientation. New Appointments Group acts as an Employment Agency for permanent roles and as an Employment Business for temporary roles.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?31Q%2fsvDzOVYgE%2fJlmqIJZi8I2XBuZxT%2bj",
     "source": "JobG8",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Adecco",
+    "advertiser_name": "New Appointments Group",
+    "advertiser_type": "Agency",
+    "work_pattern": "Full Time",
+    "salary_period": "Annual",
+    "posted_date_basis": "ontap_first_published"
+  },
+  {
+    "job_id": "107855886",
+    "title": "Service Advisor (HGV/Commercial Vehicles)",
+    "company": "Ernest Gordon Recruitment - Agency - Permanent",
+    "location": "Kent",
+    "region": "Kent",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "30000",
+    "salary_max": "30000",
+    "salary_text": "£30000 per year",
+    "posted_date": "2026-08-24",
+    "description": "Service Advisor (HGV/Commercial Vehicles)\n\nAylesford\n\n£27,000 - £30,000 + Monday-Friday + Progression + Company Benefits + Flexible starting times\n\nAre you a Service Advisor or similar with a background in the HGV or Commercial Vehicle industry looking for a stable, Monday to Friday position within a family-run automotive company known for its great working environment and commitment to its staff?\n\nDo you click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?aIHQjUdXakNe1UxRipvjdsTdHHSqgZkdr",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Ernest Gordon Recruitment",
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
-    "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Systems administration"
-    ]
+    "salary_period": "Annual",
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225519271",
@@ -1108,36 +1044,6 @@
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
     "advertiser_name": "Office Angels",
-    "advertiser_type": "Agency",
-    "work_pattern": "Full Time",
-    "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Shared inboxes",
-      "Records administration"
-    ]
-  },
-  {
-    "job_id": "23643_225466245",
-    "title": "Project Coordinator",
-    "company": "Pearson Whiffin Recruitment Ltd - Agency - Permanent",
-    "location": "Kent",
-    "region": "Kent",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "30000",
-    "salary_max": "35000",
-    "salary_text": "£30000 - £35000 per year",
-    "posted_date": "2026-08-18",
-    "description": "Scheduler / Project Coordinator\n£28,000 - £35,000 DOE\nMid Kent\nMonday - Friday 8:00am - 4:00pm or 9:00am - 5:00pm\n\nAre you looking to join an established and growing business where you can play a key role in delivering successful projects?\n\nMy client is seeking a proactive and organised Scheduler / Project Coordinator to join their Project Delivery team. This is an exciting opportunity for someone who enjoys planning, coordinating and managing multiple tasks in a fast-paced environment.\n\nDuties:\n- Plan and organise engineer schedules, subcontractor activities and material deliveries to meet project deadlines.\n- Oversee the coordination of multiple projects from initial handover through to successful completion\n- Produce and maintain project documentation, including RAMS, O&M manuals\n- Provide day-to-day administrative and operational support to the Operations and Project Managers across a range of contracts.\n- Participate in project meetings, reporting on progress, highlighting any issues and contributing to the successful delivery of projects.\n- Manager Purchase orders and documents.\n\nTo be considered for this role you with have/be:\n- A background within construction, mechanical services, M&E, engineering or facilities management would be advantageous\n- Confident communicator, capable of building effective relationships with colleagues, clients and suppliers.\n- Proficient in Microsoft Office, particularly Excel, Word and Outlook, with good general IT skills.\n- Background in a coordination, scheduling, administration or project support position, with experience managing tasks, timelines and project-related activities.\n\nThis role is being handled by Chloe Wadhams & Holly Ensoll, Business Support Consultant for Pearson Whiffin Recruitment.\n\nNot quite the right role but still looking?\n\nWhether you are entry or Executive level, our team of experienced Recruitment specialists can help you with your career. We are Kent s leading independent consultancy and pride ourselves on delivering an exceptional service to both candidates and clients.\n\nFind us on and\n\nBy working with us, you will be helping support charities across",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?wTAUM266l6e9IHBSSbVdh9EYyoWvzhQ%2fh",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Pearson Whiffin Recruitment Ltd",
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
@@ -1266,12 +1172,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Document preparation",
-      "Order processing"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "1776037",
@@ -1296,13 +1197,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Systems administration",
-      "Quotations",
-      "Order processing"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "107842009",
@@ -1430,31 +1325,6 @@
     "posted_date_basis": "ontap_first_published"
   },
   {
-    "job_id": "1807523",
-    "title": "Counselling Coordinator",
-    "company": "Mid Kent Mind - Agency - Permanent",
-    "location": "Kent",
-    "region": "Kent",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "",
-    "posted_date": "2026-08-27",
-    "description": "Mid Kent Mind is a local, independent, mental health and wellbeing charity providing a safe environment for individuals where everyone is valued. We improve the lives of those in our community by building their resilience and giving them hope for a better future. We strive to tackle stigma and discrimination through projects that promote a better understanding of mental health. Our vision is for a community where all individuals are accepted, included and supported to thrive. We aim to ensure that the needs of each individual who experiences a mental health problem, are met with the best possible support and outcome.\n\nAs the Counselling Coordinator you will maintain a small therapeutic caseload, undertake client assessments, coordinate counselling referrals and allocations, recruit and support placement counsellors, and contribute to the ongoing development of a safe, responsive, and person-centred counselling service.\n\nYou are a qualified counsellor looking to run a successful counselling service for the community Mid Kent Minds serves, alongside building your own caseload.\n\nYou are an authentic and empathetic communicator with emotional intelligence.\n\nYou have excellent administrative skills, attention to detail and are rigorous in your task management.\n\nYou have the ability to support and guide student counsellors through their placement, and liaise with educational bodies.\n\nYou are able to be flexible in response to the organisation's needs and requirements.\n\nTo find out more please read the full job description and additional information document.\n\nCoordinator Coordinator Jobs Service Coordinator Services Support Referrals Assessments Case Management\n\nService Counsellor Counsellor Counsellor Counsellor Health Counsellor Jobs Services\n\nSupport Practice Provision Centred Counselling Health Health Support Health Services Health Counselling Health Practitioner\n\nMental Health Health Jobs Support Services Practitioner Caseload Counselling Mental Health\n\nSupport Services Wellbeing Assessments Support Management Management Coordination Counsellor Counsellor Placement Placement Supervision",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?31Q%2fsvDzOVYXICSy1wUPlx7hUBnObAm0j",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Mid Kent Mind",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
-  },
-  {
     "job_id": "23643_225558646",
     "title": "Customer Account Coordinator 25 days A/L+Friday finish 1:30pm",
     "company": "Office Angels - Agency - Permanent",
@@ -1476,31 +1346,6 @@
     "advertiser_name": "Office Angels",
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
-    "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
-  },
-  {
-    "job_id": "107935818",
-    "title": "Customer Care Coordinator",
-    "company": "Bellway Homes - Agency - Permanent",
-    "location": "Kent",
-    "region": "Kent",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "",
-    "posted_date": "2026-09-04",
-    "description": "Customer Care Coordinator\nWhen registering to this job board you will be redirected to the online application form. Please ensure that this is completed in full in order that your application can be reviewed.\n\nAt Bellway we recognise that people are the key to our success, and we are committed to building an inclusive culture that values and respects difference combined with creating a safe and inclu click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?d1vRzEYF65To9e19nln2Ns%2f4NIyQsoGOx",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Bellway Homes",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
     "salary_period": "Annual",
     "posted_date_basis": "ontap_first_published"
   },
@@ -1530,6 +1375,81 @@
     "posted_date_basis": "ontap_first_published"
   },
   {
+    "job_id": "21203_575b9fd5-1a99-4d45-a9b5-accb88def92b",
+    "title": "Merchandising Co-ordinator (12 month FTC)",
+    "company": "Sysco GB - Company - Permanent",
+    "location": "Kent",
+    "region": "Kent",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "",
+    "posted_date": "2026-09-01",
+    "description": "Job Description\n\nAs a food wholesaler delivering thousands of products to thousands of customers every day, our business relies on the accuracy and consistency of its product and vendor data. From barcodes to descriptions, from pack sizes to ingredients, from dimensions to imagery for our website, from addresses to company registration numbers, the accuracy of all these data points is critical in ensuring that our customers can select, order and then receive delivery of the ingredients they need to cook the amazing food we all enjoy when eating out.\n\nWith this in mind, Sysco are recruiting for a 'Merchandising Co-ordinator' to join our high performing Central Category & Data team in Ashford on a 12 month contract (maternity cover). If you are interested in data, understand it's importance, have exceptional attention to detail and the curiosity to understand how / why data interlinks then this might be the perfect role for you!\n\nAs a Merchandising Co-ordinator you will work closely with the Category teams in Merchandising to execute data driven activities, such as but not limited to: ensuring correct & timely set up of products and vendors, manage data changes and ensure accurate invoice price set up and timely implementation of changes thereafter.\n\nThe role is business-facing, working with many departments within Sysco GB to plan and execute data activities. This is a fantastic role for someone who has a passion for getting it right at a detailed level, a desire to understand business processes and how that impacts data quality and is looking for a role where they can grow and have a successful career.\n\nA hybrid role with a minimum of 1 day working in the Ashford Head Office, so you must be within a commutable distance to Ashford. The site has good transport links and free car park for colleagues.\n\nKey Responsibilities:\n- Data Maintenance.\n- Vendors, products, pricing & promotions on SAP.\n- Perform data checks ahead of set up.\n- Trade Interchange - SIM (Vendor set up).\n- Interface with multiple departments across businesses.\n- Ongoing checks, maintenance, resolution and recording for audit.\n- Data issue resolution.\n- Resolve supplier invoice queries and parked documents.\n\nKnowledge, skills, experience and competencies:\n\nThis role is suited to someone with an excellent work ethic, team ship, organisation and communication skills, who is looking for career progression in a global organisation. The successful candidate will ideally have had previous experience working with data within a fast paced and rapidly changing environment. You will have an exceptional eye for detail with excellent communication skills, (both written and verbal), with the ability to communicate to stakeholders at all levels and equally have the ability to identify inaccurate data and be comfortable challenging this back. You will be confident working to tight deadlines across different departments utilising your prioritisation and organisational skills. You'll ideally have experience using SAP, different reporting tools and a good working knowledge all Microsoft Office programmes including Excel.\n\nWhat you'll get:\n- Early Access to Your Earnings: Use our dedicated Wage Stream app to access your earned salary whenever you need it, helping you manage your finances with ease and confidence.\n- Flexible Time Off: Take advantage of the option to purchase additional annual leave.\n- Comprehensive Wellbeing & Health Support: Benefit from our Employee Assistance Programme, offering confidential mental health support, 24/7 GP appointments, physiotherapy, flu vaccinations, eye tests and a wide range of health services for you and your family.\n- Competitive Pension Scheme: Secure your future with our robust pension plan designed to help you plan long term.\n- Life Assurance: Peace of mind with life assurance coverage designed to protect you and your loved ones.\n- Exclusive Discounts: Enjoy access to Sysco Perks, where you'll find discounts on everything from gym memberships to your weekly grocery shop.\n- Special Sysco Product Discounts: Get the chance to purchase our food products at significantly reduced prices.\n- Free Mortgage Advice: Navigate the property market with confidence thanks to complimentary expert mortgage guidance.\n- Enhanced Family-Friendly Leave: Our policies support you through important life moments, offering greater flexibility and care for you and your family.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?gZ0pd2TJz0Lv02OVx4dLBamjeHNTvpAds",
+    "source": "JobG8",
+    "working_arrangement": "hybrid",
+    "working_arrangement_text": "Hybrid working",
+    "working_arrangement_evidence": "A hybrid role with a minimum of 1 day working in the Ashford Head Office, so you must be within a commutable distance to Ashford.",
+    "advertiser_name": "Sysco GB",
+    "advertiser_type": "Company",
+    "work_pattern": "Full Time",
+    "salary_period": "Annual",
+    "posted_date_basis": "ontap_first_published"
+  },
+  {
+    "job_id": "23643_225466245",
+    "title": "Project Coordinator",
+    "company": "Pearson Whiffin Recruitment Ltd - Agency - Permanent",
+    "location": "Kent",
+    "region": "Kent",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "30000",
+    "salary_max": "35000",
+    "salary_text": "£30000 - £35000 per year",
+    "posted_date": "2026-08-18",
+    "description": "Scheduler / Project Coordinator\n£28,000 - £35,000 DOE\nMid Kent\nMonday - Friday 8:00am - 4:00pm or 9:00am - 5:00pm\n\nAre you looking to join an established and growing business where you can play a key role in delivering successful projects?\n\nMy client is seeking a proactive and organised Scheduler / Project Coordinator to join their Project Delivery team. This is an exciting opportunity for someone who enjoys planning, coordinating and managing multiple tasks in a fast-paced environment.\n\nDuties:\n- Plan and organise engineer schedules, subcontractor activities and material deliveries to meet project deadlines.\n- Oversee the coordination of multiple projects from initial handover through to successful completion\n- Produce and maintain project documentation, including RAMS, O&M manuals\n- Provide day-to-day administrative and operational support to the Operations and Project Managers across a range of contracts.\n- Participate in project meetings, reporting on progress, highlighting any issues and contributing to the successful delivery of projects.\n- Manager Purchase orders and documents.\n\nTo be considered for this role you with have/be:\n- A background within construction, mechanical services, M&E, engineering or facilities management would be advantageous\n- Confident communicator, capable of building effective relationships with colleagues, clients and suppliers.\n- Proficient in Microsoft Office, particularly Excel, Word and Outlook, with good general IT skills.\n- Background in a coordination, scheduling, administration or project support position, with experience managing tasks, timelines and project-related activities.\n\nThis role is being handled by Chloe Wadhams & Holly Ensoll, Business Support Consultant for Pearson Whiffin Recruitment.\n\nNot quite the right role but still looking?\n\nWhether you are entry or Executive level, our team of experienced Recruitment specialists can help you with your career. We are Kent s leading independent consultancy and pride ourselves on delivering an exceptional service to both candidates and clients.\n\nFind us on and\n\nBy working with us, you will be helping support charities across",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?vAYWCB8ag%2fghvl36%2b3k7PSW40FVMFcy7i",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Pearson Whiffin Recruitment Ltd",
+    "advertiser_type": "Agency",
+    "work_pattern": "Full Time",
+    "salary_period": "Annual",
+    "posted_date_basis": "ontap_first_published"
+  },
+  {
+    "job_id": "107918391",
+    "title": "Merchandising Co-ordinator (12 month FTC)",
+    "company": "Sysco - Company - Permanent",
+    "location": "Kent",
+    "region": "Kent",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "",
+    "posted_date": "2026-09-05",
+    "description": "Job Description\n\nAs a food wholesaler delivering thousands of products to thousands of customers every day, our business relies on the accuracy and consistency of its product and vendor data. From barcodes to descriptions, from pack sizes to ingredients, from dimensions to imagery for our website, from addresses to company registration numbers, the accuracy of all these data points is critical in en click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?Zg1fD7qgbpyX5P6%2flJ4DFUu5DPrfM%2bVse",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Sysco",
+    "advertiser_type": "Company",
+    "work_pattern": "Not Specified",
+    "salary_period": "Annual",
+    "posted_date_basis": "ontap_first_published"
+  },
+  {
     "job_id": "nhs-5576342",
     "source": "NHS Jobs",
     "title": "Administrator",
@@ -1546,6 +1466,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B0082-26-0064",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1565,25 +1488,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0279-26-2325",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "posted_date_basis": "source"
-  },
-  {
-    "job_id": "nhs-5567864",
-    "source": "NHS Jobs",
-    "title": "Receptionist",
-    "company": "Pelham Medical Practice",
-    "advertiser_name": "Pelham Medical Practice",
-    "location": "Gravesend, DA11 0HN, GRAVESEND, DA12 4JW",
-    "region": "Kent",
-    "salary": "£12.71",
-    "employment_type": "Permanent",
-    "posted_date": "2026-08-28T09:53:00.763675679",
-    "closing_date": "2026-09-04",
-    "description": "Pelham Medical Practice is looking for a friendly, reliable and motivated GP Receptionist to join our busy and supportive practice team on a part-time basis. The hours of work required are Monday 8.30am - 12.30pm, Wednesday 13.30pm- 18.30pm, Thursday 13.30pm -18.30pm, Friday 13.30pm -18.30pm. The successful candidate will work across our practice sites, providing an efficient, professional and welcoming reception service to our patients. You will be an important first point of contact for patients and will play a key role in supporting the smooth day-to-day running of the practice. The successful applicant will be responsible for a range of reception and administrative duties, including: Welcoming and assisting patients in person and by telephone. Booking, cancelling and amending appointments in line with practice procedures. Dealing with patient enquiries promptly, professionally and sensitively. Processing administrative requests. Signposting patients to appropriate services and sources of support. Liaising with GPs, nurses, administrative staff and other members of the wider healthcare team. Maintaining accurate and confidential patient records. Supporting the practice with general administrative duties as required. Working flexibly across our different practice sites. Job Purpose To provide a professional, efficient and welcoming reception service to patients, carers and visitors attending Pelham Medical Practice. The post holder will act as an important first point of contact for patients and will support the clinical and administrative teams in the delivery of a high-quality primary care service. The post holder will be required to work flexibly across the practice sites and demonstrate a commitment to providing excellent patient care and customer service at all times. Key Responsibilities and Duties Reception and Patient Services Provide a friendly, professional and welcoming reception service to all patients and visitors. Receive and respond to telephone calls, enquiries and requests in a polite, helpful and sensitive manner. Book, cancel and amend patient appointments in accordance with practice procedures. Ensure patients are directed or signposted to the most appropriate service or member of the practice team. Assist patients with general queries and provide information within the limits of the role. Deal sensitively and appropriately with patients who may be distressed, anxious or upset. Maintain a professional and respectful approach when dealing with challenging or difficult situations. Administrative Duties Process administrative requests, including prescription requests and other patient correspondence, in accordance with practice procedures. Maintain accurate and up-to-date patient information and records. Scan, process and appropriately distribute incoming correspondence and clinical information. Complete routine administrative tasks to support the smooth running of the practice. Liaise effectively with GPs, nurses, healthcare professionals and administrative colleagues. Follow practice protocols and procedures at all times. Team Working Work effectively as part of the wider practice team and contribute to a positive and supportive working environment. Communicate clearly and professionally with colleagues across all practice sites. Be flexible and willing to undertake duties appropriate to the role as required. Work across different practice locations according to service requirements. Support colleagues during periods of increased workload, staff absence or service pressures. Confidentiality and Information Governance Maintain strict patient confidentiality at all times in accordance with practice policies, NHS requirements and data protection legislation. Ensure that information is handled securely and appropriately. Adhere to all practice policies and procedures relating to confidentiality, information governance and safeguarding. Health, Safety and Quality Comply with practice health and safety policies and procedures. Report any concerns, incidents or risks to the appropriate member of staff. Participate in practice training, meetings and development activities as required. Maintain awareness of and comply with practice policies, including safeguarding, infection prevention and control, equality and diversity, and health and safety. Contribute to the continuous improvement of services and patient experience. General The post holder will be expected to undertake other duties commensurate with the grade and nature of the role as reasonably requested by the Practice Manager or senior member of the practice team. The duties and responsibilities outlined above are not exhaustive and may be reviewed periodically in line with the changing needs of the practice. The post holder is expected to demonstrate the values of Pelham Medical Practice through a commitment to patient-centred care, professionalism, confidentiality, teamwork and respect.",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4173-26-0008",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4173-26-0008",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1603,25 +1510,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2248-26-0003",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "posted_date_basis": "source"
-  },
-  {
-    "job_id": "nhs-5541034",
-    "source": "NHS Jobs",
-    "title": "Receptionist",
-    "company": "Borough Green Medical Practice",
-    "advertiser_name": "Borough Green Medical Practice",
-    "location": "Sevenoaks, TN15 8RQ",
-    "region": "Kent",
-    "salary": "£12.50",
-    "employment_type": "Permanent",
-    "posted_date": "2026-08-14T13:50:48.390226230",
-    "closing_date": "2026-09-04",
-    "description": "We are looking for a friendly, positive individual with a can-do attitude who can work effectively as part of our team. We need someone who has a calm approach and can handle a variety of tasks in a busy environment. Working Hours: 3 shifts available - AM or PM. Each shift is 5.5 hours per day. Exact working hours and shift arrangements will be discussed and agreed during the interview. Patient Interaction:Greet patients warmly and manage check-ins, ensuring they feel welcome and informed about their appointments. Appointment Management:Efficiently schedule and manage appointments using our digital systems, ensuring optimal use of clinician time. Communication:Handle phone calls and emails, providing information and directing queries to the appropriate team members. Support:Assist patients with completing necessary forms, especially those who may not have internet access. Coordination:Work closely with the clinical team to ensure smooth patient flow and manage any urgent requests Excellent communication and interpersonal skills. Proficiency in using digital systems for scheduling and patient management. Empathy and patience in dealing with a diverse patient population. Strong organisational skills and the ability to manage multiple tasks efficiently. Previous experience in a healthcare setting is desirable but not essential.",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4608-26-0008",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4608-26-0008",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1641,6 +1532,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0177-26-9580",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1660,25 +1554,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2753-26-0019",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
-    "posted_date_basis": "source"
-  },
-  {
-    "job_id": "nhs-5551375",
-    "source": "NHS Jobs",
-    "title": "Receptionist - Bank - Care Home",
-    "company": "Barchester Healthcare",
-    "advertiser_name": "Barchester Healthcare",
-    "location": "Maidstone, ME17 3ZB",
-    "region": "Kent",
-    "salary": "£14.80",
-    "employment_type": "Bank",
-    "posted_date": "2026-08-20T20:15:13.960209360",
-    "closing_date": "2026-10-19",
-    "description": "ABOUT THE ROLE This is a casual, part-time role offering flexible working. As a Bank Receptionist at a Barchester care home, you'll provide the warm welcome that helps to make sure every resident and visitor feels at home with us. As the first point of contact for almost everyone who comes to the home, you'll have a vitally important part to play in creating a positive and friendly environment. The role of Receptionist with us is very varied. You can expect to answer phone calls, greet visitors, manage the reception area and show prospective residents and their families around. We might also need you to carry out some administrative tasks, like typing, photocopying and filing. ABOUT YOU You'll need to be professional, caring, courteous and well organised to join us as a Receptionist. You'll take a real interest in our residents and go out of your way to make every visitor feel at home. No formal qualifications are required but you will need a good telephone manner and strong communication skills. REWARDS PACKAGE As well as competitive pay, you can look forward to a role that offers true flexibility and plenty of free learning and development opportunities. As one of the UK's leading healthcare providers, we take the growth of everyone who works for us seriously. As this is a Bank position to provide cover as and when we need it, such as for annual leave or sick leave, the hours and days you work will vary. If you'd li This position as a Bank Receptionist at a Barchester care home is a casual, part-time role offering flexible working hours. The role involves greeting residents and visitors warmly, ensuring everyone feels at home. You will manage the reception area, answer phone calls, and show prospective residents and their families around the care home. Administrative tasks such as typing, photocopying, and filing will also be part of your responsibilities. To succeed in this role, you must be professional, caring, courteous, and well-organized. While no formal qualifications are needed, a good telephone manner and strong communication skills are essential. As a Bank Receptionist, your working hours will vary, providing cover as needed, such as for annual leave or sick leave. The role offers competitive pay, flexibility, and free learning and development opportunities, contributing to your personal and professional growth. Joining Barchester Healthcare, one of the UK's leading healthcare providers, offers a rewarding opportunity to use your administration and people skills in an organisation committed to quality care. ABOUT THE ROLE This is a casual, part-time role offering flexible working. As a Bank Receptionist at a Barchester care home, you'll provide the warm welcome that helps to make sure every resident and visitor feels at home with us. As the first point of contact for almost everyone who comes to the home, you'll have a vitally important part to play in creating a positive and friendly environment. The role of Receptionist with us is very varied. You can expect to answer phone calls, greet visitors, manage the reception area and show prospective residents and their families around. We might also need you to carry out some administrative tasks, like typing, photocopying and filing. ABOUT YOU You'll need to be professional, caring, courteous and well organised to join us as a Receptionist. You'll take a real interest in our residents and go out of your way to make every visitor feel at home. No formal qualifications are required but you will need a good telephone manner and strong communication skills. REWARDS PACKAGE As well as competitive pay, you can look forward to a role that offers true flexibility and plenty of free learning and development opportunities. As one of the UK's leading healthcare providers, we take the growth of everyone who works for us seriously. As this is a Bank position to provide cover as and when we need it, such as for annual leave or sick leave, the hours and days you work will vary. If you'd like to use your administration and people skills in an organisation that provides the quality care you'd expect for your loved ones, this is a rewarding place to be. #2003",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0177-26-9074",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0177-26-9074",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1698,6 +1576,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0525-26-0012",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1717,6 +1598,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0177-26-8180",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   }
 ]

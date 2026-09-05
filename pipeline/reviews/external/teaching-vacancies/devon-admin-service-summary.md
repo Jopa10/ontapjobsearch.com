@@ -14,8 +14,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 12
-- Selected: 4
-- POSS awaiting decision: 3
+- Selected: 5
+- POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 5
 
@@ -81,11 +81,9 @@ source_job_id: estates-administrator-learning-academies-trust
 source_url: https://teaching-vacancies.service.gov.uk/jobs/estates-administrator-learning-academies-trust
 ---
 
-## POSS — choose SELECT or EXCLUDE
-
 ---
-action: 
-POSS | Devon | Torquay, South West, TQ2 7EL | £27254 (actual salary £9340) | Reception and Administration Assistant
+action: select
+SELECTED | Devon | Torquay, South West, TQ2 7EL | £27254 (actual salary £9340) | Reception and Administration Assistant
 employer: Torquay Boys' Grammar School
 closing_date: 2026-09-28T12:00:00+01:00
 reason: Administrative duties evidenced in description
@@ -97,6 +95,8 @@ source: Teaching Vacancies
 source_job_id: reception-and-administration-assistant-109b825b-7a0b-44c3-a80d-67ce740b1847
 source_url: https://teaching-vacancies.service.gov.uk/jobs/reception-and-administration-assistant-109b825b-7a0b-44c3-a80d-67ce740b1847
 ---
+
+## POSS — choose SELECT or EXCLUDE
 
 ---
 action: 

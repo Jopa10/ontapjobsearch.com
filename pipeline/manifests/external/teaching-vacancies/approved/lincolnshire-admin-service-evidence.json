@@ -1,21 +1,23 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-08-31T18:55:55+01:00",
+  "generated_at": "2026-09-05T13:12:15+01:00",
   "source": "Teaching Vacancies",
   "region": "Lincolnshire",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-08-31",
-  "review_fingerprint": "1ef75acf31e4daf3dbcf60736a5a66233d6ad5cf8f8f9835830126073fff13ec",
-  "routing_manifest_sha256": "ffa8ac4eb0bf3616c1711502490fa7d8374f8e356872cc2c477737141b15a14c",
-  "review_csv_sha256": "9948f42904b3b3b98b7fb704b568dadfddae08f88c1ac561395b55e9bd08ac44",
-  "summary_md_sha256": "0633d21591cea92187299cb830685aa408e5019ca1daba54ca7fa66315be3dec",
-  "approved_snapshot_sha256": "ccd279ad86e3291756c3f63561fe17efa790ce41f5e465bef631b03270e1b9e6",
-  "approved_rows": 4,
+  "review_date": "2026-09-05",
+  "review_fingerprint": "d90747e5fcc54851d449a9ee3a1cb21270aba368d071c844c934b273529f2f73",
+  "routing_manifest_sha256": "470681d9f37d503102980dcb1fe7f45c6d8d4a374fc3c1cab53df51803c03f75",
+  "review_csv_sha256": "767c5e5b460ab8ed4fd1a8680817f09a74e57914ca2e1a0c1ce9b5e8037a8a78",
+  "summary_md_sha256": "af7979b7cbed90e57713225aaa14c8e3d4db91e6028a9a6e0cf1654b3bd18c60",
+  "approved_snapshot_sha256": "5f1b5daf415756dd1dc2b07c4d1a876e147bb14984a282389086c1fdddc326ec",
+  "approved_rows": 6,
   "approved_job_ids": [
-    "teaching-vacancies-receptionist-administrator-beacon-academy-cleethorpes-north-east-lincolnshire",
     "teaching-vacancies-assistant-administrator-bc00604f-24a2-4741-bbd7-1135c9c18070",
     "teaching-vacancies-hr-administrator-tulip-academy",
-    "teaching-vacancies-receptionist-admin-officer-oasis-academy-parkwood"
+    "teaching-vacancies-receptionist-admin-officer-oasis-academy-parkwood",
+    "teaching-vacancies-administration-apprentice-boston-west-academy",
+    "teaching-vacancies-cover-and-operations-administrator",
+    "teaching-vacancies-data-exams-officer-thomas-middlecott-academy"
   ]
 }

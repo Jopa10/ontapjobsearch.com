@@ -1,27 +1,22 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-08-31T18:55:59+01:00",
+  "generated_at": "2026-09-05T13:12:19+01:00",
   "source": "Teaching Vacancies",
   "region": "Yorkshire - West",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-08-31",
-  "review_fingerprint": "5beba16df4d201c2214faba10c94cb1fad7523929033f290d6b847eacce9002c",
-  "routing_manifest_sha256": "ffa8ac4eb0bf3616c1711502490fa7d8374f8e356872cc2c477737141b15a14c",
-  "review_csv_sha256": "170cc85712d547f7ca6e5b627c5cb3adaea7f9b6e0682501731601df42490627",
-  "summary_md_sha256": "1cea21fef14ec1366a9f38f1cd6ab381657ca988c76a056bc98b553646d566a3",
-  "approved_snapshot_sha256": "aea8aca9c267e62cf31410a69891422fe485930c5d99f968596078e6a17bdc76",
-  "approved_rows": 10,
+  "review_date": "2026-09-05",
+  "review_fingerprint": "78dde8c0dbbdde83b5070ffa8fd5f94719bf2a92d4aada826c6246452b13a9ce",
+  "routing_manifest_sha256": "470681d9f37d503102980dcb1fe7f45c6d8d4a374fc3c1cab53df51803c03f75",
+  "review_csv_sha256": "51386022ca3a103e31016384f34a46af8cd5f0f3c5073f76fc40d0c345de6439",
+  "summary_md_sha256": "68b2375a61aea42148daf2a9ff4f8d72ddeca68a991b29a53756541ae1235d9e",
+  "approved_snapshot_sha256": "205387ef502b9961d8f4f08e74e059a3f0ed49f9450fd57047c472767ecf2406",
+  "approved_rows": 5,
   "approved_job_ids": [
-    "teaching-vacancies-receptionist-administrator-49a47934-628e-47bf-b7a9-6fe782d91f05",
-    "teaching-vacancies-specialist-administrator-send-medical-lead-first-aid",
-    "teaching-vacancies-business-support-officer-8b441777-7da2-48ad-9c51-0f5af614ff49",
-    "teaching-vacancies-business-support-officer-attendance-3ce0d54f-db0c-49af-b00c-ddcf690bf636",
-    "teaching-vacancies-business-support-officer-student-services-a6b016b2-0cf8-4c1f-9ae0-103ce7f8ce62",
-    "teaching-vacancies-send-exam-access-arrangements-administrator",
     "teaching-vacancies-academy-administrator-l2-dixons-mcmillan-academy",
     "teaching-vacancies-senior-administrator-appleton-academy-bradford-west-yorkshire",
     "teaching-vacancies-academy-administrator-l3-dixons-cottingley-academy",
-    "teaching-vacancies-senior-administrator-fountain-primary-school-leeds-west-yorkshire"
+    "teaching-vacancies-senior-administrator-fountain-primary-school-leeds-west-yorkshire",
+    "teaching-vacancies-admin-receptionist-beckfoot-allerton-primary-school-and-nursery"
   ]
 }

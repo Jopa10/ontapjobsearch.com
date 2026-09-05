@@ -1,20 +1,18 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-08-31T18:55:52+01:00",
+  "generated_at": "2026-09-05T13:12:11+01:00",
   "source": "Teaching Vacancies",
   "region": "Bristol & Bath",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-08-31",
-  "review_fingerprint": "a6dfc7a60524493e37f019f127318aa54516bacf77b3f76b7f5de2ebdb4866d4",
-  "routing_manifest_sha256": "ffa8ac4eb0bf3616c1711502490fa7d8374f8e356872cc2c477737141b15a14c",
-  "review_csv_sha256": "094a2531c123926ad4caee0a53cfa9d18af6fe5e8a54c2d60b68e8f101455835",
-  "summary_md_sha256": "b23ed6430ec18626e481e52744b6bab0069597640a35c9c1f9c380302f7ce58e",
-  "approved_snapshot_sha256": "6d66bc329641ae4c9551a973da812527e9a89cf29b3550525b4fe014cb52f2cd",
-  "approved_rows": 3,
+  "review_date": "2026-09-05",
+  "review_fingerprint": "ba872ad7b19666c82d0cb91b3c5aead939b97af6b6db6237f96b204406737e9c",
+  "routing_manifest_sha256": "470681d9f37d503102980dcb1fe7f45c6d8d4a374fc3c1cab53df51803c03f75",
+  "review_csv_sha256": "c9488aea68c422a3b9cf11fbb5db97812d5527233f68ab81102fca76bf115dd6",
+  "summary_md_sha256": "8234049d9d09661d2b103cf76ed0169a72bdd54834d26c0c785eda4f9b01f34d",
+  "approved_snapshot_sha256": "2875c98309bd988aeff848f1fa62874eddc8a05c417a15d011dc431596cfde96",
+  "approved_rows": 1,
   "approved_job_ids": [
-    "teaching-vacancies-attendance-administrator-marlwood-school",
-    "teaching-vacancies-digital-marketing-administrator-filton-avenue-primary-school",
     "teaching-vacancies-school-administrator-parson-street-primary-school"
   ]
 }

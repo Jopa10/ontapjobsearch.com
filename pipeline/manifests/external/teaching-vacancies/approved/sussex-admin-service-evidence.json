@@ -1,19 +1,20 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-08-31T18:55:57+01:00",
+  "generated_at": "2026-09-05T13:12:17+01:00",
   "source": "Teaching Vacancies",
   "region": "Sussex",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-08-31",
-  "review_fingerprint": "b0a4879e0dd3f91f18e20d1f4cddad0fcdc1a0b0fff0e782bda8fe605a2735e2",
-  "routing_manifest_sha256": "ffa8ac4eb0bf3616c1711502490fa7d8374f8e356872cc2c477737141b15a14c",
-  "review_csv_sha256": "895b2f7c027c4f8b3081654be454c167db8718419c6e7e0802a1cdece9ff9e5f",
-  "summary_md_sha256": "9edb7b6ad06d1244431c90ab7efe5c5a2f505e7ddc4cd021048404ad00da1d7b",
-  "approved_snapshot_sha256": "f9f720a8a7fbc13ddb428698d7bfb5f2c0d7da1aecce3f5aee3fc76f739cfc46",
-  "approved_rows": 2,
+  "review_date": "2026-09-05",
+  "review_fingerprint": "d39d75134052de35a4f7f622706bcd41864a87b1891d6a4a2afda9125a3ce51f",
+  "routing_manifest_sha256": "470681d9f37d503102980dcb1fe7f45c6d8d4a374fc3c1cab53df51803c03f75",
+  "review_csv_sha256": "c0f3e43e10cb24e40a55fecfc8a8de8baefcffc27a05dda69626ada4276f817b",
+  "summary_md_sha256": "4c4b3a0d20d898880904dbf460bfab33f3000e00d610659e56f8dce1f34ddf6b",
+  "approved_snapshot_sha256": "7059f86a416af1a7ac1206dc2e2d26eb525067940c43d570830a76bb04a93676",
+  "approved_rows": 3,
   "approved_job_ids": [
-    "teaching-vacancies-administrative-assistants-cardinal-newman-catholic-school",
-    "teaching-vacancies-admissions-and-attendance-officer-oakwood-primary-academy"
+    "teaching-vacancies-school-secretary-administrative-assistant",
+    "teaching-vacancies-year-9-administrative-assistant-including-year-10-work-experience",
+    "teaching-vacancies-office-manager-southgate-primary-crawley-west-sussex"
   ]
 }

@@ -22,9 +22,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Aspire Academies Trust",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -50,9 +47,106 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Nicholas Breakspear Catholic School",
-    "advertiser_type": "",
-    "salary_period": "",
+    "posted_date_basis": "source"
+  },
+  {
+    "job_id": "teaching-vacancies-inclusion-administration-assistant-samuel-ryder-academy-st-albans-hertfordshire",
+    "title": "Inclusion Administration Assistant",
+    "company": "Samuel Ryder Academy",
+    "location": "St Albans",
+    "region": "Hertfordshire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "['part time']",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "£16,800.00 Annually (Actual) H3 + Fringe",
+    "work_pattern": "",
+    "posted_date": "2026-09-03",
+    "closing_date": "2026-09-17",
+    "closing_datetime": "2026-09-17T09:00:00+01:00",
+    "summary": "Inclusion Administration Assistant with Samuel Ryder Academy in St Albans. ['part time']; £16,800.00 Annually (Actual) H3 + Fringe.",
+    "description": "Samuel Ryder Academy is recruiting for this vacancy in St Albans.\n\nThe advertised position is Inclusion Administration Assistant.\n\nThe source lists the employment type as ['part time'].\n\nThe advertised salary or pay scale is £16,800.00 Annually (Actual) H3 + Fringe.\n\nThe stated application deadline is 2026-09-17T09:00:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
+    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/inclusion-administration-assistant-samuel-ryder-academy-st-albans-hertfordshire?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
+    "source": "Teaching Vacancies",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "posted_date_basis": "source"
+  },
+  {
+    "job_id": "teaching-vacancies-pastoral-administrator-croxley-danes-school-rickmansworth-hertfordshire",
+    "title": "Pastoral Administrator",
+    "company": "Croxley Danes School",
+    "location": "Rickmansworth",
+    "region": "Hertfordshire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "['part time']",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "£26,847.00 - £28,153.00 Annually (FTE)",
+    "work_pattern": "",
+    "posted_date": "2026-09-03",
+    "closing_date": "2026-09-17",
+    "closing_datetime": "2026-09-17T09:00:00+01:00",
+    "summary": "Pastoral Administrator with Croxley Danes School in Rickmansworth. ['part time']; £26,847.00 - £28,153.00 Annually (FTE).",
+    "description": "Croxley Danes School is recruiting for this vacancy in Rickmansworth.\n\nThe advertised position is Pastoral Administrator.\n\nThe source lists the employment type as ['part time'].\n\nThe advertised salary or pay scale is £26,847.00 - £28,153.00 Annually (FTE).\n\nThe stated application deadline is 2026-09-17T09:00:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
+    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/pastoral-administrator-croxley-danes-school-rickmansworth-hertfordshire?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
+    "source": "Teaching Vacancies",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "posted_date_basis": "source"
+  },
+  {
+    "job_id": "teaching-vacancies-school-receptionist-part-time",
+    "title": "School Receptionist - Part-time",
+    "company": "The Reach Free School",
+    "location": "Rickmansworth",
+    "region": "Hertfordshire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "['part time']",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "£21,306.00 - £26,176.00 Annually (FTE) Academy Trust Scale based on skills and experience (£21,306 to £26,176 FTE, pro-rata for part-time)",
+    "work_pattern": "",
+    "posted_date": "2026-09-02",
+    "closing_date": "2026-09-17",
+    "closing_datetime": "2026-09-17T12:00:00+01:00",
+    "summary": "School Receptionist - Part-time with The Reach Free School in Rickmansworth. ['part time']; £21,306.00 - £26,176.00 Annually (FTE) Academy Trust Scale based on skills and experience (£21,306 to £26,176 FTE, pro-rata for part-time).",
+    "description": "The Reach Free School is recruiting for this vacancy in Rickmansworth.\n\nThe advertised position is School Receptionist - Part-time.\n\nThe source lists the employment type as ['part time'].\n\nThe advertised salary or pay scale is £21,306.00 - £26,176.00 Annually (FTE) Academy Trust Scale based on skills and experience (£21,306 to £26,176 FTE, pro-rata for part-time).\n\nThe stated application deadline is 2026-09-17T12:00:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
+    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/school-receptionist-part-time?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
+    "source": "Teaching Vacancies",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "posted_date_basis": "source"
+  },
+  {
+    "job_id": "teaching-vacancies-personal-assistant-to-the-headteacher-and-senior-leadership-team",
+    "title": "Personal Assistant to the Headteacher and Senior Leadership Team",
+    "company": "Bishop's Hatfield Girls' School",
+    "location": "Hatfield",
+    "region": "Hertfordshire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "['full time']",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "H7-9 (dependent on qualifications and experience) £32,789 - £42,500 per annum pro rata, (Actual pay £ 29,492 - £38,553)",
+    "work_pattern": "",
+    "posted_date": "2026-09-03",
+    "closing_date": "2026-09-18",
+    "closing_datetime": "2026-09-18T09:00:00+01:00",
+    "summary": "Personal Assistant to the Headteacher and Senior Leadership Team with Bishop's Hatfield Girls' School in Hatfield. ['full time']; H7-9 (dependent on qualifications and experience) £32,789 - £42,500 per annum pro rata, (Actual pay £ 29,492 - £38,553).",
+    "description": "Bishop's Hatfield Girls' School is recruiting for this vacancy in Hatfield.\n\nThe advertised position is Personal Assistant to the Headteacher and Senior Leadership Team.\n\nThe source lists the employment type as ['full time'].\n\nThe advertised salary or pay scale is H7-9 (dependent on qualifications and experience) £32,789 - £42,500 per annum pro rata, (Actual pay £ 29,492 - £38,553).\n\nThe stated application deadline is 2026-09-18T09:00:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
+    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/personal-assistant-to-the-headteacher-and-senior-leadership-team?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
+    "source": "Teaching Vacancies",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
     "posted_date_basis": "source"
   },
   {
@@ -78,9 +172,56 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Warren Dell Primary School",
-    "advertiser_type": "",
-    "salary_period": "",
+    "posted_date_basis": "source"
+  },
+  {
+    "job_id": "teaching-vacancies-hr-advisor-eb9c5bf8-2603-48ba-bfc8-df41ec1204b1",
+    "title": "HR Advisor",
+    "company": "Danes Educational Trust",
+    "location": "Chorleywood",
+    "region": "Hertfordshire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "['part time']",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "£29,540.00 Annually (FTE)",
+    "work_pattern": "",
+    "posted_date": "2026-09-01",
+    "closing_date": "2026-09-21",
+    "closing_datetime": "2026-09-21T09:00:00+01:00",
+    "summary": "HR Advisor with Danes Educational Trust in Chorleywood. ['part time']; £29,540.00 Annually (FTE).",
+    "description": "Danes Educational Trust is recruiting for this vacancy in Chorleywood.\n\nThe advertised position is HR Advisor.\n\nThe source lists the employment type as ['part time'].\n\nThe advertised salary or pay scale is £29,540.00 Annually (FTE).\n\nThe stated application deadline is 2026-09-21T09:00:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
+    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/hr-advisor-eb9c5bf8-2603-48ba-bfc8-df41ec1204b1?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
+    "source": "Teaching Vacancies",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "posted_date_basis": "source"
+  },
+  {
+    "job_id": "teaching-vacancies-administrator-and-pupil-welfare-the-orchard-primary-school",
+    "title": "Administrator and Pupil Welfare",
+    "company": "The Orchard Primary School",
+    "location": "Watford",
+    "region": "Hertfordshire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "['full time']",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "£20,328.00 Annually (Actual)",
+    "work_pattern": "",
+    "posted_date": "2026-09-04",
+    "closing_date": "2026-09-24",
+    "closing_datetime": "2026-09-24T23:59:00+01:00",
+    "summary": "Administrator and Pupil Welfare with The Orchard Primary School in Watford. ['full time']; £20,328.00 Annually (Actual).",
+    "description": "The Orchard Primary School is recruiting for this vacancy in Watford.\n\nThe advertised position is Administrator and Pupil Welfare.\n\nThe source lists the employment type as ['full time'].\n\nThe advertised salary or pay scale is £20,328.00 Annually (Actual).\n\nThe stated application deadline is 2026-09-24T23:59:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
+    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/administrator-and-pupil-welfare-the-orchard-primary-school?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
+    "source": "Teaching Vacancies",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
     "posted_date_basis": "source"
   },
   {
@@ -159,31 +300,6 @@
     "posted_date_basis": "ontap_first_published"
   },
   {
-    "job_id": "23643_225527307",
-    "title": "Education Apprenticeships Coordinator - Onboarding & Funding",
-    "company": "RecruitmentRevolution.com - Agency - Permanent",
-    "location": "Hertfordshire",
-    "region": "Hertfordshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "29000",
-    "salary_max": "32000",
-    "salary_text": "£29000 - £32000 per year (Depending on Experience)",
-    "posted_date": "2026-08-25",
-    "description": "Help Learners Start Strong. Keep Every Detail on Track.\n\nAre you an organised administrator who enjoys working with people, systems and detail?\n\nWould you like to use your skills within education, helping apprentices and schools access opportunities that can genuinely shape futures?\n\nJoin the award-winning team at ESF Apprenticeships, an Ofsted 'Strong in All Areas' training provider and proud member of The Real Group.\n\nWe're looking for a self-motivated Education Apprenticeships Coordinator to support apprentice onboarding, funding administration and compliance while providing a brilliant experience for learners and employers.\n\nThe Role at a Glance\n\nEducation Apprenticeships Coordinator\nStevenage, Hertfordshire Up to 2 Days Hybrid Working - Negotiable\n£29,000 - £32,000 DOE\nFull Time Permanent 37.5 Hours\nHoliday: 28 Days + Bank Holidays\n\nSector: Education Apprenticeships Training\nPedigree: Ofsted Rated 'Strong in All Areas' 2026\nAccolades: Winner - Education & Childcare Apprenticeship Provider of the Year 2022\n\nYour Background / Skills: Administration, Apprenticeships, Learner Onboarding, Funding, Compliance, Education / Training, Digital Systems, Google Workspace, Stakeholder Support\n\nWho We Are\n\nEducational & Sporting Futures, also known as ESF Apprenticeships is a growing, innovative apprenticeship provider helping individuals aspire and achieve through education and training.\n\nWe work with schools and communities to deliver apprenticeships with a focus on SEND, PE, Health & Wellbeing and Leadership.\n\nOur team includes experienced teachers and education professionals, supported by an office team passionate about creating opportunities for learners.\n\nWe're proudly part of The Real Group, an employee-owned organisation providing inclusive professional development for education professionals.\n\nOur values are Inclusivity, Integrity, Positivity, Curiosity, Growth and Sustainability.\n\nThe Opportunity\n\nYou'll play a key role in the smooth and efficient delivery of our apprenticeship programmes, developing expertise in apprenticeship digital systems while supporting our Compliance Lead and wider team.\n\nYou'll help manage the onboarding of apprentices, maintain accurate learner records and ensure processes are completed efficiently and compliantly.\n\nYou'll also run live online enrolment meetings, welcoming apprentices onto their programmes and answering questions from learners and employers.\n\nIt's a varied role where you'll support apprentices throughout their learner journey while making sure the important details behind the scenes are always taken care of.\n\nAbout You\n\nWe're looking for someone organised, accurate and confident in communicating with different people.\n\nYou'll likely bring\n- Experience in administration or a similar education / training administration role, ideally within apprenticeships.\n- Strong organisational skills and excellent attention to detail.\n- Confident communication and interpersonal skills when working with employers, learners and colleagues.\n- Good IT skills, ideally including Google Workspace and other office software.\n- A proactive, problem-solving approach and ability to adapt to changing requirements.\n- A commitment to confidentiality, accuracy and high-quality service delivery.\n- A calm, self-motivated and team-focused attitude.\n\nPrevious apprenticeship experience would be particularly valuable, but we're also interested in candidates with relevant transferable administration experience within education or training.\n\nWhat You'll Get\n- £29,000 - £32,000 salary depending on experience.\n- 28 days' holiday plus bank holidays.\n- Up to 2 days hybrid working, negotiable.\n- Flexible working within a friendly, supportive team.\n- Simply Health benefits.\n- 4% pension contribution.\n- Coaching support.\n- The opportunity to develop within a dynamic and growing organisation.\n- An inclusive, employee-owned working environment.\n\nYour Experience / Background / Previous Roles May Include\nApprenticeships Administrator, Apprenticeship Coordinator, Apprenticeship Training Administrator, Compliance Administrator, Data & Compliance Assistant, Programme Support Officer, Training & Quality Administrator, Education Administrator, Talent Executive, HR Administrator or Recruitment Administrator with exposure to apprenticeships or funded training.\n\nReady to Be Part of Something Bigger?\n\nAt ESF Apprenticeships, you'll do more than help us onboard apprentices and manage our systems compliantly. You'll help unlock potential, shape futures and make a tangible difference in schools and communities nationwide.\n\nIf you're passionate about education, detail-driven and eager to grow with an award-winning apprenticeship provider, we'd love to hear from you.\n\nApplication notice We take your privacy seriously. As you might expect you may be contacted by email, text or telephone. Your data is processed by our talent partner RR Recruitment Revolution on the basis of their legitimate interests in fulfilling the recruitment process. Please refer to their Data Privacy Policy & Notice on their website for further details.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?Y5CHIaMSKAw3lHLNAZuE7zt2nuY1BC9uv",
-    "source": "JobG8",
-    "working_arrangement": "hybrid",
-    "working_arrangement_text": "Hybrid working",
-    "working_arrangement_evidence": "The Role at a Glance Education Apprenticeships Coordinator Stevenage, Hertfordshire Up to 2 Days Hybrid Working - Negotiable £29,000 - £32,000 DOE Full Time Permanent 37.5 Hours Holiday: 28 Days + Bank Holidays Sector: Education Apprenticeships Training Pedigree: Ofsted Rated 'Strong in All Areas' 2026 Accolades: Winner - Education & Childcare Apprenticeship Provider of the Year 2022 Your Background / Skills: Administration, Apprenticeships, Learner Onboarding, Funding, Compliance, Education / Training, Digital Systems, Google Workspace, Stakeholder Support Who We Are Educational & Sporting Futures, also known as ESF Apprenticeships is a growing, innovative apprenticeship provider helping individuals aspire and achieve through education and training.",
-    "advertiser_name": "RecruitmentRevolution.com",
-    "advertiser_type": "Agency",
-    "work_pattern": "Full Time",
-    "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
-  },
-  {
     "job_id": "23643_225013676",
     "title": "Client Support Coordinator",
     "company": "YoungEducation Ltd - Agency - Permanent",
@@ -231,11 +347,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Scheduling and bookings"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225522549",
@@ -260,11 +372,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Telephone handling",
-      "Systems administration"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225521989",
@@ -289,13 +397,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Telephone handling",
-      "Email handling",
-      "Scheduling and bookings",
-      "Systems administration"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "1771181",
@@ -320,12 +422,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Systems administration",
-      "Order processing"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "1749312",
@@ -350,11 +447,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Scheduling and bookings"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "1780989",
@@ -429,12 +522,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Systems administration",
-      "Quotations"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225528836",
@@ -559,11 +647,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Records administration"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225565093",
@@ -588,11 +672,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Telephone handling",
-      "Data entry"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225564863",
@@ -617,11 +697,32 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Order processing"
-    ]
+    "posted_date_basis": "ontap_first_published"
+  },
+  {
+    "job_id": "107580099",
+    "title": "Contracts Administrator",
+    "company": "TRS Staffing Solutions - Agency - Contract",
+    "location": "Hertfordshire",
+    "region": "Hertfordshire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Contract",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "",
+    "posted_date": "2026-08-21",
+    "description": "Overview\n\nOur client, a globally leading EPC organisation, is seeking a Contracts Administrator / Quantity Surveyor to join a major capital project based in Royston. Working as part of the site delivery team, you will provide contract administration support to the Contracts Manager and Construction Manager, ensuring effective management of construction contracts throughout the project lifecycle click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?1tcg6Aj2zazGMSnEITDgOUJf5RqqTsr0b",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "TRS Staffing Solutions",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Annual",
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225473001",
@@ -643,61 +744,6 @@
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
     "advertiser_name": "Osborne Appointments",
-    "advertiser_type": "Agency",
-    "work_pattern": "Full Time",
-    "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Records administration",
-      "Order processing"
-    ]
-  },
-  {
-    "job_id": "107742606",
-    "title": "Sales Coordinator",
-    "company": "Made Employment Ltd - Agency - Permanent",
-    "location": "Hertfordshire",
-    "region": "Hertfordshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "30000",
-    "salary_max": "30000",
-    "salary_text": "£30000 per year",
-    "posted_date": "2026-08-29",
-    "description": "Do you have outbound sales experience? Are you tired of hunting down cold leads but still enjoy the sales process? We have the perfect sales coordinator role for you!\n\nOur client are the largest removals and storage company in the world and they're looking for a sales coordinator to join their team in Kings Langley!\n- Excellent bonus opportunity\n- Employee Assistance Programme - EAP (supports our employee click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?nbYVUHO1tX4WguDjlb%2bA%2fML6TPzXw5tLz",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Made Employment Ltd",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
-  },
-  {
-    "job_id": "1785800",
-    "title": "Sales Support",
-    "company": "Everywhen, part of the Ardonagh Group - Agency - Permanent",
-    "location": "Hertfordshire",
-    "region": "Hertfordshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "",
-    "posted_date": "2026-09-01",
-    "description": "Stevenage Full-time\n\nWe're growing - and we're looking for a friendly, motivated individual to join our Sales Support team at Everywhen. This is a great entry-level opportunity for someone who enjoys speaking with people, wants to build confidence in a professional environment, and is keen to start a long-term career.\n\nYou don't need previous sales or insurance experience - we'll provide full training and ongoing support.\n\nWhat you'll be doing\n- Speaking with prospective customers and identifying their needs\n- Generating and qualifying leads for our sales team\n- Building positive, professional relationships with customers\n- Supporting the team in achieving business and customer-focused goals\n- Keeping accurate records using our systems\n\nWhat we're looking for\n- A positive, approachable attitude and willingness to learn\n- Comfortable speaking to people over the phone\n- Good communication and basic computer skills\n- Reliable, proactive, and eager to develop professionally\n\n(Experience in sales, insurance, or regulated environments is helpful but not essential - we're happy to train the right person.)\n\nWhat's in it for you\n\nFrom day one, you'll be welcomed into our supportive Everywhen family, where development and wellbeing genuinely matter.\n\nBenefits include:\n- 26 days holiday plus bank holidays\n- Clear career development pathways across the Everywhen group\n- Full training and support, including opportunities to gain CII or ACII qualifications\n- Pension scheme\n- 24/7 physical and mental wellbeing support\n- 1 paid volunteering day each year\n- Recognition through our Spotlight Awards programme\n- Role-based incentive plan\n\nWhy join Everywhen?\n\nWe believe in growing talent, not just hiring experience. If you're enthusiastic, reliable, and ready to take your first step into a professional career, we want to hear from you.\n\nApply today and a member of our team will be in touch.\n\nINDX2\n\nEverywhen is an equal opportunities employer, with a growing and thriving diversity, equity and inclusion strategy; we are committed to a working environment that is free from discrimination, is inclusive, and empowers our people to bring their whole self to work and reach their full potential.\n\nIf your application is successful, we will conduct relevant employment checks prior to you commencing employment with us. These will include verifying your recent employment, address, credit history and a standard criminal record check.\n\nAs an Everywhen colleague, you will be expected to uphold our values, act professionally and respectfully towards others, and contribute to a workplace where everyone is treated with dignity and respect. We expect all colleagues to help maintain an environment free from bullying, harassment, victimisation and other inappropriate behaviours, supporting our commitment to an inclusive and high-performing culture.\n\nPlease note: We may close a vacancy prior to the publish end date if the required quality or number of applications has been received.\n\nNote to recruiters and employment agencies: We will not pay for unsolicited CVs from recruiters and employment agencies unless we have a signed agreement and have requested assistance, in writing, for a specific opening.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?6WDmO0cNttqPQ73%2fKDHKnPVk3zLmJzdUa",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Everywhen, part of the Ardonagh Group",
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
@@ -751,12 +797,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Scheduling and bookings",
-      "Systems administration"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "1734756",
@@ -831,12 +872,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Quotations",
-      "Delivery coordination"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "1778586",
@@ -886,11 +922,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Scheduling and bookings"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225542267",
@@ -1009,6 +1041,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9367-26-0790",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1028,6 +1063,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0106-26-0072",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1047,6 +1085,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0405-26-0006",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   }
 ]

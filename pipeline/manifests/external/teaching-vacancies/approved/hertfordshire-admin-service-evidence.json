@@ -1,23 +1,26 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-08-31T18:55:54+01:00",
+  "generated_at": "2026-09-05T13:12:14+01:00",
   "source": "Teaching Vacancies",
   "region": "Hertfordshire",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-08-31",
-  "review_fingerprint": "41921ad69450250e6ccda5b3bc6e34b648d70780f8556e457d9c65db1115a028",
-  "routing_manifest_sha256": "ffa8ac4eb0bf3616c1711502490fa7d8374f8e356872cc2c477737141b15a14c",
-  "review_csv_sha256": "87af35c6afb63372de1249542486ff3c77fb6e15f880333aa7437bd18ad864b0",
-  "summary_md_sha256": "d1ed62f21489973d9f0607d6165153d094375e640f0087a9dabd92a10a14cd62",
-  "approved_snapshot_sha256": "507d364f26fc6c72bc67beeef11d16c04c02b988592bf31636b6340059bb1526",
-  "approved_rows": 6,
+  "review_date": "2026-09-05",
+  "review_fingerprint": "6953e623035bfa792de830b06c4a5d202a31a32422caea91b6c2d3ffc1dcb80a",
+  "routing_manifest_sha256": "470681d9f37d503102980dcb1fe7f45c6d8d4a374fc3c1cab53df51803c03f75",
+  "review_csv_sha256": "39e7f74666792eb8d00258aa1ae6aeef1988a970beb1638c9fedacb38268d65c",
+  "summary_md_sha256": "6803056f8e54843ba524b91cf062f7e91a396234089dca339833f6290d983c20",
+  "approved_snapshot_sha256": "26916bfb8ca4df1ba624b68bb8e4034c82ce4e6488a33682293bba2d6f337045",
+  "approved_rows": 9,
   "approved_job_ids": [
-    "teaching-vacancies-examinations-officer-f64f071c-e84a-4dd7-afab-fb7ac4c7e56e",
-    "teaching-vacancies-office-administrator-bassingbourn-village-college",
-    "teaching-vacancies-receptionist-admin-assistant-and-student-support-coordinator-6462fad5-44b0-4b6f-afcb-acca1d5cb30c",
     "teaching-vacancies-governance-administrator-aspire-academies-trust",
     "teaching-vacancies-admin-assistant-learning-support-nicholas-breakspear-catholic-school",
-    "teaching-vacancies-administrator-the-acorn-centre"
+    "teaching-vacancies-inclusion-administration-assistant-samuel-ryder-academy-st-albans-hertfordshire",
+    "teaching-vacancies-pastoral-administrator-croxley-danes-school-rickmansworth-hertfordshire",
+    "teaching-vacancies-school-receptionist-part-time",
+    "teaching-vacancies-personal-assistant-to-the-headteacher-and-senior-leadership-team",
+    "teaching-vacancies-administrator-the-acorn-centre",
+    "teaching-vacancies-hr-advisor-eb9c5bf8-2603-48ba-bfc8-df41ec1204b1",
+    "teaching-vacancies-administrator-and-pupil-welfare-the-orchard-primary-school"
   ]
 }

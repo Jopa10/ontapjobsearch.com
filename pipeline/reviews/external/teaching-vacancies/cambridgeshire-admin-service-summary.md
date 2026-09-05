@@ -14,8 +14,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 21
-- Selected: 7
-- POSS awaiting decision: 2
+- Selected: 8
+- POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 12
 
@@ -34,6 +34,21 @@ factual_fingerprint: c72e0d5ba20078054661924b9df28fc40ce274c7b9ce12dc4621599f88a
 source: Teaching Vacancies
 source_job_id: administrative-assistant-lantern-community-primary-school-ely-cambridgeshire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-lantern-community-primary-school-ely-cambridgeshire
+---
+
+---
+action: select
+SELECTED | Cambridgeshire | Peterborough, East of England, PE6 7JX | £14,802.00 Annually (Actual) | Administrator
+employer: Arthur Mellows Village College
+closing_date: 2026-09-14T09:00:00+01:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: f1cb160ba772b2e2384e97a44e6559dcd7d92b357c813b1c62444e3355a792c4
+source: Teaching Vacancies
+source_job_id: administrator-9219e9ba-082d-4b75-91ee-2e1cd2dd8f75
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-9219e9ba-082d-4b75-91ee-2e1cd2dd8f75
 ---
 
 ---
@@ -127,21 +142,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-sw
 ---
 
 ## POSS — choose SELECT or EXCLUDE
-
----
-action: 
-POSS | Cambridgeshire | Peterborough, East of England, PE6 7JX | £14,802.00 Annually (Actual) | Administrator
-employer: Arthur Mellows Village College
-closing_date: 2026-09-14T09:00:00+01:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: f1cb160ba772b2e2384e97a44e6559dcd7d92b357c813b1c62444e3355a792c4
-source: Teaching Vacancies
-source_job_id: administrator-9219e9ba-082d-4b75-91ee-2e1cd2dd8f75
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-9219e9ba-082d-4b75-91ee-2e1cd2dd8f75
----
 
 ---
 action: 

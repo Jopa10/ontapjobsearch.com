@@ -14,12 +14,27 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 4
-- Selected: 2
-- POSS awaiting decision: 1
+- Selected: 3
+- POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 1
 
 ## SELECTED
+
+---
+action: select
+SELECTED | Sussex | Crawley, South East, RH10 6DG | Associate 3 Actual Salary - £21,643.44 to £23,380. | Office Manager
+employer: Southgate Primary
+closing_date: 2026-10-14T23:59:59+01:00
+reason: Manager title below £28,000 salary ceiling requires review
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 38aa431f36df9d158d1de52563f0f46b852796672497a2da9f460542843396fc
+source: Teaching Vacancies
+source_job_id: office-manager-southgate-primary-crawley-west-sussex
+source_url: https://teaching-vacancies.service.gov.uk/jobs/office-manager-southgate-primary-crawley-west-sussex
+---
 
 ---
 action: 
@@ -53,20 +68,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/year-9-administrative
 
 ## POSS — choose SELECT or EXCLUDE
 
----
-action: 
-POSS | Sussex | Crawley, South East, RH10 6DG | Associate 3 Actual Salary - £21,643.44 to £23,380. | Office Manager
-employer: Southgate Primary
-closing_date: 2026-10-14T23:59:59+01:00
-reason: Manager title below £28,000 salary ceiling requires review
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 38aa431f36df9d158d1de52563f0f46b852796672497a2da9f460542843396fc
-source: Teaching Vacancies
-source_job_id: office-manager-southgate-primary-crawley-west-sussex
-source_url: https://teaching-vacancies.service.gov.uk/jobs/office-manager-southgate-primary-crawley-west-sussex
----
+- None.
 
 ## EXCLUDED BY REVIEW
 

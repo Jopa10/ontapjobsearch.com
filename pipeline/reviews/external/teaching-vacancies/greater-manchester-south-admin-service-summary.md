@@ -14,12 +14,27 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 5
-- Selected: 2
-- POSS awaiting decision: 1
+- Selected: 3
+- POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 2
 
 ## SELECTED
+
+---
+action: select
+SELECTED | Greater Manchester - South | Stockport, North West, SK2 6BW | Scale 5, Points 12-17: £28,598 - £31,022* (full-time, full year salary) (*to be reduced on a pro-rata basis to the actual part-time hours / term-time weeks worked) | Attendance Assistant – Educational Outreach Officer
+employer: Stockport School
+closing_date: 2026-09-21T09:00:00+01:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: bfc51f1a427d0b348e5f88f7ad79db3c12a0603f85abd9acc85d40352910937e
+source: Teaching Vacancies
+source_job_id: attendance-assistant-educational-outreach-officer-stockport-school-stockport-cheshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-assistant-educational-outreach-officer-stockport-school-stockport-cheshire
+---
 
 ---
 action: 
@@ -53,20 +68,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/student-attendance-of
 
 ## POSS — choose SELECT or EXCLUDE
 
----
-action: 
-POSS | Greater Manchester - South | Stockport, North West, SK2 6BW | Scale 5, Points 12-17: £28,598 - £31,022* (full-time, full year salary) (*to be reduced on a pro-rata basis to the actual part-time hours / term-time weeks worked) | Attendance Assistant – Educational Outreach Officer
-employer: Stockport School
-closing_date: 2026-09-21T09:00:00+01:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: bfc51f1a427d0b348e5f88f7ad79db3c12a0603f85abd9acc85d40352910937e
-source: Teaching Vacancies
-source_job_id: attendance-assistant-educational-outreach-officer-stockport-school-stockport-cheshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-assistant-educational-outreach-officer-stockport-school-stockport-cheshire
----
+- None.
 
 ## EXCLUDED BY REVIEW
 

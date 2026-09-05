@@ -1,16 +1,18 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-08-31T18:55:57+01:00",
+  "generated_at": "2026-09-05T13:12:17+01:00",
   "source": "Teaching Vacancies",
   "region": "Suffolk",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-08-31",
-  "review_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
-  "routing_manifest_sha256": "ffa8ac4eb0bf3616c1711502490fa7d8374f8e356872cc2c477737141b15a14c",
-  "review_csv_sha256": "f27fefe13aff4cf8c94a5c4f03f27884d42fd4203e07073a964783c339d9b7db",
-  "summary_md_sha256": "1605a6207d03a84f0e69b367429ce6b70b0e463f0e89833955e537fa65de6a7d",
-  "approved_snapshot_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
-  "approved_rows": 0,
-  "approved_job_ids": []
+  "review_date": "2026-09-05",
+  "review_fingerprint": "0af86a25d3a777a5b1b9015ddf77fac0e1f4305ce5ec939b010bfd3f83a1bb02",
+  "routing_manifest_sha256": "470681d9f37d503102980dcb1fe7f45c6d8d4a374fc3c1cab53df51803c03f75",
+  "review_csv_sha256": "2272812865b0272ce45eee5882adf372dbf7a6cefc6070ad03c42da2df8609d4",
+  "summary_md_sha256": "c44116ca417341024d6f1243f4da697eb415c70ca8a706780de5379bde29fabf",
+  "approved_snapshot_sha256": "16f45eb2986e6dda5c6f059e613952e87ab607aaa4a5d3b82abe19795c9a31fd",
+  "approved_rows": 1,
+  "approved_job_ids": [
+    "teaching-vacancies-examinations-officer-farlingaye-high-school"
+  ]
 }

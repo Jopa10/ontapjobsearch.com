@@ -1,16 +1,19 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-08-31T18:55:56+01:00",
+  "generated_at": "2026-09-05T13:12:16+01:00",
   "source": "Teaching Vacancies",
   "region": "Shropshire",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-08-31",
-  "review_fingerprint": "e13cecff965b5cfdc62b2302f2cd4d41c138770a58273d52cc759a1e6e5ddfd5",
-  "routing_manifest_sha256": "ffa8ac4eb0bf3616c1711502490fa7d8374f8e356872cc2c477737141b15a14c",
-  "review_csv_sha256": "03f6be3b839c025d1178052fafe6b67a9d608651d3804a903a225b1e04cfe2e9",
-  "summary_md_sha256": "a5d600b9cd9b68a8423db67f467b3623d2b8dd2cd0bb0e00383e8e311b33f742",
-  "approved_snapshot_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
-  "approved_rows": 0,
-  "approved_job_ids": []
+  "review_date": "2026-09-05",
+  "review_fingerprint": "acc2acb59ba490c3bc385da1c02c252877dc2069a352f5cc011ce507dcb89ae6",
+  "routing_manifest_sha256": "470681d9f37d503102980dcb1fe7f45c6d8d4a374fc3c1cab53df51803c03f75",
+  "review_csv_sha256": "9bb0e06c04f172d95989676300c73c8c09111363965e9a65da1e24ad1949a193",
+  "summary_md_sha256": "be84d584474a659ea774965933088cec7177481559d9933a6a91514b9c2e9b7c",
+  "approved_snapshot_sha256": "580b9811735c0a6a19dc2c8f2700de27ae5cd7bbacee71a5396bb8e8b4a2e5cb",
+  "approved_rows": 2,
+  "approved_job_ids": [
+    "teaching-vacancies-admin-assistant-st-edward-s-cofe-primary-school",
+    "teaching-vacancies-administration-assistant-inclusion-and-people"
+  ]
 }

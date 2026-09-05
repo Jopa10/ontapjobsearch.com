@@ -1,5 +1,30 @@
 [
   {
+    "job_id": "teaching-vacancies-senior-administrator-higher-education",
+    "title": "Senior Administrator Higher Education",
+    "company": "The Sheffield College",
+    "location": "Sheffield",
+    "region": "Yorkshire - South",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "['full time']",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "£29,335.91 - £34,234.26",
+    "work_pattern": "",
+    "posted_date": "2026-09-03",
+    "closing_date": "2026-09-06",
+    "closing_datetime": "2026-09-06T23:59:00+01:00",
+    "summary": "Senior Administrator Higher Education with The Sheffield College in Sheffield. ['full time']; £29,335.91 - £34,234.26.",
+    "description": "The Sheffield College is recruiting for this vacancy in Sheffield.\n\nThe advertised position is Senior Administrator Higher Education.\n\nThe source lists the employment type as ['full time'].\n\nThe advertised salary or pay scale is £29,335.91 - £34,234.26.\n\nThe stated application deadline is 2026-09-06T23:59:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
+    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-higher-education?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
+    "source": "Teaching Vacancies",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "posted_date_basis": "source"
+  },
+  {
     "job_id": "teaching-vacancies-send-administrator-aston-academy-sheffield-south-yorkshire",
     "title": "SEND Administrator",
     "company": "Aston Academy",
@@ -22,9 +47,31 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Aston Academy",
-    "advertiser_type": "",
-    "salary_period": "",
+    "posted_date_basis": "source"
+  },
+  {
+    "job_id": "teaching-vacancies-permanent-admin-assistant",
+    "title": "Permanent Admin Assistant",
+    "company": "Wybourn Community Primary & Nursery School",
+    "location": "Sheffield",
+    "region": "Yorkshire - South",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "['part time']",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "£25,583 to £25,989",
+    "work_pattern": "",
+    "posted_date": "2026-09-01",
+    "closing_date": "2026-09-14",
+    "closing_datetime": "2026-09-14T09:00:00+01:00",
+    "summary": "Permanent Admin Assistant with Wybourn Community Primary & Nursery School in Sheffield. ['part time']; £25,583 to £25,989.",
+    "description": "Wybourn Community Primary & Nursery School is recruiting for this vacancy in Sheffield.\n\nThe advertised position is Permanent Admin Assistant.\n\nThe source lists the employment type as ['part time'].\n\nThe advertised salary or pay scale is £25,583 to £25,989.\n\nThe stated application deadline is 2026-09-14T09:00:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
+    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/permanent-admin-assistant?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
+    "source": "Teaching Vacancies",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
     "posted_date_basis": "source"
   },
   {
@@ -50,9 +97,31 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "The Rowan School",
-    "advertiser_type": "",
-    "salary_period": "",
+    "posted_date_basis": "source"
+  },
+  {
+    "job_id": "teaching-vacancies-receptionist-totley-primary-school",
+    "title": "Receptionist",
+    "company": "Totley Primary School",
+    "location": "Sheffield",
+    "region": "Yorkshire - South",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "['full time']",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "Grade 3 (£26,428 to £26,847)",
+    "work_pattern": "",
+    "posted_date": "2026-09-04",
+    "closing_date": "2026-09-20",
+    "closing_datetime": "2026-09-20T23:59:59+01:00",
+    "summary": "Receptionist with Totley Primary School in Sheffield. ['full time']; Grade 3 (£26,428 to £26,847).",
+    "description": "Totley Primary School is recruiting for this vacancy in Sheffield.\n\nThe advertised position is Receptionist.\n\nThe source lists the employment type as ['full time'].\n\nThe advertised salary or pay scale is Grade 3 (£26,428 to £26,847).\n\nThe stated application deadline is 2026-09-20T23:59:59+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
+    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/receptionist-totley-primary-school?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
+    "source": "Teaching Vacancies",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
     "posted_date_basis": "source"
   },
   {
@@ -78,11 +147,32 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Correspondence"
-    ]
+    "posted_date_basis": "ontap_first_published"
+  },
+  {
+    "job_id": "23643_225570863",
+    "title": "Service & Installation Co-Ordinator",
+    "company": "Elix Sourcing Solutions - Agency - Permanent",
+    "location": "Sheffield",
+    "region": "Yorkshire - South",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "30000",
+    "salary_max": "35000",
+    "salary_text": "£30000 - £35000 per year (admin)",
+    "posted_date": "2026-09-05",
+    "description": "Service & Installation Co-Ordinator\n30,000 - 35,000 + Bonus + Training + Benefits\nMonday - Friday, 07:30 - 16:30. 1 Saturday per month, 09:00 - 13:00\nSheffield\n\nDo you have service/installation coordination experience within a heavy industry, manufacturing or engineering environment? Are you looking for an exciting new role within a leading manufacturing group who are offering first class industry and company training, development & progression opportunities?\n\nDue to continued expansion, my client is looking for a service & installation coordinator to join the team, working out of their state of the art facility in Sheffield. The successful applicant will have an excellent training platform in place to enable them to develop within the business and become a long term, valued member of the team. You will work with the service manager and sales manager to create service plans and contracts for both existing and new customers UK wide. You'll be responsible for scheduling a team of service & installation engineers, taking incoming service & warranty enquiries, ensuring issues and maintenance is dealt with in a timely manner.\n\nYou will be working for a company who have been at the forefront of their industry for over 20 years, providing a range of engineering services and state of the art, special purpose equipment to customers across the UK. They are continuing to expand at a rapid rate and pride themselves on staff development and retention meaning industry experience is NOT required for this opening.\n\nFor more information please click apply and contact Patrick Walsh - Reference 5393 S - (phone number removed)\n\nThe Role:\nManaging a service team, across the midlands\nTaking in bound service and maintenance calls\nIndustry training provided\n\nThe Candidate:\nAny service or installation coordination experience\nKeen to develop your skills\nA commutable distance to Sheffield\n\nConsultant: Patrick Walsh\n\nelix Sourcing Solutions is a specialist recruiter for Engineering, IT and Science roles ranging from mid to senior level positions. Please be aware that we will only accept applications from candidates that have a valid work permit to work in the UK. By applying to this job you are confirming that you do not hold a criminal record and that you know of no legal reason why you would be ineligible for employment.\n\nService Coorinator Automotive Training Parts MOT Maintenance Admin Engineer Engineering Production Manufacturing Progression Field Service Sheffield Yorkshire Leeds Harrogate Administrator\n\nINDLP",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?vAYWCB8ag%2fjo0MwmQeXck3cH4gr2kSiVi",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Elix Sourcing Solutions",
+    "advertiser_type": "Agency",
+    "work_pattern": "Full Time",
+    "salary_period": "Annual",
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225478960",
@@ -107,11 +197,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Records administration"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225522912",
@@ -136,11 +222,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Records administration"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225545159",
@@ -190,6 +272,31 @@
     "advertiser_type": "Agency",
     "work_pattern": "Part Time",
     "salary_period": "Hourly",
+    "posted_date_basis": "ontap_first_published"
+  },
+  {
+    "job_id": "23643_225571785",
+    "title": "Data Administrator",
+    "company": "Hays Business Support - Agency - Temporary",
+    "location": "Sheffield",
+    "region": "Yorkshire - South",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Temporary",
+    "salary_min": "26300",
+    "salary_max": "26300",
+    "salary_text": "£26300 per year (£26,325)",
+    "posted_date": "2026-09-05",
+    "description": "Data Administrator required in Sheffield - Temporary ,Full-Time (35 Hours per Week) Office BasedStart Date: Mid-September 2026 Duration: Until January 2027\n\nA respected and well-established organisation in\n\ncentral Sheffield is seeking a Data Administrator to support a key business project through to January 2027.\n\nThis is an excellent opportunity for an experienced administrator with strong data management skills to join a busy and collaborative team. Working closely with an Asset Coordinator, you will play a pivotal role in maintaining the accuracy and integrity of asset-related information across several business systems.\n\nThe role is fully office-based due to the nature of the project and would suit someone who enjoys working with large volumes of data, has exceptional attention to detail and can confidently manage deadlines within a fast-paced environment.\n\nDuties and Responsibilities\n- Accurately input, update and maintain asset-related information across multiple systems.\n- Complete high-volume data entry and data validation activities.\n- Review and analyse asset reports and supporting documentation.\n- Utilise Excel to review, check and reconcile data records.\n- Identify discrepancies, missing information and data anomalies.\n- Support the Asset Coordinator with reporting and project administration tasks.\n- Liaise with colleagues across the wider business to obtain and verify information.\n- Respond to queries relating to missing or incomplete data.\n- Maintain accurate records and ensure information is updated in a timely manner.\n- Produce regular updates and reports regarding project progress and data quality.\n- Work within established processes and procedures to ensure compliance and accuracy.\n\nAbout YouTo be successful in this role you will have:\n- Previous experience in a Data Administrator, Data Entry, Office Administrator or similar administration position.\n- Excellent attention to detail and a methodical approach to work.\n- Strong data processing and information management skills.\n- Good working knowledge of Microsoft Excel.\n- Ability to identify errors, inconsistencies and missing information.\n- Strong organisational and prioritisation skills.\n- Excellent communication skills and confidence liaising with internal stakeholders.\n- The ability to work independently whilst supporting a wider team.\n\nWorking Hours\n- 8:00am - 4:00pm /8:30am - 4:30pm\n\n35 hours per week, Monday to Friday.What's on Offer?\n- Opportunity to work for a highly reputable Sheffield organisation.\n- Central Sheffield location with excellent transport links.\n- Supportive and collaborative working environment.\n- Valuable project-based experience.\n- Potential future opportunities within the organisation, subject to business requirements.\n\nPlease note: Applicants must be available to start in mid-September and possess recent, and ideally have experience in administration and data management/data processing roles.\n\nHays Specialist Recruitment Limited acts as an employment agency for permanent recruitment and employment business for the supply of temporary workers. By applying for this job you accept the T&C's, Privacy Policy and Disclaimers which can be found at (url removed)",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?Y5CHIaMSKAwVXDayYBNeb414RSE83Oc6v",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Hays Business Support",
+    "advertiser_type": "Agency",
+    "work_pattern": "Full Time",
+    "salary_period": "Annual",
     "posted_date_basis": "ontap_first_published"
   },
   {
@@ -315,11 +422,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Telephone handling"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225515295",
@@ -419,13 +522,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Part Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Scheduling and bookings",
-      "Data entry",
-      "Document preparation"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "1770785",
@@ -450,14 +547,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Part Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Records administration",
-      "Reporting",
-      "Quotations",
-      "Order processing"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "107804866",
@@ -501,6 +591,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1153-26-0008",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -520,6 +613,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1153-26-0000",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -539,6 +635,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9190-26-0517",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -558,6 +657,31 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2131-26-0007",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
+  },
+  {
+    "job_id": "nhs-5544481",
+    "source": "NHS Jobs",
+    "title": "Receptionist",
+    "company": "Hollygreen Practice",
+    "advertiser_name": "Hollygreen Practice",
+    "location": "Rotherham, S63 9EH, Thurnscoe, s63 0LT, BARNSLEY, S72 0EJ",
+    "region": "Yorkshire - South",
+    "salary": "£12.71",
+    "employment_type": "Permanent",
+    "posted_date": "2026-08-17T15:38:07.586618",
+    "closing_date": "2026-09-11",
+    "description": "As a receptionist you will be the first port of call for the practice and first impressions count. It is important that our patients get the the best patient experience when contacting or visiting the practice. The hours we are looking for are as below: Monday 8am - 6pm Tuesday 8am - 12 Noon Wednesday 8am - 4pm Thursday 1.45pm - 6pm Friday 1.15pm - 6pm Meeting and greeting patients on reception and helping with the enquiries. Booking of appointments and managing the appointment system. Answering the phones, assisting our patients with requests and sign posting them to the most appropriate service. Admin duties which require attention to detail and accuracy. Maintaining patient confidentiality and accurate record keeping. Admin tasks such as scanning on clinical documents, filing, word processing, handling test results, writing emails, taking messages for your team. Adhering to practice policies and procedures In brief this includes: * Answering the telephone and dealing with patients queries * Booking and arriving patients in for their appointments with healthcare professionals * Unlocking and preparing clinical rooms and ensuring they are stocked * Support the day to day running of the practice in general * Deal with people wishing to register with the practice * Scan on hospital/clinic letters for patients and attach to medical records to ensure records are kept up to date * Deal with medication requests and prescriptions",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1206-26-0002",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1206-26-0002",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   }
 ]

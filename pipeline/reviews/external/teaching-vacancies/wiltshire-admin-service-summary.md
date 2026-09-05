@@ -14,12 +14,27 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 8
-- Selected: 1
-- POSS awaiting decision: 1
+- Selected: 2
+- POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 6
 
 ## SELECTED
+
+---
+action: select
+SELECTED | Wiltshire | Salisbury, South West, SP2 8JZ | £8,751.00 - £9,031.00 Annually (Actual) Wiltshire Grade D - rises incrementally each year from point 4 to 6 (FTE for 25/26 is £25,185 - £25,989) | Admin Officer (SEND and Attendance focus)
+employer: Harnham Church of England Controlled Junior School
+closing_date: 2026-09-07T23:59:00+01:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 084781c92a4fe5501c80674a8821d1803cf66a16e3b70fc238a88900ae717fb5
+source: Teaching Vacancies
+source_job_id: admin-officer-send-and-attendance-focus-harnham-church-of-england-controlled-junior-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-officer-send-and-attendance-focus-harnham-church-of-england-controlled-junior-school
+---
 
 ---
 action: 
@@ -38,20 +53,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/it-system-administrat
 
 ## POSS — choose SELECT or EXCLUDE
 
----
-action: 
-POSS | Wiltshire | Salisbury, South West, SP2 8JZ | £8,751.00 - £9,031.00 Annually (Actual) Wiltshire Grade D - rises incrementally each year from point 4 to 6 (FTE for 25/26 is £25,185 - £25,989) | Admin Officer (SEND and Attendance focus)
-employer: Harnham Church of England Controlled Junior School
-closing_date: 2026-09-07T23:59:00+01:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 084781c92a4fe5501c80674a8821d1803cf66a16e3b70fc238a88900ae717fb5
-source: Teaching Vacancies
-source_job_id: admin-officer-send-and-attendance-focus-harnham-church-of-england-controlled-junior-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-officer-send-and-attendance-focus-harnham-church-of-england-controlled-junior-school
----
+- None.
 
 ## EXCLUDED BY REVIEW
 

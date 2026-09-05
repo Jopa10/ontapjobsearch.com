@@ -1,18 +1,20 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-08-31T18:55:54+01:00",
+  "generated_at": "2026-09-05T13:12:13+01:00",
   "source": "Teaching Vacancies",
   "region": "Greater Manchester - South",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-08-31",
-  "review_fingerprint": "bc6ef791662c462aed68bebf60af007c119d576665fb9cb8366e1d43c62cf515",
-  "routing_manifest_sha256": "ffa8ac4eb0bf3616c1711502490fa7d8374f8e356872cc2c477737141b15a14c",
-  "review_csv_sha256": "c879b3ce64d21dc23603d55b264e4456dce6d65904a28fde18ac88a7dd0102dc",
-  "summary_md_sha256": "2db84cd66a09b7f45c04d37af97ed28e3745702bb0fb2eaf02b79d9f9009914d",
-  "approved_snapshot_sha256": "e89e945c305b681b7af4325af402d2cec3f31979e39a66fd7a918bccf907e1f4",
-  "approved_rows": 1,
+  "review_date": "2026-09-05",
+  "review_fingerprint": "abe67c52152e4486f20d71291803ca61ad063e2aac931aa717269cb8c4bbfc82",
+  "routing_manifest_sha256": "470681d9f37d503102980dcb1fe7f45c6d8d4a374fc3c1cab53df51803c03f75",
+  "review_csv_sha256": "ff54a85a06c26926eefd81287f71f755c322e6dd4c0f92906fe83e01bebd5888",
+  "summary_md_sha256": "34775fec20e9058eb350fdd168f0da84f72869d520cab2dc730cd6f7e4af9f19",
+  "approved_snapshot_sha256": "4ac34e20ab84f36036131e38ea35eddd3324ea69aa8921e8af3da2e0dcf44603",
+  "approved_rows": 3,
   "approved_job_ids": [
-    "teaching-vacancies-office-administrator-elmridge-primary-school"
+    "teaching-vacancies-office-administrator-elmridge-primary-school",
+    "teaching-vacancies-student-attendance-officer-cheadle-hulme-high-school",
+    "teaching-vacancies-attendance-assistant-educational-outreach-officer-stockport-school-stockport-cheshire"
   ]
 }

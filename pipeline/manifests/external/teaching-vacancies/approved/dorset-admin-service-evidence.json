@@ -1,19 +1,21 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-08-31T18:55:53+01:00",
+  "generated_at": "2026-09-05T13:12:13+01:00",
   "source": "Teaching Vacancies",
   "region": "Dorset",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-08-31",
-  "review_fingerprint": "3b12ff8486a2db1634ae4c2db2b852d000e64c2f9d28c77466536204e3254623",
-  "routing_manifest_sha256": "ffa8ac4eb0bf3616c1711502490fa7d8374f8e356872cc2c477737141b15a14c",
-  "review_csv_sha256": "250f3343f5e70ba6ce036241351f6b7fe801f5d626a7daf6e980bc8944c2ee24",
-  "summary_md_sha256": "1f818a4156ad6aae251abfba17c387f0a6a14fe3c54bfe842c18551b111f489e",
-  "approved_snapshot_sha256": "23f0d9704dc0e209db0f7b1102e9ceed8c4093287c9c183a0930d38060b289f2",
-  "approved_rows": 2,
+  "review_date": "2026-09-05",
+  "review_fingerprint": "2fc7ba7dbbd6e377f71fedcab15ac6a6fb281763c1e5440e451e5ac94fbef71e",
+  "routing_manifest_sha256": "470681d9f37d503102980dcb1fe7f45c6d8d4a374fc3c1cab53df51803c03f75",
+  "review_csv_sha256": "2ed7f5d331eb85940594358829d4affc133a77d1ec722ce84b7375d7857b5d9c",
+  "summary_md_sha256": "95dd54b6f48e30374939167963ef39de82b29f86da349efd9d70898dc4a27300",
+  "approved_snapshot_sha256": "29ab9f4429b5d2da391d7a22c2c6a7842b4b4c4ddb3db2b1b7de90a9fde92344",
+  "approved_rows": 4,
   "approved_job_ids": [
-    "teaching-vacancies-school-administrator-shaftesbury-school",
-    "teaching-vacancies-careers-and-work-experience-administrator-the-bishop-of-winchester-academy"
+    "teaching-vacancies-careers-and-work-experience-administrator-the-bishop-of-winchester-academy",
+    "teaching-vacancies-pa-to-leadership-team-7142bdd9-1ed4-4fb4-8b84-985f95668569",
+    "teaching-vacancies-receptionist-part-time-the-bishop-of-winchester-academy",
+    "teaching-vacancies-administrator-sixth-form-study-centre-3a398641-1a04-436d-8d95-d6c3dd1d9ae1"
   ]
 }

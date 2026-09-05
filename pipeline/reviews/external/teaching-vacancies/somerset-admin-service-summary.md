@@ -14,8 +14,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 10
-- Selected: 3
-- POSS awaiting decision: 2
+- Selected: 4
+- POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 5
 
@@ -66,6 +66,21 @@ source_job_id: people-administrator-learning-and-development
 source_url: https://teaching-vacancies.service.gov.uk/jobs/people-administrator-learning-and-development
 ---
 
+---
+action: select
+SELECTED | Somerset | Taunton, South West, TA2 8FT | Actual Annual Salary | Senior Office Administrator
+employer: West Monkton Church of England School
+closing_date: 2026-09-10T12:00:59+01:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 01d53c9541cb9974d967e23c0adad87911f62973058bfe7fe5ea66772641ee38
+source: Teaching Vacancies
+source_job_id: senior-office-administrator-west-monkton-church-of-england-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-office-administrator-west-monkton-church-of-england-school
+---
+
 ## POSS — choose SELECT or EXCLUDE
 
 ---
@@ -81,21 +96,6 @@ factual_fingerprint: 75a8f2e94a4b9e6fcb6ece1f0cf10c4892803a75b04b96fe99f6daf1eb6
 source: Teaching Vacancies
 source_job_id: data-manager-kingsmead-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/data-manager-kingsmead-academy
----
-
----
-action: 
-POSS | Somerset | Taunton, South West, TA2 8FT | Actual Annual Salary | Senior Office Administrator
-employer: West Monkton Church of England School
-closing_date: 2026-09-10T12:00:59+01:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 01d53c9541cb9974d967e23c0adad87911f62973058bfe7fe5ea66772641ee38
-source: Teaching Vacancies
-source_job_id: senior-office-administrator-west-monkton-church-of-england-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-office-administrator-west-monkton-church-of-england-school
 ---
 
 ## EXCLUDED BY REVIEW

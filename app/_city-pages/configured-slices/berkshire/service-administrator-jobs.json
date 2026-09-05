@@ -1,33 +1,5 @@
 [
   {
-    "job_id": "teaching-vacancies-inclusion-administrator-maiden-erlegh-school-reading-berkshire",
-    "title": "Inclusion Administrator",
-    "company": "Maiden Erlegh School",
-    "location": "Reading",
-    "region": "Berkshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['part time']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "£18,666.00 Annually (Actual) Grade 4 SCP 7 working 31 hours per week plus 2 INSET days.",
-    "work_pattern": "",
-    "posted_date": "2026-06-16",
-    "closing_date": "2026-09-04",
-    "closing_datetime": "2026-09-04T23:59:00+01:00",
-    "summary": "Inclusion Administrator with Maiden Erlegh School in Reading. ['part time']; £18,666.00 Annually (Actual) Grade 4 SCP 7 working 31 hours per week plus 2 INSET days..",
-    "description": "Maiden Erlegh School is recruiting for this vacancy in Reading.\n\nThe advertised position is Inclusion Administrator.\n\nThe source lists the employment type as ['part time'].\n\nThe advertised salary or pay scale is £18,666.00 Annually (Actual) Grade 4 SCP 7 working 31 hours per week plus 2 INSET days..\n\nThe stated application deadline is 2026-09-04T23:59:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/inclusion-administrator-maiden-erlegh-school-reading-berkshire?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Maiden Erlegh School",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
-  },
-  {
     "job_id": "teaching-vacancies-send-administrator-officer-the-wren-school",
     "title": "SEND Administrator Officer",
     "company": "The WREN School",
@@ -50,37 +22,31 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "The WREN School",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
-    "job_id": "teaching-vacancies-admissions-officer-the-westgate-school",
-    "title": "Admissions Officer",
-    "company": "The Westgate School",
-    "location": "Slough",
+    "job_id": "teaching-vacancies-attendance-officer-and-administration-coordinator-kendrick-school",
+    "title": "Attendance Officer and Administration Coordinator - Kendrick School",
+    "company": "Kendrick School",
+    "location": "Reading",
     "region": "Berkshire",
     "country": "UK",
     "category": "Admin/Service – Office Support",
-    "employment_type": "['part time']",
+    "employment_type": "['full time']",
     "salary_min": "",
     "salary_max": "",
-    "salary_text": "£24,523.00 - £26,907.00 Annually (Actual) NJC Level 4 Points 8-12",
+    "salary_text": "£23,548 to £28,198 Per year",
     "work_pattern": "",
-    "posted_date": "2026-08-20",
-    "closing_date": "2026-09-21",
-    "closing_datetime": "2026-09-21T23:59:00+01:00",
-    "summary": "Admissions Officer with The Westgate School in Slough. ['part time']; £24,523.00 - £26,907.00 Annually (Actual) NJC Level 4 Points 8-12.",
-    "description": "The Westgate School is recruiting for this vacancy in Slough.\n\nThe advertised position is Admissions Officer.\n\nThe source lists the employment type as ['part time'].\n\nThe advertised salary or pay scale is £24,523.00 - £26,907.00 Annually (Actual) NJC Level 4 Points 8-12.\n\nThe stated application deadline is 2026-09-21T23:59:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/admissions-officer-the-westgate-school?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
+    "posted_date": "2026-09-03",
+    "closing_date": "2026-09-20",
+    "closing_datetime": "2026-09-20T23:59:00+01:00",
+    "summary": "Attendance Officer and Administration Coordinator - Kendrick School with Kendrick School in Reading. ['full time']; £23,548 to £28,198 Per year.",
+    "description": "Kendrick School is recruiting for this vacancy in Reading.\n\nThe advertised position is Attendance Officer and Administration Coordinator - Kendrick School.\n\nThe source lists the employment type as ['full time'].\n\nThe advertised salary or pay scale is £23,548 to £28,198 Per year.\n\nThe stated application deadline is 2026-09-20T23:59:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
+    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-and-administration-coordinator-kendrick-school?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "The Westgate School",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -106,9 +72,31 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "James Elliman Academy",
-    "advertiser_type": "",
-    "salary_period": "",
+    "posted_date_basis": "source"
+  },
+  {
+    "job_id": "teaching-vacancies-attendance-admissions-administrator-maternity-cover",
+    "title": "Attendance & Admissions Administrator (Maternity Cover)",
+    "company": "Montem Academy",
+    "location": "Slough",
+    "region": "Berkshire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "['full time']",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "£22,858.00 - £23,559.00 Annually (Actual)",
+    "work_pattern": "",
+    "posted_date": "2026-09-03",
+    "closing_date": "2026-10-30",
+    "closing_datetime": "2026-10-30T12:00:00+00:00",
+    "summary": "Attendance & Admissions Administrator (Maternity Cover) with Montem Academy in Slough. ['full time']; £22,858.00 - £23,559.00 Annually (Actual).",
+    "description": "Montem Academy is recruiting for this vacancy in Slough.\n\nThe advertised position is Attendance & Admissions Administrator (Maternity Cover).\n\nThe source lists the employment type as ['full time'].\n\nThe advertised salary or pay scale is £22,858.00 - £23,559.00 Annually (Actual).\n\nThe stated application deadline is 2026-10-30T12:00:00+00:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
+    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/attendance-admissions-administrator-maternity-cover?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
+    "source": "Teaching Vacancies",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
     "posted_date_basis": "source"
   },
   {
@@ -184,11 +172,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Document preparation"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "1756839",
@@ -263,12 +247,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Quotations",
-      "Order processing"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "107840229",
@@ -368,11 +347,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Shared inboxes"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "1786866",
@@ -472,12 +447,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Part Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Data entry",
-      "Reporting"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225544182",
@@ -505,81 +475,6 @@
     "posted_date_basis": "ontap_first_published"
   },
   {
-    "job_id": "17537_0000032984",
-    "title": "Customer Service Advisor - German Speaking (fixed-term)",
-    "company": "The LEGO Group - Company - Permanent",
-    "location": "Berkshire",
-    "region": "Berkshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "",
-    "posted_date": "2026-09-01",
-    "description": "Job Description\n\nJust imagine bringing joy to millions of LEGO fans around the world. Now make it real.\n\nAs a member of our seasonal Customer Service Advisor team, you will be at the heart of the action, helping us support our fans during our busiest season.\n\nThat's right, helping LEGO fans is our superpower, and we love it! Every day, our award-winning Consumer & Shopper Engagement (CSE) team springs into action, working to support our consumers and fulfil our Play Promise.\n\nAre you ready to inspire the builders of tomorrow?\n\nIf you're eager about embarking on a journey filled with creativity and problem-solving, and excel at helping others and building connections, we encourage you to apply!\n\nAbout the Role:\n\nThis is a fixed term contract until 31st January 2027, with several possible start dates between June and September.\n\nAs a Customer Service Advisor, you'll be responding to LEGO fans from all corners of the world during our peak season.\n\nWe offer a competitive starting salary plus incredible benefits including a performance based/discretionary bonus of up to 10%. Full in-person training will be given with a 3-week induction followed by 2 weeks on-the job support.\n\nWe also offer 'Best of Both' - our hybrid-work approach that gives our Customer Service Advisors the flexibility to work from home up to three days per week and from the office for a minimum of two each week, after training.\n\nWe resolve millions of queries each year, covering everything from building tips to troubleshooting and tracking down those elusive rare parts. Together, we're crafting new ways to connect with fans all around the globe to make the LEGO experience unforgettable!\n\nWhy you're the perfect match\n\nIf you can keep cool when LEGO mini figures are losing their heads, then we want you on the team! You'll bring energy, compassion, and fluency in English and German .\n\nWhat you'll be doing\n- Respond to consumers in both English and German - spoken and written.\n- Engage with consumers via phone and email. Handling a range of topics, including order and returns queries, digital and app experiences, LEGO electronics, brand information, product quality and feedback queries.\n- Build strong and positive relationships with consumers in a fun and engaging manner.\n- Assess and solve brick-based problems using our various tools and programs, requiring solid IT skills to support consumer requests.\n- Adapt to a variety of shifts and including some weekends to ensure we provide an exceptional service.\n\nReady to Build Something Amazing?\n\nIf you're passionate about creating magical moments for fans everywhere, don't wait! Apply now!\n\nApplications are reviewed on an ongoing basis. However, please note we do amend or withdraw our jobs and reserve the right to do so at any time, including prior to any advertised closing date. So, if you're interested in this role we encourage you to apply as soon as possible.\n\nWhat's in it for you?\n\nHere is what you can expect:\n\nFamily Care Leave - We offer enhanced paid leave options for those important times.\n\nInsurances - All colleagues are covered by our life and disability insurance which provides protection and peace of mind.\n\nWellbeing - We want our people to feel well and thrive. We offer resources and benefits to nurture physical and mental wellbeing along with opportunities to build community and inspire creativity.\n\nColleague Discount - We know you'll love to build, so from day 1 you will qualify for our generous colleague discount.\n\nBonus - We do our best work to succeed together. When goals are reached and if eligible, you'll be rewarded through our bonus scheme.\n\nWorkplace - When you join the team you'll be assigned a primary workplace location i.e. one of our Offices, stores or factories. Our hybrid work policy means an average of 3 days per week in the office. The hiring team will discuss the policy and role eligibility with you during the recruitment process.\n\nChildren are our role models. Their curiosity, creativity and imagination inspire everything we do. We strive to create a diverse, dynamic and inclusive culture of play at the LEGO Group, where everyone feels safe, valued and they belong.\n\nThe LEGO Group is highly committed to equal employment opportunity and equal pay and seeks to encourage applicants from all backgrounds (eg. sex, gender identity or expression, race/ethnicity, national origin, sexual orientation, disability, age and religion) to apply for roles in our team.\n\nThe LEGO Group is fully committed to Children's Rights and Child Wellbeing across the globe. Candidates offered positions with high engagement with children are required to take part in Child Safeguarding Background Screening, as a condition of the offer.\n\nThank you for sharing our global commitment to Children's Rights.\n\nJust imagine building your dream career.\n\nThen make it real.\n\nJoin the LEGO team today.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?UzhMt9n%2bTsRkwN7QOWgx6AKBOXdmNPzAm",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "The LEGO Group",
-    "advertiser_type": "Company",
-    "work_pattern": "Not Specified",
-    "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
-  },
-  {
-    "job_id": "21618_17537_0000032984",
-    "title": "Customer Service Advisor - German Speaking (fixed-term)",
-    "company": "The LEGO Group - Agency - Permanent",
-    "location": "Berkshire",
-    "region": "Berkshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "",
-    "posted_date": "2026-09-01",
-    "description": "Job Description\n\nJust imagine bringing joy to millions of LEGO fans around the world. Now make it real.\n\nAs a member of our seasonal Customer Service Advisor team, you will be at the heart of the action, helping us support our fans during our busiest season.\n\nThat's right, helping LEGO fans is our superpower, and we love it! Every day, our award-winning Consumer & Shopper Engagement (CSE) team springs into action, working to support our consumers and fulfil our Play Promise.\n\nAre you ready to inspire the builders of tomorrow?\n\nIf you're eager about embarking on a journey filled with creativity and problem-solving, and excel at helping others and building connections, we encourage you to apply!\n\nAbout the Role:\n\nThis is a fixed term contract until 31st January 2027, with several possible start dates between June and September.\n\nAs a Customer Service Advisor, you'll be responding to LEGO fans from all corners of the world during our peak season.\n\nWe offer a competitive starting salary plus incredible benefits including a performance based/discretionary bonus of up to 10%. Full in-person training will be given with a 3-week induction followed by 2 weeks on-the job support.\n\nWe also offer 'Best of Both' - our hybrid-work approach that gives our Customer Service Advisors the flexibility to work from home up to three days per week and from the office for a minimum of two each week, after training.\n\nWe resolve millions of queries each year, covering everything from building tips to troubleshooting and tracking down those elusive rare parts. Together, we're crafting new ways to connect with fans all around the globe to make the LEGO experience unforgettable!\n\nWhy you're the perfect match\n\nIf you can keep cool when LEGO mini figures are losing their heads, then we want you on the team! You'll bring energy, compassion, and fluency in English and German .\n\nWhat you'll be doing\n- Respond to consumers in both English and German - spoken and written.\n- Engage with consumers via phone and email. Handling a range of topics, including order and returns queries, digital and app experiences, LEGO electronics, brand information, product quality and feedback queries.\n- Build strong and positive relationships with consumers in a fun and engaging manner.\n- Assess and solve brick-based problems using our various tools and programs, requiring solid IT skills to support consumer requests.\n- Adapt to a variety of shifts and including some weekends to ensure we provide an exceptional service.\n\nReady to Build Something Amazing?\n\nIf you're passionate about creating magical moments for fans everywhere, don't wait! Apply now!\n\nApplications are reviewed on an ongoing basis. However, please note we do amend or withdraw our jobs and reserve the right to do so at any time, including prior to any advertised closing date. So, if you're interested in this role we encourage you to apply as soon as possible.\n\nWhat's in it for you?\n\nHere is what you can expect:\n\nFamily Care Leave - We offer enhanced paid leave options for those important times.\n\nInsurances - All colleagues are covered by our life and disability insurance which provides protection and peace of mind.\n\nWellbeing - We want our people to feel well and thrive. We offer resources and benefits to nurture physical and mental wellbeing along with opportunities to build community and inspire creativity.\n\nColleague Discount - We know you'll love to build, so from day 1 you will qualify for our generous colleague discount.\n\nBonus - We do our best work to succeed together. When goals are reached and if eligible, you'll be rewarded through our bonus scheme.\n\nWorkplace - When you join the team you'll be assigned a primary workplace location i.e. one of our Offices, stores or factories. Our hybrid work policy means an average of 3 days per week in the office. The hiring team will discuss the policy and role eligibility with you during the recruitment process.\n\nChildren are our role models. Their curiosity, creativity and imagination inspire everything we do. We strive to create a diverse, dynamic and inclusive culture of play at the LEGO Group, where everyone feels safe, valued and they belong.\n\nThe LEGO Group is highly committed to equal employment opportunity and equal pay and seeks to encourage applicants from all backgrounds (eg. sex, gender identity or expression, race/ethnicity, national origin, sexual orientation, disability, age and religion) to apply for roles in our team.\n\nThe LEGO Group is fully committed to Children's Rights and Child Wellbeing across the globe. Candidates offered positions with high engagement with children are required to take part in Child Safeguarding Background Screening, as a condition of the offer.\n\nThank you for sharing our global commitment to Children's Rights.\n\nJust imagine building your dream career.\n\nThen make it real.\n\nJoin the LEGO team today.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?iZmgAWfngDwkIlMc4ml3F5J4%2bhQ%2f3zqCf",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "The LEGO Group",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
-  },
-  {
-    "job_id": "107787076",
-    "title": "Customer Service Advisor - German Speaking (fixed-term)",
-    "company": "The Lego Group - Agency - Permanent",
-    "location": "Berkshire",
-    "region": "Berkshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "",
-    "posted_date": "2026-09-02",
-    "description": "Job Description\n\nJust imagine bringing joy to millions of LEGO fans around the world. Now make it real.\n\nAs a member of our seasonal Customer Service Advisor team, you will be at the heart of the action, helping us support our fans during our busiest season.\n\nThats right, helping LEGO fans is our superpower, and we love it! Every day, our award-winning Consumer & Shopper Engagement (CSE) team springs in click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?1tcg6Aj2zazga2m3r%2fBeMiMbFbLIjO3zb",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "The Lego Group",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
-  },
-  {
     "job_id": "23643_225556755",
     "title": "Receptionist",
     "company": "Hamberley Care Management Limited - Company - Permanent",
@@ -602,11 +497,32 @@
     "advertiser_type": "Company",
     "work_pattern": "Part Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Telephone handling"
-    ]
+    "posted_date_basis": "ontap_first_published"
+  },
+  {
+    "job_id": "23643_223908809",
+    "title": "Administrator - Property Services",
+    "company": "Graham Rose - Agency - Temporary",
+    "location": "Berkshire",
+    "region": "Berkshire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Temporary",
+    "salary_min": "13",
+    "salary_max": "13",
+    "salary_text": "£13 per hour",
+    "posted_date": "2026-09-05",
+    "description": "Position: Administrator - Property Services\n\nLocation: Slough\n\nThe role:\n\nOur client, a well established social housing contractor, is looking for an experienced administrator to join their property services team on a temporary basis.\n\nDuties include\n- Overseeing the compliance across the properties that they take care of - relating to damp and mould treatment works.\n- Arranging appointments/access\n- Responding to resident queries\n- Communicating with residents to update on work progress and complete customer satisfaction surveys\n- Data entry and ensuring accurate data is held within the system\n\nYou will be working with data and ensuring all information is reflected and maintained correctly in the records and systems as well as provide support to the team on key administrative projects as required.\n\nThe ideal candidate\n- Excellent time management skills with ability to prioritise own workload, deal with conflicting demands and meet tight deadlines.\n- Ability to show tact and discretion when dealing with sensitive and confidential information.\n- Excellent communication skills, telephone skills and interpersonal skills.\n- Ability to use IT - MS Packages and database systems\n- Excellent planning and organisational skills.\n- Experience working in the construction / property services industry is desirable, particularly within administration, scheduling or compliance\n\nPlease apply now, or contact Nicola Dickson for more information",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?mDcEDJmYTbwzUl5ZMhhrP5X7ZZ1X4Lz5t",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Graham Rose",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Hourly",
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "23643_225472204",
@@ -725,6 +641,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9371-26-0705",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -744,6 +663,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9371-26-0692",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -763,6 +685,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4422-26-0001",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -782,6 +707,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0177-26-9600",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -801,6 +729,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3204-26-0003",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   }
 ]

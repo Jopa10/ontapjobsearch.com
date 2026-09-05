@@ -1,0 +1,19 @@
+{
+  "contract_version": "teaching-vacancies-regional-approved-v1",
+  "generated_at": "2026-09-05T13:12:11+01:00",
+  "source": "Teaching Vacancies",
+  "region": "Bedfordshire",
+  "category": "admin_service",
+  "slice_status": "LIVE",
+  "review_date": "2026-09-05",
+  "review_fingerprint": "d38cf895e503037f447ca61641f533d0f314d84e58b8436e6e402009c6111b35",
+  "routing_manifest_sha256": "470681d9f37d503102980dcb1fe7f45c6d8d4a374fc3c1cab53df51803c03f75",
+  "review_csv_sha256": "44b0248833faa35f981ae65214312ac11d7e1d4dda33cb44e8150e9be22c14ef",
+  "summary_md_sha256": "058fc7d14fa862fdf106f006ca0eb36caab4e4dae6582c40ab4cc83fa6235292",
+  "approved_snapshot_sha256": "b17f92c35b4e005733c2700d7e1b1d67acf692ffa376b972c0b0b826a38cc499",
+  "approved_rows": 2,
+  "approved_job_ids": [
+    "teaching-vacancies-administrative-assistant-39c3ce62-ad82-43cf-a920-db593d957c9a",
+    "teaching-vacancies-safeguarding-attendance-welfare-administrator"
+  ]
+}
