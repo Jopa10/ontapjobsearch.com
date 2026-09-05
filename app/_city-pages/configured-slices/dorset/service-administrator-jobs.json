@@ -441,9 +441,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9152-26-0950",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -463,9 +460,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9152-26-0936",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -485,9 +479,25 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2682-26-0011",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
+    "posted_date_basis": "source"
+  },
+  {
+    "job_id": "nhs-5575459",
+    "source": "NHS Jobs",
+    "title": "Receptionist",
+    "company": "Dorset HealthCare University NHS Foundation Trust",
+    "advertiser_name": "Dorset HealthCare University NHS Foundation Trust",
+    "location": "Poole, BH15 2NT",
+    "region": "Dorset",
+    "salary": "£10108.00",
+    "employment_type": "Permanent",
+    "posted_date": "2026-09-02T15:50:47.102405",
+    "closing_date": "2026-09-16",
+    "description": "We are looking to appoint a reliable and motivated receptionist to join our dedicated administration team to support the services operating from Poole Community Health Clinic - Poole CAMHS, Community Acquired Brain Injury Service, Dorset Pain Management Service and PSALT. The successful applicant will work as part of a small team, supporting clinical staff and will act as the first point of contact between patients, relatives and clinical staff, whilst maintaining confidentiality to ensure the department always runs efficiently. This is a part time post of 15 hours per week . Applicants must have excellent organisational and communication skills, be able to work under pressure yet remain calm, polite and professional at all times. You will have the ability to deal with varied administrative duties, IT systems and changing priorities. Excellent customer service skills are essential. You will be pleasant and approachable and able to manage your workload effectively. You will provide information to patients, staff, carers & relatives relating to appointments, patient care, and meetings, verbally by telephone, face to face or written in a tactful and courteous manner often requiring non-clinical advice involving careful analysis of delicate situations regarding patient care, requiring knowledge of patient confidentiality. You will liaise with members of the public in their dealings with the teams/services, some of whom may prove at times to be distressed, challenging, or aggressive in manner. You will liaise with other members of the teams to organise and deliver a safe and efficient office system to support sound patient care, consistent with good clinical governance guidelines, whilst helping the teams to achieve targets and complete timely returns of information. Applications from candidates that require current Skilled worker sponsorship to work in the UK are unfortunately ineligible to apply for this position. For the main duties and responsibilities for this role please read the attached job description and person specification. When completing your application please ensure your supporting statement reflects the criteria set out in these documents by showing how your experience and skills apply to this post. We understand that using AI can be a useful and supportive tool when completing your application. However, we have also seen an increase in the over-reliance of AI tools which is negatively impacting applications as they remove candidates individuality, and it becomes much harder to get a sense of who you are and your authentic experience. If you do use AI, it should be used to enhance your application and not to create your supporting statement in its entirety. If we suspect you have used AI to create your supporting statement and this does not match your experience, we may withdraw your application. As part of our vision to have a skilled, diverse and caring workforce, Dorset HealthCare offers support for people getting into work. We offer an employability service to support individuals with application writing, interview skills and other employment support. If you would like or know of anyone who would value this support, please do contactdhc.wideningparticipation@nhs.net",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9152-26-0932",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9152-26-0932",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "A",
     "posted_date_basis": "source"
   }
 ]

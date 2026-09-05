@@ -313,11 +313,7 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5035-26-0063",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5035-26-0063",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "A"
   },
   {
     "job_id": "nhs-5558829",
@@ -335,10 +331,24 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9287-26-1327",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9287-26-1327",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "A"
+  },
+  {
+    "job_id": "nhs-5559589",
+    "source": "NHS Jobs",
+    "title": "Receptionist/Administration Assistant",
+    "company": "Mersey Care NHS Foundation Trust",
+    "advertiser_name": "Mersey Care NHS Foundation Trust",
+    "location": "Liverpool, L34 1PJ",
+    "region": "Merseyside - Liverpool",
+    "salary": "£25272.00",
+    "employment_type": "Permanent",
+    "posted_date": "2026-08-25T10:03:26.763827552",
+    "closing_date": "2026-09-07",
+    "description": "We have vacancies for motivated and enthusiastic staff members to work for the Community Reception team. The post holder will be customer focused and provide a comprehensive service. Communication and organisational skills are essential. The post holder must have excellent inter personal skills, and be able to organise and prioritise their work schedule. They must be able to work on their own initiative, with excellent telephone manner and respectful confidentiality. Previous experience is desirable . Staff member must be willing to work across all sites as required. Post holder will be required to cover sickness and absence. The service is open Monday to Friday 7am to 7pm depending on service needs and shifts are allocated according to ensuring service needs are met. The post holder will provide reception and administrative duties to ensure the smooth day to day running of the work environment. Work with colleagues in establishing and maintaining administrative procedures to promote patient satisfaction, respecting the confidential nature of information relating to the Trust, its staff and patients. To participate in training and development programmes both internal and externally. Ensure the delivery of the quality strategy within the designated area incorporating establishment of systems and processes. Receive and direct patients and visitors on arrival at the centre, providing reception services for patients, staff, public, internal and external customers and organisations ensuring sensitivity when dealing with distressing situations. Answering telephone calls using the switchboard system receive and process incoming and outgoing telephones calls, taking messages and responding appropriately to maintain effective communication channels. Sorting and distribution of mail to all departments. Assisting with the collection of data and statistics to produce standardised computer generated reports and/or statistical information for managers as and when required. Maintain filing systems and other records as required ensuring they are up to date and accurate and implement changes to systems and procedures as directed. To participate in meetings as required. To ensure a professional approach to work maintaining confidentiality throughout. Generally monitor security within the building. Ensuring reception and waiting areas are kept clean, tidy and safe. Report any incidents or accidents in accordance with Trust Policy. Staff may be required to work from other bases within the organisation.",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9350-26-0798",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9350-26-0798",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "A"
   }
 ]

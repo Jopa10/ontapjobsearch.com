@@ -816,9 +816,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3663-26-0007",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -838,9 +835,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1924-26-0030",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -860,9 +854,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/L0034-26-3590",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -882,9 +873,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1771-26-0000",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -904,9 +892,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2634-26-1013",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -926,9 +911,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3718-26-0003",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -948,9 +930,25 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9820-26-0572",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
+    "posted_date_basis": "source"
+  },
+  {
+    "job_id": "nhs-5547612",
+    "source": "NHS Jobs",
+    "title": "Mobile Receptionist/Care Navigator",
+    "company": "Ridgacre Medical Centres",
+    "advertiser_name": "Ridgacre Medical Centres",
+    "location": "Birmingham, B32 2TJ, BIRMINGHAM, B7 5DT",
+    "region": "West Midlands - Birmingham & Solihull",
+    "salary": "Negotiable",
+    "employment_type": "Permanent",
+    "posted_date": "2026-08-19T08:35:04.294015631",
+    "closing_date": "2026-09-15",
+    "description": "We are looking for a friendly, professional and compassionate Medical Receptionist to join our team. Working with us offers the opportunity to be part of a supportive team where you can make a real difference to patients experiences. We value teamwork, excellent communication, professionalism and a caring approach, while providing opportunities to develop your skills and grow within the healthcare environment. Welcoming and assisting patients in a professional and friendly manner. Answering telephone calls, emails and patient enquiries. Booking, cancelling and managing patient appointments. Registering patients and maintaining accurate and confidential records. Processing prescriptions and other administrative requests. Liaising with GPs, nurses, hospitals and other healthcare professionals. Managing patient queries and directing them to the appropriate service. Supporting patients to access the most appropriate healthcare service for their needs. Assessing patient enquiries and signposting to GPs, nurses, pharmacies, community services and other providers. Coordinating appointments, referrals and follow-up care. Supporting patients with access to community and social care services. Providing clear information and guidance while maintaining patient confidentiality. Working closely with the wider healthcare team to ensure patients receive appropriate and timely support. Main duties of the job",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5266-26-0003",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5266-26-0003",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "B",
     "posted_date_basis": "source"
   }
 ]

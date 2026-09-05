@@ -841,9 +841,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9437-26-0770",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -863,9 +860,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5615-26-0004",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -885,9 +879,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9349-26-2527",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -907,9 +898,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5035-26-0025",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -929,9 +917,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2420-26-0005",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -951,9 +936,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4025-26-0012",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -973,9 +955,25 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0335-26-0000",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
+    "posted_date_basis": "source"
+  },
+  {
+    "job_id": "nhs-5569272",
+    "source": "NHS Jobs",
+    "title": "Senior Receptionist",
+    "company": "Uplands Medical Practice",
+    "advertiser_name": "Uplands Medical Practice",
+    "location": "Whitefield, Manchester, M45 8GH",
+    "region": "Greater Manchester - Manchester & Salford",
+    "salary": "Negotiable",
+    "employment_type": "Permanent",
+    "posted_date": "2026-08-28T16:22:44.160145346",
+    "closing_date": "2026-10-30",
+    "description": "We are seeking an experienced and highly motivated Senior Receptionist to join our busy GP practice. This is an excellent opportunity for an organised and patient-focused individual to play a key role in supporting the smooth running of our reception team and delivering exceptional customer service to our patients. Acting as a senior member of the reception team and providing day-to-day support to reception staff. Managing and resolving patient queries, concerns, and complaints in a professional and empathetic manner. Providing excellent customer service both face-to-face and over the telephone. Scheduling appointments and assisting patients with access to practice services. Supporting the management of staff rotas, including adding schedules and maintaining rotas within EMIS Web. Assisting with practice administration and ensuring reception processes are followed efficiently. Working collaboratively with clinical and administrative teams to support patient care. Maintaining patient confidentiality at all times in line with NHS and GDPR requirements The Senior Receptionist plays a key role in supporting the day-to-day management of the reception function, ensuring that patients receive a professional, efficient, and welcoming service at all times. As a senior member of the administrative team, you will provide guidance and support to reception staff, assist with the smooth running of practice operations, and help maintain high standards of patient care. The role involves managing patient enquiries and resolving issues effectively, coordinating appointments, maintaining staff rotas and schedules within EMIS Web, and supporting the delivery of administrative processes across the practice. You will work closely with clinicians, management, and administrative colleagues to ensure services are delivered efficiently and in line with practice policies, NHS requirements, and patient needs. The successful candidate will possess excellent communication, organisational, and problem-solving skills, with experience in a GP practice environment and a commitment to providing outstanding patient service. Knowledge of EMIS Web and an understanding of QOF processes are highly desirable. All duties must be carried out with strict adherence to patient confidentiality, GDPR requirements, and NHS standards.",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1612-26-0001",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1612-26-0001",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "B",
     "posted_date_basis": "source"
   }
 ]
