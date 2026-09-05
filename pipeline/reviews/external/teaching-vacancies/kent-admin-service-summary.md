@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Kent
 
-review_date: 2026-09-04
-review_fingerprint: 03c6be346277019f7641b6f8eb22276950f6670f08f8e0eb89eae6fd7e172f99
-routing_manifest_sha256: e64214c9afd89b7217da910a14d3eadaab33a7e91faaf564fff5dbf2a9b00415
+review_date: 2026-09-05
+review_fingerprint: 5faee25febded48dd64121b70e94d49d380b1bc391127661f1911875c84463e4
+routing_manifest_sha256: 470681d9f37d503102980dcb1fe7f45c6d8d4a374fc3c1cab53df51803c03f75
 ontap_region: Kent
 slice_category: admin_service
 slice_status: LIVE
@@ -23,21 +23,6 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ---
 action: 
-SELECTED | Kent | Gravesend, South East, DA11 7JB | £26,822.00 - £27,765.00 Annually (FTE) Kent Scheme B or C dependant on experience | Admissions & Attendance Officer
-employer: Shears Green Junior School
-closing_date: 2026-09-04T23:59:00+01:00
-reason: Clear admin/service title: attendance officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: d97a5175bf70b63e5bb47b63c82d12a8c9dde7cfc2e4baec46a5bc2fcb8b1a09
-source: Teaching Vacancies
-source_job_id: admissions-attendance-officer-shears-green-junior-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/admissions-attendance-officer-shears-green-junior-school
----
-
----
-action: 
 SELECTED | Kent | Gillingham, ME7 5HT | £28,238.00 - £31,758.00 Annually (FTE) £24,694 - £27,772 actual salary for 37 hours per week. | Admissions Officer
 employer: The University Of Kent Academies Trust
 closing_date: 2026-09-11T23:59:00+01:00
@@ -49,6 +34,21 @@ factual_fingerprint: c9ac40550c447b839671a0158da18f98391ee658e8a9430e2c4b5463cb9
 source: Teaching Vacancies
 source_job_id: admissions-officer-the-university-of-kent-academies-trust
 source_url: https://teaching-vacancies.service.gov.uk/jobs/admissions-officer-the-university-of-kent-academies-trust
+---
+
+---
+action: 
+SELECTED | Kent | Chatham, South East, ME4 4FQ | £24,553.00 - £26,171.00 Annually (Actual) NJC D2 point 7-11 | Examinations & Admissions Officer
+employer: Waterfront UTC
+closing_date: 2026-09-18T23:59:00+01:00
+reason: Clear admin/service title: admissions officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 4ed15137735e468d97cdc825d4329239067c38ec5f4953dc7b5623c88a50d0ce
+source: Teaching Vacancies
+source_job_id: examinations-admissions-officer
+source_url: https://teaching-vacancies.service.gov.uk/jobs/examinations-admissions-officer
 ---
 
 ---

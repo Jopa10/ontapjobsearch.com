@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Greater Manchester - Wigan & Bolton
 
-review_date: 2026-09-04
-review_fingerprint: 4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945
-routing_manifest_sha256: e64214c9afd89b7217da910a14d3eadaab33a7e91faaf564fff5dbf2a9b00415
+review_date: 2026-09-05
+review_fingerprint: 2e4b3e4eb81cc139ea94307dee7abd543720d604b620473aacceaf4ccb7f9c06
+routing_manifest_sha256: 470681d9f37d503102980dcb1fe7f45c6d8d4a374fc3c1cab53df51803c03f75
 ontap_region: Greater Manchester - Wigan & Bolton
 slice_category: admin_service
 slice_status: LIVE
@@ -13,15 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 2
-- Selected: 0
+- Records: 3
+- Selected: 1
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 2
 
 ## SELECTED
 
-- None.
+---
+action: 
+SELECTED | Greater Manchester - Wigan & Bolton | Bolton, North West, BL4 0DH | £24,458.00 - £25,239.00 Annually (Actual) Grade C scp 4-6 (FTE £26,016 to £26,847 | School Receptionist
+employer: Harper Green School
+closing_date: 2026-09-21T09:00:00+01:00
+reason: Clear admin/service title: receptionist
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 06bbf238556720a6240938f0dc39b36e8d283431293a6108dc4b0dfa891ac8bc
+source: Teaching Vacancies
+source_job_id: school-receptionist-harper-green-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/school-receptionist-harper-green-school
+---
 
 ## POSS — choose SELECT or EXCLUDE
 

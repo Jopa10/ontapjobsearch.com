@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Devon
 
-review_date: 2026-09-04
-review_fingerprint: 15af014b604edc243f6d9aeeca2e90abf32e0a4f14bbf82855bc19ed5aa5b6f2
-routing_manifest_sha256: e64214c9afd89b7217da910a14d3eadaab33a7e91faaf564fff5dbf2a9b00415
+review_date: 2026-09-05
+review_fingerprint: c9383fd62d518fa46b635b01a24df819644c9ff6d373d14f7bc3c01ba41bb091
+routing_manifest_sha256: 470681d9f37d503102980dcb1fe7f45c6d8d4a374fc3c1cab53df51803c03f75
 ontap_region: Devon
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 10
-- Selected: 2
+- Records: 12
+- Selected: 4
 - POSS awaiting decision: 3
 - Excluded: 0
 - Hard pass: 5
@@ -34,6 +34,36 @@ factual_fingerprint: 29c0449a16aa5f60b9ecc1eaa5d12a035dd6a760044a08d8e043b2ff179
 source: Teaching Vacancies
 source_job_id: administrative-assistant-the-king-s-school-ottery-st-mary-devon
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-the-king-s-school-ottery-st-mary-devon
+---
+
+---
+action: 
+SELECTED | Devon | Torquay, South West, TQ1 4RN | £21,779.00 Annually (Actual) FTE £25989 | Attendance Administrator
+employer: St Cuthbert Mayne School
+closing_date: 2026-09-24T10:00:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: e93d0dded7add0373e7862d342d0c0f1a9c97565ef849e07a503af1df8c1f798
+source: Teaching Vacancies
+source_job_id: attendance-administrator-65068773-d1be-4711-9b88-bde2f62d9e1b
+source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-administrator-65068773-d1be-4711-9b88-bde2f62d9e1b
+---
+
+---
+action: 
+SELECTED | Devon | Okehampton, South West, EX20 1PW | £23,560.00 - £25,119.00 Annually (Actual) NJC Grade D. Range 8 to 12 | Attendance Officer
+employer: Okehampton College
+closing_date: 2026-09-09T12:00:00+01:00
+reason: Clear admin/service title: attendance officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 1d1911698055c7b815976a7bcebfacce22076b5e63e0d1a6aa4fc8fadd94b9aa
+source: Teaching Vacancies
+source_job_id: attendance-officer-okehampton-college-okehampton-devon
+source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-okehampton-college-okehampton-devon
 ---
 
 ---
@@ -62,10 +92,10 @@ reason: Administrative duties evidenced in description
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 4cc27fee84565a5d0435d0a02d6c1a76a2419535afaca6824797e2ee0d0d2ec4
+factual_fingerprint: 8ef13f13b60a387e422aae4f5c14266dae23738aa68a94cde7e1e97be3236cfb
 source: Teaching Vacancies
-source_job_id: reception-and-administration-assistant-a596734b-acdb-41f5-8c0c-60b9d0a47e07
-source_url: https://teaching-vacancies.service.gov.uk/jobs/reception-and-administration-assistant-a596734b-acdb-41f5-8c0c-60b9d0a47e07
+source_job_id: reception-and-administration-assistant-109b825b-7a0b-44c3-a80d-67ce740b1847
+source_url: https://teaching-vacancies.service.gov.uk/jobs/reception-and-administration-assistant-109b825b-7a0b-44c3-a80d-67ce740b1847
 ---
 
 ---

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Dorset
 
-review_date: 2026-09-04
-review_fingerprint: 9a7749bac0979088afa3eaa30fb9858c1e6f317fb01189fd3b413ca26593bc9a
-routing_manifest_sha256: e64214c9afd89b7217da910a14d3eadaab33a7e91faaf564fff5dbf2a9b00415
+review_date: 2026-09-05
+review_fingerprint: 2fc7ba7dbbd6e377f71fedcab15ac6a6fb281763c1e5440e451e5ac94fbef71e
+routing_manifest_sha256: 470681d9f37d503102980dcb1fe7f45c6d8d4a374fc3c1cab53df51803c03f75
 ontap_region: Dorset
 slice_category: admin_service
 slice_status: LIVE
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 5
-- Selected: 3
+- Records: 6
+- Selected: 4
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 1
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Dorset | Bournemouth, South West, BH8 9PY | BS Grade 6, point 6-9 (£22,229 to £23,311 (actual salary) per annum pro-rated) | Administrator (Sixth Form Study Centre)
+employer: Bournemouth School
+closing_date: 2026-09-21T09:00:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: ad1b4ec2d96614ab3f34d6d240a42db92c96be59a29c5499028d2cbfe76550a8
+source: Teaching Vacancies
+source_job_id: administrator-sixth-form-study-centre-3a398641-1a04-436d-8d95-d6c3dd1d9ae1
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-sixth-form-study-centre-3a398641-1a04-436d-8d95-d6c3dd1d9ae1
+---
 
 ---
 action: 

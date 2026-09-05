@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Buckinghamshire
 
-review_date: 2026-09-04
+review_date: 2026-09-05
 review_fingerprint: ce4c0025fe94eae75328dd176b11bc980544881ac68f63ee07dc6e78e930a9da
-routing_manifest_sha256: e64214c9afd89b7217da910a14d3eadaab33a7e91faaf564fff5dbf2a9b00415
+routing_manifest_sha256: 470681d9f37d503102980dcb1fe7f45c6d8d4a374fc3c1cab53df51803c03f75
 ontap_region: Buckinghamshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 11
+- Records: 12
 - Selected: 3
 - POSS awaiting decision: 4
 - Excluded: 0
-- Hard pass: 4
+- Hard pass: 5
 
 ## SELECTED
 
@@ -134,6 +134,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-
 
 ## HARD_PASS
 
+- [Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-stanton-school) — Missing salary or pay scale.
 - [Exams and Data Team Leader](https://teaching-vacancies.service.gov.uk/jobs/exams-and-data-team-leader) — Insufficient admin/service evidence.
 - [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-5-dimensions-trust) — Manager title salary ceiling £39,862 is not below £28,000.
 - [HR & Training Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-training-officer) — Insufficient admin/service evidence.

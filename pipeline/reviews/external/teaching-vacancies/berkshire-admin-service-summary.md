@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Berkshire
 
-review_date: 2026-09-04
-review_fingerprint: 4c882f28c92491a604e6f662d3f69afe1c91a33b2a1b07185d088548502c138a
-routing_manifest_sha256: e64214c9afd89b7217da910a14d3eadaab33a7e91faaf564fff5dbf2a9b00415
+review_date: 2026-09-05
+review_fingerprint: c61c02b67dff391e1351345258e567c63eff3636e601a0893d054bd2399eabd3
+routing_manifest_sha256: 470681d9f37d503102980dcb1fe7f45c6d8d4a374fc3c1cab53df51803c03f75
 ontap_region: Berkshire
 slice_category: admin_service
 slice_status: LIVE
@@ -14,10 +14,10 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 18
-- Selected: 5
+- Selected: 4
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 12
+- Hard pass: 13
 
 ## SELECTED
 
@@ -49,21 +49,6 @@ factual_fingerprint: d6981f750621c042e19c58978840f5e605b9091d74da79f6d018fabfc35
 source: Teaching Vacancies
 source_job_id: attendance-officer-and-administration-coordinator-kendrick-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-and-administration-coordinator-kendrick-school
----
-
----
-action: 
-SELECTED | Berkshire | Reading, South East, RG6 7HS | £18,666.00 Annually (Actual) Grade 4 SCP 7 working 31 hours per week plus 2 INSET days. | Inclusion Administrator
-employer: Maiden Erlegh School
-closing_date: 2026-09-04T23:59:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 29771f0f5f04ee1e39585cca8d0dfa342155dbb762f8d32abe36fe8dda21e420
-source: Teaching Vacancies
-source_job_id: inclusion-administrator-maiden-erlegh-school-reading-berkshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/inclusion-administrator-maiden-erlegh-school-reading-berkshire
 ---
 
 ---
@@ -122,6 +107,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/trust-governance-prof
 - [Casual Lettings Assistant](https://teaching-vacancies.service.gov.uk/jobs/casual-lettings-assistant-maiden-erlegh-chiltern-edge) — Insufficient admin/service evidence.
 - [Customer Relations Manager](https://teaching-vacancies.service.gov.uk/jobs/customer-relations-manager) — Manager title salary ceiling £44,075 is not below £28,000.
 - [Finance Officer - Addington School](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-addington-school) — Insufficient admin/service evidence.
+- [Home School Liaison Assistant](https://teaching-vacancies.service.gov.uk/jobs/home-school-liaison-assistant-842866de-b635-4ed9-bb14-58200af5fde1) — Insufficient admin/service evidence.
 - [HR & Recruitment Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-recruitment-officer-the-park-federation-academy-trust) — Insufficient admin/service evidence.
 - [Lettings Assistant](https://teaching-vacancies.service.gov.uk/jobs/lettings-assistant-reading-school) — Insufficient admin/service evidence.
 - [Office Manager - Southcote Primary School](https://teaching-vacancies.service.gov.uk/jobs/office-manager-southcote-primary-school-southcote-primary-school-reading-berkshire) — Manager title salary ceiling £35,521 is not below £28,000.

@@ -1,9 +1,9 @@
-# Teaching Vacancies regional review — South West
+# Teaching Vacancies regional review — Lancashire - Central
 
 review_date: 2026-09-05
-review_fingerprint: ba8db3bea42bdc7a858a0c5e0bbbf0b8205824df2bc17fe881732d4dafb82f86
+review_fingerprint: bd8b357115f99f4280e8271f6ab329b151209a9dd7fbfa1ce535130de17a162a
 routing_manifest_sha256: 470681d9f37d503102980dcb1fe7f45c6d8d4a374fc3c1cab53df51803c03f75
-ontap_region: South West
+ontap_region: Lancashire - Central
 slice_category: admin_service
 slice_status: UNREGISTERED
 
@@ -23,17 +23,17 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ---
 action: 
-SELECTED | South West | Pewsey, South West, SN9 5LZ | £26,223.00 - £26,639.00 Annually (FTE) £7,316.22 - £7,432.28 (Actual) | School Administrator
-employer: Easton Royal Academy
+SELECTED | Lancashire - Central | Preston, North West, PR1 4PR | £28,142.00 - £32,061.00 Annually (FTE) | Data & Exams Officer
+employer: Christ The King Catholic High School
 closing_date: 2026-09-25T09:00:00+01:00
-reason: Clear admin/service title: administrator
+reason: Clear admin/service title: exams officer
 jobg8_check: NO_MATCH
 slice_status: UNREGISTERED
 migration_status: 
-factual_fingerprint: 83a0e41dd04b2b4a5722f65f8179c361e4bc22b7e7417969baaf436b6ee821f9
+factual_fingerprint: 278912f669fb913bc93858809e6a4fd422c25be965f0726a020e92b1f408122b
 source: Teaching Vacancies
-source_job_id: school-administrator-easton-royal-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-easton-royal-academy
+source_job_id: data-exams-officer-christ-the-king-catholic-high-school-preston-lancashire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/data-exams-officer-christ-the-king-catholic-high-school-preston-lancashire
 ---
 
 ## POSS — choose SELECT or EXCLUDE

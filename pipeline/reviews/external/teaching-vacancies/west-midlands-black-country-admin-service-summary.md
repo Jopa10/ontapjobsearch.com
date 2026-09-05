@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Black Country
 
-review_date: 2026-09-04
+review_date: 2026-09-05
 review_fingerprint: ab3dbaf43b60acb284fba1da730b60d542fd3f8547f477bd3d292174d9f998a4
-routing_manifest_sha256: e64214c9afd89b7217da910a14d3eadaab33a7e91faaf564fff5dbf2a9b00415
+routing_manifest_sha256: 470681d9f37d503102980dcb1fe7f45c6d8d4a374fc3c1cab53df51803c03f75
 ontap_region: West Midlands - Black Country
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 3
+- Records: 4
 - Selected: 1
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 1
+- Hard pass: 2
 
 ## SELECTED
 
@@ -60,6 +60,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-
 ## HARD_PASS
 
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-withymoor-primary-school) — Manager title salary ceiling £28,214 is not below £28,000.
+- [Senior Admin Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-admin-officer-park-hall-junior-academy) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

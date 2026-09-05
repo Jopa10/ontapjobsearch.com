@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - West
 
-review_date: 2026-09-04
+review_date: 2026-09-05
 review_fingerprint: 78dde8c0dbbdde83b5070ffa8fd5f94719bf2a92d4aada826c6246452b13a9ce
-routing_manifest_sha256: e64214c9afd89b7217da910a14d3eadaab33a7e91faaf564fff5dbf2a9b00415
+routing_manifest_sha256: 470681d9f37d503102980dcb1fe7f45c6d8d4a374fc3c1cab53df51803c03f75
 ontap_region: Yorkshire - West
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 18
+- Records: 17
 - Selected: 5
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 13
+- Hard pass: 12
 
 ## SELECTED
 
@@ -111,13 +111,12 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-
 - [Exam Invigilator](https://teaching-vacancies.service.gov.uk/jobs/exam-invigilator-leeds-city-academy-leeds-west-yorkshire) — Insufficient admin/service evidence.
 - [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-outwood-grange-academies-trust) — Manager title salary ceiling £53,881 is not below £28,000.
 - [Finance Manager (Core Team)](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-core-team) — Manager title salary ceiling £49,282 is not below £28,000.
+- [HR and Staff Wellbeing Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-and-staff-wellbeing-officer-laisterdyke-leadership-academy-bradford-west-yorkshire) — Insufficient admin/service evidence.
 - [Human Resources Business Partner (Central HR Team)](https://teaching-vacancies.service.gov.uk/jobs/human-resources-business-partner-central-hr-team-the-gorse-academies-trust-leeds-not-recorded) — Insufficient admin/service evidence.
 - [Operations Lead](https://teaching-vacancies.service.gov.uk/jobs/operations-lead-menston-primary-school-ilkley-west-yorkshire) — Insufficient admin/service evidence.
 - [Procurement Manager](https://teaching-vacancies.service.gov.uk/jobs/procurement-manager-outwood-grange-academies-trust) — Manager title salary ceiling £44,075 is not below £28,000.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-1b36ee5c-0c17-4759-81a0-a7f12e916e50) — Manager title salary ceiling £59,005 is not below £28,000.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-9bdfb809-a83a-40f4-96f0-6df1b12f41b5) — Manager title salary ceiling £59,005 is not below £28,000.
-- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-f912cf2f-f9e1-442a-ab12-88a4e6edbe6a) — Manager title salary ceiling £42,964 is not below £28,000.
-- [School Reception Assistant](https://teaching-vacancies.service.gov.uk/jobs/school-reception-assistant-appleton-academy) — Insufficient admin/service evidence.
 - [Trust Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/trust-administration-assistant-waterton-academy-trust) — Insufficient admin/service evidence.
 
 ## Safety boundary

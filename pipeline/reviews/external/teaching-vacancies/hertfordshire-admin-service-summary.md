@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Hertfordshire
 
-review_date: 2026-09-04
-review_fingerprint: b21557bdb67199e5b76871397e49a37a7388e27faccb305cae74a5ef34a3f717
-routing_manifest_sha256: e64214c9afd89b7217da910a14d3eadaab33a7e91faaf564fff5dbf2a9b00415
+review_date: 2026-09-05
+review_fingerprint: 6953e623035bfa792de830b06c4a5d202a31a32422caea91b6c2d3ffc1dcb80a
+routing_manifest_sha256: 470681d9f37d503102980dcb1fe7f45c6d8d4a374fc3c1cab53df51803c03f75
 ontap_region: Hertfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -120,7 +120,7 @@ reason: Clear admin/service title: receptionist
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: c81ae4890e8d0c38f52cfe44d27c1ff7bafaabcd7cc3a3fe6be474c629e8d12f
+factual_fingerprint: a4d4ccb965ea6fd34fba76cf3090d58755ab472944d433c9e8d7f6c2323155a2
 source: Teaching Vacancies
 source_job_id: school-receptionist-part-time
 source_url: https://teaching-vacancies.service.gov.uk/jobs/school-receptionist-part-time

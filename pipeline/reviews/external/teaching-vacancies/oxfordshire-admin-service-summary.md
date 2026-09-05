@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Oxfordshire
 
-review_date: 2026-09-04
+review_date: 2026-09-05
 review_fingerprint: c9b610943c7182294e1bfef8ee6cc8c3bac0a7d2e7fa350631aa3ea82f4ac8cf
-routing_manifest_sha256: e64214c9afd89b7217da910a14d3eadaab33a7e91faaf564fff5dbf2a9b00415
+routing_manifest_sha256: 470681d9f37d503102980dcb1fe7f45c6d8d4a374fc3c1cab53df51803c03f75
 ontap_region: Oxfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 7
+- Records: 8
 - Selected: 3
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 4
+- Hard pass: 5
 
 ## SELECTED
 
@@ -76,6 +76,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/sixth-form-administra
 
 ## HARD_PASS
 
+- [Cover Manager](https://teaching-vacancies.service.gov.uk/jobs/cover-manager-gillotts-school) — Manager title salary ceiling £29,065 is not below £28,000.
 - [Exams and Data Manager](https://teaching-vacancies.service.gov.uk/jobs/exams-and-data-manager-whitelands-academy) — Manager title salary ceiling £40,444 is not below £28,000.
 - [Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-24437cdc-05bf-4102-bc88-8beac49a5637) — Insufficient admin/service evidence.
 - [HR Partner](https://teaching-vacancies.service.gov.uk/jobs/hr-partner-oxford-diocesan-bucks-schools-trust) — Insufficient admin/service evidence.

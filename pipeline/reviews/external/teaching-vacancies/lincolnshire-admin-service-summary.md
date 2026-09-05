@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Lincolnshire
 
-review_date: 2026-09-04
-review_fingerprint: 1fc2e6dc510691ac166f335c038ecc8fd68c13ad40cee231e3bbb946904af445
-routing_manifest_sha256: e64214c9afd89b7217da910a14d3eadaab33a7e91faaf564fff5dbf2a9b00415
+review_date: 2026-09-05
+review_fingerprint: d90747e5fcc54851d449a9ee3a1cb21270aba368d071c844c934b273529f2f73
+routing_manifest_sha256: 470681d9f37d503102980dcb1fe7f45c6d8d4a374fc3c1cab53df51803c03f75
 ontap_region: Lincolnshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 12
+- Records: 13
 - Selected: 5
-- POSS awaiting decision: 2
+- POSS awaiting decision: 3
 - Excluded: 0
 - Hard pass: 5
 
@@ -34,6 +34,21 @@ factual_fingerprint: 9a9c646b13ddf6ac455156904f9f5bd223fd3eb3ffac61a7ad4c6dab887
 source: Teaching Vacancies
 source_job_id: assistant-administrator-bc00604f-24a2-4741-bbd7-1135c9c18070
 source_url: https://teaching-vacancies.service.gov.uk/jobs/assistant-administrator-bc00604f-24a2-4741-bbd7-1135c9c18070
+---
+
+---
+action: 
+SELECTED | Lincolnshire | Gainsborough, East Midlands, DN21 2ST | Between £22,290 and £23,831 actual | Cover and Operations Administrator
+employer: The Queen Elizabeth's High School, Gainsborough
+closing_date: 2026-09-25T08:00:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 1b39fb6193f7053b86ff1cde956cf6ce6f683e78449cf91fba773186525abb19
+source: Teaching Vacancies
+source_job_id: cover-and-operations-administrator
+source_url: https://teaching-vacancies.service.gov.uk/jobs/cover-and-operations-administrator
 ---
 
 ---
@@ -68,21 +83,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-tuli
 
 ---
 action: 
-SELECTED | Lincolnshire | Cleethorpes, Yorkshire and the Humber, DN35 9NF | SC03 (Salary £24,796 FTE, actual salary £21,234.22) - Term Time Only + 5 days | Receptionist / Administrator
-employer: Beacon Academy
-closing_date: 2026-09-04T23:59:00+01:00
-reason: Clear admin/service title: administrator, receptionist
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 079038fdbb520dedd9508894bc52855d3ffa09e741f4c9e5bdc1ada11a6eac5e
-source: Teaching Vacancies
-source_job_id: receptionist-administrator-beacon-academy-cleethorpes-north-east-lincolnshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrator-beacon-academy-cleethorpes-north-east-lincolnshire
----
-
----
-action: 
 SELECTED | Lincolnshire | Scunthorpe, Yorkshire and the Humber, DN17 1SS | SCP 4–8 (£25,185–£26,824 FTE) | Receptionist/Admin Officer
 employer: Oasis Academy Parkwood
 closing_date: 2026-09-11T09:00:59+01:00
@@ -97,6 +97,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-admin-of
 ---
 
 ## POSS — choose SELECT or EXCLUDE
+
+---
+action: 
+POSS | Lincolnshire | Boston, East Midlands, PE21 7QG | £11,666.20 Annually (Actual) National Apprentice Rate | Administration Apprentice
+employer: Boston West Academy
+closing_date: 2026-09-18T23:59:00+01:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 2f229cddd431678b7e83d8604555f3e41a0f6a645e5dd139ede517c271b309e0
+source: Teaching Vacancies
+source_job_id: administration-apprentice-boston-west-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-apprentice-boston-west-academy
+---
 
 ---
 action: 

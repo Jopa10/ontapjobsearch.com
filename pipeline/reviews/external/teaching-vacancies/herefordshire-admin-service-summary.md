@@ -1,9 +1,9 @@
-# Teaching Vacancies regional review — South West
+# Teaching Vacancies regional review — Herefordshire
 
 review_date: 2026-09-05
-review_fingerprint: ba8db3bea42bdc7a858a0c5e0bbbf0b8205824df2bc17fe881732d4dafb82f86
+review_fingerprint: ee2aec668ee541a9fe179494785cf06df8e41f28a4bf919c61a1720da2aa6536
 routing_manifest_sha256: 470681d9f37d503102980dcb1fe7f45c6d8d4a374fc3c1cab53df51803c03f75
-ontap_region: South West
+ontap_region: Herefordshire
 slice_category: admin_service
 slice_status: UNREGISTERED
 
@@ -23,17 +23,17 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ---
 action: 
-SELECTED | South West | Pewsey, South West, SN9 5LZ | £26,223.00 - £26,639.00 Annually (FTE) £7,316.22 - £7,432.28 (Actual) | School Administrator
-employer: Easton Royal Academy
-closing_date: 2026-09-25T09:00:00+01:00
-reason: Clear admin/service title: administrator
+SELECTED | Herefordshire | Hereford, West Midlands, HR1 2DY | £14.14 Hourly SCP 7 | Administrative Assistant Level 2 Primary
+employer: St Thomas Cantilupe CofE Academy
+closing_date: 2026-09-09T12:00:00+01:00
+reason: Clear admin/service title: administrative assistant
 jobg8_check: NO_MATCH
 slice_status: UNREGISTERED
 migration_status: 
-factual_fingerprint: 83a0e41dd04b2b4a5722f65f8179c361e4bc22b7e7417969baaf436b6ee821f9
+factual_fingerprint: 8e7ae4e387be2928bab4240ad47dc308e2667fdec18efc430512b10cdac7c1e0
 source: Teaching Vacancies
-source_job_id: school-administrator-easton-royal-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-easton-royal-academy
+source_job_id: administrative-assistant-level-2-primary-st-thomas-cantilupe-cofe-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-level-2-primary-st-thomas-cantilupe-cofe-academy
 ---
 
 ## POSS — choose SELECT or EXCLUDE

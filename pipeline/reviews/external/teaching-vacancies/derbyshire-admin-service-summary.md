@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Derbyshire
 
-review_date: 2026-09-04
+review_date: 2026-09-05
 review_fingerprint: 81f455dca59dffbbb053f6367949f96bc12edd5dcff707f1e5e7ced9bcc1fa85
-routing_manifest_sha256: e64214c9afd89b7217da910a14d3eadaab33a7e91faaf564fff5dbf2a9b00415
+routing_manifest_sha256: 470681d9f37d503102980dcb1fe7f45c6d8d4a374fc3c1cab53df51803c03f75
 ontap_region: Derbyshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 6
+- Records: 7
 - Selected: 1
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 6
 
 ## SELECTED
 
@@ -49,6 +49,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assist
 - [Data manager](https://teaching-vacancies.service.gov.uk/jobs/data-manager-heritage-high-school) — Manager title salary ceiling £37,280 is not below £28,000.
 - [PA to Senior Leadership Team & Cover Manager](https://teaching-vacancies.service.gov.uk/jobs/pa-to-senior-leadership-team-cover-manager) — Manager title salary ceiling £37,280 is not below £28,000.
 - [Safeguarding Officer](https://teaching-vacancies.service.gov.uk/jobs/safeguarding-officer-the-bolsover-school) — Insufficient admin/service evidence.
+- [School Business Assistant - Data and Exams](https://teaching-vacancies.service.gov.uk/jobs/school-business-assistant-data-and-exams) — Insufficient admin/service evidence.
 - [School Business Lead](https://teaching-vacancies.service.gov.uk/jobs/school-business-lead-hollingwood-primary-school-chesterfield-derbyshire) — Insufficient admin/service evidence.
 - [Teaching Assistant Level 3 (Personal Care)](https://teaching-vacancies.service.gov.uk/jobs/teaching-assistant-level-3-personal-care-hope-valley-college) — Out-of-scope occupation: teaching assistant.
 

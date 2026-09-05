@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Gloucestershire
 
-review_date: 2026-09-04
-review_fingerprint: 0ec2d39a83473c82c557afa87958baff864b3f76c7480ab069e37a953e60fa5b
-routing_manifest_sha256: e64214c9afd89b7217da910a14d3eadaab33a7e91faaf564fff5dbf2a9b00415
+review_date: 2026-09-05
+review_fingerprint: f7035e5ee7d00984530797c9f120a21d9ea42622da663037f5789e5149948edb
+routing_manifest_sha256: 470681d9f37d503102980dcb1fe7f45c6d8d4a374fc3c1cab53df51803c03f75
 ontap_region: Gloucestershire
 slice_category: admin_service
 slice_status: LIVE
@@ -30,7 +30,7 @@ reason: Clear admin/service title: administration assistant
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: aabe411d02785568e8a173de6bea0be0b8b89231210c76358a3c6a12f11de3ce
+factual_fingerprint: c63152e0bca50d66ec9691cecca8181994aae191bb14a7cc769d6395a2cd5c2d
 source: Teaching Vacancies
 source_job_id: administration-assistant-level-1-brook-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-level-1-brook-academy

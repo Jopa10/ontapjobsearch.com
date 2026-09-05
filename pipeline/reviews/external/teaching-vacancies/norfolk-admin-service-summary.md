@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Norfolk
 
-review_date: 2026-09-04
+review_date: 2026-09-05
 review_fingerprint: 029122890e785bce3e88b007d653c350032032476c6ddc0a73c1ea1c17c14ad3
-routing_manifest_sha256: e64214c9afd89b7217da910a14d3eadaab33a7e91faaf564fff5dbf2a9b00415
+routing_manifest_sha256: 470681d9f37d503102980dcb1fe7f45c6d8d4a374fc3c1cab53df51803c03f75
 ontap_region: Norfolk
 slice_category: admin_service
 slice_status: LIVE
@@ -109,8 +109,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/secretary-fleggburgh-
 - [Administration Officer: Vulnerable Students](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-vulnerable-students) — Insufficient admin/service evidence.
 - [Administrator](https://teaching-vacancies.service.gov.uk/jobs/administrator-d3689c09-b164-4585-b47e-b87553162134) — Missing salary or pay scale.
 - [Attendance Lead](https://teaching-vacancies.service.gov.uk/jobs/attendance-lead-fred-nicholson-school) — Insufficient admin/service evidence.
+- [Chief Financial Officer](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-broad-horizons-education-trust) — Insufficient admin/service evidence.
 - [Development Officer](https://teaching-vacancies.service.gov.uk/jobs/development-officer-norwich-city-college-of-further-and-higher-education) — Insufficient admin/service evidence.
-- [Planning and Timetabling Officer](https://teaching-vacancies.service.gov.uk/jobs/planning-and-timetabling-officer) — Insufficient admin/service evidence.
 - [Regional People Partner](https://teaching-vacancies.service.gov.uk/jobs/regional-people-partner-ormiston-victory-academy-norwich-norfolk) — Insufficient admin/service evidence.
 - [Secretarial Assistant](https://teaching-vacancies.service.gov.uk/jobs/secretarial-assistant-john-grant-school-caister-on-sea) — Insufficient admin/service evidence.
 

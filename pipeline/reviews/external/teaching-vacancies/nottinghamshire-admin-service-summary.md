@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Nottinghamshire
 
-review_date: 2026-09-04
-review_fingerprint: 1f2b422443579bac933afc16046b44585765ae642808cb3926ebde25f4f4411c
-routing_manifest_sha256: e64214c9afd89b7217da910a14d3eadaab33a7e91faaf564fff5dbf2a9b00415
+review_date: 2026-09-05
+review_fingerprint: 098ff2db0f99587bb312e1f83e9d6d312df63e0ae700e1deea6ad367785a3477
+routing_manifest_sha256: 470681d9f37d503102980dcb1fe7f45c6d8d4a374fc3c1cab53df51803c03f75
 ontap_region: Nottinghamshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 16
-- Selected: 6
+- Records: 19
+- Selected: 8
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 9
+- Hard pass: 10
 
 ## SELECTED
 
@@ -64,6 +64,36 @@ factual_fingerprint: b97c523ae128a987ffe73f1767463bd248500cb31e7017c94bc9e34cfab
 source: Teaching Vacancies
 source_job_id: administrative-assistant-burton-joyce-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-burton-joyce-primary-school
+---
+
+---
+action: 
+SELECTED | Nottinghamshire | Nottingham, East Midlands, NG15 6WU | £25,583.00 - £26,428.00 Annually (FTE) Grade 3 points 5 - 7, term time only, plus two weeks | Administrative Assistant
+employer: Hucknall Flying High Academy
+closing_date: 2026-09-25T09:00:00+01:00
+reason: Clear admin/service title: administrative assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 14fbcb24bc8c6c571854577ab0f28d21b410824393a7c09ac3180e5a41cfeaa3
+source: Teaching Vacancies
+source_job_id: administrative-assistant-hucknall-flying-high-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-hucknall-flying-high-academy
+---
+
+---
+action: 
+SELECTED | Nottinghamshire | Nottingham, NG9 6RZ | £24,234.00 - £25,823.00 Annually (Actual) Full Time, Term Time only + 2 Weeks - NJC6-10 | Administrative Assistant
+employer: The Spencer Academies Trust
+closing_date: 2026-09-18T12:00:00+01:00
+reason: Clear admin/service title: administrative assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: ea8f2b45714b8a6f017e4cdadfbe7e29b7348d7d922c9c780f9334152932a347
+source: Teaching Vacancies
+source_job_id: administrative-assistant-the-spencer-academies-trust-nottingham-not-recorded
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-the-spencer-academies-trust-nottingham-not-recorded
 ---
 
 ---
@@ -141,6 +171,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/data-officer-the-whit
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-sycamore-academy) — Manager title salary ceiling £40,446 is not below £28,000.
 - [People & Culture Advisor](https://teaching-vacancies.service.gov.uk/jobs/people-culture-advisor-tapestry-learning-partnership-nottingham-not-recorded) — Insufficient admin/service evidence.
 - [People & Culture Business Partner](https://teaching-vacancies.service.gov.uk/jobs/people-culture-business-partner-tapestry-learning-partnership) — Insufficient admin/service evidence.
+- [Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-newark-orchard-school-newark) — Insufficient admin/service evidence.
 - [Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-redgate-primary-academy-mansfield-nottinghamshire) — Insufficient admin/service evidence.
 - [Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-yeoman-park-academy-mansfield-nottinghamshire) — Insufficient admin/service evidence.
 

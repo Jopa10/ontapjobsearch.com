@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Surrey
 
-review_date: 2026-09-04
-review_fingerprint: 6e791ac7d9211d2273a6bc7212b1b4ce4750f7807b05470a208f57dc5daadffe
-routing_manifest_sha256: e64214c9afd89b7217da910a14d3eadaab33a7e91faaf564fff5dbf2a9b00415
+review_date: 2026-09-05
+review_fingerprint: decab7f35ef6265842d264f2546bd7eacd7b854018807462ab5637d6d6dace68
+routing_manifest_sha256: 470681d9f37d503102980dcb1fe7f45c6d8d4a374fc3c1cab53df51803c03f75
 ontap_region: Surrey
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 4
-- Selected: 3
+- Records: 6
+- Selected: 4
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 1
+- Hard pass: 2
 
 ## SELECTED
 
@@ -66,6 +66,21 @@ source_job_id: hr-admin-assistant-holland-junior-school-oxted-surrey
 source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-admin-assistant-holland-junior-school-oxted-surrey
 ---
 
+---
+action: 
+SELECTED | Surrey | Leatherhead, South East, KT22 7PW | £20,550.00 - £20,550.00 Annually (Actual) P3 £24,691 per annum FTE | Office Assistant
+employer: Fox Grove School
+closing_date: 2026-09-13T23:59:00+01:00
+reason: Clear admin/service title: office assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 5e0f2a94e42adcbb2f4050b2783c5bdba37fdd6e8edcdd9c1dea119e9806a31a
+source: Teaching Vacancies
+source_job_id: office-assistant-fox-grove-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/office-assistant-fox-grove-school
+---
+
 ## POSS — choose SELECT or EXCLUDE
 
 - None.
@@ -76,6 +91,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-admin-assistant-ho
 
 ## HARD_PASS
 
+- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-fox-grove-school) — Manager title salary ceiling £37,002 is not below £28,000.
 - [Regional Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/regional-finance-manager-6115d723-d9e6-4abb-9837-bae40f36fdb8) — Manager title salary ceiling £28,167 is not below £28,000.
 
 ## Safety boundary

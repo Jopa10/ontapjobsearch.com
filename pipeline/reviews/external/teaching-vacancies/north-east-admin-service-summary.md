@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — North East
 
-review_date: 2026-09-04
+review_date: 2026-09-05
 review_fingerprint: a794447204dadee113374dc1f2d4babffcd60cd0eb5b7d48feacedac87bdba5a
-routing_manifest_sha256: e64214c9afd89b7217da910a14d3eadaab33a7e91faaf564fff5dbf2a9b00415
+routing_manifest_sha256: 470681d9f37d503102980dcb1fe7f45c6d8d4a374fc3c1cab53df51803c03f75
 ontap_region: North East
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 5
+- Records: 6
 - Selected: 1
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 4
+- Hard pass: 5
 
 ## SELECTED
 
@@ -48,6 +48,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assist
 
 - [Associate Operational Support Lead](https://teaching-vacancies.service.gov.uk/jobs/associate-operational-support-lead-northern-leaders-trust) — Insufficient admin/service evidence.
 - [Business Manager](https://teaching-vacancies.service.gov.uk/jobs/business-manager-st-anthony-s-girls-catholic-academy) — Manager title salary ceiling £40,777 is not below £28,000.
+- [Communications and Administration Manager](https://teaching-vacancies.service.gov.uk/jobs/communications-and-administration-manager) — Manager title salary ceiling £39,862 is not below £28,000.
 - [Deputy Administration Manager](https://teaching-vacancies.service.gov.uk/jobs/deputy-administration-manager) — Manager title salary ceiling £33,119 is not below £28,000.
 - [Personal Care Assisant - Primary SEND School - Band 2](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assisant-primary-send-school-band-2) — Insufficient admin/service evidence.
 
