@@ -4,10 +4,11 @@ import { formatSalary } from "@/lib/job-facts";
 import { getJobPath, type PublishedJob } from "@/lib/published-jobs";
 
 type MoreJobsNearbyProps = {
-  jobs: PublishedJob[];
+  jobs: Array<PublishedJob & { distance_miles?: number }>;
   allJobsPath: string;
   allJobsLabel: string;
   intro?: string;
+  heading?: string;
   secondaryAllJobsPath?: string;
   secondaryAllJobsLabel?: string;
 };
@@ -16,19 +17,25 @@ export default function MoreJobsNearby({
   jobs,
   allJobsPath,
   allJobsLabel,
-  intro = "Other current roles in this area and category.",
+  intro = "Approved role matches within 15 straight-line miles. Locations shown are where the jobs are based.",
+  heading = "Suitable jobs nearby",
   secondaryAllJobsPath,
   secondaryAllJobsLabel,
 }: MoreJobsNearbyProps) {
   return (
     <section className={styles.panel}>
-      <h2 className={styles.heading}>More jobs nearby</h2>
+      <h2 className={styles.heading}>{heading}</h2>
       <p className={styles.intro}>{intro}</p>
 
       <ul className={styles.list}>
         {jobs.map((job) => {
           const salary = formatSalary(job.salary_text) || "Salary not stated";
-          const terms = [salary, job.employment_type].filter(Boolean).join(" · ");
+          const distance = typeof job.distance_miles === "number"
+            ? job.distance_miles < 0.05
+              ? "Same town"
+              : `${job.distance_miles.toFixed(1)} miles away`
+            : "";
+          const terms = [salary, job.employment_type, distance].filter(Boolean).join(" · ");
 
           return (
             <li key={job.job_id} className={styles.item}>

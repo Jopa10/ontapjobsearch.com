@@ -1,11 +1,13 @@
 # Ontap System Overview
 
-**Last updated:** 4 September 2026
-**Status:** Canonical production state including an idempotent external fallback for the JobG8 daily process, restored NHS Google Jobs eligibility, owner-facing JobG8 selection auditing, live-site reporting reconciliation and Teaching Vacancies regional publish isolation.
+**Last updated:** 5 September 2026
+**Status:** Canonical production state including approved job-detail discovery recommendations, an idempotent external fallback for the JobG8 daily process, restored NHS Google Jobs eligibility, owner-facing JobG8 selection auditing, live-site reporting reconciliation and Teaching Vacancies regional publish isolation.
 
 This is the short owner view of how Ontap is organised. It mirrors the five canonical system buckets in `SYSTEM_MAP.md`.
 
 ## Recent canonical changes
+
+- 5 September 2026 — **Approved job-page discovery recommendations are now governed rather than generic:** an individual vacancy can show up to six suitable private-sector alternatives only where its approved role relationship, employer-sector evidence and true locality all agree. Matches use straight-line distance capped at **15 miles**, keep the target job's real location visible and rank exact role before closely related roles. NHS/public, council, education and charity jobseekers can be shown suitable private alternatives; private jobs can be shown private alternatives; private jobs are never directed to public-sector work. Unknown employers and unresolved/broad locations show no recommendation rather than being guessed.
 
 - 4 September 2026 — The 11:45 no-edit publication safety net can now be triggered by an authenticated external fallback using `AUTOMATIC_FALLBACK`. It behaves exactly like the scheduled safety net: it skips after a successful same-day publication and otherwise withholds untouched review items so they remain available later. Normal manual `PUBLISH` and quarantine behaviour are unchanged.
 
@@ -235,6 +237,8 @@ LIVE dynamic regional slices feed Browse Jobs, `/jobs/search`, job-detail backli
 Customer Sales uses the same dynamic configured-slice mechanism. Production launch was verified on 21 August 2026 at `/job-search/london/customer-sales-jobs`, `/job-search/west-yorkshire/customer-sales-jobs`, and `/job-search/manchester-salford/customer-sales-jobs`: all three returned HTTP 200, rendered their current job cards and `/jobs/...` detail links, and exposed the expected JobG8-backed Apply actions. The same published-job inventory feeds Browse Jobs, homepage discovery, sitemap and search indexing.
 
 NHS jobs use those same Service Admin pages and job-detail routes. A job is identified reliably by `source: "NHS Jobs"`; the employer itself may be an NHS trust, GP surgery, healthcare provider or other organisation whose visible name does not contain “NHS”. The job-detail page links to the original NHS Jobs advert for application.
+
+Individual job pages now use the approved discovery registers for the **Suitable jobs nearby** panel. It is not a generic same-region list: a result needs an explicit registered transferable role relationship, a positively evidenced private-sector employer and a canonical locality within 15 straight-line miles. The result retains its true location and displays the distance. Employers without enough evidence and jobs with broad/unresolved locations simply show no panel. Exact-role matches rank first, followed by the approved relationship priority, then distance and posting date; any active approved locality exclusion also blocks the pair.
 
 NHS detail copy is now presentation-formatted rather than shown as a single flattened block. Existing structured headings/bullets are respected; otherwise long flattened NHS text is split into readable short paragraphs without changing the wording. The first six blocks remain visible and any remainder is available under **Show full NHS role information**.
 

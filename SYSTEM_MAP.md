@@ -1,13 +1,13 @@
 # Ontap System Map
 
 **Last updated:** 5 September 2026
-**Status:** Canonical production architecture including an idempotent external fallback for the twice-daily JobG8 process, restored NHS Google Jobs eligibility, owner-facing JobG8 selection auditing, live-site reporting reconciliation and Teaching Vacancies regional publish isolation.
+**Status:** Canonical production architecture including governed job-detail discovery recommendations, an idempotent external fallback for the twice-daily JobG8 process, restored NHS Google Jobs eligibility, owner-facing JobG8 selection auditing, live-site reporting reconciliation and Teaching Vacancies regional publish isolation.
 
 This is the authoritative technical map of the persistent Ontap system. It is organised into five canonical buckets. Facts not verified from the repository are marked `UNKNOWN / NEEDS AUDIT` rather than inferred from chat history.
 
 ## Recent canonical changes
 
-- 5 September 2026 — **Discovery recommendation registers are committed as inactive review-only governance:** role_relationships.csv records exact-role rank 0 plus explicit transferable role relationships, with private-sector targets only; employer_sector_rules.csv records exact and evidence-based NHS/public/council/education/charity/private classifications and fail-closed unknowns; canonical_location_coordinates.csv provides review-only location coordinates. build_location_proximity_review.py calculates straight-line Haversine pairs at a fixed 15-mile maximum and city_nearby_rules.csv is the approval/exclusion surface. build_employer_sector_review.py writes the employer-sector audit. None of these components is connected to job pages, enabled, or permitted to make recommendations until explicit approval and a separately reviewed implementation.
+- 5 September 2026 — **Owner-approved job-detail discovery recommendations are now register-driven:** every individual `/jobs/[id]` page can show up to six suitable private-sector alternatives only where all three approved controls agree: an explicit `role_relationships.csv` role relationship, an evidence-based `employer_sector_rules.csv` private target classification, and a canonical-coordinate Haversine distance of no more than **15 straight-line miles**. The panel preserves each target's true job location and states the straight-line distance. Source employers that remain `unknown` fail closed. Public/NHS, council, education and charity sources may see suitable private alternatives; private jobs may see private alternatives; no private job is directed to public-sector work. `city_nearby_rules.csv` remains the active approved exclusion surface, while `canonical_location_coordinates.csv` is the locality source of truth. The existing generic job-detail related-job matcher is no longer used for this panel.
 
 - 4 September 2026 — **The no-edit publication safety net accepts an external fallback dispatch:** `Apply and publish Ontap daily review` now accepts exact `AUTOMATIC_FALLBACK` as well as the owner-only `PUBLISH` approval. `AUTOMATIC_FALLBACK` follows the existing scheduled automatic-withhold path, including the same-date successful-dispatch check; it never enters manual quarantine mode. This allows cron-job.org to recover a delayed GitHub 11:45 schedule without turning untouched review items into exclusions or publishing twice. Manual `PUBLISH` behaviour is unchanged.
 
@@ -374,6 +374,7 @@ Verified structure:
 - `app/` is the primary application route/data tree;
 - `components/` contains reusable UI components;
 - `lib/published-jobs.ts` supplies the common published job/detail layer and is also the build-time source for the compact search index;
+- `lib/discovery-recommendations.ts` loads the owner-approved discovery registers at build/render time and is the sole resolver for the job-detail **Suitable jobs nearby** panel: it requires an explicit registered role relation, a positive private-sector target classification, a resolvable canonical locality and Haversine distance at or below 15 miles; it applies active `EXCLUDE` locality-pair overrides from `city_nearby_rules.csv`, ranks exact role before related-role priority, then distance and posted date, and returns no result for unknown sectors or broad/unresolvable locations;
 - `lib/configured-job-slices.ts` reads the configured regional slice catalog/register;
 - LIVE dynamic regional/category slices are register/catalog driven;
 - `app/_city-pages/configured-slices/` holds dynamic configured-slice data;

@@ -15,7 +15,7 @@ import {
   getPublishedJobs,
   type PublishedJob,
 } from "@/lib/published-jobs";
-import { getRelatedJobs } from "@/lib/related-jobs";
+import { getDiscoveryRecommendations } from "@/lib/discovery-recommendations";
 import { getTransferableFit } from "@/lib/transferable-fit";
 import styles from "./job-page.module.css";
 
@@ -114,15 +114,7 @@ export default async function JobPage({ params }: PageProps) {
   const transferableFit = getTransferableFit(job.job_id);
   const publishedJobs = getPublishedJobs();
   const cityPage = getActiveCityPageForJob(job.job_id);
-  const cityJobIds = new Set(
-    cityPage?.jobs.flatMap((cityJob) =>
-      typeof cityJob.job_id === "string" ? [cityJob.job_id] : []
-    ) ?? []
-  );
-  const relatedPool = cityPage
-    ? publishedJobs.filter((candidate) => cityJobIds.has(candidate.job_id))
-    : publishedJobs;
-  const relatedJobs = getRelatedJobs(job, relatedPool);
+  const discoveryJobs = getDiscoveryRecommendations(job, publishedJobs);
   const regionalJobsLabel = moreJobsLabel(job.slice_label);
   const cityJobsLabel = cityPage
     ? moreJobsLabel(cityPage.definition.listingLabel)
@@ -149,7 +141,7 @@ export default async function JobPage({ params }: PageProps) {
 
       <div
         className={`${styles.contentGrid} ${
-          relatedJobs.length || transferableFit ? "" : styles.singleColumn
+          discoveryJobs.length || transferableFit ? "" : styles.singleColumn
         }`}
       >
         <article className={styles.article}>
@@ -253,18 +245,13 @@ export default async function JobPage({ params }: PageProps) {
           </div>
         </article>
 
-        {relatedJobs.length || transferableFit ? (
+        {discoveryJobs.length || transferableFit ? (
           <aside className={styles.sidebar} aria-label="Related job information">
-            {relatedJobs.length ? (
+            {discoveryJobs.length ? (
               <MoreJobsNearby
-                jobs={relatedJobs}
+                jobs={discoveryJobs}
                 allJobsPath={primaryListing.href}
                 allJobsLabel={primaryListing.label}
-                intro={
-                  cityPage
-                    ? `Other current roles on the ${cityPage.definition.listingLabel} page.`
-                    : undefined
-                }
                 secondaryAllJobsPath={secondaryListing?.href}
                 secondaryAllJobsLabel={secondaryListing?.label}
               />
@@ -273,7 +260,7 @@ export default async function JobPage({ params }: PageProps) {
             {transferableFit ? (
               <div
                 className={styles.desktopTransferableFit}
-                style={{ marginTop: relatedJobs.length ? 16 : 0 }}
+                style={{ marginTop: discoveryJobs.length ? 16 : 0 }}
               >
                 <TransferableFitCard
                   fit={transferableFit}
