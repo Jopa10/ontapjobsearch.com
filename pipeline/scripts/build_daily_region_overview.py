@@ -27,6 +27,7 @@ OUTPUT = PIPELINE_ROOT / "reports-daily" / "daily-region-overview.md"
 JOBG8_CATEGORY_PROFILE = PIPELINE_ROOT / "reports-daily" / "jobg8-feed-category-profile.csv"
 GEO_LOOKUP = PIPELINE_ROOT / "geo" / "geo_lookup.xlsx"
 CITY_PAGE_REGISTER = PIPELINE_ROOT / "city_pages" / "city-page-register.json"
+BROAD_CITY_PAGE_REGISTER = PIPELINE_ROOT / "city_pages" / "broad-city-page-register.json"
 CITY_PAGE_THRESHOLD = 4
 NON_LOCALITY_LABELS = {
     "city",
@@ -239,12 +240,18 @@ def _load_mapped_localities(path: Path = GEO_LOOKUP) -> dict[str, tuple[str, str
         workbook.close()
 
 
-def _active_city_pages(path: Path = CITY_PAGE_REGISTER) -> dict[str, list[str]]:
+def _active_city_pages(
+    path: Path = CITY_PAGE_REGISTER,
+    broad_path: Path | None = None,
+) -> dict[str, list[str]]:
     raw = _load_json(path)
-    if not isinstance(raw, list):
-        raise RuntimeError(f"City-page register must be an array: {path}")
+    broad_raw = _load_json(BROAD_CITY_PAGE_REGISTER) if broad_path is None and path == CITY_PAGE_REGISTER else []
+    if broad_path is not None:
+        broad_raw = _load_json(broad_path)
+    if not isinstance(raw, list) or not isinstance(broad_raw, list):
+        raise RuntimeError("City-page registers must be arrays")
     result: dict[str, list[str]] = defaultdict(list)
-    for item in raw:
+    for item in [*raw, *broad_raw]:
         if not isinstance(item, dict) or _normalise_place(item.get("lifecycle_state")) != "active":
             continue
         locality = _normalise_place(item.get("display_name"))
@@ -462,6 +469,14 @@ def _published_page_inventory() -> tuple[list[list[object]], dict[str, int]]:
                 route,
                 _job_count(output) if output.is_file() else 0,
             )
+
+    broad_city_register = _load_json(BROAD_CITY_PAGE_REGISTER) or []
+    for row in broad_city_register:
+        if row.get("lifecycle_state") != "active":
+            continue
+        route = str(row.get("route") or "").strip()
+        if route:
+            add("City", str(row.get("display_name") or ""), "All roles", route)
 
     configured_files: list[Path] = []
     for (region, category), status in statuses.items():

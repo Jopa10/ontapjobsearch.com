@@ -1,0 +1,12 @@
+[
+  { "display_name": "Nottingham", "slug": "nottingham", "region": "Nottinghamshire", "route": "/nottingham/jobs", "lifecycle_state": "active" },
+  { "display_name": "Wakefield", "slug": "wakefield", "region": "Yorkshire - West", "route": "/wakefield/jobs", "lifecycle_state": "active" },
+  { "display_name": "Bolton", "slug": "bolton", "region": "Greater Manchester - Wigan & Bolton", "route": "/bolton/jobs", "lifecycle_state": "active" },
+  { "display_name": "Reading", "slug": "reading", "region": "Berkshire", "route": "/reading/jobs", "lifecycle_state": "active" },
+  { "display_name": "Chester", "slug": "chester", "region": "Cheshire - West", "route": "/chester/jobs", "lifecycle_state": "active" },
+  { "display_name": "Durham", "slug": "durham", "region": "North East - County Durham & Darlington/Hartlepool", "route": "/durham/jobs", "lifecycle_state": "active" },
+  { "display_name": "Gateshead", "slug": "gateshead", "region": "North East - Tyneside, Wearside & Northumberland", "route": "/gateshead/jobs", "lifecycle_state": "active" },
+  { "display_name": "Northallerton", "slug": "northallerton", "region": "Yorkshire - North", "route": "/northallerton/jobs", "lifecycle_state": "active" },
+  { "display_name": "Norwich", "slug": "norwich", "region": "Norfolk", "route": "/norwich/jobs", "lifecycle_state": "active" },
+  { "display_name": "Salford", "slug": "salford", "region": "Greater Manchester - Manchester & Salford", "route": "/salford/jobs", "lifecycle_state": "active" }
+]

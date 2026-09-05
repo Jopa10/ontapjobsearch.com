@@ -1,5 +1,13 @@
 # City-page derivation
 
+## Broad all-role town and city pages
+
+The permanent broad-city register is `broad-city-page-register.json`. These routes use `/[city]/jobs` and combine the unique current published inventory across every live role and provider. They are distinct from role-specific city pages such as `/york/service-administrator-jobs`.
+
+Broad pages use conservative exact-locality evidence first. An alternative location carried by another currently published representation of the same job may supply the more-specific factual locality without creating a duplicate vacancy. Nearby places are fail-closed: a row must be an active, fully approved `include` in `pipeline/registers/city_nearby_rules.csv`, both localities must have approved coordinates, and the straight-line distance must be no more than 15 miles. No nearby rows are currently approved.
+
+Active broad routes are permanent. They stay on Browse Jobs and in the sitemap at any current count, while homepage visibility uses the existing 4-job floor. The daily CITY OPPORTUNITIES report reads both city registers so an active broad page is reported as `LIVE PAGE`, not repeatedly proposed for creation.
+
 City pages are derived geographic views of final approved regional pages. They are not separate feeds or classification pipelines.
 
 The flow is:

@@ -64,7 +64,8 @@ class LiveRegionalRollupTests(unittest.TestCase):
             "/london/west-service-administrator-jobs",
         }
         self.assertTrue(london_admin_routes.issubset(routes))
-        self.assertEqual(counts["City"], 25)
+        self.assertTrue({"/nottingham/jobs", "/wakefield/jobs", "/salford/jobs"}.issubset(routes))
+        self.assertEqual(counts["City"], 35)
 
     def test_family_coverage_requires_one_feed_date(self) -> None:
         from pathlib import Path

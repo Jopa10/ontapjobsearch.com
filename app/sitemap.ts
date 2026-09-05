@@ -6,6 +6,7 @@ import {
 } from '@/lib/city-page-data'
 import { getJobPath, getPublishedJobs } from '@/lib/published-jobs'
 import { getPublishedDynamicSlices } from '@/lib/configured-job-slices'
+import { broadCityDefinitions, getBroadCityJobs } from '@/lib/broad-city-pages'
 
 const siteUrl = 'https://www.ontapjobsearch.com'
 
@@ -47,10 +48,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     .filter((definition) => isCityPageActive(definition))
     .map((definition) => ({ definition, jobs: getCityPageJobs(definition) }))
   const cityRoutes = activeCities.map(({ definition }) => definition.route)
+  const broadCities = broadCityDefinitions.map((definition) => ({ definition, jobs: getBroadCityJobs(definition).exact }))
+  const broadCityRoutes = broadCities.map(({ definition }) => definition.route)
   const configuredRoutes = getPublishedDynamicSlices().map((slice) => slice.route)
   const routes = [
     ...baseRoutes,
     ...cityRoutes.filter((route) => !baseRoutes.includes(route)),
+    ...broadCityRoutes.filter((route) => !baseRoutes.includes(route) && !cityRoutes.includes(route)),
     ...configuredRoutes.filter(
       (route) => !baseRoutes.includes(route) && !cityRoutes.includes(route)
     ),
@@ -70,10 +74,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const staticPages = routes.map((route) => {
     const city = activeCities.find(({ definition }) => definition.route === route)
+    const broadCity = broadCities.find(({ definition }) => definition.route === route)
     const routeDates = city
       ? city.jobs
           .map((job) => dateFrom(typeof job.posted_date === 'string' ? job.posted_date : ''))
           .filter((date): date is Date => Boolean(date))
+      : broadCity
+        ? broadCity.jobs
+            .map((job) => dateFrom(job.posted_date))
+            .filter((date): date is Date => Boolean(date))
       : route === '/' || route === '/browse-jobs'
         ? [...dates, ...allCityDates]
         : jobs

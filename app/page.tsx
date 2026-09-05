@@ -6,6 +6,7 @@ import {
   isCityPageActive,
 } from '@/lib/city-page-data';
 import { getPublishedDynamicSlices } from '@/lib/configured-job-slices';
+import { broadCityDefinitions, getBroadCityJobs } from '@/lib/broad-city-pages';
 import {
   getJobPath,
   getPublishedJobs,
@@ -143,6 +144,13 @@ function activeCityLinks(kind: 'admin' | 'support'): RegionLink[] {
       href: definition.route,
       count: getCityPageJobs(definition).length,
     }))
+    .filter((route) => route.count >= homepageCityMinimumJobs)
+    .sort((left, right) => left.label.localeCompare(right.label, 'en-GB'));
+}
+
+function activeBroadCityLinks(): RegionLink[] {
+  return broadCityDefinitions
+    .map((city) => ({ label: city.display_name, href: city.route, count: getBroadCityJobs(city).exact.length }))
     .filter((route) => route.count >= homepageCityMinimumJobs)
     .sort((left, right) => left.label.localeCompare(right.label, 'en-GB'));
 }
@@ -313,6 +321,7 @@ export default function Page() {
     ...activeCityLinks('support'),
   ];
   const currentJobs = selectHomepageRecentJobs(jobs, 4);
+  const broadCities = activeBroadCityLinks();
 
   return (
     <>
@@ -461,6 +470,19 @@ export default function Page() {
               </div>
             </div>
           </section>
+
+          {broadCities.length ? (
+            <section aria-labelledby="browse-city-heading" className="mt-5 rounded-xl border border-gray-200 bg-white p-3.5 sm:p-4">
+              <div className="mb-3 flex flex-wrap items-end justify-between gap-2">
+                <div>
+                  <h2 id="browse-city-heading" className="text-xl font-bold text-gray-900">Browse all jobs by town or city</h2>
+                  <p className="mt-0.5 text-sm text-gray-600">Local pages covering every current role and provider.</p>
+                </div>
+                <Link href="/browse-jobs#town-city-jobs" className="text-sm font-semibold text-blue-700">View all town and city pages →</Link>
+              </div>
+              <RegionGrid regions={broadCities} />
+            </section>
+          ) : null}
 
         </div>
       </main>

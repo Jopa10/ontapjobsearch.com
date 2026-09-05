@@ -5,6 +5,7 @@ import {
   isCityPageActive,
 } from '@/lib/city-page-data';
 import { getPublishedDynamicSlices } from '@/lib/configured-job-slices';
+import { broadCityDefinitions, getBroadCityJobs } from '@/lib/broad-city-pages';
 import westYorkshireSupportWorkerJobs from '../west-yorkshire/support-worker.json';
 import southYorkshireSupportWorkerJobs from '../south-yorkshire/support-worker.json';
 import northEastSupportWorkerJobs from '../north-east/support-worker-jobs.json';
@@ -82,6 +83,19 @@ const activeCityCards = (kind: 'admin' | 'support'): BrowseCard[] =>
 const adminCityCards = activeCityCards('admin');
 const supportCityCards = activeCityCards('support');
 
+const broadCityCards: BrowseCard[] = broadCityDefinitions
+  .map((city) => {
+    const count = getBroadCityJobs(city).exact.length;
+    return {
+      title: `${city.display_name} Jobs`,
+      href: city.route,
+      description: `Current vacancies across all live job categories in ${city.display_name}, ${city.region}.`,
+      status: `${count} current job${count === 1 ? '' : 's'}`,
+      statusClassName: count > 0 ? activeStatusClassName : pausedStatusClassName,
+    };
+  })
+  .sort((left, right) => left.title.localeCompare(right.title, 'en-GB'));
+
 const getSupportWorkerStatus = (
   jobs: unknown[],
   region: string
@@ -124,6 +138,12 @@ const hampshireSupportWorkerStatus = getSupportWorkerStatus(
 );
 
 const jobSections: BrowseSection[] = [
+  {
+    id: 'town-city-jobs',
+    heading: 'Jobs by town or city',
+    intro: 'Broad local pages covering every live Ontap job category, refreshed with the current published inventory.',
+    cards: broadCityCards,
+  },
   {
     id: 'admin-service-jobs',
     heading: 'Active admin, service administrator and customer-service jobs',
