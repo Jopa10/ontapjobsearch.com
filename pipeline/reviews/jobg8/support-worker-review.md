@@ -17,12 +17,6 @@ SELECTED | Yorkshire - West | Bradford | £13.75 - £14.5 per hour (Including ho
 job_id: 23643_225476096
 ---
 
----
-action:
-SELECTED | Yorkshire - West | Wakefield | £28,031.56 per annum | Support Worker (Outreach)
-job_id: 1775593
----
-
 ## WEST YORKSHIRE — POSSIBLES
 
 _No jobs in this group._
@@ -293,6 +287,12 @@ job_id: 23643_225572376
 action:
 SELECTED | London | London | £15.5 - £20 per hour | Reconnect+ Support Worker
 job_id: 23643_225572316
+---
+
+---
+action:
+SELECTED | London | City | £26679 - £31325 per year | Mentoring Support Worker - Moving Forward Moving On
+job_id: 2052022
 ---
 
 ## LONDON — POSSIBLES
