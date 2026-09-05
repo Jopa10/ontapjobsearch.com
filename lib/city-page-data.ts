@@ -31,6 +31,15 @@ export type CityPageDefinition = {
   active?: boolean;
 };
 
+export type CityPageBreadcrumb = {
+  cityLabel: string;
+  cityRoute: string;
+  parentLabel: string;
+  parentRoute: string;
+  roleLabel: string;
+  roleRoute: string;
+};
+
 export type ActiveCityPage = {
   definition: CityPageDefinition;
   jobs: CityPageJob[];
@@ -53,9 +62,65 @@ function usableText(value: unknown): value is string {
 }
 
 function parentRouteFromPage(value: string): string {
+  const configuredPrefix = "app/_city-pages/configured-slices/";
+  if (value.startsWith(configuredPrefix)) {
+    return `/job-search/${value.slice(configuredPrefix.length).replace(/\.json$/, "")}`;
+  }
   let route = `/${value.replace(/^app\//, "").replace(/\.json$/, "")}`;
   if (route.endsWith("/support-worker-jobs")) route = route.replace(/-jobs$/, "");
   return route;
+}
+
+const parentLabels: Record<string, string> = {
+  "birmingham-solihull": "Birmingham & Solihull",
+  "bristol-bath": "Bristol & Bath",
+  "cardiff-vale": "Cardiff & Vale",
+  "coventry-warwickshire": "Coventry & Warwickshire",
+  "east-yorkshire": "East Yorkshire",
+  "edinburgh-lothians": "Edinburgh & Lothians",
+  glasgow: "Glasgow",
+  hampshire: "Hampshire",
+  "manchester-salford": "Manchester & Salford",
+  "merseyside-liverpool": "Merseyside & Liverpool",
+  "north-east": "North East",
+  "north-yorkshire": "North Yorkshire",
+  "northern-ireland-east": "Northern Ireland East",
+  oxfordshire: "Oxfordshire",
+  "south-yorkshire": "South Yorkshire",
+  sussex: "Sussex",
+  "warrington-halton": "Warrington & Halton",
+  "west-yorkshire": "West Yorkshire",
+};
+
+function parentLabelFromRoute(route: string): string {
+  const parts = route.split("/").filter(Boolean);
+  const regionSlug = parts[0] === "job-search" ? parts[1] : parts[0];
+  return (
+    parentLabels[regionSlug] ||
+    regionSlug
+      .split("-")
+      .map((part) => part.charAt(0).toUpperCase() + part.slice(1))
+      .join(" ")
+  );
+}
+
+function roleBreadcrumb(
+  categoryLabel: string
+): Pick<CityPageBreadcrumb, "roleLabel" | "roleRoute"> {
+  if (categoryLabel.toLowerCase().includes("support worker")) {
+    return {
+      roleLabel: "Support Worker jobs",
+      roleRoute: "/browse-jobs#support-worker-jobs",
+    };
+  }
+  return {
+    roleLabel: "Service Administrator jobs",
+    roleRoute: "/browse-jobs#admin-service-jobs",
+  };
+}
+
+function normalisedJsonPath(jsonPath: readonly string[]): string {
+  return jsonPath.join("/");
 }
 
 function definitionFromTechnical(row: TechnicalCityPage): CityPageDefinition | null {
@@ -138,6 +203,44 @@ export const newcastleServiceAdministratorPage: CityPageDefinition =
 
 export function getCityPageDefinitionByRoute(route: string): CityPageDefinition | null {
   return cityPageDefinitions.find((definition) => definition.route === route) || null;
+}
+
+export function getCityPageDefinitionByJsonPath(
+  jsonPath: readonly string[]
+): CityPageDefinition | null {
+  const target = normalisedJsonPath(jsonPath);
+  return (
+    cityPageDefinitions.find((definition) => normalisedJsonPath(definition.jsonPath) === target) ||
+    null
+  );
+}
+
+export function getActiveCityLinksForParentJsonPath(
+  jsonPath: readonly string[]
+): Array<{ href: string; label: string }> {
+  const target = normalisedJsonPath(jsonPath);
+  return cityPageDefinitions
+    .filter((definition) => definition.active === true)
+    .filter((definition) => {
+      const registerParentPath = definition.parentRoute.startsWith("/job-search/")
+        ? `app/_city-pages/configured-slices/${definition.parentRoute.slice("/job-search/".length)}.json`
+        : `app${definition.parentRoute}.json`;
+      return registerParentPath === target;
+    })
+    .map((definition) => ({ href: definition.route, label: definition.displayName }))
+    .sort((left, right) => left.label.localeCompare(right.label, "en-GB"));
+}
+
+export function getCityPageBreadcrumb(jsonPath: readonly string[]): CityPageBreadcrumb | null {
+  const definition = getCityPageDefinitionByJsonPath(jsonPath);
+  if (!definition || definition.active !== true) return null;
+  return {
+    cityLabel: definition.displayName,
+    cityRoute: definition.route,
+    parentLabel: parentLabelFromRoute(definition.parentRoute),
+    parentRoute: definition.parentRoute,
+    ...roleBreadcrumb(definition.categoryLabel),
+  };
 }
 
 function usableJob(value: unknown): value is CityPageJob {

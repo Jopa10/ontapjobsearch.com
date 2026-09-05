@@ -9,6 +9,11 @@ import { normaliseJobTitle } from "@/lib/job-title";
 import TrainingLink from "@/components/traininglink";
 import styles from "@/components/JobSlicePage.module.css";
 import { classifyJobSector } from "@/lib/job-sector";
+import {
+  getActiveCityLinksForParentJsonPath,
+  getCityPageBreadcrumb,
+  type CityPageBreadcrumb,
+} from "@/lib/city-page-data";
 import type { ReactNode } from "react";
 
 type JobRow = {
@@ -247,6 +252,55 @@ function BrowseLinksPanel({ browseLinks }: { browseLinks: BrowseLinks }) {
   );
 }
 
+function CityBreadcrumbs({ breadcrumb }: { breadcrumb: CityPageBreadcrumb }) {
+  const siteUrl = "https://www.ontapjobsearch.com";
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: `${siteUrl}/` },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: breadcrumb.roleLabel,
+        item: `${siteUrl}${breadcrumb.roleRoute}`,
+      },
+      {
+        "@type": "ListItem",
+        position: 3,
+        name: breadcrumb.parentLabel,
+        item: `${siteUrl}${breadcrumb.parentRoute}`,
+      },
+      {
+        "@type": "ListItem",
+        position: 4,
+        name: breadcrumb.cityLabel,
+        item: `${siteUrl}${breadcrumb.cityRoute}`,
+      },
+    ],
+  };
+
+  return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schema).replace(/</g, "\\u003c") }}
+      />
+      <nav className={styles.breadcrumbs} aria-label="Breadcrumb">
+        <ol>
+          <li><Link href="/">Home</Link></li>
+          <li aria-hidden="true">›</li>
+          <li><Link href={breadcrumb.roleRoute}>{breadcrumb.roleLabel}</Link></li>
+          <li aria-hidden="true">›</li>
+          <li><Link href={breadcrumb.parentRoute}>{breadcrumb.parentLabel}</Link></li>
+          <li aria-hidden="true">›</li>
+          <li aria-current="page">{breadcrumb.cityLabel}</li>
+        </ol>
+      </nav>
+    </>
+  );
+}
+
 function EmptyJobs() {
   return (
     <div
@@ -298,6 +352,8 @@ export default function JobSlicePage({
     business: jobs.length - publicJobCount,
     public: publicJobCount,
   };
+  const cityBreadcrumb = getCityPageBreadcrumb(jsonPath);
+  const childCityLinks = getActiveCityLinksForParentJsonPath(jsonPath);
 
   return (
     <div className={softPageBackground ? styles.softPageBackground : undefined}>
@@ -346,6 +402,7 @@ export default function JobSlicePage({
         </aside>
 
         <div className={styles.content}>
+          {cityBreadcrumb ? <CityBreadcrumbs breadcrumb={cityBreadcrumb} /> : null}
           <div style={{ marginBottom: compactPageSpacing ? 8 : 14 }}>
             <h1
               style={{
@@ -369,6 +426,14 @@ export default function JobSlicePage({
                 `Updated daily • Latest update: ${latestUpdate} • Roles across ${region} • Apply on employer sites`}
             </p>
           </div>
+
+          {childCityLinks.length ? (
+            <div style={{ marginBottom: 8 }}>
+              <BrowseLinksPanel
+                browseLinks={{ heading: "Browse by city", compact: true, links: childCityLinks }}
+              />
+            </div>
+          ) : null}
 
           {browseLinks ? (
             <div style={{ marginBottom: browseLinks.compact ? 8 : 12 }}>

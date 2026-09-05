@@ -35,6 +35,7 @@ type BrowseCardGroup = {
 };
 
 type BrowseSection = {
+  id?: string;
   heading: string;
   intro: string;
   cards: BrowseCard[];
@@ -124,6 +125,7 @@ const hampshireSupportWorkerStatus = getSupportWorkerStatus(
 
 const jobSections: BrowseSection[] = [
   {
+    id: 'admin-service-jobs',
     heading: 'Active admin, service administrator and customer-service jobs',
     intro: 'These pages are the current active offer and contain live admin-service job supply.',
     cards: [
@@ -238,6 +240,7 @@ const jobSections: BrowseSection[] = [
       ]
     : []),
   {
+    id: 'support-worker-jobs',
     heading: 'Support worker jobs',
     intro:
       'Current support-worker pages are listed below. Individual pages show whether supply is active or temporarily limited.',
@@ -320,7 +323,7 @@ export default function Page() {
 
       <div className="grid gap-8">
         {jobSections.map((section) => (
-          <section key={section.heading}>
+          <section key={section.heading} id={section.id}>
             <div className="mb-3">
               <h2 className="text-2xl font-semibold tracking-tight text-gray-900 sm:-ml-2 sm:text-3xl">
                 {section.heading}

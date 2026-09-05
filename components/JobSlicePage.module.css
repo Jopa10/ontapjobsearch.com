@@ -11,6 +11,40 @@
   align-items: start;
 }
 
+.breadcrumbs {
+  margin: 0 0 7px;
+  color: #64748b;
+  font-size: 13px;
+  line-height: 1.4;
+}
+
+.breadcrumbs ol {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 5px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.breadcrumbs a {
+  color: #1d4ed8;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+}
+
+.breadcrumbs a:hover {
+  color: #1e40af;
+}
+
+.breadcrumbs a:focus-visible {
+  border-radius: 3px;
+  outline: 3px solid rgba(37, 99, 235, 0.25);
+  outline-offset: 2px;
+}
+
 .sidebar {
   align-self: start;
   position: sticky;
