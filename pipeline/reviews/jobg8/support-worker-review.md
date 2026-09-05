@@ -280,23 +280,20 @@ job_id: 23643_225572376
 ## LONDON — POSSIBLES
 
 ---
-action:
+action: select
 POSS - LONDON | London | London | £15.5 - £20 per hour | Reconnect+ Support Worker
 job_id: 23643_225572316
 ---
-
 ---
-action:
+action: select
 POSS - LONDON | London | City | £12.75 - £21.55 per hour | Children's Residential Support Worker - Belfast
 job_id: 2049697
 ---
-
 ---
-action:
+action: select
 POSS - LONDON | London | City | £14.5 - £19.75 per hour | Housing Support Worker
 job_id: 23643_224986550
 ---
-
 ## OXFORDSHIRE — SELECTED
 
 ---

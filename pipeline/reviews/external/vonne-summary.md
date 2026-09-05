@@ -67,7 +67,7 @@ source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173393
 ## POSS — choose SELECT or EXCLUDE
 
 ---
-action:
+action: select
 POSS | North East | Hybrid | £ Per Annum | Project Development Co-ordinator
 employer: National Energy Action
 closing_date: 17 September 2026
@@ -106,7 +106,7 @@ source_job_id: 173310
 source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173310
 ---
 ---
-action:
+action: select
 POSS | North East - Tyneside, Wearside & Northumberland | Tyne and Wear | £23,370 to 23,790 | Receptionist
 employer: Foundation of Light
 closing_date: Friday, September 11, 2026 - 00:00
@@ -119,7 +119,7 @@ source_job_id: 173374
 source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173374
 ---
 ---
-action:
+action: select
 POSS | North East - Tyneside, Wearside & Northumberland | Northumberland | £30,075 Per Annum | Womens Specialist ISC Coach
 employer: Changing Lives
 closing_date: 16 September 2026
@@ -132,7 +132,7 @@ source_job_id: 173392
 source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173392
 ---
 ---
-action:
+action: select
 POSS | North East - Tyneside, Wearside & Northumberland | Northumberland | £30,075 Pro Rata | Womens Specialist ISC Coach - Part Time
 employer: Changing Lives
 closing_date: 16 September 2026

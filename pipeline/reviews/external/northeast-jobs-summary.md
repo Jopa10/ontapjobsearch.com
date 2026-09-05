@@ -184,7 +184,7 @@ source_job_id: 300972
 source_url: https://www.northeastjobs.org.uk/job/PA_Support_Officer/300972
 ---
 ---
-action:
+action: select
 POSS | North East - County Durham & Darlington/Hartlepool | New College Durham - Framwellgate Moor | Support Grade F02 - F03; £32,012 to £32,975 per annum | Personal Development Coach Coordinator
 employer: New College Durham
 closing_date: 20/09/2026
