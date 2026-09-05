@@ -2,15 +2,27 @@
 
 review_date: 2026-09-05
 
-- Open Administrative & Clerical rows reviewed: 2098
-- Auto/remembered selected: 406
-- Selected HC Tier A: 194
-- Selected HC Tier B: 212
-- POSS awaiting decision: 1524
+- Open Administrative & Clerical rows reviewed: 2086
+- Auto/remembered selected: 401
+- Selected HC Tier A: 191
+- Selected HC Tier B: 210
+- POSS awaiting decision: 1519
 - Excluded: 0
-- HARD_PASS: 168
+- HARD_PASS: 166
 
 Edit only each `action:` line for POSS rows. Unchanged decisions are restored by the shared decision ledger.
+
+---
+action:
+POSS | NHS Jobs | Greater Manchester - Wigan & Bolton | Bolton, BL1 5DD | £49387.00 to £56515.00 | PTS Operations Manager
+source_job_id: 5581301
+title: PTS Operations Manager
+employer: North West Ambulance Service NHS Trust
+region: Greater Manchester - Wigan & Bolton
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9242-26-0176
+factual_fingerprint: f43c28829bf984c113e16d903840157999152998c15c77b708ebd22f1d2a0334
+---
 
 ---
 action:
@@ -129,7 +141,7 @@ employer: Victoria Park Health Centre
 region: Leicestershire
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A2936-26-0006
-factual_fingerprint: 37657d52f11a9291493ac923c9daa70d80110a69d2405cd9d8924b7e8bd8d2dc
+factual_fingerprint: dcc9f4fc26dd489139a83e5d0863afcaa6487b5ba681989172ec612fdd3c756f
 ---
 
 ---
@@ -3734,18 +3746,6 @@ factual_fingerprint: 7b25412b4db281fa949bd7f64cc670f247968657bb49b43d4c36843ceb5
 
 ---
 action:
-POSS | NHS Jobs | London | Purley, CR8 2YL | £30630.00 to £32346.00 | 0-19 PHN Safeguarding Administrator
-source_job_id: 5576533
-title: 0-19 PHN Safeguarding Administrator
-employer: Croydon Health Services NHS Trust
-region: London
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9199-8232907-NA
-factual_fingerprint: 833cd3b04f7bf0237dd8a03da97b48b741c07454ef3ae69c8b342f339a4b1d71
----
-
----
-action:
 POSS | NHS Jobs | North East | Gateshead, NE9 6SX | £49387.00 to £56515.00 | Health Roster System Manager
 source_job_id: 5576847
 title: Health Roster System Manager
@@ -6110,18 +6110,6 @@ factual_fingerprint: d7acb1ba2f15f24ffee2ad60b78c96779cb7b0909104bcea71849af5bb0
 
 ---
 action:
-POSS | NHS Jobs | London | Croydon, CR7 7YE | £36943.00 to £44900.00 | Applications Support Analyst
-source_job_id: 5573041
-title: Applications Support Analyst
-employer: Croydon Health Services NHS Trust
-region: London
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9199-8220875-NA
-factual_fingerprint: 0f8c127f64554ab89877eb797265c1215bcfb45d4b81f7c24daf514ae36a05c3
----
-
----
-action:
 POSS | NHS Jobs | Hampshire | Fleet, GU51 4LZ | £13553.00 to £14425.00 | Orthotics Appointments Officer
 source_job_id: 5572260
 title: Orthotics Appointments Officer
@@ -7306,18 +7294,6 @@ region:
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/D9461-26-0010
 factual_fingerprint: f60b7ebd383558b279279a7ed5ab1aafe8d516df4276e9314e25b933b9f7301a
----
-
----
-action:
-POSS | NHS Jobs | London | Haggerston, London, N1 5QJ | £34186.00 to £37389.00 | Patient Pathway Coordinator
-source_job_id: 5571335
-title: Patient Pathway Coordinator
-employer: Homerton Healthcare NHS Foundation Trust
-region: London
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9293-26-0452
-factual_fingerprint: 2832b74b21d683e37e65e7b907829152b3f0a050f86a59597bb2c863a741d710
 ---
 
 ---
@@ -12542,30 +12518,6 @@ factual_fingerprint: c437f474f3daa91535995c8a514a484c338f8bbebfd091b6139857eefd2
 
 ---
 action:
-POSS | NHS Jobs | Hampshire | Basingstoke, RG24 9NA | £28392.00 to £31157.00 | Speciality Co-ordinator
-source_job_id: 5562057
-title: Speciality Co-ordinator
-employer: Hampshire Hospitals NHS Foundation Trust
-region: Hampshire
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9251-26-0639
-factual_fingerprint: b0fcba5ae54dcf220468e179194ca50c4d899d57635452075552e1f4243ad5a9
----
-
----
-action:
-POSS | NHS Jobs | Hampshire | Winchester, RG24 9NA | £28392.00 to £31157.00 | Speciality Co-ordinator
-source_job_id: 5561898
-title: Speciality Co-ordinator
-employer: Hampshire Hospitals NHS Foundation Trust
-region: Hampshire
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9251-26-0638
-factual_fingerprint: 54846b9eae83b3abe8f965d6bd021b9f21bd680c0fbc44c3a020cce0d8c53992
----
-
----
-action:
 POSS | NHS Jobs | West Midlands - Coventry & Warwickshire | Warwick, CV34 5BW | Negotiable | Chief Nursing Officer
 source_job_id: 5562428
 title: Chief Nursing Officer
@@ -14470,18 +14422,6 @@ region: Wales South - Gwent
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/H9040-26-0896
 factual_fingerprint: 848c325d185398e2bc43db3f21f7d714319c24624d323ce477d9ff57ba0a8623
----
-
----
-action:
-POSS | NHS Jobs | West Midlands - Black Country | Wolverhampton, WV10 0QP | £25760.00 to £27476.00 | Assistant Buyer
-source_job_id: 5558285
-title: Assistant Buyer
-employer: University Hospital of North Midlands NHS Trust
-region: West Midlands - Black Country
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9205-26-1736
-factual_fingerprint: a7ccc8a92d32af2b3ba82589365987a88f79e54c15b203531977a0b294bce639
 ---
 
 ---

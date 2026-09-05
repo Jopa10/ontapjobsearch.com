@@ -6,9 +6,201 @@ The `excluded_on` date is the day the exclusion decision was made.
 To restore a job, edit only its `action:` line to `action: select`.
 On the next JobG8 run that exact job ID will be restored and removed from this list.
 
-remembered_exclusions: 256
+remembered_exclusions: 272
 
 ## SERVICE / ADMIN — EXCLUDED
+
+---
+action:
+category: service_admin
+excluded_on: 2026-09-05
+title: Service Advisor
+employer: Swipe Right Recruitment
+region: 
+town: London
+salary: 
+job_id: 107751591
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-09-05
+title: Service & Installation Co-Ordinator/Administrator
+employer: Elix Sourcing Solutions
+region: 
+town: Leicestershire
+salary: 
+job_id: 23643_225570840
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-09-05
+title: Salesforce Analyst & Administrator (Cyber Security)
+employer: Ernest Gordon Recruitment
+region: 
+town: Leicestershire
+salary: 
+job_id: 107929699
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-09-05
+title: Quality Co-ordinator
+employer: Hays Business Support
+region: 
+town: Lincolnshire
+salary: 
+job_id: 23643_225567312
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-09-05
+title: Quality Assurance Coordinator
+employer: Staffline Operations
+region: 
+town: Hampshire
+salary: 
+job_id: 107910998
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-09-05
+title: Principal / Associate Town Planner
+employer: Morson Edge
+region: 
+town: South Glamorgan
+salary: 
+job_id: 107839980
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-09-05
+title: Executive Assistant and Board Administrator
+employer: Harris Hill Charity Recruitment Specialists
+region: 
+town: London
+salary: 
+job_id: 1861697
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-09-05
+title: Executive Assistant & Office Experience Coordinator
+employer: ASL Technical Ltd
+region: 
+town: London
+salary: 
+job_id: 23643_225569021
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-09-05
+title: Executive Assistant
+employer: Dynamite Recruitment
+region: 
+town: Hampshire
+salary: 
+job_id: 23643_225571338
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-09-05
+title: Energy Transition Project Coordinator
+employer: Apple Recruitment
+region: 
+town: Belfast
+salary: 
+job_id: 2051937
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-09-05
+title: Document Controller
+employer: Fawkes & Reece London
+region: 
+town: Hertfordshire
+salary: 
+job_id: 23643_225568538
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-09-05
+title: Document Controller
+employer: Fawkes & Reece London
+region: 
+town: Essex
+salary: 
+job_id: 23643_225568535
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-09-05
+title: Document Controller
+employer: Fawkes & Reece London
+region: 
+town: London
+salary: 
+job_id: 23643_225568531
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-09-05
+title: Conveyancing Secretary
+employer: Jobwise Ltd
+region: 
+town: Manchester
+salary: 
+job_id: 23643_225564604
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-09-05
+title: Contract Administration Coordinator
+employer: Ganymede Solutions
+region: 
+town: London
+salary: 
+job_id: 23643_225567373
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-09-05
+title: Business Administrator
+employer: Hamberley Care Management Limited
+region: 
+town: Surrey
+salary: 
+job_id: 23643_225562897
+---
 
 ---
 action:
