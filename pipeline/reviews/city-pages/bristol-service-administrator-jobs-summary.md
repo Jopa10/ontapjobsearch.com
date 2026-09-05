@@ -4,7 +4,7 @@
 - Live route: `/bristol/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 26
+- Effective included jobs: 25
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 26
-- automatic review: 2
-- automatic exclude: 2
-- effective include: 26
-- effective review: 2
-- effective exclude: 2
+- automatic include: 25
+- automatic review: 1
+- automatic exclude: 4
+- effective include: 25
+- effective review: 1
+- effective exclude: 4
 
-## INCLUDE (26)
+## INCLUDE (25)
 
 ---
 action: 
@@ -52,18 +52,6 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Administrative Assistant
-company: Royal Devon University Healthcare NHS Foundation Trust
-location: Bristol, BS2 8EG
-source: NHS Jobs
-job_id: nhs-5561013
-reason: Approved conservative Bristol launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Administrator
 company: Oxleas NHS Foundation Trust
 location: Bristol, BS16 9QJ
@@ -81,18 +69,6 @@ company: Sirona care & health CIC
 location: Bristol, BS10 6DF
 source: NHS Jobs
 job_id: nhs-5554527
-reason: Approved conservative Bristol launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrator
-company: Sirona care & health CIC
-location: Bradley Stoke, Bristol, BS32 4LB
-source: NHS Jobs
-job_id: nhs-5554722
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -153,6 +129,18 @@ company: Travail Employment Group - Agency - Permanent
 location: Bristol
 source: JobG8
 job_id: jobg8-23643_225557766
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Executive Assistant
+company: Experis - Agency - Temporary
+location: Bristol
+source: JobG8
+job_id: jobg8-23643_225564040
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -244,18 +232,6 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Office Administrator
-company: Lancer Scott Holdings Ltd - Agency - Permanent
-location: Bristol
-source: JobG8
-job_id: jobg8-23643_225469737
-reason: Approved conservative Bristol launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Reception and Appointment Clerk
 company: Bristol NHS Foundation Trust
 location: Bristol, BS2 8EL
@@ -328,6 +304,18 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Senior Administrator
+company: Sirona care & health CIC
+location: Bristol, BS6 6AU
+source: NHS Jobs
+job_id: nhs-5554666
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Service Coordinator - Equipment Hire
 company: Elix Sourcing Solutions Limited - Agency - Permanent
 location: Bristol
@@ -336,19 +324,7 @@ job_id: jobg8-1772093
 reason: Approved conservative Bristol launch catchment.
 ---
 
-## REVIEW (2)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
-company: Sirona care & health CIC
-location: Congresbury, BS495AA
-source: NHS Jobs
-job_id: nhs-5554523
-reason: No approved Bristol catchment rule matched; local review required.
----
+## REVIEW (1)
 
 ---
 action: 
@@ -362,7 +338,7 @@ job_id: jobg8-23643_225515534
 reason: No approved Bristol catchment rule matched; local review required.
 ---
 
-## EXCLUDE (2)
+## EXCLUDE (4)
 
 ---
 action: 
@@ -373,6 +349,30 @@ company: Juice Recruitment Ltd - Agency - Permanent
 location: Bath
 source: JobG8
 job_id: jobg8-1766156
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Receptionist - Care Home
+company: Barchester Healthcare
+location: Bath, BA2 3NR
+source: NHS Jobs
+job_id: nhs-5555799
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Receptionist Call Handler
+company: Fairfield Park Health Centre
+location: Bath, BA1 6EA
+source: NHS Jobs
+job_id: nhs-5550823
 reason: Separate employment market.
 ---
 

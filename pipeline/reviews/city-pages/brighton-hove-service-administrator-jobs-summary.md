@@ -4,7 +4,7 @@
 - Live route: `/brighton-hove/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 4
+- Effective included jobs: 3
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 4
-- automatic review: 28
-- automatic exclude: 3
-- effective include: 4
-- effective review: 28
-- effective exclude: 3
+- automatic include: 3
+- automatic review: 29
+- automatic exclude: 6
+- effective include: 3
+- effective review: 29
+- effective exclude: 6
 
-## INCLUDE (4)
+## INCLUDE (3)
 
 ---
 action: 
@@ -52,18 +52,6 @@ reason: Approved Brighton & Hove catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Receptionist
-company: Integrated Care 24 Ltd
-location: Brighton, BN1 1AE
-source: NHS Jobs
-job_id: nhs-5555750
-reason: Approved Brighton & Hove catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Receptionist (Bank)
 company: Warmdene Surgery
 location: Brighton, BN1 8DD
@@ -72,7 +60,7 @@ job_id: nhs-5548209
 reason: Approved Brighton & Hove catchment.
 ---
 
-## REVIEW (28)
+## REVIEW (29)
 
 ---
 action: 
@@ -366,6 +354,18 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
+title: Sales Administrator
+company: Workshop Recruitment - Agency - Permanent
+location: Sussex
+source: JobG8
+job_id: jobg8-23643_225567148
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Sales Support Administrator
 company: First Recruitment Services - Agency - Permanent
 location: Sussex
@@ -402,15 +402,15 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Temporary Project Support/ Project Coordinator
-company: Huntress - Crawley - Agency - Temporary
-location: Sussex
-source: JobG8
-job_id: jobg8-23643_225468462
-reason: Broad location; review before city inclusion.
+title: Year 9 Administrative Assistant including Year 10 work experience
+company: Bexhill High Academy
+location: Bexhill-on-Sea
+source: Teaching Vacancies
+job_id: teaching-vacancies-year-9-administrative-assistant-including-year-10-work-experience
+reason: No approved Brighton & Hove catchment rule matched; local review required.
 ---
 
-## EXCLUDE (3)
+## EXCLUDE (6)
 
 ---
 action: 
@@ -440,10 +440,46 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Office Manager
+company: Southgate Primary
+location: Crawley
+source: Teaching Vacancies
+job_id: teaching-vacancies-office-manager-southgate-primary-crawley-west-sussex
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Receptionist
 company: Arlington Road Medical Practice
 location: Eastbourne, BN21 1DH
 source: NHS Jobs
 job_id: nhs-5536742
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: School Secretary/Administrative Assistant
+company: St Wilfrids Catholic Primary School
+location: Littlehampton
+source: Teaching Vacancies
+job_id: teaching-vacancies-school-secretary-administrative-assistant
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Team Administrator
+company: Sussex Community NHS Foundation Trust
+location: Horsham, RH12 2DR
+source: NHS Jobs
+job_id: nhs-5580074
 reason: Separate employment market.
 ---

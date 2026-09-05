@@ -4,7 +4,7 @@
 - Live route: `/sheffield/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 11
+- Effective included jobs: 16
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 11
+- automatic include: 16
 - automatic review: 1
-- automatic exclude: 10
-- effective include: 11
+- automatic exclude: 11
+- effective include: 16
 - effective review: 1
-- effective exclude: 10
+- effective exclude: 11
 
-## INCLUDE (11)
+## INCLUDE (16)
 
 ---
 action: 
@@ -45,6 +45,18 @@ company: Sheffield Teaching Hospitals NHS Foundation Trust
 location: Sheffield, S2 3QE
 source: NHS Jobs
 job_id: nhs-5565689
+reason: Approved Sheffield catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Data Administrator
+company: Hays Business Support - Agency - Temporary
+location: Sheffield
+source: JobG8
+job_id: jobg8-23643_225571785
 reason: Approved Sheffield catchment.
 ---
 
@@ -81,6 +93,30 @@ company: Office Angels - Agency - Permanent
 location: Sheffield
 source: JobG8
 job_id: jobg8-23643_225558215
+reason: Approved Sheffield catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Permanent Admin Assistant
+company: Wybourn Community Primary & Nursery School
+location: Sheffield
+source: Teaching Vacancies
+job_id: teaching-vacancies-permanent-admin-assistant
+reason: Approved Sheffield catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Receptionist
+company: Totley Primary School
+location: Sheffield
+source: Teaching Vacancies
+job_id: teaching-vacancies-receptionist-totley-primary-school
 reason: Approved Sheffield catchment.
 ---
 
@@ -136,6 +172,30 @@ reason: Approved Sheffield catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Senior Administrator Higher Education
+company: The Sheffield College
+location: Sheffield
+source: Teaching Vacancies
+job_id: teaching-vacancies-senior-administrator-higher-education
+reason: Approved Sheffield catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Service & Installation Co-Ordinator
+company: Elix Sourcing Solutions - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-23643_225570863
+reason: Approved Sheffield catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Service Coordinator
 company: Veolia - Agency - Permanent
 location: Sheffield
@@ -170,7 +230,7 @@ job_id: jobg8-23643_225516026
 reason: No approved Sheffield catchment rule matched; local review required.
 ---
 
-## EXCLUDE (10)
+## EXCLUDE (11)
 
 ---
 action: 
@@ -241,6 +301,18 @@ company: Austin Banks - Agency - Permanent
 location: Doncaster
 source: JobG8
 job_id: jobg8-23643_225515295
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Receptionist
+company: Hollygreen Practice
+location: Rotherham, S63 9EH, Thurnscoe, s63 0LT, BARNSLEY, S72 0EJ
+source: NHS Jobs
+job_id: nhs-5544481
 reason: Separate employment market.
 ---
 

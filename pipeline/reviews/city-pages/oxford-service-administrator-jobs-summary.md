@@ -4,8 +4,8 @@
 - Live route: `/oxford/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 7
-- Threshold currently met: yes
+- Effective included jobs: 4
+- Threshold currently met: no
 
 ## How to review
 Edit only the `action:` line inside a job block.
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 7
-- automatic review: 4
-- automatic exclude: 27
-- effective include: 7
-- effective review: 4
-- effective exclude: 27
+- automatic include: 4
+- automatic review: 6
+- automatic exclude: 31
+- effective include: 4
+- effective review: 6
+- effective exclude: 31
 
-## INCLUDE (7)
+## INCLUDE (4)
 
 ---
 action: 
@@ -40,23 +40,11 @@ reason: Approved conservative Oxford launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Assistant Patient Pathway Administrator
-company: Oxford University Hospitals NHS Foundation Trust
-location: Oxford, OX3 7LE
+title: Administrator
+company: Oxford Health NHS Trust
+location: Oxford, OX3 7JH
 source: NHS Jobs
-job_id: nhs-5558622
-reason: Approved conservative Oxford launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Assistant Patient Pathway Administrator
-company: Oxford University Hospitals NHS Foundation Trust
-location: Oxford, OX3 7LE
-source: NHS Jobs
-job_id: nhs-5565421
+job_id: nhs-5579704
 reason: Approved conservative Oxford launch catchment.
 ---
 
@@ -84,31 +72,19 @@ job_id: teaching-vacancies-grade-6-office-administrator-3e4de74e-af8a-4ee3-b949-
 reason: Approved conservative Oxford launch catchment.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Office Administrator
-company: Barton Park Primary School
-location: Oxford
-source: Teaching Vacancies
-job_id: teaching-vacancies-office-administrator-barton-park-primary-school
-reason: Approved conservative Oxford launch catchment.
----
+## REVIEW (6)
 
 ---
 action: 
-decision: include
-automatic_decision: include
-title: Programme Administrator
-company: Oxford University Hospitals NHS Foundation Trust
-location: Oxford, OX3 9DU
+decision: review
+automatic_decision: review
+title: Admin Assistant - Care Home
+company: Barchester Healthcare
+location: Banbury, OX15 6EH
 source: NHS Jobs
-job_id: nhs-5533284
-reason: Approved conservative Oxford launch catchment.
+job_id: nhs-5558600
+reason: No approved Oxford catchment rule matched; local review required.
 ---
-
-## REVIEW (4)
 
 ---
 action: 
@@ -138,6 +114,18 @@ reason: No approved Oxford catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Medical Receptionist
+company: The Abingdon Surgery
+location: Abingdon, OX14 3LB
+source: NHS Jobs
+job_id: nhs-5547418
+reason: No approved Oxford catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Part-time Forensic Administrator - HMP Huntercombe
 company: Oxford Health NHS Trust
 location: Henley-On-Thames, RG9 5SG
@@ -158,7 +146,7 @@ job_id: teaching-vacancies-sixth-form-administrator-team-leader
 reason: No approved Oxford catchment rule matched; local review required.
 ---
 
-## EXCLUDE (27)
+## EXCLUDE (31)
 
 ---
 action: 
@@ -189,10 +177,10 @@ action:
 decision: exclude
 automatic_decision: exclude
 title: Administrator
-company: Gill Cooke Personnel Ltd T/A The Recruitment Group - Agency - Temporary
+company: Gill Cooke Personnel Ltd T/A The Recruitment Group - Agency - Permanent
 location: Oxfordshire
 source: JobG8
-job_id: jobg8-23643_225464294
+job_id: jobg8-23643_225570930
 reason: Broad county location; not Oxford-city evidence.
 ---
 
@@ -236,6 +224,18 @@ reason: Broad county location; not Oxford-city evidence.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Business Support Assistant
+company: Allen Associates - Agency - Temporary
+location: Oxfordshire
+source: JobG8
+job_id: jobg8-23643_225572818
+reason: Broad county location; not Oxford-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Claims Administrator
 company: K2 Recruitment - Agency - Permanent
 location: Oxfordshire
@@ -253,6 +253,18 @@ company: Plus One Recruitment - Agency - Permanent
 location: Oxfordshire
 source: JobG8
 job_id: jobg8-1786192
+reason: Broad county location; not Oxford-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Events Coordinator
+company: BramahHR Ltd - Agency - Contract
+location: Oxfordshire
+source: JobG8
+job_id: jobg8-23643_225571244
 reason: Broad county location; not Oxford-city evidence.
 ---
 
@@ -332,6 +344,30 @@ reason: Broad county location; not Oxford-city evidence.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Office Administrator (12-month FTC)
+company: Allen Associates - Agency - Contract
+location: Oxfordshire
+source: JobG8
+job_id: jobg8-23643_225560219
+reason: Broad county location; not Oxford-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Office Assistant - 12 month Fixed Term Contract
+company: Allen Associates - Agency - Contract
+location: Oxfordshire
+source: JobG8
+job_id: jobg8-23643_225570239
+reason: Broad county location; not Oxford-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Receptionist
 company: Australasian Recruitment Company - Agency - Permanent
 location: Oxfordshire
@@ -361,6 +397,18 @@ company: The Recruitment Group - Agency - Permanent
 location: Oxfordshire
 source: JobG8
 job_id: jobg8-107901549
+reason: Broad county location; not Oxford-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Sales Administrator
+company: Glen Callum Associates Ltd - Agency - Permanent
+location: Oxfordshire
+source: JobG8
+job_id: jobg8-23643_225563866
 reason: Broad county location; not Oxford-city evidence.
 ---
 
@@ -457,18 +505,6 @@ company: Allen Associates - Agency - Temporary
 location: Oxfordshire
 source: JobG8
 job_id: jobg8-23643_225544143
-reason: Broad county location; not Oxford-city evidence.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Temporary Office Administrator
-company: Allen Associates - Agency - Temporary
-location: Oxfordshire
-source: JobG8
-job_id: jobg8-23643_225560219
 reason: Broad county location; not Oxford-city evidence.
 ---
 

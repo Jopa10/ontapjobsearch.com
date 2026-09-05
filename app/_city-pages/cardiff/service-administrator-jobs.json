@@ -97,11 +97,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Records administration"
-    ]
+    "posted_date_basis": "ontap_first_published"
   },
   {
     "job_id": "107791604",
@@ -151,6 +147,31 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
+    "posted_date_basis": "ontap_first_published"
+  },
+  {
+    "job_id": "23643_225565612",
+    "title": "Sales Support Administrator",
+    "company": "Huntress - Bracknell - Agency - Temporary",
+    "location": "Cardiff",
+    "region": "Wales South - Cardiff & Vale",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Temporary",
+    "salary_min": "15.54",
+    "salary_max": "15.54",
+    "salary_text": "£15.54 per hour",
+    "posted_date": "2026-09-05",
+    "description": "Job Title: Sales Support Administrator\n\nStart Date: 28th September 2026\n\nEnd Date: 29th January 2027\n\nHourly rate: 15.54 per hour\n\nWorking Days and Hours: Monday - Friday, between 8.30am to 5.30pm, totalling 37 hours each week\n\nLocation: Reading - fully office based and once trained hybrid working could then be introduced\n\nWe are looking for a highly organised Sales Support Administrator to come and join our clients team on a temporary basis. You will be supporting the sales team in a varied and busy environment checking and uploading multiple documents and contracts onto our client system.\n\nWe are looking for a candidate who is extremely organised, has high attention to detail and self-motivated. Strong and confident IT skills specifically working on Microsoft Word and Excel is essential.\n\nResponsibilities include however, are not limited to:\n- Accurately log and quote contracts\n- Process and maintain a high volume of information and customer requirements\n- Ensure all work is accurately logged and meeting all compliance guidelines\n- Liaise with internal and external customers regarding their contracts\n- Support the team with pricing, retention and renewal contract related admin\n- Resolving queries and issues\n- Assisting other teams and additional administrative tasks when required\n\nTo be successful the individual must have strong communication skills, a confident multi-tasker and someone who thrives within a busy team. You will be joining a growing department who have targets and tight deadlines to meet therefore you must be able to manage your own workload each day.\n\nPrevious experience working in a similar role would be ideal however not essential as full training will be provided.\n\nDue to a very structured training plan, we cannot consider anyone who has holiday in the first 4-6 weeks of the assignment\n\nHuntress Search Ltd acts as a Recruitment Agency in relation to all Permanent roles and as a Recruitment Business in relation to all Temporary roles.\n\nWe practice a diverse and inclusive recruitment process that ensures equal opportunity for all we work with, irrespective of race, sexual orientation, mental or physical disability, age or gender. As an organisation, we encourage applications from all backgrounds and will ensure measures are met when required, to allow a fair process throughout.\n\nPLEASE NOTE: We can only consider applications from candidates who have the right to work in the UK.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?Y5CHIaMSKAyB94FLUWxw0Rq3C3tafIdxv",
+    "source": "JobG8",
+    "working_arrangement": "hybrid",
+    "working_arrangement_text": "Hybrid working",
+    "working_arrangement_evidence": "Sales Support Administrator Job Title: Sales Support Administrator Start Date: 28th September 2026 End Date: 29th January 2027 Hourly rate: 15.54 per hour Working Days and Hours: Monday - Friday, between 8.30am to 5.30pm, totalling 37 hours each week Location: Reading - fully office based and once trained hybrid working could then be introduced We are looking for a highly organised Sales Support Administrator to come and join our clients team on a temporary basis.",
+    "advertiser_name": "Huntress - Bracknell",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Hourly",
     "posted_date_basis": "ontap_first_published"
   },
   {

@@ -4,7 +4,7 @@
 - Live route: `/belfast/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 29
+- Effective included jobs: 34
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 29
-- automatic review: 8
+- automatic include: 34
+- automatic review: 17
 - automatic exclude: 0
-- effective include: 29
-- effective review: 8
+- effective include: 34
+- effective review: 17
 - effective exclude: 0
 
-## INCLUDE (29)
+## INCLUDE (34)
 
 ---
 action: 
@@ -136,6 +136,18 @@ reason: Approved conservative Belfast launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Customer Services Administrator
+company: Vital Healthcare - Agency - Permanent
+location: Belfast
+source: JobG8
+job_id: jobg8-2051098
+reason: Approved conservative Belfast launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Depositary Administrator
 company: MCS Group - Agency - Permanent
 location: Belfast
@@ -177,6 +189,18 @@ company: Honeycomb Jobs Ltd - Agency - Permanent
 location: Belfast
 source: JobG8
 job_id: jobg8-2049609
+reason: Approved conservative Belfast launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Front of House Receptionist
+company: Honeycomb Jobs Ltd - Agency - Permanent
+location: Belfast
+source: JobG8
+job_id: jobg8-2051912
 reason: Approved conservative Belfast launch catchment.
 ---
 
@@ -280,11 +304,47 @@ reason: Approved conservative Belfast launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Receptionist and Patient co-ordinator
+company: Natural Look Medispa and Clinic - Agency - Permanent
+location: Belfast
+source: JobG8
+job_id: jobg8-2050528
+reason: Approved conservative Belfast launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Receptionist/ Administrator (30-37.5 hrs per week)
 company: Lynda Jacobs Recruitment - Agency - Permanent
 location: Belfast
 source: JobG8
 job_id: jobg8-2048235
+reason: Approved conservative Belfast launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Recruitment Administrator (12 month contract)
+company: A&O Shearman - Agency - Permanent
+location: Belfast
+source: JobG8
+job_id: jobg8-21582_108490837
+reason: Approved conservative Belfast launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Recruitment Administrator (12 month contract)
+company: A&O Shearman - Agency - Permanent
+location: Belfast
+source: JobG8
+job_id: jobg8-21582_108490846
 reason: Approved conservative Belfast launch catchment.
 ---
 
@@ -316,18 +376,6 @@ reason: Approved conservative Belfast launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Sales Administrator
-company: Honeycomb Jobs Ltd - Agency - Permanent
-location: Belfast
-source: JobG8
-job_id: jobg8-2048066
-reason: Approved conservative Belfast launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Sales Support Admin (Maternity Cover)
 company: Honeycomb Jobs Ltd - Agency - Permanent
 location: Belfast
@@ -345,6 +393,18 @@ company: Wilkins Talent Solutions - Agency - Permanent
 location: Belfast
 source: JobG8
 job_id: jobg8-1771169
+reason: Approved conservative Belfast launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Scheme Co-Ordinator - Blessington Court, Belfast
+company: Clanmil Housing - Agency - Permanent
+location: Belfast
+source: JobG8
+job_id: jobg8-2051842
 reason: Approved conservative Belfast launch catchment.
 ---
 
@@ -372,7 +432,7 @@ job_id: jobg8-2051377
 reason: Approved conservative Belfast launch catchment.
 ---
 
-## REVIEW (8)
+## REVIEW (17)
 
 ---
 action: 
@@ -383,6 +443,18 @@ company: Apple Recruitment - Agency - Permanent
 location: Newtownabbey
 source: JobG8
 job_id: jobg8-2051713
+reason: No approved Belfast catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Admin Scheduler - Newtownabbey
+company: Riada Resourcing - Agency - Permanent
+location: Newtownabbey
+source: JobG8
+job_id: jobg8-2051872
 reason: No approved Belfast catchment rule matched; local review required.
 ---
 
@@ -407,6 +479,18 @@ company: Apple Recruitment Services - Agency - Permanent
 location: Ballymena
 source: JobG8
 job_id: jobg8-2048412
+reason: No approved Belfast catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Front of House Administrator
+company: Honeycomb Jobs Ltd - Agency - Permanent
+location: Carrickfergus
+source: JobG8
+job_id: jobg8-2051938
 reason: No approved Belfast catchment rule matched; local review required.
 ---
 
@@ -443,6 +527,90 @@ company: Honeycomb Jobs Ltd - Agency - Permanent
 location: Newry
 source: JobG8
 job_id: jobg8-2051465
+reason: No approved Belfast catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Recruitment Administrator (12 month contract)
+company: A&O Shearman - Agency - Permanent
+location: Ballyclare
+source: JobG8
+job_id: jobg8-21582_108490824
+reason: No approved Belfast catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Recruitment Administrator (12 month contract)
+company: A&O Shearman - Agency - Permanent
+location: Larne
+source: JobG8
+job_id: jobg8-21582_108490836
+reason: No approved Belfast catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Recruitment Administrator (12 month contract)
+company: A&O Shearman - Agency - Permanent
+location: Lisburn
+source: JobG8
+job_id: jobg8-21582_108490855
+reason: No approved Belfast catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Recruitment Administrator (12 month contract)
+company: A&O Shearman - Agency - Permanent
+location: Ballymena
+source: JobG8
+job_id: jobg8-21582_108490858
+reason: No approved Belfast catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Recruitment Administrator (12 month contract)
+company: A&O Shearman - Agency - Permanent
+location: Newtownabbey
+source: JobG8
+job_id: jobg8-21582_108490859
+reason: No approved Belfast catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Recruitment Administrator (12 month contract)
+company: A&O Shearman - Agency - Permanent
+location: Carrickfergus
+source: JobG8
+job_id: jobg8-21582_108490867
+reason: No approved Belfast catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Recruitment Administrator (12 month contract)
+company: A&O Shearman - Agency - Permanent
+location: Newtownards
+source: JobG8
+job_id: jobg8-21582_108490869
 reason: No approved Belfast catchment rule matched; local review required.
 ---
 

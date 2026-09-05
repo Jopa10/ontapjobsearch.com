@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 5
-- automatic review: 62
+- automatic review: 63
 - automatic exclude: 6
 - effective include: 5
-- effective review: 62
+- effective review: 63
 - effective exclude: 6
 
 ## INCLUDE (5)
@@ -80,11 +80,11 @@ title: Receptionist
 company: Wildern School
 location: Southampton
 source: Teaching Vacancies
-job_id: teaching-vacancies-receptionist-ff80cc91-b028-4603-910d-80547a4ad86e
+job_id: teaching-vacancies-receptionist-1dcaf299-1719-4cef-a999-af235a29010e
 reason: Approved Southampton catchment.
 ---
 
-## REVIEW (62)
+## REVIEW (63)
 
 ---
 action: 
@@ -150,6 +150,30 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
+title: Administrator
+company: Office Angels - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-1743458
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: Rubicon Recruitment - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-23643_225569763
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Administrator - Business Support
 company: Pin Point Recruitment - Agency - Permanent
 location: Hampshire
@@ -167,6 +191,18 @@ company: Hartley Resourcing - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-1816335
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Air Conditioning Coordinator/ Administrator
+company: Infinity Energy Services - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-1743583
 reason: Broad location; review before city inclusion.
 ---
 
@@ -235,18 +271,6 @@ action:
 decision: review
 automatic_decision: review
 title: Customer Service Advisor
-company: Dynamite Recruitment - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-23643_225523973
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Customer Service Advisor
 company: Dynamite Recruitment Solutions Ltd - Agency - Permanent
 location: Hampshire
 source: JobG8
@@ -263,6 +287,18 @@ company: Red Snapper Recruitment Limited - Agency - Contract
 location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225566529
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Customer Service Advisor
+company: South West Recruitment Ltd - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-1743407
 reason: Broad location; review before city inclusion.
 ---
 
@@ -330,18 +366,6 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Ecommerce Administrator
-company: Rubicon Recruitment - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-23643_225545155
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Exams Officer and Assessment Data Co ordinator
 company: Perins School
 location: Alresford
@@ -354,11 +378,11 @@ reason: No approved Southampton catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Hire Coordinator
-company: Dovetail Recruitment Ltd - Agency - Permanent
+title: HR Administrator
+company: Pin Point Recruitment - Agency - Permanent
 location: Hampshire
 source: JobG8
-job_id: jobg8-23643_225467954
+job_id: jobg8-23643_225571760
 reason: Broad location; review before city inclusion.
 ---
 
@@ -407,18 +431,6 @@ company: Front Row Recruitment Ltd - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-1769884
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: IT Administrator
-company: Hartley Resourcing - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-1809424
 reason: Broad location; review before city inclusion.
 ---
 

@@ -4,7 +4,7 @@
 - Live route: `/manchester/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 33
+- Effective included jobs: 38
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 33
+- automatic include: 38
 - automatic review: 0
 - automatic exclude: 3
-- effective include: 33
+- effective include: 38
 - effective review: 0
 - effective exclude: 3
 
-## INCLUDE (33)
+## INCLUDE (38)
 
 ---
 action: 
@@ -65,18 +65,6 @@ action:
 decision: include
 automatic_decision: include
 title: Administrator
-company: Manchester University NHS Foundation Trust
-location: Manchester, M14 4GP
-source: NHS Jobs
-job_id: nhs-5573700
-reason: Approved conservative Manchester launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrator
 company: Search Consultancy Ltd - Agency - Permanent
 location: Manchester
 source: JobG8
@@ -105,6 +93,18 @@ company: V7 Recruitment - Agency - Permanent
 location: Manchester
 source: JobG8
 job_id: jobg8-23643_225527036
+reason: Approved conservative Manchester launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Care Navigator Receptionist
+company: Orchard Medical Centre
+location: Manchester, M28 1LZ
+source: NHS Jobs
+job_id: nhs-5571870
 reason: Approved conservative Manchester launch catchment.
 ---
 
@@ -165,6 +165,18 @@ company: The Portfolio Group - Agency - Permanent
 location: Manchester
 source: JobG8
 job_id: jobg8-1765746
+reason: Approved conservative Manchester launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Data & Exams Officer
+company: Eden Girls' Leadership Academy, Manchester
+location: Manchester
+source: Teaching Vacancies
+job_id: teaching-vacancies-data-exams-officer-0ab804f7-3ae3-4446-bad0-ef8458fd8eda
 reason: Approved conservative Manchester launch catchment.
 ---
 
@@ -256,6 +268,18 @@ reason: Approved conservative Manchester launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Level 2 Academy Administrator
+company: Dixons Newall Green Academy
+location: Manchester
+source: Teaching Vacancies
+job_id: teaching-vacancies-level-2-academy-administrator-b06ab9cb-ab9d-4cf2-9142-0597902d3d58
+reason: Approved conservative Manchester launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Medical Receptionist
 company: North Trafford Group Practice
 location: Manchester, M32 0PA, Manchester, M160LW
@@ -285,6 +309,30 @@ company: MFK Recruitment - Agency - Permanent
 location: Manchester
 source: JobG8
 job_id: jobg8-23643_225509120
+reason: Approved conservative Manchester launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Operations Support Administrator
+company: Elix Sourcing Solutions - Agency - Permanent
+location: Manchester
+source: JobG8
+job_id: jobg8-23643_225564268
+reason: Approved conservative Manchester launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Pastoral Administrator
+company: Salford City Academy
+location: Manchester
+source: Teaching Vacancies
+job_id: teaching-vacancies-pastoral-administrator-salford-city-academy
 reason: Approved conservative Manchester launch catchment.
 ---
 
@@ -369,6 +417,18 @@ company: Hays Business Support - Agency - Temporary
 location: Manchester
 source: JobG8
 job_id: jobg8-23643_225537660
+reason: Approved conservative Manchester launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Senior Receptionist
+company: Uplands Medical Practice
+location: Whitefield, Manchester, M45 8GH
+source: NHS Jobs
+job_id: nhs-5569272
 reason: Approved conservative Manchester launch catchment.
 ---
 

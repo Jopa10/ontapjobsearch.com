@@ -1,5 +1,6 @@
 decision,job_id,title,company,location,source,automatic_decision,effective_decision,reason,matched_rule,city_key
 include,jobg8-1787097,Business Support Administrator,Pertemps Scotland Temps - Agency - Permanent,Edinburgh,JobG8,include,include,Approved conservative Edinburgh launch catchment.,edinburgh,edinburgh-service-administrator-jobs
+include,jobg8-1743603,Financial Services Administrator,Thornbury Recruitment Ltd - Agency - Permanent,Edinburgh,JobG8,include,include,Approved conservative Edinburgh launch catchment.,edinburgh,edinburgh-service-administrator-jobs
 include,jobg8-1748475,HR Administrator,Reed - Agency - Permanent,Edinburgh,JobG8,include,include,Approved conservative Edinburgh launch catchment.,edinburgh,edinburgh-service-administrator-jobs
 include,jobg8-1789719,Platform Administrator,Meraki Talent Limited - Agency - Permanent,Edinburgh,JobG8,include,include,Approved conservative Edinburgh launch catchment.,edinburgh,edinburgh-service-administrator-jobs
 include,jobg8-23643_225563421,Receptionist,Pertemps Scotland - Agency - Temporary,Edinburgh,JobG8,include,include,Approved conservative Edinburgh launch catchment.,edinburgh,edinburgh-service-administrator-jobs

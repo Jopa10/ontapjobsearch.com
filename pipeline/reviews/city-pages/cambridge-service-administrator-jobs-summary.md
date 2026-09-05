@@ -4,7 +4,7 @@
 - Live route: `/cambridge/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 7
+- Effective included jobs: 8
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 7
-- automatic review: 3
-- automatic exclude: 11
-- effective include: 7
-- effective review: 3
-- effective exclude: 11
+- automatic include: 8
+- automatic review: 4
+- automatic exclude: 10
+- effective include: 8
+- effective review: 4
+- effective exclude: 10
 
-## INCLUDE (7)
+## INCLUDE (8)
 
 ---
 action: 
@@ -77,6 +77,18 @@ action:
 decision: include
 automatic_decision: include
 title: Office Administrator
+company: EA First - Agency - Permanent
+location: Cambridge
+source: JobG8
+job_id: jobg8-23643_225570284
+reason: Approved conservative Cambridge launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Office Administrator
 company: Swaffham Prior Church of England Primary School
 location: Cambridge
 source: Teaching Vacancies
@@ -108,7 +120,19 @@ job_id: teaching-vacancies-send-administrator-swavesey-village-college
 reason: Approved conservative Cambridge launch catchment.
 ---
 
-## REVIEW (3)
+## REVIEW (4)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrative Assistant
+company: Lantern Community Primary School
+location: Ely
+source: Teaching Vacancies
+job_id: teaching-vacancies-administrative-assistant-lantern-community-primary-school-ely-cambridgeshire
+reason: No approved Cambridge catchment rule matched; local review required.
+---
 
 ---
 action: 
@@ -146,7 +170,7 @@ job_id: jobg8-23643_225519683
 reason: No approved Cambridge catchment rule matched; local review required.
 ---
 
-## EXCLUDE (11)
+## EXCLUDE (10)
 
 ---
 action: 
@@ -176,11 +200,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Administrator - Construction
-company: Think Recruitment - Agency - Permanent
+title: Administrator
+company: Arthur Mellows Village College
 location: Peterborough
-source: JobG8
-job_id: jobg8-23643_225468369
+source: Teaching Vacancies
+job_id: teaching-vacancies-administrator-9219e9ba-082d-4b75-91ee-2e1cd2dd8f75
 reason: Separate employment market.
 ---
 
@@ -205,18 +229,6 @@ company: Arthur Mellows Village College
 location: Peterborough
 source: Teaching Vacancies
 job_id: teaching-vacancies-administrator-student-services-d8658259-60b3-4622-8d3d-f3f1d76a784e
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Attendance Administrator
-company: St Peter's School
-location: Huntingdon
-source: Teaching Vacancies
-job_id: teaching-vacancies-attendance-administrator-d9c8d521-d886-4881-ad29-ebd6ebb9ffa5
 reason: Separate employment market.
 ---
 
@@ -260,11 +272,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Office Administrator
-company: St Peter's School
-location: Huntingdon
+title: Pastoral Services Administrator
+company: Queen Katharine Academy
+location: Peterborough
 source: Teaching Vacancies
-job_id: teaching-vacancies-office-administrator-st-peter-s-school
+job_id: teaching-vacancies-pastoral-services-administrator-queen-katharine-academy-peterborough-cambridgeshire
 reason: Separate employment market.
 ---
 

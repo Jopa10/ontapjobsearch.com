@@ -4,7 +4,7 @@
 - Live route: `/southampton/support-worker`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 3
+- Effective included jobs: 4
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 3
+- automatic include: 4
 - automatic review: 4
 - automatic exclude: 1
-- effective include: 3
+- effective include: 4
 - effective review: 4
 - effective exclude: 1
 
-## INCLUDE (3)
+## INCLUDE (4)
 
 ---
 action: 
@@ -45,6 +45,18 @@ company: Hampshire County Council - Company - Permanent
 location: Southampton
 source: JobG8
 job_id: jobg8-1401784780
+reason: Approved Southampton catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Support Worker
+company: The Society of St James - Agency - Permanent
+location: Southampton
+source: JobG8
+job_id: jobg8-1858493
 reason: Approved Southampton catchment.
 ---
 

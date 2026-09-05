@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 0
 - automatic review: 1
-- automatic exclude: 21
+- automatic exclude: 27
 - effective include: 0
 - effective review: 1
-- effective exclude: 21
+- effective exclude: 27
 
 ## INCLUDE (0)
 
@@ -38,7 +38,7 @@ job_id: jobg8-23643_225516026
 reason: No approved Barnsley catchment rule matched; local review required.
 ---
 
-## EXCLUDE (21)
+## EXCLUDE (27)
 
 ---
 action: 
@@ -116,6 +116,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Data Administrator
+company: Hays Business Support - Agency - Temporary
+location: Sheffield
+source: JobG8
+job_id: jobg8-23643_225571785
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Executive Assistant
 company: Sue Ross Recruitment Ltd - Agency - Contract
 location: Sheffield
@@ -152,6 +164,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Permanent Admin Assistant
+company: Wybourn Community Primary & Nursery School
+location: Sheffield
+source: Teaching Vacancies
+job_id: teaching-vacancies-permanent-admin-assistant
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Production Administrator
 company: Austin Banks - Agency - Permanent
 location: Doncaster
@@ -177,10 +201,34 @@ action:
 decision: exclude
 automatic_decision: exclude
 title: Receptionist
+company: Hollygreen Practice
+location: Rotherham, S63 9EH, Thurnscoe, s63 0LT, BARNSLEY, S72 0EJ
+source: NHS Jobs
+job_id: nhs-5544481
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Receptionist
 company: The Market Surgery
 location: Rotherham, S63 7RA
 source: NHS Jobs
 job_id: nhs-5568418
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Receptionist
+company: Totley Primary School
+location: Sheffield
+source: Teaching Vacancies
+job_id: teaching-vacancies-receptionist-totley-primary-school
 reason: Separate employment market.
 ---
 
@@ -265,6 +313,30 @@ company: Aston Academy
 location: Sheffield
 source: Teaching Vacancies
 job_id: teaching-vacancies-send-administrator-aston-academy-sheffield-south-yorkshire
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Senior Administrator Higher Education
+company: The Sheffield College
+location: Sheffield
+source: Teaching Vacancies
+job_id: teaching-vacancies-senior-administrator-higher-education
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Service & Installation Co-Ordinator
+company: Elix Sourcing Solutions - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-23643_225570863
 reason: Separate employment market.
 ---
 

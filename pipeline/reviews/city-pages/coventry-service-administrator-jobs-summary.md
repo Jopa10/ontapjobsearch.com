@@ -4,7 +4,7 @@
 - Live route: `/coventry/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 3
+- Effective included jobs: 2
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 3
+- automatic include: 2
 - automatic review: 2
-- automatic exclude: 22
-- effective include: 3
+- automatic exclude: 24
+- effective include: 2
 - effective review: 2
-- effective exclude: 22
+- effective exclude: 24
 
-## INCLUDE (3)
+## INCLUDE (2)
 
 ---
 action: 
@@ -45,18 +45,6 @@ company: Godiva Group Practice
 location: Coventry, CV2 4lj, Coventry, CV1 4DH, Coventry, CV6 5EA, Coventry, CV2 3DR
 source: NHS Jobs
 job_id: nhs-5525238
-reason: Approved Coventry catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Ward Clerk
-company: University Hospitals Coventry and Warwickshire NHS Trust
-location: Coventry, CV2 2DX
-source: NHS Jobs
-job_id: nhs-5565888
 reason: Approved Coventry catchment.
 ---
 
@@ -86,7 +74,19 @@ job_id: teaching-vacancies-receptionist-and-administrator-ftc-contract-september
 reason: No approved Coventry catchment rule matched; local review required.
 ---
 
-## EXCLUDE (22)
+## EXCLUDE (24)
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Accounts Assistant (AR)
+company: Proprec - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-1744021
+reason: Separate employment market.
+---
 
 ---
 action: 
@@ -104,11 +104,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Clerical Assistant
-company: South Warwickshire University NHS Foundation Trust
-location: Rugby, CV21 3SR
-source: NHS Jobs
-job_id: nhs-5551216
+title: Billing Operations Administrator
+company: Manpower - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-107940735
 reason: Separate employment market.
 ---
 
@@ -176,11 +176,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Medical Administrator
-company: Red Roofs Surgery
-location: Nuneaton, CV11 5TW
+title: MEDICAL RECEPTIONIST
+company: Valley Road Medical Practice
+location: Leamington Spa, CV32 7SJ
 source: NHS Jobs
-job_id: nhs-5521618
+job_id: nhs-4151642
 reason: Separate employment market.
 ---
 
@@ -188,11 +188,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: MEDICAL RECEPTIONIST
-company: Valley Road Medical Practice
-location: Leamington Spa, CV32 7SJ
-source: NHS Jobs
-job_id: nhs-4151642
+title: Office & Facilities Administrator (Part-time)
+company: NES Group Ltd - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-23643_225570023
 reason: Separate employment market.
 ---
 
@@ -277,6 +277,18 @@ company: Apex Focus Group - Agency - Permanent
 location: Warwickshire
 source: JobG8
 job_id: jobg8-1763902
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Sales and Customer Service Advisor
+company: Baxi Heating UK Limited - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-107900565
 reason: Separate employment market.
 ---
 
