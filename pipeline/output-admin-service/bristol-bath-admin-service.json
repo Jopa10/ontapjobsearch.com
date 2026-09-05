@@ -21,7 +21,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Parson Street Primary School",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "1772093",
@@ -324,31 +328,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "23643_225466068",
-    "title": "Sales Support Administrator",
-    "company": "Fusion People Ltd - Agency - Permanent",
-    "location": "Bristol",
-    "region": "Bristol & Bath",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "Up to £28,000 per year",
-    "posted_date": "",
-    "description": "Sales Support Administrator\n\nPermanent role\n\nUp to 28,000\n\nBased in Bristol, Avonmouth\n\nWe're recruiting for a well-organised Administrator to support our Sales team in a fast-paced plant dealership.\n\nMain Responsibilities:\n- Support Sales Managers throughout the full customer journey, ensuring customer needs are met efficiently and accurately.\n- Coordinate across multiple departments to ensure customer expectations, specifications, and delivery timelines are met.\n- Maintain accurate and up-to-date records on internal systems, using data proactively to identify trends and resolve issues.\n- Generate and manage sales agreements, purchase orders, job sheets, and associated documentation.\n- Liaise with production, workshop, and third-party providers to ensure equipment is prepared, certified, and ready for dispatch.\n- Manage invoicing, proformas, costing, and finance-related administration with internal and external partners.\n- Any other tasks required by the business, within capabilities\n\nFusion People are committed to promoting equal opportunities to people regardless of age, gender, religion, belief, race, sexuality or disability. We operate as an employment agency and employment business. You'll find a wide selection of vacancies on our website.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?aziU08XVyRGNEdfHdLn4JlHbK2IBqfDdd",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Fusion People Ltd",
-    "advertiser_type": "Agency",
-    "work_pattern": "Full Time",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "23643_225475414",
     "title": "Accounts Assistant",
     "company": "Hypercreate Ltd - Agency - Permanent",
@@ -549,31 +528,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "107793815",
-    "title": "Recruitment Coordinator",
-    "company": "Alexander Mae (HR) Ltd - Agency - Permanent",
-    "location": "Bath",
-    "region": "Bristol & Bath",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "28000",
-    "salary_max": "28000",
-    "salary_text": "£28000 per year",
-    "posted_date": "",
-    "description": "Recruitment Coordinator\n\nBath Hybrid £28,000 + Benefits Permanent\n\nAre you an experienced in-house recruiter looking for a role where you can take ownership of recruitment and make a real difference?\n\nOur client, a well-established charity based in Bath, is looking for a proactive Recruitment Coordinator to join its HR team click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?Y5CHIaMSKAzbFOClFr%2bFxJUAerdoLdmHv",
-    "source": "JobG8",
-    "working_arrangement": "hybrid",
-    "working_arrangement_text": "Hybrid working",
-    "working_arrangement_evidence": "Recruitment Coordinator Recruitment Coordinator Bath Hybrid £28,000 + Benefits Permanent Are you an experienced in-house recruiter looking for a role where you can take ownership of recruitment and make a real difference?",
-    "advertiser_name": "Alexander Mae (HR) Ltd",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "23643_225515534",
     "title": "Venue Finder & Sales Co-ordinator",
     "company": "In Any Event - Agency - Permanent",
@@ -614,7 +568,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9387-26-1810",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9387-26-1810",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5554527",
@@ -632,7 +590,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B9083-26-0449",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B9083-26-0449",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5559839",
@@ -650,7 +612,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9277-26-0871",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9277-26-0871",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5550823",
@@ -668,7 +634,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4271-26-0011",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4271-26-0011",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5554666",
@@ -686,24 +656,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B9083-26-0450",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B9083-26-0450",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
-  },
-  {
-    "job_id": "nhs-5555799",
-    "source": "NHS Jobs",
-    "title": "Receptionist - Care Home",
-    "company": "Barchester Healthcare",
-    "advertiser_name": "Barchester Healthcare",
-    "location": "Bath, BA2 3NR",
-    "region": "Bristol & Bath",
-    "salary": "£14.70",
-    "employment_type": "Permanent",
-    "posted_date": "2026-08-22T06:23:48.392119862",
-    "closing_date": "2026-10-21",
-    "description": "ABOUT THE ROLE This is weekend only role, Part time 12hrs contract per week. Shift times 9 - 3 pm or 10 -4 pm 6hrs per day. As a Receptionist at a Barchester care home, you'll provide the warm welcome that helps to make sure every resident and visitor feels at home with us. As the first point of contact for almost everyone who comes to the home, you'll have a vitally important part to play in creating a positive and friendly environment. The role of Receptionist with us is very varied. You can expect to answer phone calls, greet visitors, manage the reception area and show prospective residents and their families around. We might also need you to carry out some administrative tasks, like typing, photocopying and filing. ABOUT YOU You'll need to be professional, caring, courteous and well organised to join us as a Receptionist. You'll take a real interest in our residents and go out of your way to make every visitor feel at home. No formal qualifications are required but you will need a good telephone manner and strong communication skills. This weekend only role involves working part time for 12 hours per week on a permanent contract at Barchester Healthcare's care home in Bath. The Receptionist will work 9 am to 3 pm or 10 am to 4 pm, providing a warm welcome to residents and visitors. As the first point of contact, the Receptionist will create a positive environment, answer phone calls, greet visitors, manage the reception area, and show prospective residents around the care home. The role is varied, with responsibilities potentially including administrative tasks like typing, photocopying, and filing. Professionalism, a caring attitude, courteousness, good organisation, a good telephone manner, and strong communication skills are necessary for the role. Although no formal qualifications are required, having these skills and traits will enable the Receptionist to effectively engage with and support the care home's residents and visitors. ABOUT THE ROLE This is weekend only role, Part time 12hrs contract per week. Shift times 9 - 3 pm or 10 -4 pm 6hrs per day. As a Receptionist at a Barchester care home, you'll provide the warm welcome that helps to make sure every resident and visitor feels at home with us. As the first point of contact for almost everyone who comes to the home, you'll have a vitally important part to play in creating a positive and friendly environment. The role of Receptionist with us is very varied. You can expect to answer phone calls, greet visitors, manage the reception area and show prospective residents and their families around. We might also need you to carry out some administrative tasks, like typing, photocopying and filing. ABOUT YOU You'll need to be professional, caring, courteous and well organised to join us as a Receptionist. You'll take a real interest in our residents and go out of your way to make every visitor feel at home. No formal qualifications are required but you will need a good telephone manner and strong communication skills. REWARDS PACKAGE As well as a competitive salary, Barchester offers one of the best rewards packages in the care sector. Your generous benefits would include: Free learning and development Automatic enrolment into our profit share scheme A range of holiday, retail and leisure discounts Unlimited access to our Refer a Friend bonus scheme If you'd like to use your administration and people skills in an organisation that provides the quality care you'd expect for your loved ones, this is a rewarding place to be.",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0177-26-9149",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0177-26-9149",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

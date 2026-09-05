@@ -21,7 +21,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Harnham Church of England Controlled Junior School",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-it-system-administrator-excalibur-shared-services-1177ebd4-e195-4745-824b-6613f2065ccf",
@@ -45,7 +49,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Excalibur Academies Trust",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "23643_225536263",
@@ -323,6 +331,31 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "107939129",
+    "title": "Full Time Receptionist",
+    "company": "Thrive Group - Agency - Permanent",
+    "location": "Wiltshire",
+    "region": "Wiltshire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "",
+    "posted_date": "",
+    "description": "Thrive Group are delighted to be working with our professional services client in Frome who are looking to recruit a professional office Receptionist to join their friendly team.\n\nWhat you will be doing: The successful candidate will be the first point of contact for clients and visitors, providing a warm and professional welcome, while also supporting the team and wider team with a range of adm click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?Yic9job4bS9%2fHk%2fIuxLHO33rejshqAYXc",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Thrive Group",
+    "advertiser_type": "Agency",
+    "work_pattern": "Full Time",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
     "job_id": "1788176",
     "title": "Team Coordinator",
     "company": "Exponential-e - Agency - Permanent",
@@ -363,7 +396,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0279-26-2383",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0279-26-2383",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5559783",
@@ -381,7 +418,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5768-26-0004",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5768-26-0004",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5557131",
@@ -399,6 +440,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4324-260824",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4324-260824",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

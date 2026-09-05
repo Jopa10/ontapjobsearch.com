@@ -21,7 +21,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "The Bishop of Winchester Academy",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-pa-to-leadership-team-7142bdd9-1ed4-4fb4-8b84-985f95668569",
@@ -45,7 +49,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "The Bishop of Winchester Academy",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-receptionist-part-time-the-bishop-of-winchester-academy",
@@ -69,7 +77,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "The Bishop of Winchester Academy",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-administrator-sixth-form-study-centre-3a398641-1a04-436d-8d95-d6c3dd1d9ae1",
@@ -93,7 +105,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Bournemouth School",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "23643_225429242",
@@ -436,7 +452,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9152-26-0950",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9152-26-0950",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5577210",
@@ -454,7 +474,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9152-26-0936",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9152-26-0936",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5573541",
@@ -472,7 +496,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2682-26-0011",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2682-26-0011",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5575459",
@@ -490,6 +518,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9152-26-0932",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9152-26-0932",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

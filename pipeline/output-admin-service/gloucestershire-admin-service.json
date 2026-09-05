@@ -21,7 +21,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Brook Academy",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "23643_225477107",
@@ -499,31 +503,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "23643_225465867",
-    "title": "Sales Administrator",
-    "company": "Jackie Kerr Recruitment - Agency - Permanent",
-    "location": "Gloucestershire",
-    "region": "Gloucestershire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "30000",
-    "salary_max": "30000",
-    "salary_text": "£30000 per year",
-    "posted_date": "",
-    "description": "Sales Administrator\n\nTewkesbury, Gloucestershire\n\n£30,000 Per Annum + Excellent Benefits! (See Below)\n\nWe at JKR are recruiting an enthusiastic individual, for one of our key clients, a growing manufacturing company in Tewkesbury!\n\nSales Administrator Main Purpose and Scope of Role:\n\nThe Sales Administrator is a newly created role at the heart of our client's order-to-delivery process, providing the administrative backbone that allows the Account Management team to focus on customer relationships and account growth.\n\nWorking within the Commercial team, the Sales Administrator is responsible for the accurate and timely processing of all customer orders, the maintenance of order data across internal systems (including the company's order-loading system and Salesforce CRM), and the coordination of information between Sales, Supply Chain, and Production to ensure commitments are consistently met.\n\nThis is a high-volume, fast-paced role that demands exceptional accuracy, strong organisational skills, and a proactive approach to communication. It also offers a genuine, structured development pathway into Account Management for the right individual who demonstrates the commercial and relationship skills required to progress.\n\nSales Administrator Main Duties:\n- Process incoming customer orders accurately and promptly onto internal systems, ensuring all order details, quantities, pricing, and commercial terms are correctly captured and verified before confirmation\n- Enter and maintain sales order information across the company's order-loading system and Salesforce CRM, maintaining data integrity and audit trails for all orders, amendments, and cancellations\n- Ensure Supply Chain and Production always have clear, accurate, and timely visibility of material requirements arising from confirmed customer orders, communicating any changes or priority shifts promptly\n- Support Account Managers with internal order status queries and coordination activity, ensuring a smooth and well-documented handover of orders from quotation through to fulfilment\n- Identify and flag discrepancies, including pricing errors, stock shortfalls, lead time risks, and delivery threats, escalating promptly to the relevant Account Manager or Supply Chain contact with sufficient detail for a timely resolution\n- Maintain accurate, auditable records of all order activity, including amendments, cancellations, delivery confirmations, and customer correspondence related to order administration\n- Produce regular order status and administrative reports for the Sales, Operations, and Supply Chain teams, highlighting any open issues, overdue actions, or at-risk orders\n- Liaise proactively with internal departments including Production, Planning, Quality, and Supply Chain to chase order updates, resolve administrative queries, and ensure customers receive accurate delivery information\n- Support the Account Management team during peak periods with quotation administration, customer communications, and general commercial support tasks as directed\n- Comply with all Company Health and Safety procedures and contribute to maintaining a safe, organised, and compliant working environment\n\nSales Administrator Person Specification:\n- Sales order processing and administration within a manufacturing, engineering, or technical environment\n- Microsoft Office suite, particularly Excel at intermediate level or above (data entry, order tracking, reporting)\n- Supply chain and production coordination: understanding of how orders translate into material and capacity requirements\n- Commercial awareness: pricing structures, order terms, and the importance of accuracy in high-value, technically complex orders\n- Proven ability to handle high-volume, fast-paced data entry and order management with a very high level of accuracy and attention to detail\n- Experience using a CRM, ERP, or MRP system\n- GCSE Maths and English (Grade C / 4 or above) or equivalent - essential for order accuracy and reporting\n\nWorking Hours & Benefits:\n- 08:30-17:00 Monday-Thursday 08:30-16:00 Fridays\n- Quarterly profit-sharing bonus\n- 31 days' holiday including Bank Holidays\n- Pension - 3% employer 5% employee\n- Paid professional development\n- Discounts and savings portal\n- Wellbeing portal\n- Cycle to Work\n- Employee Assistance Programme\n- Life Assurance policy\n\nJackie Kerr Recruitment is an independent agency that has been established for 28 years.\n\nWe strive to provide the ultimate consultancy service to all our candidates. Whether you are looking for permanent or temporary work we pride ourselves in understanding our candidate s requirement s to ensure that we place you in your ideal role.\n\nWe have recently heavily invested in new Recruitment Software that provides an online portal. Simply visit jackiekerrrecruitment . com to enter your details and you will receive job alerts, hot off the press.\n\nThe portal enables you to update your information and CV at any time, so we always have your latest employment details on record.\n\nSo please visit our website and let us help you to find your dream job!\n\nPlease note: At Jackie Kerr Recruitment we receive a huge number of applications for each job that is posted. If you do not hear from us within 2 weeks of your original application, please go to our website jackiekerrrecruitment . com to apply for other jobs that may be suitable to you.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?gZ0pd2TJz0L3riA5o4HbqE2vC2La0mdSs",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Jackie Kerr Recruitment",
-    "advertiser_type": "Agency",
-    "work_pattern": "Full Time",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "23643_225476106",
     "title": "Procurement Coordinator",
     "company": "Manpower UK Ltd - Agency - Contract",
@@ -689,7 +668,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9327-26-0748",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9327-26-0748",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5551929",
@@ -707,7 +690,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9327-26-0701",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9327-26-0701",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5562669",
@@ -725,7 +712,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3648-26-0003",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3648-26-0003",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5551856",
@@ -743,7 +734,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9327-26-0699",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9327-26-0699",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5546699",
@@ -761,6 +756,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0319-26-0000",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0319-26-0000",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

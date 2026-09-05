@@ -21,32 +21,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
-  },
-  {
-    "job_id": "23643_225466833",
-    "title": "Hire Desk Coordinator",
-    "company": "KMC Recruitment - Agency - Permanent",
-    "location": "Suffolk",
-    "region": "Suffolk",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "32640",
-    "salary_max": "32640",
-    "salary_text": "£32640 per year",
-    "posted_date": "",
-    "description": "Join a busy customer operations team where no two days are the same\n\nKMC Recruitment is working with a well-established hire business to recruit a Hire Desk Coordinator for its Ipswich operation.\n\nThis is an excellent opportunity for someone who enjoys speaking with customers, coordinating multiple tasks at once and making sure everything runs smoothly from enquiry through to delivery. You'll be part of a supportive team, acting as the first point of contact for customers while working closely with colleagues across the business to deliver a first-class service.\n\nWhether you're already working within the hire industry or have a strong customer service background and are looking for your next challenge, we'd like to hear from you.\n\nThe Role\n\nAs part of a busy customer service and hire desk team, you'll be responsible for managing customer enquiries, arranging hires and ensuring customers receive a professional, efficient service throughout the process.\n\nYour responsibilities will include:\n- Responding to customer enquiries by telephone and email.\n- Preparing quotations and processing hire orders accurately.\n- Liaising with operational teams to coordinate deliveries, collections and equipment availability.\n- Building strong relationships with both new and existing customers.\n- Providing advice on products and services to help customers find the right solution.\n- Supporting Business Development Managers with customer accounts and enquiries.\n- Maintaining accurate records and ensuring all documentation is completed correctly.\n- Working collaboratively with colleagues to deliver excellent service and resolve any issues quickly.\n\nAbout You\n\nWe're looking for someone who enjoys working in a fast-paced environment and takes pride in delivering outstanding customer service.\n\nYou'll ideally have:\n- Previous experience in a customer service, hire desk, sales support or coordination role.\n- Excellent communication skills, both over the phone and in writing.\n- Strong organisational skills with the ability to prioritise a busy workload.\n- Good attention to detail and a high level of accuracy.\n- Confidence using Microsoft Office, including Excel.\n- A positive attitude and willingness to support the wider team.\n- GCSE English (Grade 4/C or above), or equivalent.\n\nExperience within the plant hire, construction, tool hire or related sectors would be advantageous, although it isn't essential.\n\nWhat's on Offer?\n- Salary of £32,640.\n- Up to 25 days' annual leave plus bank holidays.\n- Option to buy additional holiday and carry unused leave forward.\n- Extra day's holiday for your birthday.\n- Company pension with employer contribution.\n- Enhanced family leave.\n- Death in Service cover.\n- Medicash healthcare plan.\n- High street retail discounts.\n- Cycle to Work scheme.\n- Regular performance and development reviews.\n- A friendly, supportive working environment with genuine opportunities to develop your career.\n\nIf you're looking for a customer-focused role where you can make a real impact while developing your career within a successful national business, we'd love to hear from you.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?6WDmO0cNttq070tiRJsaU%2fHjAFpmb5zva",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "KMC Recruitment",
-    "advertiser_type": "Agency",
-    "work_pattern": "Full Time",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
+    "advertiser_name": "Farlingaye High School",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "23643_225480072",
@@ -464,7 +443,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/M0038-26-0835",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/M0038-26-0835",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5574659",
@@ -482,7 +465,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5843-26-0008",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5843-26-0008",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5580165",
@@ -500,7 +487,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9246-26-1007",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9246-26-1007",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5573145",
@@ -518,6 +509,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9246-26-0999",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9246-26-0999",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

@@ -21,7 +21,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "The King's School",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-attendance-officer-okehampton-college-okehampton-devon",
@@ -45,7 +49,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Okehampton College",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-attendance-administrator-65068773-d1be-4711-9b88-bde2f62d9e1b",
@@ -69,7 +77,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "St Cuthbert Mayne School",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-estates-administrator-learning-academies-trust",
@@ -93,7 +105,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Learning Academies Trust",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-reception-and-administration-assistant-109b825b-7a0b-44c3-a80d-67ce740b1847",
@@ -117,7 +133,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Torquay Boys' Grammar School",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "1786229",
@@ -535,7 +555,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C0023-26-1052",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C0023-26-1052",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5558778",
@@ -553,7 +577,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9369-26-0655",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9369-26-0655",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5559147",
@@ -571,7 +599,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1739-26-0043",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1739-26-0043",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5552054",
@@ -589,7 +621,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2737-26-0005",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2737-26-0005",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5563268",
@@ -607,6 +643,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B9832-2026-AC-1994",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B9832-2026-AC-1994",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

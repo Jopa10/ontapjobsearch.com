@@ -2,11 +2,11 @@
 
 review_date: 2026-09-05
 
-- Open Administrative & Clerical rows reviewed: 2085
-- Auto/remembered selected: 401
-- Selected HC Tier A: 191
+- Open Administrative & Clerical rows reviewed: 2082
+- Auto/remembered selected: 400
+- Selected HC Tier A: 190
 - Selected HC Tier B: 210
-- POSS awaiting decision: 1517
+- POSS awaiting decision: 1515
 - Excluded: 0
 - HARD_PASS: 167
 
@@ -1138,18 +1138,6 @@ region: Essex
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/D9708-MSE557
 factual_fingerprint: 2888833d5692b825fc4d5819035478cf50474df50ebcb57bb3589b6c0231c85f
----
-
----
-action:
-POSS | NHS Jobs | London | Orpington, BR6 9JU | £30630.00 to £32346.00 | Appointment & eRS Coordinators
-source_job_id: 5579580
-title: Appointment & eRS Coordinators
-employer: King's College Hospital NHS Foundation Trust
-region: London
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9213-26-0758
-factual_fingerprint: 182f7a0b0add4fb3125c298c1af1c9f9846364647c39f566dc5e32748b358943
 ---
 
 ---
@@ -4834,18 +4822,6 @@ region: Northamptonshire
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9264-26-0517
 factual_fingerprint: 84fe8f2470154223d06e06f2d3d89ade801fb1a2c6261aa7a9a88310d312f2ce
----
-
----
-action:
-POSS | NHS Jobs | Surrey | Frimley, Camberley, GU16 7UJ | £24489.00 | Ward Clerk for Maternity
-source_job_id: 5574380
-title: Ward Clerk for Maternity
-employer: Frimley Health NHS Foundation Trust
-region: Surrey
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9151-26-1117
-factual_fingerprint: 2bd04b7cdebb1eed36740858e26677995a793fd5a0dd48d7e63efb3877c76f32
 ---
 
 ---

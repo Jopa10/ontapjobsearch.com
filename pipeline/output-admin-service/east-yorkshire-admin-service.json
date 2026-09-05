@@ -21,7 +21,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Kingswood Parks Primary School",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "23643_225516073",
@@ -349,31 +353,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "107770477",
-    "title": "Customer Service Assistant",
-    "company": "Genda Playnation Entertainment Ltd - Agency - Temporary",
-    "location": "Driffield",
-    "region": "Yorkshire - East",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Temporary",
-    "salary_min": "12.71",
-    "salary_max": "12.71",
-    "salary_text": "£12.71 per hour (Free Parking, Uniform provided, Discounts available)",
-    "posted_date": "",
-    "description": "Genda-Playnation Entertainment are now recruiting for:\n\nSeasonal Customer Service Assistants\n\nAt our arcade in\n\nSkirlington Leisure Park, Skipsea Road, Driffield YO25 8 SY\n\nIf you enjoy working with people, thrive in a fast-paced environment, and want a fun seasonal role, this Customer Service Assistant opportunity could be perfect for you click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?aIHQjUdXakO6xpwKRKS50LyDZQIUvwwHr",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Genda Playnation Entertainment Ltd",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Hourly",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "23643_225527411",
     "title": "Team Administration Assistant",
     "company": "Recruitment Services UK - Agency - Permanent",
@@ -464,7 +443,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5769-26-0005",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5769-26-0005",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5575288",
@@ -482,7 +465,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9338-26-0447",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9338-26-0447",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5575163",
@@ -500,7 +487,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9338-26-0445",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9338-26-0445",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5572582",
@@ -518,6 +509,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9346-26-1044",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9346-26-1044",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

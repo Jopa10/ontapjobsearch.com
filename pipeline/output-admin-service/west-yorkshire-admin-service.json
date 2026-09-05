@@ -21,7 +21,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Dixons McMillan Academy",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-senior-administrator-appleton-academy-bradford-west-yorkshire",
@@ -45,7 +49,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Appleton Academy",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-academy-administrator-l3-dixons-cottingley-academy",
@@ -69,7 +77,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Dixons Cottingley Academy",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-senior-administrator-fountain-primary-school-leeds-west-yorkshire",
@@ -93,7 +105,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Fountain Primary School",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-admin-receptionist-beckfoot-allerton-primary-school-and-nursery",
@@ -117,7 +133,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Beckfoot Allerton Primary School and Nursery",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "23643_225569338",
@@ -970,31 +990,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "23643_225465858",
-    "title": "Training Administrator",
-    "company": "Shorterm Group - Agency - Permanent",
-    "location": "Wakefield",
-    "region": "Yorkshire - West",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "28000",
-    "salary_max": "28000",
-    "salary_text": "£28000 per year",
-    "posted_date": "",
-    "description": "Training Administrator\nSalary 28,000\nLocation Wakefield\nFull time 37.5 hours per week\nHybrid 1 day per week\nBenefits - Additional leave, Company events, Cycle to work scheme, Life insurance, On-site parking, Paid volunteer time, Store discount\nJob description:\nThe Company\nMy client is an Electrical & Renewables Training Provider and an energy training specialist committed to supporting a sustainable future.\nTheir mission is to change the lives of learners by delivering high-quality training that builds skills, confidence and career opportunities in the energy sector.\nSupporting people is a number one priority for my client. Whatever the challenge, they believe that if you want to succeed, you can. They provide specialist training programmes across electrical and renewable technologies to help learners and employers thrive.\nThe Training administrator is a key role within the Business Support Team. You will be responsible for ensuring the smooth operation of training administration, helping the team deliver an outstanding learner and client experience while supporting continued business growth.\nThe Role\nRole activities include but are not limited to:\nManaging and fulfilling incoming training enquiries from learners, employers and key clients across electrical and renewables training programmes.\nScheduling training courses and coordinating trainers, resources and any outsourced delivery requirements.\nManaging bookings for internal and outsourced training programmes for learners and key clients.\nRaising purchase orders for suppliers, setting up new accounts and agreeing payment terms with providers.\nPreparing and sending course results, certificates of achievement and attendance documentation as required.\nRaising purchase orders for associate trainers delivering at our training centres or at customer sites.\nManaging administrative reporting requirements and maintaining accurate training records.\nSupporting health and safety and awarding-body administration, including course registrations, results processing, ordering supplies and post-course certification.\nCarrying out post-course administration, including logging results, updating records and closing courses on the system.\nProviding support to the wider business support team and training centres as required during periods of annual leave and absence, including learner enquiries, bookings and general coordination tasks.\nIf you would like the opportunity to join a growing and purpose-driven organisation, please send a copy of your CV via the link below.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?eq2PR%2bX5ctw9z%2fnty8BcH8kC5nHrUe94p",
-    "source": "JobG8",
-    "working_arrangement": "hybrid",
-    "working_arrangement_text": "Hybrid working",
-    "working_arrangement_evidence": "Training Administrator Training Administrator Salary 28,000 Location Wakefield Full time 37.5 hours per week Hybrid 1 day per week Benefits - Additional leave, Company events, Cycle to work scheme, Life insurance, On-site parking, Paid volunteer time, Store discount Job description: The Company My client is an Electrical & Renewables Training Provider and an energy training specialist committed to supporting a sustainable future.",
-    "advertiser_name": "Shorterm Group",
-    "advertiser_type": "Agency",
-    "work_pattern": "Full Time",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "23643_225542036",
     "title": "Service Co-ordinator",
     "company": "Veolia - Agency - Permanent",
@@ -1110,7 +1105,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1399-26-0019",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1399-26-0019",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5578840",
@@ -1128,7 +1127,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9173-26-0425",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9173-26-0425",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5579570",
@@ -1146,7 +1149,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3954-26-0004",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3954-26-0004",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5576344",
@@ -1164,7 +1171,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0145-26-0133",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0145-26-0133",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5577774",
@@ -1182,7 +1193,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9298-26-0885",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9298-26-0885",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5551474",
@@ -1200,7 +1215,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1533-26-0007",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1533-26-0007",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5577142",
@@ -1218,7 +1237,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1168-26-0008",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1168-26-0008",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5573894",
@@ -1236,7 +1259,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2887-26-0004",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2887-26-0004",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5565093",
@@ -1254,7 +1281,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2598-26-0009",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2598-26-0009",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5559076",
@@ -1272,24 +1303,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0911-26-0001",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0911-26-0001",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
-  },
-  {
-    "job_id": "nhs-5561913",
-    "source": "NHS Jobs",
-    "title": "Senior Administrator",
-    "company": "Turning Point",
-    "advertiser_name": "Turning Point",
-    "location": "Wakefield, WF2 7AW",
-    "region": "Yorkshire - West",
-    "salary": "£25869.00 to £27980.00",
-    "employment_type": "Fixed-Term",
-    "posted_date": "2026-08-26T08:54:12.120417065",
-    "closing_date": "2026-09-09",
-    "description": "Turning Point is a leading Social Enterprise which supports people with a wide range of complex needs across Learning Disabilities, Mental Health, Substance Use and Public Health. We are currently recruiting for a Senior Administrator working within our Wakefield Talking Therapies. Our NHS Talking Therapies service supports people experiencing anxiety and depression, providing timely access to evidence-based psychological therapies that help people improve their wellbeing, build resilience and move forward in their lives. Passionate about people, you will enjoy the scope and support to enhance your own life and career too, as you gain the experience and training you need to progress with us. Running health and social care services as a social enterprise, we invest every penny back into our care and our people. So, if youre ambitious and ready for a fresh challenge, progress your career with a sector leader. Please note that this role is a 12month FTC. Supervise and support the smooth running of own specific area in keeping with regulations and Turning Points policies and practices in order to provide efficient and high-quality service. Provide a comprehensive administration service by working closely with the wider Management Team and where appropriate, other colleagues . Liaise with service users and stakeholders to facilitate appointments, pathway progression, and effective communication throughout the patient journey. We're looking for a candidate with administration experience. Experience as a Senior Administrator is desired but not essential. A confident communicator who can prioritise a varied workload and provide wide-ranging administrative support and its vital that youre able to achieve this without losing your methodical attention to detail. It would be an essential to have knowledge and experience of Word, Excel and other Microsoft systems and you will be trained on our data systems.To be considered for this role you will need to have: Experience of working in an administrative and customer-focused role within a health and social care, NHS, or similar service environment. Have experience within a fast paced, demand led environment Ability to support a diverse community without prejudice and demonstrate empathy Ability to work flexibly to meet the demands of the service and provide a high-quality client experience Experience using databases to input personal and sensitive information and Microsoft Office 365 Strong written and verbal communication skills, with the confidence to coordinate across teams, manage stakeholder relationships, and support service delivery in a busy administrative environment. Wakefield Talking Therapies operates Monday to Thursday 8am to 8pm, Friday 8am to 4pm and Saturday 9am to 4pm. The successful candidate would be required to be flexible and work on a shift rota basis to meet the needs of the service. Although, time management, organisational, IT skills are just as important as your communication and people skills. Dynamic and driven, youre someone with a naturally positive disposition and will fit in well in our team.",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B0471-26-0046",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B0471-26-0046",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]
