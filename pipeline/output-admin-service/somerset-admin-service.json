@@ -159,7 +159,12 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": ""
+    "posted_date_basis": "",
+    "at_a_glance_attributes": [
+      "Customer enquiries",
+      "Systems administration",
+      "Quotations"
+    ]
   },
   {
     "job_id": "1780684",
