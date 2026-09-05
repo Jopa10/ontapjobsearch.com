@@ -2,13 +2,13 @@
 
 review_date: 2026-09-05
 
-- Open Administrative & Clerical rows reviewed: 2086
+- Open Administrative & Clerical rows reviewed: 2085
 - Auto/remembered selected: 401
 - Selected HC Tier A: 191
 - Selected HC Tier B: 210
-- POSS awaiting decision: 1519
+- POSS awaiting decision: 1517
 - Excluded: 0
-- HARD_PASS: 166
+- HARD_PASS: 167
 
 Edit only each `action:` line for POSS rows. Unchanged decisions are restored by the shared decision ledger.
 
@@ -7222,18 +7222,6 @@ region: Somerset
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9342-26-0566
 factual_fingerprint: 6c9da289ba38b3473669033aa6d8e4739dac5ddbd5702d4e1f28a01c01c3d454
----
-
----
-action:
-POSS | NHS Jobs | Cambridgeshire | Peterborough, PE3 9GZ | £25760.00 to £27476.00 | ENT theatre booker - Peterborough
-source_job_id: 5571276
-title: ENT theatre booker - Peterborough
-employer: North West Anglia NHS Foundation Trust
-region: Cambridgeshire
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9176-26-0461
-factual_fingerprint: 5a7c02430499d88f5d98d431f8cf656a4ed01f6969afb76ecc972a36f493d6f9
 ---
 
 ---
@@ -17554,18 +17542,6 @@ region: Hampshire
 reason: BRIDGEABLE: NHS admin/service title registry
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9251-26-0597
 factual_fingerprint: 61e65f01d210de0c2abcec360c0cb7b09033392c6709dbb8fc5350a58bdb2116
----
-
----
-action:
-POSS | NHS Jobs | London | London, WC1N 3JH | £88250.00 to £100355.00 | Deputy Company Secretary
-source_job_id: 5535773
-title: Deputy Company Secretary
-employer: Great Ormond Street Hospital for Children NHS Foundation Trust
-region: London
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9271-26-0303
-factual_fingerprint: 8284234724d3e3ad7e9720bcfb62d3ada98673c1ab40fc11fd494c5a90ad26e6
 ---
 
 ---
