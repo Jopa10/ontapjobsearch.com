@@ -1,19 +1,19 @@
 # VONNE ETL proof-of-concept review
 
 review_date: 2026-09-05
-review_fingerprint: a19e4d543f35bff5fac223f7ac5cfa553b30263d81bfe0ae75521a89bbbf3904
+review_fingerprint: 7061a2ea4cb06c56d00249d0def5f029ff385bd4a848f7b6422fa81def19eb44
 
 This implementation is review-only. It has no approved-JSON or publishing mode.
 
 Edit only the `action:` line in editable blocks:
 - `action: select` promotes a POSS vacancy for discussion.
 - `action: exclude` rejects a POSS vacancy or removes an HC vacancy.
-- Actions are remembered while the same vacancy review facts remain unchanged; this review still does not publish anything.
+- Actions are same-day only and do not publish anything.
 
-Run generated: 2026-09-05T11:51:15+01:00
+Run generated: 2026-09-05T13:11:50+01:00
 Listing input: https://www.vonne.org.uk/vonne-jobs
 JobG8 comparison rows: 275
-Approved NEJobs comparison rows: 14
+Approved NEJobs comparison rows: 19
 
 ## Funnel
 - VONNE listings read: 15
@@ -27,48 +27,21 @@ Approved NEJobs comparison rows: 14
 - Retained target candidates: 14
 
 ## Outcomes
-- HC: 2
-- POSS: 6
+- HC: 0
+- POSS: 8
 - HARD_PASS: 6
-- Final selected after remembered/manual actions: 3
-- Final POSS awaiting decision: 4
+- Final selected after same-day actions: 5
+- Final POSS awaiting decision: 2
 - Manually excluded: 1
+
 ## Detail diagnostics
 - No unresolved detail-page failures.
 
 ## SELECTED
 
 ---
-action:
-SELECTED | North East - County Durham & Darlington/Hartlepool | County Durham | £24,454 Per Annum | Administrator (26.13)
-employer: Age UK County Durham
-closing_date: Wednesday, September 30, 2026 - 12:00
-geography: CONFIRMED — location: approved location fallback
-reason: clear transferable title: administrator
-source: VONNE
-tracking_key: vonne-173394
-vacancy_fingerprint: 3e06d3a560e22108a75cc1d35198a646c2d8fc427bcb2a128a3af8ebc602b11d
-source_job_id: 173394
-source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173394
----
----
-action:
-SELECTED | North East - County Durham & Darlington/Hartlepool | County Durham | £24,454 Per Annum | Project Administrator (26.12)
-employer: Age UK County Durham
-closing_date: Wednesday, September 30, 2026 - 12:00
-geography: CONFIRMED — location: approved location fallback
-reason: clear transferable title: administrator
-source: VONNE
-tracking_key: vonne-173393
-vacancy_fingerprint: 7f1523f5762a39215c89c3380ceb2b3f3dc515cbf60e2c19ad4820454c4759e9
-source_job_id: 173393
-source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173393
----
-## POSS — choose SELECT or EXCLUDE
-
----
 action: select
-POSS | North East | Hybrid | £ Per Annum | Project Development Co-ordinator
+SELECTED | North East | Hybrid | £ Per Annum | Project Development Co-ordinator
 employer: National Energy Action
 closing_date: 17 September 2026
 geography: GENERIC_REVIEW — generic VONNE location requires manual North East check
@@ -79,22 +52,10 @@ vacancy_fingerprint: 8c5d0bc5abb7a5c5bfb5d8f4fff9916e89cc3ec5fe45d71db4a8e141e12
 source_job_id: 173385
 source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173385
 ---
----
-action: exclude
-POSS | North East - Tyneside, Wearside & Northumberland | Tyne and Wear | £34,434 to 36,363 Per Annum | Health & Wellbeing Coordinator
-employer: VONNE
-closing_date: Sunday, September 13, 2026 - 00:00
-geography: CONFIRMED — location: approved location fallback
-reason: annualised upper salary £36,363 exceeds North East review point £30,000
-source: VONNE
-tracking_key: vonne-173309
-vacancy_fingerprint: 25bce1025449c1002f480b7b77769ff54b70b170d8a01bd59a5f484ec7758404
-source_job_id: 173309
-source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173309
----
+
 ---
 action: select
-POSS | North East - Tyneside, Wearside & Northumberland | Tyne and Wear | £26,402 to 28,141 Per Annum | Health & Wellbeing Projects Support Officer
+SELECTED | North East - Tyneside, Wearside & Northumberland | Tyne and Wear | £26,402 to 28,141 Per Annum | Health & Wellbeing Projects Support Officer
 employer: VONNE
 closing_date: Sunday, September 13, 2026 - 00:00
 geography: CONFIRMED — location: approved location fallback
@@ -105,9 +66,10 @@ vacancy_fingerprint: 8a7ab286013372c433a61a3c5bcaad36cea77bc6812442d255b413a5866
 source_job_id: 173310
 source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173310
 ---
+
 ---
 action: select
-POSS | North East - Tyneside, Wearside & Northumberland | Tyne and Wear | £23,370 to 23,790 | Receptionist
+SELECTED | North East - Tyneside, Wearside & Northumberland | Tyne and Wear | £23,370 to 23,790 | Receptionist
 employer: Foundation of Light
 closing_date: Friday, September 11, 2026 - 00:00
 geography: CONFIRMED — location: approved location fallback
@@ -118,9 +80,10 @@ vacancy_fingerprint: 6f57a4f078d03479daa7126537cb9614a4fe68d8551b871ecea57b2098e
 source_job_id: 173374
 source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173374
 ---
+
 ---
 action: select
-POSS | North East - Tyneside, Wearside & Northumberland | Northumberland | £30,075 Per Annum | Womens Specialist ISC Coach
+SELECTED | North East - Tyneside, Wearside & Northumberland | Northumberland | £30,075 Per Annum | Womens Specialist ISC Coach
 employer: Changing Lives
 closing_date: 16 September 2026
 geography: CONFIRMED — location: approved location fallback
@@ -131,9 +94,10 @@ vacancy_fingerprint: 2ac04f9f1b86a7905bf4d7895c084339bc6730bbe03f168a8617ef240da
 source_job_id: 173392
 source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173392
 ---
+
 ---
 action: select
-POSS | North East - Tyneside, Wearside & Northumberland | Northumberland | £30,075 Pro Rata | Womens Specialist ISC Coach - Part Time
+SELECTED | North East - Tyneside, Wearside & Northumberland | Northumberland | £30,075 Pro Rata | Womens Specialist ISC Coach - Part Time
 employer: Changing Lives
 closing_date: 16 September 2026
 geography: CONFIRMED — location: approved location fallback
@@ -144,9 +108,55 @@ vacancy_fingerprint: 52bd0af4f0d255daf201e0884581ed4ac54cde52049d930ddc0326b8686
 source_job_id: 173391
 source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173391
 ---
+
+
+## POSS — choose SELECT or EXCLUDE
+
+---
+action:
+POSS | North East - County Durham & Darlington/Hartlepool | County Durham | £24,454 Per Annum | Administrator (26.13)
+employer: Age UK County Durham
+closing_date: Wednesday, September 30, 2026 - 12:00
+geography: CONFIRMED — location: approved location fallback
+reason: possible cross-source duplicate requires review
+source: VONNE
+tracking_key: vonne-173394
+vacancy_fingerprint: 519ce27938398f49fcbce718a2199f9949683fdc41baa95ab1c29252c8391d66
+source_job_id: 173394
+source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173394
+---
+
+---
+action:
+POSS | North East - County Durham & Darlington/Hartlepool | County Durham | £24,454 Per Annum | Project Administrator (26.12)
+employer: Age UK County Durham
+closing_date: Wednesday, September 30, 2026 - 12:00
+geography: CONFIRMED — location: approved location fallback
+reason: possible cross-source duplicate requires review
+source: VONNE
+tracking_key: vonne-173393
+vacancy_fingerprint: 076c2df7b5819c647117c3b816981009bb4a7072315f7abc14f5c71d30a5e73b
+source_job_id: 173393
+source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173393
+---
+
+
 ## EXCLUDED BY REVIEW
 
-- None.
+---
+action: exclude
+EXCLUDED | North East - Tyneside, Wearside & Northumberland | Tyne and Wear | £34,434 to 36,363 Per Annum | Health & Wellbeing Coordinator
+employer: VONNE
+closing_date: Sunday, September 13, 2026 - 00:00
+geography: CONFIRMED — location: approved location fallback
+reason: annualised upper salary £36,363 exceeds North East review point £30,000
+source: VONNE
+tracking_key: vonne-173309
+vacancy_fingerprint: 25bce1025449c1002f480b7b77769ff54b70b170d8a01bd59a5f484ec7758404
+source_job_id: 173309
+source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173309
+---
+
 
 ## HARD_PASS
 
