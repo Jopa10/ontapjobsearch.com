@@ -1,6 +1,6 @@
 # Support-worker manual review
 
-feed_date: 2026-09-04
+feed_date: 2026-09-05
 
 Edit only the `action:` line in each block:
 
@@ -93,12 +93,6 @@ _No jobs in this group._
 
 ---
 action:
-SELECTED | Cumbria - South | Barrow-in-furness | £12.85 per hour (plus rolled up holiday pay) | Relief Support Worker
-job_id: 107877592
----
-
----
-action:
 SELECTED | Cumbria - South | Barrow-in-furness | £12.85 per hour | Waking Night Extra Care Support Worker
 job_id: 107911831
 ---
@@ -159,8 +153,8 @@ job_id: 1401784915
 
 ---
 action:
-SELECTED | Hampshire | Southampton | £25,947 - £26,305 per annum | Accommodation Support Worker
-job_id: 1854961
+SELECTED | Hampshire | Southampton | £25,947 - £26,305 per annum | Support Worker
+job_id: 1858493
 ---
 
 ## HAMPSHIRE — POSSIBLES
@@ -179,12 +173,6 @@ job_id: 1402264062
 action:
 SELECTED | Kent | Kent | £13.79 - £14.31 per hour | Bank Care Assistant
 job_id: 107858271
----
-
----
-action:
-SELECTED | Kent | Faversham | £14 - £17 per hour | Complex Care Support Worker
-job_id: 107923038
 ---
 
 ## KENT — POSSIBLES
@@ -221,6 +209,12 @@ job_id: 23643_225516212
 action:
 SELECTED | London | Barnet | £12.30 per hour | Learning Disabilities Support Worker
 job_id: 1775476
+---
+
+---
+action:
+SELECTED | London | Kingston Upon Thames | £15 - £18 per hour | Family Support Worker/Kingston (SW Lon)/ &;15-18.
+job_id: 1743463
 ---
 
 ---
@@ -267,12 +261,6 @@ job_id: 1787859
 
 ---
 action:
-SELECTED | London | London | £23,088.00 per annum | Waking Night Support Worker
-job_id: 1664745
----
-
----
-action:
 SELECTED | London | City | £13.69 per hour | Mental Health Support Worker Nightshift - Female Only
 job_id: 2049999
 ---
@@ -281,6 +269,12 @@ job_id: 2049999
 action:
 SELECTED | London | City | £12.75 per hour | Support Worker - Day Centre Belfast
 job_id: 2049628
+---
+
+---
+action:
+SELECTED | London | London | £NEG None | Personal Assistant (HR)
+job_id: 23643_225572376
 ---
 
 ## LONDON — POSSIBLES
