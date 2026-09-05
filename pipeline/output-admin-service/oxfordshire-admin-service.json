@@ -78,11 +78,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Customer enquiries"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225476635",
@@ -107,12 +103,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Records administration",
-      "Document preparation"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225544109",
@@ -137,42 +128,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Scheduling and bookings",
-      "Records administration",
-      "Data entry"
-    ]
-  },
-  {
-    "job_id": "23643_225358207",
-    "title": "Administrator",
-    "company": "K2 Recruitment - Agency - Temporary",
-    "location": "Oxfordshire",
-    "region": "Oxfordshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Temporary",
-    "salary_min": "13",
-    "salary_max": "13",
-    "salary_text": "£13 per hour",
-    "posted_date": "",
-    "description": "We are looking for a temporary administrator to join our client on a temporary basis.\n\nPaying 13.00 per hour and based in Bicester they are looking for someone to join their team and support the day to day running of the business. Working for a minimum of 4 weeks and potentially resulting in permanent position.\n\nDuties:\n- Answering calls and emails\n- Data entry and maintaining records\n- Processing paperwork, reports and incoming post\n- Supporting the wider team with administrative tasks\n- Handling customer and supplier enquiries\n- Generate reports\n- Liaise with suppliers\n- Retaxing of vehicles and adhoc vehicle administration.\n\nSkills & Experience:\n- Previous administration experience\n- Strong organisational skills\n- Good knowledge of Microsoft Office (Word, Excel, Outlook)\n- Excellent communication skills\n- Accurate data entry and attention to detail\n- Ability to prioritise workload and meet deadlines\n- Reliable and proactive approach\n\nIf you would like to be considered for this position, please apply now!\n\nK2 Recruitment Ltd is acting as an Employment Business in relation to this vacancy.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?eq2PR%2bX5ctyUqZdiY7oJQA5nrnDCY3Tzp",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "K2 Recruitment",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Data entry"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225472773",
@@ -422,11 +378,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1778720",
@@ -476,11 +428,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Telephone handling",
-      "Scheduling and bookings"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225544143",
@@ -530,11 +478,7 @@
     "advertiser_type": "Company",
     "work_pattern": "Part Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Telephone handling"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "107842072",
@@ -558,31 +502,6 @@
     "advertiser_name": "The Solution Automotive Limited",
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
-    "job_id": "107901549",
-    "title": "Sales & Customer Service Support Administrator",
-    "company": "The Recruitment Group - Agency - Permanent",
-    "location": "Oxfordshire",
-    "region": "Oxfordshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "30000",
-    "salary_max": "30000",
-    "salary_text": "£30000 per year",
-    "posted_date": "",
-    "description": "Part-time Flexible hours We're looking for a motivated, organised and customer-focused individual to join a growing business. This is a varied, customer-facing role combining sales support, customer service and e-commerce administration, with flexible part-time hours to suit the right candidate.\nThe role: Respond to customer enquiries by phone and email click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?Dw9iAXzSqBYjhFH%2firugKC%2fs7NwB0Resk",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "The Recruitment Group",
-    "advertiser_type": "Agency",
-    "work_pattern": "Part Time",
     "salary_period": "Annual",
     "posted_date_basis": ""
   },
@@ -637,6 +556,81 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "23643_225570239",
+    "title": "Office Assistant - 12 month Fixed Term Contract",
+    "company": "Allen Associates - Agency - Contract",
+    "location": "Oxfordshire",
+    "region": "Oxfordshire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Contract",
+    "salary_min": "26000",
+    "salary_max": "28000",
+    "salary_text": "£26000 - £28000 per year",
+    "posted_date": "",
+    "description": "Are you organised, friendly, and looking for an opportunity to support the operations of a professional organisation? If so, this is a fantastic chance to join a busy team, providing vital administrative and front-of-house support, helping the organisation run smoothly.\n\nPlease note, this is position will require an immediate start, notice periods cannot be accommodated.\n\nOffice Assistant - 12 month Fixed Term Contract Responsibilities\nThis position will involve, but will not be limited to:\n- Delivering a professional and welcoming front-of-house experience for visitors, phone callers, and internal teams.\n- Managing reception duties, including greeting guests and handling inquiries efficiently.\n- Supporting various teams with administrative tasks related to projects, events, and meetings.\n- Coordinating meeting room bookings, setting up facilities, and ensuring equipment is in working order.\n- Maintaining accurate records, correspondence, and filing systems, including document preparation and record keeping.\n- Assisting with organisation of events, including logistics and attendee communication.\n- Providing general office support, including mail handling, ordering supplies, and liaising with contractors.\n\nOffice Assistant - 12 month Fixed Term Contract Rewards\n- £26,000 £28,000 per annum, depending on skills and experience\n- The working hours are generally 8.30am-4pm, with an unpaid lunch break.\n- Supportive environment where colleagues value professionalism, organisation, and collaboration.\n- Opportunities for developing administrative skills within a well-regarded organisation committed to member focus and innovation.\n- Access to a range of employee benefits, including car parking and occasional travel support.\n\nThe Company\nOur client is a well-established trade association fostering an inclusive, collaborative, and trustworthy working environment where members and staff are valued and encouraged to contribute. This is a welcoming environment for someone looking to gain valuable experience in office administration within a professional organisation.\n\nOffice Assistant - 12 month Fixed Term Contract Experience Essentials\n- Proficiency in Microsoft Office applications, especially Outlook, Word, Excel, PowerPoint, and Teams.\n- Experience organising meetings, managing diaries, and preparing documentation.\n- Strong attention to detail and high levels of organisation with the ability to prioritise competing demands.\n- Good interpersonal and communication skills, both verbal and written.\n- Ability to handle sensitive information discretely and support colleagues professionally.\n- Familiarity with business systems such as SharePoint, CRM, or similar databases is desirable.\n\nLocation\nThis is an office-based role in an environment with limited public transport; thus, a driving licence and access to your own vehicle are essential. The organisation offers onsite parking and occasional travel for events.\n\nAction\nIf you would like to find out more about this excellent opportunity, then please apply online today. We will review and respond to all applications.\n\nINDBOOST\n\nAllen Associates is a leading recruitment company in Oxfordshire recruiting for Marketing, Finance, Human Resources and PA/Administrative roles. Allen Associates operates as an Employment Agency for permanent recruitment and an Employment Business for temporary recruitment. For more information on current vacancies please visit (url removed) and follow us on LinkedIn.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?aIHQjUdXakMFa2dsLxEaoHms5sV%2b6fEZr",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Allen Associates",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
+    "job_id": "107901549",
+    "title": "Sales & Customer Service Support Administrator",
+    "company": "The Recruitment Group - Agency - Permanent",
+    "location": "Oxfordshire",
+    "region": "Oxfordshire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "30000",
+    "salary_max": "30000",
+    "salary_text": "£30000 per year",
+    "posted_date": "",
+    "description": "Part-time Flexible hours We're looking for a motivated, organised and customer-focused individual to join a growing business. This is a varied, customer-facing role combining sales support, customer service and e-commerce administration, with flexible part-time hours to suit the right candidate.\nThe role: Respond to customer enquiries by phone and email click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?io0x8AEcaINsJ5%2bwNea0w%2fenJutBb5yRo",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "The Recruitment Group",
+    "advertiser_type": "Agency",
+    "work_pattern": "Part Time",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
+    "job_id": "23643_225358207",
+    "title": "Administrator",
+    "company": "K2 Recruitment - Agency - Temporary",
+    "location": "Oxfordshire",
+    "region": "Oxfordshire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Temporary",
+    "salary_min": "13",
+    "salary_max": "13",
+    "salary_text": "£13 per hour",
+    "posted_date": "",
+    "description": "We are looking for a temporary administrator to join our client on a temporary basis.\n\nPaying 13.00 per hour and based in Bicester they are looking for someone to join their team and support the day to day running of the business. Working for a minimum of 4 weeks and potentially resulting in permanent position.\n\nDuties:\n- Answering calls and emails\n- Data entry and maintaining records\n- Processing paperwork, reports and incoming post\n- Supporting the wider team with administrative tasks\n- Handling customer and supplier enquiries\n- Generate reports\n- Liaise with suppliers\n- Retaxing of vehicles and adhoc vehicle administration.\n\nSkills & Experience:\n- Previous administration experience\n- Strong organisational skills\n- Good knowledge of Microsoft Office (Word, Excel, Outlook)\n- Excellent communication skills\n- Accurate data entry and attention to detail\n- Ability to prioritise workload and meet deadlines\n- Reliable and proactive approach\n\nIf you would like to be considered for this position, please apply now!\n\nK2 Recruitment Ltd is acting as an Employment Business in relation to this vacancy.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?1tcg6Aj2zayZpLZXubTbYl5tyBbUlyZqb",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "K2 Recruitment",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Hourly",
+    "posted_date_basis": ""
+  },
+  {
     "job_id": "23643_225476620",
     "title": "Scheduling Co-ordinator",
     "company": "DJ Doors - Agency - Permanent",
@@ -659,12 +653,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Quotations",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1247531 [JSP51654]",
@@ -739,11 +728,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Starters and leavers"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "nhs-5579704",
@@ -812,28 +797,6 @@
     "posted_date_basis": "source"
   },
   {
-    "job_id": "nhs-5533284",
-    "source": "NHS Jobs",
-    "title": "Programme Administrator",
-    "company": "Oxford University Hospitals NHS Foundation Trust",
-    "advertiser_name": "Oxford University Hospitals NHS Foundation Trust",
-    "location": "Oxford, OX3 9DU",
-    "region": "Oxfordshire",
-    "salary": "£25760.00 to £27476.00",
-    "employment_type": "Permanent",
-    "posted_date": "2026-08-12T11:36:06.960325",
-    "closing_date": "2026-09-04",
-    "description": "Are you organised, compassionate, and enjoy helping people? Join our Here for Health - Waiting Well Programme as a Programme Administrator and play a key role in supporting patients across Oxfordshire. You'll provide friendly, high-quality administrative support, keeping clinics running smoothly, managing appointments, and helping patients access the care and community services they need. You'll work closely with the Here for Health team, healthcare staff, GP practices, and external services to ensure a safe, efficient, and patient-focused service. We're looking for someone who is: Experienced in administration or customer service Excellent at communicating, including on the phone Organised, reliable, and able to manage multiple tasks Friendly, compassionate, and people-focused Why join us? Make a real difference to people's health and wellbeing Be part of a supportive, inclusive team Access professional development opportunities Book, manage, and coordinate Waiting Well appointments and clinics Act as a first point of contact for patient, GP, and staff enquiries, responding in a professional and timely manner Provide clear and accurate information to patients and colleagues Support the organisation and day-to-day running of Waiting Well clinics Maintain accurate and up-to-date patient records, always ensuring confidentiality Assist with tracking, monitoring, and evaluation of programme activity Work closely with the Here for Health team to support efficient service delivery Liaise with internal and external stakeholders to ensure smooth patient pathways Follow Trust policies, procedures, and information governance requirements Communication Contact patients to arrange and manage Waiting Well appointments, including re-scheduling if needed. Help patients understand information clearly and overcome any barriers. Follow up with patients who do not attend appointments to find out the reason and offer support. Remind patients of upcoming appointments and check if they plan to attend or need to re-schedule. Respond to anxious or worried patients and relatives with patience, tact, and discretion. Deal with messages from clinicians, GPs, and other staff, keeping the Service Manager informed. Record communications accurately. Handle sensitive information, including patient records and staff development details, professionally and confidentially. Communicate complex or sensitive information clearly, both verbally and in writing. This may include programme procedures, key performance indicators, referrals, and evaluation data. Keep the Service Manager updated on progress and any challenges. Take appropriate action on complaints, seeking guidance when needed. Arrange and manage appointments independently, ensuring the service runs smoothly. Re-schedule appointments or admissions if patients or the programme need to change them. Make the best use of clinic time and staff resources. Check patient lists and data for accuracy, contacting GPs when needed. Make onward referrals for patients and keep the team informed of any issues. File outcomes and correspondence correctly in patient records and maintain an accurate filing system. Organise and monitor staff rotas and clinic venues in collaboration with the health promotion practitioners and Service Manager. Maintain programme trackers and records to a high standard with support from the team. Monitor the programmes generic email inbox and message pool, responding to queries promptly.",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9321-26-1360",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9321-26-1360",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
-  },
-  {
     "job_id": "nhs-5573609",
     "source": "NHS Jobs",
     "title": "Forensic Administrator - Littlemore, Oxford",
@@ -878,20 +841,42 @@
     "posted_date_basis": "source"
   },
   {
-    "job_id": "nhs-5565421",
+    "job_id": "nhs-5547418",
     "source": "NHS Jobs",
-    "title": "Assistant Patient Pathway Administrator",
-    "company": "Oxford University Hospitals NHS Foundation Trust",
-    "advertiser_name": "Oxford University Hospitals NHS Foundation Trust",
-    "location": "Oxford, OX3 7LE",
+    "title": "Medical Receptionist",
+    "company": "The Abingdon Surgery",
+    "advertiser_name": "The Abingdon Surgery",
+    "location": "Abingdon, OX14 3LB",
     "region": "Oxfordshire",
-    "salary": "£25760.00 to £27476.00",
+    "salary": "£14.00",
     "employment_type": "Permanent",
-    "posted_date": "2026-08-27T11:19:20.971672470",
-    "closing_date": "2026-09-10",
-    "description": "Advert - Band 3 Assistant Patient Pathway Administrator - Urology We have some exciting opportunities available to join the Urology team as a Assistant Patient Pathway Administrator. We have a variety of posts based at either the Churchill Hospital (Headington) or the Horton Hospital (Banbury). As a Assistant Patient Pathway Administrator, you will work closely with our clinical teams to support the delivery of excellent care to our patients. Your day-to-day role will involve talking with patients and the clinical teams, carrying out a variety of administrative tasks such as booking clinic appointments, scheduling patients into an operating theatre list, and making sure our consultant and nursing teams' clinic letters are processed and sent out to our patients. These roles are ideal for anyone looking to move into the NHS, with good opportunities for career progression both within and outside the department. We welcome applications from recent school leavers or graduates, or those looking for a change, as full training will be given once you start in your role. Informal discussions or visits to the department are welcomed, please do contact either Lisha Collier or Sandra Hardy (Urology Pathway Managers) for further information. Lisha.Collier@ouh.nhs.uk Sandra.Hardy@ouh.nhs.uk 1. Book new and follow-up outpatient and diagnostic appointments, ensuring that capacity is proactively and efficiently used. This includes booking patients into the correct clinic to ensure that they are seen by the most appropriate clinician. 2. Reschedule outpatient appointments as a result of patients calling the service, in line with local targets and agreed local processes in respect to patient cancellations. 3. Actively review patient DNAs, liaising with the appropriate clinical staff and reschedule patient appointments in line with agreed local processes. 4. Taking telephone calls from patients and actioning their queries or directing them to the appropriate person. 5. Contributing to the management of the daily emails accounts within the department, ensuring that queries are dealt with effectively and efficiently. 6. Completing clinical letters for patients and GPs 7. Adding additional clinic capacity on EPR as directed by management. 8. Liaise with the appropriate teams (e.g. learning disabilities team, translator services etc) to ensure that patients requiring additional support services are not indirectly discriminated. The post holder will be expected to provide day to day administrative support for Urology clinicians within the Urology department. The individual will need to be flexible to meet the competing and evolving demands of the service. There will be an element of cross cover required within the team and an extension of the role to provide administrative support to other services covered by the Urology Team Patient administration underpins the patient journey and supports clinical teams in delivering high quality patient care and can make a real difference to the patient experience. Effective and efficient patient administration supports management through ensuring a high standard of data quality and by making the best use of capacity and resources. The post holder has responsibility for the provision of a professional, comprehensive, and efficient administrative support service for the Urology clinical team",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9321-26-1501",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9321-26-1501",
+    "posted_date": "2026-08-25T09:25:12.528767329",
+    "closing_date": "2026-09-06",
+    "description": "The Receptionist will provide an efficient and effective service for patients and members of the practice. The post holder will ensure that all patients and visitors are welcomed to the practice in a professional manner whilst adhering to the practice data and confidentiality policy. The Receptionist is part of the Customer Services Team and the first point of contact for patients playing a very important role as part of The Abingdon Surgery team. Key Responsibilities: Act as the first point of contact for patients, clinicians, and visitors to the department dealing with all face-to-face contacts in an efficient, polite, and courteous manner and responding to all telephone enquiries in a prompt and professional manner Deal with patient enquiries in an empathetic and confidential manner, signposting people appropriately and always maintaining a high standard of customer care Ensure that patients are checked in and out of clinics accurately and in a timely manner Book all follow-up appointments Be responsible for recording DNAs accurately including contacting patients regarding the reason for not attending Ensure that the reception area is always kept clean and tidy. Book interpreter services for patients as required Take responsibility for all communications received and distribute appropriately to the clinical and administrative staff within the service Explain practice arrangements and formal requirements to new patients and temporary residents, ensure procedures are completed Advise patients of relevant charges for private services, accept payment and issue receipts for same Produce repeat prescriptions according to practice procedures and ensure timely distribution or completed prescriptions Replenishment of reception area consumables Complete all training as required by the practice. Vaccinations clinic assistant where required. Demonstrate high levels of customer care and be an ambassador for customer care within the practice Provide robust administration functions that underpins the delivery of high-quality service and maintain effective working relationships with clinical and administrative staff Answer communication including telephone, email, and face-to-face queries and in timely manner and action as appropriate Always maintain patient confidentiality Be flexible in approach to work, such as covering other job roles at an appropriate grade or site, including varying working hours to ensure that the service maintains an adequate level of cover during core hours Use the IT systems to register patients, make up a set of patient notes, make patient appointments, produce letters, ensure that details are correct, check in/out of patient appointments as instructed Attend departmental meetings and training as required to ensure that up-to-date working knowledge of service and practice procedures is maintained Act in a manner aligned with the Practice Values and consistently demonstrate the behaviours that will ensure the achievement of delivering compassionate care and excellence Perform any other duties commensurate to the grade, at the request of the departmental managers, which may be needed to fulfil the objectives of the post The job description is an outline of the key tasks and responsibilities of the Receptionist and is not intended as an exhaustive list. The job may change over time to reflect the changing needs of the Trust and its services as well as the personal development needs of the post-holder. Any variation will be agreed in advance between the post-holder and the Reception Manager as part of the continuing process of management review and development.",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0699-26-0007",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0699-26-0007",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
+  },
+  {
+    "job_id": "nhs-5558600",
+    "source": "NHS Jobs",
+    "title": "Admin Assistant - Care Home",
+    "company": "Barchester Healthcare",
+    "advertiser_name": "Barchester Healthcare",
+    "location": "Banbury, OX15 6EH",
+    "region": "Oxfordshire",
+    "salary": "Negotiable",
+    "employment_type": "Permanent",
+    "posted_date": "2026-08-24T16:05:12.438321140",
+    "closing_date": "2026-10-23",
+    "description": "ABOUT THE ROLE As an Admin Assistant at a Barchester care home, you'll carry out a range of responsibilities to help us deliver the quality care and support our residents deserve. In this varied role, we'll need you to answer the phone, handle our files and support our managers. You'll also meet and greet visitors, engage with residents and show prospective clients and their families around so they can see what makes us so different. Across everything you do as an Admin Assistant here, you'll go out of your way to help us create a vibrant, happy environment. ABOUT YOU If you have the ability to multi-task, good computer skills and a confident telephone manner you could be well-suited to the Admin Assistant role with us. It's also really important that you're a people person you'll take a genuine interest in our residents and their families. If that sounds like you, we'll give you the opportunity to develop your skills with courses that have been designed to build your confidence across all your responsibilities. REWARDS PACKAGE In return for your dedication, you'll r As an Admin Assistant at a Barchester care home, you will carry out a range of responsibilities to help deliver the quality care and support residents deserve. The role involves answering the phone, handling files, supporting managers, and meeting and greeting visitors. Engaging with residents and showing prospective clients around are also included. If you have good multi-tasking abilities, computer skills, and a confident telephone manner, this role may be suitable for you. Being a people person is important, as you'll take a genuine interest in residents and their families. In return for your dedication, you will receive a competitive rate of pay plus a sector-leading benefits and rewards package including free training and development, access to wellbeing tools, retail discounts, unlimited referrals with a 'Refer a Friend' bonus scheme, and 'Employee of the Month' rewards. ABOUT THE ROLE As an Admin Assistant at a Barchester care home, you'll carry out a range of responsibilities to help us deliver the quality care and support our residents deserve. In this varied role, we'll need you to answer the phone, handle our files and support our managers. You'll also meet and greet visitors, engage with residents and show prospective clients and their families around so they can see what makes us so different. Across everything you do as an Admin Assistant here, you'll go out of your way to help us create a vibrant, happy environment. ABOUT YOU If you have the ability to multi-task, good computer skills and a confident telephone manner you could be well-suited to the Admin Assistant role with us. It's also really important that you're a people person you'll take a genuine interest in our residents and their families. If that sounds like you, we'll give you the opportunity to develop your skills with courses that have been designed to build your confidence across all your responsibilities. REWARDS PACKAGE In return for your dedication, you'll receive a competitive rate of pay plus our sector-leading benefits and rewards package including: Free training and development for all roles Access to wellbeing and support tools A range of retail discounts and savings Unlimited referrals with our Refer a Friend' bonus scheme Employee of the Month' rewards and Long Service Awards' Workplace Pension scheme, with Employer contributions from 3% And so much more! If you'd like to use your administration and people skills in an organisation that provides the quality care you'd expect for your loved ones, this is a rewarding place to be.",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0177-26-9201",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0177-26-9201",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
     "advertiser_type": "",

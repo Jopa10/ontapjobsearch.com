@@ -256,11 +256,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Daily",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Data entry"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1771921",
@@ -285,11 +281,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Daily",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Data entry"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1763910",
@@ -364,11 +356,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Part Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Records administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1766165",
@@ -393,12 +381,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Records administration",
-      "Reporting"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1789841",
@@ -858,20 +841,20 @@
     "posted_date_basis": "source"
   },
   {
-    "job_id": "nhs-5556384",
+    "job_id": "nhs-5547947",
     "source": "NHS Jobs",
-    "title": "Medical Receptionist",
-    "company": "Hollyoaks Medical Centre",
-    "advertiser_name": "Hollyoaks Medical Centre",
-    "location": "Birmingham, B47 6ET",
+    "title": "Band 4 Personal Assistant / Senior Administrator - General Management",
+    "company": "Birmingham Community Healthcare NHS FT",
+    "advertiser_name": "Birmingham Community Healthcare NHS FT",
+    "location": "Birmingham, B5 7EG",
     "region": "West Midlands - Birmingham & Solihull",
-    "salary": "Negotiable",
-    "employment_type": "Permanent",
-    "posted_date": "2026-08-24T08:51:12.442178247",
-    "closing_date": "2026-09-04",
-    "description": "We are looking for a medical receptionist for 3 afternoon shifts per week to join our team at Hollyoaks Medical Centre. We require a receptionist with a good understanding of EMIS WEB and proven experience of working in a fast paced environment. The ideal candidate will be highly motivated and able to work under pressure to meet deadlines. We require a receptionist with a good understanding of EMIS WEB. The ideal candidate will be highly motivated and able to work under pressure to meet deadlines. You will need to be a confident, loyal, hard-working, team player with excellent communication skills and a can-do approach to your work. Reception/ Administration duties: Providing the first point of contact to patients and other visitors to enable access to appropriate services in a professional and courteous manner. To have a thorough knowledge and work in accordance ofpractice policies and procedures. Receive and make telephone calls as required. Divert calls and take messages, ensuring accuracy of detail and prompt appropriate delivery. Liaise with local hospitals and other agencies as appropriate. Receive telephone calls and enter them onto triage list as appropriate, ensuring accurate information is recorded to enable the clinical team to deal with patient queries effectively. Give results of investigations/tests, i.e. blood, urine, etc. to patients Registration of new patients and updating patients' records as required. Deal with all general inquiries, explain procedures, and make new and follow-up appointments. To Provide support for clinicians to enable the effective day-to-day running of the practice. To undertake any other tasks allocated by doctors /managers. Repeat Prescriptions: To have a thorough knowledge of the repeat prescription procedures Action repeat prescription requests and ensure that they are ready for collection by the patient within 48 hours. To deal with queries relating to repeat prescriptions",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3050-26-AUG00",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3050-26-AUG00",
+    "salary": "£28392.00 to £31157.00",
+    "employment_type": "Fixed-Term",
+    "posted_date": "2026-08-20T08:57:07.344136961",
+    "closing_date": "2026-09-06",
+    "description": "This job advert will close as soon as sufficient applications have been received. Please apply for this job as soon as you can, if interested. The post holder will provide a high level, competent, comprehensive administrative support to the Divisional Triumvirate and/or Senior Management Team (SMT). The post holder will have day to day management for staff within a dedicated administrative team who will be responsible for delivering an effective service. The post holder will act as the Personal Assistant (PA) to a designated a member of the Divisional Trimvirate and/or SMT. To provide cross cover within the General Management and Nursing Administration Teams at times of short staffing levels to ensure the smooth delivery of services within the Division. Provide the first point of contact on behalf of the Triumvirate and/or Senior Manager for written and telephone enquiries on behalf of the Senior Manager, using judgement to establish the validity and priority of the contact. To provide a customer focused service and be able to communicate effectively and appropriately with patients and staff at all levels. Manage and maintain the Triumvirate and/or Senior Managers' diary or appointment system, ensuring that utilisation of time and allocation of appointments is appropriate. Facilitate meetings/events; issuing invites to attendees including circulation of any relevant paperwork, booking venues to include any IT requirements, produce minutes/action logs and assist with the overall smooth running of the meeting/event. Process and submit expense claims, ensuring that travel, mileage, vehicle documentation and receipts are accurate prior to submission for approval. Support with the organisation of HR events such as staff consultations, investigation interviews and panel hearings as requested following HR policies and procedures liaising with senior members of staff, HR, staff and Trade Unions as appropriate and including taking accurate verbatim notes from interviews and hearings There is an exciting opportunities for an experienced Personal Assistant to join a friendly team within General Management and Nursing department. the post will provide an expert secretarial and administrative support to the General Management team and Senior Management Team. Main duties of the Job Applicants must be highly competent with all Microsoft packages and have proven high level minute taking skills. Attention to detail and a high degree of skill in receiving complex and sensitive information and managing it effectively are essential components of the job. Evidence of exemplary communication skills are vital together with the ability to prioritise and work to deadlines. Please see the attached job description and person specification for a more detailed description.",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9820-26-0572",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9820-26-0572",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
     "advertiser_type": "",

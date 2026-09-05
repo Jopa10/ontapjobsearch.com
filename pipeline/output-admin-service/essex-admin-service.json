@@ -75,13 +75,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Daily",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Shared inboxes",
-      "Scheduling and bookings",
-      "Systems administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1775925",
@@ -106,11 +100,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225534717",
@@ -138,36 +128,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "23643_225467195",
-    "title": "Occupational Health Administrator",
-    "company": "Casanovas Recruitment Solutions - Agency - Temporary",
-    "location": "Essex",
-    "region": "Essex",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Temporary",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "",
-    "posted_date": "",
-    "description": "Occupational Health Administrator\n\nAre you an organised administrator with excellent attention to detail and a passion for providing exceptional support?\n\nWe're looking for an experienced Occupational Health Administrator to join a busy and supportive team. This is an excellent opportunity for someone with a strong administrative background who enjoys working in a fast-paced environment while handling confidential information with professionalism and care.\n\nThe Role\n\nAs an Occupational Health Administrator, you will provide essential administrative support to the Occupational Health team, ensuring the smooth day-to-day running of the service. You'll coordinate appointments, manage confidential records, liaise with internal and external stakeholders, and help deliver an efficient, high-quality service.\n\nKey Responsibilities\n- Provide comprehensive administrative support to the Occupational Health team.\n- Manage appointments and coordinate diaries for Occupational Health professionals.\n- Handle confidential medical records, ensuring they are stored securely and in line with GDPR requirements.\n- Respond to telephone and email enquiries, resolving queries or directing them to the appropriate person.\n- Prepare reports, letters, correspondence and statistical information.\n- Process invoices and liaise with finance teams and external service providers.\n- Organise meetings, book venues and ensure follow-up actions are completed.\n- Maintain office supplies and support the smooth operation of the department.\n- Identify opportunities to improve administrative processes and customer service.\n- Ensure compliance with data protection, health and safety and organisational policies.\n\nAbout You\n\nWe're looking for someone who has:\n- Previous experience in an administrative role, ideally within Occupational Health, healthcare, the NHS or another confidential environment.\n- Excellent organisational skills with the ability to manage multiple priorities and meet deadlines.\n- Strong communication and customer service skills.\n- The ability to handle sensitive and confidential information with discretion.\n- Confidence using Microsoft Office and database systems.\n- A proactive approach with excellent problem-solving skills.\n- The ability to work independently as well as part of a collaborative team.\n\nWhy Apply?\n\nThis is a fantastic opportunity to join a professional team where your organisational skills will make a real difference. If you enjoy providing high-quality administrative support, thrive in a structured environment and take pride in delivering excellent customer service, we'd love to hear from you.\n\nApply today to find out more about this opportunity.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?d1vRzEYF65TbwGsYmiuxVxT5ldU1Hpfhx",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Casanovas Recruitment Solutions",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Email handling",
-      "Scheduling and bookings",
-      "Reporting"
-    ]
-  },
-  {
     "job_id": "23643_225473584",
     "title": "Temporary Part Time Contracts Administrator",
     "company": "Office Angels - Agency - Temporary",
@@ -190,11 +150,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Part Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Shared inboxes",
-      "Records administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225472719",
@@ -219,11 +175,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Data entry"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225474041",
@@ -298,11 +250,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Quotations"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225523466",
@@ -402,11 +350,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Quotations"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1733700",
@@ -456,11 +400,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Reporting"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1744022",
@@ -485,12 +425,32 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Records administration",
-      "Customer portals"
-    ]
+    "posted_date_basis": ""
+  },
+  {
+    "job_id": "1743406",
+    "title": "Sales & Operations Administrator",
+    "company": "TIME Appointments Ltd - Agency - Permanent",
+    "location": "Essex",
+    "region": "Essex",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "",
+    "posted_date": "",
+    "description": "Time Appointments are working closely with a growing construction company who are looking to add a Sales & Operations Administrator to their team.\n\nThis is a great opportunity for someone who enjoys working in a busy environment, has a strong customer focus and is keen to learn and develop their skills.\n\nKey Duties & Responsibilities\n- Answer customer enquiries by phone and email\n- Prepare and process customer quotes using Microsoft Office\n- Take sales orders and liaise with customers face-to-face and over the phone\n- Provide a professional and friendly service to customers\n- Support the operations team with picking and checking orders\n- Help unload deliveries when required\n- Prepare quotes for bespoke and more complex products\n- Provide general support across the sales and operations teams\n\nSkills & Experience Required:\n- Previous experience in a sales administration or operations role\n- Knowledge of building materials or the construction industry is desirable\n- Good knowledge of Microsoft Office and confidence preparing quotes\n- Excellent communication and customer service skills\n- Strong attention to detail and organisational skills\n- A positive, hands-on attitude and willingness to help across the business\n- Full UK driving licence",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?G%2b5YiGNoEgp4mlTVHyN18T21z%2fHB9U2Jn",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "TIME Appointments Ltd",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225538784",
@@ -515,14 +475,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Scheduling and bookings",
-      "Records administration",
-      "Quotations",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225547455",
@@ -572,6 +525,31 @@
     "advertiser_type": "Agency",
     "work_pattern": "Part Time",
     "salary_period": "Hourly",
+    "posted_date_basis": ""
+  },
+  {
+    "job_id": "23643_225467195",
+    "title": "Occupational Health Administrator",
+    "company": "Casanovas Recruitment Solutions - Agency - Temporary",
+    "location": "Essex",
+    "region": "Essex",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Temporary",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "",
+    "posted_date": "",
+    "description": "Occupational Health Administrator\n\nAre you an organised administrator with excellent attention to detail and a passion for providing exceptional support?\n\nWe're looking for an experienced Occupational Health Administrator to join a busy and supportive team. This is an excellent opportunity for someone with a strong administrative background who enjoys working in a fast-paced environment while handling confidential information with professionalism and care.\n\nThe Role\n\nAs an Occupational Health Administrator, you will provide essential administrative support to the Occupational Health team, ensuring the smooth day-to-day running of the service. You'll coordinate appointments, manage confidential records, liaise with internal and external stakeholders, and help deliver an efficient, high-quality service.\n\nKey Responsibilities\n- Provide comprehensive administrative support to the Occupational Health team.\n- Manage appointments and coordinate diaries for Occupational Health professionals.\n- Handle confidential medical records, ensuring they are stored securely and in line with GDPR requirements.\n- Respond to telephone and email enquiries, resolving queries or directing them to the appropriate person.\n- Prepare reports, letters, correspondence and statistical information.\n- Process invoices and liaise with finance teams and external service providers.\n- Organise meetings, book venues and ensure follow-up actions are completed.\n- Maintain office supplies and support the smooth operation of the department.\n- Identify opportunities to improve administrative processes and customer service.\n- Ensure compliance with data protection, health and safety and organisational policies.\n\nAbout You\n\nWe're looking for someone who has:\n- Previous experience in an administrative role, ideally within Occupational Health, healthcare, the NHS or another confidential environment.\n- Excellent organisational skills with the ability to manage multiple priorities and meet deadlines.\n- Strong communication and customer service skills.\n- The ability to handle sensitive and confidential information with discretion.\n- Confidence using Microsoft Office and database systems.\n- A proactive approach with excellent problem-solving skills.\n- The ability to work independently as well as part of a collaborative team.\n\nWhy Apply?\n\nThis is a fantastic opportunity to join a professional team where your organisational skills will make a real difference. If you enjoy providing high-quality administrative support, thrive in a structured environment and take pride in delivering excellent customer service, we'd love to hear from you.\n\nApply today to find out more about this opportunity.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?io0x8AEcaIPXeHJ8lGvrKwy%2fR1wJANqNo",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Casanovas Recruitment Solutions",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Annual",
     "posted_date_basis": ""
   },
   {
@@ -794,6 +772,31 @@
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
     "advertiser_name": "Action for Family Carers",
+    "advertiser_type": "Agency",
+    "work_pattern": "Full Time",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
+    "job_id": "23643_225467549",
+    "title": "Marketing Co-Ordinator",
+    "company": "SVC Technical - Agency - Permanent",
+    "location": "Essex",
+    "region": "Essex",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "28000",
+    "salary_max": "30000",
+    "salary_text": "£28000 - £30000 per year (Excellent benefits)",
+    "posted_date": "",
+    "description": "Marketing Coordinator\nLocation: Braintree\nDepartment: Marketing\nSalary: 28-30 K\nEmployment Type: Full-Time\n\nThe Role\nAs Marketing Coordinator, you will be responsible for supporting and delivering a wide range of marketing activities across digital, print, social media, product launches, exhibitions, customer communications and internal projects.\n\nThis is an excellent opportunity for an ambitious individual who enjoys a varied role and has a passion for marketing, content creation and digital technologies. The successful candidate will be highly organised, commercially aware and comfortable working across multiple projects simultaneously.\n\nExperience of a technical nature would be advantageous, whether gained through previous employment or education.\n\nKey Responsibilities\n\nMarketing & Communications\n\nSocial Media & Digital Marketing\n\nAI & Marketing Technology\n\nProduct & Technical Marketing Support\n\nEvents & Exhibitions\n\nInternal Collaboration\n\nCandidate Profile\n\nEssential Skills & Experience\n- Previous experience in a Marketing Coordinator, Marketing Assistant or similar marketing role.\n- Strong understanding of social media platforms and content creation.\n- Experience using marketing software and digital communication tools.\n- Excellent written and verbal communication skills.\n- Strong organisational and project management skills.\n- Ability to manage multiple projects and priorities simultaneously.\n- Proficient in Microsoft Office, particularly PowerPoint, Excel and Teams.\n- Strong attention to detail and commitment to high-quality work.\n- Commercial awareness and customer-focused mindset.\n- Positive, proactive and team-oriented approach.\n\nDesired Skills & Experience\n- Experience working within manufacturing, engineering, technical products or ideally the electrical industry.\n- Experience with Adobe Creative Suite, Canva or similar design tools.\n- Experience managing website content using CMS platforms.\n- Knowledge of SEO, Google Analytics and digital marketing metrics.\n- Experience creating and editing video content.\n- Working knowledge of CRM systems.\n- Experience using AI tools such as Microsoft Copilot, ChatGPT, Canva AI, Adobe Firefly or similar platforms.\n- Basic understanding of automation tools and workflows.\n\nTechnical Knowledge\nThe ideal candidate will possess some technical understanding gained from either:\n\nEmployment within the electrical, engineering or manufacturing sectors.\n\nTechnical, engineering or electrical qualifications.\n\nApprenticeship experience.\n\nSTEM-related education.\n\nExperience producing technical documentation or product communications.\n\nCandidates are not expected to be technical experts but should be comfortable understanding and communicating technical product information.\n\nPersonal Attributes\nWe are looking for someone who is:\n\nHighly organised and self-motivated.\n\nCreative and commercially minded.\n\nCurious about new technologies and AI.\n\nProfessional and confident when communicating with customers and colleagues.\n\nEager to learn and develop new skills.\n\nSolutions-focused with a positive attitude.\n\nComfortable working independently and as part of a team.\n\nAdaptable within a fast-paced business environment.\n\nQualifications\nEssential\n\nGCSE English and Maths (or equivalent).\n\nMarketing qualification, degree or relevant industry experience.\n\nDesirable\n\nDegree in Marketing, Business, Communications or related discipline.\n\nCIM qualification or working towards CIM accreditation.\n\nTechnical, engineering or electrical qualification.\n\nDigital marketing certification.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?gZ0pd2TJz0L9ucC3DhTglMx7fGzWEtSxs",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "SVC Technical",
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
