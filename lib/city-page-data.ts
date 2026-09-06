@@ -114,7 +114,7 @@ function roleBreadcrumb(
     };
   }
   return {
-    roleLabel: "Service Administrator jobs",
+    roleLabel: "Admin and office jobs",
     roleRoute: "/browse-jobs#admin-service-jobs",
   };
 }
@@ -148,7 +148,10 @@ function definitionFromTechnical(row: TechnicalCityPage): CityPageDefinition | n
     displayName: row.display_name,
     categoryLabel: row.category_label,
     route: row.route,
-    listingLabel: `${row.display_name} ${row.category_label}`,
+    listingLabel:
+      row.category_label.toLowerCase() === "admin and office jobs"
+        ? `Admin and office jobs in ${row.display_name}`
+        : `${row.display_name} ${row.category_label}`,
     jsonPath: row.output_json.split("/").filter(Boolean),
     parentRoute: parentRouteFromPage(row.parent_page),
     minimumJobs: active ? 0 : launchMinimumJobs,
@@ -181,9 +184,9 @@ function loadCityPageDefinitions(): CityPageDefinition[] {
 const legacyNewcastleFallback: CityPageDefinition = {
   key: "newcastle-service-administrator",
   displayName: "Newcastle",
-  categoryLabel: "admin and customer-service jobs",
+  categoryLabel: "admin and office jobs",
   route: "/newcastle/service-administrator-jobs",
-  listingLabel: "Newcastle Admin & Customer Service jobs",
+  listingLabel: "Admin and office jobs in Newcastle",
   jsonPath: ["app", "_city-pages", "newcastle", "service-administrator-jobs.json"],
   parentRoute: "/north-east/service-administrator-jobs",
   minimumJobs: 0,

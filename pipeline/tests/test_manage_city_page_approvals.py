@@ -77,10 +77,14 @@ class CityPageApprovalTests(unittest.TestCase):
         )
         self.assertIn("bradford", [rule["pattern"] for rule in config["exclude_rules"]])
         self.assertEqual(config["lifecycle_state"], "active")
+        self.assertEqual(config["category_label"], "admin and office jobs")
+        self.assertTrue(config["include_office_family_supplements"])
+        self.assertEqual(config["exact_localities"], ["Leeds"])
 
         source = page_source(config)
         self.assertIn('const route = "/leeds/service-administrator-jobs";', source)
         self.assertIn("getCityPageDefinitionByRoute", source)
+        self.assertIn("Admin and office jobs in Leeds", source)
 
 
 if __name__ == "__main__":

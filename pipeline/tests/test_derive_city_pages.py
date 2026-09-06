@@ -24,6 +24,7 @@ from scripts.derive_city_pages import (  # noqa: E402
     process_config,
     review_job_id,
     selected_live_jobs,
+    load_config_jobs,
 )
 
 
@@ -56,6 +57,8 @@ def config(*, mode: str = "review_only", threshold: int = 3) -> CityConfig:
         ),
         fallback_decision="review",
         fallback_reason="No rule matched",
+        exact_localities=(),
+        include_office_family_supplements=False,
     )
 
 
@@ -81,6 +84,48 @@ def job(
 
 
 class CityPageDerivationTests(unittest.TestCase):
+    def test_exact_locality_does_not_match_a_longer_place_name(self) -> None:
+        cfg = config()
+        cfg = CityConfig(**{**cfg.__dict__, "exact_localities": ("warwick",)})
+        self.assertEqual(classify_job(job("1", "Warwick"), cfg)[0], "include")
+        self.assertEqual(classify_job(job("2", "Warwickshire"), cfg)[0], "review")
+
+    def test_office_supplements_exclude_support_and_unevidenced_sales(self) -> None:
+        cfg = config()
+        cfg = CityConfig(
+            **{
+                **cfg.__dict__,
+                "parent_page": Path("app/test/service-administrator-jobs.json"),
+                "include_office_family_supplements": True,
+            }
+        )
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            parent = root / cfg.parent_page
+            parent.parent.mkdir(parents=True)
+            parent.write_text(json.dumps([job("admin", "Test City", title="Administrator")]), encoding="utf-8")
+            configured = root / "app/_city-pages/configured-slices/test"
+            configured.mkdir(parents=True)
+            (configured / "marketing-jobs.json").write_text(
+                json.dumps([job("marketing", "Test City", title="Marketing Executive")]), encoding="utf-8"
+            )
+            (configured / "support-worker.json").write_text(
+                json.dumps([job("support", "Test City", title="Support Worker")]), encoding="utf-8"
+            )
+            (configured / "customer-sales-jobs.json").write_text(
+                json.dumps([
+                    job("retail", "Test City", title="Retail Sales Advisor"),
+                    job("office-sales", "Test City", title="Telesales Executive"),
+                ]),
+                encoding="utf-8",
+            )
+            loaded = load_config_jobs(cfg, root)
+
+        self.assertEqual(
+            {item["job_id"] for item in loaded},
+            {"admin", "marketing", "office-sales"},
+        )
+
     def test_decision_is_first_csv_column(self) -> None:
         self.assertEqual(FIELDNAMES[0], "decision")
 

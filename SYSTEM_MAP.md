@@ -7,6 +7,8 @@ This is the authoritative technical map of the persistent Ontap system. It is or
 
 ## Recent canonical changes
 
+- 6 September 2026 — **Service Admin city expansion is now office-intent led:** 29 owner-approved exact-town routes launch at four or more current Service Admin jobs, taking active Service Admin city pages from 24 to 53. All retain `/[town]/service-administrator-jobs`, while their title, H1, description, breadcrumbs and internal labels use `Admin and office jobs in [Town]`. The same governed town page may supplement Service Admin with exact-town Paralegal, Marketing, Finance / Accounts, HR / Recruitment and Customer Service / Contact Centre jobs. Support Worker is always excluded; Customer Sales is admitted only with explicit office/contact-centre evidence. Existing active routes receive the same office-family composition and wording without URL changes. Broad `/[town]/jobs` routes remain separate and are not duplicated where they already cover the same town.
+
 - 6 September 2026 — **Broad JobG8 locations are refined from explicit advert evidence before publication:** the shared verified publisher now preserves regional selection but promotes a county/region-only displayed location to a specific town when the advert supplies a mapped postcode or an explicit workplace cue such as `Location:` or `based in`. The town must map back to the already-approved Ontap region; conflicting, uncued and non-JobG8 evidence remains unchanged. The current 1,526-job JobG8 snapshot contains 278 unique live-job refinements, raising projected exact-locality coverage from 886 to 1,162. This improves job-page location accuracy, city-opportunity counts and downstream city derivation without guessing that a broad county belongs to any particular town.
 - 6 September 2026 — **Mobile navigation and job-detail onward links are simplified without changing desktop:** below 640 px the site header hides `Browse Jobs` and keeps `Home` aligned at the right edge. Individual job pages show only their primary onward link on mobile: the active exact-city page when the vacancy belongs to one, otherwise the governed regional slice. The secondary regional link remains available alongside the city link on desktop.
 - 6 September 2026 — **Non-London job-listing promotion rails are consistent and desktop-only:** every `JobSlicePage` route now resolves to three role-appropriate course cards and the existing practical AI-help card beneath them. Office-based dynamic and generated city pages no longer fall back to a single or care-specific course set; support-worker pages retain three care courses. At mobile widths up to 700 px the entire promotional rail is hidden, leaving the job content uninterrupted. London keeps its existing explicitly configured three-card and AI layout.
@@ -270,18 +272,18 @@ Canonical components:
 - `pipeline/scripts/maintain_active_city_pages.py` — keep active permanent routes refreshed even below launch threshold;
 - `app/_city-pages/...` — private derived city JSON used by public city routes.
 
-Launch gate: a candidate must have **at least 6 current jobs and at least 3 qualifying runs among the last 7 verified-publish runs**, then receive explicit human approval. READY FOR APPROVAL never publishes automatically.
+Service Admin city launch gate: a non-London exact town with **at least 4 current governed Service Admin jobs** may be activated after explicit human approval. The four-job test is based only on Service Admin; supplementary office-family jobs cannot qualify a town. Other family-specific city pages retain their separately governed thresholds. READY FOR APPROVAL never publishes automatically.
 
 Recorded exception: on 22 August 2026 the owner directly approved Bristol, Manchester, Cambridge, Birmingham, Peterborough, Warrington, Liverpool, Hull and Oxford Service Admin after the 55-region audit. Their current exact-city counts materially exceeded the six-job floor, but their dynamic configured-slice parents had not been included in the city scanner's seven-run history. This was a named one-off waiver, not a change to the standing gate.
 
-Once `lifecycle_state: active`, the city route is permanent unless deliberately retired. Falling below six jobs does not delist or 404 the route; the active-city maintenance step rewrites the current output, including an empty array at zero jobs.
+Once `lifecycle_state: active`, the city route is permanent unless deliberately retired. Falling below its launch count does not delist or 404 the route; the active-city maintenance step rewrites the current output, including an empty array at zero jobs.
 
 Homepage visibility is deliberately separate from permanence. An active city page appears as a homepage city card only at **4+ current jobs**. At 0–3 jobs the page remains live/indexable and refreshed, but its homepage card is hidden until supply returns to 4+.
 
-Canonical city thresholds:
+Canonical Service Admin city thresholds:
 
-- **6 jobs** = launch threshold, with 3 of 7 qualifying runs plus explicit approval;
-- **4 jobs** = homepage city-card visibility floor;
+- **4 current Service Admin jobs** = launch threshold with explicit approval;
+- **4 total current page jobs** = homepage city-card visibility floor;
 - **0 jobs** = valid retained state for an already-active permanent city route.
 
 The visibility rule must never be used to justify artificially widening a catchment merely to keep a homepage card visible.
@@ -366,7 +368,7 @@ Customer Sales national/55-market assessment is recurring diagnostic evidence fo
 
 The city-opportunity scanner is diagnostic/decision support. It must not auto-activate a city page.
 
-The daily overview's `CITY OPPORTUNITIES` section is the owner-facing all-role view. It counts each canonical live job once, matches only exact recognised town/locality evidence from `geo_lookup.xlsx`, shows existing routes from `city-page-register.json`, flags non-London localities at four or more current jobs as `CREATE`, and keeps London as `HOLD – LONDON`. Each row also shows mutually exclusive counts for all eight governed role families and `Other / unclassified`; the family is taken from the canonical published representation so multi-slice placements do not inflate the breakdown and the columns reconcile to `All live jobs`. Broader and unrecognised job locations remain visible in the summary count but are not guessed into a city. It complements rather than replaces the slice-specific seven-run scanner and never activates a route.
+The daily overview's `CITY OPPORTUNITIES` section is the owner-facing all-role view. It counts each canonical live job once, matches only exact recognised town/locality evidence from `geo_lookup.xlsx`, shows existing routes from `city-page-register.json`, flags non-London localities at four or more current **Service Admin** jobs as `CREATE`, and keeps London as `HOLD – LONDON`. Each row also shows mutually exclusive counts for all eight governed role families and `Other / unclassified`; family assignment uses the job's published category before its file placement so office-family city duplication cannot relabel a Marketing or Finance job as Service Admin. Broader and unrecognised job locations remain visible in the summary count but are not guessed into a city. It never activates a route automatically.
 
 Compiler Modules 1, 2 and 3 remain legitimate specialist/manual analysis workflows.
 

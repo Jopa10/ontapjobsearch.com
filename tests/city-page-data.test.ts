@@ -40,7 +40,7 @@ test("builds the agreed role, region and city breadcrumb for York", () => {
       cityRoute: "/york/service-administrator-jobs",
       parentLabel: "North Yorkshire",
       parentRoute: "/north-yorkshire/service-administrator-jobs",
-      roleLabel: "Service Administrator jobs",
+      roleLabel: "Admin and office jobs",
       roleRoute: "/browse-jobs#admin-service-jobs",
     }
   );

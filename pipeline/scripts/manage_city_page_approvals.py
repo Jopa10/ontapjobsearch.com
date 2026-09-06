@@ -48,7 +48,7 @@ def public_slice(slice_key: str) -> str:
 
 def category_label(slice_key: str) -> str:
     if slice_key == "service-administrator-jobs":
-        return "admin and customer-service jobs"
+        return "admin and office jobs"
     if slice_key in {"support-worker", "support-worker-jobs"}:
         return "support worker jobs"
     return slice_key.replace("-", " ")
@@ -253,6 +253,8 @@ def build_config(
         "lifecycle_state": "active",
         "retention_policy": "permanent",
         "mode": "publish",
+        "exact_localities": [locality],
+        "include_office_family_supplements": slice_key == "service-administrator-jobs",
         "include_rules": [
             {"pattern": pattern, "reason": reason_for_include(locality, pattern)}
             for pattern in include_patterns
@@ -286,18 +288,26 @@ def page_source(config: dict[str, Any]) -> str:
     locality = str(config["display_name"])
     category = str(config["category_label"])
     parent_page = str(config["parent_page"])
-    parent_route = "/" + parent_page.removeprefix("app/").removesuffix(".json")
+    configured_prefix = "app/_city-pages/configured-slices/"
+    if parent_page.startswith(configured_prefix):
+        parent_route = "/job-search/" + parent_page.removeprefix(configured_prefix).removesuffix(".json")
+    else:
+        parent_route = "/" + parent_page.removeprefix("app/").removesuffix(".json")
     if parent_route.endswith("/support-worker-jobs"):
         parent_route = parent_route.removesuffix("-jobs")
     is_admin = str(config.get("parent_page", "")).endswith("/service-administrator-jobs.json")
-    title_category = "Admin & Customer Service Jobs" if is_admin else "Support Worker Jobs"
+    page_title = (
+        f"Admin and office jobs in {locality}"
+        if is_admin
+        else f"Support Worker Jobs in {locality}"
+    )
     training = admin_training_source() if is_admin else ""
     training_props = (
         '\n      trainingHeading="Boost your admin applications"\n      trainingSubheading="Useful online learning commonly requested for service-administrator and office support roles"\n      trainingItems={adminTraining}'
         if is_admin
         else ""
     )
-    return f'''import type {{ Metadata }} from "next";\nimport {{ notFound }} from "next/navigation";\nimport JobSlicePage from "@/components/JobSlicePage";\nimport {{ getJobPageStatus }} from "@/config/job-page-status";\nimport {{ getCityPageDefinitionByRoute, isCityPageActive }} from "@/lib/city-page-data";\n\nconst route = "{route}";\nconst routeKey = route.slice(1);\nconst definition = getCityPageDefinitionByRoute(route);\nconst canonicalUrl = `https://www.ontapjobsearch.com${{route}}`;\n{training}\nexport const metadata: Metadata = {{\n  title: "{locality} {title_category} | Ontap Job Search",\n  description: "Browse current {category} across {locality} and its approved local employment market.",\n  alternates: {{ canonical: canonicalUrl }},\n}};\n\nexport default function Page() {{\n  if (!definition || !isCityPageActive(definition)) notFound();\n  const latestUpdate = getJobPageStatus(routeKey);\n\n  return (\n    <JobSlicePage\n      jsonPath={{[...definition.jsonPath]}}\n      region="{locality}"\n      title="{locality} {title_category}"\n      latestUpdate={{latestUpdate}}\n      introText={{`Current {category} across {locality} and its approved local employment market. Jobs are checked and updated daily. Latest update: ${{latestUpdate}} • Apply on employer sites`}}\n      anchorTown="{locality}"{training_props}\n      relatedPage={{{{\n        href: "{parent_route}",\n        prompt: "Looking across the wider region?",\n        label: "View all regional jobs",\n      }}}}\n    />\n  );\n}}\n'''
+    return f'''import type {{ Metadata }} from "next";\nimport {{ notFound }} from "next/navigation";\nimport JobSlicePage from "@/components/JobSlicePage";\nimport {{ getJobPageStatus }} from "@/config/job-page-status";\nimport {{ getCityPageDefinitionByRoute, isCityPageActive }} from "@/lib/city-page-data";\n\nconst route = "{route}";\nconst routeKey = route.slice(1);\nconst definition = getCityPageDefinitionByRoute(route);\nconst canonicalUrl = `https://www.ontapjobsearch.com${{route}}`;\n{training}\nexport const metadata: Metadata = {{\n  title: "{page_title} | Ontap Job Search",\n  description: "Browse current {category} across {locality} and its approved local employment market.",\n  alternates: {{ canonical: canonicalUrl }},\n}};\n\nexport default function Page() {{\n  if (!definition || !isCityPageActive(definition)) notFound();\n  const latestUpdate = getJobPageStatus(routeKey);\n\n  return (\n    <JobSlicePage\n      jsonPath={{[...definition.jsonPath]}}\n      region="{locality}"\n      title="{page_title}"\n      latestUpdate={{latestUpdate}}\n      introText={{`Current {category} across {locality} and its approved local employment market. Jobs are checked and updated daily. Latest update: ${{latestUpdate}} • Apply on employer sites`}}\n      anchorTown="{locality}"{training_props}\n      relatedPage={{{{\n        href: "{parent_route}",\n        prompt: "Looking across the wider region?",\n        label: "View all regional jobs",\n      }}}}\n    />\n  );\n}}\n'''
 
 
 def apply_approvals(root: Path, approval_path: Path) -> int:

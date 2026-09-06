@@ -9,13 +9,13 @@ const definition = getCityPageDefinitionByRoute(route);
 const canonicalUrl = `https://www.ontapjobsearch.com${route}`;
 
 export const metadata: Metadata = {
-  title: "Bradford Admin & Customer Service Jobs | Ontap Job Search",
-  description: "Browse current admin and customer-service jobs across Bradford and its approved local employment market.",
+  title: "Admin and office jobs in Bradford | Ontap Job Search",
+  description: "Browse current admin and office jobs across Bradford and its approved local employment market.",
   alternates: { canonical: canonicalUrl },
 };
 
 export default function Page() {
   if (!definition || !isCityPageActive(definition)) notFound();
   const latestUpdate = getJobPageStatus(route.slice(1));
-  return <JobSlicePage jsonPath={[...definition.jsonPath]} region="Bradford" title="Bradford Admin & Customer Service Jobs" latestUpdate={latestUpdate} introText={`Current admin and customer-service jobs across Bradford and its approved local employment market. Jobs are checked and updated daily. Latest update: ${latestUpdate} • Apply on employer sites`} anchorTown="Bradford" relatedPage={{href:"/west-yorkshire/service-administrator-jobs",prompt:"Looking across the wider region?",label:"View all regional jobs"}} />;
+  return <JobSlicePage jsonPath={[...definition.jsonPath]} region="Bradford" title="Admin and office jobs in Bradford" latestUpdate={latestUpdate} introText={`Current admin and office jobs across Bradford and its approved local employment market. Jobs are checked and updated daily. Latest update: ${latestUpdate} • Apply on employer sites`} anchorTown="Bradford" relatedPage={{href:"/west-yorkshire/service-administrator-jobs",prompt:"Looking across the wider region?",label:"View all regional jobs"}} />;
 }

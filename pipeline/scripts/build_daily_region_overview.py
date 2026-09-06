@@ -158,6 +158,16 @@ FAMILY_BY_FILENAME = {
     for family in FAMILIES
     for filename in family["published_filenames"]
 }
+FAMILY_BY_CATEGORY = {
+    "admin/service – office support": "service_admin",
+    "support worker – wide": "support_worker",
+    "customer sales / sales advisor": "sales_advisor",
+    "legal assistant / paralegal": "legal_assistant_paralegal",
+    "marketing": "marketing",
+    "finance / accounts": "finance_accounts",
+    "hr / recruitment": "hr_recruitment",
+    "customer service / contact centre": "customer_service_contact_centre",
+}
 
 
 @dataclass(frozen=True)
@@ -302,7 +312,10 @@ def _city_opportunity_rows(
             continue
         key = _normalise_place(locality)
         counts[key] += 1
-        family_key = FAMILY_BY_FILENAME.get(Path(job.source_file).name, "other")
+        family_key = FAMILY_BY_CATEGORY.get(
+            _normalise_place(job.category),
+            FAMILY_BY_FILENAME.get(Path(job.source_file).name, "other"),
+        )
         family_counts[(key, family_key)] += 1
         labels[key] = (locality, region)
         mapped_jobs += 1
@@ -317,7 +330,7 @@ def _city_opportunity_rows(
             status = "LIVE PAGE"
         elif _normalise_place(region) == "london":
             status = "HOLD – LONDON"
-        elif count >= CITY_PAGE_THRESHOLD:
+        elif family_counts[(key, "service_admin")] >= CITY_PAGE_THRESHOLD:
             status = "CREATE"
         else:
             status = "MONITOR"
@@ -948,7 +961,7 @@ def build() -> str:
             f"Counts use all {site.unique_live_jobs:,} unique live Ontap jobs across every role and provider: "
             f"{city_mapped_jobs:,} have an exact recognised town/locality and "
             f"{city_unmapped_jobs:,} have only broader or unrecognised location evidence. "
-            f"CREATE means {CITY_PAGE_THRESHOLD}+ current jobs and no existing city page; London is held separately."
+            f"CREATE means {CITY_PAGE_THRESHOLD}+ current Service Admin jobs and no existing city page; London is held separately."
         ),
         "",
         "| Status | Town/city/locality | Region | All live jobs | Existing pages | Current routes | "

@@ -20,7 +20,7 @@ The common derivation engine is `pipeline/scripts/derive_city_pages.py`. Each ap
 - city-specific include, review and exclude location rules;
 - a reason for every rule;
 - the route and private derived-data output path;
-- the six-job launch threshold;
+- the family-specific launch threshold;
 - explicit `lifecycle_state: active` approval; and
 - review-output paths.
 
@@ -50,11 +50,13 @@ The same regional market definitions are applied to every published category sli
 
 A market may combine location labels only where they genuinely belong to the same employment market. For example Brighton and Hove are one monitored market, while Crawley and Horsham remain separate. Active city-page rules in `city-page-register.json` take precedence for an already launched page such as Newcastle.
 
+Service Admin city pages are presented as **Admin and office jobs in [Town]**. Four current Service Admin jobs qualify a non-London exact town for explicit owner approval. That qualifying count is Service Admin-only. Once active, the page may also include exact-town Paralegal, Marketing, Finance / Accounts, HR / Recruitment and Customer Service / Contact Centre jobs from live sibling slices. Support Worker is never included. Customer Sales is included only where the advert explicitly evidences office-based, inside-sales, telesales, sales-support or contact-centre work.
+
 Registered markets with one to three current jobs appear as **BUILDING**. Four or five jobs are **NEAR**. Six or more jobs enter the qualification-history process. Exact locations not yet in the register are still surfaced when they reach four jobs, so the monitor can reveal a market we forgot to define.
 
 ## Candidate and approval lifecycle
 
-`pipeline/scripts/scan_city_opportunities.py` discovers possible city/locality splits across all published regional/category slices. `pipeline/scripts/update_city_opportunity_history.py` records the last seven verified-publish pipeline runs. A candidate becomes **READY FOR APPROVAL** only when it has at least six qualifying live jobs on at least three of those seven runs and still has at least six jobs now.
+`pipeline/scripts/scan_city_opportunities.py` discovers possible city/locality splits across published regional/category slices and retains seven-run evidence. Service Admin expansion decisions use the owner-facing daily overview's exact-town Service Admin column: four current Service Admin jobs may be explicitly approved. Other family-specific city candidates continue through their separately governed history and approval rules.
 
 READY FOR APPROVAL never publishes automatically. READY cities are written to:
 
@@ -69,23 +71,23 @@ When that approval file is committed, `pipeline/scripts/manage_city_page_approva
 
 As of 19 August 2026 the newly approved Service Admin city pages are Bradford, Huddersfield, York, Barnsley and Doncaster. Their initial launch catchments are exact-city only. Durham is explicitly held pending the County Durham safeguard and a fresh qualifying-history check.
 
-On 22 August 2026 the owner approved a named one-off exception for Bristol, Manchester, Cambridge, Birmingham, Peterborough, Warrington, Liverpool, Hull and Oxford Service Admin. The 55-region audit found current exact-city counts of 38, 35, 27, 24, 14, 14, 12, 11 and 10 respectively, but their dynamic configured-slice parents had not accumulated city-opportunity history. Each page therefore uses the normal active/permanent city mechanism and a conservative exact-city catchment, while its register entry records the explicit waiver of the 3-of-7 evidence requirement. The standing launch rule is unchanged for later candidates.
+On 22 August 2026 the owner approved a named one-off exception for Bristol, Manchester, Cambridge, Birmingham, Peterborough, Warrington, Liverpool, Hull and Oxford Service Admin. The 55-region audit found current exact-city counts of 38, 35, 27, 24, 14, 14, 12, 11 and 10 respectively, but their dynamic configured-slice parents had not accumulated city-opportunity history. Each page therefore uses the active/permanent city mechanism and a conservative exact-city catchment. The later 6 September office-intent policy supersedes the former six-job/3-of-7 Service Admin launch rule.
 
 ## Permanent-page and homepage-visibility rules
 
-Once a city page is explicitly active, the route is permanent unless it is deliberately retired. Falling below six jobs does not remove the page, delist the URL from the site architecture/sitemap, or return 404.
+Once a city page is explicitly active, the route is permanent unless it is deliberately retired. Falling below its launch count does not remove the page, delist the URL from the site architecture/sitemap, or return 404.
 
 Homepage prominence is a separate UX decision from route permanence. An active city page is shown in the homepage city grid only while it has **at least 4 current jobs**. If it falls to 0–3 jobs, the route remains live/indexable and continues to refresh normally, but the homepage card is temporarily hidden. It automatically reappears when current inventory returns to 4+ jobs.
 
-The three canonical thresholds are therefore:
+The Service Admin thresholds are therefore:
 
-- **6 jobs** = launch qualification threshold, subject to 3 of the last 7 verified-publish runs and explicit approval;
-- **4 jobs** = minimum current supply for homepage city-card visibility;
+- **4 current Service Admin jobs** = qualification threshold, subject to explicit approval;
+- **4 total page jobs** = minimum current supply for homepage city-card visibility;
 - **0 jobs** = allowed for an already-active permanent city route; an empty active page is retained rather than removed.
 
 This presentation rule must not be used as a reason to widen a city catchment artificially. Catchments remain evidence-led labour markets; low current supply is allowed to hide a city from the homepage rather than pull unrelated nearby markets into the page.
 
-The ordinary derivation step may apply the launch threshold internally. `pipeline/scripts/maintain_active_city_pages.py` then rewrites every explicitly active city JSON from the current approved parent jobs even when the count is below six. At zero jobs it writes an empty JSON array rather than removing the output, so the page remains available and displays the site's empty-jobs state without stale vacancies.
+The ordinary derivation step may apply the launch threshold internally. `pipeline/scripts/maintain_active_city_pages.py` then rewrites every explicitly active city JSON from the current approved parent jobs even when the count is below its launch threshold. At zero jobs it writes an empty JSON array rather than removing the output, so the page remains available and displays the site's empty-jobs state without stale vacancies.
 
 The route reads from `app/_city-pages/...`. The private underscore directory is deliberately excluded from the published-job catalogue, preventing duplicate job-detail records or duplicate job URLs. Individual job pages continue to use the parent regional source data.
 

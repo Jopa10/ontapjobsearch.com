@@ -19,7 +19,7 @@ from scripts.derive_city_pages import (
     derive_rows,
     live_json_text,
     load_markdown_actions,
-    load_parent_jobs,
+    load_config_jobs,
     load_review_decisions,
     merge_review_overrides,
     parse_config,
@@ -47,7 +47,7 @@ def maintain_active_config(raw: dict[str, Any], root: Path) -> dict[str, Any]:
     if config.output_json is None:
         raise ValueError(f"active city {config.city_key} has no output_json")
 
-    jobs = load_parent_jobs(root / config.parent_page)
+    jobs = load_config_jobs(config, root)
     overrides = merge_review_overrides(
         load_review_decisions(root / config.review_csv),
         load_markdown_actions(root / config.summary_md),
