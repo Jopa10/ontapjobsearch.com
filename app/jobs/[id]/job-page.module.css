@@ -4,6 +4,10 @@
   padding: 0 16px;
 }
 
+.listingLink {
+  display: inline-flex;
+}
+
 .contentGrid {
   display: grid;
   grid-template-columns: minmax(0, 1fr) 310px;
@@ -69,5 +73,9 @@
 
   .article {
     padding: 18px 16px;
+  }
+
+  .secondaryListingLink {
+    display: none;
   }
 }
