@@ -4,9 +4,9 @@
 > All active sources are current for 2026-09-06. You can start reviewing.
 
 review_date: 2026-09-06
-generated_at: 2026-09-06T15:04:29+00:00
+generated_at: 2026-09-06T17:27:53+00:00
 
-**12 job(s) need a human decision.**
+**13 job(s) need a human decision.**
 
 Edit only each `action:` line:
 - `action: select` = include the vacancy.
@@ -21,57 +21,75 @@ Edit only each `action:` line:
 
 | Source | Status | Review date | Needs review | Note |
 |---|---|---|---:|---|
-| JobG8 | OK | 2026-09-06 | 0 | — |
+| JobG8 | OK | 2026-09-06 | 3 | — |
 | NEJobs | OK | 2026-09-06 | 0 | — |
-| VONNE | OK | 2026-09-06 | 2 | — |
+| VONNE | OK | 2026-09-06 | 0 | — |
 | Teaching Vacancies | OK | 2026-09-06 | 10 | — |
 | NHS Jobs | OK | 2026-09-06 | 0 | automatic Tier A/B publish; NHS POSS stays in the NHS-specific review and is optional |
 
-## JobG8 — 0 to review
+## JobG8 — 3 to review
 
-_No new or changed human decisions required._
+---
+action:
+POSS | JobG8 | Bristol & Bath | Bristol | £35000 per year | Executive Assistant
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 107932845
+title: Executive Assistant
+employer: 
+location: Bristol
+region: Bristol & Bath
+salary: £35000 per year
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: d08fb2710e7aba1d3f043460cd4e5762eaf6c93d0e48146939fa87329a744e97
+---
+
+---
+action:
+POSS | JobG8 | Cambridgeshire | Cambridge | £45000 per year | Service Advisor
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 107880924
+title: Service Advisor
+employer: 
+location: Cambridge
+region: Cambridgeshire
+salary: £45000 per year
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: 8fd7147d8c9226d89dbb1a4abe9fbdc5ef6554569548a14693584ef8af5d5efb
+---
+
+---
+action:
+POSS | JobG8 | Oxfordshire | Oxfordshire | £44026 per year | Recruitment Coordinator
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 107927202
+title: Recruitment Coordinator
+employer: 
+location: Oxfordshire
+region: Oxfordshire
+salary: £44026 per year
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: ced2775291e89cd9dee6d0d6916f87b8afd07fdf0a65f84fecd6ed32af0dd99a
+---
 
 ## NEJobs — 0 to review
 
 _No new or changed human decisions required._
 
-## VONNE — 2 to review
+## VONNE — 0 to review
 
----
-action:
-POSS | VONNE | North East - County Durham & Darlington/Hartlepool | County Durham | £24,454 Per Annum | Administrator (26.13)
-source_key: vonne
-source: VONNE
-category: admin_service
-source_job_id: 173394
-title: Administrator (26.13)
-employer: Age UK County Durham
-location: County Durham
-region: North East - County Durham & Darlington/Hartlepool
-salary: £24,454 Per Annum
-closing_date: Wednesday, September 30, 2026 - 12:00
-reason: possible cross-source duplicate requires review
-source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173394
-hub_fingerprint: 3e5329a2c1b94de6237614acca318b68dcb54ec60df3677c8ac4ffb5beb303ef
----
-
----
-action: select
-POSS | VONNE | North East - County Durham & Darlington/Hartlepool | County Durham | £24,454 Per Annum | Project Administrator (26.12)
-source_key: vonne
-source: VONNE
-category: admin_service
-source_job_id: 173393
-title: Project Administrator (26.12)
-employer: Age UK County Durham
-location: County Durham
-region: North East - County Durham & Darlington/Hartlepool
-salary: £24,454 Per Annum
-closing_date: Wednesday, September 30, 2026 - 12:00
-reason: possible cross-source duplicate requires review
-source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173393
-hub_fingerprint: 63bd464da7ea4eaaea1bc6a03d7c781333453fae93029dd788143a3b00b24b7f
----
+_No new or changed human decisions required._
 
 ## Teaching Vacancies — 10 to review
 
