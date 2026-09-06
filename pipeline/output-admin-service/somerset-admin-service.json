@@ -21,7 +21,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Willow Vale School",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-people-administrator-learning-and-development",
@@ -45,7 +49,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Pathway Trust",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-business-support-and-compliance-administrator-part-time",
@@ -69,7 +77,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Yeovil College",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "1772235",
@@ -172,31 +184,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "1775218",
-    "title": "HR Administrator (Part-Time)",
-    "company": "Change Recruitment Services Ltd - Agency - Permanent",
-    "location": "Somerset",
-    "region": "Somerset",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "",
-    "posted_date": "",
-    "description": "Change Recruitment are pleased to be supporting a local charity who are looking for a part-time HR Administrator to join their HR team. This role will be initially until the end of the year, whilst they assess the requirements of the team. We are looking for someone to work 20-25 hours a week, exact hours are negotiable but ideally over 4-5 days a week including a Friday.\n\nReporting into the Head of HR, you will be responsible for supporting with all administration duties and potentially assisting with payroll.\n\nDuties:\n- Be the first point of contact for general enquiries from staff and applicants\n- Ensure that all employment checks are carried out for staff, including RTW, DBS, occupational health etc.\n- Maintain all staff records on the HR system\n- Supporting the wider HR team on various projects and general tasks to ensure deadlines are met\n- Provide administrative support to the L&D, HR Advisory and recruitment teams\n- Ad-Hoc support to the Head of HR as required\n\nIn return this role pays £13.80ph - £14.35ph and an immediate start after interview. If you are interested then please apply today.\n\nChange Recruitment Services Limited provides services as an Agency and an Employment Business, and is committed to equal opportunities for all candidates",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?vAYWCB8ag%2fgNP8NsazanvVJXCB6iHauxi",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Change Recruitment Services Ltd",
-    "advertiser_type": "Agency",
-    "work_pattern": "Part Time",
-    "salary_period": "Hourly",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "23643_225532752",
     "title": "Temporary Medical Secretary Immediate Start",
     "company": "Office Angels - Agency - Temporary",
@@ -216,6 +203,31 @@
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
     "advertiser_name": "Office Angels",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Hourly",
+    "posted_date_basis": ""
+  },
+  {
+    "job_id": "23643_225541272",
+    "title": "Administrator",
+    "company": "Meridian Business Support - Agency - Temporary",
+    "location": "Somerset",
+    "region": "Somerset",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Temporary",
+    "salary_min": "13.45",
+    "salary_max": "13.45",
+    "salary_text": "£13.45 per hour",
+    "posted_date": "",
+    "description": "We are looking for an Administrator to join a great client based in Yeovil. This is a long term temporary role.\nThe role involves the following:\n- Checking the quality of documentation\n- Sorting paperwork to ensure it is all in order\n- Sending documents to internal customers\n- Producing reports on the inhouse system\n\nTo do this role we will need you to have a good eye for details, basic computer skills and have experience of working in an Administrative role.\nHours: 7.30am to 4pm, Monday to Friday (40 hours per week)\nMeridian Business Support is a recruitment specialist acting on behalf of our client as an Employment Business for this vacancy",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?Dw9iAXzSqBapP3d7rEgCDcadEnZ17UDMk",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Meridian Business Support",
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
@@ -387,7 +399,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9387-26-1771",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9387-26-1771",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5567096",
@@ -405,7 +421,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2122-26-0011",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2122-26-0011",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5563157",
@@ -423,6 +443,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9184-26-1263",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9184-26-1263",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

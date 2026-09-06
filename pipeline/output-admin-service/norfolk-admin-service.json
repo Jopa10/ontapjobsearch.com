@@ -21,7 +21,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Fleggburgh CofE Primary School",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-administration-assistant-fakenham-junior-school",
@@ -45,7 +49,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Fakenham Junior School",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-administration-assistant-d18e39b3-4741-40c0-9bbf-2a5916965727",
@@ -69,7 +77,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Jane Austen College",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-administration-assistant-queensway-junior-academy",
@@ -93,7 +105,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Queensway Junior Academy",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-school-administrator-angel-road-infant-school",
@@ -117,7 +133,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Angel Road Infant School",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "23643_225475160",
@@ -420,31 +440,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "107906887",
-    "title": "Distribution Coordinator",
-    "company": "Tarmac Trading Limited - Company - Permanent",
-    "location": "Norfolk",
-    "region": "Norfolk",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "",
-    "posted_date": "",
-    "description": "While the role will involve some selling and converting enquiries into sales, the primary focus is on day-to-day distribution. This includes planning and coordinating deliveries, maximising loads from each truck, and ensuring excellent customer service throughout the order and delivery process. Strong verbal communication and problem-solving skills are therefore essential click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?nbYVUHO1tX6QFqRSa2ovXHrA4dUXkLyDz",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Tarmac Trading Limited",
-    "advertiser_type": "Company",
-    "work_pattern": "Not Specified",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "107919491",
     "title": "Recovery Coordinator",
     "company": "Julian Support - Agency - Permanent",
@@ -483,7 +478,7 @@
     "salary_text": "£26000 per year",
     "posted_date": "",
     "description": "Brilliant opportunity to work as a Account Coordinator for one of the market-leading Recruitment providers. Enabling the future of work by deploying a highly flexible, robust and skilled workforce.\n\nStaffline is recruiting Account Coordinators in King's Lynn.\n\nThe rate of pay is up to £27,040 per annum click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?Dw9iAXzSqBa7JtT1D36iqyiRiOq0Bdkbk",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?eq2PR%2bX5ctzOyruKzsaSwFNX7M42UGNXp",
     "source": "JobG8",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
@@ -510,7 +505,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1039-26-0010",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1039-26-0010",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5572874",
@@ -528,7 +527,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9246-26-0998",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9246-26-0998",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5561086",
@@ -546,6 +549,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1644-26-0006",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1644-26-0006",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

@@ -21,7 +21,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "William Harding School",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-examinations-officer-aeb29f97-ce81-41ec-8b38-81ed01e3315f",
@@ -45,7 +49,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Chiltern Way Academy Trust",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-attendance-officer-amersham-school",
@@ -69,7 +77,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Amersham School",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "1780993",
@@ -397,31 +409,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "23643_225541272",
-    "title": "Administrator",
-    "company": "Meridian Business Support - Agency - Temporary",
-    "location": "Buckinghamshire",
-    "region": "Buckinghamshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Temporary",
-    "salary_min": "13.45",
-    "salary_max": "13.45",
-    "salary_text": "£13.45 per hour",
-    "posted_date": "",
-    "description": "We are looking for an Administrator to join a great client based in Yeovil. This is a long term temporary role.\nThe role involves the following:\n- Checking the quality of documentation\n- Sorting paperwork to ensure it is all in order\n- Sending documents to internal customers\n- Producing reports on the inhouse system\n\nTo do this role we will need you to have a good eye for details, basic computer skills and have experience of working in an Administrative role.\nHours: 7.30am to 4pm, Monday to Friday (40 hours per week)\nMeridian Business Support is a recruitment specialist acting on behalf of our client as an Employment Business for this vacancy",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?Dw9iAXzSqBapP3d7rEgCDcadEnZ17UDMk",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Meridian Business Support",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Hourly",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "23643_225547263",
     "title": "Accounts and Office Administrator",
     "company": "Chiltern Recruitment - Agency - Permanent",
@@ -712,7 +699,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0314-26-2826",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0314-26-2826",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5567129",
@@ -730,7 +721,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/L0034-26-3596",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/L0034-26-3596",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5543958",
@@ -748,7 +743,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3962-26-0008",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3962-26-0008",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5577304",
@@ -766,7 +765,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0177-26-9652",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0177-26-9652",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5573111",
@@ -784,7 +787,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0054-26-0103TMP",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0054-26-0103TMP",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5559695",
@@ -802,24 +809,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1790-26-0001",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1790-26-0001",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
-  },
-  {
-    "job_id": "nhs-5558801",
-    "source": "NHS Jobs",
-    "title": "Medical Receptionist",
-    "company": "Primary Care Management Solutions Ltd",
-    "advertiser_name": "Primary Care Management Solutions Ltd",
-    "location": "High Wycombe, HP135DN",
-    "region": "Buckinghamshire",
-    "salary": "Negotiable",
-    "employment_type": "Permanent",
-    "posted_date": "2026-08-25T07:45:43.789324537",
-    "closing_date": "2026-09-30",
-    "description": "To be responsible for undertaking a wide range of administration duties and the provision of general support to the multidisciplinary team. Duties can include but are not limited to, scanning and processing of documents, processing and filtering medical reports and letters via DOCMAN; some reception duties including greeting and directing patients, effective use of the appointment system, booking appointments, processing of information and assisting patients as required. To act as the central point of contact for patients letters, reports and other such documentation and ensuring the distribution of information, messages and enquiries for the clinical team, liaising with multidisciplinary team members and external agencies such as secondary care and community service providers. Applicants must be able to cover either of the following shifts: Morning shift: 7:45 am 1:00 pm Afternoon shift: 1:00 pm 6:30 pm Candidates unable to commit to the above shift patterns will not be considered . Knowledge of EMIS is desirable (but not essential). \"No canvassing or recruitment agencies, please.\" The following are the core responsibilities of the administrator. There may be on occasion, a requirement to carry out other tasks; this will be dependent upon factors such as workload and staffing level Primary Responsibilities a. Receive and process correspondence from hospitals, external healthcare providers, and other agencies. b. Scan and upload documents onto the EMIS clinical system , ensuring accurate patient record management. c. Review and appropriately allocate documents within EMIS , forwarding them to the relevant clinician for review and action. d. Initiate and respond to requests from patients, practice staff, and external healthcare agencies in a professional and timely manner. e. Photocopy and prepare documentation as required by clinicians and administrative staff. f. Provide administrative support and cover for colleagues during periods of absence. g. Accurately input patient information and updates into EMIS where required. h. Manage and resolve patient queries efficiently, escalating issues where appropriate. i. Maintain a clean, organised, and efficient working environment at all times. j. Provide general administrative support to clinical staff as required. k. Complete administrative tasks relating to patient results, correspondence, and clinical letters. l. Demonstrate flexibility and adaptability in managing changing workloads and priorities to ensure the smooth operation of the practice. m. Use EMIS and other digital systems effectively for patient record management, appointment scheduling, and communication within the practice. Secondary Responsibilities In addition to the primary responsibilities, the Medical Receptionist may also be required to: a. Maintain and monitor the practice appointment system using EMIS . b. Process appointment requests received in person, by telephone, and via online systems such as SystmConnect or other web-based request platforms . c. Answer incoming telephone calls and direct them appropriately or deal with enquiries where possible. d. Signpost patients to the appropriate healthcare professional or service within the NHS. e. Support practice audits and administrative reviews as directed by management. f. Process incoming electronic communications and documents where required. g. Scan and attach patient-related documentation accurately to patient records within EMIS . h. Carry out opening and closing procedures in accordance with the practice rota and operational requirements.",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0054-26-0091CHMC",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0054-26-0091CHMC",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

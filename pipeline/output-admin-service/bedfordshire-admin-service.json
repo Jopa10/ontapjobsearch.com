@@ -21,7 +21,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Biggleswade Academy",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-safeguarding-attendance-welfare-administrator",
@@ -45,7 +49,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "The Stockwood Park Academy",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "23643_225521203",
@@ -388,7 +396,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9363-26-1021",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9363-26-1021",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5564641",
@@ -406,7 +418,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9448-26-0305",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9448-26-0305",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5576816",
@@ -424,6 +440,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9418-26-0917",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9418-26-0917",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]
