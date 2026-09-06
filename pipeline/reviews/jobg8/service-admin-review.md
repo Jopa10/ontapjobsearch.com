@@ -1198,17 +1198,15 @@ job_id: 23643_225574002
 ## LONDON — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - LONDON | London | London | £45000 per year | Marketing Coordinator
 job_id: 1743295
 ---
-
 ---
-action:
+action: select
 POSS - LONDON | London | London | £30000 - £40000 per year | Sales Support / Administration
 job_id: 23643_225574007
 ---
-
 ## HAMPSHIRE — SELECTED
 
 ---
@@ -2551,7 +2549,7 @@ job_id: 107840991
 ## COVENTRY & WARWICKSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - COVENTRY & WARWICKSHIRE | West Midlands - Coventry & Warwickshire | Warwickshire | £30000 - £35000 per year | E-Commerce Administrator
 job_id: 23643_225573434
 ---
@@ -2764,11 +2762,10 @@ job_id: 23643_223908809
 ## BERKSHIRE — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - BERKSHIRE | Berkshire | Berkshire | £19 - £20 per hour | Certification and Compliace Coordinator
 job_id: 107921736
 ---
-
 ## BRISTOL & BATH — SELECTED
 
 ---
@@ -3050,11 +3047,10 @@ job_id: 23643_225573989
 ## BUCKINGHAMSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - BUCKINGHAMSHIRE | Buckinghamshire | Buckinghamshire | £15 - £16 per hour | Events Coordinator (Temporary)
 job_id: 23643_225573362
 ---
-
 ## CAMBRIDGESHIRE — SELECTED
 
 ---
@@ -3444,11 +3440,10 @@ job_id: 107936510
 ## DEVON — POSSIBLES
 
 ---
-action:
+action: select
 POSS - DEVON | Devon | Devon | £120 per daily | Finance Assistant
 job_id: 23643_225572997
 ---
-
 ## DORSET — SELECTED
 
 ---
@@ -4756,11 +4751,10 @@ job_id: 107843514
 ## NORTH SCOTLAND — POSSIBLES
 
 ---
-action:
+action: select
 POSS - NORTH SCOTLAND | North Scotland | Aberdeen | £33000 per year | Personal Assistant
 job_id: 23643_225469462
 ---
-
 ## NORTHAMPTONSHIRE — SELECTED
 
 ---
@@ -5516,11 +5510,10 @@ job_id: 23643_225358207
 ## OXFORDSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - OXFORDSHIRE | Oxfordshire | Oxfordshire | £32,000 per annum | Business Administrator
 job_id: 107935968
 ---
-
 ## SCOTLAND CENTRAL - EDINBURGH & LOTHIANS — SELECTED
 
 ---
@@ -6618,11 +6611,10 @@ job_id: 107894712
 ## YORKSHIRE - EAST — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - YORKSHIRE - EAST | Yorkshire - East | Goole | £16.36 per hour | Material Planner/Administrator
 job_id: 107938813
 ---
-
 ## YORKSHIRE - NORTH — SELECTED
 
 ---
