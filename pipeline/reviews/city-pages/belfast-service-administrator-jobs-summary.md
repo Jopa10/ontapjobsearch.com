@@ -4,7 +4,7 @@
 - Live route: `/belfast/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 33
+- Effective included jobs: 34
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 33
+- automatic include: 34
 - automatic review: 19
 - automatic exclude: 0
-- effective include: 33
+- effective include: 34
 - effective review: 19
 - effective exclude: 0
 
-## INCLUDE (33)
+## INCLUDE (34)
 
 ---
 action: 
@@ -33,6 +33,18 @@ company: Apple Recruitment - Agency - Permanent
 location: Belfast
 source: JobG8
 job_id: jobg8-2051960
+reason: Approved conservative Belfast launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Accounts Assistant
+company: MCS Group - Agency - Permanent
+location: Belfast
+source: JobG8
+job_id: jobg8-2052021
 reason: Approved conservative Belfast launch catchment.
 ---
 
@@ -292,18 +304,6 @@ reason: Approved conservative Belfast launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Receptionist/ Administrator (30-37.5 hrs per week)
-company: Lynda Jacobs Recruitment - Agency - Permanent
-location: Belfast
-source: JobG8
-job_id: jobg8-2048235
-reason: Approved conservative Belfast launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Recruitment Administrator (12 month contract)
 company: A&O Shearman - Agency - Permanent
 location: Belfast
@@ -393,6 +393,18 @@ company: Honeycomb Jobs Ltd - Agency - Permanent
 location: Belfast
 source: JobG8
 job_id: jobg8-2051110
+reason: Approved conservative Belfast launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Services Administration Coordinator
+company: Action Cancer - Agency - Permanent
+location: Belfast
+source: JobG8
+job_id: jobg8-2049902
 reason: Approved conservative Belfast launch catchment.
 ---
 

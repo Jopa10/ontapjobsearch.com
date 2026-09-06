@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 6
 - automatic review: 5
-- automatic exclude: 19
+- automatic exclude: 17
 - effective include: 6
 - effective review: 5
-- effective exclude: 19
+- effective exclude: 17
 
 ## INCLUDE (6)
 
@@ -158,7 +158,7 @@ job_id: jobg8-23643_225533754
 reason: No approved Coventry catchment rule matched; local review required.
 ---
 
-## EXCLUDE (19)
+## EXCLUDE (17)
 
 ---
 action: 
@@ -260,18 +260,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Onsite Recruitment Account Coordinator
-company: Winner Recruitment - Agency - Contract
-location: Warwickshire
-source: JobG8
-job_id: jobg8-107925904
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Personal Assistant
 company: Opus People Solutions Ltd - Agency - Temporary
 location: Rugby
@@ -325,18 +313,6 @@ company: Apex Focus Group - Agency - Permanent
 location: Warwickshire
 source: JobG8
 job_id: jobg8-1763902
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Sales and Customer Service Advisor
-company: Baxi Heating UK Limited - Agency - Permanent
-location: Warwick
-source: JobG8
-job_id: jobg8-107900565
 reason: Separate employment market.
 ---
 

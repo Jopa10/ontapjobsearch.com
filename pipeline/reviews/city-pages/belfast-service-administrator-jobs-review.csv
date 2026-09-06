@@ -1,5 +1,6 @@
 decision,job_id,title,company,location,source,automatic_decision,effective_decision,reason,matched_rule,city_key
 include,jobg8-2051960,Accounts Administrator - URGENT,Apple Recruitment - Agency - Permanent,Belfast,JobG8,include,include,Approved conservative Belfast launch catchment.,belfast,belfast-service-administrator-jobs
+include,jobg8-2052021,Accounts Assistant,MCS Group - Agency - Permanent,Belfast,JobG8,include,include,Approved conservative Belfast launch catchment.,belfast,belfast-service-administrator-jobs
 include,jobg8-2050807,Band 3 Administrator (Temp full time),Honeycomb Jobs Ltd - Agency - Permanent,Belfast,JobG8,include,include,Approved conservative Belfast launch catchment.,belfast,belfast-service-administrator-jobs
 include,jobg8-2051408,Band 3 Dental Administrator,Hays - Agency - Permanent,Belfast,JobG8,include,include,Approved conservative Belfast launch catchment.,belfast,belfast-service-administrator-jobs
 include,jobg8-2051637,Business Administrator,Hays - Agency - Permanent,Belfast,JobG8,include,include,Approved conservative Belfast launch catchment.,belfast,belfast-service-administrator-jobs
@@ -21,7 +22,6 @@ include,jobg8-2050694,Receptionist (Immediate Start),Honeycomb Jobs Ltd - Agency
 include,jobg8-2050172,Receptionist - URGENT,Apple Recruitment - Agency - Permanent,Belfast,JobG8,include,include,Approved conservative Belfast launch catchment.,belfast,belfast-service-administrator-jobs
 include,jobg8-2050773,Receptionist / Front of House Administrator,Apple Recruitment - Agency - Permanent,Belfast,JobG8,include,include,Approved conservative Belfast launch catchment.,belfast,belfast-service-administrator-jobs
 include,jobg8-2050528,Receptionist and Patient co-ordinator,Natural Look Medispa and Clinic - Agency - Permanent,Belfast,JobG8,include,include,Approved conservative Belfast launch catchment.,belfast,belfast-service-administrator-jobs
-include,jobg8-2048235,Receptionist/ Administrator (30-37.5 hrs per week),Lynda Jacobs Recruitment - Agency - Permanent,Belfast,JobG8,include,include,Approved conservative Belfast launch catchment.,belfast,belfast-service-administrator-jobs
 include,jobg8-21582_108490837,Recruitment Administrator (12 month contract),A&O Shearman - Agency - Permanent,Belfast,JobG8,include,include,Approved conservative Belfast launch catchment.,belfast,belfast-service-administrator-jobs
 include,jobg8-21582_108490846,Recruitment Administrator (12 month contract),A&O Shearman - Agency - Permanent,Belfast,JobG8,include,include,Approved conservative Belfast launch catchment.,belfast,belfast-service-administrator-jobs
 include,jobg8-2050533,Safety Administrator (Belfast - Temporary),Honeycomb Jobs Ltd - Agency - Permanent,Belfast,JobG8,include,include,Approved conservative Belfast launch catchment.,belfast,belfast-service-administrator-jobs
@@ -30,6 +30,7 @@ include,jobg8-2051485,Sales Support Admin (Maternity Cover),Honeycomb Jobs Ltd -
 include,jobg8-1771169,Sales Support Specialist,Wilkins Talent Solutions - Agency - Permanent,Belfast,JobG8,include,include,Approved conservative Belfast launch catchment.,belfast,belfast-service-administrator-jobs
 include,jobg8-2051842,"Scheme Co-Ordinator - Blessington Court, Belfast",Clanmil Housing - Agency - Permanent,Belfast,JobG8,include,include,Approved conservative Belfast launch catchment.,belfast,belfast-service-administrator-jobs
 include,jobg8-2051110,Service Administrator (Excellent Opportunity),Honeycomb Jobs Ltd - Agency - Permanent,Belfast,JobG8,include,include,Approved conservative Belfast launch catchment.,belfast,belfast-service-administrator-jobs
+include,jobg8-2049902,Services Administration Coordinator,Action Cancer - Agency - Permanent,Belfast,JobG8,include,include,Approved conservative Belfast launch catchment.,belfast,belfast-service-administrator-jobs
 include,jobg8-2051958,Street Works Coordinator,Apple Recruitment - Agency - Permanent,Belfast,JobG8,include,include,Approved conservative Belfast launch catchment.,belfast,belfast-service-administrator-jobs
 include,jobg8-2051377,Temporary Receptionist - Belfast,Task Recruitment - Agency - Permanent,Belfast,JobG8,include,include,Approved conservative Belfast launch catchment.,belfast,belfast-service-administrator-jobs
 review,jobg8-2051713,Admin Scheduler,Apple Recruitment - Agency - Permanent,Newtownabbey,JobG8,review,review,No approved Belfast catchment rule matched; local review required.,fallback,belfast-service-administrator-jobs

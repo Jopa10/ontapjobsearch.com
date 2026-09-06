@@ -4,8 +4,8 @@
 - Live route: `/brighton-hove/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 6
-- Threshold currently met: yes
+- Effective included jobs: 5
+- Threshold currently met: no
 
 ## How to review
 Edit only the `action:` line inside a job block.
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 6
-- automatic review: 22
+- automatic include: 5
+- automatic review: 21
 - automatic exclude: 12
-- effective include: 6
-- effective review: 22
+- effective include: 5
+- effective review: 21
 - effective exclude: 12
 
-## INCLUDE (6)
+## INCLUDE (5)
 
 ---
 action: 
@@ -64,18 +64,6 @@ reason: Approved Brighton & Hove catchment.
 action: 
 decision: include
 automatic_decision: include
-title: PCN Office Administrator
-company: East and Central Brighton Primary Care Network
-location: Brighton, BN1 1ND
-source: NHS Jobs
-job_id: nhs-5492880
-reason: Approved Brighton & Hove catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Reception Administrator
 company: Sussex Partnership NHS Foundation Trust
 location: Hove, BN3 7HY
@@ -96,7 +84,7 @@ job_id: nhs-5548209
 reason: Approved Brighton & Hove catchment.
 ---
 
-## REVIEW (22)
+## REVIEW (21)
 
 ---
 action: 
@@ -131,18 +119,6 @@ company: First Recruitment Services - Agency - Temporary
 location: Haywards Heath
 source: JobG8
 job_id: jobg8-23643_225523989
-reason: No approved Brighton & Hove catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Contract Administrator East Grinstead - Temp to Perm
-company: Invictus Recruitment - Agency - Contract
-location: East Grinstead
-source: JobG8
-job_id: jobg8-107938649
 reason: No approved Brighton & Hove catchment rule matched; local review required.
 ---
 

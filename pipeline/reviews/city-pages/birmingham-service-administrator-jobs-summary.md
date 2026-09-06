@@ -4,7 +4,7 @@
 - Live route: `/birmingham/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 29
+- Effective included jobs: 30
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 29
+- automatic include: 30
 - automatic review: 5
 - automatic exclude: 3
-- effective include: 29
+- effective include: 30
 - effective review: 5
 - effective exclude: 3
 
-## INCLUDE (29)
+## INCLUDE (30)
 
 ---
 action: 
@@ -257,6 +257,18 @@ action:
 decision: include
 automatic_decision: include
 title: Office Administrator
+company: St James Catholic Primary School
+location: Birmingham
+source: Teaching Vacancies
+job_id: teaching-vacancies-office-administrator-st-james-catholic-primary-school
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Office Administrator
 company: ST Selection - Agency - Permanent
 location: Birmingham
 source: JobG8
@@ -305,10 +317,10 @@ action:
 decision: include
 automatic_decision: include
 title: Receptionist
-company: Kingstanding Circle Surgery
-location: Birmingham, B44 0UY
-source: NHS Jobs
-job_id: nhs-5580814
+company: King Edward VI Balaam Wood Academy
+location: Birmingham
+source: Teaching Vacancies
+job_id: teaching-vacancies-receptionist-king-edward-vi-balaam-wood-academy-birmingham-west-midlands
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -317,10 +329,10 @@ action:
 decision: include
 automatic_decision: include
 title: Receptionist
-company: Major Recruitment Oldbury - Agency - Permanent
-location: Birmingham
-source: JobG8
-job_id: jobg8-23643_225557310
+company: Kingstanding Circle Surgery
+location: Birmingham, B44 0UY
+source: NHS Jobs
+job_id: nhs-5580814
 reason: Approved conservative Birmingham launch catchment.
 ---
 

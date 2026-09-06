@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 8
-- automatic review: 49
+- automatic review: 51
 - automatic exclude: 20
 - effective include: 8
-- effective review: 49
+- effective review: 51
 - effective exclude: 20
 
 ## INCLUDE (8)
@@ -120,7 +120,7 @@ job_id: teaching-vacancies-receptionist-1dcaf299-1719-4cef-a999-af235a29010e
 reason: Approved Southampton catchment.
 ---
 
-## REVIEW (49)
+## REVIEW (51)
 
 ---
 action: 
@@ -359,6 +359,18 @@ company: Perins School
 location: Alresford
 source: Teaching Vacancies
 job_id: teaching-vacancies-exams-officer-and-assessment-data-co-ordinator
+reason: No approved Southampton catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Housing Repairs Administrator
+company: Thorngate Churcher Trust - Agency - Permanent
+location: Gosport
+source: JobG8
+job_id: jobg8-23643_225537561
 reason: No approved Southampton catchment rule matched; local review required.
 ---
 
@@ -696,6 +708,18 @@ location: Fleet
 source: JobG8
 job_id: jobg8-23643_225544259
 reason: No approved Southampton catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Temporary Accounts Assistant
+company: Michael Page Finance - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-1743171
+reason: Broad location; review before city inclusion.
 ---
 
 ---

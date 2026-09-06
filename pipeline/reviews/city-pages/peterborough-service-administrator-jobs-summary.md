@@ -4,7 +4,7 @@
 - Live route: `/peterborough/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 7
+- Effective included jobs: 9
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 7
+- automatic include: 9
 - automatic review: 4
 - automatic exclude: 9
-- effective include: 7
+- effective include: 9
 - effective review: 4
 - effective exclude: 9
 
-## INCLUDE (7)
+## INCLUDE (9)
 
 ---
 action: 
@@ -33,6 +33,18 @@ company: Staffline Operations - Agency - Temporary
 location: Peterborough
 source: JobG8
 job_id: jobg8-107925777
+reason: Approved conservative Peterborough launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administrator
+company: Arthur Mellows Village College
+location: Peterborough
+source: Teaching Vacancies
+job_id: teaching-vacancies-administrator-9219e9ba-082d-4b75-91ee-2e1cd2dd8f75
 reason: Approved conservative Peterborough launch catchment.
 ---
 
@@ -105,6 +117,18 @@ company: Infinity Recruitment Consultancy Limited - Agency - Permanent
 location: Peterborough
 source: JobG8
 job_id: jobg8-23643_225406910
+reason: Approved conservative Peterborough launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Sales Support Administrator
+company: Schoolblazer - Agency - Permanent
+location: Peterborough
+source: JobG8
+job_id: jobg8-1865042
 reason: Approved conservative Peterborough launch catchment.
 ---
 
