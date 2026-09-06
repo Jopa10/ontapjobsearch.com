@@ -7,6 +7,7 @@ This is the short owner view of how Ontap is organised. It mirrors the five cano
 
 ## Recent canonical changes
 
+- 6 September 2026 — **Job pages can now recover a precise town from a broad JobG8 location:** when JobG8 supplies only a county or region, Ontap uses a clearly stated workplace town or postcode from the advert only if it agrees with the job's existing approved region. Conflicts and casual place mentions remain unchanged. The current snapshot has 278 safe unique-job improvements, projected to raise exact-locality coverage from 886 to 1,162 after normal verified publication.
 - 6 September 2026 — **Mobile pages are less crowded:** the header keeps only `Home` at the right, and vacancy pages show one onward jobs link—city when an exact live city page exists, otherwise region. Desktop navigation and the existing city-plus-region choice are unchanged.
 - 6 September 2026 — **Non-London listing pages now use one consistent desktop promotion rail:** three relevant course cards are followed by Ontap's practical AI-help robot card. Mobile users do not see the promotional rail, while London's separately configured layout is unchanged.
 - 6 September 2026 — **Every individual job page can now start a fresh search:** laptop users see a compact role/location search strip beneath the primary Apply area; mobile users see a small outlined magnifying-glass control that expands and can be hidden again. Apply remains the dominant action, and searches use Ontap's existing current-job search behaviour.

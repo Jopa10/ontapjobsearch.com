@@ -21,6 +21,7 @@ on:
       - 'pipeline/scripts/assess_daily_family_coverage.py'
       - 'pipeline/scripts/daily_family_coverage_history.py'
       - 'pipeline/scripts/publish_verified_pages.py'
+      - 'pipeline/scripts/jobg8_geo_resolver.py'
       - 'pipeline/scripts/publish_verified_pages_sussex.py'
       - 'pipeline/scripts/publish_verified_pages_coventry.py'
       - 'pipeline/scripts/publish_verified_pages_live_config.py'
@@ -94,6 +95,7 @@ on:
       - 'pipeline/scripts/assess_daily_family_coverage.py'
       - 'pipeline/scripts/daily_family_coverage_history.py'
       - 'pipeline/scripts/publish_verified_pages.py'
+      - 'pipeline/scripts/jobg8_geo_resolver.py'
       - 'pipeline/scripts/publish_verified_pages_sussex.py'
       - 'pipeline/scripts/publish_verified_pages_coventry.py'
       - 'pipeline/scripts/publish_verified_pages_live_config.py'
@@ -171,6 +173,7 @@ jobs:
             pipeline/scripts/assess_daily_family_coverage.py \
             pipeline/scripts/daily_family_coverage_history.py \
             pipeline/scripts/publish_verified_pages.py \
+            pipeline/scripts/jobg8_geo_resolver.py \
             pipeline/scripts/publish_verified_pages_sussex.py \
             pipeline/scripts/publish_verified_pages_coventry.py \
             pipeline/scripts/publish_verified_pages_live_config.py \

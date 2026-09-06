@@ -10,10 +10,26 @@ import os
 import tempfile
 from dataclasses import dataclass
 from datetime import date, datetime
+from functools import lru_cache
 from pathlib import Path
 from typing import Any, Iterable
 
 from slice_registry import live_slices
+
+try:
+    from .jobg8_geo_resolver import (
+        build_description_place_rules,
+        load_area_lookup,
+        load_postcode_overrides,
+        refine_published_location,
+    )
+except ImportError:
+    from jobg8_geo_resolver import (
+        build_description_place_rules,
+        load_area_lookup,
+        load_postcode_overrides,
+        refine_published_location,
+    )
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
 
@@ -251,6 +267,38 @@ def add_stable_posted_dates(
     return result
 
 
+@lru_cache(maxsize=1)
+def _location_refinement_resources():
+    area_lookup = load_area_lookup()
+    return (
+        area_lookup,
+        load_postcode_overrides(),
+        build_description_place_rules(area_lookup),
+    )
+
+
+def refine_jobg8_published_locations(
+    source_data: list[dict[str, Any]],
+) -> tuple[list[dict[str, Any]], int]:
+    """Promote safe same-region description towns before public JSON is written."""
+    area_lookup, postcode_overrides, description_rules = _location_refinement_resources()
+    refined: list[dict[str, Any]] = []
+    changed = 0
+    for source_row in source_data:
+        row = dict(source_row)
+        resolution = refine_published_location(
+            row,
+            area_lookup=area_lookup,
+            postcode_overrides=postcode_overrides,
+            description_place_rules=description_rules,
+        )
+        if resolution is not None:
+            row["location"] = resolution.town
+            changed += 1
+        refined.append(row)
+    return refined, changed
+
+
 def atomic_write(path: Path, content: str) -> None:
     fd, temp_name = tempfile.mkstemp(prefix=f".{path.name}.", suffix=".tmp", dir=path.parent)
     try:
@@ -315,6 +363,7 @@ def publish_one(
             result.update(status="published", reason="validated zero source cleared stale live destination")
             return result
 
+        source_data, refined_locations = refine_jobg8_published_locations(source_data)
         source_data = add_stable_posted_dates(
             source_data,
             destination_data,
@@ -328,7 +377,10 @@ def publish_one(
             return result
 
         if not write:
-            result.update(status="published", reason="dry-run: destination would be updated")
+            reason = "dry-run: destination would be updated"
+            if refined_locations:
+                reason += f"; {refined_locations} broad location(s) refined from advert evidence"
+            result.update(status="published", reason=reason)
             return result
 
         previous_text = destination_before_text
@@ -338,7 +390,10 @@ def publish_one(
             raise RuntimeError("post-write destination count does not equal validated source count")
         if canonical_json(reopened_data) != source_canonical:
             raise RuntimeError("post-write canonical destination content does not equal validated source content")
-        result.update(status="published", reason="destination updated and post-write verification passed")
+        reason = "destination updated and post-write verification passed"
+        if refined_locations:
+            reason += f"; {refined_locations} broad location(s) refined from advert evidence"
+        result.update(status="published", reason=reason)
         return result
     except Exception as exc:
         if write and destination.exists() and "previous_text" in locals():
