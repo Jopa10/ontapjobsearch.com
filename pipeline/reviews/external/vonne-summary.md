@@ -10,9 +10,9 @@ Edit only the `action:` line in editable blocks:
 - `action: exclude` rejects a POSS vacancy or removes an HC vacancy.
 - Actions are same-day only and do not publish anything.
 
-Run generated: 2026-09-06T16:21:41+01:00
+Run generated: 2026-09-06T18:44:07+01:00
 Listing input: https://www.vonne.org.uk/vonne-jobs
-JobG8 comparison rows: 269
+JobG8 comparison rows: 270
 Approved NEJobs comparison rows: 19
 
 ## Funnel
