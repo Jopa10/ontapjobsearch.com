@@ -1,12 +1,13 @@
 # Ontap System Overview
 
-**Last updated:** 5 September 2026
+**Last updated:** 6 September 2026
 **Status:** Canonical production state including approved job-detail discovery recommendations, an idempotent external fallback for the JobG8 daily process, restored NHS Google Jobs eligibility, owner-facing JobG8 selection auditing, live-site reporting reconciliation and Teaching Vacancies regional publish isolation.
 
 This is the short owner view of how Ontap is organised. It mirrors the five canonical system buckets in `SYSTEM_MAP.md`.
 
 ## Recent canonical changes
 
+- 6 September 2026 — **Every individual job page can now start a fresh search:** laptop users see a compact role/location search strip beneath the primary Apply area; mobile users see a small outlined magnifying-glass control that expands and can be hidden again. Apply remains the dominant action, and searches use Ontap's existing current-job search behaviour.
 - 5 September 2026 — **Broad all-role town/city pages are now a permanent site layer:** Nottingham (**13**), Wakefield (**10**), Bolton (**6**), Reading (**6**), Chester (**5**), Durham (**5**), Gateshead (**5**), Northallerton (**5**), Norwich (**5**) and Salford (**5**) launch at `/[city]/jobs`. They combine every current Ontap role/provider, use exact-town supply first, link through a `Home > Jobs > Region > City` breadcrumb and regional-results call to action, and are discoverable from Browse Jobs, the homepage while at 4+ jobs, and the sitemap. Nearby vacancies remain disabled unless a specific approved mapping also passes the 15-mile safeguard.
 - 5 September 2026 — **City and regional job pages now link both ways:** each permanent city page shows `Home > role > region > city` near the title and supplies the same breadcrumb hierarchy to search engines. Matching regional role pages show a prominent `Browse by city` module built from the approved permanent city-page register. Existing URLs, city-retention rules and the wider-regional-jobs button are unchanged.
 - 5 September 2026 — **Approved job-page discovery recommendations are governed by published family, target-sector evidence and geography:** every vacancy shows the panel and can display up to six private-sector alternatives from the same approved family, plus any explicit cross-role relationship, within **15 straight-line miles**. Exact titles rank first, followed by explicit relationships and then other same-family work. The target's real location remains visible. An unknown landing employer no longer suppresses useful discovery because every displayed target must still be positively evidenced private; private jobs are never directed to public-sector work. Unresolved locations still fail closed to the regional slice fallback.

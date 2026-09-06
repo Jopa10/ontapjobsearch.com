@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import ApplyButton from "@/components/ApplyButton";
 import JobDescription from "@/components/JobDescription";
 import JobFacts from "@/components/JobFacts";
+import JobPageSearch from "@/components/JobPageSearch";
 import MoreJobsNearby from "@/components/MoreJobsNearby";
 import TransferableFitCard from "@/components/TransferableFitCard";
 import { getActiveCityPageForJob } from "@/lib/city-page-data";
@@ -174,6 +175,8 @@ export default async function JobPage({ params }: PageProps) {
               slice_path={job.slice_path}
             />
           </div>
+
+          <JobPageSearch />
 
           {transferableFit ? (
             <div className={styles.mobileTransferableFit}>
