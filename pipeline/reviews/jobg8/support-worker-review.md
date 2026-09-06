@@ -307,6 +307,12 @@ SELECTED | London | London | £92 - £100 per daily | Children's Support Worker
 job_id: 23643_225574128
 ---
 
+---
+action:
+SELECTED | London | Wembley | £12 - £14.26 per hour | Female Support Worker/Carer Needed
+job_id: 23643_225574359
+---
+
 ## LONDON — POSSIBLES
 
 _No jobs in this group._
@@ -371,6 +377,12 @@ job_id: 1787836
 action:
 SELECTED | Wiltshire | Wiltshire | £13.81 per hour | Care Assistant - Bank - Care Home
 job_id: 23643_225549480
+---
+
+---
+action:
+SELECTED | Wiltshire | Swindon | £24000 per year | Residential Support Worker - Children's Home
+job_id: 107936277
 ---
 
 ## WILTSHIRE — POSSIBLES
