@@ -32,7 +32,7 @@ Edit only each `action:` line:
 ## JobG8 — 9 to review
 
 ---
-action:
+action: exclude
 POSS | JobG8 | Berkshire | Berkshire | £19 - £20 per hour | Certification and Compliace Coordinator
 source_key: jobg8
 source: JobG8
@@ -50,7 +50,7 @@ hub_fingerprint: c8982b64078c7f68216fa125ce958a9c9d05371541012b853b6974b6b60bef3
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Buckinghamshire | Buckinghamshire | £15 - £16 per hour | Events Coordinator (Temporary)
 source_key: jobg8
 source: JobG8
@@ -68,7 +68,7 @@ hub_fingerprint: 3a336a65ed85b14f592491f91a892d3cef388e6f278b4f44e6f176362c42a35
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Devon | Devon | £120 per daily | Finance Assistant
 source_key: jobg8
 source: JobG8
@@ -86,7 +86,7 @@ hub_fingerprint: 8fb0daf4e3d5a4c1246646646107bd78addad75176305e689e1fb58dedadc32
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | London | London | £45000 per year | Marketing Coordinator
 source_key: jobg8
 source: JobG8
@@ -104,7 +104,7 @@ hub_fingerprint: 49f3767f843fb39a7ef58d619a98c99e16af54adb542b81c030f6c707bdd787
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | London | London | £30000 - £40000 per year | Sales Support / Administration
 source_key: jobg8
 source: JobG8
@@ -122,7 +122,7 @@ hub_fingerprint: d5497797a029f63c059477756e4d057a2a9b573761afec8d23d81f5e8276246
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | North Scotland | Aberdeen | £33000 per year | Personal Assistant
 source_key: jobg8
 source: JobG8
@@ -140,7 +140,7 @@ hub_fingerprint: c500ad4342394b2d5329e3048c124741b0d911f7f37715a1340372cc9338972
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Oxfordshire | Oxfordshire | £32,000 per annum | Business Administrator
 source_key: jobg8
 source: JobG8
@@ -158,7 +158,7 @@ hub_fingerprint: 7a0dd28d70b643f87623a8aa46f53bf3342d839f29e195ff8823ebb28cc4d2e
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | West Midlands - Coventry & Warwickshire | Warwickshire | £30000 - £35000 per year | E-Commerce Administrator
 source_key: jobg8
 source: JobG8
@@ -176,7 +176,7 @@ hub_fingerprint: a222a872ae5fa624a8c8e311ed0cd6b83b3129dc551039c630191ebaf590983
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | Yorkshire - East | Goole | £16.36 per hour | Material Planner/Administrator
 source_key: jobg8
 source: JobG8
