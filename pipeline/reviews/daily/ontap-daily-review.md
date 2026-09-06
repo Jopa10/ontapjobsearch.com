@@ -1,12 +1,12 @@
 # Ontap daily job review
 
-> **NOT READY TO REVIEW — waiting for: NEJobs, VONNE, Teaching Vacancies**
-> Do not start reviewing yet. Rebuild this review after those source refreshes complete.
+> **READY TO REVIEW**
+> All active sources are current for 2026-09-06. You can start reviewing.
 
 review_date: 2026-09-06
-generated_at: 2026-09-06T09:24:57+00:00
+generated_at: 2026-09-06T11:44:57+00:00
 
-**9 job(s) need a human decision.**
+**12 job(s) need a human decision.**
 
 Edit only each `action:` line:
 - `action: select` = include the vacancy.
@@ -21,176 +21,238 @@ Edit only each `action:` line:
 
 | Source | Status | Review date | Needs review | Note |
 |---|---|---|---:|---|
-| JobG8 | OK | 2026-09-06 | 9 | — |
-| NEJobs | STALE | 2026-09-05 | 0 | — |
-| VONNE | STALE | 2026-09-05 | 0 | — |
-| Teaching Vacancies | STALE | 2026-09-05 | 0 | — |
+| JobG8 | OK | 2026-09-06 | 0 | — |
+| NEJobs | OK | 2026-09-06 | 0 | — |
+| VONNE | OK | 2026-09-06 | 2 | — |
+| Teaching Vacancies | OK | 2026-09-06 | 10 | — |
 | NHS Jobs | OK | 2026-09-06 | 0 | automatic Tier A/B publish; NHS POSS stays in the NHS-specific review and is optional |
 
-> **Attention:** one or more active source reviews are stale or missing. Those sources contribute no jobs to this file and must not be treated as zero inventory.
+## JobG8 — 0 to review
 
-## JobG8 — 9 to review
+_No new or changed human decisions required._
+
+## NEJobs — 0 to review
+
+_No new or changed human decisions required._
+
+## VONNE — 2 to review
 
 ---
-action: exclude
-POSS | JobG8 | Berkshire | Berkshire | £19 - £20 per hour | Certification and Compliace Coordinator
-source_key: jobg8
-source: JobG8
+action:
+POSS | VONNE | North East - County Durham & Darlington/Hartlepool | County Durham | £24,454 Per Annum | Administrator (26.13)
+source_key: vonne
+source: VONNE
 category: admin_service
-source_job_id: 107921736
-title: Certification and Compliace Coordinator
-employer: 
-location: Berkshire
-region: Berkshire
-salary: £19 - £20 per hour
-closing_date: 
-reason: JobG8 selector marked this vacancy POSS
-source_url: 
-hub_fingerprint: c8982b64078c7f68216fa125ce958a9c9d05371541012b853b6974b6b60bef37
+source_job_id: 173394
+title: Administrator (26.13)
+employer: Age UK County Durham
+location: County Durham
+region: North East - County Durham & Darlington/Hartlepool
+salary: £24,454 Per Annum
+closing_date: Wednesday, September 30, 2026 - 12:00
+reason: possible cross-source duplicate requires review
+source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173394
+hub_fingerprint: 3e5329a2c1b94de6237614acca318b68dcb54ec60df3677c8ac4ffb5beb303ef
 ---
 
 ---
-action: select
-POSS | JobG8 | Buckinghamshire | Buckinghamshire | £15 - £16 per hour | Events Coordinator (Temporary)
-source_key: jobg8
-source: JobG8
+action:
+POSS | VONNE | North East - County Durham & Darlington/Hartlepool | County Durham | £24,454 Per Annum | Project Administrator (26.12)
+source_key: vonne
+source: VONNE
 category: admin_service
-source_job_id: 23643_225573362
-title: Events Coordinator (Temporary)
-employer: 
-location: Buckinghamshire
+source_job_id: 173393
+title: Project Administrator (26.12)
+employer: Age UK County Durham
+location: County Durham
+region: North East - County Durham & Darlington/Hartlepool
+salary: £24,454 Per Annum
+closing_date: Wednesday, September 30, 2026 - 12:00
+reason: possible cross-source duplicate requires review
+source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173393
+hub_fingerprint: 63bd464da7ea4eaaea1bc6a03d7c781333453fae93029dd788143a3b00b24b7f
+---
+
+## Teaching Vacancies — 10 to review
+
+---
+action:
+POSS | Teaching Vacancies | Buckinghamshire | Milton Keynes, South East, MK10 7HE | £25,988.00 - £27,254.00 Annually (FTE) | Administrator
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: administrator-brooklands-academy
+title: Administrator
+employer: Brooklands Academy
+location: Milton Keynes, South East, MK10 7HE
 region: Buckinghamshire
-salary: £15 - £16 per hour
-closing_date: 
-reason: JobG8 selector marked this vacancy POSS
-source_url: 
-hub_fingerprint: 3a336a65ed85b14f592491f91a892d3cef388e6f278b4f44e6f176362c42a353
+salary: £25,988.00 - £27,254.00 Annually (FTE)
+closing_date: 2026-09-11T12:00:00+01:00
+reason: Possible JobG8 duplicate requires review
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-brooklands-academy
+hub_fingerprint: 7191fb5804507cb5431e83433a37998b15af5ac70711379b4f2b579e16ddb470
 ---
 
 ---
-action: select
-POSS | JobG8 | Devon | Devon | £120 per daily | Finance Assistant
-source_key: jobg8
-source: JobG8
+action:
+POSS | Teaching Vacancies | Cambridgeshire | Peterborough, East of England, PE6 7JX | £14,802.00 Annually (Actual) | Administrator
+source_key: teaching_vacancies
+source: Teaching Vacancies
 category: admin_service
-source_job_id: 23643_225572997
-title: Finance Assistant
-employer: 
-location: Devon
-region: Devon
-salary: £120 per daily
-closing_date: 
-reason: JobG8 selector marked this vacancy POSS
-source_url: 
-hub_fingerprint: 8fb0daf4e3d5a4c1246646646107bd78addad75176305e689e1fb58dedadc32e
+source_job_id: administrator-9219e9ba-082d-4b75-91ee-2e1cd2dd8f75
+title: Administrator
+employer: Arthur Mellows Village College
+location: Peterborough, East of England, PE6 7JX
+region: Cambridgeshire
+salary: £14,802.00 Annually (Actual)
+closing_date: 2026-09-14T09:00:00+01:00
+reason: Possible JobG8 duplicate requires review
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-9219e9ba-082d-4b75-91ee-2e1cd2dd8f75
+hub_fingerprint: 3e5f9ed64f7da742098604816c1900d5f5dfd85e49c7035c3aa7956c1f05893f
 ---
 
 ---
-action: exclude
-POSS | JobG8 | London | London | £45000 per year | Marketing Coordinator
-source_key: jobg8
-source: JobG8
+action:
+POSS | Teaching Vacancies | London | London, London, NW10 2UF | £27,254.00 Annually (FTE) Term Time Only | Administrator
+source_key: teaching_vacancies
+source: Teaching Vacancies
 category: admin_service
-source_job_id: 1743295
-title: Marketing Coordinator
-employer: 
-location: London
+source_job_id: administrator-north-brent-school
+title: Administrator
+employer: North Brent School
+location: London, London, NW10 2UF
 region: London
-salary: £45000 per year
-closing_date: 
-reason: JobG8 selector marked this vacancy POSS
-source_url: 
-hub_fingerprint: 49f3767f843fb39a7ef58d619a98c99e16af54adb542b81c030f6c707bdd787c
+salary: £27,254.00 Annually (FTE) Term Time Only
+closing_date: 2026-09-11T23:59:00+01:00
+reason: Possible JobG8 duplicate requires review
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-north-brent-school
+hub_fingerprint: 898c481e106602acca25562bfac7c2417b3798e8dbfdf831142db811422bfc07
 ---
 
 ---
-action: select
-POSS | JobG8 | London | London | £30000 - £40000 per year | Sales Support / Administration
-source_key: jobg8
-source: JobG8
+action:
+POSS | Teaching Vacancies | London | London, London, SE11 5QY | £26,857.00 - £27,240.00 Annually (Actual) Room for progression | Receptionist
+source_key: teaching_vacancies
+source: Teaching Vacancies
 category: admin_service
-source_job_id: 23643_225574007
-title: Sales Support / Administration
-employer: 
-location: London
+source_job_id: receptionist-lilian-baylis-technology-school
+title: Receptionist
+employer: Lilian Baylis Technology School
+location: London, London, SE11 5QY
 region: London
-salary: £30000 - £40000 per year
-closing_date: 
-reason: JobG8 selector marked this vacancy POSS
-source_url: 
-hub_fingerprint: d5497797a029f63c059477756e4d057a2a9b573761afec8d23d81f5e8276246f
+salary: £26,857.00 - £27,240.00 Annually (Actual) Room for progression
+closing_date: 2026-09-18T10:00:00+01:00
+reason: Possible JobG8 duplicate requires review
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-lilian-baylis-technology-school
+hub_fingerprint: fec4f4fd621cc0b06f9ff1820b53e9c68baaa4c63f2df821df77710884f62ef3
 ---
 
 ---
-action: select
-POSS | JobG8 | North Scotland | Aberdeen | £33000 per year | Personal Assistant
-source_key: jobg8
-source: JobG8
+action:
+POSS | Teaching Vacancies | London | London, London, SW16 6NP | Grade 3 - Salary Spine point 5 to 6 - £31,086 to £31,530 (actual £28,592 to £29,002) | Office Administrator
+source_key: teaching_vacancies
+source: Teaching Vacancies
 category: admin_service
-source_job_id: 23643_225469462
-title: Personal Assistant
-employer: 
-location: Aberdeen
-region: North Scotland
-salary: £33000 per year
-closing_date: 
-reason: JobG8 selector marked this vacancy POSS
-source_url: 
-hub_fingerprint: c500ad4342394b2d5329e3048c124741b0d911f7f37715a1340372cc9338972e
+source_job_id: office-administrator-st-leonard-s-church-of-england-primary-school-london
+title: Office Administrator
+employer: St Leonard's Church of England Primary School
+location: London, London, SW16 6NP
+region: London
+salary: Grade 3 - Salary Spine point 5 to 6 - £31,086 to £31,530 (actual £28,592 to £29,002)
+closing_date: 2026-09-11T15:00:00+01:00
+reason: Possible JobG8 duplicate requires review
+source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-st-leonard-s-church-of-england-primary-school-london
+hub_fingerprint: 1984d1007b1a095a4dda5ca99086c8a7bb05c0290fbf4c309e4192be1be9e493
 ---
 
 ---
-action: select
-POSS | JobG8 | Oxfordshire | Oxfordshire | £32,000 per annum | Business Administrator
-source_key: jobg8
-source: JobG8
+action:
+POSS | Teaching Vacancies | London | Osterley, London, TW7 5PN | 28,195.00 - 29,852.00 | School Administrator
+source_key: teaching_vacancies
+source: Teaching Vacancies
 category: admin_service
-source_job_id: 107935968
-title: Business Administrator
-employer: 
-location: Oxfordshire
-region: Oxfordshire
-salary: £32,000 per annum
-closing_date: 
-reason: JobG8 selector marked this vacancy POSS
-source_url: 
-hub_fingerprint: 7a0dd28d70b643f87623a8aa46f53bf3342d839f29e195ff8823ebb28cc4d2e4
+source_job_id: school-administrator-nishkam-school-west-london
+title: School Administrator
+employer: Nishkam School West London
+location: Osterley, London, TW7 5PN
+region: London
+salary: 28,195.00 - 29,852.00
+closing_date: 2026-09-18T00:00:00+01:00
+reason: Possible JobG8 duplicate requires review
+source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-nishkam-school-west-london
+hub_fingerprint: 7cdf9b6f05fd677f736344207c7faa9802fdda06b6610cb8a38b28759e55904f
 ---
 
 ---
-action: select
-POSS | JobG8 | West Midlands - Coventry & Warwickshire | Warwickshire | £30000 - £35000 per year | E-Commerce Administrator
-source_key: jobg8
-source: JobG8
+action:
+POSS | Teaching Vacancies | Somerset | Taunton, South West, TA2 8FT | Actual Annual Salary | Senior Office Administrator
+source_key: teaching_vacancies
+source: Teaching Vacancies
 category: admin_service
-source_job_id: 23643_225573434
-title: E-Commerce Administrator
-employer: 
-location: Warwickshire
-region: West Midlands - Coventry & Warwickshire
-salary: £30000 - £35000 per year
-closing_date: 
-reason: JobG8 selector marked this vacancy POSS
-source_url: 
-hub_fingerprint: a222a872ae5fa624a8c8e311ed0cd6b83b3129dc551039c630191ebaf5909837
+source_job_id: senior-office-administrator-west-monkton-church-of-england-school
+title: Senior Office Administrator
+employer: West Monkton Church of England School
+location: Taunton, South West, TA2 8FT
+region: Somerset
+salary: Actual Annual Salary
+closing_date: 2026-09-10T12:00:59+01:00
+reason: Possible JobG8 duplicate requires review
+source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-office-administrator-west-monkton-church-of-england-school
+hub_fingerprint: 983d60adfc8385d957d783b3e6b0b33e165c61d135c22ec2f92dfdcc64ea8e0a
 ---
 
 ---
-action: exclude
-POSS | JobG8 | Yorkshire - East | Goole | £16.36 per hour | Material Planner/Administrator
-source_key: jobg8
-source: JobG8
+action:
+POSS | Teaching Vacancies | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B45 0EU | £22,121.00 Annually (Actual) | Receptionist
+source_key: teaching_vacancies
+source: Teaching Vacancies
 category: admin_service
-source_job_id: 107938813
-title: Material Planner/Administrator
-employer: 
-location: Goole
-region: Yorkshire - East
-salary: £16.36 per hour
-closing_date: 
-reason: JobG8 selector marked this vacancy POSS
-source_url: 
-hub_fingerprint: 291b8c17fc36f9e13bd827ff359c6a70b63c5ebd637f0490206018634c17631b
+source_job_id: receptionist-king-edward-vi-balaam-wood-academy-birmingham-west-midlands
+title: Receptionist
+employer: King Edward VI Balaam Wood Academy
+location: Birmingham, West Midlands, B45 0EU
+region: West Midlands - Birmingham & Solihull
+salary: £22,121.00 Annually (Actual)
+closing_date: 2026-09-21T09:00:00+01:00
+reason: Possible JobG8 duplicate requires review
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-king-edward-vi-balaam-wood-academy-birmingham-west-midlands
+hub_fingerprint: a1905a7e887a5f5e0f667ce28f3d2d66e460d6fe83635c756dcc383ebf0e0a48
+---
+
+---
+action:
+POSS | Teaching Vacancies | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B45 9BN | £6,072.00 - £6,072.00 Annually (Actual) | Office Administrator
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: office-administrator-st-james-catholic-primary-school
+title: Office Administrator
+employer: St James Catholic Primary School
+location: Birmingham, West Midlands, B45 9BN
+region: West Midlands - Birmingham & Solihull
+salary: £6,072.00 - £6,072.00 Annually (Actual)
+closing_date: 2026-09-16T09:00:00+01:00
+reason: Possible JobG8 duplicate requires review
+source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-st-james-catholic-primary-school
+hub_fingerprint: 93794985125b820b557a999b74afac410b51ed80259c8a312909d4be586c13ee
+---
+
+---
+action:
+POSS | Teaching Vacancies | West Midlands - Black Country | Wednesbury, West Midlands, WS10 7PZ | £22,828 – £23,935 | Office Administrator
+source_key: teaching_vacancies
+source: Teaching Vacancies
+category: admin_service
+source_job_id: office-administrator-holyhead-primary-academy
+title: Office Administrator
+employer: Holyhead Primary Academy
+location: Wednesbury, West Midlands, WS10 7PZ
+region: West Midlands - Black Country
+salary: £22,828 – £23,935
+closing_date: 2026-09-13T23:59:00+01:00
+reason: Possible JobG8 duplicate requires review
+source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-holyhead-primary-academy
+hub_fingerprint: 14d9d135660ee449d5023a33ffcb36825276d571431f5c12daeb2db23cccd097
 ---
 
 ## NHS Jobs — 0 to review
