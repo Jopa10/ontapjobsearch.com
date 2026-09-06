@@ -137,7 +137,7 @@
     "job_id": "23643_225475953",
     "title": "HR Administrator",
     "company": "LCJ - Agency - Permanent",
-    "location": "Ashton Under Lyne",
+    "location": "Ashton-Under-Lyne",
     "region": "Greater Manchester - South",
     "country": "UK",
     "category": "Admin/Service – Office Support",
@@ -274,7 +274,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9373-26-0562",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9373-26-0562",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5580653",
@@ -292,6 +296,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3931-26-0004",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3931-26-0004",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

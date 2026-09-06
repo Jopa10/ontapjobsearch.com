@@ -2,11 +2,11 @@
 
 review_date: 2026-09-06
 
-- Open Administrative & Clerical rows reviewed: 2070
-- Auto/remembered selected: 398
-- Selected HC Tier A: 188
+- Open Administrative & Clerical rows reviewed: 2067
+- Auto/remembered selected: 397
+- Selected HC Tier A: 187
 - Selected HC Tier B: 210
-- POSS awaiting decision: 1507
+- POSS awaiting decision: 1505
 - Excluded: 0
 - HARD_PASS: 165
 
@@ -1174,18 +1174,6 @@ region: Devon
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A3255-26-0014
 factual_fingerprint: 213aa366e91856a6f1277499808f4d032ba9e4e134d76ee6d3da32f81e140d93
----
-
----
-action:
-POSS | NHS Jobs | London | Croydon, CR7 7YE | £30142.00 | Temporary Staffing Coordinator
-source_job_id: 5579675
-title: Temporary Staffing Coordinator
-employer: Croydon Health Services NHS Trust
-region: London
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9199-8172749-NA-B
-factual_fingerprint: c1e21722910073ac225e7bf69eb35da687cdc5594045e937d0c0225a1fada454
 ---
 
 ---
@@ -7714,18 +7702,6 @@ region: East Midlands
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9320-26-0849
 factual_fingerprint: f246a20a2dc7fdabbe1626f335131a1ce3659d0171684eaaf6d0f60ec636439a
----
-
----
-action:
-POSS | NHS Jobs | East Midlands | Derby, DE22 3NE | £25272.00 | Pathway Support
-source_job_id: 5570254
-title: Pathway Support
-employer: University Hospitals of Derby and Burton NHS Foundation Trust
-region: East Midlands
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9320-26-0845
-factual_fingerprint: 671be05381adb703b32af83652eb4f092e3f38b0ea800efe0a2e8180998ebbe0
 ---
 
 ---

@@ -849,7 +849,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9150-26-0537",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9150-26-0537",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5576517",
@@ -867,7 +871,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9150-26-0535",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9150-26-0535",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5570979",
@@ -885,25 +893,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9354-26-1044",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9354-26-1044",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
-  },
-  {
-    "job_id": "nhs-5572729",
-    "source": "NHS Jobs",
-    "title": "Administrator",
-    "company": "Sussex Community NHS Foundation Trust",
-    "advertiser_name": "Sussex Community NHS Foundation Trust",
-    "location": "Brighton, BN2 3EW",
-    "region": "Sussex",
-    "salary": "£25760.00 to £27476.00",
-    "employment_type": "Permanent",
-    "posted_date": "2026-09-01T15:22:55.587225431",
-    "closing_date": "2026-09-13",
-    "description": "Are you ready to play a vital role in transforming healthcare delivery? We're seeking a proactive and detail-driven MSK Health Administrator to support our Musculoskeletal Rehab (MSK) team. This is your chance to step into a dynamic environment where your coordination skills, initiative, and commitment to service excellence will help improve the lives of patients every day. We are looking for a reliable, enthusiastic, and organised individual who takes pride in delivering excellent administrative support. You will have a keen eye for detail, strong interpersonal skills, and a proactive approach to problem-solving. If you are passionate about helping others, have strong communication skills, and are looking to develop your career within the NHS, we would love to hear from you. This role is based at Brighton General Hospital with travel to Princess Royal Hospital and Hove Poly Clinic as required to cover admin annual leave and admin sickness. Please note: Due to recent changes in UK immigration and visa rules, this role may not be eligible for Skilled Worker visa sponsorship. Applicants who do not currently have the right to work in the UK may not be considered. Please review the eligibility criteria on the gov.uk website before applying to assess their eligibility for a Certificate of Sponsorship for this role. Skilled Worker visa: going rates for eligible occupation codes - GOV.UK Health and Care Worker visa: If you'll need to meet different salary requirements - GOV.UK a) Ensure accurate data input using patient administration systems such as SystmOne. b) Provide high-quality reception duties, greeting and booking in patients attending MSK and Pelvic Health clinics. c) Work closely with the MSK team to ensure all documentation and correspondence are processed accurately and promptly. d) Monitor and action incoming referrals and triage outcomes, escalating issues when necessary. e) Support service audits, data collection, and performance reporting as required. f) Uphold NHS values, promoting dignity, respect, and compassionate care in all interactions. a. Book, amend and cancel patient appointments using the computer-based booking system (SystmOne) and the telephone call handling system(Cisco Jabber). b. Arrange cover for clinics within the constraints notified by the Admin Lead. c. Conversion of appointment slots under the direction of the Admin Lead. d. Monitor waiting lists and book patients in according to longest wait. e. Contribute to reducing the number of long waiters the service has. f. Maintaining stock levels and ordering stock across all services, clinical and non-clinical. g. To help cover other admin sites when there is the need. h. Check new referral details for completeness and accuracy using the NHS number and update and amend patient details as necessary. i. Compare new referral details with any existing registration details to ensure accuracy and avoid duplication. Accurately input patient referral details on to the Trust computer system. j. Take responsibility for liaising with professional colleagues to avoid unnecessary delays in the referral process. k. Communicate clearly and effectively with other professionals, outside agencies and patients. l. Ensure patient information remains confidential and that patient records are secure to assure confidentiality. m. Use the telephone or written media to make or amend patient appointments and deal with enquiries from patients or staff. n. To carry out other duties which fall within the remit of this post as required by the Lead Administrator. o. To contribute to the development of the admin service.",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9150-26-0529",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9150-26-0529",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5548209",
@@ -921,7 +915,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1635-26-0001",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1635-26-0001",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5536742",
@@ -939,7 +937,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4180-26-0002",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4180-26-0002",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5574965",
@@ -957,7 +959,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9374-26-0816",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9374-26-0816",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5569929",
@@ -975,6 +981,32 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4501-26-0003",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4501-26-0003",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
+  },
+  {
+    "job_id": "nhs-5492880",
+    "source": "NHS Jobs",
+    "title": "PCN Office Administrator",
+    "company": "East and Central Brighton Primary Care Network",
+    "advertiser_name": "East and Central Brighton Primary Care Network",
+    "location": "Brighton, BN1 1ND",
+    "region": "Sussex",
+    "salary": "Negotiable",
+    "employment_type": "Permanent",
+    "posted_date": "2026-08-20T08:52:11.404107576",
+    "closing_date": "2026-09-06",
+    "description": "East & Central Brighton PCN are seeking an experienced and highly organised Office Administrator to provide operational, administrative, workforce and governance support across the PCN. What We Offer NHS Pension Scheme. Generous annual leave entitlement. Training and development opportunities. Flexible and supportive working arrangements. The opportunity to contribute to improving healthcare services for local communities across Brighton. This is an exciting opportunity for an individual with strong organisational and people skills who enjoys working in a fast-paced healthcare environment and supporting service development.The Office Administrator will be responsible for the smooth day-to-day running of the PCN office environment and administrative functions. The post holder will coordinate office systems, workforce administration, recruitment processes, governance requirements and staff support activities, contributing to a well-managed and compliant organisation. Main Responsibilities Office and Facilities Management Oversee the day-to-day operation of PCN office facilities, ensuring they are safe, organised and welcoming. Manage room bookings and coordinate the use of administrative spaces. Liaise with premises providers and contractors regarding maintenance, repairs and service issues. Order and manage office supplies, equipment and resources. Maintain equipment inventories and coordinate servicing, testing and maintenance schedules. Support compliance with health and safety requirements, including fire safety, risk assessments and first aid arrangements. Workforce and HR Administration Coordinate recruitment processes, including advertising vacancies, arranging interviews and issuing correspondence. Assist with onboarding new staff, preparing offer documentation, induction packs and access requests. Support pre-employment checks, including DBS applications, right-to-work checks, references and employment compliance requirements. Maintain accurate and confidential staff records in line with GDPR, employment legislation and CQC requirements. Monitor annual leave, sickness absence and workforce records, escalating issues where appropriate. Maintain records relating to mandatory training, professional registration, occupational health and staff vaccinations. Support workforce planning, staff wellbeing initiatives and learning and development activities. Assist with the development and maintenance of an annual PCN training programme. Governance and Compliance Support compliance with CQC standards and PCN governance requirements. Maintain policy, procedure and operational documentation, ensuring version control and accessibility. Assist with internal and external audits and provide evidence and documentation as required. Ensure information governance, confidentiality and data protection requirements are adhered to at all times. Support the implementation and review of policies and procedures across the organisation. Administrative and Operational Support Organise and minute Board meetings, leadership meetings and other PCN forums. Manage PCN-wide communications, ensuring information is shared effectively with practices and staff. Process staff expense claims and maintain associated records. Act as a key point of contact for PCN staff, practices and external stakeholders. Provide administrative support to service developments, projects and operational initiatives. Provide support covering reception at our weekly Health Hub. Service Support and Improvement Work with clinical and operational colleagues to support the smooth delivery of PCN clinics. Coordinate resources, space and equipment to support efficient service delivery. Identify opportunities to improve administrative systems, processes and staff experience. Contribute to service improvement projects and the development of efficient ways of working.",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/M0022-26-0007",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/M0022-26-0007",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]
