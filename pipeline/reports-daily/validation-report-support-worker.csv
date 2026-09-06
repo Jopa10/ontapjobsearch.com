@@ -1,12 +1,12 @@
 ﻿metric,value
 total rows input,10000
-total rows included,48
-total rows dropped,9952
-title classification count - HIGH_CONFIDENCE,141
-title classification count - ELASTIC_FIT,30
+total rows included,49
+total rows dropped,9951
+title classification count - HIGH_CONFIDENCE,135
+title classification count - ELASTIC_FIT,26
 title classification count - REVIEW_CONTEXT_DEPENDENT,19
-title classification count - HARD_PASS,4720
-title classification count - OUT_OF_SCOPE,5090
+title classification count - HARD_PASS,4713
+title classification count - OUT_OF_SCOPE,5107
 selection scenario - Yorkshire - West,SCENARIO_4_BELOW_PUBLISH_THRESHOLD
 selection message - Yorkshire - West,Yorkshire - West selection below publish threshold: 1/6 credible roles. Do not publish/refresh this slice from this run.
 credible total - Yorkshire - West,1
@@ -56,21 +56,21 @@ other elastic count - Hampshire,0
 total rows output - Hampshire,9
 job_id included - Hampshire,1401784780; 1858493; 1663151; 1401784887; 1401784900; 1401784888; 1401784493; 1401784767; 1401784915
 selection scenario - Kent,SCENARIO_4_BELOW_PUBLISH_THRESHOLD
-selection message - Kent,Kent selection below publish threshold: 2/6 credible roles. Do not publish/refresh this slice from this run.
-credible total - Kent,2
+selection message - Kent,Kent selection below publish threshold: 3/6 credible roles. Do not publish/refresh this slice from this run.
+credible total - Kent,3
 high confidence count - Kent,2
 anchor elastic count - Kent,0
 other elastic count - Kent,0
-total rows output - Kent,2
-job_id included - Kent,1402264062; 107858271
+total rows output - Kent,3
+job_id included - Kent,23643_225534852; 1402264062; 107858271
 selection scenario - London,SCENARIO_3_MANUAL_SELECTION_APPLIED
-selection message - London,London manual_select applied additively: 5 row(s) prioritised; 20 selected.
-credible total - London,20
-high confidence count - London,14
+selection message - London,London manual_select applied additively: 5 row(s) prioritised; 21 selected.
+credible total - London,21
+high confidence count - London,15
 anchor elastic count - London,0
 other elastic count - London,1
-total rows output - London,20
-job_id included - London,23643_225572316; 23643_223283749; 23643_225516212; 107885503; 23643_225165439; 23643_225572376; 2049697; 23643_224986550; 1785508; 1785507; 23643_225476071; 1787859; 2049999; 2049628; 2052022; 1775476; 1743463; 23643_225535652; 1815970; 23643_225513634
+total rows output - London,21
+job_id included - London,23643_225572316; 23643_223283749; 23643_225516212; 107885503; 23643_225165439; 23643_225572376; 23643_225574128; 2049697; 23643_224986550; 1785508; 1785507; 23643_225476071; 1787859; 2049999; 2049628; 2052022; 1775476; 1743463; 23643_225535652; 1815970; 23643_225513634
 selection scenario - Oxfordshire,SCENARIO_4_BELOW_PUBLISH_THRESHOLD
 selection message - Oxfordshire,Oxfordshire selection below publish threshold: 3/6 credible roles. Do not publish/refresh this slice from this run.
 credible total - Oxfordshire,3
@@ -80,13 +80,13 @@ other elastic count - Oxfordshire,0
 total rows output - Oxfordshire,3
 job_id included - Oxfordshire,1695997; 23643_225543862; 1819710
 selection scenario - Surrey,SCENARIO_4_BELOW_PUBLISH_THRESHOLD
-selection message - Surrey,Surrey selection below publish threshold: 4/6 credible roles. Do not publish/refresh this slice from this run.
-credible total - Surrey,4
+selection message - Surrey,Surrey selection below publish threshold: 3/6 credible roles. Do not publish/refresh this slice from this run.
+credible total - Surrey,3
 high confidence count - Surrey,2
 anchor elastic count - Surrey,0
 other elastic count - Surrey,1
-total rows output - Surrey,4
-job_id included - Surrey,23643_225534852; 1692926; 1808686; 1808682
+total rows output - Surrey,3
+job_id included - Surrey,1692926; 1808686; 1808682
 selection scenario - Wiltshire,SCENARIO_4_BELOW_PUBLISH_THRESHOLD
 selection message - Wiltshire,Wiltshire selection below publish threshold: 2/6 credible roles. Do not publish/refresh this slice from this run.
 credible total - Wiltshire,2
