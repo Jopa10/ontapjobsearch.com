@@ -72,8 +72,10 @@ function ListingLinks({
         <Link
           key={link.href}
           href={link.href}
+          className={`${styles.listingLink} ${
+            index === 1 ? styles.secondaryListingLink : ""
+          }`}
           style={{
-            display: "inline-flex",
             alignItems: "center",
             gap: 7,
             color: index === 0 ? "#1d4ed8" : "#475569",

@@ -43,7 +43,7 @@ export default function Header() {
                     </Link>
 
                     {/* Navigation */}
-                    <nav className="flex items-center gap-6">
+                    <nav className="ml-auto flex shrink-0 items-center gap-6 pl-4">
                         {!isHome && (
                             <Link
                                href="/"
@@ -55,7 +55,7 @@ export default function Header() {
                         {!isHome && !isAdmin && (
                             <Link
                                 href="/browse-jobs"
-                                className="text-gray-700 hover:text-blue-600 font-medium transition-colors"
+                                className="hidden text-gray-700 hover:text-blue-600 font-medium transition-colors sm:inline"
                             >
                                 Browse Jobs
                             </Link>
