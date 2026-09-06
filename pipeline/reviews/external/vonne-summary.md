@@ -56,7 +56,7 @@ source_job_id: 173385
 source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173385
 ---
 ---
-action:
+action: exclude
 POSS | North East - County Durham & Darlington/Hartlepool | County Durham | £24,454 Per Annum | Administrator (26.13)
 employer: Age UK County Durham
 closing_date: Wednesday, September 30, 2026 - 12:00
@@ -69,7 +69,7 @@ source_job_id: 173394
 source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173394
 ---
 ---
-action:
+action: exclude
 POSS | North East - County Durham & Darlington/Hartlepool | County Durham | £24,454 Per Annum | Project Administrator (26.12)
 employer: Age UK County Durham
 closing_date: Wednesday, September 30, 2026 - 12:00

@@ -154,7 +154,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/examinations-officer-
 ## BUCKINGHAMSHIRE — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS | Buckinghamshire | Milton Keynes, South East, MK10 7HE | £25,988.00 - £27,254.00 Annually (FTE) | Administrator
 employer: Brooklands Academy
 closing_date: 2026-09-11T12:00:00+01:00
@@ -163,7 +163,6 @@ factual_fingerprint: 299bea4d4b95c990a7df49a02b373d0d69827baac2e1eaab2bc8494c872
 source_job_id: administrator-brooklands-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-brooklands-academy
 ---
-
 ## CAMBRIDGESHIRE — SELECTED
 
 ---
@@ -246,7 +245,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-sw
 ## CAMBRIDGESHIRE — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS | Cambridgeshire | Peterborough, East of England, PE6 7JX | £14,802.00 Annually (Actual) | Administrator
 employer: Arthur Mellows Village College
 closing_date: 2026-09-14T09:00:00+01:00
@@ -255,7 +254,6 @@ factual_fingerprint: f1cb160ba772b2e2384e97a44e6559dcd7d92b357c813b1c62444e3355a
 source_job_id: administrator-9219e9ba-082d-4b75-91ee-2e1cd2dd8f75
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-9219e9ba-082d-4b75-91ee-2e1cd2dd8f75
 ---
-
 ## CHESHIRE - WARRINGTON & HALTON — SELECTED
 
 _No jobs in this group._
@@ -964,7 +962,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/welfare-administrator
 ## LONDON — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS | London | London, London, NW10 2UF | £27,254.00 Annually (FTE) Term Time Only | Administrator
 employer: North Brent School
 closing_date: 2026-09-11T23:59:00+01:00
@@ -973,9 +971,8 @@ factual_fingerprint: 191ae12793a688c36e982f53c8c75b135af37598de3aebc9308101a40ec
 source_job_id: administrator-north-brent-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-north-brent-school
 ---
-
 ---
-action:
+action: exclude
 POSS | London | London, London, SW16 6NP | Grade 3 - Salary Spine point 5 to 6 - £31,086 to £31,530 (actual £28,592 to £29,002) | Office Administrator
 employer: St Leonard's Church of England Primary School
 closing_date: 2026-09-11T15:00:00+01:00
@@ -984,9 +981,8 @@ factual_fingerprint: dfb8614e8859acc9e446d1f3a5130b800f5a77f9bf4b14abbd10dba60aa
 source_job_id: office-administrator-st-leonard-s-church-of-england-primary-school-london
 source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-st-leonard-s-church-of-england-primary-school-london
 ---
-
 ---
-action:
+action: exclude
 POSS | London | London, London, SE11 5QY | £26,857.00 - £27,240.00 Annually (Actual) Room for progression | Receptionist
 employer: Lilian Baylis Technology School
 closing_date: 2026-09-18T10:00:00+01:00
@@ -995,9 +991,8 @@ factual_fingerprint: c49a4b7a13bf551c6da1eb15fef1cf557a699be80f7bacfad2380287f86
 source_job_id: receptionist-lilian-baylis-technology-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-lilian-baylis-technology-school
 ---
-
 ---
-action:
+action: exclude
 POSS | London | Osterley, London, TW7 5PN | 28,195.00 - 29,852.00 | School Administrator
 employer: Nishkam School West London
 closing_date: 2026-09-18T00:00:00+01:00
@@ -1006,7 +1001,6 @@ factual_fingerprint: 8b9e05d1ce0c1907c3414549212366b0b7e2a26f20c63f4cff0f7dd0beb
 source_job_id: school-administrator-nishkam-school-west-london
 source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-nishkam-school-west-london
 ---
-
 ## MERSEYSIDE - LIVERPOOL — SELECTED
 
 ---
@@ -1351,7 +1345,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/people-administrator-
 ## SOMERSET — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS | Somerset | Taunton, South West, TA2 8FT | Actual Annual Salary | Senior Office Administrator
 employer: West Monkton Church of England School
 closing_date: 2026-09-10T12:00:59+01:00
@@ -1360,7 +1354,6 @@ factual_fingerprint: 01d53c9541cb9974d967e23c0adad87911f62973058bfe7fe5ea6677264
 source_job_id: senior-office-administrator-west-monkton-church-of-england-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-office-administrator-west-monkton-church-of-england-school
 ---
-
 ## STAFFORDSHIRE — SELECTED
 
 ---
@@ -1533,7 +1526,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 ## WEST MIDLANDS - BIRMINGHAM & SOLIHULL — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B45 9BN | £6,072.00 - £6,072.00 Annually (Actual) | Office Administrator
 employer: St James Catholic Primary School
 closing_date: 2026-09-16T09:00:00+01:00
@@ -1542,9 +1535,8 @@ factual_fingerprint: b165754ab396be15ba6d15cf37dcc405cf883b4418335072b2ec9960bf1
 source_job_id: office-administrator-st-james-catholic-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-st-james-catholic-primary-school
 ---
-
 ---
-action:
+action: exclude
 POSS | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B45 0EU | £22,121.00 Annually (Actual) | Receptionist
 employer: King Edward VI Balaam Wood Academy
 closing_date: 2026-09-21T09:00:00+01:00
@@ -1553,7 +1545,6 @@ factual_fingerprint: f9d1389180deee068952f032ce09b1d6ee768cc4c19d9b82d03eeadc006
 source_job_id: receptionist-king-edward-vi-balaam-wood-academy-birmingham-west-midlands
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-king-edward-vi-balaam-wood-academy-birmingham-west-midlands
 ---
-
 ## WEST MIDLANDS - BLACK COUNTRY — SELECTED
 
 ---
@@ -1570,7 +1561,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 ## WEST MIDLANDS - BLACK COUNTRY — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS | West Midlands - Black Country | Wednesbury, West Midlands, WS10 7PZ | £22,828 – £23,935 | Office Administrator
 employer: Holyhead Primary Academy
 closing_date: 2026-09-13T23:59:00+01:00
@@ -1579,7 +1570,6 @@ factual_fingerprint: 985a2af32b1c0c3c520d0424c9d981c137c27079e4c5236d2281fcdec29
 source_job_id: office-administrator-holyhead-primary-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-holyhead-primary-academy
 ---
-
 ## WEST MIDLANDS - COVENTRY & WARWICKSHIRE — SELECTED
 
 ---
