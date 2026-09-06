@@ -56,7 +56,7 @@ hub_fingerprint: 3e5329a2c1b94de6237614acca318b68dcb54ec60df3677c8ac4ffb5beb303e
 ---
 
 ---
-action:
+action: select
 POSS | VONNE | North East - County Durham & Darlington/Hartlepool | County Durham | £24,454 Per Annum | Project Administrator (26.12)
 source_key: vonne
 source: VONNE
@@ -76,7 +76,7 @@ hub_fingerprint: 63bd464da7ea4eaaea1bc6a03d7c781333453fae93029dd788143a3b00b24b7
 ## Teaching Vacancies — 10 to review
 
 ---
-action:
+action: select
 POSS | Teaching Vacancies | Buckinghamshire | Milton Keynes, South East, MK10 7HE | £25,988.00 - £27,254.00 Annually (FTE) | Administrator
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -94,7 +94,7 @@ hub_fingerprint: 7191fb5804507cb5431e83433a37998b15af5ac70711379b4f2b579e16ddb47
 ---
 
 ---
-action:
+action: select
 POSS | Teaching Vacancies | Cambridgeshire | Peterborough, East of England, PE6 7JX | £14,802.00 Annually (Actual) | Administrator
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -112,7 +112,7 @@ hub_fingerprint: 3e5f9ed64f7da742098604816c1900d5f5dfd85e49c7035c3aa7956c1f05893
 ---
 
 ---
-action:
+action: select
 POSS | Teaching Vacancies | London | London, London, NW10 2UF | £27,254.00 Annually (FTE) Term Time Only | Administrator
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -130,7 +130,7 @@ hub_fingerprint: 898c481e106602acca25562bfac7c2417b3798e8dbfdf831142db811422bfc0
 ---
 
 ---
-action:
+action: select
 POSS | Teaching Vacancies | London | London, London, SE11 5QY | £26,857.00 - £27,240.00 Annually (Actual) Room for progression | Receptionist
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -148,7 +148,7 @@ hub_fingerprint: fec4f4fd621cc0b06f9ff1820b53e9c68baaa4c63f2df821df77710884f62ef
 ---
 
 ---
-action:
+action: select
 POSS | Teaching Vacancies | London | London, London, SW16 6NP | Grade 3 - Salary Spine point 5 to 6 - £31,086 to £31,530 (actual £28,592 to £29,002) | Office Administrator
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -166,7 +166,7 @@ hub_fingerprint: 1984d1007b1a095a4dda5ca99086c8a7bb05c0290fbf4c309e4192be1be9e49
 ---
 
 ---
-action:
+action: select
 POSS | Teaching Vacancies | London | Osterley, London, TW7 5PN | 28,195.00 - 29,852.00 | School Administrator
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -184,7 +184,7 @@ hub_fingerprint: 7cdf9b6f05fd677f736344207c7faa9802fdda06b6610cb8a38b28759e55904
 ---
 
 ---
-action:
+action: select
 POSS | Teaching Vacancies | Somerset | Taunton, South West, TA2 8FT | Actual Annual Salary | Senior Office Administrator
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -202,7 +202,7 @@ hub_fingerprint: 983d60adfc8385d957d783b3e6b0b33e165c61d135c22ec2f92dfdcc64ea8e0
 ---
 
 ---
-action:
+action: select
 POSS | Teaching Vacancies | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B45 0EU | £22,121.00 Annually (Actual) | Receptionist
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -220,7 +220,7 @@ hub_fingerprint: a1905a7e887a5f5e0f667ce28f3d2d66e460d6fe83635c756dcc383ebf0e0a4
 ---
 
 ---
-action:
+action: select
 POSS | Teaching Vacancies | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B45 9BN | £6,072.00 - £6,072.00 Annually (Actual) | Office Administrator
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -238,7 +238,7 @@ hub_fingerprint: 93794985125b820b557a999b74afac410b51ed80259c8a312909d4be586c13e
 ---
 
 ---
-action:
+action: select
 POSS | Teaching Vacancies | West Midlands - Black Country | Wednesbury, West Midlands, WS10 7PZ | £22,828 – £23,935 | Office Administrator
 source_key: teaching_vacancies
 source: Teaching Vacancies
