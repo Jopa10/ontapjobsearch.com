@@ -9,14 +9,14 @@ const definition = getCityPageDefinitionByRoute(route);
 const canonicalUrl = `https://www.ontapjobsearch.com${route}`;
 
 export const metadata: Metadata = {
-  title: "Hull Admin & Customer Service Jobs | Ontap Job Search",
-  description: "Browse current admin and customer-service jobs across Hull and its approved local employment market.",
+  title: "Admin and office jobs in Hull | Ontap Job Search",
+  description: "Browse current admin and office jobs across Hull and its approved local employment market.",
   alternates: { canonical: canonicalUrl },
 };
 
 export default function Page() {
   if (!definition || !isCityPageActive(definition)) notFound();
   const latestUpdate = getJobPageStatus(route.slice(1));
-  return <JobSlicePage jsonPath={[...definition.jsonPath]} region="Hull" title="Hull Admin & Customer Service Jobs" latestUpdate={latestUpdate} introText={`Current admin and customer-service jobs across Hull and its approved local employment market. Jobs are checked and updated daily. Latest update: ${latestUpdate} • Apply on employer sites`} anchorTown="Hull" relatedPage={{href:"/job-search/east-yorkshire/service-administrator-jobs",prompt:"Looking across the wider region?",label:"View all regional jobs"}} />;
+  return <JobSlicePage jsonPath={[...definition.jsonPath]} region="Hull" title="Admin and office jobs in Hull" latestUpdate={latestUpdate} introText={`Current admin and office jobs across Hull and its approved local employment market. Jobs are checked and updated daily. Latest update: ${latestUpdate} • Apply on employer sites`} anchorTown="Hull" relatedPage={{href:"/job-search/east-yorkshire/service-administrator-jobs",prompt:"Looking across the wider region?",label:"View all regional jobs"}} />;
 }
 

@@ -59,15 +59,18 @@ class NewcastleCityLaunchTests(unittest.TestCase):
         }
 
         self.assertGreaterEqual(len(city_jobs), 6)
-        self.assertEqual(city_ids, included_ids)
-        self.assertTrue(all(job.get("apply_url") for job in city_jobs))
-
         parent_jobs = json.loads(
             (
                 REPO_ROOT / "app/north-east/service-administrator-jobs.json"
             ).read_text(encoding="utf-8")
         )
-        self.assertTrue(city_ids.issubset({job["job_id"] for job in parent_jobs}))
+        parent_ids = {job["job_id"] for job in parent_jobs}
+
+        # Reviewed Service Admin selections remain exact. The city page may also
+        # contain separately governed office-family supplements.
+        self.assertEqual(city_ids & parent_ids, included_ids)
+        self.assertGreater(len(city_ids - parent_ids), 0)
+        self.assertTrue(all(job.get("apply_url") for job in city_jobs))
 
     def test_unresolved_review_rows_are_not_published(self) -> None:
         rows = review_rows()
@@ -88,7 +91,7 @@ class NewcastleCityLaunchTests(unittest.TestCase):
             if row["effective_decision"] == "review"
         }
 
-        self.assertEqual(counts["include"], len(city_jobs))
+        self.assertLessEqual(counts["include"], len(city_jobs))
         self.assertGreater(counts["exclude"], 0)
         self.assertTrue(unresolved_ids.isdisjoint(city_ids))
 

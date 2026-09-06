@@ -20,6 +20,25 @@ VALID_MANUAL_CHOICES = {"include", "exclude"}
 VALID_MARKDOWN_ACTIONS = {"select", "exclude"}
 VALID_MODES = {"review_only", "publish"}
 DECISION_ORDER = {"include": 0, "review": 1, "exclude": 2}
+OFFICE_FAMILY_FILENAMES = {
+    "service-administrator-jobs.json",
+    "paralegal-jobs.json",
+    "marketing-jobs.json",
+    "finance-accounts-jobs.json",
+    "hr-recruitment-jobs.json",
+    "customer-service-jobs.json",
+    "customer-sales-jobs.json",
+}
+OFFICE_SALES_EVIDENCE = (
+    "office-based",
+    "office based",
+    "inside sales",
+    "telesales",
+    "contact centre",
+    "call centre",
+    "sales administrator",
+    "sales support",
+)
 
 
 @dataclass(frozen=True)
@@ -45,6 +64,8 @@ class CityConfig:
     exclude_rules: tuple[Rule, ...]
     fallback_decision: str
     fallback_reason: str
+    exact_localities: tuple[str, ...]
+    include_office_family_supplements: bool
 
 
 def normalise(value: Any) -> str:
@@ -142,6 +163,14 @@ def parse_config(raw: dict[str, Any]) -> CityConfig:
         exclude_rules=parse_rules(raw.get("exclude_rules", []), "exclude_rules"),
         fallback_decision=raw["fallback_decision"],
         fallback_reason=raw["fallback_reason"].strip(),
+        exact_localities=tuple(
+            normalise(value)
+            for value in raw.get("exact_localities", [])
+            if usable_text(value)
+        ),
+        include_office_family_supplements=bool(
+            raw.get("include_office_family_supplements", False)
+        ),
     )
 
 
@@ -188,6 +217,52 @@ def load_parent_jobs(path: Path) -> list[dict[str, Any]]:
     return jobs
 
 
+def _office_sales_evidenced(job: dict[str, Any]) -> bool:
+    evidence = normalise(
+        " ".join(
+            str(job.get(field, ""))
+            for field in ("title", "summary", "description", "full_description")
+        )
+    )
+    return any(cue in evidence for cue in OFFICE_SALES_EVIDENCE)
+
+
+def load_config_jobs(config: CityConfig, root: Path) -> list[dict[str, Any]]:
+    """Load the qualifying Service Admin slice plus approved office-family siblings."""
+    primary_path = root / config.parent_page
+    jobs = load_parent_jobs(primary_path)
+    if not config.include_office_family_supplements:
+        return jobs
+
+    region_slug = config.parent_page.parent.name
+    candidate_dirs = {
+        primary_path.parent,
+        root / "app" / region_slug,
+        root / "app" / "_city-pages" / "configured-slices" / region_slug,
+    }
+    supplementary_paths = sorted(
+        {
+            directory / filename
+            for directory in candidate_dirs
+            for filename in OFFICE_FAMILY_FILENAMES
+            if (directory / filename).is_file()
+            and (directory / filename) != primary_path
+        }
+    )
+
+    seen = {str(job.get("job_id", "")).strip() for job in jobs}
+    for path in supplementary_paths:
+        for job in load_parent_jobs(path):
+            job_id = str(job.get("job_id", "")).strip()
+            if job_id in seen:
+                continue
+            if path.name == "customer-sales-jobs.json" and not _office_sales_evidenced(job):
+                continue
+            seen.add(job_id)
+            jobs.append(job)
+    return jobs
+
+
 def first_match(text: str, rules: Iterable[Rule]) -> Rule | None:
     return next((rule for rule in rules if rule.pattern in text), None)
 
@@ -202,6 +277,9 @@ def classify_job(job: dict[str, Any], config: CityConfig) -> tuple[str, str, str
     matched = first_match(location, config.exclude_rules)
     if matched:
         return "exclude", matched.pattern, matched.reason
+    location_head = location.split(",", 1)[0].strip()
+    if location_head in config.exact_localities:
+        return "include", f"exact:{location_head}", f"Exact approved {config.display_name} workplace."
     matched = first_match(location, config.include_rules)
     if matched:
         return "include", matched.pattern, matched.reason
@@ -490,7 +568,7 @@ def process_config(
 ) -> dict[str, Any]:
     review_path = root / config.review_csv
     markdown_path = root / config.summary_md
-    jobs = load_parent_jobs(root / config.parent_page)
+    jobs = load_config_jobs(config, root)
     overrides = merge_review_overrides(
         load_review_decisions(review_path),
         load_markdown_actions(markdown_path),
