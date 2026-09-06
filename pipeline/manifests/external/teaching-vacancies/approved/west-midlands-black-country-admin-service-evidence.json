@@ -1,6 +1,6 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-09-06T16:22:15+01:00",
+  "generated_at": "2026-09-06T18:44:41+01:00",
   "source": "Teaching Vacancies",
   "region": "West Midlands - Black Country",
   "category": "admin_service",
@@ -8,11 +8,12 @@
   "review_date": "2026-09-06",
   "review_fingerprint": "ab3dbaf43b60acb284fba1da730b60d542fd3f8547f477bd3d292174d9f998a4",
   "routing_manifest_sha256": "7fd315145b2e460bd548d4a5c1a4c8d7322399f4429f2897b7d301e5f0809506",
-  "review_csv_sha256": "34fdc1b62c20dddd51e1d1b11e8f7dbeb800ad1a012f6b0083c7acfb50b128e2",
-  "summary_md_sha256": "0088bc99af877486f5290ca42a737a48194f05706e73bdfc0c9004b0c5eda1d2",
-  "approved_snapshot_sha256": "0246b5bd987faabcc1abdbbdce90c8ecc5b506e493e6bf29f0a5a64a8b08a93e",
-  "approved_rows": 1,
+  "review_csv_sha256": "e5bff70bb5ae9c58bdab79291e8c14e93c7e4ca375ed3f7a1e319139ee74489c",
+  "summary_md_sha256": "862f06f85beb854defe78a9ff0ba02809f20684363d9243dcfe348f49214f1d0",
+  "approved_snapshot_sha256": "68800895ded2ddd9bbe9d0827f07e875363577c62881b4688d749fd9ba162349",
+  "approved_rows": 2,
   "approved_job_ids": [
-    "teaching-vacancies-school-administrator-st-christopher-s-catholic-primary-academy"
+    "teaching-vacancies-school-administrator-st-christopher-s-catholic-primary-academy",
+    "teaching-vacancies-office-administrator-holyhead-primary-academy"
   ]
 }

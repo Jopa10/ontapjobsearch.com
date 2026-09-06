@@ -1,6 +1,6 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-09-06T16:22:10+01:00",
+  "generated_at": "2026-09-06T18:44:35+01:00",
   "source": "Teaching Vacancies",
   "region": "Cambridgeshire",
   "category": "admin_service",
@@ -8,16 +8,17 @@
   "review_date": "2026-09-06",
   "review_fingerprint": "236cb8e069e59ffd9ee8d07dee7ed13aae0522475816d32f49cc81f3f1b98e05",
   "routing_manifest_sha256": "7fd315145b2e460bd548d4a5c1a4c8d7322399f4429f2897b7d301e5f0809506",
-  "review_csv_sha256": "6a3dc5334e73b3021ea5216bc2db32e279e8348cf6cbded3dde6f16259b4e043",
-  "summary_md_sha256": "0b6c4c8ff423ada10990e6de73fe01e682c9326feb2982042d2f508631e43243",
-  "approved_snapshot_sha256": "01a7984e546ac2bea8c08dc0c2eb37dc5752b15acb188bf2b5f643298c328678",
-  "approved_rows": 7,
+  "review_csv_sha256": "ca5bb045fc6c5cd05aac4f20a0c6db2b186f4892b06ec6f2387ec8e6daafa918",
+  "summary_md_sha256": "59dba672f7e02b3dcb36f65daad9b8e09c7c4321b7f93d596f6ce96e56f14fd9",
+  "approved_snapshot_sha256": "a107469cc465d7f9c2c795940d0a1fc61d6b93a511bcdf7217a94753497382c4",
+  "approved_rows": 8,
   "approved_job_ids": [
     "teaching-vacancies-office-administrator-swaffham-prior-church-of-england-primary-school-cambridge",
     "teaching-vacancies-administrator-student-services-d8658259-60b3-4622-8d3d-f3f1d76a784e",
     "teaching-vacancies-data-administrator-799f6f5b-2740-4014-af1f-77a81945f8ec",
     "teaching-vacancies-send-administrator-swavesey-village-college",
     "teaching-vacancies-administrative-assistant-lantern-community-primary-school-ely-cambridgeshire",
+    "teaching-vacancies-administrator-9219e9ba-082d-4b75-91ee-2e1cd2dd8f75",
     "teaching-vacancies-pastoral-services-administrator-queen-katharine-academy-peterborough-cambridgeshire",
     "teaching-vacancies-finance-admin-assistant-priory-junior-school-st-neots-cambridgeshire"
   ]

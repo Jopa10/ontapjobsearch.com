@@ -1,6 +1,6 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-09-06T16:22:14+01:00",
+  "generated_at": "2026-09-06T18:44:40+01:00",
   "source": "Teaching Vacancies",
   "region": "Somerset",
   "category": "admin_service",
@@ -8,13 +8,14 @@
   "review_date": "2026-09-06",
   "review_fingerprint": "6d0765bfac0d781b45cf68cbd4931ebca18ac19631fecc38d49527652914da6f",
   "routing_manifest_sha256": "7fd315145b2e460bd548d4a5c1a4c8d7322399f4429f2897b7d301e5f0809506",
-  "review_csv_sha256": "d78162542ecce806f1892913aca0bf66d35e4ea7ef3b78267680c437bf4dc12e",
-  "summary_md_sha256": "597c65cbff89797403921679dc52c1fb00345214e9d36e3acdab7a191f0f984a",
-  "approved_snapshot_sha256": "6fc4009af0d8db5bdcde4857e7e1076735287be9988d7402af1625ca1ca9af1f",
-  "approved_rows": 3,
+  "review_csv_sha256": "c38484f61aa272769cc98287662d41296d4a74b222b208fcbe9d8f30a1402408",
+  "summary_md_sha256": "5c4f14ff6c3b18980f1ca6f6cd89f5b6f7fd67995dc8949d73bdd364c222a2d1",
+  "approved_snapshot_sha256": "5404d13e05227ed606cd5e1c40055a7242d1f98e24e772e173a6ddb587c7016f",
+  "approved_rows": 4,
   "approved_job_ids": [
     "teaching-vacancies-level-3-business-administrator-apprentice",
     "teaching-vacancies-people-administrator-learning-and-development",
+    "teaching-vacancies-senior-office-administrator-west-monkton-church-of-england-school",
     "teaching-vacancies-business-support-and-compliance-administrator-part-time"
   ]
 }

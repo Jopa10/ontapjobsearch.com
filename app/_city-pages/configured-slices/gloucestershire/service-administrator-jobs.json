@@ -425,31 +425,6 @@
     "posted_date_basis": "ontap_first_published"
   },
   {
-    "job_id": "107864459",
-    "title": "Pricing & Contracts Administrator",
-    "company": "Anderson Recruitment - Agency - Permanent",
-    "location": "Gloucestershire",
-    "region": "Gloucestershire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "26000",
-    "salary_max": "26000",
-    "salary_text": "£26000 per year",
-    "posted_date": "2026-08-24",
-    "description": "Our client based in Quedgeley is a national business with staff geographically spread across the UK and Northern Ireland. They are currently seeking a permanent Pricing & Contracts Administrator to join their growing and dynamic team. The company have a great ethos and are steered towards their core values that promote integrity, collaboration, innovation, and excellence in everything they do!\n\nIn t click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?aziU08XVyRHDwg9EX6iAqaaok8tIA6Gxd",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Anderson Recruitment",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
-  },
-  {
     "job_id": "23643_225565670",
     "title": "Business Support Administrator",
     "company": "First Base - Agency - Permanent",
@@ -691,6 +666,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9327-26-0748",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -710,6 +688,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9327-26-0701",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -729,6 +710,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3648-26-0003",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -748,6 +732,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9327-26-0699",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -767,6 +754,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0319-26-0000",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   }
 ]

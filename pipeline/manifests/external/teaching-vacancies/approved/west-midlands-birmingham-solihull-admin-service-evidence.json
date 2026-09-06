@@ -1,6 +1,6 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-09-06T16:22:15+01:00",
+  "generated_at": "2026-09-06T18:44:41+01:00",
   "source": "Teaching Vacancies",
   "region": "West Midlands - Birmingham & Solihull",
   "category": "admin_service",
@@ -8,13 +8,15 @@
   "review_date": "2026-09-06",
   "review_fingerprint": "3663221a6586b87598c68ae09c536cd80fc6801b1bd9a35a6b3df0221371aabb",
   "routing_manifest_sha256": "7fd315145b2e460bd548d4a5c1a4c8d7322399f4429f2897b7d301e5f0809506",
-  "review_csv_sha256": "d05d231f2c7d1cd1f77e44d08d725b1ffbae33d97dfaf099738ed760fc919a0f",
-  "summary_md_sha256": "23abd43ffce1d5f6ac8ef83b52deddc2b65f3e630c9c73286cc55fb1e602b7a8",
-  "approved_snapshot_sha256": "99c516778255d0f66a30b91218f9eacce96229e99aaf757ffd41447e185721e5",
-  "approved_rows": 3,
+  "review_csv_sha256": "d26fdb5fee819162552313e8e83b0b86f98d3e89d26dd308900b21d949c709d0",
+  "summary_md_sha256": "07816902b6b64cc5e26db26f5ffdba9dfa539553871a556b3adce8a80cf48dcc",
+  "approved_snapshot_sha256": "4f036c057127cbfa082602205b0d63638c385aabcf6989d8cc7f7181d3fb5334",
+  "approved_rows": 5,
   "approved_job_ids": [
     "teaching-vacancies-attendance-officer-4efd19d4-57e0-4ca7-b2db-17e1d24f0087",
     "teaching-vacancies-school-administrator-90712575-ad48-4a39-98c3-9140ef281e9e",
-    "teaching-vacancies-administrative-assistant-grade-2-term-time-only"
+    "teaching-vacancies-office-administrator-st-james-catholic-primary-school",
+    "teaching-vacancies-administrative-assistant-grade-2-term-time-only",
+    "teaching-vacancies-receptionist-king-edward-vi-balaam-wood-academy-birmingham-west-midlands"
   ]
 }

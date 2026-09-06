@@ -1,6 +1,6 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-09-06T16:22:09+01:00",
+  "generated_at": "2026-09-06T18:44:34+01:00",
   "source": "Teaching Vacancies",
   "region": "Buckinghamshire",
   "category": "admin_service",
@@ -8,11 +8,12 @@
   "review_date": "2026-09-06",
   "review_fingerprint": "ce4c0025fe94eae75328dd176b11bc980544881ac68f63ee07dc6e78e930a9da",
   "routing_manifest_sha256": "7fd315145b2e460bd548d4a5c1a4c8d7322399f4429f2897b7d301e5f0809506",
-  "review_csv_sha256": "b01c222779add3b01c266d4251d71f34cae724cade1444ff0329430f6ace6059",
-  "summary_md_sha256": "18eaf1949a9887faba7b4dc84853baabb527055de09ec470cd38d7f69401e5f0",
-  "approved_snapshot_sha256": "298ccb967365700cb6fbc7d8581cec6b48e9a89a927c8dca9678dc1aab9393c6",
-  "approved_rows": 3,
+  "review_csv_sha256": "79c1df36852e501df17fc03559bbc6165613f1d380c74f7279f2414e4631eba8",
+  "summary_md_sha256": "2b5cde38ea8b7a76fface6a059a666fff32b485a419955229bf05ed89045dfa6",
+  "approved_snapshot_sha256": "c879cd262ec60a96ed35c431edc9fa9630a5f25dc9be80790bf6d56d24bdafb0",
+  "approved_rows": 4,
   "approved_job_ids": [
+    "teaching-vacancies-administrator-brooklands-academy",
     "teaching-vacancies-attendance-administrator-william-harding-school-aylesbury-buckinghamshire",
     "teaching-vacancies-examinations-officer-aeb29f97-ce81-41ec-8b38-81ed01e3315f",
     "teaching-vacancies-attendance-officer-amersham-school"

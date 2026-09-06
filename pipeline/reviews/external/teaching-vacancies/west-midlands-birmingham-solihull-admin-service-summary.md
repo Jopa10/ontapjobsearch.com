@@ -14,9 +14,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 17
-- Selected: 3
+- Selected: 5
 - POSS awaiting decision: 2
-- Excluded: 2
+- Excluded: 0
 - Hard pass: 10
 
 ## SELECTED
@@ -49,6 +49,36 @@ factual_fingerprint: eaad972636101473ea20c68fefdda4dc644a5aa3dc4c3a5fede74521be5
 source: Teaching Vacancies
 source_job_id: attendance-officer-4efd19d4-57e0-4ca7-b2db-17e1d24f0087
 source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-4efd19d4-57e0-4ca7-b2db-17e1d24f0087
+---
+
+---
+action: select
+SELECTED | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B45 9BN | £6,072.00 - £6,072.00 Annually (Actual) | Office Administrator
+employer: St James Catholic Primary School
+closing_date: 2026-09-16T09:00:00+01:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: b165754ab396be15ba6d15cf37dcc405cf883b4418335072b2ec9960bf115492
+source: Teaching Vacancies
+source_job_id: office-administrator-st-james-catholic-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-st-james-catholic-primary-school
+---
+
+---
+action: select
+SELECTED | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B45 0EU | £22,121.00 Annually (Actual) | Receptionist
+employer: King Edward VI Balaam Wood Academy
+closing_date: 2026-09-21T09:00:00+01:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: f9d1389180deee068952f032ce09b1d6ee768cc4c19d9b82d03eeadc00668a78
+source: Teaching Vacancies
+source_job_id: receptionist-king-edward-vi-balaam-wood-academy-birmingham-west-midlands
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-king-edward-vi-balaam-wood-academy-birmingham-west-midlands
 ---
 
 ---
@@ -100,35 +130,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/exam-s-and-data-offic
 
 ## EXCLUDED BY REVIEW
 
----
-action: exclude
-EXCLUDED | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B45 9BN | £6,072.00 - £6,072.00 Annually (Actual) | Office Administrator
-employer: St James Catholic Primary School
-closing_date: 2026-09-16T09:00:00+01:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: b165754ab396be15ba6d15cf37dcc405cf883b4418335072b2ec9960bf115492
-source: Teaching Vacancies
-source_job_id: office-administrator-st-james-catholic-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-st-james-catholic-primary-school
----
-
----
-action: exclude
-EXCLUDED | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B45 0EU | £22,121.00 Annually (Actual) | Receptionist
-employer: King Edward VI Balaam Wood Academy
-closing_date: 2026-09-21T09:00:00+01:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: f9d1389180deee068952f032ce09b1d6ee768cc4c19d9b82d03eeadc00668a78
-source: Teaching Vacancies
-source_job_id: receptionist-king-edward-vi-balaam-wood-academy-birmingham-west-midlands
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-king-edward-vi-balaam-wood-academy-birmingham-west-midlands
----
+- None.
 
 ## HARD_PASS
 
