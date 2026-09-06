@@ -4,8 +4,8 @@
 - Live route: `/coventry/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 2
-- Threshold currently met: no
+- Effective included jobs: 6
+- Threshold currently met: yes
 
 ## How to review
 Edit only the `action:` line inside a job block.
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 2
-- automatic review: 2
-- automatic exclude: 26
-- effective include: 2
-- effective review: 2
-- effective exclude: 26
+- automatic include: 6
+- automatic review: 5
+- automatic exclude: 19
+- effective include: 6
+- effective review: 5
+- effective exclude: 19
 
-## INCLUDE (2)
+## INCLUDE (6)
 
 ---
 action: 
@@ -40,6 +40,42 @@ reason: Approved Coventry catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Office & Facilities Administrator (Part-time)
+company: NES Group Ltd - Agency - Permanent
+location: Coventry
+source: JobG8
+job_id: jobg8-23643_225570023
+reason: Approved Coventry catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Part-Time Finance Assistant
+company: Hays Specialist Recruitment Limited - Agency - Permanent
+location: Coventry
+source: JobG8
+job_id: jobg8-1800544
+reason: Approved Coventry catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Receptionist
+company: Adecco - Agency - Temporary
+location: Coventry
+source: JobG8
+job_id: jobg8-23643_225572830
+reason: Approved Coventry catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Receptionist/Admin
 company: Godiva Group Practice
 location: Coventry, CV2 4lj, Coventry, CV1 4DH, Coventry, CV6 5EA, Coventry, CV2 3DR
@@ -48,7 +84,31 @@ job_id: nhs-5525238
 reason: Approved Coventry catchment.
 ---
 
-## REVIEW (2)
+---
+action: 
+decision: include
+automatic_decision: include
+title: X2 Administrators - Coventry - £14.00 - £15.00 p/h
+company: Oakley Recruitment Limited - Agency - Temporary
+location: Coventry
+source: JobG8
+job_id: jobg8-23643_225516949
+reason: Approved Coventry catchment.
+---
+
+## REVIEW (5)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administration Assistant
+company: Reed - Agency - Permanent
+location: Kenilworth
+source: JobG8
+job_id: jobg8-1769740
+reason: No approved Coventry catchment rule matched; local review required.
+---
 
 ---
 action: 
@@ -66,6 +126,18 @@ reason: No approved Coventry catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: HR Administrator, Temporary to Permanent Opportunity
+company: Office Angels - Agency - Temporary
+location: Atherstone
+source: JobG8
+job_id: jobg8-23643_225572898
+reason: No approved Coventry catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Receptionist and Administrator FTC contract September - December 2026
 company: Kenilworth School and Sixth Form
 location: Kenilworth
@@ -74,7 +146,19 @@ job_id: teaching-vacancies-receptionist-and-administrator-ftc-contract-september
 reason: No approved Coventry catchment rule matched; local review required.
 ---
 
-## EXCLUDE (26)
+---
+action: 
+decision: review
+automatic_decision: review
+title: Temp Administrator
+company: Brellis Recruitment - Agency - Permanent
+location: Southam
+source: JobG8
+job_id: jobg8-23643_225533754
+reason: No approved Coventry catchment rule matched; local review required.
+---
+
+## EXCLUDE (19)
 
 ---
 action: 
@@ -82,7 +166,7 @@ decision: exclude
 automatic_decision: exclude
 title: Accounts Assistant (AR)
 company: Proprec - Agency - Permanent
-location: Warwickshire
+location: Warwick
 source: JobG8
 job_id: jobg8-1744021
 reason: Separate employment market.
@@ -92,21 +176,9 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Administration Assistant
-company: Reed - Agency - Permanent
-location: Warwickshire
-source: JobG8
-job_id: jobg8-1769740
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Customer Service Advisor
 company: SVB Solutions - Agency - Permanent
-location: Warwickshire
+location: Warwick
 source: JobG8
 job_id: jobg8-23643_225485953
 reason: Separate employment market.
@@ -118,7 +190,7 @@ decision: exclude
 automatic_decision: exclude
 title: Customer Service Advisor - Full Time
 company: Adecco - Agency - Permanent
-location: Warwickshire
+location: Warwick
 source: JobG8
 job_id: jobg8-1766758
 reason: Separate employment market.
@@ -130,7 +202,7 @@ decision: exclude
 automatic_decision: exclude
 title: Customer Service Advisor - Full Time
 company: Adecco - Agency - Permanent
-location: Warwickshire
+location: Warwick
 source: JobG8
 job_id: jobg8-23643_225505608
 reason: Separate employment market.
@@ -145,18 +217,6 @@ company: Arden Personnel - Agency - Permanent
 location: Warwickshire
 source: JobG8
 job_id: jobg8-23643_225573434
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: HR Administrator, Temporary to Permanent Opportunity
-company: Office Angels - Agency - Temporary
-location: Warwickshire
-source: JobG8
-job_id: jobg8-23643_225572898
 reason: Separate employment market.
 ---
 
@@ -200,18 +260,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Office & Facilities Administrator (Part-time)
-company: NES Group Ltd - Agency - Permanent
-location: Warwickshire
-source: JobG8
-job_id: jobg8-23643_225570023
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Onsite Recruitment Account Coordinator
 company: Winner Recruitment - Agency - Contract
 location: Warwickshire
@@ -224,21 +272,9 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Part-Time Finance Assistant
-company: Hays Specialist Recruitment Limited - Agency - Permanent
-location: Warwickshire
-source: JobG8
-job_id: jobg8-1800544
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Personal Assistant
 company: Opus People Solutions Ltd - Agency - Temporary
-location: Warwickshire
+location: Rugby
 source: JobG8
 job_id: jobg8-23643_225562122
 reason: Separate employment market.
@@ -260,18 +296,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Receptionist
-company: Adecco - Agency - Temporary
-location: Warwickshire
-source: JobG8
-job_id: jobg8-23643_225572830
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Receptionist/Admin Officer
 company: Welcombe Hills School
 location: Stratford-upon-Avon
@@ -286,7 +310,7 @@ decision: exclude
 automatic_decision: exclude
 title: Recruitment Account Coordinator
 company: Winner Recruitment - Agency - Permanent
-location: Warwickshire
+location: Rugby
 source: JobG8
 job_id: jobg8-107840991
 reason: Separate employment market.
@@ -310,7 +334,7 @@ decision: exclude
 automatic_decision: exclude
 title: Sales and Customer Service Advisor
 company: Baxi Heating UK Limited - Agency - Permanent
-location: Warwickshire
+location: Warwick
 source: JobG8
 job_id: jobg8-107900565
 reason: Separate employment market.
@@ -322,7 +346,7 @@ decision: exclude
 automatic_decision: exclude
 title: Sales Coordinator
 company: The Caraires Consultancy - Agency - Permanent
-location: Warwickshire
+location: Rugby
 source: JobG8
 job_id: jobg8-107830347
 reason: Separate employment market.
@@ -337,18 +361,6 @@ company: Pontoon - Agency - Permanent
 location: Warwickshire
 source: JobG8
 job_id: jobg8-1775929
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Temp Administrator
-company: Brellis Recruitment - Agency - Permanent
-location: Warwickshire
-source: JobG8
-job_id: jobg8-23643_225533754
 reason: Separate employment market.
 ---
 
@@ -373,17 +385,5 @@ company: Apex Focus Group - Agency - Permanent
 location: Warwickshire
 source: JobG8
 job_id: jobg8-1763911
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: X2 Administrators - Coventry - £14.00 - £15.00 p/h
-company: Oakley Recruitment Limited - Agency - Temporary
-location: Warwickshire
-source: JobG8
-job_id: jobg8-23643_225516949
 reason: Separate employment market.
 ---

@@ -4,8 +4,8 @@
 - Live route: `/oxford/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 4
-- Threshold currently met: no
+- Effective included jobs: 6
+- Threshold currently met: yes
 
 ## How to review
 Edit only the `action:` line inside a job block.
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 4
-- automatic review: 6
-- automatic exclude: 31
-- effective include: 4
-- effective review: 6
-- effective exclude: 31
+- automatic include: 6
+- automatic review: 13
+- automatic exclude: 22
+- effective include: 6
+- effective review: 13
+- effective exclude: 22
 
-## INCLUDE (4)
+## INCLUDE (6)
 
 ---
 action: 
@@ -72,7 +72,31 @@ job_id: teaching-vacancies-grade-6-office-administrator-3e4de74e-af8a-4ee3-b949-
 reason: Approved conservative Oxford launch catchment.
 ---
 
-## REVIEW (6)
+---
+action: 
+decision: include
+automatic_decision: include
+title: Temporary Administrator
+company: Berry Recruitment - Agency - Permanent
+location: Oxford
+source: JobG8
+job_id: jobg8-1778720
+reason: Approved conservative Oxford launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Temporary Administrator
+company: Berry Recruitment - Agency - Temporary
+location: Oxford
+source: JobG8
+job_id: jobg8-23643_225524539
+reason: Approved conservative Oxford launch catchment.
+---
+
+## REVIEW (13)
 
 ---
 action: 
@@ -83,6 +107,30 @@ company: Barchester Healthcare
 location: Banbury, OX15 6EH
 source: NHS Jobs
 job_id: nhs-5558600
+reason: No approved Oxford catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: Gill Cooke Personnel Ltd T/A The Recruitment Group - Agency - Permanent
+location: Witney
+source: JobG8
+job_id: jobg8-23643_225570930
+reason: No approved Oxford catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: K2 Recruitment - Agency - Temporary
+location: Bicester
+source: JobG8
+job_id: jobg8-23643_225358207
 reason: No approved Oxford catchment rule matched; local review required.
 ---
 
@@ -102,11 +150,35 @@ reason: No approved Oxford catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Administrator
+company: Thompson & Terry Recruitment - Agency - Permanent
+location: Didcot
+source: JobG8
+job_id: jobg8-23643_225493985
+reason: No approved Oxford catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Attendance Administrator
 company: Faringdon Community College
 location: Faringdon
 source: Teaching Vacancies
 job_id: teaching-vacancies-attendance-administrator-faringdon-community-college
+reason: No approved Oxford catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Events Coordinator
+company: BramahHR Ltd - Agency - Contract
+location: Thame
+source: JobG8
+job_id: jobg8-23643_225571244
 reason: No approved Oxford catchment rule matched; local review required.
 ---
 
@@ -138,6 +210,42 @@ reason: No approved Oxford catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Sales and Parts Administrator
+company: K2 Recruitment - Agency - Permanent
+location: Bicester
+source: JobG8
+job_id: jobg8-23643_225461932
+reason: No approved Oxford catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Service Administrator
+company: FCR PROPERTY LIMITED - Agency - Permanent
+location: Kidlington
+source: JobG8
+job_id: jobg8-1769321
+reason: No approved Oxford catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Service Coordinator
+company: Downtown Recruitment - Agency - Permanent
+location: Thame
+source: JobG8
+job_id: jobg8-1704964
+reason: No approved Oxford catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Sixth Form Administrator / Team Leader
 company: Lord Williams's School
 location: Thame
@@ -146,7 +254,7 @@ job_id: teaching-vacancies-sixth-form-administrator-team-leader
 reason: No approved Oxford catchment rule matched; local review required.
 ---
 
-## EXCLUDE (31)
+## EXCLUDE (22)
 
 ---
 action: 
@@ -177,46 +285,10 @@ action:
 decision: exclude
 automatic_decision: exclude
 title: Administrator
-company: Gill Cooke Personnel Ltd T/A The Recruitment Group - Agency - Permanent
-location: Oxfordshire
-source: JobG8
-job_id: jobg8-23643_225570930
-reason: Broad county location; not Oxford-city evidence.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Administrator
-company: K2 Recruitment - Agency - Temporary
-location: Oxfordshire
-source: JobG8
-job_id: jobg8-23643_225358207
-reason: Broad county location; not Oxford-city evidence.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Administrator
 company: Rapier - Agency - Temporary
 location: Oxfordshire
 source: JobG8
 job_id: jobg8-23643_225508503
-reason: Broad county location; not Oxford-city evidence.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Administrator
-company: Thompson & Terry Recruitment - Agency - Permanent
-location: Oxfordshire
-source: JobG8
-job_id: jobg8-23643_225493985
 reason: Broad county location; not Oxford-city evidence.
 ---
 
@@ -265,18 +337,6 @@ company: Plus One Recruitment - Agency - Permanent
 location: Oxfordshire
 source: JobG8
 job_id: jobg8-1786192
-reason: Broad county location; not Oxford-city evidence.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Events Coordinator
-company: BramahHR Ltd - Agency - Contract
-location: Oxfordshire
-source: JobG8
-job_id: jobg8-23643_225571244
 reason: Broad county location; not Oxford-city evidence.
 ---
 
@@ -416,18 +476,6 @@ reason: Broad county location; not Oxford-city evidence.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Sales and Parts Administrator
-company: K2 Recruitment - Agency - Permanent
-location: Oxfordshire
-source: JobG8
-job_id: jobg8-23643_225461932
-reason: Broad county location; not Oxford-city evidence.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Scheduling Co-ordinator
 company: DJ Doors - Agency - Permanent
 location: Oxfordshire
@@ -440,59 +488,11 @@ reason: Broad county location; not Oxford-city evidence.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Service Administrator
-company: FCR PROPERTY LIMITED - Agency - Permanent
-location: Oxfordshire
-source: JobG8
-job_id: jobg8-1769321
-reason: Broad county location; not Oxford-city evidence.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Service Advisor
 company: The Solution Automotive Limited - Agency - Permanent
 location: Oxfordshire
 source: JobG8
 job_id: jobg8-107842072
-reason: Broad county location; not Oxford-city evidence.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Service Coordinator
-company: Downtown Recruitment - Agency - Permanent
-location: Oxfordshire
-source: JobG8
-job_id: jobg8-1704964
-reason: Broad county location; not Oxford-city evidence.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Temporary Administrator
-company: Berry Recruitment - Agency - Permanent
-location: Oxfordshire
-source: JobG8
-job_id: jobg8-1778720
-reason: Broad county location; not Oxford-city evidence.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Temporary Administrator
-company: Berry Recruitment - Agency - Temporary
-location: Oxfordshire
-source: JobG8
-job_id: jobg8-23643_225524539
 reason: Broad county location; not Oxford-city evidence.
 ---
 

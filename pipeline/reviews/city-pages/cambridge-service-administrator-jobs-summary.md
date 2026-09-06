@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 7
 - automatic review: 4
-- automatic exclude: 10
+- automatic exclude: 9
 - effective include: 7
 - effective review: 4
-- effective exclude: 10
+- effective exclude: 9
 
 ## INCLUDE (7)
 
@@ -158,7 +158,7 @@ job_id: jobg8-23643_225519683
 reason: No approved Cambridge catchment rule matched; local review required.
 ---
 
-## EXCLUDE (10)
+## EXCLUDE (9)
 
 ---
 action: 
@@ -181,18 +181,6 @@ company: East of England Community Health and Care NHS Trust (Cambridge)
 location: Huntingdon, PE29 6NT
 source: NHS Jobs
 job_id: nhs-5567386
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Administrator
-company: Arthur Mellows Village College
-location: Peterborough
-source: Teaching Vacancies
-job_id: teaching-vacancies-administrator-9219e9ba-082d-4b75-91ee-2e1cd2dd8f75
 reason: Separate employment market.
 ---
 

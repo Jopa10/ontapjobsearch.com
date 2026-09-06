@@ -4,7 +4,7 @@
 - Live route: `/birmingham/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 32
+- Effective included jobs: 29
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 32
+- automatic include: 29
 - automatic review: 5
 - automatic exclude: 3
-- effective include: 32
+- effective include: 29
 - effective review: 5
 - effective exclude: 3
 
-## INCLUDE (32)
+## INCLUDE (29)
 
 ---
 action: 
@@ -244,35 +244,11 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Mobile Receptionist/Care Navigator
-company: Ridgacre Medical Centres
-location: Birmingham, B32 2TJ, BIRMINGHAM, B7 5DT
-source: NHS Jobs
-job_id: nhs-5547612
-reason: Approved conservative Birmingham launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Office Administrator
 company: Alliance Personnel - Agency - Permanent
 location: Birmingham
 source: JobG8
 job_id: jobg8-23643_225518765
-reason: Approved conservative Birmingham launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Office Administrator
-company: St James Catholic Primary School
-location: Birmingham
-source: Teaching Vacancies
-job_id: teaching-vacancies-office-administrator-st-james-catholic-primary-school
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -321,18 +297,6 @@ company: Rise Technical Recruitment - Agency - Temporary
 location: Birmingham
 source: JobG8
 job_id: jobg8-23643_225567588
-reason: Approved conservative Birmingham launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Receptionist
-company: King Edward VI Balaam Wood Academy
-location: Birmingham
-source: Teaching Vacancies
-job_id: teaching-vacancies-receptionist-king-edward-vi-balaam-wood-academy-birmingham-west-midlands
 reason: Approved conservative Birmingham launch catchment.
 ---
 

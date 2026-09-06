@@ -4,7 +4,7 @@
 - Live route: `/newcastle/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 49
+- Effective included jobs: 53
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 49
-- automatic review: 34
-- automatic exclude: 26
-- effective include: 49
-- effective review: 34
-- effective exclude: 26
+- automatic include: 53
+- automatic review: 29
+- automatic exclude: 27
+- effective include: 53
+- effective review: 29
+- effective exclude: 27
 
-## INCLUDE (49)
+## INCLUDE (53)
 
 ---
 action: 
@@ -388,6 +388,18 @@ reason: Approved Newcastle catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Customer Service & Complaints Administrator - Team Valley
+company: Office Angels - Agency - Temporary
+location: Gateshead
+source: JobG8
+job_id: jobg8-23643_225474293
+reason: Approved Newcastle catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Customer Service Advisor
 company: Anderson Wright Consulting - Agency - Permanent
 location: Newcastle
@@ -592,11 +604,47 @@ reason: Approved Newcastle catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Order & Delivery Administrator - Temp to Perm - Team Valley
+company: Office Angels - Agency - Permanent
+location: Gateshead
+source: JobG8
+job_id: jobg8-1748505
+reason: Approved Newcastle catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Order & Delivery Administrator - Temp to Perm - Team Valley
+company: Office Angels - Agency - Temporary
+location: Gateshead
+source: JobG8
+job_id: jobg8-23643_225474615
+reason: Approved Newcastle catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: PA to the PRINCIPAL & CHIEF EXECUTIVE
 company: Newcastle and Stafford Colleges Group - Agency - Permanent
 location: Newcastle
 source: JobG8
 job_id: jobg8-107910929
+reason: Approved Newcastle catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Shared Services Team Administrator
+company: Shaftesbury group - Agency - Permanent
+location: Gateshead
+source: JobG8
+job_id: jobg8-23643_225559091
 reason: Approved Newcastle catchment.
 ---
 
@@ -612,7 +660,7 @@ job_id: nhs-5576748
 reason: Approved Newcastle catchment.
 ---
 
-## REVIEW (34)
+## REVIEW (29)
 
 ---
 action: 
@@ -690,36 +738,12 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Customer Experience Coordinator
-company: Linear Recruitment Ltd - Agency - Contract
-location: Tyne And Wear
-source: JobG8
-job_id: jobg8-23643_225494451
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Customer Service & Complaints Administrator - Team Valley
-company: Office Angels - Agency - Temporary
-location: Tyne And Wear
-source: JobG8
-job_id: jobg8-23643_225474293
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Customer Service Advisor
 company: Reed - Agency - Permanent
-location: Tyne And Wear
+location: Hebburn
 source: JobG8
 job_id: jobg8-1766754
-reason: Broad location; review before city inclusion.
+reason: No approved Newcastle catchment rule matched; local review required.
 ---
 
 ---
@@ -834,36 +858,12 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Order & Delivery Administrator - Temp to Perm - Team Valley
-company: Office Angels - Agency - Permanent
-location: Tyne And Wear
-source: JobG8
-job_id: jobg8-1748505
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Order & Delivery Administrator - Temp to Perm - Team Valley
-company: Office Angels - Agency - Temporary
-location: Tyne And Wear
-source: JobG8
-job_id: jobg8-23643_225474615
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Part-Time Sales Administrator - Hebburn - Immediate Start
 company: Office Angels - Agency - Permanent
-location: Tyne And Wear
+location: Hebburn
 source: JobG8
 job_id: jobg8-1744866
-reason: Broad location; review before city inclusion.
+reason: No approved Newcastle catchment rule matched; local review required.
 ---
 
 ---
@@ -930,18 +930,6 @@ reason: No approved Newcastle catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Shared Services Team Administrator
-company: Shaftesbury group - Agency - Permanent
-location: Tyne And Wear
-source: JobG8
-job_id: jobg8-23643_225559091
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Support Administrator ? TOTEX Cluster
 company: Northern Gas - Agency - Permanent
 location: Tyne And Wear
@@ -956,10 +944,10 @@ decision: review
 automatic_decision: review
 title: Temporary Administrator - Houghton le Spring - Immediate Start
 company: Office Angels - Agency - Permanent
-location: Tyne And Wear
+location: Houghton Le Spring
 source: JobG8
 job_id: jobg8-1769286
-reason: Broad location; review before city inclusion.
+reason: No approved Newcastle catchment rule matched; local review required.
 ---
 
 ---
@@ -1022,7 +1010,7 @@ job_id: vonne-173391
 reason: No approved Newcastle catchment rule matched; local review required.
 ---
 
-## EXCLUDE (26)
+## EXCLUDE (27)
 
 ---
 action: 
@@ -1066,7 +1054,7 @@ decision: exclude
 automatic_decision: exclude
 title: Administrative Officer
 company: Barker Ross - Agency - Temporary
-location: County Durham
+location: Durham
 source: JobG8
 job_id: jobg8-23643_225479910
 reason: Separate employment market.
@@ -1126,7 +1114,19 @@ decision: exclude
 automatic_decision: exclude
 title: Customer Experience Coordinator
 company: Linear Recruitment Ltd - Agency - Contract
-location: County Durham
+location: Sunderland
+source: JobG8
+job_id: jobg8-23643_225494451
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Customer Experience Coordinator
+company: Linear Recruitment Ltd - Agency - Contract
+location: Darlington
 source: JobG8
 job_id: jobg8-23643_225534483
 reason: Separate employment market.
@@ -1138,7 +1138,7 @@ decision: exclude
 automatic_decision: exclude
 title: Internal Sales Administrator
 company: Breedon Group plc - Company - Permanent
-location: County Durham
+location: Durham
 source: JobG8
 job_id: jobg8-1782635
 reason: Separate employment market.
@@ -1294,7 +1294,7 @@ decision: exclude
 automatic_decision: exclude
 title: Sales Administrator
 company: Reed - Agency - Permanent
-location: County Durham
+location: Darlington
 source: JobG8
 job_id: jobg8-1743125
 reason: Separate employment market.

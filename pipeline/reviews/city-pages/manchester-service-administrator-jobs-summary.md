@@ -4,7 +4,7 @@
 - Live route: `/manchester/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 38
+- Effective included jobs: 37
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 38
+- automatic include: 37
 - automatic review: 0
-- automatic exclude: 3
-- effective include: 38
+- automatic exclude: 4
+- effective include: 37
 - effective review: 0
-- effective exclude: 3
+- effective exclude: 4
 
-## INCLUDE (38)
+## INCLUDE (37)
 
 ---
 action: 
@@ -388,18 +388,6 @@ reason: Approved conservative Manchester launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Sales & Client Relationship Coordinator (Conveyancing)
-company: Talent Finder - Agency - Permanent
-location: Manchester
-source: JobG8
-job_id: jobg8-107771449
-reason: Approved conservative Manchester launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Sales Support
 company: Hays - Agency - Temporary
 location: Manchester
@@ -482,7 +470,7 @@ reason: Approved conservative Manchester launch catchment.
 
 ## REVIEW (0)
 
-## EXCLUDE (3)
+## EXCLUDE (4)
 
 ---
 action: 
@@ -518,4 +506,16 @@ location: Tyldesley, M29 8AX, MANCHESTER, M46 0LE
 source: NHS Jobs
 job_id: nhs-5543726
 reason: Outside the conservative exact-city launch catchment.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Sales & Client Relationship Coordinator (Conveyancing)
+company: Talent Finder - Agency - Permanent
+location: Salford
+source: JobG8
+job_id: jobg8-107771449
+reason: Separate exact-city market at launch.
 ---
