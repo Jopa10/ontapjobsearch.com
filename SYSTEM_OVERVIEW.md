@@ -7,6 +7,7 @@ This is the short owner view of how Ontap is organised. It mirrors the five cano
 
 ## Recent canonical changes
 
+- 6 September 2026 — **Non-London listing pages now use one consistent desktop promotion rail:** three relevant course cards are followed by Ontap's practical AI-help robot card. Mobile users do not see the promotional rail, while London's separately configured layout is unchanged.
 - 6 September 2026 — **Every individual job page can now start a fresh search:** laptop users see a compact role/location search strip beneath the primary Apply area; mobile users see a small outlined magnifying-glass control that expands and can be hidden again. Apply remains the dominant action, and searches use Ontap's existing current-job search behaviour.
 - 5 September 2026 — **Broad all-role town/city pages are now a permanent site layer:** Nottingham (**13**), Wakefield (**10**), Bolton (**6**), Reading (**6**), Chester (**5**), Durham (**5**), Gateshead (**5**), Northallerton (**5**), Norwich (**5**) and Salford (**5**) launch at `/[city]/jobs`. They combine every current Ontap role/provider, use exact-town supply first, link through a `Home > Jobs > Region > City` breadcrumb and regional-results call to action, and are discoverable from Browse Jobs, the homepage while at 4+ jobs, and the sitemap. Nearby vacancies remain disabled unless a specific approved mapping also passes the 15-mile safeguard.
 - 5 September 2026 — **City and regional job pages now link both ways:** each permanent city page shows `Home > role > region > city` near the title and supplies the same breadcrumb hierarchy to search engines. Matching regional role pages show a prominent `Browse by city` module built from the approved permanent city-page register. Existing URLs, city-retention rules and the wider-regional-jobs button are unchanged.
@@ -234,7 +235,7 @@ Compiler Modules 1/2/3 remain legitimate analysis tools.
 
 ## 3. Website / UX
 
-The North East Service Administrator page is the single-page trial location for Ontap's practical AI-help card. Desktop users see it below the three training cards in the left sidebar; below 1024 px the existing responsive order places the job list first and the training/sidebar content afterwards. The card's subtle waving/twitching mascot links to the public `/ai-tips` page. That page uses normal searchable HTML for its advice and examples, so the animated WebP does not reduce AI/search discoverability. It also keeps Ontap's no-signup job-search proposition unchanged. GA4 records an `ai_tips_click` event for trial evaluation before any wider rollout.
+Non-London job-listing pages show three relevant course cards followed by Ontap's practical AI-help robot card in the desktop left rail. The full promotional rail is hidden on mobile, keeping the vacancies central. London retains its separately configured layout. The robot links to the public `/ai-tips` page, whose advice remains searchable HTML, and GA4 continues to record `ai_tips_click` engagement.
 
 LIVE dynamic regional slices feed Browse Jobs, `/jobs/search`, job-detail backlinks and the homepage Admin region grid through the shared configured-slice/published-job mechanisms.
 

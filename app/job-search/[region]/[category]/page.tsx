@@ -10,11 +10,7 @@ import {
 
 const siteUrl = "https://www.ontapjobsearch.com";
 
-type PageProps = {
-  params: Promise<{ region: string; category: string }>;
-};
-
-const officeTraining = [
+const londonOfficeTraining = [
   {
     title: "Microsoft 365 training",
     provider: "Microsoft Learn",
@@ -23,6 +19,10 @@ const officeTraining = [
     link: "https://learn.microsoft.com/training/",
   },
 ];
+
+type PageProps = {
+  params: Promise<{ region: string; category: string }>;
+};
 
 export const dynamicParams = false;
 
@@ -74,9 +74,15 @@ export default async function Page({ params }: PageProps) {
             trainingHeading: "Useful office skills",
             trainingSubheading:
               "Practical digital skills used across many office-based roles",
-            trainingItems: officeTraining,
           })}
+      trainingItems={
+        slice.regionSlug === "london" && !isSupport
+          ? londonOfficeTraining
+          : undefined
+      }
       sidebarExtra={slice.regionSlug === "london" ? <AiTipsCard /> : undefined}
+      hideSidebarOnMobile={slice.regionSlug !== "london"}
+      trainingItemLimit={slice.regionSlug === "london" && isSupport ? 4 : 3}
     />
   );
 }

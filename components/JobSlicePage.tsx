@@ -1,6 +1,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import Link from "next/link";
+import AiTipsCard from "@/components/AiTipsCard";
 import DetailedJobList from "@/components/DetailedJobList";
 import JobViewSwitcher from "@/components/JobViewSwitcher";
 import QuickJobList from "@/components/QuickJobList";
@@ -98,6 +99,8 @@ type JobSlicePageProps = {
   compactPageSpacing?: boolean;
   softPageBackground?: boolean;
   sidebarExtra?: ReactNode;
+  hideSidebarOnMobile?: boolean;
+  trainingItemLimit?: number;
 };
 
 function stringList(value: unknown): string[] {
@@ -186,6 +189,30 @@ const careTraining: TrainingItem[] = [
     description:
       "Complete the Care Certificate online with self-paced learning and instant course access.",
     link: "https://www.protrainings.uk/courses/216-care-certificate",
+  },
+];
+
+const officeTraining: TrainingItem[] = [
+  {
+    title: "Microsoft 365 training",
+    provider: "Microsoft Learn",
+    description:
+      "Refresh Excel, Outlook and everyday office-productivity skills used across many admin, finance, customer-service, HR and marketing roles.",
+    link: "https://learn.microsoft.com/training/",
+  },
+  {
+    title: "Customer Service Skills",
+    provider: "Alison",
+    description:
+      "Practical customer service training useful for service-administrator and front-office roles.",
+    link: "https://alison.com/course/customer-service-skills",
+  },
+  {
+    title: "Excel for Administrative Work",
+    provider: "Microsoft Learn",
+    description:
+      "Build spreadsheet and reporting skills commonly required in office support roles.",
+    link: "https://learn.microsoft.com/training/",
   },
 ];
 
@@ -339,11 +366,16 @@ export default function JobSlicePage({
   compactPageSpacing = true,
   softPageBackground = false,
   sidebarExtra,
+  hideSidebarOnMobile = true,
+  trainingItemLimit = 3,
 }: JobSlicePageProps) {
   const allJobs = readJobsJson(jsonPath, region);
   const filteredJobs = jobFilter ? allJobs.filter(jobFilter) : allJobs;
   const jobs = orderJobsForDisplay(filteredJobs);
-  const sidebarItems = trainingItems || careTraining;
+  const isSupportPage = jsonPath.some((part) => part.includes("support-worker"));
+  const resolvedSidebarItems =
+    trainingItems || (isSupportPage ? careTraining : officeTraining);
+  const sidebarItems = resolvedSidebarItems.slice(0, trainingItemLimit);
   const publicJobCount = jobs.filter(
     (job) => classifyJobSector(job).sector === "public"
   ).length;
@@ -365,7 +397,11 @@ export default function JobSlicePage({
       }}
     >
       <div className={styles.layout}>
-        <aside className={styles.sidebar}>
+        <aside
+          className={`${styles.sidebar} ${
+            hideSidebarOnMobile ? styles.mobileHiddenSidebar : ""
+          }`}
+        >
           <div style={{ fontWeight: 800, marginBottom: 6 }}>
             {trainingHeading || "Get started faster"}
           </div>
@@ -398,7 +434,7 @@ export default function JobSlicePage({
               </div>
             ))}
           </div>
-          {sidebarExtra}
+          {sidebarExtra ?? <AiTipsCard />}
         </aside>
 
         <div className={styles.content}>
