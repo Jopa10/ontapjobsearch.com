@@ -200,6 +200,8 @@ class CityOpportunityRow:
     live_jobs: int
     existing_pages: int
     routes: str
+    family_counts: tuple[int, ...]
+    other_jobs: int
 
 
 def _normalise_place(value: object) -> str:
@@ -271,6 +273,7 @@ def _city_opportunity_rows(
     mapped = _load_mapped_localities(geo_lookup_path)
     active_pages = _active_city_pages(city_register_path)
     counts: Counter[str] = Counter()
+    family_counts: Counter[tuple[str, str]] = Counter()
     labels: dict[str, tuple[str, str]] = {}
     mapped_jobs = 0
 
@@ -299,6 +302,8 @@ def _city_opportunity_rows(
             continue
         key = _normalise_place(locality)
         counts[key] += 1
+        family_key = FAMILY_BY_FILENAME.get(Path(job.source_file).name, "other")
+        family_counts[(key, family_key)] += 1
         labels[key] = (locality, region)
         mapped_jobs += 1
 
@@ -324,6 +329,8 @@ def _city_opportunity_rows(
                 live_jobs=count,
                 existing_pages=len(routes),
                 routes=", ".join(routes),
+                family_counts=tuple(family_counts[(key, family["key"])] for family in FAMILIES),
+                other_jobs=family_counts[(key, "other")],
             )
         )
 
@@ -944,11 +951,17 @@ def build() -> str:
             f"CREATE means {CITY_PAGE_THRESHOLD}+ current jobs and no existing city page; London is held separately."
         ),
         "",
-        "| Status | Town/city/locality | Region | All live jobs | Existing pages | Current routes |",
-        "|---|---|---|---:|---:|---|",
+        "| Status | Town/city/locality | Region | All live jobs | Existing pages | Current routes | "
+        + " | ".join(family["label"] for family in FAMILIES)
+        + " | Other / unclassified |",
+        "|---|---|---|---:|---:|---|"
+        + "|---:" * (len(FAMILIES) + 1)
+        + "|",
         *(
             f"| {row.status} | {row.locality} | {row.region} | {row.live_jobs:,} | "
-            f"{row.existing_pages:,} | {row.routes} |"
+            f"{row.existing_pages:,} | {row.routes} | "
+            + " | ".join(f"{count:,}" for count in row.family_counts)
+            + f" | {row.other_jobs:,} |"
             for row in city_rows
         ),
         "",

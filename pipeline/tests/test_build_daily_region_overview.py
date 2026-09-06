@@ -23,8 +23,8 @@ class LiveRegionalRollupTests(unittest.TestCase):
         from openpyxl import Workbook
 
         jobs = [
-            LiveJob("j1", "Administrator", "Lincoln", "Lincolnshire", "Admin", "JobG8", "https://example/j1", "app/a.json"),
-            LiveJob("j2", "Marketing Executive", "Lincoln", "Lincolnshire", "Marketing", "JobG8", "https://example/j2", "app/b.json"),
+            LiveJob("j1", "Administrator", "Lincoln", "Lincolnshire", "Admin", "JobG8", "https://example/j1", "app/lincolnshire/service-administrator-jobs.json"),
+            LiveJob("j2", "Marketing Executive", "Lincoln", "Lincolnshire", "Marketing", "JobG8", "https://example/j2", "app/lincolnshire/marketing-jobs.json"),
             LiveJob("j3", "Support Worker", "Lincolnshire", "Lincolnshire", "Support", "NHS Jobs", "https://example/j3", "app/c.json"),
         ]
         inventory = LiveInventory(jobs, [], 3, 0, 0)
@@ -45,6 +45,9 @@ class LiveRegionalRollupTests(unittest.TestCase):
             )
 
         self.assertEqual([(row.locality, row.live_jobs) for row in rows], [("Lincoln", 2)])
+        self.assertEqual(rows[0].family_counts, (1, 0, 0, 0, 1, 0, 0, 0))
+        self.assertEqual(rows[0].other_jobs, 0)
+        self.assertEqual(sum(rows[0].family_counts) + rows[0].other_jobs, rows[0].live_jobs)
         self.assertEqual(mapped_jobs, 2)
         self.assertEqual(unmapped_jobs, 1)
 
