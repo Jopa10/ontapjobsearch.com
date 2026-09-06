@@ -22,9 +22,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "St Edward's CofE Primary School",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -50,9 +47,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "The 3 18 Education Trust",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -109,7 +103,7 @@
     "job_id": "1768917",
     "title": "Call Handler",
     "company": "Shropshire Doctors Co-operative Limited - Agency - Permanent",
-    "location": "Shropshire",
+    "location": "Shrewsbury",
     "region": "Shropshire",
     "country": "UK",
     "category": "Admin/Service – Office Support",
@@ -209,7 +203,7 @@
     "job_id": "23643_225573577",
     "title": "Business Support Officer",
     "company": "Opus People Solutions Ltd - Agency - Temporary",
-    "location": "Shropshire",
+    "location": "Telford",
     "region": "Shropshire",
     "country": "UK",
     "category": "Admin/Service – Office Support",
@@ -372,6 +366,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1923-26-0047",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -391,6 +388,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9301-26-1239",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -410,6 +410,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0132-26-1896",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   }
 ]

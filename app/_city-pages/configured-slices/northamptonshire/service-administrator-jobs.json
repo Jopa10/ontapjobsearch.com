@@ -22,9 +22,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Oakley Vale Primary School",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -50,9 +47,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Barry Primary School",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -78,9 +72,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Raunds Park Infant School",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -187,7 +178,7 @@
     "job_id": "23643_225510923",
     "title": "New Business Unit Administrator",
     "company": "Allstaff - Agency - Permanent",
-    "location": "Northamptonshire",
+    "location": "Northampton",
     "region": "Northamptonshire",
     "country": "UK",
     "category": "Admin/Service – Office Support",
@@ -262,7 +253,7 @@
     "job_id": "23643_225521648",
     "title": "Client Relations Administrator",
     "company": "Osborne Appointments - Agency - Permanent",
-    "location": "Northamptonshire",
+    "location": "Northampton",
     "region": "Northamptonshire",
     "country": "UK",
     "category": "Admin/Service – Office Support",
@@ -337,7 +328,7 @@
     "job_id": "1733979",
     "title": "Customer Service Advisor",
     "company": "Reed - Agency - Permanent",
-    "location": "Northamptonshire",
+    "location": "Northampton",
     "region": "Northamptonshire",
     "country": "UK",
     "category": "Admin/Service – Office Support",
@@ -362,7 +353,7 @@
     "job_id": "1770180",
     "title": "New Business Unit Administrator",
     "company": "Allstaff Recruitment - Agency - Permanent",
-    "location": "Northamptonshire",
+    "location": "Northampton",
     "region": "Northamptonshire",
     "country": "UK",
     "category": "Admin/Service – Office Support",
@@ -387,7 +378,7 @@
     "job_id": "23643_225532541",
     "title": "Executive Assistant- Part Time",
     "company": "Impact Recruitment Services - Agency - Permanent",
-    "location": "Northamptonshire",
+    "location": "Kettering",
     "region": "Northamptonshire",
     "country": "UK",
     "category": "Admin/Service – Office Support",
@@ -412,7 +403,7 @@
     "job_id": "23643_225570045",
     "title": "Sales Administrator",
     "company": "Impact Recruitment Services - Agency - Permanent",
-    "location": "Northamptonshire",
+    "location": "Northampton",
     "region": "Northamptonshire",
     "country": "UK",
     "category": "Admin/Service – Office Support",
@@ -512,7 +503,7 @@
     "job_id": "107932522",
     "title": "Support Services Coordinator - Care Leavers",
     "company": "Homes 2 Inspire Limited - Agency - Permanent",
-    "location": "Northamptonshire",
+    "location": "Northampton",
     "region": "Northamptonshire",
     "country": "UK",
     "category": "Admin/Service – Office Support",
@@ -575,6 +566,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2448-26-0003",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -594,6 +588,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0790-26-0011",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -613,6 +610,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0790-26-0010",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   }
 ]

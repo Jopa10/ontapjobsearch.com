@@ -22,9 +22,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Discovery Educational Trust",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -50,9 +47,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "The Chelmsford Learning Partnership",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -109,7 +103,7 @@
     "job_id": "1775925",
     "title": "Sales Administrator Temp to Perm",
     "company": "Hays Specialist Recruitment Limited - Agency - Permanent",
-    "location": "Essex",
+    "location": "Waltham Abbey",
     "region": "Essex",
     "country": "UK",
     "category": "Admin/Service – Office Support",
@@ -184,7 +178,7 @@
     "job_id": "23643_225473584",
     "title": "Temporary Part Time Contracts Administrator",
     "company": "Office Angels - Agency - Temporary",
-    "location": "Essex",
+    "location": "Basildon",
     "region": "Essex",
     "country": "UK",
     "category": "Admin/Service – Office Support",
@@ -284,7 +278,7 @@
     "job_id": "23643_225513318",
     "title": "Internal Sales Administrator",
     "company": "Just Recruitment Group - Agency - Permanent",
-    "location": "Essex",
+    "location": "Witham",
     "region": "Essex",
     "country": "UK",
     "category": "Admin/Service – Office Support",
@@ -309,7 +303,7 @@
     "job_id": "23643_225523466",
     "title": "Administrator",
     "company": "Adecco - Agency - Temporary",
-    "location": "Essex",
+    "location": "Harlow",
     "region": "Essex",
     "country": "UK",
     "category": "Admin/Service – Office Support",
@@ -334,7 +328,7 @@
     "job_id": "1785798",
     "title": "Customer Service Advisor",
     "company": "Everywhen, part of the Ardonagh Group - Agency - Permanent",
-    "location": "Essex",
+    "location": "Colchester",
     "region": "Essex",
     "country": "UK",
     "category": "Admin/Service – Office Support",
@@ -384,7 +378,7 @@
     "job_id": "1770008",
     "title": "Internal Sales Administrator",
     "company": "Just Recruitment Group Ltd - Agency - Permanent",
-    "location": "Essex",
+    "location": "Witham",
     "region": "Essex",
     "country": "UK",
     "category": "Admin/Service – Office Support",
@@ -409,7 +403,7 @@
     "job_id": "1733700",
     "title": "Receptionist & Bookings Clerk",
     "company": "Alchemy Global Talent Solutions - Agency - Permanent",
-    "location": "Essex",
+    "location": "Braintree",
     "region": "Essex",
     "country": "UK",
     "category": "Admin/Service – Office Support",
@@ -534,7 +528,7 @@
     "job_id": "23643_225538784",
     "title": "Order Processing Administrator",
     "company": "Office Angels - Agency - Permanent",
-    "location": "Essex",
+    "location": "Braintree",
     "region": "Essex",
     "country": "UK",
     "category": "Admin/Service – Office Support",
@@ -634,7 +628,7 @@
     "job_id": "23643_225573602",
     "title": "Receptionist",
     "company": "Adecco - Agency - Temporary",
-    "location": "Essex",
+    "location": "Harlow",
     "region": "Essex",
     "country": "UK",
     "category": "Admin/Service – Office Support",
@@ -809,7 +803,7 @@
     "job_id": "1766462",
     "title": "Claims Handler",
     "company": "Recruit Ins Ltd - Agency - Permanent",
-    "location": "Essex",
+    "location": "Chelmsford",
     "region": "Essex",
     "country": "UK",
     "category": "Admin/Service – Office Support",
@@ -897,6 +891,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0151-26-0022",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -916,6 +913,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0106-26-0084",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -935,6 +935,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/M0038-26-0783",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -954,6 +957,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9364-26-0823",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -973,6 +979,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3646-26-0010",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -992,6 +1001,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0106-26-0099",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   }
 ]

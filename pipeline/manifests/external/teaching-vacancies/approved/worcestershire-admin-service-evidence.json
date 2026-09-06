@@ -1,18 +1,16 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-09-05T13:12:18+01:00",
+  "generated_at": "2026-09-06T16:22:16+01:00",
   "source": "Teaching Vacancies",
   "region": "Worcestershire",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-09-05",
+  "review_date": "2026-09-06",
   "review_fingerprint": "2d1ab446ca40e4eb5ce0ee4f16fce13424b06a4e779185b48ce0f03ee8ef69e4",
-  "routing_manifest_sha256": "470681d9f37d503102980dcb1fe7f45c6d8d4a374fc3c1cab53df51803c03f75",
-  "review_csv_sha256": "b71e2cb3b48ab299c351e9e36d84d4fcee1c1f1f6e02d86094a0f9dd5e843353",
-  "summary_md_sha256": "ac948360cbec421a2926e0b0e05376855c11349f7d38c5cb379df197766b856b",
-  "approved_snapshot_sha256": "f8f491a49f173bddf8230f6d0fe36506c2bc92b47ac0fa40275a86a33fba3873",
-  "approved_rows": 1,
-  "approved_job_ids": [
-    "teaching-vacancies-reprographics-officer-arrow-vale-high-school-redditch"
-  ]
+  "routing_manifest_sha256": "7fd315145b2e460bd548d4a5c1a4c8d7322399f4429f2897b7d301e5f0809506",
+  "review_csv_sha256": "13f988aea13c3cc738d0d26cde04f29819564b8437e59395f8ed7d58ae47f24b",
+  "summary_md_sha256": "ce1b159b79ddd34110ec32b3a5c156ae96bdc5da9164d2af8944398cdeb79891",
+  "approved_snapshot_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+  "approved_rows": 0,
+  "approved_job_ids": []
 }

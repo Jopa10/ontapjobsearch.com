@@ -22,9 +22,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Manor Hall Academy Trust",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -50,9 +47,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Longford Primary Academy",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -78,9 +72,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "The Shaw Education Trust",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -162,7 +153,7 @@
     "job_id": "23643_225480317",
     "title": "Logistics & Purchasing Administrator",
     "company": "KPI Recruiting - Agency - Permanent",
-    "location": "Staffordshire",
+    "location": "Stoke-On-Trent",
     "region": "Staffordshire",
     "country": "UK",
     "category": "Admin/Service – Office Support",
@@ -312,7 +303,7 @@
     "job_id": "23643_225538781",
     "title": "Sales Administrator",
     "company": "Brampton Recruitment Ltd - Agency - Permanent",
-    "location": "Staffordshire",
+    "location": "Stoke-On-Trent",
     "region": "Staffordshire",
     "country": "UK",
     "category": "Admin/Service – Office Support",
@@ -437,7 +428,7 @@
     "job_id": "1771109",
     "title": "Recruitment Account Coordinator",
     "company": "Staffline Recruitment Limited - Agency - Permanent",
-    "location": "Staffordshire",
+    "location": "Stoke-On-Trent",
     "region": "Staffordshire",
     "country": "UK",
     "category": "Admin/Service – Office Support",
@@ -475,6 +466,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9232-26-0221",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -494,6 +488,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1331-26-0007",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -513,6 +510,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0536-26-0002",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   }
 ]

@@ -22,9 +22,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Willow Vale School",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -50,37 +47,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Pathway Trust",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
-  },
-  {
-    "job_id": "teaching-vacancies-senior-office-administrator-west-monkton-church-of-england-school",
-    "title": "Senior Office Administrator",
-    "company": "West Monkton Church of England School",
-    "location": "Taunton",
-    "region": "Somerset",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['full time']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "Actual Annual Salary",
-    "work_pattern": "",
-    "posted_date": "2026-07-28",
-    "closing_date": "2026-09-10",
-    "closing_datetime": "2026-09-10T12:00:59+01:00",
-    "summary": "Senior Office Administrator with West Monkton Church of England School in Taunton. ['full time']; Actual Annual Salary.",
-    "description": "West Monkton Church of England School is recruiting for this vacancy in Taunton.\n\nThe advertised position is Senior Office Administrator.\n\nThe source lists the employment type as ['full time'].\n\nThe advertised salary or pay scale is Actual Annual Salary.\n\nThe stated application deadline is 2026-09-10T12:00:59+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/senior-office-administrator-west-monkton-church-of-england-school?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "West Monkton Church of England School",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -106,16 +72,13 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Yeovil College",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
     "job_id": "1772235",
     "title": "Temporary Receptionist Immediate Start",
     "company": "Office Angels - Agency - Permanent",
-    "location": "Somerset",
+    "location": "Ilminster",
     "region": "Somerset",
     "country": "UK",
     "category": "Admin/Service – Office Support",
@@ -240,7 +203,7 @@
     "job_id": "23643_225532752",
     "title": "Temporary Medical Secretary Immediate Start",
     "company": "Office Angels - Agency - Temporary",
-    "location": "Somerset",
+    "location": "Ilminster",
     "region": "Somerset",
     "country": "UK",
     "category": "Admin/Service – Office Support",
@@ -290,7 +253,7 @@
     "job_id": "23643_225556047",
     "title": "Temporary Administrator Immediate Start",
     "company": "Office Angels - Agency - Temporary",
-    "location": "Somerset",
+    "location": "Bridgwater",
     "region": "Somerset",
     "country": "UK",
     "category": "Admin/Service – Office Support",
@@ -315,7 +278,7 @@
     "job_id": "23643_225565833",
     "title": "Property Maintenance Administrator",
     "company": "Office Angels - Agency - Permanent",
-    "location": "Somerset",
+    "location": "Taunton",
     "region": "Somerset",
     "country": "UK",
     "category": "Admin/Service – Office Support",
@@ -428,6 +391,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9387-26-1771",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -447,6 +413,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2122-26-0011",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -466,6 +435,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9184-26-1263",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   }
 ]

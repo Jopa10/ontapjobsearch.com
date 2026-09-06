@@ -22,9 +22,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "The Bishop of Winchester Academy",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -50,9 +47,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "The Bishop of Winchester Academy",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -78,9 +72,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "The Bishop of Winchester Academy",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -106,16 +97,13 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Bournemouth School",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
     "job_id": "23643_225429242",
     "title": "Trust Administrator",
     "company": "Aspire Jobs - Agency - Permanent",
-    "location": "Dorset",
+    "location": "Beaminster",
     "region": "Dorset",
     "country": "UK",
     "category": "Admin/Service – Office Support",
@@ -140,7 +128,7 @@
     "job_id": "23643_225483669",
     "title": "Trainee Office Administrator",
     "company": "Dovetail Recruitment Ltd - Agency - Permanent",
-    "location": "Dorset",
+    "location": "Ferndown",
     "region": "Dorset",
     "country": "UK",
     "category": "Admin/Service – Office Support",
@@ -165,7 +153,7 @@
     "job_id": "1743698",
     "title": "Trainee Office Administrator",
     "company": "Dovetail Recruitment Ltd - Agency - Permanent",
-    "location": "Dorset",
+    "location": "Ferndown",
     "region": "Dorset",
     "country": "UK",
     "category": "Admin/Service – Office Support",
@@ -190,7 +178,7 @@
     "job_id": "1733513",
     "title": "French Speaking Customer Service Administrator - 12 month FTC",
     "company": "Michael Page Finance - Agency - Permanent",
-    "location": "Dorset",
+    "location": "Poole",
     "region": "Dorset",
     "country": "UK",
     "category": "Admin/Service – Office Support",
@@ -290,7 +278,7 @@
     "job_id": "1743274",
     "title": "Sales Administrator",
     "company": "Two Six Recruitment Limited - Agency - Permanent",
-    "location": "Dorset",
+    "location": "Poole",
     "region": "Dorset",
     "country": "UK",
     "category": "Admin/Service – Office Support",
@@ -340,7 +328,7 @@
     "job_id": "1789718",
     "title": "Administrator",
     "company": "Collaborate Recruitment - Agency - Permanent",
-    "location": "Dorset",
+    "location": "Poole",
     "region": "Dorset",
     "country": "UK",
     "category": "Admin/Service – Office Support",
@@ -390,7 +378,7 @@
     "job_id": "23643_225464999",
     "title": "Customer Service Coordinator",
     "company": "Bennett and Game Recruitment LTD - Agency - Permanent",
-    "location": "Dorset",
+    "location": "Poole",
     "region": "Dorset",
     "country": "UK",
     "category": "Admin/Service – Office Support",
@@ -415,7 +403,7 @@
     "job_id": "107779296",
     "title": "Account Coordinator - Part Time",
     "company": "Staffline Operations - Agency - Temporary",
-    "location": "Dorset",
+    "location": "Poole",
     "region": "Dorset",
     "country": "UK",
     "category": "Admin/Service – Office Support",
@@ -440,7 +428,7 @@
     "job_id": "23643_225465013",
     "title": "Project Coordinator",
     "company": "Bennett and Game Recruitment LTD - Agency - Permanent",
-    "location": "Dorset",
+    "location": "Poole",
     "region": "Dorset",
     "country": "UK",
     "category": "Admin/Service – Office Support",
@@ -478,6 +466,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9152-26-0950",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -497,6 +488,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9152-26-0936",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -516,6 +510,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2682-26-0011",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -535,6 +532,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9152-26-0932",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   }
 ]

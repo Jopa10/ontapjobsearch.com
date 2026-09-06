@@ -22,9 +22,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Horizons Academy",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -50,9 +47,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Christ The King Voluntary Academy",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -78,9 +72,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Christ The King Voluntary Academy",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -106,9 +97,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Nottingham Academy",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -134,9 +122,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Nottingham Academy",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -162,9 +147,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "The Spencer Academies Trust",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -190,9 +172,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Burton Joyce Primary School",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -218,37 +197,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Hucknall Flying High Academy",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
-  },
-  {
-    "job_id": "teaching-vacancies-data-officer-the-white-hills-park-trust-ltd",
-    "title": "Data Officer",
-    "company": "The White Hills Park Trust Ltd",
-    "location": "Nottingham",
-    "region": "Nottinghamshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['part time']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "£15,092.87 - £16,940.13 Annually (Actual) NJE Grade 5 - £31,015 - £34,811 (FTE)",
-    "work_pattern": "",
-    "posted_date": "2026-09-04",
-    "closing_date": "2026-10-02",
-    "closing_datetime": "2026-10-02T09:00:00+01:00",
-    "summary": "Data Officer with The White Hills Park Trust Ltd in Nottingham. ['part time']; £15,092.87 - £16,940.13 Annually (Actual) NJE Grade 5 - £31,015 - £34,811 (FTE).",
-    "description": "The White Hills Park Trust Ltd is recruiting for this vacancy in Nottingham.\n\nThe advertised position is Data Officer.\n\nThe source lists the employment type as ['part time'].\n\nThe advertised salary or pay scale is £15,092.87 - £16,940.13 Annually (Actual) NJE Grade 5 - £31,015 - £34,811 (FTE).\n\nThe stated application deadline is 2026-10-02T09:00:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/data-officer-the-white-hills-park-trust-ltd?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "The White Hills Park Trust Ltd",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -280,7 +228,7 @@
     "job_id": "23643_225559400",
     "title": "Administrator (Migration Support)",
     "company": "Adecco - Agency - Temporary",
-    "location": "Nottinghamshire",
+    "location": "Worksop",
     "region": "Nottinghamshire",
     "country": "UK",
     "category": "Admin/Service – Office Support",
@@ -380,7 +328,7 @@
     "job_id": "23643_225474179",
     "title": "HR Administrator",
     "company": "TurnerFox Recruitment - Agency - Permanent",
-    "location": "Nottinghamshire",
+    "location": "Mansfield",
     "region": "Nottinghamshire",
     "country": "UK",
     "category": "Admin/Service – Office Support",
@@ -405,7 +353,7 @@
     "job_id": "23643_225472766",
     "title": "Customer Support Advisor",
     "company": "TurnerFox Recruitment - Agency - Permanent",
-    "location": "Nottinghamshire",
+    "location": "Mansfield",
     "region": "Nottinghamshire",
     "country": "UK",
     "category": "Admin/Service – Office Support",
@@ -455,7 +403,7 @@
     "job_id": "1782957",
     "title": "Sales and Customer Service Assistant - Immediate Start",
     "company": "Blackwater Recruitment - Agency - Permanent",
-    "location": "Nottinghamshire",
+    "location": "Nottingham",
     "region": "Nottinghamshire",
     "country": "UK",
     "category": "Admin/Service – Office Support",
@@ -480,7 +428,7 @@
     "job_id": "1743576",
     "title": "Customer Service Advisor- German speaking",
     "company": "Ruth Wagstaff Recruitment - Agency - Permanent",
-    "location": "Nottinghamshire",
+    "location": "Nottingham",
     "region": "Nottinghamshire",
     "country": "UK",
     "category": "Admin/Service – Office Support",
@@ -555,7 +503,7 @@
     "job_id": "23643_225532950",
     "title": "Maintenance Administrator",
     "company": "Sellick Partnership - Agency - Permanent",
-    "location": "Nottinghamshire",
+    "location": "Nottingham",
     "region": "Nottinghamshire",
     "country": "UK",
     "category": "Admin/Service – Office Support",
@@ -580,7 +528,7 @@
     "job_id": "23643_225537102",
     "title": "Transport Admin (Days)",
     "company": "Pertemps Lincoln - Agency - Temporary",
-    "location": "Nottinghamshire",
+    "location": "Newark",
     "region": "Nottinghamshire",
     "country": "UK",
     "category": "Admin/Service – Office Support",
@@ -605,7 +553,7 @@
     "job_id": "23643_225571791",
     "title": "Financial Services Administrator",
     "company": "Inspire Resourcing Ltd - Agency - Permanent",
-    "location": "Nottinghamshire",
+    "location": "Nottingham",
     "region": "Nottinghamshire",
     "country": "UK",
     "category": "Admin/Service – Office Support",
@@ -655,7 +603,7 @@
     "job_id": "23643_225474228",
     "title": "Client Campaign Coordinator",
     "company": "TurnerFox Recruitment - Agency - Permanent",
-    "location": "Nottinghamshire",
+    "location": "Mansfield",
     "region": "Nottinghamshire",
     "country": "UK",
     "category": "Admin/Service – Office Support",
@@ -705,7 +653,7 @@
     "job_id": "1785042",
     "title": "Supplier Support Coordinator",
     "company": "GXO Logistics - Company - Permanent",
-    "location": "Nottinghamshire",
+    "location": "Nottingham",
     "region": "Nottinghamshire",
     "country": "UK",
     "category": "Admin/Service – Office Support",
@@ -793,6 +741,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0327-26-0430",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -812,6 +763,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5931-26-0012",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -831,6 +785,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1908-26-0001",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -850,6 +807,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0045-26-0081",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -869,6 +829,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0567-26-0011",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -888,6 +851,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2564-26-0008",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -907,6 +873,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3455-26-0005",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   }
 ]

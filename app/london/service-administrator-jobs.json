@@ -22,9 +22,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Heathland School",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -50,9 +47,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Saracens High School",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -78,9 +72,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Hall Mead School",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -106,9 +97,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Valentines High School",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -134,9 +122,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "The St Marylebone CofE School",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -162,9 +147,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Shaftesbury High School",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -190,65 +172,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Pathways School",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
-  },
-  {
-    "job_id": "teaching-vacancies-administrator-north-brent-school",
-    "title": "Administrator",
-    "company": "North Brent School",
-    "location": "London",
-    "region": "London",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['full time']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "£27,254.00 Annually (FTE) Term Time Only",
-    "work_pattern": "",
-    "posted_date": "2026-09-04",
-    "closing_date": "2026-09-11",
-    "closing_datetime": "2026-09-11T23:59:00+01:00",
-    "summary": "Administrator with North Brent School in London. ['full time']; £27,254.00 Annually (FTE) Term Time Only.",
-    "description": "North Brent School is recruiting for this vacancy in London.\n\nThe advertised position is Administrator.\n\nThe source lists the employment type as ['full time'].\n\nThe advertised salary or pay scale is £27,254.00 Annually (FTE) Term Time Only.\n\nThe stated application deadline is 2026-09-11T23:59:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/administrator-north-brent-school?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "North Brent School",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
-  },
-  {
-    "job_id": "teaching-vacancies-office-administrator-st-leonard-s-church-of-england-primary-school-london",
-    "title": "Office Administrator",
-    "company": "St Leonard's Church of England Primary School",
-    "location": "London",
-    "region": "London",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['full time']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "Grade 3 - Salary Spine point 5 to 6 - £31,086 to £31,530 (actual £28,592 to £29,002)",
-    "work_pattern": "",
-    "posted_date": "2026-08-26",
-    "closing_date": "2026-09-11",
-    "closing_datetime": "2026-09-11T15:00:00+01:00",
-    "summary": "Office Administrator with St Leonard's Church of England Primary School in London. ['full time']; Grade 3 - Salary Spine point 5 to 6 - £31,086 to £31,530 (actual £28,592 to £29,002).",
-    "description": "St Leonard's Church of England Primary School is recruiting for this vacancy in London.\n\nThe advertised position is Office Administrator.\n\nThe source lists the employment type as ['full time'].\n\nThe advertised salary or pay scale is Grade 3 - Salary Spine point 5 to 6 - £31,086 to £31,530 (actual £28,592 to £29,002).\n\nThe stated application deadline is 2026-09-11T15:00:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/office-administrator-st-leonard-s-church-of-england-primary-school-london?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "St Leonard's Church of England Primary School",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -274,9 +197,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Harlington School",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -302,65 +222,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Queensmead School",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
-  },
-  {
-    "job_id": "teaching-vacancies-receptionist-lilian-baylis-technology-school",
-    "title": "Receptionist",
-    "company": "Lilian Baylis Technology School",
-    "location": "London",
-    "region": "London",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['full time']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "£26,857.00 - £27,240.00 Annually (Actual) Room for progression",
-    "work_pattern": "",
-    "posted_date": "2026-09-04",
-    "closing_date": "2026-09-18",
-    "closing_datetime": "2026-09-18T10:00:00+01:00",
-    "summary": "Receptionist with Lilian Baylis Technology School in London. ['full time']; £26,857.00 - £27,240.00 Annually (Actual) Room for progression.",
-    "description": "Lilian Baylis Technology School is recruiting for this vacancy in London.\n\nThe advertised position is Receptionist.\n\nThe source lists the employment type as ['full time'].\n\nThe advertised salary or pay scale is £26,857.00 - £27,240.00 Annually (Actual) Room for progression.\n\nThe stated application deadline is 2026-09-18T10:00:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/receptionist-lilian-baylis-technology-school?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Lilian Baylis Technology School",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
-  },
-  {
-    "job_id": "teaching-vacancies-school-administrator-nishkam-school-west-london",
-    "title": "School Administrator",
-    "company": "Nishkam School West London",
-    "location": "Osterley",
-    "region": "London",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['full time']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "28,195.00 - 29,852.00",
-    "work_pattern": "",
-    "posted_date": "2026-08-03",
-    "closing_date": "2026-09-18",
-    "closing_datetime": "2026-09-18T00:00:00+01:00",
-    "summary": "School Administrator with Nishkam School West London in Osterley. ['full time']; 28,195.00 - 29,852.00.",
-    "description": "Nishkam School West London is recruiting for this vacancy in Osterley.\n\nThe advertised position is School Administrator.\n\nThe source lists the employment type as ['full time'].\n\nThe advertised salary or pay scale is 28,195.00 - 29,852.00.\n\nThe stated application deadline is 2026-09-18T00:00:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/school-administrator-nishkam-school-west-london?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Nishkam School West London",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -386,9 +247,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Woodberry Down Community Primary School",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -414,9 +272,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Cuddington Community Primary School",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -442,9 +297,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Wanstead High School",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -470,9 +322,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "The Beckmead Trust",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -2504,7 +2353,7 @@
     "job_id": "23643_225479282",
     "title": "Planner",
     "company": "Daniel Owen Ltd - Agency - Permanent",
-    "location": "London",
+    "location": "Croydon",
     "region": "London",
     "country": "UK",
     "category": "Admin/Service – Office Support",
@@ -3942,6 +3791,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4905-26-0003",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -3961,6 +3813,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5836-26-0001",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -3980,6 +3835,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0455-26-0020",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -3999,6 +3857,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3027-26-0003",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -4018,6 +3879,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0505-26-0293",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -4037,6 +3901,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4353-26-0000",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -4056,6 +3923,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/L0034-26-3660",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -4075,6 +3945,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2940-011026",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -4094,6 +3967,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4875-26-0004",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -4113,6 +3989,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0660-26-0014",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -4132,6 +4011,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0528-26-0008",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -4151,6 +4033,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3680-26-0004",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -4170,6 +4055,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4896-26-0007",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -4189,6 +4077,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2016-26-0001",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -4208,6 +4099,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3510-26-0001",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -4227,6 +4121,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2728-26-0011",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -4246,6 +4143,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4853-26-0008",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -4265,6 +4165,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5040-26-0000",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -4284,6 +4187,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4126-26-0007",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -4303,6 +4209,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4853-26-0007",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -4322,6 +4231,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1161-26-0001",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -4341,6 +4253,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9334-25-1339",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -4360,6 +4275,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3397-26-0008",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -4379,6 +4297,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9392-26-0208",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -4398,6 +4319,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9396-26-0386",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -4417,6 +4341,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2931-26-0003",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -4436,6 +4363,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2972-26-0001",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -4455,6 +4385,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0054-26-0105EXM",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -4474,6 +4407,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9220-26-0584",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -4493,6 +4429,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0054-26-0094LMGP",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -4512,6 +4451,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/L0034-26-3609",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -4531,6 +4473,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1743-26-0007",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -4550,6 +4495,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/L0034-26-3527",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -4569,6 +4517,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0177-26-8944",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -4588,6 +4539,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3867-26-0003",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -4607,6 +4561,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4450-AUG-2026",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -4626,6 +4583,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2742-26-0005",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   }
 ]

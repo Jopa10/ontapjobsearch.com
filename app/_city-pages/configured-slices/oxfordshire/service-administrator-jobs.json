@@ -22,9 +22,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Lord Williams's School",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -50,9 +47,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Faringdon Community College",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -78,9 +72,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "St Philip and James' Church of England Aided Primary School Oxford",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -212,7 +203,7 @@
     "job_id": "23643_225570930",
     "title": "Administrator",
     "company": "Gill Cooke Personnel Ltd T/A The Recruitment Group - Agency - Permanent",
-    "location": "Oxfordshire",
+    "location": "Witney",
     "region": "Oxfordshire",
     "country": "UK",
     "category": "Admin/Service – Office Support",
@@ -262,7 +253,7 @@
     "job_id": "23643_225571244",
     "title": "Events Coordinator",
     "company": "BramahHR Ltd - Agency - Contract",
-    "location": "Oxfordshire",
+    "location": "Thame",
     "region": "Oxfordshire",
     "country": "UK",
     "category": "Admin/Service – Office Support",
@@ -362,7 +353,7 @@
     "job_id": "23643_225493985",
     "title": "Administrator",
     "company": "Thompson & Terry Recruitment - Agency - Permanent",
-    "location": "Oxfordshire",
+    "location": "Didcot",
     "region": "Oxfordshire",
     "country": "UK",
     "category": "Admin/Service – Office Support",
@@ -437,7 +428,7 @@
     "job_id": "23643_225524539",
     "title": "Temporary Administrator",
     "company": "Berry Recruitment - Agency - Temporary",
-    "location": "Oxfordshire",
+    "location": "Oxford",
     "region": "Oxfordshire",
     "country": "UK",
     "category": "Admin/Service – Office Support",
@@ -487,7 +478,7 @@
     "job_id": "1769321",
     "title": "Service Administrator",
     "company": "FCR PROPERTY LIMITED - Agency - Permanent",
-    "location": "Oxfordshire",
+    "location": "Kidlington",
     "region": "Oxfordshire",
     "country": "UK",
     "category": "Admin/Service – Office Support",
@@ -512,7 +503,7 @@
     "job_id": "1704964",
     "title": "Service Coordinator",
     "company": "Downtown Recruitment - Agency - Permanent",
-    "location": "Oxfordshire",
+    "location": "Thame",
     "region": "Oxfordshire",
     "country": "UK",
     "category": "Admin/Service – Office Support",
@@ -537,7 +528,7 @@
     "job_id": "1778720",
     "title": "Temporary Administrator",
     "company": "Berry Recruitment - Agency - Permanent",
-    "location": "Oxfordshire",
+    "location": "Oxford",
     "region": "Oxfordshire",
     "country": "UK",
     "category": "Admin/Service – Office Support",
@@ -687,7 +678,7 @@
     "job_id": "23643_225461932",
     "title": "Sales and Parts Administrator",
     "company": "K2 Recruitment - Agency - Permanent",
-    "location": "Oxfordshire",
+    "location": "Bicester",
     "region": "Oxfordshire",
     "country": "UK",
     "category": "Admin/Service – Office Support",
@@ -762,7 +753,7 @@
     "job_id": "23643_225358207",
     "title": "Administrator",
     "company": "K2 Recruitment - Agency - Temporary",
-    "location": "Oxfordshire",
+    "location": "Bicester",
     "region": "Oxfordshire",
     "country": "UK",
     "category": "Admin/Service – Office Support",
@@ -875,6 +866,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9267-26-1065",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -894,6 +888,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9267-26-1023",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -913,6 +910,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0505-26-0272",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -932,6 +932,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9267-26-1046",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -951,6 +954,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9267-26-1048",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -970,6 +976,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0699-26-0007",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -989,6 +998,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0177-26-9201",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   }
 ]

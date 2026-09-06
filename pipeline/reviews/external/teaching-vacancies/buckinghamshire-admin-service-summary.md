@@ -15,8 +15,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 - Records: 12
 - Selected: 3
-- POSS awaiting decision: 4
-- Excluded: 0
+- POSS awaiting decision: 3
+- Excluded: 1
 - Hard pass: 5
 
 ## SELECTED
@@ -70,21 +70,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/examinations-officer-
 
 ---
 action: 
-POSS | Buckinghamshire | Milton Keynes, South East, MK10 7HE | £25,988.00 - £27,254.00 Annually (FTE) | Administrator
-employer: Brooklands Academy
-closing_date: 2026-09-11T12:00:00+01:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 299bea4d4b95c990a7df49a02b373d0d69827baac2e1eaab2bc8494c8721d0af
-source: Teaching Vacancies
-source_job_id: administrator-brooklands-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-brooklands-academy
----
-
----
-action: 
 POSS | Buckinghamshire | Milton Keynes, South East, MK17 8XY | £26,824.00 Annually (FTE) | Business Support
 employer: Glebe Farm School
 closing_date: 2026-09-07T12:00:00+01:00
@@ -130,7 +115,20 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-
 
 ## EXCLUDED BY REVIEW
 
-- None.
+---
+action: exclude
+EXCLUDED | Buckinghamshire | Milton Keynes, South East, MK10 7HE | £25,988.00 - £27,254.00 Annually (FTE) | Administrator
+employer: Brooklands Academy
+closing_date: 2026-09-11T12:00:00+01:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 299bea4d4b95c990a7df49a02b373d0d69827baac2e1eaab2bc8494c8721d0af
+source: Teaching Vacancies
+source_job_id: administrator-brooklands-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-brooklands-academy
+---
 
 ## HARD_PASS
 

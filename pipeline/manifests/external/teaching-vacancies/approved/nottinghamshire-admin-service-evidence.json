@@ -1,17 +1,17 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-09-05T13:12:16+01:00",
+  "generated_at": "2026-09-06T16:22:14+01:00",
   "source": "Teaching Vacancies",
   "region": "Nottinghamshire",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-09-05",
+  "review_date": "2026-09-06",
   "review_fingerprint": "098ff2db0f99587bb312e1f83e9d6d312df63e0ae700e1deea6ad367785a3477",
-  "routing_manifest_sha256": "470681d9f37d503102980dcb1fe7f45c6d8d4a374fc3c1cab53df51803c03f75",
-  "review_csv_sha256": "0dae1525d47ac063a2a6d52fbdcd559ed0e8d9ac86c15815fb75a22ac0ad77a3",
-  "summary_md_sha256": "7d493eaf3a560b5da7ad89ce1f20344b56b746784e5cb96ebf4ba9c3eae5638a",
-  "approved_snapshot_sha256": "1a925212527e9c59213d27e955c0ddd9705c946e9c8447915ead1f904cf189d5",
-  "approved_rows": 9,
+  "routing_manifest_sha256": "7fd315145b2e460bd548d4a5c1a4c8d7322399f4429f2897b7d301e5f0809506",
+  "review_csv_sha256": "6f3ba44427dcb0927a932e530b5335823a61b80d7055f1046a8c354bf6de5306",
+  "summary_md_sha256": "ed31c2d7b98d9c625bc49bc00e00fde6de2ab97e6ee30d829f58903832ae377f",
+  "approved_snapshot_sha256": "396dca6c1d13ccdbb8b02833dd2b98543f0fb504c42222d9820a5f6ecd880ffb",
+  "approved_rows": 8,
   "approved_job_ids": [
     "teaching-vacancies-administration-assistant-horizons-academy",
     "teaching-vacancies-administrative-assistant-6dd3cd8b-9366-40d4-aff9-a0419363ea61",
@@ -20,7 +20,6 @@
     "teaching-vacancies-part-time-attendance-administrator-secondary-site",
     "teaching-vacancies-administrative-assistant-the-spencer-academies-trust-nottingham-not-recorded",
     "teaching-vacancies-administrative-assistant-burton-joyce-primary-school",
-    "teaching-vacancies-administrative-assistant-hucknall-flying-high-academy",
-    "teaching-vacancies-data-officer-the-white-hills-park-trust-ltd"
+    "teaching-vacancies-administrative-assistant-hucknall-flying-high-academy"
   ]
 }

@@ -1,33 +1,5 @@
 [
   {
-    "job_id": "teaching-vacancies-admin-officer-send-and-attendance-focus-harnham-church-of-england-controlled-junior-school",
-    "title": "Admin Officer (SEND and Attendance focus)",
-    "company": "Harnham Church of England Controlled Junior School",
-    "location": "Salisbury",
-    "region": "Wiltshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['part time']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "£8,751.00 - £9,031.00 Annually (Actual) Wiltshire Grade D - rises incrementally each year from point 4 to 6 (FTE for 25/26 is £25,185 - £25,989)",
-    "work_pattern": "",
-    "posted_date": "2026-08-25",
-    "closing_date": "2026-09-07",
-    "closing_datetime": "2026-09-07T23:59:00+01:00",
-    "summary": "Admin Officer (SEND and Attendance focus) with Harnham Church of England Controlled Junior School in Salisbury. ['part time']; £8,751.00 - £9,031.00 Annually (Actual) Wiltshire Grade D - rises incrementally each year from point 4 to 6 (FTE for 25/26 is £25,185 - £25,989).",
-    "description": "Harnham Church of England Controlled Junior School is recruiting for this vacancy in Salisbury.\n\nThe advertised position is Admin Officer (SEND and Attendance focus).\n\nThe source lists the employment type as ['part time'].\n\nThe advertised salary or pay scale is £8,751.00 - £9,031.00 Annually (Actual) Wiltshire Grade D - rises incrementally each year from point 4 to 6 (FTE for 25/26 is £25,185 - £25,989).\n\nThe stated application deadline is 2026-09-07T23:59:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/admin-officer-send-and-attendance-focus-harnham-church-of-england-controlled-junior-school?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Harnham Church of England Controlled Junior School",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
-  },
-  {
     "job_id": "teaching-vacancies-it-system-administrator-excalibur-shared-services-1177ebd4-e195-4745-824b-6613f2065ccf",
     "title": "IT System Administrator - Excalibur Shared Services",
     "company": "Excalibur Academies Trust",
@@ -50,9 +22,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Excalibur Academies Trust",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -209,7 +178,7 @@
     "job_id": "23643_225572288",
     "title": "Admin / School Support",
     "company": "Office Angels - Agency - Temporary",
-    "location": "Wiltshire",
+    "location": "Melksham",
     "region": "Wiltshire",
     "country": "UK",
     "category": "Admin/Service – Office Support",
@@ -259,7 +228,7 @@
     "job_id": "23643_225505253",
     "title": "Mortgage Broking Administrator",
     "company": "Acorn by Synergie - Agency - Permanent",
-    "location": "Wiltshire",
+    "location": "Chippenham",
     "region": "Wiltshire",
     "country": "UK",
     "category": "Admin/Service – Office Support",
@@ -309,7 +278,7 @@
     "job_id": "1743382",
     "title": "Sales Administrator",
     "company": "Personnel Placements - Agency - Permanent",
-    "location": "Wiltshire",
+    "location": "Salisbury",
     "region": "Wiltshire",
     "country": "UK",
     "category": "Admin/Service – Office Support",
@@ -384,7 +353,7 @@
     "job_id": "1743377",
     "title": "Part Time Sales Coordinator",
     "company": "Personnel Placements - Agency - Permanent",
-    "location": "Wiltshire",
+    "location": "Salisbury",
     "region": "Wiltshire",
     "country": "UK",
     "category": "Admin/Service – Office Support",
@@ -447,6 +416,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0279-26-2383",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -466,6 +438,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5768-26-0004",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -485,6 +460,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4324-260824",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -504,6 +482,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/L0034-26-3479",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   }
 ]

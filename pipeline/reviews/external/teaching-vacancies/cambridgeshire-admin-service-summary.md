@@ -15,8 +15,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 - Records: 21
 - Selected: 7
-- POSS awaiting decision: 2
-- Excluded: 0
+- POSS awaiting decision: 1
+- Excluded: 1
 - Hard pass: 12
 
 ## SELECTED
@@ -130,21 +130,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-sw
 
 ---
 action: 
-POSS | Cambridgeshire | Peterborough, East of England, PE6 7JX | £14,802.00 Annually (Actual) | Administrator
-employer: Arthur Mellows Village College
-closing_date: 2026-09-14T09:00:00+01:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: f1cb160ba772b2e2384e97a44e6559dcd7d92b357c813b1c62444e3355a792c4
-source: Teaching Vacancies
-source_job_id: administrator-9219e9ba-082d-4b75-91ee-2e1cd2dd8f75
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-9219e9ba-082d-4b75-91ee-2e1cd2dd8f75
----
-
----
-action: 
 POSS | Cambridgeshire | Huntingdon, PE28 5TQ | £32,061.00 Annually (Actual) | Marketing & Communications Officer
 employer: Meridian Trust
 closing_date: 2026-09-16T08:00:00+01:00
@@ -160,7 +145,20 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/marketing-communicati
 
 ## EXCLUDED BY REVIEW
 
-- None.
+---
+action: exclude
+EXCLUDED | Cambridgeshire | Peterborough, East of England, PE6 7JX | £14,802.00 Annually (Actual) | Administrator
+employer: Arthur Mellows Village College
+closing_date: 2026-09-14T09:00:00+01:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: f1cb160ba772b2e2384e97a44e6559dcd7d92b357c813b1c62444e3355a792c4
+source: Teaching Vacancies
+source_job_id: administrator-9219e9ba-082d-4b75-91ee-2e1cd2dd8f75
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-9219e9ba-082d-4b75-91ee-2e1cd2dd8f75
+---
 
 ## HARD_PASS
 

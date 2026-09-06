@@ -15,8 +15,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 - Records: 10
 - Selected: 3
-- POSS awaiting decision: 2
-- Excluded: 0
+- POSS awaiting decision: 1
+- Excluded: 1
 - Hard pass: 5
 
 ## SELECTED
@@ -83,9 +83,11 @@ source_job_id: data-manager-kingsmead-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/data-manager-kingsmead-academy
 ---
 
+## EXCLUDED BY REVIEW
+
 ---
-action: 
-POSS | Somerset | Taunton, South West, TA2 8FT | Actual Annual Salary | Senior Office Administrator
+action: exclude
+EXCLUDED | Somerset | Taunton, South West, TA2 8FT | Actual Annual Salary | Senior Office Administrator
 employer: West Monkton Church of England School
 closing_date: 2026-09-10T12:00:59+01:00
 reason: Possible JobG8 duplicate requires review
@@ -97,10 +99,6 @@ source: Teaching Vacancies
 source_job_id: senior-office-administrator-west-monkton-church-of-england-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-office-administrator-west-monkton-church-of-england-school
 ---
-
-## EXCLUDED BY REVIEW
-
-- None.
 
 ## HARD_PASS
 

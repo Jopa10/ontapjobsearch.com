@@ -22,9 +22,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Biggleswade Academy",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -50,9 +47,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "The Stockwood Park Academy",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -109,7 +103,7 @@
     "job_id": "107776346",
     "title": "Learning & Development Coordinator",
     "company": "ReeVR - Agency - Permanent",
-    "location": "Bedfordshire",
+    "location": "Dunstable",
     "region": "Bedfordshire",
     "country": "UK",
     "category": "Admin/Service – Office Support",
@@ -134,7 +128,7 @@
     "job_id": "23643_225474065",
     "title": "Repairs Scheduler",
     "company": "BPHA - Agency - Permanent",
-    "location": "Bedfordshire",
+    "location": "Bedford",
     "region": "Bedfordshire",
     "country": "UK",
     "category": "Admin/Service – Office Support",
@@ -159,7 +153,7 @@
     "job_id": "23643_225539795",
     "title": "Receptionist",
     "company": "FS1 Recruitment - Agency - Temporary",
-    "location": "Bedfordshire",
+    "location": "Bedford",
     "region": "Bedfordshire",
     "country": "UK",
     "category": "Admin/Service – Office Support",
@@ -334,7 +328,7 @@
     "job_id": "23643_225543403",
     "title": "Graduate Town Planner",
     "company": "Penguin Recruitment - Agency - Permanent",
-    "location": "Bedfordshire",
+    "location": "Bedford",
     "region": "Bedfordshire",
     "country": "UK",
     "category": "Admin/Service – Office Support",
@@ -397,6 +391,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9363-26-1021",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -416,6 +413,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9448-26-0305",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -435,6 +435,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9418-26-0917",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   }
 ]

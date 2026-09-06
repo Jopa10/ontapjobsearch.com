@@ -15,8 +15,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 - Records: 47
 - Selected: 13
-- POSS awaiting decision: 5
-- Excluded: 0
+- POSS awaiting decision: 1
+- Excluded: 4
 - Hard pass: 29
 
 ## SELECTED
@@ -233,9 +233,11 @@ source_job_id: administration-officer-worsley-bridge-primary-school-beckenham-ke
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-officer-worsley-bridge-primary-school-beckenham-kent
 ---
 
+## EXCLUDED BY REVIEW
+
 ---
-action: 
-POSS | London | London, London, NW10 2UF | £27,254.00 Annually (FTE) Term Time Only | Administrator
+action: exclude
+EXCLUDED | London | London, London, NW10 2UF | £27,254.00 Annually (FTE) Term Time Only | Administrator
 employer: North Brent School
 closing_date: 2026-09-11T23:59:00+01:00
 reason: Possible JobG8 duplicate requires review
@@ -249,8 +251,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-north-b
 ---
 
 ---
-action: 
-POSS | London | London, London, SW16 6NP | Grade 3 - Salary Spine point 5 to 6 - £31,086 to £31,530 (actual £28,592 to £29,002) | Office Administrator
+action: exclude
+EXCLUDED | London | London, London, SW16 6NP | Grade 3 - Salary Spine point 5 to 6 - £31,086 to £31,530 (actual £28,592 to £29,002) | Office Administrator
 employer: St Leonard's Church of England Primary School
 closing_date: 2026-09-11T15:00:00+01:00
 reason: Possible JobG8 duplicate requires review
@@ -264,8 +266,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-
 ---
 
 ---
-action: 
-POSS | London | London, London, SE11 5QY | £26,857.00 - £27,240.00 Annually (Actual) Room for progression | Receptionist
+action: exclude
+EXCLUDED | London | London, London, SE11 5QY | £26,857.00 - £27,240.00 Annually (Actual) Room for progression | Receptionist
 employer: Lilian Baylis Technology School
 closing_date: 2026-09-18T10:00:00+01:00
 reason: Possible JobG8 duplicate requires review
@@ -279,8 +281,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-lilian-b
 ---
 
 ---
-action: 
-POSS | London | Osterley, London, TW7 5PN | 28,195.00 - 29,852.00 | School Administrator
+action: exclude
+EXCLUDED | London | Osterley, London, TW7 5PN | 28,195.00 - 29,852.00 | School Administrator
 employer: Nishkam School West London
 closing_date: 2026-09-18T00:00:00+01:00
 reason: Possible JobG8 duplicate requires review
@@ -292,10 +294,6 @@ source: Teaching Vacancies
 source_job_id: school-administrator-nishkam-school-west-london
 source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-nishkam-school-west-london
 ---
-
-## EXCLUDED BY REVIEW
-
-- None.
 
 ## HARD_PASS
 

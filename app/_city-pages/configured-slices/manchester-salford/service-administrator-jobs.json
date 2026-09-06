@@ -22,9 +22,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Dixons Newall Green Academy",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -50,9 +47,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Ellesmere Park High School",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -78,9 +72,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Eden Girls' Leadership Academy, Manchester",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -106,9 +97,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Salford City Academy",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -715,7 +703,7 @@
     "job_id": "107771449",
     "title": "Sales & Client Relationship Coordinator (Conveyancing)",
     "company": "Talent Finder - Agency - Permanent",
-    "location": "Manchester",
+    "location": "Salford",
     "region": "Greater Manchester - Manchester & Salford",
     "country": "UK",
     "category": "Admin/Service – Office Support",
@@ -853,6 +841,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5615-26-0004",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -872,6 +863,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9349-26-2527",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -891,6 +885,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5035-26-0025",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -910,6 +907,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4025-26-0012",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -929,6 +929,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0335-26-0000",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -948,6 +951,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1612-26-0001",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -967,6 +973,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5300-26-0004",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -986,6 +995,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5300-26-0003",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   }
 ]
