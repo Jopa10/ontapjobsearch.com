@@ -2,11 +2,11 @@
 
 review_date: 2026-09-06
 
-- Open Administrative & Clerical rows reviewed: 2073
+- Open Administrative & Clerical rows reviewed: 2070
 - Auto/remembered selected: 398
 - Selected HC Tier A: 188
 - Selected HC Tier B: 210
-- POSS awaiting decision: 1510
+- POSS awaiting decision: 1507
 - Excluded: 0
 - HARD_PASS: 165
 
@@ -610,18 +610,6 @@ region: Devon
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C0023-26-1082
 factual_fingerprint: fb9f0790664601c4f048a6ad2246494cc4797c7a72eb55f4ddc7065e8936491f
----
-
----
-action:
-POSS | NHS Jobs | Wiltshire | Swindon, Wiltshire, SN3 6BB | £39959.00 to £48117.00 | Digital Business Manager
-source_job_id: 5580580
-title: Digital Business Manager
-employer: Great Western Hospitals NHS Foundation Trust
-region: Wiltshire
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9249-26-0558
-factual_fingerprint: 128fe35b2a9f8fb373cc39847411d38be9135ae1b94f6738772bb7fb9193466f
 ---
 
 ---
@@ -3046,18 +3034,6 @@ region: Leicestershire
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A5487-26-0000
 factual_fingerprint: e18586d9ae787c27e86e950f3a9a936fbe48f80f6ff5eb621c3d4a2db8c886bf
----
-
----
-action:
-POSS | NHS Jobs | Hertfordshire | Hemel Hempstead, HP2 4AD | £27106.00 to £28850.00 | Band 3 - Supply Chain Controller, Procurement & Supply Chain
-source_job_id: 5577455
-title: Band 3 - Supply Chain Controller, Procurement & Supply Chain
-employer: West Hertfordshire Teaching Hospitals NHS Trust
-region: Hertfordshire
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9360-26-0385
-factual_fingerprint: 1b4fcc496922970953bca8f9a5aa5372f204a291c2cfc70434c337877aa9d13b
 ---
 
 ---
@@ -11698,18 +11674,6 @@ region: Kent
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A2869-26-0011
 factual_fingerprint: d51427fbe20de28625f4e80c4d2a35675c4f87fa75a2444384c042cb63f8bfb9
----
-
----
-action:
-POSS | NHS Jobs | West Midlands - Black Country | Dudley, DY1 2HQ | £15600.00 | Business Administration Apprentice x 2
-source_job_id: 5563803
-title: Business Administration Apprentice x 2
-employer: The Dudley Group NHS Foundation Trust
-region: West Midlands - Black Country
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9253-26-0412
-factual_fingerprint: 00165fd7024de8ef7a900e8e2f6958aef4fbf482568c1b832a8f37baa121f9ac
 ---
 
 ---
