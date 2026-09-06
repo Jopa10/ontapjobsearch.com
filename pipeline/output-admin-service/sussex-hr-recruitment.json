@@ -45,7 +45,11 @@
     "hr_recruitment_family_reason": "advert confirms substantive HR / Recruitment delivery",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": ""
+    "posted_date_basis": "",
+    "at_a_glance_attributes": [
+      "Reporting",
+      "Contract changes"
+    ]
   },
   {
     "job_id": "23643_225476714",
