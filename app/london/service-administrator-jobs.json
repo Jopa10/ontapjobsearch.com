@@ -1,30 +1,5 @@
 [
   {
-    "job_id": "teaching-vacancies-receptionist-administrator-belleville-wix-academy-london",
-    "title": "Receptionist / Administrator",
-    "company": "Belleville Wix Academy",
-    "location": "London",
-    "region": "London",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['full time']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "£29,805.00 Annually (Actual) Inner London payscale Spine Point 2",
-    "work_pattern": "",
-    "posted_date": "2026-07-24",
-    "closing_date": "2026-09-05",
-    "closing_datetime": "2026-09-05T23:59:00+01:00",
-    "summary": "Receptionist / Administrator with Belleville Wix Academy in London. ['full time']; £29,805.00 Annually (Actual) Inner London payscale Spine Point 2.",
-    "description": "Belleville Wix Academy is recruiting for this vacancy in London.\n\nThe advertised position is Receptionist / Administrator.\n\nThe source lists the employment type as ['full time'].\n\nThe advertised salary or pay scale is £29,805.00 Annually (Actual) Inner London payscale Spine Point 2.\n\nThe stated application deadline is 2026-09-05T23:59:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrator-belleville-wix-academy-london?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "posted_date_basis": "source"
-  },
-  {
     "job_id": "teaching-vacancies-receptionist-admin-assistant-heathland-school-harrow-middlesex",
     "title": "Receptionist & Admin Assistant",
     "company": "Heathland School",
@@ -47,6 +22,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "Heathland School",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -72,6 +50,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "Saracens High School",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -97,6 +78,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "Hall Mead School",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -122,6 +106,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "Valentines High School",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -147,6 +134,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "The St Marylebone CofE School",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -172,6 +162,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "Shaftesbury High School",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -197,6 +190,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "Pathways School",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -222,6 +218,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "North Brent School",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -247,6 +246,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "St Leonard's Church of England Primary School",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -272,6 +274,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "Harlington School",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -297,6 +302,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "Queensmead School",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -322,6 +330,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "Lilian Baylis Technology School",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -347,6 +358,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "Nishkam School West London",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -372,6 +386,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "Woodberry Down Community Primary School",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -397,6 +414,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "Cuddington Community Primary School",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -422,6 +442,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "Wanstead High School",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -447,6 +470,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "The Beckmead Trust",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -725,6 +751,31 @@
     "posted_date_basis": "ontap_first_published"
   },
   {
+    "job_id": "23643_225413953",
+    "title": "Operations & Sales Coordinator",
+    "company": "Streamline Services Consultancy Limited - Agency - Permanent",
+    "location": "London",
+    "region": "London",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "32000",
+    "salary_max": "40000",
+    "salary_text": "£32000 - £40000 per year",
+    "posted_date": "2026-08-17",
+    "description": "Streamline Recruitment have a fantastic opportunity for an Operations & Sales Coordinator to join our client's well-established business based in East London.\n\nOur client is one of the world's leading manufacturers and suppliers of wood veneer, veneer edging and veneered boards. For over 60 years, they have built an outstanding reputation across the industry.\n\nDue to continued success, they are looking for an Operations & Sales Coordinator to join their close-knit team. This is a varied role where no two days are the same, offering the opportunity to work closely with customers, suppliers and logistics partners while playing an important role in ensuring orders are managed smoothly from enquiry through to delivery.\n\nThe Role\n\nAs the first point of contact for many customers, you will be responsible for managing customer orders, coordinating deliveries and supporting the wider sales and operations function. You will ensure all enquiries, quotations and orders are handled accurately, efficiently and with a strong focus on customer service.\n\nKey Responsibilities\n- Processing customer orders and managing them through to successful completion.\n- Checking stock availability and liaising with internal teams.\n- Reviewing customer enquiries and quotations, following up where appropriate.\n- Coordinating deliveries with third-party logistics providers.\n- Monitoring customer deliveries and resolving any issues quickly and professionally.\n- Building and maintaining strong relationships with existing customers.\n- Identifying opportunities to upsell products and support additional sales.\n- Providing excellent customer service via telephone and email.\n- Supporting the wider sales and operations team with day-to-day administration.\n\nAbout You\n\nWe're looking for someone who is:\n- A confident communicator with strong customer service and relationship-building skills.\n- Organised, proactive and able to manage multiple priorities.\n- Experienced in customer service, sales support, order processing or a similar office-based role.\n- Comfortable liaising with customers, suppliers and internal teams.\n- Confident using Microsoft Office and CRM/ERP systems.\n- Reliable, positive and willing to be part of a friendly, supportive team.\n\nWhat's on Offer?\n- Monday to Friday working hours 7:30am to 4:30pm\n- £32-40k DOE\n- 20 days holiday plus Bank Holidays (5 days reserved for the Christmas shutdown)\n- The opportunity to join a successful family-run business with over 60 years of industry experience.\n- Flexible and approachable management who value their employees.\n- Long-term career stability and development opportunities.\n- A varied role where you can genuinely make a difference every day.\n\nIf you're looking for a company where people genuinely enjoy coming to work, where teamwork is valued and your contribution is recognised, this could be the perfect opportunity.\n\nYou'll be joining a hardworking yet easy-going team who support one another and take pride in delivering exceptional service to their customers.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?io0x8AEcaIMHT7fbh7XLj34rBmi%2fMiLxo",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Streamline Services Consultancy Limited",
+    "advertiser_type": "Agency",
+    "work_pattern": "Full Time",
+    "salary_period": "Annual",
+    "posted_date_basis": "ontap_first_published"
+  },
+  {
     "job_id": "1704963",
     "title": "Client Experience Coordinator",
     "company": "Gibson Hollyhomes - Agency - Permanent",
@@ -794,6 +845,31 @@
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
     "advertiser_name": "Ballymore Group",
+    "advertiser_type": "Agency",
+    "work_pattern": "Full Time",
+    "salary_period": "Annual",
+    "posted_date_basis": "ontap_first_published"
+  },
+  {
+    "job_id": "23643_225574007",
+    "title": "Sales Support / Administration",
+    "company": "Hays Business Support - Agency - Permanent",
+    "location": "London",
+    "region": "London",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "30000",
+    "salary_max": "40000",
+    "salary_text": "£30000 - £40000 per year",
+    "posted_date": "2026-09-06",
+    "description": "Your New CompanyAn exciting opportunity has arisen with a fast-growing, international technology business specialising in high-end IT and data centre solutions. Working with clients across the globe, the company delivers cutting-edge technology projects and has built a reputation for innovation, service excellence and ambitious growth.\nYour New RoleAs a Sales Support Coordinator, you will play a key role in ensuring the smooth running of sales operations, logistics and customer support activities. This is a varied and fast-paced position offering exposure to multiple areas of the business, making it an excellent opportunity for someone looking to develop a long-term career within a commercial operation.\nKey responsibilities will include:\n- Supporting the sales team with administration and day-to-day coordination.\n- Preparing and formatting quotations for review by Account Managers.\n- Managing outbound requests with vendors and distributors.\n- Conducting prospect research to identify key decision-makers and maintain accurate contact records.\n- Gathering market intelligence and summarising relevant industry news.\n- Maintaining CRM data, ensuring records are accurate, up to date and correctly tagged.\n- Coordinating UK and international shipments.\n- Tracking deliveries and supporting customs clearance processes.\n- Managing order flow and ensuring customers receive exceptional service and communication throughout.\n- Assisting with the organisation of client events, activities and business trips.\n- Supporting office operations and facilities administration.\n- Coordinating supplies, storage and general office organisation.\n- Identifying opportunities to improve processes and efficiency.\n- Supporting the implementation of new systems and ways of working.\n\nWhat You'll Need to Succeed\n- Excellent organisational skills and strong attention to detail.\n- A proactive and hands-on approach to work.\n- Strong written and verbal communication skills.\n- Ability to prioritise effectively within a fast-paced environment.\n- Confidence working across multiple tasks and stakeholders.\n- Proficiency in Microsoft Office applications.\n- Previous administration, coordination, operations or sales support experience would be advantageous.\n\nWhat You'll Get in Return\n- The opportunity to join a growing and ambitious business.\n- Exposure to commercial operations, logistics and customer management.\n- Genuine opportunities for career progression and development.\n- A collaborative and high-performing working environment.\n- Central London office location with excellent transport links.\n\nWhat you need to do now\nIf you're interested in this role, click 'apply now' to forward an up-to-date copy of your CV, or call us now.\nIf this job isn't quite right for you, but you are looking for a new position, please contact us for a confidential discussion about your career.\n\nHays Specialist Recruitment Limited acts as an employment agency for permanent recruitment and employment business for the supply of temporary workers. By applying for this job you accept the T&C's, Privacy Policy and Disclaimers which can be found at (url removed)",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?Yic9job4bS%2bngTBrCQUadxcEj5Ohj9Hlc",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Hays Business Support",
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
@@ -1725,6 +1801,31 @@
     "posted_date_basis": "ontap_first_published"
   },
   {
+    "job_id": "1764150",
+    "title": "Receptionist",
+    "company": "Ritz Recruitment Ltd - Agency - Permanent",
+    "location": "London",
+    "region": "London",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "13",
+    "salary_max": "13",
+    "salary_text": "£13 per hour",
+    "posted_date": "2026-08-24",
+    "description": "Property Reception, SW18, £13ph\n\n4 day on 4 day off rota, 3 months\n\nWe are looking for an enthusiastic customer focused Reception/Host to be the face of this fabulous property in South West London.\n\nAs the face of the development, you'll play a key role in creating a positive experience for residents and visitors alike. From welcoming guests and managing enquiries to supporting building operations and resident services, you'll be at the heart of a thriving community.\n\nIf you're passionate about delivering exceptional customer service, enjoy building relationships, and take pride in creating great experiences, we'd love to hear from you.\n\nWhat You'll Be Doing\n\nResident & Visitor Experience\n- Act as the first point of contact for residents, visitors, and contractors.\n- Deliver a professional, friendly, and welcoming service at all times.\n- Respond to enquiries in person, by phone, and via email.\n- Support residents throughout their customer journey and help resolve issues efficiently.\n\nLeasing & Lettings Support\n- Respond to prospective resident enquiries.\n- Assist with apartment viewings and application processes.\n- Support applicants through to move-in.\n- Update property listings and assist with marketing activities.\n- Contribute to reporting and market insights.\n\nMove-Ins, Renewals & Move-Outs\n- Ensure applications meet compliance requirements.\n- Prepare apartments and coordinate cleaning and maintenance works.\n- Deliver seamless move-in and move-out experiences.\n- Support tenancy renewals and inventory reporting.\n- Manage end-of-tenancy inspections, damages, and deposit processes.\n\nResident & Building Services\n- Handle resident enquiries, complaints, and account-related matters.\n- Log and track maintenance requests.\n- Maintain accurate records and internal systems.\n- Manage parcel distribution, key management, amenity bookings, parking, and utility administration.\n- Support community events and resident communications.\n- Coordinate contractor access and service providers.\n- Carry out building inspections and report any issues.\n\nBuilding Safety & Security\n- Conduct regular building patrols and safety inspections.\n- Monitor CCTV systems and manage site access.\n- Welcome and manage visitors appropriately.\n- Follow emergency response and business continuity procedures.\n- Help maintain a safe and secure environment for all residents.\n\nWhat We're Looking For\n- Proven Reception, front of house or customer service within a professional environment\n- Excellent customer service and communication skills.\n- A positive, approachable, and professional attitude.\n- Strong organisational skills and attention to detail.\n- Confidence working independently and dealing with issues calmly.\n- Good IT skills, including Microsoft Office and other systems.\n- A proactive approach and commitment to delivering exceptional resident experiences.\n- Enthusiastic, reliable, and motivated to make a difference.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?UzhMt9n%2bTsSwu2hVTw4a%2br9mgOpxVXOhm",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Ritz Recruitment Ltd",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Hourly",
+    "posted_date_basis": "ontap_first_published"
+  },
+  {
     "job_id": "1789918",
     "title": "Data Administrator",
     "company": "Huntress - Agency - Permanent",
@@ -2325,7 +2426,7 @@
     "posted_date_basis": "ontap_first_published"
   },
   {
-    "job_id": "23643_225465706",
+    "job_id": "23643_225574002",
     "title": "Receptionist",
     "company": "Hamberley Care Management Limited - Company - Permanent",
     "location": "London",
@@ -2336,9 +2437,9 @@
     "salary_min": "12.79",
     "salary_max": "12.79",
     "salary_text": "£12.79 per hour",
-    "posted_date": "2026-08-12",
+    "posted_date": "2026-09-06",
     "description": "Be all you can be with Hamberley\nAt Hamberley, we believe that our residents deserve something 'Extra Special, Every Day' and we're recruiting for a Receptionist to help us achieve our goals.\nWorking as our receptionist, you will be responsible for the Reception area of the home, ensuring this is presented to a high standard at all times.\nJoining us at Brookwater House, our luxury care home that provides residential, dementia, and nursing care for older people, you'll be part of a team that is genuinely passionate about the health and well-being of our residents.\nWe offer our colleagues\n- A competitive salary and benefits package\n- 28 days holiday inclusive of Bank Holidays\n- Quality-linked bonus scheme - A performance bonus tied to our CQC/CI quality rating, rewarding you for helping us deliver outstanding care.\n- Workplace pension for your future security\n- A true team culture - A collaborative, encouraging working environment where kindness, respect, and professional pride are at the heart of everything we do\n- Excellent training and career development opportunities\n- Employee Assistance Programme, occupational health and wellbeing support services\n- Everyday saving perks - Access to a wide range of retail discounts and savings\n- Free on-site parking\n- Rewarding connections - Refer a Friend bonus - earn up to £750 per successful referral because great people know great people.\n\nWhat you'll be doing:\n- Greeting and directing visitors, family members, residents, district nurses and contractors to the home and around the home as appropriate.\n- Be the first point of contact for visitors and third parties contacting the home, ensuring queries are dealt with and/or directed in a timely manner.\n- Answering incoming telephone calls, ensuring calls are documented and/or redirected accordingly.\n\nCould you be part of our team?\nAbout you:\n- Possess demonstrable experience working within a Customer Service/Receptionist and/or Administrative environment or similar role.\n- Proficient in use of Microsoft Office, particularly Word and Excel.\n- A caring, patient, and respectful demeanor.\n- Excellent attention to detail and organizational skills.\n- Ability to work independently and as part of a team.\n- To share our values and demonstrate them at all times. \"Can-Do\" flexible team worker, problem solver, passion for what they do, ability to manage diverse and demanding workload, think out of the box, open to doing things differently.\n\nIf this sounds like you and you're looking for a fulfilling role that makes a genuine impact in the lives of others, this rewarding career is for you.\nDue to the high level of interest we anticipate for this role, we may close this advert earlier than the stated closing date to manage applications effectively. If you're interested in joining us at Hamberley, we encourage you to apply as soon as possible.\nAbout Brookwater House\nBrookwater House is a luxurious care home in Enfield part of the award-winning Hamberley Care Homes - offering luxury care homes in beautiful locations throughout the UK. Residents live in spacious, stylish ensuite rooms, and enjoy beautifully furnished shared spaces and landscaped gardens. From the deluxe picture house - where we screen classic films - to the on-site luxury spa - offering hairdressing, manicures and relaxing therapies - everything has been designed and finished with the care and attention you would expect from a 5-star hotel.\nHamberley People\nWe respect and value our residents and each other. At Hamberley Care Homes, we believe in the importance of what we do and why we do it. Creative and empowered, our people see every day as an opportunity for growth and development. We make ideas happen. Together we can achieve anything.\nBe part of something special. Be part of Hamberley.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?nbYVUHO1tX4owTGV9yupMV%2bT%2fugMU599z",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?Zg1fD7qgbpzJ9DrBH4IR%2bGxHkW%2b2r9v4e",
     "source": "JobG8",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
@@ -2347,31 +2448,6 @@
     "advertiser_type": "Company",
     "work_pattern": "Part Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published"
-  },
-  {
-    "job_id": "23643_225466886",
-    "title": "Training Administrator (Fully Remote)",
-    "company": "Central Recruitment Services Ltd - Agency - Permanent",
-    "location": "London",
-    "region": "London",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "25000",
-    "salary_max": "26800",
-    "salary_text": "£25000 - £26800 per year (plus RRP payable post probation)",
-    "posted_date": "2026-08-12",
-    "description": "The Company\n\nCentral Training is a national provider of specialist training solutions to organisations and individuals within the regulated and professional sectors of education, health, housing and social care.\n\nWe offer our training solutions in a number of fully accessible formats including traditional Face to Face training, Virtual Learning, eLearning and through an Open Course Public Programme. We also offer consultancy services related to organisational development including training planning.\n\nThe Role\n\nDuring the first 6 months (probationary period) you will be employed as a Training Administrator. Once training and probation has been successfully completed, you will become a Training Coordinator and will play a key role in all aspects of the training life cycle, including; discussing requests with clients, liaison with associate trainers, scheduling and course tailoring, administration, invoicing and processing payments. The role requires a high level of customer engagement, complex administration, attention to detail and finance management.\n\nWhat we look for\n\nWe are seeking applicants with proven, practical experience in an administrative or operational role who can demonstrate:\n- Proven experience managing administration within a professional office environment\n- Exceptional interpersonal and customer service skills with a positive and personable approach\n- Strong verbal and written communication skills\n- Numerically confident with good attention to detail\n- Exceptional organisation and time management skills\n- Demonstrated IT competency, with practical experience using MS Office (including Excel) in a business setting\n- Knowledge of web-based video conferencing platforms e.g. Zoom and Teams\n- Reflective and analytical\n- Commercially minded\n- Self-driven and results-orientated\n- Responsible and accountable\n- Educated to degree level (or equivalent work experience)\n\nWhat you will get in return\n\nIn addition to working for a dynamic and values-based business, successful staff can expect:\n- A starting salary of up to £26800\n- Attractive team-based commission (following successful completion of the probationary period)\n- A tailored induction training programme\n- Promotional development opportunities after 1 year of employment\n- Additional benefits after 2 years of employment\n\nHome Environment Requirement\n\nAs this role is home-based, there is no geographical restriction for applicants who wish to apply from around the UK. However, it is critical that applicants can demonstrate they have a private home working environment, where they can work uninterrupted. Excellent, high quality broadband connectivity is also critical, as is back-up hardware (personal laptop and mobile phone).",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?Zg1fD7qgbpwP99yvtut6CM6ohmKjjf9qe",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Central Recruitment Services Ltd",
-    "advertiser_type": "Agency",
-    "work_pattern": "Full Time",
-    "salary_period": "Annual",
     "posted_date_basis": "ontap_first_published"
   },
   {
@@ -3125,31 +3201,6 @@
     "posted_date_basis": "ontap_first_published"
   },
   {
-    "job_id": "1854965",
-    "title": "Content Coordinator",
-    "company": "Missing People Limited - Agency - Permanent",
-    "location": "London",
-    "region": "London",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "£30,000 to £33,000 per annum",
-    "posted_date": "2026-09-05",
-    "description": "Content Coordinator - National Charity\nSalary: £30,000 to £33,000 per annum\nHours: 35 hours per week. Some out of office hours work will be required\nLocation: South West London with a high degree of flexibility available.\nContract: Permanent\n\nAbout Missing People\n\nSomebody goes missing in the UK every 90 seconds. Missing People exists to ease the heartache experienced by those missing someone, and to help people who are away from home find their way back to safety. Our vision is for every missing child, adult and family left behind to find help, hope and a safe way to reconnect. We are a non-judgemental, highly skilled team of staff and volunteers working for everyone who needs us. We provide free, confidential support, help and advice by phone, email, text and live chat.\n\nAbout the Content Coordinator\n\nThe Content Coordinator will play a key role in developing engaging, audience-led content across Missing People's owned communications channels. Working as part of our award-winning Marketing and Communications Team, you will help bring our services, stories and campaigns to life across our website, social media, email marketing and other digital platforms. You will work with colleagues, volunteers, content creators and people with lived experience of missing to create accessible, impactful content that grows awareness, supports engagement and helps more people find the information and support they need.\n\nThe impact you will have\n\nYour work will help missing children, adults and families affected by disappearance to access trusted information, support and services when they need them most. By creating compelling website, social media, video and e-newsletter content, you will increase understanding of the issue of missing, strengthen Missing People's profile and help grow the communities of supporters who make our work possible. You will also help ensure our online spaces are managed safely, our communications are coordinated and consistent, and our content reflects the voices and needs of those we support.\n\nAbout you\n\nYou will be highly organised, enjoy working with systems and data, and take pride in delivering accurate, high-quality work. You will find full details of what we are looking for in the attached job description, and key requirements are:\n\nExperience:\n- Significant experience of planning and creating innovative and inspiring content that shares and amplifies the voices and experiences of service users or customers - from briefing, insight and planning to creation and delivery.\n- Experience of writing SEO, AIO GEO and AEO and user experienced informed website content.\n- Experience of developing and managing content plans.\n- Experience in planning and creating engaging social media content shaped by insight (video for social, images, blog posts, storytelling, live video), following brand style and tone of voice;\n- Experience of creating and editing short-form video content for social media platforms.\n- Experience of confidently and collaboratively managing a range of stakeholders including internal colleagues and external contacts.\n\nSkills and Knowledge:\n- A solid understanding of the social media landscape, emerging channels and trends.\n- Exceptional ability to create and tailor content to different audiences and platforms, including a variety of mediums such as written, visual and video;\n- Strong copywriting and editing skills\n- Ability to take complex information and turn it into accessible communications for the wider public;\n- Creative ability for storytelling through words, images and design.\n- A good understanding of managing online communities safely.\n\nRight to work in the UK.\n\nWhat you will get in return\n\nMissing People is a friendly and supportive place to work - it's a welcoming, caring organisation which really makes a difference to people affected by the issue of missing throughout the UK. We offer generous paid holidays, a range of enhanced family friendly benefits and are happy to talk about flexible working in most roles.\n\nFind out more and apply\n\nIf you want to be a lifeline when someone goes missing, click apply to read the full job description. You will find attached a detailed job description and person specification, and a letter to applicants from the line manager.\n\nTo apply, please ensure you include your CV and a brief covering letter explaining how you would be a good fit for this role. We look forward to receiving your application.\n\nClosing date: 23:59 on 13th September 2026 We reserve the right to close this vacancy early if we receive sufficient interest, so we encourage you to apply as soon as possible.\nInterviews: 23rd or 24th September 2026 (TBC).\nStart date: As soon as possible.\n\nREF-230693",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?MQiKzVwZdh3fZ9%2bxkMrs60qf0oD5OadYu",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Missing People Limited",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
-  },
-  {
     "job_id": "23643_225569341",
     "title": "Customer Care Coordinator",
     "company": "SF Partners - Agency - Contract",
@@ -3175,27 +3226,27 @@
     "posted_date_basis": "ontap_first_published"
   },
   {
-    "job_id": "107940014",
-    "title": "Marketing Coordinator",
-    "company": "Lovesuccess - Agency - Permanent",
+    "job_id": "23643_225573805",
+    "title": "Part-time Admin / Finance Assistant",
+    "company": "Hays Business Support - Agency - Permanent",
     "location": "London",
     "region": "London",
     "country": "UK",
     "category": "Admin/Service – Office Support",
     "employment_type": "Permanent",
-    "salary_min": "30000",
-    "salary_max": "30000",
-    "salary_text": "£30000 per year",
-    "posted_date": "2026-09-05",
-    "description": "London -Piccadilly\nMonday - Friday 09.00- 17.30 ( Fully office based)\n\nAre you looking for an exciting marketing communications opportunity that offers exceptional exposure and the chance to elevate your marketing career?\n\nOur client is a highly reputable and prestigious private members' club, steeped in history and tradition click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?nbYVUHO1tX7vrVDoem3b3RIQUTFGg1bqz",
+    "salary_min": "28000",
+    "salary_max": "35000",
+    "salary_text": "£28000 - £35000 per year (FTE)",
+    "posted_date": "2026-09-06",
+    "description": "Your New RoleAs a Data Entry & Administrative Assistant, you will play a key role in keeping business records accurate, organised and up to date. This is a varied administrative position with a strong focus on data entry, document management and general office support.\nKey responsibilities will include:\n- Accurately entering and updating information across company systems and databases.\n- Managing electronic and paper records to ensure documents are organised and easily accessible.\n- Processing invoices and supporting documentation.\n- Locating, filing and maintaining receipts and supporting records.\n- Updating spreadsheets and maintaining accurate internal reports.\n- Monitoring outstanding invoices and following up using established procedures and templates.\n- Assisting with general administrative duties and office support tasks.\n- Supporting the wider team with ad hoc administration and coordination activities.\n- Assisting with purchasing and supplier-related administration where required.\n- Identifying opportunities to improve administrative processes and record-keeping procedures.\n\nWhat You'll Need to Succeed\n- Strong attention to detail and a high level of accuracy.\n- Excellent organisational and time management skills.\n- Good written and verbal communication skills.\n- Confidence using Microsoft Office, including Excel.\n- A reliable and proactive approach to work.\n- Ability to work independently and manage multiple tasks effectively.\n- Previous administration, office support or data entry experience is beneficial but not essential.\n\nWhat You'll Get in Return\n- Full training and ongoing support.\n- Flexible opportunity available on a part-time basis.\n- Friendly and collaborative working environment.\n- Valuable office-based experience with exposure to a range of business functions.\n- Opportunities to develop administration, coordination and organisational skills.\n- Central London office location with excellent transport links.\n\nWhat you need to do now\nIf you're interested in this role, click 'apply now' to forward an up-to-date copy of your CV, or call us now.\nIf this job isn't quite right for you, but you are looking for a new position, please contact us for a confidential discussion about your career.\n\nHays Specialist Recruitment Limited acts as an employment agency for permanent recruitment and employment business for the supply of temporary workers. By applying for this job you accept the T&C's, Privacy Policy and Disclaimers which can be found at (url removed)",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?bZCSDJyF3N6ATPVKQAEUeF0J%2fpM9%2fuWrq",
     "source": "JobG8",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Lovesuccess",
+    "advertiser_name": "Hays Business Support",
     "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
+    "work_pattern": "Part Time",
     "salary_period": "Annual",
     "posted_date_basis": "ontap_first_published"
   },

@@ -22,6 +22,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "The King's School",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -47,6 +50,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "Okehampton College",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -72,6 +78,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "St Cuthbert Mayne School",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -97,6 +106,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "Learning Academies Trust",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -122,6 +134,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "Torquay Boys' Grammar School",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -222,6 +237,31 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
+    "posted_date_basis": "ontap_first_published"
+  },
+  {
+    "job_id": "23643_225572997",
+    "title": "Finance Assistant",
+    "company": "Pontoon - Agency - Contract",
+    "location": "Devon",
+    "region": "Devon",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Contract",
+    "salary_min": "120",
+    "salary_max": "120",
+    "salary_text": "£120 per daily",
+    "posted_date": "2026-09-06",
+    "description": "Finance Assistant Positions Available!\n\nOur client is seeking three motivated and detail-oriented Temporary Finance Assistants to join their dynamic Accounts Receivable team for a six-month contract. With an exciting increase in workload following a recent project go-live, this is a fantastic opportunity to contribute to a thriving environment.\n\nPositions Available:\n- 2 x Invoicing Finance Assistants\n- 1 x Payments Finance Assistant\n\nDaily Rate: 120.00 Umbrella\nContract Length: 6 months\nWorking Pattern: Full Time\nLocation: Plymouth (Fully onsite for the first 3 months; hybrid arrangement after)\n\nRole Overview:\n\nThese roles will be pivotal in assisting with day-to-day transactional processing and administrative activities. Successful candidates will ensure that payments, invoicing activities, and customer inquiries are handled with accuracy and efficiency.\n\nKey Responsibilities:\n\nPayments Finance Assistant:\n- Support day-to-day processing of BACS payments.\n- Assist with payment allocations and customer refunds.\n- Process customer card payments over the phone.\n- Respond to payment-related inquiries and handle routine customer calls.\n\nInvoicing Finance Assistants:\n- Raise and issue invoices and credit notes using finance systems.\n- Process customer refunds and maintain accurate account information.\n- Respond to routine invoicing inquiries and support month-end activities.\n\nGeneral Administration:\n- Manage incoming and outgoing post.\n- Monitor shared mailboxes and provide administrative support.\n- Ensure compliance with established procedures and data protection requirements.\n\nCandidate Profile:\n\nThe ideal candidates will possess:\n- Previous experience in finance administration, transactional finance processing, or high-volume administrative roles.\n- Strong attention to detail and accuracy.\n- Excellent organisational and communication skills.\n- A proactive attitude and the ability to work collaboratively within a team.\n- Confidence in handling routine customer inquiries.\n\nSystems & Technical Skills:\n- Basic proficiency in Excel is required, including formulas, sums, and VLOOKUPs.\n- Familiarity with finance systems\n\nWhy Join This Team?\n- Join a supportive and fast-paced work environment.\n- Contribute to a crucial team during a period of significant growth.\n- Benefit from onsite parking and a flexible working arrangement after three months.\n\nIf you are a reliable, detail-oriented individual with a passion for finance administration, this is your chance to shine! Candidates from diverse backgrounds are encouraged to apply; industry-specific experience is not necessary.\n\nApply now and step into a rewarding temporary role that offers both challenge and opportunity!\n\nPontoon is an employment consultancy. We put expertise, energy, and enthusiasm into improving everyone's chance of being part of the workplace. We respect and appreciate people of all ethnicities, generations, religious beliefs, sexual orientations, gender identities, and more. We do this by showcasing their talents, skills, and unique experience in an inclusive environment that helps them thrive. If you require reasonable adjustments at any stage, please let us know and we will be happy to support you.\n\nWe use generative AI tools to support our candidate screening process. This helps us ensure a fair, consistent, and efficient experience for all applicants. Rest assured, all final decisions are made by our hiring team, and your application will be reviewed with care and attention.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?b0ZSEQFKUCI0XZL91IGlYJMPeozxk%2fl5l",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Pontoon",
+    "advertiser_type": "Agency",
+    "work_pattern": "Full Time",
+    "salary_period": "Daily",
     "posted_date_basis": "ontap_first_published"
   },
   {
