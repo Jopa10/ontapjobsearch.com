@@ -4,6 +4,7 @@ import sys
 import tempfile
 import unittest
 from pathlib import Path
+from types import SimpleNamespace
 from unittest import mock
 
 SCRIPTS_DIR = Path(__file__).resolve().parents[1] / "pipeline" / "scripts"
@@ -26,6 +27,88 @@ class PublishVerifiedPagesTests(unittest.TestCase):
 
     def active(self):
         return {("Test Region", "admin_service")}
+
+    def test_refines_only_explicit_same_region_jobg8_towns(self):
+        area_lookup = {
+            "surrey": "Surrey",
+            "walton-on-thames": "Surrey",
+            "leatherhead": "Surrey",
+            "derby": "Derbyshire",
+        }
+        rules = publish.build_description_place_rules(area_lookup)
+        postcode_overrides = {
+            "KT22": SimpleNamespace(
+                display_location="Leatherhead",
+                region="Surrey",
+            )
+        }
+
+        cases = (
+            (
+                {
+                    "source": "JobG8",
+                    "location": "Surrey",
+                    "region": "Surrey",
+                    "description": "This role is based in Walton-on-Thames.",
+                },
+                "Walton-On-Thames",
+            ),
+            (
+                {
+                    "source": "JobG8",
+                    "location": "Leatherhead",
+                    "region": "Surrey",
+                    "description": "This role is based in Walton-on-Thames.",
+                },
+                "Leatherhead",
+            ),
+            (
+                {
+                    "source": "JobG8",
+                    "location": "Surrey",
+                    "region": "Surrey",
+                    "description": "Location: main office, Leatherhead KT22 8AA",
+                },
+                "Leatherhead",
+            ),
+            (
+                {
+                    "source": "JobG8",
+                    "location": "Surrey",
+                    "region": "Surrey",
+                    "description": "Travel to Walton-on-Thames may occasionally be required.",
+                },
+                "Surrey",
+            ),
+            (
+                {
+                    "source": "JobG8",
+                    "location": "Surrey",
+                    "region": "Surrey",
+                    "description": "Location: Derby",
+                },
+                "Surrey",
+            ),
+            (
+                {
+                    "source": "Teaching Vacancies",
+                    "location": "Surrey",
+                    "region": "Surrey",
+                    "description": "This role is based in Walton-on-Thames.",
+                },
+                "Surrey",
+            ),
+        )
+
+        with mock.patch.object(
+            publish,
+            "_location_refinement_resources",
+            return_value=(area_lookup, postcode_overrides, rules),
+        ):
+            for row, expected in cases:
+                with self.subTest(row=row):
+                    refined, _changed = publish.refine_jobg8_published_locations([row])
+                    self.assertEqual(refined[0]["location"], expected)
 
     def test_activated_slice_mappings_are_live(self):
         expected = {

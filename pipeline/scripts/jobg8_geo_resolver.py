@@ -7,10 +7,13 @@ from html import unescape
 from pathlib import Path
 from typing import Any, Callable, Mapping, Sequence
 
+from openpyxl import load_workbook
+
 POSTAL_CODE_COLUMN = "/Job/PostalCode"
 DEFAULT_POSTCODE_OVERRIDES_PATH = (
     Path(__file__).resolve().parents[1] / "geo" / "postcode_location_overrides.csv"
 )
+DEFAULT_GEO_LOOKUP_PATH = Path(__file__).resolve().parents[1] / "geo" / "geo_lookup.xlsx"
 DESCRIPTION_POSTCODE_WINDOW = 700
 DESCRIPTION_PLACE_WINDOW = 500
 
@@ -167,11 +170,34 @@ def load_postcode_overrides(
             if not district or not region:
                 continue
             overrides[district] = PostcodeOverride(district, display_location, region)
-        return overrides
+    return overrides
+
+
+def load_area_lookup(path: Path = DEFAULT_GEO_LOOKUP_PATH) -> dict[str, str]:
+    """Load the canonical Area -> Ontap region map without a pandas dependency."""
+    workbook = load_workbook(path, read_only=True, data_only=True)
+    try:
+        sheet = workbook["Sheet1"]
+        rows = sheet.iter_rows(values_only=True)
+        header = next(rows, None)
+        if header != ("Area", "Cluster"):
+            raise ValueError(f"Unexpected geo lookup header in {path}: {header}")
+        return {
+            norm_key(area): region
+            for area, cluster in rows
+            if norm_key(area) and (region := _valid_region(cluster))
+        }
+    finally:
+        workbook.close()
 
 
 def _display_place(place_key: str) -> str:
-    return " ".join(part.capitalize() for part in re.split(r"[\s-]+", place_key) if part)
+    return re.sub(
+        r"[a-z]+",
+        lambda match: match.group(0).capitalize(),
+        place_key,
+        flags=re.IGNORECASE,
+    )
 
 
 def _place_regex(place_key: str) -> str:
@@ -192,6 +218,7 @@ def build_description_place_rules(
             not place_key
             or not region
             or place_key in BROAD_AREA_KEYS
+            or place_key == norm_key(region)
             or len(place_key) < 4
             or (place_key, region) in seen
         ):
@@ -390,3 +417,69 @@ def resolve_job_geography(
         "no structured or explicit advert geography matched an authoritative lookup",
         district,
     )
+
+
+def refine_published_location(
+    row: Mapping[str, Any],
+    *,
+    area_lookup: Mapping[str, str],
+    postcode_overrides: Mapping[str, PostcodeOverride],
+    description_place_rules: Sequence[DescriptionPlaceRule] | None = None,
+) -> GeoResolution | None:
+    """Recover a precise town from a published JobG8 advert's description.
+
+    Regional selection has already completed when this runs. It therefore never
+    changes the assigned region and only promotes a description postcode or an
+    explicit workplace-place cue when that evidence maps back to the same region.
+    A currently published exact locality is left untouched.
+    """
+    source = norm_key(row.get("source"))
+    if source not in {"", "jobg8", "jobg8com"}:
+        return None
+
+    location = norm(row.get("location"))
+    region = _valid_region(row.get("region"))
+    description = description_text(row.get("description"))
+    if not region or not description:
+        return None
+
+    location_region = _valid_region(area_lookup.get(norm_key(location), ""))
+    location_is_exact = bool(
+        location_region
+        and norm_key(location) not in BROAD_LOCATION_KEYS
+        and norm_key(location) != norm_key(region)
+    )
+    if location_is_exact:
+        return None
+
+    description_district = extract_postcode_district(
+        description[:DESCRIPTION_POSTCODE_WINDOW]
+    )
+    postcode_match = (
+        postcode_overrides.get(description_district) if description_district else None
+    )
+    if postcode_match and norm_key(postcode_match.region) == norm_key(region):
+        town = postcode_match.display_location
+        if town and norm_key(town) != norm_key(location):
+            return GeoResolution(
+                region,
+                town,
+                "description_postcode",
+                description_district,
+                description_district,
+            )
+
+    rules = (
+        tuple(description_place_rules)
+        if description_place_rules is not None
+        else description_place_rules_for_lookup(area_lookup)
+    )
+    description_region, town, evidence = resolve_description_place(description, rules)
+    if (
+        description_region
+        and town
+        and norm_key(description_region) == norm_key(region)
+        and norm_key(town) != norm_key(location)
+    ):
+        return GeoResolution(region, town, "description_place", evidence)
+    return None
