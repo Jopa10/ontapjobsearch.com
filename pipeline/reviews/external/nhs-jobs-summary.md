@@ -2,15 +2,27 @@
 
 review_date: 2026-09-06
 
-- Open Administrative & Clerical rows reviewed: 2067
+- Open Administrative & Clerical rows reviewed: 2068
 - Auto/remembered selected: 397
 - Selected HC Tier A: 187
 - Selected HC Tier B: 210
-- POSS awaiting decision: 1505
+- POSS awaiting decision: 1506
 - Excluded: 0
 - HARD_PASS: 165
 
 Edit only each `action:` line for POSS rows. Unchanged decisions are restored by the shared decision ledger.
+
+---
+action:
+POSS | NHS Jobs | London | Kingston Upon Thames, KT2 6SR | Negotiable | Head of Business Development
+source_job_id: 5581374
+title: Head of Business Development
+employer: SELDOC Healthcare
+region: London
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/U0005-26-0070
+factual_fingerprint: f6c3f38dbae4edde99277d220f856c3cfed31467b6d0b6e4b9b72d6e90351d97
+---
 
 ---
 action:
