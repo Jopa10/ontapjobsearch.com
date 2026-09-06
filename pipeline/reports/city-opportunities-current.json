@@ -2,7 +2,7 @@
   "threshold": 6,
   "near_threshold": 4,
   "published_slices_scanned": 16,
-  "jobs_scanned": 691,
+  "jobs_scanned": 692,
   "regional_markets_defined": 65,
   "market_rows_monitored": 94,
   "opportunities": [
@@ -10,7 +10,7 @@
       "region": "north-east",
       "slice": "service-administrator-jobs",
       "locality": "Newcastle",
-      "jobs": 49,
+      "jobs": 53,
       "threshold": 6,
       "status": "LIVE",
       "basis": "configured-catchment",
@@ -59,6 +59,19 @@
       "registered_market": true
     },
     {
+      "region": "hampshire",
+      "slice": "service-administrator-jobs",
+      "locality": "Southampton",
+      "jobs": 8,
+      "threshold": 6,
+      "status": "LIVE",
+      "basis": "configured-catchment",
+      "parent_json": "app/hampshire/service-administrator-jobs.json",
+      "existing_route": "/southampton/service-administrator-jobs",
+      "active": true,
+      "registered_market": true
+    },
+    {
       "region": "south-yorkshire",
       "slice": "service-administrator-jobs",
       "locality": "Doncaster",
@@ -72,15 +85,28 @@
       "registered_market": true
     },
     {
-      "region": "hampshire",
+      "region": "coventry-warwickshire",
       "slice": "service-administrator-jobs",
-      "locality": "Southampton",
-      "jobs": 5,
+      "locality": "Coventry",
+      "jobs": 6,
       "threshold": 6,
       "status": "LIVE",
       "basis": "configured-catchment",
-      "parent_json": "app/hampshire/service-administrator-jobs.json",
-      "existing_route": "/southampton/service-administrator-jobs",
+      "parent_json": "app/coventry-warwickshire/service-administrator-jobs.json",
+      "existing_route": "/coventry/service-administrator-jobs",
+      "active": true,
+      "registered_market": true
+    },
+    {
+      "region": "sussex",
+      "slice": "service-administrator-jobs",
+      "locality": "Brighton & Hove",
+      "jobs": 6,
+      "threshold": 6,
+      "status": "LIVE",
+      "basis": "configured-catchment",
+      "parent_json": "app/sussex/service-administrator-jobs.json",
+      "existing_route": "/brighton-hove/service-administrator-jobs",
       "active": true,
       "registered_market": true
     },
@@ -111,19 +137,6 @@
       "registered_market": true
     },
     {
-      "region": "sussex",
-      "slice": "service-administrator-jobs",
-      "locality": "Brighton & Hove",
-      "jobs": 3,
-      "threshold": 6,
-      "status": "LIVE",
-      "basis": "configured-catchment",
-      "parent_json": "app/sussex/service-administrator-jobs.json",
-      "existing_route": "/brighton-hove/service-administrator-jobs",
-      "active": true,
-      "registered_market": true
-    },
-    {
       "region": "west-yorkshire",
       "slice": "service-administrator-jobs",
       "locality": "Huddersfield",
@@ -133,19 +146,6 @@
       "basis": "configured-catchment",
       "parent_json": "app/west-yorkshire/service-administrator-jobs.json",
       "existing_route": "/huddersfield/service-administrator-jobs",
-      "active": true,
-      "registered_market": true
-    },
-    {
-      "region": "coventry-warwickshire",
-      "slice": "service-administrator-jobs",
-      "locality": "Coventry",
-      "jobs": 2,
-      "threshold": 6,
-      "status": "LIVE",
-      "basis": "configured-catchment",
-      "parent_json": "app/coventry-warwickshire/service-administrator-jobs.json",
-      "existing_route": "/coventry/service-administrator-jobs",
       "active": true,
       "registered_market": true
     },
@@ -176,19 +176,6 @@
       "registered_market": false
     },
     {
-      "region": "coventry-warwickshire",
-      "slice": "service-administrator-jobs",
-      "locality": "Warwickshire",
-      "jobs": 8,
-      "threshold": 6,
-      "status": "QUALIFIES",
-      "basis": "exact-location-unregistered",
-      "parent_json": "app/coventry-warwickshire/service-administrator-jobs.json",
-      "existing_route": "",
-      "active": false,
-      "registered_market": false
-    },
-    {
       "region": "north-east",
       "slice": "service-administrator-jobs",
       "locality": "Durham",
@@ -202,6 +189,19 @@
       "registered_market": true
     },
     {
+      "region": "coventry-warwickshire",
+      "slice": "service-administrator-jobs",
+      "locality": "Warwickshire",
+      "jobs": 7,
+      "threshold": 6,
+      "status": "QUALIFIES",
+      "basis": "exact-location-unregistered",
+      "parent_json": "app/coventry-warwickshire/service-administrator-jobs.json",
+      "existing_route": "",
+      "active": false,
+      "registered_market": false
+    },
+    {
       "region": "west-yorkshire",
       "slice": "service-administrator-jobs",
       "locality": "Wakefield",
@@ -210,19 +210,6 @@
       "status": "QUALIFIES",
       "basis": "regional-market",
       "parent_json": "app/west-yorkshire/service-administrator-jobs.json",
-      "existing_route": "",
-      "active": false,
-      "registered_market": true
-    },
-    {
-      "region": "coventry-warwickshire",
-      "slice": "service-administrator-jobs",
-      "locality": "Warwick & Leamington",
-      "jobs": 6,
-      "threshold": 6,
-      "status": "QUALIFIES",
-      "basis": "regional-market",
-      "parent_json": "app/coventry-warwickshire/service-administrator-jobs.json",
       "existing_route": "",
       "active": false,
       "registered_market": true
@@ -265,6 +252,19 @@
       "existing_route": "",
       "active": false,
       "registered_market": false
+    },
+    {
+      "region": "coventry-warwickshire",
+      "slice": "service-administrator-jobs",
+      "locality": "Warwick & Leamington",
+      "jobs": 5,
+      "threshold": 6,
+      "status": "NEAR",
+      "basis": "regional-market",
+      "parent_json": "app/coventry-warwickshire/service-administrator-jobs.json",
+      "existing_route": "",
+      "active": false,
+      "registered_market": true
     },
     {
       "region": "kent",
