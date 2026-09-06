@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Wiltshire
 
-review_date: 2026-09-05
+review_date: 2026-09-06
 review_fingerprint: 77706c22818c4145b832b5870953d0e04c83297c45beb19eaf757b1896b83cf0
-routing_manifest_sha256: 470681d9f37d503102980dcb1fe7f45c6d8d4a374fc3c1cab53df51803c03f75
+routing_manifest_sha256: 7fd315145b2e460bd548d4a5c1a4c8d7322399f4429f2897b7d301e5f0809506
 ontap_region: Wiltshire
 slice_category: admin_service
 slice_status: LIVE
@@ -14,27 +14,12 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 8
-- Selected: 2
-- POSS awaiting decision: 0
+- Selected: 1
+- POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 6
 
 ## SELECTED
-
----
-action: select
-SELECTED | Wiltshire | Salisbury, South West, SP2 8JZ | £8,751.00 - £9,031.00 Annually (Actual) Wiltshire Grade D - rises incrementally each year from point 4 to 6 (FTE for 25/26 is £25,185 - £25,989) | Admin Officer (SEND and Attendance focus)
-employer: Harnham Church of England Controlled Junior School
-closing_date: 2026-09-07T23:59:00+01:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 084781c92a4fe5501c80674a8821d1803cf66a16e3b70fc238a88900ae717fb5
-source: Teaching Vacancies
-source_job_id: admin-officer-send-and-attendance-focus-harnham-church-of-england-controlled-junior-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-officer-send-and-attendance-focus-harnham-church-of-england-controlled-junior-school
----
 
 ---
 action: 
@@ -53,7 +38,20 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/it-system-administrat
 
 ## POSS — choose SELECT or EXCLUDE
 
-- None.
+---
+action: 
+POSS | Wiltshire | Salisbury, South West, SP2 8JZ | £8,751.00 - £9,031.00 Annually (Actual) Wiltshire Grade D - rises incrementally each year from point 4 to 6 (FTE for 25/26 is £25,185 - £25,989) | Admin Officer (SEND and Attendance focus)
+employer: Harnham Church of England Controlled Junior School
+closing_date: 2026-09-07T23:59:00+01:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 084781c92a4fe5501c80674a8821d1803cf66a16e3b70fc238a88900ae717fb5
+source: Teaching Vacancies
+source_job_id: admin-officer-send-and-attendance-focus-harnham-church-of-england-controlled-junior-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-officer-send-and-attendance-focus-harnham-church-of-england-controlled-junior-school
+---
 
 ## EXCLUDED BY REVIEW
 

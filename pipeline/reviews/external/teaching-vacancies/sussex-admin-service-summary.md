@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Sussex
 
-review_date: 2026-09-05
+review_date: 2026-09-06
 review_fingerprint: d39d75134052de35a4f7f622706bcd41864a87b1891d6a4a2afda9125a3ce51f
-routing_manifest_sha256: 470681d9f37d503102980dcb1fe7f45c6d8d4a374fc3c1cab53df51803c03f75
+routing_manifest_sha256: 7fd315145b2e460bd548d4a5c1a4c8d7322399f4429f2897b7d301e5f0809506
 ontap_region: Sussex
 slice_category: admin_service
 slice_status: LIVE
@@ -14,27 +14,12 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 4
-- Selected: 3
-- POSS awaiting decision: 0
+- Selected: 2
+- POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 1
 
 ## SELECTED
-
----
-action: select
-SELECTED | Sussex | Crawley, South East, RH10 6DG | Associate 3 Actual Salary - £21,643.44 to £23,380. | Office Manager
-employer: Southgate Primary
-closing_date: 2026-10-14T23:59:59+01:00
-reason: Manager title below £28,000 salary ceiling requires review
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 38aa431f36df9d158d1de52563f0f46b852796672497a2da9f460542843396fc
-source: Teaching Vacancies
-source_job_id: office-manager-southgate-primary-crawley-west-sussex
-source_url: https://teaching-vacancies.service.gov.uk/jobs/office-manager-southgate-primary-crawley-west-sussex
----
 
 ---
 action: 
@@ -68,7 +53,20 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/year-9-administrative
 
 ## POSS — choose SELECT or EXCLUDE
 
-- None.
+---
+action: 
+POSS | Sussex | Crawley, South East, RH10 6DG | Associate 3 Actual Salary - £21,643.44 to £23,380. | Office Manager
+employer: Southgate Primary
+closing_date: 2026-10-14T23:59:59+01:00
+reason: Manager title below £28,000 salary ceiling requires review
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 38aa431f36df9d158d1de52563f0f46b852796672497a2da9f460542843396fc
+source: Teaching Vacancies
+source_job_id: office-manager-southgate-primary-crawley-west-sussex
+source_url: https://teaching-vacancies.service.gov.uk/jobs/office-manager-southgate-primary-crawley-west-sussex
+---
 
 ## EXCLUDED BY REVIEW
 

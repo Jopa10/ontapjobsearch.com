@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Hertfordshire
 
-review_date: 2026-09-05
-review_fingerprint: 6953e623035bfa792de830b06c4a5d202a31a32422caea91b6c2d3ffc1dcb80a
-routing_manifest_sha256: 470681d9f37d503102980dcb1fe7f45c6d8d4a374fc3c1cab53df51803c03f75
+review_date: 2026-09-06
+review_fingerprint: 966cad7232de6ad70efed22691ca4e821d4428ea168863d59da860a4e0e4ee40
+routing_manifest_sha256: 7fd315145b2e460bd548d4a5c1a4c8d7322399f4429f2897b7d301e5f0809506
 ontap_region: Hertfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 14
-- Selected: 9
-- POSS awaiting decision: 0
-- Excluded: 1
-- Hard pass: 4
+- Records: 15
+- Selected: 7
+- POSS awaiting decision: 3
+- Excluded: 0
+- Hard pass: 5
 
 ## SELECTED
 
@@ -40,12 +40,12 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-learn
 action: 
 SELECTED | Hertfordshire | Watford, East of England, WD19 7UZ | £25,583.00 Annually (FTE) Salary is based on FTE - hours will be part time - 9am - 1pm - Monday - Thursday (16 hours per week) - H3 - 25,583 FTE (However, pay award pending national agreement) | Administrator - The Acorn Centre
 employer: Warren Dell Primary School
-closing_date: 2026-09-21T23:59:00+01:00
+closing_date: 2026-09-11T23:59:00+01:00
 reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 46da006c9425d6eb23da93402cfd6e79ee74701ed304868a058023f5699780b6
+factual_fingerprint: 536b35f6732f8b43af7e90fbd3c3b6a3cd1f58772af1b1563995aeead6f6083d
 source: Teaching Vacancies
 source_job_id: administrator-the-acorn-centre
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-the-acorn-centre
@@ -79,36 +79,6 @@ factual_fingerprint: 44748651089c3bebf60e44da73b523e118490de8b4c457fe5fe3323685a
 source: Teaching Vacancies
 source_job_id: governance-administrator-aspire-academies-trust
 source_url: https://teaching-vacancies.service.gov.uk/jobs/governance-administrator-aspire-academies-trust
----
-
----
-action: select
-SELECTED | Hertfordshire | Chorleywood, WD3 6EW | £29,540.00 Annually (FTE) | HR Advisor
-employer: Danes Educational Trust
-closing_date: 2026-09-21T09:00:00+01:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: a5185ec4709fd8fa0b87b390aab8205ae0f2d574ce413d2a29b0ecf57c1199b8
-source: Teaching Vacancies
-source_job_id: hr-advisor-eb9c5bf8-2603-48ba-bfc8-df41ec1204b1
-source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-advisor-eb9c5bf8-2603-48ba-bfc8-df41ec1204b1
----
-
----
-action: select
-SELECTED | Hertfordshire | St Albans, East of England, AL1 5AR | £16,800.00 Annually (Actual) H3 + Fringe | Inclusion Administration Assistant
-employer: Samuel Ryder Academy
-closing_date: 2026-09-17T09:00:00+01:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 92fa4dd60ce866e370480855e8e657a6841b4fdff4aa4c30f579c4c4656f5829
-source: Teaching Vacancies
-source_job_id: inclusion-administration-assistant-samuel-ryder-academy-st-albans-hertfordshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/inclusion-administration-assistant-samuel-ryder-academy-st-albans-hertfordshire
 ---
 
 ---
@@ -158,13 +128,39 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-receptionist-p
 
 ## POSS — choose SELECT or EXCLUDE
 
-- None.
-
-## EXCLUDED BY REVIEW
+---
+action: 
+POSS | Hertfordshire | Chorleywood, WD3 6EW | £29,540.00 Annually (FTE) | HR Advisor
+employer: Danes Educational Trust
+closing_date: 2026-09-21T09:00:00+01:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: a5185ec4709fd8fa0b87b390aab8205ae0f2d574ce413d2a29b0ecf57c1199b8
+source: Teaching Vacancies
+source_job_id: hr-advisor-eb9c5bf8-2603-48ba-bfc8-df41ec1204b1
+source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-advisor-eb9c5bf8-2603-48ba-bfc8-df41ec1204b1
+---
 
 ---
-action: exclude
-EXCLUDED | Hertfordshire | St Albans, AL1 5AR | £27,600.00 - £28,906.00 Annually (Actual) Grade: H4 + Fringe Annual Salary: £27,600 progressing to £28,906 (Fringe allowance included) | MIS Administrator
+action: 
+POSS | Hertfordshire | St Albans, East of England, AL1 5AR | £16,800.00 Annually (Actual) H3 + Fringe | Inclusion Administration Assistant
+employer: Samuel Ryder Academy
+closing_date: 2026-09-17T09:00:00+01:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 92fa4dd60ce866e370480855e8e657a6841b4fdff4aa4c30f579c4c4656f5829
+source: Teaching Vacancies
+source_job_id: inclusion-administration-assistant-samuel-ryder-academy-st-albans-hertfordshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/inclusion-administration-assistant-samuel-ryder-academy-st-albans-hertfordshire
+---
+
+---
+action: 
+POSS | Hertfordshire | St Albans, AL1 5AR | £27,600.00 - £28,906.00 Annually (Actual) Grade: H4 + Fringe Annual Salary: £27,600 progressing to £28,906 (Fringe allowance included) | MIS Administrator
 employer: Scholars' Education Trust
 closing_date: 2026-09-17T09:00:00+01:00
 reason: Possible JobG8 duplicate requires review
@@ -177,8 +173,13 @@ source_job_id: mis-administrator
 source_url: https://teaching-vacancies.service.gov.uk/jobs/mis-administrator
 ---
 
+## EXCLUDED BY REVIEW
+
+- None.
+
 ## HARD_PASS
 
+- [Attendance & Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/attendance-administration-officer-hertford-heath-primary-and-nursery-school) — Insufficient admin/service evidence.
 - [Development Director](https://teaching-vacancies.service.gov.uk/jobs/development-director-watford-grammar-school-for-boys) — Insufficient admin/service evidence.
 - [Head of HR](https://teaching-vacancies.service.gov.uk/jobs/head-of-hr-danes-educational-trust-chorleywood-not-recorded) — Insufficient admin/service evidence.
 - [Headteacher's PA + Office Manager](https://teaching-vacancies.service.gov.uk/jobs/headteacher-s-pa-office-manager-robert-barclay-academy) — Out-of-scope occupation: teacher, headteacher.

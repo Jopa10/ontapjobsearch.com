@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Lincolnshire
 
-review_date: 2026-09-05
+review_date: 2026-09-06
 review_fingerprint: d90747e5fcc54851d449a9ee3a1cb21270aba368d071c844c934b273529f2f73
-routing_manifest_sha256: 470681d9f37d503102980dcb1fe7f45c6d8d4a374fc3c1cab53df51803c03f75
+routing_manifest_sha256: 7fd315145b2e460bd548d4a5c1a4c8d7322399f4429f2897b7d301e5f0809506
 ontap_region: Lincolnshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 13
-- Selected: 6
-- POSS awaiting decision: 2
+- Records: 12
+- Selected: 5
+- POSS awaiting decision: 3
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 4
 
 ## SELECTED
-
----
-action: select
-SELECTED | Lincolnshire | Boston, East Midlands, PE21 7QG | £11,666.20 Annually (Actual) National Apprentice Rate | Administration Apprentice
-employer: Boston West Academy
-closing_date: 2026-09-18T23:59:00+01:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 2f229cddd431678b7e83d8604555f3e41a0f6a645e5dd139ede517c271b309e0
-source: Teaching Vacancies
-source_job_id: administration-apprentice-boston-west-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-apprentice-boston-west-academy
----
 
 ---
 action: 
@@ -115,6 +100,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-admin-of
 
 ---
 action: 
+POSS | Lincolnshire | Boston, East Midlands, PE21 7QG | £11,666.20 Annually (Actual) National Apprentice Rate | Administration Apprentice
+employer: Boston West Academy
+closing_date: 2026-09-18T23:59:00+01:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 2f229cddd431678b7e83d8604555f3e41a0f6a645e5dd139ede517c271b309e0
+source: Teaching Vacancies
+source_job_id: administration-apprentice-boston-west-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-apprentice-boston-west-academy
+---
+
+---
+action: 
 POSS | Lincolnshire | Lincoln, East Midlands, LN6 7SX | £14,432.00 - £16,317.00 Annually (Actual) Band 4, SCP 11 - 17 | Data Officer
 employer: St Peter and St Paul, Catholic Voluntary Academy
 closing_date: 2026-09-07T23:59:00+01:00
@@ -153,7 +153,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-manager-5960c3
 - [Academy Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/academy-operations-manager-thomas-middlecott-academy-boston-lincolnshire) — Manager title salary ceiling £42,839 is not below £28,000.
 - [Data Manager](https://teaching-vacancies.service.gov.uk/jobs/data-manager-de-aston-school) — Manager title without salary evidence below £28,000.
 - [School Bursar](https://teaching-vacancies.service.gov.uk/jobs/school-bursar-cliffedale-primary-school) — Insufficient admin/service evidence.
-- [Senior Administrative Officer (15 hours) - Ulceby CofE Primary School](https://teaching-vacancies.service.gov.uk/jobs/senior-administrative-officer-15-hours-ulceby-cofe-primary-school) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

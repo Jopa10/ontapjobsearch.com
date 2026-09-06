@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Bedfordshire
 
-review_date: 2026-09-05
+review_date: 2026-09-06
 review_fingerprint: d38cf895e503037f447ca61641f533d0f314d84e58b8436e6e402009c6111b35
-routing_manifest_sha256: 470681d9f37d503102980dcb1fe7f45c6d8d4a374fc3c1cab53df51803c03f75
+routing_manifest_sha256: 7fd315145b2e460bd548d4a5c1a4c8d7322399f4429f2897b7d301e5f0809506
 ontap_region: Bedfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -15,8 +15,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 - Records: 8
 - Selected: 2
-- POSS awaiting decision: 0
-- Excluded: 1
+- POSS awaiting decision: 1
+- Excluded: 0
 - Hard pass: 5
 
 ## SELECTED
@@ -53,13 +53,9 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/safeguarding-attendan
 
 ## POSS — choose SELECT or EXCLUDE
 
-- None.
-
-## EXCLUDED BY REVIEW
-
 ---
-action: exclude
-EXCLUDED | Bedfordshire | Luton, LU4 0PF | £16.62 - £17.85 Hourly | Governance Professional (Clerk)
+action: 
+POSS | Bedfordshire | Luton, LU4 0PF | £16.62 - £17.85 Hourly | Governance Professional (Clerk)
 employer: St Thomas Catholic Academies Trust
 closing_date: 2026-09-25T12:00:00+01:00
 reason: Borderline school administration title: governance professional
@@ -71,6 +67,10 @@ source: Teaching Vacancies
 source_job_id: governance-professional-clerk-st-thomas-catholic-academies-trust-luton-not-recorded
 source_url: https://teaching-vacancies.service.gov.uk/jobs/governance-professional-clerk-st-thomas-catholic-academies-trust-luton-not-recorded
 ---
+
+## EXCLUDED BY REVIEW
+
+- None.
 
 ## HARD_PASS
 

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — London
 
-review_date: 2026-09-05
-review_fingerprint: af5d3f25cfacf5e418d8123325bac73f80cfb46b2e4f5a9ddfb7098e0e2519f5
-routing_manifest_sha256: 470681d9f37d503102980dcb1fe7f45c6d8d4a374fc3c1cab53df51803c03f75
+review_date: 2026-09-06
+review_fingerprint: 1fdb2eaa589a1ac885c58d7e50d9dac1079e41deebb57a8a13da643a9e9a62c3
+routing_manifest_sha256: 7fd315145b2e460bd548d4a5c1a4c8d7322399f4429f2897b7d301e5f0809506
 ontap_region: London
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 48
-- Selected: 18
-- POSS awaiting decision: 1
+- Records: 47
+- Selected: 13
+- POSS awaiting decision: 5
 - Excluded: 0
 - Hard pass: 29
 
@@ -37,21 +37,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assist
 ---
 
 ---
-action: select
-SELECTED | London | London, London, NW10 2UF | £27,254.00 Annually (FTE) Term Time Only | Administrator
-employer: North Brent School
-closing_date: 2026-09-11T23:59:00+01:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 191ae12793a688c36e982f53c8c75b135af37598de3aebc9308101a40ec6c94d
-source: Teaching Vacancies
-source_job_id: administrator-north-brent-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-north-brent-school
----
-
----
 action: 
 SELECTED | London | Hayes, London, UB3 1PB | Scale 3, £29,436 fte (subject to pro rata) | Attendance Officer
 employer: Harlington School
@@ -64,21 +49,6 @@ factual_fingerprint: db828f86945354209bcc3e3f7f121e353ba338bc66c495408182223ec0a
 source: Teaching Vacancies
 source_job_id: attendance-officer-51e5944a-f923-43fe-901e-fe10c0fa1676
 source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-51e5944a-f923-43fe-901e-fe10c0fa1676
----
-
----
-action: select
-SELECTED | London | London, London, SW16 6NP | Grade 3 - Salary Spine point 5 to 6 - £31,086 to £31,530 (actual £28,592 to £29,002) | Office Administrator
-employer: St Leonard's Church of England Primary School
-closing_date: 2026-09-11T15:00:00+01:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: dfb8614e8859acc9e446d1f3a5130b800f5a77f9bf4b14abbd10dba60aa9a134
-source: Teaching Vacancies
-source_job_id: office-administrator-st-leonard-s-church-of-england-primary-school-london
-source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-st-leonard-s-church-of-england-primary-school-london
 ---
 
 ---
@@ -127,21 +97,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/post-16-academic-supe
 ---
 
 ---
-action: select
-SELECTED | London | London, London, SE11 5QY | £26,857.00 - £27,240.00 Annually (Actual) Room for progression | Receptionist
-employer: Lilian Baylis Technology School
-closing_date: 2026-09-18T10:00:00+01:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: c49a4b7a13bf551c6da1eb15fef1cf557a699be80f7bacfad2380287f86ab3c9
-source: Teaching Vacancies
-source_job_id: receptionist-lilian-baylis-technology-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-lilian-baylis-technology-school
----
-
----
 action: 
 SELECTED | London | Harrow, London, HA2 9AG | £14,166.00 Annually (Actual) | Receptionist & Admin Assistant
 employer: Heathland School
@@ -173,21 +128,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-part-tim
 
 ---
 action: 
-SELECTED | London | London, London, SW4 0AJ | £29,805.00 Annually (Actual) Inner London payscale Spine Point 2 | Receptionist / Administrator
-employer: Belleville Wix Academy
-closing_date: 2026-09-05T23:59:00+01:00
-reason: Clear admin/service title: administrator, receptionist
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 0dc0f8cc01bbda751c58861885916ce69efa336ebc3277eae3ce67ff5af2fd7e
-source: Teaching Vacancies
-source_job_id: receptionist-administrator-belleville-wix-academy-london
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrator-belleville-wix-academy-london
----
-
----
-action: 
 SELECTED | London | Ilford, London, IG2 6HX | £26,903.00 Annually (Actual) | Receptionist / Office Co-ordinator
 employer: Valentines High School
 closing_date: 2026-09-07T09:00:00+01:00
@@ -199,21 +139,6 @@ factual_fingerprint: d33c6476ba91e25b92d9af564e75cc526646e7290f806428edca49eb102
 source: Teaching Vacancies
 source_job_id: receptionist-office-co-ordinator
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-office-co-ordinator
----
-
----
-action: select
-SELECTED | London | Osterley, London, TW7 5PN | 28,195.00 - 29,852.00 | School Administrator
-employer: Nishkam School West London
-closing_date: 2026-09-18T00:00:00+01:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 8b9e05d1ce0c1907c3414549212366b0b7e2a26f20c63f4cff0f7dd0beb80873
-source: Teaching Vacancies
-source_job_id: school-administrator-nishkam-school-west-london
-source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-nishkam-school-west-london
 ---
 
 ---
@@ -306,6 +231,66 @@ factual_fingerprint: 01848d190453ff975d25b326a6f13d8a64e807408ebcb8d3213e62dab37
 source: Teaching Vacancies
 source_job_id: administration-officer-worsley-bridge-primary-school-beckenham-kent
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-officer-worsley-bridge-primary-school-beckenham-kent
+---
+
+---
+action: 
+POSS | London | London, London, NW10 2UF | £27,254.00 Annually (FTE) Term Time Only | Administrator
+employer: North Brent School
+closing_date: 2026-09-11T23:59:00+01:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 191ae12793a688c36e982f53c8c75b135af37598de3aebc9308101a40ec6c94d
+source: Teaching Vacancies
+source_job_id: administrator-north-brent-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-north-brent-school
+---
+
+---
+action: 
+POSS | London | London, London, SW16 6NP | Grade 3 - Salary Spine point 5 to 6 - £31,086 to £31,530 (actual £28,592 to £29,002) | Office Administrator
+employer: St Leonard's Church of England Primary School
+closing_date: 2026-09-11T15:00:00+01:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: dfb8614e8859acc9e446d1f3a5130b800f5a77f9bf4b14abbd10dba60aa9a134
+source: Teaching Vacancies
+source_job_id: office-administrator-st-leonard-s-church-of-england-primary-school-london
+source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-st-leonard-s-church-of-england-primary-school-london
+---
+
+---
+action: 
+POSS | London | London, London, SE11 5QY | £26,857.00 - £27,240.00 Annually (Actual) Room for progression | Receptionist
+employer: Lilian Baylis Technology School
+closing_date: 2026-09-18T10:00:00+01:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: c49a4b7a13bf551c6da1eb15fef1cf557a699be80f7bacfad2380287f86ab3c9
+source: Teaching Vacancies
+source_job_id: receptionist-lilian-baylis-technology-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-lilian-baylis-technology-school
+---
+
+---
+action: 
+POSS | London | Osterley, London, TW7 5PN | 28,195.00 - 29,852.00 | School Administrator
+employer: Nishkam School West London
+closing_date: 2026-09-18T00:00:00+01:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 8b9e05d1ce0c1907c3414549212366b0b7e2a26f20c63f4cff0f7dd0beb80873
+source: Teaching Vacancies
+source_job_id: school-administrator-nishkam-school-west-london
+source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-nishkam-school-west-london
 ---
 
 ## EXCLUDED BY REVIEW
