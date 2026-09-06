@@ -29,9 +29,9 @@ SAMPLE = """# Overview
 | Detail | Core | Sitewide |  | / | 1 |  | Yes |
 
 ## CITY OPPORTUNITIES
-| Status | Town/city/locality | Region | All live jobs | Existing pages | Current routes |
-|---|---|---|---:|---:|---|
-| CREATE | Lincoln | Lincolnshire | 12 | 0 |  |
+| Status | Town/city/locality | Region | All live jobs | Existing pages | Current routes | Service admin | Support worker | Sales advisor | Paralegal | Marketing | Finance / Accounts | HR / Recruitment | CS / Contact centre | Other / unclassified |
+|---|---|---|---:|---:|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| CREATE | Lincoln | Lincolnshire | 12 | 0 |  | 4 | 3 | 1 | 0 | 1 | 1 | 1 | 1 | 0 |
 
 ## LIVE
 | Region | Service admin |
@@ -65,6 +65,8 @@ class DailyOverviewXlsxTests(unittest.TestCase):
             self.assertEqual(workbook["JobG8 categories"]["C2"].value, 548)
             self.assertEqual(workbook["PAGES"]["F2"].value, 1964)
             self.assertEqual(workbook["CITY OPPORTUNITIES"]["D2"].value, 12)
+            self.assertEqual(workbook["CITY OPPORTUNITIES"]["G2"].value, 4)
+            self.assertEqual(workbook["CITY OPPORTUNITIES"]["O2"].value, 0)
             self.assertFalse(workbook["NOT LIVE"]["B2"].alignment.wrap_text)
             self.assertEqual(workbook["NOT LIVE"].row_dimensions[2].height, 20)
             workbook.close()

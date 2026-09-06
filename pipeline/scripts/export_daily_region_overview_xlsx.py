@@ -111,6 +111,8 @@ def export(markdown_path: Path, output_path: Path) -> None:
             widths = {"A": 18, "B": 30, "C": 34, "D": 16, "E": 16, "F": 60}
             for column, width in widths.items():
                 sheet.column_dimensions[column].width = width
+            for column in range(7, sheet.max_column + 1):
+                sheet.column_dimensions[get_column_letter(column)].width = 18
         if sheet_name == "NOT LIVE":
             for row_number in range(2, sheet.max_row + 1):
                 sheet.row_dimensions[row_number].height = 20
