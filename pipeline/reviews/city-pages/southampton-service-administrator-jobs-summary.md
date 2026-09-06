@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 5
-- automatic review: 63
+- automatic review: 66
 - automatic exclude: 6
 - effective include: 5
-- effective review: 63
+- effective review: 66
 - effective exclude: 6
 
 ## INCLUDE (5)
@@ -84,7 +84,7 @@ job_id: teaching-vacancies-receptionist-1dcaf299-1719-4cef-a999-af235a29010e
 reason: Approved Southampton catchment.
 ---
 
-## REVIEW (63)
+## REVIEW (66)
 
 ---
 action: 
@@ -259,6 +259,18 @@ action:
 decision: review
 automatic_decision: review
 title: Customer Service Administrator
+company: Recruitment Helpline - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-23643_225573408
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Customer Service Administrator
 company: Wild Recruitment - Agency - Permanent
 location: Hampshire
 source: JobG8
@@ -372,6 +384,18 @@ location: Alresford
 source: Teaching Vacancies
 job_id: teaching-vacancies-exams-officer-and-assessment-data-co-ordinator
 reason: No approved Southampton catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Front of House Coordinator
+company: University Of Southampton Students Union - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-23643_225573592
+reason: Broad location; review before city inclusion.
 ---
 
 ---
@@ -815,6 +839,18 @@ company: Mulberry Recruitment - Agency - Temporary
 location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225544259
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Temporary Service Administrator
+company: Mulberry Recruitment - Agency - Temporary
+location: Hampshire
+source: JobG8
+job_id: jobg8-23643_225572253
 reason: Broad location; review before city inclusion.
 ---
 

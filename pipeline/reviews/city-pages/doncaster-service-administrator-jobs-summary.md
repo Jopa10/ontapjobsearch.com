@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 7
 - automatic review: 1
-- automatic exclude: 20
+- automatic exclude: 22
 - effective include: 7
 - effective review: 1
-- effective exclude: 20
+- effective exclude: 22
 
 ## INCLUDE (7)
 
@@ -122,7 +122,19 @@ job_id: jobg8-23643_225516026
 reason: No approved Doncaster catchment rule matched; local review required.
 ---
 
-## EXCLUDE (20)
+## EXCLUDE (22)
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Accounts Assistant
+company: Sue Ross Recruitment Ltd - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-23643_225469996
+reason: Separate employment market.
+---
 
 ---
 action: 
@@ -193,6 +205,18 @@ company: Sue Ross Recruitment Ltd - Agency - Contract
 location: Sheffield
 source: JobG8
 job_id: jobg8-23643_225546545
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: GP receptionist/Administrator
+company: Royston Group Practice
+location: Barnsley, S71 4QW
+source: NHS Jobs
+job_id: nhs-5577083
 reason: Separate employment market.
 ---
 

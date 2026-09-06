@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 8
 - automatic review: 4
-- automatic exclude: 10
+- automatic exclude: 9
 - effective include: 8
 - effective review: 4
-- effective exclude: 10
+- effective exclude: 9
 
 ## INCLUDE (8)
 
@@ -170,7 +170,7 @@ job_id: jobg8-23643_225519683
 reason: No approved Peterborough catchment rule matched; local review required.
 ---
 
-## EXCLUDE (10)
+## EXCLUDE (9)
 
 ---
 action: 
@@ -229,18 +229,6 @@ company: Vaccination UK
 location: Huntingdon, PE296FH
 source: NHS Jobs
 job_id: nhs-5530494
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Assistant Town Planner
-company: Penguin Recruitment - Agency - Permanent
-location: Cambridge
-source: JobG8
-job_id: jobg8-23643_225468873
 reason: Separate employment market.
 ---
 

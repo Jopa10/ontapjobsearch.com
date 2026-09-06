@@ -4,7 +4,7 @@
 - Live route: `/belfast/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 34
+- Effective included jobs: 33
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,26 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 34
-- automatic review: 17
+- automatic include: 33
+- automatic review: 19
 - automatic exclude: 0
-- effective include: 34
-- effective review: 17
+- effective include: 33
+- effective review: 19
 - effective exclude: 0
 
-## INCLUDE (34)
+## INCLUDE (33)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Accounts Administrator - URGENT
+company: Apple Recruitment - Agency - Permanent
+location: Belfast
+source: JobG8
+job_id: jobg8-2051960
+reason: Approved conservative Belfast launch catchment.
+---
 
 ---
 action: 
@@ -208,42 +220,6 @@ reason: Approved conservative Belfast launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: HR Coordinator
-company: MCS Group - Agency - Permanent
-location: Belfast
-source: JobG8
-job_id: jobg8-2048184
-reason: Approved conservative Belfast launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Hub Administrator
-company: Reed Specialist Recruitment - Agency - Permanent
-location: Belfast
-source: JobG8
-job_id: jobg8-2051425
-reason: Approved conservative Belfast launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Medical Receptionist (17.5 hrs pw)
-company: Lynda Jacobs Recruitment - Agency - Permanent
-location: Belfast
-source: JobG8
-job_id: jobg8-2051645
-reason: Approved conservative Belfast launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Medical Receptionist (37.5 hrs pw)
 company: Lynda Jacobs Recruitment - Agency - Permanent
 location: Belfast
@@ -256,11 +232,11 @@ reason: Approved conservative Belfast launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Receptionist
-company: Reed Specialist Recruitment - Agency - Permanent
+title: PA/Secretary to Director
+company: Belfast City Council - Agency - Permanent
 location: Belfast
 source: JobG8
-job_id: jobg8-2051414
+job_id: jobg8-2051969
 reason: Approved conservative Belfast launch catchment.
 ---
 
@@ -424,6 +400,18 @@ reason: Approved conservative Belfast launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Street Works Coordinator
+company: Apple Recruitment - Agency - Permanent
+location: Belfast
+source: JobG8
+job_id: jobg8-2051958
+reason: Approved conservative Belfast launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Temporary Receptionist - Belfast
 company: Task Recruitment - Agency - Permanent
 location: Belfast
@@ -432,7 +420,7 @@ job_id: jobg8-2051377
 reason: Approved conservative Belfast launch catchment.
 ---
 
-## REVIEW (17)
+## REVIEW (19)
 
 ---
 action: 
@@ -462,11 +450,11 @@ reason: No approved Belfast catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Business Support Officer
-company: Platinum Recruitment - Agency - Permanent
-location: Newry
+title: Bank Receptionist/Administrator
+company: Extern - Agency - Permanent
+location: Newtownabbey
 source: JobG8
-job_id: jobg8-2051712
+job_id: jobg8-2052007
 reason: No approved Belfast catchment rule matched; local review required.
 ---
 
@@ -522,11 +510,35 @@ reason: No approved Belfast catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Office Administrator
+company: Reed Specialist Recruitment - Agency - Permanent
+location: Lisburn
+source: JobG8
+job_id: jobg8-2052014
+reason: No approved Belfast catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Operation Support Administrator (Temp)
 company: Honeycomb Jobs Ltd - Agency - Permanent
 location: Newry
 source: JobG8
 job_id: jobg8-2051465
+reason: No approved Belfast catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Receptionist - Immediate Start - Temporary 3 weeks
+company: Honeycomb Jobs Ltd - Agency - Permanent
+location: Holywood
+source: JobG8
+job_id: jobg8-2052024
 reason: No approved Belfast catchment rule matched; local review required.
 ---
 
@@ -634,7 +646,7 @@ title: Service Coordinator
 company: Hays - Agency - Permanent
 location: Newry
 source: JobG8
-job_id: jobg8-2048209
+job_id: jobg8-2051979
 reason: No approved Belfast catchment rule matched; local review required.
 ---
 

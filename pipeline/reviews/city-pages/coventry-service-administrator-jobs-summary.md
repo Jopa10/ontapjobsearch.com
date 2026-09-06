@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 2
 - automatic review: 2
-- automatic exclude: 24
+- automatic exclude: 26
 - effective include: 2
 - effective review: 2
-- effective exclude: 24
+- effective exclude: 26
 
 ## INCLUDE (2)
 
@@ -74,7 +74,7 @@ job_id: teaching-vacancies-receptionist-and-administrator-ftc-contract-september
 reason: No approved Coventry catchment rule matched; local review required.
 ---
 
-## EXCLUDE (24)
+## EXCLUDE (26)
 
 ---
 action: 
@@ -97,18 +97,6 @@ company: Reed - Agency - Permanent
 location: Warwickshire
 source: JobG8
 job_id: jobg8-1769740
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Billing Operations Administrator
-company: Manpower - Agency - Permanent
-location: Warwickshire
-source: JobG8
-job_id: jobg8-107940735
 reason: Separate employment market.
 ---
 
@@ -145,6 +133,30 @@ company: Adecco - Agency - Permanent
 location: Warwickshire
 source: JobG8
 job_id: jobg8-23643_225505608
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: E-Commerce Administrator
+company: Arden Personnel - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-23643_225573434
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: HR Administrator, Temporary to Permanent Opportunity
+company: Office Angels - Agency - Temporary
+location: Warwickshire
+source: JobG8
+job_id: jobg8-23643_225572898
 reason: Separate employment market.
 ---
 
@@ -241,6 +253,18 @@ company: Oak Wood Secondary School
 location: Nuneaton
 source: Teaching Vacancies
 job_id: teaching-vacancies-personal-assistant-pa-to-the-headteachers-oak-wood-schools
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Receptionist
+company: Adecco - Agency - Temporary
+location: Warwickshire
+source: JobG8
+job_id: jobg8-23643_225572830
 reason: Separate employment market.
 ---
 

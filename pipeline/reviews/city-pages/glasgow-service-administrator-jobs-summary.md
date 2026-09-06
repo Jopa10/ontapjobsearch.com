@@ -4,7 +4,7 @@
 - Live route: `/glasgow/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 14
+- Effective included jobs: 13
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 14
+- automatic include: 13
 - automatic review: 0
 - automatic exclude: 0
-- effective include: 14
+- effective include: 13
 - effective review: 0
 - effective exclude: 0
 
-## INCLUDE (14)
+## INCLUDE (13)
 
 ---
 action: 
@@ -105,18 +105,6 @@ company: EE - Company - Permanent
 location: Glasgow
 source: JobG8
 job_id: jobg8-21618_20279_61754-153faf593eb64b88272f45adeaa28d87
-reason: Approved conservative Glasgow launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Customer Service Advisor Part-time
-company: Muller UK & Ireland - Company - Permanent
-location: Glasgow
-source: JobG8
-job_id: jobg8-1765398
 reason: Approved conservative Glasgow launch catchment.
 ---
 

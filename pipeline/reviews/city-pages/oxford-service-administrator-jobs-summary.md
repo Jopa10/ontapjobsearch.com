@@ -224,6 +224,18 @@ reason: Broad county location; not Oxford-city evidence.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Business Administrator
+company: Care Concern Group - Company - Permanent
+location: Oxfordshire
+source: JobG8
+job_id: jobg8-107935968
+reason: Broad county location; not Oxford-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Business Support Assistant
 company: Allen Associates - Agency - Temporary
 location: Oxfordshire
@@ -277,18 +289,6 @@ company: Allen Associates - Agency - Permanent
 location: Oxfordshire
 source: JobG8
 job_id: jobg8-23643_225476635
-reason: Broad county location; not Oxford-city evidence.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Finance Assistant
-company: The Rosalind Franklin Institute - Company - Permanent
-location: Oxfordshire
-source: JobG8
-job_id: jobg8-1247531 [JSP51654]
 reason: Broad county location; not Oxford-city evidence.
 ---
 

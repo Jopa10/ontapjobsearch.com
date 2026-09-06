@@ -280,6 +280,30 @@ reason: Approved conservative Manchester launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Medical Administrator
+company: RADCLIFFE MEDICAL PRACTICE
+location: Manchester, M26 2SP
+source: NHS Jobs
+job_id: nhs-5565500
+reason: Approved conservative Manchester launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Medical Administrator
+company: RADCLIFFE MEDICAL PRACTICE
+location: Manchester, M26 2SP
+source: NHS Jobs
+job_id: nhs-5565592
+reason: Approved conservative Manchester launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Medical Receptionist
 company: North Trafford Group Practice
 location: Manchester, M32 0PA, Manchester, M160LW
@@ -345,30 +369,6 @@ company: Cherry Medical Practice
 location: Manchester, M28 0BB
 source: NHS Jobs
 job_id: nhs-5572945
-reason: Approved conservative Manchester launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Receptionist
-company: Greater Manchester Mental Health NHS Foundation Trust
-location: Manchester, M40 5BP
-source: NHS Jobs
-job_id: nhs-5573617
-reason: Approved conservative Manchester launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Receptionist & Admin
-company: The Vallance Brunswick Group
-location: Manchester, M13 9UJ
-source: NHS Jobs
-job_id: nhs-5535381
 reason: Approved conservative Manchester launch catchment.
 ---
 

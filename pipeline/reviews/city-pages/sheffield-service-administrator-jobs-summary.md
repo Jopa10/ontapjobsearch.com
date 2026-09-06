@@ -4,7 +4,7 @@
 - Live route: `/sheffield/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 16
+- Effective included jobs: 17
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,26 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 16
+- automatic include: 17
 - automatic review: 1
-- automatic exclude: 11
-- effective include: 16
+- automatic exclude: 12
+- effective include: 17
 - effective review: 1
-- effective exclude: 11
+- effective exclude: 12
 
-## INCLUDE (16)
+## INCLUDE (17)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Accounts Assistant
+company: Sue Ross Recruitment Ltd - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-23643_225469996
+reason: Approved Sheffield catchment.
+---
 
 ---
 action: 
@@ -230,7 +242,7 @@ job_id: jobg8-23643_225516026
 reason: No approved Sheffield catchment rule matched; local review required.
 ---
 
-## EXCLUDE (11)
+## EXCLUDE (12)
 
 ---
 action: 
@@ -277,6 +289,18 @@ company: EE - Company - Permanent
 location: Doncaster
 source: JobG8
 job_id: jobg8-21618_20279_62308-153faf593eb64b88272f45adeaa28d87
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: GP receptionist/Administrator
+company: Royston Group Practice
+location: Barnsley, S71 4QW
+source: NHS Jobs
+job_id: nhs-5577083
 reason: Separate employment market.
 ---
 

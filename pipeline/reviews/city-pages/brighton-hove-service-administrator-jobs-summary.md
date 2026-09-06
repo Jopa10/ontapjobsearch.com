@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 3
-- automatic review: 29
-- automatic exclude: 6
+- automatic review: 31
+- automatic exclude: 7
 - effective include: 3
-- effective review: 29
-- effective exclude: 6
+- effective review: 31
+- effective exclude: 7
 
 ## INCLUDE (3)
 
@@ -60,7 +60,7 @@ job_id: nhs-5548209
 reason: Approved Brighton & Hove catchment.
 ---
 
-## REVIEW (29)
+## REVIEW (31)
 
 ---
 action: 
@@ -119,6 +119,18 @@ company: First Recruitment Services - Agency - Temporary
 location: Sussex
 source: JobG8
 job_id: jobg8-23643_225523989
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Contract Administrator East Grinstead - Temp to Perm
+company: Invictus Recruitment - Agency - Contract
+location: Sussex
+source: JobG8
+job_id: jobg8-107938649
 reason: Broad location; review before city inclusion.
 ---
 
@@ -318,6 +330,18 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
+title: Receptionist
+company: Hamberley Care Management Limited - Company - Permanent
+location: Sussex
+source: JobG8
+job_id: jobg8-23643_225574004
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Recruitment Administrator P/T
 company: Pertemps Crawley - Agency - Permanent
 location: Sussex
@@ -410,7 +434,7 @@ job_id: teaching-vacancies-year-9-administrative-assistant-including-year-10-wor
 reason: No approved Brighton & Hove catchment rule matched; local review required.
 ---
 
-## EXCLUDE (6)
+## EXCLUDE (7)
 
 ---
 action: 
@@ -457,6 +481,18 @@ company: Arlington Road Medical Practice
 location: Eastbourne, BN21 1DH
 source: NHS Jobs
 job_id: nhs-5536742
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Receptionist/Care Navigator
+company: Parklands Surgery
+location: Chichester, PO19 3DT
+source: NHS Jobs
+job_id: nhs-5569929
 reason: Separate employment market.
 ---
 

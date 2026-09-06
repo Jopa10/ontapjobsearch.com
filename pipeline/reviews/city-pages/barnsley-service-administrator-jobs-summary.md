@@ -4,7 +4,7 @@
 - Live route: `/barnsley/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 0
+- Effective included jobs: 1
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,26 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 0
+- automatic include: 1
 - automatic review: 1
-- automatic exclude: 27
-- effective include: 0
+- automatic exclude: 28
+- effective include: 1
 - effective review: 1
-- effective exclude: 27
+- effective exclude: 28
 
-## INCLUDE (0)
+## INCLUDE (1)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: GP receptionist/Administrator
+company: Royston Group Practice
+location: Barnsley, S71 4QW
+source: NHS Jobs
+job_id: nhs-5577083
+reason: Approved Barnsley catchment.
+---
 
 ## REVIEW (1)
 
@@ -38,7 +50,7 @@ job_id: jobg8-23643_225516026
 reason: No approved Barnsley catchment rule matched; local review required.
 ---
 
-## EXCLUDE (27)
+## EXCLUDE (28)
 
 ---
 action: 
@@ -49,6 +61,18 @@ company: Staffline Operations - Agency - Temporary
 location: Doncaster
 source: JobG8
 job_id: jobg8-107804866
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Accounts Assistant
+company: Sue Ross Recruitment Ltd - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-23643_225469996
 reason: Separate employment market.
 ---
 

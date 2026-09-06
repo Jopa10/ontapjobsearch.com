@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 25
 - automatic review: 5
-- automatic exclude: 25
+- automatic exclude: 23
 - effective include: 25
 - effective review: 5
-- effective exclude: 25
+- effective exclude: 23
 
 ## INCLUDE (25)
 
@@ -386,7 +386,7 @@ job_id: nhs-5551474
 reason: No approved Leeds catchment rule matched; local review required.
 ---
 
-## EXCLUDE (25)
+## EXCLUDE (23)
 
 ---
 action: 
@@ -632,18 +632,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Senior Administrator
-company: Turning Point
-location: Wakefield, WF2 7AW
-source: NHS Jobs
-job_id: nhs-5561913
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Service Co-ordinator
 company: Veolia - Agency - Permanent
 location: Dewsbury
@@ -673,17 +661,5 @@ company: Tailored Recruitment Partners Limited - Agency - Temporary
 location: Bradford
 source: JobG8
 job_id: jobg8-23643_225476845
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Training Administrator
-company: Shorterm Group - Agency - Permanent
-location: Wakefield
-source: JobG8
-job_id: jobg8-23643_225465858
 reason: Separate employment market.
 ---
