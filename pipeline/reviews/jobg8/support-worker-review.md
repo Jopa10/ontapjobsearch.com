@@ -1,6 +1,6 @@
 # Support-worker manual review
 
-feed_date: 2026-09-05
+feed_date: 2026-09-06
 
 Edit only the `action:` line in each block:
 
@@ -165,6 +165,12 @@ job_id: 1402264062
 
 ---
 action:
+SELECTED | Kent | Kent | £13.45 per hour (£13.45) | Housing Support Worker (Casual)
+job_id: 23643_225534852
+---
+
+---
+action:
 SELECTED | Kent | Kent | £13.79 - £14.31 per hour | Bank Care Assistant
 job_id: 107858271
 ---
@@ -295,6 +301,12 @@ SELECTED | London | City | £26679 - £31325 per year | Mentoring Support Worker
 job_id: 2052022
 ---
 
+---
+action:
+SELECTED | London | London | £92 - £100 per daily | Children's Support Worker
+job_id: 23643_225574128
+---
+
 ## LONDON — POSSIBLES
 
 _No jobs in this group._
@@ -329,12 +341,6 @@ _No jobs in this group._
 action:
 SELECTED | Surrey | Farnham | £13.00 per hour | Specialist Academic Support Worker
 job_id: 1692926
----
-
----
-action:
-SELECTED | Surrey | Cobham | £13.45 per hour (£13.45) | Housing Support Worker (Casual)
-job_id: 23643_225534852
 ---
 
 ---
