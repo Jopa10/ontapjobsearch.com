@@ -154,7 +154,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/examinations-officer-
 ## BUCKINGHAMSHIRE — POSSIBLES
 
 ---
-action: exclude
+action: select
 POSS | Buckinghamshire | Milton Keynes, South East, MK10 7HE | £25,988.00 - £27,254.00 Annually (FTE) | Administrator
 employer: Brooklands Academy
 closing_date: 2026-09-11T12:00:00+01:00
@@ -245,7 +245,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-sw
 ## CAMBRIDGESHIRE — POSSIBLES
 
 ---
-action: exclude
+action: select
 POSS | Cambridgeshire | Peterborough, East of England, PE6 7JX | £14,802.00 Annually (Actual) | Administrator
 employer: Arthur Mellows Village College
 closing_date: 2026-09-14T09:00:00+01:00
@@ -962,7 +962,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/welfare-administrator
 ## LONDON — POSSIBLES
 
 ---
-action: exclude
+action: select
 POSS | London | London, London, NW10 2UF | £27,254.00 Annually (FTE) Term Time Only | Administrator
 employer: North Brent School
 closing_date: 2026-09-11T23:59:00+01:00
@@ -972,7 +972,7 @@ source_job_id: administrator-north-brent-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-north-brent-school
 ---
 ---
-action: exclude
+action: select
 POSS | London | London, London, SW16 6NP | Grade 3 - Salary Spine point 5 to 6 - £31,086 to £31,530 (actual £28,592 to £29,002) | Office Administrator
 employer: St Leonard's Church of England Primary School
 closing_date: 2026-09-11T15:00:00+01:00
@@ -982,7 +982,7 @@ source_job_id: office-administrator-st-leonard-s-church-of-england-primary-schoo
 source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-st-leonard-s-church-of-england-primary-school-london
 ---
 ---
-action: exclude
+action: select
 POSS | London | London, London, SE11 5QY | £26,857.00 - £27,240.00 Annually (Actual) Room for progression | Receptionist
 employer: Lilian Baylis Technology School
 closing_date: 2026-09-18T10:00:00+01:00
@@ -992,7 +992,7 @@ source_job_id: receptionist-lilian-baylis-technology-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-lilian-baylis-technology-school
 ---
 ---
-action: exclude
+action: select
 POSS | London | Osterley, London, TW7 5PN | 28,195.00 - 29,852.00 | School Administrator
 employer: Nishkam School West London
 closing_date: 2026-09-18T00:00:00+01:00
@@ -1345,7 +1345,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/people-administrator-
 ## SOMERSET — POSSIBLES
 
 ---
-action: exclude
+action: select
 POSS | Somerset | Taunton, South West, TA2 8FT | Actual Annual Salary | Senior Office Administrator
 employer: West Monkton Church of England School
 closing_date: 2026-09-10T12:00:59+01:00
@@ -1526,7 +1526,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 ## WEST MIDLANDS - BIRMINGHAM & SOLIHULL — POSSIBLES
 
 ---
-action: exclude
+action: select
 POSS | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B45 9BN | £6,072.00 - £6,072.00 Annually (Actual) | Office Administrator
 employer: St James Catholic Primary School
 closing_date: 2026-09-16T09:00:00+01:00
@@ -1536,7 +1536,7 @@ source_job_id: office-administrator-st-james-catholic-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-st-james-catholic-primary-school
 ---
 ---
-action: exclude
+action: select
 POSS | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B45 0EU | £22,121.00 Annually (Actual) | Receptionist
 employer: King Edward VI Balaam Wood Academy
 closing_date: 2026-09-21T09:00:00+01:00
@@ -1561,7 +1561,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 ## WEST MIDLANDS - BLACK COUNTRY — POSSIBLES
 
 ---
-action: exclude
+action: select
 POSS | West Midlands - Black Country | Wednesbury, West Midlands, WS10 7PZ | £22,828 – £23,935 | Office Administrator
 employer: Holyhead Primary Academy
 closing_date: 2026-09-13T23:59:00+01:00

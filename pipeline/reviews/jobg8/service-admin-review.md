@@ -2882,11 +2882,10 @@ job_id: 107793815
 ## BRISTOL & BATH — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - BRISTOL & BATH | Bristol & Bath | Bristol | £35000 per year | Executive Assistant
 job_id: 107932845
 ---
-
 ## BUCKINGHAMSHIRE — SELECTED
 
 ---
@@ -3102,11 +3101,10 @@ job_id: 1865042
 ## CAMBRIDGESHIRE — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - CAMBRIDGESHIRE | Cambridgeshire | Cambridge | £45000 per year | Service Advisor
 job_id: 107880924
 ---
-
 ## CHESHIRE - EAST — SELECTED
 
 ---
@@ -5524,11 +5522,10 @@ job_id: 107935968
 ## OXFORDSHIRE — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - OXFORDSHIRE | Oxfordshire | Oxfordshire | £44026 per year | Recruitment Coordinator
 job_id: 107927202
 ---
-
 ## SCOTLAND CENTRAL - EDINBURGH & LOTHIANS — SELECTED
 
 ---
