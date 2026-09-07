@@ -2,15 +2,111 @@
 
 review_date: 2026-09-07
 
-- Open Administrative & Clerical rows reviewed: 1980
-- Auto/remembered selected: 365
-- Selected HC Tier A: 176
-- Selected HC Tier B: 189
-- POSS awaiting decision: 1460
+- Open Administrative & Clerical rows reviewed: 1995
+- Auto/remembered selected: 374
+- Selected HC Tier A: 183
+- Selected HC Tier B: 191
+- POSS awaiting decision: 1466
 - Excluded: 0
 - HARD_PASS: 155
 
 Edit only each `action:` line for POSS rows. Unchanged decisions are restored by the shared decision ledger.
+
+---
+action:
+POSS | NHS Jobs | Yorkshire - West | Leeds, LS8 3BZ | £13.80 to £15.00 | Reception Supervisor
+source_job_id: 5584225
+title: Reception Supervisor
+employer: Oakwood Lane Medical Practice
+region: Yorkshire - West
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A1168-26-0009
+factual_fingerprint: f9c3da9f7f20d8c29d2acb6503ca13901aa5085145a6d4a09e55c9f52a62cfa7
+---
+
+---
+action:
+POSS | NHS Jobs | Greater Manchester - North | Oldham, OL1 2JH | £25272.00 | Neonatal Intensive Care - Ward Clerk
+source_job_id: 5583319
+title: Neonatal Intensive Care - Ward Clerk
+employer: Northern Care Alliance NHS Foundation Trust
+region: Greater Manchester - North
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9236-26-0999
+factual_fingerprint: 72d0a299a213dcb786a6e66d9fe7193b4a23fc3a457087163c4e06cb819ec7aa
+---
+
+---
+action:
+POSS | NHS Jobs | Berkshire | READING, RG6 5HZ | Negotiable | Chief Delivery Officer
+source_job_id: 5584010
+title: Chief Delivery Officer
+employer: The Primary Care Alliance CIC
+region: Berkshire
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A3584-26-0020
+factual_fingerprint: 32388bc9a57901835c3ef36e0891a7857cfefbcf927d8ec9a4e65af36fc3e810
+---
+
+---
+action:
+POSS | NHS Jobs | London | Sutton, SM2 5PT | £33262.00 to £36027.00 | Learning Management System Administrator
+source_job_id: 5584055
+title: Learning Management System Administrator
+employer: The Royal Marsden NHS Foundation Trust
+region: London
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9282-26-0788
+factual_fingerprint: 7f8d18449b717abcaf035f5e56f019aea3d36c34255276f44dc9768e5f0181ce
+---
+
+---
+action:
+POSS | NHS Jobs | — | Hackney London, E5 0LJ | £34186.00 to £37389.00 | Transfer of Care Hub Administrator
+source_job_id: 5584150
+title: Transfer of Care Hub Administrator
+employer: Homerton Healthcare NHS Foundation Trust
+region: 
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9293-26-0463
+factual_fingerprint: c225abbb807e79cbfdfadcbfd84aab49a8fd343438106501666326ced0d0fb67
+---
+
+---
+action:
+POSS | NHS Jobs | Bristol & Bath | Bristol, BS20 7QA, Bristol, BS20 7QA | £13.50 | Clinical Administrator / Secretary (full or part time)
+source_job_id: 5581896
+title: Clinical Administrator / Secretary (full or part time)
+employer: Harbourside Family Practice
+region: Bristol & Bath
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A0356-26-0008
+factual_fingerprint: 80c73ffe146897842e3d4850628cae9e1193d5fdf0e0c1c840bcf66e13ff6cb7
+---
+
+---
+action:
+POSS | NHS Jobs | Suffolk | Bury St Edmunds, IP33 2QZ | £25760.00 to £27476.00 | Ward Inventory Controller
+source_job_id: 5580112
+title: Ward Inventory Controller
+employer: West Suffolk NHS Foundation Trust
+region: Suffolk
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9179-26-0578
+factual_fingerprint: 1487f2622df21f19d2489a81102a836a22935cc65588fe4e5f2a2111bcbb3c1b
+---
+
+---
+action:
+POSS | NHS Jobs | Cornwall | Truro, TR4 8QS | Negotiable | PCN Care Co-ordinator
+source_job_id: 5583711
+title: PCN Care Co-ordinator
+employer: Carnon Downs Surgery
+region: Cornwall
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A3328-26-0012
+factual_fingerprint: 597ed5124c4479458132eb1bce2b6a6de45b39a4b050fcf545a74bdea08d26bd
+---
 
 ---
 action:
@@ -2757,7 +2853,7 @@ employer: University Hospitals of Derby and Burton NHS Foundation Trust
 region: East Midlands
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9320-26-0871
-factual_fingerprint: 561af5bd5968cf2b214e073ff6f10b0d3509d2a6b0bb1c3823488c5c791caf2b
+factual_fingerprint: 6899d16a0d551d9e59f1091db9e5a2e221dd8b0bbe62a5905cf14d9b7e163298
 ---
 
 ---
@@ -2769,7 +2865,7 @@ employer: University Hospitals of Derby and Burton NHS Foundation Trust
 region: East Midlands
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9320-26-0870
-factual_fingerprint: 2fb66c29d7779713d875057650e41ab18925bf466e546741ee391d6e7ff68436
+factual_fingerprint: 161a6029bf8f35e8f32db16c2ec3b9de798a7b7a433052777673c26a38679678
 ---
 
 ---
@@ -9662,18 +9758,6 @@ factual_fingerprint: 7375f1f34bfa7205e1e561a173f5a671e7701fa32cdfcffbdeda8903746
 
 ---
 action:
-POSS | NHS Jobs | — | London and Surrey Area, SW182QU | £92500.00 | Regional Director - London and Surrey Area
-source_job_id: 5568945
-title: Regional Director - London and Surrey Area
-employer: Avery Healthcare Group Ltd.
-region: 
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/L0034-26-3624
-factual_fingerprint: 4b42a22c2cb6954ae6e91bbcc91413e45282a8cdddcb780f0e6261ca798a3001
----
-
----
-action:
 POSS | NHS Jobs | Hertfordshire | Stevenage, SG1 4AB | £28392.00 to £31157.00 | 1st Line Support Engineer - Digital Operations
 source_job_id: 5569521
 title: 1st Line Support Engineer - Digital Operations
@@ -15346,18 +15430,6 @@ region: Wales - West
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/H9100-26-1025
 factual_fingerprint: 4fc8267df60d6db8e7c0fa1fae59778e5b3ef5f1d480b664471f7f64a2eefe94
----
-
----
-action:
-POSS | NHS Jobs | Yorkshire - West | Bradford, BD7 3EG | Negotiable | Care Navigator
-source_job_id: 5556581
-title: Care Navigator
-employer: HORTON PARK MEDICAL PRACTICE
-region: Yorkshire - West
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A1038-26-0015
-factual_fingerprint: 5ef9781a47e14d6f9c3ac4316ce3423f5359eeb669f499d63735ddc5065ba909
 ---
 
 ---

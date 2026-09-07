@@ -456,6 +456,31 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "1844909",
+    "title": "Recruitment & Learning Co-ordinator",
+    "company": "Hays Specialist Recruitment Limited - Agency - Permanent",
+    "location": "Northallerton",
+    "region": "Yorkshire - North",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "",
+    "posted_date": "",
+    "description": "Your new company An extremely successful manufacturing organisation.\n\nYour new role\nThe Talent and Development Assistant plays a key role in supporting the attraction, onboarding and training of employees across the UK organisation.\n\nThe role provides administrative and operational support for recruitment, onboarding, and\nlearning and development activities, ensuring employees and candidates receive a professional and positive experience throughout their journey with the business.\nThe role holder will support the end-to-end recruitment process, coordinate and deliver onboarding activities, maintain training systems and records and assist in developing workforce capability through effective learning and development administration.\n\nWhat you'll need to succeed\n- Previous experience in an administrative, recruitment, learning and development, or people-related role.\n- Strong organisational skills with excellent attention to detail.\n- Ability to manage multiple tasks and competing priorities.\n- Excellent written and verbal communication skills.\n- Strong customer service and stakeholder management skills.\n- Good working knowledge of Microsoft Office applications, particularly Excel, Word, Outlook, and Teams.\n- Ability to maintain confidential information and handle sensitive data appropriately.\n- Experience maintaining databases, systems, or records accurately.\n\nWhat you need to do now\n\nIf you're interested in this role, click 'apply now' to forward an up-to-date copy of your CV, or call us now.\nIf this job isn't quite right for you, but you are looking for a new position, please contact us for a confidential discussion about your career.\n\nHays Specialist Recruitment Limited acts as an employment agency for permanent recruitment and employment business for the supply of temporary workers. By applying for this job you accept the T&C's, Privacy Policy and Disclaimers which can be found at hays.co.uk",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?bZCSDJyF3N40YGzjU4o0Li2RASYP695Xq",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Hays Specialist Recruitment Limited",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
     "job_id": "nhs-5570628",
     "source": "NHS Jobs",
     "title": "Administrator - Receptionist",
@@ -471,7 +496,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9346-26-1032",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9346-26-1032",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5570734",
@@ -489,7 +518,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9346-26-1036",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9346-26-1036",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5570653",
@@ -507,7 +540,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9346-26-1033",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9346-26-1033",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5564613",
@@ -525,6 +562,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9346-26-1021",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9346-26-1021",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

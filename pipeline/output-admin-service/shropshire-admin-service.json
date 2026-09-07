@@ -356,6 +356,31 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "1843846",
+    "title": "Customer Technical Helpdesk Advisor",
+    "company": "Hays Specialist Recruitment Limited - Agency - Permanent",
+    "location": "Shropshire",
+    "region": "Shropshire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "",
+    "posted_date": "",
+    "description": "Your new company\nThe Customer Technical Helpdesk Advisor is responsible for providing high-quality technical support to customers, installers, partners, and internal stakeholders.The role involves diagnosing and resolving technical issues, supporting product configuration and setup, managing customer enquiries, and ensuring a positive customer experience throughout the support journey. Working closely with internal technical teams, the successful candidate will act as a trusted point of contact, delivering effective solutions and contributing to continuous improvement initiatives.\n\nYour new role\n- Provide technical support to customers, partners and internal stakeholders via telephone, email and support ticketing systems.\n- Diagnose and resolve hardware, software and connectivity issues in a timely and professional manner.\n- Support the configuration, setup and commissioning of products and systems.\n- Investigate faults, identify root causes and recommend appropriate solutions.\n- Escalate complex technical issues to specialist teams where necessary.\n- Maintain accurate and detailed records of customer interactions, investigations and resolutions.\n- Prioritise and manage multiple support cases while meeting agreed service standards.\n- Provide clear and concise technical guidance to both technical and non-technical users.\n- Collaborate with Product, Engineering and other internal departments to resolve customer issues.\n- Test and validate solutions before communicating recommendations to customers.\n- Assist with the creation and maintenance of technical documentation, knowledge base articles and troubleshooting guides.\n- Identify recurring issues and trends and provide feedback to support continuous improvement initiatives.\n- Ensure all activities are carried out in accordance with company policies, procedures and quality standards.\n\nWhat you'll need to succeed\n- Previous experience within a technical support, technical helpdesk or customer service environment.\n- Strong troubleshooting and problem-solving skills.\n- Excellent verbal and written communication skills.\n- Ability to explain technical concepts to non-technical audiences.\n- Experience managing multiple tasks and priorities in a fast-paced environment.\n- Strong organisational skills and attention to detail.\n- Customer-focused approach with a commitment to delivering excellent service.\n- Good working knowledge of Microsoft Office applications and business systems.\n- Ability to work independently and as part of a team.\n- Positive attitude with a willingness to learn and develop technical knowledge.\n\nDesirable\n- Experience using CRM, helpdesk or ticket management systems.\n- Knowledge of networking, connectivity or technical diagnostic processes.\n- Previous experience supporting technical products or systems.\n- Experience within a customer-facing technical support role.\n\nWhat you'll get in return\n- Competitive salary with regular review opportunities\n- Annual bonus and performance-related incentives\n- Generous holiday allowance plus public holidays\n- Company pension scheme\n- Ongoing training and professional development\n- Clear progression pathways within a growing organisation\n- Supportive and collaborative team environment\n- Opportunity to work with innovative technologies in a rapidly expanding market\n- Employee wellbeing initiatives and support programmes\n- Flexible working arrangements where business needs allow\n- Modern office facilities and equipment\n- Regular team events and recognition programmes\n\nWhat you need to do now\n\nIf you're interested in this role, click 'apply now' to forward an up-to-date copy of your CV, or call us now.\nIf this job isn't quite right for you, but you are looking for a new position, please contact us for a confidential discussion about your career.\n\nHays Specialist Recruitment Limited acts as an employment agency for permanent recruitment and employment business for the supply of temporary workers. By applying for this job you accept the T&C's, Privacy Policy and Disclaimers which can be found at hays.co.uk",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?1tcg6Aj2zawLnexYktZGcjVyWp2jzHm4b",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Hays Specialist Recruitment Limited",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
     "job_id": "nhs-5573104",
     "source": "NHS Jobs",
     "title": "Receptionist",
@@ -371,7 +396,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1923-26-0047",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1923-26-0047",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5567689",
@@ -389,7 +418,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9301-26-1239",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9301-26-1239",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5564870",
@@ -407,6 +440,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0132-26-1896",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0132-26-1896",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

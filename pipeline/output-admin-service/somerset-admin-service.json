@@ -384,6 +384,31 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "1841501",
+    "title": "Project Coordinator - Software Systems",
+    "company": "Change Recruitment Services Ltd - Agency - Permanent",
+    "location": "Somerset",
+    "region": "Somerset",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "",
+    "posted_date": "",
+    "description": "We are currently recruiting a Software Project Delivery role for a software development business based in Bridgwater. This role is crucial in supporting the business deliver software projects on time as well as providing first line support to customers throughout and after implementation.\n\nThe ideal candidate will have experience working in project administration as well as with software systems, in particular business and ERP systems.\n\nKey duties include:\n- Ensure that software services projects are scheduled, and project managers are supported to achieve implementation to time, cost, quality and to meet client delivery requirements\n- Ensure that project managers are aware of all changes to client requirements and such changes are incorporated into projects plans and delivery schedules.\n- Act as first line support to software customers, acting as a triage for the development team. Ensuring urgent cases get the required prioritisation.\n- Be responsible for customer feedback surveys, providing analysis for management\n- Ensure that any additional commercial opportunities with existing customers are optimised and that positive customer relationships are maintained.\n- Lead on delivery of Customer Satisfaction data collection, root cause analysis of results and staff training for Software Services teams.\n- Ad-hoc duties as required\n\nThis role would lend itself to someone who highly organised and likes to be involved in all aspects of a project lifecycle.\n\nThere is a full job description to review for this opportunity so If this role offers the type of challenge you are looking for in your career then apply to us to manage your recruitment process and we will help you every step of the way.\n\nChange Recruitment Services Limited provides services as an Agency and an Employment Business, and is committed to equal opportunities for all candidates.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?QHpHeWTcrP5X5ZAEA3DJGEr6R9PGFIkry",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Change Recruitment Services Ltd",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
     "job_id": "nhs-5564958",
     "source": "NHS Jobs",
     "title": "Receptionist/Administration Assistant",
@@ -399,7 +424,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9387-26-1771",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9387-26-1771",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5567096",
@@ -417,6 +446,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2122-26-0011",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2122-26-0011",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

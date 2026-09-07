@@ -197,7 +197,7 @@
     "salary_text": "£35000 per year",
     "posted_date": "",
     "description": "Client Services Coordinator\nSalary: Up to £35k DOE\nLocation: Barnstaple\nWorking Pattern: Hybrid - c 3 days a week in the office\nOur client is looking for an organised, personable and proactive Client Services Coordinator to join their busy team in Barnstaple.\n\nYoull be an important link between clients and colleagues, helping to keep communication, enquiries and administration moving smoothly across the click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?iZmgAWfngDztfw98cQGbKDLLzTjRss2wf",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?kjuUUj3TFp4GL62xKpaSKCXODZFsiYs1g",
     "source": "JobG8",
     "working_arrangement": "hybrid",
     "working_arrangement_text": "3 office days per week",
@@ -509,29 +509,26 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "107942039",
-    "title": "Service Desk Analyst",
-    "company": "South West Water - Agency - Permanent",
-    "location": "Devon",
+    "job_id": "nhs-5584212",
+    "source": "NHS Jobs",
+    "title": "Receptionist",
+    "company": "Axminster Medical Practice",
+    "advertiser_name": "Axminster Medical Practice",
+    "location": "Axminster, EX13 5AG",
     "region": "Devon",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
+    "salary": "£12.80",
     "employment_type": "Permanent",
-    "salary_min": "30000",
-    "salary_max": "30000",
-    "salary_text": "£30000 per year",
-    "posted_date": "",
-    "description": "Powered by Water, Driven by Purpose\nSouth West Water keeps the South West flowing with safe, reliable drinking water and wastewater services across some of the UK's most stunning landscapes.\nWe're proud to be part of Pennon Group, a leader in the UK water sector, working towards a greener future. Our goals? As well as lowering our carbon footprint, we're working with partners to plant 300,000 trees, click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?gZ0pd2TJz0J0quvXOUAoz3hHirpn89XSs",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "South West Water",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
+    "posted_date": "2026-09-07T16:32:43.183948061",
+    "closing_date": "2026-09-16",
+    "description": "We are looking for someone to join our excellent reception team who all work very hard at being the first point of contact for the majority of patients. The role is demanding, and sometimes difficult, but overall rewarding. The whole Practice Team are friendly and we look forward to welcoming a new member of staff. This is a part-time post working Tuesday 07:45 - 18:00 and Friday 07:45 - 17:00 with an hour unpaid lunch break in each day. You will also be required to work some occasional additional shifts (possibly half days) to cover holiday / sickness but these are not regular. To be responsible for undertaking a wide range of reception duties and the provision of general support to the multidisciplinary team. Duties can include, but are not limited to, greeting and directing patients, effective use of the appointment system, booking appointments, the processing of information and assisting patients as required. To act as the central point of contact for patients, the distribution of information, messages and enquiries for the clinical team, liaising with multi-disciplinary team members and external agencies such as secondary care and community service providers. The following are the core responsibilities of the Receptionist. There may be, on occasion, a requirement to carry out other tasks. This will be dependent upon factors such as workload and staffing levels: a. Maintain and monitor the practice appointment system b. Process personal, telephone and e-requests for appointments c. Answer incoming phone calls, transferring calls or dealing with the callers request appropriately d. Signpost patients to the correct service e. Initiating contact with and responding to, requests from patients, team members and external agencies f. Clinically code data on SystmOne g. Photocopy documentation as required h. Data entry of new and temporary registrations and relevant patient information as required i. Input data into patients healthcare records as necessary j. Manage all queries as necessary in an efficient manner k. Maintain a clean, tidy, effective working area at all times l. Monitor and maintain the reception area and notice boards m. Support all clinical staff with general tasks as requested n. Provide cover during staff absences o. Action incoming emails and correspondence as necessary p. Complete opening and closing procedures in accordance with the duty rota q. Produce, maintain and participate in the receptionist rota for lunch and out of hours cover",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5623-26-0001",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5623-26-0001",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5567539",
@@ -549,7 +546,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C0023-26-1052",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C0023-26-1052",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5552054",
@@ -567,7 +568,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2737-26-0005",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2737-26-0005",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5555068",
@@ -585,7 +590,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0570-26-0005",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0570-26-0005",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5549527",
@@ -603,6 +612,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4916-26-0001",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4916-26-0001",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

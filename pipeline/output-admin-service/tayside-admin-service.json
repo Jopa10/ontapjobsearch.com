@@ -1,30 +1,5 @@
 [
   {
-    "job_id": "23643_225544991",
-    "title": "Data Protection Administrator",
-    "company": "Search Consultancy Ltd - Agency - Contract",
-    "location": "Dundee",
-    "region": "Scotland Central - Tayside",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Contract",
-    "salary_min": "14",
-    "salary_max": "14",
-    "salary_text": "£14 per hour",
-    "posted_date": "",
-    "description": "Here's a professional job advert based on your notes:\n\nData Protection Administrator (SARs)\n\nRemote Full-Time Temporary (2-4 Weeks)\n\nWe are currently seeking an experienced Data Protection Administrator to support our clients team on a temporary basis for an initial 2-4 week assignment. This role will focus on managing a backlog of Subject Access Requests (SARs) and ensuring requests are processed accurately and efficiently.\n\nKey Responsibilities\n- Processing and managing Subject Access Requests (SARs) in line with GDPR and data protection requirements.\n- Working through an existing backlog of SAR requests.\n- Managing a shared inbox and responding to SAR-related enquiries.\n- Maintaining and updating request tracking logs and reporting tools.\n- Liaising with internal stakeholders and IT teams to gather required information.\n- Reviewing requests and advising on the information required to progress cases.\n- Supporting the end-to-end SAR process to ensure requests are completed within required timescales.\n\nEssential Requirements\n- Previous experience processing Subject Access Requests (SARs).\n- Strong understanding of GDPR and data protection principles.\n- Excellent attention to detail and organisational skills.\n- Ability to manage multiple requests and prioritise workload effectively.\n- Experience maintaining trackers and administrative records.\n- Confident communicating with stakeholders across different business areas.\n- Ability to work independently in a fully remote environment.\n\nContract Details\n- Duration: 2-4 weeks\n- Hours: Full-time\n- Location: Fully remote\n- Start Date: Immediate start available\n\nThis is an excellent opportunity for an experienced Data Protection professional looking for a short-term assignment with an immediate impact.\n\nSearch is an equal opportunities recruiter and we welcome applications from all suitably skilled or qualified applicants, regardless of their race, sex, disability, religion/beliefs, sexual orientation or age",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?UzhMt9n%2bTsSO1F4KKD0jDxssn92KaKGGm",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Search Consultancy Ltd",
-    "advertiser_type": "Agency",
-    "work_pattern": "Full Time",
-    "salary_period": "Hourly",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "23643_225556195",
     "title": "Agricultural Machinery Sales Admin (Progression to Coordinator)",
     "company": "Ernest Gordon Recruitment Limited - Agency - Permanent",
@@ -140,6 +115,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0233-26-1854",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0233-26-1854",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]
