@@ -1,10 +1,10 @@
-# Belfast admin and customer-service jobs city-page review
+# Belfast admin and office jobs city-page review
 
 - Parent regional page: `app/_city-pages/configured-slices/northern-ireland-east/service-administrator-jobs.json`
 - Live route: `/belfast/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 34
+- Effective included jobs: 38
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 34
-- automatic review: 19
+- automatic include: 38
+- automatic review: 24
 - automatic exclude: 0
-- effective include: 34
-- effective review: 19
+- effective include: 38
+- effective review: 24
 - effective exclude: 0
 
-## INCLUDE (34)
+## INCLUDE (38)
 
 ---
 action: 
@@ -45,6 +45,30 @@ company: MCS Group - Agency - Permanent
 location: Belfast
 source: JobG8
 job_id: jobg8-2052021
+reason: Approved conservative Belfast launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Accounts Payable Assistant (12m FTC)
+company: A&O Shearman - Agency - Permanent
+location: Belfast
+source: JobG8
+job_id: jobg8-21582_108468762
+reason: Approved conservative Belfast launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Assistant Finance Officer
+company: Hays - Agency - Permanent
+location: Belfast
+source: JobG8
+job_id: jobg8-2051928
 reason: Approved conservative Belfast launch catchment.
 ---
 
@@ -208,6 +232,18 @@ reason: Approved conservative Belfast launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Finance Officer
+company: Independent Commission for Reconciliation and Information Recovery (ICRIR) - Agency - Permanent
+location: Belfast
+source: JobG8
+job_id: jobg8-2051848
+reason: Approved conservative Belfast launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Financial Services Administrator
 company: Honeycomb Jobs Ltd - Agency - Permanent
 location: Belfast
@@ -249,6 +285,18 @@ company: Belfast City Council - Agency - Permanent
 location: Belfast
 source: JobG8
 job_id: jobg8-2051969
+reason: Approved conservative Belfast launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Payroll Administrator
+company: Hays - Agency - Permanent
+location: Belfast
+source: JobG8
+job_id: jobg8-2052035
 reason: Approved conservative Belfast launch catchment.
 ---
 
@@ -432,7 +480,19 @@ job_id: jobg8-2051377
 reason: Approved conservative Belfast launch catchment.
 ---
 
-## REVIEW (19)
+## REVIEW (24)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Payable Assistant (12m FTC)
+company: A&O Shearman - Agency - Permanent
+location: County Antrim
+source: JobG8
+job_id: jobg8-21582_108468739
+reason: No approved Belfast catchment rule matched; local review required.
+---
 
 ---
 action: 
@@ -474,11 +534,59 @@ reason: No approved Belfast catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Bookkeeper/Accounts Technician
+company: MCS Group - Agency - Permanent
+location: Lisburn
+source: JobG8
+job_id: jobg8-2051831
+reason: No approved Belfast catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Clerical Officer
 company: Apple Recruitment Services - Agency - Permanent
 location: Ballymena
 source: JobG8
 job_id: jobg8-2048412
+reason: No approved Belfast catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Finance Administrator (Newtownards)
+company: Honeycomb Jobs Ltd - Agency - Permanent
+location: County Down
+source: JobG8
+job_id: jobg8-2050963
+reason: No approved Belfast catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Finance Clerk
+company: MCS Group - Agency - Permanent
+location: Lisburn
+source: JobG8
+job_id: jobg8-2051949
+reason: No approved Belfast catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Finance Officer
+company: Your World Recruitment Ltd - Agency - Permanent
+location: Newtownards
+source: JobG8
+job_id: jobg8-23643_225512167
 reason: No approved Belfast catchment rule matched; local review required.
 ---
 

@@ -1,4 +1,4 @@
-# Huddersfield admin and customer-service jobs city-page review
+# Huddersfield admin and office jobs city-page review
 
 - Parent regional page: `app/west-yorkshire/service-administrator-jobs.json`
 - Live route: `/huddersfield/service-administrator-jobs`
@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 3
 - automatic review: 6
-- automatic exclude: 44
+- automatic exclude: 45
 - effective include: 3
 - effective review: 6
-- effective exclude: 44
+- effective exclude: 45
 
 ## INCLUDE (3)
 
@@ -134,7 +134,7 @@ job_id: nhs-5573894
 reason: No approved Huddersfield catchment rule matched; local review required.
 ---
 
-## EXCLUDE (44)
+## EXCLUDE (45)
 
 ---
 action: 
@@ -565,6 +565,18 @@ company: pyramid8 - Agency - Permanent
 location: Wakefield
 source: JobG8
 job_id: jobg8-1765964
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Sales Executive
+company: Red Rhino Solutions - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-1783192
 reason: Separate employment market.
 ---
 

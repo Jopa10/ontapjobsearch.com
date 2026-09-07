@@ -1,10 +1,10 @@
-# Sheffield admin and customer-service jobs city-page review
+# Sheffield admin and office jobs city-page review
 
 - Parent regional page: `app/south-yorkshire/service-administrator-jobs.json`
 - Live route: `/sheffield/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 17
+- Effective included jobs: 15
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 17
+- automatic include: 15
 - automatic review: 1
 - automatic exclude: 12
-- effective include: 17
+- effective include: 15
 - effective review: 1
 - effective exclude: 12
 
-## INCLUDE (17)
+## INCLUDE (15)
 
 ---
 action: 
@@ -45,18 +45,6 @@ company: The Rowan School
 location: Sheffield
 source: Teaching Vacancies
 job_id: teaching-vacancies-admin-clerical-officer-level-2-rowan-school
-reason: Approved Sheffield catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrative Assistant
-company: Sheffield Teaching Hospitals NHS Foundation Trust
-location: Sheffield, S2 3QE
-source: NHS Jobs
-job_id: nhs-5565689
 reason: Approved Sheffield catchment.
 ---
 
@@ -177,18 +165,6 @@ company: Aston Academy
 location: Sheffield
 source: Teaching Vacancies
 job_id: teaching-vacancies-send-administrator-aston-academy-sheffield-south-yorkshire
-reason: Approved Sheffield catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Senior Administrator Higher Education
-company: The Sheffield College
-location: Sheffield
-source: Teaching Vacancies
-job_id: teaching-vacancies-senior-administrator-higher-education
 reason: Approved Sheffield catchment.
 ---
 

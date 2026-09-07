@@ -1,4 +1,4 @@
-# Coventry admin and customer-service jobs city-page review
+# Coventry admin and office jobs city-page review
 
 - Parent regional page: `app/coventry-warwickshire/service-administrator-jobs.json`
 - Live route: `/coventry/service-administrator-jobs`
@@ -260,6 +260,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Onsite Recruitment Account Coordinator
+company: Winner Recruitment - Agency - Contract
+location: Warwickshire
+source: JobG8
+job_id: jobg8-107925904
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Personal Assistant
 company: Opus People Solutions Ltd - Agency - Temporary
 location: Rugby
@@ -277,18 +289,6 @@ company: Oak Wood Secondary School
 location: Nuneaton
 source: Teaching Vacancies
 job_id: teaching-vacancies-personal-assistant-pa-to-the-headteachers-oak-wood-schools
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Receptionist/Admin Officer
-company: Welcombe Hills School
-location: Stratford-upon-Avon
-source: Teaching Vacancies
-job_id: teaching-vacancies-receptionist-admin-officer-f47a5a75-5bef-45e1-a471-94bb514d5613
 reason: Separate employment market.
 ---
 

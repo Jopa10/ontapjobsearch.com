@@ -1,10 +1,10 @@
-# Bristol admin and customer-service jobs city-page review
+# Bristol admin and office jobs city-page review
 
 - Parent regional page: `app/_city-pages/configured-slices/bristol-bath/service-administrator-jobs.json`
 - Live route: `/bristol/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 23
+- Effective included jobs: 30
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 23
-- automatic review: 1
+- automatic include: 30
+- automatic review: 4
 - automatic exclude: 3
-- effective include: 23
-- effective review: 1
+- effective include: 30
+- effective review: 4
 - effective exclude: 3
 
-## INCLUDE (23)
+## INCLUDE (30)
 
 ---
 action: 
@@ -112,11 +112,35 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Business Development Executive
+company: Coburg Banks Limited - Agency - Permanent
+location: Bristol
+source: JobG8
+job_id: jobg8-1768931
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Business Support Officer
 company: Blue Arrow - Agency - Temporary
 location: Bristol
 source: JobG8
 job_id: jobg8-23643_225558310
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Customer Sales Advisor
+company: hireful - Company - Permanent
+location: Bristol
+source: JobG8
+job_id: jobg8-23643_225475667
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -220,6 +244,30 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Marketing Manager
+company: Ascent Resourcing Limited - Agency - Permanent
+location: Bristol
+source: JobG8
+job_id: jobg8-1766292
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Marketing Manager
+company: Centre for Sustainable Energy - Agency - Contract
+location: Bristol
+source: JobG8
+job_id: jobg8-107765409
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Reception and Appointment Clerk
 company: Bristol NHS Foundation Trust
 location: Bristol, BS2 8EL
@@ -268,6 +316,18 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Sales Executive
+company: Henley Executive - Agency - Permanent
+location: Bristol
+source: JobG8
+job_id: jobg8-23643_225363989
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: School Administrator
 company: Parson Street Primary School
 location: Bristol
@@ -292,6 +352,18 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: SEO Executive
+company: The Plug Global - Agency - Permanent
+location: Bristol
+source: JobG8
+job_id: jobg8-107905734
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Service Coordinator - Equipment Hire
 company: Elix Sourcing Solutions Limited - Agency - Permanent
 location: Bristol
@@ -300,7 +372,55 @@ job_id: jobg8-1772093
 reason: Approved conservative Bristol launch catchment.
 ---
 
-## REVIEW (1)
+---
+action: 
+decision: include
+automatic_decision: include
+title: Telesales Executive (Recruitment / Full Training)
+company: Ernest Gordon Recruitment - Agency - Permanent
+location: Bristol
+source: JobG8
+job_id: jobg8-107785118
+reason: Approved conservative Bristol launch catchment.
+---
+
+## REVIEW (4)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Retail Brand Ambassador & Content Creator
+company: Brand Partnership Group - Agency - Permanent
+location: Somerset
+source: JobG8
+job_id: jobg8-107910153
+reason: No approved Bristol catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Senior Events and Marketing Executive (13-month Secondment/FTC)
+company: Motability Operations - Agency - Temporary
+location: Somerset
+source: JobG8
+job_id: jobg8-107898262
+reason: No approved Bristol catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: SEO Manager
+company: ADLIB - Agency - Permanent
+location: Somerset
+source: JobG8
+job_id: jobg8-1743431
+reason: No approved Bristol catchment rule matched; local review required.
+---
 
 ---
 action: 

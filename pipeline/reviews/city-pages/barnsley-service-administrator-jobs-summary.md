@@ -1,4 +1,4 @@
-# Barnsley admin and customer-service jobs city-page review
+# Barnsley admin and office jobs city-page review
 
 - Parent regional page: `app/south-yorkshire/service-administrator-jobs.json`
 - Live route: `/barnsley/service-administrator-jobs`
@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 1
 - automatic review: 1
-- automatic exclude: 28
+- automatic exclude: 26
 - effective include: 1
 - effective review: 1
-- effective exclude: 28
+- effective exclude: 26
 
 ## INCLUDE (1)
 
@@ -50,7 +50,7 @@ job_id: jobg8-23643_225516026
 reason: No approved Barnsley catchment rule matched; local review required.
 ---
 
-## EXCLUDE (28)
+## EXCLUDE (26)
 
 ---
 action: 
@@ -97,18 +97,6 @@ company: The Market Surgery
 location: Rotherham, S63 7RA
 source: NHS Jobs
 job_id: nhs-5568486
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Administrative Assistant
-company: Sheffield Teaching Hospitals NHS Foundation Trust
-location: Sheffield, S2 3QE
-source: NHS Jobs
-job_id: nhs-5565689
 reason: Separate employment market.
 ---
 
@@ -337,18 +325,6 @@ company: Aston Academy
 location: Sheffield
 source: Teaching Vacancies
 job_id: teaching-vacancies-send-administrator-aston-academy-sheffield-south-yorkshire
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Senior Administrator Higher Education
-company: The Sheffield College
-location: Sheffield
-source: Teaching Vacancies
-job_id: teaching-vacancies-senior-administrator-higher-education
 reason: Separate employment market.
 ---
 

@@ -1,7 +1,6 @@
 decision,job_id,title,company,location,source,automatic_decision,effective_decision,reason,matched_rule,city_key
 include,jobg8-23643_225499816,Account Coordinator,Stafforce Recruitment - Agency - Permanent,Hull,JobG8,include,include,Approved conservative Hull launch catchment.,hull,hull-service-administrator-jobs
 include,jobg8-23643_225510748,Admin Assistant,KFM Recuitment - Agency - Contract,Hull,JobG8,include,include,Approved conservative Hull launch catchment.,hull,hull-service-administrator-jobs
-include,teaching-vacancies-administration-assistant-kingswood-parks-primary-school,Administration Assistant,Kingswood Parks Primary School,Hull,Teaching Vacancies,include,include,Approved conservative Hull launch catchment.,hull,hull-service-administrator-jobs
 include,nhs-5572582,Clinical Team Administrator,Tees Esk and Wear Valleys NHS Foundation Trust,"Hull, HU9 5LS",NHS Jobs,include,include,Approved conservative Hull launch catchment.,hull,hull-service-administrator-jobs
 include,jobg8-23643_225516073,Executive Assistant,Consortium Professional Recruitment Ltd - Agency - Permanent,Hull,JobG8,include,include,Approved conservative Hull launch catchment.,hull,hull-service-administrator-jobs
 include,jobg8-1750023,Graduate Administrator,Edwards & Pearce - Doncaster - Agency - Permanent,Hull,JobG8,include,include,Approved conservative Hull launch catchment.,hull,hull-service-administrator-jobs

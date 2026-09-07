@@ -1,4 +1,4 @@
-# Edinburgh admin and customer-service jobs city-page review
+# Edinburgh admin and office jobs city-page review
 
 - Parent regional page: `app/_city-pages/configured-slices/edinburgh-lothians/service-administrator-jobs.json`
 - Live route: `/edinburgh/service-administrator-jobs`

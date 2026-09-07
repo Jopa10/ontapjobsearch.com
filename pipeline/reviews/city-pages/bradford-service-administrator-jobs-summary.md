@@ -1,4 +1,4 @@
-# Bradford admin and customer-service jobs city-page review
+# Bradford admin and office jobs city-page review
 
 - Parent regional page: `app/west-yorkshire/service-administrator-jobs.json`
 - Live route: `/bradford/service-administrator-jobs`
@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 11
 - automatic review: 6
-- automatic exclude: 36
+- automatic exclude: 37
 - effective include: 11
 - effective review: 6
-- effective exclude: 36
+- effective exclude: 37
 
 ## INCLUDE (11)
 
@@ -230,7 +230,7 @@ job_id: nhs-5573894
 reason: No approved Bradford catchment rule matched; local review required.
 ---
 
-## EXCLUDE (36)
+## EXCLUDE (37)
 
 ---
 action: 
@@ -589,6 +589,18 @@ company: pyramid8 - Agency - Permanent
 location: Wakefield
 source: JobG8
 job_id: jobg8-1765964
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Sales Executive
+company: Red Rhino Solutions - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-1783192
 reason: Separate employment market.
 ---
 

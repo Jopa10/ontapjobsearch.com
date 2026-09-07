@@ -22,31 +22,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "posted_date_basis": "source"
-  },
-  {
-    "job_id": "teaching-vacancies-careers-and-work-experience-administrator-the-bishop-of-winchester-academy",
-    "title": "Careers and Work Experience Administrator",
-    "company": "The Bishop of Winchester Academy",
-    "location": "Bournemouth",
-    "region": "Dorset",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['full time']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "Actual salary - £22,105 per annum (Full time Equivalent - £27,222 per annum)",
-    "work_pattern": "",
-    "posted_date": "2026-08-25",
-    "closing_date": "2026-09-06",
-    "closing_datetime": "2026-09-06T23:59:00+01:00",
-    "summary": "Careers and Work Experience Administrator with The Bishop of Winchester Academy in Bournemouth. ['full time']; Actual salary - £22,105 per annum (Full time Equivalent - £27,222 per annum).",
-    "description": "The Bishop of Winchester Academy is recruiting for this vacancy in Bournemouth.\n\nThe advertised position is Careers and Work Experience Administrator.\n\nThe source lists the employment type as ['full time'].\n\nThe advertised salary or pay scale is Actual salary - £22,105 per annum (Full time Equivalent - £27,222 per annum).\n\nThe stated application deadline is 2026-09-06T23:59:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/careers-and-work-experience-administrator-the-bishop-of-winchester-academy?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
+    "advertiser_name": "Bournemouth School",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -72,6 +50,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "The Bishop of Winchester Academy",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -97,6 +78,28 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "The Bishop of Winchester Academy",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
+  },
+  {
+    "job_id": "nhs-5564709",
+    "source": "NHS Jobs",
+    "title": "Administrative Assistant",
+    "company": "Dorset HealthCare University NHS Foundation Trust",
+    "advertiser_name": "Dorset HealthCare University NHS Foundation Trust",
+    "location": "Bournemouth, BH7 6JF",
+    "region": "Dorset",
+    "salary": "£25760.00 to £27476.00",
+    "employment_type": "Permanent",
+    "posted_date": "2026-08-27T08:51:57.087444474",
+    "closing_date": "2026-09-10",
+    "description": "Dorset Healthcare are looking for enthusiastic, flexible and those driven to provide an outstanding service and are looking for an experienced Administrative Assistant to join our administrative team at Bournemouth Older Persons Community Mental Health Team. You will be fully supported by an experienced Team Leader, be provided with all the training and tools you need to be a success in this role. You will have regular supervision, yearly appraisals and the opportunities to be creative and put your ideas forward, embedding ethos of continuous improvement. You will need to be flexible to manage the workload of this busy Community Mental Health Team. We adopt and ensure our Trusts values are incorporated in everything we do, by providing a patient centred approach with their recovery and wellbeing at the foremost of our care. The working pattern is 5 days a week from 08:30 until 17:00 with an hour for lunch. Employment in this post requires an Enhanced Disclosure and Barring Service (DBS) check, which the Trust will cover the cost of. Please note visa sponsorship for this role is unfortunately not available. Ensure you hold valid right to work in the UK and will not require sponsorship if successful. You will be required to provide efficient secretarial, administrative and reception support for the team. To liaise with members of the public and a variety of professionals, both in primary and secondary care services. Given the nature of this service, some patients may contact us in distress, we are looking for resilient applicants, but you will be provided the training and the skills to manage this. With a compassionate work ethos, you will thrive with the right level of support being offered by the Team Leader. You will have a solid administrative background or be an experienced secretary, and be able to multi-task and manage your time effectively. You will need an understanding of Office 365 including Outlook, Word and Excel, have an outstanding telephone manner, be able to deal with difficult patients through excellent communication skills. You will be organised, able to motivate yourself and your colleagues, be able to work to deadlines and complete tasks with the highest level of accuracy and attention to detail. You will be responsible for keeping RIO the Trusts patient record system up to date, following the data protection and GDPR legislation. You will provide secretarial support to the team through the completion of clinical correspondence and dictation, onward referral management, arranging and attending as a minute taker several different types of meetings. You must have an intermediate level of audio typing skills. For the main duties and responsibilities for this role please read the attached job description and person specification. When completing your application please ensure your supporting statement reflects the criteria set out in these documents by showing how your experience and skills apply to this post. We understand that using AI can be a useful and supportive tool when completing your application. However, we have also seen an increase in the over-reliance of AI tools which is negatively impacting applications as they remove candidates individuality, and it becomes much harder to get a sense of who you are and your authentic experience. If you do use AI, it should be used to enhance your application and not to create your supporting statement in its entirety. If we suspect you have used AI to create your supporting statement and this does not match your experience, we may withdraw your application. As part of our vision to have a skilled, diverse and caring workforce, Dorset HealthCare offers support for people getting into work. We offer an employability service to support individuals with application writing, interview skills and other employment support. If you would like or know of anyone who would value this support, please do contactdhc.wideningparticipation@nhs.net",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9152-26-0912",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9152-26-0912",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "A",
     "posted_date_basis": "source"
   }
 ]

@@ -1,4 +1,4 @@
-# York admin and customer-service jobs city-page review
+# York admin and office jobs city-page review
 
 - Parent regional page: `app/north-yorkshire/service-administrator-jobs.json`
 - Live route: `/york/service-administrator-jobs`
@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 5
 - automatic review: 6
-- automatic exclude: 12
+- automatic exclude: 11
 - effective include: 5
 - effective review: 6
-- effective exclude: 12
+- effective exclude: 11
 
 ## INCLUDE (5)
 
@@ -158,7 +158,7 @@ job_id: nhs-5570653
 reason: No approved York catchment rule matched; local review required.
 ---
 
-## EXCLUDE (12)
+## EXCLUDE (11)
 
 ---
 action: 
@@ -193,18 +193,6 @@ company: Tees Esk and Wear Valleys NHS Foundation Trust
 location: Harrogate, HG1 5QE
 source: NHS Jobs
 job_id: nhs-5570628
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Apprentice Administrator
-company: Braeburn Primary and Nursery Academy
-location: Scarborough
-source: Teaching Vacancies
-job_id: teaching-vacancies-apprentice-administrator-braeburn-primary-and-nursery-academy
 reason: Separate employment market.
 ---
 

@@ -1,10 +1,10 @@
-# Cambridge admin and customer-service jobs city-page review
+# Cambridge admin and office jobs city-page review
 
 - Parent regional page: `app/_city-pages/configured-slices/cambridgeshire/service-administrator-jobs.json`
 - Live route: `/cambridge/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 7
+- Effective included jobs: 9
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 7
+- automatic include: 9
 - automatic review: 4
-- automatic exclude: 11
-- effective include: 7
+- automatic exclude: 12
+- effective include: 9
 - effective review: 4
-- effective exclude: 11
+- effective exclude: 12
 
-## INCLUDE (7)
+## INCLUDE (9)
 
 ---
 action: 
@@ -64,11 +64,23 @@ reason: Approved conservative Cambridge launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Office Administrator
-company: EA First - Agency - Permanent
-location: Cambridge
+title: Content Executive
+company: AWD Online - Agency - Permanent
+location: Cambridgeshire
 source: JobG8
-job_id: jobg8-23643_225570284
+job_id: jobg8-107910195
+reason: Approved conservative Cambridge launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Ecommerce Content Assistant
+company: Yours Clothing - Agency - Permanent
+location: Cambridgeshire
+source: JobG8
+job_id: jobg8-107881402
 reason: Approved conservative Cambridge launch catchment.
 ---
 
@@ -77,10 +89,10 @@ action:
 decision: include
 automatic_decision: include
 title: Office Administrator
-company: Swaffham Prior Church of England Primary School
+company: EA First - Agency - Permanent
 location: Cambridge
-source: Teaching Vacancies
-job_id: teaching-vacancies-office-administrator-swaffham-prior-church-of-england-primary-school-cambridge
+source: JobG8
+job_id: jobg8-23643_225570284
 reason: Approved conservative Cambridge launch catchment.
 ---
 
@@ -105,6 +117,18 @@ company: Swavesey Village College
 location: Cambridge
 source: Teaching Vacancies
 job_id: teaching-vacancies-send-administrator-swavesey-village-college
+reason: Approved conservative Cambridge launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Senior digital marketing officer
+company: Kidney Research UK - Agency - Permanent
+location: Cambridgeshire
+source: JobG8
+job_id: jobg8-107911259
 reason: Approved conservative Cambridge launch catchment.
 ---
 
@@ -158,7 +182,7 @@ job_id: jobg8-23643_225519683
 reason: No approved Cambridge catchment rule matched; local review required.
 ---
 
-## EXCLUDE (11)
+## EXCLUDE (12)
 
 ---
 action: 
@@ -212,18 +236,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Administrator - Student Services
-company: Arthur Mellows Village College
-location: Peterborough
-source: Teaching Vacancies
-job_id: teaching-vacancies-administrator-student-services-d8658259-60b3-4622-8d3d-f3f1d76a784e
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Customer Order Administrator
 company: New Appointments Group - Agency - Temporary
 location: Peterborough
@@ -236,11 +248,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Data Administrator
-company: Queen Katharine Academy
+title: Marketing Manager
+company: Interaction - Peterborough - Agency - Permanent
 location: Peterborough
-source: Teaching Vacancies
-job_id: teaching-vacancies-data-administrator-799f6f5b-2740-4014-af1f-77a81945f8ec
+source: JobG8
+job_id: jobg8-107758504
 reason: Separate employment market.
 ---
 
@@ -289,5 +301,29 @@ company: Schoolblazer - Agency - Permanent
 location: Peterborough
 source: JobG8
 job_id: jobg8-1865042
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Sales Support Administrator
+company: Schoolblazer - Agency - Permanent
+location: Peterborough
+source: JobG8
+job_id: jobg8-193158007228884582437340
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Senior Marketing Executive
+company: Strange And Wright Recruitment Partners Ltd - Agency - Permanent
+location: Peterborough
+source: JobG8
+job_id: jobg8-107906533
 reason: Separate employment market.
 ---

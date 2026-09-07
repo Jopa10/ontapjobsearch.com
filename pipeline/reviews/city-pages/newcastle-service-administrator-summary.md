@@ -1,10 +1,10 @@
-# Newcastle admin and customer-service jobs city-page review
+# Newcastle admin and office jobs city-page review
 
 - Parent regional page: `app/north-east/service-administrator-jobs.json`
 - Live route: `/newcastle/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 53
+- Effective included jobs: 56
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 53
-- automatic review: 29
-- automatic exclude: 27
-- effective include: 53
-- effective review: 29
-- effective exclude: 27
+- automatic include: 56
+- automatic review: 31
+- automatic exclude: 25
+- effective include: 56
+- effective review: 31
+- effective exclude: 25
 
-## INCLUDE (53)
+## INCLUDE (56)
 
 ---
 action: 
@@ -592,6 +592,18 @@ reason: Approved Newcastle catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Marketing Manager
+company: Miller Homes - Agency - Permanent
+location: Newcastle upon Tyne
+source: JobG8
+job_id: jobg8-23643_225488811
+reason: Approved Newcastle catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Medical Receptionist
 company: Betts Avenue Medical Centre
 location: Newcastle Upon Tyne, NE15 6TQ, Newcastle Upon Tyne, NE3 3QP
@@ -640,6 +652,30 @@ reason: Approved Newcastle catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Sales Development Representative
+company: The Recruitment Lounge - Agency - Permanent
+location: Newcastle Upon Tyne
+source: JobG8
+job_id: jobg8-107906195
+reason: Approved Newcastle catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Sales Executive
+company: Red Rhino Solutions - Agency - Permanent
+location: Newcastle Upon Tyne
+source: JobG8
+job_id: jobg8-1783186
+reason: Approved Newcastle catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Shared Services Team Administrator
 company: Shaftesbury group - Agency - Permanent
 location: Gateshead
@@ -660,7 +696,7 @@ job_id: nhs-5576748
 reason: Approved Newcastle catchment.
 ---
 
-## REVIEW (29)
+## REVIEW (31)
 
 ---
 action: 
@@ -696,18 +732,6 @@ location: Tyne And Wear
 source: JobG8
 job_id: jobg8-1743955
 reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator / Care Coordinator
-company: Great Lumley Surgery
-location: Chester le Street, DH3 4LE
-source: NHS Jobs
-job_id: nhs-5545378
-reason: No approved Newcastle catchment rule matched; local review required.
 ---
 
 ---
@@ -774,11 +798,35 @@ reason: No approved Newcastle catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Customer Service Representative
+company: EE - Company - Permanent
+location: Hebburn
+source: JobG8
+job_id: jobg8-21618_20279_61775-7e5b8457e0697e3319a222e1db3600fd
+reason: No approved Newcastle catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Development Planner
 company: Persimmon Homes - Agency - Permanent
 location: Tyne And Wear
 source: JobG8
 job_id: jobg8-107869330
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Ecommerce Account Manager
+company: Nigel Wright Group - Agency - Permanent
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-1704606
 reason: Broad location; review before city inclusion.
 ---
 
@@ -822,6 +870,18 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
+title: Marketing Executive
+company: Ronald James Group - Agency - Permanent
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-107755862
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Medical Administrator
 company: Pelton and Fellrose Medical Group
 location: Chester Le Street, DH2 1HS, Chester Le Street, DH2 2NH
@@ -858,6 +918,18 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
+title: Outbound Sales Advisor
+company: Gillespie Recruitment Ltd - Agency - Permanent
+location: Stanley
+source: JobG8
+job_id: jobg8-1771745
+reason: No approved Newcastle catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Part-Time Sales Administrator - Hebburn - Immediate Start
 company: Office Angels - Agency - Permanent
 location: Hebburn
@@ -876,18 +948,6 @@ location: North East (hybrid)
 source: VONNE
 job_id: vonne-173385
 reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Receptionist/Coder (Anima)
-company: Auckland Medical Group
-location: Bishop Auckland, DL14 6RP
-source: NHS Jobs
-job_id: nhs-5534006
-reason: No approved Newcastle catchment rule matched; local review required.
 ---
 
 ---
@@ -1010,7 +1070,7 @@ job_id: vonne-173391
 reason: No approved Newcastle catchment rule matched; local review required.
 ---
 
-## EXCLUDE (27)
+## EXCLUDE (25)
 
 ---
 action: 
@@ -1069,30 +1129,6 @@ company: Age UK County Durham
 location: Age UK County Durham
 source: NEJobs
 job_id: nejobs-301544
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Apprentice Economic Development Administrator
-company: Durham County Council
-location: Green Lane, Spennymoor, Durham
-source: NEJobs
-job_id: nejobs-301034
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Business Services Co-ordination and Improvement Officer
-company: Durham County Council
-location: Annand House, Meadowfield
-source: NEJobs
-job_id: nejobs-300776
 reason: Separate employment market.
 ---
 
@@ -1172,11 +1208,23 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Medical Receptionist
-company: Claypath and University Medical Practice
-location: Durham, DH1 1QW, DURHAM, DH1 3JX
-source: NHS Jobs
-job_id: nhs-5547933
+title: Marketing Business Partner
+company: SRG - Agency - Contract
+location: County Durham
+source: JobG8
+job_id: jobg8-23643_225513399
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Marketing Executive
+company: Integral UK Ltd - Company - Permanent
+location: County Durham
+source: JobG8
+job_id: jobg8-107878737
 reason: Separate employment market.
 ---
 
@@ -1185,10 +1233,10 @@ action:
 decision: exclude
 automatic_decision: exclude
 title: Medical Receptionist
-company: Dunelm Medical Practice
-location: Durham, DH1 5BL, Durham, DH1 2QQ, Durham, DH7 7DG
+company: Claypath and University Medical Practice
+location: Durham, DH1 1QW, DURHAM, DH1 3JX
 source: NHS Jobs
-job_id: nhs-5558529
+job_id: nhs-5547933
 reason: Separate employment market.
 ---
 
@@ -1262,18 +1310,6 @@ location: Sunderland
 source: VONNE
 job_id: vonne-173374
 reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Receptionist
-company: Havelock Grange Practice
-location: Hartlepool, TS24 7PW
-source: NHS Jobs
-job_id: nhs-5544630
-reason: Outside Newcastle catchment.
 ---
 
 ---

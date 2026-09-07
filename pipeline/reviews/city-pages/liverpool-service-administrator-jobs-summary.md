@@ -1,10 +1,10 @@
-# Liverpool admin and customer-service jobs city-page review
+# Liverpool admin and office jobs city-page review
 
 - Parent regional page: `app/_city-pages/configured-slices/merseyside-liverpool/service-administrator-jobs.json`
 - Live route: `/liverpool/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 15
+- Effective included jobs: 18
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 15
-- automatic review: 0
+- automatic include: 18
+- automatic review: 6
 - automatic exclude: 0
-- effective include: 15
-- effective review: 0
+- effective include: 18
+- effective review: 6
 - effective exclude: 0
 
-## INCLUDE (15)
+## INCLUDE (18)
 
 ---
 action: 
@@ -93,6 +93,30 @@ company: Liverpool University Hospitals NHS Foundation Trust
 location: Liverpool, L7 8XP
 source: NHS Jobs
 job_id: nhs-5558829
+reason: Approved conservative Liverpool launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Digital Marketing Apprentice
+company: NowSkills - Agency - Contract
+location: Liverpool
+source: JobG8
+job_id: jobg8-107940598
+reason: Approved conservative Liverpool launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Digital Marketing Assistant Manager
+company: MHA - Agency - Permanent
+location: Liverpool
+source: JobG8
+job_id: jobg8-179950371190341632037340
 reason: Approved conservative Liverpool launch catchment.
 ---
 
@@ -204,6 +228,90 @@ job_id: jobg8-1744017
 reason: Approved conservative Liverpool launch catchment.
 ---
 
-## REVIEW (0)
+---
+action: 
+decision: include
+automatic_decision: include
+title: TikTok Content Creator & Live Host
+company: Reed Specialist Recruitment - Agency - Permanent
+location: Liverpool
+source: JobG8
+job_id: jobg8-23643_225454172
+reason: Approved conservative Liverpool launch catchment.
+---
+
+## REVIEW (6)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Digital Analyst / Senior Digital Analyst
+company: Harnham - Data & Analytics Recruitment - Agency - Permanent
+location: Merseyside
+source: JobG8
+job_id: jobg8-1707231
+reason: Broad county location; review before Liverpool inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Digital Content Officer
+company: Career Connect - Agency - Permanent
+location: Merseyside
+source: JobG8
+job_id: jobg8-107870553
+reason: Broad county location; review before Liverpool inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Digital Content Officer
+company: Career Connect - Agency - Permanent
+location: Merseyside
+source: JobG8
+job_id: jobg8-1769480
+reason: Broad county location; review before Liverpool inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Digital Marketing Assistant Manager
+company: MHA - Agency - Permanent
+location: Merseyside
+source: JobG8
+job_id: jobg8-1839653
+reason: Broad county location; review before Liverpool inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Freelance Paid Social Manager
+company: Searchability (UK) Ltd - Agency - Contract
+location: Merseyside
+source: JobG8
+job_id: jobg8-107776582
+reason: Broad county location; review before Liverpool inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Technical SEO Specialist
+company: Protein Works - Agency - Permanent
+location: Merseyside
+source: JobG8
+job_id: jobg8-107861416
+reason: Broad county location; review before Liverpool inclusion.
+---
 
 ## EXCLUDE (0)

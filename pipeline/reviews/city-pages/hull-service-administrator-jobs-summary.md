@@ -1,10 +1,10 @@
-# Hull admin and customer-service jobs city-page review
+# Hull admin and office jobs city-page review
 
 - Parent regional page: `app/_city-pages/configured-slices/east-yorkshire/service-administrator-jobs.json`
 - Live route: `/hull/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 16
+- Effective included jobs: 15
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 16
+- automatic include: 15
 - automatic review: 5
 - automatic exclude: 0
-- effective include: 16
+- effective include: 15
 - effective review: 5
 - effective exclude: 0
 
-## INCLUDE (16)
+## INCLUDE (15)
 
 ---
 action: 
@@ -45,18 +45,6 @@ company: KFM Recuitment - Agency - Contract
 location: Hull
 source: JobG8
 job_id: jobg8-23643_225510748
-reason: Approved conservative Hull launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administration Assistant
-company: Kingswood Parks Primary School
-location: Hull
-source: Teaching Vacancies
-job_id: teaching-vacancies-administration-assistant-kingswood-parks-primary-school
 reason: Approved conservative Hull launch catchment.
 ---
 

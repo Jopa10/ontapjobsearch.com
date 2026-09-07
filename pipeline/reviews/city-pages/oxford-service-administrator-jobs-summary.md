@@ -1,10 +1,10 @@
-# Oxford admin and customer-service jobs city-page review
+# Oxford admin and office jobs city-page review
 
 - Parent regional page: `app/_city-pages/configured-slices/oxfordshire/service-administrator-jobs.json`
 - Live route: `/oxford/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 6
+- Effective included jobs: 8
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 6
-- automatic review: 13
-- automatic exclude: 22
-- effective include: 6
-- effective review: 13
-- effective exclude: 22
+- automatic include: 8
+- automatic review: 11
+- automatic exclude: 26
+- effective include: 8
+- effective review: 11
+- effective exclude: 26
 
-## INCLUDE (6)
+## INCLUDE (8)
 
 ---
 action: 
@@ -45,6 +45,18 @@ company: Oxford Health NHS Trust
 location: Oxford, OX3 7JH
 source: NHS Jobs
 job_id: nhs-5579704
+reason: Approved conservative Oxford launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Email Campaign Executive
+company: Niche Recruitment Ltd - Agency - Permanent
+location: Oxford
+source: JobG8
+job_id: jobg8-1789906
 reason: Approved conservative Oxford launch catchment.
 ---
 
@@ -76,6 +88,18 @@ reason: Approved conservative Oxford launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Marketing Executive
+company: TALENT SEARCH LIMITED - Agency - Permanent
+location: Oxford
+source: JobG8
+job_id: jobg8-1787371
+reason: Approved conservative Oxford launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Temporary Administrator
 company: Berry Recruitment - Agency - Permanent
 location: Oxford
@@ -96,7 +120,7 @@ job_id: jobg8-23643_225524539
 reason: Approved conservative Oxford launch catchment.
 ---
 
-## REVIEW (13)
+## REVIEW (11)
 
 ---
 action: 
@@ -186,18 +210,6 @@ reason: No approved Oxford catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Medical Receptionist
-company: The Abingdon Surgery
-location: Abingdon, OX14 3LB
-source: NHS Jobs
-job_id: nhs-5547418
-reason: No approved Oxford catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Part-time Forensic Administrator - HMP Huntercombe
 company: Oxford Health NHS Trust
 location: Henley-On-Thames, RG9 5SG
@@ -242,19 +254,7 @@ job_id: jobg8-1704964
 reason: No approved Oxford catchment rule matched; local review required.
 ---
 
----
-action: 
-decision: review
-automatic_decision: review
-title: Sixth Form Administrator / Team Leader
-company: Lord Williams's School
-location: Thame
-source: Teaching Vacancies
-job_id: teaching-vacancies-sixth-form-administrator-team-leader
-reason: No approved Oxford catchment rule matched; local review required.
----
-
-## EXCLUDE (22)
+## EXCLUDE (26)
 
 ---
 action: 
@@ -344,6 +344,18 @@ reason: Broad county location; not Oxford-city evidence.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Ecommerce & Trading Assistant
+company: Helen and Douglas House - Agency - Permanent
+location: Oxfordshire
+source: JobG8
+job_id: jobg8-1824551
+reason: Broad county location; not Oxford-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Executive Assistant
 company: Allen Associates - Agency - Permanent
 location: Oxfordshire
@@ -385,6 +397,42 @@ company: Plus One Recruitment - Agency - Permanent
 location: Oxfordshire
 source: JobG8
 job_id: jobg8-1789720
+reason: Broad county location; not Oxford-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Marketing Assistant
+company: Experience Oxfordshire - Agency - Permanent
+location: Oxfordshire
+source: JobG8
+job_id: jobg8-107906174
+reason: Broad county location; not Oxford-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Marketing Consultant
+company: FS1 Recruitment - Agency - Contract
+location: Oxfordshire
+source: JobG8
+job_id: jobg8-107857426
+reason: Broad county location; not Oxford-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Marketing Manager
+company: Abingdon School - Agency - Contract
+location: Oxfordshire
+source: JobG8
+job_id: jobg8-107941010
 reason: Broad county location; not Oxford-city evidence.
 ---
 

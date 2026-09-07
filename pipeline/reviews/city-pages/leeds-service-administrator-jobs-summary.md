@@ -1,10 +1,10 @@
-# Leeds admin and customer-service jobs city-page review
+# Leeds admin and office jobs city-page review
 
 - Parent regional page: `app/west-yorkshire/service-administrator-jobs.json`
 - Live route: `/leeds/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 25
+- Effective included jobs: 26
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 25
+- automatic include: 26
 - automatic review: 5
 - automatic exclude: 23
-- effective include: 25
+- effective include: 26
 - effective review: 5
 - effective exclude: 23
 
-## INCLUDE (25)
+## INCLUDE (26)
 
 ---
 action: 
@@ -273,6 +273,18 @@ company: Adecco - Agency - Temporary
 location: Leeds
 source: JobG8
 job_id: jobg8-23643_225515250
+reason: Approved Leeds catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Sales Executive
+company: Red Rhino Solutions - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-1783192
 reason: Approved Leeds catchment.
 ---
 

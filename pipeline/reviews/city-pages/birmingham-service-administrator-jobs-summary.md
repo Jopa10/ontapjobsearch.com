@@ -1,10 +1,10 @@
-# Birmingham admin and customer-service jobs city-page review
+# Birmingham admin and office jobs city-page review
 
 - Parent regional page: `app/_city-pages/configured-slices/birmingham-solihull/service-administrator-jobs.json`
 - Live route: `/birmingham/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 30
+- Effective included jobs: 33
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 30
+- automatic include: 33
 - automatic review: 5
 - automatic exclude: 3
-- effective include: 30
+- effective include: 33
 - effective review: 5
 - effective exclude: 3
 
-## INCLUDE (30)
+## INCLUDE (33)
 
 ---
 action: 
@@ -57,30 +57,6 @@ company: Michael Page Business Support - Agency - Permanent
 location: Birmingham
 source: JobG8
 job_id: jobg8-1702752
-reason: Approved conservative Birmingham launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Attendance Officer
-company: Prince Albert Junior and Infant School
-location: Birmingham
-source: Teaching Vacancies
-job_id: teaching-vacancies-attendance-officer-4efd19d4-57e0-4ca7-b2db-17e1d24f0087
-reason: Approved conservative Birmingham launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Band 4 Personal Assistant / Senior Administrator - General Management
-company: Birmingham Community Healthcare NHS FT
-location: Birmingham, B5 7EG
-source: NHS Jobs
-job_id: nhs-5547947
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -208,6 +184,18 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: In-House Recruiter (FTC)
+company: Cygnet - Agency - Permanent
+location: Birmingham
+source: JobG8
+job_id: jobg8-1704618
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Inspection Administrator
 company: Office Angels - Agency - Permanent
 location: Birmingham
@@ -232,11 +220,47 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Marketing & Customer Support Manager
+company: Flat Fee Recruiter - Agency - Permanent
+location: Birmingham
+source: JobG8
+job_id: jobg8-107928946
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Marketing Manager
+company: Michael Page - Agency - Permanent
+location: Birmingham
+source: JobG8
+job_id: jobg8-23643_225475579
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Medical Administrator
 company: West Heath Surgery
 location: Birmingham, B31 3HB, Birmingham, B38 8AX
 source: NHS Jobs
 job_id: nhs-5558731
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Mobile Receptionist/Care Navigator
+company: Ridgacre Medical Centres
+location: Birmingham, B32 2TJ, BIRMINGHAM, B7 5DT
+source: NHS Jobs
+job_id: nhs-5547612
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -304,6 +328,18 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: PPC
+company: Michael Page - Agency - Permanent
+location: Birmingham
+source: JobG8
+job_id: jobg8-23643_225475572
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Project Administrator
 company: Rise Technical Recruitment - Agency - Temporary
 location: Birmingham
@@ -364,11 +400,11 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: School Administrator
-company: Highfield Junior and Infant School
+title: SEO Manager
+company: Kairos Recruitment - Agency - Permanent
 location: Birmingham
-source: Teaching Vacancies
-job_id: teaching-vacancies-school-administrator-90712575-ad48-4a39-98c3-9140ef281e9e
+source: JobG8
+job_id: jobg8-23643_225570987
 reason: Approved conservative Birmingham launch catchment.
 ---
 

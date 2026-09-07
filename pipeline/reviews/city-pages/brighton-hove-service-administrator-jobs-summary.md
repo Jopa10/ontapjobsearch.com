@@ -1,10 +1,10 @@
-# Brighton & Hove admin and customer-service jobs city-page review
+# Brighton & Hove admin and office jobs city-page review
 
 - Parent regional page: `app/sussex/service-administrator-jobs.json`
 - Live route: `/brighton-hove/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 5
+- Effective included jobs: 4
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 5
-- automatic review: 21
-- automatic exclude: 12
-- effective include: 5
-- effective review: 21
-- effective exclude: 12
+- automatic include: 4
+- automatic review: 22
+- automatic exclude: 17
+- effective include: 4
+- effective review: 22
+- effective exclude: 17
 
-## INCLUDE (5)
+## INCLUDE (4)
 
 ---
 action: 
@@ -72,19 +72,7 @@ job_id: nhs-5570979
 reason: Approved Brighton & Hove catchment.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Receptionist (Bank)
-company: Warmdene Surgery
-location: Brighton, BN1 8DD
-source: NHS Jobs
-job_id: nhs-5548209
-reason: Approved Brighton & Hove catchment.
----
-
-## REVIEW (21)
+## REVIEW (22)
 
 ---
 action: 
@@ -119,6 +107,18 @@ company: First Recruitment Services - Agency - Temporary
 location: Haywards Heath
 source: JobG8
 job_id: jobg8-23643_225523989
+reason: No approved Brighton & Hove catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Contract Administrator East Grinstead - Temp to Perm
+company: Invictus Recruitment - Agency - Contract
+location: East Grinstead
+source: JobG8
+job_id: jobg8-107938649
 reason: No approved Brighton & Hove catchment rule matched; local review required.
 ---
 
@@ -338,7 +338,19 @@ job_id: teaching-vacancies-year-9-administrative-assistant-including-year-10-wor
 reason: No approved Brighton & Hove catchment rule matched; local review required.
 ---
 
-## EXCLUDE (12)
+## EXCLUDE (17)
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Account Executive
+company: Global 4 Communications Ltd - Agency - Permanent
+location: Horsham
+source: JobG8
+job_id: jobg8-23643_225365618
+reason: Separate employment market.
+---
 
 ---
 action: 
@@ -373,6 +385,18 @@ company: Veolia - Agency - Permanent
 location: Horsham
 source: JobG8
 job_id: jobg8-23643_225473875
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: B2B Telesales - 3-month contract
+company: Reed - Agency - Permanent
+location: Crawley
+source: JobG8
+job_id: jobg8-1770661
 reason: Separate employment market.
 ---
 
@@ -452,11 +476,47 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Sales Account Executive
+company: Solid Recruitment Solutions - Agency - Permanent
+location: Chichester
+source: JobG8
+job_id: jobg8-1743464
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Sales Administrator
 company: Workshop Recruitment - Agency - Permanent
 location: Bognor Regis
 source: JobG8
 job_id: jobg8-23643_225567148
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Sales Executive
+company: Red Rhino Solutions - Agency - Permanent
+location: Crawley
+source: JobG8
+job_id: jobg8-1783185
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Sales Executive
+company: Workshop Recruitment - Agency - Permanent
+location: Chichester
+source: JobG8
+job_id: jobg8-1770713
 reason: Separate employment market.
 ---
 

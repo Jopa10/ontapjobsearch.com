@@ -1,11 +1,11 @@
-# Southampton admin and customer-service jobs city-page review
+# Southampton admin and office jobs city-page review
 
 - Parent regional page: `app/hampshire/service-administrator-jobs.json`
 - Live route: `/southampton/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 8
-- Threshold currently met: yes
+- Effective included jobs: 5
+- Threshold currently met: no
 
 ## How to review
 Edit only the `action:` line inside a job block.
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 8
-- automatic review: 51
-- automatic exclude: 20
-- effective include: 8
-- effective review: 51
-- effective exclude: 20
+- automatic include: 5
+- automatic review: 49
+- automatic exclude: 21
+- effective include: 5
+- effective review: 49
+- effective exclude: 21
 
-## INCLUDE (8)
+## INCLUDE (5)
 
 ---
 action: 
@@ -33,42 +33,6 @@ company: Job&Talent - Agency - Permanent
 location: Southampton
 source: JobG8
 job_id: jobg8-107881829
-reason: Approved Southampton catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrator
-company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
-location: Southampton, SO14 3DT
-source: NHS Jobs
-job_id: nhs-5558135
-reason: Approved Southampton catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrator
-company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
-location: Southampton, SO14 3DT
-source: NHS Jobs
-job_id: nhs-5568990
-reason: Approved Southampton catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Business Support Administrator
-company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
-location: Southampton, SO16 4XE
-source: NHS Jobs
-job_id: nhs-5557418
 reason: Approved Southampton catchment.
 ---
 
@@ -120,7 +84,7 @@ job_id: teaching-vacancies-receptionist-1dcaf299-1719-4cef-a999-af235a29010e
 reason: Approved Southampton catchment.
 ---
 
-## REVIEW (51)
+## REVIEW (49)
 
 ---
 action: 
@@ -228,18 +192,6 @@ location: Hampshire
 source: JobG8
 job_id: jobg8-1743583
 reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Attendance Officer
-company: Ringwood School Academy
-location: Ringwood
-source: Teaching Vacancies
-job_id: teaching-vacancies-attendance-officer-2ee0b8e3-e03c-4648-9a90-ae13e6c3a5a4
-reason: No approved Southampton catchment rule matched; local review required.
 ---
 
 ---
@@ -359,18 +311,6 @@ company: Perins School
 location: Alresford
 source: Teaching Vacancies
 job_id: teaching-vacancies-exams-officer-and-assessment-data-co-ordinator
-reason: No approved Southampton catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Housing Repairs Administrator
-company: Thorngate Churcher Trust - Agency - Permanent
-location: Gosport
-source: JobG8
-job_id: jobg8-23643_225537561
 reason: No approved Southampton catchment rule matched; local review required.
 ---
 
@@ -734,7 +674,7 @@ job_id: jobg8-1733980
 reason: Broad location; review before city inclusion.
 ---
 
-## EXCLUDE (20)
+## EXCLUDE (21)
 
 ---
 action: 
@@ -788,6 +728,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Customer Service
+company: Neoci Ltd - Agency - Permanent
+location: Eastleigh
+source: JobG8
+job_id: jobg8-1772712
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Customer Service Advisor
 company: Red Snapper Recruitment Limited - Agency - Contract
 location: Fareham
@@ -817,6 +769,18 @@ company: Adecco - Agency - Temporary
 location: Basingstoke
 source: JobG8
 job_id: jobg8-23643_225512479
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Digital Customer Success Executive
+company: Focus Resourcing Group - Agency - Permanent
+location: Portsmouth
+source: JobG8
+job_id: jobg8-107842212
 reason: Separate employment market.
 ---
 
@@ -937,18 +901,6 @@ company: Vanta Staffing Limited - Agency - Temporary
 location: Basingstoke
 source: JobG8
 job_id: jobg8-23643_225512978
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Single Point of Access Administrator
-company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
-location: Fareham, PO17 6AR
-source: NHS Jobs
-job_id: nhs-5553368
 reason: Separate employment market.
 ---
 

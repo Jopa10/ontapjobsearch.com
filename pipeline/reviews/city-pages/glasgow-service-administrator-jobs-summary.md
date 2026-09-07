@@ -1,10 +1,10 @@
-# Glasgow admin and customer-service jobs city-page review
+# Glasgow admin and office jobs city-page review
 
 - Parent regional page: `app/_city-pages/configured-slices/glasgow/service-administrator-jobs.json`
 - Live route: `/glasgow/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 13
+- Effective included jobs: 15
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 13
+- automatic include: 15
 - automatic review: 0
 - automatic exclude: 0
-- effective include: 13
+- effective include: 15
 - effective review: 0
 - effective exclude: 0
 
-## INCLUDE (13)
+## INCLUDE (15)
 
 ---
 action: 
@@ -177,6 +177,30 @@ company: Search Consultancy Ltd - Agency - Contract
 location: Glasgow
 source: JobG8
 job_id: jobg8-23643_225548786
+reason: Approved conservative Glasgow launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Sales Development Representative
+company: Dunwall - Agency - Permanent
+location: Glasgow
+source: JobG8
+job_id: jobg8-107758532
+reason: Approved conservative Glasgow launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Sports Sales Executive
+company: VIA MATCH LIMITED - Agency - Permanent
+location: Glasgow
+source: JobG8
+job_id: jobg8-1770972
 reason: Approved conservative Glasgow launch catchment.
 ---
 
