@@ -30,7 +30,7 @@ Edit only each `action:` line:
 ## JobG8 — 3 to review
 
 ---
-action:
+action: select
 POSS | JobG8 | Bristol & Bath | Bristol | £35000 per year | Executive Assistant
 source_key: jobg8
 source: JobG8
@@ -48,7 +48,7 @@ hub_fingerprint: d08fb2710e7aba1d3f043460cd4e5762eaf6c93d0e48146939fa87329a744e9
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Cambridgeshire | Cambridge | £45000 per year | Service Advisor
 source_key: jobg8
 source: JobG8
@@ -66,7 +66,7 @@ hub_fingerprint: 8fd7147d8c9226d89dbb1a4abe9fbdc5ef6554569548a14693584ef8af5d5ef
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | Oxfordshire | Oxfordshire | £44026 per year | Recruitment Coordinator
 source_key: jobg8
 source: JobG8
