@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Devon
 
-review_date: 2026-09-06
-review_fingerprint: c9383fd62d518fa46b635b01a24df819644c9ff6d373d14f7bc3c01ba41bb091
-routing_manifest_sha256: 7fd315145b2e460bd548d4a5c1a4c8d7322399f4429f2897b7d301e5f0809506
+review_date: 2026-09-07
+review_fingerprint: 2c134c20a61439fbeba4866c927206e5e317120dd6e51b4047b862e6da696a55
+routing_manifest_sha256: 2f1d5e350d23bbcb5d65881a4c56e54ac46dbd6b31bd0c081b3dd0f22c6116a6
 ontap_region: Devon
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 12
+- Records: 11
 - Selected: 4
-- POSS awaiting decision: 3
+- POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 6
 
 ## SELECTED
-
----
-action: 
-SELECTED | Devon | Ottery St Mary, South West, EX11 1RA | Support Staff Grade C3-C6. Actual Pro Rated Salary: £21,363-£23,260. | Administrative Assistant
-employer: The King's School
-closing_date: 2026-09-07T09:00:00+01:00
-reason: Clear admin/service title: administrative assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 29c0449a16aa5f60b9ecc1eaa5d12a035dd6a760044a08d8e043b2ff179d7717
-source: Teaching Vacancies
-source_job_id: administrative-assistant-the-king-s-school-ottery-st-mary-devon
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-the-king-s-school-ottery-st-mary-devon
----
 
 ---
 action: 
@@ -81,6 +66,21 @@ source_job_id: estates-administrator-learning-academies-trust
 source_url: https://teaching-vacancies.service.gov.uk/jobs/estates-administrator-learning-academies-trust
 ---
 
+---
+action: 
+SELECTED | Devon | Exeter, South West, EX2 7LB | £31,724 - £35,688 | Senior Administrator
+employer: Stansfield Academy
+closing_date: 2026-10-05T23:59:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: f15e070093b3334fc66696a87d368b472234ab719d87bb645b6fe45c865e3501
+source: Teaching Vacancies
+source_job_id: senior-administrator-stansfield-academy-exeter-devon
+source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-stansfield-academy-exeter-devon
+---
+
 ## POSS — choose SELECT or EXCLUDE
 
 ---
@@ -98,36 +98,6 @@ source_job_id: reception-and-administration-assistant-109b825b-7a0b-44c3-a80d-67
 source_url: https://teaching-vacancies.service.gov.uk/jobs/reception-and-administration-assistant-109b825b-7a0b-44c3-a80d-67ce740b1847
 ---
 
----
-action: 
-POSS | Devon | Exeter, South West, EX1 2PS | £27,709.00 - £29,070.00 Annually (FTE) | Senior Pupil Services Officer
-employer: Ladysmith Infant & Nursery School
-closing_date: 2026-09-07T09:00:00+01:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 95cb9cfb9952136fbcc7e690b10a22b2cc9aeca6ae35760b272b7ae733c628ef
-source: Teaching Vacancies
-source_job_id: senior-pupil-services-officer-ladysmith-infant-nursery-school-exeter-devon
-source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-pupil-services-officer-ladysmith-infant-nursery-school-exeter-devon
----
-
----
-action: 
-POSS | Devon | Exeter, South West, EX2 4NQ | £22,646.00 Annually (Actual) | Senior Pupil Services Officer
-employer: St Leonard's (CofE) Primary School
-closing_date: 2026-09-07T09:00:00+01:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: dbb05765c8fafaa95708d2e85b930424e9bee60136f15e07d7287cb953b0b840
-source: Teaching Vacancies
-source_job_id: senior-pupil-services-officer-st-leonard-s-cofe-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-pupil-services-officer-st-leonard-s-cofe-primary-school
----
-
 ## EXCLUDED BY REVIEW
 
 - None.
@@ -136,6 +106,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-pupil-services
 
 - [Chief Financial Officer (CFO)](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-cfo-torquay-boys-grammar-school-torquay-devon) — Insufficient admin/service evidence.
 - [Cover Supervisor](https://teaching-vacancies.service.gov.uk/jobs/cover-supervisor-9fa63c24-e87e-4376-b59f-95affbf3dff3) — Insufficient admin/service evidence.
+- [Finance and Contracts Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-and-contracts-officer) — Insufficient admin/service evidence.
 - [Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-learning-academies-trust-plymouth-not-recorded) — Insufficient admin/service evidence.
 - [Medical Conditions and Student Health Lead](https://teaching-vacancies.service.gov.uk/jobs/medical-conditions-and-student-health-lead) — Insufficient admin/service evidence.
 - [Payroll and HR Systems Officer (Central Team)](https://teaching-vacancies.service.gov.uk/jobs/payroll-and-hr-systems-officer-central-team-plymouth-cast) — Insufficient admin/service evidence.

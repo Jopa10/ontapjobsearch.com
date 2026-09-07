@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Norfolk
 
-review_date: 2026-09-06
-review_fingerprint: 029122890e785bce3e88b007d653c350032032476c6ddc0a73c1ea1c17c14ad3
-routing_manifest_sha256: 7fd315145b2e460bd548d4a5c1a4c8d7322399f4429f2897b7d301e5f0809506
+review_date: 2026-09-07
+review_fingerprint: 5cb2babadfa6a0dbff5d6a3ae3da995e2b28983c0672a36a978c4266ebe99e71
+routing_manifest_sha256: 2f1d5e350d23bbcb5d65881a4c56e54ac46dbd6b31bd0c081b3dd0f22c6116a6
 ontap_region: Norfolk
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 12
+- Records: 11
 - Selected: 5
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 7
+- Hard pass: 6
 
 ## SELECTED
 
@@ -68,6 +68,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assist
 
 ---
 action: 
+SELECTED | Norfolk | Great Yarmouth, East of England, NR31 8QQ | Scale C, points 3-4 £24,796 - £25,185 (actual £11,528 - £11,709) | Administrative Assistant
+employer: Woodlands Primary Academy
+closing_date: 2026-09-20T23:59:00+01:00
+reason: Clear admin/service title: administrative assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 72828c78cbec8b958427b25b1f209e5df169cba0d658c79e6d9c592ad25861e5
+source: Teaching Vacancies
+source_job_id: administrative-assistant-woodlands-primary-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-woodlands-primary-academy
+---
+
+---
+action: 
 SELECTED | Norfolk | Norwich, East of England, NR3 3HR | £25,989.00 - £26,403.00 Annually (FTE) £9,022 - £9,165 Actual salary | School Administrator
 employer: Angel Road Infant School
 closing_date: 2026-09-11T23:59:00+01:00
@@ -79,21 +94,6 @@ factual_fingerprint: 9e3405af1ee7b5ba234543879c287d01b76530e31d63c1f79e5c06935cc
 source: Teaching Vacancies
 source_job_id: school-administrator-angel-road-infant-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-angel-road-infant-school
----
-
----
-action: 
-SELECTED | Norfolk | Great Yarmouth, East of England, NR29 3AG | £15.06 - £16.07 per hour | Secretary
-employer: Fleggburgh CofE Primary School
-closing_date: 2026-09-07T01:00:00+01:00
-reason: Clear admin/service title: secretary
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 4b7217b81762597f8ec78d4aae594c69b35e380403c3c5975b49c8e2b4285aee
-source: Teaching Vacancies
-source_job_id: secretary-fleggburgh-cofe-primary-school-great-yarmouth-norfolk
-source_url: https://teaching-vacancies.service.gov.uk/jobs/secretary-fleggburgh-cofe-primary-school-great-yarmouth-norfolk
 ---
 
 ## POSS — choose SELECT or EXCLUDE
@@ -108,7 +108,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/secretary-fleggburgh-
 
 - [Administration Officer: Vulnerable Students](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-vulnerable-students) — Insufficient admin/service evidence.
 - [Administrator](https://teaching-vacancies.service.gov.uk/jobs/administrator-d3689c09-b164-4585-b47e-b87553162134) — Missing salary or pay scale.
-- [Attendance Lead](https://teaching-vacancies.service.gov.uk/jobs/attendance-lead-fred-nicholson-school) — Insufficient admin/service evidence.
 - [Chief Financial Officer](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-broad-horizons-education-trust) — Insufficient admin/service evidence.
 - [Development Officer](https://teaching-vacancies.service.gov.uk/jobs/development-officer-norwich-city-college-of-further-and-higher-education) — Insufficient admin/service evidence.
 - [Regional People Partner](https://teaching-vacancies.service.gov.uk/jobs/regional-people-partner-ormiston-victory-academy-norwich-norfolk) — Insufficient admin/service evidence.

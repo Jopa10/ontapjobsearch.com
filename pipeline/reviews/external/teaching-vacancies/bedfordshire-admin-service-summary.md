@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Bedfordshire
 
-review_date: 2026-09-06
-review_fingerprint: d38cf895e503037f447ca61641f533d0f314d84e58b8436e6e402009c6111b35
-routing_manifest_sha256: 7fd315145b2e460bd548d4a5c1a4c8d7322399f4429f2897b7d301e5f0809506
+review_date: 2026-09-07
+review_fingerprint: e5da0288753c2a3a94205c1bced9522abf8d7e9f90ca792dfa10a56319a71aab
+routing_manifest_sha256: 2f1d5e350d23bbcb5d65881a4c56e54ac46dbd6b31bd0c081b3dd0f22c6116a6
 ontap_region: Bedfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 8
-- Selected: 2
+- Records: 7
+- Selected: 1
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 5
@@ -23,32 +23,17 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ---
 action: 
-SELECTED | Bedfordshire | Biggleswade, East of England, SG18 8JU | £12.85 Hourly Level 2A point 3 (£12.85 per hour). | Administrative Assistant
-employer: Biggleswade Academy
-closing_date: 2026-09-06T23:59:00+01:00
-reason: Clear admin/service title: administrative assistant
+SELECTED | Bedfordshire | Bedford, East of England, MK44 1JL | £21,971.86 Annually (Actual) | Finance & Trips Admin Assistant
+employer: Sharnbrook Academy
+closing_date: 2026-09-18T23:59:00+01:00
+reason: Clear admin/service title: admin assistant
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: e1bb6ab1271b728a537c3bd419112165cfe8d20d8674fc7a512e71a6e2e416bc
+factual_fingerprint: 1033afe941c4c1260c1e58c7b3e3159efe97afedfd26303593d228224bc5fd11
 source: Teaching Vacancies
-source_job_id: administrative-assistant-39c3ce62-ad82-43cf-a920-db593d957c9a
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-39c3ce62-ad82-43cf-a920-db593d957c9a
----
-
----
-action: 
-SELECTED | Bedfordshire | Luton, East of England, LU1 5PP | £27,564.00 - £29,850.00 Annually (FTE) AS 9-14 FTE £27,564-£29,850 pro rata £25,146-£27,232 | Safeguarding, Attendance & Welfare Administrator
-employer: The Stockwood Park Academy
-closing_date: 2026-09-07T08:00:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 642f6c2348baaadf37ad1e7450fcabebd754676074846164659e1a128053bd40
-source: Teaching Vacancies
-source_job_id: safeguarding-attendance-welfare-administrator
-source_url: https://teaching-vacancies.service.gov.uk/jobs/safeguarding-attendance-welfare-administrator
+source_job_id: finance-trips-admin-assistant-fb3fbe5b-9ed3-42fb-9690-c3f622960d1a
+source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-trips-admin-assistant-fb3fbe5b-9ed3-42fb-9690-c3f622960d1a
 ---
 
 ## POSS — choose SELECT or EXCLUDE
@@ -77,8 +62,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/governance-profession
 - [Data and Exams Assistant](https://teaching-vacancies.service.gov.uk/jobs/data-and-exams-assistant-queensbury-academy) — Insufficient admin/service evidence.
 - [Data Manager](https://teaching-vacancies.service.gov.uk/jobs/data-manager-etonbury-academy) — Manager title salary ceiling £31,539 is not below £28,000.
 - [Finance Assistant - Purchase Ledger & Treasury](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-purchase-ledger-treasury) — Insufficient admin/service evidence.
-- [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-st-matthew-s-primary-school) — Insufficient admin/service evidence.
-- [HR & Recruitment Co-ordinator](https://teaching-vacancies.service.gov.uk/jobs/hr-recruitment-co-ordinator-f51339fe-8ae1-4bf7-a338-c9da88bf9ce1) — Insufficient admin/service evidence.
+- [General Assistant (Resources)](https://teaching-vacancies.service.gov.uk/jobs/general-assistant-resources-chiltern-academy) — Insufficient admin/service evidence.
+- [HR & Recruitment Co-ordinator](https://teaching-vacancies.service.gov.uk/jobs/hr-recruitment-co-ordinator-66ff1d11-9f6d-4db3-ad1f-8e0cb9271a4a) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

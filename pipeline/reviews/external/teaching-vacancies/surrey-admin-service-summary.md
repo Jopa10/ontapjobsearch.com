@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Surrey
 
-review_date: 2026-09-06
-review_fingerprint: decab7f35ef6265842d264f2546bd7eacd7b854018807462ab5637d6d6dace68
-routing_manifest_sha256: 7fd315145b2e460bd548d4a5c1a4c8d7322399f4429f2897b7d301e5f0809506
+review_date: 2026-09-07
+review_fingerprint: 76841574c9012ebac614424288ab1f20671b4cb3cd0c44eda4b049d0864e1018
+routing_manifest_sha256: 2f1d5e350d23bbcb5d65881a4c56e54ac46dbd6b31bd0c081b3dd0f22c6116a6
 ontap_region: Surrey
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 6
-- Selected: 4
+- Records: 4
+- Selected: 2
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 2
 
 ## SELECTED
-
----
-action: 
-SELECTED | Surrey | Epsom, South East, KT19 9SE | Specialist - £27,061 FTE (Actual - £16,166.96) | Attendance and Admissions Officer
-employer: Danetree Primary School
-closing_date: 2026-09-06T23:59:59+01:00
-reason: Clear admin/service title: admissions officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: a881037ac5f4229e710b623cb850edcb3742f10791c38c90dea5800d4f951855
-source: Teaching Vacancies
-source_job_id: attendance-and-admissions-officer-danetree-primary-school-epsom-surrey
-source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-and-admissions-officer-danetree-primary-school-epsom-surrey
----
 
 ---
 action: 
@@ -49,21 +34,6 @@ factual_fingerprint: 261161c8304145df89c9772082b01fafa85d5d0ea7746b10a6208fede5e
 source: Teaching Vacancies
 source_job_id: careers-administrator-1c0a6851-3e9c-4719-8774-31c627db4f71
 source_url: https://teaching-vacancies.service.gov.uk/jobs/careers-administrator-1c0a6851-3e9c-4719-8774-31c627db4f71
----
-
----
-action: 
-SELECTED | Surrey | Oxted, South East, RH8 9BQ | £15,007.83 - £15,934.70 Annually (Actual) TPA 8 / NJC 6 - 10 - £27,915 - £29,196pa FTE | HR & Admin Assistant
-employer: Holland Junior School
-closing_date: 2026-09-06T23:59:00+01:00
-reason: Clear admin/service title: admin assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 0c1f67fb1cc3e05c8ede6cb7f6de43b3d2c0cd419ee85cfbe8a660508288029a
-source: Teaching Vacancies
-source_job_id: hr-admin-assistant-holland-junior-school-oxted-surrey
-source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-admin-assistant-holland-junior-school-oxted-surrey
 ---
 
 ---

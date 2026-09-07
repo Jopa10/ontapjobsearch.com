@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Hampshire
 
-review_date: 2026-09-06
-review_fingerprint: afe4f5f8e128c2ac250a27901073ee7f1d820803e83ffd1dcc9afabc4af98282
-routing_manifest_sha256: 7fd315145b2e460bd548d4a5c1a4c8d7322399f4429f2897b7d301e5f0809506
+review_date: 2026-09-07
+review_fingerprint: 257b0f4914eff6a0c796fdf7c94d620b5b8bdc7c65f71d82072786d71bf874af
+routing_manifest_sha256: 2f1d5e350d23bbcb5d65881a4c56e54ac46dbd6b31bd0c081b3dd0f22c6116a6
 ontap_region: Hampshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 5
-- Selected: 4
+- Records: 6
+- Selected: 3
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 1
+- Hard pass: 3
 
 ## SELECTED
-
----
-action: 
-SELECTED | Hampshire | Ringwood, South East, BH24 1SE | £26,992.00 - £29,800.00 Annually (FTE) Salary will be pro rated to term time, plus one week of INSET days | Attendance Officer
-employer: Ringwood School Academy
-closing_date: 2026-09-07T09:00:00+01:00
-reason: Clear admin/service title: attendance officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 351366f73cf0a993ba908561c34c87b93e8d41e818b55bb87b9275a4765a7ed8
-source: Teaching Vacancies
-source_job_id: attendance-officer-2ee0b8e3-e03c-4648-9a90-ae13e6c3a5a4
-source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-2ee0b8e3-e03c-4648-9a90-ae13e6c3a5a4
----
 
 ---
 action: 
@@ -91,7 +76,9 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-ac
 
 ## HARD_PASS
 
+- [Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-st-bernadette-s-catholic-primary-school) — Missing salary or pay scale.
 - [Cover Co-ordinator and Cover Supervisor](https://teaching-vacancies.service.gov.uk/jobs/cover-co-ordinator-and-cover-supervisor) — Insufficient admin/service evidence.
+- [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-the-romsey-school) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

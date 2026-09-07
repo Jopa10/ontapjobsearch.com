@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Leicestershire
 
-review_date: 2026-09-06
-review_fingerprint: 11cca4f7a2cecf862becd67dc2f73b1bfd0fb921959be78305825a5477a66205
-routing_manifest_sha256: 7fd315145b2e460bd548d4a5c1a4c8d7322399f4429f2897b7d301e5f0809506
+review_date: 2026-09-07
+review_fingerprint: 8c7989df4f7a8ca9bace4e66f9504224ddb7cd9dc3d67f105be371995dd9c95c
+routing_manifest_sha256: 2f1d5e350d23bbcb5d65881a4c56e54ac46dbd6b31bd0c081b3dd0f22c6116a6
 ontap_region: Leicestershire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,43 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 8
-- Selected: 3
+- Records: 4
+- Selected: 1
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 3
 
 ## SELECTED
-
----
-action: 
-SELECTED | Leicestershire | Leicester, East Midlands, LE5 6HN | Grade 3, £26,388 - £27,188 per annum, pro rata. Approximately £20,783 - £21,413 per annum (0.78758 FTE) | Administrative Assistant / Receptionist
-employer: Krishna Avanti Primary School
-closing_date: 2026-09-06T23:59:00+01:00
-reason: Clear admin/service title: administrative assistant, receptionist
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 50886f798c3d43b595826d92fb49a4991abad95caed3d66fa83e8f5b942d7fee
-source: Teaching Vacancies
-source_job_id: administrative-assistant-receptionist-krishna-avanti-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-receptionist-krishna-avanti-primary-school
----
-
----
-action: 
-SELECTED | Leicestershire | Loughborough, East Midlands, LE11 3BT | £25,266 - £25,950 Per Annum | Learning Support Administrator
-employer: Loughborough College
-closing_date: 2026-09-06T23:59:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 90c6618c7197d28e427087141240239c8919980aa19db022e763950510f66e05
-source: Teaching Vacancies
-source_job_id: learning-support-administrator-loughborough-college
-source_url: https://teaching-vacancies.service.gov.uk/jobs/learning-support-administrator-loughborough-college
----
 
 ---
 action: 
@@ -77,9 +47,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-sherrier
 ## HARD_PASS
 
 - [Apprentice Premises Officer](https://teaching-vacancies.service.gov.uk/jobs/apprentice-premises-officer-ash-field-academy) — Insufficient admin/service evidence.
-- [Director of Finance](https://teaching-vacancies.service.gov.uk/jobs/director-of-finance-rise-multi-academy-trust) — Insufficient admin/service evidence.
 - [Extended Services Club Manager (EXS031BC)](https://teaching-vacancies.service.gov.uk/jobs/extended-services-club-manager-exs031bc-sileby-redlands-community-primary-school) — Manager title salary ceiling £28,146 is not below £28,000.
-- [Sixth Form Coordinator](https://teaching-vacancies.service.gov.uk/jobs/sixth-form-coordinator-charnwood-college) — Insufficient admin/service evidence.
 - [Trust Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/trust-finance-officer-discovery-schools-academies-trust-ltd) — Insufficient admin/service evidence.
 
 ## Safety boundary

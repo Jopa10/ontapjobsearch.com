@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Greater Manchester - Manchester & Salford
 
-review_date: 2026-09-06
-review_fingerprint: 30e8e074459d066eb9c9b3c3f1decb9338e7a568ec506bc6631661ebcfd8211b
-routing_manifest_sha256: 7fd315145b2e460bd548d4a5c1a4c8d7322399f4429f2897b7d301e5f0809506
+review_date: 2026-09-07
+review_fingerprint: 56fa75585d6b33e4c519bd0b7a30b73c6817de8e7176beafd9fa1f7d989032ca
+routing_manifest_sha256: 2f1d5e350d23bbcb5d65881a4c56e54ac46dbd6b31bd0c081b3dd0f22c6116a6
 ontap_region: Greater Manchester - Manchester & Salford
 slice_category: admin_service
 slice_status: LIVE
@@ -14,10 +14,10 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 6
-- Selected: 4
+- Selected: 5
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 2
+- Hard pass: 1
 
 ## SELECTED
 
@@ -34,6 +34,21 @@ factual_fingerprint: 4f47a9b4fabd4982aca927926fb7e70c6d67b4cf0961d9dfb9d9cd10b70
 source: Teaching Vacancies
 source_job_id: administration-assistant-c2f65b3b-e84d-4148-98e6-f9f60ceb2d22
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-c2f65b3b-e84d-4148-98e6-f9f60ceb2d22
+---
+
+---
+action: 
+SELECTED | Greater Manchester - Manchester & Salford | Manchester, North West, M23 2YS | £27,274.00 - £29,071.00 Annually (FTE) Grade 4 scp. 7-11 pro rated. Actual Salary: £23,460 - £25,569 | Assistant Exams Officer
+employer: Saint Paul's Catholic High School
+closing_date: 2026-09-30T12:00:00+01:00
+reason: Clear admin/service title: exams officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: f784f36393553e3dbeea8146b731fa75e5dbaa25a1585fe0ed5a0d8afec393fb
+source: Teaching Vacancies
+source_job_id: assistant-exams-officer-saint-paul-s-catholic-high-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/assistant-exams-officer-saint-paul-s-catholic-high-school
 ---
 
 ---
@@ -91,7 +106,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/pastoral-administrato
 
 ## HARD_PASS
 
-- [Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-bright-futures-educational-trust-manchester-not-recorded) — Insufficient admin/service evidence.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-7986b875-3afd-40fe-a6d9-35bfdfc945f0) — Manager title salary ceiling £44,075 is not below £28,000.
 
 ## Safety boundary

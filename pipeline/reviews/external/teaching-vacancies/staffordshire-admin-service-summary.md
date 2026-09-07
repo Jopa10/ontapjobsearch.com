@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Staffordshire
 
-review_date: 2026-09-06
-review_fingerprint: 3ec8931d37f08740dff3d696769f7fbb902be4a502668473287ef786621a94dd
-routing_manifest_sha256: 7fd315145b2e460bd548d4a5c1a4c8d7322399f4429f2897b7d301e5f0809506
+review_date: 2026-09-07
+review_fingerprint: 760e935e0f49cde15987eea17cac08979133076d313524c978f7c5254c948d68
+routing_manifest_sha256: 2f1d5e350d23bbcb5d65881a4c56e54ac46dbd6b31bd0c081b3dd0f22c6116a6
 ontap_region: Staffordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -14,10 +14,10 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 8
-- Selected: 3
+- Selected: 2
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 6
 
 ## SELECTED
 
@@ -51,21 +51,6 @@ source_job_id: attendance-officer-level-4-longford-primary-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-level-4-longford-primary-academy
 ---
 
----
-action: 
-SELECTED | Staffordshire | Stoke-On-Trent, ST4 2LW | £15,434.00 Annually (Actual) Salary review pending | Finance Administrator Apprentice
-employer: Manor Hall Academy Trust
-closing_date: 2026-09-07T09:00:00+01:00
-reason: Clear admin/service title: administrator, finance administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: b6de7879489dec7e35f1768b336790c7724cf0511d262f05bd784d1ae1790aa9
-source: Teaching Vacancies
-source_job_id: finance-administrator-apprentice-manor-hall-academy-trust
-source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-administrator-apprentice-manor-hall-academy-trust
----
-
 ## POSS — choose SELECT or EXCLUDE
 
 - None.
@@ -76,9 +61,10 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-administrator
 
 ## HARD_PASS
 
+- [Administration and Finance Assistant - Level 3](https://teaching-vacancies.service.gov.uk/jobs/administration-and-finance-assistant-level-3-abbey-hill-academy-college-stoke-on-trent-staffordshire) — Insufficient admin/service evidence.
 - [Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-the-shaw-education-trust) — Insufficient admin/service evidence.
-- [Management Accountant](https://teaching-vacancies.service.gov.uk/jobs/management-accountant-discovery-academy) — Insufficient admin/service evidence.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-5c20c15e-9ea0-4341-b9c5-ba119bab985a) — Manager title salary ceiling £39,152 is not below £28,000.
+- [Student Support and Attendance](https://teaching-vacancies.service.gov.uk/jobs/student-support-and-attendance) — Insufficient admin/service evidence.
 - [Trust Governance Manager](https://teaching-vacancies.service.gov.uk/jobs/trust-governance-manager-community-academies-trust) — Manager title salary ceiling £41,771 is not below £28,000.
 - [Trust Payroll Officer](https://teaching-vacancies.service.gov.uk/jobs/trust-payroll-officer-a8f45de3-8ece-41fc-909e-9dacae971fa0) — Insufficient admin/service evidence.
 

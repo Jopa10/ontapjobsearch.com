@@ -1,9 +1,9 @@
-# Teaching Vacancies regional review — Herefordshire
+# Teaching Vacancies regional review — Lancashire - Blackpool & Fylde
 
 review_date: 2026-09-07
-review_fingerprint: ee2aec668ee541a9fe179494785cf06df8e41f28a4bf919c61a1720da2aa6536
+review_fingerprint: c7d10750153c54412cbad0be1b2e3fdf20207b501e5c5c4206fcc18752455077
 routing_manifest_sha256: 2f1d5e350d23bbcb5d65881a4c56e54ac46dbd6b31bd0c081b3dd0f22c6116a6
-ontap_region: Herefordshire
+ontap_region: Lancashire - Blackpool & Fylde
 slice_category: admin_service
 slice_status: UNREGISTERED
 
@@ -23,17 +23,17 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ---
 action: 
-SELECTED | Herefordshire | Hereford, West Midlands, HR1 2DY | £14.14 Hourly SCP 7 | Administrative Assistant Level 2 Primary
-employer: St Thomas Cantilupe CofE Academy
-closing_date: 2026-09-09T12:00:00+01:00
-reason: Clear admin/service title: administrative assistant
+SELECTED | Lancashire - Blackpool & Fylde | Blackpool, North West, FY4 4RR | NJC Pay Scale Grade C, Points 5 to 6 | Administrator - Mereside Primary Academy
+employer: Mereside Primary Academy
+closing_date: 2026-09-21T09:00:00+01:00
+reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
 slice_status: UNREGISTERED
 migration_status: 
-factual_fingerprint: 8e7ae4e387be2928bab4240ad47dc308e2667fdec18efc430512b10cdac7c1e0
+factual_fingerprint: 57683d595fe8578f724c0ad226f8ec7614a22a3489f8ef49d1c030b2181b62b2
 source: Teaching Vacancies
-source_job_id: administrative-assistant-level-2-primary-st-thomas-cantilupe-cofe-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-level-2-primary-st-thomas-cantilupe-cofe-academy
+source_job_id: administrator-mereside-primary-academy-mereside-primary-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-mereside-primary-academy-mereside-primary-academy
 ---
 
 ## POSS — choose SELECT or EXCLUDE

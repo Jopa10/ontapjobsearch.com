@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Dorset
 
-review_date: 2026-09-06
-review_fingerprint: 2fc7ba7dbbd6e377f71fedcab15ac6a6fb281763c1e5440e451e5ac94fbef71e
-routing_manifest_sha256: 7fd315145b2e460bd548d4a5c1a4c8d7322399f4429f2897b7d301e5f0809506
+review_date: 2026-09-07
+review_fingerprint: 3c08f3ea72674e10219e5a41a416d15385248b285e39c626d7751f441e9f0865
+routing_manifest_sha256: 2f1d5e350d23bbcb5d65881a4c56e54ac46dbd6b31bd0c081b3dd0f22c6116a6
 ontap_region: Dorset
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 6
-- Selected: 4
+- Records: 5
+- Selected: 3
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 1
@@ -34,21 +34,6 @@ factual_fingerprint: ad1b4ec2d96614ab3f34d6d240a42db92c96be59a29c5499028d2cbfe76
 source: Teaching Vacancies
 source_job_id: administrator-sixth-form-study-centre-3a398641-1a04-436d-8d95-d6c3dd1d9ae1
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-sixth-form-study-centre-3a398641-1a04-436d-8d95-d6c3dd1d9ae1
----
-
----
-action: 
-SELECTED | Dorset | Bournemouth, South West, BH8 9PW | Actual salary - £22,105 per annum (Full time Equivalent - £27,222 per annum) | Careers and Work Experience Administrator
-employer: The Bishop of Winchester Academy
-closing_date: 2026-09-06T23:59:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: f26938550059614df068621441bdec772b06d8301a1148b15b996afe3102e5b3
-source: Teaching Vacancies
-source_job_id: careers-and-work-experience-administrator-the-bishop-of-winchester-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/careers-and-work-experience-administrator-the-bishop-of-winchester-academy
 ---
 
 ---

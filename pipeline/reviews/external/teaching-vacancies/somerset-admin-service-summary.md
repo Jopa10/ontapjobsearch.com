@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Somerset
 
-review_date: 2026-09-06
-review_fingerprint: 6d0765bfac0d781b45cf68cbd4931ebca18ac19631fecc38d49527652914da6f
-routing_manifest_sha256: 7fd315145b2e460bd548d4a5c1a4c8d7322399f4429f2897b7d301e5f0809506
+review_date: 2026-09-07
+review_fingerprint: ccb63d26174aafbdf307af57d07c5a23e9b7c0af81f4248fe84af19ddb7fcd14
+routing_manifest_sha256: 2f1d5e350d23bbcb5d65881a4c56e54ac46dbd6b31bd0c081b3dd0f22c6116a6
 ontap_region: Somerset
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 10
-- Selected: 4
+- Records: 7
+- Selected: 2
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 4
 
 ## SELECTED
 
@@ -38,21 +38,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-and-
 
 ---
 action: 
-SELECTED | Somerset | Taunton, South West, TA1 2JD | £10,716.00 Annually (Actual) | Level 3 Business administrator apprentice
-employer: Willow Vale School
-closing_date: 2026-09-06T23:59:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 47d4224a146f4e568934f93d9c35821d69684417cb97bc2f0c8559c6e3b86bd5
-source: Teaching Vacancies
-source_job_id: level-3-business-administrator-apprentice
-source_url: https://teaching-vacancies.service.gov.uk/jobs/level-3-business-administrator-apprentice
----
-
----
-action: 
 SELECTED | Somerset | Weston-Super-Mare, BS22 8XX | £27,275 - £29,542. DOE | People Administrator (Learning and Development)
 employer: Pathway Trust
 closing_date: 2026-09-08T21:00:59+01:00
@@ -66,9 +51,11 @@ source_job_id: people-administrator-learning-and-development
 source_url: https://teaching-vacancies.service.gov.uk/jobs/people-administrator-learning-and-development
 ---
 
+## POSS — choose SELECT or EXCLUDE
+
 ---
-action: select
-SELECTED | Somerset | Taunton, South West, TA2 8FT | Actual Annual Salary | Senior Office Administrator
+action: 
+POSS | Somerset | Taunton, South West, TA2 8FT | Actual Annual Salary | Senior Office Administrator
 employer: West Monkton Church of England School
 closing_date: 2026-09-10T12:00:59+01:00
 reason: Possible JobG8 duplicate requires review
@@ -81,23 +68,6 @@ source_job_id: senior-office-administrator-west-monkton-church-of-england-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-office-administrator-west-monkton-church-of-england-school
 ---
 
-## POSS — choose SELECT or EXCLUDE
-
----
-action: 
-POSS | Somerset | Taunton, South West, TA4 2NE | £12,046 – 13,138 | Data Manager
-employer: Kingsmead Academy
-closing_date: 2026-09-06T23:59:59+01:00
-reason: Manager title below £28,000 salary ceiling requires review
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 75a8f2e94a4b9e6fcb6ece1f0cf10c4892803a75b04b96fe99f6daf1eb697699
-source: Teaching Vacancies
-source_job_id: data-manager-kingsmead-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/data-manager-kingsmead-academy
----
-
 ## EXCLUDED BY REVIEW
 
 - None.
@@ -105,7 +75,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/data-manager-kingsmea
 ## HARD_PASS
 
 - [Apprentice Workplace Reviewer](https://teaching-vacancies.service.gov.uk/jobs/apprentice-workplace-reviewer) — Insufficient admin/service evidence.
-- [Careers Lead](https://teaching-vacancies.service.gov.uk/jobs/careers-lead-the-castle-school-taunton-somerset) — Insufficient admin/service evidence.
 - [Primary Assistant Headteacher Behaviour and Personal Development](https://teaching-vacancies.service.gov.uk/jobs/primary-assistant-headteacher-behaviour-and-personal-development) — Out-of-scope occupation: teacher, headteacher.
 - [Project and Executive Support Officer - Part Time](https://teaching-vacancies.service.gov.uk/jobs/project-and-executive-support-officer-part-time) — Insufficient admin/service evidence.
 - [Systems Analyst](https://teaching-vacancies.service.gov.uk/jobs/systems-analyst-pathway-trust) — Insufficient admin/service evidence.

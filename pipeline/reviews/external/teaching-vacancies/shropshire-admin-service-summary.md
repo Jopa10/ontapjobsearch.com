@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Shropshire
 
-review_date: 2026-09-06
-review_fingerprint: acc2acb59ba490c3bc385da1c02c252877dc2069a352f5cc011ce507dcb89ae6
-routing_manifest_sha256: 7fd315145b2e460bd548d4a5c1a4c8d7322399f4429f2897b7d301e5f0809506
+review_date: 2026-09-07
+review_fingerprint: 44e1f6dc1c0de9a57976f1c67eaa023c8b02d0d82bcc4e6e7730169d74ef81fa
+routing_manifest_sha256: 2f1d5e350d23bbcb5d65881a4c56e54ac46dbd6b31bd0c081b3dd0f22c6116a6
 ontap_region: Shropshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 6
+- Records: 4
 - Selected: 2
-- POSS awaiting decision: 1
+- POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 3
+- Hard pass: 2
 
 ## SELECTED
 
@@ -53,20 +53,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assist
 
 ## POSS — choose SELECT or EXCLUDE
 
----
-action: 
-POSS | Shropshire | Bridgnorth, WV15 5EQ | £13.69 - £13.69 Hourly | Clerk to Governors
-employer: Shropshire Church Of England Academies Trust
-closing_date: 2026-09-07T09:00:00+01:00
-reason: Borderline school administration title: clerk to governors
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 8b750c07215556b6445d529594383056bc403763a77f7ed91218299951663d6d
-source: Teaching Vacancies
-source_job_id: clerk-to-governors-1d324093-5397-42e1-b835-18ab44a4bceb
-source_url: https://teaching-vacancies.service.gov.uk/jobs/clerk-to-governors-1d324093-5397-42e1-b835-18ab44a4bceb
----
+- None.
 
 ## EXCLUDED BY REVIEW
 
@@ -75,7 +62,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/clerk-to-governors-1d
 ## HARD_PASS
 
 - [Data and Information Lead](https://teaching-vacancies.service.gov.uk/jobs/data-and-information-lead) — Insufficient admin/service evidence.
-- [Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-severn-bridges-multi-academy-trust) — Insufficient admin/service evidence.
 - [Head of HR Operations](https://teaching-vacancies.service.gov.uk/jobs/head-of-hr-operations-the-3-18-education-trust) — Insufficient admin/service evidence.
 
 ## Safety boundary

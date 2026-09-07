@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — North East - Tees Valley
 
-review_date: 2026-09-06
+review_date: 2026-09-07
 review_fingerprint: 04301fd33951323549e655d94fbe08af784a4294bfae9fb1656dc8c9239c1350
-routing_manifest_sha256: 7fd315145b2e460bd548d4a5c1a4c8d7322399f4429f2897b7d301e5f0809506
+routing_manifest_sha256: 2f1d5e350d23bbcb5d65881a4c56e54ac46dbd6b31bd0c081b3dd0f22c6116a6
 ontap_region: North East - Tees Valley
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 6
+- Records: 5
 - Selected: 1
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 4
+- Hard pass: 3
 
 ## SELECTED
 
@@ -59,7 +59,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-office-manager
 
 ## HARD_PASS
 
-- [Assistant Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/assistant-finance-manager-outwood-academy-normanby) — Manager title salary ceiling £44,075 is not below £28,000.
 - [HR Assistant](https://teaching-vacancies.service.gov.uk/jobs/hr-assistant-outwood-academy-acklam-middlesbrough) — Insufficient admin/service evidence.
 - [School Business Manager (Secondary)](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-secondary-our-lady-st-bede-catholic-academy) — Manager title salary ceiling £41,771 is not below £28,000.
 - [Trust Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/trust-finance-assistant-spark-education-trust) — Insufficient admin/service evidence.

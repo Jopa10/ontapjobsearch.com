@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Nottinghamshire
 
-review_date: 2026-09-06
-review_fingerprint: 098ff2db0f99587bb312e1f83e9d6d312df63e0ae700e1deea6ad367785a3477
-routing_manifest_sha256: 7fd315145b2e460bd548d4a5c1a4c8d7322399f4429f2897b7d301e5f0809506
+review_date: 2026-09-07
+review_fingerprint: 100b8e0f58e1c82c53dc3819858523d025c9ab284e24839f42102e3a005d9372
+routing_manifest_sha256: 2f1d5e350d23bbcb5d65881a4c56e54ac46dbd6b31bd0c081b3dd0f22c6116a6
 ontap_region: Nottinghamshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 19
+- Records: 14
 - Selected: 8
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 10
+- Hard pass: 5
 
 ## SELECTED
-
----
-action: 
-SELECTED | Nottinghamshire | Mansfield, East Midlands, NG18 2DP | £25,588.00 (actual salary £21,848.22) | Administration Assistant
-employer: Horizons Academy
-closing_date: 2026-09-06T23:59:00+01:00
-reason: Clear admin/service title: administration assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: f6f97a59ea42f0840efc57a6e42cc520715530761c895d780beea2269b8b20ba
-source: Teaching Vacancies
-source_job_id: administration-assistant-horizons-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-horizons-academy
----
 
 ---
 action: 
@@ -64,6 +49,21 @@ factual_fingerprint: b97c523ae128a987ffe73f1767463bd248500cb31e7017c94bc9e34cfab
 source: Teaching Vacancies
 source_job_id: administrative-assistant-burton-joyce-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-burton-joyce-primary-school
+---
+
+---
+action: 
+SELECTED | Nottinghamshire | Nottingham, East Midlands, NG17 8FX | £24,413.00 - £25,185.00 Annually (FTE) | Administrative Assistant
+employer: Greenwood Primary and Nursery School
+closing_date: 2026-09-25T09:00:00+01:00
+reason: Clear admin/service title: administrative assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: be2be491b96bcd8d9d3472ff7b356f179dc8604f7e8c58d6e34210a726fb3e9e
+source: Teaching Vacancies
+source_job_id: administrative-assistant-greenwood-primary-and-nursery-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-greenwood-primary-and-nursery-school
 ---
 
 ---
@@ -165,15 +165,10 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/data-officer-the-whit
 ## HARD_PASS
 
 - [Accounts Payable Assistant](https://teaching-vacancies.service.gov.uk/jobs/accounts-payable-assistant-greenwood-academies-trust) — Insufficient admin/service evidence.
-- [Administration and Attendance Support](https://teaching-vacancies.service.gov.uk/jobs/administration-and-attendance-support) — Insufficient admin/service evidence.
-- [Assistant Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/assistant-operations-manager-8e287efa-6467-481b-8c80-56f74d927bdb) — Manager title salary ceiling £33,699 is not below £28,000.
 - [Exams and Assessment Assistant](https://teaching-vacancies.service.gov.uk/jobs/exams-and-assessment-assistant-965ac6ec-7678-47d6-8b9f-daf363a12cdd) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-sycamore-academy) — Manager title salary ceiling £40,446 is not below £28,000.
-- [People & Culture Advisor](https://teaching-vacancies.service.gov.uk/jobs/people-culture-advisor-tapestry-learning-partnership-nottingham-not-recorded) — Insufficient admin/service evidence.
-- [People & Culture Business Partner](https://teaching-vacancies.service.gov.uk/jobs/people-culture-business-partner-tapestry-learning-partnership) — Insufficient admin/service evidence.
+- [Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-65ca1f05-aa50-430f-afeb-b27088a93265) — Insufficient admin/service evidence.
 - [Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-newark-orchard-school-newark) — Insufficient admin/service evidence.
-- [Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-redgate-primary-academy-mansfield-nottinghamshire) — Insufficient admin/service evidence.
-- [Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-yeoman-park-academy-mansfield-nottinghamshire) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

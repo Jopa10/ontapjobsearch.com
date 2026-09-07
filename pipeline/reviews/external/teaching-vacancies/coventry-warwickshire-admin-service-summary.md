@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Coventry & Warwickshire
 
-review_date: 2026-09-06
-review_fingerprint: 245885e5212a1166f8cb40da07c094aa11e89d5fefdfd0a16e34aca217d109b2
-routing_manifest_sha256: 7fd315145b2e460bd548d4a5c1a4c8d7322399f4429f2897b7d301e5f0809506
+review_date: 2026-09-07
+review_fingerprint: 4b7fccb7cd01bd717fbfc3c5491c6f3924e5ce4be2e7ee9464ee264c5597a432
+routing_manifest_sha256: 2f1d5e350d23bbcb5d65881a4c56e54ac46dbd6b31bd0c081b3dd0f22c6116a6
 ontap_region: West Midlands - Coventry & Warwickshire
 slice_category: admin_service
 slice_status: LIVE
@@ -14,8 +14,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 4
-- Selected: 3
-- POSS awaiting decision: 0
+- Selected: 2
+- POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 1
 
@@ -51,24 +51,22 @@ source_job_id: receptionist-and-administrator-ftc-contract-september-december-20
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-and-administrator-ftc-contract-september-december-2026-kenilworth-school-and-sixth-form-kenilworth
 ---
 
----
-action: 
-SELECTED | West Midlands - Coventry & Warwickshire | Stratford-upon-Avon, West Midlands, CV37 6TQ | £15,411.00 - £16,758.00 Annually (Actual) | Receptionist/Admin Officer
-employer: Welcombe Hills School
-closing_date: 2026-09-07T09:00:00+01:00
-reason: Clear admin/service title: receptionist
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 9e92ac95c2d6e47d33c52d2ff11beac3999227390161f12863453bb6e3cb6678
-source: Teaching Vacancies
-source_job_id: receptionist-admin-officer-f47a5a75-5bef-45e1-a471-94bb514d5613
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-admin-officer-f47a5a75-5bef-45e1-a471-94bb514d5613
----
-
 ## POSS — choose SELECT or EXCLUDE
 
-- None.
+---
+action: 
+POSS | West Midlands - Coventry & Warwickshire | Coventry, West Midlands, CV3 2LP | £9,039.00 - £9,183.00 Annually (Actual) NJC pay scale Grade E 5-6 | Administration Assistant
+employer: St Bartholomew's Church of England Academy
+closing_date: 2026-09-13T23:59:00+01:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 73c6aaae18fc0746911ad2fd2ee4e4251d199508c579fc8a50b12f5521b41bad
+source: Teaching Vacancies
+source_job_id: administration-assistant-st-bartholomew-s-church-of-england-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-st-bartholomew-s-church-of-england-academy
+---
 
 ## EXCLUDED BY REVIEW
 
@@ -76,7 +74,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-admin-of
 
 ## HARD_PASS
 
-- [Senior Leisure & Lettings Coordinator](https://teaching-vacancies.service.gov.uk/jobs/senior-leisure-lettings-coordinator) — Insufficient admin/service evidence.
+- [Cover Co-Ordinator & Data Assistant](https://teaching-vacancies.service.gov.uk/jobs/cover-co-ordinator-data-assistant) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

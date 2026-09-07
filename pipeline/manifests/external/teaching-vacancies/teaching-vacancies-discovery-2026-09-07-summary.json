@@ -1,0 +1,101 @@
+{
+  "contract_version": "teaching-vacancies-national-v3",
+  "generated_at": "2026-09-07T14:04:06+01:00",
+  "run_date": "2026-09-07",
+  "source": "Teaching Vacancies",
+  "source_scope": "England-wide; no Ontap regional restriction",
+  "full_sweeps": 1,
+  "route_audit_retry_delays_seconds": [
+    2.0,
+    5.0
+  ],
+  "records": 390,
+  "detail_records_discovered": 390,
+  "detail_failures_quarantined": 0,
+  "detail_failure_threshold": 15,
+  "detail_failures": [],
+  "detail_listing_race_404s": [],
+  "manifest_sha256": "da8a02e88beb53f4bcbd8fdb690f5276695086867fbefde03c86dc18c8fb43da",
+  "routes": [
+    {
+      "name": "administration-category",
+      "query": "Administration, HR, data and finance",
+      "url": "https://teaching-vacancies.service.gov.uk/administration-hr-data-finance-jobs",
+      "reported_total": 367,
+      "pages_fetched": 37,
+      "listing_occurrences": 367,
+      "unique_urls": 367,
+      "audit_attempts": 1
+    },
+    {
+      "name": "keyword:administrator",
+      "query": "administrator",
+      "url": "https://teaching-vacancies.service.gov.uk/jobs?keyword=administrator",
+      "reported_total": 68,
+      "pages_fetched": 7,
+      "listing_occurrences": 68,
+      "unique_urls": 67,
+      "audit_attempts": 1
+    },
+    {
+      "name": "keyword:administrative",
+      "query": "administrative",
+      "url": "https://teaching-vacancies.service.gov.uk/jobs?keyword=administrative",
+      "reported_total": 23,
+      "pages_fetched": 3,
+      "listing_occurrences": 23,
+      "unique_urls": 23,
+      "audit_attempts": 1
+    },
+    {
+      "name": "keyword:receptionist",
+      "query": "receptionist",
+      "url": "https://teaching-vacancies.service.gov.uk/jobs?keyword=receptionist",
+      "reported_total": 18,
+      "pages_fetched": 2,
+      "listing_occurrences": 18,
+      "unique_urls": 18,
+      "audit_attempts": 1
+    },
+    {
+      "name": "keyword:office",
+      "query": "office",
+      "url": "https://teaching-vacancies.service.gov.uk/jobs?keyword=office",
+      "reported_total": 30,
+      "pages_fetched": 3,
+      "listing_occurrences": 30,
+      "unique_urls": 30,
+      "audit_attempts": 1
+    },
+    {
+      "name": "keyword:business support",
+      "query": "business support",
+      "url": "https://teaching-vacancies.service.gov.uk/jobs?keyword=business+support",
+      "reported_total": 0,
+      "pages_fetched": 1,
+      "listing_occurrences": 0,
+      "unique_urls": 0,
+      "audit_attempts": 1
+    },
+    {
+      "name": "keyword:exams officer",
+      "query": "exams officer",
+      "url": "https://teaching-vacancies.service.gov.uk/jobs?keyword=exams+officer",
+      "reported_total": 9,
+      "pages_fetched": 1,
+      "listing_occurrences": 9,
+      "unique_urls": 9,
+      "audit_attempts": 1
+    },
+    {
+      "name": "keyword:personal assistant",
+      "query": "personal assistant",
+      "url": "https://teaching-vacancies.service.gov.uk/jobs?keyword=personal+assistant",
+      "reported_total": 10,
+      "pages_fetched": 1,
+      "listing_occurrences": 10,
+      "unique_urls": 10,
+      "audit_attempts": 1
+    }
+  ]
+}

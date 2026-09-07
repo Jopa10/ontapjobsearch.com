@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Oxfordshire
 
-review_date: 2026-09-06
-review_fingerprint: c9b610943c7182294e1bfef8ee6cc8c3bac0a7d2e7fa350631aa3ea82f4ac8cf
-routing_manifest_sha256: 7fd315145b2e460bd548d4a5c1a4c8d7322399f4429f2897b7d301e5f0809506
+review_date: 2026-09-07
+review_fingerprint: 0799872d76f7d66dd3d5750b06d8cb3e2c13b82cc6796af4a6d51acdb04399b1
+routing_manifest_sha256: 2f1d5e350d23bbcb5d65881a4c56e54ac46dbd6b31bd0c081b3dd0f22c6116a6
 ontap_region: Oxfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 8
-- Selected: 3
+- Records: 9
+- Selected: 2
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 7
 
 ## SELECTED
 
@@ -51,21 +51,6 @@ source_job_id: grade-6-office-administrator-3e4de74e-af8a-4ee3-b949-0a2e141ed8ab
 source_url: https://teaching-vacancies.service.gov.uk/jobs/grade-6-office-administrator-3e4de74e-af8a-4ee3-b949-0a2e141ed8ab
 ---
 
----
-action: 
-SELECTED | Oxfordshire | Thame, South East, OX9 2AQ | £28,140.00 Annually (Actual) Actual salary based on 37 hours per week, term time plus 2 weeks work in the summer holidays. The full-time equivalent salary is £31,537 to £34,434 per annum | Sixth Form Administrator / Team Leader
-employer: Lord Williams's School
-closing_date: 2026-09-07T09:00:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: f5e6e828ea85b0103227e88c35b4d127637af83482caf60081d2fe20072c93ec
-source: Teaching Vacancies
-source_job_id: sixth-form-administrator-team-leader
-source_url: https://teaching-vacancies.service.gov.uk/jobs/sixth-form-administrator-team-leader
----
-
 ## POSS — choose SELECT or EXCLUDE
 
 - None.
@@ -76,6 +61,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/sixth-form-administra
 
 ## HARD_PASS
 
+- [Chief Financial Officer (Part Time)](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-part-time-abingdon-learning-trust) — Insufficient admin/service evidence.
+- [Chief Operating Officer](https://teaching-vacancies.service.gov.uk/jobs/chief-operating-officer-oxford-diocesan-schools-trust-wantage-not-recorded) — Insufficient admin/service evidence.
 - [Cover Manager](https://teaching-vacancies.service.gov.uk/jobs/cover-manager-gillotts-school) — Manager title salary ceiling £29,065 is not below £28,000.
 - [Exams and Data Manager](https://teaching-vacancies.service.gov.uk/jobs/exams-and-data-manager-whitelands-academy) — Manager title salary ceiling £40,444 is not below £28,000.
 - [Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-24437cdc-05bf-4102-bc88-8beac49a5637) — Insufficient admin/service evidence.

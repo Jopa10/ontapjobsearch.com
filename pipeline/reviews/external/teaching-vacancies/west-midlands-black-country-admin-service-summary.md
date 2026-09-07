@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Black Country
 
-review_date: 2026-09-06
-review_fingerprint: ab3dbaf43b60acb284fba1da730b60d542fd3f8547f477bd3d292174d9f998a4
-routing_manifest_sha256: 7fd315145b2e460bd548d4a5c1a4c8d7322399f4429f2897b7d301e5f0809506
+review_date: 2026-09-07
+review_fingerprint: a9c6051d5fd1725eec311c2a1246542b3e2ff0fe48ab1f5717a5311759f7f831
+routing_manifest_sha256: 2f1d5e350d23bbcb5d65881a4c56e54ac46dbd6b31bd0c081b3dd0f22c6116a6
 ontap_region: West Midlands - Black Country
 slice_category: admin_service
 slice_status: LIVE
@@ -13,17 +13,21 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 4
-- Selected: 2
-- POSS awaiting decision: 0
+- Records: 3
+- Selected: 0
+- POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 2
 
 ## SELECTED
 
+- None.
+
+## POSS — choose SELECT or EXCLUDE
+
 ---
-action: select
-SELECTED | West Midlands - Black Country | Wednesbury, West Midlands, WS10 7PZ | £22,828 – £23,935 | Office Administrator
+action: 
+POSS | West Midlands - Black Country | Wednesbury, West Midlands, WS10 7PZ | £22,828 – £23,935 | Office Administrator
 employer: Holyhead Primary Academy
 closing_date: 2026-09-13T23:59:00+01:00
 reason: Possible JobG8 duplicate requires review
@@ -35,25 +39,6 @@ source: Teaching Vacancies
 source_job_id: office-administrator-holyhead-primary-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-holyhead-primary-academy
 ---
-
----
-action: 
-SELECTED | West Midlands - Black Country | Wolverhampton, West Midlands, WV8 1PF | £25,583.00 - £25,989.00 Annually (Actual) | School Administrator
-employer: St Christopher's Catholic Primary Academy
-closing_date: 2026-09-07T09:00:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 8ec1f9988ec20ca44195d1fa8b94c6e452938ce6f182f792b6986237116e7b6d
-source: Teaching Vacancies
-source_job_id: school-administrator-st-christopher-s-catholic-primary-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-st-christopher-s-catholic-primary-academy
----
-
-## POSS — choose SELECT or EXCLUDE
-
-- None.
 
 ## EXCLUDED BY REVIEW
 

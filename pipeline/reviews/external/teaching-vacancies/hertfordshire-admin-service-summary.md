@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Hertfordshire
 
-review_date: 2026-09-06
-review_fingerprint: 966cad7232de6ad70efed22691ca4e821d4428ea168863d59da860a4e0e4ee40
-routing_manifest_sha256: 7fd315145b2e460bd548d4a5c1a4c8d7322399f4429f2897b7d301e5f0809506
+review_date: 2026-09-07
+review_fingerprint: b68bce156250bfaf3e1d29f2af05180f21534498d00ab76920393f8ee7f3ac3d
+routing_manifest_sha256: 2f1d5e350d23bbcb5d65881a4c56e54ac46dbd6b31bd0c081b3dd0f22c6116a6
 ontap_region: Hertfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 15
-- Selected: 7
+- Records: 17
+- Selected: 9
 - POSS awaiting decision: 3
 - Excluded: 0
 - Hard pass: 5
@@ -64,6 +64,36 @@ factual_fingerprint: 7f5bfab27cf91fbf98859ab2685aac0d61881fdc48c0cc742bc78ac1b68
 source: Teaching Vacancies
 source_job_id: administrator-and-pupil-welfare-the-orchard-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-and-pupil-welfare-the-orchard-primary-school
+---
+
+---
+action: 
+SELECTED | Hertfordshire | Watford, East of England, WD25 0UU | £16,973.00 Annually (Actual) Salary Grade H4 (including London Fringe Allowance) + Local Government Pension Scheme | Examinations Administrator
+employer: Parmiter's School
+closing_date: 2026-09-16T10:00:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: baff804aecc29a76f81c10cb955da66f4ea3b46049c4cd25bc12a7e9d09bfab9
+source: Teaching Vacancies
+source_job_id: examinations-administrator-parmiter-s-school-watford-hertfordshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/examinations-administrator-parmiter-s-school-watford-hertfordshire
+---
+
+---
+action: 
+SELECTED | Hertfordshire | Hemel Hempstead, East of England, HP2 4DE | £28,837.00 - £30,971.00 Annually (Actual) H7.19-23 Depending on Experience | Examinations Officer
+employer: The Adeyfield Academy
+closing_date: 2026-09-24T23:59:00+01:00
+reason: Clear admin/service title: examinations officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 5543d057e3707efc1ae1d641acdcde1fb5255d65250920143097b7644b22e41c
+source: Teaching Vacancies
+source_job_id: examinations-officer-a5731d2f-6372-47b8-8d69-8228b7ce94d0
+source_url: https://teaching-vacancies.service.gov.uk/jobs/examinations-officer-a5731d2f-6372-47b8-8d69-8228b7ce94d0
 ---
 
 ---

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - North
 
-review_date: 2026-09-06
-review_fingerprint: b0754cf116fc08fa0050061c07bf14ea9935d6c62feef44679be74398e56f411
-routing_manifest_sha256: 7fd315145b2e460bd548d4a5c1a4c8d7322399f4429f2897b7d301e5f0809506
+review_date: 2026-09-07
+review_fingerprint: 32d8deaa58882e0d11c025e1b14444bfa25f5ec4729d3d3a4afe50fbf8597827
+routing_manifest_sha256: 2f1d5e350d23bbcb5d65881a4c56e54ac46dbd6b31bd0c081b3dd0f22c6116a6
 ontap_region: Yorkshire - North
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 10
-- Selected: 3
+- Records: 6
+- Selected: 2
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 7
+- Hard pass: 4
 
 ## SELECTED
-
----
-action: 
-SELECTED | Yorkshire - North | Scarborough, Yorkshire and the Humber, YO11 3LG | £19,292.00 - £24,404.00 Annually (FTE) | Apprentice Administrator
-employer: Braeburn Primary and Nursery Academy
-closing_date: 2026-09-07T09:00:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: a655379499a2c939350bd7a6dd1df624f4e919ff6e00823e5fee762de875c76b
-source: Teaching Vacancies
-source_job_id: apprentice-administrator-braeburn-primary-and-nursery-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/apprentice-administrator-braeburn-primary-and-nursery-academy
----
 
 ---
 action: 
@@ -76,13 +61,10 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-
 
 ## HARD_PASS
 
-- [Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-joseph-rowntree-school) — Insufficient admin/service evidence.
-- [Clerk to School Governing Body](https://teaching-vacancies.service.gov.uk/jobs/clerk-to-school-governing-body-ebor-academy-trust) — Insufficient admin/service evidence.
 - [Finance Director](https://teaching-vacancies.service.gov.uk/jobs/finance-director-pathfinder-multi-academy-trust) — Insufficient admin/service evidence.
 - [HR Business Partner](https://teaching-vacancies.service.gov.uk/jobs/hr-business-partner-pathfinder-multi-academy-trust) — Insufficient admin/service evidence.
 - [Hub Business Leader (Harrogate Hub)](https://teaching-vacancies.service.gov.uk/jobs/hub-business-leader-harrogate-hub) — Insufficient admin/service evidence.
 - [Human Resources Officer](https://teaching-vacancies.service.gov.uk/jobs/human-resources-officer-heartwood-learning-trust-york-not-recorded) — Insufficient admin/service evidence.
-- [Safeguarding Officer](https://teaching-vacancies.service.gov.uk/jobs/safeguarding-officer-5aeab0ad-6293-4dca-a4da-08493a5af26e) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

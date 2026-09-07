@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — East Midlands
 
-review_date: 2026-09-06
-review_fingerprint: 255dc797c7c2e10f3571083962d49f75f7b2bf93cbc2392c27779b925bfe9353
-routing_manifest_sha256: 7fd315145b2e460bd548d4a5c1a4c8d7322399f4429f2897b7d301e5f0809506
+review_date: 2026-09-07
+review_fingerprint: 38e5d5e0354a682c25081569fb739ce2c13a44c812e68656f150dd86d839e022
+routing_manifest_sha256: 2f1d5e350d23bbcb5d65881a4c56e54ac46dbd6b31bd0c081b3dd0f22c6116a6
 ontap_region: East Midlands
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 9
-- Selected: 5
+- Records: 8
+- Selected: 4
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 4
@@ -81,21 +81,6 @@ source_job_id: exams-officer-david-nieper-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-david-nieper-academy
 ---
 
----
-action: 
-SELECTED | East Midlands | Melton Mowbray, East Midlands, LE13 0BN | £21,993.00 - £23,051.00 Annually (Actual) NJC 3-6 (37 hours per week, 39 weeks per year) | Receptionist
-employer: Long Field Spencer Academy
-closing_date: 2026-09-07T12:00:00+01:00
-reason: Clear admin/service title: receptionist
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: 68260fdacefe2ce6c7d2835dedce01e4093eb635de13a8539bad130e63ae9270
-source: Teaching Vacancies
-source_job_id: receptionist-long-field-spencer-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-long-field-spencer-academy
----
-
 ## POSS — choose SELECT or EXCLUDE
 
 - None.
@@ -106,10 +91,10 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-long-fie
 
 ## HARD_PASS
 
+- [Executive Assistant](https://teaching-vacancies.service.gov.uk/jobs/executive-assistant-derby-college) — Insufficient admin/service evidence.
 - [Level 1 Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/level-1-personal-care-assistant-village-primary-academy) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-village-primary-academy-derby-derbyshire) — Manager title salary ceiling £32,597 is not below £28,000.
 - [Senior Contract & Procurement Manager](https://teaching-vacancies.service.gov.uk/jobs/senior-contract-procurement-manager-embark-multi-academy-trust-derby-not-recorded) — Manager title salary ceiling £54,000 is not below £28,000.
-- [Trust Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/trust-finance-manager-affinity-learning-partnership) — Manager title salary ceiling £44,075 is not below £28,000.
 
 ## Safety boundary
 

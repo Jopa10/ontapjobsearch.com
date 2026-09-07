@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Greater Manchester - North
 
-review_date: 2026-09-06
+review_date: 2026-09-07
 review_fingerprint: b802cd7bce11b98e2696c52dfb9776ed361b266413db0c45dd1cfe883856e660
-routing_manifest_sha256: 7fd315145b2e460bd548d4a5c1a4c8d7322399f4429f2897b7d301e5f0809506
+routing_manifest_sha256: 2f1d5e350d23bbcb5d65881a4c56e54ac46dbd6b31bd0c081b3dd0f22c6116a6
 ontap_region: Greater Manchester - North
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -60,8 +60,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-suppor
 ## HARD_PASS
 
 - [Attendance Support Officer](https://teaching-vacancies.service.gov.uk/jobs/attendance-support-officer-st-gabriel-s-rc-high-school-a-voluntary-academy) — Insufficient admin/service evidence.
+- [Exam Invigilator](https://teaching-vacancies.service.gov.uk/jobs/exam-invigilator-hollingworth-academy) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-the-hathershaw-college) — Manager title salary ceiling £44,253 is not below £28,000.
-- [Senior Human Resources Advisor](https://teaching-vacancies.service.gov.uk/jobs/senior-human-resources-advisor-kingfisher-learning-trust) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

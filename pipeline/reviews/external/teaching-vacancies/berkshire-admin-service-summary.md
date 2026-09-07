@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Berkshire
 
-review_date: 2026-09-06
-review_fingerprint: c61c02b67dff391e1351345258e567c63eff3636e601a0893d054bd2399eabd3
-routing_manifest_sha256: 7fd315145b2e460bd548d4a5c1a4c8d7322399f4429f2897b7d301e5f0809506
+review_date: 2026-09-07
+review_fingerprint: 20834776ccae60e286fdd227cd780b0b145edccc3e2a9193b203a6c806c45349
+routing_manifest_sha256: 2f1d5e350d23bbcb5d65881a4c56e54ac46dbd6b31bd0c081b3dd0f22c6116a6
 ontap_region: Berkshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 18
+- Records: 15
 - Selected: 4
-- POSS awaiting decision: 1
+- POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 13
+- Hard pass: 9
 
 ## SELECTED
 
@@ -85,17 +85,32 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/welfare-assistant-adm
 
 ---
 action: 
-POSS | Berkshire | Reading, RG6 1EY | £13,121.00 - £14,383.00 Annually (Actual) Grade 7 SCP 25-29 | Trust Governance Professional
-employer: The Keys Academy Trust
-closing_date: 2026-09-07T09:00:00+01:00
-reason: Borderline school administration title: governance professional
+POSS | Berkshire | Reading, South East, RG1 5SL | £21,362.00 Annually (Actual) Grade 4 ( SCP 7-11) Term Time Only plus 5 INSET days. FTE £26,402 | Administrative Support Assistant - Pastoral
+employer: Maiden Erlegh School in Reading
+closing_date: 2026-09-17T23:59:00+01:00
+reason: Administrative duties evidenced in description
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: de3ed1f296bb446a719dbbee6da7605933e1df202fc518a8f9bca3e541fcc4f7
+factual_fingerprint: 2da989bce189c9680992e18c2f132f4514fe38b90251e70893105b7cbd2bd328
 source: Teaching Vacancies
-source_job_id: trust-governance-professional-the-keys-academy-trust-reading-not-recorded
-source_url: https://teaching-vacancies.service.gov.uk/jobs/trust-governance-professional-the-keys-academy-trust-reading-not-recorded
+source_job_id: administrative-support-assistant-pastoral
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-support-assistant-pastoral
+---
+
+---
+action: 
+POSS | Berkshire | Wokingham, South East, RG40 3RB | £28,598-£31,021 | School Operations Officer
+employer: Nine Mile Ride Primary School
+closing_date: 2026-09-24T09:00:00+01:00
+reason: Borderline school administration title: operations officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: fdff2281f8d36d942fffb8caf1ec4dab239ecabd54528c163aa49b6f34ad3569
+source: Teaching Vacancies
+source_job_id: school-operations-officer-nine-mile-ride-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/school-operations-officer-nine-mile-ride-primary-school
 ---
 
 ## EXCLUDED BY REVIEW
@@ -105,13 +120,9 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/trust-governance-prof
 ## HARD_PASS
 
 - [Casual Lettings Assistant](https://teaching-vacancies.service.gov.uk/jobs/casual-lettings-assistant-maiden-erlegh-chiltern-edge) — Insufficient admin/service evidence.
-- [Customer Relations Manager](https://teaching-vacancies.service.gov.uk/jobs/customer-relations-manager) — Manager title salary ceiling £44,075 is not below £28,000.
-- [Finance Officer - Addington School](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-addington-school) — Insufficient admin/service evidence.
 - [Home School Liaison Assistant](https://teaching-vacancies.service.gov.uk/jobs/home-school-liaison-assistant-842866de-b635-4ed9-bb14-58200af5fde1) — Insufficient admin/service evidence.
 - [HR & Recruitment Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-recruitment-officer-the-park-federation-academy-trust) — Insufficient admin/service evidence.
-- [Lettings Assistant](https://teaching-vacancies.service.gov.uk/jobs/lettings-assistant-reading-school) — Insufficient admin/service evidence.
 - [Office Manager - Southcote Primary School](https://teaching-vacancies.service.gov.uk/jobs/office-manager-southcote-primary-school-southcote-primary-school-reading-berkshire) — Manager title salary ceiling £35,521 is not below £28,000.
-- [Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/operations-manager-reading-school) — Manager title salary ceiling £44,075 is not below £28,000.
 - [Payroll Officer](https://teaching-vacancies.service.gov.uk/jobs/payroll-officer-the-park-federation-academy-trust-slough-not-recorded) — Insufficient admin/service evidence.
 - [PFM Compliance and Site Officer](https://teaching-vacancies.service.gov.uk/jobs/pfm-compliance-and-site-officer-beechwood-school-slough-berkshire) — Insufficient admin/service evidence.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-datchet-st-mary-s-cofe-primary-school) — Manager title salary ceiling £46,979 is not below £28,000.

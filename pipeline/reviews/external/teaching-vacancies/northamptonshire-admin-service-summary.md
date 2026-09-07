@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Northamptonshire
 
-review_date: 2026-09-06
-review_fingerprint: fb3f2fd3362bba20618c515a3b7d0a60950db79f2416bdc51cfea7551ad9911d
-routing_manifest_sha256: 7fd315145b2e460bd548d4a5c1a4c8d7322399f4429f2897b7d301e5f0809506
+review_date: 2026-09-07
+review_fingerprint: 45e79808b9a1c44bee0ec5576070aeaba03fde6e7b13ae86da5fc3a0788be371
+routing_manifest_sha256: 2f1d5e350d23bbcb5d65881a4c56e54ac46dbd6b31bd0c081b3dd0f22c6116a6
 ontap_region: Northamptonshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 6
-- Selected: 3
+- Records: 3
+- Selected: 2
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 3
+- Hard pass: 1
 
 ## SELECTED
 
@@ -34,21 +34,6 @@ factual_fingerprint: b62095106145be161528f0bdaf567d0ab9edee7ee080a0cb6407ca43f34
 source: Teaching Vacancies
 source_job_id: admin-assistant-barry-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-barry-primary-school
----
-
----
-action: 
-SELECTED | Northamptonshire | Corby, East Midlands, NN18 8RH | £12,129.00 Annually (Actual) BWT Grade 2 FTE £26,121 | Administrative Assistant
-employer: Oakley Vale Primary School
-closing_date: 2026-09-07T09:00:00+01:00
-reason: Clear admin/service title: administrative assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: cffb50a7e90d18c416bce22758639b46a1291f4b0a2eea59a08d18a7e17bde78
-source: Teaching Vacancies
-source_job_id: administrative-assistant-b859019b-7b6c-4ece-9a4e-4225227e6a1e
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-b859019b-7b6c-4ece-9a4e-4225227e6a1e
 ---
 
 ---
@@ -76,8 +61,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-raunds-
 
 ## HARD_PASS
 
-- [Exams Office Manager](https://teaching-vacancies.service.gov.uk/jobs/exams-office-manager) — Manager title salary ceiling £33,699 is not below £28,000.
-- [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-bishop-stopford-school) — Manager title salary ceiling £46,142 is not below £28,000.
 - [St James Infant and Pre School Business Partner](https://teaching-vacancies.service.gov.uk/jobs/st-james-infant-and-pre-school-business-partner-inmat) — Insufficient admin/service evidence.
 
 ## Safety boundary

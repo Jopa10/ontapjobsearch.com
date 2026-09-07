@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - West
 
-review_date: 2026-09-06
-review_fingerprint: 78dde8c0dbbdde83b5070ffa8fd5f94719bf2a92d4aada826c6246452b13a9ce
-routing_manifest_sha256: 7fd315145b2e460bd548d4a5c1a4c8d7322399f4429f2897b7d301e5f0809506
+review_date: 2026-09-07
+review_fingerprint: 9003438195498a0a3276dd1377a83b817ecf29e81b52165427293e398b5f2bc7
+routing_manifest_sha256: 2f1d5e350d23bbcb5d65881a4c56e54ac46dbd6b31bd0c081b3dd0f22c6116a6
 ontap_region: Yorkshire - West
 slice_category: admin_service
 slice_status: LIVE
@@ -14,10 +14,10 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 17
-- Selected: 5
+- Selected: 6
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 12
+- Hard pass: 11
 
 ## SELECTED
 
@@ -49,6 +49,21 @@ factual_fingerprint: 62ddf1c60bc77af3e8a2087e03ac48d1b6b265d251b75839b65bd7f52c4
 source: Teaching Vacancies
 source_job_id: academy-administrator-l3-dixons-cottingley-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/academy-administrator-l3-dixons-cottingley-academy
+---
+
+---
+action: 
+SELECTED | Yorkshire - West | Leeds, Yorkshire and the Humber, LS12 3DS | DAT Level 2 SCP14-17 (Actual salary £24,444 - £24,832) | Academy Administrator Level 2
+employer: Dixons Unity Academy
+closing_date: 2026-09-18T23:59:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: NEW_REVIEW
+factual_fingerprint: 62a7e2c37551129d9f7ea36be5420e248b20d9672ca136ec4d22206fc2861c8e
+source: Teaching Vacancies
+source_job_id: academy-administrator-level-2-dixons-unity-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/academy-administrator-level-2-dixons-unity-academy
 ---
 
 ---
@@ -106,15 +121,14 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-
 
 ## HARD_PASS
 
+- [Assistant Senco](https://teaching-vacancies.service.gov.uk/jobs/assistant-senco-fdb10c11-75c5-458b-8d4c-5aa13619d9cc) — Insufficient admin/service evidence.
 - [Data and Exams Manager](https://teaching-vacancies.service.gov.uk/jobs/data-and-exams-manager-dixons-city-academy) — Manager title salary ceiling £34,744 is not below £28,000.
 - [Data, Assessment, and MIS Officer](https://teaching-vacancies.service.gov.uk/jobs/data-assessment-and-mis-officer-crofton-academy) — Insufficient admin/service evidence.
 - [Exam Invigilator](https://teaching-vacancies.service.gov.uk/jobs/exam-invigilator-leeds-city-academy-leeds-west-yorkshire) — Insufficient admin/service evidence.
-- [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-outwood-grange-academies-trust) — Manager title salary ceiling £53,881 is not below £28,000.
 - [Finance Manager (Core Team)](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-core-team) — Manager title salary ceiling £49,282 is not below £28,000.
 - [HR and Staff Wellbeing Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-and-staff-wellbeing-officer-laisterdyke-leadership-academy-bradford-west-yorkshire) — Insufficient admin/service evidence.
 - [Human Resources Business Partner (Central HR Team)](https://teaching-vacancies.service.gov.uk/jobs/human-resources-business-partner-central-hr-team-the-gorse-academies-trust-leeds-not-recorded) — Insufficient admin/service evidence.
 - [Operations Lead](https://teaching-vacancies.service.gov.uk/jobs/operations-lead-menston-primary-school-ilkley-west-yorkshire) — Insufficient admin/service evidence.
-- [Procurement Manager](https://teaching-vacancies.service.gov.uk/jobs/procurement-manager-outwood-grange-academies-trust) — Manager title salary ceiling £44,075 is not below £28,000.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-1b36ee5c-0c17-4759-81a0-a7f12e916e50) — Manager title salary ceiling £59,005 is not below £28,000.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-9bdfb809-a83a-40f4-96f0-6df1b12f41b5) — Manager title salary ceiling £59,005 is not below £28,000.
 - [Trust Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/trust-administration-assistant-waterton-academy-trust) — Insufficient admin/service evidence.

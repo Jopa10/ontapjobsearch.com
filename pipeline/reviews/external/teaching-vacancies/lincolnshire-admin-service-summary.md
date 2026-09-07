@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Lincolnshire
 
-review_date: 2026-09-06
-review_fingerprint: d90747e5fcc54851d449a9ee3a1cb21270aba368d071c844c934b273529f2f73
-routing_manifest_sha256: 7fd315145b2e460bd548d4a5c1a4c8d7322399f4429f2897b7d301e5f0809506
+review_date: 2026-09-07
+review_fingerprint: c4450837d57f16459fc2493346fb65d94b9c1488f14b7ee1242d722f3ab5929b
+routing_manifest_sha256: 2f1d5e350d23bbcb5d65881a4c56e54ac46dbd6b31bd0c081b3dd0f22c6116a6
 ontap_region: Lincolnshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 12
-- Selected: 5
+- Records: 11
+- Selected: 3
 - POSS awaiting decision: 3
 - Excluded: 0
-- Hard pass: 4
+- Hard pass: 5
 
 ## SELECTED
-
----
-action: 
-SELECTED | Lincolnshire | Boston, East Midlands, PE21 7RZ | £21,362.70 - £22,390.52 Annually (Actual) | Assistant Administrator
-employer: St Thomas CofE Primary Academy
-closing_date: 2026-09-06T23:59:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 9a9c646b13ddf6ac455156904f9f5bd223fd3eb3ffac61a7ad4c6dab887eebf9
-source: Teaching Vacancies
-source_job_id: assistant-administrator-bc00604f-24a2-4741-bbd7-1135c9c18070
-source_url: https://teaching-vacancies.service.gov.uk/jobs/assistant-administrator-bc00604f-24a2-4741-bbd7-1135c9c18070
----
 
 ---
 action: 
@@ -49,21 +34,6 @@ factual_fingerprint: 1b39fb6193f7053b86ff1cde956cf6ce6f683e78449cf91fba773186525
 source: Teaching Vacancies
 source_job_id: cover-and-operations-administrator
 source_url: https://teaching-vacancies.service.gov.uk/jobs/cover-and-operations-administrator
----
-
----
-action: 
-SELECTED | Lincolnshire | Boston, East Midlands, PE20 1JS | £30,023.00 - £30,023.00 Annually (FTE) NJC13 £30,023 FTE (£26,371.55 pro rata) | Data & Exams Officer
-employer: Thomas Middlecott Academy
-closing_date: 2026-10-07T23:59:00+01:00
-reason: Clear admin/service title: exams officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 25b7d646b0e428bd399657677446b620888dafaadd0f37c6bc39b2fa7a256699
-source: Teaching Vacancies
-source_job_id: data-exams-officer-thomas-middlecott-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/data-exams-officer-thomas-middlecott-academy
 ---
 
 ---
@@ -153,6 +123,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-manager-5960c3
 - [Academy Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/academy-operations-manager-thomas-middlecott-academy-boston-lincolnshire) — Manager title salary ceiling £42,839 is not below £28,000.
 - [Data Manager](https://teaching-vacancies.service.gov.uk/jobs/data-manager-de-aston-school) — Manager title without salary evidence below £28,000.
 - [School Bursar](https://teaching-vacancies.service.gov.uk/jobs/school-bursar-cliffedale-primary-school) — Insufficient admin/service evidence.
+- [Senior Administrative Officer - 20 hours](https://teaching-vacancies.service.gov.uk/jobs/senior-administrative-officer-20-hours) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

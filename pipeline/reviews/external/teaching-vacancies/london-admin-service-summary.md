@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — London
 
-review_date: 2026-09-06
-review_fingerprint: 1fdb2eaa589a1ac885c58d7e50d9dac1079e41deebb57a8a13da643a9e9a62c3
-routing_manifest_sha256: 7fd315145b2e460bd548d4a5c1a4c8d7322399f4429f2897b7d301e5f0809506
+review_date: 2026-09-07
+review_fingerprint: 0575b3b49b9219c99dbf5595950a5e58329527ade4c25eacb7caa3c267ca707c
+routing_manifest_sha256: 2f1d5e350d23bbcb5d65881a4c56e54ac46dbd6b31bd0c081b3dd0f22c6116a6
 ontap_region: London
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 47
-- Selected: 17
-- POSS awaiting decision: 1
+- Records: 38
+- Selected: 11
+- POSS awaiting decision: 5
 - Excluded: 0
-- Hard pass: 29
+- Hard pass: 22
 
 ## SELECTED
 
@@ -37,21 +37,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assist
 ---
 
 ---
-action: select
-SELECTED | London | London, London, NW10 2UF | £27,254.00 Annually (FTE) Term Time Only | Administrator
-employer: North Brent School
-closing_date: 2026-09-11T23:59:00+01:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 191ae12793a688c36e982f53c8c75b135af37598de3aebc9308101a40ec6c94d
-source: Teaching Vacancies
-source_job_id: administrator-north-brent-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-north-brent-school
----
-
----
 action: 
 SELECTED | London | Hayes, London, UB3 1PB | Scale 3, £29,436 fte (subject to pro rata) | Attendance Officer
 employer: Harlington School
@@ -64,21 +49,6 @@ factual_fingerprint: db828f86945354209bcc3e3f7f121e353ba338bc66c495408182223ec0a
 source: Teaching Vacancies
 source_job_id: attendance-officer-51e5944a-f923-43fe-901e-fe10c0fa1676
 source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-51e5944a-f923-43fe-901e-fe10c0fa1676
----
-
----
-action: select
-SELECTED | London | London, London, SW16 6NP | Grade 3 - Salary Spine point 5 to 6 - £31,086 to £31,530 (actual £28,592 to £29,002) | Office Administrator
-employer: St Leonard's Church of England Primary School
-closing_date: 2026-09-11T15:00:00+01:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: dfb8614e8859acc9e446d1f3a5130b800f5a77f9bf4b14abbd10dba60aa9a134
-source: Teaching Vacancies
-source_job_id: office-administrator-st-leonard-s-church-of-england-primary-school-london
-source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-st-leonard-s-church-of-england-primary-school-london
 ---
 
 ---
@@ -127,36 +97,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/post-16-academic-supe
 ---
 
 ---
-action: select
-SELECTED | London | London, London, SE11 5QY | £26,857.00 - £27,240.00 Annually (Actual) Room for progression | Receptionist
-employer: Lilian Baylis Technology School
-closing_date: 2026-09-18T10:00:00+01:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: c49a4b7a13bf551c6da1eb15fef1cf557a699be80f7bacfad2380287f86ab3c9
-source: Teaching Vacancies
-source_job_id: receptionist-lilian-baylis-technology-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-lilian-baylis-technology-school
----
-
----
-action: 
-SELECTED | London | Harrow, London, HA2 9AG | £14,166.00 Annually (Actual) | Receptionist & Admin Assistant
-employer: Heathland School
-closing_date: 2026-09-06T23:59:00+01:00
-reason: Clear admin/service title: admin assistant, receptionist
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: d54c6e19d2b224f68173e20840ff699b0c8319fd95ee37c0e1301d48c17f55c9
-source: Teaching Vacancies
-source_job_id: receptionist-admin-assistant-heathland-school-harrow-middlesex
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-admin-assistant-heathland-school-harrow-middlesex
----
-
----
 action: 
 SELECTED | London | Upminster, London, RM14 1SF | £29,434 - £31,155 | Receptionist (Part-time)
 employer: Hall Mead School
@@ -173,32 +113,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-part-tim
 
 ---
 action: 
-SELECTED | London | Ilford, London, IG2 6HX | £26,903.00 Annually (Actual) | Receptionist / Office Co-ordinator
-employer: Valentines High School
-closing_date: 2026-09-07T09:00:00+01:00
+SELECTED | London | Barking, London, IG11 0FU | £27,418.00 Annually (Actual) Support Staff Scale - 4.7 | School Receptionist
+employer: Riverside Bridge School
+closing_date: 2026-09-17T23:59:00+01:00
 reason: Clear admin/service title: receptionist
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: d33c6476ba91e25b92d9af564e75cc526646e7290f806428edca49eb102e96b3
+factual_fingerprint: 8fbe4b57b609124353ef069a7eb14bf08ada1b547d680cf1d175afc4b816d9d0
 source: Teaching Vacancies
-source_job_id: receptionist-office-co-ordinator
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-office-co-ordinator
----
-
----
-action: select
-SELECTED | London | Osterley, London, TW7 5PN | 28,195.00 - 29,852.00 | School Administrator
-employer: Nishkam School West London
-closing_date: 2026-09-18T00:00:00+01:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 8b9e05d1ce0c1907c3414549212366b0b7e2a26f20c63f4cff0f7dd0beb80873
-source: Teaching Vacancies
-source_job_id: school-administrator-nishkam-school-west-london
-source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-nishkam-school-west-london
+source_job_id: school-receptionist-riverside-bridge-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/school-receptionist-riverside-bridge-school
 ---
 
 ---
@@ -233,14 +158,14 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/sen-administrative-as
 
 ---
 action: 
-SELECTED | London | London, London, E11 2JZ | £36,593.00 - £39,690.00 Annually (Actual) LBR 7 Scale 23 - 25 | SEND Administrator
+SELECTED | London | London, London, E11 2JZ | £36,593.00 - £37,690.00 Annually (Actual) | SEND Administrator
 employer: Wanstead High School
 closing_date: 2026-09-18T23:59:00+01:00
 reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 44da11818e0fac5546eb66734399c0b24869477c8c06fcdd7f81ff5448b7fd3f
+factual_fingerprint: 7a72794bb842715dfa3dad9cbe549178d93a2e7045d6780433455586b55d066a
 source: Teaching Vacancies
 source_job_id: send-administrator-wanstead-high-school-london
 source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-wanstead-high-school-london
@@ -261,21 +186,6 @@ source_job_id: senior-data-administrator
 source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-data-administrator
 ---
 
----
-action: 
-SELECTED | London | London, London, NW9 4AS | £20,559.00 - £23,767.00 Annually (Actual) Pay rise expected from September following Board approval. | Welfare Administrator
-employer: Saracens High School
-closing_date: 2026-09-06T23:59:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: af4bdca5a26b79f06e968b15bee52f86891d4e055516856344068303e6402b4c
-source: Teaching Vacancies
-source_job_id: welfare-administrator-3dd90b50-3a52-43fe-9d80-f9dcd6216326
-source_url: https://teaching-vacancies.service.gov.uk/jobs/welfare-administrator-3dd90b50-3a52-43fe-9d80-f9dcd6216326
----
-
 ## POSS — choose SELECT or EXCLUDE
 
 ---
@@ -293,6 +203,66 @@ source_job_id: administration-officer-worsley-bridge-primary-school-beckenham-ke
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-officer-worsley-bridge-primary-school-beckenham-kent
 ---
 
+---
+action: 
+POSS | London | London, London, NW10 2UF | £27,254.00 Annually (FTE) Term Time Only | Administrator
+employer: North Brent School
+closing_date: 2026-09-11T23:59:00+01:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 191ae12793a688c36e982f53c8c75b135af37598de3aebc9308101a40ec6c94d
+source: Teaching Vacancies
+source_job_id: administrator-north-brent-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-north-brent-school
+---
+
+---
+action: 
+POSS | London | London, London, SW16 6NP | Grade 3 - Salary Spine point 5 to 6 - £31,086 to £31,530 (actual £28,592 to £29,002) | Office Administrator
+employer: St Leonard's Church of England Primary School
+closing_date: 2026-09-11T15:00:00+01:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: dfb8614e8859acc9e446d1f3a5130b800f5a77f9bf4b14abbd10dba60aa9a134
+source: Teaching Vacancies
+source_job_id: office-administrator-st-leonard-s-church-of-england-primary-school-london
+source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-st-leonard-s-church-of-england-primary-school-london
+---
+
+---
+action: 
+POSS | London | London, London, SE11 5QY | £26,857.00 - £27,240.00 Annually (Actual) Room for progression | Receptionist
+employer: Lilian Baylis Technology School
+closing_date: 2026-09-18T10:00:00+01:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: c49a4b7a13bf551c6da1eb15fef1cf557a699be80f7bacfad2380287f86ab3c9
+source: Teaching Vacancies
+source_job_id: receptionist-lilian-baylis-technology-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-lilian-baylis-technology-school
+---
+
+---
+action: 
+POSS | London | Osterley, London, TW7 5PN | 28,195.00 - 29,852.00 | School Administrator
+employer: Nishkam School West London
+closing_date: 2026-09-18T00:00:00+01:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 8b9e05d1ce0c1907c3414549212366b0b7e2a26f20c63f4cff0f7dd0beb80873
+source: Teaching Vacancies
+source_job_id: school-administrator-nishkam-school-west-london
+source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-nishkam-school-west-london
+---
+
 ## EXCLUDED BY REVIEW
 
 - None.
@@ -301,7 +271,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-office
 
 - [Admin Officer with Reception duties](https://teaching-vacancies.service.gov.uk/jobs/admin-officer-with-reception-duties) — Insufficient admin/service evidence.
 - [Attendance & Welfare Lead and Deputy Designated Safeguarding Lead (DDSL)](https://teaching-vacancies.service.gov.uk/jobs/attendance-welfare-lead-and-deputy-designated-safeguarding-lead-ddsl) — Insufficient admin/service evidence.
-- [Attendance and Welfare Officer](https://teaching-vacancies.service.gov.uk/jobs/attendance-and-welfare-officer-st-thomas-more-language-college-london) — Insufficient admin/service evidence.
 - [Data and Examinations Manager](https://teaching-vacancies.service.gov.uk/jobs/data-and-examinations-manager-park-view-school) — Manager title salary ceiling £52,194 is not below £28,000.
 - [Exams & Access Arrangements Assistant](https://teaching-vacancies.service.gov.uk/jobs/exams-access-arrangements-assistant) — Insufficient admin/service evidence.
 - [Facilities Manager](https://teaching-vacancies.service.gov.uk/jobs/facilities-manager-wimbledon-college) — Manager title salary ceiling £52,827 is not below £28,000.
@@ -310,18 +279,12 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-office
 - [Fundraising Officer](https://teaching-vacancies.service.gov.uk/jobs/fundraising-officer-ac67c185-438c-4d63-82c9-4fcd5524afc9) — Insufficient admin/service evidence.
 - [HR Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-woodside-primary-school-croydon-surrey) — Insufficient admin/service evidence.
 - [Human Resources & Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/human-resources-operations-manager-the-woodland-academy-trust) — Manager title salary ceiling £59,778 is not below £28,000.
-- [Human Resources Business Partner](https://teaching-vacancies.service.gov.uk/jobs/human-resources-business-partner-aspirations-academies-trust) — Insufficient admin/service evidence.
 - [Human Resources Manager (Schools)](https://teaching-vacancies.service.gov.uk/jobs/human-resources-manager-schools) — Manager title salary ceiling £41,000 is not below £28,000.
-- [Inclusion Manager](https://teaching-vacancies.service.gov.uk/jobs/inclusion-manager-wren-academy-finchley-london) — Manager title salary ceiling £38,126 is not below £28,000.
 - [Learning Resource Centre Manager](https://teaching-vacancies.service.gov.uk/jobs/learning-resource-centre-manager-harris-city-academy-crystal-palace-london) — Manager title salary ceiling £34,488 is not below £28,000.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-1a973059-d7f8-42e5-b5fb-d95788720396) — Manager title salary ceiling £44,235 is not below £28,000.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-cf4ed5f9-993c-4290-bdde-9e62b7a08c9c) — Manager title salary ceiling £34,817 is not below £28,000.
-- [Office Manager with Finance Responsibility (Deptford Site)](https://teaching-vacancies.service.gov.uk/jobs/office-manager-with-finance-responsibility-deptford-site) — Manager title without salary evidence below £28,000.
 - [Payroll Officer](https://teaching-vacancies.service.gov.uk/jobs/payroll-officer-b2efa37a-6b4a-4d64-ab55-23d9744d8569) — Insufficient admin/service evidence.
-- [Personal Care and Medical Teaching Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-and-medical-teaching-assistant-heron-hall-academy) — Out-of-scope occupation: teaching assistant.
-- [Procurement and Payments Manager](https://teaching-vacancies.service.gov.uk/jobs/procurement-and-payments-manager) — Manager title salary ceiling £50,675 is not below £28,000.
 - [SBM/CFO](https://teaching-vacancies.service.gov.uk/jobs/sbm-cfo) — Insufficient admin/service evidence.
-- [School Accountant](https://teaching-vacancies.service.gov.uk/jobs/school-accountant) — Insufficient admin/service evidence.
 - [School Operations, Communications & Development Officer](https://teaching-vacancies.service.gov.uk/jobs/school-operations-communications-development-officer) — Insufficient admin/service evidence.
 - [School Social Worker](https://teaching-vacancies.service.gov.uk/jobs/school-social-worker-whitefriars-school) — Out-of-scope occupation: social worker.
 - [SENDCo Assistant](https://teaching-vacancies.service.gov.uk/jobs/sendco-assistant-red-hill-primary-school-chislehurst-kent) — Insufficient admin/service evidence.
