@@ -2756,11 +2756,10 @@ job_id: 23643_223908809
 ## BERKSHIRE — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - BERKSHIRE | Berkshire | Reading | £15.54 per hour | Sales Support Administrator
 job_id: 23643_225565308
 ---
-
 ## BRISTOL & BATH — SELECTED
 
 ---
@@ -5184,11 +5183,10 @@ job_id: 2051958
 ## NORTHERN IRELAND - EAST — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - NORTHERN IRELAND - EAST | Northern Ireland - East | Lisburn | £16.68 per hour | HR Administrator - Lisburn
 job_id: 2050078
 ---
-
 ## NOTTINGHAMSHIRE — SELECTED
 
 ---
