@@ -190,6 +190,66 @@ function addPublishedFile(filePath: string, byId: Map<string, PublishedJob>) {
 }
 
 let cachedJobs: PublishedJob[] | undefined;
+let cachedJobsById: Map<string, PublishedJob> | undefined;
+let cachedCanonicalIds: Map<string, string> | undefined;
+
+function normaliseFingerprintText(value: string): string {
+  return value.replace(/\s+/g, " ").trim().toLocaleLowerCase("en-GB");
+}
+
+function duplicateFingerprint(job: PublishedJob): string | undefined {
+  const description = normaliseFingerprintText(job.description);
+  if (!description) return undefined;
+
+  return [
+    normaliseFingerprintText(job.source),
+    normaliseFingerprintText(job.title),
+    normaliseFingerprintText(job.company || job.advertiser_name),
+    normaliseFingerprintText(job.location),
+    description,
+  ].join("\u001f");
+}
+
+function canonicalOrder(left: PublishedJob, right: PublishedJob): number {
+  const leftDate = text(left.posted_date);
+  const rightDate = text(right.posted_date);
+  if (leftDate && rightDate && leftDate !== rightDate) return leftDate.localeCompare(rightDate);
+  if (leftDate !== rightDate) return leftDate ? -1 : 1;
+  return left.job_id.localeCompare(right.job_id);
+}
+
+export function deduplicatePublishedJobs(jobs: PublishedJob[]): {
+  jobs: PublishedJob[];
+  canonicalIds: Map<string, string>;
+} {
+  const groups = new Map<string, PublishedJob[]>();
+  const ungrouped: PublishedJob[] = [];
+
+  for (const job of jobs) {
+    const fingerprint = duplicateFingerprint(job);
+    if (!fingerprint) {
+      ungrouped.push(job);
+      continue;
+    }
+    const group = groups.get(fingerprint) ?? [];
+    group.push(job);
+    groups.set(fingerprint, group);
+  }
+
+  const canonicalIds = new Map<string, string>();
+  const canonicalJobs = [...ungrouped];
+  for (const group of groups.values()) {
+    const ordered = [...group].sort(canonicalOrder);
+    const canonical = ordered[0];
+    canonicalJobs.push(canonical);
+    for (const job of ordered) canonicalIds.set(job.job_id, canonical.job_id);
+  }
+
+  return {
+    jobs: canonicalJobs.sort((a, b) => a.job_id.localeCompare(b.job_id)),
+    canonicalIds,
+  };
+}
 
 export function getPublishedJobs(): PublishedJob[] {
   if (cachedJobs) return cachedJobs;
@@ -209,7 +269,10 @@ export function getPublishedJobs(): PublishedJob[] {
     addPublishedFile(slice.dataFilePath, byId);
   }
 
-  cachedJobs = [...byId.values()].sort((a, b) => a.job_id.localeCompare(b.job_id));
+  cachedJobsById = byId;
+  const deduplicated = deduplicatePublishedJobs([...byId.values()]);
+  cachedCanonicalIds = deduplicated.canonicalIds;
+  cachedJobs = deduplicated.jobs;
   return cachedJobs;
 }
 
@@ -223,7 +286,14 @@ export function decodePublishedJobId(jobId: string): string {
 
 export function getPublishedJob(jobId: string): PublishedJob | undefined {
   const decodedJobId = decodePublishedJobId(jobId);
-  return getPublishedJobs().find((job) => job.job_id === decodedJobId);
+  getPublishedJobs();
+  return cachedJobsById?.get(decodedJobId);
+}
+
+export function getCanonicalPublishedJobId(jobId: string): string {
+  const decodedJobId = decodePublishedJobId(jobId);
+  getPublishedJobs();
+  return cachedCanonicalIds?.get(decodedJobId) ?? decodedJobId;
 }
 
 export function getJobPath(jobId: string): string {

@@ -10,6 +10,7 @@ import { normaliseJobTitle } from "@/lib/job-title";
 import TrainingLink from "@/components/traininglink";
 import styles from "@/components/JobSlicePage.module.css";
 import { classifyJobSector } from "@/lib/job-sector";
+import { getCanonicalPublishedJobId } from "@/lib/published-jobs";
 import {
   getActiveCityLinksForParentJsonPath,
   getCityPageBreadcrumb,
@@ -159,6 +160,15 @@ function readJobsJson(jsonPath: string[], region: string): JobRow[] {
       switchability: String(row.switchability || ""),
       at_a_glance_attributes: stringList(row.at_a_glance_attributes),
     }));
+}
+
+function canonicaliseJobRows(jobs: JobRow[]): JobRow[] {
+  const byCanonicalId = new Map<string, JobRow>();
+  for (const job of jobs) {
+    const job_id = getCanonicalPublishedJobId(job.job_id);
+    if (!byCanonicalId.has(job_id)) byCanonicalId.set(job_id, { ...job, job_id });
+  }
+  return [...byCanonicalId.values()];
 }
 
 const careTraining: TrainingItem[] = [
@@ -369,7 +379,7 @@ export default function JobSlicePage({
   hideSidebarOnMobile = true,
   trainingItemLimit = 3,
 }: JobSlicePageProps) {
-  const allJobs = readJobsJson(jsonPath, region);
+  const allJobs = canonicaliseJobRows(readJobsJson(jsonPath, region));
   const filteredJobs = jobFilter ? allJobs.filter(jobFilter) : allJobs;
   const jobs = orderJobsForDisplay(filteredJobs);
   const isSupportPage = jsonPath.some((part) => part.includes("support-worker"));

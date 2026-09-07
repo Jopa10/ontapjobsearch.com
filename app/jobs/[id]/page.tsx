@@ -11,6 +11,7 @@ import { getActiveCityPageForJob } from "@/lib/city-page-data";
 import { sourceLabel } from "@/lib/job-facts";
 import { buildJobPostingSchema } from "@/lib/job-posting-schema";
 import {
+  getCanonicalPublishedJobId,
   getJobPath,
   getPublishedJob,
   getPublishedJobs,
@@ -97,7 +98,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const job = getPublishedJob(id);
   if (!job) return {};
 
-  const canonicalUrl = `${siteUrl}${getJobPath(job.job_id)}`;
+  const canonicalUrl = `${siteUrl}${getJobPath(getCanonicalPublishedJobId(job.job_id))}`;
   return {
     title: `${job.title} in ${job.location} | Ontap Job Search`,
     description: metaDescription(job),
@@ -111,7 +112,7 @@ export default async function JobPage({ params }: PageProps) {
   const job = getPublishedJob(id);
   if (!job) notFound();
 
-  const canonicalUrl = `${siteUrl}${getJobPath(job.job_id)}`;
+  const canonicalUrl = `${siteUrl}${getJobPath(getCanonicalPublishedJobId(job.job_id))}`;
   const schema = buildJobPostingSchema(job, canonicalUrl);
   const applicationSource = isExternalSource(job.source) ? sourceLabel(job.source) : "";
   const transferableFit = getTransferableFit(job.job_id);
