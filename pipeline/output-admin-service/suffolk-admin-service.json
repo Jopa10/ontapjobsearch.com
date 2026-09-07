@@ -21,7 +21,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Farlingaye High School",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "23643_225480072",
@@ -449,6 +453,31 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "107919551",
+    "title": "Recovery Coordinator",
+    "company": "Julian Support - Agency - Permanent",
+    "location": "Suffolk",
+    "region": "Suffolk",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "30000",
+    "salary_max": "30000",
+    "salary_text": "£30000 per year",
+    "posted_date": "",
+    "description": "Recovery Coordinator - Spider is advertising on behalf of Julian Support, who are looking for a Recovery Coordinators to join their ARCH (Accessing Resource from Crisis to Home) team on a full-time basis.\n\nThere are two opportunities available: one permanent Recovery Coordinator position covering East Norfolk/Waveney, and one Peripatetic Recovery Coordinator position on a fixed-term contract until 3 click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?nbYVUHO1tX462tHRSpCMkG81UImFFjiZz",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Julian Support",
+    "advertiser_type": "Agency",
+    "work_pattern": "Full Time",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
     "job_id": "nhs-5577914",
     "source": "NHS Jobs",
     "title": "Receptionist",
@@ -464,7 +493,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/M0038-26-0835",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/M0038-26-0835",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5574659",
@@ -482,7 +515,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5843-26-0008",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5843-26-0008",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5580165",
@@ -500,7 +537,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9246-26-1007",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9246-26-1007",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5573145",
@@ -518,6 +559,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9246-26-0999",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9246-26-0999",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

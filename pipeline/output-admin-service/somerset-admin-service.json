@@ -1,29 +1,5 @@
 [
   {
-    "job_id": "teaching-vacancies-level-3-business-administrator-apprentice",
-    "title": "Level 3 Business administrator apprentice",
-    "company": "Willow Vale School",
-    "location": "Taunton",
-    "region": "Somerset",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['part time']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "£10,716.00 Annually (Actual)",
-    "work_pattern": "",
-    "posted_date": "2026-07-15",
-    "closing_date": "2026-09-06",
-    "closing_datetime": "2026-09-06T23:59:00+01:00",
-    "summary": "Level 3 Business administrator apprentice with Willow Vale School in Taunton. ['part time']; £10,716.00 Annually (Actual).",
-    "description": "Willow Vale School is recruiting for this vacancy in Taunton.\n\nThe advertised position is Level 3 Business administrator apprentice.\n\nThe source lists the employment type as ['part time'].\n\nThe advertised salary or pay scale is £10,716.00 Annually (Actual).\n\nThe stated application deadline is 2026-09-06T23:59:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/level-3-business-administrator-apprentice?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
-  },
-  {
     "job_id": "teaching-vacancies-people-administrator-learning-and-development",
     "title": "People Administrator (Learning and Development)",
     "company": "Pathway Trust",
@@ -45,7 +21,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Pathway Trust",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-senior-office-administrator-west-monkton-church-of-england-school",
@@ -69,7 +49,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "West Monkton Church of England School",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-business-support-and-compliance-administrator-part-time",
@@ -93,7 +77,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Yeovil College",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "1772235",
@@ -411,7 +399,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9387-26-1771",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9387-26-1771",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5567096",
@@ -429,24 +421,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2122-26-0011",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2122-26-0011",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
-  },
-  {
-    "job_id": "nhs-5563157",
-    "source": "NHS Jobs",
-    "title": "Ward Administrator",
-    "company": "Somerset NHS Foundation Trust",
-    "advertiser_name": "Somerset NHS Foundation Trust",
-    "location": "Frome, BA11 2FH",
-    "region": "Somerset",
-    "salary": "£24465.00 to £24465.00",
-    "employment_type": "Permanent",
-    "posted_date": "2026-08-26T13:21:03.132384",
-    "closing_date": "2026-09-06",
-    "description": "This is an exciting role front of house, working closely with clinical colleagues to ensure our patients receive the highest standard of care. The role requires someone who has a great level of attention to detail and good organisational skills for managing in a busy environment. Excellent communication and customer service skills are essential for dealing with colleagues, patients and families. The needs of the service user will be the utmost priority. The principle of high quality customer care is at the heart of this role. Working hours can be flexible to cover a mixture of the following: 08.00 -- 18.30 Monday -- Friday 08.00 -- 13.00 Saturday -- Sunday Please note - we will be closing this post early if we receive a high volume of applications. The post holder will be required to admit/discharge and transfer patients, answer telephone enquiries, create appointments and arrange transport for patients.The post holder will be responsible for ensuring the reception area is tidy and well organised and that office supplies and stationery are ordered and kept stocked up. See full job description for more information. Please see the Job Description for further information, as well as a full list of duties and responsibilities.",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9184-26-1263",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9184-26-1263",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

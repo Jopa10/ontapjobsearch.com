@@ -1,53 +1,5 @@
 [
   {
-    "job_id": "teaching-vacancies-attendance-and-admissions-officer-danetree-primary-school-epsom-surrey",
-    "title": "Attendance and Admissions Officer",
-    "company": "Danetree Primary School",
-    "location": "Epsom",
-    "region": "Surrey",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['full time', 'part time']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "Specialist - £27,061 FTE (Actual - £16,166.96)",
-    "work_pattern": "",
-    "posted_date": "2026-08-24",
-    "closing_date": "2026-09-06",
-    "closing_datetime": "2026-09-06T23:59:59+01:00",
-    "summary": "Attendance and Admissions Officer with Danetree Primary School in Epsom. ['full time', 'part time']; Specialist - £27,061 FTE (Actual - £16,166.96).",
-    "description": "Danetree Primary School is recruiting for this vacancy in Epsom.\n\nThe advertised position is Attendance and Admissions Officer.\n\nThe source lists the employment type as ['full time', 'part time'].\n\nThe advertised salary or pay scale is Specialist - £27,061 FTE (Actual - £16,166.96).\n\nThe stated application deadline is 2026-09-06T23:59:59+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/attendance-and-admissions-officer-danetree-primary-school-epsom-surrey?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
-  },
-  {
-    "job_id": "teaching-vacancies-hr-admin-assistant-holland-junior-school-oxted-surrey",
-    "title": "HR & Admin Assistant",
-    "company": "Holland Junior School",
-    "location": "Oxted",
-    "region": "Surrey",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['part time']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "£15,007.83 - £15,934.70 Annually (Actual) TPA 8 / NJC 6 - 10 - £27,915 - £29,196pa FTE",
-    "work_pattern": "",
-    "posted_date": "2026-08-27",
-    "closing_date": "2026-09-06",
-    "closing_datetime": "2026-09-06T23:59:00+01:00",
-    "summary": "HR & Admin Assistant with Holland Junior School in Oxted. ['part time']; £15,007.83 - £15,934.70 Annually (Actual) TPA 8 / NJC 6 - 10 - £27,915 - £29,196pa FTE.",
-    "description": "Holland Junior School is recruiting for this vacancy in Oxted.\n\nThe advertised position is HR & Admin Assistant.\n\nThe source lists the employment type as ['part time'].\n\nThe advertised salary or pay scale is £15,007.83 - £15,934.70 Annually (Actual) TPA 8 / NJC 6 - 10 - £27,915 - £29,196pa FTE.\n\nThe stated application deadline is 2026-09-06T23:59:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/hr-admin-assistant-holland-junior-school-oxted-surrey?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
-  },
-  {
     "job_id": "teaching-vacancies-office-assistant-fox-grove-school",
     "title": "Office Assistant",
     "company": "Fox Grove School",
@@ -69,7 +21,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Fox Grove School",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-careers-administrator-1c0a6851-3e9c-4719-8774-31c627db4f71",
@@ -93,7 +49,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Three Rivers Academy",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "23643_225488847",
@@ -1386,7 +1346,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/U0103-26-0059",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/U0103-26-0059",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5573358",
@@ -1404,7 +1368,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9384-26-0775",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9384-26-0775",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5581253",
@@ -1422,7 +1390,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0177-26-9749",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0177-26-9749",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5572182",
@@ -1440,7 +1412,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3505-26-0003",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3505-26-0003",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5556013",
@@ -1458,24 +1434,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0455-26-0024",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0455-26-0024",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
-  },
-  {
-    "job_id": "nhs-5546636",
-    "source": "NHS Jobs",
-    "title": "Referrals Out Administrator",
-    "company": "Dorking Healthcare Ltd.",
-    "advertiser_name": "Dorking Healthcare Ltd.",
-    "location": "Dorking, RH4 2AA",
-    "region": "Surrey",
-    "salary": "Negotiable",
-    "employment_type": "Permanent",
-    "posted_date": "2026-08-18T14:31:44.513315565",
-    "closing_date": "2026-09-06",
-    "description": "Referrals Out Administrators are an integral part of the Outpatients team, processing the onward referrals for patients who have been referred elsewhere for diagnostics or procedures. The key responsibilities are ensuring that referrals are sent within the expected timeframes, with all required information included, and actively monitoring the flow of information throughout the patient pathway. Please note: This role is not eligible for visa sponsorship, and the successful candidate must have existing right to work in the UK. We screen and shortlist suitable candidates as applications are received. We reserve the right to close this vacancy early and without notice if we fill the position. Therefore, we encourage early applications to avoid disappointment. Organisation, prioritisation, IT skills, and attention to detail will be crucial in this role as you will be responsible for sending urgent and routine referrals to other providers and ensuring they have all the information needed to continue the patient's care. You will need to gather all the relevant information from different areas of the patient record system, including booking forms, clinic letters, BMI and blood results, and chase up any missing information with the clinicians or patients. Full training will be given on how to use our patient record system and complete the role. JOB SUMMARY The role (and team) is an integral part of the patient pathway. You will undertake tasks essential to the smooth and effective provision of quality care, providing an efficient level of service for patients and their families. The role will work within the priorities and expectations set out by the Lead Referrals-Out Administrator. It is essential the post holder displays organisation, prioritisation, IT skills and attention to detail will be crucial in this role as you will be creating referrals on patient records to other providers. You will need to gather all the relevant information from the patient record system, submit it via email to the provider & update the patient record. DUTIES AND RESPONSIBILITIES OF THE POST Referral Processing Process outbound referrals for diagnostics and procedures in line with clinical instructions and referral pathways. Ensure all referrals are correctly triaged, recorded, and actioned within agreed timeframes. Liaise with clinical teams and patients to clarify referral details or gather additional information as needed. Upload or send referrals via appropriate systems (e-RS, email, secure portals). Coordination & Communication Communicate clearly and professionally with external providers (e.g., hospitals, imaging centres, specialist clinics) to confirm referral receipt and appointment arrangements. Respond to incoming queries from patients, clinicians, and third parties regarding referrals, providing updates or advice as appropriate. Monitor referral progress and follow up to ensure timely outcomes or to troubleshoot delays. Managing multiple tasks, prioritising own workload, and ensuring work is completed within target timeframes for processing routine and urgent referrals. Work closely with the wider DHC administration and clinical teams to support seamless patient journeys. Pathway Knowledge & Relationship Management Ensure knowledge and understanding of patient pathways is maintained, including referral routes and any associated criteria for trust hospitals and independent providers. Develop and maintain relationships with other providers we work closely with. Sourcing new referral pathways, ensuring referral forms are updated, and the contact address database is maintained accurately. Contribute to maintaining and updating referral protocols and standard operating procedures. Data Management & Reporting Accurately input and update referral information in clinical systems to support timely patient care. Keep thorough documentation and audit trails in line with data protection and confidentiality policies. Contribute to performance monitoring through accurate data capture and referral tracking insights. General Undertake any other reasonable duties as commensurate with the nature of this role. Maintain mandatory training compliance. WORK SETTING AND REVIEW To manage own workload efficiently and effectively on a daily basis. Maintain confidentiality at all times. Acting independently but, where necessary, referring problems to the Referrals-Out Team Leader or the appropriate consultant via the quickest route possible. CONFIDENTIALITY The post holder must maintain the confidentiality of information about patients, staff, and DHC business in accordance with the Data Protection Act 1998 and the Caldicott principles.",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/U0103-26-0044",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/U0103-26-0044",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

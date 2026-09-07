@@ -21,7 +21,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Brook Academy",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "23643_225477107",
@@ -664,7 +668,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9327-26-0748",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9327-26-0748",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5551929",
@@ -682,7 +690,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9327-26-0701",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9327-26-0701",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5562669",
@@ -700,7 +712,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3648-26-0003",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3648-26-0003",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5551856",
@@ -718,24 +734,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9327-26-0699",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9327-26-0699",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
-  },
-  {
-    "job_id": "nhs-5546699",
-    "source": "NHS Jobs",
-    "title": "Medical Receptionist/Care Navigator",
-    "company": "Longlevens Surgery",
-    "advertiser_name": "Longlevens Surgery",
-    "location": "Gloucester, GL2 0AJ",
-    "region": "Gloucestershire",
-    "salary": "Negotiable",
-    "employment_type": "Permanent",
-    "posted_date": "2026-08-19T10:12:51.849525005",
-    "closing_date": "2026-09-06",
-    "description": "We are looking for an enthusiastic, compassionate and organised Care Navigator to join our primary care team. As a Care Navigator, you will play an important role in supporting patients to access the right services and care at the right time. You will work closely with the wider practice team, helping patients navigate health, wellbeing and community services while providing a welcoming and supportive experience. About the role 25 hours per week 4 days per week , Monday to Friday Working hours are flexible and allocated by rota between 7:45am and 6:45pm Supporting patients to access appropriate health, social and community services Working collaboratively with GPs, clinicians and the wider primary care team Providing information, signposting and support to patients Helping to improve patient access and experience About you We are looking for someone who: Has excellent communication and interpersonal skills Is compassionate, approachable and patient-focused Is organised and able to manage a varied workload Can work confidently as part of a multidisciplinary team Is comfortable supporting people with a range of needs Has a positive, proactive and flexible approach Previous experience in primary care, health, social care, community services or a similar role would be desirable. MAIN RESPONSIBILITIES Greeting our patients when they arrive and assisting with enquiries and check ins Dealing with our telephone lines to assist our patients with queries and appointment bookings Managing our new Rapid Health safe triage system by care navigating patients to the most appropriate appointment or service. Managing emails and website enquiries Processing prescription requests Daily administrative tasks We would expect you to assist in the smooth running of the practice by supporting patients, GPs and other practice staff, ensuring we meet both patient expectations and our high standards of service. We will be looking for: Excellent customer service skills and telephone manner Strong organisational skills and effective multi-tasking Confident IT skills A genuine passion for people's welfare with a kind and friendly disposition A proactive and quick learner Excellent communication skills",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0319-26-0000",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0319-26-0000",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

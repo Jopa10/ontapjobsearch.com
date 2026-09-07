@@ -1,29 +1,5 @@
 [
   {
-    "job_id": "teaching-vacancies-assistant-administrator-bc00604f-24a2-4741-bbd7-1135c9c18070",
-    "title": "Assistant Administrator",
-    "company": "St Thomas CofE Primary Academy",
-    "location": "Boston",
-    "region": "Lincolnshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['full time']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "£21,362.70 - £22,390.52 Annually (Actual)",
-    "work_pattern": "",
-    "posted_date": "2026-08-17",
-    "closing_date": "2026-09-06",
-    "closing_datetime": "2026-09-06T23:59:00+01:00",
-    "summary": "Assistant Administrator with St Thomas CofE Primary Academy in Boston. ['full time']; £21,362.70 - £22,390.52 Annually (Actual).",
-    "description": "St Thomas CofE Primary Academy is recruiting for this vacancy in Boston.\n\nThe advertised position is Assistant Administrator.\n\nThe source lists the employment type as ['full time'].\n\nThe advertised salary or pay scale is £21,362.70 - £22,390.52 Annually (Actual).\n\nThe stated application deadline is 2026-09-06T23:59:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/assistant-administrator-bc00604f-24a2-4741-bbd7-1135c9c18070?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
-  },
-  {
     "job_id": "teaching-vacancies-hr-administrator-tulip-academy",
     "title": "HR Administrator",
     "company": "Tulip Academy",
@@ -45,7 +21,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Tulip Academy",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-receptionist-admin-officer-oasis-academy-parkwood",
@@ -69,7 +49,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Oasis Academy Parkwood",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-cover-and-operations-administrator",
@@ -93,7 +77,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "The Queen Elizabeth's High School, Gainsborough",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-data-exams-officer-thomas-middlecott-academy",
@@ -117,7 +105,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Thomas Middlecott Academy",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "23643_225476109",
@@ -310,7 +302,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9208-26-0542",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9208-26-0542",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5576640",
@@ -328,24 +324,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1970-26-0006",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1970-26-0006",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
-  },
-  {
-    "job_id": "nhs-5575242",
-    "source": "NHS Jobs",
-    "title": "Receptionist",
-    "company": "Lincolnshire Community Health Service NHS Trust",
-    "advertiser_name": "Lincolnshire Community Health Service NHS Trust",
-    "location": "Lincoln, LN2 5QY",
-    "region": "Lincolnshire",
-    "salary": "£25272.00",
-    "employment_type": "Permanent",
-    "posted_date": "2026-09-02T14:44:17.491171764",
-    "closing_date": "2026-09-09",
-    "description": "Would you like to work for an organisation who puts patients first? Well at Lincoln Urgent Treatment Centre with Lincolnshire Community Health Services this is more than just words; putting patients first is at the heart of everything we do. So why not come on board and join the team. We are seeking a enthusiastic, reliable and flexible receptionist who will work within the Lincoln Urgent Treatment Centre. Your main role will be to provide a day to day effective and efficient receptionist, whilst talking to patients and clients in a positive and friendly manner, dealing with any queries that may occur, adhering to confidentiality and Data protection policies at all times. To operate a confidential and effective appointments booking system and to receive, register and direct patients to the appropriate area for consultation. Please see the attached job description and person specification for more information about this position",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9818-26-0087",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9818-26-0087",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

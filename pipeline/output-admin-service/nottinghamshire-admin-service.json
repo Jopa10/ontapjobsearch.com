@@ -1,29 +1,5 @@
 [
   {
-    "job_id": "teaching-vacancies-administration-assistant-horizons-academy",
-    "title": "Administration Assistant",
-    "company": "Horizons Academy",
-    "location": "Mansfield",
-    "region": "Nottinghamshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['full time']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "£25,588.00 (actual salary £21,848.22)",
-    "work_pattern": "",
-    "posted_date": "2026-08-13",
-    "closing_date": "2026-09-06",
-    "closing_datetime": "2026-09-06T23:59:00+01:00",
-    "summary": "Administration Assistant with Horizons Academy in Mansfield. ['full time']; £25,588.00 (actual salary £21,848.22).",
-    "description": "Horizons Academy is recruiting for this vacancy in Mansfield.\n\nThe advertised position is Administration Assistant.\n\nThe source lists the employment type as ['full time'].\n\nThe advertised salary or pay scale is £25,588.00 (actual salary £21,848.22).\n\nThe stated application deadline is 2026-09-06T23:59:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-horizons-academy?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
-  },
-  {
     "job_id": "teaching-vacancies-administrative-assistant-6dd3cd8b-9366-40d4-aff9-a0419363ea61",
     "title": "Administrative Assistant",
     "company": "Christ The King Voluntary Academy",
@@ -45,7 +21,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Christ The King Voluntary Academy",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-administrative-assistant-sixth-form-and-work-related-learning",
@@ -69,7 +49,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Christ The King Voluntary Academy",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-attendance-administrator-secondary-site",
@@ -93,7 +77,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Nottingham Academy",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-part-time-attendance-administrator-secondary-site",
@@ -117,7 +105,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Nottingham Academy",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-administrative-assistant-the-spencer-academies-trust-nottingham-not-recorded",
@@ -141,7 +133,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "The Spencer Academies Trust",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-administrative-assistant-burton-joyce-primary-school",
@@ -165,7 +161,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Burton Joyce Primary School",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-administrative-assistant-hucknall-flying-high-academy",
@@ -189,7 +189,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Hucknall Flying High Academy",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "23643_225519438",
@@ -364,31 +368,6 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
-    "job_id": "23643_225511181",
-    "title": "Admin Advertiser",
-    "company": "Simple Recruitment Services Ltd - Agency - Permanent",
-    "location": "Nottinghamshire",
-    "region": "Nottinghamshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "12.71",
-    "salary_max": "12.71",
-    "salary_text": "£12.71 per hour",
-    "posted_date": "",
-    "description": "We are seeking a highly organised and detail-oriented Admin Advertiser to provide administrative support for advertising and commercial activities. The role involves creating and managing advertisements, maintaining accurate records, communicating with customers and supporting the wider team with day-to-day administrative tasks.\n\nWorking hours are 9am - 4pm\n\n£12.71 per hour increasing after 3 months\n\nKey Responsibilities\n- Create, update and publish advertisements across relevant platforms.\n- Ensure adverts contain accurate information, pricing, images and contact details.\n- Manage advertising schedules and ensure adverts are published on time.\n- Maintain accurate databases, customer records and advertising documentation.\n- Respond to enquiries from customers and prospective clients.\n- Liaise with clients to obtain advertising information, artwork and approvals.\n- Make amendments to advertisements as requested.\n- Monitor advertisements and ensure they remain accurate and up to date.\n- Prepare invoices, quotations, reports and other administrative documents.\n- Track advertising bookings, payments and renewals.\n- Support the sales and commercial teams with general administration.\n- Organise files, emails and digital records.\n- Use spreadsheets and internal systems to maintain accurate information.\n- Provide general office and administrative support as required.\n- Ensure company procedures and advertising guidelines are followed.\n\nSkills & Experience\n- Previous administration, advertising, sales or customer service experience is desirable.\n- Excellent organisational and time-management skills.\n- Strong attention to detail and accuracy.\n- Good written and verbal communication skills.\n- Confident using Microsoft Office, particularly Word and Excel.\n- Ability to manage multiple tasks and meet deadlines.\n- Good customer service skills.\n- Ability to work independently and as part of a team.\n- A proactive and professional approach to work.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?wTAUM266l6cqVazNxZWpPPofPPSWV%2fMqh",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Simple Recruitment Services Ltd",
-    "advertiser_type": "Agency",
-    "work_pattern": "Full Time",
-    "salary_period": "Hourly",
     "posted_date_basis": ""
   },
   {
@@ -757,7 +736,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0327-26-0430",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0327-26-0430",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5573163",
@@ -775,7 +758,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5931-26-0012",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5931-26-0012",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5579271",
@@ -793,7 +780,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1908-26-0001",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1908-26-0001",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5564627",
@@ -811,43 +802,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0045-26-0081",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0045-26-0081",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
-  },
-  {
-    "job_id": "nhs-5549977",
-    "source": "NHS Jobs",
-    "title": "Part-Time Receptionist (Care Coordinator)",
-    "company": "Park House Medical Centre",
-    "advertiser_name": "Park House Medical Centre",
-    "location": "Nottingham, NG4 3DQ, Nottingham, NG14 7BG",
-    "region": "Nottinghamshire",
-    "salary": "£12.71",
-    "employment_type": "Permanent",
-    "posted_date": "2026-08-20T07:39:26.736859151",
-    "closing_date": "2026-09-06",
-    "description": "Join Our Friendly Team at Jubilee Park Medical Partnership Are you a people person with a passion for helping others? Do you thrive in a fast-paced, supportive environment? We would love to have you on board! Jubilee Park Medical Partnership is a welcoming GP practice serving 12,300 patients across two sites in Carlton and Lowdham. Were looking for an enthusiastic, flexible, and friendly team member to join our Care Coordination Team. What's in it for you: A caring, supportive, and fun team A role where no two days are the same Training to help you feel confident The chance to make a real difference Available Positions: 25 Hours/Week Monday : 8:00 AM 1:00 PM(Every 3rd week 3:00 PM 8:00 PM) Tuesday :8:00 AM 1:00 PM Wednesday : 8:00 AM 1:00 PM Thursday : 1:30 PM 6:30 PM Friday :8:00 AM 1:00 PM Some weekend work may be required across both sites. Why Join Us: Be part of a supportive and fun team Make a difference every day Comprehensive training A fulfilling and rewarding role Apply today and become part of the Jubilee Park family! Interviews will be held on Friday 29th May 2026. Join Our Front Desk Team as a Care Coordinator As the first point of contact for our patients, youll be the friendly face and reassuring voice they rely on. Youll be at the heart of our practice, ensuring everything runs smoothly by: Welcoming patients with warmth and assisting them in person or over the phone Handling reception and administrative duties with ease and professionalism Collaborating with healthcare professionals to provide seamless care Managing patient appointments and directing them to the appropriate services Offering exceptional customer service with a positive, problem-solving mindset This role is perfect for someone who loves helping others, thrives in a fast-paced environment, and enjoys being part of a dynamic team! To be responsible for undertaking a wide range of reception duties and the provision of general support to the multidisciplinary team. Duties can include but are not limited to, greeting and directing patients, effective use of the appointment system, booking appointments, processing of information and assisting patients as required. To act as the central point of contact for patients, the distribution of information, messages and enquiries for the clinical team, liaising with multidisciplinary team members and external agencies such as secondary care and community service providers. Flexibility to work across sites is essential. Please read the attached Job Description and Person Specification. Interviews will take place on Friday 11th September 2026",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0567-26-0011",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0567-26-0011",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
-  },
-  {
-    "job_id": "nhs-5536230",
-    "source": "NHS Jobs",
-    "title": "GP Practice - Patient Recall Administrator",
-    "company": "Crown House Surgery",
-    "advertiser_name": "Crown House Surgery",
-    "location": "Retford, DN22 7XF",
-    "region": "Nottinghamshire",
-    "salary": "£24521.00",
-    "employment_type": "Fixed-Term",
-    "posted_date": "2026-08-13T09:56:13.282562851",
-    "closing_date": "2026-09-06",
-    "description": "Are you an experienced administrator with excellent IT skills, strong attention to detail and a desire to do work that supports patient care? Following an internal promotion, we are looking for a confident, positive and organised administrator to join our friendly Practice Team. This is not a reception-based role. You will work behind the scenes to help maintain accurate patient records, manage patient recall systems, support safe and effective patient care, ensuring the Practice continues to meet its quality and service requirements. This is an excellent opportunity for someone who enjoys working with data, solving problems and keeping information accurate and well organised, taking pride in getting things right. Previous experience in a GP practice or healthcare setting would be helpful, but it is not essential. We welcome applications from experienced administrators in other sectors who have strong transferable skills and are keen to learn. Main Duties of the Job Working as part of our Data Quality Team, you will help maintain high standards of data quality and patient record keeping. Your responsibilities will include: Undertaking searches and systems audits. Supporting and following the Practice recall system. Updating practice templates where required. Checking and maintaining the accuracy of clinical coding. Ensuring important clinical information is accurately captured. Supporting the Practice to achieve its Quality and Outcomes Framework (QOF) and enhanced service requirements. Identifying data-quality issues, trends and opportunities for improvement Contributing to the quality, safety and overall performance of the Practice. Maintaining strict patient confidentiality This is a role where attention to detail really matters. The information you manage and maintain helps our clinical team provide safe, effective and high-quality care to our patients. Full training and support relating to Practice processes and systems will be provided as appropriate. You should be able to work independently while also contributing positively to the wider team. Provide data quality support across the practice Maintain good quality of data recorded Ensure the efficient running of the practice computer system, carrying out searches, audits and recalls as required by the practice Interrogate & present data for audit purposes, clearly & concisely Set up & maintain clinical templates & referral letters Effectively monitor patient call and recall systems Responsible for maintaining and ensuring practice achievement of QoF or other incentivised contracts held Read Coding information into the practice clinical system consistently & accurately Ensure accurate report output Investigate routine data improvement enquiries/queries and provide assistance and advice as required Identify data quality trends and assess common themes through regular use of data quality queries and reporting, and highlight areas for improvement/inaccuracies to the Data Quality & IT Lead to improve processes or resolve problems Proactively initiate data quality improvement projects Assist and participate with regular Data Quality Audits using clinical systems Ensure enhanced service claims are made correctly and appropriately Effectively keep & maintain records of claims for payment Provide audit statistics to the ICB / NHSE or other governing bodies when required Support the sustainable improvement in data quality across the practice IT systems (e.g. through the output of data quality audits) Use own judgement to resolve data improvement issues Be able to work without supervision, but feel confident to seek advice when needed Summarising of patient medical records following practice protocols Be a contributing member of the Data Quality Team Prepare statistical or data reports as requested by the practice Process & keep safeguarding records in accordance with practice policy Support and guide members of staff in the use of the computer system Attend meetings relevant to the post Minute meetings where required Ensure the security and confidentiality of all clinical data handled, including the safe keeping of all health records. Maintain strict confidentiality in relation to all issues concerned within the service and adhere to the requirements of the Data Protection Act 2018, Information Governance and Caldicott Principles Undertake any other additional duties appropriate to the post as requested by management or partners This list is not exhaustive and will also include, from time-to-time, reasonable management requests which are not included in the above",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2564-26-0008",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2564-26-0008",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5517806",
@@ -865,6 +824,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3455-26-0005",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3455-26-0005",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

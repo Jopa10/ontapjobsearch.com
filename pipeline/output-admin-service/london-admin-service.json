@@ -1,53 +1,5 @@
 [
   {
-    "job_id": "teaching-vacancies-receptionist-admin-assistant-heathland-school-harrow-middlesex",
-    "title": "Receptionist & Admin Assistant",
-    "company": "Heathland School",
-    "location": "Harrow",
-    "region": "London",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['part time']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "£14,166.00 Annually (Actual)",
-    "work_pattern": "",
-    "posted_date": "2026-08-20",
-    "closing_date": "2026-09-06",
-    "closing_datetime": "2026-09-06T23:59:00+01:00",
-    "summary": "Receptionist & Admin Assistant with Heathland School in Harrow. ['part time']; £14,166.00 Annually (Actual).",
-    "description": "Heathland School is recruiting for this vacancy in Harrow.\n\nThe advertised position is Receptionist & Admin Assistant.\n\nThe source lists the employment type as ['part time'].\n\nThe advertised salary or pay scale is £14,166.00 Annually (Actual).\n\nThe stated application deadline is 2026-09-06T23:59:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/receptionist-admin-assistant-heathland-school-harrow-middlesex?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
-  },
-  {
-    "job_id": "teaching-vacancies-welfare-administrator-3dd90b50-3a52-43fe-9d80-f9dcd6216326",
-    "title": "Welfare Administrator",
-    "company": "Saracens High School",
-    "location": "London",
-    "region": "London",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['part time']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "£20,559.00 - £23,767.00 Annually (Actual) Pay rise expected from September following Board approval.",
-    "work_pattern": "",
-    "posted_date": "2026-08-24",
-    "closing_date": "2026-09-06",
-    "closing_datetime": "2026-09-06T23:59:00+01:00",
-    "summary": "Welfare Administrator with Saracens High School in London. ['part time']; £20,559.00 - £23,767.00 Annually (Actual) Pay rise expected from September following Board approval..",
-    "description": "Saracens High School is recruiting for this vacancy in London.\n\nThe advertised position is Welfare Administrator.\n\nThe source lists the employment type as ['part time'].\n\nThe advertised salary or pay scale is £20,559.00 - £23,767.00 Annually (Actual) Pay rise expected from September following Board approval..\n\nThe stated application deadline is 2026-09-06T23:59:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/welfare-administrator-3dd90b50-3a52-43fe-9d80-f9dcd6216326?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
-  },
-  {
     "job_id": "teaching-vacancies-receptionist-part-time-hall-mead-school",
     "title": "Receptionist (Part-time)",
     "company": "Hall Mead School",
@@ -69,7 +21,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Hall Mead School",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-receptionist-office-co-ordinator",
@@ -93,7 +49,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Valentines High School",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-pa-to-the-slt-including-data-systems-communications",
@@ -117,7 +77,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "The St Marylebone CofE School",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-pastoral-ehcp-administrator-term-time-only",
@@ -141,7 +105,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Shaftesbury High School",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-administrative-assistant-pathways-school",
@@ -165,7 +133,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Pathways School",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-administrator-north-brent-school",
@@ -189,7 +161,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "North Brent School",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-office-administrator-st-leonard-s-church-of-england-primary-school-london",
@@ -213,7 +189,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "St Leonard's Church of England Primary School",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-attendance-officer-51e5944a-f923-43fe-901e-fe10c0fa1676",
@@ -237,7 +217,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Harlington School",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-post-16-academic-supervisor-and-administrator",
@@ -261,7 +245,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Queensmead School",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-receptionist-lilian-baylis-technology-school",
@@ -285,7 +273,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Lilian Baylis Technology School",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-school-administrator-nishkam-school-west-london",
@@ -309,7 +301,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Nishkam School West London",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-school-receptionist-woodberry-down-community-primary-school",
@@ -333,7 +329,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Woodberry Down Community Primary School",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-sen-administrative-assistant-37c055f6-3851-49a6-9a98-deeec3db7db2",
@@ -357,7 +357,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Cuddington Community Primary School",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-send-administrator-wanstead-high-school-london",
@@ -381,7 +385,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Wanstead High School",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-senior-data-administrator",
@@ -405,7 +413,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "The Beckmead Trust",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "23643_225474593",
@@ -680,6 +692,31 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
+    "posted_date_basis": ""
+  },
+  {
+    "job_id": "23643_225413953",
+    "title": "Operations & Sales Coordinator",
+    "company": "Streamline Services Consultancy Limited - Agency - Permanent",
+    "location": "London",
+    "region": "London",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "32000",
+    "salary_max": "40000",
+    "salary_text": "£32000 - £40000 per year",
+    "posted_date": "",
+    "description": "Streamline Recruitment have a fantastic opportunity for an Operations & Sales Coordinator to join our client's well-established business based in East London.\n\nOur client is one of the world's leading manufacturers and suppliers of wood veneer, veneer edging and veneered boards. For over 60 years, they have built an outstanding reputation across the industry.\n\nDue to continued success, they are looking for an Operations & Sales Coordinator to join their close-knit team. This is a varied role where no two days are the same, offering the opportunity to work closely with customers, suppliers and logistics partners while playing an important role in ensuring orders are managed smoothly from enquiry through to delivery.\n\nThe Role\n\nAs the first point of contact for many customers, you will be responsible for managing customer orders, coordinating deliveries and supporting the wider sales and operations function. You will ensure all enquiries, quotations and orders are handled accurately, efficiently and with a strong focus on customer service.\n\nKey Responsibilities\n- Processing customer orders and managing them through to successful completion.\n- Checking stock availability and liaising with internal teams.\n- Reviewing customer enquiries and quotations, following up where appropriate.\n- Coordinating deliveries with third-party logistics providers.\n- Monitoring customer deliveries and resolving any issues quickly and professionally.\n- Building and maintaining strong relationships with existing customers.\n- Identifying opportunities to upsell products and support additional sales.\n- Providing excellent customer service via telephone and email.\n- Supporting the wider sales and operations team with day-to-day administration.\n\nAbout You\n\nWe're looking for someone who is:\n- A confident communicator with strong customer service and relationship-building skills.\n- Organised, proactive and able to manage multiple priorities.\n- Experienced in customer service, sales support, order processing or a similar office-based role.\n- Comfortable liaising with customers, suppliers and internal teams.\n- Confident using Microsoft Office and CRM/ERP systems.\n- Reliable, positive and willing to be part of a friendly, supportive team.\n\nWhat's on Offer?\n- Monday to Friday working hours 7:30am to 4:30pm\n- £32-40k DOE\n- 20 days holiday plus Bank Holidays (5 days reserved for the Christmas shutdown)\n- The opportunity to join a successful family-run business with over 60 years of industry experience.\n- Flexible and approachable management who value their employees.\n- Long-term career stability and development opportunities.\n- A varied role where you can genuinely make a difference every day.\n\nIf you're looking for a company where people genuinely enjoy coming to work, where teamwork is valued and your contribution is recognised, this could be the perfect opportunity.\n\nYou'll be joining a hardworking yet easy-going team who support one another and take pride in delivering exceptional service to their customers.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?io0x8AEcaIMHT7fbh7XLj34rBmi%2fMiLxo",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Streamline Services Consultancy Limited",
+    "advertiser_type": "Agency",
+    "work_pattern": "Full Time",
+    "salary_period": "Annual",
     "posted_date_basis": ""
   },
   {
@@ -3708,31 +3745,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "29310_HF07833-HAR",
-    "title": "HR Administrator",
-    "company": "UK_Prog_Agency_VONQ_DirectCompany_CPC - Agency - Permanent",
-    "location": "Rainham",
-    "region": "London",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "",
-    "posted_date": "",
-    "description": "Summary\n\nWe are looking for a HR Administrator to ensure the smooth running of the HR elements of Harris Academy Rainham amd Harris Rainham Sixth Form.\n\nThe actual salary for this role will be £28,144 - £29,800 (42 weeks per year, 37.5 hours per week).",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?bZCSDJyF3N5iTC3djh6YSLAAvmtU9Twiq",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "UK_Prog_Agency_VONQ_DirectCompany_CPC",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "23643_225537498",
     "title": "Administrator",
     "company": "Peach Personnel Services Ltd - Agency - Temporary",
@@ -3848,7 +3860,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4905-26-0003",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4905-26-0003",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5579078",
@@ -3866,7 +3882,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5836-26-0001",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5836-26-0001",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5578622",
@@ -3884,7 +3904,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0455-26-0020",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0455-26-0020",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5578430",
@@ -3902,7 +3926,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3027-26-0003",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3027-26-0003",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5573217",
@@ -3920,7 +3948,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0505-26-0293",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0505-26-0293",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5573112",
@@ -3938,7 +3970,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4353-26-0000",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4353-26-0000",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5574789",
@@ -3956,7 +3992,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/L0034-26-3660",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/L0034-26-3660",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5572882",
@@ -3974,7 +4014,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2940-011026",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2940-011026",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5567071",
@@ -3992,7 +4036,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4875-26-0004",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4875-26-0004",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5314777",
@@ -4010,25 +4058,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0660-26-0014",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0660-26-0014",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
-  },
-  {
-    "job_id": "nhs-5555834",
-    "source": "NHS Jobs",
-    "title": "Receptionist/Administrator",
-    "company": "City Square Medical Group",
-    "advertiser_name": "City Square Medical Group",
-    "location": "London, E1 2QA, London, E1W 3DP",
-    "region": "London",
-    "salary": "Negotiable",
-    "employment_type": "Permanent",
-    "posted_date": "2026-08-22T14:23:39.680051106",
-    "closing_date": "2026-09-06",
-    "description": "Join Our Team as a Receptionist/Administrator City Square Medical Group is looking for a friendly, organised, and dedicated Receptionist/Administrator to join our team. You will play an important role in supporting the smooth running of the practice and helping us deliver a high-quality service to our patients. If you are approachable, organised, and enjoy working in a busy healthcare environment, we would love to hear from you! About the Role: We are seeking a dedicated Receptionist/Administrator who: 1.Can cover extended hours on Mondays (12:0020:00) on a rota basis. 2.Is available to work flexible weekday shifts between 08:00 and 18:30. 3.Has previous GP surgery experience. 4.Possesses IT skills and is proficient in EMIS Web. 5.Can work effectively under pressure in a fast-paced environment. 6.Demonstrates flexibility, strong team values, and a commitment to delivering high-quality patient care. 7.Is committed to further training and development and exhibits exceptional communication skills. Please Note: Previous applicants need not apply. Key Responsibilities As a Receptionist/Administrator, you will play a vital role in supporting the smooth running of the practice and providing an excellent service to our patients. Your responsibilities will include: 1.Welcoming and assisting patients in a friendly, professional, and compassionate manner. 2.Managing appointments, telephone calls, emails, and patient requests efficiently. 3.Supporting the triage process by accurately recording and directing patient queries according to practice procedures. 4.Providing administrative support, including data entry, scanning, filing, processing prescription requests, and maintaining accurate patient records. 5.Processing patient registrations and ensuring information is recorded accurately. 6.Maintaining confidentiality and handling sensitive patient information securely in line with data protection requirements. 7.Working collaboratively with GPs, clinicians, and the wider practice team to support effective patient care. Job Description As a Receptionist/Administrator, you will support the smooth running of the practice by providing an efficient, professional, and patient-focused service. Key responsibilities include: 1.Welcoming and assisting patients in a warm, friendly, and professional manner. 2.Managing appointments, telephone calls, emails, and patient queries efficiently and accurately. 3.Supporting the practice team with a range of administrative duties, including data entry, scanning, filing, processing correspondence, and maintaining accurate records. 4.Processing patient registrations, prescription requests, and other administrative tasks in line with practice procedures. 5.Ensuring patient confidentiality is maintained and sensitive information is handled securely in accordance with data protection requirements. 6.Working collaboratively with clinicians and the wider practice team to support high-quality patient care.",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0528-26-0008",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0528-26-0008",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5555761",
@@ -4046,7 +4080,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3680-26-0004",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3680-26-0004",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5551972",
@@ -4064,7 +4102,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4896-26-0007",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4896-26-0007",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5546990",
@@ -4082,7 +4124,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2016-26-0001",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2016-26-0001",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5531110",
@@ -4100,7 +4146,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3510-26-0001",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3510-26-0001",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5529622",
@@ -4118,7 +4168,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2728-26-0011",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2728-26-0011",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5524224",
@@ -4136,7 +4190,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4853-26-0008",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4853-26-0008",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5518865",
@@ -4154,7 +4212,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5040-26-0000",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5040-26-0000",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5520787",
@@ -4172,7 +4234,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4126-26-0007",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4126-26-0007",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5509226",
@@ -4190,7 +4256,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4853-26-0007",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4853-26-0007",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5487767",
@@ -4208,7 +4278,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1161-26-0001",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1161-26-0001",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5072942",
@@ -4226,7 +4300,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9334-25-1339",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9334-25-1339",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5580882",
@@ -4244,7 +4322,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3397-26-0008",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3397-26-0008",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5580279",
@@ -4262,7 +4344,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9392-26-0208",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9392-26-0208",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5579160",
@@ -4280,7 +4366,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9396-26-0386",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9396-26-0386",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5576484",
@@ -4298,7 +4388,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2931-26-0003",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2931-26-0003",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5573173",
@@ -4316,7 +4410,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2972-26-0001",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2972-26-0001",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5573177",
@@ -4334,7 +4432,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0054-26-0105EXM",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0054-26-0105EXM",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5571328",
@@ -4352,7 +4454,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9220-26-0584",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9220-26-0584",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5570020",
@@ -4370,7 +4476,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0054-26-0094LMGP",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0054-26-0094LMGP",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5568392",
@@ -4388,7 +4498,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/L0034-26-3609",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/L0034-26-3609",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5566399",
@@ -4406,7 +4520,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1743-26-0007",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1743-26-0007",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5560571",
@@ -4424,7 +4542,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/L0034-26-3527",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/L0034-26-3527",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5543418",
@@ -4442,7 +4564,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0177-26-8944",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0177-26-8944",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5544938",
@@ -4460,7 +4586,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3867-26-0003",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3867-26-0003",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-137188",
@@ -4478,7 +4608,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4450-AUG-2026",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4450-AUG-2026",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5527518",
@@ -4496,6 +4630,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2742-26-0005",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2742-26-0005",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

@@ -21,7 +21,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Welcombe Hills School",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-receptionist-and-administrator-ftc-contract-september-december-2026-kenilworth-school-and-sixth-form-kenilworth",
@@ -45,7 +49,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Kenilworth School and Sixth Form",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-personal-assistant-pa-to-the-headteachers-oak-wood-schools",
@@ -69,7 +77,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Oak Wood Secondary School",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "23643_225497892",
@@ -647,6 +659,31 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "107925904",
+    "title": "Onsite Recruitment Account Coordinator",
+    "company": "Winner Recruitment - Agency - Contract",
+    "location": "Warwickshire",
+    "region": "West Midlands - Coventry & Warwickshire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Contract",
+    "salary_min": "26000",
+    "salary_max": "26000",
+    "salary_text": "£26000 per year",
+    "posted_date": "",
+    "description": "Onsite Operations Coordinator\n\nLocation: Multi-site (Coventry, Nuneaton and Rugby)\n\nSalary: £28,000 (DOE) + Bonus\n\nJob Type: Full-Time (37.5 hours per week)\n\nShift : Afternoon (any 8 hrs between 12:00 and 00:00)\n\nJoin Our Growing Onsite Operations Team\n\nAre you highly organised, people-focused, and thrive in a fast-paced environment? We are looking for an Onsite Operations Coordinator to support the day-t click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?kjuUUj3TFp55Y9blL8y%2f4pZbjUcVZOlag",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Winner Recruitment",
+    "advertiser_type": "Agency",
+    "work_pattern": "Full Time",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
     "job_id": "nhs-5525238",
     "source": "NHS Jobs",
     "title": "Receptionist/Admin",
@@ -662,7 +699,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2343-26-0008",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2343-26-0008",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-4151642",
@@ -680,6 +721,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0908-24-0000",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0908-24-0000",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

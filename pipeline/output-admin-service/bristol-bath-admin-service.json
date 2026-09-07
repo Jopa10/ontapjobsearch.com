@@ -21,7 +21,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Parson Street Primary School",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "1772093",
@@ -564,7 +568,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9387-26-1810",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9387-26-1810",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5554527",
@@ -582,7 +590,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B9083-26-0449",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B9083-26-0449",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5559839",
@@ -600,7 +612,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9277-26-0871",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9277-26-0871",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5550823",
@@ -618,7 +634,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4271-26-0011",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4271-26-0011",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5554666",
@@ -636,6 +656,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B9083-26-0450",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B9083-26-0450",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]
