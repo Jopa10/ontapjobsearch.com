@@ -1,30 +1,5 @@
 [
   {
-    "job_id": "teaching-vacancies-apprentice-administrator-braeburn-primary-and-nursery-academy",
-    "title": "Apprentice Administrator",
-    "company": "Braeburn Primary and Nursery Academy",
-    "location": "Scarborough",
-    "region": "Yorkshire - North",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['full time']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "£19,292.00 - £24,404.00 Annually (FTE)",
-    "work_pattern": "",
-    "posted_date": "2026-07-20",
-    "closing_date": "2026-09-07",
-    "closing_datetime": "2026-09-07T09:00:00+01:00",
-    "summary": "Apprentice Administrator with Braeburn Primary and Nursery Academy in Scarborough. ['full time']; £19,292.00 - £24,404.00 Annually (FTE).",
-    "description": "Braeburn Primary and Nursery Academy is recruiting for this vacancy in Scarborough.\n\nThe advertised position is Apprentice Administrator.\n\nThe source lists the employment type as ['full time'].\n\nThe advertised salary or pay scale is £19,292.00 - £24,404.00 Annually (FTE).\n\nThe stated application deadline is 2026-09-07T09:00:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/apprentice-administrator-braeburn-primary-and-nursery-academy?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "posted_date_basis": "source"
-  },
-  {
     "job_id": "teaching-vacancies-senior-administrator-braeburn-primary-and-nursery-academy-scarborough-north-yorkshire",
     "title": "Senior Administrator",
     "company": "Braeburn Primary and Nursery Academy",
@@ -47,6 +22,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "Braeburn Primary and Nursery Academy",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -72,6 +50,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "Askwith Primary School",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {

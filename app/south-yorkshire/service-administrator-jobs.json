@@ -1,30 +1,5 @@
 [
   {
-    "job_id": "teaching-vacancies-senior-administrator-higher-education",
-    "title": "Senior Administrator Higher Education",
-    "company": "The Sheffield College",
-    "location": "Sheffield",
-    "region": "Yorkshire - South",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['full time']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "£29,335.91 - £34,234.26",
-    "work_pattern": "",
-    "posted_date": "2026-09-03",
-    "closing_date": "2026-09-06",
-    "closing_datetime": "2026-09-06T23:59:00+01:00",
-    "summary": "Senior Administrator Higher Education with The Sheffield College in Sheffield. ['full time']; £29,335.91 - £34,234.26.",
-    "description": "The Sheffield College is recruiting for this vacancy in Sheffield.\n\nThe advertised position is Senior Administrator Higher Education.\n\nThe source lists the employment type as ['full time'].\n\nThe advertised salary or pay scale is £29,335.91 - £34,234.26.\n\nThe stated application deadline is 2026-09-06T23:59:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-higher-education?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "posted_date_basis": "source"
-  },
-  {
     "job_id": "teaching-vacancies-send-administrator-aston-academy-sheffield-south-yorkshire",
     "title": "SEND Administrator",
     "company": "Aston Academy",
@@ -47,6 +22,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "Aston Academy",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -72,6 +50,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "Wybourn Community Primary & Nursery School",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -97,6 +78,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "The Rowan School",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -122,6 +106,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "Totley Primary School",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -633,25 +620,6 @@
     "description": "Be the first friendly face our patients meet. As a Medical Receptionist you're the welcoming voice on the phone and the reassuring smile at the desk guiding people to the right care and keeping the practice running smoothly. No two days are the same. You'll book appointments, process repeat prescriptions, navigate patients to the right service and support our clinical team behind the scenes. It's varied, people-focused work that makes a real difference in your community. Why join us? We're a supportive, close-knit team who look after each other as well as our patients. You'll get proper training, the chance to grow your skills, and the satisfaction of knowing your work matters. This permanent role is 27.5 hours across 5 days at £12.71 per hour ideal if you're organised, warm and calm under pressure. No medical experience needed just a caring attitude and a willingness to learn. If that sounds like you, we'd love to hear from you. Please be aware that this role is 5 days per week Monday to Friday. Shift patterns are 07:45-13:15 and 13:00-18:30. If you are a registered patient of Market Surgery, you will be required to change to another GP Practice As the first point of contact for patients, you'll keep the front of house running answering calls, greeting visitors and making sure everyone reaches the right person or service. Alongside this sits a mix of behind-the-scenes admin that keeps the practice ticking: managing the appointment diary, handling prescription and record requests, and providing clerical support to the wider team. You'll also help patients get the most from digital tools like the NHS App, and work closely with colleagues across the practice to keep communication flowing. In short: a busy, varied front-line role that blends people skills with organisation and attention to detail. JOB SUMMARY The purpose of the role is to: Offer general assistance to the Practice team and project a positive and friendly image to patients and other visitors, either in person or via the telephone. Receive, assist and direct patients in accessing the appropriate service or healthcare professional in a courteous, efficient and effective way. Navigate patients to the appropriate care service. Undertake a variety of administrative duties to assist in the smooth running of the Practice, including the provision of clerical support to clinical staff and other members of the Practice team. Facilitate effective communication between patients, members of the primary health care team, secondary care and other associated healthcare agencies. JOB DUTIES & RESPONSIBILITIES The duties and responsibilities to be undertaken by members of the Practice Reception team may include any or all of the items in the following list. Duties may be varied from time to time under the direction of the Reception Team Leader, dependent on current and evolving Practice workload and staffing levels: Opening up/locking-up of Practice premises and maintaining security in accordance with Practice protocols Monitor practice emails Manage timely completion of tasks for the attention of reception teams Registration and deduction of patients from the Practice Register Maintaining and monitoring the Practice appointments system Processing telephone, online and face-to-face requests for appointments, visits and telephone consultations, ensuring patients are directed to the appropriate healthcare professionals Care navigation to external care providers Filing and retrieving paperwork Processing repeat prescriptions in accordance with Practice guidelines Computer data entry/data allocation and collation; processing and recording information in accordance with Practice procedures Initiating contact with and responding to requests from patients, other team members and associated healthcare agencies and providers Providing clerical assistance, including word/data processing, filing, photocopying and scanning Keeping the reception area, noticeboards and leaflet dispensers tidy and free from obstructions and clutter Promote patient uptake of online consultation tools Promote patient uptake of the NHS App Process receipt/delivery of patient samples and vaccinations in line with cold chain policies",
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1153-26-0000",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1153-26-0000",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "A",
-    "posted_date_basis": "source"
-  },
-  {
-    "job_id": "nhs-5565689",
-    "source": "NHS Jobs",
-    "title": "Administrative Assistant",
-    "company": "Sheffield Teaching Hospitals NHS Foundation Trust",
-    "advertiser_name": "Sheffield Teaching Hospitals NHS Foundation Trust",
-    "location": "Sheffield, S2 3QE",
-    "region": "Yorkshire - South",
-    "salary": "£25760.00 to £27476.00",
-    "employment_type": "Permanent",
-    "posted_date": "2026-08-27T12:38:37.342386399",
-    "closing_date": "2026-09-06",
-    "description": "Provide administrative assistance to the Stroke Pathway Assessment and Rehabilitation Centre based at Beech Hill Rehabilitation Unit . To ensure efficient and effective support to the services. To be the first point of contact for patients and visitors entering SPARC, and to always present a professional and friendly manner. To consistently deliver a patient focused service, which provides good customer service and effective working relationships along the Stroke Pathway. To work closely with the other members of the team to ensure the smooth running of the services at all times. To provide a strictly confidential administrative service to the Stroke Pathway Assessment and Rehabilitation Centre (SPARC), Community Stroke Service (CSS) and Intermediate Care Beds (ICB). To be competent in the use of Microsoft Outlook, Teams, Word, Excel and PowerPoint as well as Trust systems including SystmOne and Lorenzo. To be responsible for ordering supplies using the in-house ordering system (Integra/Web Basket). To provide administrative support to the Interface office as part of the SPARC/ICB service as required, accurately inputting data into Excel spreadsheets and SystmOne. To cover main reception at SPARC as required - meeting and greeting patients and visitors to SPARC in a friendly and courteous manner and direct all visitors as appropriate. To ensure correspondence, both paper and electronic, is handled and responded to in a timely and efficient manner. To be conversant in the use of the internet and STH intranet, using both effectively to support the work of the service. To positively contribute to team culture and act as a positive ambassador for the organisation. Infection prevention and control is integral to this post. The post holder should, at all times, demonstrate effective infection control and hygiene. This list is not exhaustive and other duties maybe expected to be undertaken following consultation and agreement with the post holder. Please note this advertisement is for both permanent and fixed term opportunities. Please view the attached Job Description and Person Specification documents for full details regarding this post. When completing your application please ensure that you clearly demonstrate how you meet the role criteria.",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9190-26-0517",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9190-26-0517",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
     "posted_date_basis": "source"

@@ -14,6 +14,18 @@ Edit only each `action:` line for POSS rows. Unchanged decisions are restored by
 
 ---
 action:
+POSS | NHS Jobs | Hampshire | Portsmouth, PO6 3LY, Isle of Wight , PO30 5TG | £79504.00 to £91609.00 | Head of Corporate Secretariat and Legal
+source_job_id: 5581768
+title: Head of Corporate Secretariat and Legal
+employer: Isle of Wight NHS Trust
+region: Hampshire
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9470-26-0502
+factual_fingerprint: 00d32fabd4b66330ab0f883d82570a2d53c349992ef45a6bdf813a91a2e65c30
+---
+
+---
+action:
 POSS | NHS Jobs | Wiltshire | Salisbury, SP2 8BJ | £38682.00 to £46580.00 | Clinical Transformation Analyst
 source_job_id: 5581528
 title: Clinical Transformation Analyst
@@ -2829,7 +2841,7 @@ employer: The Shrewsbury and Telford Hospital NHS Trust
 region: Shropshire
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9223-26-0891
-factual_fingerprint: f165d3c53fb9c817247bb315f380f499c65aab5fcde60abcd814658f4471832a
+factual_fingerprint: b4e69d335f1e5db355898f7d2143d2b1adb50b0b879f78914e1fda39451ebd23
 ---
 
 ---
@@ -5602,18 +5614,6 @@ region: Kent
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9344-26-0428
 factual_fingerprint: 991fe560219f795b8a02b0ba82a1e5ffbef39fb0d257ddce86f0c0d90545f440
----
-
----
-action:
-POSS | NHS Jobs | Greater Manchester - Wigan & Bolton | Wigan, WN3 5BA | £25760.00 to £27476.00 | Medical Secretary/Administrative Assistant
-source_job_id: 5574041
-title: Medical Secretary/Administrative Assistant
-employer: Wrightington Wigan & Leigh Teaching Hospitals NHS Foundation Trust
-region: Greater Manchester - Wigan & Bolton
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9302-26-0378
-factual_fingerprint: 26b4959f62678a3f5d775dc8f595fc51c05307219adc86df1c85f5e138e0e7b8
 ---
 
 ---
