@@ -1,6 +1,6 @@
 # Support-worker manual review
 
-feed_date: 2026-09-06
+feed_date: 2026-09-07
 
 Edit only the `action:` line in each block:
 
@@ -79,6 +79,12 @@ SELECTED | Sussex | East Grinstead | £14.25 per hour | Care assistant - East Gr
 job_id: 23643_225567530
 ---
 
+---
+action:
+SELECTED | Sussex | Hove | £13.45 per hour (plus shift allowances) | Bank Support Worker
+job_id: 107926256
+---
+
 ## SUSSEX — POSSIBLES
 
 _No jobs in this group._
@@ -107,12 +113,6 @@ job_id: 1401784493
 action:
 SELECTED | Hampshire | Southampton | £27780 - £30564 per year | Secure Childrens Home Support Worker (Weekends)
 job_id: 1401784780
----
-
----
-action:
-SELECTED | Hampshire | Romsey | £27780 - £30564 per year | Children's Homes Support Worker
-job_id: 1401784767
 ---
 
 ---
@@ -161,12 +161,6 @@ _No jobs in this group._
 action:
 SELECTED | Kent | Tunbridge Wells | competitive + benefits | Qualified Hearing Care Assistant
 job_id: 1402264062
----
-
----
-action:
-SELECTED | Kent | Kent | £13.45 per hour (£13.45) | Housing Support Worker (Casual)
-job_id: 23643_225534852
 ---
 
 ---
@@ -347,6 +341,12 @@ _No jobs in this group._
 action:
 SELECTED | Surrey | Farnham | £13.00 per hour | Specialist Academic Support Worker
 job_id: 1692926
+---
+
+---
+action:
+SELECTED | Surrey | Cobham | £13.45 per hour (£13.45) | Housing Support Worker (Casual)
+job_id: 23643_225534852
 ---
 
 ---
