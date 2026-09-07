@@ -129,12 +129,6 @@ job_id: 1401784888
 
 ---
 action:
-SELECTED | Hampshire | Southampton | £29,453 per annum | Waking Night Support Worker
-job_id: 1663151
----
-
----
-action:
 SELECTED | Hampshire | Southampton | £25186 - £26244 per year | Night Care Worker
 job_id: 1401784887
 ---
@@ -231,14 +225,14 @@ job_id: 23643_225535652
 
 ---
 action:
-SELECTED | London | London | £35000 per year | Founders Personal Assistant / Executive Assistant
-job_id: 107885503
+SELECTED | London | Bromley | £100 - £110 per daily | Autism Support Worker
+job_id: 1815970
 ---
 
 ---
 action:
-SELECTED | London | Bromley | £100 - £110 per daily | Autism Support Worker
-job_id: 1815970
+SELECTED | London | Wandsworth | £95 - £115 per daily | Behaviour Support Assistant
+job_id: 1708252
 ---
 
 ---
@@ -291,6 +285,12 @@ job_id: 23643_225572316
 
 ---
 action:
+SELECTED | London | London | £14.80 per hour | Support Worker
+job_id: 1858533
+---
+
+---
+action:
 SELECTED | London | City | £26679 - £31325 per year | Mentoring Support Worker - Moving Forward Moving On
 job_id: 2052022
 ---
@@ -307,9 +307,19 @@ SELECTED | London | Wembley | £12 - £14.26 per hour | Female Support Worker/Ca
 job_id: 23643_225574359
 ---
 
+---
+action:
+SELECTED | London | City | £100 - £120 per daily | Behaviour Support Assistant
+job_id: 23643_225575334
+---
+
 ## LONDON — POSSIBLES
 
-_No jobs in this group._
+---
+action:
+POSS - LONDON | London | London | £32000 - £38000 per year | Personal Assistant/ FOH - Graduate
+job_id: 1843702
+---
 
 ## OXFORDSHIRE — SELECTED
 
@@ -361,11 +371,23 @@ SELECTED | Surrey | Lingfield | £25308 - £27180 per year | Residential Support
 job_id: 1808682
 ---
 
+---
+action:
+SELECTED | Surrey | Knaphill | £25845 per year | Female Support Worker
+job_id: 23643_225574731
+---
+
 ## SURREY — POSSIBLES
 
 _No jobs in this group._
 
 ## WILTSHIRE — SELECTED
+
+---
+action:
+SELECTED | Wiltshire | Chippenham | £85 - £110 per daily | Emotional and Mental Health Support Worker
+job_id: 1709295
+---
 
 ---
 action:
