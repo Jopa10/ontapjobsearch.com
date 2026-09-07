@@ -1,61 +1,5 @@
 [
   {
-    "job_id": "teaching-vacancies-administrator-student-services-d8658259-60b3-4622-8d3d-f3f1d76a784e",
-    "title": "Administrator - Student Services",
-    "company": "Arthur Mellows Village College",
-    "location": "Peterborough",
-    "region": "Cambridgeshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['full time']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "£22,469.00 Annually (FTE)",
-    "work_pattern": "",
-    "posted_date": "2026-08-14",
-    "closing_date": "2026-09-07",
-    "closing_datetime": "2026-09-07T09:00:00+01:00",
-    "summary": "Administrator - Student Services with Arthur Mellows Village College in Peterborough. ['full time']; £22,469.00 Annually (FTE).",
-    "description": "Arthur Mellows Village College is recruiting for this vacancy in Peterborough.\n\nThe advertised position is Administrator - Student Services.\n\nThe source lists the employment type as ['full time'].\n\nThe advertised salary or pay scale is £22,469.00 Annually (FTE).\n\nThe stated application deadline is 2026-09-07T09:00:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/administrator-student-services-d8658259-60b3-4622-8d3d-f3f1d76a784e?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Arthur Mellows Village College",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
-  },
-  {
-    "job_id": "teaching-vacancies-data-administrator-799f6f5b-2740-4014-af1f-77a81945f8ec",
-    "title": "Data Administrator",
-    "company": "Queen Katharine Academy",
-    "location": "Peterborough",
-    "region": "Cambridgeshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['full time']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "£21,567 - £22,970 per annum (FTE £25,185 - £26,824)",
-    "work_pattern": "",
-    "posted_date": "2026-08-24",
-    "closing_date": "2026-09-07",
-    "closing_datetime": "2026-09-07T09:00:00+01:00",
-    "summary": "Data Administrator with Queen Katharine Academy in Peterborough. ['full time']; £21,567 - £22,970 per annum (FTE £25,185 - £26,824).",
-    "description": "Queen Katharine Academy is recruiting for this vacancy in Peterborough.\n\nThe advertised position is Data Administrator.\n\nThe source lists the employment type as ['full time'].\n\nThe advertised salary or pay scale is £21,567 - £22,970 per annum (FTE £25,185 - £26,824).\n\nThe stated application deadline is 2026-09-07T09:00:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/data-administrator-799f6f5b-2740-4014-af1f-77a81945f8ec?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Queen Katharine Academy",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
-  },
-  {
     "job_id": "teaching-vacancies-send-administrator-swavesey-village-college",
     "title": "SEND Administrator",
     "company": "Swavesey Village College",
@@ -243,11 +187,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Telephone handling",
-      "Scheduling and bookings"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1770672",
@@ -272,11 +212,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Telephone handling",
-      "Records administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225570284",
@@ -326,12 +262,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Data entry",
-      "Filing and document handling",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1865042",
@@ -456,12 +387,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Part Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Quotations",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "107925777",
