@@ -312,23 +312,20 @@ job_id: 23643_225575334
 ## LONDON — POSSIBLES
 
 ---
-action:
+action: select
 POSS - LONDON | London | London | £32000 - £38000 per year | Personal Assistant/ FOH - Graduate
 job_id: 1843702
 ---
-
 ---
-action:
+action: select
 POSS - LONDON | London | London | £14.61 - £23.08 per hour (Temp to perm contract) | Learning Support Worker
 job_id: 23643_225574825
 ---
-
 ---
-action:
+action: select
 POSS - LONDON | London | London | £18 - £20 per hour | Family Support Worker
 job_id: 1834903
 ---
-
 ## OXFORDSHIRE — SELECTED
 
 ---
