@@ -1,7 +1,7 @@
 # North East Jobs ETL proof-of-concept review
 
-review_date: 2026-09-07
-review_fingerprint: 091fefe026e39c51f088dcf8b4783808bc79f9f0eef087ef85b61b87ec5323e0
+review_date: 2026-09-08
+review_fingerprint: fb8b60f92e592ff70a10cd7f61d34c55aa1e93bb21c101d8558ac353ab43792f
 
 Edit only the `action:` line in each editable block:
 
@@ -11,19 +11,19 @@ Edit only the `action:` line in each editable block:
 - Commit the edit; the review workflow will remember the decision.
 - Decisions are carried forward only while the same vacancy review facts remain unchanged.
 
-Run generated: 2026-09-07T13:27:19+01:00
+Run generated: 2026-09-08T12:17:57+01:00
 RSS input: https://www.northeastjobs.org.uk/RSSJobs.aspx?orgid=62
-JobG8 comparison rows in target geographies: 271
+JobG8 comparison rows in target geographies: 268
 
 ## Funnel
 
-- RSS vacancies read: 541
-- Hard-pass title/teaser screen before detail requests: 501
-- Detail candidates: 40
+- RSS vacancies read: 592
+- Hard-pass title/teaser screen before detail requests: 547
+- Detail candidates: 45
 - Detail failures or unavailable snapshots: 0
-- Outside the two target geographies: 3
-- Tees Valley explicitly excluded: 9
-- Target-geography candidates reviewed: 28
+- Outside the two target geographies: 6
+- Tees Valley explicitly excluded: 10
+- Target-geography candidates reviewed: 29
 
 ## Detail diagnostics
 
@@ -31,18 +31,18 @@ JobG8 comparison rows in target geographies: 271
 
 ## Review outcomes
 
-- HC: 11
-- POSS: 15
+- HC: 13
+- POSS: 14
 - Hard pass: 2
 - Final selected after remembered/manual actions: 16
-- Final POSS awaiting decision: 2
+- Final POSS awaiting decision: 3
 - Manually excluded: 8
 - Confirmed JobG8 duplicates: 0
 - Possible JobG8 duplicates: 0
-- Likely unique to North East Jobs: 28
+- Likely unique to North East Jobs: 29
 - Rows in possible within-source duplicate groups: 0
 
-- Manual review warning: manual review date 2026-09-06 is not 2026-09-07; old actions ignored
+- Manual review warning: manual review date 2026-09-07 is not 2026-09-08; old actions ignored
 
 ## SELECTED
 
@@ -120,6 +120,24 @@ source_url: https://www.northeastjobs.org.uk/job/Business_Support_Assistant_Chil
 ---
 ---
 action:
+SELECTED | North East - Tyneside, Wearside & Northumberland | Sunderland | Grade 2 (SCP 5-6) £26,427 - £26,847 per annum pro rata | Business Support Assistant in Careers & NEET
+employer: Together for Children - Sunderland
+closing_date: 20/09/2026
+reason: clear transferable title: business support assistant
+source_job_id: 301568
+source_url: https://www.northeastjobs.org.uk/job/Business_Support_Assistant_in_Careers_NEET/301568
+---
+---
+action:
+SELECTED | North East - Tyneside, Wearside & Northumberland | Dubmire Primary Academy / Aim High Academy Trust | Grade 3 (SCP 7-11 £27,274 - £29,071 pro rata) | Business Support Officer
+employer: AIM High Academy Trust
+closing_date: 18/09/2026 09:00
+reason: clear transferable title: business support officer
+source_job_id: 301610
+source_url: https://www.northeastjobs.org.uk/job/Business_Support_Officer/301610
+---
+---
+action:
 SELECTED | North East - Tyneside, Wearside & Northumberland | South Tyneside Council (derived for filtering) | £29,542 pa | Customer Service Advisor x 2 Posts
 employer: South Tyneside Council
 closing_date: 17/09/2026 12:00
@@ -149,15 +167,6 @@ source_url: https://www.northeastjobs.org.uk/job/DBS01125_26_Receptionist_Norham
 
 ---
 action: select
-POSS | North East - County Durham & Darlington/Hartlepool | Town Hall, Darlington | £25,989 per annum (pay award pending) | PA Support Officer
-employer: Darlington Borough Council
-closing_date: 07/09/2026
-reason: provisional transferable-office review
-source_job_id: 300972
-source_url: https://www.northeastjobs.org.uk/job/PA_Support_Officer/300972
----
----
-action: select
 POSS | North East - County Durham & Darlington/Hartlepool | New College Durham - Framwellgate Moor | Support Grade F02 - F03; £32,012 to £32,975 per annum | Personal Development Coach Coordinator
 employer: New College Durham
 closing_date: 20/09/2026
@@ -173,6 +182,15 @@ closing_date: 21/09/2026 12:00
 reason: annualised upper salary £51,928 exceeds North East review point £30,000
 source_job_id: 301368
 source_url: https://www.northeastjobs.org.uk/job/Practice_Development_Coordinator/301368
+---
+---
+action:
+POSS | North East - County Durham & Darlington/Hartlepool | Start Whitby Street Hartlepool TS24 7AB | £32,578 - £34,811 per annum | Recovery Coordinator
+employer: Hartlepool Borough Council
+closing_date: 28/09/2026
+reason: annualised upper salary £34,811 exceeds North East review point £30,000
+source_job_id: 301502
+source_url: https://www.northeastjobs.org.uk/job/Recovery_Coordinator/301502
 ---
 ---
 action: exclude
@@ -209,15 +227,6 @@ closing_date: 21/09/2026 12:00
 reason: transferable office/service title with specialist or borderline wording: attendance
 source_job_id: 301579
 source_url: https://www.northeastjobs.org.uk/job/Attendance_Administrator/301579
----
----
-action: select
-POSS | North East - Tyneside, Wearside & Northumberland | Newcastle (derived for filtering) | Actual pro-rata salary is £27,703 - £29,601 per annum (pay award pending) | Attendance Officer
-employer: North East Futures - UTC
-closing_date: 08/09/2026 12:00
-reason: transferable office/service title with specialist or borderline wording: attendance
-source_job_id: 300632
-source_url: https://www.northeastjobs.org.uk/job/Attendance_Officer/300632
 ---
 ---
 action: exclude
