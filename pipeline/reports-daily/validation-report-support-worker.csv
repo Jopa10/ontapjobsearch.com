@@ -1,6 +1,6 @@
 ﻿metric,value
 total rows input,10000
-total rows included,52
+total rows included,55
 total rows dropped,9945
 title classification count - HIGH_CONFIDENCE,140
 title classification count - ELASTIC_FIT,28
@@ -64,13 +64,13 @@ other elastic count - Kent,0
 total rows output - Kent,3
 job_id included - Kent,1402264062; 107858271; 1851265
 selection scenario - London,SCENARIO_3_MANUAL_SELECTION_APPLIED
-selection message - London,London manual_select applied additively: 5 row(s) prioritised; 24 selected.
-credible total - London,24
+selection message - London,London manual_select applied additively: 8 row(s) prioritised; 27 selected.
+credible total - London,27
 high confidence count - London,16
 anchor elastic count - London,0
 other elastic count - London,3
-total rows output - London,24
-job_id included - London,23643_225572316; 23643_225516212; 23643_225165439; 23643_225572376; 1858533; 23643_225574128; 1785508; 1785507; 2049697; 23643_224986550; 1775476; 1743463; 23643_225535652; 1815970; 1787859; 2050890; 2049999; 2049628; 2052022; 23643_225472096; 23643_225574359; 23643_225513634; 1708252; 23643_225575334
+total rows output - London,27
+job_id included - London,23643_225572316; 1843702; 23643_225574825; 1834903; 23643_225516212; 23643_225165439; 23643_225572376; 1858533; 23643_225574128; 1785508; 1785507; 2049697; 23643_224986550; 1775476; 1743463; 23643_225535652; 1815970; 1787859; 2050890; 2049999; 2049628; 2052022; 23643_225472096; 23643_225574359; 23643_225513634; 1708252; 23643_225575334
 selection scenario - Oxfordshire,SCENARIO_4_BELOW_PUBLISH_THRESHOLD
 selection message - Oxfordshire,Oxfordshire selection below publish threshold: 3/6 credible roles. Do not publish/refresh this slice from this run.
 credible total - Oxfordshire,3

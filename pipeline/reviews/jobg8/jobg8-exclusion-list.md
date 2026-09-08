@@ -6,9 +6,189 @@ The `excluded_on` date is the day the exclusion decision was made.
 To restore a job, edit only its `action:` line to `action: select`.
 On the next JobG8 run that exact job ID will be restored and removed from this list.
 
-remembered_exclusions: 280
+remembered_exclusions: 295
 
 ## SERVICE / ADMIN — EXCLUDED
+
+---
+action:
+category: service_admin
+excluded_on: 2026-09-08
+title: Salesforce Analyst & Administrator (Cyber Security)
+employer: Ernest Gordon Recruitment Limited
+region: 
+town: Leicestershire
+salary: 
+job_id: 1844223
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-09-08
+title: Project Administrator
+employer: Rise Technical Recruitment Limited
+region: 
+town: Birmingham
+salary: 
+job_id: 1852926
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-09-08
+title: Principal Town Planner
+employer: Carrington West
+region: 
+town: West Midlands
+salary: 
+job_id: 23643_225576190
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-09-08
+title: Practice Operations Coordinator - Architecture
+employer: Tarrant Howl Ltd
+region: 
+town: London
+salary: 
+job_id: 23643_225576337
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-09-08
+title: PA / Recruitment and Sales Support
+employer: Ferreira Young Recruitment
+region: 
+town: London
+salary: 
+job_id: 1842759
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-09-08
+title: Operations & Admin Assistant (Remote, UK-Based)
+employer: My VA business
+region: 
+town: Hertfordshire
+salary: 
+job_id: 1866833
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-09-08
+title: Operations & Admin Assistant (Remote, UK-Based)
+employer: My VA business
+region: 
+town: London
+salary: 
+job_id: 1866830
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-09-08
+title: Investment and Design Coordinator
+employer: Northern Gas
+region: 
+town: Yorkshire
+salary: 
+job_id: 107927269
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-09-08
+title: French speaking Customer Service Advisor
+employer: French Selection UK
+region: 
+town: Cambridgeshire
+salary: 
+job_id: 1841637
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-09-08
+title: Export Customer Service Advisor
+employer: Michael Page
+region: 
+town: Yorkshire
+salary: 
+job_id: 23643_225576937
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-09-08
+title: Executive Assistant
+employer: ABL Recruitment
+region: 
+town: London
+salary: 
+job_id: 1857142
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-09-08
+title: Executive Assistant
+employer: Tiger Recruitment
+region: 
+town: London
+salary: 
+job_id: 1849545
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-09-08
+title: Executive Assistant
+employer: LR Legal Recruitment
+region: 
+town: London
+salary: 
+job_id: 1842907
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-09-08
+title: Exams Coordinator
+employer: Gordon Yates Recruiting & Training Ltd
+region: 
+town: London
+salary: 
+job_id: 1841477
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-09-08
+title: Estimator/Administrator
+employer: Rubicon Recruitment
+region: 
+town: Dorset
+salary: 
+job_id: 1868283
+---
 
 ---
 action:
