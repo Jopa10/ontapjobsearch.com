@@ -153,12 +153,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Records administration",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225510923",
@@ -283,14 +278,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Records administration",
-      "Data entry",
-      "Quotations",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1771779",
@@ -340,11 +328,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1770180",
@@ -419,12 +403,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Quotations",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1841296",
@@ -446,36 +425,6 @@
     "working_arrangement_text": "3 days from home / 2 days in office",
     "working_arrangement_evidence": "Service Administrator Service Administrator Permanent £29,650 per annum Northampton, Hybrid working. (Full time in the office whilst training, and then 2 days in the office and 3 days from home after training) We're recruiting a Service Administrator on behalf of a global engineering business.",
     "advertiser_name": "Tate Milton Keynes",
-    "advertiser_type": "Agency",
-    "work_pattern": "Full Time",
-    "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Quotations",
-      "Order processing"
-    ]
-  },
-  {
-    "job_id": "23643_225475580",
-    "title": "Project Coordinator",
-    "company": "Pertemps Northampton - Agency - Permanent",
-    "location": "Northamptonshire",
-    "region": "Northamptonshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "28849",
-    "salary_max": "28849",
-    "salary_text": "£28849 per year",
-    "posted_date": "",
-    "description": "Project Coordinator\nSalary: 28,849.70\nWe are seeking a highly organised and proactive Project Coordinator to support senior leadership in delivering product development and business projects. This role plays a key part in ensuring projects are delivered on time, within scope, and aligned with quality and budget expectations.\nKey Responsibilities\n- Act as the central point of contact for coordinating product development projects across multiple internal departments, including technical, regulatory, sales, and logistics.\n- Work closely with suppliers and manufacturing partners to progress key initiatives, including arranging samples, gathering product data, and supporting technical requirements.\n- Engage with key customers to obtain product feedback and report insights to internal stakeholders.\n- Organise and facilitate regular project update meetings for senior leadership.\n- Support the development and implementation of standardised templates for new product development.\n- Assist in planning and overseeing a rolling three-year new product roadmap.\n- Coordinate and manage project tasks, timelines, and deliverables.\n- Build and maintain strong working relationships with both external partners and internal teams.\n- Undertake administrative responsibilities such as scheduling meetings, preparing presentations, and tracking action points.\n- Maintain a high level of professionalism and integrity at all times.\n- Manage ad hoc and special projects as required.\n\nSkills & Experience\nQualifications:\n- Good standard of secondary education.\n- Accredited qualification in Microsoft Excel (desirable).\n\nKey Skills & Experience:\n- Ability to multitask effectively in a fast-paced environment.\n- Excellent attention to detail.\n- Strong written and verbal communication skills.\n- Good analytical and numerical ability.\n- Experience supporting a busy and varied team.\n- Advanced knowledge of Microsoft Office.\n- Strong planning and organisational skills.\n- Project coordination and budget management capability.\n\nPerson Specification\nThe ideal candidate will be:\n- Highly task-oriented with strong attention to quality and accuracy.\n- Collaborative, supportive, and team-focused.\n- Disciplined, thorough, and detail-driven.\n- Analytical with the ability to produce precise and accurate work.\n- Approachable, professional, and reliable.\n- Comfortable working in a fast-paced and evolving environment.\n- Able to work independently while adhering to established frameworks and processes.\n\nBenefits\n- Competitive salary\n- 25 days annual leave, with the option to purchase up to 5 additional days\n- Life insurance\n- Cycle to Work scheme\n- Subsidised gym membership\n- Access to health and wellbeing apps\n- Employee discount schemes\n- Hybrid and flexible working culture",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?ju9emE%2fz0VJfIucZfiSnrnHUHGVGbWklw",
-    "source": "JobG8",
-    "working_arrangement": "hybrid",
-    "working_arrangement_text": "Hybrid working",
-    "working_arrangement_evidence": "Benefits - Competitive salary - 25 days annual leave, with the option to purchase up to 5 additional days - Life insurance - Cycle to Work scheme - Subsidised gym membership - Access to health and wellbeing apps - Employee discount schemes - Hybrid and flexible working culture Northamptonshire Northamptonshire",
-    "advertiser_name": "Pertemps Northampton",
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
@@ -607,6 +556,31 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "23643_225475580",
+    "title": "Project Coordinator",
+    "company": "Pertemps Northampton - Agency - Permanent",
+    "location": "Northamptonshire",
+    "region": "Northamptonshire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "28849",
+    "salary_max": "28849",
+    "salary_text": "£28849 per year",
+    "posted_date": "",
+    "description": "Project Coordinator\nSalary: 28,849.70\nWe are seeking a highly organised and proactive Project Coordinator to support senior leadership in delivering product development and business projects. This role plays a key part in ensuring projects are delivered on time, within scope, and aligned with quality and budget expectations.\nKey Responsibilities\n- Act as the central point of contact for coordinating product development projects across multiple internal departments, including technical, regulatory, sales, and logistics.\n- Work closely with suppliers and manufacturing partners to progress key initiatives, including arranging samples, gathering product data, and supporting technical requirements.\n- Engage with key customers to obtain product feedback and report insights to internal stakeholders.\n- Organise and facilitate regular project update meetings for senior leadership.\n- Support the development and implementation of standardised templates for new product development.\n- Assist in planning and overseeing a rolling three-year new product roadmap.\n- Coordinate and manage project tasks, timelines, and deliverables.\n- Build and maintain strong working relationships with both external partners and internal teams.\n- Undertake administrative responsibilities such as scheduling meetings, preparing presentations, and tracking action points.\n- Maintain a high level of professionalism and integrity at all times.\n- Manage ad hoc and special projects as required.\n\nSkills & Experience\nQualifications:\n- Good standard of secondary education.\n- Accredited qualification in Microsoft Excel (desirable).\n\nKey Skills & Experience:\n- Ability to multitask effectively in a fast-paced environment.\n- Excellent attention to detail.\n- Strong written and verbal communication skills.\n- Good analytical and numerical ability.\n- Experience supporting a busy and varied team.\n- Advanced knowledge of Microsoft Office.\n- Strong planning and organisational skills.\n- Project coordination and budget management capability.\n\nPerson Specification\nThe ideal candidate will be:\n- Highly task-oriented with strong attention to quality and accuracy.\n- Collaborative, supportive, and team-focused.\n- Disciplined, thorough, and detail-driven.\n- Analytical with the ability to produce precise and accurate work.\n- Approachable, professional, and reliable.\n- Comfortable working in a fast-paced and evolving environment.\n- Able to work independently while adhering to established frameworks and processes.\n\nBenefits\n- Competitive salary\n- 25 days annual leave, with the option to purchase up to 5 additional days\n- Life insurance\n- Cycle to Work scheme\n- Subsidised gym membership\n- Access to health and wellbeing apps\n- Employee discount schemes\n- Hybrid and flexible working culture",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?UzhMt9n%2bTsTXCFtbQPKseGr9EQG3e9z8m",
+    "source": "JobG8",
+    "working_arrangement": "hybrid",
+    "working_arrangement_text": "Hybrid working",
+    "working_arrangement_evidence": "Benefits - Competitive salary - 25 days annual leave, with the option to purchase up to 5 additional days - Life insurance - Cycle to Work scheme - Subsidised gym membership - Access to health and wellbeing apps - Employee discount schemes - Hybrid and flexible working culture Northamptonshire Northamptonshire",
+    "advertiser_name": "Pertemps Northampton",
+    "advertiser_type": "Agency",
+    "work_pattern": "Full Time",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
     "job_id": "nhs-5560217",
     "source": "NHS Jobs",
     "title": "Receptionist/Admin",
@@ -621,50 +595,6 @@
     "description": "Higham Ferrer's Surgery is a friendly, supportive, semi rural village practice with approximately 6,000 patients. We are currently looking to recruit a part time enthusiastic and motivated Receptionist/Admin to join our team on a part time contract, 25 hours per week. This role is a 5 hour working day, applicants must be available to work between the hours of 8am to 6:30pm, Monday to Friday. Reception Duties- Front of House. Taking Queries and answering the phones. Admin Duties- Coding, Recalling, Scanning as per the business needs Opening up/locking up of practice premises and maintaining security in accordance with practice protocols Maintaining and monitoring the practice appointments system Processing personal and telephone requests for appointments, visits and telephone consultations, and ensuring callers are directed to the appropriate healthcare professional Processing and distributing incoming (and outgoing) mail Taking messages and passing on information Filing and retrieving paperwork Processing repeat prescriptions in accordance with practice guidelines Computer data entry Ordering, re-ordering and monitoring of stationery and other supplies Summarizing patient notes",
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2448-26-0003",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2448-26-0003",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
-  },
-  {
-    "job_id": "nhs-5558575",
-    "source": "NHS Jobs",
-    "title": "Administrative Assistant",
-    "company": "Rothwell & Desborough Healthcare Group",
-    "advertiser_name": "Rothwell & Desborough Healthcare Group",
-    "location": "Kettering, NN14 6JQ, Kettering, NN14 2NB",
-    "region": "Northamptonshire",
-    "salary": "£12.71",
-    "employment_type": "Permanent",
-    "posted_date": "2026-08-24T16:06:55.372103223",
-    "closing_date": "2026-09-07",
-    "description": "We are looking for a friendly, organised and reliable Administrative Assistant to join our team and provide essential administrative support to our reception team and the wider practice. This is a varied and rewarding role involving front-desk reception, telephone support, patient liaison and general administrative duties. You will be an important part of the practice team, helping to ensure the smooth and efficient running of our busy GP practice while providing a welcoming and professional service to our patients. The successful candidate will be a confident and approachable communicator who is able to build positive relationships with patients and colleagues. You will be well organised, able to prioritise and manage competing tasks effectively, and comfortable working in a fast-paced environment. Flexibility is important, as you will be expected to work collaboratively across different areas of the practice and provide support to other teams when required. We are looking for someone who is proactive, adaptable and takes pride in delivering a high standard of service. This role is based across two practice sites, located approximately one mile apart. Hours of Work Monday to Friday Varied working pattern covering the practices core hours between 8.00am - 6.30pm The successful candidate will provide professional front-desk and administrative support within the practice, assisting patients, managing appointments and enquiries, processing registrations and documentation, maintaining accurate records, and ensuring confidentiality. Support both clinical and non-clinical teams to help maintain the smooth and efficient running of the practice. Key Responsibilities Provide support to the reception team and wider practice. Welcome and assist patients at the front desk in a professional and friendly manner. Answer incoming telephone calls and deal with enquiries appropriately. Liaise with patients by telephone, in person and through other appropriate communication channels. Book, amend and manage patient appointments. Handle general administrative tasks and ensure work is completed accurately and efficiently. Process patient registrations and related documentation. Scan, upload and accurately file documents and correspondence. Deal with prescription enquiries and direct requests to the appropriate team where necessary. Manage emails and respond to or action enquiries appropriately. Provide administrative support to clinical and non-clinical teams when required. Maintain confidentiality and handle patient information in accordance with practice policies and procedures. Assist with maintaining accurate and up-to-date records. Support the smooth running of the reception and administrative functions. Undertake any other reasonable duties required to support the practice and its teams.",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0790-26-0011",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0790-26-0011",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
-  },
-  {
-    "job_id": "nhs-5558417",
-    "source": "NHS Jobs",
-    "title": "Administrative Assistant",
-    "company": "Rothwell & Desborough Healthcare Group",
-    "advertiser_name": "Rothwell & Desborough Healthcare Group",
-    "location": "Kettering, NN14 6JQ, Kettering, NN14 2NB",
-    "region": "Northamptonshire",
-    "salary": "£12.71",
-    "employment_type": "Permanent",
-    "posted_date": "2026-08-24T15:56:32.741445936",
-    "closing_date": "2026-09-07",
-    "description": "We are looking for a friendly, organised and reliable Administrative Assistant to join our team and provide essential administrative support to our reception team and the wider practice. This is a varied and rewarding role involving front-desk reception, telephone support, patient liaison and general administrative duties. You will be an important part of the practice team, helping to ensure the smooth and efficient running of our busy GP practice while providing a welcoming and professional service to our patients. The successful candidate will be a confident and approachable communicator who is able to build positive relationships with patients and colleagues. You will be well organised, able to prioritise and manage competing tasks effectively, and comfortable working in a fast-paced environment. Flexibility is important, as you will be expected to work collaboratively across different areas of the practice and provide support to other teams when required. We are looking for someone who is proactive, adaptable and takes pride in delivering a high standard of service. This role is based across two practice sites, located approximately one mile apart. Hours of Work 26.25 hours per week , Monday to Friday Shift pattern includes both: AM shifts: 8.00am 1.15pm PM shifts: 1.15pm 6.30pm Over a two-week period, you will work 5 AM shifts and 5 PM shifts The successful candidate will provide professional front-desk and administrative support within the practice, assisting patients, managing appointments and enquiries, processing registrations and documentation, maintaining accurate records, and ensuring confidentiality. Support both clinical and non-clinical teams to help maintain the smooth and efficient running of the practice. Key Responsibilities Provide support to the reception team and wider practice. Welcome and assist patients at the front desk in a professional and friendly manner. Answer incoming telephone calls and deal with enquiries appropriately. Liaise with patients by telephone, in person and through other appropriate communication channels. Book, amend and manage patient appointments. Handle general administrative tasks and ensure work is completed accurately and efficiently. Process patient registrations and related documentation. Scan, upload and accurately file documents and correspondence. Deal with prescription enquiries and direct requests to the appropriate team where necessary. Manage emails and respond to or action enquiries appropriately. Provide administrative support to clinical and non-clinical teams when required. Maintain confidentiality and handle patient information in accordance with practice policies and procedures. Assist with maintaining accurate and up-to-date records. Support the smooth running of the reception and administrative functions. Undertake any other reasonable duties required to support the practice and its teams.",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0790-26-0010",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0790-26-0010",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
     "advertiser_type": "",

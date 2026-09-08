@@ -275,11 +275,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Customer enquiries"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1844331",
@@ -304,11 +300,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Customer enquiries"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1844276",
@@ -333,13 +325,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Records administration",
-      "Systems administration",
-      "Quotations"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1843679",
@@ -388,6 +374,31 @@
     "advertiser_name": "Adecco",
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
+    "job_id": "1869584",
+    "title": "Administrator",
+    "company": "Hales Group - Agency - Permanent",
+    "location": "Suffolk",
+    "region": "Suffolk",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "",
+    "posted_date": "",
+    "description": "Administrator\nNear Bury St Edmunds\nFull-time, Monday to Friday\n£27,000 to £29,000 DOE\nPermanent\nOffice based\n\nWe are recruiting on behalf of our client, a growing and well-established business based in Bury St Edmunds. They are seeking an organised and proactive individual to support day-to-day operations, customer communication, scheduling, and administration. This is a varied role offering the opportunity to become a key part of a busy team.\n\nKey Responsibilities\n- Coordinate projects, schedules, and operational activities to ensure smooth service delivery\n- Liaise with customers, suppliers, and internal teams to manage enquiries and project requirements\n- Arrange deliveries, bookings and logistics as required\n- Maintain accurate records, databases, and CRM systems\n- Prepare and manage operational documentation and reports\n- Support stock control, ordering, and resource planning activities\n- Manage shared inboxes and provide timely responses to enquiries\n- Raise quotations and provide after-sales support where required\n- Assist with compliance, quality, and health & safety administration/processes\n- Handle manufacturer claims and all related documentation\n- Provide general administrative support to the wider operations team\n- Participate in internal / external meetings as requested\n\nRequirements\n- Previous experience within administration, operations support, coordination, or customer service\n- Strong organisational skills with excellent attention to detail\n- Ability to manage multiple priorities and meet deadlines\n- Confident communication skills, both written and verbal\n- Proactive and able to work independently using initiative\n- Comfortable working with systems, databases, and Microsoft Office packages\n- Strong problem-solving skills and a positive, team-focused attitude\n- Reliable, adaptable, and eager to contribute to a busy and supportive environment\n\nPlease apply today with your current CV or call our office for more information on .",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?io0x8AEcaIN5ZPZEAyS%2boaKNqWXSvPF8o",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Hales Group",
+    "advertiser_type": "Agency",
+    "work_pattern": "Full Time",
     "salary_period": "Annual",
     "posted_date_basis": ""
   },
@@ -514,60 +525,31 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Quotations",
-      "Order processing"
-    ]
-  },
-  {
-    "job_id": "107934540",
-    "title": "Coordinator",
-    "company": "BUUK Infrastructure - Agency - Permanent",
-    "location": "Suffolk",
-    "region": "Suffolk",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "30000",
-    "salary_max": "30000",
-    "salary_text": "£30000 per year",
-    "posted_date": "",
-    "description": "At BUUK Infrastructure, our vision is to be the leading utility partner to accelerate the UK towards net zero for all our customers. Our group of companies has been the major drive for change and innovation over 30 years.\n\nWe provide a supportive environment that is committed to enabling our people to be the best ensuring they feel proud to be themselves and part of BUUK Infrastructure click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?Zg1fD7qgbpx5pFrUQcqTSYLH41TVZhSJe",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "BUUK Infrastructure",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Annual",
     "posted_date_basis": ""
   },
   {
-    "job_id": "107919551",
-    "title": "Recovery Coordinator",
-    "company": "Julian Support - Agency - Permanent",
+    "job_id": "1842082",
+    "title": "Crew Coordinator",
+    "company": "Hales Group - Agency - Permanent",
     "location": "Suffolk",
     "region": "Suffolk",
     "country": "UK",
     "category": "Admin/Service – Office Support",
     "employment_type": "Permanent",
-    "salary_min": "30000",
-    "salary_max": "30000",
-    "salary_text": "£30000 per year",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "",
     "posted_date": "",
-    "description": "Recovery Coordinator - Spider is advertising on behalf of Julian Support, who are looking for a Recovery Coordinators to join their ARCH (Accessing Resource from Crisis to Home) team on a full-time basis.\n\nThere are two opportunities available: one permanent Recovery Coordinator position covering East Norfolk/Waveney, and one Peripatetic Recovery Coordinator position on a fixed-term contract until 3 click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?nbYVUHO1tX462tHRSpCMkG81UImFFjiZz",
+    "description": "Crew Coordinator\nUfford, Woodbridge £14.82+ per hour DOE + Overtime\n40 hours per week Temporary Ongoing\nTuesday to Friday 5:00am starts\n\nThis is an exciting opportunity for an organised and proactive individual to play a key role in the daily delivery of refuse, recycling and street cleansing services. Working closely with Assistant Managers, you will help coordinate frontline crews, ensure services are fully resourced, and support the smooth running of depot operations.\n\nThis position is initially offered on a temporary basis initially for 3 months, with the potential to extend longer-term opportunities.\n\nKey Responsibilities\n- Coordinate daily refuse, recycling and street cleansing crews\n- Open the depot, issue keys and ensure services are fully resourced\n- Arrange sickness cover and support workforce planning\n- Monitor operational performance and resolve day-to-day issues\n- Maintain driver records, compliance documents and operational reports\n- Process absence, annual leave and overtime records\n- Order PPE and operational supplies\n- Support customer enquiries and service-related complaints\n- Promote safe working practices and ensure H&S compliance\n\nRequirements\n- Previous experience in a supervisory, team leader or operations coordination role\n- Strong organisational and communication skills\n- IT literate with experience using Microsoft Office\n- Ability to work under pressure and manage changing priorities\n- Good administration and record-keeping abilities\n- Health & Safety awareness\n- Full UK driving licence preferred\n\nDesirable Experience\n- Waste, recycling or street cleansing operations experience\n- IOSH Managing Safely qualification\n- Experience coordinating staff\n\nWhy Work Through Hales Group?\nAt Hales Group, we pride ourselves on delivering a tailored and supportive recruitment experience. Our experienced Consultants work closely with you to understand your skills and career goals, matching you with the right opportunity.\n\nWe process all applications in line with our Equal Opportunities policy and may contact you regarding future opportunities. If you prefer not to be contacted, please let us know.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?mDcEDJmYTby3mTxpDVvd7ERdJ5SJVCKNt",
     "source": "JobG8",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Julian Support",
+    "advertiser_name": "Hales Group",
     "advertiser_type": "Agency",
-    "work_pattern": "Full Time",
-    "salary_period": "Annual",
+    "work_pattern": "Not Specified",
+    "salary_period": "Hourly",
     "posted_date_basis": ""
   },
   {
