@@ -47,7 +47,12 @@
     "customer_sales_overlap_policy": "non-exclusive",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": ""
+    "posted_date_basis": "",
+    "at_a_glance_attributes": [
+      "Customer enquiries",
+      "Records administration",
+      "Order processing"
+    ]
   },
   {
     "job_id": "23643_225564678",
@@ -72,7 +77,11 @@
     "customer_sales_overlap_policy": "non-exclusive",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": ""
+    "posted_date_basis": "",
+    "at_a_glance_attributes": [
+      "Records administration",
+      "Systems administration"
+    ]
   },
   {
     "job_id": "1849279",
@@ -97,7 +106,11 @@
     "customer_sales_overlap_policy": "non-exclusive",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": ""
+    "posted_date_basis": "",
+    "at_a_glance_attributes": [
+      "Records administration",
+      "Systems administration"
+    ]
   },
   {
     "job_id": "1770713",
