@@ -1,7 +1,7 @@
 # VONNE ETL proof-of-concept review
 
-review_date: 2026-09-07
-review_fingerprint: 213df5e6fa052a6e9b07b4d90e0133d7c9257954f12ed1a8241ba9e61468ae4c
+review_date: 2026-09-08
+review_fingerprint: 0e6e10f4b9f29503f57106324ede61f85c280652ef7cfe1174f043b9d1252011
 
 This implementation is review-only. It has no approved-JSON or publishing mode.
 
@@ -10,28 +10,28 @@ Edit only the `action:` line in editable blocks:
 - `action: exclude` rejects a POSS vacancy or removes an HC vacancy.
 - Actions are remembered while the same vacancy review facts remain unchanged; this review still does not publish anything.
 
-Run generated: 2026-09-07T13:56:30+01:00
+Run generated: 2026-09-08T12:36:51+01:00
 Listing input: https://www.vonne.org.uk/vonne-jobs
-JobG8 comparison rows: 269
-Approved NEJobs comparison rows: 16
+JobG8 comparison rows: 268
+Approved NEJobs comparison rows: 14
 
 ## Funnel
 - VONNE listings read: 15
-- Detail-page candidates: 5
-- Detail pages fetched successfully: 5
+- Detail-page candidates: 6
+- Detail pages fetched successfully: 6
 - Detail failures/listing fallbacks: 0
-- Obvious hard passes not detail-fetched: 10
+- Obvious hard passes not detail-fetched: 9
 - Tees Valley explicitly excluded: 1
-- Outside or unmapped geography excluded: 0
+- Outside or unmapped geography excluded: 1
 - Generic/derived geography rows requiring review: 1
-- Retained target candidates: 14
+- Retained target candidates: 13
 
 ## Outcomes
 - HC: 0
-- POSS: 8
-- HARD_PASS: 6
+- POSS: 9
+- HARD_PASS: 4
 - Final selected after remembered/manual actions: 4
-- Final POSS awaiting decision: 1
+- Final POSS awaiting decision: 2
 - Manually excluded: 3
 ## Detail diagnostics
 - No unresolved detail-page failures.
@@ -95,6 +95,19 @@ source_job_id: 173396
 source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173396
 ---
 ---
+action:
+POSS | North East - Tyneside, Wearside & Northumberland | Northumberland | £29,998 to 33,000 Per Annum | Community Transport Network and Operations development Coordinator Job Description
+employer: WATBus Community Tranport
+closing_date: Monday, September 21, 2026 - 12:00
+geography: CONFIRMED — location: approved location fallback
+reason: annualised upper salary £33,000 exceeds North East review point £30,000
+source: VONNE
+tracking_key: vonne-173398
+vacancy_fingerprint: 9e4e906f18e5937ccdb4e90f83a88e1b8c13199dce85a5eb46cbacba08411898
+source_job_id: 173398
+source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173398
+---
+---
 action: exclude
 POSS | North East - Tyneside, Wearside & Northumberland | Tyne and Wear | £34,434 to 36,363 Per Annum | Health & Wellbeing Coordinator
 employer: VONNE
@@ -152,9 +165,7 @@ source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173391
 
 ## HARD_PASS
 
-- [Chief Executive Officer](https://www.vonne.org.uk/vonne-jobs-details?cid=173376) — out-of-scope VONNE occupation.
 - [Gardening and Handyperson Supervisor](https://www.vonne.org.uk/vonne-jobs-details?cid=173184) — insufficient service-admin evidence.
-- [NEYA Trainee Youth Voice Worker](https://www.vonne.org.uk/vonne-jobs-details?cid=173381) — out-of-scope VONNE occupation.
 - [Part time Play & Youth Worker](https://www.vonne.org.uk/vonne-jobs-details?cid=173388) — out-of-scope VONNE occupation.
 - [Support Manager](https://www.vonne.org.uk/vonne-jobs-details?cid=172597) — out-of-scope VONNE occupation.
 - [Support Worker - Housing First Project Gateshead](https://www.vonne.org.uk/vonne-jobs-details?cid=171329) — out-of-scope VONNE occupation.
