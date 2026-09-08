@@ -16,25 +16,13 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 10
-- automatic review: 4
-- automatic exclude: 11
+- automatic review: 5
+- automatic exclude: 13
 - effective include: 10
-- effective review: 4
-- effective exclude: 11
+- effective review: 5
+- effective exclude: 13
 
 ## INCLUDE (10)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Account Coordinator
-company: Staffline Operations - Agency - Temporary
-location: Peterborough
-source: JobG8
-job_id: jobg8-107925777
-reason: Approved conservative Peterborough launch catchment.
----
 
 ---
 action: 
@@ -57,6 +45,18 @@ company: New Appointments Group - Agency - Temporary
 location: Peterborough
 source: JobG8
 job_id: jobg8-23643_225478255
+reason: Approved conservative Peterborough launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Customer Service Advisor
+company: Accent Housing Group - Agency - Permanent
+location: Peterborough
+source: JobG8
+job_id: jobg8-1870458
 reason: Approved conservative Peterborough launch catchment.
 ---
 
@@ -144,7 +144,7 @@ job_id: jobg8-107906533
 reason: Approved conservative Peterborough launch catchment.
 ---
 
-## REVIEW (4)
+## REVIEW (5)
 
 ---
 action: 
@@ -186,6 +186,18 @@ reason: No approved Peterborough catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: German Customer Care Administrator
+company: Lifeplus Europe LTD - Agency - Permanent
+location: St. Neots
+source: JobG8
+job_id: jobg8-1870854
+reason: No approved Peterborough catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Stock Administrator
 company: Interaction Recruitment - Agency - Temporary
 location: St. Ives
@@ -194,7 +206,7 @@ job_id: jobg8-23643_225519683
 reason: No approved Peterborough catchment rule matched; local review required.
 ---
 
-## EXCLUDE (11)
+## EXCLUDE (13)
 
 ---
 action: 
@@ -260,11 +272,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Content Executive
-company: AWD Online - Agency - Permanent
+title: Ecommerce Content Assistant
+company: Yours Clothing - Agency - Permanent
 location: Cambridgeshire
 source: JobG8
-job_id: jobg8-107910195
+job_id: jobg8-107881402
 reason: Separate employment market.
 ---
 
@@ -272,11 +284,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Ecommerce Content Assistant
-company: Yours Clothing - Agency - Permanent
-location: Cambridgeshire
+title: Office Administrator
+company: Altitude-Recruitment Limited - Agency - Permanent
+location: Cambridge
 source: JobG8
-job_id: jobg8-107881402
+job_id: jobg8-1852124
 reason: Separate employment market.
 ---
 
@@ -296,11 +308,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Receptionist
-company: Peasgood & Skeates - Agency - Permanent
+title: Office Administrator
+company: EA FIRST LTD - Agency - Permanent
 location: Cambridge
 source: JobG8
-job_id: jobg8-23643_225513578
+job_id: jobg8-1857144
 reason: Separate employment market.
 ---
 
@@ -308,11 +320,35 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: SEND Administrator
-company: Swavesey Village College
+title: Personal Assistant
+company: Pure Resourcing Solutions - Agency - Permanent
 location: Cambridge
-source: Teaching Vacancies
-job_id: teaching-vacancies-send-administrator-swavesey-village-college
+source: JobG8
+job_id: jobg8-1848160
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Receptionist
+company: EC Resourcing - Agency - Permanent
+location: Cambridge
+source: JobG8
+job_id: jobg8-1851868
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Receptionist
+company: Peasgood & Skeates - Agency - Permanent
+location: Cambridge
+source: JobG8
+job_id: jobg8-23643_225513578
 reason: Separate employment market.
 ---
 

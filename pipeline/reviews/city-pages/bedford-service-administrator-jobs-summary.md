@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 4
-- automatic review: 12
+- automatic review: 15
 - automatic exclude: 0
 - effective include: 4
-- effective review: 12
+- effective review: 15
 - effective exclude: 0
 
 ## INCLUDE (4)
@@ -28,11 +28,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 action: 
 decision: include
 automatic_decision: include
-title: Administrator
-company: East of England Community Health and Care NHS Trust (Cambridge)
-location: BEDFORD, MK42 0AH
-source: NHS Jobs
-job_id: nhs-5564641
+title: Commercial Administrator
+company: 1st Choice Rec - Agency - Permanent
+location: Bedford
+source: JobG8
+job_id: jobg8-1868312
 reason: Exact approved Bedford workplace.
 ---
 
@@ -52,6 +52,18 @@ reason: Exact approved Bedford workplace.
 action: 
 decision: include
 automatic_decision: include
+title: Operations Administrator
+company: entrust IT - Agency - Permanent
+location: Bedford
+source: JobG8
+job_id: jobg8-1847897
+reason: Exact approved Bedford workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Receptionist
 company: FS1 Recruitment - Agency - Temporary
 location: Bedford
@@ -60,19 +72,7 @@ job_id: jobg8-23643_225539795
 reason: Exact approved Bedford workplace.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Repairs Scheduler
-company: BPHA - Agency - Permanent
-location: Bedford
-source: JobG8
-job_id: jobg8-23643_225474065
-reason: Exact approved Bedford workplace.
----
-
-## REVIEW (12)
+## REVIEW (15)
 
 ---
 action: 
@@ -83,18 +83,6 @@ company: Proactive Personnel Ltd - Agency - Contract
 location: Sandy
 source: JobG8
 job_id: jobg8-23643_225505564
-reason: No exact Bedford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Endoscopy Booking Clerk
-company: Bedfordshire Hospitals NHS Foundation Trust
-location: Luton, LU4 0DZ
-source: NHS Jobs
-job_id: nhs-5576816
 reason: No exact Bedford workplace matched; local geographic review is required.
 ---
 
@@ -114,11 +102,47 @@ reason: No exact Bedford workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Medical Receptionist
+company: Ashcroft Surgery
+location: Leighton Buzzard, LU7 0EN
+source: NHS Jobs
+job_id: nhs-5565873
+reason: No exact Bedford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Medical Receptionist
+company: Salisbury House Surgery
+location: Leighton Buzzard, LU7 1RS
+source: NHS Jobs
+job_id: nhs-5577346
+reason: No exact Bedford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Operations Administrator
 company: Kraft Recruitment - Agency - Permanent
 location: Bedfordshire
 source: JobG8
 job_id: jobg8-23643_225548201
+reason: No exact Bedford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Operations Administrator
+company: Response Personnel - Agency - Permanent
+location: Bedfordshire
+source: JobG8
+job_id: jobg8-1848356
 reason: No exact Bedford workplace matched; local geographic review is required.
 ---
 
@@ -191,6 +215,18 @@ company: Connect2Luton - Agency - Temporary
 location: Bedfordshire
 source: JobG8
 job_id: jobg8-23643_225571114
+reason: No exact Bedford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Scheduling Co-ordinator
+company: Jackie Wilsher Staff Service & Queensway Personnel - Agency - Permanent
+location: Leighton Buzzard
+source: JobG8
+job_id: jobg8-1851583
 reason: No exact Bedford workplace matched; local geographic review is required.
 ---
 

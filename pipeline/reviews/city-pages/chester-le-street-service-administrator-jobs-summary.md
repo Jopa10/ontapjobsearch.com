@@ -78,11 +78,11 @@ reason: No exact Chester Le Street workplace matched; local geographic review is
 action: 
 decision: review
 automatic_decision: review
-title: Administration Assistant
-company: Cumbria, Northumberland, Tyne and wear (CNTW) NHS Foundation Trust
-location: Newcastle Upon Tyne, NE6 4PF
+title: Admin Assistant - Care Home
+company: Barchester Healthcare
+location: Darlington, DL1 1JF
 source: NHS Jobs
-job_id: nhs-5564624
+job_id: nhs-5583602
 reason: No exact Chester Le Street workplace matched; local geographic review is required.
 ---
 
@@ -119,6 +119,18 @@ company: Cumbria, Northumberland, Tyne and wear (CNTW) NHS Foundation Trust
 location: Sunderland, SR5 1NB
 source: NHS Jobs
 job_id: nhs-5580597
+reason: No exact Chester Le Street workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administration Assistant
+company: Cumbria, Northumberland, Tyne and wear (CNTW) NHS Foundation Trust
+location: Ashington, NE63 8BL
+source: NHS Jobs
+job_id: nhs-5584416
 reason: No exact Chester Le Street workplace matched; local geographic review is required.
 ---
 
@@ -203,6 +215,18 @@ company: Age UK County Durham
 location: Age UK County Durham
 source: NEJobs
 job_id: nejobs-301544
+reason: No exact Chester Le Street workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: MTrec Recruitment - Agency - Permanent
+location: Northumberland
+source: JobG8
+job_id: jobg8-1852842
 reason: No exact Chester Le Street workplace matched; local geographic review is required.
 ---
 
@@ -570,11 +594,11 @@ reason: No exact Chester Le Street workplace matched; local geographic review is
 action: 
 decision: review
 automatic_decision: review
-title: Customer Service & Complaints Administrator - Team Valley
-company: Office Angels - Agency - Temporary
-location: Gateshead
+title: Customer Service Administrator
+company: Pertemps Scotland Temps - Agency - Permanent
+location: Tyne And Wear
 source: JobG8
-job_id: jobg8-23643_225474293
+job_id: jobg8-1870957
 reason: No exact Chester Le Street workplace matched; local geographic review is required.
 ---
 
@@ -846,6 +870,18 @@ reason: No exact Chester Le Street workplace matched; local geographic review is
 action: 
 decision: review
 automatic_decision: review
+title: GP Receptionist
+company: Brunton Park Health Centre
+location: Newcastle Upon Tyne, NE3 5NF
+source: NHS Jobs
+job_id: nhs-5583254
+reason: No exact Chester Le Street workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Health & Wellbeing Projects Support Officer
 company: VONNE
 location: Tyne and Wear
@@ -906,47 +942,11 @@ reason: No exact Chester Le Street workplace matched; local geographic review is
 action: 
 decision: review
 automatic_decision: review
-title: Marketing & Events Assistant
-company: Connect Multi-Academy Trust
-location: County Durham
-source: NEJobs
-job_id: nejobs-300955
-reason: No exact Chester Le Street workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Marketing Business Partner
 company: SRG - Agency - Contract
 location: County Durham
 source: JobG8
 job_id: jobg8-23643_225513399
-reason: No exact Chester Le Street workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Marketing Executive
-company: Integral UK Ltd - Company - Permanent
-location: County Durham
-source: JobG8
-job_id: jobg8-107878737
-reason: No exact Chester Le Street workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Marketing Executive
-company: Ronald James Group - Agency - Permanent
-location: Tyne And Wear
-source: JobG8
-job_id: jobg8-107755862
 reason: No exact Chester Le Street workplace matched; local geographic review is required.
 ---
 
@@ -1002,18 +1002,6 @@ reason: No exact Chester Le Street workplace matched; local geographic review is
 action: 
 decision: review
 automatic_decision: review
-title: Medical Receptionist
-company: The Stephenson Medical Practice
-location: Washington, NE37 2PU
-source: NHS Jobs
-job_id: nhs-5556970
-reason: No exact Chester Le Street workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Medical Receptionist/ Admin
 company: Staff Partners Business - Agency - Temporary
 location: Tyne And Wear
@@ -1026,23 +1014,11 @@ reason: No exact Chester Le Street workplace matched; local geographic review is
 action: 
 decision: review
 automatic_decision: review
-title: Order & Delivery Administrator - Temp to Perm - Team Valley
-company: Office Angels - Agency - Permanent
-location: Gateshead
+title: Onboarding Administrator
+company: Nova Care Group - Agency - Permanent
+location: Peterlee
 source: JobG8
-job_id: jobg8-1748505
-reason: No exact Chester Le Street workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Order & Delivery Administrator - Temp to Perm - Team Valley
-company: Office Angels - Agency - Temporary
-location: Gateshead
-source: JobG8
-job_id: jobg8-23643_225474615
+job_id: jobg8-1852656
 reason: No exact Chester Le Street workplace matched; local geographic review is required.
 ---
 
@@ -1062,11 +1038,11 @@ reason: No exact Chester Le Street workplace matched; local geographic review is
 action: 
 decision: review
 automatic_decision: review
-title: PA Support Officer
-company: Darlington Borough Council
-location: Town Hall, Darlington
-source: NEJobs
-job_id: nejobs-300972
+title: PA to the PRINCIPAL & CHIEF EXECUTIVE
+company: Newcastle and Stafford Colleges Group - Agency - Permanent
+location: Newcastle
+source: JobG8
+job_id: jobg8-107910929
 reason: No exact Chester Le Street workplace matched; local geographic review is required.
 ---
 
@@ -1074,11 +1050,11 @@ reason: No exact Chester Le Street workplace matched; local geographic review is
 action: 
 decision: review
 automatic_decision: review
-title: PA to the PRINCIPAL & CHIEF EXECUTIVE
-company: Newcastle and Stafford Colleges Group - Agency - Permanent
-location: Newcastle
+title: Part - Time Administrator - Jarrow - Temporary to Permanent
+company: Office Angels - Agency - Permanent
+location: Jarrow
 source: JobG8
-job_id: jobg8-107910929
+job_id: jobg8-1851578
 reason: No exact Chester Le Street workplace matched; local geographic review is required.
 ---
 
@@ -1255,10 +1231,34 @@ action:
 decision: review
 automatic_decision: review
 title: Shared Services Team Administrator
+company: Shaftesbury - Agency - Permanent
+location: Gateshead
+source: JobG8
+job_id: jobg8-1841563
+reason: No exact Chester Le Street workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Shared Services Team Administrator
 company: Shaftesbury group - Agency - Permanent
 location: Gateshead
 source: JobG8
 job_id: jobg8-23643_225559091
+reason: No exact Chester Le Street workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Site Coordinator
+company: BELCAN - Agency - Permanent
+location: County Durham
+source: JobG8
+job_id: jobg8-1843849
 reason: No exact Chester Le Street workplace matched; local geographic review is required.
 ---
 

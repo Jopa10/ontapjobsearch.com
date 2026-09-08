@@ -4,7 +4,7 @@
 - Live route: `/newcastle/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 56
+- Effective included jobs: 54
 - Threshold currently met: yes
 
 ## How to review
@@ -15,26 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 56
-- automatic review: 31
-- automatic exclude: 25
-- effective include: 56
-- effective review: 31
-- effective exclude: 25
+- automatic include: 54
+- automatic review: 34
+- automatic exclude: 24
+- effective include: 54
+- effective review: 34
+- effective exclude: 24
 
-## INCLUDE (56)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administration Assistant
-company: Cumbria, Northumberland, Tyne and wear (CNTW) NHS Foundation Trust
-location: Newcastle Upon Tyne, NE6 4PF
-source: NHS Jobs
-job_id: nhs-5564624
-reason: Approved Newcastle catchment.
----
+## INCLUDE (54)
 
 ---
 action: 
@@ -388,18 +376,6 @@ reason: Approved Newcastle catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Customer Service & Complaints Administrator - Team Valley
-company: Office Angels - Agency - Temporary
-location: Gateshead
-source: JobG8
-job_id: jobg8-23643_225474293
-reason: Approved Newcastle catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Customer Service Advisor
 company: Anderson Wright Consulting - Agency - Permanent
 location: Newcastle
@@ -568,6 +544,18 @@ reason: Approved Newcastle catchment.
 action: 
 decision: include
 automatic_decision: include
+title: GP Receptionist
+company: Brunton Park Health Centre
+location: Newcastle Upon Tyne, NE3 5NF
+source: NHS Jobs
+job_id: nhs-5583254
+reason: Approved Newcastle catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Home Administrator
 company: Akari Care Limited
 location: Newcastle, NE5 5HQ
@@ -616,30 +604,6 @@ reason: Approved Newcastle catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Order & Delivery Administrator - Temp to Perm - Team Valley
-company: Office Angels - Agency - Permanent
-location: Gateshead
-source: JobG8
-job_id: jobg8-1748505
-reason: Approved Newcastle catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Order & Delivery Administrator - Temp to Perm - Team Valley
-company: Office Angels - Agency - Temporary
-location: Gateshead
-source: JobG8
-job_id: jobg8-23643_225474615
-reason: Approved Newcastle catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: PA to the PRINCIPAL & CHIEF EXECUTIVE
 company: Newcastle and Stafford Colleges Group - Agency - Permanent
 location: Newcastle
@@ -677,6 +641,18 @@ action:
 decision: include
 automatic_decision: include
 title: Shared Services Team Administrator
+company: Shaftesbury - Agency - Permanent
+location: Gateshead
+source: JobG8
+job_id: jobg8-1841563
+reason: Approved Newcastle catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Shared Services Team Administrator
 company: Shaftesbury group - Agency - Permanent
 location: Gateshead
 source: JobG8
@@ -696,7 +672,7 @@ job_id: nhs-5576748
 reason: Approved Newcastle catchment.
 ---
 
-## REVIEW (31)
+## REVIEW (34)
 
 ---
 action: 
@@ -720,6 +696,30 @@ location: Jarrow, NE32 3UX
 source: NHS Jobs
 job_id: nhs-5580407
 reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administration Assistant
+company: Cumbria, Northumberland, Tyne and wear (CNTW) NHS Foundation Trust
+location: Ashington, NE63 8BL
+source: NHS Jobs
+job_id: nhs-5584416
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: MTrec Recruitment - Agency - Permanent
+location: Northumberland
+source: JobG8
+job_id: jobg8-1852842
+reason: No approved Newcastle catchment rule matched; local review required.
 ---
 
 ---
@@ -755,6 +755,18 @@ company: Adjusting Appointments Limited - Agency - Permanent
 location: Tyne And Wear
 source: JobG8
 job_id: jobg8-1785990
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Customer Service Administrator
+company: Pertemps Scotland Temps - Agency - Permanent
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-1870957
 reason: Broad location; review before city inclusion.
 ---
 
@@ -870,35 +882,11 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Marketing Executive
-company: Ronald James Group - Agency - Permanent
-location: Tyne And Wear
-source: JobG8
-job_id: jobg8-107755862
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Medical Administrator
 company: Pelton and Fellrose Medical Group
 location: Chester Le Street, DH2 1HS, Chester Le Street, DH2 2NH
 source: NHS Jobs
 job_id: nhs-3444840
-reason: No approved Newcastle catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Medical Receptionist
-company: The Stephenson Medical Practice
-location: Washington, NE37 2PU
-source: NHS Jobs
-job_id: nhs-5556970
 reason: No approved Newcastle catchment rule matched; local review required.
 ---
 
@@ -918,11 +906,35 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
+title: Onboarding Administrator
+company: Nova Care Group - Agency - Permanent
+location: Peterlee
+source: JobG8
+job_id: jobg8-1852656
+reason: No approved Newcastle catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Outbound Sales Advisor
 company: Gillespie Recruitment Ltd - Agency - Permanent
 location: Stanley
 source: JobG8
 job_id: jobg8-1771745
+reason: No approved Newcastle catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Part - Time Administrator - Jarrow - Temporary to Permanent
+company: Office Angels - Agency - Permanent
+location: Jarrow
+source: JobG8
+job_id: jobg8-1851578
 reason: No approved Newcastle catchment rule matched; local review required.
 ---
 
@@ -1070,7 +1082,7 @@ job_id: vonne-173391
 reason: No approved Newcastle catchment rule matched; local review required.
 ---
 
-## EXCLUDE (25)
+## EXCLUDE (24)
 
 ---
 action: 
@@ -1081,6 +1093,18 @@ company: Sunderland City Council
 location: Sunderland City Council
 source: NEJobs
 job_id: nejobs-301079
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Admin Assistant - Care Home
+company: Barchester Healthcare
+location: Darlington, DL1 1JF
+source: NHS Jobs
+job_id: nhs-5583602
 reason: Separate employment market.
 ---
 
@@ -1196,35 +1220,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Marketing & Events Assistant
-company: Connect Multi-Academy Trust
-location: County Durham
-source: NEJobs
-job_id: nejobs-300955
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Marketing Business Partner
 company: SRG - Agency - Contract
 location: County Durham
 source: JobG8
 job_id: jobg8-23643_225513399
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Marketing Executive
-company: Integral UK Ltd - Company - Permanent
-location: County Durham
-source: JobG8
-job_id: jobg8-107878737
 reason: Separate employment market.
 ---
 
@@ -1249,18 +1249,6 @@ company: The Medical Group
 location: Durham, DH7 8NH
 source: NHS Jobs
 job_id: nhs-5569621
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: PA Support Officer
-company: Darlington Borough Council
-location: Town Hall, Darlington
-source: NEJobs
-job_id: nejobs-300972
 reason: Separate employment market.
 ---
 
@@ -1357,6 +1345,18 @@ company: Durham County Council
 location: Spennymoor, DL16 7JB
 source: NEJobs
 job_id: nejobs-301524
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Site Coordinator
+company: BELCAN - Agency - Permanent
+location: County Durham
+source: JobG8
+job_id: jobg8-1843849
 reason: Separate employment market.
 ---
 

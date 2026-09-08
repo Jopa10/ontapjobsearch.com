@@ -210,18 +210,6 @@ reason: No exact Newtownabbey workplace matched; local geographic review is requ
 action: 
 decision: review
 automatic_decision: review
-title: Clerical Officer
-company: Apple Recruitment Services - Agency - Permanent
-location: Ballymena
-source: JobG8
-job_id: jobg8-2048412
-reason: No exact Newtownabbey workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Clerical Officers
 company: CCEA - Agency - Permanent
 location: Belfast
@@ -671,6 +659,18 @@ company: Brook Street UK - Agency - Permanent
 location: Ballyclare
 source: JobG8
 job_id: jobg8-107922303
+reason: No exact Newtownabbey workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Sales Ledger Accounts Assistant
+company: Reed Specialist Recruitment - Agency - Permanent
+location: Belfast
+source: JobG8
+job_id: jobg8-2052044
 reason: No exact Newtownabbey workplace matched; local geographic review is required.
 ---
 

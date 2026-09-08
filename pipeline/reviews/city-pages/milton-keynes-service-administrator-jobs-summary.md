@@ -4,7 +4,7 @@
 - Live route: `/milton-keynes/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 8
+- Effective included jobs: 10
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 8
-- automatic review: 40
+- automatic include: 10
+- automatic review: 42
 - automatic exclude: 0
-- effective include: 8
-- effective review: 40
+- effective include: 10
+- effective review: 42
 - effective exclude: 0
 
-## INCLUDE (8)
+## INCLUDE (10)
 
 ---
 action: 
@@ -88,6 +88,18 @@ reason: Exact approved Milton Keynes workplace.
 action: 
 decision: include
 automatic_decision: include
+title: Internal Sales Co-ordinator
+company: WSR (Working Solutions Recruitment Services) - Agency - Permanent
+location: Milton Keynes
+source: JobG8
+job_id: jobg8-1856851
+reason: Exact approved Milton Keynes workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Product Content Creator Photography & Videography
 company: Synergy Plus Recruitment Ltd - Agency - Permanent
 location: Milton Keynes
@@ -112,6 +124,18 @@ reason: Exact approved Milton Keynes workplace.
 action: 
 decision: include
 automatic_decision: include
+title: Receptionist
+company: Scania (Great Britain) Limited - Agency - Permanent
+location: Milton Keynes
+source: JobG8
+job_id: jobg8-1850649
+reason: Exact approved Milton Keynes workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Service Delivery Coordinator
 company: BSI - Agency - Permanent
 location: Milton Keynes
@@ -120,7 +144,7 @@ job_id: jobg8-23643_225522682
 reason: Exact approved Milton Keynes workplace.
 ---
 
-## REVIEW (40)
+## REVIEW (42)
 
 ---
 action: 
@@ -234,6 +258,18 @@ reason: No exact Milton Keynes workplace matched; local geographic review is req
 action: 
 decision: review
 automatic_decision: review
+title: Administrator (Maternity Cover)
+company: Optima - Agency - Permanent
+location: Buckinghamshire
+source: JobG8
+job_id: jobg8-1850450
+reason: No exact Milton Keynes workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Associate Brand Manager
 company: Zenopa - Agency - Permanent
 location: Bourne End
@@ -318,6 +354,18 @@ reason: No exact Milton Keynes workplace matched; local geographic review is req
 action: 
 decision: review
 automatic_decision: review
+title: Customer Care Coordinator
+company: A.D.S CONSTRUCTION PERSONNEL LTD - Agency - Permanent
+location: Buckinghamshire
+source: JobG8
+job_id: jobg8-1710374
+reason: No exact Milton Keynes workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Customer Marketing Manager - Maternity Cover
 company: Association For Project Management - Agency - Contract
 location: Buckinghamshire
@@ -391,6 +439,18 @@ action:
 decision: review
 automatic_decision: review
 title: Events Coordinator
+company: Adecco - Agency - Permanent
+location: Buckinghamshire
+source: JobG8
+job_id: jobg8-1841488
+reason: No exact Milton Keynes workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Events Coordinator
 company: Adecco - Agency - Temporary
 location: Buckinghamshire
 source: JobG8
@@ -419,18 +479,6 @@ company: Chiltern Way Academy Trust
 location: Aylesbury
 source: Teaching Vacancies
 job_id: teaching-vacancies-examinations-officer-aeb29f97-ce81-41ec-8b38-81ed01e3315f
-reason: No exact Milton Keynes workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Field Services Coordinator
-company: IMServ Europe Ltd - Agency - Permanent
-location: Buckinghamshire
-source: JobG8
-job_id: jobg8-23643_225473506
 reason: No exact Milton Keynes workplace matched; local geographic review is required.
 ---
 

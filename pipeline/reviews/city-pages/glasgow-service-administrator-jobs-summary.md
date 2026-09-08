@@ -4,7 +4,7 @@
 - Live route: `/glasgow/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 15
+- Effective included jobs: 16
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 15
+- automatic include: 16
 - automatic review: 0
 - automatic exclude: 0
-- effective include: 15
+- effective include: 16
 - effective review: 0
 - effective exclude: 0
 
-## INCLUDE (15)
+## INCLUDE (16)
 
 ---
 action: 
@@ -64,18 +64,6 @@ reason: Approved conservative Glasgow launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Call Centre Operator
-company: EE - Company - Permanent
-location: Glasgow
-source: JobG8
-job_id: jobg8-21618_20279_61754-73862c8b83139033e4e4a8b6efca9a33
-reason: Approved conservative Glasgow launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Claims Handler
 company: Recruit Ins Ltd - Agency - Permanent
 location: Glasgow
@@ -88,11 +76,11 @@ reason: Approved conservative Glasgow launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Clerical Assistant
-company: Hays Accounts and Finance - Agency - Temporary
+title: Claims Handler (FTC)
+company: SGN - Agency - Permanent
 location: Glasgow
 source: JobG8
-job_id: jobg8-23643_225505549
+job_id: jobg8-1860279
 reason: Approved conservative Glasgow launch catchment.
 ---
 
@@ -100,11 +88,11 @@ reason: Approved conservative Glasgow launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Customer Service Advisor
-company: EE - Company - Permanent
+title: Clerical Assistant
+company: Hays Accounts and Finance - Agency - Temporary
 location: Glasgow
 source: JobG8
-job_id: jobg8-21618_20279_61754-153faf593eb64b88272f45adeaa28d87
+job_id: jobg8-23643_225505549
 reason: Approved conservative Glasgow launch catchment.
 ---
 
@@ -129,6 +117,18 @@ company: QA - Agency - Permanent
 location: Glasgow
 source: JobG8
 job_id: jobg8-1706400
+reason: Approved conservative Glasgow launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: EXECUTIVE ASSISTANT
+company: Talent Sure Recruitment Limited - Agency - Permanent
+location: Glasgow
+source: JobG8
+job_id: jobg8-1853618
 reason: Approved conservative Glasgow launch catchment.
 ---
 
@@ -201,6 +201,18 @@ company: VIA MATCH LIMITED - Agency - Permanent
 location: Glasgow
 source: JobG8
 job_id: jobg8-1770972
+reason: Approved conservative Glasgow launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Telecoms Project Coordinator
+company: RocketRecruit Ltd T/A Hire and Hire - Agency - Permanent
+location: Glasgow
+source: JobG8
+job_id: jobg8-1847987
 reason: Approved conservative Glasgow launch catchment.
 ---
 

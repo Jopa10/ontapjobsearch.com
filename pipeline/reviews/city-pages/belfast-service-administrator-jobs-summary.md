@@ -4,7 +4,7 @@
 - Live route: `/belfast/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 38
+- Effective included jobs: 39
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 38
-- automatic review: 24
+- automatic include: 39
+- automatic review: 23
 - automatic exclude: 0
-- effective include: 38
-- effective review: 24
+- effective include: 39
+- effective review: 23
 - effective exclude: 0
 
-## INCLUDE (38)
+## INCLUDE (39)
 
 ---
 action: 
@@ -400,6 +400,18 @@ reason: Approved conservative Belfast launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Sales Ledger Accounts Assistant
+company: Reed Specialist Recruitment - Agency - Permanent
+location: Belfast
+source: JobG8
+job_id: jobg8-2052044
+reason: Approved conservative Belfast launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Sales Support Admin (Maternity Cover)
 company: Honeycomb Jobs Ltd - Agency - Permanent
 location: Belfast
@@ -480,7 +492,7 @@ job_id: jobg8-2051377
 reason: Approved conservative Belfast launch catchment.
 ---
 
-## REVIEW (24)
+## REVIEW (23)
 
 ---
 action: 
@@ -539,18 +551,6 @@ company: MCS Group - Agency - Permanent
 location: Lisburn
 source: JobG8
 job_id: jobg8-2051831
-reason: No approved Belfast catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Clerical Officer
-company: Apple Recruitment Services - Agency - Permanent
-location: Ballymena
-source: JobG8
-job_id: jobg8-2048412
 reason: No approved Belfast catchment rule matched; local review required.
 ---
 

@@ -4,7 +4,7 @@
 - Live route: `/coventry/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 6
+- Effective included jobs: 8
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 6
-- automatic review: 5
-- automatic exclude: 17
-- effective include: 6
-- effective review: 5
-- effective exclude: 17
+- automatic include: 8
+- automatic review: 4
+- automatic exclude: 18
+- effective include: 8
+- effective review: 4
+- effective exclude: 18
 
-## INCLUDE (6)
+## INCLUDE (8)
 
 ---
 action: 
@@ -33,6 +33,18 @@ company: Spider - Agency - Permanent
 location: Coventry
 source: JobG8
 job_id: jobg8-23643_225497892
+reason: Approved Coventry catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: HR & Recruitment Coordinator
+company: Gleeson Recruitment Group - Agency - Permanent
+location: Coventry
+source: JobG8
+job_id: jobg8-1869638
 reason: Approved Coventry catchment.
 ---
 
@@ -57,6 +69,18 @@ company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Coventry
 source: JobG8
 job_id: jobg8-1800544
+reason: Approved Coventry catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Receptionist
+company: Adecco - Agency - Permanent
+location: Coventry
+source: JobG8
+job_id: jobg8-1859565
 reason: Approved Coventry catchment.
 ---
 
@@ -96,7 +120,7 @@ job_id: jobg8-23643_225516949
 reason: Approved Coventry catchment.
 ---
 
-## REVIEW (5)
+## REVIEW (4)
 
 ---
 action: 
@@ -138,18 +162,6 @@ reason: No approved Coventry catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Receptionist and Administrator FTC contract September - December 2026
-company: Kenilworth School and Sixth Form
-location: Kenilworth
-source: Teaching Vacancies
-job_id: teaching-vacancies-receptionist-and-administrator-ftc-contract-september-december-2026-kenilworth-school-and-sixth-form-kenilworth
-reason: No approved Coventry catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Temp Administrator
 company: Brellis Recruitment - Agency - Permanent
 location: Southam
@@ -158,7 +170,7 @@ job_id: jobg8-23643_225533754
 reason: No approved Coventry catchment rule matched; local review required.
 ---
 
-## EXCLUDE (17)
+## EXCLUDE (18)
 
 ---
 action: 
@@ -169,6 +181,30 @@ company: Proprec - Agency - Permanent
 location: Warwick
 source: JobG8
 job_id: jobg8-1744021
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Administrator
+company: Candidate Source Ltd - Agency - Permanent
+location: Rugby
+source: JobG8
+job_id: jobg8-1859559
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Customer Service Advisor
+company: Reed - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-1843252
 reason: Separate employment market.
 ---
 
@@ -224,18 +260,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: HR Assistant
-company: Bell Cornwall Recruitment - Agency - Permanent
-location: Warwickshire
-source: JobG8
-job_id: jobg8-23643_225473970
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: HR Coordinator (2-Month Temporary Contract)
 company: Arden Personnel - Agency - Contract
 location: Warwickshire
@@ -273,6 +297,18 @@ action:
 decision: exclude
 automatic_decision: exclude
 title: Personal Assistant
+company: Opus People Solutions - Agency - Permanent
+location: Rugby
+source: JobG8
+job_id: jobg8-1845083
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Personal Assistant
 company: Opus People Solutions Ltd - Agency - Temporary
 location: Rugby
 source: JobG8
@@ -289,18 +325,6 @@ company: Oak Wood Secondary School
 location: Nuneaton
 source: Teaching Vacancies
 job_id: teaching-vacancies-personal-assistant-pa-to-the-headteachers-oak-wood-schools
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Recruitment Account Coordinator
-company: Winner Recruitment - Agency - Permanent
-location: Rugby
-source: JobG8
-job_id: jobg8-107840991
 reason: Separate employment market.
 ---
 

@@ -4,8 +4,8 @@
 - Live route: `/southampton/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 5
-- Threshold currently met: no
+- Effective included jobs: 7
+- Threshold currently met: yes
 
 ## How to review
 Edit only the `action:` line inside a job block.
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 5
-- automatic review: 49
-- automatic exclude: 21
-- effective include: 5
-- effective review: 49
-- effective exclude: 21
+- automatic include: 7
+- automatic review: 50
+- automatic exclude: 23
+- effective include: 7
+- effective review: 50
+- effective exclude: 23
 
-## INCLUDE (5)
+## INCLUDE (7)
 
 ---
 action: 
@@ -45,6 +45,18 @@ company: Davies Turner - Agency - Permanent
 location: Southampton
 source: JobG8
 job_id: jobg8-107799067
+reason: Approved Southampton catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Executive Assistant
+company: Dynamite Recruitment Solutions Ltd - Agency - Permanent
+location: Southampton
+source: JobG8
+job_id: jobg8-1858220
 reason: Approved Southampton catchment.
 ---
 
@@ -76,6 +88,18 @@ reason: Approved Southampton catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Project Document Controller
+company: Octagon Group - Agency - Permanent
+location: Southampton
+source: JobG8
+job_id: jobg8-23643_225576097
+reason: Approved Southampton catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Receptionist
 company: Wildern School
 location: Southampton
@@ -84,7 +108,7 @@ job_id: teaching-vacancies-receptionist-1dcaf299-1719-4cef-a999-af235a29010e
 reason: Approved Southampton catchment.
 ---
 
-## REVIEW (49)
+## REVIEW (50)
 
 ---
 action: 
@@ -143,6 +167,18 @@ company: Office Angels - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-1743458
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: Rubicon Recruitment - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-1856451
 reason: Broad location; review before city inclusion.
 ---
 
@@ -222,6 +258,18 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
+title: Coordinator - Property Services
+company: SNG (Sovereign Network Group) - Agency - Permanent
+location: Isle of Wight
+source: JobG8
+job_id: jobg8-1868294
+reason: No approved Southampton catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Customer Service Administrator
 company: Recruitment Helpline - Agency - Permanent
 location: Hampshire
@@ -247,18 +295,6 @@ action:
 decision: review
 automatic_decision: review
 title: Customer Service Advisor
-company: Dynamite Recruitment Solutions Ltd - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-1786682
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Customer Service Advisor
 company: South West Recruitment Ltd - Agency - Permanent
 location: Ringwood
 source: JobG8
@@ -271,10 +307,34 @@ action:
 decision: review
 automatic_decision: review
 title: Customer Service Advisor
+company: Tate - Agency - Temporary
+location: Hampshire
+source: JobG8
+job_id: jobg8-23643_225576273
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Customer Service Advisor
 company: TCC Group - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-1770069
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Customer Service Advisor (Part Time FTC)
+company: Liberty Group - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-1870983
 reason: Broad location; review before city inclusion.
 ---
 
@@ -378,30 +438,6 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Medical Affairs Coordinator (IIR)
-company: Entrust Resource Solutions - Agency - Temporary
-location: Hampshire
-source: JobG8
-job_id: jobg8-23643_225474596
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Onboarding Administrator
-company: Matchtech - Agency - Contract
-location: Hampshire
-source: JobG8
-job_id: jobg8-23643_225472187
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Operations Administrator
 company: wild recruitment - Agency - Permanent
 location: Hampshire
@@ -498,11 +534,11 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Receptionist - Part Time
-company: Office Angels - Agency - Permanent
+title: Receptionist
+company: Reed - Agency - Permanent
 location: Hampshire
 source: JobG8
-job_id: jobg8-1751725
+job_id: jobg8-1853643
 reason: Broad location; review before city inclusion.
 ---
 
@@ -510,11 +546,23 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Receptionist - Part Time
-company: Office Angels - Agency - Permanent
+title: Receptionist
+company: Reed - Agency - Permanent
 location: Hampshire
 source: JobG8
-job_id: jobg8-23643_225472592
+job_id: jobg8-1853647
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Receptionist / Administrator
+company: AWD online - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-1852427
 reason: Broad location; review before city inclusion.
 ---
 
@@ -539,18 +587,6 @@ company: Percival Aviation - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-107821073
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Sales Coordinator
-company: Percival Aviation - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-23643_225476353
 reason: Broad location; review before city inclusion.
 ---
 
@@ -674,7 +710,7 @@ job_id: jobg8-1733980
 reason: Broad location; review before city inclusion.
 ---
 
-## EXCLUDE (21)
+## EXCLUDE (23)
 
 ---
 action: 
@@ -685,6 +721,18 @@ company: Barchester Healthcare
 location: Fareham, PO14 2NF
 source: NHS Jobs
 job_id: nhs-5522934
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Administrator
+company: Dynamite Recruitment Solutions Ltd - Agency - Permanent
+location: Portsmouth
+source: JobG8
+job_id: jobg8-1853510
 reason: Separate employment market.
 ---
 
@@ -800,6 +848,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Graduate Client Service Administrator
+company: Reed - Agency - Permanent
+location: Farnborough
+source: JobG8
+job_id: jobg8-1849422
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: HR Assistant
 company: Reed - Agency - Permanent
 location: Portsmouth
@@ -836,11 +896,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Planner
-company: Dynamite Recruitment - Agency - Permanent
-location: Eastleigh
+title: Office Administrators
+company: Lloyd Recruitment Services Ltd - Agency - Permanent
+location: Portsmouth
 source: JobG8
-job_id: jobg8-23643_225497761
+job_id: jobg8-1851869
 reason: Separate employment market.
 ---
 
@@ -848,11 +908,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Production Planning Administrator
-company: Workshop Recruitment - Agency - Permanent
-location: Portsmouth
+title: Planner
+company: Dynamite Recruitment - Agency - Permanent
+location: Eastleigh
 source: JobG8
-job_id: jobg8-23643_225472206
+job_id: jobg8-23643_225497761
 reason: Separate employment market.
 ---
 

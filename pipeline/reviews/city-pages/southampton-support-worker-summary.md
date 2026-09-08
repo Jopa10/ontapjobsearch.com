@@ -4,7 +4,7 @@
 - Live route: `/southampton/support-worker`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 4
+- Effective included jobs: 3
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 4
-- automatic review: 3
+- automatic include: 3
+- automatic review: 4
 - automatic exclude: 1
-- effective include: 4
-- effective review: 3
+- effective include: 3
+- effective review: 4
 - effective exclude: 1
 
-## INCLUDE (4)
+## INCLUDE (3)
 
 ---
 action: 
@@ -60,19 +60,19 @@ job_id: jobg8-1858493
 reason: Approved Southampton catchment.
 ---
 
+## REVIEW (4)
+
 ---
 action: 
-decision: include
-automatic_decision: include
-title: Waking Night Support Worker
-company: The Society of St James - Agency - Permanent
-location: Southampton
+decision: review
+automatic_decision: review
+title: Care and Support Worker
+company: Southern Housing - Agency - Permanent
+location: Ryde
 source: JobG8
-job_id: jobg8-1663151
-reason: Approved Southampton catchment.
+job_id: jobg8-107947536
+reason: No approved Southampton catchment rule matched; local review required.
 ---
-
-## REVIEW (3)
 
 ---
 action: 

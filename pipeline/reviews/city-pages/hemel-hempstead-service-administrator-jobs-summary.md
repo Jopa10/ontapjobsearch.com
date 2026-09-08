@@ -4,7 +4,7 @@
 - Live route: `/hemel-hempstead/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 6
+- Effective included jobs: 7
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 6
-- automatic review: 44
+- automatic include: 7
+- automatic review: 50
 - automatic exclude: 0
-- effective include: 6
-- effective review: 44
+- effective include: 7
+- effective review: 50
 - effective exclude: 0
 
-## INCLUDE (6)
+## INCLUDE (7)
 
 ---
 action: 
@@ -76,6 +76,18 @@ reason: Exact approved Hemel Hempstead workplace.
 action: 
 decision: include
 automatic_decision: include
+title: Resales Administrator
+company: Trinity Estates - Agency - Permanent
+location: Hemel Hempstead
+source: JobG8
+job_id: jobg8-1856558
+reason: Exact approved Hemel Hempstead workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Sales Vehicle Administrator
 company: Accountancy Action - Agency - Permanent
 location: Hemel Hempstead
@@ -96,7 +108,7 @@ job_id: jobg8-107891184
 reason: Exact approved Hemel Hempstead workplace.
 ---
 
-## REVIEW (44)
+## REVIEW (50)
 
 ---
 action: 
@@ -127,10 +139,34 @@ action:
 decision: review
 automatic_decision: review
 title: Administrator
+company: Hertfordshire Community NHS Trust
+location: Bishop's Stortford, CM23 5JH
+source: NHS Jobs
+job_id: nhs-5581560
+reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
 company: Mission 4 Recruitment - Agency - Permanent
 location: Hertfordshire
 source: JobG8
 job_id: jobg8-23643_225565093
+reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: Mission 4 Recruitment Ltd - Agency - Permanent
+location: Hertfordshire
+source: JobG8
+job_id: jobg8-1849468
 reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
 ---
 
@@ -239,6 +275,18 @@ company: Trinity Estates - Agency - Permanent
 location: Hertfordshire
 source: JobG8
 job_id: jobg8-107882047
+reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Contracts Administrator
+company: TRS Staffing Solutions - Agency - Contract
+location: Royston
+source: JobG8
+job_id: jobg8-107580099
 reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
 ---
 
@@ -450,6 +498,18 @@ reason: No exact Hemel Hempstead workplace matched; local geographic review is r
 action: 
 decision: review
 automatic_decision: review
+title: Operations Administrator
+company: Cella Recruitment - Agency - Permanent
+location: Watford
+source: JobG8
+job_id: jobg8-1841567
+reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Operations Business Support Coordinator
 company: Hales Group - Agency - Permanent
 location: Hertfordshire
@@ -474,6 +534,18 @@ reason: No exact Hemel Hempstead workplace matched; local geographic review is r
 action: 
 decision: review
 automatic_decision: review
+title: Order Processing Coordinator
+company: Eclectic Recruitment - Agency - Permanent
+location: Hertfordshire
+source: JobG8
+job_id: jobg8-1844990
+reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Pastoral Administrator
 company: Croxley Danes School
 location: Rickmansworth
@@ -491,6 +563,18 @@ company: Bishop's Hatfield Girls' School
 location: Hatfield
 source: Teaching Vacancies
 job_id: teaching-vacancies-personal-assistant-to-the-headteacher-and-senior-leadership-team
+reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Receptionist
+company: Huntress - Agency - Permanent
+location: Hertfordshire
+source: JobG8
+job_id: jobg8-1849417
 reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
 ---
 
@@ -606,11 +690,11 @@ reason: No exact Hemel Hempstead workplace matched; local geographic review is r
 action: 
 decision: review
 automatic_decision: review
-title: Temporary Receptionist
-company: Office Angels - Agency - Permanent
-location: Bishop'S Stortford
+title: Technical Administrator
+company: Impellam - Agency - Permanent
+location: Hertfordshire
 source: JobG8
-job_id: jobg8-1749312
+job_id: jobg8-1852031
 reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
 ---
 
@@ -618,11 +702,11 @@ reason: No exact Hemel Hempstead workplace matched; local geographic review is r
 action: 
 decision: review
 automatic_decision: review
-title: Temporary Receptionist
-company: Office Angels - Agency - Temporary
-location: Bishop'S Stortford
+title: Technical Administrator - C&M
+company: Morson Edge - Agency - Permanent
+location: Hertfordshire
 source: JobG8
-job_id: jobg8-23643_225476681
+job_id: jobg8-1851459
 reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
 ---
 

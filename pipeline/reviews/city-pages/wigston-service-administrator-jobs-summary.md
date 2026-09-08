@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 4
-- automatic review: 23
+- automatic review: 28
 - automatic exclude: 0
 - effective include: 4
-- effective review: 23
+- effective review: 28
 - effective exclude: 0
 
 ## INCLUDE (4)
@@ -72,7 +72,7 @@ job_id: jobg8-23643_225514239
 reason: Exact approved Wigston workplace.
 ---
 
-## REVIEW (23)
+## REVIEW (28)
 
 ---
 action: 
@@ -115,10 +115,46 @@ action:
 decision: review
 automatic_decision: review
 title: administrator
+company: Randstad Construction & Property - Agency - Permanent
+location: Coalville
+source: JobG8
+job_id: jobg8-1855634
+reason: No exact Wigston workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: administrator
 company: Randstad Construction and Property - Agency - Contract
 location: Coalville
 source: JobG8
 job_id: jobg8-23643_225568806
+reason: No exact Wigston workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: Windmill Recruitment Ltd - Agency - Permanent
+location: Leicester
+source: JobG8
+job_id: jobg8-23643_225575387
+reason: No exact Wigston workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator (Construction)
+company: Ernest Gordon Recruitment Limited - Agency - Permanent
+location: Leicestershire
+source: JobG8
+job_id: jobg8-1847641
 reason: No exact Wigston workplace matched; local geographic review is required.
 ---
 
@@ -282,18 +318,6 @@ reason: No exact Wigston workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Procurement Assistant
-company: SF Partners - Agency - Permanent
-location: Leicestershire
-source: JobG8
-job_id: jobg8-23643_225473028
-reason: No exact Wigston workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Receptionist
 company: Sherrier Church of England Primary School
 location: Lutterworth
@@ -306,11 +330,47 @@ reason: No exact Wigston workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Sales Administrator - fully remote
+company: Landers Recruitment Ltd - Agency - Permanent
+location: Leicestershire
+source: JobG8
+job_id: jobg8-1843237
+reason: No exact Wigston workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Sales Coordinator
+company: Reed - Agency - Permanent
+location: Leicestershire
+source: JobG8
+job_id: jobg8-1849430
+reason: No exact Wigston workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Salesforce Analyst / Administrator - Hybrid - Brand new opportunity
 company: Cyber Talent Limited - Agency - Permanent
 location: Leicestershire
 source: JobG8
 job_id: jobg8-107851741
+reason: No exact Wigston workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Technical Administrator
+company: Reed - Agency - Permanent
+location: Leicestershire
+source: JobG8
+job_id: jobg8-1847952
 reason: No exact Wigston workplace matched; local geographic review is required.
 ---
 

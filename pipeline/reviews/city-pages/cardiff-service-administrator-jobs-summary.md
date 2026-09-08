@@ -4,7 +4,7 @@
 - Live route: `/cardiff/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 10
+- Effective included jobs: 11
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 10
+- automatic include: 11
 - automatic review: 1
 - automatic exclude: 0
-- effective include: 10
+- effective include: 11
 - effective review: 1
 - effective exclude: 0
 
-## INCLUDE (10)
+## INCLUDE (11)
 
 ---
 action: 
@@ -117,6 +117,18 @@ company: Oakmoor Recruitment limited - Agency - Permanent
 location: Cardiff
 source: JobG8
 job_id: jobg8-1769444
+reason: Approved conservative Cardiff launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Sales Support Administrator
+company: Huntress - Agency - Permanent
+location: Cardiff
+source: JobG8
+job_id: jobg8-1850451
 reason: Approved conservative Cardiff launch catchment.
 ---
 

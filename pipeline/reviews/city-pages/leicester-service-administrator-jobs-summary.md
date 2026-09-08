@@ -4,7 +4,7 @@
 - Live route: `/leicester/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 4
+- Effective included jobs: 5
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,26 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 4
-- automatic review: 23
+- automatic include: 5
+- automatic review: 27
 - automatic exclude: 0
-- effective include: 4
-- effective review: 23
+- effective include: 5
+- effective review: 27
 - effective exclude: 0
 
-## INCLUDE (4)
+## INCLUDE (5)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administrator
+company: Windmill Recruitment Ltd - Agency - Permanent
+location: Leicester
+source: JobG8
+job_id: jobg8-23643_225575387
+reason: Exact approved Leicester workplace.
+---
 
 ---
 action: 
@@ -72,7 +84,7 @@ job_id: nhs-5560932
 reason: Exact approved Leicester workplace.
 ---
 
-## REVIEW (23)
+## REVIEW (27)
 
 ---
 action: 
@@ -115,10 +127,34 @@ action:
 decision: review
 automatic_decision: review
 title: administrator
+company: Randstad Construction & Property - Agency - Permanent
+location: Coalville
+source: JobG8
+job_id: jobg8-1855634
+reason: No exact Leicester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: administrator
 company: Randstad Construction and Property - Agency - Contract
 location: Coalville
 source: JobG8
 job_id: jobg8-23643_225568806
+reason: No exact Leicester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator (Construction)
+company: Ernest Gordon Recruitment Limited - Agency - Permanent
+location: Leicestershire
+source: JobG8
+job_id: jobg8-1847641
 reason: No exact Leicester workplace matched; local geographic review is required.
 ---
 
@@ -294,18 +330,6 @@ reason: No exact Leicester workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Procurement Assistant
-company: SF Partners - Agency - Permanent
-location: Leicestershire
-source: JobG8
-job_id: jobg8-23643_225473028
-reason: No exact Leicester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Receptionist
 company: Sherrier Church of England Primary School
 location: Lutterworth
@@ -318,11 +342,47 @@ reason: No exact Leicester workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
+title: Sales Administrator - fully remote
+company: Landers Recruitment Ltd - Agency - Permanent
+location: Leicestershire
+source: JobG8
+job_id: jobg8-1843237
+reason: No exact Leicester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Sales Coordinator
+company: Reed - Agency - Permanent
+location: Leicestershire
+source: JobG8
+job_id: jobg8-1849430
+reason: No exact Leicester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Salesforce Analyst / Administrator - Hybrid - Brand new opportunity
 company: Cyber Talent Limited - Agency - Permanent
 location: Leicestershire
 source: JobG8
 job_id: jobg8-107851741
+reason: No exact Leicester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Technical Administrator
+company: Reed - Agency - Permanent
+location: Leicestershire
+source: JobG8
+job_id: jobg8-1847952
 reason: No exact Leicester workplace matched; local geographic review is required.
 ---
 

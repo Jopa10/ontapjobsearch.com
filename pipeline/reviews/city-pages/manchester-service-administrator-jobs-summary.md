@@ -4,7 +4,7 @@
 - Live route: `/manchester/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 52
+- Effective included jobs: 51
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,26 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 52
+- automatic include: 51
 - automatic review: 6
-- automatic exclude: 5
-- effective include: 52
+- automatic exclude: 4
+- effective include: 51
 - effective review: 6
-- effective exclude: 5
+- effective exclude: 4
 
-## INCLUDE (52)
+## INCLUDE (51)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Accounts Assistant
+company: Michael Page - Agency - Temporary
+location: Manchester
+source: JobG8
+job_id: jobg8-23643_225575051
+reason: Approved conservative Manchester launch catchment.
+---
 
 ---
 action: 
@@ -40,11 +52,11 @@ reason: Approved conservative Manchester launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Administrative Assistant
-company: Manchester University NHS Foundation Trust
-location: Manchester, M13 9WL
-source: NHS Jobs
-job_id: nhs-5560541
+title: Administrator
+company: Barnardos - Agency - Permanent
+location: Manchester
+source: JobG8
+job_id: jobg8-1843883
 reason: Approved conservative Manchester launch catchment.
 ---
 
@@ -136,18 +148,6 @@ reason: Approved conservative Manchester launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Continuous Improvement Coordinator
-company: GXO Logistics - Company - Permanent
-location: Manchester
-source: JobG8
-job_id: jobg8-1800643
-reason: Approved conservative Manchester launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Credit Hire Claims Handler
 company: TIME Appointments Ltd - Agency - Permanent
 location: Manchester
@@ -196,18 +196,6 @@ reason: Approved conservative Manchester launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Direct Marketing Executive
-company: Vermelo - Agency - Permanent
-location: Manchester
-source: JobG8
-job_id: jobg8-107890476
-reason: Approved conservative Manchester launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Ecommerce Executive
 company: Zachary Daniels Recruitment - Agency - Permanent
 location: Manchester
@@ -220,11 +208,11 @@ reason: Approved conservative Manchester launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Finance Assistant (Temp To Perm)
-company: Axon Moore - Agency - Contract
+title: Executive Assistant
+company: James Andrew Recruitment Solutions (JAR Solutions) - Agency - Permanent
 location: Manchester
 source: JobG8
-job_id: jobg8-23643_225477091
+job_id: jobg8-1852578
 reason: Approved conservative Manchester launch catchment.
 ---
 
@@ -268,18 +256,6 @@ reason: Approved conservative Manchester launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: HR Administrator
-company: LCJ - Agency - Permanent
-location: Manchester
-source: JobG8
-job_id: jobg8-23643_225475953
-reason: Approved conservative Manchester launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Internal Sales Support
 company: Jobwise Ltd - Agency - Permanent
 location: Manchester
@@ -309,18 +285,6 @@ company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Manchester
 source: JobG8
 job_id: jobg8-1785916
-reason: Approved conservative Manchester launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Lettings Administrator
-company: The People Pod - Agency - Permanent
-location: Manchester
-source: JobG8
-job_id: jobg8-23643_225474957
 reason: Approved conservative Manchester launch catchment.
 ---
 
@@ -484,11 +448,35 @@ reason: Approved conservative Manchester launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Receptionist
+company: Hays Specialist Recruitment Limited - Agency - Permanent
+location: Manchester
+source: JobG8
+job_id: jobg8-1848634
+reason: Approved conservative Manchester launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Remote Online Paid Research Panelist (Part-Time) - Data Entry Clerk Welcome
 company: Apex Focus Group - Agency - Permanent
 location: Manchester
 source: JobG8
 job_id: jobg8-1763900
+reason: Approved conservative Manchester launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Sales Administrator - fully remote
+company: Landers Recruitment Ltd - Agency - Permanent
+location: Manchester
+source: JobG8
+job_id: jobg8-1843218
 reason: Approved conservative Manchester launch catchment.
 ---
 
@@ -532,23 +520,11 @@ reason: Approved conservative Manchester launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Senior Marketing Executive
-company: Michael Page - Agency - Permanent
-location: Manchester
-source: JobG8
-job_id: jobg8-23643_225535709
-reason: Approved conservative Manchester launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Senior PPC Strategist
-company: We Are Fr Group - Agency - Permanent
-location: Manchester
-source: JobG8
-job_id: jobg8-107934873
+title: Senior Administration Assistant
+company: The Christie NHS FT
+location: Manchester, M20 4BX
+source: NHS Jobs
+job_id: nhs-5550785
 reason: Approved conservative Manchester launch catchment.
 ---
 
@@ -609,6 +585,18 @@ company: Hamilton Woods - Agency - Permanent
 location: Manchester
 source: JobG8
 job_id: jobg8-1789910
+reason: Approved conservative Manchester launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Team Administrator
+company: Greater Manchester Mental Health NHS Foundation Trust
+location: manchester, M9 8GQ
+source: NHS Jobs
+job_id: nhs-5580501
 reason: Approved conservative Manchester launch catchment.
 ---
 
@@ -722,7 +710,7 @@ job_id: jobg8-1769343
 reason: No approved Manchester catchment rule matched; local review required.
 ---
 
-## EXCLUDE (5)
+## EXCLUDE (4)
 
 ---
 action: 
@@ -746,18 +734,6 @@ location: Salford
 source: JobG8
 job_id: jobg8-1733275
 reason: Separate exact-city market at launch.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Receptionist
-company: SSP Health
-location: Tyldesley, M29 8AX, MANCHESTER, M46 0LE
-source: NHS Jobs
-job_id: nhs-5543726
-reason: Outside the conservative exact-city launch catchment.
 ---
 
 ---

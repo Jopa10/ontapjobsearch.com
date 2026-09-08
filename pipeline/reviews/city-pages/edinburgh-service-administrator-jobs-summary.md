@@ -4,7 +4,7 @@
 - Live route: `/edinburgh/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 11
+- Effective included jobs: 13
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 11
+- automatic include: 13
 - automatic review: 1
 - automatic exclude: 0
-- effective include: 11
+- effective include: 13
 - effective review: 1
 - effective exclude: 0
 
-## INCLUDE (11)
+## INCLUDE (13)
 
 ---
 action: 
@@ -33,6 +33,30 @@ company: Pertemps Scotland Temps - Agency - Permanent
 location: Edinburgh
 source: JobG8
 job_id: jobg8-1787097
+reason: Approved conservative Edinburgh launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Corporate Receptionist & Administrator
+company: Search Consultancy Ltd - Agency - Contract
+location: Edinburgh
+source: JobG8
+job_id: jobg8-23643_225574450
+reason: Approved conservative Edinburgh launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Dutch Speaking Customer Service Advisor
+company: CCA Recruitment Group - Agency - Permanent
+location: Edinburgh
+source: JobG8
+job_id: jobg8-23643_225575597
 reason: Approved conservative Edinburgh launch catchment.
 ---
 
@@ -57,18 +81,6 @@ company: Thornbury Recruitment Ltd - Agency - Permanent
 location: Edinburgh
 source: JobG8
 job_id: jobg8-1743603
-reason: Approved conservative Edinburgh launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: HR Administrator
-company: Reed - Agency - Permanent
-location: Edinburgh
-source: JobG8
-job_id: jobg8-1748475
 reason: Approved conservative Edinburgh launch catchment.
 ---
 
@@ -148,6 +160,18 @@ reason: Approved conservative Edinburgh launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Town Planner
+company: Michael Page Business Support - Agency - Permanent
+location: Edinburgh
+source: JobG8
+job_id: jobg8-1847868
+reason: Approved conservative Edinburgh launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Weekend Receptionist
 company: Ritz Recruitment Ltd - Agency - Permanent
 location: Edinburgh
@@ -162,11 +186,11 @@ reason: Approved conservative Edinburgh launch catchment.
 action: 
 decision: review
 automatic_decision: review
-title: Customer & Sales Coordinator
-company: Escape - Agency - Permanent
-location: Livingston
+title: Receptionist
+company: Pertemps Scotland Temps - Agency - Permanent
+location: Musselburgh
 source: JobG8
-job_id: jobg8-23643_225476669
+job_id: jobg8-1847803
 reason: No approved Edinburgh catchment rule matched; local review required.
 ---
 

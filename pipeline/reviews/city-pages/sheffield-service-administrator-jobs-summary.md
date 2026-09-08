@@ -4,7 +4,7 @@
 - Live route: `/sheffield/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 15
+- Effective included jobs: 17
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 15
-- automatic review: 1
+- automatic include: 17
+- automatic review: 3
 - automatic exclude: 12
-- effective include: 15
-- effective review: 1
+- effective include: 17
+- effective review: 3
 - effective exclude: 12
 
-## INCLUDE (15)
+## INCLUDE (17)
 
 ---
 action: 
@@ -45,6 +45,42 @@ company: The Rowan School
 location: Sheffield
 source: Teaching Vacancies
 job_id: teaching-vacancies-admin-clerical-officer-level-2-rowan-school
+reason: Approved Sheffield catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Admin Assistant
+company: TeacherActive - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-1856535
+reason: Approved Sheffield catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Customer Service/Export Co-ordinator
+company: Hays Business Support - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-23643_225574970
+reason: Approved Sheffield catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Customer Service/Export Co-ordinator
+company: Hays Specialist Recruitment Limited - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-1866731
 reason: Approved Sheffield catchment.
 ---
 
@@ -172,18 +208,6 @@ reason: Approved Sheffield catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Service & Installation Co-Ordinator
-company: Elix Sourcing Solutions - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-23643_225570863
-reason: Approved Sheffield catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Service Coordinator
 company: Veolia - Agency - Permanent
 location: Sheffield
@@ -204,7 +228,19 @@ job_id: jobg8-1807172
 reason: Approved Sheffield catchment.
 ---
 
-## REVIEW (1)
+## REVIEW (3)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Medical Receptionist
+company: Mexborough Health Centre
+location: Mexborough, S64 0BY
+source: NHS Jobs
+job_id: nhs-5569947
+reason: No approved Sheffield catchment rule matched; local review required.
+---
 
 ---
 action: 
@@ -215,6 +251,18 @@ company: Beyond Talent Solutions Ltd - Agency - Contract
 location: Brinsworth
 source: JobG8
 job_id: jobg8-23643_225516026
+reason: No approved Sheffield catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Reception and Customer Service Administrator
+company: Hays Business Support - Agency - Temporary
+location: Brinsworth
+source: JobG8
+job_id: jobg8-23643_225575501
 reason: No approved Sheffield catchment rule matched; local review required.
 ---
 

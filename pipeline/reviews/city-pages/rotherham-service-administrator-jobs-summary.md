@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 4
-- automatic review: 24
+- automatic review: 28
 - automatic exclude: 0
 - effective include: 4
-- effective review: 24
+- effective review: 28
 - effective exclude: 0
 
 ## INCLUDE (4)
@@ -72,7 +72,7 @@ job_id: nhs-5568418
 reason: Exact approved Rotherham workplace.
 ---
 
-## REVIEW (24)
+## REVIEW (28)
 
 ---
 action: 
@@ -114,11 +114,47 @@ reason: No exact Rotherham workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
+title: Admin Assistant
+company: TeacherActive - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-1856535
+reason: No exact Rotherham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Customer Service Advisor
 company: EE - Company - Permanent
 location: Doncaster
 source: JobG8
 job_id: jobg8-21618_20279_62308-153faf593eb64b88272f45adeaa28d87
+reason: No exact Rotherham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Customer Service/Export Co-ordinator
+company: Hays Business Support - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-23643_225574970
+reason: No exact Rotherham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Customer Service/Export Co-ordinator
+company: Hays Specialist Recruitment Limited - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-1866731
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 
@@ -155,6 +191,18 @@ company: Royston Group Practice
 location: Barnsley, S71 4QW
 source: NHS Jobs
 job_id: nhs-5577083
+reason: No exact Rotherham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Medical Receptionist
+company: Mexborough Health Centre
+location: Mexborough, S64 0BY
+source: NHS Jobs
+job_id: nhs-5569947
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 
@@ -227,6 +275,18 @@ company: Austin Banks - Agency - Permanent
 location: Doncaster
 source: JobG8
 job_id: jobg8-23643_225515295
+reason: No exact Rotherham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Reception and Customer Service Administrator
+company: Hays Business Support - Agency - Temporary
+location: Brinsworth
+source: JobG8
+job_id: jobg8-23643_225575501
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 
@@ -323,18 +383,6 @@ company: Aston Academy
 location: Sheffield
 source: Teaching Vacancies
 job_id: teaching-vacancies-send-administrator-aston-academy-sheffield-south-yorkshire
-reason: No exact Rotherham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Service & Installation Co-Ordinator
-company: Elix Sourcing Solutions - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-23643_225570863
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 

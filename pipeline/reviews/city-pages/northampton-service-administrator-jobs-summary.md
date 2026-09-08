@@ -4,7 +4,7 @@
 - Live route: `/northampton/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 7
+- Effective included jobs: 8
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 7
+- automatic include: 8
 - automatic review: 17
 - automatic exclude: 0
-- effective include: 7
+- effective include: 8
 - effective review: 17
 - effective exclude: 0
 
-## INCLUDE (7)
+## INCLUDE (8)
 
 ---
 action: 
@@ -100,6 +100,18 @@ reason: Exact approved Northampton workplace.
 action: 
 decision: include
 automatic_decision: include
+title: Service Administrator
+company: Tate Milton Keynes - Agency - Permanent
+location: Northampton
+source: JobG8
+job_id: jobg8-1841296
+reason: Exact approved Northampton workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Support Services Coordinator - Care Leavers
 company: Homes 2 Inspire Limited - Agency - Permanent
 location: Northampton
@@ -114,35 +126,35 @@ reason: Exact approved Northampton workplace.
 action: 
 decision: review
 automatic_decision: review
-title: Administrative Assistant
-company: Rothwell & Desborough Healthcare Group
-location: Kettering, NN14 6JQ, Kettering, NN14 2NB
-source: NHS Jobs
-job_id: nhs-5558417
-reason: No exact Northampton workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrative Assistant
-company: Rothwell & Desborough Healthcare Group
-location: Kettering, NN14 6JQ, Kettering, NN14 2NB
-source: NHS Jobs
-job_id: nhs-5558575
-reason: No exact Northampton workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Administrator
 company: Raunds Park Infant School
 location: Wellingborough
 source: Teaching Vacancies
 job_id: teaching-vacancies-administrator-raunds-park-infant-school-wellingborough-northamptonshire
+reason: No exact Northampton workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Branch Administrator
+company: Candidate Source Ltd - Agency - Permanent
+location: Northamptonshire
+source: JobG8
+job_id: jobg8-1847874
+reason: No exact Northampton workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Claims Handler - insurance/construction - hybrid following probation
+company: The Graduate - Agency - Permanent
+location: Northamptonshire
+source: JobG8
+job_id: jobg8-1845227
 reason: No exact Northampton workplace matched; local geographic review is required.
 ---
 

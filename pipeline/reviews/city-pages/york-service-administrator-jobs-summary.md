@@ -4,7 +4,7 @@
 - Live route: `/york/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 5
+- Effective included jobs: 4
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 5
+- automatic include: 4
 - automatic review: 6
-- automatic exclude: 11
-- effective include: 5
+- automatic exclude: 10
+- effective include: 4
 - effective review: 6
-- effective exclude: 11
+- effective exclude: 10
 
-## INCLUDE (5)
+## INCLUDE (4)
 
 ---
 action: 
@@ -69,18 +69,6 @@ company: KD Recruitment Limited - Agency - Permanent
 location: York
 source: JobG8
 job_id: jobg8-107804499
-reason: Approved York catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Service Advisor - Ford
-company: Stoneacre Motor Group. - Company - Permanent
-location: York
-source: JobG8
-job_id: jobg8-107836541
 reason: Approved York catchment.
 ---
 
@@ -158,7 +146,7 @@ job_id: nhs-5570653
 reason: No approved York catchment rule matched; local review required.
 ---
 
-## EXCLUDE (11)
+## EXCLUDE (10)
 
 ---
 action: 
@@ -236,11 +224,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Finance Assistant
-company: IPS Finance - Agency - Permanent
-location: Harrogate
+title: Recruitment & Learning Co-ordinator
+company: Hays Specialist Recruitment Limited - Agency - Permanent
+location: Northallerton
 source: JobG8
-job_id: jobg8-23643_225477133
+job_id: jobg8-1844909
 reason: Separate employment market.
 ---
 
@@ -277,17 +265,5 @@ company: Tees Esk and Wear Valleys NHS Foundation Trust
 location: Northallerton, DL6 2FG
 source: NHS Jobs
 job_id: nhs-5570734
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Training and Recruitment administrator
-company: Ashley Kate HR & Finance - Agency - Permanent
-location: Harrogate
-source: JobG8
-job_id: jobg8-23643_225472878
 reason: Separate employment market.
 ---

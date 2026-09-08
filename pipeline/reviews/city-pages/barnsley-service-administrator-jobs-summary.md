@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 1
-- automatic review: 1
-- automatic exclude: 26
+- automatic review: 3
+- automatic exclude: 28
 - effective include: 1
-- effective review: 1
-- effective exclude: 26
+- effective review: 3
+- effective exclude: 28
 
 ## INCLUDE (1)
 
@@ -36,7 +36,19 @@ job_id: nhs-5577083
 reason: Approved Barnsley catchment.
 ---
 
-## REVIEW (1)
+## REVIEW (3)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Medical Receptionist
+company: Mexborough Health Centre
+location: Mexborough, S64 0BY
+source: NHS Jobs
+job_id: nhs-5569947
+reason: No approved Barnsley catchment rule matched; local review required.
+---
 
 ---
 action: 
@@ -50,7 +62,19 @@ job_id: jobg8-23643_225516026
 reason: No approved Barnsley catchment rule matched; local review required.
 ---
 
-## EXCLUDE (26)
+---
+action: 
+decision: review
+automatic_decision: review
+title: Reception and Customer Service Administrator
+company: Hays Business Support - Agency - Temporary
+location: Brinsworth
+source: JobG8
+job_id: jobg8-23643_225575501
+reason: No approved Barnsley catchment rule matched; local review required.
+---
+
+## EXCLUDE (28)
 
 ---
 action: 
@@ -92,6 +116,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Admin Assistant
+company: TeacherActive - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-1856535
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Administration Assistant
 company: The Market Surgery
 location: Rotherham, S63 7RA
@@ -121,6 +157,30 @@ company: EE - Company - Permanent
 location: Doncaster
 source: JobG8
 job_id: jobg8-21618_20279_62308-153faf593eb64b88272f45adeaa28d87
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Customer Service/Export Co-ordinator
+company: Hays Business Support - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-23643_225574970
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Customer Service/Export Co-ordinator
+company: Hays Specialist Recruitment Limited - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-1866731
 reason: Separate employment market.
 ---
 
@@ -325,18 +385,6 @@ company: Aston Academy
 location: Sheffield
 source: Teaching Vacancies
 job_id: teaching-vacancies-send-administrator-aston-academy-sheffield-south-yorkshire
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Service & Installation Co-Ordinator
-company: Elix Sourcing Solutions - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-23643_225570863
 reason: Separate employment market.
 ---
 

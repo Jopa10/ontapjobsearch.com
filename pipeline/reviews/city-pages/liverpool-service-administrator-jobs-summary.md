@@ -4,7 +4,7 @@
 - Live route: `/liverpool/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 18
+- Effective included jobs: 20
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 18
-- automatic review: 6
+- automatic include: 20
+- automatic review: 4
 - automatic exclude: 0
-- effective include: 18
-- effective review: 6
+- effective include: 20
+- effective review: 4
 - effective exclude: 0
 
-## INCLUDE (18)
+## INCLUDE (20)
 
 ---
 action: 
@@ -33,6 +33,30 @@ company: Reed - Agency - Permanent
 location: Liverpool
 source: JobG8
 job_id: jobg8-1766251
+reason: Approved conservative Liverpool launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administrator
+company: Reed - Agency - Permanent
+location: Liverpool
+source: JobG8
+job_id: jobg8-1869464
+reason: Approved conservative Liverpool launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administrator
+company: Reed - Agency - Permanent
+location: Liverpool
+source: JobG8
+job_id: jobg8-1869533
 reason: Approved conservative Liverpool launch catchment.
 ---
 
@@ -88,23 +112,11 @@ reason: Approved conservative Liverpool launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Clerical Officer
-company: Liverpool University Hospitals NHS Foundation Trust
-location: Liverpool, L7 8XP
-source: NHS Jobs
-job_id: nhs-5558829
-reason: Approved conservative Liverpool launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Digital Marketing Apprentice
-company: NowSkills - Agency - Contract
+title: Customer Service Advisor (Part Time FTC)
+company: Liberty Group - Agency - Permanent
 location: Liverpool
 source: JobG8
-job_id: jobg8-107940598
+job_id: jobg8-1870930
 reason: Approved conservative Liverpool launch catchment.
 ---
 
@@ -148,11 +160,11 @@ reason: Approved conservative Liverpool launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Part Time Receptionist
-company: Adecco - Agency - Temporary
+title: Project Administrator
+company: Walker Sime - Agency - Permanent
 location: Liverpool
 source: JobG8
-job_id: jobg8-23643_225476291
+job_id: jobg8-23643_225575488
 reason: Approved conservative Liverpool launch catchment.
 ---
 
@@ -172,11 +184,23 @@ reason: Approved conservative Liverpool launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Receptionist/Administration Assistant
-company: Mersey Care NHS Foundation Trust
-location: Liverpool, L34 1PJ
+title: Receptionist and Administrator
+company: GP Practice Riverside
+location: Liverpool, L8 6QP, Liverpool, L7 6HD
 source: NHS Jobs
-job_id: nhs-5559589
+job_id: nhs-5582318
+reason: Approved conservative Liverpool launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Receptionist/Administrator
+company: Ford Medical Practice
+location: Liverpool, L210DF
+source: NHS Jobs
+job_id: nhs-5584062
 reason: Approved conservative Liverpool launch catchment.
 ---
 
@@ -240,7 +264,7 @@ job_id: jobg8-23643_225454172
 reason: Approved conservative Liverpool launch catchment.
 ---
 
-## REVIEW (6)
+## REVIEW (4)
 
 ---
 action: 
@@ -251,30 +275,6 @@ company: Harnham - Data & Analytics Recruitment - Agency - Permanent
 location: Merseyside
 source: JobG8
 job_id: jobg8-1707231
-reason: Broad county location; review before Liverpool inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Digital Content Officer
-company: Career Connect - Agency - Permanent
-location: Merseyside
-source: JobG8
-job_id: jobg8-107870553
-reason: Broad county location; review before Liverpool inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Digital Content Officer
-company: Career Connect - Agency - Permanent
-location: Merseyside
-source: JobG8
-job_id: jobg8-1769480
 reason: Broad county location; review before Liverpool inclusion.
 ---
 

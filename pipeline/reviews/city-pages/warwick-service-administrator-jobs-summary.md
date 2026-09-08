@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 4
-- automatic review: 24
+- automatic review: 26
 - automatic exclude: 0
 - effective include: 4
-- effective review: 24
+- effective review: 26
 - effective exclude: 0
 
 ## INCLUDE (4)
@@ -72,7 +72,7 @@ job_id: jobg8-23643_225505608
 reason: Exact approved Warwick workplace.
 ---
 
-## REVIEW (24)
+## REVIEW (26)
 
 ---
 action: 
@@ -90,11 +90,35 @@ reason: No exact Warwick workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Administrator
+company: Candidate Source Ltd - Agency - Permanent
+location: Rugby
+source: JobG8
+job_id: jobg8-1859559
+reason: No exact Warwick workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Administrator - Purchasing
 company: Options Resourcing Ltd - Agency - Permanent
 location: Southam
 source: JobG8
 job_id: jobg8-23643_225526928
+reason: No exact Warwick workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Customer Service Advisor
+company: Reed - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-1843252
 reason: No exact Warwick workplace matched; local geographic review is required.
 ---
 
@@ -126,11 +150,11 @@ reason: No exact Warwick workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: HR Administrator, Temporary to Permanent Opportunity
-company: Office Angels - Agency - Temporary
-location: Atherstone
+title: HR & Recruitment Coordinator
+company: Gleeson Recruitment Group - Agency - Permanent
+location: Coventry
 source: JobG8
-job_id: jobg8-23643_225572898
+job_id: jobg8-1869638
 reason: No exact Warwick workplace matched; local geographic review is required.
 ---
 
@@ -138,11 +162,11 @@ reason: No exact Warwick workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: HR Assistant
-company: Bell Cornwall Recruitment - Agency - Permanent
-location: Warwickshire
+title: HR Administrator, Temporary to Permanent Opportunity
+company: Office Angels - Agency - Temporary
+location: Atherstone
 source: JobG8
-job_id: jobg8-23643_225473970
+job_id: jobg8-23643_225572898
 reason: No exact Warwick workplace matched; local geographic review is required.
 ---
 
@@ -211,6 +235,18 @@ action:
 decision: review
 automatic_decision: review
 title: Personal Assistant
+company: Opus People Solutions - Agency - Permanent
+location: Rugby
+source: JobG8
+job_id: jobg8-1845083
+reason: No exact Warwick workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Personal Assistant
 company: Opus People Solutions Ltd - Agency - Temporary
 location: Rugby
 source: JobG8
@@ -235,10 +271,10 @@ action:
 decision: review
 automatic_decision: review
 title: Receptionist
-company: Adecco - Agency - Temporary
+company: Adecco - Agency - Permanent
 location: Coventry
 source: JobG8
-job_id: jobg8-23643_225572830
+job_id: jobg8-1859565
 reason: No exact Warwick workplace matched; local geographic review is required.
 ---
 
@@ -246,11 +282,11 @@ reason: No exact Warwick workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Receptionist and Administrator FTC contract September - December 2026
-company: Kenilworth School and Sixth Form
-location: Kenilworth
-source: Teaching Vacancies
-job_id: teaching-vacancies-receptionist-and-administrator-ftc-contract-september-december-2026-kenilworth-school-and-sixth-form-kenilworth
+title: Receptionist
+company: Adecco - Agency - Temporary
+location: Coventry
+source: JobG8
+job_id: jobg8-23643_225572830
 reason: No exact Warwick workplace matched; local geographic review is required.
 ---
 
@@ -263,18 +299,6 @@ company: Godiva Group Practice
 location: Coventry, CV2 4lj, Coventry, CV1 4DH, Coventry, CV6 5EA, Coventry, CV2 3DR
 source: NHS Jobs
 job_id: nhs-5525238
-reason: No exact Warwick workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Recruitment Account Coordinator
-company: Winner Recruitment - Agency - Permanent
-location: Rugby
-source: JobG8
-job_id: jobg8-107840991
 reason: No exact Warwick workplace matched; local geographic review is required.
 ---
 

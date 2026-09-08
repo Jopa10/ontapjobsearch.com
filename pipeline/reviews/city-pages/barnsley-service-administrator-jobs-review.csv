@@ -1,12 +1,17 @@
 decision,job_id,title,company,location,source,automatic_decision,effective_decision,reason,matched_rule,city_key
 include,nhs-5577083,GP receptionist/Administrator,Royston Group Practice,"Barnsley, S71 4QW",NHS Jobs,include,include,Approved Barnsley catchment.,barnsley,barnsley-service-administrator-jobs
+review,nhs-5569947,Medical Receptionist,Mexborough Health Centre,"Mexborough, S64 0BY",NHS Jobs,review,review,No approved Barnsley catchment rule matched; local review required.,fallback,barnsley-service-administrator-jobs
 review,jobg8-23643_225516026,Part Time Receptionist/Administrative Assistant,Beyond Talent Solutions Ltd - Agency - Contract,Brinsworth,JobG8,review,review,No approved Barnsley catchment rule matched; local review required.,fallback,barnsley-service-administrator-jobs
+review,jobg8-23643_225575501,Reception and Customer Service Administrator,Hays Business Support - Agency - Temporary,Brinsworth,JobG8,review,review,No approved Barnsley catchment rule matched; local review required.,fallback,barnsley-service-administrator-jobs
 exclude,jobg8-107804866,Account Coordinator - Part Time,Staffline Operations - Agency - Temporary,Doncaster,JobG8,exclude,exclude,Separate employment market.,doncaster,barnsley-service-administrator-jobs
 exclude,jobg8-23643_225469996,Accounts Assistant,Sue Ross Recruitment Ltd - Agency - Permanent,Sheffield,JobG8,exclude,exclude,Separate employment market.,sheffield,barnsley-service-administrator-jobs
 exclude,teaching-vacancies-admin-clerical-officer-level-2-rowan-school,Admin & Clerical Officer Level 2 Rowan School,The Rowan School,Sheffield,Teaching Vacancies,exclude,exclude,Separate employment market.,sheffield,barnsley-service-administrator-jobs
+exclude,jobg8-1856535,Admin Assistant,TeacherActive - Agency - Permanent,Sheffield,JobG8,exclude,exclude,Separate employment market.,sheffield,barnsley-service-administrator-jobs
 exclude,nhs-5568486,Administration Assistant,The Market Surgery,"Rotherham, S63 7RA",NHS Jobs,exclude,exclude,Separate employment market.,rotherham,barnsley-service-administrator-jobs
 exclude,jobg8-1770785,Commercial Office Administrator,Elevation Recruitment Group - Agency - Permanent,Rotherham,JobG8,exclude,exclude,Separate employment market.,rotherham,barnsley-service-administrator-jobs
 exclude,jobg8-21618_20279_62308-153faf593eb64b88272f45adeaa28d87,Customer Service Advisor,EE - Company - Permanent,Doncaster,JobG8,exclude,exclude,Separate employment market.,doncaster,barnsley-service-administrator-jobs
+exclude,jobg8-23643_225574970,Customer Service/Export Co-ordinator,Hays Business Support - Agency - Permanent,Sheffield,JobG8,exclude,exclude,Separate employment market.,sheffield,barnsley-service-administrator-jobs
+exclude,jobg8-1866731,Customer Service/Export Co-ordinator,Hays Specialist Recruitment Limited - Agency - Permanent,Sheffield,JobG8,exclude,exclude,Separate employment market.,sheffield,barnsley-service-administrator-jobs
 exclude,jobg8-23643_225571785,Data Administrator,Hays Business Support - Agency - Temporary,Sheffield,JobG8,exclude,exclude,Separate employment market.,sheffield,barnsley-service-administrator-jobs
 exclude,jobg8-23643_225546545,Executive Assistant,Sue Ross Recruitment Ltd - Agency - Contract,Sheffield,JobG8,exclude,exclude,Separate employment market.,sheffield,barnsley-service-administrator-jobs
 exclude,jobg8-23643_225522912,Operations Administrator,Sue Ross Recruitment Ltd - Agency - Permanent,Sheffield,JobG8,exclude,exclude,Separate employment market.,sheffield,barnsley-service-administrator-jobs
@@ -24,6 +29,5 @@ exclude,jobg8-107771227,Sales & Marketing Coordinator,Get Recruited (UK) Ltd - A
 exclude,jobg8-23643_225563636,Sales & Operations Coordinator,Major Recruitment - Perm Manager - Agency - Permanent,Sheffield,JobG8,exclude,exclude,Separate employment market.,sheffield,barnsley-service-administrator-jobs
 exclude,jobg8-107870378,Sales Coordinator,Ranson Barnes Recruitment Limited - Agency - Permanent,Sheffield,JobG8,exclude,exclude,Separate employment market.,sheffield,barnsley-service-administrator-jobs
 exclude,teaching-vacancies-send-administrator-aston-academy-sheffield-south-yorkshire,SEND Administrator,Aston Academy,Sheffield,Teaching Vacancies,exclude,exclude,Separate employment market.,sheffield,barnsley-service-administrator-jobs
-exclude,jobg8-23643_225570863,Service & Installation Co-Ordinator,Elix Sourcing Solutions - Agency - Permanent,Sheffield,JobG8,exclude,exclude,Separate employment market.,sheffield,barnsley-service-administrator-jobs
 exclude,jobg8-23643_225545159,Service Coordinator,Veolia - Agency - Permanent,Sheffield,JobG8,exclude,exclude,Separate employment market.,sheffield,barnsley-service-administrator-jobs
 exclude,jobg8-1807172,Service Desk Analyst,Venn Group - Agency - Permanent,Sheffield,JobG8,exclude,exclude,Separate employment market.,sheffield,barnsley-service-administrator-jobs

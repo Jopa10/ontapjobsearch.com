@@ -4,7 +4,7 @@
 - Live route: `/macclesfield/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 5
+- Effective included jobs: 4
 - Threshold currently met: yes
 
 ## How to review
@@ -15,26 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 5
-- automatic review: 7
+- automatic include: 4
+- automatic review: 8
 - automatic exclude: 0
-- effective include: 5
-- effective review: 7
+- effective include: 4
+- effective review: 8
 - effective exclude: 0
 
-## INCLUDE (5)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Estates Coordinator
-company: Premier Estates - Agency - Permanent
-location: Macclesfield
-source: JobG8
-job_id: jobg8-107940480
-reason: Exact approved Macclesfield workplace.
----
+## INCLUDE (4)
 
 ---
 action: 
@@ -45,6 +33,18 @@ company: Broken Cross Surgery
 location: Macclesfield, SK11 6JL
 source: NHS Jobs
 job_id: nhs-5568463
+reason: Exact approved Macclesfield workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Medical Receptionist
+company: Adecco - Agency - Permanent
+location: Macclesfield
+source: JobG8
+job_id: jobg8-1852442
 reason: Exact approved Macclesfield workplace.
 ---
 
@@ -72,19 +72,7 @@ job_id: jobg8-23643_225512252
 reason: Exact approved Macclesfield workplace.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Team Administrator
-company: Cheshire and Wirral Partnership NHS Foundation Trust
-location: Macclesfield, SK10 3JE
-source: NHS Jobs
-job_id: nhs-5556237
-reason: Exact approved Macclesfield workplace.
----
-
-## REVIEW (7)
+## REVIEW (8)
 
 ---
 action: 
@@ -95,18 +83,6 @@ company: Forrest Recruitment - Agency - Permanent
 location: Nantwich
 source: JobG8
 job_id: jobg8-23643_225496929
-reason: No exact Macclesfield workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
-company: Adecco - Agency - Permanent
-location: Crewe
-source: JobG8
-job_id: jobg8-23643_225473643
 reason: No exact Macclesfield workplace matched; local geographic review is required.
 ---
 
@@ -131,6 +107,30 @@ company: Howard James Recruitment Consultancy Ltd - Agency - Permanent
 location: Knutsford
 source: JobG8
 job_id: jobg8-23643_225380328
+reason: No exact Macclesfield workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: FM Coordinator
+company: Resource Matters Ltd - Agency - Permanent
+location: Knutsford
+source: JobG8
+job_id: jobg8-1871288
+reason: No exact Macclesfield workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Insurance Claims Handler
+company: Massenhove Recruitment Limited - Agency - Permanent
+location: Nantwich
+source: JobG8
+job_id: jobg8-1851532
 reason: No exact Macclesfield workplace matched; local geographic review is required.
 ---
 

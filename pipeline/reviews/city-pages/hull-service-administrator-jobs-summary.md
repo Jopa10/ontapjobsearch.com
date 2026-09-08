@@ -4,7 +4,7 @@
 - Live route: `/hull/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 15
+- Effective included jobs: 16
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 15
+- automatic include: 16
 - automatic review: 5
 - automatic exclude: 0
-- effective include: 15
+- effective include: 16
 - effective review: 5
 - effective exclude: 0
 
-## INCLUDE (15)
+## INCLUDE (16)
 
 ---
 action: 
@@ -57,6 +57,18 @@ company: Tees Esk and Wear Valleys NHS Foundation Trust
 location: Hull, HU9 5LS
 source: NHS Jobs
 job_id: nhs-5572582
+reason: Approved conservative Hull launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Customer Service Advisor FTC
+company: Quickline Communications - Company - Permanent
+location: Hull
+source: JobG8
+job_id: jobg8-1841672
 reason: Approved conservative Hull launch catchment.
 ---
 

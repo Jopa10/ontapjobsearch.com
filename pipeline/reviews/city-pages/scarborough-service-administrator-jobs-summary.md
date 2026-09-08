@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 3
-- automatic review: 19
+- automatic review: 17
 - automatic exclude: 0
 - effective include: 3
-- effective review: 19
+- effective review: 17
 - effective exclude: 0
 
 ## INCLUDE (3)
@@ -60,7 +60,7 @@ job_id: jobg8-107900212
 reason: Exact approved Scarborough workplace.
 ---
 
-## REVIEW (19)
+## REVIEW (17)
 
 ---
 action: 
@@ -162,18 +162,6 @@ reason: No exact Scarborough workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Finance Assistant
-company: IPS Finance - Agency - Permanent
-location: Harrogate
-source: JobG8
-job_id: jobg8-23643_225477133
-reason: No exact Scarborough workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: HR Administrator
 company: Unity Resourcing Ltd - Agency - Permanent
 location: Knaresborough
@@ -222,6 +210,18 @@ reason: No exact Scarborough workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
+title: Recruitment & Learning Co-ordinator
+company: Hays Specialist Recruitment Limited - Agency - Permanent
+location: Northallerton
+source: JobG8
+job_id: jobg8-1844909
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Sales and Marketing Coordinator
 company: KD Recruitment Limited - Agency - Permanent
 location: York
@@ -246,18 +246,6 @@ reason: No exact Scarborough workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Service Advisor - Ford
-company: Stoneacre Motor Group. - Company - Permanent
-location: York
-source: JobG8
-job_id: jobg8-107836541
-reason: No exact Scarborough workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Team Administrator
 company: Tees Esk and Wear Valleys NHS Foundation Trust
 location: Knaresborough, HG5 0UB
@@ -275,18 +263,6 @@ company: Tees Esk and Wear Valleys NHS Foundation Trust
 location: Northallerton, DL6 2FG
 source: NHS Jobs
 job_id: nhs-5570734
-reason: No exact Scarborough workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Training and Recruitment administrator
-company: Ashley Kate HR & Finance - Agency - Permanent
-location: Harrogate
-source: JobG8
-job_id: jobg8-23643_225472878
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 

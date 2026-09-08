@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 4
-- automatic review: 13
+- automatic review: 11
 - automatic exclude: 0
 - effective include: 4
-- effective review: 13
+- effective review: 11
 - effective exclude: 0
 
 ## INCLUDE (4)
@@ -72,7 +72,7 @@ job_id: nhs-5567689
 reason: Exact approved Shrewsbury workplace.
 ---
 
-## REVIEW (13)
+## REVIEW (11)
 
 ---
 action: 
@@ -83,18 +83,6 @@ company: Staffline Operations - Agency - Temporary
 location: Shropshire
 source: JobG8
 job_id: jobg8-107933061
-reason: No exact Shrewsbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Assistant
-company: Hypercreate Ltd - Agency - Permanent
-location: Shropshire
-source: JobG8
-job_id: jobg8-23643_225475092
 reason: No exact Shrewsbury workplace matched; local geographic review is required.
 ---
 
@@ -150,35 +138,23 @@ reason: No exact Shrewsbury workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
+title: Customer Technical Helpdesk Advisor
+company: Hays Specialist Recruitment Limited - Agency - Permanent
+location: Shropshire
+source: JobG8
+job_id: jobg8-1843846
+reason: No exact Shrewsbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Housing Repairs Administrator
 company: Thorngate Churcher Trust - Agency - Permanent
 location: Shropshire
 source: JobG8
 job_id: jobg8-23643_225537561
-reason: No exact Shrewsbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Learning & Development Coordinator
-company: Hays HR - Agency - Temporary
-location: Shropshire
-source: JobG8
-job_id: jobg8-23643_225476516
-reason: No exact Shrewsbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Learning & Development Coordinator
-company: Hays Specialist Recruitment Limited - Agency - Permanent
-location: Shropshire
-source: JobG8
-job_id: jobg8-1749230
 reason: No exact Shrewsbury workplace matched; local geographic review is required.
 ---
 
@@ -198,11 +174,11 @@ reason: No exact Shrewsbury workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Receptionist
-company: Teldoc
-location: Telford, TF2 9GZ, Shifnal, TF11 8DD
-source: NHS Jobs
-job_id: nhs-5573104
+title: Part time Receptionist
+company: Hays Specialist Recruitment Limited - Agency - Permanent
+location: Shropshire
+source: JobG8
+job_id: jobg8-1858074
 reason: No exact Shrewsbury workplace matched; local geographic review is required.
 ---
 
@@ -210,11 +186,11 @@ reason: No exact Shrewsbury workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Sales Support Executive - International
-company: Knight Street - Agency - Permanent
-location: Shropshire
-source: JobG8
-job_id: jobg8-23643_225476021
+title: Receptionist
+company: Teldoc
+location: Telford, TF2 9GZ, Shifnal, TF11 8DD
+source: NHS Jobs
+job_id: nhs-5573104
 reason: No exact Shrewsbury workplace matched; local geographic review is required.
 ---
 

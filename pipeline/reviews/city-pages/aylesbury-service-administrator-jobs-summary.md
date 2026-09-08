@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 4
-- automatic review: 44
+- automatic review: 48
 - automatic exclude: 0
 - effective include: 4
-- effective review: 44
+- effective review: 48
 - effective exclude: 0
 
 ## INCLUDE (4)
@@ -72,7 +72,7 @@ job_id: nhs-5573111
 reason: Exact approved Aylesbury workplace.
 ---
 
-## REVIEW (44)
+## REVIEW (48)
 
 ---
 action: 
@@ -186,6 +186,18 @@ reason: No exact Aylesbury workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
+title: Administrator (Maternity Cover)
+company: Optima - Agency - Permanent
+location: Buckinghamshire
+source: JobG8
+job_id: jobg8-1850450
+reason: No exact Aylesbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Associate Brand Manager
 company: Zenopa - Agency - Permanent
 location: Bourne End
@@ -251,6 +263,18 @@ company: Peopleforge Ltd - Agency - Permanent
 location: Buckinghamshire
 source: JobG8
 job_id: jobg8-107925787
+reason: No exact Aylesbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Customer Care Coordinator
+company: A.D.S CONSTRUCTION PERSONNEL LTD - Agency - Permanent
+location: Buckinghamshire
+source: JobG8
+job_id: jobg8-1710374
 reason: No exact Aylesbury workplace matched; local geographic review is required.
 ---
 
@@ -355,6 +379,18 @@ action:
 decision: review
 automatic_decision: review
 title: Events Coordinator
+company: Adecco - Agency - Permanent
+location: Buckinghamshire
+source: JobG8
+job_id: jobg8-1841488
+reason: No exact Aylesbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Events Coordinator
 company: Adecco - Agency - Temporary
 location: Buckinghamshire
 source: JobG8
@@ -383,18 +419,6 @@ company: Invictus Group - Agency - Contract
 location: Milton Keynes
 source: JobG8
 job_id: jobg8-23643_225544622
-reason: No exact Aylesbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Field Services Coordinator
-company: IMServ Europe Ltd - Agency - Permanent
-location: Buckinghamshire
-source: JobG8
-job_id: jobg8-23643_225473506
 reason: No exact Aylesbury workplace matched; local geographic review is required.
 ---
 
@@ -431,6 +455,18 @@ company: Working Solutions Recruitment - Agency - Permanent
 location: Milton Keynes
 source: JobG8
 job_id: jobg8-23643_225570224
+reason: No exact Aylesbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Internal Sales Co-ordinator
+company: WSR (Working Solutions Recruitment Services) - Agency - Permanent
+location: Milton Keynes
+source: JobG8
+job_id: jobg8-1856851
 reason: No exact Aylesbury workplace matched; local geographic review is required.
 ---
 
@@ -515,6 +551,18 @@ company: Purbeck Health Centre
 location: Milton Keynes, MK14 6BL
 source: NHS Jobs
 job_id: nhs-5543958
+reason: No exact Aylesbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Receptionist
+company: Scania (Great Britain) Limited - Agency - Permanent
+location: Milton Keynes
+source: JobG8
+job_id: jobg8-1850649
 reason: No exact Aylesbury workplace matched; local geographic review is required.
 ---
 

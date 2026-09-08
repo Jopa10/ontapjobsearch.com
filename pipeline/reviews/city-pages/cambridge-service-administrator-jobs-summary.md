@@ -4,7 +4,7 @@
 - Live route: `/cambridge/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 9
+- Effective included jobs: 11
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 9
-- automatic review: 4
+- automatic include: 11
+- automatic review: 5
 - automatic exclude: 12
-- effective include: 9
-- effective review: 4
+- effective include: 11
+- effective review: 5
 - effective exclude: 12
 
-## INCLUDE (9)
+## INCLUDE (11)
 
 ---
 action: 
@@ -64,11 +64,11 @@ reason: Approved conservative Cambridge launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Content Executive
-company: AWD Online - Agency - Permanent
+title: Ecommerce Content Assistant
+company: Yours Clothing - Agency - Permanent
 location: Cambridgeshire
 source: JobG8
-job_id: jobg8-107910195
+job_id: jobg8-107881402
 reason: Approved conservative Cambridge launch catchment.
 ---
 
@@ -76,11 +76,11 @@ reason: Approved conservative Cambridge launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Ecommerce Content Assistant
-company: Yours Clothing - Agency - Permanent
-location: Cambridgeshire
+title: Office Administrator
+company: Altitude-Recruitment Limited - Agency - Permanent
+location: Cambridge
 source: JobG8
-job_id: jobg8-107881402
+job_id: jobg8-1852124
 reason: Approved conservative Cambridge launch catchment.
 ---
 
@@ -100,11 +100,11 @@ reason: Approved conservative Cambridge launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Receptionist
-company: Peasgood & Skeates - Agency - Permanent
+title: Office Administrator
+company: EA FIRST LTD - Agency - Permanent
 location: Cambridge
 source: JobG8
-job_id: jobg8-23643_225513578
+job_id: jobg8-1857144
 reason: Approved conservative Cambridge launch catchment.
 ---
 
@@ -112,11 +112,35 @@ reason: Approved conservative Cambridge launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: SEND Administrator
-company: Swavesey Village College
+title: Personal Assistant
+company: Pure Resourcing Solutions - Agency - Permanent
 location: Cambridge
-source: Teaching Vacancies
-job_id: teaching-vacancies-send-administrator-swavesey-village-college
+source: JobG8
+job_id: jobg8-1848160
+reason: Approved conservative Cambridge launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Receptionist
+company: EC Resourcing - Agency - Permanent
+location: Cambridge
+source: JobG8
+job_id: jobg8-1851868
+reason: Approved conservative Cambridge launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Receptionist
+company: Peasgood & Skeates - Agency - Permanent
+location: Cambridge
+source: JobG8
+job_id: jobg8-23643_225513578
 reason: Approved conservative Cambridge launch catchment.
 ---
 
@@ -132,7 +156,7 @@ job_id: jobg8-107911259
 reason: Approved conservative Cambridge launch catchment.
 ---
 
-## REVIEW (4)
+## REVIEW (5)
 
 ---
 action: 
@@ -174,6 +198,18 @@ reason: No approved Cambridge catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: German Customer Care Administrator
+company: Lifeplus Europe LTD - Agency - Permanent
+location: St. Neots
+source: JobG8
+job_id: jobg8-1870854
+reason: No approved Cambridge catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Stock Administrator
 company: Interaction Recruitment - Agency - Temporary
 location: St. Ives
@@ -183,18 +219,6 @@ reason: No approved Cambridge catchment rule matched; local review required.
 ---
 
 ## EXCLUDE (12)
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Account Coordinator
-company: Staffline Operations - Agency - Temporary
-location: Peterborough
-source: JobG8
-job_id: jobg8-107925777
-reason: Separate employment market.
----
 
 ---
 action: 
@@ -241,6 +265,18 @@ company: New Appointments Group - Agency - Temporary
 location: Peterborough
 source: JobG8
 job_id: jobg8-23643_225478255
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Customer Service Advisor
+company: Accent Housing Group - Agency - Permanent
+location: Peterborough
+source: JobG8
+job_id: jobg8-1870458
 reason: Separate employment market.
 ---
 
