@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - South
 
-review_date: 2026-09-07
+review_date: 2026-09-08
 review_fingerprint: 0c1e1738ef773917e3d225d5004efc4d1e32080890f61d4efd2b43e08bc883a1
-routing_manifest_sha256: 2f1d5e350d23bbcb5d65881a4c56e54ac46dbd6b31bd0c081b3dd0f22c6116a6
+routing_manifest_sha256: ef6ecd66a5cda32c0f8f6b6f033e395907b62c76a803d1da4ce252794aa81261
 ontap_region: Yorkshire - South
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 27
+- Records: 25
 - Selected: 5
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 21
+- Hard pass: 19
 
 ## SELECTED
 
@@ -137,9 +137,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/estates-and-complianc
 - [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-mercia-learning-trust-sheffield-not-recorded) — Manager title salary ceiling £53,052 is not below £28,000.
 - [HR Manager](https://teaching-vacancies.service.gov.uk/jobs/hr-manager-f66082bd-6a6e-4f84-9a14-924c810758cb) — Manager title salary ceiling £54,495 is not below £28,000.
 - [HR Manager](https://teaching-vacancies.service.gov.uk/jobs/hr-manager-st-francis-catholic-multi-academy-trust-rotherham-not-recorded) — Manager title salary ceiling £54,495 is not below £28,000.
-- [Learner Support Compliance & Standards Lead](https://teaching-vacancies.service.gov.uk/jobs/learner-support-compliance-standards-lead) — Insufficient admin/service evidence.
 - [School Administration Assistant: HR and Payroll](https://teaching-vacancies.service.gov.uk/jobs/school-administration-assistant-hr-and-payroll) — Insufficient admin/service evidence.
-- [Technical Trainer - Environmental](https://teaching-vacancies.service.gov.uk/jobs/technical-trainer-environmental) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

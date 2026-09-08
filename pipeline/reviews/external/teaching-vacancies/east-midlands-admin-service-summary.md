@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — East Midlands
 
-review_date: 2026-09-07
-review_fingerprint: 38e5d5e0354a682c25081569fb739ce2c13a44c812e68656f150dd86d839e022
-routing_manifest_sha256: 2f1d5e350d23bbcb5d65881a4c56e54ac46dbd6b31bd0c081b3dd0f22c6116a6
+review_date: 2026-09-08
+review_fingerprint: e90ad67d0f53b8952f27fdd6e6493c518dcc90a6dfcdbbcad6e298739d59b85b
+routing_manifest_sha256: ef6ecd66a5cda32c0f8f6b6f033e395907b62c76a803d1da4ce252794aa81261
 ontap_region: East Midlands
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 8
-- Selected: 4
+- Records: 10
+- Selected: 5
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 4
+- Hard pass: 5
 
 ## SELECTED
 
@@ -68,6 +68,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assist
 
 ---
 action: 
+SELECTED | East Midlands | Hinckley, East Midlands, LE10 1LE | Apprenticeship rate in line with Trust policy | APPRENTICE ADMINISTRATOR – THE HINCKLEY SCHOOL
+employer: The Hinckley School
+closing_date: 2026-09-20T23:59:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: UNREGISTERED
+migration_status: 
+factual_fingerprint: f783293759ee73171c49ac5cca28b138c8a8adf26628536570d67074f8595841
+source: Teaching Vacancies
+source_job_id: apprentice-administrator-the-hinckley-school-the-hinckley-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/apprentice-administrator-the-hinckley-school-the-hinckley-school
+---
+
+---
+action: 
 SELECTED | East Midlands | Alfreton, East Midlands, DE55 7JA | £32,347.00 - £34,317.00 Annually (FTE) Actual Salary £29,249.58 - £31,030.94) Pay award pending | Exams Officer
 employer: David Nieper Academy
 closing_date: 2026-09-11T09:00:00+01:00
@@ -95,6 +110,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-david-n
 - [Level 1 Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/level-1-personal-care-assistant-village-primary-academy) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-village-primary-academy-derby-derbyshire) — Manager title salary ceiling £32,597 is not below £28,000.
 - [Senior Contract & Procurement Manager](https://teaching-vacancies.service.gov.uk/jobs/senior-contract-procurement-manager-embark-multi-academy-trust-derby-not-recorded) — Manager title salary ceiling £54,000 is not below £28,000.
+- [Trust Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/trust-finance-manager-98078324-9858-463d-9f77-566320746539) — Manager title salary ceiling £44,075 is not below £28,000.
 
 ## Safety boundary
 

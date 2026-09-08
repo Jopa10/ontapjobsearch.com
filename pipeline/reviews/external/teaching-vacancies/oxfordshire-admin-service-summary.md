@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Oxfordshire
 
-review_date: 2026-09-07
-review_fingerprint: 0799872d76f7d66dd3d5750b06d8cb3e2c13b82cc6796af4a6d51acdb04399b1
-routing_manifest_sha256: 2f1d5e350d23bbcb5d65881a4c56e54ac46dbd6b31bd0c081b3dd0f22c6116a6
+review_date: 2026-09-08
+review_fingerprint: fa44b9fc2aec10bbaf7149142164f8783a5fda034794a4d1f129e93dfd5e3a3e
+routing_manifest_sha256: ef6ecd66a5cda32c0f8f6b6f033e395907b62c76a803d1da4ce252794aa81261
 ontap_region: Oxfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -14,10 +14,10 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 9
-- Selected: 2
+- Selected: 3
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 7
+- Hard pass: 6
 
 ## SELECTED
 
@@ -34,6 +34,21 @@ factual_fingerprint: c84234c07a4c867af718e19687d7a3687fc550714654e60f0af1a6edabb
 source: Teaching Vacancies
 source_job_id: attendance-administrator-faringdon-community-college
 source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-administrator-faringdon-community-college
+---
+
+---
+action: 
+SELECTED | Oxfordshire | Oxford, South East, OX4 6DQ | £34,319.00 - £36,615.00 Annually (Actual) | Data Insights and Examinations Officer
+employer: Orion Academy
+closing_date: 2026-09-30T23:59:00+01:00
+reason: Clear admin/service title: examinations officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: b0497205cb4a28278dafd6476b890d4537bee2b6a0bb697ff13b5848b9c58847
+source: Teaching Vacancies
+source_job_id: data-insights-and-examinations-officer-orion-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/data-insights-and-examinations-officer-orion-academy
 ---
 
 ---
@@ -67,7 +82,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/grade-6-office-admini
 - [Exams and Data Manager](https://teaching-vacancies.service.gov.uk/jobs/exams-and-data-manager-whitelands-academy) — Manager title salary ceiling £40,444 is not below £28,000.
 - [Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-24437cdc-05bf-4102-bc88-8beac49a5637) — Insufficient admin/service evidence.
 - [HR Partner](https://teaching-vacancies.service.gov.uk/jobs/hr-partner-oxford-diocesan-bucks-schools-trust) — Insufficient admin/service evidence.
-- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-st-peter-s-church-of-england-school-alvescot) — Manager title salary ceiling £31,537 is not below £28,000.
 
 ## Safety boundary
 

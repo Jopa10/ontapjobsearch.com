@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Wiltshire
 
-review_date: 2026-09-07
-review_fingerprint: 747c8171b2532590193db41f3b1fc276fdd8246fedaa2b87a16f7489bb632d44
-routing_manifest_sha256: 2f1d5e350d23bbcb5d65881a4c56e54ac46dbd6b31bd0c081b3dd0f22c6116a6
+review_date: 2026-09-08
+review_fingerprint: 93f75628c21be1475e27e100704b1f92981eb174bfc0d4897ae9407fe097aabf
+routing_manifest_sha256: ef6ecd66a5cda32c0f8f6b6f033e395907b62c76a803d1da4ce252794aa81261
 ontap_region: Wiltshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 10
-- Selected: 4
-- POSS awaiting decision: 2
+- Records: 11
+- Selected: 5
+- POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 4
+- Hard pass: 5
 
 ## SELECTED
 
@@ -68,6 +68,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-st-augus
 
 ---
 action: 
+SELECTED | Wiltshire | Swindon, South West, SN2 2UJ | £13.35 Hourly | School Receptionist
+employer: Even Swindon Primary School
+closing_date: 2026-09-23T09:00:00+01:00
+reason: Clear admin/service title: receptionist
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 582019b3e669a23512b118a76a4ade168b34ab2d4863d071dc27b40eff3ca6b2
+source: Teaching Vacancies
+source_job_id: school-receptionist-even-swindon-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/school-receptionist-even-swindon-primary-school
+---
+
+---
+action: 
 SELECTED | Wiltshire | Malmesbury, South West, SN16 0DF | £18,760.00 - £19,699.00 Annually (Actual) | SEND Administrator
 employer: Malmesbury School
 closing_date: 2026-09-17T09:00:00+01:00
@@ -98,21 +113,6 @@ source_job_id: admin-assistant-ivy-lane-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-ivy-lane-primary-school
 ---
 
----
-action: 
-POSS | Wiltshire | Salisbury, South West, SP2 8JZ | £8,751.00 - £9,031.00 Annually (Actual) Wiltshire Grade D - rises incrementally each year from point 4 to 6 (FTE for 25/26 is £25,185 - £25,989) | Admin Officer (SEND and Attendance focus)
-employer: Harnham Church of England Controlled Junior School
-closing_date: 2026-09-07T23:59:00+01:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 084781c92a4fe5501c80674a8821d1803cf66a16e3b70fc238a88900ae717fb5
-source: Teaching Vacancies
-source_job_id: admin-officer-send-and-attendance-focus-harnham-church-of-england-controlled-junior-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-officer-send-and-attendance-focus-harnham-church-of-england-controlled-junior-school
----
-
 ## EXCLUDED BY REVIEW
 
 - None.
@@ -120,9 +120,10 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-officer-send-an
 ## HARD_PASS
 
 - [HR Generalist](https://teaching-vacancies.service.gov.uk/jobs/hr-generalist) — Insufficient admin/service evidence.
-- [Recruitment Lead](https://teaching-vacancies.service.gov.uk/jobs/recruitment-lead-the-white-horse-federation-swindon-not-recorded) — Insufficient admin/service evidence.
+- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-paxcroft-primary-school) — Manager title salary ceiling £37,563 is not below £28,000.
 - [Senior HR Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-hr-officer-ascend-learning-trust) — Insufficient admin/service evidence.
 - [Senior Operations Lead](https://teaching-vacancies.service.gov.uk/jobs/senior-operations-lead) — Insufficient admin/service evidence.
+- [Student Manager](https://teaching-vacancies.service.gov.uk/jobs/student-manager-royal-wootton-bassett-academy) — Manager title salary ceiling £33,699 is not below £28,000.
 
 ## Safety boundary
 

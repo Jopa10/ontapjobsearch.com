@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Herefordshire
 
-review_date: 2026-09-07
+review_date: 2026-09-08
 review_fingerprint: ee2aec668ee541a9fe179494785cf06df8e41f28a4bf919c61a1720da2aa6536
-routing_manifest_sha256: 2f1d5e350d23bbcb5d65881a4c56e54ac46dbd6b31bd0c081b3dd0f22c6116a6
+routing_manifest_sha256: ef6ecd66a5cda32c0f8f6b6f033e395907b62c76a803d1da4ce252794aa81261
 ontap_region: Herefordshire
 slice_category: admin_service
 slice_status: UNREGISTERED

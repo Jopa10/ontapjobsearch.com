@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Hertfordshire
 
-review_date: 2026-09-07
-review_fingerprint: b68bce156250bfaf3e1d29f2af05180f21534498d00ab76920393f8ee7f3ac3d
-routing_manifest_sha256: 2f1d5e350d23bbcb5d65881a4c56e54ac46dbd6b31bd0c081b3dd0f22c6116a6
+review_date: 2026-09-08
+review_fingerprint: 16bc1d942966c276c7a3609c0122d732a15c7e20bc7be62c2d6c0b1e230a2630
+routing_manifest_sha256: ef6ecd66a5cda32c0f8f6b6f033e395907b62c76a803d1da4ce252794aa81261
 ontap_region: Hertfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 17
-- Selected: 9
-- POSS awaiting decision: 3
+- Records: 19
+- Selected: 10
+- POSS awaiting decision: 4
 - Excluded: 0
 - Hard pass: 5
 
@@ -34,6 +34,21 @@ factual_fingerprint: 14ed5689f64af360c775162d670539b4155f3a8ef94b77b1097af54eb8e
 source: Teaching Vacancies
 source_job_id: admin-assistant-learning-support-nicholas-breakspear-catholic-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-learning-support-nicholas-breakspear-catholic-school
+---
+
+---
+action: 
+SELECTED | Hertfordshire | Waltham Cross, East of England, EN7 5JS | £24,796.00 Annually (FTE) | Administration assistant
+employer: Woodside Primary School
+closing_date: 2026-09-21T12:00:00+01:00
+reason: Clear admin/service title: administration assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 61b108a03008b95e8d96472210f9cae77b848902de448cde0e91dd05eeb1e296
+source: Teaching Vacancies
+source_job_id: administration-assistant-woodside-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-woodside-primary-school
 ---
 
 ---
@@ -98,17 +113,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/examinations-officer-
 
 ---
 action: 
-SELECTED | Hertfordshire | Hemel Hempstead, HP2 5TD | £26,718.00 - £27,983.00 Annually (FTE) | Governance Administrator
-employer: Aspire Academies Trust
-closing_date: 2026-09-09T12:00:00+01:00
-reason: Clear admin/service title: administrator
+SELECTED | Hertfordshire | Rickmansworth, East of England, WD3 1HG | H9, Point 28 (Actual Salary £33,692 ) | Exams Officer
+employer: Saint Joan of Arc Catholic School
+closing_date: 2026-09-28T23:59:59+01:00
+reason: Clear admin/service title: exams officer
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 44748651089c3bebf60e44da73b523e118490de8b4c457fe5fe3323685aedf93
+factual_fingerprint: 993b7d3f0530b7f02982d91f1f107cd187f20a311539a6a59cea3cb5edaa6ed6
 source: Teaching Vacancies
-source_job_id: governance-administrator-aspire-academies-trust
-source_url: https://teaching-vacancies.service.gov.uk/jobs/governance-administrator-aspire-academies-trust
+source_job_id: exams-officer-04392df4-a630-4fb4-aed3-1f3600892c2f
+source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-04392df4-a630-4fb4-aed3-1f3600892c2f
 ---
 
 ---
@@ -201,6 +216,21 @@ factual_fingerprint: d0c8306918503eda5644e6fb8d8efda82d6280642c338310b0c4b069ca0
 source: Teaching Vacancies
 source_job_id: mis-administrator
 source_url: https://teaching-vacancies.service.gov.uk/jobs/mis-administrator
+---
+
+---
+action: 
+POSS | Hertfordshire | Hemel Hempstead, East of England, HP1 2JU | £25,390.00 Annually (Actual) H5 or H6 pro rata (dependant on experience) | Office Manager
+employer: Oakleaf Primary
+closing_date: 2026-09-21T09:00:00+01:00
+reason: Manager title below £28,000 salary ceiling requires review
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 83d659f941852144683260c806603bce92e7ce2bb7d662633d256459683f3f36
+source: Teaching Vacancies
+source_job_id: office-manager-oakleaf-primary
+source_url: https://teaching-vacancies.service.gov.uk/jobs/office-manager-oakleaf-primary
 ---
 
 ## EXCLUDED BY REVIEW

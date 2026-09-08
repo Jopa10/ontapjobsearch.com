@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Hampshire
 
-review_date: 2026-09-07
-review_fingerprint: 257b0f4914eff6a0c796fdf7c94d620b5b8bdc7c65f71d82072786d71bf874af
-routing_manifest_sha256: 2f1d5e350d23bbcb5d65881a4c56e54ac46dbd6b31bd0c081b3dd0f22c6116a6
+review_date: 2026-09-08
+review_fingerprint: c519d9a0a5897af2c136c8ce6aa6ae8fd83c0bd86159604ceafe4b691ce1c974
+routing_manifest_sha256: ef6ecd66a5cda32c0f8f6b6f033e395907b62c76a803d1da4ce252794aa81261
 ontap_region: Hampshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 6
-- Selected: 3
-- POSS awaiting decision: 0
+- Records: 7
+- Selected: 2
+- POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 3
+- Hard pass: 4
 
 ## SELECTED
 
@@ -38,21 +38,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-and-ass
 
 ---
 action: 
-SELECTED | Hampshire | Southampton, South East, SO30 4EJ | £25,614.00 Annually (FTE) Grade B – Step 1 - Actual Annual Salary £21,041.02 (which is equivalent to a full-time salary of £25,614 | Receptionist
-employer: Wildern School
-closing_date: 2026-09-14T12:00:00+01:00
-reason: Clear admin/service title: receptionist
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 40ceb15ad32c310bc90a1f6f105bebc66b3dd918eb713d55823640a87fb49e55
-source: Teaching Vacancies
-source_job_id: receptionist-1dcaf299-1719-4cef-a999-af235a29010e
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-1dcaf299-1719-4cef-a999-af235a29010e
----
-
----
-action: 
 SELECTED | Hampshire | Alresford, South East, SO24 9BS | £25,126.00 - £26,244.00 Annually (FTE) Actual salary £17,020 - £17,735 per annum | SEND Administrator & Access Arrangements Support Assistant
 employer: Perins School
 closing_date: 2026-09-09T23:59:00+01:00
@@ -68,7 +53,20 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-ac
 
 ## POSS — choose SELECT or EXCLUDE
 
-- None.
+---
+action: 
+POSS | Hampshire | Southampton, South East, SO30 4EJ | £25,614.00 Annually (FTE) Grade B – Step 1 - Actual Annual Salary £21,041.02 (which is equivalent to a full-time salary of £25,614 | Receptionist
+employer: Wildern School
+closing_date: 2026-09-14T12:00:00+01:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 40ceb15ad32c310bc90a1f6f105bebc66b3dd918eb713d55823640a87fb49e55
+source: Teaching Vacancies
+source_job_id: receptionist-1dcaf299-1719-4cef-a999-af235a29010e
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-1dcaf299-1719-4cef-a999-af235a29010e
+---
 
 ## EXCLUDED BY REVIEW
 
@@ -78,6 +76,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-ac
 
 - [Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-st-bernadette-s-catholic-primary-school) — Missing salary or pay scale.
 - [Cover Co-ordinator and Cover Supervisor](https://teaching-vacancies.service.gov.uk/jobs/cover-co-ordinator-and-cover-supervisor) — Insufficient admin/service evidence.
+- [Exams Access Arrangements Coordinator](https://teaching-vacancies.service.gov.uk/jobs/exams-access-arrangements-coordinator-ringwood-school-academy) — Insufficient admin/service evidence.
 - [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-the-romsey-school) — Insufficient admin/service evidence.
 
 ## Safety boundary

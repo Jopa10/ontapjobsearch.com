@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Leicestershire
 
-review_date: 2026-09-07
-review_fingerprint: 8c7989df4f7a8ca9bace4e66f9504224ddb7cd9dc3d67f105be371995dd9c95c
-routing_manifest_sha256: 2f1d5e350d23bbcb5d65881a4c56e54ac46dbd6b31bd0c081b3dd0f22c6116a6
+review_date: 2026-09-08
+review_fingerprint: a5462036c3714d732121a814e146fa665281b6bc77a86c869eddc0651770ca6c
+routing_manifest_sha256: ef6ecd66a5cda32c0f8f6b6f033e395907b62c76a803d1da4ce252794aa81261
 ontap_region: Leicestershire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 4
-- Selected: 1
+- Records: 5
+- Selected: 2
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 3
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Leicestershire | Leicester, East Midlands, LE3 6NF | FTE £26,851.82 - £27,280.37 | Office Administrator (Maternity Cover)
+employer: Braunstone Frith Primary Academy
+closing_date: 2026-09-21T09:00:59+01:00
+reason: Clear admin/service title: administrator, office administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 34e60294de183d3d764d8090d7bdd9dd46ea941aad3d911df0ec98aabdf00d52
+source: Teaching Vacancies
+source_job_id: office-administrator-maternity-cover-braunstone-frith-primary-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-maternity-cover-braunstone-frith-primary-academy
+---
 
 ---
 action: 

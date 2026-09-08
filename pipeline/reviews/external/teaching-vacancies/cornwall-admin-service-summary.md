@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cornwall
 
-review_date: 2026-09-07
-review_fingerprint: 46cd8572bfe1b2d4680caff1cbf6e7c2804a96537d7a87a7dbad0caa59213c47
-routing_manifest_sha256: 2f1d5e350d23bbcb5d65881a4c56e54ac46dbd6b31bd0c081b3dd0f22c6116a6
+review_date: 2026-09-08
+review_fingerprint: 881c65dca1583983dc32fa6ce452fd6f180d6db714f1adbcdfa7b5d55806b339
+routing_manifest_sha256: ef6ecd66a5cda32c0f8f6b6f033e395907b62c76a803d1da4ce252794aa81261
 ontap_region: Cornwall
 slice_category: admin_service
 slice_status: LIVE
@@ -25,12 +25,12 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 action: 
 SELECTED | Cornwall | Falmouth, South West, TR11 4LH | Salary range - £27,665 - £30,366 per annum | Exams Officer
 employer: Falmouth School
-closing_date: 2026-09-10T09:00:00+01:00
+closing_date: 2026-09-21T09:00:00+01:00
 reason: Clear admin/service title: exams officer
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: a54d235d3c7da3b9641a602dd2c92e9bdfdbc46c5ac2ab78d27a2d544523647a
+factual_fingerprint: fc58ba53bdba4c843d8d876e91974cf8948a998350bf9e177d9510202d814074
 source: Teaching Vacancies
 source_job_id: exams-officer-falmouth-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-falmouth-school

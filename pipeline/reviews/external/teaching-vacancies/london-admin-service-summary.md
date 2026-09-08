@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — London
 
-review_date: 2026-09-07
-review_fingerprint: 0575b3b49b9219c99dbf5595950a5e58329527ade4c25eacb7caa3c267ca707c
-routing_manifest_sha256: 2f1d5e350d23bbcb5d65881a4c56e54ac46dbd6b31bd0c081b3dd0f22c6116a6
+review_date: 2026-09-08
+review_fingerprint: 86ed6daa6fa8353e99a2166acc8733867ba7a90a195f1240ac75f61235682f7c
+routing_manifest_sha256: ef6ecd66a5cda32c0f8f6b6f033e395907b62c76a803d1da4ce252794aa81261
 ontap_region: London
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 38
-- Selected: 11
-- POSS awaiting decision: 5
+- Records: 46
+- Selected: 14
+- POSS awaiting decision: 6
 - Excluded: 0
-- Hard pass: 22
+- Hard pass: 26
 
 ## SELECTED
 
@@ -38,6 +38,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assist
 
 ---
 action: 
+SELECTED | London | Dagenham, London, RM9 5LT | London Borough of Barking and Dagenham Level 3 apprentice rates dependent on age | Apprentice School Business Administrator
+employer: Southwood Primary School
+closing_date: 2026-09-21T23:59:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: d36b9adf667fcb3a38a1c42693889e5d03e30a9588f6c227a9800ea9c12b67d6
+source: Teaching Vacancies
+source_job_id: apprentice-school-business-administrator
+source_url: https://teaching-vacancies.service.gov.uk/jobs/apprentice-school-business-administrator
+---
+
+---
+action: 
 SELECTED | London | Hayes, London, UB3 1PB | Scale 3, £29,436 fte (subject to pro rata) | Attendance Officer
 employer: Harlington School
 closing_date: 2026-09-17T23:59:00+01:00
@@ -49,6 +64,21 @@ factual_fingerprint: db828f86945354209bcc3e3f7f121e353ba338bc66c495408182223ec0a
 source: Teaching Vacancies
 source_job_id: attendance-officer-51e5944a-f923-43fe-901e-fe10c0fa1676
 source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-51e5944a-f923-43fe-901e-fe10c0fa1676
+---
+
+---
+action: 
+SELECTED | London | Bexleyheath, DA7 4HL | BEX 05.1 | Finance & HR Administrator
+employer: Illuminate Minds Trust
+closing_date: 2026-09-14T23:59:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 4cf7d1d2520f63502cbb449faf86eebf94911c67dba816e7f2f8aaab34e60c36
+source: Teaching Vacancies
+source_job_id: finance-hr-administrator-illuminate-minds-trust
+source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-hr-administrator-illuminate-minds-trust
 ---
 
 ---
@@ -98,21 +128,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/post-16-academic-supe
 
 ---
 action: 
-SELECTED | London | Upminster, London, RM14 1SF | £29,434 - £31,155 | Receptionist (Part-time)
-employer: Hall Mead School
-closing_date: 2026-09-07T15:00:00+01:00
-reason: Clear admin/service title: receptionist
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: e5b6eea25b8d7d9e64e668db4a61fd54ee16ae562de5752253787404fe088203
-source: Teaching Vacancies
-source_job_id: receptionist-part-time-hall-mead-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-part-time-hall-mead-school
----
-
----
-action: 
 SELECTED | London | Barking, London, IG11 0FU | £27,418.00 Annually (Actual) Support Staff Scale - 4.7 | School Receptionist
 employer: Riverside Bridge School
 closing_date: 2026-09-17T23:59:00+01:00
@@ -158,6 +173,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/sen-administrative-as
 
 ---
 action: 
+SELECTED | London | London, E4 7LT | £9,011.00 - £9,541.00 Monthly | SEN Administrative Assistant - Chingford Academies Trust
+employer: Chingford Academies Trust
+closing_date: 2026-09-21T09:00:00+01:00
+reason: Clear admin/service title: administrative assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 647bb47638196eb554223f94b373ebb88e1befd2f603072f30755c7aee82efae
+source: Teaching Vacancies
+source_job_id: sen-administrative-assistant-chingford-academies-trust
+source_url: https://teaching-vacancies.service.gov.uk/jobs/sen-administrative-assistant-chingford-academies-trust
+---
+
+---
+action: 
 SELECTED | London | London, London, E11 2JZ | £36,593.00 - £37,690.00 Annually (Actual) | SEND Administrator
 employer: Wanstead High School
 closing_date: 2026-09-18T23:59:00+01:00
@@ -184,6 +214,21 @@ factual_fingerprint: c064416c5f27166e032b2169144aa77066401d966ad23062069eecb00b8
 source: Teaching Vacancies
 source_job_id: senior-data-administrator
 source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-data-administrator
+---
+
+---
+action: 
+SELECTED | London | Morden, London, SM4 6DU | £31,086-£31,530 | Student Services and Medical Receptionist
+employer: Harris Academy Morden
+closing_date: 2026-09-21T23:59:00+01:00
+reason: Clear admin/service title: receptionist
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 0db0884a588f58fd095eeaa56865d61fe4aec2a5c8d16f2f0081b25b649d2b28
+source: Teaching Vacancies
+source_job_id: student-services-and-medical-receptionist
+source_url: https://teaching-vacancies.service.gov.uk/jobs/student-services-and-medical-receptionist
 ---
 
 ## POSS — choose SELECT or EXCLUDE
@@ -216,6 +261,21 @@ factual_fingerprint: 191ae12793a688c36e982f53c8c75b135af37598de3aebc9308101a40ec
 source: Teaching Vacancies
 source_job_id: administrator-north-brent-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-north-brent-school
+---
+
+---
+action: 
+POSS | London | London, EC4R 2SP | £24,004.70 - £24,895.91 Annually (Actual) | Governance Clerk
+employer: Skinners' Academies Trust
+closing_date: 2026-09-19T23:59:00+01:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 8c7fac608b54c7e6f5c311c09e17688dd1a4c8f0139901f0bb58ec547634d908
+source: Teaching Vacancies
+source_job_id: governance-clerk-skinners-academies-trust
+source_url: https://teaching-vacancies.service.gov.uk/jobs/governance-clerk-skinners-academies-trust
 ---
 
 ---
@@ -271,19 +331,23 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 
 - [Admin Officer with Reception duties](https://teaching-vacancies.service.gov.uk/jobs/admin-officer-with-reception-duties) — Insufficient admin/service evidence.
 - [Attendance & Welfare Lead and Deputy Designated Safeguarding Lead (DDSL)](https://teaching-vacancies.service.gov.uk/jobs/attendance-welfare-lead-and-deputy-designated-safeguarding-lead-ddsl) — Insufficient admin/service evidence.
-- [Data and Examinations Manager](https://teaching-vacancies.service.gov.uk/jobs/data-and-examinations-manager-park-view-school) — Manager title salary ceiling £52,194 is not below £28,000.
 - [Exams & Access Arrangements Assistant](https://teaching-vacancies.service.gov.uk/jobs/exams-access-arrangements-assistant) — Insufficient admin/service evidence.
 - [Facilities Manager](https://teaching-vacancies.service.gov.uk/jobs/facilities-manager-wimbledon-college) — Manager title salary ceiling £52,827 is not below £28,000.
 - [Family Welfare Officer](https://teaching-vacancies.service.gov.uk/jobs/family-welfare-officer-orion-eden-park-beckenham-kent) — Insufficient admin/service evidence.
 - [Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-alternative-learning-trust) — Insufficient admin/service evidence.
+- [Finance Support Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-support-assistant-sutton-community-academy) — Insufficient admin/service evidence.
+- [Financial Controller](https://teaching-vacancies.service.gov.uk/jobs/financial-controller-69b53fc4-0e74-4fcc-8b97-a4bff926f1dd) — Insufficient admin/service evidence.
 - [Fundraising Officer](https://teaching-vacancies.service.gov.uk/jobs/fundraising-officer-ac67c185-438c-4d63-82c9-4fcd5524afc9) — Insufficient admin/service evidence.
 - [HR Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-woodside-primary-school-croydon-surrey) — Insufficient admin/service evidence.
 - [Human Resources & Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/human-resources-operations-manager-the-woodland-academy-trust) — Manager title salary ceiling £59,778 is not below £28,000.
 - [Human Resources Manager (Schools)](https://teaching-vacancies.service.gov.uk/jobs/human-resources-manager-schools) — Manager title salary ceiling £41,000 is not below £28,000.
 - [Learning Resource Centre Manager](https://teaching-vacancies.service.gov.uk/jobs/learning-resource-centre-manager-harris-city-academy-crystal-palace-london) — Manager title salary ceiling £34,488 is not below £28,000.
+- [Management Accountant/Business Partner](https://teaching-vacancies.service.gov.uk/jobs/management-accountant-business-partner-the-charter-schools-educational-trust-london-not-recorded) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-1a973059-d7f8-42e5-b5fb-d95788720396) — Manager title salary ceiling £44,235 is not below £28,000.
+- [OFFICE MANAGER](https://teaching-vacancies.service.gov.uk/jobs/office-manager-c51d6e8a-f80b-4d3c-a580-8c73630ffb4a) — Manager title salary ceiling £40,182 is not below £28,000.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-cf4ed5f9-993c-4290-bdde-9e62b7a08c9c) — Manager title salary ceiling £34,817 is not below £28,000.
 - [Payroll Officer](https://teaching-vacancies.service.gov.uk/jobs/payroll-officer-b2efa37a-6b4a-4d64-ab55-23d9744d8569) — Insufficient admin/service evidence.
+- [Recruitment and Engagement Manager](https://teaching-vacancies.service.gov.uk/jobs/recruitment-and-engagement-manager) — Manager title salary ceiling £42,060 is not below £28,000.
 - [SBM/CFO](https://teaching-vacancies.service.gov.uk/jobs/sbm-cfo) — Insufficient admin/service evidence.
 - [School Operations, Communications & Development Officer](https://teaching-vacancies.service.gov.uk/jobs/school-operations-communications-development-officer) — Insufficient admin/service evidence.
 - [School Social Worker](https://teaching-vacancies.service.gov.uk/jobs/school-social-worker-whitefriars-school) — Out-of-scope occupation: social worker.

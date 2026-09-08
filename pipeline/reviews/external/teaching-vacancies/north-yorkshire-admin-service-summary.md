@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - North
 
-review_date: 2026-09-07
-review_fingerprint: 32d8deaa58882e0d11c025e1b14444bfa25f5ec4729d3d3a4afe50fbf8597827
-routing_manifest_sha256: 2f1d5e350d23bbcb5d65881a4c56e54ac46dbd6b31bd0c081b3dd0f22c6116a6
+review_date: 2026-09-08
+review_fingerprint: 12e10d75346f30063d09f222272c05ac72144f5f336f1cbe55b000cd1afa07ee
+routing_manifest_sha256: ef6ecd66a5cda32c0f8f6b6f033e395907b62c76a803d1da4ce252794aa81261
 ontap_region: Yorkshire - North
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 6
-- Selected: 2
+- Records: 7
+- Selected: 3
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 4
@@ -34,6 +34,21 @@ factual_fingerprint: ab48dc847905d321e04c26024101218f0bc9297b0434c4f12d90efd9976
 source: Teaching Vacancies
 source_job_id: school-office-administrator-askwith-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/school-office-administrator-askwith-primary-school
+---
+
+---
+action: 
+SELECTED | Yorkshire - North | Scarborough, Yorkshire and the Humber, YO11 3LW | £13,968.00 - £15,135.00 Annually (Actual) Salary shown above is pro rata, based on an Full Time Equivalent of £26,824 to £29,064 (Grade F, Scale Points 8-13) | SEND Administrator
+employer: George Pindar School
+closing_date: 2026-09-20T23:59:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 2998730ede37915c13e191b05a25d74b2d5239b3ca4611f2107a1e3d13514bd7
+source: Teaching Vacancies
+source_job_id: send-administrator-george-pindar-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-george-pindar-school
 ---
 
 ---

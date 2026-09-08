@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cambridgeshire
 
-review_date: 2026-09-07
-review_fingerprint: f75e83d0449381cb2d7daaa38205e7c0a2a49dda70adf0d46d338fc94540a2f2
-routing_manifest_sha256: 2f1d5e350d23bbcb5d65881a4c56e54ac46dbd6b31bd0c081b3dd0f22c6116a6
+review_date: 2026-09-08
+review_fingerprint: 399709b0518d45f8abc1c002dccdfd7d90cfd6e75cbbb44397fd4efddbdce41c
+routing_manifest_sha256: ef6ecd66a5cda32c0f8f6b6f033e395907b62c76a803d1da4ce252794aa81261
 ontap_region: Cambridgeshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 18
+- Records: 24
 - Selected: 5
-- POSS awaiting decision: 2
+- POSS awaiting decision: 7
 - Excluded: 0
-- Hard pass: 11
+- Hard pass: 12
 
 ## SELECTED
 
@@ -53,6 +53,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assist
 
 ---
 action: 
+SELECTED | Cambridgeshire | Cambridge, East of England, CB4 2BD | £25,614.00 Annually (FTE) | Administrative Assistant
+employer: Milton Road Primary School
+closing_date: 2026-09-20T17:00:00+01:00
+reason: Clear admin/service title: administrative assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 0c8c98eb036176ef19b3b585df341f50964ce142aab5888bf1f3425d6e08aa7b
+source: Teaching Vacancies
+source_job_id: administrative-assistant-milton-road-primary-school-cambridge-cambridgeshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-milton-road-primary-school-cambridge-cambridgeshire
+---
+
+---
+action: 
 SELECTED | Cambridgeshire | St Neots, East of England, PE19 1TF | £24,404.00 Annually (FTE) | Finance / Admin Assistant
 employer: Priory Junior School
 closing_date: 2026-10-30T23:59:00+00:00
@@ -81,21 +96,6 @@ source_job_id: pastoral-services-administrator-queen-katharine-academy-peterboro
 source_url: https://teaching-vacancies.service.gov.uk/jobs/pastoral-services-administrator-queen-katharine-academy-peterborough-cambridgeshire
 ---
 
----
-action: 
-SELECTED | Cambridgeshire | Cambridge, East of England, CB24 4RS | £12,564.75 - £13,609.32 Annually (Actual) £26,403 - £28598 FTE Grade 6, Points 7 - 12 on the Meridian Trust Support Staff Salary Scale | SEND Administrator
-employer: Swavesey Village College
-closing_date: 2026-09-08T09:00:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 633c42205c151a68a8c9a7e4cd8269b0468097088805b6ed6f211575d906f789
-source: Teaching Vacancies
-source_job_id: send-administrator-swavesey-village-college
-source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-swavesey-village-college
----
-
 ## POSS — choose SELECT or EXCLUDE
 
 ---
@@ -111,6 +111,81 @@ factual_fingerprint: f1cb160ba772b2e2384e97a44e6559dcd7d92b357c813b1c62444e3355a
 source: Teaching Vacancies
 source_job_id: administrator-9219e9ba-082d-4b75-91ee-2e1cd2dd8f75
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-9219e9ba-082d-4b75-91ee-2e1cd2dd8f75
+---
+
+---
+action: 
+POSS | Cambridgeshire | Cambridge, East of England, CB2 0SZ | £30,000.00 - £35,000.00 Annually (FTE) | Finance Officer
+employer: Cambridge Academy for Science and Technology
+closing_date: 2026-09-21T09:00:00+01:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: f76b64528d80236481efcac2c26b60c8db271f622467b73007fe58954ae03b1b
+source: Teaching Vacancies
+source_job_id: finance-officer-cambridge-academy-for-science-and-technology
+source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-officer-cambridge-academy-for-science-and-technology
+---
+
+---
+action: 
+POSS | Cambridgeshire | Cambridge, East of England, CB1 3RJ | £30,000.00 - £35,000.00 Annually (FTE) | Finance Officer
+employer: Coleridge Community College
+closing_date: 2026-09-21T09:00:00+01:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 1ab09963a585a2caedfa8b58f436c4ef19a8c50176f28c1c9b3195146c110128
+source: Teaching Vacancies
+source_job_id: finance-officer-coleridge-community-college
+source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-officer-coleridge-community-college
+---
+
+---
+action: 
+POSS | Cambridgeshire | Cambridge, East of England, CB1 1EH | £30,000.00 - £35,000.00 Annually (FTE) | Finance Officer
+employer: Parkside Community College
+closing_date: 2026-09-21T09:00:00+01:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 5428ca0e300ce12bdd65323f4d7bb060a56ef9ac0e9e778d22b91b8c36401393
+source: Teaching Vacancies
+source_job_id: finance-officer-parkside-community-college
+source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-officer-parkside-community-college
+---
+
+---
+action: 
+POSS | Cambridgeshire | Cambridge, East of England, CB5 8ND | £30,000.00 - £35,000.00 Annually (FTE) | Finance Officer
+employer: The Galfrid School
+closing_date: 2026-09-21T09:00:00+01:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: c7aeba3a5ed8a7c5838fc8c05f973bbf6bef478a8861a973ca290f21a75e6bea
+source: Teaching Vacancies
+source_job_id: finance-officer-the-galfrid-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-officer-the-galfrid-school
+---
+
+---
+action: 
+POSS | Cambridgeshire | Cambridge, East of England, CB2 9FD | £30,000.00 - £35,000.00 Annually (FTE) | Finance Officer
+employer: Trumpington Community College
+closing_date: 2026-09-21T09:00:00+01:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 1daa56534ca35e1e391403026b52171a78c3b04aabf90ab2c8e87068b501f6e5
+source: Teaching Vacancies
+source_job_id: finance-officer-trumpington-community-college
+source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-officer-trumpington-community-college
 ---
 
 ---
@@ -134,6 +209,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/marketing-communicati
 
 ## HARD_PASS
 
+- [Attendance Support Assistant](https://teaching-vacancies.service.gov.uk/jobs/attendance-support-assistant-comberton-village-college-cambridge-cambridgeshire) — Insufficient admin/service evidence.
 - [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-greater-peterborough-utc) — Insufficient admin/service evidence.
 - [Head of HR Business Partnering](https://teaching-vacancies.service.gov.uk/jobs/head-of-hr-business-partnering) — Insufficient admin/service evidence.
 - [Head of HR Operations](https://teaching-vacancies.service.gov.uk/jobs/head-of-hr-operations-meridian-trust) — Insufficient admin/service evidence.

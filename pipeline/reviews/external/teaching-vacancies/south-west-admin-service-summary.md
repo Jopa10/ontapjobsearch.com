@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — South West
 
-review_date: 2026-09-07
-review_fingerprint: ba8db3bea42bdc7a858a0c5e0bbbf0b8205824df2bc17fe881732d4dafb82f86
-routing_manifest_sha256: 2f1d5e350d23bbcb5d65881a4c56e54ac46dbd6b31bd0c081b3dd0f22c6116a6
+review_date: 2026-09-08
+review_fingerprint: 0cfdcd02335ca98ad226335141f1a6b4435a6d7f7d9facae47952816cab94a49
+routing_manifest_sha256: ef6ecd66a5cda32c0f8f6b6f033e395907b62c76a803d1da4ce252794aa81261
 ontap_region: South West
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 1
-- Selected: 1
+- Records: 2
+- Selected: 2
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 0
 
 ## SELECTED
+
+---
+action: 
+SELECTED | South West | Berkeley, South West, GL13 9FB | Up to £26,427 FTE | Receptionist and Administration Assistant
+employer: SGS Berkeley Green UTC
+closing_date: 2026-09-18T09:00:00+01:00
+reason: Clear admin/service title: receptionist
+jobg8_check: NO_MATCH
+slice_status: UNREGISTERED
+migration_status: 
+factual_fingerprint: e7c3d944d327a6ff0d7f5f224184be0d169685cbe2b668338cddd0388c14a4e4
+source: Teaching Vacancies
+source_job_id: receptionist-and-administration-assistant-sgs-berkeley-green-utc
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-and-administration-assistant-sgs-berkeley-green-utc
+---
 
 ---
 action: 

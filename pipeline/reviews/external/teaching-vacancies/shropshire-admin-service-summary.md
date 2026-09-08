@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Shropshire
 
-review_date: 2026-09-07
-review_fingerprint: 44e1f6dc1c0de9a57976f1c67eaa023c8b02d0d82bcc4e6e7730169d74ef81fa
-routing_manifest_sha256: 2f1d5e350d23bbcb5d65881a4c56e54ac46dbd6b31bd0c081b3dd0f22c6116a6
+review_date: 2026-09-08
+review_fingerprint: a0570fe4cff044ad278c2a8b6afc7be0d07b598d46b9ec7b6048049632e7394e
+routing_manifest_sha256: ef6ecd66a5cda32c0f8f6b6f033e395907b62c76a803d1da4ce252794aa81261
 ontap_region: Shropshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 4
-- Selected: 2
+- Records: 5
+- Selected: 3
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 2
@@ -49,6 +49,21 @@ factual_fingerprint: 0363f2f42f6372d75c125d5eafb4d22d955a1296c181f99ae4a3e56005d
 source: Teaching Vacancies
 source_job_id: administration-assistant-inclusion-and-people
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-inclusion-and-people
+---
+
+---
+action: 
+SELECTED | Shropshire | Shrewsbury, West Midlands, SY3 8LU | £13.90 - £13.90 Hourly | Business Support Administrator
+employer: St George's Junior School
+closing_date: 2026-09-21T12:00:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: d02df28199a4f0fef6b7a3b4bf305019f89f37d482ead78f887c0e89ac94988b
+source: Teaching Vacancies
+source_job_id: business-support-administrator-st-george-s-junior-school-shrewsbury-shropshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-administrator-st-george-s-junior-school-shrewsbury-shropshire
 ---
 
 ## POSS — choose SELECT or EXCLUDE

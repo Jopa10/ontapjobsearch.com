@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Derbyshire
 
-review_date: 2026-09-07
-review_fingerprint: 81f455dca59dffbbb053f6367949f96bc12edd5dcff707f1e5e7ced9bcc1fa85
-routing_manifest_sha256: 2f1d5e350d23bbcb5d65881a4c56e54ac46dbd6b31bd0c081b3dd0f22c6116a6
+review_date: 2026-09-08
+review_fingerprint: e62eee8ea893fa1d2d576792eb320e652d58b8c6d2c6bf6253fdde917caee065
+routing_manifest_sha256: ef6ecd66a5cda32c0f8f6b6f033e395907b62c76a803d1da4ce252794aa81261
 ontap_region: Derbyshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 7
-- Selected: 1
+- Records: 8
+- Selected: 2
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 6
@@ -34,6 +34,21 @@ factual_fingerprint: 4dde3521d859f0332533feda0d888b51ad3e6ff9d32eca10d92bc493460
 source: Teaching Vacancies
 source_job_id: administrative-assistant-cover-administrator-the-bolsover-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-cover-administrator-the-bolsover-school
+---
+
+---
+action: 
+SELECTED | Derbyshire | Buxton, East Midlands, SK17 9EA | £25,989.00 - £26,458.00 Annually (FTE) Grade 6 (Actual salary £9,022 | Receptionist / School Business Assistant
+employer: Buxton Community School
+closing_date: 2026-09-16T23:59:00+01:00
+reason: Clear admin/service title: receptionist
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 1e9b78d983aa10cf9183bff9e7bd8af905aeeefb6b29e240997d4229d0a43e3d
+source: Teaching Vacancies
+source_job_id: receptionist-school-business-assistant
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-school-business-assistant
 ---
 
 ## POSS — choose SELECT or EXCLUDE

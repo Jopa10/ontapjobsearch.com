@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Lincolnshire
 
-review_date: 2026-09-07
-review_fingerprint: c4450837d57f16459fc2493346fb65d94b9c1488f14b7ee1242d722f3ab5929b
-routing_manifest_sha256: 2f1d5e350d23bbcb5d65881a4c56e54ac46dbd6b31bd0c081b3dd0f22c6116a6
+review_date: 2026-09-08
+review_fingerprint: 5c57bcb19d26015f126936eaf5293f876969ad7d44e1dccc10bd2c480e09428b
+routing_manifest_sha256: ef6ecd66a5cda32c0f8f6b6f033e395907b62c76a803d1da4ce252794aa81261
 ontap_region: Lincolnshire
 slice_category: admin_service
 slice_status: LIVE
@@ -38,17 +38,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/cover-and-operations-
 
 ---
 action: 
-SELECTED | Lincolnshire | Spalding, East Midlands, PE11 2EH | £23,973.00 - £26,409.00 Annually (Actual) G5.12-15 £27,254 - £30,024 FTE | HR Administrator
-employer: Tulip Academy
-closing_date: 2026-09-07T23:59:00+01:00
-reason: Clear admin/service title: administrator
+SELECTED | Lincolnshire | Bourne, East Midlands, PE10 9JE | £25,614.00 - £26,846.00 Annually (FTE) Salary will paid pro rata | Receptionist and Administrative Assistant
+employer: Bourne Grammar School
+closing_date: 2026-09-16T09:00:00+01:00
+reason: Clear admin/service title: administrative assistant, receptionist
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 02e994d324dc6cad84715c483552b2fada9a74488d2225b2bbf8628080feb572
+factual_fingerprint: 9cf03a8327023ba8f762f9bb5d74ada32af6b6c4bc30ad033e667af36c286ae3
 source: Teaching Vacancies
-source_job_id: hr-administrator-tulip-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-tulip-academy
+source_job_id: receptionist-and-administrative-assistant-bourne-grammar-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-and-administrative-assistant-bourne-grammar-school
 ---
 
 ---
@@ -85,17 +85,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-appren
 
 ---
 action: 
-POSS | Lincolnshire | Lincoln, East Midlands, LN6 7SX | £14,432.00 - £16,317.00 Annually (Actual) Band 4, SCP 11 - 17 | Data Officer
-employer: St Peter and St Paul, Catholic Voluntary Academy
-closing_date: 2026-09-07T23:59:00+01:00
-reason: Borderline school administration title: data officer
+POSS | Lincolnshire | Spalding, East Midlands, PE11 1JQ | Approx £25,000.00 | Finance Manager
+employer: The Spalding St John the Baptist Church of England Primary School
+closing_date: 2026-10-05T12:00:00+01:00
+reason: Manager title below £28,000 salary ceiling requires review
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: dca197f864df2ba40b1537d3caf44a0a3a47a49f4643001faac65ea9c3219b64
+factual_fingerprint: 0c71885b5ce88f1ceb6e195aa1cdb19480225d1e06265b08c31145dab4efc5e9
 source: Teaching Vacancies
-source_job_id: data-officer-st-peter-and-st-paul-catholic-voluntary-academy-lincoln-lincolnshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/data-officer-st-peter-and-st-paul-catholic-voluntary-academy-lincoln-lincolnshire
+source_job_id: finance-manager-the-spalding-st-john-the-baptist-church-of-england-primary-school-spalding-lincolnshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-manager-the-spalding-st-john-the-baptist-church-of-england-primary-school-spalding-lincolnshire
 ---
 
 ---

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Norfolk
 
-review_date: 2026-09-07
-review_fingerprint: 5cb2babadfa6a0dbff5d6a3ae3da995e2b28983c0672a36a978c4266ebe99e71
-routing_manifest_sha256: 2f1d5e350d23bbcb5d65881a4c56e54ac46dbd6b31bd0c081b3dd0f22c6116a6
+review_date: 2026-09-08
+review_fingerprint: 1f0e9d17c0a1c337bd45b5a20de94f9432a48130ed9f67963d74ccc84de0715a
+routing_manifest_sha256: ef6ecd66a5cda32c0f8f6b6f033e395907b62c76a803d1da4ce252794aa81261
 ontap_region: Norfolk
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 11
-- Selected: 5
-- POSS awaiting decision: 0
+- Records: 12
+- Selected: 6
+- POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 6
+- Hard pass: 5
 
 ## SELECTED
 
@@ -96,9 +96,37 @@ source_job_id: school-administrator-angel-road-infant-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-angel-road-infant-school
 ---
 
+---
+action: 
+SELECTED | Norfolk | King's Lynn, East of England, PE31 8RF | £10,376 - £10,539 actual pa | School Secretary
+employer: Rudham CofE Primary Academy
+closing_date: 2026-09-28T01:00:00+01:00
+reason: Clear admin/service title: school secretary, secretary
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: bfc80bad7286c269184542f882b120e70fc74bb500fc2923b0adebf00afebc74
+source: Teaching Vacancies
+source_job_id: school-secretary-rudham-cofe-primary-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/school-secretary-rudham-cofe-primary-academy
+---
+
 ## POSS — choose SELECT or EXCLUDE
 
-- None.
+---
+action: 
+POSS | Norfolk | Wymondham, East of England, NR18 9SZ | £26,403 - £28,142 pa | HR Administrator
+employer: Wymondham College
+closing_date: 2026-11-07T00:00:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 67a58fc9072d4a4beaea7e724007e6a1502cfe136d38b5cb34221ec368d5a93b
+source: Teaching Vacancies
+source_job_id: hr-administrator-wymondham-college
+source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-wymondham-college
+---
 
 ## EXCLUDED BY REVIEW
 
@@ -107,7 +135,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 ## HARD_PASS
 
 - [Administration Officer: Vulnerable Students](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-vulnerable-students) — Insufficient admin/service evidence.
-- [Administrator](https://teaching-vacancies.service.gov.uk/jobs/administrator-d3689c09-b164-4585-b47e-b87553162134) — Missing salary or pay scale.
 - [Chief Financial Officer](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-broad-horizons-education-trust) — Insufficient admin/service evidence.
 - [Development Officer](https://teaching-vacancies.service.gov.uk/jobs/development-officer-norwich-city-college-of-further-and-higher-education) — Insufficient admin/service evidence.
 - [Regional People Partner](https://teaching-vacancies.service.gov.uk/jobs/regional-people-partner-ormiston-victory-academy-norwich-norfolk) — Insufficient admin/service evidence.

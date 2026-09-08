@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Nottinghamshire
 
-review_date: 2026-09-07
-review_fingerprint: 100b8e0f58e1c82c53dc3819858523d025c9ab284e24839f42102e3a005d9372
-routing_manifest_sha256: 2f1d5e350d23bbcb5d65881a4c56e54ac46dbd6b31bd0c081b3dd0f22c6116a6
+review_date: 2026-09-08
+review_fingerprint: 268d81e96747e799d7c123070850c3b35db9c80fb1889725c6c6120dade7a806
+routing_manifest_sha256: ef6ecd66a5cda32c0f8f6b6f033e395907b62c76a803d1da4ce252794aa81261
 ontap_region: Nottinghamshire
 slice_category: admin_service
 slice_status: LIVE
@@ -14,27 +14,12 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 14
-- Selected: 8
+- Selected: 7
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 6
 
 ## SELECTED
-
----
-action: 
-SELECTED | Nottinghamshire | Nottingham, East Midlands, NG5 7JZ | £24,796.00 - £25,583.00 Annually (FTE) Salary will be paid pro rate based on term time weeks and hours worked | Administrative Assistant
-employer: Christ The King Voluntary Academy
-closing_date: 2026-09-07T23:59:00+01:00
-reason: Clear admin/service title: administrative assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: fa463f0d606dbdad54230fa82112d93bc5fba363f36f4137f5b619fb1ba69040
-source: Teaching Vacancies
-source_job_id: administrative-assistant-6dd3cd8b-9366-40d4-aff9-a0419363ea61
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-6dd3cd8b-9366-40d4-aff9-a0419363ea61
----
 
 ---
 action: 
@@ -83,6 +68,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assist
 
 ---
 action: 
+SELECTED | Nottinghamshire | Newark, East Midlands, NG24 3AL | £11,495.00 Annually (Actual) Term Time Only Monday - Friday 12:30 - 16:30 G3.6 £24796 FTE | Administrative Assistant
+employer: Newark Orchard School
+closing_date: 2026-09-27T23:59:00+01:00
+reason: Clear admin/service title: administrative assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: c47c0f2ee1ca72c0ac044ee3b48f0c1f5424cb9eca5ea7fced6712098c2009a4
+source: Teaching Vacancies
+source_job_id: administrative-assistant-newark-orchard-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-newark-orchard-school
+---
+
+---
+action: 
 SELECTED | Nottinghamshire | Nottingham, NG9 6RZ | £24,234.00 - £25,823.00 Annually (Actual) Full Time, Term Time only + 2 Weeks - NJC6-10 | Administrative Assistant
 employer: The Spencer Academies Trust
 closing_date: 2026-09-18T12:00:00+01:00
@@ -94,21 +94,6 @@ factual_fingerprint: ea8f2b45714b8a6f017e4cdadfbe7e29b7348d7d922c9c780f933415293
 source: Teaching Vacancies
 source_job_id: administrative-assistant-the-spencer-academies-trust-nottingham-not-recorded
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-the-spencer-academies-trust-nottingham-not-recorded
----
-
----
-action: 
-SELECTED | Nottinghamshire | Nottingham, East Midlands, NG5 7JZ | £25,989.00 - £27,254.00 Annually (FTE) Salary will be paid pro rate based on term time weeks and hours worked | Administrative Assistant - Sixth Form and Work-Related Learning
-employer: Christ The King Voluntary Academy
-closing_date: 2026-09-07T23:59:00+01:00
-reason: Clear admin/service title: administrative assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 15a2d66e4b2490795f23fc4f5d57164bc8eafdc7c7cec77821fd7359746ca67f
-source: Teaching Vacancies
-source_job_id: administrative-assistant-sixth-form-and-work-related-learning
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-sixth-form-and-work-related-learning
 ---
 
 ---
@@ -166,6 +151,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/data-officer-the-whit
 
 - [Accounts Payable Assistant](https://teaching-vacancies.service.gov.uk/jobs/accounts-payable-assistant-greenwood-academies-trust) — Insufficient admin/service evidence.
 - [Exams and Assessment Assistant](https://teaching-vacancies.service.gov.uk/jobs/exams-and-assessment-assistant-965ac6ec-7678-47d6-8b9f-daf363a12cdd) — Insufficient admin/service evidence.
+- [HR and Recruitment Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-and-recruitment-officer-redhill-academy-trust) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-sycamore-academy) — Manager title salary ceiling £40,446 is not below £28,000.
 - [Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-65ca1f05-aa50-430f-afeb-b27088a93265) — Insufficient admin/service evidence.
 - [Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-newark-orchard-school-newark) — Insufficient admin/service evidence.

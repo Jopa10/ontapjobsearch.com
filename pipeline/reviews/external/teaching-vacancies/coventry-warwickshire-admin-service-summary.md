@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Coventry & Warwickshire
 
-review_date: 2026-09-07
-review_fingerprint: 4b7fccb7cd01bd717fbfc3c5491c6f3924e5ce4be2e7ee9464ee264c5597a432
-routing_manifest_sha256: 2f1d5e350d23bbcb5d65881a4c56e54ac46dbd6b31bd0c081b3dd0f22c6116a6
+review_date: 2026-09-08
+review_fingerprint: 95d15880db413d5f138e66325fdfa0607148ba1df48631ebf0b8849b395ef569
+routing_manifest_sha256: ef6ecd66a5cda32c0f8f6b6f033e395907b62c76a803d1da4ce252794aa81261
 ontap_region: West Midlands - Coventry & Warwickshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 4
-- Selected: 2
+- Records: 3
+- Selected: 1
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 1
@@ -34,21 +34,6 @@ factual_fingerprint: 262dcdf73f59422156ef777d82f8d34ef20af7c05ac13d7aed39d77ef96
 source: Teaching Vacancies
 source_job_id: personal-assistant-pa-to-the-headteachers-oak-wood-schools
 source_url: https://teaching-vacancies.service.gov.uk/jobs/personal-assistant-pa-to-the-headteachers-oak-wood-schools
----
-
----
-action: 
-SELECTED | West Midlands - Coventry & Warwickshire | Kenilworth, West Midlands, CV8 2AL | £21,391.00 - £21,731.00 Annually (Actual) Band E points 5-6 | Receptionist and Administrator FTC contract September - December 2026
-employer: Kenilworth School and Sixth Form
-closing_date: 2026-09-08T09:00:00+01:00
-reason: Clear admin/service title: administrator, receptionist
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 3c5fa14fee55a03810bce785cd2236fde4f3c9ea3c9a14eeee2726d5fcc0832d
-source: Teaching Vacancies
-source_job_id: receptionist-and-administrator-ftc-contract-september-december-2026-kenilworth-school-and-sixth-form-kenilworth
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-and-administrator-ftc-contract-september-december-2026-kenilworth-school-and-sixth-form-kenilworth
 ---
 
 ## POSS — choose SELECT or EXCLUDE

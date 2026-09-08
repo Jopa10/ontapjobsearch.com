@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Buckinghamshire
 
-review_date: 2026-09-07
-review_fingerprint: f40cfdf98eb127d16d59901d034fd394e994b68b6ae439bbc042a29fab1ea1fa
-routing_manifest_sha256: 2f1d5e350d23bbcb5d65881a4c56e54ac46dbd6b31bd0c081b3dd0f22c6116a6
+review_date: 2026-09-08
+review_fingerprint: 0b3556a9d2fa65f3dd5965dd41efb33e5000ec031d5a3418e4464c821afb1a9f
+routing_manifest_sha256: ef6ecd66a5cda32c0f8f6b6f033e395907b62c76a803d1da4ce252794aa81261
 ontap_region: Buckinghamshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 11
-- Selected: 4
-- POSS awaiting decision: 2
+- Records: 12
+- Selected: 5
+- POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 6
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Buckinghamshire | Milton Keynes, South East, MK6 5LP | Up to £26,884.00 per annum | Administrator - Prison Education - HMP Downview
+employer: Milton Keynes College
+closing_date: 2026-09-22T23:59:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: d57094edaea195ae9f44ecc6fbe64f01f4ce426f354e1c636aca908ecf44db43
+source: Teaching Vacancies
+source_job_id: administrator-prison-education-hmp-downview
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-prison-education-hmp-downview
+---
 
 ---
 action: 
@@ -98,21 +113,6 @@ source_job_id: administrator-brooklands-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-brooklands-academy
 ---
 
----
-action: 
-POSS | Buckinghamshire | Milton Keynes, South East, MK7 6BZ | £26,923.00 Annually (Actual) | Office Administrator: EVC and Cover Manager
-employer: Kents Hill Park all-through school
-closing_date: 2026-09-08T12:00:00+01:00
-reason: Manager title below £28,000 salary ceiling requires review
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 96533601fbd00c95d1ad3b5aa56aa59886649ac976ce2ea9ab59648dbc51f905
-source: Teaching Vacancies
-source_job_id: office-administrator-evc-and-cover-manager-kents-hill-park-all-through-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-evc-and-cover-manager-kents-hill-park-all-through-school
----
-
 ## EXCLUDED BY REVIEW
 
 - None.
@@ -121,6 +121,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-
 
 - [Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-stanton-school) — Missing salary or pay scale.
 - [Exams and Data Team Leader](https://teaching-vacancies.service.gov.uk/jobs/exams-and-data-team-leader) — Insufficient admin/service evidence.
+- [Exams Coordinator](https://teaching-vacancies.service.gov.uk/jobs/exams-coordinator-chiltern-way-academy-trust) — Insufficient admin/service evidence.
 - [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-5-dimensions-trust) — Manager title salary ceiling £39,862 is not below £28,000.
 - [HR & Training Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-training-officer) — Insufficient admin/service evidence.
 - [Lettings & Community Officer](https://teaching-vacancies.service.gov.uk/jobs/lettings-community-officer-5-dimensions-trust-milton-keynes-not-recorded) — Insufficient admin/service evidence.

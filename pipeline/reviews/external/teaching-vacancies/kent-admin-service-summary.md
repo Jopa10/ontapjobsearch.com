@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Kent
 
-review_date: 2026-09-07
-review_fingerprint: 5faee25febded48dd64121b70e94d49d380b1bc391127661f1911875c84463e4
-routing_manifest_sha256: 2f1d5e350d23bbcb5d65881a4c56e54ac46dbd6b31bd0c081b3dd0f22c6116a6
+review_date: 2026-09-08
+review_fingerprint: b3cb3e068909291645e031580067b3536649ed44b790485416c7bc8a939e837f
+routing_manifest_sha256: ef6ecd66a5cda32c0f8f6b6f033e395907b62c76a803d1da4ce252794aa81261
 ontap_region: Kent
 slice_category: admin_service
 slice_status: LIVE
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 8
+- Records: 6
 - Selected: 3
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 3
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Kent | Tonbridge, South East, TN9 2HE | Actual Pro Rata Salary £23,599 | Administrative Assistant
+employer: Hillview School for Girls
+closing_date: 2026-09-23T23:59:59+01:00
+reason: Clear admin/service title: administrative assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 2b5afbb7a4ff0e979c9784d8746d70da027c82d188f3b0363ad4a94de8a93f7b
+source: Teaching Vacancies
+source_job_id: administrative-assistant-hillview-school-for-girls
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-hillview-school-for-girls
+---
 
 ---
 action: 
@@ -51,21 +66,6 @@ source_job_id: examinations-admissions-officer
 source_url: https://teaching-vacancies.service.gov.uk/jobs/examinations-admissions-officer
 ---
 
----
-action: 
-SELECTED | Kent | Canterbury, CT1 1NQ | £28,182.00 Annually (FTE) Actual annual salary £ 26057.39 | HR administrator
-employer: The Diocese Of Canterbury Academies Trust
-closing_date: 2026-09-07T23:59:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 7e95f87de0e98b48358bf305bb31f93a7036a56578e206c6958529a65d86d2c8
-source: Teaching Vacancies
-source_job_id: hr-administrator-the-diocese-of-canterbury-academies-trust
-source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-the-diocese-of-canterbury-academies-trust
----
-
 ## POSS — choose SELECT or EXCLUDE
 
 - None.
@@ -77,8 +77,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-the-
 ## HARD_PASS
 
 - [Attendance and Family Liaison Officer](https://teaching-vacancies.service.gov.uk/jobs/attendance-and-family-liaison-officer-will-adams-academy) — Insufficient admin/service evidence.
-- [HR Apprentice](https://teaching-vacancies.service.gov.uk/jobs/hr-apprentice-the-howard-academy-trust-chatham-not-recorded) — Insufficient admin/service evidence.
-- [HR Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-swale-academies-trust) — Insufficient admin/service evidence.
 - [Lead Safeguarding Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/lead-safeguarding-administration-officer-the-robert-napier-school-gillingham-kent) — Insufficient admin/service evidence.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-whitstable-junior-school) — Manager title salary ceiling £35,035 is not below £28,000.
 
