@@ -1,10 +1,13 @@
 ﻿feed_date,decision,region,title,town,salary_text,manual_override,manual_select,job_id
-2026-09-08,SELECTED,"North East - Tyneside, Wearside & Northumberland",Social Care Assistant,Newcastle Upon Tyne,£14.50 - £15.00 per hour,,,1743976
+2026-09-08,SELECTED,Yorkshire - West,Health Care Assistant Nights,Halifax,£14.29 per hour,,,23643_225580403
+2026-09-08,POSS - YORKSHIRE - WEST,Yorkshire - West,Bank Staff Complex Needs Support Worker,Pudsey,£50 per hour,,,1873145
 2026-09-08,SELECTED,"North East - Tyneside, Wearside & Northumberland",Relief Support Worker,Jarrow,£12.85 per hour (plus rolled up holiday pay),,,107941778
 2026-09-08,SELECTED,North East - County Durham & Darlington/Hartlepool,Young Person Support Worker,Durham,£17 - £20 per hour,,,23643_225493355
 2026-09-08,SELECTED,Sussex,ADHD Support Worker,Eastbourne,£92.54 - £97 per daily,,,23643_225552397
 2026-09-08,SELECTED,Sussex,Care assistant - East Grinstead,East Grinstead,£14.25 per hour,,,23643_225567530
 2026-09-08,SELECTED,Cumbria - South,Waking Night Extra Care Support Worker,Barrow-in-furness,£12.85 per hour,,,107911831
+2026-09-08,SELECTED,Cumbria - South,Children's Residential Support Worker,Grange-over-sands,"£3,840 per year",,,25362_JR105081
+2026-09-08,SELECTED,Cumbria - South,Relief Support Worker,Barrow-in-furness,£12.85 per hour (plus rolled up holiday pay),,,107936143
 2026-09-08,SELECTED,Hampshire,Care Assistant,Alton,£25186 - £26244 per year (plus Market Supplement),,,1401784493
 2026-09-08,SELECTED,Hampshire,Secure Childrens Home Support Worker (Weekends),Southampton,£27780 - £30564 per year,,,1401784780
 2026-09-08,SELECTED,Hampshire,Secure Children's Home Support Worker,Eastleigh,"£32780 - £35564 per year (Market Supplement, plus Enhancements)",,,1401784900
@@ -14,19 +17,15 @@
 2026-09-08,SELECTED,Hampshire,Support Worker,Southampton,"£25,947 - £26,305 per annum",,,1858493
 2026-09-08,SELECTED,Hampshire,Care and Support Worker,Ryde,£16000 per year,,,107947536
 2026-09-08,SELECTED,Kent,Qualified Hearing Care Assistant,Tunbridge Wells,competitive + benefits,,,1402264062
-2026-09-08,SELECTED,Kent,Bank Care Assistant,Kent,£13.79 - £14.31 per hour,,,107858271
 2026-09-08,SELECTED,Kent,Support Worker,Gravesend,"£13,988.00 per annum",,,1851265
 2026-09-08,SELECTED,London,Behaviour Support Assistant,Wandsworth,£95 - £115 per daily,,,23643_225513634
 2026-09-08,SELECTED,London,Support Worker,London,£85 - £105 per daily (Excellent training and Career progression),,,23643_225516212
-2026-09-08,SELECTED,London,Learning Disabilities Support Worker,Barnet,£12.30 per hour,,,1775476
-2026-09-08,SELECTED,London,Family Support Worker/Kingston (SW Lon)/ &;15-18.,Kingston Upon Thames,£15 - £18 per hour,,,1743463
 2026-09-08,SELECTED,London,Communication Support Worker,Carshalton,£35 per hour,,,1785508
 2026-09-08,SELECTED,London,Communication Support Worker,Morden,£35 per hour,,,1785507
 2026-09-08,SELECTED,London,Support Worker,Brentford,£125 - £130 per daily,,,23643_225535652
 2026-09-08,SELECTED,London,Autism Support Worker,Bromley,£100 - £110 per daily,,,1815970
 2026-09-08,SELECTED,London,Behaviour Support Assistant,Wandsworth,£95 - £115 per daily,,,1708252
 2026-09-08,SELECTED,London,Support Worker,London,£14.8 per hour,,,23643_225165439
-2026-09-08,SELECTED,London,Residential Support Worker (Mental Health),City,"£26,229 per annum",,,1787859
 2026-09-08,SELECTED,London,Care Assistant,City,£13.39 per hour,,,2050890
 2026-09-08,SELECTED,London,Mental Health Support Worker Nightshift - Female Only,City,£13.69 per hour,,,2049999
 2026-09-08,SELECTED,London,Children's Residential Support Worker - Belfast,City,£12.75 - £21.55 per hour,,,2049697
@@ -38,19 +37,19 @@
 2026-09-08,SELECTED,London,Mentoring Support Worker - Moving Forward Moving On,City,£26679 - £31325 per year,,,2052022
 2026-09-08,SELECTED,London,Children's Support Worker,London,£92 - £100 per daily,,,23643_225574128
 2026-09-08,SELECTED,London,Female Support Worker/Carer Needed,Wembley,£12 - £14.26 per hour,,,23643_225574359
-2026-09-08,SELECTED,London,Personal Assistant/ FOH - Graduate,London,£32000 - £38000 per year,,,1843702
-2026-09-08,SELECTED,London,Healthcare Assistant,City,£92.57 - £105 per daily (PAYE),,,23643_225472096
 2026-09-08,SELECTED,London,Learning Support Worker,London,£14.61 - £23.08 per hour (Temp to perm contract),,,23643_225574825
 2026-09-08,SELECTED,London,Behaviour Support Assistant,City,£100 - £120 per daily,,,23643_225575334
 2026-09-08,SELECTED,London,Family Support Worker,London,£18 - £20 per hour,,,1834903
 2026-09-08,SELECTED,Oxfordshire,Youth Support Worker - Oxford,Oxford,£85 - £105 per daily,,,1695997
 2026-09-08,SELECTED,Oxfordshire,Behaviour Support Assistant - Oxford,Oxford,£85 - £100 per daily,,,23643_225543862
 2026-09-08,SELECTED,Oxfordshire,Behaviour Support Assistant - Oxford,Oxford,£85 - £110 per daily,,,1819710
+2026-09-08,POSS - OXFORDSHIRE,Oxfordshire,Female Live in Support Worker,Oxford,£127.5 per daily,,,107949222
 2026-09-08,SELECTED,Surrey,Specialist Academic Support Worker,Farnham,£13.00 per hour,,,1692926
 2026-09-08,SELECTED,Surrey,Housing Support Worker (Casual),Cobham,£13.45 per hour (£13.45),,,23643_225534852
 2026-09-08,SELECTED,Surrey,Care assistant,Lingfield,£92.46 per day,,,1808686
 2026-09-08,SELECTED,Surrey,Residential Support Worker,Lingfield,£25308 - £27180 per year,,,1808682
-2026-09-08,SELECTED,Surrey,Female Support Worker,Knaphill,£25845 per year,,,23643_225574731
+2026-09-08,SELECTED,Surrey,Care Assistant,Hindhead,£15.45 per hour (plus benefits),,,107950276
 2026-09-08,SELECTED,Wiltshire,Emotional and Mental Health Support Worker,Chippenham,£85 - £110 per daily,,,1709295
 2026-09-08,SELECTED,Wiltshire,Female BSW Crisis House Peer Support Worker,Swindon,"£26,227 per annum",,,1787836
 2026-09-08,SELECTED,Wiltshire,Care Assistant - Bank - Care Home,Wiltshire,£13.81 per hour,,,23643_225549480
+2026-09-08,SELECTED,Wiltshire,Residential Support Worker - Children's Home,Swindon,£24000 per year,,,107936277
