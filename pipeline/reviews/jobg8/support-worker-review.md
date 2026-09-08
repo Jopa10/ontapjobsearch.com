@@ -1,6 +1,6 @@
 # Support-worker manual review
 
-feed_date: 2026-09-07
+feed_date: 2026-09-08
 
 Edit only the `action:` line in each block:
 
@@ -11,11 +11,7 @@ Edit only the `action:` line in each block:
 
 ## WEST YORKSHIRE — SELECTED
 
----
-action:
-SELECTED | Yorkshire - West | Bradford | £13.75 - £14.5 per hour (Including holiday pay, flexible hours) | Healthcare Assistant
-job_id: 23643_225476096
----
+_No jobs in this group._
 
 ## WEST YORKSHIRE — POSSIBLES
 
@@ -35,6 +31,12 @@ _No jobs in this group._
 action:
 SELECTED | North East - Tyneside, Wearside & Northumberland | Newcastle Upon Tyne | £14.50 - £15.00 per hour | Social Care Assistant
 job_id: 1743976
+---
+
+---
+action:
+SELECTED | North East - Tyneside, Wearside & Northumberland | Jarrow | £12.85 per hour (plus rolled up holiday pay) | Relief Support Worker
+job_id: 107941778
 ---
 
 ## NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL — SELECTED
@@ -57,18 +59,6 @@ _No jobs in this group._
 
 ---
 action:
-SELECTED | Sussex | Brighton | £14 - £16 per hour | Support Worker
-job_id: 23643_222307132
----
-
----
-action:
-SELECTED | Sussex | Hastings | £13.79 per hour | Care Assistant
-job_id: 107826653
----
-
----
-action:
 SELECTED | Sussex | Eastbourne | £92.54 - £97 per daily | ADHD Support Worker
 job_id: 23643_225552397
 ---
@@ -77,12 +67,6 @@ job_id: 23643_225552397
 action:
 SELECTED | Sussex | East Grinstead | £14.25 per hour | Care assistant - East Grinstead
 job_id: 23643_225567530
----
-
----
-action:
-SELECTED | Sussex | Hove | £13.45 per hour (plus shift allowances) | Bank Support Worker
-job_id: 107926256
 ---
 
 ## SUSSEX — POSSIBLES
@@ -145,6 +129,12 @@ SELECTED | Hampshire | Southampton | £25,947 - £26,305 per annum | Support Wor
 job_id: 1858493
 ---
 
+---
+action:
+SELECTED | Hampshire | Ryde | £16000 per year | Care and Support Worker
+job_id: 107947536
+---
+
 ## HAMPSHIRE — POSSIBLES
 
 _No jobs in this group._
@@ -163,23 +153,17 @@ SELECTED | Kent | Kent | £13.79 - £14.31 per hour | Bank Care Assistant
 job_id: 107858271
 ---
 
+---
+action:
+SELECTED | Kent | Gravesend | £13,988.00 per annum | Support Worker
+job_id: 1851265
+---
+
 ## KENT — POSSIBLES
 
 _No jobs in this group._
 
 ## LONDON — SELECTED
-
----
-action:
-SELECTED | London | City | £13.75 - £14.5 per hour (Including holiday pay, flexible hours) | Healthcare Assistant
-job_id: 23643_225476071
----
-
----
-action:
-SELECTED | London | London | £12.82 per hour | Care Assistant
-job_id: 23643_223283749
----
 
 ---
 action:
@@ -249,6 +233,12 @@ job_id: 1787859
 
 ---
 action:
+SELECTED | London | City | £13.39 per hour | Care Assistant
+job_id: 2050890
+---
+
+---
+action:
 SELECTED | London | City | £13.69 per hour | Mental Health Support Worker Nightshift - Female Only
 job_id: 2049999
 ---
@@ -309,6 +299,12 @@ job_id: 23643_225574359
 
 ---
 action:
+SELECTED | London | City | £92.57 - £105 per daily (PAYE) | Healthcare Assistant
+job_id: 23643_225472096
+---
+
+---
+action:
 SELECTED | London | City | £100 - £120 per daily | Behaviour Support Assistant
 job_id: 23643_225575334
 ---
@@ -319,6 +315,18 @@ job_id: 23643_225575334
 action:
 POSS - LONDON | London | London | £32000 - £38000 per year | Personal Assistant/ FOH - Graduate
 job_id: 1843702
+---
+
+---
+action:
+POSS - LONDON | London | London | £14.61 - £23.08 per hour (Temp to perm contract) | Learning Support Worker
+job_id: 23643_225574825
+---
+
+---
+action:
+POSS - LONDON | London | London | £18 - £20 per hour | Family Support Worker
+job_id: 1834903
 ---
 
 ## OXFORDSHIRE — SELECTED
@@ -399,12 +407,6 @@ job_id: 1787836
 action:
 SELECTED | Wiltshire | Wiltshire | £13.81 per hour | Care Assistant - Bank - Care Home
 job_id: 23643_225549480
----
-
----
-action:
-SELECTED | Wiltshire | Swindon | £24000 per year | Residential Support Worker - Children's Home
-job_id: 107936277
 ---
 
 ## WILTSHIRE — POSSIBLES
