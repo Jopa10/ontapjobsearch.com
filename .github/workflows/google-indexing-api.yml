@@ -4,17 +4,17 @@ on:
   workflow_dispatch:
     inputs:
       dry_run:
-        description: "Preview notifications without calling Google"
+        description: 'Preview notifications without calling Google'
         required: true
         default: true
         type: boolean
   schedule:
-    - cron: "30 19 * * *"
+    - cron: '30 19 * * *'
   push:
     branches:
       - main
     paths:
-      - "app/**/*.json"
+      - 'app/**/*.json'
 
 permissions:
   contents: write
@@ -38,7 +38,7 @@ jobs:
       - name: Set up Node
         uses: actions/setup-node@v4
         with:
-          node-version: "20"
+          node-version: '20'
           cache: npm
 
       - name: Install dependencies
@@ -81,7 +81,14 @@ jobs:
         if: steps.mode.outputs.mode != ''
         env:
           GOOGLE_INDEXING_ACCESS_TOKEN: ${{ steps.auth.outputs.access_token }}
-          GOOGLE_INDEXING_MAX_NOTIFICATIONS: "200"
+          GOOGLE_INDEXING_DAILY_QUOTA: '200'
+          GOOGLE_INDEXING_NEW_JOBG8_RESERVE: '160'
+          GOOGLE_INDEXING_NEW_NON_JOBG8_RESERVE: '20'
+          GOOGLE_INDEXING_DELETION_RESERVE: '20'
+          GOOGLE_INDEXING_SKIPPED_WINDOW_DAYS: '7'
+          # Push runs preserve the protected lanes. The scheduled/manual run
+          # releases any unused reservations and fills the remaining allowance.
+          GOOGLE_INDEXING_RELEASE_RESERVES: ${{ github.event_name != 'push' }}
           GOOGLE_INDEXING_RUN_REPORT: ${{ runner.temp }}/google-indexing-run.json
         run: |
           set -euo pipefail
@@ -154,19 +161,19 @@ jobs:
             const reportAlert = Boolean(
               live && report && (
                 report.status === 'failure' ||
-                report.limitReached ||
-                report.remaining > 0 ||
-                report.zeroSubmittedWithPending
+                report.quotaInvariantViolation
               )
             );
             const shouldAlert = infrastructureFailure || reportAlert;
 
             await core.summary.addHeading('Google Indexing API').addTable([
               [{data: 'Mode', header: true}, mode || 'unknown'],
+              [{data: 'Pacific quota date', header: true}, String(report?.pacificDate ?? 'unknown')],
               [{data: 'Eligible live URLs', header: true}, String(report?.eligibleLive ?? 'unknown')],
-              [{data: 'Pending before run', header: true}, String(report?.pendingTotal ?? 'unknown')],
-              [{data: 'Submitted', header: true}, String(report?.submitted ?? 'unknown')],
-              [{data: 'Remaining', header: true}, String(report?.remaining ?? 'unknown')],
+              [{data: 'Daily attempts', header: true}, report ? `${report.attemptsBeforeRun + report.attempted}/${report.dailyQuota}` : 'unknown'],
+              [{data: 'Successful submissions', header: true}, String(report?.submitted ?? 'unknown')],
+              [{data: 'Allowance remaining', header: true}, String(report?.allowanceRemaining ?? 'unknown')],
+              [{data: 'Selected lanes', header: true}, report?.selected ? JSON.stringify(report.selected) : 'unknown'],
               [{data: 'Run status', header: true}, String(report?.status ?? 'unknown')],
             ]).addLink('Open this workflow run', process.env.RUN_URL).write();
 
@@ -174,11 +181,16 @@ jobs:
               `Workflow run: ${process.env.RUN_URL}`,
               `Mode: ${mode || 'unknown'}`,
               `Step outcomes: mode=${outcomes.mode || 'n/a'}, auth=${outcomes.auth || 'n/a'}, submit=${outcomes.submit || 'n/a'}, commit=${outcomes.commit || 'n/a'}`,
+              report ? `Pacific quota date: ${report.pacificDate}` : 'Pacific quota date: unavailable',
               report ? `Eligible live URLs: ${report.eligibleLive}` : 'Eligible live URLs: unavailable',
-              report ? `Pending before run: ${report.pendingTotal} (${report.pendingUpdates} updates, ${report.pendingDeletions} deletions)` : 'Pending before run: unavailable',
-              report ? `Submitted this run: ${report.submitted}` : 'Submitted this run: unavailable',
-              report ? `Remaining after run: ${report.remaining}` : 'Remaining after run: unavailable',
-              report ? `Safety limit reached: ${report.limitReached ? 'yes' : 'no'}` : 'Safety limit reached: unavailable',
+              report ? `Daily attempts: ${report.attemptsBeforeRun + report.attempted}/${report.dailyQuota}` : 'Daily attempts: unavailable',
+              report ? `Successful/failed this run: ${report.submitted}/${report.failed}` : 'Submission result: unavailable',
+              report ? `Allowance remaining: ${report.allowanceRemaining}` : 'Allowance remaining: unavailable',
+              report?.candidates ? `Candidates by lane: ${JSON.stringify(report.candidates)}` : 'Candidates by lane: unavailable',
+              report?.selected ? `Selected by lane: ${JSON.stringify(report.selected)}` : 'Selected by lane: unavailable',
+              report ? `New jobs skipped today: ${report.skippedNewToday}` : 'New jobs skipped today: unavailable',
+              report ? `Recent skipped fallback available: ${report.recentSkippedAvailable}` : 'Recent skipped fallback: unavailable',
+              report?.migratedFromV1 ? `Legacy deletions neutralised during v1 cutover: ${report.legacyDeletionsNeutralised}` : '',
               report ? `Status: ${report.status}` : 'Status: unavailable',
               report?.message ? `Message: ${report.message}` : '',
             ].filter(Boolean);
@@ -227,7 +239,7 @@ jobs:
               if (infrastructureFailure || report?.status === 'failure') {
                 core.error('Google Indexing API operational alert raised.');
               } else {
-                core.warning('Google Indexing API safety limit/backlog alert raised.');
+                core.warning('Google Indexing API quota-accounting alert raised.');
               }
               return;
             }
