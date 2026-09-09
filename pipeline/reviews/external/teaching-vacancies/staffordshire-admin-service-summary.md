@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Staffordshire
 
-review_date: 2026-09-08
-review_fingerprint: 760e935e0f49cde15987eea17cac08979133076d313524c978f7c5254c948d68
-routing_manifest_sha256: ef6ecd66a5cda32c0f8f6b6f033e395907b62c76a803d1da4ce252794aa81261
+review_date: 2026-09-09
+review_fingerprint: 3ed2e07ff6a0569c9ce5a430328422b9614128e86e16653db03ea4acbae53744
+routing_manifest_sha256: 4a958bab8a32e70948984372cc0d4828c1f97fe1d8d6cdff8758ffcbe54b1245
 ontap_region: Staffordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 8
-- Selected: 2
+- Records: 6
+- Selected: 1
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 6
+- Hard pass: 5
 
 ## SELECTED
-
----
-action: 
-SELECTED | Staffordshire | Stoke-On-Trent, ST7 4DL | G5 SCP 16-20-£25,989 - £27,254 FTE-Pay Award Pend | Administrative Assistant
-employer: The Shaw Education Trust
-closing_date: 2026-09-11T09:00:59+01:00
-reason: Clear admin/service title: administrative assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: d9b5b8a68d9df8f93ee165da1bb5c52fc8842adbc5eee40507660e9cb4f40578
-source: Teaching Vacancies
-source_job_id: administrative-assistant-the-shaw-education-trust
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-the-shaw-education-trust
----
 
 ---
 action: 
@@ -61,7 +46,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-le
 
 ## HARD_PASS
 
-- [Administration and Finance Assistant - Level 3](https://teaching-vacancies.service.gov.uk/jobs/administration-and-finance-assistant-level-3-abbey-hill-academy-college-stoke-on-trent-staffordshire) — Insufficient admin/service evidence.
 - [Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-the-shaw-education-trust) — Insufficient admin/service evidence.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-5c20c15e-9ea0-4341-b9c5-ba119bab985a) — Manager title salary ceiling £39,152 is not below £28,000.
 - [Student Support and Attendance](https://teaching-vacancies.service.gov.uk/jobs/student-support-and-attendance) — Insufficient admin/service evidence.

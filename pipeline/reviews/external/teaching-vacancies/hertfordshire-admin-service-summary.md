@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Hertfordshire
 
-review_date: 2026-09-08
-review_fingerprint: 16bc1d942966c276c7a3609c0122d732a15c7e20bc7be62c2d6c0b1e230a2630
-routing_manifest_sha256: ef6ecd66a5cda32c0f8f6b6f033e395907b62c76a803d1da4ce252794aa81261
+review_date: 2026-09-09
+review_fingerprint: 10f44687b5780c7fc81b67d96ecf1dbb2215a3c479ecd0f9f5203df90c4edfdb
+routing_manifest_sha256: 4a958bab8a32e70948984372cc0d4828c1f97fe1d8d6cdff8758ffcbe54b1245
 ontap_region: Hertfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -14,10 +14,10 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 19
-- Selected: 10
+- Selected: 11
 - POSS awaiting decision: 4
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 4
 
 ## SELECTED
 
@@ -124,6 +124,21 @@ factual_fingerprint: 993b7d3f0530b7f02982d91f1f107cd187f20a311539a6a59cea3cb5eda
 source: Teaching Vacancies
 source_job_id: exams-officer-04392df4-a630-4fb4-aed3-1f3600892c2f
 source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-04392df4-a630-4fb4-aed3-1f3600892c2f
+---
+
+---
+action: 
+SELECTED | Hertfordshire | Royston, East of England, SG8 5NP | £13.47 Hourly | Finance Administrator
+employer: Bassingbourn Primary School
+closing_date: 2026-09-30T23:59:00+01:00
+reason: Clear admin/service title: administrator, finance administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: c60e4ce42aad20ac83200e8bfd8bea84f4df960661272882cad014c4a89d8cd6
+source: Teaching Vacancies
+source_job_id: finance-administrator-bassingbourn-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-administrator-bassingbourn-primary-school
 ---
 
 ---
@@ -241,7 +256,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-manager-oaklea
 
 - [Attendance & Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/attendance-administration-officer-hertford-heath-primary-and-nursery-school) — Insufficient admin/service evidence.
 - [Development Director](https://teaching-vacancies.service.gov.uk/jobs/development-director-watford-grammar-school-for-boys) — Insufficient admin/service evidence.
-- [Head of HR](https://teaching-vacancies.service.gov.uk/jobs/head-of-hr-danes-educational-trust-chorleywood-not-recorded) — Insufficient admin/service evidence.
 - [Headteacher's PA + Office Manager](https://teaching-vacancies.service.gov.uk/jobs/headteacher-s-pa-office-manager-robert-barclay-academy) — Out-of-scope occupation: teacher, headteacher.
 - [Teaching Assistant including personal care: Part Time / Full Time (H3)](https://teaching-vacancies.service.gov.uk/jobs/teaching-assistant-including-personal-care-part-time-full-time-h3-beaumont-school-st-albans-hertfordshire) — Out-of-scope occupation: teaching assistant.
 

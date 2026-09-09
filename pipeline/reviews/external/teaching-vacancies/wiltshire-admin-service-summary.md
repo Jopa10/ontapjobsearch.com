@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Wiltshire
 
-review_date: 2026-09-08
-review_fingerprint: 93f75628c21be1475e27e100704b1f92981eb174bfc0d4897ae9407fe097aabf
-routing_manifest_sha256: ef6ecd66a5cda32c0f8f6b6f033e395907b62c76a803d1da4ce252794aa81261
+review_date: 2026-09-09
+review_fingerprint: 4e2a503f1649f6cf76caa4bfe0cda218ae630c57a1b6ae35cf5d26dce3522504
+routing_manifest_sha256: 4a958bab8a32e70948984372cc0d4828c1f97fe1d8d6cdff8758ffcbe54b1245
 ontap_region: Wiltshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 11
+- Records: 15
 - Selected: 5
-- POSS awaiting decision: 1
+- POSS awaiting decision: 3
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 7
 
 ## SELECTED
 
@@ -113,12 +113,44 @@ source_job_id: admin-assistant-ivy-lane-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-ivy-lane-primary-school
 ---
 
+---
+action: 
+POSS | Wiltshire | Calne, South West, SN11 8YH | £29,064.00 - £31,022.00 Annually (FTE) NJC Grade G, £3,378-£3,605 (DOE) Actual | Clerk to Governors
+employer: Kingsbury Green Academy
+closing_date: 2026-09-27T23:59:00+01:00
+reason: Borderline school administration title: clerk to governors
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 383f4f9824ba767e2f44589d5338c81a9005b1bf029a7fd07fe2fa3ea50fa006
+source: Teaching Vacancies
+source_job_id: clerk-to-governors-kingsbury-green-academy-calne-wiltshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/clerk-to-governors-kingsbury-green-academy-calne-wiltshire
+---
+
+---
+action: 
+POSS | Wiltshire | Trowbridge, South West, BA14 9EN | £14.59 - £15.31 Hourly term time only (+ 2 weeks) | Governance Professional
+employer: St Augustine's Catholic College
+closing_date: 2026-09-23T12:00:00+01:00
+reason: Borderline school administration title: governance professional
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: c3e20103644bbc043fd5581cb7ef68e7bca40791576d714621bcbcccd569f195
+source: Teaching Vacancies
+source_job_id: governance-professional-st-augustine-s-catholic-college
+source_url: https://teaching-vacancies.service.gov.uk/jobs/governance-professional-st-augustine-s-catholic-college
+---
+
 ## EXCLUDED BY REVIEW
 
 - None.
 
 ## HARD_PASS
 
+- [Chief Financial Officer](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-0d106d15-bbf0-467f-8794-3393ccb03a2b) — Insufficient admin/service evidence.
+- [Educational Support Assistant - Admissions](https://teaching-vacancies.service.gov.uk/jobs/educational-support-assistant-admissions) — Insufficient admin/service evidence.
 - [HR Generalist](https://teaching-vacancies.service.gov.uk/jobs/hr-generalist) — Insufficient admin/service evidence.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-paxcroft-primary-school) — Manager title salary ceiling £37,563 is not below £28,000.
 - [Senior HR Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-hr-officer-ascend-learning-trust) — Insufficient admin/service evidence.

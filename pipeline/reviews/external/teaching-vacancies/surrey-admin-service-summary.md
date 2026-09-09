@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Surrey
 
-review_date: 2026-09-08
+review_date: 2026-09-09
 review_fingerprint: 76841574c9012ebac614424288ab1f20671b4cb3cd0c44eda4b049d0864e1018
-routing_manifest_sha256: ef6ecd66a5cda32c0f8f6b6f033e395907b62c76a803d1da4ce252794aa81261
+routing_manifest_sha256: 4a958bab8a32e70948984372cc0d4828c1f97fe1d8d6cdff8758ffcbe54b1245
 ontap_region: Surrey
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 5
+- Records: 6
 - Selected: 2
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 3
+- Hard pass: 4
 
 ## SELECTED
 
@@ -63,7 +63,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-assistant-fox-
 
 - [Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-the-swan-trust-surrey-not-recorded) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-fox-grove-school) — Manager title salary ceiling £37,002 is not below £28,000.
-- [Regional Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/regional-finance-manager-6115d723-d9e6-4abb-9837-bae40f36fdb8) — Manager title salary ceiling £28,167 is not below £28,000.
+- [Regional Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/regional-finance-manager-b5e75c86-dacb-410d-ac34-350f811e1aad) — Manager title salary ceiling £28,167 is not below £28,000.
+- [Trust Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/trust-finance-business-partner-greensand-multi-academy-trust) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

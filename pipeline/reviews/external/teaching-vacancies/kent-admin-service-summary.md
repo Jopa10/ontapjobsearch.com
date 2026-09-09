@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Kent
 
-review_date: 2026-09-08
-review_fingerprint: b3cb3e068909291645e031580067b3536649ed44b790485416c7bc8a939e837f
-routing_manifest_sha256: ef6ecd66a5cda32c0f8f6b6f033e395907b62c76a803d1da4ce252794aa81261
+review_date: 2026-09-09
+review_fingerprint: 2d51d9507793a4650a3ee4ddc3c7780ca2fd75186b7f51ad5e99f2eac675374e
+routing_manifest_sha256: 4a958bab8a32e70948984372cc0d4828c1f97fe1d8d6cdff8758ffcbe54b1245
 ontap_region: Kent
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 6
-- Selected: 3
+- Records: 5
+- Selected: 2
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 3
@@ -34,21 +34,6 @@ factual_fingerprint: 2b5afbb7a4ff0e979c9784d8746d70da027c82d188f3b0363ad4a94de8a
 source: Teaching Vacancies
 source_job_id: administrative-assistant-hillview-school-for-girls
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-hillview-school-for-girls
----
-
----
-action: 
-SELECTED | Kent | Gillingham, ME7 5HT | £28,238.00 - £31,758.00 Annually (FTE) £24,694 - £27,772 actual salary for 37 hours per week. | Admissions Officer
-employer: The University Of Kent Academies Trust
-closing_date: 2026-09-11T23:59:00+01:00
-reason: Clear admin/service title: admissions officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: c9ac40550c447b839671a0158da18f98391ee658e8a9430e2c4b5463cb907e86
-source: Teaching Vacancies
-source_job_id: admissions-officer-the-university-of-kent-academies-trust
-source_url: https://teaching-vacancies.service.gov.uk/jobs/admissions-officer-the-university-of-kent-academies-trust
 ---
 
 ---

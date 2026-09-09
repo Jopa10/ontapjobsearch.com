@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Oxfordshire
 
-review_date: 2026-09-08
-review_fingerprint: fa44b9fc2aec10bbaf7149142164f8783a5fda034794a4d1f129e93dfd5e3a3e
-routing_manifest_sha256: ef6ecd66a5cda32c0f8f6b6f033e395907b62c76a803d1da4ce252794aa81261
+review_date: 2026-09-09
+review_fingerprint: 707f5ef8f1eca1da1325caa3f2bf17a054b49b77df397fadfb16dabca4ea5149
+routing_manifest_sha256: 4a958bab8a32e70948984372cc0d4828c1f97fe1d8d6cdff8758ffcbe54b1245
 ontap_region: Oxfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 9
-- Selected: 3
+- Records: 10
+- Selected: 4
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 6
@@ -34,6 +34,21 @@ factual_fingerprint: c84234c07a4c867af718e19687d7a3687fc550714654e60f0af1a6edabb
 source: Teaching Vacancies
 source_job_id: attendance-administrator-faringdon-community-college
 source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-administrator-faringdon-community-college
+---
+
+---
+action: 
+SELECTED | Oxfordshire | Banbury, South East, OX16 0QT | £26,824-£29,064 | Attendance Officer
+employer: Orchard Fields Community School
+closing_date: 2026-09-14T12:00:00+01:00
+reason: Clear admin/service title: attendance officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 9e3fb983238bc95bb4e8181511b6792b764072bacbae97adaa9e616f15ba9223
+source: Teaching Vacancies
+source_job_id: attendance-officer-orchard-fields-community-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-orchard-fields-community-school
 ---
 
 ---

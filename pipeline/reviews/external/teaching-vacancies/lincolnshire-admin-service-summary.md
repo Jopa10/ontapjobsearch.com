@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Lincolnshire
 
-review_date: 2026-09-08
-review_fingerprint: 5c57bcb19d26015f126936eaf5293f876969ad7d44e1dccc10bd2c480e09428b
-routing_manifest_sha256: ef6ecd66a5cda32c0f8f6b6f033e395907b62c76a803d1da4ce252794aa81261
+review_date: 2026-09-09
+review_fingerprint: fd91c01c80c4318b027d58648ba0ada6a57294c3670855679fb7482a2df34985
+routing_manifest_sha256: 4a958bab8a32e70948984372cc0d4828c1f97fe1d8d6cdff8758ffcbe54b1245
 ontap_region: Lincolnshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 11
-- Selected: 3
+- Records: 16
+- Selected: 6
 - POSS awaiting decision: 3
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 7
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Lincolnshire | Grimsby, Yorkshire and the Humber, DN33 1RJ | £26,016.00 Annually (FTE) Actual Salary £20,955 | Administration Assistant
+employer: Woodlands Academy
+closing_date: 2026-09-30T12:00:00+01:00
+reason: Clear admin/service title: administration assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: ab22d4a082a1282bbde26ba42b90b6060e9cead7ea71b5c3550b41080024a3fa
+source: Teaching Vacancies
+source_job_id: administration-assistant-woodlands-academy-grimsby-north-east-lincolnshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-woodlands-academy-grimsby-north-east-lincolnshire
+---
 
 ---
 action: 
@@ -34,6 +49,36 @@ factual_fingerprint: 1b39fb6193f7053b86ff1cde956cf6ce6f683e78449cf91fba773186525
 source: Teaching Vacancies
 source_job_id: cover-and-operations-administrator
 source_url: https://teaching-vacancies.service.gov.uk/jobs/cover-and-operations-administrator
+---
+
+---
+action: 
+SELECTED | Lincolnshire | Spalding, East Midlands, PE12 7PU | £22,768.00 - £23,863.00 Annually (Actual) G3.6 (£22,768.28) to G3.9 (£23,863.41) (Actual) | Receptionist
+employer: University Academy Holbeach
+closing_date: 2026-09-18T09:00:00+01:00
+reason: Clear admin/service title: receptionist
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 96ca4f7a99bc0a5acbcf99bc298950d85cae10e5f40a0625495d5c548f4bf333
+source: Teaching Vacancies
+source_job_id: receptionist-university-academy-holbeach-spalding-lincolnshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-university-academy-holbeach-spalding-lincolnshire
+---
+
+---
+action: 
+SELECTED | Lincolnshire | Lincoln, East Midlands, LN6 0EP | PPS4, £26,016 per annum, pro rata to £23,484 per annum | Receptionist / Administrative Assistant
+employer: The Priory City of Lincoln Academy
+closing_date: 2026-09-23T23:59:00+01:00
+reason: Clear admin/service title: administrative assistant, receptionist
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: af98394ccb02340d41baac0600f5a73b64107e0aaa6fc804129869497b05d64a
+source: Teaching Vacancies
+source_job_id: receptionist-administrative-assistant-the-priory-city-of-lincoln-academy-lincoln-lincolnshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrative-assistant-the-priory-city-of-lincoln-academy-lincoln-lincolnshire
 ---
 
 ---
@@ -122,6 +167,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-manager-5960c3
 - [Academy Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/academy-administration-officer-the-priory-witham-academy-lincoln-lincolnshire) — Insufficient admin/service evidence.
 - [Academy Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/academy-operations-manager-thomas-middlecott-academy-boston-lincolnshire) — Manager title salary ceiling £42,839 is not below £28,000.
 - [Data Manager](https://teaching-vacancies.service.gov.uk/jobs/data-manager-de-aston-school) — Manager title without salary evidence below £28,000.
+- [Governance & Compliance Officer](https://teaching-vacancies.service.gov.uk/jobs/governance-compliance-officer-inspire-connected-communities-trust-louth-not-recorded) — Insufficient admin/service evidence.
+- [HR Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-a28cea11-d24b-43cc-a15c-772ff5fa57da) — Insufficient admin/service evidence.
 - [School Bursar](https://teaching-vacancies.service.gov.uk/jobs/school-bursar-cliffedale-primary-school) — Insufficient admin/service evidence.
 - [Senior Administrative Officer - 20 hours](https://teaching-vacancies.service.gov.uk/jobs/senior-administrative-officer-20-hours) — Insufficient admin/service evidence.
 

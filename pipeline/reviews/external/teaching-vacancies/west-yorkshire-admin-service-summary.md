@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - West
 
-review_date: 2026-09-08
-review_fingerprint: 028a334c81350b7fbed42ed38e7e09bd63f6ce81dd2e190a8f1e79f8a654db35
-routing_manifest_sha256: ef6ecd66a5cda32c0f8f6b6f033e395907b62c76a803d1da4ce252794aa81261
+review_date: 2026-09-09
+review_fingerprint: 7d49bbe91bd509f79589ee5d5029f939b0294c6339f5554402e105129c9d3faf
+routing_manifest_sha256: 4a958bab8a32e70948984372cc0d4828c1f97fe1d8d6cdff8758ffcbe54b1245
 ontap_region: Yorkshire - West
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 20
-- Selected: 7
-- POSS awaiting decision: 1
+- Records: 26
+- Selected: 8
+- POSS awaiting decision: 4
 - Excluded: 0
-- Hard pass: 12
+- Hard pass: 14
 
 ## SELECTED
-
----
-action: 
-SELECTED | Yorkshire - West | Bradford, Yorkshire and the Humber, BD5 0JD | DAT Level 2, SCP 14-17 (Actual salary £24,444 - £24,832) | Academy Administrator L2
-employer: Dixons McMillan Academy
-closing_date: 2026-09-08T23:59:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: NEW_REVIEW
-factual_fingerprint: 749f04a056be0edbbb5af3ad7f8f8d5cfe3e07def0039e1a21af0928545fa47f
-source: Teaching Vacancies
-source_job_id: academy-administrator-l2-dixons-mcmillan-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/academy-administrator-l2-dixons-mcmillan-academy
----
 
 ---
 action: 
@@ -79,6 +64,36 @@ factual_fingerprint: 8611deca3e4dbe0220ad2e74a63dda917923dcc5246ee541614bb001192
 source: Teaching Vacancies
 source_job_id: admin-receptionist-beckfoot-allerton-primary-school-and-nursery
 source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-receptionist-beckfoot-allerton-primary-school-and-nursery
+---
+
+---
+action: 
+SELECTED | Yorkshire - West | Bradford, Yorkshire and the Humber, BD7 3AY | £25,185.00 - £25,989.00 Annually (FTE) Band 5, SCP 4 to SCP 6 (actual salary £21,105.03 - £21,778 per annum), 37 hours per week, TTO. | Administration Assistant
+employer: Copthorne Primary School
+closing_date: 2026-09-21T12:00:00+01:00
+reason: Clear admin/service title: administration assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: NEW_REVIEW
+factual_fingerprint: 43ed3dfc232be9bdc5399bb85f946c7a72272633f8403bbd74794ef40ba8a2f1
+source: Teaching Vacancies
+source_job_id: administration-assistant-copthorne-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-copthorne-primary-school
+---
+
+---
+action: 
+SELECTED | Yorkshire - West | Huddersfield, Yorkshire and the Humber, HD3 3UH | £25,583.00 Annually (FTE) | Business Support Officer - Part Time
+employer: Moorlands Primary School
+closing_date: 2026-09-23T09:00:00+01:00
+reason: Clear admin/service title: business support officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: NEW_REVIEW
+factual_fingerprint: 4816d015c8bb841e2b727af27c14908f7f610d8df9b1efea8cb46c92b5aa8b3f
+source: Teaching Vacancies
+source_job_id: business-support-officer-part-time
+source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-officer-part-time
 ---
 
 ---
@@ -130,6 +145,36 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-
 
 ---
 action: 
+POSS | Yorkshire - West | Leeds, Yorkshire and the Humber, LS25 1LJ | £26,016.00 - £26,847.00 Annually (FTE) Grade C Points 4 to 6 (£26,016 to £26,847 Full Time Equivalent) subject to pro rata. The minimum actual pro rata salary per annum for this job starts at £13,364.10. | Administration Officer (SEN Department)
+employer: Garforth Academy
+closing_date: 2026-09-14T23:59:00+01:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: NEW_REVIEW
+factual_fingerprint: c8466a43127721d05f16ab1a993083041bd07b8964c366a3f7e737b659a74ee4
+source: Teaching Vacancies
+source_job_id: administration-officer-sen-department
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-officer-sen-department
+---
+
+---
+action: 
+POSS | Yorkshire - West | Bradford, Yorkshire and the Humber, BD3 0DU | £11,368.00 - £11,731.00 Annually (Actual) Band 5, SCP 4 to 6, 19 hours per week, TTO plus 3 days, Wed & Thu 8:45am to 4:30pm and Fri 10:00am to 2:30pm | Administrator
+employer: Carlton Bolling
+closing_date: 2026-09-25T10:00:00+01:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: NEW_REVIEW
+factual_fingerprint: 6d46982900d593f2d77d12a8c57de55dd26ab239be1540da9268721afdb11cd4
+source: Teaching Vacancies
+source_job_id: administrator-carlton-bolling-bradford-west-yorkshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-carlton-bolling-bradford-west-yorkshire
+---
+
+---
+action: 
 POSS | Yorkshire - West | Leeds, Yorkshire and the Humber, LS26 8EX | £22,373.00 - £23,087.00 Annually (Actual) Band 5, SCP 4 to 6, 37 hours per week, TTO plus 5 days | Administrator
 employer: Oulton Academy
 closing_date: 2026-09-21T10:00:00+01:00
@@ -143,6 +188,21 @@ source_job_id: administrator-oulton-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-oulton-academy
 ---
 
+---
+action: 
+POSS | Yorkshire - West | Bradford, Yorkshire and the Humber, BD4 7RH | £31,022.00 - £33,699.00 Annually (FTE) Band 8, SCP 17 to SCP 22 (actual salary £26803 - £29115.93 per annum +3.3% pay award pending), 37 hours per week, TTO+5 | SEND Administrator
+employer: Oastlers School
+closing_date: 2026-09-18T12:00:00+01:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: NEW_REVIEW
+factual_fingerprint: d9e34daf500d6bdd8a153882402889695b34a059b8d17477bd431f2efac9eb2c
+source: Teaching Vacancies
+source_job_id: send-administrator-oastlers-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-oastlers-school
+---
+
 ## EXCLUDED BY REVIEW
 
 - None.
@@ -151,10 +211,12 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-oulton-
 
 - [Assistant Senco](https://teaching-vacancies.service.gov.uk/jobs/assistant-senco-fdb10c11-75c5-458b-8d4c-5aa13619d9cc) — Insufficient admin/service evidence.
 - [Data and Exams Manager](https://teaching-vacancies.service.gov.uk/jobs/data-and-exams-manager-dixons-city-academy) — Manager title salary ceiling £34,744 is not below £28,000.
+- [Data Manager](https://teaching-vacancies.service.gov.uk/jobs/data-manager-buttershaw-business-enterprise-college-academy) — Manager title salary ceiling £37,655 is not below £28,000.
 - [Data, Assessment, and MIS Officer](https://teaching-vacancies.service.gov.uk/jobs/data-assessment-and-mis-officer-crofton-academy) — Insufficient admin/service evidence.
 - [Exam Invigilator](https://teaching-vacancies.service.gov.uk/jobs/exam-invigilator-leeds-city-academy-leeds-west-yorkshire) — Insufficient admin/service evidence.
 - [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-learning-accord-multi-academy-trust) — Manager title salary ceiling £38,510 is not below £28,000.
 - [Finance Manager (Core Team)](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-core-team) — Manager title salary ceiling £49,282 is not below £28,000.
+- [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-greengates-primary-academy-bradford-west-yorkshire) — Insufficient admin/service evidence.
 - [HR and Staff Wellbeing Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-and-staff-wellbeing-officer-laisterdyke-leadership-academy-bradford-west-yorkshire) — Insufficient admin/service evidence.
 - [Human Resources Business Partner (Central HR Team)](https://teaching-vacancies.service.gov.uk/jobs/human-resources-business-partner-central-hr-team-the-gorse-academies-trust-leeds-not-recorded) — Insufficient admin/service evidence.
 - [Operations Lead](https://teaching-vacancies.service.gov.uk/jobs/operations-lead-menston-primary-school-ilkley-west-yorkshire) — Insufficient admin/service evidence.

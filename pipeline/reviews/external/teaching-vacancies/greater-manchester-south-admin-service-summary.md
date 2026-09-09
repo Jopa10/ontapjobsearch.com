@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Greater Manchester - South
 
-review_date: 2026-09-08
-review_fingerprint: abe67c52152e4486f20d71291803ca61ad063e2aac931aa717269cb8c4bbfc82
-routing_manifest_sha256: ef6ecd66a5cda32c0f8f6b6f033e395907b62c76a803d1da4ce252794aa81261
+review_date: 2026-09-09
+review_fingerprint: 1a9afeed8209ca2575efe164f67697e4d7cabb3e183f1fdc6c996dd0baf4c8a3
+routing_manifest_sha256: 4a958bab8a32e70948984372cc0d4828c1f97fe1d8d6cdff8758ffcbe54b1245
 ontap_region: Greater Manchester - South
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 6
-- Selected: 2
+- Records: 5
+- Selected: 1
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 3
 
 ## SELECTED
-
----
-action: 
-SELECTED | Greater Manchester - South | Altrincham, North West, WA15 0JF | £12,997.00 - £14,523.00 Annually (Actual) Bright Futures Grade 3 Point 4 - 6 pro-rata 21.75 hours per week | Office Administrator
-employer: Elmridge Primary School
-closing_date: 2026-09-09T12:00:00+01:00
-reason: Clear admin/service title: administrator, office administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 0f5bd2f1d4f519cb20de50e1c068c99f376b227c1426fc186288cfe892b28f57
-source: Teaching Vacancies
-source_job_id: office-administrator-elmridge-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-elmridge-primary-school
----
 
 ---
 action: 

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Greater Manchester - North
 
-review_date: 2026-09-08
-review_fingerprint: b802cd7bce11b98e2696c52dfb9776ed361b266413db0c45dd1cfe883856e660
-routing_manifest_sha256: ef6ecd66a5cda32c0f8f6b6f033e395907b62c76a803d1da4ce252794aa81261
+review_date: 2026-09-09
+review_fingerprint: ea22f05c1d7c8e26f8dd8c7e5e49dc3f1384f0f251056c7eb165d79e334fa0ff
+routing_manifest_sha256: 4a958bab8a32e70948984372cc0d4828c1f97fe1d8d6cdff8758ffcbe54b1245
 ontap_region: Greater Manchester - North
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 7
-- Selected: 1
+- Records: 8
+- Selected: 2
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 5
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Greater Manchester - North | Bury, North West, BL9 8LP | Grade 5 £25,989-£27,254 FTE Pay Award Pending | Administrative Assistant
+employer: Brookhaven School
+closing_date: 2026-09-23T09:00:59+01:00
+reason: Clear admin/service title: administrative assistant
+jobg8_check: NO_MATCH
+slice_status: UNREGISTERED
+migration_status: 
+factual_fingerprint: 86b559588ca1447ef9e719cee46278c788003f0b0c017c62156b0c411ca32eaf
+source: Teaching Vacancies
+source_job_id: administrative-assistant-brookhaven-school-bury-greater-manchester
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-brookhaven-school-bury-greater-manchester
+---
 
 ---
 action: 

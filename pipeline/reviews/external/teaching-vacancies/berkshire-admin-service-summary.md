@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Berkshire
 
-review_date: 2026-09-08
-review_fingerprint: 20834776ccae60e286fdd227cd780b0b145edccc3e2a9193b203a6c806c45349
-routing_manifest_sha256: ef6ecd66a5cda32c0f8f6b6f033e395907b62c76a803d1da4ce252794aa81261
+review_date: 2026-09-09
+review_fingerprint: 6c9ac7d21d48dc3869d29455c2d8170ee96ddc4da3f066f27c6d130967e6fed9
+routing_manifest_sha256: 4a958bab8a32e70948984372cc0d4828c1f97fe1d8d6cdff8758ffcbe54b1245
 ontap_region: Berkshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 16
-- Selected: 4
+- Records: 20
+- Selected: 7
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 10
+- Hard pass: 11
 
 ## SELECTED
 
@@ -49,6 +49,51 @@ factual_fingerprint: d6981f750621c042e19c58978840f5e605b9091d74da79f6d018fabfc35
 source: Teaching Vacancies
 source_job_id: attendance-officer-and-administration-coordinator-kendrick-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-and-administration-coordinator-kendrick-school
+---
+
+---
+action: 
+SELECTED | Berkshire | Hungerford, South East, RG17 9QE | £25,583 | Finance/Administrative Assistant
+employer: Inkpen Primary School
+closing_date: 2026-09-16T09:00:00+01:00
+reason: Clear admin/service title: administrative assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 9232254155129bf3e007c8597fb87450060e06041dcc36bc407491ce946ba8fc
+source: Teaching Vacancies
+source_job_id: finance-administrative-assistant-inkpen-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-administrative-assistant-inkpen-primary-school
+---
+
+---
+action: 
+SELECTED | Berkshire | Reading, South East, RG1 5SG | £22,582.00 Annually (Actual) Grade 4 SCP 7 working 37 hours per week Term Time only plus 5 INSET days ( FTE 26,402) Plus a SEN allowance £1,538.711 | Receptionist & Administrative Officer
+employer: Hamilton School
+closing_date: 2026-09-30T23:59:00+01:00
+reason: Clear admin/service title: receptionist
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 366ff8f92f393bec987b4ff4a20fa628bb31c5f24ae48cc2830453bc31b61aaa
+source: Teaching Vacancies
+source_job_id: receptionist-administrative-officer-hamilton-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrative-officer-hamilton-school
+---
+
+---
+action: 
+SELECTED | Berkshire | Ascot, South East, SL5 9QY | £20,104.00 Annually (Actual) FTE £29318, Scale 4 Point 7 | Safeguarding Administrator and Student Wellbeing Support
+employer: Charters School
+closing_date: 2026-09-28T09:00:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 8582b6350e6fe01a995ecbecbbf9d0a2c8c781ae83e9370ec74eba2e7bf0f4d3
+source: Teaching Vacancies
+source_job_id: safeguarding-administrator-and-student-wellbeing-support
+source_url: https://teaching-vacancies.service.gov.uk/jobs/safeguarding-administrator-and-student-wellbeing-support
 ---
 
 ---
@@ -120,6 +165,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-operations-off
 ## HARD_PASS
 
 - [Casual Lettings Assistant](https://teaching-vacancies.service.gov.uk/jobs/casual-lettings-assistant-maiden-erlegh-chiltern-edge) — Insufficient admin/service evidence.
+- [Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-the-park-federation-academy-trust) — Insufficient admin/service evidence.
 - [Home School Liaison Assistant](https://teaching-vacancies.service.gov.uk/jobs/home-school-liaison-assistant-842866de-b635-4ed9-bb14-58200af5fde1) — Insufficient admin/service evidence.
 - [HR & Recruitment Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-recruitment-officer-the-park-federation-academy-trust) — Insufficient admin/service evidence.
 - [Office Manager - Southcote Primary School](https://teaching-vacancies.service.gov.uk/jobs/office-manager-southcote-primary-school-southcote-primary-school-reading-berkshire) — Manager title salary ceiling £35,521 is not below £28,000.

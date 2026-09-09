@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Nottinghamshire
 
-review_date: 2026-09-08
-review_fingerprint: 268d81e96747e799d7c123070850c3b35db9c80fb1889725c6c6120dade7a806
-routing_manifest_sha256: ef6ecd66a5cda32c0f8f6b6f033e395907b62c76a803d1da4ce252794aa81261
+review_date: 2026-09-09
+review_fingerprint: 898f56834eba3fb1f513dd3e70e97eda2d3aa141759eb953ca10d8ddfeedacfa
+routing_manifest_sha256: 4a958bab8a32e70948984372cc0d4828c1f97fe1d8d6cdff8758ffcbe54b1245
 ontap_region: Nottinghamshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 14
-- Selected: 7
+- Records: 15
+- Selected: 8
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 6
@@ -124,6 +124,21 @@ factual_fingerprint: 5500d8768914cfeac03664843c5ad0c84f3d4ed0528f45be1538aa328ca
 source: Teaching Vacancies
 source_job_id: part-time-attendance-administrator-secondary-site
 source_url: https://teaching-vacancies.service.gov.uk/jobs/part-time-attendance-administrator-secondary-site
+---
+
+---
+action: 
+SELECTED | Nottinghamshire | Nottingham, East Midlands, NG11 8HX | £22,202.00 - £22,554.00 Annually (Actual) GAT4. 37 hours per week, 39 weeks per year | Receptionist/Administrator
+employer: Nethergate Academy
+closing_date: 2026-09-27T23:59:00+01:00
+reason: Clear admin/service title: administrator, receptionist
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 9facba11afaa35064442201bcc2ae618e20f66bdb84a1662a049854242f4c2f8
+source: Teaching Vacancies
+source_job_id: receptionist-administrator-nethergate-academy-nottingham-nottinghamshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrator-nethergate-academy-nottingham-nottinghamshire
 ---
 
 ## POSS — choose SELECT or EXCLUDE

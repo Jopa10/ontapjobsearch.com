@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Lancashire - East
 
-review_date: 2026-09-08
-review_fingerprint: 5a8742afa17e761fce3bfbab521623642626468c17b849f9e69029f3c67be472
-routing_manifest_sha256: ef6ecd66a5cda32c0f8f6b6f033e395907b62c76a803d1da4ce252794aa81261
+review_date: 2026-09-09
+review_fingerprint: 1e84fec50b472a29fb3b4360ba7f4af4dd71a0c95b245abc8f49fe89aefd2a43
+routing_manifest_sha256: 4a958bab8a32e70948984372cc0d4828c1f97fe1d8d6cdff8758ffcbe54b1245
 ontap_region: Lancashire - East
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 2
+- Records: 5
 - Selected: 1
-- POSS awaiting decision: 0
+- POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 1
+- Hard pass: 3
 
 ## SELECTED
 
@@ -38,7 +38,20 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-
 
 ## POSS — choose SELECT or EXCLUDE
 
-- None.
+---
+action: 
+POSS | Lancashire - East | Blackburn, North West, BB1 4ED | £25,000.00 - £35,000.00 Annually (Actual) | Data Officer
+employer: The Hyndburn Academy
+closing_date: 2026-09-24T17:00:00+01:00
+reason: Borderline school administration title: data officer
+jobg8_check: NO_MATCH
+slice_status: UNREGISTERED
+migration_status: 
+factual_fingerprint: b894d546b45046997540513d61c13b55912a40357e492562e00263ffa759646e
+source: Teaching Vacancies
+source_job_id: data-officer-the-hyndburn-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/data-officer-the-hyndburn-academy
+---
 
 ## EXCLUDED BY REVIEW
 
@@ -46,7 +59,9 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-
 
 ## HARD_PASS
 
+- [Apprentice Marketing Assistant](https://teaching-vacancies.service.gov.uk/jobs/apprentice-marketing-assistant) — Insufficient admin/service evidence.
 - [Finance & Data Admin Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-data-admin-officer) — Insufficient admin/service evidence.
+- [HR Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-the-hyndburn-academy) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cambridgeshire
 
-review_date: 2026-09-08
-review_fingerprint: 399709b0518d45f8abc1c002dccdfd7d90cfd6e75cbbb44397fd4efddbdce41c
-routing_manifest_sha256: ef6ecd66a5cda32c0f8f6b6f033e395907b62c76a803d1da4ce252794aa81261
+review_date: 2026-09-09
+review_fingerprint: 630bdb09322de2019655543e91c1b357d4caf61da6ba09f4a85916a13c944b89
+routing_manifest_sha256: 4a958bab8a32e70948984372cc0d4828c1f97fe1d8d6cdff8758ffcbe54b1245
 ontap_region: Cambridgeshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 24
-- Selected: 5
-- POSS awaiting decision: 7
+- Records: 26
+- Selected: 7
+- POSS awaiting decision: 6
 - Excluded: 0
-- Hard pass: 12
+- Hard pass: 13
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Cambridgeshire | Ely, East of England, CB6 2FG | £26,224.00 - £26,847.00 Annually (FTE) ALT Grade D £9,103.79 - £9,320.07 Annually Actual | Admin Assistant
+employer: Isle of Ely Primary School
+closing_date: 2026-09-25T12:00:00+01:00
+reason: Clear admin/service title: admin assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 5e8f5d76c7fdb4fc19517813162084021c00559322aed302792f214a70cd9a13
+source: Teaching Vacancies
+source_job_id: admin-assistant-isle-of-ely-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-isle-of-ely-primary-school
+---
 
 ---
 action: 
@@ -68,6 +83,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assist
 
 ---
 action: 
+SELECTED | Cambridgeshire | Peterborough, East of England, PE6 7JX | £14,802.00 Annually (Actual) | Administrator
+employer: Arthur Mellows Village College
+closing_date: 2026-09-14T09:00:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: f1cb160ba772b2e2384e97a44e6559dcd7d92b357c813b1c62444e3355a792c4
+source: Teaching Vacancies
+source_job_id: administrator-9219e9ba-082d-4b75-91ee-2e1cd2dd8f75
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-9219e9ba-082d-4b75-91ee-2e1cd2dd8f75
+---
+
+---
+action: 
 SELECTED | Cambridgeshire | St Neots, East of England, PE19 1TF | £24,404.00 Annually (FTE) | Finance / Admin Assistant
 employer: Priory Junior School
 closing_date: 2026-10-30T23:59:00+00:00
@@ -97,21 +127,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/pastoral-services-adm
 ---
 
 ## POSS — choose SELECT or EXCLUDE
-
----
-action: 
-POSS | Cambridgeshire | Peterborough, East of England, PE6 7JX | £14,802.00 Annually (Actual) | Administrator
-employer: Arthur Mellows Village College
-closing_date: 2026-09-14T09:00:00+01:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: f1cb160ba772b2e2384e97a44e6559dcd7d92b357c813b1c62444e3355a792c4
-source: Teaching Vacancies
-source_job_id: administrator-9219e9ba-082d-4b75-91ee-2e1cd2dd8f75
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-9219e9ba-082d-4b75-91ee-2e1cd2dd8f75
----
 
 ---
 action: 
@@ -216,6 +231,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/marketing-communicati
 - [Head of HR Operations](https://teaching-vacancies.service.gov.uk/jobs/head-of-hr-operations-united-learning-trust) — Insufficient admin/service evidence.
 - [HR Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-b7cc2a7e-7614-47f6-82b4-5ec3bff78735) — Insufficient admin/service evidence.
 - [Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-0ac27fb8-22a7-4d23-9c79-0a117c28f623) — Insufficient admin/service evidence.
+- [School Business Leader](https://teaching-vacancies.service.gov.uk/jobs/school-business-leader-university-of-cambridge-primary-school) — Insufficient admin/service evidence.
 - [Senior HR Adviser (Field based Cambridge and Ely area primarily)](https://teaching-vacancies.service.gov.uk/jobs/senior-hr-adviser-field-based-cambridge-and-ely-area-primarily) — Insufficient admin/service evidence.
 - [Trust Accountant](https://teaching-vacancies.service.gov.uk/jobs/trust-accountant-7bdb7712-1f61-48da-8325-8b7fd7b8d935) — Insufficient admin/service evidence.
 - [Trust Accountant](https://teaching-vacancies.service.gov.uk/jobs/trust-accountant-swavesey-village-college) — Insufficient admin/service evidence.

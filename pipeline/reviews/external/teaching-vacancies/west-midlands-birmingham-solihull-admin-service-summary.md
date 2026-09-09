@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Birmingham & Solihull
 
-review_date: 2026-09-08
-review_fingerprint: ecaf1a80aeb3aa7005f76e8935888c5108f8a37020c256b59d7ad3400fd8e254
-routing_manifest_sha256: ef6ecd66a5cda32c0f8f6b6f033e395907b62c76a803d1da4ce252794aa81261
+review_date: 2026-09-09
+review_fingerprint: 51843ae924119521cfd4514ca2b549228f22f77aaf46e6ae3b710d8d63f0a971
+routing_manifest_sha256: 4a958bab8a32e70948984372cc0d4828c1f97fe1d8d6cdff8758ffcbe54b1245
 ontap_region: West Midlands - Birmingham & Solihull
 slice_category: admin_service
 slice_status: LIVE
@@ -14,12 +14,27 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 20
-- Selected: 4
-- POSS awaiting decision: 5
+- Selected: 6
+- POSS awaiting decision: 4
 - Excluded: 0
-- Hard pass: 11
+- Hard pass: 10
 
 ## SELECTED
+
+---
+action: 
+SELECTED | West Midlands - Birmingham & Solihull | Solihull, West Midlands, B92 7EB | Support Staff Band B (Pt 3 -5) FTE £25,614 - £26,427 – Actual Salary £13,353- £13,777 | Administrative Assistant
+employer: Kineton Green Primary School
+closing_date: 2026-09-20T23:59:00+01:00
+reason: Clear admin/service title: administrative assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: e9e5cd98c75eead8ad574428e305f5e465d9f10e066ba42254b164c0e1e5a2ce
+source: Teaching Vacancies
+source_job_id: administrative-assistant-daeb96b2-4a80-4966-a01a-d852bcec6a1b
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-daeb96b2-4a80-4966-a01a-d852bcec6a1b
+---
 
 ---
 action: 
@@ -64,6 +79,21 @@ factual_fingerprint: 72155758fc0c4149e5d4f318ba766c871b3ae1d758e4c124bc3dfb473f3
 source: Teaching Vacancies
 source_job_id: payroll-pensions-finance-and-hr-administrator
 source_url: https://teaching-vacancies.service.gov.uk/jobs/payroll-pensions-finance-and-hr-administrator
+---
+
+---
+action: 
+SELECTED | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B45 0EU | £22,121.00 Annually (Actual) | Receptionist
+employer: King Edward VI Balaam Wood Academy
+closing_date: 2026-09-21T09:00:00+01:00
+reason: Clear admin/service title: receptionist
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: f9d1389180deee068952f032ce09b1d6ee768cc4c19d9b82d03eeadc00668a78
+source: Teaching Vacancies
+source_job_id: receptionist-king-edward-vi-balaam-wood-academy-birmingham-west-midlands
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-king-edward-vi-balaam-wood-academy-birmingham-west-midlands
 ---
 
 ---
@@ -143,28 +173,12 @@ source_job_id: office-administrator-yorkmead-junior-and-infant-school-birmingham
 source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-yorkmead-junior-and-infant-school-birmingham-west-midlands
 ---
 
----
-action: 
-POSS | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B45 0EU | £22,121.00 Annually (Actual) | Receptionist
-employer: King Edward VI Balaam Wood Academy
-closing_date: 2026-09-21T09:00:00+01:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: f9d1389180deee068952f032ce09b1d6ee768cc4c19d9b82d03eeadc00668a78
-source: Teaching Vacancies
-source_job_id: receptionist-king-edward-vi-balaam-wood-academy-birmingham-west-midlands
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-king-edward-vi-balaam-wood-academy-birmingham-west-midlands
----
-
 ## EXCLUDED BY REVIEW
 
 - None.
 
 ## HARD_PASS
 
-- [Clerical Assistant](https://teaching-vacancies.service.gov.uk/jobs/clerical-assistant-hall-green-junior-school) — Insufficient admin/service evidence.
 - [Data Manager](https://teaching-vacancies.service.gov.uk/jobs/data-manager-moseley-school-and-sixth-form) — Manager title salary ceiling £47,375 is not below £28,000.
 - [Finance Lead](https://teaching-vacancies.service.gov.uk/jobs/finance-lead-forward-education-trust) — Insufficient admin/service evidence.
 - [Governance Support Officer](https://teaching-vacancies.service.gov.uk/jobs/governance-support-officer-academy-transformation-trust-sutton-coldfield-not-recorded) — Insufficient admin/service evidence.

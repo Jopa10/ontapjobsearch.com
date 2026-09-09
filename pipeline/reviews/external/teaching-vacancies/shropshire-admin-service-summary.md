@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Shropshire
 
-review_date: 2026-09-08
-review_fingerprint: a0570fe4cff044ad278c2a8b6afc7be0d07b598d46b9ec7b6048049632e7394e
-routing_manifest_sha256: ef6ecd66a5cda32c0f8f6b6f033e395907b62c76a803d1da4ce252794aa81261
+review_date: 2026-09-09
+review_fingerprint: f66115b7bd189eea154e866ce582480da1b99cc723a58ef5cef609e128f637e3
+routing_manifest_sha256: 4a958bab8a32e70948984372cc0d4828c1f97fe1d8d6cdff8758ffcbe54b1245
 ontap_region: Shropshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 5
-- Selected: 3
+- Records: 6
+- Selected: 4
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 2
@@ -49,6 +49,21 @@ factual_fingerprint: 0363f2f42f6372d75c125d5eafb4d22d955a1296c181f99ae4a3e56005d
 source: Teaching Vacancies
 source_job_id: administration-assistant-inclusion-and-people
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-inclusion-and-people
+---
+
+---
+action: 
+SELECTED | Shropshire | Shrewsbury, West Midlands, SY3 9EE | £22,580.00 - £2,869.00 Annually (Actual) | Administrator – Attendance & Student Support
+employer: The Priory School
+closing_date: 2026-09-21T10:00:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 787c865c913e685e2ec0a8284e287645d0cca18281f1800add5d253a22f4713a
+source: Teaching Vacancies
+source_job_id: administrator-attendance-student-support
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-attendance-student-support
 ---
 
 ---

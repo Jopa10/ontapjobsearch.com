@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Essex
 
-review_date: 2026-09-08
+review_date: 2026-09-09
 review_fingerprint: 7ccc783d1a3add525fd71d8c254d235cd00e0851d62074e4cd50f44d1d268e18
-routing_manifest_sha256: ef6ecd66a5cda32c0f8f6b6f033e395907b62c76a803d1da4ce252794aa81261
+routing_manifest_sha256: 4a958bab8a32e70948984372cc0d4828c1f97fe1d8d6cdff8758ffcbe54b1245
 ontap_region: Essex
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 7
+- Records: 8
 - Selected: 2
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 6
 
 ## SELECTED
 
@@ -62,6 +62,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/trust-administrator-d
 ## HARD_PASS
 
 - [Admissions Coordinator](https://teaching-vacancies.service.gov.uk/jobs/admissions-coordinator) — Insufficient admin/service evidence.
+- [Part Time Librarian](https://teaching-vacancies.service.gov.uk/jobs/part-time-librarian-st-bernard-s-high-school) — Insufficient admin/service evidence.
 - [Reprographics Administrator/Receptionist](https://teaching-vacancies.service.gov.uk/jobs/reprographics-administrator-receptionist-plume-school) — Missing salary or pay scale.
 - [School Support Assistant](https://teaching-vacancies.service.gov.uk/jobs/school-support-assistant-hilltop-junior-school) — Insufficient admin/service evidence.
 - [Senior Administrative Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-administrative-officer-mossbourne-fobbing-academy-stanford-le-hope) — Insufficient admin/service evidence.

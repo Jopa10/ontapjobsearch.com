@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Greater Manchester - Manchester & Salford
 
-review_date: 2026-09-08
-review_fingerprint: 56fa75585d6b33e4c519bd0b7a30b73c6817de8e7176beafd9fa1f7d989032ca
-routing_manifest_sha256: ef6ecd66a5cda32c0f8f6b6f033e395907b62c76a803d1da4ce252794aa81261
+review_date: 2026-09-09
+review_fingerprint: 465f59b8b6b34292eca539f4d3178ac22ba0f875d8cd74ee3cfb7dbbc30b163a
+routing_manifest_sha256: 4a958bab8a32e70948984372cc0d4828c1f97fe1d8d6cdff8758ffcbe54b1245
 ontap_region: Greater Manchester - Manchester & Salford
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 6
+- Records: 8
 - Selected: 5
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 1
+- Hard pass: 3
 
 ## SELECTED
 
@@ -70,15 +70,15 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/data-exams-officer-0a
 action: 
 SELECTED | Greater Manchester - Manchester & Salford | Manchester, North West, M23 2SX | DAT Level 2, SCP 14-17 (Actual salary £24,444 - £24,832) | Level 2 Academy Administrator
 employer: Dixons Newall Green Academy
-closing_date: 2026-09-10T23:59:00+01:00
+closing_date: 2026-09-13T23:59:00+01:00
 reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: acd9370ce704d991be635830eb837f9bde5fa27469b376189db3d007efc2ecbd
+factual_fingerprint: fe2db05187d01dcac89033ccc7cf4bfda9d87b7bc8bec263ab595d86bf676514
 source: Teaching Vacancies
-source_job_id: level-2-academy-administrator-b06ab9cb-ab9d-4cf2-9142-0597902d3d58
-source_url: https://teaching-vacancies.service.gov.uk/jobs/level-2-academy-administrator-b06ab9cb-ab9d-4cf2-9142-0597902d3d58
+source_job_id: level-2-academy-administrator-b3f2e607-7a74-4e3b-a63d-126983463f76
+source_url: https://teaching-vacancies.service.gov.uk/jobs/level-2-academy-administrator-b3f2e607-7a74-4e3b-a63d-126983463f76
 ---
 
 ---
@@ -106,6 +106,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/pastoral-administrato
 
 ## HARD_PASS
 
+- [Administration Officer [Maternity Cover]](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-maternity-cover-st-anne-s-church-of-england-academy-manchester) — Insufficient admin/service evidence.
+- [Payroll and Pensions Officer](https://teaching-vacancies.service.gov.uk/jobs/payroll-and-pensions-officer-bright-futures-educational-trust-manchester-not-recorded) — Insufficient admin/service evidence.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-7986b875-3afd-40fe-a6d9-35bfdfc945f0) — Manager title salary ceiling £44,075 is not below £28,000.
 
 ## Safety boundary

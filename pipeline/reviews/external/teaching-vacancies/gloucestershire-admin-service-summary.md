@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Gloucestershire
 
-review_date: 2026-09-08
+review_date: 2026-09-09
 review_fingerprint: f7035e5ee7d00984530797c9f120a21d9ea42622da663037f5789e5149948edb
-routing_manifest_sha256: ef6ecd66a5cda32c0f8f6b6f033e395907b62c76a803d1da4ce252794aa81261
+routing_manifest_sha256: 4a958bab8a32e70948984372cc0d4828c1f97fe1d8d6cdff8758ffcbe54b1245
 ontap_region: Gloucestershire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 2
+- Records: 4
 - Selected: 1
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 1
+- Hard pass: 3
 
 ## SELECTED
 
@@ -47,6 +47,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assist
 ## HARD_PASS
 
 - [Business Operations & Compliance Officer](https://teaching-vacancies.service.gov.uk/jobs/business-operations-compliance-officer) — Insufficient admin/service evidence.
+- [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-chosen-hill-school) — Insufficient admin/service evidence.
+- [Senior Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-finance-officer-sir-william-romney-s-school-tetbury-gloucestershire) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

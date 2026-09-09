@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Buckinghamshire
 
-review_date: 2026-09-08
-review_fingerprint: 0b3556a9d2fa65f3dd5965dd41efb33e5000ec031d5a3418e4464c821afb1a9f
-routing_manifest_sha256: ef6ecd66a5cda32c0f8f6b6f033e395907b62c76a803d1da4ce252794aa81261
+review_date: 2026-09-09
+review_fingerprint: 3ed086ba812da2dc002bb1363fb33777453af2ec73be35e9cd9c1743a8230579
+routing_manifest_sha256: 4a958bab8a32e70948984372cc0d4828c1f97fe1d8d6cdff8758ffcbe54b1245
 ontap_region: Buckinghamshire
 slice_category: admin_service
 slice_status: LIVE
@@ -20,6 +20,21 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 - Hard pass: 6
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Buckinghamshire | Amersham, South East, HP7 9HH | Bucks Pay Range 2 - £23,666 pro rata / £26,522 FTE | Administration Assistant
+employer: Amersham School
+closing_date: 2026-09-18T23:59:00+01:00
+reason: Clear admin/service title: administration assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 3ca339484fe8c75a632385c1e61b7aed091c74017a77c8e5d192861ce11e1c50
+source: Teaching Vacancies
+source_job_id: administration-assistant-amersham-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-amersham-school
+---
 
 ---
 action: 
@@ -64,21 +79,6 @@ factual_fingerprint: b32644a80dd55010784a06a704d1a69c6c3c5d03fb2842c61d860686c88
 source: Teaching Vacancies
 source_job_id: attendance-officer-amersham-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-amersham-school
----
-
----
-action: 
-SELECTED | Buckinghamshire | Aylesbury, HP22 6NL | £37,772.00 - £41,272.00 Annually (FTE) Bucks Pay Range 6 (point 31 - 35), pro-rata for 40 weeks per annum | Examinations Officer
-employer: Chiltern Way Academy Trust
-closing_date: 2026-09-13T20:00:00+01:00
-reason: Clear admin/service title: examinations officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 259894bf98a91ee74c3022a25e438ee528eab4f82e5a835b5225febf7925969a
-source: Teaching Vacancies
-source_job_id: examinations-officer-aeb29f97-ce81-41ec-8b38-81ed01e3315f
-source_url: https://teaching-vacancies.service.gov.uk/jobs/examinations-officer-aeb29f97-ce81-41ec-8b38-81ed01e3315f
 ---
 
 ---

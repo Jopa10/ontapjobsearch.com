@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - South
 
-review_date: 2026-09-08
-review_fingerprint: 0c1e1738ef773917e3d225d5004efc4d1e32080890f61d4efd2b43e08bc883a1
-routing_manifest_sha256: ef6ecd66a5cda32c0f8f6b6f033e395907b62c76a803d1da4ce252794aa81261
+review_date: 2026-09-09
+review_fingerprint: 281e8cc8f1ce2a926ed8aa49f58f013e508eaa75fe555554442bd9432fc7b940
+routing_manifest_sha256: 4a958bab8a32e70948984372cc0d4828c1f97fe1d8d6cdff8758ffcbe54b1245
 ontap_region: Yorkshire - South
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 25
-- Selected: 5
+- Records: 28
+- Selected: 6
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 19
+- Hard pass: 21
 
 ## SELECTED
 
@@ -53,6 +53,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/permanent-admin-assis
 
 ---
 action: 
+SELECTED | Yorkshire - South | Sheffield, Yorkshire and the Humber, S20 1HQ | £34,237.00 - £38,510.00 Annually (FTE) Grade 6 SCP 21 to 26 (Actual salary £30,957 - £34,821) | Personal Assistant to Headteacher
+employer: Westfield School
+closing_date: 2026-09-24T23:59:00+01:00
+reason: Clear admin/service title: personal assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 589406a11436d8f09b35a36409284fb5a070c45b47d0a37eecda4f1896b4bfab
+source: Teaching Vacancies
+source_job_id: personal-assistant-to-headteacher-westfield-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/personal-assistant-to-headteacher-westfield-school
+---
+
+---
+action: 
 SELECTED | Yorkshire - South | Sheffield, Yorkshire and the Humber, S17 4FB | Grade 3 (£26,428 to £26,847) | Receptionist
 employer: Totley Primary School
 closing_date: 2026-09-20T23:59:59+01:00
@@ -60,7 +75,7 @@ reason: Clear admin/service title: receptionist
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: d63ad928592d30dccc2e99d0cd7ede8f858670d58ddaf2dd7e748c7a2e5987a4
+factual_fingerprint: 69a2808b904d2a8fe98a35c178a70b9d9eda6cffb08ee7837fff6b2ddf7c666d
 source: Teaching Vacancies
 source_job_id: receptionist-totley-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-totley-primary-school
@@ -137,7 +152,9 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/estates-and-complianc
 - [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-mercia-learning-trust-sheffield-not-recorded) — Manager title salary ceiling £53,052 is not below £28,000.
 - [HR Manager](https://teaching-vacancies.service.gov.uk/jobs/hr-manager-f66082bd-6a6e-4f84-9a14-924c810758cb) — Manager title salary ceiling £54,495 is not below £28,000.
 - [HR Manager](https://teaching-vacancies.service.gov.uk/jobs/hr-manager-st-francis-catholic-multi-academy-trust-rotherham-not-recorded) — Manager title salary ceiling £54,495 is not below £28,000.
+- [Learning Manager](https://teaching-vacancies.service.gov.uk/jobs/learning-manager-0bfa4cca-872c-4778-a35f-1fb75b7f4503) — Manager title salary ceiling £36,581 is not below £28,000.
 - [School Administration Assistant: HR and Payroll](https://teaching-vacancies.service.gov.uk/jobs/school-administration-assistant-hr-and-payroll) — Insufficient admin/service evidence.
+- [Sixth Form Engagement Officer](https://teaching-vacancies.service.gov.uk/jobs/sixth-form-engagement-officer) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

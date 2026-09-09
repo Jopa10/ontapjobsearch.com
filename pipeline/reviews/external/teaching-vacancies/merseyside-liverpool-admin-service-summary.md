@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Merseyside - Liverpool
 
-review_date: 2026-09-08
+review_date: 2026-09-09
 review_fingerprint: 495432ae196b70f8256c524cbc05de50efa5abc5bc85ff66528c38ab4801f975
-routing_manifest_sha256: ef6ecd66a5cda32c0f8f6b6f033e395907b62c76a803d1da4ce252794aa81261
+routing_manifest_sha256: 4a958bab8a32e70948984372cc0d4828c1f97fe1d8d6cdff8758ffcbe54b1245
 ontap_region: Merseyside - Liverpool
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 2
+- Records: 4
 - Selected: 2
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 0
+- Hard pass: 2
 
 ## SELECTED
 
@@ -61,7 +61,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-operations-pa-
 
 ## HARD_PASS
 
-- None.
+- [HR People Partner](https://teaching-vacancies.service.gov.uk/jobs/hr-people-partner) — Insufficient admin/service evidence.
+- [Senior Attendance Lead](https://teaching-vacancies.service.gov.uk/jobs/senior-attendance-lead-deyes-high-school-liverpool-merseyside) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

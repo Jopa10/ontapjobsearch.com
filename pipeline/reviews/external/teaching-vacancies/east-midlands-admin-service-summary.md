@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — East Midlands
 
-review_date: 2026-09-08
-review_fingerprint: e90ad67d0f53b8952f27fdd6e6493c518dcc90a6dfcdbbcad6e298739d59b85b
-routing_manifest_sha256: ef6ecd66a5cda32c0f8f6b6f033e395907b62c76a803d1da4ce252794aa81261
+review_date: 2026-09-09
+review_fingerprint: 42538ffef7eb6f4c342f55625dbe162a954fb2c4887f98a69a43ae2d077541fd
+routing_manifest_sha256: 4a958bab8a32e70948984372cc0d4828c1f97fe1d8d6cdff8758ffcbe54b1245
 ontap_region: East Midlands
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 10
+- Records: 11
 - Selected: 5
-- POSS awaiting decision: 0
+- POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 5
 
@@ -98,7 +98,20 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-david-n
 
 ## POSS — choose SELECT or EXCLUDE
 
-- None.
+---
+action: 
+POSS | East Midlands | Alfreton, East Midlands, DE55 5LZ | £22,989.12 - £23,403.48 Annually (Actual) Grade 6 | School Business Assistant (Student Attendance and Data)
+employer: Tibshelf Community School
+closing_date: 2026-09-23T23:59:00+01:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: UNREGISTERED
+migration_status: 
+factual_fingerprint: 3befcb6a4ab8349713f2ea840736b1ed7795e8b4bb62d0932e485e872ca3d694
+source: Teaching Vacancies
+source_job_id: school-business-assistant-student-attendance-and-data
+source_url: https://teaching-vacancies.service.gov.uk/jobs/school-business-assistant-student-attendance-and-data
+---
 
 ## EXCLUDED BY REVIEW
 

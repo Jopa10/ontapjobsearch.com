@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Leicestershire
 
-review_date: 2026-09-08
-review_fingerprint: a5462036c3714d732121a814e146fa665281b6bc77a86c869eddc0651770ca6c
-routing_manifest_sha256: ef6ecd66a5cda32c0f8f6b6f033e395907b62c76a803d1da4ce252794aa81261
+review_date: 2026-09-09
+review_fingerprint: 3cf8fb640203a743fb5280b8f92f59e37112807a7c9f69fe558bfa15049c89e8
+routing_manifest_sha256: 4a958bab8a32e70948984372cc0d4828c1f97fe1d8d6cdff8758ffcbe54b1245
 ontap_region: Leicestershire
 slice_category: admin_service
 slice_status: LIVE
@@ -14,10 +14,10 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 5
-- Selected: 2
+- Selected: 3
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 3
+- Hard pass: 2
 
 ## SELECTED
 
@@ -51,6 +51,21 @@ source_job_id: receptionist-sherrier-church-of-england-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-sherrier-church-of-england-primary-school
 ---
 
+---
+action: 
+SELECTED | Leicestershire | Leicester, East Midlands, LE9 9JL | FTE - £28,604 - £30,028 | Senior Administrator - Exams & Data
+employer: Bosworth Academy
+closing_date: 2026-09-27T09:00:59+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 7cbaf28d7405459b3275cb812628adbfe4bfc48cbf915b3b63250458f6254879
+source: Teaching Vacancies
+source_job_id: senior-administrator-exams-data
+source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-exams-data
+---
+
 ## POSS — choose SELECT or EXCLUDE
 
 - None.
@@ -61,7 +76,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-sherrier
 
 ## HARD_PASS
 
-- [Apprentice Premises Officer](https://teaching-vacancies.service.gov.uk/jobs/apprentice-premises-officer-ash-field-academy) — Insufficient admin/service evidence.
 - [Extended Services Club Manager (EXS031BC)](https://teaching-vacancies.service.gov.uk/jobs/extended-services-club-manager-exs031bc-sileby-redlands-community-primary-school) — Manager title salary ceiling £28,146 is not below £28,000.
 - [Trust Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/trust-finance-officer-discovery-schools-academies-trust-ltd) — Insufficient admin/service evidence.
 

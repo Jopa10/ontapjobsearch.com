@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — North East
 
-review_date: 2026-09-08
+review_date: 2026-09-09
 review_fingerprint: a794447204dadee113374dc1f2d4babffcd60cd0eb5b7d48feacedac87bdba5a
-routing_manifest_sha256: ef6ecd66a5cda32c0f8f6b6f033e395907b62c76a803d1da4ce252794aa81261
+routing_manifest_sha256: 4a958bab8a32e70948984372cc0d4828c1f97fe1d8d6cdff8758ffcbe54b1245
 ontap_region: North East
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 7
+- Records: 6
 - Selected: 1
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 6
+- Hard pass: 5
 
 ## SELECTED
 
@@ -46,11 +46,10 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assist
 
 ## HARD_PASS
 
-- [Associate Operational Support Lead](https://teaching-vacancies.service.gov.uk/jobs/associate-operational-support-lead-northern-leaders-trust) — Insufficient admin/service evidence.
 - [Communications and Administration Manager](https://teaching-vacancies.service.gov.uk/jobs/communications-and-administration-manager) — Manager title salary ceiling £39,862 is not below £28,000.
 - [Data and Examinations Assistant](https://teaching-vacancies.service.gov.uk/jobs/data-and-examinations-assistant-whickham-school) — Insufficient admin/service evidence.
 - [Deputy Administration Manager](https://teaching-vacancies.service.gov.uk/jobs/deputy-administration-manager) — Manager title salary ceiling £33,119 is not below £28,000.
-- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-st-mary-s-catholic-school) — Manager title salary ceiling £35,412 is not below £28,000.
+- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-st-mary-s-catholic-school) — Manager title salary ceiling £36,581 is not below £28,000.
 - [Personal Care Assisant - Primary SEND School - Band 2](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assisant-primary-send-school-band-2) — Insufficient admin/service evidence.
 
 ## Safety boundary

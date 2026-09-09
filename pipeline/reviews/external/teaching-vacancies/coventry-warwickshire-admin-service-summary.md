@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Coventry & Warwickshire
 
-review_date: 2026-09-08
-review_fingerprint: 95d15880db413d5f138e66325fdfa0607148ba1df48631ebf0b8849b395ef569
-routing_manifest_sha256: ef6ecd66a5cda32c0f8f6b6f033e395907b62c76a803d1da4ce252794aa81261
+review_date: 2026-09-09
+review_fingerprint: ba6dbea2f3d5f044b47f66c46edd2d08def43d34146030cdb5cc066aa8dad5c9
+routing_manifest_sha256: 4a958bab8a32e70948984372cc0d4828c1f97fe1d8d6cdff8758ffcbe54b1245
 ontap_region: West Midlands - Coventry & Warwickshire
 slice_category: admin_service
 slice_status: LIVE
@@ -14,12 +14,27 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 3
-- Selected: 1
-- POSS awaiting decision: 1
+- Selected: 2
+- POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 1
 
 ## SELECTED
+
+---
+action: 
+SELECTED | West Midlands - Coventry & Warwickshire | Coventry, West Midlands, CV3 2LP | £9,039.00 - £9,183.00 Annually (Actual) NJC pay scale Grade E 5-6 | Administration Assistant
+employer: St Bartholomew's Church of England Academy
+closing_date: 2026-09-13T23:59:00+01:00
+reason: Clear admin/service title: administration assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 73c6aaae18fc0746911ad2fd2ee4e4251d199508c579fc8a50b12f5521b41bad
+source: Teaching Vacancies
+source_job_id: administration-assistant-st-bartholomew-s-church-of-england-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-st-bartholomew-s-church-of-england-academy
+---
 
 ---
 action: 
@@ -38,20 +53,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/personal-assistant-pa
 
 ## POSS — choose SELECT or EXCLUDE
 
----
-action: 
-POSS | West Midlands - Coventry & Warwickshire | Coventry, West Midlands, CV3 2LP | £9,039.00 - £9,183.00 Annually (Actual) NJC pay scale Grade E 5-6 | Administration Assistant
-employer: St Bartholomew's Church of England Academy
-closing_date: 2026-09-13T23:59:00+01:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 73c6aaae18fc0746911ad2fd2ee4e4251d199508c579fc8a50b12f5521b41bad
-source: Teaching Vacancies
-source_job_id: administration-assistant-st-bartholomew-s-church-of-england-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-st-bartholomew-s-church-of-england-academy
----
+- None.
 
 ## EXCLUDED BY REVIEW
 

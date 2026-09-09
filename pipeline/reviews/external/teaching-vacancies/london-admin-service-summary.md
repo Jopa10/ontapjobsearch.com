@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — London
 
-review_date: 2026-09-08
-review_fingerprint: 86ed6daa6fa8353e99a2166acc8733867ba7a90a195f1240ac75f61235682f7c
-routing_manifest_sha256: ef6ecd66a5cda32c0f8f6b6f033e395907b62c76a803d1da4ce252794aa81261
+review_date: 2026-09-09
+review_fingerprint: cc764e3c738d29f54315e212661935d9ac0a16a01bdfa0fd1e03496017f03c16
+routing_manifest_sha256: 4a958bab8a32e70948984372cc0d4828c1f97fe1d8d6cdff8758ffcbe54b1245
 ontap_region: London
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 46
+- Records: 53
 - Selected: 14
-- POSS awaiting decision: 6
+- POSS awaiting decision: 8
 - Excluded: 0
-- Hard pass: 26
+- Hard pass: 31
 
 ## SELECTED
 
@@ -34,6 +34,36 @@ factual_fingerprint: d4f0fcdc2eeb963913798ea0bea40d4bad32b3547b5c16bb487fc17d452
 source: Teaching Vacancies
 source_job_id: administrative-assistant-pathways-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-pathways-school
+---
+
+---
+action: 
+SELECTED | London | London, London, SE3 0TP | Scale 4 | Administrative Assistant with Finance Experience
+employer: John Ball Primary School
+closing_date: 2026-10-05T09:00:00+01:00
+reason: Clear admin/service title: administrative assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 86a13e81199f9d6265b2f382775f21e480736524a0c414421f489d16b1ecd547
+source: Teaching Vacancies
+source_job_id: administrative-assistant-with-finance-experience
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-with-finance-experience
+---
+
+---
+action: 
+SELECTED | London | London, London, SE1 0EX | £25,492.00 - £27,400.00 Annually (Actual) Band 5 S13 to S16 for 42.9 weeks (£25,492 - £ 27,400) on the Trust Support Scale for 2025-2026 Including Inner London allowance | Admissions Officer
+employer: Haberdashers' Borough Academy
+closing_date: 2026-09-20T23:59:00+01:00
+reason: Clear admin/service title: admissions officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: ca3014fa497b69ac6e6ae0c1f9ac0de5cd957fef7d3a0696705cc914a5856651
+source: Teaching Vacancies
+source_job_id: admissions-officer-haberdashers-borough-academy-london
+source_url: https://teaching-vacancies.service.gov.uk/jobs/admissions-officer-haberdashers-borough-academy-london
 ---
 
 ---
@@ -83,32 +113,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-hr-administra
 
 ---
 action: 
-SELECTED | London | London, London, W1U 5BA | NJC points 16 - 25, depending on experience: £36,422 - £41,636 pa | PA to the SLT, including data systems & communications
-employer: The St Marylebone CofE School
-closing_date: 2026-09-09T09:00:00+01:00
-reason: Clear admin/service title: pa to
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: d1ca0eca4ded7126afdc3064ae6ce11fdb8fed91fc5f95a895e079dd83462e4c
-source: Teaching Vacancies
-source_job_id: pa-to-the-slt-including-data-systems-communications
-source_url: https://teaching-vacancies.service.gov.uk/jobs/pa-to-the-slt-including-data-systems-communications
----
-
----
-action: 
-SELECTED | London | Harrow, London, HA3 6LE | £25,335.00 - £26,436.00 Annually (Actual) | Pastoral/EHCP Administrator Term Time Only
-employer: Shaftesbury High School
-closing_date: 2026-09-09T23:59:00+01:00
+SELECTED | London | Dagenham, London, RM9 5QT | £16,149.00 Annually (Actual) Scale 4 point 7-10 | Partnership London SCITT Administrator
+employer: The Sydney Russell School
+closing_date: 2026-09-23T08:00:00+01:00
 reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: e97b9f2d102e677b644bdf94881deb6655aeadf98e6f0185853ec9eff35a4dfb
+factual_fingerprint: 301901ddd97b84fc39a145293b658c758257f1c27e2949a23b3b2a03d43e0a52
 source: Teaching Vacancies
-source_job_id: pastoral-ehcp-administrator-term-time-only
-source_url: https://teaching-vacancies.service.gov.uk/jobs/pastoral-ehcp-administrator-term-time-only
+source_job_id: partnership-london-scitt-administrator
+source_url: https://teaching-vacancies.service.gov.uk/jobs/partnership-london-scitt-administrator
 ---
 
 ---
@@ -158,29 +173,14 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-receptionist-w
 
 ---
 action: 
-SELECTED | London | Worcester Park, South East, KT4 7DD | £13,891.00 - £15,113.00 Annually (FTE) Partnership Grade 5 (£27,782pa - £30,226pa FTE) | SEN Administrative Assistant
-employer: Cuddington Community Primary School
-closing_date: 2026-09-18T23:59:00+01:00
-reason: Clear admin/service title: administrative assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 68a12e2c899fb28b819780f2abae5a89556842f2501fd753af6e3a2271969862
-source: Teaching Vacancies
-source_job_id: sen-administrative-assistant-37c055f6-3851-49a6-9a98-deeec3db7db2
-source_url: https://teaching-vacancies.service.gov.uk/jobs/sen-administrative-assistant-37c055f6-3851-49a6-9a98-deeec3db7db2
----
-
----
-action: 
-SELECTED | London | London, E4 7LT | £9,011.00 - £9,541.00 Monthly | SEN Administrative Assistant - Chingford Academies Trust
+SELECTED | London | London, E4 7LT | £9,011.00 - £9,541.00 Annually (Actual) | SEN Administrative Assistant - Chingford Academies Trust
 employer: Chingford Academies Trust
 closing_date: 2026-09-21T09:00:00+01:00
 reason: Clear admin/service title: administrative assistant
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 647bb47638196eb554223f94b373ebb88e1befd2f603072f30755c7aee82efae
+factual_fingerprint: 8e75fbd1031c83bdab8a953ec8b4c5ad2bed7de122b4a7312ce9e43b6d002d28
 source: Teaching Vacancies
 source_job_id: sen-administrative-assistant-chingford-academies-trust
 source_url: https://teaching-vacancies.service.gov.uk/jobs/sen-administrative-assistant-chingford-academies-trust
@@ -218,17 +218,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-data-administr
 
 ---
 action: 
-SELECTED | London | Morden, London, SM4 6DU | £31,086-£31,530 | Student Services and Medical Receptionist
-employer: Harris Academy Morden
-closing_date: 2026-09-21T23:59:00+01:00
+SELECTED | London | Southall, London, UB1 3HZ | Grade 4 Point 7 £27,620 (Inclusive of London Weighting and Ealing Supplement) | Welfare Officer and Student Receptionist
+employer: Dormers Wells High School
+closing_date: 2026-09-21T09:00:00+01:00
 reason: Clear admin/service title: receptionist
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 0db0884a588f58fd095eeaa56865d61fe4aec2a5c8d16f2f0081b25b649d2b28
+factual_fingerprint: 47c1edc36880795bf899ec06a84f61a31cabbc7d23e87774a05cf9901a032d87
 source: Teaching Vacancies
-source_job_id: student-services-and-medical-receptionist
-source_url: https://teaching-vacancies.service.gov.uk/jobs/student-services-and-medical-receptionist
+source_job_id: welfare-officer-and-student-receptionist-dormers-wells-high-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/welfare-officer-and-student-receptionist-dormers-wells-high-school
 ---
 
 ## POSS — choose SELECT or EXCLUDE
@@ -246,6 +246,21 @@ factual_fingerprint: 01848d190453ff975d25b326a6f13d8a64e807408ebcb8d3213e62dab37
 source: Teaching Vacancies
 source_job_id: administration-officer-worsley-bridge-primary-school-beckenham-kent
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-officer-worsley-bridge-primary-school-beckenham-kent
+---
+
+---
+action: 
+POSS | London | Southall, London, UB1 3HZ | Grade 5 Point 12 £29,659 (Inclusive of London Weighting and Ealing Supplement) | Administrative Assistant
+employer: Dormers Wells High School
+closing_date: 2026-09-21T09:00:00+01:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 60bcb5520d8f0e8edeed5e9483d0cdaa69aeb879aa14b40904f55309099862b8
+source: Teaching Vacancies
+source_job_id: administrative-assistant-245beff4-fbd9-41e0-8a85-ea929426d271
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-245beff4-fbd9-41e0-8a85-ea929426d271
 ---
 
 ---
@@ -323,6 +338,21 @@ source_job_id: school-administrator-nishkam-school-west-london
 source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-nishkam-school-west-london
 ---
 
+---
+action: 
+POSS | London | Morden, London, SM4 6DU | £31,086-£31,530 | Student Services and Medical Receptionist
+employer: Harris Academy Morden
+closing_date: 2026-09-21T23:59:00+01:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 0db0884a588f58fd095eeaa56865d61fe4aec2a5c8d16f2f0081b25b649d2b28
+source: Teaching Vacancies
+source_job_id: student-services-and-medical-receptionist
+source_url: https://teaching-vacancies.service.gov.uk/jobs/student-services-and-medical-receptionist
+---
+
 ## EXCLUDED BY REVIEW
 
 - None.
@@ -331,13 +361,14 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 
 - [Admin Officer with Reception duties](https://teaching-vacancies.service.gov.uk/jobs/admin-officer-with-reception-duties) — Insufficient admin/service evidence.
 - [Attendance & Welfare Lead and Deputy Designated Safeguarding Lead (DDSL)](https://teaching-vacancies.service.gov.uk/jobs/attendance-welfare-lead-and-deputy-designated-safeguarding-lead-ddsl) — Insufficient admin/service evidence.
+- [Deputy HR Manager](https://teaching-vacancies.service.gov.uk/jobs/deputy-hr-manager-impact-multi-academy-trust) — Manager title salary ceiling £45,750 is not below £28,000.
 - [Exams & Access Arrangements Assistant](https://teaching-vacancies.service.gov.uk/jobs/exams-access-arrangements-assistant) — Insufficient admin/service evidence.
 - [Facilities Manager](https://teaching-vacancies.service.gov.uk/jobs/facilities-manager-wimbledon-college) — Manager title salary ceiling £52,827 is not below £28,000.
 - [Family Welfare Officer](https://teaching-vacancies.service.gov.uk/jobs/family-welfare-officer-orion-eden-park-beckenham-kent) — Insufficient admin/service evidence.
 - [Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-alternative-learning-trust) — Insufficient admin/service evidence.
-- [Finance Support Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-support-assistant-sutton-community-academy) — Insufficient admin/service evidence.
 - [Financial Controller](https://teaching-vacancies.service.gov.uk/jobs/financial-controller-69b53fc4-0e74-4fcc-8b97-a4bff926f1dd) — Insufficient admin/service evidence.
 - [Fundraising Officer](https://teaching-vacancies.service.gov.uk/jobs/fundraising-officer-ac67c185-438c-4d63-82c9-4fcd5524afc9) — Insufficient admin/service evidence.
+- [Head of Governance & Compliance](https://teaching-vacancies.service.gov.uk/jobs/head-of-governance-compliance-the-charter-schools-educational-trust) — Insufficient admin/service evidence.
 - [HR Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-woodside-primary-school-croydon-surrey) — Insufficient admin/service evidence.
 - [Human Resources & Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/human-resources-operations-manager-the-woodland-academy-trust) — Manager title salary ceiling £59,778 is not below £28,000.
 - [Human Resources Manager (Schools)](https://teaching-vacancies.service.gov.uk/jobs/human-resources-manager-schools) — Manager title salary ceiling £41,000 is not below £28,000.
@@ -346,15 +377,19 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-1a973059-d7f8-42e5-b5fb-d95788720396) — Manager title salary ceiling £44,235 is not below £28,000.
 - [OFFICE MANAGER](https://teaching-vacancies.service.gov.uk/jobs/office-manager-c51d6e8a-f80b-4d3c-a580-8c73630ffb4a) — Manager title salary ceiling £40,182 is not below £28,000.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-cf4ed5f9-993c-4290-bdde-9e62b7a08c9c) — Manager title salary ceiling £34,817 is not below £28,000.
+- [Office Manager - Chingford Foundation School](https://teaching-vacancies.service.gov.uk/jobs/office-manager-chingford-foundation-school) — Manager title salary ceiling £41,358 is not below £28,000.
 - [Payroll Officer](https://teaching-vacancies.service.gov.uk/jobs/payroll-officer-b2efa37a-6b4a-4d64-ab55-23d9744d8569) — Insufficient admin/service evidence.
+- [Receptionist/Medical Administrator](https://teaching-vacancies.service.gov.uk/jobs/receptionist-medical-administrator) — Missing salary or pay scale.
 - [Recruitment and Engagement Manager](https://teaching-vacancies.service.gov.uk/jobs/recruitment-and-engagement-manager) — Manager title salary ceiling £42,060 is not below £28,000.
 - [SBM/CFO](https://teaching-vacancies.service.gov.uk/jobs/sbm-cfo) — Insufficient admin/service evidence.
 - [School Operations, Communications & Development Officer](https://teaching-vacancies.service.gov.uk/jobs/school-operations-communications-development-officer) — Insufficient admin/service evidence.
 - [School Social Worker](https://teaching-vacancies.service.gov.uk/jobs/school-social-worker-whitefriars-school) — Out-of-scope occupation: social worker.
 - [SENDCo Assistant](https://teaching-vacancies.service.gov.uk/jobs/sendco-assistant-red-hill-primary-school-chislehurst-kent) — Insufficient admin/service evidence.
+- [Senior Administrative Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-administrative-officer-mossbourne-community-academy-london) — Insufficient admin/service evidence.
 - [Senior Executive Assistant to Headteacher](https://teaching-vacancies.service.gov.uk/jobs/senior-executive-assistant-to-headteacher) — Out-of-scope occupation: teacher, headteacher.
 - [Senior Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-finance-officer-chingford-academies-trust) — Insufficient admin/service evidence.
 - [Trust Executive Assistant](https://teaching-vacancies.service.gov.uk/jobs/trust-executive-assistant-astrum-multi-academy-trust) — Insufficient admin/service evidence.
+- [Welfare & Administrative Officer (Fixed term contract - Maternity cover)](https://teaching-vacancies.service.gov.uk/jobs/welfare-administrative-officer-fixed-term-contract-maternity-cover) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

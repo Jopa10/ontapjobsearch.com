@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Herefordshire
 
-review_date: 2026-09-08
-review_fingerprint: ee2aec668ee541a9fe179494785cf06df8e41f28a4bf919c61a1720da2aa6536
-routing_manifest_sha256: ef6ecd66a5cda32c0f8f6b6f033e395907b62c76a803d1da4ce252794aa81261
+review_date: 2026-09-09
+review_fingerprint: ce3df1a49eba1471a2bbec99c786367a46b0121b752ba2ae7482d6c7e7220295
+routing_manifest_sha256: 4a958bab8a32e70948984372cc0d4828c1f97fe1d8d6cdff8758ffcbe54b1245
 ontap_region: Herefordshire
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -23,17 +23,17 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ---
 action: 
-SELECTED | Herefordshire | Hereford, West Midlands, HR1 2DY | £14.14 Hourly SCP 7 | Administrative Assistant Level 2 Primary
-employer: St Thomas Cantilupe CofE Academy
-closing_date: 2026-09-09T12:00:00+01:00
+SELECTED | Herefordshire | Hereford, West Midlands, HR2 7NG | £13.28 - £13.48 Hourly Actual Salary £22,033 | Reception and Administrative Assistant
+employer: The Hereford Church of England Academy
+closing_date: 2026-09-17T23:59:00+01:00
 reason: Clear admin/service title: administrative assistant
 jobg8_check: NO_MATCH
 slice_status: UNREGISTERED
 migration_status: 
-factual_fingerprint: 8e7ae4e387be2928bab4240ad47dc308e2667fdec18efc430512b10cdac7c1e0
+factual_fingerprint: b8934fad0137e373069d80a7298ac97d18fa546b289e511c584bc375f7a6ec29
 source: Teaching Vacancies
-source_job_id: administrative-assistant-level-2-primary-st-thomas-cantilupe-cofe-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-level-2-primary-st-thomas-cantilupe-cofe-academy
+source_job_id: reception-and-administrative-assistant-the-hereford-church-of-england-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/reception-and-administrative-assistant-the-hereford-church-of-england-academy
 ---
 
 ## POSS — choose SELECT or EXCLUDE

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Worcestershire
 
-review_date: 2026-09-08
-review_fingerprint: 2d1ab446ca40e4eb5ce0ee4f16fce13424b06a4e779185b48ce0f03ee8ef69e4
-routing_manifest_sha256: ef6ecd66a5cda32c0f8f6b6f033e395907b62c76a803d1da4ce252794aa81261
+review_date: 2026-09-09
+review_fingerprint: 78b1deadd907b94518ec3f6a92be63b811781b77074958a640f23bb75dec4373
+routing_manifest_sha256: 4a958bab8a32e70948984372cc0d4828c1f97fe1d8d6cdff8758ffcbe54b1245
 ontap_region: Worcestershire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,15 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 1
-- Selected: 0
+- Records: 2
+- Selected: 1
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 0
 
 ## SELECTED
 
-- None.
+---
+action: 
+SELECTED | Worcestershire | Redditch, West Midlands, B97 5AQ | Between £24,796 and £25,185 | Administrative Assistant and Attendance
+employer: Walkwood Church of England Middle School
+closing_date: 2026-09-21T09:00:00+01:00
+reason: Clear admin/service title: administrative assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 11ec5cd0d955d860ab430198ab99f3f7b0f1a41641431a52c8a9b04abae5f5a8
+source: Teaching Vacancies
+source_job_id: administrative-assistant-and-attendance
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-and-attendance
+---
 
 ## POSS — choose SELECT or EXCLUDE
 

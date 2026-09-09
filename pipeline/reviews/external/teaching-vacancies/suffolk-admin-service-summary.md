@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Suffolk
 
-review_date: 2026-09-08
-review_fingerprint: 0af86a25d3a777a5b1b9015ddf77fac0e1f4305ce5ec939b010bfd3f83a1bb02
-routing_manifest_sha256: ef6ecd66a5cda32c0f8f6b6f033e395907b62c76a803d1da4ce252794aa81261
+review_date: 2026-09-09
+review_fingerprint: 007c6f61d9f4b8d48c9f033e47533c8e16e96533e132a01222d5341c1249ef40
+routing_manifest_sha256: 4a958bab8a32e70948984372cc0d4828c1f97fe1d8d6cdff8758ffcbe54b1245
 ontap_region: Suffolk
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 6
+- Records: 9
 - Selected: 1
-- POSS awaiting decision: 0
+- POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 7
 
 ## SELECTED
 
@@ -38,7 +38,20 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/examinations-officer-
 
 ## POSS — choose SELECT or EXCLUDE
 
-- None.
+---
+action: 
+POSS | Suffolk | Brandon, East of England, IP27 0DA | £29,339 to £31,351 actual pa | Operations Officer
+employer: Glade Academy
+closing_date: 2026-09-30T23:59:00+01:00
+reason: Borderline school administration title: operations officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: c7daeabddbda07a946be1625aa5214a6345524b344c3095f5d6678353abd4171
+source: Teaching Vacancies
+source_job_id: operations-officer-glade-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/operations-officer-glade-academy
+---
 
 ## EXCLUDED BY REVIEW
 
@@ -47,9 +60,11 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/examinations-officer-
 ## HARD_PASS
 
 - [Compliance Senior Lead](https://teaching-vacancies.service.gov.uk/jobs/compliance-senior-lead-eastern-education-group-trust-bury-st-edmunds-not-recorded) — Insufficient admin/service evidence.
+- [Curriculum and Reception Assistant](https://teaching-vacancies.service.gov.uk/jobs/curriculum-and-reception-assistant) — Insufficient admin/service evidence.
 - [FOHR Admin](https://teaching-vacancies.service.gov.uk/jobs/fohr-admin-raedwald-trust) — Insufficient admin/service evidence.
 - [HR Assistant](https://teaching-vacancies.service.gov.uk/jobs/hr-assistant-6dd405b8-2fc8-4e6a-b2e7-62e15c258380) — Insufficient admin/service evidence.
 - [HR Assistant Apprentice](https://teaching-vacancies.service.gov.uk/jobs/hr-assistant-apprentice-piper-s-vale-primary-a-paradigm-academy-ipswich-suffolk) — Insufficient admin/service evidence.
+- [Office Manager and Exams Officer](https://teaching-vacancies.service.gov.uk/jobs/office-manager-and-exams-officer) — Manager title salary ceiling £32,597 is not below £28,000.
 - [Trust Business Manager](https://teaching-vacancies.service.gov.uk/jobs/trust-business-manager-asset-education-ipswich-not-recorded) — Manager title salary ceiling £36,581 is not below £28,000.
 
 ## Safety boundary
