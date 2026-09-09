@@ -4,7 +4,7 @@
 - Live route: `/worcester/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 7
+- Effective included jobs: 4
 - Threshold currently met: yes
 
 ## How to review
@@ -15,26 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 7
-- automatic review: 10
+- automatic include: 4
+- automatic review: 7
 - automatic exclude: 0
-- effective include: 7
-- effective review: 10
+- effective include: 4
+- effective review: 7
 - effective exclude: 0
 
-## INCLUDE (7)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrator
-company: Music Therapy Works - Agency - Permanent
-location: Worcester
-source: JobG8
-job_id: jobg8-1782921
-reason: Exact approved Worcester workplace.
----
+## INCLUDE (4)
 
 ---
 action: 
@@ -45,30 +33,6 @@ company: Music Therapy Works - Agency - Permanent
 location: Worcester
 source: JobG8
 job_id: jobg8-23643_225525056
-reason: Exact approved Worcester workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Governance Officer/Secretary
-company: Strategic Placements - Agency - Temporary
-location: Worcester
-source: JobG8
-job_id: jobg8-23643_225479319
-reason: Exact approved Worcester workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Outpatient Receptionist
-company: Worcestershire Acute Hospitals NHS Trust
-location: Worcester, WR5 1DD
-source: NHS Jobs
-job_id: nhs-5558764
 reason: Exact approved Worcester workplace.
 ---
 
@@ -108,7 +72,7 @@ job_id: nhs-5541739
 reason: Exact approved Worcester workplace.
 ---
 
-## REVIEW (10)
+## REVIEW (7)
 
 ---
 action: 
@@ -163,18 +127,6 @@ action:
 decision: review
 automatic_decision: review
 title: Personal Assistant
-company: West Midlands & Worcestershire Perm Hub - Agency - Permanent
-location: Bromsgrove
-source: JobG8
-job_id: jobg8-1851870
-reason: No exact Worcester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Personal Assistant
 company: West Midlands and Worcestershire Perm Hub - Agency - Permanent
 location: Bromsgrove
 source: JobG8
@@ -191,30 +143,6 @@ company: Michael Page - Agency - Contract
 location: Redditch
 source: JobG8
 job_id: jobg8-23643_225560318
-reason: No exact Worcester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Sales Administrator
-company: Michael Page Business Support - Agency - Permanent
-location: Redditch
-source: JobG8
-job_id: jobg8-1843219
-reason: No exact Worcester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Technical Administrator
-company: SF Partners - Agency - Permanent
-location: Worcestershire
-source: JobG8
-job_id: jobg8-1849425
 reason: No exact Worcester workplace matched; local geographic review is required.
 ---
 

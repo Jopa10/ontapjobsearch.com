@@ -4,8 +4,8 @@
 - Live route: `/northampton/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 8
-- Threshold currently met: yes
+- Effective included jobs: 3
+- Threshold currently met: no
 
 ## How to review
 Edit only the `action:` line inside a job block.
@@ -15,50 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 8
-- automatic review: 17
+- automatic include: 3
+- automatic review: 14
 - automatic exclude: 0
-- effective include: 8
-- effective review: 17
+- effective include: 3
+- effective review: 14
 - effective exclude: 0
 
-## INCLUDE (8)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Admin Assistant
-company: Barry Primary School
-location: Northampton
-source: Teaching Vacancies
-job_id: teaching-vacancies-admin-assistant-barry-primary-school
-reason: Exact approved Northampton workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Client Relations Administrator
-company: Osborne Appointments - Agency - Permanent
-location: Northampton
-source: JobG8
-job_id: jobg8-23643_225521648
-reason: Exact approved Northampton workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Customer Service Advisor
-company: Reed - Agency - Permanent
-location: Northampton
-source: JobG8
-job_id: jobg8-1733979
-reason: Exact approved Northampton workplace.
----
+## INCLUDE (3)
 
 ---
 action: 
@@ -69,18 +33,6 @@ company: Allstaff - Agency - Permanent
 location: Northampton
 source: JobG8
 job_id: jobg8-23643_225510923
-reason: Exact approved Northampton workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: New Business Unit Administrator
-company: Allstaff Recruitment - Agency - Permanent
-location: Northampton
-source: JobG8
-job_id: jobg8-1770180
 reason: Exact approved Northampton workplace.
 ---
 
@@ -100,18 +52,6 @@ reason: Exact approved Northampton workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Service Administrator
-company: Tate Milton Keynes - Agency - Permanent
-location: Northampton
-source: JobG8
-job_id: jobg8-1841296
-reason: Exact approved Northampton workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Support Services Coordinator - Care Leavers
 company: Homes 2 Inspire Limited - Agency - Permanent
 location: Northampton
@@ -120,7 +60,7 @@ job_id: jobg8-107932522
 reason: Exact approved Northampton workplace.
 ---
 
-## REVIEW (17)
+## REVIEW (14)
 
 ---
 action: 
@@ -138,47 +78,11 @@ reason: No exact Northampton workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Branch Administrator
-company: Candidate Source Ltd - Agency - Permanent
-location: Northamptonshire
-source: JobG8
-job_id: jobg8-1847874
-reason: No exact Northampton workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Claims Handler - insurance/construction - hybrid following probation
 company: The Graduate - Agency - Permanent
 location: Northamptonshire
 source: JobG8
 job_id: jobg8-1845227
-reason: No exact Northampton workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Commercial Sales Coordinator
-company: City Plumbing - Company - Permanent
-location: Northamptonshire
-source: JobG8
-job_id: jobg8-107765772
-reason: No exact Northampton workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Customer Service Coordinator
-company: Summit Recruiters - Agency - Permanent
-location: Northamptonshire
-source: JobG8
-job_id: jobg8-23643_225391849
 reason: No exact Northampton workplace matched; local geographic review is required.
 ---
 
@@ -215,6 +119,18 @@ company: Impact Recruitment Services - Agency - Permanent
 location: Kettering
 source: JobG8
 job_id: jobg8-23643_225532541
+reason: No exact Northampton workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: HR Administrator
+company: ACS Recruitment Solutions Ltd - Agency - Permanent
+location: Northamptonshire
+source: JobG8
+job_id: jobg8-1877500
 reason: No exact Northampton workplace matched; local geographic review is required.
 ---
 
@@ -259,10 +175,10 @@ action:
 decision: review
 automatic_decision: review
 title: Project Coordinator
-company: Pertemps Northampton - Agency - Permanent
+company: Cameo Consultancy - Agency - Permanent
 location: Northamptonshire
 source: JobG8
-job_id: jobg8-23643_225475580
+job_id: jobg8-23643_225582470
 reason: No exact Northampton workplace matched; local geographic review is required.
 ---
 
@@ -299,18 +215,6 @@ company: Cameo Consultancy - Agency - Permanent
 location: Northamptonshire
 source: JobG8
 job_id: jobg8-23643_225516355
-reason: No exact Northampton workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Sales Administrator
-company: Cameo Consultancy Recruitment Ltd - Agency - Permanent
-location: Northamptonshire
-source: JobG8
-job_id: jobg8-1771779
 reason: No exact Northampton workplace matched; local geographic review is required.
 ---
 

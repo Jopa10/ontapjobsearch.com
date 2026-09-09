@@ -4,8 +4,8 @@
 - Live route: `/rotherham/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 4
-- Threshold currently met: yes
+- Effective included jobs: 2
+- Threshold currently met: no
 
 ## How to review
 Edit only the `action:` line inside a job block.
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 4
-- automatic review: 28
+- automatic include: 2
+- automatic review: 23
 - automatic exclude: 0
-- effective include: 4
-- effective review: 28
+- effective include: 2
+- effective review: 23
 - effective exclude: 0
 
-## INCLUDE (4)
+## INCLUDE (2)
 
 ---
 action: 
@@ -40,30 +40,6 @@ reason: Exact approved Rotherham workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Commercial Office Administrator
-company: Elevation Recruitment Group - Agency - Permanent
-location: Rotherham
-source: JobG8
-job_id: jobg8-1770785
-reason: Exact approved Rotherham workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Receptionist
-company: Hollygreen Practice
-location: Rotherham, S63 9EH, Thurnscoe, s63 0LT, BARNSLEY, S72 0EJ
-source: NHS Jobs
-job_id: nhs-5544481
-reason: Exact approved Rotherham workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Receptionist
 company: The Market Surgery
 location: Rotherham, S63 7RA
@@ -72,7 +48,7 @@ job_id: nhs-5568418
 reason: Exact approved Rotherham workplace.
 ---
 
-## REVIEW (28)
+## REVIEW (23)
 
 ---
 action: 
@@ -114,11 +90,11 @@ reason: No exact Rotherham workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Admin Assistant
-company: TeacherActive - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-1856535
+title: Administrator
+company: Elysium Healthcare
+location: Barnsley, S71 4FL
+source: NHS Jobs
+job_id: nhs-5584270
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 
@@ -150,18 +126,6 @@ reason: No exact Rotherham workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Customer Service/Export Co-ordinator
-company: Hays Specialist Recruitment Limited - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-1866731
-reason: No exact Rotherham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Data Administrator
 company: Hays Business Support - Agency - Temporary
 location: Sheffield
@@ -179,30 +143,6 @@ company: Sue Ross Recruitment Ltd - Agency - Contract
 location: Sheffield
 source: JobG8
 job_id: jobg8-23643_225546545
-reason: No exact Rotherham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: GP receptionist/Administrator
-company: Royston Group Practice
-location: Barnsley, S71 4QW
-source: NHS Jobs
-job_id: nhs-5577083
-reason: No exact Rotherham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Medical Receptionist
-company: Mexborough Health Centre
-location: Mexborough, S64 0BY
-source: NHS Jobs
-job_id: nhs-5569947
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 
@@ -262,18 +202,6 @@ title: Production Administrator
 company: Austin Banks - Agency - Permanent
 location: Doncaster
 source: JobG8
-job_id: jobg8-1771158
-reason: No exact Rotherham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Production Administrator
-company: Austin Banks - Agency - Permanent
-location: Doncaster
-source: JobG8
 job_id: jobg8-23643_225515295
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
@@ -287,6 +215,18 @@ company: Hays Business Support - Agency - Temporary
 location: Brinsworth
 source: JobG8
 job_id: jobg8-23643_225575501
+reason: No exact Rotherham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Receptionist
+company: Manchester Road Surgery
+location: Sheffield, S10 5PN
+source: NHS Jobs
+job_id: nhs-5586600
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 
@@ -323,18 +263,6 @@ company: Tickhill and Colliery Medical Practice
 location: Doncaster, DN11 9NA, Doncaster, DN11 8JT
 source: NHS Jobs
 job_id: nhs-5554992
-reason: No exact Rotherham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Recruitment Resourcer / Administrator
-company: Lynx Employment Services Ltd - Agency - Temporary
-location: Sheffield
-source: JobG8
-job_id: jobg8-23643_225478960
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 
@@ -383,18 +311,6 @@ company: Aston Academy
 location: Sheffield
 source: Teaching Vacancies
 job_id: teaching-vacancies-send-administrator-aston-academy-sheffield-south-yorkshire
-reason: No exact Rotherham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Service Coordinator
-company: Veolia - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-23643_225545159
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 

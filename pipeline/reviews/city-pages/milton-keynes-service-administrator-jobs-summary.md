@@ -4,7 +4,7 @@
 - Live route: `/milton-keynes/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 10
+- Effective included jobs: 8
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 10
-- automatic review: 42
+- automatic include: 8
+- automatic review: 33
 - automatic exclude: 0
-- effective include: 10
-- effective review: 42
+- effective include: 8
+- effective review: 33
 - effective exclude: 0
 
-## INCLUDE (10)
+## INCLUDE (8)
 
 ---
 action: 
@@ -45,18 +45,6 @@ company: Synergy Plus Recruitment Ltd - Agency - Permanent
 location: Milton Keynes
 source: JobG8
 job_id: jobg8-107870227
-reason: Exact approved Milton Keynes workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: E-Commerce Specialist-Private Label Products
-company: Synergy Plus Recruitment Ltd - Agency - Permanent
-location: Milton Keynes
-source: JobG8
-job_id: jobg8-1734778
 reason: Exact approved Milton Keynes workplace.
 ---
 
@@ -88,11 +76,11 @@ reason: Exact approved Milton Keynes workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Internal Sales Co-ordinator
-company: WSR (Working Solutions Recruitment Services) - Agency - Permanent
+title: Marketing Automation Manager
+company: Nextech - Agency - Permanent
 location: Milton Keynes
 source: JobG8
-job_id: jobg8-1856851
+job_id: jobg8-1877882
 reason: Exact approved Milton Keynes workplace.
 ---
 
@@ -124,18 +112,6 @@ reason: Exact approved Milton Keynes workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Receptionist
-company: Scania (Great Britain) Limited - Agency - Permanent
-location: Milton Keynes
-source: JobG8
-job_id: jobg8-1850649
-reason: Exact approved Milton Keynes workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Service Delivery Coordinator
 company: BSI - Agency - Permanent
 location: Milton Keynes
@@ -144,7 +120,7 @@ job_id: jobg8-23643_225522682
 reason: Exact approved Milton Keynes workplace.
 ---
 
-## REVIEW (42)
+## REVIEW (33)
 
 ---
 action: 
@@ -258,18 +234,6 @@ reason: No exact Milton Keynes workplace matched; local geographic review is req
 action: 
 decision: review
 automatic_decision: review
-title: Administrator (Maternity Cover)
-company: Optima - Agency - Permanent
-location: Buckinghamshire
-source: JobG8
-job_id: jobg8-1850450
-reason: No exact Milton Keynes workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Associate Brand Manager
 company: Zenopa - Agency - Permanent
 location: Bourne End
@@ -366,30 +330,6 @@ reason: No exact Milton Keynes workplace matched; local geographic review is req
 action: 
 decision: review
 automatic_decision: review
-title: Customer Marketing Manager - Maternity Cover
-company: Association For Project Management - Agency - Contract
-location: Buckinghamshire
-source: JobG8
-job_id: jobg8-107842410
-reason: No exact Milton Keynes workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Customer Service
-company: Trinity Resource Solutions - Agency - Permanent
-location: High Wycombe
-source: JobG8
-job_id: jobg8-1789907
-reason: No exact Milton Keynes workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Customer Service Administrator
 company: Cameo Consultancy - Agency - Permanent
 location: Buckingham
@@ -402,47 +342,11 @@ reason: No exact Milton Keynes workplace matched; local geographic review is req
 action: 
 decision: review
 automatic_decision: review
-title: Customer Service Advisor
-company: People Solutions Group Limited - Agency - Permanent
-location: Buckinghamshire
-source: JobG8
-job_id: jobg8-1733870
-reason: No exact Milton Keynes workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: E-Commerce Executive
 company: Mixxos - Agency - Permanent
 location: Buckinghamshire
 source: JobG8
 job_id: jobg8-107876292
-reason: No exact Milton Keynes workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Entry-Level Customer Service Administrator
-company: EAC Consulting Group - Agency - Permanent
-location: Buckinghamshire
-source: JobG8
-job_id: jobg8-1771584
-reason: No exact Milton Keynes workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Events Coordinator
-company: Adecco - Agency - Permanent
-location: Buckinghamshire
-source: JobG8
-job_id: jobg8-1841488
 reason: No exact Milton Keynes workplace matched; local geographic review is required.
 ---
 
@@ -498,42 +402,6 @@ reason: No exact Milton Keynes workplace matched; local geographic review is req
 action: 
 decision: review
 automatic_decision: review
-title: Helpdesk Administrator
-company: Giordani Resourcing - Agency - Permanent
-location: Buckinghamshire
-source: JobG8
-job_id: jobg8-1771203
-reason: No exact Milton Keynes workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Marketing Executive
-company: Reed - Agency - Permanent
-location: Buckinghamshire
-source: JobG8
-job_id: jobg8-1743199
-reason: No exact Milton Keynes workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Medical Receptionist
-company: Primary Care Management Solutions Ltd
-location: High Wycombe, HP135DN
-source: NHS Jobs
-job_id: nhs-5558801
-reason: No exact Milton Keynes workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Medical Receptionist
 company: Primary Care Management Solutions Ltd
 location: Aylesbury, HP21 8TR
@@ -582,11 +450,11 @@ reason: No exact Milton Keynes workplace matched; local geographic review is req
 action: 
 decision: review
 automatic_decision: review
-title: Receptionist - Bank
-company: Avery Healthcare Group Ltd.
-location: Marlow, SL7 1HX
-source: NHS Jobs
-job_id: nhs-5567129
+title: PPC Executive
+company: FS1 Recruitment - Agency - Permanent
+location: Buckinghamshire
+source: JobG8
+job_id: jobg8-23643_225580896
 reason: No exact Milton Keynes workplace matched; local geographic review is required.
 ---
 
@@ -594,11 +462,11 @@ reason: No exact Milton Keynes workplace matched; local geographic review is req
 action: 
 decision: review
 automatic_decision: review
-title: Sales Administrator
-company: Reed - Agency - Permanent
-location: Buckinghamshire
-source: JobG8
-job_id: jobg8-1733933
+title: Receptionist - Bank
+company: Avery Healthcare Group Ltd.
+location: Marlow, SL7 1HX
+source: NHS Jobs
+job_id: nhs-5567129
 reason: No exact Milton Keynes workplace matched; local geographic review is required.
 ---
 

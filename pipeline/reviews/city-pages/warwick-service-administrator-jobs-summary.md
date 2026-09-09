@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 4
-- automatic review: 26
+- automatic review: 18
 - automatic exclude: 0
 - effective include: 4
-- effective review: 26
+- effective review: 18
 - effective exclude: 0
 
 ## INCLUDE (4)
@@ -56,7 +56,7 @@ title: Customer Service Advisor - Full Time
 company: Adecco - Agency - Permanent
 location: Warwick
 source: JobG8
-job_id: jobg8-1766758
+job_id: jobg8-23643_225505608
 reason: Exact approved Warwick workplace.
 ---
 
@@ -64,39 +64,15 @@ reason: Exact approved Warwick workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Customer Service Advisor - Full Time
-company: Adecco - Agency - Permanent
+title: HR Assistant
+company: Hiring People - Agency - Permanent
 location: Warwick
 source: JobG8
-job_id: jobg8-23643_225505608
+job_id: jobg8-1868063
 reason: Exact approved Warwick workplace.
 ---
 
-## REVIEW (26)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administration Assistant
-company: Reed - Agency - Permanent
-location: Kenilworth
-source: JobG8
-job_id: jobg8-1769740
-reason: No exact Warwick workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
-company: Candidate Source Ltd - Agency - Permanent
-location: Rugby
-source: JobG8
-job_id: jobg8-1859559
-reason: No exact Warwick workplace matched; local geographic review is required.
----
+## REVIEW (18)
 
 ---
 action: 
@@ -115,10 +91,10 @@ action:
 decision: review
 automatic_decision: review
 title: Customer Service Advisor
-company: Reed - Agency - Permanent
+company: RA Bennett - Agency - Permanent
 location: Warwickshire
 source: JobG8
-job_id: jobg8-1843252
+job_id: jobg8-1842482
 reason: No exact Warwick workplace matched; local geographic review is required.
 ---
 
@@ -167,6 +143,18 @@ company: Office Angels - Agency - Temporary
 location: Atherstone
 source: JobG8
 job_id: jobg8-23643_225572898
+reason: No exact Warwick workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: HR Assistant
+company: Bell Cornwall Recruitment - Agency - Permanent
+location: Coventry
+source: JobG8
+job_id: jobg8-1835857
 reason: No exact Warwick workplace matched; local geographic review is required.
 ---
 
@@ -235,18 +223,6 @@ action:
 decision: review
 automatic_decision: review
 title: Personal Assistant
-company: Opus People Solutions - Agency - Permanent
-location: Rugby
-source: JobG8
-job_id: jobg8-1845083
-reason: No exact Warwick workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Personal Assistant
 company: Opus People Solutions Ltd - Agency - Temporary
 location: Rugby
 source: JobG8
@@ -271,46 +247,10 @@ action:
 decision: review
 automatic_decision: review
 title: Receptionist
-company: Adecco - Agency - Permanent
-location: Coventry
-source: JobG8
-job_id: jobg8-1859565
-reason: No exact Warwick workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Receptionist
 company: Adecco - Agency - Temporary
 location: Coventry
 source: JobG8
 job_id: jobg8-23643_225572830
-reason: No exact Warwick workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Receptionist/Admin
-company: Godiva Group Practice
-location: Coventry, CV2 4lj, Coventry, CV1 4DH, Coventry, CV6 5EA, Coventry, CV2 3DR
-source: NHS Jobs
-job_id: nhs-5525238
-reason: No exact Warwick workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Remote Online Paid Research Panelist (Part-Time) - Data Entry Clerk Welcome
-company: Apex Focus Group - Agency - Permanent
-location: Warwickshire
-source: JobG8
-job_id: jobg8-1763902
 reason: No exact Warwick workplace matched; local geographic review is required.
 ---
 
@@ -330,47 +270,11 @@ reason: No exact Warwick workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Team Data Administrator
-company: Pontoon - Agency - Permanent
-location: Warwickshire
-source: JobG8
-job_id: jobg8-1775929
-reason: No exact Warwick workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Temp Administrator
 company: Brellis Recruitment - Agency - Permanent
 location: Southam
 source: JobG8
 job_id: jobg8-23643_225533754
-reason: No exact Warwick workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Weekend Receptionist
-company: Listers Group Limited - Agency - Permanent
-location: Warwickshire
-source: JobG8
-job_id: jobg8-1756888
-reason: No exact Warwick workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Work From Home Market Research Panelist - Part Time Administration Assistant Welcome
-company: Apex Focus Group - Agency - Permanent
-location: Warwickshire
-source: JobG8
-job_id: jobg8-1763911
 reason: No exact Warwick workplace matched; local geographic review is required.
 ---
 

@@ -4,7 +4,7 @@
 - Live route: `/newtownabbey/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 5
+- Effective included jobs: 4
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 5
-- automatic review: 57
+- automatic include: 4
+- automatic review: 48
 - automatic exclude: 0
-- effective include: 5
-- effective review: 57
+- effective include: 4
+- effective review: 48
 - effective exclude: 0
 
-## INCLUDE (5)
+## INCLUDE (4)
 
 ---
 action: 
@@ -72,19 +72,7 @@ job_id: jobg8-2050449
 reason: Exact approved Newtownabbey workplace.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Recruitment Administrator (12 month contract)
-company: A&O Shearman - Agency - Permanent
-location: Newtownabbey
-source: JobG8
-job_id: jobg8-21582_108490859
-reason: Exact approved Newtownabbey workplace.
----
-
-## REVIEW (57)
+## REVIEW (48)
 
 ---
 action: 
@@ -114,11 +102,11 @@ reason: No exact Newtownabbey workplace matched; local geographic review is requ
 action: 
 decision: review
 automatic_decision: review
-title: Accounts Payable Assistant (12m FTC)
-company: A&O Shearman - Agency - Permanent
-location: County Antrim
+title: Administrator (Part-time)
+company: Honeycomb Jobs Ltd - Agency - Permanent
+location: Ballymena
 source: JobG8
-job_id: jobg8-21582_108468739
+job_id: jobg8-2052132
 reason: No exact Newtownabbey workplace matched; local geographic review is required.
 ---
 
@@ -126,11 +114,11 @@ reason: No exact Newtownabbey workplace matched; local geographic review is requ
 action: 
 decision: review
 automatic_decision: review
-title: Accounts Payable Assistant (12m FTC)
-company: A&O Shearman - Agency - Permanent
+title: Administrator Over to YOUth Project NI67/08/26/1v-1
+company: Extern - Agency - Permanent
 location: Belfast
 source: JobG8
-job_id: jobg8-21582_108468762
+job_id: jobg8-2051461
 reason: No exact Newtownabbey workplace matched; local geographic review is required.
 ---
 
@@ -246,47 +234,11 @@ reason: No exact Newtownabbey workplace matched; local geographic review is requ
 action: 
 decision: review
 automatic_decision: review
-title: Customer Service Advisor - Arc Room
-company: Brook Street UK - Agency - Permanent
-location: Belfast
-source: JobG8
-job_id: jobg8-107836604
-reason: No exact Newtownabbey workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Customer Service Assistant
-company: Belfast City Council - Agency - Permanent
-location: Belfast
-source: JobG8
-job_id: jobg8-2050586
-reason: No exact Newtownabbey workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Customer Services Administrator
 company: Vital Healthcare - Agency - Permanent
 location: Belfast
 source: JobG8
 job_id: jobg8-2051098
-reason: No exact Newtownabbey workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Depositary Administrator
-company: MCS Group - Agency - Permanent
-location: Belfast
-source: JobG8
-job_id: jobg8-2050155
 reason: No exact Newtownabbey workplace matched; local geographic review is required.
 ---
 
@@ -318,11 +270,35 @@ reason: No exact Newtownabbey workplace matched; local geographic review is requ
 action: 
 decision: review
 automatic_decision: review
+title: Finance Administrator
+company: Reed Specialist Recruitment - Agency - Permanent
+location: Belfast
+source: JobG8
+job_id: jobg8-2049783
+reason: No exact Newtownabbey workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Finance Administrator (Newtownards)
 company: Honeycomb Jobs Ltd - Agency - Permanent
 location: County Down
 source: JobG8
 job_id: jobg8-2050963
+reason: No exact Newtownabbey workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Finance Assistant - Part Time
+company: MCS Group - Agency - Permanent
+location: Belfast
+source: JobG8
+job_id: jobg8-2049906
 reason: No exact Newtownabbey workplace matched; local geographic review is required.
 ---
 
@@ -370,7 +346,7 @@ title: Financial Services Administrator
 company: Honeycomb Jobs Ltd - Agency - Permanent
 location: Belfast
 source: JobG8
-job_id: jobg8-2049609
+job_id: jobg8-2052109
 reason: No exact Newtownabbey workplace matched; local geographic review is required.
 ---
 
@@ -407,6 +383,18 @@ company: Honeycomb Jobs Ltd - Agency - Permanent
 location: Lisburn
 source: JobG8
 job_id: jobg8-2050089
+reason: No exact Newtownabbey workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: IT Service Desk Team Leader (IT Support Team Leader)
+company: Queen's University Belfast - Agency - Permanent
+location: Belfast
+source: JobG8
+job_id: jobg8-2052082
 reason: No exact Newtownabbey workplace matched; local geographic review is required.
 ---
 
@@ -486,6 +474,18 @@ reason: No exact Newtownabbey workplace matched; local geographic review is requ
 action: 
 decision: review
 automatic_decision: review
+title: Receptionist (£30K)
+company: Honeycomb Jobs Ltd - Agency - Permanent
+location: Belfast
+source: JobG8
+job_id: jobg8-2052125
+reason: No exact Newtownabbey workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Receptionist - Immediate Start - Temporary 3 weeks
 company: Honeycomb Jobs Ltd - Agency - Permanent
 location: Holywood
@@ -527,102 +527,6 @@ company: Natural Look Medispa and Clinic - Agency - Permanent
 location: Belfast
 source: JobG8
 job_id: jobg8-2050528
-reason: No exact Newtownabbey workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Recruitment Administrator (12 month contract)
-company: A&O Shearman - Agency - Permanent
-location: Ballyclare
-source: JobG8
-job_id: jobg8-21582_108490824
-reason: No exact Newtownabbey workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Recruitment Administrator (12 month contract)
-company: A&O Shearman - Agency - Permanent
-location: Larne
-source: JobG8
-job_id: jobg8-21582_108490836
-reason: No exact Newtownabbey workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Recruitment Administrator (12 month contract)
-company: A&O Shearman - Agency - Permanent
-location: Belfast
-source: JobG8
-job_id: jobg8-21582_108490837
-reason: No exact Newtownabbey workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Recruitment Administrator (12 month contract)
-company: A&O Shearman - Agency - Permanent
-location: Belfast
-source: JobG8
-job_id: jobg8-21582_108490846
-reason: No exact Newtownabbey workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Recruitment Administrator (12 month contract)
-company: A&O Shearman - Agency - Permanent
-location: Lisburn
-source: JobG8
-job_id: jobg8-21582_108490855
-reason: No exact Newtownabbey workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Recruitment Administrator (12 month contract)
-company: A&O Shearman - Agency - Permanent
-location: Ballymena
-source: JobG8
-job_id: jobg8-21582_108490858
-reason: No exact Newtownabbey workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Recruitment Administrator (12 month contract)
-company: A&O Shearman - Agency - Permanent
-location: Carrickfergus
-source: JobG8
-job_id: jobg8-21582_108490867
-reason: No exact Newtownabbey workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Recruitment Administrator (12 month contract)
-company: A&O Shearman - Agency - Permanent
-location: Newtownards
-source: JobG8
-job_id: jobg8-21582_108490869
 reason: No exact Newtownabbey workplace matched; local geographic review is required.
 ---
 
@@ -683,30 +587,6 @@ company: Honeycomb Jobs Ltd - Agency - Permanent
 location: Belfast
 source: JobG8
 job_id: jobg8-2051485
-reason: No exact Newtownabbey workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Sales Support Specialist
-company: Wilkins Talent Solutions - Agency - Permanent
-location: Belfast
-source: JobG8
-job_id: jobg8-1771169
-reason: No exact Newtownabbey workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Scheme Co-Ordinator - Blessington Court, Belfast
-company: Clanmil Housing - Agency - Permanent
-location: Belfast
-source: JobG8
-job_id: jobg8-2051842
 reason: No exact Newtownabbey workplace matched; local geographic review is required.
 ---
 

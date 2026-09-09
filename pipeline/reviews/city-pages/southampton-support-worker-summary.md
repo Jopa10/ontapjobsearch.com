@@ -66,11 +66,11 @@ reason: Approved Southampton catchment.
 action: 
 decision: review
 automatic_decision: review
-title: Care and Support Worker
+title: Care & Support Worker
 company: Southern Housing - Agency - Permanent
-location: Ryde
+location: Ventnor
 source: JobG8
-job_id: jobg8-107947536
+job_id: jobg8-107955972
 reason: No approved Southampton catchment rule matched; local review required.
 ---
 
@@ -78,12 +78,12 @@ reason: No approved Southampton catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Care Assistant
-company: Hampshire County Council - Company - Permanent
-location: Alton
+title: Care & Support Worker
+company: Southern Housing - Agency - Permanent
+location: Freshwater
 source: JobG8
-job_id: jobg8-1401784493
-reason: Broad location; review before city inclusion.
+job_id: jobg8-107955992
+reason: No approved Southampton catchment rule matched; local review required.
 ---
 
 ---

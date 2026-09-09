@@ -4,7 +4,7 @@
 - Live route: `/coventry/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 8
+- Effective included jobs: 7
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 8
-- automatic review: 4
-- automatic exclude: 18
-- effective include: 8
-- effective review: 4
-- effective exclude: 18
+- automatic include: 7
+- automatic review: 3
+- automatic exclude: 12
+- effective include: 7
+- effective review: 3
+- effective exclude: 12
 
-## INCLUDE (8)
+## INCLUDE (7)
 
 ---
 action: 
@@ -45,6 +45,18 @@ company: Gleeson Recruitment Group - Agency - Permanent
 location: Coventry
 source: JobG8
 job_id: jobg8-1869638
+reason: Approved Coventry catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: HR Assistant
+company: Bell Cornwall Recruitment - Agency - Permanent
+location: Coventry
+source: JobG8
+job_id: jobg8-1835857
 reason: Approved Coventry catchment.
 ---
 
@@ -77,34 +89,10 @@ action:
 decision: include
 automatic_decision: include
 title: Receptionist
-company: Adecco - Agency - Permanent
-location: Coventry
-source: JobG8
-job_id: jobg8-1859565
-reason: Approved Coventry catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Receptionist
 company: Adecco - Agency - Temporary
 location: Coventry
 source: JobG8
 job_id: jobg8-23643_225572830
-reason: Approved Coventry catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Receptionist/Admin
-company: Godiva Group Practice
-location: Coventry, CV2 4lj, Coventry, CV1 4DH, Coventry, CV6 5EA, Coventry, CV2 3DR
-source: NHS Jobs
-job_id: nhs-5525238
 reason: Approved Coventry catchment.
 ---
 
@@ -120,19 +108,7 @@ job_id: jobg8-23643_225516949
 reason: Approved Coventry catchment.
 ---
 
-## REVIEW (4)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administration Assistant
-company: Reed - Agency - Permanent
-location: Kenilworth
-source: JobG8
-job_id: jobg8-1769740
-reason: No approved Coventry catchment rule matched; local review required.
----
+## REVIEW (3)
 
 ---
 action: 
@@ -170,7 +146,7 @@ job_id: jobg8-23643_225533754
 reason: No approved Coventry catchment rule matched; local review required.
 ---
 
-## EXCLUDE (18)
+## EXCLUDE (12)
 
 ---
 action: 
@@ -188,23 +164,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Administrator
-company: Candidate Source Ltd - Agency - Permanent
-location: Rugby
-source: JobG8
-job_id: jobg8-1859559
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Customer Service Advisor
-company: Reed - Agency - Permanent
+company: RA Bennett - Agency - Permanent
 location: Warwickshire
 source: JobG8
-job_id: jobg8-1843252
+job_id: jobg8-1842482
 reason: Separate employment market.
 ---
 
@@ -217,18 +181,6 @@ company: SVB Solutions - Agency - Permanent
 location: Warwick
 source: JobG8
 job_id: jobg8-23643_225485953
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Customer Service Advisor - Full Time
-company: Adecco - Agency - Permanent
-location: Warwick
-source: JobG8
-job_id: jobg8-1766758
 reason: Separate employment market.
 ---
 
@@ -253,6 +205,18 @@ company: Arden Personnel - Agency - Permanent
 location: Warwickshire
 source: JobG8
 job_id: jobg8-23643_225573434
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: HR Assistant
+company: Hiring People - Agency - Permanent
+location: Warwick
+source: JobG8
+job_id: jobg8-1868063
 reason: Separate employment market.
 ---
 
@@ -297,18 +261,6 @@ action:
 decision: exclude
 automatic_decision: exclude
 title: Personal Assistant
-company: Opus People Solutions - Agency - Permanent
-location: Rugby
-source: JobG8
-job_id: jobg8-1845083
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Personal Assistant
 company: Opus People Solutions Ltd - Agency - Temporary
 location: Rugby
 source: JobG8
@@ -332,58 +284,10 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Remote Online Paid Research Panelist (Part-Time) - Data Entry Clerk Welcome
-company: Apex Focus Group - Agency - Permanent
-location: Warwickshire
-source: JobG8
-job_id: jobg8-1763902
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Sales Coordinator
 company: The Caraires Consultancy - Agency - Permanent
 location: Rugby
 source: JobG8
 job_id: jobg8-107830347
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Team Data Administrator
-company: Pontoon - Agency - Permanent
-location: Warwickshire
-source: JobG8
-job_id: jobg8-1775929
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Weekend Receptionist
-company: Listers Group Limited - Agency - Permanent
-location: Warwickshire
-source: JobG8
-job_id: jobg8-1756888
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Work From Home Market Research Panelist - Part Time Administration Assistant Welcome
-company: Apex Focus Group - Agency - Permanent
-location: Warwickshire
-source: JobG8
-job_id: jobg8-1763911
 reason: Separate employment market.
 ---

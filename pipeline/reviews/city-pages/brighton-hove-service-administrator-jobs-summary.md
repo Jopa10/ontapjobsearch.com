@@ -4,7 +4,7 @@
 - Live route: `/brighton-hove/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 6
+- Effective included jobs: 7
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 6
-- automatic review: 19
-- automatic exclude: 17
-- effective include: 6
-- effective review: 19
-- effective exclude: 17
+- automatic include: 7
+- automatic review: 17
+- automatic exclude: 9
+- effective include: 7
+- effective review: 17
+- effective exclude: 9
 
-## INCLUDE (6)
+## INCLUDE (7)
 
 ---
 action: 
@@ -44,7 +44,7 @@ title: Internal Sales Coordinator
 company: Office Angels - Agency - Permanent
 location: Brighton
 source: JobG8
-job_id: jobg8-1849279
+job_id: jobg8-23643_225564678
 reason: Approved Brighton & Hove catchment.
 ---
 
@@ -52,11 +52,11 @@ reason: Approved Brighton & Hove catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Internal Sales Coordinator
-company: Office Angels - Agency - Permanent
-location: Brighton
-source: JobG8
-job_id: jobg8-23643_225564678
+title: Medical Secretary/Personal Assistant
+company: Sussex Community NHS Foundation Trust
+location: Brighton, BN2 3EW
+source: NHS Jobs
+job_id: nhs-5585848
 reason: Approved Brighton & Hove catchment.
 ---
 
@@ -76,11 +76,11 @@ reason: Approved Brighton & Hove catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Optical call centre assistant
-company: Lunaria Recruitment - Agency - Permanent
-location: Brighton
+title: Office Administrator
+company: Tate - Agency - Temporary
+location: Hove
 source: JobG8
-job_id: jobg8-1770698
+job_id: jobg8-23643_225580875
 reason: Approved Brighton & Hove catchment.
 ---
 
@@ -96,7 +96,19 @@ job_id: nhs-5570979
 reason: Approved Brighton & Hove catchment.
 ---
 
-## REVIEW (19)
+---
+action: 
+decision: include
+automatic_decision: include
+title: Receptionist / Administrator
+company: Integrated Care 24 Ltd
+location: Brighton, BN1 7GF
+source: NHS Jobs
+job_id: nhs-5587236
+reason: Approved Brighton & Hove catchment.
+---
+
+## REVIEW (17)
 
 ---
 action: 
@@ -119,18 +131,6 @@ company: Lloyd Recruitment - East Grinstead - Agency - Permanent
 location: Sussex
 source: JobG8
 job_id: jobg8-23643_225547434
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
-company: TC Group - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-1844362
 reason: Broad location; review before city inclusion.
 ---
 
@@ -186,6 +186,18 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
+title: Executive Assistant and Marketing Coordinator
+company: Brighton College - Agency - Permanent
+location: Sussex
+source: JobG8
+job_id: jobg8-107952017
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Hotel Receptionist
 company: First Recruitment Services - Agency - Permanent
 location: Sussex
@@ -210,35 +222,23 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
+title: Internal Sales Administrator
+company: Trident - Agency - Permanent
+location: Sussex
+source: JobG8
+job_id: jobg8-1843728
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Part Time Receptionist
 company: First Recruitment Services - Agency - Permanent
 location: Sussex
 source: JobG8
 job_id: jobg8-23643_225283461
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Personal Assistant
-company: Guidant Global - Agency - Contract
-location: Sussex
-source: JobG8
-job_id: jobg8-23643_225479087
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Procurement Administrator - Immediate Start!
-company: Office Angels - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-1765206
 reason: Broad location; review before city inclusion.
 ---
 
@@ -270,35 +270,23 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Receptionist
-company: TC Group - Agency - Permanent
-location: Sussex
+title: Sales Support Administrator
+company: First Recruitment Services - Agency - Permanent
+location: Burgess Hill
 source: JobG8
-job_id: jobg8-1844355
-reason: Broad location; review before city inclusion.
+job_id: jobg8-23643_225475468
+reason: No approved Brighton & Hove catchment rule matched; local review required.
 ---
 
 ---
 action: 
 decision: review
 automatic_decision: review
-title: Sales Administrator
-company: KHR Recruitment Specialists - Agency - Permanent
-location: Sussex
+title: Sales Support Co-ordinator
+company: First Recruitment Services - Agency - Permanent
+location: Burgess Hill
 source: JobG8
-job_id: jobg8-1772111
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Sales Administrator
-company: Reed - Agency - Permanent
-location: East Grinstead
-source: JobG8
-job_id: jobg8-1766310
+job_id: jobg8-23643_225475445
 reason: No approved Brighton & Hove catchment rule matched; local review required.
 ---
 
@@ -326,19 +314,7 @@ job_id: teaching-vacancies-year-9-administrative-assistant-including-year-10-wor
 reason: No approved Brighton & Hove catchment rule matched; local review required.
 ---
 
-## EXCLUDE (17)
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Administrator
-company: Reed - Agency - Permanent
-location: Crawley
-source: JobG8
-job_id: jobg8-1766316
-reason: Separate employment market.
----
+## EXCLUDE (9)
 
 ---
 action: 
@@ -349,18 +325,6 @@ company: Sussex Community NHS Foundation Trust
 location: Worthing, BN11 2DH
 source: NHS Jobs
 job_id: nhs-5576517
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: B2B Telesales - 3-month contract
-company: Reed - Agency - Permanent
-location: Crawley
-source: JobG8
-job_id: jobg8-1770661
 reason: Separate employment market.
 ---
 
@@ -380,23 +344,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: HR Operations Coordinator - Temp Role
-company: Reed - Agency - Permanent
-location: Crawley
+title: Office Administrator
+company: Worth Recruiting - Property Industry Recruitment - Agency - Permanent
+location: Horsham
 source: JobG8
-job_id: jobg8-1771464
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: MSK Therapies - Booking Clerk
-company: East Sussex Healthcare NHS Trust
-location: Hastings, TN37 7RD
-source: NHS Jobs
-job_id: nhs-5574965
+job_id: jobg8-1868387
 reason: Separate employment market.
 ---
 
@@ -428,18 +380,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Receptionist
-company: Arlington Road Medical Practice
-location: Eastbourne, BN21 1DH
-source: NHS Jobs
-job_id: nhs-5536742
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Receptionist/Care Navigator
 company: Parklands Surgery
 location: Chichester, PO19 3DT
@@ -452,59 +392,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Sales Account Executive
-company: Solid Recruitment Solutions - Agency - Permanent
-location: Chichester
-source: JobG8
-job_id: jobg8-1743464
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Sales Administrator
-company: Workshop Recruitment - Agency - Permanent
-location: Bognor Regis
-source: JobG8
-job_id: jobg8-1852446
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Sales Administrator
 company: Workshop Recruitment - Agency - Permanent
 location: Bognor Regis
 source: JobG8
 job_id: jobg8-23643_225567148
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Sales Executive
-company: Red Rhino Solutions - Agency - Permanent
-location: Crawley
-source: JobG8
-job_id: jobg8-1783185
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Sales Executive
-company: Workshop Recruitment - Agency - Permanent
-location: Chichester
-source: JobG8
-job_id: jobg8-1770713
 reason: Separate employment market.
 ---
 

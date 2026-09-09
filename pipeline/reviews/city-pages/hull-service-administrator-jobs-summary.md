@@ -4,7 +4,7 @@
 - Live route: `/hull/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 16
+- Effective included jobs: 11
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 16
-- automatic review: 5
+- automatic include: 11
+- automatic review: 4
 - automatic exclude: 0
-- effective include: 16
-- effective review: 5
+- effective include: 11
+- effective review: 4
 - effective exclude: 0
 
-## INCLUDE (16)
+## INCLUDE (11)
 
 ---
 action: 
@@ -52,47 +52,11 @@ reason: Approved conservative Hull launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Clinical Team Administrator
-company: Tees Esk and Wear Valleys NHS Foundation Trust
-location: Hull, HU9 5LS
-source: NHS Jobs
-job_id: nhs-5572582
-reason: Approved conservative Hull launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Customer Service Advisor FTC
-company: Quickline Communications - Company - Permanent
-location: Hull
-source: JobG8
-job_id: jobg8-1841672
-reason: Approved conservative Hull launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Executive Assistant
 company: Consortium Professional Recruitment Ltd - Agency - Permanent
 location: Hull
 source: JobG8
 job_id: jobg8-23643_225516073
-reason: Approved conservative Hull launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Graduate Administrator
-company: Edwards & Pearce - Doncaster - Agency - Permanent
-location: Hull
-source: JobG8
-job_id: jobg8-1750023
 reason: Approved conservative Hull launch catchment.
 ---
 
@@ -112,11 +76,11 @@ reason: Approved conservative Hull launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Part Time Sales Administrator
-company: Agenda Life Sciences - Agency - Permanent
+title: HR Co-ordinator
+company: Sellick Partnership - Agency - Permanent
 location: Hull
 source: JobG8
-job_id: jobg8-23643_225478069
+job_id: jobg8-1839877
 reason: Approved conservative Hull launch catchment.
 ---
 
@@ -172,30 +136,6 @@ reason: Approved conservative Hull launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Sales Administrator
-company: Edwards & Pearce - Doncaster - Agency - Permanent
-location: Hull
-source: JobG8
-job_id: jobg8-1734284
-reason: Approved conservative Hull launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Sales Administrator
-company: Get Staffed Online Recruitment Limited - Agency - Permanent
-location: Hull
-source: JobG8
-job_id: jobg8-1800421
-reason: Approved conservative Hull launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Senior Administration Assistant
 company: Humber Teaching NHS Foundation Trust
 location: HULL, HU2 9AY
@@ -216,17 +156,17 @@ job_id: nhs-5575288
 reason: Approved conservative Hull launch catchment.
 ---
 
-## REVIEW (5)
+## REVIEW (4)
 
 ---
 action: 
 decision: review
 automatic_decision: review
-title: Market Research Coordinator
-company: Elevation Recruitment Group - Agency - Permanent
+title: Customer Service Assistant
+company: Genda Playnation Entertainment Ltd - Agency - Temporary
 location: Driffield
 source: JobG8
-job_id: jobg8-1776844
+job_id: jobg8-107770477
 reason: No approved Hull catchment rule matched; local review required.
 ---
 
@@ -239,18 +179,6 @@ company: Rullion Managed Services - Agency - Contract
 location: Goole
 source: JobG8
 job_id: jobg8-23643_225569870
-reason: No approved Hull catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Part time Office and Accounts Administrator - Hessle
-company: Office Angels - Agency - Permanent
-location: Hessle
-source: JobG8
-job_id: jobg8-1763883
 reason: No approved Hull catchment rule matched; local review required.
 ---
 

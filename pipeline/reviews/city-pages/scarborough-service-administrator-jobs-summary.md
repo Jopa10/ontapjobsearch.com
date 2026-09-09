@@ -4,7 +4,7 @@
 - Live route: `/scarborough/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 3
+- Effective included jobs: 2
 - Threshold currently met: no
 
 ## How to review
@@ -15,26 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 3
-- automatic review: 17
+- automatic include: 2
+- automatic review: 15
 - automatic exclude: 0
-- effective include: 3
-- effective review: 17
+- effective include: 2
+- effective review: 15
 - effective exclude: 0
 
-## INCLUDE (3)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrator
-company: Tees Esk and Wear Valleys NHS Foundation Trust
-location: Scarborough, North Yorkshire, YO11 3EG
-source: NHS Jobs
-job_id: nhs-5564613
-reason: Exact approved Scarborough workplace.
----
+## INCLUDE (2)
 
 ---
 action: 
@@ -60,7 +48,7 @@ job_id: jobg8-107900212
 reason: Exact approved Scarborough workplace.
 ---
 
-## REVIEW (17)
+## REVIEW (15)
 
 ---
 action: 
@@ -186,42 +174,6 @@ reason: No exact Scarborough workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Office Administrator
-company: ianson - Agency - Permanent
-location: Ripon
-source: JobG8
-job_id: jobg8-1778958
-reason: No exact Scarborough workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Office Administrator
-company: KD Recruitment - Agency - Permanent
-location: Pickering
-source: JobG8
-job_id: jobg8-23643_225480415
-reason: No exact Scarborough workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Recruitment & Learning Co-ordinator
-company: Hays Specialist Recruitment Limited - Agency - Permanent
-location: Northallerton
-source: JobG8
-job_id: jobg8-1844909
-reason: No exact Scarborough workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Sales and Marketing Coordinator
 company: KD Recruitment Limited - Agency - Permanent
 location: York
@@ -263,6 +215,18 @@ company: Tees Esk and Wear Valleys NHS Foundation Trust
 location: Northallerton, DL6 2FG
 source: NHS Jobs
 job_id: nhs-5570734
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Temporary New Business / Payout Coordinator
+company: Michael Page - Agency - Temporary
+location: Richmond
+source: JobG8
+job_id: jobg8-23643_225581619
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 

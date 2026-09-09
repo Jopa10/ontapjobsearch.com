@@ -4,7 +4,7 @@
 - Live route: `/cardiff/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 11
+- Effective included jobs: 7
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 11
-- automatic review: 1
+- automatic include: 7
+- automatic review: 0
 - automatic exclude: 0
-- effective include: 11
-- effective review: 1
+- effective include: 7
+- effective review: 0
 - effective exclude: 0
 
-## INCLUDE (11)
+## INCLUDE (7)
 
 ---
 action: 
@@ -100,42 +100,6 @@ reason: Approved conservative Cardiff launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Receptionist
-company: Four Elms Medical centre
-location: Cardiff, CF24 2HB, Cardiff, CF24 0SZ
-source: NHS Jobs
-job_id: nhs-5556922
-reason: Approved conservative Cardiff launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Sales Administrator
-company: Oakmoor Recruitment limited - Agency - Permanent
-location: Cardiff
-source: JobG8
-job_id: jobg8-1769444
-reason: Approved conservative Cardiff launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Sales Support Administrator
-company: Huntress - Agency - Permanent
-location: Cardiff
-source: JobG8
-job_id: jobg8-1850451
-reason: Approved conservative Cardiff launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Sales Support Administrator
 company: Huntress - Bracknell - Agency - Temporary
 location: Cardiff
@@ -144,30 +108,6 @@ job_id: jobg8-23643_225565612
 reason: Approved conservative Cardiff launch catchment.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Service Coordinator
-company: Veolia - Agency - Permanent
-location: Cardiff
-source: JobG8
-job_id: jobg8-23643_225534217
-reason: Approved conservative Cardiff launch catchment.
----
-
-## REVIEW (1)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
-company: Adecco - Agency - Contract
-location: Barry
-source: JobG8
-job_id: jobg8-23643_225480882
-reason: No approved Cardiff catchment rule matched; local review required.
----
+## REVIEW (0)
 
 ## EXCLUDE (0)

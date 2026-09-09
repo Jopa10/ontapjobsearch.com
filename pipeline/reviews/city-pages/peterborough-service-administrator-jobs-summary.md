@@ -4,8 +4,8 @@
 - Live route: `/peterborough/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 10
-- Threshold currently met: yes
+- Effective included jobs: 5
+- Threshold currently met: no
 
 ## How to review
 Edit only the `action:` line inside a job block.
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 10
-- automatic review: 5
-- automatic exclude: 13
-- effective include: 10
-- effective review: 5
-- effective exclude: 13
+- automatic include: 5
+- automatic review: 4
+- automatic exclude: 10
+- effective include: 5
+- effective review: 4
+- effective exclude: 10
 
-## INCLUDE (10)
+## INCLUDE (5)
 
 ---
 action: 
@@ -40,71 +40,11 @@ reason: Approved conservative Peterborough launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Customer Order Administrator
-company: New Appointments Group - Agency - Temporary
-location: Peterborough
-source: JobG8
-job_id: jobg8-23643_225478255
-reason: Approved conservative Peterborough launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Customer Service Advisor
-company: Accent Housing Group - Agency - Permanent
-location: Peterborough
-source: JobG8
-job_id: jobg8-1870458
-reason: Approved conservative Peterborough launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Marketing Manager
-company: Interaction - Peterborough - Agency - Permanent
-location: Peterborough
-source: JobG8
-job_id: jobg8-107758504
-reason: Approved conservative Peterborough launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Medical Receptionist/ Administrator
-company: Dr Laliwala and Partners
-location: Peterborough, PE1 4FS
-source: NHS Jobs
-job_id: nhs-5575779
-reason: Approved conservative Peterborough launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Pastoral Services Administrator
 company: Queen Katharine Academy
 location: Peterborough
 source: Teaching Vacancies
 job_id: teaching-vacancies-pastoral-services-administrator-queen-katharine-academy-peterborough-cambridgeshire
-reason: Approved conservative Peterborough launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Sales Admin Coordinator
-company: Infinity Recruitment Consultancy Limited - Agency - Permanent
-location: Peterborough
-source: JobG8
-job_id: jobg8-23643_225406910
 reason: Approved conservative Peterborough launch catchment.
 ---
 
@@ -144,7 +84,7 @@ job_id: jobg8-107906533
 reason: Approved conservative Peterborough launch catchment.
 ---
 
-## REVIEW (5)
+## REVIEW (4)
 
 ---
 action: 
@@ -186,18 +126,6 @@ reason: No approved Peterborough catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: German Customer Care Administrator
-company: Lifeplus Europe LTD - Agency - Permanent
-location: St. Neots
-source: JobG8
-job_id: jobg8-1870854
-reason: No approved Peterborough catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Stock Administrator
 company: Interaction Recruitment - Agency - Temporary
 location: St. Ives
@@ -206,7 +134,7 @@ job_id: jobg8-23643_225519683
 reason: No approved Peterborough catchment rule matched; local review required.
 ---
 
-## EXCLUDE (13)
+## EXCLUDE (10)
 
 ---
 action: 
@@ -229,18 +157,6 @@ company: Cambridgeshire and Peterborough NHS Foundation Trust
 location: Cambridge, CB4 1PR
 source: NHS Jobs
 job_id: nhs-5574563
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Administrator
-company: Reed - Agency - Permanent
-location: Cambridge
-source: JobG8
-job_id: jobg8-1770672
 reason: Separate employment market.
 ---
 
@@ -284,11 +200,23 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Office Administrator
-company: Altitude-Recruitment Limited - Agency - Permanent
+title: HR Coordinator
+company: S&B Herba Foods Ltd - Agency - Permanent
 location: Cambridge
 source: JobG8
-job_id: jobg8-1852124
+job_id: jobg8-1823662
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Lettings Administrator
+company: Property Personnel - Agency - Permanent
+location: Cambridge
+source: JobG8
+job_id: jobg8-1876189
 reason: Separate employment market.
 ---
 
@@ -308,35 +236,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Office Administrator
-company: EA FIRST LTD - Agency - Permanent
-location: Cambridge
+title: Owned Brand Manager
+company: Bensons for Beds - Agency - Permanent
+location: Cambridgeshire
 source: JobG8
-job_id: jobg8-1857144
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Personal Assistant
-company: Pure Resourcing Solutions - Agency - Permanent
-location: Cambridge
-source: JobG8
-job_id: jobg8-1848160
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Receptionist
-company: EC Resourcing - Agency - Permanent
-location: Cambridge
-source: JobG8
-job_id: jobg8-1851868
+job_id: jobg8-1826872
 reason: Separate employment market.
 ---
 
@@ -349,17 +253,5 @@ company: Peasgood & Skeates - Agency - Permanent
 location: Cambridge
 source: JobG8
 job_id: jobg8-23643_225513578
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Senior digital marketing officer
-company: Kidney Research UK - Agency - Permanent
-location: Cambridgeshire
-source: JobG8
-job_id: jobg8-107911259
 reason: Separate employment market.
 ---

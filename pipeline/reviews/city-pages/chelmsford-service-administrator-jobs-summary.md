@@ -4,7 +4,7 @@
 - Live route: `/chelmsford/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 6
+- Effective included jobs: 8
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 6
-- automatic review: 45
+- automatic include: 8
+- automatic review: 38
 - automatic exclude: 0
-- effective include: 6
-- effective review: 45
+- effective include: 8
+- effective review: 38
 - effective exclude: 0
 
-## INCLUDE (6)
+## INCLUDE (8)
 
 ---
 action: 
@@ -64,6 +64,30 @@ reason: Exact approved Chelmsford workplace.
 action: 
 decision: include
 automatic_decision: include
+title: Digital Marketing & Social Media Executive
+company: Worth Recruiting - Property Industry Recruitment - Agency - Permanent
+location: Chelmsford
+source: JobG8
+job_id: jobg8-1806934
+reason: Exact approved Chelmsford workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Lettings Administrator
+company: EW Recruitment Limited - Agency - Permanent
+location: Chelmsford
+source: JobG8
+job_id: jobg8-1764211
+reason: Exact approved Chelmsford workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Property Inspections Team Coordinator
 company: Command Recruitment - Agency - Permanent
 location: Chelmsford
@@ -96,7 +120,7 @@ job_id: nhs-5570839
 reason: Exact approved Chelmsford workplace.
 ---
 
-## REVIEW (45)
+## REVIEW (38)
 
 ---
 action: 
@@ -138,11 +162,11 @@ reason: No exact Chelmsford workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Administrator
-company: Vela Medical Group Ltd - Agency - Temporary
-location: Essex
-source: JobG8
-job_id: jobg8-23643_225471282
+title: Administrator/Receptionist
+company: Billericay Medical Practice
+location: Billericay, CM12 0BJ
+source: NHS Jobs
+job_id: nhs-5585037
 reason: No exact Chelmsford workplace matched; local geographic review is required.
 ---
 
@@ -150,11 +174,11 @@ reason: No exact Chelmsford workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Business Administrator
-company: Ernest Gordon Recruitment Limited - Agency - Permanent
+title: Claims & Customer Service Advisor
+company: Reed - Agency - Permanent
 location: Essex
 source: JobG8
-job_id: jobg8-23643_225474041
+job_id: jobg8-1866850
 reason: No exact Chelmsford workplace matched; local geographic review is required.
 ---
 
@@ -167,6 +191,18 @@ company: Employment Specialists Ltd - Agency - Permanent
 location: Essex
 source: JobG8
 job_id: jobg8-1787424
+reason: No exact Chelmsford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Client Account Executive (IFA Administrator)
+company: Service Service Employment Agency Limited - Agency - Permanent
+location: Essex
+source: JobG8
+job_id: jobg8-1877186
 reason: No exact Chelmsford workplace matched; local geographic review is required.
 ---
 
@@ -211,46 +247,10 @@ action:
 decision: review
 automatic_decision: review
 title: Customer Service Administrator
-company: Adecco - Agency - Permanent
-location: Essex
-source: JobG8
-job_id: jobg8-1744022
-reason: No exact Chelmsford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Customer Service Administrator
 company: Prime Appointments - Agency - Temporary
 location: Essex
 source: JobG8
 job_id: jobg8-23643_225574529
-reason: No exact Chelmsford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Customer Service Advisor
-company: Everywhen, part of the Ardonagh Group - Agency - Permanent
-location: Colchester
-source: JobG8
-job_id: jobg8-1785798
-reason: No exact Chelmsford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Education Administrator - Industry Leading Education Provider - Essex - Term Time
-company: Ackerman Pierce Education - Agency - Permanent
-location: Essex
-source: JobG8
-job_id: jobg8-1857655
 reason: No exact Chelmsford workplace matched; local geographic review is required.
 ---
 
@@ -287,18 +287,6 @@ company: CKB Recruitment - Agency - Permanent
 location: Essex
 source: JobG8
 job_id: jobg8-1869539
-reason: No exact Chelmsford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Junior Administrator Temporary to Permanent role
-company: Mosaic Recruitment Ltd., - Agency - Permanent
-location: Essex
-source: JobG8
-job_id: jobg8-1743423
 reason: No exact Chelmsford workplace matched; local geographic review is required.
 ---
 
@@ -354,11 +342,11 @@ reason: No exact Chelmsford workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Medical Receptionist
-company: Lister Medical Centre
-location: Harlow, CM18 6YJ
-source: NHS Jobs
-job_id: nhs-5559515
+title: Marketing Manager
+company: Pure Resourcing Solutions - Agency - Permanent
+location: Essex
+source: JobG8
+job_id: jobg8-1869868
 reason: No exact Chelmsford workplace matched; local geographic review is required.
 ---
 
@@ -366,11 +354,11 @@ reason: No exact Chelmsford workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Office & Accounts Administrator
-company: Adecco - Agency - Permanent
-location: Essex
-source: JobG8
-job_id: jobg8-1744074
+title: Medical Receptionist
+company: Lister Medical Centre
+location: Harlow, CM18 6YJ
+source: NHS Jobs
+job_id: nhs-5559515
 reason: No exact Chelmsford workplace matched; local geographic review is required.
 ---
 
@@ -414,11 +402,11 @@ reason: No exact Chelmsford workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Part-Time Administrator
-company: Room At The Top Recruitment - Agency - Permanent
-location: Essex
+title: Paralegal
+company: Strictly Recruitment - Agency - Permanent
+location: Colchester
 source: JobG8
-job_id: jobg8-1858053
+job_id: jobg8-1832280
 reason: No exact Chelmsford workplace matched; local geographic review is required.
 ---
 
@@ -431,18 +419,6 @@ company: Focus Resourcing - Agency - Temporary
 location: Essex
 source: JobG8
 job_id: jobg8-23643_225513092
-reason: No exact Chelmsford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Practice Administrator
-company: Burgh Recruitment Ltd - Agency - Permanent
-location: Essex
-source: JobG8
-job_id: jobg8-1769936
 reason: No exact Chelmsford workplace matched; local geographic review is required.
 ---
 
@@ -474,18 +450,6 @@ reason: No exact Chelmsford workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Receptionist & Bookings Clerk
-company: Alchemy Global Talent Solutions - Agency - Permanent
-location: Braintree
-source: JobG8
-job_id: jobg8-1733700
-reason: No exact Chelmsford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Receptionist/Care Navigator
 company: Primary Care Careers
 location: Colchester, CO1 2QS
@@ -510,47 +474,11 @@ reason: No exact Chelmsford workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Sales & Operations Administrator
-company: TIME Appointments Ltd - Agency - Permanent
-location: Essex
-source: JobG8
-job_id: jobg8-1743406
-reason: No exact Chelmsford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Sales Administrator Temp to Perm
-company: Hays Specialist Recruitment Limited - Agency - Permanent
-location: Waltham Abbey
-source: JobG8
-job_id: jobg8-1775925
-reason: No exact Chelmsford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Sales Support Administrator
 company: Just Temps - Agency - Permanent
 location: Essex
 source: JobG8
 job_id: jobg8-23643_225547455
-reason: No exact Chelmsford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Sales Support Coordinator
-company: RocketRecruit Ltd T/A Hire and Hire - Agency - Permanent
-location: Harlow
-source: JobG8
-job_id: jobg8-1847979
 reason: No exact Chelmsford workplace matched; local geographic review is required.
 ---
 
@@ -606,35 +534,47 @@ reason: No exact Chelmsford workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
+title: Social Media Executive
+company: GCB Recruitment - Agency - Permanent
+location: Essex
+source: JobG8
+job_id: jobg8-1831469
+reason: No exact Chelmsford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Social Media Manager
+company: Zachary Daniels - Agency - Permanent
+location: Essex
+source: JobG8
+job_id: jobg8-1877354
+reason: No exact Chelmsford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Technical Motor Claims Handler
+company: TIME Appointments Ltd - Agency - Permanent
+location: Colchester
+source: JobG8
+job_id: jobg8-1877700
+reason: No exact Chelmsford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Trust Administrator
 company: Discovery Educational Trust
 location: Brentwood
 source: Teaching Vacancies
 job_id: teaching-vacancies-trust-administrator-discovery-educational-trust
-reason: No exact Chelmsford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: UFHS - CRM and Marketing Manager
-company: City Plumbing - Company - Permanent
-location: Essex
-source: JobG8
-job_id: jobg8-107765788
-reason: No exact Chelmsford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: UFHS - CRM and Marketing Manager
-company: City Plumbing - Company - Permanent
-location: Essex
-source: JobG8
-job_id: jobg8-1775982
 reason: No exact Chelmsford workplace matched; local geographic review is required.
 ---
 

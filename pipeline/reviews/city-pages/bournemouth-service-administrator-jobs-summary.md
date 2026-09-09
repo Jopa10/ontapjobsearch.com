@@ -16,25 +16,13 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 4
-- automatic review: 23
+- automatic review: 14
 - automatic exclude: 0
 - effective include: 4
-- effective review: 23
+- effective review: 14
 - effective exclude: 0
 
 ## INCLUDE (4)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrative Assistant
-company: Dorset HealthCare University NHS Foundation Trust
-location: Bournemouth, BH7 6JF
-source: NHS Jobs
-job_id: nhs-5564709
-reason: Exact approved Bournemouth workplace.
----
 
 ---
 action: 
@@ -64,6 +52,18 @@ reason: Exact approved Bournemouth workplace.
 action: 
 decision: include
 automatic_decision: include
+title: Receptionist
+company: Beaufort Road Surgery
+location: Bournemouth, BH6 5AJ
+source: NHS Jobs
+job_id: nhs-5586731
+reason: Exact approved Bournemouth workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Receptionist - Part Time
 company: The Bishop of Winchester Academy
 location: Bournemouth
@@ -72,7 +72,7 @@ job_id: teaching-vacancies-receptionist-part-time-the-bishop-of-winchester-acade
 reason: Exact approved Bournemouth workplace.
 ---
 
-## REVIEW (23)
+## REVIEW (14)
 
 ---
 action: 
@@ -102,30 +102,6 @@ reason: No exact Bournemouth workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Accountancy Services Administrator
-company: Reed - Agency - Permanent
-location: Dorset
-source: JobG8
-job_id: jobg8-1766329
-reason: No exact Bournemouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
-company: Collaborate Recruitment - Agency - Permanent
-location: Poole
-source: JobG8
-job_id: jobg8-1789718
-reason: No exact Bournemouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Administrator
 company: Dorset HealthCare University NHS Foundation Trust
 location: Weymouth, DT4 7TB
@@ -138,11 +114,11 @@ reason: No exact Bournemouth workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Administrator
-company: Reed - Agency - Permanent
+title: Assistant Document Controller
+company: Fawkes & Reece London - Agency - Contract
 location: Dorset
 source: JobG8
-job_id: jobg8-1766331
+job_id: jobg8-23643_225575849
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 
@@ -150,11 +126,23 @@ reason: No exact Bournemouth workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Assistant Document Controller
-company: Fawkes & Reece London - Agency - Contract
+title: Claims Handler
+company: Adjusting Appointments Limited - Agency - Permanent
 location: Dorset
 source: JobG8
-job_id: jobg8-23643_225575849
+job_id: jobg8-1839332
+reason: No exact Bournemouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Claims Handler
+company: Adjusting Appointments Limited - Agency - Permanent
+location: Dorset
+source: JobG8
+job_id: jobg8-1839335
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 
@@ -175,18 +163,6 @@ action:
 decision: review
 automatic_decision: review
 title: Customer Service Coordinator
-company: Bennett and Game Recruitment LTD - Agency - Permanent
-location: Poole
-source: JobG8
-job_id: jobg8-23643_225464999
-reason: No exact Bournemouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Customer Service Coordinator
 company: Rubicon Recruitment - Agency - Temporary
 location: Dorset
 source: JobG8
@@ -198,23 +174,11 @@ reason: No exact Bournemouth workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: French Speaking Customer Service Administrator - 12 month FTC
-company: Michael Page Finance - Agency - Permanent
-location: Poole
+title: HR Administrator
+company: Hays Specialist Recruitment Limited - Agency - Permanent
+location: Dorset
 source: JobG8
-job_id: jobg8-1733513
-reason: No exact Bournemouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Luxury Receptionist! &;28-&;30k - Stunning offices!
-company: Office Angels - Agency - Permanent
-location: Wimborne
-source: JobG8
-job_id: jobg8-1844734
+job_id: jobg8-1868450
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 
@@ -227,42 +191,6 @@ company: Two Six Recruitment Limited - Agency - Permanent
 location: Dorset
 source: JobG8
 job_id: jobg8-1708177
-reason: No exact Bournemouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Project Coordinator
-company: Bennett and Game Recruitment LTD - Agency - Permanent
-location: Poole
-source: JobG8
-job_id: jobg8-23643_225465013
-reason: No exact Bournemouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Receptionist
-company: Dorset HealthCare University NHS Foundation Trust
-location: Poole, BH15 2NT
-source: NHS Jobs
-job_id: nhs-5575459
-reason: No exact Bournemouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Receptionist/Administrator
-company: Dorset HealthCare University NHS Foundation Trust
-location: Sherborne, DT93JU
-source: NHS Jobs
-job_id: nhs-5577210
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 
@@ -283,58 +211,10 @@ action:
 decision: review
 automatic_decision: review
 title: Sales Administrator
-company: Two Six Recruitment Limited - Agency - Permanent
-location: Poole
-source: JobG8
-job_id: jobg8-1743274
-reason: No exact Bournemouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Sales Support
-company: Office Angels - Agency - Permanent
-location: Dorset
-source: JobG8
-job_id: jobg8-1851012
-reason: No exact Bournemouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Technical Sales Support
 company: Rubicon Recruitment - Agency - Permanent
 location: Dorset
 source: JobG8
-job_id: jobg8-1868282
-reason: No exact Bournemouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Trainee Office Administrator
-company: Dovetail Recruitment Ltd - Agency - Permanent
-location: Ferndown
-source: JobG8
-job_id: jobg8-1743698
-reason: No exact Bournemouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Trainee Office Administrator
-company: Dovetail Recruitment Ltd - Agency - Permanent
-location: Ferndown
-source: JobG8
-job_id: jobg8-23643_225483669
+job_id: jobg8-23643_225580820
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 
@@ -347,6 +227,18 @@ company: Aspire Jobs - Agency - Permanent
 location: Beaminster
 source: JobG8
 job_id: jobg8-23643_225429242
+reason: No exact Bournemouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Trust Administrator
+company: Aspire Jobs Limited - Agency - Permanent
+location: Beaminster
+source: JobG8
+job_id: jobg8-107765584
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 

@@ -4,8 +4,8 @@
 - Live route: `/wigston/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 4
-- Threshold currently met: yes
+- Effective included jobs: 2
+- Threshold currently met: no
 
 ## How to review
 Edit only the `action:` line inside a job block.
@@ -15,26 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 4
-- automatic review: 28
+- automatic include: 2
+- automatic review: 23
 - automatic exclude: 0
-- effective include: 4
-- effective review: 28
+- effective include: 2
+- effective review: 23
 - effective exclude: 0
 
-## INCLUDE (4)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Complaints Handler
-company: 365 People - Agency - Temporary
-location: Wigston
-source: JobG8
-job_id: jobg8-23643_225474539
-reason: Exact approved Wigston workplace.
----
+## INCLUDE (2)
 
 ---
 action: 
@@ -52,18 +40,6 @@ reason: Exact approved Wigston workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Facilities Contract Administrator
-company: Apleona - Agency - Permanent
-location: Wigston
-source: JobG8
-job_id: jobg8-107759995
-reason: Exact approved Wigston workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Office Administrator
 company: Interaction Recruitment - Agency - Temporary
 location: Wigston
@@ -72,7 +48,7 @@ job_id: jobg8-23643_225514239
 reason: Exact approved Wigston workplace.
 ---
 
-## REVIEW (28)
+## REVIEW (23)
 
 ---
 action: 
@@ -91,34 +67,10 @@ action:
 decision: review
 automatic_decision: review
 title: Administrator
-company: Employal - Agency - Permanent
-location: Leicestershire
-source: JobG8
-job_id: jobg8-1769964
-reason: No exact Wigston workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
 company: JR Personnel - Agency - Temporary
 location: Loughborough
 source: JobG8
 job_id: jobg8-23643_225511737
-reason: No exact Wigston workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: administrator
-company: Randstad Construction & Property - Agency - Permanent
-location: Coalville
-source: JobG8
-job_id: jobg8-1855634
 reason: No exact Wigston workplace matched; local geographic review is required.
 ---
 
@@ -154,7 +106,7 @@ title: Administrator (Construction)
 company: Ernest Gordon Recruitment Limited - Agency - Permanent
 location: Leicestershire
 source: JobG8
-job_id: jobg8-1847641
+job_id: jobg8-23643_225563154
 reason: No exact Wigston workplace matched; local geographic review is required.
 ---
 
@@ -162,11 +114,11 @@ reason: No exact Wigston workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Administrator (Construction)
-company: Ernest Gordon Recruitment Limited - Agency - Permanent
+title: Administrator - Hire Dept
+company: Alma Personnel - Agency - Permanent
 location: Leicestershire
 source: JobG8
-job_id: jobg8-23643_225563154
+job_id: jobg8-23643_225582089
 reason: No exact Wigston workplace matched; local geographic review is required.
 ---
 
@@ -215,18 +167,6 @@ company: Tarmac Trading Limited - Company - Permanent
 location: Leicestershire
 source: JobG8
 job_id: jobg8-107841648
-reason: No exact Wigston workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Executive Administrative Assistant
-company: Randstad Construction & Property - Agency - Permanent
-location: Loughborough
-source: JobG8
-job_id: jobg8-1775425
 reason: No exact Wigston workplace matched; local geographic review is required.
 ---
 
@@ -330,23 +270,11 @@ reason: No exact Wigston workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Sales Administrator - fully remote
-company: Landers Recruitment Ltd - Agency - Permanent
+title: Sales Account Administrator
+company: Office Angels - Agency - Permanent
 location: Leicestershire
 source: JobG8
-job_id: jobg8-1843237
-reason: No exact Wigston workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Sales Coordinator
-company: Reed - Agency - Permanent
-location: Leicestershire
-source: JobG8
-job_id: jobg8-1849430
+job_id: jobg8-23643_225580752
 reason: No exact Wigston workplace matched; local geographic review is required.
 ---
 
@@ -366,11 +294,11 @@ reason: No exact Wigston workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Technical Administrator
-company: Reed - Agency - Permanent
-location: Leicestershire
+title: Scheduler
+company: Marble Talent Group Ltd - Agency - Permanent
+location: Coalville
 source: JobG8
-job_id: jobg8-1847952
+job_id: jobg8-23643_225582523
 reason: No exact Wigston workplace matched; local geographic review is required.
 ---
 
@@ -395,18 +323,6 @@ company: Ernest Gordon Recruitment Limited - Agency - Permanent
 location: Leicestershire
 source: JobG8
 job_id: jobg8-23643_225527918
-reason: No exact Wigston workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Ward Clerk
-company: University Hospitals of Leicester NHS Trust
-location: Leicester, LE1 5WW
-source: NHS Jobs
-job_id: nhs-5560932
 reason: No exact Wigston workplace matched; local geographic review is required.
 ---
 

@@ -4,7 +4,7 @@
 - Live route: `/liverpool/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 20
+- Effective included jobs: 18
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 20
+- automatic include: 18
 - automatic review: 4
 - automatic exclude: 0
-- effective include: 20
+- effective include: 18
 - effective review: 4
 - effective exclude: 0
 
-## INCLUDE (20)
+## INCLUDE (18)
 
 ---
 action: 
@@ -33,18 +33,6 @@ company: Reed - Agency - Permanent
 location: Liverpool
 source: JobG8
 job_id: jobg8-1766251
-reason: Approved conservative Liverpool launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrator
-company: Reed - Agency - Permanent
-location: Liverpool
-source: JobG8
-job_id: jobg8-1869464
 reason: Approved conservative Liverpool launch catchment.
 ---
 
@@ -112,11 +100,11 @@ reason: Approved conservative Liverpool launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Customer Service Advisor (Part Time FTC)
-company: Liberty Group - Agency - Permanent
+title: Claims Handler - EL & PL
+company: Keoghs LLP - Agency - Permanent
 location: Liverpool
 source: JobG8
-job_id: jobg8-1870930
+job_id: jobg8-1830080
 reason: Approved conservative Liverpool launch catchment.
 ---
 
@@ -152,7 +140,19 @@ title: Facilities Administrator
 company: Reed - Agency - Permanent
 location: Liverpool
 source: JobG8
-job_id: jobg8-1770074
+job_id: jobg8-1770092
+reason: Approved conservative Liverpool launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Marketing Executive
+company: Michael Page Business Support - Agency - Permanent
+location: Liverpool
+source: JobG8
+job_id: jobg8-1870162
 reason: Approved conservative Liverpool launch catchment.
 ---
 
@@ -225,30 +225,6 @@ company: Knotty Ash Primary School
 location: Liverpool
 source: Teaching Vacancies
 job_id: teaching-vacancies-school-operations-pa-to-headteacher
-reason: Approved conservative Liverpool launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Service Desk Analyst
-company: VIQU IT Recruitment - Agency - Permanent
-location: Liverpool
-source: JobG8
-job_id: jobg8-1786775
-reason: Approved conservative Liverpool launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Temporary Receptionist
-company: Office Angels - Agency - Permanent
-location: Liverpool
-source: JobG8
-job_id: jobg8-1744017
 reason: Approved conservative Liverpool launch catchment.
 ---
 

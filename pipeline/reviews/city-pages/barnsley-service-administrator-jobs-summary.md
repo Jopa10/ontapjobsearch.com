@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 1
-- automatic review: 3
-- automatic exclude: 28
+- automatic review: 2
+- automatic exclude: 22
 - effective include: 1
-- effective review: 3
-- effective exclude: 28
+- effective review: 2
+- effective exclude: 22
 
 ## INCLUDE (1)
 
@@ -28,27 +28,15 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 action: 
 decision: include
 automatic_decision: include
-title: GP receptionist/Administrator
-company: Royston Group Practice
-location: Barnsley, S71 4QW
+title: Administrator
+company: Elysium Healthcare
+location: Barnsley, S71 4FL
 source: NHS Jobs
-job_id: nhs-5577083
+job_id: nhs-5584270
 reason: Approved Barnsley catchment.
 ---
 
-## REVIEW (3)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Medical Receptionist
-company: Mexborough Health Centre
-location: Mexborough, S64 0BY
-source: NHS Jobs
-job_id: nhs-5569947
-reason: No approved Barnsley catchment rule matched; local review required.
----
+## REVIEW (2)
 
 ---
 action: 
@@ -74,7 +62,7 @@ job_id: jobg8-23643_225575501
 reason: No approved Barnsley catchment rule matched; local review required.
 ---
 
-## EXCLUDE (28)
+## EXCLUDE (22)
 
 ---
 action: 
@@ -116,35 +104,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Admin Assistant
-company: TeacherActive - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-1856535
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Administration Assistant
 company: The Market Surgery
 location: Rotherham, S63 7RA
 source: NHS Jobs
 job_id: nhs-5568486
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Commercial Office Administrator
-company: Elevation Recruitment Group - Agency - Permanent
-location: Rotherham
-source: JobG8
-job_id: jobg8-1770785
 reason: Separate employment market.
 ---
 
@@ -169,18 +133,6 @@ company: Hays Business Support - Agency - Permanent
 location: Sheffield
 source: JobG8
 job_id: jobg8-23643_225574970
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Customer Service/Export Co-ordinator
-company: Hays Specialist Recruitment Limited - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-1866731
 reason: Separate employment market.
 ---
 
@@ -252,18 +204,6 @@ title: Production Administrator
 company: Austin Banks - Agency - Permanent
 location: Doncaster
 source: JobG8
-job_id: jobg8-1771158
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Production Administrator
-company: Austin Banks - Agency - Permanent
-location: Doncaster
-source: JobG8
 job_id: jobg8-23643_225515295
 reason: Separate employment market.
 ---
@@ -273,10 +213,10 @@ action:
 decision: exclude
 automatic_decision: exclude
 title: Receptionist
-company: Hollygreen Practice
-location: Rotherham, S63 9EH, Thurnscoe, s63 0LT, BARNSLEY, S72 0EJ
+company: Manchester Road Surgery
+location: Sheffield, S10 5PN
 source: NHS Jobs
-job_id: nhs-5544481
+job_id: nhs-5586600
 reason: Separate employment market.
 ---
 
@@ -332,18 +272,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Recruitment Resourcer / Administrator
-company: Lynx Employment Services Ltd - Agency - Temporary
-location: Sheffield
-source: JobG8
-job_id: jobg8-23643_225478960
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Sales & Marketing Coordinator
 company: Get Recruited (UK) Ltd - Agency - Permanent
 location: Doncaster
@@ -385,18 +313,6 @@ company: Aston Academy
 location: Sheffield
 source: Teaching Vacancies
 job_id: teaching-vacancies-send-administrator-aston-academy-sheffield-south-yorkshire
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Service Coordinator
-company: Veolia - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-23643_225545159
 reason: Separate employment market.
 ---
 

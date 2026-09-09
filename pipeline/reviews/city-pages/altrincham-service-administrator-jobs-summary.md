@@ -4,7 +4,7 @@
 - Live route: `/altrincham/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 5
+- Effective included jobs: 4
 - Threshold currently met: yes
 
 ## How to review
@@ -15,26 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 5
+- automatic include: 4
 - automatic review: 7
 - automatic exclude: 0
-- effective include: 5
+- effective include: 4
 - effective review: 7
 - effective exclude: 0
 
-## INCLUDE (5)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Claims Administrator
-company: Platinum Recruitment Group - Agency - Permanent
-location: Altrincham
-source: JobG8
-job_id: jobg8-1844111
-reason: Exact approved Altrincham workplace.
----
+## INCLUDE (4)
 
 ---
 action: 
@@ -102,11 +90,11 @@ reason: No exact Altrincham workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Mortgage Customer Service Advisor CeMAP Study Support
-company: Connections The Recruitment Specialists - Agency - Permanent
-location: Sale
+title: Marketing Coordinator - 45k
+company: FindCore - Agency - Permanent
+location: Stockport
 source: JobG8
-job_id: jobg8-1733656
+job_id: jobg8-1834017
 reason: No exact Altrincham workplace matched; local geographic review is required.
 ---
 
@@ -114,11 +102,23 @@ reason: No exact Altrincham workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Operations Support Administrator
-company: Elix Sourcing Solutions Limited - Agency - Permanent
+title: Medical Receptionist/ Care Navigator
+company: Bodmin Road Health Centre
+location: Sale, M33 5JH
+source: NHS Jobs
+job_id: nhs-5578666
+reason: No exact Altrincham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Project Support Administrator
+company: Simulation Solutions - Agency - Permanent
 location: Stockport
 source: JobG8
-job_id: jobg8-1848469
+job_id: jobg8-23643_225578127
 reason: No exact Altrincham workplace matched; local geographic review is required.
 ---
 
@@ -138,35 +138,23 @@ reason: No exact Altrincham workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
+title: Recruitment Coordinator
+company: IRIS Recruitment - Agency - Permanent
+location: Sale
+source: JobG8
+job_id: jobg8-1876630
+reason: No exact Altrincham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Student Attendance Officer
 company: Cheadle Hulme High School
 location: Cheadle
 source: Teaching Vacancies
 job_id: teaching-vacancies-student-attendance-officer-cheadle-hulme-high-school
-reason: No exact Altrincham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Team Administrator
-company: Cheshire and Wirral Partnership NHS Foundation Trust
-location: Stockport, SK5 7QU
-source: NHS Jobs
-job_id: nhs-5560218
-reason: No exact Altrincham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Temporary Customer Service Adviser
-company: Hays Specialist Recruitment Limited - Agency - Permanent
-location: Stockport
-source: JobG8
-job_id: jobg8-1851552
 reason: No exact Altrincham workplace matched; local geographic review is required.
 ---
 

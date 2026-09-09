@@ -4,8 +4,8 @@
 - Live route: `/bedford/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 4
-- Threshold currently met: yes
+- Effective included jobs: 3
+- Threshold currently met: no
 
 ## How to review
 Edit only the `action:` line inside a job block.
@@ -15,26 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 4
+- automatic include: 3
 - automatic review: 15
 - automatic exclude: 0
-- effective include: 4
+- effective include: 3
 - effective review: 15
 - effective exclude: 0
 
-## INCLUDE (4)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Commercial Administrator
-company: 1st Choice Rec - Agency - Permanent
-location: Bedford
-source: JobG8
-job_id: jobg8-1868312
-reason: Exact approved Bedford workplace.
----
+## INCLUDE (3)
 
 ---
 action: 
@@ -52,11 +40,11 @@ reason: Exact approved Bedford workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Operations Administrator
-company: entrust IT - Agency - Permanent
+title: Receptionist
+company: FS1 Recruitment - Agency - Temporary
 location: Bedford
 source: JobG8
-job_id: jobg8-1847897
+job_id: jobg8-23643_225539795
 reason: Exact approved Bedford workplace.
 ---
 
@@ -64,11 +52,11 @@ reason: Exact approved Bedford workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Receptionist
-company: FS1 Recruitment - Agency - Temporary
-location: Bedford
-source: JobG8
-job_id: jobg8-23643_225539795
+title: Ward Clerk
+company: Bedfordshire Hospitals NHS Foundation Trust
+location: Bedford, MK42 9DJ
+source: NHS Jobs
+job_id: nhs-5587657
 reason: Exact approved Bedford workplace.
 ---
 
@@ -90,11 +78,11 @@ reason: No exact Bedford workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Learning & Development Coordinator
-company: ReeVR - Agency - Permanent
-location: Dunstable
+title: Early Careers Coordinator
+company: BPHA - Agency - Permanent
+location: Bedfordshire
 source: JobG8
-job_id: jobg8-107776346
+job_id: jobg8-107933358
 reason: No exact Bedford workplace matched; local geographic review is required.
 ---
 
@@ -102,11 +90,11 @@ reason: No exact Bedford workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Medical Receptionist
-company: Ashcroft Surgery
-location: Leighton Buzzard, LU7 0EN
-source: NHS Jobs
-job_id: nhs-5565873
+title: Learning & Development Coordinator
+company: ReeVR - Agency - Permanent
+location: Dunstable
+source: JobG8
+job_id: jobg8-107776346
 reason: No exact Bedford workplace matched; local geographic review is required.
 ---
 
@@ -139,18 +127,6 @@ action:
 decision: review
 automatic_decision: review
 title: Operations Administrator
-company: Response Personnel - Agency - Permanent
-location: Bedfordshire
-source: JobG8
-job_id: jobg8-1848356
-reason: No exact Bedford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Operations Administrator
 company: Response Personnel Ltd - Agency - Permanent
 location: Bedfordshire
 source: JobG8
@@ -167,6 +143,18 @@ company: Fosterplus - Agency - Permanent
 location: Bedfordshire
 source: JobG8
 job_id: jobg8-23643_225547851
+reason: No exact Bedford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Panel Administrator (Maternity Cover)
+company: Fosterplus - Agency - Permanent
+location: Bedfordshire
+source: JobG8
+job_id: jobg8-25374_604171086
 reason: No exact Bedford workplace matched; local geographic review is required.
 ---
 
@@ -222,11 +210,11 @@ reason: No exact Bedford workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Scheduling Co-ordinator
-company: Jackie Wilsher Staff Service & Queensway Personnel - Agency - Permanent
-location: Leighton Buzzard
+title: Recruitment Onboarding Administrator
+company: Hamberley Care Management Limited - Company - Permanent
+location: Bedfordshire
 source: JobG8
-job_id: jobg8-1851583
+job_id: jobg8-23643_225580197
 reason: No exact Bedford workplace matched; local geographic review is required.
 ---
 

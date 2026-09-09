@@ -4,7 +4,7 @@
 - Live route: `/doncaster/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 7
+- Effective included jobs: 6
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 7
-- automatic review: 3
-- automatic exclude: 22
-- effective include: 7
-- effective review: 3
-- effective exclude: 22
+- automatic include: 6
+- automatic review: 2
+- automatic exclude: 17
+- effective include: 6
+- effective review: 2
+- effective exclude: 17
 
-## INCLUDE (7)
+## INCLUDE (6)
 
 ---
 action: 
@@ -45,18 +45,6 @@ company: EE - Company - Permanent
 location: Doncaster
 source: JobG8
 job_id: jobg8-21618_20279_62308-153faf593eb64b88272f45adeaa28d87
-reason: Approved Doncaster catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Production Administrator
-company: Austin Banks - Agency - Permanent
-location: Doncaster
-source: JobG8
-job_id: jobg8-1771158
 reason: Approved Doncaster catchment.
 ---
 
@@ -108,19 +96,7 @@ job_id: jobg8-107771227
 reason: Approved Doncaster catchment.
 ---
 
-## REVIEW (3)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Medical Receptionist
-company: Mexborough Health Centre
-location: Mexborough, S64 0BY
-source: NHS Jobs
-job_id: nhs-5569947
-reason: No approved Doncaster catchment rule matched; local review required.
----
+## REVIEW (2)
 
 ---
 action: 
@@ -146,7 +122,7 @@ job_id: jobg8-23643_225575501
 reason: No approved Doncaster catchment rule matched; local review required.
 ---
 
-## EXCLUDE (22)
+## EXCLUDE (17)
 
 ---
 action: 
@@ -176,18 +152,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Admin Assistant
-company: TeacherActive - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-1856535
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Administration Assistant
 company: The Market Surgery
 location: Rotherham, S63 7RA
@@ -200,11 +164,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Commercial Office Administrator
-company: Elevation Recruitment Group - Agency - Permanent
-location: Rotherham
-source: JobG8
-job_id: jobg8-1770785
+title: Administrator
+company: Elysium Healthcare
+location: Barnsley, S71 4FL
+source: NHS Jobs
+job_id: nhs-5584270
 reason: Separate employment market.
 ---
 
@@ -217,18 +181,6 @@ company: Hays Business Support - Agency - Permanent
 location: Sheffield
 source: JobG8
 job_id: jobg8-23643_225574970
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Customer Service/Export Co-ordinator
-company: Hays Specialist Recruitment Limited - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-1866731
 reason: Separate employment market.
 ---
 
@@ -253,18 +205,6 @@ company: Sue Ross Recruitment Ltd - Agency - Contract
 location: Sheffield
 source: JobG8
 job_id: jobg8-23643_225546545
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: GP receptionist/Administrator
-company: Royston Group Practice
-location: Barnsley, S71 4QW
-source: NHS Jobs
-job_id: nhs-5577083
 reason: Separate employment market.
 ---
 
@@ -309,10 +249,10 @@ action:
 decision: exclude
 automatic_decision: exclude
 title: Receptionist
-company: Hollygreen Practice
-location: Rotherham, S63 9EH, Thurnscoe, s63 0LT, BARNSLEY, S72 0EJ
+company: Manchester Road Surgery
+location: Sheffield, S10 5PN
 source: NHS Jobs
-job_id: nhs-5544481
+job_id: nhs-5586600
 reason: Separate employment market.
 ---
 
@@ -337,18 +277,6 @@ company: Totley Primary School
 location: Sheffield
 source: Teaching Vacancies
 job_id: teaching-vacancies-receptionist-totley-primary-school
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Recruitment Resourcer / Administrator
-company: Lynx Employment Services Ltd - Agency - Temporary
-location: Sheffield
-source: JobG8
-job_id: jobg8-23643_225478960
 reason: Separate employment market.
 ---
 
@@ -385,18 +313,6 @@ company: Aston Academy
 location: Sheffield
 source: Teaching Vacancies
 job_id: teaching-vacancies-send-administrator-aston-academy-sheffield-south-yorkshire
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Service Coordinator
-company: Veolia - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-23643_225545159
 reason: Separate employment market.
 ---
 

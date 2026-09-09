@@ -4,7 +4,7 @@
 - Live route: `/sheffield/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 17
+- Effective included jobs: 14
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 17
-- automatic review: 3
-- automatic exclude: 12
-- effective include: 17
-- effective review: 3
-- effective exclude: 12
+- automatic include: 14
+- automatic review: 2
+- automatic exclude: 9
+- effective include: 14
+- effective review: 2
+- effective exclude: 9
 
-## INCLUDE (17)
+## INCLUDE (14)
 
 ---
 action: 
@@ -52,35 +52,11 @@ reason: Approved Sheffield catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Admin Assistant
-company: TeacherActive - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-1856535
-reason: Approved Sheffield catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Customer Service/Export Co-ordinator
 company: Hays Business Support - Agency - Permanent
 location: Sheffield
 source: JobG8
 job_id: jobg8-23643_225574970
-reason: Approved Sheffield catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Customer Service/Export Co-ordinator
-company: Hays Specialist Recruitment Limited - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-1866731
 reason: Approved Sheffield catchment.
 ---
 
@@ -149,10 +125,10 @@ action:
 decision: include
 automatic_decision: include
 title: Receptionist
-company: Totley Primary School
-location: Sheffield
-source: Teaching Vacancies
-job_id: teaching-vacancies-receptionist-totley-primary-school
+company: Manchester Road Surgery
+location: Sheffield, S10 5PN
+source: NHS Jobs
+job_id: nhs-5586600
 reason: Approved Sheffield catchment.
 ---
 
@@ -160,11 +136,11 @@ reason: Approved Sheffield catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Recruitment Resourcer / Administrator
-company: Lynx Employment Services Ltd - Agency - Temporary
+title: Receptionist
+company: Totley Primary School
 location: Sheffield
-source: JobG8
-job_id: jobg8-23643_225478960
+source: Teaching Vacancies
+job_id: teaching-vacancies-receptionist-totley-primary-school
 reason: Approved Sheffield catchment.
 ---
 
@@ -208,18 +184,6 @@ reason: Approved Sheffield catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Service Coordinator
-company: Veolia - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-23643_225545159
-reason: Approved Sheffield catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Service Desk Analyst
 company: Venn Group - Agency - Permanent
 location: Sheffield
@@ -228,19 +192,7 @@ job_id: jobg8-1807172
 reason: Approved Sheffield catchment.
 ---
 
-## REVIEW (3)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Medical Receptionist
-company: Mexborough Health Centre
-location: Mexborough, S64 0BY
-source: NHS Jobs
-job_id: nhs-5569947
-reason: No approved Sheffield catchment rule matched; local review required.
----
+## REVIEW (2)
 
 ---
 action: 
@@ -266,7 +218,7 @@ job_id: jobg8-23643_225575501
 reason: No approved Sheffield catchment rule matched; local review required.
 ---
 
-## EXCLUDE (12)
+## EXCLUDE (9)
 
 ---
 action: 
@@ -296,11 +248,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Commercial Office Administrator
-company: Elevation Recruitment Group - Agency - Permanent
-location: Rotherham
-source: JobG8
-job_id: jobg8-1770785
+title: Administrator
+company: Elysium Healthcare
+location: Barnsley, S71 4FL
+source: NHS Jobs
+job_id: nhs-5584270
 reason: Separate employment market.
 ---
 
@@ -320,47 +272,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: GP receptionist/Administrator
-company: Royston Group Practice
-location: Barnsley, S71 4QW
-source: NHS Jobs
-job_id: nhs-5577083
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Production Administrator
-company: Austin Banks - Agency - Permanent
-location: Doncaster
-source: JobG8
-job_id: jobg8-1771158
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Production Administrator
 company: Austin Banks - Agency - Permanent
 location: Doncaster
 source: JobG8
 job_id: jobg8-23643_225515295
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Receptionist
-company: Hollygreen Practice
-location: Rotherham, S63 9EH, Thurnscoe, s63 0LT, BARNSLEY, S72 0EJ
-source: NHS Jobs
-job_id: nhs-5544481
 reason: Separate employment market.
 ---
 

@@ -4,8 +4,8 @@
 - Live route: `/macclesfield/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 4
-- Threshold currently met: yes
+- Effective included jobs: 3
+- Threshold currently met: no
 
 ## How to review
 Edit only the `action:` line inside a job block.
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 4
-- automatic review: 8
+- automatic include: 3
+- automatic review: 6
 - automatic exclude: 0
-- effective include: 4
-- effective review: 8
+- effective include: 3
+- effective review: 6
 - effective exclude: 0
 
-## INCLUDE (4)
+## INCLUDE (3)
 
 ---
 action: 
@@ -33,18 +33,6 @@ company: Broken Cross Surgery
 location: Macclesfield, SK11 6JL
 source: NHS Jobs
 job_id: nhs-5568463
-reason: Exact approved Macclesfield workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Medical Receptionist
-company: Adecco - Agency - Permanent
-location: Macclesfield
-source: JobG8
-job_id: jobg8-1852442
 reason: Exact approved Macclesfield workplace.
 ---
 
@@ -72,7 +60,7 @@ job_id: jobg8-23643_225512252
 reason: Exact approved Macclesfield workplace.
 ---
 
-## REVIEW (8)
+## REVIEW (6)
 
 ---
 action: 
@@ -90,35 +78,11 @@ reason: No exact Macclesfield workplace matched; local geographic review is requ
 action: 
 decision: review
 automatic_decision: review
-title: Customer Service Advisor
-company: Acorn by Synergie - Agency - Permanent
-location: Crewe
-source: JobG8
-job_id: jobg8-1785888
-reason: No exact Macclesfield workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Customer Services Administrator
 company: Howard James Recruitment Consultancy Ltd - Agency - Permanent
 location: Knutsford
 source: JobG8
 job_id: jobg8-23643_225380328
-reason: No exact Macclesfield workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: FM Coordinator
-company: Resource Matters Ltd - Agency - Permanent
-location: Knutsford
-source: JobG8
-job_id: jobg8-1871288
 reason: No exact Macclesfield workplace matched; local geographic review is required.
 ---
 

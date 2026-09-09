@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 4
-- automatic review: 6
-- automatic exclude: 10
+- automatic review: 5
+- automatic exclude: 8
 - effective include: 4
-- effective review: 6
-- effective exclude: 10
+- effective review: 5
+- effective exclude: 8
 
 ## INCLUDE (4)
 
@@ -72,7 +72,7 @@ job_id: jobg8-107804499
 reason: Approved York catchment.
 ---
 
-## REVIEW (6)
+## REVIEW (5)
 
 ---
 action: 
@@ -102,30 +102,6 @@ reason: No approved York catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Office Administrator
-company: ianson - Agency - Permanent
-location: Ripon
-source: JobG8
-job_id: jobg8-1778958
-reason: No approved York catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Office Administrator
-company: KD Recruitment - Agency - Permanent
-location: Pickering
-source: JobG8
-job_id: jobg8-23643_225480415
-reason: No approved York catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: School Office Administrator
 company: Askwith Primary School
 location: Otley
@@ -146,7 +122,19 @@ job_id: nhs-5570653
 reason: No approved York catchment rule matched; local review required.
 ---
 
-## EXCLUDE (10)
+---
+action: 
+decision: review
+automatic_decision: review
+title: Temporary New Business / Payout Coordinator
+company: Michael Page - Agency - Temporary
+location: Richmond
+source: JobG8
+job_id: jobg8-23643_225581619
+reason: No approved York catchment rule matched; local review required.
+---
+
+## EXCLUDE (8)
 
 ---
 action: 
@@ -158,18 +146,6 @@ location: Northallerton
 source: JobG8
 job_id: jobg8-107905972
 reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Administrator
-company: Tees Esk and Wear Valleys NHS Foundation Trust
-location: Scarborough, North Yorkshire, YO11 3EG
-source: NHS Jobs
-job_id: nhs-5564613
-reason: Broad county/region label; not York-city evidence.
 ---
 
 ---
@@ -217,18 +193,6 @@ company: Hays Business Support - Agency - Permanent
 location: Northallerton
 source: JobG8
 job_id: jobg8-23643_225555701
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Recruitment & Learning Co-ordinator
-company: Hays Specialist Recruitment Limited - Agency - Permanent
-location: Northallerton
-source: JobG8
-job_id: jobg8-1844909
 reason: Separate employment market.
 ---
 

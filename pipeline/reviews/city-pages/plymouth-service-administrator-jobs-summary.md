@@ -4,7 +4,7 @@
 - Live route: `/plymouth/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 3
+- Effective included jobs: 2
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 3
-- automatic review: 21
+- automatic include: 2
+- automatic review: 18
 - automatic exclude: 0
-- effective include: 3
-- effective review: 21
+- effective include: 2
+- effective review: 18
 - effective exclude: 0
 
-## INCLUDE (3)
+## INCLUDE (2)
 
 ---
 action: 
@@ -40,18 +40,6 @@ reason: Exact approved Plymouth workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Medical Receptionist/Administrator
-company: Oakside Surgery
-location: Plymouth, PL5 3PY, PLYMOUTH, PL5 4DU
-source: NHS Jobs
-job_id: nhs-5549527
-reason: Exact approved Plymouth workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Meeting Minutes Administrator
 company: Pertemps Plymouth - Agency - Temporary
 location: Plymouth
@@ -60,7 +48,7 @@ job_id: jobg8-23643_225509220
 reason: Exact approved Plymouth workplace.
 ---
 
-## REVIEW (21)
+## REVIEW (18)
 
 ---
 action: 
@@ -79,10 +67,10 @@ action:
 decision: review
 automatic_decision: review
 title: Administrator
-company: RGB Recruitment - Agency - Permanent
-location: Devon
+company: Build Recruitment - Agency - Temporary
+location: Exeter
 source: JobG8
-job_id: jobg8-1767541
+job_id: jobg8-23643_225580652
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 
@@ -150,23 +138,11 @@ reason: No exact Plymouth workplace matched; local geographic review is required
 action: 
 decision: review
 automatic_decision: review
-title: Customer Service Advisor
-company: red recruitment - Agency - Permanent
+title: Customer Care Coordinator
+company: RGB Recruitment - Agency - Permanent
 location: Devon
 source: JobG8
-job_id: jobg8-1733398
-reason: No exact Plymouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Executive Assistant
-company: Bridgewater Resources - Agency - Permanent
-location: Exeter
-source: JobG8
-job_id: jobg8-1733511
+job_id: jobg8-1858672
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 
@@ -186,35 +162,11 @@ reason: No exact Plymouth workplace matched; local geographic review is required
 action: 
 decision: review
 automatic_decision: review
-title: Lettings Administrator
-company: Walker and Sloan Ltd - Agency - Permanent
-location: Devon
+title: HR Administrator
+company: Artis Recruitment - Agency - Permanent
+location: Newton Abbot
 source: JobG8
-job_id: jobg8-1780696
-reason: No exact Plymouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Patient Administrator
-company: Woodbury Surgery
-location: Exeter, EX5 1NZ
-source: NHS Jobs
-job_id: nhs-5555068
-reason: No exact Plymouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Plant Hire Desk Administrator/Controller
-company: Michael Page Finance - Agency - Permanent
-location: Devon
-source: JobG8
-job_id: jobg8-1786229
+job_id: jobg8-1841483
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 
@@ -246,11 +198,11 @@ reason: No exact Plymouth workplace matched; local geographic review is required
 action: 
 decision: review
 automatic_decision: review
-title: Receptionist/Administrator
-company: Croft Hall Medical Practice
-location: Torquay, TQ2 5UA
+title: Receptionist
+company: Elysium Healthcare
+location: Exeter, EX1 3PZ
 source: NHS Jobs
-job_id: nhs-5552054
+job_id: nhs-5584272
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 
@@ -258,11 +210,11 @@ reason: No exact Plymouth workplace matched; local geographic review is required
 action: 
 decision: review
 automatic_decision: review
-title: Sales & Customer Service Administrator
-company: Office Angels - Agency - Permanent
-location: Devon
-source: JobG8
-job_id: jobg8-1841480
+title: Receptionist/Administrator
+company: Croft Hall Medical Practice
+location: Torquay, TQ2 5UA
+source: NHS Jobs
+job_id: nhs-5552054
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 
@@ -282,11 +234,11 @@ reason: No exact Plymouth workplace matched; local geographic review is required
 action: 
 decision: review
 automatic_decision: review
-title: Temporary Administrator
-company: Reed - Agency - Permanent
-location: Devon
-source: JobG8
-job_id: jobg8-1852923
+title: Service Administrator
+company: Royal Devon University Healthcare NHS Foundation Trust
+location: Exeter, EX2 5DW
+source: NHS Jobs
+job_id: nhs-5585701
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 

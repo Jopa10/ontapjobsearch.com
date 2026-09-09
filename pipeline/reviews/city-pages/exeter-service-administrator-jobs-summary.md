@@ -4,7 +4,7 @@
 - Live route: `/exeter/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 7
+- Effective included jobs: 8
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 7
-- automatic review: 17
+- automatic include: 8
+- automatic review: 12
 - automatic exclude: 0
-- effective include: 7
-- effective review: 17
+- effective include: 8
+- effective review: 12
 - effective exclude: 0
 
-## INCLUDE (7)
+## INCLUDE (8)
 
 ---
 action: 
@@ -40,23 +40,11 @@ reason: Exact approved Exeter workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Executive Assistant
-company: Bridgewater Resources - Agency - Permanent
+title: Administrator
+company: Build Recruitment - Agency - Temporary
 location: Exeter
 source: JobG8
-job_id: jobg8-1733511
-reason: Exact approved Exeter workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Patient Administrator
-company: Woodbury Surgery
-location: Exeter, EX5 1NZ
-source: NHS Jobs
-job_id: nhs-5555068
+job_id: jobg8-23643_225580652
 reason: Exact approved Exeter workplace.
 ---
 
@@ -88,6 +76,30 @@ reason: Exact approved Exeter workplace.
 action: 
 decision: include
 automatic_decision: include
+title: Receptionist
+company: Elysium Healthcare
+location: Exeter, EX1 3PZ
+source: NHS Jobs
+job_id: nhs-5584272
+reason: Exact approved Exeter workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Service Administrator
+company: Royal Devon University Healthcare NHS Foundation Trust
+location: Exeter, EX2 5DW
+source: NHS Jobs
+job_id: nhs-5585701
+reason: Exact approved Exeter workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Temporary Receptionist / Front of House
 company: Office Angels - Agency - Temporary
 location: Exeter
@@ -108,19 +120,7 @@ job_id: jobg8-23643_225568425
 reason: Exact approved Exeter workplace.
 ---
 
-## REVIEW (17)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
-company: RGB Recruitment - Agency - Permanent
-location: Devon
-source: JobG8
-job_id: jobg8-1767541
-reason: No exact Exeter workplace matched; local geographic review is required.
----
+## REVIEW (12)
 
 ---
 action: 
@@ -186,11 +186,11 @@ reason: No exact Exeter workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Customer Service Advisor
-company: red recruitment - Agency - Permanent
+title: Customer Care Coordinator
+company: RGB Recruitment - Agency - Permanent
 location: Devon
 source: JobG8
-job_id: jobg8-1733398
+job_id: jobg8-1858672
 reason: No exact Exeter workplace matched; local geographic review is required.
 ---
 
@@ -222,23 +222,11 @@ reason: No exact Exeter workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Lettings Administrator
-company: Walker and Sloan Ltd - Agency - Permanent
-location: Devon
+title: HR Administrator
+company: Artis Recruitment - Agency - Permanent
+location: Newton Abbot
 source: JobG8
-job_id: jobg8-1780696
-reason: No exact Exeter workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Medical Receptionist/Administrator
-company: Oakside Surgery
-location: Plymouth, PL5 3PY, PLYMOUTH, PL5 4DU
-source: NHS Jobs
-job_id: nhs-5549527
+job_id: jobg8-1841483
 reason: No exact Exeter workplace matched; local geographic review is required.
 ---
 
@@ -258,18 +246,6 @@ reason: No exact Exeter workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Plant Hire Desk Administrator/Controller
-company: Michael Page Finance - Agency - Permanent
-location: Devon
-source: JobG8
-job_id: jobg8-1786229
-reason: No exact Exeter workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Receptionist/Administrator
 company: Croft Hall Medical Practice
 location: Torquay, TQ2 5UA
@@ -282,35 +258,11 @@ reason: No exact Exeter workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Sales & Customer Service Administrator
-company: Office Angels - Agency - Permanent
-location: Devon
-source: JobG8
-job_id: jobg8-1841480
-reason: No exact Exeter workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Secretary
 company: Lockhart Recruitment - Agency - Permanent
 location: Devon
 source: JobG8
 job_id: jobg8-23643_225571969
-reason: No exact Exeter workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Temporary Administrator
-company: Reed - Agency - Permanent
-location: Devon
-source: JobG8
-job_id: jobg8-1852923
 reason: No exact Exeter workplace matched; local geographic review is required.
 ---
 

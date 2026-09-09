@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 4
-- automatic review: 48
+- automatic review: 37
 - automatic exclude: 0
 - effective include: 4
-- effective review: 48
+- effective review: 37
 - effective exclude: 0
 
 ## INCLUDE (4)
@@ -72,7 +72,7 @@ job_id: nhs-5573111
 reason: Exact approved Aylesbury workplace.
 ---
 
-## REVIEW (48)
+## REVIEW (37)
 
 ---
 action: 
@@ -186,18 +186,6 @@ reason: No exact Aylesbury workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Administrator (Maternity Cover)
-company: Optima - Agency - Permanent
-location: Buckinghamshire
-source: JobG8
-job_id: jobg8-1850450
-reason: No exact Aylesbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Associate Brand Manager
 company: Zenopa - Agency - Permanent
 location: Bourne End
@@ -282,47 +270,11 @@ reason: No exact Aylesbury workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Customer Marketing Manager - Maternity Cover
-company: Association For Project Management - Agency - Contract
-location: Buckinghamshire
-source: JobG8
-job_id: jobg8-107842410
-reason: No exact Aylesbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Customer Service
-company: Trinity Resource Solutions - Agency - Permanent
-location: High Wycombe
-source: JobG8
-job_id: jobg8-1789907
-reason: No exact Aylesbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Customer Service Administrator
 company: Cameo Consultancy - Agency - Permanent
 location: Buckingham
 source: JobG8
 job_id: jobg8-23643_225558304
-reason: No exact Aylesbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Customer Service Advisor
-company: People Solutions Group Limited - Agency - Permanent
-location: Buckinghamshire
-source: JobG8
-job_id: jobg8-1733870
 reason: No exact Aylesbury workplace matched; local geographic review is required.
 ---
 
@@ -347,42 +299,6 @@ company: Synergy Plus Recruitment Ltd - Agency - Permanent
 location: Milton Keynes
 source: JobG8
 job_id: jobg8-107870227
-reason: No exact Aylesbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: E-Commerce Specialist-Private Label Products
-company: Synergy Plus Recruitment Ltd - Agency - Permanent
-location: Milton Keynes
-source: JobG8
-job_id: jobg8-1734778
-reason: No exact Aylesbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Entry-Level Customer Service Administrator
-company: EAC Consulting Group - Agency - Permanent
-location: Buckinghamshire
-source: JobG8
-job_id: jobg8-1771584
-reason: No exact Aylesbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Events Coordinator
-company: Adecco - Agency - Permanent
-location: Buckinghamshire
-source: JobG8
-job_id: jobg8-1841488
 reason: No exact Aylesbury workplace matched; local geographic review is required.
 ---
 
@@ -438,18 +354,6 @@ reason: No exact Aylesbury workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Helpdesk Administrator
-company: Giordani Resourcing - Agency - Permanent
-location: Buckinghamshire
-source: JobG8
-job_id: jobg8-1771203
-reason: No exact Aylesbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Internal Sales Co-ordinator
 company: Working Solutions Recruitment - Agency - Permanent
 location: Milton Keynes
@@ -462,35 +366,11 @@ reason: No exact Aylesbury workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Internal Sales Co-ordinator
-company: WSR (Working Solutions Recruitment Services) - Agency - Permanent
+title: Marketing Automation Manager
+company: Nextech - Agency - Permanent
 location: Milton Keynes
 source: JobG8
-job_id: jobg8-1856851
-reason: No exact Aylesbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Marketing Executive
-company: Reed - Agency - Permanent
-location: Buckinghamshire
-source: JobG8
-job_id: jobg8-1743199
-reason: No exact Aylesbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Medical Receptionist
-company: Primary Care Management Solutions Ltd
-location: High Wycombe, HP135DN
-source: NHS Jobs
-job_id: nhs-5558801
+job_id: jobg8-1877882
 reason: No exact Aylesbury workplace matched; local geographic review is required.
 ---
 
@@ -534,6 +414,18 @@ reason: No exact Aylesbury workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
+title: PPC Executive
+company: FS1 Recruitment - Agency - Permanent
+location: Buckinghamshire
+source: JobG8
+job_id: jobg8-23643_225580896
+reason: No exact Aylesbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Product Content Creator Photography & Videography
 company: Synergy Plus Recruitment Ltd - Agency - Permanent
 location: Milton Keynes
@@ -558,35 +450,11 @@ reason: No exact Aylesbury workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Receptionist
-company: Scania (Great Britain) Limited - Agency - Permanent
-location: Milton Keynes
-source: JobG8
-job_id: jobg8-1850649
-reason: No exact Aylesbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Receptionist - Bank
 company: Avery Healthcare Group Ltd.
 location: Marlow, SL7 1HX
 source: NHS Jobs
 job_id: nhs-5567129
-reason: No exact Aylesbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Sales Administrator
-company: Reed - Agency - Permanent
-location: Buckinghamshire
-source: JobG8
-job_id: jobg8-1733933
 reason: No exact Aylesbury workplace matched; local geographic review is required.
 ---
 
