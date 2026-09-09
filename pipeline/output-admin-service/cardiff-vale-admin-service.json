@@ -47,7 +47,11 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": ""
+    "posted_date_basis": "",
+    "at_a_glance_attributes": [
+      "Scheduling and bookings",
+      "Records administration"
+    ]
   },
   {
     "job_id": "21618_20279_61680-f8145293a99ee8a5fe099e7dc9419d9b",
