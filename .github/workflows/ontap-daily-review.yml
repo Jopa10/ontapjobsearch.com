@@ -2,9 +2,11 @@ name: Ontap daily review
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "45 8 * * *"
-      timezone: "Europe/London"
+  workflow_run:
+    workflows:
+      - Run full JobG8 daily process
+    types:
+      - completed
 
 concurrency:
   group: ontap-daily-review
@@ -15,6 +17,10 @@ permissions:
 
 jobs:
   build-review:
+    if: >-
+      github.event_name == 'workflow_dispatch' ||
+      (github.event.workflow_run.conclusion == 'success' &&
+       github.event.workflow_run.head_branch == 'main')
     name: Build one daily review file and email it
     runs-on: ubuntu-latest
 
