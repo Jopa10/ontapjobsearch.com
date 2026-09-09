@@ -1,6 +1,6 @@
 # Support-worker manual review
 
-feed_date: 2026-09-08
+feed_date: 2026-09-09
 
 Edit only the `action:` line in each block:
 
@@ -103,12 +103,6 @@ _No jobs in this group._
 
 ---
 action:
-SELECTED | Hampshire | Alton | £25186 - £26244 per year (plus Market Supplement) | Care Assistant
-job_id: 1401784493
----
-
----
-action:
 SELECTED | Hampshire | Southampton | £27780 - £30564 per year | Secure Childrens Home Support Worker (Weekends)
 job_id: 1401784780
 ---
@@ -145,8 +139,14 @@ job_id: 1858493
 
 ---
 action:
-SELECTED | Hampshire | Ryde | £16000 per year | Care and Support Worker
-job_id: 107947536
+SELECTED | Hampshire | Ventnor | £10000 per year | Care & Support Worker
+job_id: 107955972
+---
+
+---
+action:
+SELECTED | Hampshire | Freshwater | £16000 per year | Care & Support Worker
+job_id: 107955992
 ---
 
 ## HAMPSHIRE — POSSIBLES
@@ -159,6 +159,12 @@ _No jobs in this group._
 action:
 SELECTED | Kent | Tunbridge Wells | competitive + benefits | Qualified Hearing Care Assistant
 job_id: 1402264062
+---
+
+---
+action:
+SELECTED | Kent | Kent | £13.45 per hour (£13.45) | Housing Support Worker (Casual)
+job_id: 23643_225534852
 ---
 
 ---
@@ -305,6 +311,12 @@ SELECTED | London | London | £18 - £20 per hour | Family Support Worker
 job_id: 1834903
 ---
 
+---
+action:
+SELECTED | London | London | £16.14 per hour | Care Worker
+job_id: 23643_225579170
+---
+
 ## LONDON — POSSIBLES
 
 _No jobs in this group._
@@ -329,27 +341,17 @@ SELECTED | Oxfordshire | Oxford | £85 - £110 per daily | Behaviour Support Ass
 job_id: 1819710
 ---
 
+---
+action:
+SELECTED | Oxfordshire | Burford | £3,840 per year | Children's Residential Support Worker
+job_id: 25362_JR105004
+---
+
 ## OXFORDSHIRE — POSSIBLES
 
----
-action:
-POSS - OXFORDSHIRE | Oxfordshire | Oxford | £127.5 per daily | Female Live in Support Worker
-job_id: 107949222
----
+_No jobs in this group._
 
 ## SURREY — SELECTED
-
----
-action:
-SELECTED | Surrey | Farnham | £13.00 per hour | Specialist Academic Support Worker
-job_id: 1692926
----
-
----
-action:
-SELECTED | Surrey | Cobham | £13.45 per hour (£13.45) | Housing Support Worker (Casual)
-job_id: 23643_225534852
----
 
 ---
 action:
@@ -361,12 +363,6 @@ job_id: 1808686
 action:
 SELECTED | Surrey | Lingfield | £25308 - £27180 per year | Residential Support Worker
 job_id: 1808682
----
-
----
-action:
-SELECTED | Surrey | Hindhead | £15.45 per hour (plus benefits) | Care Assistant
-job_id: 107950276
 ---
 
 ## SURREY — POSSIBLES
@@ -397,6 +393,12 @@ job_id: 23643_225549480
 action:
 SELECTED | Wiltshire | Swindon | £24000 per year | Residential Support Worker - Children's Home
 job_id: 107936277
+---
+
+---
+action:
+SELECTED | Wiltshire | Swindon | £14.43 per hour | Care Assistant
+job_id: 1877369
 ---
 
 ## WILTSHIRE — POSSIBLES
