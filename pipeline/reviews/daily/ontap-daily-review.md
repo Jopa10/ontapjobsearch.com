@@ -4,9 +4,9 @@
 > All active sources are current for 2026-09-09. You can start reviewing.
 
 review_date: 2026-09-09
-generated_at: 2026-09-09T12:29:10+00:00
+generated_at: 2026-09-09T16:58:33+00:00
 
-**43 job(s) need a human decision.**
+**56 job(s) need a human decision.**
 
 Edit only each `action:` line:
 - `action: select` = include the vacancy.
@@ -21,15 +21,247 @@ Edit only each `action:` line:
 
 | Source | Status | Review date | Needs review | Note |
 |---|---|---|---:|---|
-| JobG8 | OK | 2026-09-09 | 0 | — |
+| JobG8 | OK | 2026-09-09 | 13 | — |
 | NEJobs | OK | 2026-09-09 | 6 | — |
 | VONNE | OK | 2026-09-09 | 2 | — |
 | Teaching Vacancies | OK | 2026-09-09 | 35 | — |
 | NHS Jobs | OK | 2026-09-09 | 0 | automatic Tier A/B publish; NHS POSS stays in the NHS-specific review and is optional |
 
-## JobG8 — 0 to review
+## JobG8 — 13 to review
 
-_No new or changed human decisions required._
+---
+action:
+POSS | JobG8 | Devon | Devon | £14.18 - £16.37 per hour | HR Coordinator
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 1842702
+title: HR Coordinator
+employer: 
+location: Devon
+region: Devon
+salary: £14.18 - £16.37 per hour
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: 4050e6eba307c363d912ae209882421b27ebbbe573f0d5a1a4d63c6e74fef098
+---
+
+---
+action:
+POSS | JobG8 | Essex | Essex | £36000 per year | Property Claims Handler
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 1883686
+title: Property Claims Handler
+employer: 
+location: Essex
+region: Essex
+salary: £36000 per year
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: ddb8f66d22b9fe8593f1c72f21bc6b95bec4f8098c27deed834908b74f46e1d7
+---
+
+---
+action:
+POSS | JobG8 | Lincolnshire | Lincolnshire | £48,000 per annum | Lead Planner
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 107956345
+title: Lead Planner
+employer: 
+location: Lincolnshire
+region: Lincolnshire
+salary: £48,000 per annum
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: ff0ad58940df33f95ccaccc4e077b0f6a30f5bc0794985a27d68d57690115fae
+---
+
+---
+action:
+POSS | JobG8 | London | London | £25 per hour | Interim Recruitment Coordinator
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 1865397
+title: Interim Recruitment Coordinator
+employer: 
+location: London
+region: London
+salary: £25 per hour
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: 1b307c6f85c30ae05a2537f5e6199c5cb14128b30b2d6a3601870daf2480319d
+---
+
+---
+action:
+POSS | JobG8 | Merseyside - Liverpool | Liverpool | £35000 per year | Business Crime Reduction Coordinator
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 107947436
+title: Business Crime Reduction Coordinator
+employer: 
+location: Liverpool
+region: Merseyside - Liverpool
+salary: £35000 per year
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: d790a7079bfc402b400035a96010e2cd3de6566d4e21e5d5a00ac6c718d307eb
+---
+
+---
+action:
+POSS | JobG8 | Nottinghamshire | Nottinghamshire | £28000 - £31000 per year (Bonus + Benefits) | Customer Service Advisor- German speaking
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 23643_225483080
+title: Customer Service Advisor- German speaking
+employer: 
+location: Nottinghamshire
+region: Nottinghamshire
+salary: £28000 - £31000 per year (Bonus + Benefits)
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: c338415c63bbf8823258dcba006ae14ae8c164abd34100fd88ca27fad1d7eff9
+---
+
+---
+action:
+POSS | JobG8 | Nottinghamshire | Nottinghamshire | £13.80 - £15.50 per hour | HR Administrator
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 1850324
+title: HR Administrator
+employer: 
+location: Nottinghamshire
+region: Nottinghamshire
+salary: £13.80 - £15.50 per hour
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: 6fdbeec0370d73d852478114834497f342cc6fde374b3809a748056e6ca59951
+---
+
+---
+action:
+POSS | JobG8 | Staffordshire | Staffordshire | £36000 per year | Property Claims Handler
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 1883687
+title: Property Claims Handler
+employer: 
+location: Staffordshire
+region: Staffordshire
+salary: £36000 per year
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: f844e06302e08ee33a6b2204ce6b29b2757caeba956ccbb2e304da35661f0baf
+---
+
+---
+action:
+POSS | JobG8 | Suffolk | Suffolk | £30000 - £35000 per year | HR Administrator
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 1850031
+title: HR Administrator
+employer: 
+location: Suffolk
+region: Suffolk
+salary: £30000 - £35000 per year
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: f86c88c874ad3aff53b492b3d0d4316d8adbea82511a1aa03b97fb64b3fc3156
+---
+
+---
+action:
+POSS | JobG8 | Surrey | Surrey | £33000 - £42000 per year | Trainee Financial Planner
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 1878996
+title: Trainee Financial Planner
+employer: 
+location: Surrey
+region: Surrey
+salary: £33000 - £42000 per year
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: d2937c97f653f78dbc9512778366bfd2364d89bbf8371ea03dbf0f9efdf204e8
+---
+
+---
+action:
+POSS | JobG8 | West Midlands - Coventry & Warwickshire | Warwickshire | £22 - £23 per hour | Interim Finance Assistant
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 1878240
+title: Interim Finance Assistant
+employer: 
+location: Warwickshire
+region: West Midlands - Coventry & Warwickshire
+salary: £22 - £23 per hour
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: b1c2c7f08cd44302b3328d120f8e6af4816f84bdb0272368f15ab1a151fc670c
+---
+
+---
+action:
+POSS | JobG8 | Yorkshire - West | Leeds | £65000 per year | Financial Planner (IFA)
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 1883282
+title: Financial Planner (IFA)
+employer: 
+location: Leeds
+region: Yorkshire - West
+salary: £65000 per year
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: c0cd2787a2924742f15860ade3ad359802ba35d258847b7360dc3af2f74045fb
+---
+
+---
+action:
+POSS | JobG8 | Yorkshire - West | Leeds | £200 per daily | Live-In Personal Care Assistants for a University Student in Leeds
+source_key: jobg8
+source: JobG8
+category: support_worker
+source_job_id: 107797487
+title: Live-In Personal Care Assistants for a University Student in Leeds
+employer: 
+location: Leeds
+region: Yorkshire - West
+salary: £200 per daily
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: cb882eac022cf8b3ca01644dbd8273aad0813cee892f48a2b0bbc04be28b9e23
+---
 
 ## NEJobs — 6 to review
 
