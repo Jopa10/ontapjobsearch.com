@@ -203,14 +203,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Scheduling and bookings",
-      "Records administration",
-      "Quotations",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225547455",
@@ -285,11 +278,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Email handling",
-      "Records administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225573602",
@@ -314,12 +303,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Telephone handling",
-      "Scheduling and bookings"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225574529",
@@ -344,12 +328,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Email handling",
-      "Systems administration",
-      "Document preparation"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1869539",
@@ -699,11 +678,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Systems administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1877700",
@@ -729,6 +704,28 @@
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
     "posted_date_basis": ""
+  },
+  {
+    "job_id": "nhs-5585037",
+    "source": "NHS Jobs",
+    "title": "Administrator/Receptionist",
+    "company": "Billericay Medical Practice",
+    "advertiser_name": "Billericay Medical Practice",
+    "location": "Billericay, CM12 0BJ",
+    "region": "Essex",
+    "salary": "£12.71",
+    "employment_type": "Permanent",
+    "posted_date": "2026-09-09T08:37:57.517116421",
+    "closing_date": "2026-10-02",
+    "description": "We are looking for a suitable candidate to join our team in a part time position for 20 hours per week, Tuesday 9-5, Wednesday 10-4, Friday 10-5. The role will be to offer general assistance to the practice team and project a positive and friendly image to patients and other visitors, either in person or via the telephone Receive, assist and direct patients in accessing the appropriate service or healthcare professional in a courteous, efficient and effective way Undertake a variety of administrative duties to assist in the smooth running of the very busy practice. Supporting with Patient Triage. Facilitate effective communication between patients, members of the primary health care team, secondary care and other associated healthcare agencies The successful applicant will support the Administration team with tasks such as dealing with Registrations, patient deductions, Pathology, running monthly reports and inviting patients to long term condition review appointments.The successful applicant will also support with Patient Triage. You will also monitor the Practice email address liaising with Third Party Providers, other NHS services and Patients, ensuring they are all dealt with in a timely and professional manner. The duties and responsibilities to be undertaken by members of the practice administration team may include any or all of the items in the following list. Duties may be varied from time to time under the direction of the assistant practice manager/practice manager, dependent on current and evolving practice workload and staffing levels: Maintaining and monitoring the practice appointments system Processing personal and telephone requests for appointments, visits and telephone consultations, and ensuring callers are directed to the appropriate healthcare professional Processing and distributing incoming (and outgoing) mail Taking messages and passing on information Filing and retrieving paperwork Processing repeat prescriptions in accordance with practice guidelines Computer data entry/data allocation and collation; processing and recording information in accordance with practice procedures Initiating contact with and responding to requests from patients, other team member and associated healthcare agencies and providers Providing assistance to the practice staff as required from time to time, including word/data processing, filing, photocopying and scanning Ordering, re-ordering and monitoring of stationery and other supplies Dealing with clinical waste Keeping the reception area, notice-boards and leaflet dispensers tidy and free from obstructions and clutter Providing clerical assistance to practice staff as required, including word/data processing, filing, photocopying, and scanning Cover sickness/annual leave and work reasonable overtime when required",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1948-26-0007",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1948-26-0007",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5582118",

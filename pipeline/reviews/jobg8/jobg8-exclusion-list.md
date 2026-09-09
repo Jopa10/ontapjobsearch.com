@@ -6,9 +6,165 @@ The `excluded_on` date is the day the exclusion decision was made.
 To restore a job, edit only its `action:` line to `action: select`.
 On the next JobG8 run that exact job ID will be restored and removed from this list.
 
-remembered_exclusions: 295
+remembered_exclusions: 309
 
 ## SERVICE / ADMIN — EXCLUDED
+
+---
+action:
+category: service_admin
+excluded_on: 2026-09-09
+title: Town Planner
+employer: Carrington West
+region: 
+town: Devon
+salary: 
+job_id: 23643_225581775
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-09-09
+title: Town Planner
+employer: Penguin Recruitment
+region: 
+town: Kent
+salary: 
+job_id: 23643_225581363
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-09-09
+title: Scheduler
+employer: SF Partners
+region: 
+town: Leicestershire
+salary: 
+job_id: 23643_225581979
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-09-09
+title: Repairs Planner
+employer: Howells Solutions Limited
+region: 
+town: Surrey
+salary: 
+job_id: 107952003
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-09-09
+title: Motor Claims Handler
+employer: MPJ Recruitment Ltd
+region: 
+town: Essex
+salary: 
+job_id: 1834301
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-09-09
+title: Liability Claims Handler - EL/PL
+employer: IPS Group
+region: 
+town: Lancashire
+salary: 
+job_id: 1835611
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-09-09
+title: Lettings Administrator
+employer: AMR - Specialist Property Recruiters
+region: 
+town: London
+salary: 
+job_id: 1833964
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-09-09
+title: Helpdesk Analyst
+employer: CSC Recruitment Ltd
+region: 
+town: London
+salary: 
+job_id: 23643_225581383
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-09-09
+title: Head of Operations - Coordinator
+employer: Brian Durham Recruitment Services
+region: 
+town: London
+salary: 
+job_id: 23643_225580948
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-09-09
+title: HR Administrator Placement Programme No Experience Needed
+employer: IT Online Learning
+region: 
+town: Midlothian
+salary: 
+job_id: 107921789
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-09-09
+title: HR Administrator Placement Programme No Experience Needed
+employer: IT Online Learning
+region: 
+town: South Glamorgan
+salary: 
+job_id: 107921786
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-09-09
+title: Digital Planner
+employer: Walker and Sloan Ltd
+region: 
+town: South Glamorgan
+salary: 
+job_id: 1834177
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-09-09
+title: Claims Handler
+employer: Claims Recruitment Services
+region: 
+town: Essex
+salary: 
+job_id: 1873632
+---
 
 ---
 action:
@@ -3455,6 +3611,18 @@ job_id: 23643_225460911
 ---
 
 ## SUPPORT WORKER — EXCLUDED
+
+---
+action:
+category: support_worker
+excluded_on: 2026-09-09
+title: Bank Staff Complex Needs Support Worker
+employer: Engage Education
+region: 
+town: Yorkshire
+salary: 
+job_id: 1873145
+---
 
 ---
 action:
