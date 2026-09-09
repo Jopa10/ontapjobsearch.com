@@ -231,10 +231,10 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "107905972",
-    "title": "Administrator",
-    "company": "SI Recruitment - Agency - Permanent",
-    "location": "Northallerton",
+    "job_id": "1853654",
+    "title": "HR Administrator",
+    "company": "Owen Daniels - Agency - Permanent",
+    "location": "Pickering",
     "region": "Yorkshire - North",
     "country": "UK",
     "category": "Admin/Service – Office Support",
@@ -243,40 +243,15 @@
     "salary_max": "",
     "salary_text": "",
     "posted_date": "",
-    "description": "Administrator\nWe are recruiting on behalf of an established, family-run business in Northallerton who are looking to recruit an organised, reliable and proactive Administrator to join their team.\n\nThis is a key administrative role, working closely with the Sales and Installation teams to ensure projects progress smoothly from the initial handover through to successful completion click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?31Q%2fsvDzOVaaR4lg75RQzAo35hrQ7H%2b1j",
+    "description": "We're looking for an enthusiastic and organised HR Administrator to join a fast-paced and growing manufacturing business based in Pickering.\n\nHR Administrator\n\nPermanent\nSalary dependent on experience\nMonday to Thursday 8am - 5pm, Friday 8am - 1:30pm\nPickering\n\nHR Administrator\nJob Description\n- Manage employee lifecycle tasks and documentation including preparing contracts, pre employment checks, inductions and reviews.\n- Maintain accurate and up to date employee records\n- Contribute to HR reporting and data analysis\n- Assist with payroll administration, regarding starters, leavers, salary changes, absence and other payroll-related matters\n- Support the HR team with employee relations administration, including meeting arrangements, correspondence and documentation.\n\nHR Administrator\nEssential Skills/Experience/Qualifications\n- Previous experience working within a HR Administration role\n- Strong verbal and written communication skills\n- CIPD qualification or working towards a CIPD qualification is highly desirable\n\nIf you feel you're a good fit for this position, please click 'apply'",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?eq2PR%2bX5ctxulaAFSXWTkzhPyvvgVID8p",
     "source": "JobG8",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "SI Recruitment",
+    "advertiser_name": "Owen Daniels",
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
-    "job_id": "107900212",
-    "title": "Service Coordinator (Generator)",
-    "company": "Dale Power Solutions - Agency - Permanent",
-    "location": "Scarborough",
-    "region": "Yorkshire - North",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "",
-    "posted_date": "",
-    "description": "Job Title: Service Coordinator (Generator)\n\nLocation: Scarborough\n\nSalary: Competitive.\n\nJob type: Full Time - Permanent. 37.50 Hrs per week Mon/Friday.\n\nWhat you'll do:\n- Coordinate all aspects of service contracts including scheduling of regular maintenance, call outs and remedial works click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?vAYWCB8ag%2fim9H3pqg4FKSXWv8WrcdYAi",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Dale Power Solutions",
-    "advertiser_type": "Agency",
-    "work_pattern": "Full Time",
     "salary_period": "Annual",
     "posted_date_basis": ""
   },
@@ -371,7 +346,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9346-26-1032",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9346-26-1032",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5570734",
@@ -389,7 +368,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9346-26-1036",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9346-26-1036",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5570653",
@@ -407,6 +390,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9346-26-1033",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9346-26-1033",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

@@ -337,6 +337,31 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "1860755",
+    "title": "Talent Acquisition Coordinator",
+    "company": "LHH Recruitment Solutions - Agency - Permanent",
+    "location": "Peterborough",
+    "region": "Cambridgeshire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "",
+    "posted_date": "",
+    "description": "Talent Acquisition Coordinator\n\nLocation: Peterborough\nReporting to: Head of HR\n\nHybrid: 3 days per week in office\n\nAbout the Role\n\nWe're looking for an organised and proactive Talent Acquisition Coordinator to join our client's HR team and help drive recruitment activity across the firm. This is an exciting opportunity for a recruitment professional who enjoys managing multiple vacancies, partnering with hiring managers, and delivering an outstanding candidate experience.\n\nThe Role\n\nAs Talent Acquisition Coordinator, you will coordinate end-to-end recruitment campaigns, ensuring vacancies progress efficiently from approval through to appointment. You'll work closely with hiring managers, candidates and recruitment agencies, providing practical recruitment support whilst helping the firm attract and secure top talent.\n\nKey Responsibilities\n- Managing recruitment campaigns across a variety of business areas.\n- Drafting engaging job adverts, job descriptions and attraction materials.\n- Sourcing and attracting candidates through job boards, LinkedIn and professional networks.\n- Managing candidate communications and recruitment pipelines.\n- Coordinating interviews, assessments and selection activities.\n- Building strong relationships with hiring managers and providing recruitment guidance.\n- Managing relationships with recruitment agencies and external suppliers.\n- Maintaining accurate recruitment data, records and reporting.\n- Supporting onboarding and pre-employment screening processes.\n- Promoting fair, inclusive and compliant recruitment practices.\n\nAbout You\n\nWe're looking for someone who can bring:\n- Experience managing recruitment campaigns within an in-house recruitment or talent acquisition environment.\n- Proven candidate sourcing experience across multiple recruitment channels.\n- Experience supporting and advising hiring managers throughout the recruitment process.\n- Excellent organisational skills with the ability to manage multiple priorities.\n- Strong communication and stakeholder management skills.\n- A proactive approach and confidence to provide practical recruitment advice.\n\nDesirable\n- Recruitment experience within professional services, legal, financial services or another regulated environment.\n- Experience producing recruitment resources, guides or training materials.\n- Knowledge of applicant tracking systems, recruitment technology and recruitment analytics.\n\nWhy Join Us?\n\nYou'll join a supportive HR team and play a key role in attracting talented people who contribute to the firm's continued success. This role offers the opportunity to make a real impact on recruitment outcomes, work closely with stakeholders across the business, and help shape a positive candidate experience.\n\nInterested? We'd love to hear from you. Apply today to become part of a growing and collaborative team.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?Y5CHIaMSKAxk59WUxQb6Qp9JuACYX5KRv",
+    "source": "JobG8",
+    "working_arrangement": "hybrid",
+    "working_arrangement_text": "3 office days per week",
+    "working_arrangement_evidence": "Talent Acquisition Coordinator Talent Acquisition Coordinator Location: Peterborough Reporting to: Head of HR Hybrid: 3 days per week in office About the Role We're looking for an organised and proactive Talent Acquisition Coordinator to join our client's HR team and help drive recruitment activity across the firm.",
+    "advertiser_name": "LHH Recruitment Solutions",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
     "job_id": "nhs-5574563",
     "source": "NHS Jobs",
     "title": "Administrator",
@@ -352,7 +377,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9310-26-0549",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9310-26-0549",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5567386",
@@ -370,7 +399,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9448-26-0308",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9448-26-0308",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5530494",
@@ -388,6 +421,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0106-26-0200",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0106-26-0200",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

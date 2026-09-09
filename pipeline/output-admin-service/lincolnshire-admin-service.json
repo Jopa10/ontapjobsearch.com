@@ -84,31 +84,6 @@
     "posted_date_basis": "source"
   },
   {
-    "job_id": "107856993",
-    "title": "Customer Service Coordinator",
-    "company": "E L Recruitment Solutions Limited - Agency - Permanent",
-    "location": "Lincolnshire",
-    "region": "Lincolnshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "28000",
-    "salary_max": "28000",
-    "salary_text": "£28000 per year",
-    "posted_date": "",
-    "description": "Core Responsibilities:\n- Customer Services be the contact point for customers\n- Create bookings in our internal software\n- Process booking and liaise with operations to ensure theyve been received\n- Following up on any queries with customers\n- Liaising with customers regarding shipments and collections\n\nKey Skills & Experience Required:\n- Logistics/Freight experience (preferred but no essential)\n- Customer focused and click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?Zg1fD7qgbpyM8yImx2O0MmA6u9sA73Lme",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "E L Recruitment Solutions Limited",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "107851732",
     "title": "Customer Service Assistant Supervisor",
     "company": "Compass UK & Ireland - Company - Permanent",
@@ -209,6 +184,31 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "107856993",
+    "title": "Customer Service Coordinator",
+    "company": "E L Recruitment Solutions Limited - Agency - Permanent",
+    "location": "Lincolnshire",
+    "region": "Lincolnshire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "28000",
+    "salary_max": "28000",
+    "salary_text": "£28000 per year",
+    "posted_date": "",
+    "description": "Core Responsibilities:\n- Customer Services be the contact point for customers\n- Create bookings in our internal software\n- Process booking and liaise with operations to ensure theyve been received\n- Following up on any queries with customers\n- Liaising with customers regarding shipments and collections\n\nKey Skills & Experience Required:\n- Logistics/Freight experience (preferred but no essential)\n- Customer focused and click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?Dw9iAXzSqBZPy3fzWm1JQBBDEeW3bz7Pk",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "E L Recruitment Solutions Limited",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
     "job_id": "1842485",
     "title": "Property Coordinator",
     "company": "Crofts Estate Agents - Agency - Permanent",
@@ -249,7 +249,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9208-26-0542",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9208-26-0542",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5576640",
@@ -267,6 +271,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1970-26-0006",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1970-26-0006",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

@@ -281,6 +281,31 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "23643_225483548",
+    "title": "Recruitment Administrator",
+    "company": "AM2PM Group - Agency - Permanent",
+    "location": "Staffordshire",
+    "region": "Staffordshire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "28000",
+    "salary_max": "28000",
+    "salary_text": "£28000 per year",
+    "posted_date": "",
+    "description": "Recruitment Administrator\n\nWe are recruiting for a Recruitment Administrator in Lichfield. You will be working at our Head Office, supporting a fast-growing recruitment business focused on building strong, compliant talent pipelines for our clients.\n\nDetails\n\nPay rate: £28,000 per annum\nLocation: Lichfield\nHours of work: 4 day working week\nDuration: Permanent\n\nWhy work with us as a Recruitment Administrator\n- 4 day working week\n- Clear progression into roles such as Recruitment Team Leader or Recruitment Operations Manager\n- Supportive and collaborative working environment\n- Comprehensive training and development\n- Exposure to modern recruitment technology and systems\n- Paid time off and competitive benefits package\n- Genuine long-term career development opportunities\n\nRequirements of a Recruitment Administrator\n\nYou will need the following:\n- Comfortable working with recruitment technology and CRM or ATS systems\n- Strong attention to detail\n- Excellent organisational and time management skills\n- Confident communication skills\n- Proactive approach to problem solving\n- Ability to thrive in a fast-paced environment\n\nNo prior recruitment experience required. Full training will be provided.\n\nRole of a Recruitment Administrator\n- Proactively sourcing and engaging candidates through CRM or ATS systems, job boards and social platforms\n- Monitoring and maintaining candidate pipelines for current and future vacancies\n- Reviewing automated candidate matches and system suggestions for accuracy\n- Running re-engagement campaigns and availability checks\n- Supporting compliance processes and ensuring candidate records are up to date\n- Responding to candidate queries regarding onboarding, compliance and job opportunities\n- Overseeing candidate communications to ensure professionalism and clarity\n- Supporting marketing campaigns and identifying improvement opportunities\n- Analysing system data and trends to suggest process enhancements\n\nIf you are interested in the above Recruitment Administrator role please click apply and a member of our team will be in touch.\n\nINDAM2 PM",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?vAYWCB8ag%2fhc%2ffkSNSUOVCnRpkXRpX6Gi",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "AM2PM Group",
+    "advertiser_type": "Agency",
+    "work_pattern": "Full Time",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
     "job_id": "1785993",
     "title": "Casualty Claims Handler",
     "company": "Adjusting Appointments Limited - Agency - Permanent",
@@ -421,7 +446,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/L0034-26-3736",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/L0034-26-3736",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5581973",
@@ -439,7 +468,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/M9301-26-0215",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/M9301-26-0215",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5583352",
@@ -457,7 +490,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9232-26-0226",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9232-26-0226",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5575141",
@@ -475,6 +512,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9232-26-0221",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9232-26-0221",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

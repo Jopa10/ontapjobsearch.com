@@ -137,31 +137,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "1703273",
-    "title": "Switchboard Operator / Call Handler",
-    "company": "Adecco - Agency - Permanent",
-    "location": "Norfolk",
-    "region": "Norfolk",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "",
-    "posted_date": "",
-    "description": "Switchboard Operator / Call Handler - ASAP start\n\nLocation: Great Yarmouth\nContract Length: 2 months initially\nWorking Pattern: Full Time, shift patterns (days and nights available)\nHourly rate: Band 3, inside IR35\n\nOur client is seeking a dedicated and professional Switchboard Operator / Call Handler to join their Great Yarmouth site. This temporary position offers an excellent opportunity for individuals who thrive in a dynamic environment and are committed to delivering outstanding customer service.\n\nKey Responsibilities:\n\nThe successful candidate will be responsible for providing a comprehensive telephone operator service for both external and internal incoming calls via an IT-based system. Key duties include:\n\n1. Efficiently handling incoming calls and directing them to the appropriate personnel while maintaining high standards of customer service.\n2. Displaying excellent interpersonal skills, with the ability to adjust communication styles to meet diverse caller needs, including managing calls from distressed individuals with professionalism and compassion.\n3. Adhering to quality assurance procedures for call handling.\n4. Responding promptly to various departmental alarms and coordinating emergency responses, including the Major Incident procedure.\n5. Assisting with the arrival of helicopter landings by informing relevant departments within designated timescales.\n6. Issuing pagers to staff and maintaining accurate databases of contact information and on-call rotas.\n7. Providing comprehensive training and mentoring for new staff members.\n8. Supporting other teams as required, including operating barriers for car parks and assisting with staff accommodation needs outside of core hours.\n\nEssential Qualifications and Skills:\n- NHS Switchboard experience\n- Strong understanding of healthcare departments, their functions, and services for effective call routing and communication.\n- Experience in a call handling or switchboard environment is advantageous.\n- Ability to operate under pressure and make quick decisions during emergency situations.\n- A commitment to health and safety, confidentiality, and safeguarding protocols.\n- Flexibility to cover shifts as needed, including potential short-notice requests.\n\nBehavioural Skills:\n\nAll applicants should demonstrate the core values upheld by the organisation, including:\n- Courtesy and respect towards all individuals.\n- Attentive kindness and helpfulness, ensuring the dignity and privacy of others.\n- Responsive communication that keeps all parties informed.\n- Professionalism and effectiveness in delivering services.\n\nThis position offers a unique chance to contribute to a vital service within the healthcare sector, ensuring effective communication and support during critical situations. Interested candidates should apply promptly to seize this opportunity.\n\nAdecco is a disability-confident employer. It is important to us that we run an inclusive and accessible recruitment process to support candidates of all backgrounds and all abilities to apply. Adecco is committed to building a supportive environment for you to explore the next steps in your career. If you require reasonable adjustments at any stage, please let us know and we will be happy to support you.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?bZCSDJyF3N41gCjqaUKjS2IDeTzVKMATq",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Adecco",
-    "advertiser_type": "Agency",
-    "work_pattern": "Full Time",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "23643_225533805",
     "title": "Temporary Construction Administrator",
     "company": "Office Angels - Agency - Temporary",
@@ -352,7 +327,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1039-26-0010",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1039-26-0010",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5561086",
@@ -370,6 +349,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1644-26-0006",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1644-26-0006",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

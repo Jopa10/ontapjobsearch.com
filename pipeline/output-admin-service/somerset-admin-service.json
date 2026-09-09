@@ -294,13 +294,38 @@
     "salary_text": "",
     "posted_date": "",
     "description": "Company description:\n\nRefresco UK\n\nJob description:\n\nJoin Refresco, the worlds largest independent beverage manufacturer, in a pivotal role at the heart of our operations. As Master Data Coordinator, youll ensure the accuracy and control of product and technical data across SAP, supporting production, compliance and key commercial decisions click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?nbYVUHO1tX445odt%2bvIBjXXkp0%2fQ%2brTAz",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?vAYWCB8ag%2fh46D1xrQNUKZygwv5IqKl4i",
     "source": "JobG8",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
     "advertiser_name": "Refresco Drinks UK Limited",
     "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
+    "job_id": "107960558",
+    "title": "New Product Development Coordinator",
+    "company": "Smurfit Westrock - Company - Permanent",
+    "location": "Somerset",
+    "region": "Somerset",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "",
+    "posted_date": "",
+    "description": "Shape the Future of Packaging with Smurfit Westrock Are you passionate about design, innovation, and turning great ideas into products that customers love?\n\nAt Smurfit Westrock, we're looking for an NPD Coordinator to play a key role in bringing packaging concepts to life. You'll work at the heart of our Technical & Design team, managing artwork, tooling, print development, and continuous improveme click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?gZ0pd2TJz0KnasrbpqibCXXRH6OhbAk9s",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Smurfit Westrock",
+    "advertiser_type": "Company",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
     "posted_date_basis": ""
@@ -321,7 +346,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1305-26-0005",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1305-26-0005",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5564958",
@@ -339,7 +368,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9387-26-1771",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9387-26-1771",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5567096",
@@ -357,6 +390,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2122-26-0011",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2122-26-0011",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

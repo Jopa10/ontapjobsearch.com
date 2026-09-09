@@ -1,33 +1,5 @@
 [
   {
-    "job_id": "teaching-vacancies-attendance-officer-okehampton-college-okehampton-devon",
-    "title": "Attendance Officer",
-    "company": "Okehampton College",
-    "location": "Okehampton",
-    "region": "Devon",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['part time']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "£23,560.00 - £25,119.00 Annually (Actual) NJC Grade D. Range 8 to 12",
-    "work_pattern": "",
-    "posted_date": "2026-07-31",
-    "closing_date": "2026-09-09",
-    "closing_datetime": "2026-09-09T12:00:00+01:00",
-    "summary": "Attendance Officer with Okehampton College in Okehampton. ['part time']; £23,560.00 - £25,119.00 Annually (Actual) NJC Grade D. Range 8 to 12.",
-    "description": "Okehampton College is recruiting for this vacancy in Okehampton.\n\nThe advertised position is Attendance Officer.\n\nThe source lists the employment type as ['part time'].\n\nThe advertised salary or pay scale is £23,560.00 - £25,119.00 Annually (Actual) NJC Grade D. Range 8 to 12.\n\nThe stated application deadline is 2026-09-09T12:00:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-okehampton-college-okehampton-devon?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Okehampton College",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
-  },
-  {
     "job_id": "teaching-vacancies-attendance-administrator-65068773-d1be-4711-9b88-bde2f62d9e1b",
     "title": "Attendance Administrator",
     "company": "St Cuthbert Mayne School",
@@ -409,6 +381,31 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "1849091",
+    "title": "HR Coordinator",
+    "company": "Pertemps Plymouth Commercial - Agency - Permanent",
+    "location": "Devon",
+    "region": "Devon",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "",
+    "posted_date": "",
+    "description": "Are you a highly organised HR professional looking for a varied role where no two days are the same? Do you enjoy working with people and want to be part of a supportive, forward-thinking team?\n\nWe're delighted to be partnering with a fantastic local employer to recruit an HR Coordinator to join their busy HR function. This is an excellent opportunity to broaden your HR experience, gain exposure across the full employee lifecycle, and play a key role in supporting both employees and managers.\n\nThe Role\n\nAs a trusted member of the HR team, you'll help keep HR operations running smoothly while delivering a positive employee experience throughout the business.\n\nKey responsibilities include:\n- Supporting recruitment activities, including advertising vacancies, screening applications and coordinating interviews\n- Preparing contracts, offer letters and new starter documentation\n- Maintaining accurate employee records and HR systems (HRIS)\n- Completing right-to-work checks and reference requests\n- Supporting payroll with employee changes and updates\n- Producing HR reports on absence, starters, leavers and compliance\n- Assisting with employee relations and absence management processes\n- Supporting learning and development records, HR projects and wider team initiatives\n\nWhat's on Offer?\nHybrid working (minimum 2 days per week in the Plymouth office)\nFree on-site parking\nFlexible working pattern of 37 hours one week and 30 hours the next\nExposure to all aspects of HR within a collaborative environment\nA varied role with opportunities to develop your HR knowledge and skills\n\nAbout You\n\nWe're looking for someone who:\n- Has previous HR administration or coordination experience\n- Possesses excellent organisation skills and a keen eye for detail\n- Is confident using Microsoft Office and HR systems\n- Holds (or is working towards) CIPD Level 3 or above\n\nWhy Apply? This is a fantastic opportunity to join a welcoming organisation where you'll be trusted with meaningful responsibilities, gain exposure across multiple HR disciplines, and continue developing your career in a supportive environment.\n\nInterested? Apply today or contact Chelsea Goodman at Pertemps Devon & Cornwall for a confidential discussion and further information.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?QHpHeWTcrP7m9D8g5tuaSLtHQT1vKRDRy",
+    "source": "JobG8",
+    "working_arrangement": "hybrid",
+    "working_arrangement_text": "Hybrid working",
+    "working_arrangement_evidence": "Hybrid working (minimum 2 days per week in the Plymouth office) Free on-site parking Flexible working pattern of 37 hours one week and 30 hours the next Exposure to all aspects of HR within a collaborative environment A varied role with opportunities to develop your HR knowledge and skills About You We're looking for someone who: - Has previous HR administration or coordination experience - Possesses excellent organisation skills and a keen eye for detail - Is confident using Microsoft Office and HR systems - Holds (or is working towards) CIPD Level 3 or above Why Apply?",
+    "advertiser_name": "Pertemps Plymouth Commercial",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
     "job_id": "nhs-5584272",
     "source": "NHS Jobs",
     "title": "Receptionist",
@@ -424,7 +421,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0132-26-2024",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0132-26-2024",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5585701",
@@ -442,7 +443,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C0023-26-1091",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C0023-26-1091",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5567539",
@@ -460,7 +465,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C0023-26-1052",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C0023-26-1052",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5552054",
@@ -478,6 +487,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2737-26-0005",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2737-26-0005",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]
