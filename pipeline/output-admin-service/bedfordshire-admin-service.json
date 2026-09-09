@@ -390,11 +390,25 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9363-26-1021",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9363-26-1021",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "A"
+  },
+  {
+    "job_id": "nhs-5587657",
+    "source": "NHS Jobs",
+    "title": "Ward Clerk",
+    "company": "Bedfordshire Hospitals NHS Foundation Trust",
+    "advertiser_name": "Bedfordshire Hospitals NHS Foundation Trust",
+    "location": "Bedford, MK42 9DJ",
+    "region": "Bedfordshire",
+    "salary": "£25272.00",
+    "employment_type": "Permanent",
+    "posted_date": "2026-09-09T09:20:45.768622223",
+    "closing_date": "2026-09-23",
+    "description": "An exciting opportunity has arisen for a Ward Clerk at Bedford Hospital. You will have interaction with patients and relatives as well as staff based at Bedford Hospital. You will be an organised, efficient and motivated individual who is trustworthy and reliable. You must be able to be adaptable within your work role to support the team in all aspects of ward administrative cover.This is an exciting team that will give you the opportunity to grow and develop. The team consists of ward clerks and receptionists that work together sharing their knowledge and experience. Although we have a very strong learning and development function, we appreciate you will need to have acquired some skills and experience from your career in order for your time with us to be a real success. These can be found in the Person and Job Description attachment on NHS Jobs. However we have highlighted some of them below. Educated to GSCE standard or equivalent Experience of working in a customer facing/reception role Experience of using IT package An exciting opportunity has arisen for a ward clerk at Bedford Hospital. To provide both a front line clerical service to clinical staff within the ward whilst also providing \"front door\" style support to patients and relatives during visits. The post holder will also be responsible for ensuring accurate and timely inputting of patient level data into the relevant clinical systems for the capturing of admission, discharge and transfer of patients. This is to be done whilst also strictly adhering to trust data quality, health records and information governance policies. It is expected that the post-holder will manage their workload in an effective and efficient way and have a flexible approach to covering various wards and the role as it continues to develop with the ever changing needs of the business. The Ward Clerk provides essential administrative and communication support within the ward, acting as a key point of contact for Trust staff, patients and relatives. The post holder will help facilitate effective communication and contribute to the smooth day-to-day running of the ward, ensuring a professional and responsive service at all times. The role is responsible for maintaining accurate records of all patient admissions and discharges, including Hospital Numbers, follow-up appointments, movement of notes and other patient information. The post holder will also update and maintain patient information on Trust IT systems, ensuring all admission, discharge and patient records are accurate and up to date. Duties include, but are not limited to: To update IT systems, including: Admissions Discharges Updating patient details, including correct address, GP details, and next of kin information. To ensure that patients are admitted under the correct Consultant. To file admission packs for new patients in accordance with admission pack filing procedures. To ensure ward trolleys are prepared and ready for Ward Rounds, including ensuring continuation sheets and labels are available for all inpatients. To make follow-up appointments for discharged patients. To file discharge episodes in accordance with discharge filing procedures. In the case of deceased patients, to ensure the correct paperwork is printed for the Bereavement Office and that the GP is contacted. To continually monitor IT systems throughout the working day for any changes in patient status. To support Ward staff in dealing with telephone enquiries. To sort and distribute mail, including re-addressing mail for discharged patients. To report any faults, required repairs, or faulty equipment to the Facilities Help Desk and Clinical Engineering Department. To order non-stock equipment and stationery from Lyreco/ADB, maintaining minimal stock levels in line with next-day delivery availability. To induct and train new members of staff. To carry out any reasonable requests made by the Discharge Officer and Ward staff. The post holder will be expected to undertake all duties in a professional manner, contributing to the effective day-to-day running of the ward and supporting the delivery of high-quality patient care.",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9418-26-0933",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9418-26-0933",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "B"
   },
   {
     "job_id": "nhs-5577346",
@@ -412,32 +426,6 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2197-26-0003",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2197-26-0003",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
-  },
-  {
-    "job_id": "nhs-5565873",
-    "source": "NHS Jobs",
-    "title": "Medical Receptionist",
-    "company": "Ashcroft Surgery",
-    "advertiser_name": "Ashcroft Surgery",
-    "location": "Leighton Buzzard, LU7 0EN",
-    "region": "Bedfordshire",
-    "salary": "Negotiable",
-    "employment_type": "Permanent",
-    "posted_date": "2026-08-27T12:10:17.120019499",
-    "closing_date": "2026-09-27",
-    "description": "We are small GP practice in Wing, Leighton Buzzard. We are looking for a receptionist to join our well established team of reception staff. Experience of working in a similar role in a GP practice would be preferred but training will be given to the right candidate. We operate EMIS clinical system. As a receptionist you will work as part of a team dealing with patients on the telephone or at the reception desk. Duties will cover booking appointments, answering queries, dealing with test results and filing of clinical letters onto patient records. It is essential in the role that applicants are flexible in offering additional support to their contracted hours to help cover colleagues annual leave or sickness in reception. Duties as previously described. The post is varied and you will find that multi-tasking is part of the role in a busy environment. Applicants for this vacancy must be able to work the following days/hours: Monday 07.45am - 6.30pm Wednesday 07.45am - 1.45pm Friday 1.30pm - 6.30pm",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2513-27082026",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2513-27082026",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "B"
   }
 ]

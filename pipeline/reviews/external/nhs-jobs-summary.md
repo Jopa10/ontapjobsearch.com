@@ -2,15 +2,27 @@
 
 review_date: 2026-09-09
 
-- Open Administrative & Clerical rows reviewed: 1943
-- Auto/remembered selected: 364
+- Open Administrative & Clerical rows reviewed: 1945
+- Auto/remembered selected: 365
 - Selected HC Tier A: 183
-- Selected HC Tier B: 181
+- Selected HC Tier B: 182
 - POSS awaiting decision: 1423
 - Excluded: 0
-- HARD_PASS: 156
+- HARD_PASS: 157
 
 Edit only each `action:` line for POSS rows. Unchanged decisions are restored by the shared decision ledger.
+
+---
+action:
+POSS | NHS Jobs | London | London, N17 6AA | £14.00 | Shift Lead
+source_job_id: 5587618
+title: Shift Lead
+employer: Morris House Group Practice
+region: London
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A4089-26-0013
+factual_fingerprint: 75a99ed7de602d06ea9f51e366dc49c8a47adcdbf0d988b7b0006fa5030fa865
+---
 
 ---
 action:
@@ -3358,18 +3370,6 @@ region:
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9436-26-0601
 factual_fingerprint: 078fdfa48775ec58549fc196633b180000e3a118636d848c474d03a00ebb7e1a
----
-
----
-action:
-POSS | NHS Jobs | Yorkshire - West | Wakefield, WF1 4DG | £25760.00 to £27476.00 | Clinical Trial Assistant
-source_job_id: 5583184
-title: Clinical Trial Assistant
-employer: The Mid Yorkshire Teaching NHS Trust
-region: Yorkshire - West
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9377-26-0407
-factual_fingerprint: 94e95f3d78f2d730a78f4730f28ac3454361be23340d99600b0df90c341bfb7c
 ---
 
 ---
