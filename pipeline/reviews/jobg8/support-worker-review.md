@@ -19,7 +19,11 @@ job_id: 23643_225580403
 
 ## WEST YORKSHIRE — POSSIBLES
 
-_No jobs in this group._
+---
+action:
+POSS - YORKSHIRE - WEST | Yorkshire - West | Leeds | £200 per daily | Live-In Personal Care Assistants for a University Student in Leeds
+job_id: 107797487
+---
 
 ## SOUTH YORKSHIRE — SELECTED
 
@@ -81,14 +85,20 @@ job_id: 107911831
 
 ---
 action:
+SELECTED | Cumbria - South | Kendal | £3,840 per year | Children's Residential Support Worker
+job_id: 25362_JR105035
+---
+
+---
+action:
 SELECTED | Cumbria - South | Grange-over-sands | £3,840 per year | Children's Residential Support Worker
 job_id: 25362_JR105081
 ---
 
 ---
 action:
-SELECTED | Cumbria - South | Barrow-in-furness | £12.85 per hour (plus rolled up holiday pay) | Relief Support Worker
-job_id: 107936143
+SELECTED | Cumbria - South | Ulverston | £12.85 per hour (plus rolled up holiday pay) | Relief Support Worker
+job_id: 107950046
 ---
 
 ## CUMBRIA SOUTH — POSSIBLES
@@ -145,6 +155,12 @@ SELECTED | Hampshire | Freshwater | £16000 per year | Care & Support Worker
 job_id: 107955992
 ---
 
+---
+action:
+SELECTED | Hampshire | Ventnor | £16000 per year | Care Worker
+job_id: 107956061
+---
+
 ## HAMPSHIRE — POSSIBLES
 
 _No jobs in this group._
@@ -159,14 +175,14 @@ job_id: 1402264062
 
 ---
 action:
-SELECTED | Kent | Kent | £13.45 per hour (£13.45) | Housing Support Worker (Casual)
-job_id: 23643_225534852
+SELECTED | Kent | Gravesend | £13,988.00 per annum | Support Worker
+job_id: 1851265
 ---
 
 ---
 action:
-SELECTED | Kent | Gravesend | £13,988.00 per annum | Support Worker
-job_id: 1851265
+SELECTED | Kent | Sittingbourne | £14.43 per hour | Care Support Worker
+job_id: 1877396
 ---
 
 ## KENT — POSSIBLES
@@ -189,38 +205,8 @@ job_id: 23643_225516212
 
 ---
 action:
-SELECTED | London | Carshalton | £35 per hour | Communication Support Worker
-job_id: 1785508
----
-
----
-action:
-SELECTED | London | Morden | £35 per hour | Communication Support Worker
-job_id: 1785507
----
-
----
-action:
 SELECTED | London | Brentford | £125 - £130 per daily | Support Worker
 job_id: 23643_225535652
----
-
----
-action:
-SELECTED | London | Bromley | £100 - £110 per daily | Autism Support Worker
-job_id: 1815970
----
-
----
-action:
-SELECTED | London | Wandsworth | £95 - £115 per daily | Behaviour Support Assistant
-job_id: 1708252
----
-
----
-action:
-SELECTED | London | London | £14.8 per hour | Support Worker
-job_id: 23643_225165439
 ---
 
 ---
@@ -267,12 +253,6 @@ job_id: 23643_225572316
 
 ---
 action:
-SELECTED | London | London | £14.80 per hour | Support Worker
-job_id: 1858533
----
-
----
-action:
 SELECTED | London | City | £26679 - £31325 per year | Mentoring Support Worker - Moving Forward Moving On
 job_id: 2052022
 ---
@@ -313,17 +293,35 @@ SELECTED | London | London | £16.14 per hour | Care Worker
 job_id: 23643_225579170
 ---
 
+---
+action:
+SELECTED | London | London | £30,784.00 per annum | Night Support worker X 2
+job_id: 1880232
+---
+
+---
+action:
+SELECTED | London | London | £30,784.00 per annum | Support Worker x 3
+job_id: 1880226
+---
+
+---
+action:
+SELECTED | London | London | £16.95 per hour | Relief Worker - Care Assistant
+job_id: 1878281
+---
+
+---
+action:
+SELECTED | London | Uxbridge | £200 per daily | Live-in Personal Care Assistant History & Politics Student
+job_id: 107823167
+---
+
 ## LONDON — POSSIBLES
 
 _No jobs in this group._
 
 ## OXFORDSHIRE — SELECTED
-
----
-action:
-SELECTED | Oxfordshire | Oxford | £85 - £105 per daily | Youth Support Worker - Oxford
-job_id: 1695997
----
 
 ---
 action:
@@ -351,14 +349,8 @@ _No jobs in this group._
 
 ---
 action:
-SELECTED | Surrey | Lingfield | £92.46 per day | Care assistant
-job_id: 1808686
----
-
----
-action:
-SELECTED | Surrey | Lingfield | £25308 - £27180 per year | Residential Support Worker
-job_id: 1808682
+SELECTED | Surrey | Cobham | £13.45 per hour (£13.45) | Housing Support Worker (Casual)
+job_id: 23643_225534852
 ---
 
 ## SURREY — POSSIBLES
@@ -366,12 +358,6 @@ job_id: 1808682
 _No jobs in this group._
 
 ## WILTSHIRE — SELECTED
-
----
-action:
-SELECTED | Wiltshire | Chippenham | £85 - £110 per daily | Emotional and Mental Health Support Worker
-job_id: 1709295
----
 
 ---
 action:
@@ -383,12 +369,6 @@ job_id: 1787836
 action:
 SELECTED | Wiltshire | Wiltshire | £13.81 per hour | Care Assistant - Bank - Care Home
 job_id: 23643_225549480
----
-
----
-action:
-SELECTED | Wiltshire | Swindon | £24000 per year | Residential Support Worker - Children's Home
-job_id: 107936277
 ---
 
 ---
