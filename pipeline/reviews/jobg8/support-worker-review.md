@@ -20,11 +20,10 @@ job_id: 23643_225580403
 ## WEST YORKSHIRE — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - YORKSHIRE - WEST | Yorkshire - West | Pudsey | £50 per hour | Bank Staff Complex Needs Support Worker
 job_id: 1873145
 ---
-
 ## SOUTH YORKSHIRE — SELECTED
 
 _No jobs in this group._

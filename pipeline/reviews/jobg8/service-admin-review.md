@@ -170,17 +170,15 @@ job_id: 23643_225476804
 ## WEST YORKSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - YORKSHIRE - WEST | Yorkshire - West | Leeds | £30000 - £35000 per year | Sales Administrator
 job_id: 23643_225581001
 ---
-
 ---
-action:
+action: select
 POSS - YORKSHIRE - WEST | Yorkshire - West | Leeds | £30000 - £35000 per year | Operations Assistant - Stock, Purchasing & Logistics
 job_id: 23643_225581844
 ---
-
 ## SOUTH YORKSHIRE — SELECTED
 
 ---
@@ -1028,53 +1026,45 @@ job_id: 1877370
 ## LONDON — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - LONDON | London | London | £250000 per year | Lettings Administrator
 job_id: 1833964
 ---
-
 ---
-action:
+action: select
 POSS - LONDON | London | London | £30000 - £40000 per year | Sales Administrator/PA
 job_id: 1738003
 ---
-
 ---
-action:
+action: select
 POSS - LONDON | London | London | £130.00 - £140.00 per day | Temp HR Administrator
 job_id: 1828723
 ---
-
 ---
-action:
+action: exclude
 POSS - LONDON | London | London | £120 - £150 per daily | Head of Operations - Coordinator
 job_id: 23643_225580948
 ---
-
 ---
-action:
+action: select
 POSS - LONDON | London | London | £17.05 - £18.28 per hour | Repairs Planner
 job_id: 23643_225580694
 ---
-
 ---
-action:
+action: exclude
 POSS - LONDON | London | London | £36000 - £40000 per year | Helpdesk Analyst
 job_id: 23643_225581383
 ---
-
 ---
-action:
+action: select
 POSS - LONDON | London | London | £20 per hour | Interim HR Coordinator, 2 months
 job_id: 1870150
 ---
-
 ---
-action:
+action: exclude
 POSS - LONDON | London | Kingston Upon Thames | £17.05 - £18.28 per hour | Repairs Planner
 job_id: 107952003
 ---
-
 ## HAMPSHIRE — SELECTED
 
 ---
@@ -1572,11 +1562,10 @@ job_id: 1837957
 ## SURREY — POSSIBLES
 
 ---
-action:
+action: select
 POSS - SURREY | Surrey | Surrey | £200 per daily | Accounts Assistant
 job_id: 23643_225581461
 ---
-
 ## KENT — SELECTED
 
 ---
@@ -1756,11 +1745,10 @@ job_id: 107842009
 ## KENT — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - KENT | Kent | Kent | £35000 - £42000 per year | Town Planner
 job_id: 23643_225581363
 ---
-
 ## SUSSEX — SELECTED
 
 ---
@@ -2334,17 +2322,15 @@ job_id: 1877742
 ## BRISTOL & BATH — POSSIBLES
 
 ---
-action:
+action: select
 POSS - BRISTOL & BATH | Bristol & Bath | Bristol | £35000 per year | Claims Handler
 job_id: 1868067
 ---
-
 ---
-action:
+action: select
 POSS - BRISTOL & BATH | Bristol & Bath | Bath | £26000 - £32000 per year | HR & Recruitment Coordinator
 job_id: 23643_225581771
 ---
-
 ## BUCKINGHAMSHIRE — SELECTED
 
 ---
@@ -2800,11 +2786,10 @@ job_id: 107936510
 ## DEVON — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - DEVON | Devon | Devon | £30000 - £50000 per year | Town Planner
 job_id: 23643_225581775
 ---
-
 ## DORSET — SELECTED
 
 ---
@@ -2876,11 +2861,10 @@ job_id: 1839332
 ## DORSET — POSSIBLES
 
 ---
-action:
+action: select
 POSS - DORSET | Dorset | Dorset | £17.00 per hour | HR Administrator
 job_id: 1868450
 ---
-
 ## ESSEX — SELECTED
 
 ---
@@ -3042,17 +3026,15 @@ job_id: 1877186
 ## ESSEX — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - ESSEX | Essex | Essex | £100000 per year | Claims Handler
 job_id: 1873632
 ---
-
 ---
-action:
+action: exclude
 POSS - ESSEX | Essex | Essex | £35000 per year | Motor Claims Handler
 job_id: 1834301
 ---
-
 ## GLOUCESTERSHIRE — SELECTED
 
 ---
@@ -3250,17 +3232,15 @@ job_id: 1868529
 ## GREATER MANCHESTER - MANCHESTER & SALFORD — POSSIBLES
 
 ---
-action:
+action: select
 POSS - GREATER MANCHESTER - MANCHESTER & SALFORD | Greater Manchester - Manchester & Salford | Manchester | £30000 - £35000 per year | Credit Control Administrator
 job_id: 1877766
 ---
-
 ---
-action:
+action: exclude
 POSS - GREATER MANCHESTER - MANCHESTER & SALFORD | Greater Manchester - Manchester & Salford | Manchester | £35000 per year | Liability Claims Handler - EL/PL
 job_id: 1835611
 ---
-
 ## GREATER MANCHESTER - SOUTH — SELECTED
 
 ---
@@ -3302,11 +3282,10 @@ job_id: 1876630
 ## GREATER MANCHESTER - SOUTH — POSSIBLES
 
 ---
-action:
+action: select
 POSS - GREATER MANCHESTER - SOUTH | Greater Manchester - South | Stockport | £35000 - £45000 per year | Marketing Coordinator - 45k
 job_id: 1834017
 ---
-
 ## GREATER MANCHESTER - WIGAN & BOLTON — SELECTED
 
 ---
@@ -3576,11 +3555,10 @@ job_id: 23643_225582523
 ## LEICESTERSHIRE — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - LEICESTERSHIRE | Leicestershire | Leicestershire | £28000 - £32000 per year | Scheduler
 job_id: 23643_225581979
 ---
-
 ## LINCOLNSHIRE — SELECTED
 
 ---
@@ -3682,11 +3660,10 @@ job_id: 1830080
 ## MERSEYSIDE - LIVERPOOL — POSSIBLES
 
 ---
-action:
+action: select
 POSS - MERSEYSIDE - LIVERPOOL | Merseyside - Liverpool | Liverpool | £15.98 per hour | Facilities Administrator
 job_id: 1770092
 ---
-
 ## NORFOLK — SELECTED
 
 ---
@@ -4406,11 +4383,10 @@ job_id: 107954045
 ## SCOTLAND CENTRAL - EDINBURGH & LOTHIANS — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - SCOTLAND CENTRAL - EDINBURGH & LOTHIANS | Scotland Central - Edinburgh & Lothians | Edinburgh | £50000 per year | HR Administrator Placement Programme No Experience Needed
 job_id: 107921789
 ---
-
 ## SCOTLAND CENTRAL - TAYSIDE — SELECTED
 
 ---
@@ -4698,17 +4674,15 @@ job_id: 1839558
 ## STAFFORDSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - STAFFORDSHIRE | Staffordshire | Staffordshire | £30000 - £35000 per year | Operations Administrator - Stock & Logistics
 job_id: 23643_225581869
 ---
-
 ---
-action:
+action: select
 POSS - STAFFORDSHIRE | Staffordshire | Staffordshire | £16.82 per hour | HR Coordinator
 job_id: 1833926
 ---
-
 ## SUFFOLK — SELECTED
 
 ---
@@ -4774,11 +4748,10 @@ job_id: 1763304
 ## SUFFOLK — POSSIBLES
 
 ---
-action:
+action: select
 POSS - SUFFOLK | Suffolk | Suffolk | £28608 - £32046 per year | Public Realm Administrator
 job_id: 23643_225582014
 ---
-
 ## WALES SOUTH - CARDIFF & VALE — SELECTED
 
 ---
@@ -4820,17 +4793,15 @@ job_id: 107791604
 ## WALES SOUTH - CARDIFF & VALE — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - WALES SOUTH - CARDIFF & VALE | Wales South - Cardiff & Vale | Cardiff | £50000 per year | HR Administrator Placement Programme No Experience Needed
 job_id: 107921786
 ---
-
 ---
-action:
+action: exclude
 POSS - WALES SOUTH - CARDIFF & VALE | Wales South - Cardiff & Vale | Cardiff | £55000 per year | Digital Planner
 job_id: 1834177
 ---
-
 ## WALES SOUTH - VALLEYS — SELECTED
 
 ---
@@ -5028,11 +4999,10 @@ job_id: 107921669
 ## WILTSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - WILTSHIRE | Wiltshire | Wiltshire | £30000 - £35000 per year | HR Co-Ordinator
 job_id: 1832357
 ---
-
 ## WORCESTERSHIRE — SELECTED
 
 ---
@@ -5164,11 +5134,10 @@ job_id: 107770477
 ## YORKSHIRE - EAST — POSSIBLES
 
 ---
-action:
+action: select
 POSS - YORKSHIRE - EAST | Yorkshire - East | Hull | £34434 per year | HR Co-ordinator
 job_id: 1839877
 ---
-
 ## YORKSHIRE - NORTH — SELECTED
 
 ---
@@ -5240,7 +5209,7 @@ job_id: 107804499
 ## YORKSHIRE - NORTH — POSSIBLES
 
 ---
-action:
+action: select
 POSS - YORKSHIRE - NORTH | Yorkshire - North | Richmond | £15 - £16 per hour | Temporary New Business / Payout Coordinator
 job_id: 23643_225581619
 ---
