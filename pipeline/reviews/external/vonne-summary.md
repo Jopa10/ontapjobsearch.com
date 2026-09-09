@@ -1,7 +1,7 @@
 # VONNE ETL proof-of-concept review
 
-review_date: 2026-09-08
-review_fingerprint: 0e6e10f4b9f29503f57106324ede61f85c280652ef7cfe1174f043b9d1252011
+review_date: 2026-09-09
+review_fingerprint: f930cefc12ec74d9dcf1c83f18486e14c915509bd45397db93f7c876711b0c00
 
 This implementation is review-only. It has no approved-JSON or publishing mode.
 
@@ -10,9 +10,9 @@ Edit only the `action:` line in editable blocks:
 - `action: exclude` rejects a POSS vacancy or removes an HC vacancy.
 - Actions are remembered while the same vacancy review facts remain unchanged; this review still does not publish anything.
 
-Run generated: 2026-09-08T12:36:51+01:00
+Run generated: 2026-09-09T12:44:30+01:00
 Listing input: https://www.vonne.org.uk/vonne-jobs
-JobG8 comparison rows: 268
+JobG8 comparison rows: 248
 Approved NEJobs comparison rows: 14
 
 ## Funnel
@@ -21,16 +21,16 @@ Approved NEJobs comparison rows: 14
 - Detail pages fetched successfully: 6
 - Detail failures/listing fallbacks: 0
 - Obvious hard passes not detail-fetched: 9
-- Tees Valley explicitly excluded: 1
+- Tees Valley explicitly excluded: 0
 - Outside or unmapped geography excluded: 1
-- Generic/derived geography rows requiring review: 1
-- Retained target candidates: 13
+- Generic/derived geography rows requiring review: 0
+- Retained target candidates: 14
 
 ## Outcomes
 - HC: 0
-- POSS: 9
-- HARD_PASS: 4
-- Final selected after remembered/manual actions: 4
+- POSS: 8
+- HARD_PASS: 6
+- Final selected after remembered/manual actions: 3
 - Final POSS awaiting decision: 2
 - Manually excluded: 3
 ## Detail diagnostics
@@ -42,19 +42,6 @@ Approved NEJobs comparison rows: 14
 
 ## POSS — choose SELECT or EXCLUDE
 
----
-action: select
-POSS | North East | Hybrid | £ Per Annum | Project Development Co-ordinator
-employer: National Energy Action
-closing_date: 17 September 2026
-geography: GENERIC_REVIEW — generic VONNE location requires manual North East check
-reason: North East geography is generic or derived and requires review
-source: VONNE
-tracking_key: vonne-173385
-vacancy_fingerprint: 8c5d0bc5abb7a5c5bfb5d8f4fff9916e89cc3ec5fe45d71db4a8e141e12b0c66
-source_job_id: 173385
-source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173385
----
 ---
 action: exclude
 POSS | North East - County Durham & Darlington/Hartlepool | County Durham | £24,454 Per Annum | Administrator (26.13)
@@ -96,14 +83,14 @@ source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173396
 ---
 ---
 action:
-POSS | North East - Tyneside, Wearside & Northumberland | Northumberland | £29,998 to 33,000 Per Annum | Community Transport Network and Operations development Coordinator Job Description
-employer: WATBus Community Tranport
+POSS | North East - Tyneside, Wearside & Northumberland | Northumberland | £29,998 to 33,000 Per Annum | Community Transport Network and Operations development Coordinator
+employer: WATBUS (Community Transport)
 closing_date: Monday, September 21, 2026 - 12:00
 geography: CONFIRMED — location: approved location fallback
 reason: annualised upper salary £33,000 exceeds North East review point £30,000
 source: VONNE
 tracking_key: vonne-173398
-vacancy_fingerprint: 9e4e906f18e5937ccdb4e90f83a88e1b8c13199dce85a5eb46cbacba08411898
+vacancy_fingerprint: b4d1b6947c8717a91093de1fa230ef5936fb30c111563cf5a93e93879343e491
 source_job_id: 173398
 source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173398
 ---
@@ -167,8 +154,10 @@ source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173391
 
 - [Gardening and Handyperson Supervisor](https://www.vonne.org.uk/vonne-jobs-details?cid=173184) — insufficient service-admin evidence.
 - [Part time Play & Youth Worker](https://www.vonne.org.uk/vonne-jobs-details?cid=173388) — out-of-scope VONNE occupation.
+- [Right Turn Case Worker](https://www.vonne.org.uk/vonne-jobs-details?cid=173406) — out-of-scope VONNE occupation.
+- [Safe Accommodation Support Worker](https://www.vonne.org.uk/vonne-jobs-details?cid=173405) — out-of-scope VONNE occupation.
 - [Support Manager](https://www.vonne.org.uk/vonne-jobs-details?cid=172597) — out-of-scope VONNE occupation.
-- [Support Worker - Housing First Project Gateshead](https://www.vonne.org.uk/vonne-jobs-details?cid=171329) — out-of-scope VONNE occupation.
+- [Support Worker - Housing First Project Gateshead](https://www.vonne.org.uk/vonne-jobs-details?cid=171329) — confirmed JobG8 duplicate.
 
 ## Safety boundary
 - The script writes CSV and Markdown review outputs only.
