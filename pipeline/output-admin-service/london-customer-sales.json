@@ -522,11 +522,7 @@
     "customer_sales_overlap_policy": "non-exclusive",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225568316",
@@ -600,6 +596,31 @@
     "customer_sales_reason": "customer/service role with sales evidence: commission, uncapped commission",
     "customer_sales_overlap_policy": "non-exclusive",
     "work_pattern": "Not Specified",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
+    "job_id": "23643_225582326",
+    "title": "Growth Account Manager - BI & Financial SAAS",
+    "company": "Reimin Reid Recruitment Limited - Agency - Permanent",
+    "advertiser_name": "Reimin Reid Recruitment Limited",
+    "advertiser_type": "Agency",
+    "location": "City",
+    "region": "London",
+    "country": "UK",
+    "category": "Customer Sales / Sales Advisor",
+    "employment_type": "Permanent",
+    "salary_min": "55000",
+    "salary_max": "70000",
+    "salary_text": "£55000 - £70000 per year (£100k-£115k OTE + Excellent Benefits)",
+    "posted_date": "",
+    "description": "IT Sales: Growth Account Manager BI & Financial SAAS\n\nLocation:\n\nUK Wide\n\nSalary:\n\n£55k-£70k BASIC, £100k-£115k OTE + Excellent Benefits\n\nRef:\n\n(phone number removed)\n\nRole:\n\nThis is an opportunity not to miss, joining a leading SAAS provider with a great solution and a positive team culture. Having experienced a great deal of success over the past 12 months, they now require a consultative, driven and energetic solution sales professional to join their growth accounts team where you will be managing and developing several existing accounts within the manufacturing, distribution and retail verticals. In this role you will be a trusted advisor to your account base and be tasked with creating account plans/understanding customer objectives, cross selling additional modules of its BI/financials SAAS platform and deal with retention. Ideally, candidates will be experienced account managers/account developers with BI, financials or ERP SAAS solution sales experience in the above sectors. It is preferential for candidates to have come from a fast-paced sales environment and be used to quicker sales cycles. If you re a naturally curious sales professional who is passionate about building strong client relationships within the SAAS space, then please get in touch.\n\nRequired:\n- Proven track record in account management/development\n- 5+ years SAAS sales experience (preferably BI, financial or ERP)\n- Experience within the manufacturing, distribution or retail sectors\n\nBeneficial:\n- Worked in a fast-moving environment with quick sales cycles\n- A stable career record\n\nTo apply:\n\nCall Harry Atwal on (phone number removed) or email: (url removed)\n\nPlease note:\n- All candidates must be eligible to work and live in the UK.\n- Please do not apply unless you have the required experience.\n- All applications without the required experience will be unsuccessful.\n\nReimin Reid\n\nWe specialise in the placement of SaaS Sales Professionals. If you are looking for a new role and sell software and/or IT solutions and services, we would love to talk to you. Especially if you are currently holding/or have held the following positions:\n- Business/Sales Development Representative\n- Account Executive/Sales Executive/Senior Sales Executive\n- Account Manager/Account Director\n- Business Development Executive/Manager\n- Partner/Channel/Alliance Manager\n- Sales Manager/Sales Director/VP Sales/CRO etc.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?vAYWCB8ag%2fj9cZpYrHVGAM%2fGw98q0lZFi",
+    "source": "JobG8",
+    "customer_sales_classification": "CONDITIONAL_ACCOUNT_SALES",
+    "customer_sales_reason": "account-based title with sales and office/digital evidence",
+    "customer_sales_overlap_policy": "non-exclusive",
+    "work_pattern": "Full Time",
     "salary_period": "Annual",
     "posted_date_basis": ""
   },

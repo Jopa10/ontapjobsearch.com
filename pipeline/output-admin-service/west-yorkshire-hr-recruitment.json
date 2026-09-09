@@ -21,12 +21,7 @@
     "hr_recruitment_family_reason": "advert confirms substantive HR / Recruitment delivery",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Document preparation",
-      "Payroll administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225581901",
@@ -74,11 +69,30 @@
     "hr_recruitment_family_reason": "approved HR / Recruitment support title",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Email handling",
-      "Systems administration",
-      "Pre-employment administration"
-    ]
+    "posted_date_basis": ""
+  },
+  {
+    "job_id": "1874090",
+    "display_reference": "1874090",
+    "title": "People Officer",
+    "company": "Essential Employment - Agency - Permanent",
+    "advertiser_name": "Essential Employment",
+    "advertiser_type": "Agency",
+    "location": "Yorkshire",
+    "region": "Yorkshire - West",
+    "country": "UK",
+    "category": "HR / Recruitment",
+    "employment_type": "Permanent",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "",
+    "posted_date": "",
+    "description": "The People Officer is the primary point of contact for colleagues seeking assistance with HR related\nqueries relating to policies, procedures and systems. This role is integral in providing exceptional\ncustomer service and ensuring that employee needs are met efficiently and effectively.\n\nIf you are interested in the role please apply on our website with your CV, alternatively you can email your CV to Beth quoting the reference number.\n\nEssential Employment is acting as an Employment Business in relation to this vacancy. Essential Employment is an Equal Opportunities Employer.\n\nAll our roles may be subject to pre-employment checks including references so please be prepared.\n\nYou can also follow us at Twitter/Facebook/LinkedIn or via our website",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?Yic9job4bS%2fFVmM0Ra%2fDiFyIbHsO8QZbc",
+    "source": "JobG8",
+    "hr_recruitment_family_reason": "advert confirms substantive HR / Recruitment delivery",
+    "work_pattern": "Not Specified",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
   }
 ]

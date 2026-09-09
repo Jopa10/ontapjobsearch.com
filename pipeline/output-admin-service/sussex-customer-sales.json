@@ -22,12 +22,7 @@
     "customer_sales_overlap_policy": "non-exclusive",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Records administration",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225564678",
@@ -49,35 +44,6 @@
     "source": "JobG8",
     "customer_sales_classification": "DIRECT_SALES",
     "customer_sales_reason": "sales-led title: internal sales",
-    "customer_sales_overlap_policy": "non-exclusive",
-    "work_pattern": "Full Time",
-    "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Systems administration"
-    ]
-  },
-  {
-    "job_id": "107944173",
-    "title": "Sales Advisor - No Experience",
-    "company": "Blackwater Recruitment Ltd - Agency - Permanent",
-    "advertiser_name": "Blackwater Recruitment Ltd",
-    "advertiser_type": "Agency",
-    "location": "Haywards Heath",
-    "region": "Sussex",
-    "country": "UK",
-    "category": "Customer Sales / Sales Advisor",
-    "employment_type": "Permanent",
-    "salary_min": "30000",
-    "salary_max": "30000",
-    "salary_text": "£30000 per year",
-    "posted_date": "",
-    "description": "Immediate Start in Central Brighton!\n\nSales Advisor - No Experience Required\n\nLooking for a long-term opportunity where you can build valuable skills, meet new people and develop your confidence in a customer-facing role\n\nPlease Note: Candidates must be eligible and available to work full-time in the UK click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?mDcEDJmYTbzqOElvy878mmEm0JZdRtrvt",
-    "source": "JobG8",
-    "customer_sales_classification": "DIRECT_SALES",
-    "customer_sales_reason": "sales-led title: sales advisor",
     "customer_sales_overlap_policy": "non-exclusive",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
