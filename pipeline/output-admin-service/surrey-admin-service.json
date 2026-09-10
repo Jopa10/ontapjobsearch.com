@@ -1096,11 +1096,7 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0279-26-2427",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0279-26-2427",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "A"
   },
   {
     "job_id": "nhs-5580577",
@@ -1118,11 +1114,7 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/U0103-26-0059",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/U0103-26-0059",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "A"
   },
   {
     "job_id": "nhs-5589494",
@@ -1134,17 +1126,13 @@
     "region": "Surrey",
     "salary": "£16681.00",
     "employment_type": "Permanent",
-    "posted_date": "2026-09-09T14:30:16.743278716",
+    "posted_date": "2026-09-09T14:30:16.743279",
     "closing_date": "2026-09-16",
     "description": "Are you welcoming, organised, and enjoy working in a fast-paced healthcare environment? We're looking for a friendly and reliable Administrative Support colleague to join our Bentley ward in Farnham Hospital As part of our team, you'll provide essential administrative and clerical support to the Bentley ward You'll often be the first point of contact, meeting and greeting patients, visitors, and staff with a courteous, professional, and reassuring approach. You'll help ensure that patient records and documentation are accurately maintained, in line with Trust policies and procedures, and that confidentiality and information security are upheld at all times in accordance with Information Governance guidance. The successful candidate will be required to be flexible to cover the shift. Welcoming patients, visitors, and staff to the ward. Providing administrative and clerical support to the Ward. Maintaining accurate patient records and documentation. Ensuring confidentiality and data security are always maintained. Supporting the wider multidisciplinary team in a busy clinical environment. For further information regarding the detailed job description and main responsibilities, please refer to the attached job description and person specification documents.",
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9151-26-1140",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9151-26-1140",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "B"
   },
   {
     "job_id": "nhs-5585529",
@@ -1162,11 +1150,7 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0279-26-2404",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0279-26-2404",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "B"
   },
   {
     "job_id": "nhs-5572182",
@@ -1184,11 +1168,7 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3505-26-0003",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3505-26-0003",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "B"
   },
   {
     "job_id": "nhs-5556013",
@@ -1206,10 +1186,6 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0455-26-0024",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0455-26-0024",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "B"
   }
 ]

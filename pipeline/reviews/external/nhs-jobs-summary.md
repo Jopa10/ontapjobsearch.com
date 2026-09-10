@@ -2,15 +2,63 @@
 
 review_date: 2026-09-10
 
-- Open Administrative & Clerical rows reviewed: 1968
+- Open Administrative & Clerical rows reviewed: 1972
 - Auto/remembered selected: 370
 - Selected HC Tier A: 189
 - Selected HC Tier B: 181
-- POSS awaiting decision: 1441
+- POSS awaiting decision: 1445
 - Excluded: 0
 - HARD_PASS: 157
 
 Edit only each `action:` line for POSS rows. Unchanged decisions are restored by the shared decision ledger.
+
+---
+action:
+POSS | NHS Jobs | Hertfordshire | Watford, WD18 0HB | £29812.00 to £32715.00 | Band 4 - Health Play Specialist, WACS
+source_job_id: 5590357
+title: Band 4 - Health Play Specialist, WACS
+employer: West Hertfordshire Teaching Hospitals NHS Trust
+region: Hertfordshire
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9360-26-0397
+factual_fingerprint: 4a9af7371dc8c4f3bfc29155150362b46ab1ae63c1c91a71c10af80800e222ff
+---
+
+---
+action:
+POSS | NHS Jobs | London | London, NW1 2PG | £58133.00 to £65261.00 | Electronic Health Records (EHR) System Analyst / Designer
+source_job_id: 5589981
+title: Electronic Health Records (EHR) System Analyst / Designer
+employer: University College London Hospitals NHS Foundation Trust
+region: London
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9309-26-0904
+factual_fingerprint: 35529a409f85c20486099f1c168c3f8dbbd301c5ae12dbe66ec8985ea6cbc8d9
+---
+
+---
+action:
+POSS | NHS Jobs | Cumbria - North | Carlisle, CA3 0HA | £32073.00 to £39043.00 | Data Quality Facilitator *Internal*
+source_job_id: 5590599
+title: Data Quality Facilitator *Internal*
+employer: North Cumbria Integrated Care NHS Foundation Trust
+region: Cumbria - North
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9262-26-1409
+factual_fingerprint: 061b7aee24a27e4d1d0031e88c02e5b3b483348a8aa2d6a9b8f8ae44c8b390b0
+---
+
+---
+action:
+POSS | NHS Jobs | — | Wolverhampton/Black Country Wide, WV1 9SE | £25760.00 to £27476.00 | Peer Worker
+source_job_id: 5590502
+title: Peer Worker
+employer: Black Country Healthcare NHS Foundation Trust
+region: 
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9285-26-0580
+factual_fingerprint: f7dfd376da55c79b5517f2f70475e30f849ce460e1731e6ed239d2ad5ddbff8f
+---
 
 ---
 action:
@@ -21,7 +69,7 @@ employer: St George's University Hospitals NHS Foundation Trust
 region: London
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9200-26-0819
-factual_fingerprint: 57b87f1aef0a817ce459cdb06a8b1c788ceebb76d397447fe3c7bc2867bff2a8
+factual_fingerprint: d6e8d8f56a20baa0c458d3e0365c0d2176ce720a06463812b531a260cc5966c0
 ---
 
 ---
@@ -69,7 +117,7 @@ employer: NHS England
 region: 
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/M9990-26-0651
-factual_fingerprint: 10289ce7037390fa0f7ce87f7b4519936a6e79654333c0a0a6020b6beb163662
+factual_fingerprint: d496b06065217ad7d78e79168ebb8f18fba524944eb7144b6301622f05ae5db7
 ---
 
 ---
