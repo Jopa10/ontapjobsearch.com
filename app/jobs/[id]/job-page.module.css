@@ -41,6 +41,35 @@
   display: block;
 }
 
+.expiredPage {
+  min-height: calc(100vh - 108px);
+  padding: 18px 16px 32px;
+  background: #f1f5f9;
+}
+
+.expiredPanel {
+  max-width: 980px;
+  margin: 0 auto;
+  border: 1px solid #d7e1ed;
+  border-radius: 12px;
+  padding: 20px 24px 24px;
+  background: #f8fafc;
+}
+
+.expiredEyebrow { margin: 0 0 5px; color: #64748b; font-size: 13px; font-weight: 700; }
+.expiredTitle { margin: 0 0 8px; font-size: 28px; font-weight: 800; line-height: 1.2; }
+.expiredIntro { margin: 0 0 14px; color: #475569; line-height: 1.5; }
+.expiredActions { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 18px; }
+.expiredPrimaryAction,
+.expiredSecondaryAction { border-radius: 8px; font-weight: 700; padding: 9px 14px; text-decoration: none; }
+.expiredPrimaryAction { background: #1d4ed8; color: #fff; }
+.expiredSecondaryAction { border: 1px solid #cbd5e1; background: #fff; color: #334155; }
+.expiredJobsHeading { margin: 0 0 8px; font-size: 20px; font-weight: 800; }
+.expiredJobsGrid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; margin: 0; padding: 0; list-style: none; }
+.expiredJobCard { min-width: 0; border: 1px solid #dbe3ee; border-radius: 8px; padding: 10px 12px; background: #fff; }
+.expiredJobLink { color: #1d4ed8; font-weight: 700; text-decoration: none; }
+.expiredJobLocation { margin-top: 2px; color: #64748b; font-size: 14px; }
+
 @media (max-width: 900px) {
   .page {
     margin-top: 24px;
@@ -78,4 +107,8 @@
   .secondaryListingLink {
     display: none;
   }
+
+  .expiredPage { padding: 12px; }
+  .expiredPanel { padding: 17px 16px 18px; }
+  .expiredJobsGrid { grid-template-columns: 1fr; }
 }
