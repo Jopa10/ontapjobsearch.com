@@ -1,7 +1,7 @@
 # North East Jobs ETL proof-of-concept review
 
-review_date: 2026-09-09
-review_fingerprint: fe1163cd4cc36adc0f2ba3a7877c14f663d3403d1fb5f9555e94c16449852f1d
+review_date: 2026-09-10
+review_fingerprint: 29d2e6c743d21c6233f31c2bd26fe89c39954b9c79c879f076b43e32af745db9
 
 Edit only the `action:` line in each editable block:
 
@@ -11,19 +11,19 @@ Edit only the `action:` line in each editable block:
 - Commit the edit; the review workflow will remember the decision.
 - Decisions are carried forward only while the same vacancy review facts remain unchanged.
 
-Run generated: 2026-09-09T12:21:28+01:00
+Run generated: 2026-09-10T12:18:32+01:00
 RSS input: https://www.northeastjobs.org.uk/RSSJobs.aspx?orgid=62
-JobG8 comparison rows in target geographies: 248
+JobG8 comparison rows in target geographies: 255
 
 ## Funnel
 
-- RSS vacancies read: 663
-- Hard-pass title/teaser screen before detail requests: 615
-- Detail candidates: 48
+- RSS vacancies read: 717
+- Hard-pass title/teaser screen before detail requests: 666
+- Detail candidates: 51
 - Detail failures or unavailable snapshots: 0
 - Outside the two target geographies: 6
-- Tees Valley explicitly excluded: 10
-- Target-geography candidates reviewed: 32
+- Tees Valley explicitly excluded: 12
+- Target-geography candidates reviewed: 33
 
 ## Detail diagnostics
 
@@ -32,17 +32,17 @@ JobG8 comparison rows in target geographies: 248
 ## Review outcomes
 
 - HC: 14
-- POSS: 16
-- Hard pass: 2
+- POSS: 18
+- Hard pass: 1
 - Final selected after remembered/manual actions: 17
-- Final POSS awaiting decision: 6
-- Manually excluded: 7
+- Final POSS awaiting decision: 9
+- Manually excluded: 6
 - Confirmed JobG8 duplicates: 0
-- Possible JobG8 duplicates: 0
+- Possible JobG8 duplicates: 1
 - Likely unique to North East Jobs: 32
 - Rows in possible within-source duplicate groups: 0
 
-- Manual review warning: manual review date 2026-09-08 is not 2026-09-09; old actions ignored
+- Manual review warning: manual review date 2026-09-09 is not 2026-09-10; old actions ignored
 
 ## SELECTED
 
@@ -102,12 +102,12 @@ source_url: https://www.northeastjobs.org.uk/job/Administrative_Assistant_Level_
 ---
 ---
 action:
-SELECTED | North East - Tyneside, Wearside & Northumberland | Gosforth Academy, Great North Road, Knightsbridge, Gosforth, Newcastle upon Tyne, NE3 2JH | £26,403 - £27,254 per annum. Actual Salary £22,646 - £23,376 | Administrative Assistant Level 3
-employer: Gosforth Group
-closing_date: 10/09/2026 09:00
-reason: clear transferable title: administrative assistant
-source_job_id: 301207
-source_url: https://www.northeastjobs.org.uk/job/Administrative_Assistant_Level_3/301207
+SELECTED | North East - Tyneside, Wearside & Northumberland | South Tyneside Council (derived for filtering) | £29,542 pa pro rata | Assisted Travel Senior Business Support Officer, 30hpw
+employer: South Tyneside Council
+closing_date: 16/10/2026 12:00
+reason: clear transferable title: business support officer
+source_job_id: 301777
+source_url: https://www.northeastjobs.org.uk/job/Assisted_Travel_Senior_Business_Support_Officer_30hpw/301777
 ---
 ---
 action:
@@ -202,15 +202,6 @@ source_job_id: 301502
 source_url: https://www.northeastjobs.org.uk/job/Recovery_Coordinator/301502
 ---
 ---
-action: exclude
-POSS | North East - County Durham & Darlington/Hartlepool | Peterlee Depot (North) or Chilton Depot (South) | £29,071 - £32,046 | Waste Operations Support Officers
-employer: Durham County Council
-closing_date: 09/09/2026
-reason: annualised upper salary £32,046 exceeds North East review point £30,000
-source_job_id: 301232
-source_url: https://www.northeastjobs.org.uk/job/Waste_Operations_Support_Officers/301232
----
----
 action:
 POSS | North East - Tyneside, Wearside & Northumberland | Newcastle upon Tyne | Approximately £28,500 (£38,900 FTE) | Access Arrangements Coordinator
 employer: Royal Grammar School
@@ -239,6 +230,15 @@ source_url: https://www.northeastjobs.org.uk/job/Annual_Review_Officer_SEND/3012
 ---
 ---
 action:
+POSS | North East - Tyneside, Wearside & Northumberland | Housing Options and Homelessness Service | £34,811 pa | Armed Forces Support Officer
+employer: South Tyneside Council
+closing_date: 24/09/2026 12:00
+reason: annualised upper salary £34,811 exceeds North East review point £30,000
+source_job_id: 301778
+source_url: https://www.northeastjobs.org.uk/job/Armed_Forces_Support_Officer/301778
+---
+---
+action:
 POSS | North East - Tyneside, Wearside & Northumberland | Houghton Le Spring (derived for filtering) | £27,274 to £29,071 (actual pro-rata £12,680 to £13,516) | Attendance Administrator
 employer: AIM High Academy Trust
 closing_date: 21/09/2026 12:00
@@ -263,6 +263,15 @@ closing_date: 17/09/2026 00:00
 reason: provisional transferable-office review
 source_job_id: 301477
 source_url: https://www.northeastjobs.org.uk/job/Behaviour_Support_Officer_Kyloe_House/301477
+---
+---
+action:
+POSS | North East - Tyneside, Wearside & Northumberland | Newcastle City Council (derived for filtering) | £27,274 - £28,153 pro rata, per annum (plus enhancements for out of hours) | Customer Service Advisor
+employer: Newcastle City Council
+closing_date: 23/09/2026 22:59
+reason: possible JobG8 duplicate requires review
+source_job_id: 300841
+source_url: https://www.northeastjobs.org.uk/job/Customer_Service_Advisor/300841
 ---
 ---
 action: exclude
@@ -318,13 +327,21 @@ reason: annualised upper salary £35,570 exceeds North East review point £30,00
 source_job_id: 301243
 source_url: https://www.northeastjobs.org.uk/job/Tenant_Engagement_Officer/301243
 ---
+---
+action:
+POSS | North East - Tyneside, Wearside & Northumberland | County Hall MORPETH, United Kingdom | £29,542 - 32,046 | Virtual School Education Support Officer
+employer: Northumberland County Council
+closing_date: 23/09/2026 00:00
+reason: annualised upper salary £32,046 exceeds North East review point £30,000
+source_job_id: 301765
+source_url: https://www.northeastjobs.org.uk/job/Virtual_School_Education_Support_Officer/301765
+---
 ## EXCLUDED BY REVIEW
 
 - None.
 
 ## Hard passes
 
-- [Apprenticeship Skills Coordinator - Technical Construction & Civil Engineering](https://www.northeastjobs.org.uk/job/Apprenticeship_Skills_Coordinator_Technical_Construction_Civil_Engineering/301194) — out-of-scope occupation: engineer.
 - [Highways Technical Support Officer (INTERNAL ONLY)](https://www.northeastjobs.org.uk/job/Highways_Technical_Support_Officer_INTERNAL_ONLY/301268) — not open to external applicants.
 
 ## Safety boundary
