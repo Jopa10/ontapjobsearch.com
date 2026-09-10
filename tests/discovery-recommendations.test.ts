@@ -1,6 +1,11 @@
 import assert from "node:assert/strict";
 import test from "node:test";
-import { getDiscoveryRecommendations } from "../lib/discovery-recommendations";
+import {
+  getDiscoveryRecommendations,
+  getDiscoveryRecommendationsForLocation,
+  getJobsNearApprovedLocation,
+  getNearestApprovedLocation,
+} from "../lib/discovery-recommendations";
 import type { PublishedJob } from "../lib/published-jobs";
 
 function job(overrides: Partial<PublishedJob>): PublishedJob {
@@ -128,5 +133,31 @@ test("an unknown landing employer can see same-family private jobs but never pub
   assert.deepEqual(
     getDiscoveryRecommendations(current, jobs).map((result) => result.job_id),
     ["private-target"],
+  );
+});
+
+test("resolves a device position to an approved town and finds jobs within 15 miles", () => {
+  const halifax = getNearestApprovedLocation(53.72, -1.86);
+  assert.equal(halifax?.location, "Halifax");
+  if (!halifax) assert.fail("Halifax was not resolved");
+  const jobs = [
+    job({ job_id: "halifax", location: "Halifax", region: "Yorkshire - West" }),
+    job({ job_id: "carlisle", location: "Carlisle", region: "Cumbria - North" }),
+  ];
+  assert.deepEqual(getJobsNearApprovedLocation(jobs, halifax).map((row) => row.job_id), ["halifax"]);
+});
+
+test("reranks governed role matches around the saved location", () => {
+  const current = job({ job_id: "current", location: "Wolverhampton" });
+  const halifax = getNearestApprovedLocation(53.72, -1.86);
+  if (!halifax) assert.fail("Halifax was not resolved");
+  const jobs = [
+    current,
+    job({ job_id: "near-user", company: "Sky", source: "JobG8", location: "Halifax", region: "Yorkshire - West" }),
+    job({ job_id: "near-vacancy", company: "Sky", source: "JobG8", location: "Wolverhampton" }),
+  ];
+  assert.deepEqual(
+    getDiscoveryRecommendationsForLocation(current, jobs, halifax).map((row) => row.job_id),
+    ["near-user"],
   );
 });

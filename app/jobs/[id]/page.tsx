@@ -6,6 +6,7 @@ import JobDescription from "@/components/JobDescription";
 import JobFacts from "@/components/JobFacts";
 import JobPageSearch from "@/components/JobPageSearch";
 import MoreJobsNearby from "@/components/MoreJobsNearby";
+import SavedLocationJobs from "@/components/SavedLocationJobs";
 import TransferableFitCard from "@/components/TransferableFitCard";
 import { getActiveCityPageForJob } from "@/lib/city-page-data";
 import { sourceLabel } from "@/lib/job-facts";
@@ -179,6 +180,8 @@ export default async function JobPage({ params }: PageProps) {
             />
           </div>
 
+          <SavedLocationJobs jobId={job.job_id} />
+
           <JobPageSearch />
 
           {transferableFit ? (
@@ -251,6 +254,7 @@ export default async function JobPage({ params }: PageProps) {
         <aside className={styles.sidebar} aria-label="Related job information">
           <MoreJobsNearby
             jobs={discoveryJobs}
+            jobId={job.job_id}
             allJobsPath={discoveryJobs.length ? primaryListing.href : discoveryFallback.href}
             allJobsLabel={discoveryJobs.length ? primaryListing.label : discoveryFallback.label}
             secondaryAllJobsPath={discoveryJobs.length ? secondaryListing?.href : undefined}

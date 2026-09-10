@@ -5,6 +5,7 @@ import AiTipsCard from "@/components/AiTipsCard";
 import DetailedJobList from "@/components/DetailedJobList";
 import JobViewSwitcher from "@/components/JobViewSwitcher";
 import QuickJobList from "@/components/QuickJobList";
+import SavedLocationJobs from "@/components/SavedLocationJobs";
 import { orderJobsForDisplay } from "@/lib/job-display-order";
 import { normaliseJobTitle } from "@/lib/job-title";
 import TrainingLink from "@/components/traininglink";
@@ -472,6 +473,8 @@ export default function JobSlicePage({
                 `Updated daily • Latest update: ${latestUpdate} • Roles across ${region} • Apply on employer sites`}
             </p>
           </div>
+
+          <SavedLocationJobs />
 
           {childCityLinks.length ? (
             <div style={{ marginBottom: 8 }}>

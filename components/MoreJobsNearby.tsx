@@ -1,10 +1,23 @@
+"use client";
+
 import Link from "next/link";
+import { useEffect, useState } from "react";
 import styles from "@/components/MoreJobsNearby.module.css";
+import { savedLocationJobsEvent } from "@/components/SavedLocationJobs";
 import { formatSalary } from "@/lib/job-facts";
-import { getJobPath, type PublishedJob } from "@/lib/published-jobs";
+import type { PublishedJob } from "@/lib/published-jobs";
+
+type NearbyJob = Pick<PublishedJob, "job_id" | "title" | "location" | "salary_text" | "employment_type"> & {
+  distance_miles?: number;
+};
+
+function getJobPath(jobId: string): string {
+  return `/jobs/${encodeURIComponent(jobId)}`;
+}
 
 type MoreJobsNearbyProps = {
-  jobs: Array<PublishedJob & { distance_miles?: number }>;
+  jobs: NearbyJob[];
+  jobId?: string;
   allJobsPath: string;
   allJobsLabel: string;
   intro?: string;
@@ -16,6 +29,7 @@ type MoreJobsNearbyProps = {
 
 export default function MoreJobsNearby({
   jobs,
+  jobId,
   allJobsPath,
   allJobsLabel,
   intro = "Approved role matches within 15 straight-line miles. Locations shown are where the jobs are based.",
@@ -24,14 +38,48 @@ export default function MoreJobsNearby({
   secondaryAllJobsPath,
   secondaryAllJobsLabel,
 }: MoreJobsNearbyProps) {
+  const [displayJobs, setDisplayJobs] = useState(jobs);
+  const [savedTown, setSavedTown] = useState("");
+  const [displayPath, setDisplayPath] = useState(allJobsPath);
+  const [displayLabel, setDisplayLabel] = useState(allJobsLabel);
+
+  useEffect(() => {
+    function update(event: Event) {
+      const detail = (event as CustomEvent<{
+        jobId?: string;
+        clear?: boolean;
+        location?: { town?: string };
+        jobs?: NearbyJob[];
+        searchPath?: string;
+      }>).detail;
+      if (detail.jobId !== jobId) return;
+      if (detail.clear) {
+        setDisplayJobs(jobs);
+        setSavedTown("");
+        setDisplayPath(allJobsPath);
+        setDisplayLabel(allJobsLabel);
+        return;
+      }
+      if (!detail.location?.town) return;
+      setDisplayJobs(detail.jobs ?? []);
+      setSavedTown(detail.location.town);
+      if (detail.searchPath) {
+        setDisplayPath(detail.searchPath);
+        setDisplayLabel(`View all jobs near ${detail.location.town}`);
+      }
+    }
+    window.addEventListener(savedLocationJobsEvent, update);
+    return () => window.removeEventListener(savedLocationJobsEvent, update);
+  }, [allJobsLabel, allJobsPath, jobId, jobs]);
+
   return (
     <section className={styles.panel}>
       <h2 className={styles.heading}>{heading}</h2>
-      <p className={styles.intro}>{intro}</p>
+      <p className={styles.intro}>{savedTown ? `Approved role matches within 15 straight-line miles of ${savedTown}.` : intro}</p>
 
-      {jobs.length ? (
+      {displayJobs.length ? (
         <ul className={styles.list}>
-          {jobs.map((job) => {
+          {displayJobs.map((job) => {
             const salary = formatSalary(job.salary_text) || "Salary not stated";
             const distance = typeof job.distance_miles === "number"
               ? job.distance_miles < 0.05
@@ -64,11 +112,11 @@ export default function MoreJobsNearby({
           })}
         </ul>
       ) : (
-        <p className={styles.intro}>{emptyMessage}</p>
+        <p className={styles.intro}>{savedTown ? `No approved close role match is available near ${savedTown} at the moment.` : emptyMessage}</p>
       )}
 
-      <Link href={allJobsPath} className={styles.allJobsLink}>
-        <span>{allJobsLabel}</span>
+      <Link href={displayPath} className={styles.allJobsLink}>
+        <span>{displayLabel}</span>
         <span aria-hidden="true">→</span>
       </Link>
 

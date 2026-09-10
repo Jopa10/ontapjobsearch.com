@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
+import SavedLocationJobs from '@/components/SavedLocationJobs';
 import {
   cityPageDefinitions,
   getCityPageJobs,
@@ -381,6 +382,12 @@ export default function Page() {
             </div>
 
             <SearchPanel totalJobs={jobs.length} />
+          </div>
+        </section>
+
+        <section className="border-b border-gray-200 bg-white">
+          <div className="mx-auto max-w-7xl px-4 pt-4 sm:px-6 lg:px-8">
+            <SavedLocationJobs />
           </div>
         </section>
 

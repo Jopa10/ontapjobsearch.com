@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import QuickJobList from '@/components/QuickJobList';
+import SavedLocationJobs from '@/components/SavedLocationJobs';
 import { getAtAGlanceAttributes } from '@/lib/at-a-glance-preview';
 import {
   broadCityDefinitions,
@@ -86,6 +87,8 @@ export default async function BroadCityPage({ params }: { params: Promise<{ city
       <p className="mt-3 max-w-3xl text-base leading-7 text-gray-600">
         Current vacancies in {city.display_name} across all live job categories and providers. Jobs are refreshed daily and applications go to the employer site.
       </p>
+
+      <div className="mt-5"><SavedLocationJobs /></div>
 
       <aside className="my-6 flex flex-col justify-between gap-3 rounded-xl border border-blue-200 bg-blue-50 p-4 sm:flex-row sm:items-center">
         <div><div className="text-xs font-bold uppercase tracking-wide text-blue-900">Wider area</div><p className="mt-1 text-gray-700">See jobs across {city.region}.</p></div>

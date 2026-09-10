@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import SavedLocationJobs from '@/components/SavedLocationJobs';
 import {
   cityPageDefinitions,
   getCityPageJobs,
@@ -340,6 +341,8 @@ export default function Page() {
         Browse current job pages. Admin, service administrator and customer-service pages are listed
         first because they are the main active offer right now.
       </p>
+
+      <SavedLocationJobs />
 
       <div className="grid gap-8">
         {jobSections.map((section) => (

@@ -33,6 +33,8 @@ export type DiscoveryRecommendation = PublishedJob & {
   distance_miles: number;
 };
 
+export type ApprovedLocation = Pick<Place, "location" | "region" | "latitude" | "longitude">;
+
 const ROOT = process.cwd();
 const REGISTER_DIRECTORY = path.join(ROOT, "pipeline", "registers");
 const MAX_DISTANCE_MILES = 15;
@@ -297,4 +299,55 @@ export function getDiscoveryRecommendations(
       || newestFirst(left, right))
     .slice(0, Math.max(0, limit))
     .map(({ priority: _priority, ...candidate }) => candidate);
+}
+
+export function getNearestApprovedLocation(latitude: number, longitude: number): ApprovedLocation | undefined {
+  if (!Number.isFinite(latitude) || !Number.isFinite(longitude)) return undefined;
+  const { placesByName } = loadRules();
+  const origin: Place = { location: "Current position", region: "", latitude, longitude };
+  const unique = new Map<string, Place>();
+  for (const candidates of placesByName.values()) {
+    for (const candidate of candidates) unique.set(placeKey(candidate), candidate);
+  }
+  return [...unique.values()].sort((left, right) =>
+    haversineMiles(origin, left) - haversineMiles(origin, right)
+  )[0];
+}
+
+export function resolveApprovedLocation(location: string, region = ""): ApprovedLocation | undefined {
+  const { placesByName } = loadRules();
+  return resolvePlace(location, region, placesByName);
+}
+
+export function getJobsNearApprovedLocation(
+  jobs: PublishedJob[],
+  origin: ApprovedLocation,
+  limit = Number.POSITIVE_INFINITY,
+): DiscoveryRecommendation[] {
+  const { placesByName } = loadRules();
+  return jobs
+    .map((candidate) => {
+      const target = resolvePlace(candidate.location, candidate.region, placesByName);
+      if (!target) return undefined;
+      const distance = haversineMiles(origin, target);
+      return distance <= MAX_DISTANCE_MILES
+        ? { ...candidate, distance_miles: distance }
+        : undefined;
+    })
+    .filter((candidate): candidate is DiscoveryRecommendation => Boolean(candidate))
+    .sort((left, right) => left.distance_miles - right.distance_miles || newestFirst(left, right))
+    .slice(0, Math.max(0, limit));
+}
+
+export function getDiscoveryRecommendationsForLocation(
+  current: PublishedJob,
+  jobs: PublishedJob[],
+  origin: ApprovedLocation,
+  limit = 6,
+): DiscoveryRecommendation[] {
+  return getDiscoveryRecommendations(
+    { ...current, location: origin.location, region: origin.region },
+    jobs,
+    limit,
+  );
 }

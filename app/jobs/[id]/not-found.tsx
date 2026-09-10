@@ -1,5 +1,6 @@
 import { headers } from "next/headers";
 import Link from "next/link";
+import SavedLocationJobs from "@/components/SavedLocationJobs";
 import { getExpiredJobRecovery } from "@/lib/expired-job-recovery";
 import { getJobPath, getPublishedJobs } from "@/lib/published-jobs";
 import styles from "./job-page.module.css";
@@ -34,6 +35,8 @@ export default async function JobNotFound() {
             <Link href="/" className={styles.expiredSecondaryAction}>Return home</Link>
           )}
         </div>
+
+        <SavedLocationJobs jobId={recovery?.job.job_id} />
 
         {recommendations.length ? (
           <section aria-labelledby="current-jobs-heading">
