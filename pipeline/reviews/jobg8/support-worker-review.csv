@@ -1,10 +1,10 @@
 ﻿feed_date,decision,region,title,town,salary_text,manual_override,manual_select,job_id
 2026-09-10,SELECTED,Yorkshire - West,Health Care Assistant Nights,Halifax,£14.29 per hour,,,23643_225580403
 2026-09-10,SELECTED,Yorkshire - West,Live-In Personal Care Assistants for a University Student in Leeds,Leeds,£200 per daily,,,107797487
-2026-09-10,SELECTED,"North East - Tyneside, Wearside & Northumberland",Relief Support Worker,Jarrow,£12.85 per hour (plus rolled up holiday pay),,,107941778
 2026-09-10,SELECTED,North East - County Durham & Darlington/Hartlepool,Young Person Support Worker,Durham,£17 - £20 per hour,,,23643_225493355
 2026-09-10,SELECTED,Sussex,ADHD Support Worker,Eastbourne,£92.54 - £97 per daily,,,23643_225552397
 2026-09-10,SELECTED,Sussex,Care assistant - East Grinstead,East Grinstead,£14.25 per hour,,,23643_225567530
+2026-09-10,SELECTED,Sussex,Care Assistant,Eastbourne,£13.79 per hour,,,107961233
 2026-09-10,SELECTED,Cumbria - South,Waking Night Extra Care Support Worker,Barrow-in-furness,£12.85 per hour,,,107911831
 2026-09-10,SELECTED,Cumbria - South,Children's Residential Support Worker,Kendal,"£3,840 per year",,,25362_JR105035
 2026-09-10,SELECTED,Cumbria - South,Children's Residential Support Worker,Grange-over-sands,"£3,840 per year",,,25362_JR105081
@@ -15,7 +15,6 @@
 2026-09-10,SELECTED,Hampshire,Night Care Worker,Southampton,£25186 - £26244 per year,,,1401784887
 2026-09-10,SELECTED,Hampshire,Day Opportunities Support Worker (HCC Care YA),Gosport,£26018 - £27111 per year,,,1401784915
 2026-09-10,SELECTED,Hampshire,Support Worker,Southampton,"£25,947 - £26,305 per annum",,,1858493
-2026-09-10,SELECTED,Hampshire,Residential Childcare Support Worker,Southampton,£12.79 - £14.50 per hour,,,25374_604171860
 2026-09-10,SELECTED,Hampshire,Care & Support Worker,Ventnor,£10000 per year,,,107955972
 2026-09-10,SELECTED,Hampshire,Care & Support Worker,Freshwater,£16000 per year,,,107955992
 2026-09-10,SELECTED,Hampshire,Care Worker,Ventnor,£16000 per year,,,107956061
@@ -31,7 +30,6 @@
 2026-09-10,SELECTED,London,Care Assistant,City,£13.39 per hour,,,2050890
 2026-09-10,SELECTED,London,Mental Health Support Worker Nightshift - Female Only,City,£13.69 per hour,,,2049999
 2026-09-10,SELECTED,London,Children's Residential Support Worker - Belfast,City,£12.75 - £21.55 per hour,,,2049697
-2026-09-10,SELECTED,London,Support Worker - Day Centre Belfast,City,£12.75 per hour,,,2049628
 2026-09-10,SELECTED,London,Housing Support Worker,City,£14.5 - £19.75 per hour,,,23643_224986550
 2026-09-10,SELECTED,London,Personal Assistant (HR),London,£NEG None,,,23643_225572376
 2026-09-10,SELECTED,London,Reconnect+ Support Worker,London,£15.5 - £20 per hour,,,23643_225572316

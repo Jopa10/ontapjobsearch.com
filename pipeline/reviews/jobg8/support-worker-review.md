@@ -37,11 +37,7 @@ _No jobs in this group._
 
 ## NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND — SELECTED
 
----
-action:
-SELECTED | North East - Tyneside, Wearside & Northumberland | Jarrow | £12.85 per hour (plus rolled up holiday pay) | Relief Support Worker
-job_id: 107941778
----
+_No jobs in this group._
 
 ## NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL — SELECTED
 
@@ -71,6 +67,12 @@ job_id: 23643_225552397
 action:
 SELECTED | Sussex | East Grinstead | £14.25 per hour | Care assistant - East Grinstead
 job_id: 23643_225567530
+---
+
+---
+action:
+SELECTED | Sussex | Eastbourne | £13.79 per hour | Care Assistant
+job_id: 107961233
 ---
 
 ## SUSSEX — POSSIBLES
@@ -143,12 +145,6 @@ job_id: 1401784915
 action:
 SELECTED | Hampshire | Southampton | £25,947 - £26,305 per annum | Support Worker
 job_id: 1858493
----
-
----
-action:
-SELECTED | Hampshire | Southampton | £12.79 - £14.50 per hour | Residential Childcare Support Worker
-job_id: 25374_604171860
 ---
 
 ---
@@ -251,12 +247,6 @@ job_id: 2049999
 action:
 SELECTED | London | City | £12.75 - £21.55 per hour | Children's Residential Support Worker - Belfast
 job_id: 2049697
----
-
----
-action:
-SELECTED | London | City | £12.75 per hour | Support Worker - Day Centre Belfast
-job_id: 2049628
 ---
 
 ---
