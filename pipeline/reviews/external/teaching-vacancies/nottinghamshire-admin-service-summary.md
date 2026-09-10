@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Nottinghamshire
 
-review_date: 2026-09-09
-review_fingerprint: 898f56834eba3fb1f513dd3e70e97eda2d3aa141759eb953ca10d8ddfeedacfa
-routing_manifest_sha256: 4a958bab8a32e70948984372cc0d4828c1f97fe1d8d6cdff8758ffcbe54b1245
+review_date: 2026-09-10
+review_fingerprint: 8663dff859de8ed40b793d0249d973f52e2a3a5d3adbb0cc8d8d5c790ff0ab9d
+routing_manifest_sha256: 59e27ec5f0988f3fbff7710c6431ef08819873d43138c8fff91d89bff025fcb0
 ontap_region: Nottinghamshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 15
-- Selected: 8
+- Records: 17
+- Selected: 9
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 6
+- Hard pass: 7
 
 ## SELECTED
 
@@ -128,6 +128,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/part-time-attendance-
 
 ---
 action: 
+SELECTED | Nottinghamshire | Retford, East Midlands, DN22 7NJ | £21,567.00 Annually (Actual) TTO/Pro Rata | Receptionist / Administrator
+employer: St Giles School
+closing_date: 2026-10-02T23:59:00+01:00
+reason: Clear admin/service title: administrator, receptionist
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 4759977efa68750936e91606fdb281a05e313004ede618d8addbc8c327d229a7
+source: Teaching Vacancies
+source_job_id: receptionist-administrator-5a07569f-4f14-44ab-a5b1-5db86e8a339d
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrator-5a07569f-4f14-44ab-a5b1-5db86e8a339d
+---
+
+---
+action: 
 SELECTED | Nottinghamshire | Nottingham, East Midlands, NG11 8HX | £22,202.00 - £22,554.00 Annually (Actual) GAT4. 37 hours per week, 39 weeks per year | Receptionist/Administrator
 employer: Nethergate Academy
 closing_date: 2026-09-27T23:59:00+01:00
@@ -169,6 +184,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/data-officer-the-whit
 - [HR and Recruitment Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-and-recruitment-officer-redhill-academy-trust) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-sycamore-academy) — Manager title salary ceiling £40,446 is not below £28,000.
 - [Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-65ca1f05-aa50-430f-afeb-b27088a93265) — Insufficient admin/service evidence.
+- [Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-bf443901-6fb8-4721-9adf-b67f0bdbd6f6) — Insufficient admin/service evidence.
 - [Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-newark-orchard-school-newark) — Insufficient admin/service evidence.
 
 ## Safety boundary

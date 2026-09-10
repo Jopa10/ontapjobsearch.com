@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — London
 
-review_date: 2026-09-09
-review_fingerprint: cc764e3c738d29f54315e212661935d9ac0a16a01bdfa0fd1e03496017f03c16
-routing_manifest_sha256: 4a958bab8a32e70948984372cc0d4828c1f97fe1d8d6cdff8758ffcbe54b1245
+review_date: 2026-09-10
+review_fingerprint: 71408ca28d3540524d30b8ee0e14e7297713128549814df3658943297a83c9e3
+routing_manifest_sha256: 59e27ec5f0988f3fbff7710c6431ef08819873d43138c8fff91d89bff025fcb0
 ontap_region: London
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 53
+- Records: 58
 - Selected: 14
-- POSS awaiting decision: 8
+- POSS awaiting decision: 9
 - Excluded: 0
-- Hard pass: 31
+- Hard pass: 35
 
 ## SELECTED
-
----
-action: 
-SELECTED | London | Dagenham, London, RM9 6PH | £25,514.00 Annually (Actual) | Administrative Assistant
-employer: Pathways School
-closing_date: 2026-09-11T23:59:00+01:00
-reason: Clear admin/service title: administrative assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: d4f0fcdc2eeb963913798ea0bea40d4bad32b3547b5c16bb487fc17d452e5198
-source: Teaching Vacancies
-source_job_id: administrative-assistant-pathways-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-pathways-school
----
 
 ---
 action: 
@@ -94,6 +79,21 @@ factual_fingerprint: db828f86945354209bcc3e3f7f121e353ba338bc66c495408182223ec0a
 source: Teaching Vacancies
 source_job_id: attendance-officer-51e5944a-f923-43fe-901e-fe10c0fa1676
 source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-51e5944a-f923-43fe-901e-fe10c0fa1676
+---
+
+---
+action: 
+SELECTED | London | Croydon, London, CR0 2EA | £22,428.61 - £23,747.62 Annually (Actual) TPA 8 / NJC 6 - 10 - £30,841 - £32,655pa FTE | Finance & Admin Assistant
+employer: Broadmead Primary School
+closing_date: 2026-09-23T23:59:00+01:00
+reason: Clear admin/service title: admin assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 03b59eab079f033f34b95832efbbc91672e93ad8ae0e3363c2479b0b39e6c4e5
+source: Teaching Vacancies
+source_job_id: finance-admin-assistant-broadmead-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-admin-assistant-broadmead-primary-school
 ---
 
 ---
@@ -265,6 +265,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assist
 
 ---
 action: 
+POSS | London | Dagenham, London, RM9 6PH | £25,514.00 Annually (Actual) | Administrative Assistant
+employer: Pathways School
+closing_date: 2026-09-11T23:59:00+01:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: d4f0fcdc2eeb963913798ea0bea40d4bad32b3547b5c16bb487fc17d452e5198
+source: Teaching Vacancies
+source_job_id: administrative-assistant-pathways-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-pathways-school
+---
+
+---
+action: 
 POSS | London | London, London, NW10 2UF | £27,254.00 Annually (FTE) Term Time Only | Administrator
 employer: North Brent School
 closing_date: 2026-09-11T23:59:00+01:00
@@ -369,6 +384,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/student-services-and-
 - [Financial Controller](https://teaching-vacancies.service.gov.uk/jobs/financial-controller-69b53fc4-0e74-4fcc-8b97-a4bff926f1dd) — Insufficient admin/service evidence.
 - [Fundraising Officer](https://teaching-vacancies.service.gov.uk/jobs/fundraising-officer-ac67c185-438c-4d63-82c9-4fcd5524afc9) — Insufficient admin/service evidence.
 - [Head of Governance & Compliance](https://teaching-vacancies.service.gov.uk/jobs/head-of-governance-compliance-the-charter-schools-educational-trust) — Insufficient admin/service evidence.
+- [HR Assistant](https://teaching-vacancies.service.gov.uk/jobs/hr-assistant-wanstead-high-school) — Insufficient admin/service evidence.
+- [HR Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-ark-oval-primary-academy-croydon-surrey) — Insufficient admin/service evidence.
 - [HR Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-woodside-primary-school-croydon-surrey) — Insufficient admin/service evidence.
 - [Human Resources & Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/human-resources-operations-manager-the-woodland-academy-trust) — Manager title salary ceiling £59,778 is not below £28,000.
 - [Human Resources Manager (Schools)](https://teaching-vacancies.service.gov.uk/jobs/human-resources-manager-schools) — Manager title salary ceiling £41,000 is not below £28,000.
@@ -381,14 +398,16 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/student-services-and-
 - [Payroll Officer](https://teaching-vacancies.service.gov.uk/jobs/payroll-officer-b2efa37a-6b4a-4d64-ab55-23d9744d8569) — Insufficient admin/service evidence.
 - [Receptionist/Medical Administrator](https://teaching-vacancies.service.gov.uk/jobs/receptionist-medical-administrator) — Missing salary or pay scale.
 - [Recruitment and Engagement Manager](https://teaching-vacancies.service.gov.uk/jobs/recruitment-and-engagement-manager) — Manager title salary ceiling £42,060 is not below £28,000.
+- [Reprographics Officer](https://teaching-vacancies.service.gov.uk/jobs/reprographics-officer-wallington-county-grammar-school) — Insufficient admin/service evidence.
 - [SBM/CFO](https://teaching-vacancies.service.gov.uk/jobs/sbm-cfo) — Insufficient admin/service evidence.
-- [School Operations, Communications & Development Officer](https://teaching-vacancies.service.gov.uk/jobs/school-operations-communications-development-officer) — Insufficient admin/service evidence.
+- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-95955f31-beb3-4e05-ba66-8ff177df44f8) — Manager title salary ceiling £54,843 is not below £28,000.
 - [School Social Worker](https://teaching-vacancies.service.gov.uk/jobs/school-social-worker-whitefriars-school) — Out-of-scope occupation: social worker.
 - [SENDCo Assistant](https://teaching-vacancies.service.gov.uk/jobs/sendco-assistant-red-hill-primary-school-chislehurst-kent) — Insufficient admin/service evidence.
 - [Senior Administrative Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-administrative-officer-mossbourne-community-academy-london) — Insufficient admin/service evidence.
 - [Senior Executive Assistant to Headteacher](https://teaching-vacancies.service.gov.uk/jobs/senior-executive-assistant-to-headteacher) — Out-of-scope occupation: teacher, headteacher.
 - [Senior Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-finance-officer-chingford-academies-trust) — Insufficient admin/service evidence.
 - [Trust Executive Assistant](https://teaching-vacancies.service.gov.uk/jobs/trust-executive-assistant-astrum-multi-academy-trust) — Insufficient admin/service evidence.
+- [Trust Senior Admin Officer](https://teaching-vacancies.service.gov.uk/jobs/trust-senior-admin-officer) — Insufficient admin/service evidence.
 - [Welfare & Administrative Officer (Fixed term contract - Maternity cover)](https://teaching-vacancies.service.gov.uk/jobs/welfare-administrative-officer-fixed-term-contract-maternity-cover) — Insufficient admin/service evidence.
 
 ## Safety boundary

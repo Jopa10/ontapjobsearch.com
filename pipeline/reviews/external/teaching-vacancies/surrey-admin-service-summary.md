@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Surrey
 
-review_date: 2026-09-09
-review_fingerprint: 76841574c9012ebac614424288ab1f20671b4cb3cd0c44eda4b049d0864e1018
-routing_manifest_sha256: 4a958bab8a32e70948984372cc0d4828c1f97fe1d8d6cdff8758ffcbe54b1245
+review_date: 2026-09-10
+review_fingerprint: f3183d552db0e8422e821396839201b239b311f280d12293cabdb33b4be8dceb
+routing_manifest_sha256: 59e27ec5f0988f3fbff7710c6431ef08819873d43138c8fff91d89bff025fcb0
 ontap_region: Surrey
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 6
+- Records: 7
 - Selected: 2
-- POSS awaiting decision: 0
+- POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 4
 
@@ -53,7 +53,20 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-assistant-fox-
 
 ## POSS — choose SELECT or EXCLUDE
 
-- None.
+---
+action: 
+POSS | Surrey | Weybridge, South East, KT13 8UZ | Salary ELM6 £30,647 FTE Actual Salary £17,026 | HR Administrator
+employer: Heathside School
+closing_date: 2026-09-21T12:00:00+01:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 44f91d9d394ad063e9c5378f6c16053ca64eb7fa0d42e05d7fc30994999fc28a
+source: Teaching Vacancies
+source_job_id: hr-administrator-1dca9cd8-4ff7-45e1-986b-c7d1c85e6a0a
+source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-1dca9cd8-4ff7-45e1-986b-c7d1c85e6a0a
+---
 
 ## EXCLUDED BY REVIEW
 

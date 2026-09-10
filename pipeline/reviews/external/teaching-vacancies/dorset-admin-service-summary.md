@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Dorset
 
-review_date: 2026-09-09
-review_fingerprint: 63750c95af7420161f90cad34c61d0718fe1b01c5fdf40821ee54bda033e0ba2
-routing_manifest_sha256: 4a958bab8a32e70948984372cc0d4828c1f97fe1d8d6cdff8758ffcbe54b1245
+review_date: 2026-09-10
+review_fingerprint: 8c7ab34a5b4732504be6ef11883af29f8a5b3058ae296e71cbf95a9b5fe1a26c
+routing_manifest_sha256: 59e27ec5f0988f3fbff7710c6431ef08819873d43138c8fff91d89bff025fcb0
 ontap_region: Dorset
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 4
-- Selected: 2
+- Records: 5
+- Selected: 3
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 1
@@ -34,6 +34,21 @@ factual_fingerprint: ad1b4ec2d96614ab3f34d6d240a42db92c96be59a29c5499028d2cbfe76
 source: Teaching Vacancies
 source_job_id: administrator-sixth-form-study-centre-3a398641-1a04-436d-8d95-d6c3dd1d9ae1
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-sixth-form-study-centre-3a398641-1a04-436d-8d95-d6c3dd1d9ae1
+---
+
+---
+action: 
+SELECTED | Dorset | Bournemouth, South West, BH8 9PW | £26,466.48 Annually (Actual) Full time, Term Time Only plus two weeks contract (41 weeks per annum) . Actual - £26,466.48 (The Full Time Equivalent is £30,078). | PA to Leadership Team
+employer: The Bishop of Winchester Academy
+closing_date: 2026-09-23T23:59:00+01:00
+reason: Clear admin/service title: pa to
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: a0f7aceaaaf2bb770b1eb6762c0fc0059edcac12d1b75673e0bacb3ded5d2c90
+source: Teaching Vacancies
+source_job_id: pa-to-leadership-team-b8e78b62-3fce-486c-bfe4-ebd07a02857c
+source_url: https://teaching-vacancies.service.gov.uk/jobs/pa-to-leadership-team-b8e78b62-3fce-486c-bfe4-ebd07a02857c
 ---
 
 ---

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Greater Manchester - South
 
-review_date: 2026-09-09
+review_date: 2026-09-10
 review_fingerprint: 1a9afeed8209ca2575efe164f67697e4d7cabb3e183f1fdc6c996dd0baf4c8a3
-routing_manifest_sha256: 4a958bab8a32e70948984372cc0d4828c1f97fe1d8d6cdff8758ffcbe54b1245
+routing_manifest_sha256: 59e27ec5f0988f3fbff7710c6431ef08819873d43138c8fff91d89bff025fcb0
 ontap_region: Greater Manchester - South
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 5
+- Records: 4
 - Selected: 1
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 3
+- Hard pass: 2
 
 ## SELECTED
 
@@ -61,7 +61,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-assistant-
 
 - [Casual Committee Clerk](https://teaching-vacancies.service.gov.uk/jobs/casual-committee-clerk-the-laurus-trust-cheadle-not-recorded) — Insufficient admin/service evidence.
 - [Senior Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-finance-officer-tameside-alternative-provision-academy) — Insufficient admin/service evidence.
-- [Trust Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/trust-finance-manager-altrincham-college-altrincham-cheshire) — Manager title salary ceiling £39,681 is not below £28,000.
 
 ## Safety boundary
 

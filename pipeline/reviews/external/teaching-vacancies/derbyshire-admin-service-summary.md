@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Derbyshire
 
-review_date: 2026-09-09
+review_date: 2026-09-10
 review_fingerprint: e62eee8ea893fa1d2d576792eb320e652d58b8c6d2c6bf6253fdde917caee065
-routing_manifest_sha256: 4a958bab8a32e70948984372cc0d4828c1f97fe1d8d6cdff8758ffcbe54b1245
+routing_manifest_sha256: 59e27ec5f0988f3fbff7710c6431ef08819873d43138c8fff91d89bff025fcb0
 ontap_region: Derbyshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 8
+- Records: 7
 - Selected: 2
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 6
+- Hard pass: 5
 
 ## SELECTED
 
@@ -65,7 +65,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-school-b
 - [PA to Senior Leadership Team & Cover Manager](https://teaching-vacancies.service.gov.uk/jobs/pa-to-senior-leadership-team-cover-manager) — Manager title salary ceiling £37,280 is not below £28,000.
 - [Safeguarding Officer](https://teaching-vacancies.service.gov.uk/jobs/safeguarding-officer-the-bolsover-school) — Insufficient admin/service evidence.
 - [School Business Assistant - Data and Exams](https://teaching-vacancies.service.gov.uk/jobs/school-business-assistant-data-and-exams) — Insufficient admin/service evidence.
-- [School Business Lead](https://teaching-vacancies.service.gov.uk/jobs/school-business-lead-hollingwood-primary-school-chesterfield-derbyshire) — Insufficient admin/service evidence.
 - [Teaching Assistant Level 3 (Personal Care)](https://teaching-vacancies.service.gov.uk/jobs/teaching-assistant-level-3-personal-care-hope-valley-college) — Out-of-scope occupation: teaching assistant.
 
 ## Safety boundary

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Buckinghamshire
 
-review_date: 2026-09-09
-review_fingerprint: 3ed086ba812da2dc002bb1363fb33777453af2ec73be35e9cd9c1743a8230579
-routing_manifest_sha256: 4a958bab8a32e70948984372cc0d4828c1f97fe1d8d6cdff8758ffcbe54b1245
+review_date: 2026-09-10
+review_fingerprint: a1b19071eef680f697f9b9125cb69cee17a41245ad5234d6ccb35ec519c8d631
+routing_manifest_sha256: 59e27ec5f0988f3fbff7710c6431ef08819873d43138c8fff91d89bff025fcb0
 ontap_region: Buckinghamshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 12
-- Selected: 5
+- Records: 11
+- Selected: 4
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 6
@@ -64,21 +64,6 @@ factual_fingerprint: 2e33d1c0600d42e6202fe86ee2056ed0bbef47b23ab8f35ed48e84e7533
 source: Teaching Vacancies
 source_job_id: attendance-administrator-william-harding-school-aylesbury-buckinghamshire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-administrator-william-harding-school-aylesbury-buckinghamshire
----
-
----
-action: 
-SELECTED | Buckinghamshire | Amersham, South East, HP7 9HH | Bucks Pay Range 3.16 £24,074 pro rata / £29,114 FTE | Attendance Officer
-employer: Amersham School
-closing_date: 2026-09-18T23:59:00+01:00
-reason: Clear admin/service title: attendance officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: b32644a80dd55010784a06a704d1a69c6c3c5d03fb2842c61d860686c88b0759
-source: Teaching Vacancies
-source_job_id: attendance-officer-amersham-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-amersham-school
 ---
 
 ---

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Sussex
 
-review_date: 2026-09-09
-review_fingerprint: d39d75134052de35a4f7f622706bcd41864a87b1891d6a4a2afda9125a3ce51f
-routing_manifest_sha256: 4a958bab8a32e70948984372cc0d4828c1f97fe1d8d6cdff8758ffcbe54b1245
+review_date: 2026-09-10
+review_fingerprint: d39433855b8e93b15c5e96ef26d831853f02f2f427cf05a820f3c62cbed38ff1
+routing_manifest_sha256: 59e27ec5f0988f3fbff7710c6431ef08819873d43138c8fff91d89bff025fcb0
 ontap_region: Sussex
 slice_category: admin_service
 slice_status: LIVE
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 4
-- Selected: 2
+- Records: 5
+- Selected: 3
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 1
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Sussex | Eastbourne, South East, BN23 8ED | £25,316 - £26,378 | Administration Assistant
+employer: Shinewater Primary School
+closing_date: 2026-09-25T12:00:00+01:00
+reason: Clear admin/service title: administration assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 0ffacc0799951be3fe036ded15fa5a45948c313a0ad4bf56fd030a43f0e2fdae
+source: Teaching Vacancies
+source_job_id: administration-assistant-shinewater-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-shinewater-primary-school
+---
 
 ---
 action: 

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Wiltshire
 
-review_date: 2026-09-09
-review_fingerprint: 4e2a503f1649f6cf76caa4bfe0cda218ae630c57a1b6ae35cf5d26dce3522504
-routing_manifest_sha256: 4a958bab8a32e70948984372cc0d4828c1f97fe1d8d6cdff8758ffcbe54b1245
+review_date: 2026-09-10
+review_fingerprint: cb6c3d806ccb6ae1d5778be799d4c751d993957e28d0f3a771e5c7783ee4d782
+routing_manifest_sha256: 59e27ec5f0988f3fbff7710c6431ef08819873d43138c8fff91d89bff025fcb0
 ontap_region: Wiltshire
 slice_category: admin_service
 slice_status: LIVE
@@ -38,21 +38,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-a0e6b27
 
 ---
 action: 
-SELECTED | Wiltshire | Marlborough, SN8 4AX | £34,541.00 - £38,212.00 Annually (FTE) NJC Point 22-26 | IT System Administrator - Excalibur Shared Services
-employer: Excalibur Academies Trust
-closing_date: 2026-09-11T23:59:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: ac87d40cabb5045c058c55bab1f459b4b18efd08cc590a85d8d05f551c4c98fb
-source: Teaching Vacancies
-source_job_id: it-system-administrator-excalibur-shared-services-1177ebd4-e195-4745-824b-6613f2065ccf
-source_url: https://teaching-vacancies.service.gov.uk/jobs/it-system-administrator-excalibur-shared-services-1177ebd4-e195-4745-824b-6613f2065ccf
----
-
----
-action: 
 SELECTED | Wiltshire | Trowbridge, South West, BA14 9EN | £13.07 - £13.48 Hourly 20 hours per week , term time only | Receptionist
 employer: St Augustine's Catholic College
 closing_date: 2026-09-18T12:00:00+01:00
@@ -64,6 +49,21 @@ factual_fingerprint: 3d2ecc19f0988a25b6f87e12a6194aa46e0e95041bd241251ba759ac8ed
 source: Teaching Vacancies
 source_job_id: receptionist-st-augustine-s-catholic-college
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-st-augustine-s-catholic-college
+---
+
+---
+action: 
+SELECTED | Wiltshire | Swindon, South West, SN4 7HG | £25,185.00 - £25,989.00 Annually (FTE) Actual Salary: £20,491 - £21,145 (DOE) pro rata | School Attendance Administrator
+employer: Royal Wootton Bassett Academy
+closing_date: 2026-09-27T23:59:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: b068ce2f24f3ec8333c6e86dc7811c73a908d3069aca9d5d0d908c146e0b715d
+source: Teaching Vacancies
+source_job_id: school-attendance-administrator
+source_url: https://teaching-vacancies.service.gov.uk/jobs/school-attendance-administrator
 ---
 
 ---

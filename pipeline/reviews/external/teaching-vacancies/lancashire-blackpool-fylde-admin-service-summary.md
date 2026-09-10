@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Lancashire - Blackpool & Fylde
 
-review_date: 2026-09-09
-review_fingerprint: c7d10750153c54412cbad0be1b2e3fdf20207b501e5c5c4206fcc18752455077
-routing_manifest_sha256: 4a958bab8a32e70948984372cc0d4828c1f97fe1d8d6cdff8758ffcbe54b1245
+review_date: 2026-09-10
+review_fingerprint: bd458383e98030bc65fd3f656ac7346995042063793b6c7135bcfe73ff77a9a8
+routing_manifest_sha256: 59e27ec5f0988f3fbff7710c6431ef08819873d43138c8fff91d89bff025fcb0
 ontap_region: Lancashire - Blackpool & Fylde
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 1
-- Selected: 1
+- Records: 2
+- Selected: 2
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 0
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Lancashire - Blackpool & Fylde | Fleetwood, North West, FY7 6EU | £25,614.00 - £26,016.00 Annually (FTE) | Administrative Assistant
+employer: St. Mary's Catholic Primary School, Fleetwood
+closing_date: 2026-10-01T12:00:00+01:00
+reason: Clear admin/service title: administrative assistant
+jobg8_check: NO_MATCH
+slice_status: UNREGISTERED
+migration_status: 
+factual_fingerprint: a12759747549a8ea97e6ca7b427c188ca7c96f1f826ae29688282c81bc0b9e3d
+source: Teaching Vacancies
+source_job_id: administrative-assistant-st-mary-s-catholic-primary-school-fleetwood-fleetwood-lancashire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-st-mary-s-catholic-primary-school-fleetwood-fleetwood-lancashire
+---
 
 ---
 action: 

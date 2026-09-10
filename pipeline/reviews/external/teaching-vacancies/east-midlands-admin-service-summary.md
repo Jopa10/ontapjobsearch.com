@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — East Midlands
 
-review_date: 2026-09-09
-review_fingerprint: 42538ffef7eb6f4c342f55625dbe162a954fb2c4887f98a69a43ae2d077541fd
-routing_manifest_sha256: 4a958bab8a32e70948984372cc0d4828c1f97fe1d8d6cdff8758ffcbe54b1245
+review_date: 2026-09-10
+review_fingerprint: 7beba41413f38380a0e2d16c6d1389dfe552088eab6269e836973cba8d01c718
+routing_manifest_sha256: 59e27ec5f0988f3fbff7710c6431ef08819873d43138c8fff91d89bff025fcb0
 ontap_region: East Midlands
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 11
-- Selected: 5
+- Records: 9
+- Selected: 4
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 4
 
 ## SELECTED
-
----
-action: 
-SELECTED | East Midlands | Burton-on-Trent, West Midlands, DE14 2RE | £25,583.00 - £26,403.00 Annually (FTE) Actual Salary is £11,051.48 - £11,405.70 for 18.50 hours a week | Administration Assistant
-employer: Lansdowne Infant Academy
-closing_date: 2026-09-10T09:00:00+01:00
-reason: Clear admin/service title: administration assistant
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: aed8e03a83391bc1c48b5cdb0c4cf47bd66c4a86f1ebb1189c39e788b56d9a0a
-source: Teaching Vacancies
-source_job_id: administration-assistant-lansdowne-infant-academy-burton-on-trent-staffordshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-lansdowne-infant-academy-burton-on-trent-staffordshire
----
 
 ---
 action: 
@@ -120,7 +105,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-business-assis
 ## HARD_PASS
 
 - [Executive Assistant](https://teaching-vacancies.service.gov.uk/jobs/executive-assistant-derby-college) — Insufficient admin/service evidence.
-- [Level 1 Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/level-1-personal-care-assistant-village-primary-academy) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-village-primary-academy-derby-derbyshire) — Manager title salary ceiling £32,597 is not below £28,000.
 - [Senior Contract & Procurement Manager](https://teaching-vacancies.service.gov.uk/jobs/senior-contract-procurement-manager-embark-multi-academy-trust-derby-not-recorded) — Manager title salary ceiling £54,000 is not below £28,000.
 - [Trust Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/trust-finance-manager-98078324-9858-463d-9f77-566320746539) — Manager title salary ceiling £44,075 is not below £28,000.

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - East
 
-review_date: 2026-09-09
-review_fingerprint: 4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945
-routing_manifest_sha256: 4a958bab8a32e70948984372cc0d4828c1f97fe1d8d6cdff8758ffcbe54b1245
+review_date: 2026-09-10
+review_fingerprint: 488927b5f0406f4a95ec46b01e033032376cafbfc8eea8bd166ab6ce7d49d138
+routing_manifest_sha256: 59e27ec5f0988f3fbff7710c6431ef08819873d43138c8fff91d89bff025fcb0
 ontap_region: Yorkshire - East
 slice_category: admin_service
 slice_status: LIVE
@@ -13,19 +13,45 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 1
-- Selected: 0
-- POSS awaiting decision: 0
+- Records: 3
+- Selected: 1
+- POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 1
 
 ## SELECTED
 
-- None.
+---
+action: 
+SELECTED | Yorkshire - East | Bridlington, Yorkshire and the Humber, YO16 4QU | £26,806.00 - £27,245.00 Annually (Actual) | Exams Officer
+employer: Bridlington School
+closing_date: 2026-09-21T09:00:00+01:00
+reason: Clear admin/service title: exams officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 6ce974b3647f61c8dd7f5fe966f15da655eb0f40a3aa2c2d6dbfe40872e9c424
+source: Teaching Vacancies
+source_job_id: exams-officer-bridlington-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-bridlington-school
+---
 
 ## POSS — choose SELECT or EXCLUDE
 
-- None.
+---
+action: 
+POSS | Yorkshire - East | Hull, Yorkshire and the Humber, HU9 5YB | £14,429.00 - £15,634.00 Annually (Actual) Salary shown above is pro rata, based on an Full Time Equivalent of £27,709 to £30,023 (Grade F, Scale Points 8-13) | SEND Administrator
+employer: Liberty Academy
+closing_date: 2026-09-23T23:59:00+01:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: a09a59aaa31e29ac758041065db79fe304145edd97f15f655270037fd7b5346b
+source: Teaching Vacancies
+source_job_id: send-administrator-liberty-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-liberty-academy
+---
 
 ## EXCLUDED BY REVIEW
 

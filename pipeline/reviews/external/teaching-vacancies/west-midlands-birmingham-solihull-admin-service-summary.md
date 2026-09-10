@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Birmingham & Solihull
 
-review_date: 2026-09-09
+review_date: 2026-09-10
 review_fingerprint: 51843ae924119521cfd4514ca2b549228f22f77aaf46e6ae3b710d8d63f0a971
-routing_manifest_sha256: 4a958bab8a32e70948984372cc0d4828c1f97fe1d8d6cdff8758ffcbe54b1245
+routing_manifest_sha256: 59e27ec5f0988f3fbff7710c6431ef08819873d43138c8fff91d89bff025fcb0
 ontap_region: West Midlands - Birmingham & Solihull
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 20
+- Records: 21
 - Selected: 6
 - POSS awaiting decision: 4
 - Excluded: 0
-- Hard pass: 10
+- Hard pass: 11
 
 ## SELECTED
 
@@ -189,6 +189,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-
 - [Regional Commercial Procurement Manager](https://teaching-vacancies.service.gov.uk/jobs/regional-commercial-procurement-manager-ormiston-academies-trust) — Manager title salary ceiling £63,638 is not below £28,000.
 - [Regional People Partner](https://teaching-vacancies.service.gov.uk/jobs/regional-people-partner-4ed6680e-930f-489a-b0d0-658557e0d3dc) — Insufficient admin/service evidence.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-lordswood-boys-school) — Manager title salary ceiling £42,839 is not below £28,000.
+- [Student Support and Admissions Coordinator](https://teaching-vacancies.service.gov.uk/jobs/student-support-and-admissions-coordinator) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

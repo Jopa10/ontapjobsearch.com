@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - South
 
-review_date: 2026-09-09
+review_date: 2026-09-10
 review_fingerprint: 281e8cc8f1ce2a926ed8aa49f58f013e508eaa75fe555554442bd9432fc7b940
-routing_manifest_sha256: 4a958bab8a32e70948984372cc0d4828c1f97fe1d8d6cdff8758ffcbe54b1245
+routing_manifest_sha256: 59e27ec5f0988f3fbff7710c6431ef08819873d43138c8fff91d89bff025fcb0
 ontap_region: Yorkshire - South
 slice_category: admin_service
 slice_status: LIVE
@@ -148,8 +148,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/estates-and-complianc
 - [Finance & Admin Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-admin-manager-prince-edward-primary-school-sheffield-south-yorkshire) — Manager title salary ceiling £41,771 is not below £28,000.
 - [Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-22597e3f-53f4-481f-b336-4ec374710e1b) — Insufficient admin/service evidence.
 - [Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-57d3025b-f701-43b4-bf16-13498ff4c547) — Insufficient admin/service evidence.
-- [Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-st-clare-catholic-multi-academy-trust) — Insufficient admin/service evidence.
 - [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-mercia-learning-trust-sheffield-not-recorded) — Manager title salary ceiling £53,052 is not below £28,000.
+- [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-hatfield-woodhouse-primary-school-doncaster-south-yorkshire) — Insufficient admin/service evidence.
 - [HR Manager](https://teaching-vacancies.service.gov.uk/jobs/hr-manager-f66082bd-6a6e-4f84-9a14-924c810758cb) — Manager title salary ceiling £54,495 is not below £28,000.
 - [HR Manager](https://teaching-vacancies.service.gov.uk/jobs/hr-manager-st-francis-catholic-multi-academy-trust-rotherham-not-recorded) — Manager title salary ceiling £54,495 is not below £28,000.
 - [Learning Manager](https://teaching-vacancies.service.gov.uk/jobs/learning-manager-0bfa4cca-872c-4778-a35f-1fb75b7f4503) — Manager title salary ceiling £36,581 is not below £28,000.

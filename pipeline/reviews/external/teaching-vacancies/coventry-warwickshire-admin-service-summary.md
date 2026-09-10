@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Coventry & Warwickshire
 
-review_date: 2026-09-09
-review_fingerprint: ba6dbea2f3d5f044b47f66c46edd2d08def43d34146030cdb5cc066aa8dad5c9
-routing_manifest_sha256: 4a958bab8a32e70948984372cc0d4828c1f97fe1d8d6cdff8758ffcbe54b1245
+review_date: 2026-09-10
+review_fingerprint: 3a08c82eccec5f842c0019b65b3d2a3afb277fc0d64b36ba9f8129aa6f2c5281
+routing_manifest_sha256: 59e27ec5f0988f3fbff7710c6431ef08819873d43138c8fff91d89bff025fcb0
 ontap_region: West Midlands - Coventry & Warwickshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 3
+- Records: 4
 - Selected: 2
-- POSS awaiting decision: 0
+- POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 1
 
@@ -53,7 +53,20 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/personal-assistant-pa
 
 ## POSS — choose SELECT or EXCLUDE
 
-- None.
+---
+action: 
+POSS | West Midlands - Coventry & Warwickshire | Coventry, CV4 9AP | £8.00 Hourly £8 per hour for the first 12 months followed by national minimum wage for age | HR Support Apprentice
+employer: Finham Park Multi Academy Trust
+closing_date: 2026-09-24T09:00:00+01:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 8797789afb59d41203e3630500abb6a02d87d0ca52fda037f5fd9d33c7dcf3c4
+source: Teaching Vacancies
+source_job_id: hr-support-apprentice-finham-park-multi-academy-trust
+source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-support-apprentice-finham-park-multi-academy-trust
+---
 
 ## EXCLUDED BY REVIEW
 

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Shropshire
 
-review_date: 2026-09-09
-review_fingerprint: f66115b7bd189eea154e866ce582480da1b99cc723a58ef5cef609e128f637e3
-routing_manifest_sha256: 4a958bab8a32e70948984372cc0d4828c1f97fe1d8d6cdff8758ffcbe54b1245
+review_date: 2026-09-10
+review_fingerprint: 239784c1e60281c163ad7e9dea6ac71bd09b0631ef46f8f54f829476530df6d3
+routing_manifest_sha256: 59e27ec5f0988f3fbff7710c6431ef08819873d43138c8fff91d89bff025fcb0
 ontap_region: Shropshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 6
-- Selected: 4
+- Records: 8
+- Selected: 6
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 2
@@ -79,6 +79,36 @@ factual_fingerprint: d02df28199a4f0fef6b7a3b4bf305019f89f37d482ead78f887c0e89ac9
 source: Teaching Vacancies
 source_job_id: business-support-administrator-st-george-s-junior-school-shrewsbury-shropshire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-administrator-st-george-s-junior-school-shrewsbury-shropshire
+---
+
+---
+action: 
+SELECTED | Shropshire | Wellington, South West, TA21 8NE | Between £25,989 and £28,142 | Finance & Admin Assistant
+employer: Beech Grove Primary School
+closing_date: 2026-10-05T12:00:00+01:00
+reason: Clear admin/service title: admin assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 2681a69fb81b317c0905deb5ed55b11c71a14d102bf60e1fc5854e1b253d7877
+source: Teaching Vacancies
+source_job_id: finance-admin-assistant-beech-grove-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-admin-assistant-beech-grove-primary-school
+---
+
+---
+action: 
+SELECTED | Shropshire | Wellington, South West, TA21 8NE | Between £28,598 and £32,061 | SENCo and Safeguarding Admin Assistant - HLTA position
+employer: Beech Grove Primary School
+closing_date: 2026-10-05T12:00:00+01:00
+reason: Clear admin/service title: admin assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 342450e1e02375910378291c0987783af025fb9cb05855a0c5f12170655b052d
+source: Teaching Vacancies
+source_job_id: senco-and-safeguarding-admin-assistant-hlta-position
+source_url: https://teaching-vacancies.service.gov.uk/jobs/senco-and-safeguarding-admin-assistant-hlta-position
 ---
 
 ## POSS — choose SELECT or EXCLUDE

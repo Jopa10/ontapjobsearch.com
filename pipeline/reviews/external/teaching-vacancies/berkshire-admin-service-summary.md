@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Berkshire
 
-review_date: 2026-09-09
-review_fingerprint: 6c9ac7d21d48dc3869d29455c2d8170ee96ddc4da3f066f27c6d130967e6fed9
-routing_manifest_sha256: 4a958bab8a32e70948984372cc0d4828c1f97fe1d8d6cdff8758ffcbe54b1245
+review_date: 2026-09-10
+review_fingerprint: d4223f12fa4e7e476b64196c6e184bf90bd6db96ed948ae1958cd2d83248e470
+routing_manifest_sha256: 59e27ec5f0988f3fbff7710c6431ef08819873d43138c8fff91d89bff025fcb0
 ontap_region: Berkshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 20
-- Selected: 7
+- Records: 19
+- Selected: 6
 - POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 11
@@ -98,21 +98,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/safeguarding-administ
 
 ---
 action: 
-SELECTED | Berkshire | Reading, South East, RG30 2BB | £30,279.00 Annually (FTE) This post is for 30 hours per week, term time only, plus 5 Inset Days, starting salary £30,279pa FTE with pay progression linked to local government SCP salary sale 13-17 (actual pro-rata starting salary £21,116pa) | SEND Administrator Officer
-employer: The WREN School
-closing_date: 2026-09-10T09:00:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 6948df6c5211721cf3cb7956bd23375f2dc4922476bd7ed86ca27e72a7db46fa
-source: Teaching Vacancies
-source_job_id: send-administrator-officer-the-wren-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-officer-the-wren-school
----
-
----
-action: 
 SELECTED | Berkshire | Slough, South East, SL2 5BA | £22,274.00 - £22,957.00 Annually (Actual) | Welfare Assistant & Administrator
 employer: James Elliman Academy
 closing_date: 2026-09-30T12:00:00+01:00
@@ -165,6 +150,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-operations-off
 ## HARD_PASS
 
 - [Casual Lettings Assistant](https://teaching-vacancies.service.gov.uk/jobs/casual-lettings-assistant-maiden-erlegh-chiltern-edge) — Insufficient admin/service evidence.
+- [Exams Manager (s)](https://teaching-vacancies.service.gov.uk/jobs/exams-manager-s) — Manager title salary ceiling £32,509 is not below £28,000.
 - [Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-the-park-federation-academy-trust) — Insufficient admin/service evidence.
 - [Home School Liaison Assistant](https://teaching-vacancies.service.gov.uk/jobs/home-school-liaison-assistant-842866de-b635-4ed9-bb14-58200af5fde1) — Insufficient admin/service evidence.
 - [HR & Recruitment Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-recruitment-officer-the-park-federation-academy-trust) — Insufficient admin/service evidence.
@@ -173,7 +159,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-operations-off
 - [PFM Compliance and Site Officer](https://teaching-vacancies.service.gov.uk/jobs/pfm-compliance-and-site-officer-beechwood-school-slough-berkshire) — Insufficient admin/service evidence.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-2208a3dd-3c53-4978-b7e2-84fb437f4570) — Manager title without salary evidence below £28,000.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-datchet-st-mary-s-cofe-primary-school) — Manager title salary ceiling £46,979 is not below £28,000.
-- [SEND Administration Officer - The Wren School](https://teaching-vacancies.service.gov.uk/jobs/send-administration-officer-the-wren-school) — Missing salary or pay scale.
 - [Senior Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-finance-officer-the-thames-learning-trust) — Insufficient admin/service evidence.
 
 ## Safety boundary

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Hertfordshire
 
-review_date: 2026-09-09
-review_fingerprint: 10f44687b5780c7fc81b67d96ecf1dbb2215a3c479ecd0f9f5203df90c4edfdb
-routing_manifest_sha256: 4a958bab8a32e70948984372cc0d4828c1f97fe1d8d6cdff8758ffcbe54b1245
+review_date: 2026-09-10
+review_fingerprint: 39a3ca4046b3d9dd17783b652747af32c0a6c30c1d327059848652a25aa43e62
+routing_manifest_sha256: 59e27ec5f0988f3fbff7710c6431ef08819873d43138c8fff91d89bff025fcb0
 ontap_region: Hertfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 19
+- Records: 20
 - Selected: 11
-- POSS awaiting decision: 4
+- POSS awaiting decision: 5
 - Excluded: 0
 - Hard pass: 4
 
@@ -187,6 +187,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-receptionist-p
 ---
 
 ## POSS — choose SELECT or EXCLUDE
+
+---
+action: 
+POSS | Hertfordshire | Harpenden, East of England, AL5 5FH | £24,519.00 Annually (FTE) Role is paid £12.71 plus holiday pay. Full time equivalent £24,519 | Attendance and Admin Officer
+employer: Katherine Warington School
+closing_date: 2026-09-23T09:00:00+01:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: f4031657b8ae2307891fe5ca2dcfc49ffa63e891a790ccc829783665a50b254c
+source: Teaching Vacancies
+source_job_id: attendance-and-admin-officer-katherine-warington-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-and-admin-officer-katherine-warington-school
+---
 
 ---
 action: 

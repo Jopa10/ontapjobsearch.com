@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Bristol & Bath
 
-review_date: 2026-09-09
+review_date: 2026-09-10
 review_fingerprint: e206ef895079a3d4d620597bc66cef5b43c2233d6cad515424b588ab665168d6
-routing_manifest_sha256: 4a958bab8a32e70948984372cc0d4828c1f97fe1d8d6cdff8758ffcbe54b1245
+routing_manifest_sha256: 59e27ec5f0988f3fbff7710c6431ef08819873d43138c8fff91d89bff025fcb0
 ontap_region: Bristol & Bath
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 5
+- Records: 7
 - Selected: 2
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 3
+- Hard pass: 5
 
 ## SELECTED
 
@@ -61,7 +61,9 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 
 ## HARD_PASS
 
+- [Administration and Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/administration-and-finance-assistant-fair-furlong-primary-school) — Insufficient admin/service evidence.
 - [Cover Supervisor](https://teaching-vacancies.service.gov.uk/jobs/cover-supervisor-bridge-learning-campus) — Insufficient admin/service evidence.
+- [Office Administrator](https://teaching-vacancies.service.gov.uk/jobs/office-administrator-cheddar-grove-primary-school-bristol-bristol) — Missing salary or pay scale.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-whitchurch-primary-school) — Manager title without salary evidence below £28,000.
 - [School Office Manager](https://teaching-vacancies.service.gov.uk/jobs/school-office-manager-st-mary-s-cofe-primary-school) — Manager title salary ceiling £29,728 is not below £28,000.
 

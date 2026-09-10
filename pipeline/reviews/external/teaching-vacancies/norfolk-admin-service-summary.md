@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Norfolk
 
-review_date: 2026-09-09
-review_fingerprint: 8257464bad555072e7d334448b2b62343cfc21b2100e0b65b85b5cf6a3f4d4c4
-routing_manifest_sha256: 4a958bab8a32e70948984372cc0d4828c1f97fe1d8d6cdff8758ffcbe54b1245
+review_date: 2026-09-10
+review_fingerprint: c05c79ff1ddc11fd6c866af532083c047933cd2e0e92ab3eb719ef234a2240d5
+routing_manifest_sha256: 59e27ec5f0988f3fbff7710c6431ef08819873d43138c8fff91d89bff025fcb0
 ontap_region: Norfolk
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 16
-- Selected: 7
+- Records: 14
+- Selected: 5
 - POSS awaiting decision: 3
 - Excluded: 0
 - Hard pass: 6
@@ -23,47 +23,17 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ---
 action: 
-SELECTED | Norfolk | Norwich, East of England, NR3 1DD | Salary: Support Staff Pay Scale D: £22,374 to £22,729 pro-rata per annum (Actual) (£25,583 - £25,989 full time/full year equivalent) | Administration Assistant
-employer: Jane Austen College
-closing_date: 2026-09-10T01:00:00+01:00
+SELECTED | Norfolk | Diss, East of England, IP22 2QY | Grade 2/3 (£24796- £28142 pro-rata) | Administration Assistant
+employer: Hopton Church of England Primary Academy
+closing_date: 2026-10-02T01:00:00+01:00
 reason: Clear admin/service title: administration assistant
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 724efa9fa5ba790ea57c3e92f0bbaf91fa0cdd1a7fee7fcfe7787789684efa59
+factual_fingerprint: 870b0f18d0c970ebe29d720ef5539eab60ff61e4197de83c8f38a73b4e9fd00d
 source: Teaching Vacancies
-source_job_id: administration-assistant-d18e39b3-4741-40c0-9bbf-2a5916965727
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-d18e39b3-4741-40c0-9bbf-2a5916965727
----
-
----
-action: 
-SELECTED | Norfolk | Fakenham, East of England, NR21 8BN | £8,830.00 - £8,970.00 Annually (FTE) | Administration Assistant
-employer: Fakenham Junior School
-closing_date: 2026-09-09T23:59:00+01:00
-reason: Clear admin/service title: administration assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: ed6edb3a4a2d050937fc2691ae7536d68f3a20930da58201241bbbf225370c55
-source: Teaching Vacancies
-source_job_id: administration-assistant-fakenham-junior-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-fakenham-junior-school
----
-
----
-action: 
-SELECTED | Norfolk | Thetford, East of England, IP24 3DP | Support Staff Pay Scale D: £22,374 to £22,729 pro-rata per annum (Actual) (£25,583 - £25,989 full time/full year equivalent) | Administration Assistant
-employer: Queensway Junior Academy
-closing_date: 2026-09-10T01:00:00+01:00
-reason: Clear admin/service title: administration assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: c4219cc254372923cf3e85795a2fc84cbd08895dc2094fc56071cba3bd98902f
-source: Teaching Vacancies
-source_job_id: administration-assistant-queensway-junior-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-queensway-junior-academy
+source_job_id: administration-assistant-hopton-church-of-england-primary-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-hopton-church-of-england-primary-academy
 ---
 
 ---

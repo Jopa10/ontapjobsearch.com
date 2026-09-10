@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — North East
 
-review_date: 2026-09-09
-review_fingerprint: a794447204dadee113374dc1f2d4babffcd60cd0eb5b7d48feacedac87bdba5a
-routing_manifest_sha256: 4a958bab8a32e70948984372cc0d4828c1f97fe1d8d6cdff8758ffcbe54b1245
+review_date: 2026-09-10
+review_fingerprint: d96da626c7722bec2c50ad56cb6ec51e3865663495a34c076ed4050a4f38eac8
+routing_manifest_sha256: 59e27ec5f0988f3fbff7710c6431ef08819873d43138c8fff91d89bff025fcb0
 ontap_region: North East
 slice_category: admin_service
 slice_status: LIVE
@@ -13,27 +13,27 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 6
+- Records: 5
 - Selected: 1
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 4
 
 ## SELECTED
 
 ---
 action: 
-SELECTED | North East | Newcastle-upon-Tyne, North East, NE3 2JH | £26,403.00 - £27,254.00 (£22,646 - £23,376) | Administrative Assistant Level 3
-employer: Gosforth Academy
-closing_date: 2026-09-10T09:00:00+01:00
-reason: Clear admin/service title: administrative assistant
+SELECTED | North East | Blyth, North East, NE24 2SY | £24,829.00 Annually (Actual) SCP10 | Attendance Officer & Administrator
+employer: Bede Academy
+closing_date: 2026-10-02T09:00:00+01:00
+reason: Clear admin/service title: administrator, attendance officer
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 9e1bdba9ff641bb2093767001042df2b5a930eafbf3703b5538f202b81937596
+factual_fingerprint: 0105b1e26ecf77a30d3162367d75dee318ac214fb8304b1f829bde9c16088460
 source: Teaching Vacancies
-source_job_id: administrative-assistant-level-3-gosforth-academy-newcastle-upon-tyne-tyne-and-wear
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-level-3-gosforth-academy-newcastle-upon-tyne-tyne-and-wear
+source_job_id: attendance-officer-administrator-bede-academy-blyth-northumberland
+source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-administrator-bede-academy-blyth-northumberland
 ---
 
 ## POSS — choose SELECT or EXCLUDE
@@ -46,7 +46,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assist
 
 ## HARD_PASS
 
-- [Communications and Administration Manager](https://teaching-vacancies.service.gov.uk/jobs/communications-and-administration-manager) — Manager title salary ceiling £39,862 is not below £28,000.
 - [Data and Examinations Assistant](https://teaching-vacancies.service.gov.uk/jobs/data-and-examinations-assistant-whickham-school) — Insufficient admin/service evidence.
 - [Deputy Administration Manager](https://teaching-vacancies.service.gov.uk/jobs/deputy-administration-manager) — Manager title salary ceiling £33,119 is not below £28,000.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-st-mary-s-catholic-school) — Manager title salary ceiling £36,581 is not below £28,000.

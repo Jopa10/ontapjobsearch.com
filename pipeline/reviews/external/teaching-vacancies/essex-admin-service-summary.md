@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Essex
 
-review_date: 2026-09-09
-review_fingerprint: 7ccc783d1a3add525fd71d8c254d235cd00e0851d62074e4cd50f44d1d268e18
-routing_manifest_sha256: 4a958bab8a32e70948984372cc0d4828c1f97fe1d8d6cdff8758ffcbe54b1245
+review_date: 2026-09-10
+review_fingerprint: de93987508afca77453c388a16113797a24a41f1e761c68b03e9aada6e90bdfd
+routing_manifest_sha256: 59e27ec5f0988f3fbff7710c6431ef08819873d43138c8fff91d89bff025fcb0
 ontap_region: Essex
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 8
-- Selected: 2
+- Records: 7
+- Selected: 1
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 6
@@ -36,21 +36,6 @@ source_job_id: administrative-assistant-pupil-admissions-pupil-data
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-pupil-admissions-pupil-data
 ---
 
----
-action: 
-SELECTED | Essex | Brentwood, CM13 2HG | £25,415.00 - £25,812.00 Annually (Actual) Essex Pay Scale 4 Point 8-9 | Trust Administrator
-employer: Discovery Educational Trust
-closing_date: 2026-09-09T23:59:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: ab4e5510a4bdb126b7f7f1ffc82894574b748aa733322fa71eb23ddafdec5313
-source: Teaching Vacancies
-source_job_id: trust-administrator-discovery-educational-trust
-source_url: https://teaching-vacancies.service.gov.uk/jobs/trust-administrator-discovery-educational-trust
----
-
 ## POSS — choose SELECT or EXCLUDE
 
 - None.
@@ -61,7 +46,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/trust-administrator-d
 
 ## HARD_PASS
 
-- [Admissions Coordinator](https://teaching-vacancies.service.gov.uk/jobs/admissions-coordinator) — Insufficient admin/service evidence.
+- [Attendance Assistant](https://teaching-vacancies.service.gov.uk/jobs/attendance-assistant-paxman-academy-colchester-essex) — Insufficient admin/service evidence.
 - [Part Time Librarian](https://teaching-vacancies.service.gov.uk/jobs/part-time-librarian-st-bernard-s-high-school) — Insufficient admin/service evidence.
 - [Reprographics Administrator/Receptionist](https://teaching-vacancies.service.gov.uk/jobs/reprographics-administrator-receptionist-plume-school) — Missing salary or pay scale.
 - [School Support Assistant](https://teaching-vacancies.service.gov.uk/jobs/school-support-assistant-hilltop-junior-school) — Insufficient admin/service evidence.

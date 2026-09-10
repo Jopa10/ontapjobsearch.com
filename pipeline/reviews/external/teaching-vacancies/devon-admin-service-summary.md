@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Devon
 
-review_date: 2026-09-09
-review_fingerprint: 8b454246ef842a243ef873b73c41b11eb1db6d637f262289187bbab0ca8906ee
-routing_manifest_sha256: 4a958bab8a32e70948984372cc0d4828c1f97fe1d8d6cdff8758ffcbe54b1245
+review_date: 2026-09-10
+review_fingerprint: 9221730552a2a256b78c678e8bd9167ebf71184a4028847ded45e6b08e2ecc28
+routing_manifest_sha256: 59e27ec5f0988f3fbff7710c6431ef08819873d43138c8fff91d89bff025fcb0
 ontap_region: Devon
 slice_category: admin_service
 slice_status: LIVE
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 12
-- Selected: 3
+- Records: 16
+- Selected: 5
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 8
+- Hard pass: 10
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Devon | Plymouth, South West, PL6 8EE | £8,320.00 - £8,590.00 Annually (Actual) | Administration Assistant
+employer: Cann Bridge School
+closing_date: 2026-09-30T12:00:00+01:00
+reason: Clear admin/service title: administration assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 589eb2c3c23f0ba65300dfa2d9e8e5b724b99f8c471aa1fc89b9beda5a2df79c
+source: Teaching Vacancies
+source_job_id: administration-assistant-5bf8284e-5a65-4c7e-bb0a-d149927a1892
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-5bf8284e-5a65-4c7e-bb0a-d149927a1892
+---
 
 ---
 action: 
@@ -34,6 +49,21 @@ factual_fingerprint: e93d0dded7add0373e7862d342d0c0f1a9c97565ef849e07a503af1df8c
 source: Teaching Vacancies
 source_job_id: attendance-administrator-65068773-d1be-4711-9b88-bde2f62d9e1b
 source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-administrator-65068773-d1be-4711-9b88-bde2f62d9e1b
+---
+
+---
+action: 
+SELECTED | Devon | Exeter, South West, EX2 6AP | £23,071.62 - £25,407.68 | Attendance Officer
+employer: Isca Academy
+closing_date: 2026-09-20T23:59:00+01:00
+reason: Clear admin/service title: attendance officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 82e5c3bf0f35cb242ccc7b8ca8e676705b95e6b813f0c8df895ec28fe08f05a9
+source: Teaching Vacancies
+source_job_id: attendance-officer-b4594263-9c2d-4e13-a32d-003ed85d148f
+source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-b4594263-9c2d-4e13-a32d-003ed85d148f
 ---
 
 ---
@@ -89,14 +119,16 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/reception-and-adminis
 
 ## HARD_PASS
 
+- [[260909] Office Manager](https://teaching-vacancies.service.gov.uk/jobs/260909-office-manager) — Manager title salary ceiling £33,673 is not below £28,000.
 - [Chief Financial Officer (CFO)](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-cfo-torquay-boys-grammar-school-torquay-devon) — Insufficient admin/service evidence.
+- [Cover Supervisor](https://teaching-vacancies.service.gov.uk/jobs/cover-supervisor-8280cab3-6b8e-472b-9889-9e3a0652cdd8) — Insufficient admin/service evidence.
 - [Executive Assistant](https://teaching-vacancies.service.gov.uk/jobs/executive-assistant-chulmleigh-community-college) — Missing salary or pay scale.
 - [Finance and Contracts Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-and-contracts-officer) — Insufficient admin/service evidence.
 - [Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-learning-academies-trust-plymouth-not-recorded) — Insufficient admin/service evidence.
 - [Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-dartmoor-multi-academy-trust) — Insufficient admin/service evidence.
 - [Finance Business Partner - Maternity Cover](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-maternity-cover) — Insufficient admin/service evidence.
+- [HR Assistant](https://teaching-vacancies.service.gov.uk/jobs/hr-assistant-cann-bridge-school) — Insufficient admin/service evidence.
 - [Medical Conditions and Student Health Lead](https://teaching-vacancies.service.gov.uk/jobs/medical-conditions-and-student-health-lead) — Insufficient admin/service evidence.
-- [Payroll and HR Systems Officer (Central Team)](https://teaching-vacancies.service.gov.uk/jobs/payroll-and-hr-systems-officer-central-team-plymouth-cast) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

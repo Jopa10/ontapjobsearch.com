@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cornwall
 
-review_date: 2026-09-09
-review_fingerprint: 71f5f8fcb11a174c86b4b8e3a8b3a4b034182b070e598afba8a27cfe9f7f420d
-routing_manifest_sha256: 4a958bab8a32e70948984372cc0d4828c1f97fe1d8d6cdff8758ffcbe54b1245
+review_date: 2026-09-10
+review_fingerprint: aee102376b0793ff9233662bcc8a9576c628ac81298c0af442c0417090288d1e
+routing_manifest_sha256: 59e27ec5f0988f3fbff7710c6431ef08819873d43138c8fff91d89bff025fcb0
 ontap_region: Cornwall
 slice_category: admin_service
 slice_status: LIVE
@@ -57,12 +57,12 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 action: 
 POSS | Cornwall | Liskeard, PL14 3EA | £32,046.00 - £34,811.00 Annually (FTE) Actual salary approx. £21,727 - £23,602 | Governance Professional to Trust Board and Local Governing Committees
 employer: South East Cornwall Multi Academy Regional Trust
-closing_date: 2026-09-22T23:59:00+01:00
+closing_date: 2026-09-22T09:00:00+01:00
 reason: Borderline school administration title: governance professional
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 7454d271871f00f557fb714c8baf2ab76bf991b1385ffa6caa95a2a4c9226444
+factual_fingerprint: d7335c9fe7e934cfc2dbf3a849e56f62afa5c4ee54747d2c7ca92455b198b180
 source: Teaching Vacancies
 source_job_id: governance-professional-to-trust-board-and-local-governing-committees-south-east-cornwall-multi-academy-regional-trust-liskeard-not-recorded
 source_url: https://teaching-vacancies.service.gov.uk/jobs/governance-professional-to-trust-board-and-local-governing-committees-south-east-cornwall-multi-academy-regional-trust-liskeard-not-recorded

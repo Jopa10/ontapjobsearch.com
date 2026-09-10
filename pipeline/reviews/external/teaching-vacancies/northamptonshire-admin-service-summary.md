@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Northamptonshire
 
-review_date: 2026-09-09
-review_fingerprint: b19a66bec8da07a57529aa35f310cb86f93d2866eb077490d7ca7a92683adeec
-routing_manifest_sha256: 4a958bab8a32e70948984372cc0d4828c1f97fe1d8d6cdff8758ffcbe54b1245
+review_date: 2026-09-10
+review_fingerprint: 122323751230c631fffa3120bbfd83fc4c727822fff53f6a839cbdae5b710c8f
+routing_manifest_sha256: 59e27ec5f0988f3fbff7710c6431ef08819873d43138c8fff91d89bff025fcb0
 ontap_region: Northamptonshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,30 +13,32 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 6
-- Selected: 1
-- POSS awaiting decision: 3
+- Records: 8
+- Selected: 0
+- POSS awaiting decision: 4
 - Excluded: 0
-- Hard pass: 2
+- Hard pass: 4
 
 ## SELECTED
 
+- None.
+
+## POSS — choose SELECT or EXCLUDE
+
 ---
 action: 
-SELECTED | Northamptonshire | Kettering, East Midlands, NN14 4AE | £26,846.00 - £27,274.00 Annually (FTE) Pro rata to £20,261.08 to £220,584.10 | Administrator
+POSS | Northamptonshire | Kettering, East Midlands, NN14 4AE | £26,846.00 - £27,274.00 Annually (FTE) Pro rata to £20,261.08 to £20,584.10 | Administrator
 employer: Cranford CofE Primary School
 closing_date: 2026-09-25T23:59:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: bca1c45ac1a8413a479628aadffd35c32bc6d5e7b73bfb056197036ce7800f2a
+factual_fingerprint: 6bfd439d015991525ca4c504f41199fc995b4d9d03037700076a0e957c1b6746
 source: Teaching Vacancies
 source_job_id: administrator-cranford-cofe-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-cranford-cofe-primary-school
 ---
-
-## POSS — choose SELECT or EXCLUDE
 
 ---
 action: 
@@ -89,8 +91,10 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/trust-executive-assis
 
 ## HARD_PASS
 
+- [Exams Office Manager](https://teaching-vacancies.service.gov.uk/jobs/exams-office-manager-bishop-stopford-school) — Manager title salary ceiling £33,699 is not below £28,000.
+- [Head Teacher's PA and Medical Lead](https://teaching-vacancies.service.gov.uk/jobs/head-teacher-s-pa-and-medical-lead) — Out-of-scope occupation: teacher.
+- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-south-end-infant-school) — Manager title salary ceiling £37,280 is not below £28,000.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-woodland-view-primary-school-northampton-northamptonshire) — Manager title salary ceiling £48,738 is not below £28,000.
-- [St James Infant and Pre School Business Partner](https://teaching-vacancies.service.gov.uk/jobs/st-james-infant-and-pre-school-business-partner-inmat) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

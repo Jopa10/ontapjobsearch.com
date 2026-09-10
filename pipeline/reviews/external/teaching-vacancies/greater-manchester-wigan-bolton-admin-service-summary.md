@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Greater Manchester - Wigan & Bolton
 
-review_date: 2026-09-09
+review_date: 2026-09-10
 review_fingerprint: 65918dd8489ebfe7628a54445dc9066a911274c0bbd4b335d8786443e9ba1abc
-routing_manifest_sha256: 4a958bab8a32e70948984372cc0d4828c1f97fe1d8d6cdff8758ffcbe54b1245
+routing_manifest_sha256: 59e27ec5f0988f3fbff7710c6431ef08819873d43138c8fff91d89bff025fcb0
 ontap_region: Greater Manchester - Wigan & Bolton
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 5
+- Records: 6
 - Selected: 1
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 4
+- Hard pass: 5
 
 ## SELECTED
 
@@ -46,6 +46,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-receptionist-h
 
 ## HARD_PASS
 
+- [Attendance and Welfare Support](https://teaching-vacancies.service.gov.uk/jobs/attendance-and-welfare-support-the-westleigh-school-leigh-lancashire) — Insufficient admin/service evidence.
 - [Exams & Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/exams-administration-officer) — Insufficient admin/service evidence.
 - [MIS Systems & Operational Data Manager](https://teaching-vacancies.service.gov.uk/jobs/mis-systems-operational-data-manager) — Manager title salary ceiling £34,678 is not below £28,000.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-king-s-leadership-academy-bolton) — Manager title salary ceiling £32,046 is not below £28,000.

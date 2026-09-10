@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Bedfordshire
 
-review_date: 2026-09-09
-review_fingerprint: e5da0288753c2a3a94205c1bced9522abf8d7e9f90ca792dfa10a56319a71aab
-routing_manifest_sha256: 4a958bab8a32e70948984372cc0d4828c1f97fe1d8d6cdff8758ffcbe54b1245
+review_date: 2026-09-10
+review_fingerprint: bcdca844a05d48817a349b009abd7d5118f15634fb2ab432f911a9750f4fc01e
+routing_manifest_sha256: 59e27ec5f0988f3fbff7710c6431ef08819873d43138c8fff91d89bff025fcb0
 ontap_region: Bedfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 8
-- Selected: 1
+- Records: 9
+- Selected: 2
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 6
@@ -34,6 +34,21 @@ factual_fingerprint: 1033afe941c4c1260c1e58c7b3e3159efe97afedfd26303593d228224bc
 source: Teaching Vacancies
 source_job_id: finance-trips-admin-assistant-fb3fbe5b-9ed3-42fb-9690-c3f622960d1a
 source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-trips-admin-assistant-fb3fbe5b-9ed3-42fb-9690-c3f622960d1a
+---
+
+---
+action: 
+SELECTED | Bedfordshire | Bedford, East of England, MK41 9DQ | £25,185.00 - £25,583.00 Annually (FTE) | Office Administrator
+employer: St John Rigby Catholic Primary School
+closing_date: 2026-09-25T12:00:00+01:00
+reason: Clear admin/service title: administrator, office administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: da634e2b07b9543f8d38ecda395f42a7170390b1ff348f3a3bab35fc6283c874
+source: Teaching Vacancies
+source_job_id: office-administrator-st-john-rigby-catholic-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-st-john-rigby-catholic-primary-school
 ---
 
 ## POSS — choose SELECT or EXCLUDE

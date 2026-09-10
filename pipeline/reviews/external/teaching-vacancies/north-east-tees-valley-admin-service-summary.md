@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — North East - Tees Valley
 
-review_date: 2026-09-09
+review_date: 2026-09-10
 review_fingerprint: 04301fd33951323549e655d94fbe08af784a4294bfae9fb1656dc8c9239c1350
-routing_manifest_sha256: 4a958bab8a32e70948984372cc0d4828c1f97fe1d8d6cdff8758ffcbe54b1245
+routing_manifest_sha256: 59e27ec5f0988f3fbff7710c6431ef08819873d43138c8fff91d89bff025fcb0
 ontap_region: North East - Tees Valley
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 5
+- Records: 4
 - Selected: 1
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 3
+- Hard pass: 2
 
 ## SELECTED
 
@@ -59,8 +59,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-office-manager
 
 ## HARD_PASS
 
-- [HR Assistant](https://teaching-vacancies.service.gov.uk/jobs/hr-assistant-outwood-academy-acklam-middlesbrough) — Insufficient admin/service evidence.
-- [School Business Manager (Secondary)](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-secondary-our-lady-st-bede-catholic-academy) — Manager title salary ceiling £41,771 is not below £28,000.
+- [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-326e8711-30eb-4683-b8a7-6e0c7757378c) — Insufficient admin/service evidence.
 - [Trust Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/trust-finance-assistant-spark-education-trust) — Insufficient admin/service evidence.
 
 ## Safety boundary

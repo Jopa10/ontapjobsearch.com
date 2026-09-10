@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - North
 
-review_date: 2026-09-09
-review_fingerprint: 12e10d75346f30063d09f222272c05ac72144f5f336f1cbe55b000cd1afa07ee
-routing_manifest_sha256: 4a958bab8a32e70948984372cc0d4828c1f97fe1d8d6cdff8758ffcbe54b1245
+review_date: 2026-09-10
+review_fingerprint: 2b70faeb6f90b407e61d723bdeb4ac728c456955be51286ed6c39639a56b357c
+routing_manifest_sha256: 59e27ec5f0988f3fbff7710c6431ef08819873d43138c8fff91d89bff025fcb0
 ontap_region: Yorkshire - North
 slice_category: admin_service
 slice_status: LIVE
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 7
-- Selected: 3
+- Records: 9
+- Selected: 4
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 4
+- Hard pass: 5
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Yorkshire - North | York, Yorkshire and the Humber, YO10 5ZA | Grade 5 (£23,698 – this is the pro rata salary) | Attendance Administrator
+employer: Archbishop Holgate's School, A Church of England Academy
+closing_date: 2026-09-28T08:00:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 175ea147fb2bebd3dcdcf4e9eb36595feb19e8c9b8c3ac3a0ba9cc86b5756fbe
+source: Teaching Vacancies
+source_job_id: attendance-administrator-archbishop-holgate-s-school-a-church-of-england-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-administrator-archbishop-holgate-s-school-a-church-of-england-academy
+---
 
 ---
 action: 
@@ -76,6 +91,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-
 
 ## HARD_PASS
 
+- [Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-joseph-rowntree-school-york-north-yorkshire) — Insufficient admin/service evidence.
 - [Finance Director](https://teaching-vacancies.service.gov.uk/jobs/finance-director-pathfinder-multi-academy-trust) — Insufficient admin/service evidence.
 - [HR Business Partner](https://teaching-vacancies.service.gov.uk/jobs/hr-business-partner-pathfinder-multi-academy-trust) — Insufficient admin/service evidence.
 - [Hub Business Leader (Harrogate Hub)](https://teaching-vacancies.service.gov.uk/jobs/hub-business-leader-harrogate-hub) — Insufficient admin/service evidence.

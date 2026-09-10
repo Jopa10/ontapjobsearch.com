@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Lincolnshire
 
-review_date: 2026-09-09
+review_date: 2026-09-10
 review_fingerprint: fd91c01c80c4318b027d58648ba0ada6a57294c3670855679fb7482a2df34985
-routing_manifest_sha256: 4a958bab8a32e70948984372cc0d4828c1f97fe1d8d6cdff8758ffcbe54b1245
+routing_manifest_sha256: 59e27ec5f0988f3fbff7710c6431ef08819873d43138c8fff91d89bff025fcb0
 ontap_region: Lincolnshire
 slice_category: admin_service
 slice_status: LIVE
@@ -166,7 +166,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-manager-5960c3
 
 - [Academy Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/academy-administration-officer-the-priory-witham-academy-lincoln-lincolnshire) — Insufficient admin/service evidence.
 - [Academy Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/academy-operations-manager-thomas-middlecott-academy-boston-lincolnshire) — Manager title salary ceiling £42,839 is not below £28,000.
-- [Data Manager](https://teaching-vacancies.service.gov.uk/jobs/data-manager-de-aston-school) — Manager title without salary evidence below £28,000.
+- [Business Manager](https://teaching-vacancies.service.gov.uk/jobs/business-manager-walton-academy) — Manager title salary ceiling £49,749 is not below £28,000.
 - [Governance & Compliance Officer](https://teaching-vacancies.service.gov.uk/jobs/governance-compliance-officer-inspire-connected-communities-trust-louth-not-recorded) — Insufficient admin/service evidence.
 - [HR Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-a28cea11-d24b-43cc-a15c-772ff5fa57da) — Insufficient admin/service evidence.
 - [School Bursar](https://teaching-vacancies.service.gov.uk/jobs/school-bursar-cliffedale-primary-school) — Insufficient admin/service evidence.

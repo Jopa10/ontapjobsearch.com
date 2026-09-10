@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Hampshire
 
-review_date: 2026-09-09
-review_fingerprint: 257b0f4914eff6a0c796fdf7c94d620b5b8bdc7c65f71d82072786d71bf874af
-routing_manifest_sha256: 4a958bab8a32e70948984372cc0d4828c1f97fe1d8d6cdff8758ffcbe54b1245
+review_date: 2026-09-10
+review_fingerprint: ce61ed33a4ccc7c6420f4904866885b86be8b30280e72131ce7f6869475a88c9
+routing_manifest_sha256: 59e27ec5f0988f3fbff7710c6431ef08819873d43138c8fff91d89bff025fcb0
 ontap_region: Hampshire
 slice_category: admin_service
 slice_status: LIVE
@@ -20,6 +20,21 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 - Hard pass: 4
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Hampshire | Portsmouth, South East, PO2 8RA | £26,427 - £27,274 per annum (actual salary for term time plus 3 weeks £24,343 - £25,123) | Administrator - The Harbour School
+employer: The Harbour School
+closing_date: 2026-09-30T08:00:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: b3a1369ae7e11bf654be3419288700766f6e952ff817cfe9e39a38581c9e8117
+source: Teaching Vacancies
+source_job_id: administrator-the-harbour-school-the-harbour-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-the-harbour-school-the-harbour-school
+---
 
 ---
 action: 
@@ -49,21 +64,6 @@ factual_fingerprint: 40ceb15ad32c310bc90a1f6f105bebc66b3dd918eb713d55823640a87fb
 source: Teaching Vacancies
 source_job_id: receptionist-1dcaf299-1719-4cef-a999-af235a29010e
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-1dcaf299-1719-4cef-a999-af235a29010e
----
-
----
-action: 
-SELECTED | Hampshire | Alresford, South East, SO24 9BS | £25,126.00 - £26,244.00 Annually (FTE) Actual salary £17,020 - £17,735 per annum | SEND Administrator & Access Arrangements Support Assistant
-employer: Perins School
-closing_date: 2026-09-09T23:59:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: aae779ffd2a38e77fe890bc5f28aff65009eb79e6df4f104afa3d68cefed1abb
-source: Teaching Vacancies
-source_job_id: send-administrator-access-arrangements-support-assistant
-source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-access-arrangements-support-assistant
 ---
 
 ## POSS — choose SELECT or EXCLUDE

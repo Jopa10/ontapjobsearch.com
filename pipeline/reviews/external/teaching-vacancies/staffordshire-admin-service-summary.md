@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Staffordshire
 
-review_date: 2026-09-09
-review_fingerprint: 3ed2e07ff6a0569c9ce5a430328422b9614128e86e16653db03ea4acbae53744
-routing_manifest_sha256: 4a958bab8a32e70948984372cc0d4828c1f97fe1d8d6cdff8758ffcbe54b1245
+review_date: 2026-09-10
+review_fingerprint: 4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945
+routing_manifest_sha256: 59e27ec5f0988f3fbff7710c6431ef08819873d43138c8fff91d89bff025fcb0
 ontap_region: Staffordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -14,27 +14,14 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 6
-- Selected: 1
+- Selected: 0
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 6
 
 ## SELECTED
 
----
-action: 
-SELECTED | Staffordshire | Cannock, West Midlands, WS11 1PD | £25,185.00 - £26,403.00 Annually (FTE) Mornings, Monday to Friday - pro rata, term time | Attendance Officer - Level 4
-employer: Longford Primary Academy
-closing_date: 2026-09-10T12:00:00+01:00
-reason: Clear admin/service title: attendance officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: f4455e989e4688917fb04cf60d807f41123d5838dd0489c9c68ac8053e655aee
-source: Teaching Vacancies
-source_job_id: attendance-officer-level-4-longford-primary-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-level-4-longford-primary-academy
----
+- None.
 
 ## POSS — choose SELECT or EXCLUDE
 
@@ -48,6 +35,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-le
 
 - [Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-the-shaw-education-trust) — Insufficient admin/service evidence.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-5c20c15e-9ea0-4341-b9c5-ba119bab985a) — Manager title salary ceiling £39,152 is not below £28,000.
+- [Senior Administration and Finance Assistant - Level 5](https://teaching-vacancies.service.gov.uk/jobs/senior-administration-and-finance-assistant-level-5) — Insufficient admin/service evidence.
 - [Student Support and Attendance](https://teaching-vacancies.service.gov.uk/jobs/student-support-and-attendance) — Insufficient admin/service evidence.
 - [Trust Governance Manager](https://teaching-vacancies.service.gov.uk/jobs/trust-governance-manager-community-academies-trust) — Manager title salary ceiling £41,771 is not below £28,000.
 - [Trust Payroll Officer](https://teaching-vacancies.service.gov.uk/jobs/trust-payroll-officer-a8f45de3-8ece-41fc-909e-9dacae971fa0) — Insufficient admin/service evidence.
