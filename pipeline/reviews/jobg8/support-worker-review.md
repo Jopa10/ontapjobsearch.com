@@ -20,11 +20,10 @@ job_id: 23643_225580403
 ## WEST YORKSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - YORKSHIRE - WEST | Yorkshire - West | Leeds | £200 per daily | Live-In Personal Care Assistants for a University Student in Leeds
 job_id: 107797487
 ---
-
 ## SOUTH YORKSHIRE — SELECTED
 
 _No jobs in this group._

@@ -182,23 +182,20 @@ job_id: 1880847
 ## WEST YORKSHIRE — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - YORKSHIRE - WEST | Yorkshire - West | Bradford | £157 per daily | Call Centre Advisor
 job_id: 23643_225588028
 ---
-
 ---
-action:
+action: exclude
 POSS - YORKSHIRE - WEST | Yorkshire - West | Leeds | £65000 per year | Financial Planner (IFA)
 job_id: 1883282
 ---
-
 ---
-action:
+action: exclude
 POSS - YORKSHIRE - WEST | Yorkshire - West | Leeds | £250 - £300 per daily | Document Controller
 job_id: 23643_225587859
 ---
-
 ## SOUTH YORKSHIRE — SELECTED
 
 ---
@@ -1166,17 +1163,15 @@ job_id: 1885412
 ## LONDON — POSSIBLES
 
 ---
-action:
+action: select
 POSS - LONDON | London | London | £32000 - £38000 per year | HR Coordinator
 job_id: 1772192
 ---
-
 ---
-action:
+action: select
 POSS - LONDON | London | London | £25 per hour | Interim Recruitment Coordinator
 job_id: 1865397
 ---
-
 ## HAMPSHIRE — SELECTED
 
 ---
@@ -1434,11 +1429,10 @@ job_id: 1885642
 ## HAMPSHIRE — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - HAMPSHIRE | Hampshire | Hampshire | £17 - £18 per hour | Planner Scheduler
 job_id: 23643_225486711
 ---
-
 ## SURREY — SELECTED
 
 ---
@@ -1690,11 +1684,10 @@ job_id: 23643_225488847
 ## SURREY — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - SURREY | Surrey | Surrey | £33000 - £42000 per year | Trainee Financial Planner
 job_id: 1878996
 ---
-
 ## KENT — SELECTED
 
 ---
@@ -2167,13 +2160,12 @@ job_id: 23643_225485953
 ## COVENTRY & WARWICKSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - COVENTRY & WARWICKSHIRE | West Midlands - Coventry & Warwickshire | Warwickshire | £31000 per year (Plus Benefits) | Business Administrator
 job_id: 23643_225588153
 ---
-
 ---
-action:
+action: select
 POSS - COVENTRY & WARWICKSHIRE | West Midlands - Coventry & Warwickshire | Warwickshire | £22 - £23 per hour | Interim Finance Assistant
 job_id: 1878240
 ---
@@ -2902,11 +2894,10 @@ job_id: 23643_225031824
 ## DERBYSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - DERBYSHIRE | Derbyshire | Derbyshire | £30000 - £33000 per year (Up to £33k) | HR Administrator
 job_id: 23643_225586232
 ---
-
 ## DEVON — SELECTED
 
 ---
@@ -3002,11 +2993,10 @@ job_id: 107936510
 ## DEVON — POSSIBLES
 
 ---
-action:
+action: select
 POSS - DEVON | Devon | Devon | £14.18 - £16.37 per hour | HR Coordinator
 job_id: 1842702
 ---
-
 ## DORSET — SELECTED
 
 ---
@@ -3240,11 +3230,10 @@ job_id: 1877186
 ## ESSEX — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - ESSEX | Essex | Essex | £36000 per year | Property Claims Handler
 job_id: 1883686
 ---
-
 ## GLOUCESTERSHIRE — SELECTED
 
 ---
@@ -3790,11 +3779,10 @@ job_id: 107856993
 ## LINCOLNSHIRE — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - LINCOLNSHIRE | Lincolnshire | Lincolnshire | £48,000 per annum | Lead Planner
 job_id: 107956345
 ---
-
 ## MERSEYSIDE - LIVERPOOL — SELECTED
 
 ---
@@ -3860,11 +3848,10 @@ job_id: 1830080
 ## MERSEYSIDE - LIVERPOOL — POSSIBLES
 
 ---
-action:
+action: select
 POSS - MERSEYSIDE - LIVERPOOL | Merseyside - Liverpool | Liverpool | £35000 per year | Business Crime Reduction Coordinator
 job_id: 107947436
 ---
-
 ## NORFOLK — SELECTED
 
 ---
@@ -4458,11 +4445,10 @@ job_id: 107940851
 ## NOTTINGHAMSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - NOTTINGHAMSHIRE | Nottinghamshire | Nottinghamshire | £13.80 - £15.50 per hour | HR Administrator
 job_id: 1850324
 ---
-
 ## OXFORDSHIRE — SELECTED
 
 ---
@@ -4972,11 +4958,10 @@ job_id: 1886352
 ## STAFFORDSHIRE — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - STAFFORDSHIRE | Staffordshire | Staffordshire | £36000 per year | Property Claims Handler
 job_id: 1883687
 ---
-
 ## SUFFOLK — SELECTED
 
 ---
@@ -5048,11 +5033,10 @@ job_id: 1885401
 ## SUFFOLK — POSSIBLES
 
 ---
-action:
+action: select
 POSS - SUFFOLK | Suffolk | Suffolk | £30000 - £35000 per year | HR Administrator
 job_id: 1850031
 ---
-
 ## WALES SOUTH - CARDIFF & VALE — SELECTED
 
 ---
@@ -5310,11 +5294,10 @@ job_id: 1832357
 ## WILTSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - WILTSHIRE | Wiltshire | Wiltshire | £141 per daily | HR Administrator
 job_id: 1787237
 ---
-
 ## WORCESTERSHIRE — SELECTED
 
 ---
