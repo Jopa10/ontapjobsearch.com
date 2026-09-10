@@ -228,31 +228,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "23643_225485664",
-    "title": "E-Commerce Coordinator",
-    "company": "Service Service - Agency - Contract",
-    "location": "Norfolk",
-    "region": "Norfolk",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Contract",
-    "salary_min": "13",
-    "salary_max": "15",
-    "salary_text": "£13 - £15 per hour",
-    "posted_date": "",
-    "description": "E-commerce Coordinator (Moto-Electrical)\n\nMaternity cover ASAP until September 2027 could lead to a permanent role too as they are super busy!\n\nYou will need your own transport to get to the location as not near pubic transport.\n\nMonday to Friday 8am to 5pm\n\nVaried work and a friendly work environment!\n\nYou will be Supporting the day-to-day management and development of the company's e-commerce channels, ensuring products, content, promotions and customer information are accurate, up to date and presented effectively. The role works closely with marketing, sales, operations, customer service and warehouse team as well as the external partners to help maximise online sales and customer experience.\n\nKey responsibilities\n\nWebsite & Online Store Management by working closely with Web Admin\n- Ensure product information, availability and promotions are accurate.\n- Check website pages regularly for errors, broken links and outdated content.\n- Support website merchandising and product categorisation.\n- Assist with website updates and new product launches.\n\nE-commerce Operations\n- Monitor orders and liaise with internal teams regarding stock.\n- Coordinate product launches, promotions and seasonal campaigns.\n- Maintain product and customer-related information across relevant systems.\n\nSales & Performance\n- Monitor online sales, orders, conversion rates and website traffic.\n- Produce regular e-commerce reports and performance updates.\n- Identify issues or opportunities affecting online sales.\n- Support promotional activity and online trading plans.\n- Assist with analysing sales and customer data.\n\nMarketing & Content\n- Ensure website content is consistent with the company's brand.\n- Support SEO activities by maintaining accurate product descriptions, page titles and other website content.\n- Assist with social media and digital marketing activity where relevant.\n\nMarketplace Management\n- Maintain product listings on marketplaces such as Amazon, eBay or other third-party platforms.\n\nAdministration & Coordination\n- Maintain e-commerce spreadsheets, product databases and reports.\n- Coordinate with suppliers,\n- Raise and track website or system issues.\n- Assist with stock and product data management.\n\nSkills & experience\n- Previous experience in e-commerce, retail, digital marketing or a similar environment.\n- Good understanding of online retail and customer journeys.\n- Strong attention to detail.\n- Good organisational and time-management skills.\n- Confident using Excel or Google Sheets.\n- Experience with an e-commerce platform such as eBay, WooCommerce or similar is desirable.\n- Basic understanding of SEO and digital marketing.\n- Good written and verbal communication skills.\n- Ability to manage multiple tasks and meet deadlines.\n- Comfortable working with data and identifying errors or trends.\n\nPlease email your CV to Louise asap and I look forward to hearing form you!",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?Dw9iAXzSqBZ7WCtKemI9urp4%2fzFL72Yok",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Service Service",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Hourly",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "nhs-5578957",
     "source": "NHS Jobs",
     "title": "Receptionist/Call Handler",
@@ -268,7 +243,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1039-26-0010",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1039-26-0010",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5561086",
@@ -286,6 +265,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1644-26-0006",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1644-26-0006",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

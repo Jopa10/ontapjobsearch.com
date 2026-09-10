@@ -483,7 +483,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9812-26-0352",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9812-26-0352",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5439405",
@@ -501,42 +505,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0106-26-0072",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0106-26-0072",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
-  },
-  {
-    "job_id": "nhs-5590312",
-    "source": "NHS Jobs",
-    "title": "Senior Administrator with Medical Secretary Responsibilities",
-    "company": "Hertfordshire Community NHS Trust",
-    "advertiser_name": "Hertfordshire Community NHS Trust",
-    "location": "Watford, WD17 3EW",
-    "region": "Hertfordshire",
-    "salary": "£28392.00 to £31157.00",
-    "employment_type": "Permanent",
-    "posted_date": "2026-09-10T08:16:06.982268639",
-    "closing_date": "2026-09-21",
-    "description": "Full-Time - 9-5pm Peace Children's Centre - Watford *Proposed interview date: 28th September 2026* Your main responsibilities will be to provide comprehensive medical administrative support, working closely with Community Paediatricians and the wider clinical teams within Children's Specialist Services. In return, we can offer you: 5% on top of basic salary high cost allowance supplement subject to a minimum payment of £1,192 per annum (pro rata where applicable). 27 days holiday rising to 33 days (depending on NHS Trust service) plus bank holidays (pro rata where applicable) One of the UK's best pension schemes Special Leave for family and personal reasons NHS Car Lease Scheme Eye Care Vouchers Employee Assistance Programme NHS Discounts Caring and supportive teamwork Comprehensive training Support to develop your career within the NHS The successful candidate will demonstrate: Advanced typing and formatting skills Previous NHS administration experience at a Senior level Excellent time management skills to manage a busy workload High attention to detail and accuracy Strong and clear communication skills Initiative and problem-solving abilities Energetic, flexible and proactive approach Experience of SystmOne/AMSPAR desirable. A pioneering approach, welcoming and embedding digital innovations to improve administrative processes and streamline efficiencies An inclusive , 'one team' approach to supporting colleagues and service users A caring attitude, supporting patients and colleagues with kindness and professionalism at all times Please see full Job Description attached Whilst it is not a legal requirement, Hertfordshire Community NHS Trust encourages and supports all staff to be vaccinated as this remains the best line of defence against COVID-19 Word versions of documents are available if needed to allow for any adaptations to be made i.e. font, colour, background, convert to Read Aloud. The use of AI is monitored and if you have used it then you are required to declare this, as well as what type of AI tools you have used and for what purpose. We reserve the right to further test your individual knowledge and skills in relation to the requirements for the post through robust and thorough interview and assessment. HCT will prioritise recruitment of workers living in England under the new immigration rules for care workers effective from 9 April 2025. Employers must first prove that they have attempted to recruit a worker from within England who needs new sponsorship. This ensures that those who came to the UK to pursue a career in adult social care can do so.",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9812-26-0358",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9812-26-0358",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
-  },
-  {
-    "job_id": "nhs-5555027",
-    "source": "NHS Jobs",
-    "title": "Medical Receptionist",
-    "company": "Parkfield Medical Centre",
-    "advertiser_name": "Parkfield Medical Centre",
-    "location": "Potters Bar, EN6 1QH",
-    "region": "Hertfordshire",
-    "salary": "Negotiable",
-    "employment_type": "Permanent",
-    "posted_date": "2026-08-21T13:49:04.306974",
-    "closing_date": "2026-09-14",
-    "description": "We are looking for an enthusiastic new receptionist for 25 hours per week over 4 days to join our supportive team. The post would suit somebody who is empathetic, works well under pressure and likes a busy but rewarding working environment. Although previous experience would be an advantage, this is not essential as full training will be provided. The hours available are: Monday 8-5.30, Tuesday 8-1, Wednesday 8-1 and Friday 1-6.30. The role of a GP receptionist is varied and includes answering the telephone, booking appointments, greeting patients and processing clinical letters and repeat prescriptions. The post holder will need to be flexibly to cover annual leave. Main duties: Facilitate the booking of appointments Receive requests for prescription, sick notes, insurance forms and other correspondence and taking fees as appropriate. Explain surgery procedures, giving details about the practice to patients on registration, completing new patients paperwork. Managing all patients enquires Retrieve appointment cancellation messages Receiving and recording requests for home visits and ensuring the duty doctor is notified Receiving messages for doctors and all members of the Primary Health Care Team and ensure that they are passed to the relevant person Contacting patients at the doctors request Other duties Filing medical notes referrals and other correspondence when required Ensure details of any unresolved or urgent matters are passed to colleagues Opening the surgery premises and ensuring safe closure of the same Any other tasks as requested by the management or partners which assist the smooth running of the surgery Be aware of all practice protocols for reception Ensure personal e-learning is up to date Ensure the reception area is left tidy and ready for incoming colleagues",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0405-26-0006",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0405-26-0006",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]
