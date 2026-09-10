@@ -1,6 +1,6 @@
 # Ontap daily regional overview
 
-Generated: 2026-09-10T10:00:19+01:00
+Generated: 2026-09-10T15:39:52+01:00
 
 [Download this overview as Excel](./daily-region-overview.xlsx)
 
@@ -8,16 +8,16 @@ Generated: 2026-09-10T10:00:19+01:00
 
 | Measure | Count |
 |---|---:|
-| Unique live jobs | 1,652 |
+| Unique live jobs | 1,650 |
 | Unique JobG8 jobs | 1,342 |
-| Unique non-JobG8 jobs | 310 |
-| Regional/category slice placements | 1,787 |
+| Unique non-JobG8 jobs | 308 |
+| Regional/category slice placements | 1,785 |
 | Jobs appearing on multiple slices | 133 |
 | Extra slice placements | 135 |
 | Unique jobs outside governed slices | 0 |
 | Jobs found in non-LIVE slices | 0 |
 
-**Reconciliation: 1,652 unique jobs + 135 extra slice placements = 1,787 regional/category slice placements.**
+**Reconciliation: 1,650 unique jobs + 135 extra slice placements = 1,785 regional/category slice placements.**
 
 Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-09-10.csv` — **STALE — CSV says 1,683 for 2026-09-10**.
 
@@ -28,7 +28,7 @@ Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-09-1
 | JobG8 | 1,342 | 133 | 135 |
 | NEJobs | 13 | 0 | 0 |
 | NHS Jobs | 201 | 0 | 0 |
-| Teaching Vacancies | 91 | 0 | 0 |
+| Teaching Vacancies | 89 | 0 | 0 |
 | VONNE | 5 | 0 | 0 |
 
 ## JOBG8 FEED RECEIVED
@@ -250,7 +250,7 @@ Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-09-1
 
 ## CITY OPPORTUNITIES
 
-**323 mapped towns/localities with live jobs or an existing city page.** Counts use all 1,652 unique live Ontap jobs across every role and provider: 913 have an exact recognised town/locality and 739 have only broader or unrecognised location evidence. CREATE means 4+ current Service Admin jobs and no existing city page; London is held separately.
+**322 mapped towns/localities with live jobs or an existing city page.** Counts use all 1,650 unique live Ontap jobs across every role and provider: 911 have an exact recognised town/locality and 739 have only broader or unrecognised location evidence. CREATE means 4+ current Service Admin jobs and no existing city page; London is held separately.
 
 | Status | Town/city/locality | Region | All live jobs | Existing pages | Current routes | Service admin | Support worker | Sales advisor | Paralegal | Marketing | Finance / Accounts | HR / Recruitment | CS / Contact centre | Other / unclassified |
 |---|---|---|---:|---:|---||---:|---:|---:|---:|---:|---:|---:|---:|---:|
@@ -429,7 +429,6 @@ Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-09-1
 | MONITOR | Stafford | Staffordshire | 2 | 0 |  | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Stevenage | Hertfordshire | 2 | 0 |  | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Stonehouse | Gloucestershire | 2 | 0 |  | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
-| MONITOR | Taunton | Somerset | 2 | 0 |  | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Telford | Shropshire | 2 | 0 |  | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Thame | Oxfordshire | 2 | 0 |  | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Torquay | Devon | 2 | 0 |  | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -460,7 +459,6 @@ Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-09-1
 | MONITOR | Burford | Oxfordshire | 1 | 0 |  | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Bury St Edmunds | Suffolk | 1 | 0 |  | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Camberley | Surrey | 1 | 0 |  | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| MONITOR | Cannock | Staffordshire | 1 | 0 |  | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Canterbury | Kent | 1 | 0 |  | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Carrickfergus | Northern Ireland - East | 1 | 0 |  | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Chesham | Buckinghamshire | 1 | 0 |  | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -558,6 +556,7 @@ Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-09-1
 | MONITOR | Stroud | Gloucestershire | 1 | 0 |  | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Sudbury | Suffolk | 1 | 0 |  | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Tamworth | Staffordshire | 1 | 0 |  | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| MONITOR | Taunton | Somerset | 1 | 0 |  | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Tipton | West Midlands - Black Country | 1 | 0 |  | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Tonbridge | Kent | 1 | 0 |  | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Truro | Cornwall | 1 | 0 |  | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -642,8 +641,8 @@ Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-09-1
 | Scotland West - Lanarkshire |  |  |  |  |  |  |  |  |
 | Scotland West - Renfrewshire & Inverclyde |  |  |  |  |  |  |  |  |
 | Shropshire | 12 |  |  |  |  | CHECK |  |  |
-| Somerset | 15 |  |  |  |  |  |  |  |
-| Staffordshire | 22 |  |  |  |  |  |  | 1 |
+| Somerset | 14 |  |  |  |  |  |  |  |
+| Staffordshire | 21 |  |  |  |  |  |  | 1 |
 | Suffolk | 16 |  |  | 1 |  |  |  |  |
 | Surrey | 49 | CHECK | 2 |  | 13 |  |  | 2 |
 | Sussex | 32 | 2 | 4 |  |  |  | 2 |  |
@@ -753,6 +752,6 @@ Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-09-1
 | Measure | Service admin | Support worker | Sales advisor | Paralegal | Marketing | Finance / Accounts | HR / Recruitment | CS / Contact centre |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
 | Live regions | 51 / 78 | 11 / 78 | 11 / 78 | 4 / 78 | 16 / 78 | 10 / 78 | 7 / 78 | 6 / 78 |
-| Live slice placements | 1278 | 52 + 2 CHECK | 63 + 1 CHECK | 51 + 1 CHECK | 239 | 31 + 8 CHECK | 59 | 14 |
+| Live slice placements | 1276 | 52 + 2 CHECK | 63 + 1 CHECK | 51 + 1 CHECK | 239 | 31 + 8 CHECK | 59 | 14 |
 
 **Live slices: 116 / 624.**
