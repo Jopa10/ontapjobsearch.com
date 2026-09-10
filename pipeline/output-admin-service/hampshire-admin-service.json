@@ -178,14 +178,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Records administration",
-      "Data entry",
-      "Filing and document handling",
-      "Quotations"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225519192",
@@ -235,11 +228,7 @@
     "advertiser_type": "Company",
     "work_pattern": "Part Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Customer enquiries"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1769884",
@@ -414,13 +403,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Records administration",
-      "Systems administration",
-      "Quotations"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225397700",
@@ -445,11 +428,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Systems administration",
-      "Data entry"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225564928",
@@ -499,12 +478,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Email handling",
-      "Records administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225564118",
@@ -554,13 +528,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Systems administration",
-      "Data entry",
-      "Document preparation"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225571760",
@@ -585,12 +553,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Records administration",
-      "Pre-employment administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225569763",
@@ -765,12 +728,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Reporting",
-      "Quotations"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "107787258",
@@ -870,11 +828,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "107881829",
@@ -924,11 +878,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Pre-employment administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1769981",
@@ -978,13 +928,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Records administration",
-      "Systems administration",
-      "Quotations"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "107605314",
@@ -1160,6 +1104,28 @@
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
     "posted_date_basis": ""
+  },
+  {
+    "job_id": "nhs-5590543",
+    "source": "NHS Jobs",
+    "title": "Administrator",
+    "company": "Practice Plus Group - Health in Justice",
+    "advertiser_name": "Practice Plus Group - Health in Justice",
+    "location": "Winchester, SO22 5DF",
+    "region": "Hampshire",
+    "salary": "£24924.00 to £27582.00",
+    "employment_type": "Permanent",
+    "posted_date": "2026-09-10T08:43:09.397152656",
+    "closing_date": "2026-09-18",
+    "description": "UNLOCK YOUR BEST WORK LIFE + MAKE A DIFFERENCE TO EVERY LIFE We have an exciting opportunity for an Administrator to join our Administration team at HMP Winchester, a category B Prison located in Winchester HMP Winchester is a busy male remand prison with a capacity for around 700 inmates. There is free parking on site and is close to the town centre for public transport. Hours Salary This position is part time, youll receive an annual salary up to £27,582 (Full time equivalent) per annum (Will be pro rata for 30 hours) How will we support you? Bespoke induction, including our Introducing Health in Justice training course Competency framework Regional and national career development opportunities Our bespoke Learning Management System to address your learning needs Support from the wider team Candidates are required to have a Legal right to work in the UK and due to the nature of the role, offers of employment will be subject to additional vetting and security checks As an Administrator your responsibilities will vary. You will Contribute to the delivery of administration services, to the healthcare team on site Work within a busy team, completing a variety of administrative tasks. Working on SystemOne Booking appointments. Dealing with referrals. Organising gate passes for visitors Attending meetings and taking minutes Other general admin duties If you are interested in career development, we have a wide range of opportunities for you to develop your skills and experience, which include both internal and external options for development and learning. It doesnt stop there we also offer: Discounts on shopping and leisure activities Support to grow in your role and continue your professional development 24/7 employee assistance helpline and financial assistance when you need it",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0505-26-0412",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0505-26-0412",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5577957",

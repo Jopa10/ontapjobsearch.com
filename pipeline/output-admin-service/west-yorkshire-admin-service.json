@@ -159,13 +159,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Shared inboxes",
-      "Quotations",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225581844",
@@ -240,12 +234,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Email handling",
-      "Systems administration",
-      "Pre-employment administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225516031",
@@ -295,11 +284,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Document preparation"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225550655",
@@ -674,13 +659,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Records administration",
-      "Systems administration",
-      "Quotations"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225522242",
@@ -921,28 +900,6 @@
     "posted_date_basis": "source"
   },
   {
-    "job_id": "nhs-5577774",
-    "source": "NHS Jobs",
-    "title": "Clerical Officer/Receptionist",
-    "company": "Leeds Teaching Hospitals",
-    "advertiser_name": "Leeds Teaching Hospitals",
-    "location": "Leeds, LS1 3EX",
-    "region": "Yorkshire - West",
-    "salary": "£25272.00",
-    "employment_type": "Permanent",
-    "posted_date": "2026-09-03T13:28:34.511239434",
-    "closing_date": "2026-09-17",
-    "description": "To provide a high standard of clerical/reception service to patients and the department, adhering to departmental guidelines and policies. The post holder will receive and check documentation, reports, patient information, processing appropriately, within departmental guidelines, including entering information on to the appropriate IT system, and retrieve information as and when required. To process patient and other documentation. To be the first point of contact for patients and other visitors to the department. To provide an administrative/clerical service to the department/team. To support the delivery of a high standard of service to patients, staff and Trust departments. For questions about this job, contact: Name: Madison Calvert Position: Supervisor Email: madisoncalvert@nhs.net Shortlisting Date: 24-09-2026 Interview Date: 30-09-2026 Why you should join our Team Come and join our diverse workforce and become part of The Leeds Way sharing our vision and values. Leeds Teaching Hospitals NHS Trust is one of the largest acute health providers in the UK and based in one of the fastest growing and vibrant cities in the north. At Leeds Dental Hospital we aim to be a fair, inclusive and supportive CSU with positive caring teams who are champions of the Leeds Way values. Our Trust values of being kind, open and honest, responsible and one team, make us different from other Trusts and we see this as a strength, as well as a responsibility. We offer employees a range of value propositions such as job security, possible flexible working, pension scheme, cycle to work scheme, option to purchase additional annual leave, salary sacrifice scheme + more What you will bring to the role The candidate will bring a professional, organised and positive approach to the role, with the ability to work independently while also contributing effectively as part of a team. They have strong interpersonal and communication skills, enabling them to communicate clearly and respectfully with patients, colleagues and stakeholders. They are able to multitask and prioritise effectively in a busy environment, while managing their workload efficiently and working within agreed departmental guidelines. They are also willing to undertake any training required, including learning a range of Patient Administration and other systems, demonstrating a commitment to developing their skills and supporting the needs of the service. Please see the attached job description for further information about this vacancy. About Leeds Teaching Hospital NHS Trust Our values are part of what make us different from other trusts, so we see this as a strength, as well as a responsibility. They have been developed by our staff and set out what they see as important to how we work. Our four values are: Kind Open and Honest Responsible One Team All our actions and endeavours will be guided and evaluated through these values Were committed to recruiting exceptional people to deliver outstanding services across Leeds Teaching Hospitals NHS Trust and helping every colleague reach their full potential. Were looking for a compassionate, inclusive, and collaborative leader who shares our values and can build strong partnerships. We warmly invite applications from people from a variety of backgrounds and sectors, and are especially keen to hear from individuals from a minority ethnic background. Were dedicated to creating a diverse and inclusive environment where everyone feels valued, supported, and has a true sense of belonging, as we work together to deliver the best in healthcare to the people of Leeds and beyond. Application guidance: We understand that more applicants are using artificial intelligence (AI) technology to help with their applications. While these tools can be useful, they cannot fully capture your skills, knowledge, and experience. Its important that you personalise your application. Relying solely on AI is not recommended, as it may reduce your chances of success. Our screening process is thorough, so if you have used AI, please make sure to disclose this on your application form. Sponsorship Eligibility To comply with UK Government regulations on Skilled Worker sponsorship, Leeds Teaching Hospital NHS Trust is unable to provide sponsorship to applicants who do not meet the eligibility criteria or the salary threshold concessions set out under the Skilled Worker visa route. Please take this into consideration before submitting your application. Full guidance on these concessions, including details of who may qualify, can be found here. We reserve the right to close this advert early if we receive a high number of suitable applications.",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9298-26-0885",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9298-26-0885",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
-  },
-  {
     "job_id": "nhs-5551474",
     "source": "NHS Jobs",
     "title": "Operations & Compliance Administrator",
@@ -959,6 +916,28 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1533-26-0007",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
+  },
+  {
+    "job_id": "nhs-5590158",
+    "source": "NHS Jobs",
+    "title": "Finance Administrator",
+    "company": "Affinity Care",
+    "advertiser_name": "Affinity Care",
+    "location": "Shipley, BD18 3EG",
+    "region": "Yorkshire - West",
+    "salary": "£30000.00",
+    "employment_type": "Permanent",
+    "posted_date": "2026-09-10T08:05:27.941866519",
+    "closing_date": "2026-09-25",
+    "description": "PURPOSE OF THE ROLE: The Finance Assistant works in a small team dealing with general financial administrative duties in a timely fashion. The postholder will be numerate and enjoy working in a finance-focused environment. They will have strong computer skills, particularly in the use of excel and computerised account systems. Ideally the Finance Assistant will have worked within Primary Care or the NHS, although this is not essential. Working hours Flexible working hours to cover the full time equivalent of 1.5 cover, to be discussed at Interview stage. The Finance Assistant is responsible for: The accurate and timely production of financial information Processing financial information as it arrives in the inbox / post and accurately responding. Paying invoices and ensuring they are accompanied by appropriate documentation Supporting supplier payments Day-to-day communication within the finance team and with the wider organisation. Key Responsibilities Monitor communication and information flow into the Finance department via post, email, telephone, or other channels and respond appropriately Input sales and purchase invoices and credit notes into the system, ensuring correct financial coding is applied Ensure that all relevant documentation related to payment of invoices is accurate and up to date before payment is processed, such as purchase orders and delivery notes, bank details and company addresses Supporting supplier payments, ensuring they are processed within agreed terms. These payments can be significant in value, so the post holder must be accurate and experienced in handling high value payments, referring to the Finance Manager when necessary Produce regular aged debtor and creditor reports Credit control and debt management for all customers including producing customer statements and reconciliations, supporting the Finance team and working alongside the Finance Manager to resolve outstanding aged debtors Maintain effective relationships with internal and external stakeholders and respond to first line queries regarding financial issues Monthly reconciliation of supplier statements to the purchase ledger, working to resolve any queries or differences that may arise within the roles delegated authority Supporting with banking reconciliations Day to day management of petty cash Assisting and supporting the Finance Manager in a variety of tasks and procedures -especially at month and year end Contribute as an effective team member within the Finance Services team, supporting the achievement of finance objectives, including the evaluation of processes Provide support to the external and internal audit processes Liaise between HR and the external payroll provider. Provide accurate payroll data. General office administrative duties such as filing bank statements, invoices and other documents. Provide support to other members of the team as required Develop strong, professional relationships with colleagues to help create a positive working environment Promote an efficient and positive image of the organisation for all suppliers and customers Comply with strict financial timetables, contributing to an efficient and effective financial accounting service Undertake any other duties as agreed with the Finance Manager, in order to meet the needs of the organisation.",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1863-26-0043",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1863-26-0043",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "B",
     "advertiser_type": "",
     "work_pattern": "",
     "salary_period": "",

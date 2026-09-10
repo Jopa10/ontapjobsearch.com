@@ -6,9 +6,105 @@ The `excluded_on` date is the day the exclusion decision was made.
 To restore a job, edit only its `action:` line to `action: select`.
 On the next JobG8 run that exact job ID will be restored and removed from this list.
 
-remembered_exclusions: 309
+remembered_exclusions: 317
 
 ## SERVICE / ADMIN — EXCLUDED
+
+---
+action:
+category: service_admin
+excluded_on: 2026-09-10
+title: Trainee Financial Planner
+employer: Cranleigh Personnel
+region: 
+town: Surrey
+salary: 
+job_id: 1878996
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-09-10
+title: Property Claims Handler
+employer: TIME Appointments Ltd
+region: 
+town: Staffordshire
+salary: 
+job_id: 1883687
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-09-10
+title: Property Claims Handler
+employer: TIME Appointments Ltd
+region: 
+town: Essex
+salary: 
+job_id: 1883686
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-09-10
+title: Planner Scheduler
+employer: Nuco Solutions Ltd
+region: 
+town: Hampshire
+salary: 
+job_id: 23643_225486711
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-09-10
+title: Lead Planner
+employer: Branston Potatoes
+region: 
+town: Lincolnshire
+salary: 
+job_id: 107956345
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-09-10
+title: Financial Planner (IFA)
+employer: Exchange Street Claims & Financial Services
+region: 
+town: Yorkshire
+salary: 
+job_id: 1883282
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-09-10
+title: Document Controller
+employer: Mane Contract Services
+region: 
+town: Leeds
+salary: 
+job_id: 23643_225587859
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-09-10
+title: Call Centre Advisor
+employer: Tate
+region: 
+town: Yorkshire
+salary: 
+job_id: 23643_225588028
+---
 
 ---
 action:

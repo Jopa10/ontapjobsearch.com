@@ -1,33 +1,5 @@
 [
   {
-    "job_id": "teaching-vacancies-send-administrator-officer-the-wren-school",
-    "title": "SEND Administrator Officer",
-    "company": "The WREN School",
-    "location": "Reading",
-    "region": "Berkshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['part time']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "£30,279.00 Annually (FTE) This post is for 30 hours per week, term time only, plus 5 Inset Days, starting salary £30,279pa FTE with pay progression linked to local government SCP salary sale 13-17 (actual pro-rata starting salary £21,116pa)",
-    "work_pattern": "",
-    "posted_date": "2026-08-26",
-    "closing_date": "2026-09-10",
-    "closing_datetime": "2026-09-10T09:00:00+01:00",
-    "summary": "SEND Administrator Officer with The WREN School in Reading. ['part time']; £30,279.00 Annually (FTE) This post is for 30 hours per week, term time only, plus 5 Inset Days, starting salary £30,279pa FTE with pay progression linked to local government SCP salary sale 13-17 (actual pro-rata starting salary £21,116pa).",
-    "description": "The WREN School is recruiting for this vacancy in Reading.\n\nThe advertised position is SEND Administrator Officer.\n\nThe source lists the employment type as ['part time'].\n\nThe advertised salary or pay scale is £30,279.00 Annually (FTE) This post is for 30 hours per week, term time only, plus 5 Inset Days, starting salary £30,279pa FTE with pay progression linked to local government SCP salary sale 13-17 (actual pro-rata starting salary £21,116pa).\n\nThe stated application deadline is 2026-09-10T09:00:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/send-administrator-officer-the-wren-school?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "The WREN School",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
-  },
-  {
     "job_id": "teaching-vacancies-attendance-officer-and-administration-coordinator-kendrick-school",
     "title": "Attendance Officer and Administration Coordinator - Kendrick School",
     "company": "Kendrick School",
@@ -134,11 +106,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Document preparation"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225528502",
@@ -163,12 +131,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Quotations",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "107840229",
@@ -268,12 +231,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Part Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Data entry",
-      "Reporting"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225544182",
@@ -323,11 +281,7 @@
     "advertiser_type": "Company",
     "work_pattern": "Part Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Telephone handling"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_223908809",
@@ -352,11 +306,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Data entry"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1858335",
@@ -381,13 +331,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Telephone handling",
-      "Customer enquiries",
-      "Shared inboxes",
-      "Records administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1850922",
@@ -512,12 +456,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Records administration",
-      "Systems administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1763483",
@@ -568,6 +507,28 @@
     "work_pattern": "Full Time",
     "salary_period": "Annual",
     "posted_date_basis": ""
+  },
+  {
+    "job_id": "nhs-5589677",
+    "source": "NHS Jobs",
+    "title": "Administrator",
+    "company": "Berkshire Healthcare Foundation Trust",
+    "advertiser_name": "Berkshire Healthcare Foundation Trust",
+    "location": "Bracknell, RG12 7JZ",
+    "region": "Berkshire",
+    "salary": "£27106.00 to £28850.00",
+    "employment_type": "Permanent",
+    "posted_date": "2026-09-10T08:04:17.174463059",
+    "closing_date": "2026-09-16",
+    "description": "We are excited to recruit a Band 3 Administrator to support our CAMHS Getting Help and Mental Health Support Team East Berkshire. The role is 30 hours per week, worked 9:00am-5:00pm across agreed days. The days of work are flexible and will be discussed with the successful candidate. Administrators are key to our Trust, supporting our service users and clinicians. In this varied and rewarding role, you will help ensure the smooth day-to-day running of the service by managing referrals, responding to telephone and email enquiries, maintaining accurate records and providing administrative support to the wider team, including Senior Administrators and the Business Support Manager. Berkshire CAMHS is a multi-disciplinary service that supports children and young people's emotional wellbeing and mental health. We value our employees and put people first. We are pioneers in compassionate leadership and Quality Improvement, with a strong commitment to creating a culture where everyone has a voice and where service users and staff collaborate to have a direct impact on the things that matter most. We are looking for someone who is enthusiastic, organised and flexible, with a warm, approachable manner, excellent communication skills and the ability to work effectively in a busy environment. You will support the effective operation of the CAMHS Getting Help and Mental Health Support Team. Providing the required administrative support to ensure that clinical services are delivered efficiently, and children, young people and families receive a seamless and timely service. Working as part of the administrative team to ensure the referrals process is carried out in an accurate and timely manner. You will answer emails and telephone calls, following up actions where required. You will liaise effectively and professionally with all levels of staff, external organisations, and the public, dealing with confidential information in an appropriate manner. You will need to be experienced in taking minutes at meetings, diary management and confident in using the full Microsoft Office suite including Outlook, Word and Excel. You will also be required to work on your own initiative and demonstrate a willingness to help others as a key member of the team. The ability to build effective relationships, with a flexible approach to work is essential. You will be expected to be able to prioritise work and meet deadlines in order to fulfil the requirements of the post. Carry out day-to-day organisation of systems to ensure the smooth running of the administration team. The must haves for this role: 1. NVQ 3 or equivalent qualification/experience 2. Knowledge and experience of office administration procedures 3. Good interpersonal communication and reporting skills 4. Good/advanced IT skills and the ability to navigate around various systems and software packages For further information about the role, please see attached job description and person specification. Your application is your opportunity to demonstrate to us how you meet the requirements of the role. We recognise that AI tools can support accessibility, equity and confidence for applicants. However, its important that examples and responses given in your supporting statement genuinely reflect your own experience and abilities, as these will be explored further during the selection process. AI must not be used to provide misleading or false information during any stage of the application journey. In addition to explaining how you meet the person specification, you must complete your employment history for at least the last five years. Any experience, skills or responsibilities referenced in your supporting statement should be evidenced within your employment history. Applications that do not include sufficient employment history to support the experience claimed may not be shortlisted. We are committed to equal opportunities and welcome applications from all sections of the community. Our commitment to inclusion is reflected in our accreditations: Stonewall Proud Employer, Race Equality Matters Silver Trailblazer, Neurodiversity in Business Corporate Member, Disability Confident Leader, Carer Confident Level 2, and the Armed Forces Covenant Gold Award. Reasonable adjustments will be provided to candidates as needed. We welcome a conversation about flexibility and any other questions you may have. Please don't hesitate to contact Lucy Jacobs on 07929 804504 or email : lucy.jacobs@berkshire.nhs.uk who'll be delighted to help. Please note, if we receive a high number of applications, we may close this role earlier than the advertised closing date, so please submit your application as soon as possible.",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9371-26-0729",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9371-26-0729",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5590133",
@@ -650,28 +611,6 @@
     "description": "ABOUT THE ROLE As an Admin Assistant at a Barchester care home, you'll carry out a range of responsibilities to help us deliver the quality care and support our residents deserve. In this varied role, we'll need you to answer the phone, handle our files and support our managers. You'll also meet and greet visitors, engage with residents and show prospective clients and their families around so they can see what makes us so different. Across everything you do as an Admin Assistant here, you'll go out of your way to help us create a vibrant, happy environment. ABOUT YOU If you have the ability to multi-task, good computer skills and a confident telephone manner you could be well-suited to the Admin Assistant role with us. It's also really important that you're a people person you'll take a genuine interest in our residents and their families. If that sounds like you, we'll give you the opportunity to develop your skills with courses that have been designed to build your confidence across all your responsibilities. As an Admin Assistant at a Barchester care home, you will carry out responsibilities to help deliver quality care and support our residents deserve. The role requires answering phones, handling files, and supporting managers. Admin Assistants also meet and greet visitors, engage with residents, and show prospective clients and their families around to showcase what makes Barchester different. Candidates should have good computer skills, be able to multi-task, and have a confident telephone manner. It's essential to be a people person, taking genuine interest in residents and their families. ABOUT THE ROLE As an Admin Assistant at a Barchester care home, you'll carry out a range of responsibilities to help us deliver the quality care and support our residents deserve. In this varied role, we'll need you to answer the phone, handle our files and support our managers. You'll also meet and greet visitors, engage with residents and show prospective clients and their families around so they can see what makes us so different. Across everything you do as an Admin Assistant here, you'll go out of your way to help us create a vibrant, happy environment. ABOUT YOU If you have the ability to multi-task, good computer skills and a confident telephone manner you could be well-suited to the Admin Assistant role with us. It's also really important that you're a people person you'll take a genuine interest in our residents and their families. If that sounds like you, we'll give you the opportunity to develop your skills with courses that have been designed to build your confidence across all your responsibilities. REWARDS PACKAGE In return for your dedication, you'll receive a competitive rate of pay plus our sector-leading benefits and rewards package including: Free training and development for all roles Access to wellbeing and support tools A range of retail discounts and savings Unlimited referrals with our Refer a Friend' bonus scheme Employee of the Month' rewards and Long Service Awards' Workplace Pension scheme, with Employer contributions from 3% And so much more! If you'd like to use your administration and people skills in an organisation that provides the quality care you'd expect for your loved ones, this is a rewarding place to be.",
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0177-26-9600",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0177-26-9600",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
-  },
-  {
-    "job_id": "nhs-5571162",
-    "source": "NHS Jobs",
-    "title": "GP Receptionist",
-    "company": "Redwood House Surgery",
-    "advertiser_name": "Redwood House Surgery",
-    "location": "Maidenhead, SL6 3PH",
-    "region": "Berkshire",
-    "salary": "Negotiable",
-    "employment_type": "Permanent",
-    "posted_date": "2026-09-01T10:42:54.939270694",
-    "closing_date": "2026-09-18",
-    "description": "Previous GP surgery is desirable but not essential. Salary will be dependent on previous experience. Full training and support will be given. The successful applicant must have previous experience working with EMIS and be confident using the system. The successful applicant must ideally have previous GP Reception or customer service experience, with experience dealing with the general public, a good telephone manner and the ability to remain calm and professional when dealing with difficult situations, while maintaining a firm but empathetic approach. The role involves communicating with patients face to face, by telephone, text and email, so you must enjoy working with the public and providing a high standard of patient service. Previous experience working in a GP Practice and essential EMIS experience are required for this role. The successful applicant must be confident using EMIS for booking appointments, processing blood test requests, dealing with prescription requests and patient queries, scanning documents and completing general administrative tasks. Excellent IT and organisational skills are essential, along with the ability to multitask and work effectively in a busy environment. Good working knowledge of Microsoft Office, including Outlook and Word, is also required. Receptionist / Administrator Job Description Essential Experience and Skills: The successful applicant must have previous experience using EMIS in a GP practice setting. Applicants without previous EMIS experience will not be considered. The successful applicant will ideally have previous NHS/GP reception or administrative experience and will be confident dealing with patients both face to face and via telephone, email and other communication methods. Previous experience using EMIS in a GP practice is essential Previous NHS or GP practice reception/administrative experience Excellent customer service and communication skills A professional and friendly telephone manner Ability to communicate effectively with patients, carers, GPs and other healthcare professionals Good working knowledge of Microsoft Word, email and internet applications Ability to remain calm and professional when dealing with difficult or challenging situations Excellent organisational skills and the ability to multitask Ability to manage workload effectively and work to deadlines Flexible, enthusiastic and reliable approach to work Self-confidence, energy, determination and perseverance Ability to work effectively as part of a team Willingness and ability to provide cover for holidays and sickness High level of confidentiality, integrity and professionalism The post-holder will be responsible for providing an efficient and professional reception and administrative service to patients and the practice team. Duties will include: Booking, cancelling and rearranging patient appointments via EMIS, telephone, face to face and email Using EMIS effectively to access and update patient records and undertake relevant administrative tasks Processing prescription requests in accordance with practice procedures Handling patient enquiries and requests appropriately and efficiently Responding to telephone calls, emails and face-to-face enquiries Liaising with GPs, practice staff, hospitals and other community healthcare providers Handling requests from patients and GPs and ensuring these are directed to the appropriate member of the team Signposting patients to appropriate services where required Processing correspondence and administrative tasks accurately Maintaining accurate and up-to-date patient information Ensuring all work is completed in accordance with practice policies and procedures Supporting colleagues and providing reception cover when required The post-holder will strive to maintain high standards of quality within the practice and will: Alert team members to issues relating to quality, safety and risk Take responsibility for their own performance and actions Contribute positively to team effectiveness and suggest improvements to practice processes Work effectively with colleagues and external healthcare providers to meet patients' needs Manage their own time, workload and resources effectively Participate in relevant audits and quality improvement activities where appropriate Follow practice policies, procedures, standards and clinical guidance relevant to the role The post-holder will have access to confidential and sensitive information relating to patients, carers, practice staff, healthcare professionals and the practice as a business. All information must be treated as strictly confidential and handled in accordance with practice policies, confidentiality requirements and current data protection legislation. Information may only be shared with authorised individuals and in accordance with practice procedures. The post-holder will: Comply with the practice's health and safety and infection prevention and control policies Complete all mandatory training relevant to the role Maintain a safe, clean and tidy working environment Identify and report health and safety or infection control risks promptly Follow appropriate procedures to minimise risks to patients, visitors and staff Use workplace security systems appropriately Maintain high standards of cleanliness within reception, administrative and patient-facing areas Report hazards and take appropriate corrective action where required The post-holder will support the equality, diversity and rights of patients, carers and colleagues by: Treating everyone with dignity, respect and professionalism Respecting patients' privacy, dignity, needs, beliefs and individual circumstances Providing a welcoming, non-judgemental and inclusive service Recognising and responding appropriately to individual communication needs Working in accordance with practice policies and current equality and diversity legislation Participate in training relevant to the role and the running of the practice Complete mandatory and role-specific training within required timescales Participate in an annual performance review Take responsibility for maintaining their own knowledge, skills and development Identify learning needs and undertake relevant training Share knowledge and good practice with colleagues where appropriate Effective communication is an essential part of the role. The post-holder will: Communicate clearly and professionally with patients, carers, colleagues, GPs and other healthcare professionals Maintain a professional and empathetic approach when dealing with patients Recognise individual communication needs and adapt communication accordingly Ensure messages and requests are recorded and passed to the appropriate person accurately Contribute to improving communication within the practice The post-holder will work closely with external healthcare providers and organisations, including: Hospitals and outpatient departments Other GP practices Community healthcare services Other NHS and healthcare providers They will ensure requests and information are communicated accurately and efficiently and that appropriate follow-up action is taken where required. The post-holder is expected to work flexibly as part of the practice team and undertake any other reasonable duties appropriate to the role. The above job description is not exhaustive and may be reviewed and amended in line with the needs of the practice. Previous hands-on experience using EMIS within a GP practice is essential for this role. Candidates who do not have EMIS experience will not be shortlisted.",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3204-26-0003",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3204-26-0003",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
     "advertiser_type": "",

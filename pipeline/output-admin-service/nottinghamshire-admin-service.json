@@ -162,11 +162,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Filing and document handling",
-      "Reporting"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225559400",
@@ -216,6 +212,31 @@
     "advertiser_type": "Company",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
+    "job_id": "1850324",
+    "title": "HR Administrator",
+    "company": "Macildowie Recruitment and Retention - Agency - Permanent",
+    "location": "Nottinghamshire",
+    "region": "Nottinghamshire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "£13.80 - £15.50 per hour",
+    "posted_date": "",
+    "description": "HR Coordinator\nNottingham (NG7)\n£13.80 - £15.50 per hour DOE\nTemporary Assignment until December 2026\nHybrid working - with occasional travel to their offices in Warwickshire\n\nMacildowie are working with this client based in Nottingham to recruit an experienced HR Coordinator for an immediate opportunity within a fast-paced and growing organisation.\n\nThis is an exclusive opportunity with interviews taking place this week and a planned start date for next week, making it an excellent role for candidates who are immediately available or coming to the end of a current assignment.\n\nThe successful candidate will provide administrative support across the HR function, ensuring employee records are maintained accurately and supporting the wider team with day-to-day HR processes.\n\nKey Responsibilities\n- Maintaining and updating employee records and HR databases\n- Producing HR documentation including contracts, letters and employee correspondence\n- Supporting onboarding and new starter administration\n- Assisting with absence management and holiday records\n- Managing HR inbox queries and responding in a timely manner",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?mDcEDJmYTbx9cKRS2rOhYFzAk42ABx2ot",
+    "source": "JobG8",
+    "working_arrangement": "hybrid",
+    "working_arrangement_text": "Hybrid working",
+    "working_arrangement_evidence": "HR Administrator HR Coordinator Nottingham (NG7) £13.80 - £15.50 per hour DOE Temporary Assignment until December 2026 Hybrid working - with occasional travel to their offices in Warwickshire Macildowie are working with this client based in Nottingham to recruit an experienced HR Coordinator for an immediate opportunity within a fast-paced and growing organisation.",
+    "advertiser_name": "Macildowie Recruitment and Retention",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Hourly",
     "posted_date_basis": ""
   },
   {
@@ -316,12 +337,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Scheduling and bookings",
-      "Document preparation"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1865237",

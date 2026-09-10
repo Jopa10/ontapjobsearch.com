@@ -380,11 +380,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Shared inboxes",
-      "Records administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225570818",
@@ -559,13 +555,32 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Quotations",
-      "Order processing",
-      "Delivery coordination"
-    ]
+    "posted_date_basis": ""
+  },
+  {
+    "job_id": "1772192",
+    "title": "HR Coordinator",
+    "company": "Morgan Spencer - Agency - Permanent",
+    "location": "London",
+    "region": "London",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "32000",
+    "salary_max": "38000",
+    "salary_text": "£32000 - £38000 per year",
+    "posted_date": "",
+    "description": "HR Coordinator\nLocation: City of London\nSalary: £32,000 - £38,000\nHybrid: 3 days in office, 1 day WFH\n\nLatest Start Date: Monday 14 September 2026\n\nAbout the Role\nWe are delighted to be partnering with a leading UK professional services business to recruit a HR Coordinator to join its established and forward-thinking HR team.\nThis is an exciting opportunity for an HR professional who enjoys a varied, hands-on role and wants to play an important part in delivering a high-quality employee experience across the full employee lifecycle.\n\nThe HR Coordinator will provide day-to-day operational HR support across onboarding, employee administration, HR systems and data, early careers, learning and development, payroll and benefits. The role will also have a strong focus on improving processes through technology, automation and the effective use of HR data.\nWorking closely with the wider HR team and stakeholders across the business, you will help ensure that HR processes are efficient, consistent and well structured, while acting as a key point of contact for employees and helping to create a positive people experience.\n\nKey Responsibilities\nOnboarding\n- Manage the full onboarding process, including issuing contracts and onboarding documentation\n- Coordinate induction programmes with internal stakeholders and deliver HR inductions\n- Ensure completion of mandatory training and onboarding requirements\n- Support the design and delivery of induction programmes for Early Careers cohorts\n- Liaise with IT and internal teams to ensure new starters have the appropriate equipment, access and resources\n- Proactively communicate with stakeholders throughout the onboarding process to ensure a smooth new starter experience\n\nEmployee Lifecycle Administration\n- Prepare and issue HR documentation throughout the employee lifecycle, including new starter, promotion, contractual change and leaver documentation\n- Coordinate the post-hire Early Careers journey, including professional qualification enrolment, assessments, performance reviews and feedback cycles\n- Provide high-quality administrative support across a broad range of HR activities\n- Identify opportunities to improve and streamline HR processes and ways of working\n\nHR Operations, Systems & Data\n- Maintain accurate and up-to-date employee records throughout the employee lifecycle\n- Input, manage and maintain HR data within the organisation's HR systems and dashboards\n- Produce reports and provide accurate HR data to support business and HR decision-making\n- Support the optimisation of automated HR workflows and processes as the business continues to grow\n- Maintain system-driven alerts and trigger points, including absence management and probation processes\n- Regularly review HR data to ensure accuracy, consistency and integrity\n- Ensure all employee information is handled confidentially and in accordance with data protection legislation and internal policies\n- Explore opportunities to use technology, automation and AI to improve HR processes and the employee experience\n\nPayroll, Benefits & Reward\n- Support the monthly payroll process by ensuring accurate and timely HR data is provided\n- Assist with payroll reporting and associated administration\n- Provide general administrative support across employee benefits and reward processes\n\nLearning & Development\n- Support the coordination and administration of L&D programmes\n- Assist with planning, communications, logistics and evaluation of learning initiatives\n- Support the delivery of development programmes for Early Careers employees\n- Assist with the analysis of annual review data to identify trends and themes that can inform future L&D priorities\n\nAdditional Responsibilities\n- Provide ad hoc support across the HR team and contribute to wider HR projects\n- Support colleagues during periods of absence or increased workload\n- Contribute ideas and initiatives that improve HR processes and the overall employee experience\n- Act as a positive ambassador for the organisation's people culture both internally and externally\n\nAbout You\nWe are looking for an organised, proactive and commercially aware HR professional who enjoys working in a varied role and is comfortable operating across different areas of HR.\n\nYou will have:\n- Previous experience working within an HR team or HR department\n- Experience within a professional services environment\n- A genuine interest in HR operations, systems and data\n- Strong organisational and administrative skills, with excellent attention to detail\n- A proactive approach to identifying and implementing improvements\n- An interest in using data, technology, automation and AI to improve HR processes\n- A good understanding of HR policies, procedures and employee lifecycle processes\n\nMorgan Spencer - Your Career, Our Expertise\nWe are proud to be one of London's leading Executive Secretarial & Business Services recruitment consultancies, connecting exceptional talent with outstanding opportunities.\nEqual Opportunities:\nMorgan Spencer is committed to equality, diversity, and inclusion. We welcome applications from all suitably qualified candidates regardless of background, identity, or circumstance.\nConfidentiality & GDPR:\nAll applications are handled with the strictest confidentiality and processed in accordance with UK GDPR and data protection legislation. Your personal information will only be used for recruitment purposes and will never be shared without your consent.\n\nMorgan Spencer Limited, registered in England & Wales No:",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?mDcEDJmYTbxKSdbCJsNA3AD0Le9xdEoqt",
+    "source": "JobG8",
+    "working_arrangement": "hybrid",
+    "working_arrangement_text": "3 days in office",
+    "working_arrangement_evidence": "HR Coordinator HR Coordinator Location: City of London Salary: £32,000 - £38,000 Hybrid: 3 days in office, 1 day WFH Latest Start Date: Monday 14 September 2026 About the Role We are delighted to be partnering with a leading UK professional services business to recruit a HR Coordinator to join its established and forward-thinking HR team.",
+    "advertiser_name": "Morgan Spencer",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225565839",
@@ -590,12 +605,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Correspondence",
-      "Reporting"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225574007",
@@ -620,6 +630,31 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
+    "job_id": "1865397",
+    "title": "Interim Recruitment Coordinator",
+    "company": "Michael Page HR - Agency - Permanent",
+    "location": "London",
+    "region": "London",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "25",
+    "salary_max": "25",
+    "salary_text": "£25 per hour",
+    "posted_date": "",
+    "description": "A higher education institution are looking for an Interim Recruitment Coordinator to manage end to end academic recruitment. The role is based in London and offers hybrid working.\n\nClient Details\n\nHigher Education\n\nLondon Based - hybrid working\n\nDescription\n\nAn Interim Recruitment Coordinator to:\n- Manage end to end academic recruitment\n- Provide recruitment coordination\n- Support and advise hiring managers on recruitment campaigns to ensure timelines are met and provide advice on selection processes to attract the best applicant\n- Advise on recruitment strategies\n- Provide end to end recruitment support from writing adverts, coordinating interviews, through to offer stage\n- Support with recruitment coordination and admin duties\n- Initiate pre-employment checks and right to work checks in alignment with the UKVI requirements\n- Utilise recruitment data to inform decisions\n- Liaise with third party suppliers and manage agency relationships where necessary\n\nProfile\n\nAn Interim Recruitment Coordinator with:\n- Previous end to end recruitment experience\n- Previous experience of recruiting academic roles\n- Able to start at short notice\n\nJob Offer\n\nInterim Recruitment Coordinator\n\nLondon based - hybrid working\n\n£25 per hour\n\nStart at short notice",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?aziU08XVyRFq6scUpt28P4FC7R0fYFeyd",
+    "source": "JobG8",
+    "working_arrangement": "hybrid",
+    "working_arrangement_text": "Hybrid working",
+    "working_arrangement_evidence": "The role is based in London and offers hybrid working.",
+    "advertiser_name": "Michael Page HR",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Hourly",
     "posted_date_basis": ""
   },
   {
@@ -720,12 +755,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Systems administration",
-      "Filing and document handling"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225497881",
@@ -1000,12 +1030,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Telephone handling",
-      "Scheduling and bookings",
-      "Reporting"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225527565",
@@ -1030,11 +1055,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Part Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Data entry"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225526851",
@@ -1159,12 +1180,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Email handling",
-      "Scheduling and bookings"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225547627",
@@ -1189,11 +1205,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Reporting",
-      "Payroll administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225548519",
@@ -1343,12 +1355,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Telephone handling",
-      "Scheduling and bookings",
-      "Data entry"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225512635",
@@ -1373,11 +1380,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Records administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225568316",
@@ -1477,13 +1480,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Records administration",
-      "Systems administration",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225570672",
@@ -1533,11 +1530,7 @@
     "advertiser_type": "Company",
     "work_pattern": "Part Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Telephone handling"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1858746",
@@ -1562,11 +1555,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Pre-employment administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1854661",
@@ -1591,11 +1580,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Reporting",
-      "Payroll administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1852497",
@@ -1620,12 +1605,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Data entry",
-      "Payroll administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1849922",
@@ -1700,14 +1680,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Shared inboxes",
-      "Scheduling and bookings",
-      "Records administration",
-      "Filing and document handling"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1876178",
@@ -1807,11 +1780,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Systems administration",
-      "Reporting"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1820780",
@@ -1836,12 +1805,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Email handling",
-      "Records administration",
-      "Systems administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1775852",
@@ -1891,12 +1855,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Telephone handling",
-      "Scheduling and bookings",
-      "Data entry"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1769145",
@@ -1946,11 +1905,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Systems administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1704608",
@@ -1975,13 +1930,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Telephone handling",
-      "Email handling",
-      "Records administration",
-      "Systems administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1734464",
@@ -2206,11 +2155,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Shared inboxes",
-      "Reporting"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "107825988",
@@ -2410,12 +2355,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Telephone handling",
-      "Scheduling and bookings",
-      "Payroll administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1768718",
@@ -2790,11 +2730,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Part Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Data entry",
-      "Filing and document handling"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1860278",
@@ -2819,11 +2755,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Document preparation"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1859082",
@@ -3123,11 +3055,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Quotations"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1873362",
@@ -3277,11 +3205,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Data entry",
-      "Document preparation"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1883492",
@@ -3481,13 +3405,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Telephone handling",
-      "Customer enquiries",
-      "Records administration",
-      "Quotations"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225517912",
@@ -3537,11 +3455,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Delivery coordination"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225527983",
@@ -3566,14 +3480,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Records administration",
-      "Data entry",
-      "Quotations",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225555899",
@@ -3648,12 +3555,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Reporting",
-      "Quotations"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225537753",
@@ -3703,11 +3605,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Data entry",
-      "Filing and document handling"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225537498",
@@ -3782,12 +3680,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Records administration",
-      "Payroll administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "29310_HF07850-HAMD",
@@ -3837,12 +3730,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Records administration",
-      "Starters and leavers"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1844364",
@@ -4017,11 +3905,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Systems administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1848732",
@@ -4097,6 +3981,28 @@
     "work_pattern": "Part Time",
     "salary_period": "Annual",
     "posted_date_basis": ""
+  },
+  {
+    "job_id": "nhs-5588526",
+    "source": "NHS Jobs",
+    "title": "Team Administrator",
+    "company": "Central and North West London NHS Foundation Trust",
+    "advertiser_name": "Central and North West London NHS Foundation Trust",
+    "location": "London, W9 2NW",
+    "region": "London",
+    "salary": "£34186.00 to £37389.00",
+    "employment_type": "Fixed-Term",
+    "posted_date": "2026-09-10T08:07:04.311348965",
+    "closing_date": "2026-09-16",
+    "description": "CNWL is looking to recruit a Band 4 Team administrator to join the QPP Westminster Mental Health Hub. This is a dynamic and innovative Community service offering assessment, treatment, and care planning for individuals with mental health problems. It is a multi-disciplinary team. The post holder will be responsible for providing a full range of administrative support to the team. This will range from managing general correspondence to data inputting of clinical activity on Trust database. The post-holder will be expected to work without immediate supervision to enable the team to carry out a range of clinical activity as quickly and effectively as is required. The post holder will work closely with other administrative staff, sharing work where necessary and providing cover for break and leave purposes. The North Westminster Mental Health Hub, is a busy and essential service working with a diverse population in central London and we are looking for someone who is enthusiastic and skilled to join us. The post holder will be responsible for providing a full range of secretarial and administrative support to the team. This will range from typing of medical and general correspondence, to data inputting of clinical activity on Trust databases. Prepare and distribute documents by copy and audio typing correspondence. Direct contacts with patients and other internal or external agencies in an appropriate and professional manner, using judgement and discretion where necessary and to refer complex matters to relevant members of the medical team. To deal with outgoing and incoming correspondence, ensuring that incoming mail is distributed as quickly as possible. To arrange and service meetings, taking minutes as and when required. To ensure that the quality of data entered onto System One is in line with procedures. To provide data and IT support to clinicians. To undertake data-related pieces of work for the Directorate, as requested by senior members of staff or the Directorate's Business & Service Improvement Manager/Business Support Officer Participate in local induction of new employees to the team. Report all request for repairs through the Office Manager. Please refer to the attached Job Description and Person Specification on this advert for further info. To be responsible for the day-to-day support of the office and, in conjunction with the Office Manager. participate in the development, implementation and maintenance of office practices and procedures. To arrange transport and book outpatient appointments as necessary. To understand health and safety regulation and assist in maintaining a safe environment for patients and visitors to the department in accordance with Fire and Health and Safety procedures. To take responsibility for ensuring that adequate stock levels of stationery and other clinical equipment are always maintained. To carry out a range of administrative tasks and to be able to provide cover for other administrative/secretarial staff as and when required. Assist the team to carry out audits. Provide non-clinical advice and information, acting as patient advice and liaison officer",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9333-26-1175",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9333-26-1175",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5589400",
@@ -4927,28 +4833,6 @@
     "description": "ABOUT THE ROLE As an Admin Assistant at a Barchester care home, you'll carry out a range of responsibilities to help us deliver the quality care and support our residents deserve. In this varied role, we'll need you to answer the phone, handle our files and support our managers. You'll also meet and greet visitors, engage with residents and show prospective clients and their families around so they can see what makes us so different. Across everything you do as an Admin Assistant here, you'll go out of your way to help us create a vibrant, happy environment. ABOUT YOU If you have the ability to multi-task, good computer skills and a confident telephone manner you could be well-suited to the Admin Assistant role with us. It's also really important that you're a people person you'll take a genuine interest in our residents and their families. If that sounds like you, we'll give you the opportunity to develop your skills with courses that have been designed to build your confidence across all your responsibilities. As an Admin Assistant at a Barchester care home, you'll carry out a range of responsibilities to help us deliver the quality care and support our residents deserve. In this varied role, you'll be expected to answer phone calls, manage our files, and assist managers. Additionally, you will meet and greet visitors, interact with residents, and guide prospective clients and their families to highlight what sets us apart. A central part of your role will be to contribute to creating a vibrant and happy environment. Candidates need to be multi-taskers with good computer skills and a confident telephone manner. Moreover, we're looking for people who genuinely care about our residents and their families. The role offers opportunities for skill development through specially designed courses that boost confidence in handling responsibilities. In recognition of your efforts, we provide a competitive pay rate along with benefits, including free training, support tools, retail discounts, a bonus referral scheme, and other rewards. ABOUT THE ROLE As an Admin Assistant at a Barchester care home, you'll carry out a range of responsibilities to help us deliver the quality care and support our residents deserve. In this varied role, we'll need you to answer the phone, handle our files and support our managers. You'll also meet and greet visitors, engage with residents and show prospective clients and their families around so they can see what makes us so different. Across everything you do as an Admin Assistant here, you'll go out of your way to help us create a vibrant, happy environment. ABOUT YOU If you have the ability to multi-task, good computer skills and a confident telephone manner you could be well-suited to the Admin Assistant role with us. It's also really important that you're a people person you'll take a genuine interest in our residents and their families. If that sounds like you, we'll give you the opportunity to develop your skills with courses that have been designed to build your confidence across all your responsibilities. REWARDS PACKAGE In return for your dedication, you'll receive a competitive rate of pay plus our sector-leading benefits and rewards package including: Free training and development for all roles Access to wellbeing and support tools A range of retail discounts and savings Unlimited referrals with our Refer a Friend' bonus scheme Employee of the Month' rewards and Long Service Awards' Workplace Pension scheme, with Employer contributions from 3% And so much more! If you'd like to use your administration and people skills in an organisation that provides the quality care you'd expect for your loved ones, this is a rewarding place to be. #0508",
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0177-26-8944",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0177-26-8944",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
-  },
-  {
-    "job_id": "nhs-5544938",
-    "source": "NHS Jobs",
-    "title": "GP Surgery Receptionist",
-    "company": "Grosvenor House Surgery",
-    "advertiser_name": "Grosvenor House Surgery",
-    "location": "London, W13 9BE",
-    "region": "London",
-    "salary": "£12.71",
-    "employment_type": "Permanent",
-    "posted_date": "2026-08-18T16:02:21.948166793",
-    "closing_date": "2026-09-18",
-    "description": "An opportunity has arisen for an experienced Receptionist to join our supportive and friendly team. We are seeking a professional and approachable individual to be the first point of contact for our patients, providing a high standard of customer service. Previous reception experience within a healthcare setting is preferred. Applicants should be confident using IT systems; experience with SystmOne would be an advantage. Key Responsibilities: Greet patients and visitors in a polite, professional, and welcoming manner Manage incoming calls, book, change & cancel appointments, and handle enquiries efficiently Handle incoming and outgoing correspondence Manage emails and online patient queries Maintain accurate and up-to-date patient records using clinical systems Liaise effectively with GPs, nurses, and other healthcare professionals Ensure patient confidentiality is maintained at all times. Maintain confidentiality and comply with data protection requirements Support clinicians and the wider practice team with administrative tasks Keep the reception area tidy and well organised Manage incoming calls, book appointments, and handle enquiries efficiently Ensure patient confidentiality is maintained at all times Comply with all practice policies, procedures, and safeguarding requirements Support practice staff with day-to-day operational tasks as required Contribute to a positive and collaborative team environment Attend team meetings and training sessions as required",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3867-26-0003",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3867-26-0003",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
     "advertiser_type": "",

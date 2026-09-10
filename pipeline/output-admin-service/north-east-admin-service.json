@@ -1,61 +1,5 @@
 [
   {
-    "job_id": "teaching-vacancies-administrative-assistant-level-3-gosforth-academy-newcastle-upon-tyne-tyne-and-wear",
-    "title": "Administrative Assistant Level 3",
-    "company": "Gosforth Academy",
-    "location": "Newcastle-upon-Tyne",
-    "region": "North East",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['full time']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "£26,403.00 - £27,254.00 (£22,646 - £23,376)",
-    "work_pattern": "",
-    "posted_date": "2026-08-27",
-    "closing_date": "2026-09-10",
-    "closing_datetime": "2026-09-10T09:00:00+01:00",
-    "summary": "Administrative Assistant Level 3 with Gosforth Academy in Newcastle-upon-Tyne. ['full time']; £26,403.00 - £27,254.00 (£22,646 - £23,376).",
-    "description": "Gosforth Academy is recruiting for this vacancy in Newcastle-upon-Tyne.\n\nThe advertised position is Administrative Assistant Level 3.\n\nThe source lists the employment type as ['full time'].\n\nThe advertised salary or pay scale is £26,403.00 - £27,254.00 (£22,646 - £23,376).\n\nThe stated application deadline is 2026-09-10T09:00:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-level-3-gosforth-academy-newcastle-upon-tyne-tyne-and-wear?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Gosforth Academy",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
-  },
-  {
-    "job_id": "nejobs-301207",
-    "title": "Administrative Assistant Level 3",
-    "company": "Gosforth Group",
-    "location": "Gosforth Academy, Great North Road, Knightsbridge, Gosforth, Newcastle upon Tyne, NE3 2JH",
-    "region": "North East",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Term-time only (Permanent)",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "£26,403 - £27,254 per annum. Actual Salary £22,646 - £23,376",
-    "work_pattern": "Full time - term time",
-    "posted_date": "2026-08-27",
-    "closing_date": "2026-09-10",
-    "closing_datetime": "2026-09-10T09:00:00+01:00",
-    "summary": "Administrative Assistant Level 3 with Gosforth Group in Gosforth Academy, Great North Road, Knightsbridge, Gosforth, Newcastle upon Tyne, NE3 2JH. Term-time only (Permanent); Full time - term time; £26,403 - £27,254 per annum. Actual Salary £22,646 - £23,376.",
-    "description": "Gosforth Group is recruiting for this vacancy in Gosforth Academy, Great North Road, Knightsbridge, Gosforth, Newcastle upon Tyne, NE3 2JH.\n\nThe advertised position is Administrative Assistant Level 3, with the working terms listed as Term-time only (Permanent); Full time - term time.\n\nThe advertised salary is £26,403 - £27,254 per annum. Actual Salary £22,646 - £23,376.\n\nThe stated closing date is 10/09/2026 09:00.\n\nUse the original North East Jobs advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://www.northeastjobs.org.uk/job/Administrative_Assistant_Level_3/301207?utm_source=ontap&utm_medium=referral&utm_campaign=nejobs_pilot",
-    "source": "NEJobs",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Gosforth Group",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
-  },
-  {
     "job_id": "nejobs-301079",
     "title": "Active Sunderland Weight Management Support Officer",
     "company": "Sunderland City Council",
@@ -1457,11 +1401,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Telephone handling",
-      "Data entry"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225559091",
@@ -1686,11 +1626,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Telephone handling",
-      "Data entry"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225550933",
@@ -1765,12 +1701,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Scheduling and bookings",
-      "Records administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1785990",
@@ -1870,12 +1801,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Scheduling and bookings",
-      "Records administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1880245",
@@ -1900,11 +1826,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Reporting"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225572111",
@@ -1941,7 +1863,7 @@
     "region": "North East",
     "salary": "£25760.00 to £27476.00",
     "employment_type": "Permanent",
-    "posted_date": "2026-09-09T13:43:44.474770503",
+    "posted_date": "2026-09-09T13:43:44.474771",
     "closing_date": "2026-09-23",
     "description": "We are looking for an enthusiastic and motivated individual to join our team as Admin Assistant within the department of Nutrition and Dietetics. This is a varied role requiring good organisational, communication and problem-solving skills. In addition, you will be required to work flexibly, prioritise demands and respond to a constantly changing workload. This post is full time Monday-Friday. This post will be based at North Tyneside General Hospital but the post holder may be required to work at other sites within the Trust. Please note we reserve the right to close this vacancy prior to the closing date once the required number of suitable applications have been received. Duties of the role will vary, some of the main duties will include: First point of contact and subsequent contact for written and telephone enquirers from professions, patients and carers which may involve sensitive information. Manage the departments telephone system, monitor inbox and referrals, using a variety of software packages. To book appointments for clinicians. To book interpreters To type patient letters. Resolve any queries as and when raised regarding appointments. The postholder must be able to use own initiative, work under pressure, keep to strict deadline and have excellent organisational, interpersonal and communication skills. Provide comprehensive administrative support to the team - typing, booking clinics, creating clinics, booking rooms, photocopying. Reports to the Dietetic Admin Lead. Act up for Admin Lead in periods of absence Support effective utilization of OP clinic capacity by review clinic demand. Support management of all pathways including target administration e.g. GP referral, 18 week pathway, transcribing. Collect and collate date, producing reports for analysis. General Office management - telephone, photocopier. Advanced typing & transcription of clinical & non-clinical documents",
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9319-26-0828",
