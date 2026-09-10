@@ -1,6 +1,6 @@
 # Support-worker manual review
 
-feed_date: 2026-09-09
+feed_date: 2026-09-10
 
 Edit only the `action:` line in each block:
 
@@ -145,6 +145,12 @@ job_id: 1858493
 
 ---
 action:
+SELECTED | Hampshire | Southampton | £12.79 - £14.50 per hour | Residential Childcare Support Worker
+job_id: 25374_604171860
+---
+
+---
+action:
 SELECTED | Hampshire | Ventnor | £10000 per year | Care & Support Worker
 job_id: 107955972
 ---
@@ -161,6 +167,18 @@ SELECTED | Hampshire | Ventnor | £16000 per year | Care Worker
 job_id: 107956061
 ---
 
+---
+action:
+SELECTED | Hampshire | Ringwood | £26018 - £27111 per year | Care Assistant
+job_id: 1401785190
+---
+
+---
+action:
+SELECTED | Hampshire | Farnborough | £12.8 per hour ((depending on experience and qualifications)) | Residential Support Worker
+job_id: 107856573
+---
+
 ## HAMPSHIRE — POSSIBLES
 
 _No jobs in this group._
@@ -171,6 +189,12 @@ _No jobs in this group._
 action:
 SELECTED | Kent | Tunbridge Wells | competitive + benefits | Qualified Hearing Care Assistant
 job_id: 1402264062
+---
+
+---
+action:
+SELECTED | Kent | Kent | £13.45 per hour (£13.45) | Housing Support Worker (Casual)
+job_id: 23643_225534852
 ---
 
 ---
@@ -301,12 +325,6 @@ job_id: 1880232
 
 ---
 action:
-SELECTED | London | London | £30,784.00 per annum | Support Worker x 3
-job_id: 1880226
----
-
----
-action:
 SELECTED | London | London | £16.95 per hour | Relief Worker - Care Assistant
 job_id: 1878281
 ---
@@ -347,11 +365,7 @@ _No jobs in this group._
 
 ## SURREY — SELECTED
 
----
-action:
-SELECTED | Surrey | Cobham | £13.45 per hour (£13.45) | Housing Support Worker (Casual)
-job_id: 23643_225534852
----
+_No jobs in this group._
 
 ## SURREY — POSSIBLES
 
