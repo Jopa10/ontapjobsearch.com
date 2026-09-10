@@ -4,8 +4,8 @@
 - Live route: `/bedford/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 3
-- Threshold currently met: no
+- Effective included jobs: 4
+- Threshold currently met: yes
 
 ## How to review
 Edit only the `action:` line inside a job block.
@@ -15,14 +15,26 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 3
-- automatic review: 15
+- automatic include: 4
+- automatic review: 16
 - automatic exclude: 0
-- effective include: 3
-- effective review: 15
+- effective include: 4
+- effective review: 16
 - effective exclude: 0
 
-## INCLUDE (3)
+## INCLUDE (4)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Customer Services Administrator
+company: Tate - Agency - Temporary
+location: Bedford
+source: JobG8
+job_id: jobg8-23643_225586192
+reason: Exact approved Bedford workplace.
+---
 
 ---
 action: 
@@ -60,7 +72,7 @@ job_id: nhs-5587657
 reason: Exact approved Bedford workplace.
 ---
 
-## REVIEW (15)
+## REVIEW (16)
 
 ---
 action: 
@@ -90,11 +102,35 @@ reason: No exact Bedford workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Early Careers Coordinator
+company: BPHA - Agency - Permanent
+location: Bedfordshire
+source: JobG8
+job_id: jobg8-1849342
+reason: No exact Bedford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Learning & Development Coordinator
 company: ReeVR - Agency - Permanent
 location: Dunstable
 source: JobG8
 job_id: jobg8-107776346
+reason: No exact Bedford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Medical Receptionist
+company: Ashcroft Surgery
+location: Leighton Buzzard, LU7 0EN
+source: NHS Jobs
+job_id: nhs-5565873
 reason: No exact Bedford workplace matched; local geographic review is required.
 ---
 
@@ -143,18 +179,6 @@ company: Fosterplus - Agency - Permanent
 location: Bedfordshire
 source: JobG8
 job_id: jobg8-23643_225547851
-reason: No exact Bedford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Panel Administrator (Maternity Cover)
-company: Fosterplus - Agency - Permanent
-location: Bedfordshire
-source: JobG8
-job_id: jobg8-25374_604171086
 reason: No exact Bedford workplace matched; local geographic review is required.
 ---
 

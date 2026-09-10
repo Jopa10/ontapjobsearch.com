@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 7
-- automatic review: 6
-- automatic exclude: 14
+- automatic review: 9
+- automatic exclude: 16
 - effective include: 7
-- effective review: 6
-- effective exclude: 14
+- effective review: 9
+- effective exclude: 16
 
 ## INCLUDE (7)
 
@@ -108,7 +108,7 @@ job_id: jobg8-23643_225524539
 reason: Approved conservative Oxford launch catchment.
 ---
 
-## REVIEW (6)
+## REVIEW (9)
 
 ---
 action: 
@@ -131,6 +131,18 @@ company: K2 Recruitment - Agency - Temporary
 location: Bicester
 source: JobG8
 job_id: jobg8-23643_225358207
+reason: No approved Oxford catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: Practice Plus Group - Health in Justice
+location: Bicester, OX25 1PZ
+source: NHS Jobs
+job_id: nhs-5570709
 reason: No approved Oxford catchment rule matched; local review required.
 ---
 
@@ -162,11 +174,35 @@ reason: No approved Oxford catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Contracts Administrator
+company: Adecco - Agency - Temporary
+location: Thame
+source: JobG8
+job_id: jobg8-23643_225583486
+reason: No approved Oxford catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Events Coordinator
 company: BramahHR Ltd - Agency - Contract
 location: Thame
 source: JobG8
 job_id: jobg8-23643_225571244
+reason: No approved Oxford catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Receptionist
+company: Berry Recruitment - Agency - Permanent
+location: Didcot
+source: JobG8
+job_id: jobg8-23643_225587168
 reason: No approved Oxford catchment rule matched; local review required.
 ---
 
@@ -182,7 +218,7 @@ job_id: jobg8-23643_225461932
 reason: No approved Oxford catchment rule matched; local review required.
 ---
 
-## EXCLUDE (14)
+## EXCLUDE (16)
 
 ---
 action: 
@@ -236,6 +272,18 @@ reason: Broad county location; not Oxford-city evidence.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Digital Marketing Executive, Meta Ads, Google Ads, Oxford, COR7681
+company: Corriculo Ltd - Agency - Permanent
+location: Oxfordshire
+source: JobG8
+job_id: jobg8-1883696
+reason: Broad county location; not Oxford-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Ecommerce & Trading Assistant
 company: Helen and Douglas House - Agency - Permanent
 location: Oxfordshire
@@ -265,6 +313,18 @@ company: FS1 Recruitment - Agency - Contract
 location: Oxfordshire
 source: JobG8
 job_id: jobg8-107857426
+reason: Broad county location; not Oxford-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Marketing Manager
+company: Abingdon School - Agency - Permanent
+location: Oxfordshire
+source: JobG8
+job_id: jobg8-1859419
 reason: Broad county location; not Oxford-city evidence.
 ---
 

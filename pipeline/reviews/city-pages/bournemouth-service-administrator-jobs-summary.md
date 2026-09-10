@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 4
-- automatic review: 14
+- automatic review: 12
 - automatic exclude: 0
 - effective include: 4
-- effective review: 14
+- effective review: 12
 - effective exclude: 0
 
 ## INCLUDE (4)
@@ -72,7 +72,7 @@ job_id: teaching-vacancies-receptionist-part-time-the-bishop-of-winchester-acade
 reason: Exact approved Bournemouth workplace.
 ---
 
-## REVIEW (14)
+## REVIEW (12)
 
 ---
 action: 
@@ -103,10 +103,22 @@ action:
 decision: review
 automatic_decision: review
 title: Administrator
-company: Dorset HealthCare University NHS Foundation Trust
-location: Weymouth, DT4 7TB
+company: Agincare
+location: Dorchester, DT1 2EN
 source: NHS Jobs
-job_id: nhs-5580902
+job_id: nhs-5589007
+reason: No exact Bournemouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: Agincare
+location: Dorchester, DT1 2EN
+source: NHS Jobs
+job_id: nhs-5589759
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 
@@ -162,47 +174,11 @@ reason: No exact Bournemouth workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Customer Service Coordinator
-company: Rubicon Recruitment - Agency - Temporary
-location: Dorset
-source: JobG8
-job_id: jobg8-23643_225561857
-reason: No exact Bournemouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: HR Administrator
 company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Dorset
 source: JobG8
 job_id: jobg8-1868450
-reason: No exact Bournemouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Operations Coordinator
-company: Two Six Recruitment Limited - Agency - Permanent
-location: Dorset
-source: JobG8
-job_id: jobg8-1708177
-reason: No exact Bournemouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Receptionist/Administrator
-company: Dorset HealthCare University NHS Foundation Trust
-location: Poole, BH15 1SZ
-source: NHS Jobs
-job_id: nhs-5583239
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 

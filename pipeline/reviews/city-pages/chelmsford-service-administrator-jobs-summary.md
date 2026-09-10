@@ -4,7 +4,7 @@
 - Live route: `/chelmsford/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 8
+- Effective included jobs: 12
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 8
+- automatic include: 12
 - automatic review: 38
 - automatic exclude: 0
-- effective include: 8
+- effective include: 12
 - effective review: 38
 - effective exclude: 0
 
-## INCLUDE (8)
+## INCLUDE (12)
 
 ---
 action: 
@@ -64,6 +64,18 @@ reason: Exact approved Chelmsford workplace.
 action: 
 decision: include
 automatic_decision: include
+title: Conveyancing Paralegal
+company: JS Legal Recruitment Ltd - Agency - Permanent
+location: Chelmsford
+source: JobG8
+job_id: jobg8-1873301
+reason: Exact approved Chelmsford workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Digital Marketing & Social Media Executive
 company: Worth Recruiting - Property Industry Recruitment - Agency - Permanent
 location: Chelmsford
@@ -76,11 +88,47 @@ reason: Exact approved Chelmsford workplace.
 action: 
 decision: include
 automatic_decision: include
+title: E-commerce Assistant
+company: Adecco - Agency - Permanent
+location: Chelmsford
+source: JobG8
+job_id: jobg8-1860176
+reason: Exact approved Chelmsford workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Lettings Administrator
 company: EW Recruitment Limited - Agency - Permanent
 location: Chelmsford
 source: JobG8
 job_id: jobg8-1764211
+reason: Exact approved Chelmsford workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Property Inspections Team Coordinator
+company: BCT Resourcing - Agency - Permanent
+location: Chelmsford
+source: JobG8
+job_id: jobg8-1870036
+reason: Exact approved Chelmsford workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Property Inspections Team Coordinator
+company: Command Recruitment - Agency - Permanent
+location: Chelmsford
+source: JobG8
+job_id: jobg8-1869162
 reason: Exact approved Chelmsford workplace.
 ---
 
@@ -222,6 +270,18 @@ reason: No exact Chelmsford workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
+title: Conveyancing Assistant New Build
+company: JS Legal Recruitment Ltd - Agency - Permanent
+location: Essex
+source: JobG8
+job_id: jobg8-1873302
+reason: No exact Chelmsford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Conveyancing Legal Secretary
 company: A1 Personnel Employment Agency Ltd - Agency - Permanent
 location: Essex
@@ -330,6 +390,18 @@ reason: No exact Chelmsford workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
+title: Marketing & Communications Manager
+company: B4 Secure Limited - Agency - Permanent
+location: Essex
+source: JobG8
+job_id: jobg8-1860667
+reason: No exact Chelmsford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Marketing Co-Ordinator
 company: SVC Technical - Agency - Permanent
 location: Braintree
@@ -347,18 +419,6 @@ company: Pure Resourcing Solutions - Agency - Permanent
 location: Essex
 source: JobG8
 job_id: jobg8-1869868
-reason: No exact Chelmsford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Medical Receptionist
-company: Lister Medical Centre
-location: Harlow, CM18 6YJ
-source: NHS Jobs
-job_id: nhs-5559515
 reason: No exact Chelmsford workplace matched; local geographic review is required.
 ---
 
@@ -450,6 +510,18 @@ reason: No exact Chelmsford workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
+title: Receptionist
+company: Avery Healthcare Group Ltd.
+location: Braintree, CM7 5SE
+source: NHS Jobs
+job_id: nhs-5589782
+reason: No exact Chelmsford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Receptionist/Care Navigator
 company: Primary Care Careers
 location: Colchester, CO1 2QS
@@ -491,18 +563,6 @@ company: Brand Recruitment - Agency - Permanent
 location: Essex
 source: JobG8
 job_id: jobg8-1703629
-reason: No exact Chelmsford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Service Desk Support Analyst
-company: FRP Group - Agency - Permanent
-location: Essex
-source: JobG8
-job_id: jobg8-1780185
 reason: No exact Chelmsford workplace matched; local geographic review is required.
 ---
 
@@ -563,18 +623,6 @@ company: TIME Appointments Ltd - Agency - Permanent
 location: Colchester
 source: JobG8
 job_id: jobg8-1877700
-reason: No exact Chelmsford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Trust Administrator
-company: Discovery Educational Trust
-location: Brentwood
-source: Teaching Vacancies
-job_id: teaching-vacancies-trust-administrator-discovery-educational-trust
 reason: No exact Chelmsford workplace matched; local geographic review is required.
 ---
 

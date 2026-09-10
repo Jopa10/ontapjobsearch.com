@@ -114,11 +114,11 @@ reason: No exact Worcester workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Finance Assistant
-company: Mitchell Adam - Agency - Permanent
+title: Onboarding Coordinator
+company: Davies Group - Agency - Permanent
 location: Worcestershire
 source: JobG8
-job_id: jobg8-1744069
+job_id: jobg8-1879674
 reason: No exact Worcester workplace matched; local geographic review is required.
 ---
 

@@ -4,7 +4,7 @@
 - Live route: `/rotherham/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 2
+- Effective included jobs: 1
 - Threshold currently met: no
 
 ## How to review
@@ -15,40 +15,28 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 2
-- automatic review: 23
+- automatic include: 1
+- automatic review: 20
 - automatic exclude: 0
-- effective include: 2
-- effective review: 23
+- effective include: 1
+- effective review: 20
 - effective exclude: 0
 
-## INCLUDE (2)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administration Assistant
-company: The Market Surgery
-location: Rotherham, S63 7RA
-source: NHS Jobs
-job_id: nhs-5568486
-reason: Exact approved Rotherham workplace.
----
+## INCLUDE (1)
 
 ---
 action: 
 decision: include
 automatic_decision: include
 title: Receptionist
-company: The Market Surgery
-location: Rotherham, S63 7RA
+company: Gateway Primary Care CIC
+location: Rotherham, S65 1DJ, Rotherham, S62 7BT, Rotherham, S60 2JH, Rotherham, S60 8GD
 source: NHS Jobs
-job_id: nhs-5568418
+job_id: nhs-5588970
 reason: Exact approved Rotherham workplace.
 ---
 
-## REVIEW (23)
+## REVIEW (20)
 
 ---
 action: 
@@ -83,6 +71,18 @@ company: The Rowan School
 location: Sheffield
 source: Teaching Vacancies
 job_id: teaching-vacancies-admin-clerical-officer-level-2-rowan-school
+reason: No exact Rotherham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrative Assistant
+company: Garland House Surgery
+location: Barnsley, S73 9JX
+source: NHS Jobs
+job_id: nhs-5295793
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 
@@ -162,18 +162,6 @@ reason: No exact Rotherham workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Part Time Administrator - 12 Hour Per Week
-company: Office Angels - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-23643_225558215
-reason: No exact Rotherham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Part Time Receptionist/Administrative Assistant
 company: Beyond Talent Solutions Ltd - Agency - Contract
 location: Brinsworth
@@ -246,35 +234,11 @@ reason: No exact Rotherham workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Receptionist - AM shift - DN1
-company: Ideal Recruit Ltd - Agency - Temporary
-location: Doncaster
+title: Resource Coordinator
+company: Jackson Hogg Ltd - Agency - Permanent
+location: Sheffield
 source: JobG8
-job_id: jobg8-23643_225488492
-reason: No exact Rotherham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Receptionist/Administrator
-company: Tickhill and Colliery Medical Practice
-location: Doncaster, DN11 9NA, Doncaster, DN11 8JT
-source: NHS Jobs
-job_id: nhs-5554992
-reason: No exact Rotherham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Sales & Marketing Coordinator
-company: Get Recruited (UK) Ltd - Agency - Permanent
-location: Doncaster
-source: JobG8
-job_id: jobg8-107771227
+job_id: jobg8-23643_225485987
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 
@@ -311,18 +275,6 @@ company: Aston Academy
 location: Sheffield
 source: Teaching Vacancies
 job_id: teaching-vacancies-send-administrator-aston-academy-sheffield-south-yorkshire
-reason: No exact Rotherham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Service Desk Analyst
-company: Venn Group - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-1807172
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 

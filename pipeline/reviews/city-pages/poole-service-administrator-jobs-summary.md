@@ -4,7 +4,7 @@
 - Live route: `/poole/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 2
+- Effective included jobs: 1
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 2
-- automatic review: 16
+- automatic include: 1
+- automatic review: 15
 - automatic exclude: 0
-- effective include: 2
-- effective review: 16
+- effective include: 1
+- effective review: 15
 - effective exclude: 0
 
-## INCLUDE (2)
+## INCLUDE (1)
 
 ---
 action: 
@@ -36,19 +36,7 @@ job_id: jobg8-107779296
 reason: Exact approved Poole workplace.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Receptionist/Administrator
-company: Dorset HealthCare University NHS Foundation Trust
-location: Poole, BH15 1SZ
-source: NHS Jobs
-job_id: nhs-5583239
-reason: Exact approved Poole workplace.
----
-
-## REVIEW (16)
+## REVIEW (15)
 
 ---
 action: 
@@ -67,10 +55,22 @@ action:
 decision: review
 automatic_decision: review
 title: Administrator
-company: Dorset HealthCare University NHS Foundation Trust
-location: Weymouth, DT4 7TB
+company: Agincare
+location: Dorchester, DT1 2EN
 source: NHS Jobs
-job_id: nhs-5580902
+job_id: nhs-5589007
+reason: No exact Poole workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: Agincare
+location: Dorchester, DT1 2EN
+source: NHS Jobs
+job_id: nhs-5589759
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 
@@ -138,35 +138,11 @@ reason: No exact Poole workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Customer Service Coordinator
-company: Rubicon Recruitment - Agency - Temporary
-location: Dorset
-source: JobG8
-job_id: jobg8-23643_225561857
-reason: No exact Poole workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: HR Administrator
 company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Dorset
 source: JobG8
 job_id: jobg8-1868450
-reason: No exact Poole workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Operations Coordinator
-company: Two Six Recruitment Limited - Agency - Permanent
-location: Dorset
-source: JobG8
-job_id: jobg8-1708177
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 

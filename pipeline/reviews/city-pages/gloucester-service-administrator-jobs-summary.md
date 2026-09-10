@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 3
-- automatic review: 24
+- automatic review: 22
 - automatic exclude: 0
 - effective include: 3
-- effective review: 24
+- effective review: 22
 - effective exclude: 0
 
 ## INCLUDE (3)
@@ -60,7 +60,7 @@ job_id: nhs-5551856
 reason: Exact approved Gloucester workplace.
 ---
 
-## REVIEW (24)
+## REVIEW (22)
 
 ---
 action: 
@@ -83,18 +83,6 @@ company: First Base - Agency - Permanent
 location: Dursley
 source: JobG8
 job_id: jobg8-23643_225565670
-reason: No exact Gloucester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Client Services Administrator
-company: CKB Recruitment Ltd - Agency - Permanent
-location: Gloucestershire
-source: JobG8
-job_id: jobg8-23643_225488647
 reason: No exact Gloucester workplace matched; local geographic review is required.
 ---
 
@@ -186,18 +174,6 @@ reason: No exact Gloucester workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Medical Receptionist
-company: Beeches Green Surgery
-location: Stroud, GL5 4BH
-source: NHS Jobs
-job_id: nhs-5562669
-reason: No exact Gloucester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Operations Administrator
 company: Adecco - Agency - Permanent
 location: Gloucestershire
@@ -234,11 +210,11 @@ reason: No exact Gloucester workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: PR Executive
-company: i2i Recruitment Consultancy - Agency - Permanent
+title: PR Account Manager
+company: Moxie and Mettle Limited - Agency - Permanent
 location: Gloucestershire
 source: JobG8
-job_id: jobg8-1823123
+job_id: jobg8-1844062
 reason: No exact Gloucester workplace matched; local geographic review is required.
 ---
 
@@ -246,11 +222,23 @@ reason: No exact Gloucester workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Property Coordinator - Property Experience Needed
-company: Juice Recruitment Ltd - Agency - Permanent
+title: PR Account Manager - inhouse or agency welcome!
+company: Moxie and Mettle Limited - Agency - Permanent
 location: Gloucestershire
 source: JobG8
-job_id: jobg8-1744305
+job_id: jobg8-1883527
+reason: No exact Gloucester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: PR Executive
+company: i2i Recruitment Consultancy - Agency - Permanent
+location: Gloucestershire
+source: JobG8
+job_id: jobg8-1823123
 reason: No exact Gloucester workplace matched; local geographic review is required.
 ---
 
@@ -335,18 +323,6 @@ company: Gloucestershire Health and Care NHS Foundation Trust
 location: Stroud, GL5 2HZ
 source: NHS Jobs
 job_id: nhs-5579261
-reason: No exact Gloucester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Temporary Accounts Payable Administrator
-company: Morgan McKinley - Agency - Permanent
-location: Gloucestershire
-source: JobG8
-job_id: jobg8-1744080
 reason: No exact Gloucester workplace matched; local geographic review is required.
 ---
 

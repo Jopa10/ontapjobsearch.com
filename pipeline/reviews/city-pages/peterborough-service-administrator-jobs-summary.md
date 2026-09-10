@@ -4,8 +4,8 @@
 - Live route: `/peterborough/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 5
-- Threshold currently met: no
+- Effective included jobs: 6
+- Threshold currently met: yes
 
 ## How to review
 Edit only the `action:` line inside a job block.
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 5
+- automatic include: 6
 - automatic review: 4
-- automatic exclude: 10
-- effective include: 5
+- automatic exclude: 15
+- effective include: 6
 - effective review: 4
-- effective exclude: 10
+- effective exclude: 15
 
-## INCLUDE (5)
+## INCLUDE (6)
 
 ---
 action: 
@@ -84,6 +84,18 @@ job_id: jobg8-107906533
 reason: Approved conservative Peterborough launch catchment.
 ---
 
+---
+action: 
+decision: include
+automatic_decision: include
+title: Talent Acquisition Coordinator
+company: LHH Recruitment Solutions - Agency - Permanent
+location: Peterborough
+source: JobG8
+job_id: jobg8-1860755
+reason: Approved conservative Peterborough launch catchment.
+---
+
 ## REVIEW (4)
 
 ---
@@ -134,7 +146,7 @@ job_id: jobg8-23643_225519683
 reason: No approved Peterborough catchment rule matched; local review required.
 ---
 
-## EXCLUDE (10)
+## EXCLUDE (15)
 
 ---
 action: 
@@ -188,11 +200,71 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Communications & Events Executive
+company: Vermelo RPO - Agency - Permanent
+location: Cambridgeshire
+source: JobG8
+job_id: jobg8-1848349
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: CRM Officer
+company: Proactive Appointments - Agency - Permanent
+location: Cambridgeshire
+source: JobG8
+job_id: jobg8-1874671
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Customer Service Administrator
+company: Rosscare - Agency - Contract
+location: Huntingdon
+source: JobG8
+job_id: jobg8-23643_225588023
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Digital Marketing Specialist
+company: Reed - Agency - Permanent
+location: Cambridgeshire
+source: JobG8
+job_id: jobg8-1857177
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Ecommerce Content Assistant
 company: Yours Clothing - Agency - Permanent
 location: Cambridgeshire
 source: JobG8
 job_id: jobg8-107881402
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Graduate Communications Officer
+company: Exact Sourcing Ltd - Agency - Permanent
+location: Cambridgeshire
+source: JobG8
+job_id: jobg8-1842087
 reason: Separate employment market.
 ---
 

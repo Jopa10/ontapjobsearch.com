@@ -4,7 +4,7 @@
 - Live route: `/maidstone/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 2
+- Effective included jobs: 1
 - Threshold currently met: no
 
 ## How to review
@@ -15,26 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 2
-- automatic review: 45
+- automatic include: 1
+- automatic review: 50
 - automatic exclude: 0
-- effective include: 2
-- effective review: 45
+- effective include: 1
+- effective review: 50
 - effective exclude: 0
 
-## INCLUDE (2)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Admin Assistant - Care Home
-company: Barchester Healthcare
-location: Maidstone, ME17 3ZB
-source: NHS Jobs
-job_id: nhs-5574491
-reason: Exact approved Maidstone workplace.
----
+## INCLUDE (1)
 
 ---
 action: 
@@ -48,17 +36,17 @@ job_id: jobg8-23643_225498641
 reason: Exact approved Maidstone workplace.
 ---
 
-## REVIEW (45)
+## REVIEW (50)
 
 ---
 action: 
 decision: review
 automatic_decision: review
-title: 1st Line Support Helpdesk Analyst
-company: Constant Recruitment Ltd - Agency - Permanent
+title: Administrative Assistant
+company: NOV - Agency - Permanent
 location: Kent
 source: JobG8
-job_id: jobg8-1800151
+job_id: jobg8-23643_225586080
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 
@@ -107,6 +95,18 @@ company: Invicta Health CIC
 location: Ramsgate, CT11 8AD
 source: NHS Jobs
 job_id: nhs-5584878
+reason: No exact Maidstone workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: Kent and Medway Mental Health NHS Trust
+location: Canterbury, CT1 1AZ
+source: NHS Jobs
+job_id: nhs-5589424
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 
@@ -191,6 +191,18 @@ company: Reed - Agency - Permanent
 location: Kent
 source: JobG8
 job_id: jobg8-1734069
+reason: No exact Maidstone workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Events Coordinator
+company: New Appointments Group - Agency - Permanent
+location: Kent
+source: JobG8
+job_id: jobg8-23643_225584102
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 
@@ -331,10 +343,34 @@ action:
 decision: review
 automatic_decision: review
 title: Marketing Manager
+company: Crystal People Ltd - Agency - Permanent
+location: Kent
+source: JobG8
+job_id: jobg8-1862832
+reason: No exact Maidstone workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Marketing Manager
 company: Recruitment Solutions - Agency - Permanent
 location: Kent
 source: JobG8
 job_id: jobg8-1766258
+reason: No exact Maidstone workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Marketing Manager (Construction)
+company: Reed - Agency - Permanent
+location: Kent
+source: JobG8
+job_id: jobg8-1870521
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 
@@ -347,18 +383,6 @@ company: New Appointments Group - Agency - Permanent
 location: Kent
 source: JobG8
 job_id: jobg8-23643_225511273
-reason: No exact Maidstone workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Paid Social Specialist
-company: Reed - Agency - Permanent
-location: Kent
-source: JobG8
-job_id: jobg8-1744073
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 
@@ -438,6 +462,18 @@ reason: No exact Maidstone workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
+title: Polish Speaking Marketing Executive
+company: Euro London - Agency - Permanent
+location: Dartford
+source: JobG8
+job_id: jobg8-1844054
+reason: No exact Maidstone workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Project Coordinator - Commercial Pipeline and Innovation
 company: Prinova Europe - Agency - Permanent
 location: Aylesford
@@ -486,6 +522,18 @@ reason: No exact Maidstone workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
+title: Receptionist / Administrator
+company: The Grovehurst Surgery
+location: Sittingbourne, ME10 2ST
+source: NHS Jobs
+job_id: nhs-5589840
+reason: No exact Maidstone workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Receptionist/administrator
 company: Apex Medical practice
 location: Rochester, ME2 4UW
@@ -515,18 +563,6 @@ company: AS Resourcing - Agency - Permanent
 location: Kent
 source: JobG8
 job_id: jobg8-107875101
-reason: No exact Maidstone workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Service & Quotations Coordinator
-company: Next Doors Ltd - Agency - Permanent
-location: Kent
-source: JobG8
-job_id: jobg8-107804446
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 
@@ -570,11 +606,11 @@ reason: No exact Maidstone workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Sharepoint Administrator
-company: Pearson Whiffin Recruitment Ltd - Agency - Permanent
+title: Supply Chain Administrator - FMCG
+company: Tailor Made Resources - Agency - Permanent
 location: Kent
 source: JobG8
-job_id: jobg8-1693117
+job_id: jobg8-23643_225400133
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 
@@ -582,11 +618,23 @@ reason: No exact Maidstone workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Supply Chain Administrator - FMCG
-company: Tailor Made Resources - Agency - Permanent
+title: Trainee Company Secretary
+company: G2 Company Secretarial - Agency - Permanent
 location: Kent
 source: JobG8
-job_id: jobg8-23643_225400133
+job_id: jobg8-1839564
+reason: No exact Maidstone workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Works Planner/ Co-ordinator
+company: RG Setsquare - Agency - Permanent
+location: Kent
+source: JobG8
+job_id: jobg8-23643_225585945
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 

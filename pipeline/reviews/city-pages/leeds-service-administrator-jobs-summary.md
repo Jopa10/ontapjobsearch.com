@@ -4,7 +4,7 @@
 - Live route: `/leeds/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 26
+- Effective included jobs: 23
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 26
-- automatic review: 6
-- automatic exclude: 11
-- effective include: 26
-- effective review: 6
-- effective exclude: 11
+- automatic include: 23
+- automatic review: 8
+- automatic exclude: 12
+- effective include: 23
+- effective review: 8
+- effective exclude: 12
 
-## INCLUDE (26)
+## INCLUDE (23)
 
 ---
 action: 
@@ -33,18 +33,6 @@ company: Lucy Walker Recruitment - Agency - Temporary
 location: Leeds
 source: JobG8
 job_id: jobg8-23643_225570773
-reason: Approved Leeds catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrator
-company: Nigel Wright Recruitment - Agency - Temporary
-location: Leeds
-source: JobG8
-job_id: jobg8-23643_225488843
 reason: Approved Leeds catchment.
 ---
 
@@ -81,18 +69,6 @@ company: Adjusting Appointments Limited - Agency - Permanent
 location: Leeds
 source: JobG8
 job_id: jobg8-1785909
-reason: Approved Leeds catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Clerical Officer/Receptionist
-company: Leeds Teaching Hospitals
-location: Leeds, LS1 3EX
-source: NHS Jobs
-job_id: nhs-5577774
 reason: Approved Leeds catchment.
 ---
 
@@ -201,18 +177,6 @@ company: Wrigleys Solicitors - Agency - Permanent
 location: Leeds
 source: JobG8
 job_id: jobg8-23643_225581901
-reason: Approved Leeds catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Medical Administrator
-company: Oakwood Lane Medical Practice
-location: Leeds, LS8 3BZ
-source: NHS Jobs
-job_id: nhs-5577142
 reason: Approved Leeds catchment.
 ---
 
@@ -336,7 +300,7 @@ job_id: jobg8-23643_225519206
 reason: Approved Leeds catchment.
 ---
 
-## REVIEW (6)
+## REVIEW (8)
 
 ---
 action: 
@@ -359,6 +323,18 @@ company: Centric Talent - Agency - Permanent
 location: Brighouse
 source: JobG8
 job_id: jobg8-107926764
+reason: No approved Leeds catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Finance Administrator
+company: Affinity Care
+location: Shipley, BD18 3EG
+source: NHS Jobs
+job_id: nhs-5590158
 reason: No approved Leeds catchment rule matched; local review required.
 ---
 
@@ -410,7 +386,19 @@ job_id: jobg8-1874090
 reason: No approved Leeds catchment rule matched; local review required.
 ---
 
-## EXCLUDE (11)
+---
+action: 
+decision: review
+automatic_decision: review
+title: Purchase & Sales Ledger Administrator
+company: IPS Group - Agency - Permanent
+location: Brighouse
+source: JobG8
+job_id: jobg8-1880847
+reason: No approved Leeds catchment rule matched; local review required.
+---
+
+## EXCLUDE (12)
 
 ---
 action: 
@@ -469,6 +457,18 @@ company: AM Global - Agency - Permanent
 location: Huddersfield
 source: JobG8
 job_id: jobg8-23643_225511013
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Practice Administrator
+company: Warrengate Medical Centre
+location: Wakefield, WF1 4PR
+source: NHS Jobs
+job_id: nhs-5056947
 reason: Separate employment market.
 ---
 

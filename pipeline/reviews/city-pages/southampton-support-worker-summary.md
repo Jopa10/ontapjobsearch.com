@@ -4,7 +4,7 @@
 - Live route: `/southampton/support-worker`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 3
+- Effective included jobs: 4
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 3
-- automatic review: 4
-- automatic exclude: 1
-- effective include: 3
-- effective review: 4
-- effective exclude: 1
+- automatic include: 4
+- automatic review: 6
+- automatic exclude: 2
+- effective include: 4
+- effective review: 6
+- effective exclude: 2
 
-## INCLUDE (3)
+## INCLUDE (4)
 
 ---
 action: 
@@ -33,6 +33,18 @@ company: Hampshire County Council - Company - Permanent
 location: Southampton
 source: JobG8
 job_id: jobg8-1401784887
+reason: Approved Southampton catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Residential Childcare Support Worker
+company: BudWood Ltd - Agency - Permanent
+location: Southampton
+source: JobG8
+job_id: jobg8-25374_604171860
 reason: Approved Southampton catchment.
 ---
 
@@ -60,7 +72,7 @@ job_id: jobg8-1858493
 reason: Approved Southampton catchment.
 ---
 
-## REVIEW (4)
+## REVIEW (6)
 
 ---
 action: 
@@ -90,6 +102,30 @@ reason: No approved Southampton catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Care Assistant
+company: Hampshire County Council - Company - Permanent
+location: Ringwood
+source: JobG8
+job_id: jobg8-1401785190
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Care Worker
+company: Southern Housing - Agency - Permanent
+location: Ventnor
+source: JobG8
+job_id: jobg8-107956061
+reason: No approved Southampton catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Day Opportunities Support Worker (HCC Care YA)
 company: Hampshire County Council - Company - Permanent
 location: Gosport
@@ -110,7 +146,19 @@ job_id: jobg8-1401784888
 reason: Broad location; review before city inclusion.
 ---
 
-## EXCLUDE (1)
+## EXCLUDE (2)
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Residential Support Worker
+company: SWAAY - Agency - Permanent
+location: Farnborough
+source: JobG8
+job_id: jobg8-107856573
+reason: Separate employment market.
+---
 
 ---
 action: 

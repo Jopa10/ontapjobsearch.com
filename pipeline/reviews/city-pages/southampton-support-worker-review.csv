@@ -1,9 +1,13 @@
 decision,job_id,title,company,location,source,automatic_decision,effective_decision,reason,matched_rule,city_key
 include,jobg8-1401784887,Night Care Worker,Hampshire County Council - Company - Permanent,Southampton,JobG8,include,include,Approved Southampton catchment.,southampton,southampton-support-worker
+include,jobg8-25374_604171860,Residential Childcare Support Worker,BudWood Ltd - Agency - Permanent,Southampton,JobG8,include,include,Approved Southampton catchment.,southampton,southampton-support-worker
 include,jobg8-1401784780,Secure Childrens Home Support Worker (Weekends),Hampshire County Council - Company - Permanent,Southampton,JobG8,include,include,Approved Southampton catchment.,southampton,southampton-support-worker
 include,jobg8-1858493,Support Worker,The Society of St James - Agency - Permanent,Southampton,JobG8,include,include,Approved Southampton catchment.,southampton,southampton-support-worker
 review,jobg8-107955972,Care & Support Worker,Southern Housing - Agency - Permanent,Ventnor,JobG8,review,review,No approved Southampton catchment rule matched; local review required.,fallback,southampton-support-worker
 review,jobg8-107955992,Care & Support Worker,Southern Housing - Agency - Permanent,Freshwater,JobG8,review,review,No approved Southampton catchment rule matched; local review required.,fallback,southampton-support-worker
+review,jobg8-1401785190,Care Assistant,Hampshire County Council - Company - Permanent,Ringwood,JobG8,review,review,Broad location; review before city inclusion.,context:hampshire,southampton-support-worker
+review,jobg8-107956061,Care Worker,Southern Housing - Agency - Permanent,Ventnor,JobG8,review,review,No approved Southampton catchment rule matched; local review required.,fallback,southampton-support-worker
 review,jobg8-1401784915,Day Opportunities Support Worker (HCC Care YA),Hampshire County Council - Company - Permanent,Gosport,JobG8,review,review,Broad location; review before city inclusion.,context:hampshire,southampton-support-worker
 review,jobg8-1401784888,Support Worker (Out of Hours),Hampshire County Council - Company - Permanent,Havant,JobG8,review,review,Broad location; review before city inclusion.,context:hampshire,southampton-support-worker
+exclude,jobg8-107856573,Residential Support Worker,SWAAY - Agency - Permanent,Farnborough,JobG8,exclude,exclude,Separate employment market.,farnborough,southampton-support-worker
 exclude,jobg8-1401784900,Secure Children's Home Support Worker,Hampshire County Council - Company - Permanent,Eastleigh,JobG8,exclude,exclude,Separate employment market.,eastleigh,southampton-support-worker

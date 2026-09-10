@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 2
-- automatic review: 6
-- automatic exclude: 35
+- automatic review: 8
+- automatic exclude: 33
 - effective include: 2
-- effective review: 6
-- effective exclude: 35
+- effective review: 8
+- effective exclude: 33
 
 ## INCLUDE (2)
 
@@ -48,7 +48,7 @@ job_id: nhs-5579570
 reason: Approved Huddersfield catchment.
 ---
 
-## REVIEW (6)
+## REVIEW (8)
 
 ---
 action: 
@@ -71,6 +71,18 @@ company: Centric Talent - Agency - Permanent
 location: Brighouse
 source: JobG8
 job_id: jobg8-107926764
+reason: No approved Huddersfield catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Finance Administrator
+company: Affinity Care
+location: Shipley, BD18 3EG
+source: NHS Jobs
+job_id: nhs-5590158
 reason: No approved Huddersfield catchment rule matched; local review required.
 ---
 
@@ -122,7 +134,19 @@ job_id: jobg8-1874090
 reason: No approved Huddersfield catchment rule matched; local review required.
 ---
 
-## EXCLUDE (35)
+---
+action: 
+decision: review
+automatic_decision: review
+title: Purchase & Sales Ledger Administrator
+company: IPS Group - Agency - Permanent
+location: Brighouse
+source: JobG8
+job_id: jobg8-1880847
+reason: No approved Huddersfield catchment rule matched; local review required.
+---
+
+## EXCLUDE (33)
 
 ---
 action: 
@@ -145,18 +169,6 @@ company: Lucy Walker Recruitment - Agency - Temporary
 location: Leeds
 source: JobG8
 job_id: jobg8-23643_225570773
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Administrator
-company: Nigel Wright Recruitment - Agency - Temporary
-location: Leeds
-source: JobG8
-job_id: jobg8-23643_225488843
 reason: Separate employment market.
 ---
 
@@ -193,18 +205,6 @@ company: Adjusting Appointments Limited - Agency - Permanent
 location: Leeds
 source: JobG8
 job_id: jobg8-1785909
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Clerical Officer/Receptionist
-company: Leeds Teaching Hospitals
-location: Leeds, LS1 3EX
-source: NHS Jobs
-job_id: nhs-5577774
 reason: Separate employment market.
 ---
 
@@ -332,18 +332,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Medical Administrator
-company: Oakwood Lane Medical Practice
-location: Leeds, LS8 3BZ
-source: NHS Jobs
-job_id: nhs-5577142
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Operations Administrator
 company: Kingston Barnes Ltd - Agency - Permanent
 location: Leeds
@@ -385,6 +373,18 @@ company: Winsearch - Agency - Temporary
 location: Wakefield
 source: JobG8
 job_id: jobg8-23643_225522242
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Practice Administrator
+company: Warrengate Medical Centre
+location: Wakefield, WF1 4PR
+source: NHS Jobs
+job_id: nhs-5056947
 reason: Separate employment market.
 ---
 

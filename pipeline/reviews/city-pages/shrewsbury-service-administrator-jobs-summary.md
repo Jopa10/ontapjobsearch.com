@@ -154,7 +154,7 @@ title: Recruitment Account Coordinator
 company: Staffline Recruitment Limited - Agency - Permanent
 location: Shropshire
 source: JobG8
-job_id: jobg8-1870356
+job_id: jobg8-1884311
 reason: No exact Shrewsbury workplace matched; local geographic review is required.
 ---
 

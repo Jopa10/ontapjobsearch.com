@@ -4,7 +4,7 @@
 - Live route: `/leicester/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 4
+- Effective included jobs: 5
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 4
+- automatic include: 5
 - automatic review: 21
 - automatic exclude: 0
-- effective include: 4
+- effective include: 5
 - effective review: 21
 - effective exclude: 0
 
-## INCLUDE (4)
+## INCLUDE (5)
 
 ---
 action: 
@@ -33,6 +33,18 @@ company: Windmill Recruitment Ltd - Agency - Permanent
 location: Leicester
 source: JobG8
 job_id: jobg8-23643_225575387
+reason: Exact approved Leicester workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Commercial Property Secretary
+company: Allstaff Recruitment - Agency - Permanent
+location: Leicester
+source: JobG8
+job_id: jobg8-1869342
 reason: Exact approved Leicester workplace.
 ---
 
@@ -186,18 +198,6 @@ reason: No exact Leicester workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Despatch / Export Administrator
-company: Interaction Recruitment - Agency - Permanent
-location: Wigston
-source: JobG8
-job_id: jobg8-23643_225484075
-reason: No exact Leicester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Medical Receptionist
 company: Broom Leys Surgery
 location: COALVILLE, LE67 4DE
@@ -263,6 +263,18 @@ company: Sherrier Church of England Primary School
 location: Lutterworth
 source: Teaching Vacancies
 job_id: teaching-vacancies-receptionist-sherrier-church-of-england-primary-school
+reason: No exact Leicester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Recruitment Operations Coordinator
+company: R&V Group Ltd - Agency - Contract
+location: Leicestershire
+source: JobG8
+job_id: jobg8-107786802
 reason: No exact Leicester workplace matched; local geographic review is required.
 ---
 

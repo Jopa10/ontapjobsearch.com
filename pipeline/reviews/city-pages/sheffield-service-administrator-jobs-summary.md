@@ -4,7 +4,7 @@
 - Live route: `/sheffield/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 14
+- Effective included jobs: 13
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 14
+- automatic include: 13
 - automatic review: 2
-- automatic exclude: 9
-- effective include: 14
+- automatic exclude: 6
+- effective include: 13
 - effective review: 2
-- effective exclude: 9
+- effective exclude: 6
 
-## INCLUDE (14)
+## INCLUDE (13)
 
 ---
 action: 
@@ -100,18 +100,6 @@ reason: Approved Sheffield catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Part Time Administrator - 12 Hour Per Week
-company: Office Angels - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-23643_225558215
-reason: Approved Sheffield catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Permanent Admin Assistant
 company: Wybourn Community Primary & Nursery School
 location: Sheffield
@@ -141,6 +129,18 @@ company: Totley Primary School
 location: Sheffield
 source: Teaching Vacancies
 job_id: teaching-vacancies-receptionist-totley-primary-school
+reason: Approved Sheffield catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Resource Coordinator
+company: Jackson Hogg Ltd - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-23643_225485987
 reason: Approved Sheffield catchment.
 ---
 
@@ -180,18 +180,6 @@ job_id: teaching-vacancies-send-administrator-aston-academy-sheffield-south-york
 reason: Approved Sheffield catchment.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Service Desk Analyst
-company: Venn Group - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-1807172
-reason: Approved Sheffield catchment.
----
-
 ## REVIEW (2)
 
 ---
@@ -218,7 +206,7 @@ job_id: jobg8-23643_225575501
 reason: No approved Sheffield catchment rule matched; local review required.
 ---
 
-## EXCLUDE (9)
+## EXCLUDE (6)
 
 ---
 action: 
@@ -236,11 +224,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Administration Assistant
-company: The Market Surgery
-location: Rotherham, S63 7RA
+title: Administrative Assistant
+company: Garland House Surgery
+location: Barnsley, S73 9JX
 source: NHS Jobs
-job_id: nhs-5568486
+job_id: nhs-5295793
 reason: Separate employment market.
 ---
 
@@ -285,45 +273,9 @@ action:
 decision: exclude
 automatic_decision: exclude
 title: Receptionist
-company: The Market Surgery
-location: Rotherham, S63 7RA
+company: Gateway Primary Care CIC
+location: Rotherham, S65 1DJ, Rotherham, S62 7BT, Rotherham, S60 2JH, Rotherham, S60 8GD
 source: NHS Jobs
-job_id: nhs-5568418
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Receptionist - AM shift - DN1
-company: Ideal Recruit Ltd - Agency - Temporary
-location: Doncaster
-source: JobG8
-job_id: jobg8-23643_225488492
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Receptionist/Administrator
-company: Tickhill and Colliery Medical Practice
-location: Doncaster, DN11 9NA, Doncaster, DN11 8JT
-source: NHS Jobs
-job_id: nhs-5554992
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Sales & Marketing Coordinator
-company: Get Recruited (UK) Ltd - Agency - Permanent
-location: Doncaster
-source: JobG8
-job_id: jobg8-107771227
+job_id: nhs-5588970
 reason: Separate employment market.
 ---

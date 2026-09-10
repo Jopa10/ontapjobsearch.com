@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 5
-- automatic review: 92
+- automatic review: 93
 - automatic exclude: 0
 - effective include: 5
-- effective review: 92
+- effective review: 93
 - effective exclude: 0
 
 ## INCLUDE (5)
@@ -84,7 +84,7 @@ job_id: nhs-5580794
 reason: Exact approved Sunderland workplace.
 ---
 
-## REVIEW (92)
+## REVIEW (93)
 
 ---
 action: 
@@ -210,23 +210,11 @@ reason: No exact Sunderland workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Administrative Assistant Level 3
-company: Gosforth Academy
-location: Newcastle-upon-Tyne
-source: Teaching Vacancies
-job_id: teaching-vacancies-administrative-assistant-level-3-gosforth-academy-newcastle-upon-tyne-tyne-and-wear
-reason: No exact Sunderland workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrative Assistant Level 3
-company: Gosforth Group
-location: Gosforth Academy, Great North Road, Knightsbridge, Gosforth, Newcastle upon Tyne, NE3 2JH
+title: Administrator
+company: Age UK County Durham
+location: Age UK County Durham
 source: NEJobs
-job_id: nejobs-301207
+job_id: nejobs-301544
 reason: No exact Sunderland workplace matched; local geographic review is required.
 ---
 
@@ -235,10 +223,10 @@ action:
 decision: review
 automatic_decision: review
 title: Administrator
-company: Age UK County Durham
-location: Age UK County Durham
-source: NEJobs
-job_id: nejobs-301544
+company: Northumbria Healthcare NHS Foundation Trust
+location: North Shields, NE29 8NH
+source: NHS Jobs
+job_id: nhs-5588627
 reason: No exact Sunderland workplace matched; local geographic review is required.
 ---
 
@@ -570,6 +558,18 @@ reason: No exact Sunderland workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
+title: Centre Coordinator
+company: Burnhope Community Centre - Agency - Permanent
+location: County Durham
+source: JobG8
+job_id: jobg8-1880245
+reason: No exact Sunderland workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Customer Experience Coordinator
 company: Linear Recruitment Ltd - Agency - Contract
 location: Darlington
@@ -870,6 +870,18 @@ reason: No exact Sunderland workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
+title: HR Administrator
+company: Nigel Wright Group - Agency - Permanent
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-1771050
+reason: No exact Sunderland workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: HR Administrator - Rewards
 company: Pertemps Scotland Temps - Agency - Permanent
 location: County Durham
@@ -887,18 +899,6 @@ company: SRG - Agency - Contract
 location: County Durham
 source: JobG8
 job_id: jobg8-23643_225513399
-reason: No exact Sunderland workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Marketing Manager
-company: Miller Homes - Agency - Permanent
-location: Newcastle upon Tyne
-source: JobG8
-job_id: jobg8-23643_225488811
 reason: No exact Sunderland workplace matched; local geographic review is required.
 ---
 
@@ -935,18 +935,6 @@ company: Betts Avenue Medical Centre
 location: Newcastle Upon Tyne, NE15 6TQ, Newcastle Upon Tyne, NE3 3QP
 source: NHS Jobs
 job_id: nhs-5555684
-reason: No exact Sunderland workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Medical Receptionist
-company: Claypath and University Medical Practice
-location: Durham, DH1 1QW, DURHAM, DH1 3JX
-source: NHS Jobs
-job_id: nhs-5547933
 reason: No exact Sunderland workplace matched; local geographic review is required.
 ---
 
@@ -1122,6 +1110,18 @@ reason: No exact Sunderland workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
+title: Team Administrator
+company: Tees Esk and Wear Valleys NHS Foundation Trust
+location: Seaham, SR7 0BG
+source: NHS Jobs
+job_id: nhs-5589916
+reason: No exact Sunderland workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Temporary Administrator - Ryton - Immediate Start
 company: Office Angels - Agency - Temporary
 location: Ryton
@@ -1151,6 +1151,18 @@ company: Northumberland County Council
 location: Eddie Ferguson House, Blyth, United Kingdom
 source: NEJobs
 job_id: nejobs-301243
+reason: No exact Sunderland workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
+company: Qualify Nation Recruitment - Agency - Permanent
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-1880926
 reason: No exact Sunderland workplace matched; local geographic review is required.
 ---
 

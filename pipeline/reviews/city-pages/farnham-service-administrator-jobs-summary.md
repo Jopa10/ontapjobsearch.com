@@ -4,7 +4,7 @@
 - Live route: `/farnham/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 6
+- Effective included jobs: 7
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 6
-- automatic review: 53
+- automatic include: 7
+- automatic review: 55
 - automatic exclude: 0
-- effective include: 6
-- effective review: 53
+- effective include: 7
+- effective review: 55
 - effective exclude: 0
 
-## INCLUDE (6)
+## INCLUDE (7)
 
 ---
 action: 
@@ -96,7 +96,19 @@ job_id: jobg8-23643_225571109
 reason: Exact approved Farnham workplace.
 ---
 
-## REVIEW (53)
+---
+action: 
+decision: include
+automatic_decision: include
+title: Ward Clerk
+company: Frimley Health NHS Foundation Trust
+location: FARNHAM, GU9 9QL
+source: NHS Jobs
+job_id: nhs-5589494
+reason: Exact approved Farnham workplace.
+---
+
+## REVIEW (55)
 
 ---
 action: 
@@ -119,18 +131,6 @@ company: Leightons Opticians & Hearing Care - Company - Permanent
 location: Surrey
 source: JobG8
 job_id: jobg8-1402264245
-reason: No exact Farnham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Admin Assistant - Care Home
-company: Barchester Healthcare
-location: Reigate, RH2 9JB
-source: NHS Jobs
-job_id: nhs-5581253
 reason: No exact Farnham workplace matched; local geographic review is required.
 ---
 
@@ -175,6 +175,18 @@ action:
 decision: review
 automatic_decision: review
 title: Administrator
+company: HCRG Care Group
+location: Camberley, GU16 7ER
+source: NHS Jobs
+job_id: nhs-5590134
+reason: No exact Farnham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
 company: Kemp Recruitment Ltd - Agency - Temporary
 location: Surrey
 source: JobG8
@@ -198,23 +210,11 @@ reason: No exact Farnham workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Administrator
-company: Royal Surrey NHS Foundation Trust
-location: Chertsey, Surrey, KT16 9FG
-source: NHS Jobs
-job_id: nhs-5573358
-reason: No exact Farnham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator to Financial Advisor
-company: Mistral Recruitment Ltd - Agency - Permanent
+title: Brand Manager - 12- 14 months Maternity Cover
+company: Michael Page Marketing - Agency - Permanent
 location: Surrey
 source: JobG8
-job_id: jobg8-1744082
+job_id: jobg8-1853538
 reason: No exact Farnham workplace matched; local geographic review is required.
 ---
 
@@ -227,18 +227,6 @@ company: Right Now Group - Agency - Permanent
 location: Surrey
 source: JobG8
 job_id: jobg8-1835738
-reason: No exact Farnham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Business Administrator
-company: 2i Recruit Ltd - Agency - Temporary
-location: Addlestone
-source: JobG8
-job_id: jobg8-23643_225482771
 reason: No exact Farnham workplace matched; local geographic review is required.
 ---
 
@@ -275,6 +263,18 @@ company: Surrey County Council - Company - Permanent
 location: Surrey
 source: JobG8
 job_id: jobg8-23643_225520619
+reason: No exact Farnham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Campaign Manager
+company: Michael Page Business Support - Agency - Permanent
+location: Surrey
+source: JobG8
+job_id: jobg8-1852739
 reason: No exact Farnham workplace matched; local geographic review is required.
 ---
 
@@ -594,6 +594,30 @@ reason: No exact Farnham workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: PPC Exec
+company: Michael Page Business Support - Agency - Permanent
+location: Woking
+source: JobG8
+job_id: jobg8-1852520
+reason: No exact Farnham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Property Maintenance Administrator
+company: Graham Rose - Agency - Permanent
+location: Epsom
+source: JobG8
+job_id: jobg8-23643_225231306
+reason: No exact Farnham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Purchasing Administrator - Immediate Start
 company: Office Angels - Agency - Contract
 location: Surrey
@@ -678,11 +702,11 @@ reason: No exact Farnham workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Service Administrator
-company: Office Angels - Agency - Permanent
-location: Leatherhead
+title: Senior Legacy Marketing Manager
+company: Compassion in World Farming International (CIWF) - Agency - Permanent
+location: Godalming
 source: JobG8
-job_id: jobg8-23643_225511011
+job_id: jobg8-1884888
 reason: No exact Farnham workplace matched; local geographic review is required.
 ---
 
@@ -690,11 +714,11 @@ reason: No exact Farnham workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Sponsorship Marketing & Hubsot CRM Manager
-company: Live Recruitment - Agency - Permanent
-location: Surrey
+title: Service Administrator
+company: Office Angels - Agency - Permanent
+location: Leatherhead
 source: JobG8
-job_id: jobg8-1799266
+job_id: jobg8-23643_225511011
 reason: No exact Farnham workplace matched; local geographic review is required.
 ---
 
@@ -719,6 +743,18 @@ company: Amber Employment Services - Agency - Permanent
 location: Woking
 source: JobG8
 job_id: jobg8-23643_225513051
+reason: No exact Farnham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Temporary Customer Service Advisor
+company: Huntress - Crawley - Agency - Temporary
+location: Epsom
+source: JobG8
+job_id: jobg8-23643_225485127
 reason: No exact Farnham workplace matched; local geographic review is required.
 ---
 

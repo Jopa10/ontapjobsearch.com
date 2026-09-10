@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 4
-- automatic review: 18
+- automatic review: 22
 - automatic exclude: 0
 - effective include: 4
-- effective review: 18
+- effective review: 22
 - effective exclude: 0
 
 ## INCLUDE (4)
@@ -28,11 +28,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 action: 
 decision: include
 automatic_decision: include
-title: Accounts Assistant (AR)
-company: Proprec - Agency - Permanent
+title: Business Administrator
+company: The Cinnamon Care Collection - Company - Permanent
 location: Warwick
 source: JobG8
-job_id: jobg8-1744021
+job_id: jobg8-23643_225588153
 reason: Exact approved Warwick workplace.
 ---
 
@@ -72,7 +72,7 @@ job_id: jobg8-1868063
 reason: Exact approved Warwick workplace.
 ---
 
-## REVIEW (18)
+## REVIEW (22)
 
 ---
 action: 
@@ -114,11 +114,11 @@ reason: No exact Warwick workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Executive Assistant
-company: Spider - Agency - Permanent
+title: HR & Recruitment Coordinator
+company: Gleeson Recruitment Group - Agency - Permanent
 location: Coventry
 source: JobG8
-job_id: jobg8-23643_225497892
+job_id: jobg8-1869638
 reason: No exact Warwick workplace matched; local geographic review is required.
 ---
 
@@ -126,11 +126,11 @@ reason: No exact Warwick workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: HR & Recruitment Coordinator
-company: Gleeson Recruitment Group - Agency - Permanent
-location: Coventry
+title: HR Administrator, Temporary to Permanent Opportunity
+company: Office Angels - Agency - Permanent
+location: Atherstone
 source: JobG8
-job_id: jobg8-1869638
+job_id: jobg8-1859602
 reason: No exact Warwick workplace matched; local geographic review is required.
 ---
 
@@ -162,11 +162,59 @@ reason: No exact Warwick workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: HR Assistant
+company: Dudley Lodge - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-1859027
+reason: No exact Warwick workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: HR Coordinator
+company: Gleeson Recruitment Group - Agency - Permanent
+location: Coventry
+source: JobG8
+job_id: jobg8-1860303
+reason: No exact Warwick workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: HR Coordinator (2-Month Temporary Contract)
 company: Arden Personnel - Agency - Contract
 location: Warwickshire
 source: JobG8
 job_id: jobg8-23643_225526643
+reason: No exact Warwick workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Interim Finance Assistant
+company: Robertson Bell - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-1878240
+reason: No exact Warwick workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Learning and Development Coordinator
+company: Rose & Young Recruitment Ltd - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-107875425
 reason: No exact Warwick workplace matched; local geographic review is required.
 ---
 
@@ -222,6 +270,18 @@ reason: No exact Warwick workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: People Coordinator
+company: Michael Page Business Support - Agency - Permanent
+location: Coventry
+source: JobG8
+job_id: jobg8-1859862
+reason: No exact Warwick workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Personal Assistant
 company: Opus People Solutions Ltd - Agency - Temporary
 location: Rugby
@@ -258,23 +318,11 @@ reason: No exact Warwick workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Sales Coordinator
-company: The Caraires Consultancy - Agency - Permanent
-location: Rugby
+title: Training & HR Coordinator
+company: ROSE & YOUNG RECRUITMENT LTD - Agency - Permanent
+location: Warwickshire
 source: JobG8
-job_id: jobg8-107830347
-reason: No exact Warwick workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Temp Administrator
-company: Brellis Recruitment - Agency - Permanent
-location: Southam
-source: JobG8
-job_id: jobg8-23643_225533754
+job_id: jobg8-1772113
 reason: No exact Warwick workplace matched; local geographic review is required.
 ---
 

@@ -52,18 +52,6 @@ reason: Approved conservative Cardiff launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Claims Handler
-company: Everywhen, part of the Ardonagh Group - Agency - Permanent
-location: Cardiff
-source: JobG8
-job_id: jobg8-1770973
-reason: Approved conservative Cardiff launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Customer Service Advisor
 company: EE - Company - Permanent
 location: Cardiff
@@ -105,6 +93,18 @@ company: Huntress - Bracknell - Agency - Temporary
 location: Cardiff
 source: JobG8
 job_id: jobg8-23643_225565612
+reason: Approved conservative Cardiff launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Site Administrator
+company: Pioneer Selection Ltd - Agency - Permanent
+location: Cardiff
+source: JobG8
+job_id: jobg8-23643_225583872
 reason: Approved conservative Cardiff launch catchment.
 ---
 

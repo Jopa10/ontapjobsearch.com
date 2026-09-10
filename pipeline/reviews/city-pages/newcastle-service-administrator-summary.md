@@ -4,7 +4,7 @@
 - Live route: `/newcastle/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 51
+- Effective included jobs: 48
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 51
-- automatic review: 23
+- automatic include: 48
+- automatic review: 27
 - automatic exclude: 23
-- effective include: 51
-- effective review: 23
+- effective include: 48
+- effective review: 27
 - effective exclude: 23
 
-## INCLUDE (51)
+## INCLUDE (48)
 
 ---
 action: 
@@ -57,30 +57,6 @@ company: Newcastle City Council
 location: Lemington Riverside, Rokeby Street, Newcastle upon Tyne, NE15 8RR
 source: NEJobs
 job_id: nejobs-301338
-reason: Approved Newcastle catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrative Assistant Level 3
-company: Gosforth Academy
-location: Newcastle-upon-Tyne
-source: Teaching Vacancies
-job_id: teaching-vacancies-administrative-assistant-level-3-gosforth-academy-newcastle-upon-tyne-tyne-and-wear
-reason: Approved Newcastle catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrative Assistant Level 3
-company: Gosforth Group
-location: Gosforth Academy, Great North Road, Knightsbridge, Gosforth, Newcastle upon Tyne, NE3 2JH
-source: NEJobs
-job_id: nejobs-301207
 reason: Approved Newcastle catchment.
 ---
 
@@ -568,18 +544,6 @@ reason: Approved Newcastle catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Marketing Manager
-company: Miller Homes - Agency - Permanent
-location: Newcastle upon Tyne
-source: JobG8
-job_id: jobg8-23643_225488811
-reason: Approved Newcastle catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Medical Receptionist
 company: Betts Avenue Medical Centre
 location: Newcastle Upon Tyne, NE15 6TQ, Newcastle Upon Tyne, NE3 3QP
@@ -636,7 +600,7 @@ job_id: nhs-5576748
 reason: Approved Newcastle catchment.
 ---
 
-## REVIEW (23)
+## REVIEW (27)
 
 ---
 action: 
@@ -684,6 +648,18 @@ location: Ashington, NE63 8BL
 source: NHS Jobs
 job_id: nhs-5584416
 reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: Northumbria Healthcare NHS Foundation Trust
+location: North Shields, NE29 8NH
+source: NHS Jobs
+job_id: nhs-5588627
+reason: No approved Newcastle catchment rule matched; local review required.
 ---
 
 ---
@@ -810,6 +786,18 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
+title: HR Administrator
+company: Nigel Wright Group - Agency - Permanent
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-1771050
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Medical Administrator
 company: Pelton and Fellrose Medical Group
 location: Chester Le Street, DH2 1HS, Chester Le Street, DH2 2NH
@@ -870,6 +858,18 @@ reason: No approved Newcastle catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Team Administrator
+company: Tees Esk and Wear Valleys NHS Foundation Trust
+location: Seaham, SR7 0BG
+source: NHS Jobs
+job_id: nhs-5589916
+reason: No approved Newcastle catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Temporary Administrator - Ryton - Immediate Start
 company: Office Angels - Agency - Temporary
 location: Ryton
@@ -888,6 +888,18 @@ location: Eddie Ferguson House, Blyth, United Kingdom
 source: NEJobs
 job_id: nejobs-301243
 reason: No approved Newcastle catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
+company: Qualify Nation Recruitment - Agency - Permanent
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-1880926
+reason: Broad location; review before city inclusion.
 ---
 
 ---
@@ -992,6 +1004,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Centre Coordinator
+company: Burnhope Community Centre - Agency - Permanent
+location: County Durham
+source: JobG8
+job_id: jobg8-1880245
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Customer Experience Coordinator
 company: Linear Recruitment Ltd - Agency - Contract
 location: Sunderland
@@ -1057,18 +1081,6 @@ company: Ronald James - Agency - Permanent
 location: County Durham
 source: JobG8
 job_id: jobg8-1869910
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Medical Receptionist
-company: Claypath and University Medical Practice
-location: Durham, DH1 1QW, DURHAM, DH1 3JX
-source: NHS Jobs
-job_id: nhs-5547933
 reason: Separate employment market.
 ---
 

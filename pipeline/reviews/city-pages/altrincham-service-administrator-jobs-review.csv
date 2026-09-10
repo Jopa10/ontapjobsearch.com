@@ -1,5 +1,4 @@
 decision,job_id,title,company,location,source,automatic_decision,effective_decision,reason,matched_rule,city_key
-include,teaching-vacancies-office-administrator-elmridge-primary-school,Office Administrator,Elmridge Primary School,Altrincham,Teaching Vacancies,include,include,Exact approved Altrincham workplace.,exact:altrincham,altrincham-service-administrator-jobs
 include,jobg8-23643_225569855,Part Time Administrator,Halecroft Recruitment - Agency - Permanent,Altrincham,JobG8,include,include,Exact approved Altrincham workplace.,exact:altrincham,altrincham-service-administrator-jobs
 include,jobg8-23643_225537284,Receptionist,Jobwise Ltd - Agency - Temporary,Altrincham,JobG8,include,include,Exact approved Altrincham workplace.,exact:altrincham,altrincham-service-administrator-jobs
 include,jobg8-23643_225546542,Scheduling Coordinator,Halecroft Recruitment - Agency - Permanent,Altrincham,JobG8,include,include,Exact approved Altrincham workplace.,exact:altrincham,altrincham-service-administrator-jobs

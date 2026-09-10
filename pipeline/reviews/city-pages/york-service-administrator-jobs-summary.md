@@ -17,24 +17,12 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 4
 - automatic review: 5
-- automatic exclude: 8
+- automatic exclude: 6
 - effective include: 4
 - effective review: 5
-- effective exclude: 8
+- effective exclude: 6
 
 ## INCLUDE (4)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Assessment Administration Coordinator
-company: Advance HE - Agency - Permanent
-location: York
-source: JobG8
-job_id: jobg8-107909020
-reason: Approved York catchment.
----
 
 ---
 action: 
@@ -72,7 +60,31 @@ job_id: jobg8-107804499
 reason: Approved York catchment.
 ---
 
+---
+action: 
+decision: include
+automatic_decision: include
+title: Team Administrator
+company: Tees Esk and Wear Valleys NHS Foundation Trust
+location: York, YO32 9XW
+source: NHS Jobs
+job_id: nhs-5590363
+reason: Approved York catchment.
+---
+
 ## REVIEW (5)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: HR Administrator
+company: Owen Daniels - Agency - Permanent
+location: Pickering
+source: JobG8
+job_id: jobg8-1853654
+reason: No approved York catchment rule matched; local review required.
+---
 
 ---
 action: 
@@ -114,18 +126,6 @@ reason: No approved York catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Team Administrator
-company: Tees Esk and Wear Valleys NHS Foundation Trust
-location: Knaresborough, HG5 0UB
-source: NHS Jobs
-job_id: nhs-5570653
-reason: No approved York catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Temporary New Business / Payout Coordinator
 company: Michael Page - Agency - Temporary
 location: Richmond
@@ -134,19 +134,7 @@ job_id: jobg8-23643_225581619
 reason: No approved York catchment rule matched; local review required.
 ---
 
-## EXCLUDE (8)
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Administrator
-company: SI Recruitment - Agency - Permanent
-location: Northallerton
-source: JobG8
-job_id: jobg8-107905972
-reason: Separate employment market.
----
+## EXCLUDE (6)
 
 ---
 action: 
@@ -205,18 +193,6 @@ company: Braeburn Primary and Nursery Academy
 location: Scarborough
 source: Teaching Vacancies
 job_id: teaching-vacancies-senior-administrator-braeburn-primary-and-nursery-academy-scarborough-north-yorkshire
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Service Coordinator (Generator)
-company: Dale Power Solutions - Agency - Permanent
-location: Scarborough
-source: JobG8
-job_id: jobg8-107900212
 reason: Separate employment market.
 ---
 

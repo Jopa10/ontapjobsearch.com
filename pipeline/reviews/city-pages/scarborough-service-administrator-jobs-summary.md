@@ -4,7 +4,7 @@
 - Live route: `/scarborough/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 2
+- Effective included jobs: 1
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 2
-- automatic review: 15
+- automatic include: 1
+- automatic review: 14
 - automatic exclude: 0
-- effective include: 2
-- effective review: 15
+- effective include: 1
+- effective review: 14
 - effective exclude: 0
 
-## INCLUDE (2)
+## INCLUDE (1)
 
 ---
 action: 
@@ -36,31 +36,7 @@ job_id: teaching-vacancies-senior-administrator-braeburn-primary-and-nursery-aca
 reason: Exact approved Scarborough workplace.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Service Coordinator (Generator)
-company: Dale Power Solutions - Agency - Permanent
-location: Scarborough
-source: JobG8
-job_id: jobg8-107900212
-reason: Exact approved Scarborough workplace.
----
-
-## REVIEW (15)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
-company: SI Recruitment - Agency - Permanent
-location: Northallerton
-source: JobG8
-job_id: jobg8-107905972
-reason: No exact Scarborough workplace matched; local geographic review is required.
----
+## REVIEW (14)
 
 ---
 action: 
@@ -71,18 +47,6 @@ company: Tees Esk and Wear Valleys NHS Foundation Trust
 location: Harrogate, HG1 5QE
 source: NHS Jobs
 job_id: nhs-5570628
-reason: No exact Scarborough workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Assessment Administration Coordinator
-company: Advance HE - Agency - Permanent
-location: York
-source: JobG8
-job_id: jobg8-107909020
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 
@@ -151,6 +115,18 @@ action:
 decision: review
 automatic_decision: review
 title: HR Administrator
+company: Owen Daniels - Agency - Permanent
+location: Pickering
+source: JobG8
+job_id: jobg8-1853654
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: HR Administrator
 company: Unity Resourcing Ltd - Agency - Permanent
 location: Knaresborough
 source: JobG8
@@ -200,9 +176,9 @@ decision: review
 automatic_decision: review
 title: Team Administrator
 company: Tees Esk and Wear Valleys NHS Foundation Trust
-location: Knaresborough, HG5 0UB
+location: Northallerton, DL6 2FG
 source: NHS Jobs
-job_id: nhs-5570653
+job_id: nhs-5570734
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 
@@ -212,9 +188,9 @@ decision: review
 automatic_decision: review
 title: Team Administrator
 company: Tees Esk and Wear Valleys NHS Foundation Trust
-location: Northallerton, DL6 2FG
+location: York, YO32 9XW
 source: NHS Jobs
-job_id: nhs-5570734
+job_id: nhs-5590363
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 

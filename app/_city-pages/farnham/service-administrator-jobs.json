@@ -148,5 +148,24 @@
     "work_pattern": "Full Time",
     "salary_period": "Annual",
     "posted_date_basis": "ontap_first_published"
+  },
+  {
+    "job_id": "nhs-5589494",
+    "source": "NHS Jobs",
+    "title": "Ward Clerk",
+    "company": "Frimley Health NHS Foundation Trust",
+    "advertiser_name": "Frimley Health NHS Foundation Trust",
+    "location": "FARNHAM, GU9 9QL",
+    "region": "Surrey",
+    "salary": "£16681.00",
+    "employment_type": "Permanent",
+    "posted_date": "2026-09-09T14:30:16.743279",
+    "closing_date": "2026-09-16",
+    "description": "Are you welcoming, organised, and enjoy working in a fast-paced healthcare environment? We're looking for a friendly and reliable Administrative Support colleague to join our Bentley ward in Farnham Hospital As part of our team, you'll provide essential administrative and clerical support to the Bentley ward You'll often be the first point of contact, meeting and greeting patients, visitors, and staff with a courteous, professional, and reassuring approach. You'll help ensure that patient records and documentation are accurately maintained, in line with Trust policies and procedures, and that confidentiality and information security are upheld at all times in accordance with Information Governance guidance. The successful candidate will be required to be flexible to cover the shift. Welcoming patients, visitors, and staff to the ward. Providing administrative and clerical support to the Ward. Maintaining accurate patient records and documentation. Ensuring confidentiality and data security are always maintained. Supporting the wider multidisciplinary team in a busy clinical environment. For further information regarding the detailed job description and main responsibilities, please refer to the attached job description and person specification documents.",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9151-26-1140",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9151-26-1140",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "B",
+    "posted_date_basis": "source"
   }
 ]

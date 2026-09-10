@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 2
-- automatic review: 18
+- automatic review: 20
 - automatic exclude: 0
 - effective include: 2
-- effective review: 18
+- effective review: 20
 - effective exclude: 0
 
 ## INCLUDE (2)
@@ -48,7 +48,7 @@ job_id: jobg8-23643_225509220
 reason: Exact approved Plymouth workplace.
 ---
 
-## REVIEW (18)
+## REVIEW (20)
 
 ---
 action: 
@@ -78,11 +78,23 @@ reason: No exact Plymouth workplace matched; local geographic review is required
 action: 
 decision: review
 automatic_decision: review
-title: Apprentice Service and Sales Coordinator
-company: AEP Compressed Air Technologies - Agency - Contract
+title: Administrator
+company: Hays Business Support - Agency - Temporary
 location: Devon
 source: JobG8
-job_id: jobg8-107893592
+job_id: jobg8-23643_225587837
+reason: No exact Plymouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator - Part time
+company: Hays Business Support - Agency - Contract
+location: Devon
+source: JobG8
+job_id: jobg8-23643_225590384
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 
@@ -95,18 +107,6 @@ company: St Cuthbert Mayne School
 location: Torquay
 source: Teaching Vacancies
 job_id: teaching-vacancies-attendance-administrator-65068773-d1be-4711-9b88-bde2f62d9e1b
-reason: No exact Plymouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Attendance Officer
-company: Okehampton College
-location: Okehampton
-source: Teaching Vacancies
-job_id: teaching-vacancies-attendance-officer-okehampton-college-okehampton-devon
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 
@@ -167,6 +167,30 @@ company: Artis Recruitment - Agency - Permanent
 location: Newton Abbot
 source: JobG8
 job_id: jobg8-1841483
+reason: No exact Plymouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: HR Coordinator
+company: Pertemps Plymouth Commercial - Agency - Permanent
+location: Devon
+source: JobG8
+job_id: jobg8-1849091
+reason: No exact Plymouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: HR Coordinator
+company: Reed - Agency - Permanent
+location: Exeter
+source: JobG8
+job_id: jobg8-1842702
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 

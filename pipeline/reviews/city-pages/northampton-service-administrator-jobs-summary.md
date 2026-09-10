@@ -4,8 +4,8 @@
 - Live route: `/northampton/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 3
-- Threshold currently met: no
+- Effective included jobs: 5
+- Threshold currently met: yes
 
 ## How to review
 Edit only the `action:` line inside a job block.
@@ -15,14 +15,38 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 3
-- automatic review: 14
+- automatic include: 5
+- automatic review: 15
 - automatic exclude: 0
-- effective include: 3
-- effective review: 14
+- effective include: 5
+- effective review: 15
 - effective exclude: 0
 
-## INCLUDE (3)
+## INCLUDE (5)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: HR Administrator
+company: ACS Recruitment Solutions Ltd - Agency - Permanent
+location: Northampton
+source: JobG8
+job_id: jobg8-1853443
+reason: Exact approved Northampton workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: HR Administrator
+company: ENB Recruitment and Training Limited - Agency - Permanent
+location: Northampton
+source: JobG8
+job_id: jobg8-1851038
+reason: Exact approved Northampton workplace.
+---
 
 ---
 action: 
@@ -60,7 +84,7 @@ job_id: jobg8-107932522
 reason: Exact approved Northampton workplace.
 ---
 
-## REVIEW (14)
+## REVIEW (15)
 
 ---
 action: 
@@ -83,6 +107,18 @@ company: The Graduate - Agency - Permanent
 location: Northamptonshire
 source: JobG8
 job_id: jobg8-1845227
+reason: No exact Northampton workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Client Account Administrator
+company: Bush and Company Rehabilitation - Agency - Permanent
+location: Northamptonshire
+source: JobG8
+job_id: jobg8-1875317
 reason: No exact Northampton workplace matched; local geographic review is required.
 ---
 

@@ -17,5 +17,24 @@
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
     "posted_date_basis": "source"
+  },
+  {
+    "job_id": "nhs-5295793",
+    "source": "NHS Jobs",
+    "title": "Administrative Assistant",
+    "company": "Garland House Surgery",
+    "advertiser_name": "Garland House Surgery",
+    "location": "Barnsley, S73 9JX",
+    "region": "Yorkshire - South",
+    "salary": "£12.71",
+    "employment_type": "Fixed-Term",
+    "posted_date": "2026-09-09T13:01:32.981298630",
+    "closing_date": "2026-09-25",
+    "description": "We are looking for a reliable part time admin assistant to join our friendly practice team. The hours are 20 hours per week over 5 days. Monday, Wednesday, Friday 9am-1pm, Tuesday & Thursday 1pm-5pm. The role involves providing efficient and professional administrative support within a healthcare environment. Key responsibilities include processing patient referrals, maintaining accurate patient records, managing confidential information, and handling incoming and outgoing communications. Strong organisation, communication, attention to detail and confidentiality are essential for the role. Processing and managing patient referrals accurately and efficiently. Maintaining accurate and up-to-date patient records in accordance with confidentiality and data protection requirements. Liaising with hospitals, community services, healthcare professionals and patients to coordinate information and services. Managing incoming and outgoing correspondence, telephone calls and electronic communications. Handling sensitive and confidential patient information with professionalism and discretion. Providing administrative support to clinicians and the wider healthcare team. Ensuring administrative tasks are completed accurately and within required timescales.",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4281-26-0000",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4281-26-0000",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "A",
+    "posted_date_basis": "source"
   }
 ]

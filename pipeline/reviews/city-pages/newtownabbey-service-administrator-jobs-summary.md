@@ -4,7 +4,7 @@
 - Live route: `/newtownabbey/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 4
+- Effective included jobs: 5
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 4
-- automatic review: 48
+- automatic include: 5
+- automatic review: 55
 - automatic exclude: 0
-- effective include: 4
-- effective review: 48
+- effective include: 5
+- effective review: 55
 - effective exclude: 0
 
-## INCLUDE (4)
+## INCLUDE (5)
 
 ---
 action: 
@@ -72,7 +72,19 @@ job_id: jobg8-2050449
 reason: Exact approved Newtownabbey workplace.
 ---
 
-## REVIEW (48)
+---
+action: 
+decision: include
+automatic_decision: include
+title: Medical Receptionist/ Administrator (18.5 hrs pw)
+company: Lynda Jacobs Recruitment - Agency - Permanent
+location: Newtownabbey
+source: JobG8
+job_id: jobg8-2052202
+reason: Exact approved Newtownabbey workplace.
+---
+
+## REVIEW (55)
 
 ---
 action: 
@@ -95,6 +107,30 @@ company: MCS Group - Agency - Permanent
 location: Belfast
 source: JobG8
 job_id: jobg8-2052021
+reason: No exact Newtownabbey workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Assistant
+company: Reed Specialist Recruitment - Agency - Permanent
+location: Belfast
+source: JobG8
+job_id: jobg8-2050348
+reason: No exact Newtownabbey workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Admin Assistant - Part Time (Monday to Thursday)
+company: Honeycomb Jobs Ltd - Agency - Permanent
+location: Belfast
+source: JobG8
+job_id: jobg8-2052284
 reason: No exact Newtownabbey workplace matched; local geographic review is required.
 ---
 
@@ -222,6 +258,18 @@ reason: No exact Newtownabbey workplace matched; local geographic review is requ
 action: 
 decision: review
 automatic_decision: review
+title: Credit Controller
+company: MCS Group - Agency - Permanent
+location: County Antrim
+source: JobG8
+job_id: jobg8-2050254
+reason: No exact Newtownabbey workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Customer Service Administrator
 company: Honeycomb Jobs Ltd - Agency - Permanent
 location: Belfast
@@ -234,11 +282,11 @@ reason: No exact Newtownabbey workplace matched; local geographic review is requ
 action: 
 decision: review
 automatic_decision: review
-title: Customer Services Administrator
-company: Vital Healthcare - Agency - Permanent
+title: Executive Assistant
+company: Honeycomb Jobs Ltd - Agency - Permanent
 location: Belfast
 source: JobG8
-job_id: jobg8-2051098
+job_id: jobg8-2051135
 reason: No exact Newtownabbey workplace matched; local geographic review is required.
 ---
 
@@ -250,7 +298,7 @@ title: Executive Assistant
 company: Honeycomb Jobs Ltd - Agency - Permanent
 location: Belfast
 source: JobG8
-job_id: jobg8-2051135
+job_id: jobg8-2052326
 reason: No exact Newtownabbey workplace matched; local geographic review is required.
 ---
 
@@ -323,6 +371,18 @@ company: Independent Commission for Reconciliation and Information Recovery (ICR
 location: Belfast
 source: JobG8
 job_id: jobg8-2051848
+reason: No exact Newtownabbey workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Finance Officer
+company: McKinty Associates - Agency - Permanent
+location: Belfast
+source: JobG8
+job_id: jobg8-2050169
 reason: No exact Newtownabbey workplace matched; local geographic review is required.
 ---
 
@@ -462,6 +522,30 @@ reason: No exact Newtownabbey workplace matched; local geographic review is requ
 action: 
 decision: review
 automatic_decision: review
+title: Payroll Officer GP13/09/26/1v-1
+company: Extern - Agency - Permanent
+location: County Antrim
+source: JobG8
+job_id: jobg8-2052259
+reason: No exact Newtownabbey workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Receptionist
+company: Apple Recruitment - Agency - Permanent
+location: Belfast
+source: JobG8
+job_id: jobg8-2052255
+reason: No exact Newtownabbey workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Receptionist (Immediate Start)
 company: Honeycomb Jobs Ltd - Agency - Permanent
 location: Belfast
@@ -551,6 +635,18 @@ company: Agnew Group - Agency - Permanent
 location: Belfast
 source: JobG8
 job_id: jobg8-2051447
+reason: No exact Newtownabbey workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Sales Administrator
+company: Bluestones Staffing N.I.Limited - Agency - Temporary
+location: Banbridge
+source: JobG8
+job_id: jobg8-107949205
 reason: No exact Newtownabbey workplace matched; local geographic review is required.
 ---
 

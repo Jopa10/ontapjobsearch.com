@@ -4,7 +4,7 @@
 - Live route: `/coventry/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 7
+- Effective included jobs: 8
 - Threshold currently met: yes
 
 ## How to review
@@ -15,26 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 7
+- automatic include: 8
 - automatic review: 3
-- automatic exclude: 12
-- effective include: 7
+- automatic exclude: 15
+- effective include: 8
 - effective review: 3
-- effective exclude: 12
+- effective exclude: 15
 
-## INCLUDE (7)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Executive Assistant
-company: Spider - Agency - Permanent
-location: Coventry
-source: JobG8
-job_id: jobg8-23643_225497892
-reason: Approved Coventry catchment.
----
+## INCLUDE (8)
 
 ---
 action: 
@@ -64,6 +52,18 @@ reason: Approved Coventry catchment.
 action: 
 decision: include
 automatic_decision: include
+title: HR Coordinator
+company: Gleeson Recruitment Group - Agency - Permanent
+location: Coventry
+source: JobG8
+job_id: jobg8-1860303
+reason: Approved Coventry catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Office & Facilities Administrator (Part-time)
 company: NES Group Ltd - Agency - Permanent
 location: Coventry
@@ -81,6 +81,18 @@ company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Coventry
 source: JobG8
 job_id: jobg8-1800544
+reason: Approved Coventry catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: People Coordinator
+company: Michael Page Business Support - Agency - Permanent
+location: Coventry
+source: JobG8
+job_id: jobg8-1859862
 reason: Approved Coventry catchment.
 ---
 
@@ -127,10 +139,10 @@ action:
 decision: review
 automatic_decision: review
 title: HR Administrator, Temporary to Permanent Opportunity
-company: Office Angels - Agency - Temporary
+company: Office Angels - Agency - Permanent
 location: Atherstone
 source: JobG8
-job_id: jobg8-23643_225572898
+job_id: jobg8-1859602
 reason: No approved Coventry catchment rule matched; local review required.
 ---
 
@@ -138,25 +150,25 @@ reason: No approved Coventry catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Temp Administrator
-company: Brellis Recruitment - Agency - Permanent
-location: Southam
+title: HR Administrator, Temporary to Permanent Opportunity
+company: Office Angels - Agency - Temporary
+location: Atherstone
 source: JobG8
-job_id: jobg8-23643_225533754
+job_id: jobg8-23643_225572898
 reason: No approved Coventry catchment rule matched; local review required.
 ---
 
-## EXCLUDE (12)
+## EXCLUDE (15)
 
 ---
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Accounts Assistant (AR)
-company: Proprec - Agency - Permanent
+title: Business Administrator
+company: The Cinnamon Care Collection - Company - Permanent
 location: Warwick
 source: JobG8
-job_id: jobg8-1744021
+job_id: jobg8-23643_225588153
 reason: Separate employment market.
 ---
 
@@ -213,6 +225,18 @@ action:
 decision: exclude
 automatic_decision: exclude
 title: HR Assistant
+company: Dudley Lodge - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-1859027
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: HR Assistant
 company: Hiring People - Agency - Permanent
 location: Warwick
 source: JobG8
@@ -229,6 +253,30 @@ company: Arden Personnel - Agency - Contract
 location: Warwickshire
 source: JobG8
 job_id: jobg8-23643_225526643
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Interim Finance Assistant
+company: Robertson Bell - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-1878240
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Learning and Development Coordinator
+company: Rose & Young Recruitment Ltd - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-107875425
 reason: Separate employment market.
 ---
 
@@ -284,10 +332,10 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Sales Coordinator
-company: The Caraires Consultancy - Agency - Permanent
-location: Rugby
+title: Training & HR Coordinator
+company: ROSE & YOUNG RECRUITMENT LTD - Agency - Permanent
+location: Warwickshire
 source: JobG8
-job_id: jobg8-107830347
+job_id: jobg8-1772113
 reason: Separate employment market.
 ---

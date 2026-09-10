@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 8
-- automatic review: 33
+- automatic review: 34
 - automatic exclude: 0
 - effective include: 8
-- effective review: 33
+- effective review: 34
 - effective exclude: 0
 
 ## INCLUDE (8)
@@ -120,7 +120,7 @@ job_id: jobg8-23643_225522682
 reason: Exact approved Milton Keynes workplace.
 ---
 
-## REVIEW (33)
+## REVIEW (34)
 
 ---
 action: 
@@ -234,18 +234,6 @@ reason: No exact Milton Keynes workplace matched; local geographic review is req
 action: 
 decision: review
 automatic_decision: review
-title: Associate Brand Manager
-company: Zenopa - Agency - Permanent
-location: Bourne End
-source: JobG8
-job_id: jobg8-107874926
-reason: No exact Milton Keynes workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Attendance Administrator
 company: William Harding School
 location: Aylesbury
@@ -311,18 +299,6 @@ company: Peopleforge Ltd - Agency - Permanent
 location: Buckinghamshire
 source: JobG8
 job_id: jobg8-107925787
-reason: No exact Milton Keynes workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Customer Care Coordinator
-company: A.D.S CONSTRUCTION PERSONNEL LTD - Agency - Permanent
-location: Buckinghamshire
-source: JobG8
-job_id: jobg8-1710374
 reason: No exact Milton Keynes workplace matched; local geographic review is required.
 ---
 
@@ -402,6 +378,42 @@ reason: No exact Milton Keynes workplace matched; local geographic review is req
 action: 
 decision: review
 automatic_decision: review
+title: HR Administrator
+company: Adecco - Agency - Permanent
+location: Buckinghamshire
+source: JobG8
+job_id: jobg8-1857566
+reason: No exact Milton Keynes workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: HR Operations Coordinator
+company: wild recruitment - Agency - Permanent
+location: Buckinghamshire
+source: JobG8
+job_id: jobg8-1856610
+reason: No exact Milton Keynes workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Marketing & Events Executive
+company: Reed - Agency - Permanent
+location: Buckinghamshire
+source: JobG8
+job_id: jobg8-1859680
+reason: No exact Milton Keynes workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Medical Receptionist
 company: Primary Care Management Solutions Ltd
 location: Aylesbury, HP21 8TR
@@ -438,11 +450,11 @@ reason: No exact Milton Keynes workplace matched; local geographic review is req
 action: 
 decision: review
 automatic_decision: review
-title: Penalty Charge Administrator
-company: Solus Accident Repair Centres - Company - Permanent
+title: PPC Executive
+company: FS1 Recruitment - Agency - Permanent
 location: Buckinghamshire
 source: JobG8
-job_id: jobg8-23643_225573989
+job_id: jobg8-23643_225580896
 reason: No exact Milton Keynes workplace matched; local geographic review is required.
 ---
 
@@ -451,10 +463,10 @@ action:
 decision: review
 automatic_decision: review
 title: PPC Executive
-company: FS1 Recruitment - Agency - Permanent
+company: FS1 Recruitment - Marketing, Creative, Digital, Finance, HR, Sales, Admin - Agency - Permanent
 location: Buckinghamshire
 source: JobG8
-job_id: jobg8-23643_225580896
+job_id: jobg8-1873723
 reason: No exact Milton Keynes workplace matched; local geographic review is required.
 ---
 

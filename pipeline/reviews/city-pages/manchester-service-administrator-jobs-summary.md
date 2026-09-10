@@ -4,7 +4,7 @@
 - Live route: `/manchester/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 33
+- Effective included jobs: 35
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 33
-- automatic review: 5
-- automatic exclude: 2
-- effective include: 33
-- effective review: 5
-- effective exclude: 2
+- automatic include: 35
+- automatic review: 9
+- automatic exclude: 1
+- effective include: 35
+- effective review: 9
+- effective exclude: 1
 
-## INCLUDE (33)
+## INCLUDE (35)
 
 ---
 action: 
@@ -64,6 +64,18 @@ reason: Approved conservative Manchester launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Care Navigator Receptionist
+company: Orchard Medical Centre
+location: Manchester, M28 1LZ
+source: NHS Jobs
+job_id: nhs-5571870
+reason: Approved conservative Manchester launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Casualty Claims Handler
 company: Adjusting Appointments Limited - Agency - Permanent
 location: Manchester
@@ -81,6 +93,18 @@ company: Prestige Talent Partners Ltd - Agency - Permanent
 location: Manchester
 source: JobG8
 job_id: jobg8-23643_225263851
+reason: Approved conservative Manchester launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Company Secretary (Interim)
+company: Robert Walters - Agency - Permanent
+location: Manchester
+source: JobG8
+job_id: jobg8-1884404
 reason: Approved conservative Manchester launch catchment.
 ---
 
@@ -196,6 +220,30 @@ reason: Approved conservative Manchester launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: HR Systems & Reporting Coordinator
+company: Noble Recruiting - Agency - Permanent
+location: Manchester
+source: JobG8
+job_id: jobg8-1856248
+reason: Approved conservative Manchester launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: HR Systems and Reporting Co-ordinator
+company: Adecco - Agency - Permanent
+location: Manchester
+source: JobG8
+job_id: jobg8-1853526
+reason: Approved conservative Manchester launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Internal Sales Support
 company: Jobwise Ltd - Agency - Permanent
 location: Manchester
@@ -268,18 +316,6 @@ reason: Approved conservative Manchester launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Marketing Executive
-company: Get Recruited (UK) Ltd - Agency - Permanent
-location: Manchester
-source: JobG8
-job_id: jobg8-107797804
-reason: Approved conservative Manchester launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Marketing Manager
 company: Success Talent - Agency - Permanent
 location: Manchester
@@ -340,6 +376,18 @@ reason: Approved conservative Manchester launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Paid Media Manager - Demand/Analytics/B2B SaaS
+company: ALTECH GROUP LTD - Agency - Permanent
+location: Manchester
+source: JobG8
+job_id: jobg8-1852754
+reason: Approved conservative Manchester launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Pastoral Administrator
 company: Salford City Academy
 location: Manchester
@@ -365,18 +413,6 @@ action:
 decision: include
 automatic_decision: include
 title: SEO Manager
-company: Mydentist - Company - Permanent
-location: Manchester
-source: JobG8
-job_id: jobg8-107906915
-reason: Approved conservative Manchester launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: SEO Manager
 company: Oscar Associates (UK) Limited - Agency - Permanent
 location: Manchester
 source: JobG8
@@ -388,23 +424,11 @@ reason: Approved conservative Manchester launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Team Administrator
-company: Greater Manchester Mental Health NHS Foundation Trust
-location: manchester, M9 8GQ
-source: NHS Jobs
-job_id: nhs-5580501
-reason: Approved conservative Manchester launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Technical SEO Manager
+title: SEO Specialist
 company: We Are Fr Group - Agency - Permanent
 location: Manchester
 source: JobG8
-job_id: jobg8-107872517
+job_id: jobg8-107938648
 reason: Approved conservative Manchester launch catchment.
 ---
 
@@ -420,7 +444,7 @@ job_id: jobg8-23643_225522116
 reason: Approved conservative Manchester launch catchment.
 ---
 
-## REVIEW (5)
+## REVIEW (9)
 
 ---
 action: 
@@ -431,6 +455,18 @@ company: Axon Moore Group Ltd - Agency - Permanent
 location: Lancashire
 source: JobG8
 job_id: jobg8-1770791
+reason: No approved Manchester catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Communications Officer
+company: Consula Group LTD - Agency - Permanent
+location: Lancashire
+source: JobG8
+job_id: jobg8-1764098
 reason: No approved Manchester catchment rule matched; local review required.
 ---
 
@@ -474,6 +510,18 @@ reason: No approved Manchester catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Paid Media Manager - Performance Marketing
+company: Anonymous - Agency - Permanent
+location: Lancashire
+source: JobG8
+job_id: jobg8-1844995
+reason: No approved Manchester catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Recruitment Officer
 company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Lancashire
@@ -482,19 +530,31 @@ job_id: jobg8-1824221
 reason: No approved Manchester catchment rule matched; local review required.
 ---
 
-## EXCLUDE (2)
+---
+action: 
+decision: review
+automatic_decision: review
+title: SEO Manager
+company: Oscar Technology - Agency - Permanent
+location: Lancashire
+source: JobG8
+job_id: jobg8-1857594
+reason: No approved Manchester catchment rule matched; local review required.
+---
 
 ---
 action: 
-decision: exclude
-automatic_decision: exclude
-title: Sales & Client Relationship Coordinator (Conveyancing)
-company: Talent Finder - Agency - Permanent
-location: Salford
+decision: review
+automatic_decision: review
+title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
+company: Qualify Nation Recruitment - Agency - Permanent
+location: Lancashire
 source: JobG8
-job_id: jobg8-107771449
-reason: Separate exact-city market at launch.
+job_id: jobg8-1880925
+reason: No approved Manchester catchment rule matched; local review required.
 ---
+
+## EXCLUDE (1)
 
 ---
 action: 

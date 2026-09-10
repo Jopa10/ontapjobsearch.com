@@ -4,7 +4,7 @@
 - Live route: `/bristol/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 25
+- Effective included jobs: 24
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 25
-- automatic review: 5
-- automatic exclude: 3
-- effective include: 25
-- effective review: 5
-- effective exclude: 3
+- automatic include: 24
+- automatic review: 8
+- automatic exclude: 2
+- effective include: 24
+- effective review: 8
+- effective exclude: 2
 
-## INCLUDE (25)
+## INCLUDE (24)
 
 ---
 action: 
@@ -33,18 +33,6 @@ company: Artis Recruitment - Agency - Permanent
 location: Bristol
 source: JobG8
 job_id: jobg8-1877742
-reason: Approved conservative Bristol launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrator
-company: Sirona care & health CIC
-location: Bristol, BS10 6DF
-source: NHS Jobs
-job_id: nhs-5554527
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -69,6 +57,18 @@ company: Tate - Agency - Temporary
 location: Bristol
 source: JobG8
 job_id: jobg8-23643_225546891
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administrator
+company: West Walk Surgery
+location: Bristol, BS37 4AX
+source: NHS Jobs
+job_id: nhs-5590154
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -208,11 +208,11 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: IT Service Desk Analyst
-company: Artis Recruitment - Agency - Permanent
+title: Marketing Executive - Digital Content & Channels
+company: Ultimate Finance - Agency - Permanent
 location: Bristol
 source: JobG8
-job_id: jobg8-1778194
+job_id: jobg8-107905331
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -232,11 +232,11 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Marketing Manager
-company: Centre for Sustainable Energy - Agency - Contract
-location: Bristol
-source: JobG8
-job_id: jobg8-107765409
+title: Reception and Appointment Clerk
+company: Bristol NHS Foundation Trust
+location: Bristol, BS2 8EL
+source: NHS Jobs
+job_id: nhs-5575417
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -244,11 +244,11 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Reception and Appointment Clerk
-company: Bristol NHS Foundation Trust
-location: Bristol, BS2 8EL
+title: Receptionist
+company: Hanham Health
+location: Bristol, BS32 4DS, BRISTOL, BS35 4JF
 source: NHS Jobs
-job_id: nhs-5575417
+job_id: nhs-5588442
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -304,18 +304,6 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: SEO Executive
-company: The Plug Global - Agency - Permanent
-location: Bristol
-source: JobG8
-job_id: jobg8-107905734
-reason: Approved conservative Bristol launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Telesales Executive (Recruitment / Full Training)
 company: Ernest Gordon Recruitment - Agency - Permanent
 location: Bristol
@@ -324,7 +312,19 @@ job_id: jobg8-107785118
 reason: Approved conservative Bristol launch catchment.
 ---
 
-## REVIEW (5)
+## REVIEW (8)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Communications Account Executive
+company: Moxie and Mettle Limited - Agency - Permanent
+location: Somerset
+source: JobG8
+job_id: jobg8-1856306
+reason: No approved Bristol catchment rule matched; local review required.
+---
 
 ---
 action: 
@@ -347,6 +347,18 @@ company: Signature Recruitment Limited - Agency - Permanent
 location: Somerset
 source: JobG8
 job_id: jobg8-1868291
+reason: No approved Bristol catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Marketing Manager
+company: ADLIB - Agency - Permanent
+location: Somerset
+source: JobG8
+job_id: jobg8-1875910
 reason: No approved Bristol catchment rule matched; local review required.
 ---
 
@@ -378,6 +390,18 @@ reason: No approved Bristol catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
+company: Qualify Nation Recruitment - Agency - Permanent
+location: Somerset
+source: JobG8
+job_id: jobg8-1880916
+reason: No approved Bristol catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Venue Finder & Sales Co-ordinator
 company: In Any Event - Agency - Permanent
 location: Portishead
@@ -386,7 +410,7 @@ job_id: jobg8-23643_225515534
 reason: No approved Bristol catchment rule matched; local review required.
 ---
 
-## EXCLUDE (3)
+## EXCLUDE (2)
 
 ---
 action: 
@@ -397,18 +421,6 @@ company: Hays Business Support - Agency - Permanent
 location: Bath
 source: JobG8
 job_id: jobg8-23643_225581771
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Receptionist Call Handler
-company: Fairfield Park Health Centre
-location: Bath, BA1 6EA
-source: NHS Jobs
-job_id: nhs-5550823
 reason: Separate employment market.
 ---
 

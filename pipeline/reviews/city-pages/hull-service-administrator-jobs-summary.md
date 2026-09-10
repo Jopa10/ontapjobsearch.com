@@ -4,7 +4,7 @@
 - Live route: `/hull/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 11
+- Effective included jobs: 12
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 11
+- automatic include: 12
 - automatic review: 4
 - automatic exclude: 0
-- effective include: 11
+- effective include: 12
 - effective review: 4
 - effective exclude: 0
 
-## INCLUDE (11)
+## INCLUDE (12)
 
 ---
 action: 
@@ -52,11 +52,35 @@ reason: Approved conservative Hull launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Administrator
+company: Stafforce Ports - Agency - Temporary
+location: Hull
+source: JobG8
+job_id: jobg8-23643_225584896
+reason: Approved conservative Hull launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Executive Assistant
 company: Consortium Professional Recruitment Ltd - Agency - Permanent
 location: Hull
 source: JobG8
 job_id: jobg8-23643_225516073
+reason: Approved conservative Hull launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Finance Administrator
+company: Holderness Health
+location: Hedon, HU12 8JE, HULL, HU12 8JD, Patrington, HU12 0PH, HULL, HU12 0LF, WITHERNSEA, HU19 2PZ, HULL, HU12 9RA, HULL, HU9 5NX
+source: NHS Jobs
+job_id: nhs-5588186
 reason: Approved conservative Hull launch catchment.
 ---
 
@@ -129,18 +153,6 @@ company: Edwards & Pearce - Agency - Permanent
 location: Hull
 source: JobG8
 job_id: jobg8-23643_225511107
-reason: Approved conservative Hull launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Senior Administration Assistant
-company: Humber Teaching NHS Foundation Trust
-location: HULL, HU2 9AY
-source: NHS Jobs
-job_id: nhs-5575163
 reason: Approved conservative Hull launch catchment.
 ---
 

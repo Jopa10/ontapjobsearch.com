@@ -4,7 +4,7 @@
 - Live route: `/liverpool/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 18
+- Effective included jobs: 19
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 18
+- automatic include: 19
 - automatic review: 4
 - automatic exclude: 0
-- effective include: 18
+- effective include: 19
 - effective review: 4
 - effective exclude: 0
 
-## INCLUDE (18)
+## INCLUDE (19)
 
 ---
 action: 
@@ -81,6 +81,18 @@ company: TJ Thomas Estates Group - Agency - Permanent
 location: Liverpool
 source: JobG8
 job_id: jobg8-419438022493208576037340
+reason: Approved conservative Liverpool launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Business Crime Reduction Coordinator
+company: Brook Street UK - Agency - Permanent
+location: Liverpool
+source: JobG8
+job_id: jobg8-107947436
 reason: Approved conservative Liverpool launch catchment.
 ---
 
@@ -246,18 +258,6 @@ reason: Approved conservative Liverpool launch catchment.
 action: 
 decision: review
 automatic_decision: review
-title: Digital Analyst / Senior Digital Analyst
-company: Harnham - Data & Analytics Recruitment - Agency - Permanent
-location: Merseyside
-source: JobG8
-job_id: jobg8-1707231
-reason: Broad county location; review before Liverpool inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Digital Marketing Assistant Manager
 company: MHA - Agency - Permanent
 location: Merseyside
@@ -270,11 +270,11 @@ reason: Broad county location; review before Liverpool inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Freelance Paid Social Manager
-company: Searchability (UK) Ltd - Agency - Contract
+title: Technical SEO Specialist
+company: Protein Works - Agency - Permanent
 location: Merseyside
 source: JobG8
-job_id: jobg8-107776582
+job_id: jobg8-107861416
 reason: Broad county location; review before Liverpool inclusion.
 ---
 
@@ -282,11 +282,23 @@ reason: Broad county location; review before Liverpool inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Technical SEO Specialist
-company: Protein Works - Agency - Permanent
+title: TikTok Content Creator & Live Host
+company: Reed - Agency - Permanent
 location: Merseyside
 source: JobG8
-job_id: jobg8-107861416
+job_id: jobg8-1842877
+reason: Broad county location; review before Liverpool inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
+company: Qualify Nation Recruitment - Agency - Permanent
+location: Merseyside
+source: JobG8
+job_id: jobg8-1880924
 reason: Broad county location; review before Liverpool inclusion.
 ---
 

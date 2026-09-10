@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 7
 - automatic review: 17
-- automatic exclude: 9
+- automatic exclude: 8
 - effective include: 7
 - effective review: 17
-- effective exclude: 9
+- effective exclude: 8
 
 ## INCLUDE (7)
 
@@ -314,19 +314,7 @@ job_id: teaching-vacancies-year-9-administrative-assistant-including-year-10-wor
 reason: No approved Brighton & Hove catchment rule matched; local review required.
 ---
 
-## EXCLUDE (9)
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Administrator
-company: Sussex Community NHS Foundation Trust
-location: Worthing, BN11 2DH
-source: NHS Jobs
-job_id: nhs-5576517
-reason: Separate employment market.
----
+## EXCLUDE (8)
 
 ---
 action: 

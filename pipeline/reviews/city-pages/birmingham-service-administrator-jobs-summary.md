@@ -4,7 +4,7 @@
 - Live route: `/birmingham/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 23
+- Effective included jobs: 26
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 23
+- automatic include: 26
 - automatic review: 5
-- automatic exclude: 2
-- effective include: 23
+- automatic exclude: 3
+- effective include: 26
 - effective review: 5
-- effective exclude: 2
+- effective exclude: 3
 
-## INCLUDE (23)
+## INCLUDE (26)
 
 ---
 action: 
@@ -136,6 +136,18 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: HR Coordinator
+company: Michael Page Business Support - Agency - Permanent
+location: Birmingham
+source: JobG8
+job_id: jobg8-1851800
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: In-House Recruiter (FTC)
 company: Cygnet - Agency - Permanent
 location: Birmingham
@@ -153,6 +165,18 @@ company: The Recruitment Experts - Agency - Permanent
 location: Birmingham
 source: JobG8
 job_id: jobg8-1859114
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Marketing & Customer Support Manager
+company: Flat Fee Recruiter - Agency - Permanent
+location: Birmingham
+source: JobG8
+job_id: jobg8-107928946
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -292,6 +316,18 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
+company: Qualify Nation Recruitment - Agency - Permanent
+location: Birmingham
+source: JobG8
+job_id: jobg8-1880914
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Trainee Social Media Executive
 company: Netcom Online Learning - Agency - Permanent
 location: Birmingham
@@ -362,17 +398,29 @@ job_id: nhs-5566975
 reason: No approved Birmingham catchment rule matched; local review required.
 ---
 
-## EXCLUDE (2)
+## EXCLUDE (3)
 
 ---
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Database Administrator
-company: The Curve Group - Agency - Permanent
+title: HR Assistant
+company: Michael Page Business Support - Agency - Permanent
 location: Solihull
 source: JobG8
-job_id: jobg8-1800761
+job_id: jobg8-1884320
+reason: Separate exact-city market at launch.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Learning & Development Coordinator
+company: Whale Tankers - Agency - Permanent
+location: Solihull
+source: JobG8
+job_id: jobg8-1851723
 reason: Separate exact-city market at launch.
 ---
 

@@ -1,30 +1,5 @@
 [
   {
-    "job_id": "107909020",
-    "title": "Assessment Administration Coordinator",
-    "company": "Advance HE - Agency - Permanent",
-    "location": "York",
-    "region": "Yorkshire - North",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "30000",
-    "salary_max": "30000",
-    "salary_text": "£30000 per year",
-    "posted_date": "2026-08-28",
-    "description": "Assessment Administration Coordinator\n\nLocation: Nominal office of York, with expected minimum attendance of once per month\nSalary: £27,010 gross per annum\nContract: Full Time, Permanent\n\nApplications close on 14th September at 9am. Interviews will take place via MS Teams w/c 28th September\n\nBenefits:\n\nA generous pension plan with USS\nEnhanced family leave benefits\n31 days' annual leave, plus bank holida click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?iZmgAWfngDzDREEUQobvZltdV%2fzNuQg1f",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Advance HE",
-    "advertiser_type": "Agency",
-    "work_pattern": "Full Time",
-    "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
-  },
-  {
     "job_id": "23643_225543992",
     "title": "Assessment Administration Coordinator",
     "company": "Advance HE - Agency - Permanent",
@@ -98,5 +73,24 @@
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
     "posted_date_basis": "ontap_first_published"
+  },
+  {
+    "job_id": "nhs-5590363",
+    "source": "NHS Jobs",
+    "title": "Team Administrator",
+    "company": "Tees Esk and Wear Valleys NHS Foundation Trust",
+    "advertiser_name": "Tees Esk and Wear Valleys NHS Foundation Trust",
+    "location": "York, YO32 9XW",
+    "region": "Yorkshire - North",
+    "salary": "£25760.00 to £27476.00",
+    "employment_type": "Permanent",
+    "posted_date": "2026-09-10T08:32:30.529102787",
+    "closing_date": "2026-09-24",
+    "description": "A fantastic part time (15 hours) opportunity has arisen for a conscientious and dynamic administrator to join one of our close-knit and supportive Community Mental Health Teams (CMHT), here in York. The North CMHT is based in Huntington House and provides community-based support to people aged between 18 and 65 years old who are experiencing challenges with their mental health. Huntington House is nestled to the west of Monks Cross, is a short walk away from the Community Stadium and Vanguarde Shopping Park. It is on the outskirts of York City Centre just inside the ring road (North), benefits from free on-site parking and is easily accessible by car, bus and bicycle. As a member of this small and friendly team, you will work in an open plan office on the second floor of the building. This floor is also home to other community mental health teams and is an area of high activity; no two days are the same. If you are looking for a new challenge, enjoy variety in your work and are looking to be part of a team striving to make a difference, we will welcome your application for this role. Whilst having previous experience in an administrative role is essential, NHS or other health care experience is not. We are first and foremost looking for individuals with a passion for people, customer service experience, extensive organisational skills, an interest in working in a health care setting and a 'can do' attitude. This role is at the heart of a dedicated and caring team and is a pivotal role in the day-to-day operations. As part of the administration team you will work closely with the medical secretary, Consultants and Nursing colleagues, supporting them in ensuring that high standards are maintained and they have everything they need to provide the best possible care for the service users. We are looking for someone who feels comfortable multi-tasking in a busy environment, can communicate confidently, is thorough and takes pride in their work, can build strong working relationships with a variety of people, can prioritise their workload and work to deadlines. The following responsibilities are examples, please refer to the attached Job Description for the complete picture. With a starting salary of £25,760 pro rata, per annum, a generous NHS pension scheme, a fantastic annual leave package (27 days annual leave plus bank holidays) and access to other NHS staff benefits and discounts, it is fair to say that this job has a lot to offer. And, its not just the NHS pay scale and benefits that we offer that make joining our organisation an excellent choice, there are many training and development opportunities available, giving you the opportunity for career progression. All staff have regular 1-2-1s, quarterly supervision meetings and an annual appraisal, which provides lots of opportunity for discussion around achievements, challenges and aspirations. Staff recognition is very important to us; we work closely with colleagues to support development, the staff voice, and to recognise teams and individuals through our Greatix and Star Award schemes; highlighting the outstanding work being done every day. We recognise that Administrators are professionals and are a valuable asset to our organisation. We understand that they have a key role in the support and delivery of our services and that their contribution helps us in achieving our aim of consistently providing safe and high quality care for our service users. The kind of care we would want for ourselves and for our loved ones. You must have the Right to Work in the UK in order to be successfully appointed to this role. Please note, this role does not meet the required eligibility criteria for sponsorship under the Skilled Worker visa and therefore the Trust is unable to offer sponsorship for this particular role.",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9346-26-1081",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9346-26-1081",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "A",
+    "posted_date_basis": "source"
   }
 ]

@@ -4,7 +4,7 @@
 - Live route: `/barnsley/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 1
+- Effective included jobs: 2
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,26 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 1
+- automatic include: 2
 - automatic review: 2
-- automatic exclude: 22
-- effective include: 1
+- automatic exclude: 17
+- effective include: 2
 - effective review: 2
-- effective exclude: 22
+- effective exclude: 17
 
-## INCLUDE (1)
+## INCLUDE (2)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administrative Assistant
+company: Garland House Surgery
+location: Barnsley, S73 9JX
+source: NHS Jobs
+job_id: nhs-5295793
+reason: Approved Barnsley catchment.
+---
 
 ---
 action: 
@@ -62,7 +74,7 @@ job_id: jobg8-23643_225575501
 reason: No approved Barnsley catchment rule matched; local review required.
 ---
 
-## EXCLUDE (22)
+## EXCLUDE (17)
 
 ---
 action: 
@@ -97,18 +109,6 @@ company: The Rowan School
 location: Sheffield
 source: Teaching Vacancies
 job_id: teaching-vacancies-admin-clerical-officer-level-2-rowan-school
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Administration Assistant
-company: The Market Surgery
-location: Rotherham, S63 7RA
-source: NHS Jobs
-job_id: nhs-5568486
 reason: Separate employment market.
 ---
 
@@ -176,18 +176,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Part Time Administrator - 12 Hour Per Week
-company: Office Angels - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-23643_225558215
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Permanent Admin Assistant
 company: Wybourn Community Primary & Nursery School
 location: Sheffield
@@ -213,10 +201,10 @@ action:
 decision: exclude
 automatic_decision: exclude
 title: Receptionist
-company: Manchester Road Surgery
-location: Sheffield, S10 5PN
+company: Gateway Primary Care CIC
+location: Rotherham, S65 1DJ, Rotherham, S62 7BT, Rotherham, S60 2JH, Rotherham, S60 8GD
 source: NHS Jobs
-job_id: nhs-5586600
+job_id: nhs-5588970
 reason: Separate employment market.
 ---
 
@@ -225,10 +213,10 @@ action:
 decision: exclude
 automatic_decision: exclude
 title: Receptionist
-company: The Market Surgery
-location: Rotherham, S63 7RA
+company: Manchester Road Surgery
+location: Sheffield, S10 5PN
 source: NHS Jobs
-job_id: nhs-5568418
+job_id: nhs-5586600
 reason: Separate employment market.
 ---
 
@@ -248,35 +236,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Receptionist - AM shift - DN1
-company: Ideal Recruit Ltd - Agency - Temporary
-location: Doncaster
+title: Resource Coordinator
+company: Jackson Hogg Ltd - Agency - Permanent
+location: Sheffield
 source: JobG8
-job_id: jobg8-23643_225488492
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Receptionist/Administrator
-company: Tickhill and Colliery Medical Practice
-location: Doncaster, DN11 9NA, Doncaster, DN11 8JT
-source: NHS Jobs
-job_id: nhs-5554992
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Sales & Marketing Coordinator
-company: Get Recruited (UK) Ltd - Agency - Permanent
-location: Doncaster
-source: JobG8
-job_id: jobg8-107771227
+job_id: jobg8-23643_225485987
 reason: Separate employment market.
 ---
 
@@ -313,17 +277,5 @@ company: Aston Academy
 location: Sheffield
 source: Teaching Vacancies
 job_id: teaching-vacancies-send-administrator-aston-academy-sheffield-south-yorkshire
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Service Desk Analyst
-company: Venn Group - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-1807172
 reason: Separate employment market.
 ---

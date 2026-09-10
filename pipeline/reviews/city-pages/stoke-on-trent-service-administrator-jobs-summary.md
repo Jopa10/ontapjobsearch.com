@@ -4,7 +4,7 @@
 - Live route: `/stoke-on-trent/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 5
+- Effective included jobs: 6
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 5
-- automatic review: 15
+- automatic include: 6
+- automatic review: 16
 - automatic exclude: 0
-- effective include: 5
-- effective review: 15
+- effective include: 6
+- effective review: 16
 - effective exclude: 0
 
-## INCLUDE (5)
+## INCLUDE (6)
 
 ---
 action: 
@@ -33,6 +33,18 @@ company: The Shaw Education Trust
 location: Stoke-On-Trent
 source: Teaching Vacancies
 job_id: teaching-vacancies-administrative-assistant-the-shaw-education-trust
+reason: Exact approved Stoke-on-trent workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: HR Assistant
+company: GXO Logistics - Company - Permanent
+location: Stoke-On-Trent
+source: JobG8
+job_id: jobg8-1785762
 reason: Exact approved Stoke-on-trent workplace.
 ---
 
@@ -84,7 +96,7 @@ job_id: nhs-5583352
 reason: Exact approved Stoke-on-trent workplace.
 ---
 
-## REVIEW (15)
+## REVIEW (16)
 
 ---
 action: 
@@ -131,6 +143,18 @@ company: Adjusting Appointments Limited - Agency - Permanent
 location: Staffordshire
 source: JobG8
 job_id: jobg8-1785993
+reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: EL/PL Liability Claims Handler
+company: Davies Group - Agency - Permanent
+location: Staffordshire
+source: JobG8
+job_id: jobg8-1886352
 reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
 ---
 
