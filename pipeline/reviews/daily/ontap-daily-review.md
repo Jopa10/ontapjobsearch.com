@@ -32,7 +32,7 @@ Edit only each `action:` line:
 ## JobG8 — 19 to review
 
 ---
-action:
+action: select
 POSS | JobG8 | Derbyshire | Derbyshire | £30000 - £33000 per year (Up to £33k) | HR Administrator
 source_key: jobg8
 source: JobG8
@@ -50,7 +50,7 @@ hub_fingerprint: 44c0860dd972bedd46c7b628b3b422e0c22ea3317dc51ea88ec70cfb008aa2f
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Devon | Devon | £14.18 - £16.37 per hour | HR Coordinator
 source_key: jobg8
 source: JobG8
@@ -68,7 +68,7 @@ hub_fingerprint: 4050e6eba307c363d912ae209882421b27ebbbe573f0d5a1a4d63c6e74fef09
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | Essex | Essex | £36000 per year | Property Claims Handler
 source_key: jobg8
 source: JobG8
@@ -86,7 +86,7 @@ hub_fingerprint: ddb8f66d22b9fe8593f1c72f21bc6b95bec4f8098c27deed834908b74f46e1d
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | Hampshire | Hampshire | £17 - £18 per hour | Planner Scheduler
 source_key: jobg8
 source: JobG8
@@ -104,7 +104,7 @@ hub_fingerprint: 7d040223bcd294e6369336fe530661954b9f4d6dad3a63697d9fe30e06f3e47
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | Lincolnshire | Lincolnshire | £48,000 per annum | Lead Planner
 source_key: jobg8
 source: JobG8
@@ -122,7 +122,7 @@ hub_fingerprint: ff0ad58940df33f95ccaccc4e077b0f6a30f5bc0794985a27d68d57690115fa
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | London | London | £32000 - £38000 per year | HR Coordinator
 source_key: jobg8
 source: JobG8
@@ -140,7 +140,7 @@ hub_fingerprint: 067812a74e48e43e77c9a150e1e32279c9e0c3b305e1dd12a5c4c0f8ffa4fc2
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | London | London | £25 per hour | Interim Recruitment Coordinator
 source_key: jobg8
 source: JobG8
@@ -158,7 +158,7 @@ hub_fingerprint: 1b307c6f85c30ae05a2537f5e6199c5cb14128b30b2d6a3601870daf2480319
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Merseyside - Liverpool | Liverpool | £35000 per year | Business Crime Reduction Coordinator
 source_key: jobg8
 source: JobG8
@@ -176,7 +176,7 @@ hub_fingerprint: d790a7079bfc402b400035a96010e2cd3de6566d4e21e5d5a00ac6c718d307e
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Nottinghamshire | Nottinghamshire | £13.80 - £15.50 per hour | HR Administrator
 source_key: jobg8
 source: JobG8
@@ -194,7 +194,7 @@ hub_fingerprint: 6fdbeec0370d73d852478114834497f342cc6fde374b3809a748056e6ca5995
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | Staffordshire | Staffordshire | £36000 per year | Property Claims Handler
 source_key: jobg8
 source: JobG8
@@ -212,7 +212,7 @@ hub_fingerprint: f844e06302e08ee33a6b2204ce6b29b2757caeba956ccbb2e304da35661f0ba
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Suffolk | Suffolk | £30000 - £35000 per year | HR Administrator
 source_key: jobg8
 source: JobG8
@@ -230,7 +230,7 @@ hub_fingerprint: f86c88c874ad3aff53b492b3d0d4316d8adbea82511a1aa03b97fb64b3fc315
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | Surrey | Surrey | £33000 - £42000 per year | Trainee Financial Planner
 source_key: jobg8
 source: JobG8
@@ -248,7 +248,7 @@ hub_fingerprint: d2937c97f653f78dbc9512778366bfd2364d89bbf8371ea03dbf0f9efdf204e
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | West Midlands - Coventry & Warwickshire | Warwickshire | £31000 per year (Plus Benefits) | Business Administrator
 source_key: jobg8
 source: JobG8
@@ -266,7 +266,7 @@ hub_fingerprint: bccae00ae2139673ee009bd7a990188feafb037f245e490afb3cab962a62464
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | West Midlands - Coventry & Warwickshire | Warwickshire | £22 - £23 per hour | Interim Finance Assistant
 source_key: jobg8
 source: JobG8
@@ -284,7 +284,7 @@ hub_fingerprint: b1c2c7f08cd44302b3328d120f8e6af4816f84bdb0272368f15ab1a151fc670
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Wiltshire | Wiltshire | £141 per daily | HR Administrator
 source_key: jobg8
 source: JobG8
@@ -302,7 +302,7 @@ hub_fingerprint: 5c0b14e56c6697192f0a98cc1857a995b9c01c18b1deb3ec4655b46e84b13f8
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | Yorkshire - West | Bradford | £157 per daily | Call Centre Advisor
 source_key: jobg8
 source: JobG8
@@ -320,7 +320,7 @@ hub_fingerprint: 41d847003bce47fd59d229a8f8c3dfea5e48c4a3ad2566fc8fc07defef2c27a
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | Yorkshire - West | Leeds | £250 - £300 per daily | Document Controller
 source_key: jobg8
 source: JobG8
@@ -338,7 +338,7 @@ hub_fingerprint: 82e1308f6e81d5b5e983270fa7d1ccc81735ec9125f080a38b1b2c3548bcf3b
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | Yorkshire - West | Leeds | £65000 per year | Financial Planner (IFA)
 source_key: jobg8
 source: JobG8
@@ -356,7 +356,7 @@ hub_fingerprint: c0cd2787a2924742f15860ade3ad359802ba35d258847b7360dc3af2f74045f
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Yorkshire - West | Leeds | £200 per daily | Live-In Personal Care Assistants for a University Student in Leeds
 source_key: jobg8
 source: JobG8
