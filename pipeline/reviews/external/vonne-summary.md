@@ -1,7 +1,7 @@
 # VONNE ETL proof-of-concept review
 
-review_date: 2026-09-09
-review_fingerprint: f930cefc12ec74d9dcf1c83f18486e14c915509bd45397db93f7c876711b0c00
+review_date: 2026-09-10
+review_fingerprint: 05d9ae8b894555be5716d7ec7a6ca64ce8b1f8df76443d55f29a4a3a20c3c289
 
 This implementation is review-only. It has no approved-JSON or publishing mode.
 
@@ -10,28 +10,28 @@ Edit only the `action:` line in editable blocks:
 - `action: exclude` rejects a POSS vacancy or removes an HC vacancy.
 - Actions are remembered while the same vacancy review facts remain unchanged; this review still does not publish anything.
 
-Run generated: 2026-09-09T12:44:30+01:00
+Run generated: 2026-09-10T12:42:15+01:00
 Listing input: https://www.vonne.org.uk/vonne-jobs
-JobG8 comparison rows: 248
-Approved NEJobs comparison rows: 14
+JobG8 comparison rows: 255
+Approved NEJobs comparison rows: 13
 
 ## Funnel
 - VONNE listings read: 15
-- Detail-page candidates: 6
-- Detail pages fetched successfully: 6
+- Detail-page candidates: 7
+- Detail pages fetched successfully: 7
 - Detail failures/listing fallbacks: 0
-- Obvious hard passes not detail-fetched: 9
+- Obvious hard passes not detail-fetched: 8
 - Tees Valley explicitly excluded: 0
-- Outside or unmapped geography excluded: 1
+- Outside or unmapped geography excluded: 2
 - Generic/derived geography rows requiring review: 0
-- Retained target candidates: 14
+- Retained target candidates: 13
 
 ## Outcomes
 - HC: 0
 - POSS: 8
-- HARD_PASS: 6
-- Final selected after remembered/manual actions: 3
-- Final POSS awaiting decision: 2
+- HARD_PASS: 5
+- Final selected after remembered/manual actions: 2
+- Final POSS awaiting decision: 3
 - Manually excluded: 3
 ## Detail diagnostics
 - No unresolved detail-page failures.
@@ -54,6 +54,19 @@ tracking_key: vonne-173394
 vacancy_fingerprint: 519ce27938398f49fcbce718a2199f9949683fdc41baa95ab1c29252c8391d66
 source_job_id: 173394
 source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173394
+---
+---
+action:
+POSS | North East - County Durham & Darlington/Hartlepool | County Durham | £27,476 Per Annum | HR Administrator
+employer: Durham Cathedral
+closing_date: Friday, October 2, 2026 - 09:00
+geography: CONFIRMED — location: approved location fallback
+reason: transferable title with specialist or borderline wording: hr
+source: VONNE
+tracking_key: vonne-173410
+vacancy_fingerprint: f65f0813d779a37799fe069207dcaadc4a3b07e03f174b525fb8ad7176d32b76
+source_job_id: 173410
+source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173410
 ---
 ---
 action: exclude
@@ -83,14 +96,14 @@ source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173396
 ---
 ---
 action:
-POSS | North East - Tyneside, Wearside & Northumberland | Northumberland | £29,998 to 33,000 Per Annum | Community Transport Network and Operations development Coordinator
+POSS | North East - Tyneside, Wearside & Northumberland | Northumberland | £29,998 to 33,000 Per Annum | Community Transport Network and Operations Development Coordinator
 employer: WATBUS (Community Transport)
 closing_date: Monday, September 21, 2026 - 12:00
 geography: CONFIRMED — location: approved location fallback
 reason: annualised upper salary £33,000 exceeds North East review point £30,000
 source: VONNE
 tracking_key: vonne-173398
-vacancy_fingerprint: b4d1b6947c8717a91093de1fa230ef5936fb30c111563cf5a93e93879343e491
+vacancy_fingerprint: f0aa4caa78e6f26eca1fba4fcba8da7a9759467a67e7607e373092401816c500
 source_job_id: 173398
 source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173398
 ---
@@ -133,27 +146,13 @@ vacancy_fingerprint: 2ac04f9f1b86a7905bf4d7895c084339bc6730bbe03f168a8617ef240da
 source_job_id: 173392
 source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173392
 ---
----
-action: select
-POSS | North East - Tyneside, Wearside & Northumberland | Northumberland | £30,075 Pro Rata | Womens Specialist ISC Coach - Part Time
-employer: Changing Lives
-closing_date: 16 September 2026
-geography: CONFIRMED — location: approved location fallback
-reason: annualised upper salary £30,075 exceeds North East review point £30,000
-source: VONNE
-tracking_key: vonne-173391
-vacancy_fingerprint: 52bd0af4f0d255daf201e0884581ed4ac54cde52049d930ddc0326b8686e6857
-source_job_id: 173391
-source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173391
----
 ## EXCLUDED BY REVIEW
 
 - None.
 
 ## HARD_PASS
 
-- [Gardening and Handyperson Supervisor](https://www.vonne.org.uk/vonne-jobs-details?cid=173184) — insufficient service-admin evidence.
-- [Part time Play & Youth Worker](https://www.vonne.org.uk/vonne-jobs-details?cid=173388) — out-of-scope VONNE occupation.
+- [Marketing and Communications Officer](https://www.vonne.org.uk/vonne-jobs-details?cid=173409) — insufficient service-admin evidence.
 - [Right Turn Case Worker](https://www.vonne.org.uk/vonne-jobs-details?cid=173406) — out-of-scope VONNE occupation.
 - [Safe Accommodation Support Worker](https://www.vonne.org.uk/vonne-jobs-details?cid=173405) — out-of-scope VONNE occupation.
 - [Support Manager](https://www.vonne.org.uk/vonne-jobs-details?cid=172597) — out-of-scope VONNE occupation.
