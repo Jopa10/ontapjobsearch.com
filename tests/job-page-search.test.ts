@@ -8,6 +8,8 @@ const header = readFileSync("components/Header.tsx", "utf8");
 const jobPage = readFileSync("app/jobs/[id]/page.tsx", "utf8");
 const jobPageStyles = readFileSync("app/jobs/[id]/job-page.module.css", "utf8");
 const savedLocationJobs = readFileSync("components/SavedLocationJobs.tsx", "utf8");
+const nearbyPanel = readFileSync("components/MoreJobsNearby.tsx", "utf8");
+const searchPage = readFileSync("app/jobs/search/page.tsx", "utf8");
 
 test("job-page search submits both governed search fields", () => {
   assert.match(component, /action="\/jobs\/search"/);
@@ -42,4 +44,12 @@ test("saved-location count and onward link use the same 15-mile search", () => {
   assert.match(savedLocationJobs, /searchPath: `\/jobs\/search\?near=/);
   assert.match(savedLocationJobs, /href=\{`\/jobs\/search\?near=/);
   assert.doesNotMatch(savedLocationJobs, /href=\{`\/jobs\/search\?location=\$\{encodeURIComponent\(saved\.town\)\}/);
+});
+
+test("nearby searches without a role return the full nearby inventory", () => {
+  assert.match(searchPage, /resolved\.searchQuery[\s\S]*?searchJobs\(nearbyJobs[\s\S]*?: nearbyJobs/);
+});
+
+test("vacancy recommendations stay anchored on the vacancy", () => {
+  assert.doesNotMatch(nearbyPanel, /savedLocationJobsEvent|savedTown/);
 });

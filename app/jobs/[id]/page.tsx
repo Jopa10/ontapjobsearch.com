@@ -254,7 +254,6 @@ export default async function JobPage({ params }: PageProps) {
         <aside className={styles.sidebar} aria-label="Related job information">
           <MoreJobsNearby
             jobs={discoveryJobs}
-            jobId={job.job_id}
             allJobsPath={discoveryJobs.length ? primaryListing.href : discoveryFallback.href}
             allJobsLabel={discoveryJobs.length ? primaryListing.label : discoveryFallback.label}
             secondaryAllJobsPath={discoveryJobs.length ? secondaryListing?.href : undefined}

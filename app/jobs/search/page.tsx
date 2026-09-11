@@ -350,7 +350,9 @@ export default async function Page({ searchParams }: { searchParams: SearchParam
     ? getJobsNearApprovedLocation(jobs, nearbyOrigin)
     : [];
   const matches = isNearbySearch
-    ? searchJobs(nearbyJobs, resolved.searchQuery, '')
+    ? resolved.searchQuery
+      ? searchJobs(nearbyJobs, resolved.searchQuery, '')
+      : nearbyJobs
     : searchJobs(jobs, resolved.searchQuery, resolved.searchLocation);
   const visibleMatches = matches.slice(0, 60);
 
