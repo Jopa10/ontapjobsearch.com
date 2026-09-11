@@ -203,31 +203,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "23643_225491751",
-    "title": "Project Coordinator",
-    "company": "Bowdon Associates Limited - Agency - Permanent",
-    "location": "Ashton-Under-Lyne",
-    "region": "Greater Manchester - South",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "28000",
-    "salary_max": "29000",
-    "salary_text": "£28000 - £29000 per year",
-    "posted_date": "",
-    "description": "Title: Project Coordinator / Project Administrator\n\nLocation: Ashton-Under-Lyne\n\nSalary: £29,000\n\nThe Client\n\nOur client are a family run business which undertakes, construction projects, building fabric maintenance and fire protection projects Nationwide.\n\nThey have a long-term contracts for blue chip customers such as the BBC, Home Office, DWP, Local & Civil Government, Hospitals, Schools and Colleges, BAE System, Police Training Centres, UKBA, Ministry of Justice, Ministry of Defence and Housing Associations.\n\nDue to continued success they are seeking to recruit an experience Project Coordinator / Project Administrator to their team.\n\nThe Role of Project Coordinator / Project Administrator\n- Work with the Project Managers to fully understand customer requirements.\n- Liaison with customer to manage day to day objectives and maintain excellent service and delivery.\n- Work with relevant internal teams to develop solutions that support delivery and increased customer experience.\n- Be able to confidently handle complaints and escalate to relevant Project Manager\n- Using knowledge of material and products, be able to scope out installation requirements.\n- Coordinate and support elements of programmes of work.\n- Use structured problem-solving techniques to identify, assess and resolve issues.\n- Coordinate projects against deliverables, budget and deadlines and liaise with internal departments of any discrepancies.\nQualifications/Requirements:\n- Must have previous experience in a project coordinator / Construction or FM Administrator role\n- Experience in the FM / Facilities Management or Construction\n- Strong IT skills in MS Products\n- Self-motivated with a passion for great customer service.\n- Organised and structured in approach with the ability to prioritise.\n- Excellent analytical and problem-solving skills.\n- Strong communication skills, both verbal and written, with the ability to convey technical information and solutions effectively\n- Excellent attention to detail, and retention and recording of information.\n\nBowdon Associates is a member of the Guild of Quality Employment Agencies and has agreed to adopt the compliance and recruitment standards that form the basis their code of conduct. A quality, transparent and responsible recruitment agency committed to raising the industry standards.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?io0x8AEcaIM28F5mY9kCF8WrEqh8jhZdo",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Bowdon Associates Limited",
-    "advertiser_type": "Agency",
-    "work_pattern": "Full Time",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "nhs-5580653",
     "source": "NHS Jobs",
     "title": "GP Receptionist",
@@ -243,7 +218,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3931-26-0004",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3931-26-0004",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5578666",
@@ -261,6 +240,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5308-26-0006",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5308-26-0006",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

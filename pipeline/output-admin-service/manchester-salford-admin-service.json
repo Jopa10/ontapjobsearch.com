@@ -281,6 +281,31 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "107883067",
+    "title": "Customer Service & Website Administrator",
+    "company": "NowSkills - Agency - Permanent",
+    "location": "Manchester",
+    "region": "Greater Manchester - Manchester & Salford",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "26000",
+    "salary_max": "26000",
+    "salary_text": "£26000 per year",
+    "posted_date": "",
+    "description": "Completing a Business Analyst Level 4 apprenticeship with NowSkills, our client is looking for aCustomer Service & Website Administrator\nJob Purpose\n- Achieve best practice in customer service\n- Develop systems to ensure the efficient administration of Sales.\n- Develop website and social media platforms\n- To deputise in the absence of the Sales Manager and the Supply Manager\n\nKey Responsibilities\n- To support sal click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?d1vRzEYF65SiKK1Cer1fexB4WDKC%2bb%2fFx",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "NowSkills",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
     "job_id": "1785991",
     "title": "Casualty Claims Handler",
     "company": "Adjusting Appointments Limited - Agency - Permanent",
@@ -546,7 +571,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4834-26-0002",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4834-26-0002",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5572945",
@@ -564,7 +593,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5615-26-0004",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5615-26-0004",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5590613",
@@ -582,7 +615,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/I9236-26-0051",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/I9236-26-0051",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5592408",
@@ -600,7 +637,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1685-26-0004",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1685-26-0004",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5586117",
@@ -618,6 +659,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1232-26-0000",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1232-26-0000",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

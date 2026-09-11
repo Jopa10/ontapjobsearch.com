@@ -578,31 +578,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "23643_225492608",
-    "title": "NHS Coordinator",
-    "company": "Spire Healthcare - Company - Permanent",
-    "location": "Leicestershire",
-    "region": "Leicestershire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "",
-    "posted_date": "",
-    "description": "NHS Coordinator Administration Spire Leicester Oadby Part-Time 15 hours per week\n\nSpire Leicester Hospital are looking for a NHS Coordinator to join their busy administration team on a permanent, part-time basis (15 hours per week) to support the department.\n\nDuties and responsibilities:\n- Providing excellent customer service and patient care\n- Booking NHS patients into the hospital and managing referrals\n- Liaising closely with the NHS team and wider hospital departments\n- Monitoring appointment outcomes and breaches\n- Handling patient queries over the phone and via email\n\nWho we're looking for:\n- Previous administration experience is essential\n- Healthcare experience would be beneficial but is not essential\n- Strong customer service and communication skills\n- Confident telephone manner and good attention to detail\n\nBenefits:\n- We offer employed colleagues a competitive salary as well as a comprehensive benefits package which includes but is not limited to:\n- 35 days annual leave inclusive of bank holidays\n- Employer and employee contributory pension with flexible retirement options\n- 'Spire for you' reward platform - discount and cashback for over 1000 retailers\n- Free Bupa wellness screening\n- Private medical insurance\n- Life assurance\n\nOur Values:\n\nWe are extremely proud of our heritage in private healthcare and of our values as an organisation:\n- Driving clinical excellence\n- Doing the right thing\n- Caring is our passion.\n- Keeping it simple\n- Delivering on our promises\n- Succeeding and celebrating together\n\nWe commit to our employees' well-being through work life balance, on-going development, support and reward.\n\nSpire Healthcare is a leading independent healthcare group in the United Kingdom, running 38 hospitals and over 50 clinics across England, Wales and Scotland. It provides diagnostics, inpatient, day case and outpatient care, operates a network of private GPs and provides workplace health services to over 800 corporate clients. It also delivers a range of private and NHS mental health, musculoskeletal and dermatological services.\n\nSpire Healthcare are proud to be an equal opportunities employer. We celebrate diversity and are committed to creating an inclusive culture for all. Our people are our difference, it's their dedication, warmth and pursuit of excellence that sets Spire Healthcare apart.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?d1vRzEYF65RHlHEWua7Unv74YWD0jB7kx",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Spire Healthcare",
-    "advertiser_type": "Company",
-    "work_pattern": "Part Time",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "nhs-5581072",
     "source": "NHS Jobs",
     "title": "Medical Receptionist",
@@ -618,6 +593,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3527-26-0001",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3527-26-0001",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

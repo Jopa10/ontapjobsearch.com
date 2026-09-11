@@ -53,31 +53,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "23643_225492293",
-    "title": "Finance Assistant",
-    "company": "Big Sky Additions - Agency - Permanent",
-    "location": "Norfolk",
-    "region": "Norfolk",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "28000",
-    "salary_max": "32000",
-    "salary_text": "£28000 - £32000 per year",
-    "posted_date": "",
-    "description": "Finance Assistant\nWells-next-the-Sea, Norfolk\n\nAn established local employer is looking for a Finance Assistant to join its finance team.\n\nThis is a hands-on transactional role and a key part of the day-to-day running of the finance function, covering bookkeeping and finance administration across several entities. You'll report to the Management Accountant and work alongside the Finance Business Partner.\n\nThe role\n- Processing purchase invoices and preparing supplier payment runs across several entities\n- Raising sales invoices and posting receipts to the bank\n- Completing petty cash reconciliations\n- Maintaining accurate and complete financial records\n- Monitoring the accounts inbox and responding promptly and professionally to supplier and customer queries\n- Providing general ad hoc support to the Management Accountant and Finance Business Partner\n\nAbout you\n- Experience in a finance support or finance administration role\n- Purchase and/or sales ledger experience is essential\n- Good numeracy skills and strong attention to detail\n- Well organised and methodical, with the ability to manage a varied workload and changing priorities\n- A confident communicator, comfortable dealing with suppliers, customers and colleagues\n- Competent with Microsoft Office, particularly Excel, with experience of using an accounting system\n- Proactive, reliable and comfortable taking ownership of your work\n\nA varied and hands-on opportunity, well suited to someone who enjoys keeping things organised, accurate and running to deadline.\n\nPlease apply online or contact Justin Murray at Big Sky Additions for further info.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?31Q%2fsvDzOVbYOC3X5tlbxsjCCXrjODUvj",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Big Sky Additions",
-    "advertiser_type": "Agency",
-    "work_pattern": "Full Time",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "23643_225525272",
     "title": "Customer Service Coordinator",
     "company": "Smurfit Westrock - Company - Permanent",
@@ -293,7 +268,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1039-26-0010",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1039-26-0010",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5561086",
@@ -311,6 +290,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1644-26-0006",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1644-26-0006",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

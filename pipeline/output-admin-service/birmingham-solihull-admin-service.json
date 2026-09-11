@@ -309,31 +309,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "107882594",
-    "title": "1st Line Service Desk Apprentice",
-    "company": "Hackajob Ltd - Agency - Permanent",
-    "location": "Birmingham",
-    "region": "West Midlands - Birmingham & Solihull",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "",
-    "posted_date": "",
-    "description": "hackajob is partnering directly with Atos to hire for this role.\n\nAbout Atos Group\n\nAtos Group is a global leader in digital transformation with 52,000 employees and annual revenue of c. € 10 billion, operating in 54 countries under two brands Atos for services and Eviden for products click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?nbYVUHO1tX52E37JMqR8%2bmsrBXjVS%2fltz",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Hackajob Ltd",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "23643_225537904",
     "title": "Finance Assistant",
     "company": "Gleeson Recruitment Group - Agency - Permanent",
@@ -674,7 +649,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9820-26-0592",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9820-26-0592",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5580814",
@@ -692,7 +671,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3663-26-0007",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3663-26-0007",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5569602",
@@ -710,7 +693,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1924-26-0030",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1924-26-0030",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5566975",
@@ -728,7 +715,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/L0034-26-3590",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/L0034-26-3590",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5557628",
@@ -746,7 +737,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1771-26-0000",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1771-26-0000",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5587707",
@@ -764,6 +759,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3718-26-0004",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3718-26-0004",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

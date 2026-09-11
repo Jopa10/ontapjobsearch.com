@@ -731,6 +731,56 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "23643_225594223",
+    "title": "Administrator - Andover",
+    "company": "Office Angels - Agency - Temporary",
+    "location": "Hampshire",
+    "region": "Hampshire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Temporary",
+    "salary_min": "13.5",
+    "salary_max": "14",
+    "salary_text": "£13.5 - £14 per hour",
+    "posted_date": "",
+    "description": "Administrator (Temp to Perm)\n\nLocation: Andover\nJob Type: Temporary to Permanent\nStart Date: Immediate\n\nRole Overview\n\nWe are currently seeking a proactive and organised Administrator to join a busy team based in Andover. This is an excellent opportunity for someone looking for a temp-to-perm position with an immediate start, offering long-term progression for the right candidate.\n\nKey Responsibilities\n- Providing general administrative support to the team\n- Managing incoming calls and emails, responding promptly and professionally\n- Maintaining accurate records and updating internal systems\n- Scheduling meetings, appointments, and coordinating diaries\n- Preparing documents, reports, and correspondence\n- Handling data entry and ensuring information is kept up to date\n- Supporting with filing, scanning, and document management\n- Assisting other departments as required\n\nKey Skills & Experience\n- Previous administrative experience is preferred\n- Strong organisational skills with excellent attention to detail\n- Confident using Microsoft Office (Word, Excel, Outlook)\n- Excellent communication skills, both written and verbal\n- Ability to multitask and prioritise workload effectively\n- A positive, can-do attitude and willingness to learn\n- Able to work independently as well as part of a team\n\nWhat's on Offer\n- Immediate start\n- Opportunity to secure a permanent position\n- Supportive and friendly working environment\n- Valuable experience within a professional setting\n\nOffice Angels is an employment agency and business. We are an equal-opportunities employer who puts expertise, energy and enthusiasm into improving everyone's chance of being part of the workplace. We respect and appreciate people of all ethnicities, generations, religious beliefs, sexual orientations, gender identities, abilities and more. By showcasing talents, skills and unique experiences in an inclusive environment, we help individuals thrive. If you require reasonable adjustments at any stage, please let us know and we will be happy to support you.\n\nOffice Angels acts as an employment agency for permanent recruitment and an employment business for the supply of temporary workers. Office Angels UK is an Equal Opportunities Employer.\n\nBy applying for this role your details will be submitted to Office Angels. Our Candidate Privacy Information Statement explaining how we will use your information is available on our website.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?iZmgAWfngDx1XnXB6jXHcJXALwYuA4tyf",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Office Angels",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Hourly",
+    "posted_date_basis": ""
+  },
+  {
+    "job_id": "107892817",
+    "title": "Customer Service Coordinator",
+    "company": "Vistry Group - Company - Contract",
+    "location": "Hampshire",
+    "region": "Hampshire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Contract",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "+ bonus + upto 41 days a/l + healthcare",
+    "posted_date": "",
+    "description": "In a Nutshell\n\nWe have an exciting opportunity for a Customer Service Coordinator to join our team within Vistry Southern, at our Basingstoke office. As our Customer Service Coordinator, you will liaise with customers, partners, technicians and subcontractors to ensure the completion of customer service cases within a timely manner and within SLA click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?kjuUUj3TFp7SADXnlsy5%2bD8ZG3NbUiNmg",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Vistry Group",
+    "advertiser_type": "Company",
+    "work_pattern": "Not Specified",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
     "job_id": "23643_225505424",
     "title": "Sales Coordinator",
     "company": "Adecco - Agency - Permanent",
@@ -1046,7 +1096,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0327-26-0465",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0327-26-0465",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5586737",
@@ -1064,7 +1118,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/M9301-26-0217",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/M9301-26-0217",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5591061",
@@ -1082,7 +1140,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0327-26-0005",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0327-26-0005",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5590543",
@@ -1100,7 +1162,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0505-26-0412",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0505-26-0412",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5577957",
@@ -1118,7 +1184,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3415-26-0006",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3415-26-0006",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5573451",
@@ -1136,7 +1206,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0505-26-0302",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0505-26-0302",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5589814",
@@ -1154,7 +1228,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9348-26-1952",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9348-26-1952",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5585230",
@@ -1172,7 +1250,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9348-26-1946",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9348-26-1946",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5573045",
@@ -1190,7 +1272,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0177-26-9523",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0177-26-9523",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5571549",
@@ -1208,6 +1294,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1166-26-0011",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1166-26-0011",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

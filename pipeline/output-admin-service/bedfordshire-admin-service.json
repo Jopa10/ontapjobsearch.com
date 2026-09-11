@@ -50,31 +50,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "107776346",
-    "title": "Learning & Development Coordinator",
-    "company": "ReeVR - Agency - Permanent",
-    "location": "Bedfordshire",
-    "region": "Bedfordshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "35000",
-    "salary_max": "35000",
-    "salary_text": "£35000 per year",
-    "posted_date": "",
-    "description": "Learning & Development Coordinator\n\nLocation: Dunstable\nSalary: £35,000 - £38,000\n\nJob Type: Permanent, Full-Time\n\nAbout the Learning & Development Coordinator opportunity\n\nWe are looking for an organised and proactive Learning & Development Coordinator to join a leading industrial manufacturing business in Dunstable click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?Y5CHIaMSKAyfgr9jH20PR2R13lspGETqv",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "ReeVR",
-    "advertiser_type": "Agency",
-    "work_pattern": "Full Time",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "23643_225505564",
     "title": "Administrator",
     "company": "Proactive Personnel Ltd - Agency - Contract",
@@ -375,6 +350,31 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "23643_225595761",
+    "title": "Graduate Town Planner",
+    "company": "Penguin Recruitment - Agency - Permanent",
+    "location": "Bedfordshire",
+    "region": "Bedfordshire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "27000",
+    "salary_max": "30000",
+    "salary_text": "£27000 - £30000 per year",
+    "posted_date": "",
+    "description": "Graduate Town Planner - St Neots 27,000- 30,000 + Excellent Benefits\n\nPenguin Recruitment is delighted to be working with a well-established and highly respected consultancy who are looking to appoint a Graduate Town Planner to join their growing team in St Neots.\n\nThis is a fantastic opportunity for a recent Planning graduate looking to start their career within a supportive consultancy environment, gain hands-on experience across a varied project portfolio and work towards becoming a Chartered Town Planner.\n\nAbout the Role\n\nAs a Graduate Town Planner, you will work alongside experienced planning professionals and gain exposure to a wide range of planning and development projects.\n\nYour responsibilities will include:\n- Assisting with planning appraisals for land, buildings and development proposals\n- Undertaking planning policy research and site assessments\n- Supporting the preparation and submission of planning applications\n- Assisting with pre-application enquiries and planning appeals\n- Preparing planning statements and other supporting documentation\n- Researching local planning policy and planning legislation\n- Assisting with development management projects\n- Liaising with local planning authorities, consultants and other stakeholders\n- Attending site visits, client meetings and planning meetings\n- Preparing reports and planning advice\n- Supporting senior planners with project delivery\n- Developing your understanding of the UK planning system\n- Working towards taking responsibility for your own projects as your experience develops\n\nYou'll receive regular support and mentoring from experienced planners, allowing you to develop your technical knowledge and build confidence within a professional consultancy environment.\n\nRequirements\n\nThe ideal candidate will have:\n- A degree in Town Planning, Urban Planning or a related discipline\n- Ideally an RTPI-accredited planning degree\n- A genuine interest in pursuing a career within Town Planning\n- A good understanding of the UK planning system\n- Strong written and verbal communication skills\n- Excellent attention to detail\n- Strong research and analytical abilities\n- Good organisational and time-management skills\n- A proactive approach and willingness to learn\n- The ability to work effectively as part of a team",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?b0ZSEQFKUCKVuuJg0n81fI%2f%2bWKLHZA5cl",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Penguin Recruitment",
+    "advertiser_type": "Agency",
+    "work_pattern": "Full Time",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
     "job_id": "nhs-5568712",
     "source": "NHS Jobs",
     "title": "Team Administrator",
@@ -390,7 +390,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9363-26-1021",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9363-26-1021",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5587657",
@@ -408,7 +412,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9418-26-0933",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9418-26-0933",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5577346",
@@ -426,6 +434,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2197-26-0003",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2197-26-0003",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]
