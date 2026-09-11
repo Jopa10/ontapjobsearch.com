@@ -31,6 +31,7 @@ type PageProps = {
 type ListingLink = {
   href: string;
   label: string;
+  mobileLabel: string;
 };
 
 // Keep published jobs pre-rendered while allowing removed URLs to reach the useful segment 404.\nexport const dynamicParams = true;
@@ -74,6 +75,7 @@ function ListingLinks({
         <Link
           key={link.href}
           href={link.href}
+          aria-label={link.label}
           className={`${styles.listingLink} ${
             index === 1 ? styles.secondaryListingLink : ""
           }`}
@@ -86,7 +88,10 @@ function ListingLinks({
             textDecoration: "none",
           }}
         >
-          <span>{link.label}</span>
+          <span className={styles.desktopListingLabel}>{link.label}</span>
+          <span className={styles.mobileListingLabel} aria-hidden="true">
+            {link.mobileLabel}
+          </span>
           <span aria-hidden="true">→</span>
         </Link>
       ))}
@@ -124,12 +129,28 @@ export default async function JobPage({ params }: PageProps) {
   const cityJobsLabel = cityPage
     ? moreJobsLabel(cityPage.definition.listingLabel)
     : "";
-  const discoveryFallback: ListingLink = { href: job.slice_path, label: regionalJobsLabel };
+  const discoveryFallback: ListingLink = {
+    href: job.slice_path,
+    label: regionalJobsLabel,
+    mobileLabel: `More ${job.region} jobs`,
+  };
   const primaryListing: ListingLink = cityPage
-    ? { href: cityPage.definition.route, label: cityJobsLabel }
-    : { href: job.slice_path, label: regionalJobsLabel };
+    ? {
+        href: cityPage.definition.route,
+        label: cityJobsLabel,
+        mobileLabel: `More ${cityPage.definition.displayName} jobs`,
+      }
+    : {
+        href: job.slice_path,
+        label: regionalJobsLabel,
+        mobileLabel: `More ${job.region} jobs`,
+      };
   const secondaryListing: ListingLink | undefined = cityPage
-    ? { href: job.slice_path, label: regionalJobsLabel }
+    ? {
+        href: job.slice_path,
+        label: regionalJobsLabel,
+        mobileLabel: `More ${job.region} jobs`,
+      }
     : undefined;
 
   return (

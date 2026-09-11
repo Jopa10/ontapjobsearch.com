@@ -40,6 +40,18 @@ test("mobile job pages hide only the secondary regional listing link", () => {
   );
 });
 
+test("mobile job-page onward links use compact single-line wording", () => {
+  assert.match(jobPage, /mobileLabel: `More \$\{job\.region\} jobs`/);
+  assert.match(jobPage, /mobileLabel: `More \$\{cityPage\.definition\.displayName\} jobs`/);
+  assert.match(jobPage, /aria-label=\{link\.label\}/);
+  assert.match(jobPage, /styles\.desktopListingLabel/);
+  assert.match(jobPage, /styles\.mobileListingLabel/);
+  assert.match(
+    jobPageStyles,
+    /@media \(max-width: 640px\)[\s\S]*?\.desktopListingLabel\s*\{\s*display: none;[\s\S]*?\.mobileListingLabel\s*\{[\s\S]*?white-space: nowrap;/
+  );
+});
+
 test("saved-location count and onward link use the same 15-mile search", () => {
   assert.match(savedLocationJobs, /searchPath: `\/jobs\/search\?near=/);
   assert.match(savedLocationJobs, /href=\{`\/jobs\/search\?near=/);

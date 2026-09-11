@@ -6,6 +6,12 @@
 
 .listingLink {
   display: inline-flex;
+  min-width: 0;
+  max-width: 100%;
+}
+
+.mobileListingLabel {
+  display: none;
 }
 
 .contentGrid {
@@ -106,6 +112,17 @@
 
   .secondaryListingLink {
     display: none;
+  }
+
+  .desktopListingLabel {
+    display: none;
+  }
+
+  .mobileListingLabel {
+    display: inline;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
   }
 
   .expiredPage { padding: 12px; }

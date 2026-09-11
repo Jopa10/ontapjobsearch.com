@@ -1,11 +1,13 @@
 # Ontap System Overview
 
-**Last updated:** 10 September 2026
+**Last updated:** 11 September 2026
 **Status:** Canonical production state including approved job-detail discovery recommendations, an idempotent external fallback for the JobG8 daily process, restored NHS Google Jobs eligibility, owner-facing JobG8 selection auditing, live-site reporting reconciliation and Teaching Vacancies regional publish isolation.
 
 This is the short owner view of how Ontap is organised. It mirrors the five canonical system buckets in `SYSTEM_MAP.md`.
 
 ## Recent canonical changes
+
+- 11 September 2026 — **The onward-jobs link is shorter on phones:** individual job pages show `More [city or region] jobs` on one line at mobile widths. Desktop keeps the fuller role-and-region description, and the destination is unchanged.
 
 - 10 September 2026 — **Visitors can save a nearby-job location on mobile or laptop:** pressing `Use my location` triggers the browser's permission prompt; Ontap uses the submitted coordinates transiently to choose the nearest approved town and find jobs within 15 straight-line miles. Only that town and region are remembered in the browser for future visits, with Change and Clear controls and a manual town fallback. The panel appears on the homepage, Browse Jobs, regional/city listings and live/expired job pages. On a job page it personalises the existing governed suitable-job recommendations without changing Apply or `Tap to search other jobs`.
 

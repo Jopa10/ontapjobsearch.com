@@ -1,11 +1,13 @@
 # Ontap System Map
 
-**Last updated:** 10 September 2026
+**Last updated:** 11 September 2026
 **Status:** Canonical production architecture including governed job-detail discovery recommendations, an idempotent external fallback for the twice-daily JobG8 process, restored NHS Google Jobs eligibility, owner-facing JobG8 selection auditing, live-site reporting reconciliation and Teaching Vacancies regional publish isolation.
 
 This is the authoritative technical map of the persistent Ontap system. It is organised into five canonical buckets. Facts not verified from the repository are marked `UNKNOWN / NEEDS AUDIT` rather than inferred from chat history.
 
 ## Recent canonical changes
+
+- 11 September 2026 — **Mobile job-page onward links use concise place wording:** below 640 px the primary link now displays `More [city or region] jobs` on one line, while desktop retains the full role-and-region wording. The link destination and full accessible label are unchanged, and the secondary regional link remains desktop-only.
 
 - 10 September 2026 — **Saved-location job discovery is available across core landing, city, regional and individual job pages:** the user must explicitly press `Use my location` before the browser asks for geolocation permission. Exact coordinates are sent only in a JSON POST to `/api/jobs/nearby` to resolve the nearest approved canonical town and current jobs within 15 straight-line miles; coordinates are not placed in URLs, analytics or browser storage. Only the matched town and region are retained in `localStorage`, restored on later visits, and removable with `Clear`. A manual town fallback is offered after refusal or failure. The saved-location strip remains separate from each vacancy's governed `Suitable jobs nearby` panel, which always stays anchored on the vacancy itself. Apply and the existing `Tap to search other jobs` control remain unchanged. Zero-result location searches remain explicitly at zero, but replace the generic national fallback with a governed 15-mile nearby search where current jobs exist, followed by the matched Ontap region if the user needs to widen again.
 
