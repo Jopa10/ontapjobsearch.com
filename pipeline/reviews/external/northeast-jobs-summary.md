@@ -1,7 +1,7 @@
 # North East Jobs ETL proof-of-concept review
 
-review_date: 2026-09-10
-review_fingerprint: 29d2e6c743d21c6233f31c2bd26fe89c39954b9c79c879f076b43e32af745db9
+review_date: 2026-09-11
+review_fingerprint: 907a7c81aa363470dab0eab477562b11486e9282705ac00f4f6bf74b7132a347
 
 Edit only the `action:` line in each editable block:
 
@@ -11,19 +11,19 @@ Edit only the `action:` line in each editable block:
 - Commit the edit; the review workflow will remember the decision.
 - Decisions are carried forward only while the same vacancy review facts remain unchanged.
 
-Run generated: 2026-09-10T12:18:32+01:00
+Run generated: 2026-09-11T12:18:18+01:00
 RSS input: https://www.northeastjobs.org.uk/RSSJobs.aspx?orgid=62
-JobG8 comparison rows in target geographies: 255
+JobG8 comparison rows in target geographies: 261
 
 ## Funnel
 
-- RSS vacancies read: 717
-- Hard-pass title/teaser screen before detail requests: 666
-- Detail candidates: 51
+- RSS vacancies read: 714
+- Hard-pass title/teaser screen before detail requests: 664
+- Detail candidates: 50
 - Detail failures or unavailable snapshots: 0
-- Outside the two target geographies: 6
-- Tees Valley explicitly excluded: 12
-- Target-geography candidates reviewed: 33
+- Outside the two target geographies: 7
+- Tees Valley explicitly excluded: 11
+- Target-geography candidates reviewed: 32
 
 ## Detail diagnostics
 
@@ -31,21 +31,30 @@ JobG8 comparison rows in target geographies: 255
 
 ## Review outcomes
 
-- HC: 14
-- POSS: 18
+- HC: 15
+- POSS: 16
 - Hard pass: 1
-- Final selected after remembered/manual actions: 17
+- Final selected after remembered/manual actions: 18
 - Final POSS awaiting decision: 9
-- Manually excluded: 6
+- Manually excluded: 4
 - Confirmed JobG8 duplicates: 0
 - Possible JobG8 duplicates: 1
-- Likely unique to North East Jobs: 32
+- Likely unique to North East Jobs: 31
 - Rows in possible within-source duplicate groups: 0
 
-- Manual review warning: manual review date 2026-09-09 is not 2026-09-10; old actions ignored
+- Manual review warning: manual review date 2026-09-10 is not 2026-09-11; old actions ignored
 
 ## SELECTED
 
+---
+action:
+SELECTED | North East - County Durham & Darlington/Hartlepool | Education Development Centre, Spennymoor | Grade 5 £27,274 - £29,542 | Admin Assistant
+employer: Durham County Council
+closing_date: 27/09/2026
+reason: clear transferable title: admin assistant
+source_job_id: 301820
+source_url: https://www.northeastjobs.org.uk/job/Admin_Assistant/301820
+---
 ---
 action:
 SELECTED | North East - County Durham & Darlington/Hartlepool | Age UK County Durham (derived for filtering) | £24,454 per annum, pro rata (£14,870.70) + pension contribution generous holidays | Administrator
@@ -220,15 +229,6 @@ source_job_id: 301079
 source_url: https://www.northeastjobs.org.uk/job/Active_Sunderland_Weight_Management_Support_Officer/301079
 ---
 ---
-action: exclude
-POSS | North East - Tyneside, Wearside & Northumberland | Gateshead | £30,515 - £33,119 | Annual Review Officer (SEND)
-employer: Gateshead Council
-closing_date: 10/09/2026
-reason: transferable office/service title with specialist or borderline wording: send
-source_job_id: 301235
-source_url: https://www.northeastjobs.org.uk/job/Annual_Review_Officer_SEND/301235
----
----
 action:
 POSS | North East - Tyneside, Wearside & Northumberland | Housing Options and Homelessness Service | £34,811 pa | Armed Forces Support Officer
 employer: South Tyneside Council
@@ -308,15 +308,6 @@ closing_date: 21/09/2026 22:59
 reason: transferable office/service title with specialist or borderline wording: housing
 source_job_id: 300255
 source_url: https://www.northeastjobs.org.uk/job/Housing_Support_Officer/300255
----
----
-action: exclude
-POSS | North East - Tyneside, Wearside & Northumberland | Adult Social Care, Support Coordination Team, Town Hall and Civic Offices | £33,699 pa | Senior Support Coordinator
-employer: South Tyneside Council
-closing_date: 11/09/2026 12:00
-reason: transferable office/service title with specialist or borderline wording: senior
-source_job_id: 301056
-source_url: https://www.northeastjobs.org.uk/job/Senior_Support_Coordinator/301056
 ---
 ---
 action: select
