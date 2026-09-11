@@ -93,7 +93,11 @@
     "legal_family_reason": "approved Legal family title",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": ""
+    "posted_date_basis": "",
+    "at_a_glance_attributes": [
+      "Customer enquiries",
+      "Scheduling and bookings"
+    ]
   },
   {
     "job_id": "1733207",
@@ -165,7 +169,11 @@
     "legal_family_reason": "approved Legal family title",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": ""
+    "posted_date_basis": "",
+    "at_a_glance_attributes": [
+      "Email handling",
+      "Scheduling and bookings"
+    ]
   },
   {
     "job_id": "23643_225563009",
@@ -189,7 +197,11 @@
     "legal_family_reason": "approved Legal family title",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": ""
+    "posted_date_basis": "",
+    "at_a_glance_attributes": [
+      "Customer enquiries",
+      "Reporting"
+    ]
   },
   {
     "job_id": "1847541",
@@ -213,7 +225,11 @@
     "legal_family_reason": "approved Legal family title",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": ""
+    "posted_date_basis": "",
+    "at_a_glance_attributes": [
+      "Customer enquiries",
+      "Reporting"
+    ]
   },
   {
     "job_id": "1883894",
@@ -381,7 +397,11 @@
     "legal_family_reason": "approved Legal family title",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": ""
+    "posted_date_basis": "",
+    "at_a_glance_attributes": [
+      "Scheduling and bookings",
+      "Document preparation"
+    ]
   },
   {
     "job_id": "23643_225550892",
@@ -549,7 +569,11 @@
     "legal_family_reason": "approved Legal family title",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": ""
+    "posted_date_basis": "",
+    "at_a_glance_attributes": [
+      "Scheduling and bookings",
+      "Filing and document handling"
+    ]
   },
   {
     "job_id": "1877900",
@@ -717,7 +741,11 @@
     "legal_family_reason": "approved Legal family title",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": ""
+    "posted_date_basis": "",
+    "at_a_glance_attributes": [
+      "Scheduling and bookings",
+      "Records administration"
+    ]
   },
   {
     "job_id": "1833715",

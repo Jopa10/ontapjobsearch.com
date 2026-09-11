@@ -21,7 +21,12 @@
     "hr_recruitment_family_reason": "advert confirms substantive HR / Recruitment delivery",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": ""
+    "posted_date_basis": "",
+    "at_a_glance_attributes": [
+      "Pre-employment administration",
+      "Starters and leavers",
+      "Payroll administration"
+    ]
   },
   {
     "job_id": "1843232",
@@ -45,7 +50,12 @@
     "hr_recruitment_family_reason": "approved HR / Recruitment support title",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": ""
+    "posted_date_basis": "",
+    "at_a_glance_attributes": [
+      "Scheduling and bookings",
+      "Records administration",
+      "Payroll administration"
+    ]
   },
   {
     "job_id": "23643_225538102",
@@ -189,7 +199,12 @@
     "hr_recruitment_family_reason": "approved HR / Recruitment support title",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": ""
+    "posted_date_basis": "",
+    "at_a_glance_attributes": [
+      "Records administration",
+      "Data entry",
+      "Payroll administration"
+    ]
   },
   {
     "job_id": "1855692",
@@ -261,7 +276,12 @@
     "hr_recruitment_family_reason": "approved HR / Recruitment support title",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": ""
+    "posted_date_basis": "",
+    "at_a_glance_attributes": [
+      "Telephone handling",
+      "Scheduling and bookings",
+      "Payroll administration"
+    ]
   },
   {
     "job_id": "1859082",
@@ -381,7 +401,11 @@
     "hr_recruitment_family_reason": "approved HR / Recruitment support title",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": ""
+    "posted_date_basis": "",
+    "at_a_glance_attributes": [
+      "Records administration",
+      "Document preparation"
+    ]
   },
   {
     "job_id": "1772192",
@@ -453,7 +477,11 @@
     "hr_recruitment_family_reason": "advert confirms substantive HR / Recruitment delivery",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": ""
+    "posted_date_basis": "",
+    "at_a_glance_attributes": [
+      "Records administration",
+      "Pre-employment administration"
+    ]
   },
   {
     "job_id": "1857546",
@@ -597,7 +625,11 @@
     "hr_recruitment_family_reason": "description-led advert confirms HR / Recruitment support delivery",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": ""
+    "posted_date_basis": "",
+    "at_a_glance_attributes": [
+      "Reporting",
+      "Payroll administration"
+    ]
   },
   {
     "job_id": "1768718",
@@ -813,7 +845,11 @@
     "hr_recruitment_family_reason": "advert confirms recruitment sourcing/coordination delivery",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": ""
+    "posted_date_basis": "",
+    "at_a_glance_attributes": [
+      "Records administration",
+      "Starters and leavers"
+    ]
   },
   {
     "job_id": "1873546",
@@ -837,6 +873,11 @@
     "hr_recruitment_family_reason": "approved HR / Recruitment support title",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": ""
+    "posted_date_basis": "",
+    "at_a_glance_attributes": [
+      "Scheduling and bookings",
+      "Records administration",
+      "Starters and leavers"
+    ]
   }
 ]
