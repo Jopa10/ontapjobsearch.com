@@ -2,15 +2,39 @@
 
 review_date: 2026-09-11
 
-- Open Administrative & Clerical rows reviewed: 2013
+- Open Administrative & Clerical rows reviewed: 2014
 - Auto/remembered selected: 381
 - Selected HC Tier A: 194
 - Selected HC Tier B: 187
-- POSS awaiting decision: 1475
+- POSS awaiting decision: 1476
 - Excluded: 0
 - HARD_PASS: 157
 
 Edit only each `action:` line for POSS rows. Unchanged decisions are restored by the shared decision ledger.
+
+---
+action:
+POSS | NHS Jobs | London | Sutton, SM2 5PT | £63665.00 to £70887.00 | Clinical Research Ops Manager – Radiology Research & AI Imaging Hub
+source_job_id: 5590678
+title: Clinical Research Ops Manager – Radiology Research & AI Imaging Hub
+employer: The Royal Marsden NHS Foundation Trust
+region: London
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9282-26-0797
+factual_fingerprint: 598abb68589c3b8ce829a2279df1ef92c7e1fa6ecb3be2615c36f9f91c8dd3da
+---
+
+---
+action:
+POSS | NHS Jobs | London | Kingston Upon Thames, KT2 7PX, KINGSTON UPON THAMES, KT1 2UJ | £12.71 | Reception / Admin
+source_job_id: 5593367
+title: Reception / Admin
+employer: Fairhill Medical Practice
+region: London
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A1443-26-0008
+factual_fingerprint: eed54c2db1ef19a716bce6223ced077151ffdf7ca4f50c99a1b1eaf79bac8338
+---
 
 ---
 action:
@@ -2865,7 +2889,7 @@ employer: East Suffolk and North Essex NHS Foundation Trust
 region: Suffolk
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9432-26-0685
-factual_fingerprint: 5d335f81146f4515b2b8dede77512e75ca1e5448a50bdf3385a60a6ffa699e6c
+factual_fingerprint: 6534e6dde6e0db4fd715da572c39cc57562bd730c265227d40c15b953ef5db79
 ---
 
 ---
@@ -4342,18 +4366,6 @@ region:
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9317-26-0727
 factual_fingerprint: 30981d68de15ce7fbc11da2254f4f8778dd8c2296979a9f8bcadc011faacfa27
----
-
----
-action:
-POSS | NHS Jobs | Cambridgeshire | Peterborough, PE39GZ | £25760.00 to £27476.00 | Research Administrator - Peterborough
-source_job_id: 5587433
-title: Research Administrator - Peterborough
-employer: North West Anglia NHS Foundation Trust
-region: Cambridgeshire
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9176-26-0477
-factual_fingerprint: 5548696fb165312ef9d02ac0fa47c5c9cb98c2b1dc930ef9d9bd0b9a3222d924
 ---
 
 ---
