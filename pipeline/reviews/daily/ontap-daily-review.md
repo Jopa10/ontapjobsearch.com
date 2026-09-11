@@ -32,7 +32,7 @@ Edit only each `action:` line:
 ## JobG8 — 10 to review
 
 ---
-action:
+action: exclude
 POSS | JobG8 | Bedfordshire | Bedfordshire | £35000 per year | Product Coordinator
 source_key: jobg8
 source: JobG8
@@ -50,7 +50,7 @@ hub_fingerprint: 521ac84485b1ab15e594db1ef4c5858214bf605788440cd93f218737ed5b289
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | Hampshire | Hampshire | £60000 per year | Financial Planner
 source_key: jobg8
 source: JobG8
@@ -68,7 +68,7 @@ hub_fingerprint: 65954cd3bb2c7081f0bc718cb80075cc9e705e046420467f63352c2642e2a5d
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | Kent | Kent | £181 per daily | Asset Management Administrator
 source_key: jobg8
 source: JobG8
@@ -86,7 +86,7 @@ hub_fingerprint: e8a55deb37c802a05c3fea76b4e4f2ce6d833510c22772691832313991dcc42
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | London | London | £22.80 per hour | Grants and Operations Coordinator
 source_key: jobg8
 source: JobG8
@@ -104,7 +104,7 @@ hub_fingerprint: ee6abb295bf8d2b56dc6c8e3920fdc1cd8ea301b06a213a52328238c3148520
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Norfolk | Norfolk | £30000 - £35000 per year | Finance Assistant
 source_key: jobg8
 source: JobG8
@@ -122,7 +122,7 @@ hub_fingerprint: ebf2fe087537376f4a5d94ee4fdc34e19ada19930bf5d8af484998a0cff945a
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Norfolk | Norfolk | £28000 - £32000 per year | Finance Assistant
 source_key: jobg8
 source: JobG8
@@ -140,7 +140,7 @@ hub_fingerprint: 4906d82a79969a07c6c3a5a4709eace1ac4f69eb13b952bb7df7c17ef8454d3
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Northern Ireland - East | Belfast | £27609.15 - £31000.47 per year | Tenancy Support Co-Ordinator
 source_key: jobg8
 source: JobG8
@@ -158,7 +158,7 @@ hub_fingerprint: 6b240600cc600b037849f56424309afd25cf60c3be7031ecf2c2c74383c7c10
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Northern Ireland - East | Newtownabbey | £15 - £16 per hour | HR Administrator (Temp)
 source_key: jobg8
 source: JobG8
@@ -176,7 +176,7 @@ hub_fingerprint: b64d3135be0c4c469376ec622a3864b49c064642d2bf45b697346c5a8fca809
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Scotland Central - Tayside | Kirriemuir | £35000 per year | Sales Coordinator (Agricultural)
 source_key: jobg8
 source: JobG8
@@ -194,7 +194,7 @@ hub_fingerprint: 93f048efdf17c2a47e50ae895c8569486ce4766aaa392705abd7ba8ddd5dc12
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Yorkshire - North | York | £20 per hour | Executive Assistant
 source_key: jobg8
 source: JobG8
