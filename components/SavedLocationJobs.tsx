@@ -62,7 +62,7 @@ export default function SavedLocationJobs({ jobId }: { jobId?: string }) {
           jobId,
           location: data.location,
           jobs: data.suitableJobs,
-          searchPath: `/jobs/search?location=${encodeURIComponent(data.location.town)}`,
+          searchPath: `/jobs/search?near=${encodeURIComponent(data.location.town)}`,
         },
       }));
     } catch (error) {
@@ -137,7 +137,7 @@ export default function SavedLocationJobs({ jobId }: { jobId?: string }) {
       <div className={styles.actions}>
         {saved ? (
           <>
-            <Link href={`/jobs/search?location=${encodeURIComponent(saved.town)}`} className={styles.primary}>View nearby jobs</Link>
+            <Link href={`/jobs/search?near=${encodeURIComponent(saved.town)}`} className={styles.primary}>View nearby jobs</Link>
             <button type="button" className={styles.textButton} onClick={() => setShowManual(true)}>Change location</button>
             <button type="button" className={styles.textButton} onClick={clearLocation}>Clear</button>
           </>

@@ -389,7 +389,7 @@ Purpose: user-facing job search, job pages, navigation and presentation.
 
 Saved-location discovery is progressive enhancement and does not alter server-rendered inventory, canonical URLs, sitemap inclusion or indexing. `components/SavedLocationJobs.tsx` owns browser permission, manual fallback and the town/region-only preference; `app/api/jobs/nearby/route.ts` resolves a submitted coordinate or town against the approved canonical location register; and `lib/discovery-recommendations.ts` remains the governed role/sector matcher. Exact device coordinates are transient request data only.
 
-Zero-result searches do not inject unrelated vacancies into the result count. When a searched location resolves through the approved canonical register, `/jobs/search` offers a separate `near` search containing current jobs within 15 straight-line miles; the next fallback is that canonical location's Ontap region. If neither resolution is available, the existing role-and-region Browse Jobs route remains the safe fallback.
+Zero-result searches do not inject unrelated vacancies into the result count. The saved-location panel's `View nearby jobs` action and its displayed count both use the same `near` search. When a searched location resolves through the approved canonical register, `/jobs/search` offers that separate search containing current jobs within 15 straight-line miles; the next fallback is that canonical location's Ontap region. If neither resolution is available, the existing role-and-region Browse Jobs route remains the safe fallback.
 
 
 Verified structure:

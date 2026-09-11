@@ -7,6 +7,7 @@ const styles = readFileSync("components/JobPageSearch.module.css", "utf8");
 const header = readFileSync("components/Header.tsx", "utf8");
 const jobPage = readFileSync("app/jobs/[id]/page.tsx", "utf8");
 const jobPageStyles = readFileSync("app/jobs/[id]/job-page.module.css", "utf8");
+const savedLocationJobs = readFileSync("components/SavedLocationJobs.tsx", "utf8");
 
 test("job-page search submits both governed search fields", () => {
   assert.match(component, /action="\/jobs\/search"/);
@@ -35,4 +36,10 @@ test("mobile job pages hide only the secondary regional listing link", () => {
     jobPageStyles,
     /@media \(max-width: 640px\)[\s\S]*?\.secondaryListingLink\s*\{\s*display: none;/
   );
+});
+
+test("saved-location count and onward link use the same 15-mile search", () => {
+  assert.match(savedLocationJobs, /searchPath: `\/jobs\/search\?near=/);
+  assert.match(savedLocationJobs, /href=\{`\/jobs\/search\?near=/);
+  assert.doesNotMatch(savedLocationJobs, /href=\{`\/jobs\/search\?location=\$\{encodeURIComponent\(saved\.town\)\}/);
 });
