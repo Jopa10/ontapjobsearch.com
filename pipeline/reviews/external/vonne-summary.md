@@ -1,7 +1,7 @@
 # VONNE ETL proof-of-concept review
 
-review_date: 2026-09-10
-review_fingerprint: 05d9ae8b894555be5716d7ec7a6ca64ce8b1f8df76443d55f29a4a3a20c3c289
+review_date: 2026-09-11
+review_fingerprint: a4355941da9a48533001270ceeb3190851522c9daaea0bd9458cb8725848e772
 
 This implementation is review-only. It has no approved-JSON or publishing mode.
 
@@ -10,9 +10,9 @@ Edit only the `action:` line in editable blocks:
 - `action: exclude` rejects a POSS vacancy or removes an HC vacancy.
 - Actions are remembered while the same vacancy review facts remain unchanged; this review still does not publish anything.
 
-Run generated: 2026-09-10T12:42:15+01:00
+Run generated: 2026-09-11T12:42:17+01:00
 Listing input: https://www.vonne.org.uk/vonne-jobs
-JobG8 comparison rows: 255
+JobG8 comparison rows: 261
 Approved NEJobs comparison rows: 13
 
 ## Funnel
@@ -28,9 +28,9 @@ Approved NEJobs comparison rows: 13
 
 ## Outcomes
 - HC: 0
-- POSS: 8
-- HARD_PASS: 5
-- Final selected after remembered/manual actions: 2
+- POSS: 7
+- HARD_PASS: 6
+- Final selected after remembered/manual actions: 1
 - Final POSS awaiting decision: 3
 - Manually excluded: 3
 ## Detail diagnostics
@@ -133,25 +133,13 @@ vacancy_fingerprint: 8a7ab286013372c433a61a3c5bcaad36cea77bc6812442d255b413a5866
 source_job_id: 173310
 source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173310
 ---
----
-action: select
-POSS | North East - Tyneside, Wearside & Northumberland | Northumberland | £30,075 Per Annum | Womens Specialist ISC Coach
-employer: Changing Lives
-closing_date: 16 September 2026
-geography: CONFIRMED — location: approved location fallback
-reason: annualised upper salary £30,075 exceeds North East review point £30,000
-source: VONNE
-tracking_key: vonne-173392
-vacancy_fingerprint: 2ac04f9f1b86a7905bf4d7895c084339bc6730bbe03f168a8617ef240daa2e23
-source_job_id: 173392
-source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173392
----
 ## EXCLUDED BY REVIEW
 
 - None.
 
 ## HARD_PASS
 
+- [Administration Officer](https://www.vonne.org.uk/vonne-jobs-details?cid=173413) — insufficient service-admin evidence.
 - [Marketing and Communications Officer](https://www.vonne.org.uk/vonne-jobs-details?cid=173409) — insufficient service-admin evidence.
 - [Right Turn Case Worker](https://www.vonne.org.uk/vonne-jobs-details?cid=173406) — out-of-scope VONNE occupation.
 - [Safe Accommodation Support Worker](https://www.vonne.org.uk/vonne-jobs-details?cid=173405) — out-of-scope VONNE occupation.
