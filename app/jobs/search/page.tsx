@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import generatedJobs from '@/generated/published-jobs-search.json';
+import { getJobsNearApprovedLocation, resolveApprovedLocation } from '@/lib/discovery-recommendations';
 import { searchJobs } from '@/lib/job-search';
 import type { PublishedJob } from '@/lib/published-jobs';
 
@@ -47,6 +48,14 @@ function cleanSalary(value: string): string {
 
 function getJobPath(jobId: string): string {
   return `/jobs/${encodeURIComponent(jobId)}`;
+}
+
+function getSearchPath(values: { query?: string; location?: string; near?: string }): string {
+  const params = new URLSearchParams();
+  if (values.query) params.set('q', values.query);
+  if (values.location) params.set('location', values.location);
+  if (values.near) params.set('near', values.near);
+  return `/jobs/search?${params.toString()}`;
 }
 
 function normaliseToken(value: string): string {
@@ -331,11 +340,36 @@ export default async function Page({ searchParams }: { searchParams: SearchParam
   const params = await searchParams;
   const originalQuery = firstValue(params.q).trim();
   const originalLocation = firstValue(params.location).trim();
-  const searched = Boolean(originalQuery || originalLocation);
+  const nearbyLocation = firstValue(params.near).trim();
+  const searched = Boolean(originalQuery || originalLocation || nearbyLocation);
 
   const resolved = resolveSearchInputs(originalQuery, originalLocation);
-  const matches = searchJobs(jobs, resolved.searchQuery, resolved.searchLocation);
+  const nearbyOrigin = nearbyLocation ? resolveApprovedLocation(nearbyLocation) : undefined;
+  const isNearbySearch = Boolean(nearbyLocation && nearbyOrigin);
+  const nearbyJobs = isNearbySearch && nearbyOrigin
+    ? getJobsNearApprovedLocation(jobs, nearbyOrigin)
+    : [];
+  const matches = isNearbySearch
+    ? searchJobs(nearbyJobs, resolved.searchQuery, '')
+    : searchJobs(jobs, resolved.searchQuery, resolved.searchLocation);
   const visibleMatches = matches.slice(0, 60);
+
+  const fallbackOrigin = !matches.length && !isNearbySearch && resolved.formLocation
+    ? resolveApprovedLocation(resolved.formLocation)
+    : undefined;
+  const fallbackNearbyJobs = fallbackOrigin
+    ? searchJobs(getJobsNearApprovedLocation(jobs, fallbackOrigin), resolved.searchQuery, '')
+    : [];
+  const fallbackHref = fallbackNearbyJobs.length && fallbackOrigin
+    ? getSearchPath({ query: resolved.formQuery, near: fallbackOrigin.location })
+    : fallbackOrigin
+      ? getSearchPath({ query: resolved.formQuery, location: fallbackOrigin.region })
+      : '/browse-jobs';
+  const fallbackLabel = fallbackNearbyJobs.length && fallbackOrigin
+    ? `See jobs near ${fallbackOrigin.location}`
+    : fallbackOrigin
+      ? `See jobs across ${fallbackOrigin.region}`
+      : 'Browse jobs by role and region';
 
   const spellingCorrected = !resolved.reinterpreted && (
     resolved.formQuery !== originalQuery || resolved.formLocation !== originalLocation
@@ -354,12 +388,12 @@ export default async function Page({ searchParams }: { searchParams: SearchParam
       <div className="rounded-2xl border border-gray-200 bg-gray-50 p-5 sm:p-6">
         <h1 className="text-3xl font-bold tracking-tight text-gray-900">Search current jobs</h1>
         <p className="mt-2 max-w-3xl text-gray-600">
-          Search Ontap's current published jobs by role, keyword and location. No account required.
+          Search Ontap&apos;s current published jobs by role, keyword and location. No account required.
         </p>
       </div>
 
       <div className="sticky top-2 z-20 mt-3 rounded-xl border border-gray-200 bg-white/95 p-3 shadow-md backdrop-blur">
-        <SearchForm query={resolved.formQuery} location={resolved.formLocation} />
+        <SearchForm query={resolved.formQuery} location={nearbyLocation || resolved.formLocation} />
         {spellingCorrected ? (
           <p className="mt-2 px-1 text-sm text-gray-600">
             Spelling corrected to {[resolved.formQuery && `“${resolved.formQuery}”`, resolved.formLocation && `in ${resolved.formLocation}`].filter(Boolean).join(' ')}.
@@ -383,14 +417,18 @@ export default async function Page({ searchParams }: { searchParams: SearchParam
           <div className="mb-4 flex flex-wrap items-end justify-between gap-3">
             <div>
               <h2 className="text-2xl font-semibold tracking-tight text-gray-900">
-                {matches.length} matching job{matches.length === 1 ? '' : 's'}
+                {isNearbySearch
+                  ? `${matches.length} job${matches.length === 1 ? '' : 's'} near ${nearbyOrigin?.location}`
+                  : `${matches.length} matching job${matches.length === 1 ? '' : 's'}`}
               </h2>
               <p className="mt-1 text-sm text-gray-600">
-                {[resolved.formQuery && `“${resolved.formQuery}”`, resolved.formLocation && `in ${resolved.formLocation}`].filter(Boolean).join(' ')}
+                {isNearbySearch
+                  ? 'Current jobs within 15 straight-line miles'
+                  : [resolved.formQuery && `“${resolved.formQuery}”`, resolved.formLocation && `in ${resolved.formLocation}`].filter(Boolean).join(' ')}
               </p>
             </div>
-            <Link href="/browse-jobs" className="text-sm font-semibold text-blue-700 hover:text-blue-900">
-              Browse all job pages →
+            <Link href={matches.length ? '/browse-jobs' : fallbackHref} className="text-sm font-semibold text-blue-700 hover:text-blue-900">
+              {matches.length ? 'Browse all job pages' : fallbackLabel} →
             </Link>
           </div>
 
@@ -411,14 +449,30 @@ export default async function Page({ searchParams }: { searchParams: SearchParam
             <div className="rounded-xl border border-gray-200 bg-gray-50 p-8 text-center">
               <h2 className="text-xl font-semibold text-gray-900">No current matches found</h2>
               <p className="mt-2 text-gray-600">
-                Try a broader job title or location, or browse the current regional job pages.
+                {isNearbySearch && nearbyOrigin
+                  ? `There are no current jobs within 15 miles of ${nearbyOrigin.location}. Try the wider region instead.`
+                  : 'There are no current exact matches. You can widen the search without showing unrelated national jobs.'}
               </p>
               <Link
-                href="/browse-jobs"
+                href={isNearbySearch && nearbyOrigin
+                  ? getSearchPath({ query: resolved.formQuery, location: nearbyOrigin.region })
+                  : fallbackHref}
                 className="mt-5 inline-block rounded-lg bg-blue-600 px-5 py-2.5 font-semibold text-white hover:bg-blue-700"
               >
-                Browse jobs →
+                {isNearbySearch && nearbyOrigin
+                  ? `See jobs across ${nearbyOrigin.region}`
+                  : fallbackLabel} →
               </Link>
+              {!isNearbySearch && fallbackNearbyJobs.length && fallbackOrigin ? (
+                <div>
+                  <Link
+                    href={getSearchPath({ query: resolved.formQuery, location: fallbackOrigin.region })}
+                    className="mt-4 inline-block text-sm font-semibold text-blue-700 hover:text-blue-900"
+                  >
+                    See all jobs across {fallbackOrigin.region} →
+                  </Link>
+                </div>
+              ) : null}
             </div>
           )}
         </section>
