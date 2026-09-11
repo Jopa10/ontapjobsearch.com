@@ -1373,11 +1373,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Telephone handling",
-      "Data entry"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225559091",
@@ -1602,11 +1598,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Telephone handling",
-      "Data entry"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225550933",
@@ -1706,12 +1698,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Scheduling and bookings",
-      "Records administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1785990",
@@ -1836,13 +1823,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Email handling",
-      "Records administration",
-      "Pre-employment administration",
-      "Payroll administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225534483",
@@ -1867,12 +1848,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Scheduling and bookings",
-      "Records administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1880245",
@@ -1897,11 +1873,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Reporting"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225595303",
@@ -2174,6 +2146,28 @@
     "posted_date_basis": "source"
   },
   {
+    "job_id": "nhs-5593158",
+    "source": "NHS Jobs",
+    "title": "Medical Receptionist",
+    "company": "Parkway Medical Group",
+    "advertiser_name": "Parkway Medical Group",
+    "location": "Newcastle upon Tyne, NE5 1LJ",
+    "region": "North East",
+    "salary": "Negotiable",
+    "employment_type": "Permanent",
+    "posted_date": "2026-09-11T08:11:03.995988003",
+    "closing_date": "2026-09-18",
+    "description": "Medical Receptionist 15 hours per week Work pattern: Tuesday 9am - 5:30pm Friday 9am - 5:30pm We have a vacancy for a Medical Receptionist to join the existing reception team doing a variety of work in our busy GP practice. This is an essential and demanding role, providing a welcoming, friendly and professional service to patients, staff and visitors to the practice, either in person or via the telephone. They will provide a range of reception and administration duties, utilising SystmOne clinical system and Microsoft systems. Basic computer skills are essential. Experience in a similar role would be an advantage, however in-house training will be provided. If you would like the opportunity of an informal visit or you have any specific enquiries please contact Linda Varey Practice Manager via email: Linda.Varey@nhs.net You will work alongside Doctors, Advanced Nurse Practitioner, Pharmacist, Practice Nurses, Health Care Assistants, other administrative staff and the Newcastle Outer West Primary Care Network staff. Tasks will include dealing with patient queries both face to face and on the telephone, taking prescription requests, updating patient records, liaising with doctors on patient queries, reception work, telephone answering, booking patient appointments and general clerical duties. Main Duties: Maintaining a positive and consistent can do attitude, treating everyone with dignity and respect Dealing with patient requests either face to face, or on the telephone Booking, cancelling all types of appointments/consultations and home visits Directing enquiries to the appropriate people and understanding the callers expectations through effective questioning Handling difficult situations in a calm and professional manner Make appropriate hospital appointments where necessary Receiving and directing patients/visitor on arrival Answer any patient/hospital queries Processing mail Team player in multiskilling programme and all rotas Scanning, filing letters and records Preparation of consulting rooms and waiting room Flexibility in covering for sickness and holidays Producing and following protocols Communicate effectively with other team members Communicate effectively with patients and carers Recognise peoples needs for alternative methods of communication and respond accordingly. Keep accurate records Prescription duties, eg answering dedicated line, printing of prescription requests, collation and distribution. Aware of practice policies and keep self updated with change Responsible to carrying out duties directed by clinicians or management Keeping up to speed with changes implemented within the practice Attend relevant meetings Responsible for keeping training evaluation up to date Responsible for closing premises securely when required Produce your own annual personal development plan Responsibility toward Health and Safety at Work Act Following Infection Control Procedures Information Technology: Computer data entry and recording in accordance with practice procedures Scanning information into patients records from letters Liaising with NECS when problems arise with the computer Health & Safety: The post-holder will assist in promoting and maintaining their own and others health, safety and security as defined in the practice Health & Safety Policy, to include: Using personal security systems within the workplace according to practice guidelines Identifying the risks involved in work activities and undertaking such activities in a way that manages those risks Using appropriate infection control procedures, maintaining work areas in a tidy and safe way and free from hazards Reporting potential risks identified. Personal Development: The post-holder will participate in any training programme implemented by the practice as part of this employment to include: Participation in an annual individual performance review, including taking responsibility for maintaining a record of own personal development Taking responsibility for own development, learning and performance and demonstrating skills and activities to others who are undertaking similar work. Attend and participate in practice meetings as required Quality: The post-holder will strive to maintain quality within the practice, and will: Alert other team members to issues of quality and risk Assess own performance and take accountability for own actions, either directly or under supervision Contribute to the effectiveness of the team by reflecting on own and team activities and making suggestions on ways to improve and enhance the teams performance Work effectively with individuals in other agencies to meet patients needs Effectively manage own time, workload and resources Staff uniform: A staff uniform is provided by the practice. You are required to wear this uniform at all times including any time out training session or training sessions organised by the practice off site.",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2356-26-0008",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2356-26-0008",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
+  },
+  {
     "job_id": "nhs-5591916",
     "source": "NHS Jobs",
     "title": "Clinical Team Administrator",
@@ -2320,28 +2314,6 @@
     "description": "The Medical Group are currently seeking an experienced receptionist to work at Meadowfield Surgery. The position is full-time on a 1 year fixed term contract. Receive, assist and care navigate patients to accessing the appropriate service or health care professional in a courteous, efficient and effective way. Provide assistance to the Practice Team and project a friendly and positive image to patients and other visitors, either in person or via the telephone. Open the premises at the start of the day when first to arrive, de-activate alarm and make all necessary preparations to receive patients. When last to leave at the end of the day, ensure that the building is totally secured, internal lights are off, and the alarm is activated following the locking up checklist. Care Navigation signpost patients to the most appropriate service Ensure all new patients are registered onto the computer system promptly and accurately, ensuring they are within the Practice boundary. Explain Practice arrangements and formal requirements to new patients and those seeking temporary cover and ensure procedures are completed. Deal with all general enquiries, explain procedures and make new and follow-up appointments. Chaperone patients as and when required. Action medication queries, repeat prescriptions, online repeat prescription requests in a prompt manner. Liaise with patients and pharmacies to resolve issues with medication. Receive SystmOne training, the Practices computer system, and fully utilise the system. Enter requests for home visits electronically on SystmOne, ensuring all relevant details are documented accurately. Open and scan daily post onto SystmOne, allocating to the relevant clinician. Advise patients of relevant charges for private services (Non General Medical Services) and accept payment. Provide general support to clinicians, management team and other health professionals. Provide cover for colleagues in the event of sickness and shortage which may involve changing shift times/days and surgery base. Work extended hours service as required.",
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1466-26-0010",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1466-26-0010",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
-  },
-  {
-    "job_id": "nhs-5563197",
-    "source": "NHS Jobs",
-    "title": "Senior Administrator- Medical Secretary",
-    "company": "Tees Esk and Wear Valleys NHS Foundation Trust",
-    "advertiser_name": "Tees Esk and Wear Valleys NHS Foundation Trust",
-    "location": "Chester le Street, DH3 3UR",
-    "region": "North East",
-    "salary": "£28392.00 to £31157.00",
-    "employment_type": "Fixed-Term",
-    "posted_date": "2026-08-26T12:47:37.607898",
-    "closing_date": "2026-09-23",
-    "description": "An exciting opportunity has arisen for a 6 month - fixed term, Band 4, Senior Administrator- Medical Secretary to support our North Durham Adult Learning Disabilities team based at Chester Le Street Health Centre. Your role will consist of being responsible for ensuring the provision of a full secretarial service to consultants, junior medical staff, advanced practitioners, and other staff within the multi-disciplinary team. The postholder will undertake non routine activities which may be delegated by line manager, consultant staff or other members of the multi-disciplinary team. Due to the nature of the role, attendance in base is required and therefore remote working would not be suitable for this role. You must have the Right to Work in the UK in order to be successfully appointed to this role. Please note, this role does not meet the required eligibility criteria for sponsorship under the Skilled Worker visa and therefore the Trust is unable to offer sponsorship for this particular role. The successful postholder will resolve problems which may be received directly from service users, family or carers or referred by members of the administration team. To always interact compassionately with service users and carers. Service users have a range of mental health conditions or learning disabilities. The postholder will complete secretarial duties for medical team such as meeting minutes, diary co-ordination, setting up meetings and dictation typing. You will be the first point of contact for service users, family and carers dealing with a range of enquiries or concerns in person or over the telephone. This may involve arranging for an interpreter. You will provide a full range of personal assistant duties for medical staff including triaging of e-mails and post, administering annual leave and study leave applications, booking attendance at training events and conferences and liaising with designated staff to ensure accommodation and travel is booked as required. In addition to this, the postholder will be first point of contact for managers, general practitioners and other healthcare professionals within and external to the Trust, dealing with a range of enquiries, queries or concerns on behalf of consultants and medical team, to support them in communications with all groups or individuals involved in the service. You will cross cover team secretaries and medical secretaries' in their absence. Please refer to the attached job description and person specification for further detailed information to ensure that you meet the role criteria before applying. This job advert may close early if a high volume of applications have been received. If interested, please apply for this post as soon as possible.",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9346-26-1018",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9346-26-1018",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
     "advertiser_type": "",

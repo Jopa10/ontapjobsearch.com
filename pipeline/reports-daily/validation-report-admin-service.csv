@@ -1,7 +1,7 @@
 ﻿metric,value
 total rows input,10000
-total rows included,925
-total rows dropped,9062
+total rows included,931
+total rows dropped,9066
 title classification count - HIGH_CONFIDENCE,748
 title classification count - ELASTIC_FIT,422
 title classification count - REVIEW_CONTEXT_DEPENDENT,6
@@ -247,14 +247,14 @@ anchor elastic count - Merseyside - Liverpool,5
 other elastic count - Merseyside - Liverpool,0
 total rows output - Merseyside - Liverpool,11
 job_id included - Merseyside - Liverpool,23643_225524310; 1770092; 107947436; 23643_225558463; 23643_225575488; 1869533; 1766251; 23643_225428643; 1848342; 419438022493208576037340; 1830080
-selection scenario - Norfolk,SCENARIO_3_FULL_VALID_SELECTION
-selection message - Norfolk,"Norfolk selection complete: all 8 valid selected role(s) retained after HIGH_CONFIDENCE, Norwich ELASTIC_FIT and other ELASTIC_FIT ordering."
-credible total - Norfolk,8
+selection scenario - Norfolk,SCENARIO_3_MANUAL_SELECTION_APPLIED
+selection message - Norfolk,Norfolk manual_select applied additively: 2 row(s) prioritised; 10 selected.
+credible total - Norfolk,10
 high confidence count - Norfolk,6
 anchor elastic count - Norfolk,0
 other elastic count - Norfolk,2
-total rows output - Norfolk,8
-job_id included - Norfolk,23643_225525272; 23643_225533805; 107881724; 1767479; 1867104; 1877355; 23643_225513742; 107919491
+total rows output - Norfolk,10
+job_id included - Norfolk,1891535; 23643_225492293; 23643_225525272; 23643_225533805; 107881724; 1767479; 1867104; 1877355; 23643_225513742; 107919491
 selection scenario - North Scotland,SCENARIO_4_BELOW_PUBLISH_THRESHOLD
 selection message - North Scotland,North Scotland selection below publish threshold: 3/6 credible roles. Do not publish/refresh this slice from this run.
 credible total - North Scotland,3
@@ -272,13 +272,13 @@ other elastic count - Northamptonshire,5
 total rows output - Northamptonshire,17
 job_id included - Northamptonshire,107786406; 23643_225509666; 23643_225510923; 23643_225516355; 23643_225522869; 23643_225524164; 23643_225532541; 23643_225570045; 1853443; 1851038; 1875317; 1877500; 1800671; 107932522; 107792065; 1845227; 23643_225582470
 selection scenario - Northern Ireland - East,SCENARIO_3_MANUAL_SELECTION_APPLIED
-selection message - Northern Ireland - East,Northern Ireland - East manual_select applied additively: 2 row(s) prioritised; 53 selected.
-credible total - Northern Ireland - East,53
+selection message - Northern Ireland - East,Northern Ireland - East manual_select applied additively: 4 row(s) prioritised; 55 selected.
+credible total - Northern Ireland - East,55
 high confidence count - Northern Ireland - East,40
 anchor elastic count - Northern Ireland - East,9
 other elastic count - Northern Ireland - East,2
-total rows output - Northern Ireland - East,53
-job_id included - Northern Ireland - East,2050528; 2051637; 2051396; 2051461; 2051456; 2051447; 2051408; 2051377; 2051135; 2051110; 2050807; 2050773; 2050717; 2050694; 2050533; 2050346; 2050172; 2049936; 2049841; 2051912; 2051969; 2051960; 2052125; 2052109; 2052326; 2052284; 2052255; 2052434; 2052363; 2052362; 2051485; 2050348; 2049902; 2049906; 2052044; 2052021; 2051958; 2052082; 2052455; 2050089; 2051465; 2051979; 2050449; 2051713; 2051872; 2052007; 2052014; 2051938; 2052024; 2052132; 107949205; 2050393; 107922303
+total rows output - Northern Ireland - East,55
+job_id included - Northern Ireland - East,2050528; 2052364; 2051637; 2051396; 2051461; 2051456; 2051447; 2051408; 2051377; 2051135; 2051110; 2050807; 2050773; 2050717; 2050694; 2050533; 2050346; 2050172; 2049936; 2049841; 2051912; 2051969; 2051960; 2052125; 2052109; 2052326; 2052284; 2052255; 2052434; 2052363; 2052362; 2051485; 2050348; 2049902; 2049906; 2052044; 2052021; 2051958; 2052082; 2052455; 2052465; 2050089; 2051465; 2051979; 2050449; 2051713; 2051872; 2052007; 2052014; 2051938; 2052024; 2052132; 107949205; 2050393; 107922303
 selection scenario - Nottinghamshire,SCENARIO_3_MANUAL_SELECTION_APPLIED
 selection message - Nottinghamshire,Nottinghamshire manual_select applied additively: 4 row(s) prioritised; 17 selected.
 credible total - Nottinghamshire,17
@@ -303,14 +303,14 @@ anchor elastic count - Scotland Central - Edinburgh & Lothians,4
 other elastic count - Scotland Central - Edinburgh & Lothians,0
 total rows output - Scotland Central - Edinburgh & Lothians,12
 job_id included - Scotland Central - Edinburgh & Lothians,1789719; 23643_225546858; 23643_225563421; 23643_225573579; 23643_225574450; 23643_225575597; 1824876; 1885249; 23643_225542471; 23643_225563467; 1870055; 1878501
-selection scenario - Scotland Central - Tayside,SCENARIO_4_BELOW_PUBLISH_THRESHOLD
-selection message - Scotland Central - Tayside,Scotland Central - Tayside selection below publish threshold: 5/6 credible roles. Do not publish/refresh this slice from this run.
-credible total - Scotland Central - Tayside,5
+selection scenario - Scotland Central - Tayside,SCENARIO_3_MANUAL_SELECTION_APPLIED
+selection message - Scotland Central - Tayside,Scotland Central - Tayside manual_select applied additively: 3 row(s) prioritised; 6 selected.
+credible total - Scotland Central - Tayside,6
 high confidence count - Scotland Central - Tayside,2
 anchor elastic count - Scotland Central - Tayside,0
 other elastic count - Scotland Central - Tayside,1
-total rows output - Scotland Central - Tayside,5
-job_id included - Scotland Central - Tayside,23643_225590653; 23643_225556195; 107922956; 23643_225571115; 107857257
+total rows output - Scotland Central - Tayside,6
+job_id included - Scotland Central - Tayside,23643_225590653; 23643_225556195; 107922956; 107965670; 23643_225571115; 107857257
 selection scenario - Scotland West - Glasgow,SCENARIO_3_MANUAL_SELECTION_APPLIED
 selection message - Scotland West - Glasgow,Scotland West - Glasgow manual_select applied additively: 1 row(s) prioritised; 8 selected.
 credible total - Scotland West - Glasgow,8
@@ -408,10 +408,10 @@ other elastic count - Yorkshire - East,0
 total rows output - Yorkshire - East,12
 job_id included - Yorkshire - East,23643_225516073; 23643_225532268; 107894712; 1839877; 23643_225510748; 23643_225511107; 23643_225584896; 107902261; 23643_225499816; 23643_225499018; 23643_225527411; 23643_225569870
 selection scenario - Yorkshire - North,SCENARIO_3_MANUAL_SELECTION_APPLIED
-selection message - Yorkshire - North,Yorkshire - North manual_select applied additively: 2 row(s) prioritised; 11 selected.
-credible total - Yorkshire - North,11
+selection message - Yorkshire - North,Yorkshire - North manual_select applied additively: 3 row(s) prioritised; 12 selected.
+credible total - Yorkshire - North,12
 high confidence count - Yorkshire - North,3
 anchor elastic count - Yorkshire - North,3
 other elastic count - Yorkshire - North,3
-total rows output - Yorkshire - North,11
-job_id included - Yorkshire - North,23643_225543992; 107840612; 107804499; 23643_225555701; 23643_225581619; 23643_225544656; 23643_225592726; 1853654; 107871574; 107893393; 107893306
+total rows output - Yorkshire - North,12
+job_id included - Yorkshire - North,23643_225490386; 23643_225543992; 107840612; 107804499; 23643_225555701; 23643_225581619; 23643_225544656; 23643_225592726; 1853654; 107871574; 107893393; 107893306
