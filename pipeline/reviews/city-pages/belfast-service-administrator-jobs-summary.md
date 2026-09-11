@@ -4,7 +4,7 @@
 - Live route: `/belfast/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 40
+- Effective included jobs: 45
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 40
-- automatic review: 20
+- automatic include: 45
+- automatic review: 22
 - automatic exclude: 0
-- effective include: 40
-- effective review: 20
+- effective include: 45
+- effective review: 22
 - effective exclude: 0
 
-## INCLUDE (40)
+## INCLUDE (45)
 
 ---
 action: 
@@ -292,6 +292,18 @@ reason: Approved conservative Belfast launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: HR Administrator
+company: Reed Specialist Recruitment - Agency - Permanent
+location: Belfast
+source: JobG8
+job_id: jobg8-2052363
+reason: Approved conservative Belfast launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: IT Service Desk Team Leader (IT Support Team Leader)
 company: Queen's University Belfast - Agency - Permanent
 location: Belfast
@@ -328,11 +340,47 @@ reason: Approved conservative Belfast launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Part Time Receptionist
+company: The Royal Belfast Academical Institution - Agency - Permanent
+location: Belfast
+source: JobG8
+job_id: jobg8-2052434
+reason: Approved conservative Belfast launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Payroll Administrator
 company: Hays - Agency - Permanent
 location: Belfast
 source: JobG8
 job_id: jobg8-2052035
+reason: Approved conservative Belfast launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Personal Assistant
+company: Reed Specialist Recruitment - Agency - Permanent
+location: Belfast
+source: JobG8
+job_id: jobg8-2052362
+reason: Approved conservative Belfast launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Reception/Training Coordinator
+company: Reed Specialist Recruitment - Agency - Permanent
+location: Belfast
+source: JobG8
+job_id: jobg8-2052455
 reason: Approved conservative Belfast launch catchment.
 ---
 
@@ -504,7 +552,43 @@ job_id: jobg8-2051377
 reason: Approved conservative Belfast launch catchment.
 ---
 
-## REVIEW (20)
+---
+action: 
+decision: include
+automatic_decision: include
+title: Tenancy Support Co-Ordinator
+company: Clanmil Housing - Agency - Permanent
+location: Belfast
+source: JobG8
+job_id: jobg8-2052364
+reason: Approved conservative Belfast launch catchment.
+---
+
+## REVIEW (22)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Assistant
+company: Reed Specialist Recruitment - Agency - Permanent
+location: Newtownards
+source: JobG8
+job_id: jobg8-2050393
+reason: No approved Belfast catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Payable (Finance Administrator)
+company: Hays - Agency - Permanent
+location: County Down
+source: JobG8
+job_id: jobg8-2052344
+reason: No approved Belfast catchment rule matched; local review required.
+---
 
 ---
 action: 
@@ -642,11 +726,11 @@ reason: No approved Belfast catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Medical Receptionist (21.5 hrs pw)
-company: Lynda Jacobs Recruitment - Agency - Permanent
+title: HR Administrator (Temp)
+company: Honeycomb Jobs Ltd - Agency - Permanent
 location: Newtownabbey
 source: JobG8
-job_id: jobg8-2050449
+job_id: jobg8-2052465
 reason: No approved Belfast catchment rule matched; local review required.
 ---
 
@@ -654,11 +738,11 @@ reason: No approved Belfast catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Medical Receptionist/ Administrator (18.5 hrs pw)
+title: Medical Receptionist (21.5 hrs pw)
 company: Lynda Jacobs Recruitment - Agency - Permanent
 location: Newtownabbey
 source: JobG8
-job_id: jobg8-2052202
+job_id: jobg8-2050449
 reason: No approved Belfast catchment rule matched; local review required.
 ---
 

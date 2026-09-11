@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 5
-- automatic review: 21
+- automatic review: 20
 - automatic exclude: 0
 - effective include: 5
-- effective review: 21
+- effective review: 20
 - effective exclude: 0
 
 ## INCLUDE (5)
@@ -84,7 +84,7 @@ job_id: jobg8-23643_225566284
 reason: Exact approved Leicester workplace.
 ---
 
-## REVIEW (21)
+## REVIEW (20)
 
 ---
 action: 
@@ -150,35 +150,11 @@ reason: No exact Leicester workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Bank Imaging Administrator
-company: Spire Healthcare - Company - Permanent
-location: Leicestershire
-source: JobG8
-job_id: jobg8-23643_225492830
-reason: No exact Leicester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Casualty Claims Handler
 company: Adjusting Appointments Limited - Agency - Permanent
 location: Leicestershire
 source: JobG8
 job_id: jobg8-1785992
-reason: No exact Leicester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Commercial Services Coordinator
-company: TRC Yorkshire - Agency - Permanent
-location: Coalville
-source: JobG8
-job_id: jobg8-23643_225493612
 reason: No exact Leicester workplace matched; local geographic review is required.
 ---
 
@@ -203,6 +179,18 @@ company: Broom Leys Surgery
 location: COALVILLE, LE67 4DE
 source: NHS Jobs
 job_id: nhs-5581072
+reason: No exact Leicester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Medical Receptionist
+company: Staff Partners Business - Agency - Permanent
+location: Leicestershire
+source: JobG8
+job_id: jobg8-23643_225592444
 reason: No exact Leicester workplace matched; local geographic review is required.
 ---
 

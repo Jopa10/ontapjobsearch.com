@@ -4,7 +4,7 @@
 - Live route: `/basingstoke/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 5
+- Effective included jobs: 6
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 5
-- automatic review: 50
+- automatic include: 6
+- automatic review: 46
 - automatic exclude: 0
-- effective include: 5
-- effective review: 50
+- effective include: 6
+- effective review: 46
 - effective exclude: 0
 
-## INCLUDE (5)
+## INCLUDE (6)
 
 ---
 action: 
@@ -64,6 +64,18 @@ reason: Exact approved Basingstoke workplace.
 action: 
 decision: include
 automatic_decision: include
+title: Receptionist/Administrator
+company: Operose Health
+location: Basingstoke, RG22 4EH
+source: NHS Jobs
+job_id: nhs-5592877
+reason: Exact approved Basingstoke workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Sales Administrator
 company: Vanta Staffing Limited - Agency - Temporary
 location: Basingstoke
@@ -84,7 +96,7 @@ job_id: jobg8-23643_225587076
 reason: Exact approved Basingstoke workplace.
 ---
 
-## REVIEW (50)
+## REVIEW (46)
 
 ---
 action: 
@@ -138,23 +150,11 @@ reason: No exact Basingstoke workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Admin Assistant - Care Home
-company: Barchester Healthcare
-location: Fareham, PO14 2NF
-source: NHS Jobs
-job_id: nhs-5522934
-reason: No exact Basingstoke workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Administrator
-company: Hampshire Recruitment Group LTD - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-23643_225555162
+company: Inclusion
+location: Eastleigh, PO16 0NX
+source: NHS Jobs
+job_id: nhs-5586737
 reason: No exact Basingstoke workplace matched; local geographic review is required.
 ---
 
@@ -191,6 +191,18 @@ company: Practice Plus Group - Health in Justice
 location: Winchester, SO22 5DF
 source: NHS Jobs
 job_id: nhs-5590543
+reason: No exact Basingstoke workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: Rowner Medical Centre
+location: Gosport, PO13 9SP
+source: NHS Jobs
+job_id: nhs-5591061
 reason: No exact Basingstoke workplace matched; local geographic review is required.
 ---
 
@@ -330,18 +342,6 @@ reason: No exact Basingstoke workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Customer Service Coordinator
-company: Vistry Group - Company - Contract
-location: Hampshire
-source: JobG8
-job_id: jobg8-107892817
-reason: No exact Basingstoke workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Digital Customer Success Executive
 company: Focus Resourcing Group - Agency - Permanent
 location: Portsmouth
@@ -402,11 +402,11 @@ reason: No exact Basingstoke workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Housing Repairs Administrator
-company: Thorngate Churcher Trust - Agency - Permanent
-location: Gosport
+title: HR Administrator
+company: 4Recruitment Services - Agency - Contract
+location: Lyndhurst
 source: JobG8
-job_id: jobg8-23643_225537561
+job_id: jobg8-23643_225579893
 reason: No exact Basingstoke workplace matched; local geographic review is required.
 ---
 
@@ -415,10 +415,10 @@ action:
 decision: review
 automatic_decision: review
 title: HR Administrator
-company: 4Recruitment Services - Agency - Contract
+company: 4Recruitment Services - Agency - Permanent
 location: Lyndhurst
 source: JobG8
-job_id: jobg8-23643_225579893
+job_id: jobg8-1871498
 reason: No exact Basingstoke workplace matched; local geographic review is required.
 ---
 
@@ -522,30 +522,6 @@ reason: No exact Basingstoke workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Patient Administrator
-company: University Hospital Southampton NHS Trust
-location: Southampton, SO16 5YA
-source: NHS Jobs
-job_id: nhs-5273675
-reason: No exact Basingstoke workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Patient Care Co-ordinator/Receptionist
-company: Abbeywell Surgery
-location: Romsey, SO51 8EN, Romsey, SO517QN
-source: NHS Jobs
-job_id: nhs-5522984
-reason: No exact Basingstoke workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Project & Office Administrator
 company: Venus Recruitment Ltd - Agency - Permanent
 location: Fleet
@@ -563,18 +539,6 @@ company: Octagon Group - Agency - Permanent
 location: Southampton
 source: JobG8
 job_id: jobg8-23643_225576097
-reason: No exact Basingstoke workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Reception Admin £28k! Full time & Part time available
-company: Office Angels - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-23643_225493402
 reason: No exact Basingstoke workplace matched; local geographic review is required.
 ---
 

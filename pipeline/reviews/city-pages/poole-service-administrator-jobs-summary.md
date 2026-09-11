@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 1
-- automatic review: 15
+- automatic review: 12
 - automatic exclude: 0
 - effective include: 1
-- effective review: 15
+- effective review: 12
 - effective exclude: 0
 
 ## INCLUDE (1)
@@ -36,7 +36,7 @@ job_id: jobg8-107779296
 reason: Exact approved Poole workplace.
 ---
 
-## REVIEW (15)
+## REVIEW (12)
 
 ---
 action: 
@@ -47,18 +47,6 @@ company: Reed - Agency - Permanent
 location: Dorset
 source: JobG8
 job_id: jobg8-1766324
-reason: No exact Poole workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
-company: Agincare
-location: Dorchester, DT1 2EN
-source: NHS Jobs
-job_id: nhs-5589007
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 
@@ -150,35 +138,11 @@ reason: No exact Poole workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: PA to Leadership Team
-company: The Bishop of Winchester Academy
-location: Bournemouth
-source: Teaching Vacancies
-job_id: teaching-vacancies-pa-to-leadership-team-7142bdd9-1ed4-4fb4-8b84-985f95668569
-reason: No exact Poole workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Receptionist
-company: Beaufort Road Surgery
-location: Bournemouth, BH6 5AJ
+title: Receptionist - Bank
+company: Avery Healthcare Group Ltd.
+location: Bournemouth, BH4 9DR
 source: NHS Jobs
-job_id: nhs-5586731
-reason: No exact Poole workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Receptionist - Part Time
-company: The Bishop of Winchester Academy
-location: Bournemouth
-source: Teaching Vacancies
-job_id: teaching-vacancies-receptionist-part-time-the-bishop-of-winchester-academy
+job_id: nhs-5591331
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 

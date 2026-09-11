@@ -4,7 +4,7 @@
 - Live route: `/bristol/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 24
+- Effective included jobs: 26
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 24
-- automatic review: 8
+- automatic include: 26
+- automatic review: 9
 - automatic exclude: 2
-- effective include: 24
-- effective review: 8
+- effective include: 26
+- effective review: 9
 - effective exclude: 2
 
-## INCLUDE (24)
+## INCLUDE (26)
 
 ---
 action: 
@@ -33,6 +33,18 @@ company: Artis Recruitment - Agency - Permanent
 location: Bristol
 source: JobG8
 job_id: jobg8-1877742
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administrator
+company: Sirona care & health CIC
+location: Bristol, BS10 6DF
+source: NHS Jobs
+job_id: nhs-5554527
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -184,6 +196,18 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Helpdesk Coordinator
+company: Aldwych Consulting - Agency - Temporary
+location: Bristol
+source: JobG8
+job_id: jobg8-23643_225590684
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Imaging Administrator
 company: Spire Healthcare - Company - Permanent
 location: Bristol
@@ -312,7 +336,7 @@ job_id: jobg8-107785118
 reason: Approved conservative Bristol launch catchment.
 ---
 
-## REVIEW (8)
+## REVIEW (9)
 
 ---
 action: 
@@ -323,6 +347,18 @@ company: Moxie and Mettle Limited - Agency - Permanent
 location: Somerset
 source: JobG8
 job_id: jobg8-1856306
+reason: No approved Bristol catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Ecommerce Manager
+company: Zachary Daniels - Agency - Permanent
+location: Somerset
+source: JobG8
+job_id: jobg8-107952849
 reason: No approved Bristol catchment rule matched; local review required.
 ---
 
@@ -358,7 +394,19 @@ title: Marketing Manager
 company: ADLIB - Agency - Permanent
 location: Somerset
 source: JobG8
-job_id: jobg8-1875910
+job_id: jobg8-1891471
+reason: No approved Bristol catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Parts Administrator
+company: Travail Employment Group - Agency - Permanent
+location: Keynsham
+source: JobG8
+job_id: jobg8-23643_225590581
 reason: No approved Bristol catchment rule matched; local review required.
 ---
 
@@ -383,18 +431,6 @@ company: Brand Partnership Group - Agency - Permanent
 location: Somerset
 source: JobG8
 job_id: jobg8-107910153
-reason: No approved Bristol catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
-company: Qualify Nation Recruitment - Agency - Permanent
-location: Somerset
-source: JobG8
-job_id: jobg8-1880916
 reason: No approved Bristol catchment rule matched; local review required.
 ---
 

@@ -4,7 +4,7 @@
 - Live route: `/coventry/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 8
+- Effective included jobs: 9
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,26 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 8
+- automatic include: 9
 - automatic review: 3
-- automatic exclude: 15
-- effective include: 8
+- automatic exclude: 14
+- effective include: 9
 - effective review: 3
-- effective exclude: 15
+- effective exclude: 14
 
-## INCLUDE (8)
+## INCLUDE (9)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Accounts Assistant
+company: SFM - Agency - Permanent
+location: Coventry
+source: JobG8
+job_id: jobg8-1891527
+reason: Approved Coventry catchment.
+---
 
 ---
 action: 
@@ -158,7 +170,7 @@ job_id: jobg8-23643_225572898
 reason: No approved Coventry catchment rule matched; local review required.
 ---
 
-## EXCLUDE (15)
+## EXCLUDE (14)
 
 ---
 action: 
@@ -176,11 +188,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Customer Service Advisor
-company: RA Bennett - Agency - Permanent
+title: Customer Service Administrator
+company: Hays Business Support - Agency - Permanent
 location: Warwickshire
 source: JobG8
-job_id: jobg8-1842482
+job_id: jobg8-23643_225490093
 reason: Separate employment market.
 ---
 
@@ -189,10 +201,10 @@ action:
 decision: exclude
 automatic_decision: exclude
 title: Customer Service Advisor
-company: SVB Solutions - Agency - Permanent
-location: Warwick
+company: RA Bennett - Agency - Permanent
+location: Warwickshire
 source: JobG8
-job_id: jobg8-23643_225485953
+job_id: jobg8-1842482
 reason: Separate employment market.
 ---
 
@@ -325,17 +337,5 @@ company: Oak Wood Secondary School
 location: Nuneaton
 source: Teaching Vacancies
 job_id: teaching-vacancies-personal-assistant-pa-to-the-headteachers-oak-wood-schools
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Training & HR Coordinator
-company: ROSE & YOUNG RECRUITMENT LTD - Agency - Permanent
-location: Warwickshire
-source: JobG8
-job_id: jobg8-1772113
 reason: Separate employment market.
 ---

@@ -4,7 +4,7 @@
 - Live route: `/cambridge/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 12
+- Effective included jobs: 11
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 12
+- automatic include: 11
 - automatic review: 4
-- automatic exclude: 9
-- effective include: 12
+- automatic exclude: 8
+- effective include: 11
 - effective review: 4
-- effective exclude: 9
+- effective exclude: 8
 
-## INCLUDE (12)
+## INCLUDE (11)
 
 ---
 action: 
@@ -136,18 +136,6 @@ reason: Approved conservative Cambridge launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Office Administrator
-company: EA First - Agency - Permanent
-location: Cambridge
-source: JobG8
-job_id: jobg8-23643_225570284
-reason: Approved conservative Cambridge launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Owned Brand Manager
 company: Bensons for Beds - Agency - Permanent
 location: Cambridgeshire
@@ -218,7 +206,7 @@ job_id: jobg8-23643_225519683
 reason: No approved Cambridge catchment rule matched; local review required.
 ---
 
-## EXCLUDE (9)
+## EXCLUDE (8)
 
 ---
 action: 
@@ -301,18 +289,6 @@ company: Schoolblazer - Agency - Permanent
 location: Peterborough
 source: JobG8
 job_id: jobg8-193158007228884582437340
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Senior Marketing Executive
-company: Strange And Wright Recruitment Partners Ltd - Agency - Permanent
-location: Peterborough
-source: JobG8
-job_id: jobg8-107906533
 reason: Separate employment market.
 ---
 

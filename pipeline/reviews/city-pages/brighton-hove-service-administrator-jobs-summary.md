@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 7
-- automatic review: 17
-- automatic exclude: 8
+- automatic review: 18
+- automatic exclude: 7
 - effective include: 7
-- effective review: 17
-- effective exclude: 8
+- effective review: 18
+- effective exclude: 7
 
 ## INCLUDE (7)
 
@@ -108,7 +108,7 @@ job_id: nhs-5587236
 reason: Approved Brighton & Hove catchment.
 ---
 
-## REVIEW (17)
+## REVIEW (18)
 
 ---
 action: 
@@ -119,18 +119,6 @@ company: CMA Recruitment Group - Agency - Permanent
 location: Sussex
 source: JobG8
 job_id: jobg8-23643_225525164
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
-company: Lloyd Recruitment - East Grinstead - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-23643_225547434
 reason: Broad location; review before city inclusion.
 ---
 
@@ -198,11 +186,35 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
+title: Finance Assistant
+company: First Recruitment Services - Agency - Permanent
+location: Sussex
+source: JobG8
+job_id: jobg8-1891451
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Hotel Receptionist
 company: First Recruitment Services - Agency - Permanent
 location: Sussex
 source: JobG8
 job_id: jobg8-23643_225527297
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: HR Administrator
+company: Priory - Agency - Permanent
+location: Sussex
+source: JobG8
+job_id: jobg8-21618_29077_578346
 reason: Broad location; review before city inclusion.
 ---
 
@@ -314,7 +326,7 @@ job_id: teaching-vacancies-year-9-administrative-assistant-including-year-10-wor
 reason: No approved Brighton & Hove catchment rule matched; local review required.
 ---
 
-## EXCLUDE (8)
+## EXCLUDE (7)
 
 ---
 action: 
@@ -397,17 +409,5 @@ company: St Wilfrids Catholic Primary School
 location: Littlehampton
 source: Teaching Vacancies
 job_id: teaching-vacancies-school-secretary-administrative-assistant
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Team Administrator
-company: Sussex Community NHS Foundation Trust
-location: Horsham, RH12 2DR
-source: NHS Jobs
-job_id: nhs-5580074
 reason: Separate employment market.
 ---

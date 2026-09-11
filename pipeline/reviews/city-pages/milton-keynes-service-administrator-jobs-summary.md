@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 8
-- automatic review: 34
+- automatic review: 29
 - automatic exclude: 0
 - effective include: 8
-- effective review: 34
+- effective review: 29
 - effective exclude: 0
 
 ## INCLUDE (8)
@@ -120,7 +120,7 @@ job_id: jobg8-23643_225522682
 reason: Exact approved Milton Keynes workplace.
 ---
 
-## REVIEW (34)
+## REVIEW (29)
 
 ---
 action: 
@@ -294,11 +294,11 @@ reason: No exact Milton Keynes workplace matched; local geographic review is req
 action: 
 decision: review
 automatic_decision: review
-title: CRM Marketing Manager
-company: Peopleforge Ltd - Agency - Permanent
-location: Buckinghamshire
+title: Communications and Marketing Manager
+company: Bucks Students Union - Agency - Permanent
+location: High Wycombe
 source: JobG8
-job_id: jobg8-107925787
+job_id: jobg8-1891738
 reason: No exact Milton Keynes workplace matched; local geographic review is required.
 ---
 
@@ -359,18 +359,6 @@ company: Chiltern Way Academy Trust
 location: Aylesbury
 source: Teaching Vacancies
 job_id: teaching-vacancies-examinations-officer-aeb29f97-ce81-41ec-8b38-81ed01e3315f
-reason: No exact Milton Keynes workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: GP Receptionist
-company: Water Meadow Surgery
-location: Chesham, HP5 1ET
-source: NHS Jobs
-job_id: nhs-5559695
 reason: No exact Milton Keynes workplace matched; local geographic review is required.
 ---
 
@@ -450,47 +438,11 @@ reason: No exact Milton Keynes workplace matched; local geographic review is req
 action: 
 decision: review
 automatic_decision: review
-title: PPC Executive
-company: FS1 Recruitment - Agency - Permanent
-location: Buckinghamshire
-source: JobG8
-job_id: jobg8-23643_225580896
-reason: No exact Milton Keynes workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: PPC Executive
-company: FS1 Recruitment - Marketing, Creative, Digital, Finance, HR, Sales, Admin - Agency - Permanent
-location: Buckinghamshire
-source: JobG8
-job_id: jobg8-1873723
-reason: No exact Milton Keynes workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Receptionist - Bank
 company: Avery Healthcare Group Ltd.
 location: Marlow, SL7 1HX
 source: NHS Jobs
 job_id: nhs-5567129
-reason: No exact Milton Keynes workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Sales Support Coordinator
-company: Woop ltd - Agency - Permanent
-location: Buckinghamshire
-source: JobG8
-job_id: jobg8-23643_225528642
 reason: No exact Milton Keynes workplace matched; local geographic review is required.
 ---
 
@@ -515,18 +467,6 @@ company: Job Board Direct - Agency - Permanent
 location: Gerrards Cross
 source: JobG8
 job_id: jobg8-107791333
-reason: No exact Milton Keynes workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Social Media Manager
-company: Mixxos - Agency - Permanent
-location: Buckinghamshire
-source: JobG8
-job_id: jobg8-107890675
 reason: No exact Milton Keynes workplace matched; local geographic review is required.
 ---
 

@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 1
-- automatic review: 25
+- automatic review: 24
 - automatic exclude: 0
 - effective include: 1
-- effective review: 25
+- effective review: 24
 - effective exclude: 0
 
 ## INCLUDE (1)
@@ -36,7 +36,7 @@ job_id: jobg8-23643_225514239
 reason: Exact approved Wigston workplace.
 ---
 
-## REVIEW (25)
+## REVIEW (24)
 
 ---
 action: 
@@ -114,18 +114,6 @@ reason: No exact Wigston workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Bank Imaging Administrator
-company: Spire Healthcare - Company - Permanent
-location: Leicestershire
-source: JobG8
-job_id: jobg8-23643_225492830
-reason: No exact Wigston workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Casualty Claims Handler
 company: Adjusting Appointments Limited - Agency - Permanent
 location: Leicestershire
@@ -143,18 +131,6 @@ company: Allstaff Recruitment - Agency - Permanent
 location: Leicester
 source: JobG8
 job_id: jobg8-1869342
-reason: No exact Wigston workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Commercial Services Coordinator
-company: TRC Yorkshire - Agency - Permanent
-location: Coalville
-source: JobG8
-job_id: jobg8-23643_225493612
 reason: No exact Wigston workplace matched; local geographic review is required.
 ---
 
@@ -191,6 +167,18 @@ company: Broom Leys Surgery
 location: COALVILLE, LE67 4DE
 source: NHS Jobs
 job_id: nhs-5581072
+reason: No exact Wigston workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Medical Receptionist
+company: Staff Partners Business - Agency - Permanent
+location: Leicestershire
+source: JobG8
+job_id: jobg8-23643_225592444
 reason: No exact Wigston workplace matched; local geographic review is required.
 ---
 

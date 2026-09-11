@@ -123,5 +123,24 @@
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
     "posted_date_basis": "source"
+  },
+  {
+    "job_id": "nhs-5593331",
+    "source": "NHS Jobs",
+    "title": "Receptionist",
+    "company": "Affinity Care",
+    "advertiser_name": "Affinity Care",
+    "location": "Shipley, BD18 3EG, Shipley, BD18 3EE, Bradford, BD10 9AZ",
+    "region": "Yorkshire - West",
+    "salary": "£12.37 to £13.11",
+    "employment_type": "Permanent",
+    "posted_date": "2026-09-11T08:29:21.446279335",
+    "closing_date": "2026-09-21",
+    "description": "As a key member of the Patient Services team you will be responsible for providing an efficient reception function that includes some specific administration duties. To ensure the front of house service of meeting and greeting is welcoming and portrays our standards of high quality, professional and patient-focused care. To ensure a high focus on customer satisfaction by dealing with queries in a speedy and accurate manner, applying emotionally conscious responses as relevant. To deal with patients and visitors in a courteous manner, using your skills to ensure matters are dealt with efficiently; providing effective management to patient demand, and reducing undue delay or queues at the front desk/phones To work to protocols with regard booking appointments, repeat prescriptions, ordering of patient transport including emergency ambulances and all other duties as explained to you by the Patient Services Manager. To deal with general queries and liaise effectively with clinicians and other staff as required. To support clinicians during their clinics by dealing with their queries and tasks as requested. This may be the need for some stock in their rooms, following up an appointment with the hospital, or other ad hoc requests. To provide chaperoning service where requested by the clinician and/or patient. To ensure patient confidentiality, including the use of the computer system and visibility of the screen as well as the transfer of written and verbal communication. To converse with patients and visitors by speaking clearly, precisely and with confidence both over the phone and face-to-face at the desk. To signpost patients to the most appropriate service.",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1863-26-0044",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1863-26-0044",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "A",
+    "posted_date_basis": "source"
   }
 ]

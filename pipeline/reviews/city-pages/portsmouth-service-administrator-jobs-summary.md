@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 6
-- automatic review: 49
+- automatic review: 46
 - automatic exclude: 0
 - effective include: 6
-- effective review: 49
+- effective review: 46
 - effective exclude: 0
 
 ## INCLUDE (6)
@@ -96,7 +96,7 @@ job_id: jobg8-23643_225564118
 reason: Exact approved Portsmouth workplace.
 ---
 
-## REVIEW (49)
+## REVIEW (46)
 
 ---
 action: 
@@ -150,23 +150,11 @@ reason: No exact Portsmouth workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Admin Assistant - Care Home
-company: Barchester Healthcare
-location: Fareham, PO14 2NF
-source: NHS Jobs
-job_id: nhs-5522934
-reason: No exact Portsmouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Administrator
-company: Hampshire Recruitment Group LTD - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-23643_225555162
+company: Inclusion
+location: Eastleigh, PO16 0NX
+source: NHS Jobs
+job_id: nhs-5586737
 reason: No exact Portsmouth workplace matched; local geographic review is required.
 ---
 
@@ -191,6 +179,18 @@ company: Practice Plus Group - Health in Justice
 location: Winchester, SO22 5DF
 source: NHS Jobs
 job_id: nhs-5590543
+reason: No exact Portsmouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: Rowner Medical Centre
+location: Gosport, PO13 9SP
+source: NHS Jobs
+job_id: nhs-5591061
 reason: No exact Portsmouth workplace matched; local geographic review is required.
 ---
 
@@ -330,18 +330,6 @@ reason: No exact Portsmouth workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Customer Service Coordinator
-company: Vistry Group - Company - Contract
-location: Hampshire
-source: JobG8
-job_id: jobg8-107892817
-reason: No exact Portsmouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Data Entry Admin - Basingstoke
 company: Adecco - Agency - Temporary
 location: Basingstoke
@@ -402,11 +390,11 @@ reason: No exact Portsmouth workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Housing Repairs Administrator
-company: Thorngate Churcher Trust - Agency - Permanent
-location: Gosport
+title: HR Administrator
+company: 4Recruitment Services - Agency - Contract
+location: Lyndhurst
 source: JobG8
-job_id: jobg8-23643_225537561
+job_id: jobg8-23643_225579893
 reason: No exact Portsmouth workplace matched; local geographic review is required.
 ---
 
@@ -415,10 +403,10 @@ action:
 decision: review
 automatic_decision: review
 title: HR Administrator
-company: 4Recruitment Services - Agency - Contract
+company: 4Recruitment Services - Agency - Permanent
 location: Lyndhurst
 source: JobG8
-job_id: jobg8-23643_225579893
+job_id: jobg8-1871498
 reason: No exact Portsmouth workplace matched; local geographic review is required.
 ---
 
@@ -522,30 +510,6 @@ reason: No exact Portsmouth workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Patient Administrator
-company: University Hospital Southampton NHS Trust
-location: Southampton, SO16 5YA
-source: NHS Jobs
-job_id: nhs-5273675
-reason: No exact Portsmouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Patient Care Co-ordinator/Receptionist
-company: Abbeywell Surgery
-location: Romsey, SO51 8EN, Romsey, SO517QN
-source: NHS Jobs
-job_id: nhs-5522984
-reason: No exact Portsmouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Project & Office Administrator
 company: Venus Recruitment Ltd - Agency - Permanent
 location: Fleet
@@ -570,11 +534,11 @@ reason: No exact Portsmouth workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Reception Admin £28k! Full time & Part time available
-company: Office Angels - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-23643_225493402
+title: Receptionist
+company: Wildern School
+location: Southampton
+source: Teaching Vacancies
+job_id: teaching-vacancies-receptionist-1dcaf299-1719-4cef-a999-af235a29010e
 reason: No exact Portsmouth workplace matched; local geographic review is required.
 ---
 
@@ -582,11 +546,11 @@ reason: No exact Portsmouth workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Receptionist
-company: Wildern School
-location: Southampton
-source: Teaching Vacancies
-job_id: teaching-vacancies-receptionist-1dcaf299-1719-4cef-a999-af235a29010e
+title: Receptionist/Administrator
+company: Operose Health
+location: Basingstoke, RG22 4EH
+source: NHS Jobs
+job_id: nhs-5592877
 reason: No exact Portsmouth workplace matched; local geographic review is required.
 ---
 

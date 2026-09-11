@@ -4,7 +4,7 @@
 - Live route: `/shrewsbury/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 3
+- Effective included jobs: 2
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 3
-- automatic review: 9
+- automatic include: 2
+- automatic review: 11
 - automatic exclude: 0
-- effective include: 3
-- effective review: 9
+- effective include: 2
+- effective review: 11
 - effective exclude: 0
 
-## INCLUDE (3)
+## INCLUDE (2)
 
 ---
 action: 
@@ -48,19 +48,7 @@ job_id: teaching-vacancies-administration-assistant-inclusion-and-people
 reason: Exact approved Shrewsbury workplace.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Team Administrator
-company: Midlands Partnership NHS Foundation Trust
-location: Shrewsbury, SY1 4RQ
-source: NHS Jobs
-job_id: nhs-5567689
-reason: Exact approved Shrewsbury workplace.
----
-
-## REVIEW (9)
+## REVIEW (11)
 
 ---
 action: 
@@ -126,6 +114,18 @@ reason: No exact Shrewsbury workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
+title: Housing Repairs Administrator
+company: Thorngate Churcher Trust - Agency - Permanent
+location: Shropshire
+source: JobG8
+job_id: jobg8-23643_225537561
+reason: No exact Shrewsbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Part time Receptionist
 company: Hays Business Support - Agency - Permanent
 location: Shropshire
@@ -150,6 +150,18 @@ reason: No exact Shrewsbury workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
+title: Receptionist
+company: Teldoc
+location: Telford, TF2 6JJ, Telford, TF3 2BF
+source: NHS Jobs
+job_id: nhs-5592785
+reason: No exact Shrewsbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Recruitment Account Coordinator
 company: Staffline Recruitment Limited - Agency - Permanent
 location: Shropshire
@@ -162,11 +174,11 @@ reason: No exact Shrewsbury workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Temporary Sales Administrator Immediate Start
-company: Office Angels - Agency - Temporary
-location: Wellington
+title: Sales Administrator
+company: Prince Personnel Limited - Agency - Temporary
+location: Telford
 source: JobG8
-job_id: jobg8-23643_225492971
+job_id: jobg8-23643_225426625
 reason: No exact Shrewsbury workplace matched; local geographic review is required.
 ---
 

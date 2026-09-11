@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 4
-- automatic review: 7
+- automatic review: 8
 - automatic exclude: 0
 - effective include: 4
-- effective review: 7
+- effective review: 8
 - effective exclude: 0
 
 ## INCLUDE (4)
@@ -72,7 +72,7 @@ job_id: jobg8-23643_225512252
 reason: Exact approved Macclesfield workplace.
 ---
 
-## REVIEW (7)
+## REVIEW (8)
 
 ---
 action: 
@@ -131,6 +131,18 @@ company: The Veterinary Defence Society - Agency - Contract
 location: Knutsford
 source: JobG8
 job_id: jobg8-23643_225521146
+reason: No exact Macclesfield workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Plant Administrator
+company: Aureos Group - Agency - Permanent
+location: Crewe
+source: JobG8
+job_id: jobg8-23643_225591095
 reason: No exact Macclesfield workplace matched; local geographic review is required.
 ---
 

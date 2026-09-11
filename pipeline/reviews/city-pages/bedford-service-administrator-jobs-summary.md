@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 4
-- automatic review: 16
+- automatic review: 14
 - automatic exclude: 0
 - effective include: 4
-- effective review: 16
+- effective review: 14
 - effective exclude: 0
 
 ## INCLUDE (4)
@@ -72,7 +72,7 @@ job_id: nhs-5587657
 reason: Exact approved Bedford workplace.
 ---
 
-## REVIEW (16)
+## REVIEW (14)
 
 ---
 action: 
@@ -127,18 +127,6 @@ action:
 decision: review
 automatic_decision: review
 title: Medical Receptionist
-company: Ashcroft Surgery
-location: Leighton Buzzard, LU7 0EN
-source: NHS Jobs
-job_id: nhs-5565873
-reason: No exact Bedford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Medical Receptionist
 company: Salisbury House Surgery
 location: Leighton Buzzard, LU7 1RS
 source: NHS Jobs
@@ -167,18 +155,6 @@ company: Response Personnel Ltd - Agency - Permanent
 location: Bedfordshire
 source: JobG8
 job_id: jobg8-23643_225564132
-reason: No exact Bedford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Panel Administrator (Maternity Cover)
-company: Fosterplus - Agency - Permanent
-location: Bedfordshire
-source: JobG8
-job_id: jobg8-23643_225547851
 reason: No exact Bedford workplace matched; local geographic review is required.
 ---
 

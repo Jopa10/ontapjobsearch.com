@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 12
-- automatic review: 38
+- automatic review: 36
 - automatic exclude: 0
 - effective include: 12
-- effective review: 38
+- effective review: 36
 - effective exclude: 0
 
 ## INCLUDE (12)
@@ -168,7 +168,7 @@ job_id: nhs-5570839
 reason: Exact approved Chelmsford workplace.
 ---
 
-## REVIEW (38)
+## REVIEW (36)
 
 ---
 action: 
@@ -270,6 +270,18 @@ reason: No exact Chelmsford workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
+title: Commercial Claims Handler
+company: Employment Specialists Ltd - Agency - Permanent
+location: Essex
+source: JobG8
+job_id: jobg8-1894182
+reason: No exact Chelmsford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Conveyancing Assistant New Build
 company: JS Legal Recruitment Ltd - Agency - Permanent
 location: Essex
@@ -294,11 +306,11 @@ reason: No exact Chelmsford workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Conveyancing Legal Secretary
-company: JS Legal Recruitment Ltd - Agency - Permanent
+title: Customer Service Administrator
+company: Prime Appointments - Agency - Temporary
 location: Essex
 source: JobG8
-job_id: jobg8-23643_224943203
+job_id: jobg8-23643_225574529
 reason: No exact Chelmsford workplace matched; local geographic review is required.
 ---
 
@@ -306,11 +318,11 @@ reason: No exact Chelmsford workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Customer Service Administrator
-company: Prime Appointments - Agency - Temporary
+title: Customer Service Coordinator
+company: Just Recruitment Group Ltd - Agency - Permanent
 location: Essex
 source: JobG8
-job_id: jobg8-23643_225574529
+job_id: jobg8-107965743
 reason: No exact Chelmsford workplace matched; local geographic review is required.
 ---
 
@@ -371,18 +383,6 @@ company: A1 Personnel Employment Agency Ltd - Agency - Permanent
 location: Maldon
 source: JobG8
 job_id: jobg8-1800694
-reason: No exact Chelmsford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Lifestyle Photographer and Content Creator
-company: Colchester Institute - Agency - Permanent
-location: Essex
-source: JobG8
-job_id: jobg8-107798840
 reason: No exact Chelmsford workplace matched; local geographic review is required.
 ---
 
@@ -558,18 +558,6 @@ reason: No exact Chelmsford workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: SEO Executive
-company: Brand Recruitment - Agency - Permanent
-location: Essex
-source: JobG8
-job_id: jobg8-1703629
-reason: No exact Chelmsford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Smart Metering Planner
 company: Focus Resourcing - Agency - Temporary
 location: Essex
@@ -611,18 +599,6 @@ company: Zachary Daniels - Agency - Permanent
 location: Essex
 source: JobG8
 job_id: jobg8-1877354
-reason: No exact Chelmsford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Technical Motor Claims Handler
-company: TIME Appointments Ltd - Agency - Permanent
-location: Colchester
-source: JobG8
-job_id: jobg8-1877700
 reason: No exact Chelmsford workplace matched; local geographic review is required.
 ---
 

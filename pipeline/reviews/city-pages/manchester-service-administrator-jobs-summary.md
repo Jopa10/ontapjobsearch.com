@@ -4,7 +4,7 @@
 - Live route: `/manchester/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 35
+- Effective included jobs: 34
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 35
-- automatic review: 9
+- automatic include: 34
+- automatic review: 8
 - automatic exclude: 1
-- effective include: 35
-- effective review: 9
+- effective include: 34
+- effective review: 8
 - effective exclude: 1
 
-## INCLUDE (35)
+## INCLUDE (34)
 
 ---
 action: 
@@ -40,11 +40,11 @@ reason: Approved conservative Manchester launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Administration Assistant
-company: Ellesmere Park High School
-location: Manchester
-source: Teaching Vacancies
-job_id: teaching-vacancies-administration-assistant-c2f65b3b-e84d-4148-98e6-f9f60ceb2d22
+title: Administrator
+company: Whittaker Lane Medical Centre
+location: Manchester, M25 1EX
+source: NHS Jobs
+job_id: nhs-5362994
 reason: Approved conservative Manchester launch catchment.
 ---
 
@@ -64,11 +64,11 @@ reason: Approved conservative Manchester launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Care Navigator Receptionist
-company: Orchard Medical Centre
-location: Manchester, M28 1LZ
+title: Business Support Officer
+company: NHS Greater Manchester Integrated Care
+location: Manchester, M1 6EU
 source: NHS Jobs
-job_id: nhs-5571870
+job_id: nhs-5590613
 reason: Approved conservative Manchester launch catchment.
 ---
 
@@ -172,11 +172,11 @@ reason: Approved conservative Manchester launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Digital Marketing Strategist
-company: Four Recruitment - Agency - Permanent
+title: Ecommerce Executive
+company: Zachary Daniels Recruitment - Agency - Permanent
 location: Manchester
 source: JobG8
-job_id: jobg8-107837399
+job_id: jobg8-23643_225511096
 reason: Approved conservative Manchester launch catchment.
 ---
 
@@ -184,11 +184,23 @@ reason: Approved conservative Manchester launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Ecommerce Executive
-company: Zachary Daniels Recruitment - Agency - Permanent
+title: Facilities Coordinator
+company: Office Angels - Agency - Permanent
 location: Manchester
 source: JobG8
-job_id: jobg8-23643_225511096
+job_id: jobg8-23643_225590536
+reason: Approved conservative Manchester launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Facilities Helpdesk
+company: 4Recruitment Services - Agency - Contract
+location: Manchester
+source: JobG8
+job_id: jobg8-23643_225594831
 reason: Approved conservative Manchester launch catchment.
 ---
 
@@ -248,18 +260,6 @@ title: Internal Sales Support
 company: Jobwise Ltd - Agency - Permanent
 location: Manchester
 source: JobG8
-job_id: jobg8-23643_225494043
-reason: Approved conservative Manchester launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Internal Sales Support
-company: Jobwise Ltd - Agency - Permanent
-location: Manchester
-source: JobG8
 job_id: jobg8-23643_225547354
 reason: Approved conservative Manchester launch catchment.
 ---
@@ -292,18 +292,6 @@ reason: Approved conservative Manchester launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Level 2 Academy Administrator
-company: Dixons Newall Green Academy
-location: Manchester
-source: Teaching Vacancies
-job_id: teaching-vacancies-level-2-academy-administrator-b06ab9cb-ab9d-4cf2-9142-0597902d3d58
-reason: Approved conservative Manchester launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Marketing Assistant - French Speaking
 company: Advancing People Limited - Agency - Permanent
 location: Manchester
@@ -328,23 +316,11 @@ reason: Approved conservative Manchester launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Medical Receptionist
-company: Boothstown Medical Centre
-location: Manchester, M29 8RZ
+title: Medical Receptionist & Administrator
+company: Parkside Medical Centre
+location: Manchester, M12 5RU
 source: NHS Jobs
-job_id: nhs-5585993
-reason: Approved conservative Manchester launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Medical Receptionist
-company: North Trafford Group Practice
-location: Manchester, M32 0PA, Manchester, M160LW
-source: NHS Jobs
-job_id: nhs-5577644
+job_id: nhs-5592408
 reason: Approved conservative Manchester launch catchment.
 ---
 
@@ -412,6 +388,18 @@ reason: Approved conservative Manchester launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Senior PPC Strategist
+company: We Are Fr Group - Agency - Permanent
+location: Manchester
+source: JobG8
+job_id: jobg8-107934873
+reason: Approved conservative Manchester launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: SEO Manager
 company: Oscar Associates (UK) Limited - Agency - Permanent
 location: Manchester
@@ -444,7 +432,7 @@ job_id: jobg8-23643_225522116
 reason: Approved conservative Manchester launch catchment.
 ---
 
-## REVIEW (9)
+## REVIEW (8)
 
 ---
 action: 
@@ -455,18 +443,6 @@ company: Axon Moore Group Ltd - Agency - Permanent
 location: Lancashire
 source: JobG8
 job_id: jobg8-1770791
-reason: No approved Manchester catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Communications Officer
-company: Consula Group LTD - Agency - Permanent
-location: Lancashire
-source: JobG8
-job_id: jobg8-1764098
 reason: No approved Manchester catchment rule matched; local review required.
 ---
 
@@ -550,7 +526,7 @@ title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Lancashire
 source: JobG8
-job_id: jobg8-1880925
+job_id: jobg8-1887986
 reason: No approved Manchester catchment rule matched; local review required.
 ---
 

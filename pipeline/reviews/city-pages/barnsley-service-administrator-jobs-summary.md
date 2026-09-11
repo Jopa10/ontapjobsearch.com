@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 2
 - automatic review: 2
-- automatic exclude: 17
+- automatic exclude: 16
 - effective include: 2
 - effective review: 2
-- effective exclude: 17
+- effective exclude: 16
 
 ## INCLUDE (2)
 
@@ -74,7 +74,7 @@ job_id: jobg8-23643_225575501
 reason: No approved Barnsley catchment rule matched; local review required.
 ---
 
-## EXCLUDE (17)
+## EXCLUDE (16)
 
 ---
 action: 
@@ -109,6 +109,18 @@ company: The Rowan School
 location: Sheffield
 source: Teaching Vacancies
 job_id: teaching-vacancies-admin-clerical-officer-level-2-rowan-school
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Business Support Officer
+company: Rotherham Parents Forum Limited - Agency - Permanent
+location: Rotherham
+source: JobG8
+job_id: jobg8-1892135
 reason: Separate employment market.
 ---
 
@@ -236,18 +248,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Resource Coordinator
-company: Jackson Hogg Ltd - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-23643_225485987
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Sales & Operations Coordinator
 company: Major Recruitment - Perm Manager - Agency - Permanent
 location: Sheffield
@@ -265,17 +265,5 @@ company: Ranson Barnes Recruitment Limited - Agency - Permanent
 location: Sheffield
 source: JobG8
 job_id: jobg8-107870378
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: SEND Administrator
-company: Aston Academy
-location: Sheffield
-source: Teaching Vacancies
-job_id: teaching-vacancies-send-administrator-aston-academy-sheffield-south-yorkshire
 reason: Separate employment market.
 ---

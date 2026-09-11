@@ -4,7 +4,7 @@
 - Live route: `/chester-le-street/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 3
+- Effective included jobs: 2
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 3
-- automatic review: 95
+- automatic include: 2
+- automatic review: 100
 - automatic exclude: 0
-- effective include: 3
-- effective review: 95
+- effective include: 2
+- effective review: 100
 - effective exclude: 0
 
-## INCLUDE (3)
+## INCLUDE (2)
 
 ---
 action: 
@@ -48,19 +48,7 @@ job_id: nhs-3444840
 reason: Exact approved Chester Le Street workplace.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Senior Administrator- Medical Secretary
-company: Tees Esk and Wear Valleys NHS Foundation Trust
-location: Chester le Street, DH3 3UR
-source: NHS Jobs
-job_id: nhs-5563197
-reason: Exact approved Chester Le Street workplace.
----
-
-## REVIEW (95)
+## REVIEW (100)
 
 ---
 action: 
@@ -558,6 +546,18 @@ reason: No exact Chester Le Street workplace matched; local geographic review is
 action: 
 decision: review
 automatic_decision: review
+title: Clinical Team Administrator
+company: Tees Esk and Wear Valleys NHS Foundation Trust
+location: Durham, DH1 5RD
+source: NHS Jobs
+job_id: nhs-5591916
+reason: No exact Chester Le Street workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Customer Experience Coordinator
 company: Linear Recruitment Ltd - Agency - Contract
 location: Sunderland
@@ -894,11 +894,47 @@ reason: No exact Chester Le Street workplace matched; local geographic review is
 action: 
 decision: review
 automatic_decision: review
+title: HR Assistant
+company: Nigel Wright Group - Agency - Permanent
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-1892511
+reason: No exact Chester Le Street workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Maintenance Co-ordinator
+company: Recruitment Helpline - Agency - Permanent
+location: County Durham
+source: JobG8
+job_id: jobg8-23643_225595303
+reason: No exact Chester Le Street workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Marketing Business Partner
 company: SRG - Agency - Contract
 location: County Durham
 source: JobG8
 job_id: jobg8-23643_225513399
+reason: No exact Chester Le Street workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Marketing Executive
+company: Integral UK Ltd - Company - Permanent
+location: County Durham
+source: JobG8
+job_id: jobg8-107878737
 reason: No exact Chester Le Street workplace matched; local geographic review is required.
 ---
 
@@ -919,10 +955,10 @@ action:
 decision: review
 automatic_decision: review
 title: Medical Receptionist
-company: Betts Avenue Medical Centre
-location: Newcastle Upon Tyne, NE15 6TQ, Newcastle Upon Tyne, NE3 3QP
+company: Parkway Medical Group
+location: Newcastle upon Tyne, NE5 1LJ
 source: NHS Jobs
-job_id: nhs-5555684
+job_id: nhs-5593158
 reason: No exact Chester Le Street workplace matched; local geographic review is required.
 ---
 
@@ -1015,10 +1051,10 @@ action:
 decision: review
 automatic_decision: review
 title: Receptionist
-company: Foundation of Light
-location: Sunderland
-source: VONNE
-job_id: vonne-173374
+company: Daniel Owen Ltd - Agency - Temporary
+location: Cramlington
+source: JobG8
+job_id: jobg8-23643_225591391
 reason: No exact Chester Le Street workplace matched; local geographic review is required.
 ---
 
@@ -1098,6 +1134,18 @@ reason: No exact Chester Le Street workplace matched; local geographic review is
 action: 
 decision: review
 automatic_decision: review
+title: Social Media Coordinator
+company: Bellway Homes - Agency - Contract
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-107953124
+reason: No exact Chester Le Street workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Social Media Manager
 company: Ronald James - Agency - Permanent
 location: County Durham
@@ -1162,7 +1210,7 @@ title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Tyne And Wear
 source: JobG8
-job_id: jobg8-1880926
+job_id: jobg8-1887987
 reason: No exact Chester Le Street workplace matched; local geographic review is required.
 ---
 

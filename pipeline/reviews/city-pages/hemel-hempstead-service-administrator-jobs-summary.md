@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 2
-- automatic review: 29
+- automatic review: 27
 - automatic exclude: 0
 - effective include: 2
-- effective review: 29
+- effective review: 27
 - effective exclude: 0
 
 ## INCLUDE (2)
@@ -48,7 +48,7 @@ job_id: jobg8-1877352
 reason: Exact approved Hemel Hempstead workplace.
 ---
 
-## REVIEW (29)
+## REVIEW (27)
 
 ---
 action: 
@@ -119,6 +119,18 @@ company: The Orchard Primary School
 location: Watford
 source: Teaching Vacancies
 job_id: teaching-vacancies-administrator-and-pupil-welfare-the-orchard-primary-school
+reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Brand Manager
+company: Nter Talent - Agency - Permanent
+location: Hertford
+source: JobG8
+job_id: jobg8-107909696
 reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
 ---
 
@@ -234,30 +246,6 @@ reason: No exact Hemel Hempstead workplace matched; local geographic review is r
 action: 
 decision: review
 automatic_decision: review
-title: Medical Receptionist
-company: Parkfield Medical Centre
-location: Potters Bar, EN6 1QH
-source: NHS Jobs
-job_id: nhs-5555027
-reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Merchandise Administrator
-company: Osborne Appointments - Agency - Permanent
-location: Hertfordshire
-source: JobG8
-job_id: jobg8-23643_225564863
-reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Office Administrator
 company: Platinum Search Recruitment Limited - Agency - Permanent
 location: Ware
@@ -323,18 +311,6 @@ company: The Reach Free School
 location: Rickmansworth
 source: Teaching Vacancies
 job_id: teaching-vacancies-school-receptionist-part-time
-reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Senior Administrator with Medical Secretary Responsibilities
-company: Hertfordshire Community NHS Trust
-location: Watford, WD17 3EW
-source: NHS Jobs
-job_id: nhs-5590312
 reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
 ---
 

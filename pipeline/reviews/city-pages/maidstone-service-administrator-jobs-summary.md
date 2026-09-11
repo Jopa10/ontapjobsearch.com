@@ -4,7 +4,7 @@
 - Live route: `/maidstone/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 1
+- Effective included jobs: 2
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 1
+- automatic include: 2
 - automatic review: 50
 - automatic exclude: 0
-- effective include: 1
+- effective include: 2
 - effective review: 50
 - effective exclude: 0
 
-## INCLUDE (1)
+## INCLUDE (2)
 
 ---
 action: 
@@ -36,7 +36,31 @@ job_id: jobg8-23643_225498641
 reason: Exact approved Maidstone workplace.
 ---
 
+---
+action: 
+decision: include
+automatic_decision: include
+title: Receptionist
+company: Kent and Medway Mental Health NHS Trust
+location: Maidstone, ME16 9PH
+source: NHS Jobs
+job_id: nhs-5592074
+reason: Exact approved Maidstone workplace.
+---
+
 ## REVIEW (50)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrative Assistant
+company: Kent and Medway Mental Health NHS Trust
+location: Canterbury, CT1 1AZ
+source: NHS Jobs
+job_id: nhs-5591974
+reason: No exact Maidstone workplace matched; local geographic review is required.
+---
 
 ---
 action: 
@@ -47,18 +71,6 @@ company: NOV - Agency - Permanent
 location: Kent
 source: JobG8
 job_id: jobg8-23643_225586080
-reason: No exact Maidstone workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
-company: HCRG Care Group
-location: Kent, DA11 0DG
-source: NHS Jobs
-job_id: nhs-5568928
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 
@@ -390,6 +402,18 @@ reason: No exact Maidstone workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
+title: Operations Administrator
+company: 5 Environmental Ltd - Agency - Permanent
+location: Kent
+source: JobG8
+job_id: jobg8-23643_225588946
+reason: No exact Maidstone workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Part time Administrator Accountancy firm Xero essential
 company: Office Angels - Agency - Permanent
 location: Kent
@@ -534,18 +558,6 @@ reason: No exact Maidstone workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Receptionist/administrator
-company: Apex Medical practice
-location: Rochester, ME2 4UW
-source: NHS Jobs
-job_id: nhs-5558403
-reason: No exact Maidstone workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Sales Administrator
 company: Huntress - Maidstone - Agency - Permanent
 location: Kent
@@ -570,11 +582,11 @@ reason: No exact Maidstone workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Service Advisor (HGV/Commercial Vehicles)
-company: Ernest Gordon Recruitment - Agency - Permanent
+title: Sales Coordinator
+company: Morgan Jones Recruitment Consultants - Agency - Permanent
 location: Kent
 source: JobG8
-job_id: jobg8-107855886
+job_id: jobg8-23643_225587090
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 
@@ -583,10 +595,10 @@ action:
 decision: review
 automatic_decision: review
 title: Service Advisor (HGV/Commercial Vehicles)
-company: Ernest Gordon Recruitment Limited - Agency - Contract
+company: Ernest Gordon Recruitment - Agency - Permanent
 location: Kent
 source: JobG8
-job_id: jobg8-23643_225493825
+job_id: jobg8-107855886
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 

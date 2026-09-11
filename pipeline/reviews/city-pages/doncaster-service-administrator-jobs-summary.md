@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 3
 - automatic review: 2
-- automatic exclude: 16
+- automatic exclude: 15
 - effective include: 3
 - effective review: 2
-- effective exclude: 16
+- effective exclude: 15
 
 ## INCLUDE (3)
 
@@ -86,7 +86,7 @@ job_id: jobg8-23643_225575501
 reason: No approved Doncaster catchment rule matched; local review required.
 ---
 
-## EXCLUDE (16)
+## EXCLUDE (15)
 
 ---
 action: 
@@ -133,6 +133,18 @@ company: Elysium Healthcare
 location: Barnsley, S71 4FL
 source: NHS Jobs
 job_id: nhs-5584270
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Business Support Officer
+company: Rotherham Parents Forum Limited - Agency - Permanent
+location: Rotherham
+source: JobG8
+job_id: jobg8-1892135
 reason: Separate employment market.
 ---
 
@@ -236,18 +248,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Resource Coordinator
-company: Jackson Hogg Ltd - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-23643_225485987
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Sales & Operations Coordinator
 company: Major Recruitment - Perm Manager - Agency - Permanent
 location: Sheffield
@@ -265,17 +265,5 @@ company: Ranson Barnes Recruitment Limited - Agency - Permanent
 location: Sheffield
 source: JobG8
 job_id: jobg8-107870378
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: SEND Administrator
-company: Aston Academy
-location: Sheffield
-source: Teaching Vacancies
-job_id: teaching-vacancies-send-administrator-aston-academy-sheffield-south-yorkshire
 reason: Separate employment market.
 ---

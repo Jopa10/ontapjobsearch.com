@@ -4,8 +4,8 @@
 - Live route: `/bradford/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 5
-- Threshold currently met: no
+- Effective included jobs: 6
+- Threshold currently met: yes
 
 ## How to review
 Edit only the `action:` line inside a job block.
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 5
-- automatic review: 8
-- automatic exclude: 30
-- effective include: 5
-- effective review: 8
-- effective exclude: 30
+- automatic include: 6
+- automatic review: 6
+- automatic exclude: 29
+- effective include: 6
+- effective review: 6
+- effective exclude: 29
 
-## INCLUDE (5)
+## INCLUDE (6)
 
 ---
 action: 
@@ -65,6 +65,18 @@ action:
 decision: include
 automatic_decision: include
 title: Receptionist
+company: Affinity Care
+location: Shipley, BD18 3EG, Shipley, BD18 3EE, Bradford, BD10 9AZ
+source: NHS Jobs
+job_id: nhs-5593331
+reason: Approved Bradford catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Receptionist
 company: Manor Medical Practice
 location: Bradford, BD8 9PB, Bradford, BD15 7WA
 source: NHS Jobs
@@ -84,7 +96,7 @@ job_id: teaching-vacancies-senior-administrator-appleton-academy-bradford-west-y
 reason: Approved Bradford catchment.
 ---
 
-## REVIEW (8)
+## REVIEW (6)
 
 ---
 action: 
@@ -107,30 +119,6 @@ company: Centric Talent - Agency - Permanent
 location: Brighouse
 source: JobG8
 job_id: jobg8-107926764
-reason: No approved Bradford catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Finance Administrator
-company: Affinity Care
-location: Shipley, BD18 3EG
-source: NHS Jobs
-job_id: nhs-5590158
-reason: No approved Bradford catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: GP Surgery Receptionist
-company: NORTHGATE SURGERY
-location: Pontefract, WF8 1NF
-source: NHS Jobs
-job_id: nhs-5586012
 reason: No approved Bradford catchment rule matched; local review required.
 ---
 
@@ -182,7 +170,7 @@ job_id: jobg8-1880847
 reason: No approved Bradford catchment rule matched; local review required.
 ---
 
-## EXCLUDE (30)
+## EXCLUDE (29)
 
 ---
 action: 
@@ -236,11 +224,23 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Commercial Claims Handler
-company: Insure Recruitment - Agency - Permanent
-location: Leeds
-source: JobG8
-job_id: jobg8-1843090
+title: Clerical Officer
+company: Leeds Teaching Hospitals
+location: Leeds, LS9 7TF
+source: NHS Jobs
+job_id: nhs-5591866
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Clerical Officer/Receptionist
+company: Leeds Teaching Hospitals
+location: Leeds, LS2 9LU
+source: NHS Jobs
+job_id: nhs-5593438
 reason: Separate employment market.
 ---
 
@@ -404,35 +404,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Practice Administrator
-company: Warrengate Medical Centre
-location: Wakefield, WF1 4PR
-source: NHS Jobs
-job_id: nhs-5056947
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Purchasing Administrator
 company: Lord Search & Selection - Agency - Permanent
 location: Leeds
 source: JobG8
 job_id: jobg8-23643_225569338
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Receptionist
-company: Leeds and York Partnership NHS Foundation Trust
-location: Leeds, LS9 7BE
-source: NHS Jobs
-job_id: nhs-5578840
 reason: Separate employment market.
 ---
 

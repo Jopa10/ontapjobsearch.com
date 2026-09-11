@@ -4,7 +4,7 @@
 - Live route: `/birmingham/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 26
+- Effective included jobs: 28
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,26 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 26
-- automatic review: 5
+- automatic include: 28
+- automatic review: 6
 - automatic exclude: 3
-- effective include: 26
-- effective review: 5
+- effective include: 28
+- effective review: 6
 - effective exclude: 3
 
-## INCLUDE (26)
+## INCLUDE (28)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: 1st Line Service Desk Apprentice
+company: Hackajob Ltd - Agency - Permanent
+location: Birmingham
+source: JobG8
+job_id: jobg8-107882594
+reason: Approved conservative Birmingham launch catchment.
+---
 
 ---
 action: 
@@ -160,6 +172,18 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Legacy Administrator
+company: University Hospitals Birmingham Charity - Agency - Permanent
+location: Birmingham
+source: JobG8
+job_id: jobg8-1887332
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Marketing & Client Services Coordinator
 company: The Recruitment Experts - Agency - Permanent
 location: Birmingham
@@ -172,11 +196,11 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Marketing & Customer Support Manager
-company: Flat Fee Recruiter - Agency - Permanent
-location: Birmingham
-source: JobG8
-job_id: jobg8-107928946
+title: Medical Administrator
+company: West Heath Surgery
+location: Birmingham, B31 3HB, Birmingham, B38 8AX
+source: NHS Jobs
+job_id: nhs-5587707
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -201,18 +225,6 @@ company: St James Catholic Primary School
 location: Birmingham
 source: Teaching Vacancies
 job_id: teaching-vacancies-office-administrator-st-james-catholic-primary-school
-reason: Approved conservative Birmingham launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Office Administrator
-company: ST Selection - Agency - Permanent
-location: Birmingham
-source: JobG8
-job_id: jobg8-23643_225493038
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -280,6 +292,18 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Receptionist
+company: Major Recruitment Oldbury - Agency - Permanent
+location: Birmingham
+source: JobG8
+job_id: jobg8-23643_225557310
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Receptionist/Administrator
 company: The Wand Medical Centre
 location: Birmingham, B12 0UF
@@ -316,11 +340,11 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
-company: Qualify Nation Recruitment - Agency - Permanent
+title: Student Inclusion Administrator
+company: University College Birmingham - Company - Contract
 location: Birmingham
 source: JobG8
-job_id: jobg8-1880914
+job_id: jobg8-23643_225589554
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -336,7 +360,7 @@ job_id: jobg8-1867585
 reason: Approved conservative Birmingham launch catchment.
 ---
 
-## REVIEW (5)
+## REVIEW (6)
 
 ---
 action: 
@@ -359,6 +383,18 @@ company: PSR Solutions - Agency - Permanent
 location: Shirley
 source: JobG8
 job_id: jobg8-23643_225569768
+reason: No approved Birmingham catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Digital Marketing Officer
+company: Fareshare Midlands - Agency - Permanent
+location: Staffordshire
+source: JobG8
+job_id: jobg8-1892172
 reason: No approved Birmingham catchment rule matched; local review required.
 ---
 

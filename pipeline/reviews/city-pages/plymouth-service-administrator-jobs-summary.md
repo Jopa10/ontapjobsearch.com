@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 2
-- automatic review: 20
+- automatic review: 19
 - automatic exclude: 0
 - effective include: 2
-- effective review: 20
+- effective review: 19
 - effective exclude: 0
 
 ## INCLUDE (2)
@@ -48,7 +48,7 @@ job_id: jobg8-23643_225509220
 reason: Exact approved Plymouth workplace.
 ---
 
-## REVIEW (20)
+## REVIEW (19)
 
 ---
 action: 
@@ -167,18 +167,6 @@ company: Artis Recruitment - Agency - Permanent
 location: Newton Abbot
 source: JobG8
 job_id: jobg8-1841483
-reason: No exact Plymouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: HR Coordinator
-company: Pertemps Plymouth Commercial - Agency - Permanent
-location: Devon
-source: JobG8
-job_id: jobg8-1849091
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 

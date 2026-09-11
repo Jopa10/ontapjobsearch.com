@@ -4,8 +4,8 @@
 - Live route: `/stoke-on-trent/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 6
-- Threshold currently met: yes
+- Effective included jobs: 3
+- Threshold currently met: no
 
 ## How to review
 Edit only the `action:` line inside a job block.
@@ -15,38 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 6
-- automatic review: 16
+- automatic include: 3
+- automatic review: 15
 - automatic exclude: 0
-- effective include: 6
-- effective review: 16
+- effective include: 3
+- effective review: 15
 - effective exclude: 0
 
-## INCLUDE (6)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrative Assistant
-company: The Shaw Education Trust
-location: Stoke-On-Trent
-source: Teaching Vacancies
-job_id: teaching-vacancies-administrative-assistant-the-shaw-education-trust
-reason: Exact approved Stoke-on-trent workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: HR Assistant
-company: GXO Logistics - Company - Permanent
-location: Stoke-On-Trent
-source: JobG8
-job_id: jobg8-1785762
-reason: Exact approved Stoke-on-trent workplace.
----
+## INCLUDE (3)
 
 ---
 action: 
@@ -80,23 +56,11 @@ title: Team Administrator
 company: North Staffordshire Combined Healthcare Trust
 location: Stoke-on-Trent, ST4 6TH
 source: NHS Jobs
-job_id: nhs-5575141
-reason: Exact approved Stoke-on-trent workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Team Administrator
-company: North Staffordshire Combined Healthcare Trust
-location: Stoke-on-Trent, ST4 6TH
-source: NHS Jobs
 job_id: nhs-5583352
 reason: Exact approved Stoke-on-trent workplace.
 ---
 
-## REVIEW (16)
+## REVIEW (15)
 
 ---
 action: 
@@ -119,18 +83,6 @@ company: Inclusion
 location: Stafford, ST16 3AT
 source: NHS Jobs
 job_id: nhs-5581973
-reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Attendance Officer - Level 4
-company: Longford Primary Academy
-location: Cannock
-source: Teaching Vacancies
-job_id: teaching-vacancies-attendance-officer-level-4-longford-primary-academy
 reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
 ---
 
@@ -167,18 +119,6 @@ company: Brampton Recruitment Ltd - Agency - Permanent
 location: Staffordshire
 source: JobG8
 job_id: jobg8-23643_225570926
-reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: HR Coordinator
-company: SF Partners - Agency - Permanent
-location: Tamworth
-source: JobG8
-job_id: jobg8-1833926
 reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
 ---
 
@@ -275,6 +215,18 @@ company: Avery Healthcare Group Ltd.
 location: Stafford, ST16 1LD
 source: NHS Jobs
 job_id: nhs-5586805
+reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Sales Coordinator
+company: INSTARMAC GROUP - Agency - Permanent
+location: Staffordshire
+source: JobG8
+job_id: jobg8-107665691
 reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
 ---
 

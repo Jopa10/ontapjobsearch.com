@@ -4,8 +4,8 @@
 - Live route: `/peterborough/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 6
-- Threshold currently met: yes
+- Effective included jobs: 5
+- Threshold currently met: no
 
 ## How to review
 Edit only the `action:` line inside a job block.
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 6
+- automatic include: 5
 - automatic review: 4
-- automatic exclude: 15
-- effective include: 6
+- automatic exclude: 14
+- effective include: 5
 - effective review: 4
-- effective exclude: 15
+- effective exclude: 14
 
-## INCLUDE (6)
+## INCLUDE (5)
 
 ---
 action: 
@@ -69,18 +69,6 @@ company: Schoolblazer - Agency - Permanent
 location: Peterborough
 source: JobG8
 job_id: jobg8-193158007228884582437340
-reason: Approved conservative Peterborough launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Senior Marketing Executive
-company: Strange And Wright Recruitment Partners Ltd - Agency - Permanent
-location: Peterborough
-source: JobG8
-job_id: jobg8-107906533
 reason: Approved conservative Peterborough launch catchment.
 ---
 
@@ -146,7 +134,7 @@ job_id: jobg8-23643_225519683
 reason: No approved Peterborough catchment rule matched; local review required.
 ---
 
-## EXCLUDE (15)
+## EXCLUDE (14)
 
 ---
 action: 
@@ -289,18 +277,6 @@ company: Property Personnel - Agency - Permanent
 location: Cambridge
 source: JobG8
 job_id: jobg8-1876189
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Office Administrator
-company: EA First - Agency - Permanent
-location: Cambridge
-source: JobG8
-job_id: jobg8-23643_225570284
 reason: Separate employment market.
 ---
 

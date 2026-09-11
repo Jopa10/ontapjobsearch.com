@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 5
-- automatic review: 15
+- automatic review: 14
 - automatic exclude: 0
 - effective include: 5
-- effective review: 15
+- effective review: 14
 - effective exclude: 0
 
 ## INCLUDE (5)
@@ -84,7 +84,7 @@ job_id: jobg8-107932522
 reason: Exact approved Northampton workplace.
 ---
 
-## REVIEW (15)
+## REVIEW (14)
 
 ---
 action: 
@@ -191,18 +191,6 @@ company: Abacus Consulting - Agency - Permanent
 location: Northamptonshire
 source: JobG8
 job_id: jobg8-1800671
-reason: No exact Northampton workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Planner
-company: Randstad Delivery - Agency - Contract
-location: Northamptonshire
-source: JobG8
-job_id: jobg8-23643_225389352
 reason: No exact Northampton workplace matched; local geographic review is required.
 ---
 

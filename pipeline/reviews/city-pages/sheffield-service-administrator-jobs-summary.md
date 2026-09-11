@@ -4,7 +4,7 @@
 - Live route: `/sheffield/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 13
+- Effective included jobs: 11
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 13
+- automatic include: 11
 - automatic review: 2
-- automatic exclude: 6
-- effective include: 13
+- automatic exclude: 7
+- effective include: 11
 - effective review: 2
-- effective exclude: 6
+- effective exclude: 7
 
-## INCLUDE (13)
+## INCLUDE (11)
 
 ---
 action: 
@@ -136,18 +136,6 @@ reason: Approved Sheffield catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Resource Coordinator
-company: Jackson Hogg Ltd - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-23643_225485987
-reason: Approved Sheffield catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Sales & Operations Coordinator
 company: Major Recruitment - Perm Manager - Agency - Permanent
 location: Sheffield
@@ -165,18 +153,6 @@ company: Ranson Barnes Recruitment Limited - Agency - Permanent
 location: Sheffield
 source: JobG8
 job_id: jobg8-107870378
-reason: Approved Sheffield catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: SEND Administrator
-company: Aston Academy
-location: Sheffield
-source: Teaching Vacancies
-job_id: teaching-vacancies-send-administrator-aston-academy-sheffield-south-yorkshire
 reason: Approved Sheffield catchment.
 ---
 
@@ -206,7 +182,7 @@ job_id: jobg8-23643_225575501
 reason: No approved Sheffield catchment rule matched; local review required.
 ---
 
-## EXCLUDE (6)
+## EXCLUDE (7)
 
 ---
 action: 
@@ -241,6 +217,18 @@ company: Elysium Healthcare
 location: Barnsley, S71 4FL
 source: NHS Jobs
 job_id: nhs-5584270
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Business Support Officer
+company: Rotherham Parents Forum Limited - Agency - Permanent
+location: Rotherham
+source: JobG8
+job_id: jobg8-1892135
 reason: Separate employment market.
 ---
 

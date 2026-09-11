@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 1
-- automatic review: 14
+- automatic review: 16
 - automatic exclude: 0
 - effective include: 1
-- effective review: 14
+- effective review: 16
 - effective exclude: 0
 
 ## INCLUDE (1)
@@ -36,7 +36,19 @@ job_id: teaching-vacancies-senior-administrator-braeburn-primary-and-nursery-aca
 reason: Exact approved Scarborough workplace.
 ---
 
-## REVIEW (14)
+## REVIEW (16)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator - HR Department
+company: Hays Business Support - Agency - Permanent
+location: Northallerton
+source: JobG8
+job_id: jobg8-23643_225592726
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
 
 ---
 action: 
@@ -95,6 +107,18 @@ company: SI Recruitment - Agency - Permanent
 location: Northallerton
 source: JobG8
 job_id: jobg8-107893306
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Executive Assistant
+company: 4Recruitment Services - Agency - Contract
+location: York
+source: JobG8
+job_id: jobg8-23643_225490386
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 

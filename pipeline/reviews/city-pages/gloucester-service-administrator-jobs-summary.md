@@ -4,7 +4,7 @@
 - Live route: `/gloucester/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 3
+- Effective included jobs: 2
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 3
-- automatic review: 22
+- automatic include: 2
+- automatic review: 25
 - automatic exclude: 0
-- effective include: 3
-- effective review: 22
+- effective include: 2
+- effective review: 25
 - effective exclude: 0
 
-## INCLUDE (3)
+## INCLUDE (2)
 
 ---
 action: 
@@ -48,19 +48,7 @@ job_id: jobg8-1766933
 reason: Exact approved Gloucester workplace.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Senior Administrative Assistant - Immunisation Team
-company: Gloucestershire Health and Care NHS Foundation Trust
-location: Gloucester, GL3 4AW
-source: NHS Jobs
-job_id: nhs-5551856
-reason: Exact approved Gloucester workplace.
----
-
-## REVIEW (22)
+## REVIEW (25)
 
 ---
 action: 
@@ -71,6 +59,18 @@ company: BMSL Group Ltd - Agency - Permanent
 location: Gloucestershire
 source: JobG8
 job_id: jobg8-23643_225321490
+reason: No exact Gloucester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Brand Marketing Manager
+company: Gardiner Bros and Company (leathers) Ltd - Agency - Permanent
+location: Gloucestershire
+source: JobG8
+job_id: jobg8-107911468
 reason: No exact Gloucester workplace matched; local geographic review is required.
 ---
 
@@ -246,6 +246,18 @@ reason: No exact Gloucester workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
+title: Receptionist
+company: Yorkleigh Surgery
+location: Cheltenham, GL50 3ED
+source: NHS Jobs
+job_id: nhs-5590140
+reason: No exact Gloucester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Receptionist & Administration Assistant
 company: Gloucestershire Health and Care NHS Foundation Trust
 location: Cirencester, GL7 1RQ
@@ -287,6 +299,18 @@ company: First Base - Agency - Permanent
 location: Cirencester
 source: JobG8
 job_id: jobg8-23643_225522823
+reason: No exact Gloucester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Service Advisor
+company: Reactive Permanent Recruitment - Agency - Permanent
+location: Gloucestershire
+source: JobG8
+job_id: jobg8-23643_225489837
 reason: No exact Gloucester workplace matched; local geographic review is required.
 ---
 

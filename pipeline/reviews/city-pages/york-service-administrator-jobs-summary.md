@@ -4,7 +4,7 @@
 - Live route: `/york/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 4
+- Effective included jobs: 5
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 4
+- automatic include: 5
 - automatic review: 5
-- automatic exclude: 6
-- effective include: 4
+- automatic exclude: 7
+- effective include: 5
 - effective review: 5
-- effective exclude: 6
+- effective exclude: 7
 
-## INCLUDE (4)
+## INCLUDE (5)
 
 ---
 action: 
@@ -45,6 +45,18 @@ company: KD Recruitment Limited - Agency - Permanent
 location: York
 source: JobG8
 job_id: jobg8-107840612
+reason: Approved York catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Executive Assistant
+company: 4Recruitment Services - Agency - Contract
+location: York
+source: JobG8
+job_id: jobg8-23643_225490386
 reason: Approved York catchment.
 ---
 
@@ -134,7 +146,19 @@ job_id: jobg8-23643_225581619
 reason: No approved York catchment rule matched; local review required.
 ---
 
-## EXCLUDE (6)
+## EXCLUDE (7)
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Administrator - HR Department
+company: Hays Business Support - Agency - Permanent
+location: Northallerton
+source: JobG8
+job_id: jobg8-23643_225592726
+reason: Separate employment market.
+---
 
 ---
 action: 

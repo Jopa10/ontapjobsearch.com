@@ -4,7 +4,7 @@
 - Live route: `/liverpool/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 19
+- Effective included jobs: 21
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 19
+- automatic include: 21
 - automatic review: 4
 - automatic exclude: 0
-- effective include: 19
+- effective include: 21
 - effective review: 4
 - effective exclude: 0
 
-## INCLUDE (19)
+## INCLUDE (21)
 
 ---
 action: 
@@ -124,6 +124,30 @@ reason: Approved conservative Liverpool launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Digital Experience Manager
+company: Liverpool Chamber - Agency - Permanent
+location: Liverpool
+source: JobG8
+job_id: jobg8-577475944
+reason: Approved conservative Liverpool launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Digital Marketing Apprentice
+company: NowSkills - Agency - Contract
+location: Liverpool
+source: JobG8
+job_id: jobg8-107940598
+reason: Approved conservative Liverpool launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Digital Marketing Assistant Manager
 company: MHA - Agency - Permanent
 location: Liverpool
@@ -172,6 +196,18 @@ reason: Approved conservative Liverpool launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Personal Assistant
+company: Liverpool University Hospitals NHS Foundation Trust
+location: Liverpool, L9 7AL
+source: NHS Jobs
+job_id: nhs-5590748
+reason: Approved conservative Liverpool launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Project Administrator
 company: Walker Sime - Agency - Permanent
 location: Liverpool
@@ -213,18 +249,6 @@ company: Ford Medical Practice
 location: Liverpool, L210DF
 source: NHS Jobs
 job_id: nhs-5584062
-reason: Approved conservative Liverpool launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Receptionist/Administrator
-company: SSP Health
-location: Liverpool, L9 8BU
-source: NHS Jobs
-job_id: nhs-5565709
 reason: Approved conservative Liverpool launch catchment.
 ---
 
@@ -298,7 +322,7 @@ title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Merseyside
 source: JobG8
-job_id: jobg8-1880924
+job_id: jobg8-1887985
 reason: Broad county location; review before Liverpool inclusion.
 ---
 

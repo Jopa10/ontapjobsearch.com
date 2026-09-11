@@ -4,8 +4,8 @@
 - Live route: `/bournemouth/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 4
-- Threshold currently met: yes
+- Effective included jobs: 2
+- Threshold currently met: no
 
 ## How to review
 Edit only the `action:` line inside a job block.
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 4
-- automatic review: 12
+- automatic include: 2
+- automatic review: 11
 - automatic exclude: 0
-- effective include: 4
-- effective review: 12
+- effective include: 2
+- effective review: 11
 - effective exclude: 0
 
-## INCLUDE (4)
+## INCLUDE (2)
 
 ---
 action: 
@@ -40,39 +40,15 @@ reason: Exact approved Bournemouth workplace.
 action: 
 decision: include
 automatic_decision: include
-title: PA to Leadership Team
-company: The Bishop of Winchester Academy
-location: Bournemouth
-source: Teaching Vacancies
-job_id: teaching-vacancies-pa-to-leadership-team-7142bdd9-1ed4-4fb4-8b84-985f95668569
-reason: Exact approved Bournemouth workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Receptionist
-company: Beaufort Road Surgery
-location: Bournemouth, BH6 5AJ
+title: Receptionist - Bank
+company: Avery Healthcare Group Ltd.
+location: Bournemouth, BH4 9DR
 source: NHS Jobs
-job_id: nhs-5586731
+job_id: nhs-5591331
 reason: Exact approved Bournemouth workplace.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Receptionist - Part Time
-company: The Bishop of Winchester Academy
-location: Bournemouth
-source: Teaching Vacancies
-job_id: teaching-vacancies-receptionist-part-time-the-bishop-of-winchester-academy
-reason: Exact approved Bournemouth workplace.
----
-
-## REVIEW (12)
+## REVIEW (11)
 
 ---
 action: 
@@ -95,18 +71,6 @@ company: Reed - Agency - Permanent
 location: Dorset
 source: JobG8
 job_id: jobg8-1766324
-reason: No exact Bournemouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
-company: Agincare
-location: Dorchester, DT1 2EN
-source: NHS Jobs
-job_id: nhs-5589007
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 

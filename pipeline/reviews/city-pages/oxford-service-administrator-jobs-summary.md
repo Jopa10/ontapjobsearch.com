@@ -4,7 +4,7 @@
 - Live route: `/oxford/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 7
+- Effective included jobs: 6
 - Threshold currently met: yes
 
 ## How to review
@@ -15,38 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 7
-- automatic review: 9
+- automatic include: 6
+- automatic review: 10
 - automatic exclude: 16
-- effective include: 7
-- effective review: 9
+- effective include: 6
+- effective review: 10
 - effective exclude: 16
 
-## INCLUDE (7)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrator
-company: Oxford Health NHS Trust
-location: Oxford, OX2 8TA
-source: NHS Jobs
-job_id: nhs-5577835
-reason: Approved conservative Oxford launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrator
-company: Oxford Health NHS Trust
-location: Oxford, OX3 7JH
-source: NHS Jobs
-job_id: nhs-5579704
-reason: Approved conservative Oxford launch catchment.
----
+## INCLUDE (6)
 
 ---
 action: 
@@ -57,6 +33,18 @@ company: Niche Recruitment Ltd - Agency - Permanent
 location: Oxford
 source: JobG8
 job_id: jobg8-1789906
+reason: Approved conservative Oxford launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Forensic Administrator - Littlemore, Oxford
+company: Oxford Health NHS Trust
+location: Oxford, OX4 4XN
+source: NHS Jobs
+job_id: nhs-5573609
 reason: Approved conservative Oxford launch catchment.
 ---
 
@@ -108,7 +96,7 @@ job_id: jobg8-23643_225524539
 reason: Approved conservative Oxford launch catchment.
 ---
 
-## REVIEW (9)
+## REVIEW (10)
 
 ---
 action: 
@@ -191,6 +179,18 @@ company: BramahHR Ltd - Agency - Contract
 location: Thame
 source: JobG8
 job_id: jobg8-23643_225571244
+reason: No approved Oxford catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Part-time Forensic Administrator - HMP Huntercombe
+company: Oxford Health NHS Trust
+location: Henley-On-Thames, RG9 5SG
+source: NHS Jobs
+job_id: nhs-5573643
 reason: No approved Oxford catchment rule matched; local review required.
 ---
 
@@ -308,6 +308,18 @@ reason: Broad county location; not Oxford-city evidence.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Lettings Administrator
+company: Gill Cooke Personnel Ltd T/A The Recruitment Group - Agency - Permanent
+location: Oxfordshire
+source: JobG8
+job_id: jobg8-23643_225491912
+reason: Broad county location; not Oxford-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Marketing Consultant
 company: FS1 Recruitment - Agency - Contract
 location: Oxfordshire
@@ -380,34 +392,22 @@ reason: Broad county location; not Oxford-city evidence.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Sales Coordinator
+company: The Recruitment Group - Agency - Permanent
+location: Oxfordshire
+source: JobG8
+job_id: jobg8-107953660
+reason: Broad county location; not Oxford-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Service Advisor
 company: The Solution Automotive Limited - Agency - Permanent
 location: Oxfordshire
 source: JobG8
 job_id: jobg8-107842072
-reason: Broad county location; not Oxford-city evidence.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Temporary Administrators - Register Your Interest
-company: Allen Associates - Agency - Temporary
-location: Oxfordshire
-source: JobG8
-job_id: jobg8-23643_225544143
-reason: Broad county location; not Oxford-city evidence.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Temporary Office Assistant
-company: Allen Associates - Agency - Temporary
-location: Oxfordshire
-source: JobG8
-job_id: jobg8-23643_225544109
 reason: Broad county location; not Oxford-city evidence.
 ---

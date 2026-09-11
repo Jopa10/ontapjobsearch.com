@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 5
-- automatic review: 55
+- automatic review: 62
 - automatic exclude: 0
 - effective include: 5
-- effective review: 55
+- effective review: 62
 - effective exclude: 0
 
 ## INCLUDE (5)
@@ -64,6 +64,18 @@ reason: Exact approved Newtownabbey workplace.
 action: 
 decision: include
 automatic_decision: include
+title: HR Administrator (Temp)
+company: Honeycomb Jobs Ltd - Agency - Permanent
+location: Newtownabbey
+source: JobG8
+job_id: jobg8-2052465
+reason: Exact approved Newtownabbey workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Medical Receptionist (21.5 hrs pw)
 company: Lynda Jacobs Recruitment - Agency - Permanent
 location: Newtownabbey
@@ -72,19 +84,7 @@ job_id: jobg8-2050449
 reason: Exact approved Newtownabbey workplace.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Medical Receptionist/ Administrator (18.5 hrs pw)
-company: Lynda Jacobs Recruitment - Agency - Permanent
-location: Newtownabbey
-source: JobG8
-job_id: jobg8-2052202
-reason: Exact approved Newtownabbey workplace.
----
-
-## REVIEW (55)
+## REVIEW (62)
 
 ---
 action: 
@@ -119,6 +119,30 @@ company: Reed Specialist Recruitment - Agency - Permanent
 location: Belfast
 source: JobG8
 job_id: jobg8-2050348
+reason: No exact Newtownabbey workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Assistant
+company: Reed Specialist Recruitment - Agency - Permanent
+location: Newtownards
+source: JobG8
+job_id: jobg8-2050393
+reason: No exact Newtownabbey workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Payable (Finance Administrator)
+company: Hays - Agency - Permanent
+location: County Down
+source: JobG8
+job_id: jobg8-2052344
 reason: No exact Newtownabbey workplace matched; local geographic review is required.
 ---
 
@@ -438,6 +462,18 @@ reason: No exact Newtownabbey workplace matched; local geographic review is requ
 action: 
 decision: review
 automatic_decision: review
+title: HR Administrator
+company: Reed Specialist Recruitment - Agency - Permanent
+location: Belfast
+source: JobG8
+job_id: jobg8-2052363
+reason: No exact Newtownabbey workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: HR Administrator (Lisburn)
 company: Honeycomb Jobs Ltd - Agency - Permanent
 location: Lisburn
@@ -510,6 +546,18 @@ reason: No exact Newtownabbey workplace matched; local geographic review is requ
 action: 
 decision: review
 automatic_decision: review
+title: Part Time Receptionist
+company: The Royal Belfast Academical Institution - Agency - Permanent
+location: Belfast
+source: JobG8
+job_id: jobg8-2052434
+reason: No exact Newtownabbey workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Payroll Administrator
 company: Hays - Agency - Permanent
 location: Belfast
@@ -527,6 +575,30 @@ company: Extern - Agency - Permanent
 location: County Antrim
 source: JobG8
 job_id: jobg8-2052259
+reason: No exact Newtownabbey workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Personal Assistant
+company: Reed Specialist Recruitment - Agency - Permanent
+location: Belfast
+source: JobG8
+job_id: jobg8-2052362
+reason: No exact Newtownabbey workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Reception/Training Coordinator
+company: Reed Specialist Recruitment - Agency - Permanent
+location: Belfast
+source: JobG8
+job_id: jobg8-2052455
 reason: No exact Newtownabbey workplace matched; local geographic review is required.
 ---
 
@@ -743,6 +815,18 @@ company: Task Recruitment - Agency - Permanent
 location: Belfast
 source: JobG8
 job_id: jobg8-2051377
+reason: No exact Newtownabbey workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Tenancy Support Co-Ordinator
+company: Clanmil Housing - Agency - Permanent
+location: Belfast
+source: JobG8
+job_id: jobg8-2052364
 reason: No exact Newtownabbey workplace matched; local geographic review is required.
 ---
 

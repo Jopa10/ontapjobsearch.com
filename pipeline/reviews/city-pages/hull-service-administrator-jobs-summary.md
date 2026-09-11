@@ -4,7 +4,7 @@
 - Live route: `/hull/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 12
+- Effective included jobs: 11
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 12
+- automatic include: 11
 - automatic review: 4
 - automatic exclude: 0
-- effective include: 12
+- effective include: 11
 - effective review: 4
 - effective exclude: 0
 
-## INCLUDE (12)
+## INCLUDE (11)
 
 ---
 action: 
@@ -156,29 +156,17 @@ job_id: jobg8-23643_225511107
 reason: Approved conservative Hull launch catchment.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Senior Administration Assistant
-company: Humber Teaching NHS Foundation Trust
-location: Hull, HU2 9AY
-source: NHS Jobs
-job_id: nhs-5575288
-reason: Approved conservative Hull launch catchment.
----
-
 ## REVIEW (4)
 
 ---
 action: 
 decision: review
 automatic_decision: review
-title: Customer Service Assistant
-company: Genda Playnation Entertainment Ltd - Agency - Temporary
-location: Driffield
-source: JobG8
-job_id: jobg8-107770477
+title: Administrator
+company: Hull University Teaching Hospitals NHS Trust
+location: Cottingham, HU16 5JQ
+source: NHS Jobs
+job_id: nhs-5591297
 reason: No approved Hull catchment rule matched; local review required.
 ---
 

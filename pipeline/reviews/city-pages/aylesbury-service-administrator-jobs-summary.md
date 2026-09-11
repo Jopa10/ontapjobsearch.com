@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 4
-- automatic review: 38
+- automatic review: 33
 - automatic exclude: 0
 - effective include: 4
-- effective review: 38
+- effective review: 33
 - effective exclude: 0
 
 ## INCLUDE (4)
@@ -72,7 +72,7 @@ job_id: nhs-5573111
 reason: Exact approved Aylesbury workplace.
 ---
 
-## REVIEW (38)
+## REVIEW (33)
 
 ---
 action: 
@@ -234,11 +234,11 @@ reason: No exact Aylesbury workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: CRM Marketing Manager
-company: Peopleforge Ltd - Agency - Permanent
-location: Buckinghamshire
+title: Communications and Marketing Manager
+company: Bucks Students Union - Agency - Permanent
+location: High Wycombe
 source: JobG8
-job_id: jobg8-107925787
+job_id: jobg8-1891738
 reason: No exact Aylesbury workplace matched; local geographic review is required.
 ---
 
@@ -311,18 +311,6 @@ company: Invictus Group - Agency - Contract
 location: Milton Keynes
 source: JobG8
 job_id: jobg8-23643_225544622
-reason: No exact Aylesbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: GP Receptionist
-company: Water Meadow Surgery
-location: Chesham, HP5 1ET
-source: NHS Jobs
-job_id: nhs-5559695
 reason: No exact Aylesbury workplace matched; local geographic review is required.
 ---
 
@@ -414,30 +402,6 @@ reason: No exact Aylesbury workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: PPC Executive
-company: FS1 Recruitment - Agency - Permanent
-location: Buckinghamshire
-source: JobG8
-job_id: jobg8-23643_225580896
-reason: No exact Aylesbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: PPC Executive
-company: FS1 Recruitment - Marketing, Creative, Digital, Finance, HR, Sales, Admin - Agency - Permanent
-location: Buckinghamshire
-source: JobG8
-job_id: jobg8-1873723
-reason: No exact Aylesbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Product Content Creator Photography & Videography
 company: Synergy Plus Recruitment Ltd - Agency - Permanent
 location: Milton Keynes
@@ -474,18 +438,6 @@ reason: No exact Aylesbury workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Sales Support Coordinator
-company: Woop ltd - Agency - Permanent
-location: Buckinghamshire
-source: JobG8
-job_id: jobg8-23643_225528642
-reason: No exact Aylesbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: SEO Executive
 company: Job Board Direct - Agency - Permanent
 location: Gerrards Cross
@@ -515,18 +467,6 @@ company: Job Board Direct - Agency - Permanent
 location: Gerrards Cross
 source: JobG8
 job_id: jobg8-107791333
-reason: No exact Aylesbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Social Media Manager
-company: Mixxos - Agency - Permanent
-location: Buckinghamshire
-source: JobG8
-job_id: jobg8-107890675
 reason: No exact Aylesbury workplace matched; local geographic review is required.
 ---
 

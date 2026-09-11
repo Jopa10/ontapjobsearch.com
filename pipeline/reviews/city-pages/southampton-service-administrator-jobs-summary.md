@@ -4,7 +4,7 @@
 - Live route: `/southampton/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 7
+- Effective included jobs: 6
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 7
-- automatic review: 29
-- automatic exclude: 19
-- effective include: 7
-- effective review: 29
-- effective exclude: 19
+- automatic include: 6
+- automatic review: 26
+- automatic exclude: 20
+- effective include: 6
+- effective review: 26
+- effective exclude: 20
 
-## INCLUDE (7)
+## INCLUDE (6)
 
 ---
 action: 
@@ -64,18 +64,6 @@ reason: Approved Southampton catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Patient Administrator
-company: University Hospital Southampton NHS Trust
-location: Southampton, SO16 5YA
-source: NHS Jobs
-job_id: nhs-5273675
-reason: Approved Southampton catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Project Document Controller
 company: Octagon Group - Agency - Permanent
 location: Southampton
@@ -108,7 +96,7 @@ job_id: nhs-5589814
 reason: Approved Southampton catchment.
 ---
 
-## REVIEW (29)
+## REVIEW (26)
 
 ---
 action: 
@@ -151,11 +139,11 @@ action:
 decision: review
 automatic_decision: review
 title: Administrator
-company: Hampshire Recruitment Group LTD - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-23643_225555162
-reason: Broad location; review before city inclusion.
+company: Rowner Medical Centre
+location: Gosport, PO13 9SP
+source: NHS Jobs
+job_id: nhs-5591061
+reason: No approved Southampton catchment rule matched; local review required.
 ---
 
 ---
@@ -270,18 +258,6 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Customer Service Coordinator
-company: Vistry Group - Company - Contract
-location: Hampshire
-source: JobG8
-job_id: jobg8-107892817
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Exams Officer and Assessment Data Co ordinator
 company: Perins School
 location: Alresford
@@ -306,11 +282,11 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Housing Repairs Administrator
-company: Thorngate Churcher Trust - Agency - Permanent
-location: Gosport
+title: HR Administrator
+company: 4Recruitment Services - Agency - Contract
+location: Lyndhurst
 source: JobG8
-job_id: jobg8-23643_225537561
+job_id: jobg8-23643_225579893
 reason: No approved Southampton catchment rule matched; local review required.
 ---
 
@@ -319,10 +295,10 @@ action:
 decision: review
 automatic_decision: review
 title: HR Administrator
-company: 4Recruitment Services - Agency - Contract
+company: 4Recruitment Services - Agency - Permanent
 location: Lyndhurst
 source: JobG8
-job_id: jobg8-23643_225579893
+job_id: jobg8-1871498
 reason: No approved Southampton catchment rule matched; local review required.
 ---
 
@@ -378,36 +354,12 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Patient Care Co-ordinator/Receptionist
-company: Abbeywell Surgery
-location: Romsey, SO51 8EN, Romsey, SO517QN
-source: NHS Jobs
-job_id: nhs-5522984
-reason: No approved Southampton catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Project & Office Administrator
 company: Venus Recruitment Ltd - Agency - Permanent
 location: Fleet
 source: JobG8
 job_id: jobg8-23643_225511982
 reason: No approved Southampton catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Reception Admin £28k! Full time & Part time available
-company: Office Angels - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-23643_225493402
-reason: Broad location; review before city inclusion.
 ---
 
 ---
@@ -458,17 +410,17 @@ job_id: jobg8-23643_225397700
 reason: Broad location; review before city inclusion.
 ---
 
-## EXCLUDE (19)
+## EXCLUDE (20)
 
 ---
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Admin Assistant - Care Home
-company: Barchester Healthcare
-location: Fareham, PO14 2NF
+title: Administrator
+company: Inclusion
+location: Eastleigh, PO16 0NX
 source: NHS Jobs
-job_id: nhs-5522934
+job_id: nhs-5586737
 reason: Separate employment market.
 ---
 
@@ -649,6 +601,18 @@ company: Search Consultancy Ltd - Agency - Contract
 location: Portsmouth
 source: JobG8
 job_id: jobg8-23643_225564118
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Receptionist/Administrator
+company: Operose Health
+location: Basingstoke, RG22 4EH
+source: NHS Jobs
+job_id: nhs-5592877
 reason: Separate employment market.
 ---
 

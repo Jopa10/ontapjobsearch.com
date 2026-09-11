@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 48
-- automatic review: 27
-- automatic exclude: 23
+- automatic review: 29
+- automatic exclude: 25
 - effective include: 48
-- effective review: 27
-- effective exclude: 23
+- effective review: 29
+- effective exclude: 25
 
 ## INCLUDE (48)
 
@@ -545,10 +545,10 @@ action:
 decision: include
 automatic_decision: include
 title: Medical Receptionist
-company: Betts Avenue Medical Centre
-location: Newcastle Upon Tyne, NE15 6TQ, Newcastle Upon Tyne, NE3 3QP
+company: Parkway Medical Group
+location: Newcastle upon Tyne, NE5 1LJ
 source: NHS Jobs
-job_id: nhs-5555684
+job_id: nhs-5593158
 reason: Approved Newcastle catchment.
 ---
 
@@ -600,7 +600,7 @@ job_id: nhs-5576748
 reason: Approved Newcastle catchment.
 ---
 
-## REVIEW (27)
+## REVIEW (29)
 
 ---
 action: 
@@ -798,6 +798,18 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
+title: HR Assistant
+company: Nigel Wright Group - Agency - Permanent
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-1892511
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Medical Administrator
 company: Pelton and Fellrose Medical Group
 location: Chester Le Street, DH2 1HS, Chester Le Street, DH2 2NH
@@ -834,6 +846,18 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
+title: Receptionist
+company: Daniel Owen Ltd - Agency - Temporary
+location: Cramlington
+source: JobG8
+job_id: jobg8-23643_225591391
+reason: No approved Newcastle catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Scheduling Co-Ordinator
 company: Inside Cleaning - Agency - Permanent
 location: Northumberland
@@ -846,12 +870,12 @@ reason: No approved Newcastle catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Senior Administrator- Medical Secretary
-company: Tees Esk and Wear Valleys NHS Foundation Trust
-location: Chester le Street, DH3 3UR
-source: NHS Jobs
-job_id: nhs-5563197
-reason: No approved Newcastle catchment rule matched; local review required.
+title: Social Media Coordinator
+company: Bellway Homes - Agency - Contract
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-107953124
+reason: Broad location; review before city inclusion.
 ---
 
 ---
@@ -898,7 +922,7 @@ title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Tyne And Wear
 source: JobG8
-job_id: jobg8-1880926
+job_id: jobg8-1887987
 reason: Broad location; review before city inclusion.
 ---
 
@@ -926,7 +950,7 @@ job_id: vonne-173391
 reason: No approved Newcastle catchment rule matched; local review required.
 ---
 
-## EXCLUDE (23)
+## EXCLUDE (25)
 
 ---
 action: 
@@ -1016,6 +1040,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Clinical Team Administrator
+company: Tees Esk and Wear Valleys NHS Foundation Trust
+location: Durham, DH1 5RD
+source: NHS Jobs
+job_id: nhs-5591916
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Customer Experience Coordinator
 company: Linear Recruitment Ltd - Agency - Contract
 location: Sunderland
@@ -1064,11 +1100,35 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Maintenance Co-ordinator
+company: Recruitment Helpline - Agency - Permanent
+location: County Durham
+source: JobG8
+job_id: jobg8-23643_225595303
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Marketing Business Partner
 company: SRG - Agency - Contract
 location: County Durham
 source: JobG8
 job_id: jobg8-23643_225513399
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Marketing Executive
+company: Integral UK Ltd - Company - Permanent
+location: County Durham
+source: JobG8
+job_id: jobg8-107878737
 reason: Separate employment market.
 ---
 
@@ -1129,18 +1189,6 @@ company: Age UK County Durham
 location: Age UK County Durham
 source: NEJobs
 job_id: nejobs-301543
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Receptionist
-company: Foundation of Light
-location: Sunderland
-source: VONNE
-job_id: vonne-173374
 reason: Separate employment market.
 ---
 
