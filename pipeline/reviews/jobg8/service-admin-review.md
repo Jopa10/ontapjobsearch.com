@@ -1132,11 +1132,10 @@ job_id: 1893784
 ## LONDON — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - LONDON | London | London | £22.80 per hour | Grants and Operations Coordinator
 job_id: 1892199
 ---
-
 ## HAMPSHIRE — SELECTED
 
 ---
@@ -1376,11 +1375,10 @@ job_id: 107881829
 ## HAMPSHIRE — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - HAMPSHIRE | Hampshire | Hampshire | £60000 per year | Financial Planner
 job_id: 1891480
 ---
-
 ## SURREY — SELECTED
 
 ---
@@ -1824,11 +1822,10 @@ job_id: 107948013
 ## KENT — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - KENT | Kent | Kent | £181 per daily | Asset Management Administrator
 job_id: 23643_225592868
 ---
-
 ## SUSSEX — SELECTED
 
 ---
@@ -2228,11 +2225,10 @@ job_id: 23643_225586192
 ## BEDFORDSHIRE — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - BEDFORDSHIRE | Bedfordshire | Bedfordshire | £35000 per year | Product Coordinator
 job_id: 1891695
 ---
-
 ## BERKSHIRE — SELECTED
 
 ---
@@ -3888,17 +3884,15 @@ job_id: 1877355
 ## NORFOLK — POSSIBLES
 
 ---
-action:
+action: select
 POSS - NORFOLK | Norfolk | Norfolk | £30000 - £35000 per year | Finance Assistant
 job_id: 1891535
 ---
-
 ---
-action:
+action: select
 POSS - NORFOLK | Norfolk | Norfolk | £28000 - £32000 per year | Finance Assistant
 job_id: 23643_225492293
 ---
-
 ## NORTH SCOTLAND — SELECTED
 
 ---
@@ -4354,17 +4348,15 @@ job_id: 2052362
 ## NORTHERN IRELAND - EAST — POSSIBLES
 
 ---
-action:
+action: select
 POSS - NORTHERN IRELAND - EAST | Northern Ireland - East | Newtownabbey | £15 - £16 per hour | HR Administrator (Temp)
 job_id: 2052465
 ---
-
 ---
-action:
+action: select
 POSS - NORTHERN IRELAND - EAST | Northern Ireland - East | Belfast | £27609.15 - £31000.47 per year | Tenancy Support Co-Ordinator
 job_id: 2052364
 ---
-
 ## NOTTINGHAMSHIRE — SELECTED
 
 ---
@@ -4700,11 +4692,10 @@ job_id: 23643_225590653
 ## SCOTLAND CENTRAL - TAYSIDE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - SCOTLAND CENTRAL - TAYSIDE | Scotland Central - Tayside | Kirriemuir | £35000 per year | Sales Coordinator (Agricultural)
 job_id: 107965670
 ---
-
 ## SCOTLAND WEST - GLASGOW — SELECTED
 
 ---
@@ -5556,7 +5547,7 @@ job_id: 23643_225592726
 ## YORKSHIRE - NORTH — POSSIBLES
 
 ---
-action:
+action: select
 POSS - YORKSHIRE - NORTH | Yorkshire - North | York | £20 per hour | Executive Assistant
 job_id: 23643_225490386
 ---
