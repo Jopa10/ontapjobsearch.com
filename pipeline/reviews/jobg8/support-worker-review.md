@@ -41,11 +41,7 @@ _No jobs in this group._
 
 ## NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL — SELECTED
 
----
-action:
-SELECTED | North East - County Durham & Darlington/Hartlepool | Durham | £17 - £20 per hour | Young Person Support Worker
-job_id: 23643_225493355
----
+_No jobs in this group._
 
 ## NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND — POSSIBLES
 
@@ -239,12 +235,6 @@ job_id: 2049999
 
 ---
 action:
-SELECTED | London | City | £12.75 - £21.55 per hour | Children's Residential Support Worker - Belfast
-job_id: 2049697
----
-
----
-action:
 SELECTED | London | City | £14.5 - £19.75 per hour | Housing Support Worker
 job_id: 23643_224986550
 ---
@@ -315,9 +305,19 @@ SELECTED | London | London | £16.95 per hour | Relief Worker - Care Assistant
 job_id: 1878281
 ---
 
+---
+action:
+SELECTED | London | London | £35000 per year | Founders Personal Assistant / Executive Assistant
+job_id: 107885503
+---
+
 ## LONDON — POSSIBLES
 
-_No jobs in this group._
+---
+action:
+POSS - LONDON | London | City | £12.75 - £21.55 per hour | Support Worker - Belfast
+job_id: 2052552
+---
 
 ## OXFORDSHIRE — SELECTED
 
@@ -373,6 +373,12 @@ job_id: 23643_225549480
 action:
 SELECTED | Wiltshire | Swindon | £14.43 per hour | Care Assistant
 job_id: 1877369
+---
+
+---
+action:
+SELECTED | Wiltshire | Swindon | £24000 per year | Residential Support Worker - Children's Home
+job_id: 107936277
 ---
 
 ## WILTSHIRE — POSSIBLES

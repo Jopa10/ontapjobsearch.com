@@ -1,7 +1,6 @@
 ﻿feed_date,decision,region,title,town,salary_text,manual_override,manual_select,job_id
 2026-09-11,SELECTED,Yorkshire - West,Health Care Assistant Nights,Halifax,£14.29 per hour,,,23643_225580403
 2026-09-11,SELECTED,Yorkshire - West,Live-In Personal Care Assistants for a University Student in Leeds,Leeds,£200 per daily,,,107797487
-2026-09-11,SELECTED,North East - County Durham & Darlington/Hartlepool,Young Person Support Worker,Durham,£17 - £20 per hour,,,23643_225493355
 2026-09-11,SELECTED,Sussex,ADHD Support Worker,Eastbourne,£92.54 - £97 per daily,,,23643_225552397
 2026-09-11,SELECTED,Sussex,Care assistant - East Grinstead,East Grinstead,£14.25 per hour,,,23643_225567530
 2026-09-11,SELECTED,Cumbria - South,Waking Night Extra Care Support Worker,Barrow-in-furness,£12.85 per hour,,,107911831
@@ -28,7 +27,6 @@
 2026-09-11,SELECTED,London,Autism Support Worker,Bromley,£100 - £110 per daily,,,1815970
 2026-09-11,SELECTED,London,Care Assistant,City,£13.39 per hour,,,2050890
 2026-09-11,SELECTED,London,Mental Health Support Worker Nightshift - Female Only,City,£13.69 per hour,,,2049999
-2026-09-11,SELECTED,London,Children's Residential Support Worker - Belfast,City,£12.75 - £21.55 per hour,,,2049697
 2026-09-11,SELECTED,London,Housing Support Worker,City,£14.5 - £19.75 per hour,,,23643_224986550
 2026-09-11,SELECTED,London,Personal Assistant (HR),London,£NEG None,,,23643_225572376
 2026-09-11,SELECTED,London,Reconnect+ Support Worker,London,£15.5 - £20 per hour,,,23643_225572316
@@ -41,6 +39,8 @@
 2026-09-11,SELECTED,London,Care Worker,London,£16.14 per hour,,,23643_225579170
 2026-09-11,SELECTED,London,Night Support worker X 2,London,"£30,784.00 per annum",,,1880232
 2026-09-11,SELECTED,London,Relief Worker - Care Assistant,London,£16.95 per hour,,,1878281
+2026-09-11,SELECTED,London,Founders Personal Assistant / Executive Assistant,London,£35000 per year,,,107885503
+2026-09-11,POSS - LONDON,London,Support Worker - Belfast,City,£12.75 - £21.55 per hour,,,2052552
 2026-09-11,SELECTED,Oxfordshire,Behaviour Support Assistant - Oxford,Oxford,£85 - £100 per daily,,,23643_225543862
 2026-09-11,SELECTED,Oxfordshire,Behaviour Support Assistant - Oxford,Oxford,£85 - £110 per daily,,,1819710
 2026-09-11,SELECTED,Oxfordshire,Children's Residential Support Worker,Burford,"£3,840 per year",,,25362_JR105004
@@ -48,3 +48,4 @@
 2026-09-11,SELECTED,Wiltshire,Female BSW Crisis House Peer Support Worker,Swindon,"£26,227 per annum",,,1787836
 2026-09-11,SELECTED,Wiltshire,Care Assistant - Bank - Care Home,Wiltshire,£13.81 per hour,,,23643_225549480
 2026-09-11,SELECTED,Wiltshire,Care Assistant,Swindon,£14.43 per hour,,,1877369
+2026-09-11,SELECTED,Wiltshire,Residential Support Worker - Children's Home,Swindon,£24000 per year,,,107936277
