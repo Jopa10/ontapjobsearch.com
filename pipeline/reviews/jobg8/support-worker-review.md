@@ -1,6 +1,6 @@
 # Support-worker manual review
 
-feed_date: 2026-09-10
+feed_date: 2026-09-11
 
 Edit only the `action:` line in each block:
 
@@ -67,12 +67,6 @@ job_id: 23643_225552397
 action:
 SELECTED | Sussex | East Grinstead | £14.25 per hour | Care assistant - East Grinstead
 job_id: 23643_225567530
----
-
----
-action:
-SELECTED | Sussex | Eastbourne | £13.79 per hour | Care Assistant
-job_id: 107961233
 ---
 
 ## SUSSEX — POSSIBLES
@@ -191,12 +185,6 @@ job_id: 1402264062
 
 ---
 action:
-SELECTED | Kent | Kent | £13.45 per hour (£13.45) | Housing Support Worker (Casual)
-job_id: 23643_225534852
----
-
----
-action:
 SELECTED | Kent | Gravesend | £13,988.00 per annum | Support Worker
 job_id: 1851265
 ---
@@ -229,6 +217,12 @@ job_id: 23643_225516212
 action:
 SELECTED | London | Brentford | £125 - £130 per daily | Support Worker
 job_id: 23643_225535652
+---
+
+---
+action:
+SELECTED | London | Bromley | £100 - £110 per daily | Autism Support Worker
+job_id: 1815970
 ---
 
 ---
@@ -321,12 +315,6 @@ SELECTED | London | London | £16.95 per hour | Relief Worker - Care Assistant
 job_id: 1878281
 ---
 
----
-action:
-SELECTED | London | Uxbridge | £200 per daily | Live-in Personal Care Assistant History & Politics Student
-job_id: 107823167
----
-
 ## LONDON — POSSIBLES
 
 _No jobs in this group._
@@ -357,7 +345,11 @@ _No jobs in this group._
 
 ## SURREY — SELECTED
 
-_No jobs in this group._
+---
+action:
+SELECTED | Surrey | Cobham | £13.45 per hour (£13.45) | Housing Support Worker (Casual)
+job_id: 23643_225534852
+---
 
 ## SURREY — POSSIBLES
 
