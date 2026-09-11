@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Lincolnshire
 
-review_date: 2026-09-10
-review_fingerprint: fd91c01c80c4318b027d58648ba0ada6a57294c3670855679fb7482a2df34985
-routing_manifest_sha256: 59e27ec5f0988f3fbff7710c6431ef08819873d43138c8fff91d89bff025fcb0
+review_date: 2026-09-11
+review_fingerprint: 35f1795e638f643dbdeb407b5d89a91aea7dfa09cb88b45a81db44580d5a4d43
+routing_manifest_sha256: 8ec19953acb0b91b529c94bc8789351811b0bfbfeeff6a5d3a6f7452d0477235
 ontap_region: Lincolnshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 16
-- Selected: 6
+- Records: 15
+- Selected: 5
 - POSS awaiting decision: 3
 - Excluded: 0
 - Hard pass: 7
@@ -96,21 +96,6 @@ source_job_id: receptionist-and-administrative-assistant-bourne-grammar-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-and-administrative-assistant-bourne-grammar-school
 ---
 
----
-action: 
-SELECTED | Lincolnshire | Scunthorpe, Yorkshire and the Humber, DN17 1SS | SCP 4–8 (£25,185–£26,824 FTE) | Receptionist/Admin Officer
-employer: Oasis Academy Parkwood
-closing_date: 2026-09-11T09:00:59+01:00
-reason: Clear admin/service title: receptionist
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 0cfcadc4e0784b055a7a6276d94bfb45444ca15854f1c3c768752b224fc1c3cc
-source: Teaching Vacancies
-source_job_id: receptionist-admin-officer-oasis-academy-parkwood
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-admin-officer-oasis-academy-parkwood
----
-
 ## POSS — choose SELECT or EXCLUDE
 
 ---
@@ -167,9 +152,9 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-manager-5960c3
 - [Academy Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/academy-administration-officer-the-priory-witham-academy-lincoln-lincolnshire) — Insufficient admin/service evidence.
 - [Academy Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/academy-operations-manager-thomas-middlecott-academy-boston-lincolnshire) — Manager title salary ceiling £42,839 is not below £28,000.
 - [Business Manager](https://teaching-vacancies.service.gov.uk/jobs/business-manager-walton-academy) — Manager title salary ceiling £49,749 is not below £28,000.
+- [Education Welfare Officer](https://teaching-vacancies.service.gov.uk/jobs/education-welfare-officer-john-whitgift-academy) — Insufficient admin/service evidence.
 - [Governance & Compliance Officer](https://teaching-vacancies.service.gov.uk/jobs/governance-compliance-officer-inspire-connected-communities-trust-louth-not-recorded) — Insufficient admin/service evidence.
 - [HR Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-a28cea11-d24b-43cc-a15c-772ff5fa57da) — Insufficient admin/service evidence.
-- [School Bursar](https://teaching-vacancies.service.gov.uk/jobs/school-bursar-cliffedale-primary-school) — Insufficient admin/service evidence.
 - [Senior Administrative Officer - 20 hours](https://teaching-vacancies.service.gov.uk/jobs/senior-administrative-officer-20-hours) — Insufficient admin/service evidence.
 
 ## Safety boundary

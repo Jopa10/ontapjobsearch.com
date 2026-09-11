@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — East Midlands
 
-review_date: 2026-09-10
-review_fingerprint: 7beba41413f38380a0e2d16c6d1389dfe552088eab6269e836973cba8d01c718
-routing_manifest_sha256: 59e27ec5f0988f3fbff7710c6431ef08819873d43138c8fff91d89bff025fcb0
+review_date: 2026-09-11
+review_fingerprint: 9e0596761a42811b86262b4d7ca935084d7cc12796e7fc1504ba437294fcc4a1
+routing_manifest_sha256: 8ec19953acb0b91b529c94bc8789351811b0bfbfeeff6a5d3a6f7452d0477235
 ontap_region: East Midlands
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,43 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 9
-- Selected: 4
-- POSS awaiting decision: 1
+- Records: 7
+- Selected: 1
+- POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 4
 
 ## SELECTED
-
----
-action: 
-SELECTED | East Midlands | Burton-on-Trent, West Midlands, DE13 0LL | £26,427.00 - £27,274.00 Annually (FTE) Pro-rata for the hours advertised (£22,948.71 - £23,684.23), ALP Grade 2 | Administration Assistant - Careers
-employer: The de Ferrers Academy
-closing_date: 2026-09-11T09:00:00+01:00
-reason: Clear admin/service title: administration assistant
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: 637a0afe5afa898570d443af4c7cf87698a155a502659887fb9a1872276867fb
-source: Teaching Vacancies
-source_job_id: administration-assistant-careers
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-careers
----
-
----
-action: 
-SELECTED | East Midlands | Derby, East Midlands, DE23 2FS | Grade 5 £25,989-£27,254 FTE Pay Award Pending | Administration Assistant Special School
-employer: Ivy House School
-closing_date: 2026-09-11T09:00:59+01:00
-reason: Clear admin/service title: administration assistant
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: 3be370a440c555a51b8007f8533090c2080b29588f538e2391790e1a5afd8cbb
-source: Teaching Vacancies
-source_job_id: administration-assistant-special-school-ivy-house-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-special-school-ivy-house-school
----
 
 ---
 action: 
@@ -66,22 +36,22 @@ source_job_id: apprentice-administrator-the-hinckley-school-the-hinckley-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/apprentice-administrator-the-hinckley-school-the-hinckley-school
 ---
 
+## POSS — choose SELECT or EXCLUDE
+
 ---
 action: 
-SELECTED | East Midlands | Alfreton, East Midlands, DE55 7JA | £32,347.00 - £34,317.00 Annually (FTE) Actual Salary £29,249.58 - £31,030.94) Pay award pending | Exams Officer
-employer: David Nieper Academy
-closing_date: 2026-09-11T09:00:00+01:00
-reason: Clear admin/service title: exams officer
+POSS | East Midlands | Derby, DE22 1GB | National Minimum Wage for an apprentice, in line with statutory requirements | Business Administration Apprentice Level 3
+employer: Embark Multi Academy Trust
+closing_date: 2026-10-09T23:59:00+01:00
+reason: Administrative duties evidenced in description
 jobg8_check: NO_MATCH
 slice_status: UNREGISTERED
 migration_status: 
-factual_fingerprint: 639bcbecd1d587695e7793913ac03e796593a1dfff23e5746dea9c2c2a1f7e5d
+factual_fingerprint: 2015db539653774094f78a27f27fbcd048e5cac5503dd72f7483c936e8f8b38c
 source: Teaching Vacancies
-source_job_id: exams-officer-david-nieper-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-david-nieper-academy
+source_job_id: business-administration-apprentice-level-3-embark-multi-academy-trust
+source_url: https://teaching-vacancies.service.gov.uk/jobs/business-administration-apprentice-level-3-embark-multi-academy-trust
 ---
-
-## POSS — choose SELECT or EXCLUDE
 
 ---
 action: 

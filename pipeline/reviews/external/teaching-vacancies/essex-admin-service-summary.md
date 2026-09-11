@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Essex
 
-review_date: 2026-09-10
+review_date: 2026-09-11
 review_fingerprint: de93987508afca77453c388a16113797a24a41f1e761c68b03e9aada6e90bdfd
-routing_manifest_sha256: 59e27ec5f0988f3fbff7710c6431ef08819873d43138c8fff91d89bff025fcb0
+routing_manifest_sha256: 8ec19953acb0b91b529c94bc8789351811b0bfbfeeff6a5d3a6f7452d0477235
 ontap_region: Essex
 slice_category: admin_service
 slice_status: LIVE

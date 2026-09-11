@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Worcestershire
 
-review_date: 2026-09-10
-review_fingerprint: 168ce25a45bcfb5ee7d068500c9b9f6a44dedbaf7c358abe0c1f10548ce49255
-routing_manifest_sha256: 59e27ec5f0988f3fbff7710c6431ef08819873d43138c8fff91d89bff025fcb0
+review_date: 2026-09-11
+review_fingerprint: b38b4a7244974f0e720358f1492d586eb0af66d5057d011d868243aad95388c2
+routing_manifest_sha256: 8ec19953acb0b91b529c94bc8789351811b0bfbfeeff6a5d3a6f7452d0477235
 ontap_region: Worcestershire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 3
+- Records: 2
 - Selected: 2
-- POSS awaiting decision: 1
+- POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 0
 
@@ -53,20 +53,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-bce7ec5
 
 ## POSS — choose SELECT or EXCLUDE
 
----
-action: 
-POSS | Worcestershire | Redditch, West Midlands, B98 0GF | £21,327.00 - £21,662.00 Annually (Actual) | Reprographics Officer
-employer: Arrow Vale High School
-closing_date: 2026-09-11T09:00:00+01:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 4c442467e183f6344979ea8d6570e765dcd728a3948c62b194f1204d9935da10
-source: Teaching Vacancies
-source_job_id: reprographics-officer-arrow-vale-high-school-redditch
-source_url: https://teaching-vacancies.service.gov.uk/jobs/reprographics-officer-arrow-vale-high-school-redditch
----
+- None.
 
 ## EXCLUDED BY REVIEW
 

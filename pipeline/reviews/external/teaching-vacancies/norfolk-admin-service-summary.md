@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Norfolk
 
-review_date: 2026-09-10
-review_fingerprint: c05c79ff1ddc11fd6c866af532083c047933cd2e0e92ab3eb719ef234a2240d5
-routing_manifest_sha256: 59e27ec5f0988f3fbff7710c6431ef08819873d43138c8fff91d89bff025fcb0
+review_date: 2026-09-11
+review_fingerprint: f5c37684e62ed8c5ca32e92231713e8297c076104b2a67fa621f95fcfd2ddd58
+routing_manifest_sha256: 8ec19953acb0b91b529c94bc8789351811b0bfbfeeff6a5d3a6f7452d0477235
 ontap_region: Norfolk
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 14
-- Selected: 5
-- POSS awaiting decision: 3
+- Records: 17
+- Selected: 6
+- POSS awaiting decision: 4
 - Excluded: 0
-- Hard pass: 6
+- Hard pass: 7
 
 ## SELECTED
 
@@ -68,6 +68,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/clerical-assistant-re
 
 ---
 action: 
+SELECTED | Norfolk | Norwich, East of England, NR5 8HT | £21,746 - £22,092 per annum | Office Assistant
+employer: West Earlham Junior School
+closing_date: 2026-09-28T01:00:00+01:00
+reason: Clear admin/service title: office assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 232323f00fbf3ff3e4173444ba08b8acc41d6f73f6d45d4cbea3e27a965ebe12
+source: Teaching Vacancies
+source_job_id: office-assistant-west-earlham-junior-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/office-assistant-west-earlham-junior-school
+---
+
+---
+action: 
 SELECTED | Norfolk | Norwich, East of England, NR3 3HR | £25,989.00 - £26,403.00 Annually (FTE) £9,022 - £9,165 Actual salary | School Administrator
 employer: Angel Road Infant School
 closing_date: 2026-09-11T23:59:00+01:00
@@ -97,6 +112,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-secretary-rudh
 ---
 
 ## POSS — choose SELECT or EXCLUDE
+
+---
+action: 
+POSS | Norfolk | Norwich, NR2 1NR | Salary: Support Staff Pay Scale I: £38,510 to £40,444 per annum | Governance Professional - Complaints and Governance Support
+employer: Inspiration Trust
+closing_date: 2026-09-23T12:00:00+01:00
+reason: Borderline school administration title: governance professional
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: ca6e6faf14eb9e4b99e2b8d4ae5e711c1dbe68cc27ebeba336ffb19780b6aaa8
+source: Teaching Vacancies
+source_job_id: governance-professional-complaints-and-governance-support
+source_url: https://teaching-vacancies.service.gov.uk/jobs/governance-professional-complaints-and-governance-support
+---
 
 ---
 action: 
@@ -153,6 +183,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-wymo
 - [Chief Financial Officer](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-broad-horizons-education-trust) — Insufficient admin/service evidence.
 - [Development Officer](https://teaching-vacancies.service.gov.uk/jobs/development-officer-norwich-city-college-of-further-and-higher-education) — Insufficient admin/service evidence.
 - [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-white-woman-lane-junior-school) — Insufficient admin/service evidence.
+- [Operations Officer](https://teaching-vacancies.service.gov.uk/jobs/operations-officer-southery-academy-downham-market-norfolk) — Missing salary or pay scale.
 - [Regional People Partner](https://teaching-vacancies.service.gov.uk/jobs/regional-people-partner-ormiston-victory-academy-norwich-norfolk) — Insufficient admin/service evidence.
 - [Secretarial Assistant](https://teaching-vacancies.service.gov.uk/jobs/secretarial-assistant-john-grant-school-caister-on-sea) — Insufficient admin/service evidence.
 

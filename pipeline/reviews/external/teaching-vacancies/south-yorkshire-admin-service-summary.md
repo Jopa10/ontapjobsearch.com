@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - South
 
-review_date: 2026-09-10
-review_fingerprint: 281e8cc8f1ce2a926ed8aa49f58f013e508eaa75fe555554442bd9432fc7b940
-routing_manifest_sha256: 59e27ec5f0988f3fbff7710c6431ef08819873d43138c8fff91d89bff025fcb0
+review_date: 2026-09-11
+review_fingerprint: 23c96c325ab5342f38c186ae73b551526c13c6d933419a125dd083df6db7443b
+routing_manifest_sha256: 8ec19953acb0b91b529c94bc8789351811b0bfbfeeff6a5d3a6f7452d0477235
 ontap_region: Yorkshire - South
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 28
-- Selected: 6
+- Records: 32
+- Selected: 7
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 21
+- Hard pass: 24
 
 ## SELECTED
 
@@ -34,6 +34,21 @@ factual_fingerprint: b5b168a56f468ff6d306348bd1d72f085a0a5694ec6df76fecb7a61b753
 source: Teaching Vacancies
 source_job_id: admin-clerical-officer-level-2-rowan-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-clerical-officer-level-2-rowan-school
+---
+
+---
+action: 
+SELECTED | Yorkshire - South | Doncaster, Yorkshire and the Humber, DN11 0BZ | £30,515.00 - £33,119.00 Annually (FTE) Grade F Points 14 to 19 (£30,515 to £33,119 Full Time Equivalent) subject to pro rata. The minimum actual pro rata salary per annum for this job starts at £28,391.20 | Data and Exams Officer
+employer: Rossington All Saints Academy
+closing_date: 2026-09-23T23:59:00+01:00
+reason: Clear admin/service title: exams officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 703941ebfef45d8a346aafe8e6b9c2f775d51235135be9395b0fb4ca03a6564a
+source: Teaching Vacancies
+source_job_id: data-and-exams-officer-rossington-all-saints-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/data-and-exams-officer-rossington-all-saints-academy
 ---
 
 ---
@@ -68,6 +83,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/personal-assistant-to
 
 ---
 action: 
+SELECTED | Yorkshire - South | Rotherham, Yorkshire and the Humber, S63 7PQ | £13,358.00 - £13,567.00 Annually (Actual) DHSF2 Band C | Receptionist
+employer: Saint Pius X Catholic High School A Specialist School in Humanities
+closing_date: 2026-09-28T09:00:00+01:00
+reason: Clear admin/service title: receptionist
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 183f91bf24533298f56275030d962e9d65a40832612e17f14cad92e7f83eac10
+source: Teaching Vacancies
+source_job_id: receptionist-saint-pius-x-catholic-high-school-a-specialist-school-in-humanities
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-saint-pius-x-catholic-high-school-a-specialist-school-in-humanities
+---
+
+---
+action: 
 SELECTED | Yorkshire - South | Sheffield, Yorkshire and the Humber, S17 4FB | Grade 3 (£26,428 to £26,847) | Receptionist
 employer: Totley Primary School
 closing_date: 2026-09-20T23:59:59+01:00
@@ -96,21 +126,6 @@ source_job_id: receptionist-administrative-assistant-outwood-academy-adwick
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrative-assistant-outwood-academy-adwick
 ---
 
----
-action: 
-SELECTED | Yorkshire - South | Sheffield, Yorkshire and the Humber, S26 4SF | £23,199.00 - £23,315.00 Annually (Actual) Band D Points 6 - 7. Based on full time salary of £26,340 - £26,472 - pay award pending. (plus an additional 1 week of pay if the appointee has 5 years or more continuous service with the Local Authority) | SEND Administrator
-employer: Aston Academy
-closing_date: 2026-09-10T23:59:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 8c25e78117088af14bae10bc184a17ad1818a771403b5ae5bbec716c55d287f1
-source: Teaching Vacancies
-source_job_id: send-administrator-aston-academy-sheffield-south-yorkshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-aston-academy-sheffield-south-yorkshire
----
-
 ## POSS — choose SELECT or EXCLUDE
 
 ---
@@ -135,9 +150,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/estates-and-complianc
 ## HARD_PASS
 
 - [Admin Officer](https://teaching-vacancies.service.gov.uk/jobs/admin-officer-meynell-nursery-primary-school) — Insufficient admin/service evidence.
+- [Attendance and Admin Officer](https://teaching-vacancies.service.gov.uk/jobs/attendance-and-admin-officer-whiteways-primary-school) — Insufficient admin/service evidence.
 - [Attendance and Admissions Manager](https://teaching-vacancies.service.gov.uk/jobs/attendance-and-admissions-manager-westfield-school-sheffield) — Manager title salary ceiling £41,771 is not below £28,000.
-- [Business Support Manager](https://teaching-vacancies.service.gov.uk/jobs/business-support-manager-beck-primary-school) — Manager title salary ceiling £39,614 is not below £28,000.
-- [Business Support Manager](https://teaching-vacancies.service.gov.uk/jobs/business-support-manager-whiteways-primary-school) — Manager title salary ceiling £39,614 is not below £28,000.
 - [Chief Financial Officer](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-st-clare-catholic-multi-academy-trust) — Insufficient admin/service evidence.
 - [Cluster Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/cluster-finance-officer-inova-multi-academy-trust-limited) — Insufficient admin/service evidence.
 - [Cluster People Officer - Primary](https://teaching-vacancies.service.gov.uk/jobs/cluster-people-officer-primary) — Insufficient admin/service evidence.
@@ -145,6 +159,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/estates-and-complianc
 - [Data and Systems Manager](https://teaching-vacancies.service.gov.uk/jobs/data-and-systems-manager-st-francis-catholic-multi-academy-trust) — Manager title salary ceiling £47,181 is not below £28,000.
 - [Data, Systems and Insights Specialist](https://teaching-vacancies.service.gov.uk/jobs/data-systems-and-insights-specialist) — Insufficient admin/service evidence.
 - [Director of People](https://teaching-vacancies.service.gov.uk/jobs/director-of-people-939f4f3e-e8ec-4135-a446-ee9d9db46228) — Insufficient admin/service evidence.
+- [Executive Assistant](https://teaching-vacancies.service.gov.uk/jobs/executive-assistant-white-woods-primary-academy-trust) — Insufficient admin/service evidence.
+- [Finance & Admin Asst](https://teaching-vacancies.service.gov.uk/jobs/finance-admin-asst) — Insufficient admin/service evidence.
 - [Finance & Admin Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-admin-manager-prince-edward-primary-school-sheffield-south-yorkshire) — Manager title salary ceiling £41,771 is not below £28,000.
 - [Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-22597e3f-53f4-481f-b336-4ec374710e1b) — Insufficient admin/service evidence.
 - [Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-57d3025b-f701-43b4-bf16-13498ff4c547) — Insufficient admin/service evidence.
@@ -153,6 +169,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/estates-and-complianc
 - [HR Manager](https://teaching-vacancies.service.gov.uk/jobs/hr-manager-f66082bd-6a6e-4f84-9a14-924c810758cb) — Manager title salary ceiling £54,495 is not below £28,000.
 - [HR Manager](https://teaching-vacancies.service.gov.uk/jobs/hr-manager-st-francis-catholic-multi-academy-trust-rotherham-not-recorded) — Manager title salary ceiling £54,495 is not below £28,000.
 - [Learning Manager](https://teaching-vacancies.service.gov.uk/jobs/learning-manager-0bfa4cca-872c-4778-a35f-1fb75b7f4503) — Manager title salary ceiling £36,581 is not below £28,000.
+- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-newman-school) — Manager title salary ceiling £39,152 is not below £28,000.
+- [Part-time Administrator](https://teaching-vacancies.service.gov.uk/jobs/part-time-administrator-woodhouse-west-primary-school-sheffield-south-yorkshire) — Missing salary or pay scale.
 - [School Administration Assistant: HR and Payroll](https://teaching-vacancies.service.gov.uk/jobs/school-administration-assistant-hr-and-payroll) — Insufficient admin/service evidence.
 - [Sixth Form Engagement Officer](https://teaching-vacancies.service.gov.uk/jobs/sixth-form-engagement-officer) — Insufficient admin/service evidence.
 

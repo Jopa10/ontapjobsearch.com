@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Devon
 
-review_date: 2026-09-10
-review_fingerprint: 9221730552a2a256b78c678e8bd9167ebf71184a4028847ded45e6b08e2ecc28
-routing_manifest_sha256: 59e27ec5f0988f3fbff7710c6431ef08819873d43138c8fff91d89bff025fcb0
+review_date: 2026-09-11
+review_fingerprint: e936f5b8743c90de2d95f64080743c4afe6ccc320518cdd63bce5544eb9e7463
+routing_manifest_sha256: 8ec19953acb0b91b529c94bc8789351811b0bfbfeeff6a5d3a6f7452d0477235
 ontap_region: Devon
 slice_category: admin_service
 slice_status: LIVE
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 16
-- Selected: 5
+- Records: 17
+- Selected: 6
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 10
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Devon | Ivybridge, South West, PL21 9TF | £13.26 Hourly | Admin Assistant - Fixed Term
+employer: Woodlands Park Primary School
+closing_date: 2026-09-21T08:00:00+01:00
+reason: Clear admin/service title: admin assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 3230ee86c68675e02b0467cb9dbe5c77223a81693671f39bc65e4c6dad4beb81
+source: Teaching Vacancies
+source_job_id: admin-assistant-fixed-term
+source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-fixed-term
+---
 
 ---
 action: 

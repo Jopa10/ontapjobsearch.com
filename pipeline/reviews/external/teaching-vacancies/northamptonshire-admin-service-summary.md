@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Northamptonshire
 
-review_date: 2026-09-10
-review_fingerprint: 122323751230c631fffa3120bbfd83fc4c727822fff53f6a839cbdae5b710c8f
-routing_manifest_sha256: 59e27ec5f0988f3fbff7710c6431ef08819873d43138c8fff91d89bff025fcb0
+review_date: 2026-09-11
+review_fingerprint: abadeacbff58f442de4c39b1a8aaca7742db15802b587bfbbe64a3ff7746a9d6
+routing_manifest_sha256: 8ec19953acb0b91b529c94bc8789351811b0bfbfeeff6a5d3a6f7452d0477235
 ontap_region: Northamptonshire
 slice_category: admin_service
 slice_status: LIVE
@@ -34,7 +34,7 @@ reason: Possible JobG8 duplicate requires review
 jobg8_check: POSSIBLE_DUPLICATE
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 6bfd439d015991525ca4c504f41199fc995b4d9d03037700076a0e957c1b6746
+factual_fingerprint: 3ba40f543160fe7a5b5386ec9e0812db31795059d543fc4b4c0bc69e03aa2200
 source: Teaching Vacancies
 source_job_id: administrator-cranford-cofe-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-cranford-cofe-primary-school
@@ -92,7 +92,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/trust-executive-assis
 ## HARD_PASS
 
 - [Exams Office Manager](https://teaching-vacancies.service.gov.uk/jobs/exams-office-manager-bishop-stopford-school) — Manager title salary ceiling £33,699 is not below £28,000.
-- [Head Teacher's PA and Medical Lead](https://teaching-vacancies.service.gov.uk/jobs/head-teacher-s-pa-and-medical-lead) — Out-of-scope occupation: teacher.
+- [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-moulton-school-and-science-college) — Insufficient admin/service evidence.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-south-end-infant-school) — Manager title salary ceiling £37,280 is not below £28,000.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-woodland-view-primary-school-northampton-northamptonshire) — Manager title salary ceiling £48,738 is not below £28,000.
 

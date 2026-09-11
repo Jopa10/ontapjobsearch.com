@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Coventry & Warwickshire
 
-review_date: 2026-09-10
-review_fingerprint: 3a08c82eccec5f842c0019b65b3d2a3afb277fc0d64b36ba9f8129aa6f2c5281
-routing_manifest_sha256: 59e27ec5f0988f3fbff7710c6431ef08819873d43138c8fff91d89bff025fcb0
+review_date: 2026-09-11
+review_fingerprint: cf20d91d582d9b5488766be6ea19af16395eaf35b22cd71fc8e1d216ffd883be
+routing_manifest_sha256: 8ec19953acb0b91b529c94bc8789351811b0bfbfeeff6a5d3a6f7452d0477235
 ontap_region: West Midlands - Coventry & Warwickshire
 slice_category: admin_service
 slice_status: LIVE
@@ -23,6 +23,21 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ---
 action: 
+SELECTED | West Midlands - Coventry & Warwickshire | Coventry, West Midlands, CV6 2DJ | £26,016.00 Annually (FTE) | Administration Assistant
+employer: Christ The King Catholic Primary School
+closing_date: 2026-09-18T12:00:00+01:00
+reason: Clear admin/service title: administration assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: f1fc16962f0dec6f67290862cdaf652ab12364bd84e82ed1fde0b94bd1313142
+source: Teaching Vacancies
+source_job_id: administration-assistant-christ-the-king-catholic-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-christ-the-king-catholic-primary-school
+---
+
+---
+action: 
 SELECTED | West Midlands - Coventry & Warwickshire | Coventry, West Midlands, CV3 2LP | £9,039.00 - £9,183.00 Annually (Actual) NJC pay scale Grade E 5-6 | Administration Assistant
 employer: St Bartholomew's Church of England Academy
 closing_date: 2026-09-13T23:59:00+01:00
@@ -34,21 +49,6 @@ factual_fingerprint: 73c6aaae18fc0746911ad2fd2ee4e4251d199508c579fc8a50b12f5521b
 source: Teaching Vacancies
 source_job_id: administration-assistant-st-bartholomew-s-church-of-england-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-st-bartholomew-s-church-of-england-academy
----
-
----
-action: 
-SELECTED | West Midlands - Coventry & Warwickshire | Nuneaton, West Midlands, CV11 4QH | £22,608 - £24,637 (dependent on service and experience) This does not include the pending Pay Award. | Personal Assistant (PA) to the Headteachers (Oak Wood Schools)
-employer: Oak Wood Secondary School
-closing_date: 2026-09-11T12:00:00+01:00
-reason: Clear admin/service title: personal assistant, pa to
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 262dcdf73f59422156ef777d82f8d34ef20af7c05ac13d7aed39d77ef9667cb9
-source: Teaching Vacancies
-source_job_id: personal-assistant-pa-to-the-headteachers-oak-wood-schools
-source_url: https://teaching-vacancies.service.gov.uk/jobs/personal-assistant-pa-to-the-headteachers-oak-wood-schools
 ---
 
 ## POSS — choose SELECT or EXCLUDE

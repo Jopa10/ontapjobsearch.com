@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Somerset
 
-review_date: 2026-09-10
-review_fingerprint: 4ab2361dec774df4552492f17845f8d61377fc45534a5a6115d80909de8bfde1
-routing_manifest_sha256: 59e27ec5f0988f3fbff7710c6431ef08819873d43138c8fff91d89bff025fcb0
+review_date: 2026-09-11
+review_fingerprint: c3bc99ee98b44fcbfccc00c4361833dbca990c03fa9cd41780bcd02ad49d0a9e
+routing_manifest_sha256: 8ec19953acb0b91b529c94bc8789351811b0bfbfeeff6a5d3a6f7452d0477235
 ontap_region: Somerset
 slice_category: admin_service
 slice_status: LIVE
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 7
-- Selected: 2
-- POSS awaiting decision: 0
+- Records: 10
+- Selected: 3
+- POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 6
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Somerset | Yeovil, South West, BA21 4EG | £17,893.00 - £18,255.00 Annually (Actual) | Administrative Assistant
+employer: St Gildas Catholic Primary School
+closing_date: 2026-09-28T09:00:00+01:00
+reason: Clear admin/service title: administrative assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 0a85f1d9d74ad33d563c93fff899dfc7fe0fc08eb274a4f7c4daa0d6b7aa064c
+source: Teaching Vacancies
+source_job_id: administrative-assistant-st-gildas-catholic-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-st-gildas-catholic-primary-school
+---
 
 ---
 action: 
@@ -53,7 +68,20 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/primary-phase-adminis
 
 ## POSS — choose SELECT or EXCLUDE
 
-- None.
+---
+action: 
+POSS | Somerset | Weston-Super-Mare, South West, BS24 9DA | £16,115.95 | Office Administrator
+employer: Oldmixon Primary School
+closing_date: 2026-09-25T23:59:59+01:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: f3d14bddc23e3722c13d0e2dc1aa6c41c06b738cb0f34eebca796f312de90d3d
+source: Teaching Vacancies
+source_job_id: office-administrator-oldmixon-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-oldmixon-primary-school
+---
 
 ## EXCLUDED BY REVIEW
 
@@ -65,6 +93,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/primary-phase-adminis
 - [Exams, Data Insights and Systems Manager](https://teaching-vacancies.service.gov.uk/jobs/exams-data-insights-and-systems-manager) — Manager title salary ceiling £33,478 is not below £28,000.
 - [Primary Assistant Headteacher Behaviour and Personal Development](https://teaching-vacancies.service.gov.uk/jobs/primary-assistant-headteacher-behaviour-and-personal-development) — Out-of-scope occupation: teacher, headteacher.
 - [Project and Executive Support Officer - Part Time](https://teaching-vacancies.service.gov.uk/jobs/project-and-executive-support-officer-part-time) — Insufficient admin/service evidence.
+- [Receptionist](https://teaching-vacancies.service.gov.uk/jobs/receptionist-westover-green-community-school-and-autism-centre) — Missing salary or pay scale.
 - [Systems Analyst](https://teaching-vacancies.service.gov.uk/jobs/systems-analyst-pathway-trust) — Insufficient admin/service evidence.
 
 ## Safety boundary

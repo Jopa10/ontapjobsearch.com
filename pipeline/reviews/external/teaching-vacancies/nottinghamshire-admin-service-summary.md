@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Nottinghamshire
 
-review_date: 2026-09-10
-review_fingerprint: 8663dff859de8ed40b793d0249d973f52e2a3a5d3adbb0cc8d8d5c790ff0ab9d
-routing_manifest_sha256: 59e27ec5f0988f3fbff7710c6431ef08819873d43138c8fff91d89bff025fcb0
+review_date: 2026-09-11
+review_fingerprint: c64df06ec44c0801fc7e68ae52e86d5dcb123aeadc7b1d9b5aac304fb6d3f7b7
+routing_manifest_sha256: 8ec19953acb0b91b529c94bc8789351811b0bfbfeeff6a5d3a6f7452d0477235
 ontap_region: Nottinghamshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 17
-- Selected: 9
+- Records: 19
+- Selected: 10
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 7
+- Hard pass: 8
 
 ## SELECTED
 
@@ -113,6 +113,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-administra
 
 ---
 action: 
+SELECTED | Nottinghamshire | Nottingham, East Midlands, NG5 9AZ | Redhill Academy Trust Pay Scale, Band 6, Scale point 29 - 32 | Healthcare Assistant / Administrator
+employer: Park Vale Academy
+closing_date: 2026-09-28T12:00:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: ec8bcfa691ce240c32b0c5587ba54447d66afe3639e5e61a3e2b1ba9bfd8c2d7
+source: Teaching Vacancies
+source_job_id: healthcare-assistant-administrator-2d4f9d72-72ff-4ae4-b72c-412c6513e51a
+source_url: https://teaching-vacancies.service.gov.uk/jobs/healthcare-assistant-administrator-2d4f9d72-72ff-4ae4-b72c-412c6513e51a
+---
+
+---
+action: 
 SELECTED | Nottinghamshire | Nottingham, East Midlands, NG3 7EB | £13,946.00 - £15,342.00 Annually (Actual) GAT 4/5, 22.5 hours per week, 39 weeks per year | Part Time Attendance Administrator - Secondary Site
 employer: Nottingham Academy
 closing_date: 2026-09-13T23:59:00+01:00
@@ -180,6 +195,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/data-officer-the-whit
 ## HARD_PASS
 
 - [Accounts Payable Assistant](https://teaching-vacancies.service.gov.uk/jobs/accounts-payable-assistant-greenwood-academies-trust) — Insufficient admin/service evidence.
+- [Admin Officer](https://teaching-vacancies.service.gov.uk/jobs/admin-officer-radford-primary-school-academy) — Insufficient admin/service evidence.
 - [Exams and Assessment Assistant](https://teaching-vacancies.service.gov.uk/jobs/exams-and-assessment-assistant-965ac6ec-7678-47d6-8b9f-daf363a12cdd) — Insufficient admin/service evidence.
 - [HR and Recruitment Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-and-recruitment-officer-redhill-academy-trust) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-sycamore-academy) — Manager title salary ceiling £40,446 is not below £28,000.

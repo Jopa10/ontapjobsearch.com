@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Berkshire
 
-review_date: 2026-09-10
-review_fingerprint: d4223f12fa4e7e476b64196c6e184bf90bd6db96ed948ae1958cd2d83248e470
-routing_manifest_sha256: 59e27ec5f0988f3fbff7710c6431ef08819873d43138c8fff91d89bff025fcb0
+review_date: 2026-09-11
+review_fingerprint: d1df73f6138cea0b4c4c3b893fec9af2cf79f39c4c1b49a2b9e186b8f368b70d
+routing_manifest_sha256: 8ec19953acb0b91b529c94bc8789351811b0bfbfeeff6a5d3a6f7452d0477235
 ontap_region: Berkshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 19
-- Selected: 6
+- Records: 21
+- Selected: 7
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 11
+- Hard pass: 12
 
 ## SELECTED
 
@@ -98,6 +98,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/safeguarding-administ
 
 ---
 action: 
+SELECTED | Berkshire | Bracknell, South East, RG12 2JG | £23,006.00 - £24,886.00 Annually (Actual) | School Admissions Officer/Administrator
+employer: Sandy Lane Primary School
+closing_date: 2026-09-25T12:00:00+01:00
+reason: Clear admin/service title: administrator, admissions officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: e8c99b8e65754206a52ce5992e55099c05adac22f8c085717ce70db6ac4784f1
+source: Teaching Vacancies
+source_job_id: school-admissions-officer-administrator
+source_url: https://teaching-vacancies.service.gov.uk/jobs/school-admissions-officer-administrator
+---
+
+---
+action: 
 SELECTED | Berkshire | Slough, South East, SL2 5BA | £22,274.00 - £22,957.00 Annually (Actual) | Welfare Assistant & Administrator
 employer: James Elliman Academy
 closing_date: 2026-09-30T12:00:00+01:00
@@ -160,6 +175,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-operations-off
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-2208a3dd-3c53-4978-b7e2-84fb437f4570) — Manager title without salary evidence below £28,000.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-datchet-st-mary-s-cofe-primary-school) — Manager title salary ceiling £46,979 is not below £28,000.
 - [Senior Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-finance-officer-the-thames-learning-trust) — Insufficient admin/service evidence.
+- [Site Team Administrative Assistant - The Avenue School](https://teaching-vacancies.service.gov.uk/jobs/site-team-administrative-assistant-the-avenue-school) — Missing salary or pay scale.
 
 ## Safety boundary
 

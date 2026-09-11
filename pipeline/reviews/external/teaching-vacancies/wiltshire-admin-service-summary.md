@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Wiltshire
 
-review_date: 2026-09-10
-review_fingerprint: cb6c3d806ccb6ae1d5778be799d4c751d993957e28d0f3a771e5c7783ee4d782
-routing_manifest_sha256: 59e27ec5f0988f3fbff7710c6431ef08819873d43138c8fff91d89bff025fcb0
+review_date: 2026-09-11
+review_fingerprint: eb703cfa0d5320ae8633e1658f5e664bcbc9dcee3ad58494de3e0988dec29442
+routing_manifest_sha256: 8ec19953acb0b91b529c94bc8789351811b0bfbfeeff6a5d3a6f7452d0477235
 ontap_region: Wiltshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 15
-- Selected: 5
+- Records: 17
+- Selected: 7
 - POSS awaiting decision: 3
 - Excluded: 0
 - Hard pass: 7
@@ -34,6 +34,36 @@ factual_fingerprint: 33ade2da3677e71ab86805b261d6d60d9dc1ac11097d6e87dcd21749846
 source: Teaching Vacancies
 source_job_id: exams-officer-a0e6b270-9f8e-4c55-b68b-38b5e9214d1b
 source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-a0e6b270-9f8e-4c55-b68b-38b5e9214d1b
+---
+
+---
+action: 
+SELECTED | Wiltshire | Marlborough, SN8 4AX | £34,541.00 - £38,212.00 Annually (FTE) NJC Point 22-26 | IT System Administrator - Excalibur Shared Services
+employer: Excalibur Academies Trust
+closing_date: 2026-09-11T23:59:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: ac87d40cabb5045c058c55bab1f459b4b18efd08cc590a85d8d05f551c4c98fb
+source: Teaching Vacancies
+source_job_id: it-system-administrator-excalibur-shared-services-1177ebd4-e195-4745-824b-6613f2065ccf
+source_url: https://teaching-vacancies.service.gov.uk/jobs/it-system-administrator-excalibur-shared-services-1177ebd4-e195-4745-824b-6613f2065ccf
+---
+
+---
+action: 
+SELECTED | Wiltshire | Swindon, SN4 7HG | £25,989.00 - £28,598.00 Annually (FTE) Salary depending on experience | Payroll Administrator
+employer: Ascend Learning Trust
+closing_date: 2026-09-27T23:59:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: aea00865eb99d2434ae1561326e0563cdc0b6288342b6d15dcea9627f1fd6e60
+source: Teaching Vacancies
+source_job_id: payroll-administrator-ascend-learning-trust
+source_url: https://teaching-vacancies.service.gov.uk/jobs/payroll-administrator-ascend-learning-trust
 ---
 
 ---

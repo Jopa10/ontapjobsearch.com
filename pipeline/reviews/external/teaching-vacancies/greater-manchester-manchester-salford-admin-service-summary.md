@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Greater Manchester - Manchester & Salford
 
-review_date: 2026-09-10
-review_fingerprint: 465f59b8b6b34292eca539f4d3178ac22ba0f875d8cd74ee3cfb7dbbc30b163a
-routing_manifest_sha256: 59e27ec5f0988f3fbff7710c6431ef08819873d43138c8fff91d89bff025fcb0
+review_date: 2026-09-11
+review_fingerprint: aac5d6db3479d15b35983d815eecc56615b9c7d4de40994f0eda8f4dd0ebc137
+routing_manifest_sha256: 8ec19953acb0b91b529c94bc8789351811b0bfbfeeff6a5d3a6f7452d0477235
 ontap_region: Greater Manchester - Manchester & Salford
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 8
-- Selected: 5
+- Records: 7
+- Selected: 4
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 3
 
 ## SELECTED
-
----
-action: 
-SELECTED | Greater Manchester - Manchester & Salford | Manchester, North West, M30 9BP | £22,926.30 - £23,290.14 Annually (Actual) NJC Grade 3 (NJC Scale points 5 – 6 ) | Administration Assistant
-employer: Ellesmere Park High School
-closing_date: 2026-09-11T09:00:00+01:00
-reason: Clear admin/service title: administration assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 4f47a9b4fabd4982aca927926fb7e70c6d67b4cf0961d9dfb9d9cd10b70379fc
-source: Teaching Vacancies
-source_job_id: administration-assistant-c2f65b3b-e84d-4148-98e6-f9f60ceb2d22
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-c2f65b3b-e84d-4148-98e6-f9f60ceb2d22
----
 
 ---
 action: 

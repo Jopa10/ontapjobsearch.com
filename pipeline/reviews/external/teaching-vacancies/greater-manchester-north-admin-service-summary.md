@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Greater Manchester - North
 
-review_date: 2026-09-10
-review_fingerprint: ea22f05c1d7c8e26f8dd8c7e5e49dc3f1384f0f251056c7eb165d79e334fa0ff
-routing_manifest_sha256: 59e27ec5f0988f3fbff7710c6431ef08819873d43138c8fff91d89bff025fcb0
+review_date: 2026-09-11
+review_fingerprint: 79a6f260237aa37a3feddc08cda6b01831bc6f6975786e1a432a433bd3a03950
+routing_manifest_sha256: 8ec19953acb0b91b529c94bc8789351811b0bfbfeeff6a5d3a6f7452d0477235
 ontap_region: Greater Manchester - North
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 8
-- Selected: 2
+- Records: 10
+- Selected: 4
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 5
@@ -38,6 +38,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assist
 
 ---
 action: 
+SELECTED | Greater Manchester - North | Oldham, North West, OL2 5BF | £25,833.49 - £27,535.58 Annually (Actual) SCP 7-11 - £25,833.29 - £27,535.58 - FTE: £27,274.00 - £29,071.00 - 37 hours per week, 42 weeks per year | Attendance Officer
+employer: E-ACT the Oldham Academy North
+closing_date: 2026-09-22T09:00:00+01:00
+reason: Clear admin/service title: attendance officer
+jobg8_check: NO_MATCH
+slice_status: UNREGISTERED
+migration_status: 
+factual_fingerprint: d464dbee93d58fa6d1a919ecf956ede26cb7733336e49ba563b79c85ad5d5aff
+source: Teaching Vacancies
+source_job_id: attendance-officer-b2687496-661e-4f75-90a0-78b384aebb39
+source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-b2687496-661e-4f75-90a0-78b384aebb39
+---
+
+---
+action: 
 SELECTED | Greater Manchester - North | Rochdale, North West, OL11 5EF | £26,824.00 to £28,142.00 per annum (pro rata £23,663.85 to £24,826.57 per annum) | Business Support Officer - Data and Assessments
 employer: Oulder Hill Leadership Academy
 closing_date: 2026-09-13T23:59:00+01:00
@@ -49,6 +64,21 @@ factual_fingerprint: 257eff66bd80df4d4ba9846cbeee3a187cd43d817bdf5e0d6b9f7683e28
 source: Teaching Vacancies
 source_job_id: business-support-officer-data-and-assessments-oulder-hill-leadership-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-officer-data-and-assessments-oulder-hill-leadership-academy
+---
+
+---
+action: 
+SELECTED | Greater Manchester - North | Oldham, North West, OL2 5BF | £23,612.57 - £25,982.89 Annually (Actual) SCP6-12 - £23,612.57 - £25,982.89 - FTE: £26,847.00 - £29,542.00 - 37 hours per week, 39 weeks per year. | SEND Administrator
+employer: E-ACT the Oldham Academy North
+closing_date: 2026-09-21T09:00:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: UNREGISTERED
+migration_status: 
+factual_fingerprint: e6cd8f2f95ce2aa84ef572ba21a267594c36ac4f21ef0d23a754cae5c4398fa0
+source: Teaching Vacancies
+source_job_id: send-administrator-e-act-the-oldham-academy-north
+source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-e-act-the-oldham-academy-north
 ---
 
 ## POSS — choose SELECT or EXCLUDE

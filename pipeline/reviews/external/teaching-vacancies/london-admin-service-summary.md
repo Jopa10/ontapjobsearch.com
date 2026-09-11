@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — London
 
-review_date: 2026-09-10
-review_fingerprint: 71408ca28d3540524d30b8ee0e14e7297713128549814df3658943297a83c9e3
-routing_manifest_sha256: 59e27ec5f0988f3fbff7710c6431ef08819873d43138c8fff91d89bff025fcb0
+review_date: 2026-09-11
+review_fingerprint: b6ba89fe58340777a6e4d8437a51c1bf279428eaf2af3002cff24f9ec3dfa642
+routing_manifest_sha256: 8ec19953acb0b91b529c94bc8789351811b0bfbfeeff6a5d3a6f7452d0477235
 ontap_region: London
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 58
-- Selected: 14
-- POSS awaiting decision: 9
+- Records: 63
+- Selected: 18
+- POSS awaiting decision: 10
 - Excluded: 0
 - Hard pass: 35
 
@@ -34,6 +34,36 @@ factual_fingerprint: 86a13e81199f9d6265b2f382775f21e480736524a0c414421f489d16b1e
 source: Teaching Vacancies
 source_job_id: administrative-assistant-with-finance-experience
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-with-finance-experience
+---
+
+---
+action: 
+SELECTED | London | London, London, SE13 7BN | £28,947.00 - £29,789.00 Annually (Actual) | Administrator (Events, Communications & Recruitment)
+employer: Prendergast Vale School
+closing_date: 2026-09-21T09:00:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 855a64c0b3da005c14d60a877cab0413fdf9f75f976c4cca8bb3e4ed71b7525b
+source: Teaching Vacancies
+source_job_id: administrator-events-communications-recruitment
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-events-communications-recruitment
+---
+
+---
+action: 
+SELECTED | London | London, London, E9 7HD | £29,929.00 - £35,332.00 Annually (FTE) | Administrator with Additional Responsibilities
+employer: Mossbourne Victoria Park Academy
+closing_date: 2026-09-21T23:59:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: ca9d9a4173a2246e5381d3b09418d52481ffefb83b01340f8fabba9c3ec4ee05
+source: Teaching Vacancies
+source_job_id: administrator-with-additional-responsibilities-mossbourne-victoria-park-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-with-additional-responsibilities-mossbourne-victoria-park-academy
 ---
 
 ---
@@ -109,6 +139,36 @@ factual_fingerprint: 4cf7d1d2520f63502cbb449faf86eebf94911c67dba816e7f2f8aaab34e
 source: Teaching Vacancies
 source_job_id: finance-hr-administrator-illuminate-minds-trust
 source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-hr-administrator-illuminate-minds-trust
+---
+
+---
+action: 
+SELECTED | London | Hayes, London, UB4 9LE | £25,099.00 Annually (Actual) | General Administrator
+employer: Barnhill Community High School
+closing_date: 2026-09-25T23:59:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: af76466baf55fae0af26e1dfc70507b1ab3e96c1867fb104ba78eeb0f1c83843
+source: Teaching Vacancies
+source_job_id: general-administrator-59873b13-61c6-4af5-9585-7d24327ca111
+source_url: https://teaching-vacancies.service.gov.uk/jobs/general-administrator-59873b13-61c6-4af5-9585-7d24327ca111
+---
+
+---
+action: 
+SELECTED | London | London, London, N22 7ST | £34,776.00 - £35,703.00 Annually (Actual) SO1 £38,256 to £39,276 | KS4 Administrator and IAG Provision Officer
+employer: Heartlands High School
+closing_date: 2026-09-22T09:00:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: abd16f6385283d92e45a4568b93d6490f1f36abdecd32b8327aceffa9dbe164d
+source: Teaching Vacancies
+source_job_id: ks4-administrator-and-iag-provision-officer-heartlands-high-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/ks4-administrator-and-iag-provision-officer-heartlands-high-school
 ---
 
 ---
@@ -340,6 +400,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-lilian-b
 
 ---
 action: 
+POSS | London | London, London, N17 6AR | £27,532.96 - £28,735.61 Annually (Actual) | Receptionist / Administrative Assistant
+employer: The Grove
+closing_date: 2026-09-18T09:00:00+01:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: c184180ae4df4d41b53caab556638d65a40ab322b2646338e7903bd5b6efa90c
+source: Teaching Vacancies
+source_job_id: receptionist-administrative-assistant-8e17e079-a51d-4186-b318-f74fe5948d01
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrative-assistant-8e17e079-a51d-4186-b318-f74fe5948d01
+---
+
+---
+action: 
 POSS | London | Osterley, London, TW7 5PN | 28,195.00 - 29,852.00 | School Administrator
 employer: Nishkam School West London
 closing_date: 2026-09-18T00:00:00+01:00
@@ -376,12 +451,13 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/student-services-and-
 
 - [Admin Officer with Reception duties](https://teaching-vacancies.service.gov.uk/jobs/admin-officer-with-reception-duties) — Insufficient admin/service evidence.
 - [Attendance & Welfare Lead and Deputy Designated Safeguarding Lead (DDSL)](https://teaching-vacancies.service.gov.uk/jobs/attendance-welfare-lead-and-deputy-designated-safeguarding-lead-ddsl) — Insufficient admin/service evidence.
+- [Data & Exams Manager](https://teaching-vacancies.service.gov.uk/jobs/data-exams-manager-ark-bolingbroke-academy) — Manager title salary ceiling £44,231 is not below £28,000.
 - [Deputy HR Manager](https://teaching-vacancies.service.gov.uk/jobs/deputy-hr-manager-impact-multi-academy-trust) — Manager title salary ceiling £45,750 is not below £28,000.
 - [Exams & Access Arrangements Assistant](https://teaching-vacancies.service.gov.uk/jobs/exams-access-arrangements-assistant) — Insufficient admin/service evidence.
 - [Facilities Manager](https://teaching-vacancies.service.gov.uk/jobs/facilities-manager-wimbledon-college) — Manager title salary ceiling £52,827 is not below £28,000.
 - [Family Welfare Officer](https://teaching-vacancies.service.gov.uk/jobs/family-welfare-officer-orion-eden-park-beckenham-kent) — Insufficient admin/service evidence.
+- [Finance Apprentice](https://teaching-vacancies.service.gov.uk/jobs/finance-apprentice-hertswood-academy-borehamwood-hertfordshire) — Insufficient admin/service evidence.
 - [Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-alternative-learning-trust) — Insufficient admin/service evidence.
-- [Financial Controller](https://teaching-vacancies.service.gov.uk/jobs/financial-controller-69b53fc4-0e74-4fcc-8b97-a4bff926f1dd) — Insufficient admin/service evidence.
 - [Fundraising Officer](https://teaching-vacancies.service.gov.uk/jobs/fundraising-officer-ac67c185-438c-4d63-82c9-4fcd5524afc9) — Insufficient admin/service evidence.
 - [Head of Governance & Compliance](https://teaching-vacancies.service.gov.uk/jobs/head-of-governance-compliance-the-charter-schools-educational-trust) — Insufficient admin/service evidence.
 - [HR Assistant](https://teaching-vacancies.service.gov.uk/jobs/hr-assistant-wanstead-high-school) — Insufficient admin/service evidence.
@@ -390,7 +466,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/student-services-and-
 - [Human Resources & Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/human-resources-operations-manager-the-woodland-academy-trust) — Manager title salary ceiling £59,778 is not below £28,000.
 - [Human Resources Manager (Schools)](https://teaching-vacancies.service.gov.uk/jobs/human-resources-manager-schools) — Manager title salary ceiling £41,000 is not below £28,000.
 - [Learning Resource Centre Manager](https://teaching-vacancies.service.gov.uk/jobs/learning-resource-centre-manager-harris-city-academy-crystal-palace-london) — Manager title salary ceiling £34,488 is not below £28,000.
-- [Management Accountant/Business Partner](https://teaching-vacancies.service.gov.uk/jobs/management-accountant-business-partner-the-charter-schools-educational-trust-london-not-recorded) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-1a973059-d7f8-42e5-b5fb-d95788720396) — Manager title salary ceiling £44,235 is not below £28,000.
 - [OFFICE MANAGER](https://teaching-vacancies.service.gov.uk/jobs/office-manager-c51d6e8a-f80b-4d3c-a580-8c73630ffb4a) — Manager title salary ceiling £40,182 is not below £28,000.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-cf4ed5f9-993c-4290-bdde-9e62b7a08c9c) — Manager title salary ceiling £34,817 is not below £28,000.
@@ -400,7 +475,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/student-services-and-
 - [Recruitment and Engagement Manager](https://teaching-vacancies.service.gov.uk/jobs/recruitment-and-engagement-manager) — Manager title salary ceiling £42,060 is not below £28,000.
 - [Reprographics Officer](https://teaching-vacancies.service.gov.uk/jobs/reprographics-officer-wallington-county-grammar-school) — Insufficient admin/service evidence.
 - [SBM/CFO](https://teaching-vacancies.service.gov.uk/jobs/sbm-cfo) — Insufficient admin/service evidence.
-- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-95955f31-beb3-4e05-ba66-8ff177df44f8) — Manager title salary ceiling £54,843 is not below £28,000.
+- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-f3929ea5-8ab0-4347-ba05-b741572a9d77) — Manager title salary ceiling £54,843 is not below £28,000.
 - [School Social Worker](https://teaching-vacancies.service.gov.uk/jobs/school-social-worker-whitefriars-school) — Out-of-scope occupation: social worker.
 - [SENDCo Assistant](https://teaching-vacancies.service.gov.uk/jobs/sendco-assistant-red-hill-primary-school-chislehurst-kent) — Insufficient admin/service evidence.
 - [Senior Administrative Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-administrative-officer-mossbourne-community-academy-london) — Insufficient admin/service evidence.

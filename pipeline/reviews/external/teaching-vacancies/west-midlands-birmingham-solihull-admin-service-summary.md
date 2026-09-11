@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Birmingham & Solihull
 
-review_date: 2026-09-10
-review_fingerprint: 51843ae924119521cfd4514ca2b549228f22f77aaf46e6ae3b710d8d63f0a971
-routing_manifest_sha256: 59e27ec5f0988f3fbff7710c6431ef08819873d43138c8fff91d89bff025fcb0
+review_date: 2026-09-11
+review_fingerprint: 5cadcf1bd55dc36c95cd5d7a77e666ed65fb7009beda0fc48068072c9299fcef
+routing_manifest_sha256: 8ec19953acb0b91b529c94bc8789351811b0bfbfeeff6a5d3a6f7452d0477235
 ontap_region: West Midlands - Birmingham & Solihull
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 21
+- Records: 23
 - Selected: 6
-- POSS awaiting decision: 4
+- POSS awaiting decision: 5
 - Excluded: 0
-- Hard pass: 11
+- Hard pass: 12
 
 ## SELECTED
 
@@ -68,6 +68,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assist
 
 ---
 action: 
+SELECTED | West Midlands - Birmingham & Solihull | Birmingham, B44 9AG | £25,614.00 - £27,709.00 Annually (FTE) | Office Assistant at St Elizabeth's Catholic Primary School, B79 8EN
+employer: St. John Paul Ii Multi Academy Company
+closing_date: 2026-09-21T12:00:00+01:00
+reason: Clear admin/service title: office assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 5842af95673f6a237f8f01a0b2782a34f4063c5c509cf51f5008329ff54c4a62
+source: Teaching Vacancies
+source_job_id: office-assistant-at-st-elizabeth-s-catholic-primary-school-b79-8en
+source_url: https://teaching-vacancies.service.gov.uk/jobs/office-assistant-at-st-elizabeth-s-catholic-primary-school-b79-8en
+---
+
+---
+action: 
 SELECTED | West Midlands - Birmingham & Solihull | Birmingham, B20 3LP | £29,070.00 - £32,046.00 Annually (Actual) | Payroll, Pensions, Finance and HR Administrator
 employer: Birmingham Diocesan Multi Academy Trust
 closing_date: 2026-09-21T08:00:00+01:00
@@ -79,21 +94,6 @@ factual_fingerprint: 72155758fc0c4149e5d4f318ba766c871b3ae1d758e4c124bc3dfb473f3
 source: Teaching Vacancies
 source_job_id: payroll-pensions-finance-and-hr-administrator
 source_url: https://teaching-vacancies.service.gov.uk/jobs/payroll-pensions-finance-and-hr-administrator
----
-
----
-action: 
-SELECTED | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B45 0EU | £22,121.00 Annually (Actual) | Receptionist
-employer: King Edward VI Balaam Wood Academy
-closing_date: 2026-09-21T09:00:00+01:00
-reason: Clear admin/service title: receptionist
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: f9d1389180deee068952f032ce09b1d6ee768cc4c19d9b82d03eeadc00668a78
-source: Teaching Vacancies
-source_job_id: receptionist-king-edward-vi-balaam-wood-academy-birmingham-west-midlands
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-king-edward-vi-balaam-wood-academy-birmingham-west-midlands
 ---
 
 ---
@@ -173,12 +173,28 @@ source_job_id: office-administrator-yorkmead-junior-and-infant-school-birmingham
 source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-yorkmead-junior-and-infant-school-birmingham-west-midlands
 ---
 
+---
+action: 
+POSS | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B45 0EU | £22,121.00 Annually (Actual) | Receptionist
+employer: King Edward VI Balaam Wood Academy
+closing_date: 2026-09-21T09:00:00+01:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: f9d1389180deee068952f032ce09b1d6ee768cc4c19d9b82d03eeadc00668a78
+source: Teaching Vacancies
+source_job_id: receptionist-king-edward-vi-balaam-wood-academy-birmingham-west-midlands
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-king-edward-vi-balaam-wood-academy-birmingham-west-midlands
+---
+
 ## EXCLUDED BY REVIEW
 
 - None.
 
 ## HARD_PASS
 
+- [Academy Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/academy-operations-manager-daylesford-academy) — Manager title salary ceiling £37,784 is not below £28,000.
 - [Data Manager](https://teaching-vacancies.service.gov.uk/jobs/data-manager-moseley-school-and-sixth-form) — Manager title salary ceiling £47,375 is not below £28,000.
 - [Finance Lead](https://teaching-vacancies.service.gov.uk/jobs/finance-lead-forward-education-trust) — Insufficient admin/service evidence.
 - [Governance Support Officer](https://teaching-vacancies.service.gov.uk/jobs/governance-support-officer-academy-transformation-trust-sutton-coldfield-not-recorded) — Insufficient admin/service evidence.

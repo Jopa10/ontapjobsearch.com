@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Hertfordshire
 
-review_date: 2026-09-10
-review_fingerprint: 39a3ca4046b3d9dd17783b652747af32c0a6c30c1d327059848652a25aa43e62
-routing_manifest_sha256: 59e27ec5f0988f3fbff7710c6431ef08819873d43138c8fff91d89bff025fcb0
+review_date: 2026-09-11
+review_fingerprint: cac24a7cee4f9f99a8fc15cf5e6f5d2c828b46cbbd1d2413829d5a6812d947e3
+routing_manifest_sha256: 8ec19953acb0b91b529c94bc8789351811b0bfbfeeff6a5d3a6f7452d0477235
 ontap_region: Hertfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -235,14 +235,14 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/inclusion-administrat
 
 ---
 action: 
-POSS | Hertfordshire | St Albans, AL1 5AR | £27,600.00 - £28,906.00 Annually (Actual) Grade: H4 + Fringe Annual Salary: £27,600 progressing to £28,906 (Fringe allowance included) | MIS Administrator
+POSS | Hertfordshire | St Albans, AL1 5AR | £27,600.00 - £28,906.00 Annually (FTE) Grade: H4 + Fringe Annual Salary: £27,600 progressing to £28,906 (Fringe allowance included) | MIS Administrator
 employer: Scholars' Education Trust
 closing_date: 2026-09-17T09:00:00+01:00
 reason: Possible JobG8 duplicate requires review
 jobg8_check: POSSIBLE_DUPLICATE
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: d0c8306918503eda5644e6fb8d8efda82d6280642c338310b0c4b069ca03580d
+factual_fingerprint: 769345e9ffdd533438b10a0d23289c68e91a23f1093d1d6f5a279dea837bf9bf
 source: Teaching Vacancies
 source_job_id: mis-administrator
 source_url: https://teaching-vacancies.service.gov.uk/jobs/mis-administrator
@@ -269,10 +269,10 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-manager-oaklea
 
 ## HARD_PASS
 
+- [Assistant SENDCo](https://teaching-vacancies.service.gov.uk/jobs/assistant-sendco-6880daf8-5253-47b8-806d-79b65802f205) — Insufficient admin/service evidence.
 - [Attendance & Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/attendance-administration-officer-hertford-heath-primary-and-nursery-school) — Insufficient admin/service evidence.
 - [Development Director](https://teaching-vacancies.service.gov.uk/jobs/development-director-watford-grammar-school-for-boys) — Insufficient admin/service evidence.
 - [Headteacher's PA + Office Manager](https://teaching-vacancies.service.gov.uk/jobs/headteacher-s-pa-office-manager-robert-barclay-academy) — Out-of-scope occupation: teacher, headteacher.
-- [Teaching Assistant including personal care: Part Time / Full Time (H3)](https://teaching-vacancies.service.gov.uk/jobs/teaching-assistant-including-personal-care-part-time-full-time-h3-beaumont-school-st-albans-hertfordshire) — Out-of-scope occupation: teaching assistant.
 
 ## Safety boundary
 

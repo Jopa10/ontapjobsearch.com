@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cambridgeshire
 
-review_date: 2026-09-10
-review_fingerprint: 630bdb09322de2019655543e91c1b357d4caf61da6ba09f4a85916a13c944b89
-routing_manifest_sha256: 59e27ec5f0988f3fbff7710c6431ef08819873d43138c8fff91d89bff025fcb0
+review_date: 2026-09-11
+review_fingerprint: 7754ce9a466c600175d40b8bcbc07dad370c893842410255adeb4f3a50a54d54
+routing_manifest_sha256: 8ec19953acb0b91b529c94bc8789351811b0bfbfeeff6a5d3a6f7452d0477235
 ontap_region: Cambridgeshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 26
-- Selected: 7
+- Records: 29
+- Selected: 9
 - POSS awaiting decision: 6
 - Excluded: 0
-- Hard pass: 13
+- Hard pass: 14
 
 ## SELECTED
 
@@ -68,14 +68,14 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assist
 
 ---
 action: 
-SELECTED | Cambridgeshire | Cambridge, East of England, CB4 2BD | £25,614.00 Annually (FTE) | Administrative Assistant
+SELECTED | Cambridgeshire | Cambridge, East of England, CB4 2BD | £25,614.00 Annually (Actual) | Administrative Assistant
 employer: Milton Road Primary School
 closing_date: 2026-09-20T17:00:00+01:00
 reason: Clear admin/service title: administrative assistant
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 0c8c98eb036176ef19b3b585df341f50964ce142aab5888bf1f3425d6e08aa7b
+factual_fingerprint: a25b5cf00850835c9f30e264c509ed93d2477e4e842a27bba59495927689c161
 source: Teaching Vacancies
 source_job_id: administrative-assistant-milton-road-primary-school-cambridge-cambridgeshire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-milton-road-primary-school-cambridge-cambridgeshire
@@ -98,6 +98,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-9219e9b
 
 ---
 action: 
+SELECTED | Cambridgeshire | Peterborough, East of England, PE4 7EP | £20,722.00 Annually (Actual) Term time plus 5 days | Attendance Administrator
+employer: Manor Drive Secondary Academy
+closing_date: 2026-09-21T10:00:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 85af801fbea1bcd1d59b9fa0afc283855e3a494d0d4fc70daa9620c5c5a2bc1a
+source: Teaching Vacancies
+source_job_id: attendance-administrator-manor-drive-secondary-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-administrator-manor-drive-secondary-academy
+---
+
+---
+action: 
 SELECTED | Cambridgeshire | St Neots, East of England, PE19 1TF | £24,404.00 Annually (FTE) | Finance / Admin Assistant
 employer: Priory Junior School
 closing_date: 2026-10-30T23:59:00+00:00
@@ -109,6 +124,21 @@ factual_fingerprint: bb12afb2ad0a0d201446df474b26ad57f0c365e5f1f55a6cd1674dde7b2
 source: Teaching Vacancies
 source_job_id: finance-admin-assistant-priory-junior-school-st-neots-cambridgeshire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-admin-assistant-priory-junior-school-st-neots-cambridgeshire
+---
+
+---
+action: 
+SELECTED | Cambridgeshire | Peterborough, East of England, PE6 7JX | £25,745.00 Annually (Actual) | High Level Administrator - SLT Support
+employer: Arthur Mellows Village College
+closing_date: 2026-09-21T09:00:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 247e285f5cf16a07c7ac2b9d89c7aef5600b2e59288ec1c1fcd1d919f3f139f9
+source: Teaching Vacancies
+source_job_id: high-level-administrator-slt-support-arthur-mellows-village-college
+source_url: https://teaching-vacancies.service.gov.uk/jobs/high-level-administrator-slt-support-arthur-mellows-village-college
 ---
 
 ---
@@ -225,12 +255,13 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/marketing-communicati
 ## HARD_PASS
 
 - [Attendance Support Assistant](https://teaching-vacancies.service.gov.uk/jobs/attendance-support-assistant-comberton-village-college-cambridge-cambridgeshire) — Insufficient admin/service evidence.
+- [Community Assistant (Evenings)](https://teaching-vacancies.service.gov.uk/jobs/community-assistant-evenings) — Insufficient admin/service evidence.
 - [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-greater-peterborough-utc) — Insufficient admin/service evidence.
 - [Head of HR Business Partnering](https://teaching-vacancies.service.gov.uk/jobs/head-of-hr-business-partnering) — Insufficient admin/service evidence.
 - [Head of HR Operations](https://teaching-vacancies.service.gov.uk/jobs/head-of-hr-operations-meridian-trust) — Insufficient admin/service evidence.
 - [Head of HR Operations](https://teaching-vacancies.service.gov.uk/jobs/head-of-hr-operations-united-learning-trust) — Insufficient admin/service evidence.
 - [HR Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-b7cc2a7e-7614-47f6-82b4-5ec3bff78735) — Insufficient admin/service evidence.
-- [Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-0ac27fb8-22a7-4d23-9c79-0a117c28f623) — Insufficient admin/service evidence.
+- [MAT Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/mat-finance-officer-four-cs-mat-peterborough-not-recorded) — Insufficient admin/service evidence.
 - [School Business Leader](https://teaching-vacancies.service.gov.uk/jobs/school-business-leader-university-of-cambridge-primary-school) — Insufficient admin/service evidence.
 - [Senior HR Adviser (Field based Cambridge and Ely area primarily)](https://teaching-vacancies.service.gov.uk/jobs/senior-hr-adviser-field-based-cambridge-and-ely-area-primarily) — Insufficient admin/service evidence.
 - [Trust Accountant](https://teaching-vacancies.service.gov.uk/jobs/trust-accountant-7bdb7712-1f61-48da-8325-8b7fd7b8d935) — Insufficient admin/service evidence.

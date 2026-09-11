@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Dorset
 
-review_date: 2026-09-10
-review_fingerprint: 8c7ab34a5b4732504be6ef11883af29f8a5b3058ae296e71cbf95a9b5fe1a26c
-routing_manifest_sha256: 59e27ec5f0988f3fbff7710c6431ef08819873d43138c8fff91d89bff025fcb0
+review_date: 2026-09-11
+review_fingerprint: a7eff3c7a8b1da30ca63c6fc5bcc35dd63b5003c426453263504de2715420f2f
+routing_manifest_sha256: 8ec19953acb0b91b529c94bc8789351811b0bfbfeeff6a5d3a6f7452d0477235
 ontap_region: Dorset
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 5
-- Selected: 3
+- Records: 4
+- Selected: 2
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 1
@@ -49,21 +49,6 @@ factual_fingerprint: a0f7aceaaaf2bb770b1eb6762c0fc0059edcac12d1b75673e0bacb3ded5
 source: Teaching Vacancies
 source_job_id: pa-to-leadership-team-b8e78b62-3fce-486c-bfe4-ebd07a02857c
 source_url: https://teaching-vacancies.service.gov.uk/jobs/pa-to-leadership-team-b8e78b62-3fce-486c-bfe4-ebd07a02857c
----
-
----
-action: 
-SELECTED | Dorset | Bournemouth, South West, BH8 9PW | 22.5 hours per week. Term time only (39 weeks) Actual = £12,651. FTE £23,543 | Receptionist - Part Time
-employer: The Bishop of Winchester Academy
-closing_date: 2026-09-10T23:59:00+01:00
-reason: Clear admin/service title: receptionist
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: d542b25d1f2d318165eca45feeedb73c36c78d9db0dd0eb7ef1bcb0e1a4bb7be
-source: Teaching Vacancies
-source_job_id: receptionist-part-time-the-bishop-of-winchester-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-part-time-the-bishop-of-winchester-academy
 ---
 
 ## POSS — choose SELECT or EXCLUDE
