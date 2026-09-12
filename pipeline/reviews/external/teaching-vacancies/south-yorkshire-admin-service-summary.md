@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - South
 
-review_date: 2026-09-11
-review_fingerprint: 23c96c325ab5342f38c186ae73b551526c13c6d933419a125dd083df6db7443b
-routing_manifest_sha256: 8ec19953acb0b91b529c94bc8789351811b0bfbfeeff6a5d3a6f7452d0477235
+review_date: 2026-09-12
+review_fingerprint: 3001d724aac7ec178bd1ef7baec28d7388cff5e7dee3c5c6e4f4af3ddd3b27b0
+routing_manifest_sha256: fd4ac0184b374693245b938633a2d05338988b578725315bcae5a328ed5b8eb0
 ontap_region: Yorkshire - South
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 32
+- Records: 31
 - Selected: 7
-- POSS awaiting decision: 1
+- POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 24
 
@@ -34,21 +34,6 @@ factual_fingerprint: b5b168a56f468ff6d306348bd1d72f085a0a5694ec6df76fecb7a61b753
 source: Teaching Vacancies
 source_job_id: admin-clerical-officer-level-2-rowan-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-clerical-officer-level-2-rowan-school
----
-
----
-action: 
-SELECTED | Yorkshire - South | Doncaster, Yorkshire and the Humber, DN11 0BZ | £30,515.00 - £33,119.00 Annually (FTE) Grade F Points 14 to 19 (£30,515 to £33,119 Full Time Equivalent) subject to pro rata. The minimum actual pro rata salary per annum for this job starts at £28,391.20 | Data and Exams Officer
-employer: Rossington All Saints Academy
-closing_date: 2026-09-23T23:59:00+01:00
-reason: Clear admin/service title: exams officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 703941ebfef45d8a346aafe8e6b9c2f775d51235135be9395b0fb4ca03a6564a
-source: Teaching Vacancies
-source_job_id: data-and-exams-officer-rossington-all-saints-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/data-and-exams-officer-rossington-all-saints-academy
 ---
 
 ---
@@ -79,6 +64,21 @@ factual_fingerprint: 589406a11436d8f09b35a36409284fb5a070c45b47d0a37eecda4f1896b
 source: Teaching Vacancies
 source_job_id: personal-assistant-to-headteacher-westfield-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/personal-assistant-to-headteacher-westfield-school
+---
+
+---
+action: 
+SELECTED | Yorkshire - South | Sheffield, East Midlands, S21 4GN | £26,427.00 - £26,847.00 Annually (FTE) Grade 3 SCP 5 to 6 (Actual Salary £8,908 - £9,049) | Receptionist
+employer: Eckington School
+closing_date: 2026-09-20T23:59:00+01:00
+reason: Clear admin/service title: receptionist
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: b79a96fca9ed572c85fe969fccc79f67a72c7bf62f2d0094e83528c533c7d950
+source: Teaching Vacancies
+source_job_id: receptionist-458ac8b7-4b1a-49e5-9f6d-099164b8a6da
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-458ac8b7-4b1a-49e5-9f6d-099164b8a6da
 ---
 
 ---
@@ -128,20 +128,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administ
 
 ## POSS — choose SELECT or EXCLUDE
 
----
-action: 
-POSS | Yorkshire - South | Barnsley, S75 3SP | £25,583.00 - £25,989.00 Annually (Actual) | Estates and Compliance Coordinator
-employer: Hcat
-closing_date: 2026-09-11T23:59:00+01:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 81a8edc39337a9d3ce0dc1db7b64d6b2a891488d95271700ea05e77a8331bfb7
-source: Teaching Vacancies
-source_job_id: estates-and-compliance-coordinator
-source_url: https://teaching-vacancies.service.gov.uk/jobs/estates-and-compliance-coordinator
----
+- None.
 
 ## EXCLUDED BY REVIEW
 
@@ -163,15 +150,15 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/estates-and-complianc
 - [Finance & Admin Asst](https://teaching-vacancies.service.gov.uk/jobs/finance-admin-asst) — Insufficient admin/service evidence.
 - [Finance & Admin Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-admin-manager-prince-edward-primary-school-sheffield-south-yorkshire) — Manager title salary ceiling £41,771 is not below £28,000.
 - [Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-22597e3f-53f4-481f-b336-4ec374710e1b) — Insufficient admin/service evidence.
-- [Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-57d3025b-f701-43b4-bf16-13498ff4c547) — Insufficient admin/service evidence.
 - [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-mercia-learning-trust-sheffield-not-recorded) — Manager title salary ceiling £53,052 is not below £28,000.
 - [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-hatfield-woodhouse-primary-school-doncaster-south-yorkshire) — Insufficient admin/service evidence.
 - [HR Manager](https://teaching-vacancies.service.gov.uk/jobs/hr-manager-f66082bd-6a6e-4f84-9a14-924c810758cb) — Manager title salary ceiling £54,495 is not below £28,000.
 - [HR Manager](https://teaching-vacancies.service.gov.uk/jobs/hr-manager-st-francis-catholic-multi-academy-trust-rotherham-not-recorded) — Manager title salary ceiling £54,495 is not below £28,000.
 - [Learning Manager](https://teaching-vacancies.service.gov.uk/jobs/learning-manager-0bfa4cca-872c-4778-a35f-1fb75b7f4503) — Manager title salary ceiling £36,581 is not below £28,000.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-newman-school) — Manager title salary ceiling £39,152 is not below £28,000.
+- [Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/operations-manager-982c74fa-4963-48bf-be10-a1bcf0a4bf2f) — Manager title salary ceiling £39,773 is not below £28,000.
 - [Part-time Administrator](https://teaching-vacancies.service.gov.uk/jobs/part-time-administrator-woodhouse-west-primary-school-sheffield-south-yorkshire) — Missing salary or pay scale.
-- [School Administration Assistant: HR and Payroll](https://teaching-vacancies.service.gov.uk/jobs/school-administration-assistant-hr-and-payroll) — Insufficient admin/service evidence.
+- [Senior Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-administration-officer-kings-oak-primary) — Insufficient admin/service evidence.
 - [Sixth Form Engagement Officer](https://teaching-vacancies.service.gov.uk/jobs/sixth-form-engagement-officer) — Insufficient admin/service evidence.
 
 ## Safety boundary

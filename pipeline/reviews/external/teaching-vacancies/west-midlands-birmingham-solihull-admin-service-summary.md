@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Birmingham & Solihull
 
-review_date: 2026-09-11
-review_fingerprint: 5cadcf1bd55dc36c95cd5d7a77e666ed65fb7009beda0fc48068072c9299fcef
-routing_manifest_sha256: 8ec19953acb0b91b529c94bc8789351811b0bfbfeeff6a5d3a6f7452d0477235
+review_date: 2026-09-12
+review_fingerprint: b68298d5f89d717ec764f0dd4cbf319e2fbddea93b27cc030fded0898046abca
+routing_manifest_sha256: fd4ac0184b374693245b938633a2d05338988b578725315bcae5a328ed5b8eb0
 ontap_region: West Midlands - Birmingham & Solihull
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 23
-- Selected: 6
-- POSS awaiting decision: 5
+- Records: 19
+- Selected: 8
+- POSS awaiting decision: 3
 - Excluded: 0
-- Hard pass: 12
+- Hard pass: 8
 
 ## SELECTED
 
@@ -68,6 +68,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assist
 
 ---
 action: 
+SELECTED | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B15 2AF | Grade 3: £28,153pa (pro rata) - £34,811pa (pro rata) + SEN 1,779.86pa (pro rata) | Attendance Officer (2 roles)
+employer: James Brindley School
+closing_date: 2026-09-23T09:00:00+01:00
+reason: Clear admin/service title: attendance officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 960dd9ed3108a58276553de19edf7b88d89fa3cf67abe76696bc48f840d22433
+source: Teaching Vacancies
+source_job_id: attendance-officer-2-roles
+source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-2-roles
+---
+
+---
+action: 
 SELECTED | West Midlands - Birmingham & Solihull | Birmingham, B44 9AG | £25,614.00 - £27,709.00 Annually (FTE) | Office Assistant at St Elizabeth's Catholic Primary School, B79 8EN
 employer: St. John Paul Ii Multi Academy Company
 closing_date: 2026-09-21T12:00:00+01:00
@@ -98,6 +113,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/payroll-pensions-fina
 
 ---
 action: 
+SELECTED | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B45 0EU | £22,121.00 Annually (Actual) | Receptionist
+employer: King Edward VI Balaam Wood Academy
+closing_date: 2026-09-21T09:00:00+01:00
+reason: Clear admin/service title: receptionist
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: f9d1389180deee068952f032ce09b1d6ee768cc4c19d9b82d03eeadc00668a78
+source: Teaching Vacancies
+source_job_id: receptionist-king-edward-vi-balaam-wood-academy-birmingham-west-midlands
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-king-edward-vi-balaam-wood-academy-birmingham-west-midlands
+---
+
+---
+action: 
 SELECTED | West Midlands - Birmingham & Solihull | Sutton Coldfield, West Midlands, B74 4LD | £25,614 - £27,709 FTE, actual salary £13,637 - £14,753 per annum | Receptionist & Admin Assistant
 employer: Hill West Primary School
 closing_date: 2026-09-25T09:00:00+01:00
@@ -112,21 +142,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-admin-as
 ---
 
 ## POSS — choose SELECT or EXCLUDE
-
----
-action: 
-POSS | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B31 4BS | £28,827.30 - £28,827.30 Annually (Actual) Pro Rata Salary: £28,827.30 (FTE £32,677) | Exam's and Data Officer
-employer: Turves Green Boys' School
-closing_date: 2026-09-11T23:59:00+01:00
-reason: Borderline school administration title: data officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 7a21b4184bc3d0b09c159c5e2696009b67ec9999624a1e9743e1db4f385af83b
-source: Teaching Vacancies
-source_job_id: exam-s-and-data-officer
-source_url: https://teaching-vacancies.service.gov.uk/jobs/exam-s-and-data-officer
----
 
 ---
 action: 
@@ -173,21 +188,6 @@ source_job_id: office-administrator-yorkmead-junior-and-infant-school-birmingham
 source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-yorkmead-junior-and-infant-school-birmingham-west-midlands
 ---
 
----
-action: 
-POSS | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B45 0EU | £22,121.00 Annually (Actual) | Receptionist
-employer: King Edward VI Balaam Wood Academy
-closing_date: 2026-09-21T09:00:00+01:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: f9d1389180deee068952f032ce09b1d6ee768cc4c19d9b82d03eeadc00668a78
-source: Teaching Vacancies
-source_job_id: receptionist-king-edward-vi-balaam-wood-academy-birmingham-west-midlands
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-king-edward-vi-balaam-wood-academy-birmingham-west-midlands
----
-
 ## EXCLUDED BY REVIEW
 
 - None.
@@ -195,17 +195,13 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-king-edw
 ## HARD_PASS
 
 - [Academy Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/academy-operations-manager-daylesford-academy) — Manager title salary ceiling £37,784 is not below £28,000.
-- [Data Manager](https://teaching-vacancies.service.gov.uk/jobs/data-manager-moseley-school-and-sixth-form) — Manager title salary ceiling £47,375 is not below £28,000.
 - [Finance Lead](https://teaching-vacancies.service.gov.uk/jobs/finance-lead-forward-education-trust) — Insufficient admin/service evidence.
-- [Governance Support Officer](https://teaching-vacancies.service.gov.uk/jobs/governance-support-officer-academy-transformation-trust-sutton-coldfield-not-recorded) — Insufficient admin/service evidence.
 - [Head of Executive Office and Communications](https://teaching-vacancies.service.gov.uk/jobs/head-of-executive-office-and-communications) — Insufficient admin/service evidence.
 - [Head of Marketing](https://teaching-vacancies.service.gov.uk/jobs/head-of-marketing-ormiston-academies-trust) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-lindens-academy) — Manager title salary ceiling £34,434 is not below £28,000.
-- [PA & Office Manager](https://teaching-vacancies.service.gov.uk/jobs/pa-office-manager-moseley-school-and-sixth-form) — Manager title salary ceiling £41,771 is not below £28,000.
 - [Regional Commercial Procurement Manager](https://teaching-vacancies.service.gov.uk/jobs/regional-commercial-procurement-manager-ormiston-academies-trust) — Manager title salary ceiling £63,638 is not below £28,000.
 - [Regional People Partner](https://teaching-vacancies.service.gov.uk/jobs/regional-people-partner-4ed6680e-930f-489a-b0d0-658557e0d3dc) — Insufficient admin/service evidence.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-lordswood-boys-school) — Manager title salary ceiling £42,839 is not below £28,000.
-- [Student Support and Admissions Coordinator](https://teaching-vacancies.service.gov.uk/jobs/student-support-and-admissions-coordinator) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

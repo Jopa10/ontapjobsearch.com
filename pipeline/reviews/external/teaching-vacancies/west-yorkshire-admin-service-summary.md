@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - West
 
-review_date: 2026-09-11
-review_fingerprint: 849b5ceeb0f8504467aab3853744c4d38ff2c701f547653f80e0c8f60c1a2bf1
-routing_manifest_sha256: 8ec19953acb0b91b529c94bc8789351811b0bfbfeeff6a5d3a6f7452d0477235
+review_date: 2026-09-12
+review_fingerprint: 53d21ce1ab4bcd4d711ec90f61a1ed319635d734fac85693848397d9e0742e92
+routing_manifest_sha256: fd4ac0184b374693245b938633a2d05338988b578725315bcae5a328ed5b8eb0
 ontap_region: Yorkshire - West
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 34
-- Selected: 14
+- Records: 38
+- Selected: 15
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 18
+- Hard pass: 21
 
 ## SELECTED
 
@@ -158,6 +158,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/apprentice-admin-assi
 
 ---
 action: 
+SELECTED | Yorkshire - West | Huddersfield, Yorkshire and the Humber, HD1 4BJ | £11,722.00 Annually (Actual) Term Time only | Business Support Officer
+employer: Spring Grove Junior Infant and Nursery School
+closing_date: 2026-09-25T23:59:00+01:00
+reason: Clear admin/service title: business support officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: NEW_REVIEW
+factual_fingerprint: 4c504b9c83fe920c321db3a6ef64f06dc83bfb75415276fe140446d9fd5638cc
+source: Teaching Vacancies
+source_job_id: business-support-officer-spring-grove-junior-infant-and-nursery-school-huddersfield-west-yorkshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-officer-spring-grove-junior-infant-and-nursery-school-huddersfield-west-yorkshire
+---
+
+---
+action: 
 SELECTED | Yorkshire - West | Huddersfield, Yorkshire and the Humber, HD3 3UH | £25,583.00 Annually (FTE) | Business Support Officer - Part Time
 employer: Moorlands Primary School
 closing_date: 2026-09-23T09:00:00+01:00
@@ -271,6 +286,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-oa
 
 - [Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-the-brooksbank-school-elland-west-yorkshire) — Insufficient admin/service evidence.
 - [Assistant Senco](https://teaching-vacancies.service.gov.uk/jobs/assistant-senco-fdb10c11-75c5-458b-8d4c-5aa13619d9cc) — Insufficient admin/service evidence.
+- [Attendance Support](https://teaching-vacancies.service.gov.uk/jobs/attendance-support-bradford-forster-academy) — Insufficient admin/service evidence.
 - [Data and Exams Manager](https://teaching-vacancies.service.gov.uk/jobs/data-and-exams-manager-dixons-city-academy) — Manager title salary ceiling £34,744 is not below £28,000.
 - [Data Manager](https://teaching-vacancies.service.gov.uk/jobs/data-manager-buttershaw-business-enterprise-college-academy) — Manager title salary ceiling £37,655 is not below £28,000.
 - [Data, Assessment, and MIS Officer](https://teaching-vacancies.service.gov.uk/jobs/data-assessment-and-mis-officer-crofton-academy) — Insufficient admin/service evidence.
@@ -280,12 +296,14 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-oa
 - [Finance Manager (Core Team)](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-core-team) — Manager title salary ceiling £49,282 is not below £28,000.
 - [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-greengates-primary-academy-bradford-west-yorkshire) — Insufficient admin/service evidence.
 - [Head of Year Assistant](https://teaching-vacancies.service.gov.uk/jobs/head-of-year-assistant) — Insufficient admin/service evidence.
+- [HR Advisor (Central Team)](https://teaching-vacancies.service.gov.uk/jobs/hr-advisor-central-team) — Insufficient admin/service evidence.
 - [Human Resources Business Partner (Central HR Team)](https://teaching-vacancies.service.gov.uk/jobs/human-resources-business-partner-central-hr-team-the-gorse-academies-trust-leeds-not-recorded) — Insufficient admin/service evidence.
 - [Learning Manager](https://teaching-vacancies.service.gov.uk/jobs/learning-manager-72444972-2891-4ebf-9d5f-a8c7dd7aed3d) — Manager title salary ceiling £36,581 is not below £28,000.
 - [Operations Lead](https://teaching-vacancies.service.gov.uk/jobs/operations-lead-menston-primary-school-ilkley-west-yorkshire) — Insufficient admin/service evidence.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-1b36ee5c-0c17-4759-81a0-a7f12e916e50) — Manager title salary ceiling £59,005 is not below £28,000.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-9bdfb809-a83a-40f4-96f0-6df1b12f41b5) — Manager title salary ceiling £59,005 is not below £28,000.
 - [Senior Administrator](https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-linthwaite-clough-primary-school) — Missing salary or pay scale.
+- [Senior Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-finance-officer-impact-education-multi-academy-trust) — Insufficient admin/service evidence.
 - [Trust Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/trust-administration-assistant-waterton-academy-trust) — Insufficient admin/service evidence.
 
 ## Safety boundary

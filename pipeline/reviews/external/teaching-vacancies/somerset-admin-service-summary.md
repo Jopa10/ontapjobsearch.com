@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Somerset
 
-review_date: 2026-09-11
+review_date: 2026-09-12
 review_fingerprint: c3bc99ee98b44fcbfccc00c4361833dbca990c03fa9cd41780bcd02ad49d0a9e
-routing_manifest_sha256: 8ec19953acb0b91b529c94bc8789351811b0bfbfeeff6a5d3a6f7452d0477235
+routing_manifest_sha256: fd4ac0184b374693245b938633a2d05338988b578725315bcae5a328ed5b8eb0
 ontap_region: Somerset
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 10
+- Records: 9
 - Selected: 3
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 6
+- Hard pass: 5
 
 ## SELECTED
 
@@ -90,7 +90,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-
 ## HARD_PASS
 
 - [Apprentice Workplace Reviewer](https://teaching-vacancies.service.gov.uk/jobs/apprentice-workplace-reviewer) — Insufficient admin/service evidence.
-- [Exams, Data Insights and Systems Manager](https://teaching-vacancies.service.gov.uk/jobs/exams-data-insights-and-systems-manager) — Manager title salary ceiling £33,478 is not below £28,000.
 - [Primary Assistant Headteacher Behaviour and Personal Development](https://teaching-vacancies.service.gov.uk/jobs/primary-assistant-headteacher-behaviour-and-personal-development) — Out-of-scope occupation: teacher, headteacher.
 - [Project and Executive Support Officer - Part Time](https://teaching-vacancies.service.gov.uk/jobs/project-and-executive-support-officer-part-time) — Insufficient admin/service evidence.
 - [Receptionist](https://teaching-vacancies.service.gov.uk/jobs/receptionist-westover-green-community-school-and-autism-centre) — Missing salary or pay scale.

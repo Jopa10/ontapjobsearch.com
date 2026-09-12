@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Hertfordshire
 
-review_date: 2026-09-11
-review_fingerprint: cac24a7cee4f9f99a8fc15cf5e6f5d2c828b46cbbd1d2413829d5a6812d947e3
-routing_manifest_sha256: 8ec19953acb0b91b529c94bc8789351811b0bfbfeeff6a5d3a6f7452d0477235
+review_date: 2026-09-12
+review_fingerprint: 80e712501e1460e012bfcb397d3061305a6ab7490990251a337ccf889ce98029
+routing_manifest_sha256: fd4ac0184b374693245b938633a2d05338988b578725315bcae5a328ed5b8eb0
 ontap_region: Hertfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 20
-- Selected: 11
+- Records: 19
+- Selected: 10
 - POSS awaiting decision: 5
 - Excluded: 0
 - Hard pass: 4
@@ -49,21 +49,6 @@ factual_fingerprint: 61b108a03008b95e8d96472210f9cae77b848902de448cde0e91dd05eeb
 source: Teaching Vacancies
 source_job_id: administration-assistant-woodside-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-woodside-primary-school
----
-
----
-action: 
-SELECTED | Hertfordshire | Watford, East of England, WD19 7UZ | £25,583.00 Annually (FTE) Salary is based on FTE - hours will be part time - 9am - 1pm - Monday - Thursday (16 hours per week) - H3 - 25,583 FTE (However, pay award pending national agreement) | Administrator - The Acorn Centre
-employer: Warren Dell Primary School
-closing_date: 2026-09-11T23:59:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 536b35f6732f8b43af7e90fbd3c3b6a3cd1f58772af1b1563995aeead6f6083d
-source: Teaching Vacancies
-source_job_id: administrator-the-acorn-centre
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-the-acorn-centre
 ---
 
 ---

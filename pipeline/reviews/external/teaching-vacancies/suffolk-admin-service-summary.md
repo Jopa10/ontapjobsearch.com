@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Suffolk
 
-review_date: 2026-09-11
+review_date: 2026-09-12
 review_fingerprint: 140f4e67ccafcfe0f6c57c04196836ae510aa9e8780cd7a3804fedfcc7ddfe6b
-routing_manifest_sha256: 8ec19953acb0b91b529c94bc8789351811b0bfbfeeff6a5d3a6f7452d0477235
+routing_manifest_sha256: fd4ac0184b374693245b938633a2d05338988b578725315bcae5a328ed5b8eb0
 ontap_region: Suffolk
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 11
+- Records: 10
 - Selected: 2
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 8
+- Hard pass: 7
 
 ## SELECTED
 
@@ -76,8 +76,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/operations-officer-gl
 
 - [Compliance Senior Lead](https://teaching-vacancies.service.gov.uk/jobs/compliance-senior-lead-eastern-education-group-trust-bury-st-edmunds-not-recorded) — Insufficient admin/service evidence.
 - [Curriculum and Reception Assistant](https://teaching-vacancies.service.gov.uk/jobs/curriculum-and-reception-assistant) — Insufficient admin/service evidence.
-- [FOHR Admin](https://teaching-vacancies.service.gov.uk/jobs/fohr-admin-raedwald-trust) — Insufficient admin/service evidence.
-- [HR Assistant](https://teaching-vacancies.service.gov.uk/jobs/hr-assistant-6dd405b8-2fc8-4e6a-b2e7-62e15c258380) — Insufficient admin/service evidence.
+- [HR Assistant](https://teaching-vacancies.service.gov.uk/jobs/hr-assistant-36698a9b-d2c8-4253-91ee-aefbeab6f899) — Insufficient admin/service evidence.
 - [HR Assistant Apprentice](https://teaching-vacancies.service.gov.uk/jobs/hr-assistant-apprentice-piper-s-vale-primary-a-paradigm-academy-ipswich-suffolk) — Insufficient admin/service evidence.
 - [Office Manager and Exams Officer](https://teaching-vacancies.service.gov.uk/jobs/office-manager-and-exams-officer) — Manager title salary ceiling £32,597 is not below £28,000.
 - [Trust Attendance Lead](https://teaching-vacancies.service.gov.uk/jobs/trust-attendance-lead-unity-schools-partnership) — Insufficient admin/service evidence.

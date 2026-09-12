@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Leicestershire
 
-review_date: 2026-09-11
+review_date: 2026-09-12
 review_fingerprint: 9d26526b5c007c9ceb14e179dfdb7ed461737591995ab3569a14054651ed8574
-routing_manifest_sha256: 8ec19953acb0b91b529c94bc8789351811b0bfbfeeff6a5d3a6f7452d0477235
+routing_manifest_sha256: fd4ac0184b374693245b938633a2d05338988b578725315bcae5a328ed5b8eb0
 ontap_region: Leicestershire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 7
+- Records: 6
 - Selected: 5
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 2
+- Hard pass: 1
 
 ## SELECTED
 
@@ -107,7 +107,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/student-services-admi
 ## HARD_PASS
 
 - [Extended Services Club Manager (EXS031BC)](https://teaching-vacancies.service.gov.uk/jobs/extended-services-club-manager-exs031bc-sileby-redlands-community-primary-school) — Manager title salary ceiling £28,146 is not below £28,000.
-- [Trust Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/trust-finance-officer-discovery-schools-academies-trust-ltd) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

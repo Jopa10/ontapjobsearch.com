@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Lincolnshire
 
-review_date: 2026-09-11
-review_fingerprint: 35f1795e638f643dbdeb407b5d89a91aea7dfa09cb88b45a81db44580d5a4d43
-routing_manifest_sha256: 8ec19953acb0b91b529c94bc8789351811b0bfbfeeff6a5d3a6f7452d0477235
+review_date: 2026-09-12
+review_fingerprint: 3c1f600092fea013ac222eea93b137e2ccc6e0fb9d597b3f1e80b8298b8007bf
+routing_manifest_sha256: fd4ac0184b374693245b938633a2d05338988b578725315bcae5a328ed5b8eb0
 ontap_region: Lincolnshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 15
-- Selected: 5
+- Records: 16
+- Selected: 6
 - POSS awaiting decision: 3
 - Excluded: 0
 - Hard pass: 7
@@ -49,6 +49,21 @@ factual_fingerprint: 1b39fb6193f7053b86ff1cde956cf6ce6f683e78449cf91fba773186525
 source: Teaching Vacancies
 source_job_id: cover-and-operations-administrator
 source_url: https://teaching-vacancies.service.gov.uk/jobs/cover-and-operations-administrator
+---
+
+---
+action: 
+SELECTED | Lincolnshire | Brigg, Yorkshire and the Humber, DN20 8AR | £30,515.00 - £33,119.00 Annually (FTE) Grade F Points 14 to 19 (£30,515 to £33,119 Full Time Equivalent) subject to pro rata. The minimum actual pro rata salary per annum for this job starts at £27,039.33 | Data and Exams Officer
+employer: The Vale Academy
+closing_date: 2026-09-25T23:59:00+01:00
+reason: Clear admin/service title: exams officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 3ae63c4e050f95feed6f6a840aba6da39b11b95996e764903f862abc98078fd8
+source: Teaching Vacancies
+source_job_id: data-and-exams-officer-the-vale-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/data-and-exams-officer-the-vale-academy
 ---
 
 ---

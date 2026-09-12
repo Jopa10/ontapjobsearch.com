@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Greater Manchester - North
 
-review_date: 2026-09-11
-review_fingerprint: 79a6f260237aa37a3feddc08cda6b01831bc6f6975786e1a432a433bd3a03950
-routing_manifest_sha256: 8ec19953acb0b91b529c94bc8789351811b0bfbfeeff6a5d3a6f7452d0477235
+review_date: 2026-09-12
+review_fingerprint: 7bf67fbabf2e66db14d1356b0658960c0611252d869dbbd449e61954817c212a
+routing_manifest_sha256: fd4ac0184b374693245b938633a2d05338988b578725315bcae5a328ed5b8eb0
 ontap_region: Greater Manchester - North
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 10
-- Selected: 4
+- Records: 8
+- Selected: 3
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 4
 
 ## SELECTED
 
@@ -66,21 +66,6 @@ source_job_id: business-support-officer-data-and-assessments-oulder-hill-leaders
 source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-officer-data-and-assessments-oulder-hill-leadership-academy
 ---
 
----
-action: 
-SELECTED | Greater Manchester - North | Oldham, North West, OL2 5BF | £23,612.57 - £25,982.89 Annually (Actual) SCP6-12 - £23,612.57 - £25,982.89 - FTE: £26,847.00 - £29,542.00 - 37 hours per week, 39 weeks per year. | SEND Administrator
-employer: E-ACT the Oldham Academy North
-closing_date: 2026-09-21T09:00:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: e6cd8f2f95ce2aa84ef572ba21a267594c36ac4f21ef0d23a754cae5c4398fa0
-source: Teaching Vacancies
-source_job_id: send-administrator-e-act-the-oldham-academy-north
-source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-e-act-the-oldham-academy-north
----
-
 ## POSS — choose SELECT or EXCLUDE
 
 ---
@@ -105,7 +90,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-suppor
 ## HARD_PASS
 
 - [Administration Officer with responsibility for First Aid](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-with-responsibility-for-first-aid) — Insufficient admin/service evidence.
-- [Attendance Support Officer](https://teaching-vacancies.service.gov.uk/jobs/attendance-support-officer-st-gabriel-s-rc-high-school-a-voluntary-academy) — Insufficient admin/service evidence.
 - [Exam Invigilator](https://teaching-vacancies.service.gov.uk/jobs/exam-invigilator-hollingworth-academy) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-the-hathershaw-college) — Manager title salary ceiling £44,253 is not below £28,000.
 - [School Office Manager](https://teaching-vacancies.service.gov.uk/jobs/school-office-manager-st-joseph-s-roman-catholic-primary-school-rochdale-a-voluntary-academy) — Manager title salary ceiling £32,305 is not below £28,000.

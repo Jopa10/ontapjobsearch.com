@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - North
 
-review_date: 2026-09-11
-review_fingerprint: 2b70faeb6f90b407e61d723bdeb4ac728c456955be51286ed6c39639a56b357c
-routing_manifest_sha256: 8ec19953acb0b91b529c94bc8789351811b0bfbfeeff6a5d3a6f7452d0477235
+review_date: 2026-09-12
+review_fingerprint: c9d2df6b24baa7a80a05cc964f700ffc7b90120935a883801890d7d9efff1838
+routing_manifest_sha256: fd4ac0184b374693245b938633a2d05338988b578725315bcae5a328ed5b8eb0
 ontap_region: Yorkshire - North
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 8
-- Selected: 4
+- Records: 7
+- Selected: 3
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 4
@@ -64,21 +64,6 @@ factual_fingerprint: 2998730ede37915c13e191b05a25d74b2d5239b3ca4611f2107a1e3d135
 source: Teaching Vacancies
 source_job_id: send-administrator-george-pindar-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-george-pindar-school
----
-
----
-action: 
-SELECTED | Yorkshire - North | Scarborough, Yorkshire and the Humber, YO11 3LG | £27,790.00 - £29,542.00 Annually (FTE) Please note this role is part year, working term time only for 39 weeks per year. The salary will be pro-rata to reflect hours / weeks worked | Senior Administrator
-employer: Braeburn Primary and Nursery Academy
-closing_date: 2026-09-11T23:59:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 8134c48e78db27ccd363ae63323db1283c21a40938981f2ce24da1b0d47c42bd
-source: Teaching Vacancies
-source_job_id: senior-administrator-braeburn-primary-and-nursery-academy-scarborough-north-yorkshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-braeburn-primary-and-nursery-academy-scarborough-north-yorkshire
 ---
 
 ## POSS — choose SELECT or EXCLUDE

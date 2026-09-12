@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Gloucestershire
 
-review_date: 2026-09-11
+review_date: 2026-09-12
 review_fingerprint: f7035e5ee7d00984530797c9f120a21d9ea42622da663037f5789e5149948edb
-routing_manifest_sha256: 8ec19953acb0b91b529c94bc8789351811b0bfbfeeff6a5d3a6f7452d0477235
+routing_manifest_sha256: fd4ac0184b374693245b938633a2d05338988b578725315bcae5a328ed5b8eb0
 ontap_region: Gloucestershire
 slice_category: admin_service
 slice_status: LIVE
@@ -46,7 +46,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assist
 
 ## HARD_PASS
 
-- [Business Operations & Compliance Officer](https://teaching-vacancies.service.gov.uk/jobs/business-operations-compliance-officer) — Insufficient admin/service evidence.
+- [Data Manager](https://teaching-vacancies.service.gov.uk/jobs/data-manager-cirencester-deer-park-school-cirencester-gloucestershire) — Manager title salary ceiling £33,673 is not below £28,000.
 - [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-chosen-hill-school) — Insufficient admin/service evidence.
 - [Senior Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-finance-officer-sir-william-romney-s-school-tetbury-gloucestershire) — Insufficient admin/service evidence.
 

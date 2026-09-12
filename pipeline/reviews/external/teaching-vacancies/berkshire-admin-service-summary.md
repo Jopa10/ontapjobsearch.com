@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Berkshire
 
-review_date: 2026-09-11
-review_fingerprint: d1df73f6138cea0b4c4c3b893fec9af2cf79f39c4c1b49a2b9e186b8f368b70d
-routing_manifest_sha256: 8ec19953acb0b91b529c94bc8789351811b0bfbfeeff6a5d3a6f7452d0477235
+review_date: 2026-09-12
+review_fingerprint: b1ef9fdde685f16c34a247e51a2751d4b082a107b7dc920a7b898ca4cebe5429
+routing_manifest_sha256: fd4ac0184b374693245b938633a2d05338988b578725315bcae5a328ed5b8eb0
 ontap_region: Berkshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 21
-- Selected: 7
+- Records: 22
+- Selected: 8
 - POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 12
@@ -79,6 +79,21 @@ factual_fingerprint: 366ff8f92f393bec987b4ff4a20fa628bb31c5f24ae48cc2830453bc31b
 source: Teaching Vacancies
 source_job_id: receptionist-administrative-officer-hamilton-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrative-officer-hamilton-school
+---
+
+---
+action: 
+SELECTED | Berkshire | Wokingham, South East, RG41 3PQ | £26,402-£28, 141 per annum | Receptionist/Administrator
+employer: The Hawthorns Primary School
+closing_date: 2026-09-25T09:00:00+01:00
+reason: Clear admin/service title: administrator, receptionist
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: f7e602c6b3b170fc8aefefccdf5d3ac2bafce78a40f74d3fe2da488e0c23eb66
+source: Teaching Vacancies
+source_job_id: receptionist-administrator-the-hawthorns-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrator-the-hawthorns-primary-school
 ---
 
 ---
@@ -165,16 +180,16 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-operations-off
 ## HARD_PASS
 
 - [Casual Lettings Assistant](https://teaching-vacancies.service.gov.uk/jobs/casual-lettings-assistant-maiden-erlegh-chiltern-edge) — Insufficient admin/service evidence.
+- [EHCP Team Administrator - The Avenue School](https://teaching-vacancies.service.gov.uk/jobs/ehcp-team-administrator-the-avenue-school) — Missing salary or pay scale.
 - [Exams Manager (s)](https://teaching-vacancies.service.gov.uk/jobs/exams-manager-s) — Manager title salary ceiling £32,509 is not below £28,000.
 - [Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-the-park-federation-academy-trust) — Insufficient admin/service evidence.
-- [Home School Liaison Assistant](https://teaching-vacancies.service.gov.uk/jobs/home-school-liaison-assistant-842866de-b635-4ed9-bb14-58200af5fde1) — Insufficient admin/service evidence.
 - [HR & Recruitment Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-recruitment-officer-the-park-federation-academy-trust) — Insufficient admin/service evidence.
 - [Office Manager - Southcote Primary School](https://teaching-vacancies.service.gov.uk/jobs/office-manager-southcote-primary-school-southcote-primary-school-reading-berkshire) — Manager title salary ceiling £35,521 is not below £28,000.
 - [Payroll Officer](https://teaching-vacancies.service.gov.uk/jobs/payroll-officer-the-park-federation-academy-trust-slough-not-recorded) — Insufficient admin/service evidence.
 - [PFM Compliance and Site Officer](https://teaching-vacancies.service.gov.uk/jobs/pfm-compliance-and-site-officer-beechwood-school-slough-berkshire) — Insufficient admin/service evidence.
-- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-2208a3dd-3c53-4978-b7e2-84fb437f4570) — Manager title without salary evidence below £28,000.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-datchet-st-mary-s-cofe-primary-school) — Manager title salary ceiling £46,979 is not below £28,000.
 - [Senior Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-finance-officer-the-thames-learning-trust) — Insufficient admin/service evidence.
+- [Senior HR Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-hr-officer-sikh-academies-trust) — Insufficient admin/service evidence.
 - [Site Team Administrative Assistant - The Avenue School](https://teaching-vacancies.service.gov.uk/jobs/site-team-administrative-assistant-the-avenue-school) — Missing salary or pay scale.
 
 ## Safety boundary

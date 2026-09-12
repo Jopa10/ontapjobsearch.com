@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Nottinghamshire
 
-review_date: 2026-09-11
+review_date: 2026-09-12
 review_fingerprint: c64df06ec44c0801fc7e68ae52e86d5dcb123aeadc7b1d9b5aac304fb6d3f7b7
-routing_manifest_sha256: 8ec19953acb0b91b529c94bc8789351811b0bfbfeeff6a5d3a6f7452d0477235
+routing_manifest_sha256: fd4ac0184b374693245b938633a2d05338988b578725315bcae5a328ed5b8eb0
 ontap_region: Nottinghamshire
 slice_category: admin_service
 slice_status: LIVE
@@ -198,10 +198,10 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/data-officer-the-whit
 - [Admin Officer](https://teaching-vacancies.service.gov.uk/jobs/admin-officer-radford-primary-school-academy) — Insufficient admin/service evidence.
 - [Exams and Assessment Assistant](https://teaching-vacancies.service.gov.uk/jobs/exams-and-assessment-assistant-965ac6ec-7678-47d6-8b9f-daf363a12cdd) — Insufficient admin/service evidence.
 - [HR and Recruitment Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-and-recruitment-officer-redhill-academy-trust) — Insufficient admin/service evidence.
-- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-sycamore-academy) — Manager title salary ceiling £40,446 is not below £28,000.
 - [Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-65ca1f05-aa50-430f-afeb-b27088a93265) — Insufficient admin/service evidence.
 - [Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-bf443901-6fb8-4721-9adf-b67f0bdbd6f6) — Insufficient admin/service evidence.
 - [Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-newark-orchard-school-newark) — Insufficient admin/service evidence.
+- [Purchase Ledger Assistant](https://teaching-vacancies.service.gov.uk/jobs/purchase-ledger-assistant-redhill-academy-trust) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

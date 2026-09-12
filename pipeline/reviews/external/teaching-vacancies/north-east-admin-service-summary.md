@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — North East
 
-review_date: 2026-09-11
+review_date: 2026-09-12
 review_fingerprint: d96da626c7722bec2c50ad56cb6ec51e3865663495a34c076ed4050a4f38eac8
-routing_manifest_sha256: 8ec19953acb0b91b529c94bc8789351811b0bfbfeeff6a5d3a6f7452d0477235
+routing_manifest_sha256: fd4ac0184b374693245b938633a2d05338988b578725315bcae5a328ed5b8eb0
 ontap_region: North East
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 5
+- Records: 6
 - Selected: 1
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 4
+- Hard pass: 5
 
 ## SELECTED
 
@@ -46,6 +46,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-ad
 
 ## HARD_PASS
 
+- [Business Lead](https://teaching-vacancies.service.gov.uk/jobs/business-lead-st-gregory-s-catholic-primary-school-south-shields) — Insufficient admin/service evidence.
 - [Data and Examinations Assistant](https://teaching-vacancies.service.gov.uk/jobs/data-and-examinations-assistant-whickham-school) — Insufficient admin/service evidence.
 - [Deputy Administration Manager](https://teaching-vacancies.service.gov.uk/jobs/deputy-administration-manager) — Manager title salary ceiling £33,119 is not below £28,000.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-st-mary-s-catholic-school) — Manager title salary ceiling £36,581 is not below £28,000.

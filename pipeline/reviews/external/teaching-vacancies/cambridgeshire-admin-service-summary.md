@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cambridgeshire
 
-review_date: 2026-09-11
-review_fingerprint: 7754ce9a466c600175d40b8bcbc07dad370c893842410255adeb4f3a50a54d54
-routing_manifest_sha256: 8ec19953acb0b91b529c94bc8789351811b0bfbfeeff6a5d3a6f7452d0477235
+review_date: 2026-09-12
+review_fingerprint: 6518bbda39e47c0c49979c693144b9b9664e4a3cf5f2136d0250ac516228f0fd
+routing_manifest_sha256: fd4ac0184b374693245b938633a2d05338988b578725315bcae5a328ed5b8eb0
 ontap_region: Cambridgeshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 29
+- Records: 27
 - Selected: 9
-- POSS awaiting decision: 6
+- POSS awaiting decision: 5
 - Excluded: 0
-- Hard pass: 14
+- Hard pass: 13
 
 ## SELECTED
 
@@ -190,21 +190,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-officer-coler
 
 ---
 action: 
-POSS | Cambridgeshire | Cambridge, East of England, CB1 1EH | £30,000.00 - £35,000.00 Annually (FTE) | Finance Officer
-employer: Parkside Community College
-closing_date: 2026-09-21T09:00:00+01:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 5428ca0e300ce12bdd65323f4d7bb060a56ef9ac0e9e778d22b91b8c36401393
-source: Teaching Vacancies
-source_job_id: finance-officer-parkside-community-college
-source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-officer-parkside-community-college
----
-
----
-action: 
 POSS | Cambridgeshire | Cambridge, East of England, CB5 8ND | £30,000.00 - £35,000.00 Annually (FTE) | Finance Officer
 employer: The Galfrid School
 closing_date: 2026-09-21T09:00:00+01:00
@@ -254,13 +239,12 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/marketing-communicati
 
 ## HARD_PASS
 
-- [Attendance Support Assistant](https://teaching-vacancies.service.gov.uk/jobs/attendance-support-assistant-comberton-village-college-cambridge-cambridgeshire) — Insufficient admin/service evidence.
 - [Community Assistant (Evenings)](https://teaching-vacancies.service.gov.uk/jobs/community-assistant-evenings) — Insufficient admin/service evidence.
 - [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-greater-peterborough-utc) — Insufficient admin/service evidence.
 - [Head of HR Business Partnering](https://teaching-vacancies.service.gov.uk/jobs/head-of-hr-business-partnering) — Insufficient admin/service evidence.
 - [Head of HR Operations](https://teaching-vacancies.service.gov.uk/jobs/head-of-hr-operations-meridian-trust) — Insufficient admin/service evidence.
 - [Head of HR Operations](https://teaching-vacancies.service.gov.uk/jobs/head-of-hr-operations-united-learning-trust) — Insufficient admin/service evidence.
-- [HR Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-b7cc2a7e-7614-47f6-82b4-5ec3bff78735) — Insufficient admin/service evidence.
+- [HR Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-ed2d7969-082c-419a-94e8-5c5c87890cad) — Insufficient admin/service evidence.
 - [MAT Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/mat-finance-officer-four-cs-mat-peterborough-not-recorded) — Insufficient admin/service evidence.
 - [School Business Leader](https://teaching-vacancies.service.gov.uk/jobs/school-business-leader-university-of-cambridge-primary-school) — Insufficient admin/service evidence.
 - [Senior HR Adviser (Field based Cambridge and Ely area primarily)](https://teaching-vacancies.service.gov.uk/jobs/senior-hr-adviser-field-based-cambridge-and-ely-area-primarily) — Insufficient admin/service evidence.

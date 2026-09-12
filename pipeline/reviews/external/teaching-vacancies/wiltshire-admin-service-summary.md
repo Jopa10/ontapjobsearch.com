@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Wiltshire
 
-review_date: 2026-09-11
-review_fingerprint: eb703cfa0d5320ae8633e1658f5e664bcbc9dcee3ad58494de3e0988dec29442
-routing_manifest_sha256: 8ec19953acb0b91b529c94bc8789351811b0bfbfeeff6a5d3a6f7452d0477235
+review_date: 2026-09-12
+review_fingerprint: effd289415efbb969a1aa740ccb381910b58a1f9a66e566d8f4944a93e5dd1cd
+routing_manifest_sha256: fd4ac0184b374693245b938633a2d05338988b578725315bcae5a328ed5b8eb0
 ontap_region: Wiltshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 17
-- Selected: 7
+- Records: 16
+- Selected: 6
 - POSS awaiting decision: 3
 - Excluded: 0
 - Hard pass: 7
@@ -34,21 +34,6 @@ factual_fingerprint: 33ade2da3677e71ab86805b261d6d60d9dc1ac11097d6e87dcd21749846
 source: Teaching Vacancies
 source_job_id: exams-officer-a0e6b270-9f8e-4c55-b68b-38b5e9214d1b
 source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-a0e6b270-9f8e-4c55-b68b-38b5e9214d1b
----
-
----
-action: 
-SELECTED | Wiltshire | Marlborough, SN8 4AX | £34,541.00 - £38,212.00 Annually (FTE) NJC Point 22-26 | IT System Administrator - Excalibur Shared Services
-employer: Excalibur Academies Trust
-closing_date: 2026-09-11T23:59:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: ac87d40cabb5045c058c55bab1f459b4b18efd08cc590a85d8d05f551c4c98fb
-source: Teaching Vacancies
-source_job_id: it-system-administrator-excalibur-shared-services-1177ebd4-e195-4745-824b-6613f2065ccf
-source_url: https://teaching-vacancies.service.gov.uk/jobs/it-system-administrator-excalibur-shared-services-1177ebd4-e195-4745-824b-6613f2065ccf
 ---
 
 ---
@@ -182,8 +167,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/governance-profession
 - [Chief Financial Officer](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-0d106d15-bbf0-467f-8794-3393ccb03a2b) — Insufficient admin/service evidence.
 - [Educational Support Assistant - Admissions](https://teaching-vacancies.service.gov.uk/jobs/educational-support-assistant-admissions) — Insufficient admin/service evidence.
 - [HR Generalist](https://teaching-vacancies.service.gov.uk/jobs/hr-generalist) — Insufficient admin/service evidence.
+- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-lethbridge-primary-school) — Manager title salary ceiling £35,814 is not below £28,000.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-paxcroft-primary-school) — Manager title salary ceiling £37,563 is not below £28,000.
-- [Senior HR Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-hr-officer-ascend-learning-trust) — Insufficient admin/service evidence.
 - [Senior Operations Lead](https://teaching-vacancies.service.gov.uk/jobs/senior-operations-lead) — Insufficient admin/service evidence.
 - [Student Manager](https://teaching-vacancies.service.gov.uk/jobs/student-manager-royal-wootton-bassett-academy) — Manager title salary ceiling £33,699 is not below £28,000.
 

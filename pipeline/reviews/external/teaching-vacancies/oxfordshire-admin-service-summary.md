@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Oxfordshire
 
-review_date: 2026-09-11
-review_fingerprint: c182283d2418f01f8f7849d40fd4f066f8e19e0ca47e2678e7d0630347d613b4
-routing_manifest_sha256: 8ec19953acb0b91b529c94bc8789351811b0bfbfeeff6a5d3a6f7452d0477235
+review_date: 2026-09-12
+review_fingerprint: c99c722fa73bd4ee0e0a274b3cf403eb2c60bbeecaadc0574832f4607b3bdc9d
+routing_manifest_sha256: fd4ac0184b374693245b938633a2d05338988b578725315bcae5a328ed5b8eb0
 ontap_region: Oxfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -53,21 +53,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-or
 
 ---
 action: 
-SELECTED | Oxfordshire | Wallingford, South East, OX10 8HH | £27,182.00 - £29,014.00 Annually (Actual) | Attendance Officer
-employer: Wallingford School
-closing_date: 2026-09-21T10:00:00+01:00
-reason: Clear admin/service title: attendance officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 71f420aeacdbb4e37d5e43232bf0f1017a386b5022089e8aabcbd7be51d9693e
-source: Teaching Vacancies
-source_job_id: attendance-officer-wallingford-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-wallingford-school
----
-
----
-action: 
 SELECTED | Oxfordshire | Oxford, South East, OX4 6DQ | £34,319.00 - £36,615.00 Annually (Actual) | Data Insights and Examinations Officer
 employer: Orion Academy
 closing_date: 2026-09-30T23:59:00+01:00
@@ -109,6 +94,21 @@ factual_fingerprint: 2d50559be5c7159324bf86226a8f98add9d40eb34c7e4c1e3c5346ce149
 source: Teaching Vacancies
 source_job_id: procurement-administrator-hybrid-role
 source_url: https://teaching-vacancies.service.gov.uk/jobs/procurement-administrator-hybrid-role
+---
+
+---
+action: 
+SELECTED | Oxfordshire | Oxford, South East, OX3 7QH | £22,697.23 - £24,593.46 Annually (Actual) (FTE £26,824 - £29,065) | Student Receptionist and Pastoral Assistant
+employer: Cheney School
+closing_date: 2026-09-25T08:00:00+01:00
+reason: Clear admin/service title: receptionist
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 7467ca172def0044dae22fe4e70b210fd39ce78cdd57da0c77a3e72088095a72
+source: Teaching Vacancies
+source_job_id: student-receptionist-and-pastoral-assistant
+source_url: https://teaching-vacancies.service.gov.uk/jobs/student-receptionist-and-pastoral-assistant
 ---
 
 ## POSS — choose SELECT or EXCLUDE

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Coventry & Warwickshire
 
-review_date: 2026-09-11
-review_fingerprint: cf20d91d582d9b5488766be6ea19af16395eaf35b22cd71fc8e1d216ffd883be
-routing_manifest_sha256: 8ec19953acb0b91b529c94bc8789351811b0bfbfeeff6a5d3a6f7452d0477235
+review_date: 2026-09-12
+review_fingerprint: 1d2e119c74886912ee31ee9ba786d60ecb2be44766cf56db877c1b646a00afa9
+routing_manifest_sha256: fd4ac0184b374693245b938633a2d05338988b578725315bcae5a328ed5b8eb0
 ontap_region: West Midlands - Coventry & Warwickshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 4
+- Records: 7
 - Selected: 2
-- POSS awaiting decision: 1
+- POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 1
+- Hard pass: 3
 
 ## SELECTED
 
@@ -55,6 +55,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assist
 
 ---
 action: 
+POSS | West Midlands - Coventry & Warwickshire | Stratford-upon-Avon, West Midlands, CV37 9DH | Starting salary for a full-time post £32,578 to £35,570 per annum, starting point depending on experience and qualifications. Actual salary £28,944 to £31,602 per annum based on hours and weeks worked as stated, subject to any continuous service. | Attendance Improvement Officer
+employer: Stratford Upon Avon School
+closing_date: 2026-09-30T12:00:00+01:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: b2bbb164c03a24a457f40f3235a032176b7fdc57a1b50460dc595cba35da4876
+source: Teaching Vacancies
+source_job_id: attendance-improvement-officer-stratford-upon-avon-school-stratford-upon-avon-warwickshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-improvement-officer-stratford-upon-avon-school-stratford-upon-avon-warwickshire
+---
+
+---
+action: 
 POSS | West Midlands - Coventry & Warwickshire | Coventry, CV4 9AP | £8.00 Hourly £8 per hour for the first 12 months followed by national minimum wage for age | HR Support Apprentice
 employer: Finham Park Multi Academy Trust
 closing_date: 2026-09-24T09:00:00+01:00
@@ -74,7 +89,9 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-support-apprentice
 
 ## HARD_PASS
 
+- [Campaign Manager](https://teaching-vacancies.service.gov.uk/jobs/campaign-manager-lawrence-sheriff-school) — Manager title salary ceiling £40,444 is not below £28,000.
 - [Cover Co-Ordinator & Data Assistant](https://teaching-vacancies.service.gov.uk/jobs/cover-co-ordinator-data-assistant) — Insufficient admin/service evidence.
+- [Facilities Apprentice](https://teaching-vacancies.service.gov.uk/jobs/facilities-apprentice-f2150388-8c53-4434-b5c5-9e0ddc54626d) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

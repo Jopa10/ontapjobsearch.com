@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Bedfordshire
 
-review_date: 2026-09-11
-review_fingerprint: bcdca844a05d48817a349b009abd7d5118f15634fb2ab432f911a9750f4fc01e
-routing_manifest_sha256: 8ec19953acb0b91b529c94bc8789351811b0bfbfeeff6a5d3a6f7452d0477235
+review_date: 2026-09-12
+review_fingerprint: 49f597bd5f107afd80bae6492e04b8e835f41af6e0e41ad405c4e0e7ea7cbf28
+routing_manifest_sha256: fd4ac0184b374693245b938633a2d05338988b578725315bcae5a328ed5b8eb0
 ontap_region: Bedfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 9
-- Selected: 2
+- Records: 11
+- Selected: 4
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 6
@@ -49,6 +49,36 @@ factual_fingerprint: da634e2b07b9543f8d38ecda395f42a7170390b1ff348f3a3bab35fc628
 source: Teaching Vacancies
 source_job_id: office-administrator-st-john-rigby-catholic-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-st-john-rigby-catholic-primary-school
+---
+
+---
+action: 
+SELECTED | Bedfordshire | Bedford, East of England, MK42 7LJ | £14,269.00 - £14,495.00 Annually (Actual) NJC L2 pt 4 - 5 | Receptionist/Admin Assistant
+employer: Springfield Primary School
+closing_date: 2026-09-18T09:00:00+01:00
+reason: Clear admin/service title: admin assistant, receptionist
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: f97c59ad9ffdaad2fb65827552782a3182f15545d15b15c3ea6a6e57cfd7059b
+source: Teaching Vacancies
+source_job_id: receptionist-admin-assistant-springfield-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-admin-assistant-springfield-primary-school
+---
+
+---
+action: 
+SELECTED | Bedfordshire | Sandy, East of England, SG19 1BL | NJC Level 2a points 3 – 4 £22,302– £22,652 per annum, actual salary (£25,614– £26,016 pro rata) | Receptionist/Finance Assistant
+employer: Sandy Secondary School
+closing_date: 2026-09-28T09:00:00+01:00
+reason: Clear admin/service title: receptionist
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 8b3b1799ad8343306070859d7867ff1e4eb157590b8c4ca83e9483d47f1c3c28
+source: Teaching Vacancies
+source_job_id: receptionist-finance-assistant
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-finance-assistant
 ---
 
 ## POSS — choose SELECT or EXCLUDE

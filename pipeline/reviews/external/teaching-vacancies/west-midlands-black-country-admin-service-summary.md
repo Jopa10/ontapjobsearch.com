@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Black Country
 
-review_date: 2026-09-11
+review_date: 2026-09-12
 review_fingerprint: 3e3a64efc9d3935742c3a5c7b65291d1be4b848ebb27e3a97f9035f55d1266dd
-routing_manifest_sha256: 8ec19953acb0b91b529c94bc8789351811b0bfbfeeff6a5d3a6f7452d0477235
+routing_manifest_sha256: fd4ac0184b374693245b938633a2d05338988b578725315bcae5a328ed5b8eb0
 ontap_region: West Midlands - Black Country
 slice_category: admin_service
 slice_status: LIVE

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Shropshire
 
-review_date: 2026-09-11
-review_fingerprint: 239784c1e60281c163ad7e9dea6ac71bd09b0631ef46f8f54f829476530df6d3
-routing_manifest_sha256: 8ec19953acb0b91b529c94bc8789351811b0bfbfeeff6a5d3a6f7452d0477235
+review_date: 2026-09-12
+review_fingerprint: 5a1c6f43cac0cb668bc0e139456849e46e47d57d99ae63e346149698faf43f11
+routing_manifest_sha256: fd4ac0184b374693245b938633a2d05338988b578725315bcae5a328ed5b8eb0
 ontap_region: Shropshire
 slice_category: admin_service
 slice_status: LIVE
@@ -14,10 +14,10 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 8
-- Selected: 6
+- Selected: 7
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 2
+- Hard pass: 1
 
 ## SELECTED
 
@@ -49,6 +49,21 @@ factual_fingerprint: 0363f2f42f6372d75c125d5eafb4d22d955a1296c181f99ae4a3e56005d
 source: Teaching Vacancies
 source_job_id: administration-assistant-inclusion-and-people
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-inclusion-and-people
+---
+
+---
+action: 
+SELECTED | Shropshire | Shrewsbury, West Midlands, SY5 0TG | Grade 5 | Administrative Assistant/Receptionist
+employer: Mary Webb School and Science College
+closing_date: 2026-09-21T09:00:00+01:00
+reason: Clear admin/service title: administrative assistant, receptionist
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 1ff1f847389b06a5d17fa06197a3dd3c403d8a339cc699d84c8cc95e2513322c
+source: Teaching Vacancies
+source_job_id: administrative-assistant-receptionist-mary-webb-school-and-science-college
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-receptionist-mary-webb-school-and-science-college
 ---
 
 ---
@@ -122,7 +137,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/senco-and-safeguardin
 ## HARD_PASS
 
 - [Data and Information Lead](https://teaching-vacancies.service.gov.uk/jobs/data-and-information-lead) — Insufficient admin/service evidence.
-- [Head of HR Operations](https://teaching-vacancies.service.gov.uk/jobs/head-of-hr-operations-the-3-18-education-trust) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

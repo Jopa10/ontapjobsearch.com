@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Norfolk
 
-review_date: 2026-09-11
-review_fingerprint: f5c37684e62ed8c5ca32e92231713e8297c076104b2a67fa621f95fcfd2ddd58
-routing_manifest_sha256: 8ec19953acb0b91b529c94bc8789351811b0bfbfeeff6a5d3a6f7452d0477235
+review_date: 2026-09-12
+review_fingerprint: 7d42b0f94cb2b11f5b56a7e4d8a8ea3ed8a00d5786e4ea2cecb0d7ba0206d5b8
+routing_manifest_sha256: fd4ac0184b374693245b938633a2d05338988b578725315bcae5a328ed5b8eb0
 ontap_region: Norfolk
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 17
-- Selected: 6
+- Records: 16
+- Selected: 5
 - POSS awaiting decision: 4
 - Excluded: 0
 - Hard pass: 7
@@ -79,21 +79,6 @@ factual_fingerprint: 232323f00fbf3ff3e4173444ba08b8acc41d6f73f6d45d4cbea3e27a965
 source: Teaching Vacancies
 source_job_id: office-assistant-west-earlham-junior-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/office-assistant-west-earlham-junior-school
----
-
----
-action: 
-SELECTED | Norfolk | Norwich, East of England, NR3 3HR | £25,989.00 - £26,403.00 Annually (FTE) £9,022 - £9,165 Actual salary | School Administrator
-employer: Angel Road Infant School
-closing_date: 2026-09-11T23:59:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 9e3405af1ee7b5ba234543879c287d01b76530e31d63c1f79e5c06935cc13264
-source: Teaching Vacancies
-source_job_id: school-administrator-angel-road-infant-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-angel-road-infant-school
 ---
 
 ---

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Bristol & Bath
 
-review_date: 2026-09-11
+review_date: 2026-09-12
 review_fingerprint: e9dabfa7d62e41fa1720ddc4ce54a5ee23c43802a7a06b9ca640a08a069a7458
-routing_manifest_sha256: 8ec19953acb0b91b529c94bc8789351811b0bfbfeeff6a5d3a6f7452d0477235
+routing_manifest_sha256: fd4ac0184b374693245b938633a2d05338988b578725315bcae5a328ed5b8eb0
 ontap_region: Bristol & Bath
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 8
+- Records: 9
 - Selected: 3
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 6
 
 ## SELECTED
 
@@ -80,6 +80,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 - [Cover Supervisor](https://teaching-vacancies.service.gov.uk/jobs/cover-supervisor-bridge-learning-campus) — Insufficient admin/service evidence.
 - [Office Administrator](https://teaching-vacancies.service.gov.uk/jobs/office-administrator-cheddar-grove-primary-school-bristol-bristol) — Missing salary or pay scale.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-whitchurch-primary-school) — Manager title without salary evidence below £28,000.
+- [Recruitment Coordinator](https://teaching-vacancies.service.gov.uk/jobs/recruitment-coordinator-41751ef8-54e0-4c11-add5-b1e35e9449ce) — Insufficient admin/service evidence.
 - [School Office Manager](https://teaching-vacancies.service.gov.uk/jobs/school-office-manager-st-mary-s-cofe-primary-school) — Manager title salary ceiling £29,728 is not below £28,000.
 
 ## Safety boundary
