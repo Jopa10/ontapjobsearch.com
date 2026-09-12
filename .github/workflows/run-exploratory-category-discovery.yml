@@ -1,0 +1,177 @@
+name: Run Exploratory Category Discovery
+
+on:
+  workflow_dispatch:
+    inputs:
+      month:
+        description: Month to analyse in YYYY-MM format
+        required: true
+        default: '2026-07'
+        type: string
+  push:
+    branches:
+      - feature/compiler-category-discovery-july-2026
+    paths:
+      - '.github/workflows/run-exploratory-category-discovery.yml'
+      - 'pipeline/exploratory_category_discovery_runner.py'
+      - 'pipeline/scripts/build_exploratory_candidate_registers.py'
+      - 'pipeline/scripts/summarise_exploratory_category_discovery.py'
+      - 'pipeline/scripts/jobg8_module_2_monthly_category_profiler.py'
+  pull_request:
+    branches:
+      - main
+    paths:
+      - '.github/workflows/run-exploratory-category-discovery.yml'
+      - 'pipeline/exploratory_category_discovery_runner.py'
+      - 'pipeline/scripts/build_exploratory_candidate_registers.py'
+      - 'pipeline/scripts/summarise_exploratory_category_discovery.py'
+      - 'pipeline/scripts/jobg8_module_2_monthly_category_profiler.py'
+
+permissions:
+  contents: write
+
+env:
+  TARGET_BRANCH: ${{ github.head_ref || github.ref_name }}
+
+jobs:
+  exploratory-category-discovery:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out feature branch
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ env.TARGET_BRANCH }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install Python packages
+        run: python -m pip install --upgrade pip pandas openpyxl
+
+      - name: Resolve and validate month
+        id: month
+        shell: bash
+        run: |
+          set -euo pipefail
+          month='${{ github.event.inputs.month }}'
+          if [ -z "$month" ]; then
+            month='2026-07'
+          fi
+          if [[ ! "$month" =~ ^[0-9]{4}-(0[1-9]|1[0-2])$ ]]; then
+            echo "::error::Invalid month '$month'. Expected YYYY-MM."
+            exit 1
+          fi
+          archive_dir="pipeline/input-jobg8-archive/${month}"
+          if [ ! -d "$archive_dir" ]; then
+            echo "::error::Missing archive directory $archive_dir"
+            exit 1
+          fi
+          echo "month=$month" >> "$GITHUB_OUTPUT"
+          echo "archive_dir=$archive_dir" >> "$GITHUB_OUTPUT"
+
+      - name: Check exploratory scripts
+        run: |
+          python -m py_compile \
+            pipeline/exploratory_category_discovery_runner.py \
+            pipeline/scripts/build_exploratory_candidate_registers.py \
+            pipeline/scripts/summarise_exploratory_category_discovery.py \
+            pipeline/scripts/jobg8_module_2_monthly_category_profiler.py
+
+      - name: Run isolated exploratory discovery
+        id: discovery
+        continue-on-error: true
+        shell: bash
+        run: |
+          set -euo pipefail
+          month='${{ steps.month.outputs.month }}'
+          register_dir="pipeline/registers-exploratory/${month}-category-discovery"
+          report_dir="pipeline/reports-module2-exploratory/${month}-category-discovery"
+          mkdir -p "$register_dir" "$report_dir"
+          python pipeline/exploratory_category_discovery_runner.py \
+            --month "$month" \
+            --input-dir '${{ steps.month.outputs.archive_dir }}' \
+            --geo-lookup 'pipeline/geo/geo_lookup.xlsx' \
+            --registers-dir "$register_dir" \
+            --reports-dir "$report_dir" \
+            > "$report_dir/${month}-category-discovery-execution.log" 2>&1
+
+      - name: Commit diagnostics on failure
+        if: steps.discovery.outcome == 'failure'
+        shell: bash
+        run: |
+          set -euo pipefail
+          month='${{ steps.month.outputs.month }}'
+          log="pipeline/reports-module2-exploratory/${month}-category-discovery/${month}-category-discovery-execution.log"
+          cat "$log"
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- "$log"
+          git commit -m "Record exploratory category discovery failure for ${month}"
+          git push origin "HEAD:${TARGET_BRANCH}"
+          exit 1
+
+      - name: Verify isolated outputs
+        shell: bash
+        run: |
+          set -euo pipefail
+          month='${{ steps.month.outputs.month }}'
+          register_dir="pipeline/registers-exploratory/${month}-category-discovery"
+          report_dir="pipeline/reports-module2-exploratory/${month}-category-discovery"
+          required=(
+            "$register_dir/category_manifest.csv"
+            "$register_dir/care_assistant_healthcare_assistant_candidate_register.csv"
+            "$register_dir/teaching_sen_learning_support_candidate_register.csv"
+            "$register_dir/broader_customer_service_candidate_register.csv"
+            "$register_dir/broader_office_administration_candidate_register.csv"
+            "$register_dir/residential_childcare_children_support_candidate_register.csv"
+            "$register_dir/warehouse_logistics_operative_candidate_register.csv"
+            "$report_dir/${month}-category-discovery-classification-detail.csv"
+            "$report_dir/${month}-module2-category-validation.csv"
+            "$report_dir/${month}-module2-daily-counts.csv"
+            "$report_dir/${month}-module2-unknown-location-detail.csv"
+            "$report_dir/${month}-module2-run-log.txt"
+            "$report_dir/${month}-category-discovery-shortlist.csv"
+            "$report_dir/${month}-category-discovery-summary.md"
+            "$report_dir/${month}-category-discovery-execution.log"
+          )
+          for path in "${required[@]}"; do
+            if [ ! -s "$path" ]; then
+              echo "::error::Missing or empty exploratory output: $path"
+              exit 1
+            fi
+          done
+          if ! git diff --quiet -- pipeline/registers pipeline/reports-module2 app; then
+            echo "::error::Production registers, production reports or live app files changed."
+            git diff -- pipeline/registers pipeline/reports-module2 app
+            exit 1
+          fi
+
+      - name: Upload exploratory reports
+        uses: actions/upload-artifact@v4
+        with:
+          name: exploratory-category-discovery-${{ steps.month.outputs.month }}
+          path: |
+            pipeline/registers-exploratory/${{ steps.month.outputs.month }}-category-discovery/
+            pipeline/reports-module2-exploratory/${{ steps.month.outputs.month }}-category-discovery/
+          if-no-files-found: error
+
+      - name: Commit exploratory outputs to feature branch
+        shell: bash
+        run: |
+          set -euo pipefail
+          month='${{ steps.month.outputs.month }}'
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- \
+            "pipeline/registers-exploratory/${month}-category-discovery" \
+            "pipeline/reports-module2-exploratory/${month}-category-discovery"
+          if git diff --cached --quiet; then
+            echo 'No exploratory output changes to commit.'
+            exit 0
+          fi
+          git commit -m "Run exploratory category discovery for ${month}"
+          git push origin "HEAD:${TARGET_BRANCH}"
