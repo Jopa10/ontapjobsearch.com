@@ -253,8 +253,8 @@ job_id: 1892135
 
 ---
 action:
-SELECTED | Yorkshire - South | Sheffield | £28000 per year | Customer Service/Export Co-ordinator
-job_id: 107946644
+SELECTED | Yorkshire - South | Doncaster |  | Purchase Ledger Administrator
+job_id: 1899982
 ---
 
 ## SOUTH YORKSHIRE — POSSIBLES
@@ -270,12 +270,6 @@ _No jobs in this group._
 _No jobs in this group._
 
 ## LONDON — SELECTED
-
----
-action:
-SELECTED | London | London | £27000 per year | Administrator - HMP Wormwood Scrubs
-job_id: 23643_225500831
----
 
 ---
 action:
@@ -461,12 +455,6 @@ job_id: 23643_225526851
 action:
 SELECTED | London | Borehamwood | £28000 - £30000 per year | Sales Administrator
 job_id: 23643_225527983
----
-
----
-action:
-SELECTED | London | London |  | Accounts Assistant
-job_id: 1798293
 ---
 
 ---
@@ -1329,12 +1317,6 @@ job_id: 1871498
 
 ---
 action:
-SELECTED | Hampshire | Hampshire | £30000 per year | Account Coordinator
-job_id: 107881829
----
-
----
-action:
 SELECTED | Hampshire | Hampshire | £13.5 - £14 per hour | Administrator - Andover
 job_id: 23643_225594223
 ---
@@ -1355,6 +1337,12 @@ job_id: 23643_225590008
 action:
 SELECTED | Hampshire | Hampshire | £25,947 - £26,305 per annum | Receptionist / Administrator
 job_id: 1898713
+---
+
+---
+action:
+SELECTED | Hampshire | Hampshire | £13 - £13.25 per hour | Administrator
+job_id: 23643_225601308
 ---
 
 ## HAMPSHIRE — POSSIBLES
@@ -1813,6 +1801,18 @@ SELECTED | Kent | Kent | £26000 per year | Quality, Information, Safety and Gov
 job_id: 107842009
 ---
 
+---
+action:
+SELECTED | Kent | Kent | £28000 per year | MAF in the Community (MiC) Resourcing Coordinator
+job_id: 107958419
+---
+
+---
+action:
+SELECTED | Kent | Kent |  | Customer Service advisor- French Speaking
+job_id: 107971034
+---
+
 ## KENT — POSSIBLES
 
 _No jobs in this group._
@@ -2197,12 +2197,6 @@ job_id: 1849342
 
 ---
 action:
-SELECTED | Bedfordshire | Bedfordshire | £28000 per year | Early Careers Coordinator
-job_id: 107933358
----
-
----
-action:
 SELECTED | Bedfordshire | Bedfordshire | £29705 per year | Recruitment Onboarding Administrator
 job_id: 23643_225580197
 ---
@@ -2217,6 +2211,12 @@ job_id: 23643_225586192
 action:
 SELECTED | Bedfordshire | Bedfordshire | £27000 - £30000 per year | Graduate Town Planner
 job_id: 23643_225595761
+---
+
+---
+action:
+SELECTED | Bedfordshire | Bedfordshire | £28000 per year | Early Careers Coordinator
+job_id: 107933358
 ---
 
 ## BEDFORDSHIRE — POSSIBLES
@@ -2443,7 +2443,11 @@ job_id: 23643_225590581
 
 ## BRISTOL & BATH — POSSIBLES
 
-_No jobs in this group._
+---
+action:
+POSS - BRISTOL & BATH | Bristol & Bath | Bristol | £28000 - £32000 per year (Bonus + 33 days holiday + GP + Benef) | Technical Administrator
+job_id: 23643_225599662
+---
 
 ## BUCKINGHAMSHIRE — SELECTED
 
@@ -2575,12 +2579,6 @@ job_id: 107960560
 
 ---
 action:
-SELECTED | Buckinghamshire | Buckinghamshire | £13.17 per hour | Helpdesk & Switchboard Operator (Weekends)
-job_id: 107968892
----
-
----
-action:
 SELECTED | Buckinghamshire | Buckinghamshire | £30000 per year | Import & Export Administrator
 job_id: 23643_225501536
 ---
@@ -2618,12 +2616,6 @@ job_id: 107791497
 ---
 action:
 SELECTED | Cambridgeshire | Peterborough |  | Sales Support Administrator
-job_id: 1865042
----
-
----
-action:
-SELECTED | Cambridgeshire | Peterborough |  | Sales Support Administrator
 job_id: 193158007228884582437340
 ---
 
@@ -2656,12 +2648,6 @@ job_id: 23643_225588023
 _No jobs in this group._
 
 ## CHESHIRE - EAST — SELECTED
-
----
-action:
-SELECTED | Cheshire - East | Nantwich |  | Administrative Assistant
-job_id: 23643_225496929
----
 
 ---
 action:
@@ -2949,12 +2935,6 @@ job_id: 23643_225587837
 action:
 SELECTED | Devon | Devon |  | Administrator - Part time
 job_id: 23643_225590384
----
-
----
-action:
-SELECTED | Devon | Devon | £35000 per year | Client Services Coordinator
-job_id: 107936510
 ---
 
 ## DEVON — POSSIBLES
@@ -3293,6 +3273,12 @@ SELECTED | Gloucestershire | Gloucestershire |  | Insurance Accounts Administrat
 job_id: 1897570
 ---
 
+---
+action:
+SELECTED | Gloucestershire | Gloucestershire | £28000 per year | Recruitment Administrator
+job_id: 107871455
+---
+
 ## GLOUCESTERSHIRE — POSSIBLES
 
 _No jobs in this group._
@@ -3569,6 +3555,12 @@ SELECTED | Hertfordshire | Hertfordshire |  | Contracts Administrator
 job_id: 107580099
 ---
 
+---
+action:
+SELECTED | Hertfordshire | Hertfordshire |  | Corporate Benefits Administrator
+job_id: 1901543
+---
+
 ## HERTFORDSHIRE — POSSIBLES
 
 _No jobs in this group._
@@ -3615,12 +3607,6 @@ job_id: 23643_225527918
 action:
 SELECTED | Leicestershire | Leicestershire |  | Office Administrator
 job_id: 23643_225528247
----
-
----
-action:
-SELECTED | Leicestershire | Leicestershire |  | Salesforce Analyst / Administrator - Hybrid - Brand new opportunity
-job_id: 107851741
 ---
 
 ---
@@ -3795,12 +3781,6 @@ job_id: 23643_225596176
 action:
 SELECTED | Merseyside - Liverpool | Liverpool |  | Operations & Social Media Coordinator
 job_id: 1900863
----
-
----
-action:
-SELECTED | Merseyside - Liverpool | Liverpool | £30000 per year | Operations & Social Media Coordinator
-job_id: 107974202
 ---
 
 ## MERSEYSIDE - LIVERPOOL — POSSIBLES
@@ -3979,12 +3959,6 @@ job_id: 1877500
 
 ---
 action:
-SELECTED | Northamptonshire | Northamptonshire |  | Commercial Sales Coordinator
-job_id: 107957112
----
-
----
-action:
 SELECTED | Northamptonshire | Northamptonshire | £30000 per year | Parts Advisor (Motor Industry) / Administrator
 job_id: 107838008
 ---
@@ -3993,6 +3967,12 @@ job_id: 107838008
 action:
 SELECTED | Northamptonshire | Northamptonshire | £16000 - £18000 per year (Training,holiday,Pension,Progression) | Accounts Administrator
 job_id: 23643_225597898
+---
+
+---
+action:
+SELECTED | Northamptonshire | Northamptonshire |  | Commercial Sales Coordinator
+job_id: 107957112
 ---
 
 ## NORTHAMPTONSHIRE — POSSIBLES
@@ -4027,32 +4007,14 @@ job_id: 2051465
 
 ---
 action:
-SELECTED | Northern Ireland - East | Belfast | £26228 per year | Administrator Over to YOUth Project NI67/08/26/1v-1
-job_id: 2051461
----
-
----
-action:
 SELECTED | Northern Ireland - East | Belfast |  | Customer Service Administrator
 job_id: 2051456
 ---
 
 ---
 action:
-SELECTED | Northern Ireland - East | Belfast |  | Sales Administrator
-job_id: 2051447
----
-
----
-action:
 SELECTED | Northern Ireland - East | Belfast | £12.75 per hour | Band 3 Dental Administrator
 job_id: 2051408
----
-
----
-action:
-SELECTED | Northern Ireland - East | Belfast | £12.71 - £14.24 per hour | Temporary Receptionist - Belfast
-job_id: 2051377
 ---
 
 ---
@@ -4153,18 +4115,6 @@ job_id: 2049936
 
 ---
 action:
-SELECTED | Northern Ireland - East | Belfast |  | Finance Assistant - Part Time
-job_id: 2049906
----
-
----
-action:
-SELECTED | Northern Ireland - East | Belfast | £14.06 per hour | Executive Assistant
-job_id: 2049841
----
-
----
-action:
 SELECTED | Northern Ireland - East | Newtownabbey | £13.69 per hour | Admin Scheduler
 job_id: 2051713
 ---
@@ -4201,20 +4151,8 @@ job_id: 2052044
 
 ---
 action:
-SELECTED | Northern Ireland - East | Holywood |  | Receptionist - Immediate Start - Temporary 3 weeks
-job_id: 2052024
----
-
----
-action:
 SELECTED | Northern Ireland - East | Belfast |  | Accounts Assistant
 job_id: 2052021
----
-
----
-action:
-SELECTED | Northern Ireland - East | Lisburn |  | Office Administrator
-job_id: 2052014
 ---
 
 ---
@@ -4343,9 +4281,19 @@ SELECTED | Northern Ireland - East | Belfast |  | Customer Service Advisor - Arc
 job_id: 107836604
 ---
 
+---
+action:
+SELECTED | Northern Ireland - East | Newry | £14.52 per hour | Business Support Officer
+job_id: 2052586
+---
+
 ## NORTHERN IRELAND - EAST — POSSIBLES
 
-_No jobs in this group._
+---
+action:
+POSS - NORTHERN IRELAND - EAST | Northern Ireland - East | Lisburn | £31000 per year | Accounts Assistant
+job_id: 2052639
+---
 
 ## NOTTINGHAMSHIRE — SELECTED
 
@@ -4449,6 +4397,12 @@ job_id: 23643_225582390
 action:
 SELECTED | Nottinghamshire | Nottinghamshire | £28000 - £30000 per year | Support Administrator
 job_id: 23643_225598012
+---
+
+---
+action:
+SELECTED | Nottinghamshire | Nottinghamshire |  | Framework Administrator
+job_id: 1900221
 ---
 
 ## NOTTINGHAMSHIRE — POSSIBLES
@@ -4555,12 +4509,6 @@ job_id: 23643_225587168
 
 ---
 action:
-SELECTED | Oxfordshire | Oxfordshire | £28000 per year | Sales Coordinator
-job_id: 107953660
----
-
----
-action:
 SELECTED | Oxfordshire | Oxfordshire | £30000 per year | Accounts Administrator
 job_id: 107910649
 ---
@@ -4569,12 +4517,6 @@ job_id: 107910649
 action:
 SELECTED | Oxfordshire | Oxfordshire |  | Administrator
 job_id: 23643_225596501
----
-
----
-action:
-SELECTED | Oxfordshire | Oxfordshire |  | Ecommerce Coordinator (Customer Service, Orders & Platform Support)
-job_id: 107842716
 ---
 
 ## OXFORDSHIRE — POSSIBLES
@@ -4691,6 +4633,12 @@ SELECTED | Scotland Central - Tayside | Dundee | £14 per hour | Administrator
 job_id: 23643_225590653
 ---
 
+---
+action:
+SELECTED | Scotland Central - Tayside | Forfar | £14 - £14.6 per hour | Administrator
+job_id: 23643_225599730
+---
+
 ## SCOTLAND CENTRAL - TAYSIDE — POSSIBLES
 
 _No jobs in this group._
@@ -4773,6 +4721,24 @@ job_id: 21618_20279_62718-89740a075c6163b74ea2c52702062e5d
 action:
 SELECTED | Scotland West - Glasgow | Glasgow |  | Call Centre Operator
 job_id: 21618_20279_62718-73862c8b83139033e4e4a8b6efca9a33
+---
+
+---
+action:
+SELECTED | Scotland West - Glasgow | Glasgow |  | Call Centre Agent
+job_id: 20279_62718-89740a075c6163b74ea2c52702062e5d
+---
+
+---
+action:
+SELECTED | Scotland West - Glasgow | Glasgow |  | Call Centre Operator
+job_id: 20279_62718-73862c8b83139033e4e4a8b6efca9a33
+---
+
+---
+action:
+SELECTED | Scotland West - Glasgow | Glasgow |  | Customer Service Advisor
+job_id: 20279_62718-153faf593eb64b88272f45adeaa28d87
 ---
 
 ## SCOTLAND WEST - GLASGOW — POSSIBLES
@@ -5051,12 +5017,6 @@ SELECTED | Suffolk | Suffolk |  | Commercial Claims Handler
 job_id: 1894195
 ---
 
----
-action:
-SELECTED | Suffolk | Suffolk | £NEG None | Organisational Learning Coordinator
-job_id: 23643_225496286
----
-
 ## SUFFOLK — POSSIBLES
 
 _No jobs in this group._
@@ -5079,12 +5039,6 @@ job_id: 23643_225564170
 action:
 SELECTED | Wales South - Cardiff & Vale | Cardiff | £15.54 per hour | Sales Support Administrator
 job_id: 23643_225565612
----
-
----
-action:
-SELECTED | Wales South - Cardiff & Vale | Cardiff | £28000 per year | Key Account Coordinator and Customer Support
-job_id: 107791604
 ---
 
 ---
@@ -5139,12 +5093,6 @@ job_id: 23643_225537904
 action:
 SELECTED | West Midlands - Birmingham & Solihull | Birmingham | £29000 per year | Care Coordinator - Full Time / Part Time
 job_id: 23643_225543172
----
-
----
-action:
-SELECTED | West Midlands - Birmingham & Solihull | Birmingham | £16 per hour | Executive Administrator
-job_id: 23643_225332726
 ---
 
 ---
@@ -5249,12 +5197,6 @@ SELECTED | West Midlands - Black Country | Walsall | £25000 - £28000 per year 
 job_id: 23643_225587200
 ---
 
----
-action:
-SELECTED | West Midlands - Black Country | Tipton | £24000 per year | Customer Support Coordinator (maternity cover)
-job_id: 107969375
----
-
 ## WEST MIDLANDS - BLACK COUNTRY — POSSIBLES
 
 _No jobs in this group._
@@ -5323,12 +5265,6 @@ job_id: 23643_225589341
 
 ---
 action:
-SELECTED | Wiltshire | Wiltshire |  | Technical Sales Support
-job_id: 107969820
----
-
----
-action:
 SELECTED | Wiltshire | Wiltshire | £24000 per year | Customer Service Coordinator
 job_id: 107973159
 ---
@@ -5391,6 +5327,12 @@ job_id: 23643_225575150
 action:
 SELECTED | Worcestershire | Worcestershire |  | Onboarding Coordinator
 job_id: 1879674
+---
+
+---
+action:
+SELECTED | Worcestershire | Worcestershire |  | Recruitment Delivery Co-ordinator Temporary Staffing Solutions
+job_id: 107956478
 ---
 
 ## WORCESTERSHIRE — POSSIBLES

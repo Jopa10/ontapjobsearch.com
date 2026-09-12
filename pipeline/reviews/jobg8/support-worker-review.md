@@ -377,12 +377,6 @@ SELECTED | Wiltshire | Swindon | £14.43 per hour | Care Assistant
 job_id: 1877369
 ---
 
----
-action:
-SELECTED | Wiltshire | Swindon | £24000 per year | Residential Support Worker - Children's Home
-job_id: 107936277
----
-
 ## WILTSHIRE — POSSIBLES
 
 _No jobs in this group._
