@@ -101,8 +101,11 @@ class SliceRegistryTests(unittest.TestCase):
                 "North East",
                 "Berkshire",
                 "Bristol & Bath",
+                "Devon",
                 "Hertfordshire",
+                "Hampshire",
                 "Kent",
+                "North Scotland",
                 "Scotland West - Glasgow",
                 "Surrey",
                 "Sussex",
@@ -158,12 +161,15 @@ class SliceRegistryTests(unittest.TestCase):
                 "Essex",
                 "Gloucestershire",
                 "Greater Manchester - Manchester & Salford",
+                "Greater Manchester - South",
                 "Hertfordshire",
                 "Kent",
                 "West Midlands - Birmingham & Solihull",
                 "Merseyside - Liverpool",
                 "North East",
+                "Northern Ireland - East",
                 "Oxfordshire",
+                "Yorkshire - North",
             },
         )
         self.assertIn(("Kent", "marketing"), live_slices())
@@ -199,6 +205,8 @@ class SliceRegistryTests(unittest.TestCase):
                 "Shropshire",
                 "Yorkshire - West",
                 "Devon",
+                "Essex",
+                "Greater Manchester - Manchester & Salford",
             },
         )
         self.assertNotIn(("London", "finance_accounts"), candidate_slices())
@@ -217,6 +225,8 @@ class SliceRegistryTests(unittest.TestCase):
                 "Nottinghamshire",
                 "Sussex",
                 "West Midlands - Birmingham & Solihull",
+                "West Midlands - Coventry & Warwickshire",
+                "Northern Ireland - East",
             },
         )
         reserves = {"Bristol & Bath", "Essex"}
