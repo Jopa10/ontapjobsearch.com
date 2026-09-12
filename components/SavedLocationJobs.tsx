@@ -22,8 +22,24 @@ type NearbyResponse = {
   suitableJobs: NearbyJob[];
   error?: string;
 };
+type LocationMethod = "saved" | "geolocation" | "manual";
 
 export const savedLocationJobsEvent = LOCATION_EVENT;
+
+function trackNearbyEvent(
+  eventName: "nearby_location_click" | "nearby_location_success" | "nearby_results_click",
+  jobId: string | undefined,
+  parameters: Record<string, string | number> = {},
+) {
+  const gtag = (window as Window & { gtag?: (...args: unknown[]) => void }).gtag;
+  if (typeof gtag !== "function") return;
+
+  gtag("event", eventName, {
+    page_context: jobId ? "job_detail" : "homepage",
+    page_path: window.location.pathname,
+    ...parameters,
+  });
+}
 
 function readSavedLocation(): SavedLocation | undefined {
   try {
@@ -41,7 +57,7 @@ export default function SavedLocationJobs({ jobId }: { jobId?: string }) {
   const [message, setMessage] = useState("");
   const [showManual, setShowManual] = useState(false);
 
-  async function lookup(payload: Record<string, unknown>, remember: boolean) {
+  async function lookup(payload: Record<string, unknown>, method: LocationMethod) {
     setStatus("loading");
     setMessage("");
     try {
@@ -52,7 +68,7 @@ export default function SavedLocationJobs({ jobId }: { jobId?: string }) {
       });
       const data = await response.json() as NearbyResponse;
       if (!response.ok) throw new Error(data.error || "Location lookup failed.");
-      if (remember) localStorage.setItem(STORAGE_KEY, JSON.stringify(data.location));
+      if (method !== "saved") localStorage.setItem(STORAGE_KEY, JSON.stringify(data.location));
       setSaved(data.location);
       setCount(data.count);
       setStatus("saved");
@@ -65,6 +81,12 @@ export default function SavedLocationJobs({ jobId }: { jobId?: string }) {
           searchPath: `/jobs/search?near=${encodeURIComponent(data.location.town)}`,
         },
       }));
+      if (method !== "saved") {
+        trackNearbyEvent("nearby_location_success", jobId, {
+          location_method: method,
+          nearby_job_count: data.count,
+        });
+      }
     } catch (error) {
       setStatus("error");
       setMessage(error instanceof Error ? error.message : "Location lookup failed.");
@@ -74,12 +96,13 @@ export default function SavedLocationJobs({ jobId }: { jobId?: string }) {
 
   useEffect(() => {
     const location = readSavedLocation();
-    if (location) void lookup({ location: location.town, region: location.region }, false);
+    if (location) void lookup({ location: location.town, region: location.region }, "saved");
     // The saved preference is intentionally restored once when this page loads.
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [jobId]);
 
   function useMyLocation() {
+    trackNearbyEvent("nearby_location_click", jobId, { location_method: "geolocation" });
     if (!navigator.geolocation) {
       setStatus("error");
       setMessage("Location is not available in this browser.");
@@ -88,7 +111,7 @@ export default function SavedLocationJobs({ jobId }: { jobId?: string }) {
     }
     setStatus("loading");
     navigator.geolocation.getCurrentPosition(
-      ({ coords }) => void lookup({ latitude: coords.latitude, longitude: coords.longitude }, true),
+      ({ coords }) => void lookup({ latitude: coords.latitude, longitude: coords.longitude }, "geolocation"),
       () => {
         setStatus("error");
         setMessage("Location permission was not granted. Enter a town instead.");
@@ -102,7 +125,7 @@ export default function SavedLocationJobs({ jobId }: { jobId?: string }) {
     event.preventDefault();
     const form = new FormData(event.currentTarget);
     const town = String(form.get("town") ?? "").trim();
-    if (town) void lookup({ location: town }, true);
+    if (town) void lookup({ location: town }, "manual");
   }
 
   function clearLocation() {
@@ -137,7 +160,13 @@ export default function SavedLocationJobs({ jobId }: { jobId?: string }) {
       <div className={styles.actions}>
         {saved ? (
           <>
-            <Link href={`/jobs/search?near=${encodeURIComponent(saved.town)}`} className={styles.primary}>View nearby jobs</Link>
+            <Link
+              href={`/jobs/search?near=${encodeURIComponent(saved.town)}`}
+              className={styles.primary}
+              onClick={() => trackNearbyEvent("nearby_results_click", jobId, { nearby_job_count: count })}
+            >
+              View nearby jobs
+            </Link>
             <button type="button" className={styles.textButton} onClick={() => setShowManual(true)}>Change location</button>
             <button type="button" className={styles.textButton} onClick={clearLocation}>Clear</button>
           </>
