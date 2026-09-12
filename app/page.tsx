@@ -166,7 +166,7 @@ function SearchPanel({ totalJobs }: { totalJobs: number }) {
         Search by role or keyword
       </h2>
 
-      <form method="get" action="/jobs/search" className="mt-3 grid gap-2.5">
+      <form id="homepage-job-search" method="get" action="/jobs/search" className="mt-3 grid gap-2.5">
         <label className="sr-only" htmlFor="homepage-job-query">
           Role or keyword
         </label>
@@ -222,13 +222,19 @@ function SearchPanel({ totalJobs }: { totalJobs: number }) {
           />
         </div>
 
-        <button
-          type="submit"
-          className="rounded-xl bg-blue-600 px-5 py-3 font-semibold text-white transition hover:bg-blue-700"
-        >
-          Search jobs →
-        </button>
       </form>
+
+      <div className="mt-2.5 sm:hidden [&>section]:!mb-0">
+        <SavedLocationJobs />
+      </div>
+
+      <button
+        type="submit"
+        form="homepage-job-search"
+        className="mt-2.5 w-full rounded-xl bg-blue-600 px-5 py-3 font-semibold text-white transition hover:bg-blue-700"
+      >
+        Search jobs →
+      </button>
 
       <p className="mt-2 text-center text-xs text-gray-500">
         {totalJobs.toLocaleString('en-GB')} current jobs • No account needed
@@ -385,7 +391,7 @@ export default function Page() {
           </div>
         </section>
 
-        <section className="border-b border-gray-200 bg-white">
+        <section className="hidden border-b border-gray-200 bg-white sm:block">
           <div className="mx-auto max-w-7xl px-4 pt-4 sm:px-6 lg:px-8">
             <SavedLocationJobs />
           </div>
