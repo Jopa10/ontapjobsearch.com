@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import Image from 'next/image';
 import Link from 'next/link';
 import generatedJobs from '@/generated/published-jobs-search.json';
 import { getJobsNearApprovedLocation, resolveApprovedLocation } from '@/lib/discovery-recommendations';
@@ -262,13 +263,24 @@ function resolveSearchInputs(originalQuery: string, originalLocation: string): S
   };
 }
 
-function SearchForm({ query, location }: { query: string; location: string }) {
+function SearchForm({
+  query,
+  location,
+  idPrefix = 'job-search',
+}: {
+  query: string;
+  location: string;
+  idPrefix?: string;
+}) {
+  const queryId = `${idPrefix}-query`;
+  const locationId = `${idPrefix}-location`;
+
   return (
     <form method="get" action="/jobs/search" className="grid gap-3 sm:grid-cols-[1fr_1fr_auto] sm:items-end">
-      <label className="min-w-0" htmlFor="job-search-query">
+      <label className="min-w-0" htmlFor={queryId}>
         <span className="mb-1 block px-1 text-xs font-semibold text-gray-500">Role or keyword</span>
         <input
-          id="job-search-query"
+          id={queryId}
           name="q"
           type="search"
           defaultValue={query}
@@ -279,10 +291,10 @@ function SearchForm({ query, location }: { query: string; location: string }) {
         />
       </label>
 
-      <label className="min-w-0" htmlFor="job-search-location">
+      <label className="min-w-0" htmlFor={locationId}>
         <span className="mb-1 block px-1 text-xs font-semibold text-gray-500">Location</span>
         <input
-          id="job-search-location"
+          id={locationId}
           name="location"
           type="search"
           defaultValue={location}
@@ -387,14 +399,14 @@ export default async function Page({ searchParams }: { searchParams: SearchParam
         <span className="text-gray-700">Search jobs</span>
       </nav>
 
-      <div className="rounded-2xl border border-gray-200 bg-gray-50 p-5 sm:p-6">
+      <div className={`rounded-2xl border border-gray-200 bg-gray-50 p-5 sm:p-6 ${isNearbySearch ? 'hidden sm:block' : ''}`}>
         <h1 className="text-3xl font-bold tracking-tight text-gray-900">Search current jobs</h1>
         <p className="mt-2 max-w-3xl text-gray-600">
           Search Ontap&apos;s current published jobs by role, keyword and location. No account required.
         </p>
       </div>
 
-      <div className="sticky top-2 z-20 mt-3 rounded-xl border border-gray-200 bg-white/95 p-3 shadow-md backdrop-blur">
+      <div className={`sticky top-2 z-20 mt-3 rounded-xl border border-gray-200 bg-white/95 p-3 shadow-md backdrop-blur ${isNearbySearch ? 'hidden sm:block' : ''}`}>
         <SearchForm query={resolved.formQuery} location={nearbyLocation || resolved.formLocation} />
         {spellingCorrected ? (
           <p className="mt-2 px-1 text-sm text-gray-600">
@@ -415,7 +427,7 @@ export default async function Page({ searchParams }: { searchParams: SearchParam
           </p>
         </section>
       ) : (
-        <section className="mt-8">
+        <section className={isNearbySearch ? 'mt-0 sm:mt-8' : 'mt-8'}>
           <div className="mb-4 flex flex-wrap items-end justify-between gap-3">
             <div>
               <h2 className="text-2xl font-semibold tracking-tight text-gray-900">
@@ -429,10 +441,29 @@ export default async function Page({ searchParams }: { searchParams: SearchParam
                   : [resolved.formQuery && `“${resolved.formQuery}”`, resolved.formLocation && `in ${resolved.formLocation}`].filter(Boolean).join(' ')}
               </p>
             </div>
-            <Link href={matches.length ? '/browse-jobs' : fallbackHref} className="text-sm font-semibold text-blue-700 hover:text-blue-900">
+            <Link
+              href={matches.length ? '/browse-jobs' : fallbackHref}
+              className={`text-sm font-semibold text-blue-700 hover:text-blue-900 ${isNearbySearch ? 'hidden sm:inline' : ''}`}
+            >
               {matches.length ? 'Browse all job pages' : fallbackLabel} →
             </Link>
           </div>
+
+          {isNearbySearch ? (
+            <details className="mb-4 sm:hidden">
+              <summary className="flex min-h-12 cursor-pointer list-none items-center justify-center gap-2 rounded-lg border-2 border-blue-500 bg-white px-4 py-2 font-semibold text-blue-700 marker:content-none">
+                <Image src="/assets/ontap-magnifying-glass.svg" alt="" aria-hidden="true" width={28} height={28} />
+                Change search
+              </summary>
+              <div className="mt-2 rounded-xl border border-blue-100 bg-blue-50 p-3">
+                <SearchForm
+                  query={resolved.formQuery}
+                  location={nearbyLocation || resolved.formLocation}
+                  idPrefix="nearby-mobile-search"
+                />
+              </div>
+            </details>
+          ) : null}
 
           {visibleMatches.length > 0 ? (
             <>
@@ -477,6 +508,12 @@ export default async function Page({ searchParams }: { searchParams: SearchParam
               ) : null}
             </div>
           )}
+
+          {isNearbySearch && matches.length ? (
+            <Link href="/browse-jobs" className="mt-5 inline-block text-sm font-semibold text-blue-700 hover:text-blue-900 sm:hidden">
+              Browse all job pages →
+            </Link>
+          ) : null}
         </section>
       )}
     </main>
