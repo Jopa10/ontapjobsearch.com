@@ -1,7 +1,7 @@
 # North East Jobs ETL proof-of-concept review
 
-review_date: 2026-09-11
-review_fingerprint: 907a7c81aa363470dab0eab477562b11486e9282705ac00f4f6bf74b7132a347
+review_date: 2026-09-12
+review_fingerprint: 02802d2b973594f3dc2f70912480366004817cd2ee4c29d5e13d63ef2843caeb
 
 Edit only the `action:` line in each editable block:
 
@@ -11,19 +11,19 @@ Edit only the `action:` line in each editable block:
 - Commit the edit; the review workflow will remember the decision.
 - Decisions are carried forward only while the same vacancy review facts remain unchanged.
 
-Run generated: 2026-09-11T12:18:18+01:00
+Run generated: 2026-09-12T11:46:13+01:00
 RSS input: https://www.northeastjobs.org.uk/RSSJobs.aspx?orgid=62
-JobG8 comparison rows in target geographies: 261
+JobG8 comparison rows in target geographies: 281
 
 ## Funnel
 
-- RSS vacancies read: 714
-- Hard-pass title/teaser screen before detail requests: 664
-- Detail candidates: 50
+- RSS vacancies read: 744
+- Hard-pass title/teaser screen before detail requests: 692
+- Detail candidates: 52
 - Detail failures or unavailable snapshots: 0
 - Outside the two target geographies: 7
 - Tees Valley explicitly excluded: 11
-- Target-geography candidates reviewed: 32
+- Target-geography candidates reviewed: 34
 
 ## Detail diagnostics
 
@@ -31,18 +31,18 @@ JobG8 comparison rows in target geographies: 261
 
 ## Review outcomes
 
-- HC: 15
-- POSS: 16
+- HC: 16
+- POSS: 17
 - Hard pass: 1
-- Final selected after remembered/manual actions: 18
-- Final POSS awaiting decision: 9
+- Final selected after remembered/manual actions: 19
+- Final POSS awaiting decision: 10
 - Manually excluded: 4
 - Confirmed JobG8 duplicates: 0
 - Possible JobG8 duplicates: 1
-- Likely unique to North East Jobs: 31
+- Likely unique to North East Jobs: 33
 - Rows in possible within-source duplicate groups: 0
 
-- Manual review warning: manual review date 2026-09-10 is not 2026-09-11; old actions ignored
+- Manual review warning: manual review date 2026-09-11 is not 2026-09-12; old actions ignored
 
 ## SELECTED
 
@@ -90,6 +90,15 @@ closing_date: 21/09/2026 12:00
 reason: clear transferable title: secretary
 source_job_id: 301524
 source_url: https://www.northeastjobs.org.uk/job/School_Secretary/301524
+---
+---
+action:
+SELECTED | North East - Tyneside, Wearside & Northumberland | South East Northumberland, United Kingdom | £13.70 per hour | Admin Assistant - Staff Bank (Ashington, Bedlington, Blyth, Cramlington, Morpeth)
+employer: Northumberland County Council
+closing_date: 13/09/2026 00:00
+reason: clear transferable title: admin assistant
+source_job_id: 301898
+source_url: https://www.northeastjobs.org.uk/job/Admin_Assistant_Staff_Bank_Ashington_Bedlington_Blyth_Cramlington_Morpeth/301898
 ---
 ---
 action:
@@ -308,6 +317,15 @@ closing_date: 21/09/2026 22:59
 reason: transferable office/service title with specialist or borderline wording: housing
 source_job_id: 300255
 source_url: https://www.northeastjobs.org.uk/job/Housing_Support_Officer/300255
+---
+---
+action:
+POSS | North East - Tyneside, Wearside & Northumberland | City Hall, Plater Way, Sunderland, SR1 3AA | Grade 6 (SCP 22-25) £34,811 - £37,563 | Links for Life Coordinator
+employer: Sunderland City Council
+closing_date: 24/09/2026
+reason: annualised upper salary £37,563 exceeds North East review point £30,000
+source_job_id: 301406
+source_url: https://www.northeastjobs.org.uk/job/Links_for_Life_Coordinator/301406
 ---
 ---
 action: select
