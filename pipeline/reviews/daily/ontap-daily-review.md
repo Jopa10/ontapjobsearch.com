@@ -32,7 +32,7 @@ Edit only each `action:` line:
 ## JobG8 — 8 to review
 
 ---
-action:
+action: select
 POSS | JobG8 | Buckinghamshire | Buckinghamshire | £15 - £18 per hour | Procurement Administrator
 source_key: jobg8
 source: JobG8
@@ -50,7 +50,7 @@ hub_fingerprint: b052b8a2ef447eacce7870240d8ea80817f9f6725a57ebc7dbb83e968ba525c
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | Cheshire - West | Chester | £48917 per year | Training and Business Coordinator
 source_key: jobg8
 source: JobG8
@@ -68,7 +68,7 @@ hub_fingerprint: 14e428906d150366d9aa3234c093ffa597c354d29fe59aa58c86693d06e65a3
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Dorset | Dorset | £28000 - £31000 per year | Customer Operations Coordinator
 source_key: jobg8
 source: JobG8
@@ -86,7 +86,7 @@ hub_fingerprint: a9ef4bc2b674e00711453599078cd1dc1ab8e5ac4fdbfec1510171ffc7b243a
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | Greater Manchester - Manchester & Salford | Manchester | £45000 per year | FNOL Motor Claims Handler
 source_key: jobg8
 source: JobG8
@@ -104,7 +104,7 @@ hub_fingerprint: 3c9bba7857990223082ed685a0f2ffa7d66f86fb3e655ab6e574ceaa8e08f56
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | Hampshire | Hampshire | £45000 - £60000 per year | principle/associate planner
 source_key: jobg8
 source: JobG8
@@ -122,7 +122,7 @@ hub_fingerprint: b53a4f0b25b833507336daab663913b59d66d90eee8604e90e73c462701d239
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | London | City | £12.75 - £21.55 per hour | Support Worker - Belfast
 source_key: jobg8
 source: JobG8
@@ -140,7 +140,7 @@ hub_fingerprint: 58b5a3de4bf2ad88de9de195af0ac2c128c7d1076d5caeec6640815762613f9
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | Oxfordshire | Oxfordshire | £40900 - £41939 per year (plus excellent benefits) | Technical Business Support Officer
 source_key: jobg8
 source: JobG8
@@ -158,7 +158,7 @@ hub_fingerprint: 22129c38a2127ca4a5a967007344d6eca0d9b375e5261d6fa931d4c4c99f05e
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Scotland West - Glasgow | Glasgow | £17 - £19 per hour | Receptionist
 source_key: jobg8
 source: JobG8
