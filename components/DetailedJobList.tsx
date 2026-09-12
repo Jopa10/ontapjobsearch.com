@@ -1,4 +1,4 @@
-import Link from "next/link";
+import ResultsJobLink from "@/components/ResultsJobLink";
 import ApplyButton from "@/components/ApplyButton";
 import JobFacts from "@/components/JobFacts";
 import { sourceLabel } from "@/lib/job-facts";
@@ -154,12 +154,12 @@ export default function DetailedJobList({
               </div>
             ) : null}
 
-            <Link
+            <ResultsJobLink
               href={getJobPath(job.job_id)}
               style={{ fontSize: 13, color: "#2563eb", textDecoration: "none" }}
             >
               View full job description →
-            </Link>
+            </ResultsJobLink>
 
             {applicationSource ? (
               <div style={{ marginTop: 8, color: "#6b7280", fontSize: 12, lineHeight: 1.4 }}>

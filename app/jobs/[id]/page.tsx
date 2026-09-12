@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import ApplyButton from "@/components/ApplyButton";
+import BackToResults from "@/components/BackToResults";
 import JobDescription from "@/components/JobDescription";
 import JobFacts from "@/components/JobFacts";
 import JobPageSearch from "@/components/JobPageSearch";
@@ -161,6 +162,10 @@ export default async function JobPage({ params }: PageProps) {
           dangerouslySetInnerHTML={{ __html: JSON.stringify(schema).replace(/</g, "\\u003c") }}
         />
       ) : null}
+
+      <nav aria-label="Return to job results" className={styles.backNav}>
+        <BackToResults fallbackHref={primaryListing.href} className={styles.backLink} />
+      </nav>
 
       <nav aria-label="More job listings" style={{ marginBottom: 18 }}>
         <ListingLinks primary={primaryListing} secondary={secondaryListing} />

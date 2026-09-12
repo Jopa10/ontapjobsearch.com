@@ -8,6 +8,7 @@ import { getJobPath } from "@/lib/published-jobs";
 import { classifyJobSector, findNthJobSectorIndex } from "@/lib/job-sector";
 import SectorBadge from "@/components/SectorBadge";
 import SectorSwitchBanner from "@/components/SectorSwitchBanner";
+import ResultsJobLink from "@/components/ResultsJobLink";
 import { Fragment } from "react";
 import styles from "@/components/QuickJobList.module.css";
 
@@ -69,7 +70,7 @@ export default function QuickJobList({
 
         return (
           <Fragment key={job.job_id}>
-            <a
+            <ResultsJobLink
               href={getJobPath(job.job_id)}
               className={styles.row}
               data-job-sector={sectorFilterEnabled ? sector.sector : undefined}
@@ -106,7 +107,7 @@ export default function QuickJobList({
                   </span>
                 ) : null}
               </span>
-            </a>
+            </ResultsJobLink>
             {sectorFilterEnabled && index === 4 ? (
               <SectorSwitchBanner audience="all" />
             ) : null}

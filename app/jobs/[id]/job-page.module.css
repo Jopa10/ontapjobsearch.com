@@ -14,6 +14,24 @@
   display: none;
 }
 
+.backNav {
+  margin-bottom: 10px;
+}
+
+.backLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  color: #1d4ed8;
+  font-size: 15px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.backLink:hover {
+  text-decoration: underline;
+}
+
 .contentGrid {
   display: grid;
   grid-template-columns: minmax(0, 1fr) 310px;
