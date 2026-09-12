@@ -1360,11 +1360,10 @@ job_id: 1898713
 ## HAMPSHIRE — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - HAMPSHIRE | Hampshire | Hampshire | £45000 - £60000 per year | principle/associate planner
 job_id: 23643_225598820
 ---
-
 ## SURREY — SELECTED
 
 ---
@@ -2592,11 +2591,10 @@ job_id: 23643_225501536
 ## BUCKINGHAMSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - BUCKINGHAMSHIRE | Buckinghamshire | Buckinghamshire | £15 - £18 per hour | Procurement Administrator
 job_id: 23643_225597034
 ---
-
 ## CAMBRIDGESHIRE — SELECTED
 
 ---
@@ -2782,11 +2780,10 @@ job_id: 446503133430100787237340
 ## CHESHIRE - WEST — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - CHESHIRE - WEST | Cheshire - West | Chester | £48917 per year | Training and Business Coordinator
 job_id: 107970068
 ---
-
 ## CORNWALL — SELECTED
 
 ---
@@ -3026,11 +3023,10 @@ job_id: 1839332
 ## DORSET — POSSIBLES
 
 ---
-action:
+action: select
 POSS - DORSET | Dorset | Dorset | £28000 - £31000 per year | Customer Operations Coordinator
 job_id: 23643_225598865
 ---
-
 ## ESSEX — SELECTED
 
 ---
@@ -3426,11 +3422,10 @@ job_id: 107883067
 ## GREATER MANCHESTER - MANCHESTER & SALFORD — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - GREATER MANCHESTER - MANCHESTER & SALFORD | Greater Manchester - Manchester & Salford | Manchester | £45000 per year | FNOL Motor Claims Handler
 job_id: 1898515
 ---
-
 ## GREATER MANCHESTER - SOUTH — SELECTED
 
 ---
@@ -4588,11 +4583,10 @@ job_id: 107842716
 ## OXFORDSHIRE — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - OXFORDSHIRE | Oxfordshire | Oxfordshire | £40900 - £41939 per year (plus excellent benefits) | Technical Business Support Officer
 job_id: 23643_225481254
 ---
-
 ## SCOTLAND CENTRAL - EDINBURGH & LOTHIANS — SELECTED
 
 ---
@@ -4784,11 +4778,10 @@ job_id: 21618_20279_62718-73862c8b83139033e4e4a8b6efca9a33
 ## SCOTLAND WEST - GLASGOW — POSSIBLES
 
 ---
-action:
+action: select
 POSS - SCOTLAND WEST - GLASGOW | Scotland West - Glasgow | Glasgow | £17 - £19 per hour | Receptionist
 job_id: 23643_225595976
 ---
-
 ## SHROPSHIRE — SELECTED
 
 ---

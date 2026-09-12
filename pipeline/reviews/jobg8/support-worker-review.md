@@ -320,11 +320,10 @@ job_id: 1898675
 ## LONDON — POSSIBLES
 
 ---
-action:
+action: select
 POSS - LONDON | London | City | £12.75 - £21.55 per hour | Support Worker - Belfast
 job_id: 2052552
 ---
-
 ## OXFORDSHIRE — SELECTED
 
 ---
