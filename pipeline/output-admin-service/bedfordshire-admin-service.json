@@ -72,11 +72,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Data entry"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225539795",
@@ -126,13 +122,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Scheduling and bookings",
-      "Records administration",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225564132",
@@ -385,6 +375,28 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "nhs-5594951",
+    "source": "NHS Jobs",
+    "title": "Team Administrator",
+    "company": "East London NHS Foundation Trust",
+    "advertiser_name": "East London NHS Foundation Trust",
+    "location": "Bedford, MK40 2NT",
+    "region": "Bedfordshire",
+    "salary": "£28392.00 to £31157.00",
+    "employment_type": "Permanent",
+    "posted_date": "2026-09-11T18:27:29.574864893",
+    "closing_date": "2026-09-20",
+    "description": "We are seeking to recruit a Team Administrator to support the Operations Manager and the multi-disciplinary Clinical team, you should possess outstanding written and verbal communication skills. You'll need to be a team player while also having the ability to take initiative and work independently. Your role will involve providing essential administrative support to ensure the team or unit operates smoothly and efficiently. You will collaborate closely with the Team Administration Lead to deliver responsive administrative services to the team. Additionally, you'll be responsible for developing your own administration systems and offering day-to-day support. This position requires you to take initiative and communicate effectively with a diverse range of professionals while maintaining client confidentiality at all times.To support the Operations Manager and the multi-disciplinary Clinical team, you should possess outstanding written and verbal communication skills. You'll need to be a team player while also having the ability to take initiative and work independently. Your role will involve providing essential administrative support to ensure the team or unit operates smoothly and efficiently. You will collaborate closely with the Team Administration Lead to deliver responsive administrative services to the team. Additionally, you'll be responsible for developing your own administration systems and offering day-to-day support. This position requires you to take initiative and communicate effectively with a diverse range of professionals while maintaining client confidentiality at all times. For a detailed description of the main duties, please refer to the attached Job Description and Person Specification. For a detailed job description and main responsibilities of the role please refer to the attached Job Description and Person Specification.",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9363-26-1079",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9363-26-1079",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
+  },
+  {
     "job_id": "nhs-5568712",
     "source": "NHS Jobs",
     "title": "Team Administrator",
@@ -421,28 +433,6 @@
     "description": "An exciting opportunity has arisen for a Ward Clerk at Bedford Hospital. You will have interaction with patients and relatives as well as staff based at Bedford Hospital. You will be an organised, efficient and motivated individual who is trustworthy and reliable. You must be able to be adaptable within your work role to support the team in all aspects of ward administrative cover.This is an exciting team that will give you the opportunity to grow and develop. The team consists of ward clerks and receptionists that work together sharing their knowledge and experience. Although we have a very strong learning and development function, we appreciate you will need to have acquired some skills and experience from your career in order for your time with us to be a real success. These can be found in the Person and Job Description attachment on NHS Jobs. However we have highlighted some of them below. Educated to GSCE standard or equivalent Experience of working in a customer facing/reception role Experience of using IT package An exciting opportunity has arisen for a ward clerk at Bedford Hospital. To provide both a front line clerical service to clinical staff within the ward whilst also providing \"front door\" style support to patients and relatives during visits. The post holder will also be responsible for ensuring accurate and timely inputting of patient level data into the relevant clinical systems for the capturing of admission, discharge and transfer of patients. This is to be done whilst also strictly adhering to trust data quality, health records and information governance policies. It is expected that the post-holder will manage their workload in an effective and efficient way and have a flexible approach to covering various wards and the role as it continues to develop with the ever changing needs of the business. The Ward Clerk provides essential administrative and communication support within the ward, acting as a key point of contact for Trust staff, patients and relatives. The post holder will help facilitate effective communication and contribute to the smooth day-to-day running of the ward, ensuring a professional and responsive service at all times. The role is responsible for maintaining accurate records of all patient admissions and discharges, including Hospital Numbers, follow-up appointments, movement of notes and other patient information. The post holder will also update and maintain patient information on Trust IT systems, ensuring all admission, discharge and patient records are accurate and up to date. Duties include, but are not limited to: To update IT systems, including: Admissions Discharges Updating patient details, including correct address, GP details, and next of kin information. To ensure that patients are admitted under the correct Consultant. To file admission packs for new patients in accordance with admission pack filing procedures. To ensure ward trolleys are prepared and ready for Ward Rounds, including ensuring continuation sheets and labels are available for all inpatients. To make follow-up appointments for discharged patients. To file discharge episodes in accordance with discharge filing procedures. In the case of deceased patients, to ensure the correct paperwork is printed for the Bereavement Office and that the GP is contacted. To continually monitor IT systems throughout the working day for any changes in patient status. To support Ward staff in dealing with telephone enquiries. To sort and distribute mail, including re-addressing mail for discharged patients. To report any faults, required repairs, or faulty equipment to the Facilities Help Desk and Clinical Engineering Department. To order non-stock equipment and stationery from Lyreco/ADB, maintaining minimal stock levels in line with next-day delivery availability. To induct and train new members of staff. To carry out any reasonable requests made by the Discharge Officer and Ward staff. The post holder will be expected to undertake all duties in a professional manner, contributing to the effective day-to-day running of the ward and supporting the delivery of high-quality patient care.",
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9418-26-0933",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9418-26-0933",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
-  },
-  {
-    "job_id": "nhs-5577346",
-    "source": "NHS Jobs",
-    "title": "Medical Receptionist",
-    "company": "Salisbury House Surgery",
-    "advertiser_name": "Salisbury House Surgery",
-    "location": "Leighton Buzzard, LU7 1RS",
-    "region": "Bedfordshire",
-    "salary": "£12.71",
-    "employment_type": "Permanent",
-    "posted_date": "2026-09-03T12:24:37.640659991",
-    "closing_date": "2026-09-25",
-    "description": "Join our friendly and supportive GP practice as a Medical Receptionist, where youll play a vital role in helping patients access the right care and supporting the smooth running of our busy primary care team. Were looking for someone who is approachable, organised and compassionate, with excellent communication skills and a genuine desire to help people. Youll be part of a welcoming team where no two days are the same, working closely with GPs, nurses and other healthcare professionals. If you enjoy working with people, thrive in a busy environment and want a rewarding role where you can make a real difference to patients and your local community, wed love to hear from you. The Medical Receptionist will be a key point of contact for our patients, providing a friendly, professional and efficient service both in person and over the telephone. You will help patients access the most appropriate care, manage appointment requests and support a wide range of day-to-day administrative tasks. The role involves working closely with GPs, nurses and the wider practice team, handling patient enquiries sensitively and confidentially, processing information accurately and helping to ensure the practice runs smoothly. You will need to be organised, adaptable and confident working in a busy environment while always providing excellent patient care. Working hours 26 hours per week: Monday: 8:30am 4:40pm Tuesday: 8:30am 2:00pm Wednesday: 8:30am 4:30pm Thursday: 8:30am 2:00pm Friday: Non-working day Please note that although Friday is your usual non-working day, flexibility is essential, and you will be required to work Fridays when necessary to provide annual leave cover for other members of the reception team. Job Description Medical Receptionist Job Title: Medical Receptionist Hours: 26 hours per week Responsible to: Practice Manager / Deputy Practice Manager To provide a professional, efficient and welcoming reception service to patients and support the smooth day-to-day running of the practice. The Medical Receptionist is often the first point of contact for our patients and therefore plays an important role in their experience of the practice. The successful candidate will need to communicate with compassion and professionalism while maintaining confidentiality and dealing effectively with a busy and varied workload. Answer incoming telephone calls and deal with patient enquiries appropriately. Use care navigation skills to help patients access the most appropriate member of the healthcare team or service. Book, amend and cancel appointments in accordance with practice procedures. Process requests and enquiries from patients, clinicians and other healthcare professionals. Accurately record and update patient information on the clinical system. Assist patients with general queries and explain practice procedures and available services. Manage incoming correspondence, tasks and electronic communications and direct these to the appropriate person or team. Liaise with hospitals, pharmacies, community services and other healthcare providers when required. Assist with administrative duties including scanning, filing, document processing and other general office tasks. Maintain patient confidentiality at all times and comply with information governance and data protection requirements. Recognise potentially urgent situations and escalate concerns appropriately in accordance with practice procedures. Deal with challenging or sensitive situations calmly, professionally and compassionately. Work collaboratively with GPs, nurses, healthcare professionals, reception colleagues and the wider practice team. Attend team meetings, training sessions and protected learning events as required. Undertake any other reasonable duties appropriate to the role to support the effective running of the practice. The contracted hours for this position are 26 hours per week , worked as follows: Monday: 8:30am 4:40pm Tuesday: 8:30am 2:00pm Wednesday: 8:30am 4:30pm Thursday: 8:30am 2:00pm Friday: Usual non-working day Flexibility is an important requirement of this position. Although Friday will normally be your non-working day, you will be required to work on Fridays when necessary to provide annual leave cover for other members of the reception team. The post holder will have access to confidential information relating to patients, their families, practice staff and other healthcare professionals. All information must be treated in the strictest confidence and handled in accordance with practice policies, UK GDPR and relevant legislation. All employees have a responsibility to take reasonable care of their own health and safety and that of colleagues, patients and visitors. The post holder will be expected to follow practice health and safety procedures and report any concerns appropriately. The practice is committed to providing an inclusive environment for patients and staff. The post holder must treat everyone with dignity and respect and support the practice's commitment to equality, diversity and inclusion. The successful candidate will receive appropriate induction and training and will be expected to participate in ongoing training and development relevant to their role. Previous experience within a GP practice or NHS environment would be advantageous; however, we also welcome applications from candidates with strong customer service, reception or administrative experience who have the right attitude and are willing to learn. This job description is intended as a guide to the main responsibilities of the role and may be amended from time to time to reflect the changing needs of the practice and primary care.",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2197-26-0003",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2197-26-0003",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
     "advertiser_type": "",

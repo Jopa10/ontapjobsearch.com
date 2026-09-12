@@ -175,14 +175,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Scheduling and bookings",
-      "Records administration",
-      "Quotations",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225547455",
@@ -257,11 +250,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Email handling",
-      "Records administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225573602",
@@ -286,12 +275,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Telephone handling",
-      "Scheduling and bookings"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225574529",
@@ -316,12 +300,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Email handling",
-      "Systems administration",
-      "Document preparation"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1869539",
@@ -424,31 +403,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "107965743",
-    "title": "Customer Service Coordinator",
-    "company": "Just Recruitment Group Ltd - Agency - Permanent",
-    "location": "Essex",
-    "region": "Essex",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "",
-    "posted_date": "",
-    "description": "Just Recruitment is delighted to be supporting a well-established and expanding business on the outskirts of Colchester in their search for a Customer Service Coordinator.\nThe role involves regular communication with customers via telephone and email to gather all necessary delivery and installation information. You will be responsible for accurately updating the planning systems click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?aIHQjUdXakNAvABMM%2bKzID%2fAXyF7S1OFr",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Just Recruitment Group Ltd",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "107837697",
     "title": "Housing Community Safety Administrator",
     "company": "Focus Resourcing Group - Agency - Temporary",
@@ -468,6 +422,31 @@
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
     "advertiser_name": "Focus Resourcing Group",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
+    "job_id": "107965743",
+    "title": "Customer Service Coordinator",
+    "company": "Just Recruitment Group Ltd - Agency - Permanent",
+    "location": "Essex",
+    "region": "Essex",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "",
+    "posted_date": "",
+    "description": "Just Recruitment is delighted to be supporting a well-established and expanding business on the outskirts of Colchester in their search for a Customer Service Coordinator.\nThe role involves regular communication with customers via telephone and email to gather all necessary delivery and installation information. You will be responsible for accurately updating the planning systems click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?bZCSDJyF3N6c9xb1XSf1xP7fEhJcXyPxq",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Just Recruitment Group Ltd",
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
@@ -696,11 +675,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Systems administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1870036",
@@ -725,11 +700,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Systems administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1869162",
@@ -754,11 +725,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Systems administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1894182",
@@ -890,28 +857,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0106-26-0084",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
-  },
-  {
-    "job_id": "nhs-5532072",
-    "source": "NHS Jobs",
-    "title": "Receptionist/Care Navigator",
-    "company": "Primary Care Careers",
-    "advertiser_name": "Primary Care Careers",
-    "location": "Colchester, CO1 2QS",
-    "region": "Essex",
-    "salary": "£13.02",
-    "employment_type": "Permanent",
-    "posted_date": "2026-09-03T16:31:52.101876924",
-    "closing_date": "2026-09-11",
-    "description": "Colchester Medical Practice has an opportunity for an enthusiastic and proactive receptionist to join our team on afull time or part time basis at our Castle Gardens Site. The hours need to be a minimum of 24 hours per week. The receptionist plays a pivotal role in the experience of patients at our practice,helping them to access the right services and dealing with their queries face-to-face, online and by telephone. Greeting and directing all patients. Making appointments. Answering queries and complaints from patients and outside agencies, signposting to the appropriate staff member as appropriate. Accepting, issuing and handing out prescriptions, letters, completed forms, specimen bottles, etc. Advising patients of practice procedures. Registering new patients. Accurately maintaining patient database and records, photocopying, filing and scanning. If you would like to find out more information about this role, please do not hesitate to get in contact with us.",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/M0038-26-0783",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/M0038-26-0783",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "B",
     "advertiser_type": "",
     "work_pattern": "",
     "salary_period": "",

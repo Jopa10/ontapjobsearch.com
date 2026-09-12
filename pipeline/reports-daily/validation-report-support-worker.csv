@@ -3,10 +3,10 @@ total rows input,10000
 total rows included,49
 total rows dropped,9950
 title classification count - HIGH_CONFIDENCE,124
-title classification count - ELASTIC_FIT,35
+title classification count - ELASTIC_FIT,36
 title classification count - REVIEW_CONTEXT_DEPENDENT,10
-title classification count - HARD_PASS,4602
-title classification count - OUT_OF_SCOPE,5229
+title classification count - HARD_PASS,4592
+title classification count - OUT_OF_SCOPE,5238
 selection scenario - Yorkshire - West,SCENARIO_4_BELOW_PUBLISH_THRESHOLD
 selection message - Yorkshire - West,Yorkshire - West selection below publish threshold: 2/6 credible roles. Do not publish/refresh this slice from this run.
 credible total - Yorkshire - West,2
@@ -32,21 +32,21 @@ other elastic count - North East,0
 total rows output - North East,0
 job_id included - North East,
 selection scenario - Sussex,SCENARIO_4_BELOW_PUBLISH_THRESHOLD
-selection message - Sussex,Sussex selection below publish threshold: 2/6 credible roles. Do not publish/refresh this slice from this run.
-credible total - Sussex,2
+selection message - Sussex,Sussex selection below publish threshold: 3/6 credible roles. Do not publish/refresh this slice from this run.
+credible total - Sussex,3
 high confidence count - Sussex,2
 anchor elastic count - Sussex,0
-other elastic count - Sussex,0
-total rows output - Sussex,2
-job_id included - Sussex,23643_225552397; 23643_225567530
+other elastic count - Sussex,1
+total rows output - Sussex,3
+job_id included - Sussex,23643_225552397; 23643_225567530; 107785691
 selection scenario - Cumbria - South,SCENARIO_4_BELOW_PUBLISH_THRESHOLD
-selection message - Cumbria - South,Cumbria - South selection below publish threshold: 4/6 credible roles. Do not publish/refresh this slice from this run.
-credible total - Cumbria - South,4
+selection message - Cumbria - South,Cumbria - South selection below publish threshold: 3/6 credible roles. Do not publish/refresh this slice from this run.
+credible total - Cumbria - South,3
 high confidence count - Cumbria - South,0
-anchor elastic count - Cumbria - South,1
+anchor elastic count - Cumbria - South,0
 other elastic count - Cumbria - South,3
-total rows output - Cumbria - South,4
-job_id included - Cumbria - South,107911831; 25362_JR105035; 25362_JR105081; 107950046
+total rows output - Cumbria - South,3
+job_id included - Cumbria - South,25362_JR105035; 25362_JR105081; 107950046
 selection scenario - Hampshire,SCENARIO_3_MANUAL_SELECTION_APPLIED
 selection message - Hampshire,Hampshire manual_select applied additively: 2 row(s) prioritised; 11 selected.
 credible total - Hampshire,11
@@ -64,13 +64,13 @@ other elastic count - Kent,0
 total rows output - Kent,3
 job_id included - Kent,1402264062; 1851265; 1877396
 selection scenario - London,SCENARIO_3_MANUAL_SELECTION_APPLIED
-selection message - London,London manual_select applied additively: 4 row(s) prioritised; 19 selected.
-credible total - London,19
-high confidence count - London,13
+selection message - London,London manual_select applied additively: 4 row(s) prioritised; 20 selected.
+credible total - London,20
+high confidence count - London,14
 anchor elastic count - London,0
 other elastic count - London,2
-total rows output - London,19
-job_id included - London,23643_225572316; 23643_225574825; 1834903; 23643_225516212; 23643_225572376; 23643_225574128; 23643_225579170; 1880232; 1878281; 107885503; 23643_224986550; 23643_225535652; 1815970; 2050890; 2049999; 2052022; 23643_225574359; 23643_225513634; 23643_225575334
+total rows output - London,20
+job_id included - London,23643_225572316; 23643_225574825; 1834903; 23643_225516212; 23643_225572376; 23643_225574128; 23643_225579170; 1880232; 1878281; 107885503; 1898675; 23643_224986550; 23643_225535652; 1815970; 2050890; 2049999; 2052022; 23643_225574359; 23643_225513634; 23643_225575334
 selection scenario - Oxfordshire,SCENARIO_4_BELOW_PUBLISH_THRESHOLD
 selection message - Oxfordshire,Oxfordshire selection below publish threshold: 3/6 credible roles. Do not publish/refresh this slice from this run.
 credible total - Oxfordshire,3
@@ -88,10 +88,10 @@ other elastic count - Surrey,0
 total rows output - Surrey,1
 job_id included - Surrey,23643_225534852
 selection scenario - Wiltshire,SCENARIO_4_BELOW_PUBLISH_THRESHOLD
-selection message - Wiltshire,Wiltshire selection below publish threshold: 4/6 credible roles. Do not publish/refresh this slice from this run.
-credible total - Wiltshire,4
-high confidence count - Wiltshire,3
+selection message - Wiltshire,Wiltshire selection below publish threshold: 3/6 credible roles. Do not publish/refresh this slice from this run.
+credible total - Wiltshire,3
+high confidence count - Wiltshire,2
 anchor elastic count - Wiltshire,0
 other elastic count - Wiltshire,1
-total rows output - Wiltshire,4
-job_id included - Wiltshire,1787836; 1877369; 107936277; 23643_225549480
+total rows output - Wiltshire,3
+job_id included - Wiltshire,1877369; 107936277; 23643_225549480
