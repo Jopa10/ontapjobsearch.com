@@ -4,7 +4,7 @@
 - Live route: `/hull/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 11
+- Effective included jobs: 9
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 11
-- automatic review: 4
+- automatic include: 9
+- automatic review: 3
 - automatic exclude: 0
-- effective include: 11
-- effective review: 4
+- effective include: 9
+- effective review: 3
 - effective exclude: 0
 
-## INCLUDE (11)
+## INCLUDE (9)
 
 ---
 action: 
@@ -53,6 +53,18 @@ action:
 decision: include
 automatic_decision: include
 title: Administrator
+company: Hull University Teaching Hospitals NHS Trust
+location: Hull, HU1 3TD
+source: NHS Jobs
+job_id: nhs-5595156
+reason: Approved conservative Hull launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administrator
 company: Stafforce Ports - Agency - Temporary
 location: Hull
 source: JobG8
@@ -69,18 +81,6 @@ company: Consortium Professional Recruitment Ltd - Agency - Permanent
 location: Hull
 source: JobG8
 job_id: jobg8-23643_225516073
-reason: Approved conservative Hull launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Finance Administrator
-company: Holderness Health
-location: Hedon, HU12 8JE, HULL, HU12 8JD, Patrington, HU12 0PH, HULL, HU12 0LF, WITHERNSEA, HU19 2PZ, HULL, HU12 9RA, HULL, HU9 5NX
-source: NHS Jobs
-job_id: nhs-5588186
 reason: Approved conservative Hull launch catchment.
 ---
 
@@ -124,30 +124,6 @@ reason: Approved conservative Hull launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Quotations & Estimating Coordinator
-company: KD Recruitment Limited - Agency - Permanent
-location: Hull
-source: JobG8
-job_id: jobg8-107894712
-reason: Approved conservative Hull launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Receptionist
-company: The Oaks Medical Centre
-location: Hull, HU4 6RF
-source: NHS Jobs
-job_id: nhs-5570885
-reason: Approved conservative Hull launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Sales Administrator
 company: Edwards & Pearce - Agency - Permanent
 location: Hull
@@ -156,7 +132,7 @@ job_id: jobg8-23643_225511107
 reason: Approved conservative Hull launch catchment.
 ---
 
-## REVIEW (4)
+## REVIEW (3)
 
 ---
 action: 
@@ -179,18 +155,6 @@ company: Rullion Managed Services - Agency - Contract
 location: Goole
 source: JobG8
 job_id: jobg8-23643_225569870
-reason: No approved Hull catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Part time Office and Accounts Administrator - Hessle
-company: Office Angels - Agency - Permanent
-location: Hessle
-source: JobG8
-job_id: jobg8-23643_225499018
 reason: No approved Hull catchment rule matched; local review required.
 ---
 

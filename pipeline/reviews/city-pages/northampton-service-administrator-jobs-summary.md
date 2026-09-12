@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 5
-- automatic review: 14
+- automatic review: 15
 - automatic exclude: 0
 - effective include: 5
-- effective review: 14
+- effective review: 15
 - effective exclude: 0
 
 ## INCLUDE (5)
@@ -84,7 +84,19 @@ job_id: jobg8-107932522
 reason: Exact approved Northampton workplace.
 ---
 
-## REVIEW (14)
+## REVIEW (15)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Administrator
+company: Rise Technical Recruitment - Agency - Permanent
+location: Northamptonshire
+source: JobG8
+job_id: jobg8-23643_225597898
+reason: No exact Northampton workplace matched; local geographic review is required.
+---
 
 ---
 action: 
@@ -119,6 +131,18 @@ company: Bush and Company Rehabilitation - Agency - Permanent
 location: Northamptonshire
 source: JobG8
 job_id: jobg8-1875317
+reason: No exact Northampton workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Commercial Sales Coordinator
+company: City Plumbing - Company - Permanent
+location: Northamptonshire
+source: JobG8
+job_id: jobg8-107957112
 reason: No exact Northampton workplace matched; local geographic review is required.
 ---
 
@@ -198,11 +222,11 @@ reason: No exact Northampton workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Project Coordinator
-company: Cameo Consultancy - Agency - Permanent
+title: Parts Advisor (Motor Industry) / Administrator
+company: AllAboutRecruitmentLtd - Agency - Permanent
 location: Northamptonshire
 source: JobG8
-job_id: jobg8-23643_225582470
+job_id: jobg8-107838008
 reason: No exact Northampton workplace matched; local geographic review is required.
 ---
 
@@ -210,11 +234,11 @@ reason: No exact Northampton workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Receptionist/Admin
-company: HIGHAM FERRERS SURGERY
-location: Rushden, NN10 8ED
+title: Receptionist
+company: Avery Healthcare Group Ltd.
+location: Kettering, NN16 9JB
 source: NHS Jobs
-job_id: nhs-5560217
+job_id: nhs-5594837
 reason: No exact Northampton workplace matched; local geographic review is required.
 ---
 
@@ -227,18 +251,6 @@ company: R&V Group Ltd - Agency - Contract
 location: Northamptonshire
 source: JobG8
 job_id: jobg8-107786406
-reason: No exact Northampton workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Sales Administrator
-company: Cameo Consultancy - Agency - Permanent
-location: Northamptonshire
-source: JobG8
-job_id: jobg8-23643_225516355
 reason: No exact Northampton workplace matched; local geographic review is required.
 ---
 

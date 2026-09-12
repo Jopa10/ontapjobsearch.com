@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 1
-- automatic review: 24
+- automatic review: 19
 - automatic exclude: 0
 - effective include: 1
-- effective review: 24
+- effective review: 19
 - effective exclude: 0
 
 ## INCLUDE (1)
@@ -36,7 +36,7 @@ job_id: jobg8-23643_225514239
 reason: Exact approved Wigston workplace.
 ---
 
-## REVIEW (24)
+## REVIEW (19)
 
 ---
 action: 
@@ -138,18 +138,6 @@ reason: No exact Wigston workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Contracting Administrator
-company: Tarmac Trading Limited - Company - Permanent
-location: Leicestershire
-source: JobG8
-job_id: jobg8-107841648
-reason: No exact Wigston workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Junior Sales Administrator
 company: Precision People - Agency - Permanent
 location: Leicester
@@ -163,34 +151,10 @@ action:
 decision: review
 automatic_decision: review
 title: Medical Receptionist
-company: Broom Leys Surgery
-location: COALVILLE, LE67 4DE
-source: NHS Jobs
-job_id: nhs-5581072
-reason: No exact Wigston workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Medical Receptionist
 company: Staff Partners Business - Agency - Permanent
 location: Leicestershire
 source: JobG8
 job_id: jobg8-23643_225592444
-reason: No exact Wigston workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: NHS Coordinator
-company: Spire Healthcare - Company - Permanent
-location: Leicestershire
-source: JobG8
-job_id: jobg8-23643_225492608
 reason: No exact Wigston workplace matched; local geographic review is required.
 ---
 
@@ -215,30 +179,6 @@ company: Regional Recruitment - Agency - Permanent
 location: Leicester
 source: JobG8
 job_id: jobg8-23643_225509571
-reason: No exact Wigston workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Order Administrator
-company: Jacob Thomas Associates - Agency - Temporary
-location: Leicestershire
-source: JobG8
-job_id: jobg8-23643_225496906
-reason: No exact Wigston workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: PA - Commercial, Technology & IP
-company: Allstaff - Agency - Permanent
-location: Leicester
-source: JobG8
-job_id: jobg8-23643_225566284
 reason: No exact Wigston workplace matched; local geographic review is required.
 ---
 

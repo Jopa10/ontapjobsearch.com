@@ -4,7 +4,7 @@
 - Live route: `/manchester/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 34
+- Effective included jobs: 33
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 34
+- automatic include: 33
 - automatic review: 8
 - automatic exclude: 1
-- effective include: 34
+- effective include: 33
 - effective review: 8
 - effective exclude: 1
 
-## INCLUDE (34)
+## INCLUDE (33)
 
 ---
 action: 
@@ -160,6 +160,18 @@ reason: Approved conservative Manchester launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Customer Service & Website Administrator
+company: NowSkills - Agency - Permanent
+location: Manchester
+source: JobG8
+job_id: jobg8-107883067
+reason: Approved conservative Manchester launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Data & Exams Officer
 company: Eden Girls' Leadership Academy, Manchester
 location: Manchester
@@ -213,18 +225,6 @@ company: The Limes Medical Centre
 location: Manchester, M28 3AT
 source: NHS Jobs
 job_id: nhs-5586117
-reason: Approved conservative Manchester launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Growth Marketing Manager
-company: Mydentist - Company - Permanent
-location: Manchester
-source: JobG8
-job_id: jobg8-107777034
 reason: Approved conservative Manchester launch catchment.
 ---
 
@@ -316,6 +316,18 @@ reason: Approved conservative Manchester launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Medical Receptionist
+company: Boothstown Medical Centre
+location: Manchester, M29 8RZ
+source: NHS Jobs
+job_id: nhs-5585993
+reason: Approved conservative Manchester launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Medical Receptionist & Administrator
 company: Parkside Medical Centre
 location: Manchester, M12 5RU
@@ -376,18 +388,6 @@ reason: Approved conservative Manchester launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Receptionist
-company: Cherry Medical Practice
-location: Manchester, M28 0BB
-source: NHS Jobs
-job_id: nhs-5572945
-reason: Approved conservative Manchester launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Senior PPC Strategist
 company: We Are Fr Group - Agency - Permanent
 location: Manchester
@@ -405,18 +405,6 @@ company: Oscar Associates (UK) Limited - Agency - Permanent
 location: Manchester
 source: JobG8
 job_id: jobg8-107939504
-reason: Approved conservative Manchester launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: SEO Specialist
-company: We Are Fr Group - Agency - Permanent
-location: Manchester
-source: JobG8
-job_id: jobg8-107938648
 reason: Approved conservative Manchester launch catchment.
 ---
 
@@ -510,11 +498,11 @@ reason: No approved Manchester catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: SEO Manager
-company: Oscar Technology - Agency - Permanent
+title: Senior People Services Administrator
+company: Great Places Housing Association - Agency - Permanent
 location: Lancashire
 source: JobG8
-job_id: jobg8-1857594
+job_id: jobg8-1895182
 reason: No approved Manchester catchment rule matched; local review required.
 ---
 
@@ -522,11 +510,11 @@ reason: No approved Manchester catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
-company: Qualify Nation Recruitment - Agency - Permanent
+title: SEO Manager
+company: Oscar Technology - Agency - Permanent
 location: Lancashire
 source: JobG8
-job_id: jobg8-1887986
+job_id: jobg8-1857594
 reason: No approved Manchester catchment rule matched; local review required.
 ---
 

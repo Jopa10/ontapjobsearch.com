@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 6
-- automatic review: 10
-- automatic exclude: 16
+- automatic review: 11
+- automatic exclude: 15
 - effective include: 6
-- effective review: 10
-- effective exclude: 16
+- effective review: 11
+- effective exclude: 15
 
 ## INCLUDE (6)
 
@@ -96,7 +96,19 @@ job_id: jobg8-23643_225524539
 reason: Approved conservative Oxford launch catchment.
 ---
 
-## REVIEW (10)
+## REVIEW (11)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Administrator
+company: Flat Fee Recruiter - Agency - Permanent
+location: Banbury
+source: JobG8
+job_id: jobg8-107910649
+reason: No approved Oxford catchment rule matched; local review required.
+---
 
 ---
 action: 
@@ -119,18 +131,6 @@ company: K2 Recruitment - Agency - Temporary
 location: Bicester
 source: JobG8
 job_id: jobg8-23643_225358207
-reason: No approved Oxford catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
-company: Practice Plus Group - Health in Justice
-location: Bicester, OX25 1PZ
-source: NHS Jobs
-job_id: nhs-5570709
 reason: No approved Oxford catchment rule matched; local review required.
 ---
 
@@ -198,6 +198,18 @@ reason: No approved Oxford catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Project Coordinator
+company: Cameo Consultancy - Agency - Permanent
+location: Banbury
+source: JobG8
+job_id: jobg8-23643_225582470
+reason: No approved Oxford catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Receptionist
 company: Berry Recruitment - Agency - Permanent
 location: Didcot
@@ -218,7 +230,7 @@ job_id: jobg8-23643_225461932
 reason: No approved Oxford catchment rule matched; local review required.
 ---
 
-## EXCLUDE (16)
+## EXCLUDE (15)
 
 ---
 action: 
@@ -228,7 +240,7 @@ title: Administrator
 company: Gill Cooke Personnel Ltd T/A The Recruitment Group - Agency - Permanent
 location: Oxfordshire
 source: JobG8
-job_id: jobg8-23643_225491894
+job_id: jobg8-23643_225596501
 reason: Broad county location; not Oxford-city evidence.
 ---
 
@@ -284,11 +296,11 @@ reason: Broad county location; not Oxford-city evidence.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Ecommerce & Trading Assistant
-company: Helen and Douglas House - Agency - Permanent
+title: Ecommerce Coordinator (Customer Service, Orders & Platform Support)
+company: Prodrive - Agency - Permanent
 location: Oxfordshire
 source: JobG8
-job_id: jobg8-1824551
+job_id: jobg8-107842716
 reason: Broad county location; not Oxford-city evidence.
 ---
 
@@ -301,18 +313,6 @@ company: Plus One Recruitment - Agency - Permanent
 location: Oxfordshire
 source: JobG8
 job_id: jobg8-1789720
-reason: Broad county location; not Oxford-city evidence.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Lettings Administrator
-company: Gill Cooke Personnel Ltd T/A The Recruitment Group - Agency - Permanent
-location: Oxfordshire
-source: JobG8
-job_id: jobg8-23643_225491912
 reason: Broad county location; not Oxford-city evidence.
 ---
 

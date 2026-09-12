@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 7
-- automatic review: 59
+- automatic review: 56
 - automatic exclude: 0
 - effective include: 7
-- effective review: 59
+- effective review: 56
 - effective exclude: 0
 
 ## INCLUDE (7)
@@ -108,7 +108,7 @@ job_id: nhs-5589494
 reason: Exact approved Farnham workplace.
 ---
 
-## REVIEW (59)
+## REVIEW (56)
 
 ---
 action: 
@@ -131,18 +131,6 @@ company: Leightons Opticians & Hearing Care - Company - Permanent
 location: Surrey
 source: JobG8
 job_id: jobg8-1402264245
-reason: No exact Farnham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administration Assistant
-company: 2i Recruit Ltd - Agency - Permanent
-location: Surrey
-source: JobG8
-job_id: jobg8-1888151
 reason: No exact Farnham workplace matched; local geographic review is required.
 ---
 
@@ -286,18 +274,6 @@ title: Business Support Assistant
 company: Surrey County Council - Company - Permanent
 location: Surrey
 source: JobG8
-job_id: jobg8-23643_225491498
-reason: No exact Farnham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Business Support Assistant
-company: Surrey County Council - Company - Permanent
-location: Surrey
-source: JobG8
 job_id: jobg8-23643_225520619
 reason: No exact Farnham workplace matched; local geographic review is required.
 ---
@@ -366,18 +342,6 @@ reason: No exact Farnham workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Digital Communications Coordinator
-company: Surrey Coalition of Disabled People - Agency - Permanent
-location: Surrey
-source: JobG8
-job_id: jobg8-1892154
-reason: No exact Farnham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Event Project Coordinator
 company: Live Recruitment - Agency - Permanent
 location: Surrey
@@ -407,6 +371,30 @@ company: Upper Halliford Medical Centre
 location: Shepperton, TW17 8SY
 source: NHS Jobs
 job_id: nhs-5572182
+reason: No exact Farnham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Investment Administrator
+company: 2i Recruit Ltd - Agency - Permanent
+location: Surrey
+source: JobG8
+job_id: jobg8-1894838
+reason: No exact Farnham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Italian Sales Administrator
+company: Workshop Recruitment - Agency - Permanent
+location: Surrey
+source: JobG8
+job_id: jobg8-23643_225593915
 reason: No exact Farnham workplace matched; local geographic review is required.
 ---
 
@@ -479,18 +467,6 @@ company: Compass UK & Ireland - Company - Permanent
 location: Epsom
 source: JobG8
 job_id: jobg8-107892566
-reason: No exact Farnham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Medical Receptionist
-company: The House Partnership
-location: Merstham, RH1 3PN, Redhill, RH1 1EB
-source: NHS Jobs
-job_id: nhs-5556013
 reason: No exact Farnham workplace matched; local geographic review is required.
 ---
 
@@ -587,18 +563,6 @@ company: Surrey County Council - Company - Permanent
 location: Surrey
 source: JobG8
 job_id: jobg8-23643_225538742
-reason: No exact Farnham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Organic Social and Content Specialist
-company: RecruitedUK - Agency - Permanent
-location: Woking
-source: JobG8
-job_id: jobg8-23643_225494575
 reason: No exact Farnham workplace matched; local geographic review is required.
 ---
 

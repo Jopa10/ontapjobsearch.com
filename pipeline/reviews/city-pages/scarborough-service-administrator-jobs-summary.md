@@ -4,7 +4,7 @@
 - Live route: `/scarborough/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 1
+- Effective included jobs: 0
 - Threshold currently met: no
 
 ## How to review
@@ -15,28 +15,16 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 1
-- automatic review: 16
+- automatic include: 0
+- automatic review: 13
 - automatic exclude: 0
-- effective include: 1
-- effective review: 16
+- effective include: 0
+- effective review: 13
 - effective exclude: 0
 
-## INCLUDE (1)
+## INCLUDE (0)
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Senior Administrator
-company: Braeburn Primary and Nursery Academy
-location: Scarborough
-source: Teaching Vacancies
-job_id: teaching-vacancies-senior-administrator-braeburn-primary-and-nursery-academy-scarborough-north-yorkshire
-reason: Exact approved Scarborough workplace.
----
-
-## REVIEW (16)
+## REVIEW (13)
 
 ---
 action: 
@@ -70,7 +58,7 @@ title: Assessment Administration Coordinator
 company: Advance HE - Agency - Permanent
 location: York
 source: JobG8
-job_id: jobg8-23643_225543992
+job_id: jobg8-107909020
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 
@@ -78,11 +66,11 @@ reason: No exact Scarborough workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Design, Artwork & Social Media Co-ordinator
-company: KD Recruitment Limited - Agency - Permanent
+title: Assessment Administration Coordinator
+company: Advance HE - Agency - Permanent
 location: York
 source: JobG8
-job_id: jobg8-107840612
+job_id: jobg8-23643_225543992
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 
@@ -95,30 +83,6 @@ company: MTrec Technical - Agency - Permanent
 location: Northallerton
 source: JobG8
 job_id: jobg8-107893393
-reason: No exact Scarborough workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Distribution Coordinator
-company: SI Recruitment - Agency - Permanent
-location: Northallerton
-source: JobG8
-job_id: jobg8-107893306
-reason: No exact Scarborough workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Executive Assistant
-company: 4Recruitment Services - Agency - Contract
-location: York
-source: JobG8
-job_id: jobg8-23643_225490386
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 
@@ -191,18 +155,6 @@ company: Askwith Primary School
 location: Otley
 source: Teaching Vacancies
 job_id: teaching-vacancies-school-office-administrator-askwith-primary-school
-reason: No exact Scarborough workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Team Administrator
-company: Tees Esk and Wear Valleys NHS Foundation Trust
-location: Northallerton, DL6 2FG
-source: NHS Jobs
-job_id: nhs-5570734
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 

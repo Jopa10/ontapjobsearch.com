@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 2
-- automatic review: 11
+- automatic review: 10
 - automatic exclude: 0
 - effective include: 2
-- effective review: 11
+- effective review: 10
 - effective exclude: 0
 
 ## INCLUDE (2)
@@ -48,7 +48,7 @@ job_id: teaching-vacancies-administration-assistant-inclusion-and-people
 reason: Exact approved Shrewsbury workplace.
 ---
 
-## REVIEW (11)
+## REVIEW (10)
 
 ---
 action: 
@@ -114,23 +114,11 @@ reason: No exact Shrewsbury workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Housing Repairs Administrator
-company: Thorngate Churcher Trust - Agency - Permanent
-location: Shropshire
+title: Part Time Accounts Administrator 12 Month FTC
+company: Office Angels - Agency - Temporary
+location: Wellington
 source: JobG8
-job_id: jobg8-23643_225537561
-reason: No exact Shrewsbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Part time Receptionist
-company: Hays Business Support - Agency - Permanent
-location: Shropshire
-source: JobG8
-job_id: jobg8-23643_225571266
+job_id: jobg8-23643_225595351
 reason: No exact Shrewsbury workplace matched; local geographic review is required.
 ---
 

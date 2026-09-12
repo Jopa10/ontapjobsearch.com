@@ -4,7 +4,7 @@
 - Live route: `/maidstone/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 2
+- Effective included jobs: 1
 - Threshold currently met: no
 
 ## How to review
@@ -15,26 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 2
-- automatic review: 50
+- automatic include: 1
+- automatic review: 54
 - automatic exclude: 0
-- effective include: 2
-- effective review: 50
+- effective include: 1
+- effective review: 54
 - effective exclude: 0
 
-## INCLUDE (2)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrator
-company: Huntress - Maidstone - Agency - Permanent
-location: Maidstone
-source: JobG8
-job_id: jobg8-23643_225498641
-reason: Exact approved Maidstone workplace.
----
+## INCLUDE (1)
 
 ---
 action: 
@@ -48,7 +36,7 @@ job_id: nhs-5592074
 reason: Exact approved Maidstone workplace.
 ---
 
-## REVIEW (50)
+## REVIEW (54)
 
 ---
 action: 
@@ -91,10 +79,10 @@ action:
 decision: review
 automatic_decision: review
 title: Administrator
-company: Invicta Health CIC
-location: Ramsgate, CT11 8AD
-source: NHS Jobs
-job_id: nhs-5576342
+company: Interaction Recruitment - Agency - Temporary
+location: Rochester
+source: JobG8
+job_id: jobg8-23643_225597318
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 
@@ -127,22 +115,10 @@ action:
 decision: review
 automatic_decision: review
 title: Administrator
-company: RG Setsquare - Agency - Contract
-location: Kent
-source: JobG8
-job_id: jobg8-23643_225498937
-reason: No exact Maidstone workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Admissions Officer
-company: The University Of Kent Academies Trust
-location: Gillingham
-source: Teaching Vacancies
-job_id: teaching-vacancies-admissions-officer-the-university-of-kent-academies-trust
+company: Kent and Medway Mental Health NHS Trust
+location: Dartford, DA1 2EN
+source: NHS Jobs
+job_id: nhs-5594972
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 
@@ -162,11 +138,35 @@ reason: No exact Maidstone workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
+title: Contract Administrator (Property) - Fixed Term
+company: West Kent Housing Association - Agency - Contract
+location: Kent
+source: JobG8
+job_id: jobg8-107972755
+reason: No exact Maidstone workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Customer Account Coordinator 25 days A/L+Friday finish 1:30pm
 company: Office Angels - Agency - Permanent
 location: Whitstable
 source: JobG8
 job_id: jobg8-23643_225558646
+reason: No exact Maidstone workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Customer Experience Coordinator
+company: Hamilton Woods - Agency - Temporary
+location: Kent
+source: JobG8
+job_id: jobg8-107825703
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 
@@ -227,6 +227,18 @@ company: Waterfront UTC
 location: Chatham
 source: Teaching Vacancies
 job_id: teaching-vacancies-examinations-admissions-officer
+reason: No exact Maidstone workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Exhibitor & Commercial Coordinator
+company: New Appointments Group - Agency - Permanent
+location: Kent
+source: JobG8
+job_id: jobg8-23643_225595153
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 
@@ -323,6 +335,18 @@ company: Reed - Agency - Permanent
 location: Kent
 source: JobG8
 job_id: jobg8-1817573
+reason: No exact Maidstone workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Marketing Account Executive - Kent - To &;30K
+company: Jump IT Recruitment Solutions Ltd - Agency - Permanent
+location: Kent
+source: JobG8
+job_id: jobg8-1898298
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 
@@ -587,6 +611,18 @@ company: Morgan Jones Recruitment Consultants - Agency - Permanent
 location: Kent
 source: JobG8
 job_id: jobg8-23643_225587090
+reason: No exact Maidstone workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Sales Operations Coordinator
+company: Huntress - Maidstone - Agency - Permanent
+location: Sittingbourne
+source: JobG8
+job_id: jobg8-23643_225594518
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 

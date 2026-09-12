@@ -16,25 +16,13 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 48
-- automatic review: 29
+- automatic review: 28
 - automatic exclude: 25
 - effective include: 48
-- effective review: 29
+- effective review: 28
 - effective exclude: 25
 
 ## INCLUDE (48)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administration Assistant
-company: Cumbria, Northumberland, Tyne and wear (CNTW) NHS Foundation Trust
-location: Gateshead, NE10 8DX
-source: NHS Jobs
-job_id: nhs-5568696
-reason: Approved Newcastle catchment.
----
 
 ---
 action: 
@@ -508,6 +496,18 @@ reason: Approved Newcastle catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Front of House Receptionist / Information Officer
+company: Newcastle and Stafford Colleges Group - Agency - Permanent
+location: Newcastle
+source: JobG8
+job_id: jobg8-107969732
+reason: Approved Newcastle catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: GP Receptionist
 company: Brunton Park Health Centre
 location: Newcastle Upon Tyne, NE3 5NF
@@ -600,7 +600,7 @@ job_id: nhs-5576748
 reason: Approved Newcastle catchment.
 ---
 
-## REVIEW (29)
+## REVIEW (28)
 
 ---
 action: 
@@ -726,6 +726,18 @@ reason: No approved Newcastle catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Customer Service Coordinator
+company: Graphic Packaging International Box Holdings Limited - Agency - Permanent
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-107922239
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Customer Service Representative
 company: EE - Company - Permanent
 location: Hebburn
@@ -743,18 +755,6 @@ company: Persimmon Homes - Agency - Permanent
 location: Tyne And Wear
 source: JobG8
 job_id: jobg8-107869330
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Ecommerce Account Manager
-company: Nigel Wright Group - Agency - Permanent
-location: Tyne And Wear
-source: JobG8
-job_id: jobg8-1704606
 reason: Broad location; review before city inclusion.
 ---
 
@@ -870,12 +870,12 @@ reason: No approved Newcastle catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Social Media Coordinator
-company: Bellway Homes - Agency - Contract
-location: Tyne And Wear
-source: JobG8
-job_id: jobg8-107953124
-reason: Broad location; review before city inclusion.
+title: Senior Administrator- Medical Secretary
+company: Tees Esk and Wear Valleys NHS Foundation Trust
+location: Chester le Street, DH3 3UR
+source: NHS Jobs
+job_id: nhs-5563197
+reason: No approved Newcastle catchment rule matched; local review required.
 ---
 
 ---
@@ -912,18 +912,6 @@ location: Eddie Ferguson House, Blyth, United Kingdom
 source: NEJobs
 job_id: nejobs-301243
 reason: No approved Newcastle catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
-company: Qualify Nation Recruitment - Agency - Permanent
-location: Tyne And Wear
-source: JobG8
-job_id: jobg8-1887987
-reason: Broad location; review before city inclusion.
 ---
 
 ---
@@ -992,6 +980,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Administration Coordinator Facilities
+company: Anabas. - Agency - Permanent
+location: Darlington
+source: JobG8
+job_id: jobg8-107972351
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Administrative Assistant
 company: Blu Tech consulting - Agency - Contract
 location: County Durham
@@ -1045,18 +1045,6 @@ company: Tees Esk and Wear Valleys NHS Foundation Trust
 location: Durham, DH1 5RD
 source: NHS Jobs
 job_id: nhs-5591916
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Customer Experience Coordinator
-company: Linear Recruitment Ltd - Agency - Contract
-location: Sunderland
-source: JobG8
-job_id: jobg8-23643_225494451
 reason: Separate employment market.
 ---
 

@@ -53,10 +53,10 @@ action:
 decision: include
 automatic_decision: include
 title: Customer Service/Export Co-ordinator
-company: Hays Business Support - Agency - Permanent
+company: Hays - Agency - Permanent
 location: Sheffield
 source: JobG8
-job_id: jobg8-23643_225574970
+job_id: jobg8-107946644
 reason: Approved Sheffield catchment.
 ---
 
@@ -64,11 +64,11 @@ reason: Approved Sheffield catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Data Administrator
-company: Hays Business Support - Agency - Temporary
+title: Customer Service/Export Co-ordinator
+company: Hays Business Support - Agency - Permanent
 location: Sheffield
 source: JobG8
-job_id: jobg8-23643_225571785
+job_id: jobg8-23643_225574970
 reason: Approved Sheffield catchment.
 ---
 

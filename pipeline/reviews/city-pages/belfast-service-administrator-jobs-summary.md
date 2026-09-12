@@ -4,7 +4,7 @@
 - Live route: `/belfast/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 45
+- Effective included jobs: 47
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 45
-- automatic review: 22
+- automatic include: 47
+- automatic review: 21
 - automatic exclude: 0
-- effective include: 45
-- effective review: 22
+- effective include: 47
+- effective review: 21
 - effective exclude: 0
 
-## INCLUDE (45)
+## INCLUDE (47)
 
 ---
 action: 
@@ -172,11 +172,35 @@ reason: Approved conservative Belfast launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Crematorium Administrator
+company: Platinum Recruitment - Agency - Permanent
+location: Belfast
+source: JobG8
+job_id: jobg8-2052558
+reason: Approved conservative Belfast launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Customer Service Administrator
 company: Honeycomb Jobs Ltd - Agency - Permanent
 location: Belfast
 source: JobG8
 job_id: jobg8-2051456
+reason: Approved conservative Belfast launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Customer Service Advisor - Arc Room
+company: Brook Street UK - Agency - Permanent
+location: Belfast
+source: JobG8
+job_id: jobg8-107836604
 reason: Approved conservative Belfast launch catchment.
 ---
 
@@ -213,18 +237,6 @@ company: MPA Recruitment - Agency - Permanent
 location: Belfast
 source: JobG8
 job_id: jobg8-2049841
-reason: Approved conservative Belfast launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Finance Administrator
-company: Reed Specialist Recruitment - Agency - Permanent
-location: Belfast
-source: JobG8
-job_id: jobg8-2049783
 reason: Approved conservative Belfast launch catchment.
 ---
 
@@ -460,6 +472,18 @@ reason: Approved conservative Belfast launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Receptionist with Clerical Duties
+company: MPA Recruitment - Agency - Permanent
+location: Belfast
+source: JobG8
+job_id: jobg8-2052503
+reason: Approved conservative Belfast launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Safety Administrator (Belfast - Temporary)
 company: Honeycomb Jobs Ltd - Agency - Permanent
 location: Belfast
@@ -564,7 +588,7 @@ job_id: jobg8-2052364
 reason: Approved conservative Belfast launch catchment.
 ---
 
-## REVIEW (22)
+## REVIEW (21)
 
 ---
 action: 
@@ -791,18 +815,6 @@ company: Honeycomb Jobs Ltd - Agency - Permanent
 location: Holywood
 source: JobG8
 job_id: jobg8-2052024
-reason: No approved Belfast catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Sales Administrator
-company: Bluestones Staffing N.I.Limited - Agency - Temporary
-location: Banbridge
-source: JobG8
-job_id: jobg8-107949205
 reason: No approved Belfast catchment rule matched; local review required.
 ---
 

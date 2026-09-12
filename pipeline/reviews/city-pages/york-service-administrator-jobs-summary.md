@@ -4,7 +4,7 @@
 - Live route: `/york/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 5
+- Effective included jobs: 4
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,26 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 5
+- automatic include: 4
 - automatic review: 5
-- automatic exclude: 7
-- effective include: 5
+- automatic exclude: 4
+- effective include: 4
 - effective review: 5
-- effective exclude: 7
+- effective exclude: 4
 
-## INCLUDE (5)
+## INCLUDE (4)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Assessment Administration Coordinator
+company: Advance HE - Agency - Permanent
+location: York
+source: JobG8
+job_id: jobg8-107909020
+reason: Approved York catchment.
+---
 
 ---
 action: 
@@ -33,30 +45,6 @@ company: Advance HE - Agency - Permanent
 location: York
 source: JobG8
 job_id: jobg8-23643_225543992
-reason: Approved York catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Design, Artwork & Social Media Co-ordinator
-company: KD Recruitment Limited - Agency - Permanent
-location: York
-source: JobG8
-job_id: jobg8-107840612
-reason: Approved York catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Executive Assistant
-company: 4Recruitment Services - Agency - Contract
-location: York
-source: JobG8
-job_id: jobg8-23643_225490386
 reason: Approved York catchment.
 ---
 
@@ -146,7 +134,7 @@ job_id: jobg8-23643_225581619
 reason: No approved York catchment rule matched; local review required.
 ---
 
-## EXCLUDE (7)
+## EXCLUDE (4)
 
 ---
 action: 
@@ -188,46 +176,10 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Distribution Coordinator
-company: SI Recruitment - Agency - Permanent
-location: Northallerton
-source: JobG8
-job_id: jobg8-107893306
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Executive Assistant
 company: Hays Business Support - Agency - Permanent
 location: Northallerton
 source: JobG8
 job_id: jobg8-23643_225555701
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Senior Administrator
-company: Braeburn Primary and Nursery Academy
-location: Scarborough
-source: Teaching Vacancies
-job_id: teaching-vacancies-senior-administrator-braeburn-primary-and-nursery-academy-scarborough-north-yorkshire
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Team Administrator
-company: Tees Esk and Wear Valleys NHS Foundation Trust
-location: Northallerton, DL6 2FG
-source: NHS Jobs
-job_id: nhs-5570734
 reason: Separate employment market.
 ---

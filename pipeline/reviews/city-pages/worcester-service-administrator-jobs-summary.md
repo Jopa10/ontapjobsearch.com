@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 3
-- automatic review: 9
+- automatic review: 8
 - automatic exclude: 0
 - effective include: 3
-- effective review: 9
+- effective review: 8
 - effective exclude: 0
 
 ## INCLUDE (3)
@@ -60,7 +60,7 @@ job_id: nhs-5541739
 reason: Exact approved Worcester workplace.
 ---
 
-## REVIEW (9)
+## REVIEW (8)
 
 ---
 action: 
@@ -119,18 +119,6 @@ company: Davies Group - Agency - Permanent
 location: Worcestershire
 source: JobG8
 job_id: jobg8-1879674
-reason: No exact Worcester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Part Time Salon Receptionist
-company: Workforce Staffing Ltd - Agency - Permanent
-location: Redditch
-source: JobG8
-job_id: jobg8-23643_225491387
 reason: No exact Worcester workplace matched; local geographic review is required.
 ---
 

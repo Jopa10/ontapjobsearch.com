@@ -4,7 +4,7 @@
 - Live route: `/poole/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 1
+- Effective included jobs: 0
 - Threshold currently met: no
 
 ## How to review
@@ -15,28 +15,16 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 1
-- automatic review: 12
+- automatic include: 0
+- automatic review: 13
 - automatic exclude: 0
-- effective include: 1
-- effective review: 12
+- effective include: 0
+- effective review: 13
 - effective exclude: 0
 
-## INCLUDE (1)
+## INCLUDE (0)
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Account Coordinator - Part Time
-company: Staffline Operations - Agency - Temporary
-location: Poole
-source: JobG8
-job_id: jobg8-107779296
-reason: Exact approved Poole workplace.
----
-
-## REVIEW (12)
+## REVIEW (13)
 
 ---
 action: 
@@ -119,6 +107,18 @@ company: MYO Talent - Agency - Permanent
 location: Dorset
 source: JobG8
 job_id: jobg8-1860803
+reason: No exact Poole workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Customer Operations Coordinator
+company: Team Jobs - Commercial - Agency - Permanent
+location: Bournemouth
+source: JobG8
+job_id: jobg8-23643_225598865
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 

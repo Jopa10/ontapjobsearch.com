@@ -54,18 +54,6 @@ reason: Exact approved Gloucester workplace.
 action: 
 decision: review
 automatic_decision: review
-title: Administrator
-company: BMSL Group Ltd - Agency - Permanent
-location: Gloucestershire
-source: JobG8
-job_id: jobg8-23643_225321490
-reason: No exact Gloucester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Brand Marketing Manager
 company: Gardiner Bros and Company (leathers) Ltd - Agency - Permanent
 location: Gloucestershire
@@ -83,6 +71,18 @@ company: First Base - Agency - Permanent
 location: Dursley
 source: JobG8
 job_id: jobg8-23643_225565670
+reason: No exact Gloucester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Customer Service & Office Coordinator Full / Part Time
+company: Anderson Recruitment - Agency - Permanent
+location: Gloucestershire
+source: JobG8
+job_id: jobg8-107789458
 reason: No exact Gloucester workplace matched; local geographic review is required.
 ---
 
@@ -131,6 +131,30 @@ company: Anderson Recruitment - Agency - Permanent
 location: Gloucestershire
 source: JobG8
 job_id: jobg8-107864211
+reason: No exact Gloucester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Insurance Accounts Administrator
+company: i2i Recruitment Consultancy - Agency - Permanent
+location: Gloucestershire
+source: JobG8
+job_id: jobg8-1897570
+reason: No exact Gloucester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: IS Management Coordinator
+company: Safran - Agency - Permanent
+location: Gloucestershire
+source: JobG8
+job_id: jobg8-107831167
 reason: No exact Gloucester workplace matched; local geographic review is required.
 ---
 
@@ -270,18 +294,6 @@ reason: No exact Gloucester workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Sales Coordinator
-company: Last Mile Infrastructure Limited - Agency - Permanent
-location: Gloucestershire
-source: JobG8
-job_id: jobg8-107900135
-reason: No exact Gloucester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Sales Support Executive
 company: Usay Compare - Agency - Permanent
 location: Gloucestershire
@@ -299,18 +311,6 @@ company: First Base - Agency - Permanent
 location: Cirencester
 source: JobG8
 job_id: jobg8-23643_225522823
-reason: No exact Gloucester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Service Advisor
-company: Reactive Permanent Recruitment - Agency - Permanent
-location: Gloucestershire
-source: JobG8
-job_id: jobg8-23643_225489837
 reason: No exact Gloucester workplace matched; local geographic review is required.
 ---
 

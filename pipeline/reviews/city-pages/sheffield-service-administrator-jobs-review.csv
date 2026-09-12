@@ -1,8 +1,8 @@
 decision,job_id,title,company,location,source,automatic_decision,effective_decision,reason,matched_rule,city_key
 include,jobg8-23643_225469996,Accounts Assistant,Sue Ross Recruitment Ltd - Agency - Permanent,Sheffield,JobG8,include,include,Approved Sheffield catchment.,sheffield,sheffield-service-administrator-jobs
 include,teaching-vacancies-admin-clerical-officer-level-2-rowan-school,Admin & Clerical Officer Level 2 Rowan School,The Rowan School,Sheffield,Teaching Vacancies,include,include,Approved Sheffield catchment.,sheffield,sheffield-service-administrator-jobs
+include,jobg8-107946644,Customer Service/Export Co-ordinator,Hays - Agency - Permanent,Sheffield,JobG8,include,include,Approved Sheffield catchment.,sheffield,sheffield-service-administrator-jobs
 include,jobg8-23643_225574970,Customer Service/Export Co-ordinator,Hays Business Support - Agency - Permanent,Sheffield,JobG8,include,include,Approved Sheffield catchment.,sheffield,sheffield-service-administrator-jobs
-include,jobg8-23643_225571785,Data Administrator,Hays Business Support - Agency - Temporary,Sheffield,JobG8,include,include,Approved Sheffield catchment.,sheffield,sheffield-service-administrator-jobs
 include,jobg8-23643_225546545,Executive Assistant,Sue Ross Recruitment Ltd - Agency - Contract,Sheffield,JobG8,include,include,Approved Sheffield catchment.,sheffield,sheffield-service-administrator-jobs
 include,jobg8-23643_225522912,Operations Administrator,Sue Ross Recruitment Ltd - Agency - Permanent,Sheffield,JobG8,include,include,Approved Sheffield catchment.,sheffield,sheffield-service-administrator-jobs
 include,teaching-vacancies-permanent-admin-assistant,Permanent Admin Assistant,Wybourn Community Primary & Nursery School,Sheffield,Teaching Vacancies,include,include,Approved Sheffield catchment.,sheffield,sheffield-service-administrator-jobs

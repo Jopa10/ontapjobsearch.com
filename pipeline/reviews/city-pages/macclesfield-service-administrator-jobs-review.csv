@@ -1,5 +1,4 @@
 decision,job_id,title,company,location,source,automatic_decision,effective_decision,reason,matched_rule,city_key
-include,nhs-5568463,GP Receptionist/Administrator,Broken Cross Surgery,"Macclesfield, SK11 6JL",NHS Jobs,include,include,Exact approved Macclesfield workplace.,exact:macclesfield,macclesfield-service-administrator-jobs
 include,jobg8-23643_225584385,Graduate Town Planner,Penguin Recruitment - Agency - Permanent,Macclesfield,JobG8,include,include,Exact approved Macclesfield workplace.,exact:macclesfield,macclesfield-service-administrator-jobs
 include,jobg8-23643_225567144,Medical Receptionist,Adecco - Agency - Temporary,Macclesfield,JobG8,include,include,Exact approved Macclesfield workplace.,exact:macclesfield,macclesfield-service-administrator-jobs
 include,jobg8-23643_225512252,Purchasing / Buying Administrator,RoBAT Limited - Agency - Permanent,Macclesfield,JobG8,include,include,Exact approved Macclesfield workplace.,exact:macclesfield,macclesfield-service-administrator-jobs

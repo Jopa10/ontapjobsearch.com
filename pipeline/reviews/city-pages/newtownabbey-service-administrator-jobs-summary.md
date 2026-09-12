@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 5
-- automatic review: 62
+- automatic review: 63
 - automatic exclude: 0
 - effective include: 5
-- effective review: 62
+- effective review: 63
 - effective exclude: 0
 
 ## INCLUDE (5)
@@ -84,7 +84,7 @@ job_id: jobg8-2050449
 reason: Exact approved Newtownabbey workplace.
 ---
 
-## REVIEW (62)
+## REVIEW (63)
 
 ---
 action: 
@@ -294,11 +294,35 @@ reason: No exact Newtownabbey workplace matched; local geographic review is requ
 action: 
 decision: review
 automatic_decision: review
+title: Crematorium Administrator
+company: Platinum Recruitment - Agency - Permanent
+location: Belfast
+source: JobG8
+job_id: jobg8-2052558
+reason: No exact Newtownabbey workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Customer Service Administrator
 company: Honeycomb Jobs Ltd - Agency - Permanent
 location: Belfast
 source: JobG8
 job_id: jobg8-2051456
+reason: No exact Newtownabbey workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Customer Service Advisor - Arc Room
+company: Brook Street UK - Agency - Permanent
+location: Belfast
+source: JobG8
+job_id: jobg8-107836604
 reason: No exact Newtownabbey workplace matched; local geographic review is required.
 ---
 
@@ -335,18 +359,6 @@ company: MPA Recruitment - Agency - Permanent
 location: Belfast
 source: JobG8
 job_id: jobg8-2049841
-reason: No exact Newtownabbey workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Finance Administrator
-company: Reed Specialist Recruitment - Agency - Permanent
-location: Belfast
-source: JobG8
-job_id: jobg8-2049783
 reason: No exact Newtownabbey workplace matched; local geographic review is required.
 ---
 
@@ -690,6 +702,18 @@ reason: No exact Newtownabbey workplace matched; local geographic review is requ
 action: 
 decision: review
 automatic_decision: review
+title: Receptionist with Clerical Duties
+company: MPA Recruitment - Agency - Permanent
+location: Belfast
+source: JobG8
+job_id: jobg8-2052503
+reason: No exact Newtownabbey workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Safety Administrator (Belfast - Temporary)
 company: Honeycomb Jobs Ltd - Agency - Permanent
 location: Belfast
@@ -707,18 +731,6 @@ company: Agnew Group - Agency - Permanent
 location: Belfast
 source: JobG8
 job_id: jobg8-2051447
-reason: No exact Newtownabbey workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Sales Administrator
-company: Bluestones Staffing N.I.Limited - Agency - Temporary
-location: Banbridge
-source: JobG8
-job_id: jobg8-107949205
 reason: No exact Newtownabbey workplace matched; local geographic review is required.
 ---
 

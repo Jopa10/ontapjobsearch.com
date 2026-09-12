@@ -4,7 +4,7 @@
 - Live route: `/birmingham/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 28
+- Effective included jobs: 24
 - Threshold currently met: yes
 
 ## How to review
@@ -15,26 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 28
+- automatic include: 24
 - automatic review: 6
 - automatic exclude: 3
-- effective include: 28
+- effective include: 24
 - effective review: 6
 - effective exclude: 3
 
-## INCLUDE (28)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: 1st Line Service Desk Apprentice
-company: Hackajob Ltd - Agency - Permanent
-location: Birmingham
-source: JobG8
-job_id: jobg8-107882594
-reason: Approved conservative Birmingham launch catchment.
----
+## INCLUDE (24)
 
 ---
 action: 
@@ -64,18 +52,6 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Band 3 Administrator
-company: Birmingham Community Healthcare NHS FT
-location: Birmingham, B29 6JA
-source: NHS Jobs
-job_id: nhs-5567215
-reason: Approved conservative Birmingham launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Care Coordinator - Full Time / Part Time
 company: Watra Care - Agency - Permanent
 location: Birmingham
@@ -93,18 +69,6 @@ company: Adjusting Appointments Limited - Agency - Permanent
 location: Birmingham
 source: JobG8
 job_id: jobg8-1785910
-reason: Approved conservative Birmingham launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Customer Service Administrator
-company: SF Partners - Agency - Permanent
-location: Birmingham
-source: JobG8
-job_id: jobg8-23643_225498962
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -160,18 +124,6 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: In-House Recruiter (FTC)
-company: Cygnet - Agency - Permanent
-location: Birmingham
-source: JobG8
-job_id: jobg8-1704618
-reason: Approved conservative Birmingham launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Legacy Administrator
 company: University Hospitals Birmingham Charity - Agency - Permanent
 location: Birmingham
@@ -189,18 +141,6 @@ company: The Recruitment Experts - Agency - Permanent
 location: Birmingham
 source: JobG8
 job_id: jobg8-1859114
-reason: Approved conservative Birmingham launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Medical Administrator
-company: West Heath Surgery
-location: Birmingham, B31 3HB, Birmingham, B38 8AX
-source: NHS Jobs
-job_id: nhs-5587707
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -292,18 +232,6 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Receptionist
-company: Major Recruitment Oldbury - Agency - Permanent
-location: Birmingham
-source: JobG8
-job_id: jobg8-23643_225557310
-reason: Approved conservative Birmingham launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Receptionist/Administrator
 company: The Wand Medical Centre
 location: Birmingham, B12 0UF
@@ -321,6 +249,18 @@ company: Brookes HC Recruitment Ltd - Agency - Permanent
 location: Birmingham
 source: JobG8
 job_id: jobg8-23643_225575146
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Senior Internal Communications Manager
+company: Adecco - Agency - Permanent
+location: Birmingham
+source: JobG8
+job_id: jobg8-1899929
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -352,6 +292,18 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
+company: Qualify Nation Recruitment - Agency - Permanent
+location: Birmingham
+source: JobG8
+job_id: jobg8-1894908
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Trainee Social Media Executive
 company: Netcom Online Learning - Agency - Permanent
 location: Birmingham
@@ -371,6 +323,18 @@ company: Opus People Solutions Ltd - Agency - Temporary
 location: Chelmsley Wood
 source: JobG8
 job_id: jobg8-23643_225565080
+reason: No approved Birmingham catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Care Home Administrator
+company: Avery Healthcare Group Ltd.
+location: Knowle, B93 9LQ
+source: NHS Jobs
+job_id: nhs-5595583
 reason: No approved Birmingham catchment rule matched; local review required.
 ---
 
@@ -407,18 +371,6 @@ company: Tagged Resources Ltd - Agency - Permanent
 location: Shirley
 source: JobG8
 job_id: jobg8-23643_225568014
-reason: No approved Birmingham catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Motor Trade Sales Administrator
-company: Brellis Recruitment - Agency - Permanent
-location: Chelmsley Wood
-source: JobG8
-job_id: jobg8-23643_225507846
 reason: No approved Birmingham catchment rule matched; local review required.
 ---
 

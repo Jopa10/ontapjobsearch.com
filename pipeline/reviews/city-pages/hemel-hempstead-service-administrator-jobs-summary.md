@@ -16,25 +16,13 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 2
-- automatic review: 27
+- automatic review: 25
 - automatic exclude: 0
 - effective include: 2
-- effective review: 27
+- effective review: 25
 - effective exclude: 0
 
 ## INCLUDE (2)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Customer Experience Account Manager
-company: SCG Together - Agency - Permanent
-location: Hemel Hempstead
-source: JobG8
-job_id: jobg8-107896119
-reason: Exact approved Hemel Hempstead workplace.
----
 
 ---
 action: 
@@ -48,7 +36,19 @@ job_id: jobg8-1877352
 reason: Exact approved Hemel Hempstead workplace.
 ---
 
-## REVIEW (27)
+---
+action: 
+decision: include
+automatic_decision: include
+title: Team Administrator
+company: Hertfordshire Partnership University NHS Foundation Trust
+location: Hemel Hempstead, HP1 1LD
+source: NHS Jobs
+job_id: nhs-5593452
+reason: Exact approved Hemel Hempstead workplace.
+---
+
+## REVIEW (25)
 
 ---
 action: 
@@ -95,18 +95,6 @@ company: Vaccination UK
 location: Welwyn Garden City, AL71HH
 source: NHS Jobs
 job_id: nhs-5439405
-reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator - The Acorn Centre
-company: Warren Dell Primary School
-location: Watford
-source: Teaching Vacancies
-job_id: teaching-vacancies-administrator-the-acorn-centre
 reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
 ---
 
@@ -227,18 +215,6 @@ company: Devonshire Hayes Recruitment Specialists Limited - Agency - Permanent
 location: Hertfordshire
 source: JobG8
 job_id: jobg8-1849351
-reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Marketing Executive
-company: Reed - Agency - Permanent
-location: Hertfordshire
-source: JobG8
-job_id: jobg8-1704957
 reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
 ---
 

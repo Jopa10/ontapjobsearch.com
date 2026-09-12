@@ -4,7 +4,7 @@
 - Live route: `/bristol/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 26
+- Effective included jobs: 24
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 26
-- automatic review: 9
+- automatic include: 24
+- automatic review: 8
 - automatic exclude: 2
-- effective include: 26
-- effective review: 9
+- effective include: 24
+- effective review: 8
 - effective exclude: 2
 
-## INCLUDE (26)
+## INCLUDE (24)
 
 ---
 action: 
@@ -232,18 +232,6 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Marketing Executive - Digital Content & Channels
-company: Ultimate Finance - Agency - Permanent
-location: Bristol
-source: JobG8
-job_id: jobg8-107905331
-reason: Approved conservative Bristol launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Marketing Manager
 company: Ascent Resourcing Limited - Agency - Permanent
 location: Bristol
@@ -324,19 +312,7 @@ job_id: teaching-vacancies-school-administrator-parson-street-primary-school
 reason: Approved conservative Bristol launch catchment.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Telesales Executive (Recruitment / Full Training)
-company: Ernest Gordon Recruitment - Agency - Permanent
-location: Bristol
-source: JobG8
-job_id: jobg8-107785118
-reason: Approved conservative Bristol launch catchment.
----
-
-## REVIEW (9)
+## REVIEW (8)
 
 ---
 action: 
@@ -347,18 +323,6 @@ company: Moxie and Mettle Limited - Agency - Permanent
 location: Somerset
 source: JobG8
 job_id: jobg8-1856306
-reason: No approved Bristol catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Ecommerce Manager
-company: Zachary Daniels - Agency - Permanent
-location: Somerset
-source: JobG8
-job_id: jobg8-107952849
 reason: No approved Bristol catchment rule matched; local review required.
 ---
 
@@ -426,11 +390,11 @@ reason: No approved Bristol catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Retail Brand Ambassador & Content Creator
-company: Brand Partnership Group - Agency - Permanent
+title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
+company: Qualify Nation Recruitment - Agency - Permanent
 location: Somerset
 source: JobG8
-job_id: jobg8-107910153
+job_id: jobg8-1894910
 reason: No approved Bristol catchment rule matched; local review required.
 ---
 

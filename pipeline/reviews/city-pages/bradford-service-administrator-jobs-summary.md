@@ -4,8 +4,8 @@
 - Live route: `/bradford/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 6
-- Threshold currently met: yes
+- Effective included jobs: 4
+- Threshold currently met: no
 
 ## How to review
 Edit only the `action:` line inside a job block.
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 6
+- automatic include: 4
 - automatic review: 6
-- automatic exclude: 29
-- effective include: 6
+- automatic exclude: 30
+- effective include: 4
 - effective review: 6
-- effective exclude: 29
+- effective exclude: 30
 
-## INCLUDE (6)
+## INCLUDE (4)
 
 ---
 action: 
@@ -33,18 +33,6 @@ company: Beckfoot Allerton Primary School and Nursery
 location: Bradford
 source: Teaching Vacancies
 job_id: teaching-vacancies-admin-receptionist-beckfoot-allerton-primary-school-and-nursery
-reason: Approved Bradford catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Investigatory data administrator
-company: BDS (Northern) Limited - Agency - Temporary
-location: Bradford
-source: JobG8
-job_id: jobg8-23643_225499042
 reason: Approved Bradford catchment.
 ---
 
@@ -84,18 +72,6 @@ job_id: nhs-5579658
 reason: Approved Bradford catchment.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Senior Administrator
-company: Appleton Academy
-location: Bradford
-source: Teaching Vacancies
-job_id: teaching-vacancies-senior-administrator-appleton-academy-bradford-west-yorkshire
-reason: Approved Bradford catchment.
----
-
 ## REVIEW (6)
 
 ---
@@ -107,6 +83,18 @@ company: Dixons Cottingley Academy
 location: Bingley
 source: Teaching Vacancies
 job_id: teaching-vacancies-academy-administrator-l3-dixons-cottingley-academy
+reason: No approved Bradford catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator Accounts Department
+company: RSE - Agency - Permanent
+location: Mirfield
+source: JobG8
+job_id: jobg8-107960699
 reason: No approved Bradford catchment rule matched; local review required.
 ---
 
@@ -138,18 +126,6 @@ reason: No approved Bradford catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Operations & Compliance Administrator
-company: Blackburn Road Medical Centre
-location: Batley, WF17 9PL
-source: NHS Jobs
-job_id: nhs-5551474
-reason: No approved Bradford catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: People Officer
 company: Essential Employment - Agency - Permanent
 location: Yorkshire
@@ -170,7 +146,7 @@ job_id: jobg8-1880847
 reason: No approved Bradford catchment rule matched; local review required.
 ---
 
-## EXCLUDE (29)
+## EXCLUDE (30)
 
 ---
 action: 
@@ -229,6 +205,18 @@ company: Leeds Teaching Hospitals
 location: Leeds, LS9 7TF
 source: NHS Jobs
 job_id: nhs-5591866
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Clerical Officer
+company: Leeds Teaching Hospitals
+location: Leeds, LS9 7TF
+source: NHS Jobs
+job_id: nhs-5594416
 reason: Separate employment market.
 ---
 

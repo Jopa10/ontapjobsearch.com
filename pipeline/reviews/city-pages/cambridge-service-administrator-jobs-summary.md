@@ -4,7 +4,7 @@
 - Live route: `/cambridge/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 11
+- Effective included jobs: 10
 - Threshold currently met: yes
 
 ## How to review
@@ -15,38 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 11
+- automatic include: 10
 - automatic review: 4
 - automatic exclude: 8
-- effective include: 11
+- effective include: 10
 - effective review: 4
 - effective exclude: 8
 
-## INCLUDE (11)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrator
-company: Cambridgeshire and Peterborough NHS Foundation Trust
-location: Cambridge, CB4 1PR
-source: NHS Jobs
-job_id: nhs-5574563
-reason: Approved conservative Cambridge launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrator (Renewable Energy)
-company: Rise Technical Recruitment - Agency - Permanent
-location: Cambridge
-source: JobG8
-job_id: jobg8-23643_225498733
-reason: Approved conservative Cambridge launch catchment.
----
+## INCLUDE (10)
 
 ---
 action: 
@@ -153,6 +129,18 @@ company: Peasgood & Skeates - Agency - Permanent
 location: Cambridge
 source: JobG8
 job_id: jobg8-23643_225513578
+reason: Approved conservative Cambridge launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Recruitment Administrator
+company: Cambridge University Hospital NHS Foundation Trust
+location: Cambridge, CB2 0QQ
+source: NHS Jobs
+job_id: nhs-5594409
 reason: Approved conservative Cambridge launch catchment.
 ---
 

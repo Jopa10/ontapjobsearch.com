@@ -4,7 +4,7 @@
 - Live route: `/leeds/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 23
+- Effective included jobs: 24
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 23
+- automatic include: 24
 - automatic review: 6
-- automatic exclude: 12
-- effective include: 23
+- automatic exclude: 10
+- effective include: 24
 - effective review: 6
-- effective exclude: 12
+- effective exclude: 10
 
-## INCLUDE (23)
+## INCLUDE (24)
 
 ---
 action: 
@@ -81,6 +81,18 @@ company: Leeds Teaching Hospitals
 location: Leeds, LS9 7TF
 source: NHS Jobs
 job_id: nhs-5591866
+reason: Approved Leeds catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Clerical Officer
+company: Leeds Teaching Hospitals
+location: Leeds, LS9 7TF
+source: NHS Jobs
+job_id: nhs-5594416
 reason: Approved Leeds catchment.
 ---
 
@@ -318,6 +330,18 @@ reason: No approved Leeds catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Administrator Accounts Department
+company: RSE - Agency - Permanent
+location: Mirfield
+source: JobG8
+job_id: jobg8-107960699
+reason: No approved Leeds catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Credit Control - Part Time Administrator - 12 FTC Maternity Cover
 company: Centric Talent - Agency - Permanent
 location: Brighouse
@@ -335,18 +359,6 @@ company: Sayjo Recruitment Ltd - Agency - Permanent
 location: Brighouse
 source: JobG8
 job_id: jobg8-23643_225476804
-reason: No approved Leeds catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Operations & Compliance Administrator
-company: Blackburn Road Medical Centre
-location: Batley, WF17 9PL
-source: NHS Jobs
-job_id: nhs-5551474
 reason: No approved Leeds catchment rule matched; local review required.
 ---
 
@@ -374,7 +386,7 @@ job_id: jobg8-1880847
 reason: No approved Leeds catchment rule matched; local review required.
 ---
 
-## EXCLUDE (12)
+## EXCLUDE (10)
 
 ---
 action: 
@@ -385,18 +397,6 @@ company: Beckfoot Allerton Primary School and Nursery
 location: Bradford
 source: Teaching Vacancies
 job_id: teaching-vacancies-admin-receptionist-beckfoot-allerton-primary-school-and-nursery
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Investigatory data administrator
-company: BDS (Northern) Limited - Agency - Temporary
-location: Bradford
-source: JobG8
-job_id: jobg8-23643_225499042
 reason: Separate employment market.
 ---
 
@@ -481,18 +481,6 @@ company: Elmwood Family Doctors
 location: Huddersfield, HD9 3TR, Holmfirth, HD9 4EN
 source: NHS Jobs
 job_id: nhs-5579570
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Senior Administrator
-company: Appleton Academy
-location: Bradford
-source: Teaching Vacancies
-job_id: teaching-vacancies-senior-administrator-appleton-academy-bradford-west-yorkshire
 reason: Separate employment market.
 ---
 

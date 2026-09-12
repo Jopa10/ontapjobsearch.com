@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 2
 - automatic review: 6
-- automatic exclude: 33
+- automatic exclude: 32
 - effective include: 2
 - effective review: 6
-- effective exclude: 33
+- effective exclude: 32
 
 ## INCLUDE (2)
 
@@ -66,6 +66,18 @@ reason: No approved Huddersfield catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Administrator Accounts Department
+company: RSE - Agency - Permanent
+location: Mirfield
+source: JobG8
+job_id: jobg8-107960699
+reason: No approved Huddersfield catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Credit Control - Part Time Administrator - 12 FTC Maternity Cover
 company: Centric Talent - Agency - Permanent
 location: Brighouse
@@ -83,18 +95,6 @@ company: Sayjo Recruitment Ltd - Agency - Permanent
 location: Brighouse
 source: JobG8
 job_id: jobg8-23643_225476804
-reason: No approved Huddersfield catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Operations & Compliance Administrator
-company: Blackburn Road Medical Centre
-location: Batley, WF17 9PL
-source: NHS Jobs
-job_id: nhs-5551474
 reason: No approved Huddersfield catchment rule matched; local review required.
 ---
 
@@ -122,7 +122,7 @@ job_id: jobg8-1880847
 reason: No approved Huddersfield catchment rule matched; local review required.
 ---
 
-## EXCLUDE (33)
+## EXCLUDE (32)
 
 ---
 action: 
@@ -193,6 +193,18 @@ company: Leeds Teaching Hospitals
 location: Leeds, LS9 7TF
 source: NHS Jobs
 job_id: nhs-5591866
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Clerical Officer
+company: Leeds Teaching Hospitals
+location: Leeds, LS9 7TF
+source: NHS Jobs
+job_id: nhs-5594416
 reason: Separate employment market.
 ---
 
@@ -289,18 +301,6 @@ company: Huntress - Leeds - Agency - Permanent
 location: Leeds
 source: JobG8
 job_id: jobg8-23643_225581346
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Investigatory data administrator
-company: BDS (Northern) Limited - Agency - Temporary
-location: Bradford
-source: JobG8
-job_id: jobg8-23643_225499042
 reason: Separate employment market.
 ---
 
@@ -457,18 +457,6 @@ company: Huntress - Leeds - Agency - Permanent
 location: Leeds
 source: JobG8
 job_id: jobg8-23643_225569825
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Senior Administrator
-company: Appleton Academy
-location: Bradford
-source: Teaching Vacancies
-job_id: teaching-vacancies-senior-administrator-appleton-academy-bradford-west-yorkshire
 reason: Separate employment market.
 ---
 

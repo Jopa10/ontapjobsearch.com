@@ -4,7 +4,7 @@
 - Live route: `/bedford/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 4
+- Effective included jobs: 5
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 4
-- automatic review: 14
+- automatic include: 5
+- automatic review: 13
 - automatic exclude: 0
-- effective include: 4
-- effective review: 14
+- effective include: 5
+- effective review: 13
 - effective exclude: 0
 
-## INCLUDE (4)
+## INCLUDE (5)
 
 ---
 action: 
@@ -64,6 +64,18 @@ reason: Exact approved Bedford workplace.
 action: 
 decision: include
 automatic_decision: include
+title: Team Administrator
+company: East London NHS Foundation Trust
+location: Bedford, MK40 2NT
+source: NHS Jobs
+job_id: nhs-5594951
+reason: Exact approved Bedford workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Ward Clerk
 company: Bedfordshire Hospitals NHS Foundation Trust
 location: Bedford, MK42 9DJ
@@ -72,7 +84,7 @@ job_id: nhs-5587657
 reason: Exact approved Bedford workplace.
 ---
 
-## REVIEW (14)
+## REVIEW (13)
 
 ---
 action: 
@@ -114,23 +126,11 @@ reason: No exact Bedford workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Learning & Development Coordinator
-company: ReeVR - Agency - Permanent
-location: Dunstable
+title: Graduate Town Planner
+company: Penguin Recruitment - Agency - Permanent
+location: Bedfordshire
 source: JobG8
-job_id: jobg8-107776346
-reason: No exact Bedford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Medical Receptionist
-company: Salisbury House Surgery
-location: Leighton Buzzard, LU7 1RS
-source: NHS Jobs
-job_id: nhs-5577346
+job_id: jobg8-23643_225595761
 reason: No exact Bedford workplace matched; local geographic review is required.
 ---
 

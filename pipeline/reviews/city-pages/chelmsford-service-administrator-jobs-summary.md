@@ -354,6 +354,18 @@ reason: No exact Chelmsford workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
+title: Housing Community Safety Administrator
+company: Focus Resourcing Group - Agency - Temporary
+location: Essex
+source: JobG8
+job_id: jobg8-107837697
+reason: No exact Chelmsford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Insurance Claims and Service Advisor
 company: CKB Recruitment - Agency - Permanent
 location: Essex
@@ -515,18 +527,6 @@ company: Avery Healthcare Group Ltd.
 location: Braintree, CM7 5SE
 source: NHS Jobs
 job_id: nhs-5589782
-reason: No exact Chelmsford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Receptionist/Care Navigator
-company: Primary Care Careers
-location: Colchester, CO1 2QS
-source: NHS Jobs
-job_id: nhs-5532072
 reason: No exact Chelmsford workplace matched; local geographic review is required.
 ---
 

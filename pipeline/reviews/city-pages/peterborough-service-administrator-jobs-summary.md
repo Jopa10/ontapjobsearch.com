@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 5
 - automatic review: 4
-- automatic exclude: 14
+- automatic exclude: 13
 - effective include: 5
 - effective review: 4
-- effective exclude: 14
+- effective exclude: 13
 
 ## INCLUDE (5)
 
@@ -134,7 +134,7 @@ job_id: jobg8-23643_225519683
 reason: No approved Peterborough catchment rule matched; local review required.
 ---
 
-## EXCLUDE (14)
+## EXCLUDE (13)
 
 ---
 action: 
@@ -145,30 +145,6 @@ company: East of England Community Health and Care NHS Trust (Cambridge)
 location: Huntingdon, PE29 6NT
 source: NHS Jobs
 job_id: nhs-5567386
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Administrator
-company: Cambridgeshire and Peterborough NHS Foundation Trust
-location: Cambridge, CB4 1PR
-source: NHS Jobs
-job_id: nhs-5574563
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Administrator (Renewable Energy)
-company: Rise Technical Recruitment - Agency - Permanent
-location: Cambridge
-source: JobG8
-job_id: jobg8-23643_225498733
 reason: Separate employment market.
 ---
 
@@ -301,5 +277,17 @@ company: Peasgood & Skeates - Agency - Permanent
 location: Cambridge
 source: JobG8
 job_id: jobg8-23643_225513578
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Recruitment Administrator
+company: Cambridge University Hospital NHS Foundation Trust
+location: Cambridge, CB2 0QQ
+source: NHS Jobs
+job_id: nhs-5594409
 reason: Separate employment market.
 ---

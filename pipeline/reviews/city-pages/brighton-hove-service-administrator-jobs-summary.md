@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 7
-- automatic review: 18
+- automatic review: 19
 - automatic exclude: 7
 - effective include: 7
-- effective review: 18
+- effective review: 19
 - effective exclude: 7
 
 ## INCLUDE (7)
@@ -108,7 +108,7 @@ job_id: nhs-5587236
 reason: Approved Brighton & Hove catchment.
 ---
 
-## REVIEW (18)
+## REVIEW (19)
 
 ---
 action: 
@@ -210,18 +210,6 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: HR Administrator
-company: Priory - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-21618_29077_578346
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: HR Coordinator
 company: Oraculum - Agency - Permanent
 location: Sussex
@@ -306,12 +294,36 @@ reason: No approved Brighton & Hove catchment rule matched; local review require
 action: 
 decision: review
 automatic_decision: review
-title: School HR Administrator
-company: Office Angels - Agency - Permanent
-location: Burgess Hill
+title: Secretary
+company: Huntress - Crawley - Agency - Permanent
+location: Sussex
 source: JobG8
-job_id: jobg8-23643_225498357
-reason: No approved Brighton & Hove catchment rule matched; local review required.
+job_id: jobg8-23643_225593896
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Technical Administrator
+company: Ellis James Partners Ltd - Agency - Permanent
+location: Sussex
+source: JobG8
+job_id: jobg8-23643_225594980
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Temporary HR Administrator
+company: Office Angels - Agency - Permanent
+location: Sussex
+source: JobG8
+job_id: jobg8-1900339
+reason: Broad location; review before city inclusion.
 ---
 
 ---

@@ -1,30 +1,5 @@
 [
   {
-    "job_id": "107896119",
-    "title": "Customer Experience Account Manager",
-    "company": "SCG Together - Agency - Permanent",
-    "advertiser_name": "SCG Together",
-    "advertiser_type": "Agency",
-    "location": "Hemel Hempstead",
-    "region": "Hertfordshire",
-    "country": "UK",
-    "category": "Customer Sales / Sales Advisor",
-    "employment_type": "Permanent",
-    "salary_min": "35000",
-    "salary_max": "35000",
-    "salary_text": "£35000 per year",
-    "posted_date": "2026-09-03",
-    "description": "Location: Hemel Hempstead\n\nSalary: From £28,000 (Depending on experience) + OTE\n\nHours: Monday Friday, 9am 5.30pm\n\nYou will be part of the team that provides a remarkable service to our customers, and your key objective will be to establish and sustain strong relationships. Identify upsell opportunities and maximise customer retention, through office-based support click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?b0ZSEQFKUCKkjtXYi2N9gh%2ba7ityQ9Zyl",
-    "source": "JobG8",
-    "customer_sales_classification": "CONDITIONAL_ACCOUNT_SALES",
-    "customer_sales_reason": "account-based title with sales and office/digital evidence",
-    "customer_sales_overlap_policy": "non-exclusive",
-    "work_pattern": "Not Specified",
-    "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
-  },
-  {
     "job_id": "1877352",
     "display_reference": "1877352",
     "title": "PPC Executive (Dutch Speaking)",
@@ -47,5 +22,24 @@
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
     "posted_date_basis": "ontap_first_published"
+  },
+  {
+    "job_id": "nhs-5593452",
+    "source": "NHS Jobs",
+    "title": "Team Administrator",
+    "company": "Hertfordshire Partnership University NHS Foundation Trust",
+    "advertiser_name": "Hertfordshire Partnership University NHS Foundation Trust",
+    "location": "Hemel Hempstead, HP1 1LD",
+    "region": "Hertfordshire",
+    "salary": "£29812.00 to £32715.00",
+    "employment_type": "Fixed-Term",
+    "posted_date": "2026-09-11T10:53:41.627100527",
+    "closing_date": "2026-09-14",
+    "description": "Whilst we welcome all applications from all suitable candidates, unfortunately, we will not be offering sponsorship for this role. The Mental Health Services for Older People team in North West Hertfordshire provides community-based support for individuals aged 65 and over. We are seeking a friendly, organised, and proactive Team Secretary (Band 4) to join us on a 10-month fixed-term maternity cover contract. In this key administrative role, you'll help ensure the smooth running of the service by supporting clinicians, coordinating day-to-day operations, and maintaining high-quality administrative processes. Your work will directly contribute to delivering the best possible care for our service users and their carers. We're looking for someone approachable, detail-focused, and a true team player with a positive attitude. If you enjoy supporting others and thrive in a busy, meaningful environment, we'd be delighted to hear from you. The role provides essential secretarial and administrative support to the Mental Health Services for Older People team, ensuring the smooth daily operation of the service in Hemel Hempstead. It involves acting as a professional and approachable point of contact for service users, families, carers, and colleagues, while managing all incoming communication and directing queries appropriately. The post holder produces accurate, high-quality written documents and maintains information systems with careful attention to data quality, confidentiality, and Trust policies. They coordinate diaries, appointments, and meetings for clinicians, ensuring all required information is prepared in advance, and manage routine administrative tasks such as scanning, filing, uploading documents, and maintaining electronic records. The role requires working independently, prioritising tasks effectively, and staying organised in a fast-paced environment. It also contributes to team problem-solving, supports improvements to administrative processes, and helps maintain a positive, collaborative working atmosphere. All duties are carried out with sensitivity, confidentiality, and in line with service expectations under the guidance of the management team. The post holder will provide highquality, comprehensive administrative support to the Team Leader and the wider Mental Health Services for Older People team, ensuring the smooth and efficient coordination of daily operational activities. Working within a specialist community mental health service, the post holder will contribute to the delivery of safe, effective, and responsive care for older adults, their carers, and partner agencies. A key aspect of the role involves the effective management of referrals and the accurate recording of key performance indicator (KPI) data. The post holder will be responsible for processing incoming referrals, maintaining uptodate records, monitoring caseload activity, and supporting the team in meeting performance and reporting requirements. They will also coordinate appointments, manage clinical correspondence, and ensure that all administrative processes are completed in a timely and professional manner. The post holder will lead on data collection, reporting, and monitoring processes, ensuring that information systems are maintained to a high standard and that data quality requirements are consistently met. This includes supporting the team with the preparation of reports, audits, and service information as required. Effective communication is central to the role. The post holder will liaise with colleagues across the multidisciplinary team, as well as with service users, carers, and external professionals. They will provide clear information, advice, and support, maintaining a calm, professional, and compassionate approach at all times. The role requires the ability to handle sensitive and confidential information with discretion and to respond appropriately to enquiries, often in a fastpaced and pressured environment. In addition, the post holder will be responsible for stock management, including ordering and maintaining essential supplies to support the smooth running of the service. They will also coordinate and support multidisciplinary team (MDT) processes, including preparing agendas, collating documentation, and ensuring the timely distribution of information. Accurate and wellstructured notetaking for professional meetings is an essential component of the role, ensuring that actions and decisions are clearly recorded and communicated. The post holder will be expected to work independently, using initiative to prioritise tasks, manage competing demands, and contribute to the continuous improvement of administrative systems and processes. They will uphold the highest standards of professionalism, confidentiality, and service delivery, supporting the team to provide highquality care to older people and their carers.",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9367-26-0863",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9367-26-0863",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "A",
+    "posted_date_basis": "source"
   }
 ]

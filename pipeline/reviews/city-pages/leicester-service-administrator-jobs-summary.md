@@ -4,7 +4,7 @@
 - Live route: `/leicester/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 5
+- Effective included jobs: 4
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 5
-- automatic review: 20
+- automatic include: 4
+- automatic review: 16
 - automatic exclude: 0
-- effective include: 5
-- effective review: 20
+- effective include: 4
+- effective review: 16
 - effective exclude: 0
 
-## INCLUDE (5)
+## INCLUDE (4)
 
 ---
 action: 
@@ -72,19 +72,7 @@ job_id: jobg8-23643_225509571
 reason: Exact approved Leicester workplace.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: PA - Commercial, Technology & IP
-company: Allstaff - Agency - Permanent
-location: Leicester
-source: JobG8
-job_id: jobg8-23643_225566284
-reason: Exact approved Leicester workplace.
----
-
-## REVIEW (20)
+## REVIEW (16)
 
 ---
 action: 
@@ -162,47 +150,11 @@ reason: No exact Leicester workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Contracting Administrator
-company: Tarmac Trading Limited - Company - Permanent
-location: Leicestershire
-source: JobG8
-job_id: jobg8-107841648
-reason: No exact Leicester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Medical Receptionist
-company: Broom Leys Surgery
-location: COALVILLE, LE67 4DE
-source: NHS Jobs
-job_id: nhs-5581072
-reason: No exact Leicester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Medical Receptionist
 company: Staff Partners Business - Agency - Permanent
 location: Leicestershire
 source: JobG8
 job_id: jobg8-23643_225592444
-reason: No exact Leicester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: NHS Coordinator
-company: Spire Healthcare - Company - Permanent
-location: Leicestershire
-source: JobG8
-job_id: jobg8-23643_225492608
 reason: No exact Leicester workplace matched; local geographic review is required.
 ---
 
@@ -227,18 +179,6 @@ company: Interaction Recruitment - Agency - Temporary
 location: Wigston
 source: JobG8
 job_id: jobg8-23643_225514239
-reason: No exact Leicester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Order Administrator
-company: Jacob Thomas Associates - Agency - Temporary
-location: Leicestershire
-source: JobG8
-job_id: jobg8-23643_225496906
 reason: No exact Leicester workplace matched; local geographic review is required.
 ---
 

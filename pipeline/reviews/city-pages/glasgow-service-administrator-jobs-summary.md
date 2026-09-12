@@ -4,7 +4,7 @@
 - Live route: `/glasgow/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 8
+- Effective included jobs: 13
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 8
-- automatic review: 0
+- automatic include: 13
+- automatic review: 1
 - automatic exclude: 0
-- effective include: 8
-- effective review: 0
+- effective include: 13
+- effective review: 1
 - effective exclude: 0
 
-## INCLUDE (8)
+## INCLUDE (13)
 
 ---
 action: 
@@ -33,6 +33,42 @@ company: Hays Accounts and Finance - Agency - Temporary
 location: Glasgow
 source: JobG8
 job_id: jobg8-23643_225505471
+reason: Approved conservative Glasgow launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administrator - (Higher Education) Immediate Start
+company: Search Consultancy Ltd - Agency - Contract
+location: Glasgow
+source: JobG8
+job_id: jobg8-23643_225595852
+reason: Approved conservative Glasgow launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Call Centre Agent
+company: EE - Company - Permanent
+location: Glasgow
+source: JobG8
+job_id: jobg8-21618_20279_62718-89740a075c6163b74ea2c52702062e5d
+reason: Approved conservative Glasgow launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Call Centre Operator
+company: EE - Company - Permanent
+location: Glasgow
+source: JobG8
+job_id: jobg8-21618_20279_62718-73862c8b83139033e4e4a8b6efca9a33
 reason: Approved conservative Glasgow launch catchment.
 ---
 
@@ -69,6 +105,18 @@ company: Hays Accounts and Finance - Agency - Temporary
 location: Glasgow
 source: JobG8
 job_id: jobg8-23643_225505549
+reason: Approved conservative Glasgow launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Customer Service Advisor
+company: EE - Company - Permanent
+location: Glasgow
+source: JobG8
+job_id: jobg8-21618_20279_62718-153faf593eb64b88272f45adeaa28d87
 reason: Approved conservative Glasgow launch catchment.
 ---
 
@@ -120,6 +168,30 @@ job_id: jobg8-23643_225548786
 reason: Approved conservative Glasgow launch catchment.
 ---
 
-## REVIEW (0)
+---
+action: 
+decision: include
+automatic_decision: include
+title: Receptionist
+company: Adecco - Agency - Temporary
+location: Glasgow
+source: JobG8
+job_id: jobg8-23643_225595976
+reason: Approved conservative Glasgow launch catchment.
+---
+
+## REVIEW (1)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Sales Agent
+company: EE - Company - Permanent
+location: Not Specified
+source: JobG8
+job_id: jobg8-21618_20279_62718-5e1b2fa9c543df563e4c374a01c75b13
+reason: No approved Glasgow catchment rule matched; local review required.
+---
 
 ## EXCLUDE (0)

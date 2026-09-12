@@ -222,18 +222,6 @@ reason: No exact Plymouth workplace matched; local geographic review is required
 action: 
 decision: review
 automatic_decision: review
-title: Receptionist/Administrator
-company: Croft Hall Medical Practice
-location: Torquay, TQ2 5UA
-source: NHS Jobs
-job_id: nhs-5552054
-reason: No exact Plymouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Secretary
 company: Lockhart Recruitment - Agency - Permanent
 location: Devon
@@ -251,6 +239,18 @@ company: Royal Devon University Healthcare NHS Foundation Trust
 location: Exeter, EX2 5DW
 source: NHS Jobs
 job_id: nhs-5585701
+reason: No exact Plymouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Service Administrator
+company: Royal Devon University Healthcare NHS Foundation Trust
+location: Exeter, EX2 5DW
+source: NHS Jobs
+job_id: nhs-5594406
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 

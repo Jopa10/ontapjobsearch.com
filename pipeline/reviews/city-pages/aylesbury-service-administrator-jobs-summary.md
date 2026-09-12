@@ -4,8 +4,8 @@
 - Live route: `/aylesbury/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 4
-- Threshold currently met: yes
+- Effective included jobs: 3
+- Threshold currently met: no
 
 ## How to review
 Edit only the `action:` line inside a job block.
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 4
-- automatic review: 33
+- automatic include: 3
+- automatic review: 37
 - automatic exclude: 0
-- effective include: 4
-- effective review: 33
+- effective include: 3
+- effective review: 37
 - effective exclude: 0
 
-## INCLUDE (4)
+## INCLUDE (3)
 
 ---
 action: 
@@ -33,18 +33,6 @@ company: Adecco - Agency - Permanent
 location: Aylesbury
 source: JobG8
 job_id: jobg8-23643_225528400
-reason: Exact approved Aylesbury workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Attendance Administrator
-company: William Harding School
-location: Aylesbury
-source: Teaching Vacancies
-job_id: teaching-vacancies-attendance-administrator-william-harding-school-aylesbury-buckinghamshire
 reason: Exact approved Aylesbury workplace.
 ---
 
@@ -72,7 +60,7 @@ job_id: nhs-5573111
 reason: Exact approved Aylesbury workplace.
 ---
 
-## REVIEW (33)
+## REVIEW (37)
 
 ---
 action: 
@@ -115,10 +103,10 @@ action:
 decision: review
 automatic_decision: review
 title: Administrator
-company: Brooklands Academy
-location: Milton Keynes
-source: Teaching Vacancies
-job_id: teaching-vacancies-administrator-brooklands-academy
+company: Equation Recruitment - Agency - Permanent
+location: Buckinghamshire
+source: JobG8
+job_id: jobg8-23643_225506226
 reason: No exact Aylesbury workplace matched; local geographic review is required.
 ---
 
@@ -127,10 +115,10 @@ action:
 decision: review
 automatic_decision: review
 title: Administrator
-company: Equation Recruitment - Agency - Permanent
+company: Meridian Business Support - Agency - Temporary
 location: Buckinghamshire
 source: JobG8
-job_id: jobg8-23643_225506226
+job_id: jobg8-23643_225541272
 reason: No exact Aylesbury workplace matched; local geographic review is required.
 ---
 
@@ -226,18 +214,6 @@ title: Communications and Marketing Manager
 company: Bucks Students Union - Agency - Permanent
 location: High Wycombe
 source: JobG8
-job_id: jobg8-107774087
-reason: No exact Aylesbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Communications and Marketing Manager
-company: Bucks Students Union - Agency - Permanent
-location: High Wycombe
-source: JobG8
 job_id: jobg8-1891738
 reason: No exact Aylesbury workplace matched; local geographic review is required.
 ---
@@ -318,6 +294,42 @@ reason: No exact Aylesbury workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
+title: FInancial and Membership Administrator
+company: Golf - Agency - Permanent
+location: Buckinghamshire
+source: JobG8
+job_id: jobg8-107960560
+reason: No exact Aylesbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: GP Receptionist
+company: Water Meadow Surgery
+location: Chesham, HP5 1ET
+source: NHS Jobs
+job_id: nhs-5559695
+reason: No exact Aylesbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Helpdesk & Switchboard Operator (Weekends)
+company: Compass UK & Ireland - Company - Permanent
+location: High Wycombe
+source: JobG8
+job_id: jobg8-107968892
+reason: No exact Aylesbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: HR Administrator
 company: Adecco - Agency - Permanent
 location: Buckinghamshire
@@ -335,6 +347,18 @@ company: wild recruitment - Agency - Permanent
 location: Buckinghamshire
 source: JobG8
 job_id: jobg8-1856610
+reason: No exact Aylesbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Import & Export Administrator
+company: Insight Employment - Agency - Permanent
+location: Milton Keynes
+source: JobG8
+job_id: jobg8-23643_225501536
 reason: No exact Aylesbury workplace matched; local geographic review is required.
 ---
 
@@ -395,6 +419,18 @@ company: Practice Plus Group
 location: High Wycombe, HP12 3QL
 source: NHS Jobs
 job_id: nhs-5580971
+reason: No exact Aylesbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Procurement Administrator
+company: Office Angels - Agency - Temporary
+location: Buckinghamshire
+source: JobG8
+job_id: jobg8-23643_225597034
 reason: No exact Aylesbury workplace matched; local geographic review is required.
 ---
 

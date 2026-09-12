@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 9
 - automatic review: 3
-- automatic exclude: 14
+- automatic exclude: 13
 - effective include: 9
 - effective review: 3
-- effective exclude: 14
+- effective exclude: 13
 
 ## INCLUDE (9)
 
@@ -170,7 +170,19 @@ job_id: jobg8-23643_225572898
 reason: No approved Coventry catchment rule matched; local review required.
 ---
 
-## EXCLUDE (14)
+## EXCLUDE (13)
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Billing Operations Administrator
+company: Manpower - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-107940735
+reason: Separate employment market.
+---
 
 ---
 action: 
@@ -181,18 +193,6 @@ company: The Cinnamon Care Collection - Company - Permanent
 location: Warwick
 source: JobG8
 job_id: jobg8-23643_225588153
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Customer Service Administrator
-company: Hays Business Support - Agency - Permanent
-location: Warwickshire
-source: JobG8
-job_id: jobg8-23643_225490093
 reason: Separate employment market.
 ---
 
@@ -325,17 +325,5 @@ company: Opus People Solutions Ltd - Agency - Temporary
 location: Rugby
 source: JobG8
 job_id: jobg8-23643_225562122
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Personal Assistant (PA) to the Headteachers (Oak Wood Schools)
-company: Oak Wood Secondary School
-location: Nuneaton
-source: Teaching Vacancies
-job_id: teaching-vacancies-personal-assistant-pa-to-the-headteachers-oak-wood-schools
 reason: Separate employment market.
 ---

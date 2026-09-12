@@ -1,14 +1,12 @@
 decision,job_id,title,company,location,source,automatic_decision,effective_decision,reason,matched_rule,city_key
 include,teaching-vacancies-admin-receptionist-beckfoot-allerton-primary-school-and-nursery,Admin/Receptionist,Beckfoot Allerton Primary School and Nursery,Bradford,Teaching Vacancies,include,include,Approved Bradford catchment.,bradford,bradford-service-administrator-jobs
-include,jobg8-23643_225499042,Investigatory data administrator,BDS (Northern) Limited - Agency - Temporary,Bradford,JobG8,include,include,Approved Bradford catchment.,bradford,bradford-service-administrator-jobs
 include,jobg8-23643_225530760,Project Support Administrator,Belmont Recruitment - Agency - Contract,Bradford,JobG8,include,include,Approved Bradford catchment.,bradford,bradford-service-administrator-jobs
 include,nhs-5593331,Receptionist,Affinity Care,"Shipley, BD18 3EG, Shipley, BD18 3EE, Bradford, BD10 9AZ",NHS Jobs,include,include,Approved Bradford catchment.,bradford,bradford-service-administrator-jobs
 include,nhs-5579658,Receptionist,Manor Medical Practice,"Bradford, BD8 9PB, Bradford, BD15 7WA",NHS Jobs,include,include,Approved Bradford catchment.,bradford,bradford-service-administrator-jobs
-include,teaching-vacancies-senior-administrator-appleton-academy-bradford-west-yorkshire,Senior Administrator,Appleton Academy,Bradford,Teaching Vacancies,include,include,Approved Bradford catchment.,bradford,bradford-service-administrator-jobs
 review,teaching-vacancies-academy-administrator-l3-dixons-cottingley-academy,Academy Administrator L3,Dixons Cottingley Academy,Bingley,Teaching Vacancies,review,review,No approved Bradford catchment rule matched; local review required.,fallback,bradford-service-administrator-jobs
+review,jobg8-107960699,Administrator Accounts Department,RSE - Agency - Permanent,Mirfield,JobG8,review,review,No approved Bradford catchment rule matched; local review required.,fallback,bradford-service-administrator-jobs
 review,jobg8-107926764,Credit Control - Part Time Administrator - 12 FTC Maternity Cover,Centric Talent - Agency - Permanent,Brighouse,JobG8,review,review,No approved Bradford catchment rule matched; local review required.,fallback,bradford-service-administrator-jobs
 review,jobg8-23643_225476804,Office Coordinator,Sayjo Recruitment Ltd - Agency - Permanent,Brighouse,JobG8,review,review,No approved Bradford catchment rule matched; local review required.,fallback,bradford-service-administrator-jobs
-review,nhs-5551474,Operations & Compliance Administrator,Blackburn Road Medical Centre,"Batley, WF17 9PL",NHS Jobs,review,review,No approved Bradford catchment rule matched; local review required.,fallback,bradford-service-administrator-jobs
 review,jobg8-1874090,People Officer,Essential Employment - Agency - Permanent,Yorkshire,JobG8,review,review,No approved Bradford catchment rule matched; local review required.,fallback,bradford-service-administrator-jobs
 review,jobg8-1880847,Purchase & Sales Ledger Administrator,IPS Group - Agency - Permanent,Brighouse,JobG8,review,review,No approved Bradford catchment rule matched; local review required.,fallback,bradford-service-administrator-jobs
 exclude,jobg8-23643_225570773,Administration Support,Lucy Walker Recruitment - Agency - Temporary,Leeds,JobG8,exclude,exclude,Separate employment market.,leeds,bradford-service-administrator-jobs
@@ -16,6 +14,7 @@ exclude,nhs-5576344,Administrator,The Pharmacist Network,"Leeds, NE4 7YB",NHS Jo
 exclude,jobg8-23643_225554903,Car Showroom Receptionist,Huntress - Leeds - Agency - Temporary,Leeds,JobG8,exclude,exclude,Separate employment market.,leeds,bradford-service-administrator-jobs
 exclude,jobg8-1785909,Casualty Claims Handler,Adjusting Appointments Limited - Agency - Permanent,Leeds,JobG8,exclude,exclude,Separate employment market.,leeds,bradford-service-administrator-jobs
 exclude,nhs-5591866,Clerical Officer,Leeds Teaching Hospitals,"Leeds, LS9 7TF",NHS Jobs,exclude,exclude,Separate employment market.,leeds,bradford-service-administrator-jobs
+exclude,nhs-5594416,Clerical Officer,Leeds Teaching Hospitals,"Leeds, LS9 7TF",NHS Jobs,exclude,exclude,Separate employment market.,leeds,bradford-service-administrator-jobs
 exclude,nhs-5593438,Clerical Officer/Receptionist,Leeds Teaching Hospitals,"Leeds, LS2 9LU",NHS Jobs,exclude,exclude,Separate employment market.,leeds,bradford-service-administrator-jobs
 exclude,jobg8-23643_225577014,Customer Service Advisor,Michael Page - Agency - Temporary,Leeds,JobG8,exclude,exclude,Separate employment market.,leeds,bradford-service-administrator-jobs
 exclude,jobg8-23643_225516031,Customer Service Advisor,Red Recruitment - Agency - Permanent,Leeds,JobG8,exclude,exclude,Separate employment market.,leeds,bradford-service-administrator-jobs

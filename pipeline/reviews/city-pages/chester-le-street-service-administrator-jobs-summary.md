@@ -4,7 +4,7 @@
 - Live route: `/chester-le-street/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 2
+- Effective included jobs: 3
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 2
-- automatic review: 100
+- automatic include: 3
+- automatic review: 98
 - automatic exclude: 0
-- effective include: 2
-- effective review: 100
+- effective include: 3
+- effective review: 98
 - effective exclude: 0
 
-## INCLUDE (2)
+## INCLUDE (3)
 
 ---
 action: 
@@ -48,7 +48,19 @@ job_id: nhs-3444840
 reason: Exact approved Chester Le Street workplace.
 ---
 
-## REVIEW (100)
+---
+action: 
+decision: include
+automatic_decision: include
+title: Senior Administrator- Medical Secretary
+company: Tees Esk and Wear Valleys NHS Foundation Trust
+location: Chester le Street, DH3 3UR
+source: NHS Jobs
+job_id: nhs-5563197
+reason: Exact approved Chester Le Street workplace.
+---
+
+## REVIEW (98)
 
 ---
 action: 
@@ -83,18 +95,6 @@ company: Barchester Healthcare
 location: Darlington, DL1 1JF
 source: NHS Jobs
 job_id: nhs-5583602
-reason: No exact Chester Le Street workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administration Assistant
-company: Cumbria, Northumberland, Tyne and wear (CNTW) NHS Foundation Trust
-location: Gateshead, NE10 8DX
-source: NHS Jobs
-job_id: nhs-5568696
 reason: No exact Chester Le Street workplace matched; local geographic review is required.
 ---
 
@@ -143,6 +143,18 @@ company: Newcastle City Council
 location: Sir Charles Parsons School, Westbourne Avenue, Walker, Newcastle upon Tyne, NE6 4ED
 source: NEJobs
 job_id: nejobs-301513
+reason: No exact Chester Le Street workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administration Coordinator Facilities
+company: Anabas. - Agency - Permanent
+location: Darlington
+source: JobG8
+job_id: jobg8-107972351
 reason: No exact Chester Le Street workplace matched; local geographic review is required.
 ---
 
@@ -560,18 +572,6 @@ decision: review
 automatic_decision: review
 title: Customer Experience Coordinator
 company: Linear Recruitment Ltd - Agency - Contract
-location: Sunderland
-source: JobG8
-job_id: jobg8-23643_225494451
-reason: No exact Chester Le Street workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Customer Experience Coordinator
-company: Linear Recruitment Ltd - Agency - Contract
 location: Darlington
 source: JobG8
 job_id: jobg8-23643_225534483
@@ -738,6 +738,18 @@ reason: No exact Chester Le Street workplace matched; local geographic review is
 action: 
 decision: review
 automatic_decision: review
+title: Customer Service Coordinator
+company: Graphic Packaging International Box Holdings Limited - Agency - Permanent
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-107922239
+reason: No exact Chester Le Street workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Customer Service Representative
 company: EE - Company - Permanent
 location: Hebburn
@@ -798,11 +810,11 @@ reason: No exact Chester Le Street workplace matched; local geographic review is
 action: 
 decision: review
 automatic_decision: review
-title: Ecommerce Account Manager
-company: Nigel Wright Group - Agency - Permanent
-location: Tyne And Wear
+title: Front of House Receptionist / Information Officer
+company: Newcastle and Stafford Colleges Group - Agency - Permanent
+location: Newcastle
 source: JobG8
-job_id: jobg8-1704606
+job_id: jobg8-107969732
 reason: No exact Chester Le Street workplace matched; local geographic review is required.
 ---
 
@@ -1134,18 +1146,6 @@ reason: No exact Chester Le Street workplace matched; local geographic review is
 action: 
 decision: review
 automatic_decision: review
-title: Social Media Coordinator
-company: Bellway Homes - Agency - Contract
-location: Tyne And Wear
-source: JobG8
-job_id: jobg8-107953124
-reason: No exact Chester Le Street workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Social Media Manager
 company: Ronald James - Agency - Permanent
 location: County Durham
@@ -1199,18 +1199,6 @@ company: Northumberland County Council
 location: Eddie Ferguson House, Blyth, United Kingdom
 source: NEJobs
 job_id: nejobs-301243
-reason: No exact Chester Le Street workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
-company: Qualify Nation Recruitment - Agency - Permanent
-location: Tyne And Wear
-source: JobG8
-job_id: jobg8-1887987
 reason: No exact Chester Le Street workplace matched; local geographic review is required.
 ---
 
