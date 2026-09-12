@@ -1,6 +1,6 @@
 # Support-worker manual review
 
-feed_date: 2026-09-11
+feed_date: 2026-09-12
 
 Edit only the `action:` line in each block:
 
@@ -65,17 +65,17 @@ SELECTED | Sussex | East Grinstead | £14.25 per hour | Care assistant - East Gr
 job_id: 23643_225567530
 ---
 
+---
+action:
+SELECTED | Sussex | Haywards Heath | £14 per hour | Night Care Assistant
+job_id: 107785691
+---
+
 ## SUSSEX — POSSIBLES
 
 _No jobs in this group._
 
 ## CUMBRIA SOUTH — SELECTED
-
----
-action:
-SELECTED | Cumbria - South | Barrow-in-furness | £12.85 per hour | Waking Night Extra Care Support Worker
-job_id: 107911831
----
 
 ---
 action:
@@ -311,6 +311,12 @@ SELECTED | London | London | £35000 per year | Founders Personal Assistant / Ex
 job_id: 107885503
 ---
 
+---
+action:
+SELECTED | London | London | £30,784.00 per annum | Support worker
+job_id: 1898675
+---
+
 ## LONDON — POSSIBLES
 
 ---
@@ -356,12 +362,6 @@ job_id: 23643_225534852
 _No jobs in this group._
 
 ## WILTSHIRE — SELECTED
-
----
-action:
-SELECTED | Wiltshire | Swindon | £26,227 per annum | Female BSW Crisis House Peer Support Worker
-job_id: 1787836
----
 
 ---
 action:
