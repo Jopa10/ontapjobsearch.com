@@ -3,10 +3,10 @@
 review_date: 2026-09-12
 
 - Open Administrative & Clerical rows reviewed: 2066
-- Auto/remembered selected: 369
+- Auto/remembered selected: 370
 - Selected HC Tier A: 190
-- Selected HC Tier B: 179
-- POSS awaiting decision: 1544
+- Selected HC Tier B: 180
+- POSS awaiting decision: 1543
 - Excluded: 0
 - HARD_PASS: 153
 
@@ -6622,18 +6622,6 @@ region:
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9282-26-0783
 factual_fingerprint: cc1f74b70807a66938d31fe13f78f47499ac953b6f232b4066663f5af504e2a4
----
-
----
-action:
-POSS | NHS Jobs | London | Sutton, SM2 5PT | £36943.00 to £44900.00 | Clinical Research Senior Administrator
-source_job_id: 5584786
-title: Clinical Research Senior Administrator
-employer: The Royal Marsden NHS Foundation Trust
-region: London
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9282-26-0791
-factual_fingerprint: 6c89670f1c1ef70a59d10bae12719c96b6841abfbd03141c02c2fc1d7612ced9
 ---
 
 ---

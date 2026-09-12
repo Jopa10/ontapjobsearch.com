@@ -781,6 +781,31 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "23643_225601308",
+    "title": "Administrator",
+    "company": "Dynamite Recruitment - Agency - Temporary",
+    "location": "Hampshire",
+    "region": "Hampshire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Temporary",
+    "salary_min": "13",
+    "salary_max": "13.25",
+    "salary_text": "£13 - £13.25 per hour",
+    "posted_date": "",
+    "description": "Administrator\nThis is a temporary position to start asap\nDuration: Currently until end of October\nLocation: Chandlers Ford, Hampshire\nSalary: £13.00-£13.25 per hour\nHours: 37.5 hours per week, Monday to Friday\nEither:\n- 8:00am - 4:00pm, or\n- 9:00am - 5:00pm\n\nDynamite Recruitment is working in partnership with a well-established award-winning business who are based in the Hampshire area\n\nWe are looking for a reliable, organised and motivated administrator to join our team based in Chandlers Ford. This is a full-time, temporary position\nThe successful candidate will become an important part of a friendly and supportive team, helping to ensure the smooth day-to-day administrative tasks\n\nAs an administrator you will\n- Carry out day-to-day administrative tasks efficiently and accurately.\n- schedule technicians to attend appointments\n- Type and respond to emails professionally\n- Maintain accurate records and update internal systems.\n- Type and send documentation\n- Booked details onto the system an into the diary\n- Work collaboratively with colleagues to achieve team objectives.\n\nThe ideal candidate will have:\n- Excellent communication skills.\n- Good organisational skills and attention to detail.\n- A positive, proactive attitude.\n- Good IT skills, including Microsoft Office.\n- The ability to work independently as well as part of a team.\n\nPrevious experience in administration is required for this position\n\nIf you're looking to join a professional team in a stable, Monday-to-Friday role, we'd love to hear from you. Please submit your CV asap",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?Y5CHIaMSKAyGznEIPMNzOegvZUlpgi3Bv",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Dynamite Recruitment",
+    "advertiser_type": "Agency",
+    "work_pattern": "Full Time",
+    "salary_period": "Hourly",
+    "posted_date_basis": ""
+  },
+  {
     "job_id": "23643_225505424",
     "title": "Sales Coordinator",
     "company": "Adecco - Agency - Permanent",
@@ -1056,31 +1081,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "107881829",
-    "title": "Account Coordinator",
-    "company": "Job&Talent - Agency - Permanent",
-    "location": "Hampshire",
-    "region": "Hampshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "30000",
-    "salary_max": "30000",
-    "salary_text": "£30000 per year",
-    "posted_date": "",
-    "description": "Account Coordinator - Southampton\n\nLocation: Southampton\nCompany: Job&Talent\nSalary: Up to £31,000 per year, paid monthly\nContract: Permanent\nProbation Period: 3 months\nWorking Hours: Monday to Friday, 08:30-17:00\nWork Location: Southampton J&T Office\nTraining: Full training provided\n\nJob&Talent is looking for an organised and proactive Account Coordinator to support the day-to-day delivery of one of our key click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?wTAUM266l6fE50fIK72acyS039RTVLbUh",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Job&Talent",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "nhs-5592877",
     "source": "NHS Jobs",
     "title": "Receptionist/Administrator",
@@ -1096,7 +1096,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0327-26-0465",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0327-26-0465",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5586737",
@@ -1114,7 +1118,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/M9301-26-0217",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/M9301-26-0217",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5591061",
@@ -1132,7 +1140,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0327-26-0005",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0327-26-0005",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5590543",
@@ -1150,7 +1162,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0505-26-0412",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0505-26-0412",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5577957",
@@ -1168,7 +1184,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3415-26-0006",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3415-26-0006",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5589814",
@@ -1186,7 +1206,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9348-26-1952",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9348-26-1952",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5585230",
@@ -1204,7 +1228,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9348-26-1946",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9348-26-1946",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5573045",
@@ -1222,7 +1250,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0177-26-9523",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0177-26-9523",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5571549",
@@ -1240,7 +1272,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1166-26-0011",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1166-26-0011",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5522934",
@@ -1258,6 +1294,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0177-26-8613",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0177-26-8613",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

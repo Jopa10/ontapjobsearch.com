@@ -237,31 +237,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "1865042",
-    "title": "Sales Support Administrator",
-    "company": "Schoolblazer - Agency - Permanent",
-    "location": "Peterborough",
-    "region": "Cambridgeshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "",
-    "posted_date": "",
-    "description": "Join the UK's leading independent school sportswear brand.\n\nSchoolblazer has brought genuine innovation to the school apparel market, and our sportswear brand, Limitless, is now the number one sportswear brand in independent schools.\n\nWe're looking for an organised and customer-focused Sales Administrator to join our growing team. This is a varied role working closely with customers, our sales team, designers, warehouse and suppliers to help deliver outstanding service to our schools.\n\nAt Limitless, we believe sport should be accessible and enjoyable for everyone. Our products are designed specifically for young people, helping to build confidence, encourage participation and support active lifestyles.\n\nAs demand for the brand continues to grow, we're expanding our team to support existing customers and help drive future growth.\n\nKey Responsibilities\n- Providing day-to-day support to our field-based sales team.\n- Responding to customer enquiries via telephone and email.\n- Coordinating artwork and designs with our in-house design team.\n- Assisting with the creation and maintenance of school website portals.\n- Liaising with suppliers, factories and our warehouse team regarding orders.\n- Checking and dispatching teamwear orders.\n- Building strong relationships with customers and colleagues across the business.\n\nAbout You\n\nYou'll be someone who:\n- Has excellent written and verbal communication skills.\n- Enjoys delivering great customer service.\n- Has strong attention to detail and excellent organisational skills.\n- Can prioritise workloads and work to deadlines.\n- Is confident using Excel and Outlook.\n- Has previous experience in an office-based administration or customer service role.\n- Enjoys working as part of a team.\n\nFull training and ongoing support will be provided, making this an excellent opportunity to join a market-leading brand and develop your career within a growing business.\n\nLocation and Working Hours\n\nOur Head Office is in Oundle. A town half-way between Northampton and Peterborough. Hours are 9am - 5pm, Monday - Friday. This is an office-based position\n\n25 days holiday pa, in addition to bank holidays.\n\nUp to 15% of salary bonus opportunity\n\nWorkplace pension scheme\n\nDeath in service benefit",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?mDcEDJmYTbyNhHQyXLjyPwfx6Kpmr2D8t",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Schoolblazer",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "193158007228884582437340",
     "title": "Sales Support Administrator",
     "company": "Schoolblazer - Agency - Permanent",
@@ -352,7 +327,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9180-26-1161",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9180-26-1161",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5567386",
@@ -370,7 +349,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9448-26-0308",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9448-26-0308",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5530494",
@@ -388,6 +371,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0106-26-0200",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0106-26-0200",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

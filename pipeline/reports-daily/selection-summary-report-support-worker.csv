@@ -9,4 +9,4 @@ Kent,,3,3,0,0,0,,3,Maidstone,SCENARIO_4_BELOW_PUBLISH_THRESHOLD,Kent selection b
 London,,21,17,2,2,0,,21,London,SCENARIO_3_MANUAL_SELECTION_APPLIED,London manual_select applied additively: 5 row(s) prioritised; 21 selected.
 Oxfordshire,,3,0,2,1,0,,3,Oxford,SCENARIO_4_BELOW_PUBLISH_THRESHOLD,Oxfordshire selection below publish threshold: 3/6 credible roles. Do not publish/refresh this slice from this run.
 Surrey,,1,1,0,0,0,,1,Guildford,SCENARIO_4_BELOW_PUBLISH_THRESHOLD,Surrey selection below publish threshold: 1/6 credible roles. Do not publish/refresh this slice from this run.
-Wiltshire,,3,2,0,1,0,,3,Swindon,SCENARIO_4_BELOW_PUBLISH_THRESHOLD,Wiltshire selection below publish threshold: 3/6 credible roles. Do not publish/refresh this slice from this run.
+Wiltshire,,2,1,0,1,0,,2,Swindon,SCENARIO_4_BELOW_PUBLISH_THRESHOLD,Wiltshire selection below publish threshold: 2/6 credible roles. Do not publish/refresh this slice from this run.

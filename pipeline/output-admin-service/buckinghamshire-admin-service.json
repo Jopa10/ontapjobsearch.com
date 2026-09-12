@@ -631,31 +631,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "107968892",
-    "title": "Helpdesk & Switchboard Operator (Weekends)",
-    "company": "Compass UK & Ireland - Company - Permanent",
-    "location": "Buckinghamshire",
-    "region": "Buckinghamshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "13.17",
-    "salary_max": "13.17",
-    "salary_text": "£13.17 per hour",
-    "posted_date": "",
-    "description": "Helpdesk & Switchboard Operator (Weekends)\nLocation: High Wycombe\nSalary: £13.17 per hour\nContract Type: Weekend -Zero Hour Position\nSaturday 7am-3pm\nSunday 7am - 2pm\nBe the Voice That Keeps Everything Running\nAre you a confident communicator who thrives in a fast-paced environment? Do you stay calm under pressure and enjoy helping people? If so, we'd love to hear from you click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?aziU08XVyRHUq9FvTvb55yjYbqUSqT4id",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Compass UK & Ireland",
-    "advertiser_type": "Company",
-    "work_pattern": "Part Time",
-    "salary_period": "Hourly",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "nhs-5580971",
     "source": "NHS Jobs",
     "title": "Part-time Receptionist",
@@ -671,7 +646,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0314-26-2826",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0314-26-2826",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5567129",
@@ -689,7 +668,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/L0034-26-3596",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/L0034-26-3596",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5543958",
@@ -707,7 +690,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3962-26-0008",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3962-26-0008",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5577304",
@@ -725,7 +712,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0177-26-9652",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0177-26-9652",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5573111",
@@ -743,7 +734,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0054-26-0103TMP",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0054-26-0103TMP",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5559695",
@@ -761,6 +756,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1790-26-0001",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1790-26-0001",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

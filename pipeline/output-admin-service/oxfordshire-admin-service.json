@@ -506,56 +506,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "107953660",
-    "title": "Sales Coordinator",
-    "company": "The Recruitment Group - Agency - Permanent",
-    "location": "Oxfordshire",
-    "region": "Oxfordshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "28000",
-    "salary_max": "28000",
-    "salary_text": "£28000 per year",
-    "posted_date": "",
-    "description": "Our client is looking for a motivated and detail-oriented Sales Coordinator to join their team. The successful candidate will play a key role in supporting customer requirements by interpreting customer schedules, processing orders, and coordinating sales and work orders to ensure requirements are met efficiently and accurately click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?nbYVUHO1tX4dPj3aewelr4FDRdsDZrswz",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "The Recruitment Group",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
-    "job_id": "107842716",
-    "title": "Ecommerce Coordinator (Customer Service, Orders & Platform Support)",
-    "company": "Prodrive - Agency - Permanent",
-    "location": "Oxfordshire",
-    "region": "Oxfordshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "",
-    "posted_date": "",
-    "description": "Brandand (Brand&) has over 20 years' experience creating merchandise collections for clients across many sectors. We provide a complete service, covering design, production and quality control, through to supporting sales and marketing activity and distributing products worldwide. With strong roots in motorsport as a subsidiary of Prodrive, we are known for distinctive design and high production s click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?31Q%2fsvDzOVbOcUEd0pdNcpyQd7yj6KwKj",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Prodrive",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "nhs-5583945",
     "source": "NHS Jobs",
     "title": "Bank Administrator",
@@ -571,7 +521,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0327-26-0444",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0327-26-0444",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5583458",
@@ -589,7 +543,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9321-26-1571",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9321-26-1571",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5573609",
@@ -607,7 +565,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9267-26-1046",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9267-26-1046",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5573643",
@@ -625,6 +587,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9267-26-1048",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9267-26-1048",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

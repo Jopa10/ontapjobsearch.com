@@ -225,6 +225,31 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "107956478",
+    "title": "Recruitment Delivery Co-ordinator Temporary Staffing Solutions",
+    "company": "TLP - Agency - Permanent",
+    "location": "Worcestershire",
+    "region": "Worcestershire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "",
+    "posted_date": "",
+    "description": "Recruitment Delivery Co-ordinator Temporary Staffing Solutions Droitwich Spa C ompetitive Base Individual and team based incentives Full-Time\n\nAre you a passionate, customer service-driven professional with excellent relationship-building abilities? v\n\nCan you combine fast-paced recruitment support with st rong organisation and accurate administration? v\n\nContact TLP Recruitment!\n\nBased at our Droitwic click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?eq2PR%2bX5cty8fGvjuAXx08%2boB4%2b6Sia2p",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "TLP",
+    "advertiser_type": "Agency",
+    "work_pattern": "Full Time",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
     "job_id": "nhs-5591195",
     "source": "NHS Jobs",
     "title": "GP Surgery Receptionist",
@@ -240,7 +265,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5841-26-0000",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5841-26-0000",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5541739",
@@ -258,6 +287,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9365-26-0640",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9365-26-0640",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

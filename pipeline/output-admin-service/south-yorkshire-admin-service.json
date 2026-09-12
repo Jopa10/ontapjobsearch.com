@@ -234,31 +234,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "107946644",
-    "title": "Customer Service/Export Co-ordinator",
-    "company": "Hays - Agency - Permanent",
-    "location": "Sheffield",
-    "region": "Yorkshire - South",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "28000",
-    "salary_max": "28000",
-    "salary_text": "£28000 per year",
-    "posted_date": "",
-    "description": "Customer Service & Export Coordinator\nFull Time Competitive Salary Office-Based\nAre you an experienced Customer Service professional with export knowledge who enjoys variety, problem-solving and building strong customer relationships?\n\nWe are looking for a proactive and organised Customer Service & Export Coordinator to join a busy and growing team click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?aIHQjUdXakN2D%2fPi9x5qEdIJTAxwdE4Vr",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Hays",
-    "advertiser_type": "Agency",
-    "work_pattern": "Full Time",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "23643_225515295",
     "title": "Production Administrator",
     "company": "Austin Banks - Agency - Permanent",
@@ -305,6 +280,31 @@
     "advertiser_name": "EE",
     "advertiser_type": "Company",
     "work_pattern": "Not Specified",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
+    "job_id": "1899982",
+    "title": "Purchase Ledger Administrator",
+    "company": "Sharp Consultancy - Agency - Permanent",
+    "location": "Doncaster",
+    "region": "Yorkshire - South",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "",
+    "posted_date": "",
+    "description": "I am currently recruiting on behalf of a well-established and successful manufacturing business based in Doncaster for a Junior Purchase Ledger Administrator to join their finance team.\n\nWe have worked closely with this business for many years, and they are a fantastic organisation to work with. They have an excellent reputation, low staff turnover and a strong track record of looking after and developing their employees.\n\nThis is an ideal opportunity for someone looking to take their first step into a career in finance, with full training and support provided.\n\nThe Role\n\nAs a Junior Purchase Ledger Administrator, you will work alongside an experienced finance team and receive full training across a range of purchase ledger and finance administration duties.\n\nYour responsibilities will include:\n- Processing and accurately entering supplier invoices\n- Matching invoices to purchase orders and delivery documentation\n- Checking supplier statements and resolving discrepancies\n- Assisting with supplier payments and account queries\n- Maintaining accurate purchase ledger records\n- Liaising with suppliers and internal departments\n- Assisting with general finance and administration\n- Supporting the wider finance team\n- Learning and developing your knowledge of accounting systems and processes\n\nAbout You\n\nWe're looking for someone who is organised, reliable and keen to learn, with a genuine interest in developing a career within finance.\n\nYou don't necessarily need previous purchase ledger experience - attitude and potential are more important. Full training will be provided.\n\nIdeally, you'll have:\n- Excellent attention to detail\n- Good organisational skills\n- Strong communication skills\n- Good IT skills, including Microsoft Excel\n- A positive and professional attitude\n- The ability to work well as part of a team\n- A willingness to learn and develop\n- Previous administration, accounts or office experience would be beneficial but is not essential.\n\nWhat's In It For You?\n\nThis is a great opportunity to join a stable and established manufacturing business that genuinely values its employees.\n\nThe company offers:\n- Hybrid working\n- Bonus scheme\n- Full training and ongoing support\n- Excellent opportunities for career development\n- A supportive and friendly working environment\n- Long-term career prospects\n- The opportunity to build valuable finance experience\n- Excellent employee retention and a low staff turnover\n\nWhy This Business?\n\nHaving worked with this organisation for many years, we know them to be a great employer with a strong and supportive culture. They offer the stability of an established manufacturing business while still providing opportunities for their employees to develop and progress.\n\nIf you're looking for an opportunity where you can learn, build your finance career and become part of a business that values its people, this could be the perfect next step.\n\nSharp Consultancy is a finance and accountancy recruitment specialist assisting accounting and finance divisions of businesses in the Yorkshire and Derbyshire area. With over 30 years' experience we pride ourselves on sourcing excellent finance professionals across all divisions of an accounts function.\n\nCandidates must be eligible to work in the UK full time without restriction. To apply please send your CV to the e-mail address stated, quoting our reference and specifying which website you saw this position advertised on. Due to the high volume of applications, we receive it is not always possible to respond to unsuccessful applicants. Therefore, if we have not responded to your application within seven days, please note that on this occasion your application has not been successful.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?Y5CHIaMSKAxyZooBRxLmSL%2fdQVKkvLpRv",
+    "source": "JobG8",
+    "working_arrangement": "hybrid",
+    "working_arrangement_text": "Hybrid working",
+    "working_arrangement_evidence": "The company offers: - Hybrid working - Bonus scheme - Full training and ongoing support - Excellent opportunities for career development - A supportive and friendly working environment - Long-term career prospects - The opportunity to build valuable finance experience - Excellent employee retention and a low staff turnover Why This Business?",
+    "advertiser_name": "Sharp Consultancy",
+    "advertiser_type": "Agency",
+    "work_pattern": "Full Time",
     "salary_period": "Annual",
     "posted_date_basis": ""
   },
@@ -424,7 +424,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4281-26-0000",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4281-26-0000",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5588970",
@@ -442,7 +446,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1388-26-0004",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1388-26-0004",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5584270",
@@ -460,7 +468,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0132-26-2022",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0132-26-2022",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5586600",
@@ -478,6 +490,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5084-26-0002",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5084-26-0002",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

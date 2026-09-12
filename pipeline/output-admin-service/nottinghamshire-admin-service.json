@@ -490,6 +490,31 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "1900221",
+    "title": "Framework Administrator",
+    "company": "Office Angels - Agency - Permanent",
+    "location": "Nottinghamshire",
+    "region": "Nottinghamshire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "",
+    "posted_date": "",
+    "description": "Framework Administrator\n\nContract: 12-month fixed-term contract\n\nThe Role\n\nWe are looking for a Framework Administrator to provide proactive, high-level support to legal departments, taking ownership of key client frameworks and helping to deliver an exceptional level of service.\n\nReporting to the Framework Manager, you will play a central role in managing allocated frameworks, associated client accounts and service levels. You will work closely with the framework team, fee earners, central teams and external clients to ensure internal and external client expectations are consistently exceeded.\n\nKey Responsibilities\n- Review Framework Agreements to identify and document client-specific protocols and processes.\n- Implement guidance and training for support teams and monitor ongoing compliance.\n- Manage and submit regular management information (MI) reports.\n- Coordinate responses across multiple departments and produce reports assessing service levels and performance against KPIs.\n- Analyse and interpret complex data, including contract documentation.\n- Support the management of revenue for key clients and assist with the billing process.\n- Provide high-level revenue updates, including processing rebates where required.\n- Support the coordination of client audits.\n- Use IT systems to generate reports, formatting and editing information as required.\n- Produce accurate, professional documentation and client communications to the highest standard.\n- Build and maintain effective relationships with internal teams and external clients.\n- Identify opportunities to improve processes, service delivery and efficiency.\n\nPerson SpecificationWhat We're Looking For\n- Ability to analyse and interpret complex data, including contract documentation.\n- Experience of using IT systems to generate reports, with the ability to format and edit information as required.\n- Strong MS Office skills, particularly Excel.\n- Excellent organisational skills and meticulous attention to detail.\n- An aptitude for producing documents and client communications of the highest standard.\n- Ability to use initiative, anticipate requirements and take ownership of tasks.\n- Strong written and verbal communication skills.\n- Ability to build and maintain effective client relationships.\n- A collaborative approach and the ability to work effectively with multiple teams.\n- A commitment to delivering high-quality, efficient and professional service.\n\nWhat We Offer\n\nThe role offers a flexible and hybrid working environment, alongside a comprehensive benefits package. Benefits may include private medical insurance, pension contributions, an employee assistance programme, wellbeing initiatives and enhanced parental leave.\n\nOffice Angels is an employment agency and business. We are an equal-opportunities employer who puts expertise, energy and enthusiasm into improving everyone's chance of being part of the workplace. We respect and appreciate people of all ethnicities, generations, religious beliefs, sexual orientations, gender identities, abilities and more. By showcasing talents, skills and unique experiences in an inclusive environment, we help individuals thrive. If you require reasonable adjustments at any stage, please let us know and we will be happy to support you.\n\nOffice Angels acts as an employment agency for permanent recruitment and an employment business for the supply of temporary workers. Office Angels UK is an Equal Opportunities Employer.\n\nBy applying for this role your details will be submitted to Office Angels. Our Candidate Privacy Information Statement explaining how we will use your information is available on our website.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?d1vRzEYF65Qzsf9buLHHv7MGAJH1FsOjx",
+    "source": "JobG8",
+    "working_arrangement": "hybrid",
+    "working_arrangement_text": "Hybrid working",
+    "working_arrangement_evidence": "What We Offer The role offers a flexible and hybrid working environment, alongside a comprehensive benefits package.",
+    "advertiser_name": "Office Angels",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
     "job_id": "1766875",
     "title": "Apprentice Talent Acquisition Coordinator",
     "company": "Staffline Recruitment Limited - Agency - Permanent",
@@ -580,7 +605,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4604-26-0006",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4604-26-0006",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5589141",
@@ -598,7 +627,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0045-26-0086",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0045-26-0086",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5584692",
@@ -616,7 +649,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3810-26-0000",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3810-26-0000",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5586182",
@@ -634,7 +671,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0327-26-0457",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0327-26-0457",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5586180",
@@ -652,6 +693,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0327-26-0456",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0327-26-0456",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

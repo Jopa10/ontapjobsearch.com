@@ -275,31 +275,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "107969820",
-    "title": "Technical Sales Support",
-    "company": "Thrive Group - Agency - Permanent",
-    "location": "Wiltshire",
-    "region": "Wiltshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "",
-    "posted_date": "",
-    "description": "Thrive Trowbridge are delighted to be working with our established and market leading client near Chippenham who urgently require a Technical Sales Advisor to join their busy team.\nIn this key role, you will be responsible for generating sales revenue for the business, duties will include the following :\n- First point of contact for both new and existing customers\n- Dealing with enquiries, gaining an click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?io0x8AEcaIPCtKzSpNxLpgHOg43Rdm1%2fo",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Thrive Group",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "nhs-5591907",
     "source": "NHS Jobs",
     "title": "Administrator",
@@ -315,7 +290,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0279-26-2439",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0279-26-2439",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5593021",
@@ -333,24 +312,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/L0034-26-3777",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/L0034-26-3777",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
-  },
-  {
-    "job_id": "nhs-5583061",
-    "source": "NHS Jobs",
-    "title": "Dental Receptionist",
-    "company": "Salisbury NHS Foundation Trust",
-    "advertiser_name": "Salisbury NHS Foundation Trust",
-    "location": "Salisbury, SP1 3SL",
-    "region": "Wiltshire",
-    "salary": "£25760.00 to £27476.00",
-    "employment_type": "Permanent",
-    "posted_date": "2026-09-07T12:57:10.659047073",
-    "closing_date": "2026-09-17",
-    "description": "Community Dental Service, Salisbury Are you an organised, friendly and professional administrator who enjoys helping people and providing excellent customer service? An exciting opportunity has arisen to join the Community Dental Service for Wiltshire and Swindon as a full-time Receptionist/Administrator based at our Salisbury site. As the first point of contact for our patients, you will play a vital role in ensuring a welcoming and efficient service. This is a varied and rewarding position where no two days are the same, offering the opportunity to work within a supportive healthcare team and make a real difference to patients' experiences. The successful candidate may be required to provide cover at other sites across the service, therefore access to reliable transport is essential. The role also includes participation in some weekend and bank holiday working to support the Community Dental Out of Hours Service. Why join us? This is a fantastic opportunity to become part of a dedicated and welcoming team committed to providing high-quality dental care across Wiltshire and Swindon. If you are a motivated individual who thrives in a patient-focused environment, we'd love to hear from you. Apply today and take the next step in your administrative career within the NHS. The post holder will work as part of a front-line team to deliver high quality services to public and staff. The post holder will be required to arrange appointments and provide information to patients. The role will involve handling payments, maintaining accurate records of transactions, undertaking basic banking and reconciliation duties. The post holder will also provide administrative support to members of the Dental Team. The role requires travel to all 4 sites of the service throughout Wiltshire and Swindon as required. The post holder will be required to work to a flexible shift pattern which will include weekends and bank holiday working. What you'll be doing: Welcoming and assisting patients both in person and over the telephone Booking, changing and managing appointments Providing information and support to patients and visitors Processing payments Supporting the team with a range of administrative and office tasks Helping to ensure the smooth day-to-day running of the service What we're looking for: Previous administration experience is essential Excellent communication and customer service skills Strong organisational skills with the ability to manage a busy workload Good IT skills and confidence using computer systems Experience using a dental IT system would be advantageous, although full training will be provided About us Salisbury is an attractive place to live and work and really gives you the best of everything. With easy access to London and local airports, the city of Southampton is only a short train or car journey away or if you prefer the sea, Bournemouth is also accessible. Don't just take our word for it, why not explore what Salisbury has to offer by visiting www.experiencesalisbury.co.uk We are proud to be part of BSW Hospitals Group - a formal partnership between Great Western Hospitals NHS Foundation Trust, Royal United Hospitals Bath NHS Foundation Trust and Salisbury NHS Foundation Trust. With a combined workforce of over 17, 600 colleagues, and budget of 1.6 billion the Group is united by a common purpose to deliver the best possible care to over 1 million people. We are creating a health and care system that works with the people we care for, reducing the differences people currently face in access, experience and outcomes, improving the experience of our colleagues and tackling shared challenges like sustainability and finances. Every improvement we make across our Group will be guided by what creates the greatest benefit for our colleagues, our patients, our communities and our partners.",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9269-26-0350",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9269-26-0350",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]
