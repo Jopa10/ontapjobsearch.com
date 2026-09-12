@@ -1,7 +1,7 @@
 # VONNE ETL proof-of-concept review
 
-review_date: 2026-09-11
-review_fingerprint: a4355941da9a48533001270ceeb3190851522c9daaea0bd9458cb8725848e772
+review_date: 2026-09-12
+review_fingerprint: 07818f1b3c1b63cbe222f4a44fc1b94a4587bddfe0d4fdbfa2c4b78aa405f767
 
 This implementation is review-only. It has no approved-JSON or publishing mode.
 
@@ -10,29 +10,29 @@ Edit only the `action:` line in editable blocks:
 - `action: exclude` rejects a POSS vacancy or removes an HC vacancy.
 - Actions are remembered while the same vacancy review facts remain unchanged; this review still does not publish anything.
 
-Run generated: 2026-09-11T12:42:17+01:00
+Run generated: 2026-09-12T12:07:35+01:00
 Listing input: https://www.vonne.org.uk/vonne-jobs
-JobG8 comparison rows: 261
+JobG8 comparison rows: 281
 Approved NEJobs comparison rows: 13
 
 ## Funnel
 - VONNE listings read: 15
-- Detail-page candidates: 7
-- Detail pages fetched successfully: 7
+- Detail-page candidates: 5
+- Detail pages fetched successfully: 5
 - Detail failures/listing fallbacks: 0
-- Obvious hard passes not detail-fetched: 8
+- Obvious hard passes not detail-fetched: 10
 - Tees Valley explicitly excluded: 0
-- Outside or unmapped geography excluded: 2
+- Outside or unmapped geography excluded: 3
 - Generic/derived geography rows requiring review: 0
-- Retained target candidates: 13
+- Retained target candidates: 12
 
 ## Outcomes
 - HC: 0
-- POSS: 7
-- HARD_PASS: 6
+- POSS: 5
+- HARD_PASS: 7
 - Final selected after remembered/manual actions: 1
 - Final POSS awaiting decision: 3
-- Manually excluded: 3
+- Manually excluded: 1
 ## Detail diagnostics
 - No unresolved detail-page failures.
 
@@ -42,19 +42,6 @@ Approved NEJobs comparison rows: 13
 
 ## POSS — choose SELECT or EXCLUDE
 
----
-action: exclude
-POSS | North East - County Durham & Darlington/Hartlepool | County Durham | £24,454 Per Annum | Administrator (26.13)
-employer: Age UK County Durham
-closing_date: Wednesday, September 30, 2026 - 12:00
-geography: CONFIRMED — location: approved location fallback
-reason: possible cross-source duplicate requires review
-source: VONNE
-tracking_key: vonne-173394
-vacancy_fingerprint: 519ce27938398f49fcbce718a2199f9949683fdc41baa95ab1c29252c8391d66
-source_job_id: 173394
-source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173394
----
 ---
 action:
 POSS | North East - County Durham & Darlington/Hartlepool | County Durham | £27,476 Per Annum | HR Administrator
@@ -67,19 +54,6 @@ tracking_key: vonne-173410
 vacancy_fingerprint: f65f0813d779a37799fe069207dcaadc4a3b07e03f174b525fb8ad7176d32b76
 source_job_id: 173410
 source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173410
----
----
-action: exclude
-POSS | North East - County Durham & Darlington/Hartlepool | County Durham | £24,454 Per Annum | Project Administrator (26.12)
-employer: Age UK County Durham
-closing_date: Wednesday, September 30, 2026 - 12:00
-geography: CONFIRMED — location: approved location fallback
-reason: possible cross-source duplicate requires review
-source: VONNE
-tracking_key: vonne-173393
-vacancy_fingerprint: 076c2df7b5819c647117c3b816981009bb4a7072315f7abc14f5c71d30a5e73b
-source_job_id: 173393
-source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173393
 ---
 ---
 action:
@@ -141,6 +115,7 @@ source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173310
 
 - [Administration Officer](https://www.vonne.org.uk/vonne-jobs-details?cid=173413) — insufficient service-admin evidence.
 - [Marketing and Communications Officer](https://www.vonne.org.uk/vonne-jobs-details?cid=173409) — insufficient service-admin evidence.
+- [Recovery Navigator](https://www.vonne.org.uk/vonne-jobs-details?cid=173414) — insufficient service-admin evidence.
 - [Right Turn Case Worker](https://www.vonne.org.uk/vonne-jobs-details?cid=173406) — out-of-scope VONNE occupation.
 - [Safe Accommodation Support Worker](https://www.vonne.org.uk/vonne-jobs-details?cid=173405) — out-of-scope VONNE occupation.
 - [Support Manager](https://www.vonne.org.uk/vonne-jobs-details?cid=172597) — out-of-scope VONNE occupation.
