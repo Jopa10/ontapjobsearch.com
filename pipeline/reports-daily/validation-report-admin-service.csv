@@ -1,7 +1,7 @@
 ﻿metric,value
 total rows input,10000
-total rows included,925
-total rows dropped,9064
+total rows included,928
+total rows dropped,9068
 title classification count - HIGH_CONFIDENCE,743
 title classification count - ELASTIC_FIT,426
 title classification count - REVIEW_CONTEXT_DEPENDENT,7
@@ -104,13 +104,13 @@ other elastic count - Bristol & Bath,2
 total rows output - Bristol & Bath,19
 job_id included - Bristol & Bath,23643_225564040; 1868067; 23643_222234812; 23643_225546891; 23643_225547840; 23643_225556797; 23643_225558310; 23643_225557766; 23643_225533642; 1819615; 1821573; 107909264; 23643_225557768; 1877742; 23643_225590684; 23643_225581771; 23643_225590581; 23643_225515534; 107793815
 selection scenario - Buckinghamshire,SCENARIO_3_MANUAL_SELECTION_APPLIED
-selection message - Buckinghamshire,Buckinghamshire manual_select applied additively: 6 row(s) prioritised; 23 selected.
-credible total - Buckinghamshire,23
+selection message - Buckinghamshire,Buckinghamshire manual_select applied additively: 7 row(s) prioritised; 24 selected.
+credible total - Buckinghamshire,24
 high confidence count - Buckinghamshire,13
 anchor elastic count - Buckinghamshire,0
 other elastic count - Buckinghamshire,4
-total rows output - Buckinghamshire,23
-job_id included - Buckinghamshire,1780993; 23643_225544622; 23643_225559029; 23643_225427059; 23643_225572453; 23643_225573362; 23643_225506226; 23643_225528400; 23643_225541272; 23643_225547263; 23643_225546056; 23643_225558304; 23643_225564075; 23643_225563994; 23643_225564180; 23643_225565413; 1857566; 107960560; 23643_225501536; 23643_225522682; 23643_225570224; 1856610; 107968892
+total rows output - Buckinghamshire,24
+job_id included - Buckinghamshire,23643_225597034; 1780993; 23643_225544622; 23643_225559029; 23643_225427059; 23643_225572453; 23643_225573362; 23643_225506226; 23643_225528400; 23643_225541272; 23643_225547263; 23643_225546056; 23643_225558304; 23643_225564075; 23643_225563994; 23643_225564180; 23643_225565413; 1857566; 107960560; 23643_225501536; 23643_225522682; 23643_225570224; 1856610; 107968892
 selection scenario - Cambridgeshire,SCENARIO_3_FULL_VALID_SELECTION
 selection message - Cambridgeshire,"Cambridgeshire selection complete: all 9 valid selected role(s) retained after HIGH_CONFIDENCE, Cambridge ELASTIC_FIT and other ELASTIC_FIT ordering."
 credible total - Cambridgeshire,9
@@ -168,13 +168,13 @@ other elastic count - Devon,2
 total rows output - Devon,15
 job_id included - Devon,23643_225568058; 23643_225572997; 1842702; 107936510; 23643_225509220; 23643_225546267; 23643_225563591; 23643_225568425; 23643_225571969; 1841483; 23643_225580652; 23643_225587837; 23643_225590384; 23643_224965281; 1858672
 selection scenario - Dorset,SCENARIO_3_MANUAL_SELECTION_APPLIED
-selection message - Dorset,Dorset manual_select applied additively: 3 row(s) prioritised; 9 selected.
-credible total - Dorset,9
+selection message - Dorset,Dorset manual_select applied additively: 4 row(s) prioritised; 10 selected.
+credible total - Dorset,10
 high confidence count - Dorset,3
 anchor elastic count - Dorset,0
 other elastic count - Dorset,3
-total rows output - Dorset,9
-job_id included - Dorset,23643_225429242; 1868450; 23643_225575849; 1766324; 107765584; 23643_225580820; 1860803; 1839335; 1839332
+total rows output - Dorset,10
+job_id included - Dorset,23643_225429242; 1868450; 23643_225575849; 23643_225598865; 1766324; 107765584; 23643_225580820; 1860803; 1839335; 1839332
 selection scenario - Essex,SCENARIO_3_MANUAL_SELECTION_APPLIED
 selection message - Essex,Essex manual_select applied additively: 3 row(s) prioritised; 29 selected.
 credible total - Essex,29
@@ -312,13 +312,13 @@ other elastic count - Scotland Central - Tayside,1
 total rows output - Scotland Central - Tayside,5
 job_id included - Scotland Central - Tayside,23643_225590653; 23643_225556195; 107922956; 23643_225571115; 107857257
 selection scenario - Scotland West - Glasgow,SCENARIO_3_MANUAL_SELECTION_APPLIED
-selection message - Scotland West - Glasgow,Scotland West - Glasgow manual_select applied additively: 1 row(s) prioritised; 12 selected.
-credible total - Scotland West - Glasgow,12
+selection message - Scotland West - Glasgow,Scotland West - Glasgow manual_select applied additively: 2 row(s) prioritised; 13 selected.
+credible total - Scotland West - Glasgow,13
 high confidence count - Scotland West - Glasgow,8
 anchor elastic count - Scotland West - Glasgow,3
 other elastic count - Scotland West - Glasgow,0
-total rows output - Scotland West - Glasgow,12
-job_id included - Scotland West - Glasgow,23643_225548786; 23643_225505471; 23643_225505549; 23643_225527758; 23643_225533514; 23643_225595852; 21618_20279_62718-153faf593eb64b88272f45adeaa28d87; 21618_20279_62718-89740a075c6163b74ea2c52702062e5d; 21618_20279_62718-73862c8b83139033e4e4a8b6efca9a33; 1766463; 1860279; 107881043
+total rows output - Scotland West - Glasgow,13
+job_id included - Scotland West - Glasgow,23643_225548786; 23643_225595976; 23643_225505471; 23643_225505549; 23643_225527758; 23643_225533514; 23643_225595852; 21618_20279_62718-153faf593eb64b88272f45adeaa28d87; 21618_20279_62718-89740a075c6163b74ea2c52702062e5d; 21618_20279_62718-73862c8b83139033e4e4a8b6efca9a33; 1766463; 1860279; 107881043
 selection scenario - Shropshire,SCENARIO_3_MANUAL_SELECTION_APPLIED
 selection message - Shropshire,Shropshire manual_select applied additively: 1 row(s) prioritised; 8 selected.
 credible total - Shropshire,8

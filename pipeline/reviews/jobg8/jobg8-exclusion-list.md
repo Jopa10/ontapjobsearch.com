@@ -6,9 +6,57 @@ The `excluded_on` date is the day the exclusion decision was made.
 To restore a job, edit only its `action:` line to `action: select`.
 On the next JobG8 run that exact job ID will be restored and removed from this list.
 
-remembered_exclusions: 321
+remembered_exclusions: 325
 
 ## SERVICE / ADMIN — EXCLUDED
+
+---
+action:
+category: service_admin
+excluded_on: 2026-09-12
+title: principle/associate planner
+employer: Penguin Recruitment
+region: 
+town: Hampshire
+salary: 
+job_id: 23643_225598820
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-09-12
+title: Training and Business Coordinator
+employer: Guidant Global
+region: 
+town: Cheshire
+salary: 
+job_id: 107970068
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-09-12
+title: Technical Business Support Officer
+employer: Graham Rose
+region: 
+town: Oxfordshire
+salary: 
+job_id: 23643_225481254
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-09-12
+title: FNOL Motor Claims Handler
+employer: MPJ Recruitment Ltd
+region: 
+town: Lancashire
+salary: 
+job_id: 1898515
+---
 
 ---
 action:

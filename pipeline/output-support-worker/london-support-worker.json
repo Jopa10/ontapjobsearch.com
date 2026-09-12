@@ -19,11 +19,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Support plans",
-      "Risk and needs assessments"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225574825",
@@ -89,11 +85,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Daily",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Daily living support",
-      "Safeguarding"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225572376",
@@ -137,11 +129,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Daily",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Personal care",
-      "Safeguarding"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225579170",
@@ -163,11 +151,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Personal care",
-      "Safeguarding"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1880232",
@@ -211,11 +195,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Personal care",
-      "Support plans"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "107885503",
@@ -284,6 +264,28 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "2052552",
+    "title": "Support Worker - Belfast",
+    "company": "First Choice Selection Services - Agency - Permanent",
+    "location": "City",
+    "region": "London",
+    "country": "UK",
+    "category": "Support Worker – Wide",
+    "employment_type": "Permanent",
+    "salary_min": "12.75",
+    "salary_max": "21.55",
+    "salary_text": "£12.75 - £21.55 per hour",
+    "posted_date": "",
+    "description": "We are seeking experienced Support Workers to join our client's care team in the Belfast Area. The services are based in South Belfast and North Belfast. These roles are both a temporary position for a minimum of 3 months, supporting adults with learning disabilities, mental health conditions and complex needs.\n\nThe role involves providing high-quality, person-centred care, including personal care, meal support, engaging with service users and their families, and following individual care plans. You will work both independently and as part of a wider care team.\n- Immediate Start\n- Shift Patterns: 08.00-20.00 or 20.00-8.00 or 08.00-14.00 or 14.00-20.00\n- Pay Rate: £12.75-£21.55 per hour, with enhanced rates for weekends and sleepovers\n\nWhat We Need From You:\n- NISCC Registration\n- Minimum of 6 months healthcare experience\n- Enhanced Access NI check prior to commencement\n\nWhat We Will Offer You:\n- A minimum of 28 days paid holiday (pro rata)\n- Inclusion into our company pension scheme\n- Free comprehensive and ongoing annual training courses\n- Weekly Pay\n- 24 Hour on call service that can be accessed for emergencies\n\nThe Next Steps:\n- Contact Ella Milligan or Ronan Lavery at First Choice Belfast\n- Send your CV via the link\n\nFirst Choice is an equal opportunities employer",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?aIHQjUdXakMG29c5yOzxb3%2fMX5x%2faM0Dr",
+    "source": "JobG8",
+    "advertiser_name": "First Choice Selection Services",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Hourly",
+    "posted_date_basis": ""
+  },
+  {
     "job_id": "23643_225535652",
     "title": "Support Worker",
     "company": "Remedy Education - Agency - Permanent",
@@ -347,14 +349,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Personal care",
-      "Support plans",
-      "Risk and needs assessments",
-      "Safeguarding",
-      "Emotional support"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "2049999",
@@ -420,13 +415,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Part Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Personal care",
-      "Daily living support",
-      "Risk and needs assessments",
-      "Emotional support"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225513634",
@@ -470,10 +459,6 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Daily",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Support plans",
-      "Safeguarding"
-    ]
+    "posted_date_basis": ""
   }
 ]

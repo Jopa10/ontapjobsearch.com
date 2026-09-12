@@ -2,15 +2,27 @@
 
 review_date: 2026-09-12
 
-- Open Administrative & Clerical rows reviewed: 2069
-- Auto/remembered selected: 370
-- Selected HC Tier A: 191
+- Open Administrative & Clerical rows reviewed: 2068
+- Auto/remembered selected: 369
+- Selected HC Tier A: 190
 - Selected HC Tier B: 179
 - POSS awaiting decision: 1546
 - Excluded: 0
 - HARD_PASS: 153
 
 Edit only each `action:` line for POSS rows. Unchanged decisions are restored by the shared decision ledger.
+
+---
+action:
+POSS | NHS Jobs | — | North Tyneside, NE29 8NH | £66582.00 to £77368.00 | Pathology Programme Manager
+source_job_id: 5595689
+title: Pathology Programme Manager
+employer: Northumbria Healthcare NHS Foundation Trust
+region: 
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9319-26-0843
+factual_fingerprint: b978a64208474717f9bef3e4c8a04aeda8b5b8f564206df029fa36cbeb9eea23
+---
 
 ---
 action:
@@ -4978,18 +4990,6 @@ region: Cheshire - West
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/U0025-26-0152
 factual_fingerprint: 164874985a8198f2434004a34a2e4d9a60b67f040511fe3d8a73d439049658e0
----
-
----
-action:
-POSS | NHS Jobs | Hertfordshire | Stevenage, SG1 1AB | £25760.00 to £27476.00 | Outpatient Clerk
-source_job_id: 5588341
-title: Outpatient Clerk
-employer: East and North Hertfordshire Teaching NHS Trust
-region: Hertfordshire
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9361-26-0534
-factual_fingerprint: 867848a5061c1cd05926c2a9d0748f4bd82e217fb6cda06d2a91181c6faeb9d3
 ---
 
 ---
