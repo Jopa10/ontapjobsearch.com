@@ -1,107 +1,142 @@
 # JobG8 HR / Recruitment proof-region evidence candidates
 
-Content-unique national LIKELY_IN + BORDERLINE inventory: **129** against viability floor **100**.
+Content-unique national LIKELY_IN + BORDERLINE inventory: **252** against viability floor **100**.
 This report does not approve proof regions or any LIVE slice. It surfaces the strongest current markets for human boundary inspection after national discovery.
 
 ## London
 
-- LIKELY_IN: **10**
-- BORDERLINE: **11**
-- Provisional OUT: **30**
+- LIKELY_IN: **25**
+- BORDERLINE: **24**
+- Provisional OUT: **70**
 
 Most common LIKELY_IN titles:
 
-- HR Assistant: 3
-- HR Administrator: 2
-- HR and People Coordinator: 1
-- HR Co-ordinator: 1
+- HR Assistant: 8
+- HR Administrator: 4
 - HR Coordinator: 1
-- Recruitment Administrator: 1
+- HR & Recruitment Coordinator - 12 Month FTC: 1
+- Senior Learning & Development Coordinator: 1
 - People Coordinator: 1
+- Interim Recruitment Coordinator: 1
+- HR Administrator Assistant: 1
+- HR Assistant / Receptionist: 1
+- HR Admin: 1
+- Hr Assistant: 1
+- Interim HR Coordinator, 2 months: 1
 
 Borderline titles:
 
-- Hospitality Recruitment Sales Executive - Part-Time: 1
-- People Officer: 1
-- HR Caseworker - Temporary: 1
-- Resourcing Business Partner: 1
-- HR Change Business Partner: 1
+- HR Operations Administrator: 2
+- People Services Operations Coordinator: 1
 - HR Ops Specialist: 1
 - Help desk Administrator: 1
-- Finance & HR Systems Administrator: 1
 - HR and Office Administrator: 1
+- Personal Assistant (HR): 1
+- HR Operations Coordinator: 1
+- Office Administrator with HR: 1
+- Senior HR Operations Manager - Media: 1
+- Recruitment Partner: 1
+- Recruitment Resourcer: 1
+- HR Recruiter: 1
+- HR & Payroll Assistant: 1
+- People and Culture Advisor: 1
+- Talent Acquisition Advisor: 1
+- HR and Onboarding Officer: 1
+- HR OD Specialist: 1
+- Temporary Internal Recruiter: 1
+- HR Systems & Reporting Analyst: 1
+- HR Officer: 1
 - Guest Services Manager & Team Leader Recruitment Event - 9th of September 2026: 1
-- Business Support Administrator: 1
+- Recruitment Program Lead - Europe: 1
+- Internal Recruiter/LinkedIn Specialist: 1
 
-## Greater Manchester - Manchester & Salford
+## West Midlands - Coventry & Warwickshire
 
-- LIKELY_IN: **3**
-- BORDERLINE: **6**
-- Provisional OUT: **9**
-
-Most common LIKELY_IN titles:
-
-- HR Administrator: 1
-- Senior HR Administrator: 1
-- Senior Learning & Development Administrator: 1
-
-Borderline titles:
-
-- HR and Facilities Coordinator: 1
-- Recruitment Performance, Reporting and Planning Officer: 1
-- Human Resources Officer: 1
-- HR Systems and reporting coordinator: 1
-- Recruitment and Resource Manager: 1
-- Recruitment and Compliance Administrator: 1
-
-## Yorkshire - West
-
-- LIKELY_IN: **3**
-- BORDERLINE: **3**
-- Provisional OUT: **8**
-
-Most common LIKELY_IN titles:
-
-- Recruitment Administrator: 2
-- HR Assistant: 1
-
-Borderline titles:
-
-- Branch Admin/ Resourcer: 1
-- Recruitment Account Coordinator: 1
-- People & Culture Manager: 1
-
-## Sussex
-
-- LIKELY_IN: **3**
-- BORDERLINE: **2**
-- Provisional OUT: **2**
-
-Most common LIKELY_IN titles:
-
-- Recruitment Administrator P/T: 1
-- School HR Administrator: 1
-- HR Coordinator: 1
-
-Borderline titles:
-
-- Payroll & HR Coordinator - Immediate Start: 1
-- HR Operations Coordinator - Temp Role: 1
-
-## Hampshire
-
-- LIKELY_IN: **2**
-- BORDERLINE: **3**
+- LIKELY_IN: **10**
+- BORDERLINE: **1**
 - Provisional OUT: **11**
 
 Most common LIKELY_IN titles:
 
-- HR Administrator - Permanent Position: 1
+- HR Assistant: 3
+- HR Administrator, Temporary to Permanent Opportunity: 2
+- HR Coordinator (2-Month Temporary Contract): 1
+- Learning and Development Coordinator: 1
+- HR Coordinator: 1
+- People Coordinator: 1
+- HR & Recruitment Coordinator: 1
+
+Borderline titles:
+
+- Onsite Recruitment Account Coordinator: 1
+
+## West Midlands - Birmingham & Solihull
+
+- LIKELY_IN: **6**
+- BORDERLINE: **4**
+- Provisional OUT: **28**
+
+Most common LIKELY_IN titles:
+
+- HR Coordinator: 1
+- Learning & Development Coordinator: 1
+- Recruitment Administrator - Healthcare Recruitment: 1
+- Learning and Development Coordinator: 1
+- People & Recruitment Coordinator: 1
 - HR Assistant: 1
 
 Borderline titles:
 
-- Onboarding Administrator: 1
-- People and Operations Assistant: 1
+- Resourcing Assistant: 1
+- HR & Systems Administrator: 1
+- HR and Payroll Assistant: 1
+- HR Project Partner - 12-Month FTC: 1
+
+## Northern Ireland - East
+
+- LIKELY_IN: **5**
+- BORDERLINE: **9**
+- Provisional OUT: **27**
+
+Most common LIKELY_IN titles:
+
+- Recruitment Assistant: 1
+- HR Administrator (Lisburn): 1
+- HR Administrator - Lisburn: 1
+- HR Administrator (Temp): 1
+- HR Administrator: 1
+
+Borderline titles:
+
+- Senior Talent Acquisition Resourcer (6 Months FTC): 1
+- HR Operations Manager: 1
+- HR Apprentice: 1
+- HR Officer: 1
+- Recruitment & Culture Lead - PT option available: 1
+- Recruitment Resourcer- Technology Division: 1
+- USA Technology Recruitment Sourcer: 1
+- HR & OD Officer: 1
+- HR & OD Officer - Lisburn: 1
+
+## Hampshire
+
+- LIKELY_IN: **5**
+- BORDERLINE: **6**
+- Provisional OUT: **14**
+
+Most common LIKELY_IN titles:
+
+- HR Administrator: 2
+- HR Assistant: 1
+- HR coordinator: 1
+- HR Coordinator: 1
+
+Borderline titles:
+
+- People Team Advisor: 1
 - HR and Payroll Coordinator: 1
+- TALENT ACQUISITION ADVISOR: 1
+- Resourcer: 1
+- HR and Operations Manager: 1
+- Recruitment Partner: 1
 

@@ -1,12 +1,12 @@
 # JobG8 Claims Support family validation
 
-Feed: **2026-09-02.xlsx**
+Feed: **2026-09-12.xlsx**
 Jobs in feed: **10,000**
-Broad insurance/claims universe: **200** raw rows
-IN after advert-level boundary rules: **36** raw rows
-BORDERLINE: **1** raw rows
-OUT: **163** raw rows
-Content-unique IN jobs: **35** (removed **1** exact-content duplicate rows)
+Broad insurance/claims universe: **370** raw rows
+IN after advert-level boundary rules: **56** raw rows
+BORDERLINE: **0** raw rows
+OUT: **314** raw rows
+Content-unique IN jobs: **55** (removed **1** exact-content duplicate rows)
 
 Diagnostic only: no LIVE slice, publishing rule or production family status is changed.
 
@@ -23,46 +23,46 @@ Diagnostic only: no LIVE slice, publishing rule or production family status is c
 
 | Decision | Raw rows |
 |---|---:|
-| IN | 36 |
-| BORDERLINE | 1 |
-| OUT | 163 |
+| IN | 56 |
+| BORDERLINE | 0 |
+| OUT | 314 |
 
 ## Content-unique IN regional shape
 
 | Jobs | Ontap region |
 |---:|---|
-| 4 | Essex |
-| 3 | Yorkshire - West |
-| 3 | London |
-| 2 | Staffordshire |
-| 2 | Scotland West - Glasgow |
+| 8 | Essex |
+| 5 | London |
+| 5 | Staffordshire |
+| 5 | Greater Manchester - Manchester & Salford |
+| 4 | Greater Manchester - Wigan & Bolton |
+| 3 | Scotland West - Glasgow |
+| 2 | Kent |
 | 2 | West Midlands - Birmingham & Solihull |
-| 2 | Greater Manchester - Manchester & Salford |
-| 2 | Norfolk |
-| 1 | Bristol & Bath |
-| 1 | Kent |
+| 2 | Yorkshire - West |
+| 2 | Northamptonshire |
+| 2 | Dorset |
 | 1 | Oxfordshire |
-| 1 | Greater Manchester - Wigan & Bolton |
 | 1 | Cheshire - West |
 | 1 | Leicestershire |
 | 1 | North East - Tyneside, Wearside & Northumberland |
 | 1 | Scotland Central - Fife |
-| 1 | Merseyside - Liverpool |
-| 1 | Wales South - Cardiff & Vale |
 | 1 | Hampshire |
-| 1 | Lancashire - Central |
-| 1 | Gloucestershire |
+| 1 | Bristol & Bath |
+| 1 | Cheshire - East |
+| 1 | Merseyside - Liverpool |
+| 1 | Greater Manchester - North |
+| 1 | Suffolk |
 
 ## JobG8 classifications feeding content-unique IN jobs
 
 | Jobs | JobG8 classification |
 |---:|---|
-| 25 | Insurance & Superannuation |
-| 4 | Call Centre / CustomerService |
-| 2 | Legal |
+| 50 | Insurance & Superannuation |
 | 2 | Administration |
 | 1 | Accounting |
-| 1 | Banking & Financial Services |
+| 1 | Call Centre / CustomerService |
+| 1 | Legal |
 
 ## Recurring content-unique IN titles
 
@@ -70,24 +70,31 @@ Diagnostic only: no LIVE slice, publishing rule or production family status is c
 |---:|---|
 | 9 | Claims Handler |
 | 7 | Casualty Claims Handler |
+| 3 | Commercial Claims Handler |
 | 3 | HNW / Private Clients Claims Technician |
-| 2 | Credit Hire Claims Handler |
-| 1 | Legal Expenses Claims Handler |
+| 3 | Credit Hire Claims Handler |
+| 3 | Motor Claims Handler |
+| 2 | Senior Claims Handler |
+| 2 | Insurance Claims Handler |
+| 2 | Property Claims Handler |
 | 1 | Insurance Coordinator |
 | 1 | Senior Customer Service Adviser |
 | 1 | Claims Administrator |
-| 1 | Commercial Claims Handler |
-| 1 | Claims Assistant |
 | 1 | Real Estate Claims Handler |
-| 1 | Motor Claims Handler |
 | 1 | Senior Claims Handler FTC |
-| 1 | Customer Service Advisor - Weekends |
-| 1 | Experience Insurance Claims Clerk |
-| 1 | Experienced Motor Claims Handler |
-| 1 | Third-Party Capture Claims Handler |
-| 1 | Senior Motor Fraud Claims Handler |
+| 1 | Third Party Claims Handler |
+| 1 | Insurance Administrator Friendly team + 25 days A/L |
+| 1 | Employer Liability and Public Liability Claims Handler (6 - Month FTC) |
+| 1 | Claims Handler - Home / Motor / Insurance - Remote |
+| 1 | Claims Handler (FTC) |
+| 1 | Claims Handler - insurance/construction - hybrid following probation |
+| 1 | Junior Claims Technician - Marine |
+| 1 | Claims & Customer Service Advisor |
+| 1 | Liability Claims Handler - EL/PL |
+| 1 | Claims Handler - EL & PL |
+| 1 | Legal Claims Handler - Healthcare London |
 
 ## Salary guard check
 
-Content-unique IN jobs with usable annualised maximum: **10**.
+Content-unique IN jobs with usable annualised maximum: **17**.
 IN jobs still over £50k: **0** (must be zero).

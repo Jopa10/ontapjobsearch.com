@@ -1,53 +1,12 @@
 ﻿display_reference,title,location,ontap_region,jobg8_classification,salary_minimum_raw,salary_maximum_raw,salary_period,annualised_minimum_estimate,annualised_maximum_estimate,boundary_decision,boundary_reason,content_fingerprint
-107784928,Commercial Insurance Broker,Leicestershire,East Midlands,Insurance & Superannuation,40000.00,40000.00,Annual,40000.0,40000.0,OUT,broad insurance/claims hit but not within defined claims-support boundary,b069a5c13c8f2394
-107785661,Claims Specialist,Derbyshire,East Midlands,Insurance & Superannuation,30000.00,30000.00,Annual,30000.0,30000.0,OUT,large-loss/major-loss/technical-lead specialist boundary,1d9e1c291dcfbf78
-28878_67048,Loss Adjuster,Home Based,Other / Unknown,Insurance & Superannuation,,,Annual,,,OUT,adjuster/sales/legal/management/senior-specialist title boundary,b71b97a16bf165aa
-28878_71378-d1ad1118e322cfa7266e7b2d62a0bf82,Commercial Property Adjuster,Surrey,London,Insurance & Superannuation,,,Annual,,,OUT,broad insurance/claims hit but not within defined claims-support boundary,c9a809927c524dcb
-28878_71378,Commercial Property Adjuster,Home Based,Other / Unknown,Insurance & Superannuation,,,Annual,,,OUT,broad insurance/claims hit but not within defined claims-support boundary,3145abc8a8e78881
-28878_71378-ab1a849fc49a73c6ce7211c198ce969f,Commercial Property Adjuster,Kent,London,Insurance & Superannuation,,,Annual,,,OUT,broad insurance/claims hit but not within defined claims-support boundary,13aaa4dedd4cfc73
-28878_67048-86ee7a988bdbb7eab11b77979f25f387,Loss Adjuster,Glasgow,London,Insurance & Superannuation,,,Annual,,,OUT,adjuster/sales/legal/management/senior-specialist title boundary,a5688e055530c0e1
-21618_28878_67048,Loss Adjuster,Home Based,Other / Unknown,Insurance & Superannuation,,,Annual,,,OUT,adjuster/sales/legal/management/senior-specialist title boundary,b71b97a16bf165aa
-21618_28878_71378-d1ad1118e322cfa7266e7b2d62a0bf82,Commercial Property Adjuster,Surrey,London,Real Estate & Property,,,Annual,,,OUT,broad insurance/claims hit but not within defined claims-support boundary,c9a809927c524dcb
-21618_28878_71378-ab1a849fc49a73c6ce7211c198ce969f,Commercial Property Adjuster,Kent,London,Real Estate & Property,,,Annual,,,OUT,broad insurance/claims hit but not within defined claims-support boundary,13aaa4dedd4cfc73
-21618_28878_71378,Commercial Property Adjuster,Home Based,Other / Unknown,Real Estate & Property,,,Annual,,,OUT,broad insurance/claims hit but not within defined claims-support boundary,3145abc8a8e78881
-21618_28878_67048-86ee7a988bdbb7eab11b77979f25f387,Loss Adjuster,Glasgow,London,Insurance & Superannuation,,,Annual,,,OUT,adjuster/sales/legal/management/senior-specialist title boundary,a5688e055530c0e1
-107793796,Commercial Underwriter,Suffolk,Suffolk,Insurance & Superannuation,45000.00,45000.00,Annual,45000.0,45000.0,OUT,adjuster/sales/legal/management/senior-specialist title boundary,0ce84f7d74dfd01b
-107794361,Senior New Business Underwriter- Property & Casualty,Birmingham,West Midlands - Birmingham & Solihull,Insurance & Superannuation,60000.00,60000.00,Annual,60000.0,60000.0,OUT,salary maximum over £50k,340008472e9df8ca
-107790787,Insurance Account Manager,Belfast,London,Sales & Marketing,,,Annual,,,OUT,adjuster/sales/legal/management/senior-specialist title boundary,7fafa33903c626ca
-23643_225471384,Claims Handler,Staffordshire,Staffordshire,Call Centre / CustomerService,24000.00,26000.00,Annual,24000.0,26000.0,IN,claims handling/admin/advice/support role,155a97a5124b5aa6
-107792646,Insurance Account Handler,Belfast,London,Sales & Marketing,,,Annual,,,OUT,general broking/account-handling/advice rather than claims support,ee0da5dd6f0097fd
-107805320,Commercial Account Handler,Essex,Essex,Sales & Marketing,55000.00,55000.00,Annual,55000.0,55000.0,OUT,salary maximum over £50k,46d225e379898191
-28878_67048-6235aa603e3e92e53d1200c49faf4748,Loss Adjuster,Cardiff,London,Insurance & Superannuation,,,Annual,,,OUT,adjuster/sales/legal/management/senior-specialist title boundary,87254c3913a9d1df
-28878_67048-a0db8f36b6dfb57221492ea5ddbd1c58,Loss Adjuster,Norfolk,Norfolk,Insurance & Superannuation,,,Annual,,,OUT,adjuster/sales/legal/management/senior-specialist title boundary,8e331bee224566d8
-28878_67048-1851c5a2dd628cbd04e7a6920c37b39a,Loss Adjuster,Buckinghamshire,Other / Unknown,Insurance & Superannuation,,,Annual,,,OUT,adjuster/sales/legal/management/senior-specialist title boundary,bf5abf48279f7633
-28878_67048-a201436cf43e945d8ed27ce11b467e22,Loss Adjuster,London,London,Insurance & Superannuation,,,Annual,,,OUT,adjuster/sales/legal/management/senior-specialist title boundary,a498ee8a9cd2c427
-21618_28878_67048-1851c5a2dd628cbd04e7a6920c37b39a,Loss Adjuster,Buckinghamshire,Other / Unknown,Insurance & Superannuation,,,Annual,,,OUT,adjuster/sales/legal/management/senior-specialist title boundary,bf5abf48279f7633
-21618_28878_67048-a0db8f36b6dfb57221492ea5ddbd1c58,Loss Adjuster,Norfolk,Norfolk,Insurance & Superannuation,,,Annual,,,OUT,adjuster/sales/legal/management/senior-specialist title boundary,8e331bee224566d8
-21618_28878_67048-6235aa603e3e92e53d1200c49faf4748,Loss Adjuster,Cardiff,London,Insurance & Superannuation,,,Annual,,,OUT,adjuster/sales/legal/management/senior-specialist title boundary,87254c3913a9d1df
-21618_28878_67048-a201436cf43e945d8ed27ce11b467e22,Loss Adjuster,London,London,Insurance & Superannuation,,,Annual,,,OUT,adjuster/sales/legal/management/senior-specialist title boundary,a498ee8a9cd2c427
-23643_225475483,Commercial Account Handler,Yorkshire,Other / Unknown,Accounting,30000.00,35000.00,Annual,30000.0,35000.0,OUT,general broking/account-handling/advice rather than claims support,b4ad879fdde6c080
-23643_224388161,PROPERTY INSURANCE ACCOUNT HANDLER,Kent,Kent,Accounting,28000.00,35000.00,Annual,28000.0,35000.0,OUT,general broking/account-handling/advice rather than claims support,675e51022a3c72a1
-107193862,Insurance Account Executive,Hampshire,Hampshire,Sales & Marketing,25.00,25.00,Annual,25.0,25.0,OUT,adjuster/sales/legal/management/senior-specialist title boundary,358bfd9cf92ba3a6
-107823594,Account Handler,London,London,Sales & Marketing,50000.00,50000.00,Annual,50000.0,50000.0,OUT,general broking/account-handling/advice rather than claims support,91d7933d3d3d3de8
-23643_225498080,Insurance Complaints Team Lead - Remote Working,Not Specified,Other / Unknown,Accounting,50000.00,55000.00,Annual,50000.0,55000.0,OUT,salary maximum over £50k,1eda9c466ccb9f00
 107836185,Senior Mortgage Broker,Midlothian,Scotland Central - Edinburgh & Lothians,Banking & Financial Services,100000.00,100000.00,Annual,100000.0,100000.0,OUT,salary maximum over £50k,2daa8d825a56d203
-107803887,Broker Development Manager,Birmingham,West Midlands - Birmingham & Solihull,Insurance & Superannuation,,,Annual,,,OUT,adjuster/sales/legal/management/senior-specialist title boundary,7342c6b11615faab
-23643_225500967,Legal Expenses Claims Handler,Gloucestershire,Bristol & Bath,Legal,26000.00,28000.00,Annual,26000.0,28000.0,IN,claims handling/admin/advice/support role,346a02979ce5ef0a
-107820512,Commercial Account Handler,Cheshire,Cheshire - West,Sales & Marketing,35000.00,35000.00,Annual,35000.0,35000.0,OUT,general broking/account-handling/advice rather than claims support,c2eee0accbb4befe
-107805010,Pricing Actuary,London,London,Insurance & Superannuation,100000.00,100000.00,Annual,100000.0,100000.0,OUT,salary maximum over £50k,4aa7a2c405d26fce
-107823477,Interim Head of Underwriting Governance & Controls,London,London,Insurance & Superannuation,825.00,825.00,Daily,,,OUT,adjuster/sales/legal/management/senior-specialist title boundary,86952d063a5bd64d
 23643_225510966,Insurance Coordinator,Kent,Kent,Accounting,15.60,15.60,Hourly,30420.0,30420.0,IN,insurance administration with clear claims-processing/support duties,b61dc17f31f36409
-107830296,Part Time Reserving Actuary (3 days per week),London,London,Insurance & Superannuation,100000.00,100000.00,Annual,100000.0,100000.0,OUT,salary maximum over £50k,491292fa2161e290
 23643_225513037,Senior Customer Service Adviser,Norfolk,Other / Unknown,Call Centre / CustomerService,,,Annual,,,IN,customer-service role embedded in insurance-claims handling,77aafc07aaad6a28
 23643_225519028,Domestic Major Loss Adjuster (Southeast),London,London,Accounting,80000.00,80000.00,Annual,80000.0,80000.0,OUT,salary maximum over £50k,3744cb63dc3996d3
 107857578,Personal Lines Account Handler,Manchester,Greater Manchester - Manchester & Salford,Insurance & Superannuation,30000.00,30000.00,Annual,30000.0,30000.0,OUT,general broking/account-handling/advice rather than claims support,e48bb7d9d808d62f
-107728812,Commercial Account Handler,Gloucestershire,Gloucestershire,Sales & Marketing,40000.00,40000.00,Annual,40000.0,40000.0,OUT,general broking/account-handling/advice rather than claims support,187fcab3992dda17
-107862007,Insurance Advisor - Commercial,Hampshire,Hampshire,Insurance & Superannuation,,,Annual,,,OUT,general broking/account-handling/advice rather than claims support,abe14971131c9c9a
 23643_225412786,Claims Administrator,Oxfordshire,Oxfordshire,Administration,26000.00,28000.00,Annual,26000.0,28000.0,IN,claims handling/admin/advice/support role,805372f7779bc359
-107747389,Commercial Account Handler,Essex,Essex,Sales & Marketing,40000.00,40000.00,Annual,40000.0,40000.0,OUT,general broking/account-handling/advice rather than claims support,b0de9d916669d206
 107862411,Mortgage Broker,Buckinghamshire,Buckinghamshire,Banking & Financial Services,100000.00,100000.00,Annual,100000.0,100000.0,OUT,salary maximum over £50k,f8d04ed6e2ca6733
 107881821,Mortgage Broker,Essex,Essex,Banking & Financial Services,30000.00,30000.00,Annual,30000.0,30000.0,OUT,broad insurance/claims hit but not within defined claims-support boundary,d271b3e3fe583a5d
-107803444,Broker Development Manager,Birmingham,West Midlands - Birmingham & Solihull,Insurance & Superannuation,,,Annual,,,OUT,adjuster/sales/legal/management/senior-specialist title boundary,1c4e70987f1fadbe
 1787400,Senior Account Handler,Cambridgeshire,Cambridgeshire,Insurance & Superannuation,,,Annual,,,OUT,general broking/account-handling/advice rather than claims support,d5fc7988e18774b5
 1787397,Client Facing Account Handler,Suffolk,Suffolk,Insurance & Superannuation,,,Annual,,,OUT,general broking/account-handling/advice rather than claims support,e0e056153bc75f9a
 1787427,Commercial Claims Handler,Essex,Essex,Insurance & Superannuation,,,Annual,,,IN,claims handling/admin/advice/support role,173a6a9816a3b2da
@@ -60,21 +19,17 @@
 1787004,HNW / Private Clients Claims Technician,Lanarkshire,Scotland West - Glasgow,Insurance & Superannuation,,,Annual,,,IN,claims handling/admin/advice/support role,2a13d6f1da8d40b8
 1787003,HNW / Private Clients Claims Technician,Birmingham,West Midlands - Birmingham & Solihull,Insurance & Superannuation,,,Annual,,,IN,claims handling/admin/advice/support role,86ba62e194b58a7e
 1786659,Senior Claims Adjuster - Marine Liability,London,London,Insurance & Superannuation,,,Annual,,,OUT,adjuster/sales/legal/management/senior-specialist title boundary,36026ba22ddbaf52
-1786630,Claims Assistant,Yorkshire,Yorkshire - West,Call Centre / CustomerService,,,Annual,,,IN,claims handling/admin/advice/support role,573059e8bec18ff8
 1786615,Energy Claims Adjuster,London,London,Insurance & Superannuation,,,Annual,,,OUT,adjuster/sales/legal/management/senior-specialist title boundary,26003d022453f632
 1771486,HEALTH INSURANCE BROKER PMI EMPLOYEE BENEFITS,London,London,Insurance & Superannuation,,,Annual,,,OUT,broad insurance/claims hit but not within defined claims-support boundary,e233080ff7c3b535
 1785809,Insurance Division Leader,Suffolk,Suffolk,Insurance & Superannuation,,,Annual,,,OUT,broad insurance/claims hit but not within defined claims-support boundary,a20382d6045055dc
 1785803,Account Handler,Shropshire,Shropshire,Insurance & Superannuation,,,Annual,,,OUT,general broking/account-handling/advice rather than claims support,049aaed266a343ec
 1785799,Account Handler,Gloucestershire,Gloucestershire,Insurance & Superannuation,,,Annual,,,OUT,general broking/account-handling/advice rather than claims support,ce01f6107b15777b
-1785795,Insurance Advisor,Norfolk,Norfolk,Sales & Marketing,,,Annual,,,OUT,general broking/account-handling/advice rather than claims support,470aabf7b75a74d3
 1785755,Insurance Team Leader Heritage,Hampshire,Hampshire,Insurance & Superannuation,,,Annual,,,OUT,adjuster/sales/legal/management/senior-specialist title boundary,fbd7b94fe7e570bf
 1785752,Counter Fraud Linked & Organised Litigated Handler,Lancashire,Greater Manchester - Wigan & Bolton,Insurance & Superannuation,,,Annual,,,OUT,substantively litigation/legal file-handling rather than claims operations,0a03610c3c7fc44c
 1785717,Account Handler,Dumfriesshire,Other / Unknown,Insurance & Superannuation,,,Annual,,,OUT,general broking/account-handling/advice rather than claims support,0ae06769ccaae80a
 1785715,Account Handler,Cheshire,Other / Unknown,Insurance & Superannuation,,,Annual,,,OUT,general broking/account-handling/advice rather than claims support,9222961633d87e97
-1785709,Senior Accommodation Coordinator,Staffordshire,Staffordshire,Call Centre / CustomerService,,,Annual,,,OUT,broad insurance/claims hit but not within defined claims-support boundary,f931d90df3dbdc86
 1785697,Real Estate Claims Handler,London,London,Insurance & Superannuation,,,Annual,,,IN,claims handling/admin/advice/support role,2841359cfc303fd4
 1785691,Insurance Development Executive,Berkshire,Berkshire,Insurance & Superannuation,,,Annual,,,OUT,broad insurance/claims hit but not within defined claims-support boundary,9524d023deaaa0dc
-1785685,Insurance Account Handler,Yorkshire,Yorkshire - West,Insurance & Superannuation,,,Annual,,,OUT,general broking/account-handling/advice rather than claims support,5625830df2abeb17
 1785675,Insurance Account Handler,Lanarkshire,Scotland West - Glasgow,Insurance & Superannuation,,,Annual,,,OUT,general broking/account-handling/advice rather than claims support,108fe67d16f95a90
 1785859,Construction Executive Adjuster,South East,Other / Unknown,Insurance & Superannuation,,,Annual,,,OUT,broad insurance/claims hit but not within defined claims-support boundary,ce42e210ad13d8a7
 1785858,Construction Executive Adjuster,London,London,Insurance & Superannuation,,,Annual,,,OUT,broad insurance/claims hit but not within defined claims-support boundary,4ac4ca64b5968401
@@ -95,26 +50,15 @@
 1770800,Claims Handler,Fife,Scotland Central - Fife,Insurance & Superannuation,45000.00,45000.00,Annual,45000.0,45000.0,IN,claims handling/admin/advice/support role,526f37f754b2bf3e
 1783390,Pricing Actuary,London,London,Insurance & Superannuation,,,Annual,,,OUT,adjuster/sales/legal/management/senior-specialist title boundary,b754fb7f14b409cb
 1769868,Broker / Technician,London,London,Insurance & Superannuation,,,Annual,,,OUT,broad insurance/claims hit but not within defined claims-support boundary,588f8d5d68730049
-1769848,Senior Customer Service Adviser,Norfolk,Norfolk,Call Centre / CustomerService,,,Annual,,,IN,customer-service role embedded in insurance-claims handling,77aafc07aaad6a28
 1769700,Commercial Insurance Account Executive,Buckinghamshire,Buckinghamshire,Insurance & Superannuation,,,Annual,,,OUT,adjuster/sales/legal/management/senior-specialist title boundary,ff2cf0a4faaebbb4
-1763925,Field Based Property Loss Adjuster London and South East,Worcestershire,Worcestershire,Insurance & Superannuation,,,Annual,,,OUT,adjuster/sales/legal/management/senior-specialist title boundary,e87228b0892d0f9d
-1763918,MCL Desk Adjuster,Worcestershire,Worcestershire,Insurance & Superannuation,,,Annual,,,OUT,large-loss/major-loss/technical-lead specialist boundary,8fafd0d1f17c676a
-1763634,"Commercial Account Handler - West Bromwich - Salary up to &;40,000 New Job",Birmingham,West Midlands - Birmingham & Solihull,Insurance & Superannuation,40000.00,40000.00,Annual,40000.0,40000.0,OUT,general broking/account-handling/advice rather than claims support,5ae93c05a194deb9
-1763631,"Commercial Account Handler - West Bromwich - Salary up to &;40,000 New Job",West Midlands,West Midlands - Black Country,Insurance & Superannuation,40000.00,40000.00,Annual,40000.0,40000.0,OUT,general broking/account-handling/advice rather than claims support,c7bdddf04a6aae56
 1768913,Risk and Insurance Manager,London,London,Insurance & Superannuation,,,Annual,,,OUT,adjuster/sales/legal/management/senior-specialist title boundary,5d2c4c3f5f2aace9
 1767351,Mass Claims Contingent Investigator,London,London,Banking & Financial Services,210.00,210.00,Daily,,,OUT,broad insurance/claims hit but not within defined claims-support boundary,fcec3ab8e9f60029
 1767113,Credit Hire Claims Handler,Lancashire,Greater Manchester - Manchester & Salford,Insurance & Superannuation,,,Annual,,,IN,claims handling/admin/advice/support role,8fa99ffc9f64e91b
 1767112,Credit Hire Claims Handler,London,London,Insurance & Superannuation,,,Annual,,,IN,claims handling/admin/advice/support role,343539b2ce8c2f2b
-1733141,Experienced Insurance Technician,Gloucestershire,Gloucestershire,Administration,30000.00,42000.00,Annual,30000.0,42000.0,BORDERLINE,manual review retained as genuinely arguable,05c6e089f1124a46
-1733165,Insurance Analyst,Gloucestershire,Gloucestershire,Administration,,,Annual,,,OUT,broad insurance/claims hit but not within defined claims-support boundary,ab2badf45caa600a
 1733032,COMPLEX PERSONAL INJURY CLAIMS HANDLER,Kent,Kent,Insurance & Superannuation,50000.00,150000.00,Annual,50000.0,150000.0,OUT,salary maximum over £50k,a0fc5d51ca3a6cd7
-1762917,Development Underwriter - North,Cheshire,Other / Unknown,Insurance & Superannuation,80000.00,80000.00,Annual,80000.0,80000.0,OUT,salary maximum over £50k,d4c7b505585bd5bb
 1767496,(Senior) Claims Adjuster - US Property,London,London,Insurance & Superannuation,,,Annual,,,OUT,adjuster/sales/legal/management/senior-specialist title boundary,cadb8a65a1ced880
-1704947,Small Claims Track Handler (NDA Team),Lancashire,Greater Manchester - Wigan & Bolton,Insurance & Superannuation,150000.00,150000.00,Annual,150000.0,150000.0,OUT,salary maximum over £50k,7d4b0b8094d4ce0e
 1766463,Claims Handler,Lanarkshire,Scotland West - Glasgow,Insurance & Superannuation,,,Annual,,,IN,claims handling/admin/advice/support role,ab6d979a1fa4d768
 1766462,Claims Handler,Essex,Essex,Insurance & Superannuation,,,Annual,,,IN,claims handling/admin/advice/support role,4212505ebf2ae6bf
-1780172,Motor Claims Handler,Merseyside,Merseyside - Liverpool,Banking & Financial Services,,,Annual,,,IN,claims handling/admin/advice/support role,31c63d78f4d9542f
-1770973,Claims Handler,South Glamorgan,Wales South - Cardiff & Vale,Insurance & Superannuation,,,Annual,,,IN,claims handling/admin/advice/support role,587eb2f17c142834
 1769981,Claims Handler,Hampshire,Hampshire,Insurance & Superannuation,,,Annual,,,IN,claims handling/admin/advice/support role,0f0ff3d918fac620
 1769978,Claims Executive,Kent,Kent,Insurance & Superannuation,,,Annual,,,OUT,claims executive is field/client-risk oversight rather than claims support,ac4bf04f8d748a80
 1769685,Motor Underwriter - Hybrid,London,Other / Unknown,Insurance & Superannuation,,,Annual,,,OUT,adjuster/sales/legal/management/senior-specialist title boundary,b7ecdce9c8e5010c
@@ -123,79 +67,305 @@
 1769681,Home Claims Team Leader,Essex,Essex,Insurance & Superannuation,,,Annual,,,OUT,adjuster/sales/legal/management/senior-specialist title boundary,21cb34f23d38e472
 1769629,Senior Claims Handler FTC,Yorkshire,Yorkshire - West,Insurance & Superannuation,,,Annual,,,IN,claims handling/admin/advice/support role,42be1028193fb564
 1769536,Claims Handler,London,London,Insurance & Superannuation,35000.00,35000.00,Annual,35000.0,35000.0,IN,claims handling/admin/advice/support role,eece613dd6131fb3
-1769423,Motor Account Handler,Bristol,London,Insurance & Superannuation,,,Annual,,,OUT,general broking/account-handling/advice rather than claims support,caf38ac34a2bf959
 1769393,Commercial Property Loss Adjuster - Executive Manager,West Midlands,West Midlands,Insurance & Superannuation,,,Annual,,,OUT,adjuster/sales/legal/management/senior-specialist title boundary,736852dfbc53e6a0
 1769309,Underwriter,London,London,Banking & Financial Services,75000.00,75000.00,Annual,75000.0,75000.0,OUT,salary maximum over £50k,8bb720d07e31386d
 1766003,Senior Reinsurance Transaction Manager,London,London,Banking & Financial Services,,,Annual,,,OUT,adjuster/sales/legal/management/senior-specialist title boundary,a2f9cdb7e47388d1
-1750787,COMMERCIAL INSURANCE ACCOUNT HANDLER,Hertfordshire,Hertfordshire,Insurance & Superannuation,,,Annual,,,OUT,general broking/account-handling/advice rather than claims support,f80f8e9488df34ef
-1766234,Insurance Account Handler - Personal Lines,Yorkshire,Yorkshire - North,Insurance & Superannuation,,,Annual,,,OUT,general broking/account-handling/advice rather than claims support,cf80999d0bcfad3e
 1778734,New Business Underwriter,Lancashire,Greater Manchester - Manchester & Salford,Insurance & Superannuation,,,Annual,,,OUT,adjuster/sales/legal/management/senior-specialist title boundary,2e519d846e1888b3
-1779076,Customer Service Advisor - Weekends,Lancashire,Lancashire - Central,Call Centre / CustomerService,,,Annual,,,IN,customer-service role embedded in insurance-claims handling,1c1a1a71744e8dca
 1779224,Senior Claims Manager,London,London,Insurance & Superannuation,,,Annual,,,OUT,adjuster/sales/legal/management/senior-specialist title boundary,ab01205ffda539f6
 1779013,Senior Reinsurance Technician,London,London,Insurance & Superannuation,,,Annual,,,OUT,broad insurance/claims hit but not within defined claims-support boundary,76ec5c2edfdc5989
-1778985,Commercial Broker,West Glamorgan,Wales South - Swansea Bay,Insurance & Superannuation,30000.00,70000.00,Annual,30000.0,70000.0,OUT,salary maximum over £50k,b042d81effb98117
-1778984,Commercial Account Handler/Executive,Dyfed,Wales - West,Insurance & Superannuation,30000.00,70000.00,Annual,30000.0,70000.0,OUT,salary maximum over £50k,f3ac3824093ac79c
-1778983,Account Handler,Birmingham,West Midlands - Birmingham & Solihull,Insurance & Superannuation,40000.00,50000.00,Annual,40000.0,50000.0,OUT,general broking/account-handling/advice rather than claims support,dc16627e05393c15
-1778977,Account Handler,Leicestershire,Leicestershire,Insurance & Superannuation,40000.00,50000.00,Annual,40000.0,50000.0,OUT,general broking/account-handling/advice rather than claims support,467489309322ddad
 1778966,Corporoate Account Handler,Somerset,Bristol & Bath,Insurance & Superannuation,35000.00,50000.00,Annual,35000.0,50000.0,OUT,general broking/account-handling/advice rather than claims support,002d72ec64d46adf
-1778965,Account Handler,Somerset,Bristol & Bath,Insurance & Superannuation,32000.00,40000.00,Annual,32000.0,40000.0,OUT,general broking/account-handling/advice rather than claims support,08b713436ea80aaa
-1757110,Fleet Insurance Handler (Commercial Insurance),Cheshire,Greater Manchester - South,Insurance & Superannuation,35000.00,40000.00,Annual,35000.0,40000.0,OUT,broad insurance/claims hit but not within defined claims-support boundary,39fe501461696af4
 1734199,Insurance Broker,Hampshire,Hampshire,Insurance & Superannuation,,,Annual,,,OUT,broad insurance/claims hit but not within defined claims-support boundary,baad76a17e9c746d
 1733546,NNQ Life Actuary - Risk Modelling,London,London,Banking & Financial Services,75000.00,75000.00,Annual,75000.0,75000.0,OUT,salary maximum over £50k,923634d31feed449
-1733230,Experience Insurance Claims Clerk,Gloucestershire,Gloucestershire,Administration,30000.00,42000.00,Annual,30000.0,42000.0,IN,claims handling/admin/advice/support role,fea1e02432801e20
+1775481,Third Party Claims Handler,Lancashire,Greater Manchester - Wigan & Bolton,Insurance & Superannuation,,,Annual,,,IN,claims handling/admin/advice/support role,1d6e2efdcd72c3b8
+1778521,Senior Claims Handler,Somerset,Bristol & Bath,Insurance & Superannuation,,,Annual,,,IN,claims handling/admin/advice/support role,82d3e3fd4288e0cf
 1789933,Senior Insurance Administrator (Award-Winning Broker),Yorkshire,Yorkshire - West,Insurance & Superannuation,35000.00,35000.00,Annual,35000.0,35000.0,OUT,broad insurance/claims hit but not within defined claims-support boundary,dd2d08333c9a6b26
 1798300,Casualty Litigated Claims Handler,Lancashire,Greater Manchester - Wigan & Bolton,Insurance & Superannuation,,,Annual,,,OUT,substantively litigation/legal file-handling rather than claims operations,39d02af7d7998c14
 1790074,Account Handler,Sussex,Sussex,Insurance & Superannuation,,,Annual,,,OUT,general broking/account-handling/advice rather than claims support,d4b7e3de64db7b2d
-107818791,Commercial Account Handler,Yorkshire,Yorkshire - West,Sales & Marketing,40000.00,40000.00,Annual,40000.0,40000.0,OUT,general broking/account-handling/advice rather than claims support,8ec8c132513c4882
 1800543,Commercial Insurance Broker,Cheshire,Greater Manchester - South,Insurance & Superannuation,35000.00,35000.00,Annual,35000.0,35000.0,OUT,broad insurance/claims hit but not within defined claims-support boundary,d87fe6e5eaaf80b4
 107700709,Commercial Insurance Account Handler,Hampshire,Hampshire,Sales & Marketing,25.00,25.00,Annual,25.0,25.0,OUT,general broking/account-handling/advice rather than claims support,2896fafb00b747c7
-107798573,Technical Account Handler,Yorkshire,Yorkshire - West,Sales & Marketing,50000.00,50000.00,Annual,50000.0,50000.0,OUT,general broking/account-handling/advice rather than claims support,028d48a8fe06991e
-107881301,Insurance Apprentice,Sussex,Sussex,Insurance & Superannuation,20000.00,20000.00,Annual,20000.0,20000.0,OUT,broad insurance/claims hit but not within defined claims-support boundary,cbeaaed2b13fb235
 23643_225263851,Claims Handler,Manchester,Other / Unknown,Legal,13.74,13.74,Hourly,26793.0,26793.0,IN,claims handling/admin/advice/support role,0bf42eafa7614484
-107888743,Senior Account Handler,Cambridgeshire,Cambridgeshire,Sales & Marketing,45000.00,45000.00,Annual,45000.0,45000.0,OUT,general broking/account-handling/advice rather than claims support,c5babab7b6b32b25
-107889266,"Assistant Director - Relationship Manager, Insurance",London,London,Call Centre / CustomerService,95000.00,95000.00,Annual,95000.0,95000.0,OUT,salary maximum over £50k,593939e8c2ee1e28
+107889465,Underwriting Analyst,London,London,Insurance & Superannuation,,,Annual,,,OUT,adjuster/sales/legal/management/senior-specialist title boundary,d8ac6c989cc97ae8
 107888738,Client Facing Account Handler,Suffolk,Suffolk,Sales & Marketing,35000.00,35000.00,Annual,35000.0,35000.0,OUT,general broking/account-handling/advice rather than claims support,53eb6445b1f605bd
-1799873,Senior Pricing Analyst - Technical - Insurance,Kent,Kent,I.T. & Communications,60000.00,60000.00,Annual,60000.0,60000.0,OUT,salary maximum over £50k,5feb874d3f95b007
-1799294,Business Analyst (Insurance),London,London,I.T. & Communications,110000.00,110000.00,Annual,110000.0,110000.0,OUT,salary maximum over £50k,c8e1a552ba932b83
 107465443,Insurance Account Executive,Shropshire,Shropshire,Insurance & Superannuation,40000.00,40000.00,Annual,40000.0,40000.0,OUT,adjuster/sales/legal/management/senior-specialist title boundary,0ed8723b94396b79
-107728507,Senior Claims Adjuster - Casualty,London,London,Insurance & Superannuation,,,Annual,,,OUT,adjuster/sales/legal/management/senior-specialist title boundary,644b5b6bf6efacb3
-107734747,Experienced Motor Claims Handler,Norfolk,Norfolk,Insurance & Superannuation,30000.00,30000.00,Annual,30000.0,30000.0,IN,claims handling/admin/advice/support role,1be5f518633f598c
-107752321,Third-Party Capture Claims Handler,Norfolk,Norfolk,Insurance & Superannuation,30000.00,30000.00,Annual,30000.0,30000.0,IN,claims handling/admin/advice/support role,efef11d2f7b1178f
-107754488,Head of Distribution - Commercial Insurance,Essex,Essex,Insurance & Superannuation,,,Annual,,,OUT,adjuster/sales/legal/management/senior-specialist title boundary,2e958667305f995b
-107758543,Account Executive - Commercial Insurance,Mid Glamorgan,Wales South - Swansea Bay,Insurance & Superannuation,26000.00,26000.00,Annual,26000.0,26000.0,OUT,adjuster/sales/legal/management/senior-specialist title boundary,c2cb96f4142b721d
-107770852,Insurance Account Handler,Hertfordshire,Hertfordshire,Sales & Marketing,40000.00,40000.00,Annual,40000.0,40000.0,OUT,general broking/account-handling/advice rather than claims support,1ac989176ce402ca
-107783628,Defence Claims Manager,Northamptonshire,Northamptonshire,Insurance & Superannuation,,,Annual,,,OUT,adjuster/sales/legal/management/senior-specialist title boundary,f3e303adfd720c3f
-107793801,Commercial Underwriter,Essex,Essex,Insurance & Superannuation,45000.00,45000.00,Annual,45000.0,45000.0,OUT,adjuster/sales/legal/management/senior-specialist title boundary,b1a40f665e8e9460
-107890404,High Net Worth Underwriter,London,London,Insurance & Superannuation,90000.00,90000.00,Annual,90000.0,90000.0,OUT,salary maximum over £50k,1ad5bc22ce944501
-107900107,Senior Account Handler,Yorkshire,Yorkshire - West,Sales & Marketing,50000.00,50000.00,Annual,50000.0,50000.0,OUT,general broking/account-handling/advice rather than claims support,899b24a937305807
 107842560,Commercial Insurance Account Manager,Devon,Devon,Sales & Marketing,35000.00,35000.00,Annual,35000.0,35000.0,OUT,adjuster/sales/legal/management/senior-specialist title boundary,5640b54a588b6682
-107890303,"Enterprise Account Executive, Life, Pensions and Insurance",London,London,Sales & Marketing,100000.00,100000.00,Annual,100000.0,100000.0,OUT,salary maximum over £50k,e4de4206b7a32693
 107855976,Commercial Account Handler,Tyne And Wear,"North East - Tyneside, Wearside & Northumberland",Sales & Marketing,40000.00,40000.00,Annual,40000.0,40000.0,OUT,general broking/account-handling/advice rather than claims support,102fd9264486870a
-107776023,Trainee Account Handler,Cheshire,Other / Unknown,Sales & Marketing,30000.00,30000.00,Annual,30000.0,30000.0,OUT,general broking/account-handling/advice rather than claims support,7d9dbf4fa7204a50
-107771411,"Consulting Manager, General Insurance",London,London,Insurance & Superannuation,,,Annual,,,OUT,adjuster/sales/legal/management/senior-specialist title boundary,077349c6655c1bc1
-107889992,Product Manager - London Market Insurance Software,London,London,Insurance & Superannuation,100000.00,100000.00,Annual,100000.0,100000.0,OUT,salary maximum over £50k,ac7af9d54789d128
 107909214,Personal Lines Account Handler,Kent,Kent,Sales & Marketing,,,Annual,,,OUT,general broking/account-handling/advice rather than claims support,d0235922a60ae919
-107901176,Credit Analyst - LBO Underwriting,London,London,Accounting,95000.00,95000.00,Annual,95000.0,95000.0,OUT,salary maximum over £50k,9cdc19d985bcd180
-107785821,Strategic Pricing Actuary,London,London,Insurance & Superannuation,100000.00,100000.00,Annual,100000.0,100000.0,OUT,salary maximum over £50k,4ecf2f9408e8e073
-107786191,Pricing Actuary,London,London,Insurance & Superannuation,100000.00,100000.00,Annual,100000.0,100000.0,OUT,salary maximum over £50k,ebef268f64a182ec
-107765632,Property Claims Technician,Staffordshire,Staffordshire,Real Estate & Property,,,Annual,,,OUT,claims title but advert is specialist/market/large-loss work,31d3771535fae1c4
-107890403,Actuarial Manager - Life Valuations Reporting,London,London,Insurance & Superannuation,100000.00,100000.00,Annual,100000.0,100000.0,OUT,salary maximum over £50k,36a7ed2e345bdc87
-107877231,Sales Account Handler / Administrator,Ayrshire,Scotland West - Ayrshire,Sales & Marketing,,,Annual,,,OUT,general broking/account-handling/advice rather than claims support,53a33ab7729e911e
-107820180,Commercial Account Handler,Yorkshire,Other / Unknown,Sales & Marketing,35000.00,35000.00,Annual,35000.0,35000.0,OUT,general broking/account-handling/advice rather than claims support,aca47956e3d3d167
 107890833,"Membership, Insurance & Compliance Manager Part Time",Gloucestershire,Gloucestershire,Insurance & Superannuation,,,Annual,,,OUT,adjuster/sales/legal/management/senior-specialist title boundary,a0fd34a3545cb19c
-107731798,Commercial Broker/Trainee Exec,Lanarkshire,Scotland West - Glasgow,Sales & Marketing,40000.00,40000.00,Annual,40000.0,40000.0,OUT,broad insurance/claims hit but not within defined claims-support boundary,90afa972b4c3fc88
-107805348,Commercial Account Handler,Manchester,Greater Manchester - Manchester & Salford,Sales & Marketing,35000.00,35000.00,Annual,35000.0,35000.0,OUT,general broking/account-handling/advice rather than claims support,54a372f1081f576f
-107863463,Senior Motor Fraud Claims Handler,Essex,Essex,Insurance & Superannuation,,,Annual,,,IN,claims handling/admin/advice/support role,57f350bf4fdaa440
-107853950,UK Technical Underwriting Manager Risk Managed,London,London,Insurance & Superannuation,,,Annual,,,OUT,adjuster/sales/legal/management/senior-specialist title boundary,4ca662f1476b977f
-107903817,Account Handler,West Midlands,West Midlands - Black Country,Sales & Marketing,,,Annual,,,OUT,general broking/account-handling/advice rather than claims support,5a801d47e27324d3
-107889709,Senior Pricing Analyst - Insurance,Cheshire,Cheshire - East,Insurance & Superannuation,,,Annual,,,OUT,broad insurance/claims hit but not within defined claims-support boundary,70b49d810bb2783e
-107836205,Head of Underwriting Governance and Controls,London,London,Insurance & Superannuation,800.00,825.00,Daily,,,OUT,adjuster/sales/legal/management/senior-specialist title boundary,599dcdd0a59b0f1f
-107890421,R and D Actuarial Analyst,London,London,Insurance & Superannuation,55000.00,55000.00,Annual,55000.0,55000.0,OUT,salary maximum over £50k,2ae935138fa5b715
-107874116,Account Handler,London,London,Sales & Marketing,,,Annual,,,OUT,general broking/account-handling/advice rather than claims support,05a1ecaf16078946
-107919004,Corporate CRE Underwriter,Middlesex,London,Insurance & Superannuation,60000.00,60000.00,Annual,60000.0,60000.0,OUT,salary maximum over £50k,edb7fc21d3feea39
-107747398,Construction Underwriter - FM Renewable Energy,London,London,Insurance & Superannuation,,,Annual,,,OUT,adjuster/sales/legal/management/senior-specialist title boundary,fce0cb979941d6f2
-107791730,Senior Commercial Account Handler,Yorkshire,Yorkshire - South,Sales & Marketing,40000.00,40000.00,Annual,40000.0,40000.0,OUT,general broking/account-handling/advice rather than claims support,69c6e0dd049ff7dd
-107809608,Senior Pensions Actuary,Manchester,Greater Manchester - Manchester & Salford,Insurance & Superannuation,,,Annual,,,OUT,adjuster/sales/legal/management/senior-specialist title boundary,0d2b9f1f29da8668
-107890093,Insurance Software Presales Consultant,London,London,Insurance & Superannuation,90000.00,90000.00,Annual,90000.0,90000.0,OUT,salary maximum over £50k,d75c95fc72c0d57b
-107890424,Actuarial Analyst - Life Actuarial,London,London,Insurance & Superannuation,65000.00,65000.00,Annual,65000.0,65000.0,OUT,salary maximum over £50k,ae59777e19c72394
-107894312,Senior Actuary UK&I,London,London,Insurance & Superannuation,,,Annual,,,OUT,adjuster/sales/legal/management/senior-specialist title boundary,543c174814a8c0d2
+28878_73434,Loss Adjuster - Eastleigh /Southampton / Reading region,Hampshire,Other / Unknown,Insurance & Superannuation,,,Annual,,,OUT,adjuster/sales/legal/management/senior-specialist title boundary,57d7953866dc517d
+28878_73431,Loss Adjuster - Northern Ireland,Field Based,Other / Unknown,Insurance & Superannuation,,,Annual,,,OUT,adjuster/sales/legal/management/senior-specialist title boundary,e8e4e992fe4b12ed
+28878_73430,Loss Adjuster - Birmingham,Birmingham,London,Insurance & Superannuation,,,Annual,,,OUT,adjuster/sales/legal/management/senior-specialist title boundary,d46aa304f8a8f368
+28878_73432,Loss Adjuster - Perth / Dundee region,Perth & Kinross,Scotland Central - Tayside,Insurance & Superannuation,,,Annual,,,OUT,adjuster/sales/legal/management/senior-specialist title boundary,b72610dbe2a08487
+21618_28878_73431,Loss Adjuster - Northern Ireland,Field Based,Other / Unknown,Insurance & Superannuation,,,Annual,,,OUT,adjuster/sales/legal/management/senior-specialist title boundary,e8e4e992fe4b12ed
+21618_28878_73434,Loss Adjuster - Eastleigh /Southampton / Reading region,Hampshire,Other / Unknown,Insurance & Superannuation,,,Annual,,,OUT,adjuster/sales/legal/management/senior-specialist title boundary,57d7953866dc517d
+21618_28878_73432,Loss Adjuster - Perth / Dundee region,Perth & Kinross,Scotland Central - Tayside,Insurance & Superannuation,,,Annual,,,OUT,adjuster/sales/legal/management/senior-specialist title boundary,b72610dbe2a08487
+21618_28878_73430,Loss Adjuster - Birmingham,Birmingham,London,Insurance & Superannuation,,,Annual,,,OUT,adjuster/sales/legal/management/senior-specialist title boundary,d46aa304f8a8f368
+107790787,Insurance Account Manager,Belfast,London,Sales & Marketing,,,Annual,,,OUT,adjuster/sales/legal/management/senior-specialist title boundary,5cb917a93f2de52d
+107792646,Insurance Account Handler,Belfast,London,Sales & Marketing,,,Annual,,,OUT,general broking/account-handling/advice rather than claims support,313acf3317bc8ff4
+107784928,Commercial Insurance Broker,Leicestershire,East Midlands,Insurance & Superannuation,40000.00,40000.00,Annual,40000.0,40000.0,OUT,broad insurance/claims hit but not within defined claims-support boundary,a3fd585fde868690
+107785661,Claims Specialist,Derbyshire,East Midlands,Insurance & Superannuation,30000.00,30000.00,Annual,30000.0,30000.0,OUT,large-loss/major-loss/technical-lead specialist boundary,84da262509281a6a
+28878_67048,Loss Adjuster,Home Based,Other / Unknown,Insurance & Superannuation,,,Annual,,,OUT,adjuster/sales/legal/management/senior-specialist title boundary,15a3f00e3cda9394
+28878_67048-86ee7a988bdbb7eab11b77979f25f387,Loss Adjuster,Glasgow,London,Insurance & Superannuation,,,Annual,,,OUT,adjuster/sales/legal/management/senior-specialist title boundary,bf6adcdfbfd26de8
+21618_28878_67048,Loss Adjuster,Home Based,Other / Unknown,Insurance & Superannuation,,,Annual,,,OUT,adjuster/sales/legal/management/senior-specialist title boundary,15a3f00e3cda9394
+21618_28878_67048-86ee7a988bdbb7eab11b77979f25f387,Loss Adjuster,Glasgow,London,Insurance & Superannuation,,,Annual,,,OUT,adjuster/sales/legal/management/senior-specialist title boundary,bf6adcdfbfd26de8
+2051273,Claims Handler,Northern Ireland,Other / Unknown,Insurance & Superannuation,30000.00,35000.00,Annual,30000.0,35000.0,IN,claims handling/admin/advice/support role,8c986729665e9d3f
+2050094,Account Manager- Insurance,Belfast,London,Sales & Marketing,,,Annual,,,OUT,adjuster/sales/legal/management/senior-specialist title boundary,606f1d9295cf5b8f
+107793796,Commercial Underwriter,Suffolk,Suffolk,Insurance & Superannuation,45000.00,45000.00,Annual,45000.0,45000.0,OUT,adjuster/sales/legal/management/senior-specialist title boundary,acb8fd6e296c5c19
+107798573,Technical Account Handler,Yorkshire,Yorkshire - West,Sales & Marketing,50000.00,50000.00,Annual,50000.0,50000.0,OUT,general broking/account-handling/advice rather than claims support,856c380e3ab54c1d
+28878_73433,Loss Adjuster - South London,Field Based,Other / Unknown,Insurance & Superannuation,,,Annual,,,OUT,adjuster/sales/legal/management/senior-specialist title boundary,053f77796ea6394f
+28878_73435,Loss Adjuster - Norwich /Ipswich / Norfolk region,Norfolk,Norfolk,Insurance & Superannuation,,,Annual,,,OUT,adjuster/sales/legal/management/senior-specialist title boundary,fc4ca210f67b2c16
+21618_28878_73435,Loss Adjuster - Norwich /Ipswich / Norfolk region,Norfolk,Norfolk,Insurance & Superannuation,,,Annual,,,OUT,adjuster/sales/legal/management/senior-specialist title boundary,fc4ca210f67b2c16
+21618_28878_73433,Loss Adjuster - South London,Field Based,Other / Unknown,Insurance & Superannuation,,,Annual,,,OUT,adjuster/sales/legal/management/senior-specialist title boundary,053f77796ea6394f
+23643_225565930,Trainee Insurance Officer,Yorkshire,Yorkshire - West,Administration,26403.00,29000.00,Annual,26403.0,29000.0,OUT,broad insurance/claims hit but not within defined claims-support boundary,d85c8ba5c74c0050
+23643_225568322,Insurance Administrator Friendly team + 25 days A/L,Kent,Kent,Administration,27000.00,27000.00,Annual,27000.0,27000.0,IN,insurance administration with clear claims-processing/support duties,517ddaaee79ea175
+107926445,Cross Class Commercial Underwriter- 2 days in the office,Somerset,Bristol & Bath,Insurance & Superannuation,45000.00,45000.00,Annual,45000.0,45000.0,OUT,adjuster/sales/legal/management/senior-specialist title boundary,eff391c838830653
+107926485,Commercial Underwriter Glasgow,Not Specified,Other / Unknown,Insurance & Superannuation,45000.00,45000.00,Annual,45000.0,45000.0,OUT,adjuster/sales/legal/management/senior-specialist title boundary,4b2a98a3f30b5808
+107926716,Loss Adjuster Northern Ireland,Not Specified,Other / Unknown,Insurance & Superannuation,,,Annual,,,OUT,adjuster/sales/legal/management/senior-specialist title boundary,78d2aff30e33fe72
+107926714,Loss Adjuster Perth / Dundee region,Perth & Kinross,Scotland Central - Tayside,Insurance & Superannuation,,,Annual,,,OUT,adjuster/sales/legal/management/senior-specialist title boundary,9d5a29c501fbc993
+107926946,Cross Class Commercial Underwriter- 2 Days per week in the office,Yorkshire,Yorkshire - North,Insurance & Superannuation,45000.00,45000.00,Annual,45000.0,45000.0,OUT,adjuster/sales/legal/management/senior-specialist title boundary,5ddd22e65783dec1
+107926976,Cross Class Commercial Underwriter - 2 days per week in the office,Somerset,Bristol & Bath,Insurance & Superannuation,45000.00,45000.00,Annual,45000.0,45000.0,OUT,adjuster/sales/legal/management/senior-specialist title boundary,b880ea7fc4135358
+107805320,Commercial Account Handler,Essex,Essex,Sales & Marketing,55000.00,55000.00,Annual,55000.0,55000.0,OUT,salary maximum over £50k,c7b38b7f853254a1
+107803444,Broker Development Manager,Birmingham,West Midlands - Birmingham & Solihull,Insurance & Superannuation,,,Annual,,,OUT,adjuster/sales/legal/management/senior-specialist title boundary,c90c3ca97bfff29c
+107786191,Pricing Actuary,London,London,Insurance & Superannuation,100000.00,100000.00,Annual,100000.0,100000.0,OUT,salary maximum over £50k,6608866b86d572cf
+107890093,Insurance Software Presales Consultant,London,London,Insurance & Superannuation,,,Annual,,,OUT,broad insurance/claims hit but not within defined claims-support boundary,9b2f106721659efc
+107933030,Loss Adjuster South London,Not Specified,Other / Unknown,Insurance & Superannuation,,,Annual,,,OUT,adjuster/sales/legal/management/senior-specialist title boundary,264ff9e5f6ec0364
+107794361,Senior New Business Underwriter- Property & Casualty,Birmingham,West Midlands - Birmingham & Solihull,Insurance & Superannuation,60000.00,60000.00,Annual,60000.0,60000.0,OUT,salary maximum over £50k,5bf2f124c5735292
+107930396,Account Handler (Commercial),Sussex,Sussex,Sales & Marketing,45000.00,45000.00,Annual,45000.0,45000.0,OUT,general broking/account-handling/advice rather than claims support,8d3484470b0b348c
+107924718,Capital Modelling Actuary,London,London,Insurance & Superannuation,,,Annual,,,OUT,adjuster/sales/legal/management/senior-specialist title boundary,5d35dd615982e5b9
+107792065,Employer Liability and Public Liability Claims Handler (6 - Month FTC),Northamptonshire,Northamptonshire,Insurance & Superannuation,,,Annual,,,IN,claims handling/admin/advice/support role,48d0a63e43bce715
+107903817,Account Handler,West Midlands,West Midlands - Black Country,Insurance & Superannuation,,,Annual,,,OUT,general broking/account-handling/advice rather than claims support,c0aaa8e26ce99d12
+1860803,Claims Handler - Home / Motor / Insurance - Remote,Dorset,Dorset,Insurance & Superannuation,,,Annual,,,IN,claims handling/admin/advice/support role,9014aa58e07ef472
+1860792,Corporate Broker,Yorkshire,Yorkshire - West,Insurance & Superannuation,,,Annual,,,OUT,broad insurance/claims hit but not within defined claims-support boundary,0419890ea52ba384
+1860790,Account Handler,Surrey,London,Insurance & Superannuation,,,Annual,,,OUT,general broking/account-handling/advice rather than claims support,35836b92d3606165
+1860279,Claims Handler (FTC),Lanarkshire,Scotland West - Glasgow,Insurance & Superannuation,,,Annual,,,IN,claims handling/admin/advice/support role,3b3853d2772f50b7
+1859942,Insurance Divisional Manager - Head of Street Cover,Merseyside,Merseyside - Liverpool,Insurance & Superannuation,,,Annual,,,OUT,adjuster/sales/legal/management/senior-specialist title boundary,977aaeb173f84684
+1859112,Actuarial Analyst,Somerset,Bristol & Bath,Insurance & Superannuation,40000.00,45000.00,Annual,40000.0,45000.0,OUT,adjuster/sales/legal/management/senior-specialist title boundary,b8e99f9ea8541eb8
+1858817,Operations Team Leader (Insurance),Birmingham,West Midlands - Birmingham & Solihull,Insurance & Superannuation,45000.00,50000.00,Annual,45000.0,50000.0,OUT,adjuster/sales/legal/management/senior-specialist title boundary,31b9d022cbf15d2e
+1856873,Commercial Account Handler,Northamptonshire,Northamptonshire,Insurance & Superannuation,45000.00,45000.00,Annual,45000.0,45000.0,OUT,general broking/account-handling/advice rather than claims support,725d59d6c6e33262
+1856609,Insurance Advisor (Training provided!),Northamptonshire,Northamptonshire,Insurance & Superannuation,,,Annual,,,OUT,general broking/account-handling/advice rather than claims support,41266e729a1c953b
+1857549,Insurance Account Handler,Kent,Kent,Insurance & Superannuation,,,Annual,,,OUT,general broking/account-handling/advice rather than claims support,2833cc93318f545d
+1857548,Insurance Account Handler,Surrey,London,Insurance & Superannuation,,,Annual,,,OUT,general broking/account-handling/advice rather than claims support,a562d09d33885342
+1857547,Insurance Account Handler,Somerset,Bristol & Bath,Insurance & Superannuation,,,Annual,,,OUT,general broking/account-handling/advice rather than claims support,6a934ff5bf053407
+1857569,Account Handler,Norfolk,Norfolk,Insurance & Superannuation,,,Annual,,,OUT,general broking/account-handling/advice rather than claims support,5c44bd7538a12456
+1857568,Commercial Account Handler,Lancashire,Greater Manchester - Manchester & Salford,Insurance & Superannuation,,,Annual,,,OUT,general broking/account-handling/advice rather than claims support,34332342d1a18e44
+1855926,Senior Account Handler,Lancashire,Greater Manchester - Manchester & Salford,Insurance & Superannuation,35000.00,45000.00,Annual,35000.0,45000.0,OUT,general broking/account-handling/advice rather than claims support,78e4cfbcc000005e
+1852313,File Auditor - NIHL Claims,Merseyside,Merseyside - Liverpool,Insurance & Superannuation,,,Annual,,,OUT,broad insurance/claims hit but not within defined claims-support boundary,49e92d37a7176c64
+1851532,Insurance Claims Handler,Cheshire,Cheshire - East,Insurance & Superannuation,,,Annual,,,IN,claims handling/admin/advice/support role,5cd5402698c9301e
+1851531,Operations Analyst (Insurance),London,London,Insurance & Superannuation,,,Annual,,,OUT,broad insurance/claims hit but not within defined claims-support boundary,8fb60432d6dc5da9
+1851586,Corporate Account Handler,Buckinghamshire,Buckinghamshire,Insurance & Superannuation,55000.00,55000.00,Annual,55000.0,55000.0,OUT,salary maximum over £50k,66b26a0d4e027313
+1851438,Client Director - Commercial Insurance,Lancashire,Greater Manchester - Manchester & Salford,Insurance & Superannuation,80000.00,110000.00,Annual,80000.0,110000.0,OUT,salary maximum over £50k,42e7128a7ce50ce8
+1851431,Commercial Account Handler,Lancashire,Greater Manchester - Wigan & Bolton,Insurance & Superannuation,30000.00,40000.00,Annual,30000.0,40000.0,OUT,general broking/account-handling/advice rather than claims support,c6cfdce794b65589
+1851430,Claims Adjuster - Casualty & Financial Lines (Exclusive),London,London,Insurance & Superannuation,,,Annual,,,OUT,adjuster/sales/legal/management/senior-specialist title boundary,0a644087c897c4a2
+1851429,New Business Consultant - Commercial Insurance,Lancashire,Greater Manchester - Manchester & Salford,Insurance & Superannuation,30000.00,40000.00,Annual,30000.0,40000.0,OUT,broad insurance/claims hit but not within defined claims-support boundary,5cb03658b0f21202
+1851421,Account Executive - Construction Insurance,Lancashire,Greater Manchester - Manchester & Salford,Insurance & Superannuation,50000.00,80000.00,Annual,50000.0,80000.0,OUT,salary maximum over £50k,d8eeeb46e6faa711
+1851121,Senior Project Manager - Actuarial Transformation,London,London,Insurance & Superannuation,,,Annual,,,OUT,adjuster/sales/legal/management/senior-specialist title boundary,e499d09aff92cfb1
+1851103,Commercial Account Handler,Somerset,Bristol & Bath,Insurance & Superannuation,45000.00,45000.00,Annual,45000.0,45000.0,OUT,general broking/account-handling/advice rather than claims support,1ffe3101d9e125a0
+1850021,Commercial Account Executive - Insurance,Cheshire,Greater Manchester - South,Insurance & Superannuation,,,Annual,,,OUT,adjuster/sales/legal/management/senior-specialist title boundary,69af7e0e792adce7
+1849554,COMMERCIAL INSURANCE ACCOUNT HANDLER,Dorset,Dorset,Insurance & Superannuation,,,Annual,,,OUT,general broking/account-handling/advice rather than claims support,fe84c319b28a8ab0
+1847870,Senior PI Underwriter,London,London,Insurance & Superannuation,,,Annual,,,OUT,adjuster/sales/legal/management/senior-specialist title boundary,b87a57d8c4b065ea
+1847828,Senior Underwriter - AI Liability,London,London,Insurance & Superannuation,,,Annual,,,OUT,adjuster/sales/legal/management/senior-specialist title boundary,e8115717fbad61ee
+1848730,Loss Assessor,Belfast,London,Insurance & Superannuation,,,Annual,,,OUT,broad insurance/claims hit but not within defined claims-support boundary,da30cad5359da13f
+1849090,Loss Assessor,Lancashire,Lancashire - East,Insurance & Superannuation,,,Annual,,,OUT,broad insurance/claims hit but not within defined claims-support boundary,e5a56fca18a22604
+1848502,Third Party Motor Claims Intervention Handler,South East,Other / Unknown,Insurance & Superannuation,,,Annual,,,OUT,broad insurance/claims hit but not within defined claims-support boundary,c4a5d4065d4d2269
+1848398,SME Commercial Insurance Account Handler / Broker,Essex,Essex,Insurance & Superannuation,,,Annual,,,OUT,general broking/account-handling/advice rather than claims support,53ac05fba174e540
+1847673,Senior Actuary - Portfolio Analytics,London,London,Insurance & Superannuation,,,Annual,,,OUT,adjuster/sales/legal/management/senior-specialist title boundary,7c1f0cffe369f343
+1845249,Surety trade credit Broker,London,London,Insurance & Superannuation,,,Annual,,,OUT,broad insurance/claims hit but not within defined claims-support boundary,892885018910403c
+1845227,Claims Handler - insurance/construction - hybrid following probation,Northamptonshire,Northamptonshire,Insurance & Superannuation,,,Annual,,,IN,claims handling/admin/advice/support role,178298c1e4ff4c9e
+1844337,Professional Liability Underwriter,London,London,Insurance & Superannuation,,,Annual,,,OUT,adjuster/sales/legal/management/senior-specialist title boundary,1ed883506377ef79
+1843068,Cross Class Commercial Underwriter - 2 days per week in the office,Somerset,Bristol & Bath,Insurance & Superannuation,35000.00,35000.00,Annual,35000.0,35000.0,OUT,adjuster/sales/legal/management/senior-specialist title boundary,cb1721ff0111ff85
+1842975,Cross Class Commercial Underwriter- 2 Days per week in the office,Yorkshire,Yorkshire - North,Insurance & Superannuation,35000.00,35000.00,Annual,35000.0,35000.0,OUT,adjuster/sales/legal/management/senior-specialist title boundary,7c8ef51e6dda4f78
+1840612,Technology Underwriter,London,London,Insurance & Superannuation,,,Annual,,,OUT,adjuster/sales/legal/management/senior-specialist title boundary,3153c4dd98c1691a
+1841670,Commercial Insurance Broker,Lancashire,Lancashire - East,Insurance & Superannuation,55000.00,60000.00,Annual,55000.0,60000.0,OUT,salary maximum over £50k,84dcbd05b791b6cb
+107934539,Account Executive - Construction Insurance,Manchester,Greater Manchester - Manchester & Salford,Insurance & Superannuation,80000.00,80000.00,Annual,80000.0,80000.0,OUT,salary maximum over £50k,e20d1da6798b59bd
+1866810,Marketing Business Partner - Insurance,London,London,Sales & Marketing,50000.00,50000.00,Annual,50000.0,50000.0,OUT,broad insurance/claims hit but not within defined claims-support boundary,b56a0d810555abe9
+1866629,Commercial Account Handler,Yorkshire,Yorkshire - South,Insurance & Superannuation,45000.00,45000.00,Annual,45000.0,45000.0,OUT,general broking/account-handling/advice rather than claims support,eb83d482c622fc5e
+1866620,SME Account Handler,Yorkshire,Yorkshire - North,Insurance & Superannuation,30000.00,35000.00,Annual,30000.0,35000.0,OUT,general broking/account-handling/advice rather than claims support,4716705d70e16301
+1866619,SME Account Handler,Yorkshire,Yorkshire - East,Insurance & Superannuation,30000.00,35000.00,Annual,30000.0,35000.0,OUT,general broking/account-handling/advice rather than claims support,5c5dbfaab253cae2
+1866615,Construction Underwriter,London,London,Insurance & Superannuation,,,Annual,,,OUT,adjuster/sales/legal/management/senior-specialist title boundary,bf2aa54d35eff4d3
+1866614,Liability Underwriter,London,London,Insurance & Superannuation,,,Annual,,,OUT,adjuster/sales/legal/management/senior-specialist title boundary,c768c4eb241e84c6
+1866613,Senior Commercial Account Handler/Broker Manager,Tyne And Wear,"North East - Tyneside, Wearside & Northumberland",Insurance & Superannuation,50000.00,60000.00,Annual,50000.0,60000.0,OUT,salary maximum over £50k,be646383e5835294
+1866612,Commercial Account Handler,Tyne And Wear,"North East - Tyneside, Wearside & Northumberland",Insurance & Superannuation,50000.00,50000.00,Annual,50000.0,50000.0,OUT,general broking/account-handling/advice rather than claims support,51d97a95dce14160
+1868237,Corporate Insurance Account Handler,Berkshire,Berkshire,Insurance & Superannuation,35000.00,48000.00,Annual,35000.0,48000.0,OUT,general broking/account-handling/advice rather than claims support,0f758e9c76d391ba
+1868254,Account Handler,Bristol,London,Insurance & Superannuation,,,Annual,,,OUT,general broking/account-handling/advice rather than claims support,280e7d0e172fa959
+1868250,Commercial Broker,West Glamorgan,Wales South - Swansea Bay,Insurance & Superannuation,30000.00,70000.00,Annual,30000.0,70000.0,OUT,salary maximum over £50k,b042d81effb98117
+1868249,Commercial Broker,Dyfed,Wales - West,Insurance & Superannuation,30000.00,70000.00,Annual,30000.0,70000.0,OUT,salary maximum over £50k,6f2c5bda9980b9a8
+1868248,Account Handler,Birmingham,West Midlands - Birmingham & Solihull,Insurance & Superannuation,40000.00,50000.00,Annual,40000.0,50000.0,OUT,general broking/account-handling/advice rather than claims support,dc16627e05393c15
+1868247,Account Handler,Leicestershire,Leicestershire,Insurance & Superannuation,40000.00,50000.00,Annual,40000.0,50000.0,OUT,general broking/account-handling/advice rather than claims support,467489309322ddad
+1871188,Legacy Reinsurance Manager,London,London,Insurance & Superannuation,,,Annual,,,OUT,adjuster/sales/legal/management/senior-specialist title boundary,fd0777f1b1863b95
+1870424,Senior Commercial Underwriter,London,London,Insurance & Superannuation,,,Annual,,,OUT,adjuster/sales/legal/management/senior-specialist title boundary,a3e0173a95d66e29
+1869539,Insurance Claims and Service Advisor,Essex,Essex,Insurance & Superannuation,,,Annual,,,OUT,broad insurance/claims hit but not within defined claims-support boundary,51ee2a49dadc3734
+28878_67048-6235aa603e3e92e53d1200c49faf4748,Loss Adjuster,Cardiff,London,Insurance & Superannuation,,,Annual,,,OUT,adjuster/sales/legal/management/senior-specialist title boundary,457feee1deffc11d
+28878_67048-a0db8f36b6dfb57221492ea5ddbd1c58,Loss Adjuster,Norfolk,Norfolk,Insurance & Superannuation,,,Annual,,,OUT,adjuster/sales/legal/management/senior-specialist title boundary,b7c97a46b6ef88a5
+28878_67048-a201436cf43e945d8ed27ce11b467e22,Loss Adjuster,London,London,Insurance & Superannuation,,,Annual,,,OUT,adjuster/sales/legal/management/senior-specialist title boundary,e6f4b8dc375d5020
+28878_67048-1851c5a2dd628cbd04e7a6920c37b39a,Loss Adjuster,Buckinghamshire,Other / Unknown,Insurance & Superannuation,,,Annual,,,OUT,adjuster/sales/legal/management/senior-specialist title boundary,3b0ad6e7c26a7c48
+21618_28878_67048-1851c5a2dd628cbd04e7a6920c37b39a,Loss Adjuster,Buckinghamshire,Other / Unknown,Insurance & Superannuation,,,Annual,,,OUT,adjuster/sales/legal/management/senior-specialist title boundary,3b0ad6e7c26a7c48
+21618_28878_67048-a0db8f36b6dfb57221492ea5ddbd1c58,Loss Adjuster,Norfolk,Norfolk,Insurance & Superannuation,,,Annual,,,OUT,adjuster/sales/legal/management/senior-specialist title boundary,b7c97a46b6ef88a5
+21618_28878_67048-a201436cf43e945d8ed27ce11b467e22,Loss Adjuster,London,London,Insurance & Superannuation,,,Annual,,,OUT,adjuster/sales/legal/management/senior-specialist title boundary,e6f4b8dc375d5020
+21618_28878_67048-6235aa603e3e92e53d1200c49faf4748,Loss Adjuster,Cardiff,London,Insurance & Superannuation,,,Annual,,,OUT,adjuster/sales/legal/management/senior-specialist title boundary,457feee1deffc11d
+23643_224388161,PROPERTY INSURANCE ACCOUNT HANDLER,Kent,Kent,Accounting,28000.00,35000.00,Annual,28000.0,35000.0,OUT,general broking/account-handling/advice rather than claims support,675e51022a3c72a1
+1869629,Senior Underwriter,London,London,Insurance & Superannuation,,,Annual,,,OUT,adjuster/sales/legal/management/senior-specialist title boundary,dc9ba0300236b2c9
+2052129,Insurance Advisor (Commercial & Personal Lines),County Antrim,Northern Ireland - East,Insurance & Superannuation,,,Annual,,,OUT,general broking/account-handling/advice rather than claims support,bdcf53c6e55847e1
+107946964,Quality Audit Underwriter,Not Specified,Other / Unknown,Insurance & Superannuation,55000.00,55000.00,Annual,55000.0,55000.0,OUT,salary maximum over £50k,6c8ccac1015e9ea8
+1874154,Junior Claims Technician - Marine,London,London,Insurance & Superannuation,,,Annual,,,IN,claims handling/admin/advice/support role,b35e9bcbb47df827
+1874145,Marine H&M Claims Broker,London,London,Insurance & Superannuation,,,Annual,,,OUT,broad insurance/claims hit but not within defined claims-support boundary,2c8e206c3db1ba76
+1873810,Financial Lines Claims Adjuster,London,London,Insurance & Superannuation,,,Annual,,,OUT,adjuster/sales/legal/management/senior-specialist title boundary,73d2c1f187f30f25
+1873805,Major Loss Adjuster,Somerset,Bristol & Bath,Insurance & Superannuation,,,Annual,,,OUT,adjuster/sales/legal/management/senior-specialist title boundary,91cfcec38cc23efe
+1873804,Major Loss Adjuster,London,London,Insurance & Superannuation,,,Annual,,,OUT,adjuster/sales/legal/management/senior-specialist title boundary,0e940a1b15d00bb4
+1873803,Casualty Loss Adjuster,London,London,Insurance & Superannuation,,,Annual,,,OUT,adjuster/sales/legal/management/senior-specialist title boundary,bc595bfb49b5183b
+1873730,Marine Claims Specialist,London,London,Insurance & Superannuation,,,Annual,,,OUT,large-loss/major-loss/technical-lead specialist boundary,bba6ee26d49bb18d
+1873678,Head of Claims,London,London,Insurance & Superannuation,,,Annual,,,OUT,adjuster/sales/legal/management/senior-specialist title boundary,b1c0ae6d5aac16e8
+1874009,Insurance Account Handler,Sussex,Sussex,Insurance & Superannuation,,,Annual,,,OUT,general broking/account-handling/advice rather than claims support,297ca4eaaebb8eca
+1874008,North American Casualty Claims Lead,London,London,Insurance & Superannuation,,,Annual,,,OUT,large-loss/major-loss/technical-lead specialist boundary,54446a223b0df0f6
+1873956,Insurance Sales Executive,Kent,Kent,Insurance & Superannuation,35000.00,35000.00,Annual,35000.0,35000.0,OUT,adjuster/sales/legal/management/senior-specialist title boundary,4bcfdb1d8bdb4bd9
+1872726,Commercial Account Handler,Yorkshire,Yorkshire - West,Insurance & Superannuation,50000.00,50000.00,Annual,50000.0,50000.0,OUT,general broking/account-handling/advice rather than claims support,24a61995b0f4704c
+1872710,Senior NA Property Account handler / Technician,London,London,Insurance & Superannuation,110000.00,110000.00,Annual,110000.0,110000.0,OUT,salary maximum over £50k,6a53108d8f0a3cfc
+1873004,Account handler / Technician Open market,London,London,Insurance & Superannuation,45000.00,45000.00,Annual,45000.0,45000.0,OUT,general broking/account-handling/advice rather than claims support,bb6b79329e2156e4
+23643_225580080,Insurance Manager,Cambridgeshire,Other / Unknown,Insurance & Superannuation,387.00,387.00,Daily,,,OUT,adjuster/sales/legal/management/senior-specialist title boundary,876411968884c960
+28878_72836,Domestic Major Loss Adjuster - Essex & East Anglia,Home Based,Other / Unknown,Insurance & Superannuation,,,Annual,,,OUT,adjuster/sales/legal/management/senior-specialist title boundary,24b221568e874f61
+28878_72836-98130290fd84cba737b5da341d62b0b0,Domestic Major Loss Adjuster - Essex & East Anglia,Cambridgeshire,Cambridgeshire,Insurance & Superannuation,,,Annual,,,OUT,adjuster/sales/legal/management/senior-specialist title boundary,848910a2ce403796
+1875541,Loss Assessor,Lancashire,Lancashire - East,Insurance & Superannuation,50000.00,50000.00,Annual,50000.0,50000.0,OUT,broad insurance/claims hit but not within defined claims-support boundary,78ea43b8089b2d21
+1875835,Calling All Insurance & Financial Services Candidates (East Sussex),Sussex,Sussex,Insurance & Superannuation,,,Annual,,,OUT,broad insurance/claims hit but not within defined claims-support boundary,8e2b2aea85c9e200
+1876195,Corporate Account Handler,Yorkshire,Yorkshire - West,Insurance & Superannuation,42000.00,48000.00,Annual,42000.0,48000.0,OUT,general broking/account-handling/advice rather than claims support,99921e884d5046fc
+1876036,Insurance Technician,Gloucestershire,Gloucestershire,Insurance & Superannuation,,,Annual,,,OUT,general broking/account-handling/advice rather than claims support,88f46bcd9a3b6e4b
+1875258,Regional Underwriting Manager- Technical Lead,Yorkshire,Yorkshire - West,Insurance & Superannuation,,,Annual,,,OUT,adjuster/sales/legal/management/senior-specialist title boundary,15110949313d126b
+1875257,Regional Underwriting Manager- Technical Lead,Birmingham,West Midlands - Birmingham & Solihull,Insurance & Superannuation,,,Annual,,,OUT,adjuster/sales/legal/management/senior-specialist title boundary,92d08f3c21d87691
+1875233,Regional Underwriting Manager- Technical Lead,Manchester,Greater Manchester - Manchester & Salford,Insurance & Superannuation,,,Annual,,,OUT,adjuster/sales/legal/management/senior-specialist title boundary,89887aa0ff4acfac
+1873632,Claims Handler,Essex,Essex,Insurance & Superannuation,100000.00,100000.00,Annual,100000.0,100000.0,OUT,salary maximum over £50k,a07173d5f2f1a7b6
+1870742,Insurance Account Executive,Yorkshire,Yorkshire - North,Insurance & Superannuation,40000.00,70000.00,Annual,40000.0,70000.0,OUT,salary maximum over £50k,e38a7a74e658f939
+1870733,Motor Claims Handler,Staffordshire,Staffordshire,Insurance & Superannuation,26000.00,27000.00,Annual,26000.0,27000.0,IN,claims handling/admin/advice/support role,184bab4a904b201c
+1870713,Commercial Account Handler,North Humberside,Other / Unknown,Insurance & Superannuation,40000.00,40000.00,Annual,40000.0,40000.0,OUT,general broking/account-handling/advice rather than claims support,2d13946347c020b0
+1870381,PERSONAL LINES INSURANCE BROKER,Buckinghamshire,Buckinghamshire,Insurance & Superannuation,,,Annual,,,OUT,broad insurance/claims hit but not within defined claims-support boundary,93c341e7dbdfb703
+1870315,Commercial Insurance Sales Executive,Hertfordshire,Hertfordshire,Insurance & Superannuation,40000.00,50000.00,Annual,40000.0,50000.0,OUT,adjuster/sales/legal/management/senior-specialist title boundary,a3d88b0a808f1650
+1870206,Client Service Manager - Motor Claims,Worcestershire,Worcestershire,Insurance & Superannuation,,,Annual,,,OUT,adjuster/sales/legal/management/senior-specialist title boundary,397d1ca4dc5f8034
+1870140,Commercial Insurance Solicitor Retrain,Birmingham,West Midlands - Birmingham & Solihull,Legal,,,Annual,,,OUT,adjuster/sales/legal/management/senior-specialist title boundary,d103014edf9b6af1
+1869987,Claims Adjuster - Cyber & MedMal,London,London,Insurance & Superannuation,,,Annual,,,OUT,adjuster/sales/legal/management/senior-specialist title boundary,bf73f4f282b59ca7
+1868777,Insurance Account Handler,Tyne And Wear,"North East - Tyneside, Wearside & Northumberland",Insurance & Superannuation,,,Annual,,,OUT,general broking/account-handling/advice rather than claims support,15160ddcd5b8b8f9
+1868529,Credit Hire Claims Handler,Lancashire,Greater Manchester - Manchester & Salford,Insurance & Superannuation,,,Annual,,,IN,claims handling/admin/advice/support role,f6be346064edb47b
+1868003,Senior Professional Liability Underwriter,London,London,Insurance & Superannuation,,,Annual,,,OUT,adjuster/sales/legal/management/senior-specialist title boundary,ef6adc35b3f40d86
+1868087,Underwriter - Casualty,London,London,Insurance & Superannuation,,,Annual,,,OUT,adjuster/sales/legal/management/senior-specialist title boundary,6f08b4f7b3d7d9cf
+1868067,Claims Handler,Somerset,Bristol & Bath,Insurance & Superannuation,35000.00,35000.00,Annual,35000.0,35000.0,OUT,large-loss/major-loss/technical-lead specialist boundary,c77f55b283f2a578
+1867289,Insurance Broker,County Durham,North East - County Durham & Darlington/Hartlepool,Insurance & Superannuation,,,Annual,,,OUT,broad insurance/claims hit but not within defined claims-support boundary,f155f9486d4a3bc6
+1867346,Trading Underwriter,Somerset,Bristol & Bath,Insurance & Superannuation,,,Annual,,,OUT,adjuster/sales/legal/management/senior-specialist title boundary,0b12a073626598cd
+1867651,Commercial Insurance Manager,London,London,Insurance & Superannuation,,,Annual,,,OUT,adjuster/sales/legal/management/senior-specialist title boundary,98acc4697da403e2
+1867935,Senior Claims Handler,Somerset,Bristol & Bath,Insurance & Superannuation,35000.00,45000.00,Annual,35000.0,45000.0,OUT,large-loss/major-loss/technical-lead specialist boundary,900a95fdc422a52b
+1866982,Reinsurance Pricing Actuary,London,London,Insurance & Superannuation,,,Annual,,,OUT,adjuster/sales/legal/management/senior-specialist title boundary,0904008f44c0f196
+1866850,Claims & Customer Service Advisor,Essex,Essex,Insurance & Superannuation,,,Annual,,,IN,customer-service role embedded in insurance-claims handling,c234f919e049f163
+1866848,Commercial Insurance Account Executive,Dorset,Dorset,Insurance & Superannuation,33000.00,50000.00,Annual,33000.0,50000.0,OUT,adjuster/sales/legal/management/senior-specialist title boundary,a4d84be729a4b989
+1866847,Commercial Account Handler,Dorset,Dorset,Insurance & Superannuation,50000.00,50000.00,Annual,50000.0,50000.0,OUT,general broking/account-handling/advice rather than claims support,ffec6a5a07fa61f3
+1842017,Commercial Underwriter Glasgow,Lanarkshire,Scotland West - Glasgow,Insurance & Superannuation,35000.00,35000.00,Annual,35000.0,35000.0,OUT,adjuster/sales/legal/management/senior-specialist title boundary,fe0fa5f29312fcc6
+1841993,Cross Class Commercial Underwriter- 2 days in the office,Somerset,Bristol & Bath,Insurance & Superannuation,35000.00,35000.00,Annual,35000.0,35000.0,OUT,adjuster/sales/legal/management/senior-specialist title boundary,89d5e5f5260496f6
+1839605,Senior commercial Insurance Handler,London,London,Insurance & Superannuation,400000.00,400000.00,Annual,400000.0,400000.0,OUT,salary maximum over £50k,b427793c4a80b369
+1839188,Liability Loss Adjuster,Yorkshire,Other / Unknown,Insurance & Superannuation,60000.00,60000.00,Annual,60000.0,60000.0,OUT,salary maximum over £50k,f9b79e396fcb2f1d
+1840065,Development Underwriter - High Hazard,London,London,Insurance & Superannuation,,,Annual,,,OUT,adjuster/sales/legal/management/senior-specialist title boundary,27c5ee14daa3b575
+1839346,Liability Loss Adjuster,Hertfordshire,Hertfordshire,Insurance & Superannuation,55000.00,60000.00,Annual,55000.0,60000.0,OUT,salary maximum over £50k,7cd9e87639e042a3
+1839335,Claims Handler,Dorset,Dorset,Insurance & Superannuation,,,Annual,,,IN,claims handling/admin/advice/support role,fd0b5d2f757f3439
+1839332,Claims Handler,Dorset,Dorset,Insurance & Superannuation,,,Annual,,,IN,claims handling/admin/advice/support role,fd0b5d2f757f3439
+1839329,Claims Team Leader,Essex,Essex,Insurance & Superannuation,,,Annual,,,OUT,adjuster/sales/legal/management/senior-specialist title boundary,54a602f6aaf0396c
+1839328,Liability Loss Adjuster,Not Specified,Other / Unknown,Insurance & Superannuation,55000.00,60000.00,Annual,55000.0,60000.0,OUT,salary maximum over £50k,3bc27821eda50664
+1839039,Claims Preparation Consultant,Not Specified,Other / Unknown,Insurance & Superannuation,85000.00,85000.00,Annual,85000.0,85000.0,OUT,salary maximum over £50k,de6a1aaa4dd54509
+1839271,Liability Loss Adjuster,Buckinghamshire,Buckinghamshire,Insurance & Superannuation,55000.00,60000.00,Annual,55000.0,60000.0,OUT,salary maximum over £50k,e076532367e70199
+1839269,Liability Loss Adjuster,Bedfordshire,Bedfordshire,Insurance & Superannuation,55000.00,60000.00,Annual,55000.0,60000.0,OUT,salary maximum over £50k,8f6d53e3e0c2acce
+1839232,Claims Manager,Not Specified,Other / Unknown,Insurance & Superannuation,,,Annual,,,OUT,adjuster/sales/legal/management/senior-specialist title boundary,bd821603500b51c0
+1839231,Junior Loss Adjuster,Yorkshire,Yorkshire - West,Insurance & Superannuation,,,Annual,,,OUT,adjuster/sales/legal/management/senior-specialist title boundary,36373bbce4816092
+1839229,Liability Loss Adjuster,Essex,Essex,Insurance & Superannuation,60000.00,60000.00,Annual,60000.0,60000.0,OUT,salary maximum over £50k,c96999a662a08453
+1839228,Liability Loss Adjuster,Kent,Kent,Insurance & Superannuation,60000.00,60000.00,Annual,60000.0,60000.0,OUT,salary maximum over £50k,1db15ac908213638
+1839144,Desk Loss Adjuster,London,London,Insurance & Superannuation,,,Annual,,,OUT,adjuster/sales/legal/management/senior-specialist title boundary,802c328e6779ac11
+1839142,Desk Loss Adjuster,Not Specified,Other / Unknown,Insurance & Superannuation,,,Annual,,,OUT,adjuster/sales/legal/management/senior-specialist title boundary,bf6b7876bf069f3a
+1839141,Desk Loss Adjuster,South West,South West,Insurance & Superannuation,,,Annual,,,OUT,adjuster/sales/legal/management/senior-specialist title boundary,54ed8371e436c251
+1839140,Desk Loss Adjuster,South East,Other / Unknown,Insurance & Superannuation,,,Annual,,,OUT,adjuster/sales/legal/management/senior-specialist title boundary,ee336906869f9aa4
+1835928,Senior Project Manager - Insurance Company,Yorkshire,Yorkshire - West,Insurance & Superannuation,,,Annual,,,OUT,adjuster/sales/legal/management/senior-specialist title boundary,eea11924fb2186a7
+1835611,Liability Claims Handler - EL/PL,Lancashire,Greater Manchester - Manchester & Salford,Insurance & Superannuation,35000.00,35000.00,Annual,35000.0,35000.0,IN,claims handling/admin/advice/support role,ec9e49fb886ab170
+1834874,Commercial Insurance Account Executive (Property specialists),Berkshire,Berkshire,Insurance & Superannuation,50000.00,75000.00,Annual,50000.0,75000.0,OUT,salary maximum over £50k,2f60c0fb495a8675
+1834968,Senior Claims Handler,Essex,Essex,Insurance & Superannuation,37000.00,37000.00,Annual,37000.0,37000.0,IN,claims handling/admin/advice/support role,75ad8c188a6c937f
+1834945,Senior commercial Insurance Handler,Surrey,London,Insurance & Superannuation,400000.00,400000.00,Annual,400000.0,400000.0,OUT,salary maximum over £50k,f1f82bb763f9655f
+1834301,Motor Claims Handler,Essex,Essex,Insurance & Superannuation,35000.00,35000.00,Annual,35000.0,35000.0,IN,claims handling/admin/advice/support role,0709612c2e70fa3b
+1834153,Corporate Account Handler,Birmingham,West Midlands - Birmingham & Solihull,Insurance & Superannuation,,,Annual,,,OUT,general broking/account-handling/advice rather than claims support,5aef068940efff50
+1835510,Broker,London,London,Insurance & Superannuation,60000.00,60000.00,Annual,60000.0,60000.0,OUT,salary maximum over £50k,2331d4d6bfb11888
+1833959,Military Claims/NIHL Fee Earner - Flexible/Remote Working,Yorkshire,Yorkshire - West,Legal,,,Annual,,,OUT,broad insurance/claims hit but not within defined claims-support boundary,0032a2700df62782
+1834568,Senior Account Handler,Buckinghamshire,Buckinghamshire,Insurance & Superannuation,,,Annual,,,OUT,general broking/account-handling/advice rather than claims support,78dfe6298cd4a293
+1834683,Senior Underwriter - Property D&F,London,London,Insurance & Superannuation,,,Annual,,,OUT,adjuster/sales/legal/management/senior-specialist title boundary,5bc913e637dc11e7
+1833843,Senior Commercial Insurance Account Handler,Hertfordshire,Hertfordshire,Insurance & Superannuation,55000.00,55000.00,Annual,55000.0,55000.0,OUT,salary maximum over £50k,dae05f8abdf5f6ab
+1833163,Senior Claims Broker,London,London,Insurance & Superannuation,,,Annual,,,OUT,broad insurance/claims hit but not within defined claims-support boundary,6cb261f60dde9aa5
+1832407,Senior Specialty Underwriter,London,London,Insurance & Superannuation,,,Annual,,,OUT,adjuster/sales/legal/management/senior-specialist title boundary,5e6e61f8f5bda8f7
+1831790,Senior Corporate Account Handler,Buckinghamshire,Buckinghamshire,Insurance & Superannuation,50000.00,50000.00,Annual,50000.0,50000.0,OUT,general broking/account-handling/advice rather than claims support,75a93c72b85413b6
+1832460,Underwriter - UK P&C,London,London,Insurance & Superannuation,,,Annual,,,OUT,adjuster/sales/legal/management/senior-specialist title boundary,23949684f88c3123
+1830962,Broker Support Technician - Treaty Reinsurance,London,London,Insurance & Superannuation,,,Annual,,,OUT,broad insurance/claims hit but not within defined claims-support boundary,70f41d4d01a18f0b
+1831300,Senior Casualty Claims Broker,London,London,Insurance & Superannuation,,,Annual,,,OUT,broad insurance/claims hit but not within defined claims-support boundary,2f240ba071caafb5
+1830080,Claims Handler - EL & PL,Merseyside,Merseyside - Liverpool,Insurance & Superannuation,30000.00,30000.00,Annual,30000.0,30000.0,IN,claims handling/admin/advice/support role,ef67d0e7fe881acd
+1829518,Senior Commercial Insurance Broker,Warwickshire,West Midlands - Coventry & Warwickshire,Insurance & Superannuation,50000.00,50000.00,Annual,50000.0,50000.0,OUT,broad insurance/claims hit but not within defined claims-support boundary,a5c34600453599cb
+1826868,Senior Product Manager - Insurance,Worcestershire,Worcestershire,Insurance & Superannuation,,,Annual,,,OUT,adjuster/sales/legal/management/senior-specialist title boundary,ad0e306a5bb7c798
+1826862,Insurance Account Handler,West Glamorgan,Wales South - Swansea Bay,Insurance & Superannuation,,,Annual,,,OUT,general broking/account-handling/advice rather than claims support,45f1c17cf0072b92
+1826861,Commercial Director (Insurance),Hampshire,Hampshire,Insurance & Superannuation,,,Annual,,,OUT,adjuster/sales/legal/management/senior-specialist title boundary,d57d486bd62dac94
+1826858,Account Handler,Lancashire,Greater Manchester - Manchester & Salford,Insurance & Superannuation,,,Annual,,,OUT,general broking/account-handling/advice rather than claims support,bb65c5357e50453f
+1826857,Account Handler,Staffordshire,Staffordshire,Insurance & Superannuation,,,Annual,,,OUT,general broking/account-handling/advice rather than claims support,c14f5b708361185e
+1826842,Construction Underwriter,Essex,Essex,Insurance & Superannuation,,,Annual,,,OUT,adjuster/sales/legal/management/senior-specialist title boundary,2e5aa0d69fe60e33
+1826840,Account Handler,Cornwall,Cornwall,Insurance & Superannuation,,,Annual,,,OUT,general broking/account-handling/advice rather than claims support,e09ebf5acfa3a6b8
+1824072,Legal Claims Handler - Healthcare London,London,London,Insurance & Superannuation,50000.00,50000.00,Annual,50000.0,50000.0,IN,claims handling/admin/advice/support role,5421a573241dc783
+1823437,Claims Handler - Third Party Motor,Lancashire,Greater Manchester - Wigan & Bolton,Insurance & Superannuation,,,Annual,,,IN,claims handling/admin/advice/support role,e3267c355a61fe10
+1823436,Claims Handler - Household,Lancashire,Greater Manchester - Wigan & Bolton,Insurance & Superannuation,,,Annual,,,IN,claims handling/admin/advice/support role,eae5c3c918beabf6
+1823323,INSURANCE BUSINESS DEVELOPMENT EXECUTIVE,Kent,London,I.T. & Communications,50000.00,50000.00,Annual,50000.0,50000.0,OUT,broad insurance/claims hit but not within defined claims-support boundary,86e3e40e75d49950
+1823184,Senior Marine Technician/Account Handler,London,London,Insurance & Superannuation,,,Annual,,,OUT,general broking/account-handling/advice rather than claims support,284582473f34f81b
+21618_28878_72836-98130290fd84cba737b5da341d62b0b0,Domestic Major Loss Adjuster - Essex & East Anglia,Cambridgeshire,Cambridgeshire,Insurance & Superannuation,,,Annual,,,OUT,adjuster/sales/legal/management/senior-specialist title boundary,848910a2ce403796
+21618_28878_72836,Domestic Major Loss Adjuster - Essex & East Anglia,Home Based,Other / Unknown,Insurance & Superannuation,,,Annual,,,OUT,adjuster/sales/legal/management/senior-specialist title boundary,24b221568e874f61
+1877007,"Senior Programme Manager - Insurance, Transformation",London,London,I.T. & Communications,,,Annual,,,OUT,adjuster/sales/legal/management/senior-specialist title boundary,0434c62052d06e4d
+107823477,Interim Head of Underwriting Governance & Controls,London,London,Insurance & Superannuation,825.00,825.00,Daily,,,OUT,adjuster/sales/legal/management/senior-specialist title boundary,147e819dd10b1f81
+1877713,Commercial Account Handler,Sussex,Sussex,Insurance & Superannuation,300000.00,300000.00,Annual,300000.0,300000.0,OUT,salary maximum over £50k,fb51f34a92e8899e
+1877618,Senior Underwriter,Manchester,Greater Manchester - Manchester & Salford,Insurance & Superannuation,,,Annual,,,OUT,adjuster/sales/legal/management/senior-specialist title boundary,bbaf33cc9e7bef05
+1877499,Insurance Operations Coordinator,London,London,Insurance & Superannuation,,,Annual,,,OUT,broad insurance/claims hit but not within defined claims-support boundary,09d508b75dcbe05c
+1877291,Commercial Insurance Development Broker,Essex,Essex,Insurance & Superannuation,,,Annual,,,OUT,broad insurance/claims hit but not within defined claims-support boundary,d870229e61814f6f
+1877397,Commercial Insurance Account Handler,Nottinghamshire,Nottinghamshire,Insurance & Superannuation,40000.00,50000.00,Annual,40000.0,50000.0,OUT,general broking/account-handling/advice rather than claims support,1ab0124f090a6996
+1877358,Commercial SME Account Handler,Surrey,London,Insurance & Superannuation,35000.00,40000.00,Annual,35000.0,40000.0,OUT,general broking/account-handling/advice rather than claims support,dfbe0599b9ae7646
+1877802,Motor Claims Handler,Lancashire,Greater Manchester - North,Insurance & Superannuation,30000.00,30000.00,Annual,30000.0,30000.0,IN,claims handling/admin/advice/support role,08f1f07e02d96615
+107932915,Corporate CRE Underwriter,Middlesex,London,Insurance & Superannuation,60000.00,60000.00,Annual,60000.0,60000.0,OUT,salary maximum over £50k,d52195f22e0b7c6e
+1879764,Insurance Coach,Lancashire,Greater Manchester - Manchester & Salford,Banking & Financial Services,40000.00,40000.00,Annual,40000.0,40000.0,OUT,broad insurance/claims hit but not within defined claims-support boundary,0e6b2030e2bae25f
+2052311,Insurance Claims Handler,Not Specified,Other / Unknown,Insurance & Superannuation,,,Annual,,,IN,claims handling/admin/advice/support role,cfb69da49ee4848d
+1881300,Corporate Account Handler,Leicestershire,Leicestershire,Insurance & Superannuation,45000.00,45000.00,Annual,45000.0,45000.0,OUT,general broking/account-handling/advice rather than claims support,456ce6486aeae9a8
+1881299,Corporate Account Handler,Birmingham,West Midlands - Birmingham & Solihull,Insurance & Superannuation,45000.00,45000.00,Annual,45000.0,45000.0,OUT,general broking/account-handling/advice rather than claims support,170f5791f221f8c6
+1880933,Insurance Training Design & Delivery London &;550d OUTSIDE IR35,London,London,Insurance & Superannuation,550.00,550.00,Daily,,,OUT,broad insurance/claims hit but not within defined claims-support boundary,f9dd03f783e970dd
+1880891,HR Administrator / Specialist - Insurance,Suffolk,Suffolk,HR / Recruitment,,,Annual,,,OUT,broad insurance/claims hit but not within defined claims-support boundary,724500f84b13b9e9
+1880883,Motor Fleet Account Handler,Merseyside,Merseyside - Liverpool,Insurance & Superannuation,35000.00,35000.00,Annual,35000.0,35000.0,OUT,general broking/account-handling/advice rather than claims support,0297d467632926d0
+1880477,Insurance Account Handler - Personal Lines,West Glamorgan,Wales South - Swansea Bay,Insurance & Superannuation,,,Annual,,,OUT,general broking/account-handling/advice rather than claims support,d4f5f2017c0ce7cc
+1880470,Senior Claims Handler EL/PL,Staffordshire,Staffordshire,Insurance & Superannuation,,,Annual,,,IN,claims handling/admin/advice/support role,4cfe2f2f9bd3e663
+1878265,Product Development Underwriter,London,London,Insurance & Superannuation,90000.00,90000.00,Annual,90000.0,90000.0,OUT,salary maximum over £50k,8e3ef7f401b584c5
+23643_223933443,Senior Project Manager - claims or digital transformation,Not Specified,Other / Unknown,Accounting,,,Annual,,,OUT,adjuster/sales/legal/management/senior-specialist title boundary,552bd4495db61590
+107933960,Commercial Account Executive - Insurance,Manchester,Greater Manchester - Manchester & Salford,Insurance & Superannuation,70000.00,70000.00,Annual,70000.0,70000.0,OUT,salary maximum over £50k,ea65d014b65bad2d
+107946961,Broker,Essex,Essex,Banking & Financial Services,,,Annual,,,OUT,broad insurance/claims hit but not within defined claims-support boundary,032d7b604df42817
+107934641,Client Director - Commercial Insurance,Manchester,Greater Manchester - Manchester & Salford,Call Centre / CustomerService,100000.00,100000.00,Annual,100000.0,100000.0,OUT,salary maximum over £50k,01622d92bb866eb6
+107905194,Actuarial Manager (Life Prophet Modelling),London,London,Insurance & Superannuation,85000.00,85000.00,Annual,85000.0,85000.0,OUT,salary maximum over £50k,83432cf794fda31b
+107805010,Pricing Actuary,London,London,Insurance & Superannuation,100000.00,100000.00,Annual,100000.0,100000.0,OUT,salary maximum over £50k,26918c291dd662c1
+107809608,Senior Pensions Actuary,Manchester,Greater Manchester - Manchester & Salford,Insurance & Superannuation,,,Annual,,,OUT,adjuster/sales/legal/management/senior-specialist title boundary,2ea6e85f609ba693
+107946866,Reinsurance Pricing Actuary,London,London,Insurance & Superannuation,,,Annual,,,OUT,adjuster/sales/legal/management/senior-specialist title boundary,7d5cf7cb34110e33
+1883687,Property Claims Handler,Staffordshire,Staffordshire,Insurance & Superannuation,36000.00,36000.00,Annual,36000.0,36000.0,IN,claims handling/admin/advice/support role,a1e48665dda46011
+1883686,Property Claims Handler,Essex,Essex,Insurance & Superannuation,36000.00,36000.00,Annual,36000.0,36000.0,IN,claims handling/admin/advice/support role,c2d4a7fa456db904
+1886421,Regional Enterprise Manager - Insurance,Suffolk,Suffolk,Insurance & Superannuation,,,Annual,,,OUT,adjuster/sales/legal/management/senior-specialist title boundary,29f0a24aa4efa776
+1886375,COMMERCIAL INSURANCE ACCOUNT DIRECTOR,Kent,Kent,Insurance & Superannuation,,,Annual,,,OUT,adjuster/sales/legal/management/senior-specialist title boundary,7ffd5a1153103183
+1886357,EL/PL Large Loss Handler,Lancashire,Greater Manchester - Wigan & Bolton,Insurance & Superannuation,250000.00,250000.00,Annual,250000.0,250000.0,OUT,salary maximum over £50k,b160f069d730a791
+1886352,EL/PL Liability Claims Handler,Staffordshire,Staffordshire,Insurance & Superannuation,,,Annual,,,IN,claims handling/admin/advice/support role,b706da131ad0ba95
+1886291,Financial Lines Underwriter,London,London,Insurance & Superannuation,60000.00,70000.00,Annual,60000.0,70000.0,OUT,salary maximum over £50k,0a1762bd1b19c614
+1886319,Property Underwriter,Surrey,London,Insurance & Superannuation,60000.00,60000.00,Annual,60000.0,60000.0,OUT,salary maximum over £50k,9c0ef8bd4a0939ff
+107830296,Part Time Reserving Actuary (3 days per week),London,London,Insurance & Superannuation,100000.00,100000.00,Annual,100000.0,100000.0,OUT,salary maximum over £50k,4c7a3292547dca00
+107953069,Domestic Major Loss Adjuster - Essex & East Anglia,Not Specified,Other / Unknown,Insurance & Superannuation,,,Annual,,,OUT,adjuster/sales/legal/management/senior-specialist title boundary,66fe67ed7946c49c
+107955926,Senior Underwriter,Manchester,Greater Manchester - Manchester & Salford,Insurance & Superannuation,,,Annual,,,OUT,adjuster/sales/legal/management/senior-specialist title boundary,107e7d91fcdb7ea5
+1888356,Property Account handler,London,London,Insurance & Superannuation,50000.00,50000.00,Annual,50000.0,50000.0,OUT,general broking/account-handling/advice rather than claims support,3708daf9c1a62a84
+107895375,Project Actuary,Birmingham,West Midlands - Birmingham & Solihull,Insurance & Superannuation,,,Annual,,,OUT,adjuster/sales/legal/management/senior-specialist title boundary,ec2d62e52dbc5867
+107953519,Regional Underwriting Manager- Technical Lead,Birmingham,West Midlands - Birmingham & Solihull,Insurance & Superannuation,100000.00,100000.00,Annual,100000.0,100000.0,OUT,salary maximum over £50k,260d90b7e116e2a3
+107836205,Head of Underwriting Governance and Controls,London,London,Insurance & Superannuation,800.00,825.00,Daily,,,OUT,adjuster/sales/legal/management/senior-specialist title boundary,84c0e8dd194b1214
+107785821,Strategic Pricing Actuary,London,London,Insurance & Superannuation,100000.00,100000.00,Annual,100000.0,100000.0,OUT,salary maximum over £50k,fd79b81e05cc945f
+23643_225528195,Repairs Coordinator,London,London,Administration,27000.00,30000.00,Annual,27000.0,30000.0,OUT,broad insurance/claims hit but not within defined claims-support boundary,69d8ccdd0ad8ee81
+1893590,Senior Commercial Account Handler,Yorkshire,Yorkshire - West,Insurance & Superannuation,,,Annual,,,OUT,general broking/account-handling/advice rather than claims support,3f3cb658670bd379
+1894195,Commercial Claims Handler,Suffolk,Suffolk,Insurance & Superannuation,,,Annual,,,IN,claims handling/admin/advice/support role,d0d8625f6d5ddb14
+1894182,Commercial Claims Handler,Essex,Essex,Insurance & Superannuation,,,Annual,,,IN,claims handling/admin/advice/support role,76f94251d8698118
+107949160,Insurance Advisor (Commercial & Personal Lines),County Antrim,Northern Ireland - East,Insurance & Superannuation,24000.00,24000.00,Annual,24000.0,24000.0,OUT,general broking/account-handling/advice rather than claims support,2bfc65ddc323058f
+107950002,Senior Commercial Insurance Broker,Warwickshire,West Midlands - Coventry & Warwickshire,Insurance & Superannuation,50000.00,50000.00,Annual,50000.0,50000.0,OUT,broad insurance/claims hit but not within defined claims-support boundary,250f66d3eefc7978
+107862007,Commercial Account Handler,Hampshire,Hampshire,Sales & Marketing,,,Annual,,,OUT,general broking/account-handling/advice rather than claims support,083aa5c621b1f3b8
+107953510,Regional Underwriting Manager- Technical Lead,Manchester,Greater Manchester - Manchester & Salford,Insurance & Superannuation,100000.00,100000.00,Annual,100000.0,100000.0,OUT,salary maximum over £50k,8ba966d73d06773e
+107853950,UK Technical Underwriting Manager Risk Managed,London,London,Insurance & Superannuation,,,Annual,,,OUT,adjuster/sales/legal/management/senior-specialist title boundary,94548fbd8556f9cb
+107966117,Actuarial Reserving Manager (Motor),London,London,Insurance & Superannuation,,,Annual,,,OUT,adjuster/sales/legal/management/senior-specialist title boundary,56779f9f40882e4c
+107932928,SME Commercial Insurance Account Handler / Broker,Essex,London,Insurance & Superannuation,,,Annual,,,OUT,general broking/account-handling/advice rather than claims support,3d36bf935cb7e9f5
+1895246,Senior Account Handler,Sussex,Sussex,Insurance & Superannuation,38000.00,45000.00,Annual,38000.0,45000.0,OUT,general broking/account-handling/advice rather than claims support,e7ae2a934f834dd3
+1898515,FNOL Motor Claims Handler,Lancashire,Greater Manchester - Manchester & Salford,Insurance & Superannuation,45000.00,45000.00,Annual,45000.0,45000.0,IN,claims handling/admin/advice/support role,90de7efe75cad323
+1897477,Cyber Underwriter,London,London,Insurance & Superannuation,,,Annual,,,OUT,adjuster/sales/legal/management/senior-specialist title boundary,866c412277db3c6c
+1897570,Insurance Accounts Administrator,Gloucestershire,Gloucestershire,Accounting,,,Annual,,,OUT,broad insurance/claims hit but not within defined claims-support boundary,eec7f05e1408b872
+1896821,FNOL Handler,Birmingham,West Midlands - Birmingham & Solihull,Insurance & Superannuation,,,Annual,,,OUT,broad insurance/claims hit but not within defined claims-support boundary,9e08de4beda46e5b
+107962211,Account Handler,Sussex,Sussex,Insurance & Superannuation,45000.00,45000.00,Annual,45000.0,45000.0,OUT,general broking/account-handling/advice rather than claims support,f6d623cd0fc67ec0
+107805348,Commercial Account Handler,Manchester,Greater Manchester - Manchester & Salford,Sales & Marketing,35000.00,35000.00,Annual,35000.0,35000.0,OUT,general broking/account-handling/advice rather than claims support,255f0daff25836b7
+1900872,Account Handler - Commercial Insurance,Warwickshire,West Midlands - Coventry & Warwickshire,Insurance & Superannuation,,,Annual,,,OUT,general broking/account-handling/advice rather than claims support,d404b4e0bd141bd3

@@ -2,7 +2,7 @@
 
 Status: **SKIPPED / BELOW NATIONAL VIABILITY FLOOR**.
 
-Content-unique LIKELY_IN + BORDERLINE national inventory: **42**.
+Content-unique LIKELY_IN + BORDERLINE national inventory: **39**.
 Viability floor: **100**.
 
 No proof-region advert expansion is generated for a family that is below the national scale gate.

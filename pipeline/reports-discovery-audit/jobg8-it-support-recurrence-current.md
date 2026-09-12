@@ -2,48 +2,48 @@
 
 Canonical UK assessment universe: **78 markets**.
 Counts use content-unique adverts after source-reference dedupe.
-LIKELY_IN jobs mapped into the universe: **112**.
-BORDERLINE jobs mapped into the universe: **65**.
-Markets with at least one LIKELY_IN job: **40 / 78**.
+LIKELY_IN jobs mapped into the universe: **37**.
+BORDERLINE jobs mapped into the universe: **26**.
+Markets with at least one LIKELY_IN job: **16 / 78**.
 
 Descriptive current-feed spread only — these thresholds do not activate a slice:
-- markets with 3+ LIKELY_IN: **12**
-- markets with 6+ LIKELY_IN: **6**
+- markets with 3+ LIKELY_IN: **3**
+- markets with 6+ LIKELY_IN: **2**
 - markets with 9+ LIKELY_IN: **1**
 
 ## Strongest current markets
 
 | Market | LIKELY_IN | BORDERLINE | Plausible incl. borderline |
 |---|---:|---:|---:|
-| London | 22 | 19 | 41 |
-| West Midlands - Birmingham & Solihull | 8 | 2 | 10 |
-| Surrey | 7 | 4 | 11 |
-| Essex | 7 | 1 | 8 |
-| Hampshire | 6 | 2 | 8 |
-| Hertfordshire | 6 | 1 | 7 |
-| Berkshire | 5 | 3 | 8 |
-| Merseyside - Liverpool | 4 | 4 | 8 |
-| Yorkshire - West | 4 | 2 | 6 |
-| Kent | 4 | 1 | 5 |
-| Bristol & Bath | 3 | 2 | 5 |
-| Worcestershire | 3 | 0 | 3 |
-| Gloucestershire | 2 | 2 | 4 |
-| Greater Manchester - Manchester & Salford | 2 | 2 | 4 |
-| Lincolnshire | 2 | 2 | 4 |
-| Sussex | 2 | 1 | 3 |
-| Northamptonshire | 2 | 0 | 2 |
-| North East | 1 | 6 | 7 |
-| Buckinghamshire | 1 | 2 | 3 |
-| Cumbria - West | 1 | 1 | 2 |
-| Dorset | 1 | 1 | 2 |
-| Oxfordshire | 1 | 1 | 2 |
-| Scotland Central - Edinburgh & Lothians | 1 | 1 | 2 |
-| Scotland West - Glasgow | 1 | 1 | 2 |
-| Yorkshire - South | 1 | 1 | 2 |
+| London | 10 | 3 | 13 |
+| Northern Ireland - East | 6 | 4 | 10 |
+| Surrey | 4 | 1 | 5 |
+| Greater Manchester - Manchester & Salford | 2 | 1 | 3 |
+| Berkshire | 2 | 0 | 2 |
+| Essex | 2 | 0 | 2 |
+| Kent | 2 | 0 | 2 |
+| Yorkshire - West | 1 | 5 | 6 |
+| Buckinghamshire | 1 | 1 | 2 |
+| Hampshire | 1 | 1 | 2 |
+| Bristol & Bath | 1 | 0 | 1 |
 | Cheshire - West | 1 | 0 | 1 |
-| Cornwall | 1 | 0 | 1 |
-| Greater Manchester - South | 1 | 0 | 1 |
-| Lancashire - Central | 1 | 0 | 1 |
-| Leicestershire | 1 | 0 | 1 |
+| Gloucestershire | 1 | 0 | 1 |
+| Northamptonshire | 1 | 0 | 1 |
+| Shropshire | 1 | 0 | 1 |
+| Worcestershire | 1 | 0 | 1 |
+| Northern Ireland - West | 0 | 2 | 2 |
+| West Midlands - Birmingham & Solihull | 0 | 2 | 2 |
+| Bedfordshire | 0 | 1 | 1 |
+| Cumbria - West | 0 | 1 | 1 |
+| Merseyside - Liverpool | 0 | 1 | 1 |
+| Scotland Central - Edinburgh & Lothians | 0 | 1 | 1 |
+| Sussex | 0 | 1 | 1 |
+| West Midlands - Black Country | 0 | 1 | 1 |
+| Cambridgeshire | 0 | 0 | 0 |
+| Cheshire - East | 0 | 0 | 0 |
+| Cheshire - Warrington & Halton | 0 | 0 | 0 |
+| Cornwall | 0 | 0 | 0 |
+| Cumbria - North | 0 | 0 | 0 |
+| Cumbria - South | 0 | 0 | 0 |
 
 This report is diagnostic evidence only. New-family LIVE activation remains an explicit owner decision after the governed family boundary and national validation are complete.
