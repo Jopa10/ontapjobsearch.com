@@ -2,11 +2,11 @@
 
 review_date: 2026-09-12
 
-- Open Administrative & Clerical rows reviewed: 2068
+- Open Administrative & Clerical rows reviewed: 2066
 - Auto/remembered selected: 369
 - Selected HC Tier A: 190
 - Selected HC Tier B: 179
-- POSS awaiting decision: 1546
+- POSS awaiting decision: 1544
 - Excluded: 0
 - HARD_PASS: 153
 
@@ -2122,18 +2122,6 @@ region: Norfolk
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9426-26-0326
 factual_fingerprint: fc333f4ac8269b73a6380e39ae310f8397515e6feeba9367910d60bac3f665c7
----
-
----
-action:
-POSS | NHS Jobs | East Midlands | Derby, DE22 3NE | £25760.00 to £27476.00 | Senior Administrative Assistant
-source_job_id: 5593638
-title: Senior Administrative Assistant
-employer: University Hospitals of Derby and Burton NHS Foundation Trust
-region: East Midlands
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9320-26-0909
-factual_fingerprint: b9e4e1e45d09e4df8bf6b50f26d189b70a3d8a95e89e7021b032772f24027799
 ---
 
 ---
@@ -4846,18 +4834,6 @@ region: Wales South - Cardiff & Vale
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9028-26-0171
 factual_fingerprint: 67635da526fec43ec95eb7a4c0677775e3705bfda33c5c7280ed1d0b89086bbc
----
-
----
-action:
-POSS | NHS Jobs | West Midlands - Black Country | Walsall, WS2 9PS | £25760.00 to £27476.00 | TACC Data Quality Officer
-source_job_id: 5581763
-title: TACC Data Quality Officer
-employer: Walsall Healthcare NHS Trust
-region: West Midlands - Black Country
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9407-26-0348
-factual_fingerprint: f6a0964b410bf298319eff3e42c46367846b3068d4277c633aafcea07ca4beef
 ---
 
 ---
