@@ -16,7 +16,6 @@ type MoreJobsNearbyProps = {
   allJobsPath: string;
   allJobsLabel: string;
   fallbackTitle: string;
-  fallbackLocation: string;
   intro?: string;
   heading?: string;
   secondaryAllJobsPath?: string;
@@ -28,7 +27,6 @@ export default function MoreJobsNearby({
   allJobsPath,
   allJobsLabel,
   fallbackTitle,
-  fallbackLocation,
   intro = "Approved role matches within 15 straight-line miles. Locations shown are where the jobs are based.",
   heading = "Suitable jobs nearby",
   secondaryAllJobsPath,
@@ -39,7 +37,6 @@ export default function MoreJobsNearby({
       <Link href={allJobsPath} className={styles.fallbackLink}>
         <span className={styles.fallbackCopy}>
           <span className={styles.fallbackTitle}>{fallbackTitle}</span>
-          <span className={styles.fallbackLocation}>{fallbackLocation}</span>
         </span>
         <span className={styles.fallbackArrow} aria-hidden="true">→</span>
       </Link>

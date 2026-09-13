@@ -61,16 +61,8 @@ function moreJobsLabel(value: string) {
   return label.toLowerCase() === "browse" ? "View more jobs" : `View more ${label} jobs`;
 }
 
-function fallbackCardCopy(sliceLabel: string, region: string) {
-  const family = sliceLabel
-    .replace(/\s+(?:roles|jobs)$/i, "")
-    .replace(new RegExp(`^${region.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}\\s*[-–—:]?\\s*`, "i"), "")
-    .trim();
-
-  return {
-    title: family ? `More ${family} jobs` : "More jobs",
-    location: region.replace(/\s+-\s+/g, " – "),
-  };
+function regionalFallbackLabel(region: string) {
+  return `More ${region.replace(/\s+-\s+/g, " – ")} jobs`;
 }
 
 function ListingLinks({
@@ -138,16 +130,13 @@ export default async function JobPage({ params }: PageProps) {
   const publishedJobs = getPublishedJobs();
   const cityPage = getActiveCityPageForJob(job.job_id);
   const discoveryJobs = getDiscoveryRecommendations(job, publishedJobs);
-  const discoveryFallbackCopy = fallbackCardCopy(job.slice_label, job.region);
+  const hasDiscoveryJobs = discoveryJobs.length > 0;
+  const regionalFallbackHref = `/jobs/search?location=${encodeURIComponent(job.region)}`;
+  const regionalFallbackTitle = regionalFallbackLabel(job.region);
   const regionalJobsLabel = moreJobsLabel(job.slice_label);
   const cityJobsLabel = cityPage
     ? moreJobsLabel(cityPage.definition.listingLabel)
     : "";
-  const discoveryFallback: ListingLink = {
-    href: job.slice_path,
-    label: regionalJobsLabel,
-    mobileLabel: `More ${job.region} jobs`,
-  };
   const primaryListing: ListingLink = cityPage
     ? {
         href: cityPage.definition.route,
@@ -184,11 +173,27 @@ export default async function JobPage({ params }: PageProps) {
         <ListingLinks primary={primaryListing} secondary={secondaryListing} />
       </nav>
 
-      <div className={styles.contentGrid}>
+      <div className={`${styles.contentGrid} ${!hasDiscoveryJobs ? styles.noDiscoveryGrid : ""}`}>
         <article className={styles.article}>
-          <h1 style={{ fontSize: 28, fontWeight: 800, lineHeight: 1.2, marginBottom: 8 }}>
-            {job.title}
-          </h1>
+          <div className={!hasDiscoveryJobs ? styles.articleHeader : undefined}>
+            <h1
+              className={!hasDiscoveryJobs ? styles.articleTitle : undefined}
+              style={{ fontSize: 28, fontWeight: 800, lineHeight: 1.2, marginBottom: 8 }}
+            >
+              {job.title}
+            </h1>
+
+            {!hasDiscoveryJobs ? (
+              <div className={styles.articleFallback}>
+                <MoreJobsNearby
+                  jobs={[]}
+                  allJobsPath={regionalFallbackHref}
+                  allJobsLabel={regionalFallbackTitle}
+                  fallbackTitle={regionalFallbackTitle}
+                />
+              </div>
+            ) : null}
+          </div>
 
           <JobFacts job={job} variant="detail" />
 
@@ -224,7 +229,11 @@ export default async function JobPage({ params }: PageProps) {
           <JobPageSearch />
 
           {transferableFit ? (
-            <div className={styles.mobileTransferableFit}>
+            <div
+              className={`${styles.mobileTransferableFit} ${
+                !hasDiscoveryJobs ? styles.noDiscoveryTransferableFit : ""
+              }`}
+            >
               <TransferableFitCard
                 fit={transferableFit}
                 jobId={job.job_id}
@@ -290,36 +299,37 @@ export default async function JobPage({ params }: PageProps) {
           </div>
         </article>
 
-        <aside className={styles.sidebar} aria-label="Related job information">
-          <MoreJobsNearby
-            jobs={discoveryJobs}
-            allJobsPath={discoveryJobs.length ? primaryListing.href : discoveryFallback.href}
-            allJobsLabel={discoveryJobs.length ? primaryListing.label : discoveryFallback.label}
-            fallbackTitle={discoveryFallbackCopy.title}
-            fallbackLocation={discoveryFallbackCopy.location}
-            secondaryAllJobsPath={discoveryJobs.length ? secondaryListing?.href : undefined}
-            secondaryAllJobsLabel={discoveryJobs.length ? secondaryListing?.label : undefined}
-          />
+        {hasDiscoveryJobs ? (
+          <aside className={styles.sidebar} aria-label="Related job information">
+            <MoreJobsNearby
+              jobs={discoveryJobs}
+              allJobsPath={primaryListing.href}
+              allJobsLabel={primaryListing.label}
+              fallbackTitle={regionalFallbackTitle}
+              secondaryAllJobsPath={secondaryListing?.href}
+              secondaryAllJobsLabel={secondaryListing?.label}
+            />
 
-          {transferableFit ? (
-            <div
-              className={styles.desktopTransferableFit}
-              style={{ marginTop: 16 }}
-            >
-              <TransferableFitCard
-                fit={transferableFit}
-                jobId={job.job_id}
-                title={job.title}
-                employer={job.company}
-                location={job.location}
-                region={job.region}
-                source={job.source}
-                slicePath={job.slice_path}
-                placement="desktop"
-              />
-            </div>
-          ) : null}
-        </aside>
+            {transferableFit ? (
+              <div
+                className={styles.desktopTransferableFit}
+                style={{ marginTop: 16 }}
+              >
+                <TransferableFitCard
+                  fit={transferableFit}
+                  jobId={job.job_id}
+                  title={job.title}
+                  employer={job.company}
+                  location={job.location}
+                  region={job.region}
+                  source={job.source}
+                  slicePath={job.slice_path}
+                  placement="desktop"
+                />
+              </div>
+            ) : null}
+          </aside>
+        ) : null}
       </div>
     </div>
   );

@@ -39,6 +39,25 @@
   align-items: start;
 }
 
+.noDiscoveryGrid {
+  grid-template-columns: minmax(0, 1fr);
+}
+
+.articleHeader {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 310px;
+  gap: 24px;
+  align-items: start;
+}
+
+.articleFallback {
+  margin-top: -2px;
+}
+
+.articleTitle {
+  margin-top: 0;
+}
+
 .singleColumn {
   grid-template-columns: minmax(0, 920px);
   justify-content: center;
@@ -59,6 +78,11 @@
 
 .mobileTransferableFit {
   display: none;
+}
+
+.noDiscoveryTransferableFit {
+  display: block;
+  margin-bottom: 22px;
 }
 
 .desktopTransferableFit {
@@ -102,6 +126,14 @@
   .contentGrid,
   .singleColumn {
     display: block;
+  }
+
+  .articleHeader {
+    display: block;
+  }
+
+  .articleFallback {
+    display: none;
   }
 
   .sidebar {
