@@ -65,3 +65,9 @@ test("nearby searches without a role return the full nearby inventory", () => {
 test("vacancy recommendations stay anchored on the vacancy", () => {
   assert.doesNotMatch(nearbyPanel, /savedLocationJobsEvent|savedTown/);
 });
+
+test("vacancies without approved nearby matches show only the regional fallback link", () => {
+  assert.match(nearbyPanel, /if \(!jobs\.length\)/);
+  assert.match(nearbyPanel, /className=\{styles\.fallbackLink\}/);
+  assert.doesNotMatch(nearbyPanel, /No approved close match/);
+});

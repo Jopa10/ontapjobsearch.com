@@ -7,6 +7,8 @@ This is the short owner view of how Ontap is organised. It mirrors the five cano
 
 ## Recent canonical changes
 
+- 13 September 2026 — **Job pages no longer emphasise an absence of nearby matches:** if Ontap has no approved suitable job nearby, it hides the empty recommendation box and presents only the useful regional jobs link. Pages with suitable matches are unchanged.
+
 - 13 September 2026 — **Unused Quick View duty bubbles and their daily refresh were removed:** current listing rows remain visually unchanged, including sector labels where enabled. Removing the obsolete workflow prevents unnecessary generated commits after JobG8 updates; individual job-page facts are unaffected.
 
 - 11 September 2026 — **The onward-jobs link is shorter on phones:** individual job pages show `More [city or region] jobs` on one line at mobile widths. Desktop keeps the fuller role-and-region description, and the destination is unchanged.
@@ -265,7 +267,7 @@ Customer Sales uses the same dynamic configured-slice mechanism. Production laun
 
 NHS jobs use those same Service Admin pages and job-detail routes. A job is identified reliably by `source: "NHS Jobs"`; the employer itself may be an NHS trust, GP surgery, healthcare provider or other organisation whose visible name does not contain “NHS”. The job-detail page links to the original NHS Jobs advert for application.
 
-Individual job pages use the governed published category as their family for the **Suitable jobs nearby** panel. A target must be in that same family or have an explicit registered relationship, must be positively evidenced private-sector, and must resolve within 15 straight-line miles. Results retain their true location and distance. Exact titles rank first, explicit relationships next and other same-family jobs after them; active locality exclusions still block a pair. Broad/unresolved locations receive the regional slice fallback.
+Individual job pages use the governed published category as their family for the **Suitable jobs nearby** panel. A target must be in that same family or have an explicit registered relationship, must be positively evidenced private-sector, and must resolve within 15 straight-line miles. Results retain their true location and distance. Exact titles rank first, explicit relationships next and other same-family jobs after them; active locality exclusions still block a pair. Broad/unresolved locations receive the regional slice fallback. When no approved match qualifies, the empty panel and negative message are hidden and only the regional jobs link remains.
 
 `pipeline/scripts/audit_discovery_recommendation_coverage.py` applies those gates to the complete current published inventory and records whether each page receives ranked jobs or the slice fallback. Its CSV and Markdown reports are diagnostic only; they cannot classify an employer, activate a relationship or change a page.
 
