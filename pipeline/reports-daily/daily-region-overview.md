@@ -1,6 +1,6 @@
 # Ontap daily regional overview
 
-Generated: 2026-09-13T08:59:01+01:00
+Generated: 2026-09-13T10:33:10+01:00
 
 [Download this overview as Excel](./daily-region-overview.xlsx)
 
@@ -8,26 +8,26 @@ Generated: 2026-09-13T08:59:01+01:00
 
 | Measure | Count |
 |---|---:|
-| Unique live jobs | 1,597 |
-| Unique JobG8 jobs | 1,326 |
-| Unique non-JobG8 jobs | 271 |
-| Regional/category slice placements | 1,728 |
-| Jobs appearing on multiple slices | 129 |
-| Extra slice placements | 131 |
+| Unique live jobs | 1,649 |
+| Unique JobG8 jobs | 1,379 |
+| Unique non-JobG8 jobs | 270 |
+| Regional/category slice placements | 1,800 |
+| Jobs appearing on multiple slices | 149 |
+| Extra slice placements | 151 |
 | Unique jobs outside governed slices | 0 |
 | Jobs found in non-LIVE slices | 0 |
 
-**Reconciliation: 1,597 unique jobs + 131 extra slice placements = 1,728 regional/category slice placements.**
+**Reconciliation: 1,649 unique jobs + 151 extra slice placements = 1,800 regional/category slice placements.**
 
-Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-09-12.csv` — **STALE — CSV says 1,629 for 2026-09-12**.
+Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-09-13.csv` — **STALE — CSV says 1,665 for 2026-09-13**.
 
 ### Provider breakdown
 
 | Provider | Unique live jobs | Jobs on 2+ slices | Extra slice placements |
 |---|---:|---:|---:|
-| JobG8 | 1,326 | 129 | 131 |
+| JobG8 | 1,379 | 149 | 151 |
 | NEJobs | 13 | 0 | 0 |
-| NHS Jobs | 185 | 0 | 0 |
+| NHS Jobs | 184 | 0 | 0 |
 | Teaching Vacancies | 70 | 0 | 0 |
 | VONNE | 3 | 0 | 0 |
 
@@ -39,7 +39,7 @@ Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-09-1
 |---|---:|---:|
 | Sales & Marketing | 1,716 | 278 |
 | Legal | 1,107 | 85 |
-| Administration | 1,007 | 524 |
+| Administration | 1,007 | 528 |
 | HR / Recruitment | 971 | 114 |
 | Healthcare & Medical | 862 | 55 |
 | I.T. & Communications | 767 | 20 |
@@ -53,17 +53,17 @@ Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-09-1
 | Consulting & Corporate Strategy | 197 | 11 |
 | Advert / Media / Entertainment | 155 | 13 |
 | Science & Technology | 69 |  |
-| Total Ontap JobG8 jobs published today | 10,000 | 1,375 |
+| Total Ontap JobG8 jobs published today | 10,000 | 1,379 |
 
 ## PAGES
 
-**Published/indexable URLs: 1,764** — 1,580 individual job pages, 112 regional/category pages, 64 city pages and 8 core pages.
+**Published/indexable URLs: 1,820** — 1,628 individual job pages, 120 regional/category pages, 64 city pages and 8 core pages.
 
 | Level | Page type | Area | Family | URL | Page count | Live jobs | In sitemap |
 |---|---|---|---|---|---:|---:|---|
-| Summary | All published/indexable URLs | Sitewide |  |  | 1,764 |  | Yes |
-| Summary | Individual job | Sitewide |  | /jobs/[id] | 1,580 | 1,580 | Yes |
-| Summary | Regional/category | Sitewide |  | Multiple | 112 |  | Yes |
+| Summary | All published/indexable URLs | Sitewide |  |  | 1,820 |  | Yes |
+| Summary | Individual job | Sitewide |  | /jobs/[id] | 1,628 | 1,628 | Yes |
+| Summary | Regional/category | Sitewide |  | Multiple | 120 |  | Yes |
 | Summary | City | Sitewide |  | Multiple | 64 |  | Yes |
 | Summary | Core | Sitewide |  | Multiple | 8 |  | Yes |
 | Detail | Core | Sitewide |  | / | 1 |  | Yes |
@@ -81,10 +81,10 @@ Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-09-1
 | Detail | Regional/category | Cumbria South | Support Worker | /cumbria-south/support-worker | 1 | 3 | Yes |
 | Detail | Regional/category | Hampshire | Support Worker | /hampshire/support-worker | 1 | 11 | Yes |
 | Detail | Regional/category | West Yorkshire | Service Administrator Jobs | /west-yorkshire/service-administrator-jobs | 1 | 37 | Yes |
-| Detail | Regional/category | South Yorkshire | Service Administrator Jobs | /south-yorkshire/service-administrator-jobs | 1 | 20 | Yes |
+| Detail | Regional/category | South Yorkshire | Service Administrator Jobs | /south-yorkshire/service-administrator-jobs | 1 | 21 | Yes |
 | Detail | Regional/category | North Yorkshire | Service Administrator Jobs | /north-yorkshire/service-administrator-jobs | 1 | 13 | Yes |
-| Detail | Regional/category | North East | Service Administrator Jobs | /north-east/service-administrator-jobs | 1 | 94 | Yes |
-| Detail | Regional/category | London | Service Administrator Jobs | /london/service-administrator-jobs | 1 | 183 | Yes |
+| Detail | Regional/category | North East | Service Administrator Jobs | /north-east/service-administrator-jobs | 1 | 120 | Yes |
+| Detail | Regional/category | London | Service Administrator Jobs | /london/service-administrator-jobs | 1 | 181 | Yes |
 | Detail | Regional/category | London | Central Service Administrator Jobs | /london/central-service-administrator-jobs | 1 |  | Yes |
 | Detail | Regional/category | London | North Service Administrator Jobs | /london/north-service-administrator-jobs | 1 |  | Yes |
 | Detail | Regional/category | London | East Service Administrator Jobs | /london/east-service-administrator-jobs | 1 |  | Yes |
@@ -93,33 +93,33 @@ Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-09-1
 | Detail | Regional/category | Hampshire | Service Administrator Jobs | /hampshire/service-administrator-jobs | 1 | 53 | Yes |
 | Detail | Regional/category | Coventry Warwickshire | Service Administrator Jobs | /coventry-warwickshire/service-administrator-jobs | 1 | 25 | Yes |
 | Detail | Regional/category | Surrey | Service Administrator Jobs | /surrey/service-administrator-jobs | 1 | 49 | Yes |
-| Detail | Regional/category | Kent | Service Administrator Jobs | /kent/service-administrator-jobs | 1 | 43 | Yes |
-| Detail | Regional/category | Sussex | Service Administrator Jobs | /sussex/service-administrator-jobs | 1 | 32 | Yes |
-| Detail | City | Newcastle | admin and office jobs | /newcastle/service-administrator-jobs | 1 | 48 | Yes |
+| Detail | Regional/category | Kent | Service Administrator Jobs | /kent/service-administrator-jobs | 1 | 45 | Yes |
+| Detail | Regional/category | Sussex | Service Administrator Jobs | /sussex/service-administrator-jobs | 1 | 31 | Yes |
+| Detail | City | Newcastle | admin and office jobs | /newcastle/service-administrator-jobs | 1 | 77 | Yes |
 | Detail | City | Southampton | support worker jobs | /southampton/support-worker | 1 | 3 | Yes |
-| Detail | City | Sheffield | admin and office jobs | /sheffield/service-administrator-jobs | 1 | 11 | Yes |
+| Detail | City | Sheffield | admin and office jobs | /sheffield/service-administrator-jobs | 1 | 10 | Yes |
 | Detail | City | Leeds | admin and office jobs | /leeds/service-administrator-jobs | 1 | 24 | Yes |
 | Detail | City | Coventry | admin and office jobs | /coventry/service-administrator-jobs | 1 | 9 | Yes |
-| Detail | City | Southampton | admin and office jobs | /southampton/service-administrator-jobs | 1 | 6 | Yes |
+| Detail | City | Southampton | admin and office jobs | /southampton/service-administrator-jobs | 1 | 5 | Yes |
 | Detail | City | Brighton & Hove | admin and office jobs | /brighton-hove/service-administrator-jobs | 1 | 7 | Yes |
 | Detail | City | Bradford | admin and office jobs | /bradford/service-administrator-jobs | 1 | 4 | Yes |
 | Detail | City | Huddersfield | admin and office jobs | /huddersfield/service-administrator-jobs | 1 | 2 | Yes |
 | Detail | City | York | admin and office jobs | /york/service-administrator-jobs | 1 | 4 | Yes |
 | Detail | City | Barnsley | admin and office jobs | /barnsley/service-administrator-jobs | 1 | 2 | Yes |
-| Detail | City | Doncaster | admin and office jobs | /doncaster/service-administrator-jobs | 1 | 3 | Yes |
-| Detail | City | Bristol | admin and office jobs | /bristol/service-administrator-jobs | 1 | 24 | Yes |
-| Detail | City | Manchester | admin and office jobs | /manchester/service-administrator-jobs | 1 | 33 | Yes |
+| Detail | City | Doncaster | admin and office jobs | /doncaster/service-administrator-jobs | 1 | 5 | Yes |
+| Detail | City | Bristol | admin and office jobs | /bristol/service-administrator-jobs | 1 | 25 | Yes |
+| Detail | City | Manchester | admin and office jobs | /manchester/service-administrator-jobs | 1 | 35 | Yes |
 | Detail | City | Cambridge | admin and office jobs | /cambridge/service-administrator-jobs | 1 | 10 | Yes |
-| Detail | City | Birmingham | admin and office jobs | /birmingham/service-administrator-jobs | 1 | 24 | Yes |
-| Detail | City | Peterborough | admin and office jobs | /peterborough/service-administrator-jobs | 1 | 5 | Yes |
+| Detail | City | Birmingham | admin and office jobs | /birmingham/service-administrator-jobs | 1 | 22 | Yes |
+| Detail | City | Peterborough | admin and office jobs | /peterborough/service-administrator-jobs | 1 | 3 | Yes |
 | Detail | City | Warrington | admin and office jobs | /warrington/service-administrator-jobs | 1 | 1 | Yes |
-| Detail | City | Liverpool | admin and office jobs | /liverpool/service-administrator-jobs | 1 | 20 | Yes |
+| Detail | City | Liverpool | admin and office jobs | /liverpool/service-administrator-jobs | 1 | 19 | Yes |
 | Detail | City | Hull | admin and office jobs | /hull/service-administrator-jobs | 1 | 9 | Yes |
 | Detail | City | Oxford | admin and office jobs | /oxford/service-administrator-jobs | 1 | 6 | Yes |
-| Detail | City | Belfast | admin and office jobs | /belfast/service-administrator-jobs | 1 | 47 | Yes |
-| Detail | City | Glasgow | admin and office jobs | /glasgow/service-administrator-jobs | 1 | 13 | Yes |
+| Detail | City | Belfast | admin and office jobs | /belfast/service-administrator-jobs | 1 | 49 | Yes |
+| Detail | City | Glasgow | admin and office jobs | /glasgow/service-administrator-jobs | 1 | 16 | Yes |
 | Detail | City | Edinburgh | admin and office jobs | /edinburgh/service-administrator-jobs | 1 | 12 | Yes |
-| Detail | City | Cardiff | admin and office jobs | /cardiff/service-administrator-jobs | 1 | 5 | Yes |
+| Detail | City | Cardiff | admin and office jobs | /cardiff/service-administrator-jobs | 1 | 4 | Yes |
 | Detail | City | Exeter | admin and office jobs | /exeter/service-administrator-jobs | 1 | 10 | Yes |
 | Detail | City | Milton Keynes | admin and office jobs | /milton-keynes/service-administrator-jobs | 1 | 8 | Yes |
 | Detail | City | Farnham | admin and office jobs | /farnham/service-administrator-jobs | 1 | 7 | Yes |
@@ -130,9 +130,9 @@ Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-09-1
 | Detail | City | Hemel Hempstead | admin and office jobs | /hemel-hempstead/service-administrator-jobs | 1 | 2 | Yes |
 | Detail | City | Basingstoke | admin and office jobs | /basingstoke/service-administrator-jobs | 1 | 6 | Yes |
 | Detail | City | Chelmsford | admin and office jobs | /chelmsford/service-administrator-jobs | 1 | 12 | Yes |
-| Detail | City | Gloucester | admin and office jobs | /gloucester/service-administrator-jobs | 1 | 2 | Yes |
+| Detail | City | Gloucester | admin and office jobs | /gloucester/service-administrator-jobs | 1 | 3 | Yes |
 | Detail | City | Leicester | admin and office jobs | /leicester/service-administrator-jobs | 1 | 4 | Yes |
-| Detail | City | Maidstone | admin and office jobs | /maidstone/service-administrator-jobs | 1 | 1 | Yes |
+| Detail | City | Maidstone | admin and office jobs | /maidstone/service-administrator-jobs | 1 | 0 | Yes |
 | Detail | City | Newtownabbey | admin and office jobs | /newtownabbey/service-administrator-jobs | 1 | 5 | Yes |
 | Detail | City | Plymouth | admin and office jobs | /plymouth/service-administrator-jobs | 1 | 2 | Yes |
 | Detail | City | Sunderland | admin and office jobs | /sunderland/service-administrator-jobs | 1 | 3 | Yes |
@@ -140,7 +140,7 @@ Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-09-1
 | Detail | City | Altrincham | admin and office jobs | /altrincham/service-administrator-jobs | 1 | 3 | Yes |
 | Detail | City | Ashford | admin and office jobs | /ashford/service-administrator-jobs | 1 | 1 | Yes |
 | Detail | City | Aylesbury | admin and office jobs | /aylesbury/service-administrator-jobs | 1 | 3 | Yes |
-| Detail | City | Bedford | admin and office jobs | /bedford/service-administrator-jobs | 1 | 5 | Yes |
+| Detail | City | Bedford | admin and office jobs | /bedford/service-administrator-jobs | 1 | 4 | Yes |
 | Detail | City | Bournemouth | admin and office jobs | /bournemouth/service-administrator-jobs | 1 | 3 | Yes |
 | Detail | City | Chester Le Street | admin and office jobs | /chester-le-street/service-administrator-jobs | 1 | 3 | Yes |
 | Detail | City | Macclesfield | admin and office jobs | /macclesfield/service-administrator-jobs | 1 | 3 | Yes |
@@ -160,141 +160,150 @@ Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-09-1
 | Detail | City | Norwich | All roles | /norwich/jobs | 1 |  | Yes |
 | Detail | City | Salford | All roles | /salford/jobs | 1 |  | Yes |
 | Detail | Regional/category | Yorkshire - East | Admin & Customer Service | /job-search/east-yorkshire/service-administrator-jobs | 1 | 12 | Yes |
-| Detail | Regional/category | Northern Ireland - East | Admin & Customer Service | /job-search/northern-ireland-east/service-administrator-jobs | 1 | 57 | Yes |
+| Detail | Regional/category | Northern Ireland - East | Admin & Customer Service | /job-search/northern-ireland-east/service-administrator-jobs | 1 | 53 | Yes |
 | Detail | Regional/category | London | Customer Service & Contact Centre | /job-search/london/customer-service-jobs | 1 | 1 | Yes |
 | Detail | Regional/category | London | HR & Recruitment | /job-search/london/hr-recruitment-jobs | 1 | 34 | Yes |
 | Detail | Regional/category | Greater Manchester - Manchester & Salford | Admin & Customer Service | /job-search/manchester-salford/service-administrator-jobs | 1 | 27 | Yes |
 | Detail | Regional/category | London | Finance & Accounts | /job-search/london/finance-accounts-jobs | 1 | 11 | Yes |
-| Detail | Regional/category | Oxfordshire | Admin & Customer Service | /job-search/oxfordshire/service-administrator-jobs | 1 | 26 | Yes |
-| Detail | Regional/category | Bristol & Bath | Admin & Customer Service | /job-search/bristol-bath/service-administrator-jobs | 1 | 25 | Yes |
+| Detail | Regional/category | Oxfordshire | Admin & Customer Service | /job-search/oxfordshire/service-administrator-jobs | 1 | 23 | Yes |
+| Detail | Regional/category | Bristol & Bath | Admin & Customer Service | /job-search/bristol-bath/service-administrator-jobs | 1 | 27 | Yes |
 | Detail | Regional/category | Essex | Admin & Customer Service | /job-search/essex/service-administrator-jobs | 1 | 36 | Yes |
 | Detail | Regional/category | Hampshire | Customer Service & Contact Centre | /job-search/hampshire/customer-service-jobs | 1 | 5 | Yes |
-| Detail | Regional/category | Cambridgeshire | Admin & Customer Service | /job-search/cambridgeshire/service-administrator-jobs | 1 | 16 | Yes |
-| Detail | Regional/category | Gloucestershire | Admin & Customer Service | /job-search/gloucestershire/service-administrator-jobs | 1 | 18 | Yes |
+| Detail | Regional/category | Cambridgeshire | Admin & Customer Service | /job-search/cambridgeshire/service-administrator-jobs | 1 | 13 | Yes |
+| Detail | Regional/category | Gloucestershire | Admin & Customer Service | /job-search/gloucestershire/service-administrator-jobs | 1 | 20 | Yes |
 | Detail | Regional/category | London | Support Worker | /job-search/london/support-worker | 1 | 21 | Yes |
 | Detail | Regional/category | Dorset | Admin & Customer Service | /job-search/dorset/service-administrator-jobs | 1 | 13 | Yes |
 | Detail | Regional/category | Staffordshire | Customer Service & Contact Centre | /job-search/staffordshire/customer-service-jobs | 1 | 1 | Yes |
 | Detail | Regional/category | Devon | Admin & Customer Service | /job-search/devon/service-administrator-jobs | 1 | 21 | Yes |
 | Detail | Regional/category | Surrey | Customer Service & Contact Centre | /job-search/surrey/customer-service-jobs | 1 | 2 | Yes |
-| Detail | Regional/category | Wiltshire | Admin & Customer Service | /job-search/wiltshire/service-administrator-jobs | 1 | 15 | Yes |
-| Detail | Regional/category | Northamptonshire | Admin & Customer Service | /job-search/northamptonshire/service-administrator-jobs | 1 | 20 | Yes |
+| Detail | Regional/category | Wiltshire | Admin & Customer Service | /job-search/wiltshire/service-administrator-jobs | 1 | 13 | Yes |
+| Detail | Regional/category | Northamptonshire | Admin & Customer Service | /job-search/northamptonshire/service-administrator-jobs | 1 | 21 | Yes |
 | Detail | Regional/category | Berkshire | Admin & Customer Service | /job-search/berkshire/service-administrator-jobs | 1 | 23 | Yes |
 | Detail | Regional/category | Nottinghamshire | Admin & Customer Service | /job-search/nottinghamshire/service-administrator-jobs | 1 | 27 | Yes |
-| Detail | Regional/category | Buckinghamshire | Admin & Customer Service | /job-search/buckinghamshire/service-administrator-jobs | 1 | 32 | Yes |
+| Detail | Regional/category | Buckinghamshire | Admin & Customer Service | /job-search/buckinghamshire/service-administrator-jobs | 1 | 30 | Yes |
 | Detail | Regional/category | Surrey | Support Worker | /job-search/surrey/support-worker | 1 | 1 | Yes |
 | Detail | Regional/category | Hertfordshire | Admin & Customer Service | /job-search/hertfordshire/service-administrator-jobs | 1 | 19 | Yes |
 | Detail | Regional/category | Staffordshire | Admin & Customer Service | /job-search/staffordshire/service-administrator-jobs | 1 | 16 | Yes |
 | Detail | Regional/category | Norfolk | Admin & Customer Service | /job-search/norfolk/service-administrator-jobs | 1 | 9 | Yes |
-| Detail | Regional/category | West Midlands - Birmingham & Solihull | Admin & Customer Service | /job-search/birmingham-solihull/service-administrator-jobs | 1 | 27 | Yes |
+| Detail | Regional/category | West Midlands - Birmingham & Solihull | Admin & Customer Service | /job-search/birmingham-solihull/service-administrator-jobs | 1 | 26 | Yes |
 | Detail | Regional/category | Yorkshire - West | HR & Recruitment | /job-search/west-yorkshire/hr-recruitment-jobs | 1 | 4 | Yes |
 | Detail | Regional/category | Greater Manchester - South | Admin & Customer Service | /job-search/greater-manchester-south/service-administrator-jobs | 1 | 10 | Yes |
-| Detail | Regional/category | Wiltshire | Support Worker | /job-search/wiltshire/support-worker | 1 | 3 | Yes |
-| Detail | Regional/category | Somerset | Admin & Customer Service | /job-search/somerset/service-administrator-jobs | 1 | 13 | Yes |
-| Detail | Regional/category | London | Customer Sales & Sales Advisor | /job-search/london/customer-sales-jobs | 1 | 19 | Yes |
-| Detail | Regional/category | Yorkshire - West | Customer Sales & Sales Advisor | /job-search/west-yorkshire/customer-sales-jobs | 1 | 1 | Yes |
-| Detail | Regional/category | Greater Manchester - Manchester & Salford | Customer Sales & Sales Advisor | /job-search/manchester-salford/customer-sales-jobs | 1 | 7 | Yes |
-| Detail | Regional/category | Leicestershire | Admin & Customer Service | /job-search/leicestershire/service-administrator-jobs | 1 | 20 | Yes |
+| Detail | Regional/category | Wiltshire | Support Worker | /job-search/wiltshire/support-worker | 1 | 2 | Yes |
+| Detail | Regional/category | Somerset | Admin & Customer Service | /job-search/somerset/service-administrator-jobs | 1 | 15 | Yes |
+| Detail | Regional/category | London | Customer Sales & Sales Advisor | /job-search/london/customer-sales-jobs | 1 | 20 | Yes |
+| Detail | Regional/category | Greater Manchester - Manchester & Salford | Customer Sales & Sales Advisor | /job-search/manchester-salford/customer-sales-jobs | 1 | 6 | Yes |
+| Detail | Regional/category | Leicestershire | Admin & Customer Service | /job-search/leicestershire/service-administrator-jobs | 1 | 19 | Yes |
 | Detail | Regional/category | Cheshire - Warrington & Halton | Admin & Customer Service | /job-search/warrington-halton/service-administrator-jobs | 1 | 2 | Yes |
 | Detail | Regional/category | Cornwall | Admin & Customer Service | /job-search/cornwall/service-administrator-jobs | 1 | 5 | Yes |
-| Detail | Regional/category | Suffolk | Admin & Customer Service | /job-search/suffolk/service-administrator-jobs | 1 | 16 | Yes |
-| Detail | Regional/category | Derbyshire | Admin & Customer Service | /job-search/derbyshire/service-administrator-jobs | 1 | 10 | Yes |
-| Detail | Regional/category | Cheshire - East | Admin & Customer Service | /job-search/cheshire-east/service-administrator-jobs | 1 | 11 | Yes |
+| Detail | Regional/category | Suffolk | Admin & Customer Service | /job-search/suffolk/service-administrator-jobs | 1 | 13 | Yes |
+| Detail | Regional/category | Derbyshire | Admin & Customer Service | /job-search/derbyshire/service-administrator-jobs | 1 | 11 | Yes |
+| Detail | Regional/category | Cheshire - East | Admin & Customer Service | /job-search/cheshire-east/service-administrator-jobs | 1 | 10 | Yes |
 | Detail | Regional/category | Lincolnshire | Admin & Customer Service | /job-search/lincolnshire/service-administrator-jobs | 1 | 9 | Yes |
-| Detail | Regional/category | Merseyside - Liverpool | Admin & Customer Service | /job-search/merseyside-liverpool/service-administrator-jobs | 1 | 16 | Yes |
+| Detail | Regional/category | Merseyside - Liverpool | Admin & Customer Service | /job-search/merseyside-liverpool/service-administrator-jobs | 1 | 15 | Yes |
 | Detail | Regional/category | Shropshire | Admin & Customer Service | /job-search/shropshire/service-administrator-jobs | 1 | 12 | Yes |
 | Detail | Regional/category | Greater Manchester - Wigan & Bolton | Admin & Customer Service | /job-search/wigan-bolton/service-administrator-jobs | 1 | 6 | Yes |
-| Detail | Regional/category | West Midlands - Black Country | Admin & Customer Service | /job-search/black-country/service-administrator-jobs | 1 | 5 | Yes |
-| Detail | Regional/category | London | Legal Assistant & Paralegal | /job-search/london/paralegal-jobs | 1 | 51 | Yes |
+| Detail | Regional/category | West Midlands - Black Country | Admin & Customer Service | /job-search/black-country/service-administrator-jobs | 1 | 3 | Yes |
+| Detail | Regional/category | London | Legal Assistant & Paralegal | /job-search/london/paralegal-jobs | 1 | 52 | Yes |
 | Detail | Regional/category | Suffolk | Legal Assistant & Paralegal | /job-search/suffolk/paralegal-jobs | 1 | 2 | Yes |
 | Detail | Regional/category | Essex | Legal Assistant & Paralegal | /job-search/essex/paralegal-jobs | 1 | 6 | Yes |
 | Detail | Regional/category | Norfolk | Legal Assistant & Paralegal | /job-search/norfolk/paralegal-jobs | 1 | 1 | Yes |
 | Detail | Regional/category | London | Marketing | /job-search/london/marketing-jobs | 1 | 100 | Yes |
-| Detail | Regional/category | Surrey | Marketing | /job-search/surrey/marketing-jobs | 1 | 14 | Yes |
-| Detail | Regional/category | Greater Manchester - Manchester & Salford | Marketing | /job-search/manchester-salford/marketing-jobs | 1 | 11 | Yes |
-| Detail | Regional/category | West Midlands - Birmingham & Solihull | Marketing | /job-search/birmingham-solihull/marketing-jobs | 1 | 8 | Yes |
-| Detail | Regional/category | Berkshire | HR & Recruitment | /job-search/berkshire/hr-recruitment-jobs | 1 | 2 | Yes |
+| Detail | Regional/category | Surrey | Marketing | /job-search/surrey/marketing-jobs | 1 | 13 | Yes |
+| Detail | Regional/category | Greater Manchester - Manchester & Salford | Marketing | /job-search/manchester-salford/marketing-jobs | 1 | 10 | Yes |
+| Detail | Regional/category | West Midlands - Birmingham & Solihull | Marketing | /job-search/birmingham-solihull/marketing-jobs | 1 | 6 | Yes |
+| Detail | Regional/category | Berkshire | HR & Recruitment | /job-search/berkshire/hr-recruitment-jobs | 1 | 1 | Yes |
 | Detail | Regional/category | Greater Manchester - Manchester & Salford | HR & Recruitment | /job-search/manchester-salford/hr-recruitment-jobs | 1 | 3 | Yes |
 | Detail | Regional/category | Nottinghamshire | HR & Recruitment | /job-search/nottinghamshire/hr-recruitment-jobs | 1 | 4 | Yes |
 | Detail | Regional/category | West Midlands - Birmingham & Solihull | HR & Recruitment | /job-search/birmingham-solihull/hr-recruitment-jobs | 1 | 5 | Yes |
 | Detail | Regional/category | Sussex | HR & Recruitment | /job-search/sussex/hr-recruitment-jobs | 1 | 2 | Yes |
 | Detail | Regional/category | Cheshire - West | Admin & Customer Service | /job-search/cheshire-west/service-administrator-jobs | 1 | 7 | Yes |
 | Detail | Regional/category | Scotland Central - Edinburgh & Lothians | Admin & Customer Service | /job-search/edinburgh-lothians/service-administrator-jobs | 1 | 12 | Yes |
-| Detail | Regional/category | Worcestershire | Admin & Customer Service | /job-search/worcestershire/service-administrator-jobs | 1 | 11 | Yes |
+| Detail | Regional/category | Worcestershire | Admin & Customer Service | /job-search/worcestershire/service-administrator-jobs | 1 | 12 | Yes |
 | Detail | Regional/category | Berkshire | Marketing | /job-search/berkshire/marketing-jobs | 1 | 11 | Yes |
 | Detail | Regional/category | Kent | Support Worker | /job-search/kent/support-worker | 1 | 3 | Yes |
-| Detail | Regional/category | North East | Customer Sales & Sales Advisor | /job-search/north-east/customer-sales-jobs | 1 | 5 | Yes |
+| Detail | Regional/category | North East | Customer Sales & Sales Advisor | /job-search/north-east/customer-sales-jobs | 1 | 7 | Yes |
 | Detail | Regional/category | Oxfordshire | Support Worker | /job-search/oxfordshire/support-worker | 1 | 3 | Yes |
-| Detail | Regional/category | Northern Ireland - East | Finance & Accounts | /job-search/northern-ireland-east/finance-accounts-jobs | 1 | 17 | Yes |
+| Detail | Regional/category | Northern Ireland - East | Finance & Accounts | /job-search/northern-ireland-east/finance-accounts-jobs | 1 | 16 | Yes |
 | Detail | Regional/category | Bedfordshire | Admin & Customer Service | /job-search/bedfordshire/service-administrator-jobs | 1 | 18 | Yes |
 | Detail | Regional/category | Bristol & Bath | Customer Sales & Sales Advisor | /job-search/bristol-bath/customer-sales-jobs | 1 | 3 | Yes |
 | Detail | Regional/category | Buckinghamshire | Marketing | /job-search/buckinghamshire/marketing-jobs | 1 | 8 | Yes |
-| Detail | Regional/category | Wales South - Cardiff & Vale | Admin & Customer Service | /job-search/cardiff-vale/service-administrator-jobs | 1 | 5 | Yes |
+| Detail | Regional/category | Wales South - Cardiff & Vale | Admin & Customer Service | /job-search/cardiff-vale/service-administrator-jobs | 1 | 4 | Yes |
 | Detail | Regional/category | Berkshire | Customer Sales & Sales Advisor | /job-search/berkshire/customer-sales-jobs | 1 | 2 | Yes |
 | Detail | Regional/category | Hertfordshire | Customer Sales & Sales Advisor | /job-search/hertfordshire/customer-sales-jobs | 1 | 4 | Yes |
 | Detail | Regional/category | Kent | Customer Sales & Sales Advisor | /job-search/kent/customer-sales-jobs | 1 | 7 | Yes |
 | Detail | Regional/category | Scotland West - Glasgow | Customer Sales & Sales Advisor | /job-search/glasgow/customer-sales-jobs | 1 | 1 | Yes |
 | Detail | Regional/category | Surrey | Customer Sales & Sales Advisor | /job-search/surrey/customer-sales-jobs | 1 | 3 | Yes |
-| Detail | Regional/category | Sussex | Customer Sales & Sales Advisor | /job-search/sussex/customer-sales-jobs | 1 | 4 | Yes |
-| Detail | Regional/category | Bristol & Bath | Marketing | /job-search/bristol-bath/marketing-jobs | 1 | 8 | Yes |
+| Detail | Regional/category | Sussex | Customer Sales & Sales Advisor | /job-search/sussex/customer-sales-jobs | 1 | 3 | Yes |
+| Detail | Regional/category | Bristol & Bath | Marketing | /job-search/bristol-bath/marketing-jobs | 1 | 7 | Yes |
 | Detail | Regional/category | Gloucestershire | Marketing | /job-search/gloucestershire/marketing-jobs | 1 | 9 | Yes |
-| Detail | Regional/category | Hertfordshire | Marketing | /job-search/hertfordshire/marketing-jobs | 1 | 8 | Yes |
+| Detail | Regional/category | Hertfordshire | Marketing | /job-search/hertfordshire/marketing-jobs | 1 | 7 | Yes |
 | Detail | Regional/category | Kent | Marketing | /job-search/kent/marketing-jobs | 1 | 11 | Yes |
-| Detail | Regional/category | Oxfordshire | Marketing | /job-search/oxfordshire/marketing-jobs | 1 | 7 | Yes |
-| Detail | Regional/category | North Scotland | Admin & Customer Service | /job-search/north-scotland/service-administrator-jobs | 1 | 3 | Yes |
-| Detail | Regional/category | Scotland Central - Tayside | Admin & Customer Service | /job-search/tayside/service-administrator-jobs | 1 | 6 | Yes |
+| Detail | Regional/category | Oxfordshire | Marketing | /job-search/oxfordshire/marketing-jobs | 1 | 6 | Yes |
+| Detail | Regional/category | North Scotland | Admin & Customer Service | /job-search/north-scotland/service-administrator-jobs | 1 | 4 | Yes |
+| Detail | Regional/category | Scotland Central - Tayside | Admin & Customer Service | /job-search/tayside/service-administrator-jobs | 1 | 7 | Yes |
 | Detail | Regional/category | Wales South - Valleys | Admin & Customer Service | /job-search/south-wales-valleys/service-administrator-jobs | 1 | 2 | Yes |
 | Detail | Regional/category | Cambridgeshire | Marketing | /job-search/cambridgeshire/marketing-jobs | 1 | 6 | Yes |
 | Detail | Regional/category | Cheshire - West | Marketing | /job-search/cheshire-west/marketing-jobs | 1 | 5 | Yes |
 | Detail | Regional/category | Essex | Marketing | /job-search/essex/marketing-jobs | 1 | 7 | Yes |
-| Detail | Regional/category | Merseyside - Liverpool | Marketing | /job-search/merseyside-liverpool/marketing-jobs | 1 | 8 | Yes |
+| Detail | Regional/category | Merseyside - Liverpool | Marketing | /job-search/merseyside-liverpool/marketing-jobs | 1 | 7 | Yes |
 | Detail | Regional/category | North East | Marketing | /job-search/north-east/marketing-jobs | 1 | 5 | Yes |
 | Detail | Regional/category | Buckinghamshire | Customer Service & Contact Centre | /job-search/buckinghamshire/customer-service-jobs | 1 | 1 | Yes |
 | Detail | Regional/category | North East | Customer Service & Contact Centre | /job-search/north-east/customer-service-jobs | 1 | 4 | Yes |
+| Detail | Regional/category | Devon | Customer Sales & Sales Advisor | /job-search/devon/customer-sales-jobs | 1 | 4 | Yes |
+| Detail | Regional/category | Hampshire | Customer Sales & Sales Advisor | /job-search/hampshire/customer-sales-jobs | 1 | 5 | Yes |
+| Detail | Regional/category | North Scotland | Customer Sales & Sales Advisor | /job-search/north-scotland/customer-sales-jobs | 1 | 4 | Yes |
+| Detail | Regional/category | Greater Manchester - South | Marketing | /job-search/greater-manchester-south/marketing-jobs | 1 | 9 | Yes |
+| Detail | Regional/category | Northern Ireland - East | Marketing | /job-search/northern-ireland-east/marketing-jobs | 1 | 7 | Yes |
+| Detail | Regional/category | Yorkshire - North | Marketing | /job-search/north-yorkshire/marketing-jobs | 1 | 7 | Yes |
+| Detail | Regional/category | Greater Manchester - Manchester & Salford | Finance & Accounts | /job-search/manchester-salford/finance-accounts-jobs | 1 | 6 | Yes |
+| Detail | Regional/category | Northern Ireland - East | HR & Recruitment | /job-search/northern-ireland-east/hr-recruitment-jobs | 1 | 6 | Yes |
+| Detail | Regional/category | West Midlands - Coventry & Warwickshire | HR & Recruitment | /job-search/coventry-warwickshire/hr-recruitment-jobs | 1 | 9 | Yes |
 
 ## CITY OPPORTUNITIES
 
-**313 mapped towns/localities with live jobs or an existing city page.** Counts use all 1,597 unique live Ontap jobs across every role and provider: 879 have an exact recognised town/locality and 718 have only broader or unrecognised location evidence. CREATE means 4+ current Service Admin jobs and no existing city page; London is held separately.
+**311 mapped towns/localities with live jobs or an existing city page.** Counts use all 1,649 unique live Ontap jobs across every role and provider: 928 have an exact recognised town/locality and 721 have only broader or unrecognised location evidence. CREATE means 4+ current Service Admin jobs and no existing city page; London is held separately.
 
 | Status | Town/city/locality | Region | All live jobs | Existing pages | Current routes | Service admin | Support worker | Sales advisor | Paralegal | Marketing | Finance / Accounts | HR / Recruitment | CS / Contact centre | Other / unclassified |
 |---|---|---|---:|---:|---||---:|---:|---:|---:|---:|---:|---:|---:|---:|
 | CREATE | Guildford | Surrey | 7 | 0 |  | 5 | 0 | 1 | 0 | 1 | 0 | 0 | 0 | 0 |
 | CREATE | Slough | Berkshire | 7 | 0 |  | 5 | 0 | 1 | 0 | 1 | 0 | 0 | 0 | 0 |
 | CREATE | Sittingbourne | Kent | 6 | 0 |  | 5 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| CREATE | Forfar | Scotland Central - Tayside | 4 | 0 |  | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | CREATE | Lyndhurst | Hampshire | 4 | 0 |  | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | CREATE | Telford | Shropshire | 4 | 0 |  | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| LIVE PAGE | Belfast | Northern Ireland - East | 47 | 1 | /belfast/service-administrator-jobs | 43 | 0 | 0 | 0 | 0 | 4 | 0 | 0 | 0 |
-| LIVE PAGE | Newcastle | North East - Tyneside, Wearside & Northumberland | 39 | 1 | /newcastle/service-administrator-jobs | 37 | 0 | 2 | 0 | 0 | 0 | 0 | 0 | 0 |
-| LIVE PAGE | Manchester | Greater Manchester - Manchester & Salford | 35 | 1 | /manchester/service-administrator-jobs | 27 | 0 | 2 | 0 | 6 | 0 | 0 | 0 | 0 |
-| LIVE PAGE | Bristol | Bristol & Bath | 26 | 1 | /bristol/service-administrator-jobs | 21 | 0 | 3 | 0 | 2 | 0 | 0 | 0 | 0 |
-| LIVE PAGE | Leeds | Yorkshire - West | 26 | 1 | /leeds/service-administrator-jobs | 21 | 1 | 1 | 0 | 0 | 0 | 3 | 0 | 0 |
-| LIVE PAGE | Birmingham | West Midlands - Birmingham & Solihull | 24 | 1 | /birmingham/service-administrator-jobs | 19 | 0 | 0 | 0 | 5 | 0 | 0 | 0 | 0 |
+| LIVE PAGE | Newcastle | North East - Tyneside, Wearside & Northumberland | 68 | 1 | /newcastle/service-administrator-jobs | 66 | 0 | 2 | 0 | 0 | 0 | 0 | 0 | 0 |
+| LIVE PAGE | Belfast | Northern Ireland - East | 49 | 1 | /belfast/service-administrator-jobs | 39 | 0 | 0 | 0 | 5 | 4 | 1 | 0 | 0 |
+| LIVE PAGE | Manchester | Greater Manchester - Manchester & Salford | 37 | 1 | /manchester/service-administrator-jobs | 25 | 0 | 2 | 0 | 6 | 4 | 0 | 0 | 0 |
+| LIVE PAGE | Bristol | Bristol & Bath | 27 | 1 | /bristol/service-administrator-jobs | 22 | 0 | 3 | 0 | 2 | 0 | 0 | 0 | 0 |
+| LIVE PAGE | Leeds | Yorkshire - West | 25 | 1 | /leeds/service-administrator-jobs | 21 | 1 | 0 | 0 | 0 | 0 | 3 | 0 | 0 |
+| LIVE PAGE | Birmingham | West Midlands - Birmingham & Solihull | 22 | 1 | /birmingham/service-administrator-jobs | 18 | 0 | 0 | 0 | 4 | 0 | 0 | 0 | 0 |
 | LIVE PAGE | Liverpool | Merseyside - Liverpool | 18 | 1 | /liverpool/service-administrator-jobs | 14 | 0 | 0 | 0 | 4 | 0 | 0 | 0 | 0 |
+| LIVE PAGE | Glasgow | Scotland West - Glasgow | 16 | 1 | /glasgow/service-administrator-jobs | 16 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | LIVE PAGE | Nottingham | Nottinghamshire | 14 | 1 | /nottingham/jobs | 13 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 0 |
-| LIVE PAGE | Glasgow | Scotland West - Glasgow | 13 | 1 | /glasgow/service-administrator-jobs | 13 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | LIVE PAGE | Chelmsford | Essex | 12 | 1 | /chelmsford/service-administrator-jobs | 9 | 0 | 0 | 1 | 2 | 0 | 0 | 0 | 0 |
 | LIVE PAGE | Edinburgh | Scotland Central - Edinburgh & Lothians | 12 | 1 | /edinburgh/service-administrator-jobs | 12 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| LIVE PAGE | Sheffield | Yorkshire - South | 11 | 1 | /sheffield/service-administrator-jobs | 11 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| LIVE PAGE | Exeter | Devon | 10 | 1 | /exeter/service-administrator-jobs | 10 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| LIVE PAGE | Coventry | West Midlands - Coventry & Warwickshire | 9 | 1 | /coventry/service-administrator-jobs | 9 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| LIVE PAGE | Exeter | Devon | 12 | 1 | /exeter/service-administrator-jobs | 10 | 0 | 2 | 0 | 0 | 0 | 0 | 0 | 0 |
+| LIVE PAGE | Basingstoke | Hampshire | 10 | 1 | /basingstoke/service-administrator-jobs | 6 | 0 | 3 | 0 | 0 | 0 | 0 | 1 | 0 |
+| LIVE PAGE | Sheffield | Yorkshire - South | 10 | 1 | /sheffield/service-administrator-jobs | 10 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| LIVE PAGE | Coventry | West Midlands - Coventry & Warwickshire | 9 | 1 | /coventry/service-administrator-jobs | 5 | 0 | 0 | 0 | 0 | 0 | 4 | 0 | 0 |
 | LIVE PAGE | Hull | Yorkshire - East | 9 | 1 | /hull/service-administrator-jobs | 9 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| LIVE PAGE | Southampton | Hampshire | 9 | 2 | /southampton/service-administrator-jobs, /southampton/support-worker | 6 | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | LIVE PAGE | Milton Keynes | Buckinghamshire | 8 | 1 | /milton-keynes/service-administrator-jobs | 5 | 0 | 0 | 0 | 3 | 0 | 0 | 0 | 0 |
-| LIVE PAGE | Basingstoke | Hampshire | 7 | 1 | /basingstoke/service-administrator-jobs | 6 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 |
+| LIVE PAGE | Southampton | Hampshire | 8 | 2 | /southampton/service-administrator-jobs, /southampton/support-worker | 5 | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | LIVE PAGE | Farnham | Surrey | 7 | 1 | /farnham/service-administrator-jobs | 7 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| LIVE PAGE | Gateshead | North East - Tyneside, Wearside & Northumberland | 7 | 1 | /gateshead/jobs | 4 | 0 | 2 | 0 | 0 | 0 | 0 | 1 | 0 |
 | LIVE PAGE | Oxford | Oxfordshire | 7 | 1 | /oxford/service-administrator-jobs | 3 | 2 | 0 | 0 | 2 | 0 | 0 | 0 | 0 |
 | LIVE PAGE | Bolton | Greater Manchester - Wigan & Bolton | 6 | 1 | /bolton/jobs | 6 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| LIVE PAGE | Bedford | Bedfordshire | 5 | 1 | /bedford/service-administrator-jobs | 5 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| LIVE PAGE | Cardiff | Wales South - Cardiff & Vale | 5 | 1 | /cardiff/service-administrator-jobs | 5 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| LIVE PAGE | Gateshead | North East - Tyneside, Wearside & Northumberland | 5 | 1 | /gateshead/jobs | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 |
-| LIVE PAGE | Newtownabbey | Northern Ireland - East | 5 | 1 | /newtownabbey/service-administrator-jobs | 5 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| LIVE PAGE | Doncaster | Yorkshire - South | 5 | 1 | /doncaster/service-administrator-jobs | 5 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| LIVE PAGE | Newtownabbey | Northern Ireland - East | 5 | 1 | /newtownabbey/service-administrator-jobs | 4 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 0 |
 | LIVE PAGE | Northampton | Northamptonshire | 5 | 1 | /northampton/service-administrator-jobs | 5 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| LIVE PAGE | Peterborough | Cambridgeshire | 5 | 1 | /peterborough/service-administrator-jobs | 5 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | LIVE PAGE | Portsmouth | Hampshire | 5 | 1 | /portsmouth/service-administrator-jobs | 5 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| LIVE PAGE | Reading | Berkshire | 5 | 1 | /reading/jobs | 5 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| LIVE PAGE | Bedford | Bedfordshire | 4 | 1 | /bedford/service-administrator-jobs | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | LIVE PAGE | Cambridge | Cambridgeshire | 4 | 1 | /cambridge/service-administrator-jobs | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| LIVE PAGE | Cardiff | Wales South - Cardiff & Vale | 4 | 1 | /cardiff/service-administrator-jobs | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | LIVE PAGE | Chester | Cheshire - West | 4 | 1 | /chester/jobs | 3 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 | LIVE PAGE | Leicester | Leicestershire | 4 | 1 | /leicester/service-administrator-jobs | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | LIVE PAGE | Norwich | Norfolk | 4 | 1 | /norwich/jobs | 3 | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 |
-| LIVE PAGE | Reading | Berkshire | 4 | 1 | /reading/jobs | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | LIVE PAGE | York | Yorkshire - North | 4 | 1 | /york/service-administrator-jobs | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | LIVE PAGE | Altrincham | Greater Manchester - South | 3 | 1 | /altrincham/service-administrator-jobs | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | LIVE PAGE | Aylesbury | Buckinghamshire | 3 | 1 | /aylesbury/service-administrator-jobs | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -302,25 +311,25 @@ Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-09-1
 | LIVE PAGE | Bradford | Yorkshire - West | 3 | 1 | /bradford/service-administrator-jobs | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | LIVE PAGE | Brighton & Hove | Sussex | 3 | 1 | /brighton-hove/service-administrator-jobs | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | LIVE PAGE | Chester Le Street | North East - County Durham & Darlington/Hartlepool | 3 | 1 | /chester-le-street/service-administrator-jobs | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| LIVE PAGE | Doncaster | Yorkshire - South | 3 | 1 | /doncaster/service-administrator-jobs | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| LIVE PAGE | Gloucester | Gloucestershire | 3 | 1 | /gloucester/service-administrator-jobs | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | LIVE PAGE | Hemel Hempstead | Hertfordshire | 3 | 1 | /hemel-hempstead/service-administrator-jobs | 1 | 0 | 1 | 0 | 1 | 0 | 0 | 0 | 0 |
 | LIVE PAGE | Macclesfield | Cheshire - East | 3 | 1 | /macclesfield/service-administrator-jobs | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | LIVE PAGE | Northallerton | Yorkshire - North | 3 | 1 | /northallerton/jobs | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| LIVE PAGE | Peterborough | Cambridgeshire | 3 | 1 | /peterborough/service-administrator-jobs | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| LIVE PAGE | Plymouth | Devon | 3 | 1 | /plymouth/service-administrator-jobs | 2 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 |
 | LIVE PAGE | Stoke-on-trent | Staffordshire | 3 | 1 | /stoke-on-trent/service-administrator-jobs | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | LIVE PAGE | Sunderland | North East - Tyneside, Wearside & Northumberland | 3 | 1 | /sunderland/service-administrator-jobs | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| LIVE PAGE | Warwick | West Midlands - Coventry & Warwickshire | 3 | 1 | /warwick/service-administrator-jobs | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| LIVE PAGE | Warwick | West Midlands - Coventry & Warwickshire | 3 | 1 | /warwick/service-administrator-jobs | 2 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 0 |
 | LIVE PAGE | Worcester | Worcestershire | 3 | 1 | /worcester/service-administrator-jobs | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | LIVE PAGE | Barnsley | Yorkshire - South | 2 | 1 | /barnsley/service-administrator-jobs | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | LIVE PAGE | Durham | North East - County Durham & Darlington/Hartlepool | 2 | 1 | /durham/jobs | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| LIVE PAGE | Gloucester | Gloucestershire | 2 | 1 | /gloucester/service-administrator-jobs | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | LIVE PAGE | Huddersfield | Yorkshire - West | 2 | 1 | /huddersfield/service-administrator-jobs | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| LIVE PAGE | Maidstone | Kent | 2 | 1 | /maidstone/service-administrator-jobs | 1 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 |
-| LIVE PAGE | Plymouth | Devon | 2 | 1 | /plymouth/service-administrator-jobs | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | LIVE PAGE | Rotherham | Yorkshire - South | 2 | 1 | /rotherham/service-administrator-jobs | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | LIVE PAGE | Salford | Greater Manchester - Manchester & Salford | 2 | 1 | /salford/jobs | 0 | 0 | 2 | 0 | 0 | 0 | 0 | 0 | 0 |
 | LIVE PAGE | Shrewsbury | Shropshire | 2 | 1 | /shrewsbury/service-administrator-jobs | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | LIVE PAGE | Wakefield | Yorkshire - West | 2 | 1 | /wakefield/jobs | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | LIVE PAGE | Ashford | Kent | 1 | 1 | /ashford/service-administrator-jobs | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| LIVE PAGE | Maidstone | Kent | 1 | 1 | /maidstone/service-administrator-jobs | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 |
 | LIVE PAGE | Warrington | Cheshire - Warrington & Halton | 1 | 1 | /warrington/service-administrator-jobs | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | LIVE PAGE | Wigston | Leicestershire | 1 | 1 | /wigston/service-administrator-jobs | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | LIVE PAGE | Poole |  | 0 | 1 | /poole/service-administrator-jobs | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -357,32 +366,32 @@ Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-09-1
 | HOLD – LONDON | Wandsworth | London | 1 | 0 |  | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | HOLD – LONDON | Wembley | London | 1 | 0 |  | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | HOLD – LONDON | Worcester Park | London | 1 | 0 |  | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| MONITOR | Cheadle | Greater Manchester - South | 10 | 0 |  | 2 | 0 | 0 | 0 | 8 | 0 | 0 | 0 | 0 |
 | MONITOR | Dartford | Kent | 5 | 0 |  | 3 | 0 | 1 | 0 | 1 | 0 | 0 | 0 | 0 |
-| MONITOR | High Wycombe | Buckinghamshire | 4 | 0 |  | 3 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 | MONITOR | Hove | Sussex | 4 | 0 |  | 3 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 |
-| MONITOR | Lisburn | Northern Ireland - East | 4 | 0 |  | 2 | 0 | 0 | 0 | 0 | 2 | 0 | 0 | 0 |
+| MONITOR | Inverness | North Scotland | 4 | 0 |  | 3 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 |
+| MONITOR | Lisburn | Northern Ireland - East | 4 | 0 |  | 0 | 0 | 0 | 0 | 0 | 2 | 2 | 0 | 0 |
 | MONITOR | Northwich | Cheshire - West | 4 | 0 |  | 3 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 | MONITOR | Woking | Surrey | 4 | 0 |  | 2 | 0 | 0 | 0 | 2 | 0 | 0 | 0 | 0 |
 | MONITOR | Braintree | Essex | 3 | 0 |  | 2 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 | MONITOR | Brighouse | Yorkshire - West | 3 | 0 |  | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Burgess Hill | Sussex | 3 | 0 |  | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Cirencester | Gloucestershire | 3 | 0 |  | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| MONITOR | Darlington | North East - County Durham & Darlington/Hartlepool | 3 | 0 |  | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 |
-| MONITOR | Forfar | Scotland Central - Tayside | 3 | 0 |  | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| MONITOR | Fleet | Hampshire | 3 | 0 |  | 1 | 0 | 2 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Gerrards Cross | Buckinghamshire | 3 | 0 |  | 1 | 0 | 0 | 0 | 2 | 0 | 0 | 0 | 0 |
-| MONITOR | Godalming | Surrey | 3 | 0 |  | 1 | 0 | 1 | 0 | 1 | 0 | 0 | 0 | 0 |
 | MONITOR | Gosport | Hampshire | 3 | 0 |  | 2 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| MONITOR | Huntingdon | Cambridgeshire | 3 | 0 |  | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| MONITOR | High Wycombe | Buckinghamshire | 3 | 0 |  | 2 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
+| MONITOR | Knaresborough | Yorkshire - North | 3 | 0 |  | 1 | 0 | 0 | 0 | 2 | 0 | 0 | 0 | 0 |
 | MONITOR | Lowestoft | Suffolk | 3 | 0 |  | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Maidenhead | Berkshire | 3 | 0 |  | 1 | 0 | 0 | 0 | 2 | 0 | 0 | 0 | 0 |
-| MONITOR | Stockport | Greater Manchester - South | 3 | 0 |  | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| MONITOR | Swindon | Wiltshire | 3 | 0 |  | 1 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| MONITOR | Newry | Northern Ireland - East | 3 | 0 |  | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Tunbridge Wells | Kent | 3 | 0 |  | 0 | 1 | 2 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Watford | Hertfordshire | 3 | 0 |  | 1 | 0 | 2 | 0 | 0 | 0 | 0 | 0 | 0 |
+| MONITOR | Yeovil | Somerset | 3 | 0 |  | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| MONITOR | Aberdeen | North Scotland | 2 | 0 |  | 1 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Amersham | Buckinghamshire | 2 | 0 |  | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Andover | Hampshire | 2 | 0 |  | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| MONITOR | Atherstone | West Midlands - Coventry & Warwickshire | 2 | 0 |  | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| MONITOR | Banbury | Oxfordshire | 2 | 0 |  | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| MONITOR | Atherstone | West Midlands - Coventry & Warwickshire | 2 | 0 |  | 1 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 0 |
 | MONITOR | Bath | Bristol & Bath | 2 | 0 |  | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Beaminster | Dorset | 2 | 0 |  | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Berwick-upon-tweed | North East - Tyneside, Wearside & Northumberland | 2 | 0 |  | 0 | 0 | 2 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -391,16 +400,15 @@ Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-09-1
 | MONITOR | Bridgwater | Somerset | 2 | 0 |  | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Brinsworth | Yorkshire - South | 2 | 0 |  | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Bromsgrove | Worcestershire | 2 | 0 |  | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| MONITOR | Bury St Edmunds | Suffolk | 2 | 0 |  | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Canterbury | Kent | 2 | 0 |  | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Chatham | Kent | 2 | 0 |  | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| MONITOR | Cheadle | Greater Manchester - South | 2 | 0 |  | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Chesterfield | Derbyshire | 2 | 0 |  | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Coalville | Leicestershire | 2 | 0 |  | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Cottingham | Yorkshire - East | 2 | 0 |  | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Cramlington | North East - Tyneside, Wearside & Northumberland | 2 | 0 |  | 1 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Crawley | Sussex | 2 | 0 |  | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Crewe | Cheshire - East | 2 | 0 |  | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| MONITOR | Darlington | North East - County Durham & Darlington/Hartlepool | 2 | 0 |  | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 |
 | MONITOR | Dewsbury | Yorkshire - West | 2 | 0 |  | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Didcot | Oxfordshire | 2 | 0 |  | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Dundee | Scotland Central - Tayside | 2 | 0 |  | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -408,30 +416,33 @@ Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-09-1
 | MONITOR | Eastleigh | Hampshire | 2 | 0 |  | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Fareham | Hampshire | 2 | 0 |  | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 |
 | MONITOR | Farnborough | Hampshire | 2 | 0 |  | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| MONITOR | Godalming | Surrey | 2 | 0 |  | 1 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Harlow | Essex | 2 | 0 |  | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Haywards Heath | Sussex | 2 | 0 |  | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| MONITOR | Hertford | Hertfordshire | 2 | 0 |  | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 | MONITOR | Horsham | Sussex | 2 | 0 |  | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| MONITOR | Inverness | North Scotland | 2 | 0 |  | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| MONITOR | Huntingdon | Cambridgeshire | 2 | 0 |  | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Ipswich | Suffolk | 2 | 0 |  | 1 | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Kettering | Northamptonshire | 2 | 0 |  | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| MONITOR | Keynsham | Bristol & Bath | 2 | 0 |  | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Knowle | West Midlands - Birmingham & Solihull | 2 | 0 |  | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Knutsford | Cheshire - East | 2 | 0 |  | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Maldon | Essex | 2 | 0 |  | 0 | 0 | 0 | 2 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Melksham | Wiltshire | 2 | 0 |  | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| MONITOR | Nantwich | Cheshire - East | 2 | 0 |  | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| MONITOR | Newry | Northern Ireland - East | 2 | 0 |  | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| MONITOR | Newton Abbot | Devon | 2 | 0 |  | 1 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Newtownards | Northern Ireland - East | 2 | 0 |  | 0 | 0 | 0 | 0 | 0 | 2 | 0 | 0 | 0 |
+| MONITOR | Ramsgate | Kent | 2 | 0 |  | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Redditch | Worcestershire | 2 | 0 |  | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Rickmansworth | Hertfordshire | 2 | 0 |  | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Ringwood | Hampshire | 2 | 0 |  | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| MONITOR | Rochester | Kent | 2 | 0 |  | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Sale | Greater Manchester - South | 2 | 0 |  | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Solihull | West Midlands - Birmingham & Solihull | 2 | 0 |  | 1 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 0 |
 | MONITOR | Stafford | Staffordshire | 2 | 0 |  | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Stevenage | Hertfordshire | 2 | 0 |  | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| MONITOR | Stockport | Greater Manchester - South | 2 | 0 |  | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Stonehouse | Gloucestershire | 2 | 0 |  | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
+| MONITOR | Swindon | Wiltshire | 2 | 0 |  | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Thame | Oxfordshire | 2 | 0 |  | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| MONITOR | Tipton | West Midlands - Black Country | 2 | 0 |  | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Truro | Cornwall | 2 | 0 |  | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Ventnor | Hampshire | 2 | 0 |  | 0 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Ware | Hertfordshire | 2 | 0 |  | 1 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -439,15 +450,14 @@ Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-09-1
 | MONITOR | Winchester | Hampshire | 2 | 0 |  | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 |
 | MONITOR | Wokingham | Berkshire | 2 | 0 |  | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Woodbridge | Suffolk | 2 | 0 |  | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| MONITOR | Aberdeen | North Scotland | 1 | 0 |  | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Aldershot | Hampshire | 1 | 0 |  | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Alresford | Hampshire | 1 | 0 |  | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Ashington | North East - Tyneside, Wearside & Northumberland | 1 | 0 |  | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Aylesford | Kent | 1 | 0 |  | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Ballyclare | Northern Ireland - East | 1 | 0 |  | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Ballymena | Northern Ireland - East | 1 | 0 |  | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| MONITOR | Banbury | Oxfordshire | 1 | 0 |  | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Banstead | Surrey | 1 | 0 |  | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| MONITOR | Barnstaple | devon | 1 | 0 |  | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Bexhill-on-sea | Sussex | 1 | 0 |  | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Billericay | Essex | 1 | 0 |  | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Bingley | Yorkshire - West | 1 | 0 |  | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -456,6 +466,7 @@ Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-09-1
 | MONITOR | Boston | Lincolnshire | 1 | 0 |  | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Buckingham | Buckinghamshire | 1 | 0 |  | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 |
 | MONITOR | Burford | Oxfordshire | 1 | 0 |  | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| MONITOR | Bury St Edmunds | Suffolk | 1 | 0 |  | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Caerphilly | Wales South - Valleys | 1 | 0 |  | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Camberley | Surrey | 1 | 0 |  | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Carrickfergus | Northern Ireland - East | 1 | 0 |  | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -480,7 +491,6 @@ Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-09-1
 | MONITOR | Esher | Surrey | 1 | 0 |  | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Felixstowe | Suffolk | 1 | 0 |  | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Fetcham | Surrey | 1 | 0 |  | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 |
-| MONITOR | Fleet | Hampshire | 1 | 0 |  | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Freshwater | Hampshire | 1 | 0 |  | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Gainsborough | Lincolnshire | 1 | 0 |  | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Godstone | Surrey | 1 | 0 |  | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -491,20 +501,18 @@ Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-09-1
 | MONITOR | Hailsham | Sussex | 1 | 0 |  | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Halifax | Yorkshire - West | 1 | 0 |  | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Harrogate | Yorkshire - North | 1 | 0 |  | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| MONITOR | Hastings | Sussex | 1 | 0 |  | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Hatfield | Hertfordshire | 1 | 0 |  | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Havant | Hampshire | 1 | 0 |  | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Hebburn | North East - Tyneside, Wearside & Northumberland | 1 | 0 |  | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 |
 | MONITOR | Henley-on-thames | Oxfordshire | 1 | 0 |  | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| MONITOR | Holywood | Northern Ireland - East | 1 | 0 |  | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| MONITOR | Hertford | Hertfordshire | 1 | 0 |  | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Ilminster | Somerset | 1 | 0 |  | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Jarrow | North East - Tyneside, Wearside & Northumberland | 1 | 0 |  | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Kendal | Cumbria - South | 1 | 0 |  | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| MONITOR | Keynsham | Bristol & Bath | 1 | 0 |  | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Kirriemuir | Scotland Central - Tayside | 1 | 0 |  | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| MONITOR | Knaresborough | Yorkshire - North | 1 | 0 |  | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Leamington Spa | West Midlands - Coventry & Warwickshire | 1 | 0 |  | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Leatherhead | Surrey | 1 | 0 |  | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| MONITOR | Leighton Buzzard | Bedfordshire | 1 | 0 |  | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Lichfield | Staffordshire | 1 | 0 |  | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 |
 | MONITOR | Liskeard | Cornwall | 1 | 0 |  | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Littlehampton | Sussex | 1 | 0 |  | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -514,25 +522,24 @@ Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-09-1
 | MONITOR | Marlborough | Wiltshire | 1 | 0 |  | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Marlow | Buckinghamshire | 1 | 0 |  | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Mirfield | Yorkshire - West | 1 | 0 |  | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| MONITOR | Montrose | North Scotland | 1 | 0 |  | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 |
+| MONITOR | Nantwich | Cheshire - East | 1 | 0 |  | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Newark | Nottinghamshire | 1 | 0 |  | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Newbury | Berkshire | 1 | 0 |  | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 | MONITOR | Newmarket | Suffolk | 1 | 0 |  | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| MONITOR | Newton Abbot | Devon | 1 | 0 |  | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | North Shields | North East - Tyneside, Wearside & Northumberland | 1 | 0 |  | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Otley | Yorkshire - West | 1 | 0 |  | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| MONITOR | Peterhead | North Scotland | 1 | 0 |  | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Pickering | Yorkshire - North | 1 | 0 |  | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Pontypridd | Wales South - Valleys | 1 | 0 |  | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Portishead | Bristol & Bath | 1 | 0 |  | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| MONITOR | Ramsgate | Kent | 1 | 0 |  | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Redhill | Surrey | 1 | 0 |  | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Redruth | Cornwall | 1 | 0 |  | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Richmond | Yorkshire - North | 1 | 0 |  | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| MONITOR | Rochester | Kent | 1 | 0 |  | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| MONITOR | Royston | Hertfordshire | 1 | 0 |  | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| MONITOR | Ripon | Yorkshire - North | 1 | 0 |  | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 | MONITOR | Rugby | West Midlands - Coventry & Warwickshire | 1 | 0 |  | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Runcorn | Cheshire - Warrington & Halton | 1 | 0 |  | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Ryton | North East - Tyneside, Wearside & Northumberland | 1 | 0 |  | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| MONITOR | Salisbury | Wiltshire | 1 | 0 |  | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Sandy | Bedfordshire | 1 | 0 |  | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Seaham | North East - County Durham & Darlington/Hartlepool | 1 | 0 |  | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Shepperton | Surrey | 1 | 0 |  | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -549,6 +556,7 @@ Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-09-1
 | MONITOR | Street | Somerset | 1 | 0 |  | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Stroud | Gloucestershire | 1 | 0 |  | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Taunton | Somerset | 1 | 0 |  | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| MONITOR | Tipton | West Midlands - Black Country | 1 | 0 |  | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Tonbridge | Kent | 1 | 0 |  | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Torquay | Devon | 1 | 0 |  | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Trowbridge | Wiltshire | 1 | 0 |  | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -560,7 +568,6 @@ Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-09-1
 | MONITOR | Wednesbury | West Midlands - Black Country | 1 | 0 |  | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Wellingborough | Northamptonshire | 1 | 0 |  | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Wellington | Shropshire | 1 | 0 |  | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| MONITOR | West Bromwich | West Midlands - Black Country | 1 | 0 |  | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Weston-super-mare | Somerset | 1 | 0 |  | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Whitby | Yorkshire - North | 1 | 0 |  | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Whitstable | Kent | 1 | 0 |  | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -569,7 +576,6 @@ Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-09-1
 | MONITOR | Witney | Oxfordshire | 1 | 0 |  | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Worksop | Nottinghamshire | 1 | 0 |  | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Wymondham | Norfolk | 1 | 0 |  | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| MONITOR | Yeovil | Somerset | 1 | 0 |  | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 > LIVE counts come directly from the current published `app/` JSON, deduplicated within each canonical region/family slice while preserving legitimate appearances in more than one family. This is the live-site authority for the reconciliation above; the dated source-count CSV is shown only as a freshness cross-check. The overview covers all 78 assessable UK markets; LIVE status remains controlled only by the slice register. Before same-feed 78-market coverage has run, NOT LIVE Admin/Support and Customer Service may fall back to the latest all-region Module 2 profile (2026-08-17), and Service Admin may also add current Teaching Vacancies regional candidate output. `—` means not assessed / no current source; it does NOT mean zero. NOT LIVE Service Admin and Support Worker were assessed from the same JobG8 daily feed (2026-09-13) used by the production family run, across 78 UK markets with the config-driven production wrappers, persistent review decisions and canonical geo. NOT LIVE Sales Advisor was assessed from that same feed across 78 UK markets using the governed Customer Sales classifier, canonical geo, campaign dedupe and final production QA. Sales diagnostic counts are evidence only and never activate a slice automatically; LIVE Sales Advisor counts continue to come from the current published Customer Sales configured-slice JSON. NOT LIVE Paralegal, Marketing, Finance / Accounts and HR / Recruitment were assessed from that same feed across 78, 78, 78 and 78 UK markets respectively, using their governed production boundaries and canonical geo. NOT LIVE Customer Service / Contact Centre was assessed from that same feed across 78 UK markets using its governed exact-title, salary and geography rules. All diagnostic counts are evidence only and never activate a slice automatically. Rolling family history stores one snapshot per feed date, replaces same-date reruns, retains the latest 14 feed dates and is used only as decision evidence for NOT LIVE slices.
 
@@ -578,83 +584,83 @@ Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-09-1
 | Region | Service admin | Support worker | Sales advisor | Paralegal | Marketing | Finance / Accounts | HR / Recruitment | CS / Contact centre |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
 | Bedfordshire | 18 |  |  |  |  |  |  |  |
-| Berkshire | 23 |  | 2 |  | 11 |  | 2 |  |
-| Bristol & Bath | 28 |  | 3 |  | 8 | CHECK |  |  |
-| Buckinghamshire | 35 |  |  |  | 8 |  |  | 1 |
-| Cambridgeshire | 22 |  |  |  | 6 |  |  |  |
-| Cheshire - East | 11 |  |  |  |  |  |  |  |
+| Berkshire | 23 |  | 2 |  | 11 |  | 1 |  |
+| Bristol & Bath | 30 |  | 3 |  | 7 | CHECK |  |  |
+| Buckinghamshire | 33 |  |  |  | 8 |  |  | 1 |
+| Cambridgeshire | 19 |  |  |  | 6 |  |  |  |
+| Cheshire - East | 10 |  |  |  |  |  |  |  |
 | Cheshire - Warrington & Halton | 2 |  |  |  |  | CHECK |  |  |
 | Cheshire - West | 7 |  |  |  | 5 |  |  |  |
 | Cornwall | 5 |  |  |  |  |  |  |  |
 | Cumbria - North |  |  |  |  |  |  |  |  |
 | Cumbria - South |  | 3 |  |  |  |  |  |  |
 | Cumbria - West |  |  |  |  |  |  |  |  |
-| Derbyshire | 10 |  |  |  |  |  |  |  |
-| Devon | 21 |  | CHECK |  |  | CHECK |  |  |
+| Derbyshire | 11 |  |  |  |  |  |  |  |
+| Devon | 21 |  | 4 |  |  | CHECK |  |  |
 | Dorset | 13 |  |  |  |  |  |  |  |
 | Essex | 39 |  |  | 6 | 7 | CHECK |  |  |
-| Gloucestershire | 18 |  |  |  | 9 | CHECK |  |  |
-| Greater Manchester - Manchester & Salford | 33 |  | 7 |  | 11 | CHECK | 3 |  |
+| Gloucestershire | 20 |  |  |  | 9 | CHECK |  |  |
+| Greater Manchester - Manchester & Salford | 35 |  | 6 |  | 10 | 6 | 3 |  |
 | Greater Manchester - North |  |  |  |  |  |  |  |  |
-| Greater Manchester - South | 10 |  |  |  | CHECK |  |  |  |
+| Greater Manchester - South | 10 |  |  |  | 9 |  |  |  |
 | Greater Manchester - Wigan & Bolton | 6 |  |  |  |  |  |  |  |
-| Hampshire | 53 | 11 | CHECK |  |  |  |  | 5 |
+| Hampshire | 53 | 11 | 5 |  |  |  |  | 5 |
 | Herefordshire |  |  |  |  |  |  |  |  |
-| Hertfordshire | 20 |  | 4 |  | 8 |  |  |  |
-| Kent | 43 | 3 | 7 |  | 11 |  |  |  |
+| Hertfordshire | 20 |  | 4 |  | 7 |  |  |  |
+| Kent | 45 | 3 | 7 |  | 11 |  |  |  |
 | Lancashire - Blackpool & Fylde |  |  |  |  |  |  |  |  |
 | Lancashire - Central |  |  |  |  |  |  |  |  |
 | Lancashire - East |  |  |  |  |  |  |  |  |
 | Lancashire - North |  |  |  |  |  |  |  |  |
 | Lancashire - West |  |  |  |  |  |  |  |  |
-| Leicestershire | 20 |  |  |  |  |  |  |  |
+| Leicestershire | 19 |  |  |  |  |  |  |  |
 | Lincolnshire | 9 |  |  |  |  |  |  |  |
-| London | 183 | 21 | 19 | 51 | 100 | 11 | 34 | 1 |
-| Merseyside - Liverpool | 20 |  |  |  | 8 |  |  |  |
+| London | 181 | 21 | 20 | 52 | 100 | 11 | 34 | 1 |
+| Merseyside - Liverpool | 19 |  |  |  | 7 |  |  |  |
 | Merseyside - Sefton |  |  |  |  |  |  |  |  |
 | Merseyside - St Helens & Knowsley |  |  |  |  |  |  |  |  |
 | Merseyside - Wirral |  |  |  |  |  |  |  |  |
 | Norfolk | 9 |  |  | 1 |  |  |  |  |
-| North East | 94 | CHECK | 5 |  | 5 | CHECK |  | 4 |
-| North Scotland | 3 |  | CHECK |  |  |  |  |  |
+| North East | 122 | CHECK | 7 |  | 5 | CHECK |  | 4 |
+| North Scotland | 4 |  | 4 |  |  |  |  |  |
 | North Wales - East |  |  |  |  |  |  |  |  |
 | North Wales - West |  |  |  |  |  |  |  |  |
-| Northamptonshire | 20 |  |  |  |  |  |  |  |
-| Northern Ireland - East | 61 |  |  |  | CHECK | 17 | CHECK |  |
+| Northamptonshire | 21 |  |  |  |  |  |  |  |
+| Northern Ireland - East | 63 |  |  |  | 7 | 16 | 6 |  |
 | Northern Ireland - West |  |  |  |  |  |  |  |  |
 | Nottinghamshire | 27 |  |  |  |  |  | 4 |  |
-| Oxfordshire | 28 | 3 |  |  | 7 |  |  |  |
+| Oxfordshire | 25 | 3 |  |  | 6 |  |  |  |
 | Rutland |  |  |  |  |  |  |  |  |
 | Scotland - Borders |  |  |  |  |  |  |  |  |
 | Scotland Central - Edinburgh & Lothians | 12 |  |  |  |  |  |  |  |
 | Scotland Central - Falkirk & Stirling |  |  |  |  |  |  |  |  |
 | Scotland Central - Fife |  |  |  |  |  |  |  |  |
-| Scotland Central - Tayside | 6 |  |  |  |  |  |  |  |
+| Scotland Central - Tayside | 7 |  |  |  |  |  |  |  |
 | Scotland West - Ayrshire |  |  |  |  |  |  |  |  |
-| Scotland West - Glasgow | 13 |  | 1 |  |  |  |  |  |
+| Scotland West - Glasgow | 16 |  | 1 |  |  |  |  |  |
 | Scotland West - Lanarkshire |  |  |  |  |  |  |  |  |
 | Scotland West - Renfrewshire & Inverclyde |  |  |  |  |  |  |  |  |
 | Shropshire | 12 |  |  |  |  | CHECK |  |  |
-| Somerset | 13 |  |  |  |  |  |  |  |
+| Somerset | 15 |  |  |  |  |  |  |  |
 | Staffordshire | 16 |  |  |  |  |  |  | 1 |
-| Suffolk | 16 |  |  | 2 |  |  |  |  |
-| Surrey | 49 | 1 | 3 |  | 14 |  |  | 2 |
-| Sussex | 33 | 3 | 4 |  |  |  | 2 |  |
+| Suffolk | 13 |  |  | 2 |  |  |  |  |
+| Surrey | 49 | 1 | 3 |  | 13 |  |  | 2 |
+| Sussex | 32 | 3 | 3 |  |  |  | 2 |  |
 | Wales - Mid |  |  |  |  |  |  |  |  |
 | Wales - West |  |  |  |  |  |  |  |  |
-| Wales South - Cardiff & Vale | 5 |  |  |  |  |  |  |  |
+| Wales South - Cardiff & Vale | 4 |  |  |  |  |  |  |  |
 | Wales South - Gwent |  |  |  |  |  |  |  |  |
 | Wales South - Swansea Bay |  |  |  |  |  |  |  |  |
 | Wales South - Valleys | 2 |  |  |  |  |  |  |  |
-| West Midlands - Birmingham & Solihull | 32 |  |  |  | 8 |  | 5 |  |
-| West Midlands - Black Country | 5 |  |  |  |  |  |  |  |
-| West Midlands - Coventry & Warwickshire | 25 |  |  |  |  |  | CHECK |  |
-| Wiltshire | 15 | 3 |  |  |  |  |  |  |
-| Worcestershire | 11 |  |  |  |  |  |  |  |
+| West Midlands - Birmingham & Solihull | 30 |  |  |  | 6 |  | 5 |  |
+| West Midlands - Black Country | 3 |  |  |  |  |  |  |  |
+| West Midlands - Coventry & Warwickshire | 25 |  |  |  |  |  | 9 |  |
+| Wiltshire | 13 | 2 |  |  |  |  |  |  |
+| Worcestershire | 12 |  |  |  |  |  |  |  |
 | Yorkshire - East | 12 |  |  |  |  |  |  |  |
-| Yorkshire - North | 13 |  |  |  | CHECK | CHECK |  |  |
-| Yorkshire - South | 20 | CHECK |  |  |  |  |  |  |
-| Yorkshire - West | 39 | 2 | 1 |  |  | CHECK | 4 |  |
+| Yorkshire - North | 13 |  |  |  | 7 | CHECK |  |  |
+| Yorkshire - South | 21 | CHECK |  |  |  |  |  |  |
+| Yorkshire - West | 39 | 2 | CHECK |  |  | CHECK | 4 |  |
 
 ## NOT LIVE
 
@@ -746,6 +752,6 @@ Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-09-1
 | Measure | Service admin | Support worker | Sales advisor | Paralegal | Marketing | Finance / Accounts | HR / Recruitment | CS / Contact centre |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
 | Live regions | 51 / 78 | 11 / 78 | 14 / 78 | 4 / 78 | 19 / 78 | 12 / 78 | 9 / 78 | 6 / 78 |
-| Live slice placements | 1240 | 50 + 2 CHECK | 56 + 3 CHECK | 60 | 226 + 3 CHECK | 28 + 10 CHECK | 54 + 2 CHECK | 14 |
+| Live slice placements | 1265 | 49 + 2 CHECK | 69 + 1 CHECK | 61 | 241 | 33 + 9 CHECK | 68 | 14 |
 
 **Live slices: 126 / 624.**
