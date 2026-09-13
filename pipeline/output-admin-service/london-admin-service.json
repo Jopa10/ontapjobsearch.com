@@ -296,11 +296,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Shared inboxes",
-      "Records administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225570818",
@@ -425,13 +421,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Quotations",
-      "Order processing",
-      "Delivery coordination"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1772192",
@@ -481,12 +471,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Correspondence",
-      "Reporting"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225574007",
@@ -786,12 +771,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Telephone handling",
-      "Scheduling and bookings",
-      "Reporting"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225527565",
@@ -816,11 +796,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Part Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Data entry"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225526851",
@@ -945,12 +921,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Email handling",
-      "Scheduling and bookings"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225547627",
@@ -975,11 +946,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Reporting",
-      "Payroll administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225548519",
@@ -1104,12 +1071,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Telephone handling",
-      "Scheduling and bookings",
-      "Data entry"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225512635",
@@ -1134,11 +1096,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Records administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225568316",
@@ -1213,13 +1171,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Records administration",
-      "Systems administration",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225570672",
@@ -1269,11 +1221,7 @@
     "advertiser_type": "Company",
     "work_pattern": "Part Time",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Telephone handling"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1858746",
@@ -1298,11 +1246,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Pre-employment administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1854661",
@@ -1327,11 +1271,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Reporting",
-      "Payroll administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1852497",
@@ -1355,36 +1295,6 @@
     "advertiser_name": "AWD online",
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
-    "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Data entry",
-      "Payroll administration"
-    ]
-  },
-  {
-    "job_id": "1849922",
-    "title": "HR Assistant / Receptionist",
-    "company": "The Coast Partnership Ltd - Agency - Permanent",
-    "location": "London",
-    "region": "London",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "",
-    "posted_date": "",
-    "description": "A respected and UK leading Law firm based in London is looking for HR Assistant to join their busy business support team.\n\nThe role is largely administrative, supporting the HR Officer and Head of HR, together with daily Reception and occasional Post room cover and while this is a 'starter' role, there is potential for growth & development in a supportive environment.\n\nThe successful candidate will\n- Have some previous HR support experience, although this is not essential.\n- Good spoken and written English is essential, with a mature outlook\n- Professionalism, discretion, flexibility and reliability, as you will have a wide range of responsibilities.\n- Core tasks will include managing holiday records, scheduling meetings, sending emails to job applicants, setting up interviews, helping with HR & payroll documentation & with induction planning for new joiners.\n- You will also help organise training, assist with our annual Practising Certificate renewal & appraisal processes and help look after our trainee solicitors, booking courses for them and liaising with the SRA.\n\nThis is a full time and fully office based role.\n- Hours are 10am-6pm (with an hour each evening, from 5-6pm, covering Reception).\n- Company pension scheme and 25 days annual leave, in addition to Bank Holidays\n\nInterviews are available immediately.\n\nAsk for",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?iZmgAWfngDza6xipLY7ilLcYy%2bzggFPpf",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "The Coast Partnership Ltd",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
     "salary_period": "Annual",
     "posted_date_basis": ""
   },
@@ -1436,14 +1346,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Shared inboxes",
-      "Scheduling and bookings",
-      "Records administration",
-      "Filing and document handling"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1857294",
@@ -1493,11 +1396,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Systems administration",
-      "Reporting"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1820780",
@@ -1522,12 +1421,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Email handling",
-      "Records administration",
-      "Systems administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1775852",
@@ -1602,11 +1496,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Systems administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1734464",
@@ -1856,35 +1746,6 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Records administration"
-    ]
-  },
-  {
-    "job_id": "107810632",
-    "title": "PA to Deputy Head",
-    "company": "Crone Corkill - Agency - Permanent",
-    "location": "London",
-    "region": "London",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "35000",
-    "salary_max": "35000",
-    "salary_text": "£35000 per year",
-    "posted_date": "",
-    "description": "Term-Time PA to the Deputy Head & Head of Department\nIndependent School South London Term-Time + 2 Weeks £36,800 Office Based\nAre you an experienced School PA looking for a varied role in a thriving independent school?\nWe're recruiting on behalf of a highly regarded school in South London for an organised and initiative-taking Personal Assistant to support the Deputy Head and a Head of Depart click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?6WDmO0cNttogl%2bXWiE1JhErjmf0n3pBVa",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Crone Corkill",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Annual",
     "posted_date_basis": ""
   },
   {
@@ -2060,12 +1921,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Telephone handling",
-      "Scheduling and bookings",
-      "Payroll administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1768718",
@@ -2415,11 +2271,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Part Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Data entry",
-      "Filing and document handling"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1859082",
@@ -2694,11 +2546,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Quotations"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1873362",
@@ -2848,11 +2696,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Data entry",
-      "Document preparation"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1883492",
@@ -3002,11 +2846,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Visitor reception",
-      "Telephone handling"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "107786939",
@@ -3181,13 +3021,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Telephone handling",
-      "Customer enquiries",
-      "Records administration",
-      "Quotations"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225517912",
@@ -3237,11 +3071,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Delivery coordination"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225527983",
@@ -3266,14 +3096,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Records administration",
-      "Data entry",
-      "Quotations",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225555899",
@@ -3348,12 +3171,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Reporting",
-      "Quotations"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225537753",
@@ -3403,11 +3221,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Data entry",
-      "Filing and document handling"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225537498",
@@ -3482,12 +3296,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Records administration",
-      "Payroll administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1873546",
@@ -3512,12 +3321,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Records administration",
-      "Starters and leavers"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1844364",
@@ -3692,11 +3496,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Scheduling and bookings",
-      "Systems administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "1848732",
@@ -3814,7 +3614,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0327-26-0475",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0327-26-0475",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5595461",
@@ -3832,7 +3636,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4586-26-0003",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4586-26-0003",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5595310",
@@ -3850,7 +3658,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B0146-26-0006",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B0146-26-0006",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5588692",
@@ -3868,7 +3680,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4413-26-0000",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4413-26-0000",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5588526",
@@ -3886,7 +3702,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9333-26-1175",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9333-26-1175",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5589400",
@@ -3904,7 +3724,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A6048-26-0909",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A6048-26-0909",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5586857",
@@ -3922,7 +3746,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2154-26-0005",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2154-26-0005",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5584173",
@@ -3940,7 +3768,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0528-26-0009",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0528-26-0009",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5583755",
@@ -3958,7 +3790,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2419-26-0009",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2419-26-0009",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5557335",
@@ -3976,7 +3812,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4905-26-0003",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4905-26-0003",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5579078",
@@ -3994,7 +3834,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5836-26-0001",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5836-26-0001",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5578430",
@@ -4012,7 +3856,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3027-26-0003",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3027-26-0003",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5573112",
@@ -4030,7 +3878,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4353-26-0000",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4353-26-0000",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5574789",
@@ -4048,7 +3900,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/L0034-26-3660",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/L0034-26-3660",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5572882",
@@ -4066,7 +3922,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2940-011026",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2940-011026",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5567071",
@@ -4084,7 +3944,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4875-26-0004",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4875-26-0004",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5314777",
@@ -4102,7 +3966,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0660-26-0014",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0660-26-0014",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5555761",
@@ -4120,7 +3988,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3680-26-0004",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3680-26-0004",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5524224",
@@ -4138,7 +4010,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4853-26-0008",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4853-26-0008",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5520787",
@@ -4156,7 +4032,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4126-26-0007",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4126-26-0007",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5509226",
@@ -4174,7 +4054,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4853-26-0007",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4853-26-0007",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5487767",
@@ -4192,7 +4076,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1161-26-0001",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1161-26-0001",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5072942",
@@ -4210,7 +4098,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9334-25-1339",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9334-25-1339",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5593435",
@@ -4228,7 +4120,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3342-26-0000",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3342-26-0000",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5593980",
@@ -4246,7 +4142,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4658-26-0003",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4658-26-0003",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5595497",
@@ -4264,7 +4164,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9289-CS-539",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9289-CS-539",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5593855",
@@ -4282,7 +4186,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2885-26-0007",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2885-26-0007",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5589857",
@@ -4300,7 +4208,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9222-26-0788",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9222-26-0788",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5592570",
@@ -4318,7 +4230,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9394-26-0409",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9394-26-0409",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5591020",
@@ -4336,7 +4252,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2870-26-0002",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2870-26-0002",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5592563",
@@ -4354,7 +4274,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9213-26-0789",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9213-26-0789",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5587905",
@@ -4372,7 +4296,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4718-26-0004",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4718-26-0004",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5587269",
@@ -4390,7 +4318,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0054-26-0110EXM",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0054-26-0110EXM",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5585861",
@@ -4408,7 +4340,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0177-26-9842",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0177-26-9842",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5584333",
@@ -4426,24 +4362,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2229-26-0007",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2229-26-0007",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
-  },
-  {
-    "job_id": "nhs-5584979",
-    "source": "NHS Jobs",
-    "title": "PRACTICE ADMINISTRATOR",
-    "company": "Woodgrange Medical Practice",
-    "advertiser_name": "Woodgrange Medical Practice",
-    "location": "London, E7 0QH",
-    "region": "London",
-    "salary": "Negotiable",
-    "employment_type": "Permanent",
-    "posted_date": "2026-09-08T10:09:58.123110220",
-    "closing_date": "2026-09-30",
-    "description": "We require a Practice Administrator - Mon to Fri offering flexible hours for 4 hours a day with initiative, drive, strong interpersonal, admin and IT skills. Previous admin are desirable. Join our happy and dedicated team providing quality care to a diverse population. Administrative support: Manage correspondence, emails, letters, reports, forms, referrals and other practice documentation. Patient administration: Maintain accurate patient records, process registrations and deductions, update demographics, and deal with administrative queries. Medical records: Maintain confidentiality and accuracy of patient information in accordance with UK GDPR, NHS requirements and practice policies. Practice systems: Use and maintain electronic systems such as the practice clinical system, NHS systems and administrative databases. Confidentiality and safeguarding: Handle sensitive patient and staff information appropriately and follow safeguarding and information-governance procedures. Reception duties Ad hoc duties as and when required by the Practice Register new patients and maintain accurate patient information. Process patient registrations, deductions and changes of personal details. Respond to patient administrative enquiries professionally and courteously. Process requests for medical records and other patient documentation. Ensure patient information is handled confidentially at all times. Manage incoming and outgoing correspondence, emails Maintain confidentiality and comply with UK GDPR and information governance requirements. Follow practice policies and procedures.",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2291-26-0019",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2291-26-0019",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

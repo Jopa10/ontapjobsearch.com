@@ -50,11 +50,7 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Telephone handling",
-      "Data entry"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225525247",
@@ -172,6 +168,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0177-26-9428",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0177-26-9428",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

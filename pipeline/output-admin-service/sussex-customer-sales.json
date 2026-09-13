@@ -22,12 +22,7 @@
     "customer_sales_overlap_policy": "non-exclusive",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Customer enquiries",
-      "Records administration",
-      "Order processing"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_225564678",
@@ -52,11 +47,7 @@
     "customer_sales_overlap_policy": "non-exclusive",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
-    "posted_date_basis": "",
-    "at_a_glance_attributes": [
-      "Records administration",
-      "Systems administration"
-    ]
+    "posted_date_basis": ""
   },
   {
     "job_id": "23643_224705824",
@@ -80,6 +71,31 @@
     "customer_sales_reason": "sales-led title: sales representative",
     "customer_sales_overlap_policy": "non-exclusive",
     "work_pattern": "Full Time",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
+    "job_id": "107970798",
+    "title": "Telesales Executive",
+    "company": "Aimee Willow Connex Limited - Agency - Permanent",
+    "advertiser_name": "Aimee Willow Connex Limited",
+    "advertiser_type": "Agency",
+    "location": "Brighton",
+    "region": "Sussex",
+    "country": "UK",
+    "category": "Customer Sales / Sales Advisor",
+    "employment_type": "Permanent",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "",
+    "posted_date": "",
+    "description": "Purpose of the Role:\n- The Telemarketing Executive is key in driving directly generated income for the business, and as such is a critical role in the overall sales process.\n- You will target key businesses within our customer demographic, engaging with high level decision makers to gain their interest in our product offerings click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?Dw9iAXzSqBZl%2fSlf4ou2m9WuRHezpHMxk",
+    "source": "JobG8",
+    "customer_sales_classification": "DIRECT_SALES",
+    "customer_sales_reason": "sales-led title: sales executive, telesales",
+    "customer_sales_overlap_policy": "non-exclusive",
+    "work_pattern": "Not Specified",
     "salary_period": "Annual",
     "posted_date_basis": ""
   }

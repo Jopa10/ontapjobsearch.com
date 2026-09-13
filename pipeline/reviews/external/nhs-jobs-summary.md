@@ -2,11 +2,11 @@
 
 review_date: 2026-09-13
 
-- Open Administrative & Clerical rows reviewed: 2049
+- Open Administrative & Clerical rows reviewed: 2044
 - Auto/remembered selected: 367
 - Selected HC Tier A: 189
 - Selected HC Tier B: 178
-- POSS awaiting decision: 1531
+- POSS awaiting decision: 1526
 - Excluded: 0
 - HARD_PASS: 151
 
@@ -994,18 +994,6 @@ region: West Midlands - Coventry & Warwickshire
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9444-26-0540
 factual_fingerprint: bbf16c553d27f4c29c016d25984dc10e1ef57851ec9b4134e67b64b3ae5b2ba5
----
-
----
-action:
-POSS | NHS Jobs | Essex | Chelmsford, CM1 7ET | £25760.00 | Administrative Support
-source_job_id: 5595058
-title: Administrative Support
-employer: Mid and South Essex NHS Foundation Trust
-region: Essex
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9390-26-2153
-factual_fingerprint: 2a304ee0c46a9d59026f6799162eba2040f269bf43101cd726861479da780014
 ---
 
 ---
@@ -2590,18 +2578,6 @@ region: Lancashire - Blackpool & Fylde
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A2758-26-0004
 factual_fingerprint: 064ca77c1a95cad908edac1d6be8dca29b7efa8b6d1b7a9970ef38c6df32f40a
----
-
----
-action:
-POSS | NHS Jobs | London | London, SW10 9NH | £38488.00 to £46852.00 | Team Leader - Patient Access
-source_job_id: 5592963
-title: Team Leader - Patient Access
-employer: Chelsea and Westminster Hospital NHS Foundation Trust
-region: London
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9289-CS-502-A
-factual_fingerprint: f0a6e97480e749bb0902df258582a5fc4c2c1eb24b65feea324a809e96b9aba1
 ---
 
 ---
@@ -9122,18 +9098,6 @@ factual_fingerprint: 8a4ad2edcfd6e0dc5cc925521515c522f3378b29382b4f7a1dc73378593
 
 ---
 action:
-POSS | NHS Jobs | Oxfordshire | Oxford, OX3 9DU | £25760.00 to £27476.00 | Ward Clerk / Receptionist
-source_job_id: 5582838
-title: Ward Clerk / Receptionist
-employer: Oxford University Hospitals NHS Foundation Trust
-region: Oxfordshire
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9321-26-1570
-factual_fingerprint: 7d4c7552ee83ed94f0659afd374be9f412e0f8245bd7474a88cb1a02198e881e
----
-
----
-action:
 POSS | NHS Jobs | Yorkshire - West | Wakefield, WF1 5RH | £49387.00 to £56515.00 | Social Prescribing Practitioner
 source_job_id: 5582751
 title: Social Prescribing Practitioner
@@ -11218,18 +11182,6 @@ region:
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9426-26-0310
 factual_fingerprint: ebbdf9a5e4649713071056c6c26a319668c0ce7f37a6f2c208bd98eb248a9ff4
----
-
----
-action:
-POSS | NHS Jobs | Norfolk | King's Lynn, PE30 4ET | £25760.00 to £27476.00 | Assistant Medical Secretary
-source_job_id: 5576320
-title: Assistant Medical Secretary
-employer: The Queen Elizabeth Hospital King's Lynn NHSFT
-region: Norfolk
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9426-26-0314
-factual_fingerprint: 19f28cf758bcd7ff0763c5712cced2a5e34612d84d62462d6c78a9157c7e1c4e
 ---
 
 ---
@@ -15658,18 +15610,6 @@ region: Herefordshire
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9229-26-0756
 factual_fingerprint: b21d06699adec359fc9a68ee34f2104bc808a8d58c083e1475b0c7c35932ae66
----
-
----
-action:
-POSS | NHS Jobs | Merseyside - Liverpool | Liverpool, L7 3FA | £49387.00 to £56515.00 | C&M Diagnostics Project Manager
-source_job_id: 5568005
-title: C&M Diagnostics Project Manager
-employer: The Clatterbridge Cancer Centre NHSFT
-region: Merseyside - Liverpool
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9158-26-0220
-factual_fingerprint: aea281e61e22db7706262f6374b38aec96f993f2e67b61f9c6caff5022fc343d
 ---
 
 ---
