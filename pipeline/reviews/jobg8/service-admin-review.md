@@ -753,12 +753,6 @@ job_id: 1851088
 
 ---
 action:
-SELECTED | London | London |  | HR Assistant / Receptionist
-job_id: 1849922
----
-
----
-action:
 SELECTED | London | Borehamwood | £30000 per year | Marketing Coordinator
 job_id: 1849527
 ---
@@ -1071,12 +1065,6 @@ job_id: 107857821
 
 ---
 action:
-SELECTED | London | London | £35000 per year | PA to Deputy Head
-job_id: 107810632
----
-
----
-action:
 SELECTED | London | Borehamwood | £32000 per year | Office Co-ordinator
 job_id: 23643_225598577
 ---
@@ -1157,12 +1145,6 @@ job_id: 1769884
 action:
 SELECTED | Hampshire | Hampshire | £27000 - £30000 per year | Account Coordinator
 job_id: 23643_225529475
----
-
----
-action:
-SELECTED | Hampshire | Hampshire | £30,000 per annum | Housing Repairs Administrator
-job_id: 23643_225537561
 ---
 
 ---
@@ -2777,17 +2759,17 @@ SELECTED | Cornwall | St. Austell |  | Referrals Coordinator (Vulnerable Adults)
 job_id: 23643_225589154
 ---
 
+---
+action:
+SELECTED | Cornwall | Truro |  | Accounts Assistant Part Time Or Full Time
+job_id: 1899928
+---
+
 ## CORNWALL — POSSIBLES
 
 _No jobs in this group._
 
 ## DERBYSHIRE — SELECTED
-
----
-action:
-SELECTED | Derbyshire | Derbyshire | £12.71 per hour | Admin Advertiser
-job_id: 23643_225511181
----
 
 ---
 action:
@@ -3679,12 +3661,6 @@ _No jobs in this group._
 
 ---
 action:
-SELECTED | Lincolnshire | Lincolnshire | £13.26 per hour | Customer Service Assistant Supervisor
-job_id: 107851732
----
-
----
-action:
 SELECTED | Lincolnshire | Lincolnshire |  | Service Advisor - BYD
 job_id: 107877158
 ---
@@ -3753,12 +3729,6 @@ job_id: 23643_225575488
 action:
 SELECTED | Merseyside - Liverpool | Liverpool | £30000 per year | Claims Handler - EL & PL
 job_id: 1830080
----
-
----
-action:
-SELECTED | Merseyside - Liverpool | Liverpool | £35000 per year | Business Crime Reduction Coordinator
-job_id: 107947436
 ---
 
 ---
@@ -4117,12 +4087,6 @@ job_id: 2050089
 
 ---
 action:
-SELECTED | Northern Ireland - East | Belfast | £12.71 per hour | Medical Receptionist (37.5 hrs pw)
-job_id: 2049936
----
-
----
-action:
 SELECTED | Northern Ireland - East | Newtownabbey | £13.69 per hour | Admin Scheduler
 job_id: 2051713
 ---
@@ -4285,12 +4249,6 @@ job_id: 2052503
 
 ---
 action:
-SELECTED | Northern Ireland - East | Belfast |  | Customer Service Advisor - Arc Room
-job_id: 107836604
----
-
----
-action:
 SELECTED | Northern Ireland - East | Belfast |  | Accounts Assistant / Junior Accountant (Practice)
 job_id: 2052657
 ---
@@ -4312,6 +4270,12 @@ job_id: 2052586
 _No jobs in this group._
 
 ## NOTTINGHAMSHIRE — SELECTED
+
+---
+action:
+SELECTED | Nottinghamshire | Nottinghamshire | £12.71 per hour | Admin Advertiser
+job_id: 23643_225511181
+---
 
 ---
 action:
@@ -4509,6 +4473,12 @@ job_id: 23643_225583486
 action:
 SELECTED | Oxfordshire | Oxfordshire | £24,479 per year | Receptionist
 job_id: 23643_225587168
+---
+
+---
+action:
+SELECTED | Oxfordshire | Oxfordshire | £13 per hour | Receptionist
+job_id: 23643_225586323
 ---
 
 ---
@@ -4755,6 +4725,12 @@ _No jobs in this group._
 action:
 SELECTED | Shropshire | Shropshire | £28000 - £33000 per year | Client Coordinator
 job_id: 23643_225512376
+---
+
+---
+action:
+SELECTED | Shropshire | Shropshire | £30,000 per annum | Housing Repairs Administrator
+job_id: 23643_225537561
 ---
 
 ---
@@ -5023,7 +4999,11 @@ job_id: 1894195
 
 ## SUFFOLK — POSSIBLES
 
-_No jobs in this group._
+---
+action:
+POSS - SUFFOLK | Suffolk | Suffolk | £45000 per year | Commercial Claims Handler
+job_id: 107968791
+---
 
 ## WALES SOUTH - CARDIFF & VALE — SELECTED
 
@@ -5267,12 +5247,6 @@ SELECTED | Wiltshire | Wiltshire | £14.1 per hour | Forensics Administrator
 job_id: 23643_225589341
 ---
 
----
-action:
-SELECTED | Wiltshire | Wiltshire | £24000 per year | Customer Service Coordinator
-job_id: 107973159
----
-
 ## WILTSHIRE — POSSIBLES
 
 _No jobs in this group._
@@ -5331,12 +5305,6 @@ job_id: 23643_225575150
 action:
 SELECTED | Worcestershire | Worcestershire |  | Onboarding Coordinator
 job_id: 1879674
----
-
----
-action:
-SELECTED | Worcestershire | Worcestershire |  | Recruitment Delivery Co-ordinator Temporary Staffing Solutions
-job_id: 107956478
 ---
 
 ## WORCESTERSHIRE — POSSIBLES

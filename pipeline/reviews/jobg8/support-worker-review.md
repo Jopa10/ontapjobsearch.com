@@ -181,6 +181,12 @@ job_id: 1402264062
 
 ---
 action:
+SELECTED | Kent | Kent | £13.45 per hour (£13.45) | Housing Support Worker (Casual)
+job_id: 23643_225534852
+---
+
+---
+action:
 SELECTED | Kent | Gravesend | £13,988.00 per annum | Support Worker
 job_id: 1851265
 ---
@@ -225,12 +231,6 @@ job_id: 1815970
 action:
 SELECTED | London | City | £13.39 per hour | Care Assistant
 job_id: 2050890
----
-
----
-action:
-SELECTED | London | City | £13.69 per hour | Mental Health Support Worker Nightshift - Female Only
-job_id: 2049999
 ---
 
 ---
@@ -353,11 +353,7 @@ _No jobs in this group._
 
 ## SURREY — SELECTED
 
----
-action:
-SELECTED | Surrey | Cobham | £13.45 per hour (£13.45) | Housing Support Worker (Casual)
-job_id: 23643_225534852
----
+_No jobs in this group._
 
 ## SURREY — POSSIBLES
 
