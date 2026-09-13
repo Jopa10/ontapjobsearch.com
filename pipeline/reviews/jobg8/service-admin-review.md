@@ -1102,11 +1102,10 @@ job_id: 1899979
 ## LONDON — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - LONDON | London | Harrow | £35000 - £40000 per year | Company Secretary Administrator
 job_id: 1849345
 ---
-
 ## HAMPSHIRE — SELECTED
 
 ---
@@ -2316,11 +2315,10 @@ job_id: 23643_225598415
 ## BERKSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - BERKSHIRE | Berkshire | Reading | £34000 - £36000 per year | Sales and Service Administrator
 job_id: 23643_225601569
 ---
-
 ## BRISTOL & BATH — SELECTED
 
 ---
@@ -2440,17 +2438,15 @@ job_id: 23643_225590581
 ## BRISTOL & BATH — POSSIBLES
 
 ---
-action:
+action: select
 POSS - BRISTOL & BATH | Bristol & Bath | Bristol | £28000 - £32000 per year (Bonus + 33 days holiday + GP + Benef) | Technical Administrator
 job_id: 23643_225599662
 ---
-
 ---
-action:
+action: select
 POSS - BRISTOL & BATH | Bristol & Bath | Keynsham | £35934 per year | Care Home Administrator
 job_id: 23643_225601438
 ---
-
 ## BUCKINGHAMSHIRE — SELECTED
 
 ---
@@ -3860,11 +3856,10 @@ job_id: 107890781
 ## NORTH SCOTLAND — POSSIBLES
 
 ---
-action:
+action: select
 POSS - NORTH SCOTLAND | North Scotland | Inverness | £35000 per year | Commercial Sales Co-ordinator
 job_id: 107975436
 ---
-
 ## NORTHAMPTONSHIRE — SELECTED
 
 ---
@@ -4302,11 +4297,10 @@ job_id: 2052586
 ## NORTHERN IRELAND - EAST — POSSIBLES
 
 ---
-action:
+action: select
 POSS - NORTHERN IRELAND - EAST | Northern Ireland - East | Lisburn | £31000 per year | Accounts Assistant
 job_id: 2052639
 ---
-
 ## NOTTINGHAMSHIRE — SELECTED
 
 ---
