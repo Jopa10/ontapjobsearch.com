@@ -69,5 +69,8 @@ test("vacancy recommendations stay anchored on the vacancy", () => {
 test("vacancies without approved nearby matches show only the regional fallback link", () => {
   assert.match(nearbyPanel, /if \(!jobs\.length\)/);
   assert.match(nearbyPanel, /className=\{styles\.fallbackLink\}/);
+  assert.match(nearbyPanel, /fallbackTitle/);
+  assert.match(nearbyPanel, /fallbackLocation/);
+  assert.match(jobPage, /fallbackCardCopy\(job\.slice_label, job\.region\)/);
   assert.doesNotMatch(nearbyPanel, /No approved close match/);
 });

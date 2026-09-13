@@ -7,7 +7,7 @@ This is the short owner view of how Ontap is organised. It mirrors the five cano
 
 ## Recent canonical changes
 
-- 13 September 2026 — **Job pages no longer emphasise an absence of nearby matches:** if Ontap has no approved suitable job nearby, it hides the empty recommendation box and presents only the useful regional jobs link. Pages with suitable matches are unchanged.
+- 13 September 2026 — **Job pages no longer emphasise an absence of nearby matches:** if Ontap has no approved suitable job nearby, it hides the empty recommendation box and presents a compact pale-blue card naming the relevant job family and region. Pages with suitable matches are unchanged.
 
 - 13 September 2026 — **Unused Quick View duty bubbles and their daily refresh were removed:** current listing rows remain visually unchanged, including sector labels where enabled. Removing the obsolete workflow prevents unnecessary generated commits after JobG8 updates; individual job-page facts are unaffected.
 

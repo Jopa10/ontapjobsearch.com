@@ -61,6 +61,18 @@ function moreJobsLabel(value: string) {
   return label.toLowerCase() === "browse" ? "View more jobs" : `View more ${label} jobs`;
 }
 
+function fallbackCardCopy(sliceLabel: string, region: string) {
+  const family = sliceLabel
+    .replace(/\s+(?:roles|jobs)$/i, "")
+    .replace(new RegExp(`^${region.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}\\s*[-–—:]?\\s*`, "i"), "")
+    .trim();
+
+  return {
+    title: family ? `More ${family} jobs` : "More jobs",
+    location: region.replace(/\s+-\s+/g, " – "),
+  };
+}
+
 function ListingLinks({
   primary,
   secondary,
@@ -126,6 +138,7 @@ export default async function JobPage({ params }: PageProps) {
   const publishedJobs = getPublishedJobs();
   const cityPage = getActiveCityPageForJob(job.job_id);
   const discoveryJobs = getDiscoveryRecommendations(job, publishedJobs);
+  const discoveryFallbackCopy = fallbackCardCopy(job.slice_label, job.region);
   const regionalJobsLabel = moreJobsLabel(job.slice_label);
   const cityJobsLabel = cityPage
     ? moreJobsLabel(cityPage.definition.listingLabel)
@@ -282,6 +295,8 @@ export default async function JobPage({ params }: PageProps) {
             jobs={discoveryJobs}
             allJobsPath={discoveryJobs.length ? primaryListing.href : discoveryFallback.href}
             allJobsLabel={discoveryJobs.length ? primaryListing.label : discoveryFallback.label}
+            fallbackTitle={discoveryFallbackCopy.title}
+            fallbackLocation={discoveryFallbackCopy.location}
             secondaryAllJobsPath={discoveryJobs.length ? secondaryListing?.href : undefined}
             secondaryAllJobsLabel={discoveryJobs.length ? secondaryListing?.label : undefined}
           />

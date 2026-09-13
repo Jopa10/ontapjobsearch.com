@@ -7,7 +7,7 @@ This is the authoritative technical map of the persistent Ontap system. It is or
 
 ## Recent canonical changes
 
-- 13 September 2026 — **Empty job-detail recommendation panels no longer advertise missing matches:** when no approved nearby vacancy qualifies, Ontap suppresses the `Suitable jobs nearby` box and its negative message, showing only the relevant regional jobs link. Populated panels and all governed matching rules are unchanged.
+- 13 September 2026 — **Empty job-detail recommendation panels no longer advertise missing matches:** when no approved nearby vacancy qualifies, Ontap suppresses the `Suitable jobs nearby` box and its negative message, showing only a compact pale-blue card with a concise role-family heading and regional destination. Populated panels and all governed matching rules are unchanged.
 
 - 13 September 2026 — **The obsolete Quick View duty-bubble system was removed:** Quick View retains its compact location-first job rows and sector badges, but no longer reads or renders generated duty tags. The separate daily `Refresh Quick View duties` workflow, its fallback preview data, dedicated generation scripts and tests were removed, eliminating redundant post-JobG8 commits without changing the live listing presentation or the job-detail facts panel.
 
