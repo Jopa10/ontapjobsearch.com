@@ -1,6 +1,6 @@
 # Support-worker manual review
 
-feed_date: 2026-09-12
+feed_date: 2026-09-13
 
 Edit only the `action:` line in each block:
 

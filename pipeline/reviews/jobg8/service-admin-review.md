@@ -1,6 +1,6 @@
 # Service-admin manual review
 
-feed_date: 2026-09-12
+feed_date: 2026-09-13
 
 Edit only the `action:` line in each block:
 
@@ -255,6 +255,12 @@ job_id: 1892135
 action:
 SELECTED | Yorkshire - South | Doncaster |  | Purchase Ledger Administrator
 job_id: 1899982
+---
+
+---
+action:
+SELECTED | Yorkshire - South | Doncaster |  | Customer Service Advisor
+job_id: 20279_62308-153faf593eb64b88272f45adeaa28d87
 ---
 
 ## SOUTH YORKSHIRE — POSSIBLES
@@ -1095,7 +1101,11 @@ job_id: 1899979
 
 ## LONDON — POSSIBLES
 
-_No jobs in this group._
+---
+action:
+POSS - LONDON | London | Harrow | £35000 - £40000 per year | Company Secretary Administrator
+job_id: 1849345
+---
 
 ## HAMPSHIRE — SELECTED
 
@@ -1807,12 +1817,6 @@ SELECTED | Kent | Kent | £28000 per year | MAF in the Community (MiC) Resourcin
 job_id: 107958419
 ---
 
----
-action:
-SELECTED | Kent | Kent |  | Customer Service advisor- French Speaking
-job_id: 107971034
----
-
 ## KENT — POSSIBLES
 
 _No jobs in this group._
@@ -1943,12 +1947,6 @@ job_id: 23643_225580875
 action:
 SELECTED | Sussex | Sussex | £30000 per year | Office Administrator
 job_id: 1868387
----
-
----
-action:
-SELECTED | Sussex | Sussex |  | Executive Assistant and Marketing Coordinator
-job_id: 107952017
 ---
 
 ---
@@ -2233,12 +2231,6 @@ job_id: 23643_225508886
 
 ---
 action:
-SELECTED | Berkshire | Berkshire | £35000 per year | HR Administrator
-job_id: 1770760
----
-
----
-action:
 SELECTED | Berkshire | Berkshire | £12.71 per hour | Part-Time Administrator/ Sales Support
 job_id: 23643_225528844
 ---
@@ -2323,7 +2315,11 @@ job_id: 23643_225598415
 
 ## BERKSHIRE — POSSIBLES
 
-_No jobs in this group._
+---
+action:
+POSS - BERKSHIRE | Berkshire | Reading | £34000 - £36000 per year | Sales and Service Administrator
+job_id: 23643_225601569
+---
 
 ## BRISTOL & BATH — SELECTED
 
@@ -2449,6 +2445,12 @@ POSS - BRISTOL & BATH | Bristol & Bath | Bristol | £28000 - £32000 per year (B
 job_id: 23643_225599662
 ---
 
+---
+action:
+POSS - BRISTOL & BATH | Bristol & Bath | Keynsham | £35934 per year | Care Home Administrator
+job_id: 23643_225601438
+---
+
 ## BUCKINGHAMSHIRE — SELECTED
 
 ---
@@ -2473,12 +2475,6 @@ job_id: 1780993
 action:
 SELECTED | Buckinghamshire | Buckinghamshire | £25392 per year | Administrator
 job_id: 23643_225528400
----
-
----
-action:
-SELECTED | Buckinghamshire | Buckinghamshire | £13.45 per hour | Administrator
-job_id: 23643_225541272
 ---
 
 ---
@@ -2611,12 +2607,6 @@ job_id: 23643_225519683
 action:
 SELECTED | Cambridgeshire | St. Neots | £30000 per year | Conveyancing Administrators and Case Handlers
 job_id: 107791497
----
-
----
-action:
-SELECTED | Cambridgeshire | Peterborough |  | Sales Support Administrator
-job_id: 193158007228884582437340
 ---
 
 ---
@@ -2795,6 +2785,12 @@ _No jobs in this group._
 
 ---
 action:
+SELECTED | Derbyshire | Derbyshire | £12.71 per hour | Admin Advertiser
+job_id: 23643_225511181
+---
+
+---
+action:
 SELECTED | Derbyshire | Derbyshire | £28000 - £30000 per year | Service Technical Planner
 job_id: 23643_225518063
 ---
@@ -2935,6 +2931,12 @@ job_id: 23643_225587837
 action:
 SELECTED | Devon | Devon |  | Administrator - Part time
 job_id: 23643_225590384
+---
+
+---
+action:
+SELECTED | Devon | Devon |  | Recruitment Account Co-ordinator
+job_id: 107953534
 ---
 
 ## DEVON — POSSIBLES
@@ -3551,12 +3553,6 @@ job_id: 23643_225565093
 
 ---
 action:
-SELECTED | Hertfordshire | Hertfordshire |  | Contracts Administrator
-job_id: 107580099
----
-
----
-action:
 SELECTED | Hertfordshire | Hertfordshire |  | Corporate Benefits Administrator
 job_id: 1901543
 ---
@@ -3863,7 +3859,11 @@ job_id: 107890781
 
 ## NORTH SCOTLAND — POSSIBLES
 
-_No jobs in this group._
+---
+action:
+POSS - NORTH SCOTLAND | North Scotland | Inverness | £35000 per year | Commercial Sales Co-ordinator
+job_id: 107975436
+---
 
 ## NORTHAMPTONSHIRE — SELECTED
 
@@ -3949,6 +3949,12 @@ job_id: 1845227
 action:
 SELECTED | Northamptonshire | Northamptonshire |  | Client Account Administrator
 job_id: 1875317
+---
+
+---
+action:
+SELECTED | Northamptonshire | Northamptonshire |  | Project Coordinator
+job_id: 23643_225582470
 ---
 
 ---
@@ -4283,6 +4289,12 @@ job_id: 107836604
 
 ---
 action:
+SELECTED | Northern Ireland - East | Belfast |  | Accounts Assistant / Junior Accountant (Practice)
+job_id: 2052657
+---
+
+---
+action:
 SELECTED | Northern Ireland - East | Newry | £14.52 per hour | Business Support Officer
 job_id: 2052586
 ---
@@ -4296,12 +4308,6 @@ job_id: 2052639
 ---
 
 ## NOTTINGHAMSHIRE — SELECTED
-
----
-action:
-SELECTED | Nottinghamshire | Nottinghamshire | £12.71 per hour | Admin Advertiser
-job_id: 23643_225511181
----
 
 ---
 action:
@@ -4487,12 +4493,6 @@ job_id: 23643_225358207
 action:
 SELECTED | Oxfordshire | Oxfordshire | £30000 per year | Sales & Customer Service Support Administrator
 job_id: 107901549
----
-
----
-action:
-SELECTED | Oxfordshire | Oxfordshire |  | Project Coordinator
-job_id: 23643_225582470
 ---
 
 ---
@@ -4809,6 +4809,12 @@ job_id: 23643_225532752
 
 ---
 action:
+SELECTED | Somerset | Somerset | £13.45 per hour | Administrator
+job_id: 23643_225541272
+---
+
+---
+action:
 SELECTED | Somerset | Somerset | £26000 - £29000 per year (life insurance, pension, benefits) | Sales & Service Administrator
 job_id: 23643_225545402
 ---
@@ -4961,12 +4967,6 @@ job_id: 23643_225521702
 action:
 SELECTED | Suffolk | Suffolk |  | Office Administrator / Purchase Ledger
 job_id: 107902062
----
-
----
-action:
-SELECTED | Suffolk | Suffolk |  | Scheduler & Permitter
-job_id: 107877179
 ---
 
 ---
