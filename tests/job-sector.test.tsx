@@ -56,7 +56,6 @@ const sampleJobs: QuickJob[] = [
     employment_type: "Permanent",
     salary_text: "£28,000 per year",
     source: "JobG8",
-    at_a_glance_attributes: [],
   },
   {
     job_id: "public-1",
@@ -68,7 +67,6 @@ const sampleJobs: QuickJob[] = [
     employment_type: "Permanent",
     salary_text: "",
     source: "NHS Jobs",
-    at_a_glance_attributes: [],
   },
 ];
 

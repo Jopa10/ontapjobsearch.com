@@ -3,14 +3,13 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import QuickJobList from '@/components/QuickJobList';
 import SavedLocationJobs from '@/components/SavedLocationJobs';
-import { getAtAGlanceAttributes } from '@/lib/at-a-glance-preview';
 import {
   broadCityDefinitions,
   getBroadCityDefinition,
   getBroadCityJobs,
   getRegionSearchPath,
 } from '@/lib/broad-city-pages';
-import { getJobPath, type PublishedJob } from '@/lib/published-jobs';
+import { getJobPath } from '@/lib/published-jobs';
 
 const siteUrl = 'https://www.ontapjobsearch.com';
 
@@ -30,10 +29,6 @@ export async function generateMetadata({ params }: { params: Promise<{ city: str
     description: `Browse current jobs in ${city.display_name} across all live Ontap job categories, with direct employer application links.`,
     alternates: { canonical },
   };
-}
-
-function withAttributes(jobs: PublishedJob[]) {
-  return jobs.map((job) => ({ ...job, at_a_glance_attributes: getAtAGlanceAttributes(job.job_id) }));
 }
 
 export default async function BroadCityPage({ params }: { params: Promise<{ city: string }> }) {
@@ -100,14 +95,14 @@ export default async function BroadCityPage({ params }: { params: Promise<{ city
           <h2 id="city-jobs-heading" className="text-2xl font-semibold text-gray-950">Jobs in {city.display_name}</h2>
           <span className="text-sm text-gray-600">{exact.length} current job{exact.length === 1 ? '' : 's'}</span>
         </div>
-        {exact.length ? <QuickJobList jobs={withAttributes(exact)} sectorFilterEnabled /> : <p className="rounded-xl border border-gray-200 bg-gray-50 p-5 text-gray-700">There are no exact-{city.display_name} vacancies today. This permanent page will update automatically when new jobs arrive.</p>}
+        {exact.length ? <QuickJobList jobs={exact} sectorFilterEnabled /> : <p className="rounded-xl border border-gray-200 bg-gray-50 p-5 text-gray-700">There are no exact-{city.display_name} vacancies today. This permanent page will update automatically when new jobs arrive.</p>}
       </section>
 
       {nearby.length ? (
         <section aria-labelledby="nearby-jobs-heading" className="mt-8">
           <h2 id="nearby-jobs-heading" className="mb-3 text-2xl font-semibold text-gray-950">Approved nearby jobs</h2>
           <p className="mb-3 text-sm text-gray-600">These vacancies are in approved nearby locations; each listing keeps its actual location.</p>
-          <QuickJobList jobs={withAttributes(nearby)} sectorFilterEnabled />
+          <QuickJobList jobs={nearby} sectorFilterEnabled />
         </section>
       ) : null}
     </main>

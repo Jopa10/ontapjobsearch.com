@@ -1,11 +1,13 @@
 # Ontap System Overview
 
-**Last updated:** 11 September 2026
+**Last updated:** 13 September 2026
 **Status:** Canonical production state including approved job-detail discovery recommendations, an idempotent external fallback for the JobG8 daily process, restored NHS Google Jobs eligibility, owner-facing JobG8 selection auditing, live-site reporting reconciliation and Teaching Vacancies regional publish isolation.
 
 This is the short owner view of how Ontap is organised. It mirrors the five canonical system buckets in `SYSTEM_MAP.md`.
 
 ## Recent canonical changes
+
+- 13 September 2026 — **Unused Quick View duty bubbles and their daily refresh were removed:** current listing rows remain visually unchanged, including sector labels where enabled. Removing the obsolete workflow prevents unnecessary generated commits after JobG8 updates; individual job-page facts are unaffected.
 
 - 11 September 2026 — **The onward-jobs link is shorter on phones:** individual job pages show `More [city or region] jobs` on one line at mobile widths. Desktop keeps the fuller role-and-region description, and the destination is unchanged.
 

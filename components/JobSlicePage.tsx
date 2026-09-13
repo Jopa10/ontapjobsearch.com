@@ -48,7 +48,6 @@ type JobRow = {
   source: string;
   hc_tier: string;
   switchability: string;
-  at_a_glance_attributes: string[];
 };
 
 type TrainingItem = {
@@ -105,14 +104,6 @@ type JobSlicePageProps = {
   trainingItemLimit?: number;
 };
 
-function stringList(value: unknown): string[] {
-  if (!Array.isArray(value)) return [];
-  return value
-    .filter((item): item is string => typeof item === "string")
-    .map((item) => item.trim())
-    .filter(Boolean);
-}
-
 function readJobsJson(jsonPath: string[], region: string): JobRow[] {
   const filePath = path.join(process.cwd(), ...jsonPath);
   if (!fs.existsSync(filePath)) return [];
@@ -159,7 +150,6 @@ function readJobsJson(jsonPath: string[], region: string): JobRow[] {
       source: String(row.source || "JobG8"),
       hc_tier: String(row.hc_tier || ""),
       switchability: String(row.switchability || ""),
-      at_a_glance_attributes: stringList(row.at_a_glance_attributes),
     }));
 }
 

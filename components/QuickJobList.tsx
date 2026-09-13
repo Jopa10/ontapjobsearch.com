@@ -3,7 +3,6 @@ import {
   employerFactLabel,
   formatSalary,
 } from "@/lib/job-facts";
-import { getAtAGlanceAttributes } from "@/lib/at-a-glance-preview";
 import { getJobPath } from "@/lib/published-jobs";
 import { classifyJobSector, findNthJobSectorIndex } from "@/lib/job-sector";
 import SectorBadge from "@/components/SectorBadge";
@@ -25,7 +24,6 @@ export type QuickJob = {
   summary?: string;
   description?: string;
   full_description?: string;
-  at_a_glance_attributes: string[];
 };
 
 type QuickJobListProps = {
@@ -61,11 +59,6 @@ export default function QuickJobList({
         const terms = [salary, job.employment_type].filter(Boolean).join(" · ");
         const location = displayLocation(job.location);
         const title = displayTitle(job.title);
-        const attributes = (
-          job.at_a_glance_attributes.length
-            ? job.at_a_glance_attributes
-            : getAtAGlanceAttributes(job.job_id)
-        ).slice(0, 4);
         const sector = classifyJobSector(job);
 
         return (
@@ -94,16 +87,9 @@ export default function QuickJobList({
                 <span className={styles.employer}>
                   {employer ? `${employerLabel}: ${employer}` : "Employer not stated"}
                 </span>
-                {attributes.length || (sectorFilterEnabled && sector.label) ? (
+                {sectorFilterEnabled && sector.label ? (
                   <span className={styles.tags}>
-                    {sectorFilterEnabled && sector.label ? (
-                      <SectorBadge label={sector.label} />
-                    ) : null}
-                  {attributes.map((attribute) => (
-                    <span className={styles.tag} key={attribute}>
-                      {attribute}
-                    </span>
-                  ))}
+                    <SectorBadge label={sector.label} />
                   </span>
                 ) : null}
               </span>
