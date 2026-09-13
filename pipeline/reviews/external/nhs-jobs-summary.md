@@ -1,16 +1,40 @@
 # NHS Jobs admin/service review
 
-review_date: 2026-09-12
+review_date: 2026-09-13
 
-- Open Administrative & Clerical rows reviewed: 2066
-- Auto/remembered selected: 370
+- Open Administrative & Clerical rows reviewed: 2052
+- Auto/remembered selected: 368
 - Selected HC Tier A: 190
-- Selected HC Tier B: 180
-- POSS awaiting decision: 1543
+- Selected HC Tier B: 178
+- POSS awaiting decision: 1533
 - Excluded: 0
-- HARD_PASS: 153
+- HARD_PASS: 151
 
 Edit only each `action:` line for POSS rows. Unchanged decisions are restored by the shared decision ledger.
+
+---
+action:
+POSS | NHS Jobs | London | London, CM16 4BZ | £45000.00 to £50000.00 | Head of Admin and Operations
+source_job_id: 5596043
+title: Head of Admin and Operations
+employer: Atrom Mindcare Limited
+region: London
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/E0483-26-0008
+factual_fingerprint: 041049163201f8f6a58a9e9e0587330a2b883b304bfdd8df2db97a3f0d39a4c2
+---
+
+---
+action:
+POSS | NHS Jobs | Leicestershire | Leicester, LE5 0PR | £12.71 to £12.85 | Patient Service Advisor
+source_job_id: 5596036
+title: Patient Service Advisor
+employer: Humberstone Medical Centre
+region: Leicestershire
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A5256-26-0007
+factual_fingerprint: 6a4d13e52ef1635391e3baafc73e7be1a8fbdf041ed507794b4e4a80c7bfd21e
+---
 
 ---
 action:
@@ -82,30 +106,6 @@ region:
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9363-26-1082
 factual_fingerprint: 51973cfdccbade7e2dcd0908f312c12aa2ba4c20d537aee6063d9f002e03e902
----
-
----
-action:
-POSS | NHS Jobs | — | Bethnal Green, E1 5RB | £34186.00 to £37389.00 | Team Secretary/Administrator
-source_job_id: 5591350
-title: Team Secretary/Administrator
-employer: East London NHS Foundation Trust
-region: 
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9363-26-1063
-factual_fingerprint: d46885fa323337cdfe2ac0f0eaba774cc01e9694281f4561c3cd90cb6f0a917e
----
-
----
-action:
-POSS | NHS Jobs | London | London, E2 9NJ | £38488.00 to £46852.00 | Senior Service Desk Analyst
-source_job_id: 5594200
-title: Senior Service Desk Analyst
-employer: East London NHS Foundation Trust
-region: London
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9363-26-1068
-factual_fingerprint: b3b9c6e5b9da896a735929718b5642f0f12cf1b339533ea305af26f378f6e593
 ---
 
 ---
@@ -3590,18 +3590,6 @@ factual_fingerprint: 1876a6d07390a0232d2efd5965f03da147f7cd334e5219104afa763a85c
 
 ---
 action:
-POSS | NHS Jobs | Bristol & Bath | Bristol, BS34 8TT | Negotiable | Customer Service Advisor (Bristol)
-source_job_id: 5591659
-title: Customer Service Advisor (Bristol)
-employer: MSI Reproductive Choices
-region: Bristol & Bath
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/B0539-26-0216
-factual_fingerprint: fe7c3a42b76e4c38df2dea932babb132ddd387532f6808fe8cfcaa6ecd4db958
----
-
----
-action:
 POSS | NHS Jobs | Cambridgeshire | Peterborough, PE3 9GZ | £39959.00 to £48117.00 | Senior People Development Trainer
 source_job_id: 5591628
 title: Senior People Development Trainer
@@ -3682,18 +3670,6 @@ region: Rutland
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A5710-26-0008
 factual_fingerprint: dea47bcc4b40007e7d211e4ade4384fd786cd389f17e2bd80bb01208af22eb5d
----
-
----
-action:
-POSS | NHS Jobs | Yorkshire - South | Rotherham, S60 1FL | £25528.04 | Customer Service Advisor (Rotherham)
-source_job_id: 5591606
-title: Customer Service Advisor (Rotherham)
-employer: MSI Reproductive Choices
-region: Yorkshire - South
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/B0539-26-0215
-factual_fingerprint: d72dd9a9d336c66c9335ff48ef988d2d36bb305ff3357b184ae127b8888c7b7a
 ---
 
 ---
@@ -8558,18 +8534,6 @@ factual_fingerprint: 4747e3a4830d872323f962f9aea61a3fabb2989df535d58eade331eccf0
 
 ---
 action:
-POSS | NHS Jobs | — | Hackney London, E5 0LJ | £34186.00 to £37389.00 | Transfer of Care Hub Administrator
-source_job_id: 5584150
-title: Transfer of Care Hub Administrator
-employer: Homerton Healthcare NHS Foundation Trust
-region: 
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9293-26-0463
-factual_fingerprint: c225abbb807e79cbfdfadcbfd84aab49a8fd343438106501666326ced0d0fb67
----
-
----
-action:
 POSS | NHS Jobs | Bristol & Bath | Bristol, BS20 7QA, Bristol, BS20 7QA | £13.50 | Clinical Administrator / Secretary (full or part time)
 source_job_id: 5581896
 title: Clinical Administrator / Secretary (full or part time)
@@ -10102,18 +10066,6 @@ region: Greater Manchester - Manchester & Salford
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9349-26-2600
 factual_fingerprint: abf7f0984cab82f99ec43ec3a4d1ee8ac315e26551e6dc3fa5120ac62856886c
----
-
----
-action:
-POSS | NHS Jobs | Bedfordshire | Luton, LU4 0DZ | £28392.00 to £31157.00 | Workforce Information Assistant
-source_job_id: 5576858
-title: Workforce Information Assistant
-employer: Bedfordshire Hospitals NHS Foundation Trust
-region: Bedfordshire
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9418-26-0918
-factual_fingerprint: 2b74c19b4d32c808c2615754e129927b45416f453fc5173881117718b6cd73bb
 ---
 
 ---
@@ -17654,18 +17606,6 @@ factual_fingerprint: 3749c44602c430bb7db41a84aac21bf99ed1e27e8bc1b8a8ffeb211977b
 
 ---
 action:
-POSS | NHS Jobs | — | Oulton Broad, NR32 3AX | Negotiable | Peripatetic Administrator
-source_job_id: 5552875
-title: Peripatetic Administrator
-employer: Barchester Healthcare
-region: 
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/E0177-26-9092
-factual_fingerprint: 7fb8ce756674f175d31c725c9c146d27dcea060a3237dd247c132bf869dafeab
----
-
----
-action:
 POSS | NHS Jobs | — | Redcar and Cleveland, TS10 1RT | Negotiable | Dual Registered Manager Children's Homes
 source_job_id: 5551619
 title: Dual Registered Manager Children's Homes
@@ -18170,54 +18110,6 @@ factual_fingerprint: c97feed9bd667ad9b3b6c97d3336cff812d6d96a60e5c75911177b055a5
 
 ---
 action:
-POSS | NHS Jobs | North East | Gateshead, NE10 0RR | Negotiable | Medical Secretary
-source_job_id: 5535272
-title: Medical Secretary
-employer: Pelaw Medical Practice
-region: North East
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A4866-26-0001
-factual_fingerprint: 650a1dc1e85e876a46b90119dd43fba4da200d7115622fa3449f00e27b5897b6
----
-
----
-action:
-POSS | NHS Jobs | London | Thornton Heath, CR7 7JH | £12.80 | Practice Assistant
-source_job_id: 5535013
-title: Practice Assistant
-employer: Brigstock Family Practice
-region: London
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A1349-26-0005
-factual_fingerprint: 4d8f3cd31383bcbf6a142904a223031486ab4caad0dfa4178a03d99d3f0f7b13
----
-
----
-action:
-POSS | NHS Jobs | Yorkshire - West | Leeds, LS12 3HD, LEEDS, LS12 1HU, LEEDS, LS12 1JE | Negotiable | PCN Business and Transformation Lead
-source_job_id: 5534769
-title: PCN Business and Transformation Lead
-employer: Armley PCN Services Limited
-region: Yorkshire - West
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/W0023-26-0003
-factual_fingerprint: ceb273bbf799ae8afecf20795271f0f98f1791b24d43eedb9c48f66cdf2eece7
----
-
----
-action:
-POSS | NHS Jobs | Hertfordshire | Hertfordshire, AL9 6NN | £25565.00 | General Clerk
-source_job_id: 5534409
-title: General Clerk
-employer: Elysium Healthcare
-region: Hertfordshire
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/E0132-26-1777
-factual_fingerprint: 3611228507e4d0a994c8e9c4c7157e6889a19927b867372d8c86b4e069121274
----
-
----
-action:
 POSS | NHS Jobs | Gloucestershire | Cheltenham, GL52 6HS | £12.75 | Care Navigator
 source_job_id: 5534053
 title: Care Navigator
@@ -18418,18 +18310,6 @@ region: Hampshire
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9251-26-0547
 factual_fingerprint: fbfa37b7249cf332b0c6665e1464e7dc4fcd1ea7816d8f824cd092c21a09f3b4
----
-
----
-action:
-POSS | NHS Jobs | North Scotland | Inverness, IV3 8SD | Negotiable | Operational Trainer
-source_job_id: 5503140
-title: Operational Trainer
-employer: Barchester Healthcare
-region: North Scotland
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/E0177-26-8134
-factual_fingerprint: 5221a853065ec7a7f2fe430e9d203714fca59a44a8d906bb08a56a6a5985c212
 ---
 
 ---

@@ -2,11 +2,11 @@
 total rows input,10000
 total rows included,49
 total rows dropped,9951
-title classification count - HIGH_CONFIDENCE,120
+title classification count - HIGH_CONFIDENCE,118
 title classification count - ELASTIC_FIT,36
 title classification count - REVIEW_CONTEXT_DEPENDENT,10
-title classification count - HARD_PASS,4536
-title classification count - OUT_OF_SCOPE,5298
+title classification count - HARD_PASS,4512
+title classification count - OUT_OF_SCOPE,5324
 selection scenario - Yorkshire - West,SCENARIO_4_BELOW_PUBLISH_THRESHOLD
 selection message - Yorkshire - West,Yorkshire - West selection below publish threshold: 2/6 credible roles. Do not publish/refresh this slice from this run.
 credible total - Yorkshire - West,2
