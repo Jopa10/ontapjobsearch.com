@@ -1,7 +1,9 @@
 decision,job_id,title,company,location,source,automatic_decision,effective_decision,reason,matched_rule,city_key
 include,jobg8-107804866,Account Coordinator - Part Time,Staffline Operations - Agency - Temporary,Doncaster,JobG8,include,include,Approved Doncaster catchment.,doncaster,doncaster-service-administrator-jobs
+include,jobg8-20279_62308-153faf593eb64b88272f45adeaa28d87,Customer Service Advisor,EE - Company - Permanent,Doncaster,JobG8,include,include,Approved Doncaster catchment.,doncaster,doncaster-service-administrator-jobs
 include,jobg8-21618_20279_62308-153faf593eb64b88272f45adeaa28d87,Customer Service Advisor,EE - Company - Permanent,Doncaster,JobG8,include,include,Approved Doncaster catchment.,doncaster,doncaster-service-administrator-jobs
 include,jobg8-23643_225515295,Production Administrator,Austin Banks - Agency - Permanent,Doncaster,JobG8,include,include,Approved Doncaster catchment.,doncaster,doncaster-service-administrator-jobs
+include,jobg8-1899982,Purchase Ledger Administrator,Sharp Consultancy - Agency - Permanent,Doncaster,JobG8,include,include,Approved Doncaster catchment.,doncaster,doncaster-service-administrator-jobs
 review,jobg8-23643_225516026,Part Time Receptionist/Administrative Assistant,Beyond Talent Solutions Ltd - Agency - Contract,Brinsworth,JobG8,review,review,No approved Doncaster catchment rule matched; local review required.,fallback,doncaster-service-administrator-jobs
 review,jobg8-23643_225575501,Reception and Customer Service Administrator,Hays Business Support - Agency - Temporary,Brinsworth,JobG8,review,review,No approved Doncaster catchment rule matched; local review required.,fallback,doncaster-service-administrator-jobs
 exclude,jobg8-23643_225469996,Accounts Assistant,Sue Ross Recruitment Ltd - Agency - Permanent,Sheffield,JobG8,exclude,exclude,Separate employment market.,sheffield,doncaster-service-administrator-jobs
@@ -9,7 +11,6 @@ exclude,teaching-vacancies-admin-clerical-officer-level-2-rowan-school,Admin & C
 exclude,nhs-5295793,Administrative Assistant,Garland House Surgery,"Barnsley, S73 9JX",NHS Jobs,exclude,exclude,Separate employment market.,barnsley,doncaster-service-administrator-jobs
 exclude,nhs-5584270,Administrator,Elysium Healthcare,"Barnsley, S71 4FL",NHS Jobs,exclude,exclude,Separate employment market.,barnsley,doncaster-service-administrator-jobs
 exclude,jobg8-1892135,Business Support Officer,Rotherham Parents Forum Limited - Agency - Permanent,Rotherham,JobG8,exclude,exclude,Separate employment market.,rotherham,doncaster-service-administrator-jobs
-exclude,jobg8-107946644,Customer Service/Export Co-ordinator,Hays - Agency - Permanent,Sheffield,JobG8,exclude,exclude,Separate employment market.,sheffield,doncaster-service-administrator-jobs
 exclude,jobg8-23643_225574970,Customer Service/Export Co-ordinator,Hays Business Support - Agency - Permanent,Sheffield,JobG8,exclude,exclude,Separate employment market.,sheffield,doncaster-service-administrator-jobs
 exclude,jobg8-23643_225546545,Executive Assistant,Sue Ross Recruitment Ltd - Agency - Contract,Sheffield,JobG8,exclude,exclude,Separate employment market.,sheffield,doncaster-service-administrator-jobs
 exclude,jobg8-23643_225522912,Operations Administrator,Sue Ross Recruitment Ltd - Agency - Permanent,Sheffield,JobG8,exclude,exclude,Separate employment market.,sheffield,doncaster-service-administrator-jobs

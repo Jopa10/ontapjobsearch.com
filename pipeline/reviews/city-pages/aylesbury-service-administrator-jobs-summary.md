@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 3
-- automatic review: 37
+- automatic review: 35
 - automatic exclude: 0
 - effective include: 3
-- effective review: 37
+- effective review: 35
 - effective exclude: 0
 
 ## INCLUDE (3)
@@ -60,7 +60,7 @@ job_id: nhs-5573111
 reason: Exact approved Aylesbury workplace.
 ---
 
-## REVIEW (37)
+## REVIEW (35)
 
 ---
 action: 
@@ -107,18 +107,6 @@ company: Equation Recruitment - Agency - Permanent
 location: Buckinghamshire
 source: JobG8
 job_id: jobg8-23643_225506226
-reason: No exact Aylesbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
-company: Meridian Business Support - Agency - Temporary
-location: Buckinghamshire
-source: JobG8
-job_id: jobg8-23643_225541272
 reason: No exact Aylesbury workplace matched; local geographic review is required.
 ---
 
@@ -311,18 +299,6 @@ company: Water Meadow Surgery
 location: Chesham, HP5 1ET
 source: NHS Jobs
 job_id: nhs-5559695
-reason: No exact Aylesbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Helpdesk & Switchboard Operator (Weekends)
-company: Compass UK & Ireland - Company - Permanent
-location: High Wycombe
-source: JobG8
-job_id: jobg8-107968892
 reason: No exact Aylesbury workplace matched; local geographic review is required.
 ---
 

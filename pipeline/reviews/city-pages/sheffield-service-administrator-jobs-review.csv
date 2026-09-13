@@ -1,7 +1,6 @@
 decision,job_id,title,company,location,source,automatic_decision,effective_decision,reason,matched_rule,city_key
 include,jobg8-23643_225469996,Accounts Assistant,Sue Ross Recruitment Ltd - Agency - Permanent,Sheffield,JobG8,include,include,Approved Sheffield catchment.,sheffield,sheffield-service-administrator-jobs
 include,teaching-vacancies-admin-clerical-officer-level-2-rowan-school,Admin & Clerical Officer Level 2 Rowan School,The Rowan School,Sheffield,Teaching Vacancies,include,include,Approved Sheffield catchment.,sheffield,sheffield-service-administrator-jobs
-include,jobg8-107946644,Customer Service/Export Co-ordinator,Hays - Agency - Permanent,Sheffield,JobG8,include,include,Approved Sheffield catchment.,sheffield,sheffield-service-administrator-jobs
 include,jobg8-23643_225574970,Customer Service/Export Co-ordinator,Hays Business Support - Agency - Permanent,Sheffield,JobG8,include,include,Approved Sheffield catchment.,sheffield,sheffield-service-administrator-jobs
 include,jobg8-23643_225546545,Executive Assistant,Sue Ross Recruitment Ltd - Agency - Contract,Sheffield,JobG8,include,include,Approved Sheffield catchment.,sheffield,sheffield-service-administrator-jobs
 include,jobg8-23643_225522912,Operations Administrator,Sue Ross Recruitment Ltd - Agency - Permanent,Sheffield,JobG8,include,include,Approved Sheffield catchment.,sheffield,sheffield-service-administrator-jobs
@@ -16,6 +15,8 @@ exclude,jobg8-107804866,Account Coordinator - Part Time,Staffline Operations - A
 exclude,nhs-5295793,Administrative Assistant,Garland House Surgery,"Barnsley, S73 9JX",NHS Jobs,exclude,exclude,Separate employment market.,barnsley,sheffield-service-administrator-jobs
 exclude,nhs-5584270,Administrator,Elysium Healthcare,"Barnsley, S71 4FL",NHS Jobs,exclude,exclude,Separate employment market.,barnsley,sheffield-service-administrator-jobs
 exclude,jobg8-1892135,Business Support Officer,Rotherham Parents Forum Limited - Agency - Permanent,Rotherham,JobG8,exclude,exclude,Separate employment market.,rotherham,sheffield-service-administrator-jobs
+exclude,jobg8-20279_62308-153faf593eb64b88272f45adeaa28d87,Customer Service Advisor,EE - Company - Permanent,Doncaster,JobG8,exclude,exclude,Separate employment market.,doncaster,sheffield-service-administrator-jobs
 exclude,jobg8-21618_20279_62308-153faf593eb64b88272f45adeaa28d87,Customer Service Advisor,EE - Company - Permanent,Doncaster,JobG8,exclude,exclude,Separate employment market.,doncaster,sheffield-service-administrator-jobs
 exclude,jobg8-23643_225515295,Production Administrator,Austin Banks - Agency - Permanent,Doncaster,JobG8,exclude,exclude,Separate employment market.,doncaster,sheffield-service-administrator-jobs
+exclude,jobg8-1899982,Purchase Ledger Administrator,Sharp Consultancy - Agency - Permanent,Doncaster,JobG8,exclude,exclude,Separate employment market.,doncaster,sheffield-service-administrator-jobs
 exclude,nhs-5588970,Receptionist,Gateway Primary Care CIC,"Rotherham, S65 1DJ, Rotherham, S62 7BT, Rotherham, S60 2JH, Rotherham, S60 8GD",NHS Jobs,exclude,exclude,Separate employment market.,rotherham,sheffield-service-administrator-jobs

@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 10
 - automatic review: 4
-- automatic exclude: 8
+- automatic exclude: 5
 - effective include: 10
 - effective review: 4
-- effective exclude: 8
+- effective exclude: 5
 
 ## INCLUDE (10)
 
@@ -194,7 +194,7 @@ job_id: jobg8-23643_225519683
 reason: No approved Cambridge catchment rule matched; local review required.
 ---
 
-## EXCLUDE (8)
+## EXCLUDE (5)
 
 ---
 action: 
@@ -224,18 +224,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Administrator - Huntingdon
-company: Vaccination UK
-location: Huntingdon, PE296FH
-source: NHS Jobs
-job_id: nhs-5530494
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Customer Service Administrator
 company: Rosscare - Agency - Contract
 location: Huntingdon
@@ -253,30 +241,6 @@ company: Queen Katharine Academy
 location: Peterborough
 source: Teaching Vacancies
 job_id: teaching-vacancies-pastoral-services-administrator-queen-katharine-academy-peterborough-cambridgeshire
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Sales Support Administrator
-company: Schoolblazer - Agency - Permanent
-location: Peterborough
-source: JobG8
-job_id: jobg8-1865042
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Sales Support Administrator
-company: Schoolblazer - Agency - Permanent
-location: Peterborough
-source: JobG8
-job_id: jobg8-193158007228884582437340
 reason: Separate employment market.
 ---
 

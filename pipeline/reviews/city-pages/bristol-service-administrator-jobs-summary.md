@@ -4,7 +4,7 @@
 - Live route: `/bristol/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 24
+- Effective included jobs: 25
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 24
+- automatic include: 25
 - automatic review: 8
 - automatic exclude: 2
-- effective include: 24
+- effective include: 25
 - effective review: 8
 - effective exclude: 2
 
-## INCLUDE (24)
+## INCLUDE (25)
 
 ---
 action: 
@@ -312,7 +312,31 @@ job_id: teaching-vacancies-school-administrator-parson-street-primary-school
 reason: Approved conservative Bristol launch catchment.
 ---
 
+---
+action: 
+decision: include
+automatic_decision: include
+title: Technical Administrator
+company: Hunter Selection - Agency - Permanent
+location: Bristol
+source: JobG8
+job_id: jobg8-23643_225599662
+reason: Approved conservative Bristol launch catchment.
+---
+
 ## REVIEW (8)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Care Home Administrator
+company: Hamberley Care Management Limited - Company - Permanent
+location: Keynsham
+source: JobG8
+job_id: jobg8-23643_225601438
+reason: No approved Bristol catchment rule matched; local review required.
+---
 
 ---
 action: 
@@ -383,18 +407,6 @@ company: Moxie and Mettle Limited - Agency - Permanent
 location: Somerset
 source: JobG8
 job_id: jobg8-1828296
-reason: No approved Bristol catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
-company: Qualify Nation Recruitment - Agency - Permanent
-location: Somerset
-source: JobG8
-job_id: jobg8-1894910
 reason: No approved Bristol catchment rule matched; local review required.
 ---
 

@@ -4,7 +4,7 @@
 - Live route: `/peterborough/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 5
+- Effective included jobs: 3
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 5
+- automatic include: 3
 - automatic review: 4
-- automatic exclude: 13
-- effective include: 5
+- automatic exclude: 12
+- effective include: 3
 - effective review: 4
-- effective exclude: 13
+- effective exclude: 12
 
-## INCLUDE (5)
+## INCLUDE (3)
 
 ---
 action: 
@@ -45,30 +45,6 @@ company: Queen Katharine Academy
 location: Peterborough
 source: Teaching Vacancies
 job_id: teaching-vacancies-pastoral-services-administrator-queen-katharine-academy-peterborough-cambridgeshire
-reason: Approved conservative Peterborough launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Sales Support Administrator
-company: Schoolblazer - Agency - Permanent
-location: Peterborough
-source: JobG8
-job_id: jobg8-1865042
-reason: Approved conservative Peterborough launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Sales Support Administrator
-company: Schoolblazer - Agency - Permanent
-location: Peterborough
-source: JobG8
-job_id: jobg8-193158007228884582437340
 reason: Approved conservative Peterborough launch catchment.
 ---
 
@@ -134,7 +110,7 @@ job_id: jobg8-23643_225519683
 reason: No approved Peterborough catchment rule matched; local review required.
 ---
 
-## EXCLUDE (13)
+## EXCLUDE (12)
 
 ---
 action: 
@@ -145,18 +121,6 @@ company: East of England Community Health and Care NHS Trust (Cambridge)
 location: Huntingdon, PE29 6NT
 source: NHS Jobs
 job_id: nhs-5567386
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Administrator - Huntingdon
-company: Vaccination UK
-location: Huntingdon, PE296FH
-source: NHS Jobs
-job_id: nhs-5530494
 reason: Separate employment market.
 ---
 

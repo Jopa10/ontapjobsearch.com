@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 7
-- automatic review: 19
+- automatic review: 18
 - automatic exclude: 7
 - effective include: 7
-- effective review: 19
+- effective review: 18
 - effective exclude: 7
 
 ## INCLUDE (7)
@@ -108,7 +108,7 @@ job_id: nhs-5587236
 reason: Approved Brighton & Hove catchment.
 ---
 
-## REVIEW (19)
+## REVIEW (18)
 
 ---
 action: 
@@ -167,18 +167,6 @@ company: UK Power Networks (Operations) Ltd - Company - Permanent
 location: Sussex
 source: JobG8
 job_id: jobg8-23643_225548414
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Executive Assistant and Marketing Coordinator
-company: Brighton College - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-107952017
 reason: Broad location; review before city inclusion.
 ---
 

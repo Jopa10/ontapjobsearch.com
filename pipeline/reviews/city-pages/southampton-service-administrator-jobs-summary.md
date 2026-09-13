@@ -4,8 +4,8 @@
 - Live route: `/southampton/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 6
-- Threshold currently met: yes
+- Effective included jobs: 5
+- Threshold currently met: no
 
 ## How to review
 Edit only the `action:` line inside a job block.
@@ -15,26 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 6
-- automatic review: 28
+- automatic include: 5
+- automatic review: 29
 - automatic exclude: 19
-- effective include: 6
-- effective review: 28
+- effective include: 5
+- effective review: 29
 - effective exclude: 19
 
-## INCLUDE (6)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Account Coordinator
-company: Job&Talent - Agency - Permanent
-location: Southampton
-source: JobG8
-job_id: jobg8-107881829
-reason: Approved Southampton catchment.
----
+## INCLUDE (5)
 
 ---
 action: 
@@ -96,7 +84,7 @@ job_id: nhs-5589814
 reason: Approved Southampton catchment.
 ---
 
-## REVIEW (28)
+## REVIEW (29)
 
 ---
 action: 
@@ -132,6 +120,18 @@ location: Ringwood, BH24 2DW
 source: NHS Jobs
 job_id: nhs-5573045
 reason: No approved Southampton catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: Dynamite Recruitment - Agency - Temporary
+location: Hampshire
+source: JobG8
+job_id: jobg8-23643_225601308
+reason: Broad location; review before city inclusion.
 ---
 
 ---

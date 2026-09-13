@@ -16,15 +16,15 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 0
-- automatic review: 13
+- automatic review: 20
 - automatic exclude: 0
 - effective include: 0
-- effective review: 13
+- effective review: 20
 - effective exclude: 0
 
 ## INCLUDE (0)
 
-## REVIEW (13)
+## REVIEW (20)
 
 ---
 action: 
@@ -71,6 +71,18 @@ company: Advance HE - Agency - Permanent
 location: York
 source: JobG8
 job_id: jobg8-23643_225543992
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Content & Marketing Executive
+company: IMPRESSION RECRUITMENT LIMITED - Agency - Permanent
+location: Ripon
+source: JobG8
+job_id: jobg8-1778199
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 
@@ -138,6 +150,66 @@ reason: No exact Scarborough workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
+title: Marketing Executive
+company: Capital Outsourcing Group Limited - Agency - Contract
+location: Yorkshire
+source: JobG8
+job_id: jobg8-107811314
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Marketing Executive
+company: IMPRESSION RECRUITMENT LIMITED - Agency - Permanent
+location: Knaresborough
+source: JobG8
+job_id: jobg8-1880492
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Marketing Manager
+company: BATA - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-107906650
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Marketing Manager
+company: Holiday at Home - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-1824217
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Marketing Manager
+company: IMPRESSION RECRUITMENT LIMITED - Agency - Permanent
+location: Knaresborough
+source: JobG8
+job_id: jobg8-1880493
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Sales and Marketing Coordinator
 company: KD Recruitment Limited - Agency - Permanent
 location: York
@@ -155,6 +227,18 @@ company: Askwith Primary School
 location: Otley
 source: Teaching Vacancies
 job_id: teaching-vacancies-school-office-administrator-askwith-primary-school
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Senior Content Creator
+company: Si Recruitment - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-1848150
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 

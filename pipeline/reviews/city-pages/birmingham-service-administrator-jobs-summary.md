@@ -4,7 +4,7 @@
 - Live route: `/birmingham/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 24
+- Effective included jobs: 22
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 24
-- automatic review: 6
+- automatic include: 22
+- automatic review: 5
 - automatic exclude: 3
-- effective include: 24
-- effective review: 6
+- effective include: 22
+- effective review: 5
 - effective exclude: 3
 
-## INCLUDE (24)
+## INCLUDE (22)
 
 ---
 action: 
@@ -81,18 +81,6 @@ company: Australasian Recruitment Company - Agency - Permanent
 location: Birmingham
 source: JobG8
 job_id: jobg8-1867674
-reason: Approved conservative Birmingham launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Executive Administrator
-company: Oakley Recruitment Limited - Agency - Contract
-location: Birmingham
-source: JobG8
-job_id: jobg8-23643_225332726
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -292,18 +280,6 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
-company: Qualify Nation Recruitment - Agency - Permanent
-location: Birmingham
-source: JobG8
-job_id: jobg8-1894908
-reason: Approved conservative Birmingham launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Trainee Social Media Executive
 company: Netcom Online Learning - Agency - Permanent
 location: Birmingham
@@ -312,7 +288,7 @@ job_id: jobg8-1867585
 reason: Approved conservative Birmingham launch catchment.
 ---
 
-## REVIEW (6)
+## REVIEW (5)
 
 ---
 action: 
@@ -347,18 +323,6 @@ company: PSR Solutions - Agency - Permanent
 location: Shirley
 source: JobG8
 job_id: jobg8-23643_225569768
-reason: No approved Birmingham catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Digital Marketing Officer
-company: Fareshare Midlands - Agency - Permanent
-location: Staffordshire
-source: JobG8
-job_id: jobg8-1892172
 reason: No approved Birmingham catchment rule matched; local review required.
 ---
 

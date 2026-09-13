@@ -186,18 +186,6 @@ reason: No exact Exeter workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Client Services Coordinator
-company: Your Tech Future - Agency - Permanent
-location: Barnstaple
-source: JobG8
-job_id: jobg8-107936510
-reason: No exact Exeter workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Complaints Administrator
 company: Red Recruitment - Agency - Temporary
 location: Devon
@@ -263,6 +251,18 @@ company: Pertemps Plymouth - Agency - Temporary
 location: Plymouth
 source: JobG8
 job_id: jobg8-23643_225509220
+reason: No exact Exeter workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Recruitment Account Co-ordinator
+company: Acorn by Synergie - Agency - Permanent
+location: Devon
+source: JobG8
+job_id: jobg8-107953534
 reason: No exact Exeter workplace matched; local geographic review is required.
 ---
 

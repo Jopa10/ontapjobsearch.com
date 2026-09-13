@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 2
-- automatic review: 18
+- automatic review: 19
 - automatic exclude: 0
 - effective include: 2
-- effective review: 18
+- effective review: 19
 - effective exclude: 0
 
 ## INCLUDE (2)
@@ -48,7 +48,7 @@ job_id: nhs-5588970
 reason: Exact approved Rotherham workplace.
 ---
 
-## REVIEW (18)
+## REVIEW (19)
 
 ---
 action: 
@@ -118,7 +118,7 @@ title: Customer Service Advisor
 company: EE - Company - Permanent
 location: Doncaster
 source: JobG8
-job_id: jobg8-21618_20279_62308-153faf593eb64b88272f45adeaa28d87
+job_id: jobg8-20279_62308-153faf593eb64b88272f45adeaa28d87
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 
@@ -126,11 +126,11 @@ reason: No exact Rotherham workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Customer Service/Export Co-ordinator
-company: Hays - Agency - Permanent
-location: Sheffield
+title: Customer Service Advisor
+company: EE - Company - Permanent
+location: Doncaster
 source: JobG8
-job_id: jobg8-107946644
+job_id: jobg8-21618_20279_62308-153faf593eb64b88272f45adeaa28d87
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 
@@ -203,6 +203,18 @@ company: Austin Banks - Agency - Permanent
 location: Doncaster
 source: JobG8
 job_id: jobg8-23643_225515295
+reason: No exact Rotherham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Purchase Ledger Administrator
+company: Sharp Consultancy - Agency - Permanent
+location: Doncaster
+source: JobG8
+job_id: jobg8-1899982
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 

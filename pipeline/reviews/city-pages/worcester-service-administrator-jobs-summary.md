@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 3
-- automatic review: 8
+- automatic review: 9
 - automatic exclude: 0
 - effective include: 3
-- effective review: 8
+- effective review: 9
 - effective exclude: 0
 
 ## INCLUDE (3)
@@ -60,7 +60,7 @@ job_id: nhs-5541739
 reason: Exact approved Worcester workplace.
 ---
 
-## REVIEW (8)
+## REVIEW (9)
 
 ---
 action: 
@@ -131,6 +131,18 @@ company: West Midlands and Worcestershire Perm Hub - Agency - Permanent
 location: Bromsgrove
 source: JobG8
 job_id: jobg8-23643_225566715
+reason: No exact Worcester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Recruitment Delivery Co-ordinator Temporary Staffing Solutions
+company: TLP - Agency - Permanent
+location: Worcestershire
+source: JobG8
+job_id: jobg8-107956478
 reason: No exact Worcester workplace matched; local geographic review is required.
 ---
 

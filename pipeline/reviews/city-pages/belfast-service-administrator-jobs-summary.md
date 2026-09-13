@@ -4,7 +4,7 @@
 - Live route: `/belfast/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 47
+- Effective included jobs: 49
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 47
-- automatic review: 21
+- automatic include: 49
+- automatic review: 24
 - automatic exclude: 0
-- effective include: 47
-- effective review: 21
+- effective include: 49
+- effective review: 24
 - effective exclude: 0
 
-## INCLUDE (47)
+## INCLUDE (49)
 
 ---
 action: 
@@ -64,11 +64,11 @@ reason: Approved conservative Belfast launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Admin Assistant - Part Time (Monday to Thursday)
-company: Honeycomb Jobs Ltd - Agency - Permanent
+title: Accounts Assistant / Junior Accountant (Practice)
+company: McKinty Associates - Agency - Permanent
 location: Belfast
 source: JobG8
-job_id: jobg8-2052284
+job_id: jobg8-2052657
 reason: Approved conservative Belfast launch catchment.
 ---
 
@@ -76,11 +76,11 @@ reason: Approved conservative Belfast launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Administrator Over to YOUth Project NI67/08/26/1v-1
-company: Extern - Agency - Permanent
+title: Admin Assistant - Part Time (Monday to Thursday)
+company: Honeycomb Jobs Ltd - Agency - Permanent
 location: Belfast
 source: JobG8
-job_id: jobg8-2051461
+job_id: jobg8-2052284
 reason: Approved conservative Belfast launch catchment.
 ---
 
@@ -208,6 +208,30 @@ reason: Approved conservative Belfast launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Digital Content Producer
+company: Apple Recruitment - Agency - Permanent
+location: Belfast
+source: JobG8
+job_id: jobg8-2049982
+reason: Approved conservative Belfast launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: E-commerce & Digital Marketing Specialist
+company: MCS Group - Agency - Permanent
+location: Belfast
+source: JobG8
+job_id: jobg8-2051919
+reason: Approved conservative Belfast launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Executive Assistant
 company: Honeycomb Jobs Ltd - Agency - Permanent
 location: Belfast
@@ -225,30 +249,6 @@ company: Honeycomb Jobs Ltd - Agency - Permanent
 location: Belfast
 source: JobG8
 job_id: jobg8-2052326
-reason: Approved conservative Belfast launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Executive Assistant
-company: MPA Recruitment - Agency - Permanent
-location: Belfast
-source: JobG8
-job_id: jobg8-2049841
-reason: Approved conservative Belfast launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Finance Assistant - Part Time
-company: MCS Group - Agency - Permanent
-location: Belfast
-source: JobG8
-job_id: jobg8-2049906
 reason: Approved conservative Belfast launch catchment.
 ---
 
@@ -321,6 +321,18 @@ company: Queen's University Belfast - Agency - Permanent
 location: Belfast
 source: JobG8
 job_id: jobg8-2052082
+reason: Approved conservative Belfast launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Marketing Automation Specialist
+company: MCS Group - Agency - Permanent
+location: Belfast
+source: JobG8
+job_id: jobg8-2050696
 reason: Approved conservative Belfast launch catchment.
 ---
 
@@ -484,11 +496,11 @@ reason: Approved conservative Belfast launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Safety Administrator (Belfast - Temporary)
-company: Honeycomb Jobs Ltd - Agency - Permanent
+title: Recruitment Assistant
+company: Hays - Agency - Permanent
 location: Belfast
 source: JobG8
-job_id: jobg8-2050533
+job_id: jobg8-2051644
 reason: Approved conservative Belfast launch catchment.
 ---
 
@@ -496,11 +508,11 @@ reason: Approved conservative Belfast launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Sales Administrator
-company: Agnew Group - Agency - Permanent
+title: Safety Administrator (Belfast - Temporary)
+company: Honeycomb Jobs Ltd - Agency - Permanent
 location: Belfast
 source: JobG8
-job_id: jobg8-2051447
+job_id: jobg8-2050533
 reason: Approved conservative Belfast launch catchment.
 ---
 
@@ -525,6 +537,18 @@ company: Honeycomb Jobs Ltd - Agency - Permanent
 location: Belfast
 source: JobG8
 job_id: jobg8-2051485
+reason: Approved conservative Belfast launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Senior Data Analyst - Marketing Ops
+company: MCS Group - Agency - Permanent
+location: Belfast
+source: JobG8
+job_id: jobg8-2051248
 reason: Approved conservative Belfast launch catchment.
 ---
 
@@ -568,18 +592,6 @@ reason: Approved conservative Belfast launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Temporary Receptionist - Belfast
-company: Task Recruitment - Agency - Permanent
-location: Belfast
-source: JobG8
-job_id: jobg8-2051377
-reason: Approved conservative Belfast launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Tenancy Support Co-Ordinator
 company: Clanmil Housing - Agency - Permanent
 location: Belfast
@@ -588,7 +600,19 @@ job_id: jobg8-2052364
 reason: Approved conservative Belfast launch catchment.
 ---
 
-## REVIEW (21)
+---
+action: 
+decision: include
+automatic_decision: include
+title: UX / Product Research & Strategy Lead (VP)
+company: Citibank - Agency - Permanent
+location: Belfast
+source: JobG8
+job_id: jobg8-2050290
+reason: Approved conservative Belfast launch catchment.
+---
+
+## REVIEW (24)
 
 ---
 action: 
@@ -599,6 +623,18 @@ company: Reed Specialist Recruitment - Agency - Permanent
 location: Newtownards
 source: JobG8
 job_id: jobg8-2050393
+reason: No approved Belfast catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Assistant
+company: Reed Specialist Recruitment - Agency - Permanent
+location: Lisburn
+source: JobG8
+job_id: jobg8-2052639
 reason: No approved Belfast catchment rule matched; local review required.
 ---
 
@@ -678,6 +714,18 @@ reason: No approved Belfast catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Business Support Officer
+company: Platinum Recruitment - Agency - Permanent
+location: Newry
+source: JobG8
+job_id: jobg8-2052586
+reason: No approved Belfast catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Credit Controller
 company: MCS Group - Agency - Permanent
 location: County Antrim
@@ -695,18 +743,6 @@ company: Honeycomb Jobs Ltd - Agency - Permanent
 location: County Down
 source: JobG8
 job_id: jobg8-2050963
-reason: No approved Belfast catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Finance Clerk
-company: MCS Group - Agency - Permanent
-location: Lisburn
-source: JobG8
-job_id: jobg8-2051949
 reason: No approved Belfast catchment rule matched; local review required.
 ---
 
@@ -738,6 +774,18 @@ reason: No approved Belfast catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Head of Engagement and Participation
+company: Corrymeela Centre - Agency - Permanent
+location: County Antrim
+source: JobG8
+job_id: jobg8-2051977
+reason: No approved Belfast catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: HR Administrator (Lisburn)
 company: Honeycomb Jobs Ltd - Agency - Permanent
 location: Lisburn
@@ -762,11 +810,11 @@ reason: No approved Belfast catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Medical Receptionist (21.5 hrs pw)
-company: Lynda Jacobs Recruitment - Agency - Permanent
-location: Newtownabbey
+title: HR Administrator - Lisburn
+company: First Choice Selection Services - Agency - Permanent
+location: Lisburn
 source: JobG8
-job_id: jobg8-2050449
+job_id: jobg8-2050078
 reason: No approved Belfast catchment rule matched; local review required.
 ---
 
@@ -774,11 +822,23 @@ reason: No approved Belfast catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Office Administrator
-company: Reed Specialist Recruitment - Agency - Permanent
-location: Lisburn
+title: Marketing Executive
+company: MCS Group - Agency - Permanent
+location: County Antrim
 source: JobG8
-job_id: jobg8-2052014
+job_id: jobg8-2050541
+reason: No approved Belfast catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Medical Receptionist (21.5 hrs pw)
+company: Lynda Jacobs Recruitment - Agency - Permanent
+location: Newtownabbey
+source: JobG8
+job_id: jobg8-2050449
 reason: No approved Belfast catchment rule matched; local review required.
 ---
 
@@ -810,11 +870,11 @@ reason: No approved Belfast catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Receptionist - Immediate Start - Temporary 3 weeks
-company: Honeycomb Jobs Ltd - Agency - Permanent
-location: Holywood
+title: Recruitment & Culture Lead - PT option available
+company: MCS Group - Agency - Permanent
+location: County Antrim
 source: JobG8
-job_id: jobg8-2052024
+job_id: jobg8-2052049
 reason: No approved Belfast catchment rule matched; local review required.
 ---
 

@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 2
 - automatic review: 2
-- automatic exclude: 16
+- automatic exclude: 17
 - effective include: 2
 - effective review: 2
-- effective exclude: 16
+- effective exclude: 17
 
 ## INCLUDE (2)
 
@@ -74,7 +74,7 @@ job_id: jobg8-23643_225575501
 reason: No approved Barnsley catchment rule matched; local review required.
 ---
 
-## EXCLUDE (16)
+## EXCLUDE (17)
 
 ---
 action: 
@@ -132,7 +132,7 @@ title: Customer Service Advisor
 company: EE - Company - Permanent
 location: Doncaster
 source: JobG8
-job_id: jobg8-21618_20279_62308-153faf593eb64b88272f45adeaa28d87
+job_id: jobg8-20279_62308-153faf593eb64b88272f45adeaa28d87
 reason: Separate employment market.
 ---
 
@@ -140,11 +140,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Customer Service/Export Co-ordinator
-company: Hays - Agency - Permanent
-location: Sheffield
+title: Customer Service Advisor
+company: EE - Company - Permanent
+location: Doncaster
 source: JobG8
-job_id: jobg8-107946644
+job_id: jobg8-21618_20279_62308-153faf593eb64b88272f45adeaa28d87
 reason: Separate employment market.
 ---
 
@@ -205,6 +205,18 @@ company: Austin Banks - Agency - Permanent
 location: Doncaster
 source: JobG8
 job_id: jobg8-23643_225515295
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Purchase Ledger Administrator
+company: Sharp Consultancy - Agency - Permanent
+location: Doncaster
+source: JobG8
+job_id: jobg8-1899982
 reason: Separate employment market.
 ---
 

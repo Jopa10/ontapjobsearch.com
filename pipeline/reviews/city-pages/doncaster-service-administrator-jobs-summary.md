@@ -4,7 +4,7 @@
 - Live route: `/doncaster/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 3
+- Effective included jobs: 5
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 3
+- automatic include: 5
 - automatic review: 2
-- automatic exclude: 15
-- effective include: 3
+- automatic exclude: 14
+- effective include: 5
 - effective review: 2
-- effective exclude: 15
+- effective exclude: 14
 
-## INCLUDE (3)
+## INCLUDE (5)
 
 ---
 action: 
@@ -33,6 +33,18 @@ company: Staffline Operations - Agency - Temporary
 location: Doncaster
 source: JobG8
 job_id: jobg8-107804866
+reason: Approved Doncaster catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Customer Service Advisor
+company: EE - Company - Permanent
+location: Doncaster
+source: JobG8
+job_id: jobg8-20279_62308-153faf593eb64b88272f45adeaa28d87
 reason: Approved Doncaster catchment.
 ---
 
@@ -57,6 +69,18 @@ company: Austin Banks - Agency - Permanent
 location: Doncaster
 source: JobG8
 job_id: jobg8-23643_225515295
+reason: Approved Doncaster catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Purchase Ledger Administrator
+company: Sharp Consultancy - Agency - Permanent
+location: Doncaster
+source: JobG8
+job_id: jobg8-1899982
 reason: Approved Doncaster catchment.
 ---
 
@@ -86,7 +110,7 @@ job_id: jobg8-23643_225575501
 reason: No approved Doncaster catchment rule matched; local review required.
 ---
 
-## EXCLUDE (15)
+## EXCLUDE (14)
 
 ---
 action: 
@@ -145,18 +169,6 @@ company: Rotherham Parents Forum Limited - Agency - Permanent
 location: Rotherham
 source: JobG8
 job_id: jobg8-1892135
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Customer Service/Export Co-ordinator
-company: Hays - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-107946644
 reason: Separate employment market.
 ---
 

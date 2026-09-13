@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 1
-- automatic review: 54
+- automatic review: 56
 - automatic exclude: 0
 - effective include: 1
-- effective review: 54
+- effective review: 56
 - effective exclude: 0
 
 ## INCLUDE (1)
@@ -36,7 +36,7 @@ job_id: jobg8-23643_225568322
 reason: Exact approved Ashford workplace.
 ---
 
-## REVIEW (54)
+## REVIEW (56)
 
 ---
 action: 
@@ -83,6 +83,18 @@ company: Interaction Recruitment - Agency - Temporary
 location: Rochester
 source: JobG8
 job_id: jobg8-23643_225597318
+reason: No exact Ashford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: Invicta Health CIC
+location: Ramsgate, CT11 8AD
+source: NHS Jobs
+job_id: nhs-5576342
 reason: No exact Ashford workplace matched; local geographic review is required.
 ---
 
@@ -330,6 +342,18 @@ reason: No exact Ashford workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: MAF in the Community (MiC) Resourcing Coordinator
+company: Mission Aviation Fellowship UK - Agency - Contract
+location: Kent
+source: JobG8
+job_id: jobg8-107958419
+reason: No exact Ashford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Marketing Account Executive - Kent - To &;30K
 company: Jump IT Recruitment Solutions Ltd - Agency - Permanent
 location: Kent
@@ -547,18 +571,6 @@ action:
 decision: review
 automatic_decision: review
 title: Receptionist
-company: Kent and Medway Mental Health NHS Trust
-location: Maidstone, ME16 9PH
-source: NHS Jobs
-job_id: nhs-5592074
-reason: No exact Ashford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Receptionist
 company: The Meads Medical Practice Limited
 location: Sittingbourne, ME10 5AA
 source: NHS Jobs
@@ -575,6 +587,18 @@ company: The Grovehurst Surgery
 location: Sittingbourne, ME10 2ST
 source: NHS Jobs
 job_id: nhs-5589840
+reason: No exact Ashford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Receptionist/administrator
+company: Apex Medical practice
+location: Rochester, ME2 4UW
+source: NHS Jobs
+job_id: nhs-5558403
 reason: No exact Ashford workplace matched; local geographic review is required.
 ---
 

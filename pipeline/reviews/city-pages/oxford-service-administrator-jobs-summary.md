@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 6
-- automatic review: 11
-- automatic exclude: 15
+- automatic review: 10
+- automatic exclude: 13
 - effective include: 6
-- effective review: 11
-- effective exclude: 15
+- effective review: 10
+- effective exclude: 13
 
 ## INCLUDE (6)
 
@@ -96,7 +96,7 @@ job_id: jobg8-23643_225524539
 reason: Approved conservative Oxford launch catchment.
 ---
 
-## REVIEW (11)
+## REVIEW (10)
 
 ---
 action: 
@@ -198,18 +198,6 @@ reason: No approved Oxford catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Project Coordinator
-company: Cameo Consultancy - Agency - Permanent
-location: Banbury
-source: JobG8
-job_id: jobg8-23643_225582470
-reason: No approved Oxford catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Receptionist
 company: Berry Recruitment - Agency - Permanent
 location: Didcot
@@ -230,7 +218,7 @@ job_id: jobg8-23643_225461932
 reason: No approved Oxford catchment rule matched; local review required.
 ---
 
-## EXCLUDE (15)
+## EXCLUDE (13)
 
 ---
 action: 
@@ -289,18 +277,6 @@ company: Corriculo Ltd - Agency - Permanent
 location: Oxfordshire
 source: JobG8
 job_id: jobg8-1883696
-reason: Broad county location; not Oxford-city evidence.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Ecommerce Coordinator (Customer Service, Orders & Platform Support)
-company: Prodrive - Agency - Permanent
-location: Oxfordshire
-source: JobG8
-job_id: jobg8-107842716
 reason: Broad county location; not Oxford-city evidence.
 ---
 
@@ -385,18 +361,6 @@ company: Glen Callum Associates Ltd - Agency - Permanent
 location: Oxfordshire
 source: JobG8
 job_id: jobg8-23643_225563866
-reason: Broad county location; not Oxford-city evidence.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Sales Coordinator
-company: The Recruitment Group - Agency - Permanent
-location: Oxfordshire
-source: JobG8
-job_id: jobg8-107953660
 reason: Broad county location; not Oxford-city evidence.
 ---
 

@@ -4,7 +4,7 @@
 - Live route: `/manchester/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 33
+- Effective included jobs: 35
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 33
+- automatic include: 35
 - automatic review: 8
 - automatic exclude: 1
-- effective include: 33
+- effective include: 35
 - effective review: 8
 - effective exclude: 1
 
-## INCLUDE (33)
+## INCLUDE (35)
 
 ---
 action: 
@@ -220,6 +220,18 @@ reason: Approved conservative Manchester launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Finance Officer
+company: Forrest Recruitment - Agency - Contract
+location: Manchester
+source: JobG8
+job_id: jobg8-23643_225501230
+reason: Approved conservative Manchester launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: GP Receptionist
 company: The Limes Medical Centre
 location: Manchester, M28 3AT
@@ -388,6 +400,18 @@ reason: Approved conservative Manchester launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Payroll Coordinator
+company: CMR Jobs Limited - Agency - Permanent
+location: Manchester
+source: JobG8
+job_id: jobg8-107895890
+reason: Approved conservative Manchester launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Senior PPC Strategist
 company: We Are Fr Group - Agency - Permanent
 location: Manchester
@@ -438,11 +462,11 @@ reason: No approved Manchester catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Direct Marketing Manager
-company: The Christie Charity - Agency - Permanent
+title: eCommerce Account Manager
+company: Robert Walters - Agency - Permanent
 location: Lancashire
 source: JobG8
-job_id: jobg8-1861679
+job_id: jobg8-1769498
 reason: No approved Manchester catchment rule matched; local review required.
 ---
 
@@ -450,11 +474,11 @@ reason: No approved Manchester catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: eCommerce Account Manager
-company: Robert Walters - Agency - Permanent
+title: Finance Officer
+company: TEMCA (The East Manchester Community Association) trading name Rainbow Haven - Agency - Permanent
 location: Lancashire
 source: JobG8
-job_id: jobg8-1769498
+job_id: jobg8-1880243
 reason: No approved Manchester catchment rule matched; local review required.
 ---
 

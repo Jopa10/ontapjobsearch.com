@@ -4,7 +4,7 @@
 - Live route: `/maidstone/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 1
+- Effective included jobs: 0
 - Threshold currently met: no
 
 ## How to review
@@ -15,28 +15,16 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 1
-- automatic review: 54
+- automatic include: 0
+- automatic review: 57
 - automatic exclude: 0
-- effective include: 1
-- effective review: 54
+- effective include: 0
+- effective review: 57
 - effective exclude: 0
 
-## INCLUDE (1)
+## INCLUDE (0)
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Receptionist
-company: Kent and Medway Mental Health NHS Trust
-location: Maidstone, ME16 9PH
-source: NHS Jobs
-job_id: nhs-5592074
-reason: Exact approved Maidstone workplace.
----
-
-## REVIEW (54)
+## REVIEW (57)
 
 ---
 action: 
@@ -83,6 +71,18 @@ company: Interaction Recruitment - Agency - Temporary
 location: Rochester
 source: JobG8
 job_id: jobg8-23643_225597318
+reason: No exact Maidstone workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: Invicta Health CIC
+location: Ramsgate, CT11 8AD
+source: NHS Jobs
+job_id: nhs-5576342
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 
@@ -342,6 +342,18 @@ reason: No exact Maidstone workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
+title: MAF in the Community (MiC) Resourcing Coordinator
+company: Mission Aviation Fellowship UK - Agency - Contract
+location: Kent
+source: JobG8
+job_id: jobg8-107958419
+reason: No exact Maidstone workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Marketing Account Executive - Kent - To &;30K
 company: Jump IT Recruitment Solutions Ltd - Agency - Permanent
 location: Kent
@@ -575,6 +587,18 @@ company: The Grovehurst Surgery
 location: Sittingbourne, ME10 2ST
 source: NHS Jobs
 job_id: nhs-5589840
+reason: No exact Maidstone workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Receptionist/administrator
+company: Apex Medical practice
+location: Rochester, ME2 4UW
+source: NHS Jobs
+job_id: nhs-5558403
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 

@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 3
-- automatic review: 8
+- automatic review: 7
 - automatic exclude: 0
 - effective include: 3
-- effective review: 8
+- effective review: 7
 - effective exclude: 0
 
 ## INCLUDE (3)
@@ -60,19 +60,7 @@ job_id: jobg8-23643_225512252
 reason: Exact approved Macclesfield workplace.
 ---
 
-## REVIEW (8)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrative Assistant
-company: Forrest Recruitment - Agency - Permanent
-location: Nantwich
-source: JobG8
-job_id: jobg8-23643_225496929
-reason: No exact Macclesfield workplace matched; local geographic review is required.
----
+## REVIEW (7)
 
 ---
 action: 

@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 4
-- automatic review: 5
-- automatic exclude: 4
+- automatic review: 8
+- automatic exclude: 8
 - effective include: 4
-- effective review: 5
-- effective exclude: 4
+- effective review: 8
+- effective exclude: 8
 
 ## INCLUDE (4)
 
@@ -72,7 +72,19 @@ job_id: nhs-5590363
 reason: Approved York catchment.
 ---
 
-## REVIEW (5)
+## REVIEW (8)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Content & Marketing Executive
+company: IMPRESSION RECRUITMENT LIMITED - Agency - Permanent
+location: Ripon
+source: JobG8
+job_id: jobg8-1778199
+reason: No approved York catchment rule matched; local review required.
+---
 
 ---
 action: 
@@ -114,6 +126,30 @@ reason: No approved York catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Marketing Executive
+company: IMPRESSION RECRUITMENT LIMITED - Agency - Permanent
+location: Knaresborough
+source: JobG8
+job_id: jobg8-1880492
+reason: No approved York catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Marketing Manager
+company: IMPRESSION RECRUITMENT LIMITED - Agency - Permanent
+location: Knaresborough
+source: JobG8
+job_id: jobg8-1880493
+reason: No approved York catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: School Office Administrator
 company: Askwith Primary School
 location: Otley
@@ -134,7 +170,7 @@ job_id: jobg8-23643_225581619
 reason: No approved York catchment rule matched; local review required.
 ---
 
-## EXCLUDE (4)
+## EXCLUDE (8)
 
 ---
 action: 
@@ -182,4 +218,52 @@ location: Northallerton
 source: JobG8
 job_id: jobg8-23643_225555701
 reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Marketing Executive
+company: Capital Outsourcing Group Limited - Agency - Contract
+location: Yorkshire
+source: JobG8
+job_id: jobg8-107811314
+reason: Broad regional label; not York-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Marketing Manager
+company: BATA - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-107906650
+reason: Broad regional label; not York-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Marketing Manager
+company: Holiday at Home - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-1824217
+reason: Broad regional label; not York-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Senior Content Creator
+company: Si Recruitment - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-1848150
+reason: Broad regional label; not York-city evidence.
 ---

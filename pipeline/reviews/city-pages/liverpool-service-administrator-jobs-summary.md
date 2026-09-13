@@ -4,7 +4,7 @@
 - Live route: `/liverpool/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 20
+- Effective included jobs: 19
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 20
+- automatic include: 19
 - automatic review: 2
 - automatic exclude: 0
-- effective include: 20
+- effective include: 19
 - effective review: 2
 - effective exclude: 0
 
-## INCLUDE (20)
+## INCLUDE (19)
 
 ---
 action: 
@@ -141,18 +141,6 @@ company: Adaptable Recruitment - Agency - Permanent
 location: Liverpool
 source: JobG8
 job_id: jobg8-1900863
-reason: Approved conservative Liverpool launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Operations & Social Media Coordinator
-company: ADAPTABLE RECRUITMENT LTD - Agency - Permanent
-location: Liverpool
-source: JobG8
-job_id: jobg8-107974202
 reason: Approved conservative Liverpool launch catchment.
 ---
 
