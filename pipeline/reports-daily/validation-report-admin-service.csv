@@ -1,7 +1,7 @@
 ﻿metric,value
 total rows input,10000
-total rows included,941
-total rows dropped,9051
+total rows included,946
+total rows dropped,9052
 title classification count - HIGH_CONFIDENCE,767
 title classification count - ELASTIC_FIT,415
 title classification count - REVIEW_CONTEXT_DEPENDENT,7
@@ -88,21 +88,21 @@ other elastic count - Bedfordshire,5
 total rows output - Bedfordshire,15
 job_id included - Bedfordshire,23643_225521203; 23643_225548201; 23643_225505564; 23643_225539795; 23643_225544430; 23643_225564132; 23643_225567152; 23643_225571114; 23643_225580197; 23643_225586192; 23643_225543403; 23643_225549219; 1849342; 23643_225595761; 107933358
 selection scenario - Berkshire,SCENARIO_3_MANUAL_SELECTION_APPLIED
-selection message - Berkshire,Berkshire manual_select applied additively: 1 row(s) prioritised; 15 selected.
-credible total - Berkshire,15
+selection message - Berkshire,Berkshire manual_select applied additively: 2 row(s) prioritised; 16 selected.
+credible total - Berkshire,16
 high confidence count - Berkshire,9
 anchor elastic count - Berkshire,0
 other elastic count - Berkshire,5
-total rows output - Berkshire,15
-job_id included - Berkshire,23643_225534716; 23643_225508886; 23643_225528844; 23643_225544182; 23643_225556755; 23643_223908809; 1858335; 1850922; 23643_225592018; 23643_225598415; 23643_225223268; 1858274; 1839908; 1870300; 23643_225591793
+total rows output - Berkshire,16
+job_id included - Berkshire,23643_225601569; 23643_225534716; 23643_225508886; 23643_225528844; 23643_225544182; 23643_225556755; 23643_223908809; 1858335; 1850922; 23643_225592018; 23643_225598415; 23643_225223268; 1858274; 1839908; 1870300; 23643_225591793
 selection scenario - Bristol & Bath,SCENARIO_3_MANUAL_SELECTION_APPLIED
-selection message - Bristol & Bath,Bristol & Bath manual_select applied additively: 3 row(s) prioritised; 19 selected.
-credible total - Bristol & Bath,19
+selection message - Bristol & Bath,Bristol & Bath manual_select applied additively: 5 row(s) prioritised; 21 selected.
+credible total - Bristol & Bath,21
 high confidence count - Bristol & Bath,7
 anchor elastic count - Bristol & Bath,7
 other elastic count - Bristol & Bath,2
-total rows output - Bristol & Bath,19
-job_id included - Bristol & Bath,23643_225564040; 1868067; 23643_222234812; 23643_225546891; 23643_225547840; 23643_225556797; 23643_225558310; 23643_225557766; 23643_225533642; 1819615; 1821573; 107909264; 23643_225557768; 1877742; 23643_225590684; 23643_225581771; 23643_225590581; 23643_225515534; 107793815
+total rows output - Bristol & Bath,21
+job_id included - Bristol & Bath,23643_225564040; 23643_225599662; 1868067; 23643_222234812; 23643_225546891; 23643_225547840; 23643_225556797; 23643_225558310; 23643_225557766; 23643_225533642; 1819615; 1821573; 107909264; 23643_225557768; 1877742; 23643_225590684; 23643_225601438; 23643_225581771; 23643_225590581; 23643_225515534; 107793815
 selection scenario - Buckinghamshire,SCENARIO_3_MANUAL_SELECTION_APPLIED
 selection message - Buckinghamshire,Buckinghamshire manual_select applied additively: 7 row(s) prioritised; 22 selected.
 credible total - Buckinghamshire,22
@@ -256,13 +256,13 @@ other elastic count - Norfolk,2
 total rows output - Norfolk,8
 job_id included - Norfolk,1891535; 23643_225525272; 23643_225533805; 1767479; 1867104; 1877355; 23643_225513742; 107919491
 selection scenario - North Scotland,SCENARIO_4_BELOW_PUBLISH_THRESHOLD
-selection message - North Scotland,North Scotland selection below publish threshold: 3/6 credible roles. Do not publish/refresh this slice from this run.
-credible total - North Scotland,3
+selection message - North Scotland,North Scotland selection below publish threshold: 4/6 credible roles. Do not publish/refresh this slice from this run.
+credible total - North Scotland,4
 high confidence count - North Scotland,2
 anchor elastic count - North Scotland,0
 other elastic count - North Scotland,0
-total rows output - North Scotland,3
-job_id included - North Scotland,23643_225469462; 23643_225510925; 107890781
+total rows output - North Scotland,4
+job_id included - North Scotland,23643_225469462; 107975436; 23643_225510925; 107890781
 selection scenario - Northamptonshire,SCENARIO_3_MANUAL_SELECTION_APPLIED
 selection message - Northamptonshire,Northamptonshire manual_select applied additively: 1 row(s) prioritised; 19 selected.
 credible total - Northamptonshire,19
@@ -272,13 +272,13 @@ other elastic count - Northamptonshire,6
 total rows output - Northamptonshire,19
 job_id included - Northamptonshire,107786406; 23643_225509666; 23643_225510923; 23643_225522869; 23643_225524164; 23643_225532541; 23643_225570045; 1853443; 1851038; 1875317; 1877500; 107838008; 23643_225597898; 1800671; 107932522; 107792065; 1845227; 23643_225582470; 107957112
 selection scenario - Northern Ireland - East,SCENARIO_3_MANUAL_SELECTION_APPLIED
-selection message - Northern Ireland - East,Northern Ireland - East manual_select applied additively: 4 row(s) prioritised; 52 selected.
-credible total - Northern Ireland - East,52
+selection message - Northern Ireland - East,Northern Ireland - East manual_select applied additively: 5 row(s) prioritised; 53 selected.
+credible total - Northern Ireland - East,53
 high confidence count - Northern Ireland - East,37
 anchor elastic count - Northern Ireland - East,9
 other elastic count - Northern Ireland - East,2
-total rows output - Northern Ireland - East,52
-job_id included - Northern Ireland - East,2050528; 2052364; 2051637; 2051396; 2051456; 2051408; 2051135; 2051110; 2050807; 2050773; 2050717; 2050694; 2050533; 2050346; 2050172; 2049936; 2051912; 2051969; 2051960; 2052125; 2052109; 2052326; 2052284; 2052255; 2052434; 2052363; 2052362; 2052558; 2052503; 107836604; 2051485; 2050348; 2049902; 2052044; 2052021; 2051958; 2052082; 2052455; 2052657; 2052465; 2050089; 2051465; 2051979; 2052586; 2050449; 2051713; 2051872; 2052007; 2051938; 2052132; 2050393; 107922303
+total rows output - Northern Ireland - East,53
+job_id included - Northern Ireland - East,2050528; 2052364; 2051637; 2051396; 2051456; 2051408; 2051135; 2051110; 2050807; 2050773; 2050717; 2050694; 2050533; 2050346; 2050172; 2049936; 2051912; 2051969; 2051960; 2052125; 2052109; 2052326; 2052284; 2052255; 2052434; 2052363; 2052362; 2052558; 2052503; 107836604; 2051485; 2050348; 2049902; 2052044; 2052021; 2051958; 2052082; 2052455; 2052657; 2052465; 2050089; 2052639; 2051465; 2051979; 2052586; 2050449; 2051713; 2051872; 2052007; 2051938; 2052132; 2050393; 107922303
 selection scenario - Nottinghamshire,SCENARIO_3_MANUAL_SELECTION_APPLIED
 selection message - Nottinghamshire,Nottinghamshire manual_select applied additively: 4 row(s) prioritised; 17 selected.
 credible total - Nottinghamshire,17

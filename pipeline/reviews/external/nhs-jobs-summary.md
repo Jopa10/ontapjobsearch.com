@@ -2,11 +2,11 @@
 
 review_date: 2026-09-13
 
-- Open Administrative & Clerical rows reviewed: 2052
-- Auto/remembered selected: 368
-- Selected HC Tier A: 190
+- Open Administrative & Clerical rows reviewed: 2048
+- Auto/remembered selected: 367
+- Selected HC Tier A: 189
 - Selected HC Tier B: 178
-- POSS awaiting decision: 1533
+- POSS awaiting decision: 1530
 - Excluded: 0
 - HARD_PASS: 151
 
@@ -142,18 +142,6 @@ region: London
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9271-26-0371
 factual_fingerprint: 3cbd4483546f2536f9b3ebdde1e36d92138238cf445761bc726316f4fa1148be
----
-
----
-action:
-POSS | NHS Jobs | — | Remote (Home based), WD6 1JN | Negotiable | Part-time Medical Indemnity Administrator
-source_job_id: 5591332
-title: Part-time Medical Indemnity Administrator
-employer: Elysium Healthcare
-region: 
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/E0132-26-2049
-factual_fingerprint: 3fd714b4d6974e5c14ecd51ab7ecaa3c17d34409a6f9fb1a990ec75ee74364fd
 ---
 
 ---
@@ -9566,18 +9554,6 @@ factual_fingerprint: 8417c7d6733715e22feac3ee9da53440c12a82e1ce0254dfac1d52d0de5
 
 ---
 action:
-POSS | NHS Jobs | Berkshire | Ascot, Berkshire, SL5 7GB | £29812.00 to £32715.00 | IT Service Desk Analyst
-source_job_id: 5581796
-title: IT Service Desk Analyst
-employer: Frimley Health NHS Foundation Trust
-region: Berkshire
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9151-26-1124
-factual_fingerprint: afba174b6480e2fdf61c3e9aad13f016d417f1e70d25e4b0253a05794650ec5a
----
-
----
-action:
 POSS | NHS Jobs | Greater Manchester - South | Hyde, SK14 6NT | £25760.00 to £27476.00 | Individualised Commissioning Team Administrator
 source_job_id: 5581890
 title: Individualised Commissioning Team Administrator
@@ -11746,18 +11722,6 @@ region: Hertfordshire
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9361-26-0522
 factual_fingerprint: 0de37be720e73b018e226de973b8e05edb58e61de5919b64d5ab4c4b0c4e593a
----
-
----
-action:
-POSS | NHS Jobs | Northamptonshire | Kettering, NN15 7PW | £28392.00 to £31157.00 | Financial Management Support
-source_job_id: 5577978
-title: Financial Management Support
-employer: Northamptonshire Healthcare Foundation Trust
-region: Northamptonshire
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9270-26-0721
-factual_fingerprint: 7a8c9816301672feda424f5b8e5ad1a66e8724d8b6b57b267e744a71d39c435f
 ---
 
 ---
