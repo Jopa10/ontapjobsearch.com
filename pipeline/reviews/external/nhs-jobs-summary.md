@@ -2,15 +2,27 @@
 
 review_date: 2026-09-13
 
-- Open Administrative & Clerical rows reviewed: 2048
+- Open Administrative & Clerical rows reviewed: 2049
 - Auto/remembered selected: 367
 - Selected HC Tier A: 189
 - Selected HC Tier B: 178
-- POSS awaiting decision: 1530
+- POSS awaiting decision: 1531
 - Excluded: 0
 - HARD_PASS: 151
 
 Edit only each `action:` line for POSS rows. Unchanged decisions are restored by the shared decision ledger.
+
+---
+action:
+POSS | NHS Jobs | Cornwall | Truro, TR4 8QS, TRURO, TR3 6PW | Negotiable | Prescription Clerk
+source_job_id: 5596061
+title: Prescription Clerk
+employer: Chacewater and Devoran Surgeries
+region: Cornwall
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A3405-26-0002
+factual_fingerprint: 8e8c2d8dd8de4b97acf7966db044c00e144358431c1f7378247f9699bfebfebc
+---
 
 ---
 action:
