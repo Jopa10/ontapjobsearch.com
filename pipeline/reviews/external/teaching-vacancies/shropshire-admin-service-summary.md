@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Shropshire
 
-review_date: 2026-09-12
+review_date: 2026-09-13
 review_fingerprint: 5a1c6f43cac0cb668bc0e139456849e46e47d57d99ae63e346149698faf43f11
-routing_manifest_sha256: fd4ac0184b374693245b938633a2d05338988b578725315bcae5a328ed5b8eb0
+routing_manifest_sha256: d05140fc04f6c95d362a61a2b147bd89d2b3af7a6ea065265d94cadf85464dd2
 ontap_region: Shropshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 8
+- Records: 9
 - Selected: 7
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 1
+- Hard pass: 2
 
 ## SELECTED
 
@@ -137,6 +137,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/senco-and-safeguardin
 ## HARD_PASS
 
 - [Data and Information Lead](https://teaching-vacancies.service.gov.uk/jobs/data-and-information-lead) — Insufficient admin/service evidence.
+- [Head of HR Operations](https://teaching-vacancies.service.gov.uk/jobs/head-of-hr-operations-the-3-18-education-trust) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

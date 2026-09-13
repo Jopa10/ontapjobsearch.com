@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Oxfordshire
 
-review_date: 2026-09-12
-review_fingerprint: c99c722fa73bd4ee0e0a274b3cf403eb2c60bbeecaadc0574832f4607b3bdc9d
-routing_manifest_sha256: fd4ac0184b374693245b938633a2d05338988b578725315bcae5a328ed5b8eb0
+review_date: 2026-09-13
+review_fingerprint: 560976bd8bc1c3129bba2c7d9dfa6a4360b3aecc366e5686a64619f43c8556bd
+routing_manifest_sha256: d05140fc04f6c95d362a61a2b147bd89d2b3af7a6ea065265d94cadf85464dd2
 ontap_region: Oxfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 13
-- Selected: 6
+- Records: 14
+- Selected: 7
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 7
@@ -49,6 +49,21 @@ factual_fingerprint: 9e3fb983238bc95bb4e8181511b6792b764072bacbae97adaa9e616f15b
 source: Teaching Vacancies
 source_job_id: attendance-officer-orchard-fields-community-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-orchard-fields-community-school
+---
+
+---
+action: 
+SELECTED | Oxfordshire | Wallingford, South East, OX10 8HH | £27,182.00 - £29,014.00 Annually (Actual) | Attendance Officer
+employer: Wallingford School
+closing_date: 2026-09-21T10:00:00+01:00
+reason: Clear admin/service title: attendance officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 71f420aeacdbb4e37d5e43232bf0f1017a386b5022089e8aabcbd7be51d9693e
+source: Teaching Vacancies
+source_job_id: attendance-officer-wallingford-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-wallingford-school
 ---
 
 ---

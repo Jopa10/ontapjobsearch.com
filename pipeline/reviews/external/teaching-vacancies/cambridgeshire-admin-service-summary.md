@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cambridgeshire
 
-review_date: 2026-09-12
-review_fingerprint: 6518bbda39e47c0c49979c693144b9b9664e4a3cf5f2136d0250ac516228f0fd
-routing_manifest_sha256: fd4ac0184b374693245b938633a2d05338988b578725315bcae5a328ed5b8eb0
+review_date: 2026-09-13
+review_fingerprint: 8d9d48a69ad44523fb51b9240885ef162ea2e7c4800f2874d49a6577b0e88f75
+routing_manifest_sha256: d05140fc04f6c95d362a61a2b147bd89d2b3af7a6ea065265d94cadf85464dd2
 ontap_region: Cambridgeshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 27
+- Records: 25
 - Selected: 9
-- POSS awaiting decision: 5
+- POSS awaiting decision: 3
 - Excluded: 0
 - Hard pass: 13
 
@@ -186,36 +186,6 @@ factual_fingerprint: 1ab09963a585a2caedfa8b58f436c4ef19a8c50176f28c1c9b3195146c1
 source: Teaching Vacancies
 source_job_id: finance-officer-coleridge-community-college
 source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-officer-coleridge-community-college
----
-
----
-action: 
-POSS | Cambridgeshire | Cambridge, East of England, CB5 8ND | £30,000.00 - £35,000.00 Annually (FTE) | Finance Officer
-employer: The Galfrid School
-closing_date: 2026-09-21T09:00:00+01:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: c7aeba3a5ed8a7c5838fc8c05f973bbf6bef478a8861a973ca290f21a75e6bea
-source: Teaching Vacancies
-source_job_id: finance-officer-the-galfrid-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-officer-the-galfrid-school
----
-
----
-action: 
-POSS | Cambridgeshire | Cambridge, East of England, CB2 9FD | £30,000.00 - £35,000.00 Annually (FTE) | Finance Officer
-employer: Trumpington Community College
-closing_date: 2026-09-21T09:00:00+01:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 1daa56534ca35e1e391403026b52171a78c3b04aabf90ab2c8e87068b501f6e5
-source: Teaching Vacancies
-source_job_id: finance-officer-trumpington-community-college
-source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-officer-trumpington-community-college
 ---
 
 ---

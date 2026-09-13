@@ -12,14 +12,14 @@ Edit only the `action:` line in each unresolved block:
 
 ## TOTALS
 
-- All routed roles: **540**
-- REVIEW NOW (LIVE regions): **508**
-- EDITABLE NOW (no remembered action): **496**
+- All routed roles: **543**
+- REVIEW NOW (LIVE regions): **510**
+- EDITABLE NOW (no remembered action): **498**
 - REMEMBERED / RESOLVED: **12**
-- DEFERRED - REGION NOT LIVE: **32**
+- DEFERRED - REGION NOT LIVE: **33**
 - SELECTED: **198**
-- POSS: **37**
-- HARD PASS / EXCLUDED: **273**
+- POSS: **36**
+- HARD PASS / EXCLUDED: **276**
 
 ## BEDFORDSHIRE — SELECTED
 
@@ -397,28 +397,6 @@ reason: Administrative duties evidenced in description
 factual_fingerprint: 1ab09963a585a2caedfa8b58f436c4ef19a8c50176f28c1c9b3195146c110128
 source_job_id: finance-officer-coleridge-community-college
 source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-officer-coleridge-community-college
----
-
----
-action:
-POSS | Cambridgeshire | Cambridge, East of England, CB5 8ND | £30,000.00 - £35,000.00 Annually (FTE) | Finance Officer
-employer: The Galfrid School
-closing_date: 2026-09-21T09:00:00+01:00
-reason: Administrative duties evidenced in description
-factual_fingerprint: c7aeba3a5ed8a7c5838fc8c05f973bbf6bef478a8861a973ca290f21a75e6bea
-source_job_id: finance-officer-the-galfrid-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-officer-the-galfrid-school
----
-
----
-action:
-POSS | Cambridgeshire | Cambridge, East of England, CB2 9FD | £30,000.00 - £35,000.00 Annually (FTE) | Finance Officer
-employer: Trumpington Community College
-closing_date: 2026-09-21T09:00:00+01:00
-reason: Administrative duties evidenced in description
-factual_fingerprint: 1daa56534ca35e1e391403026b52171a78c3b04aabf90ab2c8e87068b501f6e5
-source_job_id: finance-officer-trumpington-community-college
-source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-officer-trumpington-community-college
 ---
 
 ## CHESHIRE - EAST — SELECTED
@@ -1214,17 +1192,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-with-ad
 
 ---
 action:
-SELECTED | London | London, London, SE1 0EX | £25,492.00 - £27,400.00 Annually (Actual) Band 5 S13 to S16 for 42.9 weeks (£25,492 - £ 27,400) on the Trust Support Scale for 2025-2026 Including Inner London allowance | Admissions Officer
-employer: Haberdashers' Borough Academy
-closing_date: 2026-09-20T23:59:00+01:00
-reason: Clear admin/service title: admissions officer
-factual_fingerprint: ca3014fa497b69ac6e6ae0c1f9ac0de5cd957fef7d3a0696705cc914a5856651
-source_job_id: admissions-officer-haberdashers-borough-academy-london
-source_url: https://teaching-vacancies.service.gov.uk/jobs/admissions-officer-haberdashers-borough-academy-london
----
-
----
-action:
 SELECTED | London | Dagenham, London, RM9 5LT | London Borough of Barking and Dagenham Level 3 apprentice rates dependent on age | Apprentice School Business Administrator
 employer: Southwood Primary School
 closing_date: 2026-09-21T23:59:00+01:00
@@ -1621,6 +1588,17 @@ source_job_id: hr-administrator-e-act
 source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-e-act
 ---
 
+---
+action:
+POSS | Northamptonshire | Wellingborough, East Midlands, NN29 7PH | NJC Grade J, points 27 to 31 DOE | Trust Executive Assistant
+employer: Wollaston School
+closing_date: 2026-09-18T12:00:00+01:00
+reason: Administrative duties evidenced in description
+factual_fingerprint: b5bc7cae39e478240a34cfa812edc5f833402591f297c0bbc76eaff357e106b0
+source_job_id: trust-executive-assistant-wollaston-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/trust-executive-assistant-wollaston-school
+---
+
 ## NOTTINGHAMSHIRE — SELECTED
 
 ---
@@ -1759,6 +1737,17 @@ reason: Clear admin/service title: attendance officer
 factual_fingerprint: 9e3fb983238bc95bb4e8181511b6792b764072bacbae97adaa9e616f15ba9223
 source_job_id: attendance-officer-orchard-fields-community-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-orchard-fields-community-school
+---
+
+---
+action:
+SELECTED | Oxfordshire | Wallingford, South East, OX10 8HH | £27,182.00 - £29,014.00 Annually (Actual) | Attendance Officer
+employer: Wallingford School
+closing_date: 2026-09-21T10:00:00+01:00
+reason: Clear admin/service title: attendance officer
+factual_fingerprint: 71f420aeacdbb4e37d5e43232bf0f1017a386b5022089e8aabcbd7be51d9693e
+source_job_id: attendance-officer-wallingford-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-wallingford-school
 ---
 
 ---
@@ -2730,7 +2719,7 @@ These roles remain visible in the CSV but are not individually marked until the 
 | East Midlands / admin_service | 6 | 1 | 2 | 3 |
 | Greater Manchester - North / admin_service | 8 | 3 | 1 | 4 |
 | Herefordshire / admin_service | 1 | 1 | 0 | 0 |
-| Lancashire - Blackpool & Fylde / admin_service | 1 | 1 | 0 | 0 |
+| Lancashire - Blackpool & Fylde / admin_service | 2 | 2 | 0 | 0 |
 | Lancashire - Central / admin_service | 1 | 1 | 0 | 0 |
 | Lancashire - East / admin_service | 5 | 1 | 1 | 3 |
 | Merseyside - Sefton / admin_service | 1 | 1 | 0 | 0 |

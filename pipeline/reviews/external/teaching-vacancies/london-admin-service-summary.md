@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — London
 
-review_date: 2026-09-12
-review_fingerprint: 85187ec8f312330010644570e655f19cea290eee4b480b431ef4e6a86a703e90
-routing_manifest_sha256: fd4ac0184b374693245b938633a2d05338988b578725315bcae5a328ed5b8eb0
+review_date: 2026-09-13
+review_fingerprint: bd76e2451e6892a4c6c67f2315502079999410853537f22d500ea2f62c90b283
+routing_manifest_sha256: d05140fc04f6c95d362a61a2b147bd89d2b3af7a6ea065265d94cadf85464dd2
 ontap_region: London
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 61
-- Selected: 22
+- Records: 60
+- Selected: 21
 - POSS awaiting decision: 4
 - Excluded: 0
 - Hard pass: 35
@@ -94,21 +94,6 @@ factual_fingerprint: ca9d9a4173a2246e5381d3b09418d52481ffefb83b01340f8fabba9c3ec
 source: Teaching Vacancies
 source_job_id: administrator-with-additional-responsibilities-mossbourne-victoria-park-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-with-additional-responsibilities-mossbourne-victoria-park-academy
----
-
----
-action: 
-SELECTED | London | London, London, SE1 0EX | £25,492.00 - £27,400.00 Annually (Actual) Band 5 S13 to S16 for 42.9 weeks (£25,492 - £ 27,400) on the Trust Support Scale for 2025-2026 Including Inner London allowance | Admissions Officer
-employer: Haberdashers' Borough Academy
-closing_date: 2026-09-20T23:59:00+01:00
-reason: Clear admin/service title: admissions officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: ca3014fa497b69ac6e6ae0c1f9ac0de5cd957fef7d3a0696705cc914a5856651
-source: Teaching Vacancies
-source_job_id: admissions-officer-haberdashers-borough-academy-london
-source_url: https://teaching-vacancies.service.gov.uk/jobs/admissions-officer-haberdashers-borough-academy-london
 ---
 
 ---

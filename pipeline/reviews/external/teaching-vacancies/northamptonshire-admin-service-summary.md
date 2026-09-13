@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Northamptonshire
 
-review_date: 2026-09-12
-review_fingerprint: 06b39f235bbff55b03cd245f82654c304bac5594781878cacafc83759e5d4a5b
-routing_manifest_sha256: fd4ac0184b374693245b938633a2d05338988b578725315bcae5a328ed5b8eb0
+review_date: 2026-09-13
+review_fingerprint: abadeacbff58f442de4c39b1a8aaca7742db15802b587bfbbe64a3ff7746a9d6
+routing_manifest_sha256: d05140fc04f6c95d362a61a2b147bd89d2b3af7a6ea065265d94cadf85464dd2
 ontap_region: Northamptonshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 6
+- Records: 7
 - Selected: 0
-- POSS awaiting decision: 3
+- POSS awaiting decision: 4
 - Excluded: 0
 - Hard pass: 3
 
@@ -68,6 +68,21 @@ factual_fingerprint: 3eefa7f7f8f62ca1d73ebeb1b2552df9f3f7d5fa48c9b538eb1ec911c8c
 source: Teaching Vacancies
 source_job_id: hr-administrator-e-act
 source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-e-act
+---
+
+---
+action: 
+POSS | Northamptonshire | Wellingborough, East Midlands, NN29 7PH | NJC Grade J, points 27 to 31 DOE | Trust Executive Assistant
+employer: Wollaston School
+closing_date: 2026-09-18T12:00:00+01:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: b5bc7cae39e478240a34cfa812edc5f833402591f297c0bbc76eaff357e106b0
+source: Teaching Vacancies
+source_job_id: trust-executive-assistant-wollaston-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/trust-executive-assistant-wollaston-school
 ---
 
 ## EXCLUDED BY REVIEW
