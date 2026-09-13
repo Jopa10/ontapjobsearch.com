@@ -7,6 +7,8 @@ This is the short owner view of how Ontap is organised. It mirrors the five cano
 
 ## Recent canonical changes
 
+- 13 September 2026 — **Saved nearby locations now appear immediately on return:** mobile and laptop visitors see their saved town and last nearby-job count without a visible lookup delay; Ontap quietly refreshes the count behind the displayed panel. Older saved preferences show the town immediately and gain the stored count after that first refresh.
+
 - 13 September 2026 — **Job pages no longer emphasise an absence of nearby matches:** if Ontap has no approved suitable job nearby, the main vacancy panel uses the full width and shows a compact all-jobs regional card at its top-right. Pages with suitable matches are unchanged.
 
 - 13 September 2026 — **Unused Quick View duty bubbles and their daily refresh were removed:** current listing rows remain visually unchanged, including sector labels where enabled. Removing the obsolete workflow prevents unnecessary generated commits after JobG8 updates; individual job-page facts are unaffected.
@@ -254,7 +256,7 @@ Compiler Modules 1/2/3 remain legitimate analysis tools.
 
 ## 3. Website / UX
 
-Saved-location discovery is a progressive enhancement across mobile and desktop. It does not change canonical URLs, server-rendered inventory, sitemap membership or indexing. The browser asks for geolocation only after a user presses the control. Coordinates are used in a JSON POST only long enough to resolve the nearest approved canonical town and are not saved or included in analytics; `localStorage` retains only the resulting town and region. Returning visitors get that preference automatically, while Change, Clear and manual-town controls keep it user-controlled. The separate `Suitable jobs nearby` panel on a vacancy remains anchored on that vacancy's governed role, sector, locality and 15-mile rules; a saved visitor location never replaces it.
+Saved-location discovery is a progressive enhancement across mobile and desktop. It does not change canonical URLs, server-rendered inventory, sitemap membership or indexing. The browser asks for geolocation only after a user presses the control. Coordinates are used in a JSON POST only long enough to resolve the nearest approved canonical town and are not saved or included in analytics; `localStorage` retains the resulting town, region and last displayed nearby-job count. Returning visitors see those saved details immediately while Ontap refreshes the count silently, and Change, Clear and manual-town controls keep it user-controlled. The separate `Suitable jobs nearby` panel on a vacancy remains anchored on that vacancy's governed role, sector, locality and 15-mile rules; a saved visitor location never replaces it.
 
 The saved-location panel's count and `View nearby jobs` button use the same 15-mile search. An exact location search with no matching vacancies continues to display zero. Its onward action widens first to genuine current jobs within 15 straight-line miles of the approved canonical town, then to the corresponding Ontap region; it does not silently substitute unrelated national vacancies into the original results.
 

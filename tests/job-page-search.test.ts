@@ -58,6 +58,13 @@ test("saved-location count and onward link use the same 15-mile search", () => {
   assert.doesNotMatch(savedLocationJobs, /href=\{`\/jobs\/search\?location=\$\{encodeURIComponent\(saved\.town\)\}/);
 });
 
+test("saved locations render immediately while their count refreshes in the background", () => {
+  assert.match(savedLocationJobs, /setSaved\(\{ town: location\.town, region: location\.region \}\)/);
+  assert.match(savedLocationJobs, /setStatus\("saved"\)/);
+  assert.match(savedLocationJobs, /if \(method !== "saved"\)/);
+  assert.match(savedLocationJobs, /JSON\.stringify\(\{ \.\.\.data\.location, count: data\.count \}\)/);
+});
+
 test("nearby searches without a role return the full nearby inventory", () => {
   assert.match(searchPage, /resolved\.searchQuery[\s\S]*?searchJobs\(nearbyJobs[\s\S]*?: nearbyJobs/);
 });

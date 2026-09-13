@@ -7,6 +7,8 @@ This is the authoritative technical map of the persistent Ontap system. It is or
 
 ## Recent canonical changes
 
+- 13 September 2026 — **Returning visitors no longer see a location-loading blank state:** the shared saved-location component restores the saved town and last known nearby count immediately on both mobile and desktop, then refreshes the count silently. Existing preferences without a stored count still show the saved town immediately with neutral supporting text until the first background refresh completes.
+
 - 13 September 2026 — **Empty job-detail recommendation panels no longer advertise missing matches:** when no approved nearby vacancy qualifies, Ontap suppresses the sidebar and negative message, expands the main vacancy panel to full width, and places a compact pale-blue all-jobs regional link at its top-right. Populated panels and all governed matching rules are unchanged.
 
 - 13 September 2026 — **The obsolete Quick View duty-bubble system was removed:** Quick View retains its compact location-first job rows and sector badges, but no longer reads or renders generated duty tags. The separate daily `Refresh Quick View duties` workflow, its fallback preview data, dedicated generation scripts and tests were removed, eliminating redundant post-JobG8 commits without changing the live listing presentation or the job-detail facts panel.
@@ -393,7 +395,7 @@ Every non-London `JobSlicePage` listing uses a consistent desktop promotion rail
 
 Purpose: user-facing job search, job pages, navigation and presentation.
 
-Saved-location discovery is progressive enhancement and does not alter server-rendered inventory, canonical URLs, sitemap inclusion or indexing. `components/SavedLocationJobs.tsx` owns browser permission, manual fallback and the town/region-only preference; `app/api/jobs/nearby/route.ts` resolves a submitted coordinate or town against the approved canonical location register; and `lib/discovery-recommendations.ts` remains the governed role/sector matcher. Exact device coordinates are transient request data only.
+Saved-location discovery is progressive enhancement and does not alter server-rendered inventory, canonical URLs, sitemap inclusion or indexing. `components/SavedLocationJobs.tsx` owns browser permission, manual fallback and the town/region preference with its last displayed count; it restores that display immediately and refreshes the count in the background. `app/api/jobs/nearby/route.ts` resolves a submitted coordinate or town against the approved canonical location register; and `lib/discovery-recommendations.ts` remains the governed role/sector matcher. Exact device coordinates are transient request data only.
 
 Zero-result searches do not inject unrelated vacancies into the result count. The saved-location panel's `View nearby jobs` action and its displayed count both use the same `near` search. When a searched location resolves through the approved canonical register, `/jobs/search` offers that separate search containing current jobs within 15 straight-line miles; the next fallback is that canonical location's Ontap region. If neither resolution is available, the existing role-and-region Browse Jobs route remains the safe fallback.
 

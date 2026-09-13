@@ -8,6 +8,7 @@ const STORAGE_KEY = "ontap.saved-location.v1";
 const LOCATION_EVENT = "ontap:saved-location-jobs";
 
 type SavedLocation = { town: string; region: string };
+type SavedLocationPreference = SavedLocation & { count?: number };
 type NearbyJob = {
   job_id: string;
   title: string;
@@ -41,10 +42,16 @@ function trackNearbyEvent(
   });
 }
 
-function readSavedLocation(): SavedLocation | undefined {
+function readSavedLocation(): SavedLocationPreference | undefined {
   try {
-    const parsed = JSON.parse(localStorage.getItem(STORAGE_KEY) ?? "null") as Partial<SavedLocation> | null;
-    return parsed?.town && parsed?.region ? { town: parsed.town, region: parsed.region } : undefined;
+    const parsed = JSON.parse(localStorage.getItem(STORAGE_KEY) ?? "null") as Partial<SavedLocationPreference> | null;
+    return parsed?.town && parsed?.region
+      ? {
+          town: parsed.town,
+          region: parsed.region,
+          count: typeof parsed.count === "number" ? parsed.count : undefined,
+        }
+      : undefined;
   } catch {
     return undefined;
   }
@@ -53,13 +60,15 @@ function readSavedLocation(): SavedLocation | undefined {
 export default function SavedLocationJobs({ jobId }: { jobId?: string }) {
   const [status, setStatus] = useState<"idle" | "loading" | "saved" | "error">("idle");
   const [saved, setSaved] = useState<SavedLocation>();
-  const [count, setCount] = useState(0);
+  const [count, setCount] = useState<number>();
   const [message, setMessage] = useState("");
   const [showManual, setShowManual] = useState(false);
 
   async function lookup(payload: Record<string, unknown>, method: LocationMethod) {
-    setStatus("loading");
-    setMessage("");
+    if (method !== "saved") {
+      setStatus("loading");
+      setMessage("");
+    }
     try {
       const response = await fetch("/api/jobs/nearby", {
         method: "POST",
@@ -68,7 +77,7 @@ export default function SavedLocationJobs({ jobId }: { jobId?: string }) {
       });
       const data = await response.json() as NearbyResponse;
       if (!response.ok) throw new Error(data.error || "Location lookup failed.");
-      if (method !== "saved") localStorage.setItem(STORAGE_KEY, JSON.stringify(data.location));
+      localStorage.setItem(STORAGE_KEY, JSON.stringify({ ...data.location, count: data.count }));
       setSaved(data.location);
       setCount(data.count);
       setStatus("saved");
@@ -88,6 +97,7 @@ export default function SavedLocationJobs({ jobId }: { jobId?: string }) {
         });
       }
     } catch (error) {
+      if (method === "saved") return;
       setStatus("error");
       setMessage(error instanceof Error ? error.message : "Location lookup failed.");
       setShowManual(true);
@@ -96,7 +106,12 @@ export default function SavedLocationJobs({ jobId }: { jobId?: string }) {
 
   useEffect(() => {
     const location = readSavedLocation();
-    if (location) void lookup({ location: location.town, region: location.region }, "saved");
+    if (location) {
+      setSaved({ town: location.town, region: location.region });
+      setCount(location.count);
+      setStatus("saved");
+      void lookup({ location: location.town, region: location.region }, "saved");
+    }
     // The saved preference is intentionally restored once when this page loads.
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [jobId]);
@@ -131,7 +146,7 @@ export default function SavedLocationJobs({ jobId }: { jobId?: string }) {
   function clearLocation() {
     localStorage.removeItem(STORAGE_KEY);
     setSaved(undefined);
-    setCount(0);
+    setCount(undefined);
     setMessage("");
     setShowManual(false);
     setStatus("idle");
@@ -146,7 +161,11 @@ export default function SavedLocationJobs({ jobId }: { jobId?: string }) {
       <div className={styles.copy}>
         <div className={styles.heading}>{saved ? `Jobs near ${saved.town}` : "Find jobs near you"}</div>
         <div className={styles.supporting}>
-          {saved ? `${count} current job${count === 1 ? "" : "s"} within 15 miles` : "See current jobs within 15 miles"}
+          {saved
+            ? typeof count === "number"
+              ? `${count} current job${count === 1 ? "" : "s"} within 15 miles`
+              : "Current jobs within 15 miles"
+            : "See current jobs within 15 miles"}
         </div>
         {message ? <div className={styles.error} role="status">{message}</div> : null}
         {showManual ? (
@@ -163,7 +182,7 @@ export default function SavedLocationJobs({ jobId }: { jobId?: string }) {
             <Link
               href={`/jobs/search?near=${encodeURIComponent(saved.town)}`}
               className={styles.primary}
-              onClick={() => trackNearbyEvent("nearby_results_click", jobId, { nearby_job_count: count })}
+              onClick={() => trackNearbyEvent("nearby_results_click", jobId, { nearby_job_count: count ?? 0 })}
             >
               View nearby jobs
             </Link>
