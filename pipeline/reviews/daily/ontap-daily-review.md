@@ -32,7 +32,7 @@ Edit only each `action:` line:
 ## JobG8 — 6 to review
 
 ---
-action:
+action: select
 POSS | JobG8 | Berkshire | Reading | £34000 - £36000 per year | Sales and Service Administrator
 source_key: jobg8
 source: JobG8
@@ -50,7 +50,7 @@ hub_fingerprint: 536c508fbacd989ebe467b90d949540f3a4004300e3e7da5b6869aea7faef4e
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Bristol & Bath | Bristol | £28000 - £32000 per year (Bonus + 33 days holiday + GP + Benef) | Technical Administrator
 source_key: jobg8
 source: JobG8
@@ -68,7 +68,7 @@ hub_fingerprint: d954cc446f3a45f7918675617daac2371fd8cee677f6323df81cc6b48678a57
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Bristol & Bath | Keynsham | £35934 per year | Care Home Administrator
 source_key: jobg8
 source: JobG8
@@ -86,7 +86,7 @@ hub_fingerprint: 0e8bf1c33ee1b847d406c400b3d37d5bea5ee2eef3dd0592ea03bfd42a77edf
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | London | Harrow | £35000 - £40000 per year | Company Secretary Administrator
 source_key: jobg8
 source: JobG8
@@ -104,7 +104,7 @@ hub_fingerprint: 9466359e715b091f1621ad4e7b31f5a7d566e032f424e333f962df215d701a4
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | North Scotland | Inverness | £35000 per year | Commercial Sales Co-ordinator
 source_key: jobg8
 source: JobG8
@@ -122,7 +122,7 @@ hub_fingerprint: f06951dc1d694c36e41cece7c0be648bbf71d713264fee04cbb49d865a45873
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Northern Ireland - East | Lisburn | £31000 per year | Accounts Assistant
 source_key: jobg8
 source: JobG8
