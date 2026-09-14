@@ -49,12 +49,6 @@ job_id: 23643_225522242
 
 ---
 action:
-SELECTED | Yorkshire - West | Leeds |  | Casualty Claims Handler
-job_id: 1785909
----
-
----
-action:
 SELECTED | Yorkshire - West | Bradford | £125 per daily | Project Support Administrator
 job_id: 23643_225530760
 ---
@@ -133,12 +127,6 @@ job_id: 23643_225570773
 
 ---
 action:
-SELECTED | Yorkshire - West | Leeds |  | Finance Assistant
-job_id: 1866765
----
-
----
-action:
 SELECTED | Yorkshire - West | Leeds | £13.21 - £14.73 per hour | Customer Service Advisor
 job_id: 23643_225577014
 ---
@@ -153,12 +141,6 @@ job_id: 23643_225476804
 action:
 SELECTED | Yorkshire - West | Leeds | £30000 - £35000 per year | Sales Administrator
 job_id: 23643_225581001
----
-
----
-action:
-SELECTED | Yorkshire - West | Leeds | £30000 - £35000 per year | Operations Assistant - Stock, Purchasing & Logistics
-job_id: 23643_225581844
 ---
 
 ---
@@ -261,6 +243,24 @@ job_id: 1899982
 action:
 SELECTED | Yorkshire - South | Doncaster |  | Customer Service Advisor
 job_id: 20279_62308-153faf593eb64b88272f45adeaa28d87
+---
+
+---
+action:
+SELECTED | Yorkshire - South | Sheffield |  | Call Centre Operator - Uncapped Commission
+job_id: 20279_62295-73862c8b83139033e4e4a8b6efca9a33
+---
+
+---
+action:
+SELECTED | Yorkshire - South | Sheffield |  | Contact Centre Agent - Uncapped Commission
+job_id: 20279_62295-d24d3d6916a209e15b1680693740da2f
+---
+
+---
+action:
+SELECTED | Yorkshire - South | Sheffield |  | Call Centre Agent - Uncapped Commission
+job_id: 20279_62295-89740a075c6163b74ea2c52702062e5d
 ---
 
 ---
@@ -561,12 +561,6 @@ job_id: 23643_225548519
 
 ---
 action:
-SELECTED | London | London | £30000 per year | Reward Coordinator
-job_id: 107786275
----
-
----
-action:
 SELECTED | London | London |  | Campaign Co-ordinator 1371-1
 job_id: 107909025
 ---
@@ -735,12 +729,6 @@ job_id: 1855692
 
 ---
 action:
-SELECTED | London | London |  | HR Operations Coordinator
-job_id: 1857546
----
-
----
-action:
 SELECTED | London | London | £35000 per year | Office Administrator with HR
 job_id: 1854661
 ---
@@ -849,18 +837,6 @@ job_id: 1869601
 
 ---
 action:
-SELECTED | London | London |  | Accounts Administrator
-job_id: 1857294
----
-
----
-action:
-SELECTED | London | London |  | Sales & Lettings Coordinator
-job_id: 1853580
----
-
----
-action:
 SELECTED | London | Romford |  | Property Co-Ordinator
 job_id: 1849081
 ---
@@ -963,12 +939,6 @@ job_id: 1867034
 
 ---
 action:
-SELECTED | London | London |  | Events Coordinator based in Central London
-job_id: 1833841
----
-
----
-action:
 SELECTED | London | London |  | Learning and Development Co-ordinator (HR)
 job_id: 1832226
 ---
@@ -1059,14 +1029,14 @@ job_id: 1893784
 
 ---
 action:
-SELECTED | London | London | £30000 per year | Reward Coordinator
-job_id: 107786939
+SELECTED | London | Romford | £30000 per year | Customer Services Coordinator Freight Forwarding
+job_id: 107857821
 ---
 
 ---
 action:
-SELECTED | London | Romford | £30000 per year | Customer Services Coordinator Freight Forwarding
-job_id: 107857821
+SELECTED | London | London |  | In House Counsel/Contract Administrator
+job_id: 107817759
 ---
 
 ---
@@ -1099,9 +1069,19 @@ SELECTED | London | London |  | Group Risk Administrator
 job_id: 1904169
 ---
 
+---
+action:
+SELECTED | London | Uxbridge |  | Bid Coordinator
+job_id: 107970959
+---
+
 ## LONDON — POSSIBLES
 
-_No jobs in this group._
+---
+action:
+POSS - LONDON | London | London | £160 - £180 per daily | eCommerce Content Coordinator
+job_id: 107892006
+---
 
 ## HAMPSHIRE — SELECTED
 
@@ -1277,12 +1257,6 @@ job_id: 23643_225579893
 action:
 SELECTED | Hampshire | Hampshire |  | Sales Administrator / Sales Coordinator
 job_id: 23643_225581190
----
-
----
-action:
-SELECTED | Hampshire | Hampshire | £28000 per year | Customer Service Coordinator
-job_id: 107787258
 ---
 
 ---
@@ -1587,8 +1561,8 @@ job_id: 23643_225594338
 
 ---
 action:
-SELECTED | Surrey | Surrey |  | Investment Administrator
-job_id: 1894838
+SELECTED | Surrey | Surrey |  | Part Time lettings administrator
+job_id: 1905583
 ---
 
 ## SURREY — POSSIBLES
@@ -1939,6 +1913,12 @@ SELECTED | Sussex | Sussex |  | Temporary HR Administrator
 job_id: 1900339
 ---
 
+---
+action:
+SELECTED | Sussex | Sussex |  | Mental Health Support Coordinator
+job_id: 107921951
+---
+
 ## SUSSEX — POSSIBLES
 
 _No jobs in this group._
@@ -2062,12 +2042,6 @@ job_id: 1868063
 action:
 SELECTED | West Midlands - Coventry & Warwickshire | Warwickshire |  | HR Assistant
 job_id: 1835857
----
-
----
-action:
-SELECTED | West Midlands - Coventry & Warwickshire | Warwickshire | £22 - £23 per hour | Interim Finance Assistant
-job_id: 1878240
 ---
 
 ---
@@ -2223,18 +2197,6 @@ job_id: 23643_225556755
 action:
 SELECTED | Berkshire | Berkshire | £13 per hour | Administrator - Property Services
 job_id: 23643_223908809
----
-
----
-action:
-SELECTED | Berkshire | Berkshire |  | Tenancy Progression Administrator
-job_id: 1858335
----
-
----
-action:
-SELECTED | Berkshire | Berkshire |  | Lettings Coordinator
-job_id: 1858274
 ---
 
 ---
@@ -2413,7 +2375,11 @@ job_id: 23643_225601438
 
 ## BRISTOL & BATH — POSSIBLES
 
-_No jobs in this group._
+---
+action:
+POSS - BRISTOL & BATH | Bristol & Bath | Bristol | £35000 per year | Administrator - Financial Services
+job_id: 1907662
+---
 
 ## BUCKINGHAMSHIRE — SELECTED
 
@@ -2439,6 +2405,12 @@ job_id: 1780993
 action:
 SELECTED | Buckinghamshire | Buckinghamshire | £25392 per year | Administrator
 job_id: 23643_225528400
+---
+
+---
+action:
+SELECTED | Buckinghamshire | Buckinghamshire | £13.45 per hour | Administrator
+job_id: 23643_225541272
 ---
 
 ---
@@ -2665,6 +2637,24 @@ job_id: 23643_225380328
 
 ---
 action:
+SELECTED | Cheshire - East | Knutsford |  | Contact Centre Agent - Uncapped Commission
+job_id: 20279_62648-bce180f9075237062f9ba04857f8e0b6
+---
+
+---
+action:
+SELECTED | Cheshire - East | Knutsford |  | Call Centre Operator - Uncapped Commission
+job_id: 20279_62648-d1c6bd5673f826e43797e1c92de24d69
+---
+
+---
+action:
+SELECTED | Cheshire - East | Knutsford |  | Call Centre Agent - Uncapped Commission
+job_id: 20279_62648-ca303eac9d601a8b4b3e2629f842f6a8
+---
+
+---
+action:
 SELECTED | Cheshire - East | Knutsford |  | Customer Service Advisor - Uncapped Commission
 job_id: 20279_62648-5f053ed6bc220092db88c81c1fa679dd
 ---
@@ -2685,6 +2675,108 @@ job_id: 23643_225545347
 action:
 SELECTED | Cheshire - Warrington & Halton | Warrington | £35000 - £35001 per year | Commercial Administrator
 job_id: 23643_225545989
+---
+
+---
+action:
+SELECTED | Cheshire - Warrington & Halton | Warrington |  | Customer Service Advisor - Uncapped Commission
+job_id: 20279_62648-153faf593eb64b88272f45adeaa28d87
+---
+
+---
+action:
+SELECTED | Cheshire - Warrington & Halton | Widnes |  | Customer Service Advisor - Uncapped Commission
+job_id: 20279_62648-74576f7712f4d2665711d742594a5e6e
+---
+
+---
+action:
+SELECTED | Cheshire - Warrington & Halton | Warrington |  | Call Centre Operator - Uncapped Commission
+job_id: 20279_62648-73862c8b83139033e4e4a8b6efca9a33
+---
+
+---
+action:
+SELECTED | Cheshire - Warrington & Halton | Lymm |  | Contact Centre Agent - Uncapped Commission
+job_id: 20279_62648-497d591f62e546863483312dd53dfef9
+---
+
+---
+action:
+SELECTED | Cheshire - Warrington & Halton | Warrington |  | Customer Service Advisor - Uncapped Commission
+job_id: 20279_62648-ecde51dab00e54d27ce575427a4ba514
+---
+
+---
+action:
+SELECTED | Cheshire - Warrington & Halton | Runcorn |  | Customer Service Advisor - Uncapped Commission
+job_id: 20279_62648-fe97affcb7eb2cdceb67019e12eb7199
+---
+
+---
+action:
+SELECTED | Cheshire - Warrington & Halton | Warrington |  | Call Centre Operator - Uncapped Commission
+job_id: 20279_62648-e22242ba84bf98abd1c8488521625d74
+---
+
+---
+action:
+SELECTED | Cheshire - Warrington & Halton | Runcorn |  | Call Centre Agent - Uncapped Commission
+job_id: 20279_62648-f95fb0abe95ec1d699d270ffff941d6f
+---
+
+---
+action:
+SELECTED | Cheshire - Warrington & Halton | Widnes |  | Call Centre Agent - Uncapped Commission
+job_id: 20279_62648-97868bcab5ea2ebd43f55cf59028e39c
+---
+
+---
+action:
+SELECTED | Cheshire - Warrington & Halton | Lymm |  | Call Centre Operator - Uncapped Commission
+job_id: 20279_62648-bebd6b72712070dd058ae6bc358e899c
+---
+
+---
+action:
+SELECTED | Cheshire - Warrington & Halton | Lymm |  | Call Centre Agent - Uncapped Commission
+job_id: 20279_62648-acae1f6c5bc74101c4f7e20ffb81ad67
+---
+
+---
+action:
+SELECTED | Cheshire - Warrington & Halton | Lymm |  | Customer Service Advisor - Uncapped Commission
+job_id: 20279_62648-872ae37268a541755e97df9c9ced56fa
+---
+
+---
+action:
+SELECTED | Cheshire - Warrington & Halton | Warrington |  | Contact Centre Agent - Uncapped Commission
+job_id: 20279_62648-637fc511e4eb560482b6812cdcd0d531
+---
+
+---
+action:
+SELECTED | Cheshire - Warrington & Halton | Runcorn |  | Contact Centre Agent - Uncapped Commission
+job_id: 20279_62648-3e92b47ad3dbb60c9078d91c7601c50b
+---
+
+---
+action:
+SELECTED | Cheshire - Warrington & Halton | Widnes |  | Call Centre Operator - Uncapped Commission
+job_id: 20279_62648-2848878a98147df0051e7d135d2d5210
+---
+
+---
+action:
+SELECTED | Cheshire - Warrington & Halton | Widnes |  | Contact Centre Agent - Uncapped Commission
+job_id: 20279_62648-e821632b595e066f84bc5bc2227491aa
+---
+
+---
+action:
+SELECTED | Cheshire - Warrington & Halton | Warrington |  | Contact Centre Agent - Uncapped Commission
+job_id: 20279_62648-d24d3d6916a209e15b1680693740da2f
 ---
 
 ---
@@ -2725,12 +2817,6 @@ job_id: 23643_225525247
 
 ---
 action:
-SELECTED | Cheshire - West | Northwich |  | Casualty Claims Handler
-job_id: 1785911
----
-
----
-action:
 SELECTED | Cheshire - West | Northwich |  | Onboarding Care Coordinator
 job_id: 1855777
 ---
@@ -2739,6 +2825,24 @@ job_id: 1855777
 action:
 SELECTED | Cheshire - West | Northwich |  | Onboarding Care Coordinator
 job_id: 446503133430100787237340
+---
+
+---
+action:
+SELECTED | Cheshire - West | Frodsham |  | Call Centre Operator - Uncapped Commission
+job_id: 20279_62648-df37f60d32f252fe49c310f2c35d688a
+---
+
+---
+action:
+SELECTED | Cheshire - West | Frodsham |  | Contact Centre Agent - Uncapped Commission
+job_id: 20279_62648-c52bb760dc41c0ee3f43349313e28f01
+---
+
+---
+action:
+SELECTED | Cheshire - West | Frodsham |  | Call Centre Agent - Uncapped Commission
+job_id: 20279_62648-fb5fb9f58e831eea55d967facf062f17
 ---
 
 ---
@@ -2771,12 +2875,6 @@ SELECTED | Cornwall | St. Austell |  | Referrals Coordinator (Vulnerable Adults)
 job_id: 23643_225589154
 ---
 
----
-action:
-SELECTED | Cornwall | Truro |  | Accounts Assistant Part Time Or Full Time
-job_id: 1899928
----
-
 ## CORNWALL — POSSIBLES
 
 _No jobs in this group._
@@ -2793,12 +2891,6 @@ job_id: 23643_225518063
 action:
 SELECTED | Derbyshire | Derbyshire | £30000 - £33000 per year (free parking and hybrid working) | Finance Assistant
 job_id: 23643_225531012
----
-
----
-action:
-SELECTED | Derbyshire | Derbyshire | £28000 per year | Call Handler - Italian speaking
-job_id: 107894760
 ---
 
 ---
@@ -3181,12 +3273,6 @@ job_id: 23643_225514530
 
 ---
 action:
-SELECTED | Gloucestershire | Gloucestershire | £14 per hour | Field Care Team Administrator
-job_id: 107864211
----
-
----
-action:
 SELECTED | Gloucestershire | Gloucestershire |  | Sales Support Executive
 job_id: 107870311
 ---
@@ -3279,12 +3365,6 @@ job_id: 23643_225509120
 action:
 SELECTED | Greater Manchester - Manchester & Salford | Manchester | £14 per hour | Temporary Office Administrator
 job_id: 23643_225522116
----
-
----
-action:
-SELECTED | Greater Manchester - Manchester & Salford | Manchester |  | Casualty Claims Handler
-job_id: 1785991
 ---
 
 ---
@@ -3391,7 +3471,11 @@ job_id: 107883067
 
 ## GREATER MANCHESTER - MANCHESTER & SALFORD — POSSIBLES
 
-_No jobs in this group._
+---
+action:
+POSS - GREATER MANCHESTER - MANCHESTER & SALFORD | Greater Manchester - Manchester & Salford | Manchester | £38000 per year | Personal Injury Claims Handler
+job_id: 1908642
+---
 
 ## GREATER MANCHESTER - SOUTH — SELECTED
 
@@ -3459,6 +3543,24 @@ job_id: 1823437
 action:
 SELECTED | Greater Manchester - Wigan & Bolton | Bolton |  | Claims Handler - Household
 job_id: 1823436
+---
+
+---
+action:
+SELECTED | Greater Manchester - Wigan & Bolton | Leigh |  | Call Centre Operator - Uncapped Commission
+job_id: 20279_62648-febc62af56f2024bba2b7d7e4822beac
+---
+
+---
+action:
+SELECTED | Greater Manchester - Wigan & Bolton | Leigh |  | Contact Centre Agent - Uncapped Commission
+job_id: 20279_62648-ff99aaa433b07ac45aacb2d328e68571
+---
+
+---
+action:
+SELECTED | Greater Manchester - Wigan & Bolton | Leigh |  | Call Centre Agent - Uncapped Commission
+job_id: 20279_62648-0e98839ddf36da8e64c34fe5ef0cda20
 ---
 
 ---
@@ -3571,12 +3673,6 @@ job_id: 23643_225516053
 
 ---
 action:
-SELECTED | Leicestershire | Leicestershire |  | Casualty Claims Handler
-job_id: 1785992
----
-
----
-action:
 SELECTED | Leicestershire | Leicestershire | £26000 per year (Training + Progression) | Trainee Sales Administrator
 job_id: 23643_225527918
 ---
@@ -3597,12 +3693,6 @@ job_id: 23643_225531774
 action:
 SELECTED | Leicestershire | Leicestershire | £26000 - £28000 per year (Mon-Fri + 33 Days Holiday) | Technical Administrator (Construction / Refurbishment)
 job_id: 23643_225546600
----
-
----
-action:
-SELECTED | Leicestershire | Leicestershire | £16 per hour | Recruitment Operations Coordinator
-job_id: 107786802
 ---
 
 ---
@@ -3663,6 +3753,12 @@ job_id: 23643_225599975
 action:
 SELECTED | Leicestershire | Leicestershire | £13 - £13.5 per hour (£13.00-£13.50) | Administrator
 job_id: 23643_225599956
+---
+
+---
+action:
+SELECTED | Leicestershire | Leicestershire |  | Contracting Administrator
+job_id: 107841648
 ---
 
 ## LEICESTERSHIRE — POSSIBLES
@@ -3839,6 +3935,12 @@ SELECTED | North Scotland | Inverness | £30000 per year | Contract Administrato
 job_id: 107890781
 ---
 
+---
+action:
+SELECTED | North Scotland | Inverness | £24000 per year | Customer Service Advisor
+job_id: 107967506
+---
+
 ## NORTH SCOTLAND — POSSIBLES
 
 _No jobs in this group._
@@ -3879,12 +3981,6 @@ job_id: 1800671
 action:
 SELECTED | Northamptonshire | Northamptonshire | £24500 - £29500 per year | Executive Assistant- Part Time
 job_id: 23643_225532541
----
-
----
-action:
-SELECTED | Northamptonshire | Northamptonshire | £16 per hour | Recruitment Operations Coordinator
-job_id: 107786406
 ---
 
 ---
@@ -4039,6 +4135,12 @@ job_id: 2050694
 
 ---
 action:
+SELECTED | Northern Ireland - East | Lisburn | £25000 - £28000 per year | Receptionist Administrator
+job_id: 2050672
+---
+
+---
+action:
 SELECTED | Northern Ireland - East | Belfast | £16 per hour | Receptionist and Patient co-ordinator
 job_id: 2050528
 ---
@@ -4083,12 +4185,6 @@ job_id: 2049902
 action:
 SELECTED | Northern Ireland - East | Belfast |  | Receptionist - URGENT
 job_id: 2050172
----
-
----
-action:
-SELECTED | Northern Ireland - East | Lisburn | £16.68 per hour | HR Administrator (Lisburn)
-job_id: 2050089
 ---
 
 ---
@@ -4285,7 +4381,11 @@ job_id: 107952610
 
 ## NORTHERN IRELAND - EAST — POSSIBLES
 
-_No jobs in this group._
+---
+action:
+POSS - NORTHERN IRELAND - EAST | Northern Ireland - East | Belfast | £30000 - £32500 per year | Accounts Assistant/Bookkeeper
+job_id: 2050638
+---
 
 ## NOTTINGHAMSHIRE — SELECTED
 
@@ -4333,12 +4433,6 @@ job_id: 23643_225559400
 
 ---
 action:
-SELECTED | Nottinghamshire | Nottinghamshire | £13.5 per hour | Recruitment Account Coordinator
-job_id: 107803492
----
-
----
-action:
 SELECTED | Nottinghamshire | Nottinghamshire | £29000 per year | Financial Services Administrator
 job_id: 23643_225571791
 ---
@@ -4369,12 +4463,6 @@ job_id: 1845220
 
 ---
 action:
-SELECTED | Nottinghamshire | Nottinghamshire |  | Lettings Administrator
-job_id: 1764659
----
-
----
-action:
 SELECTED | Nottinghamshire | Nottinghamshire | £26000 per year (plus company benefits) | Customer Service Advisor - Spanish Speaking
 job_id: 23643_225582414
 ---
@@ -4397,6 +4485,12 @@ SELECTED | Nottinghamshire | Nottinghamshire |  | Framework Administrator
 job_id: 1900221
 ---
 
+---
+action:
+SELECTED | Nottinghamshire | Nottinghamshire | £13.5 per hour | Recruitment Account Coordinator
+job_id: 107803492
+---
+
 ## NOTTINGHAMSHIRE — POSSIBLES
 
 _No jobs in this group._
@@ -4413,12 +4507,6 @@ job_id: 23643_225412786
 action:
 SELECTED | Oxfordshire | Oxfordshire | £12.71 per hour | Temporary Administrator
 job_id: 23643_225524539
----
-
----
-action:
-SELECTED | Oxfordshire | Oxfordshire |  | HR Operations Coordinator
-job_id: 1789720
 ---
 
 ---
@@ -4501,12 +4589,6 @@ job_id: 23643_225587168
 
 ---
 action:
-SELECTED | Oxfordshire | Oxfordshire | £13 per hour | Receptionist
-job_id: 23643_225586323
----
-
----
-action:
 SELECTED | Oxfordshire | Oxfordshire | £30000 per year | Accounts Administrator
 job_id: 107910649
 ---
@@ -4519,7 +4601,11 @@ job_id: 23643_225596501
 
 ## OXFORDSHIRE — POSSIBLES
 
-_No jobs in this group._
+---
+action:
+POSS - OXFORDSHIRE | Oxfordshire | Oxfordshire | £21.74 per hour | Maintenance MDS Administrator
+job_id: 23643_225600403
+---
 
 ## SCOTLAND CENTRAL - EDINBURGH & LOTHIANS — SELECTED
 
@@ -4589,6 +4675,12 @@ SELECTED | Scotland Central - Edinburgh & Lothians | Edinburgh |  | HR Administr
 job_id: 1885249
 ---
 
+---
+action:
+SELECTED | Scotland Central - Edinburgh & Lothians | Edinburgh | £26000 per year | Dutch Speaking Customer Service Advisor
+job_id: 107916316
+---
+
 ## SCOTLAND CENTRAL - EDINBURGH & LOTHIANS — POSSIBLES
 
 _No jobs in this group._
@@ -4633,6 +4725,78 @@ job_id: 23643_225599730
 
 ---
 action:
+SELECTED | Scotland Central - Tayside | Dundee |  | Call Centre Agent - Uncapped Commission
+job_id: 20279_62587-89740a075c6163b74ea2c52702062e5d
+---
+
+---
+action:
+SELECTED | Scotland Central - Tayside | Forfar |  | Call Centre Agent - Uncapped Commission
+job_id: 20279_62587-bfc8f1e6df89e3f82c401f5fd9bfa1f6
+---
+
+---
+action:
+SELECTED | Scotland Central - Tayside | Newport-on-tay |  | Customer Service Advisor - Uncapped Commission
+job_id: 20279_62587-84ef7407a6e6c9814d3e8a213e3d352f
+---
+
+---
+action:
+SELECTED | Scotland Central - Tayside | Forfar |  | Call Centre Operator - Uncapped Commission
+job_id: 20279_62587-cec6ad1c58e7d10254c15b1f63dc1f61
+---
+
+---
+action:
+SELECTED | Scotland Central - Tayside | Forfar |  | Contact Centre Agent - Uncapped Commission
+job_id: 20279_62587-66c703e3bd600def438c57a9957e4f6c
+---
+
+---
+action:
+SELECTED | Scotland Central - Tayside | Perth |  | Call Centre Operator - Uncapped Commission
+job_id: 20279_62587-66488da6cf6cbf418f6a1f59512162a2
+---
+
+---
+action:
+SELECTED | Scotland Central - Tayside | Newport-on-tay |  | Call Centre Agent - Uncapped Commission
+job_id: 20279_62587-85bda5f69968db009ec735a538b82aa3
+---
+
+---
+action:
+SELECTED | Scotland Central - Tayside | Perth |  | Call Centre Agent - Uncapped Commission
+job_id: 20279_62587-877ff895dbc10af556a038d2b7991c58
+---
+
+---
+action:
+SELECTED | Scotland Central - Tayside | Dundee |  | Contact Centre Agent - Uncapped Commission
+job_id: 20279_62587-d24d3d6916a209e15b1680693740da2f
+---
+
+---
+action:
+SELECTED | Scotland Central - Tayside | Arbroath |  | Customer Service Advisor - Uncapped Commission
+job_id: 20279_62587-cf4f5be59d0aa6d4c0abf6ce35bb6463
+---
+
+---
+action:
+SELECTED | Scotland Central - Tayside | Arbroath |  | Call Centre Agent - Uncapped Commission
+job_id: 20279_62587-c101b319bc137225fafa61aeaba6dc30
+---
+
+---
+action:
+SELECTED | Scotland Central - Tayside | Newport-on-tay |  | Contact Centre Agent - Uncapped Commission
+job_id: 20279_62587-c71691d03ce30740b3ef4939f7f8240a
+---
+
+---
+action:
 SELECTED | Scotland Central - Tayside | Dundee |  | Customer Service Advisor - Uncapped Commission
 job_id: 20279_62587-153faf593eb64b88272f45adeaa28d87
 ---
@@ -4671,6 +4835,12 @@ job_id: 20279_62587-8198db7b495b0167f0e25320a311b48c
 action:
 SELECTED | Scotland Central - Tayside | Newport-on-tay |  | Call Centre Operator - Uncapped Commission
 job_id: 20279_62587-e30d0db916659b1c87d6af5c544ebdc1
+---
+
+---
+action:
+SELECTED | Scotland Central - Tayside | Kirriemuir | £35000 per year | Sales Coordinator (Agricultural)
+job_id: 107965670
 ---
 
 ## SCOTLAND CENTRAL - TAYSIDE — POSSIBLES
@@ -4861,12 +5031,6 @@ job_id: 23643_225532752
 
 ---
 action:
-SELECTED | Somerset | Somerset | £13.45 per hour | Administrator
-job_id: 23643_225541272
----
-
----
-action:
 SELECTED | Somerset | Somerset | £26000 - £29000 per year (life insurance, pension, benefits) | Sales & Service Administrator
 job_id: 23643_225545402
 ---
@@ -4927,12 +5091,6 @@ _No jobs in this group._
 
 ---
 action:
-SELECTED | Staffordshire | Staffordshire |  | Casualty Claims Handler
-job_id: 1785993
----
-
----
-action:
 SELECTED | Staffordshire | Staffordshire | £27500 per year | Recruitment Account Coordinator
 job_id: 1771109
 ---
@@ -4947,12 +5105,6 @@ job_id: 23643_225537967
 action:
 SELECTED | Staffordshire | Staffordshire | £20000 per year (£20,000 pro rata) | Sales Administrator
 job_id: 23643_225538781
----
-
----
-action:
-SELECTED | Staffordshire | Staffordshire | £30000 - £35000 per year | Stock & Purchasing Coordinator
-job_id: 23643_225543603
 ---
 
 ---
@@ -5125,12 +5277,6 @@ job_id: 23643_225518765
 
 ---
 action:
-SELECTED | West Midlands - Birmingham & Solihull | Birmingham |  | Casualty Claims Handler
-job_id: 1785910
----
-
----
-action:
 SELECTED | West Midlands - Birmingham & Solihull | Birmingham | £28000 per year | Finance Assistant
 job_id: 23643_225537904
 ---
@@ -5139,6 +5285,12 @@ job_id: 23643_225537904
 action:
 SELECTED | West Midlands - Birmingham & Solihull | Birmingham | £29000 per year | Care Coordinator - Full Time / Part Time
 job_id: 23643_225543172
+---
+
+---
+action:
+SELECTED | West Midlands - Birmingham & Solihull | Birmingham | £25500 per year (Parking) | Receptionist
+job_id: 23643_225557310
 ---
 
 ---
@@ -5307,6 +5459,12 @@ job_id: 1832357
 action:
 SELECTED | Wiltshire | Wiltshire | £14.1 per hour | Forensics Administrator
 job_id: 23643_225589341
+---
+
+---
+action:
+SELECTED | Wiltshire | Wiltshire |  | Service Advisor
+job_id: 107967016
 ---
 
 ## WILTSHIRE — POSSIBLES
@@ -5508,12 +5666,6 @@ _No jobs in this group._
 
 ---
 action:
-DROPPED | London | London | £20 per hour | Examinations Coordinator
-job_id: 23643_225500892
----
-
----
-action:
 DROPPED | Kent | Kent | £200 per daily | Business Support Officer
 job_id: 23643_225509698
 ---
@@ -5606,12 +5758,6 @@ job_id: 107904710
 action:
 DROPPED | London | London | £75000 per year | Financial Planner
 job_id: 107787731
----
-
----
-action:
-DROPPED | Kent | Kent | £80000 per year | Chartered Secretary Corporate Governance
-job_id: 107787034
 ---
 
 ---

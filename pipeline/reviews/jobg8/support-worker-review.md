@@ -161,12 +161,6 @@ SELECTED | Hampshire | Ringwood | £26018 - £27111 per year | Care Assistant
 job_id: 1401785190
 ---
 
----
-action:
-SELECTED | Hampshire | Farnborough | £12.8 per hour ((depending on experience and qualifications)) | Residential Support Worker
-job_id: 107856573
----
-
 ## HAMPSHIRE — POSSIBLES
 
 _No jobs in this group._
@@ -177,12 +171,6 @@ _No jobs in this group._
 action:
 SELECTED | Kent | Tunbridge Wells | competitive + benefits | Qualified Hearing Care Assistant
 job_id: 1402264062
----
-
----
-action:
-SELECTED | Kent | Kent | £13.45 per hour (£13.45) | Housing Support Worker (Casual)
-job_id: 23643_225534852
 ---
 
 ---
@@ -347,7 +335,11 @@ _No jobs in this group._
 
 ## SURREY — SELECTED
 
-_No jobs in this group._
+---
+action:
+SELECTED | Surrey | Cobham | £13.45 per hour (£13.45) | Housing Support Worker (Casual)
+job_id: 23643_225534852
+---
 
 ## SURREY — POSSIBLES
 
