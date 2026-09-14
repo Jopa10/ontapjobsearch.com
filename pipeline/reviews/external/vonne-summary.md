@@ -1,7 +1,7 @@
 # VONNE ETL proof-of-concept review
 
-review_date: 2026-09-13
-review_fingerprint: 07818f1b3c1b63cbe222f4a44fc1b94a4587bddfe0d4fdbfa2c4b78aa405f767
+review_date: 2026-09-14
+review_fingerprint: e55cf81c85c423ad80dd92011f6751002ad612fc3d3cd0eb70bbde7bc0ab3299
 
 This implementation is review-only. It has no approved-JSON or publishing mode.
 
@@ -10,10 +10,10 @@ Edit only the `action:` line in editable blocks:
 - `action: exclude` rejects a POSS vacancy or removes an HC vacancy.
 - Actions are remembered while the same vacancy review facts remain unchanged; this review still does not publish anything.
 
-Run generated: 2026-09-13T13:13:04+01:00
+Run generated: 2026-09-14T14:12:13+01:00
 Listing input: https://www.vonne.org.uk/vonne-jobs
-JobG8 comparison rows: 356
-Approved NEJobs comparison rows: 13
+JobG8 comparison rows: 383
+Approved NEJobs comparison rows: 12
 
 ## Funnel
 - VONNE listings read: 15
@@ -30,9 +30,9 @@ Approved NEJobs comparison rows: 13
 - HC: 0
 - POSS: 5
 - HARD_PASS: 7
-- Final selected after remembered/manual actions: 1
+- Final selected after remembered/manual actions: 0
 - Final POSS awaiting decision: 3
-- Manually excluded: 1
+- Manually excluded: 2
 ## Detail diagnostics
 - No unresolved detail-page failures.
 
@@ -42,6 +42,19 @@ Approved NEJobs comparison rows: 13
 
 ## POSS — choose SELECT or EXCLUDE
 
+---
+action: exclude
+POSS | North East - County Durham & Darlington/Hartlepool | County Durham | £24,454 Per Annum | Administrator (26.13)
+employer: Age UK County Durham
+closing_date: Wednesday, September 30, 2026 - 12:00
+geography: CONFIRMED — location: approved location fallback
+reason: possible cross-source duplicate requires review
+source: VONNE
+tracking_key: vonne-173394
+vacancy_fingerprint: 519ce27938398f49fcbce718a2199f9949683fdc41baa95ab1c29252c8391d66
+source_job_id: 173394
+source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173394
+---
 ---
 action:
 POSS | North East - County Durham & Darlington/Hartlepool | County Durham | £27,476 Per Annum | HR Administrator
@@ -54,6 +67,19 @@ tracking_key: vonne-173410
 vacancy_fingerprint: f65f0813d779a37799fe069207dcaadc4a3b07e03f174b525fb8ad7176d32b76
 source_job_id: 173410
 source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173410
+---
+---
+action: exclude
+POSS | North East - County Durham & Darlington/Hartlepool | County Durham | £24,454 Per Annum | Project Administrator (26.12)
+employer: Age UK County Durham
+closing_date: Wednesday, September 30, 2026 - 12:00
+geography: CONFIRMED — location: approved location fallback
+reason: possible cross-source duplicate requires review
+source: VONNE
+tracking_key: vonne-173393
+vacancy_fingerprint: 076c2df7b5819c647117c3b816981009bb4a7072315f7abc14f5c71d30a5e73b
+source_job_id: 173393
+source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173393
 ---
 ---
 action:
@@ -80,32 +106,6 @@ tracking_key: vonne-173398
 vacancy_fingerprint: f0aa4caa78e6f26eca1fba4fcba8da7a9759467a67e7607e373092401816c500
 source_job_id: 173398
 source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173398
----
----
-action: exclude
-POSS | North East - Tyneside, Wearside & Northumberland | Tyne and Wear | £34,434 to 36,363 Per Annum | Health & Wellbeing Coordinator
-employer: VONNE
-closing_date: Sunday, September 13, 2026 - 00:00
-geography: CONFIRMED — location: approved location fallback
-reason: annualised upper salary £36,363 exceeds North East review point £30,000
-source: VONNE
-tracking_key: vonne-173309
-vacancy_fingerprint: 25bce1025449c1002f480b7b77769ff54b70b170d8a01bd59a5f484ec7758404
-source_job_id: 173309
-source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173309
----
----
-action: select
-POSS | North East - Tyneside, Wearside & Northumberland | Tyne and Wear | £26,402 to 28,141 Per Annum | Health & Wellbeing Projects Support Officer
-employer: VONNE
-closing_date: Sunday, September 13, 2026 - 00:00
-geography: CONFIRMED — location: approved location fallback
-reason: provisional transferable-office review
-source: VONNE
-tracking_key: vonne-173310
-vacancy_fingerprint: 8a7ab286013372c433a61a3c5bcaad36cea77bc6812442d255b413a5866b6bce
-source_job_id: 173310
-source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173310
 ---
 ## EXCLUDED BY REVIEW
 
