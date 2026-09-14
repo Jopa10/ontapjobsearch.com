@@ -4,7 +4,7 @@
 - Live route: `/glasgow/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 16
+- Effective included jobs: 18
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 16
+- automatic include: 18
 - automatic review: 1
 - automatic exclude: 0
-- effective include: 16
+- effective include: 18
 - effective review: 1
 - effective exclude: 0
 
-## INCLUDE (16)
+## INCLUDE (18)
 
 ---
 action: 
@@ -129,6 +129,30 @@ company: Hays Accounts and Finance - Agency - Temporary
 location: Glasgow
 source: JobG8
 job_id: jobg8-23643_225505549
+reason: Approved conservative Glasgow launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Contact Centre Agent
+company: EE - Company - Permanent
+location: Glasgow
+source: JobG8
+job_id: jobg8-20279_62718-d24d3d6916a209e15b1680693740da2f
+reason: Approved conservative Glasgow launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Contact Centre Agent
+company: EE - Company - Permanent
+location: Glasgow
+source: JobG8
+job_id: jobg8-21618_20279_62718-d24d3d6916a209e15b1680693740da2f
 reason: Approved conservative Glasgow launch catchment.
 ---
 

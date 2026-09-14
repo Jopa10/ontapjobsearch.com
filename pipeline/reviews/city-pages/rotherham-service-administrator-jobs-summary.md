@@ -138,6 +138,18 @@ reason: No exact Rotherham workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
+title: Customer Service Advisor - Uncapped Commission
+company: EE - Company - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-20279_62295-153faf593eb64b88272f45adeaa28d87
+reason: No exact Rotherham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Customer Service/Export Co-ordinator
 company: Hays Business Support - Agency - Permanent
 location: Sheffield
@@ -162,6 +174,18 @@ reason: No exact Rotherham workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
+title: HR Administrator
+company: Randstad Technologies Recruitment - Agency - Temporary
+location: Sheffield
+source: JobG8
+job_id: jobg8-23643_225599384
+reason: No exact Rotherham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Operations Administrator
 company: Sue Ross Recruitment Ltd - Agency - Permanent
 location: Sheffield
@@ -179,18 +203,6 @@ company: Beyond Talent Solutions Ltd - Agency - Contract
 location: Brinsworth
 source: JobG8
 job_id: jobg8-23643_225516026
-reason: No exact Rotherham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Permanent Admin Assistant
-company: Wybourn Community Primary & Nursery School
-location: Sheffield
-source: Teaching Vacancies
-job_id: teaching-vacancies-permanent-admin-assistant
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 
@@ -263,18 +275,6 @@ company: Major Recruitment - Perm Manager - Agency - Permanent
 location: Sheffield
 source: JobG8
 job_id: jobg8-23643_225563636
-reason: No exact Rotherham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Sales Coordinator
-company: Ranson Barnes Recruitment Limited - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-107870378
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 

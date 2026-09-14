@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 5
-- automatic review: 68
+- automatic review: 67
 - automatic exclude: 0
 - effective include: 5
-- effective review: 68
+- effective review: 67
 - effective exclude: 0
 
 ## INCLUDE (5)
@@ -84,7 +84,7 @@ job_id: jobg8-2050449
 reason: Exact approved Newtownabbey workplace.
 ---
 
-## REVIEW (68)
+## REVIEW (67)
 
 ---
 action: 
@@ -294,6 +294,18 @@ reason: No exact Newtownabbey workplace matched; local geographic review is requ
 action: 
 decision: review
 automatic_decision: review
+title: Commercial Vehicles Administrator
+company: Briggs Equipment Ltd - Agency - Permanent
+location: Lisburn
+source: JobG8
+job_id: jobg8-107952610
+reason: No exact Newtownabbey workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Contact Centre Executive
 company: Sysco - Company - Permanent
 location: Belfast
@@ -335,30 +347,6 @@ company: Honeycomb Jobs Ltd - Agency - Permanent
 location: Belfast
 source: JobG8
 job_id: jobg8-2051456
-reason: No exact Newtownabbey workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Customer Service Advisor - Arc Room
-company: Brook Street UK - Agency - Permanent
-location: Belfast
-source: JobG8
-job_id: jobg8-107836604
-reason: No exact Newtownabbey workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Digital Content Producer
-company: Apple Recruitment - Agency - Permanent
-location: Belfast
-source: JobG8
-job_id: jobg8-2049982
 reason: No exact Newtownabbey workplace matched; local geographic review is required.
 ---
 
@@ -563,18 +551,6 @@ company: MCS Group - Agency - Permanent
 location: County Antrim
 source: JobG8
 job_id: jobg8-2050541
-reason: No exact Newtownabbey workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Medical Receptionist (37.5 hrs pw)
-company: Lynda Jacobs Recruitment - Agency - Permanent
-location: Belfast
-source: JobG8
-job_id: jobg8-2049936
 reason: No exact Newtownabbey workplace matched; local geographic review is required.
 ---
 
@@ -815,6 +791,18 @@ company: Honeycomb Jobs Ltd - Agency - Permanent
 location: Belfast
 source: JobG8
 job_id: jobg8-2051485
+reason: No exact Newtownabbey workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Sales Support Administrator
+company: Woodside Logistics Group - Agency - Contract
+location: Ballyclare
+source: JobG8
+job_id: jobg8-107861572
 reason: No exact Newtownabbey workplace matched; local geographic review is required.
 ---
 

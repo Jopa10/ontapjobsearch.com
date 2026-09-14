@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 3
-- automatic review: 7
+- automatic review: 8
 - automatic exclude: 0
 - effective include: 3
-- effective review: 7
+- effective review: 8
 - effective exclude: 0
 
 ## INCLUDE (3)
@@ -60,7 +60,19 @@ job_id: jobg8-23643_225512252
 reason: Exact approved Macclesfield workplace.
 ---
 
-## REVIEW (7)
+## REVIEW (8)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Customer Service Advisor - Uncapped Commission
+company: EE - Company - Permanent
+location: Knutsford
+source: JobG8
+job_id: jobg8-20279_62648-5f053ed6bc220092db88c81c1fa679dd
+reason: No exact Macclesfield workplace matched; local geographic review is required.
+---
 
 ---
 action: 

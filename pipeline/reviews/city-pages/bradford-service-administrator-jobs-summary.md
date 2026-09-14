@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 4
-- automatic review: 6
-- automatic exclude: 30
+- automatic review: 7
+- automatic exclude: 28
 - effective include: 4
-- effective review: 6
-- effective exclude: 30
+- effective review: 7
+- effective exclude: 28
 
 ## INCLUDE (4)
 
@@ -72,7 +72,7 @@ job_id: nhs-5579658
 reason: Approved Bradford catchment.
 ---
 
-## REVIEW (6)
+## REVIEW (7)
 
 ---
 action: 
@@ -146,7 +146,19 @@ job_id: jobg8-1880847
 reason: No approved Bradford catchment rule matched; local review required.
 ---
 
-## EXCLUDE (30)
+---
+action: 
+decision: review
+automatic_decision: review
+title: Receptionist / Administrator
+company: The Surgery, Stuart Road
+location: Pontefract, WF8 4PQ
+source: NHS Jobs
+job_id: nhs-5596100
+reason: No approved Bradford catchment rule matched; local review required.
+---
+
+## EXCLUDE (28)
 
 ---
 action: 
@@ -157,18 +169,6 @@ company: Lucy Walker Recruitment - Agency - Temporary
 location: Leeds
 source: JobG8
 job_id: jobg8-23643_225570773
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Administrator
-company: The Pharmacist Network
-location: Leeds, NE4 7YB
-source: NHS Jobs
-job_id: nhs-5576344
 reason: Separate employment market.
 ---
 
@@ -457,18 +457,6 @@ company: Huntress - Leeds - Agency - Permanent
 location: Leeds
 source: JobG8
 job_id: jobg8-23643_225569825
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Senior Administrator
-company: Fountain Primary School
-location: Leeds
-source: Teaching Vacancies
-job_id: teaching-vacancies-senior-administrator-fountain-primary-school-leeds-west-yorkshire
 reason: Separate employment market.
 ---
 

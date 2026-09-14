@@ -52,6 +52,18 @@ reason: Approved Sheffield catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Customer Service Advisor - Uncapped Commission
+company: EE - Company - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-20279_62295-153faf593eb64b88272f45adeaa28d87
+reason: Approved Sheffield catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Customer Service/Export Co-ordinator
 company: Hays Business Support - Agency - Permanent
 location: Sheffield
@@ -76,11 +88,11 @@ reason: Approved Sheffield catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Operations Administrator
-company: Sue Ross Recruitment Ltd - Agency - Permanent
+title: HR Administrator
+company: Randstad Technologies Recruitment - Agency - Temporary
 location: Sheffield
 source: JobG8
-job_id: jobg8-23643_225522912
+job_id: jobg8-23643_225599384
 reason: Approved Sheffield catchment.
 ---
 
@@ -88,11 +100,11 @@ reason: Approved Sheffield catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Permanent Admin Assistant
-company: Wybourn Community Primary & Nursery School
+title: Operations Administrator
+company: Sue Ross Recruitment Ltd - Agency - Permanent
 location: Sheffield
-source: Teaching Vacancies
-job_id: teaching-vacancies-permanent-admin-assistant
+source: JobG8
+job_id: jobg8-23643_225522912
 reason: Approved Sheffield catchment.
 ---
 
@@ -129,18 +141,6 @@ company: Major Recruitment - Perm Manager - Agency - Permanent
 location: Sheffield
 source: JobG8
 job_id: jobg8-23643_225563636
-reason: Approved Sheffield catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Sales Coordinator
-company: Ranson Barnes Recruitment Limited - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-107870378
 reason: Approved Sheffield catchment.
 ---
 

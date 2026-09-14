@@ -4,7 +4,7 @@
 - Live route: `/exeter/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 10
+- Effective included jobs: 9
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 10
-- automatic review: 11
+- automatic include: 9
+- automatic review: 12
 - automatic exclude: 0
-- effective include: 10
-- effective review: 11
+- effective include: 9
+- effective review: 12
 - effective exclude: 0
 
-## INCLUDE (10)
+## INCLUDE (9)
 
 ---
 action: 
@@ -57,18 +57,6 @@ company: Reed - Agency - Permanent
 location: Exeter
 source: JobG8
 job_id: jobg8-1842702
-reason: Exact approved Exeter workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Programme Administrator
-company: Royal Devon University Healthcare NHS Foundation Trust
-location: Exeter, EX2 7JQ
-source: NHS Jobs
-job_id: nhs-5567539
 reason: Exact approved Exeter workplace.
 ---
 
@@ -144,7 +132,7 @@ job_id: jobg8-23643_225568425
 reason: Exact approved Exeter workplace.
 ---
 
-## REVIEW (11)
+## REVIEW (12)
 
 ---
 action: 
@@ -251,6 +239,18 @@ company: Pertemps Plymouth - Agency - Temporary
 location: Plymouth
 source: JobG8
 job_id: jobg8-23643_225509220
+reason: No exact Exeter workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Receptionist/Administrator
+company: Croft Hall Medical Practice
+location: Torquay, TQ2 5UA
+source: NHS Jobs
+job_id: nhs-5552054
 reason: No exact Exeter workplace matched; local geographic review is required.
 ---
 

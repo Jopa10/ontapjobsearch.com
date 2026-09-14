@@ -4,7 +4,7 @@
 - Live route: `/bristol/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 25
+- Effective included jobs: 23
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 25
+- automatic include: 23
 - automatic review: 8
-- automatic exclude: 2
-- effective include: 25
+- automatic exclude: 3
+- effective include: 23
 - effective review: 8
-- effective exclude: 2
+- effective exclude: 3
 
-## INCLUDE (25)
+## INCLUDE (23)
 
 ---
 action: 
@@ -33,18 +33,6 @@ company: Artis Recruitment - Agency - Permanent
 location: Bristol
 source: JobG8
 job_id: jobg8-1877742
-reason: Approved conservative Bristol launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrator
-company: Sirona care & health CIC
-location: Bristol, BS10 6DF
-source: NHS Jobs
-job_id: nhs-5554527
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -304,18 +292,6 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: School Administrator
-company: Parson Street Primary School
-location: Bristol
-source: Teaching Vacancies
-job_id: teaching-vacancies-school-administrator-parson-street-primary-school
-reason: Approved conservative Bristol launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Technical Administrator
 company: Hunter Selection - Agency - Permanent
 location: Bristol
@@ -422,7 +398,7 @@ job_id: jobg8-23643_225515534
 reason: No approved Bristol catchment rule matched; local review required.
 ---
 
-## EXCLUDE (2)
+## EXCLUDE (3)
 
 ---
 action: 
@@ -433,6 +409,18 @@ company: Hays Business Support - Agency - Permanent
 location: Bath
 source: JobG8
 job_id: jobg8-23643_225581771
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Receptionist Call Handler
+company: Fairfield Park Health Centre
+location: Bath, BA1 6EA
+source: NHS Jobs
+job_id: nhs-5550823
 reason: Separate employment market.
 ---
 

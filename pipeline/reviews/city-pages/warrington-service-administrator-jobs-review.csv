@@ -1,3 +1,7 @@
 decision,job_id,title,company,location,source,automatic_decision,effective_decision,reason,matched_rule,city_key
+include,jobg8-20279_62648-22e23270f8ebd14d8abcf367c9b0bdc1,Call Centre Agent - Uncapped Commission,EE - Company - Permanent,Warrington,JobG8,include,include,Approved conservative Warrington launch catchment.,warrington,warrington-service-administrator-jobs
+include,jobg8-20279_62648-89740a075c6163b74ea2c52702062e5d,Call Centre Agent - Uncapped Commission,EE - Company - Permanent,Warrington,JobG8,include,include,Approved conservative Warrington launch catchment.,warrington,warrington-service-administrator-jobs
+include,nhs-5586121,Clerical Officer,North Cheshire and Mersey NHS Foundation Trust (BCH),"Warrington, WA2 8HE",NHS Jobs,include,include,Approved conservative Warrington launch catchment.,warrington,warrington-service-administrator-jobs
 include,jobg8-23643_225545989,Commercial Administrator,McLaren Resourcing - Agency - Permanent,Warrington,JobG8,include,include,Approved conservative Warrington launch catchment.,warrington,warrington-service-administrator-jobs
+exclude,jobg8-20279_62648-00a9a6350da241ecc876a19e242c605c,Call Centre Operator - Uncapped Commission,EE - Company - Permanent,Runcorn,JobG8,exclude,exclude,Separate employment market.,runcorn,warrington-service-administrator-jobs
 exclude,jobg8-23643_225545347,Data Entry & GP Liaison Administrator,MedPal AI Plc - Agency - Permanent,Runcorn,JobG8,exclude,exclude,Separate employment market.,runcorn,warrington-service-administrator-jobs

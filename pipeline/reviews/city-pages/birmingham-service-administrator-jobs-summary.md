@@ -136,6 +136,30 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Medical Administrator
+company: West Heath Surgery
+location: Birmingham, B31 3HB, Birmingham, B38 8AX
+source: NHS Jobs
+job_id: nhs-5587707
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Mobile Receptionist/Care Navigator
+company: Ridgacre Medical Centres
+location: Birmingham, B32 2TJ, BIRMINGHAM, B7 5DT
+source: NHS Jobs
+job_id: nhs-5547612
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Office Administrator
 company: Alliance Personnel - Agency - Permanent
 location: Birmingham
@@ -201,30 +225,6 @@ company: King Edward VI Balaam Wood Academy
 location: Birmingham
 source: Teaching Vacancies
 job_id: teaching-vacancies-receptionist-king-edward-vi-balaam-wood-academy-birmingham-west-midlands
-reason: Approved conservative Birmingham launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Receptionist
-company: Kingstanding Circle Surgery
-location: Birmingham, B44 0UY
-source: NHS Jobs
-job_id: nhs-5580814
-reason: Approved conservative Birmingham launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Receptionist/Administrator
-company: The Wand Medical Centre
-location: Birmingham, B12 0UF
-source: NHS Jobs
-job_id: nhs-5557628
 reason: Approved conservative Birmingham launch catchment.
 ---
 

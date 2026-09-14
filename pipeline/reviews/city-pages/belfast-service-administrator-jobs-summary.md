@@ -4,7 +4,7 @@
 - Live route: `/belfast/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 49
+- Effective included jobs: 46
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 49
-- automatic review: 24
+- automatic include: 46
+- automatic review: 26
 - automatic exclude: 0
-- effective include: 49
-- effective review: 24
+- effective include: 46
+- effective review: 26
 - effective exclude: 0
 
-## INCLUDE (49)
+## INCLUDE (46)
 
 ---
 action: 
@@ -196,30 +196,6 @@ reason: Approved conservative Belfast launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Customer Service Advisor - Arc Room
-company: Brook Street UK - Agency - Permanent
-location: Belfast
-source: JobG8
-job_id: jobg8-107836604
-reason: Approved conservative Belfast launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Digital Content Producer
-company: Apple Recruitment - Agency - Permanent
-location: Belfast
-source: JobG8
-job_id: jobg8-2049982
-reason: Approved conservative Belfast launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: E-commerce & Digital Marketing Specialist
 company: MCS Group - Agency - Permanent
 location: Belfast
@@ -333,18 +309,6 @@ company: MCS Group - Agency - Permanent
 location: Belfast
 source: JobG8
 job_id: jobg8-2050696
-reason: Approved conservative Belfast launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Medical Receptionist (37.5 hrs pw)
-company: Lynda Jacobs Recruitment - Agency - Permanent
-location: Belfast
-source: JobG8
-job_id: jobg8-2049936
 reason: Approved conservative Belfast launch catchment.
 ---
 
@@ -612,7 +576,7 @@ job_id: jobg8-2050290
 reason: Approved conservative Belfast launch catchment.
 ---
 
-## REVIEW (24)
+## REVIEW (26)
 
 ---
 action: 
@@ -719,6 +683,18 @@ company: Platinum Recruitment - Agency - Permanent
 location: Newry
 source: JobG8
 job_id: jobg8-2052586
+reason: No approved Belfast catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Commercial Vehicles Administrator
+company: Briggs Equipment Ltd - Agency - Permanent
+location: Lisburn
+source: JobG8
+job_id: jobg8-107952610
 reason: No approved Belfast catchment rule matched; local review required.
 ---
 
@@ -887,6 +863,18 @@ company: Brook Street UK - Agency - Permanent
 location: Ballyclare
 source: JobG8
 job_id: jobg8-107922303
+reason: No approved Belfast catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Sales Support Administrator
+company: Woodside Logistics Group - Agency - Contract
+location: Ballyclare
+source: JobG8
+job_id: jobg8-107861572
 reason: No approved Belfast catchment rule matched; local review required.
 ---
 

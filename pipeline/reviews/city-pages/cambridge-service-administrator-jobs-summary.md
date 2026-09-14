@@ -4,7 +4,7 @@
 - Live route: `/cambridge/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 10
+- Effective included jobs: 9
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 10
-- automatic review: 4
+- automatic include: 9
+- automatic review: 3
 - automatic exclude: 5
-- effective include: 10
-- effective review: 4
+- effective include: 9
+- effective review: 3
 - effective exclude: 5
 
-## INCLUDE (10)
+## INCLUDE (9)
 
 ---
 action: 
@@ -132,31 +132,7 @@ job_id: jobg8-23643_225513578
 reason: Approved conservative Cambridge launch catchment.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Recruitment Administrator
-company: Cambridge University Hospital NHS Foundation Trust
-location: Cambridge, CB2 0QQ
-source: NHS Jobs
-job_id: nhs-5594409
-reason: Approved conservative Cambridge launch catchment.
----
-
-## REVIEW (4)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrative Assistant
-company: Lantern Community Primary School
-location: Ely
-source: Teaching Vacancies
-job_id: teaching-vacancies-administrative-assistant-lantern-community-primary-school-ely-cambridgeshire
-reason: No approved Cambridge catchment rule matched; local review required.
----
+## REVIEW (3)
 
 ---
 action: 
@@ -200,23 +176,11 @@ reason: No approved Cambridge catchment rule matched; local review required.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Administration Assistant
-company: East of England Community Health and Care NHS Trust (Cambridge)
-location: Huntingdon, PE29 6NT
+title: Administrator - Huntingdon
+company: Vaccination UK
+location: Huntingdon, PE296FH
 source: NHS Jobs
-job_id: nhs-5567386
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Administrator
-company: Arthur Mellows Village College
-location: Peterborough
-source: Teaching Vacancies
-job_id: teaching-vacancies-administrator-9219e9ba-082d-4b75-91ee-2e1cd2dd8f75
+job_id: nhs-5530494
 reason: Separate employment market.
 ---
 
@@ -229,6 +193,18 @@ company: Rosscare - Agency - Contract
 location: Huntingdon
 source: JobG8
 job_id: jobg8-23643_225588023
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Medical Receptionist/ Administrator
+company: Dr Laliwala and Partners
+location: Peterborough, PE1 4FS
+source: NHS Jobs
+job_id: nhs-5575779
 reason: Separate employment market.
 ---
 

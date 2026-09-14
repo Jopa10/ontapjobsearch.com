@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 8
-- automatic review: 30
+- automatic review: 28
 - automatic exclude: 0
 - effective include: 8
-- effective review: 30
+- effective review: 28
 - effective exclude: 0
 
 ## INCLUDE (8)
@@ -120,7 +120,7 @@ job_id: jobg8-23643_225522682
 reason: Exact approved Milton Keynes workplace.
 ---
 
-## REVIEW (30)
+## REVIEW (28)
 
 ---
 action: 
@@ -330,35 +330,11 @@ reason: No exact Milton Keynes workplace matched; local geographic review is req
 action: 
 decision: review
 automatic_decision: review
-title: Examinations Officer
-company: Chiltern Way Academy Trust
-location: Aylesbury
-source: Teaching Vacancies
-job_id: teaching-vacancies-examinations-officer-aeb29f97-ce81-41ec-8b38-81ed01e3315f
-reason: No exact Milton Keynes workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: FInancial and Membership Administrator
 company: Golf - Agency - Permanent
 location: Buckinghamshire
 source: JobG8
 job_id: jobg8-107960560
-reason: No exact Milton Keynes workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: GP Receptionist
-company: Water Meadow Surgery
-location: Chesham, HP5 1ET
-source: NHS Jobs
-job_id: nhs-5559695
 reason: No exact Milton Keynes workplace matched; local geographic review is required.
 ---
 

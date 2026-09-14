@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 1
-- automatic review: 18
+- automatic review: 19
 - automatic exclude: 0
 - effective include: 1
-- effective review: 18
+- effective review: 19
 - effective exclude: 0
 
 ## INCLUDE (1)
@@ -36,7 +36,7 @@ job_id: jobg8-23643_225514239
 reason: Exact approved Wigston workplace.
 ---
 
-## REVIEW (18)
+## REVIEW (19)
 
 ---
 action: 
@@ -47,6 +47,18 @@ company: Stafforce Recruitment - Agency - Permanent
 location: Leicestershire
 source: JobG8
 job_id: jobg8-23643_225516053
+reason: No exact Wigston workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: Hays Business Support - Agency - Temporary
+location: Leicester
+source: JobG8
+job_id: jobg8-23643_225599956
 reason: No exact Wigston workplace matched; local geographic review is required.
 ---
 
@@ -186,18 +198,6 @@ reason: No exact Wigston workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Receptionist
-company: Sherrier Church of England Primary School
-location: Lutterworth
-source: Teaching Vacancies
-job_id: teaching-vacancies-receptionist-sherrier-church-of-england-primary-school
-reason: No exact Wigston workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Recruitment Operations Coordinator
 company: R&V Group Ltd - Agency - Contract
 location: Leicestershire
@@ -239,6 +239,18 @@ company: Ernest Gordon Recruitment Limited - Agency - Permanent
 location: Leicestershire
 source: JobG8
 job_id: jobg8-23643_225546600
+reason: No exact Wigston workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Technical Administrator (Construction)
+company: Ernest Gordon Recruitment Limited - Agency - Permanent
+location: Leicestershire
+source: JobG8
+job_id: jobg8-23643_225599975
 reason: No exact Wigston workplace matched; local geographic review is required.
 ---
 

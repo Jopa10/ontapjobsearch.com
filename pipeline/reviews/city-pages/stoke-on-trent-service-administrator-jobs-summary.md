@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 3
-- automatic review: 13
+- automatic review: 14
 - automatic exclude: 0
 - effective include: 3
-- effective review: 13
+- effective review: 14
 - effective exclude: 0
 
 ## INCLUDE (3)
@@ -60,7 +60,7 @@ job_id: nhs-5583352
 reason: Exact approved Stoke-on-trent workplace.
 ---
 
-## REVIEW (13)
+## REVIEW (14)
 
 ---
 action: 
@@ -167,6 +167,18 @@ company: Kinetic Office Recruitment - Agency - Permanent
 location: Staffordshire
 source: JobG8
 job_id: jobg8-23643_225581869
+reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Procurement and Stock Administrator
+company: Eurocell PLC - Agency - Permanent
+location: Staffordshire
+source: JobG8
+job_id: jobg8-23643_225601163
 reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
 ---
 

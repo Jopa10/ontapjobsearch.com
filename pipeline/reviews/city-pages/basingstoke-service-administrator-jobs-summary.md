@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 6
-- automatic review: 47
+- automatic review: 46
 - automatic exclude: 0
 - effective include: 6
-- effective review: 47
+- effective review: 46
 - effective exclude: 0
 
 ## INCLUDE (6)
@@ -96,7 +96,7 @@ job_id: jobg8-23643_225587076
 reason: Exact approved Basingstoke workplace.
 ---
 
-## REVIEW (47)
+## REVIEW (46)
 
 ---
 action: 
@@ -414,30 +414,6 @@ reason: No exact Basingstoke workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: GP Receptionist
-company: Bartlett Group Practice
-location: Aldershot, GU12 5BA, CAMBERLEY, GU16 6QQ
-source: NHS Jobs
-job_id: nhs-5571549
-reason: No exact Basingstoke workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Housing Repairs Administrator
-company: Thorngate Churcher Trust - Agency - Permanent
-location: Gosport
-source: JobG8
-job_id: jobg8-23643_225537561
-reason: No exact Basingstoke workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: HR Administrator
 company: 4Recruitment Services - Agency - Contract
 location: Lyndhurst
@@ -539,6 +515,18 @@ company: Lloyd Recruitment - Epsom - Agency - Temporary
 location: Portsmouth
 source: JobG8
 job_id: jobg8-23643_225566708
+reason: No exact Basingstoke workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Patient Care Co-ordinator/Receptionist
+company: Abbeywell Surgery
+location: Romsey, SO51 8EN, Romsey, SO517QN
+source: NHS Jobs
+job_id: nhs-5522984
 reason: No exact Basingstoke workplace matched; local geographic review is required.
 ---
 

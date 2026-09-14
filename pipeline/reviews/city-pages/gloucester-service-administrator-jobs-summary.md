@@ -4,7 +4,7 @@
 - Live route: `/gloucester/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 3
+- Effective included jobs: 1
 - Threshold currently met: no
 
 ## How to review
@@ -15,26 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 3
+- automatic include: 1
 - automatic review: 26
 - automatic exclude: 0
-- effective include: 3
+- effective include: 1
 - effective review: 26
 - effective exclude: 0
 
-## INCLUDE (3)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administration Assistant Level 1
-company: Brook Academy
-location: Gloucester
-source: Teaching Vacancies
-job_id: teaching-vacancies-administration-assistant-level-1-brook-academy
-reason: Exact approved Gloucester workplace.
----
+## INCLUDE (1)
 
 ---
 action: 
@@ -45,18 +33,6 @@ company: IDEX Consulting Ltd - Agency - Permanent
 location: Gloucester
 source: JobG8
 job_id: jobg8-1766933
-reason: Exact approved Gloucester workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Senior Administrative Assistant - Immunisation Team
-company: Gloucestershire Health and Care NHS Foundation Trust
-location: Gloucester, GL3 4AW
-source: NHS Jobs
-job_id: nhs-5551856
 reason: Exact approved Gloucester workplace.
 ---
 

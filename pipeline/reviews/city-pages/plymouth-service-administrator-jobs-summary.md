@@ -174,18 +174,6 @@ reason: No exact Plymouth workplace matched; local geographic review is required
 action: 
 decision: review
 automatic_decision: review
-title: Programme Administrator
-company: Royal Devon University Healthcare NHS Foundation Trust
-location: Exeter, EX2 7JQ
-source: NHS Jobs
-job_id: nhs-5567539
-reason: No exact Plymouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Project Coordinator - Exeter
 company: Build Maintain Recruit Limited - Agency - Permanent
 location: Exeter
@@ -203,6 +191,18 @@ company: Elysium Healthcare
 location: Exeter, EX1 3PZ
 source: NHS Jobs
 job_id: nhs-5584272
+reason: No exact Plymouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Receptionist/Administrator
+company: Croft Hall Medical Practice
+location: Torquay, TQ2 5UA
+source: NHS Jobs
+job_id: nhs-5552054
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 

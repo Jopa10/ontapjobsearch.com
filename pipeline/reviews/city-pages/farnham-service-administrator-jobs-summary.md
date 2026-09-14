@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 7
-- automatic review: 55
+- automatic review: 53
 - automatic exclude: 0
 - effective include: 7
-- effective review: 55
+- effective review: 53
 - effective exclude: 0
 
 ## INCLUDE (7)
@@ -108,7 +108,7 @@ job_id: nhs-5589494
 reason: Exact approved Farnham workplace.
 ---
 
-## REVIEW (55)
+## REVIEW (53)
 
 ---
 action: 
@@ -215,18 +215,6 @@ company: Michael Page Marketing - Agency - Permanent
 location: Surrey
 source: JobG8
 job_id: jobg8-1853538
-reason: No exact Farnham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Brand Marketing Assistant
-company: Right Now Group - Agency - Permanent
-location: Surrey
-source: JobG8
-job_id: jobg8-1835738
 reason: No exact Farnham workplace matched; local geographic review is required.
 ---
 
@@ -503,18 +491,6 @@ company: Tate - Agency - Permanent
 location: Surrey
 source: JobG8
 job_id: jobg8-23643_225565720
-reason: No exact Farnham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Office Assistant
-company: Fox Grove School
-location: Leatherhead
-source: Teaching Vacancies
-job_id: teaching-vacancies-office-assistant-fox-grove-school
 reason: No exact Farnham workplace matched; local geographic review is required.
 ---
 

@@ -4,7 +4,7 @@
 - Live route: `/chelmsford/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 12
+- Effective included jobs: 10
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 12
+- automatic include: 10
 - automatic review: 36
 - automatic exclude: 0
-- effective include: 12
+- effective include: 10
 - effective review: 36
 - effective exclude: 0
 
-## INCLUDE (12)
+## INCLUDE (10)
 
 ---
 action: 
@@ -45,18 +45,6 @@ company: Vaccination UK
 location: Chelmsford, CM144LN
 source: NHS Jobs
 job_id: nhs-5446642
-reason: Exact approved Chelmsford workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Claims Handler
-company: Recruit Ins Ltd - Agency - Permanent
-location: Chelmsford
-source: JobG8
-job_id: jobg8-1766462
 reason: Exact approved Chelmsford workplace.
 ---
 
@@ -93,18 +81,6 @@ company: Adecco - Agency - Permanent
 location: Chelmsford
 source: JobG8
 job_id: jobg8-1860176
-reason: Exact approved Chelmsford workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Lettings Administrator
-company: EW Recruitment Limited - Agency - Permanent
-location: Chelmsford
-source: JobG8
-job_id: jobg8-1764211
 reason: Exact approved Chelmsford workplace.
 ---
 

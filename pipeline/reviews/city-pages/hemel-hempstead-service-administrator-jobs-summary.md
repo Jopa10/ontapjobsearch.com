@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 2
-- automatic review: 24
+- automatic review: 23
 - automatic exclude: 0
 - effective include: 2
-- effective review: 24
+- effective review: 23
 - effective exclude: 0
 
 ## INCLUDE (2)
@@ -48,7 +48,7 @@ job_id: nhs-5593452
 reason: Exact approved Hemel Hempstead workplace.
 ---
 
-## REVIEW (24)
+## REVIEW (23)
 
 ---
 action: 
@@ -287,18 +287,6 @@ company: Premier Foods - Agency - Permanent
 location: Hertfordshire
 source: JobG8
 job_id: jobg8-107834189
-reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Senior Communications Officer
-company: Welwyn Hatfield Borough Council - Agency - Permanent
-location: Hertfordshire
-source: JobG8
-job_id: jobg8-1787296
 reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
 ---
 

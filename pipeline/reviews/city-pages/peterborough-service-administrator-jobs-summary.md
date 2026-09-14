@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 3
-- automatic review: 4
-- automatic exclude: 12
+- automatic review: 3
+- automatic exclude: 11
 - effective include: 3
-- effective review: 4
-- effective exclude: 12
+- effective review: 3
+- effective exclude: 11
 
 ## INCLUDE (3)
 
@@ -28,11 +28,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 action: 
 decision: include
 automatic_decision: include
-title: Administrator
-company: Arthur Mellows Village College
-location: Peterborough
-source: Teaching Vacancies
-job_id: teaching-vacancies-administrator-9219e9ba-082d-4b75-91ee-2e1cd2dd8f75
+title: Medical Receptionist/ Administrator
+company: Dr Laliwala and Partners
+location: Peterborough, PE1 4FS
+source: NHS Jobs
+job_id: nhs-5575779
 reason: Approved conservative Peterborough launch catchment.
 ---
 
@@ -60,19 +60,7 @@ job_id: jobg8-1860755
 reason: Approved conservative Peterborough launch catchment.
 ---
 
-## REVIEW (4)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrative Assistant
-company: Lantern Community Primary School
-location: Ely
-source: Teaching Vacancies
-job_id: teaching-vacancies-administrative-assistant-lantern-community-primary-school-ely-cambridgeshire
-reason: No approved Peterborough catchment rule matched; local review required.
----
+## REVIEW (3)
 
 ---
 action: 
@@ -110,17 +98,17 @@ job_id: jobg8-23643_225519683
 reason: No approved Peterborough catchment rule matched; local review required.
 ---
 
-## EXCLUDE (12)
+## EXCLUDE (11)
 
 ---
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Administration Assistant
-company: East of England Community Health and Care NHS Trust (Cambridge)
-location: Huntingdon, PE29 6NT
+title: Administrator - Huntingdon
+company: Vaccination UK
+location: Huntingdon, PE296FH
 source: NHS Jobs
-job_id: nhs-5567386
+job_id: nhs-5530494
 reason: Separate employment market.
 ---
 
@@ -241,17 +229,5 @@ company: Peasgood & Skeates - Agency - Permanent
 location: Cambridge
 source: JobG8
 job_id: jobg8-23643_225513578
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Recruitment Administrator
-company: Cambridge University Hospital NHS Foundation Trust
-location: Cambridge, CB2 0QQ
-source: NHS Jobs
-job_id: nhs-5594409
 reason: Separate employment market.
 ---

@@ -4,7 +4,7 @@
 - Live route: `/aylesbury/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 3
+- Effective included jobs: 2
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 3
-- automatic review: 35
+- automatic include: 2
+- automatic review: 34
 - automatic exclude: 0
-- effective include: 3
-- effective review: 35
+- effective include: 2
+- effective review: 34
 - effective exclude: 0
 
-## INCLUDE (3)
+## INCLUDE (2)
 
 ---
 action: 
@@ -40,18 +40,6 @@ reason: Exact approved Aylesbury workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Examinations Officer
-company: Chiltern Way Academy Trust
-location: Aylesbury
-source: Teaching Vacancies
-job_id: teaching-vacancies-examinations-officer-aeb29f97-ce81-41ec-8b38-81ed01e3315f
-reason: Exact approved Aylesbury workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Medical Receptionist
 company: Primary Care Management Solutions Ltd
 location: Aylesbury, HP21 8TR
@@ -60,7 +48,7 @@ job_id: nhs-5573111
 reason: Exact approved Aylesbury workplace.
 ---
 
-## REVIEW (35)
+## REVIEW (34)
 
 ---
 action: 
@@ -287,18 +275,6 @@ company: Golf - Agency - Permanent
 location: Buckinghamshire
 source: JobG8
 job_id: jobg8-107960560
-reason: No exact Aylesbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: GP Receptionist
-company: Water Meadow Surgery
-location: Chesham, HP5 1ET
-source: NHS Jobs
-job_id: nhs-5559695
 reason: No exact Aylesbury workplace matched; local geographic review is required.
 ---
 

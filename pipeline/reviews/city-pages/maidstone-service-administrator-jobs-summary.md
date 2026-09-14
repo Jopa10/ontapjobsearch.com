@@ -16,15 +16,15 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 0
-- automatic review: 57
+- automatic review: 54
 - automatic exclude: 0
 - effective include: 0
-- effective review: 57
+- effective review: 54
 - effective exclude: 0
 
 ## INCLUDE (0)
 
-## REVIEW (57)
+## REVIEW (54)
 
 ---
 action: 
@@ -258,35 +258,11 @@ reason: No exact Maidstone workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Housing Administrator
-company: RG Setsquare - Agency - Temporary
-location: Sittingbourne
-source: JobG8
-job_id: jobg8-23643_225499803
-reason: No exact Maidstone workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: HR Administrator
 company: Earl Street Employment Consultants Ltd - Agency - Permanent
 location: Dartford
 source: JobG8
 job_id: jobg8-1875398
-reason: No exact Maidstone workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: HR Administrator (FTC)
-company: Cygnet - Agency - Permanent
-location: Kent
-source: JobG8
-job_id: jobg8-1839679
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 
@@ -587,18 +563,6 @@ company: The Grovehurst Surgery
 location: Sittingbourne, ME10 2ST
 source: NHS Jobs
 job_id: nhs-5589840
-reason: No exact Maidstone workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Receptionist/administrator
-company: Apex Medical practice
-location: Rochester, ME2 4UW
-source: NHS Jobs
-job_id: nhs-5558403
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 

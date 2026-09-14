@@ -4,7 +4,7 @@
 - Live route: `/liverpool/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 19
+- Effective included jobs: 15
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 19
+- automatic include: 15
 - automatic review: 2
 - automatic exclude: 0
-- effective include: 19
+- effective include: 15
 - effective review: 2
 - effective exclude: 0
 
-## INCLUDE (19)
+## INCLUDE (15)
 
 ---
 action: 
@@ -52,18 +52,6 @@ reason: Approved conservative Liverpool launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Business Crime Reduction Coordinator
-company: Brook Street UK - Agency - Permanent
-location: Liverpool
-source: JobG8
-job_id: jobg8-107947436
-reason: Approved conservative Liverpool launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Business Support Co-ordinator
 company: Recruitment Services UK - Agency - Permanent
 location: Liverpool
@@ -81,18 +69,6 @@ company: Keoghs LLP - Agency - Permanent
 location: Liverpool
 source: JobG8
 job_id: jobg8-1830080
-reason: Approved conservative Liverpool launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Digital Marketing Apprentice
-company: NowSkills - Agency - Contract
-location: Liverpool
-source: JobG8
-job_id: jobg8-107940598
 reason: Approved conservative Liverpool launch catchment.
 ---
 
@@ -161,34 +137,10 @@ action:
 decision: include
 automatic_decision: include
 title: Receptionist
-company: King's Leadership Academy Wavertree
-location: Liverpool
-source: Teaching Vacancies
-job_id: teaching-vacancies-receptionist-king-s-leadership-academy-wavertree-liverpool
-reason: Approved conservative Liverpool launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Receptionist
 company: Mersey Care NHS Foundation Trust
 location: Liverpool, L15 2LQ
 source: NHS Jobs
 job_id: nhs-5593564
-reason: Approved conservative Liverpool launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Receptionist and Administrator
-company: GP Practice Riverside
-location: Liverpool, L8 6QP, Liverpool, L7 6HD
-source: NHS Jobs
-job_id: nhs-5582318
 reason: Approved conservative Liverpool launch catchment.
 ---
 

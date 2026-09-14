@@ -4,7 +4,7 @@
 - Live route: `/leicester/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 4
+- Effective included jobs: 5
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,26 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 4
+- automatic include: 5
 - automatic review: 15
 - automatic exclude: 0
-- effective include: 4
+- effective include: 5
 - effective review: 15
 - effective exclude: 0
 
-## INCLUDE (4)
+## INCLUDE (5)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administrator
+company: Hays Business Support - Agency - Temporary
+location: Leicester
+source: JobG8
+job_id: jobg8-23643_225599956
+reason: Exact approved Leicester workplace.
+---
 
 ---
 action: 
@@ -186,18 +198,6 @@ reason: No exact Leicester workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Receptionist
-company: Sherrier Church of England Primary School
-location: Lutterworth
-source: Teaching Vacancies
-job_id: teaching-vacancies-receptionist-sherrier-church-of-england-primary-school
-reason: No exact Leicester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Recruitment Operations Coordinator
 company: R&V Group Ltd - Agency - Contract
 location: Leicestershire
@@ -239,6 +239,18 @@ company: Ernest Gordon Recruitment Limited - Agency - Permanent
 location: Leicestershire
 source: JobG8
 job_id: jobg8-23643_225546600
+reason: No exact Leicester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Technical Administrator (Construction)
+company: Ernest Gordon Recruitment Limited - Agency - Permanent
+location: Leicestershire
+source: JobG8
+job_id: jobg8-23643_225599975
 reason: No exact Leicester workplace matched; local geographic review is required.
 ---
 

@@ -4,7 +4,7 @@
 - Live route: `/oxford/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 6
+- Effective included jobs: 7
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,26 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 6
+- automatic include: 7
 - automatic review: 10
-- automatic exclude: 13
-- effective include: 6
+- automatic exclude: 14
+- effective include: 7
 - effective review: 10
-- effective exclude: 13
+- effective exclude: 14
 
-## INCLUDE (6)
+## INCLUDE (7)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Commercial Property Secretary
+company: Allstaff Recruitment - Agency - Permanent
+location: Oxford
+source: JobG8
+job_id: jobg8-1851565
+reason: Approved conservative Oxford launch catchment.
+---
 
 ---
 action: 
@@ -218,7 +230,7 @@ job_id: jobg8-23643_225461932
 reason: No approved Oxford catchment rule matched; local review required.
 ---
 
-## EXCLUDE (13)
+## EXCLUDE (14)
 
 ---
 action: 
@@ -337,6 +349,18 @@ company: Allen Associates - Agency - Contract
 location: Oxfordshire
 source: JobG8
 job_id: jobg8-23643_225570239
+reason: Broad county location; not Oxford-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Receptionist
+company: Winsearch - Agency - Temporary
+location: Oxfordshire
+source: JobG8
+job_id: jobg8-23643_225586323
 reason: Broad county location; not Oxford-city evidence.
 ---
 

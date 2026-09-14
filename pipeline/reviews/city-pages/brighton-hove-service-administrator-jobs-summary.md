@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 7
-- automatic review: 18
+- automatic review: 16
 - automatic exclude: 7
 - effective include: 7
-- effective review: 18
+- effective review: 16
 - effective exclude: 7
 
 ## INCLUDE (7)
@@ -108,7 +108,7 @@ job_id: nhs-5587236
 reason: Approved Brighton & Hove catchment.
 ---
 
-## REVIEW (18)
+## REVIEW (16)
 
 ---
 action: 
@@ -162,18 +162,6 @@ reason: No approved Brighton & Hove catchment rule matched; local review require
 action: 
 decision: review
 automatic_decision: review
-title: Customer Service Co-ordinator
-company: UK Power Networks (Operations) Ltd - Company - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-23643_225548414
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Finance Assistant
 company: First Recruitment Services - Agency - Permanent
 location: Sussex
@@ -215,18 +203,6 @@ company: Trident - Agency - Permanent
 location: Sussex
 source: JobG8
 job_id: jobg8-1843728
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Part Time Receptionist
-company: First Recruitment Services - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-23643_225283461
 reason: Broad location; review before city inclusion.
 ---
 

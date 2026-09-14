@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 4
-- automatic review: 14
+- automatic review: 13
 - automatic exclude: 0
 - effective include: 4
-- effective review: 14
+- effective review: 13
 - effective exclude: 0
 
 ## INCLUDE (4)
@@ -72,7 +72,7 @@ job_id: nhs-5594951
 reason: Exact approved Bedford workplace.
 ---
 
-## REVIEW (14)
+## REVIEW (13)
 
 ---
 action: 
@@ -83,18 +83,6 @@ company: Proactive Personnel Ltd - Agency - Contract
 location: Sandy
 source: JobG8
 job_id: jobg8-23643_225505564
-reason: No exact Bedford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Early Careers Coordinator
-company: BPHA - Agency - Permanent
-location: Bedfordshire
-source: JobG8
-job_id: jobg8-107933358
 reason: No exact Bedford workplace matched; local geographic review is required.
 ---
 
@@ -119,6 +107,18 @@ company: Penguin Recruitment - Agency - Permanent
 location: Bedfordshire
 source: JobG8
 job_id: jobg8-23643_225595761
+reason: No exact Bedford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Medical Receptionist
+company: Ashcroft Surgery
+location: Leighton Buzzard, LU7 0EN
+source: NHS Jobs
+job_id: nhs-5565873
 reason: No exact Bedford workplace matched; local geographic review is required.
 ---
 
@@ -215,18 +215,6 @@ company: Hamberley Care Management Limited - Company - Permanent
 location: Bedfordshire
 source: JobG8
 job_id: jobg8-23643_225580197
-reason: No exact Bedford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Team Administrator
-company: East London NHS Foundation Trust
-location: Luton, LU1 2PJ
-source: NHS Jobs
-job_id: nhs-5568712
 reason: No exact Bedford workplace matched; local geographic review is required.
 ---
 
