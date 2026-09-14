@@ -1,6 +1,6 @@
 # Support-worker manual review
 
-feed_date: 2026-09-13
+feed_date: 2026-09-14
 
 Edit only the `action:` line in each block:
 
@@ -283,12 +283,6 @@ job_id: 23643_225575334
 
 ---
 action:
-SELECTED | London | London | £18 - £20 per hour | Family Support Worker
-job_id: 1834903
----
-
----
-action:
 SELECTED | London | London | £16.14 per hour | Care Worker
 job_id: 23643_225579170
 ---
@@ -319,6 +313,12 @@ job_id: 107885503
 
 ---
 action:
+SELECTED | London | London | £31,748.77 per annum | Specialist Support Worker
+job_id: 1898703
+---
+
+---
+action:
 SELECTED | London | London | £30,784.00 per annum | Support worker
 job_id: 1898675
 ---
@@ -339,12 +339,6 @@ job_id: 23643_225543862
 action:
 SELECTED | Oxfordshire | Oxford | £85 - £110 per daily | Behaviour Support Assistant - Oxford
 job_id: 1819710
----
-
----
-action:
-SELECTED | Oxfordshire | Burford | £3,840 per year | Children's Residential Support Worker
-job_id: 25362_JR105004
 ---
 
 ## OXFORDSHIRE — POSSIBLES
