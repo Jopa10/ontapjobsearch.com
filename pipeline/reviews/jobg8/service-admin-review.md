@@ -266,11 +266,10 @@ job_id: 20279_62295-153faf593eb64b88272f45adeaa28d87
 ## SOUTH YORKSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - YORKSHIRE - SOUTH | Yorkshire - South | Sheffield | £200 - £250 per daily | HR Administrator
 job_id: 23643_225599384
 ---
-
 ## NORTH EAST — SELECTED
 
 _No jobs in this group._
@@ -5004,11 +5003,10 @@ job_id: 107840501
 ## STAFFORDSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - STAFFORDSHIRE | Staffordshire | Staffordshire | £35000 per year | Procurement and Stock Administrator
 job_id: 23643_225601163
 ---
-
 ## SUFFOLK — SELECTED
 
 ---
@@ -5074,11 +5072,10 @@ job_id: 1894195
 ## SUFFOLK — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - SUFFOLK | Suffolk | Suffolk | £45000 per year | Commercial Claims Handler
 job_id: 107968791
 ---
-
 ## WALES SOUTH - CARDIFF & VALE — SELECTED
 
 ---
