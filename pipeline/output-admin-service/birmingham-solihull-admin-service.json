@@ -134,6 +134,31 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "23643_225557310",
+    "title": "Receptionist",
+    "company": "Major Recruitment Oldbury - Agency - Permanent",
+    "location": "Birmingham",
+    "region": "West Midlands - Birmingham & Solihull",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "25500",
+    "salary_max": "25500",
+    "salary_text": "£25500 per year (Parking)",
+    "posted_date": "",
+    "description": "Major Recruitment Oldbury are delighted to be recruiting for our award winning client who are seeking an experienced receptionist to join their Shirley offices.\n\nThis role is full-time, Monday - Thursday 9.00am - 5.30pm and Friday 9.00am - 5.00pm. (These hours are none-negotiable so please only reply if you can commit to these hours).\n\nDuties and tasks will include:\n- Welcoming clients and visitors upon arrival at reception as well as answering, screening, and forwarding phone calls in a professional manner\n- Photocopying, scanning and printing a variety of documents\n- Liaise with staff in other departments and with external contacts\n- Booking meeting rooms and keeping meeting rooms tidy\n- Ordering stationary supplies\n\nCandidates welcome to apply for the role will have the following:\n- Professional and friendly, with a confident telephone manner\n- Be a problem solver with a can-do attitude\n- Be a team player with the ability to work independently\n- Good attention to detail\n- Experience within a reception role is desirable\n\nYou may also be required to provide holiday and sickness cover to their Sheldon site.\n\nMajor Recruitment is acting as an Employment Agency in relation to permanent vacancies and as an Employment Business in relation to temporary or contract vacancies, as defined under the Conduct of Employment Agencies and Employment Businesses Regulations 2003.\n\nINDLS",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?Dw9iAXzSqBYe5Vk%2f2dv7%2fukSqUvuvqxTk",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Major Recruitment Oldbury",
+    "advertiser_type": "Agency",
+    "work_pattern": "Full Time",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
     "job_id": "23643_225575146",
     "title": "Recruitment Administrator - Healthcare Recruitment",
     "company": "Brookes HC Recruitment Ltd - Agency - Permanent",
@@ -203,31 +228,6 @@
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
     "advertiser_name": "University Hospitals Birmingham Charity",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
-    "job_id": "1785910",
-    "title": "Casualty Claims Handler",
-    "company": "Adjusting Appointments Limited - Agency - Permanent",
-    "location": "Birmingham",
-    "region": "West Midlands - Birmingham & Solihull",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "",
-    "posted_date": "",
-    "description": "A renowned National Loss Adjusting Organisation are now seeking an experienced Liability Claims Handler to join their specialist Casualty Liability Team.\n- You will handle a variety of specialist Liability claims on behalf of a number of Public Sector clients.\n- You will manage and be responsible for your own caseload of losses, being part of a dedicated team you will play a vital part of the business by providing an exceptional claims service to key clients.\n- Due to growth and expansion this will be an exciting time to join where you will be offered the opportunity to progress and develop long-term.\n\nKey responsibilities:\n- Handle a variety of casualty/personal injury claims through to settlement\n- Verify policy cover/validity\n- Log and record all claims digitally\n- Investigate allocated claims either from desk or instructed by the team of loss adjusters\n- Where appropriate refer to a field adjuster for site investigation to establish how the loss occurred\n- Gather all necessary evidence and relevant documentation\n- Determine appropriate action for resolution\n- Make decision on liability and negotiate settlement where appropriate\n- Keep up to date with any technical changes within the industry and to your role which may involve participating in training programmes within the company\n\nAbout you:\n- Liability/Casualty Claims handling experience working in the Loss Adjusting, Insurance or Legal Sector\n- Experience of handling your caseload of claims through to settlement\n- The ability to value an injury loss\n- Experience of handling defendant losses\n- The ability or understand insurance policy wordings and the insurance market\n- Knowledge of civil procedure rules and the claims portal\n- Excellent communication skills both verbal and written\n- Good planning and organisational skills\n- Solid IT skills and be able to use multiple in-house systems\n- Insurance Industry Qualifications or working towards desirable\n\nBenefits on Offer:\n- Remote or hybrid depending on location, 35 hours per week Monday to Friday\n- Flexible benefits including holiday purchase plan and the opportunity to purchase health cash and BUPA dental plan, flexible working, 5% pension, life assurance 4 x, enhanced maternity, paternity, and adoption pay, discounts with UK retailers, wellbeing hub and many more",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?bZCSDJyF3N4HUXt3Gcb5EfA3ig8E9kqVq",
-    "source": "JobG8",
-    "working_arrangement": "hybrid",
-    "working_arrangement_text": "Hybrid working",
-    "working_arrangement_evidence": "Key responsibilities: - Handle a variety of casualty/personal injury claims through to settlement - Verify policy cover/validity - Log and record all claims digitally - Investigate allocated claims either from desk or instructed by the team of loss adjusters - Where appropriate refer to a field adjuster for site investigation to establish how the loss occurred - Gather all necessary evidence and relevant documentation - Determine appropriate action for resolution - Make decision on liability and negotiate settlement where appropriate - Keep up to date with any technical changes within the industry and to your role which may involve participating in training programmes within the company About you: - Liability/Casualty Claims handling experience working in the Loss Adjusting, Insurance or Legal Sector - Experience of handling your caseload of claims through to settlement - The ability to value an injury loss - Experience of handling defendant losses - The ability or understand insurance policy wordings and the insurance market - Knowledge of civil procedure rules and the claims portal - Excellent communication skills both verbal and written - Good planning and organisational skills ",
-    "advertiser_name": "Adjusting Appointments Limited",
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
@@ -549,7 +549,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1924-26-0030",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1924-26-0030",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5566975",
@@ -567,7 +571,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/L0034-26-3590",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/L0034-26-3590",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5595583",
@@ -585,7 +593,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/L0034-26-3800",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/L0034-26-3800",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5587707",
@@ -603,7 +615,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3718-26-0004",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3718-26-0004",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5547612",
@@ -621,6 +637,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5266-26-0003",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5266-26-0003",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

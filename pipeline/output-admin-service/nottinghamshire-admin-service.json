@@ -334,31 +334,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "1764659",
-    "title": "Lettings Administrator",
-    "company": "GCB Recruitment - Agency - Permanent",
-    "location": "Nottinghamshire",
-    "region": "Nottinghamshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "",
-    "posted_date": "",
-    "description": "Lettings Administrator £27,500 Basic + Career Progression Independent Agency\n\nHighly organised with a strong administrative background and looking to build a career in the property industry?\n\nWe're recruiting for a Lettings Administrator to join a well-established and growing independent lettings agency. This is an excellent opportunity for someone with strong organisational and customer service skills, whether you're already working in lettings or looking to break into the industry.\n\nYou'll play a key role in ensuring tenancies progress smoothly from offer agreed through to move-in, providing an exceptional experience for both landlords and tenants.\n\nThe Role\n\nAs a Lettings Administrator, you will:\n- Manage the tenancy progression process from agreed let through to move-in\n- Liaise with landlords and tenants throughout the tenancy process\n- Prepare tenancy agreements and associated documentation\n- Coordinate compliance checks and referencing\n- Ensure all paperwork is completed accurately and within required timescales\n- Provide regular updates to all parties involved\n- Resolve queries efficiently while delivering outstanding customer service\n- Support the wider lettings team with administrative tasks where required\n\nLettings Administrator Requirements\n- Previous lettings experience is beneficial but not essential\n- Strong administration and organisational skills\n- Excellent communication and telephone manner\n- Computer literate with the ability to learn new systems\n- Positive, proactive, and customer-focused approach\n- Able to work effectively both independently and as part of a team\n\nWhat's on Offer?\n- Basic salary of £27,500\n- Monday-Friday working hours (8:30am-5:00pm)\n- Excellent career progression opportunities\n- Full training and support for candidates new to the industry\n- Supportive and collaborative working environment\n- Opportunity to join a successful and growing independent lettings agency\n\nApply Today!\n\nIf you're an experienced Tenancy Progressor, Lettings Administrator, or an organised administrator looking to start a career in the property industry, we'd love to hear from you.\n\nApply now, and we'll review your application within 48 hours. Suitable candidates will be contacted directly.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?wTAUM266l6e%2fr6NeiooCFVKtul3wuh9Ch",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "GCB Recruitment",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "23643_225582414",
     "title": "Customer Service Advisor - Spanish Speaking",
     "company": "Advancing People - Agency - Permanent",
@@ -484,31 +459,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "107803492",
-    "title": "Recruitment Account Coordinator",
-    "company": "Staffline Divisions - Agency - Temporary",
-    "location": "Nottinghamshire",
-    "region": "Nottinghamshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Temporary",
-    "salary_min": "13.5",
-    "salary_max": "13.5",
-    "salary_text": "£13.5 per hour",
-    "posted_date": "",
-    "description": "Do you have flexibility and a positive attitude toward delivering excellent service? If so, apply today to work as a Recruitment Account Coordinator for our client, a third-party logistics provider who collaborates with well-known fashion, home, and beauty brands!\n\nStaffline is recruiting a Recruitment Account Coordinator in Ollerton, Newark click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?nbYVUHO1tX4ewXZVFgSKqo4IGpSD%2by%2bsz",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Staffline Divisions",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Hourly",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "1845220",
     "title": "HR Assistant",
     "company": "Blusource - Agency - Permanent",
@@ -534,6 +484,31 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "107803492",
+    "title": "Recruitment Account Coordinator",
+    "company": "Staffline Divisions - Agency - Temporary",
+    "location": "Nottinghamshire",
+    "region": "Nottinghamshire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Temporary",
+    "salary_min": "13.5",
+    "salary_max": "13.5",
+    "salary_text": "£13.5 per hour",
+    "posted_date": "",
+    "description": "Do you have flexibility and a positive attitude toward delivering excellent service? If so, apply today to work as a Recruitment Account Coordinator for our client, a third-party logistics provider who collaborates with well-known fashion, home, and beauty brands!\n\nStaffline is recruiting a Recruitment Account Coordinator in Ollerton, Newark click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?mDcEDJmYTbwewEvxjHl7fmHQhpItnilAt",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Staffline Divisions",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Hourly",
+    "posted_date_basis": ""
+  },
+  {
     "job_id": "nhs-5571078",
     "source": "NHS Jobs",
     "title": "Receptionist /Admin",
@@ -549,7 +524,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4604-26-0006",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4604-26-0006",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5589141",
@@ -567,7 +546,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0045-26-0086",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0045-26-0086",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5584692",
@@ -585,7 +568,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3810-26-0000",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3810-26-0000",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5586182",
@@ -603,7 +590,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0327-26-0457",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0327-26-0457",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5586180",
@@ -621,6 +612,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0327-26-0456",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0327-26-0456",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

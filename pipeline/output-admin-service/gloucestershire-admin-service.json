@@ -25,31 +25,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "107864211",
-    "title": "Field Care Team Administrator",
-    "company": "Anderson Recruitment - Agency - Permanent",
-    "location": "Gloucestershire",
-    "region": "Gloucestershire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "14",
-    "salary_max": "14",
-    "salary_text": "£14 per hour",
-    "posted_date": "",
-    "description": "Our local client based in Quedgeley, Gloucester has a genuine rewarding permanent opportunity to join a fun and friendly workplace where you are valued.If youre someone who is motivated by making a real difference, this really does offer a strong and fulfilling next step.\n\nThey are a proud local business, committed to providing a truly personal service to every client they support click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?Zg1fD7qgbpy7gMxHFjHUedeZERH5ClvQe",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Anderson Recruitment",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Hourly",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "23643_225522823",
     "title": "Scheduling Administrator",
     "company": "First Base - Agency - Permanent",
@@ -390,7 +365,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1227-26-0011",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1227-26-0011",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5579261",
@@ -408,7 +387,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9327-26-0748",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9327-26-0748",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5551929",
@@ -426,6 +409,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9327-26-0701",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9327-26-0701",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

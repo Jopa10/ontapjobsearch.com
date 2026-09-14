@@ -125,31 +125,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "1878240",
-    "title": "Interim Finance Assistant",
-    "company": "Robertson Bell - Agency - Permanent",
-    "location": "Warwickshire",
-    "region": "West Midlands - Coventry & Warwickshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "22",
-    "salary_max": "23",
-    "salary_text": "£22 - £23 per hour",
-    "posted_date": "",
-    "description": "Interim Finance Assistant\n\nLocation: A short walk from Rugby Station\nWorking Arrangement: Fully on-site\nContract: 6 weeks\nHours: 21-28 hours per week\nPay: £22-£23 per hour via Umbrella\n\nWe are working with an organisation in Rugby that is seeking an experienced Finance Assistant for an urgent 6-week interim assignment.\n\nThis is an ideal opportunity for an immediately available finance professional with hands-on experience using IRIS PS Financials, who can hit the ground running with minimal or no training.\n\nThe successful candidate will provide essential support to the finance team during a particularly busy period, taking ownership of routine transactional tasks and helping to ensure the wider team can focus on key priorities.\n\nThe Role\n\nWorking as part of a busy finance function, you will provide hands on support across a range of day to day finance administration and transactional duties.\n\nYour responsibilities will include:\n- Processing purchase orders and invoices.\n- Inputting invoices accurately into the finance system.\n- Following up outstanding invoices and resolving queries.\n- Investigating and resolving invoice issues where required.\n- Supporting pay administration via apps, including setting up new accounts and configuring options.\n- Providing general transactional finance support to the wider team.\n- Helping to maintain smooth and efficient finance processes during a period of increased workload.\n\nAbout You\n\nYou will ideally have:\n- Previous experience in a Finance Assistant, Accounts Assistant or similar transactional finance role.\n- Good understanding of purchase orders, invoices and general finance processes.\n- Strong attention to detail and accuracy.\n- The ability to work independently and manage routine tasks efficiently.\n- A proactive and flexible approach.\n- The ability to quickly adapt to new environments and systems.\n- Excellent communication skills.\n\nAs the role involves working with vulnerable individuals, appropriate safeguarding and DBS checks will be required.\n\nApply Now",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?b0ZSEQFKUCKxkbw29EeRAI4T7BdDDJhdl",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Robertson Bell",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Hourly",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "23643_225505608",
     "title": "Customer Service Advisor - Full Time",
     "company": "Adecco - Agency - Permanent",
@@ -615,6 +590,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0908-24-0000",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0908-24-0000",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

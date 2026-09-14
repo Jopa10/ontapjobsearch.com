@@ -3,14 +3,26 @@
 review_date: 2026-09-14
 
 - Open Administrative & Clerical rows reviewed: 2079
-- Auto/remembered selected: 378
-- Selected HC Tier A: 187
+- Auto/remembered selected: 379
+- Selected HC Tier A: 188
 - Selected HC Tier B: 191
-- POSS awaiting decision: 1559
+- POSS awaiting decision: 1558
 - Excluded: 0
 - HARD_PASS: 142
 
 Edit only each `action:` line for POSS rows. Unchanged decisions are restored by the shared decision ledger.
+
+---
+action:
+POSS | NHS Jobs | — | Pocklington, YO42 2BS | £13.45 | Full Time Care Navigator (Receptionist)
+source_job_id: 5598972
+title: Full Time Care Navigator (Receptionist)
+employer: Pocklington Group Practice
+region: 
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A1360-26-0014
+factual_fingerprint: be5349853be1248e6d88435a9e4637f09996438002eec26e8aa287c8852244ae
+---
 
 ---
 action:
@@ -322,18 +334,6 @@ region: London
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9391-26-1588
 factual_fingerprint: 12807c03a42d61f904f4810e54af0f90ab75555a335d4454f3615a14a47362e2
----
-
----
-action:
-POSS | NHS Jobs | London | London, N18 1QX | £30142.00 | Band 2 Ward Clerk Receptionist
-source_job_id: 5598250
-title: Band 2 Ward Clerk Receptionist
-employer: Royal Free London NHS Foundation Trust
-region: London
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9391-26-1589
-factual_fingerprint: 4666eb835b9c6baaa258d0156dd92e2faccf4e5ffc3cee422565a2427e173580
 ---
 
 ---
@@ -3382,18 +3382,6 @@ region: Nottinghamshire
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/B9828-26-0203
 factual_fingerprint: 8d8ab2e7cc80f9048caf3c4f915b1625172398d4ee85531637a943fe0b22fcd8
----
-
----
-action:
-POSS | NHS Jobs | Berkshire | Slough, SL2 4HL | £27106.00 to £28850.00 | Clinical Admin Officer - Orthopaedics
-source_job_id: 5594938
-title: Clinical Admin Officer - Orthopaedics
-employer: Frimley Health NHS Foundation Trust
-region: Berkshire
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9151-26-1158
-factual_fingerprint: d9354fe6cc84a85d62c29b350ee11f948a79f1d3b13e42ee6320729d1346ae87
 ---
 
 ---

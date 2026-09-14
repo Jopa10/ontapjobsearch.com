@@ -200,6 +200,28 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "nhs-5598299",
+    "source": "NHS Jobs",
+    "title": "Receptionist",
+    "company": "Norfolk Primary Care C.I.C.",
+    "advertiser_name": "Norfolk Primary Care C.I.C.",
+    "location": "Great Yarmouth, NR31 8HS",
+    "region": "Norfolk",
+    "salary": "£24852.66",
+    "employment_type": "Permanent",
+    "posted_date": "2026-09-14T13:50:23.711609104",
+    "closing_date": "2026-09-28",
+    "description": "Unfortunately NPC does not hold a license for Visa Sponsorship and cannot progress any applications for candidates without the right to work in the UK. To undertake a wide range of reception duties and provide comprehensive support to the multidisciplinary team. The post holder will act as a central point of contact for patients and external agencies, ensuring the effective processing of correspondence, appointment management, electronic workflows (including Footfall and SYSTMOne), telephone enquiries, and general administrative functions. The role includes greeting and directing patients, managing incoming and outgoing communications, accurately coding and processing clinical information, and supporting the smooth day-to-day running of the practice. The Receptionist will liaise with clinicians, administrative colleagues, secondary care providers, and community services to ensure high standards of patient care and operational efficiency. The following are core responsibilities. There may be occasions where additional duties are required depending on workload and staffing levels. 1. Reception Duties Greet patients and visitors in a professional, courteous, and confidential manner Direct patients to appropriate services or clinicians Manage appointment bookings in line with practice protocols Effectively utilise Footfall and SYSTMOne appointment systems Respond appropriately to patient enquiries at front desk 2. Telephone Duties Answer incoming calls promptly and courteously Manage the admin/referral line Make outgoing calls to patients and healthcare professionals Accurately document telephone communications Redirect calls or escalate issues where necessary 3. Footfall Monitoring Monitor Footfall daily Respond to general enquiries 4. Tasks and Workflow Management Monitor and action reception tasks daily Prioritise urgent tasks Communicate clearly with relevant team members Secondary Responsibilities Book urgent appointments (excluding DRS/UDT where specified) Complete ICE form requests Follow weekly reception rota Attend meetings and training sessions Monitor and respond to Teams notifications Undertake additional duties commensurate with the role",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0179-1092",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0179-1092",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
+  },
+  {
     "job_id": "nhs-5578957",
     "source": "NHS Jobs",
     "title": "Receptionist/Call Handler",
@@ -215,6 +237,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1039-26-0010",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1039-26-0010",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

@@ -250,6 +250,31 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "107967016",
+    "title": "Service Advisor",
+    "company": "Thrive Group - Agency - Permanent",
+    "location": "Wiltshire",
+    "region": "Wiltshire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "",
+    "posted_date": "",
+    "description": "Thrive Group are delighted to be working with our client based in Trowbridge who a looking to recruit a Service Advisor on a permanent basis\n\nWhat you will be doing:\n- Greet customers bringing in their vehicle to find out if they any issues.\n- Conduct vehicle inspections and provide detailed reports to customers click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?io0x8AEcaIN1SSj5YFq31HDEJff8uycKo",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Thrive Group",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
     "job_id": "nhs-5591907",
     "source": "NHS Jobs",
     "title": "Administrator",
@@ -265,7 +290,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0279-26-2439",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0279-26-2439",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5593021",
@@ -283,6 +312,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/L0034-26-3777",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/L0034-26-3777",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

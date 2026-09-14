@@ -1,33 +1,5 @@
 [
   {
-    "job_id": "teaching-vacancies-receptionist-1dcaf299-1719-4cef-a999-af235a29010e",
-    "title": "Receptionist",
-    "company": "Wildern School",
-    "location": "Southampton",
-    "region": "Hampshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['full time']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "£25,614.00 Annually (FTE) Grade B – Step 1 - Actual Annual Salary £21,041.02 (which is equivalent to a full-time salary of £25,614",
-    "work_pattern": "",
-    "posted_date": "2026-08-15",
-    "closing_date": "2026-09-14",
-    "closing_datetime": "2026-09-14T12:00:00+01:00",
-    "summary": "Receptionist with Wildern School in Southampton. ['full time']; £25,614.00 Annually (FTE) Grade B – Step 1 - Actual Annual Salary £21,041.02 (which is equivalent to a full-time salary of £25,614.",
-    "description": "Wildern School is recruiting for this vacancy in Southampton.\n\nThe advertised position is Receptionist.\n\nThe source lists the employment type as ['full time'].\n\nThe advertised salary or pay scale is £25,614.00 Annually (FTE) Grade B – Step 1 - Actual Annual Salary £21,041.02 (which is equivalent to a full-time salary of £25,614.\n\nThe stated application deadline is 2026-09-14T12:00:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/receptionist-1dcaf299-1719-4cef-a999-af235a29010e?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Wildern School",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
-  },
-  {
     "job_id": "teaching-vacancies-exams-officer-and-assessment-data-co-ordinator",
     "title": "Exams Officer and Assessment Data Co ordinator",
     "company": "Perins School",
@@ -556,31 +528,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "107787258",
-    "title": "Customer Service Coordinator",
-    "company": "The Workshop - Agency - Contract",
-    "location": "Hampshire",
-    "region": "Hampshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Contract",
-    "salary_min": "28000",
-    "salary_max": "28000",
-    "salary_text": "£28000 per year",
-    "posted_date": "",
-    "description": "Are you an organised and customer-focused professional looking for your next step as a Customer Service Coordinator This is a fantastic opportunity to join a well-established and growing business within the construction sector.\n\nAs a Customer Service Coordinator, you'll play a key role in ensuring customer enquiries and orders are handled efficiently, while supporting transport operations click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?MQiKzVwZdh2rDmd8Y0FJ7eT1u%2fJbtrenu",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "The Workshop",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "23643_225587076",
     "title": "Service Coordinator",
     "company": "Veolia - Agency - Permanent",
@@ -1071,7 +1018,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0327-26-0465",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0327-26-0465",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5586737",
@@ -1089,7 +1040,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/M9301-26-0217",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/M9301-26-0217",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5591061",
@@ -1107,7 +1062,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0327-26-0005",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0327-26-0005",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5590543",
@@ -1125,7 +1084,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0505-26-0412",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0505-26-0412",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5577957",
@@ -1143,7 +1106,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3415-26-0006",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3415-26-0006",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5589814",
@@ -1161,7 +1128,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9348-26-1952",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9348-26-1952",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5585230",
@@ -1179,7 +1150,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9348-26-1946",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9348-26-1946",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5573045",
@@ -1197,7 +1172,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0177-26-9523",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0177-26-9523",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5522934",
@@ -1215,7 +1194,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0177-26-8613",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0177-26-8613",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5522984",
@@ -1233,6 +1216,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3744-26-0002",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3744-26-0002",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]
