@@ -1,7 +1,7 @@
 # North East Jobs ETL proof-of-concept review
 
-review_date: 2026-09-13
-review_fingerprint: 97b356ef4eee888696dd42369d21290f207897a7b7435767ef7e3841a0a11f28
+review_date: 2026-09-14
+review_fingerprint: 1fc70d4fb25875261deb28f45b637af77e5b82893c0e71cce6a89024b7669095
 
 Edit only the `action:` line in each editable block:
 
@@ -11,19 +11,19 @@ Edit only the `action:` line in each editable block:
 - Commit the edit; the review workflow will remember the decision.
 - Decisions are carried forward only while the same vacancy review facts remain unchanged.
 
-Run generated: 2026-09-13T12:49:25+01:00
+Run generated: 2026-09-14T13:43:10+01:00
 RSS input: https://www.northeastjobs.org.uk/RSSJobs.aspx?orgid=62
-JobG8 comparison rows in target geographies: 356
+JobG8 comparison rows in target geographies: 384
 
 ## Funnel
 
-- RSS vacancies read: 742
-- Hard-pass title/teaser screen before detail requests: 691
-- Detail candidates: 51
+- RSS vacancies read: 678
+- Hard-pass title/teaser screen before detail requests: 630
+- Detail candidates: 48
 - Detail failures or unavailable snapshots: 0
 - Outside the two target geographies: 7
-- Tees Valley explicitly excluded: 11
-- Target-geography candidates reviewed: 33
+- Tees Valley explicitly excluded: 9
+- Target-geography candidates reviewed: 32
 
 ## Detail diagnostics
 
@@ -32,17 +32,17 @@ JobG8 comparison rows in target geographies: 356
 ## Review outcomes
 
 - HC: 15
-- POSS: 17
+- POSS: 16
 - Hard pass: 1
 - Final selected after remembered/manual actions: 18
-- Final POSS awaiting decision: 10
+- Final POSS awaiting decision: 9
 - Manually excluded: 4
 - Confirmed JobG8 duplicates: 0
 - Possible JobG8 duplicates: 1
-- Likely unique to North East Jobs: 32
+- Likely unique to North East Jobs: 31
 - Rows in possible within-source duplicate groups: 0
 
-- Manual review warning: manual review date 2026-09-12 is not 2026-09-13; old actions ignored
+- Manual review warning: manual review date 2026-09-13 is not 2026-09-14; old actions ignored
 
 ## SELECTED
 
@@ -111,6 +111,15 @@ source_url: https://www.northeastjobs.org.uk/job/Administrative_Assistant_Level_
 ---
 ---
 action:
+SELECTED | North East - Tyneside, Wearside & Northumberland | Blyth (derived for filtering) | SCP 3 – 4: £17,660 - £17,937 per annum (£24,796 - £25,185 FTE) | Administrative Assistant - Permanent - Malvin’s Close Academy
+employer: Malvin's Close Academy
+closing_date: 28/09/2026 12:00
+reason: clear transferable title: administrative assistant
+source_job_id: 301366
+source_url: https://www.northeastjobs.org.uk/job/Administrative_Assistant_Permanent_Malvin_s_Close_Academy/301366
+---
+---
+action:
 SELECTED | North East - Tyneside, Wearside & Northumberland | South Tyneside Council (derived for filtering) | £29,542 pa pro rata | Assisted Travel Senior Business Support Officer, 30hpw
 employer: South Tyneside Council
 closing_date: 16/10/2026 12:00
@@ -165,15 +174,6 @@ source_url: https://www.northeastjobs.org.uk/job/Customer_Service_Advisor_x_2_Po
 ---
 ---
 action:
-SELECTED | North East - Tyneside, Wearside & Northumberland | Longbenton High School Hailsham Ave, Newcastle upon Tyne NE12 8ER | £24,551 | DBS01122/26 - Business Administrator Apprentice - Longbenton High School
-employer: North Tyneside Council
-closing_date: 14/09/2026 12:00
-reason: clear transferable title: administrator
-source_job_id: 300866
-source_url: https://www.northeastjobs.org.uk/job/DBS01122_26_Business_Administrator_Apprentice_Longbenton_High_School/300866
----
----
-action:
 SELECTED | North East - Tyneside, Wearside & Northumberland | North Tyneside Council (derived for filtering) | £25,583 - £25,989 pro rata | DBS01125/26 - Receptionist - Norham High School
 employer: North Tyneside Council
 closing_date: 15/09/2026 12:00
@@ -209,15 +209,6 @@ closing_date: 28/09/2026
 reason: annualised upper salary £34,811 exceeds North East review point £30,000
 source_job_id: 301502
 source_url: https://www.northeastjobs.org.uk/job/Recovery_Coordinator/301502
----
----
-action:
-POSS | North East - Tyneside, Wearside & Northumberland | Newcastle upon Tyne | Approximately £28,500 (£38,900 FTE) | Access Arrangements Coordinator
-employer: Royal Grammar School
-closing_date: 14/09/2026 09:00
-reason: annualised upper salary £38,900 exceeds North East review point £30,000
-source_job_id: 301670
-source_url: https://www.northeastjobs.org.uk/job/Access_Arrangements_Coordinator/301670
 ---
 ---
 action: select
@@ -313,7 +304,7 @@ source_url: https://www.northeastjobs.org.uk/job/Housing_Support_Officer/300255
 action:
 POSS | North East - Tyneside, Wearside & Northumberland | City Hall, Plater Way, Sunderland, SR1 3AA | Grade 6 (SCP 22-25) £34,811 - £37,563 | Links for Life Coordinator
 employer: Sunderland City Council
-closing_date: 24/09/2026
+closing_date: 27/09/2026
 reason: annualised upper salary £37,563 exceeds North East review point £30,000
 source_job_id: 301406
 source_url: https://www.northeastjobs.org.uk/job/Links_for_Life_Coordinator/301406
