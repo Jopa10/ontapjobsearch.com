@@ -2,15 +2,39 @@
 
 review_date: 2026-09-14
 
-- Open Administrative & Clerical rows reviewed: 1885
+- Open Administrative & Clerical rows reviewed: 1888
 - Auto/remembered selected: 347
 - Selected HC Tier A: 175
 - Selected HC Tier B: 172
-- POSS awaiting decision: 1404
+- POSS awaiting decision: 1406
 - Excluded: 0
-- HARD_PASS: 134
+- HARD_PASS: 135
 
 Edit only each `action:` line for POSS rows. Unchanged decisions are restored by the shared decision ledger.
+
+---
+action:
+POSS | NHS Jobs | Somerset | Taunton, TA1 4DY | £25272.00 to £25272.00 | Outpatient Appointment Administrator
+source_job_id: 5596441
+title: Outpatient Appointment Administrator
+employer: Somerset NHS Foundation Trust
+region: Somerset
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9184-26-1325
+factual_fingerprint: 720626baeb97e1966625c1e1c9633e0835e51bf83776426e9a8ae49d68ef2ee6
+---
+
+---
+action:
+POSS | NHS Jobs | Somerset | Taunton, TA1 4DY | £25272.00 to £25272.00 | Outpatient Appointment Administrator
+source_job_id: 5596444
+title: Outpatient Appointment Administrator
+employer: Somerset NHS Foundation Trust
+region: Somerset
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9184-26-1326
+factual_fingerprint: e381d74df43d504e00296159b6ffd969b46be09d672211099dec024b7857574e
+---
 
 ---
 action:
