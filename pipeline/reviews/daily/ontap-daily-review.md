@@ -32,7 +32,7 @@ Edit only each `action:` line:
 ## JobG8 — 3 to review
 
 ---
-action:
+action: select
 POSS | JobG8 | Staffordshire | Staffordshire | £35000 per year | Procurement and Stock Administrator
 source_key: jobg8
 source: JobG8
@@ -50,7 +50,7 @@ hub_fingerprint: 4c48185b0b68da8d18e02d2e4c9e26e4fb85e0f0698f014aa61a975d75180c8
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | Suffolk | Suffolk | £45000 per year | Commercial Claims Handler
 source_key: jobg8
 source: JobG8
@@ -68,7 +68,7 @@ hub_fingerprint: c2a9cd2d4f1dd6804b278054f4e7edd5f582c28d7b795fe379dd58157f3c2d0
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Yorkshire - South | Sheffield | £200 - £250 per daily | HR Administrator
 source_key: jobg8
 source: JobG8
