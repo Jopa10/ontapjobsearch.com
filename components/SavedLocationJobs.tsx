@@ -163,9 +163,9 @@ export default function SavedLocationJobs({ jobId }: { jobId?: string }) {
         <div className={styles.supporting}>
           {saved
             ? typeof count === "number"
-              ? `${count} current job${count === 1 ? "" : "s"} within 15 miles`
-              : "Current jobs within 15 miles"
-            : "See current jobs within 15 miles"}
+              ? `${count} current job${count === 1 ? "" : "s"} within 20 miles`
+              : "Current jobs within 20 miles"
+            : "See current jobs within 20 miles"}
         </div>
         {message ? <div className={styles.error} role="status">{message}</div> : null}
         {showManual ? (
