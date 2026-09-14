@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Northamptonshire
 
-review_date: 2026-09-13
-review_fingerprint: abadeacbff58f442de4c39b1a8aaca7742db15802b587bfbbe64a3ff7746a9d6
-routing_manifest_sha256: d05140fc04f6c95d362a61a2b147bd89d2b3af7a6ea065265d94cadf85464dd2
+review_date: 2026-09-14
+review_fingerprint: bab3d762dccd01dbeea8573820c2294809f39bacd52e2398d5bb3ca150caf686
+routing_manifest_sha256: bfc87dba77a831bff4b6334363e28f0c44678cac32c7199aeb8843c588637d45
 ontap_region: Northamptonshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 7
+- Records: 9
 - Selected: 0
 - POSS awaiting decision: 4
 - Excluded: 0
-- Hard pass: 3
+- Hard pass: 5
 
 ## SELECTED
 
@@ -64,7 +64,7 @@ reason: Possible JobG8 duplicate requires review
 jobg8_check: POSSIBLE_DUPLICATE
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 3eefa7f7f8f62ca1d73ebeb1b2552df9f3f7d5fa48c9b538eb1ec911c8c21fda
+factual_fingerprint: bff3cd5f1e7e3c1588d4f7c0b6e579dc885b146d830ffefae815a741935c3618
 source: Teaching Vacancies
 source_job_id: hr-administrator-e-act
 source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-e-act
@@ -92,6 +92,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/trust-executive-assis
 ## HARD_PASS
 
 - [Exams Office Manager](https://teaching-vacancies.service.gov.uk/jobs/exams-office-manager-bishop-stopford-school) — Manager title salary ceiling £33,699 is not below £28,000.
+- [Executive Assistant](https://teaching-vacancies.service.gov.uk/jobs/executive-assistant-sir-christopher-hatton-academy) — Insufficient admin/service evidence.
+- [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-moulton-school-and-science-college) — Insufficient admin/service evidence.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-south-end-infant-school) — Manager title salary ceiling £37,280 is not below £28,000.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-woodland-view-primary-school-northampton-northamptonshire) — Manager title salary ceiling £48,738 is not below £28,000.
 

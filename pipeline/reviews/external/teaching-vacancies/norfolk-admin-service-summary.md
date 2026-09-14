@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Norfolk
 
-review_date: 2026-09-13
+review_date: 2026-09-14
 review_fingerprint: 7d42b0f94cb2b11f5b56a7e4d8a8ea3ed8a00d5786e4ea2cecb0d7ba0206d5b8
-routing_manifest_sha256: d05140fc04f6c95d362a61a2b147bd89d2b3af7a6ea065265d94cadf85464dd2
+routing_manifest_sha256: bfc87dba77a831bff4b6334363e28f0c44678cac32c7199aeb8843c588637d45
 ontap_region: Norfolk
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 16
+- Records: 15
 - Selected: 5
 - POSS awaiting decision: 4
 - Excluded: 0
-- Hard pass: 7
+- Hard pass: 6
 
 ## SELECTED
 
@@ -166,7 +166,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-wymo
 
 - [Administration Officer: Vulnerable Students](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-vulnerable-students) — Insufficient admin/service evidence.
 - [Chief Financial Officer](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-broad-horizons-education-trust) — Insufficient admin/service evidence.
-- [Development Officer](https://teaching-vacancies.service.gov.uk/jobs/development-officer-norwich-city-college-of-further-and-higher-education) — Insufficient admin/service evidence.
 - [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-white-woman-lane-junior-school) — Insufficient admin/service evidence.
 - [Operations Officer](https://teaching-vacancies.service.gov.uk/jobs/operations-officer-southery-academy-downham-market-norfolk) — Missing salary or pay scale.
 - [Regional People Partner](https://teaching-vacancies.service.gov.uk/jobs/regional-people-partner-ormiston-victory-academy-norwich-norfolk) — Insufficient admin/service evidence.

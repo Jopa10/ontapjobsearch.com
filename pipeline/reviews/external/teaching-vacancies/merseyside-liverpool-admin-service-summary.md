@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Merseyside - Liverpool
 
-review_date: 2026-09-13
-review_fingerprint: 495432ae196b70f8256c524cbc05de50efa5abc5bc85ff66528c38ab4801f975
-routing_manifest_sha256: d05140fc04f6c95d362a61a2b147bd89d2b3af7a6ea065265d94cadf85464dd2
+review_date: 2026-09-14
+review_fingerprint: 3027f8b028997b9b8ed212eeccaa13e49d6861431e09483fc89bbc57e945fce1
+routing_manifest_sha256: bfc87dba77a831bff4b6334363e28f0c44678cac32c7199aeb8843c588637d45
 ontap_region: Merseyside - Liverpool
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 4
-- Selected: 2
+- Records: 3
+- Selected: 1
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 2
 
 ## SELECTED
-
----
-action: 
-SELECTED | Merseyside - Liverpool | Liverpool, North West, L13 1HD | £21,588.00 - £21,930.00 Annually (Actual) Please see recruitment pack for further details - Term Time Only | Receptionist
-employer: King's Leadership Academy Wavertree
-closing_date: 2026-09-13T23:59:00+01:00
-reason: Clear admin/service title: receptionist
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 0b9b14ab4c1467274fb32118e3b10864178aa3729bde48cbe33ee33c61349fa7
-source: Teaching Vacancies
-source_job_id: receptionist-king-s-leadership-academy-wavertree-liverpool
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-king-s-leadership-academy-wavertree-liverpool
----
 
 ---
 action: 

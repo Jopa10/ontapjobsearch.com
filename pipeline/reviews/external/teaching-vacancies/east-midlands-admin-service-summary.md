@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — East Midlands
 
-review_date: 2026-09-13
-review_fingerprint: 9e0596761a42811b86262b4d7ca935084d7cc12796e7fc1504ba437294fcc4a1
-routing_manifest_sha256: d05140fc04f6c95d362a61a2b147bd89d2b3af7a6ea065265d94cadf85464dd2
+review_date: 2026-09-14
+review_fingerprint: 9d1e13425addfd1637f2391044947cbfd354619268be54952ca42f5df893f36f
+routing_manifest_sha256: bfc87dba77a831bff4b6334363e28f0c44678cac32c7199aeb8843c588637d45
 ontap_region: East Midlands
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 6
-- Selected: 1
-- POSS awaiting decision: 2
+- Records: 7
+- Selected: 2
+- POSS awaiting decision: 3
 - Excluded: 0
-- Hard pass: 3
+- Hard pass: 2
 
 ## SELECTED
 
@@ -36,6 +36,21 @@ source_job_id: apprentice-administrator-the-hinckley-school-the-hinckley-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/apprentice-administrator-the-hinckley-school-the-hinckley-school
 ---
 
+---
+action: 
+SELECTED | East Midlands | Derby, East Midlands, DE3 9AZ | £25,583.00 - £25,989.00 Annually (FTE) Support Pay Scale Grade C (Points 5-6 ) Actual Salary £23,235 - £23,604 | Receptionist & Administrative Assistant
+employer: St Clare's School
+closing_date: 2026-10-01T18:00:00+01:00
+reason: Clear admin/service title: administrative assistant, receptionist
+jobg8_check: NO_MATCH
+slice_status: UNREGISTERED
+migration_status: 
+factual_fingerprint: e0ef9bcf274a211ade9b456367f3f98e07108513588c64ded444ef1bb8df17ad
+source: Teaching Vacancies
+source_job_id: receptionist-administrative-assistant-st-clare-s-school-derby-derbyshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrative-assistant-st-clare-s-school-derby-derbyshire
+---
+
 ## POSS — choose SELECT or EXCLUDE
 
 ---
@@ -51,6 +66,21 @@ factual_fingerprint: 2015db539653774094f78a27f27fbcd048e5cac5503dd72f7483c936e8f
 source: Teaching Vacancies
 source_job_id: business-administration-apprentice-level-3-embark-multi-academy-trust
 source_url: https://teaching-vacancies.service.gov.uk/jobs/business-administration-apprentice-level-3-embark-multi-academy-trust
+---
+
+---
+action: 
+POSS | East Midlands | Derby, East Midlands, DE24 5AX | £26,241.00 - £27,997.00 Annually (Actual) NJC 11-15 - Full Time - 41 weeks per year | Office Manager
+employer: Clover Leys Spencer Academy
+closing_date: 2026-09-28T12:00:00+01:00
+reason: Manager title below £28,000 salary ceiling requires review
+jobg8_check: NO_MATCH
+slice_status: UNREGISTERED
+migration_status: 
+factual_fingerprint: 2aabe4f88eef315fee67d19923bab22bde8579a8f38bd553ad90d7cc21aff5d4
+source: Teaching Vacancies
+source_job_id: office-manager-clover-leys-spencer-academy-derby-derbyshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/office-manager-clover-leys-spencer-academy-derby-derbyshire
 ---
 
 ---
@@ -74,7 +104,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-business-assis
 
 ## HARD_PASS
 
-- [Executive Assistant](https://teaching-vacancies.service.gov.uk/jobs/executive-assistant-derby-college) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-village-primary-academy-derby-derbyshire) — Manager title salary ceiling £32,597 is not below £28,000.
 - [Trust Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/trust-finance-manager-98078324-9858-463d-9f77-566320746539) — Manager title salary ceiling £44,075 is not below £28,000.
 

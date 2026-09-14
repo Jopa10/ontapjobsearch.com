@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Worcestershire
 
-review_date: 2026-09-13
+review_date: 2026-09-14
 review_fingerprint: b38b4a7244974f0e720358f1492d586eb0af66d5057d011d868243aad95388c2
-routing_manifest_sha256: d05140fc04f6c95d362a61a2b147bd89d2b3af7a6ea065265d94cadf85464dd2
+routing_manifest_sha256: bfc87dba77a831bff4b6334363e28f0c44678cac32c7199aeb8843c588637d45
 ontap_region: Worcestershire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 2
+- Records: 3
 - Selected: 2
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 0
+- Hard pass: 1
 
 ## SELECTED
 
@@ -61,7 +61,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-bce7ec5
 
 ## HARD_PASS
 
-- None.
+- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-trinity-high-school-and-sixth-form-centre) — Manager title without salary evidence below £28,000.
 
 ## Safety boundary
 

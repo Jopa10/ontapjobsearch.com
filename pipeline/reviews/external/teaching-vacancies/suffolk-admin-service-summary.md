@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Suffolk
 
-review_date: 2026-09-13
+review_date: 2026-09-14
 review_fingerprint: 140f4e67ccafcfe0f6c57c04196836ae510aa9e8780cd7a3804fedfcc7ddfe6b
-routing_manifest_sha256: d05140fc04f6c95d362a61a2b147bd89d2b3af7a6ea065265d94cadf85464dd2
+routing_manifest_sha256: bfc87dba77a831bff4b6334363e28f0c44678cac32c7199aeb8843c588637d45
 ontap_region: Suffolk
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 10
+- Records: 9
 - Selected: 2
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 7
+- Hard pass: 6
 
 ## SELECTED
 
@@ -74,7 +74,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/operations-officer-gl
 
 ## HARD_PASS
 
-- [Compliance Senior Lead](https://teaching-vacancies.service.gov.uk/jobs/compliance-senior-lead-eastern-education-group-trust-bury-st-edmunds-not-recorded) — Insufficient admin/service evidence.
 - [Curriculum and Reception Assistant](https://teaching-vacancies.service.gov.uk/jobs/curriculum-and-reception-assistant) — Insufficient admin/service evidence.
 - [HR Assistant](https://teaching-vacancies.service.gov.uk/jobs/hr-assistant-36698a9b-d2c8-4253-91ee-aefbeab6f899) — Insufficient admin/service evidence.
 - [HR Assistant Apprentice](https://teaching-vacancies.service.gov.uk/jobs/hr-assistant-apprentice-piper-s-vale-primary-a-paradigm-academy-ipswich-suffolk) — Insufficient admin/service evidence.

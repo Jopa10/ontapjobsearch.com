@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cambridgeshire
 
-review_date: 2026-09-13
-review_fingerprint: 8d9d48a69ad44523fb51b9240885ef162ea2e7c4800f2874d49a6577b0e88f75
-routing_manifest_sha256: d05140fc04f6c95d362a61a2b147bd89d2b3af7a6ea065265d94cadf85464dd2
+review_date: 2026-09-14
+review_fingerprint: c775e86680fb46061672b1b7351571b9b651b0025ebb5492b6c2a5cd80594e9c
+routing_manifest_sha256: bfc87dba77a831bff4b6334363e28f0c44678cac32c7199aeb8843c588637d45
 ontap_region: Cambridgeshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 25
-- Selected: 9
-- POSS awaiting decision: 3
+- Records: 22
+- Selected: 7
+- POSS awaiting decision: 6
 - Excluded: 0
-- Hard pass: 13
+- Hard pass: 9
 
 ## SELECTED
 
@@ -53,21 +53,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assist
 
 ---
 action: 
-SELECTED | Cambridgeshire | Ely, East of England, CB6 2WL | £8,428.00 Annually (Actual) Meridian Trust Support Staff Pay Scale (Grade 3) | Administrative Assistant
-employer: Lantern Community Primary School
-closing_date: 2026-09-14T09:00:00+01:00
-reason: Clear admin/service title: administrative assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: c72e0d5ba20078054661924b9df28fc40ce274c7b9ce12dc4621599f88a07086
-source: Teaching Vacancies
-source_job_id: administrative-assistant-lantern-community-primary-school-ely-cambridgeshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-lantern-community-primary-school-ely-cambridgeshire
----
-
----
-action: 
 SELECTED | Cambridgeshire | Cambridge, East of England, CB4 2BD | £25,614.00 Annually (Actual) | Administrative Assistant
 employer: Milton Road Primary School
 closing_date: 2026-09-20T17:00:00+01:00
@@ -79,21 +64,6 @@ factual_fingerprint: a25b5cf00850835c9f30e264c509ed93d2477e4e842a27bba5949592768
 source: Teaching Vacancies
 source_job_id: administrative-assistant-milton-road-primary-school-cambridge-cambridgeshire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-milton-road-primary-school-cambridge-cambridgeshire
----
-
----
-action: 
-SELECTED | Cambridgeshire | Peterborough, East of England, PE6 7JX | £14,802.00 Annually (Actual) | Administrator
-employer: Arthur Mellows Village College
-closing_date: 2026-09-14T09:00:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: f1cb160ba772b2e2384e97a44e6559dcd7d92b357c813b1c62444e3355a792c4
-source: Teaching Vacancies
-source_job_id: administrator-9219e9ba-082d-4b75-91ee-2e1cd2dd8f75
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-9219e9ba-082d-4b75-91ee-2e1cd2dd8f75
 ---
 
 ---
@@ -190,6 +160,51 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-officer-coler
 
 ---
 action: 
+POSS | Cambridgeshire | Cambridge, East of England, CB1 1EH | £30,000.00 - £35,000.00 Annually (FTE) | Finance Officer
+employer: Parkside Community College
+closing_date: 2026-09-21T09:00:00+01:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 5428ca0e300ce12bdd65323f4d7bb060a56ef9ac0e9e778d22b91b8c36401393
+source: Teaching Vacancies
+source_job_id: finance-officer-parkside-community-college
+source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-officer-parkside-community-college
+---
+
+---
+action: 
+POSS | Cambridgeshire | Cambridge, East of England, CB5 8ND | £30,000.00 - £35,000.00 Annually (FTE) | Finance Officer
+employer: The Galfrid School
+closing_date: 2026-09-21T09:00:00+01:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: c7aeba3a5ed8a7c5838fc8c05f973bbf6bef478a8861a973ca290f21a75e6bea
+source: Teaching Vacancies
+source_job_id: finance-officer-the-galfrid-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-officer-the-galfrid-school
+---
+
+---
+action: 
+POSS | Cambridgeshire | Cambridge, East of England, CB2 9FD | £30,000.00 - £35,000.00 Annually (FTE) | Finance Officer
+employer: Trumpington Community College
+closing_date: 2026-09-21T09:00:00+01:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 1daa56534ca35e1e391403026b52171a78c3b04aabf90ab2c8e87068b501f6e5
+source: Teaching Vacancies
+source_job_id: finance-officer-trumpington-community-college
+source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-officer-trumpington-community-college
+---
+
+---
+action: 
 POSS | Cambridgeshire | Huntingdon, PE28 5TQ | £32,061.00 Annually (Actual) | Marketing & Communications Officer
 employer: Meridian Trust
 closing_date: 2026-09-16T08:00:00+01:00
@@ -209,16 +224,12 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/marketing-communicati
 
 ## HARD_PASS
 
+- [Attendance Support Assistant](https://teaching-vacancies.service.gov.uk/jobs/attendance-support-assistant-comberton-village-college-cambridge-cambridgeshire) — Insufficient admin/service evidence.
 - [Community Assistant (Evenings)](https://teaching-vacancies.service.gov.uk/jobs/community-assistant-evenings) — Insufficient admin/service evidence.
 - [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-greater-peterborough-utc) — Insufficient admin/service evidence.
-- [Head of HR Business Partnering](https://teaching-vacancies.service.gov.uk/jobs/head-of-hr-business-partnering) — Insufficient admin/service evidence.
-- [Head of HR Operations](https://teaching-vacancies.service.gov.uk/jobs/head-of-hr-operations-meridian-trust) — Insufficient admin/service evidence.
 - [Head of HR Operations](https://teaching-vacancies.service.gov.uk/jobs/head-of-hr-operations-united-learning-trust) — Insufficient admin/service evidence.
-- [HR Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-ed2d7969-082c-419a-94e8-5c5c87890cad) — Insufficient admin/service evidence.
 - [MAT Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/mat-finance-officer-four-cs-mat-peterborough-not-recorded) — Insufficient admin/service evidence.
 - [School Business Leader](https://teaching-vacancies.service.gov.uk/jobs/school-business-leader-university-of-cambridge-primary-school) — Insufficient admin/service evidence.
-- [Senior HR Adviser (Field based Cambridge and Ely area primarily)](https://teaching-vacancies.service.gov.uk/jobs/senior-hr-adviser-field-based-cambridge-and-ely-area-primarily) — Insufficient admin/service evidence.
-- [Trust Accountant](https://teaching-vacancies.service.gov.uk/jobs/trust-accountant-7bdb7712-1f61-48da-8325-8b7fd7b8d935) — Insufficient admin/service evidence.
 - [Trust Accountant](https://teaching-vacancies.service.gov.uk/jobs/trust-accountant-swavesey-village-college) — Insufficient admin/service evidence.
 - [Trust Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/trust-finance-officer-act-multi-academy-trust) — Insufficient admin/service evidence.
 - [Trust Payroll, Pensions and HR Officer](https://teaching-vacancies.service.gov.uk/jobs/trust-payroll-pensions-and-hr-officer) — Insufficient admin/service evidence.

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - West
 
-review_date: 2026-09-13
-review_fingerprint: 53d21ce1ab4bcd4d711ec90f61a1ed319635d734fac85693848397d9e0742e92
-routing_manifest_sha256: d05140fc04f6c95d362a61a2b147bd89d2b3af7a6ea065265d94cadf85464dd2
+review_date: 2026-09-14
+review_fingerprint: 140ca4fb25e7be8e6dc2829294c14783ede827eb0ec059aad63aaa7f2dc271cc
+routing_manifest_sha256: bfc87dba77a831bff4b6334363e28f0c44678cac32c7199aeb8843c588637d45
 ontap_region: Yorkshire - West
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 38
-- Selected: 15
+- Records: 37
+- Selected: 16
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 21
+- Hard pass: 19
 
 ## SELECTED
 
@@ -49,6 +49,21 @@ factual_fingerprint: 8611deca3e4dbe0220ad2e74a63dda917923dcc5246ee541614bb001192
 source: Teaching Vacancies
 source_job_id: admin-receptionist-beckfoot-allerton-primary-school-and-nursery
 source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-receptionist-beckfoot-allerton-primary-school-and-nursery
+---
+
+---
+action: 
+SELECTED | Yorkshire - West | Bradford, Yorkshire and the Humber, BD6 3PX | £21,978.00 - £22,506.00 Annually (Actual) Band 5 SCP 5-6 (£21,978 - £22,506 actual salary) pay award pending. 37 hours per week term time only plus two training days | Administration Assistant
+employer: Buttershaw Business & Enterprise College Academy
+closing_date: 2026-09-30T09:00:00+01:00
+reason: Clear admin/service title: administration assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: NEW_REVIEW
+factual_fingerprint: 77df06f4ef77438daf5d814e21401ce1d0edc2dfc91590056050bf2a8b11e30c
+source: Teaching Vacancies
+source_job_id: administration-assistant-buttershaw-business-enterprise-college-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-buttershaw-business-enterprise-college-academy
 ---
 
 ---
@@ -135,7 +150,7 @@ reason: Clear admin/service title: admin assistant
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: NEW_REVIEW
-factual_fingerprint: 822fc728a09ff9265dcba8fb7b9b64f479538bd7c3cdc216a2ae0c45e077f693
+factual_fingerprint: 42b05cf6ed8b34083fe3dc1ef035d47a8f97497f81f1220ba0ba15bfcf21f941
 source: Teaching Vacancies
 source_job_id: apprentice-admin-assistant-level-2-full-time
 source_url: https://teaching-vacancies.service.gov.uk/jobs/apprentice-admin-assistant-level-2-full-time
@@ -150,7 +165,7 @@ reason: Clear admin/service title: admin assistant
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: NEW_REVIEW
-factual_fingerprint: 44b80b5671b09293dc25ff7f9e3d6f62745ab88ac6e733bdc55261724913fc99
+factual_fingerprint: 54397a9e2953ed6972f1e8f802b850eaaf7b3437aa6118e7af709cac0fb5a5f2
 source: Teaching Vacancies
 source_job_id: apprentice-admin-assistant-level-2-part-time
 source_url: https://teaching-vacancies.service.gov.uk/jobs/apprentice-admin-assistant-level-2-part-time
@@ -203,6 +218,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/cover-hr-administrato
 
 ---
 action: 
+SELECTED | Yorkshire - West | Huddersfield, Yorkshire and the Humber, HD4 5JA | £26,583.26 Annually (Actual) Grade 7 SCP14-17 | Data and Exams Administrator
+employer: Moor End Academy
+closing_date: 2026-09-28T09:00:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: NEW_REVIEW
+factual_fingerprint: f8539d8e3c47cfbf92f52a7aae21e3f635bbb37777fa10576be785dbee360e67
+source: Teaching Vacancies
+source_job_id: data-and-exams-administrator-moor-end-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/data-and-exams-administrator-moor-end-academy
+---
+
+---
+action: 
 SELECTED | Yorkshire - West | Bradford, Yorkshire and the Humber, BD10 9AQ | £17,631.00 - £17,677.00 Annually (Actual) | Post 16 Administrator
 employer: Immanuel College
 closing_date: 2026-09-18T09:00:00+01:00
@@ -229,21 +259,6 @@ factual_fingerprint: 439228abbbdf653fc171507118de288e1dddc055d7f5e5962816e64b93c
 source: Teaching Vacancies
 source_job_id: receptionist-delta-academies-trust-knottingley-not-recorded
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-delta-academies-trust-knottingley-not-recorded
----
-
----
-action: 
-SELECTED | Yorkshire - West | Leeds, Yorkshire and the Humber, LS27 0AW | £21,043.00 - £22,429.00 Annually (Actual) | Senior Administrator
-employer: Fountain Primary School
-closing_date: 2026-09-14T09:00:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: BLANK_POSS_PRESERVED
-factual_fingerprint: 1e56d05f0d338e4df164a61bd7dc0754c115116ef65565baa84fd343c3b8fc6d
-source: Teaching Vacancies
-source_job_id: senior-administrator-fountain-primary-school-leeds-west-yorkshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-fountain-primary-school-leeds-west-yorkshire
 ---
 
 ## POSS — choose SELECT or EXCLUDE
@@ -300,8 +315,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-oa
 - [Human Resources Business Partner (Central HR Team)](https://teaching-vacancies.service.gov.uk/jobs/human-resources-business-partner-central-hr-team-the-gorse-academies-trust-leeds-not-recorded) — Insufficient admin/service evidence.
 - [Learning Manager](https://teaching-vacancies.service.gov.uk/jobs/learning-manager-72444972-2891-4ebf-9d5f-a8c7dd7aed3d) — Manager title salary ceiling £36,581 is not below £28,000.
 - [Operations Lead](https://teaching-vacancies.service.gov.uk/jobs/operations-lead-menston-primary-school-ilkley-west-yorkshire) — Insufficient admin/service evidence.
-- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-1b36ee5c-0c17-4759-81a0-a7f12e916e50) — Manager title salary ceiling £59,005 is not below £28,000.
-- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-9bdfb809-a83a-40f4-96f0-6df1b12f41b5) — Manager title salary ceiling £59,005 is not below £28,000.
 - [Senior Administrator](https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-linthwaite-clough-primary-school) — Missing salary or pay scale.
 - [Senior Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-finance-officer-impact-education-multi-academy-trust) — Insufficient admin/service evidence.
 - [Trust Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/trust-administration-assistant-waterton-academy-trust) — Insufficient admin/service evidence.

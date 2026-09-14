@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Black Country
 
-review_date: 2026-09-13
-review_fingerprint: 3e3a64efc9d3935742c3a5c7b65291d1be4b848ebb27e3a97f9035f55d1266dd
-routing_manifest_sha256: d05140fc04f6c95d362a61a2b147bd89d2b3af7a6ea065265d94cadf85464dd2
+review_date: 2026-09-14
+review_fingerprint: c2e106403644e1b1489325d9390fd476485933dbb02d8caf152057bafa848dd4
+routing_manifest_sha256: bfc87dba77a831bff4b6334363e28f0c44678cac32c7199aeb8843c588637d45
 ontap_region: West Midlands - Black Country
 slice_category: admin_service
 slice_status: LIVE
@@ -13,27 +13,27 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 3
+- Records: 2
 - Selected: 1
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 2
+- Hard pass: 1
 
 ## SELECTED
 
 ---
 action: 
-SELECTED | West Midlands - Black Country | Wednesbury, West Midlands, WS10 7PZ | £22,828 – £23,935 | Office Administrator
-employer: Holyhead Primary Academy
-closing_date: 2026-09-13T23:59:00+01:00
-reason: Clear admin/service title: administrator, office administrator
+SELECTED | West Midlands - Black Country | Wolverhampton, West Midlands, WV6 0DT | £26,403.00 - £28,142.00 Annually (FTE) Grade 4 SCP 7-11 44.85 TTF | Administrative Assistant
+employer: St Jude's Church of England Primary Academy
+closing_date: 2026-09-28T12:00:00+01:00
+reason: Clear admin/service title: administrative assistant
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 985a2af32b1c0c3c520d0424c9d981c137c27079e4c5236d2281fcdec294c8e6
+factual_fingerprint: 4267f9008c0d9a70ee09c7699966f855b409bc80f79e72218993a1e10ff85ec9
 source: Teaching Vacancies
-source_job_id: office-administrator-holyhead-primary-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-holyhead-primary-academy
+source_job_id: administrative-assistant-st-jude-s-church-of-england-primary-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-st-jude-s-church-of-england-primary-academy
 ---
 
 ## POSS — choose SELECT or EXCLUDE
@@ -46,7 +46,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-
 
 ## HARD_PASS
 
-- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-withymoor-primary-school) — Manager title salary ceiling £28,214 is not below £28,000.
 - [Senior Admin Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-admin-officer-park-hall-junior-academy) — Insufficient admin/service evidence.
 
 ## Safety boundary

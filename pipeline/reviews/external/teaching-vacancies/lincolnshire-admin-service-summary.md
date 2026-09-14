@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Lincolnshire
 
-review_date: 2026-09-13
-review_fingerprint: 3c1f600092fea013ac222eea93b137e2ccc6e0fb9d597b3f1e80b8298b8007bf
-routing_manifest_sha256: d05140fc04f6c95d362a61a2b147bd89d2b3af7a6ea065265d94cadf85464dd2
+review_date: 2026-09-14
+review_fingerprint: 3e560f5644509e4c1f9050dae2d4bc1ab08a08eedf2dea44adeccbe9f604ba13
+routing_manifest_sha256: bfc87dba77a831bff4b6334363e28f0c44678cac32c7199aeb8843c588637d45
 ontap_region: Lincolnshire
 slice_category: admin_service
 slice_status: LIVE
@@ -14,10 +14,10 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 16
-- Selected: 6
+- Selected: 7
 - POSS awaiting decision: 3
 - Excluded: 0
-- Hard pass: 7
+- Hard pass: 6
 
 ## SELECTED
 
@@ -64,6 +64,21 @@ factual_fingerprint: 3ae63c4e050f95feed6f6a840aba6da39b11b95996e764903f862abc980
 source: Teaching Vacancies
 source_job_id: data-and-exams-officer-the-vale-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/data-and-exams-officer-the-vale-academy
+---
+
+---
+action: 
+SELECTED | Lincolnshire | Skegness, East Midlands, PE24 5LS | £9,476.00 - £10,439.00 Annually (Actual) G5.12 (£27,254 FTE) to G5.15 (£30,024 FTE) | HR Administrator
+employer: Chapel St Leonards Primary School
+closing_date: 2026-09-27T23:59:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: f92b533ab0994f1cc761907c125ff46bf69327598589bdbc62f35d95ae93f337
+source: Teaching Vacancies
+source_job_id: hr-administrator-chapel-st-leonards-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-chapel-st-leonards-primary-school
 ---
 
 ---
@@ -164,13 +179,12 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-manager-5960c3
 
 ## HARD_PASS
 
-- [Academy Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/academy-administration-officer-the-priory-witham-academy-lincoln-lincolnshire) — Insufficient admin/service evidence.
-- [Academy Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/academy-operations-manager-thomas-middlecott-academy-boston-lincolnshire) — Manager title salary ceiling £42,839 is not below £28,000.
 - [Business Manager](https://teaching-vacancies.service.gov.uk/jobs/business-manager-walton-academy) — Manager title salary ceiling £49,749 is not below £28,000.
 - [Education Welfare Officer](https://teaching-vacancies.service.gov.uk/jobs/education-welfare-officer-john-whitgift-academy) — Insufficient admin/service evidence.
 - [Governance & Compliance Officer](https://teaching-vacancies.service.gov.uk/jobs/governance-compliance-officer-inspire-connected-communities-trust-louth-not-recorded) — Insufficient admin/service evidence.
 - [HR Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-a28cea11-d24b-43cc-a15c-772ff5fa57da) — Insufficient admin/service evidence.
 - [Senior Administrative Officer - 20 hours](https://teaching-vacancies.service.gov.uk/jobs/senior-administrative-officer-20-hours) — Insufficient admin/service evidence.
+- [Trust Executive Assistant & HR Co-Ordinator](https://teaching-vacancies.service.gov.uk/jobs/trust-executive-assistant-hr-co-ordinator) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

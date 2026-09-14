@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Buckinghamshire
 
-review_date: 2026-09-13
+review_date: 2026-09-14
 review_fingerprint: 00cdb25a686500eab0f4b93414cb49dd7e939b8f5efa22008ae66b36c4d9afa2
-routing_manifest_sha256: d05140fc04f6c95d362a61a2b147bd89d2b3af7a6ea065265d94cadf85464dd2
+routing_manifest_sha256: bfc87dba77a831bff4b6334363e28f0c44678cac32c7199aeb8843c588637d45
 ontap_region: Buckinghamshire
 slice_category: admin_service
 slice_status: LIVE

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Leicestershire
 
-review_date: 2026-09-13
-review_fingerprint: 9d26526b5c007c9ceb14e179dfdb7ed461737591995ab3569a14054651ed8574
-routing_manifest_sha256: d05140fc04f6c95d362a61a2b147bd89d2b3af7a6ea065265d94cadf85464dd2
+review_date: 2026-09-14
+review_fingerprint: 723a27af22e95bbf55b690498f8d1313a6256d5e53d9209eeb987b540ad0b941
+routing_manifest_sha256: bfc87dba77a831bff4b6334363e28f0c44678cac32c7199aeb8843c588637d45
 ontap_region: Leicestershire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 6
-- Selected: 5
+- Records: 5
+- Selected: 4
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 1
@@ -49,21 +49,6 @@ factual_fingerprint: 23b283d82d083c60c204963a52e82ecbbb04e49c7543fd8b300ee79a2ca
 source: Teaching Vacancies
 source_job_id: pa-to-the-principal-tudor-grange-samworth-academy-a-church-of-england-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/pa-to-the-principal-tudor-grange-samworth-academy-a-church-of-england-school
----
-
----
-action: 
-SELECTED | Leicestershire | Lutterworth, East Midlands, LE17 4EX | Grade 4 SCP 5-6 £24804 - £24999 | Receptionist
-employer: Sherrier Church of England Primary School
-closing_date: 2026-09-13T23:59:59+01:00
-reason: Clear admin/service title: receptionist
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: ede08936a06e68feb68565a5dee8f38565c2a163e6064e65e4218e45fb180bd6
-source: Teaching Vacancies
-source_job_id: receptionist-sherrier-church-of-england-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-sherrier-church-of-england-primary-school
 ---
 
 ---

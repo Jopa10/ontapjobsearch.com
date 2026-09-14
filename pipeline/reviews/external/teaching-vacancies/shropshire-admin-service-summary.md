@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Shropshire
 
-review_date: 2026-09-13
-review_fingerprint: 5a1c6f43cac0cb668bc0e139456849e46e47d57d99ae63e346149698faf43f11
-routing_manifest_sha256: d05140fc04f6c95d362a61a2b147bd89d2b3af7a6ea065265d94cadf85464dd2
+review_date: 2026-09-14
+review_fingerprint: 1a62ef99a58c67b2ccf598a91a55a43a7db4450bd4e2a7d4c207ddda0ec0d60f
+routing_manifest_sha256: bfc87dba77a831bff4b6334363e28f0c44678cac32c7199aeb8843c588637d45
 ontap_region: Shropshire
 slice_category: admin_service
 slice_status: LIVE
@@ -25,12 +25,12 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 action: 
 SELECTED | Shropshire | Shrewsbury, West Midlands, SY5 7JL | £14.14 Hourly Grade 5, SCP 7 | Admin Assistant
 employer: St Edward's CofE Primary School
-closing_date: 2026-09-14T12:00:00+01:00
+closing_date: 2026-09-21T23:59:00+01:00
 reason: Clear admin/service title: admin assistant
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 53b74648347e7ddfd75abadbfd7c3990063827af0a1647f306ade2e071410688
+factual_fingerprint: 22df699b2f399cb3d5b11ecfb647269f45cca6b9c7e7e848a25849f5d9d20b2e
 source: Teaching Vacancies
 source_job_id: admin-assistant-st-edward-s-cofe-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-st-edward-s-cofe-primary-school

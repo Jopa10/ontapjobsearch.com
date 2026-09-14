@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Kent
 
-review_date: 2026-09-13
-review_fingerprint: 2199b31805b7b1d3ef8f260145f7d903bc5e77131d7a3023880ec262d350faa4
-routing_manifest_sha256: d05140fc04f6c95d362a61a2b147bd89d2b3af7a6ea065265d94cadf85464dd2
+review_date: 2026-09-14
+review_fingerprint: 7a9fcf9123249e1eb4c3e9b687a55018ff1999eeafec5dfad1264f45c5041445
+routing_manifest_sha256: bfc87dba77a831bff4b6334363e28f0c44678cac32c7199aeb8843c588637d45
 ontap_region: Kent
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 10
-- Selected: 5
+- Records: 13
+- Selected: 6
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 7
 
 ## SELECTED
 
@@ -68,6 +68,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/admissions-officer-th
 
 ---
 action: 
+SELECTED | Kent | Maidstone, South East, ME16 0SF | £9,567.00 - £9,568.00 Annually (Actual) Kent Salaries KSC: £9,568 per annum | Attendance Administrator
+employer: Maidstone Grammar School for Girls
+closing_date: 2026-09-23T08:00:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: d19765497298b4a7e84d73b310c470bc46b36befe2d18bdfb206ba4dfc501aa5
+source: Teaching Vacancies
+source_job_id: attendance-administrator-f16a9e8c-4d3f-4e04-ac58-b862c2e3fdd2
+source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-administrator-f16a9e8c-4d3f-4e04-ac58-b862c2e3fdd2
+---
+
+---
+action: 
 SELECTED | Kent | Chatham, South East, ME4 4FQ | £24,553.00 - £26,171.00 Annually (Actual) NJC D2 point 7-11 | Examinations & Admissions Officer
 employer: Waterfront UTC
 closing_date: 2026-09-18T23:59:00+01:00
@@ -110,6 +125,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-receptionist-a
 - [Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-the-thinking-schools-academy-trust) — Insufficient admin/service evidence.
 - [Financial Analyst](https://teaching-vacancies.service.gov.uk/jobs/financial-analyst-the-norton-knatchbull-school) — Insufficient admin/service evidence.
 - [Lead Safeguarding Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/lead-safeguarding-administration-officer-the-robert-napier-school-gillingham-kent) — Insufficient admin/service evidence.
+- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-staplehurst-school) — Manager title salary ceiling £29,020 is not below £28,000.
+- [People & Culture Manager](https://teaching-vacancies.service.gov.uk/jobs/people-culture-manager) — Manager title salary ceiling £53,446 is not below £28,000.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-whitstable-junior-school) — Manager title salary ceiling £35,035 is not below £28,000.
 
 ## Safety boundary

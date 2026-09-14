@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Nottinghamshire
 
-review_date: 2026-09-13
-review_fingerprint: c64df06ec44c0801fc7e68ae52e86d5dcb123aeadc7b1d9b5aac304fb6d3f7b7
-routing_manifest_sha256: d05140fc04f6c95d362a61a2b147bd89d2b3af7a6ea065265d94cadf85464dd2
+review_date: 2026-09-14
+review_fingerprint: d2971866ba0ac5fa473025b54f8ea5bcc4a02b4cbd10317860316168eb743a31
+routing_manifest_sha256: bfc87dba77a831bff4b6334363e28f0c44678cac32c7199aeb8843c588637d45
 ontap_region: Nottinghamshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 19
-- Selected: 10
+- Records: 17
+- Selected: 8
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 8
@@ -98,21 +98,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assist
 
 ---
 action: 
-SELECTED | Nottinghamshire | Nottingham, East Midlands, NG3 7EB | £22,934.00 - £25,229.00 Annually (Actual) GAT 4/5, 37 hours per week, 39 weeks per year | Attendance Administrator - Secondary Site
-employer: Nottingham Academy
-closing_date: 2026-09-13T23:59:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: d4eb222c458d6357f22a1a1d1bf7771149f6aeac84b7f50b8c7d004519a35194
-source: Teaching Vacancies
-source_job_id: attendance-administrator-secondary-site
-source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-administrator-secondary-site
----
-
----
-action: 
 SELECTED | Nottinghamshire | Nottingham, East Midlands, NG5 9AZ | Redhill Academy Trust Pay Scale, Band 6, Scale point 29 - 32 | Healthcare Assistant / Administrator
 employer: Park Vale Academy
 closing_date: 2026-09-28T12:00:00+01:00
@@ -124,21 +109,6 @@ factual_fingerprint: ec8bcfa691ce240c32b0c5587ba54447d66afe3639e5e61a3e2b1ba9bfd
 source: Teaching Vacancies
 source_job_id: healthcare-assistant-administrator-2d4f9d72-72ff-4ae4-b72c-412c6513e51a
 source_url: https://teaching-vacancies.service.gov.uk/jobs/healthcare-assistant-administrator-2d4f9d72-72ff-4ae4-b72c-412c6513e51a
----
-
----
-action: 
-SELECTED | Nottinghamshire | Nottingham, East Midlands, NG3 7EB | £13,946.00 - £15,342.00 Annually (Actual) GAT 4/5, 22.5 hours per week, 39 weeks per year | Part Time Attendance Administrator - Secondary Site
-employer: Nottingham Academy
-closing_date: 2026-09-13T23:59:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 5500d8768914cfeac03664843c5ad0c84f3d4ed0528f45be1538aa328ca19895
-source: Teaching Vacancies
-source_job_id: part-time-attendance-administrator-secondary-site
-source_url: https://teaching-vacancies.service.gov.uk/jobs/part-time-attendance-administrator-secondary-site
 ---
 
 ---
@@ -196,12 +166,12 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/data-officer-the-whit
 
 - [Accounts Payable Assistant](https://teaching-vacancies.service.gov.uk/jobs/accounts-payable-assistant-greenwood-academies-trust) — Insufficient admin/service evidence.
 - [Admin Officer](https://teaching-vacancies.service.gov.uk/jobs/admin-officer-radford-primary-school-academy) — Insufficient admin/service evidence.
-- [Exams and Assessment Assistant](https://teaching-vacancies.service.gov.uk/jobs/exams-and-assessment-assistant-965ac6ec-7678-47d6-8b9f-daf363a12cdd) — Insufficient admin/service evidence.
 - [HR and Recruitment Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-and-recruitment-officer-redhill-academy-trust) — Insufficient admin/service evidence.
 - [Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-65ca1f05-aa50-430f-afeb-b27088a93265) — Insufficient admin/service evidence.
 - [Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-bf443901-6fb8-4721-9adf-b67f0bdbd6f6) — Insufficient admin/service evidence.
 - [Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-newark-orchard-school-newark) — Insufficient admin/service evidence.
 - [Purchase Ledger Assistant](https://teaching-vacancies.service.gov.uk/jobs/purchase-ledger-assistant-redhill-academy-trust) — Insufficient admin/service evidence.
+- [School Business Administrator](https://teaching-vacancies.service.gov.uk/jobs/school-business-administrator-ladycross-infant-school) — Missing salary or pay scale.
 
 ## Safety boundary
 

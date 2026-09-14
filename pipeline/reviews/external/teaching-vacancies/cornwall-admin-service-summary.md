@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cornwall
 
-review_date: 2026-09-13
+review_date: 2026-09-14
 review_fingerprint: aee102376b0793ff9233662bcc8a9576c628ac81298c0af442c0417090288d1e
-routing_manifest_sha256: d05140fc04f6c95d362a61a2b147bd89d2b3af7a6ea065265d94cadf85464dd2
+routing_manifest_sha256: bfc87dba77a831bff4b6334363e28f0c44678cac32c7199aeb8843c588637d45
 ontap_region: Cornwall
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 5
+- Records: 4
 - Selected: 2
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 2
+- Hard pass: 1
 
 ## SELECTED
 
@@ -75,7 +75,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/governance-profession
 ## HARD_PASS
 
 - [Cover Supervisor](https://teaching-vacancies.service.gov.uk/jobs/cover-supervisor-a61f8bdb-44ee-4637-b8f0-f20a88acc959) — Insufficient admin/service evidence.
-- [Management Accountant](https://teaching-vacancies.service.gov.uk/jobs/management-accountant-a1d12639-0487-4f99-8987-545bccb8f803) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

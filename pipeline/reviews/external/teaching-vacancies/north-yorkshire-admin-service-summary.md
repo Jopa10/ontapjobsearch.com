@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - North
 
-review_date: 2026-09-13
+review_date: 2026-09-14
 review_fingerprint: c9d2df6b24baa7a80a05cc964f700ffc7b90120935a883801890d7d9efff1838
-routing_manifest_sha256: d05140fc04f6c95d362a61a2b147bd89d2b3af7a6ea065265d94cadf85464dd2
+routing_manifest_sha256: bfc87dba77a831bff4b6334363e28f0c44678cac32c7199aeb8843c588637d45
 ontap_region: Yorkshire - North
 slice_category: admin_service
 slice_status: LIVE
@@ -77,7 +77,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-ge
 ## HARD_PASS
 
 - [Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-joseph-rowntree-school-york-north-yorkshire) — Insufficient admin/service evidence.
-- [Clerk to School Governing Body](https://teaching-vacancies.service.gov.uk/jobs/clerk-to-school-governing-body-ebor-academy-trust-york-not-recorded) — Insufficient admin/service evidence.
+- [Hub Business Leader (Harrogate Hub)](https://teaching-vacancies.service.gov.uk/jobs/hub-business-leader-harrogate-hub) — Insufficient admin/service evidence.
 - [Human Resources Officer](https://teaching-vacancies.service.gov.uk/jobs/human-resources-officer-heartwood-learning-trust-york-not-recorded) — Insufficient admin/service evidence.
 
 ## Safety boundary

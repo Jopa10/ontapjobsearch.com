@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — North East - Tees Valley
 
-review_date: 2026-09-13
+review_date: 2026-09-14
 review_fingerprint: 04301fd33951323549e655d94fbe08af784a4294bfae9fb1656dc8c9239c1350
-routing_manifest_sha256: d05140fc04f6c95d362a61a2b147bd89d2b3af7a6ea065265d94cadf85464dd2
+routing_manifest_sha256: bfc87dba77a831bff4b6334363e28f0c44678cac32c7199aeb8843c588637d45
 ontap_region: North East - Tees Valley
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 4
+- Records: 3
 - Selected: 1
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 2
+- Hard pass: 1
 
 ## SELECTED
 
@@ -60,7 +60,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-office-manager
 ## HARD_PASS
 
 - [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-326e8711-30eb-4683-b8a7-6e0c7757378c) — Insufficient admin/service evidence.
-- [Trust Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/trust-finance-assistant-spark-education-trust) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

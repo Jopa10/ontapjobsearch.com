@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Greater Manchester - Manchester & Salford
 
-review_date: 2026-09-13
-review_fingerprint: aac5d6db3479d15b35983d815eecc56615b9c7d4de40994f0eda8f4dd0ebc137
-routing_manifest_sha256: d05140fc04f6c95d362a61a2b147bd89d2b3af7a6ea065265d94cadf85464dd2
+review_date: 2026-09-14
+review_fingerprint: ea9ee41727dd7ecc839214dabf073319eb322a99552b311770bee35918434bb2
+routing_manifest_sha256: bfc87dba77a831bff4b6334363e28f0c44678cac32c7199aeb8843c588637d45
 ontap_region: Greater Manchester - Manchester & Salford
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 7
-- Selected: 4
+- Records: 6
+- Selected: 3
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 3
@@ -49,21 +49,6 @@ factual_fingerprint: cbdde4e6ecb631791154250a7dca6fbe56d4f2b621f5f08df09a6249bbe
 source: Teaching Vacancies
 source_job_id: data-exams-officer-0ab804f7-3ae3-4446-bad0-ef8458fd8eda
 source_url: https://teaching-vacancies.service.gov.uk/jobs/data-exams-officer-0ab804f7-3ae3-4446-bad0-ef8458fd8eda
----
-
----
-action: 
-SELECTED | Greater Manchester - Manchester & Salford | Manchester, North West, M23 2SX | DAT Level 2, SCP 14-17 (Actual salary £24,444 - £24,832) | Level 2 Academy Administrator
-employer: Dixons Newall Green Academy
-closing_date: 2026-09-13T23:59:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: fe2db05187d01dcac89033ccc7cf4bfda9d87b7bc8bec263ab595d86bf676514
-source: Teaching Vacancies
-source_job_id: level-2-academy-administrator-b3f2e607-7a74-4e3b-a63d-126983463f76
-source_url: https://teaching-vacancies.service.gov.uk/jobs/level-2-academy-administrator-b3f2e607-7a74-4e3b-a63d-126983463f76
 ---
 
 ---

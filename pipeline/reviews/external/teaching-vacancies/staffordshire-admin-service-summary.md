@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Staffordshire
 
-review_date: 2026-09-13
+review_date: 2026-09-14
 review_fingerprint: 4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945
-routing_manifest_sha256: d05140fc04f6c95d362a61a2b147bd89d2b3af7a6ea065265d94cadf85464dd2
+routing_manifest_sha256: bfc87dba77a831bff4b6334363e28f0c44678cac32c7199aeb8843c588637d45
 ontap_region: Staffordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 7
+- Records: 6
 - Selected: 0
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 7
+- Hard pass: 6
 
 ## SELECTED
 
@@ -35,11 +35,10 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 - [Deputy Chief Executive Officer - Finance and Operations](https://teaching-vacancies.service.gov.uk/jobs/deputy-chief-executive-officer-finance-and-operations) — Insufficient admin/service evidence.
 - [Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-the-shaw-education-trust) — Insufficient admin/service evidence.
+- [Management Accountant](https://teaching-vacancies.service.gov.uk/jobs/management-accountant-discovery-academy-stoke-on-trent-staffordshire) — Insufficient admin/service evidence.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-5c20c15e-9ea0-4341-b9c5-ba119bab985a) — Manager title salary ceiling £39,152 is not below £28,000.
 - [Senior Administration and Finance Assistant - Level 5](https://teaching-vacancies.service.gov.uk/jobs/senior-administration-and-finance-assistant-level-5) — Insufficient admin/service evidence.
 - [Student Support and Attendance](https://teaching-vacancies.service.gov.uk/jobs/student-support-and-attendance) — Insufficient admin/service evidence.
-- [Trust Governance Manager](https://teaching-vacancies.service.gov.uk/jobs/trust-governance-manager-community-academies-trust) — Manager title salary ceiling £41,771 is not below £28,000.
-- [Trust Payroll Officer](https://teaching-vacancies.service.gov.uk/jobs/trust-payroll-officer-a8f45de3-8ece-41fc-909e-9dacae971fa0) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

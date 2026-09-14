@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — South West
 
-review_date: 2026-09-13
-review_fingerprint: 0cfdcd02335ca98ad226335141f1a6b4435a6d7f7d9facae47952816cab94a49
-routing_manifest_sha256: d05140fc04f6c95d362a61a2b147bd89d2b3af7a6ea065265d94cadf85464dd2
+review_date: 2026-09-14
+review_fingerprint: c3bece1c9bd1819e4db9777b8c72cd36c5dd4be9a158e0689a188e1aa62cb8d7
+routing_manifest_sha256: bfc87dba77a831bff4b6334363e28f0c44678cac32c7199aeb8843c588637d45
 ontap_region: South West
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -38,14 +38,14 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-and-admi
 
 ---
 action: 
-SELECTED | South West | Pewsey, South West, SN9 5LZ | £26,223.00 - £26,639.00 Annually (FTE) £7,316.22 - £7,432.28 (Actual) | School Administrator
+SELECTED | South West | Pewsey, South West, SN9 5LZ | £26,427.00 - £26,847.00 Annually (FTE) £7,370.49 - £7,487.63 (Actual) | School Administrator
 employer: Easton Royal Academy
 closing_date: 2026-09-25T09:00:00+01:00
 reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
 slice_status: UNREGISTERED
 migration_status: 
-factual_fingerprint: 83a0e41dd04b2b4a5722f65f8179c361e4bc22b7e7417969baaf436b6ee821f9
+factual_fingerprint: 6cbc33ca4199630e2e6411785e7bf86ccce81af4ea2e0ccca0d4b13c57365ad7
 source: Teaching Vacancies
 source_job_id: school-administrator-easton-royal-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-easton-royal-academy

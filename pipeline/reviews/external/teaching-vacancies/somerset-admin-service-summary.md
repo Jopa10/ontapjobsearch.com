@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Somerset
 
-review_date: 2026-09-13
-review_fingerprint: c3bc99ee98b44fcbfccc00c4361833dbca990c03fa9cd41780bcd02ad49d0a9e
-routing_manifest_sha256: d05140fc04f6c95d362a61a2b147bd89d2b3af7a6ea065265d94cadf85464dd2
+review_date: 2026-09-14
+review_fingerprint: dc6c4c6c775a05161d1ee44057c9f3a305f29c61139688df90465afa3b5b20b0
+routing_manifest_sha256: bfc87dba77a831bff4b6334363e28f0c44678cac32c7199aeb8843c588637d45
 ontap_region: Somerset
 slice_category: admin_service
 slice_status: LIVE
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 9
-- Selected: 3
+- Records: 10
+- Selected: 4
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 5
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Somerset | Weston-super-Mare, South West, BS23 3QP | £4,651 - £5,069 | Administration Assistant Level 1 - Receptionist
+employer: Hans Price Academy
+closing_date: 2026-09-20T23:59:59+01:00
+reason: Clear admin/service title: receptionist, administration assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 8e5096438e7e47b79c791518e5ccc9d7573f780d995dc15726f559a7f009cf4d
+source: Teaching Vacancies
+source_job_id: administration-assistant-level-1-receptionist-hans-price-academy-weston-super-mare-somerset
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-level-1-receptionist-hans-price-academy-weston-super-mare-somerset
+---
 
 ---
 action: 
@@ -90,10 +105,10 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-
 ## HARD_PASS
 
 - [Apprentice Workplace Reviewer](https://teaching-vacancies.service.gov.uk/jobs/apprentice-workplace-reviewer) — Insufficient admin/service evidence.
+- [Exams, Data Insights and Systems Manager](https://teaching-vacancies.service.gov.uk/jobs/exams-data-insights-and-systems-manager) — Manager title salary ceiling £33,478 is not below £28,000.
 - [Primary Assistant Headteacher Behaviour and Personal Development](https://teaching-vacancies.service.gov.uk/jobs/primary-assistant-headteacher-behaviour-and-personal-development) — Out-of-scope occupation: teacher, headteacher.
 - [Project and Executive Support Officer - Part Time](https://teaching-vacancies.service.gov.uk/jobs/project-and-executive-support-officer-part-time) — Insufficient admin/service evidence.
 - [Receptionist](https://teaching-vacancies.service.gov.uk/jobs/receptionist-westover-green-community-school-and-autism-centre) — Missing salary or pay scale.
-- [Systems Analyst](https://teaching-vacancies.service.gov.uk/jobs/systems-analyst-pathway-trust) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

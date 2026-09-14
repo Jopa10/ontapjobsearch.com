@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands
 
-review_date: 2026-09-13
+review_date: 2026-09-14
 review_fingerprint: 4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945
-routing_manifest_sha256: d05140fc04f6c95d362a61a2b147bd89d2b3af7a6ea065265d94cadf85464dd2
+routing_manifest_sha256: bfc87dba77a831bff4b6334363e28f0c44678cac32c7199aeb8843c588637d45
 ontap_region: West Midlands
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 2
+- Records: 1
 - Selected: 0
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 2
+- Hard pass: 1
 
 ## SELECTED
 
@@ -34,7 +34,6 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## HARD_PASS
 
 - [Clerical Assistant - General Level 2](https://teaching-vacancies.service.gov.uk/jobs/clerical-assistant-general-level-2-james-bateman-middle-school) — Insufficient admin/service evidence.
-- [Cover and Reprographics Coordinator](https://teaching-vacancies.service.gov.uk/jobs/cover-and-reprographics-coordinator) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

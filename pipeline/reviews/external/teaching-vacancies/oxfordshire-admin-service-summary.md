@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Oxfordshire
 
-review_date: 2026-09-13
-review_fingerprint: 560976bd8bc1c3129bba2c7d9dfa6a4360b3aecc366e5686a64619f43c8556bd
-routing_manifest_sha256: d05140fc04f6c95d362a61a2b147bd89d2b3af7a6ea065265d94cadf85464dd2
+review_date: 2026-09-14
+review_fingerprint: 678d38a6dc50118750960815daaa97420617ceb61d003110a92255589a8d219d
+routing_manifest_sha256: bfc87dba77a831bff4b6334363e28f0c44678cac32c7199aeb8843c588637d45
 ontap_region: Oxfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,43 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 14
-- Selected: 7
+- Records: 12
+- Selected: 5
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 7
 
 ## SELECTED
-
----
-action: 
-SELECTED | Oxfordshire | Faringdon, South East, SN7 7LB | £26,824.00 - £29,065.00 Annually (FTE) Support Staff NJC grade 6, SCP 8-13. 30 hours per week/38 weeks per year. Actual annual salary in the region of £18,235.86 - £19,759.37 | Attendance Administrator
-employer: Faringdon Community College
-closing_date: 2026-09-14T12:00:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: c84234c07a4c867af718e19687d7a3687fc550714654e60f0af1a6edabb2d781
-source: Teaching Vacancies
-source_job_id: attendance-administrator-faringdon-community-college
-source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-administrator-faringdon-community-college
----
-
----
-action: 
-SELECTED | Oxfordshire | Banbury, South East, OX16 0QT | £26,824-£29,064 | Attendance Officer
-employer: Orchard Fields Community School
-closing_date: 2026-09-14T12:00:00+01:00
-reason: Clear admin/service title: attendance officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 9e3fb983238bc95bb4e8181511b6792b764072bacbae97adaa9e616f15ba9223
-source: Teaching Vacancies
-source_job_id: attendance-officer-orchard-fields-community-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-orchard-fields-community-school
----
 
 ---
 action: 
@@ -83,17 +53,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/data-insights-and-exa
 
 ---
 action: 
-SELECTED | Oxfordshire | Oxford, South East, OX2 6AB | £26,824.00 - £29,064.00 Annually (FTE) Grade 6 Actual Annual Salary £23,940 | Grade 6 Office Administrator
-employer: St Philip and James' Church of England Aided Primary School Oxford
-closing_date: 2026-09-14T12:00:00+01:00
+SELECTED | Oxfordshire | Wantage, South East, OX12 7GQ | £24,796.00 - £26,403.00 Annually (FTE) NJC 3 – 7 (dependent on experience). Pro rata will be subject to hours. Paid for 44.65 weeks annual pay | Office Administrator
+employer: Wantage Primary Academy
+closing_date: 2026-09-28T23:59:00+01:00
 reason: Clear admin/service title: administrator, office administrator
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: af07c6e2ea149f4b4ad119cb9a7c6c065bf1cc9a4758fbe52b95b3996f0be647
+factual_fingerprint: 79885fdaefbb49d1b5aaaedf099dc71015ee7a0c6a9c9916fb8c0813be784059
 source: Teaching Vacancies
-source_job_id: grade-6-office-administrator-3e4de74e-af8a-4ee3-b949-0a2e141ed8ab
-source_url: https://teaching-vacancies.service.gov.uk/jobs/grade-6-office-administrator-3e4de74e-af8a-4ee3-b949-0a2e141ed8ab
+source_job_id: office-administrator-wantage-primary-academy-wantage-oxfordshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-wantage-primary-academy-wantage-oxfordshire
 ---
 
 ---

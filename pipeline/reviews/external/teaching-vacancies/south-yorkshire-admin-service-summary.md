@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - South
 
-review_date: 2026-09-13
-review_fingerprint: 3001d724aac7ec178bd1ef7baec28d7388cff5e7dee3c5c6e4f4af3ddd3b27b0
-routing_manifest_sha256: d05140fc04f6c95d362a61a2b147bd89d2b3af7a6ea065265d94cadf85464dd2
+review_date: 2026-09-14
+review_fingerprint: e0df94ee8cb6f8b5fcef3e2f6c61dc58a7b3c8be842f902f150d80d84209992c
+routing_manifest_sha256: bfc87dba77a831bff4b6334363e28f0c44678cac32c7199aeb8843c588637d45
 ontap_region: Yorkshire - South
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 31
-- Selected: 7
-- POSS awaiting decision: 0
+- Records: 27
+- Selected: 5
+- POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 24
+- Hard pass: 21
 
 ## SELECTED
 
@@ -34,21 +34,6 @@ factual_fingerprint: b5b168a56f468ff6d306348bd1d72f085a0a5694ec6df76fecb7a61b753
 source: Teaching Vacancies
 source_job_id: admin-clerical-officer-level-2-rowan-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-clerical-officer-level-2-rowan-school
----
-
----
-action: 
-SELECTED | Yorkshire - South | Sheffield, Yorkshire and the Humber, S2 5ED | £25,583 to £25,989 | Permanent Admin Assistant
-employer: Wybourn Community Primary & Nursery School
-closing_date: 2026-09-14T09:00:00+01:00
-reason: Clear admin/service title: admin assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 716e026a27d2141cec9a203dc8f3bd1be8acabf09583ecbdcbb928dbe4e3e733
-source: Teaching Vacancies
-source_job_id: permanent-admin-assistant
-source_url: https://teaching-vacancies.service.gov.uk/jobs/permanent-admin-assistant
 ---
 
 ---
@@ -111,24 +96,22 @@ source_job_id: receptionist-totley-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-totley-primary-school
 ---
 
+## POSS — choose SELECT or EXCLUDE
+
 ---
 action: 
-SELECTED | Yorkshire - South | Doncaster, Yorkshire and the Humber, DN6 7SF | £20,802.90 - £21,129.26 | Receptionist & Administrative Assistant
-employer: Outwood Academy Adwick
-closing_date: 2026-09-14T09:00:00+01:00
-reason: Clear admin/service title: administrative assistant, receptionist
+POSS | Yorkshire - South | Sheffield, Yorkshire and the Humber, S20 3GU | £24551-£26592 depending on experience | Administration and Clerical Officer - Business Support
+employer: Halfway Nursery Infant School
+closing_date: 2026-09-24T12:00:00+01:00
+reason: Administrative duties evidenced in description
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: e1157fe46e5bfc3dc8137dfc7b0ce0409fa897231eb6fcc23648ddb9069d6026
+factual_fingerprint: 6aa438818c44ba1354355a8a229c4a16147b0df34dbf167777987b4c13586b29
 source: Teaching Vacancies
-source_job_id: receptionist-administrative-assistant-outwood-academy-adwick
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrative-assistant-outwood-academy-adwick
+source_job_id: administration-and-clerical-officer-business-support
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-and-clerical-officer-business-support
 ---
-
-## POSS — choose SELECT or EXCLUDE
-
-- None.
 
 ## EXCLUDED BY REVIEW
 
@@ -138,22 +121,19 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administ
 
 - [Admin Officer](https://teaching-vacancies.service.gov.uk/jobs/admin-officer-meynell-nursery-primary-school) — Insufficient admin/service evidence.
 - [Attendance and Admin Officer](https://teaching-vacancies.service.gov.uk/jobs/attendance-and-admin-officer-whiteways-primary-school) — Insufficient admin/service evidence.
-- [Attendance and Admissions Manager](https://teaching-vacancies.service.gov.uk/jobs/attendance-and-admissions-manager-westfield-school-sheffield) — Manager title salary ceiling £41,771 is not below £28,000.
 - [Chief Financial Officer](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-st-clare-catholic-multi-academy-trust) — Insufficient admin/service evidence.
 - [Cluster Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/cluster-finance-officer-inova-multi-academy-trust-limited) — Insufficient admin/service evidence.
 - [Cluster People Officer - Primary](https://teaching-vacancies.service.gov.uk/jobs/cluster-people-officer-primary) — Insufficient admin/service evidence.
 - [Data & Systems Manager](https://teaching-vacancies.service.gov.uk/jobs/data-systems-manager-st-francis-catholic-multi-academy-trust) — Manager title salary ceiling £50,269 is not below £28,000.
 - [Data and Systems Manager](https://teaching-vacancies.service.gov.uk/jobs/data-and-systems-manager-st-francis-catholic-multi-academy-trust) — Manager title salary ceiling £47,181 is not below £28,000.
-- [Data, Systems and Insights Specialist](https://teaching-vacancies.service.gov.uk/jobs/data-systems-and-insights-specialist) — Insufficient admin/service evidence.
-- [Director of People](https://teaching-vacancies.service.gov.uk/jobs/director-of-people-939f4f3e-e8ec-4135-a446-ee9d9db46228) — Insufficient admin/service evidence.
+- [Data, Timetabler and Cover Manager](https://teaching-vacancies.service.gov.uk/jobs/data-timetabler-and-cover-manager) — Manager title salary ceiling £35,000 is not below £28,000.
 - [Executive Assistant](https://teaching-vacancies.service.gov.uk/jobs/executive-assistant-white-woods-primary-academy-trust) — Insufficient admin/service evidence.
 - [Finance & Admin Asst](https://teaching-vacancies.service.gov.uk/jobs/finance-admin-asst) — Insufficient admin/service evidence.
 - [Finance & Admin Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-admin-manager-prince-edward-primary-school-sheffield-south-yorkshire) — Manager title salary ceiling £41,771 is not below £28,000.
 - [Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-22597e3f-53f4-481f-b336-4ec374710e1b) — Insufficient admin/service evidence.
+- [Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-57d3025b-f701-43b4-bf16-13498ff4c547) — Insufficient admin/service evidence.
 - [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-mercia-learning-trust-sheffield-not-recorded) — Manager title salary ceiling £53,052 is not below £28,000.
 - [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-hatfield-woodhouse-primary-school-doncaster-south-yorkshire) — Insufficient admin/service evidence.
-- [HR Manager](https://teaching-vacancies.service.gov.uk/jobs/hr-manager-f66082bd-6a6e-4f84-9a14-924c810758cb) — Manager title salary ceiling £54,495 is not below £28,000.
-- [HR Manager](https://teaching-vacancies.service.gov.uk/jobs/hr-manager-st-francis-catholic-multi-academy-trust-rotherham-not-recorded) — Manager title salary ceiling £54,495 is not below £28,000.
 - [Learning Manager](https://teaching-vacancies.service.gov.uk/jobs/learning-manager-0bfa4cca-872c-4778-a35f-1fb75b7f4503) — Manager title salary ceiling £36,581 is not below £28,000.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-newman-school) — Manager title salary ceiling £39,152 is not below £28,000.
 - [Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/operations-manager-982c74fa-4963-48bf-be10-a1bcf0a4bf2f) — Manager title salary ceiling £39,773 is not below £28,000.

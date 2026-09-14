@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Devon
 
-review_date: 2026-09-13
-review_fingerprint: 140623af2dafd48e00d39884a9ac09449d9c9b3a61814675a2ac6682037e5d68
-routing_manifest_sha256: d05140fc04f6c95d362a61a2b147bd89d2b3af7a6ea065265d94cadf85464dd2
+review_date: 2026-09-14
+review_fingerprint: 8f13cd2c376f69bd124757e7634dbdc88a6b4ea37d2eb876e7c6e60275667717
+routing_manifest_sha256: bfc87dba77a831bff4b6334363e28f0c44678cac32c7199aeb8843c588637d45
 ontap_region: Devon
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 19
-- Selected: 7
+- Records: 18
+- Selected: 8
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 11
+- Hard pass: 9
 
 ## SELECTED
 
@@ -113,6 +113,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/estates-administrator
 
 ---
 action: 
+SELECTED | Devon | Paignton, South West, TQ3 2AL | £25,923.00 Annually (FTE) £23,755 actual | School Administrator
+employer: Brunel School
+closing_date: 2026-09-25T23:59:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: c119e80047985fa6262c5a435640470500aab1ea792db834390dde8d7cc50708
+source: Teaching Vacancies
+source_job_id: school-administrator-brunel-school-paignton-devon
+source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-brunel-school-paignton-devon
+---
+
+---
+action: 
 SELECTED | Devon | Exeter, South West, EX2 7LB | £31,724 - £35,688 | Senior Administrator
 employer: Stansfield Academy
 closing_date: 2026-10-05T23:59:00+01:00
@@ -155,11 +170,9 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/reception-and-adminis
 - [Cover Supervisor](https://teaching-vacancies.service.gov.uk/jobs/cover-supervisor-8280cab3-6b8e-472b-9889-9e3a0652cdd8) — Insufficient admin/service evidence.
 - [Executive Assistant](https://teaching-vacancies.service.gov.uk/jobs/executive-assistant-chulmleigh-community-college) — Missing salary or pay scale.
 - [Finance and Contracts Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-and-contracts-officer) — Insufficient admin/service evidence.
-- [Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-learning-academies-trust-plymouth-not-recorded) — Insufficient admin/service evidence.
 - [Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-dartmoor-multi-academy-trust) — Insufficient admin/service evidence.
 - [Finance Business Partner - Maternity Cover](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-maternity-cover) — Insufficient admin/service evidence.
 - [HR Assistant](https://teaching-vacancies.service.gov.uk/jobs/hr-assistant-cann-bridge-school) — Insufficient admin/service evidence.
-- [Medical Conditions and Student Health Lead](https://teaching-vacancies.service.gov.uk/jobs/medical-conditions-and-student-health-lead) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

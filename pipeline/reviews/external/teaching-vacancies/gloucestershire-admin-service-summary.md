@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Gloucestershire
 
-review_date: 2026-09-13
-review_fingerprint: f7035e5ee7d00984530797c9f120a21d9ea42622da663037f5789e5149948edb
-routing_manifest_sha256: d05140fc04f6c95d362a61a2b147bd89d2b3af7a6ea065265d94cadf85464dd2
+review_date: 2026-09-14
+review_fingerprint: 46415ab625f56d9ae116a413a8a98fcebc1eb20e68d78fc5ddbf5f4847eeef4f
+routing_manifest_sha256: bfc87dba77a831bff4b6334363e28f0c44678cac32c7199aeb8843c588637d45
 ontap_region: Gloucestershire
 slice_category: admin_service
 slice_status: LIVE
@@ -14,31 +14,31 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 4
-- Selected: 1
-- POSS awaiting decision: 0
+- Selected: 0
+- POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 3
 
 ## SELECTED
 
----
-action: 
-SELECTED | Gloucestershire | Gloucester, South West, GL3 4ZN | Actual Annual Salary:?£22,947 - £25,010 | Administration Assistant Level 1
-employer: Brook Academy
-closing_date: 2026-09-13T23:59:59+01:00
-reason: Clear admin/service title: administration assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: c63152e0bca50d66ec9691cecca8181994aae191bb14a7cc769d6395a2cd5c2d
-source: Teaching Vacancies
-source_job_id: administration-assistant-level-1-brook-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-level-1-brook-academy
----
+- None.
 
 ## POSS — choose SELECT or EXCLUDE
 
-- None.
+---
+action: 
+POSS | Gloucestershire | Tewkesbury, South West, GL20 5SW | Estimated total hours of 130 annually. Hourly rate of £18-£25 depending on experience, invoiced for work undertaken | Governance Professional / Clerk to the Trust Board
+employer: Abbey View
+closing_date: 2026-09-28T23:59:00+01:00
+reason: Borderline school administration title: governance professional
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: ebca3153379254f9b0fea3d56a4a19c5c11b2a2353092321f6532ac869a980ca
+source: Teaching Vacancies
+source_job_id: governance-professional-clerk-to-the-trust-board
+source_url: https://teaching-vacancies.service.gov.uk/jobs/governance-professional-clerk-to-the-trust-board
+---
 
 ## EXCLUDED BY REVIEW
 

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Hampshire
 
-review_date: 2026-09-13
-review_fingerprint: ce61ed33a4ccc7c6420f4904866885b86be8b30280e72131ce7f6869475a88c9
-routing_manifest_sha256: d05140fc04f6c95d362a61a2b147bd89d2b3af7a6ea065265d94cadf85464dd2
+review_date: 2026-09-14
+review_fingerprint: 101be0cec6b04768b6002c7e3889728479d1e476ce60f36f922bb24c44b1e775
+routing_manifest_sha256: bfc87dba77a831bff4b6334363e28f0c44678cac32c7199aeb8843c588637d45
 ontap_region: Hampshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 7
-- Selected: 3
+- Records: 6
+- Selected: 2
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 4
@@ -49,21 +49,6 @@ factual_fingerprint: 93ac0a2883e9e6d7958b298dae31923000cc48ae97c640decb903b6d5f6
 source: Teaching Vacancies
 source_job_id: exams-officer-and-assessment-data-co-ordinator
 source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-and-assessment-data-co-ordinator
----
-
----
-action: 
-SELECTED | Hampshire | Southampton, South East, SO30 4EJ | £25,614.00 Annually (FTE) Grade B – Step 1 - Actual Annual Salary £21,041.02 (which is equivalent to a full-time salary of £25,614 | Receptionist
-employer: Wildern School
-closing_date: 2026-09-14T12:00:00+01:00
-reason: Clear admin/service title: receptionist
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 40ceb15ad32c310bc90a1f6f105bebc66b3dd918eb713d55823640a87fb49e55
-source: Teaching Vacancies
-source_job_id: receptionist-1dcaf299-1719-4cef-a999-af235a29010e
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-1dcaf299-1719-4cef-a999-af235a29010e
 ---
 
 ## POSS — choose SELECT or EXCLUDE

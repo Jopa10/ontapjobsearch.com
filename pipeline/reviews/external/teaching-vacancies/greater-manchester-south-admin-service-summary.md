@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Greater Manchester - South
 
-review_date: 2026-09-13
+review_date: 2026-09-14
 review_fingerprint: d6376f0ca050dcf173a3e3550736dfcbbb40a8064939961d0465e37b66ed46aa
-routing_manifest_sha256: d05140fc04f6c95d362a61a2b147bd89d2b3af7a6ea065265d94cadf85464dd2
+routing_manifest_sha256: bfc87dba77a831bff4b6334363e28f0c44678cac32c7199aeb8843c588637d45
 ontap_region: Greater Manchester - South
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 5
+- Records: 4
 - Selected: 1
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 2
+- Hard pass: 1
 
 ## SELECTED
 
@@ -75,7 +75,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-admininstrator
 ## HARD_PASS
 
 - [Casual Committee Clerk](https://teaching-vacancies.service.gov.uk/jobs/casual-committee-clerk-the-laurus-trust-cheadle-not-recorded) — Insufficient admin/service evidence.
-- [Senior Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-finance-officer-tameside-alternative-provision-academy) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

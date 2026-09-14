@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Berkshire
 
-review_date: 2026-09-13
+review_date: 2026-09-14
 review_fingerprint: b1ef9fdde685f16c34a247e51a2751d4b082a107b7dc920a7b898ca4cebe5429
-routing_manifest_sha256: d05140fc04f6c95d362a61a2b147bd89d2b3af7a6ea065265d94cadf85464dd2
+routing_manifest_sha256: bfc87dba77a831bff4b6334363e28f0c44678cac32c7199aeb8843c588637d45
 ontap_region: Berkshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 24
+- Records: 23
 - Selected: 8
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 14
+- Hard pass: 13
 
 ## SELECTED
 
@@ -179,7 +179,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-operations-off
 
 ## HARD_PASS
 
-- [Casual Lettings Assistant](https://teaching-vacancies.service.gov.uk/jobs/casual-lettings-assistant-maiden-erlegh-chiltern-edge) — Insufficient admin/service evidence.
 - [EHCP Team Administrator - The Avenue School](https://teaching-vacancies.service.gov.uk/jobs/ehcp-team-administrator-the-avenue-school) — Missing salary or pay scale.
 - [Exams Manager (s)](https://teaching-vacancies.service.gov.uk/jobs/exams-manager-s) — Manager title salary ceiling £32,509 is not below £28,000.
 - [Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-the-park-federation-academy-trust) — Insufficient admin/service evidence.

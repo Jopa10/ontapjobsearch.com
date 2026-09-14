@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Greater Manchester - North
 
-review_date: 2026-09-13
-review_fingerprint: 7bf67fbabf2e66db14d1356b0658960c0611252d869dbbd449e61954817c212a
-routing_manifest_sha256: d05140fc04f6c95d362a61a2b147bd89d2b3af7a6ea065265d94cadf85464dd2
+review_date: 2026-09-14
+review_fingerprint: fe0daac665af9829501bfaa9d7fde21278d391ff4b56748b9613c2970cf940be
+routing_manifest_sha256: bfc87dba77a831bff4b6334363e28f0c44678cac32c7199aeb8843c588637d45
 ontap_region: Greater Manchester - North
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 8
-- Selected: 3
+- Records: 9
+- Selected: 4
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 4
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Greater Manchester - North | Heywood, North West, OL10 2QN | £25,981.00 - £27,693.00 Annually (Actual) School Support Scale point 1 - 3, currently increased to Real Living Wage | Admin Assistant (Medical and First Aid Responsibility)
+employer: Edgar Wood Academy
+closing_date: 2026-09-25T12:00:00+01:00
+reason: Clear admin/service title: admin assistant
+jobg8_check: NO_MATCH
+slice_status: UNREGISTERED
+migration_status: 
+factual_fingerprint: 7e9cf785a34c1674b275308556d8b909467ee4d315729426597264358f97ca98
+source: Teaching Vacancies
+source_job_id: admin-assistant-medical-and-first-aid-responsibility
+source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-medical-and-first-aid-responsibility
+---
 
 ---
 action: 
@@ -53,17 +68,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-b2
 
 ---
 action: 
-SELECTED | Greater Manchester - North | Rochdale, North West, OL11 5EF | £26,824.00 to £28,142.00 per annum (pro rata £23,663.85 to £24,826.57 per annum) | Business Support Officer - Data and Assessments
-employer: Oulder Hill Leadership Academy
-closing_date: 2026-09-13T23:59:00+01:00
-reason: Clear admin/service title: business support officer
+SELECTED | Greater Manchester - North | Oldham, North West, OL2 5BF | £23,612.57 - £25,982.89 Annually (Actual) SCP6-12 - £23,612.57 - £25,982.89 - FTE: £26,847.00 - £29,542.00 - 37 hours per week, 39 weeks per year. | SEND Administrator
+employer: E-ACT the Oldham Academy North
+closing_date: 2026-09-21T09:00:00+01:00
+reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
 slice_status: UNREGISTERED
 migration_status: 
-factual_fingerprint: 257eff66bd80df4d4ba9846cbeee3a187cd43d817bdf5e0d6b9f7683e2863294
+factual_fingerprint: e6cd8f2f95ce2aa84ef572ba21a267594c36ac4f21ef0d23a754cae5c4398fa0
 source: Teaching Vacancies
-source_job_id: business-support-officer-data-and-assessments-oulder-hill-leadership-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-officer-data-and-assessments-oulder-hill-leadership-academy
+source_job_id: send-administrator-e-act-the-oldham-academy-north
+source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-e-act-the-oldham-academy-north
 ---
 
 ## POSS — choose SELECT or EXCLUDE

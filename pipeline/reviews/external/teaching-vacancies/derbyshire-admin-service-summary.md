@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Derbyshire
 
-review_date: 2026-09-13
-review_fingerprint: e62eee8ea893fa1d2d576792eb320e652d58b8c6d2c6bf6253fdde917caee065
-routing_manifest_sha256: d05140fc04f6c95d362a61a2b147bd89d2b3af7a6ea065265d94cadf85464dd2
+review_date: 2026-09-14
+review_fingerprint: 64ea59636fc74d16dc7f50f884aac48e71bf48868d1aa6726d33bb3f6be9d90c
+routing_manifest_sha256: bfc87dba77a831bff4b6334363e28f0c44678cac32c7199aeb8843c588637d45
 ontap_region: Derbyshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 5
-- Selected: 2
+- Records: 2
+- Selected: 1
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 3
+- Hard pass: 1
 
 ## SELECTED
-
----
-action: 
-SELECTED | Derbyshire | Chesterfield, East Midlands, S44 6XA | Redhill Academy Trust Pay Scale, Band 7, Scale Points 32 - 36 Actual salary: £22,094 - £23,923 per annum (FTE: £26,141 - £28,305) | Administrative Assistant/Cover Administrator
-employer: The Bolsover School
-closing_date: 2026-09-14T12:00:00+01:00
-reason: Clear admin/service title: administrator, administrative assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 4dde3521d859f0332533feda0d888b51ad3e6ff9d32eca10d92bc4934600c0f9
-source: Teaching Vacancies
-source_job_id: administrative-assistant-cover-administrator-the-bolsover-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-cover-administrator-the-bolsover-school
----
 
 ---
 action: 
@@ -61,9 +46,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-school-b
 
 ## HARD_PASS
 
-- [PA to Senior Leadership Team & Cover Manager](https://teaching-vacancies.service.gov.uk/jobs/pa-to-senior-leadership-team-cover-manager) — Manager title salary ceiling £37,280 is not below £28,000.
 - [Safeguarding Officer](https://teaching-vacancies.service.gov.uk/jobs/safeguarding-officer-the-bolsover-school) — Insufficient admin/service evidence.
-- [Teaching Assistant Level 3 (Personal Care)](https://teaching-vacancies.service.gov.uk/jobs/teaching-assistant-level-3-personal-care-hope-valley-college) — Out-of-scope occupation: teaching assistant.
 
 ## Safety boundary
 

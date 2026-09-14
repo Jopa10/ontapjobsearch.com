@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Bristol & Bath
 
-review_date: 2026-09-13
-review_fingerprint: e9dabfa7d62e41fa1720ddc4ce54a5ee23c43802a7a06b9ca640a08a069a7458
-routing_manifest_sha256: d05140fc04f6c95d362a61a2b147bd89d2b3af7a6ea065265d94cadf85464dd2
+review_date: 2026-09-14
+review_fingerprint: 28b2d49eeffd9c5710d9598b58e694b83b314d3f62e2c5debe85a81fff8a8c37
+routing_manifest_sha256: bfc87dba77a831bff4b6334363e28f0c44678cac32c7199aeb8843c588637d45
 ontap_region: Bristol & Bath
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 9
-- Selected: 3
+- Records: 8
+- Selected: 2
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 6
@@ -51,21 +51,6 @@ source_job_id: office-assistant-chandag-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/office-assistant-chandag-primary-school
 ---
 
----
-action: 
-SELECTED | Bristol & Bath | Bristol, South West, BS3 5NR | £17,506.00 - £17,785.00 Annually (Actual) N6 (£25,989) - N7 (£26,403) FTE, ACTUAL salary £17,506.19 - £17,785.06 | School Administrator
-employer: Parson Street Primary School
-closing_date: 2026-09-13T23:00:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 8e4725667b8e683cfb5aab0eece4a5a05a802ffb830c7102e472338d050943ef
-source: Teaching Vacancies
-source_job_id: school-administrator-parson-street-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-parson-street-primary-school
----
-
 ## POSS — choose SELECT or EXCLUDE
 
 - None.
@@ -80,7 +65,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 - [Cover Supervisor](https://teaching-vacancies.service.gov.uk/jobs/cover-supervisor-bridge-learning-campus) — Insufficient admin/service evidence.
 - [Office Administrator](https://teaching-vacancies.service.gov.uk/jobs/office-administrator-cheddar-grove-primary-school-bristol-bristol) — Missing salary or pay scale.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-whitchurch-primary-school) — Manager title without salary evidence below £28,000.
-- [Recruitment Coordinator](https://teaching-vacancies.service.gov.uk/jobs/recruitment-coordinator-41751ef8-54e0-4c11-add5-b1e35e9449ce) — Insufficient admin/service evidence.
+- [Recruitment Coordinator](https://teaching-vacancies.service.gov.uk/jobs/recruitment-coordinator-35317134-5457-4fd1-9788-d52457d462fb) — Insufficient admin/service evidence.
 - [School Office Manager](https://teaching-vacancies.service.gov.uk/jobs/school-office-manager-st-mary-s-cofe-primary-school) — Manager title salary ceiling £29,728 is not below £28,000.
 
 ## Safety boundary

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Bedfordshire
 
-review_date: 2026-09-13
+review_date: 2026-09-14
 review_fingerprint: 49f597bd5f107afd80bae6492e04b8e835f41af6e0e41ad405c4e0e7ea7cbf28
-routing_manifest_sha256: d05140fc04f6c95d362a61a2b147bd89d2b3af7a6ea065265d94cadf85464dd2
+routing_manifest_sha256: bfc87dba77a831bff4b6334363e28f0c44678cac32c7199aeb8843c588637d45
 ontap_region: Bedfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 11
+- Records: 8
 - Selected: 4
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 6
+- Hard pass: 3
 
 ## SELECTED
 
@@ -104,12 +104,9 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/governance-profession
 
 ## HARD_PASS
 
+- [Business Manager](https://teaching-vacancies.service.gov.uk/jobs/business-manager-de16c660-42ff-448c-aed9-69dbe339a507) — Manager title salary ceiling £45,401 is not below £28,000.
 - [Data and Exams Assistant](https://teaching-vacancies.service.gov.uk/jobs/data-and-exams-assistant-queensbury-academy) — Insufficient admin/service evidence.
-- [Data and Exams Processor](https://teaching-vacancies.service.gov.uk/jobs/data-and-exams-processor-denbigh-high-school-luton-bedfordshire) — Insufficient admin/service evidence.
-- [Data Manager](https://teaching-vacancies.service.gov.uk/jobs/data-manager-etonbury-academy) — Manager title salary ceiling £31,539 is not below £28,000.
 - [Finance Assistant - Purchase Ledger & Treasury](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-purchase-ledger-treasury) — Insufficient admin/service evidence.
-- [General Assistant (Resources)](https://teaching-vacancies.service.gov.uk/jobs/general-assistant-resources-chiltern-academy) — Insufficient admin/service evidence.
-- [HR & Recruitment Co-ordinator](https://teaching-vacancies.service.gov.uk/jobs/hr-recruitment-co-ordinator-66ff1d11-9f6d-4db3-ad1f-8e0cb9271a4a) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

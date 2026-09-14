@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Birmingham & Solihull
 
-review_date: 2026-09-13
+review_date: 2026-09-14
 review_fingerprint: b68298d5f89d717ec764f0dd4cbf319e2fbddea93b27cc030fded0898046abca
-routing_manifest_sha256: d05140fc04f6c95d362a61a2b147bd89d2b3af7a6ea065265d94cadf85464dd2
+routing_manifest_sha256: bfc87dba77a831bff4b6334363e28f0c44678cac32c7199aeb8843c588637d45
 ontap_region: West Midlands - Birmingham & Solihull
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 19
+- Records: 20
 - Selected: 8
 - POSS awaiting decision: 3
 - Excluded: 0
-- Hard pass: 8
+- Hard pass: 9
 
 ## SELECTED
 
@@ -196,12 +196,13 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-
 
 - [Academy Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/academy-operations-manager-daylesford-academy) — Manager title salary ceiling £37,784 is not below £28,000.
 - [Finance Lead](https://teaching-vacancies.service.gov.uk/jobs/finance-lead-forward-education-trust) — Insufficient admin/service evidence.
+- [Governance Support Officer](https://teaching-vacancies.service.gov.uk/jobs/governance-support-officer-academy-transformation-trust-sutton-coldfield-not-recorded) — Insufficient admin/service evidence.
 - [Head of Executive Office and Communications](https://teaching-vacancies.service.gov.uk/jobs/head-of-executive-office-and-communications) — Insufficient admin/service evidence.
 - [Head of Marketing](https://teaching-vacancies.service.gov.uk/jobs/head-of-marketing-ormiston-academies-trust) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-lindens-academy) — Manager title salary ceiling £34,434 is not below £28,000.
 - [Regional Commercial Procurement Manager](https://teaching-vacancies.service.gov.uk/jobs/regional-commercial-procurement-manager-ormiston-academies-trust) — Manager title salary ceiling £63,638 is not below £28,000.
 - [Regional People Partner](https://teaching-vacancies.service.gov.uk/jobs/regional-people-partner-4ed6680e-930f-489a-b0d0-658557e0d3dc) — Insufficient admin/service evidence.
-- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-lordswood-boys-school) — Manager title salary ceiling £42,839 is not below £28,000.
+- [Student Support and Admissions Coordinator](https://teaching-vacancies.service.gov.uk/jobs/student-support-and-admissions-coordinator) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

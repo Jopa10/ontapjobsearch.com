@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Hertfordshire
 
-review_date: 2026-09-13
+review_date: 2026-09-14
 review_fingerprint: 80e712501e1460e012bfcb397d3061305a6ab7490990251a337ccf889ce98029
-routing_manifest_sha256: d05140fc04f6c95d362a61a2b147bd89d2b3af7a6ea065265d94cadf85464dd2
+routing_manifest_sha256: bfc87dba77a831bff4b6334363e28f0c44678cac32c7199aeb8843c588637d45
 ontap_region: Hertfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 19
+- Records: 18
 - Selected: 10
 - POSS awaiting decision: 5
 - Excluded: 0
-- Hard pass: 4
+- Hard pass: 3
 
 ## SELECTED
 
@@ -257,7 +257,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-manager-oaklea
 - [Assistant SENDCo](https://teaching-vacancies.service.gov.uk/jobs/assistant-sendco-6880daf8-5253-47b8-806d-79b65802f205) — Insufficient admin/service evidence.
 - [Attendance & Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/attendance-administration-officer-hertford-heath-primary-and-nursery-school) — Insufficient admin/service evidence.
 - [Development Director](https://teaching-vacancies.service.gov.uk/jobs/development-director-watford-grammar-school-for-boys) — Insufficient admin/service evidence.
-- [Headteacher's PA + Office Manager](https://teaching-vacancies.service.gov.uk/jobs/headteacher-s-pa-office-manager-robert-barclay-academy) — Out-of-scope occupation: teacher, headteacher.
 
 ## Safety boundary
 
