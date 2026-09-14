@@ -1,7 +1,7 @@
 ﻿metric,value
 total rows input,10000
-total rows included,963
-total rows dropped,9032
+total rows included,965
+total rows dropped,9033
 title classification count - HIGH_CONFIDENCE,800
 title classification count - ELASTIC_FIT,411
 title classification count - REVIEW_CONTEXT_DEPENDENT,7
@@ -16,13 +16,13 @@ other elastic count - Yorkshire - West,1
 total rows output - Yorkshire - West,27
 job_id included - Yorkshire - West,23643_225569338; 23643_225581001; 23643_225581844; 23643_224689396; 23643_225515250; 23643_225516031; 23643_225519206; 23643_225550655; 23643_225552127; 23643_225554903; 23643_225557189; 23643_225558955; 23643_225570773; 23643_225577014; 1785909; 23643_225569825; 1866765; 23643_225568970; 23643_225530760; 23643_225511013; 23643_225522242; 23643_225542036; 23643_225563194; 107926764; 1880847; 107960699; 23643_225476804
 selection scenario - Yorkshire - South,SCENARIO_3_MANUAL_SELECTION_APPLIED
-selection message - Yorkshire - South,Yorkshire - South manual_select applied additively: 1 row(s) prioritised; 14 selected.
-credible total - Yorkshire - South,14
+selection message - Yorkshire - South,Yorkshire - South manual_select applied additively: 2 row(s) prioritised; 15 selected.
+credible total - Yorkshire - South,15
 high confidence count - Yorkshire - South,9
 anchor elastic count - Yorkshire - South,3
 other elastic count - Yorkshire - South,1
-total rows output - Yorkshire - South,14
-job_id included - Yorkshire - South,23643_225546545; 23643_225522912; 20279_62295-153faf593eb64b88272f45adeaa28d87; 23643_225563636; 23643_225469996; 23643_225574970; 23643_225515295; 21618_20279_62308-153faf593eb64b88272f45adeaa28d87; 1899982; 20279_62308-153faf593eb64b88272f45adeaa28d87; 23643_225516026; 23643_225575501; 1892135; 107804866
+total rows output - Yorkshire - South,15
+job_id included - Yorkshire - South,23643_225546545; 23643_225599384; 23643_225522912; 20279_62295-153faf593eb64b88272f45adeaa28d87; 23643_225563636; 23643_225469996; 23643_225574970; 23643_225515295; 21618_20279_62308-153faf593eb64b88272f45adeaa28d87; 1899982; 20279_62308-153faf593eb64b88272f45adeaa28d87; 23643_225516026; 23643_225575501; 1892135; 107804866
 selection scenario - North East,SCENARIO_3_FULL_VALID_SELECTION
 selection message - North East,"North East selection complete: all 100 valid selected role(s) retained after HIGH_CONFIDENCE, Newcastle Upon Tyne ELASTIC_FIT and other ELASTIC_FIT ordering."
 credible total - North East,100
@@ -336,13 +336,13 @@ other elastic count - Somerset,2
 total rows output - Somerset,11
 job_id included - Somerset,23643_225532752; 23643_225541272; 23643_225545402; 23643_225556047; 23643_225565833; 23643_225571256; 23643_225578357; 23643_225582068; 107795007; 107837716; 107804771
 selection scenario - Staffordshire,SCENARIO_3_MANUAL_SELECTION_APPLIED
-selection message - Staffordshire,Staffordshire manual_select applied additively: 2 row(s) prioritised; 13 selected.
-credible total - Staffordshire,13
+selection message - Staffordshire,Staffordshire manual_select applied additively: 3 row(s) prioritised; 14 selected.
+credible total - Staffordshire,14
 high confidence count - Staffordshire,4
 anchor elastic count - Staffordshire,0
 other elastic count - Staffordshire,7
-total rows output - Staffordshire,13
-job_id included - Staffordshire,23643_225581869; 23643_225543603; 23643_225537967; 23643_225538781; 23643_225581952; 107840501; 1785993; 1771109; 1870733; 1868528; 1839558; 1886352; 107665691
+total rows output - Staffordshire,14
+job_id included - Staffordshire,23643_225581869; 23643_225601163; 23643_225543603; 23643_225537967; 23643_225538781; 23643_225581952; 107840501; 1785993; 1771109; 1870733; 1868528; 1839558; 1886352; 107665691
 selection scenario - Suffolk,SCENARIO_3_MANUAL_SELECTION_APPLIED
 selection message - Suffolk,Suffolk manual_select applied additively: 2 row(s) prioritised; 10 selected.
 credible total - Suffolk,10
