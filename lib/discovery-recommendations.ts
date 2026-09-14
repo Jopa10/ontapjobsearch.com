@@ -37,17 +37,40 @@ export type ApprovedLocation = Pick<Place, "location" | "region" | "latitude" | 
 
 const ROOT = process.cwd();
 const REGISTER_DIRECTORY = path.join(ROOT, "pipeline", "registers");
-const MAX_DISTANCE_MILES = 15;
+const MAX_DISTANCE_MILES = 20;
 const EARTH_RADIUS_MILES = 3958.7613;
 
 const BROAD_OR_UNUSABLE_LOCATIONS = new Set([
   "bedfordshire", "berkshire", "buckinghamshire", "cambridgeshire", "cheshire",
   "city", "county durham", "derbyshire", "devon", "dorset", "essex",
-  "gloucestershire", "hampshire", "hertfordshire", "kent", "lancashire",
+  "gloucestershire", "hampshire", "hertfordshire", "ireland", "kent", "lancashire",
   "leicestershire", "lincolnshire", "merseyside", "norfolk", "northamptonshire",
   "not specified", "nottinghamshire", "oxfordshire", "shropshire", "somerset",
   "staffordshire", "suffolk", "surrey", "sussex", "tyne and wear",
   "warwickshire", "wiltshire", "worcestershire", "yorkshire",
+]);
+
+const MANUAL_COORDINATE_OVERRIDES: Place[] = [
+  { location: "St. Ives", region: "Cambridgeshire", latitude: 52.3326, longitude: -0.0742 },
+  { location: "Stansted", region: "Essex", latitude: 51.90363, longitude: 0.19346 },
+  { location: "Alresford", region: "Hampshire", latitude: 51.09059, longitude: -1.16134 },
+  { location: "Fleet", region: "Hampshire", latitude: 51.283135, longitude: -0.839998 },
+  { location: "Hook", region: "Hampshire", latitude: 51.282468, longitude: -0.962541 },
+  { location: "Rowland's Castle", region: "Hampshire", latitude: 50.88969, longitude: -0.95866 },
+  { location: "Cavendish Square", region: "London", latitude: 51.51651, longitude: -0.14503 },
+  { location: "Loughton", region: "London", latitude: 51.646122, longitude: 0.053864 },
+  { location: "Newham", region: "London", latitude: 51.516667, longitude: 0.033333 },
+  { location: "Newcastle", region: "North East - Tyneside, Wearside & Northumberland", latitude: 54.97328, longitude: -1.61396 },
+  { location: "The Trafford Centre", region: "Greater Manchester - South", latitude: 53.46526, longitude: -2.34844 },
+  { location: "Tameside", region: "Greater Manchester - South", latitude: 53.48779, longitude: -2.09142 },
+  { location: "St. Peter Port", region: "Channel Islands", latitude: 49.45681, longitude: -2.539 },
+  { location: "Stoke-sub-hamdon", region: "Somerset", latitude: 50.95397, longitude: -2.74971 },
+];
+
+const BLOCKED_REGISTER_KEYS = new Set([
+  "londonderry|london",
+  "sutton in ashfield|london",
+  "stoke sub hamdon|west midlands",
 ]);
 
 function normalise(value: string | undefined): string {
@@ -153,6 +176,23 @@ function placeKey(place: Place): string {
   return `${normalise(place.location)}|${normalise(place.region)}`;
 }
 
+function isGrossRegionalOutlier(place: Place): boolean {
+  const region = normalise(place.region);
+  if (region === "london") {
+    return place.latitude < 51.2 || place.latitude > 51.75 || place.longitude < -0.65 || place.longitude > 0.4;
+  }
+  if (region.startsWith("north east")) {
+    return place.latitude < 53.9 || place.latitude > 56.0 || place.longitude < -2.6 || place.longitude > -0.4;
+  }
+  if (region === "hampshire") {
+    return place.latitude < 50.65 || place.latitude > 51.45 || place.longitude < -1.95 || place.longitude > -0.65;
+  }
+  if (region === "cambridgeshire") {
+    return place.latitude < 51.85 || place.latitude > 52.85 || place.longitude < -0.7 || place.longitude > 0.7;
+  }
+  return false;
+}
+
 function resolvePlace(rawLocation: string, region: string, placesByName: Map<string, Place[]>): Place | undefined {
   const key = normalise(rawLocation);
   if (!key || BROAD_OR_UNUSABLE_LOCATIONS.has(key) || key.endsWith(" council")) return undefined;
@@ -226,11 +266,17 @@ function loadRules() {
     }))
     .sort((left, right) => left.priority - right.priority || left.id.localeCompare(right.id));
   const placesByName = new Map<string, Place[]>();
+  const overrideKeys = new Set(MANUAL_COORDINATE_OVERRIDES.map(placeKey));
   for (const row of readRegister("canonical_location_coordinates.csv").filter(isApproved)) {
     const latitude = Number(row.latitude);
     const longitude = Number(row.longitude);
     if (!Number.isFinite(latitude) || !Number.isFinite(longitude)) continue;
     const place: Place = { location: row.canonical_location, region: row.canonical_region, latitude, longitude };
+    if (BLOCKED_REGISTER_KEYS.has(placeKey(place)) || overrideKeys.has(placeKey(place)) || isGrossRegionalOutlier(place)) continue;
+    const key = normalise(place.location);
+    placesByName.set(key, [...(placesByName.get(key) ?? []), place]);
+  }
+  for (const place of MANUAL_COORDINATE_OVERRIDES) {
     const key = normalise(place.location);
     placesByName.set(key, [...(placesByName.get(key) ?? []), place]);
   }
