@@ -1,0 +1,5 @@
+﻿title,classification,reason,example_title,july_occurrences,days_present,first_seen,last_seen
+warehouse administrator,HARD_PASS,Logistics/warehouse office or specialist role rather than operative work.,Warehouse Administrator,17,13,2026-07-01,2026-07-14
+warehouse hygienist,REVIEW_CONTEXT_DEPENDENT,Warehouse/logistics wording is present but operative role meaning is ambiguous.,Warehouse Hygienist,5,5,2026-07-08,2026-07-14
+despatch administrator - temporary maternity cover,REVIEW_CONTEXT_DEPENDENT,Warehouse/logistics wording is present but operative role meaning is ambiguous.,Despatch Administrator - Temporary Maternity Cover,1,1,2026-07-01,2026-07-01
+warehouse/stock administrator,REVIEW_CONTEXT_DEPENDENT,Warehouse/logistics wording is present but operative role meaning is ambiguous.,Warehouse/Stock Administrator,1,1,2026-07-01,2026-07-01
