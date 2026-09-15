@@ -14,6 +14,18 @@ Edit only each `action:` line for POSS rows. Unchanged decisions are restored by
 
 ---
 action:
+POSS | NHS Jobs | Lancashire - West | Ormskirk, L39 2AZ | £25760.00 to £27476.00 | Access Booking Officer
+source_job_id: 5599014
+title: Access Booking Officer
+employer: Mersey and West Lancashire Teaching Hospitals NHS Trust
+region: Lancashire - West
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9409-26-0923
+factual_fingerprint: 2f68488cc48ed550f628bc5510316d2f1826fcb370f1867c9f6c73b4e923f6c6
+---
+
+---
+action:
 POSS | NHS Jobs | Merseyside - St Helens & Knowsley | Prescot, L35 5DR | £28392.00 to £31157.00 | Personal Medical Secretary
 source_job_id: 5599190
 title: Personal Medical Secretary
@@ -729,7 +741,7 @@ employer: Birmingham Women's and Children's NHS Foundation Trust
 region: West Midlands - Birmingham & Solihull
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9284-26-0422
-factual_fingerprint: 974baa6e898c6f8709d70f486bede5985a8598c27308375761c43104240091ef
+factual_fingerprint: 0defec32578673e9602ab3e4d40aa557ff68cdf5ce6ad20cbd8b1c66eda15380
 ---
 
 ---
@@ -1365,7 +1377,7 @@ employer: Birmingham Women's and Children's NHS Foundation Trust
 region: West Midlands - Birmingham & Solihull
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9284-26-0419
-factual_fingerprint: e02e926bb86fa706f1b444fa99939ac0de4bfa1dc1fc04fcdd3b82a165a05707
+factual_fingerprint: 6fe9885083109ea0a9a3e2284e5a586c6326676ff3121c892b3d79dfe4335263
 ---
 
 ---
@@ -1389,19 +1401,7 @@ employer: Birmingham Women's and Children's NHS Foundation Trust
 region: West Midlands - Birmingham & Solihull
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9284-26-0416
-factual_fingerprint: 17579d7d342988999afcd1b413dfdd6ea2027eb04c7de6786eac94ce6c353130
----
-
----
-action:
-POSS | NHS Jobs | Lincolnshire | Scunthorpe, DN15 7BH | £25272.00 | Bank CES Administration Assistant - Scunthorpe
-source_job_id: 5597622
-title: Bank CES Administration Assistant - Scunthorpe
-employer: Northern Lincolnshire and Goole NHS Foundation Trust
-region: Lincolnshire
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9208-26-0552
-factual_fingerprint: ce9b37c0db840d5da6e85835efcc414e9028f55abba8774da596abc7e6fa8b4d
+factual_fingerprint: f3a44c974cae33740016653345327b25725415fe448a5478a6f991cc28375f0f
 ---
 
 ---
