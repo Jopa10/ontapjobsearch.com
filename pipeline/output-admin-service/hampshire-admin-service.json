@@ -203,31 +203,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "1816335",
-    "title": "Administrator - Start next week",
-    "company": "Hartley Resourcing - Agency - Permanent",
-    "location": "Hampshire",
-    "region": "Hampshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "",
-    "posted_date": "",
-    "description": "We are looking for an IT Administrator to provide basic IT and website support to users. This is an ongoing temporary position and would suit someone with an interest in IT, previous admin/support experience, or a recent graduate looking to gain experience.\n\nThe Administrator Role\n\nYou will be a first point of contact for IT and website-related queries, handling around 10 calls per day.\n\nMost queries will be straightforward, such as:\n- Password resets\n- Login and access issues\n- Basic troubleshooting\n- Website queries\n\nMore technical issues can be escalated to the wider team, so you won't be expected to know everything from day one. Full support will be provided.\n\nIdeal Candidate for the Temp Administrator Role\n\nWe're looking for someone who:\n- Is confident using computers and technology\n- Is comfortable speaking to people over the phone\n- Has good communication skills\n- Is friendly, patient and willing to learn\n- Has an interest in developing their IT skills\n\nPrevious IT experience is beneficial but not essential. Recent graduates are encouraged to apply.\n\nAdditional Information\n\nOngoing temporary position\n\nIf you do not hear from us within 3 days of applying, please assume you have not been successful on this occasion.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?bZCSDJyF3N5mwbaKx8CwTTzyryqM2J5pq",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Hartley Resourcing",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "23643_225546549",
     "title": "Junior Administrator",
     "company": "Adecco - Agency - Temporary",
@@ -828,31 +803,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "23643_225505424",
-    "title": "Sales Coordinator",
-    "company": "Adecco - Agency - Permanent",
-    "location": "Hampshire",
-    "region": "Hampshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "27000",
-    "salary_max": "30000",
-    "salary_text": "£27000 - £30000 per year",
-    "posted_date": "",
-    "description": "Sales Coordinator\n\nOutskirts of Tadley, Hampshire\n\nFull Time Permanent\n\nAre you an organised, customer-focused professional who enjoys keeping everything running smoothly?\n\nWe're looking for a proactive Sales Coordinator to join a busy commercial team where you'll play a vital role in delivering an exceptional customer experience. If you thrive in a fast-paced environment, enjoy building relationships and take pride in providing first-class service, we'd love to hear from you.\n\nThe Role\n\nAs Sales Coordinator, you'll be responsible for managing customer orders from receipt through to delivery, ensuring every stage of the process runs efficiently and customers remain informed throughout.\n\nWorking closely with customers, Area Sales Managers and internal departments, you'll become a key point of contact for order enquiries, pricing, stock availability and after-sales support.\n\nNo two days are the same, making this an ideal opportunity for someone who enjoys variety, problem solving and delivering outstanding service.\n\nWhat You'll Be Doing\n- Processing customer orders accurately and efficiently\n- Coordinating orders from confirmation through to delivery\n- Keeping customers informed of order progress and delivery updates\n- Responding to pricing, stock and product enquiries\n- Resolving delivery, invoice and after-sales queries\n- Raising credit notes where appropriate\n- Building strong relationships with customers and internal stakeholders\n- Maintaining accurate records and ensuring administration is completed to a high standard\n- Supporting the wider commercial team to deliver excellent customer service\n\nAbout You\n\nYou'll be someone who genuinely enjoys helping customers and takes pride in delivering a professional service.\n\nWe're looking for someone with:\n- Previous experience in customer service, sales support, order processing or administration\n- Excellent communication skills, both written and verbal\n- Strong organisational skills with the ability to manage multiple priorities\n- Great attention to detail and accuracy\n- Good IT skills, including Microsoft Office, particularly Outlook and Excel\n- Experience using ERP or CRM systems\n- A proactive approach with excellent problem-solving abilities\n- A driving license and car due to the location of the company\n\nWhat We're Looking For\n\nWe're seeking someone who:\n- Enjoys working as part of a collaborative team\n- Is customer-focused and commercially aware\n- Takes ownership of their workload\n- Remains calm under pressure\n- Can adapt to changing priorities\n- Thinks ahead and looks for solutions before problems arise\n\nWhat's On Offer\n- Permanent, full-time opportunity\n- Supportive and collaborative working environment\n- Ongoing training and development\n- The opportunity to join a well-established, growing business where your contribution is genuinely valued\n\nIf you're an organised and customer-focused professional looking for your next challenge, we'd love to hear from you. Apply today and become part of a team committed to delivering outstanding service every day.\n\nAdecco acts as an employment agency for permanent recruitment and an employment business for the supply of temporary workers. The Adecco Group UK & Ireland is an Equal Opportunities Employer.\n\nBy applying for this role your details will be submitted to Adecco. Our Candidate Privacy Information Statement explaining how we will use your information is available on our website.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?31Q%2fsvDzOVYj06WVDHrBadqev3KaLznGj",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Adecco",
-    "advertiser_type": "Agency",
-    "work_pattern": "Full Time",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "1769284",
     "title": "HR Assistant",
     "company": "Reed - Agency - Permanent",
@@ -1118,7 +1068,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0327-26-0465",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0327-26-0465",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5586737",
@@ -1136,7 +1090,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/M9301-26-0217",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/M9301-26-0217",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5591061",
@@ -1154,7 +1112,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0327-26-0005",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0327-26-0005",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5590543",
@@ -1172,7 +1134,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0505-26-0412",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0505-26-0412",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5577957",
@@ -1190,7 +1156,33 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3415-26-0006",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3415-26-0006",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
+  },
+  {
+    "job_id": "nhs-5599055",
+    "source": "NHS Jobs",
+    "title": "Ward Clerk",
+    "company": "Hampshire and Isle of Wight Healthcare NHS Foundation Trust",
+    "advertiser_name": "Hampshire and Isle of Wight Healthcare NHS Foundation Trust",
+    "location": "Alton, GU34 1RJ",
+    "region": "Hampshire",
+    "salary": "£25760.00 to £27476.00",
+    "employment_type": "Fixed-Term",
+    "posted_date": "2026-09-15T13:56:00.930538856",
+    "closing_date": "2026-09-27",
+    "description": "An exciting job opportunity has arisen to join our ward clerk team based at Alton community Hospital. You would be working and supporting the clinical teams with all their secretarial/administration needs. You will be the first point of call for visitors. We are searching for someone who is patient focused, striving to give every patient who they interact with in the service to the right care and support they require. Providing excellent Administration support which would include answering the wards telephone calls, arranging patient transport, handling medical records using RIO. Organisation and ordering of ward stock, linen using a methodical and flexible approach and be able to prioritise workloads in order to meet the service needs. The post holder will be responsible for the organisation of their own workload and delegated decisions/actions, as deemed appropriate by the Operational Support Officer. This is full time hours working Monday - Friday 37.5 hours and is a 12 month fixed term contract To act as a point of contact for the ward staff and be able to respond within the agreed guidelines using own initiative. To monitor IT systems and provide IT support for the ward staff and clinical team. Ensure that patient medical record systems are available and monitor that they are correctly maintained. This includes, but is not limited to, ensuring correct RiO demographics, validations systems, and spine synchronisation, up-loading and maintaining correct. Ordering weekly linen and day-to-day stocks for the team through Elis and MATMAN. Further information about the Trust and this role can be found on the Job Description and Person Specification document attached. It is important to us that we ensure our recruitment processes are accessible and inclusive to everyone - if as a potential candidate you are concerned a person specification may prevent or restrict your application for employment as a result of unintentional barriers on the grounds of your sex, race, age, sexual orientation, religion/belief or disability please initially contact the Trust's Recruitment team - detailed in the advert. The Trust will seek to resolve this issue wherever possible. We are happy to talk Flexible Working - all requests for flexible working options can be discussed as part of the interview process.",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9348-26-1979",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9348-26-1979",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5589814",
@@ -1208,7 +1200,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9348-26-1952",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9348-26-1952",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5585230",
@@ -1226,7 +1222,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9348-26-1946",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9348-26-1946",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5573045",
@@ -1244,7 +1244,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0177-26-9523",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0177-26-9523",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5522934",
@@ -1262,42 +1266,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0177-26-8613",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0177-26-8613",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
-  },
-  {
-    "job_id": "nhs-5522984",
-    "source": "NHS Jobs",
-    "title": "Patient Care Co-ordinator/Receptionist",
-    "company": "Abbeywell Surgery",
-    "advertiser_name": "Abbeywell Surgery",
-    "location": "Romsey, SO51 8EN, Romsey, SO517QN",
-    "region": "Hampshire",
-    "salary": "£12.71",
-    "employment_type": "Permanent",
-    "posted_date": "2026-08-06T14:14:36.516795872",
-    "closing_date": "2026-09-18",
-    "description": "Abbeywell Surgery is situated in the market town of Romsey. We are looking for a Patient Care Adviser/ co-ordinator to join our friendly and supportive team. We work across two surgeries in the area. We are looking for someone who enjoys working as part of a dedicated team: with the added satisfaction of working for a GP practice Committed to the care and wellbeing of others. The key role within our administration team includes greeting patients, dealing with patient queries, booking appointments for all the clinical team, answering telephones, scanning, coding, referrals and supporting our clinical team, Full time and Part time hours available between 0800-1830 - days to be confirmed Ensure an effective and efficient reception service is provided to patients and other visitors to the Practice. Deal with all general enquiries, explain procedures and make new and follow-up appointments. Using your own judgement and communication skills, ensure that patients with no prior appointment but who need an urgent consultation are seen in a logical and non-disruptive manner. Explain Practice arrangements and formal NHS requirements to new patients and those seeking temporary/emergency cover and ensure procedures and paperwork are completed. Receive and make telephone calls as required. Divert calls and take messages, ensuring accuracy of detail and prompt delivery to the most appropriate person. When necessary, enter requests for home visits to the computer, ensuring careful recording of all relevant details and where necessary, refer to the Duty Doctor. Refer repeat prescription requests on to the prescription clerks. When necessary, file completed prescriptions accurately, hand to patients ensuring correct. Advise patients of relevant charges for private (non General Medical Services) services, accept payment, and issue receipts/invoices for same when necessary. Enter patient information on to the computer as required. Maintain a thorough knowledge of all Practice procedures. Email and photocopy as required. Open post and distribute as required. Scan and code documents as appropriate, ensuring complete accuracy, when required Be able to cover all reception positions. Maintain a working knowledge of unfamiliar tasks. Ensure all administrative tasks are completed accurately and thoroughly change of address forms, requests for medical information, certificate requests etc. Accurately add the necessary coding to the computer. Have a working knowledge of the telephone system, during and after hours. Have a knowledge of opening up premises at the start of the day when first to arrive, deactivate alarms and make all necessary preparations to receive patients. When last to leave at the end of the day, ensure that the building is totally secured, internal lights are off and the alarm activated. Clear rooms, communal areas and ensure the kitchen and waiting room is kept clean and tidy. Undertake any other additional duties appropriate to the post, as requested by the Partners or the Practice Manager. Ensure a good working knowledge of use of the computer, coding, information gathering and data input. Maintain and develop this knowledge and ask for help if required. Provide cover to ensure the smooth running of the Practice and to support the rest of the team",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3744-26-0002",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3744-26-0002",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
-  },
-  {
-    "job_id": "nhs-5273675",
-    "source": "NHS Jobs",
-    "title": "Patient Administrator",
-    "company": "University Hospital Southampton NHS Trust",
-    "advertiser_name": "University Hospital Southampton NHS Trust",
-    "location": "Southampton, SO16 5YA",
-    "region": "Hampshire",
-    "salary": "£25760.00 to £27476.00",
-    "employment_type": "Permanent",
-    "posted_date": "2026-04-15T13:46:12.507989",
-    "closing_date": "2026-10-02",
-    "description": "University Hospital Southampton NHS Foundation Trust is delighted to offer a fantastic opportunity to work with us. Please see below for detailed job description of the role. Do you thrive in a fast-paced environment? Are you passionate about delivering exceptional administrative support that enhances the patient experience and journey? We are seeking a range of Patient Administrators, Patient Services Centre Administrators and Ward Secretaries to join our Trust. These roles are essential to the seamless operation of our services and have a significant impact on our patients' experiences. Your responsibilities will be varied and include direct communication with patients and healthcare professionals, coordinating appointment bookings, managing correspondence and actions from outpatient clinics, and ensuring the smooth flow of information between clinicians and support services. UHS offers outstanding training and development opportunities to help you achieve your career aspirations. Supporting the growth of our staff is fundamental to delivering high-quality, safe, and effective care. We provide a nurturing environment for professional development, and internal applicants looking to gain experience in different roles or areas of the hospital may be considered for secondment opportunities. Positions are available at Southampton General Hospital, Adanac Park, Royal South Hants Hospital, Princess Anne Hospital, and Lymington Hospital. There are several different Band 3 Administrator roles throughout the Trust that you may be allocated to. Below is a brief description of the main responsibilities of these roles. Ward Secretary This is an excellent opportunity for an organised individual with attention to detail and proficiency in Microsoft Office, who is eager to collaborate with various nursing professionals and the wider multidisciplinary team (MDT). Full-time and part-time positions are available. Main Responsibilities: Collaborate closely with ward leaders to provide administrative support in cancer care. Prepare documentation, communicate with stakeholders, and use Microsoft 365 to organise and schedule meetings on behalf of the Line Manager. Deliver exceptional customer service by providing a professional telephone service, taking accurate messages, and offering information and guidance as appropriate. Patient Administrator We are looking for highly motivated and proactive individuals to join our busy department as Patient Administrators. In this role, you will build strong relationships with consultants, administrative teams, nursing staff, and external providers, ensuring a smooth patient pathway through the department. Strong written and verbal communication skills, along with the ability to work both independently and as part of a team, are essential. You will also provide cross-cover for other administrators to maintain consistent and effective administration services. Working closely with your team of consultants, your duties will vary but will include direct communication with patients and healthcare professionals, arranging appointments, managing correspondence from outpatient clinics, and facilitating the flow of information among clinicians and support services. Full-time and part-time positions are available. Confidently use Microsoft systems, working with minimal supervision and demonstrating a tactful, sensitive approach to challenging situations. Exhibit empathy and excellent communication skills, acting as the first point of contact by handling telephone calls, emails, and visitors, by responding promptly and efficiently to queries, or redirecting them to the appropriate person/department. Thrive under pressure and prioritise your workload effectively. Collaborate with a large team, demonstrating flexibility in multitasking and covering for colleagues as needed. Communicate effectively with ward teams, matrons, divisional nursing staff, consultants, ward administrators, and patients. Familiarity with the Trust's electronic systems is advantageous but not essential, as training will be provided. Patient Services Administrator We approach our conversations with patients with compassion and respect, recognising that this is a particularly challenging time for them. We seek candidates who are empathetic and capable of handling difficult conversations. If you are resilient and proactive, with the ability to thrive in a fast-paced environment and respond to urgent requests from our stakeholders while meeting tight deadlines, we want to hear from you. Effective communication with care groups is essential to inform them of any capacity issues or patients at risk of breaching, as well as attending weekly meetings and following the necessary escalation procedures. This role requires close attention to detail and the ability to quickly assimilate information. Full-time and part-time positions are available. The Outpatient Administrator Centre (OAC) staff are dedicated and hardworking, often serving as the first point of contact for patients. Their responsibilities include: Handling approximately 20,000 calls each month from patients. Booking over 650,000 outpatient appointments annually, across 50 specialties within the Trust. Managing clinic schedules, rescheduling, and cancelling appointments, and filling new clinic slots. Covering reception desks at all our locations, checking patients in, scheduling follow-up appointments, and addressing queries. Preparing patient packs for outpatient clinics. Our service operates from 7am to 6pm - Monday to Friday and from 8am to 4:30pm on Saturdays. You will be expected to work flexibly within these core hours. There are roles across the Trust, including in care groups such as Surgery, Outpatient Administration Centre, Pharmacy, Cancer Care and more. Please indicate in your application if there is an area that you would be particularly interested in.",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9188-26-0263",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9188-26-0263",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

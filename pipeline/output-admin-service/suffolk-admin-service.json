@@ -203,6 +203,31 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "107877179",
+    "title": "Scheduler & Permitter",
+    "company": "M Group - Company - Permanent",
+    "location": "Suffolk",
+    "region": "Suffolk",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "",
+    "posted_date": "",
+    "description": "About The Role\nRight across infrastructure, theres a requirement to not only maintain, but also renew and reimagine. Whatever stage youre at in your career, with us youll have an opportunity to grow and develop. Delivering essential infrastructure services for life, while being safety first, and client and customer centric in a friendly, fun and respectful environment where you are encouraged to th click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?G%2b5YiGNoEgoCD%2b3cbk%2fODzGYpqhD1GMJn",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "M Group",
+    "advertiser_type": "Company",
+    "work_pattern": "Not Specified",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
     "job_id": "23643_225570795",
     "title": "Sales Support Coordinator",
     "company": "PureKat Consultancy - Agency - Permanent",
@@ -318,7 +343,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/M0038-26-0835",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/M0038-26-0835",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5574659",
@@ -336,7 +365,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5843-26-0008",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5843-26-0008",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5564377",
@@ -354,6 +387,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/M0038-26-0851",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/M0038-26-0851",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

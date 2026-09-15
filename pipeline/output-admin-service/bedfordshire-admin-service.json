@@ -50,31 +50,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "23643_225505564",
-    "title": "Administrator",
-    "company": "Proactive Personnel Ltd - Agency - Contract",
-    "location": "Sandy",
-    "region": "Bedfordshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Contract",
-    "salary_min": "15",
-    "salary_max": "15.38",
-    "salary_text": "£15 - £15.38 per hour",
-    "posted_date": "",
-    "description": "Proactive Personnel are delighted to be recruiting for a Sales & Purchasing Administrator on behalf of our client, a well-established and growing business based in Sandycroft. This is a temporary role\n\nThis is an excellent opportunity for an organised and motivated individual to join a busy commercial team. The successful candidate will work closely with the Sales, Purchasing and Import departments and will receive full training and support to develop their skills across all areas of the business.\n\nWe are keen to hear from candidates with previous sales or purchasing administration experience, but our client is also happy to consider experienced administrators with strong organisational skills and a willingness to learn.\n\nKey Responsibilities\n\nAs a Sales & Purchasing Administrator, your duties will include:\n- Raising sales invoices and purchase orders\n- Chasing outstanding customer and supplier orders\n- Liaising with both existing and prospective customers, as well as suppliers\n- Arranging freight transport for goods supplied to customers across the UK and from suppliers throughout Europe\n- Coordinating freight movements and supporting customs clearance processes for imported goods\n- Maintaining accurate records and ensuring internal systems, customers and colleagues are kept fully up to date\n- Providing general administrative support across sales, purchasing and import activities\n\nThe Package\n\nThe successful candidate will join a thriving and profitable business that offers a supportive working environment, ongoing training and genuine opportunities for career development. Those who demonstrate commitment and strong performance will have the opportunity to take on additional responsibilities and progress within the organisation.\n- Monday to Friday, 8:00am to 5:00pm\n- Based in Sandycroft, Flintshire (North Wales)\n- Convenient location with easy access from Chester, The Wirral, the A55 and M56\n\nCandidate Requirements\n\nTo be considered for this role, you should have:\n- Previous experience within an administrative role, ideally within a sales, purchasing, customer service or commercial environment\n- Experience working with customers and suppliers\n- Strong organisational skills and excellent attention to detail\n- Accurate data entry skills and a methodical approach to work\n- Good numerical ability\n- Excellent time management and the ability to prioritise a varied workload\n- Good IT skills, including experience using Excel, Google Sheets or similar software\n- Professional and confident communication skills\n\nDesirable Experience\n\nThe following experience would be advantageous but is not essential:\n- Sales or Purchasing Administration experience\n- Automotive parts industry experience\n- Import, freight or customs administration experience",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?d1vRzEYF65Sxj7hOTYjloEh6sAifx1cQx",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Proactive Personnel Ltd",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Hourly",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "23643_225539795",
     "title": "Receptionist",
     "company": "FS1 Recruitment - Agency - Temporary",
@@ -365,7 +340,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1595-26-0005",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1595-26-0005",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5577346",
@@ -383,7 +362,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2197-26-0003",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2197-26-0003",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5565873",
@@ -401,6 +384,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2513-27082026",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2513-27082026",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

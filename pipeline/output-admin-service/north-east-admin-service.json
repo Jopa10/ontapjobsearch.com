@@ -1,33 +1,5 @@
 [
   {
-    "job_id": "nejobs-301184",
-    "title": "DBS01125/26 - Receptionist - Norham High School",
-    "company": "North Tyneside Council",
-    "location": "North Tyneside Council",
-    "region": "North East",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "£25,583 - £25,989 pro rata",
-    "work_pattern": "Part time - term time plus specified days",
-    "posted_date": "2026-08-26",
-    "closing_date": "2026-09-15",
-    "closing_datetime": "2026-09-15T12:00:00+01:00",
-    "summary": "DBS01125/26 - Receptionist - Norham High School with North Tyneside Council in North Tyneside Council. Permanent; Part time - term time plus specified days; £25,583 - £25,989 pro rata.",
-    "description": "North Tyneside Council is recruiting for this vacancy in North Tyneside Council.\n\nThe advertised position is DBS01125/26 - Receptionist - Norham High School, with the working terms listed as Permanent; Part time - term time plus specified days.\n\nThe advertised salary is £25,583 - £25,989 pro rata.\n\nThe stated closing date is 15/09/2026 12:00.\n\nUse the original North East Jobs advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://www.northeastjobs.org.uk/job/DBS01125_26_Receptionist_Norham_High_School/301184?utm_source=ontap&utm_medium=referral&utm_campaign=nejobs_pilot",
-    "source": "NEJobs",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "North Tyneside Council",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
-  },
-  {
     "job_id": "nejobs-301481",
     "title": "Passenger Transport Administration Assistant",
     "company": "Durham County Council",
@@ -2807,7 +2779,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/W0033-26-1239",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/W0033-26-1239",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5598890",
@@ -2825,7 +2801,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4568-26-0013",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4568-26-0013",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5588627",
@@ -2843,7 +2823,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9319-26-0828",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9319-26-0828",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5589916",
@@ -2861,7 +2845,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9346-26-1080",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9346-26-1080",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5584416",
@@ -2879,7 +2867,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9263-26-0860",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9263-26-0860",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5307648",
@@ -2897,7 +2889,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0642-26-0002",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0642-26-0002",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5577937",
@@ -2915,7 +2911,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/W0033-26-1188",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/W0033-26-1188",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5580794",
@@ -2933,7 +2933,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9155-CRAC-0926-10",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9155-CRAC-0926-10",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5541887",
@@ -2951,7 +2955,33 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/W0033-26-1106",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/W0033-26-1106",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
+  },
+  {
+    "job_id": "nhs-5601042",
+    "source": "NHS Jobs",
+    "title": "Medical Receptionist",
+    "company": "Tanfield View Medical Group",
+    "advertiser_name": "Tanfield View Medical Group",
+    "location": "County Durham, DH9 8AD",
+    "region": "North East",
+    "salary": "Negotiable",
+    "employment_type": "Permanent",
+    "posted_date": "2026-09-15T13:42:26.557452258",
+    "closing_date": "2026-09-29",
+    "description": "We are looking for a friendly, well organised, highly motivated individual to join our friendly hard working practice team, on a part time or full time basis. The ideal candidate will have excellent interpersonal skills, experience within Primary Care and knowledge of SystmOne clinical system with the ability to work well under pressure and will provide a high-quality patient service. Offer general assistance to the practice team and project a positive and friendly image to patients and other visitors, either in person or via the telephone Receive, assist and direct patients in accessing the appropriate service or healthcare professional in a courteous, efficient and effective way Undertake a variety of administrative duties to assist in the smooth running of the practice, including the provision of secretarial and clerical support to clinical staff and other members of the practice team Facilitate effective communication between patients, members of the primary health care team, secondary care and other associated healthcare agencies. To act as a focal point of communication between the GPs, receptionist, practice manager, patients and local chemist, as well as other members of the primary health care team, to ensure patients medication is produced within the current protocols of the surgery. The duties and responsibilities to be undertaken by members of the practice administration team may include any or all of the items in the following list. Duties may be varied from time to time under the direction of the senior receptionist/practice manager, dependent on current and evolving practice workload and staffing levels: Opening up/locking up of practice premises and maintaining security in accordance with practice protocols Maintaining and monitoring the practice appointments system Processing personal and telephone requests for appointments, visits and telephone consultations, and ensuring callers are directed to the appropriate healthcare professional Processing and distributing incoming (and outgoing) mail Taking messages and passing on information Filing and retrieving paperwork To collect repeat prescription requests from the generic email, post box and reception. To ensure repeat medication is issued in line with the protocols that are already in place and ensure that any queries raised are dealt with quickly and correctly. Processing medication requests in accordance with practice guidelines To liaise with patients and chemists regarding queries and requests. To ensure that patient queries on medication are highlighted to the relevant GP Computer data entry/data allocation and collation; processing and recording information in accordance with practice procedures Initiating contact with and responding to requests from patients, other team member and associated healthcare agencies and providers Clearing and re-stocking of consulting rooms as required Providing clerical assistance to practice staff as required from time to time, including word/data processing, filing, photocopying and scanning Ordering, re-ordering and monitoring of stationery and other supplies Dealing with clinical waste Provision of refreshments for staff and visitors as required and keeping the kitchen area clean and tidy Keeping the reception area, notice-boards and leaflet dispensers tidy and free from obstructions and clutter",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5688-26-0002",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5688-26-0002",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5597295",
@@ -2969,7 +2999,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2671-26-0010",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2671-26-0010",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5596910",
@@ -2987,7 +3021,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2671-26-0009",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2671-26-0009",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5593158",
@@ -3005,7 +3043,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2356-26-0008",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2356-26-0008",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5591916",
@@ -3023,7 +3065,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9346-26-1085",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9346-26-1085",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5583602",
@@ -3041,7 +3087,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0177-26-9815",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0177-26-9815",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5583254",
@@ -3059,7 +3109,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0243-26-0000",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0243-26-0000",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5581282",
@@ -3077,7 +3131,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0177-26-9753",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0177-26-9753",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5576748",
@@ -3095,7 +3153,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9297-26-0473",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9297-26-0473",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-3444840",
@@ -3113,7 +3175,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0486-24-0000",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0486-24-0000",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5569621",
@@ -3131,7 +3197,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1466-26-0010",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1466-26-0010",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5563197",
@@ -3149,6 +3219,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9346-26-1018",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9346-26-1018",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]
