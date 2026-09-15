@@ -1,7 +1,7 @@
 # VONNE ETL proof-of-concept review
 
-review_date: 2026-09-14
-review_fingerprint: e55cf81c85c423ad80dd92011f6751002ad612fc3d3cd0eb70bbde7bc0ab3299
+review_date: 2026-09-15
+review_fingerprint: b21ce9f9063c5a0b77198f3b970de07d78c14574fabae41892e0253b76aa4301
 
 This implementation is review-only. It has no approved-JSON or publishing mode.
 
@@ -10,17 +10,17 @@ Edit only the `action:` line in editable blocks:
 - `action: exclude` rejects a POSS vacancy or removes an HC vacancy.
 - Actions are remembered while the same vacancy review facts remain unchanged; this review still does not publish anything.
 
-Run generated: 2026-09-14T14:12:13+01:00
+Run generated: 2026-09-15T12:59:46+01:00
 Listing input: https://www.vonne.org.uk/vonne-jobs
-JobG8 comparison rows: 383
-Approved NEJobs comparison rows: 12
+JobG8 comparison rows: 367
+Approved NEJobs comparison rows: 10
 
 ## Funnel
 - VONNE listings read: 15
-- Detail-page candidates: 5
-- Detail pages fetched successfully: 5
+- Detail-page candidates: 4
+- Detail pages fetched successfully: 4
 - Detail failures/listing fallbacks: 0
-- Obvious hard passes not detail-fetched: 10
+- Obvious hard passes not detail-fetched: 11
 - Tees Valley explicitly excluded: 0
 - Outside or unmapped geography excluded: 3
 - Generic/derived geography rows requiring review: 0
@@ -28,11 +28,11 @@ Approved NEJobs comparison rows: 12
 
 ## Outcomes
 - HC: 0
-- POSS: 5
-- HARD_PASS: 7
+- POSS: 4
+- HARD_PASS: 8
 - Final selected after remembered/manual actions: 0
 - Final POSS awaiting decision: 3
-- Manually excluded: 2
+- Manually excluded: 1
 ## Detail diagnostics
 - No unresolved detail-page failures.
 
@@ -69,19 +69,6 @@ source_job_id: 173410
 source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173410
 ---
 ---
-action: exclude
-POSS | North East - County Durham & Darlington/Hartlepool | County Durham | £24,454 Per Annum | Project Administrator (26.12)
-employer: Age UK County Durham
-closing_date: Wednesday, September 30, 2026 - 12:00
-geography: CONFIRMED — location: approved location fallback
-reason: possible cross-source duplicate requires review
-source: VONNE
-tracking_key: vonne-173393
-vacancy_fingerprint: 076c2df7b5819c647117c3b816981009bb4a7072315f7abc14f5c71d30a5e73b
-source_job_id: 173393
-source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173393
----
----
 action:
 POSS | North East - Tyneside, Wearside & Northumberland | Regionwide | £16,393 Per Annum | Community Engagement Officer
 employer: West End Refugee Service
@@ -98,12 +85,12 @@ source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173396
 action:
 POSS | North East - Tyneside, Wearside & Northumberland | Northumberland | £29,998 to 33,000 Per Annum | Community Transport Network and Operations Development Coordinator
 employer: WATBUS (Community Transport)
-closing_date: Monday, September 21, 2026 - 12:00
+closing_date: Tuesday, September 22, 2026 - 12:00
 geography: CONFIRMED — location: approved location fallback
 reason: annualised upper salary £33,000 exceeds North East review point £30,000
 source: VONNE
 tracking_key: vonne-173398
-vacancy_fingerprint: f0aa4caa78e6f26eca1fba4fcba8da7a9759467a67e7607e373092401816c500
+vacancy_fingerprint: 5113c142a6e91ff41d8e8d98644536cd0018f128d39996978e7820eaf9dc9817
 source_job_id: 173398
 source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173398
 ---
@@ -115,6 +102,7 @@ source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173398
 
 - [Administration Officer](https://www.vonne.org.uk/vonne-jobs-details?cid=173413) — insufficient service-admin evidence.
 - [Marketing and Communications Officer](https://www.vonne.org.uk/vonne-jobs-details?cid=173409) — insufficient service-admin evidence.
+- [Money Advice/Debt Caseworker](https://www.vonne.org.uk/vonne-jobs-details?cid=173416) — out-of-scope VONNE occupation.
 - [Recovery Navigator](https://www.vonne.org.uk/vonne-jobs-details?cid=173414) — insufficient service-admin evidence.
 - [Right Turn Case Worker](https://www.vonne.org.uk/vonne-jobs-details?cid=173406) — out-of-scope VONNE occupation.
 - [Safe Accommodation Support Worker](https://www.vonne.org.uk/vonne-jobs-details?cid=173405) — out-of-scope VONNE occupation.
