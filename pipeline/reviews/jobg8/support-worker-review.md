@@ -1,6 +1,6 @@
 # Support-worker manual review
 
-feed_date: 2026-09-14
+feed_date: 2026-09-15
 
 Edit only the `action:` line in each block:
 
@@ -15,12 +15,6 @@ Edit only the `action:` line in each block:
 action:
 SELECTED | Yorkshire - West | Halifax | £14.29 per hour | Health Care Assistant Nights
 job_id: 23643_225580403
----
-
----
-action:
-SELECTED | Yorkshire - West | Leeds | £200 per daily | Live-In Personal Care Assistants for a University Student in Leeds
-job_id: 107797487
 ---
 
 ## WEST YORKSHIRE — POSSIBLES
@@ -63,12 +57,6 @@ job_id: 23643_225552397
 action:
 SELECTED | Sussex | East Grinstead | £14.25 per hour | Care assistant - East Grinstead
 job_id: 23643_225567530
----
-
----
-action:
-SELECTED | Sussex | Haywards Heath | £14 per hour | Night Care Assistant
-job_id: 107785691
 ---
 
 ## SUSSEX — POSSIBLES
@@ -175,6 +163,12 @@ job_id: 1402264062
 
 ---
 action:
+SELECTED | Kent | Kent | £13.45 per hour (£13.45) | Housing Support Worker (Casual)
+job_id: 23643_225534852
+---
+
+---
+action:
 SELECTED | Kent | Gravesend | £13,988.00 per annum | Support Worker
 job_id: 1851265
 ---
@@ -277,12 +271,6 @@ job_id: 23643_225579170
 
 ---
 action:
-SELECTED | London | London | £30,784.00 per annum | Night Support worker X 2
-job_id: 1880232
----
-
----
-action:
 SELECTED | London | London | £16.95 per hour | Relief Worker - Care Assistant
 job_id: 1878281
 ---
@@ -303,12 +291,6 @@ job_id: 107885503
 action:
 SELECTED | London | London | £31,748.77 per annum | Specialist Support Worker
 job_id: 1898703
----
-
----
-action:
-SELECTED | London | London | £30,784.00 per annum | Support worker
-job_id: 1898675
 ---
 
 ## LONDON — POSSIBLES
@@ -335,11 +317,7 @@ _No jobs in this group._
 
 ## SURREY — SELECTED
 
----
-action:
-SELECTED | Surrey | Cobham | £13.45 per hour (£13.45) | Housing Support Worker (Casual)
-job_id: 23643_225534852
----
+_No jobs in this group._
 
 ## SURREY — POSSIBLES
 
