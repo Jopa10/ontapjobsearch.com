@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 3
-- automatic review: 8
+- automatic review: 11
 - automatic exclude: 0
 - effective include: 3
-- effective review: 8
+- effective review: 11
 - effective exclude: 0
 
 ## INCLUDE (3)
@@ -60,7 +60,43 @@ job_id: jobg8-23643_225512252
 reason: Exact approved Macclesfield workplace.
 ---
 
-## REVIEW (8)
+## REVIEW (11)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Call Centre Agent - Uncapped Commission
+company: EE - Company - Permanent
+location: Knutsford
+source: JobG8
+job_id: jobg8-20279_62648-ca303eac9d601a8b4b3e2629f842f6a8
+reason: No exact Macclesfield workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Call Centre Operator - Uncapped Commission
+company: EE - Company - Permanent
+location: Knutsford
+source: JobG8
+job_id: jobg8-20279_62648-d1c6bd5673f826e43797e1c92de24d69
+reason: No exact Macclesfield workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Contact Centre Agent - Uncapped Commission
+company: EE - Company - Permanent
+location: Knutsford
+source: JobG8
+job_id: jobg8-20279_62648-bce180f9075237062f9ba04857f8e0b6
+reason: No exact Macclesfield workplace matched; local geographic review is required.
+---
 
 ---
 action: 

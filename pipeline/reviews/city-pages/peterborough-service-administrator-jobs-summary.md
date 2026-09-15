@@ -4,7 +4,7 @@
 - Live route: `/peterborough/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 3
+- Effective included jobs: 4
 - Threshold currently met: no
 
 ## How to review
@@ -15,24 +15,36 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 3
+- automatic include: 4
 - automatic review: 3
-- automatic exclude: 11
-- effective include: 3
+- automatic exclude: 10
+- effective include: 4
 - effective review: 3
-- effective exclude: 11
+- effective exclude: 10
 
-## INCLUDE (3)
+## INCLUDE (4)
 
 ---
 action: 
 decision: include
 automatic_decision: include
-title: Medical Receptionist/ Administrator
-company: Dr Laliwala and Partners
-location: Peterborough, PE1 4FS
+title: Administrator
+company: Cambridgeshire and Peterborough NHS Foundation Trust
+location: Peterborough, PE78FZ
 source: NHS Jobs
-job_id: nhs-5575779
+job_id: nhs-5596812
+reason: Approved conservative Peterborough launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Assistant Administrator
+company: Cambridgeshire and Peterborough NHS Foundation Trust
+location: Peterborough, PE1 1HJ
+source: NHS Jobs
+job_id: nhs-5597120
 reason: Approved conservative Peterborough launch catchment.
 ---
 
@@ -98,19 +110,7 @@ job_id: jobg8-23643_225519683
 reason: No approved Peterborough catchment rule matched; local review required.
 ---
 
-## EXCLUDE (11)
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Administrator - Huntingdon
-company: Vaccination UK
-location: Huntingdon, PE296FH
-source: NHS Jobs
-job_id: nhs-5530494
-reason: Separate employment market.
----
+## EXCLUDE (10)
 
 ---
 action: 

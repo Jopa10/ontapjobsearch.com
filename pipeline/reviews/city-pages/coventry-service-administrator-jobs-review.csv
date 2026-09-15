@@ -11,6 +11,7 @@ include,jobg8-23643_225516949,X2 Administrators - Coventry - £14.00 - £15.00 p
 review,jobg8-23643_225526928,Administrator - Purchasing,Options Resourcing Ltd - Agency - Permanent,Southam,JobG8,review,review,No approved Coventry catchment rule matched; local review required.,fallback,coventry-service-administrator-jobs
 review,jobg8-1859602,"HR Administrator, Temporary to Permanent Opportunity",Office Angels - Agency - Permanent,Atherstone,JobG8,review,review,No approved Coventry catchment rule matched; local review required.,fallback,coventry-service-administrator-jobs
 review,jobg8-23643_225572898,"HR Administrator, Temporary to Permanent Opportunity",Office Angels - Agency - Temporary,Atherstone,JobG8,review,review,No approved Coventry catchment rule matched; local review required.,fallback,coventry-service-administrator-jobs
+exclude,jobg8-23643_225600118,Administrator - GAP Claims Assessment,SVB Solutions - Agency - Permanent,Warwick,JobG8,exclude,exclude,Separate employment market.,warwick,coventry-service-administrator-jobs
 exclude,jobg8-107940735,Billing Operations Administrator,Manpower - Agency - Permanent,Warwickshire,JobG8,exclude,exclude,Separate employment market.,warwick,coventry-service-administrator-jobs
 exclude,jobg8-23643_225588153,Business Administrator,The Cinnamon Care Collection - Company - Permanent,Warwick,JobG8,exclude,exclude,Separate employment market.,warwick,coventry-service-administrator-jobs
 exclude,jobg8-1842482,Customer Service Advisor,RA Bennett - Agency - Permanent,Warwickshire,JobG8,exclude,exclude,Separate employment market.,warwick,coventry-service-administrator-jobs
@@ -19,7 +20,6 @@ exclude,jobg8-23643_225573434,E-Commerce Administrator,Arden Personnel - Agency 
 exclude,jobg8-1859027,HR Assistant,Dudley Lodge - Agency - Permanent,Warwickshire,JobG8,exclude,exclude,Separate employment market.,warwick,coventry-service-administrator-jobs
 exclude,jobg8-1868063,HR Assistant,Hiring People - Agency - Permanent,Warwick,JobG8,exclude,exclude,Separate employment market.,warwick,coventry-service-administrator-jobs
 exclude,jobg8-23643_225526643,HR Coordinator (2-Month Temporary Contract),Arden Personnel - Agency - Contract,Warwickshire,JobG8,exclude,exclude,Separate employment market.,warwick,coventry-service-administrator-jobs
-exclude,jobg8-1878240,Interim Finance Assistant,Robertson Bell - Agency - Permanent,Warwickshire,JobG8,exclude,exclude,Separate employment market.,warwick,coventry-service-administrator-jobs
 exclude,jobg8-107875425,Learning and Development Coordinator,Rose & Young Recruitment Ltd - Agency - Permanent,Warwickshire,JobG8,exclude,exclude,Separate employment market.,warwick,coventry-service-administrator-jobs
 exclude,nhs-4151642,MEDICAL RECEPTIONIST,Valley Road Medical Practice,"Leamington Spa, CV32 7SJ",NHS Jobs,exclude,exclude,Separate employment market.,leamington,coventry-service-administrator-jobs
 exclude,jobg8-107925904,Onsite Recruitment Account Coordinator,Winner Recruitment - Agency - Contract,Warwickshire,JobG8,exclude,exclude,Separate employment market.,warwick,coventry-service-administrator-jobs

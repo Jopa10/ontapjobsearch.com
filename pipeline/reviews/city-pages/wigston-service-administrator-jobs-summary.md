@@ -126,11 +126,11 @@ reason: No exact Wigston workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Casualty Claims Handler
-company: Adjusting Appointments Limited - Agency - Permanent
-location: Leicestershire
+title: Commercial Property Secretary
+company: Allstaff Recruitment - Agency - Permanent
+location: Leicester
 source: JobG8
-job_id: jobg8-1785992
+job_id: jobg8-1869342
 reason: No exact Wigston workplace matched; local geographic review is required.
 ---
 
@@ -138,11 +138,11 @@ reason: No exact Wigston workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Commercial Property Secretary
-company: Allstaff Recruitment - Agency - Permanent
-location: Leicester
+title: Contracting Administrator
+company: Tarmac Trading Limited - Company - Permanent
+location: Leicestershire
 source: JobG8
-job_id: jobg8-1869342
+job_id: jobg8-107841648
 reason: No exact Wigston workplace matched; local geographic review is required.
 ---
 
@@ -174,6 +174,18 @@ reason: No exact Wigston workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Mental Health Act Administrator
+company: InMind
+location: Leicester, LE36QR
+source: NHS Jobs
+job_id: nhs-5597537
+reason: No exact Wigston workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Office Administrator
 company: Complii - Agency - Permanent
 location: Leicestershire
@@ -191,18 +203,6 @@ company: Regional Recruitment - Agency - Permanent
 location: Leicester
 source: JobG8
 job_id: jobg8-23643_225509571
-reason: No exact Wigston workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Recruitment Operations Coordinator
-company: R&V Group Ltd - Agency - Contract
-location: Leicestershire
-source: JobG8
-job_id: jobg8-107786802
 reason: No exact Wigston workplace matched; local geographic review is required.
 ---
 

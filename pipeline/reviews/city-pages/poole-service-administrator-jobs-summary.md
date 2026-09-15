@@ -30,23 +30,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 action: 
 decision: review
 automatic_decision: review
-title: Accountancy Services Administrator
-company: Reed - Agency - Permanent
-location: Dorset
-source: JobG8
-job_id: jobg8-1766324
-reason: No exact Poole workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Administrator
-company: Agincare
-location: Dorchester, DT1 2EN
+company: Regent's Park Healthcare
+location: Bournemouth, BH7 7DW
 source: NHS Jobs
-job_id: nhs-5589759
+job_id: nhs-5596490
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 
@@ -126,6 +114,18 @@ reason: No exact Poole workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Front of House / Customer Service Staff
+company: PLANETARIUM GO UK LIMITED - Agency - Permanent
+location: Dorset
+source: JobG8
+job_id: jobg8-812162186997661696037340
+reason: No exact Poole workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: HR Administrator
 company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Dorset
@@ -138,11 +138,11 @@ reason: No exact Poole workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Receptionist - Bank
-company: Avery Healthcare Group Ltd.
-location: Bournemouth, BH4 9DR
+title: Receptionist/Administrator
+company: Dorset HealthCare University NHS Foundation Trust
+location: Sherborne, DT93JU
 source: NHS Jobs
-job_id: nhs-5591331
+job_id: nhs-5596760
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 

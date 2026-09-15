@@ -4,7 +4,7 @@
 - Live route: `/oxford/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 7
+- Effective included jobs: 6
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 7
+- automatic include: 6
 - automatic review: 10
-- automatic exclude: 14
-- effective include: 7
+- automatic exclude: 12
+- effective include: 6
 - effective review: 10
-- effective exclude: 14
+- effective exclude: 12
 
-## INCLUDE (7)
+## INCLUDE (6)
 
 ---
 action: 
@@ -57,18 +57,6 @@ company: Oxford Health NHS Trust
 location: Oxford, OX4 4XN
 source: NHS Jobs
 job_id: nhs-5573609
-reason: Approved conservative Oxford launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Grade 6 Office Administrator
-company: St Philip and James' Church of England Aided Primary School Oxford
-location: Oxford
-source: Teaching Vacancies
-job_id: teaching-vacancies-grade-6-office-administrator-3e4de74e-af8a-4ee3-b949-0a2e141ed8ab
 reason: Approved conservative Oxford launch catchment.
 ---
 
@@ -150,18 +138,6 @@ reason: No approved Oxford catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Attendance Administrator
-company: Faringdon Community College
-location: Faringdon
-source: Teaching Vacancies
-job_id: teaching-vacancies-attendance-administrator-faringdon-community-college
-reason: No approved Oxford catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Bank Administrator
 company: Operose Health
 location: Didcot, OX11 7GD
@@ -198,11 +174,11 @@ reason: No approved Oxford catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Part-time Forensic Administrator - HMP Huntercombe
-company: Oxford Health NHS Trust
-location: Henley-On-Thames, RG9 5SG
-source: NHS Jobs
-job_id: nhs-5573643
+title: Project Coordinator
+company: Cameo Consultancy - Agency - Permanent
+location: Banbury
+source: JobG8
+job_id: jobg8-23643_225582470
 reason: No approved Oxford catchment rule matched; local review required.
 ---
 
@@ -222,6 +198,18 @@ reason: No approved Oxford catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Receptionist
+company: The Key Medical Practice
+location: Kidlington, OX5 1AP
+source: NHS Jobs
+job_id: nhs-5577377
+reason: No approved Oxford catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Sales and Parts Administrator
 company: K2 Recruitment - Agency - Permanent
 location: Bicester
@@ -230,7 +218,7 @@ job_id: jobg8-23643_225461932
 reason: No approved Oxford catchment rule matched; local review required.
 ---
 
-## EXCLUDE (14)
+## EXCLUDE (12)
 
 ---
 action: 
@@ -296,23 +284,11 @@ reason: Broad county location; not Oxford-city evidence.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: HR Operations Coordinator
-company: Plus One Recruitment - Agency - Permanent
+title: Ecommerce Coordinator (Customer Service, Orders & Platform Support)
+company: Prodrive - Agency - Permanent
 location: Oxfordshire
 source: JobG8
-job_id: jobg8-1789720
-reason: Broad county location; not Oxford-city evidence.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Marketing Consultant
-company: FS1 Recruitment - Agency - Contract
-location: Oxfordshire
-source: JobG8
-job_id: jobg8-107857426
+job_id: jobg8-107842716
 reason: Broad county location; not Oxford-city evidence.
 ---
 
@@ -349,18 +325,6 @@ company: Allen Associates - Agency - Contract
 location: Oxfordshire
 source: JobG8
 job_id: jobg8-23643_225570239
-reason: Broad county location; not Oxford-city evidence.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Receptionist
-company: Winsearch - Agency - Temporary
-location: Oxfordshire
-source: JobG8
-job_id: jobg8-23643_225586323
 reason: Broad county location; not Oxford-city evidence.
 ---
 

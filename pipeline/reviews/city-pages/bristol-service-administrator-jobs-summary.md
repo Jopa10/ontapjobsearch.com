@@ -4,7 +4,7 @@
 - Live route: `/bristol/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 23
+- Effective included jobs: 24
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 23
+- automatic include: 24
 - automatic review: 8
 - automatic exclude: 3
-- effective include: 23
+- effective include: 24
 - effective review: 8
 - effective exclude: 3
 
-## INCLUDE (23)
+## INCLUDE (24)
 
 ---
 action: 
@@ -69,6 +69,18 @@ company: West Walk Surgery
 location: Bristol, BS37 4AX
 source: NHS Jobs
 job_id: nhs-5590154
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administrator - Financial Services
+company: mbf. - Agency - Permanent
+location: Bristol
+source: JobG8
+job_id: jobg8-1907662
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -220,18 +232,6 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Marketing Manager
-company: Ascent Resourcing Limited - Agency - Permanent
-location: Bristol
-source: JobG8
-job_id: jobg8-1766292
-reason: Approved conservative Bristol launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Reception and Appointment Clerk
 company: Bristol NHS Foundation Trust
 location: Bristol, BS2 8EL
@@ -285,6 +285,18 @@ company: Henley Executive - Agency - Permanent
 location: Bristol
 source: JobG8
 job_id: jobg8-23643_225363989
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Scheduling Administrator
+company: Huntress - Maidstone - Agency - Permanent
+location: Bristol
+source: JobG8
+job_id: jobg8-23643_225600006
 reason: Approved conservative Bristol launch catchment.
 ---
 

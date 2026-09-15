@@ -4,7 +4,7 @@
 - Live route: `/hemel-hempstead/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 2
+- Effective included jobs: 1
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 2
+- automatic include: 1
 - automatic review: 23
 - automatic exclude: 0
-- effective include: 2
+- effective include: 1
 - effective review: 23
 - effective exclude: 0
 
-## INCLUDE (2)
+## INCLUDE (1)
 
 ---
 action: 
@@ -36,31 +36,7 @@ job_id: jobg8-1877352
 reason: Exact approved Hemel Hempstead workplace.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Team Administrator
-company: Hertfordshire Partnership University NHS Foundation Trust
-location: Hemel Hempstead, HP1 1LD
-source: NHS Jobs
-job_id: nhs-5593452
-reason: Exact approved Hemel Hempstead workplace.
----
-
 ## REVIEW (23)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Admin Assistant (Learning Support)
-company: Nicholas Breakspear Catholic School
-location: St Albans
-source: Teaching Vacancies
-job_id: teaching-vacancies-admin-assistant-learning-support-nicholas-breakspear-catholic-school
-reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
----
 
 ---
 action: 
@@ -143,6 +119,18 @@ company: YoungEducation Ltd - Agency - Permanent
 location: Hertfordshire
 source: JobG8
 job_id: jobg8-23643_225013676
+reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Contract Administrator
+company: Sureserve Group - Company - Permanent
+location: Hertfordshire
+source: JobG8
+job_id: jobg8-107883788
 reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
 ---
 

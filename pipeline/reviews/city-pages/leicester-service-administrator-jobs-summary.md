@@ -4,7 +4,7 @@
 - Live route: `/leicester/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 5
+- Effective included jobs: 6
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 5
-- automatic review: 15
+- automatic include: 6
+- automatic review: 14
 - automatic exclude: 0
-- effective include: 5
-- effective review: 15
+- effective include: 6
+- effective review: 14
 - effective exclude: 0
 
-## INCLUDE (5)
+## INCLUDE (6)
 
 ---
 action: 
@@ -76,6 +76,18 @@ reason: Exact approved Leicester workplace.
 action: 
 decision: include
 automatic_decision: include
+title: Mental Health Act Administrator
+company: InMind
+location: Leicester, LE36QR
+source: NHS Jobs
+job_id: nhs-5597537
+reason: Exact approved Leicester workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Office Administrator
 company: Regional Recruitment - Agency - Permanent
 location: Leicester
@@ -84,7 +96,7 @@ job_id: jobg8-23643_225509571
 reason: Exact approved Leicester workplace.
 ---
 
-## REVIEW (15)
+## REVIEW (14)
 
 ---
 action: 
@@ -150,11 +162,11 @@ reason: No exact Leicester workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Casualty Claims Handler
-company: Adjusting Appointments Limited - Agency - Permanent
+title: Contracting Administrator
+company: Tarmac Trading Limited - Company - Permanent
 location: Leicestershire
 source: JobG8
-job_id: jobg8-1785992
+job_id: jobg8-107841648
 reason: No exact Leicester workplace matched; local geographic review is required.
 ---
 
@@ -191,18 +203,6 @@ company: Interaction Recruitment - Agency - Temporary
 location: Wigston
 source: JobG8
 job_id: jobg8-23643_225514239
-reason: No exact Leicester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Recruitment Operations Coordinator
-company: R&V Group Ltd - Agency - Contract
-location: Leicestershire
-source: JobG8
-job_id: jobg8-107786802
 reason: No exact Leicester workplace matched; local geographic review is required.
 ---
 

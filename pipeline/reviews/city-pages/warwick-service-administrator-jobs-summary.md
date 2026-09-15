@@ -4,8 +4,8 @@
 - Live route: `/warwick/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 3
-- Threshold currently met: no
+- Effective included jobs: 4
+- Threshold currently met: yes
 
 ## How to review
 Edit only the `action:` line inside a job block.
@@ -15,14 +15,26 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 3
-- automatic review: 22
+- automatic include: 4
+- automatic review: 21
 - automatic exclude: 0
-- effective include: 3
-- effective review: 22
+- effective include: 4
+- effective review: 21
 - effective exclude: 0
 
-## INCLUDE (3)
+## INCLUDE (4)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administrator - GAP Claims Assessment
+company: SVB Solutions - Agency - Permanent
+location: Warwick
+source: JobG8
+job_id: jobg8-23643_225600118
+reason: Exact approved Warwick workplace.
+---
 
 ---
 action: 
@@ -60,7 +72,7 @@ job_id: jobg8-1868063
 reason: Exact approved Warwick workplace.
 ---
 
-## REVIEW (22)
+## REVIEW (21)
 
 ---
 action: 
@@ -203,18 +215,6 @@ company: Arden Personnel - Agency - Contract
 location: Warwickshire
 source: JobG8
 job_id: jobg8-23643_225526643
-reason: No exact Warwick workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Interim Finance Assistant
-company: Robertson Bell - Agency - Permanent
-location: Warwickshire
-source: JobG8
-job_id: jobg8-1878240
 reason: No exact Warwick workplace matched; local geographic review is required.
 ---
 

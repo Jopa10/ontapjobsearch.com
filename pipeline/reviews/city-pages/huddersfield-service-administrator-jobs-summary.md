@@ -4,7 +4,7 @@
 - Live route: `/huddersfield/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 2
+- Effective included jobs: 1
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 2
-- automatic review: 7
-- automatic exclude: 30
-- effective include: 2
-- effective review: 7
-- effective exclude: 30
+- automatic include: 1
+- automatic review: 5
+- automatic exclude: 28
+- effective include: 1
+- effective review: 5
+- effective exclude: 28
 
-## INCLUDE (2)
+## INCLUDE (1)
 
 ---
 action: 
@@ -36,31 +36,7 @@ job_id: jobg8-23643_225511013
 reason: Approved Huddersfield catchment.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Receptionist/ Telephonist
-company: Elmwood Family Doctors
-location: Huddersfield, HD9 3TR, Holmfirth, HD9 4EN
-source: NHS Jobs
-job_id: nhs-5579570
-reason: Approved Huddersfield catchment.
----
-
-## REVIEW (7)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Academy Administrator L3
-company: Dixons Cottingley Academy
-location: Bingley
-source: Teaching Vacancies
-job_id: teaching-vacancies-academy-administrator-l3-dixons-cottingley-academy
-reason: No approved Huddersfield catchment rule matched; local review required.
----
+## REVIEW (5)
 
 ---
 action: 
@@ -71,18 +47,6 @@ company: RSE - Agency - Permanent
 location: Mirfield
 source: JobG8
 job_id: jobg8-107960699
-reason: No approved Huddersfield catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Credit Control - Part Time Administrator - 12 FTC Maternity Cover
-company: Centric Talent - Agency - Permanent
-location: Brighouse
-source: JobG8
-job_id: jobg8-107926764
 reason: No approved Huddersfield catchment rule matched; local review required.
 ---
 
@@ -134,7 +98,7 @@ job_id: nhs-5596100
 reason: No approved Huddersfield catchment rule matched; local review required.
 ---
 
-## EXCLUDE (30)
+## EXCLUDE (28)
 
 ---
 action: 
@@ -169,18 +133,6 @@ company: Huntress - Leeds - Agency - Temporary
 location: Leeds
 source: JobG8
 job_id: jobg8-23643_225554903
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Casualty Claims Handler
-company: Adjusting Appointments Limited - Agency - Permanent
-location: Leeds
-source: JobG8
-job_id: jobg8-1785909
 reason: Separate employment market.
 ---
 
@@ -284,18 +236,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Finance Assistant
-company: Nigel Wright Group - Agency - Permanent
-location: Leeds
-source: JobG8
-job_id: jobg8-1866765
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: HR and Compliance Administrator
 company: Huntress - Leeds - Agency - Permanent
 location: Leeds
@@ -337,18 +277,6 @@ company: Triton Recruitment - Agency - Permanent
 location: Wakefield
 source: JobG8
 job_id: jobg8-23643_225568970
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Operations Assistant - Stock, Purchasing & Logistics
-company: Kinetic Office Recruitment - Agency - Permanent
-location: Leeds
-source: JobG8
-job_id: jobg8-23643_225581844
 reason: Separate employment market.
 ---
 
@@ -404,18 +332,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Receptionist
-company: Manor Medical Practice
-location: Bradford, BD8 9PB, Bradford, BD15 7WA
-source: NHS Jobs
-job_id: nhs-5579658
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Receptionist/ Front of House
 company: Search Consultancy Ltd - Agency - Contract
 location: Leeds
@@ -464,6 +380,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Service Administrator
+company: Bradford District Care NHS Foundation Trust
+location: Bradford, BD9 6DP
+source: NHS Jobs
+job_id: nhs-5596261
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Service Co-ordinator
 company: Veolia - Agency - Permanent
 location: Dewsbury
@@ -481,6 +409,18 @@ company: Veolia - Agency - Permanent
 location: Dewsbury
 source: JobG8
 job_id: jobg8-23643_225563194
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Social Media Coordinator
+company: Dream Big Digital - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-642823322571322163237340
 reason: Separate employment market.
 ---
 

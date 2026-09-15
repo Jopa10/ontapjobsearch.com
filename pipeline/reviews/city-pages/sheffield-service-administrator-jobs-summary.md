@@ -4,7 +4,7 @@
 - Live route: `/sheffield/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 10
+- Effective included jobs: 8
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 10
+- automatic include: 8
 - automatic review: 2
-- automatic exclude: 9
-- effective include: 10
+- automatic exclude: 8
+- effective include: 8
 - effective review: 2
-- effective exclude: 9
+- effective exclude: 8
 
-## INCLUDE (10)
+## INCLUDE (8)
 
 ---
 action: 
@@ -45,18 +45,6 @@ company: The Rowan School
 location: Sheffield
 source: Teaching Vacancies
 job_id: teaching-vacancies-admin-clerical-officer-level-2-rowan-school
-reason: Approved Sheffield catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Customer Service Advisor - Uncapped Commission
-company: EE - Company - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-20279_62295-153faf593eb64b88272f45adeaa28d87
 reason: Approved Sheffield catchment.
 ---
 
@@ -113,18 +101,6 @@ action:
 decision: include
 automatic_decision: include
 title: Receptionist
-company: Manchester Road Surgery
-location: Sheffield, S10 5PN
-source: NHS Jobs
-job_id: nhs-5586600
-reason: Approved Sheffield catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Receptionist
 company: Totley Primary School
 location: Sheffield
 source: Teaching Vacancies
@@ -170,7 +146,7 @@ job_id: jobg8-23643_225575501
 reason: No approved Sheffield catchment rule matched; local review required.
 ---
 
-## EXCLUDE (9)
+## EXCLUDE (8)
 
 ---
 action: 
@@ -193,18 +169,6 @@ company: Garland House Surgery
 location: Barnsley, S73 9JX
 source: NHS Jobs
 job_id: nhs-5295793
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Administrator
-company: Elysium Healthcare
-location: Barnsley, S71 4FL
-source: NHS Jobs
-job_id: nhs-5584270
 reason: Separate employment market.
 ---
 

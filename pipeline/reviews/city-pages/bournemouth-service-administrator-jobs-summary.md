@@ -28,6 +28,18 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 action: 
 decision: include
 automatic_decision: include
+title: Administrator
+company: Regent's Park Healthcare
+location: Bournemouth, BH7 7DW
+source: NHS Jobs
+job_id: nhs-5596490
+reason: Exact approved Bournemouth workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Administrator (Sixth Form Study Centre)
 company: Bournemouth School
 location: Bournemouth
@@ -48,43 +60,7 @@ job_id: jobg8-23643_225598865
 reason: Exact approved Bournemouth workplace.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Receptionist - Bank
-company: Avery Healthcare Group Ltd.
-location: Bournemouth, BH4 9DR
-source: NHS Jobs
-job_id: nhs-5591331
-reason: Exact approved Bournemouth workplace.
----
-
 ## REVIEW (10)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accountancy Services Administrator
-company: Reed - Agency - Permanent
-location: Dorset
-source: JobG8
-job_id: jobg8-1766324
-reason: No exact Bournemouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
-company: Agincare
-location: Dorchester, DT1 2EN
-source: NHS Jobs
-job_id: nhs-5589759
-reason: No exact Bournemouth workplace matched; local geographic review is required.
----
 
 ---
 action: 
@@ -138,11 +114,35 @@ reason: No exact Bournemouth workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
+title: Front of House / Customer Service Staff
+company: PLANETARIUM GO UK LIMITED - Agency - Permanent
+location: Dorset
+source: JobG8
+job_id: jobg8-812162186997661696037340
+reason: No exact Bournemouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: HR Administrator
 company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Dorset
 source: JobG8
 job_id: jobg8-1868450
+reason: No exact Bournemouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Receptionist/Administrator
+company: Dorset HealthCare University NHS Foundation Trust
+location: Sherborne, DT93JU
+source: NHS Jobs
+job_id: nhs-5596760
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 

@@ -52,11 +52,11 @@ reason: Exact approved Worcester workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Ward Clerk Maternity
-company: Worcestershire Acute Hospitals NHS Trust
-location: Worcester, WR5 1DD
+title: Senior Medical Receptionist Care Navigator
+company: Albany House Surgery
+location: Worcester, WR1 3DU
 source: NHS Jobs
-job_id: nhs-5541739
+job_id: nhs-5532250
 reason: Exact approved Worcester workplace.
 ---
 

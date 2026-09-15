@@ -176,11 +176,23 @@ reason: No approved Cambridge catchment rule matched; local review required.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Administrator - Huntingdon
-company: Vaccination UK
-location: Huntingdon, PE296FH
+title: Administrator
+company: Cambridgeshire and Peterborough NHS Foundation Trust
+location: Peterborough, PE78FZ
 source: NHS Jobs
-job_id: nhs-5530494
+job_id: nhs-5596812
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Assistant Administrator
+company: Cambridgeshire and Peterborough NHS Foundation Trust
+location: Peterborough, PE1 1HJ
+source: NHS Jobs
+job_id: nhs-5597120
 reason: Separate employment market.
 ---
 
@@ -193,18 +205,6 @@ company: Rosscare - Agency - Contract
 location: Huntingdon
 source: JobG8
 job_id: jobg8-23643_225588023
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Medical Receptionist/ Administrator
-company: Dr Laliwala and Partners
-location: Peterborough, PE1 4FS
-source: NHS Jobs
-job_id: nhs-5575779
 reason: Separate employment market.
 ---
 

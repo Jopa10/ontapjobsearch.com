@@ -4,8 +4,8 @@
 - Live route: `/stoke-on-trent/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 3
-- Threshold currently met: no
+- Effective included jobs: 4
+- Threshold currently met: yes
 
 ## How to review
 Edit only the `action:` line inside a job block.
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 3
-- automatic review: 14
+- automatic include: 4
+- automatic review: 11
 - automatic exclude: 0
-- effective include: 3
-- effective review: 14
+- effective include: 4
+- effective review: 11
 - effective exclude: 0
 
-## INCLUDE (3)
+## INCLUDE (4)
 
 ---
 action: 
@@ -56,11 +56,23 @@ title: Team Administrator
 company: North Staffordshire Combined Healthcare Trust
 location: Stoke-on-Trent, ST4 6TH
 source: NHS Jobs
+job_id: nhs-5575141
+reason: Exact approved Stoke-on-trent workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Team Administrator
+company: North Staffordshire Combined Healthcare Trust
+location: Stoke-on-Trent, ST4 6TH
+source: NHS Jobs
 job_id: nhs-5583352
 reason: Exact approved Stoke-on-trent workplace.
 ---
 
-## REVIEW (14)
+## REVIEW (11)
 
 ---
 action: 
@@ -83,18 +95,6 @@ company: Inclusion
 location: Stafford, ST16 3AT
 source: NHS Jobs
 job_id: nhs-5581973
-reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Casualty Claims Handler
-company: Adjusting Appointments Limited - Agency - Permanent
-location: Staffordshire
-source: JobG8
-job_id: jobg8-1785993
 reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
 ---
 
@@ -198,35 +198,11 @@ reason: No exact Stoke-on-trent workplace matched; local geographic review is re
 action: 
 decision: review
 automatic_decision: review
-title: Receptionist
-company: Avery Healthcare Group Ltd.
-location: Stafford, ST16 1LD
-source: NHS Jobs
-job_id: nhs-5586805
-reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Sales Coordinator
 company: INSTARMAC GROUP - Agency - Permanent
 location: Staffordshire
 source: JobG8
 job_id: jobg8-107665691
-reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Stock & Purchasing Coordinator
-company: Kinetic Office Recruitment - Agency - Permanent
-location: Staffordshire
-source: JobG8
-job_id: jobg8-23643_225543603
 reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
 ---
 

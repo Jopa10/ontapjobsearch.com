@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 1
-- automatic review: 53
+- automatic review: 51
 - automatic exclude: 0
 - effective include: 1
-- effective review: 53
+- effective review: 51
 - effective exclude: 0
 
 ## INCLUDE (1)
@@ -36,7 +36,7 @@ job_id: jobg8-23643_225568322
 reason: Exact approved Ashford workplace.
 ---
 
-## REVIEW (53)
+## REVIEW (51)
 
 ---
 action: 
@@ -128,9 +128,9 @@ decision: review
 automatic_decision: review
 title: Administrator
 company: Kent and Medway Mental Health NHS Trust
-location: Dartford, DA1 2EN
+location: Sevenoaks, TN13 3PG
 source: NHS Jobs
-job_id: nhs-5594972
+job_id: nhs-5598443
 reason: No exact Ashford workplace matched; local geographic review is required.
 ---
 
@@ -378,18 +378,6 @@ reason: No exact Ashford workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Marketing Manager
-company: Recruitment Solutions - Agency - Permanent
-location: Kent
-source: JobG8
-job_id: jobg8-1766258
-reason: No exact Ashford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Marketing Manager (Construction)
 company: Reed - Agency - Permanent
 location: Kent
@@ -587,18 +575,6 @@ company: AS Resourcing - Agency - Permanent
 location: Kent
 source: JobG8
 job_id: jobg8-107875101
-reason: No exact Ashford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Sales Coordinator
-company: Morgan Jones Recruitment Consultants - Agency - Permanent
-location: Kent
-source: JobG8
-job_id: jobg8-23643_225587090
 reason: No exact Ashford workplace matched; local geographic review is required.
 ---
 

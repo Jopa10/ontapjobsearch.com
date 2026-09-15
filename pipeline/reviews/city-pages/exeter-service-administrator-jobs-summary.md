@@ -4,7 +4,7 @@
 - Live route: `/exeter/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 9
+- Effective included jobs: 8
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 9
-- automatic review: 12
+- automatic include: 8
+- automatic review: 10
 - automatic exclude: 0
-- effective include: 9
-- effective review: 12
+- effective include: 8
+- effective review: 10
 - effective exclude: 0
 
-## INCLUDE (9)
+## INCLUDE (8)
 
 ---
 action: 
@@ -76,18 +76,6 @@ reason: Exact approved Exeter workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Receptionist
-company: Elysium Healthcare
-location: Exeter, EX1 3PZ
-source: NHS Jobs
-job_id: nhs-5584272
-reason: Exact approved Exeter workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Service Administrator
 company: Royal Devon University Healthcare NHS Foundation Trust
 location: Exeter, EX2 5DW
@@ -132,31 +120,7 @@ job_id: jobg8-23643_225568425
 reason: Exact approved Exeter workplace.
 ---
 
-## REVIEW (12)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
-company: Hays Business Support - Agency - Temporary
-location: Devon
-source: JobG8
-job_id: jobg8-23643_225587837
-reason: No exact Exeter workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator - Part time
-company: Hays Business Support - Agency - Contract
-location: Devon
-source: JobG8
-job_id: jobg8-23643_225590384
-reason: No exact Exeter workplace matched; local geographic review is required.
----
+## REVIEW (10)
 
 ---
 action: 

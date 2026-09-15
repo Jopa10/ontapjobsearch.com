@@ -176,6 +176,18 @@ reason: No approved Coventry catchment rule matched; local review required.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Administrator - GAP Claims Assessment
+company: SVB Solutions - Agency - Permanent
+location: Warwick
+source: JobG8
+job_id: jobg8-23643_225600118
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Billing Operations Administrator
 company: Manpower - Agency - Permanent
 location: Warwickshire
@@ -265,18 +277,6 @@ company: Arden Personnel - Agency - Contract
 location: Warwickshire
 source: JobG8
 job_id: jobg8-23643_225526643
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Interim Finance Assistant
-company: Robertson Bell - Agency - Permanent
-location: Warwickshire
-source: JobG8
-job_id: jobg8-1878240
 reason: Separate employment market.
 ---
 

@@ -4,7 +4,7 @@
 - Live route: `/barnsley/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 2
+- Effective included jobs: 1
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 2
+- automatic include: 1
 - automatic review: 2
-- automatic exclude: 17
-- effective include: 2
+- automatic exclude: 15
+- effective include: 1
 - effective review: 2
-- effective exclude: 17
+- effective exclude: 15
 
-## INCLUDE (2)
+## INCLUDE (1)
 
 ---
 action: 
@@ -33,18 +33,6 @@ company: Garland House Surgery
 location: Barnsley, S73 9JX
 source: NHS Jobs
 job_id: nhs-5295793
-reason: Approved Barnsley catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrator
-company: Elysium Healthcare
-location: Barnsley, S71 4FL
-source: NHS Jobs
-job_id: nhs-5584270
 reason: Approved Barnsley catchment.
 ---
 
@@ -74,7 +62,7 @@ job_id: jobg8-23643_225575501
 reason: No approved Barnsley catchment rule matched; local review required.
 ---
 
-## EXCLUDE (17)
+## EXCLUDE (15)
 
 ---
 action: 
@@ -145,18 +133,6 @@ company: EE - Company - Permanent
 location: Doncaster
 source: JobG8
 job_id: jobg8-21618_20279_62308-153faf593eb64b88272f45adeaa28d87
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Customer Service Advisor - Uncapped Commission
-company: EE - Company - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-20279_62295-153faf593eb64b88272f45adeaa28d87
 reason: Separate employment market.
 ---
 
@@ -241,18 +217,6 @@ company: Gateway Primary Care CIC
 location: Rotherham, S65 1DJ, Rotherham, S62 7BT, Rotherham, S60 2JH, Rotherham, S60 8GD
 source: NHS Jobs
 job_id: nhs-5588970
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Receptionist
-company: Manchester Road Surgery
-location: Sheffield, S10 5PN
-source: NHS Jobs
-job_id: nhs-5586600
 reason: Separate employment market.
 ---
 

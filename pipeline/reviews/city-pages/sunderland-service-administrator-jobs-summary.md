@@ -4,7 +4,7 @@
 - Live route: `/sunderland/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 3
+- Effective included jobs: 2
 - Threshold currently met: no
 
 ## How to review
@@ -15,26 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 3
-- automatic review: 139
+- automatic include: 2
+- automatic review: 136
 - automatic exclude: 0
-- effective include: 3
-- effective review: 139
+- effective include: 2
+- effective review: 136
 - effective exclude: 0
 
-## INCLUDE (3)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administration Assistant
-company: Cumbria, Northumberland, Tyne and wear (CNTW) NHS Foundation Trust
-location: Sunderland, SR5 1NB
-source: NHS Jobs
-job_id: nhs-5580597
-reason: Exact approved Sunderland workplace.
----
+## INCLUDE (2)
 
 ---
 action: 
@@ -60,19 +48,7 @@ job_id: nhs-5580794
 reason: Exact approved Sunderland workplace.
 ---
 
-## REVIEW (139)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Active Sunderland Weight Management Support Officer
-company: Sunderland City Council
-location: Sunderland City Council
-source: NEJobs
-job_id: nejobs-301079
-reason: No exact Sunderland workplace matched; local geographic review is required.
----
+## REVIEW (136)
 
 ---
 action: 
@@ -762,18 +738,6 @@ reason: No exact Sunderland workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Casualty Claims Handler
-company: Adjusting Appointments Limited - Agency - Permanent
-location: Tyne And Wear
-source: JobG8
-job_id: jobg8-1785990
-reason: No exact Sunderland workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Centre Coordinator
 company: Burnhope Community Centre - Agency - Permanent
 location: County Durham
@@ -1218,35 +1182,11 @@ reason: No exact Sunderland workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Customer Service Coordinator
-company: Graphic Packaging International Box Holdings Limited - Agency - Permanent
-location: Tyne And Wear
-source: JobG8
-job_id: jobg8-107922239
-reason: No exact Sunderland workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Customer Service Representative
 company: EE - Company - Permanent
 location: Hebburn
 source: JobG8
 job_id: jobg8-21618_20279_61775-7e5b8457e0697e3319a222e1db3600fd
-reason: No exact Sunderland workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: DBS01122/26 - Business Administrator Apprentice - Longbenton High School
-company: North Tyneside Council
-location: Longbenton High School Hailsham Ave, Newcastle upon Tyne NE12 8ER
-source: NEJobs
-job_id: nejobs-300866
 reason: No exact Sunderland workplace matched; local geographic review is required.
 ---
 
@@ -1338,11 +1278,11 @@ reason: No exact Sunderland workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: HR Administrator
-company: Nigel Wright Group - Agency - Permanent
-location: Tyne And Wear
-source: JobG8
-job_id: jobg8-1771050
+title: Home Administrator
+company: Akari Care Limited
+location: Gateshead, NE8 1QU
+source: NHS Jobs
+job_id: nhs-5596965
 reason: No exact Sunderland workplace matched; local geographic review is required.
 ---
 
@@ -1350,11 +1290,11 @@ reason: No exact Sunderland workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: HR Administrator - Rewards
-company: Pertemps Scotland Temps - Agency - Permanent
-location: County Durham
+title: HR Administrator
+company: Nigel Wright Group - Agency - Permanent
+location: Tyne And Wear
 source: JobG8
-job_id: jobg8-1869810
+job_id: jobg8-1771050
 reason: No exact Sunderland workplace matched; local geographic review is required.
 ---
 
@@ -1435,6 +1375,30 @@ action:
 decision: review
 automatic_decision: review
 title: Medical Receptionist
+company: Oxford Terrace and Rawling Road Medical Group
+location: Gateshead, NE8 1RQ
+source: NHS Jobs
+job_id: nhs-5596910
+reason: No exact Sunderland workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Medical Receptionist
+company: Oxford Terrace and Rawling Road Medical Group
+location: Gateshead, NE8 1RQ
+source: NHS Jobs
+job_id: nhs-5597295
+reason: No exact Sunderland workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Medical Receptionist
 company: Parkway Medical Group
 location: Newcastle upon Tyne, NE5 1LJ
 source: NHS Jobs
@@ -1463,18 +1427,6 @@ company: Staff Partners Business - Agency - Temporary
 location: Tyne And Wear
 source: JobG8
 job_id: jobg8-23643_225545577
-reason: No exact Sunderland workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: PA to the PRINCIPAL & CHIEF EXECUTIVE
-company: Newcastle and Stafford Colleges Group - Agency - Permanent
-location: Newcastle
-source: JobG8
-job_id: jobg8-107910929
 reason: No exact Sunderland workplace matched; local geographic review is required.
 ---
 
@@ -1542,6 +1494,18 @@ reason: No exact Sunderland workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
+title: Receptionist / Administrator
+company: Glenpark Medical Practice
+location: Gateshead, NE11 9FJ, GATESHEAD, NE8 2PQ
+source: NHS Jobs
+job_id: nhs-5598890
+reason: No exact Sunderland workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Sales Advisor
 company: EE - Company - Permanent
 location: Cramlington
@@ -1559,18 +1523,6 @@ company: EE - Company - Permanent
 location: Cramlington
 source: JobG8
 job_id: jobg8-20279_61897-8a947d76c6803dd88116d68f668dce22
-reason: No exact Sunderland workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Sales Development Representative
-company: The Recruitment Lounge - Agency - Permanent
-location: Newcastle Upon Tyne
-source: JobG8
-job_id: jobg8-107906195
 reason: No exact Sunderland workplace matched; local geographic review is required.
 ---
 

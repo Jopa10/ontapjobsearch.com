@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 5
 - automatic review: 2
-- automatic exclude: 14
+- automatic exclude: 11
 - effective include: 5
 - effective review: 2
-- effective exclude: 14
+- effective exclude: 11
 
 ## INCLUDE (5)
 
@@ -110,7 +110,7 @@ job_id: jobg8-23643_225575501
 reason: No approved Doncaster catchment rule matched; local review required.
 ---
 
-## EXCLUDE (14)
+## EXCLUDE (11)
 
 ---
 action: 
@@ -152,35 +152,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Administrator
-company: Elysium Healthcare
-location: Barnsley, S71 4FL
-source: NHS Jobs
-job_id: nhs-5584270
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Business Support Officer
 company: Rotherham Parents Forum Limited - Agency - Permanent
 location: Rotherham
 source: JobG8
 job_id: jobg8-1892135
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Customer Service Advisor - Uncapped Commission
-company: EE - Company - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-20279_62295-153faf593eb64b88272f45adeaa28d87
 reason: Separate employment market.
 ---
 
@@ -241,18 +217,6 @@ company: Gateway Primary Care CIC
 location: Rotherham, S65 1DJ, Rotherham, S62 7BT, Rotherham, S60 2JH, Rotherham, S60 8GD
 source: NHS Jobs
 job_id: nhs-5588970
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Receptionist
-company: Manchester Road Surgery
-location: Sheffield, S10 5PN
-source: NHS Jobs
-job_id: nhs-5586600
 reason: Separate employment market.
 ---
 

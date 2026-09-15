@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 7
-- automatic review: 16
+- automatic review: 19
 - automatic exclude: 7
 - effective include: 7
-- effective review: 16
+- effective review: 19
 - effective exclude: 7
 
 ## INCLUDE (7)
@@ -108,7 +108,7 @@ job_id: nhs-5587236
 reason: Approved Brighton & Hove catchment.
 ---
 
-## REVIEW (16)
+## REVIEW (19)
 
 ---
 action: 
@@ -174,6 +174,18 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
+title: GP receptionist
+company: Buxted Medical Centre
+location: Buxted, TN22 5FD, Heathfield, TN21 0DS
+source: NHS Jobs
+job_id: nhs-5598236
+reason: No approved Brighton & Hove catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Hotel Receptionist
 company: First Recruitment Services - Agency - Permanent
 location: Sussex
@@ -203,6 +215,18 @@ company: Trident - Agency - Permanent
 location: Sussex
 source: JobG8
 job_id: jobg8-1843728
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Marketing Co-ordinator
+company: A1 People - Agency - Permanent
+location: Sussex
+source: JobG8
+job_id: jobg8-1910463
 reason: Broad location; review before city inclusion.
 ---
 
@@ -263,6 +287,18 @@ company: Huntress - Crawley - Agency - Permanent
 location: Sussex
 source: JobG8
 job_id: jobg8-23643_225593896
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Senior HR Administrator
+company: Michael Page Finance - Agency - Permanent
+location: Sussex
+source: JobG8
+job_id: jobg8-1909139
 reason: Broad location; review before city inclusion.
 ---
 

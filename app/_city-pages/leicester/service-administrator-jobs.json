@@ -123,5 +123,24 @@
     "work_pattern": "Full Time",
     "salary_period": "Annual",
     "posted_date_basis": "ontap_first_published"
+  },
+  {
+    "job_id": "nhs-5597537",
+    "source": "NHS Jobs",
+    "title": "Mental Health Act Administrator",
+    "company": "InMind",
+    "advertiser_name": "InMind",
+    "location": "Leicester, LE36QR",
+    "region": "Leicestershire",
+    "salary": "Negotiable",
+    "employment_type": "Permanent",
+    "posted_date": "2026-09-14T11:27:10.423237923",
+    "closing_date": "2026-10-01",
+    "description": "Are you an experienced Mental Health Act Administrator with a passion for ensuring legal compliance and supporting excellent patient care? Elizabeth House is looking for a dedicated and organised Mental Health Act (MHA) Administrator to join our multidisciplinary team. This is an exciting opportunity to play a vital role in ensuring that all Mental Health Act processes are managed accurately, efficiently, and in accordance with statutory requirements. As our MHA Administrator, you will work closely with the Hospital Director, Responsible Clinicians, nursing teams, and external agencies to ensure the hospital maintains the highest standards of legal compliance and governance. You will be responsible for the administration of all aspects of the Mental Health Act 1983 (as amended), ensuring legal documentation is accurate, compliant, and processed within statutory timescales. You will provide expert advice to staff, coordinate Mental Health Tribunal and Hospital Managers' Hearings, maintain legal records, and support the organisation during CQC inspections and internal audits. Key Responsibilities Administer all Mental Health Act documentation in line with current legislation and the Mental Health Act Code of Practice. Scrutinise detention papers for legal accuracy and identify any anomalies. Maintain the Mental Health Act Tracker and monitor statutory deadlines, renewals, consent to treatment requirements, and appeals. Coordinate Mental Health Tribunals and Hospital Managers' Hearings. Liaise with the Care Quality Commission (CQC), Tribunal Service, Responsible Clinicians, Independent Hospital Managers, IMHAs, and other stakeholders. Ensure statutory rights are explained and appropriate documentation is provided to patients. Maintain secure legal files and ensure clinical records are updated appropriately. Complete monthly audits of Mental Health Act documentation and legal files. Produce governance reports and compliance data. Provide advice and guidance to staff on Mental Health Act processes. Support the delivery of Mental Health Act training across the service.",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0126-26-0031",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0126-26-0031",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "B",
+    "posted_date_basis": "source"
   }
 ]

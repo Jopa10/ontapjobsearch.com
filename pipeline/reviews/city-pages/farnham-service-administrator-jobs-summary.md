@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 7
-- automatic review: 53
+- automatic review: 52
 - automatic exclude: 0
 - effective include: 7
-- effective review: 53
+- effective review: 52
 - effective exclude: 0
 
 ## INCLUDE (7)
@@ -108,19 +108,7 @@ job_id: nhs-5589494
 reason: Exact approved Farnham workplace.
 ---
 
-## REVIEW (53)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Assistant
-company: Bytes - Agency - Contract
-location: Surrey
-source: JobG8
-job_id: jobg8-23643_225581461
-reason: No exact Farnham workplace matched; local geographic review is required.
----
+## REVIEW (52)
 
 ---
 action: 
@@ -131,18 +119,6 @@ company: Leightons Opticians & Hearing Care - Company - Permanent
 location: Surrey
 source: JobG8
 job_id: jobg8-1402264245
-reason: No exact Farnham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administration Support Assistant
-company: Personnel Selection - Agency - Permanent
-location: Godalming
-source: JobG8
-job_id: jobg8-23643_225536898
 reason: No exact Farnham workplace matched; local geographic review is required.
 ---
 
@@ -366,18 +342,6 @@ reason: No exact Farnham workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Investment Administrator
-company: 2i Recruit Ltd - Agency - Permanent
-location: Surrey
-source: JobG8
-job_id: jobg8-1894838
-reason: No exact Farnham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Italian Sales Administrator
 company: Workshop Recruitment - Agency - Permanent
 location: Surrey
@@ -474,6 +438,18 @@ reason: No exact Farnham workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Mortgage Administrator
+company: Recruitment Solutions for Business (UK) Ltd - Agency - Permanent
+location: Surrey
+source: JobG8
+job_id: jobg8-401225863073575731237340
+reason: No exact Farnham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Network Coordination Administrator
 company: Surrey County Council - Company - Permanent
 location: Surrey
@@ -563,6 +539,18 @@ company: Trinity Resource Solutions Ltd - Agency - Permanent
 location: Woking
 source: JobG8
 job_id: jobg8-107872365
+reason: No exact Farnham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Part Time lettings administrator
+company: AMR - Specialist Property Recruiters - Agency - Permanent
+location: Surrey
+source: JobG8
+job_id: jobg8-1905583
 reason: No exact Farnham workplace matched; local geographic review is required.
 ---
 

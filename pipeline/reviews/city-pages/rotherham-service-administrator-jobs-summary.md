@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 2
-- automatic review: 19
+- automatic review: 16
 - automatic exclude: 0
 - effective include: 2
-- effective review: 19
+- effective review: 16
 - effective exclude: 0
 
 ## INCLUDE (2)
@@ -48,7 +48,7 @@ job_id: nhs-5588970
 reason: Exact approved Rotherham workplace.
 ---
 
-## REVIEW (19)
+## REVIEW (16)
 
 ---
 action: 
@@ -102,18 +102,6 @@ reason: No exact Rotherham workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Administrator
-company: Elysium Healthcare
-location: Barnsley, S71 4FL
-source: NHS Jobs
-job_id: nhs-5584270
-reason: No exact Rotherham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Customer Service Advisor
 company: EE - Company - Permanent
 location: Doncaster
@@ -131,18 +119,6 @@ company: EE - Company - Permanent
 location: Doncaster
 source: JobG8
 job_id: jobg8-21618_20279_62308-153faf593eb64b88272f45adeaa28d87
-reason: No exact Rotherham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Customer Service Advisor - Uncapped Commission
-company: EE - Company - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-20279_62295-153faf593eb64b88272f45adeaa28d87
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 
@@ -239,18 +215,6 @@ company: Hays Business Support - Agency - Temporary
 location: Brinsworth
 source: JobG8
 job_id: jobg8-23643_225575501
-reason: No exact Rotherham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Receptionist
-company: Manchester Road Surgery
-location: Sheffield, S10 5PN
-source: NHS Jobs
-job_id: nhs-5586600
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 

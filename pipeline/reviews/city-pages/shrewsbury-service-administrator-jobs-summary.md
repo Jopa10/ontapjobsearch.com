@@ -4,7 +4,7 @@
 - Live route: `/shrewsbury/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 2
+- Effective included jobs: 1
 - Threshold currently met: no
 
 ## How to review
@@ -15,26 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 2
-- automatic review: 11
+- automatic include: 1
+- automatic review: 10
 - automatic exclude: 0
-- effective include: 2
-- effective review: 11
+- effective include: 1
+- effective review: 10
 - effective exclude: 0
 
-## INCLUDE (2)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Admin Assistant
-company: St Edward's CofE Primary School
-location: Shrewsbury
-source: Teaching Vacancies
-job_id: teaching-vacancies-admin-assistant-st-edward-s-cofe-primary-school
-reason: Exact approved Shrewsbury workplace.
----
+## INCLUDE (1)
 
 ---
 action: 
@@ -48,7 +36,7 @@ job_id: teaching-vacancies-administration-assistant-inclusion-and-people
 reason: Exact approved Shrewsbury workplace.
 ---
 
-## REVIEW (11)
+## REVIEW (10)
 
 ---
 action: 
@@ -114,18 +102,6 @@ reason: No exact Shrewsbury workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Housing Repairs Administrator
-company: Thorngate Churcher Trust - Agency - Permanent
-location: Shropshire
-source: JobG8
-job_id: jobg8-23643_225537561
-reason: No exact Shrewsbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Part Time Accounts Administrator 12 Month FTC
 company: Office Angels - Agency - Temporary
 location: Wellington
@@ -138,11 +114,11 @@ reason: No exact Shrewsbury workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Receptionist
-company: Teldoc
-location: Telford, TF2 9GZ, Shifnal, TF11 8DD
+title: Patient Services Advisor (Receptionist)
+company: Churchmere Medical Group
+location: Ellesmere, SY12 0DB, Whitchurch, SY13 1FQ
 source: NHS Jobs
-job_id: nhs-5573104
+job_id: nhs-5590172
 reason: No exact Shrewsbury workplace matched; local geographic review is required.
 ---
 

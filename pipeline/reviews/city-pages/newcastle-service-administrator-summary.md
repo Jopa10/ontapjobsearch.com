@@ -4,7 +4,7 @@
 - Live route: `/newcastle/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 90
+- Effective included jobs: 91
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 90
-- automatic review: 28
-- automatic exclude: 24
-- effective include: 90
-- effective review: 28
-- effective exclude: 24
+- automatic include: 91
+- automatic review: 26
+- automatic exclude: 21
+- effective include: 91
+- effective review: 26
+- effective exclude: 21
 
-## INCLUDE (90)
+## INCLUDE (91)
 
 ---
 action: 
@@ -988,18 +988,6 @@ reason: Approved Newcastle catchment.
 action: 
 decision: include
 automatic_decision: include
-title: DBS01122/26 - Business Administrator Apprentice - Longbenton High School
-company: North Tyneside Council
-location: Longbenton High School Hailsham Ave, Newcastle upon Tyne NE12 8ER
-source: NEJobs
-job_id: nejobs-300866
-reason: Approved Newcastle catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: DBS01125/26 - Receptionist - Norham High School
 company: North Tyneside Council
 location: North Tyneside Council
@@ -1048,6 +1036,42 @@ reason: Approved Newcastle catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Home Administrator
+company: Akari Care Limited
+location: Gateshead, NE8 1QU
+source: NHS Jobs
+job_id: nhs-5596965
+reason: Approved Newcastle catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Medical Receptionist
+company: Oxford Terrace and Rawling Road Medical Group
+location: Gateshead, NE8 1RQ
+source: NHS Jobs
+job_id: nhs-5596910
+reason: Approved Newcastle catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Medical Receptionist
+company: Oxford Terrace and Rawling Road Medical Group
+location: Gateshead, NE8 1RQ
+source: NHS Jobs
+job_id: nhs-5597295
+reason: Approved Newcastle catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Medical Receptionist
 company: Parkway Medical Group
 location: Newcastle upon Tyne, NE5 1LJ
@@ -1060,23 +1084,11 @@ reason: Approved Newcastle catchment.
 action: 
 decision: include
 automatic_decision: include
-title: PA to the PRINCIPAL & CHIEF EXECUTIVE
-company: Newcastle and Stafford Colleges Group - Agency - Permanent
-location: Newcastle
-source: JobG8
-job_id: jobg8-107910929
-reason: Approved Newcastle catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Sales Development Representative
-company: The Recruitment Lounge - Agency - Permanent
-location: Newcastle Upon Tyne
-source: JobG8
-job_id: jobg8-107906195
+title: Receptionist / Administrator
+company: Glenpark Medical Practice
+location: Gateshead, NE11 9FJ, GATESHEAD, NE8 2PQ
+source: NHS Jobs
+job_id: nhs-5598890
 reason: Approved Newcastle catchment.
 ---
 
@@ -1104,7 +1116,7 @@ job_id: nhs-5576748
 reason: Approved Newcastle catchment.
 ---
 
-## REVIEW (28)
+## REVIEW (26)
 
 ---
 action: 
@@ -1194,36 +1206,12 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Casualty Claims Handler
-company: Adjusting Appointments Limited - Agency - Permanent
-location: Tyne And Wear
-source: JobG8
-job_id: jobg8-1785990
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Customer Service Advisor x 2 Posts
 company: South Tyneside Council
 location: South Tyneside Council
 source: NEJobs
 job_id: nejobs-301438
 reason: No approved Newcastle catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Customer Service Coordinator
-company: Graphic Packaging International Box Holdings Limited - Agency - Permanent
-location: Tyne And Wear
-source: JobG8
-job_id: jobg8-107922239
-reason: Broad location; review before city inclusion.
 ---
 
 ---
@@ -1442,19 +1430,7 @@ job_id: vonne-173391
 reason: No approved Newcastle catchment rule matched; local review required.
 ---
 
-## EXCLUDE (24)
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Active Sunderland Weight Management Support Officer
-company: Sunderland City Council
-location: Sunderland City Council
-source: NEJobs
-job_id: nejobs-301079
-reason: Separate employment market.
----
+## EXCLUDE (21)
 
 ---
 action: 
@@ -1465,18 +1441,6 @@ company: Barchester Healthcare
 location: Darlington, DL1 1JF
 source: NHS Jobs
 job_id: nhs-5583602
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Administration Assistant
-company: Cumbria, Northumberland, Tyne and wear (CNTW) NHS Foundation Trust
-location: Sunderland, SR5 1NB
-source: NHS Jobs
-job_id: nhs-5580597
 reason: Separate employment market.
 ---
 
@@ -1561,18 +1525,6 @@ company: SRG - Agency - Permanent
 location: County Durham
 source: JobG8
 job_id: jobg8-1831208
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: HR Administrator - Rewards
-company: Pertemps Scotland Temps - Agency - Permanent
-location: County Durham
-source: JobG8
-job_id: jobg8-1869810
 reason: Separate employment market.
 ---
 

@@ -4,7 +4,7 @@
 - Live route: `/birmingham/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 22
+- Effective included jobs: 18
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 22
+- automatic include: 18
 - automatic review: 5
 - automatic exclude: 3
-- effective include: 22
+- effective include: 18
 - effective review: 5
 - effective exclude: 3
 
-## INCLUDE (22)
+## INCLUDE (18)
 
 ---
 action: 
@@ -57,18 +57,6 @@ company: Watra Care - Agency - Permanent
 location: Birmingham
 source: JobG8
 job_id: jobg8-23643_225543172
-reason: Approved conservative Birmingham launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Casualty Claims Handler
-company: Adjusting Appointments Limited - Agency - Permanent
-location: Birmingham
-source: JobG8
-job_id: jobg8-1785910
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -148,18 +136,6 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Mobile Receptionist/Care Navigator
-company: Ridgacre Medical Centres
-location: Birmingham, B32 2TJ, BIRMINGHAM, B7 5DT
-source: NHS Jobs
-job_id: nhs-5547612
-reason: Approved conservative Birmingham launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Office Administrator
 company: Alliance Personnel - Agency - Permanent
 location: Birmingham
@@ -201,18 +177,6 @@ company: Katie Bard & Angela Mortimer Plc - Agency - Permanent
 location: Birmingham
 source: JobG8
 job_id: jobg8-1823583
-reason: Approved conservative Birmingham launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Project Administrator
-company: Rise Technical Recruitment - Agency - Temporary
-location: Birmingham
-source: JobG8
-job_id: jobg8-23643_225567588
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -273,18 +237,6 @@ company: University College Birmingham - Company - Contract
 location: Birmingham
 source: JobG8
 job_id: jobg8-23643_225589554
-reason: Approved conservative Birmingham launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Trainee Social Media Executive
-company: Netcom Online Learning - Agency - Permanent
-location: Birmingham
-source: JobG8
-job_id: jobg8-1867585
 reason: Approved conservative Birmingham launch catchment.
 ---
 

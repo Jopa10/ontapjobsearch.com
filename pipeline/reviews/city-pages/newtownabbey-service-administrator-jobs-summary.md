@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 5
-- automatic review: 67
+- automatic review: 71
 - automatic exclude: 0
 - effective include: 5
-- effective review: 67
+- effective review: 71
 - effective exclude: 0
 
 ## INCLUDE (5)
@@ -84,7 +84,7 @@ job_id: jobg8-2050449
 reason: Exact approved Newtownabbey workplace.
 ---
 
-## REVIEW (67)
+## REVIEW (71)
 
 ---
 action: 
@@ -95,6 +95,18 @@ company: Apple Recruitment - Agency - Permanent
 location: Belfast
 source: JobG8
 job_id: jobg8-2051960
+reason: No exact Newtownabbey workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Assistant
+company: Apple Recruitment - Agency - Permanent
+location: Lisburn
+source: JobG8
+job_id: jobg8-2050679
 reason: No exact Newtownabbey workplace matched; local geographic review is required.
 ---
 
@@ -150,11 +162,35 @@ reason: No exact Newtownabbey workplace matched; local geographic review is requ
 action: 
 decision: review
 automatic_decision: review
+title: Accounts Assistant & Income recovery
+company: Hays - Agency - Permanent
+location: Belfast
+source: JobG8
+job_id: jobg8-2050677
+reason: No exact Newtownabbey workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Accounts Assistant / Junior Accountant (Practice)
 company: McKinty Associates - Agency - Permanent
 location: Belfast
 source: JobG8
 job_id: jobg8-2052657
+reason: No exact Newtownabbey workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Assistant/Bookkeeper
+company: Reed Specialist Recruitment - Agency - Permanent
+location: Belfast
+source: JobG8
+job_id: jobg8-2050638
 reason: No exact Newtownabbey workplace matched; local geographic review is required.
 ---
 
@@ -227,6 +263,18 @@ company: Hays - Agency - Permanent
 location: Belfast
 source: JobG8
 job_id: jobg8-2051408
+reason: No exact Newtownabbey workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Bookkeeper
+company: Reed Specialist Recruitment - Agency - Permanent
+location: Ballymena
+source: JobG8
+job_id: jobg8-2050590
 reason: No exact Newtownabbey workplace matched; local geographic review is required.
 ---
 
@@ -403,6 +451,18 @@ action:
 decision: review
 automatic_decision: review
 title: Finance Officer
+company: Hays - Agency - Permanent
+location: Belfast
+source: JobG8
+job_id: jobg8-2050687
+reason: No exact Newtownabbey workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Finance Officer
 company: Independent Commission for Reconciliation and Information Recovery (ICRIR) - Agency - Permanent
 location: Belfast
 source: JobG8
@@ -491,30 +551,6 @@ company: Reed Specialist Recruitment - Agency - Permanent
 location: Belfast
 source: JobG8
 job_id: jobg8-2052363
-reason: No exact Newtownabbey workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: HR Administrator (Lisburn)
-company: Honeycomb Jobs Ltd - Agency - Permanent
-location: Lisburn
-source: JobG8
-job_id: jobg8-2050089
-reason: No exact Newtownabbey workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: HR Administrator - Lisburn
-company: First Choice Selection Services - Agency - Permanent
-location: Lisburn
-source: JobG8
-job_id: jobg8-2050078
 reason: No exact Newtownabbey workplace matched; local geographic review is required.
 ---
 
@@ -695,6 +731,18 @@ company: Apple Recruitment - Agency - Permanent
 location: Belfast
 source: JobG8
 job_id: jobg8-2050773
+reason: No exact Newtownabbey workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Receptionist Administrator
+company: Apple Recruitment - Agency - Permanent
+location: Lisburn
+source: JobG8
+job_id: jobg8-2050672
 reason: No exact Newtownabbey workplace matched; local geographic review is required.
 ---
 

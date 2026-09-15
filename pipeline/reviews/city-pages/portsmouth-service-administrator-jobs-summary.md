@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 5
-- automatic review: 47
+- automatic review: 50
 - automatic exclude: 0
 - effective include: 5
-- effective review: 47
+- effective review: 50
 - effective exclude: 0
 
 ## INCLUDE (5)
@@ -84,7 +84,7 @@ job_id: jobg8-23643_225564118
 reason: Exact approved Portsmouth workplace.
 ---
 
-## REVIEW (47)
+## REVIEW (50)
 
 ---
 action: 
@@ -331,18 +331,6 @@ action:
 decision: review
 automatic_decision: review
 title: Customer Service Coordinator
-company: The Workshop - Agency - Contract
-location: Hampshire
-source: JobG8
-job_id: jobg8-107787258
-reason: No exact Portsmouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Customer Service Coordinator
 company: Vistry Group - Company - Contract
 location: Hampshire
 source: JobG8
@@ -395,6 +383,18 @@ company: University Of Southampton Students Union - Agency - Permanent
 location: Southampton
 source: JobG8
 job_id: jobg8-23643_225573592
+reason: No exact Portsmouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Housing Repairs Administrator
+company: Thorngate Churcher Trust - Agency - Permanent
+location: Gosport
+source: JobG8
+job_id: jobg8-23643_225537561
 reason: No exact Portsmouth workplace matched; local geographic review is required.
 ---
 
@@ -510,6 +510,18 @@ reason: No exact Portsmouth workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
+title: Patient Administrator
+company: University Hospital Southampton NHS Trust
+location: Southampton, SO16 5YA
+source: NHS Jobs
+job_id: nhs-5273675
+reason: No exact Portsmouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Patient Care Co-ordinator/Receptionist
 company: Abbeywell Surgery
 location: Romsey, SO51 8EN, Romsey, SO517QN
@@ -539,18 +551,6 @@ company: Octagon Group - Agency - Permanent
 location: Southampton
 source: JobG8
 job_id: jobg8-23643_225576097
-reason: No exact Portsmouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Receptionist
-company: Wildern School
-location: Southampton
-source: Teaching Vacancies
-job_id: teaching-vacancies-receptionist-1dcaf299-1719-4cef-a999-af235a29010e
 reason: No exact Portsmouth workplace matched; local geographic review is required.
 ---
 
@@ -594,6 +594,18 @@ reason: No exact Portsmouth workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
+title: Sales Administrative Assistant
+company: Britannia Windows - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-23643_225600795
+reason: No exact Portsmouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Sales Administrator
 company: Vanta Staffing Limited - Agency - Temporary
 location: Basingstoke
@@ -623,6 +635,30 @@ company: Adecco - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225505424
+reason: No exact Portsmouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: School Admin Assistant
+company: Academics - Agency - Temporary
+location: Gosport
+source: JobG8
+job_id: jobg8-23643_225600128
+reason: No exact Portsmouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Service Coordinator
+company: People First Recruitment - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-107959953
 reason: No exact Portsmouth workplace matched; local geographic review is required.
 ---
 

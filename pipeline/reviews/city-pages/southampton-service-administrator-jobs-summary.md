@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 5
-- automatic review: 29
+- automatic review: 32
 - automatic exclude: 18
 - effective include: 5
-- effective review: 29
+- effective review: 32
 - effective exclude: 18
 
 ## INCLUDE (5)
@@ -52,11 +52,11 @@ reason: Approved Southampton catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Project Document Controller
-company: Octagon Group - Agency - Permanent
-location: Southampton
-source: JobG8
-job_id: jobg8-23643_225576097
+title: Patient Administrator
+company: University Hospital Southampton NHS Trust
+location: Southampton, SO16 5YA
+source: NHS Jobs
+job_id: nhs-5273675
 reason: Approved Southampton catchment.
 ---
 
@@ -64,11 +64,11 @@ reason: Approved Southampton catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Receptionist
-company: Wildern School
+title: Project Document Controller
+company: Octagon Group - Agency - Permanent
 location: Southampton
-source: Teaching Vacancies
-job_id: teaching-vacancies-receptionist-1dcaf299-1719-4cef-a999-af235a29010e
+source: JobG8
+job_id: jobg8-23643_225576097
 reason: Approved Southampton catchment.
 ---
 
@@ -84,7 +84,7 @@ job_id: nhs-5589814
 reason: Approved Southampton catchment.
 ---
 
-## REVIEW (29)
+## REVIEW (32)
 
 ---
 action: 
@@ -259,18 +259,6 @@ action:
 decision: review
 automatic_decision: review
 title: Customer Service Coordinator
-company: The Workshop - Agency - Contract
-location: Hampshire
-source: JobG8
-job_id: jobg8-107787258
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Customer Service Coordinator
 company: Vistry Group - Company - Contract
 location: Hampshire
 source: JobG8
@@ -300,6 +288,18 @@ location: Hampshire
 source: JobG8
 job_id: jobg8-1885642
 reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Housing Repairs Administrator
+company: Thorngate Churcher Trust - Agency - Permanent
+location: Gosport
+source: JobG8
+job_id: jobg8-23643_225537561
+reason: No approved Southampton catchment rule matched; local review required.
 ---
 
 ---
@@ -402,6 +402,18 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
+title: Sales Administrative Assistant
+company: Britannia Windows - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-23643_225600795
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Sales Administrator / Sales Coordinator
 company: Dovetail Recruitment Ltd - Agency - Permanent
 location: Hampshire
@@ -419,6 +431,30 @@ company: Adecco - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225505424
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: School Admin Assistant
+company: Academics - Agency - Temporary
+location: Gosport
+source: JobG8
+job_id: jobg8-23643_225600128
+reason: No approved Southampton catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Service Coordinator
+company: People First Recruitment - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-107959953
 reason: Broad location; review before city inclusion.
 ---
 

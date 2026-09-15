@@ -28,18 +28,6 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 action: 
 decision: include
 automatic_decision: include
-title: Accounts Assistant
-company: Reed - Agency - Permanent
-location: Liverpool
-source: JobG8
-job_id: jobg8-1766251
-reason: Approved conservative Liverpool launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Administrator
 company: Search Consultancy Ltd - Agency - Permanent
 location: Liverpool
@@ -69,6 +57,18 @@ company: Keoghs LLP - Agency - Permanent
 location: Liverpool
 source: JobG8
 job_id: jobg8-1830080
+reason: Approved conservative Liverpool launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Contract Administrator
+company: Sureserve Group - Company - Permanent
+location: Liverpool
+source: JobG8
+job_id: jobg8-107937228
 reason: Approved conservative Liverpool launch catchment.
 ---
 

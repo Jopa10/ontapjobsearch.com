@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 1
-- automatic review: 26
+- automatic review: 24
 - automatic exclude: 0
 - effective include: 1
-- effective review: 26
+- effective review: 24
 - effective exclude: 0
 
 ## INCLUDE (1)
@@ -36,7 +36,19 @@ job_id: jobg8-1766933
 reason: Exact approved Gloucester workplace.
 ---
 
-## REVIEW (26)
+## REVIEW (24)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Activities Coordinator - Care Home
+company: Barchester Healthcare - Company - Permanent
+location: Gloucestershire
+source: JobG8
+job_id: jobg8-23643_225601313
+reason: No exact Gloucester workplace matched; local geographic review is required.
+---
 
 ---
 action: 
@@ -59,18 +71,6 @@ company: First Base - Agency - Permanent
 location: Dursley
 source: JobG8
 job_id: jobg8-23643_225565670
-reason: No exact Gloucester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Customer Service & Office Coordinator Full / Part Time
-company: Anderson Recruitment - Agency - Permanent
-location: Gloucestershire
-source: JobG8
-job_id: jobg8-107789458
 reason: No exact Gloucester workplace matched; local geographic review is required.
 ---
 
@@ -114,18 +114,6 @@ reason: No exact Gloucester workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Field Care Team Administrator
-company: Anderson Recruitment - Agency - Permanent
-location: Gloucestershire
-source: JobG8
-job_id: jobg8-107864211
-reason: No exact Gloucester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Insurance Accounts Administrator
 company: i2i Recruitment Consultancy - Agency - Permanent
 location: Gloucestershire
@@ -143,18 +131,6 @@ company: Safran - Agency - Permanent
 location: Gloucestershire
 source: JobG8
 job_id: jobg8-107831167
-reason: No exact Gloucester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Marketing and BDM Manager
-company: Anderson Recruitment Ltd - Agency - Permanent
-location: Gloucestershire
-source: JobG8
-job_id: jobg8-1766159
 reason: No exact Gloucester workplace matched; local geographic review is required.
 ---
 

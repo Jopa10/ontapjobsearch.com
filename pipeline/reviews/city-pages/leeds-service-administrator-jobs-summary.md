@@ -4,7 +4,7 @@
 - Live route: `/leeds/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 22
+- Effective included jobs: 20
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 22
-- automatic review: 7
-- automatic exclude: 10
-- effective include: 22
-- effective review: 7
-- effective exclude: 10
+- automatic include: 20
+- automatic review: 5
+- automatic exclude: 9
+- effective include: 20
+- effective review: 5
+- effective exclude: 9
 
-## INCLUDE (22)
+## INCLUDE (20)
 
 ---
 action: 
@@ -45,18 +45,6 @@ company: Huntress - Leeds - Agency - Temporary
 location: Leeds
 source: JobG8
 job_id: jobg8-23643_225554903
-reason: Approved Leeds catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Casualty Claims Handler
-company: Adjusting Appointments Limited - Agency - Permanent
-location: Leeds
-source: JobG8
-job_id: jobg8-1785909
 reason: Approved Leeds catchment.
 ---
 
@@ -160,18 +148,6 @@ reason: Approved Leeds catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Finance Assistant
-company: Nigel Wright Group - Agency - Permanent
-location: Leeds
-source: JobG8
-job_id: jobg8-1866765
-reason: Approved Leeds catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: HR and Compliance Administrator
 company: Huntress - Leeds - Agency - Permanent
 location: Leeds
@@ -201,18 +177,6 @@ company: Kingston Barnes Ltd - Agency - Permanent
 location: Leeds
 source: JobG8
 job_id: jobg8-23643_225550655
-reason: Approved Leeds catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Operations Assistant - Stock, Purchasing & Logistics
-company: Kinetic Office Recruitment - Agency - Permanent
-location: Leeds
-source: JobG8
-job_id: jobg8-23643_225581844
 reason: Approved Leeds catchment.
 ---
 
@@ -280,6 +244,18 @@ reason: Approved Leeds catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Social Media Coordinator
+company: Dream Big Digital - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-642823322571322163237340
+reason: Approved Leeds catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Temporary Executive Support Administrator
 company: Hays Business Support - Agency - Temporary
 location: Leeds
@@ -288,19 +264,7 @@ job_id: jobg8-23643_225519206
 reason: Approved Leeds catchment.
 ---
 
-## REVIEW (7)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Academy Administrator L3
-company: Dixons Cottingley Academy
-location: Bingley
-source: Teaching Vacancies
-job_id: teaching-vacancies-academy-administrator-l3-dixons-cottingley-academy
-reason: No approved Leeds catchment rule matched; local review required.
----
+## REVIEW (5)
 
 ---
 action: 
@@ -311,18 +275,6 @@ company: RSE - Agency - Permanent
 location: Mirfield
 source: JobG8
 job_id: jobg8-107960699
-reason: No approved Leeds catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Credit Control - Part Time Administrator - 12 FTC Maternity Cover
-company: Centric Talent - Agency - Permanent
-location: Brighouse
-source: JobG8
-job_id: jobg8-107926764
 reason: No approved Leeds catchment rule matched; local review required.
 ---
 
@@ -374,7 +326,7 @@ job_id: nhs-5596100
 reason: No approved Leeds catchment rule matched; local review required.
 ---
 
-## EXCLUDE (10)
+## EXCLUDE (9)
 
 ---
 action: 
@@ -452,23 +404,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Receptionist
-company: Manor Medical Practice
-location: Bradford, BD8 9PB, Bradford, BD15 7WA
+title: Service Administrator
+company: Bradford District Care NHS Foundation Trust
+location: Bradford, BD9 6DP
 source: NHS Jobs
-job_id: nhs-5579658
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Receptionist/ Telephonist
-company: Elmwood Family Doctors
-location: Huddersfield, HD9 3TR, Holmfirth, HD9 4EN
-source: NHS Jobs
-job_id: nhs-5579570
+job_id: nhs-5596261
 reason: Separate employment market.
 ---
 

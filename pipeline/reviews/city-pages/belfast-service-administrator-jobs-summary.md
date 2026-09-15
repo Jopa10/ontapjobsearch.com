@@ -4,7 +4,7 @@
 - Live route: `/belfast/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 46
+- Effective included jobs: 49
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 46
-- automatic review: 26
+- automatic include: 49
+- automatic review: 27
 - automatic exclude: 0
-- effective include: 46
-- effective review: 26
+- effective include: 49
+- effective review: 27
 - effective exclude: 0
 
-## INCLUDE (46)
+## INCLUDE (49)
 
 ---
 action: 
@@ -64,11 +64,35 @@ reason: Approved conservative Belfast launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Accounts Assistant & Income recovery
+company: Hays - Agency - Permanent
+location: Belfast
+source: JobG8
+job_id: jobg8-2050677
+reason: Approved conservative Belfast launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Accounts Assistant / Junior Accountant (Practice)
 company: McKinty Associates - Agency - Permanent
 location: Belfast
 source: JobG8
 job_id: jobg8-2052657
+reason: Approved conservative Belfast launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Accounts Assistant/Bookkeeper
+company: Reed Specialist Recruitment - Agency - Permanent
+location: Belfast
+source: JobG8
+job_id: jobg8-2050638
 reason: Approved conservative Belfast launch catchment.
 ---
 
@@ -225,6 +249,18 @@ company: Honeycomb Jobs Ltd - Agency - Permanent
 location: Belfast
 source: JobG8
 job_id: jobg8-2052326
+reason: Approved conservative Belfast launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Finance Officer
+company: Hays - Agency - Permanent
+location: Belfast
+source: JobG8
+job_id: jobg8-2050687
 reason: Approved conservative Belfast launch catchment.
 ---
 
@@ -576,7 +612,19 @@ job_id: jobg8-2050290
 reason: Approved conservative Belfast launch catchment.
 ---
 
-## REVIEW (26)
+## REVIEW (27)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Assistant
+company: Apple Recruitment - Agency - Permanent
+location: Lisburn
+source: JobG8
+job_id: jobg8-2050679
+reason: No approved Belfast catchment rule matched; local review required.
+---
 
 ---
 action: 
@@ -659,6 +707,18 @@ company: Extern - Agency - Permanent
 location: Newtownabbey
 source: JobG8
 job_id: jobg8-2052007
+reason: No approved Belfast catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Bookkeeper
+company: Reed Specialist Recruitment - Agency - Permanent
+location: Ballymena
+source: JobG8
+job_id: jobg8-2050590
 reason: No approved Belfast catchment rule matched; local review required.
 ---
 
@@ -762,35 +822,11 @@ reason: No approved Belfast catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: HR Administrator (Lisburn)
-company: Honeycomb Jobs Ltd - Agency - Permanent
-location: Lisburn
-source: JobG8
-job_id: jobg8-2050089
-reason: No approved Belfast catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: HR Administrator (Temp)
 company: Honeycomb Jobs Ltd - Agency - Permanent
 location: Newtownabbey
 source: JobG8
 job_id: jobg8-2052465
-reason: No approved Belfast catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: HR Administrator - Lisburn
-company: First Choice Selection Services - Agency - Permanent
-location: Lisburn
-source: JobG8
-job_id: jobg8-2050078
 reason: No approved Belfast catchment rule matched; local review required.
 ---
 
@@ -839,6 +875,18 @@ company: Extern - Agency - Permanent
 location: County Antrim
 source: JobG8
 job_id: jobg8-2052259
+reason: No approved Belfast catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Receptionist Administrator
+company: Apple Recruitment - Agency - Permanent
+location: Lisburn
+source: JobG8
+job_id: jobg8-2050672
 reason: No approved Belfast catchment rule matched; local review required.
 ---
 

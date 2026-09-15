@@ -40,11 +40,11 @@ reason: Approved conservative Cardiff launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Sales Support Administrator
-company: Huntress - Bracknell - Agency - Temporary
+title: Key Account Coordinator and Customer Support
+company: Work Wales - Agency - Permanent
 location: Cardiff
 source: JobG8
-job_id: jobg8-23643_225565612
+job_id: jobg8-107791604
 reason: Approved conservative Cardiff launch catchment.
 ---
 
