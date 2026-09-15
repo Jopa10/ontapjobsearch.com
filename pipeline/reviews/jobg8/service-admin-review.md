@@ -1066,23 +1066,20 @@ job_id: 1909340
 ## LONDON — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - LONDON | London | London | £35000 - £37000 per year | Contracts Administrator
 job_id: 23643_225600747
 ---
-
 ---
-action:
+action: select
 POSS - LONDON | London | London | £160 - £180 per daily | eCommerce Content Coordinator
 job_id: 107892006
 ---
-
 ---
-action:
+action: exclude
 POSS - LONDON | London | London | £35000 - £40000 per year | Luxury Retail Brand Image Operations Coordinator
 job_id: 1909284
 ---
-
 ## HAMPSHIRE — SELECTED
 
 ---
@@ -2400,11 +2397,10 @@ job_id: 23643_225601438
 ## BRISTOL & BATH — POSSIBLES
 
 ---
-action:
+action: select
 POSS - BRISTOL & BATH | Bristol & Bath | Bristol | £35000 per year | Administrator - Financial Services
 job_id: 1907662
 ---
-
 ## BUCKINGHAMSHIRE — SELECTED
 
 ---
@@ -3496,11 +3492,10 @@ job_id: 1909919
 ## GREATER MANCHESTER - MANCHESTER & SALFORD — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - GREATER MANCHESTER - MANCHESTER & SALFORD | Greater Manchester - Manchester & Salford | Manchester | £38000 per year | Personal Injury Claims Handler
 job_id: 1908642
 ---
-
 ## GREATER MANCHESTER - SOUTH — SELECTED
 
 ---
@@ -4412,17 +4407,15 @@ job_id: 107952610
 ## NORTHERN IRELAND - EAST — POSSIBLES
 
 ---
-action:
+action: select
 POSS - NORTHERN IRELAND - EAST | Northern Ireland - East | Belfast | £30000 - £32500 per year | Accounts Assistant/Bookkeeper
 job_id: 2050638
 ---
-
 ---
-action:
+action: select
 POSS - NORTHERN IRELAND - EAST | Northern Ireland - East | Lisburn | £28000 - £35000 per year | Accounts Assistant
 job_id: 2050679
 ---
-
 ## NOTTINGHAMSHIRE — SELECTED
 
 ---
@@ -4518,11 +4511,10 @@ job_id: 107803492
 ## NOTTINGHAMSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - NOTTINGHAMSHIRE | Nottinghamshire | Nottinghamshire | £32000 - £34000 per year (excellent opportunity) | Framework Administrator
 job_id: 23643_225601017
 ---
-
 ## OXFORDSHIRE — SELECTED
 
 ---
@@ -4642,11 +4634,10 @@ job_id: 107842716
 ## OXFORDSHIRE — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - OXFORDSHIRE | Oxfordshire | Oxfordshire | £21.74 per hour | Maintenance MDS Administrator
 job_id: 23643_225600403
 ---
-
 ## SCOTLAND CENTRAL - EDINBURGH & LOTHIANS — SELECTED
 
 ---
