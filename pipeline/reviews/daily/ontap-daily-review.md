@@ -32,7 +32,7 @@ Edit only each `action:` line:
 ## JobG8 — 9 to review
 
 ---
-action:
+action: select
 POSS | JobG8 | Bristol & Bath | Bristol | £35000 per year | Administrator - Financial Services
 source_key: jobg8
 source: JobG8
@@ -50,7 +50,7 @@ hub_fingerprint: 840dd22e72811a9151fac56cd3f3aef533ce6d0ad963f97d0875adb9f560b4f
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | Greater Manchester - Manchester & Salford | Manchester | £38000 per year | Personal Injury Claims Handler
 source_key: jobg8
 source: JobG8
@@ -68,7 +68,7 @@ hub_fingerprint: d4b091ba68e849716c72b277684b39036ad0a3268c7d1a4722c37172b12c0a4
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | London | London | £35000 - £37000 per year | Contracts Administrator
 source_key: jobg8
 source: JobG8
@@ -86,7 +86,7 @@ hub_fingerprint: d76e12f6f79d72bec8322fd1b77011a0ca93f8efb37713938d70650d8cf1981
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | London | London | £160 - £180 per daily | eCommerce Content Coordinator
 source_key: jobg8
 source: JobG8
@@ -104,7 +104,7 @@ hub_fingerprint: b0963abecf89d8f18486dd16f6e9e326aa21828590ad68fc21f5722fb43bb5d
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | London | London | £35000 - £40000 per year | Luxury Retail Brand Image Operations Coordinator
 source_key: jobg8
 source: JobG8
@@ -122,7 +122,7 @@ hub_fingerprint: ff82cfc7237532415f8e4f3de76bf1593b72f9b998c3d3a2edb2e9a82f28a2f
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Northern Ireland - East | Belfast | £30000 - £32500 per year | Accounts Assistant/Bookkeeper
 source_key: jobg8
 source: JobG8
@@ -140,7 +140,7 @@ hub_fingerprint: 17b90d4fe6d3ab50d539810bb37702169936df38ccaeeef68135a0cd51a8c00
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Northern Ireland - East | Lisburn | £28000 - £35000 per year | Accounts Assistant
 source_key: jobg8
 source: JobG8
@@ -158,7 +158,7 @@ hub_fingerprint: 065726d0481f2565fabf9fbe429699805239964638b3a45b83f4c84ff0457af
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Nottinghamshire | Nottinghamshire | £32000 - £34000 per year (excellent opportunity) | Framework Administrator
 source_key: jobg8
 source: JobG8
@@ -176,7 +176,7 @@ hub_fingerprint: fece5ee0d128088503d26b822bd6205bc6c9229e5689a5398423102f15a440c
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | Oxfordshire | Oxfordshire | £21.74 per hour | Maintenance MDS Administrator
 source_key: jobg8
 source: JobG8
