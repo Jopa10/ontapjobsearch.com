@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Surrey
 
-review_date: 2026-09-14
-review_fingerprint: 2c5d10e1f692161cb82a8ab499d0552bc17034a6a66748e7e7a382e1315b5efc
-routing_manifest_sha256: bfc87dba77a831bff4b6334363e28f0c44678cac32c7199aeb8843c588637d45
+review_date: 2026-09-15
+review_fingerprint: 01ee77a0a2c2a0b12d1c069bc3f0e5cd969c658ba3a799b1f46d03c2f3767984
+routing_manifest_sha256: a6b9ec556aafa6283d9a01f9259ec550a52b9b3ca6088ad5a51915edbcb77414
 ontap_region: Surrey
 slice_category: admin_service
 slice_status: LIVE
@@ -13,15 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 6
-- Selected: 0
+- Records: 7
+- Selected: 1
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 5
 
 ## SELECTED
 
-- None.
+---
+action: 
+SELECTED | Surrey | Leatherhead, South East, KT23 3PP | £25,111.00 - £27,318.00 Annually (FTE) P4 - £11,943 - £12,993pa (actual) | Safeguarding and SEND Administrative Assistant
+employer: Eastwick Infant School
+closing_date: 2026-09-28T23:59:00+01:00
+reason: Clear admin/service title: administrative assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 75b2acd183694df85fbada9f86d187312d4935673006f0ef239a7d4784f187c0
+source: Teaching Vacancies
+source_job_id: safeguarding-and-send-administrative-assistant-eastwick-infant-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/safeguarding-and-send-administrative-assistant-eastwick-infant-school
+---
 
 ## POSS — choose SELECT or EXCLUDE
 

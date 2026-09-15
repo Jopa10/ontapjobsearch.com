@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Leicestershire
 
-review_date: 2026-09-14
-review_fingerprint: 723a27af22e95bbf55b690498f8d1313a6256d5e53d9209eeb987b540ad0b941
-routing_manifest_sha256: bfc87dba77a831bff4b6334363e28f0c44678cac32c7199aeb8843c588637d45
+review_date: 2026-09-15
+review_fingerprint: eccae56169cfa48a7bc704b1aff9c707c2d9fe49debe354d9bd5ba421555d2fd
+routing_manifest_sha256: a6b9ec556aafa6283d9a01f9259ec550a52b9b3ca6088ad5a51915edbcb77414
 ontap_region: Leicestershire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 5
+- Records: 7
 - Selected: 4
-- POSS awaiting decision: 0
+- POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 1
+- Hard pass: 2
 
 ## SELECTED
 
@@ -83,7 +83,20 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/student-services-admi
 
 ## POSS — choose SELECT or EXCLUDE
 
-- None.
+---
+action: 
+POSS | Leicestershire | Loughborough, East Midlands, LE12 6QN | £27,709.00 - £27,709.00 Annually (FTE) | Marketing and Communications Officer
+employer: East Leake Academy
+closing_date: 2026-10-03T23:59:00+01:00
+reason: Borderline school administration title: communications officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: dfe202f09fc52796872a38553896bb52cf73a16457705497161f01f6a9e4018d
+source: Teaching Vacancies
+source_job_id: marketing-and-communications-officer-east-leake-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/marketing-and-communications-officer-east-leake-academy
+---
 
 ## EXCLUDED BY REVIEW
 
@@ -92,6 +105,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/student-services-admi
 ## HARD_PASS
 
 - [Extended Services Club Manager (EXS031BC)](https://teaching-vacancies.service.gov.uk/jobs/extended-services-club-manager-exs031bc-sileby-redlands-community-primary-school) — Manager title salary ceiling £28,146 is not below £28,000.
+- [Governance Manager](https://teaching-vacancies.service.gov.uk/jobs/governance-manager-learn-academies-trust) — Manager title salary ceiling £44,104 is not below £28,000.
 
 ## Safety boundary
 

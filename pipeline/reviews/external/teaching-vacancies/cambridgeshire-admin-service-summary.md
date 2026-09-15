@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cambridgeshire
 
-review_date: 2026-09-14
-review_fingerprint: c775e86680fb46061672b1b7351571b9b651b0025ebb5492b6c2a5cd80594e9c
-routing_manifest_sha256: bfc87dba77a831bff4b6334363e28f0c44678cac32c7199aeb8843c588637d45
+review_date: 2026-09-15
+review_fingerprint: 1b9a40db07d9efd97c53b527d8bb1f5d9006baa0fedd5766d0724ee131a0058c
+routing_manifest_sha256: a6b9ec556aafa6283d9a01f9259ec550a52b9b3ca6088ad5a51915edbcb77414
 ontap_region: Cambridgeshire
 slice_category: admin_service
 slice_status: LIVE
@@ -14,10 +14,10 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 22
-- Selected: 7
+- Selected: 6
 - POSS awaiting decision: 6
 - Excluded: 0
-- Hard pass: 9
+- Hard pass: 10
 
 ## SELECTED
 
@@ -68,17 +68,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assist
 
 ---
 action: 
-SELECTED | Cambridgeshire | Peterborough, East of England, PE4 7EP | £20,722.00 Annually (Actual) Term time plus 5 days | Attendance Administrator
-employer: Manor Drive Secondary Academy
-closing_date: 2026-09-21T10:00:00+01:00
+SELECTED | Cambridgeshire | Peterborough, East of England, PE6 7JX | £14,802.00 Annually (Actual) | Administrator
+employer: Arthur Mellows Village College
+closing_date: 2026-09-28T23:59:00+01:00
 reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 85af801fbea1bcd1d59b9fa0afc283855e3a494d0d4fc70daa9620c5c5a2bc1a
+factual_fingerprint: 6d12f88f11c84a515de00ce8ed30dbbb1c618f2a3101014acd97af5c7da19510
 source: Teaching Vacancies
-source_job_id: attendance-administrator-manor-drive-secondary-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-administrator-manor-drive-secondary-academy
+source_job_id: administrator-0c77962f-6918-48c9-a31e-e8bf06da5af6
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-0c77962f-6918-48c9-a31e-e8bf06da5af6
 ---
 
 ---
@@ -94,21 +94,6 @@ factual_fingerprint: bb12afb2ad0a0d201446df474b26ad57f0c365e5f1f55a6cd1674dde7b2
 source: Teaching Vacancies
 source_job_id: finance-admin-assistant-priory-junior-school-st-neots-cambridgeshire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-admin-assistant-priory-junior-school-st-neots-cambridgeshire
----
-
----
-action: 
-SELECTED | Cambridgeshire | Peterborough, East of England, PE6 7JX | £25,745.00 Annually (Actual) | High Level Administrator - SLT Support
-employer: Arthur Mellows Village College
-closing_date: 2026-09-21T09:00:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 247e285f5cf16a07c7ac2b9d89c7aef5600b2e59288ec1c1fcd1d919f3f139f9
-source: Teaching Vacancies
-source_job_id: high-level-administrator-slt-support-arthur-mellows-village-college
-source_url: https://teaching-vacancies.service.gov.uk/jobs/high-level-administrator-slt-support-arthur-mellows-village-college
 ---
 
 ---
@@ -230,7 +215,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/marketing-communicati
 - [Head of HR Operations](https://teaching-vacancies.service.gov.uk/jobs/head-of-hr-operations-united-learning-trust) — Insufficient admin/service evidence.
 - [MAT Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/mat-finance-officer-four-cs-mat-peterborough-not-recorded) — Insufficient admin/service evidence.
 - [School Business Leader](https://teaching-vacancies.service.gov.uk/jobs/school-business-leader-university-of-cambridge-primary-school) — Insufficient admin/service evidence.
-- [Trust Accountant](https://teaching-vacancies.service.gov.uk/jobs/trust-accountant-swavesey-village-college) — Insufficient admin/service evidence.
+- [Trust Accountant](https://teaching-vacancies.service.gov.uk/jobs/trust-accountant-71e360ec-14d8-4c88-9a6b-5d04d9660efd) — Insufficient admin/service evidence.
+- [Trust Accountant](https://teaching-vacancies.service.gov.uk/jobs/trust-accountant-swavesey-village-college-cambridge-cambridgeshire) — Insufficient admin/service evidence.
 - [Trust Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/trust-finance-officer-act-multi-academy-trust) — Insufficient admin/service evidence.
 - [Trust Payroll, Pensions and HR Officer](https://teaching-vacancies.service.gov.uk/jobs/trust-payroll-pensions-and-hr-officer) — Insufficient admin/service evidence.
 

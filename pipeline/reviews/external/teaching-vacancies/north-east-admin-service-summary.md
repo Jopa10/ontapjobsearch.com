@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — North East
 
-review_date: 2026-09-14
-review_fingerprint: d96da626c7722bec2c50ad56cb6ec51e3865663495a34c076ed4050a4f38eac8
-routing_manifest_sha256: bfc87dba77a831bff4b6334363e28f0c44678cac32c7199aeb8843c588637d45
+review_date: 2026-09-15
+review_fingerprint: 0aa4e7817c0c13241dd2fbb880778208adc899e151cdc4137911e7c8f1e60511
+routing_manifest_sha256: a6b9ec556aafa6283d9a01f9259ec550a52b9b3ca6088ad5a51915edbcb77414
 ontap_region: North East
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 5
-- Selected: 1
+- Records: 7
+- Selected: 2
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 4
+- Hard pass: 5
 
 ## SELECTED
 
@@ -36,6 +36,21 @@ source_job_id: attendance-officer-administrator-bede-academy-blyth-northumberlan
 source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-administrator-bede-academy-blyth-northumberland
 ---
 
+---
+action: 
+SELECTED | North East | Blyth, NE24 2SY | £28,992.00 - £30,452.00 Annually (Actual) Term Time Plus 4 weeks (Will consider Whole Time) | HR & Payroll Administrator
+employer: Emmanuel Schools Foundation
+closing_date: 2026-10-02T23:59:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 9782f3fd704d82d3ab934a876a9ef958513d993a848865f126b96bbf365ad10f
+source: Teaching Vacancies
+source_job_id: hr-payroll-administrator-emmanuel-schools-foundation
+source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-payroll-administrator-emmanuel-schools-foundation
+---
+
 ## POSS — choose SELECT or EXCLUDE
 
 - None.
@@ -49,6 +64,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-ad
 - [Business Lead](https://teaching-vacancies.service.gov.uk/jobs/business-lead-st-gregory-s-catholic-primary-school-south-shields) — Insufficient admin/service evidence.
 - [Data and Examinations Assistant](https://teaching-vacancies.service.gov.uk/jobs/data-and-examinations-assistant-whickham-school) — Insufficient admin/service evidence.
 - [Deputy Administration Manager](https://teaching-vacancies.service.gov.uk/jobs/deputy-administration-manager) — Manager title salary ceiling £33,119 is not below £28,000.
+- [HR Administration Assistant (Gateshead Schools)](https://teaching-vacancies.service.gov.uk/jobs/hr-administration-assistant-gateshead-schools) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-st-mary-s-catholic-school) — Manager title salary ceiling £36,581 is not below £28,000.
 
 ## Safety boundary

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Greater Manchester - South
 
-review_date: 2026-09-14
-review_fingerprint: d6376f0ca050dcf173a3e3550736dfcbbb40a8064939961d0465e37b66ed46aa
-routing_manifest_sha256: bfc87dba77a831bff4b6334363e28f0c44678cac32c7199aeb8843c588637d45
+review_date: 2026-09-15
+review_fingerprint: cdebff8c28f260109798ca13f777a294f016b377afde0486a5446c1cbb1d8fd3
+routing_manifest_sha256: a6b9ec556aafa6283d9a01f9259ec550a52b9b3ca6088ad5a51915edbcb77414
 ontap_region: Greater Manchester - South
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,15 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 4
-- Selected: 1
+- Records: 3
+- Selected: 0
 - POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 1
 
 ## SELECTED
 
----
-action: 
-SELECTED | Greater Manchester - South | Cheadle, North West, SK8 7JY | £15.07 per hour | Student Attendance Officer
-employer: Cheadle Hulme High School
-closing_date: 2026-09-15T09:00:59+01:00
-reason: Clear admin/service title: attendance officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 4cbe591d217997a3ab2b4c55106004493899105d351d16fa8feb4459f5cffc8c
-source: Teaching Vacancies
-source_job_id: student-attendance-officer-cheadle-hulme-high-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/student-attendance-officer-cheadle-hulme-high-school
----
+- None.
 
 ## POSS — choose SELECT or EXCLUDE
 

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Bedfordshire
 
-review_date: 2026-09-14
+review_date: 2026-09-15
 review_fingerprint: 49f597bd5f107afd80bae6492e04b8e835f41af6e0e41ad405c4e0e7ea7cbf28
-routing_manifest_sha256: bfc87dba77a831bff4b6334363e28f0c44678cac32c7199aeb8843c588637d45
+routing_manifest_sha256: a6b9ec556aafa6283d9a01f9259ec550a52b9b3ca6088ad5a51915edbcb77414
 ontap_region: Bedfordshire
 slice_category: admin_service
 slice_status: LIVE

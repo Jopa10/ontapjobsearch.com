@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Wiltshire
 
-review_date: 2026-09-14
-review_fingerprint: effd289415efbb969a1aa740ccb381910b58a1f9a66e566d8f4944a93e5dd1cd
-routing_manifest_sha256: bfc87dba77a831bff4b6334363e28f0c44678cac32c7199aeb8843c588637d45
+review_date: 2026-09-15
+review_fingerprint: 0f1d857391932f3e7d4c5a4c0b36da5f2e338ffd302260c7d22592d434e0be18
+routing_manifest_sha256: a6b9ec556aafa6283d9a01f9259ec550a52b9b3ca6088ad5a51915edbcb77414
 ontap_region: Wiltshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 17
-- Selected: 6
+- Records: 21
+- Selected: 7
 - POSS awaiting decision: 3
 - Excluded: 0
-- Hard pass: 8
+- Hard pass: 11
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Wiltshire | Swindon, South West, SN5 4AT | £16,040.00 - £16,831.00 Annually (Actual) FTE £28,153 - £29,542 | Admissions Administrator
+employer: Bradon Forest School
+closing_date: 2026-09-25T12:00:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: bdead7c253391967fc05bcd2a3ccd8da5888ca975de7f0fa29e270477b3d2b63
+source: Teaching Vacancies
+source_job_id: admissions-administrator-bradon-forest-school-swindon-wiltshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/admissions-administrator-bradon-forest-school-swindon-wiltshire
+---
 
 ---
 action: 
@@ -164,8 +179,11 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/governance-profession
 
 ## HARD_PASS
 
+- [Assistant Data and Exams Manager](https://teaching-vacancies.service.gov.uk/jobs/assistant-data-and-exams-manager) — Manager title salary ceiling £28,598 is not below £28,000.
 - [Chief Financial Officer](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-0d106d15-bbf0-467f-8794-3393ccb03a2b) — Insufficient admin/service evidence.
+- [Early Years Stronger Practice Hub Manager](https://teaching-vacancies.service.gov.uk/jobs/early-years-stronger-practice-hub-manager) — Manager title salary ceiling £41,771 is not below £28,000.
 - [Educational Support Assistant - Admissions](https://teaching-vacancies.service.gov.uk/jobs/educational-support-assistant-admissions) — Insufficient admin/service evidence.
+- [Head of Finance](https://teaching-vacancies.service.gov.uk/jobs/head-of-finance-magna-learning-partnership-salisbury-not-recorded) — Insufficient admin/service evidence.
 - [HR Advisor](https://teaching-vacancies.service.gov.uk/jobs/hr-advisor-ascend-learning-trust) — Insufficient admin/service evidence.
 - [HR Generalist](https://teaching-vacancies.service.gov.uk/jobs/hr-generalist) — Insufficient admin/service evidence.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-lethbridge-primary-school) — Manager title salary ceiling £35,814 is not below £28,000.

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Coventry & Warwickshire
 
-review_date: 2026-09-14
-review_fingerprint: 5296b60b475115d49797157feb2236438b4b22dbcbc838e217b4d6a08f95691b
-routing_manifest_sha256: bfc87dba77a831bff4b6334363e28f0c44678cac32c7199aeb8843c588637d45
+review_date: 2026-09-15
+review_fingerprint: 3787b0abf2504109383c8675bebaa8df42767ebf7d3acbd034519c5d3c002b35
+routing_manifest_sha256: a6b9ec556aafa6283d9a01f9259ec550a52b9b3ca6088ad5a51915edbcb77414
 ontap_region: West Midlands - Coventry & Warwickshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 6
-- Selected: 1
+- Records: 8
+- Selected: 3
 - POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 3
@@ -34,6 +34,36 @@ factual_fingerprint: f1fc16962f0dec6f67290862cdaf652ab12364bd84e82ed1fde0b94bd13
 source: Teaching Vacancies
 source_job_id: administration-assistant-christ-the-king-catholic-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-christ-the-king-catholic-primary-school
+---
+
+---
+action: 
+SELECTED | West Midlands - Coventry & Warwickshire | Studley, West Midlands, B80 7ND | £25,583.00 - £25,989.00 Annually (FTE) Actual salary £9,039 to £9,183 per annum, working 2 days per week | Administrator
+employer: Studley St Mary's CofE Academy
+closing_date: 2026-09-29T23:59:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 9c89a0da9ef60984ffdc9749119453e3c726d91da6ece63e29e5d95fbedfaf58
+source: Teaching Vacancies
+source_job_id: administrator-studley-st-mary-s-cofe-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-studley-st-mary-s-cofe-academy
+---
+
+---
+action: 
+SELECTED | West Midlands - Coventry & Warwickshire | Atherstone, West Midlands, CV9 1LZ | £27,576.00 - £28,984.00 Annually (Actual) Pending pay award | PA to Principal
+employer: The Queen Elizabeth Academy
+closing_date: 2026-10-07T09:00:00+01:00
+reason: Clear admin/service title: pa to
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: e86c1f86619dfde93ebce74b4329fa408f9f9860a6ddf242d5aaa33c9d3e5fc6
+source: Teaching Vacancies
+source_job_id: pa-to-principal-the-queen-elizabeth-academy-atherstone-warwickshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/pa-to-principal-the-queen-elizabeth-academy-atherstone-warwickshire
 ---
 
 ## POSS — choose SELECT or EXCLUDE

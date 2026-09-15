@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Shropshire
 
-review_date: 2026-09-14
-review_fingerprint: 1a62ef99a58c67b2ccf598a91a55a43a7db4450bd4e2a7d4c207ddda0ec0d60f
-routing_manifest_sha256: bfc87dba77a831bff4b6334363e28f0c44678cac32c7199aeb8843c588637d45
+review_date: 2026-09-15
+review_fingerprint: 871a21d528cf9ae116b35ab8f51a3668bdda7ad22efc672b7cd8f37e0c8c9391
+routing_manifest_sha256: a6b9ec556aafa6283d9a01f9259ec550a52b9b3ca6088ad5a51915edbcb77414
 ontap_region: Shropshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 9
-- Selected: 7
+- Records: 11
+- Selected: 9
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 2
@@ -34,6 +34,21 @@ factual_fingerprint: 22df699b2f399cb3d5b11ecfb647269f45cca6b9c7e7e848a25849f5d9d
 source: Teaching Vacancies
 source_job_id: admin-assistant-st-edward-s-cofe-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-st-edward-s-cofe-primary-school
+---
+
+---
+action: 
+SELECTED | Shropshire | Shrewsbury, West Midlands, SY2 5SH | £23,962 | Administration Assistant
+employer: Severndale Specialist Academy
+closing_date: 2026-09-28T09:00:00+01:00
+reason: Clear admin/service title: administration assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 60ea79847662ac6f238202918d165864be8a704cfd0932d6c136a94e2a2d7a8c
+source: Teaching Vacancies
+source_job_id: administration-assistant-severndale-specialist-academy-shrewsbury-shropshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-severndale-specialist-academy-shrewsbury-shropshire
 ---
 
 ---
@@ -109,6 +124,21 @@ factual_fingerprint: 2681a69fb81b317c0905deb5ed55b11c71a14d102bf60e1fc5854e1b253
 source: Teaching Vacancies
 source_job_id: finance-admin-assistant-beech-grove-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-admin-assistant-beech-grove-primary-school
+---
+
+---
+action: 
+SELECTED | Shropshire | Shrewsbury, West Midlands, SY3 9DW | Grade 5 SCP 6-7 | Receptionist/Administrator
+employer: Meole Brace School
+closing_date: 2026-09-24T12:00:00+01:00
+reason: Clear admin/service title: administrator, receptionist
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 426538082cf45e3376f748bfee691115d7415ae409ce528211b35488523c415f
+source: Teaching Vacancies
+source_job_id: receptionist-administrator-meole-brace-school-shrewsbury-shropshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrator-meole-brace-school-shrewsbury-shropshire
 ---
 
 ---

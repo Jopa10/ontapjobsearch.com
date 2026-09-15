@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - East
 
-review_date: 2026-09-14
-review_fingerprint: 488927b5f0406f4a95ec46b01e033032376cafbfc8eea8bd166ab6ce7d49d138
-routing_manifest_sha256: bfc87dba77a831bff4b6334363e28f0c44678cac32c7199aeb8843c588637d45
+review_date: 2026-09-15
+review_fingerprint: a952f444f8f2775b299eef9e33b1fe1c049286608e9fcb0e9eaffadf5439dcc9
+routing_manifest_sha256: a6b9ec556aafa6283d9a01f9259ec550a52b9b3ca6088ad5a51915edbcb77414
 ontap_region: Yorkshire - East
 slice_category: admin_service
 slice_status: LIVE
@@ -14,10 +14,10 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 3
-- Selected: 1
+- Selected: 2
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 1
+- Hard pass: 0
 
 ## SELECTED
 
@@ -34,6 +34,21 @@ factual_fingerprint: 6ce974b3647f61c8dd7f5fe966f15da655eb0f40a3aa2c2d6dbfe40872e
 source: Teaching Vacancies
 source_job_id: exams-officer-bridlington-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-bridlington-school
+---
+
+---
+action: 
+SELECTED | Yorkshire - East | Hull, Yorkshire and the Humber, HU9 3HJ | £25,614.00 - £26,427.00 Annually (FTE) | Receptionist Administrator
+employer: Alderman Cogan's Church of England Primary Academy
+closing_date: 2026-09-23T12:00:00+01:00
+reason: Clear admin/service title: administrator, receptionist
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 6ad83349d2f6830b92a4776ea5b40b48da1fcf9de947aa834de5a5c8f56e5cd2
+source: Teaching Vacancies
+source_job_id: receptionist-administrator-8983c99a-ea81-4d03-945c-21a86c87cb36
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrator-8983c99a-ea81-4d03-945c-21a86c87cb36
 ---
 
 ## POSS — choose SELECT or EXCLUDE
@@ -59,7 +74,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-li
 
 ## HARD_PASS
 
-- [Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-bd2b48c2-a96c-4739-88fc-b799888a06ea) — Insufficient admin/service evidence.
+- None.
 
 ## Safety boundary
 

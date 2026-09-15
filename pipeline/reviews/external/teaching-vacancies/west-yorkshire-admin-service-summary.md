@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - West
 
-review_date: 2026-09-14
-review_fingerprint: 140ca4fb25e7be8e6dc2829294c14783ede827eb0ec059aad63aaa7f2dc271cc
-routing_manifest_sha256: bfc87dba77a831bff4b6334363e28f0c44678cac32c7199aeb8843c588637d45
+review_date: 2026-09-15
+review_fingerprint: 0c8b2acaf4c11d10f67916f3e7fb1dabae9cb8aa22d22d423b7cb8b856f09e4d
+routing_manifest_sha256: a6b9ec556aafa6283d9a01f9259ec550a52b9b3ca6088ad5a51915edbcb77414
 ontap_region: Yorkshire - West
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 37
-- Selected: 16
-- POSS awaiting decision: 2
+- Records: 38
+- Selected: 17
+- POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 19
+- Hard pass: 20
 
 ## SELECTED
 
@@ -203,6 +203,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-offi
 
 ---
 action: 
+SELECTED | Yorkshire - West | Castleford, Yorkshire and the Humber, WF10 3QJ | £12,995.00 - £13,158.00 Annually (Actual) Term time only plus 22.5hrs | Clerical Assistant/Receptionist
+employer: Townville Academy
+closing_date: 2026-10-02T12:00:00+01:00
+reason: Clear admin/service title: receptionist
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: NEW_REVIEW
+factual_fingerprint: 6182204ae1f70487d9e816ae6a7bf54e844d9e24bdaa4611714de58606bff989
+source: Teaching Vacancies
+source_job_id: clerical-assistant-receptionist-townville-academy-castleford-west-yorkshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/clerical-assistant-receptionist-townville-academy-castleford-west-yorkshire
+---
+
+---
+action: 
 SELECTED | Yorkshire - West | Castleford, Yorkshire and the Humber, WF10 4JQ | £25,721.00 - £28,365.00 Annually (Actual) £29,542- £32,578 FTE | Cover & HR Administrator
 employer: Castleford Academy
 closing_date: 2026-09-21T12:00:00+01:00
@@ -265,21 +280,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-delta-ac
 
 ---
 action: 
-POSS | Yorkshire - West | Leeds, Yorkshire and the Humber, LS25 1LJ | £26,016.00 - £26,847.00 Annually (FTE) Grade C Points 4 to 6 (£26,016 to £26,847 Full Time Equivalent) subject to pro rata. The minimum actual pro rata salary per annum for this job starts at £13,364.10. | Administration Officer (SEN Department)
-employer: Garforth Academy
-closing_date: 2026-09-14T23:59:00+01:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: NEW_REVIEW
-factual_fingerprint: c7ad66c54a742ab74ae9deba961533b8e651fbf38caf3d47918532caf852a488
-source: Teaching Vacancies
-source_job_id: administration-officer-sen-department
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-officer-sen-department
----
-
----
-action: 
 POSS | Yorkshire - West | Bradford, Yorkshire and the Humber, BD4 7RH | £31,022.00 - £33,699.00 Annually (FTE) Band 8, SCP 17 to SCP 22 (actual salary £26803 - £29115.93 per annum +3.3% pay award pending), 37 hours per week, TTO+5 | SEND Administrator
 employer: Oastlers School
 closing_date: 2026-09-18T12:00:00+01:00
@@ -307,6 +307,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-oa
 - [Data, Assessment, and MIS Officer](https://teaching-vacancies.service.gov.uk/jobs/data-assessment-and-mis-officer-crofton-academy) — Insufficient admin/service evidence.
 - [Exam Invigilator](https://teaching-vacancies.service.gov.uk/jobs/exam-invigilator-leeds-city-academy-leeds-west-yorkshire) — Insufficient admin/service evidence.
 - [Family Liaison Officer](https://teaching-vacancies.service.gov.uk/jobs/family-liaison-officer-buttershaw-business-enterprise-college-academy-bradford-west-yorkshire) — Insufficient admin/service evidence.
+- [Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-e059f5dd-58bc-43a9-9bb0-dfae96e79d4e) — Insufficient admin/service evidence.
 - [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-learning-accord-multi-academy-trust) — Manager title salary ceiling £38,510 is not below £28,000.
 - [Finance Manager (Core Team)](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-core-team) — Manager title salary ceiling £49,282 is not below £28,000.
 - [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-greengates-primary-academy-bradford-west-yorkshire) — Insufficient admin/service evidence.

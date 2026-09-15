@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Hertfordshire
 
-review_date: 2026-09-14
-review_fingerprint: 80e712501e1460e012bfcb397d3061305a6ab7490990251a337ccf889ce98029
-routing_manifest_sha256: bfc87dba77a831bff4b6334363e28f0c44678cac32c7199aeb8843c588637d45
+review_date: 2026-09-15
+review_fingerprint: 84296b19357eae2d074a5d753ebd299fa362d782a28fd117cac6e4fa58671651
+routing_manifest_sha256: a6b9ec556aafa6283d9a01f9259ec550a52b9b3ca6088ad5a51915edbcb77414
 ontap_region: Hertfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -14,27 +14,12 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 18
-- Selected: 10
+- Selected: 9
 - POSS awaiting decision: 5
 - Excluded: 0
-- Hard pass: 3
+- Hard pass: 4
 
 ## SELECTED
-
----
-action: 
-SELECTED | Hertfordshire | St Albans, East of England, AL4 0TT | £22,915.00 - £23,631.00 Annually (Actual) | Admin Assistant (Learning Support)
-employer: Nicholas Breakspear Catholic School
-closing_date: 2026-09-14T23:59:00+01:00
-reason: Clear admin/service title: admin assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 14ed5689f64af360c775162d670539b4155f3a8ef94b77b1097af54eb8e2a0a9
-source: Teaching Vacancies
-source_job_id: admin-assistant-learning-support-nicholas-breakspear-catholic-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-learning-support-nicholas-breakspear-catholic-school
----
 
 ---
 action: 
@@ -257,6 +242,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-manager-oaklea
 - [Assistant SENDCo](https://teaching-vacancies.service.gov.uk/jobs/assistant-sendco-6880daf8-5253-47b8-806d-79b65802f205) — Insufficient admin/service evidence.
 - [Attendance & Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/attendance-administration-officer-hertford-heath-primary-and-nursery-school) — Insufficient admin/service evidence.
 - [Development Director](https://teaching-vacancies.service.gov.uk/jobs/development-director-watford-grammar-school-for-boys) — Insufficient admin/service evidence.
+- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-martins-wood-primary-school-stevenage-hertfordshire) — Manager title salary ceiling £33,119 is not below £28,000.
 
 ## Safety boundary
 

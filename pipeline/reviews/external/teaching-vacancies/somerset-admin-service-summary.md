@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Somerset
 
-review_date: 2026-09-14
-review_fingerprint: dc6c4c6c775a05161d1ee44057c9f3a305f29c61139688df90465afa3b5b20b0
-routing_manifest_sha256: bfc87dba77a831bff4b6334363e28f0c44678cac32c7199aeb8843c588637d45
+review_date: 2026-09-15
+review_fingerprint: 5313f59147809f904e4f26af9291c62faa8089c1e5f2a879bd07f6c5b1134bb8
+routing_manifest_sha256: a6b9ec556aafa6283d9a01f9259ec550a52b9b3ca6088ad5a51915edbcb77414
 ontap_region: Somerset
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 10
-- Selected: 4
+- Records: 11
+- Selected: 5
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 5
@@ -64,6 +64,21 @@ factual_fingerprint: 005e2f2913b6a10686f74afbdc7b8984e70f702d4a2573125a9b97b7c1f
 source: Teaching Vacancies
 source_job_id: business-support-and-compliance-administrator-part-time
 source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-and-compliance-administrator-part-time
+---
+
+---
+action: 
+SELECTED | Somerset | Cheddar, South West, BS27 3AQ | Grade 11 £32597 - £36363 per annum pro rata, Actual Starting Salary £29272 | HR Officer/PA to Headteacher
+employer: The Kings of Wessex Academy
+closing_date: 2026-09-21T08:00:00+01:00
+reason: Clear admin/service title: pa to
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 43143cb941e8aa118a946d6c2e8c047e14b03789fe29754fc722b86bacf71ce5
+source: Teaching Vacancies
+source_job_id: hr-officer-pa-to-headteacher-541f73d7-6e1e-4a33-924f-61b63d3822dd
+source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-officer-pa-to-headteacher-541f73d7-6e1e-4a33-924f-61b63d3822dd
 ---
 
 ---

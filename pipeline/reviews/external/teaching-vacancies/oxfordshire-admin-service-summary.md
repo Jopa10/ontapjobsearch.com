@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Oxfordshire
 
-review_date: 2026-09-14
-review_fingerprint: 678d38a6dc50118750960815daaa97420617ceb61d003110a92255589a8d219d
-routing_manifest_sha256: bfc87dba77a831bff4b6334363e28f0c44678cac32c7199aeb8843c588637d45
+review_date: 2026-09-15
+review_fingerprint: 7c88d79c6744ff556c2f20dcb3cea0e4d734f5d4d99e7937364e1ab4a3e186b6
+routing_manifest_sha256: a6b9ec556aafa6283d9a01f9259ec550a52b9b3ca6088ad5a51915edbcb77414
 ontap_region: Oxfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 12
-- Selected: 5
+- Records: 15
+- Selected: 6
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 7
+- Hard pass: 9
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Oxfordshire | Oxford, South East, OX44 7ST | £11,763.99 - £11,949.84 Annually (Actual) Grade 4 (£26,016 - £26,427 pro rata) | Administrative Assistant
+employer: Chalgrove Community Primary School
+closing_date: 2026-09-28T09:00:00+01:00
+reason: Clear admin/service title: administrative assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: eccc62bee15fe31a212fcf00ccad2e1ba80631b03653f977460d45b6f9746f49
+source: Teaching Vacancies
+source_job_id: administrative-assistant-chalgrove-community-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-chalgrove-community-primary-school
+---
 
 ---
 action: 
@@ -106,6 +121,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/student-receptionist-
 
 ## HARD_PASS
 
+- [Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-bloxham-grove-academy) — Insufficient admin/service evidence.
 - [Chief Financial Officer (Part Time)](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-part-time-abingdon-learning-trust) — Insufficient admin/service evidence.
 - [Chief Operating Officer](https://teaching-vacancies.service.gov.uk/jobs/chief-operating-officer-oxford-diocesan-schools-trust-wantage-not-recorded) — Insufficient admin/service evidence.
 - [Cover Manager](https://teaching-vacancies.service.gov.uk/jobs/cover-manager-gillotts-school) — Manager title salary ceiling £29,065 is not below £28,000.
@@ -113,6 +129,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/student-receptionist-
 - [Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-24437cdc-05bf-4102-bc88-8beac49a5637) — Insufficient admin/service evidence.
 - [HR Partner](https://teaching-vacancies.service.gov.uk/jobs/hr-partner-oxford-diocesan-bucks-schools-trust) — Insufficient admin/service evidence.
 - [Procurement Contract Performance Manager *Hybrid Role*](https://teaching-vacancies.service.gov.uk/jobs/procurement-contract-performance-manager-hybrid-role) — Manager title salary ceiling £55,225 is not below £28,000.
+- [Welfare and Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/welfare-and-personal-care-assistant-39611e1b-adbb-45de-b253-14fdb122d0d4) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

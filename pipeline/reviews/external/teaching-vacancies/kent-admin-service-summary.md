@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Kent
 
-review_date: 2026-09-14
-review_fingerprint: 7a9fcf9123249e1eb4c3e9b687a55018ff1999eeafec5dfad1264f45c5041445
-routing_manifest_sha256: bfc87dba77a831bff4b6334363e28f0c44678cac32c7199aeb8843c588637d45
+review_date: 2026-09-15
+review_fingerprint: e119cc3f044ebffe7cd42c63837d94303a77ff85e35c57e2c31fa789c53ff53d
+routing_manifest_sha256: a6b9ec556aafa6283d9a01f9259ec550a52b9b3ca6088ad5a51915edbcb77414
 ontap_region: Kent
 slice_category: admin_service
 slice_status: LIVE
@@ -14,10 +14,10 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 13
-- Selected: 6
+- Selected: 7
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 7
+- Hard pass: 6
 
 ## SELECTED
 
@@ -75,10 +75,10 @@ reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: d19765497298b4a7e84d73b310c470bc46b36befe2d18bdfb206ba4dfc501aa5
+factual_fingerprint: f9dff5cc2e0aeaf48bff73d0a2e077e0373166b9980948c9b5d30592461222ee
 source: Teaching Vacancies
-source_job_id: attendance-administrator-f16a9e8c-4d3f-4e04-ac58-b862c2e3fdd2
-source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-administrator-f16a9e8c-4d3f-4e04-ac58-b862c2e3fdd2
+source_job_id: attendance-administrator-2f3d689b-f206-45e5-991f-9a3a5bcff860
+source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-administrator-2f3d689b-f206-45e5-991f-9a3a5bcff860
 ---
 
 ---
@@ -94,6 +94,21 @@ factual_fingerprint: 4ed15137735e468d97cdc825d4329239067c38ec5f4953dc7b5623c88a5
 source: Teaching Vacancies
 source_job_id: examinations-admissions-officer
 source_url: https://teaching-vacancies.service.gov.uk/jobs/examinations-admissions-officer
+---
+
+---
+action: 
+SELECTED | Kent | Maidstone, South East, ME16 0SF | £30,347.00 - £30,348.00 Annually (Actual) Kent Salaries Kent Scheme G - -£30,348 pro rata (Full-time equivalent £34,347.90) per annum. | Personal Assistant to the Headteacher
+employer: Maidstone Grammar School for Girls
+closing_date: 2026-09-28T08:00:00+01:00
+reason: Clear admin/service title: personal assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: c8fe03002e009f823b94b13a52e6035ae3c023bdc71af36d979fc884e88182fd
+source: Teaching Vacancies
+source_job_id: personal-assistant-to-the-headteacher-maidstone-grammar-school-for-girls
+source_url: https://teaching-vacancies.service.gov.uk/jobs/personal-assistant-to-the-headteacher-maidstone-grammar-school-for-girls
 ---
 
 ---
@@ -127,7 +142,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-receptionist-a
 - [Lead Safeguarding Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/lead-safeguarding-administration-officer-the-robert-napier-school-gillingham-kent) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-staplehurst-school) — Manager title salary ceiling £29,020 is not below £28,000.
 - [People & Culture Manager](https://teaching-vacancies.service.gov.uk/jobs/people-culture-manager) — Manager title salary ceiling £53,446 is not below £28,000.
-- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-whitstable-junior-school) — Manager title salary ceiling £35,035 is not below £28,000.
 
 ## Safety boundary
 

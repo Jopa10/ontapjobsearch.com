@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — South West
 
-review_date: 2026-09-14
-review_fingerprint: c3bece1c9bd1819e4db9777b8c72cd36c5dd4be9a158e0689a188e1aa62cb8d7
-routing_manifest_sha256: bfc87dba77a831bff4b6334363e28f0c44678cac32c7199aeb8843c588637d45
+review_date: 2026-09-15
+review_fingerprint: 5a7919834c68c470ad82ee50ca60b5824f004812818801980f6dacb7ebdcc176
+routing_manifest_sha256: a6b9ec556aafa6283d9a01f9259ec550a52b9b3ca6088ad5a51915edbcb77414
 ontap_region: South West
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 2
-- Selected: 2
+- Records: 3
+- Selected: 3
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 0
 
 ## SELECTED
+
+---
+action: 
+SELECTED | South West | Perranporth, South West, TR6 0EU | 13,011.00 | Reception Administrator
+employer: Perranporth Community Primary School
+closing_date: 2026-09-27T23:59:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: UNREGISTERED
+migration_status: 
+factual_fingerprint: a1b343032389e87b4f8c4babaf79c734954dda9b30862e942686450a98cae140
+source: Teaching Vacancies
+source_job_id: reception-administrator-perranporth-community-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/reception-administrator-perranporth-community-primary-school
+---
 
 ---
 action: 

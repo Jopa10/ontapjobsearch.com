@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Buckinghamshire
 
-review_date: 2026-09-14
-review_fingerprint: 00cdb25a686500eab0f4b93414cb49dd7e939b8f5efa22008ae66b36c4d9afa2
-routing_manifest_sha256: bfc87dba77a831bff4b6334363e28f0c44678cac32c7199aeb8843c588637d45
+review_date: 2026-09-15
+review_fingerprint: dfbfdfc8c17ad461b13b44fe93cdd39933d176d0d3df4923e408485564822033
+routing_manifest_sha256: a6b9ec556aafa6283d9a01f9259ec550a52b9b3ca6088ad5a51915edbcb77414
 ontap_region: Buckinghamshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 11
-- Selected: 4
+- Records: 12
+- Selected: 5
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 7
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Buckinghamshire | High Wycombe, South East, HP12 4PR | £23,365.00 - £25,648.00 Annually (Actual) Bucks Pay Range 2-3 (dependent on experience). Salary is pro rata to hours and weeks worked. Actual estimated gross salary £23,365-£25,648 pro rata per annum | Academy Administrator
+employer: Chepping View Primary Academy
+closing_date: 2026-10-02T23:59:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 007957ee89c9c9ef838916ea5983db1549228ea90d79b3a98173b3d2bf80b494
+source: Teaching Vacancies
+source_job_id: academy-administrator-chepping-view-primary-academy-high-wycombe-buckinghamshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/academy-administrator-chepping-view-primary-academy-high-wycombe-buckinghamshire
+---
 
 ---
 action: 

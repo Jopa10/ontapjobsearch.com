@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Staffordshire
 
-review_date: 2026-09-14
-review_fingerprint: 4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945
-routing_manifest_sha256: bfc87dba77a831bff4b6334363e28f0c44678cac32c7199aeb8843c588637d45
+review_date: 2026-09-15
+review_fingerprint: 0efe7e904ea5e5c980fbb8618e126239f02d4a9b2faf0b057c1dbddc833ddd40
+routing_manifest_sha256: a6b9ec556aafa6283d9a01f9259ec550a52b9b3ca6088ad5a51915edbcb77414
 ontap_region: Staffordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,15 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 6
-- Selected: 0
+- Records: 8
+- Selected: 1
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 6
+- Hard pass: 7
 
 ## SELECTED
 
-- None.
+---
+action: 
+SELECTED | Staffordshire | Stoke-on-Trent, West Midlands, ST6 6LZ | £23,862.00 - £26,425.00 Annually (Actual) | Finance Administrator
+employer: St Margaret Ward Catholic Academy
+closing_date: 2026-09-25T12:00:00+01:00
+reason: Clear admin/service title: administrator, finance administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: aee1a4e7e36c57abbcd61230af07bd728e87289df55d9bb9c48102e83ed606a1
+source: Teaching Vacancies
+source_job_id: finance-administrator-st-margaret-ward-catholic-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-administrator-st-margaret-ward-catholic-academy
+---
 
 ## POSS — choose SELECT or EXCLUDE
 
@@ -33,6 +46,7 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## HARD_PASS
 
+- [Cover Supervisor](https://teaching-vacancies.service.gov.uk/jobs/cover-supervisor-1b712634-857b-405e-a4de-a196344ada05) — Insufficient admin/service evidence.
 - [Deputy Chief Executive Officer - Finance and Operations](https://teaching-vacancies.service.gov.uk/jobs/deputy-chief-executive-officer-finance-and-operations) — Insufficient admin/service evidence.
 - [Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-the-shaw-education-trust) — Insufficient admin/service evidence.
 - [Management Accountant](https://teaching-vacancies.service.gov.uk/jobs/management-accountant-discovery-academy-stoke-on-trent-staffordshire) — Insufficient admin/service evidence.

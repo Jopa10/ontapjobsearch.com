@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — East Midlands
 
-review_date: 2026-09-14
-review_fingerprint: 9d1e13425addfd1637f2391044947cbfd354619268be54952ca42f5df893f36f
-routing_manifest_sha256: bfc87dba77a831bff4b6334363e28f0c44678cac32c7199aeb8843c588637d45
+review_date: 2026-09-15
+review_fingerprint: b9b33b2b13f6072674ea323643555caf5b8f328b5b704916949f676adf3386be
+routing_manifest_sha256: a6b9ec556aafa6283d9a01f9259ec550a52b9b3ca6088ad5a51915edbcb77414
 ontap_region: East Midlands
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 7
-- Selected: 2
+- Records: 8
+- Selected: 3
 - POSS awaiting decision: 3
 - Excluded: 0
 - Hard pass: 2
 
 ## SELECTED
+
+---
+action: 
+SELECTED | East Midlands | Burton-on-Trent, West Midlands, DE13 0SW | £26,427.00 - £27,274.00 Annually (FTE) £22,249.30 - £22,962.40 for the hours advertised | Administration Assistant
+employer: Horninglow Primary School
+closing_date: 2026-09-18T09:00:00+01:00
+reason: Clear admin/service title: administration assistant
+jobg8_check: NO_MATCH
+slice_status: UNREGISTERED
+migration_status: 
+factual_fingerprint: 5c1ce54e490f205213a3035b074823473484770a6ae721f6922a99c615238812
+source: Teaching Vacancies
+source_job_id: administration-assistant-horninglow-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-horninglow-primary-school
+---
 
 ---
 action: 
