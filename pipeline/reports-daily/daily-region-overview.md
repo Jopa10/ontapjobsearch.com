@@ -1,6 +1,6 @@
 # Ontap daily regional overview
 
-Generated: 2026-09-15T09:31:42+01:00
+Generated: 2026-09-15T16:17:22+01:00
 
 [Download this overview as Excel](./daily-region-overview.xlsx)
 
@@ -8,16 +8,16 @@ Generated: 2026-09-15T09:31:42+01:00
 
 | Measure | Count |
 |---|---:|
-| Unique live jobs | 1,656 |
+| Unique live jobs | 1,654 |
 | Unique JobG8 jobs | 1,410 |
-| Unique non-JobG8 jobs | 246 |
-| Regional/category slice placements | 1,793 |
+| Unique non-JobG8 jobs | 244 |
+| Regional/category slice placements | 1,791 |
 | Jobs appearing on multiple slices | 135 |
 | Extra slice placements | 137 |
 | Unique jobs outside governed slices | 0 |
 | Jobs found in non-LIVE slices | 0 |
 
-**Reconciliation: 1,656 unique jobs + 137 extra slice placements = 1,793 regional/category slice placements.**
+**Reconciliation: 1,654 unique jobs + 137 extra slice placements = 1,791 regional/category slice placements.**
 
 Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-09-15.csv` — **STALE — CSV says 1,686 for 2026-09-15**.
 
@@ -26,9 +26,9 @@ Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-09-1
 | Provider | Unique live jobs | Jobs on 2+ slices | Extra slice placements |
 |---|---:|---:|---:|
 | JobG8 | 1,410 | 135 | 137 |
-| NEJobs | 11 | 0 | 0 |
+| NEJobs | 10 | 0 | 0 |
 | NHS Jobs | 183 | 0 | 0 |
-| Teaching Vacancies | 49 | 0 | 0 |
+| Teaching Vacancies | 48 | 0 | 0 |
 | VONNE | 3 | 0 | 0 |
 
 ## JOBG8 FEED RECEIVED
@@ -259,7 +259,7 @@ Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-09-1
 
 ## CITY OPPORTUNITIES
 
-**316 mapped towns/localities with live jobs or an existing city page.** Counts use all 1,656 unique live Ontap jobs across every role and provider: 961 have an exact recognised town/locality and 695 have only broader or unrecognised location evidence. CREATE means 4+ current Service Admin jobs and no existing city page; London is held separately.
+**316 mapped towns/localities with live jobs or an existing city page.** Counts use all 1,654 unique live Ontap jobs across every role and provider: 960 have an exact recognised town/locality and 694 have only broader or unrecognised location evidence. CREATE means 4+ current Service Admin jobs and no existing city page; London is held separately.
 
 | Status | Town/city/locality | Region | All live jobs | Existing pages | Current routes | Service admin | Support worker | Sales advisor | Paralegal | Marketing | Finance / Accounts | HR / Recruitment | CS / Contact centre | Other / unclassified |
 |---|---|---|---:|---:|---||---:|---:|---:|---:|---:|---:|---:|---:|---:|
@@ -296,11 +296,11 @@ Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-09-1
 | LIVE PAGE | Hull | Yorkshire - East | 9 | 1 | /hull/service-administrator-jobs | 9 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | LIVE PAGE | Gateshead | North East - Tyneside, Wearside & Northumberland | 8 | 1 | /gateshead/jobs | 8 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | LIVE PAGE | Milton Keynes | Buckinghamshire | 8 | 1 | /milton-keynes/service-administrator-jobs | 5 | 0 | 0 | 0 | 3 | 0 | 0 | 0 | 0 |
-| LIVE PAGE | Sheffield | Yorkshire - South | 8 | 1 | /sheffield/service-administrator-jobs | 8 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | LIVE PAGE | Southampton | Hampshire | 8 | 2 | /southampton/service-administrator-jobs, /southampton/support-worker | 5 | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | LIVE PAGE | Bolton | Greater Manchester - Wigan & Bolton | 7 | 1 | /bolton/jobs | 7 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | LIVE PAGE | Farnham | Surrey | 7 | 1 | /farnham/service-administrator-jobs | 7 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | LIVE PAGE | Oxford | Oxfordshire | 7 | 1 | /oxford/service-administrator-jobs | 3 | 2 | 0 | 0 | 2 | 0 | 0 | 0 | 0 |
+| LIVE PAGE | Sheffield | Yorkshire - South | 7 | 1 | /sheffield/service-administrator-jobs | 7 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | LIVE PAGE | Leicester | Leicestershire | 6 | 1 | /leicester/service-administrator-jobs | 6 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | LIVE PAGE | Doncaster | Yorkshire - South | 5 | 1 | /doncaster/service-administrator-jobs | 5 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | LIVE PAGE | Newtownabbey | Northern Ireland - East | 5 | 1 | /newtownabbey/service-administrator-jobs | 4 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 0 |
@@ -624,7 +624,7 @@ Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-09-1
 | Merseyside - St Helens & Knowsley |  |  |  |  |  |  |  |  |
 | Merseyside - Wirral |  |  |  |  |  |  |  |  |
 | Norfolk | 10 |  |  | 1 |  |  |  |  |
-| North East | 130 | CHECK | 6 |  | 5 | CHECK |  | 3 |
+| North East | 129 | CHECK | 6 |  | 5 | CHECK |  | 3 |
 | North Scotland | 3 |  | 2 |  |  |  |  |  |
 | North Wales - East |  |  |  |  |  |  |  |  |
 | North Wales - West |  |  |  |  |  |  |  |  |
@@ -662,7 +662,7 @@ Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-09-1
 | Worcestershire | 11 |  |  |  |  |  |  |  |
 | Yorkshire - East | 12 |  |  |  |  |  |  |  |
 | Yorkshire - North | 13 |  |  |  | 7 | CHECK |  |  |
-| Yorkshire - South | 18 | CHECK |  |  |  |  |  |  |
+| Yorkshire - South | 17 | CHECK |  |  |  |  |  |  |
 | Yorkshire - West | 33 | 1 | CHECK |  |  | CHECK | 4 |  |
 
 ## NOT LIVE
@@ -755,6 +755,6 @@ Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-09-1
 | Measure | Service admin | Support worker | Sales advisor | Paralegal | Marketing | Finance / Accounts | HR / Recruitment | CS / Contact centre |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
 | Live regions | 51 / 78 | 11 / 78 | 14 / 78 | 4 / 78 | 19 / 78 | 12 / 78 | 9 / 78 | 6 / 78 |
-| Live slice placements | 1282 | 42 + 3 CHECK | 68 + 1 CHECK | 67 | 224 | 35 + 10 CHECK | 63 | 12 + 1 CHECK |
+| Live slice placements | 1280 | 42 + 3 CHECK | 68 + 1 CHECK | 67 | 224 | 35 + 10 CHECK | 63 | 12 + 1 CHECK |
 
 **Live slices: 126 / 624.**
