@@ -241,6 +241,8 @@ OUTPUT_FILES = {
 # Loaded from the Anchor_towns sheet in geo_lookup.xlsx during main().
 # No hard-coded fallback: missing or invalid configuration stops the pipeline.
 ANCHOR_TOWNS: dict[str, str] = {}
+SERVICE_ADMIN_HARD_SALARY_MAX_GBP = 55_000
+
 PUBLISH_THRESHOLDS = {
     "Yorkshire - West": 6,
     "Yorkshire - South": 6,
@@ -279,7 +281,7 @@ HARD_PASS_PATTERNS = [
 
     # Agreed specialist-function and seniority barriers.
     "senior", "manager", "legal", "pensions", "pension ", "ifa ", "wealth",
-    "financial planning", "finance administrator", "credit administrator", "loan administrator",
+    "financial planning", "financial planner", "finance administrator", "credit administrator", "loan administrator",
     "paraplanner", "paraplanning", "para-planner", "para-planning", "para planner", "para planning",
     "billing administrator", "employee benefits", "payroll", "compliance", "regulatory affairs",
     "health & safety", "health and safety", "property administrator", "erp systems",
@@ -1737,6 +1739,16 @@ def process(
             continue
         if salary_assessment.corrupt:
             drop("salary credibility: " + salary_assessment.reason, region)
+            continue
+        if (
+            salary_assessment.annual_upper_gbp is not None
+            and salary_assessment.annual_upper_gbp > SERVICE_ADMIN_HARD_SALARY_MAX_GBP
+            and manual_override != "FORCE_INCLUDE"
+        ):
+            drop(
+                f"salary maximum over £{SERVICE_ADMIN_HARD_SALARY_MAX_GBP:,.0f}",
+                region,
+            )
             continue
 
         if title_classification in {"HARD_PASS", "OUT_OF_SCOPE"}:
