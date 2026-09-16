@@ -22,9 +22,7 @@ export default withAuth(
             return NextResponse.redirect(loginUrl);
         }
 
-        const requestHeaders = new Headers(req.headers);
-        requestHeaders.set('x-ontap-pathname', req.nextUrl.pathname);
-        return NextResponse.next({ request: { headers: requestHeaders } });
+        return NextResponse.next();
     },
     {
         callbacks: {
@@ -51,5 +49,5 @@ export default withAuth(
 );
 
 export const config = {
-    matcher: ['/admin/:path*', '/jobs/:path*'],
+    matcher: ['/admin/:path*'],
 };

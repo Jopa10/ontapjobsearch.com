@@ -1,11 +1,13 @@
 # Ontap System Overview
 
-**Last updated:** 13 September 2026
-**Status:** Canonical production state including approved job-detail discovery recommendations, an idempotent external fallback for the JobG8 daily process, restored NHS Google Jobs eligibility, owner-facing JobG8 selection auditing, live-site reporting reconciliation and Teaching Vacancies regional publish isolation.
+**Last updated:** 16 September 2026
+**Status:** Canonical production state including fast static live vacancy pages, approved job-detail discovery recommendations, an idempotent external fallback for the JobG8 daily process, restored NHS Google Jobs eligibility, owner-facing JobG8 selection auditing, live-site reporting reconciliation and Teaching Vacancies regional publish isolation.
 
 This is the short owner view of how Ontap is organised. It mirrors the five canonical system buckets in `SYSTEM_MAP.md`.
 
 ## Recent canonical changes
+
+- 16 September 2026 — **Live vacancy pages are served as deployment-built static pages again:** the useful personalised expired-job page is now loaded separately only when an expired URL is visited, so it no longer forces every current vacancy through uncached server rendering. Live job URLs, content, Apply behaviour, canonical tags and Google Jobs markup are unchanged; expired URLs retain their 404 status and current-job recovery options.
 
 - 13 September 2026 — **Saved nearby locations now appear immediately on return:** mobile and laptop visitors see their saved town and last nearby-job count without a visible lookup delay; Ontap quietly refreshes the count behind the displayed panel. Older saved preferences show the town immediately and gain the stored count after that first refresh.
 
