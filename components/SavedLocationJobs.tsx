@@ -6,9 +6,11 @@ import styles from "@/components/SavedLocationJobs.module.css";
 
 const STORAGE_KEY = "ontap.saved-location.v1";
 const LOCATION_EVENT = "ontap:saved-location-jobs";
+const RETURN_SESSION_KEY = "ontap.saved-location-return-session.v1";
+const RETURN_RESULTS_KEY = "ontap.saved-location-return-results.v1";
 
 type SavedLocation = { town: string; region: string };
-type SavedLocationPreference = SavedLocation & { count?: number };
+type SavedLocationPreference = SavedLocation & { count?: number; savedAt?: number };
 type NearbyJob = {
   job_id: string;
   title: string;
@@ -28,7 +30,12 @@ type LocationMethod = "saved" | "geolocation" | "manual";
 export const savedLocationJobsEvent = LOCATION_EVENT;
 
 function trackNearbyEvent(
-  eventName: "nearby_location_click" | "nearby_location_success" | "nearby_results_click",
+  eventName:
+    | "nearby_location_click"
+    | "nearby_location_success"
+    | "nearby_results_click"
+    | "saved_location_return"
+    | "saved_location_results_loaded",
   jobId: string | undefined,
   parameters: Record<string, string | number> = {},
 ) {
@@ -50,10 +57,27 @@ function readSavedLocation(): SavedLocationPreference | undefined {
           town: parsed.town,
           region: parsed.region,
           count: typeof parsed.count === "number" ? parsed.count : undefined,
+          savedAt: typeof parsed.savedAt === "number" ? parsed.savedAt : undefined,
         }
       : undefined;
   } catch {
     return undefined;
+  }
+}
+
+function readSessionMarker(key: string): string | null {
+  try {
+    return sessionStorage.getItem(key);
+  } catch {
+    return null;
+  }
+}
+
+function writeSessionMarker(key: string, value: string) {
+  try {
+    sessionStorage.setItem(key, value);
+  } catch {
+    // Tracking must never prevent the nearby-jobs experience from working.
   }
 }
 
@@ -77,7 +101,12 @@ export default function SavedLocationJobs({ jobId }: { jobId?: string }) {
       });
       const data = await response.json() as NearbyResponse;
       if (!response.ok) throw new Error(data.error || "Location lookup failed.");
-      localStorage.setItem(STORAGE_KEY, JSON.stringify({ ...data.location, count: data.count }));
+      const existingPreference = method === "saved" ? readSavedLocation() : undefined;
+      localStorage.setItem(STORAGE_KEY, JSON.stringify({
+        ...data.location,
+        count: data.count,
+        savedAt: existingPreference?.savedAt ?? Date.now(),
+      }));
       setSaved(data.location);
       setCount(data.count);
       setStatus("saved");
@@ -91,8 +120,17 @@ export default function SavedLocationJobs({ jobId }: { jobId?: string }) {
         },
       }));
       if (method !== "saved") {
+        writeSessionMarker(RETURN_SESSION_KEY, "current");
         trackNearbyEvent("nearby_location_success", jobId, {
           location_method: method,
+          nearby_job_count: data.count,
+        });
+      } else if (
+        readSessionMarker(RETURN_SESSION_KEY) === "return"
+        && readSessionMarker(RETURN_RESULTS_KEY) !== "tracked"
+      ) {
+        writeSessionMarker(RETURN_RESULTS_KEY, "tracked");
+        trackNearbyEvent("saved_location_results_loaded", jobId, {
           nearby_job_count: data.count,
         });
       }
@@ -107,6 +145,16 @@ export default function SavedLocationJobs({ jobId }: { jobId?: string }) {
   useEffect(() => {
     const location = readSavedLocation();
     if (location) {
+      if (readSessionMarker(RETURN_SESSION_KEY) === null) {
+        writeSessionMarker(RETURN_SESSION_KEY, "return");
+        const daysSinceSaved = location.savedAt === undefined
+          ? undefined
+          : Math.max(0, Math.floor((Date.now() - location.savedAt) / 86_400_000));
+        trackNearbyEvent("saved_location_return", jobId, {
+          ...(daysSinceSaved === undefined ? {} : { days_since_saved: daysSinceSaved }),
+          nearby_job_count: location.count ?? 0,
+        });
+      }
       setSaved({ town: location.town, region: location.region });
       setCount(location.count);
       setStatus("saved");
