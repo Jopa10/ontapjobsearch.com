@@ -1066,11 +1066,10 @@ job_id: 1927933
 ## LONDON — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - LONDON | London | London | £35000 - £37000 per year | Team Administrator
 job_id: 23643_225600780
 ---
-
 ## HAMPSHIRE — SELECTED
 
 ---
@@ -2226,11 +2225,10 @@ job_id: 23643_225601569
 ## BERKSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - BERKSHIRE | Berkshire | Berkshire | £30000 - £34000 per year | Helpdesk Coordinator
 job_id: 23643_224996549
 ---
-
 ## BRISTOL & BATH — SELECTED
 
 ---
@@ -2674,11 +2672,10 @@ job_id: 20279_62648-5f053ed6bc220092db88c81c1fa679dd
 ## CHESHIRE - EAST — POSSIBLES
 
 ---
-action:
+action: select
 POSS - CHESHIRE - EAST | Cheshire - East | Alderley Edge | £30000 - £32000 per year | Customer Care Coordinator
 job_id: 23643_225600702
 ---
-
 ## CHESHIRE - WARRINGTON & HALTON — SELECTED
 
 ---
@@ -3494,11 +3491,10 @@ job_id: 1909919
 ## GREATER MANCHESTER - MANCHESTER & SALFORD — POSSIBLES
 
 ---
-action:
+action: select
 POSS - GREATER MANCHESTER - MANCHESTER & SALFORD | Greater Manchester - Manchester & Salford | Manchester | £150 - £165 per daily (Umbrella) | Commercial Administrator
 job_id: 23643_225597988
 ---
-
 ## GREATER MANCHESTER - SOUTH — SELECTED
 
 ---
@@ -3666,11 +3662,10 @@ job_id: 1901543
 ## HERTFORDSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - HERTFORDSHIRE | Hertfordshire | Hertfordshire | £27000 - £35000 per year | Sales Administrator
 job_id: 23643_225600353
 ---
-
 ## LEICESTERSHIRE — SELECTED
 
 ---
@@ -4072,11 +4067,10 @@ job_id: 1916599
 ## NORTHAMPTONSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - NORTHAMPTONSHIRE | Northamptonshire | Northamptonshire | £28000 - £32000 per year (Benefits) | Executive Coordinator
 job_id: 23643_225600462
 ---
-
 ## NORTHERN IRELAND - EAST — SELECTED
 
 ---
@@ -4676,11 +4670,10 @@ job_id: 1885249
 ## SCOTLAND CENTRAL - EDINBURGH & LOTHIANS — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - SCOTLAND CENTRAL - EDINBURGH & LOTHIANS | Scotland Central - Edinburgh & Lothians | Edinburgh | £18 - £24 per hour | Temporary Salesforce Administrator
 job_id: 23643_225598552
 ---
-
 ## SCOTLAND CENTRAL - TAYSIDE — SELECTED
 
 ---
@@ -4944,11 +4937,10 @@ job_id: 20279_62718-153faf593eb64b88272f45adeaa28d87
 ## SCOTLAND WEST - GLASGOW — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - SCOTLAND WEST - GLASGOW | Scotland West - Glasgow | Glasgow | £55000 - £80000 per year | Financial Planner
 job_id: 1928828
 ---
-
 ## SHROPSHIRE — SELECTED
 
 ---
@@ -5404,11 +5396,10 @@ job_id: 23643_225589554
 ## WEST MIDLANDS - BIRMINGHAM & SOLIHULL — POSSIBLES
 
 ---
-action:
+action: select
 POSS - WEST MIDLANDS - BIRMINGHAM & SOLIHULL | West Midlands - Birmingham & Solihull | Birmingham | £33000 - £35000 per year | Part Time PA & Executive Coordinator
 job_id: 23643_225599693
 ---
-
 ## WEST MIDLANDS - BLACK COUNTRY — SELECTED
 
 ---
@@ -5624,11 +5615,10 @@ job_id: 107894712
 ## YORKSHIRE - EAST — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - YORKSHIRE - EAST | Yorkshire - East | Brough | £20 per hour | Training and Business Coordinator
 job_id: 23643_225598654
 ---
-
 ## YORKSHIRE - NORTH — SELECTED
 
 ---
