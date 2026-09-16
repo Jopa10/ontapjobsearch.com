@@ -2,15 +2,51 @@
 
 review_date: 2026-09-16
 
-- Open Administrative & Clerical rows reviewed: 2044
+- Open Administrative & Clerical rows reviewed: 2047
 - Auto/remembered selected: 377
 - Selected HC Tier A: 190
 - Selected HC Tier B: 187
-- POSS awaiting decision: 1530
+- POSS awaiting decision: 1533
 - Excluded: 0
 - HARD_PASS: 137
 
 Edit only each `action:` line for POSS rows. Unchanged decisions are restored by the shared decision ledger.
+
+---
+action:
+POSS | NHS Jobs | — | Leeds / Exeter, LS1 4AP | £59264.40 to £67818.00 | Cyber Security Analyst - Infrastructure & Networks
+source_job_id: 5602297
+title: Cyber Security Analyst - Infrastructure & Networks
+employer: NHS England
+region: 
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/M9990-26-0669
+factual_fingerprint: 0901df490662da9d2516246564a445012646c979ad46242d55fab75fc1a14fd7
+---
+
+---
+action:
+POSS | NHS Jobs | West Midlands - Black Country | Halesowen, B63 3HN | £12.91 | Receptionist GP Practice
+source_job_id: 5602259
+title: Receptionist GP Practice
+employer: Stourside Medical Practice
+region: West Midlands - Black Country
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A0805-26-0019
+factual_fingerprint: 2ce73d50306d1126067b4fed39ff07721c4d8f4db45f87ca20a8fe29c4335481
+---
+
+---
+action:
+POSS | NHS Jobs | Worcestershire | REDDITCH, B98 7UB | £49387.00 to £56515.00 | Clinical Procurement Specialist
+source_job_id: 5566899
+title: Clinical Procurement Specialist
+employer: Worcestershire Acute Hospitals NHS Trust
+region: Worcestershire
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9365-26-0678
+factual_fingerprint: 726c5d77c63e948fa537cf9ff4f002abecca5f75d883e70b752633d8e32d1f7e
+---
 
 ---
 action:
