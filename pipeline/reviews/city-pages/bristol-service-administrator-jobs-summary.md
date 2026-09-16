@@ -4,7 +4,7 @@
 - Live route: `/bristol/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 24
+- Effective included jobs: 27
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 24
-- automatic review: 8
-- automatic exclude: 3
-- effective include: 24
-- effective review: 8
-- effective exclude: 3
+- automatic include: 27
+- automatic review: 9
+- automatic exclude: 2
+- effective include: 27
+- effective review: 9
+- effective exclude: 2
 
-## INCLUDE (24)
+## INCLUDE (27)
 
 ---
 action: 
@@ -136,6 +136,18 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Claims Handler
+company: Reed - Agency - Permanent
+location: Bristol
+source: JobG8
+job_id: jobg8-1916313
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Communications Officer
 company: Sellick Partnership - Agency - Permanent
 location: Bristol
@@ -177,6 +189,18 @@ company: Travail Employment Group - Agency - Permanent
 location: Bristol
 source: JobG8
 job_id: jobg8-23643_225533642
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: GP Receptionist
+company: Kingswood Health Centre
+location: Bristol, BS15 4EJ
+source: NHS Jobs
+job_id: nhs-5600356
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -312,7 +336,19 @@ job_id: jobg8-23643_225599662
 reason: Approved conservative Bristol launch catchment.
 ---
 
-## REVIEW (8)
+---
+action: 
+decision: include
+automatic_decision: include
+title: Technical Claims Handler
+company: Red Recruitment - Agency - Permanent
+location: Bristol
+source: JobG8
+job_id: jobg8-23643_225600573
+reason: Approved conservative Bristol launch catchment.
+---
+
+## REVIEW (9)
 
 ---
 action: 
@@ -335,6 +371,18 @@ company: Moxie and Mettle Limited - Agency - Permanent
 location: Somerset
 source: JobG8
 job_id: jobg8-1856306
+reason: No approved Bristol catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Ecommerce Manager
+company: Zachary Daniels - Agency - Permanent
+location: Somerset
+source: JobG8
+job_id: jobg8-107952849
 reason: No approved Bristol catchment rule matched; local review required.
 ---
 
@@ -410,7 +458,7 @@ job_id: jobg8-23643_225515534
 reason: No approved Bristol catchment rule matched; local review required.
 ---
 
-## EXCLUDE (3)
+## EXCLUDE (2)
 
 ---
 action: 
@@ -433,17 +481,5 @@ company: Fairfield Park Health Centre
 location: Bath, BA1 6EA
 source: NHS Jobs
 job_id: nhs-5550823
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Recruitment Coordinator
-company: Alexander Mae (HR) Ltd - Agency - Permanent
-location: Bath
-source: JobG8
-job_id: jobg8-107793815
 reason: Separate employment market.
 ---

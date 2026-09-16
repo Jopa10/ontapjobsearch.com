@@ -4,7 +4,7 @@
 - Live route: `/sheffield/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 8
+- Effective included jobs: 7
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 8
+- automatic include: 7
 - automatic review: 2
 - automatic exclude: 8
-- effective include: 8
+- effective include: 7
 - effective review: 2
 - effective exclude: 8
 
-## INCLUDE (8)
+## INCLUDE (7)
 
 ---
 action: 
@@ -33,18 +33,6 @@ company: Sue Ross Recruitment Ltd - Agency - Permanent
 location: Sheffield
 source: JobG8
 job_id: jobg8-23643_225469996
-reason: Approved Sheffield catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Admin & Clerical Officer Level 2 Rowan School
-company: The Rowan School
-location: Sheffield
-source: Teaching Vacancies
-job_id: teaching-vacancies-admin-clerical-officer-level-2-rowan-school
 reason: Approved Sheffield catchment.
 ---
 

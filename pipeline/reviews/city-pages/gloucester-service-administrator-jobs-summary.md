@@ -4,7 +4,7 @@
 - Live route: `/gloucester/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 1
+- Effective included jobs: 0
 - Threshold currently met: no
 
 ## How to review
@@ -15,28 +15,16 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 1
-- automatic review: 24
+- automatic include: 0
+- automatic review: 23
 - automatic exclude: 0
-- effective include: 1
-- effective review: 24
+- effective include: 0
+- effective review: 23
 - effective exclude: 0
 
-## INCLUDE (1)
+## INCLUDE (0)
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Client Administrator (Gloucester)
-company: IDEX Consulting Ltd - Agency - Permanent
-location: Gloucester
-source: JobG8
-job_id: jobg8-1766933
-reason: Exact approved Gloucester workplace.
----
-
-## REVIEW (24)
+## REVIEW (23)
 
 ---
 action: 
@@ -138,18 +126,6 @@ reason: No exact Gloucester workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Marketing Assistant
-company: i2i Recruitment Consultancy - Agency - Permanent
-location: Gloucestershire
-source: JobG8
-job_id: jobg8-1767664
-reason: No exact Gloucester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Marketing Executive
 company: i2i Recruitment - Agency - Permanent
 location: Gloucestershire
@@ -222,6 +198,18 @@ reason: No exact Gloucester workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
+title: PR Account Manager - inhouse or agency welcome!
+company: Moxie and Mettle Limited - Agency - Permanent
+location: Gloucestershire
+source: JobG8
+job_id: jobg8-1912285
+reason: No exact Gloucester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: PR Executive
 company: i2i Recruitment Consultancy - Agency - Permanent
 location: Gloucestershire
@@ -275,18 +263,6 @@ company: Usay Compare - Agency - Permanent
 location: Gloucestershire
 source: JobG8
 job_id: jobg8-107870311
-reason: No exact Gloucester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Scheduling Administrator
-company: First Base - Agency - Permanent
-location: Cirencester
-source: JobG8
-job_id: jobg8-23643_225522823
 reason: No exact Gloucester workplace matched; local geographic review is required.
 ---
 

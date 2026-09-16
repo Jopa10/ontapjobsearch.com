@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 4
-- automatic review: 3
-- automatic exclude: 10
+- automatic review: 2
+- automatic exclude: 12
 - effective include: 4
-- effective review: 3
-- effective exclude: 10
+- effective review: 2
+- effective exclude: 12
 
 ## INCLUDE (4)
 
@@ -72,19 +72,7 @@ job_id: jobg8-1860755
 reason: Approved conservative Peterborough launch catchment.
 ---
 
-## REVIEW (3)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Conveyancing Administrators and Case Handlers
-company: AllAboutRecruitmentLtd - Agency - Permanent
-location: St. Neots
-source: JobG8
-job_id: jobg8-107791497
-reason: No approved Peterborough catchment rule matched; local review required.
----
+## REVIEW (2)
 
 ---
 action: 
@@ -110,7 +98,7 @@ job_id: jobg8-23643_225519683
 reason: No approved Peterborough catchment rule matched; local review required.
 ---
 
-## EXCLUDE (10)
+## EXCLUDE (12)
 
 ---
 action: 
@@ -188,6 +176,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: HR Administrator
+company: EA FIRST LTD - Agency - Permanent
+location: Cambridge
+source: JobG8
+job_id: jobg8-1924725
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: HR Coordinator
 company: S&B Herba Foods Ltd - Agency - Permanent
 location: Cambridge
@@ -229,5 +229,17 @@ company: Peasgood & Skeates - Agency - Permanent
 location: Cambridge
 source: JobG8
 job_id: jobg8-23643_225513578
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Sporting Events Administrator
+company: Alzheimer's Research UK - Agency - Permanent
+location: Cambridge
+source: JobG8
+job_id: jobg8-1927948
 reason: Separate employment market.
 ---

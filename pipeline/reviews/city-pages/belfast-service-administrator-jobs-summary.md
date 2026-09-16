@@ -4,7 +4,7 @@
 - Live route: `/belfast/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 49
+- Effective included jobs: 44
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 49
-- automatic review: 27
+- automatic include: 44
+- automatic review: 28
 - automatic exclude: 0
-- effective include: 49
-- effective review: 27
+- effective include: 44
+- effective review: 28
 - effective exclude: 0
 
-## INCLUDE (49)
+## INCLUDE (44)
 
 ---
 action: 
@@ -269,34 +269,10 @@ action:
 decision: include
 automatic_decision: include
 title: Finance Officer
-company: Independent Commission for Reconciliation and Information Recovery (ICRIR) - Agency - Permanent
-location: Belfast
-source: JobG8
-job_id: jobg8-2051848
-reason: Approved conservative Belfast launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Finance Officer
 company: McKinty Associates - Agency - Permanent
 location: Belfast
 source: JobG8
 job_id: jobg8-2050169
-reason: Approved conservative Belfast launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Financial Services Administrator
-company: Honeycomb Jobs Ltd - Agency - Permanent
-location: Belfast
-source: JobG8
-job_id: jobg8-2052109
 reason: Approved conservative Belfast launch catchment.
 ---
 
@@ -412,18 +388,6 @@ reason: Approved conservative Belfast launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Receptionist
-company: Apple Recruitment - Agency - Permanent
-location: Belfast
-source: JobG8
-job_id: jobg8-2052255
-reason: Approved conservative Belfast launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Receptionist (Immediate Start)
 company: Honeycomb Jobs Ltd - Agency - Permanent
 location: Belfast
@@ -453,18 +417,6 @@ company: Apple Recruitment - Agency - Permanent
 location: Belfast
 source: JobG8
 job_id: jobg8-2050172
-reason: Approved conservative Belfast launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Receptionist / Front of House Administrator
-company: Apple Recruitment - Agency - Permanent
-location: Belfast
-source: JobG8
-job_id: jobg8-2050773
 reason: Approved conservative Belfast launch catchment.
 ---
 
@@ -568,18 +520,6 @@ reason: Approved conservative Belfast launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Services Administration Coordinator
-company: Action Cancer - Agency - Permanent
-location: Belfast
-source: JobG8
-job_id: jobg8-2049902
-reason: Approved conservative Belfast launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Street Works Coordinator
 company: Apple Recruitment - Agency - Permanent
 location: Belfast
@@ -612,7 +552,19 @@ job_id: jobg8-2050290
 reason: Approved conservative Belfast launch catchment.
 ---
 
-## REVIEW (27)
+## REVIEW (28)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Administrator
+company: Hays - Agency - Permanent
+location: Newtownards
+source: JobG8
+job_id: jobg8-2050947
+reason: No approved Belfast catchment rule matched; local review required.
+---
 
 ---
 action: 
@@ -647,18 +599,6 @@ company: Reed Specialist Recruitment - Agency - Permanent
 location: Lisburn
 source: JobG8
 job_id: jobg8-2052639
-reason: No approved Belfast catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Payable (Finance Administrator)
-company: Hays - Agency - Permanent
-location: County Down
-source: JobG8
-job_id: jobg8-2052344
 reason: No approved Belfast catchment rule matched; local review required.
 ---
 
@@ -762,6 +702,18 @@ reason: No approved Belfast catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Contract Administrator
+company: Manpower - Agency - Permanent
+location: Ballyclare
+source: JobG8
+job_id: jobg8-1916549
+reason: No approved Belfast catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Credit Controller
 company: MCS Group - Agency - Permanent
 location: County Antrim
@@ -791,6 +743,30 @@ company: Your World Recruitment Ltd - Agency - Permanent
 location: Newtownards
 source: JobG8
 job_id: jobg8-23643_225512167
+reason: No approved Belfast catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Finance Officer - Ards Hospital
+company: First Choice Selection Services - Agency - Permanent
+location: County Down
+source: JobG8
+job_id: jobg8-2051024
+reason: No approved Belfast catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Finance Officer - Newtownards
+company: Riada Resourcing - Agency - Permanent
+location: County Down
+source: JobG8
+job_id: jobg8-2051041
 reason: No approved Belfast catchment rule matched; local review required.
 ---
 
@@ -882,18 +858,6 @@ reason: No approved Belfast catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Receptionist Administrator
-company: Apple Recruitment - Agency - Permanent
-location: Lisburn
-source: JobG8
-job_id: jobg8-2050672
-reason: No approved Belfast catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Recruitment & Culture Lead - PT option available
 company: MCS Group - Agency - Permanent
 location: County Antrim
@@ -911,18 +875,6 @@ company: Brook Street UK - Agency - Permanent
 location: Ballyclare
 source: JobG8
 job_id: jobg8-107922303
-reason: No approved Belfast catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Sales Support Administrator
-company: Woodside Logistics Group - Agency - Contract
-location: Ballyclare
-source: JobG8
-job_id: jobg8-107861572
 reason: No approved Belfast catchment rule matched; local review required.
 ---
 

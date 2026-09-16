@@ -150,6 +150,18 @@ reason: No exact Northampton workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
+title: Contract Administrator
+company: Manpower - Agency - Permanent
+location: Northamptonshire
+source: JobG8
+job_id: jobg8-1916599
+reason: No exact Northampton workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Customer Support Administrator
 company: Pertemps Northampton - Agency - Permanent
 location: Northamptonshire
@@ -162,11 +174,11 @@ reason: No exact Northampton workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Employer Liability and Public Liability Claims Handler (6 - Month FTC)
-company: Gallagher - Agency - Permanent
-location: Northamptonshire
+title: Executive Assistant- Part Time
+company: Impact Recruitment Services - Agency - Permanent
+location: Kettering
 source: JobG8
-job_id: jobg8-107792065
+job_id: jobg8-23643_225532541
 reason: No exact Northampton workplace matched; local geographic review is required.
 ---
 
@@ -174,11 +186,11 @@ reason: No exact Northampton workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Executive Assistant- Part Time
-company: Impact Recruitment Services - Agency - Permanent
-location: Kettering
+title: Executive Coordinator
+company: Osborne Appointments - Agency - Permanent
+location: Northamptonshire
 source: JobG8
-job_id: jobg8-23643_225532541
+job_id: jobg8-23643_225600462
 reason: No exact Northampton workplace matched; local geographic review is required.
 ---
 
@@ -202,31 +214,7 @@ title: Office Administrator
 company: Verve Workspace Ltd - Agency - Permanent
 location: Northamptonshire
 source: JobG8
-job_id: jobg8-1910298
-reason: No exact Northampton workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Office Administrator
-company: Verve Workspace Ltd - Agency - Permanent
-location: Northamptonshire
-source: JobG8
 job_id: jobg8-809922481811881984037340
-reason: No exact Northampton workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Order Processing Administrator
-company: ACS Staffing Solutions - Agency - Temporary
-location: Northamptonshire
-source: JobG8
-job_id: jobg8-23643_225509666
 reason: No exact Northampton workplace matched; local geographic review is required.
 ---
 
@@ -258,11 +246,23 @@ reason: No exact Northampton workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Receptionist
-company: Avery Healthcare Group Ltd.
-location: Kettering, NN16 9JB
-source: NHS Jobs
-job_id: nhs-5594837
+title: Project Coordinator
+company: Cameo Consultancy - Agency - Permanent
+location: Northamptonshire
+source: JobG8
+job_id: jobg8-23643_225582470
+reason: No exact Northampton workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Technical Administrator
+company: Office Angels - Agency - Temporary
+location: Northamptonshire
+source: JobG8
+job_id: jobg8-23643_225596826
 reason: No exact Northampton workplace matched; local geographic review is required.
 ---
 

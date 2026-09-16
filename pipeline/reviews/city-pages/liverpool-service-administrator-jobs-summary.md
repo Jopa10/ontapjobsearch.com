@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 15
-- automatic review: 2
+- automatic review: 1
 - automatic exclude: 0
 - effective include: 15
-- effective review: 2
+- effective review: 1
 - effective exclude: 0
 
 ## INCLUDE (15)
@@ -57,6 +57,18 @@ company: Keoghs LLP - Agency - Permanent
 location: Liverpool
 source: JobG8
 job_id: jobg8-1830080
+reason: Approved conservative Liverpool launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Clerical Officer
+company: Liverpool University Hospitals NHS Foundation Trust
+location: Liverpool, L7 8XP
+source: NHS Jobs
+job_id: nhs-5600793
 reason: Approved conservative Liverpool launch catchment.
 ---
 
@@ -148,18 +160,6 @@ reason: Approved conservative Liverpool launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Receptionist/Administrator
-company: Ford Medical Practice
-location: Liverpool, L210DF
-source: NHS Jobs
-job_id: nhs-5584062
-reason: Approved conservative Liverpool launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Recruitment Administrator Intern - Liverpool
 company: T3AM Global - Agency - Permanent
 location: Liverpool
@@ -204,7 +204,7 @@ job_id: jobg8-23643_225454172
 reason: Approved conservative Liverpool launch catchment.
 ---
 
-## REVIEW (2)
+## REVIEW (1)
 
 ---
 action: 
@@ -215,18 +215,6 @@ company: MHA - Agency - Permanent
 location: Merseyside
 source: JobG8
 job_id: jobg8-1839653
-reason: Broad county location; review before Liverpool inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Technical SEO Specialist
-company: Protein Works - Agency - Permanent
-location: Merseyside
-source: JobG8
-job_id: jobg8-107861416
 reason: Broad county location; review before Liverpool inclusion.
 ---
 

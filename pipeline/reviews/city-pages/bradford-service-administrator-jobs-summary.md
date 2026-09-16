@@ -4,7 +4,7 @@
 - Live route: `/bradford/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 4
+- Effective included jobs: 2
 - Threshold currently met: no
 
 ## How to review
@@ -15,26 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 4
+- automatic include: 2
 - automatic review: 5
-- automatic exclude: 25
-- effective include: 4
+- automatic exclude: 28
+- effective include: 2
 - effective review: 5
-- effective exclude: 25
+- effective exclude: 28
 
-## INCLUDE (4)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Admin/Receptionist
-company: Beckfoot Allerton Primary School and Nursery
-location: Bradford
-source: Teaching Vacancies
-job_id: teaching-vacancies-admin-receptionist-beckfoot-allerton-primary-school-and-nursery
-reason: Approved Bradford catchment.
----
+## INCLUDE (2)
 
 ---
 action: 
@@ -45,18 +33,6 @@ company: Belmont Recruitment - Agency - Contract
 location: Bradford
 source: JobG8
 job_id: jobg8-23643_225530760
-reason: Approved Bradford catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Receptionist
-company: Affinity Care
-location: Shipley, BD18 3EG, Shipley, BD18 3EE, Bradford, BD10 9AZ
-source: NHS Jobs
-job_id: nhs-5593331
 reason: Approved Bradford catchment.
 ---
 
@@ -90,11 +66,11 @@ reason: No approved Bradford catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Office Coordinator
-company: Sayjo Recruitment Ltd - Agency - Permanent
-location: Brighouse
+title: HR Administrator
+company: Crossroads Truck & Bus Limited - Agency - Permanent
+location: Batley
 source: JobG8
-job_id: jobg8-23643_225476804
+job_id: jobg8-1928245
 reason: No approved Bradford catchment rule matched; local review required.
 ---
 
@@ -134,7 +110,19 @@ job_id: nhs-5596100
 reason: No approved Bradford catchment rule matched; local review required.
 ---
 
-## EXCLUDE (25)
+## EXCLUDE (28)
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Administration Assistant
+company: The Mid Yorkshire Teaching NHS Trust
+location: Wakefield, WF1 4DG
+source: NHS Jobs
+job_id: nhs-5601212
+reason: Separate employment market.
+---
 
 ---
 action: 
@@ -164,11 +152,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Clerical Officer
-company: Leeds Teaching Hospitals
-location: Leeds, LS9 7TF
-source: NHS Jobs
-job_id: nhs-5591866
+title: Claims Handler (Top Insurance Company)
+company: Aston Charles Ltd - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-1927518
 reason: Separate employment market.
 ---
 
@@ -193,6 +181,18 @@ company: Leeds Teaching Hospitals
 location: Leeds, LS2 9LU
 source: NHS Jobs
 job_id: nhs-5593438
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Commercial Claims Handler (Personal Lines Handlers Considered!)
+company: Aston Charles Ltd - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-1927524
 reason: Separate employment market.
 ---
 
@@ -344,6 +344,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Receptionist
+company: Diamond Medical Group
+location: Leeds, LS7 3DR, Leeds, LS7 1JL, Leeds, LS17 8AE, Leeds, LS8 4AA
+source: NHS Jobs
+job_id: nhs-5601071
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Receptionist/ Front of House
 company: Search Consultancy Ltd - Agency - Contract
 location: Leeds
@@ -380,6 +392,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Sales and Service Advisor
+company: Gallagher - Agency - Permanent
+location: Wakefield
+source: JobG8
+job_id: jobg8-871951100439376691237340
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Scheduling Coordinator
 company: Huntress - Leeds - Agency - Permanent
 location: Leeds
@@ -397,18 +421,6 @@ company: Veolia - Agency - Permanent
 location: Dewsbury
 source: JobG8
 job_id: jobg8-23643_225542036
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Service Co-ordinator
-company: Veolia - Agency - Permanent
-location: Dewsbury
-source: JobG8
-job_id: jobg8-23643_225563194
 reason: Separate employment market.
 ---
 

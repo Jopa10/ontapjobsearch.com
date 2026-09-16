@@ -4,7 +4,7 @@
 - Live route: `/cambridge/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 9
+- Effective included jobs: 11
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 9
-- automatic review: 3
+- automatic include: 11
+- automatic review: 2
 - automatic exclude: 5
-- effective include: 9
-- effective review: 3
+- effective include: 11
+- effective review: 2
 - effective exclude: 5
 
-## INCLUDE (9)
+## INCLUDE (11)
 
 ---
 action: 
@@ -88,6 +88,18 @@ reason: Approved conservative Cambridge launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: HR Administrator
+company: EA FIRST LTD - Agency - Permanent
+location: Cambridge
+source: JobG8
+job_id: jobg8-1924725
+reason: Approved conservative Cambridge launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: HR Coordinator
 company: S&B Herba Foods Ltd - Agency - Permanent
 location: Cambridge
@@ -132,19 +144,19 @@ job_id: jobg8-23643_225513578
 reason: Approved conservative Cambridge launch catchment.
 ---
 
-## REVIEW (3)
-
 ---
 action: 
-decision: review
-automatic_decision: review
-title: Conveyancing Administrators and Case Handlers
-company: AllAboutRecruitmentLtd - Agency - Permanent
-location: St. Neots
+decision: include
+automatic_decision: include
+title: Sporting Events Administrator
+company: Alzheimer's Research UK - Agency - Permanent
+location: Cambridge
 source: JobG8
-job_id: jobg8-107791497
-reason: No approved Cambridge catchment rule matched; local review required.
+job_id: jobg8-1927948
+reason: Approved conservative Cambridge launch catchment.
 ---
+
+## REVIEW (2)
 
 ---
 action: 

@@ -4,7 +4,7 @@
 - Live route: `/milton-keynes/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 8
+- Effective included jobs: 10
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 8
-- automatic review: 28
+- automatic include: 10
+- automatic review: 27
 - automatic exclude: 0
-- effective include: 8
-- effective review: 28
+- effective include: 10
+- effective review: 27
 - effective exclude: 0
 
-## INCLUDE (8)
+## INCLUDE (10)
 
 ---
 action: 
@@ -45,6 +45,18 @@ company: Invictus Group - Agency - Contract
 location: Milton Keynes
 source: JobG8
 job_id: jobg8-23643_225544622
+reason: Exact approved Milton Keynes workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: HR Administrator
+company: wild recruitment - Agency - Permanent
+location: Milton Keynes
+source: JobG8
+job_id: jobg8-1929321
 reason: Exact approved Milton Keynes workplace.
 ---
 
@@ -120,7 +132,19 @@ job_id: jobg8-23643_225522682
 reason: Exact approved Milton Keynes workplace.
 ---
 
-## REVIEW (28)
+---
+action: 
+decision: include
+automatic_decision: include
+title: Single Point of Access Administrator
+company: Central and North West London NHS Foundation Trust
+location: Milton Keynes, MK7 6AA
+source: NHS Jobs
+job_id: nhs-5600810
+reason: Exact approved Milton Keynes workplace.
+---
+
+## REVIEW (27)
 
 ---
 action: 
@@ -155,6 +179,18 @@ company: Barchester Healthcare
 location: High Wycombe, HP11 2LJ
 source: NHS Jobs
 job_id: nhs-5577304
+reason: No exact Milton Keynes workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administration Assistant (Services)
+company: Spinal Injuries Association - Agency - Permanent
+location: Buckinghamshire
+source: JobG8
+job_id: jobg8-1927986
 reason: No exact Milton Keynes workplace matched; local geographic review is required.
 ---
 
@@ -431,30 +467,6 @@ company: Avery Healthcare Group Ltd.
 location: Marlow, SL7 1HX
 source: NHS Jobs
 job_id: nhs-5567129
-reason: No exact Milton Keynes workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: SEO Executive
-company: Job Board Direct - Agency - Permanent
-location: Gerrards Cross
-source: JobG8
-job_id: jobg8-107791305
-reason: No exact Milton Keynes workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Social Media Executive
-company: Job Board Direct - Agency - Permanent
-location: Gerrards Cross
-source: JobG8
-job_id: jobg8-107791333
 reason: No exact Milton Keynes workplace matched; local geographic review is required.
 ---
 

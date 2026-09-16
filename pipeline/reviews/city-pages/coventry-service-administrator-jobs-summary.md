@@ -4,7 +4,7 @@
 - Live route: `/coventry/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 9
+- Effective included jobs: 11
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 9
+- automatic include: 11
 - automatic review: 3
-- automatic exclude: 13
-- effective include: 9
+- automatic exclude: 11
+- effective include: 11
 - effective review: 3
-- effective exclude: 13
+- effective exclude: 11
 
-## INCLUDE (9)
+## INCLUDE (11)
 
 ---
 action: 
@@ -76,11 +76,35 @@ reason: Approved Coventry catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Occupational Health Administrator
+company: Opus People Solutions Ltd - Agency - Temporary
+location: Coventry
+source: JobG8
+job_id: jobg8-23643_225601184
+reason: Approved Coventry catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Office & Facilities Administrator (Part-time)
 company: NES Group Ltd - Agency - Permanent
 location: Coventry
 source: JobG8
 job_id: jobg8-23643_225570023
+reason: Approved Coventry catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Part Time Website Content Coordinator
+company: THE RECRUITMENT DUO - Agency - Permanent
+location: Coventry
+source: JobG8
+job_id: jobg8-1916346
 reason: Approved Coventry catchment.
 ---
 
@@ -170,7 +194,7 @@ job_id: jobg8-23643_225572898
 reason: No approved Coventry catchment rule matched; local review required.
 ---
 
-## EXCLUDE (13)
+## EXCLUDE (11)
 
 ---
 action: 
@@ -217,18 +241,6 @@ company: RA Bennett - Agency - Permanent
 location: Warwickshire
 source: JobG8
 job_id: jobg8-1842482
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Customer Service Advisor - Full Time
-company: Adecco - Agency - Permanent
-location: Warwick
-source: JobG8
-job_id: jobg8-23643_225505608
 reason: Separate employment market.
 ---
 
@@ -301,18 +313,6 @@ company: Valley Road Medical Practice
 location: Leamington Spa, CV32 7SJ
 source: NHS Jobs
 job_id: nhs-4151642
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Onsite Recruitment Account Coordinator
-company: Winner Recruitment - Agency - Contract
-location: Warwickshire
-source: JobG8
-job_id: jobg8-107925904
 reason: Separate employment market.
 ---
 

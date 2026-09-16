@@ -1,6 +1,7 @@
 decision,job_id,title,company,location,source,automatic_decision,effective_decision,reason,matched_rule,city_key
 include,nejobs-301513,Administration Assistant Level 3,Newcastle City Council,"Sir Charles Parsons School, Westbourne Avenue, Walker, Newcastle upon Tyne, NE6 4ED",NEJobs,include,include,Approved Newcastle catchment.,newcastle,newcastle-service-administrator
 include,nejobs-301338,Administrative Assistant - Level 1,Newcastle City Council,"Lemington Riverside, Rokeby Street, Newcastle upon Tyne, NE15 8RR",NEJobs,include,include,Approved Newcastle catchment.,newcastle,newcastle-service-administrator
+include,jobg8-1927931,Administrator,TPP Recruitment - Agency - Permanent,Newcastle Upon Tyne,JobG8,include,include,Approved Newcastle catchment.,newcastle,newcastle-service-administrator
 include,jobg8-20279_61775-14ed80d091f0fb71e92c86010d5a3182,Call Centre Agent,EE - Company - Permanent,Newcastle upon Tyne,JobG8,include,include,Approved Newcastle catchment.,newcastle,newcastle-service-administrator
 include,jobg8-20279_61775-20fc350b6789c39cd18ccac91ac57148,Call Centre Agent,EE - Company - Permanent,Newcastle upon Tyne,JobG8,include,include,Approved Newcastle catchment.,newcastle,newcastle-service-administrator
 include,jobg8-20279_61775-2d6e64b23b0ce48f6b159ac15e45402e,Call Centre Agent,EE - Company - Permanent,Newcastle upon Tyne,JobG8,include,include,Approved Newcastle catchment.,newcastle,newcastle-service-administrator
@@ -79,7 +80,6 @@ include,jobg8-21618_20279_61775-c006dec11647ffbbe286bd267ef449f0,Customer Servic
 include,jobg8-21618_20279_61775-dc0a27dec7f9767a517f1bdee6e96749,Customer Service Advisor,EE - Company - Permanent,Newcastle upon Tyne,JobG8,include,include,Approved Newcastle catchment.,newcastle,newcastle-service-administrator
 include,jobg8-21618_20279_61775-eaa48b5f9c7219de72f15842102c0231,Customer Service Advisor,EE - Company - Permanent,Newcastle upon Tyne,JobG8,include,include,Approved Newcastle catchment.,newcastle,newcastle-service-administrator
 include,jobg8-21618_20279_61775-f8d5be08cfc7a3399ff87aa3de9e4a4a,Customer Service Advisor,EE - Company - Permanent,Newcastle upon Tyne,JobG8,include,include,Approved Newcastle catchment.,newcastle,newcastle-service-administrator
-include,nejobs-301184,DBS01125/26 - Receptionist - Norham High School,North Tyneside Council,North Tyneside Council,NEJobs,include,include,Approved Newcastle catchment.,north tyneside,newcastle-service-administrator
 include,nhs-5583254,GP Receptionist,Brunton Park Health Centre,"Newcastle Upon Tyne, NE3 5NF",NHS Jobs,include,include,Approved Newcastle catchment.,newcastle,newcastle-service-administrator
 include,nhs-5541887,Home Administrator,Akari Care Limited,"Newcastle, NE5 5HQ",NHS Jobs,include,include,Approved Newcastle catchment.,newcastle,newcastle-service-administrator
 include,nhs-5577937,Home Administrator,Akari Care Limited,"Gateshead, NE8 1QU",NHS Jobs,include,include,Approved Newcastle catchment.,gateshead,newcastle-service-administrator
@@ -93,6 +93,7 @@ include,nhs-5576748,Ward Clerk,Gateshead Health NHS Foundation Trust,"Gateshead,
 review,nhs-5307648,Admin Assistant,Birtley Medical Group,"Chester Le Street, DH3 2QT",NHS Jobs,review,review,No approved Newcastle catchment rule matched; local review required.,fallback,newcastle-service-administrator
 review,jobg8-23643_225582004,Admin Assistant,Pin Point Recruitment - Agency - Temporary,Tyne And Wear,JobG8,review,review,Broad location; review before city inclusion.,tyne and wear,newcastle-service-administrator
 review,nhs-5584416,Administration Assistant,"Cumbria, Northumberland, Tyne and wear (CNTW) NHS Foundation Trust","Ashington, NE63 8BL",NHS Jobs,review,review,Broad location; review before city inclusion.,context:tyne and wear,newcastle-service-administrator
+review,jobg8-23643_225599062,Administrator,GEM Partnership - Agency - Temporary,Newton Aycliffe,JobG8,review,review,No approved Newcastle catchment rule matched; local review required.,fallback,newcastle-service-administrator
 review,nhs-5588627,Administrator,Northumbria Healthcare NHS Foundation Trust,"North Shields, NE29 8NH",NHS Jobs,review,review,No approved Newcastle catchment rule matched; local review required.,fallback,newcastle-service-administrator
 review,jobg8-23643_225581479,Administrator,The Best Connection - Agency - Temporary,Tyne And Wear,JobG8,review,review,Broad location; review before city inclusion.,tyne and wear,newcastle-service-administrator
 review,jobg8-1788888,Administrator: Data,Norton Rose Fulbright LLP - Agency - Permanent,Tyne And Wear,JobG8,review,review,Broad location; review before city inclusion.,tyne and wear,newcastle-service-administrator
@@ -103,6 +104,7 @@ review,jobg8-107869330,Development Planner,Persimmon Homes - Agency - Permanent,
 review,jobg8-23643_225515748,Full Time Administrator - Temp to Perm - Gosforth,Office Angels - Agency - Temporary,Tyne And Wear,JobG8,review,review,Broad location; review before city inclusion.,tyne and wear,newcastle-service-administrator
 review,jobg8-1771050,HR Administrator,Nigel Wright Group - Agency - Permanent,Tyne And Wear,JobG8,review,review,Broad location; review before city inclusion.,tyne and wear,newcastle-service-administrator
 review,jobg8-1892511,HR Assistant,Nigel Wright Group - Agency - Permanent,Tyne And Wear,JobG8,review,review,Broad location; review before city inclusion.,tyne and wear,newcastle-service-administrator
+review,jobg8-1912200,Marketing Executive,Reed - Agency - Permanent,Yorkshire,JobG8,review,review,No approved Newcastle catchment rule matched; local review required.,fallback,newcastle-service-administrator
 review,nhs-3444840,Medical Administrator,Pelton and Fellrose Medical Group,"Chester Le Street, DH2 1HS, Chester Le Street, DH2 2NH",NHS Jobs,review,review,No approved Newcastle catchment rule matched; local review required.,fallback,newcastle-service-administrator
 review,jobg8-23643_225545577,Medical Receptionist/ Admin,Staff Partners Business - Agency - Temporary,Tyne And Wear,JobG8,review,review,Broad location; review before city inclusion.,tyne and wear,newcastle-service-administrator
 review,vonne-173385,Project Development Co-ordinator,National Energy Action,North East (hybrid),VONNE,review,review,Broad location; review before city inclusion.,north east,newcastle-service-administrator
@@ -114,6 +116,7 @@ review,nhs-5563197,Senior Administrator- Medical Secretary,Tees Esk and Wear Val
 review,nhs-5589916,Team Administrator,Tees Esk and Wear Valleys NHS Foundation Trust,"Seaham, SR7 0BG",NHS Jobs,review,review,No approved Newcastle catchment rule matched; local review required.,fallback,newcastle-service-administrator
 review,jobg8-23643_225527835,Temporary Administrator - Ryton - Immediate Start,Office Angels - Agency - Temporary,Ryton,JobG8,review,review,No approved Newcastle catchment rule matched; local review required.,fallback,newcastle-service-administrator
 review,nejobs-301243,Tenant Engagement Officer,Northumberland County Council,"Eddie Ferguson House, Blyth, United Kingdom",NEJobs,review,review,No approved Newcastle catchment rule matched; local review required.,fallback,newcastle-service-administrator
+review,nhs-5600329,Ward Clerk,Northumbria Healthcare NHS Foundation Trust,"Cramlington, NE23 6NZ",NHS Jobs,review,review,No approved Newcastle catchment rule matched; local review required.,fallback,newcastle-service-administrator
 review,vonne-173392,Womens Specialist ISC Coach,Changing Lives,Northumberland,VONNE,review,review,No approved Newcastle catchment rule matched; local review required.,fallback,newcastle-service-administrator
 review,vonne-173391,Womens Specialist ISC Coach - Part Time,Changing Lives,Northumberland,VONNE,review,review,No approved Newcastle catchment rule matched; local review required.,fallback,newcastle-service-administrator
 exclude,nhs-5583602,Admin Assistant - Care Home,Barchester Healthcare,"Darlington, DL1 1JF",NHS Jobs,exclude,exclude,Separate employment market.,darlington,newcastle-service-administrator
@@ -128,11 +131,11 @@ exclude,jobg8-23643_225595303,Maintenance Co-ordinator,Recruitment Helpline - Ag
 exclude,jobg8-23643_225513399,Marketing Business Partner,SRG - Agency - Contract,County Durham,JobG8,exclude,exclude,Separate employment market.,durham,newcastle-service-administrator
 exclude,jobg8-107878737,Marketing Executive,Integral UK Ltd - Company - Permanent,County Durham,JobG8,exclude,exclude,Separate employment market.,durham,newcastle-service-administrator
 exclude,jobg8-1869910,Marketing Manager,Ronald James - Agency - Permanent,County Durham,JobG8,exclude,exclude,Separate employment market.,durham,newcastle-service-administrator
+exclude,nhs-5601042,Medical Receptionist,Tanfield View Medical Group,"County Durham, DH9 8AD",NHS Jobs,exclude,exclude,Separate employment market.,durham,newcastle-service-administrator
 exclude,nhs-5569621,Medical Receptionist,The Medical Group,"Durham, DH7 8NH",NHS Jobs,exclude,exclude,Separate employment market.,durham,newcastle-service-administrator
 exclude,nejobs-301481,Passenger Transport Administration Assistant,Durham County Council,"Corten House, Durham",NEJobs,exclude,exclude,Separate employment market.,durham,newcastle-service-administrator
 exclude,nejobs-301004,Personal Development Coach Coordinator,New College Durham,New College Durham - Framwellgate Moor,NEJobs,exclude,exclude,Separate employment market.,durham,newcastle-service-administrator
 exclude,nejobs-301543,Project Administrator,Age UK County Durham,Age UK County Durham,NEJobs,exclude,exclude,Separate employment market.,durham,newcastle-service-administrator
-exclude,nhs-5580794,Receptionist,South Tyneside and Sunderland NHS Foundation Trust,"Sunderland, SR4 7TP",NHS Jobs,exclude,exclude,Separate employment market.,sunderland,newcastle-service-administrator
 exclude,jobg8-23643_225548483,Scheduling Administrator,Hays Business Support - Agency - Permanent,County Durham,JobG8,exclude,exclude,Separate employment market.,durham,newcastle-service-administrator
 exclude,nejobs-301524,School Secretary,Durham County Council,"Spennymoor, DL16 7JB",NEJobs,exclude,exclude,Separate employment market.,context:durham,newcastle-service-administrator
 exclude,jobg8-1869864,Social Media Manager,Ronald James - Agency - Permanent,County Durham,JobG8,exclude,exclude,Separate employment market.,durham,newcastle-service-administrator

@@ -66,11 +66,11 @@ reason: Exact approved Bedford workplace.
 action: 
 decision: review
 automatic_decision: review
-title: Administrator
-company: Proactive Personnel Ltd - Agency - Contract
-location: Sandy
+title: Customer Service Coordinator
+company: Tate - Agency - Temporary
+location: Bedfordshire
 source: JobG8
-job_id: jobg8-23643_225505564
+job_id: jobg8-23643_225599187
 reason: No exact Bedford workplace matched; local geographic review is required.
 ---
 

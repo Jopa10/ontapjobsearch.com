@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 6
-- automatic review: 49
+- automatic review: 48
 - automatic exclude: 0
 - effective include: 6
-- effective review: 49
+- effective review: 48
 - effective exclude: 0
 
 ## INCLUDE (6)
@@ -96,7 +96,7 @@ job_id: jobg8-23643_225587076
 reason: Exact approved Basingstoke workplace.
 ---
 
-## REVIEW (49)
+## REVIEW (48)
 
 ---
 action: 
@@ -131,18 +131,6 @@ company: Barchester Healthcare
 location: Ringwood, BH24 2DW
 source: NHS Jobs
 job_id: nhs-5573045
-reason: No exact Basingstoke workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Admin Assistant - Care Home
-company: Barchester Healthcare
-location: Fareham, PO14 2NF
-source: NHS Jobs
-job_id: nhs-5522934
 reason: No exact Basingstoke workplace matched; local geographic review is required.
 ---
 
@@ -246,11 +234,11 @@ reason: No exact Basingstoke workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Administrator - Start next week
-company: Hartley Resourcing - Agency - Permanent
+title: Bank Admin Assistant
+company: The Cinnamon Care Collection - Company - Permanent
 location: Hampshire
 source: JobG8
-job_id: jobg8-1816335
+job_id: jobg8-23643_225524482
 reason: No exact Basingstoke workplace matched; local geographic review is required.
 ---
 
@@ -258,11 +246,11 @@ reason: No exact Basingstoke workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Bank Admin Assistant
-company: The Cinnamon Care Collection - Company - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-23643_225524482
+title: Business Support Administrator
+company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
+location: Portsmouth, PO3 6AD, Cosham, PO6 3NH, Cosham, PO6 3LY
+source: NHS Jobs
+job_id: nhs-5601963
 reason: No exact Basingstoke workplace matched; local geographic review is required.
 ---
 
@@ -366,6 +354,18 @@ reason: No exact Basingstoke workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
+title: Dental Receptionist
+company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
+location: Havant, PO9 2AZ
+source: NHS Jobs
+job_id: nhs-5601966
+reason: No exact Basingstoke workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Exams Officer and Assessment Data Co ordinator
 company: Perins School
 location: Alresford
@@ -462,6 +462,18 @@ reason: No exact Basingstoke workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
+title: Insurance Account Executive
+company: Aspire Jobs Limited - Agency - Permanent
+location: Southampton
+source: JobG8
+job_id: jobg8-107193862
+reason: No exact Basingstoke workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Investment Administrator
 company: Front Row Recruitment Ltd - Agency - Permanent
 location: Hampshire
@@ -522,30 +534,6 @@ reason: No exact Basingstoke workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Patient Administrator
-company: University Hospital Southampton NHS Trust
-location: Southampton, SO16 5YA
-source: NHS Jobs
-job_id: nhs-5273675
-reason: No exact Basingstoke workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Patient Care Co-ordinator/Receptionist
-company: Abbeywell Surgery
-location: Romsey, SO51 8EN, Romsey, SO517QN
-source: NHS Jobs
-job_id: nhs-5522984
-reason: No exact Basingstoke workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Project & Office Administrator
 company: Venus Recruitment Ltd - Agency - Permanent
 location: Fleet
@@ -563,18 +551,6 @@ company: Octagon Group - Agency - Permanent
 location: Southampton
 source: JobG8
 job_id: jobg8-23643_225576097
-reason: No exact Basingstoke workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Receptionist - Community Mental Health
-company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
-location: Portsmouth, PO3 6AD, Portsmouth, PO4 8LD
-source: NHS Jobs
-job_id: nhs-5585230
 reason: No exact Basingstoke workplace matched; local geographic review is required.
 ---
 
@@ -642,18 +618,6 @@ reason: No exact Basingstoke workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Sales Coordinator
-company: Adecco - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-23643_225505424
-reason: No exact Basingstoke workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: School Admin Assistant
 company: Academics - Agency - Temporary
 location: Gosport
@@ -683,6 +647,30 @@ company: Uxbridge Employment Agency - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225397700
+reason: No exact Basingstoke workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Telesales Executive
+company: Hirecracker - Agency - Permanent
+location: Fareham
+source: JobG8
+job_id: jobg8-107921838
+reason: No exact Basingstoke workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Ward Clerk
+company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
+location: Alton, GU34 1RJ
+source: NHS Jobs
+job_id: nhs-5599055
 reason: No exact Basingstoke workplace matched; local geographic review is required.
 ---
 

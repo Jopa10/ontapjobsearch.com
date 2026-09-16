@@ -4,8 +4,8 @@
 - Live route: `/stoke-on-trent/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 4
-- Threshold currently met: yes
+- Effective included jobs: 3
+- Threshold currently met: no
 
 ## How to review
 Edit only the `action:` line inside a job block.
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 4
-- automatic review: 11
+- automatic include: 3
+- automatic review: 13
 - automatic exclude: 0
-- effective include: 4
-- effective review: 11
+- effective include: 3
+- effective review: 13
 - effective exclude: 0
 
-## INCLUDE (4)
+## INCLUDE (3)
 
 ---
 action: 
@@ -56,23 +56,11 @@ title: Team Administrator
 company: North Staffordshire Combined Healthcare Trust
 location: Stoke-on-Trent, ST4 6TH
 source: NHS Jobs
-job_id: nhs-5575141
-reason: Exact approved Stoke-on-trent workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Team Administrator
-company: North Staffordshire Combined Healthcare Trust
-location: Stoke-on-Trent, ST4 6TH
-source: NHS Jobs
 job_id: nhs-5583352
 reason: Exact approved Stoke-on-trent workplace.
 ---
 
-## REVIEW (11)
+## REVIEW (13)
 
 ---
 action: 
@@ -83,6 +71,18 @@ company: Staffline Recruitment Limited - Agency - Permanent
 location: Staffordshire
 source: JobG8
 job_id: jobg8-1839558
+reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Assistant (Part time)
+company: RG Consultancy Ltd - Agency - Permanent
+location: Staffordshire
+source: JobG8
+job_id: jobg8-1928214
 reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
 ---
 
@@ -191,6 +191,18 @@ company: Kyocera SGS Precision Tools - Agency - Permanent
 location: Staffordshire
 source: JobG8
 job_id: jobg8-107840501
+reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Receptionist
+company: North Staffordshire Combined Healthcare Trust
+location: Stoke on Trent, ST6 5UD
+source: NHS Jobs
+job_id: nhs-5599894
 reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
 ---
 

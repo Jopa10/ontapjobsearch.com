@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 91
-- automatic review: 26
+- automatic review: 29
 - automatic exclude: 21
 - effective include: 91
-- effective review: 26
+- effective review: 29
 - effective exclude: 21
 
 ## INCLUDE (91)
@@ -45,6 +45,18 @@ company: Newcastle City Council
 location: Lemington Riverside, Rokeby Street, Newcastle upon Tyne, NE15 8RR
 source: NEJobs
 job_id: nejobs-301338
+reason: Approved Newcastle catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administrator
+company: TPP Recruitment - Agency - Permanent
+location: Newcastle Upon Tyne
+source: JobG8
+job_id: jobg8-1927931
 reason: Approved Newcastle catchment.
 ---
 
@@ -988,18 +1000,6 @@ reason: Approved Newcastle catchment.
 action: 
 decision: include
 automatic_decision: include
-title: DBS01125/26 - Receptionist - Norham High School
-company: North Tyneside Council
-location: North Tyneside Council
-source: NEJobs
-job_id: nejobs-301184
-reason: Approved Newcastle catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: GP Receptionist
 company: Brunton Park Health Centre
 location: Newcastle Upon Tyne, NE3 5NF
@@ -1116,7 +1116,7 @@ job_id: nhs-5576748
 reason: Approved Newcastle catchment.
 ---
 
-## REVIEW (26)
+## REVIEW (29)
 
 ---
 action: 
@@ -1152,6 +1152,18 @@ location: Ashington, NE63 8BL
 source: NHS Jobs
 job_id: nhs-5584416
 reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: GEM Partnership - Agency - Temporary
+location: Newton Aycliffe
+source: JobG8
+job_id: jobg8-23643_225599062
+reason: No approved Newcastle catchment rule matched; local review required.
 ---
 
 ---
@@ -1272,6 +1284,18 @@ location: Tyne And Wear
 source: JobG8
 job_id: jobg8-1892511
 reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Marketing Executive
+company: Reed - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-1912200
+reason: No approved Newcastle catchment rule matched; local review required.
 ---
 
 ---
@@ -1403,6 +1427,18 @@ company: Northumberland County Council
 location: Eddie Ferguson House, Blyth, United Kingdom
 source: NEJobs
 job_id: nejobs-301243
+reason: No approved Newcastle catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Ward Clerk
+company: Northumbria Healthcare NHS Foundation Trust
+location: Cramlington, NE23 6NZ
+source: NHS Jobs
+job_id: nhs-5600329
 reason: No approved Newcastle catchment rule matched; local review required.
 ---
 
@@ -1581,6 +1617,18 @@ action:
 decision: exclude
 automatic_decision: exclude
 title: Medical Receptionist
+company: Tanfield View Medical Group
+location: County Durham, DH9 8AD
+source: NHS Jobs
+job_id: nhs-5601042
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Medical Receptionist
 company: The Medical Group
 location: Durham, DH7 8NH
 source: NHS Jobs
@@ -1621,18 +1669,6 @@ company: Age UK County Durham
 location: Age UK County Durham
 source: NEJobs
 job_id: nejobs-301543
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Receptionist
-company: South Tyneside and Sunderland NHS Foundation Trust
-location: Sunderland, SR4 7TP
-source: NHS Jobs
-job_id: nhs-5580794
 reason: Separate employment market.
 ---
 

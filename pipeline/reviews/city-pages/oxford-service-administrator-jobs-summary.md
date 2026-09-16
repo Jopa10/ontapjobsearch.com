@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 6
-- automatic review: 10
-- automatic exclude: 12
+- automatic review: 9
+- automatic exclude: 13
 - effective include: 6
-- effective review: 10
-- effective exclude: 12
+- effective review: 9
+- effective exclude: 13
 
 ## INCLUDE (6)
 
@@ -96,7 +96,7 @@ job_id: jobg8-23643_225524539
 reason: Approved conservative Oxford launch catchment.
 ---
 
-## REVIEW (10)
+## REVIEW (9)
 
 ---
 action: 
@@ -174,18 +174,6 @@ reason: No approved Oxford catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Project Coordinator
-company: Cameo Consultancy - Agency - Permanent
-location: Banbury
-source: JobG8
-job_id: jobg8-23643_225582470
-reason: No approved Oxford catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Receptionist
 company: Berry Recruitment - Agency - Permanent
 location: Didcot
@@ -218,7 +206,7 @@ job_id: jobg8-23643_225461932
 reason: No approved Oxford catchment rule matched; local review required.
 ---
 
-## EXCLUDE (12)
+## EXCLUDE (13)
 
 ---
 action: 
@@ -236,11 +224,11 @@ reason: Broad county location; not Oxford-city evidence.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Business Support Assistant
-company: Allen Associates - Agency - Temporary
+title: Administrator
+company: Gill Cooke Personnel Ltd T/A The Recruitment Group - Agency - Permanent
 location: Oxfordshire
 source: JobG8
-job_id: jobg8-23643_225572818
+job_id: jobg8-23643_225598276
 reason: Broad county location; not Oxford-city evidence.
 ---
 
@@ -248,11 +236,23 @@ reason: Broad county location; not Oxford-city evidence.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Claims Administrator
-company: K2 Recruitment - Agency - Permanent
+title: Administrator
+company: Meridian Business Support - Agency - Permanent
 location: Oxfordshire
 source: JobG8
-job_id: jobg8-23643_225412786
+job_id: jobg8-23643_225600034
+reason: Broad county location; not Oxford-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Business Support Assistant
+company: Allen Associates - Agency - Temporary
+location: Oxfordshire
+source: JobG8
+job_id: jobg8-23643_225572818
 reason: Broad county location; not Oxford-city evidence.
 ---
 
@@ -284,11 +284,11 @@ reason: Broad county location; not Oxford-city evidence.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Ecommerce Coordinator (Customer Service, Orders & Platform Support)
-company: Prodrive - Agency - Permanent
+title: Marketing Assistant
+company: Experience Oxfordshire - Agency - Permanent
 location: Oxfordshire
 source: JobG8
-job_id: jobg8-107842716
+job_id: jobg8-107906174
 reason: Broad county location; not Oxford-city evidence.
 ---
 

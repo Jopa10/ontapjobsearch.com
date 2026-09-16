@@ -4,7 +4,7 @@
 - Live route: `/warrington/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 11
+- Effective included jobs: 12
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 11
+- automatic include: 12
 - automatic review: 9
 - automatic exclude: 6
-- effective include: 11
+- effective include: 12
 - effective review: 9
 - effective exclude: 6
 
-## INCLUDE (11)
+## INCLUDE (12)
 
 ---
 action: 
@@ -153,6 +153,18 @@ company: High Street Surgery
 location: Warrington, WA3 3GS
 source: NHS Jobs
 job_id: nhs-5543509
+reason: Approved conservative Warrington launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Retail Support Administrator
+company: AgeUK - Agency - Permanent
+location: Warrington
+source: JobG8
+job_id: jobg8-1927990
 reason: Approved conservative Warrington launch catchment.
 ---
 

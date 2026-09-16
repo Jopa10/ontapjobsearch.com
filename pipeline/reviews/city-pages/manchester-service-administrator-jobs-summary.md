@@ -4,7 +4,7 @@
 - Live route: `/manchester/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 32
+- Effective included jobs: 31
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 32
-- automatic review: 8
+- automatic include: 31
+- automatic review: 10
 - automatic exclude: 1
-- effective include: 32
-- effective review: 8
+- effective include: 31
+- effective review: 10
 - effective exclude: 1
 
-## INCLUDE (32)
+## INCLUDE (31)
 
 ---
 action: 
@@ -40,11 +40,23 @@ reason: Approved conservative Manchester launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Administrative Assistant
+title: Administrator
 company: Manchester University NHS Foundation Trust
-location: Manchester, M13 9WL
+location: Manchester, M16 7AP
 source: NHS Jobs
-job_id: nhs-5597848
+job_id: nhs-5599355
+reason: Approved conservative Manchester launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administrator
+company: Manchester University NHS Foundation Trust
+location: Stretford, Manchester, M32 0TH
+source: NHS Jobs
+job_id: nhs-5599551
 reason: Approved conservative Manchester launch catchment.
 ---
 
@@ -81,6 +93,18 @@ company: Prestige Talent Partners Ltd - Agency - Permanent
 location: Manchester
 source: JobG8
 job_id: jobg8-23643_225263851
+reason: Approved conservative Manchester launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Commercial Administrator
+company: Vital Human Resources - Agency - Contract
+location: Manchester
+source: JobG8
+job_id: jobg8-23643_225597988
 reason: Approved conservative Manchester launch catchment.
 ---
 
@@ -136,18 +160,6 @@ reason: Approved conservative Manchester launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Credit Hire Claims Handler
-company: TIME Appointments Ltd - Agency - Permanent
-location: Manchester
-source: JobG8
-job_id: jobg8-1767113
-reason: Approved conservative Manchester launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Customer Service & Website Administrator
 company: NowSkills - Agency - Permanent
 location: Manchester
@@ -160,11 +172,35 @@ reason: Approved conservative Manchester launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Customer Service Advisor
+company: Guidant Global - Agency - Contract
+location: Manchester
+source: JobG8
+job_id: jobg8-23643_225600735
+reason: Approved conservative Manchester launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Data & Exams Officer
 company: Eden Girls' Leadership Academy, Manchester
 location: Manchester
 source: Teaching Vacancies
 job_id: teaching-vacancies-data-exams-officer-0ab804f7-3ae3-4446-bad0-ef8458fd8eda
+reason: Approved conservative Manchester launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Digital Content & Community Lead
+company: Rio Ferdinand Foundation - Agency - Permanent
+location: Manchester
+source: JobG8
+job_id: jobg8-1927947
 reason: Approved conservative Manchester launch catchment.
 ---
 
@@ -244,18 +280,6 @@ reason: Approved conservative Manchester launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: HR Systems and Reporting Co-ordinator
-company: Adecco - Agency - Permanent
-location: Manchester
-source: JobG8
-job_id: jobg8-1853526
-reason: Approved conservative Manchester launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Internal Sales Support
 company: Jobwise Ltd - Agency - Permanent
 location: Manchester
@@ -309,42 +333,6 @@ company: Success Talent - Agency - Permanent
 location: Manchester
 source: JobG8
 job_id: jobg8-107899785
-reason: Approved conservative Manchester launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Medical Receptionist
-company: Hope Citadel Healthcare CIC
-location: Manchester, M14 6FS
-source: NHS Jobs
-job_id: nhs-5597473
-reason: Approved conservative Manchester launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Medical Receptionist/Admin
-company: Walkden Medical Centre
-location: Manchester, M28 3AT
-source: NHS Jobs
-job_id: nhs-5596997
-reason: Approved conservative Manchester launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Operations Administrator
-company: MFK Recruitment - Agency - Permanent
-location: Manchester
-source: JobG8
-job_id: jobg8-23643_225509120
 reason: Approved conservative Manchester launch catchment.
 ---
 
@@ -408,7 +396,7 @@ job_id: jobg8-23643_225522116
 reason: Approved conservative Manchester launch catchment.
 ---
 
-## REVIEW (8)
+## REVIEW (10)
 
 ---
 action: 
@@ -420,6 +408,18 @@ location: Lancashire
 source: JobG8
 job_id: jobg8-1770791
 reason: No approved Manchester catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Clinical Team Administrator
+company: Greater Manchester Mental Health NHS Foundation Trust
+location: Eccles, M30 0GT
+source: NHS Jobs
+job_id: nhs-5599492
+reason: Broad regional location; review before Manchester inclusion.
 ---
 
 ---
@@ -491,6 +491,18 @@ company: Great Places Housing Association - Agency - Permanent
 location: Lancashire
 source: JobG8
 job_id: jobg8-1895182
+reason: No approved Manchester catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Senior PR Executive
+company: Michael Page Business Support - Agency - Permanent
+location: Lancashire
+source: JobG8
+job_id: jobg8-1916143
 reason: No approved Manchester catchment rule matched; local review required.
 ---
 

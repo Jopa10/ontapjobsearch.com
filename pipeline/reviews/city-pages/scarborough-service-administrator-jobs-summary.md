@@ -16,15 +16,15 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 0
-- automatic review: 20
+- automatic review: 23
 - automatic exclude: 0
 - effective include: 0
-- effective review: 20
+- effective review: 23
 - effective exclude: 0
 
 ## INCLUDE (0)
 
-## REVIEW (20)
+## REVIEW (23)
 
 ---
 action: 
@@ -35,30 +35,6 @@ company: Hays Business Support - Agency - Permanent
 location: Northallerton
 source: JobG8
 job_id: jobg8-23643_225592726
-reason: No exact Scarborough workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator - Receptionist
-company: Tees Esk and Wear Valleys NHS Foundation Trust
-location: Harrogate, HG1 5QE
-source: NHS Jobs
-job_id: nhs-5570628
-reason: No exact Scarborough workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Assessment Administration Coordinator
-company: Advance HE - Agency - Permanent
-location: York
-source: JobG8
-job_id: jobg8-107909020
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 
@@ -114,11 +90,11 @@ reason: No exact Scarborough workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: HR Administrator
-company: Owen Daniels - Agency - Permanent
-location: Pickering
+title: Finance Administrator
+company: Autohorn Fleet Services Ltd - Agency - Permanent
+location: York
 source: JobG8
-job_id: jobg8-1853654
+job_id: jobg8-1778940
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 
@@ -131,6 +107,18 @@ company: Unity Resourcing Ltd - Agency - Permanent
 location: Knaresborough
 source: JobG8
 job_id: jobg8-23643_225544656
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Ledger Clerk
+company: Optimum Recruitment Group Limited - Agency - Permanent
+location: Ripon
+source: JobG8
+job_id: jobg8-107798375
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 
@@ -210,11 +198,35 @@ reason: No exact Scarborough workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Sales and Marketing Coordinator
-company: KD Recruitment Limited - Agency - Permanent
-location: York
+title: Part Time Payroll Administrator (25 hours)
+company: Portfolio Payroll - Agency - Permanent
+location: Yorkshire
 source: JobG8
-job_id: jobg8-107804499
+job_id: jobg8-1789732
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Payroll Administrator
+company: SI Recruitment - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-107919845
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Receptionist/Administrator
+company: Ripon Spa Surgery
+location: Ripon, HG4 2BE
+source: NHS Jobs
+job_id: nhs-5501480
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 
@@ -251,6 +263,30 @@ company: Tees Esk and Wear Valleys NHS Foundation Trust
 location: York, YO32 9XW
 source: NHS Jobs
 job_id: nhs-5590363
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Temporary Bookkeeper
+company: IPS Group - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-107985053
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Temporary Bookkeeper
+company: IPS Group - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-1916296
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 

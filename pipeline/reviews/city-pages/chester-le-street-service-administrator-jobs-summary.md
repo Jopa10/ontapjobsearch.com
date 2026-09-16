@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 3
-- automatic review: 135
+- automatic review: 138
 - automatic exclude: 0
 - effective include: 3
-- effective review: 135
+- effective review: 138
 - effective exclude: 0
 
 ## INCLUDE (3)
@@ -60,7 +60,7 @@ job_id: nhs-5563197
 reason: Exact approved Chester Le Street workplace.
 ---
 
-## REVIEW (135)
+## REVIEW (138)
 
 ---
 action: 
@@ -151,6 +151,18 @@ action:
 decision: review
 automatic_decision: review
 title: Administrator
+company: GEM Partnership - Agency - Temporary
+location: Newton Aycliffe
+source: JobG8
+job_id: jobg8-23643_225599062
+reason: No exact Chester Le Street workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
 company: Northumbria Healthcare NHS Foundation Trust
 location: North Shields, NE29 8NH
 source: NHS Jobs
@@ -167,6 +179,18 @@ company: The Best Connection - Agency - Temporary
 location: Tyne And Wear
 source: JobG8
 job_id: jobg8-23643_225581479
+reason: No exact Chester Le Street workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: TPP Recruitment - Agency - Permanent
+location: Newcastle Upon Tyne
+source: JobG8
+job_id: jobg8-1927931
 reason: No exact Chester Le Street workplace matched; local geographic review is required.
 ---
 
@@ -1206,18 +1230,6 @@ reason: No exact Chester Le Street workplace matched; local geographic review is
 action: 
 decision: review
 automatic_decision: review
-title: DBS01125/26 - Receptionist - Norham High School
-company: North Tyneside Council
-location: North Tyneside Council
-source: NEJobs
-job_id: nejobs-301184
-reason: No exact Chester Le Street workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Development Planner
 company: Persimmon Homes - Agency - Permanent
 location: Tyne And Wear
@@ -1362,6 +1374,18 @@ reason: No exact Chester Le Street workplace matched; local geographic review is
 action: 
 decision: review
 automatic_decision: review
+title: Marketing Executive
+company: Reed - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-1912200
+reason: No exact Chester Le Street workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Marketing Manager
 company: Ronald James - Agency - Permanent
 location: County Durham
@@ -1403,6 +1427,18 @@ company: Parkway Medical Group
 location: Newcastle upon Tyne, NE5 1LJ
 source: NHS Jobs
 job_id: nhs-5593158
+reason: No exact Chester Le Street workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Medical Receptionist
+company: Tanfield View Medical Group
+location: County Durham, DH9 8AD
+source: NHS Jobs
+job_id: nhs-5601042
 reason: No exact Chester Le Street workplace matched; local geographic review is required.
 ---
 
@@ -1487,18 +1523,6 @@ company: Daniel Owen Ltd - Agency - Temporary
 location: Cramlington
 source: JobG8
 job_id: jobg8-23643_225591391
-reason: No exact Chester Le Street workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Receptionist
-company: South Tyneside and Sunderland NHS Foundation Trust
-location: Sunderland, SR4 7TP
-source: NHS Jobs
-job_id: nhs-5580794
 reason: No exact Chester Le Street workplace matched; local geographic review is required.
 ---
 
@@ -1655,6 +1679,18 @@ company: Gateshead Health NHS Foundation Trust
 location: Gateshead, NE9 6SX
 source: NHS Jobs
 job_id: nhs-5576748
+reason: No exact Chester Le Street workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Ward Clerk
+company: Northumbria Healthcare NHS Foundation Trust
+location: Cramlington, NE23 6NZ
+source: NHS Jobs
+job_id: nhs-5600329
 reason: No exact Chester Le Street workplace matched; local geographic review is required.
 ---
 

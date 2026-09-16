@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 3
-- automatic review: 11
+- automatic review: 12
 - automatic exclude: 0
 - effective include: 3
-- effective review: 11
+- effective review: 12
 - effective exclude: 0
 
 ## INCLUDE (3)
@@ -60,7 +60,7 @@ job_id: jobg8-23643_225512252
 reason: Exact approved Macclesfield workplace.
 ---
 
-## REVIEW (11)
+## REVIEW (12)
 
 ---
 action: 
@@ -95,6 +95,18 @@ company: EE - Company - Permanent
 location: Knutsford
 source: JobG8
 job_id: jobg8-20279_62648-bce180f9075237062f9ba04857f8e0b6
+reason: No exact Macclesfield workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Customer Care Coordinator
+company: Forrest Recruitment - Agency - Permanent
+location: Alderley Edge
+source: JobG8
+job_id: jobg8-23643_225600702
 reason: No exact Macclesfield workplace matched; local geographic review is required.
 ---
 

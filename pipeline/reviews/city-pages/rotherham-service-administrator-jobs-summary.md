@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 2
-- automatic review: 16
+- automatic review: 15
 - automatic exclude: 0
 - effective include: 2
-- effective review: 16
+- effective review: 15
 - effective exclude: 0
 
 ## INCLUDE (2)
@@ -48,7 +48,7 @@ job_id: nhs-5588970
 reason: Exact approved Rotherham workplace.
 ---
 
-## REVIEW (16)
+## REVIEW (15)
 
 ---
 action: 
@@ -71,18 +71,6 @@ company: Sue Ross Recruitment Ltd - Agency - Permanent
 location: Sheffield
 source: JobG8
 job_id: jobg8-23643_225469996
-reason: No exact Rotherham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Admin & Clerical Officer Level 2 Rowan School
-company: The Rowan School
-location: Sheffield
-source: Teaching Vacancies
-job_id: teaching-vacancies-admin-clerical-officer-level-2-rowan-school
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 

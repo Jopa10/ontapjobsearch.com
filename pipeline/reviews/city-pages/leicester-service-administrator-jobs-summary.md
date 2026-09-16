@@ -4,7 +4,7 @@
 - Live route: `/leicester/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 6
+- Effective included jobs: 5
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 6
+- automatic include: 5
 - automatic review: 14
 - automatic exclude: 0
-- effective include: 6
+- effective include: 5
 - effective review: 14
 - effective exclude: 0
 
-## INCLUDE (6)
+## INCLUDE (5)
 
 ---
 action: 
@@ -81,18 +81,6 @@ company: InMind
 location: Leicester, LE36QR
 source: NHS Jobs
 job_id: nhs-5597537
-reason: Exact approved Leicester workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Office Administrator
-company: Regional Recruitment - Agency - Permanent
-location: Leicester
-source: JobG8
-job_id: jobg8-23643_225509571
 reason: Exact approved Leicester workplace.
 ---
 
@@ -162,11 +150,11 @@ reason: No exact Leicester workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Contracting Administrator
-company: Tarmac Trading Limited - Company - Permanent
+title: Inventory Clerk / Administrator
+company: Pertemps Leicester - Agency - Temporary
 location: Leicestershire
 source: JobG8
-job_id: jobg8-107841648
+job_id: jobg8-23643_225600343
 reason: No exact Leicester workplace matched; local geographic review is required.
 ---
 

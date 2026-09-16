@@ -16,25 +16,25 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 0
-- automatic review: 52
+- automatic review: 49
 - automatic exclude: 0
 - effective include: 0
-- effective review: 52
+- effective review: 49
 - effective exclude: 0
 
 ## INCLUDE (0)
 
-## REVIEW (52)
+## REVIEW (49)
 
 ---
 action: 
 decision: review
 automatic_decision: review
-title: Administrative Assistant
+title: Administration Assistant
 company: Kent and Medway Mental Health NHS Trust
-location: Canterbury, CT1 1AZ
+location: Sittingbourne, ME10 4HG
 source: NHS Jobs
-job_id: nhs-5591974
+job_id: nhs-5601161
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 
@@ -71,18 +71,6 @@ company: Interaction Recruitment - Agency - Temporary
 location: Rochester
 source: JobG8
 job_id: jobg8-23643_225597318
-reason: No exact Maidstone workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
-company: Invicta Health CIC
-location: Ramsgate, CT11 8AD
-source: NHS Jobs
-job_id: nhs-5576342
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 
@@ -131,18 +119,6 @@ company: Simply Education - Agency - Permanent
 location: Kent
 source: JobG8
 job_id: jobg8-107948013
-reason: No exact Maidstone workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Contract Administrator (Property) - Fixed Term
-company: West Kent Housing Association - Agency - Contract
-location: Kent
-source: JobG8
-job_id: jobg8-107972755
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 
@@ -318,18 +294,6 @@ reason: No exact Maidstone workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: MAF in the Community (MiC) Resourcing Coordinator
-company: Mission Aviation Fellowship UK - Agency - Contract
-location: Kent
-source: JobG8
-job_id: jobg8-107958419
-reason: No exact Maidstone workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Marketing Account Executive - Kent - To &;30K
 company: Jump IT Recruitment Solutions Ltd - Agency - Permanent
 location: Kent
@@ -342,11 +306,23 @@ reason: No exact Maidstone workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Marketing Executive
-company: James Frank Associates - Agency - Permanent
+title: Marketing Content Executive
+company: Mission Aviation Fellowship UK - Agency - Permanent
+location: Folkestone
+source: JobG8
+job_id: jobg8-1909010
+reason: No exact Maidstone workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Marketing Content Executive
+company: Mission Aviation Fellowship UK - Agency - Permanent
 location: Kent
 source: JobG8
-job_id: jobg8-1823024
+job_id: jobg8-1928026
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 
@@ -355,10 +331,10 @@ action:
 decision: review
 automatic_decision: review
 title: Marketing Executive
-company: Reed - Agency - Permanent
+company: James Frank Associates - Agency - Permanent
 location: Kent
 source: JobG8
-job_id: jobg8-1733360
+job_id: jobg8-1823024
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 
@@ -455,18 +431,6 @@ company: Sirius Search HR Recruitment - Agency - Permanent
 location: Kent
 source: JobG8
 job_id: jobg8-1831360
-reason: No exact Maidstone workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: People Resources Coordinator
-company: North Kent College - Agency - Permanent
-location: Kent
-source: JobG8
-job_id: jobg8-1866705
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 

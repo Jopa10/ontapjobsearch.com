@@ -1,4 +1,8 @@
 decision,job_id,title,company,location,source,automatic_decision,effective_decision,reason,matched_rule,city_key
 include,jobg8-23643_225564170,Accounts Assistant,Michael Page - Agency - Permanent,Cardiff,JobG8,include,include,Approved conservative Cardiff launch catchment.,cardiff,cardiff-service-administrator-jobs
+include,jobg8-20279_62802-d7c6b8836d8aad88b024254f869d65a8,Call Centre Agent,EE - Company - Permanent,Cardiff,JobG8,include,include,Approved conservative Cardiff launch catchment.,cardiff,cardiff-service-administrator-jobs
+include,jobg8-20279_62802-85269a08ed0b6ec178c60afb43d9fa54,Call Centre Operator,EE - Company - Permanent,Cardiff,JobG8,include,include,Approved conservative Cardiff launch catchment.,cardiff,cardiff-service-administrator-jobs
+include,jobg8-20279_62802-15fe4c84181266b2a56e090b8736c75e,Contact Centre Agent,EE - Company - Permanent,Cardiff,JobG8,include,include,Approved conservative Cardiff launch catchment.,cardiff,cardiff-service-administrator-jobs
+include,jobg8-20279_62802-f8145293a99ee8a5fe099e7dc9419d9b,Customer Service Advisor,EE - Company - Permanent,Cardiff,JobG8,include,include,Approved conservative Cardiff launch catchment.,cardiff,cardiff-service-administrator-jobs
 include,jobg8-107791604,Key Account Coordinator and Customer Support,Work Wales - Agency - Permanent,Cardiff,JobG8,include,include,Approved conservative Cardiff launch catchment.,cardiff,cardiff-service-administrator-jobs
 include,jobg8-23643_225583872,Site Administrator,Pioneer Selection Ltd - Agency - Permanent,Cardiff,JobG8,include,include,Approved conservative Cardiff launch catchment.,cardiff,cardiff-service-administrator-jobs

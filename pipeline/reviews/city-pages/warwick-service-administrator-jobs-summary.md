@@ -4,8 +4,8 @@
 - Live route: `/warwick/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 4
-- Threshold currently met: yes
+- Effective included jobs: 3
+- Threshold currently met: no
 
 ## How to review
 Edit only the `action:` line inside a job block.
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 4
-- automatic review: 21
+- automatic include: 3
+- automatic review: 22
 - automatic exclude: 0
-- effective include: 4
-- effective review: 21
+- effective include: 3
+- effective review: 22
 - effective exclude: 0
 
-## INCLUDE (4)
+## INCLUDE (3)
 
 ---
 action: 
@@ -52,18 +52,6 @@ reason: Exact approved Warwick workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Customer Service Advisor - Full Time
-company: Adecco - Agency - Permanent
-location: Warwick
-source: JobG8
-job_id: jobg8-23643_225505608
-reason: Exact approved Warwick workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: HR Assistant
 company: Hiring People - Agency - Permanent
 location: Warwick
@@ -72,7 +60,7 @@ job_id: jobg8-1868063
 reason: Exact approved Warwick workplace.
 ---
 
-## REVIEW (21)
+## REVIEW (22)
 
 ---
 action: 
@@ -246,6 +234,18 @@ reason: No exact Warwick workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Occupational Health Administrator
+company: Opus People Solutions Ltd - Agency - Temporary
+location: Coventry
+source: JobG8
+job_id: jobg8-23643_225601184
+reason: No exact Warwick workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Office & Facilities Administrator (Part-time)
 company: NES Group Ltd - Agency - Permanent
 location: Coventry
@@ -258,11 +258,11 @@ reason: No exact Warwick workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Onsite Recruitment Account Coordinator
-company: Winner Recruitment - Agency - Contract
-location: Warwickshire
+title: Part Time Website Content Coordinator
+company: THE RECRUITMENT DUO - Agency - Permanent
+location: Coventry
 source: JobG8
-job_id: jobg8-107925904
+job_id: jobg8-1916346
 reason: No exact Warwick workplace matched; local geographic review is required.
 ---
 

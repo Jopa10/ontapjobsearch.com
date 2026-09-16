@@ -4,7 +4,7 @@
 - Live route: `/shrewsbury/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 1
+- Effective included jobs: 0
 - Threshold currently met: no
 
 ## How to review
@@ -15,26 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 1
+- automatic include: 0
 - automatic review: 10
 - automatic exclude: 0
-- effective include: 1
+- effective include: 0
 - effective review: 10
 - effective exclude: 0
 
-## INCLUDE (1)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administration Assistant (Inclusion and People)
-company: The 3 18 Education Trust
-location: Shrewsbury
-source: Teaching Vacancies
-job_id: teaching-vacancies-administration-assistant-inclusion-and-people
-reason: Exact approved Shrewsbury workplace.
----
+## INCLUDE (0)
 
 ## REVIEW (10)
 

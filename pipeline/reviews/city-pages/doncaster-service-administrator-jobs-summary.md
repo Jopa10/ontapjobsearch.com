@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 5
 - automatic review: 2
-- automatic exclude: 11
+- automatic exclude: 10
 - effective include: 5
 - effective review: 2
-- effective exclude: 11
+- effective exclude: 10
 
 ## INCLUDE (5)
 
@@ -110,7 +110,7 @@ job_id: jobg8-23643_225575501
 reason: No approved Doncaster catchment rule matched; local review required.
 ---
 
-## EXCLUDE (11)
+## EXCLUDE (10)
 
 ---
 action: 
@@ -121,18 +121,6 @@ company: Sue Ross Recruitment Ltd - Agency - Permanent
 location: Sheffield
 source: JobG8
 job_id: jobg8-23643_225469996
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Admin & Clerical Officer Level 2 Rowan School
-company: The Rowan School
-location: Sheffield
-source: Teaching Vacancies
-job_id: teaching-vacancies-admin-clerical-officer-level-2-rowan-school
 reason: Separate employment market.
 ---
 

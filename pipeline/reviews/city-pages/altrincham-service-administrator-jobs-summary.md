@@ -162,11 +162,11 @@ reason: No exact Altrincham workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Receptionist
-company: Winsearch - Agency - Temporary
-location: Cheadle
+title: Purchasing Assistant
+company: Arden Dies - Agency - Permanent
+location: Stockport
 source: JobG8
-job_id: jobg8-23643_225505461
+job_id: jobg8-704935943887178956837340
 reason: No exact Altrincham workplace matched; local geographic review is required.
 ---
 

@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 5
-- automatic review: 32
+- automatic review: 31
 - automatic exclude: 18
 - effective include: 5
-- effective review: 32
+- effective review: 31
 - effective exclude: 18
 
 ## INCLUDE (5)
@@ -52,11 +52,11 @@ reason: Approved Southampton catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Patient Administrator
-company: University Hospital Southampton NHS Trust
-location: Southampton, SO16 5YA
-source: NHS Jobs
-job_id: nhs-5273675
+title: Insurance Account Executive
+company: Aspire Jobs Limited - Agency - Permanent
+location: Southampton
+source: JobG8
+job_id: jobg8-107193862
 reason: Approved Southampton catchment.
 ---
 
@@ -84,7 +84,7 @@ job_id: nhs-5589814
 reason: Approved Southampton catchment.
 ---
 
-## REVIEW (32)
+## REVIEW (31)
 
 ---
 action: 
@@ -174,18 +174,6 @@ reason: No approved Southampton catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Administrator - Start next week
-company: Hartley Resourcing - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-1816335
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Bank Admin Assistant
 company: The Cinnamon Care Collection - Company - Permanent
 location: Hampshire
@@ -263,6 +251,18 @@ company: Vistry Group - Company - Contract
 location: Hampshire
 source: JobG8
 job_id: jobg8-107892817
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Dental Receptionist
+company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
+location: Havant, PO9 2AZ
+source: NHS Jobs
+job_id: nhs-5601966
 reason: Broad location; review before city inclusion.
 ---
 
@@ -366,18 +366,6 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Patient Care Co-ordinator/Receptionist
-company: Abbeywell Surgery
-location: Romsey, SO51 8EN, Romsey, SO517QN
-source: NHS Jobs
-job_id: nhs-5522984
-reason: No approved Southampton catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Project & Office Administrator
 company: Venus Recruitment Ltd - Agency - Permanent
 location: Fleet
@@ -426,18 +414,6 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Sales Coordinator
-company: Adecco - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-23643_225505424
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: School Admin Assistant
 company: Academics - Agency - Temporary
 location: Gosport
@@ -470,19 +446,19 @@ job_id: jobg8-23643_225397700
 reason: Broad location; review before city inclusion.
 ---
 
-## EXCLUDE (18)
-
 ---
 action: 
-decision: exclude
-automatic_decision: exclude
-title: Admin Assistant - Care Home
-company: Barchester Healthcare
-location: Fareham, PO14 2NF
+decision: review
+automatic_decision: review
+title: Ward Clerk
+company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
+location: Alton, GU34 1RJ
 source: NHS Jobs
-job_id: nhs-5522934
-reason: Separate employment market.
+job_id: nhs-5599055
+reason: Broad location; review before city inclusion.
 ---
+
+## EXCLUDE (18)
 
 ---
 action: 
@@ -529,6 +505,18 @@ company: Office Angels - Agency - Temporary
 location: Andover
 source: JobG8
 job_id: jobg8-23643_225594223
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Business Support Administrator
+company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
+location: Portsmouth, PO3 6AD, Cosham, PO6 3NH, Cosham, PO6 3LY
+source: NHS Jobs
+job_id: nhs-5601963
 reason: Separate employment market.
 ---
 
@@ -632,18 +620,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Receptionist - Community Mental Health
-company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
-location: Portsmouth, PO3 6AD, Portsmouth, PO4 8LD
-source: NHS Jobs
-job_id: nhs-5585230
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Receptionist/ Front of House
 company: Search Consultancy Ltd - Agency - Contract
 location: Portsmouth
@@ -685,5 +661,17 @@ company: Veolia - Agency - Permanent
 location: Basingstoke
 source: JobG8
 job_id: jobg8-23643_225587076
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Telesales Executive
+company: Hirecracker - Agency - Permanent
+location: Fareham
+source: JobG8
+job_id: jobg8-107921838
 reason: Separate employment market.
 ---

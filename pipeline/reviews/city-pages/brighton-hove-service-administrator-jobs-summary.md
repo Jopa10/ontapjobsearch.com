@@ -4,8 +4,8 @@
 - Live route: `/brighton-hove/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 7
-- Threshold currently met: yes
+- Effective included jobs: 5
+- Threshold currently met: no
 
 ## How to review
 Edit only the `action:` line inside a job block.
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 7
-- automatic review: 19
+- automatic include: 5
+- automatic review: 24
 - automatic exclude: 7
-- effective include: 7
-- effective review: 19
+- effective include: 5
+- effective review: 24
 - effective exclude: 7
 
-## INCLUDE (7)
+## INCLUDE (5)
 
 ---
 action: 
@@ -45,18 +45,6 @@ company: Office Angels - Agency - Permanent
 location: Brighton
 source: JobG8
 job_id: jobg8-23643_225564678
-reason: Approved Brighton & Hove catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Medical Secretary/Personal Assistant
-company: Sussex Community NHS Foundation Trust
-location: Brighton, BN2 3EW
-source: NHS Jobs
-job_id: nhs-5585848
 reason: Approved Brighton & Hove catchment.
 ---
 
@@ -88,18 +76,6 @@ reason: Approved Brighton & Hove catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Reception Administrator
-company: Sussex Partnership NHS Foundation Trust
-location: Hove, BN3 7HY
-source: NHS Jobs
-job_id: nhs-5570979
-reason: Approved Brighton & Hove catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Receptionist / Administrator
 company: Integrated Care 24 Ltd
 location: Brighton, BN1 7GF
@@ -108,7 +84,19 @@ job_id: nhs-5587236
 reason: Approved Brighton & Hove catchment.
 ---
 
-## REVIEW (19)
+## REVIEW (24)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accommodation & International Admissions Administrative Assistant
+company: Chichester College Group - Company - Permanent
+location: Sussex
+source: JobG8
+job_id: jobg8-107985976
+reason: Broad location; review before city inclusion.
+---
 
 ---
 action: 
@@ -120,6 +108,18 @@ location: Sussex
 source: JobG8
 job_id: jobg8-23643_225525164
 reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator (Part Time)
+company: Practice Plus Group - Health in Justice
+location: Lewes, BN7 1EA
+source: NHS Jobs
+job_id: nhs-5599920
+reason: No approved Brighton & Hove catchment rule matched; local review required.
 ---
 
 ---
@@ -198,6 +198,18 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
+title: HR Assistant
+company: Brook Street - Agency - Permanent
+location: Sussex
+source: JobG8
+job_id: jobg8-1931099
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: HR Coordinator
 company: Oraculum - Agency - Permanent
 location: Sussex
@@ -251,6 +263,18 @@ company: Hamberley Care Management Limited - Company - Permanent
 location: Sussex
 source: JobG8
 job_id: jobg8-23643_225574004
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Receptionist
+company: Sussex Partnership NHS Foundation Trust
+location: Haywards Heath, RH16 4NQ
+source: NHS Jobs
+job_id: nhs-5595913
 reason: Broad location; review before city inclusion.
 ---
 
@@ -323,6 +347,18 @@ company: Office Angels - Agency - Permanent
 location: Sussex
 source: JobG8
 job_id: jobg8-1900339
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Temporary Senior HR Administrator
+company: Michael Page Business Support - Agency - Permanent
+location: Sussex
+source: JobG8
+job_id: jobg8-1912157
 reason: Broad location; review before city inclusion.
 ---
 

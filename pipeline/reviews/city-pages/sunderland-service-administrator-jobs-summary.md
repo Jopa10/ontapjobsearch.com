@@ -4,7 +4,7 @@
 - Live route: `/sunderland/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 2
+- Effective included jobs: 1
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 2
-- automatic review: 136
+- automatic include: 1
+- automatic review: 140
 - automatic exclude: 0
-- effective include: 2
-- effective review: 136
+- effective include: 1
+- effective review: 140
 - effective exclude: 0
 
-## INCLUDE (2)
+## INCLUDE (1)
 
 ---
 action: 
@@ -36,19 +36,7 @@ job_id: nejobs-301377
 reason: Exact approved Sunderland workplace.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Receptionist
-company: South Tyneside and Sunderland NHS Foundation Trust
-location: Sunderland, SR4 7TP
-source: NHS Jobs
-job_id: nhs-5580794
-reason: Exact approved Sunderland workplace.
----
-
-## REVIEW (136)
+## REVIEW (140)
 
 ---
 action: 
@@ -151,6 +139,18 @@ action:
 decision: review
 automatic_decision: review
 title: Administrator
+company: GEM Partnership - Agency - Temporary
+location: Newton Aycliffe
+source: JobG8
+job_id: jobg8-23643_225599062
+reason: No exact Sunderland workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
 company: Northumbria Healthcare NHS Foundation Trust
 location: North Shields, NE29 8NH
 source: NHS Jobs
@@ -167,6 +167,18 @@ company: The Best Connection - Agency - Temporary
 location: Tyne And Wear
 source: JobG8
 job_id: jobg8-23643_225581479
+reason: No exact Sunderland workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: TPP Recruitment - Agency - Permanent
+location: Newcastle Upon Tyne
+source: JobG8
+job_id: jobg8-1927931
 reason: No exact Sunderland workplace matched; local geographic review is required.
 ---
 
@@ -1194,18 +1206,6 @@ reason: No exact Sunderland workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: DBS01125/26 - Receptionist - Norham High School
-company: North Tyneside Council
-location: North Tyneside Council
-source: NEJobs
-job_id: nejobs-301184
-reason: No exact Sunderland workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Development Planner
 company: Persimmon Homes - Agency - Permanent
 location: Tyne And Wear
@@ -1350,6 +1350,18 @@ reason: No exact Sunderland workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
+title: Marketing Executive
+company: Reed - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-1912200
+reason: No exact Sunderland workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Marketing Manager
 company: Ronald James - Agency - Permanent
 location: County Durham
@@ -1403,6 +1415,18 @@ company: Parkway Medical Group
 location: Newcastle upon Tyne, NE5 1LJ
 source: NHS Jobs
 job_id: nhs-5593158
+reason: No exact Sunderland workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Medical Receptionist
+company: Tanfield View Medical Group
+location: County Durham, DH9 8AD
+source: NHS Jobs
+job_id: nhs-5601042
 reason: No exact Sunderland workplace matched; local geographic review is required.
 ---
 
@@ -1655,6 +1679,18 @@ company: Gateshead Health NHS Foundation Trust
 location: Gateshead, NE9 6SX
 source: NHS Jobs
 job_id: nhs-5576748
+reason: No exact Sunderland workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Ward Clerk
+company: Northumbria Healthcare NHS Foundation Trust
+location: Cramlington, NE23 6NZ
+source: NHS Jobs
+job_id: nhs-5600329
 reason: No exact Sunderland workplace matched; local geographic review is required.
 ---
 

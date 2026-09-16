@@ -4,7 +4,7 @@
 - Live route: `/exeter/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 8
+- Effective included jobs: 9
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 8
-- automatic review: 10
+- automatic include: 9
+- automatic review: 12
 - automatic exclude: 0
-- effective include: 8
-- effective review: 10
+- effective include: 9
+- effective review: 12
 - effective exclude: 0
 
-## INCLUDE (8)
+## INCLUDE (9)
 
 ---
 action: 
@@ -100,6 +100,18 @@ reason: Exact approved Exeter workplace.
 action: 
 decision: include
 automatic_decision: include
+title: Slot Administrator (Prep For Surgery)
+company: Royal Devon University Healthcare NHS Foundation Trust
+location: Exeter, EX2 5DW
+source: NHS Jobs
+job_id: nhs-5591768
+reason: Exact approved Exeter workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Temporary Receptionist / Front of House
 company: Office Angels - Agency - Temporary
 location: Exeter
@@ -120,7 +132,19 @@ job_id: jobg8-23643_225568425
 reason: Exact approved Exeter workplace.
 ---
 
-## REVIEW (10)
+## REVIEW (12)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: Hays Business Support - Agency - Temporary
+location: Cullompton
+source: JobG8
+job_id: jobg8-23643_225598346
+reason: No exact Exeter workplace matched; local geographic review is required.
+---
 
 ---
 action: 
@@ -186,11 +210,11 @@ reason: No exact Exeter workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: HR Administrator
-company: Artis Recruitment - Agency - Permanent
-location: Newton Abbot
+title: Finance Assistant / Bookkeeper (Part Time)
+company: Cooper Golding - Agency - Permanent
+location: Barnstaple
 source: JobG8
-job_id: jobg8-1841483
+job_id: jobg8-23643_225598215
 reason: No exact Exeter workplace matched; local geographic review is required.
 ---
 
@@ -198,11 +222,11 @@ reason: No exact Exeter workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Meeting Minutes Administrator
-company: Pertemps Plymouth - Agency - Temporary
-location: Plymouth
+title: HR Administrator
+company: Artis Recruitment - Agency - Permanent
+location: Newton Abbot
 source: JobG8
-job_id: jobg8-23643_225509220
+job_id: jobg8-1841483
 reason: No exact Exeter workplace matched; local geographic review is required.
 ---
 
@@ -227,6 +251,18 @@ company: Acorn by Synergie - Agency - Permanent
 location: Devon
 source: JobG8
 job_id: jobg8-107953534
+reason: No exact Exeter workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Scheduling Administrator
+company: Huntress - Maidstone - Agency - Permanent
+location: Devon
+source: JobG8
+job_id: jobg8-23643_225600089
 reason: No exact Exeter workplace matched; local geographic review is required.
 ---
 

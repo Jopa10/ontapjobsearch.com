@@ -4,7 +4,7 @@
 - Live route: `/birmingham/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 18
+- Effective included jobs: 15
 - Threshold currently met: yes
 
 ## How to review
@@ -15,26 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 18
+- automatic include: 15
 - automatic review: 5
-- automatic exclude: 3
-- effective include: 18
+- automatic exclude: 2
+- effective include: 15
 - effective review: 5
-- effective exclude: 3
+- effective exclude: 2
 
-## INCLUDE (18)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrative assistant
-company: Hall Green Health
-location: Birmingham, B28 8BG
-source: NHS Jobs
-job_id: nhs-5569602
-reason: Approved conservative Birmingham launch catchment.
----
+## INCLUDE (15)
 
 ---
 action: 
@@ -76,11 +64,11 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Finance Assistant
-company: Gleeson Recruitment Group - Agency - Permanent
-location: Birmingham
-source: JobG8
-job_id: jobg8-23643_225537904
+title: GP receptionist
+company: Eden Court Medical Practice
+location: Birmingham, B35 6EE
+source: NHS Jobs
+job_id: nhs-5600185
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -100,11 +88,11 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Legacy Administrator
-company: University Hospitals Birmingham Charity - Agency - Permanent
+title: Inclusion House Content Officer
+company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Birmingham
 source: JobG8
-job_id: jobg8-1887332
+job_id: jobg8-1916298
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -124,18 +112,6 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Medical Administrator
-company: West Heath Surgery
-location: Birmingham, B31 3HB, Birmingham, B38 8AX
-source: NHS Jobs
-job_id: nhs-5587707
-reason: Approved conservative Birmingham launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Office Administrator
 company: Alliance Personnel - Agency - Permanent
 location: Birmingham
@@ -148,11 +124,11 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Office Administrator
-company: St James Catholic Primary School
+title: Part Time PA & Executive Coordinator
+company: Katie Bard - Agency - Contract
 location: Birmingham
-source: Teaching Vacancies
-job_id: teaching-vacancies-office-administrator-st-james-catholic-primary-school
+source: JobG8
+job_id: jobg8-23643_225599693
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -189,18 +165,6 @@ company: King Edward VI Balaam Wood Academy
 location: Birmingham
 source: Teaching Vacancies
 job_id: teaching-vacancies-receptionist-king-edward-vi-balaam-wood-academy-birmingham-west-midlands
-reason: Approved conservative Birmingham launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Recruitment Administrator - Healthcare Recruitment
-company: Brookes HC Recruitment Ltd - Agency - Permanent
-location: Birmingham
-source: JobG8
-job_id: jobg8-23643_225575146
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -302,7 +266,7 @@ job_id: nhs-5566975
 reason: No approved Birmingham catchment rule matched; local review required.
 ---
 
-## EXCLUDE (3)
+## EXCLUDE (2)
 
 ---
 action: 
@@ -313,18 +277,6 @@ company: Michael Page Business Support - Agency - Permanent
 location: Solihull
 source: JobG8
 job_id: jobg8-1884320
-reason: Separate exact-city market at launch.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Learning & Development Coordinator
-company: Whale Tankers - Agency - Permanent
-location: Solihull
-source: JobG8
-job_id: jobg8-1851723
 reason: Separate exact-city market at launch.
 ---
 

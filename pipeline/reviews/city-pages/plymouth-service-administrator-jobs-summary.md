@@ -4,7 +4,7 @@
 - Live route: `/plymouth/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 2
+- Effective included jobs: 1
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 2
-- automatic review: 16
+- automatic include: 1
+- automatic review: 20
 - automatic exclude: 0
-- effective include: 2
-- effective review: 16
+- effective include: 1
+- effective review: 20
 - effective exclude: 0
 
-## INCLUDE (2)
+## INCLUDE (1)
 
 ---
 action: 
@@ -36,19 +36,7 @@ job_id: teaching-vacancies-estates-administrator-learning-academies-trust
 reason: Exact approved Plymouth workplace.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Meeting Minutes Administrator
-company: Pertemps Plymouth - Agency - Temporary
-location: Plymouth
-source: JobG8
-job_id: jobg8-23643_225509220
-reason: Exact approved Plymouth workplace.
----
-
-## REVIEW (16)
+## REVIEW (20)
 
 ---
 action: 
@@ -71,6 +59,18 @@ company: Build Recruitment - Agency - Temporary
 location: Exeter
 source: JobG8
 job_id: jobg8-23643_225580652
+reason: No exact Plymouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: Hays Business Support - Agency - Temporary
+location: Cullompton
+source: JobG8
+job_id: jobg8-23643_225598346
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 
@@ -119,6 +119,18 @@ company: Pontoon - Agency - Contract
 location: Devon
 source: JobG8
 job_id: jobg8-23643_225572997
+reason: No exact Plymouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Finance Assistant / Bookkeeper (Part Time)
+company: Cooper Golding - Agency - Permanent
+location: Barnstaple
+source: JobG8
+job_id: jobg8-23643_225598215
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 
@@ -186,6 +198,18 @@ reason: No exact Plymouth workplace matched; local geographic review is required
 action: 
 decision: review
 automatic_decision: review
+title: Scheduling Administrator
+company: Huntress - Maidstone - Agency - Permanent
+location: Devon
+source: JobG8
+job_id: jobg8-23643_225600089
+reason: No exact Plymouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Secretary
 company: Lockhart Recruitment - Agency - Permanent
 location: Devon
@@ -215,6 +239,18 @@ company: Royal Devon University Healthcare NHS Foundation Trust
 location: Exeter, EX2 5DW
 source: NHS Jobs
 job_id: nhs-5594406
+reason: No exact Plymouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Slot Administrator (Prep For Surgery)
+company: Royal Devon University Healthcare NHS Foundation Trust
+location: Exeter, EX2 5DW
+source: NHS Jobs
+job_id: nhs-5591768
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 
