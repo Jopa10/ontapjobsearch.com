@@ -32,7 +32,7 @@ Edit only each `action:` line:
 ## JobG8 — 10 to review
 
 ---
-action:
+action: select
 POSS | JobG8 | Berkshire | Berkshire | £30000 - £34000 per year | Helpdesk Coordinator
 source_key: jobg8
 source: JobG8
@@ -50,7 +50,7 @@ hub_fingerprint: 0620ff351c62b7c3cec708c51394e8b9407456010c654567451e24daa8449ca
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Cheshire - East | Alderley Edge | £30000 - £32000 per year | Customer Care Coordinator
 source_key: jobg8
 source: JobG8
@@ -68,7 +68,7 @@ hub_fingerprint: ca4e45346532fffba9f2a4d363c2e0b081cec744d988b6076f6e78f8d12ee74
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Greater Manchester - Manchester & Salford | Manchester | £150 - £165 per daily (Umbrella) | Commercial Administrator
 source_key: jobg8
 source: JobG8
@@ -86,7 +86,7 @@ hub_fingerprint: 302fb0126157492aa391773a528ac0680ed93955859b6801d6ea442187c116f
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Hertfordshire | Hertfordshire | £27000 - £35000 per year | Sales Administrator
 source_key: jobg8
 source: JobG8
@@ -104,7 +104,7 @@ hub_fingerprint: fcd99249f96a68d081ad6fc657375f4d5223fe8b64f054376c212510232750c
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | London | London | £35000 - £37000 per year | Team Administrator
 source_key: jobg8
 source: JobG8
@@ -122,7 +122,7 @@ hub_fingerprint: 56e1e25be00b2e8ef1475aa5ec0d5d4df9340ff3357c9eb30d746f74c45e49e
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Northamptonshire | Northamptonshire | £28000 - £32000 per year (Benefits) | Executive Coordinator
 source_key: jobg8
 source: JobG8
@@ -140,7 +140,7 @@ hub_fingerprint: 1f1973351cbf2c6aa37b008cf7847cd4c4450b906f9ab1dee5f43c3b07ae8da
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | Scotland Central - Edinburgh & Lothians | Edinburgh | £18 - £24 per hour | Temporary Salesforce Administrator
 source_key: jobg8
 source: JobG8
@@ -158,7 +158,7 @@ hub_fingerprint: e3470cb217edd6255b36bc3206861b19bf370aa1287b29c564fae1f9eb38671
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | Scotland West - Glasgow | Glasgow | £55000 - £80000 per year | Financial Planner
 source_key: jobg8
 source: JobG8
@@ -176,7 +176,7 @@ hub_fingerprint: 3901093cbd36131a107df7963f71588c10717c69bf05acf190d9a77ff1f95ad
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | West Midlands - Birmingham & Solihull | Birmingham | £33000 - £35000 per year | Part Time PA & Executive Coordinator
 source_key: jobg8
 source: JobG8
@@ -194,7 +194,7 @@ hub_fingerprint: c6546771d67b11c9619025a963c5708ca111274871c981d680c7d80764a2cc5
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | Yorkshire - East | Brough | £20 per hour | Training and Business Coordinator
 source_key: jobg8
 source: JobG8
