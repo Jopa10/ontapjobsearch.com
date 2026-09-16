@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Nottinghamshire
 
-review_date: 2026-09-15
-review_fingerprint: 2739b1c46a3ee2a72ecaee463b6081cc7409a4cde5460f341b02701fc1a8b33c
-routing_manifest_sha256: a6b9ec556aafa6283d9a01f9259ec550a52b9b3ca6088ad5a51915edbcb77414
+review_date: 2026-09-16
+review_fingerprint: b8fb8ab1fa7a78e7cd6291bbf832a01f1ea4da0d92905a039a29219edc51edd3
+routing_manifest_sha256: 45a8ce4bb4f12276c14b5974540a88cd95b03b6254694d13463722dddac389d7
 ontap_region: Nottinghamshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 23
-- Selected: 11
+- Records: 25
+- Selected: 12
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 11
+- Hard pass: 12
 
 ## SELECTED
 
@@ -98,6 +98,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assist
 
 ---
 action: 
+SELECTED | Nottinghamshire | Nottingham, East Midlands, NG4 2LR | £22,753 Actual Salary (£26,016 FTE) | Administrative Assistant
+employer: Netherfield Primary School
+closing_date: 2026-10-08T12:00:00+01:00
+reason: Clear admin/service title: administrative assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 0888ff7afe13720fbe1f299afee1d1b7d497feff1c048014608af77b237af55d
+source: Teaching Vacancies
+source_job_id: administrative-assistant-netherfield-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-netherfield-primary-school
+---
+
+---
+action: 
 SELECTED | Nottinghamshire | Newark, East Midlands, NG24 3AL | £11,495.00 Annually (Actual) Term Time Only Monday - Friday 12:30 - 16:30 G3.6 £24796 FTE | Administrative Assistant
 employer: Newark Orchard School
 closing_date: 2026-09-27T23:59:00+01:00
@@ -143,14 +158,14 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/healthcare-assistant-
 
 ---
 action: 
-SELECTED | Nottinghamshire | Nottingham, East Midlands, NG7 6ND | £26,736.00 - £28,475.00 Annually (FTE) PayScale 4, £25,468 - £27,124 | Receptionist & Administrative Assistant
+SELECTED | Nottinghamshire | Nottingham, East Midlands, NG7 6ND | £26,736.00 - £28,475.00 Annually (FTE) PayScale 4, £25,468 - £27,124 Pro-rata | Receptionist & Administrative Assistant
 employer: Djanogly City Academy
 closing_date: 2026-09-27T23:59:00+01:00
 reason: Clear admin/service title: administrative assistant, receptionist
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: bd3b9cf79d45a8f0d27eb66591570f6c12c71d6286d32d9fd2d6974d2ee2f640
+factual_fingerprint: 6890b89707bdf2e91b93ce01ea3c3634a40debf04f11a64dc16eabd8ad629f32
 source: Teaching Vacancies
 source_job_id: receptionist-administrative-assistant-djanogly-city-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrative-assistant-djanogly-city-academy
@@ -220,6 +235,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/data-officer-the-whit
 - [Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-newark-orchard-school-newark) — Insufficient admin/service evidence.
 - [Purchase Ledger Assistant](https://teaching-vacancies.service.gov.uk/jobs/purchase-ledger-assistant-redhill-academy-trust) — Insufficient admin/service evidence.
 - [School Business Administrator](https://teaching-vacancies.service.gov.uk/jobs/school-business-administrator-ladycross-infant-school) — Missing salary or pay scale.
+- [School Office Manager](https://teaching-vacancies.service.gov.uk/jobs/school-office-manager-burntstump-seely-cofe-primary-academy) — Manager title salary ceiling £30,514 is not below £28,000.
 
 ## Safety boundary
 

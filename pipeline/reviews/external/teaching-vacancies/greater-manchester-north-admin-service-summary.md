@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Greater Manchester - North
 
-review_date: 2026-09-15
-review_fingerprint: fe0daac665af9829501bfaa9d7fde21278d391ff4b56748b9613c2970cf940be
-routing_manifest_sha256: a6b9ec556aafa6283d9a01f9259ec550a52b9b3ca6088ad5a51915edbcb77414
+review_date: 2026-09-16
+review_fingerprint: 642131461f7b691a35959589a77ff28773553a40bbad7595a48a4a86f8800ed0
+routing_manifest_sha256: 45a8ce4bb4f12276c14b5974540a88cd95b03b6254694d13463722dddac389d7
 ontap_region: Greater Manchester - North
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 9
-- Selected: 4
+- Records: 10
+- Selected: 5
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 4
@@ -64,6 +64,21 @@ factual_fingerprint: d464dbee93d58fa6d1a919ecf956ede26cb7733336e49ba563b79c85ad5
 source: Teaching Vacancies
 source_job_id: attendance-officer-b2687496-661e-4f75-90a0-78b384aebb39
 source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-b2687496-661e-4f75-90a0-78b384aebb39
+---
+
+---
+action: 
+SELECTED | Greater Manchester - North | Oldham, North West, OL8 3PT | £27,274 - £29,071 per annum | Business Administrator
+employer: Hollinwood Academy
+closing_date: 2026-10-02T09:00:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: UNREGISTERED
+migration_status: 
+factual_fingerprint: cb782ab744e6ae40aaf013d112bee55684d465763a6a007db676311239bcdc17
+source: Teaching Vacancies
+source_job_id: business-administrator-hollinwood-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/business-administrator-hollinwood-academy
 ---
 
 ---

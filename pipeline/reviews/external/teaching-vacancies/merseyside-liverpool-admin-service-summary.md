@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Merseyside - Liverpool
 
-review_date: 2026-09-15
-review_fingerprint: 3027f8b028997b9b8ed212eeccaa13e49d6861431e09483fc89bbc57e945fce1
-routing_manifest_sha256: a6b9ec556aafa6283d9a01f9259ec550a52b9b3ca6088ad5a51915edbcb77414
+review_date: 2026-09-16
+review_fingerprint: 4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945
+routing_manifest_sha256: 45a8ce4bb4f12276c14b5974540a88cd95b03b6254694d13463722dddac389d7
 ontap_region: Merseyside - Liverpool
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,15 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 3
-- Selected: 1
+- Records: 2
+- Selected: 0
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 2
 
 ## SELECTED
 
----
-action: 
-SELECTED | Merseyside - Liverpool | Liverpool, North West, L14 5NX | £31,015.00 - £33,119.00 Annually (FTE) NJC SCP 15 - 19 | School Operations & PA to Headteacher
-employer: Knotty Ash Primary School
-closing_date: 2026-09-16T12:00:00+01:00
-reason: Clear admin/service title: pa to
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: a1aacdd1b67a229d7c95fe378faf5db12b6094f76a540557cbdd8a1de44cd031
-source: Teaching Vacancies
-source_job_id: school-operations-pa-to-headteacher
-source_url: https://teaching-vacancies.service.gov.uk/jobs/school-operations-pa-to-headteacher
----
+- None.
 
 ## POSS — choose SELECT or EXCLUDE
 

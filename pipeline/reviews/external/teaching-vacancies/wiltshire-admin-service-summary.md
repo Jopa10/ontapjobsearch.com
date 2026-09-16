@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Wiltshire
 
-review_date: 2026-09-15
+review_date: 2026-09-16
 review_fingerprint: 0f1d857391932f3e7d4c5a4c0b36da5f2e338ffd302260c7d22592d434e0be18
-routing_manifest_sha256: a6b9ec556aafa6283d9a01f9259ec550a52b9b3ca6088ad5a51915edbcb77414
+routing_manifest_sha256: 45a8ce4bb4f12276c14b5974540a88cd95b03b6254694d13463722dddac389d7
 ontap_region: Wiltshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 21
+- Records: 23
 - Selected: 7
 - POSS awaiting decision: 3
 - Excluded: 0
-- Hard pass: 11
+- Hard pass: 13
 
 ## SELECTED
 
@@ -183,13 +183,15 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/governance-profession
 - [Chief Financial Officer](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-0d106d15-bbf0-467f-8794-3393ccb03a2b) — Insufficient admin/service evidence.
 - [Early Years Stronger Practice Hub Manager](https://teaching-vacancies.service.gov.uk/jobs/early-years-stronger-practice-hub-manager) — Manager title salary ceiling £41,771 is not below £28,000.
 - [Educational Support Assistant - Admissions](https://teaching-vacancies.service.gov.uk/jobs/educational-support-assistant-admissions) — Insufficient admin/service evidence.
+- [Finance Manager (0.6 FTE)](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-0-6-fte-ascend-learning-trust) — Manager title salary ceiling £54,495 is not below £28,000.
 - [Head of Finance](https://teaching-vacancies.service.gov.uk/jobs/head-of-finance-magna-learning-partnership-salisbury-not-recorded) — Insufficient admin/service evidence.
 - [HR Advisor](https://teaching-vacancies.service.gov.uk/jobs/hr-advisor-ascend-learning-trust) — Insufficient admin/service evidence.
 - [HR Generalist](https://teaching-vacancies.service.gov.uk/jobs/hr-generalist) — Insufficient admin/service evidence.
+- [Recruitment Lead](https://teaching-vacancies.service.gov.uk/jobs/recruitment-lead-126da904-70b2-4de7-b993-e740579fd411) — Insufficient admin/service evidence.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-lethbridge-primary-school) — Manager title salary ceiling £35,814 is not below £28,000.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-paxcroft-primary-school) — Manager title salary ceiling £37,563 is not below £28,000.
 - [Senior Operations Lead](https://teaching-vacancies.service.gov.uk/jobs/senior-operations-lead) — Insufficient admin/service evidence.
-- [Student Manager](https://teaching-vacancies.service.gov.uk/jobs/student-manager-royal-wootton-bassett-academy) — Manager title salary ceiling £33,699 is not below £28,000.
+- [Senior Pupil Services Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-pupil-services-officer-grange-infants-school) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

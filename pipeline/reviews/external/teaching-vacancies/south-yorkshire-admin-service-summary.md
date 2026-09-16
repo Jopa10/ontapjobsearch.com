@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - South
 
-review_date: 2026-09-15
-review_fingerprint: b4eb364d1424087ea04fc2737cdc845139aa7bfc3e21a0ed3bc869a055a37b19
-routing_manifest_sha256: a6b9ec556aafa6283d9a01f9259ec550a52b9b3ca6088ad5a51915edbcb77414
+review_date: 2026-09-16
+review_fingerprint: 9c0d24acd205c5182d4dea1460edf1caaa5a9260fc4e3f91e0cfd6d44a3fc71d
+routing_manifest_sha256: 45a8ce4bb4f12276c14b5974540a88cd95b03b6254694d13463722dddac389d7
 ontap_region: Yorkshire - South
 slice_category: admin_service
 slice_status: LIVE
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 26
-- Selected: 4
+- Records: 27
+- Selected: 5
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 21
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Yorkshire - South | Rotherham, Yorkshire and the Humber, S63 0NU | £26,017.00 - £26,847.00 Annually (FTE) scp 4-6 Pro rata £20,660 - £21,319 | Administration Assistant
+employer: Gooseacre Primary Academy
+closing_date: 2026-09-25T09:00:00+01:00
+reason: Clear admin/service title: administration assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 91e8d487e9a7a4fb713ea841571a73f61890d5f97ab892fa26417d02817f22bc
+source: Teaching Vacancies
+source_job_id: administration-assistant-gooseacre-primary-academy-rotherham-south-yorkshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-gooseacre-primary-academy-rotherham-south-yorkshire
+---
 
 ---
 action: 

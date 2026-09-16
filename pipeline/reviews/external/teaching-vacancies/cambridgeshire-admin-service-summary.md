@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cambridgeshire
 
-review_date: 2026-09-15
-review_fingerprint: 1b9a40db07d9efd97c53b527d8bb1f5d9006baa0fedd5766d0724ee131a0058c
-routing_manifest_sha256: a6b9ec556aafa6283d9a01f9259ec550a52b9b3ca6088ad5a51915edbcb77414
+review_date: 2026-09-16
+review_fingerprint: 17c6ffa51ee86cb0dc4e1f40d48652df849f70fcc7a8cd23e24e9527235c2229
+routing_manifest_sha256: 45a8ce4bb4f12276c14b5974540a88cd95b03b6254694d13463722dddac389d7
 ontap_region: Cambridgeshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 22
+- Records: 21
 - Selected: 6
-- POSS awaiting decision: 6
+- POSS awaiting decision: 5
 - Excluded: 0
 - Hard pass: 10
 
@@ -186,21 +186,6 @@ factual_fingerprint: 1daa56534ca35e1e391403026b52171a78c3b04aabf90ab2c8e87068b50
 source: Teaching Vacancies
 source_job_id: finance-officer-trumpington-community-college
 source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-officer-trumpington-community-college
----
-
----
-action: 
-POSS | Cambridgeshire | Huntingdon, PE28 5TQ | £32,061.00 Annually (Actual) | Marketing & Communications Officer
-employer: Meridian Trust
-closing_date: 2026-09-16T08:00:00+01:00
-reason: Borderline school administration title: communications officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: e17600e0d99d562376adc547dff4a4ad6911c120a634d2fee31e8a82f6fd72d3
-source: Teaching Vacancies
-source_job_id: marketing-communications-officer-2a432f35-1c7d-4c5e-90a3-e035ce925749
-source_url: https://teaching-vacancies.service.gov.uk/jobs/marketing-communications-officer-2a432f35-1c7d-4c5e-90a3-e035ce925749
 ---
 
 ## EXCLUDED BY REVIEW

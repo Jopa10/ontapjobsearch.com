@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — London
 
-review_date: 2026-09-15
-review_fingerprint: ae4fb18b30009bc6f4211e401910a58f52b29cbe5d87060182074265de04fd56
-routing_manifest_sha256: a6b9ec556aafa6283d9a01f9259ec550a52b9b3ca6088ad5a51915edbcb77414
+review_date: 2026-09-16
+review_fingerprint: 5cf4fcd258dd62c38df9080d2cc6fc398d8dc3a9f1ebfd94dab81db958b83ff5
+routing_manifest_sha256: 45a8ce4bb4f12276c14b5974540a88cd95b03b6254694d13463722dddac389d7
 ontap_region: London
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 64
-- Selected: 22
+- Records: 70
+- Selected: 24
 - POSS awaiting decision: 5
 - Excluded: 0
-- Hard pass: 37
+- Hard pass: 41
 
 ## SELECTED
 
@@ -203,6 +203,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-and-administr
 
 ---
 action: 
+SELECTED | London | London, London, N21 3HS | £15,336.00 - £16,233.00 Annually (Actual) | Human Resources Administrator
+employer: Winchmore School
+closing_date: 2026-09-30T09:00:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 62d7e581d30a7acd69b71de77aec2154e5f9cc4fddcf6c37f21979c124cbcedf
+source: Teaching Vacancies
+source_job_id: human-resources-administrator-winchmore-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/human-resources-administrator-winchmore-school
+---
+
+---
+action: 
 SELECTED | London | London, London, N22 7ST | £34,776.00 - £35,703.00 Annually (Actual) SO1 £38,256 to £39,276 | KS4 Administrator and IAG Provision Officer
 employer: Heartlands High School
 closing_date: 2026-09-22T09:00:00+01:00
@@ -233,6 +248,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/partnership-london-sc
 
 ---
 action: 
+SELECTED | London | Barnet, London, EN4 0BL | £36,055.00 - £37,873.00 Annually (Actual) | Personal Assistant to the Headteacher
+employer: Southgate School
+closing_date: 2026-10-05T09:00:00+01:00
+reason: Clear admin/service title: personal assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 4518b5bb7ed8dc2552d4155b36185cb6167cc68d5a3bc2b17817faaa9e3f9f8c
+source: Teaching Vacancies
+source_job_id: personal-assistant-to-the-headteacher-southgate-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/personal-assistant-to-the-headteacher-southgate-school
+---
+
+---
+action: 
 SELECTED | London | Ruislip, London, HA4 0LS | £22,978.00 - £24,675.00 Annually (Actual) NJC Scales 4-5, Point 7-12 | Post 16 Academic Supervisor and Administrator
 employer: Queensmead School
 closing_date: 2026-09-17T09:00:00+01:00
@@ -248,17 +278,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/post-16-academic-supe
 
 ---
 action: 
-SELECTED | London | London, London, N17 6AR | £27,532.96 - £28,735.61 Annually (Actual) | Receptionist / Administrative Assistant
-employer: The Grove
-closing_date: 2026-09-18T09:00:00+01:00
-reason: Clear admin/service title: administrative assistant, receptionist
+SELECTED | London | Bushey, East of England, WD23 3AA | NJC payscale points 7-11, (£28,354-£30,150) pro rata; actual salary £17,903.54-£19,037.58 | Receptionist/Administration Assistant (Part Time) - HT
+employer: The Grange Academy
+closing_date: 2026-09-30T17:00:00+01:00
+reason: Clear admin/service title: receptionist
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: c184180ae4df4d41b53caab556638d65a40ab322b2646338e7903bd5b6efa90c
+factual_fingerprint: d47327e8b35fca51b4ddf6a06b0724f9fcd6c078be40be0b99ee9ac9612ebb3f
 source: Teaching Vacancies
-source_job_id: receptionist-administrative-assistant-8e17e079-a51d-4186-b318-f74fe5948d01
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrative-assistant-8e17e079-a51d-4186-b318-f74fe5948d01
+source_job_id: receptionist-administration-assistant-part-time-ht
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administration-assistant-part-time-ht
 ---
 
 ---
@@ -293,6 +323,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/sen-administrative-as
 
 ---
 action: 
+SELECTED | London | London, London, E11 2JZ | £36,593.00 - £37,690.00 Annually (Actual) | SEND Administrator
+employer: Wanstead High School
+closing_date: 2026-09-18T23:59:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 7a72794bb842715dfa3dad9cbe549178d93a2e7045d6780433455586b55d066a
+source: Teaching Vacancies
+source_job_id: send-administrator-wanstead-high-school-london
+source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-wanstead-high-school-london
+---
+
+---
+action: 
 SELECTED | London | London, London, SE15 5DZ | £36,963- £39,216 | SEND and Medical Administrator
 employer: Harris Academy Peckham
 closing_date: 2026-09-21T23:59:00+01:00
@@ -319,21 +364,6 @@ factual_fingerprint: c064416c5f27166e032b2169144aa77066401d966ad23062069eecb00b8
 source: Teaching Vacancies
 source_job_id: senior-data-administrator
 source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-data-administrator
----
-
----
-action: 
-SELECTED | London | Morden, London, SM4 6DU | £31,086-£31,530 | Student Services and Medical Receptionist
-employer: Harris Academy Morden
-closing_date: 2026-09-21T23:59:00+01:00
-reason: Clear admin/service title: receptionist
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 0db0884a588f58fd095eeaa56865d61fe4aec2a5c8d16f2f0081b25b649d2b28
-source: Teaching Vacancies
-source_job_id: student-services-and-medical-receptionist
-source_url: https://teaching-vacancies.service.gov.uk/jobs/student-services-and-medical-receptionist
 ---
 
 ---
@@ -436,12 +466,14 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 
 - [Attendance & Welfare Lead and Deputy Designated Safeguarding Lead (DDSL)](https://teaching-vacancies.service.gov.uk/jobs/attendance-welfare-lead-and-deputy-designated-safeguarding-lead-ddsl) — Insufficient admin/service evidence.
 - [Business Operations & Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/business-operations-finance-manager) — Manager title salary ceiling £59,394 is not below £28,000.
+- [Business Support and Finance Co-Ordinator](https://teaching-vacancies.service.gov.uk/jobs/business-support-and-finance-co-ordinator) — Insufficient admin/service evidence.
 - [Data & Exams Manager](https://teaching-vacancies.service.gov.uk/jobs/data-exams-manager-ark-bolingbroke-academy) — Manager title salary ceiling £44,231 is not below £28,000.
 - [Data Manager / Support ICT Officer](https://teaching-vacancies.service.gov.uk/jobs/data-manager-support-ict-officer) — Manager title without salary evidence below £28,000.
 - [Deputy HR Manager](https://teaching-vacancies.service.gov.uk/jobs/deputy-hr-manager-impact-multi-academy-trust) — Manager title salary ceiling £45,750 is not below £28,000.
 - [Family Welfare Officer](https://teaching-vacancies.service.gov.uk/jobs/family-welfare-officer-orion-eden-park-beckenham-kent) — Insufficient admin/service evidence.
 - [Finance Apprentice](https://teaching-vacancies.service.gov.uk/jobs/finance-apprentice-hertswood-academy-borehamwood-hertfordshire) — Insufficient admin/service evidence.
 - [Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-alternative-learning-trust) — Insufficient admin/service evidence.
+- [Finance Assistant AP](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-ap) — Insufficient admin/service evidence.
 - [Fundraising Officer](https://teaching-vacancies.service.gov.uk/jobs/fundraising-officer-ac67c185-438c-4d63-82c9-4fcd5524afc9) — Insufficient admin/service evidence.
 - [Head of Governance & Compliance](https://teaching-vacancies.service.gov.uk/jobs/head-of-governance-compliance-the-charter-schools-educational-trust) — Insufficient admin/service evidence.
 - [HR Assistant](https://teaching-vacancies.service.gov.uk/jobs/hr-assistant-wanstead-high-school) — Insufficient admin/service evidence.
@@ -449,7 +481,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 - [HR Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-ark-oval-primary-academy-croydon-surrey) — Insufficient admin/service evidence.
 - [HR Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-woodside-primary-school-croydon-surrey) — Insufficient admin/service evidence.
 - [Human Resources & Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/human-resources-operations-manager-the-woodland-academy-trust) — Manager title salary ceiling £59,778 is not below £28,000.
-- [Human Resources Manager (Schools)](https://teaching-vacancies.service.gov.uk/jobs/human-resources-manager-schools) — Manager title salary ceiling £41,000 is not below £28,000.
+- [Human Resources Business Partner/People Manager FTC](https://teaching-vacancies.service.gov.uk/jobs/human-resources-business-partner-people-manager-ftc) — Manager title salary ceiling £56,000 is not below £28,000.
 - [Human Resources Officer](https://teaching-vacancies.service.gov.uk/jobs/human-resources-officer-saint-john-southworth-catholic-academy-trust) — Insufficient admin/service evidence.
 - [Learning Resource Centre Manager](https://teaching-vacancies.service.gov.uk/jobs/learning-resource-centre-manager-harris-city-academy-crystal-palace-london) — Manager title salary ceiling £34,488 is not below £28,000.
 - [Management Accountant/Business Partner](https://teaching-vacancies.service.gov.uk/jobs/management-accountant-business-partner-198dd29f-f552-4960-8678-e6be462b2563) — Insufficient admin/service evidence.
@@ -458,6 +490,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 - [Office Manager / PA to Head of School](https://teaching-vacancies.service.gov.uk/jobs/office-manager-pa-to-head-of-school-moorcroft-school) — Manager title salary ceiling £36,390 is not below £28,000.
 - [Part Time HR Officer](https://teaching-vacancies.service.gov.uk/jobs/part-time-hr-officer) — Insufficient admin/service evidence.
 - [Payroll Officer](https://teaching-vacancies.service.gov.uk/jobs/payroll-officer-b2efa37a-6b4a-4d64-ab55-23d9744d8569) — Insufficient admin/service evidence.
+- [People/HR Shared Service Desk Lead](https://teaching-vacancies.service.gov.uk/jobs/people-hr-shared-service-desk-lead) — Insufficient admin/service evidence.
+- [Procurement and Payments Manager](https://teaching-vacancies.service.gov.uk/jobs/procurement-and-payments-manager-girls-learning-trust) — Manager title salary ceiling £50,675 is not below £28,000.
 - [Receptionist/Medical Administrator](https://teaching-vacancies.service.gov.uk/jobs/receptionist-medical-administrator) — Missing salary or pay scale.
 - [Recruitment and Engagement Manager](https://teaching-vacancies.service.gov.uk/jobs/recruitment-and-engagement-manager) — Manager title salary ceiling £42,060 is not below £28,000.
 - [Reprographics Officer](https://teaching-vacancies.service.gov.uk/jobs/reprographics-officer-wallington-county-grammar-school) — Insufficient admin/service evidence.

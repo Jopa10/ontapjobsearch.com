@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Hertfordshire
 
-review_date: 2026-09-15
-review_fingerprint: 84296b19357eae2d074a5d753ebd299fa362d782a28fd117cac6e4fa58671651
-routing_manifest_sha256: a6b9ec556aafa6283d9a01f9259ec550a52b9b3ca6088ad5a51915edbcb77414
+review_date: 2026-09-16
+review_fingerprint: 25df14799b78aaf063c5598974f655ceb88f9ee152ab7ccbdcb796404723ef98
+routing_manifest_sha256: 45a8ce4bb4f12276c14b5974540a88cd95b03b6254694d13463722dddac389d7
 ontap_region: Hertfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 18
-- Selected: 9
+- Records: 17
+- Selected: 8
 - POSS awaiting decision: 5
 - Excluded: 0
 - Hard pass: 4
@@ -49,21 +49,6 @@ factual_fingerprint: 7f5bfab27cf91fbf98859ab2685aac0d61881fdc48c0cc742bc78ac1b68
 source: Teaching Vacancies
 source_job_id: administrator-and-pupil-welfare-the-orchard-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-and-pupil-welfare-the-orchard-primary-school
----
-
----
-action: 
-SELECTED | Hertfordshire | Watford, East of England, WD25 0UU | £16,973.00 Annually (Actual) Salary Grade H4 (including London Fringe Allowance) + Local Government Pension Scheme | Examinations Administrator
-employer: Parmiter's School
-closing_date: 2026-09-16T10:00:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: baff804aecc29a76f81c10cb955da66f4ea3b46049c4cd25bc12a7e9d09bfab9
-source: Teaching Vacancies
-source_job_id: examinations-administrator-parmiter-s-school-watford-hertfordshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/examinations-administrator-parmiter-s-school-watford-hertfordshire
 ---
 
 ---

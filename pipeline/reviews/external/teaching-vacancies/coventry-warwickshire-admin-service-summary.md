@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Coventry & Warwickshire
 
-review_date: 2026-09-15
-review_fingerprint: 3787b0abf2504109383c8675bebaa8df42767ebf7d3acbd034519c5d3c002b35
-routing_manifest_sha256: a6b9ec556aafa6283d9a01f9259ec550a52b9b3ca6088ad5a51915edbcb77414
+review_date: 2026-09-16
+review_fingerprint: 4f1d58916c8e375a2af67f53d39901a267ce30a2dd2c6d9d8f0e135e511e4b6e
+routing_manifest_sha256: 45a8ce4bb4f12276c14b5974540a88cd95b03b6254694d13463722dddac389d7
 ontap_region: West Midlands - Coventry & Warwickshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 8
-- Selected: 3
-- POSS awaiting decision: 2
+- Records: 10
+- Selected: 4
+- POSS awaiting decision: 3
 - Excluded: 0
 - Hard pass: 3
 
 ## SELECTED
+
+---
+action: 
+SELECTED | West Midlands - Coventry & Warwickshire | Warwick, West Midlands, CV34 5DF | 22,277.00 - 22,629.00 | Administration Assistant
+employer: Evergreen School
+closing_date: 2026-09-27T23:59:00+01:00
+reason: Clear admin/service title: administration assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 8caa1acf91291b485bea3168a9e1f51dea0387ea7c893a74a7d489f8c605312b
+source: Teaching Vacancies
+source_job_id: administration-assistant-23d0b4b5-47f8-416c-924d-d887471e9a01
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-23d0b4b5-47f8-416c-924d-d887471e9a01
+---
 
 ---
 action: 
@@ -67,6 +82,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/pa-to-principal-the-q
 ---
 
 ## POSS — choose SELECT or EXCLUDE
+
+---
+action: 
+POSS | West Midlands - Coventry & Warwickshire | Rugby, West Midlands, CV22 7HN | NJC05 to NJC06 £25,583.00 to £25,989.00 FTE (£22,675.13 to £23,034.99 Actual) | Adminstrator
+employer: Henry Hinde School
+closing_date: 2026-10-01T00:00:00+01:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 1a413815561bbc408d42f1afeae50fda1a4505c629c2234e06b16a7e98b5dc8a
+source: Teaching Vacancies
+source_job_id: adminstrator
+source_url: https://teaching-vacancies.service.gov.uk/jobs/adminstrator
+---
 
 ---
 action: 

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Norfolk
 
-review_date: 2026-09-15
-review_fingerprint: 7d42b0f94cb2b11f5b56a7e4d8a8ea3ed8a00d5786e4ea2cecb0d7ba0206d5b8
-routing_manifest_sha256: a6b9ec556aafa6283d9a01f9259ec550a52b9b3ca6088ad5a51915edbcb77414
+review_date: 2026-09-16
+review_fingerprint: 7bbf176f9c3daa610eed3719227e9fcc064694287c9189cb0ca000b8ef1bbf2b
+routing_manifest_sha256: 45a8ce4bb4f12276c14b5974540a88cd95b03b6254694d13463722dddac389d7
 ontap_region: Norfolk
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 16
-- Selected: 5
+- Records: 17
+- Selected: 6
 - POSS awaiting decision: 4
 - Excluded: 0
 - Hard pass: 7
@@ -49,6 +49,21 @@ factual_fingerprint: 72828c78cbec8b958427b25b1f209e5df169cba0d658c79e6d9c592ad25
 source: Teaching Vacancies
 source_job_id: administrative-assistant-woodlands-primary-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-woodlands-primary-academy
+---
+
+---
+action: 
+SELECTED | Norfolk | Great Yarmouth, East of England, NR29 4QD | £24,827.05 - £26,060.00 Annually (Actual) OAT Grade 4, SCP 11 - 14 (Salary figure includes holiday pay) | Attendance Officer
+employer: Flegg High Ormiston Academy
+closing_date: 2026-09-27T23:59:00+01:00
+reason: Clear admin/service title: attendance officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 189e1df74d584fa11e84a4a25a135d1e1fed7d935eec1024cbff5dc18f215b31
+source: Teaching Vacancies
+source_job_id: attendance-officer-flegg-high-ormiston-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-flegg-high-ormiston-academy
 ---
 
 ---
@@ -166,11 +181,11 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-wymo
 
 - [Administration Officer: Vulnerable Students](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-vulnerable-students) — Insufficient admin/service evidence.
 - [Chief Financial Officer](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-broad-horizons-education-trust) — Insufficient admin/service evidence.
+- [Director of Compliance](https://teaching-vacancies.service.gov.uk/jobs/director-of-compliance) — Insufficient admin/service evidence.
 - [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-white-woman-lane-junior-school) — Insufficient admin/service evidence.
 - [Operations Officer](https://teaching-vacancies.service.gov.uk/jobs/operations-officer-southery-academy-downham-market-norfolk) — Missing salary or pay scale.
 - [Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-13c89b93-af4a-43c9-9abf-857124071953) — Insufficient admin/service evidence.
 - [Regional People Partner](https://teaching-vacancies.service.gov.uk/jobs/regional-people-partner-ormiston-victory-academy-norwich-norfolk) — Insufficient admin/service evidence.
-- [Secretarial Assistant](https://teaching-vacancies.service.gov.uk/jobs/secretarial-assistant-john-grant-school-caister-on-sea) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

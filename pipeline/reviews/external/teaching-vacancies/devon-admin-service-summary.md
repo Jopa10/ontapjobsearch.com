@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Devon
 
-review_date: 2026-09-15
-review_fingerprint: 8f13cd2c376f69bd124757e7634dbdc88a6b4ea37d2eb876e7c6e60275667717
-routing_manifest_sha256: a6b9ec556aafa6283d9a01f9259ec550a52b9b3ca6088ad5a51915edbcb77414
+review_date: 2026-09-16
+review_fingerprint: b6abaf59f05ae67b4c633c1b48c3e3953846fee592706078930d5352efe759a0
+routing_manifest_sha256: 45a8ce4bb4f12276c14b5974540a88cd95b03b6254694d13463722dddac389d7
 ontap_region: Devon
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 18
-- Selected: 8
-- POSS awaiting decision: 1
+- Records: 21
+- Selected: 9
+- POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 9
+- Hard pass: 10
 
 ## SELECTED
 
@@ -128,6 +128,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 
 ---
 action: 
+SELECTED | Devon | Plymouth, South West, PL1 5QG | Term Time | Permanent | £23,580 Per Annum (Pro Rata of £26,440 Per Annum) | Schools Liaison Administrator
+employer: City College Plymouth
+closing_date: 2026-09-29T23:59:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: e95dd3b09763935723dac91e172110cf1ecea7554bb34d1e685d2ef5bd139f1a
+source: Teaching Vacancies
+source_job_id: schools-liaison-administrator
+source_url: https://teaching-vacancies.service.gov.uk/jobs/schools-liaison-administrator
+---
+
+---
+action: 
 SELECTED | Devon | Exeter, South West, EX2 7LB | £31,724 - £35,688 | Senior Administrator
 employer: Stansfield Academy
 closing_date: 2026-10-05T23:59:00+01:00
@@ -158,6 +173,21 @@ source_job_id: reception-and-administration-assistant-109b825b-7a0b-44c3-a80d-67
 source_url: https://teaching-vacancies.service.gov.uk/jobs/reception-and-administration-assistant-109b825b-7a0b-44c3-a80d-67ce740b1847
 ---
 
+---
+action: 
+POSS | Devon | Exeter, South West, EX2 4NQ | £22,646.00 Annually (Actual) | Senior Pupil Services Officer
+employer: St Leonard's (CofE) Primary School
+closing_date: 2026-10-06T09:00:00+01:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 9aab59515278e70177b8112af29075ed53a97f4bc309b856639639a6045199a6
+source: Teaching Vacancies
+source_job_id: senior-pupil-services-officer-st-leonard-s-cofe-primary-school-exeter-devon
+source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-pupil-services-officer-st-leonard-s-cofe-primary-school-exeter-devon
+---
+
 ## EXCLUDED BY REVIEW
 
 - None.
@@ -167,7 +197,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/reception-and-adminis
 - [[260909] Office Manager](https://teaching-vacancies.service.gov.uk/jobs/260909-office-manager) — Manager title salary ceiling £33,673 is not below £28,000.
 - [Administrator](https://teaching-vacancies.service.gov.uk/jobs/administrator-collaton-st-mary-church-of-england-primary-school) — Missing salary or pay scale.
 - [Chief Financial Officer (CFO)](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-cfo-torquay-boys-grammar-school-torquay-devon) — Insufficient admin/service evidence.
-- [Cover Supervisor](https://teaching-vacancies.service.gov.uk/jobs/cover-supervisor-8280cab3-6b8e-472b-9889-9e3a0652cdd8) — Insufficient admin/service evidence.
+- [Cover Supervisor](https://teaching-vacancies.service.gov.uk/jobs/cover-supervisor-0263aaa9-e252-4340-b2d6-102751e90f65) — Insufficient admin/service evidence.
+- [Executive Assistant](https://teaching-vacancies.service.gov.uk/jobs/executive-assistant-blackpool-church-of-england-primary-school) — Insufficient admin/service evidence.
 - [Executive Assistant](https://teaching-vacancies.service.gov.uk/jobs/executive-assistant-chulmleigh-community-college) — Missing salary or pay scale.
 - [Finance and Contracts Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-and-contracts-officer) — Insufficient admin/service evidence.
 - [Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-dartmoor-multi-academy-trust) — Insufficient admin/service evidence.

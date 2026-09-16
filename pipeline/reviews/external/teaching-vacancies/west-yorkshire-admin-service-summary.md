@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - West
 
-review_date: 2026-09-15
-review_fingerprint: 0c8b2acaf4c11d10f67916f3e7fb1dabae9cb8aa22d22d423b7cb8b856f09e4d
-routing_manifest_sha256: a6b9ec556aafa6283d9a01f9259ec550a52b9b3ca6088ad5a51915edbcb77414
+review_date: 2026-09-16
+review_fingerprint: 7463c4a7b7fe65132049fdf7fcbe416dfc0f5d3943dc4f8d3ca0c6b41aa0e597
+routing_manifest_sha256: 45a8ce4bb4f12276c14b5974540a88cd95b03b6254694d13463722dddac389d7
 ontap_region: Yorkshire - West
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 38
-- Selected: 17
-- POSS awaiting decision: 1
+- Records: 40
+- Selected: 18
+- POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 20
 
@@ -34,21 +34,6 @@ factual_fingerprint: 62a7e2c37551129d9f7ea36be5420e248b20d9672ca136ec4d22206fc28
 source: Teaching Vacancies
 source_job_id: academy-administrator-level-2-dixons-unity-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/academy-administrator-level-2-dixons-unity-academy
----
-
----
-action: 
-SELECTED | Yorkshire - West | Bradford, Yorkshire and the Humber, BD15 7HB | £19,027.44 - £19,634.87 Annually (Actual) Band 5 - SCP4/6 | Admin/Receptionist
-employer: Beckfoot Allerton Primary School and Nursery
-closing_date: 2026-09-16T09:00:00+01:00
-reason: Clear admin/service title: receptionist
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: NEW_REVIEW
-factual_fingerprint: 8611deca3e4dbe0220ad2e74a63dda917923dcc5246ee541614bb001192387ba
-source: Teaching Vacancies
-source_job_id: admin-receptionist-beckfoot-allerton-primary-school-and-nursery
-source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-receptionist-beckfoot-allerton-primary-school-and-nursery
 ---
 
 ---
@@ -109,21 +94,6 @@ factual_fingerprint: 42ea47343b267810cf1a1d89029db37b79db6188b1c465b12c94bcd9ee0
 source: Teaching Vacancies
 source_job_id: administrative-assistant-operations
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-operations
----
-
----
-action: 
-SELECTED | Yorkshire - West | Bradford, Yorkshire and the Humber, BD3 0DU | £11,368.00 - £11,731.00 Annually (Actual) Band 5, SCP 4 to 6, 19 hours per week, TTO plus 3 days, Wed & Thu 8:45am to 4:30pm and Fri 10:00am to 2:30pm | Administrator
-employer: Carlton Bolling
-closing_date: 2026-09-25T10:00:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: NEW_REVIEW
-factual_fingerprint: 6d46982900d593f2d77d12a8c57de55dd26ab239be1540da9268721afdb11cd4
-source: Teaching Vacancies
-source_job_id: administrator-carlton-bolling-bradford-west-yorkshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-carlton-bolling-bradford-west-yorkshire
 ---
 
 ---
@@ -248,6 +218,36 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/data-and-exams-admini
 
 ---
 action: 
+SELECTED | Yorkshire - West | Bradford, BD10 9TQ | £26,024.00 - £28,608.00 Annually (Actual) | Deputy PA / Receptionist
+employer: Bradford Diocesan Academies Trust
+closing_date: 2026-10-12T09:00:00+01:00
+reason: Clear admin/service title: receptionist
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: NEW_REVIEW
+factual_fingerprint: f1b0844a28131a10ab21be47cf3ae5c67b7949f815359a6ea5c531521056cb09
+source: Teaching Vacancies
+source_job_id: deputy-pa-receptionist-bradford-diocesan-academies-trust-bradford-not-recorded
+source_url: https://teaching-vacancies.service.gov.uk/jobs/deputy-pa-receptionist-bradford-diocesan-academies-trust-bradford-not-recorded
+---
+
+---
+action: 
+SELECTED | Yorkshire - West | Bradford, Yorkshire and the Humber, BD7 3JT | £22,039.12 Annually (Actual) | Office Administrator
+employer: St Oswald's Church of England Primary Academy
+closing_date: 2026-10-05T23:59:00+01:00
+reason: Clear admin/service title: administrator, office administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: NEW_REVIEW
+factual_fingerprint: 5bae21d615e984af8b69b1bc53b0ae1469dcbd8004029f4329bd07cd067f82ee
+source: Teaching Vacancies
+source_job_id: office-administrator-st-oswald-s-church-of-england-primary-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-st-oswald-s-church-of-england-primary-academy
+---
+
+---
+action: 
 SELECTED | Yorkshire - West | Bradford, Yorkshire and the Humber, BD10 9AQ | £17,631.00 - £17,677.00 Annually (Actual) | Post 16 Administrator
 employer: Immanuel College
 closing_date: 2026-09-18T09:00:00+01:00
@@ -276,7 +276,37 @@ source_job_id: receptionist-delta-academies-trust-knottingley-not-recorded
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-delta-academies-trust-knottingley-not-recorded
 ---
 
+---
+action: 
+SELECTED | Yorkshire - West | Leeds, Yorkshire and the Humber, LS14 6HA | £25,454.00 - £26,267.00 Annually (Actual) | Receptionist and Administration Assistant
+employer: Leeds East Academy
+closing_date: 2026-09-28T23:59:00+01:00
+reason: Clear admin/service title: receptionist
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: NEW_REVIEW
+factual_fingerprint: c00863f44abe95b6bc4e1a9dab4398706c6507806d1eb03e99b7410b4d3b9a9d
+source: Teaching Vacancies
+source_job_id: receptionist-and-administration-assistant-leeds-east-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-and-administration-assistant-leeds-east-academy
+---
+
 ## POSS — choose SELECT or EXCLUDE
+
+---
+action: 
+POSS | Yorkshire - West | Bradford, Yorkshire and the Humber, BD3 0DU | £11,368.00 - £11,731.00 Annually (Actual) Band 5, SCP 4 to 6, 19 hours per week, TTO plus 3 days, Wed & Thu 8:45am to 4:30pm and Fri 10:00am to 2:30pm | Administrator
+employer: Carlton Bolling
+closing_date: 2026-09-25T10:00:00+01:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: NEW_REVIEW
+factual_fingerprint: 6d46982900d593f2d77d12a8c57de55dd26ab239be1540da9268721afdb11cd4
+source: Teaching Vacancies
+source_job_id: administrator-carlton-bolling-bradford-west-yorkshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-carlton-bolling-bradford-west-yorkshire
+---
 
 ---
 action: 

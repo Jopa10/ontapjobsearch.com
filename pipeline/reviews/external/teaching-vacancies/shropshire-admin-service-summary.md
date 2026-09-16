@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Shropshire
 
-review_date: 2026-09-15
-review_fingerprint: 871a21d528cf9ae116b35ab8f51a3668bdda7ad22efc672b7cd8f37e0c8c9391
-routing_manifest_sha256: a6b9ec556aafa6283d9a01f9259ec550a52b9b3ca6088ad5a51915edbcb77414
+review_date: 2026-09-16
+review_fingerprint: 3a02c15a5b5964bcfcedfd532ab465a917aa70e9752b9d0ac8cb8d9ef7530b88
+routing_manifest_sha256: 45a8ce4bb4f12276c14b5974540a88cd95b03b6254694d13463722dddac389d7
 ontap_region: Shropshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 11
-- Selected: 9
+- Records: 10
+- Selected: 8
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 2
@@ -49,21 +49,6 @@ factual_fingerprint: 60ea79847662ac6f238202918d165864be8a704cfd0932d6c136a94e2a2
 source: Teaching Vacancies
 source_job_id: administration-assistant-severndale-specialist-academy-shrewsbury-shropshire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-severndale-specialist-academy-shrewsbury-shropshire
----
-
----
-action: 
-SELECTED | Shropshire | Shrewsbury, SY3 9PS | £23,981.00 - £25,560.00 Annually (Actual) Increasing to £24,772-£26,403, (pending October 2026 pay award). Flexible and hybrid working supported | Administration Assistant (Inclusion and People)
-employer: The 3 18 Education Trust
-closing_date: 2026-09-16T09:00:00+01:00
-reason: Clear admin/service title: administration assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 0363f2f42f6372d75c125d5eafb4d22d955a1296c181f99ae4a3e56005d3c049
-source: Teaching Vacancies
-source_job_id: administration-assistant-inclusion-and-people
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-inclusion-and-people
 ---
 
 ---

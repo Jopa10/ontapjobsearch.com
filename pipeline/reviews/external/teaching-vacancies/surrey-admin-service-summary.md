@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Surrey
 
-review_date: 2026-09-15
+review_date: 2026-09-16
 review_fingerprint: 01ee77a0a2c2a0b12d1c069bc3f0e5cd969c658ba3a799b1f46d03c2f3767984
-routing_manifest_sha256: a6b9ec556aafa6283d9a01f9259ec550a52b9b3ca6088ad5a51915edbcb77414
+routing_manifest_sha256: 45a8ce4bb4f12276c14b5974540a88cd95b03b6254694d13463722dddac389d7
 ontap_region: Surrey
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 7
+- Records: 6
 - Selected: 1
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 4
 
 ## SELECTED
 
@@ -61,7 +61,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-1dca
 
 - [Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-the-swan-trust-surrey-not-recorded) — Insufficient admin/service evidence.
 - [Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/operations-manager-yattendon-school) — Manager title salary ceiling £36,943 is not below £28,000.
-- [Regional Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/regional-finance-manager-b5e75c86-dacb-410d-ac34-350f811e1aad) — Manager title salary ceiling £28,167 is not below £28,000.
 - [Trust Estates Facilities & Compliance Coordinator](https://teaching-vacancies.service.gov.uk/jobs/trust-estates-facilities-compliance-coordinator) — Insufficient admin/service evidence.
 - [Trust Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/trust-finance-business-partner-greensand-multi-academy-trust) — Insufficient admin/service evidence.
 

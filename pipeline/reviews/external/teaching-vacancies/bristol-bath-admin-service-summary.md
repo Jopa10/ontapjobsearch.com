@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Bristol & Bath
 
-review_date: 2026-09-15
+review_date: 2026-09-16
 review_fingerprint: 28b2d49eeffd9c5710d9598b58e694b83b314d3f62e2c5debe85a81fff8a8c37
-routing_manifest_sha256: a6b9ec556aafa6283d9a01f9259ec550a52b9b3ca6088ad5a51915edbcb77414
+routing_manifest_sha256: 45a8ce4bb4f12276c14b5974540a88cd95b03b6254694d13463722dddac389d7
 ontap_region: Bristol & Bath
 slice_category: admin_service
 slice_status: LIVE
@@ -62,7 +62,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-assistant-chan
 ## HARD_PASS
 
 - [Administration and Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/administration-and-finance-assistant-fair-furlong-primary-school) — Insufficient admin/service evidence.
-- [Cover Supervisor](https://teaching-vacancies.service.gov.uk/jobs/cover-supervisor-bridge-learning-campus) — Insufficient admin/service evidence.
+- [Exams Assistant](https://teaching-vacancies.service.gov.uk/jobs/exams-assistant-sir-bernard-lovell-academy) — Insufficient admin/service evidence.
 - [Office Administrator](https://teaching-vacancies.service.gov.uk/jobs/office-administrator-cheddar-grove-primary-school-bristol-bristol) — Missing salary or pay scale.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-whitchurch-primary-school) — Manager title without salary evidence below £28,000.
 - [Recruitment Coordinator](https://teaching-vacancies.service.gov.uk/jobs/recruitment-coordinator-35317134-5457-4fd1-9788-d52457d462fb) — Insufficient admin/service evidence.

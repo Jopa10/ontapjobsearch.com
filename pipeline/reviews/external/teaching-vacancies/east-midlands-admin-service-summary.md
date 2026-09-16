@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — East Midlands
 
-review_date: 2026-09-15
-review_fingerprint: b9b33b2b13f6072674ea323643555caf5b8f328b5b704916949f676adf3386be
-routing_manifest_sha256: a6b9ec556aafa6283d9a01f9259ec550a52b9b3ca6088ad5a51915edbcb77414
+review_date: 2026-09-16
+review_fingerprint: 9d1e13425addfd1637f2391044947cbfd354619268be54952ca42f5df893f36f
+routing_manifest_sha256: 45a8ce4bb4f12276c14b5974540a88cd95b03b6254694d13463722dddac389d7
 ontap_region: East Midlands
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -14,27 +14,12 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 8
-- Selected: 3
+- Selected: 2
 - POSS awaiting decision: 3
 - Excluded: 0
-- Hard pass: 2
+- Hard pass: 3
 
 ## SELECTED
-
----
-action: 
-SELECTED | East Midlands | Burton-on-Trent, West Midlands, DE13 0SW | £26,427.00 - £27,274.00 Annually (FTE) £22,249.30 - £22,962.40 for the hours advertised | Administration Assistant
-employer: Horninglow Primary School
-closing_date: 2026-09-18T09:00:00+01:00
-reason: Clear admin/service title: administration assistant
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: 5c1ce54e490f205213a3035b074823473484770a6ae721f6922a99c615238812
-source: Teaching Vacancies
-source_job_id: administration-assistant-horninglow-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-horninglow-primary-school
----
 
 ---
 action: 
@@ -120,6 +105,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-business-assis
 ## HARD_PASS
 
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-village-primary-academy-derby-derbyshire) — Manager title salary ceiling £32,597 is not below £28,000.
+- [Reprographics & Marketing Coordinator](https://teaching-vacancies.service.gov.uk/jobs/reprographics-marketing-coordinator) — Insufficient admin/service evidence.
 - [Trust Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/trust-finance-manager-98078324-9858-463d-9f77-566320746539) — Manager title salary ceiling £44,075 is not below £28,000.
 
 ## Safety boundary

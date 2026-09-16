@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Greater Manchester - Wigan & Bolton
 
-review_date: 2026-09-15
+review_date: 2026-09-16
 review_fingerprint: 541025689f9ae892ce6012ae8daf32c3a261b4160ba62441fe3e60a4b4c3eac9
-routing_manifest_sha256: a6b9ec556aafa6283d9a01f9259ec550a52b9b3ca6088ad5a51915edbcb77414
+routing_manifest_sha256: 45a8ce4bb4f12276c14b5974540a88cd95b03b6254694d13463722dddac389d7
 ontap_region: Greater Manchester - Wigan & Bolton
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 7
+- Records: 8
 - Selected: 1
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 6
 
 ## SELECTED
 
@@ -64,6 +64,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-mos
 - [MIS Systems & Operational Data Manager](https://teaching-vacancies.service.gov.uk/jobs/mis-systems-operational-data-manager) — Manager title salary ceiling £34,678 is not below £28,000.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-king-s-leadership-academy-bolton) — Manager title salary ceiling £32,046 is not below £28,000.
 - [School Office Manager - Primary](https://teaching-vacancies.service.gov.uk/jobs/school-office-manager-primary) — Manager title salary ceiling £35,412 is not below £28,000.
+- [Senior Clerical Assistant](https://teaching-vacancies.service.gov.uk/jobs/senior-clerical-assistant-lostock-primary-school-bolton-lancashire) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

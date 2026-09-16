@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Lincolnshire
 
-review_date: 2026-09-15
-review_fingerprint: 87d2f0a294596bba8c135a907085f5affd8eccc0a9e66bd34eefb712b15ee630
-routing_manifest_sha256: a6b9ec556aafa6283d9a01f9259ec550a52b9b3ca6088ad5a51915edbcb77414
+review_date: 2026-09-16
+review_fingerprint: aa9f1de37faf709dda49a4b5beaedff6af2386f294c29989e3805843aa4ae44d
+routing_manifest_sha256: 45a8ce4bb4f12276c14b5974540a88cd95b03b6254694d13463722dddac389d7
 ontap_region: Lincolnshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 18
-- Selected: 8
-- POSS awaiting decision: 3
+- Records: 16
+- Selected: 7
+- POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 7
 
@@ -113,21 +113,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administ
 
 ---
 action: 
-SELECTED | Lincolnshire | Bourne, East Midlands, PE10 9JE | £25,614.00 - £26,846.00 Annually (FTE) Salary will paid pro rata | Receptionist and Administrative Assistant
-employer: Bourne Grammar School
-closing_date: 2026-09-16T09:00:00+01:00
-reason: Clear admin/service title: administrative assistant, receptionist
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 9cf03a8327023ba8f762f9bb5d74ada32af6b6c4bc30ad033e667af36c286ae3
-source: Teaching Vacancies
-source_job_id: receptionist-and-administrative-assistant-bourne-grammar-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-and-administrative-assistant-bourne-grammar-school
----
-
----
-action: 
 SELECTED | Lincolnshire | Scunthorpe, Yorkshire and the Humber, DN16 1NT | £21,955 - £22,304 per annum | School Administrator Role - Attendance Assistant
 employer: Outwood Academy Brumby
 closing_date: 2026-09-28T09:00:00+01:00
@@ -171,21 +156,6 @@ factual_fingerprint: 0c71885b5ce88f1ceb6e195aa1cdb19480225d1e06265b08c31145dab4e
 source: Teaching Vacancies
 source_job_id: finance-manager-the-spalding-st-john-the-baptist-church-of-england-primary-school-spalding-lincolnshire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-manager-the-spalding-st-john-the-baptist-church-of-england-primary-school-spalding-lincolnshire
----
-
----
-action: 
-POSS | Lincolnshire | Scunthorpe, Yorkshire and the Humber, DN15 8BU | £24,272.00 - £26,756.00 Annually (Actual) | Office Manager
-employer: Saint Augustine Webster Catholic Voluntary Academy
-closing_date: 2026-09-15T23:59:00+01:00
-reason: Manager title below £28,000 salary ceiling requires review
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 1479e8554d8ac8db7f8a7768a8b98395b08122f1b130fc17c57ad9422f358a93
-source: Teaching Vacancies
-source_job_id: office-manager-5960c337-50dd-408c-89a6-bc2f39580f3d
-source_url: https://teaching-vacancies.service.gov.uk/jobs/office-manager-5960c337-50dd-408c-89a6-bc2f39580f3d
 ---
 
 ## EXCLUDED BY REVIEW

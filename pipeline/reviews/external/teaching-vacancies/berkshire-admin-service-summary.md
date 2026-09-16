@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Berkshire
 
-review_date: 2026-09-15
-review_fingerprint: 6d7863ec0c8aced0b2be117bab46cf3b276146faf3f31d5ec3e260bcc193493e
-routing_manifest_sha256: a6b9ec556aafa6283d9a01f9259ec550a52b9b3ca6088ad5a51915edbcb77414
+review_date: 2026-09-16
+review_fingerprint: 1863f6821d2903e6c953368a110a07ef6b5b2d591f7b1a74a81929e15aba89d3
+routing_manifest_sha256: 45a8ce4bb4f12276c14b5974540a88cd95b03b6254694d13463722dddac389d7
 ontap_region: Berkshire
 slice_category: admin_service
 slice_status: LIVE
@@ -14,8 +14,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 24
-- Selected: 8
-- POSS awaiting decision: 3
+- Selected: 7
+- POSS awaiting decision: 4
 - Excluded: 0
 - Hard pass: 13
 
@@ -49,21 +49,6 @@ factual_fingerprint: d6981f750621c042e19c58978840f5e605b9091d74da79f6d018fabfc35
 source: Teaching Vacancies
 source_job_id: attendance-officer-and-administration-coordinator-kendrick-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-and-administration-coordinator-kendrick-school
----
-
----
-action: 
-SELECTED | Berkshire | Hungerford, South East, RG17 9QE | £25,583 | Finance/Administrative Assistant
-employer: Inkpen Primary School
-closing_date: 2026-09-16T09:00:00+01:00
-reason: Clear admin/service title: administrative assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 9232254155129bf3e007c8597fb87450060e06041dcc36bc407491ce946ba8fc
-source: Teaching Vacancies
-source_job_id: finance-administrative-assistant-inkpen-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-administrative-assistant-inkpen-primary-school
 ---
 
 ---
@@ -171,6 +156,21 @@ factual_fingerprint: 2da989bce189c9680992e18c2f132f4514fe38b90251e70893105b7cbd2
 source: Teaching Vacancies
 source_job_id: administrative-support-assistant-pastoral
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-support-assistant-pastoral
+---
+
+---
+action: 
+POSS | Berkshire | Reading, South East, RG31 6XY | £20,019.00 - £23,175.00 Annually (Actual) | Marketing and Communications Officer
+employer: Denefield School
+closing_date: 2026-09-28T09:00:00+01:00
+reason: Borderline school administration title: communications officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 8222365f38d7f0790ba00ca656393530cb51a3a28407553bf09a868bf0a0847c
+source: Teaching Vacancies
+source_job_id: marketing-and-communications-officer-denefield-school-reading-berkshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/marketing-and-communications-officer-denefield-school-reading-berkshire
 ---
 
 ---

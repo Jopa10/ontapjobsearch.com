@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Buckinghamshire
 
-review_date: 2026-09-15
-review_fingerprint: dfbfdfc8c17ad461b13b44fe93cdd39933d176d0d3df4923e408485564822033
-routing_manifest_sha256: a6b9ec556aafa6283d9a01f9259ec550a52b9b3ca6088ad5a51915edbcb77414
+review_date: 2026-09-16
+review_fingerprint: 620d48178a5dc5a9224ed7b78ac44ed910ad69d76e1732642c8e105f861a7738
+routing_manifest_sha256: 45a8ce4bb4f12276c14b5974540a88cd95b03b6254694d13463722dddac389d7
 ontap_region: Buckinghamshire
 slice_category: admin_service
 slice_status: LIVE
@@ -34,6 +34,21 @@ factual_fingerprint: 007957ee89c9c9ef838916ea5983db1549228ea90d79b3a98173b3d2bf8
 source: Teaching Vacancies
 source_job_id: academy-administrator-chepping-view-primary-academy-high-wycombe-buckinghamshire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/academy-administrator-chepping-view-primary-academy-high-wycombe-buckinghamshire
+---
+
+---
+action: 
+SELECTED | Buckinghamshire | Milton Keynes, South East, MK3 6EW | £25,614 - £26,016 FTE | Admin Centre Administrator
+employer: Lord Grey Academy
+closing_date: 2026-09-24T09:00:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: cff4fd7ba248ee3023c4175108e5e81b1028967877958824fe14e5c35251f007
+source: Teaching Vacancies
+source_job_id: admin-centre-administrator-lord-grey-academy-milton-keynes-buckinghamshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-centre-administrator-lord-grey-academy-milton-keynes-buckinghamshire
 ---
 
 ---
@@ -81,21 +96,6 @@ source_job_id: school-administrator-chiltern-way-academy-trust
 source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-chiltern-way-academy-trust
 ---
 
----
-action: 
-SELECTED | Buckinghamshire | MILTON KEYNES, South East, MK5 7DF | £27,709.00 - £29,071.00 Annually (FTE) | School Receptionist
-employer: Caroline Haslett Primary School
-closing_date: 2026-09-16T12:00:00+01:00
-reason: Clear admin/service title: receptionist
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: fcf851f3d20f92da0cc26d3df635c8e08d7929ba198320d6545ef1e63c4a8f56
-source: Teaching Vacancies
-source_job_id: school-receptionist-caroline-haslett-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/school-receptionist-caroline-haslett-primary-school
----
-
 ## POSS — choose SELECT or EXCLUDE
 
 - None.
@@ -110,9 +110,9 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-receptionist-c
 - [Data and Timetabling Manager](https://teaching-vacancies.service.gov.uk/jobs/data-and-timetabling-manager) — Manager title salary ceiling £35,669 is not below £28,000.
 - [Exams and Data Team Leader](https://teaching-vacancies.service.gov.uk/jobs/exams-and-data-team-leader) — Insufficient admin/service evidence.
 - [Exams Coordinator](https://teaching-vacancies.service.gov.uk/jobs/exams-coordinator-chiltern-way-academy-trust) — Insufficient admin/service evidence.
-- [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-5-dimensions-trust) — Manager title salary ceiling £39,862 is not below £28,000.
 - [HR & Training Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-training-officer) — Insufficient admin/service evidence.
 - [Lettings & Community Officer](https://teaching-vacancies.service.gov.uk/jobs/lettings-community-officer-5-dimensions-trust-milton-keynes-not-recorded) — Insufficient admin/service evidence.
+- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-112af158-1ad4-4dd9-88fb-3ab9c389f16b) — Manager title salary ceiling £47,181 is not below £28,000.
 
 ## Safety boundary
 

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Northamptonshire
 
-review_date: 2026-09-15
-review_fingerprint: bab3d762dccd01dbeea8573820c2294809f39bacd52e2398d5bb3ca150caf686
-routing_manifest_sha256: a6b9ec556aafa6283d9a01f9259ec550a52b9b3ca6088ad5a51915edbcb77414
+review_date: 2026-09-16
+review_fingerprint: a1e2e7d669ee534551f08384618d58a8f081b12ee906bc73ff6f69f9b36ec699
+routing_manifest_sha256: 45a8ce4bb4f12276c14b5974540a88cd95b03b6254694d13463722dddac389d7
 ontap_region: Northamptonshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,15 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 9
-- Selected: 0
-- POSS awaiting decision: 4
+- Records: 10
+- Selected: 1
+- POSS awaiting decision: 3
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 6
 
 ## SELECTED
 
-- None.
+---
+action: 
+SELECTED | Northamptonshire | Corby, East Midlands, NN17 3DB | £6,064.00 Annually (FTE) BWT Grade 2. FTE salary is £26,121 | Administrative Assistant
+employer: Gretton Primary Academy
+closing_date: 2026-09-20T23:59:00+01:00
+reason: Clear admin/service title: administrative assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: c9b04b9a59a3dd4d4c159a12854be55226913c9433cce54e0a31aeaa476d35ba
+source: Teaching Vacancies
+source_job_id: administrative-assistant-gretton-primary-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-gretton-primary-academy
+---
 
 ## POSS — choose SELECT or EXCLUDE
 
@@ -57,21 +70,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-raunds-
 
 ---
 action: 
-POSS | Northamptonshire | Kettering, NN15 7HP | £31,525.00 - £33,673.00 Annually (Actual) SCP 16 - 20 | HR Administrator
-employer: E Act
-closing_date: 2026-09-28T09:00:00+01:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: bff3cd5f1e7e3c1588d4f7c0b6e579dc885b146d830ffefae815a741935c3618
-source: Teaching Vacancies
-source_job_id: hr-administrator-e-act
-source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-e-act
----
-
----
-action: 
 POSS | Northamptonshire | Wellingborough, East Midlands, NN29 7PH | NJC Grade J, points 27 to 31 DOE | Trust Executive Assistant
 employer: Wollaston School
 closing_date: 2026-09-18T12:00:00+01:00
@@ -93,6 +91,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/trust-executive-assis
 
 - [Exams Office Manager](https://teaching-vacancies.service.gov.uk/jobs/exams-office-manager-bishop-stopford-school) — Manager title salary ceiling £33,699 is not below £28,000.
 - [Executive Assistant](https://teaching-vacancies.service.gov.uk/jobs/executive-assistant-sir-christopher-hatton-academy) — Insufficient admin/service evidence.
+- [Finance and HR Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-and-hr-assistant) — Insufficient admin/service evidence.
 - [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-moulton-school-and-science-college) — Insufficient admin/service evidence.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-south-end-infant-school) — Manager title salary ceiling £37,280 is not below £28,000.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-woodland-view-primary-school-northampton-northamptonshire) — Manager title salary ceiling £48,738 is not below £28,000.

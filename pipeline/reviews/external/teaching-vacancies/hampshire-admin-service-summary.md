@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Hampshire
 
-review_date: 2026-09-15
-review_fingerprint: 101be0cec6b04768b6002c7e3889728479d1e476ce60f36f922bb24c44b1e775
-routing_manifest_sha256: a6b9ec556aafa6283d9a01f9259ec550a52b9b3ca6088ad5a51915edbcb77414
+review_date: 2026-09-16
+review_fingerprint: 994a1067e426b2153ee98a0cfe7d4d53ac6db6d9893468b9b61ce620d906e36d
+routing_manifest_sha256: 45a8ce4bb4f12276c14b5974540a88cd95b03b6254694d13463722dddac389d7
 ontap_region: Hampshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 6
+- Records: 7
 - Selected: 2
-- POSS awaiting decision: 0
+- POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 4
 
@@ -53,7 +53,20 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-and-ass
 
 ## POSS — choose SELECT or EXCLUDE
 
-- None.
+---
+action: 
+POSS | Hampshire | Aldershot, South East, GU11 4AA | £25,052.00 - £26,825.00 Annually (FTE) £8,980 - £9,615 Pro-Rata | Admin Assistant
+employer: The Cambridge Primary School
+closing_date: 2026-09-25T23:59:00+01:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: fc12dc9edf438e2739a519c431d5765f65dad5136ee67fac5cd9993c79652844
+source: Teaching Vacancies
+source_job_id: admin-assistant-the-cambridge-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-the-cambridge-primary-school
+---
 
 ## EXCLUDED BY REVIEW
 

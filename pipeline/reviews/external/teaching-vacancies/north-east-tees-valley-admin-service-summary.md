@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — North East - Tees Valley
 
-review_date: 2026-09-15
-review_fingerprint: 04301fd33951323549e655d94fbe08af784a4294bfae9fb1656dc8c9239c1350
-routing_manifest_sha256: a6b9ec556aafa6283d9a01f9259ec550a52b9b3ca6088ad5a51915edbcb77414
+review_date: 2026-09-16
+review_fingerprint: ad8c87e76ae1f29dbcd678a129c12f0dc207c098560be96f04c3b51650192f21
+routing_manifest_sha256: 45a8ce4bb4f12276c14b5974540a88cd95b03b6254694d13463722dddac389d7
 ontap_region: North East - Tees Valley
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -14,27 +14,14 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 3
-- Selected: 1
+- Selected: 0
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 1
+- Hard pass: 2
 
 ## SELECTED
 
----
-action: 
-SELECTED | North East - Tees Valley | Stockton-on-Tees, North East, TS16 0EU | (Grade D, SCP 4) | Administration Assistant
-employer: Junction Farm Primary School
-closing_date: 2026-09-16T09:00:00+01:00
-reason: Clear admin/service title: administration assistant
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: 80557e8cf9cf87fdd6b8c8e433ad520cf5c51a5a293580bc04a712a6764e67d5
-source: Teaching Vacancies
-source_job_id: administration-assistant-junction-farm-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-junction-farm-primary-school
----
+- None.
 
 ## POSS — choose SELECT or EXCLUDE
 
@@ -60,6 +47,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-office-manager
 ## HARD_PASS
 
 - [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-326e8711-30eb-4683-b8a7-6e0c7757378c) — Insufficient admin/service evidence.
+- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-st-patrick-s-catholic-college-a-voluntary-catholic-academy) — Manager title salary ceiling £35,412 is not below £28,000.
 
 ## Safety boundary
 

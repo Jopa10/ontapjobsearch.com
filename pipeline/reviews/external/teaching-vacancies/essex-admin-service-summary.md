@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Essex
 
-review_date: 2026-09-15
-review_fingerprint: edccee7e449774cfec496ddb84830392bca274dd6791eaf93d3db96554c66f64
-routing_manifest_sha256: a6b9ec556aafa6283d9a01f9259ec550a52b9b3ca6088ad5a51915edbcb77414
+review_date: 2026-09-16
+review_fingerprint: bb5adbc6def80a193512c471492d2245e515bc5b33498d507d8222bfbb799755
+routing_manifest_sha256: 45a8ce4bb4f12276c14b5974540a88cd95b03b6254694d13463722dddac389d7
 ontap_region: Essex
 slice_category: admin_service
 slice_status: LIVE
@@ -23,17 +23,17 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ---
 action: 
-SELECTED | Essex | Chelmsford, CM1 2QE | £18,645 - £18,944 | Administrative Assistant - Pupil Admissions & Pupil Data
-employer: The Chelmsford Learning Partnership
-closing_date: 2026-09-16T12:00:00+01:00
-reason: Clear admin/service title: administrative assistant
+SELECTED | Essex | Basildon, East of England, SS14 1UX | £26,646.00 - £27,911.00 Annually (FTE) | Receptionist 0.4 (1 Year Fixed Contract)
+employer: The Basildon Lower Academy
+closing_date: 2026-09-30T23:59:00+01:00
+reason: Clear admin/service title: receptionist
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: c07eb8a1c4c187fb324c1e187933248171094adc694ad6ee4ea8bc7237c620c6
+factual_fingerprint: d71c70f74dc1aa26e78412d83f52ac02b2184fdc4b6a4efde81bf6f07c6f72ab
 source: Teaching Vacancies
-source_job_id: administrative-assistant-pupil-admissions-pupil-data
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-pupil-admissions-pupil-data
+source_job_id: receptionist-0-4-1-year-fixed-contract
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-0-4-1-year-fixed-contract
 ---
 
 ## POSS — choose SELECT or EXCLUDE
