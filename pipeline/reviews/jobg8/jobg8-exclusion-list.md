@@ -6,9 +6,57 @@ The `excluded_on` date is the day the exclusion decision was made.
 To restore a job, edit only its `action:` line to `action: select`.
 On the next JobG8 run that exact job ID will be restored and removed from this list.
 
-remembered_exclusions: 331
+remembered_exclusions: 335
 
 ## SERVICE / ADMIN — EXCLUDED
+
+---
+action:
+category: service_admin
+excluded_on: 2026-09-16
+title: Training and Business Coordinator
+employer: Morson Edge
+region: 
+town: Clwyd
+salary: 
+job_id: 23643_225598654
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-09-16
+title: Temporary Salesforce Administrator
+employer: Office Angels
+region: 
+town: Edinburgh
+salary: 
+job_id: 23643_225598552
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-09-16
+title: Team Administrator
+employer: Office Angels
+region: 
+town: London
+salary: 
+job_id: 23643_225600780
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-09-16
+title: Financial Planner
+employer: Reed
+region: 
+town: Lanarkshire
+salary: 
+job_id: 1928828
+---
 
 ---
 action:
