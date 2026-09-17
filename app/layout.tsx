@@ -7,6 +7,7 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import SessionProvider from '@/components/SessionProvider';
 import DeploymentRefresh from '@/components/DeploymentRefresh';
+import Analytics from '@/components/Analytics';
 import { Toaster } from 'react-hot-toast';
 
 const inter = Inter({
@@ -96,22 +97,9 @@ export default function RootLayout({
             __html: JSON.stringify(websiteStructuredData),
           }}
         />
-        <script
-          async
-          src="https://www.googletagmanager.com/gtag/js?id=G-XLJL0PXJ0V"
-        ></script>
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-              gtag('config', 'G-XLJL0PXJ0V');
-            `,
-          }}
-        />
       </head>
       <body className={`${inter.className} antialiased flex flex-col min-h-screen`} suppressHydrationWarning>
+        <Analytics />
         <Toaster position="top-right" />
         <DeploymentRefresh deploymentVersion={deploymentVersion()} />
         <SessionProvider>

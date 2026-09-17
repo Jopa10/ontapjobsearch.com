@@ -62,7 +62,9 @@ test("saved locations render immediately while their count refreshes in the back
   assert.match(savedLocationJobs, /setSaved\(\{ town: location\.town, region: location\.region \}\)/);
   assert.match(savedLocationJobs, /setStatus\("saved"\)/);
   assert.match(savedLocationJobs, /if \(method !== "saved"\)/);
-  assert.match(savedLocationJobs, /JSON\.stringify\(\{ \.\.\.data\.location, count: data\.count \}\)/);
+  assert.match(savedLocationJobs, /JSON\.stringify\(\{[\s\S]*?\.\.\.data\.location,[\s\S]*?count: data\.count,[\s\S]*?savedAt:/);
+  assert.match(savedLocationJobs, /trackNearbyEvent\("saved_location_return"/);
+  assert.match(savedLocationJobs, /trackNearbyEvent\("saved_location_results_loaded"/);
 });
 
 test("nearby searches without a role return the full nearby inventory", () => {

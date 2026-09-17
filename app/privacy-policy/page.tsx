@@ -23,6 +23,14 @@ export default function PrivacyPolicy() {
         service is used and to improve the relevance of job listings.
       </p>
 
+      <p className="mb-4">
+        Ontap also stores anonymous first-seen and last-seen timestamps in your
+        browser. These contain no name, contact details or location and are used
+        only to distinguish a returning browser from a first visit and to separate
+        human interaction from obvious automated traffic. Clearing your browser
+        data removes these timestamps.
+      </p>
+
       <h2 className="mb-3 mt-7 text-xl font-semibold">Saved location personalisation</h2>
 
       <p className="mb-4">

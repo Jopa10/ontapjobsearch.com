@@ -7,6 +7,8 @@ This is the short owner view of how Ontap is organised. It mirrors the five cano
 
 ## Recent canonical changes
 
+- 17 September 2026 — **Traffic reports can now distinguish more real return visits from unexplained Direct traffic:** recognised crawler/browser-automation traffic no longer loads analytics, genuine browser interaction produces a separate qualified-visit signal, and anonymous browser timestamps identify a return after at least 30 minutes without storing identity or location. Existing saved-location return measurement remains active. A tested link generator now adds consistent campaign tags to Ontap links published through controlled channels; normal internal links remain untagged.
+
 - 17 September 2026 — **A LIVE Marketing or HR / Recruitment market may legitimately have zero jobs today:** a properly generated empty list now clears stale vacancies for that market instead of stopping every other JobG8 update. Missing or malformed output still stops publication.
 
 - 17 September 2026 — **NHS maintenance can no longer hold up fresh JobG8 jobs:** when the NHS feed is unavailable or returns a maintenance/malformed response, Ontap retains the last approved NHS vacancies, clearly warns that NHS was isolated, and continues the fresh JobG8 process. Normal NHS refresh resumes automatically when its feed recovers; duplicate and 20% NHS safeguards remain enforced.
