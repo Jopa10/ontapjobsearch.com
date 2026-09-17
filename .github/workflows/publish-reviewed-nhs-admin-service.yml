@@ -47,7 +47,9 @@ jobs:
         working-directory: pipeline
         env:
           PYTHONPATH: .
-        run: python -m external_sources.compose_nhs_admin_daily --write
+        run: |
+          python -m external_sources.compose_nhs_admin_daily --write \
+            --fallback-output-dir output-admin-service
 
       - name: Publish verified service-admin pages
         working-directory: pipeline

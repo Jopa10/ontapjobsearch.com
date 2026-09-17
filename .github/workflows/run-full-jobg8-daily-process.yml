@@ -169,6 +169,10 @@ jobs:
         id: jobg8-month
         run: echo "month=$(date -u +%Y-%m)" >> "$GITHUB_OUTPUT"
 
+      - name: Snapshot last approved NHS state
+        if: steps.slice-register.outputs.admin_service == 'true'
+        run: cp -a pipeline/output-admin-service "$RUNNER_TEMP/approved-admin-service"
+
       - name: Run service-admin pipeline
         if: steps.slice-register.outputs.admin_service == 'true'
         working-directory: pipeline
@@ -185,7 +189,9 @@ jobs:
       - name: Refresh and compose reviewed NHS admin/service vacancies
         if: steps.slice-register.outputs.admin_service == 'true'
         working-directory: pipeline
-        run: python -m external_sources.compose_nhs_admin_daily --write
+        run: |
+          python -m external_sources.compose_nhs_admin_daily --write \
+            --fallback-output-dir "$RUNNER_TEMP/approved-admin-service"
 
       - name: Enrich service-admin job metadata
         if: steps.slice-register.outputs.admin_service == 'true'

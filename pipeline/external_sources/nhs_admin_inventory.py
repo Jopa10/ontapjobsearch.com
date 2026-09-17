@@ -13,6 +13,7 @@ import json
 import ssl
 import time
 import urllib.parse
+import urllib.error
 import urllib.request
 import warnings
 import xml.etree.ElementTree as ET
@@ -24,6 +25,10 @@ STAFF_GROUP = "ADMINISTRATIVE_AND_CLERICAL"
 USER_AGENT = "Ontap NHS admin inventory review/1.0 (+https://www.ontapjobsearch.com/contact)"
 TOTAL_RESULTS_TOLERANCE = 15
 MAX_INVENTORY_ATTEMPTS = 3
+
+
+class NHSUpstreamUnavailable(RuntimeError):
+    """The NHS endpoint did not return usable vacancy data."""
 
 
 class _RetryableInventoryMovement(RuntimeError):
@@ -50,12 +55,28 @@ def request_page(page: int, *, limit: int = 100) -> bytes:
         BASE_URL + "?" + query,
         headers={"User-Agent": USER_AGENT, "Accept": "application/xml,text/xml"},
     )
-    with urllib.request.urlopen(request, timeout=30, context=ssl.create_default_context()) as response:
-        return response.read()
+    try:
+        with urllib.request.urlopen(
+            request, timeout=30, context=ssl.create_default_context()
+        ) as response:
+            payload = response.read()
+            final_url = response.geturl()
+    except (urllib.error.URLError, TimeoutError, OSError) as exc:
+        raise NHSUpstreamUnavailable(f"NHS search request failed: {clean(exc)}") from exc
+    if "/assets/maintenance.html" in final_url or not payload.strip():
+        raise NHSUpstreamUnavailable(
+            f"NHS search is unavailable; endpoint resolved to {final_url!r}"
+        )
+    return payload
 
 
 def parse_page(payload: bytes | str) -> tuple[list[dict[str, str]], int, int]:
-    root = ET.fromstring(payload)
+    try:
+        root = ET.fromstring(payload)
+    except ET.ParseError as exc:
+        raise NHSUpstreamUnavailable("NHS search returned malformed XML") from exc
+    if root.find(".//totalPages") is None or root.find(".//totalResults") is None:
+        raise NHSUpstreamUnavailable("NHS search returned an unexpected non-vacancy document")
     total_pages = int(child(root, ".//totalPages") or "1")
     total_results = int(child(root, ".//totalResults") or "0")
     rows: list[dict[str, str]] = []

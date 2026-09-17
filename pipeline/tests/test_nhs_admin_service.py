@@ -65,6 +65,12 @@ def test_inventory_stops_when_live_count_movement_exceeds_15(monkeypatch) -> Non
         inventory._fetch_sweep(max_pages=None, accept_small_movement=True)
 
 
+@pytest.mark.parametrize("payload", [b"maintenance", b"<html><body>Maintenance</body></html>"])
+def test_inventory_identifies_non_xml_or_non_vacancy_maintenance_response(payload: bytes) -> None:
+    with pytest.raises(inventory.NHSUpstreamUnavailable):
+        inventory.parse_page(payload)
+
+
 def test_title_classification_uses_registry_and_is_conservative() -> None:
     assert nhs.classify_title("Administrator")[0:2] == ("HC", "OPEN_SWITCH")
     assert nhs.classify_title("Administrator")[3] == "A"

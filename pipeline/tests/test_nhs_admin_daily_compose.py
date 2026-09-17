@@ -1,12 +1,13 @@
 from __future__ import annotations
 
 import json
+from datetime import date
 from pathlib import Path
 
 import pytest
 
 from external_sources import nhs_admin_service as nhs
-from external_sources.compose_nhs_admin_daily import verify_composition
+from external_sources.compose_nhs_admin_daily import retain_last_approved_nhs, verify_composition
 
 
 def write_rows(path: Path, rows: list[dict[str, object]]) -> None:
@@ -78,6 +79,54 @@ def test_verify_composition_rejects_missing_nhs_description(tmp_path: Path) -> N
 
     with pytest.raises(RuntimeError, match="no description"):
         verify_composition(current, composed)
+
+
+def test_unavailable_source_retains_last_approved_nhs_against_fresh_base(
+    tmp_path: Path,
+) -> None:
+    current = tmp_path / "current"
+    approved = tmp_path / "approved"
+    path = "north-east-admin-service.json"
+    fresh_base = [
+        {**base_job(f"base-{n}"), "region": "North East"}
+        for n in range(4)
+    ]
+    retained = {
+        **nhs_job("nhs-1"),
+        "company": "Example NHS Trust",
+        "region": "North East",
+        "hc_tier": "A",
+        "switchability": "OPEN_SWITCH",
+    }
+    write_rows(current / path, fresh_base)
+    write_rows(approved / path, [base_job("old-base"), retained])
+
+    result = retain_last_approved_nhs(
+        output_dir=current,
+        approved_output_dir=approved,
+        today=date(2026, 9, 17),
+        write=True,
+    )
+
+    output = json.loads((current / path).read_text(encoding="utf-8"))
+    assert [row["job_id"] for row in output] == [
+        "base-0", "base-1", "base-2", "base-3", "nhs-1"
+    ]
+    assert result["source_status"] == "ISOLATED_RETAINED_LAST_APPROVED"
+    assert result["retained_nhs_jobs"] == 1
+
+
+def test_daily_workflows_snapshot_and_supply_approved_nhs_fallback() -> None:
+    root = Path(__file__).parents[2]
+    for relative in (
+        ".github/workflows/run-full-jobg8-daily-process.yml",
+        ".github/workflows/apply-jobg8-review-decisions.yml",
+    ):
+        workflow = (root / relative).read_text(encoding="utf-8")
+        snapshot = workflow.index("Snapshot last approved NHS state")
+        rebuild = workflow.index("python -m scripts.service_admin_pipeline_north_yorkshire")
+        fallback = workflow.index('--fallback-output-dir "$RUNNER_TEMP/approved-admin-service"')
+        assert snapshot < rebuild < fallback
 
 
 def test_jobg8_review_apply_recomposes_nhs_before_committing() -> None:

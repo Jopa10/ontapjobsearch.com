@@ -57,6 +57,100 @@ def verify_composition(current_dir: Path, composed_dir: Path) -> dict[str, int]:
     return {"files": files, "nhs_accepted": accepted, "combined_rows": total}
 
 
+def retain_last_approved_nhs(
+    *,
+    output_dir: Path,
+    approved_output_dir: Path,
+    today: date,
+    write: bool,
+) -> dict[str, object]:
+    """Recompose the last approved NHS subset against the fresh non-NHS base."""
+    with tempfile.TemporaryDirectory(prefix="ontap-nhs-retained-") as tmp_name:
+        composed_dir = Path(tmp_name) / "composed"
+        composed_dir.mkdir(parents=True, exist_ok=True)
+        regions: dict[str, dict[str, object]] = {}
+        total_retained = total_deferred = total_duplicates = 0
+
+        current_paths = sorted(output_dir.glob("*-admin-service.json"))
+        if not current_paths:
+            raise RuntimeError("STOP: no fresh Service Admin outputs available for NHS fallback")
+
+        for current_path in current_paths:
+            approved_path = approved_output_dir / current_path.name
+            current = json.loads(current_path.read_text(encoding="utf-8"))
+            if not isinstance(current, list):
+                raise RuntimeError(f"STOP: invalid fresh Service Admin output: {current_path}")
+            if approved_path.is_file():
+                approved = json.loads(approved_path.read_text(encoding="utf-8"))
+                if not isinstance(approved, list):
+                    raise RuntimeError(f"STOP: invalid approved NHS fallback: {approved_path}")
+            else:
+                approved = []
+
+            candidates: list[dict[str, object]] = []
+            duplicate_count = 0
+            for raw in approved:
+                if not isinstance(raw, dict) or nhs.clean(raw.get("source")).casefold() != nhs.SOURCE.casefold():
+                    continue
+                candidate = dict(raw)
+                if not nhs.clean(candidate.get("apply_url")) or not nhs.clean(candidate.get("description")):
+                    raise RuntimeError(
+                        f"STOP: approved NHS fallback row is incomplete in {approved_path.name}"
+                    )
+                duplicate_probe = {
+                    **candidate,
+                    "employer": candidate.get("company") or candidate.get("advertiser_name"),
+                }
+                if nhs.duplicate_against_current(duplicate_probe, current):
+                    duplicate_count += 1
+                    continue
+                candidates.append(candidate)
+
+            region = next(
+                (
+                    nhs.clean(row.get("region"))
+                    for row in [*current, *candidates]
+                    if isinstance(row, dict) and nhs.clean(row.get("region"))
+                ),
+                current_path.stem,
+            )
+            composed, deferred = nhs.compose_region(current, candidates, region=region)
+            (composed_dir / current_path.name).write_text(
+                json.dumps(composed, ensure_ascii=False, indent=2) + "\n",
+                encoding="utf-8",
+            )
+            retained = sum(
+                nhs.clean(row.get("source")).casefold() == nhs.SOURCE.casefold()
+                for row in composed
+            )
+            regions[region] = {
+                "file": current_path.name,
+                "approved_candidates": len(candidates),
+                "retained": retained,
+                "deferred_by_cap": len(deferred),
+                "withheld_as_fresh_duplicate": duplicate_count,
+            }
+            total_retained += retained
+            total_deferred += len(deferred)
+            total_duplicates += duplicate_count
+
+        safety = verify_composition(output_dir, composed_dir)
+        if write:
+            for path in composed_dir.glob("*-admin-service.json"):
+                shutil.copy2(path, output_dir / path.name)
+
+    return {
+        "review_date": today.isoformat(),
+        "source_status": "ISOLATED_RETAINED_LAST_APPROVED",
+        "retained_nhs_jobs": total_retained,
+        "deferred_by_cap": total_deferred,
+        "withheld_as_fresh_duplicate": total_duplicates,
+        "regions": regions,
+        "safety": safety,
+        "written": write,
+    }
+
+
 def run_daily_compose(
     *,
     output_dir: Path,
@@ -103,8 +197,8 @@ def run_daily_compose(
                 f"accepted={len(accepted_ids)} requested={enrichment['requested']}"
             )
         if enrichment["failed"] or enrichment["succeeded"] != len(accepted_ids):
-            raise RuntimeError(
-                "STOP: NHS advert description enrichment incomplete: "
+            raise inventory.NHSUpstreamUnavailable(
+                "NHS advert description enrichment unavailable: "
                 f"accepted={len(accepted_ids)} succeeded={enrichment['succeeded']} "
                 f"failed={enrichment['failed']}"
             )
@@ -157,17 +251,34 @@ def main(argv: list[str] | None = None) -> int:
     )
     parser.add_argument("--today", type=date.fromisoformat, default=date.today())
     parser.add_argument("--write", action="store_true")
+    parser.add_argument(
+        "--fallback-output-dir",
+        type=Path,
+        help="Last approved combined outputs to retain when the NHS source is unavailable.",
+    )
     args = parser.parse_args(argv)
 
-    result = run_daily_compose(
-        output_dir=args.output_dir,
-        review_csv=args.review_csv,
-        summary_md=args.summary_md,
-        ledger_csv=args.ledger_csv,
-        master_review=args.master_review,
-        today=args.today,
-        write=args.write,
-    )
+    try:
+        result = run_daily_compose(
+            output_dir=args.output_dir,
+            review_csv=args.review_csv,
+            summary_md=args.summary_md,
+            ledger_csv=args.ledger_csv,
+            master_review=args.master_review,
+            today=args.today,
+            write=args.write,
+        )
+    except inventory.NHSUpstreamUnavailable as exc:
+        if not args.write or args.fallback_output_dir is None:
+            raise
+        result = retain_last_approved_nhs(
+            output_dir=args.output_dir,
+            approved_output_dir=args.fallback_output_dir,
+            today=args.today,
+            write=True,
+        )
+        result["warning"] = str(exc)
+        print(f"::warning title=NHS source isolated::{exc}; retained last approved NHS state")
     print(json.dumps(result, indent=2))
     if not args.write:
         print("Dry run only; pass --write to replace pipeline outputs and NHS review surfaces.")
