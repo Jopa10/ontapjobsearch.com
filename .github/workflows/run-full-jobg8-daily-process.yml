@@ -261,8 +261,6 @@ jobs:
               data = json.loads(path.read_text(encoding="utf-8"))
               if not isinstance(data, list):
                   raise SystemExit(f"Marketing output is not an array: {path}")
-              if not data:
-                  raise SystemExit(f"LIVE Marketing output is empty: {path}")
               print(f"Verified {region}: {len(data)} jobs -> {path}")
           PY
 
@@ -290,8 +288,6 @@ jobs:
               data = json.loads(path.read_text(encoding="utf-8"))
               if not isinstance(data, list):
                   raise SystemExit(f"HR / Recruitment output is not an array: {path}")
-              if not data:
-                  raise SystemExit(f"LIVE HR / Recruitment output is empty: {path}")
               print(f"Verified {region}: {len(data)} jobs -> {path}")
           PY
 

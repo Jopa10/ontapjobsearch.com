@@ -7,6 +7,8 @@ This is the short owner view of how Ontap is organised. It mirrors the five cano
 
 ## Recent canonical changes
 
+- 17 September 2026 — **A LIVE Marketing or HR / Recruitment market may legitimately have zero jobs today:** a properly generated empty list now clears stale vacancies for that market instead of stopping every other JobG8 update. Missing or malformed output still stops publication.
+
 - 17 September 2026 — **NHS maintenance can no longer hold up fresh JobG8 jobs:** when the NHS feed is unavailable or returns a maintenance/malformed response, Ontap retains the last approved NHS vacancies, clearly warns that NHS was isolated, and continues the fresh JobG8 process. Normal NHS refresh resumes automatically when its feed recovers; duplicate and 20% NHS safeguards remain enforced.
 
 - 16 September 2026 — **Live vacancy pages are served as deployment-built static pages again:** the useful personalised expired-job page is now loaded separately only when an expired URL is visited, so it no longer forces every current vacancy through uncached server rendering. Live job URLs, content, Apply behaviour, canonical tags and Google Jobs markup are unchanged; expired URLs retain their 404 status and current-job recovery options.
