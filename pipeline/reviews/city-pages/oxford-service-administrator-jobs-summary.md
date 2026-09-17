@@ -4,8 +4,8 @@
 - Live route: `/oxford/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 6
-- Threshold currently met: yes
+- Effective included jobs: 3
+- Threshold currently met: no
 
 ## How to review
 Edit only the `action:` line inside a job block.
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 6
-- automatic review: 9
-- automatic exclude: 13
-- effective include: 6
-- effective review: 9
-- effective exclude: 13
+- automatic include: 3
+- automatic review: 0
+- automatic exclude: 7
+- effective include: 3
+- effective review: 0
+- effective exclude: 7
 
-## INCLUDE (6)
+## INCLUDE (3)
 
 ---
 action: 
@@ -52,18 +52,6 @@ reason: Approved conservative Oxford launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Forensic Administrator - Littlemore, Oxford
-company: Oxford Health NHS Trust
-location: Oxford, OX4 4XN
-source: NHS Jobs
-job_id: nhs-5573609
-reason: Approved conservative Oxford launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Marketing Executive
 company: TALENT SEARCH LIMITED - Agency - Permanent
 location: Oxford
@@ -72,187 +60,19 @@ job_id: jobg8-1787371
 reason: Approved conservative Oxford launch catchment.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Receptionist/Administrator
-company: Oxford University Hospitals NHS Foundation Trust
-location: Headington, Oxford, OX3 9DU
-source: NHS Jobs
-job_id: nhs-5583458
-reason: Approved conservative Oxford launch catchment.
----
+## REVIEW (0)
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Temporary Administrator
-company: Berry Recruitment - Agency - Temporary
-location: Oxford
-source: JobG8
-job_id: jobg8-23643_225524539
-reason: Approved conservative Oxford launch catchment.
----
-
-## REVIEW (9)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Administrator
-company: Flat Fee Recruiter - Agency - Permanent
-location: Banbury
-source: JobG8
-job_id: jobg8-107910649
-reason: No approved Oxford catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
-company: Gill Cooke Personnel Ltd T/A The Recruitment Group - Agency - Permanent
-location: Witney
-source: JobG8
-job_id: jobg8-23643_225570930
-reason: No approved Oxford catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
-company: K2 Recruitment - Agency - Temporary
-location: Bicester
-source: JobG8
-job_id: jobg8-23643_225358207
-reason: No approved Oxford catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Bank Administrator
-company: Operose Health
-location: Didcot, OX11 7GD
-source: NHS Jobs
-job_id: nhs-5583945
-reason: No approved Oxford catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Contracts Administrator
-company: Adecco - Agency - Temporary
-location: Thame
-source: JobG8
-job_id: jobg8-23643_225583486
-reason: No approved Oxford catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Events Coordinator
-company: BramahHR Ltd - Agency - Contract
-location: Thame
-source: JobG8
-job_id: jobg8-23643_225571244
-reason: No approved Oxford catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Receptionist
-company: Berry Recruitment - Agency - Permanent
-location: Didcot
-source: JobG8
-job_id: jobg8-23643_225587168
-reason: No approved Oxford catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Receptionist
-company: The Key Medical Practice
-location: Kidlington, OX5 1AP
-source: NHS Jobs
-job_id: nhs-5577377
-reason: No approved Oxford catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Sales and Parts Administrator
-company: K2 Recruitment - Agency - Permanent
-location: Bicester
-source: JobG8
-job_id: jobg8-23643_225461932
-reason: No approved Oxford catchment rule matched; local review required.
----
-
-## EXCLUDE (13)
+## EXCLUDE (7)
 
 ---
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Administrator
-company: Gill Cooke Personnel Ltd T/A The Recruitment Group - Agency - Permanent
+title: Communications Officer (Maternity Cover)
+company: Global Canopy - Agency - Permanent
 location: Oxfordshire
 source: JobG8
-job_id: jobg8-23643_225596501
-reason: Broad county location; not Oxford-city evidence.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Administrator
-company: Gill Cooke Personnel Ltd T/A The Recruitment Group - Agency - Permanent
-location: Oxfordshire
-source: JobG8
-job_id: jobg8-23643_225598276
-reason: Broad county location; not Oxford-city evidence.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Administrator
-company: Meridian Business Support - Agency - Permanent
-location: Oxfordshire
-source: JobG8
-job_id: jobg8-23643_225600034
-reason: Broad county location; not Oxford-city evidence.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Business Support Assistant
-company: Allen Associates - Agency - Temporary
-location: Oxfordshire
-source: JobG8
-job_id: jobg8-23643_225572818
+job_id: jobg8-1939098
 reason: Broad county location; not Oxford-city evidence.
 ---
 
@@ -272,11 +92,11 @@ reason: Broad county location; not Oxford-city evidence.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Digital Marketing Executive, Meta Ads, Google Ads, Oxford, COR7681
-company: Corriculo Ltd - Agency - Permanent
+title: Digital Marketing Executive
+company: Michael Page Business Support - Agency - Permanent
 location: Oxfordshire
 source: JobG8
-job_id: jobg8-1883696
+job_id: jobg8-1940167
 reason: Broad county location; not Oxford-city evidence.
 ---
 
@@ -284,11 +104,11 @@ reason: Broad county location; not Oxford-city evidence.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Marketing Assistant
-company: Experience Oxfordshire - Agency - Permanent
+title: Digital Marketing Executive, Meta Ads, Google Ads, Oxford, COR7681
+company: Corriculo Ltd - Agency - Permanent
 location: Oxfordshire
 source: JobG8
-job_id: jobg8-107906174
+job_id: jobg8-1883696
 reason: Broad county location; not Oxford-city evidence.
 ---
 
@@ -308,47 +128,11 @@ reason: Broad county location; not Oxford-city evidence.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Office Administrator (12-month FTC)
-company: Allen Associates - Agency - Contract
-location: Oxfordshire
-source: JobG8
-job_id: jobg8-23643_225560219
-reason: Broad county location; not Oxford-city evidence.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Office Assistant - 12 month Fixed Term Contract
-company: Allen Associates - Agency - Contract
-location: Oxfordshire
-source: JobG8
-job_id: jobg8-23643_225570239
-reason: Broad county location; not Oxford-city evidence.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Sales & Customer Service Support Administrator
 company: The Recruitment Group - Agency - Permanent
 location: Oxfordshire
 source: JobG8
 job_id: jobg8-107901549
-reason: Broad county location; not Oxford-city evidence.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Sales Administrator
-company: Glen Callum Associates Ltd - Agency - Permanent
-location: Oxfordshire
-source: JobG8
-job_id: jobg8-23643_225563866
 reason: Broad county location; not Oxford-city evidence.
 ---
 

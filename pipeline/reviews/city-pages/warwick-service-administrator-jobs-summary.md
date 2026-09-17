@@ -4,7 +4,7 @@
 - Live route: `/warwick/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 3
+- Effective included jobs: 2
 - Threshold currently met: no
 
 ## How to review
@@ -15,38 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 3
-- automatic review: 22
+- automatic include: 2
+- automatic review: 12
 - automatic exclude: 0
-- effective include: 3
-- effective review: 22
+- effective include: 2
+- effective review: 12
 - effective exclude: 0
 
-## INCLUDE (3)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrator - GAP Claims Assessment
-company: SVB Solutions - Agency - Permanent
-location: Warwick
-source: JobG8
-job_id: jobg8-23643_225600118
-reason: Exact approved Warwick workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Business Administrator
-company: The Cinnamon Care Collection - Company - Permanent
-location: Warwick
-source: JobG8
-job_id: jobg8-23643_225588153
-reason: Exact approved Warwick workplace.
----
+## INCLUDE (2)
 
 ---
 action: 
@@ -60,7 +36,19 @@ job_id: jobg8-1868063
 reason: Exact approved Warwick workplace.
 ---
 
-## REVIEW (22)
+---
+action: 
+decision: include
+automatic_decision: include
+title: Purchase Ledger Accounts Assistant
+company: Belinda Roberts Ltd - Agency - Permanent
+location: Warwick
+source: JobG8
+job_id: jobg8-1835035
+reason: Exact approved Warwick workplace.
+---
+
+## REVIEW (12)
 
 ---
 action: 
@@ -78,11 +66,11 @@ reason: No exact Warwick workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Administrator - Purchasing
-company: Options Resourcing Ltd - Agency - Permanent
-location: Southam
+title: Billing Operations Administrator
+company: Manpower - Agency - Permanent
+location: Warwickshire
 source: JobG8
-job_id: jobg8-23643_225526928
+job_id: jobg8-1916505
 reason: No exact Warwick workplace matched; local geographic review is required.
 ---
 
@@ -90,11 +78,11 @@ reason: No exact Warwick workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Billing Operations Administrator
+title: Cash Allocation Administrator
 company: Manpower - Agency - Permanent
 location: Warwickshire
 source: JobG8
-job_id: jobg8-107940735
+job_id: jobg8-1916611
 reason: No exact Warwick workplace matched; local geographic review is required.
 ---
 
@@ -107,18 +95,6 @@ company: RA Bennett - Agency - Permanent
 location: Warwickshire
 source: JobG8
 job_id: jobg8-1842482
-reason: No exact Warwick workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: E-Commerce Administrator
-company: Arden Personnel - Agency - Permanent
-location: Warwickshire
-source: JobG8
-job_id: jobg8-23643_225573434
 reason: No exact Warwick workplace matched; local geographic review is required.
 ---
 
@@ -143,18 +119,6 @@ company: Office Angels - Agency - Permanent
 location: Atherstone
 source: JobG8
 job_id: jobg8-1859602
-reason: No exact Warwick workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: HR Administrator, Temporary to Permanent Opportunity
-company: Office Angels - Agency - Temporary
-location: Atherstone
-source: JobG8
-job_id: jobg8-23643_225572898
 reason: No exact Warwick workplace matched; local geographic review is required.
 ---
 
@@ -198,59 +162,11 @@ reason: No exact Warwick workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: HR Coordinator (2-Month Temporary Contract)
-company: Arden Personnel - Agency - Contract
-location: Warwickshire
-source: JobG8
-job_id: jobg8-23643_225526643
-reason: No exact Warwick workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Learning and Development Coordinator
-company: Rose & Young Recruitment Ltd - Agency - Permanent
-location: Warwickshire
-source: JobG8
-job_id: jobg8-107875425
-reason: No exact Warwick workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: MEDICAL RECEPTIONIST
 company: Valley Road Medical Practice
 location: Leamington Spa, CV32 7SJ
 source: NHS Jobs
 job_id: nhs-4151642
-reason: No exact Warwick workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Occupational Health Administrator
-company: Opus People Solutions Ltd - Agency - Temporary
-location: Coventry
-source: JobG8
-job_id: jobg8-23643_225601184
-reason: No exact Warwick workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Office & Facilities Administrator (Part-time)
-company: NES Group Ltd - Agency - Permanent
-location: Coventry
-source: JobG8
-job_id: jobg8-23643_225570023
 reason: No exact Warwick workplace matched; local geographic review is required.
 ---
 
@@ -270,59 +186,11 @@ reason: No exact Warwick workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Part-Time Finance Assistant
-company: Hays Specialist Recruitment Limited - Agency - Permanent
-location: Coventry
-source: JobG8
-job_id: jobg8-1800544
-reason: No exact Warwick workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: People Coordinator
 company: Michael Page Business Support - Agency - Permanent
 location: Coventry
 source: JobG8
 job_id: jobg8-1859862
-reason: No exact Warwick workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Personal Assistant
-company: Opus People Solutions Ltd - Agency - Temporary
-location: Rugby
-source: JobG8
-job_id: jobg8-23643_225562122
-reason: No exact Warwick workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Receptionist
-company: Adecco - Agency - Temporary
-location: Coventry
-source: JobG8
-job_id: jobg8-23643_225572830
-reason: No exact Warwick workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: X2 Administrators - Coventry - £14.00 - £15.00 p/h
-company: Oakley Recruitment Limited - Agency - Temporary
-location: Coventry
-source: JobG8
-job_id: jobg8-23643_225516949
 reason: No exact Warwick workplace matched; local geographic review is required.
 ---
 

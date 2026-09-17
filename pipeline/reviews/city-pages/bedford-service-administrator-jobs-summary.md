@@ -4,7 +4,7 @@
 - Live route: `/bedford/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 3
+- Effective included jobs: 1
 - Threshold currently met: no
 
 ## How to review
@@ -15,62 +15,38 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 3
-- automatic review: 14
+- automatic include: 1
+- automatic review: 4
 - automatic exclude: 0
-- effective include: 3
-- effective review: 14
+- effective include: 1
+- effective review: 4
 - effective exclude: 0
 
-## INCLUDE (3)
+## INCLUDE (1)
 
 ---
 action: 
 decision: include
 automatic_decision: include
-title: Customer Services Administrator
-company: Tate - Agency - Temporary
+title: Accounts Assistant / Bookkeper
+company: The GK Group Limited - Agency - Permanent
 location: Bedford
 source: JobG8
-job_id: jobg8-23643_225586192
+job_id: jobg8-1876034
 reason: Exact approved Bedford workplace.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Graduate Town Planner
-company: Penguin Recruitment - Agency - Permanent
-location: Bedford
-source: JobG8
-job_id: jobg8-23643_225543403
-reason: Exact approved Bedford workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Receptionist
-company: FS1 Recruitment - Agency - Temporary
-location: Bedford
-source: JobG8
-job_id: jobg8-23643_225539795
-reason: Exact approved Bedford workplace.
----
-
-## REVIEW (14)
+## REVIEW (4)
 
 ---
 action: 
 decision: review
 automatic_decision: review
-title: Customer Service Coordinator
-company: Tate - Agency - Temporary
-location: Bedfordshire
-source: JobG8
-job_id: jobg8-23643_225599187
+title: Administrator
+company: HUC
+location: Luton, LU1 2SE
+source: NHS Jobs
+job_id: nhs-5603469
 reason: No exact Bedford workplace matched; local geographic review is required.
 ---
 
@@ -90,11 +66,11 @@ reason: No exact Bedford workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Graduate Town Planner
-company: Penguin Recruitment - Agency - Permanent
+title: Procurement Administrator
+company: Cranfield University - Agency - Permanent
 location: Bedfordshire
 source: JobG8
-job_id: jobg8-23643_225595761
+job_id: jobg8-415093
 reason: No exact Bedford workplace matched; local geographic review is required.
 ---
 
@@ -102,131 +78,11 @@ reason: No exact Bedford workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Medical Receptionist
-company: Ashcroft Surgery
-location: Leighton Buzzard, LU7 0EN
-source: NHS Jobs
-job_id: nhs-5565873
-reason: No exact Bedford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Medical Receptionist
-company: Dr J Henderson & Partners
-location: Leighton Buzzard, LU7 1AR
-source: NHS Jobs
-job_id: nhs-5598556
-reason: No exact Bedford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Medical Receptionist
-company: Salisbury House Surgery
-location: Leighton Buzzard, LU7 1RS
-source: NHS Jobs
-job_id: nhs-5577346
-reason: No exact Bedford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Operations Administrator
-company: Kraft Recruitment - Agency - Permanent
+title: Secretary
+company: Candidate Source - Agency - Permanent
 location: Bedfordshire
 source: JobG8
-job_id: jobg8-23643_225548201
-reason: No exact Bedford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Operations Administrator
-company: Response Personnel Ltd - Agency - Permanent
-location: Bedfordshire
-source: JobG8
-job_id: jobg8-23643_225564132
-reason: No exact Bedford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Production Administrator
-company: South57 Recruitment - Agency - Temporary
-location: Bedfordshire
-source: JobG8
-job_id: jobg8-23643_225521203
-reason: No exact Bedford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Purchasing Coordinator - 12 month FTC
-company: SAFRAN UK - Agency - Permanent
-location: Bedfordshire
-source: JobG8
-job_id: jobg8-23643_225549219
-reason: No exact Bedford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Receptionist (12 month FTC)
-company: First Military Recruitment Ltd - Agency - Permanent
-location: Bedfordshire
-source: JobG8
-job_id: jobg8-23643_225544430
-reason: No exact Bedford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Recruitment Administrator
-company: Connect2Luton - Agency - Temporary
-location: Bedfordshire
-source: JobG8
-job_id: jobg8-23643_225571114
-reason: No exact Bedford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Recruitment Onboarding Administrator
-company: Hamberley Care Management Limited - Company - Permanent
-location: Bedfordshire
-source: JobG8
-job_id: jobg8-23643_225580197
-reason: No exact Bedford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Voids Administrator
-company: Gilmartins - Agency - Permanent
-location: Bedfordshire
-source: JobG8
-job_id: jobg8-23643_225567152
+job_id: jobg8-107991156
 reason: No exact Bedford workplace matched; local geographic review is required.
 ---
 

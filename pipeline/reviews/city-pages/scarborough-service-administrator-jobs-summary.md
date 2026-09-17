@@ -16,25 +16,25 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 0
-- automatic review: 23
+- automatic review: 17
 - automatic exclude: 0
 - effective include: 0
-- effective review: 23
+- effective review: 17
 - effective exclude: 0
 
 ## INCLUDE (0)
 
-## REVIEW (23)
+## REVIEW (17)
 
 ---
 action: 
 decision: review
 automatic_decision: review
-title: Administrator - HR Department
-company: Hays Business Support - Agency - Permanent
-location: Northallerton
+title: Bookkeeper
+company: IPS Group - Agency - Permanent
+location: Yorkshire
 source: JobG8
-job_id: jobg8-23643_225592726
+job_id: jobg8-1936715
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 
@@ -42,11 +42,11 @@ reason: No exact Scarborough workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Assessment Administration Coordinator
-company: Advance HE - Agency - Permanent
-location: York
+title: Client Accounts Assistant
+company: Property Personnel - Agency - Permanent
+location: Richmond
 source: JobG8
-job_id: jobg8-23643_225543992
+job_id: jobg8-1869341
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 
@@ -66,11 +66,11 @@ reason: No exact Scarborough workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Distribution Coordinator
-company: MTrec Technical - Agency - Permanent
-location: Northallerton
+title: Credit Controller
+company: Headstar - Agency - Permanent
+location: Yorkshire
 source: JobG8
-job_id: jobg8-107893393
+job_id: jobg8-1835849
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 
@@ -78,11 +78,11 @@ reason: No exact Scarborough workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Executive Assistant
-company: Hays Business Support - Agency - Permanent
-location: Northallerton
+title: Credit Controller
+company: Michael Page Finance - Agency - Permanent
+location: Yorkshire
 source: JobG8
-job_id: jobg8-23643_225555701
+job_id: jobg8-1939806
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 
@@ -95,18 +95,6 @@ company: Autohorn Fleet Services Ltd - Agency - Permanent
 location: York
 source: JobG8
 job_id: jobg8-1778940
-reason: No exact Scarborough workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: HR Administrator
-company: Unity Resourcing Ltd - Agency - Permanent
-location: Knaresborough
-source: JobG8
-job_id: jobg8-23643_225544656
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 
@@ -139,34 +127,10 @@ action:
 decision: review
 automatic_decision: review
 title: Marketing Executive
-company: Capital Outsourcing Group Limited - Agency - Contract
-location: Yorkshire
-source: JobG8
-job_id: jobg8-107811314
-reason: No exact Scarborough workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Marketing Executive
 company: IMPRESSION RECRUITMENT LIMITED - Agency - Permanent
 location: Knaresborough
 source: JobG8
 job_id: jobg8-1880492
-reason: No exact Scarborough workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Marketing Manager
-company: BATA - Agency - Permanent
-location: Yorkshire
-source: JobG8
-job_id: jobg8-107906650
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 
@@ -211,10 +175,10 @@ action:
 decision: review
 automatic_decision: review
 title: Payroll Administrator
-company: SI Recruitment - Agency - Permanent
+company: Portfolio Payroll - Agency - Permanent
 location: Yorkshire
 source: JobG8
-job_id: jobg8-107919845
+job_id: jobg8-1892503
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 
@@ -222,11 +186,11 @@ reason: No exact Scarborough workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Receptionist/Administrator
-company: Ripon Spa Surgery
-location: Ripon, HG4 2BE
-source: NHS Jobs
-job_id: nhs-5501480
+title: Payroll Clerk
+company: Reed - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-1908699
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 
@@ -234,11 +198,11 @@ reason: No exact Scarborough workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: School Office Administrator
-company: Askwith Primary School
-location: Otley
-source: Teaching Vacancies
-job_id: teaching-vacancies-school-office-administrator-askwith-primary-school
+title: Payroll Coordinator
+company: Reed - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-1867235
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 
@@ -258,47 +222,11 @@ reason: No exact Scarborough workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Team Administrator
-company: Tees Esk and Wear Valleys NHS Foundation Trust
-location: York, YO32 9XW
-source: NHS Jobs
-job_id: nhs-5590363
-reason: No exact Scarborough workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Temporary Bookkeeper
-company: IPS Group - Agency - Permanent
-location: Yorkshire
-source: JobG8
-job_id: jobg8-107985053
-reason: No exact Scarborough workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Temporary Bookkeeper
 company: IPS Group - Agency - Permanent
 location: Yorkshire
 source: JobG8
 job_id: jobg8-1916296
-reason: No exact Scarborough workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Temporary New Business / Payout Coordinator
-company: Michael Page - Agency - Temporary
-location: Richmond
-source: JobG8
-job_id: jobg8-23643_225581619
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 

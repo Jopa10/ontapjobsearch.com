@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 11
-- automatic review: 2
-- automatic exclude: 5
+- automatic review: 1
+- automatic exclude: 6
 - effective include: 11
-- effective review: 2
-- effective exclude: 5
+- effective review: 1
+- effective exclude: 6
 
 ## INCLUDE (11)
 
@@ -28,11 +28,23 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 action: 
 decision: include
 automatic_decision: include
-title: Communications & Events Executive
-company: Vermelo RPO - Agency - Permanent
-location: Cambridgeshire
+title: Accounts Administrator
+company: Heap & Co - Agency - Permanent
+location: Cambridge
 source: JobG8
-job_id: jobg8-1848349
+job_id: jobg8-1833141
+reason: Approved conservative Cambridge launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Accounts Assistant
+company: Eclectic Recruitment - Agency - Permanent
+location: Cambridge
+source: JobG8
+job_id: jobg8-1877925
 reason: Approved conservative Cambridge launch catchment.
 ---
 
@@ -57,18 +69,6 @@ company: Reed - Agency - Permanent
 location: Cambridgeshire
 source: JobG8
 job_id: jobg8-1857177
-reason: Approved conservative Cambridge launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Ecommerce Content Assistant
-company: Yours Clothing - Agency - Permanent
-location: Cambridgeshire
-source: JobG8
-job_id: jobg8-107881402
 reason: Approved conservative Cambridge launch catchment.
 ---
 
@@ -112,6 +112,18 @@ reason: Approved conservative Cambridge launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Internal Communications (REMOTE)
+company: Reed - Agency - Permanent
+location: Cambridgeshire
+source: JobG8
+job_id: jobg8-1933672
+reason: Approved conservative Cambridge launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Lettings Administrator
 company: Property Personnel - Agency - Permanent
 location: Cambridge
@@ -136,18 +148,6 @@ reason: Approved conservative Cambridge launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Receptionist
-company: Peasgood & Skeates - Agency - Permanent
-location: Cambridge
-source: JobG8
-job_id: jobg8-23643_225513578
-reason: Approved conservative Cambridge launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Sporting Events Administrator
 company: Alzheimer's Research UK - Agency - Permanent
 location: Cambridge
@@ -156,7 +156,7 @@ job_id: jobg8-1927948
 reason: Approved conservative Cambridge launch catchment.
 ---
 
-## REVIEW (2)
+## REVIEW (1)
 
 ---
 action: 
@@ -170,19 +170,19 @@ job_id: teaching-vacancies-finance-admin-assistant-priory-junior-school-st-neots
 reason: No approved Cambridge catchment rule matched; local review required.
 ---
 
+## EXCLUDE (6)
+
 ---
 action: 
-decision: review
-automatic_decision: review
-title: Stock Administrator
-company: Interaction Recruitment - Agency - Temporary
-location: St. Ives
+decision: exclude
+automatic_decision: exclude
+title: Accounts Administrator
+company: Reed - Agency - Permanent
+location: Peterborough
 source: JobG8
-job_id: jobg8-23643_225519683
-reason: No approved Cambridge catchment rule matched; local review required.
+job_id: jobg8-1870317
+reason: Separate employment market.
 ---
-
-## EXCLUDE (5)
 
 ---
 action: 
@@ -212,11 +212,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Customer Service Administrator
-company: Rosscare - Agency - Contract
-location: Huntingdon
+title: Finance Assistant
+company: Broster Buchanan - Agency - Permanent
+location: Peterborough
 source: JobG8
-job_id: jobg8-23643_225588023
+job_id: jobg8-1905510
 reason: Separate employment market.
 ---
 

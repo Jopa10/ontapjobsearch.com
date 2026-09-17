@@ -4,7 +4,7 @@
 - Live route: `/york/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 3
+- Effective included jobs: 1
 - Threshold currently met: no
 
 ## How to review
@@ -15,26 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 3
-- automatic review: 9
-- automatic exclude: 11
-- effective include: 3
-- effective review: 9
-- effective exclude: 11
+- automatic include: 1
+- automatic review: 6
+- automatic exclude: 10
+- effective include: 1
+- effective review: 6
+- effective exclude: 10
 
-## INCLUDE (3)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Assessment Administration Coordinator
-company: Advance HE - Agency - Permanent
-location: York
-source: JobG8
-job_id: jobg8-23643_225543992
-reason: Approved York catchment.
----
+## INCLUDE (1)
 
 ---
 action: 
@@ -48,19 +36,19 @@ job_id: jobg8-1778940
 reason: Approved York catchment.
 ---
 
+## REVIEW (6)
+
 ---
 action: 
-decision: include
-automatic_decision: include
-title: Team Administrator
-company: Tees Esk and Wear Valleys NHS Foundation Trust
-location: York, YO32 9XW
-source: NHS Jobs
-job_id: nhs-5590363
-reason: Approved York catchment.
+decision: review
+automatic_decision: review
+title: Client Accounts Assistant
+company: Property Personnel - Agency - Permanent
+location: Richmond
+source: JobG8
+job_id: jobg8-1869341
+reason: No approved York catchment rule matched; local review required.
 ---
-
-## REVIEW (9)
 
 ---
 action: 
@@ -71,18 +59,6 @@ company: IMPRESSION RECRUITMENT LIMITED - Agency - Permanent
 location: Ripon
 source: JobG8
 job_id: jobg8-1778199
-reason: No approved York catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: HR Administrator
-company: Unity Resourcing Ltd - Agency - Permanent
-location: Knaresborough
-source: JobG8
-job_id: jobg8-23643_225544656
 reason: No approved York catchment rule matched; local review required.
 ---
 
@@ -134,89 +110,17 @@ job_id: jobg8-1880493
 reason: No approved York catchment rule matched; local review required.
 ---
 
----
-action: 
-decision: review
-automatic_decision: review
-title: Receptionist/Administrator
-company: Ripon Spa Surgery
-location: Ripon, HG4 2BE
-source: NHS Jobs
-job_id: nhs-5501480
-reason: No approved York catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: School Office Administrator
-company: Askwith Primary School
-location: Otley
-source: Teaching Vacancies
-job_id: teaching-vacancies-school-office-administrator-askwith-primary-school
-reason: No approved York catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Temporary New Business / Payout Coordinator
-company: Michael Page - Agency - Temporary
-location: Richmond
-source: JobG8
-job_id: jobg8-23643_225581619
-reason: No approved York catchment rule matched; local review required.
----
-
-## EXCLUDE (11)
+## EXCLUDE (10)
 
 ---
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Administrator - HR Department
-company: Hays Business Support - Agency - Permanent
-location: Northallerton
-source: JobG8
-job_id: jobg8-23643_225592726
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Distribution Coordinator
-company: MTrec Technical - Agency - Permanent
-location: Northallerton
-source: JobG8
-job_id: jobg8-107893393
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Executive Assistant
-company: Hays Business Support - Agency - Permanent
-location: Northallerton
-source: JobG8
-job_id: jobg8-23643_225555701
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Marketing Executive
-company: Capital Outsourcing Group Limited - Agency - Contract
+title: Bookkeeper
+company: IPS Group - Agency - Permanent
 location: Yorkshire
 source: JobG8
-job_id: jobg8-107811314
+job_id: jobg8-1936715
 reason: Broad regional label; not York-city evidence.
 ---
 
@@ -224,11 +128,23 @@ reason: Broad regional label; not York-city evidence.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Marketing Manager
-company: BATA - Agency - Permanent
+title: Credit Controller
+company: Headstar - Agency - Permanent
 location: Yorkshire
 source: JobG8
-job_id: jobg8-107906650
+job_id: jobg8-1835849
+reason: Broad regional label; not York-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Credit Controller
+company: Michael Page Finance - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-1939806
 reason: Broad regional label; not York-city evidence.
 ---
 
@@ -261,10 +177,34 @@ action:
 decision: exclude
 automatic_decision: exclude
 title: Payroll Administrator
-company: SI Recruitment - Agency - Permanent
+company: Portfolio Payroll - Agency - Permanent
 location: Yorkshire
 source: JobG8
-job_id: jobg8-107919845
+job_id: jobg8-1892503
+reason: Broad regional label; not York-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Payroll Clerk
+company: Reed - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-1908699
+reason: Broad regional label; not York-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Payroll Coordinator
+company: Reed - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-1867235
 reason: Broad regional label; not York-city evidence.
 ---
 
@@ -277,18 +217,6 @@ company: Si Recruitment - Agency - Permanent
 location: Yorkshire
 source: JobG8
 job_id: jobg8-1848150
-reason: Broad regional label; not York-city evidence.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Temporary Bookkeeper
-company: IPS Group - Agency - Permanent
-location: Yorkshire
-source: JobG8
-job_id: jobg8-107985053
 reason: Broad regional label; not York-city evidence.
 ---
 

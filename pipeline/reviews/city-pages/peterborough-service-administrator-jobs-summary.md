@@ -4,8 +4,8 @@
 - Live route: `/peterborough/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 4
-- Threshold currently met: no
+- Effective included jobs: 6
+- Threshold currently met: yes
 
 ## How to review
 Edit only the `action:` line inside a job block.
@@ -15,14 +15,26 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 4
-- automatic review: 2
-- automatic exclude: 12
-- effective include: 4
-- effective review: 2
-- effective exclude: 12
+- automatic include: 6
+- automatic review: 1
+- automatic exclude: 11
+- effective include: 6
+- effective review: 1
+- effective exclude: 11
 
-## INCLUDE (4)
+## INCLUDE (6)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Accounts Administrator
+company: Reed - Agency - Permanent
+location: Peterborough
+source: JobG8
+job_id: jobg8-1870317
+reason: Approved conservative Peterborough launch catchment.
+---
 
 ---
 action: 
@@ -52,6 +64,18 @@ reason: Approved conservative Peterborough launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Finance Assistant
+company: Broster Buchanan - Agency - Permanent
+location: Peterborough
+source: JobG8
+job_id: jobg8-1905510
+reason: Approved conservative Peterborough launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Pastoral Services Administrator
 company: Queen Katharine Academy
 location: Peterborough
@@ -72,7 +96,7 @@ job_id: jobg8-1860755
 reason: Approved conservative Peterborough launch catchment.
 ---
 
-## REVIEW (2)
+## REVIEW (1)
 
 ---
 action: 
@@ -86,29 +110,29 @@ job_id: teaching-vacancies-finance-admin-assistant-priory-junior-school-st-neots
 reason: No approved Peterborough catchment rule matched; local review required.
 ---
 
----
-action: 
-decision: review
-automatic_decision: review
-title: Stock Administrator
-company: Interaction Recruitment - Agency - Temporary
-location: St. Ives
-source: JobG8
-job_id: jobg8-23643_225519683
-reason: No approved Peterborough catchment rule matched; local review required.
----
-
-## EXCLUDE (12)
+## EXCLUDE (11)
 
 ---
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Communications & Events Executive
-company: Vermelo RPO - Agency - Permanent
-location: Cambridgeshire
+title: Accounts Administrator
+company: Heap & Co - Agency - Permanent
+location: Cambridge
 source: JobG8
-job_id: jobg8-1848349
+job_id: jobg8-1833141
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Accounts Assistant
+company: Eclectic Recruitment - Agency - Permanent
+location: Cambridge
+source: JobG8
+job_id: jobg8-1877925
 reason: Separate employment market.
 ---
 
@@ -128,35 +152,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Customer Service Administrator
-company: Rosscare - Agency - Contract
-location: Huntingdon
-source: JobG8
-job_id: jobg8-23643_225588023
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Digital Marketing Specialist
 company: Reed - Agency - Permanent
 location: Cambridgeshire
 source: JobG8
 job_id: jobg8-1857177
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Ecommerce Content Assistant
-company: Yours Clothing - Agency - Permanent
-location: Cambridgeshire
-source: JobG8
-job_id: jobg8-107881402
 reason: Separate employment market.
 ---
 
@@ -200,6 +200,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Internal Communications (REMOTE)
+company: Reed - Agency - Permanent
+location: Cambridgeshire
+source: JobG8
+job_id: jobg8-1933672
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Lettings Administrator
 company: Property Personnel - Agency - Permanent
 location: Cambridge
@@ -217,18 +229,6 @@ company: Bensons for Beds - Agency - Permanent
 location: Cambridgeshire
 source: JobG8
 job_id: jobg8-1826872
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Receptionist
-company: Peasgood & Skeates - Agency - Permanent
-location: Cambridge
-source: JobG8
-job_id: jobg8-23643_225513578
 reason: Separate employment market.
 ---
 

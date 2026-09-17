@@ -4,7 +4,7 @@
 - Live route: `/coventry/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 11
+- Effective included jobs: 6
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 11
-- automatic review: 3
-- automatic exclude: 11
-- effective include: 11
-- effective review: 3
-- effective exclude: 11
+- automatic include: 6
+- automatic review: 1
+- automatic exclude: 7
+- effective include: 6
+- effective review: 1
+- effective exclude: 7
 
-## INCLUDE (11)
+## INCLUDE (6)
 
 ---
 action: 
@@ -76,47 +76,11 @@ reason: Approved Coventry catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Occupational Health Administrator
-company: Opus People Solutions Ltd - Agency - Temporary
-location: Coventry
-source: JobG8
-job_id: jobg8-23643_225601184
-reason: Approved Coventry catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Office & Facilities Administrator (Part-time)
-company: NES Group Ltd - Agency - Permanent
-location: Coventry
-source: JobG8
-job_id: jobg8-23643_225570023
-reason: Approved Coventry catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Part Time Website Content Coordinator
 company: THE RECRUITMENT DUO - Agency - Permanent
 location: Coventry
 source: JobG8
 job_id: jobg8-1916346
-reason: Approved Coventry catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Part-Time Finance Assistant
-company: Hays Specialist Recruitment Limited - Agency - Permanent
-location: Coventry
-source: JobG8
-job_id: jobg8-1800544
 reason: Approved Coventry catchment.
 ---
 
@@ -132,43 +96,7 @@ job_id: jobg8-1859862
 reason: Approved Coventry catchment.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Receptionist
-company: Adecco - Agency - Temporary
-location: Coventry
-source: JobG8
-job_id: jobg8-23643_225572830
-reason: Approved Coventry catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: X2 Administrators - Coventry - £14.00 - £15.00 p/h
-company: Oakley Recruitment Limited - Agency - Temporary
-location: Coventry
-source: JobG8
-job_id: jobg8-23643_225516949
-reason: Approved Coventry catchment.
----
-
-## REVIEW (3)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator - Purchasing
-company: Options Resourcing Ltd - Agency - Permanent
-location: Southam
-source: JobG8
-job_id: jobg8-23643_225526928
-reason: No approved Coventry catchment rule matched; local review required.
----
+## REVIEW (1)
 
 ---
 action: 
@@ -182,31 +110,7 @@ job_id: jobg8-1859602
 reason: No approved Coventry catchment rule matched; local review required.
 ---
 
----
-action: 
-decision: review
-automatic_decision: review
-title: HR Administrator, Temporary to Permanent Opportunity
-company: Office Angels - Agency - Temporary
-location: Atherstone
-source: JobG8
-job_id: jobg8-23643_225572898
-reason: No approved Coventry catchment rule matched; local review required.
----
-
-## EXCLUDE (11)
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Administrator - GAP Claims Assessment
-company: SVB Solutions - Agency - Permanent
-location: Warwick
-source: JobG8
-job_id: jobg8-23643_225600118
-reason: Separate employment market.
----
+## EXCLUDE (7)
 
 ---
 action: 
@@ -216,7 +120,7 @@ title: Billing Operations Administrator
 company: Manpower - Agency - Permanent
 location: Warwickshire
 source: JobG8
-job_id: jobg8-107940735
+job_id: jobg8-1916505
 reason: Separate employment market.
 ---
 
@@ -224,11 +128,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Business Administrator
-company: The Cinnamon Care Collection - Company - Permanent
-location: Warwick
+title: Cash Allocation Administrator
+company: Manpower - Agency - Permanent
+location: Warwickshire
 source: JobG8
-job_id: jobg8-23643_225588153
+job_id: jobg8-1916611
 reason: Separate employment market.
 ---
 
@@ -241,18 +145,6 @@ company: RA Bennett - Agency - Permanent
 location: Warwickshire
 source: JobG8
 job_id: jobg8-1842482
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: E-Commerce Administrator
-company: Arden Personnel - Agency - Permanent
-location: Warwickshire
-source: JobG8
-job_id: jobg8-23643_225573434
 reason: Separate employment market.
 ---
 
@@ -284,30 +176,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: HR Coordinator (2-Month Temporary Contract)
-company: Arden Personnel - Agency - Contract
-location: Warwickshire
-source: JobG8
-job_id: jobg8-23643_225526643
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Learning and Development Coordinator
-company: Rose & Young Recruitment Ltd - Agency - Permanent
-location: Warwickshire
-source: JobG8
-job_id: jobg8-107875425
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: MEDICAL RECEPTIONIST
 company: Valley Road Medical Practice
 location: Leamington Spa, CV32 7SJ
@@ -320,10 +188,10 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Personal Assistant
-company: Opus People Solutions Ltd - Agency - Temporary
-location: Rugby
+title: Purchase Ledger Accounts Assistant
+company: Belinda Roberts Ltd - Agency - Permanent
+location: Warwick
 source: JobG8
-job_id: jobg8-23643_225562122
+job_id: jobg8-1835035
 reason: Separate employment market.
 ---

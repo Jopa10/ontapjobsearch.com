@@ -16,61 +16,25 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 0
-- automatic review: 10
+- automatic review: 2
 - automatic exclude: 0
 - effective include: 0
-- effective review: 10
+- effective review: 2
 - effective exclude: 0
 
 ## INCLUDE (0)
 
-## REVIEW (10)
+## REVIEW (2)
 
 ---
 action: 
 decision: review
 automatic_decision: review
-title: Account Coordinator
-company: Staffline Operations - Agency - Temporary
+title: Accounts Assistant
+company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Shropshire
 source: JobG8
-job_id: jobg8-107933061
-reason: No exact Shrewsbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
-company: CBSbutler Holdings Limited trading as CBSbutler - Agency - Contract
-location: Shropshire
-source: JobG8
-job_id: jobg8-23643_225537791
-reason: No exact Shrewsbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Business Support Officer
-company: Opus People Solutions Ltd - Agency - Temporary
-location: Telford
-source: JobG8
-job_id: jobg8-23643_225573577
-reason: No exact Shrewsbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Client Coordinator
-company: Prince Personnel Limited - Agency - Temporary
-location: Shropshire
-source: JobG8
-job_id: jobg8-23643_225512376
+job_id: jobg8-1905436
 reason: No exact Shrewsbury workplace matched; local geographic review is required.
 ---
 
@@ -83,66 +47,6 @@ company: Vivactive Ltd - Agency - Permanent
 location: Shropshire
 source: JobG8
 job_id: jobg8-23643_225535780
-reason: No exact Shrewsbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Part Time Accounts Administrator 12 Month FTC
-company: Office Angels - Agency - Temporary
-location: Wellington
-source: JobG8
-job_id: jobg8-23643_225595351
-reason: No exact Shrewsbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Patient Services Advisor (Receptionist)
-company: Churchmere Medical Group
-location: Ellesmere, SY12 0DB, Whitchurch, SY13 1FQ
-source: NHS Jobs
-job_id: nhs-5590172
-reason: No exact Shrewsbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Receptionist
-company: Teldoc
-location: Telford, TF2 6JJ, Telford, TF3 2BF
-source: NHS Jobs
-job_id: nhs-5592785
-reason: No exact Shrewsbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Recruitment Account Coordinator
-company: Staffline Recruitment Limited - Agency - Permanent
-location: Shropshire
-source: JobG8
-job_id: jobg8-1884311
-reason: No exact Shrewsbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Sales Administrator
-company: Prince Personnel Limited - Agency - Temporary
-location: Telford
-source: JobG8
-job_id: jobg8-23643_225426625
 reason: No exact Shrewsbury workplace matched; local geographic review is required.
 ---
 

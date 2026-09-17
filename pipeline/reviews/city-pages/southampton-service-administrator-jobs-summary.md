@@ -4,7 +4,7 @@
 - Live route: `/southampton/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 5
+- Effective included jobs: 1
 - Threshold currently met: no
 
 ## How to review
@@ -15,38 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 5
-- automatic review: 31
-- automatic exclude: 18
-- effective include: 5
-- effective review: 31
-- effective exclude: 18
+- automatic include: 1
+- automatic review: 10
+- automatic exclude: 5
+- effective include: 1
+- effective review: 10
+- effective exclude: 5
 
-## INCLUDE (5)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Customer Relationship Coordinator
-company: Davies Turner - Agency - Permanent
-location: Southampton
-source: JobG8
-job_id: jobg8-107799067
-reason: Approved Southampton catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Front of House Coordinator
-company: University Of Southampton Students Union - Agency - Permanent
-location: Southampton
-source: JobG8
-job_id: jobg8-23643_225573592
-reason: Approved Southampton catchment.
----
+## INCLUDE (1)
 
 ---
 action: 
@@ -60,79 +36,7 @@ job_id: jobg8-107193862
 reason: Approved Southampton catchment.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Project Document Controller
-company: Octagon Group - Agency - Permanent
-location: Southampton
-source: JobG8
-job_id: jobg8-23643_225576097
-reason: Approved Southampton catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Receptionist/Care Navigator
-company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
-location: Southampton, SO14 0YG, Southampton, SO16 4XE, Southampton, SO17 2GD, Southampton, SO14 0LT
-source: NHS Jobs
-job_id: nhs-5589814
-reason: Approved Southampton catchment.
----
-
-## REVIEW (31)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Account Coordinator
-company: Hampshire Recruitment Group LTD - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-23643_225529475
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Assistant
-company: CMA Recruitment Group - Agency - Permanent
-location: Waterlooville
-source: JobG8
-job_id: jobg8-23643_225587078
-reason: No approved Southampton catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Admin Assistant - Bank - Care Home
-company: Barchester Healthcare
-location: Ringwood, BH24 2DW
-source: NHS Jobs
-job_id: nhs-5573045
-reason: No approved Southampton catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
-company: Dynamite Recruitment - Agency - Temporary
-location: Hampshire
-source: JobG8
-job_id: jobg8-23643_225601308
-reason: Broad location; review before city inclusion.
----
+## REVIEW (10)
 
 ---
 action: 
@@ -150,11 +54,11 @@ reason: No approved Southampton catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Administrator
-company: Rubicon Recruitment - Agency - Permanent
+title: Administrator Apprentice
+company: Blake Morgan LLP - Agency - Contract
 location: Hampshire
 source: JobG8
-job_id: jobg8-23643_225569763
+job_id: jobg8-107872412
 reason: Broad location; review before city inclusion.
 ---
 
@@ -162,107 +66,11 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Administrator - Business Support
-company: Pin Point Recruitment - Agency - Permanent
-location: Lyndhurst
-source: JobG8
-job_id: jobg8-23643_225542279
-reason: No approved Southampton catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Bank Admin Assistant
-company: The Cinnamon Care Collection - Company - Permanent
+title: Care Coordinator
+company: Agincare Group - Agency - Permanent
 location: Hampshire
 source: JobG8
-job_id: jobg8-23643_225524482
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Claims Handler
-company: Everywhen, part of the Ardonagh Group - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-1769981
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Contract Support Administrator
-company: Octagon Group - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-23643_225590008
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Customer Service Administrator
-company: Recruitment Helpline - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-23643_225573408
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Customer Service Administrator
-company: Wild Recruitment - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-23643_225564928
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Customer Service Advisor
-company: Tate - Agency - Temporary
-location: Hampshire
-source: JobG8
-job_id: jobg8-23643_225576273
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Customer Service Coordinator
-company: Vistry Group - Company - Contract
-location: Hampshire
-source: JobG8
-job_id: jobg8-107892817
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Dental Receptionist
-company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
-location: Havant, PO9 2AZ
-source: NHS Jobs
-job_id: nhs-5601966
+job_id: jobg8-107963757
 reason: Broad location; review before city inclusion.
 ---
 
@@ -294,24 +102,12 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Housing Repairs Administrator
-company: Thorngate Churcher Trust - Agency - Permanent
-location: Gosport
+title: Finance Assistant
+company: Reed - Agency - Permanent
+location: Hampshire
 source: JobG8
-job_id: jobg8-23643_225537561
-reason: No approved Southampton catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: HR Administrator
-company: 4Recruitment Services - Agency - Contract
-location: Lyndhurst
-source: JobG8
-job_id: jobg8-23643_225579893
-reason: No approved Southampton catchment rule matched; local review required.
+job_id: jobg8-1838784
+reason: Broad location; review before city inclusion.
 ---
 
 ---
@@ -330,48 +126,12 @@ reason: No approved Southampton catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: HR Administrator
-company: Pin Point Recruitment - Agency - Permanent
-location: Lyndhurst
-source: JobG8
-job_id: jobg8-23643_225571760
-reason: No approved Southampton catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Investment Administrator
-company: Front Row Recruitment Ltd - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-1769884
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Lifestyle Coordinator
 company: Care UK - Company - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-107605314
 reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Project & Office Administrator
-company: Venus Recruitment Ltd - Agency - Permanent
-location: Fleet
-source: JobG8
-job_id: jobg8-23643_225511982
-reason: No approved Southampton catchment rule matched; local review required.
 ---
 
 ---
@@ -390,42 +150,6 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Sales Administrative Assistant
-company: Britannia Windows - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-23643_225600795
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Sales Administrator / Sales Coordinator
-company: Dovetail Recruitment Ltd - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-23643_225581190
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: School Admin Assistant
-company: Academics - Agency - Temporary
-location: Gosport
-source: JobG8
-job_id: jobg8-23643_225600128
-reason: No approved Southampton catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Service Coordinator
 company: People First Recruitment - Agency - Permanent
 location: Hampshire
@@ -434,31 +158,7 @@ job_id: jobg8-107959953
 reason: Broad location; review before city inclusion.
 ---
 
----
-action: 
-decision: review
-automatic_decision: review
-title: Stock Data Administrator
-company: Uxbridge Employment Agency - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-23643_225397700
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Ward Clerk
-company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
-location: Alton, GU34 1RJ
-source: NHS Jobs
-job_id: nhs-5599055
-reason: Broad location; review before city inclusion.
----
-
-## EXCLUDE (18)
+## EXCLUDE (5)
 
 ---
 action: 
@@ -469,90 +169,6 @@ company: Inclusion
 location: Eastleigh, PO16 0NX
 source: NHS Jobs
 job_id: nhs-5586737
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Administrator
-company: Island City Practice
-location: Portsmouth, PO4 8TA
-source: NHS Jobs
-job_id: nhs-5577957
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Administrator
-company: Practice Plus Group - Health in Justice
-location: Winchester, SO22 5DF
-source: NHS Jobs
-job_id: nhs-5590543
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Administrator - Andover
-company: Office Angels - Agency - Temporary
-location: Andover
-source: JobG8
-job_id: jobg8-23643_225594223
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Business Support Administrator
-company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
-location: Portsmouth, PO3 6AD, Cosham, PO6 3NH, Cosham, PO6 3LY
-source: NHS Jobs
-job_id: nhs-5601963
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Customer Service Advisor
-company: Red Snapper Recruitment Limited - Agency - Contract
-location: Fareham
-source: JobG8
-job_id: jobg8-23643_225566529
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Data Entry Admin - Basingstoke
-company: Adecco - Agency - Temporary
-location: Basingstoke
-source: JobG8
-job_id: jobg8-23643_225512479
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: HR Assistant
-company: Reed - Agency - Permanent
-location: Portsmouth
-source: JobG8
-job_id: jobg8-1769284
 reason: Separate employment market.
 ---
 
@@ -584,18 +200,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Junior Administrator
-company: Adecco - Agency - Temporary
-location: Andover
-source: JobG8
-job_id: jobg8-23643_225546549
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Lettings Administrator
 company: Mulberry Recruitment - Agency - Permanent
 location: Farnborough
@@ -608,70 +212,10 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Office Administrators
-company: Lloyd Recruitment - Epsom - Agency - Temporary
-location: Portsmouth
-source: JobG8
-job_id: jobg8-23643_225566708
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Receptionist/ Front of House
-company: Search Consultancy Ltd - Agency - Contract
-location: Portsmouth
-source: JobG8
-job_id: jobg8-23643_225564118
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Receptionist/Administrator
 company: Operose Health
 location: Basingstoke, RG22 4EH
 source: NHS Jobs
 job_id: nhs-5592877
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Sales Administrator
-company: Vanta Staffing Limited - Agency - Temporary
-location: Basingstoke
-source: JobG8
-job_id: jobg8-23643_225512978
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Service Coordinator
-company: Veolia - Agency - Permanent
-location: Basingstoke
-source: JobG8
-job_id: jobg8-23643_225587076
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Telesales Executive
-company: Hirecracker - Agency - Permanent
-location: Fareham
-source: JobG8
-job_id: jobg8-107921838
 reason: Separate employment market.
 ---

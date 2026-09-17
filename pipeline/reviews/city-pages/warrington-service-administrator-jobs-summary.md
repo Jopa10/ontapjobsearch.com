@@ -88,18 +88,6 @@ reason: Approved conservative Warrington launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Commercial Administrator
-company: McLaren Resourcing - Agency - Permanent
-location: Warrington
-source: JobG8
-job_id: jobg8-23643_225545989
-reason: Approved conservative Warrington launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Contact Centre Agent - Uncapped Commission
 company: EE - Company - Permanent
 location: Warrington
@@ -141,6 +129,18 @@ company: EE - Company - Permanent
 location: Warrington
 source: JobG8
 job_id: jobg8-20279_62648-ecde51dab00e54d27ce575427a4ba514
+reason: Approved conservative Warrington launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Lending Operations Coordinator
+company: Aimee Willow Connex Limited - Agency - Permanent
+location: Warrington
+source: JobG8
+job_id: jobg8-107970774
 reason: Approved conservative Warrington launch catchment.
 ---
 
@@ -222,18 +222,6 @@ reason: No approved Warrington catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Clerical Officer
-company: North Cheshire and Mersey NHS Foundation Trust (BCH)
-location: Widnes, WA8 7XS
-source: NHS Jobs
-job_id: nhs-5574053
-reason: No approved Warrington catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Contact Centre Agent - Uncapped Commission
 company: EE - Company - Permanent
 location: Lymm
@@ -278,7 +266,31 @@ job_id: jobg8-20279_62648-872ae37268a541755e97df9c9ced56fa
 reason: No approved Warrington catchment rule matched; local review required.
 ---
 
+---
+action: 
+decision: review
+automatic_decision: review
+title: Reception/administrator
+company: Peelhouse Medical Plaza
+location: Widnes, WA8 6TN
+source: NHS Jobs
+job_id: nhs-5603667
+reason: No approved Warrington catchment rule matched; local review required.
+---
+
 ## EXCLUDE (6)
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Accounts Payable Administrator
+company: RG Consultancy Ltd - Agency - Permanent
+location: Runcorn
+source: JobG8
+job_id: jobg8-1908576
+reason: Separate employment market.
+---
 
 ---
 action: 
@@ -337,17 +349,5 @@ company: EE - Company - Permanent
 location: Runcorn
 source: JobG8
 job_id: jobg8-20279_62648-fe97affcb7eb2cdceb67019e12eb7199
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Data Entry & GP Liaison Administrator
-company: MedPal AI Plc - Agency - Permanent
-location: Runcorn
-source: JobG8
-job_id: jobg8-23643_225545347
 reason: Separate employment market.
 ---

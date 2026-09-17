@@ -4,8 +4,8 @@
 - Live route: `/hull/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 9
-- Threshold currently met: yes
+- Effective included jobs: 2
+- Threshold currently met: no
 
 ## How to review
 Edit only the `action:` line inside a job block.
@@ -15,74 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 9
-- automatic review: 3
+- automatic include: 2
+- automatic review: 0
 - automatic exclude: 0
-- effective include: 9
-- effective review: 3
+- effective include: 2
+- effective review: 0
 - effective exclude: 0
 
-## INCLUDE (9)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Admin Assistant
-company: KFM Recuitment - Agency - Contract
-location: Hull
-source: JobG8
-job_id: jobg8-23643_225510748
-reason: Approved conservative Hull launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrator
-company: Hull University Teaching Hospitals NHS Trust
-location: Hull, HU1 3TD
-source: NHS Jobs
-job_id: nhs-5595156
-reason: Approved conservative Hull launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrator
-company: Stafforce Ports - Agency - Temporary
-location: Hull
-source: JobG8
-job_id: jobg8-23643_225584896
-reason: Approved conservative Hull launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Executive Assistant
-company: Consortium Professional Recruitment Ltd - Agency - Permanent
-location: Hull
-source: JobG8
-job_id: jobg8-23643_225516073
-reason: Approved conservative Hull launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Graduate Customer Service Coordinator
-company: Consortium Professional Recruitment - Agency - Permanent
-location: Hull
-source: JobG8
-job_id: jobg8-107902261
-reason: Approved conservative Hull launch catchment.
----
+## INCLUDE (2)
 
 ---
 action: 
@@ -101,18 +41,6 @@ action:
 decision: include
 automatic_decision: include
 title: Quotations & Estimating Coordinator
-company: KD Recruitment - Agency - Permanent
-location: Hull
-source: JobG8
-job_id: jobg8-23643_225532268
-reason: Approved conservative Hull launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Quotations & Estimating Coordinator
 company: KD Recruitment Limited - Agency - Permanent
 location: Hull
 source: JobG8
@@ -120,54 +48,6 @@ job_id: jobg8-107894712
 reason: Approved conservative Hull launch catchment.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Sales Administrator
-company: Edwards & Pearce - Agency - Permanent
-location: Hull
-source: JobG8
-job_id: jobg8-23643_225511107
-reason: Approved conservative Hull launch catchment.
----
-
-## REVIEW (3)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
-company: Hull University Teaching Hospitals NHS Trust
-location: Cottingham, HU16 5JQ
-source: NHS Jobs
-job_id: nhs-5591297
-reason: No approved Hull catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Material Planner/Administrator
-company: Rullion Managed Services - Agency - Contract
-location: Goole
-source: JobG8
-job_id: jobg8-23643_225569870
-reason: No approved Hull catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Team Administration Assistant
-company: Recruitment Services UK - Agency - Permanent
-location: Cottingham
-source: JobG8
-job_id: jobg8-23643_225527411
-reason: No approved Hull catchment rule matched; local review required.
----
+## REVIEW (0)
 
 ## EXCLUDE (0)

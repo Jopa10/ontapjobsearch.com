@@ -4,7 +4,7 @@
 - Live route: `/birmingham/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 15
+- Effective included jobs: 12
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 15
-- automatic review: 5
-- automatic exclude: 2
-- effective include: 15
-- effective review: 5
-- effective exclude: 2
+- automatic include: 12
+- automatic review: 1
+- automatic exclude: 4
+- effective include: 12
+- effective review: 1
+- effective exclude: 4
 
-## INCLUDE (15)
+## INCLUDE (12)
 
 ---
 action: 
@@ -33,18 +33,6 @@ company: Yorkswood Primary School
 location: Birmingham
 source: Teaching Vacancies
 job_id: teaching-vacancies-administrative-assistant-grade-2-term-time-only
-reason: Approved conservative Birmingham launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Care Coordinator - Full Time / Part Time
-company: Watra Care - Agency - Permanent
-location: Birmingham
-source: JobG8
-job_id: jobg8-23643_225543172
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -64,11 +52,11 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: GP receptionist
-company: Eden Court Medical Practice
-location: Birmingham, B35 6EE
-source: NHS Jobs
-job_id: nhs-5600185
+title: Finance Assistant
+company: Trinity House Group - Agency - Permanent
+location: Birmingham
+source: JobG8
+job_id: jobg8-1883639
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -112,30 +100,6 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Office Administrator
-company: Alliance Personnel - Agency - Permanent
-location: Birmingham
-source: JobG8
-job_id: jobg8-23643_225518765
-reason: Approved conservative Birmingham launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Part Time PA & Executive Coordinator
-company: Katie Bard - Agency - Contract
-location: Birmingham
-source: JobG8
-job_id: jobg8-23643_225599693
-reason: Approved conservative Birmingham launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: People & Recruitment Coordinator
 company: ADI Group Services Ltd - Agency - Permanent
 location: Birmingham
@@ -153,6 +117,18 @@ company: Katie Bard & Angela Mortimer Plc - Agency - Permanent
 location: Birmingham
 source: JobG8
 job_id: jobg8-1823583
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Receptionist
+company: Bosworth Medical Centre
+location: Birmingham, B37 5BU
+source: NHS Jobs
+job_id: nhs-5602762
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -184,75 +160,15 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: SEO Manager
-company: Kairos Recruitment - Agency - Permanent
+title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
+company: Qualify Nation Recruitment - Agency - Permanent
 location: Birmingham
 source: JobG8
-job_id: jobg8-23643_225570987
+job_id: jobg8-1932508
 reason: Approved conservative Birmingham launch catchment.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Student Inclusion Administrator
-company: University College Birmingham - Company - Contract
-location: Birmingham
-source: JobG8
-job_id: jobg8-23643_225589554
-reason: Approved conservative Birmingham launch catchment.
----
-
-## REVIEW (5)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Business Support Officer
-company: Opus People Solutions Ltd - Agency - Temporary
-location: Chelmsley Wood
-source: JobG8
-job_id: jobg8-23643_225565080
-reason: No approved Birmingham catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Care Home Administrator
-company: Avery Healthcare Group Ltd.
-location: Knowle, B93 9LQ
-source: NHS Jobs
-job_id: nhs-5595583
-reason: No approved Birmingham catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Customer Care Coordinator
-company: PSR Solutions - Agency - Permanent
-location: Shirley
-source: JobG8
-job_id: jobg8-23643_225569768
-reason: No approved Birmingham catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Ecommerce Administrator
-company: Tagged Resources Ltd - Agency - Permanent
-location: Shirley
-source: JobG8
-job_id: jobg8-23643_225568014
-reason: No approved Birmingham catchment rule matched; local review required.
----
+## REVIEW (1)
 
 ---
 action: 
@@ -266,7 +182,43 @@ job_id: nhs-5566975
 reason: No approved Birmingham catchment rule matched; local review required.
 ---
 
-## EXCLUDE (2)
+## EXCLUDE (4)
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Accounts Administrator & Cashier
+company: Mitchell Adam - Agency - Permanent
+location: Solihull
+source: JobG8
+job_id: jobg8-1868171
+reason: Separate exact-city market at launch.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Accounts Payable Administrator
+company: Manpower - Agency - Permanent
+location: Solihull
+source: JobG8
+job_id: jobg8-1916617
+reason: Separate exact-city market at launch.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Finance Assistant
+company: Mitchell Adam - Agency - Permanent
+location: Solihull
+source: JobG8
+job_id: jobg8-1873246
+reason: Separate exact-city market at launch.
+---
 
 ---
 action: 
@@ -277,17 +229,5 @@ company: Michael Page Business Support - Agency - Permanent
 location: Solihull
 source: JobG8
 job_id: jobg8-1884320
-reason: Separate exact-city market at launch.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Learning and Development Coordinator
-company: Whale Tankers - Agency - Permanent
-location: Solihull
-source: JobG8
-job_id: jobg8-107893505
 reason: Separate exact-city market at launch.
 ---

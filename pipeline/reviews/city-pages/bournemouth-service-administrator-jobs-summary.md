@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 3
-- automatic review: 10
+- automatic review: 15
 - automatic exclude: 0
 - effective include: 3
-- effective review: 10
+- effective review: 15
 - effective exclude: 0
 
 ## INCLUDE (3)
@@ -52,25 +52,85 @@ reason: Exact approved Bournemouth workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Customer Operations Coordinator
+title: Purchasing & Product Administrator
 company: Team Jobs - Commercial - Agency - Permanent
 location: Bournemouth
 source: JobG8
-job_id: jobg8-23643_225598865
+job_id: jobg8-23643_225514947
 reason: Exact approved Bournemouth workplace.
 ---
 
-## REVIEW (10)
+## REVIEW (15)
 
 ---
 action: 
 decision: review
 automatic_decision: review
-title: Assistant Document Controller
-company: Fawkes & Reece London - Agency - Contract
+title: Accounts Assistant
+company: Reed - Agency - Permanent
 location: Dorset
 source: JobG8
-job_id: jobg8-23643_225575849
+job_id: jobg8-1838779
+reason: No exact Bournemouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Assistant
+company: Robert Walters - Agency - Permanent
+location: Verwood
+source: JobG8
+job_id: jobg8-1840045
+reason: No exact Bournemouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Assistant
+company: Rubicon Recruitment - Agency - Permanent
+location: Dorset
+source: JobG8
+job_id: jobg8-1937845
+reason: No exact Bournemouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Assistant Verwood Temporary
+company: Office Angels - Agency - Permanent
+location: Verwood
+source: JobG8
+job_id: jobg8-1877445
+reason: No exact Bournemouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Audit & Accounts Assistant
+company: Reed - Agency - Permanent
+location: Poole
+source: JobG8
+job_id: jobg8-1838771
+reason: No exact Bournemouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Care Coordinator
+company: Agincare Group - Agency - Permanent
+location: Dorset
+source: JobG8
+job_id: jobg8-107865251
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 
@@ -114,6 +174,30 @@ reason: No exact Bournemouth workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
+title: Finance Assistant
+company: Adecco - Agency - Permanent
+location: Dorset
+source: JobG8
+job_id: jobg8-1898309
+reason: No exact Bournemouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Finance Assistant
+company: CMA Recruitment Group - Agency - Permanent
+location: Dorset
+source: JobG8
+job_id: jobg8-1867894
+reason: No exact Bournemouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: HR Administrator
 company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Dorset
@@ -126,11 +210,11 @@ reason: No exact Bournemouth workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Operations Coordinator
-company: Team Jobs - Commercial - Agency - Temporary
-location: Poole
-source: JobG8
-job_id: jobg8-23643_225598235
+title: Receptionist/Administrator
+company: Dorset HealthCare University NHS Foundation Trust
+location: Sherborne, DT93JU
+source: NHS Jobs
+job_id: nhs-5596760
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 
@@ -143,30 +227,6 @@ company: South Coast Medical Group
 location: Christchurch, BH23 2FQ
 source: NHS Jobs
 job_id: nhs-5600939
-reason: No exact Bournemouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Sales Administrator
-company: Rubicon Recruitment - Agency - Permanent
-location: Dorset
-source: JobG8
-job_id: jobg8-23643_225580820
-reason: No exact Bournemouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Trust Administrator
-company: Aspire Jobs - Agency - Permanent
-location: Beaminster
-source: JobG8
-job_id: jobg8-23643_225429242
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 

@@ -4,7 +4,7 @@
 - Live route: `/macclesfield/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 3
+- Effective included jobs: 0
 - Threshold currently met: no
 
 ## How to review
@@ -15,52 +15,28 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 3
-- automatic review: 12
+- automatic include: 0
+- automatic review: 8
 - automatic exclude: 0
-- effective include: 3
-- effective review: 12
+- effective include: 0
+- effective review: 8
 - effective exclude: 0
 
-## INCLUDE (3)
+## INCLUDE (0)
+
+## REVIEW (8)
 
 ---
 action: 
-decision: include
-automatic_decision: include
-title: Graduate Town Planner
-company: Penguin Recruitment - Agency - Permanent
-location: Macclesfield
+decision: review
+automatic_decision: review
+title: Accounts Assistant
+company: RG Consultancy Ltd - Agency - Permanent
+location: Nantwich
 source: JobG8
-job_id: jobg8-23643_225584385
-reason: Exact approved Macclesfield workplace.
+job_id: jobg8-1885417
+reason: No exact Macclesfield workplace matched; local geographic review is required.
 ---
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Medical Receptionist
-company: Adecco - Agency - Temporary
-location: Macclesfield
-source: JobG8
-job_id: jobg8-23643_225567144
-reason: Exact approved Macclesfield workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Purchasing / Buying Administrator
-company: RoBAT Limited - Agency - Permanent
-location: Macclesfield
-source: JobG8
-job_id: jobg8-23643_225512252
-reason: Exact approved Macclesfield workplace.
----
-
-## REVIEW (12)
 
 ---
 action: 
@@ -102,35 +78,11 @@ reason: No exact Macclesfield workplace matched; local geographic review is requ
 action: 
 decision: review
 automatic_decision: review
-title: Customer Care Coordinator
-company: Forrest Recruitment - Agency - Permanent
-location: Alderley Edge
-source: JobG8
-job_id: jobg8-23643_225600702
-reason: No exact Macclesfield workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Customer Service Advisor - Uncapped Commission
 company: EE - Company - Permanent
 location: Knutsford
 source: JobG8
 job_id: jobg8-20279_62648-5f053ed6bc220092db88c81c1fa679dd
-reason: No exact Macclesfield workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Customer Services Administrator
-company: Howard James Recruitment Consultancy Ltd - Agency - Permanent
-location: Knutsford
-source: JobG8
-job_id: jobg8-23643_225380328
 reason: No exact Macclesfield workplace matched; local geographic review is required.
 ---
 
@@ -162,47 +114,11 @@ reason: No exact Macclesfield workplace matched; local geographic review is requ
 action: 
 decision: review
 automatic_decision: review
-title: Operations Administrator
-company: The Veterinary Defence Society - Agency - Contract
-location: Knutsford
-source: JobG8
-job_id: jobg8-23643_225521146
-reason: No exact Macclesfield workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Plant Administrator
-company: Aureos Group - Agency - Permanent
-location: Crewe
-source: JobG8
-job_id: jobg8-23643_225591095
-reason: No exact Macclesfield workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Service Coordinator
 company: Adullam Homes - Agency - Permanent
 location: Congleton
 source: JobG8
 job_id: jobg8-107933798
-reason: No exact Macclesfield workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Temporary Plant Administrator
-company: Aureos Group - Agency - Permanent
-location: Crewe
-source: JobG8
-job_id: jobg8-23643_225585580
 reason: No exact Macclesfield workplace matched; local geographic review is required.
 ---
 

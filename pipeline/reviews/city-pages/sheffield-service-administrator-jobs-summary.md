@@ -4,8 +4,8 @@
 - Live route: `/sheffield/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 7
-- Threshold currently met: yes
+- Effective included jobs: 1
+- Threshold currently met: no
 
 ## How to review
 Edit only the `action:` line inside a job block.
@@ -15,74 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 7
-- automatic review: 2
-- automatic exclude: 8
-- effective include: 7
-- effective review: 2
-- effective exclude: 8
+- automatic include: 1
+- automatic review: 0
+- automatic exclude: 5
+- effective include: 1
+- effective review: 0
+- effective exclude: 5
 
-## INCLUDE (7)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Accounts Assistant
-company: Sue Ross Recruitment Ltd - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-23643_225469996
-reason: Approved Sheffield catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Customer Service/Export Co-ordinator
-company: Hays Business Support - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-23643_225574970
-reason: Approved Sheffield catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Executive Assistant
-company: Sue Ross Recruitment Ltd - Agency - Contract
-location: Sheffield
-source: JobG8
-job_id: jobg8-23643_225546545
-reason: Approved Sheffield catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: HR Administrator
-company: Randstad Technologies Recruitment - Agency - Temporary
-location: Sheffield
-source: JobG8
-job_id: jobg8-23643_225599384
-reason: Approved Sheffield catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Operations Administrator
-company: Sue Ross Recruitment Ltd - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-23643_225522912
-reason: Approved Sheffield catchment.
----
+## INCLUDE (1)
 
 ---
 action: 
@@ -96,57 +36,9 @@ job_id: teaching-vacancies-receptionist-totley-primary-school
 reason: Approved Sheffield catchment.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Sales & Operations Coordinator
-company: Major Recruitment - Perm Manager - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-23643_225563636
-reason: Approved Sheffield catchment.
----
+## REVIEW (0)
 
-## REVIEW (2)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Part Time Receptionist/Administrative Assistant
-company: Beyond Talent Solutions Ltd - Agency - Contract
-location: Brinsworth
-source: JobG8
-job_id: jobg8-23643_225516026
-reason: No approved Sheffield catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Reception and Customer Service Administrator
-company: Hays Business Support - Agency - Temporary
-location: Brinsworth
-source: JobG8
-job_id: jobg8-23643_225575501
-reason: No approved Sheffield catchment rule matched; local review required.
----
-
-## EXCLUDE (8)
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Account Coordinator - Part Time
-company: Staffline Operations - Agency - Temporary
-location: Doncaster
-source: JobG8
-job_id: jobg8-107804866
-reason: Separate employment market.
----
+## EXCLUDE (5)
 
 ---
 action: 
@@ -188,23 +80,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Customer Service Advisor
-company: EE - Company - Permanent
-location: Doncaster
+title: Finance Assistant
+company: PRATAP PARTNERSHIP LTD - Agency - Permanent
+location: Barnsley
 source: JobG8
-job_id: jobg8-21618_20279_62308-153faf593eb64b88272f45adeaa28d87
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Production Administrator
-company: Austin Banks - Agency - Permanent
-location: Doncaster
-source: JobG8
-job_id: jobg8-23643_225515295
+job_id: jobg8-1908708
 reason: Separate employment market.
 ---
 
@@ -217,17 +97,5 @@ company: Sharp Consultancy - Agency - Permanent
 location: Doncaster
 source: JobG8
 job_id: jobg8-1899982
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Receptionist
-company: Gateway Primary Care CIC
-location: Rotherham, S65 1DJ, Rotherham, S62 7BT, Rotherham, S60 2JH, Rotherham, S60 8GD
-source: NHS Jobs
-job_id: nhs-5588970
 reason: Separate employment market.
 ---
