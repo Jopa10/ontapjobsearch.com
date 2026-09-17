@@ -13,12 +13,6 @@ Edit only the `action:` line in each block:
 
 ---
 action:
-SELECTED | Yorkshire - West | Huddersfield |  | Conveyancing Secretary
-job_id: 1772081
----
-
----
-action:
 SELECTED | Yorkshire - West | Leeds |  | RTA Litigation Claims Handler
 job_id: 1786274
 ---
@@ -107,6 +101,12 @@ SELECTED | Yorkshire - West | Halifax |  | Claims Handler
 job_id: 1939820
 ---
 
+---
+action:
+SELECTED | Yorkshire - West | Leeds |  | Sales and Service Advisor
+job_id: 871951100439376691237341
+---
+
 ## WEST YORKSHIRE — POSSIBLES
 
 _No jobs in this group._
@@ -161,12 +161,6 @@ job_id: 1786196
 action:
 SELECTED | London | London |  | Real Estate Claims Handler
 job_id: 1785697
----
-
----
-action:
-SELECTED | London | London |  | People Services Operations Coordinator
-job_id: 1771368
 ---
 
 ---
@@ -573,20 +567,8 @@ job_id: 23643_225613343
 
 ---
 action:
-SELECTED | London | London | £40000 - £45000 per year | Accounts Assistant Credit Control
-job_id: 1933179
----
-
----
-action:
 SELECTED | London | London | £30000 - £40000 per year | Marketing Planner
 job_id: 1932860
----
-
----
-action:
-SELECTED | London | London | £35000 per year | Sales Operations Coordinator
-job_id: 107901142
 ---
 
 ---
@@ -631,9 +613,31 @@ SELECTED | London | London |  | HR Coordinator
 job_id: 1939824
 ---
 
+---
+action:
+SELECTED | London | London |  | Junior Programme Coordinator
+job_id: 1943133
+---
+
+---
+action:
+SELECTED | London | London |  | Remembrance Events Administrator
+job_id: 1943130
+---
+
+---
+action:
+SELECTED | London | London | £16 per hour | HR People Coordinator
+job_id: 1945599
+---
+
 ## LONDON — POSSIBLES
 
-_No jobs in this group._
+---
+action:
+POSS - LONDON | London | London | £40000 - £45000 per year | Accounts Assistant Credit Control
+job_id: 1944215
+---
 
 ## HAMPSHIRE — SELECTED
 
@@ -785,6 +789,12 @@ job_id: 1932825
 action:
 SELECTED | Surrey | Surrey |  | HR - People Administrator
 job_id: 1938873
+---
+
+---
+action:
+SELECTED | Surrey | Surrey |  | Mortgage Administrator
+job_id: 401225863073575731237341
 ---
 
 ## SURREY — POSSIBLES
@@ -958,7 +968,7 @@ job_id: 107985976
 ---
 action:
 SELECTED | Sussex | Sussex | £13.50 - £14.00 per hour | HR Assistant
-job_id: 1943056
+job_id: 1945386
 ---
 
 ## SUSSEX — POSSIBLES
@@ -1075,7 +1085,11 @@ job_id: 107991156
 
 ## BEDFORDSHIRE — POSSIBLES
 
-_No jobs in this group._
+---
+action:
+POSS - BEDFORDSHIRE | Bedfordshire | Bedfordshire | £30000 - £35000 per year | Accounts Assistant
+job_id: 1944217
+---
 
 ## BERKSHIRE — SELECTED
 
@@ -1217,6 +1231,12 @@ SELECTED | Buckinghamshire | Buckinghamshire |  | Administrator
 job_id: 275574729095302348837340
 ---
 
+---
+action:
+SELECTED | Buckinghamshire | Buckinghamshire |  | Administrator
+job_id: 275574729095302348837342
+---
+
 ## BUCKINGHAMSHIRE — POSSIBLES
 
 _No jobs in this group._
@@ -1273,8 +1293,8 @@ job_id: 1924725
 
 ---
 action:
-SELECTED | Cambridgeshire | Cambridge | £24,788 per annum | Sporting Events Administrator
-job_id: 1927948
+SELECTED | Cambridgeshire | Cambridge | £28000 per year | CAMB - Client Services Coordinator
+job_id: 1944668
 ---
 
 ## CAMBRIDGESHIRE — POSSIBLES
@@ -1549,6 +1569,12 @@ SELECTED | Derbyshire | Derbyshire |  | Marketing Coordinator
 job_id: 1940932
 ---
 
+---
+action:
+SELECTED | Derbyshire | Derbyshire | £28000 per year | Call Handler - Italian speaking
+job_id: 107894760
+---
+
 ## DERBYSHIRE — POSSIBLES
 
 _No jobs in this group._
@@ -1565,12 +1591,6 @@ job_id: 1858672
 action:
 SELECTED | Devon | Devon | £14.18 - £16.37 per hour | HR Coordinator
 job_id: 1842702
----
-
----
-action:
-SELECTED | Devon | Devon |  | HR Administrator
-job_id: 1841483
 ---
 
 ---
@@ -1595,6 +1615,12 @@ job_id: 1898300
 action:
 SELECTED | Devon | Devon |  | Recruitment Account Co-ordinator
 job_id: 107953534
+---
+
+---
+action:
+SELECTED | Devon | Devon |  | HR Administrator
+job_id: 1945151
 ---
 
 ## DEVON — POSSIBLES
@@ -1679,12 +1705,6 @@ job_id: 107865251
 action:
 SELECTED | Dorset | Dorset |  | Accounts Assistant
 job_id: 1937845
----
-
----
-action:
-SELECTED | Dorset | Dorset | £30000 - £35000 per year | Purchasing & Product Administrator
-job_id: 23643_225514947
 ---
 
 ## DORSET — POSSIBLES
@@ -2007,12 +2027,6 @@ job_id: 107952725
 
 ---
 action:
-SELECTED | Hertfordshire | Hertfordshire |  | Claims Handler
-job_id: 1933343
----
-
----
-action:
 SELECTED | Hertfordshire | Hertfordshire |  | Marketing Co-ordinator
 job_id: 1938290
 ---
@@ -2235,6 +2249,12 @@ SELECTED | Northamptonshire | Northamptonshire | £28,000 PER ANNUM | Recruitmen
 job_id: 1939011
 ---
 
+---
+action:
+SELECTED | Northamptonshire | Northamptonshire |  | Administrator
+job_id: 275574729095302348837341
+---
+
 ## NORTHAMPTONSHIRE — POSSIBLES
 
 _No jobs in this group._
@@ -2257,18 +2277,6 @@ job_id: 107952610
 action:
 SELECTED | Northern Ireland - East | Ballyclare |  | Contract Administrator
 job_id: 1916549
----
-
----
-action:
-SELECTED | Northern Ireland - East | Belfast | £12.75 per hour | Band 3 Clerical Officer
-job_id: 1943100
----
-
----
-action:
-SELECTED | Northern Ireland - East | Belfast |  | Financial Services Administrator
-job_id: 1942949
 ---
 
 ## NORTHERN IRELAND - EAST — POSSIBLES
@@ -2515,6 +2523,12 @@ job_id: 20279_62587-e30d0db916659b1c87d6af5c544ebdc1
 action:
 SELECTED | Scotland Central - Tayside | Kirriemuir | £35000 per year | Sales Coordinator (Agricultural)
 job_id: 107965670
+---
+
+---
+action:
+SELECTED | Scotland Central - Tayside | Forfar |  | Agricultural Sales Support Coordinator
+job_id: 107857257
 ---
 
 ## SCOTLAND CENTRAL - TAYSIDE — POSSIBLES
@@ -2873,7 +2887,11 @@ job_id: 1916617
 
 ## WEST MIDLANDS - BIRMINGHAM & SOLIHULL — POSSIBLES
 
-_No jobs in this group._
+---
+action:
+POSS - WEST MIDLANDS - BIRMINGHAM & SOLIHULL | West Midlands - Birmingham & Solihull | Birmingham | £30,024 per annum | Admissions Avoidance Coordinator
+job_id: 1939152
+---
 
 ## WEST MIDLANDS - BLACK COUNTRY — SELECTED
 
@@ -2917,12 +2935,6 @@ job_id: 1839523
 action:
 SELECTED | Wiltshire | Wiltshire | £25000 - £30000 per year | Accounts Assistant
 job_id: 1832232
----
-
----
-action:
-SELECTED | Wiltshire | Wiltshire |  | Technical Sales Support
-job_id: 107969820
 ---
 
 ---
@@ -2982,12 +2994,6 @@ _No jobs in this group._
 action:
 DROPPED | Yorkshire - South | Barnsley | £35000 per year | German Speaking Administrator
 job_id: 107830594
----
-
----
-action:
-DROPPED | Surrey | Surrey | £35 per hour | Bid Coordinator
-job_id: 107904710
 ---
 
 ---

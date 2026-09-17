@@ -37,6 +37,12 @@ SELECTED | North East - Tyneside, Wearside & Northumberland | South Shields | £
 job_id: 1909446
 ---
 
+---
+action:
+SELECTED | North East - Tyneside, Wearside & Northumberland | Whitley Bay | £12.85 per hour (plus rolled up holiday pay) | Female Relief Support Worker
+job_id: 107936149
+---
+
 ## NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL — SELECTED
 
 ---
@@ -83,6 +89,12 @@ job_id: 107950046
 action:
 SELECTED | Cumbria - South | Barrow-in-furness | £12.85 per hour | Waking Night Support Worker
 job_id: 107972543
+---
+
+---
+action:
+SELECTED | Cumbria - South | Barrow-in-furness | £12.85 per hour (plus rolled up holiday pay) | Relief Support Worker
+job_id: 107936143
 ---
 
 ## CUMBRIA SOUTH — POSSIBLES
