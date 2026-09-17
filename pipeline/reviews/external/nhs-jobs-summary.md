@@ -2,15 +2,27 @@
 
 review_date: 2026-09-17
 
-- Open Administrative & Clerical rows reviewed: 2119
+- Open Administrative & Clerical rows reviewed: 2121
 - Auto/remembered selected: 384
 - Selected HC Tier A: 195
 - Selected HC Tier B: 189
-- POSS awaiting decision: 1594
+- POSS awaiting decision: 1595
 - Excluded: 0
-- HARD_PASS: 141
+- HARD_PASS: 142
 
 Edit only each `action:` line for POSS rows. Unchanged decisions are restored by the shared decision ledger.
+
+---
+action:
+POSS | NHS Jobs | Kent | Dartford, DA2 8DA | £51657.00 to £58785.00 | Project Manager – NHS PeoplePortal Programme
+source_job_id: 5605851
+title: Project Manager – NHS PeoplePortal Programme
+employer: Dartford and Gravesham NHS Trust
+region: Kent
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9252-26-0159
+factual_fingerprint: eb3b0c18562b7264d4f6788c9d91716f42cb0f8c8495ec159f601469f81382bf
+---
 
 ---
 action:
@@ -1113,7 +1125,7 @@ employer: Bristol NHS Foundation Trust
 region: Bristol & Bath
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9387-26-1909
-factual_fingerprint: 17fbca95c8ea8ebfcfec46c490d9ab2f9f9adba480be773f87abe6ce46c24949
+factual_fingerprint: 0cb763f15a383fa39ad769ccafc8292a5afa0198d31f5a965099617dffa3f93e
 ---
 
 ---
