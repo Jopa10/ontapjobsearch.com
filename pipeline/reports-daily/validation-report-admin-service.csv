@@ -1,12 +1,12 @@
 ﻿metric,value
 total rows input,10000
-total rows included,451
-total rows dropped,9548
-title classification count - HIGH_CONFIDENCE,264
-title classification count - ELASTIC_FIT,281
+total rows included,450
+total rows dropped,9546
+title classification count - HIGH_CONFIDENCE,265
+title classification count - ELASTIC_FIT,283
 title classification count - REVIEW_CONTEXT_DEPENDENT,0
-title classification count - HARD_PASS,4905
-title classification count - OUT_OF_SCOPE,4550
+title classification count - HARD_PASS,4867
+title classification count - OUT_OF_SCOPE,4585
 selection scenario - Yorkshire - West,SCENARIO_3_FULL_VALID_SELECTION
 selection message - Yorkshire - West,"Yorkshire - West selection complete: all 16 valid selected role(s) retained after HIGH_CONFIDENCE, Leeds ELASTIC_FIT and other ELASTIC_FIT ordering."
 credible total - Yorkshire - West,16
@@ -14,7 +14,7 @@ high confidence count - Yorkshire - West,5
 anchor elastic count - Yorkshire - West,7
 other elastic count - Yorkshire - West,4
 total rows output - Yorkshire - West,16
-job_id included - Yorkshire - West,1936709; 1786274; 1867682; 1841782; 1833937; 642823322571322163237340; 1927524; 1927518; 1772081; 1880847; 871951100439376691237340; 1928245; 1924718; 1829321; 1900116; 1939820
+job_id included - Yorkshire - West,1936709; 871951100439376691237341; 1786274; 1867682; 1841782; 1833937; 642823322571322163237340; 1927524; 1927518; 1880847; 871951100439376691237340; 1928245; 1829321; 1900116; 1924718; 1939820
 selection scenario - Yorkshire - South,SCENARIO_4_BELOW_PUBLISH_THRESHOLD
 selection message - Yorkshire - South,Yorkshire - South selection below publish threshold: 4/6 credible roles. Do not publish/refresh this slice from this run.
 credible total - Yorkshire - South,4
@@ -24,21 +24,21 @@ other elastic count - Yorkshire - South,1
 total rows output - Yorkshire - South,4
 job_id included - Yorkshire - South,1892135; 1899982; 20279_62308-153faf593eb64b88272f45adeaa28d87; 1908708
 selection scenario - North East,SCENARIO_3_FULL_VALID_SELECTION
-selection message - North East,"North East selection complete: all 8 valid selected role(s) retained after HIGH_CONFIDENCE, Newcastle Upon Tyne ELASTIC_FIT and other ELASTIC_FIT ordering."
-credible total - North East,8
-high confidence count - North East,3
+selection message - North East,"North East selection complete: all 7 valid selected role(s) retained after HIGH_CONFIDENCE, Newcastle Upon Tyne ELASTIC_FIT and other ELASTIC_FIT ordering."
+credible total - North East,7
+high confidence count - North East,2
 anchor elastic count - North East,0
 other elastic count - North East,5
-total rows output - North East,8
-job_id included - North East,1927931; 1788888; 1937180; 107869330; 1892511; 107978931; 1880245; 1884707
+total rows output - North East,7
+job_id included - North East,1788888; 1937180; 107869330; 1892511; 107978931; 1880245; 1884707
 selection scenario - London,SCENARIO_3_MANUAL_SELECTION_APPLIED
-selection message - London,London manual_select applied additively: 10 row(s) prioritised; 80 selected.
+selection message - London,London manual_select applied additively: 9 row(s) prioritised; 80 selected.
 credible total - London,80
-high confidence count - London,20
+high confidence count - London,21
 anchor elastic count - London,36
 other elastic count - London,14
 total rows output - London,80
-job_id included - London,1875198; 1828723; 1865397; 1870150; 1839602; 1832536; 23643_225613343; 1933179; 1932860; 1858746; 1820780; 1775852; 1873118; 1870161; 1869765; 1839382; 1877370; 1877927; 1883854; 1904169; 26098_HF07857-HACL; 26098_HF07860-HFED; 1916292; 1938311; 1939102; 1939083; 1786196; 1785697; 1771368; 1789923; 1858069; 1855692; 1851088; 1841601; 1838874; 1873362; 1870163; 1868549; 1867186; 1867034; 1836068; 1832226; 1829578; 1877499; 1884709; 1883492; 1883314; 1883635; 1885412; 1893784; 1898265; 1899979; 1903915; 1912358; 23643_225608515; 1930110; 1931277; 107901142; 1938867; 1936834; 1936808; 1939824; 1828383; 1873546; 1869601; 1912387; 1849527; 1848732; 1844364; 1874624; 1849081; 1839659; 1868739; 1905302; 1834099; 1883482; 1912178; 107970959; 1905435; 1912487
+job_id included - London,1875198; 1828723; 1865397; 1870150; 1839602; 1832536; 23643_225613343; 1932860; 1858746; 1820780; 1775852; 1873118; 1870161; 1869765; 1839382; 1877370; 1877927; 1883854; 1904169; 26098_HF07857-HACL; 26098_HF07860-HFED; 1916292; 1938311; 1939102; 1939083; 1943130; 1786196; 1785697; 1789923; 1858069; 1855692; 1851088; 1841601; 1838874; 1873362; 1870163; 1868549; 1867186; 1867034; 1836068; 1832226; 1829578; 1877499; 1884709; 1883492; 1883314; 1883635; 1885412; 1893784; 1898265; 1899979; 1903915; 1912358; 23643_225608515; 1930110; 1931277; 1938867; 1936834; 1936808; 1939824; 1943133; 1945599; 1828383; 1873546; 1869601; 1912387; 1849527; 1848732; 1844364; 1874624; 1849081; 1839659; 1868739; 1905302; 1834099; 1883482; 1912178; 107970959; 1905435; 1912487
 selection scenario - Hampshire,SCENARIO_3_FULL_VALID_SELECTION
 selection message - Hampshire,"Hampshire selection complete: all 11 valid selected role(s) retained after HIGH_CONFIDENCE, Southampton ELASTIC_FIT and other ELASTIC_FIT ordering."
 credible total - Hampshire,11
@@ -48,13 +48,13 @@ other elastic count - Hampshire,5
 total rows output - Hampshire,11
 job_id included - Hampshire,1885727; 1871498; 1898713; 107963757; 107872412; 107959953; 1848405; 1842700; 1838784; 1885642; 107605314
 selection scenario - Surrey,SCENARIO_3_FULL_VALID_SELECTION
-selection message - Surrey,"Surrey selection complete: all 13 valid selected role(s) retained after HIGH_CONFIDENCE, Guildford ELASTIC_FIT and other ELASTIC_FIT ordering."
-credible total - Surrey,13
-high confidence count - Surrey,8
+selection message - Surrey,"Surrey selection complete: all 14 valid selected role(s) retained after HIGH_CONFIDENCE, Guildford ELASTIC_FIT and other ELASTIC_FIT ordering."
+credible total - Surrey,14
+high confidence count - Surrey,9
 anchor elastic count - Surrey,0
 other elastic count - Surrey,5
-total rows output - Surrey,13
-job_id included - Surrey,1787472; 1805793; 1883892; 1902490; 1905583; 401225863073575731237340; 1932825; 1938873; 1402264245; 1868559; 1837957; 1827379; 1891639
+total rows output - Surrey,14
+job_id included - Surrey,1787472; 1805793; 1883892; 1902490; 1905583; 401225863073575731237340; 1932825; 1938873; 401225863073575731237341; 1402264245; 1868559; 1837957; 1827379; 1891639
 selection scenario - Kent,SCENARIO_3_FULL_VALID_SELECTION
 selection message - Kent,"Kent selection complete: all 14 valid selected role(s) retained after HIGH_CONFIDENCE, Maidstone ELASTIC_FIT and other ELASTIC_FIT ordering."
 credible total - Kent,14
@@ -70,7 +70,7 @@ high confidence count - Sussex,7
 anchor elastic count - Sussex,0
 other elastic count - Sussex,6
 total rows output - Sussex,13
-job_id included - Sussex,1843728; 1868387; 1866859; 1823585; 1892498; 1900339; 107985976; 1869397; 1839515; 1831479; 1891451; 1910463; 1943056
+job_id included - Sussex,1843728; 1868387; 1866859; 1823585; 1892498; 1900339; 107985976; 1869397; 1839515; 1831479; 1891451; 1910463; 1945386
 selection scenario - West Midlands - Coventry & Warwickshire,SCENARIO_3_FULL_VALID_SELECTION
 selection message - West Midlands - Coventry & Warwickshire,"West Midlands - Coventry & Warwickshire selection complete: all 13 valid selected role(s) retained after HIGH_CONFIDENCE, Coventry ELASTIC_FIT and other ELASTIC_FIT ordering."
 credible total - West Midlands - Coventry & Warwickshire,13
@@ -104,21 +104,21 @@ other elastic count - Bristol & Bath,0
 total rows output - Bristol & Bath,8
 job_id included - Bristol & Bath,1907662; 1868067; 1819615; 1821573; 107909264; 1831688; 1877742; 1916313
 selection scenario - Buckinghamshire,SCENARIO_3_MANUAL_SELECTION_APPLIED
-selection message - Buckinghamshire,Buckinghamshire manual_select applied additively: 1 row(s) prioritised; 8 selected.
-credible total - Buckinghamshire,8
-high confidence count - Buckinghamshire,3
+selection message - Buckinghamshire,Buckinghamshire manual_select applied additively: 1 row(s) prioritised; 9 selected.
+credible total - Buckinghamshire,9
+high confidence count - Buckinghamshire,4
 anchor elastic count - Buckinghamshire,0
 other elastic count - Buckinghamshire,4
-total rows output - Buckinghamshire,8
-job_id included - Buckinghamshire,1780993; 1857566; 1929321; 275574729095302348837340; 1856610; 1868169; 1905434; 1932845
+total rows output - Buckinghamshire,9
+job_id included - Buckinghamshire,1780993; 1857566; 1929321; 275574729095302348837340; 275574729095302348837342; 1856610; 1868169; 1905434; 1932845
 selection scenario - Cambridgeshire,SCENARIO_3_MANUAL_SELECTION_APPLIED
 selection message - Cambridgeshire,Cambridgeshire manual_select applied additively: 1 row(s) prioritised; 9 selected.
 credible total - Cambridgeshire,9
-high confidence count - Cambridgeshire,4
-anchor elastic count - Cambridgeshire,2
+high confidence count - Cambridgeshire,3
+anchor elastic count - Cambridgeshire,3
 other elastic count - Cambridgeshire,2
 total rows output - Cambridgeshire,9
-job_id included - Cambridgeshire,1833141; 1876189; 1924725; 1927948; 1823662; 1877925; 1870317; 1860755; 1905510
+job_id included - Cambridgeshire,1833141; 1876189; 1924725; 1823662; 1877925; 1944668; 1870317; 1860755; 1905510
 selection scenario - Cheshire - East,SCENARIO_3_FULL_VALID_SELECTION
 selection message - Cheshire - East,"Cheshire - East selection complete: all 8 valid selected role(s) retained after HIGH_CONFIDENCE, Crewe ELASTIC_FIT and other ELASTIC_FIT ordering."
 credible total - Cheshire - East,8
@@ -152,13 +152,13 @@ other elastic count - Cornwall,0
 total rows output - Cornwall,0
 job_id included - Cornwall,
 selection scenario - Derbyshire,SCENARIO_4_BELOW_PUBLISH_THRESHOLD
-selection message - Derbyshire,Derbyshire selection below publish threshold: 1/6 credible roles. Do not publish/refresh this slice from this run.
-credible total - Derbyshire,1
-high confidence count - Derbyshire,0
+selection message - Derbyshire,Derbyshire selection below publish threshold: 2/6 credible roles. Do not publish/refresh this slice from this run.
+credible total - Derbyshire,2
+high confidence count - Derbyshire,1
 anchor elastic count - Derbyshire,0
 other elastic count - Derbyshire,1
-total rows output - Derbyshire,1
-job_id included - Derbyshire,1940932
+total rows output - Derbyshire,2
+job_id included - Derbyshire,107894760; 1940932
 selection scenario - Devon,SCENARIO_3_MANUAL_SELECTION_APPLIED
 selection message - Devon,Devon manual_select applied additively: 2 row(s) prioritised; 7 selected.
 credible total - Devon,7
@@ -166,15 +166,15 @@ high confidence count - Devon,1
 anchor elastic count - Devon,0
 other elastic count - Devon,4
 total rows output - Devon,7
-job_id included - Devon,1842702; 1873474; 1841483; 1858672; 1885406; 1898300; 107953534
+job_id included - Devon,1842702; 1873474; 1945151; 1858672; 1885406; 1898300; 107953534
 selection scenario - Dorset,SCENARIO_3_MANUAL_SELECTION_APPLIED
-selection message - Dorset,Dorset manual_select applied additively: 3 row(s) prioritised; 14 selected.
-credible total - Dorset,14
+selection message - Dorset,Dorset manual_select applied additively: 2 row(s) prioritised; 13 selected.
+credible total - Dorset,13
 high confidence count - Dorset,2
 anchor elastic count - Dorset,0
 other elastic count - Dorset,9
-total rows output - Dorset,14
-job_id included - Dorset,1868450; 23643_225514947; 1840045; 107765584; 107865251; 1860803; 1867894; 1838779; 1838771; 1839335; 1839332; 1877445; 1898309; 1937845
+total rows output - Dorset,13
+job_id included - Dorset,1868450; 1840045; 107765584; 107865251; 1860803; 1867894; 1838779; 1838771; 1839335; 1839332; 1877445; 1898309; 1937845
 selection scenario - Essex,SCENARIO_3_FULL_VALID_SELECTION
 selection message - Essex,"Essex selection complete: all 15 valid selected role(s) retained after HIGH_CONFIDENCE, Chelmsford ELASTIC_FIT and other ELASTIC_FIT ordering."
 credible total - Essex,15
@@ -216,13 +216,13 @@ other elastic count - Greater Manchester - Wigan & Bolton,0
 total rows output - Greater Manchester - Wigan & Bolton,7
 job_id included - Greater Manchester - Wigan & Bolton,1775481; 1823437; 1823436; 20279_62648-febc62af56f2024bba2b7d7e4822beac; 20279_62648-ff99aaa433b07ac45aacb2d328e68571; 20279_62648-0e98839ddf36da8e64c34fe5ef0cda20; 20279_62648-be0da432b3a040b9318b55b27aa49c2a
 selection scenario - Hertfordshire,SCENARIO_3_MANUAL_SELECTION_APPLIED
-selection message - Hertfordshire,Hertfordshire manual_select applied additively: 2 row(s) prioritised; 9 selected.
-credible total - Hertfordshire,9
+selection message - Hertfordshire,Hertfordshire manual_select applied additively: 2 row(s) prioritised; 8 selected.
+credible total - Hertfordshire,8
 high confidence count - Hertfordshire,1
 anchor elastic count - Hertfordshire,0
-other elastic count - Hertfordshire,6
-total rows output - Hertfordshire,9
-job_id included - Hertfordshire,1900123; 107952725; 1901543; 1778586; 23643_225542267; 1927516; 1933343; 1938290; 1939831
+other elastic count - Hertfordshire,5
+total rows output - Hertfordshire,8
+job_id included - Hertfordshire,1900123; 107952725; 1901543; 1778586; 23643_225542267; 1927516; 1938290; 1939831
 selection scenario - Leicestershire,SCENARIO_4_BELOW_PUBLISH_THRESHOLD
 selection message - Leicestershire,Leicestershire selection below publish threshold: 4/6 credible roles. Do not publish/refresh this slice from this run.
 credible total - Leicestershire,4
@@ -264,21 +264,21 @@ other elastic count - North Scotland,0
 total rows output - North Scotland,0
 job_id included - North Scotland,
 selection scenario - Northamptonshire,SCENARIO_3_FULL_VALID_SELECTION
-selection message - Northamptonshire,"Northamptonshire selection complete: all 11 valid selected role(s) retained after HIGH_CONFIDENCE, Northampton ELASTIC_FIT and other ELASTIC_FIT ordering."
-credible total - Northamptonshire,11
-high confidence count - Northamptonshire,7
+selection message - Northamptonshire,"Northamptonshire selection complete: all 12 valid selected role(s) retained after HIGH_CONFIDENCE, Northampton ELASTIC_FIT and other ELASTIC_FIT ordering."
+credible total - Northamptonshire,12
+high confidence count - Northamptonshire,8
 anchor elastic count - Northamptonshire,0
 other elastic count - Northamptonshire,4
-total rows output - Northamptonshire,11
-job_id included - Northamptonshire,1853443; 1851038; 1875322; 1875317; 1877500; 809922481811881984037340; 1916599; 1800671; 1845227; 1908969; 1939011
+total rows output - Northamptonshire,12
+job_id included - Northamptonshire,1853443; 1851038; 1875322; 1875317; 1877500; 809922481811881984037340; 1916599; 275574729095302348837341; 1800671; 1845227; 1908969; 1939011
 selection scenario - Northern Ireland - East,SCENARIO_4_BELOW_PUBLISH_THRESHOLD
-selection message - Northern Ireland - East,Northern Ireland - East selection below publish threshold: 5/6 credible roles. Do not publish/refresh this slice from this run.
-credible total - Northern Ireland - East,5
-high confidence count - Northern Ireland - East,4
+selection message - Northern Ireland - East,Northern Ireland - East selection below publish threshold: 3/6 credible roles. Do not publish/refresh this slice from this run.
+credible total - Northern Ireland - East,3
+high confidence count - Northern Ireland - East,2
 anchor elastic count - Northern Ireland - East,0
 other elastic count - Northern Ireland - East,1
-total rows output - Northern Ireland - East,5
-job_id included - Northern Ireland - East,1943100; 1942949; 1916549; 107952610; 107922303
+total rows output - Northern Ireland - East,3
+job_id included - Northern Ireland - East,1916549; 107952610; 107922303
 selection scenario - Nottinghamshire,SCENARIO_4_BELOW_PUBLISH_THRESHOLD
 selection message - Nottinghamshire,Nottinghamshire selection below publish threshold: 4/6 credible roles. Do not publish/refresh this slice from this run.
 credible total - Nottinghamshire,4
@@ -304,13 +304,13 @@ other elastic count - Scotland Central - Edinburgh & Lothians,0
 total rows output - Scotland Central - Edinburgh & Lothians,9
 job_id included - Scotland Central - Edinburgh & Lothians,1789719; 1852116; 1824876; 1885249; 1912183; 107916313; 1878501; 1907398; 1933959
 selection scenario - Scotland Central - Tayside,SCENARIO_3_MANUAL_SELECTION_APPLIED
-selection message - Scotland Central - Tayside,Scotland Central - Tayside manual_select applied additively: 1 row(s) prioritised; 21 selected.
-credible total - Scotland Central - Tayside,21
+selection message - Scotland Central - Tayside,Scotland Central - Tayside manual_select applied additively: 1 row(s) prioritised; 22 selected.
+credible total - Scotland Central - Tayside,22
 high confidence count - Scotland Central - Tayside,20
 anchor elastic count - Scotland Central - Tayside,0
-other elastic count - Scotland Central - Tayside,0
-total rows output - Scotland Central - Tayside,21
-job_id included - Scotland Central - Tayside,20279_62587-73862c8b83139033e4e4a8b6efca9a33; 20279_62587-89740a075c6163b74ea2c52702062e5d; 20279_62587-d24d3d6916a209e15b1680693740da2f; 20279_62587-153faf593eb64b88272f45adeaa28d87; 107965670; 20279_62587-bfc8f1e6df89e3f82c401f5fd9bfa1f6; 20279_62587-cec6ad1c58e7d10254c15b1f63dc1f61; 20279_62587-66c703e3bd600def438c57a9957e4f6c; 20279_62587-8198db7b495b0167f0e25320a311b48c; 20279_62587-84ef7407a6e6c9814d3e8a213e3d352f; 20279_62587-85bda5f69968db009ec735a538b82aa3; 20279_62587-c71691d03ce30740b3ef4939f7f8240a; 20279_62587-e30d0db916659b1c87d6af5c544ebdc1; 20279_62587-66488da6cf6cbf418f6a1f59512162a2; 20279_62587-877ff895dbc10af556a038d2b7991c58; 20279_62587-5b04a622d16faab24418c418c50f5cf9; 20279_62587-104600f28dfa5a7196274b0564e9e1a5; 20279_62587-cf4f5be59d0aa6d4c0abf6ce35bb6463; 20279_62587-c101b319bc137225fafa61aeaba6dc30; 20279_62587-22836ab78f967a50ab83122179a7cae7; 20279_62587-c98305d276b3c0d4f253880a905d8860
+other elastic count - Scotland Central - Tayside,1
+total rows output - Scotland Central - Tayside,22
+job_id included - Scotland Central - Tayside,20279_62587-73862c8b83139033e4e4a8b6efca9a33; 20279_62587-89740a075c6163b74ea2c52702062e5d; 20279_62587-d24d3d6916a209e15b1680693740da2f; 20279_62587-153faf593eb64b88272f45adeaa28d87; 107965670; 20279_62587-bfc8f1e6df89e3f82c401f5fd9bfa1f6; 20279_62587-cec6ad1c58e7d10254c15b1f63dc1f61; 20279_62587-66c703e3bd600def438c57a9957e4f6c; 20279_62587-8198db7b495b0167f0e25320a311b48c; 20279_62587-84ef7407a6e6c9814d3e8a213e3d352f; 20279_62587-85bda5f69968db009ec735a538b82aa3; 20279_62587-c71691d03ce30740b3ef4939f7f8240a; 20279_62587-e30d0db916659b1c87d6af5c544ebdc1; 20279_62587-66488da6cf6cbf418f6a1f59512162a2; 20279_62587-877ff895dbc10af556a038d2b7991c58; 20279_62587-5b04a622d16faab24418c418c50f5cf9; 20279_62587-104600f28dfa5a7196274b0564e9e1a5; 20279_62587-cf4f5be59d0aa6d4c0abf6ce35bb6463; 20279_62587-c101b319bc137225fafa61aeaba6dc30; 20279_62587-22836ab78f967a50ab83122179a7cae7; 20279_62587-c98305d276b3c0d4f253880a905d8860; 107857257
 selection scenario - Scotland West - Glasgow,SCENARIO_2_COMPLETE_HC_PLUS_ANCHOR_ELASTIC
 selection message - Scotland West - Glasgow,Scotland West - Glasgow selection complete: all 6 selected role(s) are HIGH_CONFIDENCE plus Glasgow ELASTIC_FIT roles.
 credible total - Scotland West - Glasgow,6
@@ -383,14 +383,14 @@ anchor elastic count - West Midlands - Black Country,0
 other elastic count - West Midlands - Black Country,2
 total rows output - West Midlands - Black Country,2
 job_id included - West Midlands - Black Country,1938972; 1940692
-selection scenario - Wiltshire,SCENARIO_3_MANUAL_SELECTION_APPLIED
-selection message - Wiltshire,Wiltshire manual_select applied additively: 3 row(s) prioritised; 6 selected.
-credible total - Wiltshire,6
+selection scenario - Wiltshire,SCENARIO_4_BELOW_PUBLISH_THRESHOLD
+selection message - Wiltshire,Wiltshire selection below publish threshold: 5/6 credible roles. Do not publish/refresh this slice from this run.
+credible total - Wiltshire,5
 high confidence count - Wiltshire,0
 anchor elastic count - Wiltshire,0
-other elastic count - Wiltshire,3
-total rows output - Wiltshire,6
-job_id included - Wiltshire,1787237; 107919550; 107921669; 1839523; 1832232; 107969820
+other elastic count - Wiltshire,2
+total rows output - Wiltshire,5
+job_id included - Wiltshire,1787237; 107919550; 107921669; 1839523; 1832232
 selection scenario - Worcestershire,SCENARIO_4_BELOW_PUBLISH_THRESHOLD
 selection message - Worcestershire,Worcestershire selection below publish threshold: 1/6 credible roles. Do not publish/refresh this slice from this run.
 credible total - Worcestershire,1

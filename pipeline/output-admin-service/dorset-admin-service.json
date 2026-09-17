@@ -53,31 +53,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "23643_225514947",
-    "title": "Purchasing & Product Administrator",
-    "company": "Team Jobs - Commercial - Agency - Permanent",
-    "location": "Dorset",
-    "region": "Dorset",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "30000",
-    "salary_max": "35000",
-    "salary_text": "£30000 - £35000 per year",
-    "posted_date": "",
-    "description": "Purchasing & Product Administrator\n\nLocation: Bournemouth\nSalary: 30,000- 35,000\nJob Type: Full-Time, Permanent\n\nTeamJobs are recruiting for a Purchasing & Product Administrator to join a growing business based in Bournemouth.\n\nThis is a varied role supporting the Commercial Manager with purchasing, product administration and supplier coordination. You'll help keep product, pricing and stock information accurate while ensuring day-to-day purchasing activities run smoothly.\n\nKey Responsibilities\n- Raise and manage purchase orders.\n- Liaise with suppliers regarding pricing, lead times and deliveries.\n- Maintain accurate product, supplier and pricing information.\n- Monitor stock levels and outstanding orders.\n- Assist with new product setup and product updates.\n- Support pricing, margin analysis and sales price lists.\n- Help resolve supplier, quality and delivery queries.\n- Produce reports and analyse data using Excel.\n- Work closely with sales, finance, operations and warehouse teams.\n\nAbout You\n- Experience within purchasing, procurement, product administration or a similar role.\n- Experience using ERP, purchasing or stock management systems.\n- Good Microsoft Excel skills.\n- Strong organisation and attention to detail.\n- Commercial awareness and confidence working with pricing and product data.\n- Good communication and supplier relationship skills.\n- Comfortable managing multiple priorities.\n\nExperience within a technical, manufacturing or distribution environment would be beneficial but isn't essential.\n\nWhat's on Offer\n- 30,000- 35,000, depending on experience.\n- Hybrid working.\n- Full-time, permanent position.\n- Supportive and collaborative working environment.\n- Opportunity to develop within purchasing and product management.\n\nIf you're looking for your next opportunity within purchasing and product administration, we'd love to hear from you.\n\nApply today!\n\nTJCOM",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?wTAUM266l6c6vhguKgcU8ZJFUr3esKJGh",
-    "source": "JobG8",
-    "working_arrangement": "hybrid",
-    "working_arrangement_text": "Hybrid working",
-    "working_arrangement_evidence": "What's on Offer - 30,000- 35,000, depending on experience. - Hybrid working. - Full-time, permanent position. - Supportive and collaborative working environment. - Opportunity to develop within purchasing and product management.",
-    "advertiser_name": "Team Jobs - Commercial",
-    "advertiser_type": "Agency",
-    "work_pattern": "Full Time",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "1840045",
     "title": "Accounts Assistant",
     "company": "Robert Walters - Agency - Permanent",
@@ -393,7 +368,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2965-26-0006",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2965-26-0006",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5596490",
@@ -411,7 +390,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B0063-26-0018",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B0063-26-0018",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5596760",
@@ -429,6 +412,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9152-26-0972",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9152-26-0972",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

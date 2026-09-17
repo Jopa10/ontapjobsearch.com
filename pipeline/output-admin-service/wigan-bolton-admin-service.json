@@ -218,7 +218,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9437-26-0828",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9437-26-0828",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5603907",
@@ -230,12 +234,16 @@
     "region": "Greater Manchester - Wigan & Bolton",
     "salary": "£25272.00",
     "employment_type": "Permanent",
-    "posted_date": "2026-09-16T13:37:46.759085678",
+    "posted_date": "2026-09-16T13:37:46.759086",
     "closing_date": "2026-09-30",
     "description": "Please note: This role is not eligible for Skilled Worker visa sponsorship. Applicants must have the right to work in the UK at the time of application, as we are unable to support visa applications for this position. Part-time 22.5 hours per week. Permanent post. We are looking for a highly organised clerical officer to provide and maintain an efficient administration service to the Trauma and Orthopaedic Department which will include the raising of purchase orders, compiling agenda's, organising meetings and typing up minutes. Validation of waiting lists, arranging appointments and general office duties. Candidates should be articulate, capable of undertaking a demanding workload and must be able to demonstrate a significant level of initiative. The post holder will be responsible for arranging department meetings and compiling agenda's as well as assisting with arranging appointments and raising purchase orders To provide clerical support to the Trauma and Orthopaedics Department. To assist with the organisation of meetings/agendas and minutes. To support with clerical validation of the 18 week referral to treatment pathway, organise appointments where necessary and general office duties.",
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9241-26-0339",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9241-26-0339",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

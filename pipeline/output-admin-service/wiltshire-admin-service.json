@@ -125,31 +125,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "107969820",
-    "title": "Technical Sales Support",
-    "company": "Thrive Group - Agency - Permanent",
-    "location": "Wiltshire",
-    "region": "Wiltshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "",
-    "posted_date": "",
-    "description": "Thrive Trowbridge are delighted to be working with our established and market leading client near Chippenham who urgently require a Technical Sales Advisor to join their busy team.\nIn this key role, you will be responsible for generating sales revenue for the business, duties will include the following :\n- First point of contact for both new and existing customers\n- Dealing with enquiries, gaining an click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?UzhMt9n%2bTsQiAYzTws8RUOzLpKqOxXlUm",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Thrive Group",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "nhs-5591907",
     "source": "NHS Jobs",
     "title": "Administrator",
@@ -165,6 +140,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0279-26-2439",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0279-26-2439",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]
