@@ -592,47 +592,40 @@ job_id: 1939824
 ## LONDON — POSSIBLES
 
 ---
-action:
+action: select
 POSS - LONDON | London | London | £37500 - £40000 per year | Finance Data Administrator (Accounts Receivable)
 job_id: 1875198
 ---
-
 ---
-action:
+action: select
 POSS - LONDON | London | London | £140 - £180 per daily | Order to Cash Coordinator
 job_id: 1839602
 ---
-
 ---
-action:
+action: select
 POSS - LONDON | London | London | £33000 - £36000 per year | Credit Controller & Accounts Assistant
 job_id: 1832536
 ---
-
 ---
-action:
+action: select
 POSS - LONDON | London | London | £30000 - £40000 per year (Benefits) | Marketing Planner
 job_id: 23643_225613343
 ---
-
 ---
-action:
+action: select
 POSS - LONDON | London | London | £40000 - £45000 per year | Accounts Assistant Credit Control
 job_id: 1933179
 ---
-
 ---
-action:
+action: select
 POSS - LONDON | London | London | £30000 - £40000 per year | Marketing Planner
 job_id: 1932860
 ---
-
 ---
-action:
+action: select
 POSS - LONDON | London | Feltham | £30000 - £40000 per year | Accounts Assistant
 job_id: 1828383
 ---
-
 ## HAMPSHIRE — SELECTED
 
 ---
@@ -962,7 +955,7 @@ job_id: 1943056
 ## SUSSEX — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - SUSSEX | Sussex | Sussex | £30000 - £40000 per year | Mortgage Administrator
 job_id: 1895454
 ---
@@ -1108,11 +1101,10 @@ job_id: 1823732
 ## BERKSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - BERKSHIRE | Berkshire | Berkshire | £34000 per year | Accounts Assistant
 job_id: 1923226
 ---
-
 ## BRISTOL & BATH — SELECTED
 
 ---
@@ -1274,11 +1266,10 @@ job_id: 1927948
 ## CAMBRIDGESHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - CAMBRIDGESHIRE | Cambridgeshire | Cambridge | £31500 per year | Accounts Administrator
 job_id: 1833141
 ---
-
 ## CHESHIRE - EAST — SELECTED
 
 ---
@@ -1470,11 +1461,10 @@ job_id: 1927990
 ## CHESHIRE - WARRINGTON & HALTON — POSSIBLES
 
 ---
-action:
+action: select
 POSS - CHESHIRE - WARRINGTON & HALTON | Cheshire - Warrington & Halton | Warrington | £35000 per year | Lending Operations Coordinator
 job_id: 107970774
 ---
-
 ## CHESHIRE - WEST — SELECTED
 
 ---
@@ -1590,11 +1580,10 @@ job_id: 107953534
 ## DEVON — POSSIBLES
 
 ---
-action:
+action: select
 POSS - DEVON | Devon | Devon | £30000 - £33000 per year | Finance Assistant Data Processor
 job_id: 1873474
 ---
-
 ## DORSET — SELECTED
 
 ---
@@ -1672,17 +1661,15 @@ job_id: 1937845
 ## DORSET — POSSIBLES
 
 ---
-action:
+action: select
 POSS - DORSET | Dorset | Dorset | £30000 - £35000 per year | Purchasing & Product Administrator
 job_id: 23643_225514947
 ---
-
 ---
-action:
+action: select
 POSS - DORSET | Dorset | Dorset | £18 - £20 per hour | Accounts Assistant
 job_id: 1840045
 ---
-
 ## ESSEX — SELECTED
 
 ---
@@ -2006,17 +1993,15 @@ job_id: 1939831
 ## HERTFORDSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - HERTFORDSHIRE | Hertfordshire | Hertfordshire | £31000 - £33000 per year | Credit Control Administrator
 job_id: 1900123
 ---
-
 ---
-action:
+action: select
 POSS - HERTFORDSHIRE | Hertfordshire | Hertfordshire | £35000 per year | PA to Head
 job_id: 107952725
 ---
-
 ## LEICESTERSHIRE — SELECTED
 
 ---
@@ -2046,11 +2031,10 @@ job_id: 1936448
 ## LEICESTERSHIRE — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - LEICESTERSHIRE | Leicestershire | Leicestershire | £15.6 - £21.36 per hour | Customer Support/Material Planner
 job_id: 23643_225598791
 ---
-
 ## LINCOLNSHIRE — SELECTED
 
 ---
@@ -2104,11 +2088,10 @@ job_id: 1937916
 ## MERSEYSIDE - LIVERPOOL — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - MERSEYSIDE - LIVERPOOL | Merseyside - Liverpool | Liverpool | £32000 per year | Deeds Administrator
 job_id: 1933349
 ---
-
 ## NORFOLK — SELECTED
 
 ---
@@ -2866,11 +2849,10 @@ job_id: 1916617
 ## WEST MIDLANDS - BIRMINGHAM & SOLIHULL — POSSIBLES
 
 ---
-action:
+action: select
 POSS - WEST MIDLANDS - BIRMINGHAM & SOLIHULL | West Midlands - Birmingham & Solihull | Birmingham | £30000 - £40000 per year | Finance Assistant
 job_id: 1883639
 ---
-
 ## WEST MIDLANDS - BLACK COUNTRY — SELECTED
 
 ---
@@ -2972,7 +2954,7 @@ job_id: 107871574
 ## YORKSHIRE - NORTH — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - YORKSHIRE - NORTH | Yorkshire - North | Richmond | £30000 - £32000 per year | Client Accounts Assistant
 job_id: 1869341
 ---
