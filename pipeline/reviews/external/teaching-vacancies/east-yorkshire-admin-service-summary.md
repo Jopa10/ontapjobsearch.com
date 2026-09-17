@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - East
 
-review_date: 2026-09-16
-review_fingerprint: a952f444f8f2775b299eef9e33b1fe1c049286608e9fcb0e9eaffadf5439dcc9
-routing_manifest_sha256: 45a8ce4bb4f12276c14b5974540a88cd95b03b6254694d13463722dddac389d7
+review_date: 2026-09-17
+review_fingerprint: d045866e61073cbf08d15d214a652698df76e72fce543f034bf79dcdbd56f851
+routing_manifest_sha256: 3bae23716e7846dcabcdd87b2afa86b78418dc1061e41294f26da205e546064d
 ontap_region: Yorkshire - East
 slice_category: admin_service
 slice_status: LIVE
@@ -14,8 +14,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 3
-- Selected: 2
-- POSS awaiting decision: 1
+- Selected: 3
+- POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 0
 
@@ -51,15 +51,13 @@ source_job_id: receptionist-administrator-8983c99a-ea81-4d03-945c-21a86c87cb36
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrator-8983c99a-ea81-4d03-945c-21a86c87cb36
 ---
 
-## POSS — choose SELECT or EXCLUDE
-
 ---
 action: 
-POSS | Yorkshire - East | Hull, Yorkshire and the Humber, HU9 5YB | £14,429.00 - £15,634.00 Annually (Actual) Salary shown above is pro rata, based on an Full Time Equivalent of £27,709 to £30,023 (Grade F, Scale Points 8-13) | SEND Administrator
+SELECTED | Yorkshire - East | Hull, Yorkshire and the Humber, HU9 5YB | £14,429.00 - £15,634.00 Annually (Actual) Salary shown above is pro rata, based on an Full Time Equivalent of £27,709 to £30,023 (Grade F, Scale Points 8-13) | SEND Administrator
 employer: Liberty Academy
 closing_date: 2026-09-23T23:59:00+01:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
 factual_fingerprint: a09a59aaa31e29ac758041065db79fe304145edd97f15f655270037fd7b5346b
@@ -67,6 +65,10 @@ source: Teaching Vacancies
 source_job_id: send-administrator-liberty-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-liberty-academy
 ---
+
+## POSS — choose SELECT or EXCLUDE
+
+- None.
 
 ## EXCLUDED BY REVIEW
 

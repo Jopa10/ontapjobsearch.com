@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Birmingham & Solihull
 
-review_date: 2026-09-16
-review_fingerprint: b53c1b9a189f14a4e725e7fe01fc48d706713485535f9d869e96cced741b1695
-routing_manifest_sha256: 45a8ce4bb4f12276c14b5974540a88cd95b03b6254694d13463722dddac389d7
+review_date: 2026-09-17
+review_fingerprint: 0c527c8957d318b210bc4de0edb90f662c9fe33025e66610feceb4b2867e3c4f
+routing_manifest_sha256: 3bae23716e7846dcabcdd87b2afa86b78418dc1061e41294f26da205e546064d
 ontap_region: West Midlands - Birmingham & Solihull
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 25
-- Selected: 11
-- POSS awaiting decision: 2
+- Records: 26
+- Selected: 14
+- POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 12
 
@@ -68,6 +68,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assist
 
 ---
 action: 
+SELECTED | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B13 0TW | £27,254.00 - £29,064.00 Annually (FTE) Actual Salary £23,933 - £25,522 per annum | Administrator (Year Team)
+employer: Swanshurst School
+closing_date: 2026-10-02T12:00:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 42bfa0638fd8c8ec072838197caff5d2121a67e02bafccb29200f25ec61c2489
+source: Teaching Vacancies
+source_job_id: administrator-year-team-swanshurst-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-year-team-swanshurst-school
+---
+
+---
+action: 
 SELECTED | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B15 2AF | Grade 3: £28,153pa (pro rata) - £34,811pa (pro rata) + SEN 1,779.86pa (pro rata) | Attendance Officer (2 roles)
 employer: James Brindley School
 closing_date: 2026-09-23T09:00:00+01:00
@@ -79,6 +94,36 @@ factual_fingerprint: 960dd9ed3108a58276553de19edf7b88d89fa3cf67abe76696bc48f840d
 source: Teaching Vacancies
 source_job_id: attendance-officer-2-roles
 source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-2-roles
+---
+
+---
+action: 
+SELECTED | West Midlands - Birmingham & Solihull | Solihull, West Midlands, B93 9AS | £8,804.90 Annually (Actual) Point 5-10 | Office Administrator
+employer: Bentley Heath Church of England Primary School
+closing_date: 2026-09-21T09:00:00+01:00
+reason: Clear admin/service title: administrator, office administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: ac361e455ef9bff975b19bf2dee7c83d9a6acdf234cc967e8b9e4d21b688fce1
+source: Teaching Vacancies
+source_job_id: office-administrator-bentley-heath-church-of-england-primary-school-solihull-west-midlands
+source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-bentley-heath-church-of-england-primary-school-solihull-west-midlands
+---
+
+---
+action: 
+SELECTED | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B28 8BB | £28,598.00 - £34,434.00 Annually (FTE) | Office Administrator
+employer: Yorkmead Junior and Infant School
+closing_date: 2026-10-05T23:59:00+01:00
+reason: Clear admin/service title: administrator, office administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: f5755798a1dcbdbad91d8bccc381eda139e6276f94aeb9196860b9a5eb700c15
+source: Teaching Vacancies
+source_job_id: office-administrator-yorkmead-junior-and-infant-school-birmingham-west-midlands
+source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-yorkmead-junior-and-infant-school-birmingham-west-midlands
 ---
 
 ---
@@ -188,35 +233,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/whole-school-attendan
 
 ## POSS — choose SELECT or EXCLUDE
 
----
-action: 
-POSS | West Midlands - Birmingham & Solihull | Solihull, West Midlands, B93 9AS | £8,804.90 Annually (Actual) Point 5-10 | Office Administrator
-employer: Bentley Heath Church of England Primary School
-closing_date: 2026-09-21T09:00:00+01:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: ac361e455ef9bff975b19bf2dee7c83d9a6acdf234cc967e8b9e4d21b688fce1
-source: Teaching Vacancies
-source_job_id: office-administrator-bentley-heath-church-of-england-primary-school-solihull-west-midlands
-source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-bentley-heath-church-of-england-primary-school-solihull-west-midlands
----
-
----
-action: 
-POSS | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B28 8BB | £28,598.00 - £34,434.00 Annually (FTE) | Office Administrator
-employer: Yorkmead Junior and Infant School
-closing_date: 2026-10-05T23:59:00+01:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: f5755798a1dcbdbad91d8bccc381eda139e6276f94aeb9196860b9a5eb700c15
-source: Teaching Vacancies
-source_job_id: office-administrator-yorkmead-junior-and-infant-school-birmingham-west-midlands
-source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-yorkmead-junior-and-infant-school-birmingham-west-midlands
----
+- None.
 
 ## EXCLUDED BY REVIEW
 
@@ -231,9 +248,9 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-
 - [Governance Support Officer](https://teaching-vacancies.service.gov.uk/jobs/governance-support-officer-academy-transformation-trust-sutton-coldfield-not-recorded) — Insufficient admin/service evidence.
 - [Head of Executive Office and Communications](https://teaching-vacancies.service.gov.uk/jobs/head-of-executive-office-and-communications) — Insufficient admin/service evidence.
 - [Head of Marketing](https://teaching-vacancies.service.gov.uk/jobs/head-of-marketing-ormiston-academies-trust) — Insufficient admin/service evidence.
-- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-lindens-academy-sutton-coldfield-west-midlands) — Manager title salary ceiling £34,434 is not below £28,000.
 - [Regional Commercial Procurement Manager](https://teaching-vacancies.service.gov.uk/jobs/regional-commercial-procurement-manager-ormiston-academies-trust) — Manager title salary ceiling £63,638 is not below £28,000.
 - [Regional People Partner](https://teaching-vacancies.service.gov.uk/jobs/regional-people-partner-4ed6680e-930f-489a-b0d0-658557e0d3dc) — Insufficient admin/service evidence.
+- [School Administration Assistant/ Attendance](https://teaching-vacancies.service.gov.uk/jobs/school-administration-assistant-attendance) — Insufficient admin/service evidence.
 - [School Finance Partner](https://teaching-vacancies.service.gov.uk/jobs/school-finance-partner-fioretti-trust) — Insufficient admin/service evidence.
 - [Student Support and Admissions Coordinator](https://teaching-vacancies.service.gov.uk/jobs/student-support-and-admissions-coordinator) — Insufficient admin/service evidence.
 

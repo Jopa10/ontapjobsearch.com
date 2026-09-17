@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Sussex
 
-review_date: 2026-09-16
-review_fingerprint: d39433855b8e93b15c5e96ef26d831853f02f2f427cf05a820f3c62cbed38ff1
-routing_manifest_sha256: 45a8ce4bb4f12276c14b5974540a88cd95b03b6254694d13463722dddac389d7
+review_date: 2026-09-17
+review_fingerprint: 5440f142a87e50329cafb0e959bfdd857e5485f29dc7493fbe6268b0a1ebe0c5
+routing_manifest_sha256: 3bae23716e7846dcabcdd87b2afa86b78418dc1061e41294f26da205e546064d
 ontap_region: Sussex
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 5
-- Selected: 3
+- Records: 6
+- Selected: 4
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 1
@@ -34,6 +34,21 @@ factual_fingerprint: 0ffacc0799951be3fe036ded15fa5a45948c313a0ad4bf56fd030a43f0e
 source: Teaching Vacancies
 source_job_id: administration-assistant-shinewater-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-shinewater-primary-school
+---
+
+---
+action: 
+SELECTED | Sussex | Chichester, South East, PO20 1NP | 30,515 to £33,120 FTE (£15,590 to £16,921 actual) | Exams Officer - CFS
+employer: Chichester Free School
+closing_date: 2026-09-28T00:00:00+01:00
+reason: Clear admin/service title: exams officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 667e31a64a2b0a47048c7f4987817938ca12a693fdf2f1fd929afa8c0eb84d92
+source: Teaching Vacancies
+source_job_id: exams-officer-cfs
+source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-cfs
 ---
 
 ---

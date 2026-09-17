@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Suffolk
 
-review_date: 2026-09-16
-review_fingerprint: 140f4e67ccafcfe0f6c57c04196836ae510aa9e8780cd7a3804fedfcc7ddfe6b
-routing_manifest_sha256: 45a8ce4bb4f12276c14b5974540a88cd95b03b6254694d13463722dddac389d7
+review_date: 2026-09-17
+review_fingerprint: a01fa66851fd62c8e38881c2773f73634c8c76832af9b94074dc0639dc80b66b
+routing_manifest_sha256: 3bae23716e7846dcabcdd87b2afa86b78418dc1061e41294f26da205e546064d
 ontap_region: Suffolk
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 9
+- Records: 11
 - Selected: 2
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 6
+- Hard pass: 8
 
 ## SELECTED
 
@@ -55,14 +55,14 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/sendco-admin-assistan
 
 ---
 action: 
-POSS | Suffolk | Brandon, East of England, IP27 0DA | £29,339 to £31,351 actual pa | Operations Officer
+POSS | Suffolk | Brandon, East of England, IP27 0DA | £30,308 to £32,385 actual pa | Operations Officer
 employer: Glade Academy
 closing_date: 2026-09-30T23:59:00+01:00
 reason: Borderline school administration title: operations officer
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: c7daeabddbda07a946be1625aa5214a6345524b344c3095f5d6678353abd4171
+factual_fingerprint: 8b3bf8eae91e1e709af7cf5f700f3b10a5b7a2efd4894e4c91611bf9cc4ced26
 source: Teaching Vacancies
 source_job_id: operations-officer-glade-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/operations-officer-glade-academy
@@ -74,7 +74,9 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/operations-officer-gl
 
 ## HARD_PASS
 
+- [Admissions and Review Officer](https://teaching-vacancies.service.gov.uk/jobs/admissions-and-review-officer-eastern-education-group-trust) — Insufficient admin/service evidence.
 - [Curriculum and Reception Assistant](https://teaching-vacancies.service.gov.uk/jobs/curriculum-and-reception-assistant) — Insufficient admin/service evidence.
+- [Data Manager](https://teaching-vacancies.service.gov.uk/jobs/data-manager-holbrook-academy) — Manager title salary ceiling £34,811 is not below £28,000.
 - [HR Assistant](https://teaching-vacancies.service.gov.uk/jobs/hr-assistant-36698a9b-d2c8-4253-91ee-aefbeab6f899) — Insufficient admin/service evidence.
 - [HR Assistant Apprentice](https://teaching-vacancies.service.gov.uk/jobs/hr-assistant-apprentice-piper-s-vale-primary-a-paradigm-academy-ipswich-suffolk) — Insufficient admin/service evidence.
 - [Office Manager and Exams Officer](https://teaching-vacancies.service.gov.uk/jobs/office-manager-and-exams-officer) — Manager title salary ceiling £32,597 is not below £28,000.

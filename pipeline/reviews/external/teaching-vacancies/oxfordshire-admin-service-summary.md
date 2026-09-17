@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Oxfordshire
 
-review_date: 2026-09-16
-review_fingerprint: 47f83a83605bebb69308d7da7709bcd015108e117da0681f30145a0f13a65077
-routing_manifest_sha256: 45a8ce4bb4f12276c14b5974540a88cd95b03b6254694d13463722dddac389d7
+review_date: 2026-09-17
+review_fingerprint: 1083db297f32902a732db1bff610c6a86019a3c7ecc878acc4576eea30c6091c
+routing_manifest_sha256: 3bae23716e7846dcabcdd87b2afa86b78418dc1061e41294f26da205e546064d
 ontap_region: Oxfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 16
-- Selected: 7
+- Records: 17
+- Selected: 9
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 9
+- Hard pass: 8
 
 ## SELECTED
 
@@ -34,6 +34,21 @@ factual_fingerprint: fd3c45c8cb848d796c856d9d93acf0b067ef5e780d1557389869a6ba326
 source: Teaching Vacancies
 source_job_id: administration-assistant-bloxham-grove-academy-banbury
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-bloxham-grove-academy-banbury
+---
+
+---
+action: 
+SELECTED | Oxfordshire | Bampton, South East, OX18 2NJ | £26,016.00 - £26,428.00 Annually (FTE) Pro rata 21,126 - £21,461 | Administrative Assistant
+employer: Bampton CofE Primary School
+closing_date: 2026-10-07T23:59:00+01:00
+reason: Clear admin/service title: administrative assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 53036fa163499f625b7e3a69b3b1f64ddedab60ecf2eccc21a4507523fb665b6
+source: Teaching Vacancies
+source_job_id: administrative-assistant-bampton-cofe-primary-school-bampton-oxfordshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-bampton-cofe-primary-school-bampton-oxfordshire
 ---
 
 ---
@@ -64,6 +79,21 @@ factual_fingerprint: 71f420aeacdbb4e37d5e43232bf0f1017a386b5022089e8aabcbd7be51d
 source: Teaching Vacancies
 source_job_id: attendance-officer-wallingford-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-wallingford-school
+---
+
+---
+action: 
+SELECTED | Oxfordshire | Oxford, South East, OX4 6JZ | £26,824.00 - £29,065.00 Annually (FTE) Term Time Plus 2 weeks (5 inset days and hours during exam results) | Careers Administrator
+employer: The Oxford Academy
+closing_date: 2026-09-27T12:00:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 23207fb91420d291e49fe934d91078cf803ae053e67bbd2ac7972fed9cc34af9
+source: Teaching Vacancies
+source_job_id: careers-administrator-384c41f8-97ba-4087-ae9c-7ba96ac3a2b2
+source_url: https://teaching-vacancies.service.gov.uk/jobs/careers-administrator-384c41f8-97ba-4087-ae9c-7ba96ac3a2b2
 ---
 
 ---
@@ -140,7 +170,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/student-receptionist-
 - [Chief Financial Officer (Part Time)](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-part-time-abingdon-learning-trust) — Insufficient admin/service evidence.
 - [Chief Operating Officer](https://teaching-vacancies.service.gov.uk/jobs/chief-operating-officer-oxford-diocesan-schools-trust-wantage-not-recorded) — Insufficient admin/service evidence.
 - [Cover Manager](https://teaching-vacancies.service.gov.uk/jobs/cover-manager-gillotts-school) — Manager title salary ceiling £29,065 is not below £28,000.
-- [Exams and Data Manager](https://teaching-vacancies.service.gov.uk/jobs/exams-and-data-manager-whitelands-academy) — Manager title salary ceiling £40,444 is not below £28,000.
 - [Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-24437cdc-05bf-4102-bc88-8beac49a5637) — Insufficient admin/service evidence.
 - [HR Partner](https://teaching-vacancies.service.gov.uk/jobs/hr-partner-oxford-diocesan-bucks-schools-trust) — Insufficient admin/service evidence.
 - [Procurement Contract Performance Manager *Hybrid Role*](https://teaching-vacancies.service.gov.uk/jobs/procurement-contract-performance-manager-hybrid-role) — Manager title salary ceiling £55,225 is not below £28,000.

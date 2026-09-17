@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — South West
 
-review_date: 2026-09-16
-review_fingerprint: 5a7919834c68c470ad82ee50ca60b5824f004812818801980f6dacb7ebdcc176
-routing_manifest_sha256: 45a8ce4bb4f12276c14b5974540a88cd95b03b6254694d13463722dddac389d7
+review_date: 2026-09-17
+review_fingerprint: f47c1555cb03cb879576d10eb64ca7d2506e5a1a55a750012bed1416e1fde865
+routing_manifest_sha256: 3bae23716e7846dcabcdd87b2afa86b78418dc1061e41294f26da205e546064d
 ontap_region: South West
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 3
-- Selected: 3
+- Records: 4
+- Selected: 4
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 0
@@ -34,6 +34,21 @@ factual_fingerprint: a1b343032389e87b4f8c4babaf79c734954dda9b30862e942686450a98c
 source: Teaching Vacancies
 source_job_id: reception-administrator-perranporth-community-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/reception-administrator-perranporth-community-primary-school
+---
+
+---
+action: 
+SELECTED | South West | Par, South West, PL24 2PT | 5,204.45 | Reception Administrator
+employer: Tywardreath School
+closing_date: 2026-10-01T12:00:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: UNREGISTERED
+migration_status: 
+factual_fingerprint: 17922a19ed74f568b0ffacb7f54c075545f8c6964841a08fed1abd27b85f6aba
+source: Teaching Vacancies
+source_job_id: reception-administrator-tywardreath-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/reception-administrator-tywardreath-school
 ---
 
 ---

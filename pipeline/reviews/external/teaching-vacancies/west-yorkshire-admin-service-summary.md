@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - West
 
-review_date: 2026-09-16
-review_fingerprint: 7463c4a7b7fe65132049fdf7fcbe416dfc0f5d3943dc4f8d3ca0c6b41aa0e597
-routing_manifest_sha256: 45a8ce4bb4f12276c14b5974540a88cd95b03b6254694d13463722dddac389d7
+review_date: 2026-09-17
+review_fingerprint: 9376293115ca0c4438a9fe8af84aa31affa38bd4a92f2efc838c7be6e10cf796
+routing_manifest_sha256: 3bae23716e7846dcabcdd87b2afa86b78418dc1061e41294f26da205e546064d
 ontap_region: Yorkshire - West
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 40
-- Selected: 18
-- POSS awaiting decision: 2
+- Records: 44
+- Selected: 20
+- POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 20
+- Hard pass: 23
 
 ## SELECTED
 
@@ -109,6 +109,21 @@ factual_fingerprint: c99207ebeb9387c223d16bf63043f50fa33e6203d988b05d5d539d29a50
 source: Teaching Vacancies
 source_job_id: administrator-oulton-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-oulton-academy
+---
+
+---
+action: 
+SELECTED | Yorkshire - West | Bradford, Yorkshire and the Humber, BD5 9ET | 25,584.00 - 25,989.00 | Administrator - 37
+employer: Co-op Academy Grange
+closing_date: 2026-10-01T09:00:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: NEW_REVIEW
+factual_fingerprint: a58587bc87cb366355963333204eac5d210fedda4d8432f813b71d8f88111410
+source: Teaching Vacancies
+source_job_id: administrator-37
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-37
 ---
 
 ---
@@ -291,6 +306,21 @@ source_job_id: receptionist-and-administration-assistant-leeds-east-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-and-administration-assistant-leeds-east-academy
 ---
 
+---
+action: 
+SELECTED | Yorkshire - West | Bradford, Yorkshire and the Humber, BD4 7RH | £31,022.00 - £33,699.00 Annually (FTE) Band 8, SCP 17 to SCP 22 (actual salary £26803 - £29115.93 per annum +3.3% pay award pending), 37 hours per week, TTO+5 | SEND Administrator
+employer: Oastlers School
+closing_date: 2026-09-18T12:00:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: NEW_REVIEW
+factual_fingerprint: d9e34daf500d6bdd8a153882402889695b34a059b8d17477bd431f2efac9eb2c
+source: Teaching Vacancies
+source_job_id: send-administrator-oastlers-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-oastlers-school
+---
+
 ## POSS — choose SELECT or EXCLUDE
 
 ---
@@ -308,21 +338,6 @@ source_job_id: administrator-carlton-bolling-bradford-west-yorkshire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-carlton-bolling-bradford-west-yorkshire
 ---
 
----
-action: 
-POSS | Yorkshire - West | Bradford, Yorkshire and the Humber, BD4 7RH | £31,022.00 - £33,699.00 Annually (FTE) Band 8, SCP 17 to SCP 22 (actual salary £26803 - £29115.93 per annum +3.3% pay award pending), 37 hours per week, TTO+5 | SEND Administrator
-employer: Oastlers School
-closing_date: 2026-09-18T12:00:00+01:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: NEW_REVIEW
-factual_fingerprint: d9e34daf500d6bdd8a153882402889695b34a059b8d17477bd431f2efac9eb2c
-source: Teaching Vacancies
-source_job_id: send-administrator-oastlers-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-oastlers-school
----
-
 ## EXCLUDED BY REVIEW
 
 - None.
@@ -335,6 +350,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-oa
 - [Data and Exams Manager](https://teaching-vacancies.service.gov.uk/jobs/data-and-exams-manager-dixons-city-academy) — Manager title salary ceiling £34,744 is not below £28,000.
 - [Data Manager](https://teaching-vacancies.service.gov.uk/jobs/data-manager-buttershaw-business-enterprise-college-academy) — Manager title salary ceiling £37,655 is not below £28,000.
 - [Data, Assessment, and MIS Officer](https://teaching-vacancies.service.gov.uk/jobs/data-assessment-and-mis-officer-crofton-academy) — Insufficient admin/service evidence.
+- [Data, MIS and Admissions Manager](https://teaching-vacancies.service.gov.uk/jobs/data-mis-and-admissions-manager-batley-grammar-school-batley-west-yorkshire) — Manager title salary ceiling £38,267 is not below £28,000.
 - [Exam Invigilator](https://teaching-vacancies.service.gov.uk/jobs/exam-invigilator-leeds-city-academy-leeds-west-yorkshire) — Insufficient admin/service evidence.
 - [Family Liaison Officer](https://teaching-vacancies.service.gov.uk/jobs/family-liaison-officer-buttershaw-business-enterprise-college-academy-bradford-west-yorkshire) — Insufficient admin/service evidence.
 - [Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-e059f5dd-58bc-43a9-9bb0-dfae96e79d4e) — Insufficient admin/service evidence.
@@ -346,6 +362,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-oa
 - [Human Resources Business Partner (Central HR Team)](https://teaching-vacancies.service.gov.uk/jobs/human-resources-business-partner-central-hr-team-the-gorse-academies-trust-leeds-not-recorded) — Insufficient admin/service evidence.
 - [Learning Manager](https://teaching-vacancies.service.gov.uk/jobs/learning-manager-72444972-2891-4ebf-9d5f-a8c7dd7aed3d) — Manager title salary ceiling £36,581 is not below £28,000.
 - [Operations Lead](https://teaching-vacancies.service.gov.uk/jobs/operations-lead-menston-primary-school-ilkley-west-yorkshire) — Insufficient admin/service evidence.
+- [People Advisor (Temporary Maternity Cover)](https://teaching-vacancies.service.gov.uk/jobs/people-advisor-temporary-maternity-cover) — Insufficient admin/service evidence.
+- [Senior Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-administration-officer-altofts-junior-academy) — Insufficient admin/service evidence.
 - [Senior Administrator](https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-linthwaite-clough-primary-school) — Missing salary or pay scale.
 - [Senior Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-finance-officer-impact-education-multi-academy-trust) — Insufficient admin/service evidence.
 - [Trust Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/trust-administration-assistant-waterton-academy-trust) — Insufficient admin/service evidence.

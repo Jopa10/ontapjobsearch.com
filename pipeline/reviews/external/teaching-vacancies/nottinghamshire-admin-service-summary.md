@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Nottinghamshire
 
-review_date: 2026-09-16
-review_fingerprint: b8fb8ab1fa7a78e7cd6291bbf832a01f1ea4da0d92905a039a29219edc51edd3
-routing_manifest_sha256: 45a8ce4bb4f12276c14b5974540a88cd95b03b6254694d13463722dddac389d7
+review_date: 2026-09-17
+review_fingerprint: 1837b36f41bd590e5fabf5d1282b87d6098bd74d47c293174825a87891f299d3
+routing_manifest_sha256: 3bae23716e7846dcabcdd87b2afa86b78418dc1061e41294f26da205e546064d
 ontap_region: Nottinghamshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 25
+- Records: 26
 - Selected: 12
-- POSS awaiting decision: 1
+- POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 12
 
@@ -202,6 +202,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administ
 ---
 
 ## POSS — choose SELECT or EXCLUDE
+
+---
+action: 
+POSS | Nottinghamshire | Nottingham, East Midlands, NG9 3DU | £22,630.72 - £23,356.04 Annually (Actual) NJE Grade 3, Pts 5 to 7 £26,427 - £27,274 (FTE) | Attendance and Inclusion Administration Officer
+employer: Alderman White School
+closing_date: 2026-09-30T09:00:00+01:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 257335d3cdb1e12676f58bbab047de3b40ddde75a561a8147826128507ccbedf
+source: Teaching Vacancies
+source_job_id: attendance-and-inclusion-administration-officer
+source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-and-inclusion-administration-officer
+---
 
 ---
 action: 

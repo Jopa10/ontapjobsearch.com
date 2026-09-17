@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Staffordshire
 
-review_date: 2026-09-16
+review_date: 2026-09-17
 review_fingerprint: 0efe7e904ea5e5c980fbb8618e126239f02d4a9b2faf0b057c1dbddc833ddd40
-routing_manifest_sha256: 45a8ce4bb4f12276c14b5974540a88cd95b03b6254694d13463722dddac389d7
+routing_manifest_sha256: 3bae23716e7846dcabcdd87b2afa86b78418dc1061e41294f26da205e546064d
 ontap_region: Staffordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 8
+- Records: 9
 - Selected: 1
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 7
+- Hard pass: 8
 
 ## SELECTED
 
@@ -49,6 +49,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-administrator
 - [Cover Supervisor](https://teaching-vacancies.service.gov.uk/jobs/cover-supervisor-1b712634-857b-405e-a4de-a196344ada05) — Insufficient admin/service evidence.
 - [Deputy Chief Executive Officer - Finance and Operations](https://teaching-vacancies.service.gov.uk/jobs/deputy-chief-executive-officer-finance-and-operations) — Insufficient admin/service evidence.
 - [Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-the-shaw-education-trust) — Insufficient admin/service evidence.
+- [Finance Assistant (SBMAT) - Level 4](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-sbmat-level-4) — Insufficient admin/service evidence.
 - [Management Accountant](https://teaching-vacancies.service.gov.uk/jobs/management-accountant-discovery-academy-stoke-on-trent-staffordshire) — Insufficient admin/service evidence.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-5c20c15e-9ea0-4341-b9c5-ba119bab985a) — Manager title salary ceiling £39,152 is not below £28,000.
 - [Senior Administration and Finance Assistant - Level 5](https://teaching-vacancies.service.gov.uk/jobs/senior-administration-and-finance-assistant-level-5) — Insufficient admin/service evidence.

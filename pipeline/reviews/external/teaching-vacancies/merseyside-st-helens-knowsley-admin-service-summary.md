@@ -1,9 +1,9 @@
-# Teaching Vacancies regional review — Merseyside - Sefton
+# Teaching Vacancies regional review — Merseyside - St Helens & Knowsley
 
 review_date: 2026-09-17
-review_fingerprint: 2e1e57c73108e052e5c70f3512479162da246c5920939e6a98dda58375b69a83
+review_fingerprint: b4171938523e35ddf92acf3741f9dc6eb825945ae75bd865dce39d70c7c3c3f2
 routing_manifest_sha256: 3bae23716e7846dcabcdd87b2afa86b78418dc1061e41294f26da205e546064d
-ontap_region: Merseyside - Sefton
+ontap_region: Merseyside - St Helens & Knowsley
 slice_category: admin_service
 slice_status: UNREGISTERED
 
@@ -13,27 +13,27 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 1
+- Records: 2
 - Selected: 1
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 0
+- Hard pass: 1
 
 ## SELECTED
 
 ---
 action: 
-SELECTED | Merseyside - Sefton | Southport, North West, PR8 6JS | £25,989 | First Aid Administrator
-employer: Meols Cop High School
-closing_date: 2026-09-28T09:00:00+01:00
-reason: Clear admin/service title: administrator
+SELECTED | Merseyside - St Helens & Knowsley | Newton-le-Willows, North West, WA12 0AQ | £22,936.30 - £23,665.20 | Receptionist
+employer: Hope Academy
+closing_date: 2026-10-16T00:00:00+01:00
+reason: Clear admin/service title: receptionist
 jobg8_check: NO_MATCH
 slice_status: UNREGISTERED
 migration_status: 
-factual_fingerprint: 479a7d211a66740f534b4357678cdd61e911b477b28b52f049cc2885ebaab8bb
+factual_fingerprint: 97a5cdc7b66b5832366b495b4f9a67b97f21ead582080c999f6be91c0a7cd874
 source: Teaching Vacancies
-source_job_id: first-aid-administrator-meols-cop-high-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/first-aid-administrator-meols-cop-high-school
+source_job_id: receptionist-hope-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-hope-academy
 ---
 
 ## POSS — choose SELECT or EXCLUDE
@@ -46,7 +46,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/first-aid-administrat
 
 ## HARD_PASS
 
-- None.
+- [Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-the-sutton-academy) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

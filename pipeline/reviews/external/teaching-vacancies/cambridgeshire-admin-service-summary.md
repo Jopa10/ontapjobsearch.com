@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cambridgeshire
 
-review_date: 2026-09-16
-review_fingerprint: 17c6ffa51ee86cb0dc4e1f40d48652df849f70fcc7a8cd23e24e9527235c2229
-routing_manifest_sha256: 45a8ce4bb4f12276c14b5974540a88cd95b03b6254694d13463722dddac389d7
+review_date: 2026-09-17
+review_fingerprint: 9565f311ddb41a163ab93f4f97de87ec041e69edebcb97cb180a364f53cd5c51
+routing_manifest_sha256: 3bae23716e7846dcabcdd87b2afa86b78418dc1061e41294f26da205e546064d
 ontap_region: Cambridgeshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 21
+- Records: 22
 - Selected: 6
 - POSS awaiting decision: 5
 - Excluded: 0
-- Hard pass: 10
+- Hard pass: 11
 
 ## SELECTED
 
@@ -70,15 +70,15 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assist
 action: 
 SELECTED | Cambridgeshire | Peterborough, East of England, PE6 7JX | £14,802.00 Annually (Actual) | Administrator
 employer: Arthur Mellows Village College
-closing_date: 2026-09-28T23:59:00+01:00
+closing_date: 2026-09-28T09:00:00+01:00
 reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 6d12f88f11c84a515de00ce8ed30dbbb1c618f2a3101014acd97af5c7da19510
+factual_fingerprint: 0212aa390ec9bb1b4c002dfc941ea22561703a264fc3612bcff2b493ad321cc5
 source: Teaching Vacancies
-source_job_id: administrator-0c77962f-6918-48c9-a31e-e8bf06da5af6
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-0c77962f-6918-48c9-a31e-e8bf06da5af6
+source_job_id: administrator-47bb26eb-71c2-4cc0-b838-989640ff07ed
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-47bb26eb-71c2-4cc0-b838-989640ff07ed
 ---
 
 ---
@@ -199,8 +199,9 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-officer-trump
 - [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-greater-peterborough-utc) — Insufficient admin/service evidence.
 - [Head of HR Operations](https://teaching-vacancies.service.gov.uk/jobs/head-of-hr-operations-united-learning-trust) — Insufficient admin/service evidence.
 - [MAT Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/mat-finance-officer-four-cs-mat-peterborough-not-recorded) — Insufficient admin/service evidence.
+- [Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/operations-manager-9a683a81-163f-46a5-b7f5-732557216d39) — Manager title salary ceiling £44,854 is not below £28,000.
 - [School Business Leader](https://teaching-vacancies.service.gov.uk/jobs/school-business-leader-university-of-cambridge-primary-school) — Insufficient admin/service evidence.
-- [Trust Accountant](https://teaching-vacancies.service.gov.uk/jobs/trust-accountant-71e360ec-14d8-4c88-9a6b-5d04d9660efd) — Insufficient admin/service evidence.
+- [Trust Accountant](https://teaching-vacancies.service.gov.uk/jobs/trust-accountant-b45f29c6-8c14-4783-aad4-2de78180395b) — Insufficient admin/service evidence.
 - [Trust Accountant](https://teaching-vacancies.service.gov.uk/jobs/trust-accountant-swavesey-village-college-cambridge-cambridgeshire) — Insufficient admin/service evidence.
 - [Trust Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/trust-finance-officer-act-multi-academy-trust) — Insufficient admin/service evidence.
 - [Trust Payroll, Pensions and HR Officer](https://teaching-vacancies.service.gov.uk/jobs/trust-payroll-pensions-and-hr-officer) — Insufficient admin/service evidence.

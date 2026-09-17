@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - North
 
-review_date: 2026-09-16
-review_fingerprint: c9d2df6b24baa7a80a05cc964f700ffc7b90120935a883801890d7d9efff1838
-routing_manifest_sha256: 45a8ce4bb4f12276c14b5974540a88cd95b03b6254694d13463722dddac389d7
+review_date: 2026-09-17
+review_fingerprint: b5170c548686cc612ccc4d950f06981652cd53daaf329dd7f5cfdfabc51aa8a3
+routing_manifest_sha256: 3bae23716e7846dcabcdd87b2afa86b78418dc1061e41294f26da205e546064d
 ontap_region: Yorkshire - North
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 6
-- Selected: 3
+- Records: 5
+- Selected: 2
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 3
@@ -34,21 +34,6 @@ factual_fingerprint: 175ea147fb2bebd3dcdcf4e9eb36595feb19e8c9b8c3ac3a0ba9cc86b57
 source: Teaching Vacancies
 source_job_id: attendance-administrator-archbishop-holgate-s-school-a-church-of-england-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-administrator-archbishop-holgate-s-school-a-church-of-england-academy
----
-
----
-action: 
-SELECTED | Yorkshire - North | Otley, Yorkshire and the Humber, LS21 2HX | £21,196 | School Office Administrator
-employer: Askwith Primary School
-closing_date: 2026-09-17T09:00:00+01:00
-reason: Clear admin/service title: administrator, office administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: ab48dc847905d321e04c26024101218f0bc9297b0434c4f12d90efd9976fdfba
-source: Teaching Vacancies
-source_job_id: school-office-administrator-askwith-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/school-office-administrator-askwith-primary-school
 ---
 
 ---

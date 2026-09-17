@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Hertfordshire
 
-review_date: 2026-09-16
-review_fingerprint: 25df14799b78aaf063c5598974f655ceb88f9ee152ab7ccbdcb796404723ef98
-routing_manifest_sha256: 45a8ce4bb4f12276c14b5974540a88cd95b03b6254694d13463722dddac389d7
+review_date: 2026-09-17
+review_fingerprint: fe681e1abdb9886ac780bcbca262d6a2bda6e5fddc128a07c72ba923a617c135
+routing_manifest_sha256: 3bae23716e7846dcabcdd87b2afa86b78418dc1061e41294f26da205e546064d
 ontap_region: Hertfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 17
-- Selected: 8
-- POSS awaiting decision: 5
+- Records: 13
+- Selected: 6
+- POSS awaiting decision: 3
 - Excluded: 0
 - Hard pass: 4
 
@@ -98,21 +98,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-administrator
 
 ---
 action: 
-SELECTED | Hertfordshire | Rickmansworth, East of England, WD3 3LR | £26,847.00 - £28,153.00 Annually (FTE) | Pastoral Administrator
-employer: Croxley Danes School
-closing_date: 2026-09-17T09:00:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: deb32079524d519b2e08d65c3e1b463c7f2fde7d728cb6cc667ce1b7267cba3e
-source: Teaching Vacancies
-source_job_id: pastoral-administrator-croxley-danes-school-rickmansworth-hertfordshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/pastoral-administrator-croxley-danes-school-rickmansworth-hertfordshire
----
-
----
-action: 
 SELECTED | Hertfordshire | Hatfield, East of England, AL10 8NL | H7-9 (dependent on qualifications and experience) £32,789 - £42,500 per annum pro rata, (Actual pay £ 29,492 - £38,553) | Personal Assistant to the Headteacher and Senior Leadership Team
 employer: Bishop's Hatfield Girls' School
 closing_date: 2026-09-18T09:00:00+01:00
@@ -124,21 +109,6 @@ factual_fingerprint: d3fa0b68f46643279a4c15fd99e289af4e6a8ea3eeb23bfd497dab12f6b
 source: Teaching Vacancies
 source_job_id: personal-assistant-to-the-headteacher-and-senior-leadership-team
 source_url: https://teaching-vacancies.service.gov.uk/jobs/personal-assistant-to-the-headteacher-and-senior-leadership-team
----
-
----
-action: 
-SELECTED | Hertfordshire | Rickmansworth, East of England, WD3 8AB | £21,306.00 - £26,176.00 Annually (FTE) Academy Trust Scale based on skills and experience (£21,306 to £26,176 FTE, pro-rata for part-time) | School Receptionist - Part-time
-employer: The Reach Free School
-closing_date: 2026-09-17T12:00:00+01:00
-reason: Clear admin/service title: receptionist
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: a4d4ccb965ea6fd34fba76cf3090d58755ab472944d433c9e8d7f6c2323155a2
-source: Teaching Vacancies
-source_job_id: school-receptionist-part-time
-source_url: https://teaching-vacancies.service.gov.uk/jobs/school-receptionist-part-time
 ---
 
 ## POSS — choose SELECT or EXCLUDE
@@ -171,36 +141,6 @@ factual_fingerprint: a5185ec4709fd8fa0b87b390aab8205ae0f2d574ce413d2a29b0ecf57c1
 source: Teaching Vacancies
 source_job_id: hr-advisor-eb9c5bf8-2603-48ba-bfc8-df41ec1204b1
 source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-advisor-eb9c5bf8-2603-48ba-bfc8-df41ec1204b1
----
-
----
-action: 
-POSS | Hertfordshire | St Albans, East of England, AL1 5AR | £16,800.00 Annually (Actual) H3 + Fringe | Inclusion Administration Assistant
-employer: Samuel Ryder Academy
-closing_date: 2026-09-17T09:00:00+01:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 92fa4dd60ce866e370480855e8e657a6841b4fdff4aa4c30f579c4c4656f5829
-source: Teaching Vacancies
-source_job_id: inclusion-administration-assistant-samuel-ryder-academy-st-albans-hertfordshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/inclusion-administration-assistant-samuel-ryder-academy-st-albans-hertfordshire
----
-
----
-action: 
-POSS | Hertfordshire | St Albans, AL1 5AR | £27,600.00 - £28,906.00 Annually (FTE) Grade: H4 + Fringe Annual Salary: £27,600 progressing to £28,906 (Fringe allowance included) | MIS Administrator
-employer: Scholars' Education Trust
-closing_date: 2026-09-17T09:00:00+01:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 769345e9ffdd533438b10a0d23289c68e91a23f1093d1d6f5a279dea837bf9bf
-source: Teaching Vacancies
-source_job_id: mis-administrator
-source_url: https://teaching-vacancies.service.gov.uk/jobs/mis-administrator
 ---
 
 ---

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — North East
 
-review_date: 2026-09-16
-review_fingerprint: f69727def2a0e158c4e6bcdb8a1fa05302d3e3471c0aa691475d6e701a887c52
-routing_manifest_sha256: 45a8ce4bb4f12276c14b5974540a88cd95b03b6254694d13463722dddac389d7
+review_date: 2026-09-17
+review_fingerprint: 8bbe72d183ba971ed59728aff0d7e9f37efc5265ae8b8269b706b8d685e8196f
+routing_manifest_sha256: 3bae23716e7846dcabcdd87b2afa86b78418dc1061e41294f26da205e546064d
 ontap_region: North East
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 7
-- Selected: 3
+- Records: 8
+- Selected: 4
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 4
@@ -49,6 +49,21 @@ factual_fingerprint: 9782f3fd704d82d3ab934a876a9ef958513d993a848865f126b96bbf365
 source: Teaching Vacancies
 source_job_id: hr-payroll-administrator-emmanuel-schools-foundation
 source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-payroll-administrator-emmanuel-schools-foundation
+---
+
+---
+action: 
+SELECTED | North East | Sunderland, North East, SR5 5JA | N5 SCP 13 - 17 FTE salary: £30,023 - £32,046 per annum £16,615 - £17,735 actual salary pro-rata (£15.56 - £16.61 hourly rate) | Lead Administrator
+employer: Harry Watts Academy
+closing_date: 2026-10-05T12:00:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 02235493379e4832a8638469601417d5b6e7baded4f518dcb9a94c0467a1d63a
+source: Teaching Vacancies
+source_job_id: lead-administrator-harry-watts-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/lead-administrator-harry-watts-academy
 ---
 
 ---

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Devon
 
-review_date: 2026-09-16
-review_fingerprint: b6abaf59f05ae67b4c633c1b48c3e3953846fee592706078930d5352efe759a0
-routing_manifest_sha256: 45a8ce4bb4f12276c14b5974540a88cd95b03b6254694d13463722dddac389d7
+review_date: 2026-09-17
+review_fingerprint: 343f8d8322bf1b445780a1feee3fe1424bddb9f44fb12fa7dab33017d660401c
+routing_manifest_sha256: 3bae23716e7846dcabcdd87b2afa86b78418dc1061e41294f26da205e546064d
 ontap_region: Devon
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 21
-- Selected: 9
+- Records: 23
+- Selected: 11
 - POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 10
@@ -128,14 +128,44 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 
 ---
 action: 
-SELECTED | Devon | Plymouth, South West, PL1 5QG | Term Time | Permanent | £23,580 Per Annum (Pro Rata of £26,440 Per Annum) | Schools Liaison Administrator
-employer: City College Plymouth
-closing_date: 2026-09-29T23:59:00+01:00
+SELECTED | Devon | Plymouth, South West, PL5 2DW | £26,847 - 27,274 FTE | School Administrator
+employer: St Budeaux CofE Primary Academy
+closing_date: 2026-10-07T12:00:00+01:00
 reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: e95dd3b09763935723dac91e172110cf1ecea7554bb34d1e685d2ef5bd139f1a
+factual_fingerprint: 5a71e08be1502b2c4affca117d66bd0dc6411f5c67b9a25b5b0e9d591fa169ce
+source: Teaching Vacancies
+source_job_id: school-administrator-st-budeaux-cofe-primary-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-st-budeaux-cofe-primary-academy
+---
+
+---
+action: 
+SELECTED | Devon | Exeter, EX5 3JG | FTE £25660 | School Hub Administrator
+employer: Cornerstone Academy Trust
+closing_date: 2026-10-11T23:59:59+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: cba78843b31d017695c0778f96b53e5bde1c20bd49241631acd860039fa25c4a
+source: Teaching Vacancies
+source_job_id: school-hub-administrator
+source_url: https://teaching-vacancies.service.gov.uk/jobs/school-hub-administrator
+---
+
+---
+action: 
+SELECTED | Devon | Plymouth, South West, PL1 5QG | Term Time | Permanent | £23,580 Per Annum (Pro Rata of £26,440 Per Annum) | Schools Liaison Administrator
+employer: City College Plymouth
+closing_date: 2026-09-21T23:59:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: f4bedfb6dfab2f38a344b854dda65b364ac739fafe872ad12027238826c35bf0
 source: Teaching Vacancies
 source_job_id: schools-liaison-administrator
 source_url: https://teaching-vacancies.service.gov.uk/jobs/schools-liaison-administrator

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Derbyshire
 
-review_date: 2026-09-16
-review_fingerprint: 64ea59636fc74d16dc7f50f884aac48e71bf48868d1aa6726d33bb3f6be9d90c
-routing_manifest_sha256: 45a8ce4bb4f12276c14b5974540a88cd95b03b6254694d13463722dddac389d7
+review_date: 2026-09-17
+review_fingerprint: 4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945
+routing_manifest_sha256: 3bae23716e7846dcabcdd87b2afa86b78418dc1061e41294f26da205e546064d
 ontap_region: Derbyshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,15 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 3
-- Selected: 1
+- Records: 2
+- Selected: 0
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 2
 
 ## SELECTED
 
----
-action: 
-SELECTED | Derbyshire | Buxton, East Midlands, SK17 9EA | £25,989.00 - £26,458.00 Annually (FTE) Grade 6 (Actual salary £9,022 | Receptionist / School Business Assistant
-employer: Buxton Community School
-closing_date: 2026-09-16T23:59:00+01:00
-reason: Clear admin/service title: receptionist
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 1e9b78d983aa10cf9183bff9e7bd8af905aeeefb6b29e240997d4229d0a43e3d
-source: Teaching Vacancies
-source_job_id: receptionist-school-business-assistant
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-school-business-assistant
----
+- None.
 
 ## POSS — choose SELECT or EXCLUDE
 

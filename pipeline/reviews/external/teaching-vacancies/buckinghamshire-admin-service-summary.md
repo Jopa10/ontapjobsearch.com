@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Buckinghamshire
 
-review_date: 2026-09-16
-review_fingerprint: 620d48178a5dc5a9224ed7b78ac44ed910ad69d76e1732642c8e105f861a7738
-routing_manifest_sha256: 45a8ce4bb4f12276c14b5974540a88cd95b03b6254694d13463722dddac389d7
+review_date: 2026-09-17
+review_fingerprint: ea6a805de1365162d6e66be7f8665a36c60599486fb9abdeaf1048b2ae144397
+routing_manifest_sha256: 3bae23716e7846dcabcdd87b2afa86b78418dc1061e41294f26da205e546064d
 ontap_region: Buckinghamshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 12
+- Records: 15
 - Selected: 5
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 7
+- Hard pass: 10
 
 ## SELECTED
 
@@ -55,12 +55,12 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-centre-administ
 action: 
 SELECTED | Buckinghamshire | Amersham, South East, HP7 9HH | Bucks Pay Range 2 - £23,666 pro rata / £26,522 FTE | Administration Assistant
 employer: Amersham School
-closing_date: 2026-09-18T23:59:00+01:00
+closing_date: 2026-09-25T23:59:00+01:00
 reason: Clear admin/service title: administration assistant
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 3ca339484fe8c75a632385c1e61b7aed091c74017a77c8e5d192861ce11e1c50
+factual_fingerprint: dcc1f05a0f4ccd17372929c836e080ad9ce27c086bea3523ac406bfccd5ebff1
 source: Teaching Vacancies
 source_job_id: administration-assistant-amersham-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-amersham-school
@@ -107,12 +107,15 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 ## HARD_PASS
 
 - [Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-stanton-school) — Missing salary or pay scale.
+- [Chief Financial Officer (CFO)](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-cfo-45a5bd2d-645c-4812-81b2-869f779b8215) — Insufficient admin/service evidence.
 - [Data and Timetabling Manager](https://teaching-vacancies.service.gov.uk/jobs/data-and-timetabling-manager) — Manager title salary ceiling £35,669 is not below £28,000.
+- [Employee Relations Officer](https://teaching-vacancies.service.gov.uk/jobs/employee-relations-officer) — Insufficient admin/service evidence.
 - [Exams and Data Team Leader](https://teaching-vacancies.service.gov.uk/jobs/exams-and-data-team-leader) — Insufficient admin/service evidence.
 - [Exams Coordinator](https://teaching-vacancies.service.gov.uk/jobs/exams-coordinator-chiltern-way-academy-trust) — Insufficient admin/service evidence.
 - [HR & Training Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-training-officer) — Insufficient admin/service evidence.
 - [Lettings & Community Officer](https://teaching-vacancies.service.gov.uk/jobs/lettings-community-officer-5-dimensions-trust-milton-keynes-not-recorded) — Insufficient admin/service evidence.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-112af158-1ad4-4dd9-88fb-3ab9c389f16b) — Manager title salary ceiling £47,181 is not below £28,000.
+- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-alfriston-school) — Manager title salary ceiling £46,650 is not below £28,000.
 
 ## Safety boundary
 

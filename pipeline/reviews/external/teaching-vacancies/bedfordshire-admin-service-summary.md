@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Bedfordshire
 
-review_date: 2026-09-16
-review_fingerprint: 49f597bd5f107afd80bae6492e04b8e835f41af6e0e41ad405c4e0e7ea7cbf28
-routing_manifest_sha256: 45a8ce4bb4f12276c14b5974540a88cd95b03b6254694d13463722dddac389d7
+review_date: 2026-09-17
+review_fingerprint: 9b28926b6e773b804037031a4d6b15146ab460418b3ca9bf3dda0c3b33511477
+routing_manifest_sha256: 3bae23716e7846dcabcdd87b2afa86b78418dc1061e41294f26da205e546064d
 ontap_region: Bedfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -14,10 +14,10 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 9
-- Selected: 4
+- Selected: 5
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 4
+- Hard pass: 3
 
 ## SELECTED
 
@@ -30,10 +30,10 @@ reason: Clear admin/service title: admin assistant
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 1033afe941c4c1260c1e58c7b3e3159efe97afedfd26303593d228224bc5fd11
+factual_fingerprint: 647c634fd7e3dfc2844550246b729a36438eba2a633cf3945e43879b3f76394b
 source: Teaching Vacancies
-source_job_id: finance-trips-admin-assistant-fb3fbe5b-9ed3-42fb-9690-c3f622960d1a
-source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-trips-admin-assistant-fb3fbe5b-9ed3-42fb-9690-c3f622960d1a
+source_job_id: finance-trips-admin-assistant-41cedbac-f577-4df1-874c-bcf5ea03f826
+source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-trips-admin-assistant-41cedbac-f577-4df1-874c-bcf5ea03f826
 ---
 
 ---
@@ -49,6 +49,21 @@ factual_fingerprint: da634e2b07b9543f8d38ecda395f42a7170390b1ff348f3a3bab35fc628
 source: Teaching Vacancies
 source_job_id: office-administrator-st-john-rigby-catholic-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-st-john-rigby-catholic-primary-school
+---
+
+---
+action: 
+SELECTED | Bedfordshire | Luton, East of England, LU1 4BB | Level 3C Points 6 - 8 | Reception Administrator Assistant
+employer: Manshead Church of England Academy
+closing_date: 2026-09-28T09:00:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 04417083bcdba7453e058986ed044e3baeaedd285ead5636a734ae3439b4e7c1
+source: Teaching Vacancies
+source_job_id: reception-administrator-assistant
+source_url: https://teaching-vacancies.service.gov.uk/jobs/reception-administrator-assistant
 ---
 
 ---
@@ -106,7 +121,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/governance-profession
 
 - [Business Manager](https://teaching-vacancies.service.gov.uk/jobs/business-manager-de16c660-42ff-448c-aed9-69dbe339a507) — Manager title salary ceiling £45,401 is not below £28,000.
 - [Clerical Assistant - Maternity Cover](https://teaching-vacancies.service.gov.uk/jobs/clerical-assistant-maternity-cover-icknield-primary-school-luton-bedfordshire) — Insufficient admin/service evidence.
-- [Data and Exams Assistant](https://teaching-vacancies.service.gov.uk/jobs/data-and-exams-assistant-queensbury-academy) — Insufficient admin/service evidence.
 - [Finance Assistant - Purchase Ledger & Treasury](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-purchase-ledger-treasury) — Insufficient admin/service evidence.
 
 ## Safety boundary

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Norfolk
 
-review_date: 2026-09-16
-review_fingerprint: 7bbf176f9c3daa610eed3719227e9fcc064694287c9189cb0ca000b8ef1bbf2b
-routing_manifest_sha256: 45a8ce4bb4f12276c14b5974540a88cd95b03b6254694d13463722dddac389d7
+review_date: 2026-09-17
+review_fingerprint: a5b43bf8a20776c604779c194a3fe20ae844cd52dd50976dcb0f329fd54f7c77
+routing_manifest_sha256: 3bae23716e7846dcabcdd87b2afa86b78418dc1061e41294f26da205e546064d
 ontap_region: Norfolk
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 17
+- Records: 21
 - Selected: 6
-- POSS awaiting decision: 4
+- POSS awaiting decision: 6
 - Excluded: 0
-- Hard pass: 7
+- Hard pass: 9
 
 ## SELECTED
 
@@ -115,6 +115,36 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-secretary-rudh
 
 ---
 action: 
+POSS | Norfolk | Norwich, East of England, NR5 0PX | £16,356.00 - £17,168.00 Annually (Actual) | Behaviour & Careers Administration Assistant
+employer: Ormiston Victory Academy
+closing_date: 2026-09-25T09:00:00+01:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: e6c56facc0307b023cdfaad0a2fa3700d1df561d69a2aeb2ab9e3e5f2114be08
+source: Teaching Vacancies
+source_job_id: behaviour-careers-administration-assistant
+source_url: https://teaching-vacancies.service.gov.uk/jobs/behaviour-careers-administration-assistant
+---
+
+---
+action: 
+POSS | Norfolk | King's Lynn, East of England, PE30 4AW | Grade D, Point 6 – 7 £26,847 - £27,274 pa FTE Please note that the salary will be pro rata (approx. £18,639 - £18936) | Finance Assistant (with some reception cover)
+employer: Springwood High School
+closing_date: 2026-09-29T01:00:00+01:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 3416fcf51de53436d9eca24c4bfa62aef815973afb2141594de7c6c1e7e6266d
+source: Teaching Vacancies
+source_job_id: finance-assistant-with-some-reception-cover
+source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-with-some-reception-cover
+---
+
+---
+action: 
 POSS | Norfolk | Norwich, NR2 1NR | Salary: Support Staff Pay Scale I: £38,510 to £40,444 per annum | Governance Professional - Complaints and Governance Support
 employer: Inspiration Trust
 closing_date: 2026-09-23T12:00:00+01:00
@@ -183,8 +213,10 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-wymo
 - [Chief Financial Officer](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-broad-horizons-education-trust) — Insufficient admin/service evidence.
 - [Director of Compliance](https://teaching-vacancies.service.gov.uk/jobs/director-of-compliance) — Insufficient admin/service evidence.
 - [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-white-woman-lane-junior-school) — Insufficient admin/service evidence.
+- [Office Coordinator](https://teaching-vacancies.service.gov.uk/jobs/office-coordinator-duchy-of-lancaster-methwold-cofe-primary-school-thetford-norfolk) — Insufficient admin/service evidence.
 - [Operations Officer](https://teaching-vacancies.service.gov.uk/jobs/operations-officer-southery-academy-downham-market-norfolk) — Missing salary or pay scale.
 - [Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-13c89b93-af4a-43c9-9abf-857124071953) — Insufficient admin/service evidence.
+- [Preschool Lead Practitioner – Part Time (2 days)](https://teaching-vacancies.service.gov.uk/jobs/preschool-lead-practitioner-part-time-2-days) — Insufficient admin/service evidence.
 - [Regional People Partner](https://teaching-vacancies.service.gov.uk/jobs/regional-people-partner-ormiston-victory-academy-norwich-norfolk) — Insufficient admin/service evidence.
 
 ## Safety boundary

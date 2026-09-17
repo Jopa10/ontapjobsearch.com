@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Somerset
 
-review_date: 2026-09-16
-review_fingerprint: 5313f59147809f904e4f26af9291c62faa8089c1e5f2a879bd07f6c5b1134bb8
-routing_manifest_sha256: 45a8ce4bb4f12276c14b5974540a88cd95b03b6254694d13463722dddac389d7
+review_date: 2026-09-17
+review_fingerprint: 4e9b2e91d8eaa7274b6e38a06271c5de592d73f7f7f1a8b4708fc33e60be2912
+routing_manifest_sha256: 3bae23716e7846dcabcdd87b2afa86b78418dc1061e41294f26da205e546064d
 ontap_region: Somerset
 slice_category: admin_service
 slice_status: LIVE
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 12
-- Selected: 5
-- POSS awaiting decision: 1
+- Records: 13
+- Selected: 7
+- POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 6
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Somerset | Radstock, South West, BA3 4EX | £26, 847 FTE per annum, PRO RATA | Admin Assistant
+employer: St Vigor & St John Church School
+closing_date: 2026-09-28T23:59:59+01:00
+reason: Clear admin/service title: admin assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: c4593b77c7a8a1a4f4794ba81698b9b5e186dad6f9e10255a1a23f9ee0d74d4f
+source: Teaching Vacancies
+source_job_id: admin-assistant-st-vigor-st-john-church-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-st-vigor-st-john-church-school
+---
 
 ---
 action: 
@@ -83,6 +98,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-officer-pa-to-head
 
 ---
 action: 
+SELECTED | Somerset | Weston-Super-Mare, South West, BS24 9DA | £16,115.95 | Office Administrator
+employer: Oldmixon Primary School
+closing_date: 2026-09-25T23:59:59+01:00
+reason: Clear admin/service title: administrator, office administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: f3d14bddc23e3722c13d0e2dc1aa6c41c06b738cb0f34eebca796f312de90d3d
+source: Teaching Vacancies
+source_job_id: office-administrator-oldmixon-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-oldmixon-primary-school
+---
+
+---
+action: 
 SELECTED | Somerset | Bridgwater, South West, TA6 4QY | Support Staff Pay Scale Band 5 points 7-9 | Primary Phase Administrator
 employer: Bridgwater College Academy
 closing_date: 2026-09-23T23:59:00+01:00
@@ -98,20 +128,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/primary-phase-adminis
 
 ## POSS — choose SELECT or EXCLUDE
 
----
-action: 
-POSS | Somerset | Weston-Super-Mare, South West, BS24 9DA | £16,115.95 | Office Administrator
-employer: Oldmixon Primary School
-closing_date: 2026-09-25T23:59:59+01:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: f3d14bddc23e3722c13d0e2dc1aa6c41c06b738cb0f34eebca796f312de90d3d
-source: Teaching Vacancies
-source_job_id: office-administrator-oldmixon-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-oldmixon-primary-school
----
+- None.
 
 ## EXCLUDED BY REVIEW
 

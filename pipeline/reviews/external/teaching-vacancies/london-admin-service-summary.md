@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — London
 
-review_date: 2026-09-16
-review_fingerprint: 5cf4fcd258dd62c38df9080d2cc6fc398d8dc3a9f1ebfd94dab81db958b83ff5
-routing_manifest_sha256: 45a8ce4bb4f12276c14b5974540a88cd95b03b6254694d13463722dddac389d7
+review_date: 2026-09-17
+review_fingerprint: 13e033b5910fa57fdeefed82818e8ada2444008b9c2c4c746f08914ff53780d6
+routing_manifest_sha256: 3bae23716e7846dcabcdd87b2afa86b78418dc1061e41294f26da205e546064d
 ontap_region: London
 slice_category: admin_service
 slice_status: LIVE
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 70
-- Selected: 24
-- POSS awaiting decision: 5
+- Records: 68
+- Selected: 25
+- POSS awaiting decision: 3
 - Excluded: 0
-- Hard pass: 41
+- Hard pass: 40
 
 ## SELECTED
+
+---
+action: 
+SELECTED | London | Orpington, London, BR6 6JF | £29,064 FTE (£21,390 actual) | Admin Assistant
+employer: Warren Road Primary School
+closing_date: 2026-10-05T09:00:00+01:00
+reason: Clear admin/service title: admin assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 04c3b3e9d595aa0e6caa68bef61f29c82ff841811a74da0f16daf2a24909284f
+source: Teaching Vacancies
+source_job_id: admin-assistant-warren-road-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-warren-road-primary-school
+---
 
 ---
 action: 
@@ -173,21 +188,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/exam-access-arrangeme
 
 ---
 action: 
-SELECTED | London | Croydon, London, CR0 2EA | £22,428.61 - £23,747.62 Annually (Actual) TPA 8 / NJC 6 - 10 - £30,841 - £32,655pa FTE | Finance & Admin Assistant
-employer: Broadmead Primary School
-closing_date: 2026-09-23T23:59:00+01:00
-reason: Clear admin/service title: admin assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 03b59eab079f033f34b95832efbbc91672e93ad8ae0e3363c2479b0b39e6c4e5
-source: Teaching Vacancies
-source_job_id: finance-admin-assistant-broadmead-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-admin-assistant-broadmead-primary-school
----
-
----
-action: 
 SELECTED | London | London, London, N4 1SY | £33,036 - £34,488 | Finance and Administrative Assistant
 employer: Woodberry Down Community Primary School
 closing_date: 2026-09-30T12:00:00+01:00
@@ -263,17 +263,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/personal-assistant-to
 
 ---
 action: 
-SELECTED | London | Ruislip, London, HA4 0LS | £22,978.00 - £24,675.00 Annually (Actual) NJC Scales 4-5, Point 7-12 | Post 16 Academic Supervisor and Administrator
-employer: Queensmead School
-closing_date: 2026-09-17T09:00:00+01:00
-reason: Clear admin/service title: administrator
+SELECTED | London | London, London, SE11 5QY | £26,857.00 - £27,240.00 Annually (Actual) Room for progression | Receptionist
+employer: Lilian Baylis Technology School
+closing_date: 2026-09-18T10:00:00+01:00
+reason: Clear admin/service title: receptionist
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: de58b31d3165ecf190bf02264052f749c634055d2cd2aa9152a7e9303ddcf151
+factual_fingerprint: c49a4b7a13bf551c6da1eb15fef1cf557a699be80f7bacfad2380287f86ab3c9
 source: Teaching Vacancies
-source_job_id: post-16-academic-supervisor-and-administrator
-source_url: https://teaching-vacancies.service.gov.uk/jobs/post-16-academic-supervisor-and-administrator
+source_job_id: receptionist-lilian-baylis-technology-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-lilian-baylis-technology-school
 ---
 
 ---
@@ -289,6 +289,21 @@ factual_fingerprint: d47327e8b35fca51b4ddf6a06b0724f9fcd6c078be40be0b99ee9ac9612
 source: Teaching Vacancies
 source_job_id: receptionist-administration-assistant-part-time-ht
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administration-assistant-part-time-ht
+---
+
+---
+action: 
+SELECTED | London | Osterley, London, TW7 5PN | 28,195.00 - 29,852.00 | School Administrator
+employer: Nishkam School West London
+closing_date: 2026-09-18T00:00:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 8b9e05d1ce0c1907c3414549212366b0b7e2a26f20c63f4cff0f7dd0beb80873
+source: Teaching Vacancies
+source_job_id: school-administrator-nishkam-school-west-london
+source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-nishkam-school-west-london
 ---
 
 ---
@@ -385,32 +400,32 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/welfare-officer-and-s
 
 ---
 action: 
-POSS | London | Orpington, London, BR6 6JF | £29,064 FTE (£21,390 actual) | Admin Assistant
-employer: Warren Road Primary School
-closing_date: 2026-10-05T09:00:00+01:00
+POSS | London | Kingston upon Thames, London, KT2 6SE | £10,038.00 - £10,625.00 Annually (Actual) | Communications Officer
+employer: Alexandra Primary School
+closing_date: 2026-09-28T09:00:00+01:00
 reason: Possible JobG8 duplicate requires review
 jobg8_check: POSSIBLE_DUPLICATE
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 04c3b3e9d595aa0e6caa68bef61f29c82ff841811a74da0f16daf2a24909284f
+factual_fingerprint: 87ddce5cd4741c48a81652d9b3f523958d7f4b4b5abff980b06c87c3586c4995
 source: Teaching Vacancies
-source_job_id: admin-assistant-warren-road-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-warren-road-primary-school
+source_job_id: communications-officer-alexandra-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/communications-officer-alexandra-primary-school
 ---
 
 ---
 action: 
-POSS | London | Beckenham, London, BR3 1RF | £29,856.00 - £31,611.00 Annually (FTE) | Administration Officer
-employer: Worsley Bridge Primary School
-closing_date: 2026-09-17T12:00:00+01:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
+POSS | London | Croydon, London, CR0 2EA | £22,428.61 - £23,747.62 Annually (Actual) TPA 8 / NJC 6 - 10 - £30,841 - £32,655pa FTE | Finance & Admin Assistant
+employer: Broadmead Primary School
+closing_date: 2026-09-23T23:59:00+01:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 01848d190453ff975d25b326a6f13d8a64e807408ebcb8d3213e62dab374a983
+factual_fingerprint: 03b59eab079f033f34b95832efbbc91672e93ad8ae0e3363c2479b0b39e6c4e5
 source: Teaching Vacancies
-source_job_id: administration-officer-worsley-bridge-primary-school-beckenham-kent
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-officer-worsley-bridge-primary-school-beckenham-kent
+source_job_id: finance-admin-assistant-broadmead-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-admin-assistant-broadmead-primary-school
 ---
 
 ---
@@ -428,51 +443,21 @@ source_job_id: governance-clerk-skinners-academies-trust
 source_url: https://teaching-vacancies.service.gov.uk/jobs/governance-clerk-skinners-academies-trust
 ---
 
----
-action: 
-POSS | London | London, London, SE11 5QY | £26,857.00 - £27,240.00 Annually (Actual) Room for progression | Receptionist
-employer: Lilian Baylis Technology School
-closing_date: 2026-09-18T10:00:00+01:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: c49a4b7a13bf551c6da1eb15fef1cf557a699be80f7bacfad2380287f86ab3c9
-source: Teaching Vacancies
-source_job_id: receptionist-lilian-baylis-technology-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-lilian-baylis-technology-school
----
-
----
-action: 
-POSS | London | Osterley, London, TW7 5PN | 28,195.00 - 29,852.00 | School Administrator
-employer: Nishkam School West London
-closing_date: 2026-09-18T00:00:00+01:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 8b9e05d1ce0c1907c3414549212366b0b7e2a26f20c63f4cff0f7dd0beb80873
-source: Teaching Vacancies
-source_job_id: school-administrator-nishkam-school-west-london
-source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-nishkam-school-west-london
----
-
 ## EXCLUDED BY REVIEW
 
 - None.
 
 ## HARD_PASS
 
-- [Attendance & Welfare Lead and Deputy Designated Safeguarding Lead (DDSL)](https://teaching-vacancies.service.gov.uk/jobs/attendance-welfare-lead-and-deputy-designated-safeguarding-lead-ddsl) — Insufficient admin/service evidence.
 - [Business Operations & Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/business-operations-finance-manager) — Manager title salary ceiling £59,394 is not below £28,000.
 - [Business Support and Finance Co-Ordinator](https://teaching-vacancies.service.gov.uk/jobs/business-support-and-finance-co-ordinator) — Insufficient admin/service evidence.
+- [Chief Financial Officer ( CFO )](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-cfo-the-cardinal-wiseman-catholic-school) — Insufficient admin/service evidence.
 - [Data & Exams Manager](https://teaching-vacancies.service.gov.uk/jobs/data-exams-manager-ark-bolingbroke-academy) — Manager title salary ceiling £44,231 is not below £28,000.
 - [Data Manager / Support ICT Officer](https://teaching-vacancies.service.gov.uk/jobs/data-manager-support-ict-officer) — Manager title without salary evidence below £28,000.
 - [Deputy HR Manager](https://teaching-vacancies.service.gov.uk/jobs/deputy-hr-manager-impact-multi-academy-trust) — Manager title salary ceiling £45,750 is not below £28,000.
+- [Director of HR](https://teaching-vacancies.service.gov.uk/jobs/director-of-hr-orion-education-chislehurst-not-recorded) — Insufficient admin/service evidence.
 - [Family Welfare Officer](https://teaching-vacancies.service.gov.uk/jobs/family-welfare-officer-orion-eden-park-beckenham-kent) — Insufficient admin/service evidence.
 - [Finance Apprentice](https://teaching-vacancies.service.gov.uk/jobs/finance-apprentice-hertswood-academy-borehamwood-hertfordshire) — Insufficient admin/service evidence.
-- [Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-alternative-learning-trust) — Insufficient admin/service evidence.
 - [Finance Assistant AP](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-ap) — Insufficient admin/service evidence.
 - [Fundraising Officer](https://teaching-vacancies.service.gov.uk/jobs/fundraising-officer-ac67c185-438c-4d63-82c9-4fcd5524afc9) — Insufficient admin/service evidence.
 - [Head of Governance & Compliance](https://teaching-vacancies.service.gov.uk/jobs/head-of-governance-compliance-the-charter-schools-educational-trust) — Insufficient admin/service evidence.
@@ -487,9 +472,9 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 - [Management Accountant/Business Partner](https://teaching-vacancies.service.gov.uk/jobs/management-accountant-business-partner-198dd29f-f552-4960-8678-e6be462b2563) — Insufficient admin/service evidence.
 - [OFFICE MANAGER](https://teaching-vacancies.service.gov.uk/jobs/office-manager-c51d6e8a-f80b-4d3c-a580-8c73630ffb4a) — Manager title salary ceiling £40,182 is not below £28,000.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-chadwell-heath-academy) — Manager title without salary evidence below £28,000.
+- [Office Manager - Chingford Foundation School](https://teaching-vacancies.service.gov.uk/jobs/office-manager-chingford-foundation-school) — Manager title salary ceiling £41,358 is not below £28,000.
 - [Office Manager / PA to Head of School](https://teaching-vacancies.service.gov.uk/jobs/office-manager-pa-to-head-of-school-moorcroft-school) — Manager title salary ceiling £36,390 is not below £28,000.
 - [Part Time HR Officer](https://teaching-vacancies.service.gov.uk/jobs/part-time-hr-officer) — Insufficient admin/service evidence.
-- [Payroll Officer](https://teaching-vacancies.service.gov.uk/jobs/payroll-officer-b2efa37a-6b4a-4d64-ab55-23d9744d8569) — Insufficient admin/service evidence.
 - [People/HR Shared Service Desk Lead](https://teaching-vacancies.service.gov.uk/jobs/people-hr-shared-service-desk-lead) — Insufficient admin/service evidence.
 - [Procurement and Payments Manager](https://teaching-vacancies.service.gov.uk/jobs/procurement-and-payments-manager-girls-learning-trust) — Manager title salary ceiling £50,675 is not below £28,000.
 - [Receptionist/Medical Administrator](https://teaching-vacancies.service.gov.uk/jobs/receptionist-medical-administrator) — Missing salary or pay scale.
@@ -500,7 +485,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-f3929ea5-8ab0-4347-ba05-b741572a9d77) — Manager title salary ceiling £54,843 is not below £28,000.
 - [School Social Worker](https://teaching-vacancies.service.gov.uk/jobs/school-social-worker-whitefriars-school) — Out-of-scope occupation: social worker.
 - [SENDCo Assistant](https://teaching-vacancies.service.gov.uk/jobs/sendco-assistant-red-hill-primary-school-chislehurst-kent) — Insufficient admin/service evidence.
-- [Senior Administrative Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-administrative-officer-mossbourne-community-academy-london) — Insufficient admin/service evidence.
 - [Strategic Lead for Human Resources](https://teaching-vacancies.service.gov.uk/jobs/strategic-lead-for-human-resources) — Insufficient admin/service evidence.
 - [Student Attendance & Reporting Officer](https://teaching-vacancies.service.gov.uk/jobs/student-attendance-reporting-officer) — Insufficient admin/service evidence.
 - [Trust Senior Admin Officer](https://teaching-vacancies.service.gov.uk/jobs/trust-senior-admin-officer) — Insufficient admin/service evidence.

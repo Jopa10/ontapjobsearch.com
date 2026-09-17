@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Lincolnshire
 
-review_date: 2026-09-16
-review_fingerprint: aa9f1de37faf709dda49a4b5beaedff6af2386f294c29989e3805843aa4ae44d
-routing_manifest_sha256: 45a8ce4bb4f12276c14b5974540a88cd95b03b6254694d13463722dddac389d7
+review_date: 2026-09-17
+review_fingerprint: ac89993da595d5caab617b6b7ee4997e4b66393e94200839e2358b59722e6f1f
+routing_manifest_sha256: 3bae23716e7846dcabcdd87b2afa86b78418dc1061e41294f26da205e546064d
 ontap_region: Lincolnshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 16
-- Selected: 7
+- Records: 17
+- Selected: 8
 - POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 7
@@ -124,6 +124,21 @@ factual_fingerprint: 10aac0d432b3e8e2b48141c658567120dc91c6b4ec8f2e61e3cd3400cfb
 source: Teaching Vacancies
 source_job_id: school-administrator-role-attendance-assistant-a776f8a6-c388-4b6b-b481-9a6f4d4c6e5e
 source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-role-attendance-assistant-a776f8a6-c388-4b6b-b481-9a6f4d4c6e5e
+---
+
+---
+action: 
+SELECTED | Lincolnshire | Sleaford, East Midlands, NG34 7DD | £24,796.00 - £25,985.00 Annually (FTE) Grade 3.6 to 3.9 | Sixth Form Administrator
+employer: Carre's Grammar School
+closing_date: 2026-09-28T17:00:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 788c97745081a05d1653db5d0ee339c415d935dfe8009c071c3344f4ed6bfc6f
+source: Teaching Vacancies
+source_job_id: sixth-form-administrator-carre-s-grammar-school-sleaford-lincolnshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/sixth-form-administrator-carre-s-grammar-school-sleaford-lincolnshire
 ---
 
 ## POSS — choose SELECT or EXCLUDE

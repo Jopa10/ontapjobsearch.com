@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Wiltshire
 
-review_date: 2026-09-16
-review_fingerprint: 0f1d857391932f3e7d4c5a4c0b36da5f2e338ffd302260c7d22592d434e0be18
-routing_manifest_sha256: 45a8ce4bb4f12276c14b5974540a88cd95b03b6254694d13463722dddac389d7
+review_date: 2026-09-17
+review_fingerprint: d5263085d0ddfc73290e6cabb957c8f025cfd091b558731b5b6a49370c7b8f53
+routing_manifest_sha256: 3bae23716e7846dcabcdd87b2afa86b78418dc1061e41294f26da205e546064d
 ontap_region: Wiltshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 23
-- Selected: 7
-- POSS awaiting decision: 3
+- Records: 24
+- Selected: 8
+- POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 13
+- Hard pass: 14
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Wiltshire | Chippenham, South West, SN15 1HE | £26,016.00 - £26,847.00 Annually (FTE) Actual Salary: £19,152-£19,763 per annum | Admin Assistant
+employer: Ivy Lane Primary School
+closing_date: 2026-09-18T12:00:00+01:00
+reason: Clear admin/service title: admin assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 8341e2e1850c01d563c4f3f36b57d95c33fea4613cae8bb7cc4146a49085843f
+source: Teaching Vacancies
+source_job_id: admin-assistant-ivy-lane-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-ivy-lane-primary-school
+---
 
 ---
 action: 
@@ -49,6 +64,21 @@ factual_fingerprint: 33ade2da3677e71ab86805b261d6d60d9dc1ac11097d6e87dcd21749846
 source: Teaching Vacancies
 source_job_id: exams-officer-a0e6b270-9f8e-4c55-b68b-38b5e9214d1b
 source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-a0e6b270-9f8e-4c55-b68b-38b5e9214d1b
+---
+
+---
+action: 
+SELECTED | Wiltshire | Swindon, South West, SN2 2NQ | £11,495.00 Annually (Actual) | Part Time Receptionist/Administrator
+employer: Nova Hreod Academy
+closing_date: 2026-10-01T23:59:00+01:00
+reason: Clear admin/service title: administrator, receptionist
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 19c944ea4c26a2d35904f8a96316690cfdc1384d89a9ff90dbfaceda6b14bed1
+source: Teaching Vacancies
+source_job_id: part-time-receptionist-administrator-nova-hreod-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/part-time-receptionist-administrator-nova-hreod-academy
 ---
 
 ---
@@ -111,37 +141,7 @@ source_job_id: school-receptionist-even-swindon-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/school-receptionist-even-swindon-primary-school
 ---
 
----
-action: 
-SELECTED | Wiltshire | Malmesbury, South West, SN16 0DF | £18,760.00 - £19,699.00 Annually (Actual) | SEND Administrator
-employer: Malmesbury School
-closing_date: 2026-09-17T09:00:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 72e6af8015aea3b667baa0adb9422b959273d156fa40a7c5d118ecbc4e9d1c7e
-source: Teaching Vacancies
-source_job_id: send-administrator-ae272121-681f-4124-a37d-ce058b479a1c
-source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-ae272121-681f-4124-a37d-ce058b479a1c
----
-
 ## POSS — choose SELECT or EXCLUDE
-
----
-action: 
-POSS | Wiltshire | Chippenham, South West, SN15 1HE | £26,016.00 - £26,847.00 Annually (FTE) Actual Salary: £19,152-£19,763 per annum | Admin Assistant
-employer: Ivy Lane Primary School
-closing_date: 2026-09-25T12:00:00+01:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: d0d4906e5a174efa566d15e143581d06ca053f2c0dccb2b8d9e9a66aaa460ee7
-source: Teaching Vacancies
-source_job_id: admin-assistant-ivy-lane-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-ivy-lane-primary-school
----
 
 ---
 action: 
@@ -179,6 +179,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/governance-profession
 
 ## HARD_PASS
 
+- [Admissions and Transition Coordinator](https://teaching-vacancies.service.gov.uk/jobs/admissions-and-transition-coordinator) — Insufficient admin/service evidence.
 - [Assistant Data and Exams Manager](https://teaching-vacancies.service.gov.uk/jobs/assistant-data-and-exams-manager) — Manager title salary ceiling £28,598 is not below £28,000.
 - [Chief Financial Officer](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-0d106d15-bbf0-467f-8794-3393ccb03a2b) — Insufficient admin/service evidence.
 - [Early Years Stronger Practice Hub Manager](https://teaching-vacancies.service.gov.uk/jobs/early-years-stronger-practice-hub-manager) — Manager title salary ceiling £41,771 is not below £28,000.
@@ -187,10 +188,10 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/governance-profession
 - [Head of Finance](https://teaching-vacancies.service.gov.uk/jobs/head-of-finance-magna-learning-partnership-salisbury-not-recorded) — Insufficient admin/service evidence.
 - [HR Advisor](https://teaching-vacancies.service.gov.uk/jobs/hr-advisor-ascend-learning-trust) — Insufficient admin/service evidence.
 - [HR Generalist](https://teaching-vacancies.service.gov.uk/jobs/hr-generalist) — Insufficient admin/service evidence.
+- [Local Governance Committee Clerks](https://teaching-vacancies.service.gov.uk/jobs/local-governance-committee-clerks) — Insufficient admin/service evidence.
 - [Recruitment Lead](https://teaching-vacancies.service.gov.uk/jobs/recruitment-lead-126da904-70b2-4de7-b993-e740579fd411) — Insufficient admin/service evidence.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-lethbridge-primary-school) — Manager title salary ceiling £35,814 is not below £28,000.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-paxcroft-primary-school) — Manager title salary ceiling £37,563 is not below £28,000.
-- [Senior Operations Lead](https://teaching-vacancies.service.gov.uk/jobs/senior-operations-lead) — Insufficient admin/service evidence.
 - [Senior Pupil Services Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-pupil-services-officer-grange-infants-school) — Insufficient admin/service evidence.
 
 ## Safety boundary

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Leicestershire
 
-review_date: 2026-09-16
-review_fingerprint: eccae56169cfa48a7bc704b1aff9c707c2d9fe49debe354d9bd5ba421555d2fd
-routing_manifest_sha256: 45a8ce4bb4f12276c14b5974540a88cd95b03b6254694d13463722dddac389d7
+review_date: 2026-09-17
+review_fingerprint: f0fb925021a3fcdc171a5378d1d4b6ed3cfa549334ac3c623223cc52ff8943ef
+routing_manifest_sha256: 3bae23716e7846dcabcdd87b2afa86b78418dc1061e41294f26da205e546064d
 ontap_region: Leicestershire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 7
-- Selected: 4
+- Records: 5
+- Selected: 2
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 2
@@ -38,21 +38,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-
 
 ---
 action: 
-SELECTED | Leicestershire | Leicester, East Midlands, LE2 6UA | £31,537.00 - £33,699.00 Annually (FTE) | PA to the Principal
-employer: Tudor Grange Samworth Academy, A church of England School
-closing_date: 2026-09-17T12:00:00+01:00
-reason: Clear admin/service title: pa to
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 23b283d82d083c60c204963a52e82ecbbb04e49c7543fd8b300ee79a2cab85b3
-source: Teaching Vacancies
-source_job_id: pa-to-the-principal-tudor-grange-samworth-academy-a-church-of-england-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/pa-to-the-principal-tudor-grange-samworth-academy-a-church-of-england-school
----
-
----
-action: 
 SELECTED | Leicestershire | Leicester, East Midlands, LE9 9JL | FTE - £28,604 - £30,028 | Senior Administrator - Exams & Data
 employer: Bosworth Academy
 closing_date: 2026-09-27T09:00:59+01:00
@@ -64,21 +49,6 @@ factual_fingerprint: 7cbaf28d7405459b3275cb812628adbfe4bfc48cbf915b3b63250458f62
 source: Teaching Vacancies
 source_job_id: senior-administrator-exams-data
 source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-exams-data
----
-
----
-action: 
-SELECTED | Leicestershire | Leicester, East Midlands, LE2 6UA | £22,693.00 - £23,049.00 Annually (Actual) | Student Services Administrator
-employer: Tudor Grange Samworth Academy, A church of England School
-closing_date: 2026-09-17T12:00:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 4de4f24c601a6fd6a0e86c60113d63c841b00345f5f3f39da2380e99c051503e
-source: Teaching Vacancies
-source_job_id: student-services-administrator-tudor-grange-samworth-academy-a-church-of-england-school-leicester-leicestershire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/student-services-administrator-tudor-grange-samworth-academy-a-church-of-england-school-leicester-leicestershire
 ---
 
 ## POSS — choose SELECT or EXCLUDE

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Kent
 
-review_date: 2026-09-16
+review_date: 2026-09-17
 review_fingerprint: e119cc3f044ebffe7cd42c63837d94303a77ff85e35c57e2c31fa789c53ff53d
-routing_manifest_sha256: 45a8ce4bb4f12276c14b5974540a88cd95b03b6254694d13463722dddac389d7
+routing_manifest_sha256: 3bae23716e7846dcabcdd87b2afa86b78418dc1061e41294f26da205e546064d
 ontap_region: Kent
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 13
+- Records: 15
 - Selected: 7
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 6
+- Hard pass: 8
 
 ## SELECTED
 
@@ -137,8 +137,10 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-receptionist-a
 ## HARD_PASS
 
 - [Attendance and Family Liaison Officer](https://teaching-vacancies.service.gov.uk/jobs/attendance-and-family-liaison-officer-will-adams-academy) — Insufficient admin/service evidence.
+- [Attendance Manager](https://teaching-vacancies.service.gov.uk/jobs/attendance-manager-thomas-knyvett-college) — Manager title salary ceiling £34,547 is not below £28,000.
 - [Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-the-thinking-schools-academy-trust) — Insufficient admin/service evidence.
 - [Financial Analyst](https://teaching-vacancies.service.gov.uk/jobs/financial-analyst-the-norton-knatchbull-school) — Insufficient admin/service evidence.
+- [HR Apprentice](https://teaching-vacancies.service.gov.uk/jobs/hr-apprentice-04c6c700-00de-4ef8-b87e-13fad8c8e4b3) — Insufficient admin/service evidence.
 - [Lead Safeguarding Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/lead-safeguarding-administration-officer-the-robert-napier-school-gillingham-kent) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-staplehurst-school) — Manager title salary ceiling £29,020 is not below £28,000.
 - [People & Culture Manager](https://teaching-vacancies.service.gov.uk/jobs/people-culture-manager) — Manager title salary ceiling £53,446 is not below £28,000.

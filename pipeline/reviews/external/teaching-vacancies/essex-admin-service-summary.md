@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Essex
 
-review_date: 2026-09-16
-review_fingerprint: bb5adbc6def80a193512c471492d2245e515bc5b33498d507d8222bfbb799755
-routing_manifest_sha256: 45a8ce4bb4f12276c14b5974540a88cd95b03b6254694d13463722dddac389d7
+review_date: 2026-09-17
+review_fingerprint: b07bd0d46df80ea1b119f1347937e53c2c6fe0129753aa12a65516e3b401ab7b
+routing_manifest_sha256: 3bae23716e7846dcabcdd87b2afa86b78418dc1061e41294f26da205e546064d
 ontap_region: Essex
 slice_category: admin_service
 slice_status: LIVE
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 6
-- Selected: 1
+- Records: 8
+- Selected: 3
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 4
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Essex | Leigh-on-Sea, East of England, SS9 3TG | £13,684.00 - £14,350.00 Annually (Actual) | Academy Administrator
+employer: Belfairs Academy
+closing_date: 2026-10-04T23:59:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 7332119f33de8f702cadd8605c4dc0fd2cc72079fa994096cb100280b0966d7d
+source: Teaching Vacancies
+source_job_id: academy-administrator-belfairs-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/academy-administrator-belfairs-academy
+---
 
 ---
 action: 
@@ -34,6 +49,21 @@ factual_fingerprint: d71c70f74dc1aa26e78412d83f52ac02b2184fdc4b6a4efde81bf6f07c6
 source: Teaching Vacancies
 source_job_id: receptionist-0-4-1-year-fixed-contract
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-0-4-1-year-fixed-contract
+---
+
+---
+action: 
+SELECTED | Essex | Westcliff-on-Sea, East of England, SS0 7JS | 7-12 | Social Media & Design Administrator
+employer: St Bernard's High School
+closing_date: 2026-09-28T09:00:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 9af255a138170f336860de0fb83f2898475101d8e980187255db71695a15a3b3
+source: Teaching Vacancies
+source_job_id: social-media-design-administrator
+source_url: https://teaching-vacancies.service.gov.uk/jobs/social-media-design-administrator
 ---
 
 ## POSS — choose SELECT or EXCLUDE
