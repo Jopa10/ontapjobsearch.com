@@ -9,4 +9,4 @@ Kent,,11,9,0,2,0,,11,Maidstone,SCENARIO_3_COMPLETE_WITH_OTHER_ELASTIC,"Kent sele
 London,,6,5,1,0,0,,6,London,SCENARIO_2_COMPLETE_HC_PLUS_ANCHOR_ELASTIC,London selection complete: HIGH_CONFIDENCE plus London ELASTIC_FIT selected.
 Oxfordshire,,2,0,2,0,0,,2,Oxford,SCENARIO_4_BELOW_PUBLISH_THRESHOLD,Oxfordshire selection below publish threshold: 2/6 credible roles. Do not publish/refresh this slice from this run.
 Surrey,,4,4,0,0,0,,4,Guildford,SCENARIO_4_BELOW_PUBLISH_THRESHOLD,Surrey selection below publish threshold: 4/6 credible roles. Do not publish/refresh this slice from this run.
-Wiltshire,,0,0,0,0,1,,0,Swindon,SCENARIO_4_BELOW_PUBLISH_THRESHOLD,Wiltshire selection below publish threshold: 0/6 credible roles. Do not publish/refresh this slice from this run.
+Wiltshire,,0,0,0,0,0,,0,Swindon,SCENARIO_4_BELOW_PUBLISH_THRESHOLD,Wiltshire selection below publish threshold: 0/6 credible roles. Do not publish/refresh this slice from this run.

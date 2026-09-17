@@ -6,9 +6,57 @@ The `excluded_on` date is the day the exclusion decision was made.
 To restore a job, edit only its `action:` line to `action: select`.
 On the next JobG8 run that exact job ID will be restored and removed from this list.
 
-remembered_exclusions: 335
+remembered_exclusions: 340
 
 ## SERVICE / ADMIN — EXCLUDED
+
+---
+action:
+category: service_admin
+excluded_on: 2026-09-17
+title: Mortgage Administrator
+employer: Cranleigh Personnel
+region: 
+town: Sussex
+salary: 
+job_id: 1895454
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-09-17
+title: Deeds Administrator
+employer: STOUR BAY PARTNERSHIP LTD
+region: 
+town: London
+salary: 
+job_id: 1933349
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-09-17
+title: Customer Support/Material Planner
+employer: Seismic Recruitment
+region: 
+town: Leicestershire
+salary: 
+job_id: 23643_225598791
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-09-17
+title: Client Accounts Assistant
+employer: Property Personnel
+region: 
+town: Surrey
+salary: 
+job_id: 1869341
+---
 
 ---
 action:
@@ -3923,6 +3971,18 @@ job_id: 23643_225460911
 ---
 
 ## SUPPORT WORKER — EXCLUDED
+
+---
+action:
+category: support_worker
+excluded_on: 2026-09-17
+title: Housing Support Officer
+employer: Niyaa People
+region: 
+town: Wiltshire
+salary: 
+job_id: 107949996
+---
 
 ---
 action:
