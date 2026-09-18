@@ -178,31 +178,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "1932825",
-    "title": "Investment Administrator",
-    "company": "2i Recruit Ltd - Agency - Permanent",
-    "location": "Surrey",
-    "region": "Surrey",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "",
-    "posted_date": "",
-    "description": "Our client is seeking an experienced and organised Investment Administrator to join their dynamic financial services team. This is an exciting opportunity for someone who thrives in a fast-paced environment and enjoys providing excellent client support while working with a variety of financial products.\n\nCompany Benefits:\n- Competitive salary reflecting experience and ability.\n- Pension scheme and medical insurance.\n- Support for personal development, including exam guidance, study leave and costs covered.\n- Internal training to understand systems, products and processes.\n- Time off for CPD and relevant professional events.\n\nExperience and Skills Requirements:\n- Familiarity with back-office investment systems and platforms.\n- Experience with fund switch reports and investment review processes.\n- Minimum CF1 (or equivalent) qualification.\n- At least 2 years' experience dealing directly with clients in financial services.\n- Good knowledge of pensions, investments, life assurance and mortgages.\n\nKey Responsibilities:\n- Provide administrative support throughout the sales and client review process.\n- Prepare and manage regular client investment reviews.\n- Communicate effectively with clients via phone, email and letters.\n- Demonstrate initiative and sound judgment when handling administrative tasks.\n- Maintain well-organised client files and accurate records.\n- Understand and follow compliance procedures, including anti-money laundering, data protection and treating customers fairly.\n- Process new business applications and ensure documentation accuracy.\n- Manage incoming and outgoing post efficiently.\n- Support paraplanners in preparing suitability reports, including fact finds, risk assessments and illustrations.\n- Work with investment platforms and interpret fund valuations in client portfolios.\n- Attend internal and external training as required and stay up to date with relevant regulations.\n- Undertake other duties as reasonably requested.\n\nIf you have not been contacted within 5 working days, then unfortunately on this occasion your CV has not been shortlisted.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?wTAUM266l6dMhh0cTJXKPgyaPyHH3RmDh",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "2i Recruit Ltd",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "1938873",
     "title": "HR - People Administrator",
     "company": "proAV Ltd - Agency - Permanent",
@@ -393,7 +368,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9325-26-0693",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9325-26-0693",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5599747",
@@ -411,7 +390,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/U0103-26-0062",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/U0103-26-0062",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5590134",
@@ -429,6 +412,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0279-26-2427",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0279-26-2427",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

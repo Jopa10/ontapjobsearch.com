@@ -1,33 +1,5 @@
 [
   {
-    "job_id": "teaching-vacancies-administrative-assistant-the-spencer-academies-trust-nottingham-not-recorded",
-    "title": "Administrative Assistant",
-    "company": "The Spencer Academies Trust",
-    "location": "Nottingham",
-    "region": "Nottinghamshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['full time']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "£24,234.00 - £25,823.00 Annually (Actual) Full Time, Term Time only + 2 Weeks - NJC6-10",
-    "work_pattern": "",
-    "posted_date": "2026-08-14",
-    "closing_date": "2026-09-18",
-    "closing_datetime": "2026-09-18T12:00:00+01:00",
-    "summary": "Administrative Assistant with The Spencer Academies Trust in Nottingham. ['full time']; £24,234.00 - £25,823.00 Annually (Actual) Full Time, Term Time only + 2 Weeks - NJC6-10.",
-    "description": "The Spencer Academies Trust is recruiting for this vacancy in Nottingham.\n\nThe advertised position is Administrative Assistant.\n\nThe source lists the employment type as ['full time'].\n\nThe advertised salary or pay scale is £24,234.00 - £25,823.00 Annually (Actual) Full Time, Term Time only + 2 Weeks - NJC6-10.\n\nThe stated application deadline is 2026-09-18T12:00:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-the-spencer-academies-trust-nottingham-not-recorded?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "The Spencer Academies Trust",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
-  },
-  {
     "job_id": "teaching-vacancies-administrative-assistant-burton-joyce-primary-school",
     "title": "Administrative Assistant",
     "company": "Burton Joyce Primary School",
@@ -159,6 +131,31 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "107989087",
+    "title": "HR L&D Administrator",
+    "company": "Worksop College and Ranby House - Agency - Contract",
+    "location": "Nottinghamshire",
+    "region": "Nottinghamshire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Contract",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "",
+    "posted_date": "",
+    "description": "HR L&D Administrator\nLocation: Nottinghamshire, UK\nSalary: Competitive\nHours: Part-Time\nContract: Fixed Term\nApplication Deadline: Sunday, 11th October 2026\nExpected Start Date: As soon as possible\nWorksop College and Ranby House are one community set across two schools, educating children from age two to eighteen click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?aIHQjUdXakNOSq1YigF78qSXfKwQDKXRr",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Worksop College and Ranby House",
+    "advertiser_type": "Agency",
+    "work_pattern": "Part Time",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
     "job_id": "1940401",
     "title": "Accounts Assistant",
     "company": "SF Partners - Agency - Permanent",
@@ -199,6 +196,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4604-26-0006",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4604-26-0006",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

@@ -103,31 +103,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "107865251",
-    "title": "Care Coordinator",
-    "company": "Agincare Group - Agency - Permanent",
-    "location": "Dorset",
-    "region": "Dorset",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "26000",
-    "salary_max": "26000",
-    "salary_text": "£26000 per year",
-    "posted_date": "",
-    "description": "Package Description:\n\nBecome a Care Coordinator and Make a Difference Every Day\n\nWhether youre an experienced care professional or have a background in scheduling, this is your chance to join Agincare and help connect the right carers with the clients who need them most.\n\nWhat youll enjoy:\n- £26,000 £28,000 per year\n- Refer-a-friend bonus, up to £1,000\n- Mileage allowance 32p per mile\n- Career development and f click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?b0ZSEQFKUCIGxWuzA1YFh90d7Q4HdO2Bl",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Agincare Group",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "1860803",
     "title": "Claims Handler - Home / Motor / Insurance - Remote",
     "company": "MYO Talent - Agency - Permanent",
@@ -368,7 +343,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2965-26-0006",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2965-26-0006",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5596490",
@@ -386,7 +365,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B0063-26-0018",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B0063-26-0018",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5596760",
@@ -404,6 +387,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9152-26-0972",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9152-26-0972",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

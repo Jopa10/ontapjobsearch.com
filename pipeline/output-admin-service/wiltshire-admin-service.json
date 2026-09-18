@@ -75,6 +75,31 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "107995513",
+    "title": "Administrator (Financial Services)",
+    "company": "Thrive Group - Agency - Permanent",
+    "location": "Wiltshire",
+    "region": "Wiltshire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "",
+    "posted_date": "",
+    "description": "Thrive Trowbridge are delighted to be working with our established Wiltshire based financial services client who actively seek an Administrator.\nWhat you will be doing:\nSupporting the team, you will be tasked with a range of administrative duties to include;\n- Opening and preparing client files through to completion\n- Client research, providing a range of information for the team\n- Ensuring the CRM is click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?gZ0pd2TJz0LEUl3s4lJcrKu2LS%2bJVd6hs",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Thrive Group",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
     "job_id": "1839523",
     "title": "Trainee Accounts Assistant",
     "company": "Yolk Recruitment Ltd - Agency - Permanent",
@@ -140,6 +165,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0279-26-2439",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0279-26-2439",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

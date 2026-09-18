@@ -356,7 +356,7 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "1953771",
+    "job_id": "1956195",
     "title": "HR Assistant",
     "company": "Brook Street - Agency - Permanent",
     "location": "Sussex",
@@ -369,7 +369,7 @@
     "salary_text": "£14.50 per hour",
     "posted_date": "",
     "description": "HR Coordinator / HR Administrator\n\nRemote (with occasional onsite attendance) ASAP Start 3-Month Contract\n£14.50 per hour\n\nWe're looking for an experienced HR professional to join a busy and growing team on an initial 3-month contract, with the potential for longer-term opportunities for the right person.\n\nWhat you'll need:\n- Previous HR experience is essential\n- HR qualification desirable, but not required\n- Strong organisational and administrative skills\n- Confident using a variety of systems and technology\n- Proactive, self-motivated approach to work\n- Ability to work independently in a remote environment\n\nThe role:\n- Full-time, Monday to Friday (9:00am to 5:30pm)\n- Predominantly remote, with occasional onsite attendance when required\n- Supporting a range of HR activities across the business\n- Opportunity to take ownership of key HR processes, including the appraisal system\n- Potential for optional Saturday morning overtime on a rota basis\n\nWe're looking for someone with a strong work ethic who thrives in a remote setting, takes initiative, and is always looking for the next task to get stuck into.\n\nAvailable immediately? We'd love to hear from you.\n\nBrook Street NMR is acting as an Employment Business in relation to this vacancy.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?bZCSDJyF3N6VciVaMuDTmcSv2lh4bpdwq",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?kjuUUj3TFp6HWC7Wq5xkNm%2beQ%2bhsEHAug",
     "source": "JobG8",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
@@ -396,7 +396,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9150-26-0556",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9150-26-0556",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5598736",
@@ -414,7 +418,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0637-26-0003",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0637-26-0003",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5604706",
@@ -432,6 +440,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9354-26-1097",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9354-26-1097",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]
