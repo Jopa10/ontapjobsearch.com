@@ -1,0 +1,38 @@
+Month: 2026-07
+Input directory: pipeline/input-jobg8-archive/2026-07
+Valid feed days: 14
+First feed day: 2026-07-01
+Last feed day: 2026-07-14
+Selected register-expanded job rows: 3974
+Geo lookup: pipeline/geo/geo_lookup.xlsx
+Geo areas loaded: 1198
+Classification mode: register-only
+Selected classifications: HIGH_CONFIDENCE, ELASTIC_FIT
+North East published page: aggregated from three geo_lookup regions
+
+Registers:
+- care_assistant_healthcare_assistant: pipeline/registers-exploratory/2026-07-category-discovery/care_assistant_healthcare_assistant_candidate_register.csv (113 titles)
+- teaching_sen_learning_support: pipeline/registers-exploratory/2026-07-category-discovery/teaching_sen_learning_support_candidate_register.csv (33 titles)
+- broader_customer_service: pipeline/registers-exploratory/2026-07-category-discovery/broader_customer_service_candidate_register.csv (29 titles)
+- broader_office_administration: pipeline/registers-exploratory/2026-07-category-discovery/broader_office_administration_candidate_register.csv (456 titles)
+- residential_childcare_children_support: pipeline/registers-exploratory/2026-07-category-discovery/residential_childcare_children_support_candidate_register.csv (74 titles)
+- warehouse_logistics_operative: pipeline/registers-exploratory/2026-07-category-discovery/warehouse_logistics_operative_candidate_register.csv (4 titles)
+
+Recommendation configuration:
+- minimum_seen_ratio: 0.8
+- minimum_average_daily_jobs: 6.0
+- minimum_unique_titles: 5
+- minimum_unique_companies: 3
+- minimum_unique_locations: 3
+- severe_top_1_company_share: 0.5
+- severe_top_2_company_share: 0.7
+- watch_minimum_average_daily_jobs: 3.0
+- watch_minimum_seen_ratio: 0.5
+- watch_minimum_peak_jobs: 6
+- meaningful_decline_pct: -20.0
+- campaign_driven_decline_share: 0.6
+
+Outputs:
+- pipeline/reports-module2-exploratory/2026-07-category-discovery/2026-07-module2-category-validation.csv
+- pipeline/reports-module2-exploratory/2026-07-category-discovery/2026-07-module2-daily-counts.csv
+- pipeline/reports-module2-exploratory/2026-07-category-discovery/2026-07-module2-unknown-location-detail.csv
