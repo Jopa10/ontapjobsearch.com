@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Wiltshire
 
-review_date: 2026-09-17
-review_fingerprint: d5263085d0ddfc73290e6cabb957c8f025cfd091b558731b5b6a49370c7b8f53
-routing_manifest_sha256: 3bae23716e7846dcabcdd87b2afa86b78418dc1061e41294f26da205e546064d
+review_date: 2026-09-18
+review_fingerprint: 9a2e4944325a2203e34ff6ac7136dcd42354ac59539fccf5d4b79d5cd9edefee
+routing_manifest_sha256: dc29cc704a3c739ce7a00dda7ed5ec0108cad5c6895f72592d1d068628991701
 ontap_region: Wiltshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,43 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 24
-- Selected: 8
+- Records: 20
+- Selected: 5
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 14
+- Hard pass: 13
 
 ## SELECTED
-
----
-action: 
-SELECTED | Wiltshire | Chippenham, South West, SN15 1HE | £26,016.00 - £26,847.00 Annually (FTE) Actual Salary: £19,152-£19,763 per annum | Admin Assistant
-employer: Ivy Lane Primary School
-closing_date: 2026-09-18T12:00:00+01:00
-reason: Clear admin/service title: admin assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 8341e2e1850c01d563c4f3f36b57d95c33fea4613cae8bb7cc4146a49085843f
-source: Teaching Vacancies
-source_job_id: admin-assistant-ivy-lane-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-ivy-lane-primary-school
----
-
----
-action: 
-SELECTED | Wiltshire | Swindon, South West, SN5 4AT | £16,040.00 - £16,831.00 Annually (Actual) FTE £28,153 - £29,542 | Admissions Administrator
-employer: Bradon Forest School
-closing_date: 2026-09-25T12:00:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: bdead7c253391967fc05bcd2a3ccd8da5888ca975de7f0fa29e270477b3d2b63
-source: Teaching Vacancies
-source_job_id: admissions-administrator-bradon-forest-school-swindon-wiltshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/admissions-administrator-bradon-forest-school-swindon-wiltshire
----
 
 ---
 action: 
@@ -94,21 +64,6 @@ factual_fingerprint: aea00865eb99d2434ae1561326e0563cdc0b6288342b6d15dcea9627f1f
 source: Teaching Vacancies
 source_job_id: payroll-administrator-ascend-learning-trust
 source_url: https://teaching-vacancies.service.gov.uk/jobs/payroll-administrator-ascend-learning-trust
----
-
----
-action: 
-SELECTED | Wiltshire | Trowbridge, South West, BA14 9EN | £13.07 - £13.48 Hourly 20 hours per week , term time only | Receptionist
-employer: St Augustine's Catholic College
-closing_date: 2026-09-18T12:00:00+01:00
-reason: Clear admin/service title: receptionist
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 3d2ecc19f0988a25b6f87e12a6194aa46e0e95041bd241251ba759ac8ed8a9ff
-source: Teaching Vacancies
-source_job_id: receptionist-st-augustine-s-catholic-college
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-st-augustine-s-catholic-college
 ---
 
 ---
@@ -187,7 +142,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/governance-profession
 - [Finance Manager (0.6 FTE)](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-0-6-fte-ascend-learning-trust) — Manager title salary ceiling £54,495 is not below £28,000.
 - [Head of Finance](https://teaching-vacancies.service.gov.uk/jobs/head-of-finance-magna-learning-partnership-salisbury-not-recorded) — Insufficient admin/service evidence.
 - [HR Advisor](https://teaching-vacancies.service.gov.uk/jobs/hr-advisor-ascend-learning-trust) — Insufficient admin/service evidence.
-- [HR Generalist](https://teaching-vacancies.service.gov.uk/jobs/hr-generalist) — Insufficient admin/service evidence.
 - [Local Governance Committee Clerks](https://teaching-vacancies.service.gov.uk/jobs/local-governance-committee-clerks) — Insufficient admin/service evidence.
 - [Recruitment Lead](https://teaching-vacancies.service.gov.uk/jobs/recruitment-lead-126da904-70b2-4de7-b993-e740579fd411) — Insufficient admin/service evidence.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-lethbridge-primary-school) — Manager title salary ceiling £35,814 is not below £28,000.

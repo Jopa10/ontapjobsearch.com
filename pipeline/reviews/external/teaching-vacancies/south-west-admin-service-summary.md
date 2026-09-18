@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — South West
 
-review_date: 2026-09-17
-review_fingerprint: f47c1555cb03cb879576d10eb64ca7d2506e5a1a55a750012bed1416e1fde865
-routing_manifest_sha256: 3bae23716e7846dcabcdd87b2afa86b78418dc1061e41294f26da205e546064d
+review_date: 2026-09-18
+review_fingerprint: 53cc091065b8f3d1c3b389e153665b92bec5a7102af274b13318114f407afeac
+routing_manifest_sha256: dc29cc704a3c739ce7a00dda7ed5ec0108cad5c6895f72592d1d068628991701
 ontap_region: South West
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 4
+- Records: 5
 - Selected: 4
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 0
+- Hard pass: 1
 
 ## SELECTED
+
+---
+action: 
+SELECTED | South West | Ludgershall, South West, SP11 9RR | £25,989.00 - £26,824.00 Annually (FTE) | Pastoral Administrator
+employer: The Wellington Academy
+closing_date: 2026-10-05T23:59:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: UNREGISTERED
+migration_status: 
+factual_fingerprint: bf6b1bc1093a9a0e6850e5ab8764e21388602a6a2b60c6cf8994a32d5c689642
+source: Teaching Vacancies
+source_job_id: pastoral-administrator-the-wellington-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/pastoral-administrator-the-wellington-academy
+---
 
 ---
 action: 
@@ -53,21 +68,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/reception-administrat
 
 ---
 action: 
-SELECTED | South West | Berkeley, South West, GL13 9FB | Up to £26,427 FTE | Receptionist and Administration Assistant
-employer: SGS Berkeley Green UTC
-closing_date: 2026-09-18T09:00:00+01:00
-reason: Clear admin/service title: receptionist
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: e7c3d944d327a6ff0d7f5f224184be0d169685cbe2b668338cddd0388c14a4e4
-source: Teaching Vacancies
-source_job_id: receptionist-and-administration-assistant-sgs-berkeley-green-utc
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-and-administration-assistant-sgs-berkeley-green-utc
----
-
----
-action: 
 SELECTED | South West | Pewsey, South West, SN9 5LZ | £26,427.00 - £26,847.00 Annually (FTE) £7,370.49 - £7,487.63 (Actual) | School Administrator
 employer: Easton Royal Academy
 closing_date: 2026-09-25T09:00:00+01:00
@@ -91,7 +91,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 
 ## HARD_PASS
 
-- None.
+- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-torpoint-community-college) — Manager title salary ceiling £56,293 is not below £28,000.
 
 ## Safety boundary
 

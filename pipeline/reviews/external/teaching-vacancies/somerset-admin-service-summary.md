@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Somerset
 
-review_date: 2026-09-17
-review_fingerprint: 4e9b2e91d8eaa7274b6e38a06271c5de592d73f7f7f1a8b4708fc33e60be2912
-routing_manifest_sha256: 3bae23716e7846dcabcdd87b2afa86b78418dc1061e41294f26da205e546064d
+review_date: 2026-09-18
+review_fingerprint: 90d45b72932dc121d677600826c78fe50cc4282ea69f632fbcd9fc794eb153c1
+routing_manifest_sha256: dc29cc704a3c739ce7a00dda7ed5ec0108cad5c6895f72592d1d068628991701
 ontap_region: Somerset
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 13
-- Selected: 7
-- POSS awaiting decision: 0
+- Records: 15
+- Selected: 8
+- POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 6
 
@@ -64,6 +64,21 @@ factual_fingerprint: 0a85f1d9d74ad33d563c93fff899dfc7fe0fc08eb274a4f7c4daa0d6b7a
 source: Teaching Vacancies
 source_job_id: administrative-assistant-st-gildas-catholic-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-st-gildas-catholic-primary-school
+---
+
+---
+action: 
+SELECTED | Somerset | Weston-Super-Mare, South West, BS22 8XX | PATH 4. £26,429 FTE, £11,191 prorated | Business Support Administrator
+employer: Worle Community School
+closing_date: 2026-09-25T21:00:59+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 35dcc8c420660550709bf7bf38855cc1889f2dfeab792cd6a1979d0b319710b9
+source: Teaching Vacancies
+source_job_id: business-support-administrator-worle-community-school-weston-super-mare-somerset
+source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-administrator-worle-community-school-weston-super-mare-somerset
 ---
 
 ---
@@ -128,7 +143,20 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/primary-phase-adminis
 
 ## POSS — choose SELECT or EXCLUDE
 
-- None.
+---
+action: 
+POSS | Somerset | Minehead, South West, TA24 6AY | Support Staff Pay Scale Band 5 point 7-9 | Attendance Support Officer
+employer: West Somerset College
+closing_date: 2026-10-01T23:59:00+01:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 4c64bdeac9bbe6cae3b32d70546342f76118e4329cd763882e666618b32591bd
+source: Teaching Vacancies
+source_job_id: attendance-support-officer-west-somerset-college
+source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-support-officer-west-somerset-college
+---
 
 ## EXCLUDED BY REVIEW
 

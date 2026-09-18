@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Devon
 
-review_date: 2026-09-17
-review_fingerprint: 343f8d8322bf1b445780a1feee3fe1424bddb9f44fb12fa7dab33017d660401c
-routing_manifest_sha256: 3bae23716e7846dcabcdd87b2afa86b78418dc1061e41294f26da205e546064d
+review_date: 2026-09-18
+review_fingerprint: a1ce5951bc602d89f94a8c03992858065e7579eee2d946fa66e447a55a833cb6
+routing_manifest_sha256: dc29cc704a3c739ce7a00dda7ed5ec0108cad5c6895f72592d1d068628991701
 ontap_region: Devon
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 23
-- Selected: 11
+- Records: 25
+- Selected: 12
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 10
+- Hard pass: 11
 
 ## SELECTED
 
@@ -173,6 +173,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/schools-liaison-admin
 
 ---
 action: 
+SELECTED | Devon | Plymouth, South West, PL5 1NE | Actual Pro-rata salary E11 £19,388 to E14 £20,352 | Senior Administrator
+employer: St Paul's Roman Catholic Primary School
+closing_date: 2026-10-11T00:00:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 761824456e28f49da9f8632ede9189ae05d72349e75dee376493b86a5eab2df1
+source: Teaching Vacancies
+source_job_id: senior-administrator-st-paul-s-roman-catholic-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-st-paul-s-roman-catholic-primary-school
+---
+
+---
+action: 
 SELECTED | Devon | Exeter, South West, EX2 7LB | £31,724 - £35,688 | Senior Administrator
 employer: Stansfield Academy
 closing_date: 2026-10-05T23:59:00+01:00
@@ -226,6 +241,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-pupil-services
 
 - [[260909] Office Manager](https://teaching-vacancies.service.gov.uk/jobs/260909-office-manager) — Manager title salary ceiling £33,673 is not below £28,000.
 - [Administrator](https://teaching-vacancies.service.gov.uk/jobs/administrator-collaton-st-mary-church-of-england-primary-school) — Missing salary or pay scale.
+- [Apprenticeship and PTSA Operations Coordinator](https://teaching-vacancies.service.gov.uk/jobs/apprenticeship-and-ptsa-operations-coordinator) — Insufficient admin/service evidence.
 - [Chief Financial Officer (CFO)](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-cfo-torquay-boys-grammar-school-torquay-devon) — Insufficient admin/service evidence.
 - [Cover Supervisor](https://teaching-vacancies.service.gov.uk/jobs/cover-supervisor-0263aaa9-e252-4340-b2d6-102751e90f65) — Insufficient admin/service evidence.
 - [Executive Assistant](https://teaching-vacancies.service.gov.uk/jobs/executive-assistant-blackpool-church-of-england-primary-school) — Insufficient admin/service evidence.

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Kent
 
-review_date: 2026-09-17
+review_date: 2026-09-18
 review_fingerprint: e119cc3f044ebffe7cd42c63837d94303a77ff85e35c57e2c31fa789c53ff53d
-routing_manifest_sha256: 3bae23716e7846dcabcdd87b2afa86b78418dc1061e41294f26da205e546064d
+routing_manifest_sha256: dc29cc704a3c739ce7a00dda7ed5ec0108cad5c6895f72592d1d068628991701
 ontap_region: Kent
 slice_category: admin_service
 slice_status: LIVE
@@ -138,10 +138,10 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-receptionist-a
 
 - [Attendance and Family Liaison Officer](https://teaching-vacancies.service.gov.uk/jobs/attendance-and-family-liaison-officer-will-adams-academy) — Insufficient admin/service evidence.
 - [Attendance Manager](https://teaching-vacancies.service.gov.uk/jobs/attendance-manager-thomas-knyvett-college) — Manager title salary ceiling £34,547 is not below £28,000.
+- [Exams and Data Assistant](https://teaching-vacancies.service.gov.uk/jobs/exams-and-data-assistant-the-north-school) — Insufficient admin/service evidence.
 - [Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-the-thinking-schools-academy-trust) — Insufficient admin/service evidence.
 - [Financial Analyst](https://teaching-vacancies.service.gov.uk/jobs/financial-analyst-the-norton-knatchbull-school) — Insufficient admin/service evidence.
 - [HR Apprentice](https://teaching-vacancies.service.gov.uk/jobs/hr-apprentice-04c6c700-00de-4ef8-b87e-13fad8c8e4b3) — Insufficient admin/service evidence.
-- [Lead Safeguarding Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/lead-safeguarding-administration-officer-the-robert-napier-school-gillingham-kent) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-staplehurst-school) — Manager title salary ceiling £29,020 is not below £28,000.
 - [People & Culture Manager](https://teaching-vacancies.service.gov.uk/jobs/people-culture-manager) — Manager title salary ceiling £53,446 is not below £28,000.
 

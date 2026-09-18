@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Berkshire
 
-review_date: 2026-09-17
-review_fingerprint: 1863f6821d2903e6c953368a110a07ef6b5b2d591f7b1a74a81929e15aba89d3
-routing_manifest_sha256: 3bae23716e7846dcabcdd87b2afa86b78418dc1061e41294f26da205e546064d
+review_date: 2026-09-18
+review_fingerprint: 8037f56d4caceb47010a340ef53bf2c3a89a6a53516e8ccd92f679a79f591d07
+routing_manifest_sha256: dc29cc704a3c739ce7a00dda7ed5ec0108cad5c6895f72592d1d068628991701
 ontap_region: Berkshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 23
+- Records: 20
 - Selected: 7
-- POSS awaiting decision: 4
+- POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 12
+- Hard pass: 11
 
 ## SELECTED
 
@@ -145,21 +145,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-suppor
 
 ---
 action: 
-POSS | Berkshire | Reading, South East, RG1 5SL | £21,362.00 Annually (Actual) Grade 4 ( SCP 7-11) Term Time Only plus 5 INSET days. FTE £26,402 | Administrative Support Assistant - Pastoral
-employer: Maiden Erlegh School in Reading
-closing_date: 2026-09-17T23:59:00+01:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 2da989bce189c9680992e18c2f132f4514fe38b90251e70893105b7cbd2bd328
-source: Teaching Vacancies
-source_job_id: administrative-support-assistant-pastoral
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-support-assistant-pastoral
----
-
----
-action: 
 POSS | Berkshire | Reading, South East, RG31 6XY | £20,019.00 - £23,175.00 Annually (Actual) | Marketing and Communications Officer
 employer: Denefield School
 closing_date: 2026-09-28T09:00:00+01:00
@@ -171,21 +156,6 @@ factual_fingerprint: 8222365f38d7f0790ba00ca656393530cb51a3a28407553bf09a868bf0a
 source: Teaching Vacancies
 source_job_id: marketing-and-communications-officer-denefield-school-reading-berkshire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/marketing-and-communications-officer-denefield-school-reading-berkshire
----
-
----
-action: 
-POSS | Berkshire | Wokingham, South East, RG40 3RB | £28,598-£31,021 | School Operations Officer
-employer: Nine Mile Ride Primary School
-closing_date: 2026-09-24T09:00:00+01:00
-reason: Borderline school administration title: operations officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: fdff2281f8d36d942fffb8caf1ec4dab239ecabd54528c163aa49b6f34ad3569
-source: Teaching Vacancies
-source_job_id: school-operations-officer-nine-mile-ride-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/school-operations-officer-nine-mile-ride-primary-school
 ---
 
 ## EXCLUDED BY REVIEW
@@ -200,10 +170,9 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-operations-off
 - [Home School Liaison Assistant](https://teaching-vacancies.service.gov.uk/jobs/home-school-liaison-assistant-842866de-b635-4ed9-bb14-58200af5fde1) — Insufficient admin/service evidence.
 - [HR & Recruitment Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-recruitment-officer-the-park-federation-academy-trust) — Insufficient admin/service evidence.
 - [Office Manager - Southcote Primary School](https://teaching-vacancies.service.gov.uk/jobs/office-manager-southcote-primary-school-southcote-primary-school-reading-berkshire) — Manager title salary ceiling £35,521 is not below £28,000.
-- [Payroll Officer](https://teaching-vacancies.service.gov.uk/jobs/payroll-officer-the-park-federation-academy-trust-slough-not-recorded) — Insufficient admin/service evidence.
+- [Office Manager and Personal Assistant to the Headteacher](https://teaching-vacancies.service.gov.uk/jobs/office-manager-and-personal-assistant-to-the-headteacher-new-town-primary-school) — Manager title salary ceiling £40,444 is not below £28,000.
 - [PFM Compliance and Site Officer](https://teaching-vacancies.service.gov.uk/jobs/pfm-compliance-and-site-officer-beechwood-school-slough-berkshire) — Insufficient admin/service evidence.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-2208a3dd-3c53-4978-b7e2-84fb437f4570) — Manager title without salary evidence below £28,000.
-- [Senior Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-finance-officer-the-thames-learning-trust) — Insufficient admin/service evidence.
 - [Senior HR Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-hr-officer-sikh-academies-trust) — Insufficient admin/service evidence.
 - [Site Team Administrative Assistant - The Avenue School](https://teaching-vacancies.service.gov.uk/jobs/site-team-administrative-assistant-the-avenue-school) — Missing salary or pay scale.
 

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Northamptonshire
 
-review_date: 2026-09-17
-review_fingerprint: 01757f38d558442ef9d1629a93f57e69c2b91e91213648df6fdde0958b9a9ff8
-routing_manifest_sha256: 3bae23716e7846dcabcdd87b2afa86b78418dc1061e41294f26da205e546064d
+review_date: 2026-09-18
+review_fingerprint: babf54fc2a4d126305bb9d30e70bc5b95aa3a7ff01a7fa9311c015130c23eaec
+routing_manifest_sha256: dc29cc704a3c739ce7a00dda7ed5ec0108cad5c6895f72592d1d068628991701
 ontap_region: Northamptonshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 9
+- Records: 8
 - Selected: 1
-- POSS awaiting decision: 2
+- POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 6
+- Hard pass: 7
 
 ## SELECTED
 
@@ -38,35 +38,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assist
 
 ## POSS — choose SELECT or EXCLUDE
 
----
-action: 
-POSS | Northamptonshire | Kettering, East Midlands, NN14 4AE | £26,846.00 - £27,274.00 Annually (FTE) Pro rata to £20,261.08 to £20,584.10 | Administrator
-employer: Cranford CofE Primary School
-closing_date: 2026-09-25T23:59:00+01:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 3ba40f543160fe7a5b5386ec9e0812db31795059d543fc4b4c0bc69e03aa2200
-source: Teaching Vacancies
-source_job_id: administrator-cranford-cofe-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-cranford-cofe-primary-school
----
-
----
-action: 
-POSS | Northamptonshire | Wellingborough, East Midlands, NN29 7PH | NJC Grade J, points 27 to 31 DOE | Trust Executive Assistant
-employer: Wollaston School
-closing_date: 2026-09-18T12:00:00+01:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: b5bc7cae39e478240a34cfa812edc5f833402591f297c0bbc76eaff357e106b0
-source: Teaching Vacancies
-source_job_id: trust-executive-assistant-wollaston-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/trust-executive-assistant-wollaston-school
----
+- None.
 
 ## EXCLUDED BY REVIEW
 
@@ -80,6 +52,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/trust-executive-assis
 - [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-moulton-school-and-science-college) — Insufficient admin/service evidence.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-south-end-infant-school) — Manager title salary ceiling £37,280 is not below £28,000.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-woodland-view-primary-school-northampton-northamptonshire) — Manager title salary ceiling £48,738 is not below £28,000.
+- [St James Infant and Pre School Business Partner](https://teaching-vacancies.service.gov.uk/jobs/st-james-infant-and-pre-school-business-partner-inmat-northampton-not-recorded) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - South
 
-review_date: 2026-09-17
-review_fingerprint: 787730e5d1528e8aa9e6d8e454ad4330a88dc894c2384588d99b6956d2271f94
-routing_manifest_sha256: 3bae23716e7846dcabcdd87b2afa86b78418dc1061e41294f26da205e546064d
+review_date: 2026-09-18
+review_fingerprint: 82cdf93a855bf779df8b07460d11b819187bb4136052b5a619195300527061d4
+routing_manifest_sha256: dc29cc704a3c739ce7a00dda7ed5ec0108cad5c6895f72592d1d068628991701
 ontap_region: Yorkshire - South
 slice_category: admin_service
 slice_status: LIVE
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 26
-- Selected: 5
+- Records: 24
+- Selected: 6
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 20
+- Hard pass: 17
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Yorkshire - South | Sheffield, Yorkshire and the Humber, S17 4AP | £11,175.00 - £11,352.00 Annually (Actual) Grade 3 SCP 5 -6 | Admin Assistant - Part Time - 18 hrs
+employer: Totley All Saints Church of England Voluntary Aided Primary School
+closing_date: 2026-10-02T23:59:00+01:00
+reason: Clear admin/service title: admin assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 636093461e80d6c5a908aca5ec2be52a7e78a850c18513573d2289868121ccd8
+source: Teaching Vacancies
+source_job_id: admin-assistant-part-time-18-hrs
+source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-part-time-18-hrs
+---
 
 ---
 action: 
@@ -123,18 +138,15 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-and-cl
 - [Attendance and Admin Officer](https://teaching-vacancies.service.gov.uk/jobs/attendance-and-admin-officer-whiteways-primary-school) — Insufficient admin/service evidence.
 - [Chief Financial Officer](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-st-clare-catholic-multi-academy-trust) — Insufficient admin/service evidence.
 - [Cluster Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/cluster-finance-officer-inova-multi-academy-trust-limited) — Insufficient admin/service evidence.
-- [Cluster People Officer - Primary](https://teaching-vacancies.service.gov.uk/jobs/cluster-people-officer-primary) — Insufficient admin/service evidence.
 - [Data & Systems Manager](https://teaching-vacancies.service.gov.uk/jobs/data-systems-manager-st-francis-catholic-multi-academy-trust) — Manager title salary ceiling £50,269 is not below £28,000.
 - [Data and Systems Manager](https://teaching-vacancies.service.gov.uk/jobs/data-and-systems-manager-st-francis-catholic-multi-academy-trust) — Manager title salary ceiling £47,181 is not below £28,000.
 - [Data, Timetabler and Cover Manager](https://teaching-vacancies.service.gov.uk/jobs/data-timetabler-and-cover-manager) — Manager title salary ceiling £35,000 is not below £28,000.
 - [Executive Assistant](https://teaching-vacancies.service.gov.uk/jobs/executive-assistant-white-woods-primary-academy-trust) — Insufficient admin/service evidence.
 - [Finance & Admin Asst](https://teaching-vacancies.service.gov.uk/jobs/finance-admin-asst) — Insufficient admin/service evidence.
-- [Finance & Admin Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-admin-manager-prince-edward-primary-school-sheffield-south-yorkshire) — Manager title salary ceiling £41,771 is not below £28,000.
-- [Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-22597e3f-53f4-481f-b336-4ec374710e1b) — Insufficient admin/service evidence.
+- [Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-1f2087cb-6dd8-46fc-b9d0-a0638460aced) — Insufficient admin/service evidence.
 - [Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-57d3025b-f701-43b4-bf16-13498ff4c547) — Insufficient admin/service evidence.
 - [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-hatfield-woodhouse-primary-school-doncaster-south-yorkshire) — Insufficient admin/service evidence.
 - [Learning Manager](https://teaching-vacancies.service.gov.uk/jobs/learning-manager-0bfa4cca-872c-4778-a35f-1fb75b7f4503) — Manager title salary ceiling £36,581 is not below £28,000.
-- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-newman-school) — Manager title salary ceiling £39,152 is not below £28,000.
 - [Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/operations-manager-982c74fa-4963-48bf-be10-a1bcf0a4bf2f) — Manager title salary ceiling £39,773 is not below £28,000.
 - [Part-time Administrator](https://teaching-vacancies.service.gov.uk/jobs/part-time-administrator-woodhouse-west-primary-school-sheffield-south-yorkshire) — Missing salary or pay scale.
 - [Senior Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-administration-officer-kings-oak-primary) — Insufficient admin/service evidence.

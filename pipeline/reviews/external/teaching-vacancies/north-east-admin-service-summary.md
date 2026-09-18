@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — North East
 
-review_date: 2026-09-17
+review_date: 2026-09-18
 review_fingerprint: 8bbe72d183ba971ed59728aff0d7e9f37efc5265ae8b8269b706b8d685e8196f
-routing_manifest_sha256: 3bae23716e7846dcabcdd87b2afa86b78418dc1061e41294f26da205e546064d
+routing_manifest_sha256: dc29cc704a3c739ce7a00dda7ed5ec0108cad5c6895f72592d1d068628991701
 ontap_region: North East
 slice_category: admin_service
 slice_status: LIVE

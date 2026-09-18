@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — North East - Tees Valley
 
-review_date: 2026-09-17
-review_fingerprint: ad8c87e76ae1f29dbcd678a129c12f0dc207c098560be96f04c3b51650192f21
-routing_manifest_sha256: 3bae23716e7846dcabcdd87b2afa86b78418dc1061e41294f26da205e546064d
+review_date: 2026-09-18
+review_fingerprint: 4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945
+routing_manifest_sha256: dc29cc704a3c739ce7a00dda7ed5ec0108cad5c6895f72592d1d068628991701
 ontap_region: North East - Tees Valley
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 3
+- Records: 2
 - Selected: 0
-- POSS awaiting decision: 1
+- POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 2
 
@@ -25,20 +25,7 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## POSS — choose SELECT or EXCLUDE
 
----
-action: 
-POSS | North East - Tees Valley | Stockton-on-Tees, North East, TS21 1DL | £26,427.00 - £26,847.00 Annually (FTE) Salary will be pro rata based on term time only plus 5 additional days | School Office Manager
-employer: St Mary's Church of England Primary School
-closing_date: 2026-09-18T12:00:00+01:00
-reason: Manager title below £28,000 salary ceiling requires review
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: 4f4bc96f347cb94ebcf98a2b122b3762883bc76b3c7a5e6b283d10dad8aa172d
-source: Teaching Vacancies
-source_job_id: school-office-manager-st-mary-s-church-of-england-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/school-office-manager-st-mary-s-church-of-england-primary-school
----
+- None.
 
 ## EXCLUDED BY REVIEW
 

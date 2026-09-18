@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Coventry & Warwickshire
 
-review_date: 2026-09-17
-review_fingerprint: 4f1d58916c8e375a2af67f53d39901a267ce30a2dd2c6d9d8f0e135e511e4b6e
-routing_manifest_sha256: 3bae23716e7846dcabcdd87b2afa86b78418dc1061e41294f26da205e546064d
+review_date: 2026-09-18
+review_fingerprint: 2aec2f4c0e56922ae0d9650d99835a59d097fc6592174a70354ebeb41db42246
+routing_manifest_sha256: dc29cc704a3c739ce7a00dda7ed5ec0108cad5c6895f72592d1d068628991701
 ontap_region: West Midlands - Coventry & Warwickshire
 slice_category: admin_service
 slice_status: LIVE
@@ -14,8 +14,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 11
-- Selected: 4
-- POSS awaiting decision: 3
+- Selected: 3
+- POSS awaiting decision: 4
 - Excluded: 0
 - Hard pass: 4
 
@@ -34,21 +34,6 @@ factual_fingerprint: 8caa1acf91291b485bea3168a9e1f51dea0387ea7c893a74a7d489f8c60
 source: Teaching Vacancies
 source_job_id: administration-assistant-23d0b4b5-47f8-416c-924d-d887471e9a01
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-23d0b4b5-47f8-416c-924d-d887471e9a01
----
-
----
-action: 
-SELECTED | West Midlands - Coventry & Warwickshire | Coventry, West Midlands, CV6 2DJ | £26,016.00 Annually (FTE) | Administration Assistant
-employer: Christ The King Catholic Primary School
-closing_date: 2026-09-18T12:00:00+01:00
-reason: Clear admin/service title: administration assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: f1fc16962f0dec6f67290862cdaf652ab12364bd84e82ed1fde0b94bd1313142
-source: Teaching Vacancies
-source_job_id: administration-assistant-christ-the-king-catholic-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-christ-the-king-catholic-primary-school
 ---
 
 ---
@@ -126,6 +111,21 @@ factual_fingerprint: 8797789afb59d41203e3630500abb6a02d87d0ca52fda037f5fd9d33c7d
 source: Teaching Vacancies
 source_job_id: hr-support-apprentice-finham-park-multi-academy-trust
 source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-support-apprentice-finham-park-multi-academy-trust
+---
+
+---
+action: 
+POSS | West Midlands - Coventry & Warwickshire | Nuneaton, CV11 4QH | £27,274 to £29,071 | Trust Finance Officer
+employer: Central England Academy Trust
+closing_date: 2026-10-05T08:00:00+01:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: a92775ee5b95846cf1f31e310093aee615b44c30759f8f14ea147b9f5887421b
+source: Teaching Vacancies
+source_job_id: trust-finance-officer-central-england-academy-trust
+source_url: https://teaching-vacancies.service.gov.uk/jobs/trust-finance-officer-central-england-academy-trust
 ---
 
 ## EXCLUDED BY REVIEW

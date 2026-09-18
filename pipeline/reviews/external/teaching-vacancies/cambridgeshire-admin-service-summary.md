@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cambridgeshire
 
-review_date: 2026-09-17
-review_fingerprint: 9565f311ddb41a163ab93f4f97de87ec041e69edebcb97cb180a364f53cd5c51
-routing_manifest_sha256: 3bae23716e7846dcabcdd87b2afa86b78418dc1061e41294f26da205e546064d
+review_date: 2026-09-18
+review_fingerprint: 1ee3ef58a4cdb63977e994a849cc6f8a24e0f0c5111ba4d3b23f79208474a620
+routing_manifest_sha256: dc29cc704a3c739ce7a00dda7ed5ec0108cad5c6895f72592d1d068628991701
 ontap_region: Cambridgeshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 22
-- Selected: 6
+- Records: 18
+- Selected: 4
 - POSS awaiting decision: 5
 - Excluded: 0
-- Hard pass: 11
+- Hard pass: 9
 
 ## SELECTED
 
@@ -53,21 +53,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assist
 
 ---
 action: 
-SELECTED | Cambridgeshire | Cambridge, East of England, CB4 2BD | £25,614.00 Annually (Actual) | Administrative Assistant
-employer: Milton Road Primary School
-closing_date: 2026-09-20T17:00:00+01:00
-reason: Clear admin/service title: administrative assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: a25b5cf00850835c9f30e264c509ed93d2477e4e842a27bba59495927689c161
-source: Teaching Vacancies
-source_job_id: administrative-assistant-milton-road-primary-school-cambridge-cambridgeshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-milton-road-primary-school-cambridge-cambridgeshire
----
-
----
-action: 
 SELECTED | Cambridgeshire | Peterborough, East of England, PE6 7JX | £14,802.00 Annually (Actual) | Administrator
 employer: Arthur Mellows Village College
 closing_date: 2026-09-28T09:00:00+01:00
@@ -94,21 +79,6 @@ factual_fingerprint: bb12afb2ad0a0d201446df474b26ad57f0c365e5f1f55a6cd1674dde7b2
 source: Teaching Vacancies
 source_job_id: finance-admin-assistant-priory-junior-school-st-neots-cambridgeshire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-admin-assistant-priory-junior-school-st-neots-cambridgeshire
----
-
----
-action: 
-SELECTED | Cambridgeshire | Peterborough, East of England, PE4 6HX | £23,339 – £24,889 per year (FTE £27,254 - £29,064) | Pastoral Services Administrator
-employer: Queen Katharine Academy
-closing_date: 2026-09-18T09:00:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 05bfe645e044fb7eadcb717b9281ac561e7f1b70bb88c1e3788515e6d41063eb
-source: Teaching Vacancies
-source_job_id: pastoral-services-administrator-queen-katharine-academy-peterborough-cambridgeshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/pastoral-services-administrator-queen-katharine-academy-peterborough-cambridgeshire
 ---
 
 ## POSS — choose SELECT or EXCLUDE
@@ -203,8 +173,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-officer-trump
 - [School Business Leader](https://teaching-vacancies.service.gov.uk/jobs/school-business-leader-university-of-cambridge-primary-school) — Insufficient admin/service evidence.
 - [Trust Accountant](https://teaching-vacancies.service.gov.uk/jobs/trust-accountant-b45f29c6-8c14-4783-aad4-2de78180395b) — Insufficient admin/service evidence.
 - [Trust Accountant](https://teaching-vacancies.service.gov.uk/jobs/trust-accountant-swavesey-village-college-cambridge-cambridgeshire) — Insufficient admin/service evidence.
-- [Trust Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/trust-finance-officer-act-multi-academy-trust) — Insufficient admin/service evidence.
-- [Trust Payroll, Pensions and HR Officer](https://teaching-vacancies.service.gov.uk/jobs/trust-payroll-pensions-and-hr-officer) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

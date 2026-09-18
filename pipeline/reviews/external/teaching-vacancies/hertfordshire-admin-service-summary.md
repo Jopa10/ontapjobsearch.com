@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Hertfordshire
 
-review_date: 2026-09-17
-review_fingerprint: fe681e1abdb9886ac780bcbca262d6a2bda6e5fddc128a07c72ba923a617c135
-routing_manifest_sha256: 3bae23716e7846dcabcdd87b2afa86b78418dc1061e41294f26da205e546064d
+review_date: 2026-09-18
+review_fingerprint: 2201e4f9766c193cbe3578ce080780f4fddce0f9b524dbcee7c5d30722427675
+routing_manifest_sha256: dc29cc704a3c739ce7a00dda7ed5ec0108cad5c6895f72592d1d068628991701
 ontap_region: Hertfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -14,10 +14,10 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 13
-- Selected: 6
+- Selected: 5
 - POSS awaiting decision: 3
 - Excluded: 0
-- Hard pass: 4
+- Hard pass: 5
 
 ## SELECTED
 
@@ -96,21 +96,6 @@ source_job_id: finance-administrator-bassingbourn-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-administrator-bassingbourn-primary-school
 ---
 
----
-action: 
-SELECTED | Hertfordshire | Hatfield, East of England, AL10 8NL | H7-9 (dependent on qualifications and experience) £32,789 - £42,500 per annum pro rata, (Actual pay £ 29,492 - £38,553) | Personal Assistant to the Headteacher and Senior Leadership Team
-employer: Bishop's Hatfield Girls' School
-closing_date: 2026-09-18T09:00:00+01:00
-reason: Clear admin/service title: personal assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: d3fa0b68f46643279a4c15fd99e289af4e6a8ea3eeb23bfd497dab12f6b54a03
-source: Teaching Vacancies
-source_job_id: personal-assistant-to-the-headteacher-and-senior-leadership-team
-source_url: https://teaching-vacancies.service.gov.uk/jobs/personal-assistant-to-the-headteacher-and-senior-leadership-team
----
-
 ## POSS — choose SELECT or EXCLUDE
 
 ---
@@ -137,10 +122,10 @@ reason: Administrative duties evidenced in description
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: a5185ec4709fd8fa0b87b390aab8205ae0f2d574ce413d2a29b0ecf57c1199b8
+factual_fingerprint: ce94b82b05f2c48396c8b2de59fbf2fc5712ff8b393cc888ff6f48859120a742
 source: Teaching Vacancies
-source_job_id: hr-advisor-eb9c5bf8-2603-48ba-bfc8-df41ec1204b1
-source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-advisor-eb9c5bf8-2603-48ba-bfc8-df41ec1204b1
+source_job_id: hr-advisor-8ec12506-6b2d-4ac4-88f7-d06bd2c562b5
+source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-advisor-8ec12506-6b2d-4ac4-88f7-d06bd2c562b5
 ---
 
 ---
@@ -167,6 +152,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-manager-oaklea
 - [Assistant SENDCo](https://teaching-vacancies.service.gov.uk/jobs/assistant-sendco-6880daf8-5253-47b8-806d-79b65802f205) — Insufficient admin/service evidence.
 - [Attendance & Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/attendance-administration-officer-hertford-heath-primary-and-nursery-school) — Insufficient admin/service evidence.
 - [Development Director](https://teaching-vacancies.service.gov.uk/jobs/development-director-watford-grammar-school-for-boys) — Insufficient admin/service evidence.
+- [Director of Finance & Operations](https://teaching-vacancies.service.gov.uk/jobs/director-of-finance-operations-herts-essex-multi-academy-trust) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-martins-wood-primary-school-stevenage-hertfordshire) — Manager title salary ceiling £33,119 is not below £28,000.
 
 ## Safety boundary

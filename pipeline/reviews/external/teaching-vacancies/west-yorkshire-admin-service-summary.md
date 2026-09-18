@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - West
 
-review_date: 2026-09-17
-review_fingerprint: 9376293115ca0c4438a9fe8af84aa31affa38bd4a92f2efc838c7be6e10cf796
-routing_manifest_sha256: 3bae23716e7846dcabcdd87b2afa86b78418dc1061e41294f26da205e546064d
+review_date: 2026-09-18
+review_fingerprint: 7defcfeacf4caa36c2d6466e4ebe92fa91f6141f232fdc96af2197793d3ad91d
+routing_manifest_sha256: dc29cc704a3c739ce7a00dda7ed5ec0108cad5c6895f72592d1d068628991701
 ontap_region: Yorkshire - West
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 44
-- Selected: 20
+- Records: 43
+- Selected: 19
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 23
@@ -218,6 +218,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/cover-hr-administrato
 
 ---
 action: 
+SELECTED | Yorkshire - West | Halifax, Yorkshire and the Humber, HX2 9SU | £25,578.00 - £30,141.00 Annually (Actual) Term time plus 10 days (to be worked over the exam results period) | Data Administrator
+employer: The North Halifax Grammar School
+closing_date: 2026-10-07T23:59:00+01:00
+reason: Clear admin/service title: administrator, data administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: NEW_REVIEW
+factual_fingerprint: 257ab7ffc89119f94fdfc7cfdd4150f1fcf8028c4e7fdfb8b96c45d74aeed43a
+source: Teaching Vacancies
+source_job_id: data-administrator-the-north-halifax-grammar-school-halifax-west-yorkshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/data-administrator-the-north-halifax-grammar-school-halifax-west-yorkshire
+---
+
+---
+action: 
 SELECTED | Yorkshire - West | Huddersfield, Yorkshire and the Humber, HD4 5JA | £26,583.26 Annually (Actual) Grade 7 SCP14-17 | Data and Exams Administrator
 employer: Moor End Academy
 closing_date: 2026-09-28T09:00:00+01:00
@@ -263,21 +278,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-
 
 ---
 action: 
-SELECTED | Yorkshire - West | Bradford, Yorkshire and the Humber, BD10 9AQ | £17,631.00 - £17,677.00 Annually (Actual) | Post 16 Administrator
-employer: Immanuel College
-closing_date: 2026-09-18T09:00:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: NEW_REVIEW
-factual_fingerprint: b879cbd05aa70a52afecf8d3cf84a2f57f22f523017923450fbceb847f006ad4
-source: Teaching Vacancies
-source_job_id: post-16-administrator-immanuel-college
-source_url: https://teaching-vacancies.service.gov.uk/jobs/post-16-administrator-immanuel-college
----
-
----
-action: 
 SELECTED | Yorkshire - West | Knottingley, WF11 0EP | £25,614.00 - £25,614.00 Annually (Actual) Grade B Point 3 (£25,614 per annum) | Receptionist
 employer: Delta Academies Trust
 closing_date: 2026-09-23T23:59:00+01:00
@@ -306,21 +306,6 @@ source_job_id: receptionist-and-administration-assistant-leeds-east-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-and-administration-assistant-leeds-east-academy
 ---
 
----
-action: 
-SELECTED | Yorkshire - West | Bradford, Yorkshire and the Humber, BD4 7RH | £31,022.00 - £33,699.00 Annually (FTE) Band 8, SCP 17 to SCP 22 (actual salary £26803 - £29115.93 per annum +3.3% pay award pending), 37 hours per week, TTO+5 | SEND Administrator
-employer: Oastlers School
-closing_date: 2026-09-18T12:00:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: NEW_REVIEW
-factual_fingerprint: d9e34daf500d6bdd8a153882402889695b34a059b8d17477bd431f2efac9eb2c
-source: Teaching Vacancies
-source_job_id: send-administrator-oastlers-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-oastlers-school
----
-
 ## POSS — choose SELECT or EXCLUDE
 
 ---
@@ -344,14 +329,14 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-carlton
 
 ## HARD_PASS
 
+- [Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-batley-girls-high-school-batley-west-yorkshire) — Insufficient admin/service evidence.
 - [Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-the-brooksbank-school-elland-west-yorkshire) — Insufficient admin/service evidence.
 - [Assistant Senco](https://teaching-vacancies.service.gov.uk/jobs/assistant-senco-fdb10c11-75c5-458b-8d4c-5aa13619d9cc) — Insufficient admin/service evidence.
-- [Attendance Support](https://teaching-vacancies.service.gov.uk/jobs/attendance-support-bradford-forster-academy) — Insufficient admin/service evidence.
-- [Data and Exams Manager](https://teaching-vacancies.service.gov.uk/jobs/data-and-exams-manager-dixons-city-academy) — Manager title salary ceiling £34,744 is not below £28,000.
 - [Data Manager](https://teaching-vacancies.service.gov.uk/jobs/data-manager-buttershaw-business-enterprise-college-academy) — Manager title salary ceiling £37,655 is not below £28,000.
 - [Data, Assessment, and MIS Officer](https://teaching-vacancies.service.gov.uk/jobs/data-assessment-and-mis-officer-crofton-academy) — Insufficient admin/service evidence.
 - [Data, MIS and Admissions Manager](https://teaching-vacancies.service.gov.uk/jobs/data-mis-and-admissions-manager-batley-grammar-school-batley-west-yorkshire) — Manager title salary ceiling £38,267 is not below £28,000.
 - [Exam Invigilator](https://teaching-vacancies.service.gov.uk/jobs/exam-invigilator-leeds-city-academy-leeds-west-yorkshire) — Insufficient admin/service evidence.
+- [Exam Invigilators](https://teaching-vacancies.service.gov.uk/jobs/exam-invigilators-beckfoot-trust) — Insufficient admin/service evidence.
 - [Family Liaison Officer](https://teaching-vacancies.service.gov.uk/jobs/family-liaison-officer-buttershaw-business-enterprise-college-academy-bradford-west-yorkshire) — Insufficient admin/service evidence.
 - [Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-e059f5dd-58bc-43a9-9bb0-dfae96e79d4e) — Insufficient admin/service evidence.
 - [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-learning-accord-multi-academy-trust) — Manager title salary ceiling £38,510 is not below £28,000.

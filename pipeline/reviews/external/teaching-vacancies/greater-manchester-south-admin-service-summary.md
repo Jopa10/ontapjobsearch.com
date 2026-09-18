@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Greater Manchester - South
 
-review_date: 2026-09-17
-review_fingerprint: cdebff8c28f260109798ca13f777a294f016b377afde0486a5446c1cbb1d8fd3
-routing_manifest_sha256: 3bae23716e7846dcabcdd87b2afa86b78418dc1061e41294f26da205e546064d
+review_date: 2026-09-18
+review_fingerprint: 9a8d5d3d6cf5e5ac9bb1fc4b15e8553aa9788df20dffd8ddb24cca2af79d9620
+routing_manifest_sha256: dc29cc704a3c739ce7a00dda7ed5ec0108cad5c6895f72592d1d068628991701
 ontap_region: Greater Manchester - South
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 3
+- Records: 4
 - Selected: 0
-- POSS awaiting decision: 2
+- POSS awaiting decision: 3
 - Excluded: 0
 - Hard pass: 1
 
@@ -24,6 +24,21 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 - None.
 
 ## POSS — choose SELECT or EXCLUDE
+
+---
+action: 
+POSS | Greater Manchester - South | Dukinfield, North West, SK16 5BJ | £26,847.00 - £29,071.00 Annually (FTE) | Attendance and Communications Officer
+employer: Cromwell High School
+closing_date: 2026-10-05T09:00:00+01:00
+reason: Borderline school administration title: communications officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 0a41ccb94dd6e3a92befca1242cb492e11df3ce5f44290929175ce6e1c936453
+source: Teaching Vacancies
+source_job_id: attendance-and-communications-officer
+source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-and-communications-officer
+---
 
 ---
 action: 

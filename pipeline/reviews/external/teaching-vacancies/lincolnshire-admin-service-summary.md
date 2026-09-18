@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Lincolnshire
 
-review_date: 2026-09-17
-review_fingerprint: ac89993da595d5caab617b6b7ee4997e4b66393e94200839e2358b59722e6f1f
-routing_manifest_sha256: 3bae23716e7846dcabcdd87b2afa86b78418dc1061e41294f26da205e546064d
+review_date: 2026-09-18
+review_fingerprint: 6180e8e810757f772799f76d05e4a0ab540f432d88c5f9261ab2af66aa2c6a19
+routing_manifest_sha256: dc29cc704a3c739ce7a00dda7ed5ec0108cad5c6895f72592d1d068628991701
 ontap_region: Lincolnshire
 slice_category: admin_service
 slice_status: LIVE
@@ -14,10 +14,10 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 17
-- Selected: 8
+- Selected: 7
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 7
+- Hard pass: 8
 
 ## SELECTED
 
@@ -79,21 +79,6 @@ factual_fingerprint: f92b533ab0994f1cc761907c125ff46bf69327598589bdbc62f35d95ae9
 source: Teaching Vacancies
 source_job_id: hr-administrator-chapel-st-leonards-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-chapel-st-leonards-primary-school
----
-
----
-action: 
-SELECTED | Lincolnshire | Spalding, East Midlands, PE12 7PU | £22,768.00 - £23,863.00 Annually (Actual) G3.6 (£22,768.28) to G3.9 (£23,863.41) (Actual) | Receptionist
-employer: University Academy Holbeach
-closing_date: 2026-09-18T09:00:00+01:00
-reason: Clear admin/service title: receptionist
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 96ca4f7a99bc0a5acbcf99bc298950d85cae10e5f40a0625495d5c548f4bf333
-source: Teaching Vacancies
-source_job_id: receptionist-university-academy-holbeach-spalding-lincolnshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-university-academy-holbeach-spalding-lincolnshire
 ---
 
 ---
@@ -179,11 +164,12 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-manager-the-s
 
 ## HARD_PASS
 
+- [Bursar](https://teaching-vacancies.service.gov.uk/jobs/bursar-cliffedale-primary-school) — Insufficient admin/service evidence.
 - [Business Manager](https://teaching-vacancies.service.gov.uk/jobs/business-manager-walton-academy) — Manager title salary ceiling £49,749 is not below £28,000.
-- [Education Welfare Officer](https://teaching-vacancies.service.gov.uk/jobs/education-welfare-officer-john-whitgift-academy) — Insufficient admin/service evidence.
 - [Governance & Compliance Officer](https://teaching-vacancies.service.gov.uk/jobs/governance-compliance-officer-inspire-connected-communities-trust-louth-not-recorded) — Insufficient admin/service evidence.
 - [HR Manager](https://teaching-vacancies.service.gov.uk/jobs/hr-manager-the-queen-elizabeth-s-high-school-gainsborough) — Manager title salary ceiling £42,839 is not below £28,000.
 - [HR Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-a28cea11-d24b-43cc-a15c-772ff5fa57da) — Insufficient admin/service evidence.
+- [Learning Support Assistant with personal care](https://teaching-vacancies.service.gov.uk/jobs/learning-support-assistant-with-personal-care) — Insufficient admin/service evidence.
 - [Senior Administrative Officer - 20 hours](https://teaching-vacancies.service.gov.uk/jobs/senior-administrative-officer-20-hours) — Insufficient admin/service evidence.
 - [Trust Executive Assistant & HR Co-Ordinator](https://teaching-vacancies.service.gov.uk/jobs/trust-executive-assistant-hr-co-ordinator) — Insufficient admin/service evidence.
 

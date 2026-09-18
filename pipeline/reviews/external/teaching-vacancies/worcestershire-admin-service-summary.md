@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Worcestershire
 
-review_date: 2026-09-17
-review_fingerprint: b38b4a7244974f0e720358f1492d586eb0af66d5057d011d868243aad95388c2
-routing_manifest_sha256: 3bae23716e7846dcabcdd87b2afa86b78418dc1061e41294f26da205e546064d
+review_date: 2026-09-18
+review_fingerprint: 033c4fb5597eec5a5b0b6f468821181ebe29c4447eafda91b933824f9be9cb1b
+routing_manifest_sha256: dc29cc704a3c739ce7a00dda7ed5ec0108cad5c6895f72592d1d068628991701
 ontap_region: Worcestershire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 3
+- Records: 5
 - Selected: 2
-- POSS awaiting decision: 0
+- POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 1
+- Hard pass: 2
 
 ## SELECTED
 
@@ -53,7 +53,20 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-bce7ec5
 
 ## POSS — choose SELECT or EXCLUDE
 
-- None.
+---
+action: 
+POSS | Worcestershire | Worcester, WR4 9SG | £27,273.00 - £27,273.00 Annually (FTE) Casual zero hour contract - hourly rate | Governance Professional/Clerk
+employer: The Black Pear Trust
+closing_date: 2026-09-28T12:00:00+01:00
+reason: Borderline school administration title: governance professional
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 9eef59e7d1311ebca4f5ec01c533bc9c14e73fe09b7038e9a507e36873d1e3ca
+source: Teaching Vacancies
+source_job_id: governance-professional-clerk-the-black-pear-trust
+source_url: https://teaching-vacancies.service.gov.uk/jobs/governance-professional-clerk-the-black-pear-trust
+---
 
 ## EXCLUDED BY REVIEW
 
@@ -62,6 +75,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-bce7ec5
 ## HARD_PASS
 
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-trinity-high-school-and-sixth-form-centre) — Manager title without salary evidence below £28,000.
+- [School Office Administrator](https://teaching-vacancies.service.gov.uk/jobs/school-office-administrator-north-worcester-primary-school-worcester-worcestershire) — Missing salary or pay scale.
 
 ## Safety boundary
 

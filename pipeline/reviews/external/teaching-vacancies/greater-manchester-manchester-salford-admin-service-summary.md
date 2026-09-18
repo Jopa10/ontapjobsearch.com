@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Greater Manchester - Manchester & Salford
 
-review_date: 2026-09-17
-review_fingerprint: 993138d6ba7ef212d3e68e81aeafd62407ca574d9547fe3e497881a348442535
-routing_manifest_sha256: 3bae23716e7846dcabcdd87b2afa86b78418dc1061e41294f26da205e546064d
+review_date: 2026-09-18
+review_fingerprint: be40957dac51a11b651cd4f3a3bf508595f80b21af3951f471a40fa59c6bb12d
+routing_manifest_sha256: dc29cc704a3c739ce7a00dda7ed5ec0108cad5c6895f72592d1d068628991701
 ontap_region: Greater Manchester - Manchester & Salford
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 10
-- Selected: 4
+- Records: 9
+- Selected: 3
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 5
@@ -38,29 +38,14 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/assistant-exams-offic
 
 ---
 action: 
-SELECTED | Greater Manchester - Manchester & Salford | Manchester, North West, M8 8DT | £31,537.00 to £34,434.00 per annum (pro rata £29,212.69 to £31,896.17 per annum) | Data & Exams Officer
-employer: Eden Girls' Leadership Academy, Manchester
-closing_date: 2026-09-17T23:59:00+01:00
-reason: Clear admin/service title: exams officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: cbdde4e6ecb631791154250a7dca6fbe56d4f2b621f5f08df09a6249bbe0f83b
-source: Teaching Vacancies
-source_job_id: data-exams-officer-0ab804f7-3ae3-4446-bad0-ef8458fd8eda
-source_url: https://teaching-vacancies.service.gov.uk/jobs/data-exams-officer-0ab804f7-3ae3-4446-bad0-ef8458fd8eda
----
-
----
-action: 
-SELECTED | Greater Manchester - Manchester & Salford | Manchester, North West, M30 7PQ | £28,932.00 - £34,898.00 Annually (Actual) United Learning Band 2 Vocational (Points 6-14) | Pastoral Administrator
+SELECTED | Greater Manchester - Manchester & Salford | Manchester, North West, M30 7PQ | £28,932.00 - £34,898.00 Annually (FTE) United Learning Band 2 Vocational (Points 6-14) | Pastoral Administrator
 employer: Salford City Academy
 closing_date: 2026-10-09T08:00:00+01:00
 reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: e7594ef15aca811bca5a16cd8e537f4df559bb9fa745225e52ffe9b3557121f3
+factual_fingerprint: d3d9b2431275d413906001f6dffad08621b3ec7770db23970c8b214a65cc56f5
 source: Teaching Vacancies
 source_job_id: pastoral-administrator-salford-city-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/pastoral-administrator-salford-city-academy

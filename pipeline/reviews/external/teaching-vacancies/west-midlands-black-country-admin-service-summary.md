@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Black Country
 
-review_date: 2026-09-17
-review_fingerprint: 403fdd41746a2965fe23297739bc3bc6302b29b62793065749a525a9b7c1ae9e
-routing_manifest_sha256: 3bae23716e7846dcabcdd87b2afa86b78418dc1061e41294f26da205e546064d
+review_date: 2026-09-18
+review_fingerprint: 7c2165f5ce452ffc93fd57c15df475faa2c8f88d1a6b41c2efb8cdd186f64747
+routing_manifest_sha256: dc29cc704a3c739ce7a00dda7ed5ec0108cad5c6895f72592d1d068628991701
 ontap_region: West Midlands - Black Country
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 5
-- Selected: 3
+- Records: 7
+- Selected: 4
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 2
+- Hard pass: 3
 
 ## SELECTED
 
@@ -53,6 +53,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-or
 
 ---
 action: 
+SELECTED | West Midlands - Black Country | Walsall, West Midlands, WS5 4DX | Grade B (annual salary: £21,277) | Receptionist
+employer: Yew Tree Primary School
+closing_date: 2026-09-28T09:00:00+01:00
+reason: Clear admin/service title: receptionist
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 8e553c4d37b428635cbc164284ec843e9576b141a0a6c0313f7507e3aa10b8f3
+source: Teaching Vacancies
+source_job_id: receptionist-yew-tree-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-yew-tree-primary-school
+---
+
+---
+action: 
 SELECTED | West Midlands - Black Country | Wolverhampton, West Midlands, WV3 9DU | £26,427.00 - £26,847.00 Annually (FTE) | Receptionist/ Administrative Assistant
 employer: St Edmund's Catholic Academy
 closing_date: 2026-09-30T12:00:00+01:00
@@ -76,6 +91,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administ
 
 ## HARD_PASS
 
+- [Exam Invigilators](https://teaching-vacancies.service.gov.uk/jobs/exam-invigilators-472ff49d-b207-467b-8dbd-b5478c05c6b7) — Insufficient admin/service evidence.
 - [Senior Admin Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-admin-officer-park-hall-junior-academy) — Insufficient admin/service evidence.
 - [Site Assistant](https://teaching-vacancies.service.gov.uk/jobs/site-assistant-priory-primary-school-dudley-west-midlands) — Insufficient admin/service evidence.
 

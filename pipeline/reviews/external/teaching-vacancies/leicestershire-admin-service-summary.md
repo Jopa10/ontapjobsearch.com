@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Leicestershire
 
-review_date: 2026-09-17
-review_fingerprint: f0fb925021a3fcdc171a5378d1d4b6ed3cfa549334ac3c623223cc52ff8943ef
-routing_manifest_sha256: 3bae23716e7846dcabcdd87b2afa86b78418dc1061e41294f26da205e546064d
+review_date: 2026-09-18
+review_fingerprint: 1db4819f031da0b1ae09e0a9066cd8160bea7b0bb9ce562d733904b7d4255d26
+routing_manifest_sha256: dc29cc704a3c739ce7a00dda7ed5ec0108cad5c6895f72592d1d068628991701
 ontap_region: Leicestershire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 5
-- Selected: 2
+- Records: 6
+- Selected: 3
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 2
@@ -34,6 +34,21 @@ factual_fingerprint: 34e60294de183d3d764d8090d7bdd9dd46ea941aad3d911df0ec98aabdf
 source: Teaching Vacancies
 source_job_id: office-administrator-maternity-cover-braunstone-frith-primary-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-maternity-cover-braunstone-frith-primary-academy
+---
+
+---
+action: 
+SELECTED | Leicestershire | Leicester, East Midlands, LE9 4LU | Grade 4 SCP 5 - £25,629 (actual £17,780.65) | Receptionist - Maternity Cover
+employer: Manorfield Church of England Primary School
+closing_date: 2026-10-02T23:59:59+01:00
+reason: Clear admin/service title: receptionist
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 878f9c86c9ba6030d97c5c10ae4f183ea71cc8e745ae461eb1d1aa1aae962459
+source: Teaching Vacancies
+source_job_id: receptionist-maternity-cover-manorfield-church-of-england-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-maternity-cover-manorfield-church-of-england-primary-school
 ---
 
 ---

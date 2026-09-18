@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Bristol & Bath
 
-review_date: 2026-09-17
-review_fingerprint: 28b2d49eeffd9c5710d9598b58e694b83b314d3f62e2c5debe85a81fff8a8c37
-routing_manifest_sha256: 3bae23716e7846dcabcdd87b2afa86b78418dc1061e41294f26da205e546064d
+review_date: 2026-09-18
+review_fingerprint: b25a91c297a5cf050ba2531e4546d3452145a7a2d57226fa9a9139766cf57310
+routing_manifest_sha256: dc29cc704a3c739ce7a00dda7ed5ec0108cad5c6895f72592d1d068628991701
 ontap_region: Bristol & Bath
 slice_category: admin_service
 slice_status: LIVE
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 8
-- Selected: 2
+- Records: 9
+- Selected: 3
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 6
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Bristol & Bath | Bristol, South West, BS7 9NL | £11,609.00 - £12,373.00 Annually (Actual) NJC Points 7 - 11 | Administrative Assistant for Pastoral
+employer: Fairfield High School
+closing_date: 2026-09-28T23:59:00+01:00
+reason: Clear admin/service title: administrative assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 56e7b703aa4d4d2daf9ccdf7a7fc269eef51f5e8a38c7a8101c4aa6d7f3a1024
+source: Teaching Vacancies
+source_job_id: administrative-assistant-for-pastoral
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-for-pastoral
+---
 
 ---
 action: 
@@ -62,11 +77,11 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-assistant-chan
 ## HARD_PASS
 
 - [Administration and Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/administration-and-finance-assistant-fair-furlong-primary-school) — Insufficient admin/service evidence.
+- [Cover Supervisor](https://teaching-vacancies.service.gov.uk/jobs/cover-supervisor-bridge-learning-campus-bristol) — Insufficient admin/service evidence.
 - [Exams Assistant](https://teaching-vacancies.service.gov.uk/jobs/exams-assistant-sir-bernard-lovell-academy) — Insufficient admin/service evidence.
 - [Office Administrator](https://teaching-vacancies.service.gov.uk/jobs/office-administrator-cheddar-grove-primary-school-bristol-bristol) — Missing salary or pay scale.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-whitchurch-primary-school) — Manager title without salary evidence below £28,000.
 - [Recruitment Coordinator](https://teaching-vacancies.service.gov.uk/jobs/recruitment-coordinator-35317134-5457-4fd1-9788-d52457d462fb) — Insufficient admin/service evidence.
-- [School Office Manager](https://teaching-vacancies.service.gov.uk/jobs/school-office-manager-st-mary-s-cofe-primary-school) — Manager title salary ceiling £29,728 is not below £28,000.
 
 ## Safety boundary
 

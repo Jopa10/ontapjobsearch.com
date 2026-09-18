@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Birmingham & Solihull
 
-review_date: 2026-09-17
-review_fingerprint: 0c527c8957d318b210bc4de0edb90f662c9fe33025e66610feceb4b2867e3c4f
-routing_manifest_sha256: 3bae23716e7846dcabcdd87b2afa86b78418dc1061e41294f26da205e546064d
+review_date: 2026-09-18
+review_fingerprint: 765756c69fb44c871160238b6b2fded99b872a646848116ef18e6eec6d357832
+routing_manifest_sha256: dc29cc704a3c739ce7a00dda7ed5ec0108cad5c6895f72592d1d068628991701
 ontap_region: West Midlands - Birmingham & Solihull
 slice_category: admin_service
 slice_status: LIVE
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 26
-- Selected: 14
+- Records: 28
+- Selected: 15
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 12
+- Hard pass: 13
 
 ## SELECTED
+
+---
+action: 
+SELECTED | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B17 9LU | £25,614.00 - £29,071.00 Annually (FTE) Term time only | Administration Assistant
+employer: Harborne Primary School
+closing_date: 2026-10-02T23:59:00+01:00
+reason: Clear admin/service title: administration assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 678c6e8bcb2ffb43ec31f444dca49eb408fddc102938a47b0edd76380b1bdcfc
+source: Teaching Vacancies
+source_job_id: administration-assistant-harborne-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-harborne-primary-school
+---
 
 ---
 action: 
@@ -49,21 +64,6 @@ factual_fingerprint: 1c4ed43e73aa6f8ac87c8fd0f588c0642f60662a014aee1f3d904bbc9f8
 source: Teaching Vacancies
 source_job_id: administrative-assistant-yorkmead-junior-and-infant-school-birmingham-west-midlands
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-yorkmead-junior-and-infant-school-birmingham-west-midlands
----
-
----
-action: 
-SELECTED | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B37 6DF | £25,185.00 - £27,254.00 Annually (FTE) | Administrative Assistant (Grade 2) - Term Time Only
-employer: Yorkswood Primary School
-closing_date: 2026-09-18T12:00:00+01:00
-reason: Clear admin/service title: administrative assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 24fc53290ed60d6573fa863747c2b7aaf7f99cc64e87ba56dbd9e23acb6c9f28
-source: Teaching Vacancies
-source_job_id: administrative-assistant-grade-2-term-time-only
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-grade-2-term-time-only
 ---
 
 ---
@@ -218,6 +218,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-admin-as
 
 ---
 action: 
+SELECTED | West Midlands - Birmingham & Solihull | Sutton Coldfield, West Midlands, B74 2NH | £28,598.00 - £31,537.00 Annually (FTE) | Senior Administrator
+employer: Bishop Vesey's Grammar School
+closing_date: 2026-10-02T23:59:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: a5b5f27ca9430542da1285001df23ef6b4c4f82ed7aad6e11dd8848f14f4074b
+source: Teaching Vacancies
+source_job_id: senior-administrator-bishop-vesey-s-grammar-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-bishop-vesey-s-grammar-school
+---
+
+---
+action: 
 SELECTED | West Midlands - Birmingham & Solihull | Sutton Coldfield, West Midlands, B74 2NH | £30,240.00 - £31,934.00 Annually (Actual) | Whole School Attendance Officer (Mat Cover)
 employer: Bishop Vesey's Grammar School
 closing_date: 2026-09-27T23:59:00+01:00
@@ -245,6 +260,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/whole-school-attendan
 - [Assistant SENCO](https://teaching-vacancies.service.gov.uk/jobs/assistant-senco-woodlands) — Insufficient admin/service evidence.
 - [Examinations Assistant](https://teaching-vacancies.service.gov.uk/jobs/examinations-assistant-plantsbrook-school) — Insufficient admin/service evidence.
 - [Finance Lead](https://teaching-vacancies.service.gov.uk/jobs/finance-lead-forward-education-trust) — Insufficient admin/service evidence.
+- [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-eden-girls-leadership-academy-birmingham-birmingham) — Insufficient admin/service evidence.
 - [Governance Support Officer](https://teaching-vacancies.service.gov.uk/jobs/governance-support-officer-academy-transformation-trust-sutton-coldfield-not-recorded) — Insufficient admin/service evidence.
 - [Head of Executive Office and Communications](https://teaching-vacancies.service.gov.uk/jobs/head-of-executive-office-and-communications) — Insufficient admin/service evidence.
 - [Head of Marketing](https://teaching-vacancies.service.gov.uk/jobs/head-of-marketing-ormiston-academies-trust) — Insufficient admin/service evidence.

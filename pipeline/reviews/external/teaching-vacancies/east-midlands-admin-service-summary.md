@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — East Midlands
 
-review_date: 2026-09-17
+review_date: 2026-09-18
 review_fingerprint: 9d1e13425addfd1637f2391044947cbfd354619268be54952ca42f5df893f36f
-routing_manifest_sha256: 3bae23716e7846dcabcdd87b2afa86b78418dc1061e41294f26da205e546064d
+routing_manifest_sha256: dc29cc704a3c739ce7a00dda7ed5ec0108cad5c6895f72592d1d068628991701
 ontap_region: East Midlands
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -104,7 +104,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-business-assis
 
 ## HARD_PASS
 
-- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-village-primary-academy-derby-derbyshire) — Manager title salary ceiling £32,597 is not below £28,000.
+- [Management Information System (MIS) Administrator & Cover Manager](https://teaching-vacancies.service.gov.uk/jobs/management-information-system-mis-administrator-cover-manager-85783a14-bff5-44f3-9d32-6556a2a69f08) — Manager title salary ceiling £32,488 is not below £28,000.
 - [Reprographics & Marketing Coordinator](https://teaching-vacancies.service.gov.uk/jobs/reprographics-marketing-coordinator) — Insufficient admin/service evidence.
 - [Trust Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/trust-finance-manager-98078324-9858-463d-9f77-566320746539) — Manager title salary ceiling £44,075 is not below £28,000.
 

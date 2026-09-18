@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Buckinghamshire
 
-review_date: 2026-09-17
-review_fingerprint: ea6a805de1365162d6e66be7f8665a36c60599486fb9abdeaf1048b2ae144397
-routing_manifest_sha256: 3bae23716e7846dcabcdd87b2afa86b78418dc1061e41294f26da205e546064d
+review_date: 2026-09-18
+review_fingerprint: 7a8b5aaaa52243996216aaab81d64331ec7624bc705c23d2111ebb6a97915876
+routing_manifest_sha256: dc29cc704a3c739ce7a00dda7ed5ec0108cad5c6895f72592d1d068628991701
 ontap_region: Buckinghamshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 15
-- Selected: 5
+- Records: 16
+- Selected: 6
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 10
@@ -83,6 +83,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-prison-
 
 ---
 action: 
+SELECTED | Buckinghamshire | Aylesbury, South East, HP21 7SX | £11,066.00 Annually (Actual) | Morning Receptionist Maternity Cover
+employer: Aylesbury High School
+closing_date: 2026-10-02T23:59:00+01:00
+reason: Clear admin/service title: receptionist
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 7083a3e840f99e3c29a57cc8f4a0eb1be9e616f6d2d53b67c733a2f36a0f918b
+source: Teaching Vacancies
+source_job_id: morning-receptionist-maternity-cover
+source_url: https://teaching-vacancies.service.gov.uk/jobs/morning-receptionist-maternity-cover
+---
+
+---
+action: 
 SELECTED | Buckinghamshire | Aylesbury, HP22 6NL | £29,114.00 - £31,230.00 Annually (FTE) Actual salary for hours worked will be £24,690.91 to £26,485.44 | School Administrator
 employer: Chiltern Way Academy Trust
 closing_date: 2026-09-27T23:59:00+01:00
@@ -110,9 +125,9 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 - [Chief Financial Officer (CFO)](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-cfo-45a5bd2d-645c-4812-81b2-869f779b8215) — Insufficient admin/service evidence.
 - [Data and Timetabling Manager](https://teaching-vacancies.service.gov.uk/jobs/data-and-timetabling-manager) — Manager title salary ceiling £35,669 is not below £28,000.
 - [Employee Relations Officer](https://teaching-vacancies.service.gov.uk/jobs/employee-relations-officer) — Insufficient admin/service evidence.
-- [Exams and Data Team Leader](https://teaching-vacancies.service.gov.uk/jobs/exams-and-data-team-leader) — Insufficient admin/service evidence.
 - [Exams Coordinator](https://teaching-vacancies.service.gov.uk/jobs/exams-coordinator-chiltern-way-academy-trust) — Insufficient admin/service evidence.
 - [HR & Training Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-training-officer) — Insufficient admin/service evidence.
+- [HR Officer Maternity Cover](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-maternity-cover-aylesbury-high-school) — Insufficient admin/service evidence.
 - [Lettings & Community Officer](https://teaching-vacancies.service.gov.uk/jobs/lettings-community-officer-5-dimensions-trust-milton-keynes-not-recorded) — Insufficient admin/service evidence.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-112af158-1ad4-4dd9-88fb-3ab9c389f16b) — Manager title salary ceiling £47,181 is not below £28,000.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-alfriston-school) — Manager title salary ceiling £46,650 is not below £28,000.

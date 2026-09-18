@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Norfolk
 
-review_date: 2026-09-17
-review_fingerprint: a5b43bf8a20776c604779c194a3fe20ae844cd52dd50976dcb0f329fd54f7c77
-routing_manifest_sha256: 3bae23716e7846dcabcdd87b2afa86b78418dc1061e41294f26da205e546064d
+review_date: 2026-09-18
+review_fingerprint: 4c02c9e163cc0695f1d8894a98d06e81f1a41efef24385277bc6d3e53c224fcb
+routing_manifest_sha256: dc29cc704a3c739ce7a00dda7ed5ec0108cad5c6895f72592d1d068628991701
 ontap_region: Norfolk
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 21
-- Selected: 6
-- POSS awaiting decision: 6
+- Records: 17
+- Selected: 5
+- POSS awaiting decision: 4
 - Excluded: 0
-- Hard pass: 9
+- Hard pass: 8
 
 ## SELECTED
 
@@ -64,21 +64,6 @@ factual_fingerprint: 189e1df74d584fa11e84a4a25a135d1e1fed7d935eec1024cbff5dc18f2
 source: Teaching Vacancies
 source_job_id: attendance-officer-flegg-high-ormiston-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-flegg-high-ormiston-academy
----
-
----
-action: 
-SELECTED | Norfolk | Norwich, East of England, NR12 7LL | £13.26 per hour | Clerical Assistant/Receptionist
-employer: Frettenham Primary School
-closing_date: 2026-09-18T01:00:00+01:00
-reason: Clear admin/service title: receptionist
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: b64a488e4be64bf39687f084f9fc61814e46fdaee32bf5780d61541c24730302
-source: Teaching Vacancies
-source_job_id: clerical-assistant-receptionist-frettenham-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/clerical-assistant-receptionist-frettenham-primary-school
 ---
 
 ---
@@ -160,36 +145,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/governance-profession
 
 ---
 action: 
-POSS | Norfolk | Swaffham, East of England, PE37 7DZ | £20,301.39 - £22,713.69 Annually (Actual) £26,403 - £29,540 FTE - NJC Point 7 - Point 14 | HR Administrator
-employer: The Nicholas Hamond Academy
-closing_date: 2026-09-18T09:00:00+01:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 52360ee18ec53b39f74b7b69f6fd8d1f8a4d6d05fdc662a6fc562dabfd670d15
-source: Teaching Vacancies
-source_job_id: hr-administrator-3181ac7d-997b-421c-bef0-d2cf34b118f1
-source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-3181ac7d-997b-421c-bef0-d2cf34b118f1
----
-
----
-action: 
-POSS | Norfolk | Thetford, East of England, IP26 4PE | £20,301.39 - £22,713.69 Annually (Actual) £26,403 - £29,540 FTE - NJC Point 7 - Point 14 | HR Administrator
-employer: Iceni Secondary Academy
-closing_date: 2026-09-18T09:00:00+01:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: e91458bb6513e98e8012764c0e2bb2854faa4624b14cb0b537a176dc6516d79f
-source: Teaching Vacancies
-source_job_id: hr-administrator-iceni-secondary-academy-thetford-norfolk
-source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-iceni-secondary-academy-thetford-norfolk
----
-
----
-action: 
 POSS | Norfolk | Wymondham, East of England, NR18 9SZ | £26,403 - £28,142 pa | HR Administrator
 employer: Wymondham College
 closing_date: 2026-11-07T00:00:00+00:00
@@ -212,9 +167,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-wymo
 - [Administration Officer: Vulnerable Students](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-vulnerable-students) — Insufficient admin/service evidence.
 - [Chief Financial Officer](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-broad-horizons-education-trust) — Insufficient admin/service evidence.
 - [Director of Compliance](https://teaching-vacancies.service.gov.uk/jobs/director-of-compliance) — Insufficient admin/service evidence.
-- [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-white-woman-lane-junior-school) — Insufficient admin/service evidence.
 - [Office Coordinator](https://teaching-vacancies.service.gov.uk/jobs/office-coordinator-duchy-of-lancaster-methwold-cofe-primary-school-thetford-norfolk) — Insufficient admin/service evidence.
-- [Operations Officer](https://teaching-vacancies.service.gov.uk/jobs/operations-officer-southery-academy-downham-market-norfolk) — Missing salary or pay scale.
+- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-poringland-primary-school) — Manager title salary ceiling £33,119 is not below £28,000.
 - [Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-13c89b93-af4a-43c9-9abf-857124071953) — Insufficient admin/service evidence.
 - [Preschool Lead Practitioner – Part Time (2 days)](https://teaching-vacancies.service.gov.uk/jobs/preschool-lead-practitioner-part-time-2-days) — Insufficient admin/service evidence.
 - [Regional People Partner](https://teaching-vacancies.service.gov.uk/jobs/regional-people-partner-ormiston-victory-academy-norwich-norfolk) — Insufficient admin/service evidence.

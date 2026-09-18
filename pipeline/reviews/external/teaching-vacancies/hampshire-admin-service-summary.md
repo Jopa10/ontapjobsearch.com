@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Hampshire
 
-review_date: 2026-09-17
-review_fingerprint: b7c97e95e4e33c270814648afecab9e62162ae55010e4210ddfe94c646aa0201
-routing_manifest_sha256: 3bae23716e7846dcabcdd87b2afa86b78418dc1061e41294f26da205e546064d
+review_date: 2026-09-18
+review_fingerprint: c97f5e6e2f6cebbb1bd91a70f0ac3eec902886e602c1a1aaf10fe4cb3937d279
+routing_manifest_sha256: dc29cc704a3c739ce7a00dda7ed5ec0108cad5c6895f72592d1d068628991701
 ontap_region: Hampshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 8
-- Selected: 3
+- Records: 10
+- Selected: 4
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 6
 
 ## SELECTED
 
@@ -66,6 +66,21 @@ source_job_id: exams-officer-and-assessment-data-co-ordinator
 source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-and-assessment-data-co-ordinator
 ---
 
+---
+action: 
+SELECTED | Hampshire | Alresford, SO24 9BS | £33,178.00 - £36,369.00 Annually (FTE) Actual salary £30,696 - £33,648 per annum | Personal Assistant to Executive Headteacher
+employer: Vita Multi Academy Trust
+closing_date: 2026-09-25T23:59:00+01:00
+reason: Clear admin/service title: personal assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 7e55dd820eb9d3f04bfb903e69cbd51848989a7cbaed5554faadfdefa843dbcc
+source: Teaching Vacancies
+source_job_id: personal-assistant-to-executive-headteacher-vita-multi-academy-trust
+source_url: https://teaching-vacancies.service.gov.uk/jobs/personal-assistant-to-executive-headteacher-vita-multi-academy-trust
+---
+
 ## POSS — choose SELECT or EXCLUDE
 
 - None.
@@ -76,11 +91,12 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-and-ass
 
 ## HARD_PASS
 
-- [Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-st-bernadette-s-catholic-primary-school) — Missing salary or pay scale.
+- [Administration & Reception Assistant](https://teaching-vacancies.service.gov.uk/jobs/administration-reception-assistant-cove-school) — Missing salary or pay scale.
 - [Cover Co-ordinator and Cover Supervisor](https://teaching-vacancies.service.gov.uk/jobs/cover-co-ordinator-and-cover-supervisor) — Insufficient admin/service evidence.
 - [Deputy School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/deputy-school-business-manager-crestwood-community-school) — Manager title salary ceiling £46,565 is not below £28,000.
 - [Exams Access Arrangements Coordinator](https://teaching-vacancies.service.gov.uk/jobs/exams-access-arrangements-coordinator-ringwood-school-academy) — Insufficient admin/service evidence.
 - [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-the-romsey-school) — Insufficient admin/service evidence.
+- [School Resources/Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/school-resources-administration-assistant) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

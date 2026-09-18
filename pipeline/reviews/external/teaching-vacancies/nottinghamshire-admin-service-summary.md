@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Nottinghamshire
 
-review_date: 2026-09-17
-review_fingerprint: 1837b36f41bd590e5fabf5d1282b87d6098bd74d47c293174825a87891f299d3
-routing_manifest_sha256: 3bae23716e7846dcabcdd87b2afa86b78418dc1061e41294f26da205e546064d
+review_date: 2026-09-18
+review_fingerprint: 77c78ba2b1f1942330206960a10b0178574a84e32647197aa97d211fc1cf8e9f
+routing_manifest_sha256: dc29cc704a3c739ce7a00dda7ed5ec0108cad5c6895f72592d1d068628991701
 ontap_region: Nottinghamshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 26
-- Selected: 12
+- Records: 25
+- Selected: 10
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 12
+- Hard pass: 13
 
 ## SELECTED
 
@@ -38,29 +38,14 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assist
 
 ---
 action: 
-SELECTED | Nottinghamshire | Mansfield, East Midlands, NG21 9TA | £22,569.72 - £22,569.72 Annually (Actual) Term time only | Administration Assistant
-employer: Thoresby Vale Primary Academy
-closing_date: 2026-09-25T23:59:00+01:00
-reason: Clear admin/service title: administration assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 2710ff6c7c8d9cbeaa8320e1cf1192b30b2415b073aa39e35dc92d884c56d4c5
-source: Teaching Vacancies
-source_job_id: administration-assistant-thoresby-vale-primary-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-thoresby-vale-primary-academy
----
-
----
-action: 
-SELECTED | Nottinghamshire | Nottingham, East Midlands, NG14 5EB | £21,190 (FTE - £25,614) | Administrative Assistant
+SELECTED | Nottinghamshire | Nottingham, East Midlands, NG14 5EB | £21,863 - £22,564 (£26,427 - £27,274 FTE) | Administrative Assistant
 employer: Burton Joyce Primary School
 closing_date: 2026-09-24T12:00:00+01:00
 reason: Clear admin/service title: administrative assistant
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: b97c523ae128a987ffe73f1767463bd248500cb31e7017c94bc9e34cfabadb92
+factual_fingerprint: 875d594ae698d54cfd055305eee598cfb34192e03bb2a0f193d8bc1b0261237a
 source: Teaching Vacancies
 source_job_id: administrative-assistant-burton-joyce-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-burton-joyce-primary-school
@@ -124,21 +109,6 @@ factual_fingerprint: c47c0f2ee1ca72c0ac044ee3b48f0c1f5424cb9eca5ea7fced6712098c2
 source: Teaching Vacancies
 source_job_id: administrative-assistant-newark-orchard-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-newark-orchard-school
----
-
----
-action: 
-SELECTED | Nottinghamshire | Nottingham, NG9 6RZ | £24,234.00 - £25,823.00 Annually (Actual) Full Time, Term Time only + 2 Weeks - NJC6-10 | Administrative Assistant
-employer: The Spencer Academies Trust
-closing_date: 2026-09-18T12:00:00+01:00
-reason: Clear admin/service title: administrative assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: ea8f2b45714b8a6f017e4cdadfbe7e29b7348d7d922c9c780f9334152932a347
-source: Teaching Vacancies
-source_job_id: administrative-assistant-the-spencer-academies-trust-nottingham-not-recorded
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-the-spencer-academies-trust-nottingham-not-recorded
 ---
 
 ---
@@ -245,6 +215,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/data-officer-the-whit
 - [Finance Apprentice](https://teaching-vacancies.service.gov.uk/jobs/finance-apprentice-our-lady-of-lourdes-catholic-multi-academy-trust) — Insufficient admin/service evidence.
 - [HR and Recruitment Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-and-recruitment-officer-redhill-academy-trust) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-jubilee-l-e-a-d-academy) — Manager title salary ceiling £32,187 is not below £28,000.
+- [One to One Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/one-to-one-personal-care-assistant) — Insufficient admin/service evidence.
 - [Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-65ca1f05-aa50-430f-afeb-b27088a93265) — Insufficient admin/service evidence.
 - [Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-bf443901-6fb8-4721-9adf-b67f0bdbd6f6) — Insufficient admin/service evidence.
 - [Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-newark-orchard-school-newark) — Insufficient admin/service evidence.

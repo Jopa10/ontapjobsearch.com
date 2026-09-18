@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Suffolk
 
-review_date: 2026-09-17
-review_fingerprint: a01fa66851fd62c8e38881c2773f73634c8c76832af9b94074dc0639dc80b66b
-routing_manifest_sha256: 3bae23716e7846dcabcdd87b2afa86b78418dc1061e41294f26da205e546064d
+review_date: 2026-09-18
+review_fingerprint: 13929ccf64f6f7f02b30e6a869ea6fbf78abea4aeba75e2637bf8fb1d3120b07
+routing_manifest_sha256: dc29cc704a3c739ce7a00dda7ed5ec0108cad5c6895f72592d1d068628991701
 ontap_region: Suffolk
 slice_category: admin_service
 slice_status: LIVE
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 11
-- Selected: 2
+- Records: 13
+- Selected: 3
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 8
+- Hard pass: 9
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Suffolk | Bungay, East of England, NR35 1JS | £13,488.00 - £14,366.00 Annually (Actual) | Administration Assistant
+employer: Castle EAST School
+closing_date: 2026-10-12T12:00:00+01:00
+reason: Clear admin/service title: administration assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 2c1c7316a67719aceffeb794c7e35fbcf65ad068dd303b61fce5e6d7515d3651
+source: Teaching Vacancies
+source_job_id: administration-assistant-castle-east-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-castle-east-school
+---
 
 ---
 action: 
@@ -75,6 +90,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/operations-officer-gl
 ## HARD_PASS
 
 - [Admissions and Review Officer](https://teaching-vacancies.service.gov.uk/jobs/admissions-and-review-officer-eastern-education-group-trust) — Insufficient admin/service evidence.
+- [Attendance and Inclusion Support Officer](https://teaching-vacancies.service.gov.uk/jobs/attendance-and-inclusion-support-officer) — Insufficient admin/service evidence.
 - [Curriculum and Reception Assistant](https://teaching-vacancies.service.gov.uk/jobs/curriculum-and-reception-assistant) — Insufficient admin/service evidence.
 - [Data Manager](https://teaching-vacancies.service.gov.uk/jobs/data-manager-holbrook-academy) — Manager title salary ceiling £34,811 is not below £28,000.
 - [HR Assistant](https://teaching-vacancies.service.gov.uk/jobs/hr-assistant-36698a9b-d2c8-4253-91ee-aefbeab6f899) — Insufficient admin/service evidence.
