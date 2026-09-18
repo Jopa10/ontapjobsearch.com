@@ -1,11 +1,13 @@
 # Ontap System Overview
 
-**Last updated:** 17 September 2026
-**Status:** Canonical production state including fast static live vacancy pages, approved job-detail discovery recommendations, an idempotent external fallback for the JobG8 daily process, restored NHS Google Jobs eligibility, owner-facing JobG8 selection auditing, live-site reporting reconciliation and Teaching Vacancies regional publish isolation.
+**Last updated:** 18 September 2026
+**Status:** Canonical production state, reconciled on 18 September against the live slice register, city-page register and scheduled workflow definitions.
 
 This is the short owner view of how Ontap is organised. It mirrors the five canonical system buckets in `SYSTEM_MAP.md`.
 
 ## Recent canonical changes
+
+- 18 September 2026 — **Governance currency audit completed:** current-state sections now match the 78-market × eight-family diagnostic process, the 126 LIVE regional/category rows in the slice register, the 54 active governed city routes and the actual JobG8 schedule. Older launch counts remain only where clearly labelled as dated history. The repository README now points developers to the real production architecture rather than the superseded database-first prototype.
 
 - 17 September 2026 — **Traffic reports can now distinguish more real return visits from unexplained Direct traffic:** recognised crawler/browser-automation traffic no longer loads analytics, genuine browser interaction produces a separate qualified-visit signal, and anonymous browser timestamps identify a return after at least 30 minutes without storing identity or location. Existing saved-location return measurement remains active. A tested link generator now adds consistent campaign tags to Ontap links published through controlled channels; normal internal links remain untagged.
 
@@ -172,9 +174,9 @@ The main JobG8 process remains the primary production ingest/process path. NEJob
 
 A source shown as `STALE` or `MISSING` in the unified review must not be interpreted as zero inventory. Repair/rerun that source, then rerun `Ontap daily review` to regenerate the master edit file before reviewing. The 22 August Teaching Vacancies recovery verified this operating sequence and the fail-soft source-isolation behaviour.
 
-Service Admin is now LIVE in **44 / 55 assessable England markets and 47 / 78 UK markets**. The six regional slices approved on 19 August remain live, the 22 August standing **>8 governed same-feed** rule added 11 recovered markets, five named owner approvals were added on 26 August, and Bedfordshire was approved on 1 September. All use the same central catalog, slice register, production selector and verified-page publishing mechanism.
+At the 18 September audit, Service Admin is LIVE in **51 / 78 UK markets**. All use the same central catalog, slice register, production selector and verified-page publishing mechanism. `pipeline/registers/region_category_slice_register.csv` is authoritative if that count later changes.
 
-Regional geography now has two deliberately separate layers. `pipeline/config/england_assessable_regions.json` defines the **55 assessable England markets** used for daily diagnostics and coverage reporting. `pipeline/config/job_slice_catalog.json` is the configured/public market layer and is not the national geography authority; `region_category_slice_register.csv` still decides what is LIVE. A mapped job can therefore be assessed even when its market has no LIVE slice. `North East` remains the deliberate roll-up of all three underlying North East lookup areas, including Tees Valley.
+Regional geography has two deliberately separate layers. `pipeline/config/uk_assessable_regions.json` defines the **78 assessable UK markets** used for daily diagnostics and coverage reporting; `england_assessable_regions.json` remains a subset/reference. `pipeline/config/job_slice_catalog.json` is the configured/public market layer and is not the national geography authority; `region_category_slice_register.csv` decides what is LIVE. A mapped job can therefore be assessed even when its market has no LIVE slice. `North East` remains the deliberate roll-up of all three underlying North East lookup areas, including Tees Valley.
 
 ### NHS Administrative & Clerical
 
@@ -204,7 +206,7 @@ Broad discovery regex/title buckets are evidence only; they are not publication 
 
 Family membership is not forced to be exclusive. A job can legitimately qualify for more than one family when it serves both user intents. Each family applies its own rules, and overlap is only deduped where the same job would otherwise repeat within one user-facing result set.
 
-Customer Sales / Sales Advisor has completed the governed lifecycle through explicit LIVE approval. The first production slices are **London**, **Greater Manchester - Manchester & Salford**, and **Yorkshire - West**. The first live verified-publish snapshot produced **20 / 6 / 7 jobs respectively**. The production selector is generated from the same current JobG8 input as the main daily process and publishes through the shared configured-slice/verified-page mechanism. The LIVE state is governed by the explicit slice register, not by those one-day counts; normal daily inventory movement may take a live page above or below its launch count without automatically changing activation state. Genuine Sales/Service Admin crossover remains valid. Direct office/contact-centre/home/hybrid sales roles qualify; customer/service titles require explicit sales/conversion evidence; generic account roles require strong sales plus office/digital evidence. Field/in-home/event/self-employed sales, automotive dealership/showroom sales, retail/property sales and senior/specialist boundary roles are excluded. **North East and every other region remain non-LIVE diagnostic candidates until separately approved.** Their current diagnostic counts are now refreshed automatically in the 55-market daily family coverage rather than requiring a separate one-off Sales assessment.
+Customer Sales / Sales Advisor has completed the governed lifecycle through explicit LIVE approval. Its original launch set was London, Greater Manchester - Manchester & Salford and Yorkshire - West; the register has since expanded to **14 LIVE markets as at 18 September**. The production selector is generated from the same current JobG8 input as the main daily process and publishes through the shared configured-slice/verified-page mechanism. LIVE state is governed by the explicit slice register, not by a one-day job count. Genuine Sales/Service Admin crossover remains valid. Direct office/contact-centre/home/hybrid sales roles qualify; customer/service titles require explicit sales/conversion evidence; generic account roles require strong sales plus office/digital evidence. Field/in-home/event/self-employed sales, automotive dealership/showroom sales, retail/property sales and senior/specialist boundary roles are excluded. Every non-LIVE region remains diagnostic only until explicitly approved; its governed count is refreshed in the 78-market daily family coverage.
 
 The general publish rule remains fail-soft:
 
@@ -218,15 +220,15 @@ The old May monolithic pipeline and older standalone service-admin/support-worke
 
 City pages are derived views of final approved regional pages; they are not separate feeds or classification pipelines.
 
-The launch gate is evidence-led: **6+ current jobs and at least 3 qualifying runs in the last 7 verified-publish runs**, followed by explicit human approval. READY FOR APPROVAL does not auto-publish.
+For Service Admin, a non-London exact town with **at least four current governed Service Admin jobs** may be activated after explicit human approval. Supplementary office-family jobs can enrich a page but cannot qualify the town. READY FOR APPROVAL does not auto-publish.
 
-Once explicitly active, a city route is permanent even if inventory later drops below six. The daily publication path continues to rebuild its private city JSON from the approved parent regional page.
+Once explicitly active, a city route is permanent even if inventory later drops below four. The daily publication path continues to rebuild its private city JSON from the approved parent regional page, including an empty list when necessary.
 
 Homepage prominence is a separate rule: an active city page is shown as a homepage city card only at **4+ current jobs**. At 0–3 jobs the route remains live/indexable and continues to refresh, but its homepage card is hidden until supply returns to 4+.
 
-The three city thresholds are therefore:
+The Service Admin city thresholds are therefore:
 
-- **6 jobs** = launch qualification threshold, with 3 of 7 qualifying runs and explicit approval;
+- **4 current Service Admin jobs** = launch qualification threshold with explicit approval;
 - **4 jobs** = homepage city-card visibility floor;
 - **0 jobs** = permitted retained state for an already-active permanent route.
 
@@ -244,13 +246,13 @@ One-off owner approval on 22 August 2026: **Bristol, Manchester, Cambridge, Birm
 
 The daily regional overview is backed by same-feed **Service Admin, Support Worker, Customer Sales / Sales Advisor, Paralegal, Marketing, Finance / Accounts, HR / Recruitment and Customer Service / Contact Centre** assessments across all 78 canonical UK markets. For NOT LIVE cells, a numeric zero means the current feed was assessed and no jobs survived that family's governed selector; `—` means that family was not present in the persisted transitional snapshot.
 
-After the next full JobG8 run, `pipeline/reports-daily/daily-family-coverage.csv` contains 624 rows (78 markets × 8 families). Older seven-family snapshots remain readable during the transition. `pipeline/reports-daily/daily-family-coverage-history.json` is the rolling evidence store: one snapshot per feed date, same-date reruns replace the existing date, all current counts are retained within each snapshot, and only the latest 14 feed dates are kept. Older snapshots contribute only to families present in them; Customer Service history is not backfilled artificially. In `daily-region-overview.md`, rolling metrics are shown only for NOT LIVE slices as **today / 14d average / days at 6+**. The 6+ count is deliberately a watch signal rather than an activation rule.
+`pipeline/reports-daily/daily-family-coverage.csv` contains 624 rows (78 markets × eight families). `pipeline/reports-daily/daily-family-coverage-history.json` is the rolling evidence store: one snapshot per feed date, same-date reruns replace the existing date, all current counts are retained within each snapshot, and only the latest 14 feed dates are kept. Older snapshots contribute only to families present in them; later families are not backfilled artificially. In `daily-region-overview.md`, rolling metrics are shown only for NOT LIVE slices as **today / 14d average / days at 6+**. The 6+ count is deliberately a watch signal rather than an activation rule.
 
 The overview's sitewide section reads the current published job JSON directly using the same canonical identity rules as the live-source counter. It distinguishes unique jobs from slice placements, reports jobs appearing on multiple slices and extra placements, and verifies that every unique live job belongs to a governed regional/category slice. Provider rows are dynamic, so a new source such as WhatJobs is included automatically. The latest dated live-source CSV remains visible as a cross-check and is marked stale if it no longer matches the current published site.
 
 Its `CITY OPPORTUNITIES` section uses that same unique live inventory across all roles and providers. Exact recognised town/locality evidence is grouped through the canonical geo lookup, existing permanent city routes are identified from the city-page register, non-London places at 4+ current **Service Admin** jobs are marked `CREATE`, and lower counts remain `MONITOR`. Each locality also has reconciled columns for all eight governed role families plus `Other / unclassified`, so the owner can distinguish office-led candidates from support-worker-led candidates. London rows are retained as `HOLD – LONDON`; broader or unrecognised locations are counted in the reconciliation summary rather than forced into a city. The table is decision support and never publishes a page by itself.
 
-Customer Sales / Sales Advisor LIVE counts still come directly from the current published configured-slice JSON rather than diagnostic output. The first live snapshot was **3 / 55 LIVE markets and 33 LIVE jobs (London 20, Manchester & Salford 6, Yorkshire - West 7)**. For every NOT LIVE region, the overview now shows the same-feed Customer Sales diagnostic count generated with the governed classifier, canonical geo, campaign dedupe and final production QA. These counts are expansion evidence only: a positive count never activates a region without separate explicit approval.
+LIVE family counts come directly from current published configured-slice JSON rather than diagnostic output. For every NOT LIVE region, the overview shows the same-feed governed diagnostic count generated with the relevant classifier, canonical geography, dedupe and final QA. These counts are expansion evidence only: a positive count never activates a region without separate explicit approval, except for the separately documented Service Admin >8 rule.
 
 Live source reporting records NHS Jobs and Teaching Vacancies as providers after verified publication, alongside JobG8 and the other external sources. The verified 22 August post-recovery snapshot was **1,592 total live jobs**, of which **116 were Teaching Vacancies and 270 NHS Jobs**.
 
@@ -301,13 +303,7 @@ On the homepage, the four recently added cards are selected from genuine vacanci
 
 City pages use the common city-page framework and private `app/_city-pages/...` derived JSON, avoiding duplicate job-detail URLs. The homepage city grid independently suppresses active city cards below 4 current jobs without changing the route, sitemap/indexing status or daily refresh behaviour.
 
-The five new approved routes are:
-
-- `/bradford/service-administrator-jobs`
-- `/huddersfield/service-administrator-jobs`
-- `/york/service-administrator-jobs`
-- `/barnsley/service-administrator-jobs`
-- `/doncaster/service-administrator-jobs`
+At the 18 September audit, `city-page-register.json` contains **54 active permanent routes: 53 Admin and office routes and one Support Worker route**. That register, rather than a copied route list here, is the authority for the active set.
 
 Existing established public routes remain stable unless there is a concrete business reason to change them.
 
@@ -322,7 +318,7 @@ NHS/public-sector inventory is an advantage for switchers and existing sector wo
 Core controls are:
 
 - scheduled source refresh/reviews, including NEJobs, VONNE, Teaching Vacancies regional/master review and the NHS Administrative & Clerical review refresh at 10:05 UTC;
-- the twice-daily full JobG8 process, which refreshes and composes NHS transactionally, generates every approved registered family slice, persists the current 78-market × 5-family diagnostic snapshot, and records/replaces that feed date in the rolling 14-date family coverage history;
+- the twice-daily full JobG8 process, which refreshes and composes NHS transactionally, generates every approved registered family slice, persists the current **78-market × eight-family (624-row)** diagnostic snapshot, and records/replaces that feed date in the rolling 14-date family coverage history;
 - one master daily owner review;
 - one owner-facing apply/publish orchestrator, with manual `PUBLISH` control and an 11:45 Europe/London no-edit safety net;
 - one owner-facing **Ontap daily status** workflow on the Actions page, combining morning source/review readiness with the final manual-or-automatic publication and deployment receipt;
@@ -362,8 +358,6 @@ The Google Indexing API retains its 200-notification safety limit and GitHub Iss
 
 ## Current state
 
-After the 1 September approvals, the current footprints are **Sales Advisor 5 / 78 (including North East and Bristol & Bath), Marketing 6 / 78 (including Berkshire and Buckinghamshire), and Support Worker 11 / 78 (including Kent and Oxfordshire)**. This supersedes the smaller original launch baselines retained in the historical summary below.
+As reconciled from `pipeline/registers/region_category_slice_register.csv` on 18 September 2026, the register contains **126 LIVE rows**: Service Admin 51, Marketing 19, Customer Sales 14, Finance / Accounts 12, Support Worker 11, HR / Recruitment 9, Customer Service / Contact Centre 6 and Legal Assistant / Paralegal 4. Another 15 rows are CANDIDATE. The live register remains authoritative after this dated snapshot.
 
-Architecture cleanup 1–5 is merged into `main`. Service Admin is LIVE in **44 / 55 assessable England markets and 47 / 78 UK markets**, including the six 19 August regional activations, the 11 recovered markets launched on 22 August under the standing governed same-feed **>8** rule, and the five named 26 August approvals. The shared city-page mechanism owns the previous active cities plus the nine one-off approved permanent pages for Bristol, Manchester, Cambridge, Birmingham, Peterborough, Warrington, Liverpool, Hull and Oxford. Active city routes remain permanent below four jobs but are hidden from the homepage until they return to 4+. Homepage browse ordering is regional-first, then city. Durham remains deliberately held pending the County Durham geography safeguard. Production deployment uses normal Vercel Git integration automatically, with CLI recovery manual-only, and Vercel is now on Pro. NHS Administrative & Clerical inventory is live inside Service Admin through the shared transactional composer, with untouched POSS rows fail-closed, a hard 20% regional source ceiling and 4+1 non-dominating display order. NHS detail formatting is live. Search now uses a deployment-time precomputed search index with `_search` metadata rather than request-time route scanning or repeated field normalisation/tokenisation; high-confidence typo correction and weighted field interpretation remain verified on the Great Lumley and Newcastle/admin cases, and the final live browser retest confirmed the earlier search delay was removed. Customer Sales / Sales Advisor is LIVE for **London, Greater Manchester - Manchester & Salford, Yorkshire - West, North East and Bristol & Bath**. Its first production publish was verified end-to-end at **20, 6 and 7 current jobs respectively**, with all three public routes returning 200 and JobG8-backed Apply actions present. All other Customer Sales regions remain non-LIVE until separate evidence and explicit approval, but their same-feed governed diagnostic counts now appear automatically in the daily regional overview. The rolling NOT LIVE family history starts on **22 August 2026** with no backfill and will build to a maximum 14 observed feed dates. Teaching Vacancies is current again after the 22 August concurrent-push failure was fixed; the reviewed publication/deployment completed successfully with **116 Teaching Vacancies live in the 1,592-job post-publish snapshot**.
-
-23 August 2026 — **safe geo lookup gap correction:** `pipeline/geo/geo_lookup.xlsx` remains the factual location-routing authority. Specific missing place mappings found during Legal Assistant / Paralegal discovery were added for Hook Norton, Woolston, Filey, Ware, Longfield, Milford Haven, Otley and Birmingham, plus safe county/location fallbacks where unambiguous. Broad ambiguous values such as `East of England` and bare `Merseyside` remain deliberately unresolved rather than being forced into a canonical market.
+The full JobG8 workflow assesses all eight families across all 78 UK markets (624 rows) and retains up to 14 feed-date snapshots. The shared city mechanism owns 54 active permanent routes (53 Admin and office, one Support Worker). Production deployment uses normal Vercel Git integration automatically, with CLI recovery manual-only. NHS Administrative & Clerical inventory is isolated safely on feed failure, remains capped at 20% per Service Admin page and uses the 4+1 display order. Live vacancy pages and search use deployment-built static/current inventory; expired-job recovery remains separate. Teaching Vacancies retains the source-isolation and concurrent-write safeguards described above.

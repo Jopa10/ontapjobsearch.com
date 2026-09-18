@@ -41,6 +41,8 @@ All persistent Ontap system changes belong to one or more of these five buckets:
 - `SYSTEM_OVERVIEW.md` must remain concise and understandable to a non-technical owner while accurately reflecting the technical system.
 - Keep the visible `Last updated` date and `Recent canonical changes` section current whenever either canonical file changes.
 - Never invent system facts. If something cannot be confirmed from the repository, mark it `UNKNOWN / NEEDS AUDIT`.
+- Treat registers, workflow definitions and current generated reports as authoritative for current counts, schedules and activation state. Dated launch snapshots may remain as history, but must be labelled as historical and must not be described as the current footprint.
+- Avoid duplicating volatile counts in several current-state sections. Where a number is operationally useful, date it and name the file from which it was reconciled.
 
 ## Architecture discipline
 

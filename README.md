@@ -1,157 +1,85 @@
-# Ontap Job Search Platform
+# Ontap Job Search
 
-A modern job matching platform built with Next.js, PostgreSQL, and Prisma. Features a comprehensive admin interface for job management and a public-facing job search portal.
+Ontap is a UK job-discovery site built with Next.js. Its production inventory is assembled by governed feed/review pipelines, published into repository-backed JSON, verified, and deployed from `main` through Vercel's Git integration.
 
-## Features
+This README is an entry point, not the system authority. Before making a persistent change, read:
 
-- ✨ **Modern UI** - Clean, responsive design with Tailwind CSS
-- 🔐 **Secure Admin Portal** - NextAuth.js authentication with session management
-- 📊 **Job Management** - Full CRUD operations for job listings
-- 📤 **Bulk Import** - CSV/JSON file upload for batch job creation
-- 🔍 **Advanced Search** - Filter jobs by title, location, category, and type
-- 📱 **Responsive Design** - Works seamlessly on desktop and mobile
-- 🎯 **Application Tracking** - Track user engagement with job listings
-- 🚀 **Production Ready** - Docker support with PM2 process management
+- `AGENTS.md` — repository operating and governance rules;
+- `SYSTEM_OVERVIEW.md` — concise owner view of what is live;
+- `SYSTEM_MAP.md` — authoritative technical architecture and operating paths;
+- `SYSTEM_AUDIT.md` — architecture-audit history and verified cleanup decisions;
+- `pipeline/README.md` — pipeline-specific operating model.
 
-## Tech Stack
+The files under `docs/stage0.md` to `docs/stage3.md` are early planning records. They are not current production instructions.
 
-**Frontend:** Next.js 14+, React 19, TypeScript, Tailwind CSS, NextAuth.js
+## Production shape
 
-**Backend:** Next.js API Routes, PostgreSQL, Prisma ORM, bcrypt
+- **Application:** Next.js 16, React 19 and TypeScript.
+- **Primary inventory source:** twice-daily JobG8 processing, with governed NEJobs, VONNE, Teaching Vacancies and NHS Jobs paths.
+- **Control state:** the regional/category slice register, family classifiers, review state and city-page register.
+- **Publication:** source-specific guarded publishers feed the shared verified-page publisher, which writes current website JSON and reports.
+- **Deployment:** normal Vercel Git deployment from `main`; Vercel CLI is manual recovery only.
+- **Search:** a compact published-job index is generated at build time.
+- **Indexing:** sitemap/structured-data handling plus the quota-governed Google Indexing API workflow.
 
-**Deployment:** Docker, PM2, Vercel-ready
+Do not bypass the governed review/publish chain by manually editing live job JSON unless an explicitly reviewed recovery procedure requires it.
 
-## Quick Start
+## Local application setup
 
-### Prerequisites
+Requirements:
 
-- Node.js 20+ and npm
-- PostgreSQL (or use Docker Compose)
+- Node.js 20+
+- npm
+- the environment variables required by the route or admin function being exercised
 
-### Installation
-
-1. **Install dependencies:**
-   ```bash
-   npm install
-   ```
-
-2. **Set up environment variables:**
-   ```bash
-   cp .env.example .env
-   ```
-   
-   Edit `.env` with your database connection:
-   ``env
-   DATABASE_URL="postgresql://ontap_user:ontap_password@localhost:5432/ontap_db"
-   NEXTAUTH_SECRET="your-secret-key-min-32-chars"
-   ADMIN_PASSWORD="admin123"
-   ADMIN_EMAIL="admin@ontap.com"
-   ```
-
-3. **Start PostgreSQL with Docker:**
-   ```bash
-   docker-compose up -d postgres
-   ```
-
-4. **Run database migrations and seed:**
-   ```bash
-   npm run db:migrate
-   npm run db:seed
-   ```
-
-5. **Start the development server:**
-   ```bash
-   npm run dev
-   ```
-
-6. **Access the application:**
-   - **Public site:** http://localhost:3000
-   - **Admin login:** http://localhost:3000/admin/login
-   - **Default credentials:** Configured in `.env` (default: `admin@ontap.com`)
-
-## Docker Deployment
+Install and run:
 
 ```bash
-# Start everything (database + app)
-docker-compose up --build
-
-# Database only (for development)
-docker-compose up -d postgres
+npm install
+npm run dev
 ```
 
-## Scripts
+The development command regenerates `generated/published-jobs-search.json` before starting Next.js.
+
+Production build:
 
 ```bash
-npm run dev          # Start development server
-npm run build        # Build for production
-npm run start        # Start production server
-npm run db:migrate   # Run database migrations
-npm run db:seed      # Seed database with default admin
+npm run build
+npm run start
 ```
 
-## Default Admin Account
+`npm run build` regenerates the published-job search index, generates the Prisma client and runs the Next.js build.
 
-After seeding:
-- **Email:** Defined in `ADMIN_EMAIL`
-- **Password:** Defined in `ADMIN_PASSWORD`
+## Checks
 
-⚠️ **Change these credentials in production!**
-
-## Importing Test Data
-
-1. Navigate to admin panel: http://localhost:3000/admin/jobs
-2. Click "Upload CSV/JSON"
-3. Select `testdata/csv/jobs.csv` or `testdata/json/jobs.json`
-4. Click "Upload Jobs"
-
-## API Endpoints
-
-### Public
-- `GET /api/jobs` - List/search jobs
-- `GET /api/jobs/[id]` - Get single job
-- `GET /api/jobs/similar/[id]` - Get similar jobs
-- `POST /api/track` - Track application
-- `GET /api/health` - Health check
-
-### Admin (Authenticated)
-- `POST /api/jobs` - Create job
-- `PUT /api/jobs/[id]` - Update job
-- `DELETE /api/jobs/[id]` - Delete job
-- `POST /api/jobs/upload` - Bulk upload
-- `GET /api/admin/users` - List admins
-- `POST /api/admin/users` - Create admin
-
-## Environment Variables
-
-| Variable | Description |
-|----------|-------------|
-| `DATABASE_URL` | PostgreSQL connection (required) |
-| `NEXTAUTH_SECRET` | Auth secret min 32 chars (required) |
-| `NEXTAUTH_URL` | App URL (default: http://localhost:3000) |
-| `ADMIN_PASSWORD` | Password for default admin user (required for seeding) |
-| `ADMIN_EMAIL` | Email for default admin user (default: admin@ontap.com) |
-
-## Troubleshooting
-
-**Database Connection Issues:**
 ```bash
-# Ensure PostgreSQL is running
-docker-compose ps
-
-# Check logs
-docker-compose logs postgres
+npm run lint
+npm run test:frontend
 ```
 
-**Prisma Issues:**
+The pipeline has its own Python test suite under `pipeline/tests/`. Run the relevant focused tests for any pipeline change; the GitHub Actions workflows remain the authoritative integration environment for scheduled feeds and publication.
+
+Useful scripts:
+
 ```bash
-# Regenerate Prisma Client
-npx prisma generate
-
-# Reset database (⚠️ destroys data)
-npx prisma migrate reset
-Initial Vercel deploy
+npm run campaign:url -- --url <ontap-url> --source <source> --medium <medium> --campaign <campaign>
+npm run db:migrate
+npm run db:seed
 ```
 
-## License
+Database commands support the legacy/admin surfaces. They are not the production vacancy-publication path.
+
+## Repository areas
+
+- `app/` — application routes and published route data.
+- `components/`, `lib/` — shared UI and domain logic.
+- `pipeline/` — source ingestion, classification, review, registers, outputs and reports.
+- `.github/workflows/` — scheduled and owner-triggered operating workflows.
+- `tests/`, `pipeline/tests/` — frontend/domain and pipeline tests.
+- `generated/` — build-generated search data.
+
+## Change discipline
+
+Preserve existing public URLs and working architecture unless a concrete business, reliability, UX or discoverability reason justifies change. Persistent system changes must update the relevant canonical documentation in the same commit.
 
 Copyright © 2026 Ontap Job Search. All rights reserved.

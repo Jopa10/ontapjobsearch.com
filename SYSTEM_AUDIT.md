@@ -1,9 +1,25 @@
 # Ontap System Audit
 
 **Audit started:** 19 August 2026  
-**Status:** First architecture audit complete; agreed cleanup 1–5 merged into `main` via PR #211. Google Jobs eligibility remediation was audited, tested and owner-approved for production on 27 August 2026.
+**Last governance currency audit:** 18 September 2026
+**Status:** Architecture cleanup 1–5 remains complete. The canonical governance set was re-audited against current workflows and registers on 18 September; stale rollout-era current-state claims were corrected.
 
 The audit conclusion remains: **preserve the working core; remove historical scaffolding; consolidate duplicated mechanics; do not refactor for technical tidiness alone.**
+
+## Governance currency follow-up — 18 September 2026
+
+The audit compared `AGENTS.md`, `SYSTEM_MAP.md`, `SYSTEM_OVERVIEW.md`, this audit record and the repository README with the live workflow definitions and control registers.
+
+Verified current contracts:
+
+- `run-full-jobg8-daily-process.yml` schedules its primary runs at 07:30 and 15:30 Europe/London and accepts idempotent cron-job.org fallback dispatches at 08:35 and 17:35 Europe/London;
+- the recurring diagnostic is **78 UK markets × eight governed families = 624 rows**, with up to 14 feed-date snapshots;
+- `pipeline/registers/region_category_slice_register.csv` contains **126 LIVE rows**: Service Admin 51, Marketing 19, Customer Sales 14, Finance / Accounts 12, Support Worker 11, HR / Recruitment 9, Customer Service / Contact Centre 6 and Legal Assistant / Paralegal 4; it also contains 15 CANDIDATE rows;
+- `pipeline/city_pages/city-page-register.json` contains **54 active permanent routes**: 53 Admin and office routes and one Support Worker route;
+- Service Admin town launch qualification is four current governed Service Admin jobs plus explicit approval; supplementary office-family jobs do not qualify the town;
+- NHS source isolation, the 20% Service Admin ceiling, the 4+1 display order, Teaching Vacancies regional isolation, normal Git-to-Vercel deployment and manual-only CLI recovery remain in force.
+
+The material drift found was documentation drift, not a production-code defect. `SYSTEM_MAP.md` and `SYSTEM_OVERVIEW.md` still contained current-state paragraphs from the former 55-market/three-family and intermediate five-family phases, plus superseded slice/city totals. Those statements have been replaced with register-derived dated snapshots, while dated rollout entries remain as history. `AGENTS.md` now requires volatile current counts to be dated and reconciled from their authority. The old database-first prototype README was also replaced because it could direct a new maintainer toward a non-canonical operating model.
 
 ## Business-priority constraint
 
@@ -106,7 +122,7 @@ Also on 24 August, daily publication gained an 11:45 Europe/London safety net in
 
 The first geography reconciliation proved that the former **33-region England footprint was a configured operational subset** and expanded England to **55 assessable markets**. A same-day scope correction then established that England alone is not the complete Ontap national geography. `pipeline/config/uk_assessable_regions.json` is now the recurring diagnostic authority with **78 UK markets: 58 England + 10 Scotland + 8 Wales + 2 Northern Ireland**. `pipeline/config/england_assessable_regions.json` remains the verified England subset/reference. `pipeline/geo/geo_lookup.xlsx` remains the factual location-routing authority; `pipeline/config/job_slice_catalog.json` remains configured/public market metadata; and `pipeline/registers/region_category_slice_register.csv` remains the LIVE-state gate.
 
-The full JobG8 daily process now assesses Service Admin, Support Worker and Customer Sales / Sales Advisor across all 78 UK markets and targets **234 market/family rows** plus rolling 14-feed history. Exact safe lookup aliases are rolled into their canonical assessment markets; ambiguous generic geography is left unresolved rather than force-assigned. The North East remains one public/assessment roll-up over its three underlying lookup regions, including Tees Valley.
+The full JobG8 daily process originally expanded to three families across all 78 UK markets (**234 rows**). The current contract, verified on 18 September, is **eight families across 78 markets (624 rows)** plus rolling 14-feed-date history. Exact safe lookup aliases are rolled into their canonical assessment markets; ambiguous generic geography is left unresolved rather than force-assigned. The North East remains one public/assessment roll-up over its three underlying lookup regions, including Tees Valley.
 
 The owner set a Service Admin-specific standing launch rule on 22 August: **a governed same-feed Service Admin count over 8 is immediate approval for LIVE; 8 or below remains NOT LIVE and is tracked**. Applying that rule to the recovered geography launched 11 additional Service Admin markets: Cheshire - East, Cheshire - Warrington & Halton, Cornwall, Derbyshire, Greater Manchester - Wigan & Bolton, Leicestershire, Lincolnshire, Merseyside - Liverpool, Shropshire, Suffolk and West Midlands - Black Country.
 
@@ -144,4 +160,4 @@ Architecture cleanup 1–5 was merged into `main` via PR #211 on 19 August 2026.
 
 ## Current production repository state
 
-The cleanup changes are part of `main`. Subsequent governed production changes now also include the complete 78-market UK diagnostic geography and the 11 additional Service Admin LIVE markets approved under the 22 August >8 standing rule. No previously live public URL was removed or renamed by that expansion.
+The cleanup changes are part of `main`. Subsequent governed production changes include the complete 78-market UK diagnostic geography, eight recurring families and later explicit slice/city activations. Current activation state must be read from the slice and city registers; the dated rollout totals above are historical evidence. No previously live public URL was removed or renamed by the geography expansion.
