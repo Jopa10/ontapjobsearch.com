@@ -1,7 +1,7 @@
 # VONNE ETL proof-of-concept review
 
-review_date: 2026-09-17
-review_fingerprint: 81bfcf9a7a5ab72b932bbadc592597223cc73f20149760f4b03c7b05bff115ff
+review_date: 2026-09-18
+review_fingerprint: 8a15317104c45b7917bd81c584625c05d475f58b047912c43c0d9e25235f207e
 
 This implementation is review-only. It has no approved-JSON or publishing mode.
 
@@ -10,20 +10,20 @@ Edit only the `action:` line in editable blocks:
 - `action: exclude` rejects a POSS vacancy or removes an HC vacancy.
 - Actions are remembered while the same vacancy review facts remain unchanged; this review still does not publish anything.
 
-Run generated: 2026-09-17T12:59:00+01:00
+Run generated: 2026-09-18T12:39:26+01:00
 Listing input: https://www.vonne.org.uk/vonne-jobs
-JobG8 comparison rows: 192
-Approved NEJobs comparison rows: 8
+JobG8 comparison rows: 188
+Approved NEJobs comparison rows: 7
 
 ## Funnel
 - VONNE listings read: 15
-- Detail-page candidates: 1
-- Detail pages fetched successfully: 1
+- Detail-page candidates: 0
+- Detail pages fetched successfully: 0
 - Detail failures/listing fallbacks: 0
-- Obvious hard passes not detail-fetched: 14
-- Tees Valley explicitly excluded: 1
-- Outside or unmapped geography excluded: 3
-- Generic/derived geography rows requiring review: 0
+- Obvious hard passes not detail-fetched: 15
+- Tees Valley explicitly excluded: 3
+- Outside or unmapped geography excluded: 1
+- Generic/derived geography rows requiring review: 1
 - Retained target candidates: 11
 
 ## Outcomes
@@ -44,16 +44,16 @@ Approved NEJobs comparison rows: 8
 
 ---
 action:
-POSS | North East - County Durham & Darlington/Hartlepool | County Durham | £27,476 Per Annum | HR Administrator
-employer: Durham Cathedral
-closing_date: Friday, October 2, 2026 - 09:00
-geography: CONFIRMED — location: approved location fallback
-reason: transferable title with specialist or borderline wording: hr
+POSS | North East | Hybrid | £ Pro Rata | Independent Advocates (2 posts)
+employer: Families in Care
+closing_date: 07 October 2026
+geography: GENERIC_REVIEW — generic VONNE location requires manual North East check
+reason: North East geography is generic or derived and requires review
 source: VONNE
-tracking_key: vonne-173410
-vacancy_fingerprint: f65f0813d779a37799fe069207dcaadc4a3b07e03f174b525fb8ad7176d32b76
-source_job_id: 173410
-source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173410
+tracking_key: vonne-173435
+vacancy_fingerprint: 7ce84d65a50f70779c0068075334dd37c4e7639f59edc6322add3de76435387c
+source_job_id: 173435
+source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173435
 ---
 ---
 action:
@@ -74,15 +74,15 @@ source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=171330
 
 ## HARD_PASS
 
-- [Administration Officer](https://www.vonne.org.uk/vonne-jobs-details?cid=173413) — insufficient service-admin evidence.
 - [Chief Executive Officer (CEO)](https://www.vonne.org.uk/vonne-jobs-details?cid=173422) — out-of-scope VONNE occupation.
 - [Community Cancer Awareness Worker](https://www.vonne.org.uk/vonne-jobs-details?cid=173418) — out-of-scope VONNE occupation.
 - [Community Link Worker](https://www.vonne.org.uk/vonne-jobs-details?cid=173419) — out-of-scope VONNE occupation.
 - [Domestic Abuse Counsellor](https://www.vonne.org.uk/vonne-jobs-details?cid=173427) — insufficient service-admin evidence.
+- [Family Practitioner](https://www.vonne.org.uk/vonne-jobs-details?cid=173441) — out-of-scope VONNE occupation.
 - [Language & Learning Officer](https://www.vonne.org.uk/vonne-jobs-details?cid=173423) — insufficient service-admin evidence.
-- [Marketing and Communications Officer](https://www.vonne.org.uk/vonne-jobs-details?cid=173409) — insufficient service-admin evidence.
 - [Money Advice/Debt Caseworker](https://www.vonne.org.uk/vonne-jobs-details?cid=173416) — out-of-scope VONNE occupation.
-- [Recovery Navigator](https://www.vonne.org.uk/vonne-jobs-details?cid=173414) — insufficient service-admin evidence.
+- [Play & Youth Practitioner- Part-Time and Casual](https://www.vonne.org.uk/vonne-jobs-details?cid=173440) — out-of-scope VONNE occupation.
+- [Recovery Navigator](https://www.vonne.org.uk/vonne-jobs-details?cid=173443) — insufficient service-admin evidence.
 
 ## Safety boundary
 - The script writes CSV and Markdown review outputs only.
