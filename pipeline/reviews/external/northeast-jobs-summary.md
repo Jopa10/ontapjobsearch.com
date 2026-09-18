@@ -1,7 +1,7 @@
 # North East Jobs ETL proof-of-concept review
 
-review_date: 2026-09-17
-review_fingerprint: 817d42dfdea050857c0761cde1f03c029af531e7e0b017f7c5cf3266858767a6
+review_date: 2026-09-18
+review_fingerprint: 09b1dc43b037a5124e939f8363704ac706e8a5eb46d48e48fffd0c47f42243d2
 
 Edit only the `action:` line in each editable block:
 
@@ -11,19 +11,19 @@ Edit only the `action:` line in each editable block:
 - Commit the edit; the review workflow will remember the decision.
 - Decisions are carried forward only while the same vacancy review facts remain unchanged.
 
-Run generated: 2026-09-17T12:41:02+01:00
+Run generated: 2026-09-18T12:13:57+01:00
 RSS input: https://www.northeastjobs.org.uk/RSSJobs.aspx?orgid=62
-JobG8 comparison rows in target geographies: 192
+JobG8 comparison rows in target geographies: 188
 
 ## Funnel
 
-- RSS vacancies read: 782
-- Hard-pass title/teaser screen before detail requests: 725
-- Detail candidates: 57
+- RSS vacancies read: 788
+- Hard-pass title/teaser screen before detail requests: 729
+- Detail candidates: 59
 - Detail failures or unavailable snapshots: 0
 - Outside the two target geographies: 7
-- Tees Valley explicitly excluded: 7
-- Target-geography candidates reviewed: 43
+- Tees Valley explicitly excluded: 8
+- Target-geography candidates reviewed: 44
 
 ## Detail diagnostics
 
@@ -31,18 +31,18 @@ JobG8 comparison rows in target geographies: 192
 
 ## Review outcomes
 
-- HC: 19
+- HC: 20
 - POSS: 24
 - Hard pass: 0
-- Final selected after remembered/manual actions: 21
+- Final selected after remembered/manual actions: 22
 - Final POSS awaiting decision: 21
 - Manually excluded: 1
 - Confirmed JobG8 duplicates: 0
 - Possible JobG8 duplicates: 0
-- Likely unique to North East Jobs: 43
+- Likely unique to North East Jobs: 44
 - Rows in possible within-source duplicate groups: 0
 
-- Manual review warning: manual review date 2026-09-16 is not 2026-09-17; old actions ignored
+- Manual review warning: manual review date 2026-09-17 is not 2026-09-18; old actions ignored
 
 ## SELECTED
 
@@ -102,15 +102,6 @@ source_url: https://www.northeastjobs.org.uk/job/School_Secretary/301524
 ---
 ---
 action:
-SELECTED | North East - Tyneside, Wearside & Northumberland | Sir Charles Parsons School, Westbourne Avenue, Walker, Newcastle upon Tyne, NE6 4ED | £27,274 - £28,153 per annum pro rata (Actual salary £22,786 - £23,520 per annum) | Administration Assistant Level 3
-employer: Newcastle City Council
-closing_date: 18/09/2026 12:00
-reason: clear transferable title: administration assistant
-source_job_id: 301513
-source_url: https://www.northeastjobs.org.uk/job/Administration_Assistant_Level_3/301513
----
----
-action:
 SELECTED | North East - Tyneside, Wearside & Northumberland | South Tyneside Council (derived for filtering) | £26,847 pa pro rata | Administration Assistant – Level 2, 22.5 hpw (Term Time Only) (Westoe Crown Primary School)
 employer: South Tyneside Council
 closing_date: 24/09/2026 12:00
@@ -144,6 +135,24 @@ closing_date: 28/09/2026 12:00
 reason: clear transferable title: administrative assistant
 source_job_id: 301366
 source_url: https://www.northeastjobs.org.uk/job/Administrative_Assistant_Permanent_Malvin_s_Close_Academy/301366
+---
+---
+action:
+SELECTED | North East - Tyneside, Wearside & Northumberland | Newcastle (derived for filtering) | SCP 5 – 6: £23,031 - £23,397 per annum (£25,583 - £25,989 FTE) subject to pending pay rise | Administrative Assistant - Permanent - Welbeck Academy
+employer: Wellbeck Academy
+closing_date: 01/10/2026 12:00
+reason: clear transferable title: administrative assistant
+source_job_id: 301293
+source_url: https://www.northeastjobs.org.uk/job/Administrative_Assistant_Permanent_Welbeck_Academy/301293
+---
+---
+action:
+SELECTED | North East - Tyneside, Wearside & Northumberland | North Tyneside | Grade 5 £27,274 to £28,153 per annum | Appointee & Deputyship Administrator
+employer: North Tyneside Council
+closing_date: 01/10/2026 00:00
+reason: clear transferable title: administrator
+source_job_id: 302183
+source_url: https://www.northeastjobs.org.uk/job/Appointee_Deputyship_Administrator/302183
 ---
 ---
 action:
@@ -192,21 +201,21 @@ source_url: https://www.northeastjobs.org.uk/job/Business_Support_Assistant_in_C
 ---
 ---
 action:
-SELECTED | North East - Tyneside, Wearside & Northumberland | Dubmire Primary Academy / Aim High Academy Trust | Grade 3 (SCP 7-11 £27,274 - £29,071 pro rata) | Business Support Officer
-employer: AIM High Academy Trust
-closing_date: 18/09/2026 09:00
-reason: clear transferable title: business support officer
-source_job_id: 301610
-source_url: https://www.northeastjobs.org.uk/job/Business_Support_Officer/301610
----
----
-action:
 SELECTED | North East - Tyneside, Wearside & Northumberland | Newcastle City Council (derived for filtering) | £27,274 - £28,153 pro rata, per annum (plus enhancements for out of hours) | Customer Service Advisor
 employer: Newcastle City Council
 closing_date: 20/09/2026 22:59
 reason: clear transferable title: customer service advisor
 source_job_id: 300841
 source_url: https://www.northeastjobs.org.uk/job/Customer_Service_Advisor/300841
+---
+---
+action:
+SELECTED | North East - Tyneside, Wearside & Northumberland | Grasmere Academy, Grasmere Court, Killingworth, Newcastle upon Tyne, NE12 6TS | £24,238 - £25,902 pro rata | DBS01153/26 - Office Administrator - Grasmere Academy
+employer: North Tyneside Council
+closing_date: 02/10/2026
+reason: clear transferable title: administrator
+source_job_id: 302175
+source_url: https://www.northeastjobs.org.uk/job/DBS01153_26_Office_Administrator_Grasmere_Academy/302175
 ---
 ---
 action:
