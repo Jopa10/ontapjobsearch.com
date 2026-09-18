@@ -1,6 +1,6 @@
 # Support-worker manual review
 
-feed_date: 2026-09-17
+feed_date: 2026-09-18
 
 Edit only the `action:` line in each block:
 
@@ -35,12 +35,6 @@ _No jobs in this group._
 action:
 SELECTED | North East - Tyneside, Wearside & Northumberland | South Shields | £26,436 per annum | Young People Support Worker
 job_id: 1909446
----
-
----
-action:
-SELECTED | North East - Tyneside, Wearside & Northumberland | Whitley Bay | £12.85 per hour (plus rolled up holiday pay) | Female Relief Support Worker
-job_id: 107936149
 ---
 
 ## NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL — SELECTED
@@ -187,6 +181,18 @@ SELECTED | Hampshire | Southampton | £13.45 - £14.00 per hour | Part-Time Supp
 job_id: 1932858
 ---
 
+---
+action:
+SELECTED | Hampshire | Southampton | £25,845 per year | Support Worker
+job_id: 50992167369729638437341
+---
+
+---
+action:
+SELECTED | Hampshire | Southampton | £25,845 per annum | Male Support Worker
+job_id: 686199911844570726437341
+---
+
 ## HAMPSHIRE — POSSIBLES
 
 _No jobs in this group._
@@ -231,12 +237,6 @@ job_id: 589431165057551564837340
 
 ---
 action:
-SELECTED | Kent | Tunbridge Wells | £25,845 per annum | Female Support Worker - Waking Nights
-job_id: 745731869418874470437340
----
-
----
-action:
 SELECTED | Kent | Tonbridge | £25,845 per annum | Male Support Worker
 job_id: 865919784380792832037340
 ---
@@ -259,6 +259,12 @@ SELECTED | Kent | Tunbridge Wells | competitive + benefits | Qualified Hearing C
 job_id: 1402265374
 ---
 
+---
+action:
+SELECTED | Kent | Maidstone | £25,845 per annum | Female Support Worker
+job_id: 117813832060606873637341
+---
+
 ## KENT — POSSIBLES
 
 _No jobs in this group._
@@ -269,12 +275,6 @@ _No jobs in this group._
 action:
 SELECTED | London | Bromley | £100 - £110 per daily | Autism Support Worker
 job_id: 1815970
----
-
----
-action:
-SELECTED | London | London | £16.95 per hour | Relief Worker - Care Assistant
-job_id: 1878281
 ---
 
 ---
@@ -347,6 +347,12 @@ job_id: 186045280252696985637340
 action:
 SELECTED | Surrey | Caterham | £25,845 per annum | Female Support Worker
 job_id: 407022828536620646437340
+---
+
+---
+action:
+SELECTED | Surrey | Guildford | £25,845 per annum | Support Worker
+job_id: 848325839117772390437341
 ---
 
 ## SURREY — POSSIBLES
