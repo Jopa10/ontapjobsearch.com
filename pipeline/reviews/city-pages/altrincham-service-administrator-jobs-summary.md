@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 1
-- automatic review: 9
+- automatic review: 8
 - automatic exclude: 0
 - effective include: 1
-- effective review: 9
+- effective review: 8
 - effective exclude: 0
 
 ## INCLUDE (1)
@@ -36,7 +36,19 @@ job_id: jobg8-1869719
 reason: Exact approved Altrincham workplace.
 ---
 
-## REVIEW (9)
+## REVIEW (8)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Assistant
+company: Michael Page Finance - Agency - Permanent
+location: Stockport
+source: JobG8
+job_id: jobg8-1950420
+reason: No exact Altrincham workplace matched; local geographic review is required.
+---
 
 ---
 action: 
@@ -102,35 +114,11 @@ reason: No exact Altrincham workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: PPC Manager
-company: Searchability - Agency - Permanent
-location: Cheshire
-source: JobG8
-job_id: jobg8-1771666
-reason: No exact Altrincham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Recruitment Coordinator
 company: IRIS Recruitment - Agency - Permanent
 location: Sale
 source: JobG8
 job_id: jobg8-1876630
-reason: No exact Altrincham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Social Media Executive
-company: Reed - Agency - Permanent
-location: Cheadle
-source: JobG8
-job_id: jobg8-1771605
 reason: No exact Altrincham workplace matched; local geographic review is required.
 ---
 

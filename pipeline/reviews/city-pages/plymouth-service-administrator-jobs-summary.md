@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 1
-- automatic review: 13
+- automatic review: 14
 - automatic exclude: 0
 - effective include: 1
-- effective review: 13
+- effective review: 14
 - effective exclude: 0
 
 ## INCLUDE (1)
@@ -36,7 +36,7 @@ job_id: teaching-vacancies-estates-administrator-learning-academies-trust
 reason: Exact approved Plymouth workplace.
 ---
 
-## REVIEW (13)
+## REVIEW (14)
 
 ---
 action: 
@@ -90,11 +90,35 @@ reason: No exact Plymouth workplace matched; local geographic review is required
 action: 
 decision: review
 automatic_decision: review
+title: Finance Administrator
+company: Brook Street UK - Agency - Temporary
+location: Exeter
+source: JobG8
+job_id: jobg8-107981565
+reason: No exact Plymouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Finance Assistant
 company: Adecco - Agency - Permanent
 location: Exeter
 source: JobG8
 job_id: jobg8-1898300
+reason: No exact Plymouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Finance Assistant
+company: Hays Specialist Recruitment Limited - Agency - Permanent
+location: Exeter
+source: JobG8
+job_id: jobg8-1949612
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 
@@ -130,7 +154,7 @@ title: HR Administrator
 company: Artis Recruitment - Agency - Permanent
 location: Newton Abbot
 source: JobG8
-job_id: jobg8-1841483
+job_id: jobg8-1945151
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 
@@ -143,18 +167,6 @@ company: Reed - Agency - Permanent
 location: Exeter
 source: JobG8
 job_id: jobg8-1842702
-reason: No exact Plymouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Recruitment Account Co-ordinator
-company: Acorn by Synergie - Agency - Permanent
-location: Devon
-source: JobG8
-job_id: jobg8-107953534
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 

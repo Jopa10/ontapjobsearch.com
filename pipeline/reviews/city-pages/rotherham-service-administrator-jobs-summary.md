@@ -4,7 +4,7 @@
 - Live route: `/rotherham/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 1
+- Effective included jobs: 0
 - Threshold currently met: no
 
 ## How to review
@@ -15,26 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 1
+- automatic include: 0
 - automatic review: 5
 - automatic exclude: 0
-- effective include: 1
+- effective include: 0
 - effective review: 5
 - effective exclude: 0
 
-## INCLUDE (1)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Business Support Officer
-company: Rotherham Parents Forum Limited - Agency - Permanent
-location: Rotherham
-source: JobG8
-job_id: jobg8-1892135
-reason: Exact approved Rotherham workplace.
----
+## INCLUDE (0)
 
 ## REVIEW (5)
 

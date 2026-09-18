@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 1
 - automatic review: 0
-- automatic exclude: 5
+- automatic exclude: 4
 - effective include: 1
 - effective review: 0
-- effective exclude: 5
+- effective exclude: 4
 
 ## INCLUDE (1)
 
@@ -38,7 +38,7 @@ reason: Approved Sheffield catchment.
 
 ## REVIEW (0)
 
-## EXCLUDE (5)
+## EXCLUDE (4)
 
 ---
 action: 
@@ -49,18 +49,6 @@ company: Garland House Surgery
 location: Barnsley, S73 9JX
 source: NHS Jobs
 job_id: nhs-5295793
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Business Support Officer
-company: Rotherham Parents Forum Limited - Agency - Permanent
-location: Rotherham
-source: JobG8
-job_id: jobg8-1892135
 reason: Separate employment market.
 ---
 

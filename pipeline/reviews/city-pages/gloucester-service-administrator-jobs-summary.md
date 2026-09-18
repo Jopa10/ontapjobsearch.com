@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 3
-- automatic review: 14
+- automatic review: 15
 - automatic exclude: 0
 - effective include: 3
-- effective review: 14
+- effective review: 15
 - effective exclude: 0
 
 ## INCLUDE (3)
@@ -60,7 +60,7 @@ job_id: jobg8-1932863
 reason: Exact approved Gloucester workplace.
 ---
 
-## REVIEW (14)
+## REVIEW (15)
 
 ---
 action: 
@@ -215,6 +215,18 @@ company: i2i Recruitment Consultancy - Agency - Permanent
 location: Gloucestershire
 source: JobG8
 job_id: jobg8-1823123
+reason: No exact Gloucester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Product Marketing Manager
+company: i2i Recruitment Consultancy - Agency - Permanent
+location: Gloucestershire
+source: JobG8
+job_id: jobg8-1944195
 reason: No exact Gloucester workplace matched; local geographic review is required.
 ---
 

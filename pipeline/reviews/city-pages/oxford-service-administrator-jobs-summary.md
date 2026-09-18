@@ -4,7 +4,7 @@
 - Live route: `/oxford/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 3
+- Effective included jobs: 4
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,26 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 3
+- automatic include: 4
 - automatic review: 0
-- automatic exclude: 7
-- effective include: 3
+- automatic exclude: 6
+- effective include: 4
 - effective review: 0
-- effective exclude: 7
+- effective exclude: 6
 
-## INCLUDE (3)
+## INCLUDE (4)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Accounts Assistant
+company: Robert Half - Agency - Permanent
+location: Oxford
+source: JobG8
+job_id: jobg8-1949577
+reason: Approved conservative Oxford launch catchment.
+---
 
 ---
 action: 
@@ -62,19 +74,7 @@ reason: Approved conservative Oxford launch catchment.
 
 ## REVIEW (0)
 
-## EXCLUDE (7)
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Communications Officer (Maternity Cover)
-company: Global Canopy - Agency - Permanent
-location: Oxfordshire
-source: JobG8
-job_id: jobg8-1939098
-reason: Broad county location; not Oxford-city evidence.
----
+## EXCLUDE (6)
 
 ---
 action: 
@@ -116,11 +116,11 @@ reason: Broad county location; not Oxford-city evidence.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Marketing Manager
-company: Abingdon School - Agency - Permanent
+title: Marketing Executive
+company: Plus One Recruitment - Agency - Permanent
 location: Oxfordshire
 source: JobG8
-job_id: jobg8-1859419
+job_id: jobg8-1950414
 reason: Broad county location; not Oxford-city evidence.
 ---
 
@@ -128,11 +128,11 @@ reason: Broad county location; not Oxford-city evidence.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Sales & Customer Service Support Administrator
-company: The Recruitment Group - Agency - Permanent
+title: Marketing Manager
+company: Abingdon School - Agency - Permanent
 location: Oxfordshire
 source: JobG8
-job_id: jobg8-107901549
+job_id: jobg8-1859419
 reason: Broad county location; not Oxford-city evidence.
 ---
 

@@ -100,6 +100,18 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Medical Receptionist-Admin
+company: City Road Medical Centre
+location: Birmingham, B184HL
+source: NHS Jobs
+job_id: nhs-5604855
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: People & Recruitment Coordinator
 company: ADI Group Services Ltd - Agency - Permanent
 location: Birmingham
@@ -156,29 +168,17 @@ job_id: jobg8-1899929
 reason: Approved conservative Birmingham launch catchment.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
-company: Qualify Nation Recruitment - Agency - Permanent
-location: Birmingham
-source: JobG8
-job_id: jobg8-1932508
-reason: Approved conservative Birmingham launch catchment.
----
-
 ## REVIEW (1)
 
 ---
 action: 
 decision: review
 automatic_decision: review
-title: Receptionist - Bank
-company: Avery Healthcare Group Ltd.
-location: Knowle, B93 9LQ
-source: NHS Jobs
-job_id: nhs-5566975
+title: Communications and Marketing Manager - Fixed Term Contract 2 Years
+company: Birmingham Hospice - Agency - Permanent
+location: Staffordshire
+source: JobG8
+job_id: jobg8-1950310
 reason: No approved Birmingham catchment rule matched; local review required.
 ---
 

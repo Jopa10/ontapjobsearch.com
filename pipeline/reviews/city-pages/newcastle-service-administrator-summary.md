@@ -4,7 +4,7 @@
 - Live route: `/newcastle/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 5
+- Effective included jobs: 4
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 5
-- automatic review: 11
+- automatic include: 4
+- automatic review: 10
 - automatic exclude: 11
-- effective include: 5
-- effective review: 11
+- effective include: 4
+- effective review: 10
 - effective exclude: 11
 
-## INCLUDE (5)
+## INCLUDE (4)
 
 ---
 action: 
@@ -52,18 +52,6 @@ reason: Approved Newcastle catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Administrator
-company: TPP Recruitment - Agency - Permanent
-location: Newcastle Upon Tyne
-source: JobG8
-job_id: jobg8-1927931
-reason: Approved Newcastle catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Home Administrator
 company: Akari Care Limited
 location: Gateshead, NE8 1QU
@@ -84,18 +72,18 @@ job_id: nhs-5598890
 reason: Approved Newcastle catchment.
 ---
 
-## REVIEW (11)
+## REVIEW (10)
 
 ---
 action: 
 decision: review
 automatic_decision: review
-title: Administrator
-company: Northumbria Healthcare NHS Foundation Trust
-location: North Shields, NE29 8NH
-source: NHS Jobs
-job_id: nhs-5588627
-reason: No approved Newcastle catchment rule matched; local review required.
+title: Accounts Payable Assistant
+company: Pavilion Recruitment Solutions - Agency - Permanent
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-1832242
+reason: Broad location; review before city inclusion.
 ---
 
 ---
@@ -114,12 +102,24 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Customer Service Advisor x 2 Posts
-company: South Tyneside Council
-location: South Tyneside Council
-source: NEJobs
-job_id: nejobs-301438
-reason: No approved Newcastle catchment rule matched; local review required.
+title: Bookkeeper
+company: Reed - Agency - Permanent
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-1831568
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Credit Controller
+company: Hays Specialist Recruitment Limited - Agency - Permanent
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-1905519
+reason: Broad location; review before city inclusion.
 ---
 
 ---
@@ -174,18 +174,6 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Project Development Co-ordinator
-company: National Energy Action
-location: North East (hybrid)
-source: VONNE
-job_id: vonne-173385
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Sales Advisor - Part Time
 company: EE - Company - Permanent
 location: Cramlington
@@ -204,18 +192,6 @@ location: Eddie Ferguson House, Blyth, United Kingdom
 source: NEJobs
 job_id: nejobs-301243
 reason: No approved Newcastle catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
-company: Qualify Nation Recruitment - Agency - Permanent
-location: Tyne And Wear
-source: JobG8
-job_id: jobg8-1932521
-reason: Broad location; review before city inclusion.
 ---
 
 ## EXCLUDE (11)
@@ -272,23 +248,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Centre Coordinator
-company: Burnhope Community Centre - Agency - Permanent
+title: Finance Assistant
+company: Ernest Gordon Recruitment Limited - Agency - Permanent
 location: County Durham
 source: JobG8
-job_id: jobg8-1880245
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Digital Marketing Officer
-company: SRG - Agency - Permanent
-location: County Durham
-source: JobG8
-job_id: jobg8-1831208
+job_id: jobg8-1950247
 reason: Separate employment market.
 ---
 
@@ -301,6 +265,18 @@ company: Ronald James - Agency - Permanent
 location: County Durham
 source: JobG8
 job_id: jobg8-1869910
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Payroll and Credit Controller
+company: Spear-heads - Agency - Permanent
+location: County Durham
+source: JobG8
+job_id: jobg8-1933966
 reason: Separate employment market.
 ---
 

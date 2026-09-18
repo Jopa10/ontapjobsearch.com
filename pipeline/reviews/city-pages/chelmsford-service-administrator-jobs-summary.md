@@ -4,7 +4,7 @@
 - Live route: `/chelmsford/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 7
+- Effective included jobs: 9
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,26 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 7
-- automatic review: 47
+- automatic include: 9
+- automatic review: 51
 - automatic exclude: 0
-- effective include: 7
-- effective review: 47
+- effective include: 9
+- effective review: 51
 - effective exclude: 0
 
-## INCLUDE (7)
+## INCLUDE (9)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administrator
+company: Mid and South Essex NHS Foundation Trust
+location: Chelmsford, CM1 7ET
+source: NHS Jobs
+job_id: nhs-5607203
+reason: Exact approved Chelmsford workplace.
+---
 
 ---
 action: 
@@ -100,6 +112,18 @@ reason: Exact approved Chelmsford workplace.
 action: 
 decision: include
 automatic_decision: include
+title: Underwriting Admin Assistant
+company: Office Angels - Agency - Permanent
+location: Chelmsford
+source: JobG8
+job_id: jobg8-1949650
+reason: Exact approved Chelmsford workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Underwriting Administrator
 company: TIME Appointments Ltd - Agency - Permanent
 location: Chelmsford
@@ -108,7 +132,7 @@ job_id: jobg8-1928047
 reason: Exact approved Chelmsford workplace.
 ---
 
-## REVIEW (47)
+## REVIEW (51)
 
 ---
 action: 
@@ -139,10 +163,34 @@ action:
 decision: review
 automatic_decision: review
 title: Accounts Payable Clerk
+company: Chalk Hill Group - Agency - Permanent
+location: Basildon
+source: JobG8
+job_id: jobg8-1945014
+reason: No exact Chelmsford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Payable Clerk
 company: Rutherford Briant - Agency - Permanent
 location: Essex
 source: JobG8
 job_id: jobg8-1800553
+reason: No exact Chelmsford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: Alliance Medical Ltd
+location: Southend-on-Sea, SS0 0RY
+source: NHS Jobs
+job_id: nhs-5465926
 reason: No exact Chelmsford workplace matched; local geographic review is required.
 ---
 
@@ -318,6 +366,18 @@ reason: No exact Chelmsford workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
+title: Conveyancing Legal Secretary
+company: JS Legal Recruitment Ltd - Agency - Permanent
+location: Essex
+source: JobG8
+job_id: jobg8-1944878
+reason: No exact Chelmsford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Conveyancing Paralegal
 company: Clear Legal & Financial Recruitment - Agency - Permanent
 location: Essex
@@ -359,6 +419,18 @@ company: Rutherford Briant - Agency - Permanent
 location: Essex
 source: JobG8
 job_id: jobg8-1912289
+reason: No exact Chelmsford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Finance Assistant
+company: HBS Group - Agency - Permanent
+location: Essex
+source: JobG8
+job_id: jobg8-1944893
 reason: No exact Chelmsford workplace matched; local geographic review is required.
 ---
 
@@ -606,18 +678,6 @@ reason: No exact Chelmsford workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Receptionist
-company: Avery Healthcare Group Ltd.
-location: Braintree, CM7 5SE
-source: NHS Jobs
-job_id: nhs-5589782
-reason: No exact Chelmsford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Residential Property Paralegal
 company: REED - Agency - Permanent
 location: Essex
@@ -671,6 +731,18 @@ company: Zachary Daniels - Agency - Permanent
 location: Essex
 source: JobG8
 job_id: jobg8-1877354
+reason: No exact Chelmsford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Wills and Estates Legal Assistant
+company: JS Legal Recruitment Ltd - Agency - Permanent
+location: Colchester
+source: JobG8
+job_id: jobg8-1944877
 reason: No exact Chelmsford workplace matched; local geographic review is required.
 ---
 

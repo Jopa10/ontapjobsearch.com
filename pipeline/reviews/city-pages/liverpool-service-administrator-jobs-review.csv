@@ -1,10 +1,6 @@
 decision,job_id,title,company,location,source,automatic_decision,effective_decision,reason,matched_rule,city_key
 include,jobg8-1907658,Accounts assistant,Nigel Wright Group - Agency - Permanent,Liverpool,JobG8,include,include,Approved conservative Liverpool launch catchment.,liverpool,liverpool-service-administrator-jobs
 include,jobg8-1937916,Accounts Assistant,Reed - Agency - Permanent,Liverpool,JobG8,include,include,Approved conservative Liverpool launch catchment.,liverpool,liverpool-service-administrator-jobs
-include,jobg8-1830080,Claims Handler - EL & PL,Keoghs LLP - Agency - Permanent,Liverpool,JobG8,include,include,Approved conservative Liverpool launch catchment.,liverpool,liverpool-service-administrator-jobs
-include,nhs-5603282,Clerical Officer,Liverpool University Hospitals NHS Foundation Trust,"Liverpool, L7 8YE",NHS Jobs,include,include,Approved conservative Liverpool launch catchment.,liverpool,liverpool-service-administrator-jobs
 include,jobg8-179950371190341632037340,Digital Marketing Assistant Manager,MHA - Agency - Permanent,Liverpool,JobG8,include,include,Approved conservative Liverpool launch catchment.,liverpool,liverpool-service-administrator-jobs
 include,jobg8-1870162,Marketing Executive,Michael Page Business Support - Agency - Permanent,Liverpool,JobG8,include,include,Approved conservative Liverpool launch catchment.,liverpool,liverpool-service-administrator-jobs
-include,jobg8-1900863,Operations & Social Media Coordinator,Adaptable Recruitment - Agency - Permanent,Liverpool,JobG8,include,include,Approved conservative Liverpool launch catchment.,liverpool,liverpool-service-administrator-jobs
 review,jobg8-1839653,Digital Marketing Assistant Manager,MHA - Agency - Permanent,Merseyside,JobG8,review,review,Broad county location; review before Liverpool inclusion.,merseyside,liverpool-service-administrator-jobs
-review,jobg8-1932519,Trainee Digital Marketing Manager No experience needed (Ref: 6901),Qualify Nation Recruitment - Agency - Permanent,Merseyside,JobG8,review,review,Broad county location; review before Liverpool inclusion.,merseyside,liverpool-service-administrator-jobs

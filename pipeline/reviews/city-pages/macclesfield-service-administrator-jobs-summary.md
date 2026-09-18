@@ -16,15 +16,15 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 0
-- automatic review: 8
+- automatic review: 7
 - automatic exclude: 0
 - effective include: 0
-- effective review: 8
+- effective review: 7
 - effective exclude: 0
 
 ## INCLUDE (0)
 
-## REVIEW (8)
+## REVIEW (7)
 
 ---
 action: 
@@ -95,18 +95,6 @@ company: Massenhove Recruitment Limited - Agency - Permanent
 location: Nantwich
 source: JobG8
 job_id: jobg8-1851532
-reason: No exact Macclesfield workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Merchandise Planner
-company: Pets at Home - Agency - Contract
-location: Wilmslow
-source: JobG8
-job_id: jobg8-107891277
 reason: No exact Macclesfield workplace matched; local geographic review is required.
 ---
 

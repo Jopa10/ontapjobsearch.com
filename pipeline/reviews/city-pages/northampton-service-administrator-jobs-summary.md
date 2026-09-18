@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 2
-- automatic review: 9
+- automatic review: 11
 - automatic exclude: 0
 - effective include: 2
-- effective review: 9
+- effective review: 11
 - effective exclude: 0
 
 ## INCLUDE (2)
@@ -48,7 +48,7 @@ job_id: jobg8-1851038
 reason: Exact approved Northampton workplace.
 ---
 
-## REVIEW (9)
+## REVIEW (11)
 
 ---
 action: 
@@ -71,6 +71,18 @@ company: 360-Recruitment - Agency - Permanent
 location: Northamptonshire
 source: JobG8
 job_id: jobg8-1908969
+reason: No exact Northampton workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: caldecotte group services ltd - Agency - Permanent
+location: Northamptonshire
+source: JobG8
+job_id: jobg8-275574729095302348837341
 reason: No exact Northampton workplace matched; local geographic review is required.
 ---
 
@@ -143,6 +155,18 @@ company: Abacus Consulting - Agency - Permanent
 location: Northamptonshire
 source: JobG8
 job_id: jobg8-1800671
+reason: No exact Northampton workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Receptionist
+company: Avery Healthcare Group Ltd.
+location: Kettering, NN16 9JB
+source: NHS Jobs
+job_id: nhs-5606000
 reason: No exact Northampton workplace matched; local geographic review is required.
 ---
 

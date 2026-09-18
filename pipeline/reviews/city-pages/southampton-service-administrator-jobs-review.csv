@@ -1,10 +1,8 @@
 decision,job_id,title,company,location,source,automatic_decision,effective_decision,reason,matched_rule,city_key
 include,jobg8-107193862,Insurance Account Executive,Aspire Jobs Limited - Agency - Permanent,Southampton,JobG8,include,include,Approved Southampton catchment.,southampton,southampton-service-administrator-jobs
-review,nhs-5591061,Administrator,Rowner Medical Centre,"Gosport, PO13 9SP",NHS Jobs,review,review,No approved Southampton catchment rule matched; local review required.,fallback,southampton-service-administrator-jobs
 review,jobg8-107872412,Administrator Apprentice,Blake Morgan LLP - Agency - Contract,Hampshire,JobG8,review,review,Broad location; review before city inclusion.,hampshire,southampton-service-administrator-jobs
 review,jobg8-107963757,Care Coordinator,Agincare Group - Agency - Permanent,Hampshire,JobG8,review,review,Broad location; review before city inclusion.,hampshire,southampton-service-administrator-jobs
 review,teaching-vacancies-exams-officer-and-assessment-data-co-ordinator,Exams Officer and Assessment Data Co ordinator,Perins School,Alresford,Teaching Vacancies,review,review,No approved Southampton catchment rule matched; local review required.,fallback,southampton-service-administrator-jobs
-review,jobg8-1885642,Finance Assistant,CMA Recruitment Group - Agency - Permanent,Hampshire,JobG8,review,review,Broad location; review before city inclusion.,hampshire,southampton-service-administrator-jobs
 review,jobg8-1838784,Finance Assistant,Reed - Agency - Permanent,Hampshire,JobG8,review,review,Broad location; review before city inclusion.,hampshire,southampton-service-administrator-jobs
 review,jobg8-1871498,HR Administrator,4Recruitment Services - Agency - Permanent,Lyndhurst,JobG8,review,review,No approved Southampton catchment rule matched; local review required.,fallback,southampton-service-administrator-jobs
 review,jobg8-107605314,Lifestyle Coordinator,Care UK - Company - Permanent,Hampshire,JobG8,review,review,Broad location; review before city inclusion.,hampshire,southampton-service-administrator-jobs

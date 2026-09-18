@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 1
 - automatic review: 6
-- automatic exclude: 10
+- automatic exclude: 9
 - effective include: 1
 - effective review: 6
-- effective exclude: 10
+- effective exclude: 9
 
 ## INCLUDE (1)
 
@@ -110,7 +110,7 @@ job_id: jobg8-1880493
 reason: No approved York catchment rule matched; local review required.
 ---
 
-## EXCLUDE (10)
+## EXCLUDE (9)
 
 ---
 action: 
@@ -205,18 +205,6 @@ company: Reed - Agency - Permanent
 location: Yorkshire
 source: JobG8
 job_id: jobg8-1867235
-reason: Broad regional label; not York-city evidence.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Senior Content Creator
-company: Si Recruitment - Agency - Permanent
-location: Yorkshire
-source: JobG8
-job_id: jobg8-1848150
 reason: Broad regional label; not York-city evidence.
 ---
 

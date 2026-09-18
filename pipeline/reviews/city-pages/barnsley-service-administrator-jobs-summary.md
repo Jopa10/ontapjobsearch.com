@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 2
 - automatic review: 0
-- automatic exclude: 4
+- automatic exclude: 3
 - effective include: 2
 - effective review: 0
-- effective exclude: 4
+- effective exclude: 3
 
 ## INCLUDE (2)
 
@@ -50,19 +50,7 @@ reason: Approved Barnsley catchment.
 
 ## REVIEW (0)
 
-## EXCLUDE (4)
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Business Support Officer
-company: Rotherham Parents Forum Limited - Agency - Permanent
-location: Rotherham
-source: JobG8
-job_id: jobg8-1892135
-reason: Separate employment market.
----
+## EXCLUDE (3)
 
 ---
 action: 

@@ -16,15 +16,15 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 0
-- automatic review: 17
+- automatic review: 16
 - automatic exclude: 0
 - effective include: 0
-- effective review: 17
+- effective review: 16
 - effective exclude: 0
 
 ## INCLUDE (0)
 
-## REVIEW (17)
+## REVIEW (16)
 
 ---
 action: 
@@ -203,18 +203,6 @@ company: Reed - Agency - Permanent
 location: Yorkshire
 source: JobG8
 job_id: jobg8-1867235
-reason: No exact Scarborough workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Senior Content Creator
-company: Si Recruitment - Agency - Permanent
-location: Yorkshire
-source: JobG8
-job_id: jobg8-1848150
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 

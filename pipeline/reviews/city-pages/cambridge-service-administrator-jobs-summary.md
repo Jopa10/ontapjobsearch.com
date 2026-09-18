@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 11
 - automatic review: 1
-- automatic exclude: 6
+- automatic exclude: 5
 - effective include: 11
 - effective review: 1
-- effective exclude: 6
+- effective exclude: 5
 
 ## INCLUDE (11)
 
@@ -45,6 +45,18 @@ company: Eclectic Recruitment - Agency - Permanent
 location: Cambridge
 source: JobG8
 job_id: jobg8-1877925
+reason: Approved conservative Cambridge launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: CAMB - Client Services Coordinator
+company: RecruitAbility Ltd - Agency - Permanent
+location: Cambridge
+source: JobG8
+job_id: jobg8-1944668
 reason: Approved conservative Cambridge launch catchment.
 ---
 
@@ -144,18 +156,6 @@ job_id: jobg8-1826872
 reason: Approved conservative Cambridge launch catchment.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Sporting Events Administrator
-company: Alzheimer's Research UK - Agency - Permanent
-location: Cambridge
-source: JobG8
-job_id: jobg8-1927948
-reason: Approved conservative Cambridge launch catchment.
----
-
 ## REVIEW (1)
 
 ---
@@ -170,7 +170,7 @@ job_id: teaching-vacancies-finance-admin-assistant-priory-junior-school-st-neots
 reason: No approved Cambridge catchment rule matched; local review required.
 ---
 
-## EXCLUDE (6)
+## EXCLUDE (5)
 
 ---
 action: 
@@ -217,18 +217,6 @@ company: Broster Buchanan - Agency - Permanent
 location: Peterborough
 source: JobG8
 job_id: jobg8-1905510
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Pastoral Services Administrator
-company: Queen Katharine Academy
-location: Peterborough
-source: Teaching Vacancies
-job_id: teaching-vacancies-pastoral-services-administrator-queen-katharine-academy-peterborough-cambridgeshire
 reason: Separate employment market.
 ---
 

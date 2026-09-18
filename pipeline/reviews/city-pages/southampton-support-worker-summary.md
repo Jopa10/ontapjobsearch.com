@@ -4,8 +4,8 @@
 - Live route: `/southampton/support-worker`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 4
-- Threshold currently met: no
+- Effective included jobs: 6
+- Threshold currently met: yes
 
 ## How to review
 Edit only the `action:` line inside a job block.
@@ -15,14 +15,26 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 4
+- automatic include: 6
 - automatic review: 8
 - automatic exclude: 2
-- effective include: 4
+- effective include: 6
 - effective review: 8
 - effective exclude: 2
 
-## INCLUDE (4)
+## INCLUDE (6)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Male Support Worker
+company: Avenues Group - Company - Permanent
+location: Southampton
+source: JobG8
+job_id: jobg8-686199911844570726437341
+reason: Approved Southampton catchment.
+---
 
 ---
 action: 
@@ -57,6 +69,18 @@ company: Hampshire County Council - Company - Permanent
 location: Southampton
 source: JobG8
 job_id: jobg8-1401784780
+reason: Approved Southampton catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Support Worker
+company: Avenues Group - Company - Permanent
+location: Southampton
+source: JobG8
+job_id: jobg8-50992167369729638437341
 reason: Approved Southampton catchment.
 ---
 

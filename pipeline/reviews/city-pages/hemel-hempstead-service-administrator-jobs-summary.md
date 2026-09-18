@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 1
-- automatic review: 17
+- automatic review: 16
 - automatic exclude: 0
 - effective include: 1
-- effective review: 17
+- effective review: 16
 - effective exclude: 0
 
 ## INCLUDE (1)
@@ -36,7 +36,7 @@ job_id: jobg8-1877352
 reason: Exact approved Hemel Hempstead workplace.
 ---
 
-## REVIEW (17)
+## REVIEW (16)
 
 ---
 action: 
@@ -54,35 +54,11 @@ reason: No exact Hemel Hempstead workplace matched; local geographic review is r
 action: 
 decision: review
 automatic_decision: review
-title: Administrator - Hertfordshire
-company: Vaccination UK
-location: Welwyn Garden City, AL71HH
-source: NHS Jobs
-job_id: nhs-5439405
-reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Administrator and Pupil Welfare
 company: The Orchard Primary School
 location: Watford
 source: Teaching Vacancies
 job_id: teaching-vacancies-administrator-and-pupil-welfare-the-orchard-primary-school
-reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Claims Handler
-company: Mission 4 Recruitment Ltd - Agency - Permanent
-location: Hertfordshire
-source: JobG8
-job_id: jobg8-1933343
 reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
 ---
 
@@ -138,6 +114,18 @@ reason: No exact Hemel Hempstead workplace matched; local geographic review is r
 action: 
 decision: review
 automatic_decision: review
+title: Finance Assistant
+company: Investigo - Agency - Permanent
+location: Hertfordshire
+source: JobG8
+job_id: jobg8-1945616
+reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: HR Coordinator
 company: STORMX RECRUITMENT LIMITED - Agency - Permanent
 location: Hertfordshire
@@ -167,6 +155,18 @@ company: Brand Recruitment - Agency - Permanent
 location: Hertfordshire
 source: JobG8
 job_id: jobg8-1938290
+reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Marketing Manager
+company: JSL Solutions Ltd - Agency - Permanent
+location: Hertfordshire
+source: JobG8
+job_id: jobg8-1944669
 reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
 ---
 
@@ -210,23 +210,11 @@ reason: No exact Hemel Hempstead workplace matched; local geographic review is r
 action: 
 decision: review
 automatic_decision: review
-title: Personal Assistant to the Headteacher and Senior Leadership Team
-company: Bishop's Hatfield Girls' School
-location: Hatfield
-source: Teaching Vacancies
-job_id: teaching-vacancies-personal-assistant-to-the-headteacher-and-senior-leadership-team
-reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: School Receptionist - Part-time
-company: The Reach Free School
-location: Rickmansworth
-source: Teaching Vacancies
-job_id: teaching-vacancies-school-receptionist-part-time
+title: Team Administrator
+company: Hertfordshire Partnership University NHS Foundation Trust
+location: Watford, WD18 0JP
+source: NHS Jobs
+job_id: nhs-5607673
 reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
 ---
 

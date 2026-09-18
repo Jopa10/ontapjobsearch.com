@@ -16,15 +16,15 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 0
-- automatic review: 29
+- automatic review: 30
 - automatic exclude: 0
 - effective include: 0
-- effective review: 29
+- effective review: 30
 - effective exclude: 0
 
 ## INCLUDE (0)
 
-## REVIEW (29)
+## REVIEW (30)
 
 ---
 action: 
@@ -103,10 +103,10 @@ action:
 decision: review
 automatic_decision: review
 title: Administrator
-company: Kent and Medway Mental Health NHS Trust
-location: Canterbury, CT1 1AZ
+company: HCRG Care Group
+location: Kent, DA1 1SA
 source: NHS Jobs
-job_id: nhs-5589424
+job_id: nhs-5587232
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 
@@ -131,6 +131,18 @@ company: Hawke Search - Agency - Permanent
 location: Kent
 source: JobG8
 job_id: jobg8-1828465
+reason: No exact Maidstone workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Digital Marketing Assistant
+company: Reed - Agency - Permanent
+location: Kent
+source: JobG8
+job_id: jobg8-1950127
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 

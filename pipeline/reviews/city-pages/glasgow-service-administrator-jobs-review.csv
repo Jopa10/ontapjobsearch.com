@@ -1,7 +1,6 @@
 decision,job_id,title,company,location,source,automatic_decision,effective_decision,reason,matched_rule,city_key
 include,jobg8-20279_62718-89740a075c6163b74ea2c52702062e5d,Call Centre Agent,EE - Company - Permanent,Glasgow,JobG8,include,include,Approved conservative Glasgow launch catchment.,glasgow,glasgow-service-administrator-jobs
 include,jobg8-20279_62718-73862c8b83139033e4e4a8b6efca9a33,Call Centre Operator,EE - Company - Permanent,Glasgow,JobG8,include,include,Approved conservative Glasgow launch catchment.,glasgow,glasgow-service-administrator-jobs
-include,jobg8-1860279,Claims Handler (FTC),SGN - Agency - Permanent,Glasgow,JobG8,include,include,Approved conservative Glasgow launch catchment.,glasgow,glasgow-service-administrator-jobs
 include,jobg8-20279_62718-d24d3d6916a209e15b1680693740da2f,Contact Centre Agent,EE - Company - Permanent,Glasgow,JobG8,include,include,Approved conservative Glasgow launch catchment.,glasgow,glasgow-service-administrator-jobs
 include,jobg8-20279_62718-153faf593eb64b88272f45adeaa28d87,Customer Service Advisor,EE - Company - Permanent,Glasgow,JobG8,include,include,Approved conservative Glasgow launch catchment.,glasgow,glasgow-service-administrator-jobs
 include,jobg8-1933955,HR Assistant,ICONIC RESOURCING LTD - Agency - Permanent,Glasgow,JobG8,include,include,Approved conservative Glasgow launch catchment.,glasgow,glasgow-service-administrator-jobs

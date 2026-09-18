@@ -16,15 +16,15 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 0
-- automatic review: 16
+- automatic review: 14
 - automatic exclude: 0
 - effective include: 0
-- effective review: 16
+- effective review: 14
 - effective exclude: 0
 
 ## INCLUDE (0)
 
-## REVIEW (16)
+## REVIEW (14)
 
 ---
 action: 
@@ -35,18 +35,6 @@ company: Inclusion
 location: Eastleigh, PO16 0NX
 source: NHS Jobs
 job_id: nhs-5586737
-reason: No exact Portsmouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
-company: Rowner Medical Centre
-location: Gosport, PO13 9SP
-source: NHS Jobs
-job_id: nhs-5591061
 reason: No exact Portsmouth workplace matched; local geographic review is required.
 ---
 
@@ -83,18 +71,6 @@ company: Perins School
 location: Alresford
 source: Teaching Vacancies
 job_id: teaching-vacancies-exams-officer-and-assessment-data-co-ordinator
-reason: No exact Portsmouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Finance Assistant
-company: CMA Recruitment Group - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-1885642
 reason: No exact Portsmouth workplace matched; local geographic review is required.
 ---
 

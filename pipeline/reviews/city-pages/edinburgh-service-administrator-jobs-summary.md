@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 9
-- automatic review: 0
+- automatic review: 1
 - automatic exclude: 0
 - effective include: 9
-- effective review: 0
+- effective review: 1
 - effective exclude: 0
 
 ## INCLUDE (9)
@@ -132,6 +132,18 @@ job_id: jobg8-107916313
 reason: Approved conservative Edinburgh launch catchment.
 ---
 
-## REVIEW (0)
+## REVIEW (1)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: HR Assistant
+company: ICONIC RESOURCING LTD - Agency - Permanent
+location: Tranent
+source: JobG8
+job_id: jobg8-1950430
+reason: No approved Edinburgh catchment rule matched; local review required.
+---
 
 ## EXCLUDE (0)

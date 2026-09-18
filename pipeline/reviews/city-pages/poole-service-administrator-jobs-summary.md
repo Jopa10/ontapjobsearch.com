@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 1
-- automatic review: 17
+- automatic review: 16
 - automatic exclude: 0
 - effective include: 1
-- effective review: 17
+- effective review: 16
 - effective exclude: 0
 
 ## INCLUDE (1)
@@ -36,7 +36,7 @@ job_id: jobg8-1838771
 reason: Exact approved Poole workplace.
 ---
 
-## REVIEW (17)
+## REVIEW (16)
 
 ---
 action: 
@@ -191,18 +191,6 @@ company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Dorset
 source: JobG8
 job_id: jobg8-1868450
-reason: No exact Poole workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Purchasing & Product Administrator
-company: Team Jobs - Commercial - Agency - Permanent
-location: Bournemouth
-source: JobG8
-job_id: jobg8-23643_225514947
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 

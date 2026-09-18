@@ -42,6 +42,18 @@ reason: Exact approved Bedford workplace.
 action: 
 decision: review
 automatic_decision: review
+title: Accounts Assistant
+company: Reed - Agency - Permanent
+location: Bedfordshire
+source: JobG8
+job_id: jobg8-1944217
+reason: No exact Bedford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Administrator
 company: HUC
 location: Luton, LU1 2SE
@@ -71,18 +83,6 @@ company: Cranfield University - Agency - Permanent
 location: Bedfordshire
 source: JobG8
 job_id: jobg8-415093
-reason: No exact Bedford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Secretary
-company: Candidate Source - Agency - Permanent
-location: Bedfordshire
-source: JobG8
-job_id: jobg8-107991156
 reason: No exact Bedford workplace matched; local geographic review is required.
 ---
 

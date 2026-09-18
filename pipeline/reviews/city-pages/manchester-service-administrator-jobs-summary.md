@@ -4,7 +4,7 @@
 - Live route: `/manchester/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 23
+- Effective included jobs: 21
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 23
+- automatic include: 21
 - automatic review: 13
 - automatic exclude: 2
-- effective include: 23
+- effective include: 21
 - effective review: 13
 - effective exclude: 2
 
-## INCLUDE (23)
+## INCLUDE (21)
 
 ---
 action: 
@@ -136,18 +136,6 @@ reason: Approved conservative Manchester launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Data & Exams Officer
-company: Eden Girls' Leadership Academy, Manchester
-location: Manchester
-source: Teaching Vacancies
-job_id: teaching-vacancies-data-exams-officer-0ab804f7-3ae3-4446-bad0-ef8458fd8eda
-reason: Approved conservative Manchester launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Finance Administrator
 company: Cherry Professional - Relationship Led Recruitment - Agency - Permanent
 location: Manchester
@@ -201,18 +189,6 @@ company: Noble Recruiting - Agency - Permanent
 location: Manchester
 source: JobG8
 job_id: jobg8-1856248
-reason: Approved conservative Manchester launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Lettings Administrator
-company: Hays Specialist Recruitment Limited - Agency - Permanent
-location: Manchester
-source: JobG8
-job_id: jobg8-1773086
 reason: Approved conservative Manchester launch catchment.
 ---
 
@@ -292,27 +268,15 @@ reason: Approved conservative Manchester launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Receptionist in General Practice
-company: Eastlands Medical Practice
-location: Manchester, M11 4EJ
+title: Receptionist / Administrator
+company: Meadowview Surgery
+location: Manchester, M46 0LE
 source: NHS Jobs
-job_id: nhs-5604780
+job_id: nhs-5606802
 reason: Approved conservative Manchester launch catchment.
 ---
 
 ## REVIEW (13)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Clinical Team Administrator
-company: Greater Manchester Mental Health NHS Foundation Trust
-location: Eccles, M30 0GT
-source: NHS Jobs
-job_id: nhs-5599492
-reason: Broad regional location; review before Manchester inclusion.
----
 
 ---
 action: 
@@ -323,6 +287,18 @@ company: Vermelo RPO - Agency - Permanent
 location: Lancashire
 source: JobG8
 job_id: jobg8-1909559
+reason: No approved Manchester catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Consumer Social Media Account Director - Manchester/Hybrid
+company: Black Cherry Recruitment Ltd - Agency - Permanent
+location: Lancashire
+source: JobG8
+job_id: jobg8-1949868
 reason: No approved Manchester catchment rule matched; local review required.
 ---
 
@@ -359,6 +335,18 @@ company: French Selection UK - Agency - Permanent
 location: Lancashire
 source: JobG8
 job_id: jobg8-1823168
+reason: No approved Manchester catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Humanitarian Trainee - Human Resources and Membership
+company: UK-Med - Agency - Permanent
+location: Lancashire
+source: JobG8
+job_id: jobg8-1950365
 reason: No approved Manchester catchment rule matched; local review required.
 ---
 
@@ -443,18 +431,6 @@ company: Oscar Technology - Agency - Permanent
 location: Lancashire
 source: JobG8
 job_id: jobg8-1857594
-reason: No approved Manchester catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
-company: Qualify Nation Recruitment - Agency - Permanent
-location: Lancashire
-source: JobG8
-job_id: jobg8-1932520
 reason: No approved Manchester catchment rule matched; local review required.
 ---
 

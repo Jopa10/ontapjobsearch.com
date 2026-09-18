@@ -16,15 +16,15 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 0
-- automatic review: 7
+- automatic review: 8
 - automatic exclude: 0
 - effective include: 0
-- effective review: 7
+- effective review: 8
 - effective exclude: 0
 
 ## INCLUDE (0)
 
-## REVIEW (7)
+## REVIEW (8)
 
 ---
 action: 
@@ -42,11 +42,35 @@ reason: No exact Stoke-on-trent workplace matched; local geographic review is re
 action: 
 decision: review
 automatic_decision: review
+title: Accounts Assistant
+company: Ashdown Group - Agency - Permanent
+location: Staffordshire
+source: JobG8
+job_id: jobg8-1950861
+reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Accounts Assistant (Part time)
 company: RG Consultancy Ltd - Agency - Permanent
 location: Staffordshire
 source: JobG8
 job_id: jobg8-1928214
+reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: Midlands Partnership NHS Foundation Trust
+location: Longton, Stoke on Trent, ST3 4QX
+source: NHS Jobs
+job_id: nhs-5606228
 reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
 ---
 
@@ -95,18 +119,6 @@ company: XPERT RECRUITMENT SOLUTIONS LIMITED - Agency - Permanent
 location: Staffordshire
 source: JobG8
 job_id: jobg8-1870733
-reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Receptionist
-company: North Staffordshire Combined Healthcare Trust
-location: Stoke on Trent, ST6 5UD
-source: NHS Jobs
-job_id: nhs-5599894
 reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
 ---
 

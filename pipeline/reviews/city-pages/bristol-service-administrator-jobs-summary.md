@@ -258,6 +258,18 @@ reason: No approved Bristol catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Part Time Finance Administrator
+company: Hays Specialist Recruitment Limited - Agency - Permanent
+location: Somerset
+source: JobG8
+job_id: jobg8-1952001
+reason: No approved Bristol catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Payroll Administrator
 company: Ashley Rees Associates - Agency - Permanent
 location: Somerset
@@ -311,18 +323,6 @@ company: Yate Supplies - Agency - Permanent
 location: Somerset
 source: JobG8
 job_id: jobg8-107906403
-reason: No approved Bristol catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
-company: Qualify Nation Recruitment - Agency - Permanent
-location: Somerset
-source: JobG8
-job_id: jobg8-1932511
 reason: No approved Bristol catchment rule matched; local review required.
 ---
 

@@ -16,15 +16,15 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 0
-- automatic review: 14
+- automatic review: 16
 - automatic exclude: 0
 - effective include: 0
-- effective review: 14
+- effective review: 16
 - effective exclude: 0
 
 ## INCLUDE (0)
 
-## REVIEW (14)
+## REVIEW (16)
 
 ---
 action: 
@@ -59,6 +59,18 @@ company: caldecotte group services ltd - Agency - Permanent
 location: Buckinghamshire
 source: JobG8
 job_id: jobg8-275574729095302348837340
+reason: No exact Aylesbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: caldecotte group services ltd - Agency - Permanent
+location: Buckinghamshire
+source: JobG8
+job_id: jobg8-275574729095302348837342
 reason: No exact Aylesbury workplace matched; local geographic review is required.
 ---
 
@@ -186,11 +198,23 @@ reason: No exact Aylesbury workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Receptionist - Bank
-company: Avery Healthcare Group Ltd.
-location: Marlow, SL7 1HX
+title: Procurement Coordinator
+company: Matchtech - Agency - Permanent
+location: Buckingham
+source: JobG8
+job_id: jobg8-23643_225621100
+reason: No exact Aylesbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Receptionist
+company: Riverside Surgery
+location: High Wycombe, HP11 2RZ
 source: NHS Jobs
-job_id: nhs-5567129
+job_id: nhs-5607494
 reason: No exact Aylesbury workplace matched; local geographic review is required.
 ---
 

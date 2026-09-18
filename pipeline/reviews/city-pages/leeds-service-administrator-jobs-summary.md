@@ -4,7 +4,7 @@
 - Live route: `/leeds/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 11
+- Effective included jobs: 12
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 11
+- automatic include: 12
 - automatic review: 11
 - automatic exclude: 6
-- effective include: 11
+- effective include: 12
 - effective review: 11
 - effective exclude: 6
 
-## INCLUDE (11)
+## INCLUDE (12)
 
 ---
 action: 
@@ -148,6 +148,18 @@ reason: Approved Leeds catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Sales and Service Advisor
+company: Gallagher - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-871951100439376691237341
+reason: Approved Leeds catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Social Media Coordinator
 company: Dream Big Digital - Agency - Permanent
 location: Leeds
@@ -175,10 +187,10 @@ action:
 decision: review
 automatic_decision: review
 title: Bookkeeper
-company: Bennett & Game Recruitment - Agency - Permanent
+company: Si Recruitment - Agency - Permanent
 location: Yorkshire
 source: JobG8
-job_id: jobg8-1938308
+job_id: jobg8-1834876
 reason: No approved Leeds catchment rule matched; local review required.
 ---
 
@@ -186,11 +198,11 @@ reason: No approved Leeds catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Bookkeeper
-company: Si Recruitment - Agency - Permanent
+title: Credit Control
+company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Yorkshire
 source: JobG8
-job_id: jobg8-1834876
+job_id: jobg8-1945181
 reason: No approved Leeds catchment rule matched; local review required.
 ---
 
@@ -296,11 +308,11 @@ reason: No approved Leeds catchment rule matched; local review required.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Administration Assistant
-company: The Mid Yorkshire Teaching NHS Trust
-location: Wakefield, WF1 4DG
+title: Administrator
+company: New Otley Road Medical Practice - Hillside Bridge
+location: Bradford, BD3 0BS, BRADFORD, BD8 9DW
 source: NHS Jobs
-job_id: nhs-5601212
+job_id: nhs-5486478
 reason: Separate employment market.
 ---
 
@@ -313,18 +325,6 @@ company: Grace Fredericks Recruitment - Agency - Permanent
 location: Halifax
 source: JobG8
 job_id: jobg8-1939820
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Conveyancing Secretary
-company: Talk Staff - Agency - Permanent
-location: Huddersfield
-source: JobG8
-job_id: jobg8-1772081
 reason: Separate employment market.
 ---
 
@@ -361,5 +361,17 @@ company: Gallagher - Agency - Permanent
 location: Wakefield
 source: JobG8
 job_id: jobg8-871951100439376691237340
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Social Media Coordinator
+company: Dream Big Digital - Agency - Permanent
+location: Bradford
+source: JobG8
+job_id: jobg8-642823322571322163237341
 reason: Separate employment market.
 ---

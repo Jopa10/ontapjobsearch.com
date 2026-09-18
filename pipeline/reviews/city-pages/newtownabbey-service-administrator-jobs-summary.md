@@ -34,7 +34,7 @@ title: Band 3 Clerical Officer
 company: Brook Street - Agency - Permanent
 location: Belfast
 source: JobG8
-job_id: jobg8-1943100
+job_id: jobg8-1953799
 reason: No exact Newtownabbey workplace matched; local geographic review is required.
 ---
 
@@ -66,11 +66,23 @@ reason: No exact Newtownabbey workplace matched; local geographic review is requ
 action: 
 decision: review
 automatic_decision: review
-title: Financial Services Administrator
-company: Brook Street - Agency - Permanent
+title: External Communications Executive
+company: A&O Shearman - Agency - Permanent
 location: Belfast
 source: JobG8
-job_id: jobg8-1942949
+job_id: jobg8-21582_110129390
+reason: No exact Newtownabbey workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: External Communications Executive
+company: A&O Shearman - Agency - Permanent
+location: County Antrim
+source: JobG8
+job_id: jobg8-21582_110129468
 reason: No exact Newtownabbey workplace matched; local geographic review is required.
 ---
 
@@ -83,18 +95,6 @@ company: Brook Street UK - Agency - Permanent
 location: Ballyclare
 source: JobG8
 job_id: jobg8-107922303
-reason: No exact Newtownabbey workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
-company: Qualify Nation Recruitment - Agency - Permanent
-location: Belfast
-source: JobG8
-job_id: jobg8-1932507
 reason: No exact Newtownabbey workplace matched; local geographic review is required.
 ---
 

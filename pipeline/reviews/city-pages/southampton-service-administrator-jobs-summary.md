@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 1
-- automatic review: 10
+- automatic review: 8
 - automatic exclude: 5
 - effective include: 1
-- effective review: 10
+- effective review: 8
 - effective exclude: 5
 
 ## INCLUDE (1)
@@ -36,19 +36,7 @@ job_id: jobg8-107193862
 reason: Approved Southampton catchment.
 ---
 
-## REVIEW (10)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
-company: Rowner Medical Centre
-location: Gosport, PO13 9SP
-source: NHS Jobs
-job_id: nhs-5591061
-reason: No approved Southampton catchment rule matched; local review required.
----
+## REVIEW (8)
 
 ---
 action: 
@@ -84,18 +72,6 @@ location: Alresford
 source: Teaching Vacancies
 job_id: teaching-vacancies-exams-officer-and-assessment-data-co-ordinator
 reason: No approved Southampton catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Finance Assistant
-company: CMA Recruitment Group - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-1885642
-reason: Broad location; review before city inclusion.
 ---
 
 ---

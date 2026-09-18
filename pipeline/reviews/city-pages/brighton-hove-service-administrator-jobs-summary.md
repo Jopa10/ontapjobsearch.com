@@ -4,7 +4,7 @@
 - Live route: `/brighton-hove/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 2
+- Effective included jobs: 1
 - Threshold currently met: no
 
 ## How to review
@@ -15,26 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 2
+- automatic include: 1
 - automatic review: 15
-- automatic exclude: 3
-- effective include: 2
+- automatic exclude: 4
+- effective include: 1
 - effective review: 15
-- effective exclude: 3
+- effective exclude: 4
 
-## INCLUDE (2)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrator
-company: Sussex Community NHS Foundation Trust
-location: Hove, BN3 7HY
-source: NHS Jobs
-job_id: nhs-5602750
-reason: Approved Brighton & Hove catchment.
----
+## INCLUDE (1)
 
 ---
 action: 
@@ -60,18 +48,6 @@ location: Sussex
 source: JobG8
 job_id: jobg8-107985976
 reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator (Part Time)
-company: Practice Plus Group - Health in Justice
-location: Lewes, BN7 1EA
-source: NHS Jobs
-job_id: nhs-5599920
-reason: No approved Brighton & Hove catchment rule matched; local review required.
 ---
 
 ---
@@ -118,7 +94,7 @@ title: HR Assistant
 company: Brook Street - Agency - Permanent
 location: Sussex
 source: JobG8
-job_id: jobg8-1943056
+job_id: jobg8-1953771
 reason: Broad location; review before city inclusion.
 ---
 
@@ -168,6 +144,18 @@ location: Sussex
 source: JobG8
 job_id: jobg8-1866859
 reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Receptionist
+company: Seaford Medical Practice
+location: Seaford, BN25 1DH
+source: NHS Jobs
+job_id: nhs-5598736
+reason: No approved Brighton & Hove catchment rule matched; local review required.
 ---
 
 ---
@@ -230,7 +218,7 @@ job_id: teaching-vacancies-year-9-administrative-assistant-including-year-10-wor
 reason: No approved Brighton & Hove catchment rule matched; local review required.
 ---
 
-## EXCLUDE (3)
+## EXCLUDE (4)
 
 ---
 action: 
@@ -253,6 +241,18 @@ company: Worth Recruiting - Property Industry Recruitment - Agency - Permanent
 location: Horsham
 source: JobG8
 job_id: jobg8-1868387
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Receptionist/Telephonist
+company: Sussex Partnership NHS Foundation Trust
+location: Chichester, PO19 1BX
+source: NHS Jobs
+job_id: nhs-5604706
 reason: Separate employment market.
 ---
 

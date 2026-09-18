@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 2
-- automatic review: 12
+- automatic review: 14
 - automatic exclude: 0
 - effective include: 2
-- effective review: 12
+- effective review: 14
 - effective exclude: 0
 
 ## INCLUDE (2)
@@ -48,7 +48,7 @@ job_id: jobg8-1877882
 reason: Exact approved Milton Keynes workplace.
 ---
 
-## REVIEW (12)
+## REVIEW (14)
 
 ---
 action: 
@@ -83,6 +83,18 @@ company: caldecotte group services ltd - Agency - Permanent
 location: Buckinghamshire
 source: JobG8
 job_id: jobg8-275574729095302348837340
+reason: No exact Milton Keynes workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: caldecotte group services ltd - Agency - Permanent
+location: Buckinghamshire
+source: JobG8
+job_id: jobg8-275574729095302348837342
 reason: No exact Milton Keynes workplace matched; local geographic review is required.
 ---
 
@@ -186,11 +198,23 @@ reason: No exact Milton Keynes workplace matched; local geographic review is req
 action: 
 decision: review
 automatic_decision: review
-title: Receptionist - Bank
-company: Avery Healthcare Group Ltd.
-location: Marlow, SL7 1HX
+title: Procurement Coordinator
+company: Matchtech - Agency - Permanent
+location: Buckingham
+source: JobG8
+job_id: jobg8-23643_225621100
+reason: No exact Milton Keynes workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Receptionist
+company: Riverside Surgery
+location: High Wycombe, HP11 2RZ
 source: NHS Jobs
-job_id: nhs-5567129
+job_id: nhs-5607494
 reason: No exact Milton Keynes workplace matched; local geographic review is required.
 ---
 

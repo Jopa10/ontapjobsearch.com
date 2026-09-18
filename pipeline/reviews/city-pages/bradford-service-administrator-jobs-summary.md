@@ -4,7 +4,7 @@
 - Live route: `/bradford/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 1
+- Effective included jobs: 3
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,26 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 1
+- automatic include: 3
 - automatic review: 11
-- automatic exclude: 16
-- effective include: 1
+- automatic exclude: 15
+- effective include: 3
 - effective review: 11
-- effective exclude: 16
+- effective exclude: 15
 
-## INCLUDE (1)
+## INCLUDE (3)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administrator
+company: New Otley Road Medical Practice - Hillside Bridge
+location: Bradford, BD3 0BS, BRADFORD, BD8 9DW
+source: NHS Jobs
+job_id: nhs-5486478
+reason: Approved Bradford catchment.
+---
 
 ---
 action: 
@@ -33,6 +45,18 @@ company: Robertson Bell - Agency - Permanent
 location: Bradford
 source: JobG8
 job_id: jobg8-1900864
+reason: Approved Bradford catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Social Media Coordinator
+company: Dream Big Digital - Agency - Permanent
+location: Bradford
+source: JobG8
+job_id: jobg8-642823322571322163237341
 reason: Approved Bradford catchment.
 ---
 
@@ -55,10 +79,10 @@ action:
 decision: review
 automatic_decision: review
 title: Bookkeeper
-company: Bennett & Game Recruitment - Agency - Permanent
+company: Si Recruitment - Agency - Permanent
 location: Yorkshire
 source: JobG8
-job_id: jobg8-1938308
+job_id: jobg8-1834876
 reason: No approved Bradford catchment rule matched; local review required.
 ---
 
@@ -66,11 +90,11 @@ reason: No approved Bradford catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Bookkeeper
-company: Si Recruitment - Agency - Permanent
+title: Credit Control
+company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Yorkshire
 source: JobG8
-job_id: jobg8-1834876
+job_id: jobg8-1945181
 reason: No approved Bradford catchment rule matched; local review required.
 ---
 
@@ -170,7 +194,7 @@ job_id: nhs-5596100
 reason: No approved Bradford catchment rule matched; local review required.
 ---
 
-## EXCLUDE (16)
+## EXCLUDE (15)
 
 ---
 action: 
@@ -181,18 +205,6 @@ company: Headstar - Agency - Permanent
 location: Leeds
 source: JobG8
 job_id: jobg8-1833937
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Administration Assistant
-company: The Mid Yorkshire Teaching NHS Trust
-location: Wakefield, WF1 4DG
-source: NHS Jobs
-job_id: nhs-5601212
 reason: Separate employment market.
 ---
 
@@ -253,18 +265,6 @@ company: Aston Charles Ltd - Agency - Permanent
 location: Leeds
 source: JobG8
 job_id: jobg8-1927524
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Conveyancing Secretary
-company: Talk Staff - Agency - Permanent
-location: Huddersfield
-source: JobG8
-job_id: jobg8-1772081
 reason: Separate employment market.
 ---
 
@@ -349,6 +349,18 @@ company: Gallagher - Agency - Permanent
 location: Wakefield
 source: JobG8
 job_id: jobg8-871951100439376691237340
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Sales and Service Advisor
+company: Gallagher - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-871951100439376691237341
 reason: Separate employment market.
 ---
 

@@ -4,7 +4,7 @@
 - Live route: `/belfast/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 3
+- Effective included jobs: 2
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 3
-- automatic review: 3
+- automatic include: 2
+- automatic review: 4
 - automatic exclude: 0
-- effective include: 3
-- effective review: 3
+- effective include: 2
+- effective review: 4
 - effective exclude: 0
 
-## INCLUDE (3)
+## INCLUDE (2)
 
 ---
 action: 
@@ -32,7 +32,7 @@ title: Band 3 Clerical Officer
 company: Brook Street - Agency - Permanent
 location: Belfast
 source: JobG8
-job_id: jobg8-1943100
+job_id: jobg8-1953799
 reason: Approved conservative Belfast launch catchment.
 ---
 
@@ -40,27 +40,15 @@ reason: Approved conservative Belfast launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Financial Services Administrator
-company: Brook Street - Agency - Permanent
+title: External Communications Executive
+company: A&O Shearman - Agency - Permanent
 location: Belfast
 source: JobG8
-job_id: jobg8-1942949
+job_id: jobg8-21582_110129390
 reason: Approved conservative Belfast launch catchment.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
-company: Qualify Nation Recruitment - Agency - Permanent
-location: Belfast
-source: JobG8
-job_id: jobg8-1932507
-reason: Approved conservative Belfast launch catchment.
----
-
-## REVIEW (3)
+## REVIEW (4)
 
 ---
 action: 
@@ -83,6 +71,18 @@ company: Manpower - Agency - Permanent
 location: Ballyclare
 source: JobG8
 job_id: jobg8-1916549
+reason: No approved Belfast catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: External Communications Executive
+company: A&O Shearman - Agency - Permanent
+location: County Antrim
+source: JobG8
+job_id: jobg8-21582_110129468
 reason: No approved Belfast catchment rule matched; local review required.
 ---
 

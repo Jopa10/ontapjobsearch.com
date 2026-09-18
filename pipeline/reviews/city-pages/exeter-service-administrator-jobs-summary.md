@@ -4,7 +4,7 @@
 - Live route: `/exeter/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 5
+- Effective included jobs: 7
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,26 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 5
-- automatic review: 9
+- automatic include: 7
+- automatic review: 8
 - automatic exclude: 0
-- effective include: 5
-- effective review: 9
+- effective include: 7
+- effective review: 8
 - effective exclude: 0
 
-## INCLUDE (5)
+## INCLUDE (7)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Finance Administrator
+company: Brook Street UK - Agency - Temporary
+location: Exeter
+source: JobG8
+job_id: jobg8-107981565
+reason: Exact approved Exeter workplace.
+---
 
 ---
 action: 
@@ -33,6 +45,18 @@ company: Adecco - Agency - Permanent
 location: Exeter
 source: JobG8
 job_id: jobg8-1898300
+reason: Exact approved Exeter workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Finance Assistant
+company: Hays Specialist Recruitment Limited - Agency - Permanent
+location: Exeter
+source: JobG8
+job_id: jobg8-1949612
 reason: Exact approved Exeter workplace.
 ---
 
@@ -84,7 +108,7 @@ job_id: jobg8-1877836
 reason: Exact approved Exeter workplace.
 ---
 
-## REVIEW (9)
+## REVIEW (8)
 
 ---
 action: 
@@ -178,19 +202,7 @@ title: HR Administrator
 company: Artis Recruitment - Agency - Permanent
 location: Newton Abbot
 source: JobG8
-job_id: jobg8-1841483
-reason: No exact Exeter workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Recruitment Account Co-ordinator
-company: Acorn by Synergie - Agency - Permanent
-location: Devon
-source: JobG8
-job_id: jobg8-107953534
+job_id: jobg8-1945151
 reason: No exact Exeter workplace matched; local geographic review is required.
 ---
 

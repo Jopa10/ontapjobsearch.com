@@ -4,7 +4,7 @@
 - Live route: `/huddersfield/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 2
+- Effective included jobs: 1
 - Threshold currently met: no
 
 ## How to review
@@ -15,26 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 2
+- automatic include: 1
 - automatic review: 11
-- automatic exclude: 15
-- effective include: 2
+- automatic exclude: 17
+- effective include: 1
 - effective review: 11
-- effective exclude: 15
+- effective exclude: 17
 
-## INCLUDE (2)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Conveyancing Secretary
-company: Talk Staff - Agency - Permanent
-location: Huddersfield
-source: JobG8
-job_id: jobg8-1772081
-reason: Approved Huddersfield catchment.
----
+## INCLUDE (1)
 
 ---
 action: 
@@ -67,10 +55,10 @@ action:
 decision: review
 automatic_decision: review
 title: Bookkeeper
-company: Bennett & Game Recruitment - Agency - Permanent
+company: Si Recruitment - Agency - Permanent
 location: Yorkshire
 source: JobG8
-job_id: jobg8-1938308
+job_id: jobg8-1834876
 reason: No approved Huddersfield catchment rule matched; local review required.
 ---
 
@@ -78,11 +66,11 @@ reason: No approved Huddersfield catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Bookkeeper
-company: Si Recruitment - Agency - Permanent
+title: Credit Control
+company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Yorkshire
 source: JobG8
-job_id: jobg8-1834876
+job_id: jobg8-1945181
 reason: No approved Huddersfield catchment rule matched; local review required.
 ---
 
@@ -182,7 +170,7 @@ job_id: nhs-5596100
 reason: No approved Huddersfield catchment rule matched; local review required.
 ---
 
-## EXCLUDE (15)
+## EXCLUDE (17)
 
 ---
 action: 
@@ -200,11 +188,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Administration Assistant
-company: The Mid Yorkshire Teaching NHS Trust
-location: Wakefield, WF1 4DG
+title: Administrator
+company: New Otley Road Medical Practice - Hillside Bridge
+location: Bradford, BD3 0BS, BRADFORD, BD8 9DW
 source: NHS Jobs
-job_id: nhs-5601212
+job_id: nhs-5486478
 reason: Separate employment market.
 ---
 
@@ -356,10 +344,34 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Sales and Service Advisor
+company: Gallagher - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-871951100439376691237341
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Social Media Coordinator
 company: Dream Big Digital - Agency - Permanent
 location: Leeds
 source: JobG8
 job_id: jobg8-642823322571322163237340
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Social Media Coordinator
+company: Dream Big Digital - Agency - Permanent
+location: Bradford
+source: JobG8
+job_id: jobg8-642823322571322163237341
 reason: Separate employment market.
 ---

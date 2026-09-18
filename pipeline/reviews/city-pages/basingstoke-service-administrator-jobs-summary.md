@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 3
-- automatic review: 13
+- automatic review: 11
 - automatic exclude: 0
 - effective include: 3
-- effective review: 13
+- effective review: 11
 - effective exclude: 0
 
 ## INCLUDE (3)
@@ -60,7 +60,7 @@ job_id: nhs-5592877
 reason: Exact approved Basingstoke workplace.
 ---
 
-## REVIEW (13)
+## REVIEW (11)
 
 ---
 action: 
@@ -71,18 +71,6 @@ company: Inclusion
 location: Eastleigh, PO16 0NX
 source: NHS Jobs
 job_id: nhs-5586737
-reason: No exact Basingstoke workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
-company: Rowner Medical Centre
-location: Gosport, PO13 9SP
-source: NHS Jobs
-job_id: nhs-5591061
 reason: No exact Basingstoke workplace matched; local geographic review is required.
 ---
 
@@ -119,18 +107,6 @@ company: Perins School
 location: Alresford
 source: Teaching Vacancies
 job_id: teaching-vacancies-exams-officer-and-assessment-data-co-ordinator
-reason: No exact Basingstoke workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Finance Assistant
-company: CMA Recruitment Group - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-1885642
 reason: No exact Basingstoke workplace matched; local geographic review is required.
 ---
 

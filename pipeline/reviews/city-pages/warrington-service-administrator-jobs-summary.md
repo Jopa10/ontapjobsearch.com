@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 12
 - automatic review: 9
-- automatic exclude: 6
+- automatic exclude: 5
 - effective include: 12
 - effective review: 9
-- effective exclude: 6
+- effective exclude: 5
 
 ## INCLUDE (12)
 
@@ -136,11 +136,11 @@ reason: Approved conservative Warrington launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Lending Operations Coordinator
-company: Aimee Willow Connex Limited - Agency - Permanent
+title: Finance Assistant
+company: Reed - Agency - Permanent
 location: Warrington
 source: JobG8
-job_id: jobg8-107970774
+job_id: jobg8-1944948
 reason: Approved conservative Warrington launch catchment.
 ---
 
@@ -278,7 +278,7 @@ job_id: nhs-5603667
 reason: No approved Warrington catchment rule matched; local review required.
 ---
 
-## EXCLUDE (6)
+## EXCLUDE (5)
 
 ---
 action: 
@@ -289,18 +289,6 @@ company: RG Consultancy Ltd - Agency - Permanent
 location: Runcorn
 source: JobG8
 job_id: jobg8-1908576
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Administrator
-company: North Cheshire and Mersey NHS Foundation Trust (BCH)
-location: Runcorn, WA7 1HB
-source: NHS Jobs
-job_id: nhs-5577899
 reason: Separate employment market.
 ---
 

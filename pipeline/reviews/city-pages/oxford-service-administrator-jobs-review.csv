@@ -1,11 +1,11 @@
 decision,job_id,title,company,location,source,automatic_decision,effective_decision,reason,matched_rule,city_key
+include,jobg8-1949577,Accounts Assistant,Robert Half - Agency - Permanent,Oxford,JobG8,include,include,Approved conservative Oxford launch catchment.,oxford,oxford-service-administrator-jobs
 include,jobg8-1851565,Commercial Property Secretary,Allstaff Recruitment - Agency - Permanent,Oxford,JobG8,include,include,Approved conservative Oxford launch catchment.,oxford,oxford-service-administrator-jobs
 include,jobg8-1789906,Email Campaign Executive,Niche Recruitment Ltd - Agency - Permanent,Oxford,JobG8,include,include,Approved conservative Oxford launch catchment.,oxford,oxford-service-administrator-jobs
 include,jobg8-1787371,Marketing Executive,TALENT SEARCH LIMITED - Agency - Permanent,Oxford,JobG8,include,include,Approved conservative Oxford launch catchment.,oxford,oxford-service-administrator-jobs
-exclude,jobg8-1939098,Communications Officer (Maternity Cover),Global Canopy - Agency - Permanent,Oxfordshire,JobG8,exclude,exclude,Broad county location; not Oxford-city evidence.,oxfordshire,oxford-service-administrator-jobs
 exclude,jobg8-1868389,Content Creator,Abingdon School - Agency - Permanent,Oxfordshire,JobG8,exclude,exclude,Broad county location; not Oxford-city evidence.,oxfordshire,oxford-service-administrator-jobs
 exclude,jobg8-1940167,Digital Marketing Executive,Michael Page Business Support - Agency - Permanent,Oxfordshire,JobG8,exclude,exclude,Broad county location; not Oxford-city evidence.,oxfordshire,oxford-service-administrator-jobs
 exclude,jobg8-1883696,"Digital Marketing Executive, Meta Ads, Google Ads, Oxford, COR7681",Corriculo Ltd - Agency - Permanent,Oxfordshire,JobG8,exclude,exclude,Broad county location; not Oxford-city evidence.,oxfordshire,oxford-service-administrator-jobs
+exclude,jobg8-1950414,Marketing Executive,Plus One Recruitment - Agency - Permanent,Oxfordshire,JobG8,exclude,exclude,Broad county location; not Oxford-city evidence.,oxfordshire,oxford-service-administrator-jobs
 exclude,jobg8-1859419,Marketing Manager,Abingdon School - Agency - Permanent,Oxfordshire,JobG8,exclude,exclude,Broad county location; not Oxford-city evidence.,oxfordshire,oxford-service-administrator-jobs
-exclude,jobg8-107901549,Sales & Customer Service Support Administrator,The Recruitment Group - Agency - Permanent,Oxfordshire,JobG8,exclude,exclude,Broad county location; not Oxford-city evidence.,oxfordshire,oxford-service-administrator-jobs
 exclude,jobg8-107842072,Service Advisor,The Solution Automotive Limited - Agency - Permanent,Oxfordshire,JobG8,exclude,exclude,Broad county location; not Oxford-city evidence.,oxfordshire,oxford-service-administrator-jobs
