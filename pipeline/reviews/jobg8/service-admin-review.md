@@ -616,17 +616,15 @@ job_id: 1950305
 ## LONDON — POSSIBLES
 
 ---
-action:
+action: select
 POSS - LONDON | London | London | £30000 - £40000 per year | Sales Administrator
 job_id: 1950111
 ---
-
 ---
-action:
+action: select
 POSS - LONDON | London | London | £40000 - £45000 per year | Accounts Assistant Credit Control
 job_id: 1944215
 ---
-
 ## HAMPSHIRE — SELECTED
 
 ---
@@ -1062,11 +1060,10 @@ job_id: 415093
 ## BEDFORDSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - BEDFORDSHIRE | Bedfordshire | Bedfordshire | £30000 - £35000 per year | Accounts Assistant
 job_id: 1944217
 ---
-
 ## BERKSHIRE — SELECTED
 
 ---
@@ -1596,11 +1593,10 @@ job_id: 1945151
 ## DEVON — POSSIBLES
 
 ---
-action:
+action: select
 POSS - DEVON | Devon | Devon | £30000 - £32000 per year | Finance Assistant
 job_id: 1949612
 ---
-
 ## DORSET — SELECTED
 
 ---
@@ -2328,11 +2324,10 @@ job_id: 1851565
 ## OXFORDSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - OXFORDSHIRE | Oxfordshire | Oxfordshire | £32000 per year | Accounts Assistant
 job_id: 1949577
 ---
-
 ## SCOTLAND CENTRAL - EDINBURGH & LOTHIANS — SELECTED
 
 ---
@@ -2392,11 +2387,10 @@ job_id: 107916313
 ## SCOTLAND CENTRAL - EDINBURGH & LOTHIANS — POSSIBLES
 
 ---
-action:
+action: select
 POSS - SCOTLAND CENTRAL - EDINBURGH & LOTHIANS | Scotland Central - Edinburgh & Lothians | Tranent | £14.00 - £17.00 per hour | HR Assistant
 job_id: 1950430
 ---
-
 ## SCOTLAND CENTRAL - TAYSIDE — SELECTED
 
 ---
