@@ -55,12 +55,6 @@ job_id: 1900116
 
 ---
 action:
-SELECTED | Yorkshire - West | Leeds |  | Social Media Coordinator
-job_id: 642823322571322163237340
----
-
----
-action:
 SELECTED | Yorkshire - West | Leeds |  | Commercial Claims Handler (Personal Lines Handlers Considered!)
 job_id: 1927524
 ---
@@ -99,12 +93,6 @@ job_id: 1936709
 action:
 SELECTED | Yorkshire - West | Halifax |  | Claims Handler
 job_id: 1939820
----
-
----
-action:
-SELECTED | Yorkshire - West | Bradford |  | Social Media Coordinator
-job_id: 642823322571322163237341
 ---
 
 ---
@@ -263,12 +251,6 @@ job_id: 1838874
 action:
 SELECTED | London | London | £30000 per year | Office Administrator
 job_id: 1820780
----
-
----
-action:
-SELECTED | London | London |  | Danish-speaking Leasing Administrator
-job_id: 1775852
 ---
 
 ---
@@ -477,18 +459,6 @@ job_id: 1905302
 
 ---
 action:
-SELECTED | London | London |  | Receptionist and Administrative Assistant
-job_id: 26098_HF07857-HACL
----
-
----
-action:
-SELECTED | London | London |  | Procurement Administrator
-job_id: 26098_HF07860-HFED
----
-
----
-action:
 SELECTED | London | Edgware |  | Accounts Assistant
 job_id: 1912487
 ---
@@ -621,8 +591,8 @@ job_id: 1950330
 
 ---
 action:
-SELECTED | London | London | £32,400 per annum | Operations Assistant
-job_id: 1950305
+SELECTED | London | London |  | Quality Assurance Administrator
+job_id: 1955978
 ---
 
 ## LONDON — POSSIBLES
@@ -765,12 +735,6 @@ job_id: 401225863073575731237340
 
 ---
 action:
-SELECTED | Surrey | Surrey |  | Investment Administrator
-job_id: 1932825
----
-
----
-action:
 SELECTED | Surrey | Surrey |  | HR - People Administrator
 job_id: 1938873
 ---
@@ -865,12 +829,6 @@ SELECTED | Kent | Kent | £30000 per year | Accounts Assistant
 job_id: 1932922
 ---
 
----
-action:
-SELECTED | Kent | Kent | £28000 per year | MAF in the Community (MiC) Resourcing Coordinator
-job_id: 107958419
----
-
 ## KENT — POSSIBLES
 
 _No jobs in this group._
@@ -952,7 +910,7 @@ job_id: 107985976
 ---
 action:
 SELECTED | Sussex | Sussex | £14.50 per hour | HR Assistant
-job_id: 1953771
+job_id: 1956195
 ---
 
 ## SUSSEX — POSSIBLES
@@ -1155,6 +1113,12 @@ job_id: 1907662
 action:
 SELECTED | Bristol & Bath | Bristol |  | Claims Handler
 job_id: 1916313
+---
+
+---
+action:
+SELECTED | Bristol & Bath | Bristol | £30000 per year | Recruitment Administrator
+job_id: 1956062
 ---
 
 ## BRISTOL & BATH — POSSIBLES
@@ -1484,6 +1448,12 @@ _No jobs in this group._
 ---
 action:
 SELECTED | Cheshire - West | Northwich |  | Onboarding Care Coordinator
+job_id: 1855777
+---
+
+---
+action:
+SELECTED | Cheshire - West | Northwich |  | Onboarding Care Coordinator
 job_id: 446503133430100787237340
 ---
 
@@ -1603,6 +1573,12 @@ SELECTED | Devon | Devon | £30000 - £32000 per year | Finance Assistant
 job_id: 1949612
 ---
 
+---
+action:
+SELECTED | Devon | Devon |  | Recruitment Account Co-ordinator
+job_id: 107953534
+---
+
 ## DEVON — POSSIBLES
 
 _No jobs in this group._
@@ -1677,12 +1653,6 @@ job_id: 1898309
 
 ---
 action:
-SELECTED | Dorset | Dorset | £26000 per year | Care Coordinator
-job_id: 107865251
----
-
----
-action:
 SELECTED | Dorset | Dorset |  | Accounts Assistant
 job_id: 1937845
 ---
@@ -1692,12 +1662,6 @@ job_id: 1937845
 _No jobs in this group._
 
 ## ESSEX — SELECTED
-
----
-action:
-SELECTED | Essex | Essex | £28000 per year | Smart Metering Planner
-job_id: 107871089
----
 
 ---
 action:
@@ -1779,12 +1743,6 @@ job_id: 23643_225607754
 
 ---
 action:
-SELECTED | Essex | Essex |  | Underwriting Administrator
-job_id: 1928047
----
-
----
-action:
 SELECTED | Essex | Essex | £25,000-£30,000 per annum | Finance Assistant
 job_id: 1944893
 ---
@@ -1795,9 +1753,19 @@ SELECTED | Essex | Essex | £23500 per year | Underwriting Admin Assistant
 job_id: 1949650
 ---
 
+---
+action:
+SELECTED | Essex | Essex |  | Underwriting Administrator
+job_id: 1956210
+---
+
 ## ESSEX — POSSIBLES
 
-_No jobs in this group._
+---
+action:
+POSS - ESSEX | Essex | Essex | £45000 per year | Commercial Claims Handler
+job_id: 107987633
+---
 
 ## GLOUCESTERSHIRE — SELECTED
 
@@ -1935,12 +1903,6 @@ _No jobs in this group._
 
 ---
 action:
-SELECTED | Greater Manchester - Wigan & Bolton | Bolton |  | Third Party Claims Handler
-job_id: 1775481
----
-
----
-action:
 SELECTED | Greater Manchester - Wigan & Bolton | Bolton |  | Claims Handler - Third Party Motor
 job_id: 1823437
 ---
@@ -2013,12 +1975,6 @@ job_id: 1927516
 
 ---
 action:
-SELECTED | Hertfordshire | Hertfordshire | £35000 per year | PA to Head
-job_id: 107952725
----
-
----
-action:
 SELECTED | Hertfordshire | Hertfordshire |  | Marketing Co-ordinator
 job_id: 1938290
 ---
@@ -2081,6 +2037,12 @@ job_id: 1842485
 action:
 SELECTED | Lincolnshire | Lincolnshire | £28000 per year | Finance Assistant
 job_id: 1870778
+---
+
+---
+action:
+SELECTED | Lincolnshire | Lincolnshire | £30000 per year | Asset Sales Co-ordinator
+job_id: 107995386
 ---
 
 ## LINCOLNSHIRE — POSSIBLES
@@ -2279,8 +2241,8 @@ job_id: 1916549
 
 ---
 action:
-SELECTED | Northern Ireland - East | Belfast | £12.75 per hour | Band 3 Clerical Officer
-job_id: 1953799
+SELECTED | Northern Ireland - East | Larne |  | Administrator
+job_id: 107986102
 ---
 
 ## NORTHERN IRELAND - EAST — POSSIBLES
@@ -2313,17 +2275,17 @@ SELECTED | Nottinghamshire | Nottinghamshire | £30000 per year | Accounts Assis
 job_id: 1940401
 ---
 
+---
+action:
+SELECTED | Nottinghamshire | Nottinghamshire |  | HR L&D Administrator
+job_id: 107989087
+---
+
 ## NOTTINGHAMSHIRE — POSSIBLES
 
 _No jobs in this group._
 
 ## OXFORDSHIRE — SELECTED
-
----
-action:
-SELECTED | Oxfordshire | Oxfordshire | £30000 per year | Service Advisor
-job_id: 107842072
----
 
 ---
 action:
@@ -2577,6 +2539,12 @@ SELECTED | Scotland West - Glasgow | Glasgow |  | HR Assistant
 job_id: 1933955
 ---
 
+---
+action:
+SELECTED | Scotland West - Glasgow | Glasgow | £12.71 per hour | Lifestyle Coordinator
+job_id: 107929888
+---
+
 ## SCOTLAND WEST - GLASGOW — POSSIBLES
 
 _No jobs in this group._
@@ -2731,12 +2699,6 @@ job_id: 107969645
 action:
 SELECTED | Suffolk | Suffolk |  | HR Administrator
 job_id: 1938554
----
-
----
-action:
-SELECTED | Suffolk | Suffolk |  | Planner
-job_id: 107978507
 ---
 
 ## SUFFOLK — POSSIBLES
@@ -2961,6 +2923,12 @@ SELECTED | Wiltshire | Wiltshire | £35000 per year | Service Advisor
 job_id: 107921669
 ---
 
+---
+action:
+SELECTED | Wiltshire | Wiltshire |  | Administrator (Financial Services)
+job_id: 107995513
+---
+
 ## WILTSHIRE — POSSIBLES
 
 _No jobs in this group._
@@ -3012,12 +2980,6 @@ _No jobs in this group._
 action:
 DROPPED | Yorkshire - South | Barnsley | £35000 per year | German Speaking Administrator
 job_id: 107830594
----
-
----
-action:
-DROPPED | Hampshire | Hampshire | £45000 per year | Paraplanner
-job_id: 107810460
 ---
 
 ---

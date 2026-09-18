@@ -79,18 +79,6 @@ SELECTED | Cumbria - South | Ulverston | £12.85 per hour (plus rolled up holida
 job_id: 107950046
 ---
 
----
-action:
-SELECTED | Cumbria - South | Barrow-in-furness | £12.85 per hour | Waking Night Support Worker
-job_id: 107972543
----
-
----
-action:
-SELECTED | Cumbria - South | Barrow-in-furness | £12.85 per hour (plus rolled up holiday pay) | Relief Support Worker
-job_id: 107936143
----
-
 ## CUMBRIA SOUTH — POSSIBLES
 
 _No jobs in this group._
@@ -301,6 +289,12 @@ SELECTED | London | London | £12.71 per hour | Bank Support Worker
 job_id: 435255483383257497637340
 ---
 
+---
+action:
+SELECTED | London | Romford | £25,845 per annum | Support Worker
+job_id: 899252331498333798437341
+---
+
 ## LONDON — POSSIBLES
 
 _No jobs in this group._
@@ -353,6 +347,12 @@ job_id: 407022828536620646437340
 action:
 SELECTED | Surrey | Guildford | £25,845 per annum | Support Worker
 job_id: 848325839117772390437341
+---
+
+---
+action:
+SELECTED | Surrey | Chertsey | £25,845 per annum | Female Support Worker
+job_id: 353568229070313881637340
 ---
 
 ## SURREY — POSSIBLES
