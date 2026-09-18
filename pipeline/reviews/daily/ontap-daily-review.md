@@ -32,7 +32,7 @@ Edit only each `action:` line:
 ## JobG8 — 6 to review
 
 ---
-action:
+action: select
 POSS | JobG8 | Bedfordshire | Bedfordshire | £30000 - £35000 per year | Accounts Assistant
 source_key: jobg8
 source: JobG8
@@ -50,7 +50,7 @@ hub_fingerprint: 4ebc48d624444b4ab6982179b917ca3a95c34d58124e3d049415d834a3197e2
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Devon | Devon | £30000 - £32000 per year | Finance Assistant
 source_key: jobg8
 source: JobG8
@@ -68,7 +68,7 @@ hub_fingerprint: b2b3af5e9c71cf7b287af136ff5e66dbaf47aa56ddcb3c16298dbb12e79635d
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | London | London | £40000 - £45000 per year | Accounts Assistant Credit Control
 source_key: jobg8
 source: JobG8
@@ -86,7 +86,7 @@ hub_fingerprint: 1892e99a5fcf42fcefdc98123224dc63dcc7c8c6d748cddd963b17ab6267e8a
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | London | London | £30000 - £40000 per year | Sales Administrator
 source_key: jobg8
 source: JobG8
@@ -104,7 +104,7 @@ hub_fingerprint: 71543d75398768ea518515dcb20febc5099bbc52b957f2a8a26567ebe1cd931
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Oxfordshire | Oxfordshire | £32000 per year | Accounts Assistant
 source_key: jobg8
 source: JobG8
@@ -122,7 +122,7 @@ hub_fingerprint: 46787d48a8ea4681f899c80b9aedf1e6c18c4cbb23c91b5528a24c723d6af50
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Scotland Central - Edinburgh & Lothians | Tranent | £14.00 - £17.00 per hour | HR Assistant
 source_key: jobg8
 source: JobG8
