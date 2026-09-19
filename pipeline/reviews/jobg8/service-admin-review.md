@@ -604,47 +604,40 @@ job_id: 20091_324681-b5c58daf68fdcf9cf849ce08cc8c3867
 ## LONDON — POSSIBLES
 
 ---
-action:
+action: select
 POSS - LONDON | London | London | £36000 per year | Lettings Administrator
 job_id: 1928354
 ---
-
 ---
-action:
+action: exclude
 POSS - LONDON | London | London | £40,000 to £42,000 per annum | Assistant Membership Secretary
 job_id: 1961388
 ---
-
 ---
-action:
+action: exclude
 POSS - LONDON | London | London | £55000 per year | Recruitment Coordinator
 job_id: 1937620
 ---
-
 ---
-action:
+action: exclude
 POSS - LONDON | London | London | £55000 per year | HR Coordinator
 job_id: 1937610
 ---
-
 ---
-action:
+action: select
 POSS - LONDON | London | London | £35000 - £38000 per year | Temp HR Coordinator - Media
 job_id: 1928798
 ---
-
 ---
-action:
+action: exclude
 POSS - LONDON | London | London | £40000 per year | HR ASSISTANT SPECIALIST LAW FIRM &;40,000 4:1 HYBRID
 job_id: 1897827
 ---
-
 ---
-action:
+action: exclude
 POSS - LONDON | London | Croydon | £27 per hour | Band 6 CPN - Community Care Coordinator
 job_id: 1899093
 ---
-
 ## HAMPSHIRE — SELECTED
 
 ---
@@ -800,11 +793,10 @@ job_id: 1896014
 ## SURREY — POSSIBLES
 
 ---
-action:
+action: select
 POSS - SURREY | Surrey | Surrey | £38000 - £40000 per year | HR Advisor / Administrator
 job_id: 1906933
 ---
-
 ## KENT — SELECTED
 
 ---
@@ -936,7 +928,7 @@ job_id: 1906627
 ## SUSSEX — POSSIBLES
 
 ---
-action:
+action: select
 POSS - SUSSEX | Sussex | Sussex | £38000 - £45000 per year | Client Services Administrator
 job_id: 1894808
 ---
@@ -1094,11 +1086,10 @@ job_id: 20091_324681-03f77e739f8132a7634b10f52d3f0e4f
 ## BERKSHIRE — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - BERKSHIRE | Berkshire | Berkshire | £35000 - £40000 per year | Commercial Claims Handler
 job_id: 1937451
 ---
-
 ## BRISTOL & BATH — SELECTED
 
 ---
@@ -1188,23 +1179,20 @@ job_id: 1899302
 ## BRISTOL & BATH — POSSIBLES
 
 ---
-action:
+action: select
 POSS - BRISTOL & BATH | Bristol & Bath | Bath | £15 - £18 per hour | Temp HR Administrator - initial 8 week project
 job_id: 1928936
 ---
-
 ---
-action:
+action: select
 POSS - BRISTOL & BATH | Bristol & Bath | Bristol | £30000 - £40000 per year | HR Coordinator
 job_id: 1908352
 ---
-
 ---
-action:
+action: exclude
 POSS - BRISTOL & BATH | Bristol & Bath | Bristol | £45000 per year | Technical Claims Handler
 job_id: 1899413
 ---
-
 ## BUCKINGHAMSHIRE — SELECTED
 
 ---
@@ -1720,11 +1708,10 @@ job_id: 107940079
 ## DORSET — POSSIBLES
 
 ---
-action:
+action: select
 POSS - DORSET | Dorset | Dorset | £32000 per year | HR Administrator
 job_id: 1957010
 ---
-
 ## ESSEX — SELECTED
 
 ---
@@ -2000,11 +1987,10 @@ job_id: 1896569
 ## GREATER MANCHESTER - MANCHESTER & SALFORD — POSSIBLES
 
 ---
-action:
+action: select
 POSS - GREATER MANCHESTER - MANCHESTER & SALFORD | Greater Manchester - Manchester & Salford | Manchester | £27,411.66 per annum | HR Administrator
 job_id: 1957040
 ---
-
 ## GREATER MANCHESTER - SOUTH — SELECTED
 
 ---
@@ -2034,17 +2020,15 @@ job_id: 1934714
 ## GREATER MANCHESTER - SOUTH — POSSIBLES
 
 ---
-action:
+action: select
 POSS - GREATER MANCHESTER - SOUTH | Greater Manchester - South | Stockport | £30000 - £40000 per year | HR / Admin Coordinator
 job_id: 1909626
 ---
-
 ---
-action:
+action: select
 POSS - GREATER MANCHESTER - SOUTH | Greater Manchester - South | Stockport | £33000 - £37000 per year | HR Coordinator
 job_id: 1898062
 ---
-
 ## GREATER MANCHESTER - WIGAN & BOLTON — SELECTED
 
 ---
@@ -2074,11 +2058,10 @@ job_id: 20279_62648-be0da432b3a040b9318b55b27aa49c2a
 ## GREATER MANCHESTER - WIGAN & BOLTON — POSSIBLES
 
 ---
-action:
+action: select
 POSS - GREATER MANCHESTER - WIGAN & BOLTON | Greater Manchester - Wigan & Bolton | Wigan | £32000 - £35000 per year | Finance Assistant
 job_id: 1895046
 ---
-
 ## HERTFORDSHIRE — SELECTED
 
 ---
@@ -2132,11 +2115,10 @@ job_id: 1946264
 ## HERTFORDSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - HERTFORDSHIRE | Hertfordshire | Hertfordshire | £35000 - £40000 per year | Accounts Assistant
 job_id: 1905967
 ---
-
 ## LEICESTERSHIRE — SELECTED
 
 ---
@@ -2390,17 +2372,15 @@ job_id: 107986102
 ## NORTHERN IRELAND - EAST — POSSIBLES
 
 ---
-action:
+action: select
 POSS - NORTHERN IRELAND - EAST | Northern Ireland - East | Belfast | £14.50 - £16.00 per hour | Accounts Assistant
 job_id: 1906961
 ---
-
 ---
-action:
+action: select
 POSS - NORTHERN IRELAND - EAST | Northern Ireland - East | Lisburn | £31000 per year | Accounts Assistant
 job_id: 1897859
 ---
-
 ## NOTTINGHAMSHIRE — SELECTED
 
 ---
@@ -2442,11 +2422,10 @@ job_id: 1895751
 ## NOTTINGHAMSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - NOTTINGHAMSHIRE | Nottinghamshire | Nottinghamshire | £14.00 - £16 per hour | HR Administrator
 job_id: 1961154
 ---
-
 ## OXFORDSHIRE — SELECTED
 
 ---
@@ -2464,11 +2443,10 @@ job_id: 1914753
 ## OXFORDSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - OXFORDSHIRE | Oxfordshire | Oxfordshire | £28000 - £32000 per year | HR Administrator
 job_id: 1939388
 ---
-
 ## SCOTLAND CENTRAL - EDINBURGH & LOTHIANS — SELECTED
 
 ---
