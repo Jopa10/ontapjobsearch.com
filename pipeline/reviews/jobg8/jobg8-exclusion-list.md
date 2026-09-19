@@ -6,9 +6,93 @@ The `excluded_on` date is the day the exclusion decision was made.
 To restore a job, edit only its `action:` line to `action: select`.
 On the next JobG8 run that exact job ID will be restored and removed from this list.
 
-remembered_exclusions: 340
+remembered_exclusions: 347
 
 ## SERVICE / ADMIN — EXCLUDED
+
+---
+action:
+category: service_admin
+excluded_on: 2026-09-19
+title: Technical Claims Handler
+employer: red recruitment
+region: 
+town: Somerset
+salary: 
+job_id: 1899413
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-09-19
+title: Recruitment Coordinator
+employer: Larbey Evans
+region: 
+town: London
+salary: 
+job_id: 1937620
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-09-19
+title: HR Coordinator
+employer: Larbey Evans
+region: 
+town: London
+salary: 
+job_id: 1937610
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-09-19
+title: HR ASSISTANT SPECIALIST LAW FIRM &;40,000 4:1 HYBRID
+employer: JM Legal Ltd
+region: 
+town: London
+salary: 
+job_id: 1897827
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-09-19
+title: Commercial Claims Handler
+employer: CKB Recruitment
+region: 
+town: Berkshire
+salary: 
+job_id: 1937451
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-09-19
+title: Band 6 CPN - Community Care Coordinator
+employer: Day Webster
+region: 
+town: Surrey
+salary: 
+job_id: 1899093
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-09-19
+title: Assistant Membership Secretary
+employer: Prospectus
+region: 
+town: London
+salary: 
+job_id: 1961388
+---
 
 ---
 action:

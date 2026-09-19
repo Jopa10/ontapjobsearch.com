@@ -2,11 +2,11 @@
 
 review_date: 2026-09-19
 
-- Open Administrative & Clerical rows reviewed: 2184
+- Open Administrative & Clerical rows reviewed: 2181
 - Auto/remembered selected: 394
 - Selected HC Tier A: 210
 - Selected HC Tier B: 184
-- POSS awaiting decision: 1650
+- POSS awaiting decision: 1647
 - Excluded: 0
 - HARD_PASS: 140
 
@@ -466,18 +466,6 @@ region: Leicestershire
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9358-26-0624
 factual_fingerprint: 818545930c5f3198e9bd73722075f219cf85ea8a456ecd58d256f0361c4ee4f7
----
-
----
-action:
-POSS | NHS Jobs | London | Edgware, HA8 0AD | £33262.00 to £36027.00 | Band 4 Clinical Pathway Navigator
-source_job_id: 5610179
-title: Band 4 Clinical Pathway Navigator
-employer: Royal Free London NHS Foundation Trust
-region: London
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9391-26-1623
-factual_fingerprint: 1231d54fca8b5055785161d766609440c8bc8bffa9842baed6344934467c612d
 ---
 
 ---
@@ -7126,18 +7114,6 @@ region: London
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9824-26-0831
 factual_fingerprint: b8a125f5c6e3f82cd08fdbf5a787ba8415e9051ede22faa0fd2e4235a553f89b
----
-
----
-action:
-POSS | NHS Jobs | Cambridgeshire | Peterborough, PE3 9GZ | £28392.00 to £31157.00 | Cancer Patient Pathway & MDT Co-Ordinator - Peterborough & Huntingdon
-source_job_id: 5600583
-title: Cancer Patient Pathway & MDT Co-Ordinator - Peterborough & Huntingdon
-employer: North West Anglia NHS Foundation Trust
-region: Cambridgeshire
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9176-26-0506
-factual_fingerprint: be355f45e6ac8332f34d025f90d680f3608df2fa91da461033d6373b8543f8b2
 ---
 
 ---
@@ -14170,18 +14146,6 @@ region: Surrey
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9325-26-0668
 factual_fingerprint: c5e66216ecdcaf55c871f781cdbdd9825abb57b0d69a18145c16ca7d8707068e
----
-
----
-action:
-POSS | NHS Jobs | — | Remote (Home based), WD6 1JN | Negotiable | Business Development Director
-source_job_id: 5588400
-title: Business Development Director
-employer: Elysium Healthcare
-region: 
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/E0132-26-2044
-factual_fingerprint: a597bfa6e5912e9427e5058c124aca3f6c1bbc6b446d07bcbf1ffd5d57c37c18
 ---
 
 ---

@@ -1,6 +1,6 @@
 ﻿metric,value
 total rows input,10000
-total rows included,49
+total rows included,51
 total rows dropped,9949
 title classification count - HIGH_CONFIDENCE,159
 title classification count - ELASTIC_FIT,47
@@ -63,14 +63,14 @@ anchor elastic count - Kent,2
 other elastic count - Kent,2
 total rows output - Kent,12
 job_id included - Kent,117813832060606873637341; 253500016251056947237341; 604850204165380505637341; 1851265; 1877396; 488731141933210009637340; 589431165057551564837340; 117813832060606873637340; 1402265374; 107992078; 253500016251056947237340; 604850204165380505637340
-selection scenario - London,SCENARIO_1_COMPLETE_HC_ONLY
-selection message - London,London selection complete: HIGH_CONFIDENCE roles selected.
-credible total - London,7
+selection scenario - London,SCENARIO_3_MANUAL_SELECTION_APPLIED
+selection message - London,London manual_select applied additively: 1 row(s) prioritised; 8 selected.
+credible total - London,8
 high confidence count - London,7
 anchor elastic count - London,0
 other elastic count - London,0
-total rows output - London,7
-job_id included - London,1927514; 1815970; 700287538578430361637341; 107605955; 107809919; 107603867; 1961315
+total rows output - London,8
+job_id included - London,1927514; 1961257; 1815970; 700287538578430361637341; 107605955; 107809919; 107603867; 1961315
 selection scenario - Oxfordshire,SCENARIO_4_BELOW_PUBLISH_THRESHOLD
 selection message - Oxfordshire,Oxfordshire selection below publish threshold: 2/6 credible roles. Do not publish/refresh this slice from this run.
 credible total - Oxfordshire,2
@@ -88,10 +88,10 @@ other elastic count - Surrey,0
 total rows output - Surrey,6
 job_id included - Surrey,407022828536620646437341; 848325839117772390437341; 211322183273886515237340; 186045280252696985637340; 353568229070313881637340; 407022828536620646437340
 selection scenario - Wiltshire,SCENARIO_4_BELOW_PUBLISH_THRESHOLD
-selection message - Wiltshire,Wiltshire selection below publish threshold: 0/6 credible roles. Do not publish/refresh this slice from this run.
-credible total - Wiltshire,0
+selection message - Wiltshire,Wiltshire selection below publish threshold: 1/6 credible roles. Do not publish/refresh this slice from this run.
+credible total - Wiltshire,1
 high confidence count - Wiltshire,0
 anchor elastic count - Wiltshire,0
 other elastic count - Wiltshire,0
-total rows output - Wiltshire,0
-job_id included - Wiltshire,
+total rows output - Wiltshire,1
+job_id included - Wiltshire,107978779
