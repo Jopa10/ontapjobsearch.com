@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 1
-- automatic review: 16
+- automatic review: 14
 - automatic exclude: 0
 - effective include: 1
-- effective review: 16
+- effective review: 14
 - effective exclude: 0
 
 ## INCLUDE (1)
@@ -36,17 +36,29 @@ job_id: jobg8-1877352
 reason: Exact approved Hemel Hempstead workplace.
 ---
 
-## REVIEW (16)
+## REVIEW (14)
 
 ---
 action: 
 decision: review
 automatic_decision: review
-title: Administrator
-company: Central London Community Health Trust
-location: Watford, WD25 9NH
+title: Accounts Assistant
+company: Pinpoint Resourcing Ltd - Agency - Permanent
+location: Hertfordshire
+source: JobG8
+job_id: jobg8-1905967
+reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator - Hertfordshire
+company: Vaccination UK
+location: Welwyn Garden City, AL71HH
 source: NHS Jobs
-job_id: nhs-5605478
+job_id: nhs-5439405
 reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
 ---
 
@@ -126,11 +138,11 @@ reason: No exact Hemel Hempstead workplace matched; local geographic review is r
 action: 
 decision: review
 automatic_decision: review
-title: HR Coordinator
-company: STORMX RECRUITMENT LIMITED - Agency - Permanent
+title: HR Assistant
+company: Reed - Agency - Permanent
 location: Hertfordshire
 source: JobG8
-job_id: jobg8-1939831
+job_id: jobg8-1946264
 reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
 ---
 
@@ -138,11 +150,11 @@ reason: No exact Hemel Hempstead workplace matched; local geographic review is r
 action: 
 decision: review
 automatic_decision: review
-title: Marketing and Communications Manager
-company: Devonshire Hayes Recruitment Specialists Limited - Agency - Permanent
+title: HR Coordinator
+company: STORMX RECRUITMENT LIMITED - Agency - Permanent
 location: Hertfordshire
 source: JobG8
-job_id: jobg8-1849351
+job_id: jobg8-1939831
 reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
 ---
 
@@ -174,18 +186,6 @@ reason: No exact Hemel Hempstead workplace matched; local geographic review is r
 action: 
 decision: review
 automatic_decision: review
-title: Operations Business Support Coordinator
-company: Hales Group - Agency - Permanent
-location: Hertfordshire
-source: JobG8
-job_id: jobg8-1778586
-reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Operations Co-Ordinator
 company: Zero Surplus - Agency - Permanent
 location: Hertford
@@ -198,35 +198,11 @@ reason: No exact Hemel Hempstead workplace matched; local geographic review is r
 action: 
 decision: review
 automatic_decision: review
-title: PA to Head
-company: The HireWorks Ltd - Agency - Permanent
-location: Hertfordshire
-source: JobG8
-job_id: jobg8-107952725
-reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Team Administrator
 company: Hertfordshire Partnership University NHS Foundation Trust
 location: Watford, WD18 0JP
 source: NHS Jobs
 job_id: nhs-5607673
-reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Van Business Development Executive (BDE)
-company: Reed - Agency - Permanent
-location: Hatfield
-source: JobG8
-job_id: jobg8-1835839
 reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
 ---
 

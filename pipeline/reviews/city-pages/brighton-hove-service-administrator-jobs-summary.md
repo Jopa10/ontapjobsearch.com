@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 1
-- automatic review: 15
+- automatic review: 14
 - automatic exclude: 4
 - effective include: 1
-- effective review: 15
+- effective review: 14
 - effective exclude: 4
 
 ## INCLUDE (1)
@@ -36,7 +36,7 @@ job_id: nhs-5605438
 reason: Approved Brighton & Hove catchment.
 ---
 
-## REVIEW (15)
+## REVIEW (14)
 
 ---
 action: 
@@ -54,11 +54,23 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Audit & Accounts Assistant
-company: Pro Talent - Agency - Permanent
+title: Accounts Assistant 12month FTC to Permanent
+company: Huntress - Agency - Permanent
 location: Sussex
 source: JobG8
-job_id: jobg8-1831479
+job_id: jobg8-1906627
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Client Services Administrator
+company: Financial Divisions - Agency - Permanent
+location: Sussex
+source: JobG8
+job_id: jobg8-1894808
 reason: Broad location; review before city inclusion.
 ---
 
@@ -90,18 +102,6 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: HR Assistant
-company: Brook Street - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-1953771
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Internal Sales Administrator
 company: Trident - Agency - Permanent
 location: Sussex
@@ -119,18 +119,6 @@ company: A1 People - Agency - Permanent
 location: Sussex
 source: JobG8
 job_id: jobg8-1910463
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Purchase Ledger Administrator
-company: Michael Page Business Support - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-1823585
 reason: Broad location; review before city inclusion.
 ---
 
@@ -224,11 +212,11 @@ reason: No approved Brighton & Hove catchment rule matched; local review require
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Finance Assistant
-company: Newstone Talent Solutions Ltd - Agency - Permanent
-location: Worthing
+title: Business Development Executive
+company: Clover Talent Limited - Agency - Permanent
+location: Chichester
 source: JobG8
-job_id: jobg8-1839515
+job_id: jobg8-107983554
 reason: Separate employment market.
 ---
 

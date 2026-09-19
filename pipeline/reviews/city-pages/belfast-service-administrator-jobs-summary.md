@@ -4,7 +4,7 @@
 - Live route: `/belfast/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 2
+- Effective included jobs: 3
 - Threshold currently met: no
 
 ## How to review
@@ -15,24 +15,24 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 2
-- automatic review: 4
+- automatic include: 3
+- automatic review: 7
 - automatic exclude: 0
-- effective include: 2
-- effective review: 4
+- effective include: 3
+- effective review: 7
 - effective exclude: 0
 
-## INCLUDE (2)
+## INCLUDE (3)
 
 ---
 action: 
 decision: include
 automatic_decision: include
-title: Band 3 Clerical Officer
-company: Brook Street - Agency - Permanent
+title: Accounts Assistant
+company: Reed - Agency - Permanent
 location: Belfast
 source: JobG8
-job_id: jobg8-1953799
+job_id: jobg8-1906961
 reason: Approved conservative Belfast launch catchment.
 ---
 
@@ -48,7 +48,43 @@ job_id: jobg8-21582_110129390
 reason: Approved conservative Belfast launch catchment.
 ---
 
-## REVIEW (4)
+---
+action: 
+decision: include
+automatic_decision: include
+title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
+company: Qualify Nation Recruitment - Agency - Permanent
+location: Belfast
+source: JobG8
+job_id: jobg8-1954667
+reason: Approved conservative Belfast launch catchment.
+---
+
+## REVIEW (7)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Assistant
+company: Reed - Agency - Permanent
+location: Lisburn
+source: JobG8
+job_id: jobg8-1897859
+reason: No approved Belfast catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: Pilgrims Europe - Company - Permanent
+location: Larne
+source: JobG8
+job_id: jobg8-107986102
+reason: No approved Belfast catchment rule matched; local review required.
+---
 
 ---
 action: 
@@ -95,6 +131,18 @@ company: Brook Street UK - Agency - Permanent
 location: Ballyclare
 source: JobG8
 job_id: jobg8-107922303
+reason: No approved Belfast catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Senior Marketing Assistant (12-month FTC)
+company: A&O Shearman - Agency - Permanent
+location: County Antrim
+source: JobG8
+job_id: jobg8-21582_110261497
 reason: No approved Belfast catchment rule matched; local review required.
 ---
 

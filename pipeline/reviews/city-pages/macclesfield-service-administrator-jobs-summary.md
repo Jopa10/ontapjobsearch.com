@@ -90,11 +90,11 @@ reason: No exact Macclesfield workplace matched; local geographic review is requ
 action: 
 decision: review
 automatic_decision: review
-title: Insurance Claims Handler
-company: Massenhove Recruitment Limited - Agency - Permanent
-location: Nantwich
+title: HR Administrator
+company: Hays Specialist Recruitment Limited - Agency - Permanent
+location: Crewe
 source: JobG8
-job_id: jobg8-1851532
+job_id: jobg8-1905063
 reason: No exact Macclesfield workplace matched; local geographic review is required.
 ---
 

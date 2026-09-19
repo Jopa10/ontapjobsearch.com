@@ -4,7 +4,7 @@
 - Live route: `/plymouth/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 1
+- Effective included jobs: 3
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 1
-- automatic review: 14
+- automatic include: 3
+- automatic review: 16
 - automatic exclude: 0
-- effective include: 1
-- effective review: 14
+- effective include: 3
+- effective review: 16
 - effective exclude: 0
 
-## INCLUDE (1)
+## INCLUDE (3)
 
 ---
 action: 
@@ -36,7 +36,31 @@ job_id: teaching-vacancies-estates-administrator-learning-academies-trust
 reason: Exact approved Plymouth workplace.
 ---
 
-## REVIEW (14)
+---
+action: 
+decision: include
+automatic_decision: include
+title: Finance Assistant
+company: Butler Rose - Agency - Permanent
+location: Plymouth
+source: JobG8
+job_id: jobg8-1895753
+reason: Exact approved Plymouth workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Payroll Executive
+company: Butler Rose - Agency - Permanent
+location: Plymouth
+source: JobG8
+job_id: jobg8-1895696
+reason: Exact approved Plymouth workplace.
+---
+
+## REVIEW (16)
 
 ---
 action: 
@@ -47,6 +71,18 @@ company: St Cuthbert Mayne School
 location: Torquay
 source: Teaching Vacancies
 job_id: teaching-vacancies-attendance-administrator-65068773-d1be-4711-9b88-bde2f62d9e1b
+reason: No exact Plymouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Business Administrator
+company: Devon Partnership NHS Trust
+location: Newton Abbot, TQ12 4PH
+source: NHS Jobs
+job_id: nhs-5580080
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 
@@ -162,11 +198,11 @@ reason: No exact Plymouth workplace matched; local geographic review is required
 action: 
 decision: review
 automatic_decision: review
-title: HR Coordinator
-company: Reed - Agency - Permanent
-location: Exeter
+title: Payroll Assistant (Part Time - Temp)
+company: Butler Rose - Agency - Permanent
+location: Devon
 source: JobG8
-job_id: jobg8-1842702
+job_id: jobg8-1895856
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 
@@ -174,11 +210,23 @@ reason: No exact Plymouth workplace matched; local geographic review is required
 action: 
 decision: review
 automatic_decision: review
-title: Service Administrator
-company: Royal Devon University Healthcare NHS Foundation Trust
-location: Exeter, EX2 5DW
-source: NHS Jobs
-job_id: nhs-5594406
+title: Purchasing Assistant
+company: Reed - Agency - Permanent
+location: Devon
+source: JobG8
+job_id: jobg8-1905927
+reason: No exact Plymouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Recruitment Account Co-ordinator
+company: Acorn by Synergie - Agency - Permanent
+location: Devon
+source: JobG8
+job_id: jobg8-107953534
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 

@@ -4,7 +4,7 @@
 - Live route: `/warrington/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 12
+- Effective included jobs: 17
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,50 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 12
+- automatic include: 17
 - automatic review: 9
 - automatic exclude: 5
-- effective include: 12
+- effective include: 17
 - effective review: 9
 - effective exclude: 5
 
-## INCLUDE (12)
+## INCLUDE (17)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Accounts Assistant
+company: Bis Henderson - Agency - Permanent
+location: Warrington
+source: JobG8
+job_id: jobg8-1906561
+reason: Approved conservative Warrington launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Accounts Payable Associate
+company: RS Components Holdings Limited - Agency - Permanent
+location: Warrington
+source: JobG8
+job_id: jobg8-1912325
+reason: Approved conservative Warrington launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Bookkeeper
+company: Reed - Agency - Permanent
+location: Warrington
+source: JobG8
+job_id: jobg8-1911962
+reason: Approved conservative Warrington launch catchment.
+---
 
 ---
 action: 
@@ -112,6 +148,18 @@ reason: Approved conservative Warrington launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Credit Controller (12-Month FTC)
+company: Rubax - Agency - Permanent
+location: Warrington
+source: JobG8
+job_id: jobg8-1903559
+reason: Approved conservative Warrington launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Customer Service Advisor - Uncapped Commission
 company: EE - Company - Permanent
 location: Warrington
@@ -141,6 +189,18 @@ company: Reed - Agency - Permanent
 location: Warrington
 source: JobG8
 job_id: jobg8-1944948
+reason: Approved conservative Warrington launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Graduate HR Administrator
+company: ARBORVITAE CARE SERVICES LTD - Agency - Permanent
+location: Warrington
+source: JobG8
+job_id: jobg8-1959440
 reason: Approved conservative Warrington launch catchment.
 ---
 

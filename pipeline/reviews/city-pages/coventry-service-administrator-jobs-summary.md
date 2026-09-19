@@ -4,8 +4,8 @@
 - Live route: `/coventry/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 6
-- Threshold currently met: yes
+- Effective included jobs: 5
+- Threshold currently met: no
 
 ## How to review
 Edit only the `action:` line inside a job block.
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 6
-- automatic review: 1
-- automatic exclude: 7
-- effective include: 6
-- effective review: 1
-- effective exclude: 7
+- automatic include: 5
+- automatic review: 0
+- automatic exclude: 8
+- effective include: 5
+- effective review: 0
+- effective exclude: 8
 
-## INCLUDE (6)
+## INCLUDE (5)
 
 ---
 action: 
@@ -45,18 +45,6 @@ company: Gleeson Recruitment Group - Agency - Permanent
 location: Coventry
 source: JobG8
 job_id: jobg8-1869638
-reason: Approved Coventry catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: HR Assistant
-company: Bell Cornwall Recruitment - Agency - Permanent
-location: Coventry
-source: JobG8
-job_id: jobg8-1835857
 reason: Approved Coventry catchment.
 ---
 
@@ -96,21 +84,9 @@ job_id: jobg8-1859862
 reason: Approved Coventry catchment.
 ---
 
-## REVIEW (1)
+## REVIEW (0)
 
----
-action: 
-decision: review
-automatic_decision: review
-title: HR Administrator, Temporary to Permanent Opportunity
-company: Office Angels - Agency - Permanent
-location: Atherstone
-source: JobG8
-job_id: jobg8-1859602
-reason: No approved Coventry catchment rule matched; local review required.
----
-
-## EXCLUDE (7)
+## EXCLUDE (8)
 
 ---
 action: 
@@ -152,6 +128,30 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Finance Assistant
+company: Gleeson Recruitment Group - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-1906045
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Finance Assistant
+company: Thefutureworks - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-1895750
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: HR Assistant
 company: Dudley Lodge - Agency - Permanent
 location: Warwickshire
@@ -181,17 +181,5 @@ company: Valley Road Medical Practice
 location: Leamington Spa, CV32 7SJ
 source: NHS Jobs
 job_id: nhs-4151642
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Purchase Ledger Accounts Assistant
-company: Belinda Roberts Ltd - Agency - Permanent
-location: Warwick
-source: JobG8
-job_id: jobg8-1835035
 reason: Separate employment market.
 ---

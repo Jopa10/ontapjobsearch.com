@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 1
-- automatic review: 8
+- automatic review: 7
 - automatic exclude: 0
 - effective include: 1
-- effective review: 8
+- effective review: 7
 - effective exclude: 0
 
 ## INCLUDE (1)
@@ -36,7 +36,7 @@ job_id: jobg8-1869719
 reason: Exact approved Altrincham workplace.
 ---
 
-## REVIEW (8)
+## REVIEW (7)
 
 ---
 action: 
@@ -54,11 +54,11 @@ reason: No exact Altrincham workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Digital Marketing Executive (Social Media)
-company: FindCore - Agency - Permanent
-location: Cheadle
+title: HR / Admin Coordinator
+company: Roundhouse Recruitment Ltd - Agency - Permanent
+location: Stockport
 source: JobG8
-job_id: jobg8-1853041
+job_id: jobg8-1909626
 reason: No exact Altrincham workplace matched; local geographic review is required.
 ---
 
@@ -66,11 +66,11 @@ reason: No exact Altrincham workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Marketing Executive (35k - 45k)
-company: FindCore - Agency - Permanent
-location: Cheadle
+title: HR Coordinator
+company: Roundhouse Recruitment Ltd - Agency - Permanent
+location: Stockport
 source: JobG8
-job_id: jobg8-1834023
+job_id: jobg8-1898062
 reason: No exact Altrincham workplace matched; local geographic review is required.
 ---
 
@@ -78,11 +78,11 @@ reason: No exact Altrincham workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Marketing Manager - 45k
-company: FindCore - Agency - Permanent
-location: Cheadle
+title: Lettings Coordinator
+company: The People Pod - Agency - Permanent
+location: Stockport
 source: JobG8
-job_id: jobg8-1834021
+job_id: jobg8-1934714
 reason: No exact Altrincham workplace matched; local geographic review is required.
 ---
 
@@ -102,11 +102,11 @@ reason: No exact Altrincham workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Marketing Specialist - 45k
-company: FindCore - Agency - Permanent
-location: Cheadle
-source: JobG8
-job_id: jobg8-1853051
+title: Medical Receptionist/ Care Navigator
+company: Bodmin Road Health Centre
+location: Sale, M33 5JH
+source: NHS Jobs
+job_id: nhs-5578666
 reason: No exact Altrincham workplace matched; local geographic review is required.
 ---
 
@@ -119,18 +119,6 @@ company: IRIS Recruitment - Agency - Permanent
 location: Sale
 source: JobG8
 job_id: jobg8-1876630
-reason: No exact Altrincham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Social Media Marketing Executive
-company: FindCore - Agency - Permanent
-location: Cheadle
-source: JobG8
-job_id: jobg8-1853037
 reason: No exact Altrincham workplace matched; local geographic review is required.
 ---
 

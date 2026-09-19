@@ -4,7 +4,7 @@
 - Live route: `/oxford/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 4
+- Effective included jobs: 2
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 4
+- automatic include: 2
 - automatic review: 0
 - automatic exclude: 6
-- effective include: 4
+- effective include: 2
 - effective review: 0
 - effective exclude: 6
 
-## INCLUDE (4)
+## INCLUDE (2)
 
 ---
 action: 
@@ -41,34 +41,10 @@ action:
 decision: include
 automatic_decision: include
 title: Commercial Property Secretary
-company: Allstaff Recruitment - Agency - Permanent
+company: Macildowie Recruitment and Retention - Agency - Permanent
 location: Oxford
 source: JobG8
-job_id: jobg8-1851565
-reason: Approved conservative Oxford launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Email Campaign Executive
-company: Niche Recruitment Ltd - Agency - Permanent
-location: Oxford
-source: JobG8
-job_id: jobg8-1789906
-reason: Approved conservative Oxford launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Marketing Executive
-company: TALENT SEARCH LIMITED - Agency - Permanent
-location: Oxford
-source: JobG8
-job_id: jobg8-1787371
+job_id: jobg8-1914753
 reason: Approved conservative Oxford launch catchment.
 ---
 
@@ -116,6 +92,18 @@ reason: Broad county location; not Oxford-city evidence.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: HR Administrator
+company: Reed - Agency - Permanent
+location: Oxfordshire
+source: JobG8
+job_id: jobg8-1939388
+reason: Broad county location; not Oxford-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Marketing Executive
 company: Plus One Recruitment - Agency - Permanent
 location: Oxfordshire
@@ -133,17 +121,5 @@ company: Abingdon School - Agency - Permanent
 location: Oxfordshire
 source: JobG8
 job_id: jobg8-1859419
-reason: Broad county location; not Oxford-city evidence.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Service Advisor
-company: The Solution Automotive Limited - Agency - Permanent
-location: Oxfordshire
-source: JobG8
-job_id: jobg8-107842072
 reason: Broad county location; not Oxford-city evidence.
 ---

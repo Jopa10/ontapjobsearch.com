@@ -4,7 +4,7 @@
 - Live route: `/barnsley/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 2
+- Effective included jobs: 3
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 2
+- automatic include: 3
 - automatic review: 0
-- automatic exclude: 3
-- effective include: 2
+- automatic exclude: 4
+- effective include: 3
 - effective review: 0
-- effective exclude: 3
+- effective exclude: 4
 
-## INCLUDE (2)
+## INCLUDE (3)
 
 ---
 action: 
@@ -48,9 +48,33 @@ job_id: jobg8-1908708
 reason: Approved Barnsley catchment.
 ---
 
+---
+action: 
+decision: include
+automatic_decision: include
+title: Recruitment Account Coordinator
+company: Staffline Recruitment Limited - Agency - Permanent
+location: Barnsley
+source: JobG8
+job_id: jobg8-1899397
+reason: Approved Barnsley catchment.
+---
+
 ## REVIEW (0)
 
-## EXCLUDE (3)
+## EXCLUDE (4)
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Credit Control / Accounts Assistant
+company: Shillito Group - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-1905225
+reason: Separate employment market.
+---
 
 ---
 action: 

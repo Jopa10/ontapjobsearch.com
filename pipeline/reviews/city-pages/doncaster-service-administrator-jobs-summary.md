@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 2
 - automatic review: 0
-- automatic exclude: 3
+- automatic exclude: 5
 - effective include: 2
 - effective review: 0
-- effective exclude: 3
+- effective exclude: 5
 
 ## INCLUDE (2)
 
@@ -50,7 +50,7 @@ reason: Approved Doncaster catchment.
 
 ## REVIEW (0)
 
-## EXCLUDE (3)
+## EXCLUDE (5)
 
 ---
 action: 
@@ -61,6 +61,18 @@ company: Garland House Surgery
 location: Barnsley, S73 9JX
 source: NHS Jobs
 job_id: nhs-5295793
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Credit Control / Accounts Assistant
+company: Shillito Group - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-1905225
 reason: Separate employment market.
 ---
 
@@ -85,5 +97,17 @@ company: Totley Primary School
 location: Sheffield
 source: Teaching Vacancies
 job_id: teaching-vacancies-receptionist-totley-primary-school
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Recruitment Account Coordinator
+company: Staffline Recruitment Limited - Agency - Permanent
+location: Barnsley
+source: JobG8
+job_id: jobg8-1899397
 reason: Separate employment market.
 ---

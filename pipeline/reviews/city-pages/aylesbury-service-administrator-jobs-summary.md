@@ -16,27 +16,15 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 0
-- automatic review: 16
+- automatic review: 15
 - automatic exclude: 0
 - effective include: 0
-- effective review: 16
+- effective review: 15
 - effective exclude: 0
 
 ## INCLUDE (0)
 
-## REVIEW (16)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Account Coordinator
-company: Think Specialist Recruitment - Agency - Permanent
-location: Buckinghamshire
-source: JobG8
-job_id: jobg8-1780993
-reason: No exact Aylesbury workplace matched; local geographic review is required.
----
+## REVIEW (15)
 
 ---
 action: 
@@ -54,35 +42,11 @@ reason: No exact Aylesbury workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Administrator
-company: caldecotte group services ltd - Agency - Permanent
-location: Buckinghamshire
+title: Amazon PPC Executive
+company: FS1 Recruitment - Marketing, Creative, Digital, Finance, HR, Sales, Admin - Agency - Permanent
+location: Milton Keynes
 source: JobG8
-job_id: jobg8-275574729095302348837340
-reason: No exact Aylesbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
-company: caldecotte group services ltd - Agency - Permanent
-location: Buckinghamshire
-source: JobG8
-job_id: jobg8-275574729095302348837342
-reason: No exact Aylesbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Attendance Officer
-company: Amersham School
-location: Amersham
-source: Teaching Vacancies
-job_id: teaching-vacancies-attendance-officer-amersham-school
+job_id: jobg8-1913072
 reason: No exact Aylesbury workplace matched; local geographic review is required.
 ---
 
@@ -95,6 +59,30 @@ company: Bucks Students Union - Agency - Permanent
 location: High Wycombe
 source: JobG8
 job_id: jobg8-1891738
+reason: No exact Aylesbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Completions Support Administrator
+company: The Curve Group - Agency - Permanent
+location: Buckinghamshire
+source: JobG8
+job_id: jobg8-1899364
+reason: No exact Aylesbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: E-commerce Merchandise Lead
+company: FS1 Recruitment - Marketing, Creative, Digital, Finance, HR, Sales, Admin - Agency - Permanent
+location: Milton Keynes
+source: JobG8
+job_id: jobg8-1934233
 reason: No exact Aylesbury workplace matched; local geographic review is required.
 ---
 
@@ -127,46 +115,10 @@ action:
 decision: review
 automatic_decision: review
 title: HR Administrator
-company: Adecco - Agency - Permanent
-location: Buckinghamshire
-source: JobG8
-job_id: jobg8-1857566
-reason: No exact Aylesbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: HR Administrator
 company: wild recruitment - Agency - Permanent
 location: Milton Keynes
 source: JobG8
 job_id: jobg8-1929321
-reason: No exact Aylesbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: HR Operations Coordinator
-company: wild recruitment - Agency - Permanent
-location: Buckinghamshire
-source: JobG8
-job_id: jobg8-1856610
-reason: No exact Aylesbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Marketing & Events Executive
-company: Reed - Agency - Permanent
-location: Buckinghamshire
-source: JobG8
-job_id: jobg8-1859680
 reason: No exact Aylesbury workplace matched; local geographic review is required.
 ---
 
@@ -179,6 +131,42 @@ company: Nextech - Agency - Permanent
 location: Milton Keynes
 source: JobG8
 job_id: jobg8-1877882
+reason: No exact Aylesbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Marketing Executive
+company: FS1 Recruitment - Marketing, Creative, Digital, Finance, HR, Sales, Admin - Agency - Permanent
+location: Buckinghamshire
+source: JobG8
+job_id: jobg8-1896236
+reason: No exact Aylesbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Medical Events Project Co-ordinator
+company: Bucks and Berks Recruitment - Agency - Permanent
+location: Buckinghamshire
+source: JobG8
+job_id: jobg8-1907611
+reason: No exact Aylesbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Part-time Finance Assistant - Education Sector
+company: Hays Specialist Recruitment Limited - Agency - Permanent
+location: Buckinghamshire
+source: JobG8
+job_id: jobg8-1905959
 reason: No exact Aylesbury workplace matched; local geographic review is required.
 ---
 

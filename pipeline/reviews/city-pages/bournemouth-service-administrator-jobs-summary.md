@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 2
-- automatic review: 15
+- automatic review: 10
 - automatic exclude: 0
 - effective include: 2
-- effective review: 15
+- effective review: 10
 - effective exclude: 0
 
 ## INCLUDE (2)
@@ -48,31 +48,7 @@ job_id: teaching-vacancies-administrator-sixth-form-study-centre-3a398641-1a04-4
 reason: Exact approved Bournemouth workplace.
 ---
 
-## REVIEW (15)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Assistant
-company: Reed - Agency - Permanent
-location: Dorset
-source: JobG8
-job_id: jobg8-1838779
-reason: No exact Bournemouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Assistant
-company: Robert Walters - Agency - Permanent
-location: Verwood
-source: JobG8
-job_id: jobg8-1840045
-reason: No exact Bournemouth workplace matched; local geographic review is required.
----
+## REVIEW (10)
 
 ---
 action: 
@@ -102,47 +78,11 @@ reason: No exact Bournemouth workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Audit & Accounts Assistant
-company: Reed - Agency - Permanent
-location: Poole
-source: JobG8
-job_id: jobg8-1838771
-reason: No exact Bournemouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Care Coordinator
 company: Agincare Group - Agency - Permanent
 location: Dorset
 source: JobG8
-job_id: jobg8-107865251
-reason: No exact Bournemouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Claims Handler
-company: Adjusting Appointments Limited - Agency - Permanent
-location: Dorset
-source: JobG8
-job_id: jobg8-1839332
-reason: No exact Bournemouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Claims Handler
-company: Adjusting Appointments Limited - Agency - Permanent
-location: Dorset
-source: JobG8
-job_id: jobg8-1839335
+job_id: jobg8-107940079
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 
@@ -198,11 +138,11 @@ reason: No exact Bournemouth workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Receptionist/Administrator
-company: Dorset HealthCare University NHS Foundation Trust
-location: Sherborne, DT93JU
-source: NHS Jobs
-job_id: nhs-5596760
+title: HR Administrator
+company: Resource Recruitment - Agency - Permanent
+location: Ferndown
+source: JobG8
+job_id: jobg8-1957010
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 

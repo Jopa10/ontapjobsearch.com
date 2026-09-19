@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 3
-- automatic review: 15
+- automatic review: 19
 - automatic exclude: 0
 - effective include: 3
-- effective review: 15
+- effective review: 19
 - effective exclude: 0
 
 ## INCLUDE (3)
@@ -60,19 +60,7 @@ job_id: jobg8-1932863
 reason: Exact approved Gloucester workplace.
 ---
 
-## REVIEW (15)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Credit Controller
-company: Juice Recruitment Ltd - Agency - Permanent
-location: Cirencester
-source: JobG8
-job_id: jobg8-1832085
-reason: No exact Gloucester workplace matched; local geographic review is required.
----
+## REVIEW (19)
 
 ---
 action: 
@@ -83,6 +71,18 @@ company: Wildfowl and Wetlands Trust - Agency - Permanent
 location: Gloucestershire
 source: JobG8
 job_id: jobg8-1894278
+reason: No exact Gloucester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Finance Officer/Credit Controller
+company: Hays Specialist Recruitment Limited - Agency - Permanent
+location: Cheltenham
+source: JobG8
+job_id: jobg8-1892116
 reason: No exact Gloucester workplace matched; local geographic review is required.
 ---
 
@@ -102,6 +102,30 @@ reason: No exact Gloucester workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
+title: HR & Recruitment Administrator
+company: Anderson Recruitment Ltd - Agency - Permanent
+location: Gloucestershire
+source: JobG8
+job_id: jobg8-1928795
+reason: No exact Gloucester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: HR Assistant
+company: Reed - Agency - Permanent
+location: Gloucestershire
+source: JobG8
+job_id: jobg8-1934798
+reason: No exact Gloucester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Insurance Accounts Administrator
 company: i2i Recruitment Consultancy - Agency - Permanent
 location: Gloucestershire
@@ -114,11 +138,11 @@ reason: No exact Gloucester workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Part Time Bookkeeper/Administration
+title: Insurance Administrator - Hybrid Working + Career Progression!
 company: Anderson Recruitment Ltd - Agency - Permanent
-location: Gloucestershire
+location: Cheltenham
 source: JobG8
-job_id: jobg8-1883902
+job_id: jobg8-1906007
 reason: No exact Gloucester workplace matched; local geographic review is required.
 ---
 
@@ -126,11 +150,47 @@ reason: No exact Gloucester workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Payroll Administrator
-company: Ashley Rees Associates - Agency - Permanent
+title: Marketing Manager
+company: Juice Recruitment Ltd - Agency - Permanent
 location: Gloucestershire
 source: JobG8
-job_id: jobg8-1834618
+job_id: jobg8-1892075
+reason: No exact Gloucester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Office Administrator
+company: Adecco - Agency - Permanent
+location: Gloucestershire
+source: JobG8
+job_id: jobg8-1908383
+reason: No exact Gloucester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Part Time Accounts Administrator
+company: Anderson Recruitment Ltd - Agency - Permanent
+location: Gloucestershire
+source: JobG8
+job_id: jobg8-1907558
+reason: No exact Gloucester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Part Time Bookkeeper/Administration
+company: Anderson Recruitment Ltd - Agency - Permanent
+location: Gloucestershire
+source: JobG8
+job_id: jobg8-1883902
 reason: No exact Gloucester workplace matched; local geographic review is required.
 ---
 
@@ -162,30 +222,6 @@ reason: No exact Gloucester workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Performance Marketing Manager
-company: Rocking Zebra - Agency - Permanent
-location: Gloucestershire
-source: JobG8
-job_id: jobg8-1838437
-reason: No exact Gloucester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: PR Account Manager
-company: Moxie and Mettle Limited - Agency - Permanent
-location: Gloucestershire
-source: JobG8
-job_id: jobg8-1844062
-reason: No exact Gloucester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: PR Account Manager - inhouse or agency welcome!
 company: Moxie and Mettle Limited - Agency - Permanent
 location: Gloucestershire
@@ -210,11 +246,11 @@ reason: No exact Gloucester workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: PR Executive
+title: Product Marketing Manager
 company: i2i Recruitment Consultancy - Agency - Permanent
 location: Gloucestershire
 source: JobG8
-job_id: jobg8-1823123
+job_id: jobg8-1944195
 reason: No exact Gloucester workplace matched; local geographic review is required.
 ---
 
@@ -222,11 +258,23 @@ reason: No exact Gloucester workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Product Marketing Manager
-company: i2i Recruitment Consultancy - Agency - Permanent
-location: Gloucestershire
-source: JobG8
-job_id: jobg8-1944195
+title: Receptionist
+company: Yorkleigh Surgery
+location: Cheltenham, GL50 3ED
+source: NHS Jobs
+job_id: nhs-5590140
+reason: No exact Gloucester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Receptionist & Administration Assistant
+company: Gloucestershire Health and Care NHS Foundation Trust
+location: Cirencester, GL7 1RQ
+source: NHS Jobs
+job_id: nhs-5551929
 reason: No exact Gloucester workplace matched; local geographic review is required.
 ---
 

@@ -4,7 +4,7 @@
 - Live route: `/stoke-on-trent/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 0
+- Effective included jobs: 1
 - Threshold currently met: no
 
 ## How to review
@@ -15,28 +15,28 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 0
-- automatic review: 8
+- automatic include: 1
+- automatic review: 9
 - automatic exclude: 0
-- effective include: 0
-- effective review: 8
+- effective include: 1
+- effective review: 9
 - effective exclude: 0
 
-## INCLUDE (0)
-
-## REVIEW (8)
+## INCLUDE (1)
 
 ---
 action: 
-decision: review
-automatic_decision: review
-title: Account Coordinator (Flexi)
-company: Staffline Recruitment Limited - Agency - Permanent
-location: Staffordshire
+decision: include
+automatic_decision: include
+title: HR Assistant
+company: GXO Logistics - Company - Permanent
+location: Stoke-On-Trent
 source: JobG8
-job_id: jobg8-1839558
-reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
+job_id: jobg8-1897879
+reason: Exact approved Stoke-on-trent workplace.
 ---
+
+## REVIEW (9)
 
 ---
 action: 
@@ -71,6 +71,30 @@ company: Midlands Partnership NHS Foundation Trust
 location: Longton, Stoke on Trent, ST3 4QX
 source: NHS Jobs
 job_id: nhs-5606228
+reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: Midlands Partnership NHS Foundation Trust
+location: Burslem, Stoke-on-Trent, ST6 7AG
+source: NHS Jobs
+job_id: nhs-5609313
+reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Casualty Claims Handler
+company: Adjusting Appointments Limited - Agency - Permanent
+location: Staffordshire
+source: JobG8
+job_id: jobg8-1906599
 reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
 ---
 

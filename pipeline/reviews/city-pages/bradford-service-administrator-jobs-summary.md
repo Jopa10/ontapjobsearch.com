@@ -4,7 +4,7 @@
 - Live route: `/bradford/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 3
+- Effective included jobs: 2
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 3
-- automatic review: 11
+- automatic include: 2
+- automatic review: 10
 - automatic exclude: 15
-- effective include: 3
-- effective review: 11
+- effective include: 2
+- effective review: 10
 - effective exclude: 15
 
-## INCLUDE (3)
+## INCLUDE (2)
 
 ---
 action: 
@@ -48,41 +48,17 @@ job_id: jobg8-1900864
 reason: Approved Bradford catchment.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Social Media Coordinator
-company: Dream Big Digital - Agency - Permanent
-location: Bradford
-source: JobG8
-job_id: jobg8-642823322571322163237341
-reason: Approved Bradford catchment.
----
-
-## REVIEW (11)
+## REVIEW (10)
 
 ---
 action: 
 decision: review
 automatic_decision: review
-title: Accounts Assistant
-company: JHE & Partners - Agency - Permanent
-location: Keighley
-source: JobG8
-job_id: jobg8-1829321
-reason: No approved Bradford catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Bookkeeper
-company: Si Recruitment - Agency - Permanent
+title: Cloud Bookkeeper
+company: Bennett & Game Recruitment - Agency - Permanent
 location: Yorkshire
 source: JobG8
-job_id: jobg8-1834876
+job_id: jobg8-1907825
 reason: No approved Bradford catchment rule matched; local review required.
 ---
 
@@ -174,11 +150,11 @@ reason: No approved Bradford catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Purchase Ledger Assistant
-company: Marks Sattin - Agency - Permanent
+title: Purchase Ledger Clerk
+company: Elevation Recruitment Group - Agency - Permanent
 location: Yorkshire
 source: JobG8
-job_id: jobg8-1833839
+job_id: jobg8-1896759
 reason: No approved Bradford catchment rule matched; local review required.
 ---
 
@@ -201,10 +177,10 @@ action:
 decision: exclude
 automatic_decision: exclude
 title: Accounts Assistant
-company: Headstar - Agency - Permanent
+company: Synergem Recruitment - Agency - Permanent
 location: Leeds
 source: JobG8
-job_id: jobg8-1833937
+job_id: jobg8-1906013
 reason: Separate employment market.
 ---
 
@@ -217,6 +193,30 @@ company: Practice Plus Group - Health in Justice
 location: Leeds, LS12 2TJ
 source: NHS Jobs
 job_id: nhs-5603778
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Billing & Finance Assistant
+company: Michael Page Finance - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-1892117
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Casualty Claims Handler
+company: Adjusting Appointments Limited - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-1906594
 reason: Separate employment market.
 ---
 
@@ -248,18 +248,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Clinical Coordinator
-company: Integrated Health Care Management - Agency - Permanent
-location: Leeds
-source: JobG8
-job_id: jobg8-1841782
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Commercial Claims Handler (Personal Lines Handlers Considered!)
 company: Aston Charles Ltd - Agency - Permanent
 location: Leeds
@@ -277,6 +265,18 @@ company: Kingdom People - Agency - Permanent
 location: Huddersfield
 source: JobG8
 job_id: jobg8-1924718
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: HR Coordinator / Advisor
+company: Hays Specialist Recruitment Limited - Agency - Permanent
+location: Huddersfield
+source: JobG8
+job_id: jobg8-1937623
 reason: Separate employment market.
 ---
 
@@ -308,35 +308,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Payroll Administrator
-company: VIA MATCH LIMITED - Agency - Permanent
-location: Leeds
-source: JobG8
-job_id: jobg8-1833912
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Receptionist
 company: Diamond Medical Group
 location: Leeds, LS7 3DR, Leeds, LS7 1JL, Leeds, LS17 8AE, Leeds, LS8 4AA
 source: NHS Jobs
 job_id: nhs-5601071
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: RTA Litigation Claims Handler
-company: CRA Consulting - Agency - Permanent
-location: Leeds
-source: JobG8
-job_id: jobg8-1786274
 reason: Separate employment market.
 ---
 
@@ -368,10 +344,10 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Social Media Coordinator
-company: Dream Big Digital - Agency - Permanent
+title: Temporary HR Administrator
+company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Leeds
 source: JobG8
-job_id: jobg8-642823322571322163237340
+job_id: jobg8-1956696
 reason: Separate employment market.
 ---

@@ -16,15 +16,15 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 0
-- automatic review: 5
+- automatic review: 7
 - automatic exclude: 0
 - effective include: 0
-- effective review: 5
+- effective review: 7
 - effective exclude: 0
 
 ## INCLUDE (0)
 
-## REVIEW (5)
+## REVIEW (7)
 
 ---
 action: 
@@ -35,6 +35,18 @@ company: Garland House Surgery
 location: Barnsley, S73 9JX
 source: NHS Jobs
 job_id: nhs-5295793
+reason: No exact Rotherham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Credit Control / Accounts Assistant
+company: Shillito Group - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-1905225
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 
@@ -83,6 +95,18 @@ company: Totley Primary School
 location: Sheffield
 source: Teaching Vacancies
 job_id: teaching-vacancies-receptionist-totley-primary-school
+reason: No exact Rotherham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Recruitment Account Coordinator
+company: Staffline Recruitment Limited - Agency - Permanent
+location: Barnsley
+source: JobG8
+job_id: jobg8-1899397
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 

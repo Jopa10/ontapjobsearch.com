@@ -4,8 +4,8 @@
 - Live route: `/newcastle/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 4
-- Threshold currently met: no
+- Effective included jobs: 6
+- Threshold currently met: yes
 
 ## How to review
 Edit only the `action:` line inside a job block.
@@ -15,24 +15,24 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 4
-- automatic review: 10
+- automatic include: 6
+- automatic review: 17
 - automatic exclude: 11
-- effective include: 4
-- effective review: 10
+- effective include: 6
+- effective review: 17
 - effective exclude: 11
 
-## INCLUDE (4)
+## INCLUDE (6)
 
 ---
 action: 
 decision: include
 automatic_decision: include
-title: Administration Assistant Level 3
-company: Newcastle City Council
-location: Sir Charles Parsons School, Westbourne Avenue, Walker, Newcastle upon Tyne, NE6 4ED
-source: NEJobs
-job_id: nejobs-301513
+title: Accounts Assistant
+company: Consult KA Ltd - Agency - Permanent
+location: Newcastle
+source: JobG8
+job_id: jobg8-1899187
 reason: Approved Newcastle catchment.
 ---
 
@@ -52,11 +52,35 @@ reason: Approved Newcastle catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Business Development Executive
+company: Independent Utility Advice - Agency - Permanent
+location: Newcastle Upon Tyne
+source: JobG8
+job_id: jobg8-107967240
+reason: Approved Newcastle catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Home Administrator
 company: Akari Care Limited
 location: Gateshead, NE8 1QU
 source: NHS Jobs
 job_id: nhs-5596965
+reason: Approved Newcastle catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Home Administrator
+company: Akari Care Limited
+location: Newcastle, NE5 5HQ
+source: NHS Jobs
+job_id: nhs-5610574
 reason: Approved Newcastle catchment.
 ---
 
@@ -72,19 +96,7 @@ job_id: nhs-5598890
 reason: Approved Newcastle catchment.
 ---
 
-## REVIEW (10)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Payable Assistant
-company: Pavilion Recruitment Solutions - Agency - Permanent
-location: Tyne And Wear
-source: JobG8
-job_id: jobg8-1832242
-reason: Broad location; review before city inclusion.
----
+## REVIEW (17)
 
 ---
 action: 
@@ -102,11 +114,11 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Bookkeeper
-company: Reed - Agency - Permanent
+title: Casualty Claims Handler
+company: Adjusting Appointments Limited - Agency - Permanent
 location: Tyne And Wear
 source: JobG8
-job_id: jobg8-1831568
+job_id: jobg8-1906595
 reason: Broad location; review before city inclusion.
 ---
 
@@ -131,6 +143,54 @@ company: Persimmon Homes - Agency - Permanent
 location: Tyne And Wear
 source: JobG8
 job_id: jobg8-107869330
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Digital Growth Lead
+company: Nigel Wright Group - Agency - Permanent
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-1898235
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Digital Marketing Executive
+company: Reed - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-1935311
+reason: No approved Newcastle catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Digital Specialist
+company: Nigel Wright Group - Agency - Permanent
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-1910056
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Finance Assistant
+company: Independent Utility Advice Ltd - Agency - Permanent
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-1907000
 reason: Broad location; review before city inclusion.
 ---
 
@@ -174,6 +234,42 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
+title: Marketing Planner
+company: Nigel Wright Group - Agency - Permanent
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-1897065
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Mercedes-Benz Accounts Assistant
+company: Sytner Group - Agency - Permanent
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-1896566
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Payroll Administrator
+company: Sopra Steria - Agency - Permanent
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-1897045
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Sales Advisor - Part Time
 company: EE - Company - Permanent
 location: Cramlington
@@ -192,6 +288,18 @@ location: Eddie Ferguson House, Blyth, United Kingdom
 source: NEJobs
 job_id: nejobs-301243
 reason: No approved Newcastle catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
+company: Qualify Nation Recruitment - Agency - Permanent
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-1954680
+reason: Broad location; review before city inclusion.
 ---
 
 ## EXCLUDE (11)

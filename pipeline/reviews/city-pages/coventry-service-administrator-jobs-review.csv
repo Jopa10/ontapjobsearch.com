@@ -1,15 +1,14 @@
 decision,job_id,title,company,location,source,automatic_decision,effective_decision,reason,matched_rule,city_key
 include,jobg8-1891527,Accounts Assistant,SFM - Agency - Permanent,Coventry,JobG8,include,include,Approved Coventry catchment.,coventry,coventry-service-administrator-jobs
 include,jobg8-1869638,HR & Recruitment Coordinator,Gleeson Recruitment Group - Agency - Permanent,Coventry,JobG8,include,include,Approved Coventry catchment.,coventry,coventry-service-administrator-jobs
-include,jobg8-1835857,HR Assistant,Bell Cornwall Recruitment - Agency - Permanent,Coventry,JobG8,include,include,Approved Coventry catchment.,coventry,coventry-service-administrator-jobs
 include,jobg8-1860303,HR Coordinator,Gleeson Recruitment Group - Agency - Permanent,Coventry,JobG8,include,include,Approved Coventry catchment.,coventry,coventry-service-administrator-jobs
 include,jobg8-1916346,Part Time Website Content Coordinator,THE RECRUITMENT DUO - Agency - Permanent,Coventry,JobG8,include,include,Approved Coventry catchment.,coventry,coventry-service-administrator-jobs
 include,jobg8-1859862,People Coordinator,Michael Page Business Support - Agency - Permanent,Coventry,JobG8,include,include,Approved Coventry catchment.,coventry,coventry-service-administrator-jobs
-review,jobg8-1859602,"HR Administrator, Temporary to Permanent Opportunity",Office Angels - Agency - Permanent,Atherstone,JobG8,review,review,No approved Coventry catchment rule matched; local review required.,fallback,coventry-service-administrator-jobs
 exclude,jobg8-1916505,Billing Operations Administrator,Manpower - Agency - Permanent,Warwickshire,JobG8,exclude,exclude,Separate employment market.,warwick,coventry-service-administrator-jobs
 exclude,jobg8-1916611,Cash Allocation Administrator,Manpower - Agency - Permanent,Warwickshire,JobG8,exclude,exclude,Separate employment market.,warwick,coventry-service-administrator-jobs
 exclude,jobg8-1842482,Customer Service Advisor,RA Bennett - Agency - Permanent,Warwickshire,JobG8,exclude,exclude,Separate employment market.,warwick,coventry-service-administrator-jobs
+exclude,jobg8-1906045,Finance Assistant,Gleeson Recruitment Group - Agency - Permanent,Warwickshire,JobG8,exclude,exclude,Separate employment market.,warwick,coventry-service-administrator-jobs
+exclude,jobg8-1895750,Finance Assistant,Thefutureworks - Agency - Permanent,Warwickshire,JobG8,exclude,exclude,Separate employment market.,warwick,coventry-service-administrator-jobs
 exclude,jobg8-1859027,HR Assistant,Dudley Lodge - Agency - Permanent,Warwickshire,JobG8,exclude,exclude,Separate employment market.,warwick,coventry-service-administrator-jobs
 exclude,jobg8-1868063,HR Assistant,Hiring People - Agency - Permanent,Warwick,JobG8,exclude,exclude,Separate employment market.,warwick,coventry-service-administrator-jobs
 exclude,nhs-4151642,MEDICAL RECEPTIONIST,Valley Road Medical Practice,"Leamington Spa, CV32 7SJ",NHS Jobs,exclude,exclude,Separate employment market.,leamington,coventry-service-administrator-jobs
-exclude,jobg8-1835035,Purchase Ledger Accounts Assistant,Belinda Roberts Ltd - Agency - Permanent,Warwick,JobG8,exclude,exclude,Separate employment market.,warwick,coventry-service-administrator-jobs

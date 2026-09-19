@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 1
-- automatic review: 8
-- automatic exclude: 5
+- automatic review: 10
+- automatic exclude: 7
 - effective include: 1
-- effective review: 8
-- effective exclude: 5
+- effective review: 10
+- effective exclude: 7
 
 ## INCLUDE (1)
 
@@ -36,7 +36,19 @@ job_id: jobg8-107193862
 reason: Approved Southampton catchment.
 ---
 
-## REVIEW (8)
+## REVIEW (10)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Assistant - Temporary
+company: Michael Page Finance - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-1908072
+reason: Broad location; review before city inclusion.
+---
 
 ---
 action: 
@@ -78,11 +90,23 @@ reason: No approved Southampton catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Finance Assistant
-company: Reed - Agency - Permanent
+title: HR Administrator
+company: 4Recruitment Services - Agency - Permanent
+location: Lyndhurst
+source: JobG8
+job_id: jobg8-1871498
+reason: No approved Southampton catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: HR Administrator
+company: HighPoint - Agency - Permanent
 location: Hampshire
 source: JobG8
-job_id: jobg8-1838784
+job_id: jobg8-1935606
 reason: Broad location; review before city inclusion.
 ---
 
@@ -91,10 +115,10 @@ action:
 decision: review
 automatic_decision: review
 title: HR Administrator
-company: 4Recruitment Services - Agency - Permanent
-location: Lyndhurst
+company: Trusted Technology Partnership - Agency - Permanent
+location: Ringwood
 source: JobG8
-job_id: jobg8-1871498
+job_id: jobg8-1937622
 reason: No approved Southampton catchment rule matched; local review required.
 ---
 
@@ -134,7 +158,7 @@ job_id: jobg8-107959953
 reason: Broad location; review before city inclusion.
 ---
 
-## EXCLUDE (5)
+## EXCLUDE (7)
 
 ---
 action: 
@@ -152,11 +176,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: HR coordinator
-company: Hays Specialist Recruitment Limited - Agency - Permanent
-location: Basingstoke
-source: JobG8
-job_id: jobg8-1848405
+title: Administrator
+company: Practice Plus Group - Health in Justice
+location: Winchester, SO22 5DF
+source: NHS Jobs
+job_id: nhs-5608199
 reason: Separate employment market.
 ---
 
@@ -164,11 +188,23 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: HR Coordinator
-company: Randstad Delivery (GBS) - Agency - Permanent
-location: Basingstoke
+title: Company Secretary - 12 month FTC
+company: Michael Page Legal - Agency - Permanent
+location: Farnborough
 source: JobG8
-job_id: jobg8-1842700
+job_id: jobg8-1899341
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: HR Assistant
+company: Reed - Agency - Permanent
+location: Portsmouth
+source: JobG8
+job_id: jobg8-1960533
 reason: Separate employment market.
 ---
 
@@ -193,5 +229,17 @@ company: Operose Health
 location: Basingstoke, RG22 4EH
 source: NHS Jobs
 job_id: nhs-5592877
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Temporary Recruitment Administrator
+company: Michael Page Finance - Agency - Permanent
+location: Winchester
+source: JobG8
+job_id: jobg8-1893259
 reason: Separate employment market.
 ---

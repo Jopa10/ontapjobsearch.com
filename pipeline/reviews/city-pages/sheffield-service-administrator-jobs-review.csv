@@ -1,6 +1,8 @@
 decision,job_id,title,company,location,source,automatic_decision,effective_decision,reason,matched_rule,city_key
+include,jobg8-1905225,Credit Control / Accounts Assistant,Shillito Group - Agency - Permanent,Sheffield,JobG8,include,include,Approved Sheffield catchment.,sheffield,sheffield-service-administrator-jobs
 include,teaching-vacancies-receptionist-totley-primary-school,Receptionist,Totley Primary School,Sheffield,Teaching Vacancies,include,include,Approved Sheffield catchment.,sheffield,sheffield-service-administrator-jobs
 exclude,nhs-5295793,Administrative Assistant,Garland House Surgery,"Barnsley, S73 9JX",NHS Jobs,exclude,exclude,Separate employment market.,barnsley,sheffield-service-administrator-jobs
 exclude,jobg8-20279_62308-153faf593eb64b88272f45adeaa28d87,Customer Service Advisor,EE - Company - Permanent,Doncaster,JobG8,exclude,exclude,Separate employment market.,doncaster,sheffield-service-administrator-jobs
 exclude,jobg8-1908708,Finance Assistant,PRATAP PARTNERSHIP LTD - Agency - Permanent,Barnsley,JobG8,exclude,exclude,Separate employment market.,barnsley,sheffield-service-administrator-jobs
 exclude,jobg8-1899982,Purchase Ledger Administrator,Sharp Consultancy - Agency - Permanent,Doncaster,JobG8,exclude,exclude,Separate employment market.,doncaster,sheffield-service-administrator-jobs
+exclude,jobg8-1899397,Recruitment Account Coordinator,Staffline Recruitment Limited - Agency - Permanent,Barnsley,JobG8,exclude,exclude,Separate employment market.,barnsley,sheffield-service-administrator-jobs

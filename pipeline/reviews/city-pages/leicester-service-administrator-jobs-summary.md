@@ -4,8 +4,8 @@
 - Live route: `/leicester/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 2
-- Threshold currently met: no
+- Effective included jobs: 4
+- Threshold currently met: yes
 
 ## How to review
 Edit only the `action:` line inside a job block.
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 2
-- automatic review: 1
+- automatic include: 4
+- automatic review: 2
 - automatic exclude: 0
-- effective include: 2
-- effective review: 1
+- effective include: 4
+- effective review: 2
 - effective exclude: 0
 
-## INCLUDE (2)
+## INCLUDE (4)
 
 ---
 action: 
@@ -40,6 +40,30 @@ reason: Exact approved Leicester workplace.
 action: 
 decision: include
 automatic_decision: include
+title: Commercial Property Secretary
+company: Macildowie Recruitment and Retention - Agency - Permanent
+location: Leicester
+source: JobG8
+job_id: jobg8-1914045
+reason: Exact approved Leicester workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Mental Health Act Administrator
+company: InMind
+location: Leicester, LE36QR
+source: NHS Jobs
+job_id: nhs-5597537
+reason: Exact approved Leicester workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Part Time Accounts Assistant
 company: Macildowie Recruitment and Retention - Agency - Permanent
 location: Leicester
@@ -48,7 +72,7 @@ job_id: jobg8-1936448
 reason: Exact approved Leicester workplace.
 ---
 
-## REVIEW (1)
+## REVIEW (2)
 
 ---
 action: 
@@ -59,6 +83,18 @@ company: Mixxos Group - Agency - Permanent
 location: Leicestershire
 source: JobG8
 job_id: jobg8-1908964
+reason: No exact Leicester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Casualty Claims Handler
+company: Adjusting Appointments Limited - Agency - Permanent
+location: Leicestershire
+source: JobG8
+job_id: jobg8-1906598
 reason: No exact Leicester workplace matched; local geographic review is required.
 ---
 

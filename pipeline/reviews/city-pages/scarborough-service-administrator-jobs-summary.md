@@ -16,15 +16,27 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 0
-- automatic review: 16
+- automatic review: 13
 - automatic exclude: 0
 - effective include: 0
-- effective review: 16
+- effective review: 13
 - effective exclude: 0
 
 ## INCLUDE (0)
 
-## REVIEW (16)
+## REVIEW (13)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Administrator
+company: Capital Outsourcing Group Ltd - Agency - Permanent
+location: York
+source: JobG8
+job_id: jobg8-1907580
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
 
 ---
 action: 
@@ -54,30 +66,6 @@ reason: No exact Scarborough workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Content & Marketing Executive
-company: IMPRESSION RECRUITMENT LIMITED - Agency - Permanent
-location: Ripon
-source: JobG8
-job_id: jobg8-1778199
-reason: No exact Scarborough workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Credit Controller
-company: Headstar - Agency - Permanent
-location: Yorkshire
-source: JobG8
-job_id: jobg8-1835849
-reason: No exact Scarborough workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Credit Controller
 company: Michael Page Finance - Agency - Permanent
 location: Yorkshire
@@ -90,11 +78,11 @@ reason: No exact Scarborough workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Finance Administrator
-company: Autohorn Fleet Services Ltd - Agency - Permanent
-location: York
+title: Interim Finance Assistant
+company: Marks Sattin - Agency - Permanent
+location: Harrogate
 source: JobG8
-job_id: jobg8-1778940
+job_id: jobg8-1905167
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 
@@ -139,34 +127,10 @@ action:
 decision: review
 automatic_decision: review
 title: Marketing Manager
-company: Holiday at Home - Agency - Permanent
-location: Yorkshire
-source: JobG8
-job_id: jobg8-1824217
-reason: No exact Scarborough workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Marketing Manager
 company: IMPRESSION RECRUITMENT LIMITED - Agency - Permanent
 location: Knaresborough
 source: JobG8
 job_id: jobg8-1880493
-reason: No exact Scarborough workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Part Time Payroll Administrator (25 hours)
-company: Portfolio Payroll - Agency - Permanent
-location: Yorkshire
-source: JobG8
-job_id: jobg8-1789732
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 

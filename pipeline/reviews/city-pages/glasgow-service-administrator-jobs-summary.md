@@ -4,8 +4,8 @@
 - Live route: `/glasgow/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 5
-- Threshold currently met: no
+- Effective included jobs: 8
+- Threshold currently met: yes
 
 ## How to review
 Edit only the `action:` line inside a job block.
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 5
-- automatic review: 1
+- automatic include: 8
+- automatic review: 2
 - automatic exclude: 0
-- effective include: 5
-- effective review: 1
+- effective include: 8
+- effective review: 2
 - effective exclude: 0
 
-## INCLUDE (5)
+## INCLUDE (8)
 
 ---
 action: 
@@ -45,6 +45,18 @@ company: EE - Company - Permanent
 location: Glasgow
 source: JobG8
 job_id: jobg8-20279_62718-73862c8b83139033e4e4a8b6efca9a33
+reason: Approved conservative Glasgow launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Claims Handler
+company: Adjusting Appointments Limited - Agency - Permanent
+location: Glasgow
+source: JobG8
+job_id: jobg8-1906611
 reason: Approved conservative Glasgow launch catchment.
 ---
 
@@ -84,7 +96,43 @@ job_id: jobg8-1933955
 reason: Approved conservative Glasgow launch catchment.
 ---
 
-## REVIEW (1)
+---
+action: 
+decision: include
+automatic_decision: include
+title: Lifestyle Coordinator
+company: Care Concern Group - Company - Permanent
+location: Glasgow
+source: JobG8
+job_id: jobg8-107929888
+reason: Approved conservative Glasgow launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: People & Administration Coordinator
+company: Creideas - Agency - Permanent
+location: Glasgow
+source: JobG8
+job_id: jobg8-1936242
+reason: Approved conservative Glasgow launch catchment.
+---
+
+## REVIEW (2)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Claims Handler
+company: Adjusting Appointments Limited - Agency - Permanent
+location: Clydebank
+source: JobG8
+job_id: jobg8-1906613
+reason: No approved Glasgow catchment rule matched; local review required.
+---
 
 ---
 action: 

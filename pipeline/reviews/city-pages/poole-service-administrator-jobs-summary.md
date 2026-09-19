@@ -4,7 +4,7 @@
 - Live route: `/poole/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 1
+- Effective included jobs: 0
 - Threshold currently met: no
 
 ## How to review
@@ -15,52 +15,16 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 1
-- automatic review: 16
+- automatic include: 0
+- automatic review: 12
 - automatic exclude: 0
-- effective include: 1
-- effective review: 16
+- effective include: 0
+- effective review: 12
 - effective exclude: 0
 
-## INCLUDE (1)
+## INCLUDE (0)
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Audit & Accounts Assistant
-company: Reed - Agency - Permanent
-location: Poole
-source: JobG8
-job_id: jobg8-1838771
-reason: Exact approved Poole workplace.
----
-
-## REVIEW (16)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Assistant
-company: Reed - Agency - Permanent
-location: Dorset
-source: JobG8
-job_id: jobg8-1838779
-reason: No exact Poole workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Assistant
-company: Robert Walters - Agency - Permanent
-location: Verwood
-source: JobG8
-job_id: jobg8-1840045
-reason: No exact Poole workplace matched; local geographic review is required.
----
+## REVIEW (12)
 
 ---
 action: 
@@ -118,31 +82,7 @@ title: Care Coordinator
 company: Agincare Group - Agency - Permanent
 location: Dorset
 source: JobG8
-job_id: jobg8-107865251
-reason: No exact Poole workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Claims Handler
-company: Adjusting Appointments Limited - Agency - Permanent
-location: Dorset
-source: JobG8
-job_id: jobg8-1839332
-reason: No exact Poole workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Claims Handler
-company: Adjusting Appointments Limited - Agency - Permanent
-location: Dorset
-source: JobG8
-job_id: jobg8-1839335
+job_id: jobg8-107940079
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 
@@ -198,11 +138,11 @@ reason: No exact Poole workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Receptionist/Administrator
-company: Dorset HealthCare University NHS Foundation Trust
-location: Sherborne, DT93JU
-source: NHS Jobs
-job_id: nhs-5596760
+title: HR Administrator
+company: Resource Recruitment - Agency - Permanent
+location: Ferndown
+source: JobG8
+job_id: jobg8-1957010
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 

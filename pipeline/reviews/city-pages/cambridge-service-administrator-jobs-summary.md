@@ -4,7 +4,7 @@
 - Live route: `/cambridge/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 11
+- Effective included jobs: 8
 - Threshold currently met: yes
 
 ## How to review
@@ -15,26 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 11
+- automatic include: 8
 - automatic review: 1
 - automatic exclude: 5
-- effective include: 11
+- effective include: 8
 - effective review: 1
 - effective exclude: 5
 
-## INCLUDE (11)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Accounts Administrator
-company: Heap & Co - Agency - Permanent
-location: Cambridge
-source: JobG8
-job_id: jobg8-1833141
-reason: Approved conservative Cambridge launch catchment.
----
+## INCLUDE (8)
 
 ---
 action: 
@@ -76,47 +64,11 @@ reason: Approved conservative Cambridge launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Digital Marketing Specialist
-company: Reed - Agency - Permanent
-location: Cambridgeshire
-source: JobG8
-job_id: jobg8-1857177
-reason: Approved conservative Cambridge launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Graduate Communications Officer
-company: Exact Sourcing Ltd - Agency - Permanent
-location: Cambridgeshire
-source: JobG8
-job_id: jobg8-1842087
-reason: Approved conservative Cambridge launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: HR Administrator
 company: EA FIRST LTD - Agency - Permanent
 location: Cambridge
 source: JobG8
 job_id: jobg8-1924725
-reason: Approved conservative Cambridge launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: HR Coordinator
-company: S&B Herba Foods Ltd - Agency - Permanent
-location: Cambridge
-source: JobG8
-job_id: jobg8-1823662
 reason: Approved conservative Cambridge launch catchment.
 ---
 
@@ -148,11 +100,23 @@ reason: Approved conservative Cambridge launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Owned Brand Manager
-company: Bensons for Beds - Agency - Permanent
-location: Cambridgeshire
+title: Patent Administrator
+company: The Law Support Group - Agency - Permanent
+location: Cambridge
 source: JobG8
-job_id: jobg8-1826872
+job_id: jobg8-1892204
+reason: Approved conservative Cambridge launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Receptionist
+company: Cambridge University Hospital NHS Foundation Trust
+location: Cambridge, CB2 0QQ
+source: NHS Jobs
+job_id: nhs-5607939
 reason: Approved conservative Cambridge launch catchment.
 ---
 
@@ -181,18 +145,6 @@ company: Reed - Agency - Permanent
 location: Peterborough
 source: JobG8
 job_id: jobg8-1870317
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Administrator
-company: Cambridgeshire and Peterborough NHS Foundation Trust
-location: Peterborough, PE78FZ
-source: NHS Jobs
-job_id: nhs-5596812
 reason: Separate employment market.
 ---
 
@@ -229,5 +181,17 @@ company: LHH Recruitment Solutions - Agency - Permanent
 location: Peterborough
 source: JobG8
 job_id: jobg8-1860755
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Talent Acquisition Coordinator
+company: qed legal - Agency - Permanent
+location: Peterborough
+source: JobG8
+job_id: jobg8-1939450
 reason: Separate employment market.
 ---

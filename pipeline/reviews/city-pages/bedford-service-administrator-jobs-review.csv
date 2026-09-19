@@ -1,6 +1,7 @@
 decision,job_id,title,company,location,source,automatic_decision,effective_decision,reason,matched_rule,city_key
 include,jobg8-1876034,Accounts Assistant / Bookkeper,The GK Group Limited - Agency - Permanent,Bedford,JobG8,include,include,Exact approved Bedford workplace.,exact:bedford,bedford-service-administrator-jobs
+include,jobg8-1946950,Administrator (Learning & Development),Tate Milton Keynes - Agency - Permanent,Bedford,JobG8,include,include,Exact approved Bedford workplace.,exact:bedford,bedford-service-administrator-jobs
+include,nhs-5608349,Receptionist,Sharnbrook Surgery,"Bedford, MK44 1PZ",NHS Jobs,include,include,Exact approved Bedford workplace.,exact:bedford,bedford-service-administrator-jobs
 review,jobg8-1944217,Accounts Assistant,Reed - Agency - Permanent,Bedfordshire,JobG8,review,review,No exact Bedford workplace matched; local geographic review is required.,fallback,bedford-service-administrator-jobs
-review,nhs-5603469,Administrator,HUC,"Luton, LU1 2SE",NHS Jobs,review,review,No exact Bedford workplace matched; local geographic review is required.,fallback,bedford-service-administrator-jobs
-review,jobg8-1849342,Early Careers Coordinator,BPHA - Agency - Permanent,Bedfordshire,JobG8,review,review,No exact Bedford workplace matched; local geographic review is required.,fallback,bedford-service-administrator-jobs
 review,jobg8-415093,Procurement Administrator,Cranfield University - Agency - Permanent,Bedfordshire,JobG8,review,review,No exact Bedford workplace matched; local geographic review is required.,fallback,bedford-service-administrator-jobs
+review,jobg8-1916041,Underwriting Support Administrator,Burton Recruitment - Agency - Permanent,Bedfordshire,JobG8,review,review,No exact Bedford workplace matched; local geographic review is required.,fallback,bedford-service-administrator-jobs

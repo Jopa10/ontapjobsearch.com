@@ -4,8 +4,8 @@
 - Live route: `/liverpool/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 4
-- Threshold currently met: no
+- Effective included jobs: 6
+- Threshold currently met: yes
 
 ## How to review
 Edit only the `action:` line inside a job block.
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 4
-- automatic review: 1
+- automatic include: 6
+- automatic review: 6
 - automatic exclude: 0
-- effective include: 4
-- effective review: 1
+- effective include: 6
+- effective review: 6
 - effective exclude: 0
 
-## INCLUDE (4)
+## INCLUDE (6)
 
 ---
 action: 
@@ -52,11 +52,23 @@ reason: Approved conservative Liverpool launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Digital Marketing Assistant Manager
-company: MHA - Agency - Permanent
+title: HR Administrator
+company: Adele Carr Recruitment Limited - Agency - Permanent
 location: Liverpool
 source: JobG8
-job_id: jobg8-179950371190341632037340
+job_id: jobg8-1936795
+reason: Approved conservative Liverpool launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Interim Marketing and Communications Manager
+company: Michael Page Marketing - Agency - Permanent
+location: Liverpool
+source: JobG8
+job_id: jobg8-1928716
 reason: Approved conservative Liverpool launch catchment.
 ---
 
@@ -72,7 +84,19 @@ job_id: jobg8-1870162
 reason: Approved conservative Liverpool launch catchment.
 ---
 
-## REVIEW (1)
+---
+action: 
+decision: include
+automatic_decision: include
+title: Trade Marketing Manager
+company: Zachary Daniels Recruitment - Agency - Permanent
+location: Liverpool
+source: JobG8
+job_id: jobg8-23643_225615600
+reason: Approved conservative Liverpool launch catchment.
+---
+
+## REVIEW (6)
 
 ---
 action: 
@@ -83,6 +107,66 @@ company: MHA - Agency - Permanent
 location: Merseyside
 source: JobG8
 job_id: jobg8-1839653
+reason: Broad county location; review before Liverpool inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Interim Senior Internal Communication Manager
+company: Michael Page Marketing - Agency - Permanent
+location: Merseyside
+source: JobG8
+job_id: jobg8-1946410
+reason: Broad county location; review before Liverpool inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Marketing Specialist - Paid Social & Content (Remote)
+company: HiiKER - Agency - Permanent
+location: Merseyside
+source: JobG8
+job_id: jobg8-1928451
+reason: Broad county location; review before Liverpool inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Senior Marketing Account Manager FTC
+company: Liverpool Experience Campus - Agency - Permanent
+location: Merseyside
+source: JobG8
+job_id: jobg8-1948835
+reason: Broad county location; review before Liverpool inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Trade Marketing Manager
+company: Zachary Daniels - Agency - Permanent
+location: Merseyside
+source: JobG8
+job_id: jobg8-1935673
+reason: Broad county location; review before Liverpool inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
+company: Qualify Nation Recruitment - Agency - Permanent
+location: Merseyside
+source: JobG8
+job_id: jobg8-1954678
 reason: Broad county location; review before Liverpool inclusion.
 ---
 

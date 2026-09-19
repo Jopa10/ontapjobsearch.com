@@ -4,7 +4,7 @@
 - Live route: `/edinburgh/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 9
+- Effective included jobs: 6
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 9
+- automatic include: 6
 - automatic review: 1
 - automatic exclude: 0
-- effective include: 9
+- effective include: 6
 - effective review: 1
 - effective exclude: 0
 
-## INCLUDE (9)
+## INCLUDE (6)
 
 ---
 action: 
@@ -33,30 +33,6 @@ company: Three Bridges Recruitment LTD - Agency - Permanent
 location: Edinburgh
 source: JobG8
 job_id: jobg8-1878501
-reason: Approved conservative Edinburgh launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Company Secretary
-company: G2 Company Secretarial - Agency - Permanent
-location: Edinburgh
-source: JobG8
-job_id: jobg8-1852116
-reason: Approved conservative Edinburgh launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Company Secretary
-company: qed legal - Agency - Permanent
-location: Edinburgh
-source: JobG8
-job_id: jobg8-1824876
 reason: Approved conservative Edinburgh launch catchment.
 ---
 
@@ -105,18 +81,6 @@ company: Michael Page Business Support - Agency - Permanent
 location: Edinburgh
 source: JobG8
 job_id: jobg8-1907398
-reason: Approved conservative Edinburgh launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Platform Administrator
-company: Meraki Talent Limited - Agency - Permanent
-location: Edinburgh
-source: JobG8
-job_id: jobg8-1789719
 reason: Approved conservative Edinburgh launch catchment.
 ---
 

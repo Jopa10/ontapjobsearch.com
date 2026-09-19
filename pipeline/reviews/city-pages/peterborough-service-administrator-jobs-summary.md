@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 5
 - automatic review: 1
-- automatic exclude: 11
+- automatic exclude: 8
 - effective include: 5
 - effective review: 1
-- effective exclude: 11
+- effective exclude: 8
 
 ## INCLUDE (5)
 
@@ -33,18 +33,6 @@ company: Reed - Agency - Permanent
 location: Peterborough
 source: JobG8
 job_id: jobg8-1870317
-reason: Approved conservative Peterborough launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrator
-company: Cambridgeshire and Peterborough NHS Foundation Trust
-location: Peterborough, PE78FZ
-source: NHS Jobs
-job_id: nhs-5596812
 reason: Approved conservative Peterborough launch catchment.
 ---
 
@@ -84,6 +72,18 @@ job_id: jobg8-1860755
 reason: Approved conservative Peterborough launch catchment.
 ---
 
+---
+action: 
+decision: include
+automatic_decision: include
+title: Talent Acquisition Coordinator
+company: qed legal - Agency - Permanent
+location: Peterborough
+source: JobG8
+job_id: jobg8-1939450
+reason: Approved conservative Peterborough launch catchment.
+---
+
 ## REVIEW (1)
 
 ---
@@ -98,19 +98,7 @@ job_id: teaching-vacancies-finance-admin-assistant-priory-junior-school-st-neots
 reason: No approved Peterborough catchment rule matched; local review required.
 ---
 
-## EXCLUDE (11)
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Accounts Administrator
-company: Heap & Co - Agency - Permanent
-location: Cambridge
-source: JobG8
-job_id: jobg8-1833141
-reason: Separate employment market.
----
+## EXCLUDE (8)
 
 ---
 action: 
@@ -152,47 +140,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Digital Marketing Specialist
-company: Reed - Agency - Permanent
-location: Cambridgeshire
-source: JobG8
-job_id: jobg8-1857177
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Graduate Communications Officer
-company: Exact Sourcing Ltd - Agency - Permanent
-location: Cambridgeshire
-source: JobG8
-job_id: jobg8-1842087
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: HR Administrator
 company: EA FIRST LTD - Agency - Permanent
 location: Cambridge
 source: JobG8
 job_id: jobg8-1924725
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: HR Coordinator
-company: S&B Herba Foods Ltd - Agency - Permanent
-location: Cambridge
-source: JobG8
-job_id: jobg8-1823662
 reason: Separate employment market.
 ---
 
@@ -224,10 +176,22 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Owned Brand Manager
-company: Bensons for Beds - Agency - Permanent
-location: Cambridgeshire
+title: Patent Administrator
+company: The Law Support Group - Agency - Permanent
+location: Cambridge
 source: JobG8
-job_id: jobg8-1826872
+job_id: jobg8-1892204
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Receptionist
+company: Cambridge University Hospital NHS Foundation Trust
+location: Cambridge, CB2 0QQ
+source: NHS Jobs
+job_id: nhs-5607939
 reason: Separate employment market.
 ---

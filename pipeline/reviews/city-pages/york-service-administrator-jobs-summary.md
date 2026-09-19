@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 1
-- automatic review: 6
-- automatic exclude: 9
+- automatic review: 5
+- automatic exclude: 7
 - effective include: 1
-- effective review: 6
-- effective exclude: 9
+- effective review: 5
+- effective exclude: 7
 
 ## INCLUDE (1)
 
@@ -28,15 +28,15 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 action: 
 decision: include
 automatic_decision: include
-title: Finance Administrator
-company: Autohorn Fleet Services Ltd - Agency - Permanent
+title: Accounts Administrator
+company: Capital Outsourcing Group Ltd - Agency - Permanent
 location: York
 source: JobG8
-job_id: jobg8-1778940
+job_id: jobg8-1907580
 reason: Approved York catchment.
 ---
 
-## REVIEW (6)
+## REVIEW (5)
 
 ---
 action: 
@@ -47,18 +47,6 @@ company: Property Personnel - Agency - Permanent
 location: Richmond
 source: JobG8
 job_id: jobg8-1869341
-reason: No approved York catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Content & Marketing Executive
-company: IMPRESSION RECRUITMENT LIMITED - Agency - Permanent
-location: Ripon
-source: JobG8
-job_id: jobg8-1778199
 reason: No approved York catchment rule matched; local review required.
 ---
 
@@ -110,7 +98,7 @@ job_id: jobg8-1880493
 reason: No approved York catchment rule matched; local review required.
 ---
 
-## EXCLUDE (9)
+## EXCLUDE (7)
 
 ---
 action: 
@@ -121,18 +109,6 @@ company: IPS Group - Agency - Permanent
 location: Yorkshire
 source: JobG8
 job_id: jobg8-1936715
-reason: Broad regional label; not York-city evidence.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Credit Controller
-company: Headstar - Agency - Permanent
-location: Yorkshire
-source: JobG8
-job_id: jobg8-1835849
 reason: Broad regional label; not York-city evidence.
 ---
 
@@ -152,24 +128,12 @@ reason: Broad regional label; not York-city evidence.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Marketing Manager
-company: Holiday at Home - Agency - Permanent
-location: Yorkshire
+title: Interim Finance Assistant
+company: Marks Sattin - Agency - Permanent
+location: Harrogate
 source: JobG8
-job_id: jobg8-1824217
-reason: Broad regional label; not York-city evidence.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Part Time Payroll Administrator (25 hours)
-company: Portfolio Payroll - Agency - Permanent
-location: Yorkshire
-source: JobG8
-job_id: jobg8-1789732
-reason: Broad regional label; not York-city evidence.
+job_id: jobg8-1905167
+reason: Separate employment market.
 ---
 
 ---

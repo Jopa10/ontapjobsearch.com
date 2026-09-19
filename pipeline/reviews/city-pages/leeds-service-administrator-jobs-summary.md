@@ -4,7 +4,7 @@
 - Live route: `/leeds/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 12
+- Effective included jobs: 11
 - Threshold currently met: yes
 
 ## How to review
@@ -15,24 +15,24 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 12
-- automatic review: 11
+- automatic include: 11
+- automatic review: 10
 - automatic exclude: 6
-- effective include: 12
-- effective review: 11
+- effective include: 11
+- effective review: 10
 - effective exclude: 6
 
-## INCLUDE (12)
+## INCLUDE (11)
 
 ---
 action: 
 decision: include
 automatic_decision: include
 title: Accounts Assistant
-company: Headstar - Agency - Permanent
+company: Synergem Recruitment - Agency - Permanent
 location: Leeds
 source: JobG8
-job_id: jobg8-1833937
+job_id: jobg8-1906013
 reason: Approved Leeds catchment.
 ---
 
@@ -52,11 +52,11 @@ reason: Approved Leeds catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Claims Handler (Top Insurance Company)
-company: Aston Charles Ltd - Agency - Permanent
+title: Billing & Finance Assistant
+company: Michael Page Finance - Agency - Permanent
 location: Leeds
 source: JobG8
-job_id: jobg8-1927518
+job_id: jobg8-1892117
 reason: Approved Leeds catchment.
 ---
 
@@ -64,11 +64,23 @@ reason: Approved Leeds catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Clinical Coordinator
-company: Integrated Health Care Management - Agency - Permanent
+title: Casualty Claims Handler
+company: Adjusting Appointments Limited - Agency - Permanent
 location: Leeds
 source: JobG8
-job_id: jobg8-1841782
+job_id: jobg8-1906594
+reason: Approved Leeds catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Claims Handler (Top Insurance Company)
+company: Aston Charles Ltd - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-1927518
 reason: Approved Leeds catchment.
 ---
 
@@ -112,35 +124,11 @@ reason: Approved Leeds catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Payroll Administrator
-company: VIA MATCH LIMITED - Agency - Permanent
-location: Leeds
-source: JobG8
-job_id: jobg8-1833912
-reason: Approved Leeds catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Receptionist
 company: Diamond Medical Group
 location: Leeds, LS7 3DR, Leeds, LS7 1JL, Leeds, LS17 8AE, Leeds, LS8 4AA
 source: NHS Jobs
 job_id: nhs-5601071
-reason: Approved Leeds catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: RTA Litigation Claims Handler
-company: CRA Consulting - Agency - Permanent
-location: Leeds
-source: JobG8
-job_id: jobg8-1786274
 reason: Approved Leeds catchment.
 ---
 
@@ -160,37 +148,25 @@ reason: Approved Leeds catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Social Media Coordinator
-company: Dream Big Digital - Agency - Permanent
+title: Temporary HR Administrator
+company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Leeds
 source: JobG8
-job_id: jobg8-642823322571322163237340
+job_id: jobg8-1956696
 reason: Approved Leeds catchment.
 ---
 
-## REVIEW (11)
+## REVIEW (10)
 
 ---
 action: 
 decision: review
 automatic_decision: review
-title: Accounts Assistant
-company: JHE & Partners - Agency - Permanent
-location: Keighley
-source: JobG8
-job_id: jobg8-1829321
-reason: No approved Leeds catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Bookkeeper
-company: Si Recruitment - Agency - Permanent
+title: Cloud Bookkeeper
+company: Bennett & Game Recruitment - Agency - Permanent
 location: Yorkshire
 source: JobG8
-job_id: jobg8-1834876
+job_id: jobg8-1907825
 reason: No approved Leeds catchment rule matched; local review required.
 ---
 
@@ -282,11 +258,11 @@ reason: No approved Leeds catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Purchase Ledger Assistant
-company: Marks Sattin - Agency - Permanent
+title: Purchase Ledger Clerk
+company: Elevation Recruitment Group - Agency - Permanent
 location: Yorkshire
 source: JobG8
-job_id: jobg8-1833839
+job_id: jobg8-1896759
 reason: No approved Leeds catchment rule matched; local review required.
 ---
 
@@ -344,6 +320,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: HR Coordinator / Advisor
+company: Hays Specialist Recruitment Limited - Agency - Permanent
+location: Huddersfield
+source: JobG8
+job_id: jobg8-1937623
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Interim Finance Officer
 company: Robertson Bell - Agency - Permanent
 location: Bradford
@@ -361,17 +349,5 @@ company: Gallagher - Agency - Permanent
 location: Wakefield
 source: JobG8
 job_id: jobg8-871951100439376691237340
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Social Media Coordinator
-company: Dream Big Digital - Agency - Permanent
-location: Bradford
-source: JobG8
-job_id: jobg8-642823322571322163237341
 reason: Separate employment market.
 ---

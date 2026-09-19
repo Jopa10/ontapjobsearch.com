@@ -4,7 +4,7 @@
 - Live route: `/sheffield/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 1
+- Effective included jobs: 2
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,26 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 1
+- automatic include: 2
 - automatic review: 0
-- automatic exclude: 4
-- effective include: 1
+- automatic exclude: 5
+- effective include: 2
 - effective review: 0
-- effective exclude: 4
+- effective exclude: 5
 
-## INCLUDE (1)
+## INCLUDE (2)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Credit Control / Accounts Assistant
+company: Shillito Group - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-1905225
+reason: Approved Sheffield catchment.
+---
 
 ---
 action: 
@@ -38,7 +50,7 @@ reason: Approved Sheffield catchment.
 
 ## REVIEW (0)
 
-## EXCLUDE (4)
+## EXCLUDE (5)
 
 ---
 action: 
@@ -85,5 +97,17 @@ company: Sharp Consultancy - Agency - Permanent
 location: Doncaster
 source: JobG8
 job_id: jobg8-1899982
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Recruitment Account Coordinator
+company: Staffline Recruitment Limited - Agency - Permanent
+location: Barnsley
+source: JobG8
+job_id: jobg8-1899397
 reason: Separate employment market.
 ---

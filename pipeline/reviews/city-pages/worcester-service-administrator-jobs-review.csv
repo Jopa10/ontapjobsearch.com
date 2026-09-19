@@ -1,2 +1,3 @@
 decision,job_id,title,company,location,source,automatic_decision,effective_decision,reason,matched_rule,city_key
+review,jobg8-1928891,Group HR Co-ordinator,James Andrew Recruitment Solutions (JAR Solutions) - Agency - Permanent,Redditch,JobG8,review,review,No exact Worcester workplace matched; local geographic review is required.,fallback,worcester-service-administrator-jobs
 review,jobg8-1879674,Onboarding Coordinator,Davies Group - Agency - Permanent,Worcestershire,JobG8,review,review,No exact Worcester workplace matched; local geographic review is required.,fallback,worcester-service-administrator-jobs

@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 6
 - automatic review: 8
-- automatic exclude: 2
+- automatic exclude: 1
 - effective include: 6
 - effective review: 8
-- effective exclude: 2
+- effective exclude: 1
 
 ## INCLUDE (6)
 
@@ -28,11 +28,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 action: 
 decision: include
 automatic_decision: include
-title: Male Support Worker
+title: Female Support Worker
 company: Avenues Group - Company - Permanent
 location: Southampton
 source: JobG8
-job_id: jobg8-686199911844570726437341
+job_id: jobg8-265253118665136537637341
 reason: Approved Southampton catchment.
 ---
 
@@ -64,18 +64,6 @@ reason: Approved Southampton catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Secure Childrens Home Support Worker (Weekends)
-company: Hampshire County Council - Company - Permanent
-location: Southampton
-source: JobG8
-job_id: jobg8-1401784780
-reason: Approved Southampton catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Support Worker
 company: Avenues Group - Company - Permanent
 location: Southampton
@@ -93,6 +81,18 @@ company: The Society of St James - Agency - Permanent
 location: Southampton
 source: JobG8
 job_id: jobg8-1858493
+reason: Approved Southampton catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Support Worker (Days)
+company: Cygnet - Agency - Permanent
+location: Southampton
+source: JobG8
+job_id: jobg8-1898106
 reason: Approved Southampton catchment.
 ---
 
@@ -194,19 +194,7 @@ job_id: jobg8-1401784888
 reason: Broad location; review before city inclusion.
 ---
 
-## EXCLUDE (2)
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Male Support Worker
-company: Avenues Group - Company - Permanent
-location: Fareham
-source: JobG8
-job_id: jobg8-686199911844570726437340
-reason: Separate employment market.
----
+## EXCLUDE (1)
 
 ---
 action: 

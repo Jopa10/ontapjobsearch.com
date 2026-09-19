@@ -4,7 +4,7 @@
 - Live route: `/warwick/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 2
+- Effective included jobs: 1
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 2
+- automatic include: 1
 - automatic review: 12
 - automatic exclude: 0
-- effective include: 2
+- effective include: 1
 - effective review: 12
 - effective exclude: 0
 
-## INCLUDE (2)
+## INCLUDE (1)
 
 ---
 action: 
@@ -33,18 +33,6 @@ company: Hiring People - Agency - Permanent
 location: Warwick
 source: JobG8
 job_id: jobg8-1868063
-reason: Exact approved Warwick workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Purchase Ledger Accounts Assistant
-company: Belinda Roberts Ltd - Agency - Permanent
-location: Warwick
-source: JobG8
-job_id: jobg8-1835035
 reason: Exact approved Warwick workplace.
 ---
 
@@ -102,35 +90,35 @@ reason: No exact Warwick workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Finance Assistant
+company: Gleeson Recruitment Group - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-1906045
+reason: No exact Warwick workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Finance Assistant
+company: Thefutureworks - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-1895750
+reason: No exact Warwick workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: HR & Recruitment Coordinator
 company: Gleeson Recruitment Group - Agency - Permanent
 location: Coventry
 source: JobG8
 job_id: jobg8-1869638
-reason: No exact Warwick workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: HR Administrator, Temporary to Permanent Opportunity
-company: Office Angels - Agency - Permanent
-location: Atherstone
-source: JobG8
-job_id: jobg8-1859602
-reason: No exact Warwick workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: HR Assistant
-company: Bell Cornwall Recruitment - Agency - Permanent
-location: Coventry
-source: JobG8
-job_id: jobg8-1835857
 reason: No exact Warwick workplace matched; local geographic review is required.
 ---
 
