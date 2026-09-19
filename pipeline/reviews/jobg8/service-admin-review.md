@@ -91,6 +91,12 @@ job_id: 1937623
 
 ---
 action:
+SELECTED | Yorkshire - West | Bradford |  | Finance Assistant with AAT Study Support
+job_id: 1907455
+---
+
+---
+action:
 SELECTED | Yorkshire - West | Leeds |  | Casualty Claims Handler
 job_id: 1906594
 ---
@@ -105,6 +111,12 @@ job_id: 1906013
 action:
 SELECTED | Yorkshire - West | Leeds |  | Billing & Finance Assistant
 job_id: 1892117
+---
+
+---
+action:
+SELECTED | Yorkshire - West | Leeds |  | Bid Coordinator
+job_id: 107993362
 ---
 
 ## WEST YORKSHIRE — POSSIBLES
@@ -657,12 +669,6 @@ job_id: 107605314
 
 ---
 action:
-SELECTED | Hampshire | Hampshire | £30000 per year | Service Coordinator
-job_id: 107959953
----
-
----
-action:
 SELECTED | Hampshire | Hampshire |  | HR Assistant
 job_id: 1960533
 ---
@@ -913,6 +919,12 @@ SELECTED | Sussex | Sussex | £38000 - £45000 per year | Client Services Admini
 job_id: 1894808
 ---
 
+---
+action:
+SELECTED | Sussex | Sussex | £26000 per year | HR Administrative Assistant
+job_id: 108005260
+---
+
 ## SUSSEX — POSSIBLES
 
 _No jobs in this group._
@@ -934,6 +946,12 @@ job_id: 1859027
 action:
 SELECTED | West Midlands - Coventry & Warwickshire | Warwickshire |  | People Coordinator
 job_id: 1859862
+---
+
+---
+action:
+SELECTED | West Midlands - Coventry & Warwickshire | Warwickshire |  | HR Administrator, Temporary to Permanent Opportunity
+job_id: 1859602
 ---
 
 ---
@@ -1771,6 +1789,12 @@ job_id: 107871089
 
 ---
 action:
+SELECTED | Essex | Essex |  | Accounts Assistant
+job_id: 1908411
+---
+
+---
+action:
 SELECTED | Essex | Essex |  | Claims Handler
 job_id: 1906606
 ---
@@ -1971,6 +1995,12 @@ job_id: 1896784
 action:
 SELECTED | Greater Manchester - Manchester & Salford | Manchester |  | Sales Ledger/Finance Assistant
 job_id: 1896569
+---
+
+---
+action:
+SELECTED | Greater Manchester - Manchester & Salford | Manchester |  | Lead Design Coordinator
+job_id: 108004837
 ---
 
 ## GREATER MANCHESTER - MANCHESTER & SALFORD — POSSIBLES
@@ -2203,7 +2233,11 @@ job_id: 1936795
 
 ## MERSEYSIDE - LIVERPOOL — POSSIBLES
 
-_No jobs in this group._
+---
+action:
+POSS - MERSEYSIDE - LIVERPOOL | Merseyside - Liverpool | Liverpool | £40000 per year | Executive Assistant
+job_id: 107992608
+---
 
 ## NORFOLK — SELECTED
 
@@ -2253,12 +2287,6 @@ job_id: 1950311
 action:
 SELECTED | Norfolk | Norfolk | £30000 per year | Accounts Assistant
 job_id: 1952000
----
-
----
-action:
-SELECTED | Norfolk | Norfolk | £24000 per year | Finance Assistant Expenditure & Creditors (AP)
-job_id: 107997755
 ---
 
 ---
@@ -2727,12 +2755,6 @@ _No jobs in this group._
 
 ---
 action:
-SELECTED | Somerset | Somerset |  | Technical Coordinator
-job_id: 107866477
----
-
----
-action:
 SELECTED | Somerset | Somerset | £28000 per year | Community Gardening Coordinator
 job_id: 107990401
 ---
@@ -3087,12 +3109,6 @@ job_id: 107921669
 
 ---
 action:
-SELECTED | Wiltshire | Wiltshire |  | Administrator (Financial Services)
-job_id: 107995513
----
-
----
-action:
 SELECTED | Wiltshire | Wiltshire | £30000 per year | HR Administrator
 job_id: 1961301
 ---
@@ -3173,12 +3189,6 @@ job_id: 1905167
 
 _No jobs in this group._
 ## ACTIVE MANUAL ACTIONS
-
----
-action:
-DROPPED | Yorkshire - South | Barnsley | £35000 per year | German Speaking Administrator
-job_id: 107830594
----
 
 ---
 action:

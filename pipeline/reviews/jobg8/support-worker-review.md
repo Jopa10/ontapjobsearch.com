@@ -123,26 +123,8 @@ job_id: 1858493
 
 ---
 action:
-SELECTED | Hampshire | Ventnor | £10000 per year | Care & Support Worker
-job_id: 107955972
----
-
----
-action:
-SELECTED | Hampshire | Freshwater | £16000 per year | Care & Support Worker
-job_id: 107955992
----
-
----
-action:
 SELECTED | Hampshire | Ringwood | £26018 - £27111 per year | Care Assistant
 job_id: 1401785190
----
-
----
-action:
-SELECTED | Hampshire | Tadley | £26000 per year | Female Waking Night Support Worker
-job_id: 107941132
 ---
 
 ---
@@ -189,20 +171,8 @@ _No jobs in this group._
 
 ---
 action:
-SELECTED | Kent | Gravesend | £13,988.00 per annum | Support Worker
-job_id: 1851265
----
-
----
-action:
 SELECTED | Kent | Sittingbourne | £14.43 per hour | Care Support Worker
 job_id: 1877396
----
-
----
-action:
-SELECTED | Kent | Margate | £25,845 per annum | Support Worker
-job_id: 488731141933210009637340
 ---
 
 ---
@@ -311,6 +281,12 @@ job_id: 1961315
 action:
 SELECTED | London | Barking | £36693 per year | Early Language & Communication Support Worker
 job_id: 1961257
+---
+
+---
+action:
+SELECTED | London | London | £15.27 per hour | Supporter Care Assistant
+job_id: 1964423
 ---
 
 ## LONDON — POSSIBLES
