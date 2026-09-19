@@ -1,7 +1,7 @@
 # VONNE ETL proof-of-concept review
 
-review_date: 2026-09-18
-review_fingerprint: 8a15317104c45b7917bd81c584625c05d475f58b047912c43c0d9e25235f207e
+review_date: 2026-09-19
+review_fingerprint: 6ed892ef8613602e1deffa17ef7e0bb24b281f5a64c67f0302d983441be77d3d
 
 This implementation is review-only. It has no approved-JSON or publishing mode.
 
@@ -10,9 +10,9 @@ Edit only the `action:` line in editable blocks:
 - `action: exclude` rejects a POSS vacancy or removes an HC vacancy.
 - Actions are remembered while the same vacancy review facts remain unchanged; this review still does not publish anything.
 
-Run generated: 2026-09-18T12:39:26+01:00
+Run generated: 2026-09-19T12:22:12+01:00
 Listing input: https://www.vonne.org.uk/vonne-jobs
-JobG8 comparison rows: 188
+JobG8 comparison rows: 195
 Approved NEJobs comparison rows: 7
 
 ## Funnel
@@ -57,16 +57,16 @@ source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173435
 ---
 ---
 action:
-POSS | North East - Tyneside, Wearside & Northumberland | Gateshead | £ Per Annum | Support Worker - Young People's 16+ Supported Accommodation - Gateshead
-employer: Oasis Community Housing
-closing_date: 30 September 2026
+POSS | North East - Tyneside, Wearside & Northumberland | Newcastle | £ Pro Rata | Community Hub and Operations Lead
+employer: Riverside Community Health Project
+closing_date: 04 October 2026
 geography: CONFIRMED — location: exact area
-reason: possible cross-source duplicate requires review
+reason: transferable title with specialist or borderline wording: lead
 source: VONNE
-tracking_key: vonne-171330
-vacancy_fingerprint: 45a5414b40fbfeff791b6b1d7a1c75f8d886794387d67eee5bf61d48a68f5960
-source_job_id: 171330
-source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=171330
+tracking_key: vonne-173448
+vacancy_fingerprint: b9bd3c0080c2805600b11626f01318d26919158ea0461140fb3df8cf2fdd5705
+source_job_id: 173448
+source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173448
 ---
 ## EXCLUDED BY REVIEW
 
@@ -75,12 +75,12 @@ source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=171330
 ## HARD_PASS
 
 - [Chief Executive Officer (CEO)](https://www.vonne.org.uk/vonne-jobs-details?cid=173422) — out-of-scope VONNE occupation.
+- [Communications & Campaigns Officer](https://www.vonne.org.uk/vonne-jobs-details?cid=173449) — insufficient service-admin evidence.
 - [Community Cancer Awareness Worker](https://www.vonne.org.uk/vonne-jobs-details?cid=173418) — out-of-scope VONNE occupation.
 - [Community Link Worker](https://www.vonne.org.uk/vonne-jobs-details?cid=173419) — out-of-scope VONNE occupation.
 - [Domestic Abuse Counsellor](https://www.vonne.org.uk/vonne-jobs-details?cid=173427) — insufficient service-admin evidence.
 - [Family Practitioner](https://www.vonne.org.uk/vonne-jobs-details?cid=173441) — out-of-scope VONNE occupation.
 - [Language & Learning Officer](https://www.vonne.org.uk/vonne-jobs-details?cid=173423) — insufficient service-admin evidence.
-- [Money Advice/Debt Caseworker](https://www.vonne.org.uk/vonne-jobs-details?cid=173416) — out-of-scope VONNE occupation.
 - [Play & Youth Practitioner- Part-Time and Casual](https://www.vonne.org.uk/vonne-jobs-details?cid=173440) — out-of-scope VONNE occupation.
 - [Recovery Navigator](https://www.vonne.org.uk/vonne-jobs-details?cid=173443) — insufficient service-admin evidence.
 
