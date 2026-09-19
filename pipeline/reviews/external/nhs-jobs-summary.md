@@ -2,13 +2,13 @@
 
 review_date: 2026-09-19
 
-- Open Administrative & Clerical rows reviewed: 2179
+- Open Administrative & Clerical rows reviewed: 2175
 - Auto/remembered selected: 394
 - Selected HC Tier A: 210
 - Selected HC Tier B: 184
-- POSS awaiting decision: 1645
+- POSS awaiting decision: 1642
 - Excluded: 0
-- HARD_PASS: 140
+- HARD_PASS: 139
 
 Edit only each `action:` line for POSS rows. Unchanged decisions are restored by the shared decision ledger.
 
@@ -5534,18 +5534,6 @@ factual_fingerprint: 0df1d1d5120906c2b7c4123c88190d147e13ebccf24cad95b7b303c7561
 
 ---
 action:
-POSS | NHS Jobs | Sussex | Brighton, BN2 3EW | £32073.00 to £39043.00 | Patient Experience Advisor
-source_job_id: 5602193
-title: Patient Experience Advisor
-employer: Sussex Community NHS Foundation Trust
-region: Sussex
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9150-26-0551
-factual_fingerprint: e396bc39cbc1ac439518763f33ac84bbfac717632d24e677830ef4da22c2bdb5
----
-
----
-action:
 POSS | NHS Jobs | — | Bishops Stortford , CM23 5JH | £12.71 | Care Co-ordinator
 source_job_id: 5602769
 title: Care Co-ordinator
@@ -7042,18 +7030,6 @@ region: North East
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9263-26-0886
 factual_fingerprint: 83649423e9dd469803e381483efdcc030dd2562328e811fe4838f361fd30dc86
----
-
----
-action:
-POSS | NHS Jobs | Oxfordshire | oxford, OX37HE | £28392.00 to £31157.00 | Pathway Administrator
-source_job_id: 5600530
-title: Pathway Administrator
-employer: Oxford University Hospitals NHS Foundation Trust
-region: Oxfordshire
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9321-26-1642
-factual_fingerprint: 251f439e55c0832c97db00490de798366626a0534c6373a69682b594b5d61d80
 ---
 
 ---
@@ -10342,18 +10318,6 @@ region: Yorkshire - West
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9298-26-0941
 factual_fingerprint: 2057a81b52fdb31f4ede6bcb60ccd8087ab9139cf57333206d376ea9e7dbda21
----
-
----
-action:
-POSS | NHS Jobs | Cambridgeshire | Peterborough, PE7 8DR | Negotiable | Receptionist in GP surgery
-source_job_id: 5595765
-title: Receptionist in GP surgery
-employer: Hampton Medical Centre
-region: Cambridgeshire
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A3826-26-0024
-factual_fingerprint: 042cc506e20419d8e5fac56dd3dbfd1cb2116e0d04f36e97c564f6f81847c48d
 ---
 
 ---

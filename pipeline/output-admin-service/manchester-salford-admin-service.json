@@ -553,6 +553,31 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "108004837",
+    "title": "Lead Design Coordinator",
+    "company": "Barhale - Agency - Permanent",
+    "location": "Manchester",
+    "region": "Greater Manchester - Manchester & Salford",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "",
+    "posted_date": "",
+    "description": "About Barhale\n\nWho are Barhale?\n\nBarhale is a business founded on family values, having been established by our Chairman, Dennis Curran, in 1980. We are one of the largest privately owned civil engineering and infrastructure specialists in the UK, with over 40 years of experience in providing design, civil engineering and maintenance services working across multiple sectors, including:\n- Water\n- Trans click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?31Q%2fsvDzOVYKhZp%2fKvG0Yg62UC%2b%2fyp8%2fj",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Barhale",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
     "job_id": "nhs-5606802",
     "source": "NHS Jobs",
     "title": "Receptionist / Administrator",
@@ -568,7 +593,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0105-26-0003",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0105-26-0003",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5602924",
@@ -586,7 +615,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9437-26-0825",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9437-26-0825",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5362994",
@@ -604,7 +637,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4834-26-0002",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4834-26-0002",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5604780",
@@ -622,7 +659,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2366-26-0007",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2366-26-0007",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5599492",
@@ -640,6 +681,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9437-26-0816",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9437-26-0816",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]
