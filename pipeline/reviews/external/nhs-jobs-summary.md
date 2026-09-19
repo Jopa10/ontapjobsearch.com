@@ -2,15 +2,27 @@
 
 review_date: 2026-09-19
 
-- Open Administrative & Clerical rows reviewed: 2181
+- Open Administrative & Clerical rows reviewed: 2179
 - Auto/remembered selected: 394
 - Selected HC Tier A: 210
 - Selected HC Tier B: 184
-- POSS awaiting decision: 1647
+- POSS awaiting decision: 1645
 - Excluded: 0
 - HARD_PASS: 140
 
 Edit only each `action:` line for POSS rows. Unchanged decisions are restored by the shared decision ledger.
+
+---
+action:
+POSS | NHS Jobs | West Midlands - Black Country | Halesowen, B63 3HN | £12.91 | Temporary Receptionist GP Practice
+source_job_id: 5610602
+title: Temporary Receptionist GP Practice
+employer: Stourside Medical Practice
+region: West Midlands - Black Country
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A0805-26-0020
+factual_fingerprint: 877892f4673b563f497d4df0ad683c3b78b74d2d6dd55f7eb4bd67dfabe02e1b
+---
 
 ---
 action:
@@ -94,18 +106,6 @@ region: Yorkshire - West
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9298-26-0981
 factual_fingerprint: 17e041b47c0e77b1e1ce675771ed243b2baa0792f399eced595690d6a0a26052
----
-
----
-action:
-POSS | NHS Jobs | London | London, E13 8SL | £33262.00 to £36027.00 | Patient Pathway Coordinator
-source_job_id: 5610290
-title: Patient Pathway Coordinator
-employer: Barts Health NHS Trust
-region: London
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9259-26-1624
-factual_fingerprint: b901e7bda63504b3fe68e0b3b5bc3697b9abd973eb281f0d719f08fffa1707df
 ---
 
 ---
@@ -633,7 +633,7 @@ employer: Oxford University Hospitals NHS Foundation Trust
 region: Oxfordshire
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9321-26-1675
-factual_fingerprint: ea45894f7fa64aa1c5fe5c3e7cb97da47738b6382a6b470a163a4f1bd430d1a1
+factual_fingerprint: 00b5429e9bf1d941a403de329c4b9ea007dd8fcfd773b85ef6a7e0f67680da15
 ---
 
 ---
@@ -2650,18 +2650,6 @@ region: London
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/M0032-26-0036
 factual_fingerprint: 6fc70f94c9b74c4ee4d4c94d5e67c8e99ddc0af8bd6d7ad0b37e8030bf03ae70
----
-
----
-action:
-POSS | NHS Jobs | Essex | Basildon, SS16 5NL | £28392.00 | Divisional Administration Assistant
-source_job_id: 5607217
-title: Divisional Administration Assistant
-employer: Mid and South Essex NHS Foundation Trust
-region: Essex
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9390-26-2184
-factual_fingerprint: abb14d7b023d0f89d20bd3f12ec6b7fcff76b21f5f00aecfcb62ed9cb7009bb3
 ---
 
 ---
@@ -7258,18 +7246,6 @@ region: Dorset
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/B0201-BOU-AA-15--FTC
 factual_fingerprint: 1de9fcee43c5982d4004c5f66ce5a4be081e46346bb0a0384d9f9fda02d5554c
----
-
----
-action:
-POSS | NHS Jobs | Greater Manchester - Manchester & Salford | Manchester, M139NQ | £28392.00 to £31157.00 | Corporate Support Officer
-source_job_id: 5600259
-title: Corporate Support Officer
-employer: Manchester University NHS Foundation Trust
-region: Greater Manchester - Manchester & Salford
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9349-26-2717
-factual_fingerprint: 77299ceff77da4d4f8ece88ad4005b223410db006b6b945d77764e1504616c23
 ---
 
 ---
