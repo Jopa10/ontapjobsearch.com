@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Lincolnshire
 
-review_date: 2026-09-18
-review_fingerprint: 6180e8e810757f772799f76d05e4a0ab540f432d88c5f9261ab2af66aa2c6a19
-routing_manifest_sha256: dc29cc704a3c739ce7a00dda7ed5ec0108cad5c6895f72592d1d068628991701
+review_date: 2026-09-19
+review_fingerprint: 04c4b4505acbafc3ad11e6f14663a6597eea11122f10b7b1b609f3bc3be11937
+routing_manifest_sha256: a1569b986aee977c02dc411874fc9a0c706f290667084cd5a8b0401efe05a811
 ontap_region: Lincolnshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 17
+- Records: 15
 - Selected: 7
-- POSS awaiting decision: 2
+- POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 8
+- Hard pass: 7
 
 ## SELECTED
 
@@ -130,21 +130,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/sixth-form-administra
 
 ---
 action: 
-POSS | Lincolnshire | Boston, East Midlands, PE21 7QG | £11,666.20 Annually (Actual) National Apprentice Rate | Administration Apprentice
-employer: Boston West Academy
-closing_date: 2026-09-18T23:59:00+01:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 2f229cddd431678b7e83d8604555f3e41a0f6a645e5dd139ede517c271b309e0
-source: Teaching Vacancies
-source_job_id: administration-apprentice-boston-west-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-apprentice-boston-west-academy
----
-
----
-action: 
 POSS | Lincolnshire | Spalding, East Midlands, PE11 1JQ | Approx £25,000.00 | Finance Manager
 employer: The Spalding St John the Baptist Church of England Primary School
 closing_date: 2026-10-05T12:00:00+01:00
@@ -165,7 +150,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-manager-the-s
 ## HARD_PASS
 
 - [Bursar](https://teaching-vacancies.service.gov.uk/jobs/bursar-cliffedale-primary-school) — Insufficient admin/service evidence.
-- [Business Manager](https://teaching-vacancies.service.gov.uk/jobs/business-manager-walton-academy) — Manager title salary ceiling £49,749 is not below £28,000.
 - [Governance & Compliance Officer](https://teaching-vacancies.service.gov.uk/jobs/governance-compliance-officer-inspire-connected-communities-trust-louth-not-recorded) — Insufficient admin/service evidence.
 - [HR Manager](https://teaching-vacancies.service.gov.uk/jobs/hr-manager-the-queen-elizabeth-s-high-school-gainsborough) — Manager title salary ceiling £42,839 is not below £28,000.
 - [HR Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-a28cea11-d24b-43cc-a15c-772ff5fa57da) — Insufficient admin/service evidence.

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Norfolk
 
-review_date: 2026-09-18
+review_date: 2026-09-19
 review_fingerprint: 4c02c9e163cc0695f1d8894a98d06e81f1a41efef24385277bc6d3e53c224fcb
-routing_manifest_sha256: dc29cc704a3c739ce7a00dda7ed5ec0108cad5c6895f72592d1d068628991701
+routing_manifest_sha256: a1569b986aee977c02dc411874fc9a0c706f290667084cd5a8b0401efe05a811
 ontap_region: Norfolk
 slice_category: admin_service
 slice_status: LIVE

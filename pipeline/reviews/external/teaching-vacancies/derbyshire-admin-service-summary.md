@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Derbyshire
 
-review_date: 2026-09-18
+review_date: 2026-09-19
 review_fingerprint: 4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945
-routing_manifest_sha256: dc29cc704a3c739ce7a00dda7ed5ec0108cad5c6895f72592d1d068628991701
+routing_manifest_sha256: a1569b986aee977c02dc411874fc9a0c706f290667084cd5a8b0401efe05a811
 ontap_region: Derbyshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 1
+- Records: 2
 - Selected: 0
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 1
+- Hard pass: 2
 
 ## SELECTED
 
@@ -33,6 +33,7 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## HARD_PASS
 
+- [Exams & Data Manager](https://teaching-vacancies.service.gov.uk/jobs/exams-data-manager-st-thomas-more-catholic-voluntary-academy) — Manager title salary ceiling £32,892 is not below £28,000.
 - [Minibus Driver](https://teaching-vacancies.service.gov.uk/jobs/minibus-driver-granville-academy) — Insufficient admin/service evidence.
 
 ## Safety boundary

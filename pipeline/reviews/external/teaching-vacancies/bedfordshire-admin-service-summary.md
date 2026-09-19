@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Bedfordshire
 
-review_date: 2026-09-18
-review_fingerprint: b0172c7f9603eec02299ef5432fdfc88d210835f9df2c68f698e08da3b9d28ee
-routing_manifest_sha256: dc29cc704a3c739ce7a00dda7ed5ec0108cad5c6895f72592d1d068628991701
+review_date: 2026-09-19
+review_fingerprint: a8f8aae8b8d5206538b0afb8b07b7cc9fabc8ed6dc3428cda25ec04712775557
+routing_manifest_sha256: a1569b986aee977c02dc411874fc9a0c706f290667084cd5a8b0401efe05a811
 ontap_region: Bedfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -23,17 +23,17 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ---
 action: 
-SELECTED | Bedfordshire | Bedford, East of England, MK44 1JL | £21,971.86 Annually (Actual) | Finance & Trips Admin Assistant
-employer: Sharnbrook Academy
-closing_date: 2026-09-18T23:59:00+01:00
-reason: Clear admin/service title: admin assistant
+SELECTED | Bedfordshire | Sandy, East of England, SG19 3HD | £25,583.00 - £25,989.00 Annually (FTE) NJC Scale 3 points 5 to 6 – pay award pending. Actual salary £15,211.51 per annum on point 5 | Office Administrator
+employer: Gamlingay Village Primary
+closing_date: 2026-10-01T09:00:00+01:00
+reason: Clear admin/service title: administrator, office administrator
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 647c634fd7e3dfc2844550246b729a36438eba2a633cf3945e43879b3f76394b
+factual_fingerprint: 4bd5688e945a8c48b15efcfcd4efdf0a414fb19bc557a597bfd2fb0936bfa627
 source: Teaching Vacancies
-source_job_id: finance-trips-admin-assistant-41cedbac-f577-4df1-874c-bcf5ea03f826
-source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-trips-admin-assistant-41cedbac-f577-4df1-874c-bcf5ea03f826
+source_job_id: office-administrator-gamlingay-village-primary
+source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-gamlingay-village-primary
 ---
 
 ---
@@ -107,7 +107,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/governance-profession
 - [Business Manager](https://teaching-vacancies.service.gov.uk/jobs/business-manager-de16c660-42ff-448c-aed9-69dbe339a507) — Manager title salary ceiling £45,401 is not below £28,000.
 - [Clerical Assistant - Maternity Cover](https://teaching-vacancies.service.gov.uk/jobs/clerical-assistant-maternity-cover-icknield-primary-school-luton-bedfordshire) — Insufficient admin/service evidence.
 - [Finance Assistant - Purchase Ledger & Treasury](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-purchase-ledger-treasury) — Insufficient admin/service evidence.
-- [Financial Controller](https://teaching-vacancies.service.gov.uk/jobs/financial-controller-1f6f3486-dfc7-4da3-ab01-4c95a8323f08) — Insufficient admin/service evidence.
+- [Financial Controller](https://teaching-vacancies.service.gov.uk/jobs/financial-controller-e5903e11-7297-4be8-a7c1-2e9280429c10) — Insufficient admin/service evidence.
 - [Officer Manager](https://teaching-vacancies.service.gov.uk/jobs/officer-manager-17efeac4-e980-48de-8ddc-1a2e769d02a2) — Manager title without salary evidence below £28,000.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-all-saints-academy-dunstable) — Manager title salary ceiling £44,253 is not below £28,000.
 

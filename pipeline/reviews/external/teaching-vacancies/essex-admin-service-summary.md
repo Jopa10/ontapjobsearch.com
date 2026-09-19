@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Essex
 
-review_date: 2026-09-18
-review_fingerprint: b07bd0d46df80ea1b119f1347937e53c2c6fe0129753aa12a65516e3b401ab7b
-routing_manifest_sha256: dc29cc704a3c739ce7a00dda7ed5ec0108cad5c6895f72592d1d068628991701
+review_date: 2026-09-19
+review_fingerprint: 54676eb913682c1ed06bd2869263138c1836c15e47be546ebfd9b6ede968a473
+routing_manifest_sha256: a1569b986aee977c02dc411874fc9a0c706f290667084cd5a8b0401efe05a811
 ontap_region: Essex
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 8
-- Selected: 3
+- Records: 9
+- Selected: 4
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 4
@@ -34,6 +34,21 @@ factual_fingerprint: 7332119f33de8f702cadd8605c4dc0fd2cc72079fa994096cb100280b09
 source: Teaching Vacancies
 source_job_id: academy-administrator-belfairs-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/academy-administrator-belfairs-academy
+---
+
+---
+action: 
+SELECTED | Essex | Maldon, East of England, CM9 6NE | £27,709.00 - £29,071.00 Annually (Actual) | Lead Administrator
+employer: Limebrook Primary School and Nursery
+closing_date: 2026-10-02T23:59:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 2079a9258689ef1c1326e6c2e3c0dac3ba716f9b95278c6ce6ac911fc1bbeea1
+source: Teaching Vacancies
+source_job_id: lead-administrator-limebrook-primary-school-and-nursery-maldon-essex
+source_url: https://teaching-vacancies.service.gov.uk/jobs/lead-administrator-limebrook-primary-school-and-nursery-maldon-essex
 ---
 
 ---

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - West
 
-review_date: 2026-09-18
-review_fingerprint: 7defcfeacf4caa36c2d6466e4ebe92fa91f6141f232fdc96af2197793d3ad91d
-routing_manifest_sha256: dc29cc704a3c739ce7a00dda7ed5ec0108cad5c6895f72592d1d068628991701
+review_date: 2026-09-19
+review_fingerprint: 76b1f513a6c31ced04ab9b6fb612ba05a1ed48626643da4723b9d1659896fb64
+routing_manifest_sha256: a1569b986aee977c02dc411874fc9a0c706f290667084cd5a8b0401efe05a811
 ontap_region: Yorkshire - West
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 43
-- Selected: 19
+- Records: 41
+- Selected: 18
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 23
+- Hard pass: 22
 
 ## SELECTED
-
----
-action: 
-SELECTED | Yorkshire - West | Leeds, Yorkshire and the Humber, LS12 3DS | DAT Level 2 SCP14-17 (Actual salary £24,444 - £24,832) | Academy Administrator Level 2
-employer: Dixons Unity Academy
-closing_date: 2026-09-18T23:59:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: NEW_REVIEW
-factual_fingerprint: 62a7e2c37551129d9f7ea36be5420e248b20d9672ca136ec4d22206fc2861c8e
-source: Teaching Vacancies
-source_job_id: academy-administrator-level-2-dixons-unity-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/academy-administrator-level-2-dixons-unity-academy
----
 
 ---
 action: 
@@ -83,6 +68,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assist
 
 ---
 action: 
+SELECTED | Yorkshire - West | Wakefield, WF1 2PF | £28,153 - £29,071 | Administrative Assistant
+employer: Outwood Grange Academies Trust
+closing_date: 2026-10-05T09:00:00+01:00
+reason: Clear admin/service title: administrative assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: NEW_REVIEW
+factual_fingerprint: 5fbe8994cb15982b545fa4d64210407a2384529611e0b226040a7a7681ae605d
+source: Teaching Vacancies
+source_job_id: administrative-assistant-outwood-grange-academies-trust
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-outwood-grange-academies-trust
+---
+
+---
+action: 
 SELECTED | Yorkshire - West | Leeds, Yorkshire and the Humber, LS10 1HW | B1 (SCP 4-6) £26,016 - £26,846, Actual Salary: £ 22,951 - £ 23,683 | Administrative Assistant – Operations
 employer: The Ruth Gorse Academy
 closing_date: 2026-09-24T09:00:00+01:00
@@ -124,21 +124,6 @@ factual_fingerprint: a58587bc87cb366355963333204eac5d210fedda4d8432f813b71d8f881
 source: Teaching Vacancies
 source_job_id: administrator-37
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-37
----
-
----
-action: 
-SELECTED | Yorkshire - West | Leeds, Yorkshire and the Humber, LS17 5HX | B1 Point 5 | Apprentice Admin Assistant - Level 2 FULL TIME
-employer: Alwoodley Primary School
-closing_date: 2026-09-25T12:00:00+01:00
-reason: Clear admin/service title: admin assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: NEW_REVIEW
-factual_fingerprint: 42b05cf6ed8b34083fe3dc1ef035d47a8f97497f81f1220ba0ba15bfcf21f941
-source: Teaching Vacancies
-source_job_id: apprentice-admin-assistant-level-2-full-time
-source_url: https://teaching-vacancies.service.gov.uk/jobs/apprentice-admin-assistant-level-2-full-time
 ---
 
 ---
@@ -345,7 +330,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-carlton
 - [Head of Year Assistant](https://teaching-vacancies.service.gov.uk/jobs/head-of-year-assistant) — Insufficient admin/service evidence.
 - [HR Advisor (Central Team)](https://teaching-vacancies.service.gov.uk/jobs/hr-advisor-central-team) — Insufficient admin/service evidence.
 - [Human Resources Business Partner (Central HR Team)](https://teaching-vacancies.service.gov.uk/jobs/human-resources-business-partner-central-hr-team-the-gorse-academies-trust-leeds-not-recorded) — Insufficient admin/service evidence.
-- [Learning Manager](https://teaching-vacancies.service.gov.uk/jobs/learning-manager-72444972-2891-4ebf-9d5f-a8c7dd7aed3d) — Manager title salary ceiling £36,581 is not below £28,000.
 - [Operations Lead](https://teaching-vacancies.service.gov.uk/jobs/operations-lead-menston-primary-school-ilkley-west-yorkshire) — Insufficient admin/service evidence.
 - [People Advisor (Temporary Maternity Cover)](https://teaching-vacancies.service.gov.uk/jobs/people-advisor-temporary-maternity-cover) — Insufficient admin/service evidence.
 - [Senior Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-administration-officer-altofts-junior-academy) — Insufficient admin/service evidence.

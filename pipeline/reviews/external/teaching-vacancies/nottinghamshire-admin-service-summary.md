@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Nottinghamshire
 
-review_date: 2026-09-18
-review_fingerprint: 77c78ba2b1f1942330206960a10b0178574a84e32647197aa97d211fc1cf8e9f
-routing_manifest_sha256: dc29cc704a3c739ce7a00dda7ed5ec0108cad5c6895f72592d1d068628991701
+review_date: 2026-09-19
+review_fingerprint: ae52e8bb57973ab636851dab204da91013ed0fdc1c7d2860eb722cc6222b6903
+routing_manifest_sha256: a1569b986aee977c02dc411874fc9a0c706f290667084cd5a8b0401efe05a811
 ontap_region: Nottinghamshire
 slice_category: admin_service
 slice_status: LIVE
@@ -23,17 +23,17 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ---
 action: 
-SELECTED | Nottinghamshire | Retford, DN22 7GR | £26,433.00 - £26,433.00 Annually (Actual) | Administration Assistant
-employer: Diverse Academies Trust
-closing_date: 2026-09-27T23:59:00+01:00
+SELECTED | Nottinghamshire | Mansfield, East Midlands, NG21 9TA | £22,569.72 - £22,569.72 Annually (Actual) Term time only | Administration Assistant
+employer: Thoresby Vale Primary Academy
+closing_date: 2026-09-25T23:59:00+01:00
 reason: Clear admin/service title: administration assistant
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: c3ce706f1a2bf0e6ff5692920c9ceccbd5c737a14d1cf0ea111a8ff16079f87f
+factual_fingerprint: 2710ff6c7c8d9cbeaa8320e1cf1192b30b2415b073aa39e35dc92d884c56d4c5
 source: Teaching Vacancies
-source_job_id: administration-assistant-diverse-academies-trust
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-diverse-academies-trust
+source_job_id: administration-assistant-thoresby-vale-primary-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-thoresby-vale-primary-academy
 ---
 
 ---

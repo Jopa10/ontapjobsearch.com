@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Oxfordshire
 
-review_date: 2026-09-18
-review_fingerprint: 1083db297f32902a732db1bff610c6a86019a3c7ecc878acc4576eea30c6091c
-routing_manifest_sha256: dc29cc704a3c739ce7a00dda7ed5ec0108cad5c6895f72592d1d068628991701
+review_date: 2026-09-19
+review_fingerprint: 6f40f1f6537928c40c5ef1781ca70cae3e85ea608cc553071e250f45a2cb7ae1
+routing_manifest_sha256: a1569b986aee977c02dc411874fc9a0c706f290667084cd5a8b0401efe05a811
 ontap_region: Oxfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -90,10 +90,10 @@ reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 23207fb91420d291e49fe934d91078cf803ae053e67bbd2ac7972fed9cc34af9
+factual_fingerprint: 0426f9fbd26c1f4ad369f782003f23f9607a8eccf99d1dc323b268a442b09680
 source: Teaching Vacancies
-source_job_id: careers-administrator-384c41f8-97ba-4087-ae9c-7ba96ac3a2b2
-source_url: https://teaching-vacancies.service.gov.uk/jobs/careers-administrator-384c41f8-97ba-4087-ae9c-7ba96ac3a2b2
+source_job_id: careers-administrator-cbb25421-bec6-4abb-95a2-a79f4b477968
+source_url: https://teaching-vacancies.service.gov.uk/jobs/careers-administrator-cbb25421-bec6-4abb-95a2-a79f4b477968
 ---
 
 ---

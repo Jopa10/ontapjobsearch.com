@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Sussex
 
-review_date: 2026-09-18
-review_fingerprint: 5440f142a87e50329cafb0e959bfdd857e5485f29dc7493fbe6268b0a1ebe0c5
-routing_manifest_sha256: dc29cc704a3c739ce7a00dda7ed5ec0108cad5c6895f72592d1d068628991701
+review_date: 2026-09-19
+review_fingerprint: 409e5a468616d1ae420ea8a81c24026e511a746dcbbf29180787077aa4404ccf
+routing_manifest_sha256: a1569b986aee977c02dc411874fc9a0c706f290667084cd5a8b0401efe05a811
 ontap_region: Sussex
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 6
-- Selected: 4
+- Records: 7
+- Selected: 5
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 1
@@ -49,6 +49,21 @@ factual_fingerprint: 667e31a64a2b0a47048c7f4987817938ca12a693fdf2f1fd929afa8c0eb
 source: Teaching Vacancies
 source_job_id: exams-officer-cfs
 source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-cfs
+---
+
+---
+action: 
+SELECTED | Sussex | Haywards Heath, South East, RH17 6EQ | S3 £24,521.84-£26,103.42 (actual salary) - £28,637-£30,484 (FTE) SP (20.1 -23) | Receptionist / Administrator
+employer: Brantridge School
+closing_date: 2026-10-03T23:59:00+01:00
+reason: Clear admin/service title: administrator, receptionist
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: d1bb5d483a654868d540d2e335bc02ce95faace1f819472262b4ea16599293b2
+source: Teaching Vacancies
+source_job_id: receptionist-administrator-brantridge-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrator-brantridge-school
 ---
 
 ---

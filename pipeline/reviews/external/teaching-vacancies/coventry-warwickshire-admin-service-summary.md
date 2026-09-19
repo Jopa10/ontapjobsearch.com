@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Coventry & Warwickshire
 
-review_date: 2026-09-18
+review_date: 2026-09-19
 review_fingerprint: 2aec2f4c0e56922ae0d9650d99835a59d097fc6592174a70354ebeb41db42246
-routing_manifest_sha256: dc29cc704a3c739ce7a00dda7ed5ec0108cad5c6895f72592d1d068628991701
+routing_manifest_sha256: a1569b986aee977c02dc411874fc9a0c706f290667084cd5a8b0401efe05a811
 ontap_region: West Midlands - Coventry & Warwickshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 11
+- Records: 10
 - Selected: 3
 - POSS awaiting decision: 4
 - Excluded: 0
-- Hard pass: 4
+- Hard pass: 3
 
 ## SELECTED
 
@@ -136,7 +136,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/trust-finance-officer
 
 - [Campaign Manager](https://teaching-vacancies.service.gov.uk/jobs/campaign-manager-lawrence-sheriff-school) — Manager title salary ceiling £40,444 is not below £28,000.
 - [EHCP Co-ordinator](https://teaching-vacancies.service.gov.uk/jobs/ehcp-co-ordinator-discovery-academy) — Insufficient admin/service evidence.
-- [Facilities Apprentice](https://teaching-vacancies.service.gov.uk/jobs/facilities-apprentice-f2150388-8c53-4434-b5c5-9e0ddc54626d) — Insufficient admin/service evidence.
 - [MAT Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/mat-finance-officer-sidney-stringer-multi-academy-trust-coventry-not-recorded) — Insufficient admin/service evidence.
 
 ## Safety boundary

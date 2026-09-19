@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Berkshire
 
-review_date: 2026-09-18
-review_fingerprint: 8037f56d4caceb47010a340ef53bf2c3a89a6a53516e8ccd92f679a79f591d07
-routing_manifest_sha256: dc29cc704a3c739ce7a00dda7ed5ec0108cad5c6895f72592d1d068628991701
+review_date: 2026-09-19
+review_fingerprint: ed14c00d951036dc733c613715aac1fedb6035abb8913ac4d988cbc3b1c5ed94
+routing_manifest_sha256: a1569b986aee977c02dc411874fc9a0c706f290667084cd5a8b0401efe05a811
 ontap_region: Berkshire
 slice_category: admin_service
 slice_status: LIVE
@@ -15,9 +15,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 - Records: 20
 - Selected: 7
-- POSS awaiting decision: 2
+- POSS awaiting decision: 3
 - Excluded: 0
-- Hard pass: 11
+- Hard pass: 10
 
 ## SELECTED
 
@@ -158,6 +158,21 @@ source_job_id: marketing-and-communications-officer-denefield-school-reading-ber
 source_url: https://teaching-vacancies.service.gov.uk/jobs/marketing-and-communications-officer-denefield-school-reading-berkshire
 ---
 
+---
+action: 
+POSS | Berkshire | Wokingham, South East, RG40 3RB | £28,598-£31,021 | School Operations Officer
+employer: Nine Mile Ride Primary School
+closing_date: 2026-09-24T09:00:00+01:00
+reason: Borderline school administration title: operations officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: fdff2281f8d36d942fffb8caf1ec4dab239ecabd54528c163aa49b6f34ad3569
+source: Teaching Vacancies
+source_job_id: school-operations-officer-nine-mile-ride-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/school-operations-officer-nine-mile-ride-primary-school
+---
+
 ## EXCLUDED BY REVIEW
 
 - None.
@@ -167,7 +182,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/marketing-and-communi
 - [Data Manager](https://teaching-vacancies.service.gov.uk/jobs/data-manager-the-holt-school) — Manager title salary ceiling £36,573 is not below £28,000.
 - [EHCP Team Administrator - The Avenue School](https://teaching-vacancies.service.gov.uk/jobs/ehcp-team-administrator-the-avenue-school) — Missing salary or pay scale.
 - [Exams Manager (s)](https://teaching-vacancies.service.gov.uk/jobs/exams-manager-s) — Manager title salary ceiling £32,509 is not below £28,000.
-- [Home School Liaison Assistant](https://teaching-vacancies.service.gov.uk/jobs/home-school-liaison-assistant-842866de-b635-4ed9-bb14-58200af5fde1) — Insufficient admin/service evidence.
 - [HR & Recruitment Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-recruitment-officer-the-park-federation-academy-trust) — Insufficient admin/service evidence.
 - [Office Manager - Southcote Primary School](https://teaching-vacancies.service.gov.uk/jobs/office-manager-southcote-primary-school-southcote-primary-school-reading-berkshire) — Manager title salary ceiling £35,521 is not below £28,000.
 - [Office Manager and Personal Assistant to the Headteacher](https://teaching-vacancies.service.gov.uk/jobs/office-manager-and-personal-assistant-to-the-headteacher-new-town-primary-school) — Manager title salary ceiling £40,444 is not below £28,000.

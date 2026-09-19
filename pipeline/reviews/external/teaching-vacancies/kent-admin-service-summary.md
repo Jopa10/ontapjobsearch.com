@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Kent
 
-review_date: 2026-09-18
-review_fingerprint: e119cc3f044ebffe7cd42c63837d94303a77ff85e35c57e2c31fa789c53ff53d
-routing_manifest_sha256: dc29cc704a3c739ce7a00dda7ed5ec0108cad5c6895f72592d1d068628991701
+review_date: 2026-09-19
+review_fingerprint: ca389d00347800c40ce9ed5e078b5916c406a373bd02718146b660f7e1f380e2
+routing_manifest_sha256: a1569b986aee977c02dc411874fc9a0c706f290667084cd5a8b0401efe05a811
 ontap_region: Kent
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 15
-- Selected: 7
+- Records: 13
+- Selected: 6
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 8
+- Hard pass: 7
 
 ## SELECTED
 
@@ -83,21 +83,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-administra
 
 ---
 action: 
-SELECTED | Kent | Chatham, South East, ME4 4FQ | £24,553.00 - £26,171.00 Annually (Actual) NJC D2 point 7-11 | Examinations & Admissions Officer
-employer: Waterfront UTC
-closing_date: 2026-09-18T23:59:00+01:00
-reason: Clear admin/service title: admissions officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 4ed15137735e468d97cdc825d4329239067c38ec5f4953dc7b5623c88a50d0ce
-source: Teaching Vacancies
-source_job_id: examinations-admissions-officer
-source_url: https://teaching-vacancies.service.gov.uk/jobs/examinations-admissions-officer
----
-
----
-action: 
 SELECTED | Kent | Maidstone, South East, ME16 0SF | £30,347.00 - £30,348.00 Annually (Actual) Kent Salaries Kent Scheme G - -£30,348 pro rata (Full-time equivalent £34,347.90) per annum. | Personal Assistant to the Headteacher
 employer: Maidstone Grammar School for Girls
 closing_date: 2026-09-28T08:00:00+01:00
@@ -140,7 +125,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-receptionist-a
 - [Attendance Manager](https://teaching-vacancies.service.gov.uk/jobs/attendance-manager-thomas-knyvett-college) — Manager title salary ceiling £34,547 is not below £28,000.
 - [Exams and Data Assistant](https://teaching-vacancies.service.gov.uk/jobs/exams-and-data-assistant-the-north-school) — Insufficient admin/service evidence.
 - [Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-the-thinking-schools-academy-trust) — Insufficient admin/service evidence.
-- [Financial Analyst](https://teaching-vacancies.service.gov.uk/jobs/financial-analyst-the-norton-knatchbull-school) — Insufficient admin/service evidence.
 - [HR Apprentice](https://teaching-vacancies.service.gov.uk/jobs/hr-apprentice-04c6c700-00de-4ef8-b87e-13fad8c8e4b3) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-staplehurst-school) — Manager title salary ceiling £29,020 is not below £28,000.
 - [People & Culture Manager](https://teaching-vacancies.service.gov.uk/jobs/people-culture-manager) — Manager title salary ceiling £53,446 is not below £28,000.

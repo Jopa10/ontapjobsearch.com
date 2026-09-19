@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Greater Manchester - North
 
-review_date: 2026-09-18
+review_date: 2026-09-19
 review_fingerprint: 642131461f7b691a35959589a77ff28773553a40bbad7595a48a4a86f8800ed0
-routing_manifest_sha256: dc29cc704a3c739ce7a00dda7ed5ec0108cad5c6895f72592d1d068628991701
+routing_manifest_sha256: a1569b986aee977c02dc411874fc9a0c706f290667084cd5a8b0401efe05a811
 ontap_region: Greater Manchester - North
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 9
+- Records: 10
 - Selected: 5
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 3
+- Hard pass: 4
 
 ## SELECTED
 
@@ -121,6 +121,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-suppor
 
 - [Administration Officer with responsibility for First Aid](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-with-responsibility-for-first-aid) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-the-hathershaw-college) — Manager title salary ceiling £44,253 is not below £28,000.
+- [Receptionist / Administrator](https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrator-hollingworth-academy) — Missing salary or pay scale.
 - [School Office Manager](https://teaching-vacancies.service.gov.uk/jobs/school-office-manager-st-joseph-s-roman-catholic-primary-school-rochdale-a-voluntary-academy) — Manager title salary ceiling £32,305 is not below £28,000.
 
 ## Safety boundary

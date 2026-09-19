@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Hertfordshire
 
-review_date: 2026-09-18
-review_fingerprint: 2201e4f9766c193cbe3578ce080780f4fddce0f9b524dbcee7c5d30722427675
-routing_manifest_sha256: dc29cc704a3c739ce7a00dda7ed5ec0108cad5c6895f72592d1d068628991701
+review_date: 2026-09-19
+review_fingerprint: f6c350c4a129b610d81a759342fc622b9df8affada69766fdce32a60663fae9b
+routing_manifest_sha256: a1569b986aee977c02dc411874fc9a0c706f290667084cd5a8b0401efe05a811
 ontap_region: Hertfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 13
-- Selected: 5
-- POSS awaiting decision: 3
+- Records: 16
+- Selected: 7
+- POSS awaiting decision: 5
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 4
 
 ## SELECTED
 
@@ -53,6 +53,36 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-and-pup
 
 ---
 action: 
+SELECTED | Hertfordshire | Watford, East of England, WD18 0AE | £25,118.00 Annually (Actual) | Cover Administrator / Supervisor
+employer: Watford Grammar School for Girls
+closing_date: 2026-10-04T23:59:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 99e58c1b1ddcb198cf9e15201f009289810763c1247701ee26fa168bd2d9241e
+source: Teaching Vacancies
+source_job_id: cover-administrator-supervisor
+source_url: https://teaching-vacancies.service.gov.uk/jobs/cover-administrator-supervisor
+---
+
+---
+action: 
+SELECTED | Hertfordshire | Hertford, East of England, SG13 8AJ | £23,939.00 - £25,947.00 Annually (Actual) H5 | Database and Admissions Administrator
+employer: Simon Balle All-Through School
+closing_date: 2026-10-05T09:00:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 04e627ebbf407ed87e881615e1bf00b89bee52e3076c91b6a059e967539fcb1b
+source: Teaching Vacancies
+source_job_id: database-and-admissions-administrator-simon-balle-all-through-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/database-and-admissions-administrator-simon-balle-all-through-school
+---
+
+---
+action: 
 SELECTED | Hertfordshire | Hemel Hempstead, East of England, HP2 4DE | £28,837.00 - £30,971.00 Annually (Actual) H7.19-23 Depending on Experience | Examinations Officer
 employer: The Adeyfield Academy
 closing_date: 2026-09-24T23:59:00+01:00
@@ -68,17 +98,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/examinations-officer-
 
 ---
 action: 
-SELECTED | Hertfordshire | Rickmansworth, East of England, WD3 1HG | H9, Point 28 (Actual Salary £33,692 ) | Exams Officer
+SELECTED | Hertfordshire | Rickmansworth, East of England, WD3 1HG | H9, Point 28 (Actual Salary £34,804 ) | Exams Officer
 employer: Saint Joan of Arc Catholic School
 closing_date: 2026-09-28T23:59:59+01:00
 reason: Clear admin/service title: exams officer
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 993b7d3f0530b7f02982d91f1f107cd187f20a311539a6a59cea3cb5edaa6ed6
+factual_fingerprint: 95364e097ccc2c395744bd8be3d0b2af0636db451adb51e8a375cc38a7351e18
 source: Teaching Vacancies
-source_job_id: exams-officer-04392df4-a630-4fb4-aed3-1f3600892c2f
-source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-04392df4-a630-4fb4-aed3-1f3600892c2f
+source_job_id: exams-officer-6f4c470f-3514-47b2-bee0-5c17421f7874
+source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-6f4c470f-3514-47b2-bee0-5c17421f7874
 ---
 
 ---
@@ -100,6 +130,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-administrator
 
 ---
 action: 
+POSS | Hertfordshire | Rickmansworth, South East, WD3 6ER | £26,552.00 - £28,742.00 Annually (FTE) Term time only Pro Rata salary. | Administration Officer
+employer: Chenies School
+closing_date: 2026-10-12T09:00:00+01:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: fbc785644a71e069856172a38d0d1c96e1a07af5611b82af93a937aa530d164d
+source: Teaching Vacancies
+source_job_id: administration-officer-chenies-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-officer-chenies-school
+---
+
+---
+action: 
 POSS | Hertfordshire | Harpenden, East of England, AL5 5FH | £24,519.00 Annually (FTE) Role is paid £12.71 plus holiday pay. Full time equivalent £24,519 | Attendance and Admin Officer
 employer: Katherine Warington School
 closing_date: 2026-09-23T09:00:00+01:00
@@ -111,6 +156,21 @@ factual_fingerprint: f4031657b8ae2307891fe5ca2dcfc49ffa63e891a790ccc829783665a50
 source: Teaching Vacancies
 source_job_id: attendance-and-admin-officer-katherine-warington-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-and-admin-officer-katherine-warington-school
+---
+
+---
+action: 
+POSS | Hertfordshire | Harpenden, East of England, AL5 3AE | £17.15 Hourly Grade H5. £14.98 plus £2.17 holiday pay. Total £17.15 per hour | Governance Professional/Clerk to the Governing Board
+employer: Roundwood Park School
+closing_date: 2026-10-09T07:00:00+01:00
+reason: Borderline school administration title: governance professional
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: b67aac90523c6d904bd7fe1688d07fe7b45cb91aa867f5d16f5df32b3889b7f0
+source: Teaching Vacancies
+source_job_id: governance-professional-clerk-to-the-governing-board-roundwood-park-school-harpenden-hertfordshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/governance-professional-clerk-to-the-governing-board-roundwood-park-school-harpenden-hertfordshire
 ---
 
 ---
@@ -150,7 +210,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-manager-oaklea
 ## HARD_PASS
 
 - [Assistant SENDCo](https://teaching-vacancies.service.gov.uk/jobs/assistant-sendco-6880daf8-5253-47b8-806d-79b65802f205) — Insufficient admin/service evidence.
-- [Attendance & Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/attendance-administration-officer-hertford-heath-primary-and-nursery-school) — Insufficient admin/service evidence.
 - [Development Director](https://teaching-vacancies.service.gov.uk/jobs/development-director-watford-grammar-school-for-boys) — Insufficient admin/service evidence.
 - [Director of Finance & Operations](https://teaching-vacancies.service.gov.uk/jobs/director-of-finance-operations-herts-essex-multi-academy-trust) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-martins-wood-primary-school-stevenage-hertfordshire) — Manager title salary ceiling £33,119 is not below £28,000.

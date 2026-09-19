@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Greater Manchester - South
 
-review_date: 2026-09-18
+review_date: 2026-09-19
 review_fingerprint: 9a8d5d3d6cf5e5ac9bb1fc4b15e8553aa9788df20dffd8ddb24cca2af79d9620
-routing_manifest_sha256: dc29cc704a3c739ce7a00dda7ed5ec0108cad5c6895f72592d1d068628991701
+routing_manifest_sha256: a1569b986aee977c02dc411874fc9a0c706f290667084cd5a8b0401efe05a811
 ontap_region: Greater Manchester - South
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 4
+- Records: 5
 - Selected: 0
 - POSS awaiting decision: 3
 - Excluded: 0
-- Hard pass: 1
+- Hard pass: 2
 
 ## SELECTED
 
@@ -77,6 +77,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-admininstrator
 ## HARD_PASS
 
 - [Casual Committee Clerk](https://teaching-vacancies.service.gov.uk/jobs/casual-committee-clerk-the-laurus-trust-cheadle-not-recorded) — Insufficient admin/service evidence.
+- [HR Business Partner](https://teaching-vacancies.service.gov.uk/jobs/hr-business-partner-ashton-on-mersey-school) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

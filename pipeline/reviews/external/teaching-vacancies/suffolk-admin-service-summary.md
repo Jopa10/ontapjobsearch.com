@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Suffolk
 
-review_date: 2026-09-18
-review_fingerprint: 13929ccf64f6f7f02b30e6a869ea6fbf78abea4aeba75e2637bf8fb1d3120b07
-routing_manifest_sha256: dc29cc704a3c739ce7a00dda7ed5ec0108cad5c6895f72592d1d068628991701
+review_date: 2026-09-19
+review_fingerprint: 528c0f5d136ec6a926b59dfc5b02c0d0e6c2c678220533b9b2d8ab65c90cef98
+routing_manifest_sha256: a1569b986aee977c02dc411874fc9a0c706f290667084cd5a8b0401efe05a811
 ontap_region: Suffolk
 slice_category: admin_service
 slice_status: LIVE
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 13
-- Selected: 3
+- Records: 14
+- Selected: 4
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 9
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Suffolk | Bungay, East of England, NR35 1JS | £13,488 to 14,366 per annum | Admin Assistant
+employer: Castle EAST School
+closing_date: 2026-10-12T01:00:00+01:00
+reason: Clear admin/service title: admin assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: e48a23a54dd91777ee55e6dae005edbea7fb12d3e7804628080e22aa0e86df01
+source: Teaching Vacancies
+source_job_id: admin-assistant-castle-east-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-castle-east-school
+---
 
 ---
 action: 

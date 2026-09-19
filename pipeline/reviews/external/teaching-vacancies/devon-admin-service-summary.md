@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Devon
 
-review_date: 2026-09-18
-review_fingerprint: a1ce5951bc602d89f94a8c03992858065e7579eee2d946fa66e447a55a833cb6
-routing_manifest_sha256: dc29cc704a3c739ce7a00dda7ed5ec0108cad5c6895f72592d1d068628991701
+review_date: 2026-09-19
+review_fingerprint: 25f1e92e3f5b9c4c49e5d45cd2932d85bc51c09f9a1c0848fb3a85b2dd07ecd0
+routing_manifest_sha256: a1569b986aee977c02dc411874fc9a0c706f290667084cd5a8b0401efe05a811
 ontap_region: Devon
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 25
-- Selected: 12
+- Records: 28
+- Selected: 15
 - POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 11
@@ -49,6 +49,21 @@ factual_fingerprint: 589eb2c3c23f0ba65300dfa2d9e8e5b724b99f8c471aa1fc89b9beda5a2
 source: Teaching Vacancies
 source_job_id: administration-assistant-5bf8284e-5a65-4c7e-bb0a-d149927a1892
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-5bf8284e-5a65-4c7e-bb0a-d149927a1892
+---
+
+---
+action: 
+SELECTED | Devon | Plymouth, South West, PL1 5QG | Full-time | Permanent | £28,469 per annum | Apprenticeship Onboarding Administrator
+employer: City College Plymouth
+closing_date: 2026-10-02T23:59:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 18f800daa121f10aba18f5b2f274e2d008ffc3c927fb9bed1bedae6db1e80456
+source: Teaching Vacancies
+source_job_id: apprenticeship-onboarding-administrator
+source_url: https://teaching-vacancies.service.gov.uk/jobs/apprenticeship-onboarding-administrator
 ---
 
 ---
@@ -100,15 +115,45 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/business-administrato
 action: 
 SELECTED | Devon | Plymouth, PL4 8QZ | £26,824.00 - £29,540.00 Annually (FTE) | Estates Administrator
 employer: Learning Academies Trust
-closing_date: 2026-09-28T09:00:00+01:00
+closing_date: 2026-09-28T14:00:00+01:00
 reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: a0e1df8f9b1b0e778378253a0ca85d8a9577eeced2e3670dae0861dce245ebf5
+factual_fingerprint: 31dff5e21182b7f4bece290b4c9688b8bbc9cf48c21708088da6d829f272d4eb
 source: Teaching Vacancies
 source_job_id: estates-administrator-learning-academies-trust
 source_url: https://teaching-vacancies.service.gov.uk/jobs/estates-administrator-learning-academies-trust
+---
+
+---
+action: 
+SELECTED | Devon | Plymouth, South West, PL9 9AZ | £21,911.60 - £22,613.92 Annually (Actual) Grade C SCP 5 - 7 FTE £25,583 - £26,403 (pay award pending) | Receptionist / Administrator / First Aid
+employer: Plymstock School
+closing_date: 2026-09-28T09:00:00+01:00
+reason: Clear admin/service title: administrator, receptionist
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 39499dbc1eb828cf1085472600443fad92e476fb42ea5440ac27edeb873ad879
+source: Teaching Vacancies
+source_job_id: receptionist-administrator-first-aid-998a420b-1445-400e-ae08-d9399cb9bf66
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrator-first-aid-998a420b-1445-400e-ae08-d9399cb9bf66
+---
+
+---
+action: 
+SELECTED | Devon | Teignmouth, TQ14 9HZ | £26,847.00 - £27,274.00 Annually (FTE) Actual starting salary based on 21 hpw / 40 wpy (£13,443pa (including holiday pay)) | Recruitment and People Services Administrator
+employer: Ivy Education Trust
+closing_date: 2026-09-29T09:00:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: d95d1c590eefd1a3be0113fa44c162b07a9e74aaaa66a748be3b37496777e18b
+source: Teaching Vacancies
+source_job_id: recruitment-and-people-services-administrator
+source_url: https://teaching-vacancies.service.gov.uk/jobs/recruitment-and-people-services-administrator
 ---
 
 ---

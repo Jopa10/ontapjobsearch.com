@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — North East
 
-review_date: 2026-09-18
+review_date: 2026-09-19
 review_fingerprint: 8bbe72d183ba971ed59728aff0d7e9f37efc5265ae8b8269b706b8d685e8196f
-routing_manifest_sha256: dc29cc704a3c739ce7a00dda7ed5ec0108cad5c6895f72592d1d068628991701
+routing_manifest_sha256: a1569b986aee977c02dc411874fc9a0c706f290667084cd5a8b0401efe05a811
 ontap_region: North East
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 8
+- Records: 10
 - Selected: 4
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 4
+- Hard pass: 6
 
 ## SELECTED
 
@@ -93,7 +93,9 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-support-roles-
 
 - [Business Lead](https://teaching-vacancies.service.gov.uk/jobs/business-lead-st-gregory-s-catholic-primary-school-south-shields) — Insufficient admin/service evidence.
 - [Data and Examinations Assistant](https://teaching-vacancies.service.gov.uk/jobs/data-and-examinations-assistant-whickham-school) — Insufficient admin/service evidence.
+- [Governance and Procurement Officer](https://teaching-vacancies.service.gov.uk/jobs/governance-and-procurement-officer) — Insufficient admin/service evidence.
 - [HR Administration Assistant (Gateshead Schools)](https://teaching-vacancies.service.gov.uk/jobs/hr-administration-assistant-gateshead-schools) — Insufficient admin/service evidence.
+- [Marketing Assistant](https://teaching-vacancies.service.gov.uk/jobs/marketing-assistant-kings-priory-school) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-st-mary-s-catholic-school) — Manager title salary ceiling £36,581 is not below £28,000.
 
 ## Safety boundary

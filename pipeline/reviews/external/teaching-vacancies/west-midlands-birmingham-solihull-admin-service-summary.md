@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Birmingham & Solihull
 
-review_date: 2026-09-18
-review_fingerprint: 765756c69fb44c871160238b6b2fded99b872a646848116ef18e6eec6d357832
-routing_manifest_sha256: dc29cc704a3c739ce7a00dda7ed5ec0108cad5c6895f72592d1d068628991701
+review_date: 2026-09-19
+review_fingerprint: 66cf164c07e607e72ece13f84dcdece93e4d8c62a382d04a81d83f3d77b7edea
+routing_manifest_sha256: a1569b986aee977c02dc411874fc9a0c706f290667084cd5a8b0401efe05a811
 ontap_region: West Midlands - Birmingham & Solihull
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 28
-- Selected: 15
+- Records: 31
+- Selected: 17
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 13
+- Hard pass: 14
 
 ## SELECTED
 
@@ -53,17 +53,47 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assist
 
 ---
 action: 
-SELECTED | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B28 8BB | £24,796.00 - £28,142.00 Annually (FTE) | Administrative Assistant
-employer: Yorkmead Junior and Infant School
-closing_date: 2026-10-05T23:59:00+01:00
+SELECTED | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B11 3ND | £24,796.00 - £28,142.00 Annually (FTE) | Administrative Assistant
+employer: Greet Primary School
+closing_date: 2026-10-05T09:00:00+01:00
 reason: Clear admin/service title: administrative assistant
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 1c4ed43e73aa6f8ac87c8fd0f588c0642f60662a014aee1f3d904bbc9f8b6413
+factual_fingerprint: fc968faab5730af91ee89e6ef616340b0e94f6edf832956261a66e64abad16a6
+source: Teaching Vacancies
+source_job_id: administrative-assistant-greet-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-greet-primary-school
+---
+
+---
+action: 
+SELECTED | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B28 8BB | £24,796.00 - £28,142.00 Annually (FTE) | Administrative Assistant
+employer: Yorkmead Junior and Infant School
+closing_date: 2026-09-25T23:59:00+01:00
+reason: Clear admin/service title: administrative assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 85fd41e42149ebca945eb1d33dd38a4d9c6c518f3f6500c7b2822b7d8d65426e
 source: Teaching Vacancies
 source_job_id: administrative-assistant-yorkmead-junior-and-infant-school-birmingham-west-midlands
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-yorkmead-junior-and-infant-school-birmingham-west-midlands
+---
+
+---
+action: 
+SELECTED | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B13 0TW | £29,540.00 - £31,537.00 Annually (FTE) Actual Salary £26,592 – £28,390 | Administrator (Payroll and Leadership Support)
+employer: Swanshurst School
+closing_date: 2026-10-02T12:00:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: e4ec8910bc790ed34c2576553a6ab3281fad4c1542f38ad1be793a7101189d41
+source: Teaching Vacancies
+source_job_id: administrator-payroll-and-leadership-support
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-payroll-and-leadership-support
 ---
 
 ---
@@ -115,12 +145,12 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-
 action: 
 SELECTED | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B28 8BB | £28,598.00 - £34,434.00 Annually (FTE) | Office Administrator
 employer: Yorkmead Junior and Infant School
-closing_date: 2026-10-05T23:59:00+01:00
+closing_date: 2026-09-25T23:59:00+01:00
 reason: Clear admin/service title: administrator, office administrator
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: f5755798a1dcbdbad91d8bccc381eda139e6276f94aeb9196860b9a5eb700c15
+factual_fingerprint: 17d7b6e9373bc9d4780b4e83733b3d9bd178bf0207840cff2846505468848600
 source: Teaching Vacancies
 source_job_id: office-administrator-yorkmead-junior-and-infant-school-birmingham-west-midlands
 source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-yorkmead-junior-and-infant-school-birmingham-west-midlands
@@ -264,6 +294,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/whole-school-attendan
 - [Governance Support Officer](https://teaching-vacancies.service.gov.uk/jobs/governance-support-officer-academy-transformation-trust-sutton-coldfield-not-recorded) — Insufficient admin/service evidence.
 - [Head of Executive Office and Communications](https://teaching-vacancies.service.gov.uk/jobs/head-of-executive-office-and-communications) — Insufficient admin/service evidence.
 - [Head of Marketing](https://teaching-vacancies.service.gov.uk/jobs/head-of-marketing-ormiston-academies-trust) — Insufficient admin/service evidence.
+- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-greet-primary-school) — Manager title salary ceiling £34,434 is not below £28,000.
 - [Regional Commercial Procurement Manager](https://teaching-vacancies.service.gov.uk/jobs/regional-commercial-procurement-manager-ormiston-academies-trust) — Manager title salary ceiling £63,638 is not below £28,000.
 - [Regional People Partner](https://teaching-vacancies.service.gov.uk/jobs/regional-people-partner-4ed6680e-930f-489a-b0d0-658557e0d3dc) — Insufficient admin/service evidence.
 - [School Administration Assistant/ Attendance](https://teaching-vacancies.service.gov.uk/jobs/school-administration-assistant-attendance) — Insufficient admin/service evidence.

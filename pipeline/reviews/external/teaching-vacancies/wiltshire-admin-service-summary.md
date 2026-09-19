@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Wiltshire
 
-review_date: 2026-09-18
-review_fingerprint: 9a2e4944325a2203e34ff6ac7136dcd42354ac59539fccf5d4b79d5cd9edefee
-routing_manifest_sha256: dc29cc704a3c739ce7a00dda7ed5ec0108cad5c6895f72592d1d068628991701
+review_date: 2026-09-19
+review_fingerprint: e559fc2f0b222d0d4a2045ceac463db957bf0930322165d54b8a8cfef222774a
+routing_manifest_sha256: a1569b986aee977c02dc411874fc9a0c706f290667084cd5a8b0401efe05a811
 ontap_region: Wiltshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 20
-- Selected: 5
-- POSS awaiting decision: 2
+- Records: 18
+- Selected: 4
+- POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 13
 
@@ -53,21 +53,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/part-time-receptionis
 
 ---
 action: 
-SELECTED | Wiltshire | Swindon, SN4 7HG | £25,989.00 - £28,598.00 Annually (FTE) Salary depending on experience | Payroll Administrator
-employer: Ascend Learning Trust
-closing_date: 2026-09-27T23:59:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: aea00865eb99d2434ae1561326e0563cdc0b6288342b6d15dcea9627f1fd6e60
-source: Teaching Vacancies
-source_job_id: payroll-administrator-ascend-learning-trust
-source_url: https://teaching-vacancies.service.gov.uk/jobs/payroll-administrator-ascend-learning-trust
----
-
----
-action: 
 SELECTED | Wiltshire | Swindon, South West, SN4 7HG | £25,185.00 - £25,989.00 Annually (FTE) Actual Salary: £20,491 - £21,145 (DOE) pro rata | School Attendance Administrator
 employer: Royal Wootton Bassett Academy
 closing_date: 2026-09-27T23:59:00+01:00
@@ -97,21 +82,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-receptionist-e
 ---
 
 ## POSS — choose SELECT or EXCLUDE
-
----
-action: 
-POSS | Wiltshire | Calne, South West, SN11 8YH | £29,064.00 - £31,022.00 Annually (FTE) NJC Grade G, £3,378-£3,605 (DOE) Actual | Clerk to Governors
-employer: Kingsbury Green Academy
-closing_date: 2026-09-27T23:59:00+01:00
-reason: Borderline school administration title: clerk to governors
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 383f4f9824ba767e2f44589d5338c81a9005b1bf029a7fd07fe2fa3ea50fa006
-source: Teaching Vacancies
-source_job_id: clerk-to-governors-kingsbury-green-academy-calne-wiltshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/clerk-to-governors-kingsbury-green-academy-calne-wiltshire
----
 
 ---
 action: 

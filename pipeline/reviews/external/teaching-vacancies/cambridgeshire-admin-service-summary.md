@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cambridgeshire
 
-review_date: 2026-09-18
-review_fingerprint: 1ee3ef58a4cdb63977e994a849cc6f8a24e0f0c5111ba4d3b23f79208474a620
-routing_manifest_sha256: dc29cc704a3c739ce7a00dda7ed5ec0108cad5c6895f72592d1d068628991701
+review_date: 2026-09-19
+review_fingerprint: 849a953a1677f08c1d8eebc79535428552d6435c43e26707bac2274965851ad2
+routing_manifest_sha256: a1569b986aee977c02dc411874fc9a0c706f290667084cd5a8b0401efe05a811
 ontap_region: Cambridgeshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 18
+- Records: 20
 - Selected: 4
 - POSS awaiting decision: 5
 - Excluded: 0
-- Hard pass: 9
+- Hard pass: 11
 
 ## SELECTED
-
----
-action: 
-SELECTED | Cambridgeshire | Ely, East of England, CB6 2FG | £26,224.00 - £26,847.00 Annually (FTE) ALT Grade D £9,103.79 - £9,320.07 Annually Actual | Admin Assistant
-employer: Isle of Ely Primary School
-closing_date: 2026-09-25T12:00:00+01:00
-reason: Clear admin/service title: admin assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 5e8f5d76c7fdb4fc19517813162084021c00559322aed302792f214a70cd9a13
-source: Teaching Vacancies
-source_job_id: admin-assistant-isle-of-ely-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-isle-of-ely-primary-school
----
 
 ---
 action: 
@@ -79,6 +64,21 @@ factual_fingerprint: bb12afb2ad0a0d201446df474b26ad57f0c365e5f1f55a6cd1674dde7b2
 source: Teaching Vacancies
 source_job_id: finance-admin-assistant-priory-junior-school-st-neots-cambridgeshire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-admin-assistant-priory-junior-school-st-neots-cambridgeshire
+---
+
+---
+action: 
+SELECTED | Cambridgeshire | Cambridge, East of England, CB24 3DS | Point 4-5, £26,016 - £26,427 FTE | Senior Office Administrator
+employer: Pathfinder CofE Primary School
+closing_date: 2026-09-28T12:00:00+01:00
+reason: Clear admin/service title: administrator, office administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: fc2409b3461ec8750c9112cbd4ce01874db69953cec628c6eb776cc8810162a1
+source: Teaching Vacancies
+source_job_id: senior-office-administrator-pathfinder-cofe-primary-school-cambridge-cambridgeshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-office-administrator-pathfinder-cofe-primary-school-cambridge-cambridgeshire
 ---
 
 ## POSS — choose SELECT or EXCLUDE
@@ -173,6 +173,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-officer-trump
 - [School Business Leader](https://teaching-vacancies.service.gov.uk/jobs/school-business-leader-university-of-cambridge-primary-school) — Insufficient admin/service evidence.
 - [Trust Accountant](https://teaching-vacancies.service.gov.uk/jobs/trust-accountant-b45f29c6-8c14-4783-aad4-2de78180395b) — Insufficient admin/service evidence.
 - [Trust Accountant](https://teaching-vacancies.service.gov.uk/jobs/trust-accountant-swavesey-village-college-cambridge-cambridgeshire) — Insufficient admin/service evidence.
+- [Trust Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/trust-finance-officer-act-multi-academy-trust) — Insufficient admin/service evidence.
+- [Trust Payroll, Pensions and HR Officer](https://teaching-vacancies.service.gov.uk/jobs/trust-payroll-pensions-and-hr-officer) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

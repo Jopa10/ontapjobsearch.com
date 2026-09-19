@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Staffordshire
 
-review_date: 2026-09-18
-review_fingerprint: 0efe7e904ea5e5c980fbb8618e126239f02d4a9b2faf0b057c1dbddc833ddd40
-routing_manifest_sha256: dc29cc704a3c739ce7a00dda7ed5ec0108cad5c6895f72592d1d068628991701
+review_date: 2026-09-19
+review_fingerprint: b9538a417982f3288ed1cb69e3ca3df2ec1ebf6e0cf9979c165b783cfc49bf85
+routing_manifest_sha256: a1569b986aee977c02dc411874fc9a0c706f290667084cd5a8b0401efe05a811
 ontap_region: Staffordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 9
-- Selected: 1
+- Records: 10
+- Selected: 2
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 8
@@ -34,6 +34,21 @@ factual_fingerprint: aee1a4e7e36c57abbcd61230af07bd728e87289df55d9bb9c48102e83ed
 source: Teaching Vacancies
 source_job_id: finance-administrator-st-margaret-ward-catholic-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-administrator-st-margaret-ward-catholic-academy
+---
+
+---
+action: 
+SELECTED | Staffordshire | Tamworth, West Midlands, B77 2NE | £22277 - £22629 per annum | Receptionist and Admin Assistant
+employer: Lift Tamworth
+closing_date: 2026-10-02T13:30:18+01:00
+reason: Clear admin/service title: admin assistant, receptionist
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 45e109626dde2ff91e536c1b092b893b1a8cdd6aff14265dd88d0059a5f10007
+source: Teaching Vacancies
+source_job_id: receptionist-and-admin-assistant-lift-tamworth
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-and-admin-assistant-lift-tamworth
 ---
 
 ## POSS — choose SELECT or EXCLUDE

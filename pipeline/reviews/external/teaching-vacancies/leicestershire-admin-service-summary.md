@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Leicestershire
 
-review_date: 2026-09-18
-review_fingerprint: 1db4819f031da0b1ae09e0a9066cd8160bea7b0bb9ce562d733904b7d4255d26
-routing_manifest_sha256: dc29cc704a3c739ce7a00dda7ed5ec0108cad5c6895f72592d1d068628991701
+review_date: 2026-09-19
+review_fingerprint: 91dc2a51598867acb40f41f38a1a83d30afc827fe7acf20e919ffa676d7f0a35
+routing_manifest_sha256: a1569b986aee977c02dc411874fc9a0c706f290667084cd5a8b0401efe05a811
 ontap_region: Leicestershire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 6
-- Selected: 3
+- Records: 7
+- Selected: 4
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 2
@@ -49,6 +49,21 @@ factual_fingerprint: 878f9c86c9ba6030d97c5c10ae4f183ea71cc8e745ae461eb1d1aa1aae9
 source: Teaching Vacancies
 source_job_id: receptionist-maternity-cover-manorfield-church-of-england-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-maternity-cover-manorfield-church-of-england-primary-school
+---
+
+---
+action: 
+SELECTED | Leicestershire | Leicester, East Midlands, LE2 6UA | £23,413.00 - £23,784.00 Annually (Actual) Grade 3 Point 5-6 | Safeguarding and Attendance Administrator
+employer: Tudor Grange Samworth Academy, A church of England School
+closing_date: 2026-09-23T12:00:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: bda64c8f664d5cb38b57b58c0474018e54e226714d8961c7166dc957cbd3e5d8
+source: Teaching Vacancies
+source_job_id: safeguarding-and-attendance-administrator-tudor-grange-samworth-academy-a-church-of-england-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/safeguarding-and-attendance-administrator-tudor-grange-samworth-academy-a-church-of-england-school
 ---
 
 ---

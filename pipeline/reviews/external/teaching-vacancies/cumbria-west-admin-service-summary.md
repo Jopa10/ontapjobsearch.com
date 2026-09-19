@@ -1,9 +1,9 @@
-# Teaching Vacancies regional review — Merseyside - Sefton
+# Teaching Vacancies regional review — Cumbria - West
 
 review_date: 2026-09-19
-review_fingerprint: 2e1e57c73108e052e5c70f3512479162da246c5920939e6a98dda58375b69a83
+review_fingerprint: 8d04db27eba812eee050116d4b2585b86486b6db82e9a920a71f7d5c5602e1d6
 routing_manifest_sha256: a1569b986aee977c02dc411874fc9a0c706f290667084cd5a8b0401efe05a811
-ontap_region: Merseyside - Sefton
+ontap_region: Cumbria - West
 slice_category: admin_service
 slice_status: UNREGISTERED
 
@@ -23,17 +23,17 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ---
 action: 
-SELECTED | Merseyside - Sefton | Southport, North West, PR8 6JS | £25,989 | First Aid Administrator
-employer: Meols Cop High School
-closing_date: 2026-09-28T09:00:00+01:00
-reason: Clear admin/service title: administrator
+SELECTED | Cumbria - West | Workington, North West, CA14 4EB | £21,427.00 Annually (Actual) Grade 4 | Receptionist/Administrative Assistant
+employer: Workington Academy
+closing_date: 2026-09-27T23:59:00+01:00
+reason: Clear admin/service title: administrative assistant, receptionist
 jobg8_check: NO_MATCH
 slice_status: UNREGISTERED
 migration_status: 
-factual_fingerprint: 479a7d211a66740f534b4357678cdd61e911b477b28b52f049cc2885ebaab8bb
+factual_fingerprint: 21026c114c705695a93b2d072e684c65824edfe95c9eb247f5678a498316b18e
 source: Teaching Vacancies
-source_job_id: first-aid-administrator-meols-cop-high-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/first-aid-administrator-meols-cop-high-school
+source_job_id: receptionist-administrative-assistant-workington-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrative-assistant-workington-academy
 ---
 
 ## POSS — choose SELECT or EXCLUDE

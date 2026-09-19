@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - North
 
-review_date: 2026-09-18
+review_date: 2026-09-19
 review_fingerprint: b5170c548686cc612ccc4d950f06981652cd53daaf329dd7f5cfdfabc51aa8a3
-routing_manifest_sha256: dc29cc704a3c739ce7a00dda7ed5ec0108cad5c6895f72592d1d068628991701
+routing_manifest_sha256: a1569b986aee977c02dc411874fc9a0c706f290667084cd5a8b0401efe05a811
 ontap_region: Yorkshire - North
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 5
+- Records: 4
 - Selected: 2
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 3
+- Hard pass: 2
 
 ## SELECTED
 
@@ -63,7 +63,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-ge
 
 - [Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-joseph-rowntree-school-york-north-yorkshire) — Insufficient admin/service evidence.
 - [Hub Business Leader (Harrogate Hub)](https://teaching-vacancies.service.gov.uk/jobs/hub-business-leader-harrogate-hub) — Insufficient admin/service evidence.
-- [Human Resources Officer](https://teaching-vacancies.service.gov.uk/jobs/human-resources-officer-heartwood-learning-trust-york-not-recorded) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

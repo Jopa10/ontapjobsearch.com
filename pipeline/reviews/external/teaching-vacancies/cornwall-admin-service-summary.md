@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cornwall
 
-review_date: 2026-09-18
-review_fingerprint: aee102376b0793ff9233662bcc8a9576c628ac81298c0af442c0417090288d1e
-routing_manifest_sha256: dc29cc704a3c739ce7a00dda7ed5ec0108cad5c6895f72592d1d068628991701
+review_date: 2026-09-19
+review_fingerprint: b1220edd4426413e1816f0ef09aa29414a667e7e4c375d086ec46c70d03affc7
+routing_manifest_sha256: a1569b986aee977c02dc411874fc9a0c706f290667084cd5a8b0401efe05a811
 ontap_region: Cornwall
 slice_category: admin_service
 slice_status: LIVE
@@ -40,12 +40,12 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-falmout
 action: 
 SELECTED | Cornwall | Liskeard, South West, PL14 5JH | £25,721.00 Annually (FTE) Actual salary: £11,651.76 | School Administrator
 employer: Darite Primary Academy
-closing_date: 2026-09-18T23:59:00+01:00
+closing_date: 2026-09-22T23:59:00+01:00
 reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: fa9d6f8f087e7b12b5307825c73cf6dca876dc3f365016690f25586a8faf4791
+factual_fingerprint: 5c29f781597b35eebf3541540f0712fe2c6eba8fde5a0dd4bdb444b5d335f3ea
 source: Teaching Vacancies
 source_job_id: school-administrator-darite-primary-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-darite-primary-academy

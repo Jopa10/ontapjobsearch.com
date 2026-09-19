@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Somerset
 
-review_date: 2026-09-18
-review_fingerprint: 90d45b72932dc121d677600826c78fe50cc4282ea69f632fbcd9fc794eb153c1
-routing_manifest_sha256: dc29cc704a3c739ce7a00dda7ed5ec0108cad5c6895f72592d1d068628991701
+review_date: 2026-09-19
+review_fingerprint: 6f6cefe88d2ba81f2dbdd69f0017ee2538b27780fb388e8eae61b0961894bbc1
+routing_manifest_sha256: a1569b986aee977c02dc411874fc9a0c706f290667084cd5a8b0401efe05a811
 ontap_region: Somerset
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 15
-- Selected: 8
+- Records: 16
+- Selected: 9
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 6
@@ -139,6 +139,21 @@ factual_fingerprint: 02a2b955ad91253fedee429d4c8185a268635fa6a072cac023e37b6c126
 source: Teaching Vacancies
 source_job_id: primary-phase-administrator
 source_url: https://teaching-vacancies.service.gov.uk/jobs/primary-phase-administrator
+---
+
+---
+action: 
+SELECTED | Somerset | Minehead, South West, TA24 6AY | Support Staff Pay Scale Band3b Point 4 | Receptionist and Admin Assistant
+employer: West Somerset College
+closing_date: 2026-10-04T23:59:00+01:00
+reason: Clear admin/service title: admin assistant, receptionist
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 1cf96d6c6e8f846c1d3a40bf573994ac2379e2ce713ca5a371ea67bc95dfa632
+source: Teaching Vacancies
+source_job_id: receptionist-and-admin-assistant-west-somerset-college-minehead-somerset
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-and-admin-assistant-west-somerset-college-minehead-somerset
 ---
 
 ## POSS — choose SELECT or EXCLUDE

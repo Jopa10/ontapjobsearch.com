@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - South
 
-review_date: 2026-09-18
-review_fingerprint: 82cdf93a855bf779df8b07460d11b819187bb4136052b5a619195300527061d4
-routing_manifest_sha256: dc29cc704a3c739ce7a00dda7ed5ec0108cad5c6895f72592d1d068628991701
+review_date: 2026-09-19
+review_fingerprint: c7b554474cc7ebf1d73672ee1f806938847a5756951429f12fc3a3f8f4a58eeb
+routing_manifest_sha256: a1569b986aee977c02dc411874fc9a0c706f290667084cd5a8b0401efe05a811
 ontap_region: Yorkshire - South
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 24
+- Records: 27
 - Selected: 6
-- POSS awaiting decision: 1
+- POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 17
+- Hard pass: 19
 
 ## SELECTED
 
@@ -128,13 +128,30 @@ source_job_id: administration-and-clerical-officer-business-support
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-and-clerical-officer-business-support
 ---
 
+---
+action: 
+POSS | Yorkshire - South | Doncaster, Yorkshire and the Humber, DN5 9DD | £26,016.00 - £26,847.00 Annually (FTE) Grade C Points 04 to 06 (£26,016 to £26,847 Full Time Equivalent) subject to pro rata. The minimum actual pro rata salary for this job starts at £14,797.10 | Administration Officer (7376)
+employer: Don Valley Academy
+closing_date: 2026-10-01T23:59:00+01:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: b98d737bb5743302b9649b93cf64524849d9ffce67f185b5b7093f3953a9f3c4
+source: Teaching Vacancies
+source_job_id: administration-officer-7376
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-officer-7376
+---
+
 ## EXCLUDED BY REVIEW
 
 - None.
 
 ## HARD_PASS
 
+- [Admin & Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/admin-finance-assistant-newman-school) — Insufficient admin/service evidence.
 - [Admin Officer](https://teaching-vacancies.service.gov.uk/jobs/admin-officer-meynell-nursery-primary-school) — Insufficient admin/service evidence.
+- [Admin Officer](https://teaching-vacancies.service.gov.uk/jobs/admin-officer-newman-school) — Insufficient admin/service evidence.
 - [Attendance and Admin Officer](https://teaching-vacancies.service.gov.uk/jobs/attendance-and-admin-officer-whiteways-primary-school) — Insufficient admin/service evidence.
 - [Chief Financial Officer](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-st-clare-catholic-multi-academy-trust) — Insufficient admin/service evidence.
 - [Cluster Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/cluster-finance-officer-inova-multi-academy-trust-limited) — Insufficient admin/service evidence.

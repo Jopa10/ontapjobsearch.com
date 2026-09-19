@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cheshire - West
 
-review_date: 2026-09-18
-review_fingerprint: 4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945
-routing_manifest_sha256: dc29cc704a3c739ce7a00dda7ed5ec0108cad5c6895f72592d1d068628991701
+review_date: 2026-09-19
+review_fingerprint: e196c60add401de62c446917ba1cf052038c1fa6c8f9699217e26e25fa23add4
+routing_manifest_sha256: a1569b986aee977c02dc411874fc9a0c706f290667084cd5a8b0401efe05a811
 ontap_region: Cheshire - West
 slice_category: admin_service
 slice_status: LIVE
@@ -13,15 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 1
-- Selected: 0
+- Records: 2
+- Selected: 1
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 1
 
 ## SELECTED
 
-- None.
+---
+action: 
+SELECTED | Cheshire - West | Chester, North West, CH2 1NN | £19,750.00 - £20,229.00 Annually (Actual) | Finance Administrator
+employer: Upton-by-Chester High School
+closing_date: 2026-10-02T12:00:00+01:00
+reason: Clear admin/service title: administrator, finance administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 6991b418e35ff6d6cf2edd97836362210a2c2fb440718f43ab41850991078b53
+source: Teaching Vacancies
+source_job_id: finance-administrator-upton-by-chester-high-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-administrator-upton-by-chester-high-school
+---
 
 ## POSS — choose SELECT or EXCLUDE
 

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Worcestershire
 
-review_date: 2026-09-18
-review_fingerprint: 033c4fb5597eec5a5b0b6f468821181ebe29c4447eafda91b933824f9be9cb1b
-routing_manifest_sha256: dc29cc704a3c739ce7a00dda7ed5ec0108cad5c6895f72592d1d068628991701
+review_date: 2026-09-19
+review_fingerprint: 3cdff9133768085e2012a2a0cd6025f5eec8e68a2f6b0e134b687aad35b0d517
+routing_manifest_sha256: a1569b986aee977c02dc411874fc9a0c706f290667084cd5a8b0401efe05a811
 ontap_region: Worcestershire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 5
-- Selected: 2
+- Records: 6
+- Selected: 3
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 2
@@ -34,6 +34,21 @@ factual_fingerprint: 11ec5cd0d955d860ab430198ab99f3f7b0f1a41641431a52c8a9b04abae
 source: Teaching Vacancies
 source_job_id: administrative-assistant-and-attendance
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-and-attendance
+---
+
+---
+action: 
+SELECTED | Worcestershire | Tenbury Wells, West Midlands, WR15 8XA | £8,782.00 - £8,921.00 Annually (Actual) | Administrator (SEND Department)
+employer: Tenbury High Ormiston Academy
+closing_date: 2026-10-02T12:00:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 9f0da2036dfe24a7797f4e69f2944fd30c97db2e93cdd1ac6926f86ecab55f1c
+source: Teaching Vacancies
+source_job_id: administrator-send-department-tenbury-high-ormiston-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-send-department-tenbury-high-ormiston-academy
 ---
 
 ---

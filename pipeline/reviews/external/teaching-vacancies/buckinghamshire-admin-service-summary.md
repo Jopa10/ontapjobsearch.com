@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Buckinghamshire
 
-review_date: 2026-09-18
+review_date: 2026-09-19
 review_fingerprint: 7a8b5aaaa52243996216aaab81d64331ec7624bc705c23d2111ebb6a97915876
-routing_manifest_sha256: dc29cc704a3c739ce7a00dda7ed5ec0108cad5c6895f72592d1d068628991701
+routing_manifest_sha256: a1569b986aee977c02dc411874fc9a0c706f290667084cd5a8b0401efe05a811
 ontap_region: Buckinghamshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 16
+- Records: 15
 - Selected: 6
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 10
+- Hard pass: 9
 
 ## SELECTED
 
@@ -125,7 +125,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 - [Chief Financial Officer (CFO)](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-cfo-45a5bd2d-645c-4812-81b2-869f779b8215) — Insufficient admin/service evidence.
 - [Data and Timetabling Manager](https://teaching-vacancies.service.gov.uk/jobs/data-and-timetabling-manager) — Manager title salary ceiling £35,669 is not below £28,000.
 - [Employee Relations Officer](https://teaching-vacancies.service.gov.uk/jobs/employee-relations-officer) — Insufficient admin/service evidence.
-- [Exams Coordinator](https://teaching-vacancies.service.gov.uk/jobs/exams-coordinator-chiltern-way-academy-trust) — Insufficient admin/service evidence.
 - [HR & Training Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-training-officer) — Insufficient admin/service evidence.
 - [HR Officer Maternity Cover](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-maternity-cover-aylesbury-high-school) — Insufficient admin/service evidence.
 - [Lettings & Community Officer](https://teaching-vacancies.service.gov.uk/jobs/lettings-community-officer-5-dimensions-trust-milton-keynes-not-recorded) — Insufficient admin/service evidence.

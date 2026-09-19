@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — London
 
-review_date: 2026-09-18
-review_fingerprint: 01cb30544f90c1d13bca2903fdebc53a2cc7a566b1e2174ebf3e8134ef69f293
-routing_manifest_sha256: dc29cc704a3c739ce7a00dda7ed5ec0108cad5c6895f72592d1d068628991701
+review_date: 2026-09-19
+review_fingerprint: 3f44073b4cbbc0779cd7b5f4110c98c5497d1200471e0dad2f7839e2c7bce3b3
+routing_manifest_sha256: a1569b986aee977c02dc411874fc9a0c706f290667084cd5a8b0401efe05a811
 ontap_region: London
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 68
-- Selected: 25
-- POSS awaiting decision: 3
+- Records: 66
+- Selected: 24
+- POSS awaiting decision: 5
 - Excluded: 0
-- Hard pass: 40
+- Hard pass: 37
 
 ## SELECTED
 
@@ -233,6 +233,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/ks4-administrator-and
 
 ---
 action: 
+SELECTED | London | London, London, W1U 5BA | NJC scp 16-20 (including inner London weighting) £36,422 - £38,635 pa FTE. Salary will be pro-rata for part-time and term-time-only working. | Maths Hub- Executive Administrator
+employer: The St Marylebone CofE School
+closing_date: 2026-09-28T17:00:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: c1b6071951cf54137faa4deb41ae4f1cd10ee43f652e8f6b05fbddd79d0fcc76
+source: Teaching Vacancies
+source_job_id: maths-hub-executive-administrator-the-st-marylebone-cofe-school-london
+source_url: https://teaching-vacancies.service.gov.uk/jobs/maths-hub-executive-administrator-the-st-marylebone-cofe-school-london
+---
+
+---
+action: 
 SELECTED | London | Dagenham, London, RM9 5QT | £16,149.00 Annually (Actual) Scale 4 point 7-10 | Partnership London SCITT Administrator
 employer: The Sydney Russell School
 closing_date: 2026-09-23T08:00:00+01:00
@@ -293,21 +308,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administ
 
 ---
 action: 
-SELECTED | London | London, London, N4 1SY | Scale 4 (7-10) £31,980.00 - £33,384.00 pro-rata term time only | School Receptionist
-employer: Woodberry Down Community Primary School
-closing_date: 2026-09-18T15:00:00+01:00
-reason: Clear admin/service title: receptionist
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: eaca8456dd6491b683080d7d22f1e88bbcd4744f107bb71666f7ca0df227488f
-source: Teaching Vacancies
-source_job_id: school-receptionist-woodberry-down-community-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/school-receptionist-woodberry-down-community-primary-school
----
-
----
-action: 
 SELECTED | London | London, E4 7LT | £9,011.00 - £9,541.00 Annually (Actual) | SEN Administrative Assistant - Chingford Academies Trust
 employer: Chingford Academies Trust
 closing_date: 2026-09-21T09:00:00+01:00
@@ -319,21 +319,6 @@ factual_fingerprint: 8e75fbd1031c83bdab8a953ec8b4c5ad2bed7de122b4a7312ce9e43b6d0
 source: Teaching Vacancies
 source_job_id: sen-administrative-assistant-chingford-academies-trust
 source_url: https://teaching-vacancies.service.gov.uk/jobs/sen-administrative-assistant-chingford-academies-trust
----
-
----
-action: 
-SELECTED | London | London, London, E11 2JZ | £36,593.00 - £37,690.00 Annually (Actual) | SEND Administrator
-employer: Wanstead High School
-closing_date: 2026-09-18T23:59:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 7a72794bb842715dfa3dad9cbe549178d93a2e7045d6780433455586b55d066a
-source: Teaching Vacancies
-source_job_id: send-administrator-wanstead-high-school-london
-source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-wanstead-high-school-london
 ---
 
 ---
@@ -400,6 +385,36 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/welfare-officer-and-s
 
 ---
 action: 
+POSS | London | London, NW4 1NA | £22,315.37 Annually (Actual) NJC 12-17 - Actual starting salary £22,315.37 | Administration Support Assistant
+employer: Hasmonean Multi Academy Trust
+closing_date: 2026-10-18T23:59:00+01:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: f4bf2d4e4d53d905a2f25a736ae28efeff9320bd9c6c0a1a1abfd7bbf2431233
+source: Teaching Vacancies
+source_job_id: administration-support-assistant-hasmonean-multi-academy-trust-london-not-recorded
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-support-assistant-hasmonean-multi-academy-trust-london-not-recorded
+---
+
+---
+action: 
+POSS | London | London, London, SE11 5QY | £27,629.00 - £28,842.00 Annually (Actual) | BSU Finance Officer
+employer: Lilian Baylis Technology School
+closing_date: 2026-09-30T10:00:00+01:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 96145a2cae024da07d1d31e5840f5d98a2a821e8e173edc42165ccfbfab6d0f6
+source: Teaching Vacancies
+source_job_id: bsu-finance-officer
+source_url: https://teaching-vacancies.service.gov.uk/jobs/bsu-finance-officer
+---
+
+---
+action: 
 POSS | London | Kingston upon Thames, London, KT2 6SE | £10,038.00 - £10,625.00 Annually (Actual) | Communications Officer
 employer: Alexandra Primary School
 closing_date: 2026-09-28T09:00:00+01:00
@@ -450,7 +465,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/governance-clerk-skin
 ## HARD_PASS
 
 - [Breakfast Club Leader](https://teaching-vacancies.service.gov.uk/jobs/breakfast-club-leader-st-paul-s-cofe-primary-school) — Insufficient admin/service evidence.
-- [Business Operations & Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/business-operations-finance-manager) — Manager title salary ceiling £59,394 is not below £28,000.
 - [Business Support and Finance Co-Ordinator](https://teaching-vacancies.service.gov.uk/jobs/business-support-and-finance-co-ordinator) — Insufficient admin/service evidence.
 - [Chief Financial Officer ( CFO )](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-cfo-the-cardinal-wiseman-catholic-school) — Insufficient admin/service evidence.
 - [Data & Exams Manager](https://teaching-vacancies.service.gov.uk/jobs/data-exams-manager-ark-bolingbroke-academy) — Manager title salary ceiling £44,231 is not below £28,000.
@@ -458,18 +472,16 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/governance-clerk-skin
 - [Deputy HR Manager](https://teaching-vacancies.service.gov.uk/jobs/deputy-hr-manager-impact-multi-academy-trust) — Manager title salary ceiling £45,750 is not below £28,000.
 - [Director of HR](https://teaching-vacancies.service.gov.uk/jobs/director-of-hr-orion-education-chislehurst-not-recorded) — Insufficient admin/service evidence.
 - [Extra Club Manager](https://teaching-vacancies.service.gov.uk/jobs/extra-club-manager) — Manager title without salary evidence below £28,000.
-- [Family Welfare Officer](https://teaching-vacancies.service.gov.uk/jobs/family-welfare-officer-orion-eden-park-beckenham-kent) — Insufficient admin/service evidence.
 - [Finance Assistant AP](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-ap) — Insufficient admin/service evidence.
 - [Fundraising Officer](https://teaching-vacancies.service.gov.uk/jobs/fundraising-officer-ac67c185-438c-4d63-82c9-4fcd5524afc9) — Insufficient admin/service evidence.
-- [Head of Governance & Compliance](https://teaching-vacancies.service.gov.uk/jobs/head-of-governance-compliance-the-charter-schools-educational-trust) — Insufficient admin/service evidence.
 - [HR Assistant](https://teaching-vacancies.service.gov.uk/jobs/hr-assistant-wanstead-high-school) — Insufficient admin/service evidence.
 - [HR Business Partner](https://teaching-vacancies.service.gov.uk/jobs/hr-business-partner-e8e93e8c-5c0c-4ba3-aa93-a10cbe7095cd) — Insufficient admin/service evidence.
+- [HR Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-ark-oval-primary-academy-croydon-surrey) — Insufficient admin/service evidence.
 - [HR Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-woodside-primary-school-croydon-surrey) — Insufficient admin/service evidence.
 - [Human Resources Business Partner/People Manager FTC](https://teaching-vacancies.service.gov.uk/jobs/human-resources-business-partner-people-manager-ftc) — Manager title salary ceiling £56,000 is not below £28,000.
+- [Human Resources Officer](https://teaching-vacancies.service.gov.uk/jobs/human-resources-officer-lilian-baylis-technology-school) — Insufficient admin/service evidence.
 - [Human Resources Officer](https://teaching-vacancies.service.gov.uk/jobs/human-resources-officer-saint-john-southworth-catholic-academy-trust) — Insufficient admin/service evidence.
 - [Learning Resource Centre Manager](https://teaching-vacancies.service.gov.uk/jobs/learning-resource-centre-manager-harris-city-academy-crystal-palace-london) — Manager title salary ceiling £34,488 is not below £28,000.
-- [Management Accountant/Business Partner](https://teaching-vacancies.service.gov.uk/jobs/management-accountant-business-partner-198dd29f-f552-4960-8678-e6be462b2563) — Insufficient admin/service evidence.
-- [OFFICE MANAGER](https://teaching-vacancies.service.gov.uk/jobs/office-manager-c51d6e8a-f80b-4d3c-a580-8c73630ffb4a) — Manager title salary ceiling £40,182 is not below £28,000.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-chadwell-heath-academy) — Manager title without salary evidence below £28,000.
 - [Office Manager - Chingford Foundation School](https://teaching-vacancies.service.gov.uk/jobs/office-manager-chingford-foundation-school) — Manager title salary ceiling £41,358 is not below £28,000.
 - [Office Manager / PA to Head of School](https://teaching-vacancies.service.gov.uk/jobs/office-manager-pa-to-head-of-school-moorcroft-school) — Manager title salary ceiling £36,390 is not below £28,000.
@@ -479,10 +491,10 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/governance-clerk-skin
 - [Receptionist/Medical Administrator](https://teaching-vacancies.service.gov.uk/jobs/receptionist-medical-administrator) — Missing salary or pay scale.
 - [Recruitment and Engagement Manager](https://teaching-vacancies.service.gov.uk/jobs/recruitment-and-engagement-manager) — Manager title salary ceiling £42,060 is not below £28,000.
 - [Reprographics Assistant](https://teaching-vacancies.service.gov.uk/jobs/reprographics-assistant-eden-girls-school-waltham-forest-london) — Insufficient admin/service evidence.
-- [Reprographics Officer](https://teaching-vacancies.service.gov.uk/jobs/reprographics-officer-wallington-county-grammar-school) — Insufficient admin/service evidence.
 - [School Business & Operations Lead](https://teaching-vacancies.service.gov.uk/jobs/school-business-operations-lead-the-st-marylebone-church-of-england-bridge-school) — Insufficient admin/service evidence.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-9fea1743-b8ad-4e62-a781-6b930d7a551f) — Manager title salary ceiling £67,575 is not below £28,000.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-f3929ea5-8ab0-4347-ba05-b741572a9d77) — Manager title salary ceiling £54,843 is not below £28,000.
+- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-handsworth-primary-school) — Manager title without salary evidence below £28,000.
 - [School Social Worker](https://teaching-vacancies.service.gov.uk/jobs/school-social-worker-whitefriars-school) — Out-of-scope occupation: social worker.
 - [SENDCo Assistant](https://teaching-vacancies.service.gov.uk/jobs/sendco-assistant-red-hill-primary-school-chislehurst-kent) — Insufficient admin/service evidence.
 - [Strategic Lead for Human Resources](https://teaching-vacancies.service.gov.uk/jobs/strategic-lead-for-human-resources) — Insufficient admin/service evidence.
