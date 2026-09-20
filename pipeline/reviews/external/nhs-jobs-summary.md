@@ -2,15 +2,51 @@
 
 review_date: 2026-09-20
 
-- Open Administrative & Clerical rows reviewed: 2162
-- Auto/remembered selected: 389
+- Open Administrative & Clerical rows reviewed: 2159
+- Auto/remembered selected: 388
 - Selected HC Tier A: 206
-- Selected HC Tier B: 183
-- POSS awaiting decision: 1634
+- Selected HC Tier B: 182
+- POSS awaiting decision: 1631
 - Excluded: 0
-- HARD_PASS: 139
+- HARD_PASS: 140
 
 Edit only each `action:` line for POSS rows. Unchanged decisions are restored by the shared decision ledger.
+
+---
+action:
+POSS | NHS Jobs | Yorkshire - West | Leeds, LS1 3EX | £25272.00 | Clerical Officer - Paediatric Cystic Fibrosis
+source_job_id: 5610682
+title: Clerical Officer - Paediatric Cystic Fibrosis
+employer: Leeds Teaching Hospitals
+region: Yorkshire - West
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9298-26-0984
+factual_fingerprint: 74adbd29bebb27685df68a0a496bd754de796f86262930fe48d79ac30a8852cf
+---
+
+---
+action:
+POSS | NHS Jobs | Yorkshire - West | Leeds, LS9 7TF | £39959.00 to £48117.00 | Study Support Service Facilitator
+source_job_id: 5610681
+title: Study Support Service Facilitator
+employer: Leeds Teaching Hospitals
+region: Yorkshire - West
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9298-26-0983
+factual_fingerprint: 736facf39415d15df75f0d149eb6589832b494cea31d518f6162a6e3a85fdb7d
+---
+
+---
+action:
+POSS | NHS Jobs | London | Harrow, HA5 4EA | £57528.00 to £64750.00 | Primary Care Digital and Transformation Lead
+source_job_id: 5610671
+title: Primary Care Digital and Transformation Lead
+employer: Sphere Primary Care Network (PCN)
+region: London
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A5392-26-0000
+factual_fingerprint: ac21e7dff6a04317149365278d748c73de43003c94140c53353e93202de1f66e
+---
 
 ---
 action:
@@ -274,18 +310,6 @@ region: Essex
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/D9708-MSE567
 factual_fingerprint: f74249cf4689a40a30517f951e06d256a6c02a1a2ef80b6764c64962ab23144a
----
-
----
-action:
-POSS | NHS Jobs | — | Catford, SE6 4JF | £28392.00 to £31157.00 | Child Death Review Administrator
-source_job_id: 5610264
-title: Child Death Review Administrator
-employer: Lewisham and Greenwich NHS Trust
-region: 
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9197-26-0846
-factual_fingerprint: c99adb45e1660390f210fe6d87e289ea84c08c12199e337ef413e16829f00b35
 ---
 
 ---
@@ -754,18 +778,6 @@ region: Greater Manchester - Manchester & Salford
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/I9236-26-0057
 factual_fingerprint: 796cbf37dc8fa6f80eec09357d96e054fa532184f41290f04ee6c40806086eba
----
-
----
-action:
-POSS | NHS Jobs | — | Kings Lynn, PE30 4ET | £25760.00 to £27476.00 | E-Rostering Assistant
-source_job_id: 5609821
-title: E-Rostering Assistant
-employer: The Queen Elizabeth Hospital King's Lynn NHSFT
-region: 
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9426-26-0336
-factual_fingerprint: 3d632a86d84db9c0ed2ec65b4e8d5734d4eb41600a5b8c1a018a2eac06ee4c03
 ---
 
 ---
@@ -1958,18 +1970,6 @@ factual_fingerprint: e4423f5fce02af0c86f10c553ecefbed0c4b8ca0c9c17954408aa92d288
 
 ---
 action:
-POSS | NHS Jobs | Berkshire | Reading, RG1 5AN | £28392.00 to £31157.00 | Administration Team Coordinator (Sexual Health)
-source_job_id: 5608093
-title: Administration Team Coordinator (Sexual Health)
-employer: Royal Berkshire NHS Foundation Trust
-region: Berkshire
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9193-26-0621
-factual_fingerprint: b8209458b867bdfddcfa4b5ae02814811217b865a2d6460527720dbff0572fad
----
-
----
-action:
 POSS | NHS Jobs | — | 317 Trustwide, NE1 4LP | £28392.00 to £31157.00 | Medical Staff Liaison Officer
 source_job_id: 5607945
 title: Medical Staff Liaison Officer
@@ -2734,18 +2734,6 @@ region: Merseyside - Liverpool
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9287-26-1522
 factual_fingerprint: e79e49d2195dd72ea0beacc5234e86e7aa499682b9f257ab4ebfbdbc30efd58e
----
-
----
-action:
-POSS | NHS Jobs | Merseyside - Liverpool | Liverpool, L9 7AL | £25272.00 | Admin Support Officer
-source_job_id: 5606238
-title: Admin Support Officer
-employer: Liverpool University Hospitals NHS Foundation Trust
-region: Merseyside - Liverpool
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9287-26-1516
-factual_fingerprint: e3a15aa943174bf008b49efe19daccafa12a20150a1710e17df073a9f33aec14
 ---
 
 ---
@@ -6274,18 +6262,6 @@ region: London
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A3131-26-0003
 factual_fingerprint: a106633661f56c03437caa7cc68eda534a677983f368b87be156c5ce897340bb
----
-
----
-action:
-POSS | NHS Jobs | London | Thornton Heath, CR7 7YE | £36943.00 to £44900.00 | Medical HR Advisor
-source_job_id: 5601908
-title: Medical HR Advisor
-employer: Croydon Health Services NHS Trust
-region: London
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9199-8275253-NA
-factual_fingerprint: c2130ccf0e7c26b8ec071307abc8607a8949d74bf4785e7e2bb50fabc417456f
 ---
 
 ---
@@ -19558,18 +19534,6 @@ region: West Midlands - Coventry & Warwickshire
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/E0151-26-0039
 factual_fingerprint: 41b9300dc82b90c84195de45cab9094b414743c64db77a60ae9b1aba5f9c8a29
----
-
----
-action:
-POSS | NHS Jobs | London | London, E2 7QU | £37000.00 to £45000.00 | Practice Operations Lead
-source_job_id: 5470232
-title: Practice Operations Lead
-employer: Strouts Place Medical Centre
-region: London
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A4143-26-0005
-factual_fingerprint: 67891ce301fabc1db1ced97724e1a65e4d93cc5bd25ccffff19548356a772f37
 ---
 
 ---
