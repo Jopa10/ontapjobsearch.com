@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - South
 
-review_date: 2026-09-19
+review_date: 2026-09-20
 review_fingerprint: c7b554474cc7ebf1d73672ee1f806938847a5756951429f12fc3a3f8f4a58eeb
-routing_manifest_sha256: a1569b986aee977c02dc411874fc9a0c706f290667084cd5a8b0401efe05a811
+routing_manifest_sha256: 065adeebd098ac67bbd93ba5d404c793bd8bd10e570ed2e3401383dce52aeb45
 ontap_region: Yorkshire - South
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 27
+- Records: 26
 - Selected: 6
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 19
+- Hard pass: 18
 
 ## SELECTED
 
@@ -164,7 +164,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-office
 - [Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-57d3025b-f701-43b4-bf16-13498ff4c547) — Insufficient admin/service evidence.
 - [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-hatfield-woodhouse-primary-school-doncaster-south-yorkshire) — Insufficient admin/service evidence.
 - [Learning Manager](https://teaching-vacancies.service.gov.uk/jobs/learning-manager-0bfa4cca-872c-4778-a35f-1fb75b7f4503) — Manager title salary ceiling £36,581 is not below £28,000.
-- [Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/operations-manager-982c74fa-4963-48bf-be10-a1bcf0a4bf2f) — Manager title salary ceiling £39,773 is not below £28,000.
 - [Part-time Administrator](https://teaching-vacancies.service.gov.uk/jobs/part-time-administrator-woodhouse-west-primary-school-sheffield-south-yorkshire) — Missing salary or pay scale.
 - [Senior Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-administration-officer-kings-oak-primary) — Insufficient admin/service evidence.
 - [Sixth Form Engagement Officer](https://teaching-vacancies.service.gov.uk/jobs/sixth-form-engagement-officer) — Insufficient admin/service evidence.

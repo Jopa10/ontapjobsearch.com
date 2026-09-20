@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - West
 
-review_date: 2026-09-19
-review_fingerprint: 76b1f513a6c31ced04ab9b6fb612ba05a1ed48626643da4723b9d1659896fb64
-routing_manifest_sha256: a1569b986aee977c02dc411874fc9a0c706f290667084cd5a8b0401efe05a811
+review_date: 2026-09-20
+review_fingerprint: 7b5d3b1505127ef3f5f87fa6e17b1648ddebef259204b450685cb03ef17374a6
+routing_manifest_sha256: 065adeebd098ac67bbd93ba5d404c793bd8bd10e570ed2e3401383dce52aeb45
 ontap_region: Yorkshire - West
 slice_category: admin_service
 slice_status: LIVE
@@ -128,17 +128,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-37
 
 ---
 action: 
-SELECTED | Yorkshire - West | Leeds, Yorkshire and the Humber, LS17 5HX | B1 Point 5 | Apprentice Admin Assistant - Level 2 PART TIME
+SELECTED | Yorkshire - West | Leeds, Yorkshire and the Humber, LS17 5HX | B1 Point 5 | Apprentice Admin Assistant - Level 2 FULL TIME
 employer: Alwoodley Primary School
 closing_date: 2026-09-25T12:00:00+01:00
 reason: Clear admin/service title: admin assistant
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: NEW_REVIEW
-factual_fingerprint: 54397a9e2953ed6972f1e8f802b850eaaf7b3437aa6118e7af709cac0fb5a5f2
+factual_fingerprint: 42b05cf6ed8b34083fe3dc1ef035d47a8f97497f81f1220ba0ba15bfcf21f941
 source: Teaching Vacancies
-source_job_id: apprentice-admin-assistant-level-2-part-time
-source_url: https://teaching-vacancies.service.gov.uk/jobs/apprentice-admin-assistant-level-2-part-time
+source_job_id: apprentice-admin-assistant-level-2-full-time
+source_url: https://teaching-vacancies.service.gov.uk/jobs/apprentice-admin-assistant-level-2-full-time
 ---
 
 ---

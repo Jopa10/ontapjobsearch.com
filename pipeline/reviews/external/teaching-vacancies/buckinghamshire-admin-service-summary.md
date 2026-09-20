@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Buckinghamshire
 
-review_date: 2026-09-19
-review_fingerprint: 7a8b5aaaa52243996216aaab81d64331ec7624bc705c23d2111ebb6a97915876
-routing_manifest_sha256: a1569b986aee977c02dc411874fc9a0c706f290667084cd5a8b0401efe05a811
+review_date: 2026-09-20
+review_fingerprint: 7298562f23f0be27be383cb4ee66d6abdf391661c9093761ad146473e5343b95
+routing_manifest_sha256: 065adeebd098ac67bbd93ba5d404c793bd8bd10e570ed2e3401383dce52aeb45
 ontap_region: Buckinghamshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 15
-- Selected: 6
+- Records: 14
+- Selected: 5
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 9
@@ -49,21 +49,6 @@ factual_fingerprint: cff4fd7ba248ee3023c4175108e5e81b1028967877958824fe14e5c3525
 source: Teaching Vacancies
 source_job_id: admin-centre-administrator-lord-grey-academy-milton-keynes-buckinghamshire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-centre-administrator-lord-grey-academy-milton-keynes-buckinghamshire
----
-
----
-action: 
-SELECTED | Buckinghamshire | Amersham, South East, HP7 9HH | Bucks Pay Range 2 - £23,666 pro rata / £26,522 FTE | Administration Assistant
-employer: Amersham School
-closing_date: 2026-09-25T23:59:00+01:00
-reason: Clear admin/service title: administration assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: dcc1f05a0f4ccd17372929c836e080ad9ce27c086bea3523ac406bfccd5ebff1
-source: Teaching Vacancies
-source_job_id: administration-assistant-amersham-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-amersham-school
 ---
 
 ---

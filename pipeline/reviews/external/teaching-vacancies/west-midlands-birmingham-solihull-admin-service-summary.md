@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Birmingham & Solihull
 
-review_date: 2026-09-19
-review_fingerprint: 66cf164c07e607e72ece13f84dcdece93e4d8c62a382d04a81d83f3d77b7edea
-routing_manifest_sha256: a1569b986aee977c02dc411874fc9a0c706f290667084cd5a8b0401efe05a811
+review_date: 2026-09-20
+review_fingerprint: 2d1d33a3d62fb352236b2952b78c4d191ff95c48bf703d104e7fac9dfd099e7e
+routing_manifest_sha256: 065adeebd098ac67bbd93ba5d404c793bd8bd10e570ed2e3401383dce52aeb45
 ontap_region: West Midlands - Birmingham & Solihull
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 31
-- Selected: 17
+- Records: 30
+- Selected: 16
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 14
@@ -259,21 +259,6 @@ factual_fingerprint: a5b5f27ca9430542da1285001df23ef6b4c4f82ed7aad6e11dd8848f14f
 source: Teaching Vacancies
 source_job_id: senior-administrator-bishop-vesey-s-grammar-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-bishop-vesey-s-grammar-school
----
-
----
-action: 
-SELECTED | West Midlands - Birmingham & Solihull | Sutton Coldfield, West Midlands, B74 2NH | £30,240.00 - £31,934.00 Annually (Actual) | Whole School Attendance Officer (Mat Cover)
-employer: Bishop Vesey's Grammar School
-closing_date: 2026-09-27T23:59:00+01:00
-reason: Clear admin/service title: attendance officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 06c9d6dc514d4b6acd038c6c7defdcb9e0f6c1854141c3ab55481ab5c5268ca8
-source: Teaching Vacancies
-source_job_id: whole-school-attendance-officer-mat-cover
-source_url: https://teaching-vacancies.service.gov.uk/jobs/whole-school-attendance-officer-mat-cover
 ---
 
 ## POSS — choose SELECT or EXCLUDE

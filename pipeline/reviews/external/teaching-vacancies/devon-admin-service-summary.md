@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Devon
 
-review_date: 2026-09-19
+review_date: 2026-09-20
 review_fingerprint: 25f1e92e3f5b9c4c49e5d45cd2932d85bc51c09f9a1c0848fb3a85b2dd07ecd0
-routing_manifest_sha256: a1569b986aee977c02dc411874fc9a0c706f290667084cd5a8b0401efe05a811
+routing_manifest_sha256: 065adeebd098ac67bbd93ba5d404c793bd8bd10e570ed2e3401383dce52aeb45
 ontap_region: Devon
 slice_category: admin_service
 slice_status: LIVE

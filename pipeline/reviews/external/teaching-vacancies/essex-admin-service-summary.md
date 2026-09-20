@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Essex
 
-review_date: 2026-09-19
-review_fingerprint: 54676eb913682c1ed06bd2869263138c1836c15e47be546ebfd9b6ede968a473
-routing_manifest_sha256: a1569b986aee977c02dc411874fc9a0c706f290667084cd5a8b0401efe05a811
+review_date: 2026-09-20
+review_fingerprint: 16d467e12a86251d3c4a8ab82ed3131b8d9a0f2fab4623adeaddd1fb7356787a
+routing_manifest_sha256: 065adeebd098ac67bbd93ba5d404c793bd8bd10e570ed2e3401383dce52aeb45
 ontap_region: Essex
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 9
+- Records: 8
 - Selected: 4
-- POSS awaiting decision: 1
+- POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 4
 
@@ -83,20 +83,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/social-media-design-a
 
 ## POSS — choose SELECT or EXCLUDE
 
----
-action: 
-POSS | Essex | Rayleigh, SS6 7DD | £14,458.51 - £14,657.94 Annually (Actual) | Trust Finance Manager
-employer: Schools For Every Child
-closing_date: 2026-09-25T12:00:00+01:00
-reason: Manager title below £28,000 salary ceiling requires review
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 0cb6d7ea83f88d29ac8f418f6cb1abbe81c0e5dec1d308b83c17e1b3c5e2584c
-source: Teaching Vacancies
-source_job_id: trust-finance-manager-schools-for-every-child
-source_url: https://teaching-vacancies.service.gov.uk/jobs/trust-finance-manager-schools-for-every-child
----
+- None.
 
 ## EXCLUDED BY REVIEW
 

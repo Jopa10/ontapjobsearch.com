@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — London
 
-review_date: 2026-09-19
-review_fingerprint: 3f44073b4cbbc0779cd7b5f4110c98c5497d1200471e0dad2f7839e2c7bce3b3
-routing_manifest_sha256: a1569b986aee977c02dc411874fc9a0c706f290667084cd5a8b0401efe05a811
+review_date: 2026-09-20
+review_fingerprint: 6b01ab2c070f0edbb3b434638c6c7dc2db67bd141ef7ae3534d73504130be4f0
+routing_manifest_sha256: 065adeebd098ac67bbd93ba5d404c793bd8bd10e570ed2e3401383dce52aeb45
 ontap_region: London
 slice_category: admin_service
 slice_status: LIVE
@@ -15,9 +15,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 - Records: 66
 - Selected: 24
-- POSS awaiting decision: 5
+- POSS awaiting decision: 4
 - Excluded: 0
-- Hard pass: 37
+- Hard pass: 38
 
 ## SELECTED
 
@@ -443,21 +443,6 @@ source_job_id: cover-supervisor-manager-whitefriars-school-harrow-middlesex
 source_url: https://teaching-vacancies.service.gov.uk/jobs/cover-supervisor-manager-whitefriars-school-harrow-middlesex
 ---
 
----
-action: 
-POSS | London | London, EC4R 2SP | £24,004.70 - £24,895.91 Annually (Actual) | Governance Clerk
-employer: Skinners' Academies Trust
-closing_date: 2026-09-19T23:59:00+01:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 8c7fac608b54c7e6f5c311c09e17688dd1a4c8f0139901f0bb58ec547634d908
-source: Teaching Vacancies
-source_job_id: governance-clerk-skinners-academies-trust
-source_url: https://teaching-vacancies.service.gov.uk/jobs/governance-clerk-skinners-academies-trust
----
-
 ## EXCLUDED BY REVIEW
 
 - None.
@@ -465,6 +450,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/governance-clerk-skin
 ## HARD_PASS
 
 - [Breakfast Club Leader](https://teaching-vacancies.service.gov.uk/jobs/breakfast-club-leader-st-paul-s-cofe-primary-school) — Insufficient admin/service evidence.
+- [Business Operations & Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/business-operations-finance-manager) — Manager title salary ceiling £59,394 is not below £28,000.
 - [Business Support and Finance Co-Ordinator](https://teaching-vacancies.service.gov.uk/jobs/business-support-and-finance-co-ordinator) — Insufficient admin/service evidence.
 - [Chief Financial Officer ( CFO )](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-cfo-the-cardinal-wiseman-catholic-school) — Insufficient admin/service evidence.
 - [Data & Exams Manager](https://teaching-vacancies.service.gov.uk/jobs/data-exams-manager-ark-bolingbroke-academy) — Manager title salary ceiling £44,231 is not below £28,000.

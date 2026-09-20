@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Greater Manchester - Manchester & Salford
 
-review_date: 2026-09-19
+review_date: 2026-09-20
 review_fingerprint: be40957dac51a11b651cd4f3a3bf508595f80b21af3951f471a40fa59c6bb12d
-routing_manifest_sha256: a1569b986aee977c02dc411874fc9a0c706f290667084cd5a8b0401efe05a811
+routing_manifest_sha256: 065adeebd098ac67bbd93ba5d404c793bd8bd10e570ed2e3401383dce52aeb45
 ontap_region: Greater Manchester - Manchester & Salford
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 9
+- Records: 8
 - Selected: 3
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 4
 
 ## SELECTED
 
@@ -91,7 +91,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-data-officer-sa
 
 - [Administration Officer [Maternity Cover]](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-maternity-cover-st-anne-s-church-of-england-academy-manchester) — Insufficient admin/service evidence.
 - [HR Business Partner](https://teaching-vacancies.service.gov.uk/jobs/hr-business-partner-the-co-operative-academies-trust) — Insufficient admin/service evidence.
-- [Payroll and Pensions Officer](https://teaching-vacancies.service.gov.uk/jobs/payroll-and-pensions-officer-bright-futures-educational-trust-manchester-not-recorded) — Insufficient admin/service evidence.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-fc9b895e-2fad-4698-9606-aba0b3f0d55a) — Manager title salary ceiling £44,075 is not below £28,000.
 - [School Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/school-operations-manager-co-op-academy-medlock-manchester-greater-manchester) — Manager title salary ceiling £39,481 is not below £28,000.
 

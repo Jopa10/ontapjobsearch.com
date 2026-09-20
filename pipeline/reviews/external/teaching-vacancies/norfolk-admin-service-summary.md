@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Norfolk
 
-review_date: 2026-09-19
+review_date: 2026-09-20
 review_fingerprint: 4c02c9e163cc0695f1d8894a98d06e81f1a41efef24385277bc6d3e53c224fcb
-routing_manifest_sha256: a1569b986aee977c02dc411874fc9a0c706f290667084cd5a8b0401efe05a811
+routing_manifest_sha256: 065adeebd098ac67bbd93ba5d404c793bd8bd10e570ed2e3401383dce52aeb45
 ontap_region: Norfolk
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 17
+- Records: 18
 - Selected: 5
 - POSS awaiting decision: 4
 - Excluded: 0
-- Hard pass: 8
+- Hard pass: 9
 
 ## SELECTED
 
@@ -169,6 +169,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-wymo
 - [Director of Compliance](https://teaching-vacancies.service.gov.uk/jobs/director-of-compliance) — Insufficient admin/service evidence.
 - [Office Coordinator](https://teaching-vacancies.service.gov.uk/jobs/office-coordinator-duchy-of-lancaster-methwold-cofe-primary-school-thetford-norfolk) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-poringland-primary-school) — Manager title salary ceiling £33,119 is not below £28,000.
+- [Operations Officer](https://teaching-vacancies.service.gov.uk/jobs/operations-officer-southery-academy-downham-market-norfolk) — Missing salary or pay scale.
 - [Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-13c89b93-af4a-43c9-9abf-857124071953) — Insufficient admin/service evidence.
 - [Preschool Lead Practitioner – Part Time (2 days)](https://teaching-vacancies.service.gov.uk/jobs/preschool-lead-practitioner-part-time-2-days) — Insufficient admin/service evidence.
 - [Regional People Partner](https://teaching-vacancies.service.gov.uk/jobs/regional-people-partner-ormiston-victory-academy-norwich-norfolk) — Insufficient admin/service evidence.

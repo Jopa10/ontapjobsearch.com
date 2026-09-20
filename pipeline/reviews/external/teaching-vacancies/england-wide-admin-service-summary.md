@@ -12,14 +12,14 @@ Edit only the `action:` line in each unresolved block:
 
 ## TOTALS
 
-- All routed roles: **615**
-- REVIEW NOW (LIVE regions): **572**
-- EDITABLE NOW (no remembered action): **566**
+- All routed roles: **611**
+- REVIEW NOW (LIVE regions): **568**
+- EDITABLE NOW (no remembered action): **562**
 - REMEMBERED / RESOLVED: **6**
 - DEFERRED - REGION NOT LIVE: **43**
-- SELECTED: **228**
-- POSS: **44**
-- HARD PASS / EXCLUDED: **300**
+- SELECTED: **226**
+- POSS: **43**
+- HARD PASS / EXCLUDED: **299**
 
 ## BEDFORDSHIRE — SELECTED
 
@@ -250,17 +250,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-centre-administ
 
 ---
 action:
-SELECTED | Buckinghamshire | Amersham, South East, HP7 9HH | Bucks Pay Range 2 - £23,666 pro rata / £26,522 FTE | Administration Assistant
-employer: Amersham School
-closing_date: 2026-09-25T23:59:00+01:00
-reason: Clear admin/service title: administration assistant
-factual_fingerprint: dcc1f05a0f4ccd17372929c836e080ad9ce27c086bea3523ac406bfccd5ebff1
-source_job_id: administration-assistant-amersham-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-amersham-school
----
-
----
-action:
 SELECTED | Buckinghamshire | Milton Keynes, South East, MK6 5LP | Up to £26,884.00 per annum | Administrator - Prison Education - HMP Downview
 employer: Milton Keynes College
 closing_date: 2026-09-22T23:59:00+01:00
@@ -404,14 +393,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-officer-trump
 _No jobs in this group._
 
 ## CHESHIRE - EAST — POSSIBLES
-
-_No jobs in this group._
-
-## CHESHIRE - WARRINGTON & HALTON — SELECTED
-
-_No jobs in this group._
-
-## CHESHIRE - WARRINGTON & HALTON — POSSIBLES
 
 _No jobs in this group._
 
@@ -733,16 +714,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/social-media-design-a
 
 ## ESSEX — POSSIBLES
 
----
-action:
-POSS | Essex | Rayleigh, SS6 7DD | £14,458.51 - £14,657.94 Annually (Actual) | Trust Finance Manager
-employer: Schools For Every Child
-closing_date: 2026-09-25T12:00:00+01:00
-reason: Manager title below £28,000 salary ceiling requires review
-factual_fingerprint: 0cb6d7ea83f88d29ac8f418f6cb1abbe81c0e5dec1d308b83c17e1b3c5e2584c
-source_job_id: trust-finance-manager-schools-for-every-child
-source_url: https://teaching-vacancies.service.gov.uk/jobs/trust-finance-manager-schools-for-every-child
----
+_No jobs in this group._
 
 ## GLOUCESTERSHIRE — SELECTED
 
@@ -1584,17 +1556,6 @@ source_job_id: cover-supervisor-manager-whitefriars-school-harrow-middlesex
 source_url: https://teaching-vacancies.service.gov.uk/jobs/cover-supervisor-manager-whitefriars-school-harrow-middlesex
 ---
 
----
-action:
-POSS | London | London, EC4R 2SP | £24,004.70 - £24,895.91 Annually (Actual) | Governance Clerk
-employer: Skinners' Academies Trust
-closing_date: 2026-09-19T23:59:00+01:00
-reason: Administrative duties evidenced in description
-factual_fingerprint: 8c7fac608b54c7e6f5c311c09e17688dd1a4c8f0139901f0bb58ec547634d908
-source_job_id: governance-clerk-skinners-academies-trust
-source_url: https://teaching-vacancies.service.gov.uk/jobs/governance-clerk-skinners-academies-trust
----
-
 ## MERSEYSIDE - LIVERPOOL — SELECTED
 
 _No jobs in this group._
@@ -1777,13 +1738,13 @@ _No jobs in this group._
 
 ---
 action:
-SELECTED | Nottinghamshire | Mansfield, East Midlands, NG21 9TA | £22,569.72 - £22,569.72 Annually (Actual) Term time only | Administration Assistant
-employer: Thoresby Vale Primary Academy
-closing_date: 2026-09-25T23:59:00+01:00
+SELECTED | Nottinghamshire | Retford, DN22 7GR | £26,433.00 - £26,433.00 Annually (Actual) | Administration Assistant
+employer: Diverse Academies Trust
+closing_date: 2026-09-27T23:59:00+01:00
 reason: Clear admin/service title: administration assistant
-factual_fingerprint: 2710ff6c7c8d9cbeaa8320e1cf1192b30b2415b073aa39e35dc92d884c56d4c5
-source_job_id: administration-assistant-thoresby-vale-primary-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-thoresby-vale-primary-academy
+factual_fingerprint: c3ce706f1a2bf0e6ff5692920c9ceccbd5c737a14d1cf0ea111a8ff16079f87f
+source_job_id: administration-assistant-diverse-academies-trust
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-diverse-academies-trust
 ---
 
 ---
@@ -2565,17 +2526,6 @@ source_job_id: senior-administrator-bishop-vesey-s-grammar-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-bishop-vesey-s-grammar-school
 ---
 
----
-action:
-SELECTED | West Midlands - Birmingham & Solihull | Sutton Coldfield, West Midlands, B74 2NH | £30,240.00 - £31,934.00 Annually (Actual) | Whole School Attendance Officer (Mat Cover)
-employer: Bishop Vesey's Grammar School
-closing_date: 2026-09-27T23:59:00+01:00
-reason: Clear admin/service title: attendance officer
-factual_fingerprint: 06c9d6dc514d4b6acd038c6c7defdcb9e0f6c1854141c3ab55481ab5c5268ca8
-source_job_id: whole-school-attendance-officer-mat-cover
-source_url: https://teaching-vacancies.service.gov.uk/jobs/whole-school-attendance-officer-mat-cover
----
-
 ## WEST MIDLANDS - BIRMINGHAM & SOLIHULL — POSSIBLES
 
 _No jobs in this group._
@@ -2758,6 +2708,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-receptionist-e
 ---
 
 ## WILTSHIRE — POSSIBLES
+
+---
+action:
+POSS | Wiltshire | Calne, South West, SN11 8YH | £29,064.00 - £31,022.00 Annually (FTE) NJC Grade G, £3,378-£3,605 (DOE) Actual | Clerk to Governors
+employer: Kingsbury Green Academy
+closing_date: 2026-09-27T23:59:00+01:00
+reason: Borderline school administration title: clerk to governors
+factual_fingerprint: 383f4f9824ba767e2f44589d5338c81a9005b1bf029a7fd07fe2fa3ea50fa006
+source_job_id: clerk-to-governors-kingsbury-green-academy-calne-wiltshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/clerk-to-governors-kingsbury-green-academy-calne-wiltshire
+---
 
 ---
 action:
@@ -3058,13 +3019,13 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-37
 
 ---
 action:
-SELECTED | Yorkshire - West | Leeds, Yorkshire and the Humber, LS17 5HX | B1 Point 5 | Apprentice Admin Assistant - Level 2 PART TIME
+SELECTED | Yorkshire - West | Leeds, Yorkshire and the Humber, LS17 5HX | B1 Point 5 | Apprentice Admin Assistant - Level 2 FULL TIME
 employer: Alwoodley Primary School
 closing_date: 2026-09-25T12:00:00+01:00
 reason: Clear admin/service title: admin assistant
-factual_fingerprint: 54397a9e2953ed6972f1e8f802b850eaaf7b3437aa6118e7af709cac0fb5a5f2
-source_job_id: apprentice-admin-assistant-level-2-part-time
-source_url: https://teaching-vacancies.service.gov.uk/jobs/apprentice-admin-assistant-level-2-part-time
+factual_fingerprint: 42b05cf6ed8b34083fe3dc1ef035d47a8f97497f81f1220ba0ba15bfcf21f941
+source_job_id: apprentice-admin-assistant-level-2-full-time
+source_url: https://teaching-vacancies.service.gov.uk/jobs/apprentice-admin-assistant-level-2-full-time
 ---
 
 ---
