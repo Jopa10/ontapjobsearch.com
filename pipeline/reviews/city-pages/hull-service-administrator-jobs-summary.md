@@ -4,7 +4,7 @@
 - Live route: `/hull/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 1
+- Effective included jobs: 4
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,26 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 1
-- automatic review: 0
+- automatic include: 4
+- automatic review: 1
 - automatic exclude: 0
-- effective include: 1
-- effective review: 0
+- effective include: 4
+- effective review: 1
 - effective exclude: 0
 
-## INCLUDE (1)
+## INCLUDE (4)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administrator
+company: Hull University Teaching Hospitals NHS Trust
+location: Hull, HU1 3TD
+source: NHS Jobs
+job_id: nhs-5595156
+reason: Approved conservative Hull launch catchment.
+---
 
 ---
 action: 
@@ -36,6 +48,42 @@ job_id: jobg8-107894712
 reason: Approved conservative Hull launch catchment.
 ---
 
-## REVIEW (0)
+---
+action: 
+decision: include
+automatic_decision: include
+title: Receptionist Administrator
+company: Alderman Cogan's Church of England Primary Academy
+location: Hull
+source: Teaching Vacancies
+job_id: teaching-vacancies-receptionist-administrator-8983c99a-ea81-4d03-945c-21a86c87cb36
+reason: Approved conservative Hull launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: SEND Administrator
+company: Liberty Academy
+location: Hull
+source: Teaching Vacancies
+job_id: teaching-vacancies-send-administrator-liberty-academy
+reason: Approved conservative Hull launch catchment.
+---
+
+## REVIEW (1)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Exams Officer
+company: Bridlington School
+location: Bridlington
+source: Teaching Vacancies
+job_id: teaching-vacancies-exams-officer-bridlington-school
+reason: No approved Hull catchment rule matched; local review required.
+---
 
 ## EXCLUDE (0)

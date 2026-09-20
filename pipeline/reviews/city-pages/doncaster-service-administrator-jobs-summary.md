@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 2
 - automatic review: 0
-- automatic exclude: 5
+- automatic exclude: 11
 - effective include: 2
 - effective review: 0
-- effective exclude: 5
+- effective exclude: 11
 
 ## INCLUDE (2)
 
@@ -50,7 +50,31 @@ reason: Approved Doncaster catchment.
 
 ## REVIEW (0)
 
-## EXCLUDE (5)
+## EXCLUDE (11)
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Admin Assistant - Part Time - 18 hrs
+company: Totley All Saints Church of England Voluntary Aided Primary School
+location: Sheffield
+source: Teaching Vacancies
+job_id: teaching-vacancies-admin-assistant-part-time-18-hrs
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Administration Assistant
+company: Gooseacre Primary Academy
+location: Rotherham
+source: Teaching Vacancies
+job_id: teaching-vacancies-administration-assistant-gooseacre-primary-academy-rotherham-south-yorkshire
+reason: Separate employment market.
+---
 
 ---
 action: 
@@ -85,6 +109,54 @@ company: PRATAP PARTNERSHIP LTD - Agency - Permanent
 location: Barnsley
 source: JobG8
 job_id: jobg8-1908708
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Personal Assistant to Headteacher
+company: Westfield School
+location: Sheffield
+source: Teaching Vacancies
+job_id: teaching-vacancies-personal-assistant-to-headteacher-westfield-school
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Receptionist
+company: Eckington School
+location: Sheffield
+source: Teaching Vacancies
+job_id: teaching-vacancies-receptionist-458ac8b7-4b1a-49e5-9f6d-099164b8a6da
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Receptionist
+company: Gateway Primary Care CIC
+location: Rotherham, S65 1DJ, Rotherham, S62 7BT, Rotherham, S60 2JH, Rotherham, S60 8GD
+source: NHS Jobs
+job_id: nhs-5588970
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Receptionist
+company: Saint Pius X Catholic High School A Specialist School in Humanities
+location: Rotherham
+source: Teaching Vacancies
+job_id: teaching-vacancies-receptionist-saint-pius-x-catholic-high-school-a-specialist-school-in-humanities
 reason: Separate employment market.
 ---
 

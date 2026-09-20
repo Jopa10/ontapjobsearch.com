@@ -16,15 +16,15 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 0
-- automatic review: 25
+- automatic review: 27
 - automatic exclude: 0
 - effective include: 0
-- effective review: 25
+- effective review: 27
 - effective exclude: 0
 
 ## INCLUDE (0)
 
-## REVIEW (25)
+## REVIEW (27)
 
 ---
 action: 
@@ -198,6 +198,18 @@ reason: No exact Farnham workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: HR Administrator
+company: Heathside School
+location: Weybridge
+source: Teaching Vacancies
+job_id: teaching-vacancies-hr-administrator-1dca9cd8-4ff7-45e1-986b-c7d1c85e6a0a
+reason: No exact Farnham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: HR Advisor / Administrator
 company: Ernest Gordon Recruitment Limited - Agency - Permanent
 location: Surrey
@@ -287,6 +299,18 @@ company: Dorking Healthcare Ltd.
 location: Redhill, RH1 2NP, Epsom, KT17 4BL, DORKING, RH4 2AA, Warlingham, CR6 9LF, DORKING, RH4 1SD, Epsom, KT17 4BL, WARLINGHAM, CR6 9NW, REDHILL, RH1 1EB
 source: NHS Jobs
 job_id: nhs-5599747
+reason: No exact Farnham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Safeguarding and SEND Administrative Assistant
+company: Eastwick Infant School
+location: Leatherhead
+source: Teaching Vacancies
+job_id: teaching-vacancies-safeguarding-and-send-administrative-assistant-eastwick-infant-school
 reason: No exact Farnham workplace matched; local geographic review is required.
 ---
 

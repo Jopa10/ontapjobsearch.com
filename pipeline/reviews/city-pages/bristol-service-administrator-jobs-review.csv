@@ -1,16 +1,19 @@
 decision,job_id,title,company,location,source,automatic_decision,effective_decision,reason,matched_rule,city_key
 include,jobg8-1877742,Accounts Assistant,Artis Recruitment - Agency - Permanent,Bristol,JobG8,include,include,Approved conservative Bristol launch catchment.,bristol,bristol-service-administrator-jobs
 include,jobg8-1899222,Accounts Assistant,Robert Half - Agency - Permanent,Bristol,JobG8,include,include,Approved conservative Bristol launch catchment.,bristol,bristol-service-administrator-jobs
+include,teaching-vacancies-administrative-assistant-for-pastoral,Administrative Assistant for Pastoral,Fairfield High School,Bristol,Teaching Vacancies,include,include,Approved conservative Bristol launch catchment.,bristol,bristol-service-administrator-jobs
 include,nhs-5590154,Administrator,West Walk Surgery,"Bristol, BS37 4AX",NHS Jobs,include,include,Approved conservative Bristol launch catchment.,bristol,bristol-service-administrator-jobs
 include,nhs-5602566,Administrator,West Walk Surgery,"Bristol, BS37 4AX",NHS Jobs,include,include,Approved conservative Bristol launch catchment.,bristol,bristol-service-administrator-jobs
 include,jobg8-1907662,Administrator - Financial Services,mbf. - Agency - Permanent,Bristol,JobG8,include,include,Approved conservative Bristol launch catchment.,bristol,bristol-service-administrator-jobs
 include,jobg8-1868067,Claims Handler,Capio Recruitment Insurance - Agency - Permanent,Bristol,JobG8,include,include,Approved conservative Bristol launch catchment.,bristol,bristol-service-administrator-jobs
 include,jobg8-1935128,Commercial Property Administrative Assistant,Kingsgate Recruitment Ltd - Agency - Permanent,Bristol,JobG8,include,include,Approved conservative Bristol launch catchment.,bristol,bristol-service-administrator-jobs
+include,teaching-vacancies-exams-officer-downend-school,Exams Officer,Downend School,Bristol,Teaching Vacancies,include,include,Approved conservative Bristol launch catchment.,bristol,bristol-service-administrator-jobs
 include,jobg8-1907502,HR Administrator,Reed - Agency - Permanent,Bristol,JobG8,include,include,Approved conservative Bristol launch catchment.,bristol,bristol-service-administrator-jobs
 include,jobg8-1908352,HR Coordinator,Robert Half - Agency - Permanent,Bristol,JobG8,include,include,Approved conservative Bristol launch catchment.,bristol,bristol-service-administrator-jobs
 include,jobg8-1899302,Interim Part Time Finance Assistant,Hays Specialist Recruitment Limited - Agency - Permanent,Bristol,JobG8,include,include,Approved conservative Bristol launch catchment.,bristol,bristol-service-administrator-jobs
 include,jobg8-1819615,IT Co-ordinator,Framatome Limited - Company - Permanent,Bristol,JobG8,include,include,Approved conservative Bristol launch catchment.,bristol,bristol-service-administrator-jobs
 include,jobg8-1959674,Litigated EL/PL Claims Handler,Keoghs LLP - Agency - Permanent,Bristol,JobG8,include,include,Approved conservative Bristol launch catchment.,bristol,bristol-service-administrator-jobs
+include,teaching-vacancies-office-assistant-chandag-primary-school,Office Assistant,Chandag Primary School,Bristol,Teaching Vacancies,include,include,Approved conservative Bristol launch catchment.,bristol,bristol-service-administrator-jobs
 include,nhs-5588442,Receptionist,Hanham Health,"Bristol, BS32 4DS, BRISTOL, BS35 4JF",NHS Jobs,include,include,Approved conservative Bristol launch catchment.,bristol,bristol-service-administrator-jobs
 include,jobg8-1956062,Recruitment Administrator,Reed - Agency - Permanent,Bristol,JobG8,include,include,Approved conservative Bristol launch catchment.,bristol,bristol-service-administrator-jobs
 include,jobg8-107909264,Sales and Partnerships Coordinator,NFP People - Agency - Permanent,Bristol,JobG8,include,include,Approved conservative Bristol launch catchment.,bristol,bristol-service-administrator-jobs
@@ -31,5 +34,4 @@ review,jobg8-1888375,Payroll Administrator,Ashley Rees Associates - Agency - Per
 review,jobg8-1867788,Payroll Administrator,Reed - Agency - Permanent,Somerset,JobG8,review,review,No approved Bristol catchment rule matched; local review required.,fallback,bristol-service-administrator-jobs
 review,jobg8-1903762,Payroll Clerk,Robert Half - Agency - Permanent,Somerset,JobG8,review,review,No approved Bristol catchment rule matched; local review required.,fallback,bristol-service-administrator-jobs
 review,jobg8-107906403,Sales Ledger Controller,Yate Supplies - Agency - Permanent,Somerset,JobG8,review,review,No approved Bristol catchment rule matched; local review required.,fallback,bristol-service-administrator-jobs
-review,jobg8-1954670,Trainee Digital Marketing Manager No experience needed (Ref: 6901),Qualify Nation Recruitment - Agency - Permanent,Somerset,JobG8,review,review,No approved Bristol catchment rule matched; local review required.,fallback,bristol-service-administrator-jobs
 exclude,jobg8-1928936,Temp HR Administrator - initial 8 week project,Henlee Resourcing & Consulting Ltd - Agency - Permanent,Bath,JobG8,exclude,exclude,Separate employment market.,bath,bristol-service-administrator-jobs

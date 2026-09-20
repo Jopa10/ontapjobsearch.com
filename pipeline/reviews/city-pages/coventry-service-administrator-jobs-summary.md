@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 5
-- automatic review: 0
-- automatic exclude: 8
+- automatic review: 3
+- automatic exclude: 9
 - effective include: 5
-- effective review: 0
-- effective exclude: 8
+- effective review: 3
+- effective exclude: 9
 
 ## INCLUDE (5)
 
@@ -84,9 +84,57 @@ job_id: jobg8-1859862
 reason: Approved Coventry catchment.
 ---
 
-## REVIEW (0)
+## REVIEW (3)
 
-## EXCLUDE (8)
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: Studley St Mary's CofE Academy
+location: Studley
+source: Teaching Vacancies
+job_id: teaching-vacancies-administrator-studley-st-mary-s-cofe-academy
+reason: No approved Coventry catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: HR Administrator, Temporary to Permanent Opportunity
+company: Office Angels - Agency - Permanent
+location: Atherstone
+source: JobG8
+job_id: jobg8-1859602
+reason: No approved Coventry catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: PA to Principal
+company: The Queen Elizabeth Academy
+location: Atherstone
+source: Teaching Vacancies
+job_id: teaching-vacancies-pa-to-principal-the-queen-elizabeth-academy-atherstone-warwickshire
+reason: No approved Coventry catchment rule matched; local review required.
+---
+
+## EXCLUDE (9)
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Administration Assistant
+company: Evergreen School
+location: Warwick
+source: Teaching Vacancies
+job_id: teaching-vacancies-administration-assistant-23d0b4b5-47f8-416c-924d-d887471e9a01
+reason: Separate employment market.
+---
 
 ---
 action: 

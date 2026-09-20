@@ -4,7 +4,7 @@
 - Live route: `/milton-keynes/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 4
+- Effective included jobs: 8
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,38 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 4
-- automatic review: 11
+- automatic include: 8
+- automatic review: 13
 - automatic exclude: 0
-- effective include: 4
-- effective review: 11
+- effective include: 8
+- effective review: 13
 - effective exclude: 0
 
-## INCLUDE (4)
+## INCLUDE (8)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Admin Centre Administrator
+company: Lord Grey Academy
+location: Milton Keynes
+source: Teaching Vacancies
+job_id: teaching-vacancies-admin-centre-administrator-lord-grey-academy-milton-keynes-buckinghamshire
+reason: Exact approved Milton Keynes workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administrator - Prison Education - HMP Downview
+company: Milton Keynes College
+location: Milton Keynes
+source: Teaching Vacancies
+job_id: teaching-vacancies-administrator-prison-education-hmp-downview
+reason: Exact approved Milton Keynes workplace.
+---
 
 ---
 action: 
@@ -72,7 +96,43 @@ job_id: jobg8-1877882
 reason: Exact approved Milton Keynes workplace.
 ---
 
-## REVIEW (11)
+---
+action: 
+decision: include
+automatic_decision: include
+title: Receptionist
+company: Purbeck Health Centre
+location: Milton Keynes, MK14 6BL
+source: NHS Jobs
+job_id: nhs-5543958
+reason: Exact approved Milton Keynes workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Single Point of Access Administrator
+company: Central and North West London NHS Foundation Trust
+location: Milton Keynes, MK7 6AA
+source: NHS Jobs
+job_id: nhs-5600810
+reason: Exact approved Milton Keynes workplace.
+---
+
+## REVIEW (13)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Academy Administrator
+company: Chepping View Primary Academy
+location: High Wycombe
+source: Teaching Vacancies
+job_id: teaching-vacancies-academy-administrator-chepping-view-primary-academy-high-wycombe-buckinghamshire
+reason: No exact Milton Keynes workplace matched; local geographic review is required.
+---
 
 ---
 action: 
@@ -162,11 +222,11 @@ reason: No exact Milton Keynes workplace matched; local geographic review is req
 action: 
 decision: review
 automatic_decision: review
-title: Part-time Finance Assistant - Education Sector
-company: Hays Specialist Recruitment Limited - Agency - Permanent
-location: Buckinghamshire
-source: JobG8
-job_id: jobg8-1905959
+title: Morning Receptionist Maternity Cover
+company: Aylesbury High School
+location: Aylesbury
+source: Teaching Vacancies
+job_id: teaching-vacancies-morning-receptionist-maternity-cover
 reason: No exact Milton Keynes workplace matched; local geographic review is required.
 ---
 
@@ -174,11 +234,11 @@ reason: No exact Milton Keynes workplace matched; local geographic review is req
 action: 
 decision: review
 automatic_decision: review
-title: Part-time Receptionist
-company: Practice Plus Group
-location: High Wycombe, HP12 3QL
-source: NHS Jobs
-job_id: nhs-5580971
+title: Part-time Finance Assistant - Education Sector
+company: Hays Specialist Recruitment Limited - Agency - Permanent
+location: Buckinghamshire
+source: JobG8
+job_id: jobg8-1905959
 reason: No exact Milton Keynes workplace matched; local geographic review is required.
 ---
 
@@ -203,6 +263,18 @@ company: Riverside Surgery
 location: High Wycombe, HP11 2RZ
 source: NHS Jobs
 job_id: nhs-5607494
+reason: No exact Milton Keynes workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: School Administrator
+company: Chiltern Way Academy Trust
+location: Aylesbury
+source: Teaching Vacancies
+job_id: teaching-vacancies-school-administrator-chiltern-way-academy-trust
 reason: No exact Milton Keynes workplace matched; local geographic review is required.
 ---
 

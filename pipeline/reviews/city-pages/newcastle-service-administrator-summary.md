@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 6
-- automatic review: 17
-- automatic exclude: 11
+- automatic review: 20
+- automatic exclude: 12
 - effective include: 6
-- effective review: 17
-- effective exclude: 11
+- effective review: 20
+- effective exclude: 12
 
 ## INCLUDE (6)
 
@@ -96,7 +96,7 @@ job_id: nhs-5598890
 reason: Approved Newcastle catchment.
 ---
 
-## REVIEW (17)
+## REVIEW (20)
 
 ---
 action: 
@@ -108,6 +108,18 @@ location: Tyne And Wear
 source: JobG8
 job_id: jobg8-1788888
 reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Attendance Officer & Administrator
+company: Bede Academy
+location: Blyth
+source: Teaching Vacancies
+job_id: teaching-vacancies-attendance-officer-administrator-bede-academy-blyth-northumberland
+reason: No approved Newcastle catchment rule matched; local review required.
 ---
 
 ---
@@ -210,6 +222,18 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
+title: HR & Payroll Administrator
+company: Emmanuel Schools Foundation
+location: Blyth
+source: Teaching Vacancies
+job_id: teaching-vacancies-hr-payroll-administrator-emmanuel-schools-foundation
+reason: No approved Newcastle catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: HR Administrator
 company: Cameron James - Agency - Permanent
 location: Tyne And Wear
@@ -282,6 +306,30 @@ reason: No approved Newcastle catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: School Support Roles - Supervisory Assistant & Administrative Assistant
+company: St Peter's Church of England Primary School
+location: Wallsend
+source: Teaching Vacancies
+job_id: teaching-vacancies-school-support-roles-supervisory-assistant-administrative-assistant
+reason: No approved Newcastle catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Team Administrator
+company: Tees Esk and Wear Valleys NHS Foundation Trust
+location: Seaham, SR7 0BG
+source: NHS Jobs
+job_id: nhs-5589916
+reason: No approved Newcastle catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Tenant Engagement Officer
 company: Northumberland County Council
 location: Eddie Ferguson House, Blyth, United Kingdom
@@ -290,19 +338,7 @@ job_id: nejobs-301243
 reason: No approved Newcastle catchment rule matched; local review required.
 ---
 
----
-action: 
-decision: review
-automatic_decision: review
-title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
-company: Qualify Nation Recruitment - Agency - Permanent
-location: Tyne And Wear
-source: JobG8
-job_id: jobg8-1954680
-reason: Broad location; review before city inclusion.
----
-
-## EXCLUDE (11)
+## EXCLUDE (12)
 
 ---
 action: 
@@ -361,6 +397,18 @@ company: Ernest Gordon Recruitment Limited - Agency - Permanent
 location: County Durham
 source: JobG8
 job_id: jobg8-1950247
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Lead Administrator
+company: Harry Watts Academy
+location: Sunderland
+source: Teaching Vacancies
+job_id: teaching-vacancies-lead-administrator-harry-watts-academy
 reason: Separate employment market.
 ---
 

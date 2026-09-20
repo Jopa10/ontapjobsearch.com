@@ -4,7 +4,7 @@
 - Live route: `/bournemouth/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 2
+- Effective included jobs: 3
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 2
+- automatic include: 3
 - automatic review: 10
 - automatic exclude: 0
-- effective include: 2
+- effective include: 3
 - effective review: 10
 - effective exclude: 0
 
-## INCLUDE (2)
+## INCLUDE (3)
 
 ---
 action: 
@@ -45,6 +45,18 @@ company: Bournemouth School
 location: Bournemouth
 source: Teaching Vacancies
 job_id: teaching-vacancies-administrator-sixth-form-study-centre-3a398641-1a04-436d-8d95-d6c3dd1d9ae1
+reason: Exact approved Bournemouth workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: PA to Leadership Team
+company: The Bishop of Winchester Academy
+location: Bournemouth
+source: Teaching Vacancies
+job_id: teaching-vacancies-pa-to-leadership-team-b8e78b62-3fce-486c-bfe4-ebd07a02857c
 reason: Exact approved Bournemouth workplace.
 ---
 

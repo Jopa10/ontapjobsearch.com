@@ -4,7 +4,7 @@
 - Live route: `/birmingham/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 20
+- Effective included jobs: 27
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 20
-- automatic review: 1
-- automatic exclude: 5
-- effective include: 20
-- effective review: 1
-- effective exclude: 5
+- automatic include: 27
+- automatic review: 4
+- automatic exclude: 8
+- effective include: 27
+- effective review: 4
+- effective exclude: 8
 
-## INCLUDE (20)
+## INCLUDE (27)
 
 ---
 action: 
@@ -40,11 +40,71 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Administrator
-company: Morgan Parkes Recruitment - Agency - Permanent
+title: Administration Assistant
+company: Harborne Primary School
 location: Birmingham
-source: JobG8
-job_id: jobg8-107812471
+source: Teaching Vacancies
+job_id: teaching-vacancies-administration-assistant-harborne-primary-school
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administrative Assistant
+company: Greet Primary School
+location: Birmingham
+source: Teaching Vacancies
+job_id: teaching-vacancies-administrative-assistant-greet-primary-school
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administrative Assistant
+company: Yorkmead Junior and Infant School
+location: Birmingham
+source: Teaching Vacancies
+job_id: teaching-vacancies-administrative-assistant-yorkmead-junior-and-infant-school-birmingham-west-midlands
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administrator (Payroll and Leadership Support)
+company: Swanshurst School
+location: Birmingham
+source: Teaching Vacancies
+job_id: teaching-vacancies-administrator-payroll-and-leadership-support
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administrator (Year Team)
+company: Swanshurst School
+location: Birmingham
+source: Teaching Vacancies
+job_id: teaching-vacancies-administrator-year-team-swanshurst-school
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Attendance Officer (2 roles)
+company: James Brindley School
+location: Birmingham
+source: Teaching Vacancies
+job_id: teaching-vacancies-attendance-officer-2-roles
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -148,11 +208,47 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Medical Receptionist-Admin
-company: City Road Medical Centre
-location: Birmingham, B184HL
-source: NHS Jobs
-job_id: nhs-5604855
+title: Office Administrator
+company: Yorkmead Junior and Infant School
+location: Birmingham
+source: Teaching Vacancies
+job_id: teaching-vacancies-office-administrator-yorkmead-junior-and-infant-school-birmingham-west-midlands
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Office Assistant at St Elizabeth's Catholic Primary School, B79 8EN
+company: St. John Paul Ii Multi Academy Company
+location: Birmingham
+source: Teaching Vacancies
+job_id: teaching-vacancies-office-assistant-at-st-elizabeth-s-catholic-primary-school-b79-8en
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Pastoral Support and Administrator Apprentice
+company: E-ACT Heartlands Academy
+location: Birmingham
+source: Teaching Vacancies
+job_id: teaching-vacancies-pastoral-support-and-administrator-apprentice
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Payroll, Pensions, Finance and HR Administrator
+company: Birmingham Diocesan Multi Academy Trust
+location: Birmingham
+source: Teaching Vacancies
+job_id: teaching-vacancies-payroll-pensions-finance-and-hr-administrator
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -232,18 +328,6 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
-company: Qualify Nation Recruitment - Agency - Permanent
-location: Birmingham
-source: JobG8
-job_id: jobg8-1954668
-reason: Approved conservative Birmingham launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Trainee Social Media Assistant
 company: Netcom Online Learning - Agency - Permanent
 location: Birmingham
@@ -264,7 +348,19 @@ job_id: jobg8-1905165
 reason: Approved conservative Birmingham launch catchment.
 ---
 
-## REVIEW (1)
+## REVIEW (4)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Care Home Administrator
+company: Avery Healthcare Group Ltd.
+location: Knowle, B93 9LQ
+source: NHS Jobs
+job_id: nhs-5595583
+reason: No approved Birmingham catchment rule matched; local review required.
+---
 
 ---
 action: 
@@ -278,7 +374,31 @@ job_id: jobg8-1950310
 reason: No approved Birmingham catchment rule matched; local review required.
 ---
 
-## EXCLUDE (5)
+---
+action: 
+decision: review
+automatic_decision: review
+title: Receptionist & Admin Assistant
+company: Hill West Primary School
+location: Sutton Coldfield
+source: Teaching Vacancies
+job_id: teaching-vacancies-receptionist-admin-assistant-hill-west-primary-school
+reason: No approved Birmingham catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Senior Administrator
+company: Bishop Vesey's Grammar School
+location: Sutton Coldfield
+source: Teaching Vacancies
+job_id: teaching-vacancies-senior-administrator-bishop-vesey-s-grammar-school
+reason: No approved Birmingham catchment rule matched; local review required.
+---
+
+## EXCLUDE (8)
 
 ---
 action: 
@@ -301,6 +421,18 @@ company: Manpower - Agency - Permanent
 location: Solihull
 source: JobG8
 job_id: jobg8-1916617
+reason: Separate exact-city market at launch.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Administrative Assistant
+company: Kineton Green Primary School
+location: Solihull
+source: Teaching Vacancies
+job_id: teaching-vacancies-administrative-assistant-daeb96b2-4a80-4966-a01a-d852bcec6a1b
 reason: Separate exact-city market at launch.
 ---
 
@@ -337,5 +469,29 @@ company: Whale Tankers - Agency - Permanent
 location: Solihull
 source: JobG8
 job_id: jobg8-1912504
+reason: Separate exact-city market at launch.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Office Administrator
+company: Bentley Heath Church of England Primary School
+location: Solihull
+source: Teaching Vacancies
+job_id: teaching-vacancies-office-administrator-bentley-heath-church-of-england-primary-school-solihull-west-midlands
+reason: Separate exact-city market at launch.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Receptionist & Admin Assistant
+company: St Peter's Catholic School
+location: Solihull
+source: Teaching Vacancies
+job_id: teaching-vacancies-receptionist-admin-assistant-st-peter-s-catholic-school
 reason: Separate exact-city market at launch.
 ---

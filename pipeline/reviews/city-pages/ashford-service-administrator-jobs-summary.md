@@ -16,15 +16,15 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 0
-- automatic review: 20
+- automatic review: 28
 - automatic exclude: 0
 - effective include: 0
-- effective review: 20
+- effective review: 28
 - effective exclude: 0
 
 ## INCLUDE (0)
 
-## REVIEW (20)
+## REVIEW (28)
 
 ---
 action: 
@@ -78,6 +78,42 @@ reason: No exact Ashford workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Administration Assistant
+company: Kent and Medway Mental Health NHS Trust
+location: Sittingbourne, ME10 4HG
+source: NHS Jobs
+job_id: nhs-5601161
+reason: No exact Ashford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administration Assistant
+company: St Augustine Academy
+location: Maidstone
+source: Teaching Vacancies
+job_id: teaching-vacancies-administration-assistant-st-augustine-academy
+reason: No exact Ashford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrative Assistant
+company: Hillview School for Girls
+location: Tonbridge
+source: Teaching Vacancies
+job_id: teaching-vacancies-administrative-assistant-hillview-school-for-girls
+reason: No exact Ashford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Administrative Assistant
 company: Kent and Medway Mental Health NHS Trust
 location: Gillingham, ME7 1AL
@@ -95,6 +131,42 @@ company: Kent and Medway Mental Health NHS Trust
 location: Maidstone, ME16 9PH
 source: NHS Jobs
 job_id: nhs-5608655
+reason: No exact Ashford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: Kent and Medway Mental Health NHS Trust
+location: Sevenoaks, TN13 3PG
+source: NHS Jobs
+job_id: nhs-5598443
+reason: No exact Ashford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Admissions Officer
+company: The Robert Napier School
+location: Gillingham
+source: Teaching Vacancies
+job_id: teaching-vacancies-admissions-officer-the-robert-napier-school
+reason: No exact Ashford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Attendance Administrator
+company: Maidstone Grammar School for Girls
+location: Maidstone
+source: Teaching Vacancies
+job_id: teaching-vacancies-attendance-administrator-2f3d689b-f206-45e5-991f-9a3a5bcff860
 reason: No exact Ashford workplace matched; local geographic review is required.
 ---
 
@@ -251,6 +323,30 @@ company: Worth Recruiting - Property Industry Recruitment - Agency - Permanent
 location: Kent
 source: JobG8
 job_id: jobg8-1896084
+reason: No exact Ashford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Personal Assistant to the Headteacher
+company: Maidstone Grammar School for Girls
+location: Maidstone
+source: Teaching Vacancies
+job_id: teaching-vacancies-personal-assistant-to-the-headteacher-maidstone-grammar-school-for-girls
+reason: No exact Ashford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: School Receptionist & Administrator
+company: Valence School
+location: Westerham
+source: Teaching Vacancies
+job_id: teaching-vacancies-school-receptionist-administrator-valence-school-westerham-kent
 reason: No exact Ashford workplace matched; local geographic review is required.
 ---
 

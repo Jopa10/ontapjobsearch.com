@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 1
-- automatic review: 10
-- automatic exclude: 7
+- automatic review: 11
+- automatic exclude: 9
 - effective include: 1
-- effective review: 10
-- effective exclude: 7
+- effective review: 11
+- effective exclude: 9
 
 ## INCLUDE (1)
 
@@ -36,7 +36,7 @@ job_id: jobg8-107193862
 reason: Approved Southampton catchment.
 ---
 
-## REVIEW (10)
+## REVIEW (11)
 
 ---
 action: 
@@ -48,6 +48,18 @@ location: Hampshire
 source: JobG8
 job_id: jobg8-1908072
 reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: Rowner Medical Centre
+location: Gosport, PO13 9SP
+source: NHS Jobs
+job_id: nhs-5591061
+reason: No approved Southampton catchment rule matched; local review required.
 ---
 
 ---
@@ -138,6 +150,18 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
+title: Personal Assistant to Executive Headteacher
+company: Vita Multi Academy Trust
+location: Alresford
+source: Teaching Vacancies
+job_id: teaching-vacancies-personal-assistant-to-executive-headteacher-vita-multi-academy-trust
+reason: No approved Southampton catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Receptionist / Administrator
 company: The Society of St James - Agency - Permanent
 location: Hampshire
@@ -146,19 +170,19 @@ job_id: jobg8-1898713
 reason: Broad location; review before city inclusion.
 ---
 
+## EXCLUDE (9)
+
 ---
 action: 
-decision: review
-automatic_decision: review
-title: Service Coordinator
-company: People First Recruitment - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-107959953
-reason: Broad location; review before city inclusion.
+decision: exclude
+automatic_decision: exclude
+title: Admin Assistant
+company: The Cambridge Primary School
+location: Aldershot
+source: Teaching Vacancies
+job_id: teaching-vacancies-admin-assistant-the-cambridge-primary-school
+reason: Separate employment market.
 ---
-
-## EXCLUDE (7)
 
 ---
 action: 
@@ -181,6 +205,18 @@ company: Practice Plus Group - Health in Justice
 location: Winchester, SO22 5DF
 source: NHS Jobs
 job_id: nhs-5608199
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Administrator - The Harbour School
+company: The Harbour School
+location: Portsmouth
+source: Teaching Vacancies
+job_id: teaching-vacancies-administrator-the-harbour-school-the-harbour-school
 reason: Separate employment market.
 ---
 

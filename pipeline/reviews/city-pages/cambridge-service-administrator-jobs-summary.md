@@ -4,7 +4,7 @@
 - Live route: `/cambridge/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 8
+- Effective included jobs: 9
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 8
+- automatic include: 9
 - automatic review: 1
-- automatic exclude: 5
-- effective include: 8
+- automatic exclude: 8
+- effective include: 9
 - effective review: 1
-- effective exclude: 5
+- effective exclude: 8
 
-## INCLUDE (8)
+## INCLUDE (9)
 
 ---
 action: 
@@ -120,6 +120,18 @@ job_id: nhs-5607939
 reason: Approved conservative Cambridge launch catchment.
 ---
 
+---
+action: 
+decision: include
+automatic_decision: include
+title: Senior Office Administrator
+company: Pathfinder CofE Primary School
+location: Cambridge
+source: Teaching Vacancies
+job_id: teaching-vacancies-senior-office-administrator-pathfinder-cofe-primary-school-cambridge-cambridgeshire
+reason: Approved conservative Cambridge launch catchment.
+---
+
 ## REVIEW (1)
 
 ---
@@ -134,7 +146,7 @@ job_id: teaching-vacancies-finance-admin-assistant-priory-junior-school-st-neots
 reason: No approved Cambridge catchment rule matched; local review required.
 ---
 
-## EXCLUDE (5)
+## EXCLUDE (8)
 
 ---
 action: 
@@ -145,6 +157,42 @@ company: Reed - Agency - Permanent
 location: Peterborough
 source: JobG8
 job_id: jobg8-1870317
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Administration Assistant (Trips & Visits)
+company: Hampton College
+location: Peterborough
+source: Teaching Vacancies
+job_id: teaching-vacancies-administration-assistant-trips-visits-hampton-college-peterborough-cambridgeshire
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Administrator
+company: Arthur Mellows Village College
+location: Peterborough
+source: Teaching Vacancies
+job_id: teaching-vacancies-administrator-47bb26eb-71c2-4cc0-b838-989640ff07ed
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Administrator - Huntingdon
+company: Vaccination UK
+location: Huntingdon, PE296FH
+source: NHS Jobs
+job_id: nhs-5530494
 reason: Separate employment market.
 ---
 

@@ -4,7 +4,7 @@
 - Live route: `/york/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 1
+- Effective included jobs: 3
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 1
+- automatic include: 3
 - automatic review: 5
-- automatic exclude: 7
-- effective include: 1
+- automatic exclude: 9
+- effective include: 3
 - effective review: 5
-- effective exclude: 7
+- effective exclude: 9
 
-## INCLUDE (1)
+## INCLUDE (3)
 
 ---
 action: 
@@ -33,6 +33,30 @@ company: Capital Outsourcing Group Ltd - Agency - Permanent
 location: York
 source: JobG8
 job_id: jobg8-1907580
+reason: Approved York catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administrator
+company: Practice Plus Group - Health in Justice
+location: York, YO41 1FZ
+source: NHS Jobs
+job_id: nhs-5607825
+reason: Approved York catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Attendance Administrator
+company: Archbishop Holgate's School, A Church of England Academy
+location: York
+source: Teaching Vacancies
+job_id: teaching-vacancies-attendance-administrator-archbishop-holgate-s-school-a-church-of-england-academy
 reason: Approved York catchment.
 ---
 
@@ -98,7 +122,7 @@ job_id: jobg8-1880493
 reason: No approved York catchment rule matched; local review required.
 ---
 
-## EXCLUDE (7)
+## EXCLUDE (9)
 
 ---
 action: 
@@ -122,6 +146,18 @@ location: Yorkshire
 source: JobG8
 job_id: jobg8-1939806
 reason: Broad regional label; not York-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Finance Assistant
+company: IPS Group - Agency - Permanent
+location: Harrogate
+source: JobG8
+job_id: jobg8-1910220
+reason: Separate employment market.
 ---
 
 ---
@@ -170,6 +206,18 @@ location: Yorkshire
 source: JobG8
 job_id: jobg8-1867235
 reason: Broad regional label; not York-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: SEND Administrator
+company: George Pindar School
+location: Scarborough
+source: Teaching Vacancies
+job_id: teaching-vacancies-send-administrator-george-pindar-school
+reason: Separate employment market.
 ---
 
 ---

@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 6
-- automatic review: 8
+- automatic review: 5
 - automatic exclude: 1
 - effective include: 6
-- effective review: 8
+- effective review: 5
 - effective exclude: 1
 
 ## INCLUDE (6)
@@ -96,31 +96,7 @@ job_id: jobg8-1898106
 reason: Approved Southampton catchment.
 ---
 
-## REVIEW (8)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Care & Support Worker
-company: Southern Housing - Agency - Permanent
-location: Ventnor
-source: JobG8
-job_id: jobg8-107955972
-reason: No approved Southampton catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Care & Support Worker
-company: Southern Housing - Agency - Permanent
-location: Freshwater
-source: JobG8
-job_id: jobg8-107955992
-reason: No approved Southampton catchment rule matched; local review required.
----
+## REVIEW (5)
 
 ---
 action: 
@@ -155,18 +131,6 @@ company: Avenues Group - Company - Permanent
 location: Tadley
 source: JobG8
 job_id: jobg8-265253118665136537637340
-reason: No approved Southampton catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Female Waking Night Support Worker
-company: SeeAbility - Agency - Permanent
-location: Tadley
-source: JobG8
-job_id: jobg8-107941132
 reason: No approved Southampton catchment rule matched; local review required.
 ---
 

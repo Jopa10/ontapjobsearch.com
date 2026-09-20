@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 1
-- automatic review: 17
+- automatic review: 20
 - automatic exclude: 0
 - effective include: 1
-- effective review: 17
+- effective review: 20
 - effective exclude: 0
 
 ## INCLUDE (1)
@@ -36,7 +36,7 @@ job_id: nhs-5592877
 reason: Exact approved Basingstoke workplace.
 ---
 
-## REVIEW (17)
+## REVIEW (20)
 
 ---
 action: 
@@ -47,6 +47,18 @@ company: Michael Page Finance - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-1908072
+reason: No exact Basingstoke workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Admin Assistant
+company: The Cambridge Primary School
+location: Aldershot
+source: Teaching Vacancies
+job_id: teaching-vacancies-admin-assistant-the-cambridge-primary-school
 reason: No exact Basingstoke workplace matched; local geographic review is required.
 ---
 
@@ -71,6 +83,30 @@ company: Practice Plus Group - Health in Justice
 location: Winchester, SO22 5DF
 source: NHS Jobs
 job_id: nhs-5608199
+reason: No exact Basingstoke workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: Rowner Medical Centre
+location: Gosport, PO13 9SP
+source: NHS Jobs
+job_id: nhs-5591061
+reason: No exact Basingstoke workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator - The Harbour School
+company: The Harbour School
+location: Portsmouth
+source: Teaching Vacancies
+job_id: teaching-vacancies-administrator-the-harbour-school-the-harbour-school
 reason: No exact Basingstoke workplace matched; local geographic review is required.
 ---
 
@@ -210,11 +246,11 @@ reason: No exact Basingstoke workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Receptionist / Administrator
-company: The Society of St James - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-1898713
+title: Personal Assistant to Executive Headteacher
+company: Vita Multi Academy Trust
+location: Alresford
+source: Teaching Vacancies
+job_id: teaching-vacancies-personal-assistant-to-executive-headteacher-vita-multi-academy-trust
 reason: No exact Basingstoke workplace matched; local geographic review is required.
 ---
 
@@ -222,11 +258,11 @@ reason: No exact Basingstoke workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Service Coordinator
-company: People First Recruitment - Agency - Permanent
+title: Receptionist / Administrator
+company: The Society of St James - Agency - Permanent
 location: Hampshire
 source: JobG8
-job_id: jobg8-107959953
+job_id: jobg8-1898713
 reason: No exact Basingstoke workplace matched; local geographic review is required.
 ---
 

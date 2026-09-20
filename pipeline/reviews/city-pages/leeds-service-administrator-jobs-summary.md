@@ -4,7 +4,7 @@
 - Live route: `/leeds/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 11
+- Effective included jobs: 20
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 11
-- automatic review: 10
-- automatic exclude: 6
-- effective include: 11
-- effective review: 10
-- effective exclude: 6
+- automatic include: 20
+- automatic review: 14
+- automatic exclude: 20
+- effective include: 20
+- effective review: 14
+- effective exclude: 20
 
-## INCLUDE (11)
+## INCLUDE (20)
 
 ---
 action: 
@@ -40,11 +40,71 @@ reason: Approved Leeds catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Administration Assistant SEND
+company: Bruntcliffe Academy
+location: Leeds
+source: Teaching Vacancies
+job_id: teaching-vacancies-administration-assistant-send-bruntcliffe-academy
+reason: Approved Leeds catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administrative Assistant – Operations
+company: The Ruth Gorse Academy
+location: Leeds
+source: Teaching Vacancies
+job_id: teaching-vacancies-administrative-assistant-operations
+reason: Approved Leeds catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administrator
+company: Oulton Academy
+location: Leeds
+source: Teaching Vacancies
+job_id: teaching-vacancies-administrator-oulton-academy
+reason: Approved Leeds catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Administrator
 company: Practice Plus Group - Health in Justice
 location: Leeds, LS12 2TJ
 source: NHS Jobs
 job_id: nhs-5603778
+reason: Approved Leeds catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Apprentice Admin Assistant - Level 2 FULL TIME
+company: Alwoodley Primary School
+location: Leeds
+source: Teaching Vacancies
+job_id: teaching-vacancies-apprentice-admin-assistant-level-2-full-time
+reason: Approved Leeds catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Bid Coordinator
+company: Ridge & Partners LLP - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-107993362
 reason: Approved Leeds catchment.
 ---
 
@@ -88,6 +148,30 @@ reason: Approved Leeds catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Clerical Officer
+company: Leeds Teaching Hospitals
+location: Leeds, LS9 7TF
+source: NHS Jobs
+job_id: nhs-5591866
+reason: Approved Leeds catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Clerical Officer
+company: Leeds Teaching Hospitals
+location: Leeds, LS9 7TF
+source: NHS Jobs
+job_id: nhs-5594416
+reason: Approved Leeds catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Commercial Claims Handler (Personal Lines Handlers Considered!)
 company: Aston Charles Ltd - Agency - Permanent
 location: Leeds
@@ -124,11 +208,35 @@ reason: Approved Leeds catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Part-Time Accounts Assistant for Yorkshire Design Group
+company: Yorkshire Design Group - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-1910102
+reason: Approved Leeds catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Receptionist
 company: Diamond Medical Group
 location: Leeds, LS7 3DR, Leeds, LS7 1JL, Leeds, LS17 8AE, Leeds, LS8 4AA
 source: NHS Jobs
 job_id: nhs-5601071
+reason: Approved Leeds catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Receptionist and Administration Assistant
+company: Leeds East Academy
+location: Leeds
+source: Teaching Vacancies
+job_id: teaching-vacancies-receptionist-and-administration-assistant-leeds-east-academy
 reason: Approved Leeds catchment.
 ---
 
@@ -156,7 +264,19 @@ job_id: jobg8-1956696
 reason: Approved Leeds catchment.
 ---
 
-## REVIEW (10)
+## REVIEW (14)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Clerical Assistant/Receptionist
+company: Townville Academy
+location: Castleford
+source: Teaching Vacancies
+job_id: teaching-vacancies-clerical-assistant-receptionist-townville-academy-castleford-west-yorkshire
+reason: No approved Leeds catchment rule matched; local review required.
+---
 
 ---
 action: 
@@ -167,6 +287,18 @@ company: Bennett & Game Recruitment - Agency - Permanent
 location: Yorkshire
 source: JobG8
 job_id: jobg8-1907825
+reason: No approved Leeds catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Cover & HR Administrator
+company: Castleford Academy
+location: Castleford
+source: Teaching Vacancies
+job_id: teaching-vacancies-cover-hr-administrator
 reason: No approved Leeds catchment rule matched; local review required.
 ---
 
@@ -191,6 +323,18 @@ company: Marks Sattin - Agency - Permanent
 location: Yorkshire
 source: JobG8
 job_id: jobg8-1881298
+reason: No approved Leeds catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Global EOR Payroll Coordinator
+company: MAUVE CORPORATE SYSTEMS UK LIMITED - Agency - Temporary
+location: Yorkshire
+source: JobG8
+job_id: jobg8-107961732
 reason: No approved Leeds catchment rule matched; local review required.
 ---
 
@@ -270,6 +414,18 @@ reason: No approved Leeds catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Receptionist
+company: Delta Academies Trust
+location: Knottingley
+source: Teaching Vacancies
+job_id: teaching-vacancies-receptionist-delta-academies-trust-knottingley-not-recorded
+reason: No approved Leeds catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Receptionist / Administrator
 company: The Surgery, Stuart Road
 location: Pontefract, WF8 4PQ
@@ -278,7 +434,43 @@ job_id: nhs-5596100
 reason: No approved Leeds catchment rule matched; local review required.
 ---
 
-## EXCLUDE (6)
+## EXCLUDE (20)
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Administration Assistant
+company: Buttershaw Business & Enterprise College Academy
+location: Bradford
+source: Teaching Vacancies
+job_id: teaching-vacancies-administration-assistant-buttershaw-business-enterprise-college-academy
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Administration Assistant
+company: Copthorne Primary School
+location: Bradford
+source: Teaching Vacancies
+job_id: teaching-vacancies-administration-assistant-copthorne-primary-school
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Administrative Assistant
+company: Outwood Grange Academies Trust
+location: Wakefield
+source: Teaching Vacancies
+job_id: teaching-vacancies-administrative-assistant-outwood-grange-academies-trust
+reason: Separate employment market.
+---
 
 ---
 action: 
@@ -289,6 +481,42 @@ company: New Otley Road Medical Practice - Hillside Bridge
 location: Bradford, BD3 0BS, BRADFORD, BD8 9DW
 source: NHS Jobs
 job_id: nhs-5486478
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Administrator - 37
+company: Co-op Academy Grange
+location: Bradford
+source: Teaching Vacancies
+job_id: teaching-vacancies-administrator-37
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Business Support Officer
+company: Spring Grove Junior Infant and Nursery School
+location: Huddersfield
+source: Teaching Vacancies
+job_id: teaching-vacancies-business-support-officer-spring-grove-junior-infant-and-nursery-school-huddersfield-west-yorkshire
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Business Support Officer - Part Time
+company: Moorlands Primary School
+location: Huddersfield
+source: Teaching Vacancies
+job_id: teaching-vacancies-business-support-officer-part-time
 reason: Separate employment market.
 ---
 
@@ -308,11 +536,59 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Data Administrator
+company: The North Halifax Grammar School
+location: Halifax
+source: Teaching Vacancies
+job_id: teaching-vacancies-data-administrator-the-north-halifax-grammar-school-halifax-west-yorkshire
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Data and Exams Administrator
+company: Moor End Academy
+location: Huddersfield
+source: Teaching Vacancies
+job_id: teaching-vacancies-data-and-exams-administrator-moor-end-academy
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Deputy PA / Receptionist
+company: Bradford Diocesan Academies Trust
+location: Bradford
+source: Teaching Vacancies
+job_id: teaching-vacancies-deputy-pa-receptionist-bradford-diocesan-academies-trust-bradford-not-recorded
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Finance Assistant - Purchase Ledger
 company: Kingdom People - Agency - Permanent
 location: Huddersfield
 source: JobG8
 job_id: jobg8-1924718
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Finance Assistant with AAT Study Support
+company: Axon Moore Group Ltd - Agency - Permanent
+location: Bradford
+source: JobG8
+job_id: jobg8-1907455
 reason: Separate employment market.
 ---
 
@@ -344,10 +620,58 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Office Administrator
+company: St Oswald's Church of England Primary Academy
+location: Bradford
+source: Teaching Vacancies
+job_id: teaching-vacancies-office-administrator-st-oswald-s-church-of-england-primary-academy
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Receptionist
+company: Affinity Care
+location: Shipley, BD18 3EG, Shipley, BD18 3EE, Bradford, BD10 9AZ
+source: NHS Jobs
+job_id: nhs-5593331
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Receptionist/ Telephonist
+company: Elmwood Family Doctors
+location: Huddersfield, HD9 3TR, Holmfirth, HD9 4EN
+source: NHS Jobs
+job_id: nhs-5579570
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Sales and Service Advisor
 company: Gallagher - Agency - Permanent
 location: Wakefield
 source: JobG8
 job_id: jobg8-871951100439376691237340
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Service Administrator
+company: Bradford District Care NHS Foundation Trust
+location: Bradford, BD9 6DP
+source: NHS Jobs
+job_id: nhs-5596261
 reason: Separate employment market.
 ---

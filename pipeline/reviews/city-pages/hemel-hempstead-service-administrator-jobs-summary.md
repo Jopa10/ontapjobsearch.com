@@ -4,7 +4,7 @@
 - Live route: `/hemel-hempstead/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 1
+- Effective included jobs: 2
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,26 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 1
-- automatic review: 14
+- automatic include: 2
+- automatic review: 19
 - automatic exclude: 0
-- effective include: 1
-- effective review: 14
+- effective include: 2
+- effective review: 19
 - effective exclude: 0
 
-## INCLUDE (1)
+## INCLUDE (2)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Examinations Officer
+company: The Adeyfield Academy
+location: Hemel Hempstead
+source: Teaching Vacancies
+job_id: teaching-vacancies-examinations-officer-a5731d2f-6372-47b8-8d69-8228b7ce94d0
+reason: Exact approved Hemel Hempstead workplace.
+---
 
 ---
 action: 
@@ -36,7 +48,7 @@ job_id: jobg8-1877352
 reason: Exact approved Hemel Hempstead workplace.
 ---
 
-## REVIEW (14)
+## REVIEW (19)
 
 ---
 action: 
@@ -47,6 +59,18 @@ company: Pinpoint Resourcing Ltd - Agency - Permanent
 location: Hertfordshire
 source: JobG8
 job_id: jobg8-1905967
+reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administration assistant
+company: Woodside Primary School
+location: Waltham Cross
+source: Teaching Vacancies
+job_id: teaching-vacancies-administration-assistant-woodside-primary-school
 reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
 ---
 
@@ -102,6 +126,18 @@ reason: No exact Hemel Hempstead workplace matched; local geographic review is r
 action: 
 decision: review
 automatic_decision: review
+title: Cover Administrator / Supervisor
+company: Watford Grammar School for Girls
+location: Watford
+source: Teaching Vacancies
+job_id: teaching-vacancies-cover-administrator-supervisor
+reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Credit Control Administrator
 company: Reed - Agency - Permanent
 location: Watford
@@ -114,11 +150,47 @@ reason: No exact Hemel Hempstead workplace matched; local geographic review is r
 action: 
 decision: review
 automatic_decision: review
+title: Database and Admissions Administrator
+company: Simon Balle All-Through School
+location: Hertford
+source: Teaching Vacancies
+job_id: teaching-vacancies-database-and-admissions-administrator-simon-balle-all-through-school
+reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Digital Marketing Executive
 company: SMT Recruitment - Agency - Permanent
 location: Welwyn Garden City
 source: JobG8
 job_id: jobg8-1860287
+reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Exams Officer
+company: Saint Joan of Arc Catholic School
+location: Rickmansworth
+source: Teaching Vacancies
+job_id: teaching-vacancies-exams-officer-6f4c470f-3514-47b2-bee0-5c17421f7874
+reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Finance Administrator
+company: Bassingbourn Primary School
+location: Royston
+source: Teaching Vacancies
+job_id: teaching-vacancies-finance-administrator-bassingbourn-primary-school
 reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
 ---
 

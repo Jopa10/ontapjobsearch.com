@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 3
-- automatic review: 7
+- automatic review: 8
 - automatic exclude: 0
 - effective include: 3
-- effective review: 7
+- effective review: 8
 - effective exclude: 0
 
 ## INCLUDE (3)
@@ -52,15 +52,15 @@ reason: Approved conservative Belfast launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
-company: Qualify Nation Recruitment - Agency - Permanent
+title: Senior Marketing Assistant (12-month FTC)
+company: A&O Shearman - Agency - Permanent
 location: Belfast
 source: JobG8
-job_id: jobg8-1954667
+job_id: jobg8-21582_110261545
 reason: Approved conservative Belfast launch catchment.
 ---
 
-## REVIEW (7)
+## REVIEW (8)
 
 ---
 action: 
@@ -131,6 +131,18 @@ company: Brook Street UK - Agency - Permanent
 location: Ballyclare
 source: JobG8
 job_id: jobg8-107922303
+reason: No approved Belfast catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Senior Marketing Assistant (12-month FTC)
+company: A&O Shearman - Agency - Permanent
+location: County Down
+source: JobG8
+job_id: jobg8-21582_110261480
 reason: No approved Belfast catchment rule matched; local review required.
 ---
 

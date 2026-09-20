@@ -4,7 +4,7 @@
 - Live route: `/bristol/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 18
+- Effective included jobs: 21
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 18
-- automatic review: 15
+- automatic include: 21
+- automatic review: 14
 - automatic exclude: 1
-- effective include: 18
-- effective review: 15
+- effective include: 21
+- effective review: 14
 - effective exclude: 1
 
-## INCLUDE (18)
+## INCLUDE (21)
 
 ---
 action: 
@@ -45,6 +45,18 @@ company: Robert Half - Agency - Permanent
 location: Bristol
 source: JobG8
 job_id: jobg8-1899222
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administrative Assistant for Pastoral
+company: Fairfield High School
+location: Bristol
+source: Teaching Vacancies
+job_id: teaching-vacancies-administrative-assistant-for-pastoral
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -112,6 +124,18 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Exams Officer
+company: Downend School
+location: Bristol
+source: Teaching Vacancies
+job_id: teaching-vacancies-exams-officer-downend-school
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: HR Administrator
 company: Reed - Agency - Permanent
 location: Bristol
@@ -165,6 +189,18 @@ company: Keoghs LLP - Agency - Permanent
 location: Bristol
 source: JobG8
 job_id: jobg8-1959674
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Office Assistant
+company: Chandag Primary School
+location: Bristol
+source: Teaching Vacancies
+job_id: teaching-vacancies-office-assistant-chandag-primary-school
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -240,7 +276,7 @@ job_id: jobg8-1960385
 reason: Approved conservative Bristol launch catchment.
 ---
 
-## REVIEW (15)
+## REVIEW (14)
 
 ---
 action: 
@@ -407,18 +443,6 @@ company: Yate Supplies - Agency - Permanent
 location: Somerset
 source: JobG8
 job_id: jobg8-107906403
-reason: No approved Bristol catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
-company: Qualify Nation Recruitment - Agency - Permanent
-location: Somerset
-source: JobG8
-job_id: jobg8-1954670
 reason: No approved Bristol catchment rule matched; local review required.
 ---
 

@@ -4,7 +4,7 @@
 - Live route: `/warrington/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 17
+- Effective included jobs: 18
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,26 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 17
-- automatic review: 9
+- automatic include: 18
+- automatic review: 10
 - automatic exclude: 5
-- effective include: 17
-- effective review: 9
+- effective include: 18
+- effective review: 10
 - effective exclude: 5
 
-## INCLUDE (17)
+## INCLUDE (18)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: 6 month FTC Administrator
+company: Zachary Daniels Recruitment - Agency - Contract
+location: Warrington
+source: JobG8
+job_id: jobg8-23643_225623932
+reason: Approved conservative Warrington launch catchment.
+---
 
 ---
 action: 
@@ -228,7 +240,7 @@ job_id: jobg8-1927990
 reason: Approved conservative Warrington launch catchment.
 ---
 
-## REVIEW (9)
+## REVIEW (10)
 
 ---
 action: 
@@ -299,6 +311,18 @@ company: EE - Company - Permanent
 location: Widnes
 source: JobG8
 job_id: jobg8-20279_62648-e821632b595e066f84bc5bc2227491aa
+reason: No approved Warrington catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Credit Controller
+company: Accountable Recruitment - Agency - Permanent
+location: Cheshire
+source: JobG8
+job_id: jobg8-1909831
 reason: No approved Warrington catchment rule matched; local review required.
 ---
 

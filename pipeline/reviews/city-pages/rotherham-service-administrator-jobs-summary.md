@@ -4,7 +4,7 @@
 - Live route: `/rotherham/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 0
+- Effective included jobs: 3
 - Threshold currently met: no
 
 ## How to review
@@ -15,16 +15,64 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 0
-- automatic review: 7
+- automatic include: 3
+- automatic review: 10
 - automatic exclude: 0
-- effective include: 0
-- effective review: 7
+- effective include: 3
+- effective review: 10
 - effective exclude: 0
 
-## INCLUDE (0)
+## INCLUDE (3)
 
-## REVIEW (7)
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administration Assistant
+company: Gooseacre Primary Academy
+location: Rotherham
+source: Teaching Vacancies
+job_id: teaching-vacancies-administration-assistant-gooseacre-primary-academy-rotherham-south-yorkshire
+reason: Exact approved Rotherham workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Receptionist
+company: Gateway Primary Care CIC
+location: Rotherham, S65 1DJ, Rotherham, S62 7BT, Rotherham, S60 2JH, Rotherham, S60 8GD
+source: NHS Jobs
+job_id: nhs-5588970
+reason: Exact approved Rotherham workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Receptionist
+company: Saint Pius X Catholic High School A Specialist School in Humanities
+location: Rotherham
+source: Teaching Vacancies
+job_id: teaching-vacancies-receptionist-saint-pius-x-catholic-high-school-a-specialist-school-in-humanities
+reason: Exact approved Rotherham workplace.
+---
+
+## REVIEW (10)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Admin Assistant - Part Time - 18 hrs
+company: Totley All Saints Church of England Voluntary Aided Primary School
+location: Sheffield
+source: Teaching Vacancies
+job_id: teaching-vacancies-admin-assistant-part-time-18-hrs
+reason: No exact Rotherham workplace matched; local geographic review is required.
+---
 
 ---
 action: 
@@ -78,11 +126,35 @@ reason: No exact Rotherham workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
+title: Personal Assistant to Headteacher
+company: Westfield School
+location: Sheffield
+source: Teaching Vacancies
+job_id: teaching-vacancies-personal-assistant-to-headteacher-westfield-school
+reason: No exact Rotherham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Purchase Ledger Administrator
 company: Sharp Consultancy - Agency - Permanent
 location: Doncaster
 source: JobG8
 job_id: jobg8-1899982
+reason: No exact Rotherham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Receptionist
+company: Eckington School
+location: Sheffield
+source: Teaching Vacancies
+job_id: teaching-vacancies-receptionist-458ac8b7-4b1a-49e5-9f6d-099164b8a6da
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 

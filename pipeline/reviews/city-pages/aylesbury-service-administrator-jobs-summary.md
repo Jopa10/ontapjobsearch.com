@@ -4,7 +4,7 @@
 - Live route: `/aylesbury/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 0
+- Effective included jobs: 2
 - Threshold currently met: no
 
 ## How to review
@@ -15,16 +15,52 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 0
-- automatic review: 15
+- automatic include: 2
+- automatic review: 19
 - automatic exclude: 0
-- effective include: 0
-- effective review: 15
+- effective include: 2
+- effective review: 19
 - effective exclude: 0
 
-## INCLUDE (0)
+## INCLUDE (2)
 
-## REVIEW (15)
+---
+action: 
+decision: include
+automatic_decision: include
+title: Morning Receptionist Maternity Cover
+company: Aylesbury High School
+location: Aylesbury
+source: Teaching Vacancies
+job_id: teaching-vacancies-morning-receptionist-maternity-cover
+reason: Exact approved Aylesbury workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: School Administrator
+company: Chiltern Way Academy Trust
+location: Aylesbury
+source: Teaching Vacancies
+job_id: teaching-vacancies-school-administrator-chiltern-way-academy-trust
+reason: Exact approved Aylesbury workplace.
+---
+
+## REVIEW (19)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Academy Administrator
+company: Chepping View Primary Academy
+location: High Wycombe
+source: Teaching Vacancies
+job_id: teaching-vacancies-academy-administrator-chepping-view-primary-academy-high-wycombe-buckinghamshire
+reason: No exact Aylesbury workplace matched; local geographic review is required.
+---
 
 ---
 action: 
@@ -35,6 +71,30 @@ company: KennedyPearce Consulting - Agency - Permanent
 location: Buckinghamshire
 source: JobG8
 job_id: jobg8-1868169
+reason: No exact Aylesbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Admin Centre Administrator
+company: Lord Grey Academy
+location: Milton Keynes
+source: Teaching Vacancies
+job_id: teaching-vacancies-admin-centre-administrator-lord-grey-academy-milton-keynes-buckinghamshire
+reason: No exact Aylesbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator - Prison Education - HMP Downview
+company: Milton Keynes College
+location: Milton Keynes
+source: Teaching Vacancies
+job_id: teaching-vacancies-administrator-prison-education-hmp-downview
 reason: No exact Aylesbury workplace matched; local geographic review is required.
 ---
 
@@ -174,18 +234,6 @@ reason: No exact Aylesbury workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Part-time Receptionist
-company: Practice Plus Group
-location: High Wycombe, HP12 3QL
-source: NHS Jobs
-job_id: nhs-5580971
-reason: No exact Aylesbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Procurement Coordinator
 company: Matchtech - Agency - Permanent
 location: Buckingham
@@ -199,10 +247,34 @@ action:
 decision: review
 automatic_decision: review
 title: Receptionist
+company: Purbeck Health Centre
+location: Milton Keynes, MK14 6BL
+source: NHS Jobs
+job_id: nhs-5543958
+reason: No exact Aylesbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Receptionist
 company: Riverside Surgery
 location: High Wycombe, HP11 2RZ
 source: NHS Jobs
 job_id: nhs-5607494
+reason: No exact Aylesbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Single Point of Access Administrator
+company: Central and North West London NHS Foundation Trust
+location: Milton Keynes, MK7 6AA
+source: NHS Jobs
+job_id: nhs-5600810
 reason: No exact Aylesbury workplace matched; local geographic review is required.
 ---
 

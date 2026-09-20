@@ -4,7 +4,7 @@
 - Live route: `/manchester/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 30
+- Effective included jobs: 32
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 30
+- automatic include: 32
 - automatic review: 14
 - automatic exclude: 2
-- effective include: 30
+- effective include: 32
 - effective review: 14
 - effective exclude: 2
 
-## INCLUDE (30)
+## INCLUDE (32)
 
 ---
 action: 
@@ -57,6 +57,18 @@ company: Whittaker Lane Medical Centre
 location: Manchester, M25 1EX
 source: NHS Jobs
 job_id: nhs-5362994
+reason: Approved conservative Manchester launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Assistant Exams Officer
+company: Saint Paul's Catholic High School
+location: Manchester
+source: Teaching Vacancies
+job_id: teaching-vacancies-assistant-exams-officer-saint-paul-s-catholic-high-school
 reason: Approved conservative Manchester launch catchment.
 ---
 
@@ -184,6 +196,18 @@ reason: Approved conservative Manchester launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Experienced Medical Receptionist
+company: New Islington Medical Practice
+location: Manchester, M4 6EE
+source: NHS Jobs
+job_id: nhs-5598394
+reason: Approved conservative Manchester launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Finance Administrator
 company: Cherry Professional - Relationship Led Recruitment - Agency - Permanent
 location: Manchester
@@ -220,18 +244,6 @@ reason: Approved conservative Manchester launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Global EOR Payroll Coordinator
-company: MAUVE CORPORATE SYSTEMS UK LIMITED - Agency - Temporary
-location: Manchester
-source: JobG8
-job_id: jobg8-107961732
-reason: Approved conservative Manchester launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: HR Administrator
 company: Express Solicitors - Agency - Permanent
 location: Manchester
@@ -261,6 +273,18 @@ company: Michael Page Legal - Agency - Permanent
 location: Manchester
 source: JobG8
 job_id: jobg8-1899469
+reason: Approved conservative Manchester launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Lead Design Coordinator
+company: Barhale - Agency - Permanent
+location: Manchester
+source: JobG8
+job_id: jobg8-108004837
 reason: Approved conservative Manchester launch catchment.
 ---
 
@@ -328,18 +352,6 @@ reason: Approved conservative Manchester launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Payroll Coordinator
-company: CMR Jobs Limited - Agency - Permanent
-location: Manchester
-source: JobG8
-job_id: jobg8-107895890
-reason: Approved conservative Manchester launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Purchasing Assistant
 company: EDM Limited - Agency - Permanent
 location: Manchester
@@ -381,6 +393,18 @@ company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Manchester
 source: JobG8
 job_id: jobg8-1896569
+reason: Approved conservative Manchester launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Senior Administrator to the Senior Leadership Team
+company: CHS South
+location: Manchester
+source: Teaching Vacancies
+job_id: teaching-vacancies-senior-administrator-to-the-senior-leadership-team
 reason: Approved conservative Manchester launch catchment.
 ---
 
@@ -486,6 +510,18 @@ reason: No approved Manchester catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: European Credit Controller
+company: CWC Recruitment Ltd - Agency - Permanent
+location: Lancashire
+source: JobG8
+job_id: jobg8-1910105
+reason: No approved Manchester catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Payroll Assistant
 company: Totum - Agency - Permanent
 location: Lancashire
@@ -539,18 +575,6 @@ company: Adria Solutions - Agency - Permanent
 location: Lancashire
 source: JobG8
 job_id: jobg8-1898599
-reason: No approved Manchester catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
-company: Qualify Nation Recruitment - Agency - Permanent
-location: Lancashire
-source: JobG8
-job_id: jobg8-1954679
 reason: No approved Manchester catchment rule matched; local review required.
 ---
 

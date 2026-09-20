@@ -4,7 +4,7 @@
 - Live route: `/sunderland/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 2
+- Effective included jobs: 3
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 2
-- automatic review: 32
+- automatic include: 3
+- automatic review: 35
 - automatic exclude: 0
-- effective include: 2
-- effective review: 32
+- effective include: 3
+- effective review: 35
 - effective exclude: 0
 
-## INCLUDE (2)
+## INCLUDE (3)
 
 ---
 action: 
@@ -48,7 +48,19 @@ job_id: nejobs-301377
 reason: Exact approved Sunderland workplace.
 ---
 
-## REVIEW (32)
+---
+action: 
+decision: include
+automatic_decision: include
+title: Lead Administrator
+company: Harry Watts Academy
+location: Sunderland
+source: Teaching Vacancies
+job_id: teaching-vacancies-lead-administrator-harry-watts-academy
+reason: Exact approved Sunderland workplace.
+---
+
+## REVIEW (35)
 
 ---
 action: 
@@ -107,6 +119,18 @@ company: Norton Rose Fulbright LLP - Agency - Permanent
 location: Tyne And Wear
 source: JobG8
 job_id: jobg8-1788888
+reason: No exact Sunderland workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Attendance Officer & Administrator
+company: Bede Academy
+location: Blyth
+source: Teaching Vacancies
+job_id: teaching-vacancies-attendance-officer-administrator-bede-academy-blyth-northumberland
 reason: No exact Sunderland workplace matched; local geographic review is required.
 ---
 
@@ -258,6 +282,18 @@ reason: No exact Sunderland workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
+title: HR & Payroll Administrator
+company: Emmanuel Schools Foundation
+location: Blyth
+source: Teaching Vacancies
+job_id: teaching-vacancies-hr-payroll-administrator-emmanuel-schools-foundation
+reason: No exact Sunderland workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: HR Administrator
 company: Cameron James - Agency - Permanent
 location: Tyne And Wear
@@ -402,6 +438,18 @@ reason: No exact Sunderland workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
+title: School Support Roles - Supervisory Assistant & Administrative Assistant
+company: St Peter's Church of England Primary School
+location: Wallsend
+source: Teaching Vacancies
+job_id: teaching-vacancies-school-support-roles-supervisory-assistant-administrative-assistant
+reason: No exact Sunderland workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Social Media Manager
 company: Ronald James - Agency - Permanent
 location: County Durham
@@ -414,11 +462,11 @@ reason: No exact Sunderland workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Tenant Engagement Officer
-company: Northumberland County Council
-location: Eddie Ferguson House, Blyth, United Kingdom
-source: NEJobs
-job_id: nejobs-301243
+title: Team Administrator
+company: Tees Esk and Wear Valleys NHS Foundation Trust
+location: Seaham, SR7 0BG
+source: NHS Jobs
+job_id: nhs-5589916
 reason: No exact Sunderland workplace matched; local geographic review is required.
 ---
 
@@ -426,11 +474,11 @@ reason: No exact Sunderland workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
-company: Qualify Nation Recruitment - Agency - Permanent
-location: Tyne And Wear
-source: JobG8
-job_id: jobg8-1954680
+title: Tenant Engagement Officer
+company: Northumberland County Council
+location: Eddie Ferguson House, Blyth, United Kingdom
+source: NEJobs
+job_id: nejobs-301243
 reason: No exact Sunderland workplace matched; local geographic review is required.
 ---
 

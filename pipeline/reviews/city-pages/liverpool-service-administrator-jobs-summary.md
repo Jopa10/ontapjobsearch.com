@@ -4,7 +4,7 @@
 - Live route: `/liverpool/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 6
+- Effective included jobs: 8
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 6
-- automatic review: 6
+- automatic include: 8
+- automatic review: 5
 - automatic exclude: 0
-- effective include: 6
-- effective review: 6
+- effective include: 8
+- effective review: 5
 - effective exclude: 0
 
-## INCLUDE (6)
+## INCLUDE (8)
 
 ---
 action: 
@@ -45,6 +45,30 @@ company: Reed - Agency - Permanent
 location: Liverpool
 source: JobG8
 job_id: jobg8-1937916
+reason: Approved conservative Liverpool launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Accounts Assistant / Bookkeeper
+company: Beam Recruit - Agency - Permanent
+location: Liverpool
+source: JobG8
+job_id: jobg8-1909830
+reason: Approved conservative Liverpool launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administrator (Bank)
+company: Practice Plus Group - Health in Justice
+location: Liverpool, L9 7LH
+source: NHS Jobs
+job_id: nhs-5608176
 reason: Approved conservative Liverpool launch catchment.
 ---
 
@@ -96,7 +120,7 @@ job_id: jobg8-23643_225615600
 reason: Approved conservative Liverpool launch catchment.
 ---
 
-## REVIEW (6)
+## REVIEW (5)
 
 ---
 action: 
@@ -155,18 +179,6 @@ company: Zachary Daniels - Agency - Permanent
 location: Merseyside
 source: JobG8
 job_id: jobg8-1935673
-reason: Broad county location; review before Liverpool inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
-company: Qualify Nation Recruitment - Agency - Permanent
-location: Merseyside
-source: JobG8
-job_id: jobg8-1954678
 reason: Broad county location; review before Liverpool inclusion.
 ---
 

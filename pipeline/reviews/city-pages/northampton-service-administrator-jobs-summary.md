@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 1
-- automatic review: 8
+- automatic review: 9
 - automatic exclude: 0
 - effective include: 1
-- effective review: 8
+- effective review: 9
 - effective exclude: 0
 
 ## INCLUDE (1)
@@ -36,7 +36,7 @@ job_id: jobg8-1899022
 reason: Exact approved Northampton workplace.
 ---
 
-## REVIEW (8)
+## REVIEW (9)
 
 ---
 action: 
@@ -59,6 +59,18 @@ company: 360-Recruitment - Agency - Permanent
 location: Northamptonshire
 source: JobG8
 job_id: jobg8-1908969
+reason: No exact Northampton workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrative Assistant
+company: Gretton Primary Academy
+location: Corby
+source: Teaching Vacancies
+job_id: teaching-vacancies-administrative-assistant-gretton-primary-academy
 reason: No exact Northampton workplace matched; local geographic review is required.
 ---
 

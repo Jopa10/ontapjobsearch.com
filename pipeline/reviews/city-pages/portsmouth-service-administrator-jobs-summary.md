@@ -4,7 +4,7 @@
 - Live route: `/portsmouth/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 1
+- Effective included jobs: 2
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,26 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 1
-- automatic review: 17
+- automatic include: 2
+- automatic review: 19
 - automatic exclude: 0
-- effective include: 1
-- effective review: 17
+- effective include: 2
+- effective review: 19
 - effective exclude: 0
 
-## INCLUDE (1)
+## INCLUDE (2)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administrator - The Harbour School
+company: The Harbour School
+location: Portsmouth
+source: Teaching Vacancies
+job_id: teaching-vacancies-administrator-the-harbour-school-the-harbour-school
+reason: Exact approved Portsmouth workplace.
+---
 
 ---
 action: 
@@ -36,7 +48,7 @@ job_id: jobg8-1960533
 reason: Exact approved Portsmouth workplace.
 ---
 
-## REVIEW (17)
+## REVIEW (19)
 
 ---
 action: 
@@ -47,6 +59,18 @@ company: Michael Page Finance - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-1908072
+reason: No exact Portsmouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Admin Assistant
+company: The Cambridge Primary School
+location: Aldershot
+source: Teaching Vacancies
+job_id: teaching-vacancies-admin-assistant-the-cambridge-primary-school
 reason: No exact Portsmouth workplace matched; local geographic review is required.
 ---
 
@@ -71,6 +95,18 @@ company: Practice Plus Group - Health in Justice
 location: Winchester, SO22 5DF
 source: NHS Jobs
 job_id: nhs-5608199
+reason: No exact Portsmouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: Rowner Medical Centre
+location: Gosport, PO13 9SP
+source: NHS Jobs
+job_id: nhs-5591061
 reason: No exact Portsmouth workplace matched; local geographic review is required.
 ---
 
@@ -198,6 +234,18 @@ reason: No exact Portsmouth workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
+title: Personal Assistant to Executive Headteacher
+company: Vita Multi Academy Trust
+location: Alresford
+source: Teaching Vacancies
+job_id: teaching-vacancies-personal-assistant-to-executive-headteacher-vita-multi-academy-trust
+reason: No exact Portsmouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Receptionist / Administrator
 company: The Society of St James - Agency - Permanent
 location: Hampshire
@@ -215,18 +263,6 @@ company: Operose Health
 location: Basingstoke, RG22 4EH
 source: NHS Jobs
 job_id: nhs-5592877
-reason: No exact Portsmouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Service Coordinator
-company: People First Recruitment - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-107959953
 reason: No exact Portsmouth workplace matched; local geographic review is required.
 ---
 

@@ -4,7 +4,7 @@
 - Live route: `/exeter/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 5
+- Effective included jobs: 12
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,50 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 5
-- automatic review: 14
+- automatic include: 12
+- automatic review: 24
 - automatic exclude: 0
-- effective include: 5
-- effective review: 14
+- effective include: 12
+- effective review: 24
 - effective exclude: 0
 
-## INCLUDE (5)
+## INCLUDE (12)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Attendance Officer
+company: Isca Academy
+location: Exeter
+source: Teaching Vacancies
+job_id: teaching-vacancies-attendance-officer-b4594263-9c2d-4e13-a32d-003ed85d148f
+reason: Exact approved Exeter workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Business Administrator
+company: St James School
+location: Exeter
+source: Teaching Vacancies
+job_id: teaching-vacancies-business-administrator-d383ef29-c17f-437b-8271-918c1d87de9b
+reason: Exact approved Exeter workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Business Support Administrator
+company: Devon Partnership NHS Trust
+location: Exeter, EX2 5AF, EXETER, EX2 9HS
+source: NHS Jobs
+job_id: nhs-5607097
+reason: Exact approved Exeter workplace.
+---
 
 ---
 action: 
@@ -64,6 +100,54 @@ reason: Exact approved Exeter workplace.
 action: 
 decision: include
 automatic_decision: include
+title: School Hub Administrator
+company: Cornerstone Academy Trust
+location: Exeter
+source: Teaching Vacancies
+job_id: teaching-vacancies-school-hub-administrator
+reason: Exact approved Exeter workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Senior Administrator
+company: Stansfield Academy
+location: Exeter
+source: Teaching Vacancies
+job_id: teaching-vacancies-senior-administrator-stansfield-academy-exeter-devon
+reason: Exact approved Exeter workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Service Administrator
+company: Royal Devon University Healthcare NHS Foundation Trust
+location: Exeter, EX2 5DW
+source: NHS Jobs
+job_id: nhs-5585701
+reason: Exact approved Exeter workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Service Administrator
+company: Royal Devon University Healthcare NHS Foundation Trust
+location: Exeter, EX2 5DW
+source: NHS Jobs
+job_id: nhs-5594406
+reason: Exact approved Exeter workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Team Administrator
 company: Devon Partnership NHS Trust
 location: Exeter, EX2 5AF
@@ -84,7 +168,43 @@ job_id: jobg8-1877836
 reason: Exact approved Exeter workplace.
 ---
 
-## REVIEW (14)
+## REVIEW (24)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Admin Assistant - Fixed Term
+company: Woodlands Park Primary School
+location: Ivybridge
+source: Teaching Vacancies
+job_id: teaching-vacancies-admin-assistant-fixed-term
+reason: No exact Exeter workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administration Assistant
+company: Cann Bridge School
+location: Plymouth
+source: Teaching Vacancies
+job_id: teaching-vacancies-administration-assistant-5bf8284e-5a65-4c7e-bb0a-d149927a1892
+reason: No exact Exeter workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Apprenticeship Onboarding Administrator
+company: City College Plymouth
+location: Plymouth
+source: Teaching Vacancies
+job_id: teaching-vacancies-apprenticeship-onboarding-administrator
+reason: No exact Exeter workplace matched; local geographic review is required.
+---
 
 ---
 action: 
@@ -246,11 +366,95 @@ reason: No exact Exeter workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Receptionist / Administrator / First Aid
+company: Plymstock School
+location: Plymouth
+source: Teaching Vacancies
+job_id: teaching-vacancies-receptionist-administrator-first-aid-998a420b-1445-400e-ae08-d9399cb9bf66
+reason: No exact Exeter workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Receptionist/Administrator
+company: Croft Hall Medical Practice
+location: Torquay, TQ2 5UA
+source: NHS Jobs
+job_id: nhs-5552054
+reason: No exact Exeter workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Recruitment Account Co-ordinator
 company: Acorn by Synergie - Agency - Permanent
 location: Devon
 source: JobG8
 job_id: jobg8-107953534
+reason: No exact Exeter workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Recruitment and People Services Administrator
+company: Ivy Education Trust
+location: Teignmouth
+source: Teaching Vacancies
+job_id: teaching-vacancies-recruitment-and-people-services-administrator
+reason: No exact Exeter workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: School Administrator
+company: Brunel School
+location: Paignton
+source: Teaching Vacancies
+job_id: teaching-vacancies-school-administrator-brunel-school-paignton-devon
+reason: No exact Exeter workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: School Administrator
+company: St Budeaux CofE Primary Academy
+location: Plymouth
+source: Teaching Vacancies
+job_id: teaching-vacancies-school-administrator-st-budeaux-cofe-primary-academy
+reason: No exact Exeter workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Schools Liaison Administrator
+company: City College Plymouth
+location: Plymouth
+source: Teaching Vacancies
+job_id: teaching-vacancies-schools-liaison-administrator
+reason: No exact Exeter workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Senior Administrator
+company: St Paul's Roman Catholic Primary School
+location: Plymouth
+source: Teaching Vacancies
+job_id: teaching-vacancies-senior-administrator-st-paul-s-roman-catholic-primary-school
 reason: No exact Exeter workplace matched; local geographic review is required.
 ---
 

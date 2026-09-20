@@ -4,8 +4,8 @@
 - Live route: `/maidstone/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 1
-- Threshold currently met: no
+- Effective included jobs: 4
+- Threshold currently met: yes
 
 ## How to review
 Edit only the `action:` line inside a job block.
@@ -15,14 +15,26 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 1
-- automatic review: 19
+- automatic include: 4
+- automatic review: 24
 - automatic exclude: 0
-- effective include: 1
-- effective review: 19
+- effective include: 4
+- effective review: 24
 - effective exclude: 0
 
-## INCLUDE (1)
+## INCLUDE (4)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administration Assistant
+company: St Augustine Academy
+location: Maidstone
+source: Teaching Vacancies
+job_id: teaching-vacancies-administration-assistant-st-augustine-academy
+reason: Exact approved Maidstone workplace.
+---
 
 ---
 action: 
@@ -36,7 +48,31 @@ job_id: nhs-5608655
 reason: Exact approved Maidstone workplace.
 ---
 
-## REVIEW (19)
+---
+action: 
+decision: include
+automatic_decision: include
+title: Attendance Administrator
+company: Maidstone Grammar School for Girls
+location: Maidstone
+source: Teaching Vacancies
+job_id: teaching-vacancies-attendance-administrator-2f3d689b-f206-45e5-991f-9a3a5bcff860
+reason: Exact approved Maidstone workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Personal Assistant to the Headteacher
+company: Maidstone Grammar School for Girls
+location: Maidstone
+source: Teaching Vacancies
+job_id: teaching-vacancies-personal-assistant-to-the-headteacher-maidstone-grammar-school-for-girls
+reason: Exact approved Maidstone workplace.
+---
+
+## REVIEW (24)
 
 ---
 action: 
@@ -90,11 +126,59 @@ reason: No exact Maidstone workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
+title: Administration Assistant
+company: Kent and Medway Mental Health NHS Trust
+location: Sittingbourne, ME10 4HG
+source: NHS Jobs
+job_id: nhs-5601161
+reason: No exact Maidstone workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrative Assistant
+company: Hillview School for Girls
+location: Tonbridge
+source: Teaching Vacancies
+job_id: teaching-vacancies-administrative-assistant-hillview-school-for-girls
+reason: No exact Maidstone workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Administrative Assistant
 company: Kent and Medway Mental Health NHS Trust
 location: Gillingham, ME7 1AL
 source: NHS Jobs
 job_id: nhs-5608122
+reason: No exact Maidstone workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: Kent and Medway Mental Health NHS Trust
+location: Sevenoaks, TN13 3PG
+source: NHS Jobs
+job_id: nhs-5598443
+reason: No exact Maidstone workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Admissions Officer
+company: The Robert Napier School
+location: Gillingham
+source: Teaching Vacancies
+job_id: teaching-vacancies-admissions-officer-the-robert-napier-school
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 
@@ -251,6 +335,18 @@ company: Worth Recruiting - Property Industry Recruitment - Agency - Permanent
 location: Kent
 source: JobG8
 job_id: jobg8-1896084
+reason: No exact Maidstone workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: School Receptionist & Administrator
+company: Valence School
+location: Westerham
+source: Teaching Vacancies
+job_id: teaching-vacancies-school-receptionist-administrator-valence-school-westerham-kent
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 

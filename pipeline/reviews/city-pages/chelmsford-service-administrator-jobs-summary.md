@@ -4,7 +4,7 @@
 - Live route: `/chelmsford/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 9
+- Effective included jobs: 10
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 9
-- automatic review: 45
+- automatic include: 10
+- automatic review: 51
 - automatic exclude: 0
-- effective include: 9
-- effective review: 45
+- effective include: 10
+- effective review: 51
 - effective exclude: 0
 
-## INCLUDE (9)
+## INCLUDE (10)
 
 ---
 action: 
@@ -33,6 +33,18 @@ company: Mid and South Essex NHS Foundation Trust
 location: Chelmsford, CM1 7ET
 source: NHS Jobs
 job_id: nhs-5607203
+reason: Exact approved Chelmsford workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administrator - Chelmsford
+company: Vaccination UK
+location: Chelmsford, CM144LN
+source: NHS Jobs
+job_id: nhs-5446642
 reason: Exact approved Chelmsford workplace.
 ---
 
@@ -132,7 +144,31 @@ job_id: jobg8-1956210
 reason: Exact approved Chelmsford workplace.
 ---
 
-## REVIEW (45)
+## REVIEW (51)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Academy Administrator
+company: Belfairs Academy
+location: Leigh-on-Sea
+source: Teaching Vacancies
+job_id: teaching-vacancies-academy-administrator-belfairs-academy
+reason: No exact Chelmsford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Assistant
+company: Nxtgen Recruitment - Agency - Permanent
+location: Essex
+source: JobG8
+job_id: jobg8-1908411
+reason: No exact Chelmsford workplace matched; local geographic review is required.
+---
 
 ---
 action: 
@@ -155,6 +191,18 @@ company: XENIAL CONSULTING LTD - Agency - Permanent
 location: Essex
 source: JobG8
 job_id: jobg8-1896753
+reason: No exact Chelmsford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: Alliance Medical Ltd
+location: Southend-on-Sea, SS0 0RY
+source: NHS Jobs
+job_id: nhs-5465926
 reason: No exact Chelmsford workplace matched; local geographic review is required.
 ---
 
@@ -462,6 +510,18 @@ reason: No exact Chelmsford workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
+title: Lead Administrator
+company: Limebrook Primary School and Nursery
+location: Maldon
+source: Teaching Vacancies
+job_id: teaching-vacancies-lead-administrator-limebrook-primary-school-and-nursery-maldon-essex
+reason: No exact Chelmsford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Legal Secretary
 company: Reed - Agency - Permanent
 location: Essex
@@ -606,6 +666,18 @@ reason: No exact Chelmsford workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
+title: Receptionist 0.4 (1 Year Fixed Contract)
+company: The Basildon Lower Academy
+location: Basildon
+source: Teaching Vacancies
+job_id: teaching-vacancies-receptionist-0-4-1-year-fixed-contract
+reason: No exact Chelmsford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Residential Property Paralegal
 company: REED - Agency - Permanent
 location: Essex
@@ -647,6 +719,18 @@ company: SHEAWORKS Ltd - Agency - Permanent
 location: Harlow
 source: JobG8
 job_id: jobg8-1897449
+reason: No exact Chelmsford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Social Media & Design Administrator
+company: St Bernard's High School
+location: Westcliff-on-Sea
+source: Teaching Vacancies
+job_id: teaching-vacancies-social-media-design-administrator
 reason: No exact Chelmsford workplace matched; local geographic review is required.
 ---
 

@@ -16,15 +16,15 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 0
-- automatic review: 10
+- automatic review: 11
 - automatic exclude: 0
 - effective include: 0
-- effective review: 10
+- effective review: 11
 - effective exclude: 0
 
 ## INCLUDE (0)
 
-## REVIEW (10)
+## REVIEW (11)
 
 ---
 action: 
@@ -128,6 +128,18 @@ decision: review
 automatic_decision: review
 title: Senior Marketing Assistant (12-month FTC)
 company: A&O Shearman - Agency - Permanent
+location: County Down
+source: JobG8
+job_id: jobg8-21582_110261480
+reason: No exact Newtownabbey workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Senior Marketing Assistant (12-month FTC)
+company: A&O Shearman - Agency - Permanent
 location: County Antrim
 source: JobG8
 job_id: jobg8-21582_110261497
@@ -138,11 +150,11 @@ reason: No exact Newtownabbey workplace matched; local geographic review is requ
 action: 
 decision: review
 automatic_decision: review
-title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
-company: Qualify Nation Recruitment - Agency - Permanent
+title: Senior Marketing Assistant (12-month FTC)
+company: A&O Shearman - Agency - Permanent
 location: Belfast
 source: JobG8
-job_id: jobg8-1954667
+job_id: jobg8-21582_110261545
 reason: No exact Newtownabbey workplace matched; local geographic review is required.
 ---
 
