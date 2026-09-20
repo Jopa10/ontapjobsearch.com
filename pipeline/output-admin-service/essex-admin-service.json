@@ -21,7 +21,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "St Bernard's High School",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-receptionist-0-4-1-year-fixed-contract",
@@ -45,7 +49,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "The Basildon Lower Academy",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-lead-administrator-limebrook-primary-school-and-nursery-maldon-essex",
@@ -69,7 +77,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Limebrook Primary School and Nursery",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-academy-administrator-belfairs-academy",
@@ -93,7 +105,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Belfairs Academy",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "1869539",
@@ -496,24 +512,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "nhs-5607203",
-    "source": "NHS Jobs",
-    "title": "Administrator",
-    "company": "Mid and South Essex NHS Foundation Trust",
-    "advertiser_name": "Mid and South Essex NHS Foundation Trust",
-    "location": "Chelmsford, CM1 7ET",
-    "region": "Essex",
-    "salary": "£25272.00",
-    "employment_type": "Permanent",
-    "posted_date": "2026-09-17T14:31:17.150281241",
-    "closing_date": "2026-09-24",
-    "description": "Medical Secretary Administrator Are you looking for a rewarding administrative role within the NHS, where your work makes a real difference to patient care? We have an exciting opportunity to join our Medical Secretarial Service at Broomfield Hospital as part of a friendly and supportive team. This role offers the chance to develop your administrative skills within a busy healthcare environment, providing essential support to clinical teams and helping ensure a high-quality service for patients. Whether you already have administration experience or are looking to build your career, full training and mentoring can be provided to help you succeed. As well as working alongside great colleagues, you'll benefit from a generous annual leave entitlement, an excellent NHS pension scheme, and access to a wide range of staff support services covering areas such as childcare, health and well-being, fitness and mental health. We also offer flexible working arrangements where possible, alongside employee benefits including the Cycle to Work scheme and discounted travel options. If you are organised, motivated, have excellent communication skills and enjoy working as part of a team, we'd love to hear from you. Join us and play an important role in supporting the delivery of outstanding patient care. Provide comprehensive administrative support to the clinical team, undertaking a range of duties including filing, scanning, correspondence management, form completion and maintaining accurate patient records. Support patient pathways by tracking patient progress, monitoring appointments and ensuring relevant information is updated and available in a timely manner. Process incoming and outgoing post, distribute correspondence appropriately and assist with the preparation and sending of patient letters. Retrieve and manage telephone messages, responding to enquiries promptly and escalating issues where necessary. Maintain and update spreadsheets, databases and other administrative systems, ensuring information is accurate, complete and up to date. Collate diagnostic results and ensure relevant documentation is available to support clinical decision-making and patient care. Contact patients by telephone as required to confirm appointments, provide information and support the smooth coordination of services. Provide secretarial and clerical support to the wider team, contributing to the efficient and effective delivery of patient-centred care. For full details about this varied and rewarding role, please see attached job description. We look forward to your application. Please be aware that we reserve the right to close this vacancy early if we receive a suitable number of applications. Unfortunately, there is no Visa Sponsorship available for this role. Whilst we are able to employ candidates on a graduate Visa, we are unable to offer sponsorship once the graduate visa expires.",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9390-26-2182",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9390-26-2182",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
-  },
-  {
     "job_id": "nhs-5585037",
     "source": "NHS Jobs",
     "title": "Administrator/Receptionist",
@@ -529,7 +527,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1948-26-0007",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1948-26-0007",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5582118",
@@ -547,7 +549,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3759-26-0008",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3759-26-0008",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5465926",
@@ -565,7 +571,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0151-26-0022",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0151-26-0022",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5446642",
@@ -583,6 +593,32 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0106-26-0084",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0106-26-0084",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
+  },
+  {
+    "job_id": "nhs-5605464",
+    "source": "NHS Jobs",
+    "title": "Medical Receptionist",
+    "company": "John Tasker House & Felsted Surgeries",
+    "advertiser_name": "John Tasker House & Felsted Surgeries",
+    "location": "Dunmow, CM6 1BH",
+    "region": "Essex",
+    "salary": "£12.71",
+    "employment_type": "Permanent",
+    "posted_date": "2026-09-17T10:00:02.046067858",
+    "closing_date": "2026-10-15",
+    "description": "We reserve the right to close the advertisement before the closing date, if we so choose. We have a vacancy within our medical reception team. We are looking for a candidate who has some experience with administration or reception duties, preferably in a healthcare setting, although we will consider applicants from other backgrounds. The job entails greeting patients at reception in person, over the phone, supporting GPs in care navigation, booking and cancelling appointments and a range of other administrative duties. We are looking for somebody with a friendly and approachable personality whilst ensuring professionalism at all times. We want our practice to be a welcoming place for patients and our reception team are key in providing our front of house services. Previous GP practice experience is not essential as training will be given, however, we are looking for a can-do approach and somebody who will fit in to friendly and likeable team. Patient care is at the heart of what we do and we want to provide the best possible service for them. Being a 'people' person and ability to work in a fast-paced environment is essential. Politeness, care and compassion are essential attributes to be successful within the role. Medical Receptionist duties include ability to learn our clinical system, answering telephones, booking appointments via the online rota, being IT literate, treating people with dignity and respect. Successful candidates will also be provided with further training on clinical correspondence (workflow) and there will be an expectation that some of this work forms part of the role.",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5923-26-0005",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5923-26-0005",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]
