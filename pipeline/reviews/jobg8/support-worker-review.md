@@ -237,12 +237,6 @@ job_id: 700287538578430361637341
 
 ---
 action:
-SELECTED | London | Wembley | £13 per hour (plus travel time paid.) | Home Care Worker
-job_id: 107605955
----
-
----
-action:
 SELECTED | London | Kingston Upon Thames | £14 per hour | Home Carer
 job_id: 107809919
 ---
@@ -337,11 +331,7 @@ _No jobs in this group._
 
 ## WILTSHIRE — SELECTED
 
----
-action:
-SELECTED | Wiltshire | Warminster | £15.5 per hour ((DOE)) | Support Worker Waking Nights
-job_id: 107978779
----
+_No jobs in this group._
 
 ## WILTSHIRE — POSSIBLES
 

@@ -231,12 +231,6 @@ job_id: 1820780
 
 ---
 action:
-SELECTED | London | London | £14 per hour | HR Administrator
-job_id: 1873118
----
-
----
-action:
 SELECTED | London | London |  | Billing Coordinator
 job_id: 1873362
 ---
@@ -613,6 +607,18 @@ SELECTED | London | London |  | HR Assistant (temporary)
 job_id: 1897036
 ---
 
+---
+action:
+SELECTED | London | Uxbridge | £29500 per year | Pupil Support Administrator
+job_id: 20091_324681
+---
+
+---
+action:
+SELECTED | London | Hayes | £29500 per year | Pupil Support Administrator
+job_id: 20091_324681-b5c58daf68fdcf9cf849ce08cc8c3867
+---
+
 ## LONDON — POSSIBLES
 
 _No jobs in this group._
@@ -689,6 +695,12 @@ job_id: 1899341
 action:
 SELECTED | Hampshire | Hampshire |  | Temporary Recruitment Administrator
 job_id: 1893259
+---
+
+---
+action:
+SELECTED | Hampshire | Hampshire | £30000 per year | Service Coordinator
+job_id: 107959953
 ---
 
 ## HAMPSHIRE — POSSIBLES
@@ -1065,6 +1077,12 @@ job_id: 23643_225613731
 action:
 SELECTED | Berkshire | Berkshire |  | Sales Support Administrator
 job_id: 1898953
+---
+
+---
+action:
+SELECTED | Berkshire | Berkshire | £29500 per year | Pupil Support Administrator
+job_id: 20091_324681-03f77e739f8132a7634b10f52d3f0e4f
 ---
 
 ## BERKSHIRE — POSSIBLES
@@ -2215,11 +2233,7 @@ job_id: 1909830
 
 ## MERSEYSIDE - LIVERPOOL — POSSIBLES
 
----
-action:
-POSS - MERSEYSIDE - LIVERPOOL | Merseyside - Liverpool | Liverpool | £40000 per year | Executive Assistant
-job_id: 107992608
----
+_No jobs in this group._
 
 ## NORFOLK — SELECTED
 
@@ -2347,7 +2361,11 @@ job_id: 1899022
 
 ## NORTHAMPTONSHIRE — POSSIBLES
 
-_No jobs in this group._
+---
+action:
+POSS - NORTHAMPTONSHIRE | Northamptonshire | Northamptonshire | £30000 - £35000 per year | Parts Administrator
+job_id: 23643_225623493
+---
 
 ## NORTHERN IRELAND - EAST — SELECTED
 
@@ -2367,12 +2385,6 @@ job_id: 107952610
 action:
 SELECTED | Northern Ireland - East | Ballyclare |  | Contract Administrator
 job_id: 1916549
----
-
----
-action:
-SELECTED | Northern Ireland - East | Larne |  | Administrator
-job_id: 107986102
 ---
 
 ---
@@ -2409,12 +2421,6 @@ job_id: 1900221
 action:
 SELECTED | Nottinghamshire | Nottinghamshire | £30000 per year | Accounts Assistant
 job_id: 1940401
----
-
----
-action:
-SELECTED | Nottinghamshire | Nottinghamshire |  | HR L&D Administrator
-job_id: 107989087
 ---
 
 ---
@@ -3123,6 +3129,12 @@ job_id: 1896597
 action:
 SELECTED | Wiltshire | Wiltshire | £13 - £14 per hour | Accounts and Finance Assistant
 job_id: 1896441
+---
+
+---
+action:
+SELECTED | Wiltshire | Wiltshire | £12.76 per hour | Customer Service Assistant
+job_id: 107918273
 ---
 
 ## WILTSHIRE — POSSIBLES
