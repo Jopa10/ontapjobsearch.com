@@ -1,22 +1,22 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-09-06T18:44:39+01:00",
+  "generated_at": "2026-09-20T15:30:07+01:00",
   "source": "Teaching Vacancies",
   "region": "Norfolk",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-09-06",
-  "review_fingerprint": "029122890e785bce3e88b007d653c350032032476c6ddc0a73c1ea1c17c14ad3",
-  "routing_manifest_sha256": "7fd315145b2e460bd548d4a5c1a4c8d7322399f4429f2897b7d301e5f0809506",
-  "review_csv_sha256": "7b7ed59bd4037632d73939a79574ddfbcfc4989fa7972c86fd27c195531c5158",
-  "summary_md_sha256": "a947723bc0e621d71f52c0272348797d9a5d41d6fc9b40508010405d470d61bb",
-  "approved_snapshot_sha256": "69c33e91e2cd3245ad82ffac88070c39728af3cc268779d970faf98c9c139206",
+  "review_date": "2026-09-20",
+  "review_fingerprint": "4c02c9e163cc0695f1d8894a98d06e81f1a41efef24385277bc6d3e53c224fcb",
+  "routing_manifest_sha256": "065adeebd098ac67bbd93ba5d404c793bd8bd10e570ed2e3401383dce52aeb45",
+  "review_csv_sha256": "f773acfa34121389e41ea4a843843e8585b38ddf76c887505f7cd8f3c71f61a1",
+  "summary_md_sha256": "17609d0aba3b18be052117bf463bb14a53566b4b42dd48c1a4a212c05191d87f",
+  "approved_snapshot_sha256": "e1852150cd2536893ad1cf444fd23fdfb881a35614f2d84c216fa9980a07df9d",
   "approved_rows": 5,
   "approved_job_ids": [
-    "teaching-vacancies-secretary-fleggburgh-cofe-primary-school-great-yarmouth-norfolk",
-    "teaching-vacancies-administration-assistant-fakenham-junior-school",
-    "teaching-vacancies-administration-assistant-d18e39b3-4741-40c0-9bbf-2a5916965727",
-    "teaching-vacancies-administration-assistant-queensway-junior-academy",
-    "teaching-vacancies-school-administrator-angel-road-infant-school"
+    "teaching-vacancies-administrative-assistant-woodlands-primary-academy",
+    "teaching-vacancies-attendance-officer-flegg-high-ormiston-academy",
+    "teaching-vacancies-office-assistant-west-earlham-junior-school",
+    "teaching-vacancies-school-secretary-rudham-cofe-primary-academy",
+    "teaching-vacancies-administration-assistant-hopton-church-of-england-primary-academy"
   ]
 }

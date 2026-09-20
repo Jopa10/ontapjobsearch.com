@@ -1,18 +1,16 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-09-06T18:44:36+01:00",
+  "generated_at": "2026-09-20T15:30:06+01:00",
   "source": "Teaching Vacancies",
   "region": "Gloucestershire",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-09-06",
-  "review_fingerprint": "f7035e5ee7d00984530797c9f120a21d9ea42622da663037f5789e5149948edb",
-  "routing_manifest_sha256": "7fd315145b2e460bd548d4a5c1a4c8d7322399f4429f2897b7d301e5f0809506",
-  "review_csv_sha256": "9efdbf336d1684d89912bdf8d2bd1b48bd78235e1a282ab144c86455480d8883",
-  "summary_md_sha256": "1a11edff3ff0d20fe2c98a25b54181cded951a8d441f3a2b78857737b739c403",
-  "approved_snapshot_sha256": "79f36f74e947afdc0eeb5e67b538efd04b69f2e684384c0c7e100ce689e83ebb",
-  "approved_rows": 1,
-  "approved_job_ids": [
-    "teaching-vacancies-administration-assistant-level-1-brook-academy"
-  ]
+  "review_date": "2026-09-20",
+  "review_fingerprint": "46415ab625f56d9ae116a413a8a98fcebc1eb20e68d78fc5ddbf5f4847eeef4f",
+  "routing_manifest_sha256": "065adeebd098ac67bbd93ba5d404c793bd8bd10e570ed2e3401383dce52aeb45",
+  "review_csv_sha256": "476d2e6190f0cd0d531bf18d63d6db47019e147585b484087e108d1850b4d92e",
+  "summary_md_sha256": "e2e2ee60111ecaa21a4b7fc75e4f3d8b2555cc02b52b4d449830ef52c4cfdf76",
+  "approved_snapshot_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+  "approved_rows": 0,
+  "approved_job_ids": []
 }

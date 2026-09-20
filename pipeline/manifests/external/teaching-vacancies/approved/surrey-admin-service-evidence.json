@@ -1,21 +1,19 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-09-06T18:44:40+01:00",
+  "generated_at": "2026-09-20T15:30:09+01:00",
   "source": "Teaching Vacancies",
   "region": "Surrey",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-09-06",
-  "review_fingerprint": "decab7f35ef6265842d264f2546bd7eacd7b854018807462ab5637d6d6dace68",
-  "routing_manifest_sha256": "7fd315145b2e460bd548d4a5c1a4c8d7322399f4429f2897b7d301e5f0809506",
-  "review_csv_sha256": "8e4f6492704e117fd55afb37810254ce88f6c5737b3724fd316ebd098505d630",
-  "summary_md_sha256": "2b4ff88b33a370b7fe8c4a9b646b8ce51aa3a554957f9584235f370bb495aa87",
-  "approved_snapshot_sha256": "f4518c1b0314d7eb80eeaa1fdf4a3713a5ee951339d06065837350791350facb",
-  "approved_rows": 4,
+  "review_date": "2026-09-20",
+  "review_fingerprint": "35073e48c7b0cccf6c1f9f43b54e9ef2087b60f52714bc43e0ae409fc494d89c",
+  "routing_manifest_sha256": "065adeebd098ac67bbd93ba5d404c793bd8bd10e570ed2e3401383dce52aeb45",
+  "review_csv_sha256": "8ee936985c61ba20077656e8f2ad88bf6cae83f2ed2980f27cd02d43a446f669",
+  "summary_md_sha256": "00763ecb001e18f672d51dc8221476a39db7eb82cc302849f69edb1598723ab1",
+  "approved_snapshot_sha256": "0eb9243a97f82a2e1b174591275c732ae2134734b460ee3c688e25481b895aa0",
+  "approved_rows": 2,
   "approved_job_ids": [
-    "teaching-vacancies-attendance-and-admissions-officer-danetree-primary-school-epsom-surrey",
-    "teaching-vacancies-hr-admin-assistant-holland-junior-school-oxted-surrey",
-    "teaching-vacancies-office-assistant-fox-grove-school",
-    "teaching-vacancies-careers-administrator-1c0a6851-3e9c-4719-8774-31c627db4f71"
+    "teaching-vacancies-hr-administrator-1dca9cd8-4ff7-45e1-986b-c7d1c85e6a0a",
+    "teaching-vacancies-safeguarding-and-send-administrative-assistant-eastwick-infant-school"
   ]
 }

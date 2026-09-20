@@ -1,20 +1,23 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-09-06T18:44:38+01:00",
+  "generated_at": "2026-09-20T15:30:07+01:00",
   "source": "Teaching Vacancies",
   "region": "Kent",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-09-06",
-  "review_fingerprint": "5faee25febded48dd64121b70e94d49d380b1bc391127661f1911875c84463e4",
-  "routing_manifest_sha256": "7fd315145b2e460bd548d4a5c1a4c8d7322399f4429f2897b7d301e5f0809506",
-  "review_csv_sha256": "99db3b622429fc8fe7aa8d955c765655855f741be7590c4d0adbef81ec261a56",
-  "summary_md_sha256": "715258be76f7537005494021d2615f20e39f2a9eac3f3194237c9b3c74887e3e",
-  "approved_snapshot_sha256": "e9326def0ad8e29830c6056167e2f85938af1b9a0fac591102d2863ecee856fa",
-  "approved_rows": 3,
+  "review_date": "2026-09-20",
+  "review_fingerprint": "ca389d00347800c40ce9ed5e078b5916c406a373bd02718146b660f7e1f380e2",
+  "routing_manifest_sha256": "065adeebd098ac67bbd93ba5d404c793bd8bd10e570ed2e3401383dce52aeb45",
+  "review_csv_sha256": "ff3b75dd6ef2f3459e2e4eaaa08d1beba8f26e7e4d06d00a01a035515aa2fb65",
+  "summary_md_sha256": "2cc2dc7326ba4cad938b360362f2f06d40cb8270697df80d7edb9bcdd0bbb13a",
+  "approved_snapshot_sha256": "4b562e4d03178f402d3b3ab08a438c1e4f9256c2b39a7db488fa5d1394d0ccad",
+  "approved_rows": 6,
   "approved_job_ids": [
-    "teaching-vacancies-hr-administrator-the-diocese-of-canterbury-academies-trust",
-    "teaching-vacancies-admissions-officer-the-university-of-kent-academies-trust",
-    "teaching-vacancies-examinations-admissions-officer"
+    "teaching-vacancies-administration-assistant-st-augustine-academy",
+    "teaching-vacancies-administrative-assistant-hillview-school-for-girls",
+    "teaching-vacancies-attendance-administrator-2f3d689b-f206-45e5-991f-9a3a5bcff860",
+    "teaching-vacancies-school-receptionist-administrator-valence-school-westerham-kent",
+    "teaching-vacancies-admissions-officer-the-robert-napier-school",
+    "teaching-vacancies-personal-assistant-to-the-headteacher-maidstone-grammar-school-for-girls"
   ]
 }

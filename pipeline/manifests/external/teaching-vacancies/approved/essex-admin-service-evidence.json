@@ -1,19 +1,21 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-09-06T18:44:36+01:00",
+  "generated_at": "2026-09-20T15:30:06+01:00",
   "source": "Teaching Vacancies",
   "region": "Essex",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-09-06",
-  "review_fingerprint": "7ccc783d1a3add525fd71d8c254d235cd00e0851d62074e4cd50f44d1d268e18",
-  "routing_manifest_sha256": "7fd315145b2e460bd548d4a5c1a4c8d7322399f4429f2897b7d301e5f0809506",
-  "review_csv_sha256": "d58238f1a240dd87178fa635429c200102cc994a90e236082490048c2b6924d8",
-  "summary_md_sha256": "c611fbef42f4baf30eb9eced226fb8443c0c0ce0b0c94071053ac5567030f0a8",
-  "approved_snapshot_sha256": "10775b8cc93043aec8b641dd00b8bc318d85ce1af19afe044995a1650155382e",
-  "approved_rows": 2,
+  "review_date": "2026-09-20",
+  "review_fingerprint": "16d467e12a86251d3c4a8ab82ed3131b8d9a0f2fab4623adeaddd1fb7356787a",
+  "routing_manifest_sha256": "065adeebd098ac67bbd93ba5d404c793bd8bd10e570ed2e3401383dce52aeb45",
+  "review_csv_sha256": "f5e2900b4da1bf06cd6e799338a8a96bb3299013f3339c28fae7d957cca40ebb",
+  "summary_md_sha256": "13e343dddd5376d485b07aa41264a5f76d7d9f045db106d3d43a62353a7f99bb",
+  "approved_snapshot_sha256": "f9600e6617e5eb695e6cce9c1ff6e0d660fb654790ea624b0c3a31c4666be899",
+  "approved_rows": 4,
   "approved_job_ids": [
-    "teaching-vacancies-trust-administrator-discovery-educational-trust",
-    "teaching-vacancies-administrative-assistant-pupil-admissions-pupil-data"
+    "teaching-vacancies-social-media-design-administrator",
+    "teaching-vacancies-receptionist-0-4-1-year-fixed-contract",
+    "teaching-vacancies-lead-administrator-limebrook-primary-school-and-nursery-maldon-essex",
+    "teaching-vacancies-academy-administrator-belfairs-academy"
   ]
 }

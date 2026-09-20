@@ -1,20 +1,19 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-09-06T18:44:40+01:00",
+  "generated_at": "2026-09-20T15:30:08+01:00",
   "source": "Teaching Vacancies",
   "region": "Staffordshire",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-09-06",
-  "review_fingerprint": "3ec8931d37f08740dff3d696769f7fbb902be4a502668473287ef786621a94dd",
-  "routing_manifest_sha256": "7fd315145b2e460bd548d4a5c1a4c8d7322399f4429f2897b7d301e5f0809506",
-  "review_csv_sha256": "5a52cad63a78cc3158ecb1adb9e9585d0a5493a0ab61bf8e93e8e4e07c9ebfa2",
-  "summary_md_sha256": "71e249e7c5bbf3c95a082b19e90a6fdaa11c006f5ed1072a8b2187d06f0281b6",
-  "approved_snapshot_sha256": "46cfc027d104018569fed5376c55503d785340a85d05221fe9ad5afa347b9764",
-  "approved_rows": 3,
+  "review_date": "2026-09-20",
+  "review_fingerprint": "b9538a417982f3288ed1cb69e3ca3df2ec1ebf6e0cf9979c165b783cfc49bf85",
+  "routing_manifest_sha256": "065adeebd098ac67bbd93ba5d404c793bd8bd10e570ed2e3401383dce52aeb45",
+  "review_csv_sha256": "9938f97c07ae0b9ac4a0eda090e80410e053d1ddc1d15363f4b47566238aafa3",
+  "summary_md_sha256": "e3eaad76083d57e2c46dec6b3d90d4197274f9e4d64449bd31abc129bce67990",
+  "approved_snapshot_sha256": "50acd9cecbf711e6380984bf63cc48313b21cd3bfac5f5701bbf4c3df40f4037",
+  "approved_rows": 2,
   "approved_job_ids": [
-    "teaching-vacancies-finance-administrator-apprentice-manor-hall-academy-trust",
-    "teaching-vacancies-attendance-officer-level-4-longford-primary-academy",
-    "teaching-vacancies-administrative-assistant-the-shaw-education-trust"
+    "teaching-vacancies-finance-administrator-st-margaret-ward-catholic-academy",
+    "teaching-vacancies-receptionist-and-admin-assistant-lift-tamworth"
   ]
 }

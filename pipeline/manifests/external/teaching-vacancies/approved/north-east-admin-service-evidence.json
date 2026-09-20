@@ -1,18 +1,21 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-09-06T18:44:39+01:00",
+  "generated_at": "2026-09-20T15:30:07+01:00",
   "source": "Teaching Vacancies",
   "region": "North East",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-09-06",
-  "review_fingerprint": "a794447204dadee113374dc1f2d4babffcd60cd0eb5b7d48feacedac87bdba5a",
-  "routing_manifest_sha256": "7fd315145b2e460bd548d4a5c1a4c8d7322399f4429f2897b7d301e5f0809506",
-  "review_csv_sha256": "1a3f1c1a93f44792aff30dc5777eb5afead41d55d7aef58b2a8863e4074aa481",
-  "summary_md_sha256": "82ab36862390805a9c97714f1d6caf0e9358e8c2c7a158812035c362aaab49d6",
-  "approved_snapshot_sha256": "02a10af35f04f2ee31919e4938d479df59a7913f7e9c0bacd9029db90c3ddc0f",
-  "approved_rows": 1,
+  "review_date": "2026-09-20",
+  "review_fingerprint": "8bbe72d183ba971ed59728aff0d7e9f37efc5265ae8b8269b706b8d685e8196f",
+  "routing_manifest_sha256": "065adeebd098ac67bbd93ba5d404c793bd8bd10e570ed2e3401383dce52aeb45",
+  "review_csv_sha256": "a397034b5483997d6974c3845bf89f26a14a65dd66aaa8084331ad2053cac955",
+  "summary_md_sha256": "57dd2fdb461d4c15d95cbae16b1b0a5f4a47d653be29909bc4c34d80f3b2e80e",
+  "approved_snapshot_sha256": "9fa183f93dae64432e437a4060a176fe2fdd16f72d3c2509e51873e036278630",
+  "approved_rows": 4,
   "approved_job_ids": [
-    "teaching-vacancies-administrative-assistant-level-3-gosforth-academy-newcastle-upon-tyne-tyne-and-wear"
+    "teaching-vacancies-school-support-roles-supervisory-assistant-administrative-assistant",
+    "teaching-vacancies-attendance-officer-administrator-bede-academy-blyth-northumberland",
+    "teaching-vacancies-hr-payroll-administrator-emmanuel-schools-foundation",
+    "teaching-vacancies-lead-administrator-harry-watts-academy"
   ]
 }

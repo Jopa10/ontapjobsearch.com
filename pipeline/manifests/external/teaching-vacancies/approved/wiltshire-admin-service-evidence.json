@@ -1,18 +1,21 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-09-06T18:44:41+01:00",
+  "generated_at": "2026-09-20T15:30:09+01:00",
   "source": "Teaching Vacancies",
   "region": "Wiltshire",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-09-06",
-  "review_fingerprint": "77706c22818c4145b832b5870953d0e04c83297c45beb19eaf757b1896b83cf0",
-  "routing_manifest_sha256": "7fd315145b2e460bd548d4a5c1a4c8d7322399f4429f2897b7d301e5f0809506",
-  "review_csv_sha256": "f50ac32a05e536f046fd8869d76a1f63283dc0685fca912863bf4beeefe031bd",
-  "summary_md_sha256": "db2d2164fa0a376a695b5ac73ad0da110e0c40fc56ca5dd17ffcb887ac0679d3",
-  "approved_snapshot_sha256": "30bacd32f8ce8f18f6a8a6af587bc833e23fe556c29b0691f5a21eae68aa2ba9",
-  "approved_rows": 1,
+  "review_date": "2026-09-20",
+  "review_fingerprint": "1c481d599018b4e0d830b5101151c601391263d1a30faccd1f7289b699072b46",
+  "routing_manifest_sha256": "065adeebd098ac67bbd93ba5d404c793bd8bd10e570ed2e3401383dce52aeb45",
+  "review_csv_sha256": "47440c11ffaa2033f68c4724b53f2fb9c0796100892f632f52c0ee561b27dce7",
+  "summary_md_sha256": "9e02f65a5d80f805b776477f9f96e821c994d4d0fb07fc68a2b08a79dc4804b9",
+  "approved_snapshot_sha256": "03d4a64b5c80b66e69c1a4ea3c03d53f87ca4a64619ed14c95f7081e6cb092fe",
+  "approved_rows": 4,
   "approved_job_ids": [
-    "teaching-vacancies-it-system-administrator-excalibur-shared-services-1177ebd4-e195-4745-824b-6613f2065ccf"
+    "teaching-vacancies-exams-officer-a0e6b270-9f8e-4c55-b68b-38b5e9214d1b",
+    "teaching-vacancies-school-receptionist-even-swindon-primary-school",
+    "teaching-vacancies-school-attendance-administrator",
+    "teaching-vacancies-part-time-receptionist-administrator-nova-hreod-academy"
   ]
 }

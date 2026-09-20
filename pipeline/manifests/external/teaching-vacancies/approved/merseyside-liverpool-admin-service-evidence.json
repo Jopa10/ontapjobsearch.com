@@ -1,19 +1,16 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-09-06T18:44:39+01:00",
+  "generated_at": "2026-09-20T15:30:07+01:00",
   "source": "Teaching Vacancies",
   "region": "Merseyside - Liverpool",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-09-06",
-  "review_fingerprint": "495432ae196b70f8256c524cbc05de50efa5abc5bc85ff66528c38ab4801f975",
-  "routing_manifest_sha256": "7fd315145b2e460bd548d4a5c1a4c8d7322399f4429f2897b7d301e5f0809506",
-  "review_csv_sha256": "1d9f480aaebdbad40faa70ce084b245ffd3a55324a649b30cff6179194e7bd03",
-  "summary_md_sha256": "270ab6be9c0a3575dd9e9d35b7887d57cc4a8c75fa6003fbe41a7b77441415fc",
-  "approved_snapshot_sha256": "f67c04ef972e5ea47656f579bb74aedb5156cc875f80a72feb6b5e29edef8cb4",
-  "approved_rows": 2,
-  "approved_job_ids": [
-    "teaching-vacancies-receptionist-king-s-leadership-academy-wavertree-liverpool",
-    "teaching-vacancies-school-operations-pa-to-headteacher"
-  ]
+  "review_date": "2026-09-20",
+  "review_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+  "routing_manifest_sha256": "065adeebd098ac67bbd93ba5d404c793bd8bd10e570ed2e3401383dce52aeb45",
+  "review_csv_sha256": "602077f55f00e5e41adec44afa78a0066f68e0d9dc08d4473d187024addb1357",
+  "summary_md_sha256": "acf1d0b1cb7f18fc7835405f08b6289358b06feb8306082540bed48235588f5c",
+  "approved_snapshot_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+  "approved_rows": 0,
+  "approved_job_ids": []
 }

@@ -1,18 +1,18 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-09-06T18:44:35+01:00",
+  "generated_at": "2026-09-20T15:30:05+01:00",
   "source": "Teaching Vacancies",
   "region": "Cheshire - West",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-09-06",
-  "review_fingerprint": "0661fedbbb32dd7b520bfacefad76e507bb007f0d4a00a791ce2b01a356662bb",
-  "routing_manifest_sha256": "7fd315145b2e460bd548d4a5c1a4c8d7322399f4429f2897b7d301e5f0809506",
-  "review_csv_sha256": "6a247d288e6fa71def9d29e3476ea9ef307a271a139dbc70eaf2ac7c0cb10dde",
-  "summary_md_sha256": "5a23f1b7773f3db050447ead1460a5ff8e70eae81c0db2b541b9da44f7e69956",
-  "approved_snapshot_sha256": "657ab9fac9eb67dd2d015664210be08c7003581c2590dd1da4f3a8242da78f5e",
+  "review_date": "2026-09-20",
+  "review_fingerprint": "e196c60add401de62c446917ba1cf052038c1fa6c8f9699217e26e25fa23add4",
+  "routing_manifest_sha256": "065adeebd098ac67bbd93ba5d404c793bd8bd10e570ed2e3401383dce52aeb45",
+  "review_csv_sha256": "dd344381761182e6e578de4c916ae4e901c9e9b18974f83ff54a7dfdca850cd1",
+  "summary_md_sha256": "854ec451909b4eb1f9ee33c21cdd5f9461fcdfef178ed94b24caab13a880f71c",
+  "approved_snapshot_sha256": "fd099224ccb3c6832d78584b5811e5e0e35bb28b0a1647cba598426aa657425d",
   "approved_rows": 1,
   "approved_job_ids": [
-    "teaching-vacancies-pastoral-administrator-the-whitby-high-school-ellesmere-port-cheshire"
+    "teaching-vacancies-finance-administrator-upton-by-chester-high-school"
   ]
 }

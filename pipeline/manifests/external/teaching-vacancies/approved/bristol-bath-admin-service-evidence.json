@@ -1,18 +1,20 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-09-06T18:44:34+01:00",
+  "generated_at": "2026-09-20T15:30:04+01:00",
   "source": "Teaching Vacancies",
   "region": "Bristol & Bath",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-09-06",
-  "review_fingerprint": "ba872ad7b19666c82d0cb91b3c5aead939b97af6b6db6237f96b204406737e9c",
-  "routing_manifest_sha256": "7fd315145b2e460bd548d4a5c1a4c8d7322399f4429f2897b7d301e5f0809506",
-  "review_csv_sha256": "a44d951498cfdbf48b5bf9ffdd79d60144b29a6a66b3568db0ad467072504093",
-  "summary_md_sha256": "99693f1859479b7f1e0afac19d3bd9a6cf186530127cb407f7479fed9b274e83",
-  "approved_snapshot_sha256": "2875c98309bd988aeff848f1fa62874eddc8a05c417a15d011dc431596cfde96",
-  "approved_rows": 1,
+  "review_date": "2026-09-20",
+  "review_fingerprint": "b25a91c297a5cf050ba2531e4546d3452145a7a2d57226fa9a9139766cf57310",
+  "routing_manifest_sha256": "065adeebd098ac67bbd93ba5d404c793bd8bd10e570ed2e3401383dce52aeb45",
+  "review_csv_sha256": "65a6ed204133d414172a477517637bd45a7d257c0b17d148ec3ba800bc1b0e83",
+  "summary_md_sha256": "616583c8ec47d5c0f7cc27bf31e34233d82a7b17d4a5ce2e29a33bac2b0a6d09",
+  "approved_snapshot_sha256": "1dcfc18c662ea51f10d9e8b423b9689502bd75ed9e78680e28b2cd806583813a",
+  "approved_rows": 3,
   "approved_job_ids": [
-    "teaching-vacancies-school-administrator-parson-street-primary-school"
+    "teaching-vacancies-office-assistant-chandag-primary-school",
+    "teaching-vacancies-exams-officer-downend-school",
+    "teaching-vacancies-administrative-assistant-for-pastoral"
   ]
 }

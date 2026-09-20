@@ -1,19 +1,25 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-09-06T18:44:40+01:00",
+  "generated_at": "2026-09-20T15:30:08+01:00",
   "source": "Teaching Vacancies",
   "region": "Shropshire",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-09-06",
-  "review_fingerprint": "acc2acb59ba490c3bc385da1c02c252877dc2069a352f5cc011ce507dcb89ae6",
-  "routing_manifest_sha256": "7fd315145b2e460bd548d4a5c1a4c8d7322399f4429f2897b7d301e5f0809506",
-  "review_csv_sha256": "9bb0e06c04f172d95989676300c73c8c09111363965e9a65da1e24ad1949a193",
-  "summary_md_sha256": "a895870f360cc86649d95b1cf94d0e8e8395319fe5795ef79058bdfb8da9c8e2",
-  "approved_snapshot_sha256": "580b9811735c0a6a19dc2c8f2700de27ae5cd7bbacee71a5396bb8e8b4a2e5cb",
-  "approved_rows": 2,
+  "review_date": "2026-09-20",
+  "review_fingerprint": "3a02c15a5b5964bcfcedfd532ab465a917aa70e9752b9d0ac8cb8d9ef7530b88",
+  "routing_manifest_sha256": "065adeebd098ac67bbd93ba5d404c793bd8bd10e570ed2e3401383dce52aeb45",
+  "review_csv_sha256": "d679fc586ea94e7edd0f5ba6c40f257741c811804db7eaa7a9150a17d35a3fe8",
+  "summary_md_sha256": "0498fba8852f448c32721a5f1d529237d78698922b3737e5bd5bbd5a48ae0c3e",
+  "approved_snapshot_sha256": "ffd93eec9ca585b0f5e9651305643081e32e8d79483e3760c627e12d33e8ef1f",
+  "approved_rows": 8,
   "approved_job_ids": [
     "teaching-vacancies-admin-assistant-st-edward-s-cofe-primary-school",
-    "teaching-vacancies-administration-assistant-inclusion-and-people"
+    "teaching-vacancies-administrative-assistant-receptionist-mary-webb-school-and-science-college",
+    "teaching-vacancies-administrator-attendance-student-support",
+    "teaching-vacancies-business-support-administrator-st-george-s-junior-school-shrewsbury-shropshire",
+    "teaching-vacancies-receptionist-administrator-meole-brace-school-shrewsbury-shropshire",
+    "teaching-vacancies-administration-assistant-severndale-specialist-academy-shrewsbury-shropshire",
+    "teaching-vacancies-finance-admin-assistant-beech-grove-primary-school",
+    "teaching-vacancies-senco-and-safeguarding-admin-assistant-hlta-position"
   ]
 }

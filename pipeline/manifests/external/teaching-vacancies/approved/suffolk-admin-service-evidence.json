@@ -1,18 +1,21 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-09-06T18:44:40+01:00",
+  "generated_at": "2026-09-20T15:30:08+01:00",
   "source": "Teaching Vacancies",
   "region": "Suffolk",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-09-06",
-  "review_fingerprint": "0af86a25d3a777a5b1b9015ddf77fac0e1f4305ce5ec939b010bfd3f83a1bb02",
-  "routing_manifest_sha256": "7fd315145b2e460bd548d4a5c1a4c8d7322399f4429f2897b7d301e5f0809506",
-  "review_csv_sha256": "b65dbdd831e6f23fb08e6a9210e7ac1e8da342ddf69c803accb4e6944cc5cd29",
-  "summary_md_sha256": "98b91e116cdf416474535afe1fc62ca580db42255e2f1171f92e6760e29727ab",
-  "approved_snapshot_sha256": "16f45eb2986e6dda5c6f059e613952e87ab607aaa4a5d3b82abe19795c9a31fd",
-  "approved_rows": 1,
+  "review_date": "2026-09-20",
+  "review_fingerprint": "528c0f5d136ec6a926b59dfc5b02c0d0e6c2c678220533b9b2d8ab65c90cef98",
+  "routing_manifest_sha256": "065adeebd098ac67bbd93ba5d404c793bd8bd10e570ed2e3401383dce52aeb45",
+  "review_csv_sha256": "42ebe93efae44e3ff4c36bd9800583ee61d4e642bc0294a32752030c0333a8ea",
+  "summary_md_sha256": "1091f9def50c75b27c0bc5fc54c8cc4a4dca260ba6a359c2690a2b8d927356bd",
+  "approved_snapshot_sha256": "175f81ed3d1a983429f693dea584bfe68356bbebb076b20ea63a30b0cfa71f2d",
+  "approved_rows": 4,
   "approved_job_ids": [
-    "teaching-vacancies-examinations-officer-farlingaye-high-school"
+    "teaching-vacancies-examinations-officer-farlingaye-high-school",
+    "teaching-vacancies-sendco-admin-assistant-hillside-primary-school-ipswich-suffolk",
+    "teaching-vacancies-admin-assistant-castle-east-school",
+    "teaching-vacancies-administration-assistant-castle-east-school"
   ]
 }

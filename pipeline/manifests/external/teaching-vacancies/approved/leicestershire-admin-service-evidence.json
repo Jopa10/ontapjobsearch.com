@@ -1,20 +1,21 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-09-06T18:44:38+01:00",
+  "generated_at": "2026-09-20T15:30:07+01:00",
   "source": "Teaching Vacancies",
   "region": "Leicestershire",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-09-06",
-  "review_fingerprint": "11cca4f7a2cecf862becd67dc2f73b1bfd0fb921959be78305825a5477a66205",
-  "routing_manifest_sha256": "7fd315145b2e460bd548d4a5c1a4c8d7322399f4429f2897b7d301e5f0809506",
-  "review_csv_sha256": "675bb7b67ccde0ebaf3431ed7ff7f29d77a9e6b823ef5c738bd5a51d90de4478",
-  "summary_md_sha256": "596f374524a853a4edc54d571ec096640691dbaada580d39931efe1114fa4b77",
-  "approved_snapshot_sha256": "b81bb808b1ed6955b69293fd693f8cba7934d4508ad4ad23c641cecc827cdaeb",
-  "approved_rows": 3,
+  "review_date": "2026-09-20",
+  "review_fingerprint": "91dc2a51598867acb40f41f38a1a83d30afc827fe7acf20e919ffa676d7f0a35",
+  "routing_manifest_sha256": "065adeebd098ac67bbd93ba5d404c793bd8bd10e570ed2e3401383dce52aeb45",
+  "review_csv_sha256": "8d17ed774f673da22dce17a42531e521203ad6aa45183713aed98336af6be060",
+  "summary_md_sha256": "300ad46437ce75689c950b746ff2e215356ca2229ac0461d2a5dc183e952869c",
+  "approved_snapshot_sha256": "8dcaf295d210ccd73c0bf00bd6b8b63906cc349cb82f9b73b1b583f7287bef22",
+  "approved_rows": 4,
   "approved_job_ids": [
-    "teaching-vacancies-administrative-assistant-receptionist-krishna-avanti-primary-school",
-    "teaching-vacancies-learning-support-administrator-loughborough-college",
-    "teaching-vacancies-receptionist-sherrier-church-of-england-primary-school"
+    "teaching-vacancies-office-administrator-maternity-cover-braunstone-frith-primary-academy",
+    "teaching-vacancies-safeguarding-and-attendance-administrator-tudor-grange-samworth-academy-a-church-of-england-school",
+    "teaching-vacancies-senior-administrator-exams-data",
+    "teaching-vacancies-receptionist-maternity-cover-manorfield-church-of-england-primary-school"
   ]
 }

@@ -1,18 +1,20 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-09-06T18:44:42+01:00",
+  "generated_at": "2026-09-20T15:30:10+01:00",
   "source": "Teaching Vacancies",
   "region": "Yorkshire - East",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-09-06",
-  "review_fingerprint": "96b6dc8c07388ec78a71e79ea5229cf98af1867a9cf4da5ddf7bebc02a060578",
-  "routing_manifest_sha256": "7fd315145b2e460bd548d4a5c1a4c8d7322399f4429f2897b7d301e5f0809506",
-  "review_csv_sha256": "6218b5988575937c211c325265a867a205faf87c0da43e6c56cab03fbf892439",
-  "summary_md_sha256": "f3a67e10400a711d0ecf5fa005d49f05fa58e28cb4e219cfcd6677ec67db0e87",
-  "approved_snapshot_sha256": "cc3c82fcc7fd707c86710c87c385a6eb8cf9f038da7b29a62dbcf4cf519f557a",
-  "approved_rows": 1,
+  "review_date": "2026-09-20",
+  "review_fingerprint": "d045866e61073cbf08d15d214a652698df76e72fce543f034bf79dcdbd56f851",
+  "routing_manifest_sha256": "065adeebd098ac67bbd93ba5d404c793bd8bd10e570ed2e3401383dce52aeb45",
+  "review_csv_sha256": "5f2ca37ae1d3ee7bcd98c0fb33aceae4099c3eceffef63305df46c909c8ecc59",
+  "summary_md_sha256": "52269cdd3dcd2fd3b7ee45d27bdf5ae134ae886effbe790962e0db2a32cabfd6",
+  "approved_snapshot_sha256": "e825de93022ecb350fce3dc51a2655b1715bf4f5a8a1b9a05b9a25ec5562a4ad",
+  "approved_rows": 3,
   "approved_job_ids": [
-    "teaching-vacancies-administration-assistant-kingswood-parks-primary-school"
+    "teaching-vacancies-exams-officer-bridlington-school",
+    "teaching-vacancies-receptionist-administrator-8983c99a-ea81-4d03-945c-21a86c87cb36",
+    "teaching-vacancies-send-administrator-liberty-academy"
   ]
 }

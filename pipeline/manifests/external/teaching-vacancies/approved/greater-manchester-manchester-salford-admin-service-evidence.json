@@ -1,21 +1,20 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-09-06T18:44:36+01:00",
+  "generated_at": "2026-09-20T15:30:06+01:00",
   "source": "Teaching Vacancies",
   "region": "Greater Manchester - Manchester & Salford",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-09-06",
-  "review_fingerprint": "30e8e074459d066eb9c9b3c3f1decb9338e7a568ec506bc6631661ebcfd8211b",
-  "routing_manifest_sha256": "7fd315145b2e460bd548d4a5c1a4c8d7322399f4429f2897b7d301e5f0809506",
-  "review_csv_sha256": "9b69ae40b1f150dc4eb0ddb317653c9b96f47a79514b6ccce6b0259a28a4ad61",
-  "summary_md_sha256": "d6311923bef1e8e5781722c1a4831edb31e287f14df890be8c58fd0d8808b5cc",
-  "approved_snapshot_sha256": "57593c2dc896063fef30016255704a26018b55bb5eee2ea1dba60585a45a54f1",
-  "approved_rows": 4,
+  "review_date": "2026-09-20",
+  "review_fingerprint": "be40957dac51a11b651cd4f3a3bf508595f80b21af3951f471a40fa59c6bb12d",
+  "routing_manifest_sha256": "065adeebd098ac67bbd93ba5d404c793bd8bd10e570ed2e3401383dce52aeb45",
+  "review_csv_sha256": "6ae5ef1c7b4a8925733a7774213a4f0e1edfa9be30f2efe05131efdabce23fb8",
+  "summary_md_sha256": "359cf957018f0d43fed9a663064c9a2dc8746974dba3e812bc1e5a6f7666fb30",
+  "approved_snapshot_sha256": "a9b3eec0b211b8650b1dcd4ef1db5a87c62d3ac417821058f394e14009a208a5",
+  "approved_rows": 3,
   "approved_job_ids": [
-    "teaching-vacancies-level-2-academy-administrator-b06ab9cb-ab9d-4cf2-9142-0597902d3d58",
-    "teaching-vacancies-administration-assistant-c2f65b3b-e84d-4148-98e6-f9f60ceb2d22",
-    "teaching-vacancies-data-exams-officer-0ab804f7-3ae3-4446-bad0-ef8458fd8eda",
+    "teaching-vacancies-senior-administrator-to-the-senior-leadership-team",
+    "teaching-vacancies-assistant-exams-officer-saint-paul-s-catholic-high-school",
     "teaching-vacancies-pastoral-administrator-salford-city-academy"
   ]
 }

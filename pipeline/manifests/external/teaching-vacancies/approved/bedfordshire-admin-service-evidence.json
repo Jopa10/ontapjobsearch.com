@@ -1,19 +1,21 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-09-06T18:44:34+01:00",
+  "generated_at": "2026-09-20T15:30:04+01:00",
   "source": "Teaching Vacancies",
   "region": "Bedfordshire",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-09-06",
-  "review_fingerprint": "d38cf895e503037f447ca61641f533d0f314d84e58b8436e6e402009c6111b35",
-  "routing_manifest_sha256": "7fd315145b2e460bd548d4a5c1a4c8d7322399f4429f2897b7d301e5f0809506",
-  "review_csv_sha256": "f326f3711edabac9128fc3313e12eaafc1aae3785a41723ff790d2641500e41e",
-  "summary_md_sha256": "b41ef0b3639764ca433b3a2bd9fb66a3a16b5d5d6ced4ba42ff34b22c6992b14",
-  "approved_snapshot_sha256": "b17f92c35b4e005733c2700d7e1b1d67acf692ffa376b972c0b0b826a38cc499",
-  "approved_rows": 2,
+  "review_date": "2026-09-20",
+  "review_fingerprint": "a8f8aae8b8d5206538b0afb8b07b7cc9fabc8ed6dc3428cda25ec04712775557",
+  "routing_manifest_sha256": "065adeebd098ac67bbd93ba5d404c793bd8bd10e570ed2e3401383dce52aeb45",
+  "review_csv_sha256": "8de1e10f816ac65438e5d16a4e4f5ce2e8b2c49ba6867ddc627aff4ccc6f1d0c",
+  "summary_md_sha256": "a46362ffe908990f08f6e8e9f5256be0193249f1a00bb784e20846fa34c54fdb",
+  "approved_snapshot_sha256": "17e8211dfe7400c37ecf2d0ca5adb12c344e55b7b62c89478dcb6f9f6d2facde",
+  "approved_rows": 4,
   "approved_job_ids": [
-    "teaching-vacancies-administrative-assistant-39c3ce62-ad82-43cf-a920-db593d957c9a",
-    "teaching-vacancies-safeguarding-attendance-welfare-administrator"
+    "teaching-vacancies-office-administrator-st-john-rigby-catholic-primary-school",
+    "teaching-vacancies-reception-administrator-assistant",
+    "teaching-vacancies-receptionist-finance-assistant",
+    "teaching-vacancies-office-administrator-gamlingay-village-primary"
   ]
 }

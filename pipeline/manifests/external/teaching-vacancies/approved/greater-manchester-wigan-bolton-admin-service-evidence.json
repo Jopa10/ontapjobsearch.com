@@ -1,16 +1,16 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-09-06T18:44:37+01:00",
+  "generated_at": "2026-09-20T15:30:06+01:00",
   "source": "Teaching Vacancies",
   "region": "Greater Manchester - Wigan & Bolton",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-09-06",
-  "review_fingerprint": "2e4b3e4eb81cc139ea94307dee7abd543720d604b620473aacceaf4ccb7f9c06",
-  "routing_manifest_sha256": "7fd315145b2e460bd548d4a5c1a4c8d7322399f4429f2897b7d301e5f0809506",
-  "review_csv_sha256": "708cd268253f684f84d24af6a5ccab6ba4305df6683929ffe65a86e9406a262f",
-  "summary_md_sha256": "2f55fc363301f439991df885d3381ab55aaea32ea8a75f83243d671c1ea49f0d",
-  "approved_snapshot_sha256": "993e36374038d0df434b4efd0fe80055d478653cb44e534936ab6d4dbe197a4a",
+  "review_date": "2026-09-20",
+  "review_fingerprint": "541025689f9ae892ce6012ae8daf32c3a261b4160ba62441fe3e60a4b4c3eac9",
+  "routing_manifest_sha256": "065adeebd098ac67bbd93ba5d404c793bd8bd10e570ed2e3401383dce52aeb45",
+  "review_csv_sha256": "944ba32212258d6e9eb6f6c45751bc81c89fcdae82ebf60cac09a9100a87bf52",
+  "summary_md_sha256": "2979ef0553aa38360dafa74c698cc52edac5484724be5590c58fdb10661b2ca4",
+  "approved_snapshot_sha256": "df91a02621e2a75cd43b3faa8a1ba5dcf179826fcc48f1fc0d5d85a51dac87a6",
   "approved_rows": 1,
   "approved_job_ids": [
     "teaching-vacancies-school-receptionist-harper-green-school"

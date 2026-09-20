@@ -1,19 +1,22 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-09-06T18:44:41+01:00",
+  "generated_at": "2026-09-20T15:30:09+01:00",
   "source": "Teaching Vacancies",
   "region": "Sussex",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-09-06",
-  "review_fingerprint": "d39d75134052de35a4f7f622706bcd41864a87b1891d6a4a2afda9125a3ce51f",
-  "routing_manifest_sha256": "7fd315145b2e460bd548d4a5c1a4c8d7322399f4429f2897b7d301e5f0809506",
-  "review_csv_sha256": "60c95a57e91aae0bec6fae82827f96d7ebaf159d7ae851edc45421fab6d14467",
-  "summary_md_sha256": "3e5456650bc6322e76f711f2432dee396eaf6a478cfcef833bb4f74775a2e660",
-  "approved_snapshot_sha256": "ff4c5d6802caa92c98458c2d35620220f85ee4de050ad5a2d5b442fe75e2f740",
-  "approved_rows": 2,
+  "review_date": "2026-09-20",
+  "review_fingerprint": "409e5a468616d1ae420ea8a81c24026e511a746dcbbf29180787077aa4404ccf",
+  "routing_manifest_sha256": "065adeebd098ac67bbd93ba5d404c793bd8bd10e570ed2e3401383dce52aeb45",
+  "review_csv_sha256": "ed140e26493c4e74f28d3b46e3bce8d8b82a4ca3d2213adc814ebcdc6f26dbcb",
+  "summary_md_sha256": "9197efc8b8cd2c9833a2b3e08df12a307b38ebdfc3244003d47ec6df77bcb234",
+  "approved_snapshot_sha256": "16cf7f6035112cbc6c8c1c9a3dad936b9cb37f041a81b4452c479cf0a983fdb3",
+  "approved_rows": 5,
   "approved_job_ids": [
     "teaching-vacancies-school-secretary-administrative-assistant",
-    "teaching-vacancies-year-9-administrative-assistant-including-year-10-work-experience"
+    "teaching-vacancies-year-9-administrative-assistant-including-year-10-work-experience",
+    "teaching-vacancies-administration-assistant-shinewater-primary-school",
+    "teaching-vacancies-exams-officer-cfs",
+    "teaching-vacancies-receptionist-administrator-brantridge-school"
   ]
 }

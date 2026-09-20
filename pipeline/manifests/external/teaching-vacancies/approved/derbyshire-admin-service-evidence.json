@@ -1,18 +1,16 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-09-06T18:44:35+01:00",
+  "generated_at": "2026-09-20T15:30:05+01:00",
   "source": "Teaching Vacancies",
   "region": "Derbyshire",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-09-06",
-  "review_fingerprint": "81f455dca59dffbbb053f6367949f96bc12edd5dcff707f1e5e7ced9bcc1fa85",
-  "routing_manifest_sha256": "7fd315145b2e460bd548d4a5c1a4c8d7322399f4429f2897b7d301e5f0809506",
-  "review_csv_sha256": "fcbda6c9a9bf9efd6dd685a147c4c757360d030754025bade15979fe1a7f4b89",
-  "summary_md_sha256": "36229506345a864e42a9af57d0d397441f9a968fcf8ae721363d8402b2e1cf3f",
-  "approved_snapshot_sha256": "5640e3658052720615d8f1348b049f74e285601023d1727b029ac4b3c696eb53",
-  "approved_rows": 1,
-  "approved_job_ids": [
-    "teaching-vacancies-administrative-assistant-cover-administrator-the-bolsover-school"
-  ]
+  "review_date": "2026-09-20",
+  "review_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+  "routing_manifest_sha256": "065adeebd098ac67bbd93ba5d404c793bd8bd10e570ed2e3401383dce52aeb45",
+  "review_csv_sha256": "f1ae47674b6f3620c74438418b81ea6c0ea214ac90d8dc9a0edfe35a4be29d38",
+  "summary_md_sha256": "74f42a5e7d2243be9b2ba00226e08603689b7b6a6c5f11980b3381212f46bd90",
+  "approved_snapshot_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+  "approved_rows": 0,
+  "approved_job_ids": []
 }

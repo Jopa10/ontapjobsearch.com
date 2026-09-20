@@ -1,20 +1,19 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-09-06T18:44:42+01:00",
+  "generated_at": "2026-09-20T15:30:10+01:00",
   "source": "Teaching Vacancies",
   "region": "Yorkshire - North",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-09-06",
-  "review_fingerprint": "b0754cf116fc08fa0050061c07bf14ea9935d6c62feef44679be74398e56f411",
-  "routing_manifest_sha256": "7fd315145b2e460bd548d4a5c1a4c8d7322399f4429f2897b7d301e5f0809506",
-  "review_csv_sha256": "119a74be21a0fc2fa54dcd0743878f22f8dc7948f18756397764e38c20d3db87",
-  "summary_md_sha256": "1857c44e375f53c69b75ecdc0ce79fd60f8df31de7525ae52df4b7a4ffddfe29",
-  "approved_snapshot_sha256": "de7959bc356147e6ad3c12aed2b31380ce97d3bb81302bb5bdb3ea503813fbe8",
-  "approved_rows": 3,
+  "review_date": "2026-09-20",
+  "review_fingerprint": "b5170c548686cc612ccc4d950f06981652cd53daaf329dd7f5cfdfabc51aa8a3",
+  "routing_manifest_sha256": "065adeebd098ac67bbd93ba5d404c793bd8bd10e570ed2e3401383dce52aeb45",
+  "review_csv_sha256": "13d1fc49bf24212030442e9ce16172350e98d408211258da4b357247e087e039",
+  "summary_md_sha256": "0155399958077882ddf641763689d06dce0e89c555811ea1feeb4e1097d0687a",
+  "approved_snapshot_sha256": "0f08ce927e02f6cc040187d8481cc3aebeb00e4feb4f5b1eef1150271a46bc44",
+  "approved_rows": 2,
   "approved_job_ids": [
-    "teaching-vacancies-apprentice-administrator-braeburn-primary-and-nursery-academy",
-    "teaching-vacancies-senior-administrator-braeburn-primary-and-nursery-academy-scarborough-north-yorkshire",
-    "teaching-vacancies-school-office-administrator-askwith-primary-school"
+    "teaching-vacancies-send-administrator-george-pindar-school",
+    "teaching-vacancies-attendance-administrator-archbishop-holgate-s-school-a-church-of-england-academy"
   ]
 }

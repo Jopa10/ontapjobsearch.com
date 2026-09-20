@@ -1,19 +1,16 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-09-06T18:44:37+01:00",
+  "generated_at": "2026-09-20T15:30:06+01:00",
   "source": "Teaching Vacancies",
   "region": "Greater Manchester - South",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-09-06",
-  "review_fingerprint": "abe67c52152e4486f20d71291803ca61ad063e2aac931aa717269cb8c4bbfc82",
-  "routing_manifest_sha256": "7fd315145b2e460bd548d4a5c1a4c8d7322399f4429f2897b7d301e5f0809506",
-  "review_csv_sha256": "a5c15ff9dce34f1d39e4a23a7a584a5b0fdedce201c0e47b318c7903b45ad8ca",
-  "summary_md_sha256": "504fa6d79e2d2924fc406c668e47d27bef88abf7ff0f72db3366452f27ba7c87",
-  "approved_snapshot_sha256": "4a0cfa48af3663baa88c97eb01da8cbecefc6ecb55bb03cc76c3a2ec9c330920",
-  "approved_rows": 2,
-  "approved_job_ids": [
-    "teaching-vacancies-office-administrator-elmridge-primary-school",
-    "teaching-vacancies-student-attendance-officer-cheadle-hulme-high-school"
-  ]
+  "review_date": "2026-09-20",
+  "review_fingerprint": "9a8d5d3d6cf5e5ac9bb1fc4b15e8553aa9788df20dffd8ddb24cca2af79d9620",
+  "routing_manifest_sha256": "065adeebd098ac67bbd93ba5d404c793bd8bd10e570ed2e3401383dce52aeb45",
+  "review_csv_sha256": "3e55548ce336696c527aea4772115b397effb3cb8f9f3950fb74198ef201e801",
+  "summary_md_sha256": "beefa4c0ee337c689ac0e47287ec16b518e0cfac2b95050b08dadbd1612fd905",
+  "approved_snapshot_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+  "approved_rows": 0,
+  "approved_job_ids": []
 }

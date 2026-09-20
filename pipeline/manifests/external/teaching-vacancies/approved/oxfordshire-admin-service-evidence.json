@@ -1,20 +1,26 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-09-06T18:44:40+01:00",
+  "generated_at": "2026-09-20T15:30:08+01:00",
   "source": "Teaching Vacancies",
   "region": "Oxfordshire",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-09-06",
-  "review_fingerprint": "c9b610943c7182294e1bfef8ee6cc8c3bac0a7d2e7fa350631aa3ea82f4ac8cf",
-  "routing_manifest_sha256": "7fd315145b2e460bd548d4a5c1a4c8d7322399f4429f2897b7d301e5f0809506",
-  "review_csv_sha256": "00ef91d7db71fe333f76e5e192ebaa0f4a4024a60a3cf144025b531f6c10b48f",
-  "summary_md_sha256": "6d8ca75552710d5d5f686475b6cbee7e8b4325fa5f2d51112dd030057be9c0a5",
-  "approved_snapshot_sha256": "a2f29f2c34028e1c250ec7c6d5908d71eb09b01a8d1577f2d106a73589e6a602",
-  "approved_rows": 3,
+  "review_date": "2026-09-20",
+  "review_fingerprint": "6f40f1f6537928c40c5ef1781ca70cae3e85ea608cc553071e250f45a2cb7ae1",
+  "routing_manifest_sha256": "065adeebd098ac67bbd93ba5d404c793bd8bd10e570ed2e3401383dce52aeb45",
+  "review_csv_sha256": "1771794e938e2a98620a5530885466b255a17c649338a31b20c1895b132d5658",
+  "summary_md_sha256": "c8c12c8107f3c83fb151277c34a5ed648765f2605bd858e32667a99c6b2ecaac",
+  "approved_snapshot_sha256": "472e360fc07eeb33d0b05e8e39ecd87bed748d49869a2502b635da13355c62a2",
+  "approved_rows": 9,
   "approved_job_ids": [
-    "teaching-vacancies-sixth-form-administrator-team-leader",
-    "teaching-vacancies-attendance-administrator-faringdon-community-college",
-    "teaching-vacancies-grade-6-office-administrator-3e4de74e-af8a-4ee3-b949-0a2e141ed8ab"
+    "teaching-vacancies-attendance-officer-wallingford-school",
+    "teaching-vacancies-procurement-administrator-hybrid-role",
+    "teaching-vacancies-student-receptionist-and-pastoral-assistant",
+    "teaching-vacancies-careers-administrator-cbb25421-bec6-4abb-95a2-a79f4b477968",
+    "teaching-vacancies-administration-assistant-bloxham-grove-academy-banbury",
+    "teaching-vacancies-administrative-assistant-chalgrove-community-primary-school",
+    "teaching-vacancies-office-administrator-wantage-primary-academy-wantage-oxfordshire",
+    "teaching-vacancies-data-insights-and-examinations-officer-orion-academy",
+    "teaching-vacancies-administrative-assistant-bampton-cofe-primary-school-bampton-oxfordshire"
   ]
 }

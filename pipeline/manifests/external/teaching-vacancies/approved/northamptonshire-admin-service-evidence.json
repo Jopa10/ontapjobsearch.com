@@ -1,20 +1,18 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-09-06T18:44:39+01:00",
+  "generated_at": "2026-09-20T15:30:08+01:00",
   "source": "Teaching Vacancies",
   "region": "Northamptonshire",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-09-06",
-  "review_fingerprint": "fb3f2fd3362bba20618c515a3b7d0a60950db79f2416bdc51cfea7551ad9911d",
-  "routing_manifest_sha256": "7fd315145b2e460bd548d4a5c1a4c8d7322399f4429f2897b7d301e5f0809506",
-  "review_csv_sha256": "3839a34cd6fc654deb40e26e965ad8ef46600e6a8d33977c3b8da481aa53be53",
-  "summary_md_sha256": "aa95af2b667339c3f7be082772e1aa9defce46451efe256eaf8d6439a703d9ee",
-  "approved_snapshot_sha256": "8c1c159337b369091c4e926a25dd1f4d52241e9020de191c67159fd654036ac2",
-  "approved_rows": 3,
+  "review_date": "2026-09-20",
+  "review_fingerprint": "babf54fc2a4d126305bb9d30e70bc5b95aa3a7ff01a7fa9311c015130c23eaec",
+  "routing_manifest_sha256": "065adeebd098ac67bbd93ba5d404c793bd8bd10e570ed2e3401383dce52aeb45",
+  "review_csv_sha256": "ff101af21eede896bd1a7c6ebe18a0b7253df263b9a44a949a76d7fb90c4cf75",
+  "summary_md_sha256": "28fb97f023e5080449cbdf25f66eeea2124fc7f884859f7c037b767d2d879348",
+  "approved_snapshot_sha256": "155dbb116dfcab8577be2ca5177965db1c79d36341045c4a38d7a35406fb1ad2",
+  "approved_rows": 1,
   "approved_job_ids": [
-    "teaching-vacancies-administrative-assistant-b859019b-7b6c-4ece-9a4e-4225227e6a1e",
-    "teaching-vacancies-admin-assistant-barry-primary-school",
-    "teaching-vacancies-administrator-raunds-park-infant-school-wellingborough-northamptonshire"
+    "teaching-vacancies-administrative-assistant-gretton-primary-academy"
   ]
 }

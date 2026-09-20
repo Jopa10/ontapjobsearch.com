@@ -1,24 +1,24 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-09-06T18:44:38+01:00",
+  "generated_at": "2026-09-20T15:30:06+01:00",
   "source": "Teaching Vacancies",
   "region": "Hertfordshire",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-09-06",
-  "review_fingerprint": "966cad7232de6ad70efed22691ca4e821d4428ea168863d59da860a4e0e4ee40",
-  "routing_manifest_sha256": "7fd315145b2e460bd548d4a5c1a4c8d7322399f4429f2897b7d301e5f0809506",
-  "review_csv_sha256": "2b3a71e766ee0c1cbd8a9a2718c01724fae7727b71f65699db2cc815491a6b00",
-  "summary_md_sha256": "c2dbaa37c015b090be7461484593e4fc413a24ad79535b8d6db01d7806c858b2",
-  "approved_snapshot_sha256": "27d1e8228ccd948e1a9466864c7dc0eb7c7eda2020d1429de7c1c67332f21050",
+  "review_date": "2026-09-20",
+  "review_fingerprint": "f6c350c4a129b610d81a759342fc622b9df8affada69766fdce32a60663fae9b",
+  "routing_manifest_sha256": "065adeebd098ac67bbd93ba5d404c793bd8bd10e570ed2e3401383dce52aeb45",
+  "review_csv_sha256": "a0123b70dcd936dd7c3bb20861a71e7ef1103033d6f551ece6f3abad8b6cbde3",
+  "summary_md_sha256": "d34d33a6e5f6ee72a1633b1604190296db469244928ad4000ed7d5069498eef2",
+  "approved_snapshot_sha256": "062d4769a66e8dbe5a309b4c3dc2ce15b7959ff9f53fd3f24f7f2a2ed7991125",
   "approved_rows": 7,
   "approved_job_ids": [
-    "teaching-vacancies-governance-administrator-aspire-academies-trust",
-    "teaching-vacancies-administrator-the-acorn-centre",
-    "teaching-vacancies-admin-assistant-learning-support-nicholas-breakspear-catholic-school",
-    "teaching-vacancies-pastoral-administrator-croxley-danes-school-rickmansworth-hertfordshire",
-    "teaching-vacancies-school-receptionist-part-time",
-    "teaching-vacancies-personal-assistant-to-the-headteacher-and-senior-leadership-team",
-    "teaching-vacancies-administrator-and-pupil-welfare-the-orchard-primary-school"
+    "teaching-vacancies-administration-assistant-woodside-primary-school",
+    "teaching-vacancies-administrator-and-pupil-welfare-the-orchard-primary-school",
+    "teaching-vacancies-examinations-officer-a5731d2f-6372-47b8-8d69-8228b7ce94d0",
+    "teaching-vacancies-exams-officer-6f4c470f-3514-47b2-bee0-5c17421f7874",
+    "teaching-vacancies-finance-administrator-bassingbourn-primary-school",
+    "teaching-vacancies-cover-administrator-supervisor",
+    "teaching-vacancies-database-and-admissions-administrator-simon-balle-all-through-school"
   ]
 }

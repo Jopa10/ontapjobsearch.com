@@ -1,16 +1,20 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-09-06T18:44:42+01:00",
+  "generated_at": "2026-09-20T15:30:10+01:00",
   "source": "Teaching Vacancies",
   "region": "Worcestershire",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-09-06",
-  "review_fingerprint": "2d1ab446ca40e4eb5ce0ee4f16fce13424b06a4e779185b48ce0f03ee8ef69e4",
-  "routing_manifest_sha256": "7fd315145b2e460bd548d4a5c1a4c8d7322399f4429f2897b7d301e5f0809506",
-  "review_csv_sha256": "13f988aea13c3cc738d0d26cde04f29819564b8437e59395f8ed7d58ae47f24b",
-  "summary_md_sha256": "ce1b159b79ddd34110ec32b3a5c156ae96bdc5da9164d2af8944398cdeb79891",
-  "approved_snapshot_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
-  "approved_rows": 0,
-  "approved_job_ids": []
+  "review_date": "2026-09-20",
+  "review_fingerprint": "3cdff9133768085e2012a2a0cd6025f5eec8e68a2f6b0e134b687aad35b0d517",
+  "routing_manifest_sha256": "065adeebd098ac67bbd93ba5d404c793bd8bd10e570ed2e3401383dce52aeb45",
+  "review_csv_sha256": "b5fab9a91506ee9844025b5fe4acb808e3c3ea15e0e7db56fc0799eb264abbac",
+  "summary_md_sha256": "99207ef8a3f69b9f76b0a7b23a18229fb0d0c395501f37152ead1b4f549972f6",
+  "approved_snapshot_sha256": "1af88bfefd14ab5ee209ea196c6424b601b93cdd1409439ee3c74ed3c15611c3",
+  "approved_rows": 3,
+  "approved_job_ids": [
+    "teaching-vacancies-administrative-assistant-and-attendance",
+    "teaching-vacancies-exams-officer-bce7ec54-a91f-4508-abf1-303d3191a779",
+    "teaching-vacancies-administrator-send-department-tenbury-high-ormiston-academy"
+  ]
 }

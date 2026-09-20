@@ -1,22 +1,24 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-09-06T18:44:38+01:00",
+  "generated_at": "2026-09-20T15:30:07+01:00",
   "source": "Teaching Vacancies",
   "region": "Lincolnshire",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-09-06",
-  "review_fingerprint": "d90747e5fcc54851d449a9ee3a1cb21270aba368d071c844c934b273529f2f73",
-  "routing_manifest_sha256": "7fd315145b2e460bd548d4a5c1a4c8d7322399f4429f2897b7d301e5f0809506",
-  "review_csv_sha256": "8955fb7708cfaac3f88c273b5a9c4a7615f1c8ab26b0dd9a01795af70fd43e95",
-  "summary_md_sha256": "2224acd595bb9edb4c88779ea21f39cb14ea6ba38ed2ad0f42301381516c2e46",
-  "approved_snapshot_sha256": "f759dc806dfd05f2ceba02badae5b2ac5a7d289bda574ee5df1512a75c2a29c4",
-  "approved_rows": 5,
+  "review_date": "2026-09-20",
+  "review_fingerprint": "04c4b4505acbafc3ad11e6f14663a6597eea11122f10b7b1b609f3bc3be11937",
+  "routing_manifest_sha256": "065adeebd098ac67bbd93ba5d404c793bd8bd10e570ed2e3401383dce52aeb45",
+  "review_csv_sha256": "efe7b6b582f83ebb0ffc8132831d192a73058fe8a9eda164640ee5dce95c6e59",
+  "summary_md_sha256": "0788eea3847e2875c8eca5abae7de995af191464b34eb051438ca6d6aa317039",
+  "approved_snapshot_sha256": "4dc3feae869ad946d9aaa386eb825627dd086fede71effcc97924a85606a8cc9",
+  "approved_rows": 7,
   "approved_job_ids": [
-    "teaching-vacancies-assistant-administrator-bc00604f-24a2-4741-bbd7-1135c9c18070",
-    "teaching-vacancies-hr-administrator-tulip-academy",
-    "teaching-vacancies-receptionist-admin-officer-oasis-academy-parkwood",
+    "teaching-vacancies-receptionist-administrative-assistant-the-priory-city-of-lincoln-academy-lincoln-lincolnshire",
     "teaching-vacancies-cover-and-operations-administrator",
-    "teaching-vacancies-data-exams-officer-thomas-middlecott-academy"
+    "teaching-vacancies-data-and-exams-officer-the-vale-academy",
+    "teaching-vacancies-hr-administrator-chapel-st-leonards-primary-school",
+    "teaching-vacancies-school-administrator-role-attendance-assistant-a776f8a6-c388-4b6b-b481-9a6f4d4c6e5e",
+    "teaching-vacancies-sixth-form-administrator-carre-s-grammar-school-sleaford-lincolnshire",
+    "teaching-vacancies-administration-assistant-woodlands-academy-grimsby-north-east-lincolnshire"
   ]
 }

@@ -1,20 +1,20 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-09-06T18:44:41+01:00",
+  "generated_at": "2026-09-20T15:30:09+01:00",
   "source": "Teaching Vacancies",
   "region": "West Midlands - Coventry & Warwickshire",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-09-06",
-  "review_fingerprint": "245885e5212a1166f8cb40da07c094aa11e89d5fefdfd0a16e34aca217d109b2",
-  "routing_manifest_sha256": "7fd315145b2e460bd548d4a5c1a4c8d7322399f4429f2897b7d301e5f0809506",
-  "review_csv_sha256": "82c5eb18b13d860385dc1c60856984f98496eed178a7a27acf97a84ceadbeff2",
-  "summary_md_sha256": "172ed97a5e204e017a9c3885eec2453103652419fb8d661e79d5e43afa890733",
-  "approved_snapshot_sha256": "5cac299069b047efde2ee405b40954621988bdf923497a2308590a270918072c",
+  "review_date": "2026-09-20",
+  "review_fingerprint": "2aec2f4c0e56922ae0d9650d99835a59d097fc6592174a70354ebeb41db42246",
+  "routing_manifest_sha256": "065adeebd098ac67bbd93ba5d404c793bd8bd10e570ed2e3401383dce52aeb45",
+  "review_csv_sha256": "3dc7e77a585673a2ad6b6afdd33da93cf95cae8bc271b8e288509916a2ad4bdf",
+  "summary_md_sha256": "d6b4fee4ea85a912942027175fbda0730a759f8b50a37cdd3b91a878168c4819",
+  "approved_snapshot_sha256": "3427baa342c20ae30ffca14fb27182493be820101ff1caec96a2a144f7cabc74",
   "approved_rows": 3,
   "approved_job_ids": [
-    "teaching-vacancies-receptionist-admin-officer-f47a5a75-5bef-45e1-a471-94bb514d5613",
-    "teaching-vacancies-receptionist-and-administrator-ftc-contract-september-december-2026-kenilworth-school-and-sixth-form-kenilworth",
-    "teaching-vacancies-personal-assistant-pa-to-the-headteachers-oak-wood-schools"
+    "teaching-vacancies-administration-assistant-23d0b4b5-47f8-416c-924d-d887471e9a01",
+    "teaching-vacancies-administrator-studley-st-mary-s-cofe-academy",
+    "teaching-vacancies-pa-to-principal-the-queen-elizabeth-academy-atherstone-warwickshire"
   ]
 }

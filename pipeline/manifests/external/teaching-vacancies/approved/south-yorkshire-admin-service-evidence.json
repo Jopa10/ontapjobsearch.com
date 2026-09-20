@@ -1,22 +1,23 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-09-06T18:44:42+01:00",
+  "generated_at": "2026-09-20T15:30:10+01:00",
   "source": "Teaching Vacancies",
   "region": "Yorkshire - South",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-09-06",
-  "review_fingerprint": "25701323d167859e4ea089fb846bdf06b28e1ec0d271c0a34e99111eca260f4a",
-  "routing_manifest_sha256": "7fd315145b2e460bd548d4a5c1a4c8d7322399f4429f2897b7d301e5f0809506",
-  "review_csv_sha256": "1b899ed305e8959775ede8c5928a1c5ffdf7b99838651066c336c4353ebbba3e",
-  "summary_md_sha256": "1157c5016c0e1af2124f276dddf15dec38c501255feef774043f8f79e04c13f3",
-  "approved_snapshot_sha256": "d5ab4f9907d97d431fe57171cb3663c5d535cfe76f3e80e9582be27ead012c91",
-  "approved_rows": 5,
+  "review_date": "2026-09-20",
+  "review_fingerprint": "c7b554474cc7ebf1d73672ee1f806938847a5756951429f12fc3a3f8f4a58eeb",
+  "routing_manifest_sha256": "065adeebd098ac67bbd93ba5d404c793bd8bd10e570ed2e3401383dce52aeb45",
+  "review_csv_sha256": "95570de444d281474b336c66658f9cae14b3e59562967722a2037f06ccbc1102",
+  "summary_md_sha256": "5e5c8c988b9cf4ef20f3c9295865f99223adb75184e292be138cfe59d20a8cd9",
+  "approved_snapshot_sha256": "2f2faef64b9e3906bdef5beb3939a8cb3bfedfcc5674241d918af34b0d20aee2",
+  "approved_rows": 6,
   "approved_job_ids": [
-    "teaching-vacancies-senior-administrator-higher-education",
-    "teaching-vacancies-send-administrator-aston-academy-sheffield-south-yorkshire",
-    "teaching-vacancies-permanent-admin-assistant",
-    "teaching-vacancies-admin-clerical-officer-level-2-rowan-school",
-    "teaching-vacancies-receptionist-totley-primary-school"
+    "teaching-vacancies-receptionist-458ac8b7-4b1a-49e5-9f6d-099164b8a6da",
+    "teaching-vacancies-receptionist-totley-primary-school",
+    "teaching-vacancies-personal-assistant-to-headteacher-westfield-school",
+    "teaching-vacancies-administration-assistant-gooseacre-primary-academy-rotherham-south-yorkshire",
+    "teaching-vacancies-receptionist-saint-pius-x-catholic-high-school-a-specialist-school-in-humanities",
+    "teaching-vacancies-admin-assistant-part-time-18-hrs"
   ]
 }
