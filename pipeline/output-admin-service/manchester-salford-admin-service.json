@@ -637,11 +637,7 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0105-26-0003",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0105-26-0003",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "A"
   },
   {
     "job_id": "nhs-5602924",
@@ -659,11 +655,7 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9437-26-0825",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9437-26-0825",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "A"
   },
   {
     "job_id": "nhs-5362994",
@@ -681,11 +673,7 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4834-26-0002",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4834-26-0002",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "A"
   },
   {
     "job_id": "nhs-5604780",
@@ -703,11 +691,7 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2366-26-0007",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2366-26-0007",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "B"
   },
   {
     "job_id": "nhs-5599492",
@@ -725,10 +709,24 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9437-26-0816",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9437-26-0816",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "B"
+  },
+  {
+    "job_id": "nhs-5598394",
+    "source": "NHS Jobs",
+    "title": "Experienced Medical Receptionist",
+    "company": "New Islington Medical Practice",
+    "advertiser_name": "New Islington Medical Practice",
+    "location": "Manchester, M4 6EE",
+    "region": "Greater Manchester - Manchester & Salford",
+    "salary": "£26300.00",
+    "employment_type": "Permanent",
+    "posted_date": "2026-09-14T14:10:13.877982232",
+    "closing_date": "2026-09-27",
+    "description": "We are looking to recruit a Full time Experienced Receptionist/Administrator to join our team at New Islington Medical Practice. This is an essential role providing a welcoming and professional service to our patients and staff of the practice. The vacancy is for 37.5hrs however we will consider flexible working and compressed hours during the recruitment process. You will be expected to undertake front-desk responsibilities, and be able to assist patients both on the phone and using our online consultation forms. Your duties will involve the day to day administrative tasks of the practice including but not limited to secretarial work and in depth use of the clinical systems. To be successful in our team, we are looking for someone who is dynamic in their approach and able to balance multiple tasks. We pride ourselves on our compassionate nature with our patients, and this is an essential characteristic that we are looking for. Flexibility is a must, as we work on a shift basis with the normal opening hours of 8am to 6.30pm. We would require any successful candidate to be able to cover other shifts outside their regular pattern to assist with holiday cover. There is also the option of enhanced pay for hours outside of this window for our extended hours service. Previous experience is preferred, however it is not essential as full training will be provided to the successful candidate. Reception duties include the following: (this list is not exhaustive) Booking telephone appointments through inbound calls. Calling and messaging patients with regards to their care needs - managing appointments and health campaigns and working with priorities set by the management team. Updating patient records - Accurate information and full documentation of actions. Processing online consultation forms. General administrative tasks. Ability to differentiate differing needs of a wide population and adjust processes and protocols to suit the patient need. Safeguarding vulnerable patients - full training provided as first point of contact to recognise and flag safeguarding concerns.",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1532-26-0010",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1532-26-0010",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "B"
   }
 ]

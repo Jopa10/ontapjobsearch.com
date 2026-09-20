@@ -411,11 +411,7 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0505-26-0487",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0505-26-0487",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "A"
   },
   {
     "job_id": "nhs-5592877",
@@ -433,11 +429,7 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0327-26-0465",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0327-26-0465",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "A"
   },
   {
     "job_id": "nhs-5586737",
@@ -455,10 +447,24 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/M9301-26-0217",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/M9301-26-0217",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "A"
+  },
+  {
+    "job_id": "nhs-5591061",
+    "source": "NHS Jobs",
+    "title": "Administrator",
+    "company": "Rowner Medical Centre",
+    "advertiser_name": "Rowner Medical Centre",
+    "location": "Gosport, PO13 9SP",
+    "region": "Hampshire",
+    "salary": "Negotiable",
+    "employment_type": "Permanent",
+    "posted_date": "2026-09-10T10:08:56.211966287",
+    "closing_date": "2026-09-25",
+    "description": "To provide a professional administrative and reception service to the Practice, supporting the administration process within the surgery at all times. The post holder will be part of a small team, and will require a high level of initiative and decision making within limited parameters. The post holder will ensure excellent communication skills, good record keeping, excellent organisational skills, good clinical coding and excellent customer service with patients. Ensure that appropriate correspondence, reports, results etc., are recorded, actioned and stored in accordance with Practice protocol and the Data Protection Act 2018. * Assist in producing information for clinical audit, screening and chronic disease management in order to optimize recall and review process. * To monitor, and amend where required patient records to ensure records are kept up to date, this will include; updating personal details, coding to update the medical care record, asking patients for information opportunistically when they are on the phone. * Keep up to date with changes to QOF as required. * Ensuring timely and accurate handling of messages / tasks, ensuring all unresolved or urgent matters are prioritised. *Ensure that patient confidentiality is maintained at all times. * The post holder will need to check patient details against a range of data sets to ensure a high level of data quality. * The post holder will work with little supervision, prioritising and managing his or her own workload on a day-to-day basis. * To ensure the Practices ongoing compliance with the CQCs (Care Quality Commission) essential standards of quality and safety. To comply with and actively promote the Practices Equality and Diversity Policy. To undertake any other duties as appropriate. * Ensure that appropriate correspondence, reports, results etc., are recorded, actioned and stored in accordance with Practice protocol and the Data Protection Act 2018. * Support seasonal and various health campaigns to increase patient uptake. * Provide support to the administrative team and wider Practice as and when needed. * Communicate effectively by competent use of email, telephone, written and face-to-face communication according to guidelines and customer care standards. * The post holder has access to confidential patient information and will, therefore need to have a working knowledge and adhere to all aspects of information governance, data protection and confidentiality policies.",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0327-26-0005",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0327-26-0005",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "A"
   }
 ]

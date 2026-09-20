@@ -336,11 +336,7 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0250-26-0011",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0250-26-0011",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "A"
   },
   {
     "job_id": "nhs-5564377",
@@ -358,10 +354,24 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/M0038-26-0851",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/M0038-26-0851",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "B"
+  },
+  {
+    "job_id": "nhs-5591277",
+    "source": "NHS Jobs",
+    "title": "Medical Receptionist",
+    "company": "High Street Surgery",
+    "advertiser_name": "High Street Surgery",
+    "location": "Lowestoft, NR32 1JE",
+    "region": "Suffolk",
+    "salary": "£12.81 to £13.12",
+    "employment_type": "Permanent",
+    "posted_date": "2026-09-10T11:16:52.404518439",
+    "closing_date": "2026-10-01",
+    "description": "Join Our Team as a Medical Receptionist at High Street Surgery At High Street Surgery, we believe every patient deserves to feel listened to, cared for, and supported from the moment they contact us. Our reception team is the first friendly voice on the phone and the first welcoming smile at the front desk, making our medical receptionists an essential part of the care we provide. This role goes far beyond answering calls and booking appointments. As a medical receptionist, you will be the bridge between patients and our clinical team, helping people access the care they need, offering reassurance when they may feel anxious, and ensuring their experience with us is as smooth and positive as possible. High Street Surgery is proud to be a CQC-rated Good practice and a designated training practice, supporting the development of doctors, nurses, and other healthcare professionals. By joining our team, youll be part of a forward-thinking practice that values learning, teamwork, and continuous improvement, while keeping compassionate patient care at the centre of everything we do. If you are someone who enjoys helping others, thrives in a supportive environment, and takes pride in being organised and approachable, we would love to hear from you. Please note that it is expected that we will receive a large volume of applications for this post and may need to close this advert early. Welcoming patients in person and on the telephone, offering a kind and professional first point of contact. Booking and managing appointments using the clinical system, ensuring patients are directed to the most appropriate clinician or service. Handling patient queries with empathy and confidentiality, signposting to healthcare professionals or external services when needed. Supporting clinicians by preparing notes, updating patient records, and ensuring the smooth flow of information within the practice. Managing correspondence, including emails, letters, and test results, ensuring these are processed and filed correctly. Assisting with the registration of new patients, updating records, and maintaining accurate patient information. Ensuring confidentiality and data protection are upheld at all times when dealing with sensitive patient information. Supporting the wider practice team, contributing to a friendly, efficient, and caring environment for both patients and staff. Undertaking general administrative tasks such as scanning, filing, photocopying, and maintaining reception areas to a high standard *** Please note that this role is a full time position, successful applicants will need to be available to work between the hours of 7.45am & 6.30pm*** Any other duties as required that the practice may deem appropraite.",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2466-26-0011",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2466-26-0011",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "B"
   }
 ]

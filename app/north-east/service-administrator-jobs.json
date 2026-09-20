@@ -612,9 +612,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/W0033-26-1254",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -634,9 +631,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9155-CMAC-0926-22",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -656,9 +650,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/W0033-26-1239",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -678,9 +669,25 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4568-26-0013",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
+    "posted_date_basis": "source"
+  },
+  {
+    "job_id": "nhs-5589916",
+    "source": "NHS Jobs",
+    "title": "Team Administrator",
+    "company": "Tees Esk and Wear Valleys NHS Foundation Trust",
+    "advertiser_name": "Tees Esk and Wear Valleys NHS Foundation Trust",
+    "location": "Seaham, SR7 0BG",
+    "region": "North East",
+    "salary": "£25760.00 to £27476.00",
+    "employment_type": "Fixed-Term",
+    "posted_date": "2026-09-09T15:38:24.702634585",
+    "closing_date": "2026-09-23",
+    "description": "An opportunity has arisen to recruit a highly motivated and experienced individual to a Team Administrator position working 37.5 hours per week (fixed term - 12 months) supporting mental health services for older people community team in Seaham. You must have the Right to Work in the UK in order to be successfully appointed to this role. Please note, this role does not meet the required eligibility criteria for sponsorship under the Skilled Worker visa and therefore the Trust is unable to offer sponsorship for this particular role. The successful postholder will be required to support and maintain standard systems and processes set out by the Trust. You will require excellent IT and organisational skills and have a good knowledge and understanding of information systems. In addition to this, the postholder will have the ability to prioritise workload, work under pressure to meet deadlines and demonstrate a flexible, motivated attitude to work will also be essential. You will require very good interpersonal and communication skills at all levels are required. The postholder will have contact with service users and members of the public and have an important role in helping the service to run efficiently. Please refer to the attached job description and person specification for further detailed information to ensure that you meet the role criteria before applying. This job advert may close early if a high volume of applications have been received. If interested, please apply for this post as soon as possible.",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9346-26-1080",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9346-26-1080",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "A",
     "posted_date_basis": "source"
   }
 ]

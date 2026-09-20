@@ -391,9 +391,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0179-1092",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -413,9 +410,25 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9246-26-1053",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
+    "posted_date_basis": "source"
+  },
+  {
+    "job_id": "nhs-5572899",
+    "source": "NHS Jobs",
+    "title": "GP Receptionist",
+    "company": "Primary Care Careers",
+    "advertiser_name": "Primary Care Careers",
+    "location": "King's Lynn, PE31 6GZ",
+    "region": "Norfolk",
+    "salary": "£12.71",
+    "employment_type": "Permanent",
+    "posted_date": "2026-09-14T12:13:12.652327216",
+    "closing_date": "2026-10-01",
+    "description": "Vida Healthcare has an exciting opportunity for a reliable, hardworking individual to join our team as a GP receptionist, on a full or part time basis. This role will be covering shifts between 8:00-18:30, split by morning and afternoon shifts, hours/days to be discussed at interview. Full training will be provided. The successful applicant will be assigned a main site; however, the position will be multi-site working and it is essential the candidate will be able to cover all locations: Gayton Road Health Centre St Augustines Surgery Hunstanton Medical Practice Carole Brown Health Centre Deal with patients in a calm and sympathetic manner, working continuously high pace under pressure to deliver high levels of accuracy. Listen, in order to be able to effectively signpost patients to the correct service. Maintain a high level of professionalism when dealing with confidential patient information. Provide telephone and face to face support for patients, allowing them to book, cancel and check appointments. Support patients who may have a problem or complaint. Partake in any training indicated by upper management as appropriate for personal and professional development. Previous applicants need not apply, and we reserve the right to close the job advert as soon as sufficient applications have been received. If you would like to find out more information about this role, please see the attached job specification.",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/M0038-26-0782",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/M0038-26-0782",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "B",
     "posted_date_basis": "source"
   }
 ]

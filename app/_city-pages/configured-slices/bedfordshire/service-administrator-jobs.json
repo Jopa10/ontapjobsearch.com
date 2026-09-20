@@ -241,9 +241,25 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5910-26-0005",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
+    "posted_date_basis": "source"
+  },
+  {
+    "job_id": "nhs-5610497",
+    "source": "NHS Jobs",
+    "title": "Workflow Administrator",
+    "company": "Greensands Medical Practice",
+    "advertiser_name": "Greensands Medical Practice",
+    "location": "Potton, SG19 2QS",
+    "region": "Bedfordshire",
+    "salary": "£12.84",
+    "employment_type": "Permanent",
+    "posted_date": "2026-09-18T16:44:54.292723333",
+    "closing_date": "2026-10-02",
+    "description": "We are seeking a full-time, highly organised Workflow Administrator to join our team. This is an important role, supporting the safe and efficient management of patient information and clinical workflow. You will need a proven track record of working on your own initiative, be organised, methodical and able to work quickly and accurately. Good communication skills, both written and verbal are also essential, as is a good understanding of medical terminology and read codes. The main duties of the role include reading, scanning, coding and actioning incoming patient correspondence and clinical documentation, in line with practice protocols, ensuring clinical actions and follow-ups are completed promptly and escalating where appropriate. The main duties include reading, scanning, coding and actioning incoming patient correspondence and clinical documentation (electronic and paperwork). The postholder will also update patient records, process registrations and deductions, arrange appointments, support total triage administration as required, deal with telephone enquiries and provide general administrative support to the Practice. The role also involves working closely with clinicians and the wider Practice team and contributing to effective patient care and the smooth running of services.",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2155-26-0005",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2155-26-0005",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "A",
     "posted_date_basis": "source"
   }
 ]

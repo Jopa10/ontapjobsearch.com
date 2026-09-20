@@ -516,9 +516,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9390-26-2182",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -538,9 +535,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1948-26-0007",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -560,9 +554,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3759-26-0008",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -582,9 +573,25 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0151-26-0022",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
+    "posted_date_basis": "source"
+  },
+  {
+    "job_id": "nhs-5446642",
+    "source": "NHS Jobs",
+    "title": "Administrator - Chelmsford",
+    "company": "Vaccination UK",
+    "advertiser_name": "Vaccination UK",
+    "location": "Chelmsford, CM144LN",
+    "region": "Essex",
+    "salary": "£13.80",
+    "employment_type": "Bank",
+    "posted_date": "2026-07-01T15:07:02.560206037",
+    "closing_date": "2026-11-15",
+    "description": "Job summary Job title: Administrator Contract: Bank Start: September 2026 until December 2026 Working Hours: Monday to Friday between 8:00am - 5:00pm. (7.5 hour shift per day) BENEFITS: Pension - 5% employer contribution based on qualified earnings. VIVUP - Supermarket & High Street Discounts & Employee Assistant Programme. Blue Light Card - Supermarket & High Street Discounts. Employee referral scheme. 28 days annual leave including Bank Holidays (pro-rata). Main duties of the job The post holder will be responsible for promoting, delivering, and facilitating various programmes directed by management as part of the School-Aged Immunisation Service assisting nurses in the schools or office. KEY RESPONSIBILITIES: Assist in the planning, delivery and evaluation of health promotion/education and public health school age immunisation programmes. Attend community-based vaccination sessions in both schools and local based settings. Work with the nursing team to ensure productive and safe sessions. Promote and facilitate collaborative working between the team, schools and other educational institutions and families, in the delivery of the immunisation programmes. Focus on ensuring all consent forms have been returned, guaranteeing new ideas go towards achieving local area targets. Ensure the process for storing, transporting, collecting and delivering vaccinations to site are adhered to. Assist in identifying home schooled children and those in Pupil Referral Units. Maintain databases to ensure records are kept up to date and that documents are prepared for school visits. Ensure online consent systems have been triaged and completed ahead of a vaccination session. Adhere to the Standard Operating Procedure for School Immunisation (SOPs). First point of contact for all administrative tasks. Have clear communication via face to face, by phone and email with children, parents and school staff. Responsible for maintaining the cold chain, ordering, and arranging transport of vaccinations to site. Actively and constructively contribute to team meetings. Undertake other duties commensurate with the level of this position. Comply with Company policies & procedures.",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0106-26-0084",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0106-26-0084",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "A",
     "posted_date_basis": "source"
   }
 ]

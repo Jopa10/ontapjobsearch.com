@@ -266,9 +266,25 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0279-26-2439",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
+    "posted_date_basis": "source"
+  },
+  {
+    "job_id": "nhs-5607369",
+    "source": "NHS Jobs",
+    "title": "Business Support Administrator",
+    "company": "Salisbury NHS Foundation Trust",
+    "advertiser_name": "Salisbury NHS Foundation Trust",
+    "location": "Salisbury, SP2 8BJ",
+    "region": "Wiltshire",
+    "salary": "£25760.00 to £27476.00",
+    "employment_type": "Fixed-Term",
+    "posted_date": "2026-09-17T15:37:12.882017670",
+    "closing_date": "2026-10-11",
+    "description": "We are looking for an organised and proactive Administrator to join our Education Administration hub. In this varied role, you will provide comprehensive administrative and coordination support, helping to deliver high-quality corporate services in line with agreed service standards. You will play a key role in the day-to-day running of the Education Centre, coordinating room bookings and ensuring learning facilities operate efficiently. You will also support the delivery of the My First 90 Days Induction Programme, contribute to the effective management of the Trust's Learning Management System (LMS), and provide excellent support to colleagues by managing user accounts, course allocations and system access. Working collaboratively with colleagues, service users and a range of internal and external stakeholders, you will help ensure the smooth delivery of learning and development services across the Trust. Please Note: We are unable to provide sponsorship for this position. To work as part of a team providing comprehensive Administration / Co-ordination support to corporate services in alignment with our service level agreements for Organisational Development, Culture and Learning. The post holder will work under indirect supervision and will directly contribute to and co-ordinate the efficient running of the Education Centre from room bookings to room management day to day. Support the Education Admin Team Leader with running My First 90 Days Induction programme (MF90DIP). The post holder will work under indirect supervision and will directly contribute to and co-ordinate the efficient running of the Learning Management System (LMS) from creating user accounts, resetting passwords to ensuring colleagues have correct course assignments on their accounts. Please see attached Job description and person specification for full details of roles and responsibilities.",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9269-26-0366",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9269-26-0366",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "B",
     "posted_date_basis": "source"
   }
 ]

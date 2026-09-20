@@ -416,9 +416,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9380-26-0761",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -438,9 +435,44 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9380-26-0757",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
+    "posted_date_basis": "source"
+  },
+  {
+    "job_id": "nhs-5601161",
+    "source": "NHS Jobs",
+    "title": "Administration Assistant",
+    "company": "Kent and Medway Mental Health NHS Trust",
+    "advertiser_name": "Kent and Medway Mental Health NHS Trust",
+    "location": "Sittingbourne, ME10 4HG",
+    "region": "Kent",
+    "salary": "£25272.00",
+    "employment_type": "Permanent",
+    "posted_date": "2026-09-15T13:46:44.578694",
+    "closing_date": "2026-09-29",
+    "description": "Are you a highly organised and compassionate individual with strong administrative skills? We are looking for a dedicated Administrative Assistant to join our team. You'll be the first point of contact for patients and families. This role requires strong communication and customer service skills, empathy, and a commitment to confidentiality. You'll support our clinical team by managing administrative tasks, ensuring efficient and compassionate care for our service users. About You: You possess strong communication skills and can handle difficult and challenging conversations. You are a collaborative team player , able to work effectively with colleagues to ensure an efficient workflow. You are committed to respecting the privacy and confidentiality of all service users and their families, and you adhere to professional ethics and conduct. You are proactive , flexible, and can manage a diverse workload. If you are a detail-oriented individual passionate about supporting both the clinical team and patient care, we encourage you to apply. Administrative Support: You will be responsible for a variety of tasks including typing, scanning, printing, and managing both digital and physical documents. This also involves handling mail, deliveries, and a room booking system. Reception cover: Meeting and greeting patients, dealing with queries, welcoming visitors. Communication and Frontline Queries: Acting as a primary point of contact, you will handle telephone and email inquiries from patients, families, and external services. This requires strong communication and customer service skills to manage a wide range of queries and handle difficult conversations with empathy. Team and Patient Coordination: You'll be crucial in coordinating patient care by sending appointment reminders, managing requests for scans, participating in team meetings and support other staff members with ad-hoc administrative tasks. Documentation and Confidentiality: A core duty is to maintain accurate and up-to-date clinical records, strictly following Information Governance and confidentiality standards to protect patient information. Please refer to the attached job description for the full details on the responsibilities and person specification",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9380-26-0746",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9380-26-0746",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "A",
+    "posted_date_basis": "source"
+  },
+  {
+    "job_id": "nhs-5598443",
+    "source": "NHS Jobs",
+    "title": "Administrator",
+    "company": "Kent and Medway Mental Health NHS Trust",
+    "advertiser_name": "Kent and Medway Mental Health NHS Trust",
+    "location": "Sevenoaks, TN13 3PG",
+    "region": "Kent",
+    "salary": "£25760.00 to £27476.00",
+    "employment_type": "Permanent",
+    "posted_date": "2026-09-14T14:13:06.772625067",
+    "closing_date": "2026-09-28",
+    "description": "Previous applicants need not apply. You will be part of the West Kent Neuropsychiatry Administration Team who provides direct administrative support to the West Kent Neuropsychiatry Clinical Team. You will also be expected to liaise effectively with employees at all levels throughout the organisation and with external organisations as required, using verbal, written and electronic media. You will be expected to work on own initiative with the ability to organise own workload and exercise discretion as to the degree of urgency and importance required, create and maintain spreadsheets and databases, have experience of electronic diary management, be an excellent communicator and ability to remain calm in sometimes difficult situations. You will have front line contact with service users, carers and the general public or other external stakeholders, as well as internal colleagues. You will also be expected to supervise the Band 2 Assistant Administrator after the six month probation period. You may, from time to time, be required to travel to our East Kent Neuropsychiatry office in Ashford to provide cover/support to our admin colleagues and clinicians so a car owner would be beneficial. To maintain records on electronic systems such as RiO for which accuracy and promptness are critical as is adherence to information governance policy and procedures. To understand appropriate use of email, calendar and accessing centralised services for room bookings. To provide support to Administration Business Co-ordinator/Performance and Quality and Administration Manager in ensuring teams conform to the Health and Social Care Records policy and RiO user guidance. Postholders may supervise Band 2 administrative staff when appropriate including allocation of work and monitoring standards of work produced and ensuring equality of workload. To be able to produce high quality documents from a variety of software whether downloaded, digital dictation e.g. BigHand or from other means. To be competent in taking minutes of local meetings and typing up of same onto team template. Accepting draft letters and documents from clinicians and providing a 'top and tail' service in relation to branding, grammar, punctuation, presentation and etiquette. Scanning and uploading of /forms to RiO and filing of documents as appropriate, updating any patient demographic details as required. Determining urgency and importance of emails and deals with them appropriately, highlighting emails to management where necessary. Booking of interpreters as requested using the appropriate system and following agreed. Please see the attached job description for full details of the main duties and responsibilities of the role.",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9380-26-0736",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9380-26-0736",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "A",
     "posted_date_basis": "source"
   }
 ]
