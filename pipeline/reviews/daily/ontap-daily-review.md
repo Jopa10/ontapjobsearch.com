@@ -4,7 +4,7 @@
 > Do not start reviewing yet. Rebuild this review after those source refreshes complete.
 
 review_date: 2026-09-20
-generated_at: 2026-09-20T14:21:43+00:00
+generated_at: 2026-09-20T16:59:43+00:00
 
 **46 job(s) need a human decision.**
 
@@ -33,20 +33,20 @@ Edit only each `action:` line:
 
 ---
 action:
-POSS | JobG8 | Merseyside - Liverpool | Liverpool | £40000 per year | Executive Assistant
+POSS | JobG8 | Northamptonshire | Northamptonshire | £30000 - £35000 per year | Parts Administrator
 source_key: jobg8
 source: JobG8
 category: admin_service
-source_job_id: 107992608
-title: Executive Assistant
+source_job_id: 23643_225623493
+title: Parts Administrator
 employer: 
-location: Liverpool
-region: Merseyside - Liverpool
-salary: £40000 per year
+location: Northamptonshire
+region: Northamptonshire
+salary: £30000 - £35000 per year
 closing_date: 
 reason: JobG8 selector marked this vacancy POSS
 source_url: 
-hub_fingerprint: f28e82be98faaeb6eddda4c4fea277c6f5910026ebd4146f8628cf3872689e1f
+hub_fingerprint: 561061d5e83c39c1c276d1dc88eec100b6bb2e7f9edbb8069589e0103256546c
 ---
 
 ## VONNE — 2 to review
