@@ -2,15 +2,27 @@
 
 review_date: 2026-09-20
 
-- Open Administrative & Clerical rows reviewed: 2159
+- Open Administrative & Clerical rows reviewed: 2160
 - Auto/remembered selected: 388
 - Selected HC Tier A: 206
 - Selected HC Tier B: 182
-- POSS awaiting decision: 1631
+- POSS awaiting decision: 1632
 - Excluded: 0
 - HARD_PASS: 140
 
 Edit only each `action:` line for POSS rows. Unchanged decisions are restored by the shared decision ledger.
+
+---
+action:
+POSS | NHS Jobs | Yorkshire - West | Leeds, LS9 7TF | £32073.00 to £39043.00 | Radiology Senior System Support Officer
+source_job_id: 5610685
+title: Radiology Senior System Support Officer
+employer: Leeds Teaching Hospitals
+region: Yorkshire - West
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9298-26-0987
+factual_fingerprint: 0aa53265f6dc7efc3d804320bdd83ccb962307e396f0f62bae81407e8f892f0b
+---
 
 ---
 action:
