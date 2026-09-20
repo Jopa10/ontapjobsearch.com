@@ -1,6 +1,6 @@
 # Support-worker manual review
 
-feed_date: 2026-09-19
+feed_date: 2026-09-20
 
 Edit only the `action:` line in each block:
 
@@ -177,12 +177,6 @@ job_id: 1877396
 
 ---
 action:
-SELECTED | Kent | Tonbridge | £25,845 per annum | Night Support Worker
-job_id: 253500016251056947237340
----
-
----
-action:
 SELECTED | Kent | Margate | £25,845 per annum | Female Support Worker
 job_id: 589431165057551564837340
 ---
@@ -207,12 +201,6 @@ job_id: 1402265374
 
 ---
 action:
-SELECTED | Kent | Maidstone | £25,845 per annum | Night Support Worker
-job_id: 253500016251056947237341
----
-
----
-action:
 SELECTED | Kent | Maidstone | £25,845 per year | Waking Night Support Worker
 job_id: 604850204165380505637341
 ---
@@ -221,12 +209,6 @@ job_id: 604850204165380505637341
 action:
 SELECTED | Kent | Maidstone | £25,845 per annum | Female Support Worker
 job_id: 117813832060606873637341
----
-
----
-action:
-SELECTED | Kent | Faversham | £14 - £17 per hour | Complex Care Support Worker Weekends Only
-job_id: 107992078
 ---
 
 ## KENT — POSSIBLES
@@ -301,12 +283,6 @@ SELECTED | Oxfordshire | Oxford | £85 - £110 per daily | Behaviour Support Ass
 job_id: 1819710
 ---
 
----
-action:
-SELECTED | Oxfordshire | Oxford | £90 - £110 per daily | Mental Health Assistant - Oxford
-job_id: 107908635
----
-
 ## OXFORDSHIRE — POSSIBLES
 
 _No jobs in this group._
@@ -347,6 +323,12 @@ job_id: 848325839117772390437341
 action:
 SELECTED | Surrey | Chertsey | £25,845 per annum | Female Support Worker
 job_id: 353568229070313881637340
+---
+
+---
+action:
+SELECTED | Surrey | Addlestone | £25,845 per year | Support Worker
+job_id: 470458959486622105637340
 ---
 
 ## SURREY — POSSIBLES

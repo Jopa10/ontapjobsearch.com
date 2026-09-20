@@ -1,6 +1,6 @@
 # Service-admin manual review
 
-feed_date: 2026-09-19
+feed_date: 2026-09-20
 
 Edit only the `action:` line in each block:
 
@@ -87,6 +87,12 @@ job_id: 1956696
 action:
 SELECTED | Yorkshire - West | Huddersfield |  | HR Coordinator / Advisor
 job_id: 1937623
+---
+
+---
+action:
+SELECTED | Yorkshire - West | Leeds |  | Part-Time Accounts Assistant for Yorkshire Design Group
+job_id: 1910102
 ---
 
 ---
@@ -275,12 +281,6 @@ job_id: 1868549
 action:
 SELECTED | London | London |  | HR Assistant
 job_id: 1867034
----
-
----
-action:
-SELECTED | London | London |  | Insurance Operations Coordinator
-job_id: 1877499
 ---
 
 ---
@@ -611,18 +611,6 @@ job_id: 1899875
 action:
 SELECTED | London | London |  | HR Assistant (temporary)
 job_id: 1897036
----
-
----
-action:
-SELECTED | London | Uxbridge | £29500 per year | Pupil Support Administrator
-job_id: 20091_324681
----
-
----
-action:
-SELECTED | London | Hayes | £29500 per year | Pupil Support Administrator
-job_id: 20091_324681-b5c58daf68fdcf9cf849ce08cc8c3867
 ---
 
 ## LONDON — POSSIBLES
@@ -1079,12 +1067,6 @@ SELECTED | Berkshire | Berkshire |  | Sales Support Administrator
 job_id: 1898953
 ---
 
----
-action:
-SELECTED | Berkshire | Berkshire | £29500 per year | Pupil Support Administrator
-job_id: 20091_324681-03f77e739f8132a7634b10f52d3f0e4f
----
-
 ## BERKSHIRE — POSSIBLES
 
 _No jobs in this group._
@@ -1503,6 +1485,12 @@ job_id: 1959440
 action:
 SELECTED | Cheshire - Warrington & Halton | Warrington |  | Accounts Assistant
 job_id: 1906561
+---
+
+---
+action:
+SELECTED | Cheshire - Warrington & Halton | Warrington | £27000 - £28000 per year (Benefits) | 6 month FTC Administrator
+job_id: 23643_225623932
 ---
 
 ## CHESHIRE - WARRINGTON & HALTON — POSSIBLES
@@ -2033,18 +2021,6 @@ SELECTED | Greater Manchester - South | Stockport |  | Lettings Coordinator
 job_id: 1934714
 ---
 
----
-action:
-SELECTED | Greater Manchester - South | Stockport | £30000 - £40000 per year | HR / Admin Coordinator
-job_id: 1909626
----
-
----
-action:
-SELECTED | Greater Manchester - South | Stockport | £33000 - £37000 per year | HR Coordinator
-job_id: 1898062
----
-
 ## GREATER MANCHESTER - SOUTH — POSSIBLES
 
 _No jobs in this group._
@@ -2229,6 +2205,12 @@ job_id: 1937916
 action:
 SELECTED | Merseyside - Liverpool | Liverpool |  | HR Administrator
 job_id: 1936795
+---
+
+---
+action:
+SELECTED | Merseyside - Liverpool | Liverpool |  | Accounts Assistant / Bookkeeper
+job_id: 1909830
 ---
 
 ## MERSEYSIDE - LIVERPOOL — POSSIBLES
@@ -2443,6 +2425,12 @@ job_id: 1961154
 
 ---
 action:
+SELECTED | Nottinghamshire | Nottinghamshire | £30000 per year | Accounts Assistant
+job_id: 1910206
+---
+
+---
+action:
 SELECTED | Nottinghamshire | Nottinghamshire |  | Part-Time Finance Assistant
 job_id: 1896245
 ---
@@ -2475,6 +2463,12 @@ job_id: 1939388
 action:
 SELECTED | Oxfordshire | Oxfordshire | £30000 per year | Commercial Property Secretary
 job_id: 1914753
+---
+
+---
+action:
+SELECTED | Oxfordshire | Oxfordshire |  | Accounts Assistant
+job_id: 1909766
 ---
 
 ## OXFORDSHIRE — POSSIBLES
@@ -2869,6 +2863,12 @@ job_id: 1938554
 
 ---
 action:
+SELECTED | Suffolk | Suffolk |  | Aquarius Relationship and Placement Coordinator
+job_id: 1905103
+---
+
+---
+action:
 SELECTED | Suffolk | Suffolk | £27000 per year | Junior Accounts Administrator
 job_id: 1895911
 ---
@@ -3059,12 +3059,6 @@ SELECTED | West Midlands - Birmingham & Solihull | Birmingham |  | Account Admin
 job_id: 1865343
 ---
 
----
-action:
-SELECTED | West Midlands - Birmingham & Solihull | Birmingham | £26000 per year | Administrator
-job_id: 107812471
----
-
 ## WEST MIDLANDS - BIRMINGHAM & SOLIHULL — POSSIBLES
 
 _No jobs in this group._
@@ -3171,6 +3165,12 @@ _No jobs in this group._
 action:
 SELECTED | Yorkshire - North | Whitby | £12.9 per hour | Lifestyle Co-ordinator
 job_id: 107871574
+---
+
+---
+action:
+SELECTED | Yorkshire - North | Harrogate |  | Finance Assistant
+job_id: 1910220
 ---
 
 ---
