@@ -2198,11 +2198,10 @@ job_id: 1906598
 ## LEICESTERSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - LEICESTERSHIRE | Leicestershire | Leicestershire | £32000 per year | Finance Assistant
 job_id: 1909307
 ---
-
 ## LINCOLNSHIRE — SELECTED
 
 ---
@@ -2390,11 +2389,10 @@ job_id: 1899022
 ## NORTHAMPTONSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - NORTHAMPTONSHIRE | Northamptonshire | Northamptonshire | £30000 - £35000 per year | Parts Administrator
 job_id: 23643_225623493
 ---
-
 ## NORTHERN IRELAND - EAST — SELECTED
 
 ---
