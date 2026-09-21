@@ -72,7 +72,7 @@
     "West Midlands - Coventry & Warwickshire": { "slug": "coventry-warwickshire", "anchor_town": "Coventry" },
     "Cumbria - South": { "slug": "cumbria-south", "anchor_town": "Kendal" },
     "Cumbria - North": { "slug": "cumbria-north", "anchor_town": "Carlisle" },
-    "Lancashire - North": { "slug": "lancashire-north", "anchor_town": "Lancaster" },
+    "Lancashire - East": { "slug": "lancashire-east", "anchor_town": "Blackburn" }, "Lancashire - North": { "slug": "lancashire-north", "anchor_town": "Lancaster" },
     "Greater Manchester - Manchester & Salford": { "slug": "manchester-salford", "anchor_town": "Manchester" },
     "Greater Manchester - South": { "slug": "greater-manchester-south", "anchor_town": "Stockport" },
     "Oxfordshire": { "slug": "oxfordshire", "anchor_town": "Oxford" },
