@@ -4,7 +4,7 @@
 - Live route: `/exeter/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 12
+- Effective included jobs: 10
 - Threshold currently met: yes
 
 ## How to review
@@ -15,26 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 12
-- automatic review: 24
+- automatic include: 10
+- automatic review: 23
 - automatic exclude: 0
-- effective include: 12
-- effective review: 24
+- effective include: 10
+- effective review: 23
 - effective exclude: 0
 
-## INCLUDE (12)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Attendance Officer
-company: Isca Academy
-location: Exeter
-source: Teaching Vacancies
-job_id: teaching-vacancies-attendance-officer-b4594263-9c2d-4e13-a32d-003ed85d148f
-reason: Exact approved Exeter workplace.
----
+## INCLUDE (10)
 
 ---
 action: 
@@ -45,18 +33,6 @@ company: St James School
 location: Exeter
 source: Teaching Vacancies
 job_id: teaching-vacancies-business-administrator-d383ef29-c17f-437b-8271-918c1d87de9b
-reason: Exact approved Exeter workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Business Support Administrator
-company: Devon Partnership NHS Trust
-location: Exeter, EX2 5AF, EXETER, EX2 9HS
-source: NHS Jobs
-job_id: nhs-5607097
 reason: Exact approved Exeter workplace.
 ---
 
@@ -168,19 +144,7 @@ job_id: jobg8-1877836
 reason: Exact approved Exeter workplace.
 ---
 
-## REVIEW (24)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Admin Assistant - Fixed Term
-company: Woodlands Park Primary School
-location: Ivybridge
-source: Teaching Vacancies
-job_id: teaching-vacancies-admin-assistant-fixed-term
-reason: No exact Exeter workplace matched; local geographic review is required.
----
+## REVIEW (23)
 
 ---
 action: 

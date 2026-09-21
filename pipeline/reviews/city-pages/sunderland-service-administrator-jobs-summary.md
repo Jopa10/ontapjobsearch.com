@@ -4,7 +4,7 @@
 - Live route: `/sunderland/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 3
+- Effective included jobs: 2
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 3
-- automatic review: 35
+- automatic include: 2
+- automatic review: 33
 - automatic exclude: 0
-- effective include: 3
-- effective review: 35
+- effective include: 2
+- effective review: 33
 - effective exclude: 0
 
-## INCLUDE (3)
+## INCLUDE (2)
 
 ---
 action: 
@@ -40,18 +40,6 @@ reason: Exact approved Sunderland workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Business Support Assistant - Children's Social Care
-company: Together for Children - Sunderland
-location: Sunderland
-source: NEJobs
-job_id: nejobs-301377
-reason: Exact approved Sunderland workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Lead Administrator
 company: Harry Watts Academy
 location: Sunderland
@@ -60,7 +48,7 @@ job_id: teaching-vacancies-lead-administrator-harry-watts-academy
 reason: Exact approved Sunderland workplace.
 ---
 
-## REVIEW (35)
+## REVIEW (33)
 
 ---
 action: 
@@ -378,18 +366,6 @@ reason: No exact Sunderland workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Personal Development Coach Coordinator
-company: New College Durham
-location: New College Durham - Framwellgate Moor
-source: NEJobs
-job_id: nejobs-301004
-reason: No exact Sunderland workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Project Administrator
 company: Age UK County Durham
 location: Age UK County Durham
@@ -467,18 +443,6 @@ company: Tees Esk and Wear Valleys NHS Foundation Trust
 location: Seaham, SR7 0BG
 source: NHS Jobs
 job_id: nhs-5589916
-reason: No exact Sunderland workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Tenant Engagement Officer
-company: Northumberland County Council
-location: Eddie Ferguson House, Blyth, United Kingdom
-source: NEJobs
-job_id: nejobs-301243
 reason: No exact Sunderland workplace matched; local geographic review is required.
 ---
 

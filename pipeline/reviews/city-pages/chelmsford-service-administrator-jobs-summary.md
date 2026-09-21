@@ -4,7 +4,7 @@
 - Live route: `/chelmsford/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 10
+- Effective included jobs: 9
 - Threshold currently met: yes
 
 ## How to review
@@ -15,26 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 10
-- automatic review: 51
+- automatic include: 9
+- automatic review: 53
 - automatic exclude: 0
-- effective include: 10
-- effective review: 51
+- effective include: 9
+- effective review: 53
 - effective exclude: 0
 
-## INCLUDE (10)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrator
-company: Mid and South Essex NHS Foundation Trust
-location: Chelmsford, CM1 7ET
-source: NHS Jobs
-job_id: nhs-5607203
-reason: Exact approved Chelmsford workplace.
----
+## INCLUDE (9)
 
 ---
 action: 
@@ -144,7 +132,7 @@ job_id: jobg8-1956210
 reason: Exact approved Chelmsford workplace.
 ---
 
-## REVIEW (51)
+## REVIEW (53)
 
 ---
 action: 
@@ -167,6 +155,18 @@ company: Nxtgen Recruitment - Agency - Permanent
 location: Essex
 source: JobG8
 job_id: jobg8-1908411
+reason: No exact Chelmsford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Assistant - Looking for Your Next Step in Practice Accounting?
+company: Reed - Agency - Permanent
+location: Essex
+source: JobG8
+job_id: jobg8-1910186
 reason: No exact Chelmsford workplace matched; local geographic review is required.
 ---
 
@@ -551,6 +551,18 @@ company: Ernest Gordon Recruitment Limited - Agency - Permanent
 location: Essex
 source: JobG8
 job_id: jobg8-1916140
+reason: No exact Chelmsford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Medical Receptionist
+company: John Tasker House & Felsted Surgeries
+location: Dunmow, CM6 1BH
+source: NHS Jobs
+job_id: nhs-5605464
 reason: No exact Chelmsford workplace matched; local geographic review is required.
 ---
 

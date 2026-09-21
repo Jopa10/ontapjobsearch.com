@@ -4,7 +4,7 @@
 - Live route: `/peterborough/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 7
+- Effective included jobs: 6
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 7
+- automatic include: 6
 - automatic review: 1
 - automatic exclude: 10
-- effective include: 7
+- effective include: 6
 - effective review: 1
 - effective exclude: 10
 
-## INCLUDE (7)
+## INCLUDE (6)
 
 ---
 action: 
@@ -33,18 +33,6 @@ company: Reed - Agency - Permanent
 location: Peterborough
 source: JobG8
 job_id: jobg8-1870317
-reason: Approved conservative Peterborough launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administration Assistant (Trips & Visits)
-company: Hampton College
-location: Peterborough
-source: Teaching Vacancies
-job_id: teaching-vacancies-administration-assistant-trips-visits-hampton-college-peterborough-cambridgeshire
 reason: Approved conservative Peterborough launch catchment.
 ---
 

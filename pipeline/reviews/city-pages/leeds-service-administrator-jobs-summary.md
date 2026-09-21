@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 20
-- automatic review: 14
+- automatic review: 13
 - automatic exclude: 20
 - effective include: 20
-- effective review: 14
+- effective review: 13
 - effective exclude: 20
 
 ## INCLUDE (20)
@@ -220,11 +220,11 @@ reason: Approved Leeds catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Receptionist
-company: Diamond Medical Group
-location: Leeds, LS7 3DR, Leeds, LS7 1JL, Leeds, LS17 8AE, Leeds, LS8 4AA
-source: NHS Jobs
-job_id: nhs-5601071
+title: Receptionist and Administration Assistant
+company: Leeds East Academy
+location: Leeds
+source: Teaching Vacancies
+job_id: teaching-vacancies-receptionist-and-administration-assistant-leeds-east-academy
 reason: Approved Leeds catchment.
 ---
 
@@ -232,11 +232,11 @@ reason: Approved Leeds catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Receptionist and Administration Assistant
-company: Leeds East Academy
-location: Leeds
-source: Teaching Vacancies
-job_id: teaching-vacancies-receptionist-and-administration-assistant-leeds-east-academy
+title: Receptionist/Care Navigator
+company: Conway Medical Centre
+location: Leeds, LS8 5DE
+source: NHS Jobs
+job_id: nhs-5529086
 reason: Approved Leeds catchment.
 ---
 
@@ -264,7 +264,7 @@ job_id: jobg8-1956696
 reason: Approved Leeds catchment.
 ---
 
-## REVIEW (14)
+## REVIEW (13)
 
 ---
 action: 
@@ -419,18 +419,6 @@ company: Delta Academies Trust
 location: Knottingley
 source: Teaching Vacancies
 job_id: teaching-vacancies-receptionist-delta-academies-trust-knottingley-not-recorded
-reason: No approved Leeds catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Receptionist / Administrator
-company: The Surgery, Stuart Road
-location: Pontefract, WF8 4PQ
-source: NHS Jobs
-job_id: nhs-5596100
 reason: No approved Leeds catchment rule matched; local review required.
 ---
 
@@ -620,11 +608,35 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: MEDICAL RECEPTIONIST
+company: The Bradford Moor Practice
+location: Bradford, BD3 8QH
+source: NHS Jobs
+job_id: nhs-5603161
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Office Administrator
 company: St Oswald's Church of England Primary Academy
 location: Bradford
 source: Teaching Vacancies
 job_id: teaching-vacancies-office-administrator-st-oswald-s-church-of-england-primary-academy
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Practice Administrator
+company: Warrengate Medical Centre
+location: Wakefield, WF1 4PR
+source: NHS Jobs
+job_id: nhs-5056947
 reason: Separate employment market.
 ---
 
@@ -644,34 +656,10 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Receptionist/ Telephonist
-company: Elmwood Family Doctors
-location: Huddersfield, HD9 3TR, Holmfirth, HD9 4EN
-source: NHS Jobs
-job_id: nhs-5579570
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Sales and Service Advisor
 company: Gallagher - Agency - Permanent
 location: Wakefield
 source: JobG8
 job_id: jobg8-871951100439376691237340
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Service Administrator
-company: Bradford District Care NHS Foundation Trust
-location: Bradford, BD9 6DP
-source: NHS Jobs
-job_id: nhs-5596261
 reason: Separate employment market.
 ---

@@ -4,7 +4,7 @@
 - Live route: `/york/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 3
+- Effective included jobs: 2
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 3
-- automatic review: 5
-- automatic exclude: 9
-- effective include: 3
-- effective review: 5
-- effective exclude: 9
+- automatic include: 2
+- automatic review: 6
+- automatic exclude: 8
+- effective include: 2
+- effective review: 6
+- effective exclude: 8
 
-## INCLUDE (3)
+## INCLUDE (2)
 
 ---
 action: 
@@ -40,18 +40,6 @@ reason: Approved York catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Administrator
-company: Practice Plus Group - Health in Justice
-location: York, YO41 1FZ
-source: NHS Jobs
-job_id: nhs-5607825
-reason: Approved York catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Attendance Administrator
 company: Archbishop Holgate's School, A Church of England Academy
 location: York
@@ -60,7 +48,7 @@ job_id: teaching-vacancies-attendance-administrator-archbishop-holgate-s-school-
 reason: Approved York catchment.
 ---
 
-## REVIEW (5)
+## REVIEW (6)
 
 ---
 action: 
@@ -122,7 +110,19 @@ job_id: jobg8-1880493
 reason: No approved York catchment rule matched; local review required.
 ---
 
-## EXCLUDE (9)
+---
+action: 
+decision: review
+automatic_decision: review
+title: Receptionist/Administrator
+company: Ripon Spa Surgery
+location: Ripon, HG4 2BE
+source: NHS Jobs
+job_id: nhs-5611094
+reason: No approved York catchment rule matched; local review required.
+---
+
+## EXCLUDE (8)
 
 ---
 action: 
@@ -206,18 +206,6 @@ location: Yorkshire
 source: JobG8
 job_id: jobg8-1867235
 reason: Broad regional label; not York-city evidence.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: SEND Administrator
-company: George Pindar School
-location: Scarborough
-source: Teaching Vacancies
-job_id: teaching-vacancies-send-administrator-george-pindar-school
-reason: Separate employment market.
 ---
 
 ---

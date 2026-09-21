@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 8
 - automatic review: 6
-- automatic exclude: 7
+- automatic exclude: 9
 - effective include: 8
 - effective review: 6
-- effective exclude: 7
+- effective exclude: 9
 
 ## INCLUDE (8)
 
@@ -194,7 +194,7 @@ job_id: nhs-5577377
 reason: No approved Oxford catchment rule matched; local review required.
 ---
 
-## EXCLUDE (7)
+## EXCLUDE (9)
 
 ---
 action: 
@@ -205,6 +205,18 @@ company: Savant Recruitment - Agency - Permanent
 location: Oxfordshire
 source: JobG8
 job_id: jobg8-1909766
+reason: Broad county location; not Oxford-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Church Engagement Manager
+company: Church Mission Society - Agency - Permanent
+location: Oxfordshire
+source: JobG8
+job_id: jobg8-1970218
 reason: Broad county location; not Oxford-city evidence.
 ---
 
@@ -241,6 +253,18 @@ company: Corriculo Ltd - Agency - Permanent
 location: Oxfordshire
 source: JobG8
 job_id: jobg8-1883696
+reason: Broad county location; not Oxford-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Digital Marketing Manager
+company: Church Mission Society - Agency - Permanent
+location: Oxfordshire
+source: JobG8
+job_id: jobg8-1972436
 reason: Broad county location; not Oxford-city evidence.
 ---
 

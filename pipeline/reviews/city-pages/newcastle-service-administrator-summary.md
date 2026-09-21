@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 6
-- automatic review: 20
-- automatic exclude: 12
+- automatic review: 19
+- automatic exclude: 10
 - effective include: 6
-- effective review: 20
-- effective exclude: 12
+- effective review: 19
+- effective exclude: 10
 
 ## INCLUDE (6)
 
@@ -96,7 +96,7 @@ job_id: nhs-5598890
 reason: Approved Newcastle catchment.
 ---
 
-## REVIEW (20)
+## REVIEW (19)
 
 ---
 action: 
@@ -326,19 +326,7 @@ job_id: nhs-5589916
 reason: No approved Newcastle catchment rule matched; local review required.
 ---
 
----
-action: 
-decision: review
-automatic_decision: review
-title: Tenant Engagement Officer
-company: Northumberland County Council
-location: Eddie Ferguson House, Blyth, United Kingdom
-source: NEJobs
-job_id: nejobs-301243
-reason: No approved Newcastle catchment rule matched; local review required.
----
-
-## EXCLUDE (12)
+## EXCLUDE (10)
 
 ---
 action: 
@@ -373,18 +361,6 @@ company: South Tyneside and Sunderland NHS Foundation Trust
 location: SUNDERLAND, SR2 8PL, GATESHEAD, NE10 8DX, SOUTH SHIELDS, NE34 8PS
 source: NHS Jobs
 job_id: nhs-5602108
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Business Support Assistant - Children's Social Care
-company: Together for Children - Sunderland
-location: Sunderland
-source: NEJobs
-job_id: nejobs-301377
 reason: Separate employment market.
 ---
 
@@ -433,18 +409,6 @@ company: Spear-heads - Agency - Permanent
 location: County Durham
 source: JobG8
 job_id: jobg8-1933966
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Personal Development Coach Coordinator
-company: New College Durham
-location: New College Durham - Framwellgate Moor
-source: NEJobs
-job_id: nejobs-301004
 reason: Separate employment market.
 ---
 

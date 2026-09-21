@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 2
-- automatic review: 10
+- automatic review: 11
 - automatic exclude: 0
 - effective include: 2
-- effective review: 10
+- effective review: 11
 - effective exclude: 0
 
 ## INCLUDE (2)
@@ -48,7 +48,7 @@ job_id: jobg8-1897879
 reason: Exact approved Stoke-on-trent workplace.
 ---
 
-## REVIEW (10)
+## REVIEW (11)
 
 ---
 action: 
@@ -155,6 +155,18 @@ company: XPERT RECRUITMENT SOLUTIONS LIMITED - Agency - Permanent
 location: Staffordshire
 source: JobG8
 job_id: jobg8-1870733
+reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Onsite Account Coordinator
+company: Winner Recruitment - Agency - Temporary
+location: Cannock
+source: JobG8
+job_id: jobg8-108003800
 reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
 ---
 

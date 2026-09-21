@@ -4,7 +4,7 @@
 - Live route: `/scarborough/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 1
+- Effective included jobs: 0
 - Threshold currently met: no
 
 ## How to review
@@ -15,26 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 1
+- automatic include: 0
 - automatic review: 16
 - automatic exclude: 0
-- effective include: 1
+- effective include: 0
 - effective review: 16
 - effective exclude: 0
 
-## INCLUDE (1)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: SEND Administrator
-company: George Pindar School
-location: Scarborough
-source: Teaching Vacancies
-job_id: teaching-vacancies-send-administrator-george-pindar-school
-reason: Exact approved Scarborough workplace.
----
+## INCLUDE (0)
 
 ## REVIEW (16)
 
@@ -47,18 +35,6 @@ company: Capital Outsourcing Group Ltd - Agency - Permanent
 location: York
 source: JobG8
 job_id: jobg8-1907580
-reason: No exact Scarborough workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
-company: Practice Plus Group - Health in Justice
-location: York, YO41 1FZ
-source: NHS Jobs
-job_id: nhs-5607825
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 
@@ -215,6 +191,18 @@ company: Reed - Agency - Permanent
 location: Yorkshire
 source: JobG8
 job_id: jobg8-1867235
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Receptionist/Administrator
+company: Ripon Spa Surgery
+location: Ripon, HG4 2BE
+source: NHS Jobs
+job_id: nhs-5611094
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 

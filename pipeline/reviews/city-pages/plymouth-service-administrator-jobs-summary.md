@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 9
-- automatic review: 27
+- automatic review: 24
 - automatic exclude: 0
 - effective include: 9
-- effective review: 27
+- effective review: 24
 - effective exclude: 0
 
 ## INCLUDE (9)
@@ -132,19 +132,7 @@ job_id: teaching-vacancies-senior-administrator-st-paul-s-roman-catholic-primary
 reason: Exact approved Plymouth workplace.
 ---
 
-## REVIEW (27)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Admin Assistant - Fixed Term
-company: Woodlands Park Primary School
-location: Ivybridge
-source: Teaching Vacancies
-job_id: teaching-vacancies-admin-assistant-fixed-term
-reason: No exact Plymouth workplace matched; local geographic review is required.
----
+## REVIEW (24)
 
 ---
 action: 
@@ -155,18 +143,6 @@ company: St Cuthbert Mayne School
 location: Torquay
 source: Teaching Vacancies
 job_id: teaching-vacancies-attendance-administrator-65068773-d1be-4711-9b88-bde2f62d9e1b
-reason: No exact Plymouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Attendance Officer
-company: Isca Academy
-location: Exeter
-source: Teaching Vacancies
-job_id: teaching-vacancies-attendance-officer-b4594263-9c2d-4e13-a32d-003ed85d148f
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 
@@ -191,18 +167,6 @@ company: St James School
 location: Exeter
 source: Teaching Vacancies
 job_id: teaching-vacancies-business-administrator-d383ef29-c17f-437b-8271-918c1d87de9b
-reason: No exact Plymouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Business Support Administrator
-company: Devon Partnership NHS Trust
-location: Exeter, EX2 5AF, EXETER, EX2 9HS
-source: NHS Jobs
-job_id: nhs-5607097
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 

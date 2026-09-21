@@ -4,7 +4,7 @@
 - Live route: `/shrewsbury/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 6
+- Effective included jobs: 5
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 6
+- automatic include: 5
 - automatic review: 7
 - automatic exclude: 0
-- effective include: 6
+- effective include: 5
 - effective review: 7
 - effective exclude: 0
 
-## INCLUDE (6)
+## INCLUDE (5)
 
 ---
 action: 
@@ -45,18 +45,6 @@ company: Severndale Specialist Academy
 location: Shrewsbury
 source: Teaching Vacancies
 job_id: teaching-vacancies-administration-assistant-severndale-specialist-academy-shrewsbury-shropshire
-reason: Exact approved Shrewsbury workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrative Assistant/Receptionist
-company: Mary Webb School and Science College
-location: Shrewsbury
-source: Teaching Vacancies
-job_id: teaching-vacancies-administrative-assistant-receptionist-mary-webb-school-and-science-college
 reason: Exact approved Shrewsbury workplace.
 ---
 

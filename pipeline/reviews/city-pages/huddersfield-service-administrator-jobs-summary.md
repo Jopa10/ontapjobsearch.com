@@ -4,8 +4,8 @@
 - Live route: `/huddersfield/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 6
-- Threshold currently met: yes
+- Effective included jobs: 5
+- Threshold currently met: no
 
 ## How to review
 Edit only the `action:` line inside a job block.
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 6
-- automatic review: 14
-- automatic exclude: 34
-- effective include: 6
-- effective review: 14
-- effective exclude: 34
+- automatic include: 5
+- automatic review: 13
+- automatic exclude: 35
+- effective include: 5
+- effective review: 13
+- effective exclude: 35
 
-## INCLUDE (6)
+## INCLUDE (5)
 
 ---
 action: 
@@ -84,19 +84,7 @@ job_id: jobg8-1937623
 reason: Approved Huddersfield catchment.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Receptionist/ Telephonist
-company: Elmwood Family Doctors
-location: Huddersfield, HD9 3TR, Holmfirth, HD9 4EN
-source: NHS Jobs
-job_id: nhs-5579570
-reason: Approved Huddersfield catchment.
----
-
-## REVIEW (14)
+## REVIEW (13)
 
 ---
 action: 
@@ -254,19 +242,7 @@ job_id: teaching-vacancies-receptionist-delta-academies-trust-knottingley-not-re
 reason: No approved Huddersfield catchment rule matched; local review required.
 ---
 
----
-action: 
-decision: review
-automatic_decision: review
-title: Receptionist / Administrator
-company: The Surgery, Stuart Road
-location: Pontefract, WF8 4PQ
-source: NHS Jobs
-job_id: nhs-5596100
-reason: No approved Huddersfield catchment rule matched; local review required.
----
-
-## EXCLUDE (34)
+## EXCLUDE (35)
 
 ---
 action: 
@@ -560,6 +536,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: MEDICAL RECEPTIONIST
+company: The Bradford Moor Practice
+location: Bradford, BD3 8QH
+source: NHS Jobs
+job_id: nhs-5603161
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Office Administrator
 company: St Oswald's Church of England Primary Academy
 location: Bradford
@@ -596,6 +584,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Practice Administrator
+company: Warrengate Medical Centre
+location: Wakefield, WF1 4PR
+source: NHS Jobs
+job_id: nhs-5056947
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Receptionist
 company: Affinity Care
 location: Shipley, BD18 3EG, Shipley, BD18 3EE, Bradford, BD10 9AZ
@@ -608,11 +608,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Receptionist
-company: Diamond Medical Group
-location: Leeds, LS7 3DR, Leeds, LS7 1JL, Leeds, LS17 8AE, Leeds, LS8 4AA
-source: NHS Jobs
-job_id: nhs-5601071
+title: Receptionist and Administration Assistant
+company: Leeds East Academy
+location: Leeds
+source: Teaching Vacancies
+job_id: teaching-vacancies-receptionist-and-administration-assistant-leeds-east-academy
 reason: Separate employment market.
 ---
 
@@ -620,11 +620,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Receptionist and Administration Assistant
-company: Leeds East Academy
-location: Leeds
-source: Teaching Vacancies
-job_id: teaching-vacancies-receptionist-and-administration-assistant-leeds-east-academy
+title: Receptionist/Care Navigator
+company: Conway Medical Centre
+location: Leeds, LS8 5DE
+source: NHS Jobs
+job_id: nhs-5529086
 reason: Separate employment market.
 ---
 
@@ -649,18 +649,6 @@ company: Gallagher - Agency - Permanent
 location: Leeds
 source: JobG8
 job_id: jobg8-871951100439376691237341
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Service Administrator
-company: Bradford District Care NHS Foundation Trust
-location: Bradford, BD9 6DP
-source: NHS Jobs
-job_id: nhs-5596261
 reason: Separate employment market.
 ---
 

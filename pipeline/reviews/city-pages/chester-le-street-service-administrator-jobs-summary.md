@@ -16,15 +16,15 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 0
-- automatic review: 38
+- automatic review: 35
 - automatic exclude: 0
 - effective include: 0
-- effective review: 38
+- effective review: 35
 - effective exclude: 0
 
 ## INCLUDE (0)
 
-## REVIEW (38)
+## REVIEW (35)
 
 ---
 action: 
@@ -119,18 +119,6 @@ company: Independent Utility Advice - Agency - Permanent
 location: Newcastle Upon Tyne
 source: JobG8
 job_id: jobg8-107967240
-reason: No exact Chester Le Street workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Business Support Assistant - Children's Social Care
-company: Together for Children - Sunderland
-location: Sunderland
-source: NEJobs
-job_id: nejobs-301377
 reason: No exact Chester Le Street workplace matched; local geographic review is required.
 ---
 
@@ -378,18 +366,6 @@ reason: No exact Chester Le Street workplace matched; local geographic review is
 action: 
 decision: review
 automatic_decision: review
-title: Personal Development Coach Coordinator
-company: New College Durham
-location: New College Durham - Framwellgate Moor
-source: NEJobs
-job_id: nejobs-301004
-reason: No exact Chester Le Street workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Project Administrator
 company: Age UK County Durham
 location: Age UK County Durham
@@ -467,18 +443,6 @@ company: Tees Esk and Wear Valleys NHS Foundation Trust
 location: Seaham, SR7 0BG
 source: NHS Jobs
 job_id: nhs-5589916
-reason: No exact Chester Le Street workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Tenant Engagement Officer
-company: Northumberland County Council
-location: Eddie Ferguson House, Blyth, United Kingdom
-source: NEJobs
-job_id: nejobs-301243
 reason: No exact Chester Le Street workplace matched; local geographic review is required.
 ---
 

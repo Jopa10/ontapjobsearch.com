@@ -4,7 +4,7 @@
 - Live route: `/birmingham/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 27
+- Effective included jobs: 25
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 27
+- automatic include: 25
 - automatic review: 4
-- automatic exclude: 8
-- effective include: 27
+- automatic exclude: 6
+- effective include: 25
 - effective review: 4
-- effective exclude: 8
+- effective exclude: 6
 
-## INCLUDE (27)
+## INCLUDE (25)
 
 ---
 action: 
@@ -244,18 +244,6 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Payroll, Pensions, Finance and HR Administrator
-company: Birmingham Diocesan Multi Academy Trust
-location: Birmingham
-source: Teaching Vacancies
-job_id: teaching-vacancies-payroll-pensions-finance-and-hr-administrator
-reason: Approved conservative Birmingham launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: People & Recruitment Coordinator
 company: ADI Group Services Ltd - Agency - Permanent
 location: Birmingham
@@ -285,18 +273,6 @@ company: Bosworth Medical Centre
 location: Birmingham, B37 5BU
 source: NHS Jobs
 job_id: nhs-5602762
-reason: Approved conservative Birmingham launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Receptionist
-company: King Edward VI Balaam Wood Academy
-location: Birmingham
-source: Teaching Vacancies
-job_id: teaching-vacancies-receptionist-king-edward-vi-balaam-wood-academy-birmingham-west-midlands
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -398,7 +374,7 @@ job_id: teaching-vacancies-senior-administrator-bishop-vesey-s-grammar-school
 reason: No approved Birmingham catchment rule matched; local review required.
 ---
 
-## EXCLUDE (8)
+## EXCLUDE (6)
 
 ---
 action: 
@@ -421,18 +397,6 @@ company: Manpower - Agency - Permanent
 location: Solihull
 source: JobG8
 job_id: jobg8-1916617
-reason: Separate exact-city market at launch.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Administrative Assistant
-company: Kineton Green Primary School
-location: Solihull
-source: Teaching Vacancies
-job_id: teaching-vacancies-administrative-assistant-daeb96b2-4a80-4966-a01a-d852bcec6a1b
 reason: Separate exact-city market at launch.
 ---
 
@@ -469,18 +433,6 @@ company: Whale Tankers - Agency - Permanent
 location: Solihull
 source: JobG8
 job_id: jobg8-1912504
-reason: Separate exact-city market at launch.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Office Administrator
-company: Bentley Heath Church of England Primary School
-location: Solihull
-source: Teaching Vacancies
-job_id: teaching-vacancies-office-administrator-bentley-heath-church-of-england-primary-school-solihull-west-midlands
 reason: Separate exact-city market at launch.
 ---
 

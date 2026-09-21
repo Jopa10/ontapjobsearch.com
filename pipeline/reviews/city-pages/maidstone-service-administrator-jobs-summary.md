@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 4
-- automatic review: 24
+- automatic review: 25
 - automatic exclude: 0
 - effective include: 4
-- effective review: 24
+- effective review: 25
 - effective exclude: 0
 
 ## INCLUDE (4)
@@ -72,7 +72,7 @@ job_id: teaching-vacancies-personal-assistant-to-the-headteacher-maidstone-gramm
 reason: Exact approved Maidstone workplace.
 ---
 
-## REVIEW (24)
+## REVIEW (25)
 
 ---
 action: 
@@ -191,6 +191,18 @@ company: Adjusting Appointments Limited - Agency - Permanent
 location: Kent
 source: JobG8
 job_id: jobg8-1906608
+reason: No exact Maidstone workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Digital Fundraising and Campaign Lead
+company: Mission Aviation Fellowship UK - Agency - Contract
+location: Kent
+source: JobG8
+job_id: jobg8-107994812
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 

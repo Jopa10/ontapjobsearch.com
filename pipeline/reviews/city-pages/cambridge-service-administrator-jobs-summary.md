@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 9
 - automatic review: 1
-- automatic exclude: 8
+- automatic exclude: 7
 - effective include: 9
 - effective review: 1
-- effective exclude: 8
+- effective exclude: 7
 
 ## INCLUDE (9)
 
@@ -146,7 +146,7 @@ job_id: teaching-vacancies-finance-admin-assistant-priory-junior-school-st-neots
 reason: No approved Cambridge catchment rule matched; local review required.
 ---
 
-## EXCLUDE (8)
+## EXCLUDE (7)
 
 ---
 action: 
@@ -157,18 +157,6 @@ company: Reed - Agency - Permanent
 location: Peterborough
 source: JobG8
 job_id: jobg8-1870317
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Administration Assistant (Trips & Visits)
-company: Hampton College
-location: Peterborough
-source: Teaching Vacancies
-job_id: teaching-vacancies-administration-assistant-trips-visits-hampton-college-peterborough-cambridgeshire
 reason: Separate employment market.
 ---
 

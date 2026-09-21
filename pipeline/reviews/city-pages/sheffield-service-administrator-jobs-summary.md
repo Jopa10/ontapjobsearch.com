@@ -4,7 +4,7 @@
 - Live route: `/sheffield/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 5
+- Effective included jobs: 3
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 5
+- automatic include: 3
 - automatic review: 0
 - automatic exclude: 8
-- effective include: 5
+- effective include: 3
 - effective review: 0
 - effective exclude: 8
 
-## INCLUDE (5)
+## INCLUDE (3)
 
 ---
 action: 
@@ -57,30 +57,6 @@ company: Westfield School
 location: Sheffield
 source: Teaching Vacancies
 job_id: teaching-vacancies-personal-assistant-to-headteacher-westfield-school
-reason: Approved Sheffield catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Receptionist
-company: Eckington School
-location: Sheffield
-source: Teaching Vacancies
-job_id: teaching-vacancies-receptionist-458ac8b7-4b1a-49e5-9f6d-099164b8a6da
-reason: Approved Sheffield catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Receptionist
-company: Totley Primary School
-location: Sheffield
-source: Teaching Vacancies
-job_id: teaching-vacancies-receptionist-totley-primary-school
 reason: Approved Sheffield catchment.
 ---
 

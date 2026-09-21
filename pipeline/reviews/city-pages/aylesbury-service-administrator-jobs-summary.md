@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 2
-- automatic review: 19
+- automatic review: 20
 - automatic exclude: 0
 - effective include: 2
-- effective review: 19
+- effective review: 20
 - effective exclude: 0
 
 ## INCLUDE (2)
@@ -48,7 +48,7 @@ job_id: teaching-vacancies-school-administrator-chiltern-way-academy-trust
 reason: Exact approved Aylesbury workplace.
 ---
 
-## REVIEW (19)
+## REVIEW (20)
 
 ---
 action: 
@@ -83,6 +83,18 @@ company: Lord Grey Academy
 location: Milton Keynes
 source: Teaching Vacancies
 job_id: teaching-vacancies-admin-centre-administrator-lord-grey-academy-milton-keynes-buckinghamshire
+reason: No exact Aylesbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrative Officer
+company: Foreign & Commonwealth Office - Agency - Permanent
+location: Buckinghamshire
+source: JobG8
+job_id: jobg8-1956753
 reason: No exact Aylesbury workplace matched; local geographic review is required.
 ---
 

@@ -66,18 +66,6 @@ reason: No exact Poole workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Administrator (Sixth Form Study Centre)
-company: Bournemouth School
-location: Bournemouth
-source: Teaching Vacancies
-job_id: teaching-vacancies-administrator-sixth-form-study-centre-3a398641-1a04-436d-8d95-d6c3dd1d9ae1
-reason: No exact Poole workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Care Coordinator
 company: Agincare Group - Agency - Permanent
 location: Dorset
@@ -155,6 +143,18 @@ company: The Bishop of Winchester Academy
 location: Bournemouth
 source: Teaching Vacancies
 job_id: teaching-vacancies-pa-to-leadership-team-b8e78b62-3fce-486c-bfe4-ebd07a02857c
+reason: No exact Poole workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Placement Coordinator - Construction
+company: Bournemouth and Poole College - Agency - Contract
+location: Dorset
+source: JobG8
+job_id: jobg8-107989969
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 

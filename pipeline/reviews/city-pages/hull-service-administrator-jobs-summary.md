@@ -4,7 +4,7 @@
 - Live route: `/hull/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 4
+- Effective included jobs: 3
 - Threshold currently met: no
 
 ## How to review
@@ -15,26 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 4
-- automatic review: 1
+- automatic include: 3
+- automatic review: 0
 - automatic exclude: 0
-- effective include: 4
-- effective review: 1
+- effective include: 3
+- effective review: 0
 - effective exclude: 0
 
-## INCLUDE (4)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrator
-company: Hull University Teaching Hospitals NHS Trust
-location: Hull, HU1 3TD
-source: NHS Jobs
-job_id: nhs-5595156
-reason: Approved conservative Hull launch catchment.
----
+## INCLUDE (3)
 
 ---
 action: 
@@ -72,18 +60,6 @@ job_id: teaching-vacancies-send-administrator-liberty-academy
 reason: Approved conservative Hull launch catchment.
 ---
 
-## REVIEW (1)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Exams Officer
-company: Bridlington School
-location: Bridlington
-source: Teaching Vacancies
-job_id: teaching-vacancies-exams-officer-bridlington-school
-reason: No approved Hull catchment rule matched; local review required.
----
+## REVIEW (0)
 
 ## EXCLUDE (0)

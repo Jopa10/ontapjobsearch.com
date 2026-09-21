@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 3
-- automatic review: 10
+- automatic review: 8
 - automatic exclude: 0
 - effective include: 3
-- effective review: 10
+- effective review: 8
 - effective exclude: 0
 
 ## INCLUDE (3)
@@ -60,7 +60,7 @@ job_id: teaching-vacancies-receptionist-saint-pius-x-catholic-high-school-a-spec
 reason: Exact approved Rotherham workplace.
 ---
 
-## REVIEW (10)
+## REVIEW (8)
 
 ---
 action: 
@@ -143,30 +143,6 @@ company: Sharp Consultancy - Agency - Permanent
 location: Doncaster
 source: JobG8
 job_id: jobg8-1899982
-reason: No exact Rotherham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Receptionist
-company: Eckington School
-location: Sheffield
-source: Teaching Vacancies
-job_id: teaching-vacancies-receptionist-458ac8b7-4b1a-49e5-9f6d-099164b8a6da
-reason: No exact Rotherham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Receptionist
-company: Totley Primary School
-location: Sheffield
-source: Teaching Vacancies
-job_id: teaching-vacancies-receptionist-totley-primary-school
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 

@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 1
-- automatic review: 11
+- automatic review: 12
 - automatic exclude: 9
 - effective include: 1
-- effective review: 11
+- effective review: 12
 - effective exclude: 9
 
 ## INCLUDE (1)
@@ -36,7 +36,7 @@ job_id: jobg8-107193862
 reason: Approved Southampton catchment.
 ---
 
-## REVIEW (11)
+## REVIEW (12)
 
 ---
 action: 
@@ -167,6 +167,18 @@ company: The Society of St James - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-1898713
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Service Coordinator
+company: People First Recruitment - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-107959953
 reason: Broad location; review before city inclusion.
 ---
 

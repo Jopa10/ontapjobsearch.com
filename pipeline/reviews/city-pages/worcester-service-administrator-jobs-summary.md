@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 1
-- automatic review: 5
+- automatic review: 4
 - automatic exclude: 0
 - effective include: 1
-- effective review: 5
+- effective review: 4
 - effective exclude: 0
 
 ## INCLUDE (1)
@@ -36,19 +36,7 @@ job_id: teaching-vacancies-exams-officer-bce7ec54-a91f-4508-abf1-303d3191a779
 reason: Exact approved Worcester workplace.
 ---
 
-## REVIEW (5)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrative Assistant and Attendance
-company: Walkwood Church of England Middle School
-location: Redditch
-source: Teaching Vacancies
-job_id: teaching-vacancies-administrative-assistant-and-attendance
-reason: No exact Worcester workplace matched; local geographic review is required.
----
+## REVIEW (4)
 
 ---
 action: 

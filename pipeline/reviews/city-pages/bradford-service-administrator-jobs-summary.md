@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 10
-- automatic review: 14
+- automatic review: 13
 - automatic exclude: 30
 - effective include: 10
-- effective review: 14
+- effective review: 13
 - effective exclude: 30
 
 ## INCLUDE (10)
@@ -112,6 +112,18 @@ reason: Approved Bradford catchment.
 action: 
 decision: include
 automatic_decision: include
+title: MEDICAL RECEPTIONIST
+company: The Bradford Moor Practice
+location: Bradford, BD3 8QH
+source: NHS Jobs
+job_id: nhs-5603161
+reason: Approved Bradford catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Office Administrator
 company: St Oswald's Church of England Primary Academy
 location: Bradford
@@ -132,19 +144,7 @@ job_id: nhs-5593331
 reason: Approved Bradford catchment.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Service Administrator
-company: Bradford District Care NHS Foundation Trust
-location: Bradford, BD9 6DP
-source: NHS Jobs
-job_id: nhs-5596261
-reason: Approved Bradford catchment.
----
-
-## REVIEW (14)
+## REVIEW (13)
 
 ---
 action: 
@@ -299,18 +299,6 @@ company: Delta Academies Trust
 location: Knottingley
 source: Teaching Vacancies
 job_id: teaching-vacancies-receptionist-delta-academies-trust-knottingley-not-recorded
-reason: No approved Bradford catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Receptionist / Administrator
-company: The Surgery, Stuart Road
-location: Pontefract, WF8 4PQ
-source: NHS Jobs
-job_id: nhs-5596100
 reason: No approved Bradford catchment rule matched; local review required.
 ---
 
@@ -608,11 +596,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Receptionist
-company: Diamond Medical Group
-location: Leeds, LS7 3DR, Leeds, LS7 1JL, Leeds, LS17 8AE, Leeds, LS8 4AA
+title: Practice Administrator
+company: Warrengate Medical Centre
+location: Wakefield, WF1 4PR
 source: NHS Jobs
-job_id: nhs-5601071
+job_id: nhs-5056947
 reason: Separate employment market.
 ---
 
@@ -632,11 +620,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Receptionist/ Telephonist
-company: Elmwood Family Doctors
-location: Huddersfield, HD9 3TR, Holmfirth, HD9 4EN
+title: Receptionist/Care Navigator
+company: Conway Medical Centre
+location: Leeds, LS8 5DE
 source: NHS Jobs
-job_id: nhs-5579570
+job_id: nhs-5529086
 reason: Separate employment market.
 ---
 

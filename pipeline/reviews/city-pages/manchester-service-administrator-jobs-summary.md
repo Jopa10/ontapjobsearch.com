@@ -4,7 +4,7 @@
 - Live route: `/manchester/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 32
+- Effective included jobs: 33
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 32
+- automatic include: 33
 - automatic review: 14
-- automatic exclude: 2
-- effective include: 32
+- automatic exclude: 1
+- effective include: 33
 - effective review: 14
-- effective exclude: 2
+- effective exclude: 1
 
-## INCLUDE (32)
+## INCLUDE (33)
 
 ---
 action: 
@@ -328,6 +328,18 @@ reason: Approved conservative Manchester launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Medical Receptionist
+company: Hope Citadel Healthcare CIC
+location: Manchester, M14 6FS
+source: NHS Jobs
+job_id: nhs-5597473
+reason: Approved conservative Manchester launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Pastoral Administrator
 company: Salford City Academy
 location: Manchester
@@ -578,7 +590,7 @@ job_id: jobg8-1898599
 reason: No approved Manchester catchment rule matched; local review required.
 ---
 
-## EXCLUDE (2)
+## EXCLUDE (1)
 
 ---
 action: 
@@ -589,17 +601,5 @@ company: Michael Page Finance - Agency - Permanent
 location: Salford
 source: JobG8
 job_id: jobg8-1869419
-reason: Separate exact-city market at launch.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Team Administrator
-company: Greater Manchester Mental Health NHS Foundation Trust
-location: Salford, M7 4BQ
-source: NHS Jobs
-job_id: nhs-5602924
 reason: Separate exact-city market at launch.
 ---

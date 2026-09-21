@@ -4,7 +4,7 @@
 - Live route: `/brighton-hove/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 2
+- Effective included jobs: 1
 - Threshold currently met: no
 
 ## How to review
@@ -15,26 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 2
-- automatic review: 16
-- automatic exclude: 6
-- effective include: 2
-- effective review: 16
-- effective exclude: 6
+- automatic include: 1
+- automatic review: 15
+- automatic exclude: 5
+- effective include: 1
+- effective review: 15
+- effective exclude: 5
 
-## INCLUDE (2)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrator
-company: Sussex Community NHS Foundation Trust
-location: Hove, BN3 7HY
-source: NHS Jobs
-job_id: nhs-5602750
-reason: Approved Brighton & Hove catchment.
----
+## INCLUDE (1)
 
 ---
 action: 
@@ -48,7 +36,7 @@ job_id: nhs-5605438
 reason: Approved Brighton & Hove catchment.
 ---
 
-## REVIEW (16)
+## REVIEW (15)
 
 ---
 action: 
@@ -230,19 +218,7 @@ job_id: jobg8-1912157
 reason: Broad location; review before city inclusion.
 ---
 
----
-action: 
-decision: review
-automatic_decision: review
-title: Year 9 Administrative Assistant including Year 10 work experience
-company: Bexhill High Academy
-location: Bexhill-on-Sea
-source: Teaching Vacancies
-job_id: teaching-vacancies-year-9-administrative-assistant-including-year-10-work-experience
-reason: No approved Brighton & Hove catchment rule matched; local review required.
----
-
-## EXCLUDE (6)
+## EXCLUDE (5)
 
 ---
 action: 
@@ -301,17 +277,5 @@ company: Sussex Partnership NHS Foundation Trust
 location: Chichester, PO19 1BX
 source: NHS Jobs
 job_id: nhs-5604706
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: School Secretary/Administrative Assistant
-company: St Wilfrids Catholic Primary School
-location: Littlehampton
-source: Teaching Vacancies
-job_id: teaching-vacancies-school-secretary-administrative-assistant
 reason: Separate employment market.
 ---
