@@ -1,7 +1,7 @@
 # VONNE ETL proof-of-concept review
 
-review_date: 2026-09-20
-review_fingerprint: 6ed892ef8613602e1deffa17ef7e0bb24b281f5a64c67f0302d983441be77d3d
+review_date: 2026-09-21
+review_fingerprint: f0cef225490e53f0f2e6881bba0156414bb51cfa83fdb113672cc0c0dfa8faba
 
 This implementation is review-only. It has no approved-JSON or publishing mode.
 
@@ -10,10 +10,10 @@ Edit only the `action:` line in editable blocks:
 - `action: exclude` rejects a POSS vacancy or removes an HC vacancy.
 - Actions are remembered while the same vacancy review facts remain unchanged; this review still does not publish anything.
 
-Run generated: 2026-09-20T12:43:23+01:00
+Run generated: 2026-09-21T14:11:39+01:00
 Listing input: https://www.vonne.org.uk/vonne-jobs
-JobG8 comparison rows: 196
-Approved NEJobs comparison rows: 7
+JobG8 comparison rows: 201
+Approved NEJobs comparison rows: 3
 
 ## Funnel
 - VONNE listings read: 15
@@ -76,9 +76,9 @@ source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173448
 
 - [Chief Executive Officer (CEO)](https://www.vonne.org.uk/vonne-jobs-details?cid=173422) — out-of-scope VONNE occupation.
 - [Communications & Campaigns Officer](https://www.vonne.org.uk/vonne-jobs-details?cid=173449) — insufficient service-admin evidence.
-- [Community Cancer Awareness Worker](https://www.vonne.org.uk/vonne-jobs-details?cid=173418) — out-of-scope VONNE occupation.
-- [Community Link Worker](https://www.vonne.org.uk/vonne-jobs-details?cid=173419) — out-of-scope VONNE occupation.
 - [Domestic Abuse Counsellor](https://www.vonne.org.uk/vonne-jobs-details?cid=173427) — insufficient service-admin evidence.
+- [Employability Advisor](https://www.vonne.org.uk/vonne-jobs-details?cid=173454) — insufficient service-admin evidence.
+- [Employability Advisor](https://www.vonne.org.uk/vonne-jobs-details?cid=173453) — insufficient service-admin evidence.
 - [Family Practitioner](https://www.vonne.org.uk/vonne-jobs-details?cid=173441) — out-of-scope VONNE occupation.
 - [Language & Learning Officer](https://www.vonne.org.uk/vonne-jobs-details?cid=173423) — insufficient service-admin evidence.
 - [Play & Youth Practitioner- Part-Time and Casual](https://www.vonne.org.uk/vonne-jobs-details?cid=173440) — out-of-scope VONNE occupation.
