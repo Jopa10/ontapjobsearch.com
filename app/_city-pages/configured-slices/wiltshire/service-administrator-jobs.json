@@ -1,30 +1,5 @@
 [
   {
-    "job_id": "teaching-vacancies-exams-officer-a0e6b270-9f8e-4c55-b68b-38b5e9214d1b",
-    "title": "Exams Officer",
-    "company": "Lavington School",
-    "location": "Devizes",
-    "region": "Wiltshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['part time']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "£31,537 - £33,699 per annum pro rata | £28,517 - £30,472 per annum",
-    "work_pattern": "",
-    "posted_date": "2026-07-13",
-    "closing_date": "2026-09-21",
-    "closing_datetime": "2026-09-21T09:00:00+01:00",
-    "summary": "Exams Officer with Lavington School in Devizes. ['part time']; £31,537 - £33,699 per annum pro rata | £28,517 - £30,472 per annum.",
-    "description": "Lavington School is recruiting for this vacancy in Devizes.\n\nThe advertised position is Exams Officer.\n\nThe source lists the employment type as ['part time'].\n\nThe advertised salary or pay scale is £31,537 - £33,699 per annum pro rata | £28,517 - £30,472 per annum.\n\nThe stated application deadline is 2026-09-21T09:00:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/exams-officer-a0e6b270-9f8e-4c55-b68b-38b5e9214d1b?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "posted_date_basis": "source"
-  },
-  {
     "job_id": "teaching-vacancies-school-receptionist-even-swindon-primary-school",
     "title": "School Receptionist",
     "company": "Even Swindon Primary School",
@@ -47,6 +22,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "Even Swindon Primary School",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -72,6 +50,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "Royal Wootton Bassett Academy",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -97,6 +78,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "Nova Hreod Academy",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -197,6 +181,31 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
+    "posted_date_basis": "ontap_first_published"
+  },
+  {
+    "job_id": "107918273",
+    "title": "Customer Service Assistant",
+    "company": "Compass UK & Ireland - Company - Permanent",
+    "location": "Wiltshire",
+    "region": "Wiltshire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "12.76",
+    "salary_max": "12.76",
+    "salary_text": "£12.76 per hour",
+    "posted_date": "2026-09-21",
+    "description": "Are you a team player with a passion for food and people? Do you thrive in a busy environment? If so, then we are looking for someone just like you to help us deliver exceptional customer experience for Defence on a full time basis, contracted to 37.5 hours per week.\nAs a Customer Services Assistant, you will contribute to a passionate and friendly team working in a fast-paced environment click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?wTAUM266l6deilEQsxP4cHG8v3DFGXUzh",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Compass UK & Ireland",
+    "advertiser_type": "Company",
+    "work_pattern": "Full Time",
+    "salary_period": "Hourly",
     "posted_date_basis": "ontap_first_published"
   },
   {

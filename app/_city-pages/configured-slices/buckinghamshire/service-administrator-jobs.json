@@ -22,6 +22,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "Milton Keynes College",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -47,6 +50,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "Lord Grey Academy",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -72,6 +78,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "Chiltern Way Academy Trust",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -97,6 +106,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "Chepping View Primary Academy",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -122,6 +134,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "Aylesbury High School",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -146,6 +161,31 @@
     "advertiser_name": "wild recruitment",
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
+    "salary_period": "Annual",
+    "posted_date_basis": "ontap_first_published"
+  },
+  {
+    "job_id": "1956753",
+    "title": "Administrative Officer",
+    "company": "Foreign & Commonwealth Office - Agency - Permanent",
+    "location": "Buckinghamshire",
+    "region": "Buckinghamshire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "",
+    "posted_date": "2026-09-21",
+    "description": "FINANCIAL OPERATIONS ADMINISTRATIVE OFFICERS\n\nForeign, Commonwealth & Development Office\n\nReference number: 478200\n\nSalary: Total Package: £29,500 (East Kilbride) + location allowance of £1,750 (Milton Keynes)\n\nContract: Full time, permanent\n\nLocation: East Kilbride or Milton Keynes\n\nHours: Full time. You'll be required to work in line with our policies on hybrid working (minimum 60% in the office)\n\nWe lead the UK's diplomatic, development and consular work around the world. We employ around 17,000 staff in our global network of 281 offices worldwide. Our UK-based staff work in King Charles Street in London, Abercrombie House in East Kilbride and Hanslope Park in Milton Keynes.\n\nYour role with us\n\nOur Finance Operations Department is at the heart of the FCDO, working to deliver public-facing services, projects, programmes and statutory commitments while protecting value for money, ensuring transparency and managing risks. We're currently looking to recruit eighteen enthusiastic Financial Operations Administrative Officers to work on transaction processing, projects, budgets, customer service functions and communications.\n\nJoin our friendly team in either East Kilbride or Milton Keynes and you'll have a wide range of day-to-day responsibilities, including:\n- Checking invoices to ensure their accuracy, processing, reconciling and investigating payments, issuing invoices, calculating and paying pension benefits and dealing with FCDO credit card issues\n- Resolving queries and providing professional guidance to our customers\n- Maintaining Excel spreadsheets, databases, records and desk notes\n- Creating and maintaining electronic filing systems and distribution lists\n- Dealing with telephone, email and postal enquiries\n- Organising and taking notes at meetings and events\n- Maintaining stationery supplies\n- Assisting with project management tasks, including monitoring progress, ensuring tasks are on schedule, anticipating and managing risks, and maintaining records\n- Monitoring budgets, raising purchase orders, using spreadsheets to manipulate data, helping with budget forecasting and working on commercial and procurement policies\n- Acting in various corporate roles such as first aider, for which training will be provided\n\nWho we're looking for\n\nTo be successful in this busy role you'll be a collaborative team worker with excellent communication and interpersonal skills, and a strong commitment to delivering a service of the highest quality. Highly organised and with excellent literacy, numeracy and IT skills, you should be a confident user of IT packages including the Microsoft Office suite of software and have experience of mailbox management.\n\nWith well developed planning and analytical skills, and the ability to work to tight deadlines in a fast-paced environment, you'll also be capable of making effective decisions, identifying problems and proposing solutions.\n\nPlease be aware that you must be a British Citizen at the time of application and be required to attain Developed Vetting (DV) security clearance.\n\nWe value diversity and inclusion and actively encourage and welcome applications from all communities. Everyone here gets the support to develop their skills and capabilities as well as benefits that help to make the most of life in and out of work, including a Civil Service pension.\n\nUse your talent and experience to shape our nation's future, and deliver tangible improvements to millions of lives, including your own.\n\nClosing date: Apply before 11:55 pm on Monday 12th October 2026.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?1tcg6Aj2zazZ99yLFITwogl%2fgttQdyZRb",
+    "source": "JobG8",
+    "working_arrangement": "hybrid",
+    "working_arrangement_text": "Hybrid working",
+    "working_arrangement_evidence": "You'll be required to work in line with our policies on hybrid working (minimum 60% in the office) We lead the UK's diplomatic, development and consular work around the world.",
+    "advertiser_name": "Foreign & Commonwealth Office",
+    "advertiser_type": "Agency",
+    "work_pattern": "Full Time",
     "salary_period": "Annual",
     "posted_date_basis": "ontap_first_published"
   },

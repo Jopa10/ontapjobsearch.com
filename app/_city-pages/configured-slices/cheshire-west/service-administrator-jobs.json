@@ -22,6 +22,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "Upton-by-Chester High School",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -223,24 +226,5 @@
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
     "posted_date_basis": "ontap_first_published"
-  },
-  {
-    "job_id": "nhs-5598480",
-    "source": "NHS Jobs",
-    "title": "Medical Receptionist",
-    "company": "Firdale Medical Centre",
-    "advertiser_name": "Firdale Medical Centre",
-    "location": "Northwich, CW8 4AZ",
-    "region": "Cheshire - West",
-    "salary": "£13.05",
-    "employment_type": "Fixed-Term",
-    "posted_date": "2026-09-14T14:22:52.332484720",
-    "closing_date": "2026-09-20",
-    "description": "An opportunity has arisen for a part time medical receptionist to join our friendly and hardworking GP practice to cover maternity leave. As part of the Clinical Support team you will be involved in assisting the clinical staff dealing with both inbound enquiries from patients, as well as assisting outbound calls and liaising with patients. We need a motivated person who likes to be a part of the team but is also able to work independently on their own initiative. You should be flexible as additional hours may be required by mutual agreement to cover colleagues holidays and other absence. Knowledge of medical terminology and experience of working in healthcare is desired but not essential as full training will be provided. It would be beneficial if you had previous reception or administration experience, strong customer service skills, experience of using IT systems, good telephone manner and good level of resilience. The duties and responsibilities to be undertaken by members of the practice reception team may include any or all of the items in the following list. Opening up/locking-up of practice premises and maintaining security in accordance with practice protocols Processing telephone requests for appointments, visits and telephone consultations and ensuring callers are directed to the appropriate healthcare professional Processing and distributing incoming and outgoing mail Taking messages and passing on information Filing and retrieving paperwork Computer data entry/data allocation and collation; processing and recording information in accordance with practice procedures Initiating contact with and responding to requests from patients, other team members and associated healthcare agencies and providers Providing clerical assistance to practice staff as required from time to time, including filing, photocopying and scanning",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2646-26-0006",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2646-26-0006",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "B",
-    "posted_date_basis": "source"
   }
 ]

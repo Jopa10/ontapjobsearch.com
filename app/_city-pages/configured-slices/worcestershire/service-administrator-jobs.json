@@ -1,30 +1,5 @@
 [
   {
-    "job_id": "teaching-vacancies-administrative-assistant-and-attendance",
-    "title": "Administrative Assistant and Attendance",
-    "company": "Walkwood Church of England Middle School",
-    "location": "Redditch",
-    "region": "Worcestershire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['part time']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "Between £24,796 and £25,185",
-    "work_pattern": "",
-    "posted_date": "2026-09-08",
-    "closing_date": "2026-09-21",
-    "closing_datetime": "2026-09-21T09:00:00+01:00",
-    "summary": "Administrative Assistant and Attendance with Walkwood Church of England Middle School in Redditch. ['part time']; Between £24,796 and £25,185.",
-    "description": "Walkwood Church of England Middle School is recruiting for this vacancy in Redditch.\n\nThe advertised position is Administrative Assistant and Attendance.\n\nThe source lists the employment type as ['part time'].\n\nThe advertised salary or pay scale is Between £24,796 and £25,185.\n\nThe stated application deadline is 2026-09-21T09:00:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-and-attendance?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "posted_date_basis": "source"
-  },
-  {
     "job_id": "teaching-vacancies-exams-officer-bce7ec54-a91f-4508-abf1-303d3191a779",
     "title": "Exams Officer",
     "company": "Tudor Grange Academy Worcester",
@@ -47,6 +22,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "Tudor Grange Academy Worcester",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -72,6 +50,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "Tenbury High Ormiston Academy",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {

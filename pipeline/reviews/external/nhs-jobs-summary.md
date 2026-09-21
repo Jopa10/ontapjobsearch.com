@@ -2,15 +2,27 @@
 
 review_date: 2026-09-21
 
-- Open Administrative & Clerical rows reviewed: 1978
+- Open Administrative & Clerical rows reviewed: 1979
 - Auto/remembered selected: 359
 - Selected HC Tier A: 190
 - Selected HC Tier B: 169
-- POSS awaiting decision: 1493
+- POSS awaiting decision: 1494
 - Excluded: 0
 - HARD_PASS: 126
 
 Edit only each `action:` line for POSS rows. Unchanged decisions are restored by the shared decision ledger.
+
+---
+action:
+POSS | NHS Jobs | Greater Manchester - Manchester & Salford | Manchester, M1 3BN | £49387.00 to £56515.00 | Information Governance and Complaints Manager
+source_job_id: 5610885
+title: Information Governance and Complaints Manager
+employer: Health Research Authority
+region: Greater Manchester - Manchester & Salford
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/M9980-26-0134
+factual_fingerprint: 6ddea28b14177c4dd5ad4cf38e9b5e262d07e615f113251cbad881bd71dc800c
+---
 
 ---
 action:
@@ -165,7 +177,7 @@ employer: James Paget University Hospitals NHS Foundation Trust
 region: Norfolk
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9177-26-0383
-factual_fingerprint: 17e76f377110f08d465d3b3f879e84809fd98d472204df8056e305529cff32a4
+factual_fingerprint: 8402a0a137dfb676f09f3ce89afc05736bd73c8169b2f20f02e10ba78d2b0ae0
 ---
 
 ---
@@ -2037,7 +2049,7 @@ employer: Liverpool Heart and Chest Hospital
 region: Cheshire - Warrington & Halton
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9410-26-0125
-factual_fingerprint: 9d02f2ad7d8f1dfea2e3ee0b23d357d9e3fbe4fbd5edb93c449f47c3fe405b6b
+factual_fingerprint: 06879b27db3805d8a22718945b2bfc519c875502ae771b19f400e96037a40000
 ---
 
 ---

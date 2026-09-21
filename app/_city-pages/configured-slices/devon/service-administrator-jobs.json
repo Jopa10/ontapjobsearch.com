@@ -1,55 +1,5 @@
 [
   {
-    "job_id": "teaching-vacancies-attendance-officer-b4594263-9c2d-4e13-a32d-003ed85d148f",
-    "title": "Attendance Officer",
-    "company": "Isca Academy",
-    "location": "Exeter",
-    "region": "Devon",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['full time']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "£23,071.62 - £25,407.68",
-    "work_pattern": "",
-    "posted_date": "2026-09-09",
-    "closing_date": "2026-09-20",
-    "closing_datetime": "2026-09-20T23:59:00+01:00",
-    "summary": "Attendance Officer with Isca Academy in Exeter. ['full time']; £23,071.62 - £25,407.68.",
-    "description": "Isca Academy is recruiting for this vacancy in Exeter.\n\nThe advertised position is Attendance Officer.\n\nThe source lists the employment type as ['full time'].\n\nThe advertised salary or pay scale is £23,071.62 - £25,407.68.\n\nThe stated application deadline is 2026-09-20T23:59:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-b4594263-9c2d-4e13-a32d-003ed85d148f?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "posted_date_basis": "source"
-  },
-  {
-    "job_id": "teaching-vacancies-admin-assistant-fixed-term",
-    "title": "Admin Assistant - Fixed Term",
-    "company": "Woodlands Park Primary School",
-    "location": "Ivybridge",
-    "region": "Devon",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['part time']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "£13.26 Hourly",
-    "work_pattern": "",
-    "posted_date": "2026-09-04",
-    "closing_date": "2026-09-21",
-    "closing_datetime": "2026-09-21T08:00:00+01:00",
-    "summary": "Admin Assistant - Fixed Term with Woodlands Park Primary School in Ivybridge. ['part time']; £13.26 Hourly.",
-    "description": "Woodlands Park Primary School is recruiting for this vacancy in Ivybridge.\n\nThe advertised position is Admin Assistant - Fixed Term.\n\nThe source lists the employment type as ['part time'].\n\nThe advertised salary or pay scale is £13.26 Hourly.\n\nThe stated application deadline is 2026-09-21T08:00:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-fixed-term?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "posted_date_basis": "source"
-  },
-  {
     "job_id": "teaching-vacancies-schools-liaison-administrator",
     "title": "Schools Liaison Administrator",
     "company": "City College Plymouth",
@@ -72,6 +22,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "City College Plymouth",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -97,6 +50,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "St Cuthbert Mayne School",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -122,6 +78,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "Brunel School",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -147,6 +106,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "St James School",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -172,6 +134,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "Learning Academies Trust",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -197,6 +162,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "Plymstock School",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -222,6 +190,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "Ivy Education Trust",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -247,6 +218,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "Cann Bridge School",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -272,6 +246,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "City College Plymouth",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -297,6 +274,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "Stansfield Academy",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -322,6 +302,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "St Budeaux CofE Primary Academy",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -347,6 +330,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "Cornerstone Academy Trust",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -372,6 +358,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "St Paul's Roman Catholic Primary School",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -692,25 +681,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2737-26-0005",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "posted_date_basis": "source"
-  },
-  {
-    "job_id": "nhs-5607097",
-    "source": "NHS Jobs",
-    "title": "Business Support Administrator",
-    "company": "Devon Partnership NHS Trust",
-    "advertiser_name": "Devon Partnership NHS Trust",
-    "location": "Exeter, EX2 5AF, EXETER, EX2 9HS",
-    "region": "Devon",
-    "salary": "£25760.00 to £27476.00",
-    "employment_type": "Fixed-Term",
-    "posted_date": "2026-09-18T11:51:05.416538987",
-    "closing_date": "2026-10-05",
-    "description": "An exciting opportunity has arisen for a business support administrator to join a project which is launching a centralised administration hub coordinating physical health monitoring activities across Devon. This will include holding central records of all patients who require physical health monitoring whatever service is supporting them, booking appointments, managing DNAs and liaising with teams across the directorate. We are seeking an enthusiastic administrator with excellent IT, communication, and organisational skills. The role offers the opportunity for hybrid working. You will get job satisfaction in helping colleagues and patients efficiently and compassionately. You will be supported and trained to reach your professional best, with opportunities for continuing development, training and career progression. There's lots more to working at Devon Partnership Trust - if you would like to apply or find out more, please get in touch. Working as part of a small team, you will be involved in all aspects of the appointment booking process and follow up administration: Booking initial appointment slots within the clinic or community setting Managing waiting lists to book follow up appointments Managing cancellations and non-attendance Handling queries from patients and referrers Supporting clinical staff with managing clinics and caseloads About you You will have experience of working in a team, providing administrative support in an office environment. The role involves communication, so we expect that you have excellent verbal and written skills. We expect you to have a working knowledge of Microsoft Office packages and be comfortable with working with electronic records. Interacting with patients and the public you will be confident in giving non-clinical information and advice that improves their experience. Dealing with sensitive information daily, you will understand the importance of data security. You will often work under pressure and without direct supervision, so we are looking for someone confident and capable. You will prioritise tasks, and manage your own workload, providing support for your colleagues where required. You will become an important part of the team, working to ensure that every patient receives high quality care. Please see the attached Job Description and Person Specification which will provide further information on this role.",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9369-26-0718",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9369-26-0718",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "B",
     "posted_date_basis": "source"
   }
 ]
