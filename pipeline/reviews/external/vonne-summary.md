@@ -43,7 +43,7 @@ Approved NEJobs comparison rows: 3
 ## POSS — choose SELECT or EXCLUDE
 
 ---
-action:
+action: exclude
 POSS | North East | Hybrid | £ Pro Rata | Independent Advocates (2 posts)
 employer: Families in Care
 closing_date: 07 October 2026
@@ -56,7 +56,7 @@ source_job_id: 173435
 source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173435
 ---
 ---
-action:
+action: exclude
 POSS | North East - Tyneside, Wearside & Northumberland | Newcastle | £ Pro Rata | Community Hub and Operations Lead
 employer: Riverside Community Health Project
 closing_date: 04 October 2026
