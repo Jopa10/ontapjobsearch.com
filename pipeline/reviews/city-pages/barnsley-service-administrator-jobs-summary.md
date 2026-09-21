@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 3
 - automatic review: 0
-- automatic exclude: 8
+- automatic exclude: 10
 - effective include: 3
 - effective review: 0
-- effective exclude: 8
+- effective exclude: 10
 
 ## INCLUDE (3)
 
@@ -62,7 +62,19 @@ reason: Approved Barnsley catchment.
 
 ## REVIEW (0)
 
-## EXCLUDE (8)
+## EXCLUDE (10)
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Accounts Assistant
+company: Sharp Consultancy - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-1959767
+reason: Separate employment market.
+---
 
 ---
 action: 
@@ -85,6 +97,18 @@ company: Gooseacre Primary Academy
 location: Rotherham
 source: Teaching Vacancies
 job_id: teaching-vacancies-administration-assistant-gooseacre-primary-academy-rotherham-south-yorkshire
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Clerical Officer
+company: Sheffield Teaching Hospitals NHS Foundation Trust
+location: Sheffield, S10 2JF
+source: NHS Jobs
+job_id: nhs-5611916
 reason: Separate employment market.
 ---
 
@@ -116,6 +140,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Facilities Coordinator
+company: Adecco - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-1877335
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Personal Assistant to Headteacher
 company: Westfield School
 location: Sheffield
@@ -133,18 +169,6 @@ company: Sharp Consultancy - Agency - Permanent
 location: Doncaster
 source: JobG8
 job_id: jobg8-1899982
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Receptionist
-company: Gateway Primary Care CIC
-location: Rotherham, S65 1DJ, Rotherham, S62 7BT, Rotherham, S60 2JH, Rotherham, S60 8GD
-source: NHS Jobs
-job_id: nhs-5588970
 reason: Separate employment market.
 ---
 

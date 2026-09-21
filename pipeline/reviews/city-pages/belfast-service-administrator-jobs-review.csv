@@ -1,6 +1,7 @@
 decision,job_id,title,company,location,source,automatic_decision,effective_decision,reason,matched_rule,city_key
 include,jobg8-1906961,Accounts Assistant,Reed - Agency - Permanent,Belfast,JobG8,include,include,Approved conservative Belfast launch catchment.,belfast,belfast-service-administrator-jobs
 include,jobg8-21582_110129390,External Communications Executive,A&O Shearman - Agency - Permanent,Belfast,JobG8,include,include,Approved conservative Belfast launch catchment.,belfast,belfast-service-administrator-jobs
+include,jobg8-1858475,Sales Ledger Accounts Assistant,Reed - Agency - Permanent,Belfast,JobG8,include,include,Approved conservative Belfast launch catchment.,belfast,belfast-service-administrator-jobs
 include,jobg8-21582_110261545,Senior Marketing Assistant (12-month FTC),A&O Shearman - Agency - Permanent,Belfast,JobG8,include,include,Approved conservative Belfast launch catchment.,belfast,belfast-service-administrator-jobs
 review,jobg8-1897859,Accounts Assistant,Reed - Agency - Permanent,Lisburn,JobG8,review,review,No approved Belfast catchment rule matched; local review required.,fallback,belfast-service-administrator-jobs
 review,jobg8-107952610,Commercial Vehicles Administrator,Briggs Equipment Ltd - Agency - Permanent,Lisburn,JobG8,review,review,No approved Belfast catchment rule matched; local review required.,fallback,belfast-service-administrator-jobs

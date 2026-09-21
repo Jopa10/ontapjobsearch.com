@@ -4,7 +4,7 @@
 - Live route: `/gloucester/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 4
+- Effective included jobs: 5
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,26 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 4
-- automatic review: 19
+- automatic include: 5
+- automatic review: 20
 - automatic exclude: 0
-- effective include: 4
-- effective review: 19
+- effective include: 5
+- effective review: 20
 - effective exclude: 0
 
-## INCLUDE (4)
+## INCLUDE (5)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Accounts Assistant
+company: Autograph Recruitment Ltd - Agency - Permanent
+location: Gloucester
+source: JobG8
+job_id: jobg8-1947766
+reason: Exact approved Gloucester workplace.
+---
 
 ---
 action: 
@@ -72,17 +84,17 @@ job_id: jobg8-1932863
 reason: Exact approved Gloucester workplace.
 ---
 
-## REVIEW (19)
+## REVIEW (20)
 
 ---
 action: 
 decision: review
 automatic_decision: review
-title: Finance Officer
-company: Wildfowl and Wetlands Trust - Agency - Permanent
+title: Accounts Assistant
+company: Crowe UK - Agency - Permanent
 location: Gloucestershire
 source: JobG8
-job_id: jobg8-1894278
+job_id: jobg8-1947491
 reason: No exact Gloucester workplace matched; local geographic review is required.
 ---
 
@@ -119,18 +131,6 @@ company: Pertemps Gloucester - Agency - Permanent
 location: Gloucestershire
 source: JobG8
 job_id: jobg8-1909553
-reason: No exact Gloucester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: HR & Recruitment Administrator
-company: Anderson Recruitment Ltd - Agency - Permanent
-location: Gloucestershire
-source: JobG8
-job_id: jobg8-1928795
 reason: No exact Gloucester workplace matched; local geographic review is required.
 ---
 
@@ -222,6 +222,18 @@ reason: No exact Gloucester workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
+title: Payments Assistant
+company: Crowe UK - Agency - Permanent
+location: Gloucestershire
+source: JobG8
+job_id: jobg8-1947489
+reason: No exact Gloucester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Payroll Administrator
 company: Robert Half - Agency - Permanent
 location: Gloucestershire
@@ -299,6 +311,18 @@ company: Siamo Group Ltd - Agency - Permanent
 location: Gloucestershire
 source: JobG8
 job_id: jobg8-107871455
+reason: No exact Gloucester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Service Advisor
+company: Pembrook Resourcing - Agency - Permanent
+location: Gloucestershire
+source: JobG8
+job_id: jobg8-1961064
 reason: No exact Gloucester workplace matched; local geographic review is required.
 ---
 

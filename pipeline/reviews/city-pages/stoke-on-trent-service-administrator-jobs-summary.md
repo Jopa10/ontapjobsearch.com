@@ -4,7 +4,7 @@
 - Live route: `/stoke-on-trent/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 2
+- Effective included jobs: 3
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,26 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 2
-- automatic review: 11
+- automatic include: 3
+- automatic review: 17
 - automatic exclude: 0
-- effective include: 2
-- effective review: 11
+- effective include: 3
+- effective review: 17
 - effective exclude: 0
 
-## INCLUDE (2)
+## INCLUDE (3)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administrator
+company: Practice Plus Group - Health in Justice
+location: Stoke-on-Trent, ST9 0DX
+source: NHS Jobs
+job_id: nhs-5613574
+reason: Exact approved Stoke-on-trent workplace.
+---
 
 ---
 action: 
@@ -48,7 +60,7 @@ job_id: jobg8-1897879
 reason: Exact approved Stoke-on-trent workplace.
 ---
 
-## REVIEW (11)
+## REVIEW (17)
 
 ---
 action: 
@@ -138,6 +150,18 @@ reason: No exact Stoke-on-trent workplace matched; local geographic review is re
 action: 
 decision: review
 automatic_decision: review
+title: Learning and Engagement Coordinator
+company: Adullam Homes - Agency - Permanent
+location: Staffordshire
+source: JobG8
+job_id: jobg8-107961085
+reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Marketing and Sales Support
 company: Oyster Recruitment Limited - Agency - Permanent
 location: Staffordshire
@@ -174,11 +198,71 @@ reason: No exact Stoke-on-trent workplace matched; local geographic review is re
 action: 
 decision: review
 automatic_decision: review
+title: Purchasing & Logistics Coordinator
+company: Brampton Recruitment Ltd - Agency - Contract
+location: Staffordshire
+source: JobG8
+job_id: jobg8-23643_225583171
+reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Receptionist
+company: North Staffordshire Combined Healthcare Trust
+location: Stoke on Trent, ST6 5UD
+source: NHS Jobs
+job_id: nhs-5599894
+reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Receptionist and Admin Assistant
 company: Lift Tamworth
 location: Tamworth
 source: Teaching Vacancies
 job_id: teaching-vacancies-receptionist-and-admin-assistant-lift-tamworth
+reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Wellbeing and Activities Coordinator
+company: Avery Healthcare - Agency - Permanent
+location: Staffordshire
+source: JobG8
+job_id: jobg8-323789138607000780837340
+reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Wellbeing and Activities Coordinator
+company: Avery Healthcare - Agency - Permanent
+location: Staffordshire
+source: JobG8
+job_id: jobg8-872170507984699392037340
+reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Wellbeing and Activities Coordinator
+company: Avery Healthcare - Agency - Permanent
+location: Staffordshire
+source: JobG8
+job_id: jobg8-872170507984699392037341
 reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
 ---
 

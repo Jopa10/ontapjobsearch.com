@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 2
-- automatic review: 19
+- automatic review: 21
 - automatic exclude: 0
 - effective include: 2
-- effective review: 19
+- effective review: 21
 - effective exclude: 0
 
 ## INCLUDE (2)
@@ -48,7 +48,19 @@ job_id: jobg8-1877352
 reason: Exact approved Hemel Hempstead workplace.
 ---
 
-## REVIEW (19)
+## REVIEW (21)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: 1st Line IT Support / Helpdesk Analyst
+company: T2P Recruitment Ltd - Agency - Permanent
+location: Hertfordshire
+source: JobG8
+job_id: jobg8-1810176
+reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
+---
 
 ---
 action: 
@@ -59,18 +71,6 @@ company: Pinpoint Resourcing Ltd - Agency - Permanent
 location: Hertfordshire
 source: JobG8
 job_id: jobg8-1905967
-reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administration assistant
-company: Woodside Primary School
-location: Waltham Cross
-source: Teaching Vacancies
-job_id: teaching-vacancies-administration-assistant-woodside-primary-school
 reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
 ---
 
@@ -102,11 +102,47 @@ reason: No exact Hemel Hempstead workplace matched; local geographic review is r
 action: 
 decision: review
 automatic_decision: review
+title: BMW Service Advisor
+company: Sytner Group - Agency - Permanent
+location: Hertfordshire
+source: JobG8
+job_id: jobg8-1915618
+reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Claims Handler
+company: Mission 4 Recruitment Ltd - Agency - Permanent
+location: Hertfordshire
+source: JobG8
+job_id: jobg8-1945695
+reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Claims Handler
 company: PMR - Agency - Permanent
 location: Hertfordshire
 source: JobG8
 job_id: jobg8-1927516
+reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Clerical Assistant-Radiology Department
+company: East and North Hertfordshire Teaching NHS Trust
+location: Stevenage, SG1 4AB
+source: NHS Jobs
+job_id: nhs-5612223
 reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
 ---
 
@@ -251,18 +287,6 @@ company: JSL Solutions Ltd - Agency - Permanent
 location: Hertfordshire
 source: JobG8
 job_id: jobg8-1944669
-reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Operations Co-Ordinator
-company: Zero Surplus - Agency - Permanent
-location: Hertford
-source: JobG8
-job_id: jobg8-23643_225542267
 reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
 ---
 

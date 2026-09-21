@@ -4,7 +4,7 @@
 - Live route: `/altrincham/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 1
+- Effective included jobs: 2
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,26 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 1
-- automatic review: 5
+- automatic include: 2
+- automatic review: 6
 - automatic exclude: 0
-- effective include: 1
-- effective review: 5
+- effective include: 2
+- effective review: 6
 - effective exclude: 0
 
-## INCLUDE (1)
+## INCLUDE (2)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Air Freight Imports Coordinator
+company: Reed - Agency - Permanent
+location: Altrincham
+source: JobG8
+job_id: jobg8-1881286
+reason: Exact approved Altrincham workplace.
+---
 
 ---
 action: 
@@ -36,7 +48,7 @@ job_id: jobg8-1869719
 reason: Exact approved Altrincham workplace.
 ---
 
-## REVIEW (5)
+## REVIEW (6)
 
 ---
 action: 
@@ -47,6 +59,18 @@ company: Michael Page Finance - Agency - Permanent
 location: Stockport
 source: JobG8
 job_id: jobg8-1950420
+reason: No exact Altrincham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Assistant - Purchase Ledger & Credit Control
+company: hireful. - Agency - Permanent
+location: Trafford
+source: JobG8
+job_id: jobg8-1912852
 reason: No exact Altrincham workplace matched; local geographic review is required.
 ---
 

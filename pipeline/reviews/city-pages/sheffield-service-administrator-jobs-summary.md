@@ -4,8 +4,8 @@
 - Live route: `/sheffield/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 3
-- Threshold currently met: no
+- Effective included jobs: 6
+- Threshold currently met: yes
 
 ## How to review
 Edit only the `action:` line inside a job block.
@@ -15,14 +15,26 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 3
+- automatic include: 6
 - automatic review: 0
-- automatic exclude: 8
-- effective include: 3
+- automatic exclude: 7
+- effective include: 6
 - effective review: 0
-- effective exclude: 8
+- effective exclude: 7
 
-## INCLUDE (3)
+## INCLUDE (6)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Accounts Assistant
+company: Sharp Consultancy - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-1959767
+reason: Approved Sheffield catchment.
+---
 
 ---
 action: 
@@ -33,6 +45,18 @@ company: Totley All Saints Church of England Voluntary Aided Primary School
 location: Sheffield
 source: Teaching Vacancies
 job_id: teaching-vacancies-admin-assistant-part-time-18-hrs
+reason: Approved Sheffield catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Clerical Officer
+company: Sheffield Teaching Hospitals NHS Foundation Trust
+location: Sheffield, S10 2JF
+source: NHS Jobs
+job_id: nhs-5611916
 reason: Approved Sheffield catchment.
 ---
 
@@ -52,6 +76,18 @@ reason: Approved Sheffield catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Facilities Coordinator
+company: Adecco - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-1877335
+reason: Approved Sheffield catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Personal Assistant to Headteacher
 company: Westfield School
 location: Sheffield
@@ -62,7 +98,7 @@ reason: Approved Sheffield catchment.
 
 ## REVIEW (0)
 
-## EXCLUDE (8)
+## EXCLUDE (7)
 
 ---
 action: 
@@ -121,18 +157,6 @@ company: Sharp Consultancy - Agency - Permanent
 location: Doncaster
 source: JobG8
 job_id: jobg8-1899982
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Receptionist
-company: Gateway Primary Care CIC
-location: Rotherham, S65 1DJ, Rotherham, S62 7BT, Rotherham, S60 2JH, Rotherham, S60 8GD
-source: NHS Jobs
-job_id: nhs-5588970
 reason: Separate employment market.
 ---
 

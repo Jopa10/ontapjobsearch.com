@@ -4,8 +4,8 @@
 - Live route: `/shrewsbury/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 5
-- Threshold currently met: yes
+- Effective included jobs: 3
+- Threshold currently met: no
 
 ## How to review
 Edit only the `action:` line inside a job block.
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 5
+- automatic include: 3
 - automatic review: 7
 - automatic exclude: 0
-- effective include: 5
+- effective include: 3
 - effective review: 7
 - effective exclude: 0
 
-## INCLUDE (5)
+## INCLUDE (3)
 
 ---
 action: 
@@ -45,30 +45,6 @@ company: Severndale Specialist Academy
 location: Shrewsbury
 source: Teaching Vacancies
 job_id: teaching-vacancies-administration-assistant-severndale-specialist-academy-shrewsbury-shropshire
-reason: Exact approved Shrewsbury workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrator – Attendance & Student Support
-company: The Priory School
-location: Shrewsbury
-source: Teaching Vacancies
-job_id: teaching-vacancies-administrator-attendance-student-support
-reason: Exact approved Shrewsbury workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Business Support Administrator
-company: St George's Junior School
-location: Shrewsbury
-source: Teaching Vacancies
-job_id: teaching-vacancies-business-support-administrator-st-george-s-junior-school-shrewsbury-shropshire
 reason: Exact approved Shrewsbury workplace.
 ---
 
@@ -114,11 +90,11 @@ reason: No exact Shrewsbury workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Customer Service Advisor
-company: Vivactive Ltd - Agency - Permanent
-location: Shropshire
-source: JobG8
-job_id: jobg8-23643_225535780
+title: Finance & Admin Assistant
+company: Beech Grove Primary School
+location: Wellington
+source: Teaching Vacancies
+job_id: teaching-vacancies-finance-admin-assistant-beech-grove-primary-school
 reason: No exact Shrewsbury workplace matched; local geographic review is required.
 ---
 
@@ -126,11 +102,11 @@ reason: No exact Shrewsbury workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Finance & Admin Assistant
-company: Beech Grove Primary School
-location: Wellington
-source: Teaching Vacancies
-job_id: teaching-vacancies-finance-admin-assistant-beech-grove-primary-school
+title: Medical Receptionist
+company: Much Wenlock and Cressage Medical Practice
+location: Much Wenlock, TF13 6BL, Shrewsbury, SY5 6DH
+source: NHS Jobs
+job_id: nhs-5579203
 reason: No exact Shrewsbury workplace matched; local geographic review is required.
 ---
 
@@ -150,11 +126,11 @@ reason: No exact Shrewsbury workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Receptionist
-company: Teldoc
-location: Telford, TF2 6JJ, Telford, TF3 2BF
-source: NHS Jobs
-job_id: nhs-5592785
+title: SENCo and Safeguarding Admin Assistant - HLTA position
+company: Beech Grove Primary School
+location: Wellington
+source: Teaching Vacancies
+job_id: teaching-vacancies-senco-and-safeguarding-admin-assistant-hlta-position
 reason: No exact Shrewsbury workplace matched; local geographic review is required.
 ---
 
@@ -162,11 +138,11 @@ reason: No exact Shrewsbury workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: SENCo and Safeguarding Admin Assistant - HLTA position
-company: Beech Grove Primary School
-location: Wellington
-source: Teaching Vacancies
-job_id: teaching-vacancies-senco-and-safeguarding-admin-assistant-hlta-position
+title: Service Advisor - Volkswagen Shrewsbury
+company: Group 1 Automotive - Company - Permanent
+location: Shropshire
+source: JobG8
+job_id: jobg8-1928348
 reason: No exact Shrewsbury workplace matched; local geographic review is required.
 ---
 

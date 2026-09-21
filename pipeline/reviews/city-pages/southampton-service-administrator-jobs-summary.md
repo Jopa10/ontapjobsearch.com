@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 1
-- automatic review: 12
-- automatic exclude: 9
+- automatic review: 13
+- automatic exclude: 13
 - effective include: 1
-- effective review: 12
-- effective exclude: 9
+- effective review: 13
+- effective exclude: 13
 
 ## INCLUDE (1)
 
@@ -36,7 +36,7 @@ job_id: jobg8-107193862
 reason: Approved Southampton catchment.
 ---
 
-## REVIEW (12)
+## REVIEW (13)
 
 ---
 action: 
@@ -54,23 +54,11 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Administrator
-company: Rowner Medical Centre
-location: Gosport, PO13 9SP
-source: NHS Jobs
-job_id: nhs-5591061
-reason: No approved Southampton catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator Apprentice
-company: Blake Morgan LLP - Agency - Contract
+title: Corporate Financial Administrator
+company: 1to1 Group Limited - Agency - Permanent
 location: Hampshire
 source: JobG8
-job_id: jobg8-107872412
+job_id: jobg8-1869745
 reason: Broad location; review before city inclusion.
 ---
 
@@ -78,11 +66,11 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Care Coordinator
-company: Agincare Group - Agency - Permanent
+title: EHCP Coordinator
+company: Aspire People Limited - Agency - Permanent
 location: Hampshire
 source: JobG8
-job_id: jobg8-107963757
+job_id: jobg8-1858777
 reason: Broad location; review before city inclusion.
 ---
 
@@ -96,6 +84,18 @@ location: Alresford
 source: Teaching Vacancies
 job_id: teaching-vacancies-exams-officer-and-assessment-data-co-ordinator
 reason: No approved Southampton catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Finance Assistant
+company: CMA Recruitment Group - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-1947243
+reason: Broad location; review before city inclusion.
 ---
 
 ---
@@ -174,6 +174,18 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
+title: Service Advisor
+company: Pembrook Resourcing - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-1881197
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Service Coordinator
 company: People First Recruitment - Agency - Permanent
 location: Hampshire
@@ -182,7 +194,7 @@ job_id: jobg8-107959953
 reason: Broad location; review before city inclusion.
 ---
 
-## EXCLUDE (9)
+## EXCLUDE (13)
 
 ---
 action: 
@@ -213,6 +225,18 @@ action:
 decision: exclude
 automatic_decision: exclude
 title: Administrator
+company: Island City Practice
+location: Portsmouth, PO4 8TA
+source: NHS Jobs
+job_id: nhs-5577957
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Administrator
 company: Practice Plus Group - Health in Justice
 location: Winchester, SO22 5DF
 source: NHS Jobs
@@ -229,6 +253,18 @@ company: The Harbour School
 location: Portsmouth
 source: Teaching Vacancies
 job_id: teaching-vacancies-administrator-the-harbour-school-the-harbour-school
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Care Home Administrator
+company: Avery Healthcare Group Ltd.
+location: Winchester, SO22 5JH
+source: NHS Jobs
+job_id: nhs-5612599
 reason: Separate employment market.
 ---
 
@@ -277,6 +313,30 @@ company: Operose Health
 location: Basingstoke, RG22 4EH
 source: NHS Jobs
 job_id: nhs-5592877
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Telesales Executive
+company: Hirecracker - Agency - Permanent
+location: Fareham
+source: JobG8
+job_id: jobg8-107921838
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Temporary Medical Secretary
+company: 1to1 Group Limited - Agency - Permanent
+location: Winchester
+source: JobG8
+job_id: jobg8-1934715
 reason: Separate employment market.
 ---
 

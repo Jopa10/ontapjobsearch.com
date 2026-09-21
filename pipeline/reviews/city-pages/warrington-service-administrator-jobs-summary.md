@@ -16,25 +16,13 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 18
-- automatic review: 10
-- automatic exclude: 5
+- automatic review: 13
+- automatic exclude: 6
 - effective include: 18
-- effective review: 10
-- effective exclude: 5
+- effective review: 13
+- effective exclude: 6
 
 ## INCLUDE (18)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: 6 month FTC Administrator
-company: Zachary Daniels Recruitment - Agency - Contract
-location: Warrington
-source: JobG8
-job_id: jobg8-23643_225623932
-reason: Approved conservative Warrington launch catchment.
----
 
 ---
 action: 
@@ -197,6 +185,18 @@ action:
 decision: include
 automatic_decision: include
 title: Finance Assistant
+company: Adecco - Agency - Permanent
+location: Warrington
+source: JobG8
+job_id: jobg8-1858441
+reason: Approved conservative Warrington launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Finance Assistant
 company: Reed - Agency - Permanent
 location: Warrington
 source: JobG8
@@ -240,7 +240,19 @@ job_id: jobg8-1927990
 reason: Approved conservative Warrington launch catchment.
 ---
 
-## REVIEW (10)
+## REVIEW (13)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Assistant
+company: Reed - Agency - Permanent
+location: Cheshire
+source: JobG8
+job_id: jobg8-1936736
+reason: No approved Warrington catchment rule matched; local review required.
+---
 
 ---
 action: 
@@ -354,6 +366,18 @@ reason: No approved Warrington catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Payroll and Benefits Administrator
+company: Michael Page Finance - Agency - Permanent
+location: Cheshire
+source: JobG8
+job_id: jobg8-1928944
+reason: No approved Warrington catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Reception/administrator
 company: Peelhouse Medical Plaza
 location: Widnes, WA8 6TN
@@ -362,7 +386,19 @@ job_id: nhs-5603667
 reason: No approved Warrington catchment rule matched; local review required.
 ---
 
-## EXCLUDE (5)
+---
+action: 
+decision: review
+automatic_decision: review
+title: School Administrator - short term
+company: Tradewind Recruitment - Agency - Permanent
+location: Widnes
+source: JobG8
+job_id: jobg8-1814111
+reason: No approved Warrington catchment rule matched; local review required.
+---
+
+## EXCLUDE (6)
 
 ---
 action: 
@@ -421,5 +457,17 @@ company: EE - Company - Permanent
 location: Runcorn
 source: JobG8
 job_id: jobg8-20279_62648-fe97affcb7eb2cdceb67019e12eb7199
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Finance Assistant
+company: Michael Page Finance - Agency - Permanent
+location: Runcorn
+source: JobG8
+job_id: jobg8-1859491
 reason: Separate employment market.
 ---

@@ -4,7 +4,7 @@
 - Live route: `/maidstone/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 4
+- Effective included jobs: 5
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 4
-- automatic review: 25
+- automatic include: 5
+- automatic review: 33
 - automatic exclude: 0
-- effective include: 4
-- effective review: 25
+- effective include: 5
+- effective review: 33
 - effective exclude: 0
 
-## INCLUDE (4)
+## INCLUDE (5)
 
 ---
 action: 
@@ -64,6 +64,18 @@ reason: Exact approved Maidstone workplace.
 action: 
 decision: include
 automatic_decision: include
+title: Bookkeeper Administrator
+company: Reed - Agency - Permanent
+location: Maidstone
+source: JobG8
+job_id: jobg8-1857798
+reason: Exact approved Maidstone workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Personal Assistant to the Headteacher
 company: Maidstone Grammar School for Girls
 location: Maidstone
@@ -72,7 +84,43 @@ job_id: teaching-vacancies-personal-assistant-to-the-headteacher-maidstone-gramm
 reason: Exact approved Maidstone workplace.
 ---
 
-## REVIEW (25)
+## REVIEW (33)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts and Operations Coordinator
+company: Recruitment Solutions - Agency - Permanent
+location: Kent
+source: JobG8
+job_id: jobg8-1947842
+reason: No exact Maidstone workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Assistant
+company: Cobb & Jones Recruitment Limited - Agency - Permanent
+location: Kent
+source: JobG8
+job_id: jobg8-1958067
+reason: No exact Maidstone workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Assistant
+company: Pearson Whiffin Recruitment Ltd - Agency - Permanent
+location: Canterbury
+source: JobG8
+job_id: jobg8-1958432
+reason: No exact Maidstone workplace matched; local geographic review is required.
+---
 
 ---
 action: 
@@ -131,6 +179,18 @@ company: Kent and Medway Mental Health NHS Trust
 location: Sittingbourne, ME10 4HG
 source: NHS Jobs
 job_id: nhs-5601161
+reason: No exact Maidstone workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administration Assistant
+company: Northgate Medical Practice
+location: Canterbury, CT1 1WL
+source: NHS Jobs
+job_id: nhs-5612839
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 
@@ -227,6 +287,18 @@ company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Kent
 source: JobG8
 job_id: jobg8-1883827
+reason: No exact Maidstone workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Financial Administrator Adviser Support Tunbridge Wells Up to &;40.000
+company: Financial Divisions - Agency - Permanent
+location: Kent
+source: JobG8
+job_id: jobg8-1860251
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 
@@ -342,6 +414,18 @@ reason: No exact Maidstone workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
+title: Mortgage Administrators required top London Brokerage REMOTE / RARE
+company: Astral Recruitment - Agency - Permanent
+location: Kent
+source: JobG8
+job_id: jobg8-1869807
+reason: No exact Maidstone workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Office Administrator
 company: Worth Recruiting - Property Industry Recruitment - Agency - Permanent
 location: Kent
@@ -354,11 +438,35 @@ reason: No exact Maidstone workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
+title: Sales Executive
+company: KFS Recruitment - Agency - Permanent
+location: Gravesend
+source: JobG8
+job_id: jobg8-1944201
+reason: No exact Maidstone workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: School Receptionist & Administrator
 company: Valence School
 location: Westerham
 source: Teaching Vacancies
 job_id: teaching-vacancies-school-receptionist-administrator-valence-school-westerham-kent
+reason: No exact Maidstone workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Service Advisor
+company: Prima Hatfield Associates - Agency - Permanent
+location: Canterbury
+source: JobG8
+job_id: jobg8-1909971
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 

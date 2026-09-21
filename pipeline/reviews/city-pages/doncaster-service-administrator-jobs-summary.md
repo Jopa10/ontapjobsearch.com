@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 2
 - automatic review: 0
-- automatic exclude: 9
+- automatic exclude: 11
 - effective include: 2
 - effective review: 0
-- effective exclude: 9
+- effective exclude: 11
 
 ## INCLUDE (2)
 
@@ -50,7 +50,19 @@ reason: Approved Doncaster catchment.
 
 ## REVIEW (0)
 
-## EXCLUDE (9)
+## EXCLUDE (11)
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Accounts Assistant
+company: Sharp Consultancy - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-1959767
+reason: Separate employment market.
+---
 
 ---
 action: 
@@ -92,11 +104,35 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Clerical Officer
+company: Sheffield Teaching Hospitals NHS Foundation Trust
+location: Sheffield, S10 2JF
+source: NHS Jobs
+job_id: nhs-5611916
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Credit Control / Accounts Assistant
 company: Shillito Group - Agency - Permanent
 location: Sheffield
 source: JobG8
 job_id: jobg8-1905225
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Facilities Coordinator
+company: Adecco - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-1877335
 reason: Separate employment market.
 ---
 
@@ -121,18 +157,6 @@ company: Westfield School
 location: Sheffield
 source: Teaching Vacancies
 job_id: teaching-vacancies-personal-assistant-to-headteacher-westfield-school
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Receptionist
-company: Gateway Primary Care CIC
-location: Rotherham, S65 1DJ, Rotherham, S62 7BT, Rotherham, S60 2JH, Rotherham, S60 8GD
-source: NHS Jobs
-job_id: nhs-5588970
 reason: Separate employment market.
 ---
 

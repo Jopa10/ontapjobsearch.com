@@ -4,7 +4,7 @@
 - Live route: `/glasgow/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 8
+- Effective included jobs: 11
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,26 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 8
+- automatic include: 11
 - automatic review: 2
 - automatic exclude: 0
-- effective include: 8
+- effective include: 11
 - effective review: 2
 - effective exclude: 0
 
-## INCLUDE (8)
+## INCLUDE (11)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Activities Coordinator
+company: Care Concern Group - Company - Permanent
+location: Glasgow
+source: JobG8
+job_id: jobg8-108007106
+reason: Approved conservative Glasgow launch catchment.
+---
 
 ---
 action: 
@@ -57,6 +69,18 @@ company: Adjusting Appointments Limited - Agency - Permanent
 location: Glasgow
 source: JobG8
 job_id: jobg8-1906611
+reason: Approved conservative Glasgow launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Client Engagement Administrator
+company: Finlink Ltd - Agency - Permanent
+location: Glasgow
+source: JobG8
+job_id: jobg8-1950284
 reason: Approved conservative Glasgow launch catchment.
 ---
 
@@ -117,6 +141,18 @@ company: Creideas - Agency - Permanent
 location: Glasgow
 source: JobG8
 job_id: jobg8-1936242
+reason: Approved conservative Glasgow launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Resourcing Coordinator (Maternity Cover)
+company: Mission Aviation Fellowship UK - Agency - Permanent
+location: Glasgow
+source: JobG8
+job_id: jobg8-1884949
 reason: Approved conservative Glasgow launch catchment.
 ---
 

@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 25
 - automatic review: 4
-- automatic exclude: 6
+- automatic exclude: 7
 - effective include: 25
 - effective review: 4
-- effective exclude: 6
+- effective exclude: 7
 
 ## INCLUDE (25)
 
@@ -33,6 +33,18 @@ company: Consula Group LTD - Agency - Permanent
 location: Birmingham
 source: JobG8
 job_id: jobg8-1865343
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Accounts Assistant
+company: SF Partners - Agency - Permanent
+location: Birmingham
+source: JobG8
+job_id: jobg8-1914542
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -220,18 +232,6 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Office Assistant at St Elizabeth's Catholic Primary School, B79 8EN
-company: St. John Paul Ii Multi Academy Company
-location: Birmingham
-source: Teaching Vacancies
-job_id: teaching-vacancies-office-assistant-at-st-elizabeth-s-catholic-primary-school-b79-8en
-reason: Approved conservative Birmingham launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Pastoral Support and Administrator Apprentice
 company: E-ACT Heartlands Academy
 location: Birmingham
@@ -374,7 +374,7 @@ job_id: teaching-vacancies-senior-administrator-bishop-vesey-s-grammar-school
 reason: No approved Birmingham catchment rule matched; local review required.
 ---
 
-## EXCLUDE (6)
+## EXCLUDE (7)
 
 ---
 action: 
@@ -385,6 +385,18 @@ company: Mitchell Adam - Agency - Permanent
 location: Solihull
 source: JobG8
 job_id: jobg8-1868171
+reason: Separate exact-city market at launch.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Accounts Assistant
+company: Flora Co Associates Ltd - Agency - Permanent
+location: Solihull
+source: JobG8
+job_id: jobg8-1870453
 reason: Separate exact-city market at launch.
 ---
 

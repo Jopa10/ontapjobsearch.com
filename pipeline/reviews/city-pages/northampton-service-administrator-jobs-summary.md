@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 1
-- automatic review: 9
+- automatic review: 11
 - automatic exclude: 0
 - effective include: 1
-- effective review: 9
+- effective review: 11
 - effective exclude: 0
 
 ## INCLUDE (1)
@@ -36,7 +36,7 @@ job_id: jobg8-1899022
 reason: Exact approved Northampton workplace.
 ---
 
-## REVIEW (9)
+## REVIEW (11)
 
 ---
 action: 
@@ -59,6 +59,18 @@ company: 360-Recruitment - Agency - Permanent
 location: Northamptonshire
 source: JobG8
 job_id: jobg8-1908969
+reason: No exact Northampton workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Assistant
+company: one2one Recruitment - Agency - Permanent
+location: Northamptonshire
+source: JobG8
+job_id: jobg8-1858331
 reason: No exact Northampton workplace matched; local geographic review is required.
 ---
 
@@ -90,6 +102,18 @@ reason: No exact Northampton workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
+title: Finance/Accounts Assistant - Credit Control, Sales Ledger & Purchase Ledger
+company: Oasis Business Personnel Ltd - Agency - Permanent
+location: Northamptonshire
+source: JobG8
+job_id: jobg8-1916093
+reason: No exact Northampton workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: HR Administrator
 company: ACS Recruitment Solutions Ltd - Agency - Permanent
 location: Northamptonshire
@@ -114,23 +138,11 @@ reason: No exact Northampton workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Parts Administrator
-company: Blusource Professional Services Ltd - Agency - Permanent
-location: Northamptonshire
+title: Part-time Bookkeeper/Finance Assistant
+company: 360-Recruitment - Agency - Permanent
+location: Corby
 source: JobG8
-job_id: jobg8-23643_225623493
-reason: No exact Northampton workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Receptionist
-company: Avery Healthcare Group Ltd.
-location: Kettering, NN16 9JB
-source: NHS Jobs
-job_id: nhs-5606000
+job_id: jobg8-1947346
 reason: No exact Northampton workplace matched; local geographic review is required.
 ---
 
@@ -143,6 +155,18 @@ company: People Solutions Group Limited - Agency - Permanent
 location: Kettering
 source: JobG8
 job_id: jobg8-1939011
+reason: No exact Northampton workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Returns Administrator
+company: Quest Employment - Agency - Contract
+location: Wellingborough
+source: JobG8
+job_id: jobg8-107954199
 reason: No exact Northampton workplace matched; local geographic review is required.
 ---
 

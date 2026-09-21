@@ -4,7 +4,7 @@
 - Live route: `/hull/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 3
+- Effective included jobs: 5
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,26 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 3
-- automatic review: 0
+- automatic include: 5
+- automatic review: 1
 - automatic exclude: 0
-- effective include: 3
-- effective review: 0
+- effective include: 5
+- effective review: 1
 - effective exclude: 0
 
-## INCLUDE (3)
+## INCLUDE (5)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administrator
+company: Hull University Teaching Hospitals NHS Trust
+location: Hull, HU1 3TD
+source: NHS Jobs
+job_id: nhs-5595156
+reason: Approved conservative Hull launch catchment.
+---
 
 ---
 action: 
@@ -60,6 +72,30 @@ job_id: teaching-vacancies-send-administrator-liberty-academy
 reason: Approved conservative Hull launch catchment.
 ---
 
-## REVIEW (0)
+---
+action: 
+decision: include
+automatic_decision: include
+title: Warranties Administrator - Automotive
+company: Office Angels - Agency - Permanent
+location: Hull
+source: JobG8
+job_id: jobg8-1939826
+reason: Approved conservative Hull launch catchment.
+---
+
+## REVIEW (1)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Sourcing Coordinator
+company: REC-REVOLUTION LTD - Agency - Permanent
+location: Bridlington
+source: JobG8
+job_id: jobg8-107952027
+reason: No approved Hull catchment rule matched; local review required.
+---
 
 ## EXCLUDE (0)

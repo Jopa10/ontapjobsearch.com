@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 8
-- automatic review: 6
-- automatic exclude: 9
+- automatic review: 8
+- automatic exclude: 11
 - effective include: 8
-- effective review: 6
-- effective exclude: 9
+- effective review: 8
+- effective exclude: 11
 
 ## INCLUDE (8)
 
@@ -120,7 +120,19 @@ job_id: nhs-5601309
 reason: Approved conservative Oxford launch catchment.
 ---
 
-## REVIEW (6)
+## REVIEW (8)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Assistant
+company: FryerMiles - Agency - Permanent
+location: Wantage
+source: JobG8
+job_id: jobg8-1914683
+reason: No approved Oxford catchment rule matched; local review required.
+---
 
 ---
 action: 
@@ -162,11 +174,23 @@ reason: No approved Oxford catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Attendance Officer
-company: Wallingford School
-location: Wallingford
-source: Teaching Vacancies
-job_id: teaching-vacancies-attendance-officer-wallingford-school
+title: Bank Administrator
+company: Operose Health
+location: Didcot, OX11 7GD
+source: NHS Jobs
+job_id: nhs-5583945
+reason: No approved Oxford catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Junior Finance Assistant
+company: Michael Page Finance - Agency - Permanent
+location: Kidlington
+source: JobG8
+job_id: jobg8-1857779
 reason: No approved Oxford catchment rule matched; local review required.
 ---
 
@@ -194,7 +218,7 @@ job_id: nhs-5577377
 reason: No approved Oxford catchment rule matched; local review required.
 ---
 
-## EXCLUDE (9)
+## EXCLUDE (11)
 
 ---
 action: 
@@ -272,6 +296,18 @@ reason: Broad county location; not Oxford-city evidence.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Fleet Sales Administrator - Mercedes-Benz Kidlington
+company: Group 1 Automotive - Company - Permanent
+location: Oxfordshire
+source: JobG8
+job_id: jobg8-1939763
+reason: Broad county location; not Oxford-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: HR Administrator
 company: Reed - Agency - Permanent
 location: Oxfordshire
@@ -301,5 +337,17 @@ company: Abingdon School - Agency - Permanent
 location: Oxfordshire
 source: JobG8
 job_id: jobg8-1859419
+reason: Broad county location; not Oxford-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Purchase Ledger Administrator
+company: Rise Technical Recruitment Limited - Agency - Permanent
+location: Oxfordshire
+source: JobG8
+job_id: jobg8-1875123
 reason: Broad county location; not Oxford-city evidence.
 ---

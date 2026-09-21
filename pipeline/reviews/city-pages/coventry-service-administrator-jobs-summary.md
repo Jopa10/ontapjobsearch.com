@@ -4,8 +4,8 @@
 - Live route: `/coventry/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 5
-- Threshold currently met: no
+- Effective included jobs: 6
+- Threshold currently met: yes
 
 ## How to review
 Edit only the `action:` line inside a job block.
@@ -15,14 +15,26 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 5
+- automatic include: 6
 - automatic review: 3
-- automatic exclude: 9
-- effective include: 5
+- automatic exclude: 13
+- effective include: 6
 - effective review: 3
-- effective exclude: 9
+- effective exclude: 13
 
-## INCLUDE (5)
+## INCLUDE (6)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Accounts Assistant
+company: Mitchell Adam - Agency - Permanent
+location: Coventry
+source: JobG8
+job_id: jobg8-1874877
+reason: Approved Coventry catchment.
+---
 
 ---
 action: 
@@ -122,7 +134,19 @@ job_id: teaching-vacancies-pa-to-principal-the-queen-elizabeth-academy-atherston
 reason: No approved Coventry catchment rule matched; local review required.
 ---
 
-## EXCLUDE (9)
+## EXCLUDE (13)
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Accounts Administrator
+company: 3 Point Recruitment - Agency - Permanent
+location: Rugby
+source: JobG8
+job_id: jobg8-1945783
+reason: Separate employment market.
+---
 
 ---
 action: 
@@ -224,10 +248,46 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Insolvency Administrator Coventry
+company: Ambition Europe Limited - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-1933589
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: MEDICAL RECEPTIONIST
 company: Valley Road Medical Practice
 location: Leamington Spa, CV32 7SJ
 source: NHS Jobs
 job_id: nhs-4151642
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Service Advisor
+company: Perfect Placement Uk Ltd - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-1912273
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Trainee Finance Assistant
+company: SF Partners - Agency - Permanent
+location: Warwick
+source: JobG8
+job_id: jobg8-1960335
 reason: Separate employment market.
 ---

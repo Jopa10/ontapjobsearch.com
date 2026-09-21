@@ -16,15 +16,15 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 0
-- automatic review: 13
+- automatic review: 16
 - automatic exclude: 0
 - effective include: 0
-- effective review: 13
+- effective review: 16
 - effective exclude: 0
 
 ## INCLUDE (0)
 
-## REVIEW (13)
+## REVIEW (16)
 
 ---
 action: 
@@ -47,6 +47,30 @@ company: Office Angels - Agency - Permanent
 location: Verwood
 source: JobG8
 job_id: jobg8-1877445
+reason: No exact Poole workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Activities Coordinator
+company: Agincare Group - Agency - Permanent
+location: Weymouth
+source: JobG8
+job_id: jobg8-107992811
+reason: No exact Poole workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Activities Coordinator
+company: Care Concern Group - Company - Permanent
+location: Dorset
+source: JobG8
+job_id: jobg8-107965514
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 
@@ -155,6 +179,18 @@ company: Bournemouth and Poole College - Agency - Contract
 location: Dorset
 source: JobG8
 job_id: jobg8-107989969
+reason: No exact Poole workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Receptionist/Administrator
+company: Dorset HealthCare University NHS Foundation Trust
+location: Sherborne, DT93JU
+source: NHS Jobs
+job_id: nhs-5596760
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 

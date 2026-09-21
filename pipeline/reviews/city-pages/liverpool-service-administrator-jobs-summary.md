@@ -76,6 +76,18 @@ reason: Approved conservative Liverpool launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Finance Assistant
+company: Recruitment Solutions (North West) Ltd - Agency - Permanent
+location: Liverpool
+source: JobG8
+job_id: jobg8-1934062
+reason: Approved conservative Liverpool launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: HR Administrator
 company: Adele Carr Recruitment Limited - Agency - Permanent
 location: Liverpool
@@ -105,18 +117,6 @@ company: Michael Page Business Support - Agency - Permanent
 location: Liverpool
 source: JobG8
 job_id: jobg8-1870162
-reason: Approved conservative Liverpool launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Trade Marketing Manager
-company: Zachary Daniels Recruitment - Agency - Permanent
-location: Liverpool
-source: JobG8
-job_id: jobg8-23643_225615600
 reason: Approved conservative Liverpool launch catchment.
 ---
 

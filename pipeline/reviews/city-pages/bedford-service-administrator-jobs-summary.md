@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 4
-- automatic review: 8
+- automatic review: 9
 - automatic exclude: 0
 - effective include: 4
-- effective review: 8
+- effective review: 9
 - effective exclude: 0
 
 ## INCLUDE (4)
@@ -72,7 +72,19 @@ job_id: nhs-5608349
 reason: Exact approved Bedford workplace.
 ---
 
-## REVIEW (8)
+## REVIEW (9)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Assistant
+company: NLB Solutions - Agency - Permanent
+location: Luton
+source: JobG8
+job_id: jobg8-1859771
+reason: No exact Bedford workplace matched; local geographic review is required.
+---
 
 ---
 action: 

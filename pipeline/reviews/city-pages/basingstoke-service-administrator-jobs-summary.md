@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 1
-- automatic review: 21
+- automatic review: 26
 - automatic exclude: 0
 - effective include: 1
-- effective review: 21
+- effective review: 26
 - effective exclude: 0
 
 ## INCLUDE (1)
@@ -36,7 +36,7 @@ job_id: nhs-5592877
 reason: Exact approved Basingstoke workplace.
 ---
 
-## REVIEW (21)
+## REVIEW (26)
 
 ---
 action: 
@@ -79,10 +79,10 @@ action:
 decision: review
 automatic_decision: review
 title: Administrator
-company: Practice Plus Group - Health in Justice
-location: Winchester, SO22 5DF
+company: Island City Practice
+location: Portsmouth, PO4 8TA
 source: NHS Jobs
-job_id: nhs-5608199
+job_id: nhs-5577957
 reason: No exact Basingstoke workplace matched; local geographic review is required.
 ---
 
@@ -91,10 +91,10 @@ action:
 decision: review
 automatic_decision: review
 title: Administrator
-company: Rowner Medical Centre
-location: Gosport, PO13 9SP
+company: Practice Plus Group - Health in Justice
+location: Winchester, SO22 5DF
 source: NHS Jobs
-job_id: nhs-5591061
+job_id: nhs-5608199
 reason: No exact Basingstoke workplace matched; local geographic review is required.
 ---
 
@@ -114,23 +114,11 @@ reason: No exact Basingstoke workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Administrator Apprentice
-company: Blake Morgan LLP - Agency - Contract
-location: Hampshire
-source: JobG8
-job_id: jobg8-107872412
-reason: No exact Basingstoke workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Care Coordinator
-company: Agincare Group - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-107963757
+title: Care Home Administrator
+company: Avery Healthcare Group Ltd.
+location: Winchester, SO22 5JH
+source: NHS Jobs
+job_id: nhs-5612599
 reason: No exact Basingstoke workplace matched; local geographic review is required.
 ---
 
@@ -150,11 +138,47 @@ reason: No exact Basingstoke workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
+title: Corporate Financial Administrator
+company: 1to1 Group Limited - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-1869745
+reason: No exact Basingstoke workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: EHCP Coordinator
+company: Aspire People Limited - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-1858777
+reason: No exact Basingstoke workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Exams Officer and Assessment Data Co ordinator
 company: Perins School
 location: Alresford
 source: Teaching Vacancies
 job_id: teaching-vacancies-exams-officer-and-assessment-data-co-ordinator
+reason: No exact Basingstoke workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Finance Assistant
+company: CMA Recruitment Group - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-1947243
 reason: No exact Basingstoke workplace matched; local geographic review is required.
 ---
 
@@ -270,11 +294,47 @@ reason: No exact Basingstoke workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
+title: Service Advisor
+company: Pembrook Resourcing - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-1881197
+reason: No exact Basingstoke workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Service Coordinator
 company: People First Recruitment - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-107959953
+reason: No exact Basingstoke workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Telesales Executive
+company: Hirecracker - Agency - Permanent
+location: Fareham
+source: JobG8
+job_id: jobg8-107921838
+reason: No exact Basingstoke workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Temporary Medical Secretary
+company: 1to1 Group Limited - Agency - Permanent
+location: Winchester
+source: JobG8
+job_id: jobg8-1934715
 reason: No exact Basingstoke workplace matched; local geographic review is required.
 ---
 

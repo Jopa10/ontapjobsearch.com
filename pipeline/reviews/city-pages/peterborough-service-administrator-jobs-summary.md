@@ -4,7 +4,7 @@
 - Live route: `/peterborough/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 6
+- Effective included jobs: 8
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 6
+- automatic include: 8
 - automatic review: 1
-- automatic exclude: 10
-- effective include: 6
+- automatic exclude: 18
+- effective include: 8
 - effective review: 1
-- effective exclude: 10
+- effective exclude: 18
 
-## INCLUDE (6)
+## INCLUDE (8)
 
 ---
 action: 
@@ -33,6 +33,18 @@ company: Reed - Agency - Permanent
 location: Peterborough
 source: JobG8
 job_id: jobg8-1870317
+reason: Approved conservative Peterborough launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Accounts Assistant
+company: Reed - Agency - Permanent
+location: Peterborough
+source: JobG8
+job_id: jobg8-1939236
 reason: Approved conservative Peterborough launch catchment.
 ---
 
@@ -76,6 +88,18 @@ reason: Approved conservative Peterborough launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Part-Time Accounts Assistant / Bookkeeper
+company: The One Group - Agency - Permanent
+location: Peterborough
+source: JobG8
+job_id: jobg8-1871117
+reason: Approved conservative Peterborough launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Talent Acquisition Coordinator
 company: LHH Recruitment Solutions - Agency - Permanent
 location: Peterborough
@@ -110,7 +134,7 @@ job_id: teaching-vacancies-finance-admin-assistant-priory-junior-school-st-neots
 reason: No approved Peterborough catchment rule matched; local review required.
 ---
 
-## EXCLUDE (10)
+## EXCLUDE (18)
 
 ---
 action: 
@@ -121,6 +145,30 @@ company: Eclectic Recruitment - Agency - Permanent
 location: Cambridge
 source: JobG8
 job_id: jobg8-1877925
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Administrator
+company: Cambridgeshire and Peterborough NHS Foundation Trust
+location: Huntingdon, PE29 6FH
+source: NHS Jobs
+job_id: nhs-5611673
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Administrator
+company: Cambridgeshire and Peterborough NHS Foundation Trust
+location: Cambridge, CB4 1PR
+source: NHS Jobs
+job_id: nhs-5611937
 reason: Separate employment market.
 ---
 
@@ -152,11 +200,47 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Client Support Administrator
+company: Brevere Group - Agency - Permanent
+location: Cambridge
+source: JobG8
+job_id: jobg8-1859397
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: CRM Officer
 company: Proactive Appointments - Agency - Permanent
 location: Cambridgeshire
 source: JobG8
 job_id: jobg8-1874671
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Finance Assistant
+company: Pure Resourcing Solutions - Agency - Permanent
+location: Cambridge
+source: JobG8
+job_id: jobg8-1859976
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Graduate Finance Assistant
+company: Heap & Co - Agency - Permanent
+location: Cambridge
+source: JobG8
+job_id: jobg8-1870849
 reason: Separate employment market.
 ---
 
@@ -224,10 +308,46 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: School Receptionist - Huntingdon
+company: Randstad Education - Agency - Permanent
+location: Huntingdon
+source: JobG8
+job_id: jobg8-1873140
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: School Receptionist Administrator - Cambridge
+company: Randstad Education - Agency - Permanent
+location: Cambridge
+source: JobG8
+job_id: jobg8-1873139
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Senior Office Administrator
 company: Pathfinder CofE Primary School
 location: Cambridge
 source: Teaching Vacancies
 job_id: teaching-vacancies-senior-office-administrator-pathfinder-cofe-primary-school-cambridge-cambridgeshire
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Service Advisor
+company: Perfect Placement Uk Ltd - Agency - Permanent
+location: Cambridge
+source: JobG8
+job_id: jobg8-1875937
 reason: Separate employment market.
 ---

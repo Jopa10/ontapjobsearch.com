@@ -4,7 +4,7 @@
 - Live route: `/warwick/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 2
+- Effective included jobs: 3
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 2
-- automatic review: 15
+- automatic include: 3
+- automatic review: 19
 - automatic exclude: 0
-- effective include: 2
-- effective review: 15
+- effective include: 3
+- effective review: 19
 - effective exclude: 0
 
-## INCLUDE (2)
+## INCLUDE (3)
 
 ---
 action: 
@@ -48,7 +48,43 @@ job_id: jobg8-1868063
 reason: Exact approved Warwick workplace.
 ---
 
-## REVIEW (15)
+---
+action: 
+decision: include
+automatic_decision: include
+title: Trainee Finance Assistant
+company: SF Partners - Agency - Permanent
+location: Warwick
+source: JobG8
+job_id: jobg8-1960335
+reason: Exact approved Warwick workplace.
+---
+
+## REVIEW (19)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Administrator
+company: 3 Point Recruitment - Agency - Permanent
+location: Rugby
+source: JobG8
+job_id: jobg8-1945783
+reason: No exact Warwick workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Assistant
+company: Mitchell Adam - Agency - Permanent
+location: Coventry
+source: JobG8
+job_id: jobg8-1874877
+reason: No exact Warwick workplace matched; local geographic review is required.
+---
 
 ---
 action: 
@@ -186,6 +222,18 @@ reason: No exact Warwick workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Insolvency Administrator Coventry
+company: Ambition Europe Limited - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-1933589
+reason: No exact Warwick workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: MEDICAL RECEPTIONIST
 company: Valley Road Medical Practice
 location: Leamington Spa, CV32 7SJ
@@ -227,6 +275,18 @@ company: Michael Page Business Support - Agency - Permanent
 location: Coventry
 source: JobG8
 job_id: jobg8-1859862
+reason: No exact Warwick workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Service Advisor
+company: Perfect Placement Uk Ltd - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-1912273
 reason: No exact Warwick workplace matched; local geographic review is required.
 ---
 

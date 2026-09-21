@@ -4,7 +4,7 @@
 - Live route: `/exeter/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 10
+- Effective included jobs: 12
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,26 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 10
-- automatic review: 23
+- automatic include: 12
+- automatic review: 28
 - automatic exclude: 0
-- effective include: 10
-- effective review: 23
+- effective include: 12
+- effective review: 28
 - effective exclude: 0
 
-## INCLUDE (10)
+## INCLUDE (12)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Accounts Assistant
+company: Michael Page Finance - Agency - Permanent
+location: Exeter
+source: JobG8
+job_id: jobg8-1860828
+reason: Exact approved Exeter workplace.
+---
 
 ---
 action: 
@@ -33,6 +45,18 @@ company: St James School
 location: Exeter
 source: Teaching Vacancies
 job_id: teaching-vacancies-business-administrator-d383ef29-c17f-437b-8271-918c1d87de9b
+reason: Exact approved Exeter workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Business Support Administrator
+company: Devon Partnership NHS Trust
+location: Exeter, EX2 5AF, EXETER, EX2 9HS
+source: NHS Jobs
+job_id: nhs-5607097
 reason: Exact approved Exeter workplace.
 ---
 
@@ -144,7 +168,31 @@ job_id: jobg8-1877836
 reason: Exact approved Exeter workplace.
 ---
 
-## REVIEW (23)
+## REVIEW (28)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Administrator
+company: Isca Recruitment Ltd - Agency - Permanent
+location: Devon
+source: JobG8
+job_id: jobg8-1928846
+reason: No exact Exeter workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Assistant
+company: Michael Page Finance - Agency - Permanent
+location: Newton Abbot
+source: JobG8
+job_id: jobg8-1860778
+reason: No exact Exeter workplace matched; local geographic review is required.
+---
 
 ---
 action: 
@@ -294,6 +342,18 @@ reason: No exact Exeter workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: HR Administrator
+company: Reed - Agency - Permanent
+location: Devon
+source: JobG8
+job_id: jobg8-1874648
+reason: No exact Exeter workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Payroll Assistant (Part Time - Temp)
 company: Butler Rose - Agency - Permanent
 location: Devon
@@ -311,6 +371,18 @@ company: Butler Rose - Agency - Permanent
 location: Plymouth
 source: JobG8
 job_id: jobg8-1895696
+reason: No exact Exeter workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Payroll Executive
+company: Reed - Agency - Permanent
+location: Devon
+source: JobG8
+job_id: jobg8-1936876
 reason: No exact Exeter workplace matched; local geographic review is required.
 ---
 
@@ -419,6 +491,18 @@ company: St Paul's Roman Catholic Primary School
 location: Plymouth
 source: Teaching Vacancies
 job_id: teaching-vacancies-senior-administrator-st-paul-s-roman-catholic-primary-school
+reason: No exact Exeter workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Service Advisor
+company: Perfect Placement Uk Ltd - Agency - Permanent
+location: Devon
+source: JobG8
+job_id: jobg8-1912271
 reason: No exact Exeter workplace matched; local geographic review is required.
 ---
 

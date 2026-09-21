@@ -4,7 +4,7 @@
 - Live route: `/brighton-hove/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 1
+- Effective included jobs: 2
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 1
-- automatic review: 15
-- automatic exclude: 5
-- effective include: 1
-- effective review: 15
-- effective exclude: 5
+- automatic include: 2
+- automatic review: 25
+- automatic exclude: 6
+- effective include: 2
+- effective review: 25
+- effective exclude: 6
 
-## INCLUDE (1)
+## INCLUDE (2)
 
 ---
 action: 
@@ -30,13 +30,25 @@ decision: include
 automatic_decision: include
 title: Administrator
 company: Sussex Community NHS Foundation Trust
-location: Brighton, BN2 3EW
+location: Hove, BN3 7HY
 source: NHS Jobs
-job_id: nhs-5605438
+job_id: nhs-5602750
 reason: Approved Brighton & Hove catchment.
 ---
 
-## REVIEW (15)
+---
+action: 
+decision: include
+automatic_decision: include
+title: Receptionist / Administrator
+company: Integrated Care 24 Ltd
+location: Brighton, BN1 7GF
+source: NHS Jobs
+job_id: nhs-5587236
+reason: Approved Brighton & Hove catchment.
+---
+
+## REVIEW (25)
 
 ---
 action: 
@@ -48,6 +60,18 @@ location: Sussex
 source: JobG8
 job_id: jobg8-107985976
 reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Assistant
+company: Michael Page Finance - Agency - Permanent
+location: Lancing
+source: JobG8
+job_id: jobg8-1860453
+reason: No approved Brighton & Hove catchment rule matched; local review required.
 ---
 
 ---
@@ -66,11 +90,47 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
+title: Administrator (Part Time)
+company: Practice Plus Group - Health in Justice
+location: Lewes, BN7 1EA
+source: NHS Jobs
+job_id: nhs-5599920
+reason: No approved Brighton & Hove catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Client Services Administrator
 company: Financial Divisions - Agency - Permanent
 location: Sussex
 source: JobG8
 job_id: jobg8-1894808
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Executive Assistant and Marketing Coordinator
+company: Brighton College - Agency - Permanent
+location: Sussex
+source: JobG8
+job_id: jobg8-1873533
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Field Care Coordinator
+company: Care Outlook Ltd - Agency - Permanent
+location: Sussex
+source: JobG8
+job_id: jobg8-108004074
 reason: Broad location; review before city inclusion.
 ---
 
@@ -102,6 +162,30 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
+title: Finance Assistant (MAT Cover)
+company: Clearline Recruitment Ltd - Agency - Permanent
+location: Haywards Heath
+source: JobG8
+job_id: jobg8-1948806
+reason: No approved Brighton & Hove catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Horticulture Resource Coordinator
+company: Brinsbury College - Agency - Permanent
+location: Sussex
+source: JobG8
+job_id: jobg8-107954542
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: HR Administrative Assistant
 company: Northbrook College - Agency - Temporary
 location: Sussex
@@ -119,6 +203,18 @@ company: Trident - Agency - Permanent
 location: Sussex
 source: JobG8
 job_id: jobg8-1843728
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Junior Finance Assistant
+company: Harvey John - Agency - Permanent
+location: Sussex
+source: JobG8
+job_id: jobg8-1960769
 reason: Broad location; review before city inclusion.
 ---
 
@@ -156,6 +252,18 @@ location: Seaford, BN25 1DH
 source: NHS Jobs
 job_id: nhs-5598736
 reason: No approved Brighton & Hove catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Receptionist
+company: Sussex Partnership NHS Foundation Trust
+location: Haywards Heath, RH16 4NQ
+source: NHS Jobs
+job_id: nhs-5595913
+reason: Broad location; review before city inclusion.
 ---
 
 ---
@@ -218,7 +326,31 @@ job_id: jobg8-1912157
 reason: Broad location; review before city inclusion.
 ---
 
-## EXCLUDE (5)
+---
+action: 
+decision: review
+automatic_decision: review
+title: Wellbeing and Activities Coordinator
+company: Avery Healthcare - Agency - Permanent
+location: Sussex
+source: JobG8
+job_id: jobg8-622003465167988326437340
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Wellbeing and Activities Coordinator
+company: Avery Healthcare - Agency - Permanent
+location: Sussex
+source: JobG8
+job_id: jobg8-622003465167988326437341
+reason: Broad location; review before city inclusion.
+---
+
+## EXCLUDE (6)
 
 ---
 action: 
@@ -253,6 +385,18 @@ company: Chichester Free School
 location: Chichester
 source: Teaching Vacancies
 job_id: teaching-vacancies-exams-officer-cfs
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Mortgage Administrator Horsham
+company: Astral Recruitment - Agency - Permanent
+location: Horsham
+source: JobG8
+job_id: jobg8-1908468
 reason: Separate employment market.
 ---
 

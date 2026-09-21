@@ -4,7 +4,7 @@
 - Live route: `/rotherham/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 3
+- Effective included jobs: 2
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 3
-- automatic review: 8
+- automatic include: 2
+- automatic review: 11
 - automatic exclude: 0
-- effective include: 3
-- effective review: 8
+- effective include: 2
+- effective review: 11
 - effective exclude: 0
 
-## INCLUDE (3)
+## INCLUDE (2)
 
 ---
 action: 
@@ -41,18 +41,6 @@ action:
 decision: include
 automatic_decision: include
 title: Receptionist
-company: Gateway Primary Care CIC
-location: Rotherham, S65 1DJ, Rotherham, S62 7BT, Rotherham, S60 2JH, Rotherham, S60 8GD
-source: NHS Jobs
-job_id: nhs-5588970
-reason: Exact approved Rotherham workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Receptionist
 company: Saint Pius X Catholic High School A Specialist School in Humanities
 location: Rotherham
 source: Teaching Vacancies
@@ -60,7 +48,19 @@ job_id: teaching-vacancies-receptionist-saint-pius-x-catholic-high-school-a-spec
 reason: Exact approved Rotherham workplace.
 ---
 
-## REVIEW (8)
+## REVIEW (11)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Assistant
+company: Sharp Consultancy - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-1959767
+reason: No exact Rotherham workplace matched; local geographic review is required.
+---
 
 ---
 action: 
@@ -90,6 +90,18 @@ reason: No exact Rotherham workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
+title: Clerical Officer
+company: Sheffield Teaching Hospitals NHS Foundation Trust
+location: Sheffield, S10 2JF
+source: NHS Jobs
+job_id: nhs-5611916
+reason: No exact Rotherham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Credit Control / Accounts Assistant
 company: Shillito Group - Agency - Permanent
 location: Sheffield
@@ -107,6 +119,18 @@ company: EE - Company - Permanent
 location: Doncaster
 source: JobG8
 job_id: jobg8-20279_62308-153faf593eb64b88272f45adeaa28d87
+reason: No exact Rotherham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Facilities Coordinator
+company: Adecco - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-1877335
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 

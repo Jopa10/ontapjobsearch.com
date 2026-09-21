@@ -4,7 +4,7 @@
 - Live route: `/newcastle/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 6
+- Effective included jobs: 7
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 6
-- automatic review: 19
-- automatic exclude: 10
-- effective include: 6
-- effective review: 19
-- effective exclude: 10
+- automatic include: 7
+- automatic review: 26
+- automatic exclude: 12
+- effective include: 7
+- effective review: 26
+- effective exclude: 12
 
-## INCLUDE (6)
+## INCLUDE (7)
 
 ---
 action: 
@@ -88,6 +88,18 @@ reason: Approved Newcastle catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Invoicing Administrator
+company: Adecco - Agency - Permanent
+location: Newcastle
+source: JobG8
+job_id: jobg8-1874719
+reason: Approved Newcastle catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Receptionist / Administrator
 company: Glenpark Medical Practice
 location: Gateshead, NE11 9FJ, GATESHEAD, NE8 2PQ
@@ -96,7 +108,31 @@ job_id: nhs-5598890
 reason: Approved Newcastle catchment.
 ---
 
-## REVIEW (19)
+## REVIEW (26)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Payable Assistant
+company: Nigel Wright Group - Agency - Permanent
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-1948440
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administration Assistant
+company: Cumbria, Northumberland, Tyne and wear (CNTW) NHS Foundation Trust
+location: Ashington, NE63 8BL
+source: NHS Jobs
+job_id: nhs-5584416
+reason: Broad location; review before city inclusion.
+---
 
 ---
 action: 
@@ -138,11 +174,11 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Credit Controller
-company: Hays Specialist Recruitment Limited - Agency - Permanent
+title: Client Engagement Administrator
+company: Finlink Ltd - Agency - Permanent
 location: Tyne And Wear
 source: JobG8
-job_id: jobg8-1905519
+job_id: jobg8-1950434
 reason: Broad location; review before city inclusion.
 ---
 
@@ -150,11 +186,11 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Development Planner
-company: Persimmon Homes - Agency - Permanent
+title: Credit Controller
+company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Tyne And Wear
 source: JobG8
-job_id: jobg8-107869330
+job_id: jobg8-1905519
 reason: Broad location; review before city inclusion.
 ---
 
@@ -198,11 +234,35 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
+title: Disease Claims Handler (3 - Month FTC)
+company: Gallagher - Agency - Permanent
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-107984783
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Finance Assistant
 company: Independent Utility Advice Ltd - Agency - Permanent
 location: Tyne And Wear
 source: JobG8
 job_id: jobg8-1907000
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Finance Assistant
+company: Paul Card Recruitment Ltd - Agency - Permanent
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-1947293
 reason: Broad location; review before city inclusion.
 ---
 
@@ -246,12 +306,24 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: HR Assistant
-company: Nigel Wright Group - Agency - Permanent
+title: Insolvency Administrator (Newcastle)
+company: Ambition Europe Limited - Agency - Permanent
 location: Tyne And Wear
 source: JobG8
-job_id: jobg8-1892511
+job_id: jobg8-1933508
 reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Ledger Assistant
+company: Adecco - Agency - Permanent
+location: Staffordshire
+source: JobG8
+job_id: jobg8-1876148
+reason: No approved Newcastle catchment rule matched; local review required.
 ---
 
 ---
@@ -294,6 +366,30 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
+title: Payroll Assistant
+company: Portfolio Payroll - Agency - Permanent
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-1958584
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Purchase Ledger Clerk
+company: Adecco - Agency - Permanent
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-1916042
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Sales Advisor - Part Time
 company: EE - Company - Permanent
 location: Cramlington
@@ -326,7 +422,7 @@ job_id: nhs-5589916
 reason: No approved Newcastle catchment rule matched; local review required.
 ---
 
-## EXCLUDE (10)
+## EXCLUDE (12)
 
 ---
 action: 
@@ -337,6 +433,18 @@ company: Ernest Gordon Recruitment Limited - Agency - Permanent
 location: County Durham
 source: JobG8
 job_id: jobg8-1884707
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Accounts Receivable Assistant
+company: Randstad Perm Professionals - Agency - Permanent
+location: County Durham
+source: JobG8
+job_id: jobg8-1961052
 reason: Separate employment market.
 ---
 
@@ -368,11 +476,35 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Distribution Coordinator
+company: Breedon Group plc - Company - Permanent
+location: County Durham
+source: JobG8
+job_id: jobg8-1857564
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Finance Assistant
 company: Ernest Gordon Recruitment Limited - Agency - Permanent
 location: County Durham
 source: JobG8
 job_id: jobg8-1950247
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Finance Assistant
+company: Reed - Agency - Permanent
+location: County Durham
+source: JobG8
+job_id: jobg8-1959616
 reason: Separate employment market.
 ---
 
@@ -421,18 +553,6 @@ company: Age UK County Durham
 location: Age UK County Durham
 source: NEJobs
 job_id: nejobs-301543
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: School Secretary
-company: Durham County Council
-location: Spennymoor, DL16 7JB
-source: NEJobs
-job_id: nejobs-301524
 reason: Separate employment market.
 ---
 
