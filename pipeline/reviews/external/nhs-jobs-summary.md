@@ -2,15 +2,87 @@
 
 review_date: 2026-09-21
 
-- Open Administrative & Clerical rows reviewed: 2143
-- Auto/remembered selected: 381
-- Selected HC Tier A: 196
+- Open Administrative & Clerical rows reviewed: 2146
+- Auto/remembered selected: 380
+- Selected HC Tier A: 195
 - Selected HC Tier B: 185
-- POSS awaiting decision: 1630
+- POSS awaiting decision: 1635
 - Excluded: 0
-- HARD_PASS: 132
+- HARD_PASS: 131
 
 Edit only each `action:` line for POSS rows. Unchanged decisions are restored by the shared decision ledger.
+
+---
+action:
+POSS | NHS Jobs | Cheshire - Warrington & Halton | Runcorn, WA7 1BD | £30000.00 to £35000.00 | Finance & Payroll Co-ordinator
+source_job_id: 5613636
+title: Finance & Payroll Co-ordinator
+employer: GP Health Connect Limited
+region: Cheshire - Warrington & Halton
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/B0440-26-0007
+factual_fingerprint: 660958536df13bdf500077bf09db26b91ff92c18b377fb557639a13ce756749c
+---
+
+---
+action:
+POSS | NHS Jobs | — | Fairfield Industrial Estate, LN11 0LS | £12.71 | Office Administrator
+source_job_id: 5613660
+title: Office Administrator
+employer: Lincolnshire And District Medical Services (LADMS)
+region: 
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/E0187-26-0010
+factual_fingerprint: 7a2d57f1f44e9bc4bc4800af375c5a0f123484ee39162a80e0789e4c00187368
+---
+
+---
+action:
+POSS | NHS Jobs | London | London, SE18 4QH | £25760.00 to £27476.00 | Urgent Care Centre Front Door Navigator
+source_job_id: 5613650
+title: Urgent Care Centre Front Door Navigator
+employer: Greenwich Health Ltd
+region: London
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/U0055-26-0105
+factual_fingerprint: df142707570e4e67f5d01c64dd277b89b2a1954f1995ffd6952471c0eebcff64
+---
+
+---
+action:
+POSS | NHS Jobs | Greater Manchester - Manchester & Salford | Manchester, M13 9WL | £112782.00 to £129783.00 | Director of Organisational Development (OD) and Inclusion
+source_job_id: 5602216
+title: Director of Organisational Development (OD) and Inclusion
+employer: Manchester University NHS Foundation Trust
+region: Greater Manchester - Manchester & Salford
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9349-26-2728
+factual_fingerprint: 91acaa09f1535154db02bb27092d5b1f903f499fcf8ef91618287da1993beda8
+---
+
+---
+action:
+POSS | NHS Jobs | London | London, NW1 1TN, LONDON, NW1 3RH | £14.80 | GP Administrative Assistant / Receptionist
+source_job_id: 5613407
+title: GP Administrative Assistant / Receptionist
+employer: Ampthill & Regents Park Practice
+region: London
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A2132-26-0001
+factual_fingerprint: d806cf0f3e7a3b27e73cf0194a20d2bf1d76f1170789644f04ae6a01ab3cbbba
+---
+
+---
+action:
+POSS | NHS Jobs | — | Saltaire, BD18 3LD | £39959.00 to £48117.00 | Programme Officer - Healthy Minds (UEC)
+source_job_id: 5607849
+title: Programme Officer - Healthy Minds (UEC)
+employer: Bradford District Care NHS Foundation Trust
+region: 
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9453-26-0324
+factual_fingerprint: 875a7d6743c0254bc640de418337a8c76a5a0ec2a741a430224c87f9ee6cf040
+---
 
 ---
 action:
@@ -862,18 +934,6 @@ region: London
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9391-26-1627
 factual_fingerprint: 9ff50c463c284441fda8ccf02605ef523dfc3a6520d421c4110ff1b2737077ee
----
-
----
-action:
-POSS | NHS Jobs | London | London, SE18 4QH | £25760.00 to £27476.00 | Urgent Care Centre Front Door Navigator
-source_job_id: 5612567
-title: Urgent Care Centre Front Door Navigator
-employer: Greenwich Health Ltd
-region: London
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/U0055-26-0104
-factual_fingerprint: 6af60b2371280543037dac3bf046e179dda24c009952875747be7ad1d23f9a2d
 ---
 
 ---
