@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Black Country
 
-review_date: 2026-09-20
+review_date: 2026-09-21
 review_fingerprint: 7c2165f5ce452ffc93fd57c15df475faa2c8f88d1a6b41c2efb8cdd186f64747
-routing_manifest_sha256: 065adeebd098ac67bbd93ba5d404c793bd8bd10e570ed2e3401383dce52aeb45
+routing_manifest_sha256: 2a729ec21313d4da60aa88fa99990da9bdacfb4309d0a450f89ade0f3cddc268
 ontap_region: West Midlands - Black Country
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 7
+- Records: 8
 - Selected: 4
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 3
+- Hard pass: 4
 
 ## SELECTED
 
@@ -94,6 +94,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administ
 - [Exam Invigilators](https://teaching-vacancies.service.gov.uk/jobs/exam-invigilators-472ff49d-b207-467b-8dbd-b5478c05c6b7) — Insufficient admin/service evidence.
 - [Senior Admin Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-admin-officer-park-hall-junior-academy) — Insufficient admin/service evidence.
 - [Site Assistant](https://teaching-vacancies.service.gov.uk/jobs/site-assistant-priory-primary-school-dudley-west-midlands) — Insufficient admin/service evidence.
+- [Teaching Assistant (Level 2)](https://teaching-vacancies.service.gov.uk/jobs/teaching-assistant-level-2-manor-way-primary-academy) — Out-of-scope occupation: teaching assistant.
 
 ## Safety boundary
 

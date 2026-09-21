@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — London
 
-review_date: 2026-09-20
-review_fingerprint: 6b01ab2c070f0edbb3b434638c6c7dc2db67bd141ef7ae3534d73504130be4f0
-routing_manifest_sha256: 065adeebd098ac67bbd93ba5d404c793bd8bd10e570ed2e3401383dce52aeb45
+review_date: 2026-09-21
+review_fingerprint: 0219e266335b454feb1e1bef9cc4a70452ed0617dbf919708099cb38e56402d2
+routing_manifest_sha256: 2a729ec21313d4da60aa88fa99990da9bdacfb4309d0a450f89ade0f3cddc268
 ontap_region: London
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 66
-- Selected: 24
+- Records: 58
+- Selected: 20
 - POSS awaiting decision: 4
 - Excluded: 0
-- Hard pass: 38
+- Hard pass: 34
 
 ## SELECTED
 
@@ -38,17 +38,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-warre
 
 ---
 action: 
-SELECTED | London | Southall, London, UB1 3HZ | Grade 5 Point 12 £29,659 (Inclusive of London Weighting and Ealing Supplement) | Administrative Assistant
-employer: Dormers Wells High School
-closing_date: 2026-09-21T09:00:00+01:00
-reason: Clear admin/service title: administrative assistant
+SELECTED | London | Wembley, Brent, London, HA9 7EU | £29,856.00 Annually (FTE) GLPC SC3 SP6 - Actual starting salary £17,972.63 | Admin Officer (with Receptionist Duties)
+employer: Wembley Manor
+closing_date: 2026-10-09T12:00:00+01:00
+reason: Clear admin/service title: receptionist
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 60bcb5520d8f0e8edeed5e9483d0cdaa69aeb879aa14b40904f55309099862b8
+factual_fingerprint: b548f2c4669ec2cbcf2329c8d92abe4f5f22e903b754de9a0901a4065ef381c9
 source: Teaching Vacancies
-source_job_id: administrative-assistant-245beff4-fbd9-41e0-8a85-ea929426d271
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-245beff4-fbd9-41e0-8a85-ea929426d271
+source_job_id: admin-officer-with-receptionist-duties
+source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-officer-with-receptionist-duties
 ---
 
 ---
@@ -68,6 +68,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assist
 
 ---
 action: 
+SELECTED | London | London, London, SE18 4LH | £29,801 - £31,083 per year pro rata | Administrative Assistant and Receptionist
+employer: Ark Greenwich Free School
+closing_date: 2026-09-30T01:00:00+01:00
+reason: Clear admin/service title: administrative assistant, receptionist
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: ae367d012cc32f9060c731886eef33b5f2c8beeeed36b87032f085524cfd531a
+source: Teaching Vacancies
+source_job_id: administrative-assistant-and-receptionist-ark-greenwich-free-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-and-receptionist-ark-greenwich-free-school
+---
+
+---
+action: 
 SELECTED | London | London, London, SE3 0TP | Scale 4 | Administrative Assistant with Finance Experience
 employer: John Ball Primary School
 closing_date: 2026-10-05T09:00:00+01:00
@@ -79,21 +94,6 @@ factual_fingerprint: 86a13e81199f9d6265b2f382775f21e480736524a0c414421f489d16b1e
 source: Teaching Vacancies
 source_job_id: administrative-assistant-with-finance-experience
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-with-finance-experience
----
-
----
-action: 
-SELECTED | London | London, London, SE13 7BN | £28,947.00 - £29,789.00 Annually (Actual) | Administrator (Events, Communications & Recruitment)
-employer: Prendergast Vale School
-closing_date: 2026-09-21T09:00:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 855a64c0b3da005c14d60a877cab0413fdf9f75f976c4cca8bb3e4ed71b7525b
-source: Teaching Vacancies
-source_job_id: administrator-events-communications-recruitment
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-events-communications-recruitment
 ---
 
 ---
@@ -113,21 +113,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-with-ad
 
 ---
 action: 
-SELECTED | London | London, London, SE1 0EX | £25,492.00 - £27,400.00 Annually (Actual) Band 5 S13 to S16 for 42.9 weeks (£25,492 - £ 27,400) on the Trust Support Scale for 2025-2026 Including Inner London allowance | Admissions Officer
-employer: Haberdashers' Borough Academy
-closing_date: 2026-09-20T23:59:00+01:00
-reason: Clear admin/service title: admissions officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: ca3014fa497b69ac6e6ae0c1f9ac0de5cd957fef7d3a0696705cc914a5856651
-source: Teaching Vacancies
-source_job_id: admissions-officer-haberdashers-borough-academy-london
-source_url: https://teaching-vacancies.service.gov.uk/jobs/admissions-officer-haberdashers-borough-academy-london
----
-
----
-action: 
 SELECTED | London | Dagenham, London, RM9 5LT | London Borough of Barking and Dagenham Level 3 apprentice rates dependent on age | Apprentice School Business Administrator
 employer: Southwood Primary School
 closing_date: 2026-09-21T23:59:00+01:00
@@ -139,21 +124,6 @@ factual_fingerprint: d36b9adf667fcb3a38a1c42693889e5d03e30a9588f6c227a9800ea9c12
 source: Teaching Vacancies
 source_job_id: apprentice-school-business-administrator
 source_url: https://teaching-vacancies.service.gov.uk/jobs/apprentice-school-business-administrator
----
-
----
-action: 
-SELECTED | London | Sutton, London, SM1 3DY | £29,266.71 - £31,015.88 Annually (Actual) NJC Outer London pay scale, points 11-15 | Attendance Officer
-employer: Greenshaw High School
-closing_date: 2026-09-27T23:59:00+01:00
-reason: Clear admin/service title: attendance officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: e6fde05a7ae8eeb971aac096d5c5e653210f6d489b42a8c8537471d99c62d088
-source: Teaching Vacancies
-source_job_id: attendance-officer-greenshaw-high-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-greenshaw-high-school
 ---
 
 ---
@@ -308,21 +278,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administ
 
 ---
 action: 
-SELECTED | London | London, E4 7LT | £9,011.00 - £9,541.00 Annually (Actual) | SEN Administrative Assistant - Chingford Academies Trust
-employer: Chingford Academies Trust
-closing_date: 2026-09-21T09:00:00+01:00
-reason: Clear admin/service title: administrative assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 8e75fbd1031c83bdab8a953ec8b4c5ad2bed7de122b4a7312ce9e43b6d002d28
-source: Teaching Vacancies
-source_job_id: sen-administrative-assistant-chingford-academies-trust
-source_url: https://teaching-vacancies.service.gov.uk/jobs/sen-administrative-assistant-chingford-academies-trust
----
-
----
-action: 
 SELECTED | London | London, London, SE15 5DZ | £36,963- £39,216 | SEND and Medical Administrator
 employer: Harris Academy Peckham
 closing_date: 2026-09-21T23:59:00+01:00
@@ -364,21 +319,6 @@ factual_fingerprint: c064416c5f27166e032b2169144aa77066401d966ad23062069eecb00b8
 source: Teaching Vacancies
 source_job_id: senior-data-administrator
 source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-data-administrator
----
-
----
-action: 
-SELECTED | London | Southall, London, UB1 3HZ | Grade 4 Point 7 £27,620 (Inclusive of London Weighting and Ealing Supplement) | Welfare Officer and Student Receptionist
-employer: Dormers Wells High School
-closing_date: 2026-09-21T09:00:00+01:00
-reason: Clear admin/service title: receptionist
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 47c1edc36880795bf899ec06a84f61a31cabbc7d23e87774a05cf9901a032d87
-source: Teaching Vacancies
-source_job_id: welfare-officer-and-student-receptionist-dormers-wells-high-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/welfare-officer-and-student-receptionist-dormers-wells-high-school
 ---
 
 ## POSS — choose SELECT or EXCLUDE
@@ -454,12 +394,13 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/cover-supervisor-mana
 - [Business Support and Finance Co-Ordinator](https://teaching-vacancies.service.gov.uk/jobs/business-support-and-finance-co-ordinator) — Insufficient admin/service evidence.
 - [Chief Financial Officer ( CFO )](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-cfo-the-cardinal-wiseman-catholic-school) — Insufficient admin/service evidence.
 - [Data & Exams Manager](https://teaching-vacancies.service.gov.uk/jobs/data-exams-manager-ark-bolingbroke-academy) — Manager title salary ceiling £44,231 is not below £28,000.
+- [Data Manager](https://teaching-vacancies.service.gov.uk/jobs/data-manager-whitefriars-school) — Manager title salary ceiling £37,046 is not below £28,000.
 - [Data Manager / Support ICT Officer](https://teaching-vacancies.service.gov.uk/jobs/data-manager-support-ict-officer) — Manager title without salary evidence below £28,000.
-- [Deputy HR Manager](https://teaching-vacancies.service.gov.uk/jobs/deputy-hr-manager-impact-multi-academy-trust) — Manager title salary ceiling £45,750 is not below £28,000.
+- [Deputy Chief Financial Officer](https://teaching-vacancies.service.gov.uk/jobs/deputy-chief-financial-officer-connect-education-trust) — Insufficient admin/service evidence.
 - [Director of HR](https://teaching-vacancies.service.gov.uk/jobs/director-of-hr-orion-education-chislehurst-not-recorded) — Insufficient admin/service evidence.
 - [Extra Club Manager](https://teaching-vacancies.service.gov.uk/jobs/extra-club-manager) — Manager title without salary evidence below £28,000.
 - [Finance Assistant AP](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-ap) — Insufficient admin/service evidence.
-- [Fundraising Officer](https://teaching-vacancies.service.gov.uk/jobs/fundraising-officer-ac67c185-438c-4d63-82c9-4fcd5524afc9) — Insufficient admin/service evidence.
+- [Head of Governance & Compliance](https://teaching-vacancies.service.gov.uk/jobs/head-of-governance-compliance-the-charter-schools-educational-trust) — Insufficient admin/service evidence.
 - [HR Assistant](https://teaching-vacancies.service.gov.uk/jobs/hr-assistant-wanstead-high-school) — Insufficient admin/service evidence.
 - [HR Business Partner](https://teaching-vacancies.service.gov.uk/jobs/hr-business-partner-e8e93e8c-5c0c-4ba3-aa93-a10cbe7095cd) — Insufficient admin/service evidence.
 - [HR Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-ark-oval-primary-academy-croydon-surrey) — Insufficient admin/service evidence.
@@ -469,24 +410,19 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/cover-supervisor-mana
 - [Human Resources Officer](https://teaching-vacancies.service.gov.uk/jobs/human-resources-officer-saint-john-southworth-catholic-academy-trust) — Insufficient admin/service evidence.
 - [Learning Resource Centre Manager](https://teaching-vacancies.service.gov.uk/jobs/learning-resource-centre-manager-harris-city-academy-crystal-palace-london) — Manager title salary ceiling £34,488 is not below £28,000.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-chadwell-heath-academy) — Manager title without salary evidence below £28,000.
-- [Office Manager - Chingford Foundation School](https://teaching-vacancies.service.gov.uk/jobs/office-manager-chingford-foundation-school) — Manager title salary ceiling £41,358 is not below £28,000.
 - [Office Manager / PA to Head of School](https://teaching-vacancies.service.gov.uk/jobs/office-manager-pa-to-head-of-school-moorcroft-school) — Manager title salary ceiling £36,390 is not below £28,000.
 - [Part Time HR Officer](https://teaching-vacancies.service.gov.uk/jobs/part-time-hr-officer) — Insufficient admin/service evidence.
 - [People/HR Shared Service Desk Lead](https://teaching-vacancies.service.gov.uk/jobs/people-hr-shared-service-desk-lead) — Insufficient admin/service evidence.
 - [Procurement and Payments Manager](https://teaching-vacancies.service.gov.uk/jobs/procurement-and-payments-manager-girls-learning-trust) — Manager title salary ceiling £50,675 is not below £28,000.
-- [Receptionist/Medical Administrator](https://teaching-vacancies.service.gov.uk/jobs/receptionist-medical-administrator) — Missing salary or pay scale.
 - [Recruitment and Engagement Manager](https://teaching-vacancies.service.gov.uk/jobs/recruitment-and-engagement-manager) — Manager title salary ceiling £42,060 is not below £28,000.
-- [Reprographics Assistant](https://teaching-vacancies.service.gov.uk/jobs/reprographics-assistant-eden-girls-school-waltham-forest-london) — Insufficient admin/service evidence.
-- [School Business & Operations Lead](https://teaching-vacancies.service.gov.uk/jobs/school-business-operations-lead-the-st-marylebone-church-of-england-bridge-school) — Insufficient admin/service evidence.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-9fea1743-b8ad-4e62-a781-6b930d7a551f) — Manager title salary ceiling £67,575 is not below £28,000.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-f3929ea5-8ab0-4347-ba05-b741572a9d77) — Manager title salary ceiling £54,843 is not below £28,000.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-handsworth-primary-school) — Manager title without salary evidence below £28,000.
 - [School Social Worker](https://teaching-vacancies.service.gov.uk/jobs/school-social-worker-whitefriars-school) — Out-of-scope occupation: social worker.
-- [SENDCo Assistant](https://teaching-vacancies.service.gov.uk/jobs/sendco-assistant-red-hill-primary-school-chislehurst-kent) — Insufficient admin/service evidence.
+- [Sixth Form Support Officer](https://teaching-vacancies.service.gov.uk/jobs/sixth-form-support-officer-harris-science-academy-east-london) — Insufficient admin/service evidence.
 - [Strategic Lead for Human Resources](https://teaching-vacancies.service.gov.uk/jobs/strategic-lead-for-human-resources) — Insufficient admin/service evidence.
 - [Student Attendance & Reporting Officer](https://teaching-vacancies.service.gov.uk/jobs/student-attendance-reporting-officer) — Insufficient admin/service evidence.
 - [Trust Senior Admin Officer](https://teaching-vacancies.service.gov.uk/jobs/trust-senior-admin-officer) — Insufficient admin/service evidence.
-- [Welfare & Administrative Officer (Fixed term contract - Maternity cover)](https://teaching-vacancies.service.gov.uk/jobs/welfare-administrative-officer-fixed-term-contract-maternity-cover) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

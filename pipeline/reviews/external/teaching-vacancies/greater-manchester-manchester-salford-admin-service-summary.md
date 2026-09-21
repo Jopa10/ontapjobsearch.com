@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Greater Manchester - Manchester & Salford
 
-review_date: 2026-09-20
-review_fingerprint: be40957dac51a11b651cd4f3a3bf508595f80b21af3951f471a40fa59c6bb12d
-routing_manifest_sha256: 065adeebd098ac67bbd93ba5d404c793bd8bd10e570ed2e3401383dce52aeb45
+review_date: 2026-09-21
+review_fingerprint: b670cc53812d5c914209c42e29f4904d19dadddae44c1d4805de8b9c57819149
+routing_manifest_sha256: 2a729ec21313d4da60aa88fa99990da9bdacfb4309d0a450f89ade0f3cddc268
 ontap_region: Greater Manchester - Manchester & Salford
 slice_category: admin_service
 slice_status: LIVE
@@ -14,10 +14,10 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 8
-- Selected: 3
-- POSS awaiting decision: 1
+- Selected: 5
+- POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 4
+- Hard pass: 3
 
 ## SELECTED
 
@@ -38,6 +38,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/assistant-exams-offic
 
 ---
 action: 
+SELECTED | Greater Manchester - Manchester & Salford | Stretford, North West, M32 9TG | £21,662.00 - £22,352.00 Annually (Actual) Bright Futures Grade 3 Point 4 - 6 Full Time 36.25 Hours | Office Administrator
+employer: The Orchards
+closing_date: 2026-09-30T08:00:00+01:00
+reason: Clear admin/service title: administrator, office administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: ee19b0077fa71f1fdce4194e66aaa3510b48cfacc4aa8cc9108e58a4646c33ba
+source: Teaching Vacancies
+source_job_id: office-administrator-the-orchards-stretford-greater-manchester
+source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-the-orchards-stretford-greater-manchester
+---
+
+---
+action: 
 SELECTED | Greater Manchester - Manchester & Salford | Manchester, North West, M30 7PQ | £28,932.00 - £34,898.00 Annually (FTE) United Learning Band 2 Vocational (Points 6-14) | Pastoral Administrator
 employer: Salford City Academy
 closing_date: 2026-10-09T08:00:00+01:00
@@ -49,6 +64,21 @@ factual_fingerprint: d3d9b2431275d413906001f6dffad08621b3ec7770db23970c8b214a65c
 source: Teaching Vacancies
 source_job_id: pastoral-administrator-salford-city-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/pastoral-administrator-salford-city-academy
+---
+
+---
+action: 
+SELECTED | Greater Manchester - Manchester & Salford | Salford, North West, M6 6QT | £24,965.00 - £30,113.00 Annually (Actual) Additional payments for lunch duties | SEND Administrator
+employer: The Albion Academy
+closing_date: 2026-10-05T09:00:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 9941e9856b058db66d6f82dc91968fd931dbb0c5db2830d6fc6be468218b1dd1
+source: Teaching Vacancies
+source_job_id: send-administrator-the-albion-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-the-albion-academy
 ---
 
 ---
@@ -68,20 +98,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-
 
 ## POSS — choose SELECT or EXCLUDE
 
----
-action: 
-POSS | Greater Manchester - Manchester & Salford | Manchester, North West, M23 2YS | £27,784.00 - £29,071.00 Annually (FTE) Grade 4 scp. 7-11 Actual Salary: £14,339 - £15,341 | Admin Data Officer
-employer: Saint Paul's Catholic High School
-closing_date: 2026-09-21T12:00:00+01:00
-reason: Borderline school administration title: data officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 64736116c8eb2eb10925ef694c203691e17cf149ce13c73a4ad0c5adeb662ab5
-source: Teaching Vacancies
-source_job_id: admin-data-officer-saint-paul-s-catholic-high-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-data-officer-saint-paul-s-catholic-high-school
----
+- None.
 
 ## EXCLUDED BY REVIEW
 
@@ -91,7 +108,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-data-officer-sa
 
 - [Administration Officer [Maternity Cover]](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-maternity-cover-st-anne-s-church-of-england-academy-manchester) — Insufficient admin/service evidence.
 - [HR Business Partner](https://teaching-vacancies.service.gov.uk/jobs/hr-business-partner-the-co-operative-academies-trust) — Insufficient admin/service evidence.
-- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-fc9b895e-2fad-4698-9606-aba0b3f0d55a) — Manager title salary ceiling £44,075 is not below £28,000.
 - [School Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/school-operations-manager-co-op-academy-medlock-manchester-greater-manchester) — Manager title salary ceiling £39,481 is not below £28,000.
 
 ## Safety boundary

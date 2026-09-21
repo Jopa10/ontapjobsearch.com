@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — North East
 
-review_date: 2026-09-20
-review_fingerprint: 8bbe72d183ba971ed59728aff0d7e9f37efc5265ae8b8269b706b8d685e8196f
-routing_manifest_sha256: 065adeebd098ac67bbd93ba5d404c793bd8bd10e570ed2e3401383dce52aeb45
+review_date: 2026-09-21
+review_fingerprint: 8a31d25a857a32a3ee4ece9c9dfeabaa1527fab39703d323f51870ba88ba25d3
+routing_manifest_sha256: 2a729ec21313d4da60aa88fa99990da9bdacfb4309d0a450f89ade0f3cddc268
 ontap_region: North East
 slice_category: admin_service
 slice_status: LIVE
@@ -14,10 +14,10 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 10
-- Selected: 4
+- Selected: 5
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 6
+- Hard pass: 5
 
 ## SELECTED
 
@@ -68,6 +68,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/lead-administrator-ha
 
 ---
 action: 
+SELECTED | North East | Berwick-upon-Tweed, North East, TD15 1SP | £25,989 | School Administrator
+employer: Berwick St Mary's Church of England Primary School
+closing_date: 2026-10-12T09:00:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 15224eb3202ab3213a3695255ee17a2d96d67d203876f3cf67611dfb60a4ba81
+source: Teaching Vacancies
+source_job_id: school-administrator-4b89961d-cc62-4cfa-9732-a8929179b607
+source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-4b89961d-cc62-4cfa-9732-a8929179b607
+---
+
+---
+action: 
 SELECTED | North East | Wallsend, North East, NE28 6PY | Grade 5 £27,274 - £28,153 per annum pro rata, pay award pending (actual salary £6,312 - £6,516). Grade 2 £25,614 per annum pro rata (actual salary £866 per annum). | School Support Roles - Supervisory Assistant & Administrative Assistant
 employer: St Peter's Church of England Primary School
 closing_date: 2026-10-01T23:59:00+01:00
@@ -92,7 +107,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-support-roles-
 ## HARD_PASS
 
 - [Business Lead](https://teaching-vacancies.service.gov.uk/jobs/business-lead-st-gregory-s-catholic-primary-school-south-shields) — Insufficient admin/service evidence.
-- [Data and Examinations Assistant](https://teaching-vacancies.service.gov.uk/jobs/data-and-examinations-assistant-whickham-school) — Insufficient admin/service evidence.
 - [Governance and Procurement Officer](https://teaching-vacancies.service.gov.uk/jobs/governance-and-procurement-officer) — Insufficient admin/service evidence.
 - [HR Administration Assistant (Gateshead Schools)](https://teaching-vacancies.service.gov.uk/jobs/hr-administration-assistant-gateshead-schools) — Insufficient admin/service evidence.
 - [Marketing Assistant](https://teaching-vacancies.service.gov.uk/jobs/marketing-assistant-kings-priory-school) — Insufficient admin/service evidence.

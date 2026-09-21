@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Berkshire
 
-review_date: 2026-09-20
-review_fingerprint: ed14c00d951036dc733c613715aac1fedb6035abb8913ac4d988cbc3b1c5ed94
-routing_manifest_sha256: 065adeebd098ac67bbd93ba5d404c793bd8bd10e570ed2e3401383dce52aeb45
+review_date: 2026-09-21
+review_fingerprint: d56c8738ad6645b92ee0c4716a8590f36c27cbbb002d5f49e45644833af93eee
+routing_manifest_sha256: 2a729ec21313d4da60aa88fa99990da9bdacfb4309d0a450f89ade0f3cddc268
 ontap_region: Berkshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 18
-- Selected: 7
-- POSS awaiting decision: 3
+- Records: 19
+- Selected: 6
+- POSS awaiting decision: 4
 - Excluded: 0
-- Hard pass: 8
+- Hard pass: 9
 
 ## SELECTED
 
@@ -34,21 +34,6 @@ factual_fingerprint: 695c2e7898f7f3b1edb675e7c368e8236e10b8d22b9cb7258e5d59b239d
 source: Teaching Vacancies
 source_job_id: attendance-admissions-administrator-maternity-cover
 source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-admissions-administrator-maternity-cover
----
-
----
-action: 
-SELECTED | Berkshire | Reading, South East, RG1 5BN | £23,548 to £28,198 Per year | Attendance Officer and Administration Coordinator - Kendrick School
-employer: Kendrick School
-closing_date: 2026-09-20T23:59:00+01:00
-reason: Clear admin/service title: attendance officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: d6981f750621c042e19c58978840f5e605b9091d74da79f6d018fabfc35baa2d
-source: Teaching Vacancies
-source_job_id: attendance-officer-and-administration-coordinator-kendrick-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-and-administration-coordinator-kendrick-school
 ---
 
 ---
@@ -173,19 +158,35 @@ source_job_id: school-operations-officer-nine-mile-ride-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/school-operations-officer-nine-mile-ride-primary-school
 ---
 
+---
+action: 
+POSS | Berkshire | Reading, South East, RG5 3EU | £26,176.00 - £28,395.00 Annually (Actual) Term time only plus 10 additional days | Senior Finance Assistant
+employer: The Bulmershe School
+closing_date: 2026-10-23T23:59:00+01:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: cc059ccd9ad0a53e421f1e9329f19c94832b68136e02cbf435f783508b222d8a
+source: Teaching Vacancies
+source_job_id: senior-finance-assistant-the-bulmershe-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-finance-assistant-the-bulmershe-school
+---
+
 ## EXCLUDED BY REVIEW
 
 - None.
 
 ## HARD_PASS
 
+- [Casual Lettings Assistant](https://teaching-vacancies.service.gov.uk/jobs/casual-lettings-assistant-maiden-erlegh-chiltern-edge-reading-berkshire) — Insufficient admin/service evidence.
+- [Clerk to the Governing Body](https://teaching-vacancies.service.gov.uk/jobs/clerk-to-the-governing-body-d1b00184-727b-4b8d-ade0-c66789d84496) — Missing salary or pay scale.
 - [Data Manager](https://teaching-vacancies.service.gov.uk/jobs/data-manager-the-holt-school) — Manager title salary ceiling £36,573 is not below £28,000.
 - [EHCP Team Administrator - The Avenue School](https://teaching-vacancies.service.gov.uk/jobs/ehcp-team-administrator-the-avenue-school) — Missing salary or pay scale.
 - [HR & Recruitment Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-recruitment-officer-the-park-federation-academy-trust) — Insufficient admin/service evidence.
 - [Office Manager - Southcote Primary School](https://teaching-vacancies.service.gov.uk/jobs/office-manager-southcote-primary-school-southcote-primary-school-reading-berkshire) — Manager title salary ceiling £35,521 is not below £28,000.
 - [Office Manager and Personal Assistant to the Headteacher](https://teaching-vacancies.service.gov.uk/jobs/office-manager-and-personal-assistant-to-the-headteacher-new-town-primary-school) — Manager title salary ceiling £40,444 is not below £28,000.
 - [PFM Compliance and Site Officer](https://teaching-vacancies.service.gov.uk/jobs/pfm-compliance-and-site-officer-beechwood-school-slough-berkshire) — Insufficient admin/service evidence.
-- [Senior HR Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-hr-officer-sikh-academies-trust) — Insufficient admin/service evidence.
 - [Site Team Administrative Assistant - The Avenue School](https://teaching-vacancies.service.gov.uk/jobs/site-team-administrative-assistant-the-avenue-school) — Missing salary or pay scale.
 
 ## Safety boundary

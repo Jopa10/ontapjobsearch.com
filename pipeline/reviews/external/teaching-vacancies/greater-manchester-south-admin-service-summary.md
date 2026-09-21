@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Greater Manchester - South
 
-review_date: 2026-09-20
-review_fingerprint: 9a8d5d3d6cf5e5ac9bb1fc4b15e8553aa9788df20dffd8ddb24cca2af79d9620
-routing_manifest_sha256: 065adeebd098ac67bbd93ba5d404c793bd8bd10e570ed2e3401383dce52aeb45
+review_date: 2026-09-21
+review_fingerprint: f601e1381ffc2788858b81ceb8636814a182d100458409b4bdb0895ed628a8b6
+routing_manifest_sha256: 2a729ec21313d4da60aa88fa99990da9bdacfb4309d0a450f89ade0f3cddc268
 ontap_region: Greater Manchester - South
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 5
+- Records: 4
 - Selected: 0
-- POSS awaiting decision: 3
+- POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 2
 
@@ -38,21 +38,6 @@ factual_fingerprint: 0a41ccb94dd6e3a92befca1242cb492e11df3ce5f44290929175ce6e1c9
 source: Teaching Vacancies
 source_job_id: attendance-and-communications-officer
 source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-and-communications-officer
----
-
----
-action: 
-POSS | Greater Manchester - South | Stockport, North West, SK2 6BW | Scale 5, Points 12-17: £28,598 - £31,022* (full-time, full year salary) (*to be reduced on a pro-rata basis to the actual part-time hours / term-time weeks worked) | Attendance Assistant – Educational Outreach Officer
-employer: Stockport School
-closing_date: 2026-09-21T09:00:00+01:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: bfc51f1a427d0b348e5f88f7ad79db3c12a0603f85abd9acc85d40352910937e
-source: Teaching Vacancies
-source_job_id: attendance-assistant-educational-outreach-officer-stockport-school-stockport-cheshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-assistant-educational-outreach-officer-stockport-school-stockport-cheshire
 ---
 
 ---

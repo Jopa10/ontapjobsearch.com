@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Lancashire - Blackpool & Fylde
 
-review_date: 2026-09-20
-review_fingerprint: bd458383e98030bc65fd3f656ac7346995042063793b6c7135bcfe73ff77a9a8
-routing_manifest_sha256: 065adeebd098ac67bbd93ba5d404c793bd8bd10e570ed2e3401383dce52aeb45
+review_date: 2026-09-21
+review_fingerprint: 47540c1324d6ebd862ec87b4ea18333f7865aa5d526f54e9710231c6c4dd2bf6
+routing_manifest_sha256: 2a729ec21313d4da60aa88fa99990da9bdacfb4309d0a450f89ade0f3cddc268
 ontap_region: Lancashire - Blackpool & Fylde
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 2
-- Selected: 2
+- Records: 1
+- Selected: 1
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 0
@@ -34,21 +34,6 @@ factual_fingerprint: a12759747549a8ea97e6ca7b427c188ca7c96f1f826ae29688282c81bc0
 source: Teaching Vacancies
 source_job_id: administrative-assistant-st-mary-s-catholic-primary-school-fleetwood-fleetwood-lancashire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-st-mary-s-catholic-primary-school-fleetwood-fleetwood-lancashire
----
-
----
-action: 
-SELECTED | Lancashire - Blackpool & Fylde | Blackpool, North West, FY4 4RR | NJC Pay Scale Grade C, Points 5 to 6 | Administrator - Mereside Primary Academy
-employer: Mereside Primary Academy
-closing_date: 2026-09-21T09:00:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: 57683d595fe8578f724c0ad226f8ec7614a22a3489f8ef49d1c030b2181b62b2
-source: Teaching Vacancies
-source_job_id: administrator-mereside-primary-academy-mereside-primary-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-mereside-primary-academy-mereside-primary-academy
 ---
 
 ## POSS — choose SELECT or EXCLUDE

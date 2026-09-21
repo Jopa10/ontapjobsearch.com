@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Nottinghamshire
 
-review_date: 2026-09-20
-review_fingerprint: 77c78ba2b1f1942330206960a10b0178574a84e32647197aa97d211fc1cf8e9f
-routing_manifest_sha256: 065adeebd098ac67bbd93ba5d404c793bd8bd10e570ed2e3401383dce52aeb45
+review_date: 2026-09-21
+review_fingerprint: 19c4774d63bd337abdefd27eea60ba4c9f627b3d98140af6259b85c075febb4d
+routing_manifest_sha256: 2a729ec21313d4da60aa88fa99990da9bdacfb4309d0a450f89ade0f3cddc268
 ontap_region: Nottinghamshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 25
-- Selected: 10
+- Records: 23
+- Selected: 11
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 13
+- Hard pass: 10
 
 ## SELECTED
 
@@ -34,6 +34,21 @@ factual_fingerprint: c3ce706f1a2bf0e6ff5692920c9ceccbd5c737a14d1cf0ea111a8ff1607
 source: Teaching Vacancies
 source_job_id: administration-assistant-diverse-academies-trust
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-diverse-academies-trust
+---
+
+---
+action: 
+SELECTED | Nottinghamshire | Mansfield, East Midlands, NG21 9TA | £22,569.72 - £22,569.72 Annually (Actual) Term time only | Administration Assistant
+employer: Thoresby Vale Primary Academy
+closing_date: 2026-09-25T23:59:00+01:00
+reason: Clear admin/service title: administration assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 2710ff6c7c8d9cbeaa8320e1cf1192b30b2415b073aa39e35dc92d884c56d4c5
+source: Teaching Vacancies
+source_job_id: administration-assistant-thoresby-vale-primary-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-thoresby-vale-primary-academy
 ---
 
 ---
@@ -209,16 +224,13 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/data-officer-the-whit
 
 ## HARD_PASS
 
-- [Accounts Payable Assistant](https://teaching-vacancies.service.gov.uk/jobs/accounts-payable-assistant-greenwood-academies-trust) — Insufficient admin/service evidence.
 - [Admin Officer](https://teaching-vacancies.service.gov.uk/jobs/admin-officer-radford-primary-school-academy) — Insufficient admin/service evidence.
 - [Attendance Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/attendance-administration-assistant-the-long-eaton-school) — Insufficient admin/service evidence.
 - [Finance Apprentice](https://teaching-vacancies.service.gov.uk/jobs/finance-apprentice-our-lady-of-lourdes-catholic-multi-academy-trust) — Insufficient admin/service evidence.
 - [HR and Recruitment Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-and-recruitment-officer-redhill-academy-trust) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-jubilee-l-e-a-d-academy) — Manager title salary ceiling £32,187 is not below £28,000.
 - [One to One Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/one-to-one-personal-care-assistant) — Insufficient admin/service evidence.
-- [Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-65ca1f05-aa50-430f-afeb-b27088a93265) — Insufficient admin/service evidence.
 - [Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-bf443901-6fb8-4721-9adf-b67f0bdbd6f6) — Insufficient admin/service evidence.
-- [Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-newark-orchard-school-newark) — Insufficient admin/service evidence.
 - [Purchase Ledger Assistant](https://teaching-vacancies.service.gov.uk/jobs/purchase-ledger-assistant-redhill-academy-trust) — Insufficient admin/service evidence.
 - [School Business Administrator](https://teaching-vacancies.service.gov.uk/jobs/school-business-administrator-ladycross-infant-school) — Missing salary or pay scale.
 - [School Office Manager](https://teaching-vacancies.service.gov.uk/jobs/school-office-manager-burntstump-seely-cofe-primary-academy) — Manager title salary ceiling £30,514 is not below £28,000.

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — North East - Tees Valley
 
-review_date: 2026-09-20
-review_fingerprint: df7647f7fddd4346ca96f794203ad47e6a728531bcb61e429ddff284a03602da
-routing_manifest_sha256: 065adeebd098ac67bbd93ba5d404c793bd8bd10e570ed2e3401383dce52aeb45
+review_date: 2026-09-21
+review_fingerprint: 5026555e0a2a2108f6c65d51dbd3330555987cbd9922d2a38150423861210be1
+routing_manifest_sha256: 2a729ec21313d4da60aa88fa99990da9bdacfb4309d0a450f89ade0f3cddc268
 ontap_region: North East - Tees Valley
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -14,14 +14,27 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 3
-- Selected: 0
+- Selected: 1
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 2
+- Hard pass: 1
 
 ## SELECTED
 
-- None.
+---
+action: 
+SELECTED | North East - Tees Valley | Middlesbrough, North East, TS7 0LA | £22,204.00 - £23,273.00 Annually (FTE) Salary based on Grade C/D, Scale Point 03 - 06 £25,614 - 26,847 FTE. | Administration Assistant
+employer: Nunthorpe School & Sixth Form
+closing_date: 2026-09-30T12:00:00+01:00
+reason: Clear admin/service title: administration assistant
+jobg8_check: NO_MATCH
+slice_status: UNREGISTERED
+migration_status: 
+factual_fingerprint: 06980d3572d33be6654f0741655a2da351540c82d223e456fb67e92fbbb89e71
+source: Teaching Vacancies
+source_job_id: administration-assistant-nunthorpe-school-sixth-form
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-nunthorpe-school-sixth-form
+---
 
 ## POSS — choose SELECT or EXCLUDE
 
@@ -46,7 +59,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-office
 
 ## HARD_PASS
 
-- [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-326e8711-30eb-4683-b8a7-6e0c7757378c) — Insufficient admin/service evidence.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-st-patrick-s-catholic-college-a-voluntary-catholic-academy) — Manager title salary ceiling £35,412 is not below £28,000.
 
 ## Safety boundary

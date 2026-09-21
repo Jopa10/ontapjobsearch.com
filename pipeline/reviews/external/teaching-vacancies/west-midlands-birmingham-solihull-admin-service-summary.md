@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Birmingham & Solihull
 
-review_date: 2026-09-20
-review_fingerprint: 2d1d33a3d62fb352236b2952b78c4d191ff95c48bf703d104e7fac9dfd099e7e
-routing_manifest_sha256: 065adeebd098ac67bbd93ba5d404c793bd8bd10e570ed2e3401383dce52aeb45
+review_date: 2026-09-21
+review_fingerprint: 0c50df9aa718b52278c3d4c1287f0e504db0e1802ebecd8d2d94e397e3a13e97
+routing_manifest_sha256: 2a729ec21313d4da60aa88fa99990da9bdacfb4309d0a450f89ade0f3cddc268
 ontap_region: West Midlands - Birmingham & Solihull
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 30
-- Selected: 16
+- Records: 23
+- Selected: 12
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 14
+- Hard pass: 11
 
 ## SELECTED
 
@@ -34,21 +34,6 @@ factual_fingerprint: 678c6e8bcb2ffb43ec31f444dca49eb408fddc102938a47b0edd76380b1
 source: Teaching Vacancies
 source_job_id: administration-assistant-harborne-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-harborne-primary-school
----
-
----
-action: 
-SELECTED | West Midlands - Birmingham & Solihull | Solihull, West Midlands, B92 7EB | Support Staff Band B (Pt 3 -5) FTE £25,614 - £26,427 – Actual Salary £13,353- £13,777 | Administrative Assistant
-employer: Kineton Green Primary School
-closing_date: 2026-09-20T23:59:00+01:00
-reason: Clear admin/service title: administrative assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: e9e5cd98c75eead8ad574428e305f5e465d9f10e066ba42254b164c0e1e5a2ce
-source: Teaching Vacancies
-source_job_id: administrative-assistant-daeb96b2-4a80-4966-a01a-d852bcec6a1b
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-daeb96b2-4a80-4966-a01a-d852bcec6a1b
 ---
 
 ---
@@ -128,21 +113,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-2-
 
 ---
 action: 
-SELECTED | West Midlands - Birmingham & Solihull | Solihull, West Midlands, B93 9AS | £8,804.90 Annually (Actual) Point 5-10 | Office Administrator
-employer: Bentley Heath Church of England Primary School
-closing_date: 2026-09-21T09:00:00+01:00
-reason: Clear admin/service title: administrator, office administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: ac361e455ef9bff975b19bf2dee7c83d9a6acdf234cc967e8b9e4d21b688fce1
-source: Teaching Vacancies
-source_job_id: office-administrator-bentley-heath-church-of-england-primary-school-solihull-west-midlands
-source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-bentley-heath-church-of-england-primary-school-solihull-west-midlands
----
-
----
-action: 
 SELECTED | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B28 8BB | £28,598.00 - £34,434.00 Annually (FTE) | Office Administrator
 employer: Yorkmead Junior and Infant School
 closing_date: 2026-09-25T23:59:00+01:00
@@ -158,21 +128,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-
 
 ---
 action: 
-SELECTED | West Midlands - Birmingham & Solihull | Birmingham, B44 9AG | £25,614.00 - £27,709.00 Annually (FTE) | Office Assistant at St Elizabeth's Catholic Primary School, B79 8EN
-employer: St. John Paul Ii Multi Academy Company
-closing_date: 2026-09-21T12:00:00+01:00
-reason: Clear admin/service title: office assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 5842af95673f6a237f8f01a0b2782a34f4063c5c509cf51f5008329ff54c4a62
-source: Teaching Vacancies
-source_job_id: office-assistant-at-st-elizabeth-s-catholic-primary-school-b79-8en
-source_url: https://teaching-vacancies.service.gov.uk/jobs/office-assistant-at-st-elizabeth-s-catholic-primary-school-b79-8en
----
-
----
-action: 
 SELECTED | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B7 4QR | £11,923.86 Annually (Actual) Apprentice Rate 1 | Pastoral Support and Administrator Apprentice
 employer: E-ACT Heartlands Academy
 closing_date: 2026-09-28T09:00:00+01:00
@@ -184,36 +139,6 @@ factual_fingerprint: e4a9c9303900dde857bcc06050214b4df9bfefa192ef12f3d747dd6b984
 source: Teaching Vacancies
 source_job_id: pastoral-support-and-administrator-apprentice
 source_url: https://teaching-vacancies.service.gov.uk/jobs/pastoral-support-and-administrator-apprentice
----
-
----
-action: 
-SELECTED | West Midlands - Birmingham & Solihull | Birmingham, B20 3LP | £29,070.00 - £32,046.00 Annually (Actual) | Payroll, Pensions, Finance and HR Administrator
-employer: Birmingham Diocesan Multi Academy Trust
-closing_date: 2026-09-21T08:00:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 72155758fc0c4149e5d4f318ba766c871b3ae1d758e4c124bc3dfb473f3dfc36
-source: Teaching Vacancies
-source_job_id: payroll-pensions-finance-and-hr-administrator
-source_url: https://teaching-vacancies.service.gov.uk/jobs/payroll-pensions-finance-and-hr-administrator
----
-
----
-action: 
-SELECTED | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B45 0EU | £22,121.00 Annually (Actual) | Receptionist
-employer: King Edward VI Balaam Wood Academy
-closing_date: 2026-09-21T09:00:00+01:00
-reason: Clear admin/service title: receptionist
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: f9d1389180deee068952f032ce09b1d6ee768cc4c19d9b82d03eeadc00668a78
-source: Teaching Vacancies
-source_job_id: receptionist-king-edward-vi-balaam-wood-academy-birmingham-west-midlands
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-king-edward-vi-balaam-wood-academy-birmingham-west-midlands
 ---
 
 ---
@@ -261,6 +186,21 @@ source_job_id: senior-administrator-bishop-vesey-s-grammar-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-bishop-vesey-s-grammar-school
 ---
 
+---
+action: 
+SELECTED | West Midlands - Birmingham & Solihull | Sutton Coldfield, West Midlands, B74 2NH | £30,240.00 - £31,934.00 Annually (Actual) | Whole School Attendance Officer (Mat Cover)
+employer: Bishop Vesey's Grammar School
+closing_date: 2026-09-27T23:59:00+01:00
+reason: Clear admin/service title: attendance officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 06c9d6dc514d4b6acd038c6c7defdcb9e0f6c1854141c3ab55481ab5c5268ca8
+source: Teaching Vacancies
+source_job_id: whole-school-attendance-officer-mat-cover
+source_url: https://teaching-vacancies.service.gov.uk/jobs/whole-school-attendance-officer-mat-cover
+---
+
 ## POSS — choose SELECT or EXCLUDE
 
 - None.
@@ -274,17 +214,14 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-
 - [Academy Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/academy-operations-manager-daylesford-academy) — Manager title salary ceiling £37,784 is not below £28,000.
 - [Assistant SENCO](https://teaching-vacancies.service.gov.uk/jobs/assistant-senco-woodlands) — Insufficient admin/service evidence.
 - [Examinations Assistant](https://teaching-vacancies.service.gov.uk/jobs/examinations-assistant-plantsbrook-school) — Insufficient admin/service evidence.
-- [Finance Lead](https://teaching-vacancies.service.gov.uk/jobs/finance-lead-forward-education-trust) — Insufficient admin/service evidence.
 - [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-eden-girls-leadership-academy-birmingham-birmingham) — Insufficient admin/service evidence.
-- [Governance Support Officer](https://teaching-vacancies.service.gov.uk/jobs/governance-support-officer-academy-transformation-trust-sutton-coldfield-not-recorded) — Insufficient admin/service evidence.
 - [Head of Executive Office and Communications](https://teaching-vacancies.service.gov.uk/jobs/head-of-executive-office-and-communications) — Insufficient admin/service evidence.
 - [Head of Marketing](https://teaching-vacancies.service.gov.uk/jobs/head-of-marketing-ormiston-academies-trust) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-greet-primary-school) — Manager title salary ceiling £34,434 is not below £28,000.
-- [Regional Commercial Procurement Manager](https://teaching-vacancies.service.gov.uk/jobs/regional-commercial-procurement-manager-ormiston-academies-trust) — Manager title salary ceiling £63,638 is not below £28,000.
+- [PA to Executive Head](https://teaching-vacancies.service.gov.uk/jobs/pa-to-executive-head) — Missing salary or pay scale.
 - [Regional People Partner](https://teaching-vacancies.service.gov.uk/jobs/regional-people-partner-4ed6680e-930f-489a-b0d0-658557e0d3dc) — Insufficient admin/service evidence.
 - [School Administration Assistant/ Attendance](https://teaching-vacancies.service.gov.uk/jobs/school-administration-assistant-attendance) — Insufficient admin/service evidence.
 - [School Finance Partner](https://teaching-vacancies.service.gov.uk/jobs/school-finance-partner-fioretti-trust) — Insufficient admin/service evidence.
-- [Student Support and Admissions Coordinator](https://teaching-vacancies.service.gov.uk/jobs/student-support-and-admissions-coordinator) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

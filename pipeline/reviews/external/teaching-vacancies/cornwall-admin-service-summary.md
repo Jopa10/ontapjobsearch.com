@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cornwall
 
-review_date: 2026-09-20
-review_fingerprint: b1220edd4426413e1816f0ef09aa29414a667e7e4c375d086ec46c70d03affc7
-routing_manifest_sha256: 065adeebd098ac67bbd93ba5d404c793bd8bd10e570ed2e3401383dce52aeb45
+review_date: 2026-09-21
+review_fingerprint: b3100da742c0710d2b699c2462fe6fc82a8de1468667bdff846131d44c4c641a
+routing_manifest_sha256: 2a729ec21313d4da60aa88fa99990da9bdacfb4309d0a450f89ade0f3cddc268
 ontap_region: Cornwall
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 4
-- Selected: 2
+- Records: 5
+- Selected: 3
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 1
@@ -25,15 +25,30 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 action: 
 SELECTED | Cornwall | Falmouth, South West, TR11 4LH | Salary range - £27,665 - £30,366 per annum | Exams Officer
 employer: Falmouth School
-closing_date: 2026-09-21T09:00:00+01:00
+closing_date: 2026-09-28T09:00:00+01:00
 reason: Clear admin/service title: exams officer
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: fc58ba53bdba4c843d8d876e91974cf8948a998350bf9e177d9510202d814074
+factual_fingerprint: e9a2ec4c8c7263d6c5439b68ba12930f33c9365b6376b09ed115438e287e996d
 source: Teaching Vacancies
 source_job_id: exams-officer-falmouth-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-falmouth-school
+---
+
+---
+action: 
+SELECTED | Cornwall | Camelford, South West, PL32 9UJ | £11,844.00 - £12,224.00 Annually (Actual) | Part Time Attendance Administrator
+employer: Sir James Smith's School
+closing_date: 2026-10-09T23:59:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 1788cd853602a1caba22ef277fcaba837705c29954d4e55de55d75317e8614a3
+source: Teaching Vacancies
+source_job_id: part-time-attendance-administrator
+source_url: https://teaching-vacancies.service.gov.uk/jobs/part-time-attendance-administrator
 ---
 
 ---

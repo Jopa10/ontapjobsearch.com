@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - West
 
-review_date: 2026-09-20
-review_fingerprint: 7b5d3b1505127ef3f5f87fa6e17b1648ddebef259204b450685cb03ef17374a6
-routing_manifest_sha256: 065adeebd098ac67bbd93ba5d404c793bd8bd10e570ed2e3401383dce52aeb45
+review_date: 2026-09-21
+review_fingerprint: 3f220ff7e4c00f28f86fd758df31052b4be4468cc6f1a74a804c7bf1a22e8892
+routing_manifest_sha256: 2a729ec21313d4da60aa88fa99990da9bdacfb4309d0a450f89ade0f3cddc268
 ontap_region: Yorkshire - West
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 41
-- Selected: 18
-- POSS awaiting decision: 1
+- Records: 33
+- Selected: 15
+- POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 22
+- Hard pass: 16
 
 ## SELECTED
 
@@ -34,21 +34,6 @@ factual_fingerprint: 77df06f4ef77438daf5d814e21401ce1d0edc2dfc91590056050bf2a8b1
 source: Teaching Vacancies
 source_job_id: administration-assistant-buttershaw-business-enterprise-college-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-buttershaw-business-enterprise-college-academy
----
-
----
-action: 
-SELECTED | Yorkshire - West | Bradford, Yorkshire and the Humber, BD7 3AY | £25,185.00 - £25,989.00 Annually (FTE) Band 5, SCP 4 to SCP 6 (actual salary £21,105.03 - £21,778 per annum), 37 hours per week, TTO. | Administration Assistant
-employer: Copthorne Primary School
-closing_date: 2026-09-21T12:00:00+01:00
-reason: Clear admin/service title: administration assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: NEW_REVIEW
-factual_fingerprint: 43ed3dfc232be9bdc5399bb85f946c7a72272633f8403bbd74794ef40ba8a2f1
-source: Teaching Vacancies
-source_job_id: administration-assistant-copthorne-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-copthorne-primary-school
 ---
 
 ---
@@ -98,21 +83,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assist
 
 ---
 action: 
-SELECTED | Yorkshire - West | Leeds, Yorkshire and the Humber, LS26 8EX | £22,373.00 - £23,087.00 Annually (Actual) Band 5, SCP 4 to 6, 37 hours per week, TTO plus 5 days | Administrator
-employer: Oulton Academy
-closing_date: 2026-09-21T10:00:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: NEW_REVIEW
-factual_fingerprint: c99207ebeb9387c223d16bf63043f50fa33e6203d988b05d5d539d29a502d53f
-source: Teaching Vacancies
-source_job_id: administrator-oulton-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-oulton-academy
----
-
----
-action: 
 SELECTED | Yorkshire - West | Bradford, Yorkshire and the Humber, BD5 9ET | 25,584.00 - 25,989.00 | Administrator - 37
 employer: Co-op Academy Grange
 closing_date: 2026-10-01T09:00:00+01:00
@@ -143,6 +113,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/apprentice-admin-assi
 
 ---
 action: 
+SELECTED | Yorkshire - West | Leeds, Yorkshire and the Humber, LS17 5HX | B1 Point 5 | Apprentice Admin Assistant - Level 2 PART TIME
+employer: Alwoodley Primary School
+closing_date: 2026-09-25T12:00:00+01:00
+reason: Clear admin/service title: admin assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: NEW_REVIEW
+factual_fingerprint: 54397a9e2953ed6972f1e8f802b850eaaf7b3437aa6118e7af709cac0fb5a5f2
+source: Teaching Vacancies
+source_job_id: apprentice-admin-assistant-level-2-part-time
+source_url: https://teaching-vacancies.service.gov.uk/jobs/apprentice-admin-assistant-level-2-part-time
+---
+
+---
+action: 
 SELECTED | Yorkshire - West | Huddersfield, Yorkshire and the Humber, HD1 4BJ | £11,722.00 Annually (Actual) Term Time only | Business Support Officer
 employer: Spring Grove Junior Infant and Nursery School
 closing_date: 2026-09-25T23:59:00+01:00
@@ -158,21 +143,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-offi
 
 ---
 action: 
-SELECTED | Yorkshire - West | Huddersfield, Yorkshire and the Humber, HD3 3UH | £25,583.00 Annually (FTE) | Business Support Officer - Part Time
-employer: Moorlands Primary School
-closing_date: 2026-09-23T09:00:00+01:00
-reason: Clear admin/service title: business support officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: NEW_REVIEW
-factual_fingerprint: 4816d015c8bb841e2b727af27c14908f7f610d8df9b1efea8cb46c92b5aa8b3f
-source: Teaching Vacancies
-source_job_id: business-support-officer-part-time
-source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-officer-part-time
----
-
----
-action: 
 SELECTED | Yorkshire - West | Castleford, Yorkshire and the Humber, WF10 3QJ | £12,995.00 - £13,158.00 Annually (Actual) Term time only plus 22.5hrs | Clerical Assistant/Receptionist
 employer: Townville Academy
 closing_date: 2026-10-02T12:00:00+01:00
@@ -184,21 +154,6 @@ factual_fingerprint: 6182204ae1f70487d9e816ae6a7bf54e844d9e24bdaa4611714de58606b
 source: Teaching Vacancies
 source_job_id: clerical-assistant-receptionist-townville-academy-castleford-west-yorkshire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/clerical-assistant-receptionist-townville-academy-castleford-west-yorkshire
----
-
----
-action: 
-SELECTED | Yorkshire - West | Castleford, Yorkshire and the Humber, WF10 4JQ | £25,721.00 - £28,365.00 Annually (Actual) £29,542- £32,578 FTE | Cover & HR Administrator
-employer: Castleford Academy
-closing_date: 2026-09-21T12:00:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: NEW_REVIEW
-factual_fingerprint: e6351b49cc3de04e70ca10db6a260c1c74b252424cb04be316beac804b5b5bd6
-source: Teaching Vacancies
-source_job_id: cover-hr-administrator
-source_url: https://teaching-vacancies.service.gov.uk/jobs/cover-hr-administrator
 ---
 
 ---
@@ -263,17 +218,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-
 
 ---
 action: 
-SELECTED | Yorkshire - West | Knottingley, WF11 0EP | £25,614.00 - £25,614.00 Annually (Actual) Grade B Point 3 (£25,614 per annum) | Receptionist
+SELECTED | Yorkshire - West | Knottingley, WF11 0EP | £25,614.00 - £25,614.00 Annually (Actual) Grade B Point 3 (£25,614 per annum) | Receptionist (7475)
 employer: Delta Academies Trust
 closing_date: 2026-09-23T23:59:00+01:00
 reason: Clear admin/service title: receptionist
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: NEW_REVIEW
-factual_fingerprint: 439228abbbdf653fc171507118de288e1dddc055d7f5e5962816e64b93c1b6ac
+factual_fingerprint: eb65969447ae337d7956c089401c2a385c90387334aeda427c36e1ce39ecac1a
 source: Teaching Vacancies
-source_job_id: receptionist-delta-academies-trust-knottingley-not-recorded
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-delta-academies-trust-knottingley-not-recorded
+source_job_id: receptionist-7475
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-7475
 ---
 
 ---
@@ -308,6 +263,21 @@ source_job_id: administrator-carlton-bolling-bradford-west-yorkshire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-carlton-bolling-bradford-west-yorkshire
 ---
 
+---
+action: 
+POSS | Yorkshire - West | Leeds, Yorkshire and the Humber, LS16 5AG | Grade C2 SCP 15-19, actual salary £25,823-£27,575 | Deputy Student Services Manager & Attendance Lead
+employer: Lawnswood School
+closing_date: 2026-10-05T09:00:00+01:00
+reason: Manager title below £28,000 salary ceiling requires review
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: NEW_REVIEW
+factual_fingerprint: c8bc02669244efbf99574156d89c8d60deb83ddaa0f451325393c3c03d04fbba
+source: Teaching Vacancies
+source_job_id: deputy-student-services-manager-attendance-lead
+source_url: https://teaching-vacancies.service.gov.uk/jobs/deputy-student-services-manager-attendance-lead
+---
+
 ## EXCLUDED BY REVIEW
 
 - None.
@@ -317,19 +287,13 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-carlton
 - [Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-batley-girls-high-school-batley-west-yorkshire) — Insufficient admin/service evidence.
 - [Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-the-brooksbank-school-elland-west-yorkshire) — Insufficient admin/service evidence.
 - [Assistant Senco](https://teaching-vacancies.service.gov.uk/jobs/assistant-senco-fdb10c11-75c5-458b-8d4c-5aa13619d9cc) — Insufficient admin/service evidence.
-- [Data Manager](https://teaching-vacancies.service.gov.uk/jobs/data-manager-buttershaw-business-enterprise-college-academy) — Manager title salary ceiling £37,655 is not below £28,000.
-- [Data, Assessment, and MIS Officer](https://teaching-vacancies.service.gov.uk/jobs/data-assessment-and-mis-officer-crofton-academy) — Insufficient admin/service evidence.
 - [Data, MIS and Admissions Manager](https://teaching-vacancies.service.gov.uk/jobs/data-mis-and-admissions-manager-batley-grammar-school-batley-west-yorkshire) — Manager title salary ceiling £38,267 is not below £28,000.
 - [Exam Invigilator](https://teaching-vacancies.service.gov.uk/jobs/exam-invigilator-leeds-city-academy-leeds-west-yorkshire) — Insufficient admin/service evidence.
 - [Exam Invigilators](https://teaching-vacancies.service.gov.uk/jobs/exam-invigilators-beckfoot-trust) — Insufficient admin/service evidence.
 - [Family Liaison Officer](https://teaching-vacancies.service.gov.uk/jobs/family-liaison-officer-buttershaw-business-enterprise-college-academy-bradford-west-yorkshire) — Insufficient admin/service evidence.
-- [Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-e059f5dd-58bc-43a9-9bb0-dfae96e79d4e) — Insufficient admin/service evidence.
-- [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-learning-accord-multi-academy-trust) — Manager title salary ceiling £38,510 is not below £28,000.
 - [Finance Manager (Core Team)](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-core-team) — Manager title salary ceiling £49,282 is not below £28,000.
 - [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-greengates-primary-academy-bradford-west-yorkshire) — Insufficient admin/service evidence.
-- [Head of Year Assistant](https://teaching-vacancies.service.gov.uk/jobs/head-of-year-assistant) — Insufficient admin/service evidence.
 - [HR Advisor (Central Team)](https://teaching-vacancies.service.gov.uk/jobs/hr-advisor-central-team) — Insufficient admin/service evidence.
-- [Human Resources Business Partner (Central HR Team)](https://teaching-vacancies.service.gov.uk/jobs/human-resources-business-partner-central-hr-team-the-gorse-academies-trust-leeds-not-recorded) — Insufficient admin/service evidence.
 - [Operations Lead](https://teaching-vacancies.service.gov.uk/jobs/operations-lead-menston-primary-school-ilkley-west-yorkshire) — Insufficient admin/service evidence.
 - [People Advisor (Temporary Maternity Cover)](https://teaching-vacancies.service.gov.uk/jobs/people-advisor-temporary-maternity-cover) — Insufficient admin/service evidence.
 - [Senior Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-administration-officer-altofts-junior-academy) — Insufficient admin/service evidence.

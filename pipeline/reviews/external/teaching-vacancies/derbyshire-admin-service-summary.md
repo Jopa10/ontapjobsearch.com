@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Derbyshire
 
-review_date: 2026-09-20
-review_fingerprint: 4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945
-routing_manifest_sha256: 065adeebd098ac67bbd93ba5d404c793bd8bd10e570ed2e3401383dce52aeb45
+review_date: 2026-09-21
+review_fingerprint: 65211913583bb14be53e105228665cb0654f0388fb33b4ebecf662c299f06d2f
+routing_manifest_sha256: 2a729ec21313d4da60aa88fa99990da9bdacfb4309d0a450f89ade0f3cddc268
 ontap_region: Derbyshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,15 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 2
-- Selected: 0
+- Records: 3
+- Selected: 1
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 2
 
 ## SELECTED
 
-- None.
+---
+action: 
+SELECTED | Derbyshire | Chesterfield, East Midlands, S43 4QG | Grade 2 £23,420 - £24,553 actual salary per annum (£26,016 - £27,274 FTE) | Administrator with Pastoral Focus
+employer: Heritage High School
+closing_date: 2026-10-04T12:00:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 4311c040f61280fdea9a3d483407db68e92ec116e994d2be955356e8edb6f628
+source: Teaching Vacancies
+source_job_id: administrator-with-pastoral-focus
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-with-pastoral-focus
+---
 
 ## POSS — choose SELECT or EXCLUDE
 

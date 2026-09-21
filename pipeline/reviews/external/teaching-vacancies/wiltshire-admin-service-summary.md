@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Wiltshire
 
-review_date: 2026-09-20
-review_fingerprint: 1c481d599018b4e0d830b5101151c601391263d1a30faccd1f7289b699072b46
-routing_manifest_sha256: 065adeebd098ac67bbd93ba5d404c793bd8bd10e570ed2e3401383dce52aeb45
+review_date: 2026-09-21
+review_fingerprint: de1d68efba949f4c75a4b8b31392d68d1e4c51dd28cc1ce8684b1c53f1d0a99b
+routing_manifest_sha256: 2a729ec21313d4da60aa88fa99990da9bdacfb4309d0a450f89ade0f3cddc268
 ontap_region: Wiltshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,27 +13,27 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 19
+- Records: 17
 - Selected: 4
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 13
+- Hard pass: 11
 
 ## SELECTED
 
 ---
 action: 
-SELECTED | Wiltshire | Devizes, South West, SN10 4EB | £31,537 - £33,699 per annum pro rata | £28,517 - £30,472 per annum | Exams Officer
-employer: Lavington School
-closing_date: 2026-09-21T09:00:00+01:00
-reason: Clear admin/service title: exams officer
+SELECTED | Wiltshire | Swindon, South West, SN2 1JR | £8,621.00 Annually (Actual) | Evening Receptionist
+employer: Swindon Academy
+closing_date: 2026-10-05T23:59:00+01:00
+reason: Clear admin/service title: receptionist
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 33ade2da3677e71ab86805b261d6d60d9dc1ac11097d6e87dcd2174984698be9
+factual_fingerprint: 736b06b838b5078799aa7ab6d5762f01c3010c5c49151dca388ff5ed27ad2606
 source: Teaching Vacancies
-source_job_id: exams-officer-a0e6b270-9f8e-4c55-b68b-38b5e9214d1b
-source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-a0e6b270-9f8e-4c55-b68b-38b5e9214d1b
+source_job_id: evening-receptionist-swindon-academy-swindon-wiltshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/evening-receptionist-swindon-academy-swindon-wiltshire
 ---
 
 ---
@@ -124,12 +124,10 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/governance-profession
 - [Chief Financial Officer](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-0d106d15-bbf0-467f-8794-3393ccb03a2b) — Insufficient admin/service evidence.
 - [Early Years Stronger Practice Hub Manager](https://teaching-vacancies.service.gov.uk/jobs/early-years-stronger-practice-hub-manager) — Manager title salary ceiling £41,771 is not below £28,000.
 - [Educational Support Assistant - Admissions](https://teaching-vacancies.service.gov.uk/jobs/educational-support-assistant-admissions) — Insufficient admin/service evidence.
-- [Finance Manager (0.6 FTE)](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-0-6-fte-ascend-learning-trust) — Manager title salary ceiling £54,495 is not below £28,000.
 - [Head of Finance](https://teaching-vacancies.service.gov.uk/jobs/head-of-finance-magna-learning-partnership-salisbury-not-recorded) — Insufficient admin/service evidence.
-- [HR Advisor](https://teaching-vacancies.service.gov.uk/jobs/hr-advisor-ascend-learning-trust) — Insufficient admin/service evidence.
+- [HR Advisor](https://teaching-vacancies.service.gov.uk/jobs/hr-advisor-ascend-learning-trust-swindon-not-recorded) — Insufficient admin/service evidence.
 - [Local Governance Committee Clerks](https://teaching-vacancies.service.gov.uk/jobs/local-governance-committee-clerks) — Insufficient admin/service evidence.
 - [Recruitment Lead](https://teaching-vacancies.service.gov.uk/jobs/recruitment-lead-126da904-70b2-4de7-b993-e740579fd411) — Insufficient admin/service evidence.
-- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-lethbridge-primary-school) — Manager title salary ceiling £35,814 is not below £28,000.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-paxcroft-primary-school) — Manager title salary ceiling £37,563 is not below £28,000.
 - [Senior Pupil Services Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-pupil-services-officer-grange-infants-school) — Insufficient admin/service evidence.
 

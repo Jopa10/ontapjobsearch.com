@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Surrey
 
-review_date: 2026-09-20
-review_fingerprint: 35073e48c7b0cccf6c1f9f43b54e9ef2087b60f52714bc43e0ae409fc494d89c
-routing_manifest_sha256: 065adeebd098ac67bbd93ba5d404c793bd8bd10e570ed2e3401383dce52aeb45
+review_date: 2026-09-21
+review_fingerprint: 1178c0ad093a0712a22a7821a6caf543b2e41de15c67487af4b1793984744261
+routing_manifest_sha256: 2a729ec21313d4da60aa88fa99990da9bdacfb4309d0a450f89ade0f3cddc268
 ontap_region: Surrey
 slice_category: admin_service
 slice_status: LIVE
@@ -23,17 +23,17 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ---
 action: 
-SELECTED | Surrey | Weybridge, South East, KT13 8UZ | Salary ELM6 £30,647 FTE Actual Salary £17,026 | HR Administrator
-employer: Heathside School
-closing_date: 2026-09-21T12:00:00+01:00
-reason: Clear admin/service title: administrator
+SELECTED | Surrey | Epsom, South East, KT19 9SE | Specialist - £28,009 FTE (Actual - £16,733.32) | Attendance and Admissions Officer
+employer: Danetree Primary School
+closing_date: 2026-10-05T09:30:59+01:00
+reason: Clear admin/service title: admissions officer
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 44f91d9d394ad063e9c5378f6c16053ca64eb7fa0d42e05d7fc30994999fc28a
+factual_fingerprint: 9666f46c5f5115472682d1a7b3b8c56c30e7ff689b6b9a2b0edd4fca5bb049f4
 source: Teaching Vacancies
-source_job_id: hr-administrator-1dca9cd8-4ff7-45e1-986b-c7d1c85e6a0a
-source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-1dca9cd8-4ff7-45e1-986b-c7d1c85e6a0a
+source_job_id: attendance-and-admissions-officer-65b72427-5324-4164-8260-a853358c3381
+source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-and-admissions-officer-65b72427-5324-4164-8260-a853358c3381
 ---
 
 ---

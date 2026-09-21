@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Norfolk
 
-review_date: 2026-09-20
-review_fingerprint: 4c02c9e163cc0695f1d8894a98d06e81f1a41efef24385277bc6d3e53c224fcb
-routing_manifest_sha256: 065adeebd098ac67bbd93ba5d404c793bd8bd10e570ed2e3401383dce52aeb45
+review_date: 2026-09-21
+review_fingerprint: 6b54418ebe2535d3bb8a0532ae57ac3b528537e044c8464f57cb2831178fb39b
+routing_manifest_sha256: 2a729ec21313d4da60aa88fa99990da9bdacfb4309d0a450f89ade0f3cddc268
 ontap_region: Norfolk
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 18
-- Selected: 5
+- Records: 17
+- Selected: 4
 - POSS awaiting decision: 4
 - Excluded: 0
 - Hard pass: 9
@@ -34,21 +34,6 @@ factual_fingerprint: 870b0f18d0c970ebe29d720ef5539eab60ff61e4197de83c8f38a73b4e9
 source: Teaching Vacancies
 source_job_id: administration-assistant-hopton-church-of-england-primary-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-hopton-church-of-england-primary-academy
----
-
----
-action: 
-SELECTED | Norfolk | Great Yarmouth, East of England, NR31 8QQ | Scale C, points 3-4 £24,796 - £25,185 (actual £11,528 - £11,709) | Administrative Assistant
-employer: Woodlands Primary Academy
-closing_date: 2026-09-20T23:59:00+01:00
-reason: Clear admin/service title: administrative assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 72828c78cbec8b958427b25b1f209e5df169cba0d658c79e6d9c592ad25861e5
-source: Teaching Vacancies
-source_job_id: administrative-assistant-woodlands-primary-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-woodlands-primary-academy
 ---
 
 ---

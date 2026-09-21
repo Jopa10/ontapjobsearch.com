@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Shropshire
 
-review_date: 2026-09-20
-review_fingerprint: 3a02c15a5b5964bcfcedfd532ab465a917aa70e9752b9d0ac8cb8d9ef7530b88
-routing_manifest_sha256: 065adeebd098ac67bbd93ba5d404c793bd8bd10e570ed2e3401383dce52aeb45
+review_date: 2026-09-21
+review_fingerprint: 81f8202d0498fdb53513e4cf42684cd40248946db97241efb773acdd0204453a
+routing_manifest_sha256: 2a729ec21313d4da60aa88fa99990da9bdacfb4309d0a450f89ade0f3cddc268
 ontap_region: Shropshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 10
-- Selected: 8
+- Records: 5
+- Selected: 5
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 2
+- Hard pass: 0
 
 ## SELECTED
 
@@ -49,51 +49,6 @@ factual_fingerprint: 60ea79847662ac6f238202918d165864be8a704cfd0932d6c136a94e2a2
 source: Teaching Vacancies
 source_job_id: administration-assistant-severndale-specialist-academy-shrewsbury-shropshire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-severndale-specialist-academy-shrewsbury-shropshire
----
-
----
-action: 
-SELECTED | Shropshire | Shrewsbury, West Midlands, SY5 0TG | Grade 5 | Administrative Assistant/Receptionist
-employer: Mary Webb School and Science College
-closing_date: 2026-09-21T09:00:00+01:00
-reason: Clear admin/service title: administrative assistant, receptionist
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 1ff1f847389b06a5d17fa06197a3dd3c403d8a339cc699d84c8cc95e2513322c
-source: Teaching Vacancies
-source_job_id: administrative-assistant-receptionist-mary-webb-school-and-science-college
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-receptionist-mary-webb-school-and-science-college
----
-
----
-action: 
-SELECTED | Shropshire | Shrewsbury, West Midlands, SY3 9EE | £22,580.00 - £2,869.00 Annually (Actual) | Administrator – Attendance & Student Support
-employer: The Priory School
-closing_date: 2026-09-21T10:00:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 787c865c913e685e2ec0a8284e287645d0cca18281f1800add5d253a22f4713a
-source: Teaching Vacancies
-source_job_id: administrator-attendance-student-support
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-attendance-student-support
----
-
----
-action: 
-SELECTED | Shropshire | Shrewsbury, West Midlands, SY3 8LU | £13.90 - £13.90 Hourly | Business Support Administrator
-employer: St George's Junior School
-closing_date: 2026-09-21T12:00:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: d02df28199a4f0fef6b7a3b4bf305019f89f37d482ead78f887c0e89ac94988b
-source: Teaching Vacancies
-source_job_id: business-support-administrator-st-george-s-junior-school-shrewsbury-shropshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-administrator-st-george-s-junior-school-shrewsbury-shropshire
 ---
 
 ---
@@ -151,8 +106,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/senco-and-safeguardin
 
 ## HARD_PASS
 
-- [Data and Information Lead](https://teaching-vacancies.service.gov.uk/jobs/data-and-information-lead) — Insufficient admin/service evidence.
-- [Head of HR Operations](https://teaching-vacancies.service.gov.uk/jobs/head-of-hr-operations-the-3-18-education-trust) — Insufficient admin/service evidence.
+- None.
 
 ## Safety boundary
 

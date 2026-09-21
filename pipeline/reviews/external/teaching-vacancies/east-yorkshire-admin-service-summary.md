@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - East
 
-review_date: 2026-09-20
-review_fingerprint: d045866e61073cbf08d15d214a652698df76e72fce543f034bf79dcdbd56f851
-routing_manifest_sha256: 065adeebd098ac67bbd93ba5d404c793bd8bd10e570ed2e3401383dce52aeb45
+review_date: 2026-09-21
+review_fingerprint: 2ef3a66ccf331af55f84cc731cdf91b41982a724f39de989f02a6bf8070bf086
+routing_manifest_sha256: 2a729ec21313d4da60aa88fa99990da9bdacfb4309d0a450f89ade0f3cddc268
 ontap_region: Yorkshire - East
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 3
-- Selected: 3
+- Records: 2
+- Selected: 2
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 0
 
 ## SELECTED
-
----
-action: 
-SELECTED | Yorkshire - East | Bridlington, Yorkshire and the Humber, YO16 4QU | £26,806.00 - £27,245.00 Annually (Actual) | Exams Officer
-employer: Bridlington School
-closing_date: 2026-09-21T09:00:00+01:00
-reason: Clear admin/service title: exams officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 6ce974b3647f61c8dd7f5fe966f15da655eb0f40a3aa2c2d6dbfe40872e9c424
-source: Teaching Vacancies
-source_job_id: exams-officer-bridlington-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-bridlington-school
----
 
 ---
 action: 

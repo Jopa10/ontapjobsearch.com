@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Suffolk
 
-review_date: 2026-09-20
-review_fingerprint: 528c0f5d136ec6a926b59dfc5b02c0d0e6c2c678220533b9b2d8ab65c90cef98
-routing_manifest_sha256: 065adeebd098ac67bbd93ba5d404c793bd8bd10e570ed2e3401383dce52aeb45
+review_date: 2026-09-21
+review_fingerprint: e55ccb0ce8f6b835c8cd4f41ade4280eca90bea63237398362320ce0b6127455
+routing_manifest_sha256: 2a729ec21313d4da60aa88fa99990da9bdacfb4309d0a450f89ade0f3cddc268
 ontap_region: Suffolk
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 14
-- Selected: 4
+- Records: 9
+- Selected: 2
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 9
+- Hard pass: 6
 
 ## SELECTED
 
@@ -51,36 +51,6 @@ source_job_id: administration-assistant-castle-east-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-castle-east-school
 ---
 
----
-action: 
-SELECTED | Suffolk | Woodbridge, East of England, IP12 4JX | £33,675.00 - £36,834.00 Annually (Actual) | Examinations Officer
-employer: Farlingaye High School
-closing_date: 2026-09-21T09:00:00+01:00
-reason: Clear admin/service title: examinations officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 1aaa84681556895d18d0d45059aa734c15eb2505b65cecf2bff2c7d22e198a6c
-source: Teaching Vacancies
-source_job_id: examinations-officer-farlingaye-high-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/examinations-officer-farlingaye-high-school
----
-
----
-action: 
-SELECTED | Suffolk | Ipswich, East of England, IP2 8NU | £26,224.00 - £26,847.00 Annually (FTE) ALT Grade D £22,456.02 - £22,989.50 Annually Actual | SENDCo Admin Assistant
-employer: Hillside Primary School
-closing_date: 2026-09-21T12:00:00+01:00
-reason: Clear admin/service title: admin assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 14eedeab1b99704cb95b64ebbcbc7e13d014816e66c64587c8fa7ebe759cb221
-source: Teaching Vacancies
-source_job_id: sendco-admin-assistant-hillside-primary-school-ipswich-suffolk
-source_url: https://teaching-vacancies.service.gov.uk/jobs/sendco-admin-assistant-hillside-primary-school-ipswich-suffolk
----
-
 ## POSS — choose SELECT or EXCLUDE
 
 ---
@@ -108,11 +78,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/operations-officer-gl
 - [Attendance and Inclusion Support Officer](https://teaching-vacancies.service.gov.uk/jobs/attendance-and-inclusion-support-officer) — Insufficient admin/service evidence.
 - [Curriculum and Reception Assistant](https://teaching-vacancies.service.gov.uk/jobs/curriculum-and-reception-assistant) — Insufficient admin/service evidence.
 - [Data Manager](https://teaching-vacancies.service.gov.uk/jobs/data-manager-holbrook-academy) — Manager title salary ceiling £34,811 is not below £28,000.
-- [HR Assistant](https://teaching-vacancies.service.gov.uk/jobs/hr-assistant-36698a9b-d2c8-4253-91ee-aefbeab6f899) — Insufficient admin/service evidence.
-- [HR Assistant Apprentice](https://teaching-vacancies.service.gov.uk/jobs/hr-assistant-apprentice-piper-s-vale-primary-a-paradigm-academy-ipswich-suffolk) — Insufficient admin/service evidence.
 - [Office Manager and Exams Officer](https://teaching-vacancies.service.gov.uk/jobs/office-manager-and-exams-officer) — Manager title salary ceiling £32,597 is not below £28,000.
 - [Training and Development Lead](https://teaching-vacancies.service.gov.uk/jobs/training-and-development-lead-1c8d3225-0446-4fe7-beb0-048e224f5e3e) — Insufficient admin/service evidence.
-- [Trust Attendance Lead](https://teaching-vacancies.service.gov.uk/jobs/trust-attendance-lead-unity-schools-partnership) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

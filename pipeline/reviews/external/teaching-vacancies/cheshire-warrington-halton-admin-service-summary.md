@@ -1,11 +1,11 @@
-# Teaching Vacancies regional review — West Midlands
+# Teaching Vacancies regional review — Cheshire - Warrington & Halton
 
 review_date: 2026-09-21
 review_fingerprint: 4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945
 routing_manifest_sha256: 2a729ec21313d4da60aa88fa99990da9bdacfb4309d0a450f89ade0f3cddc268
-ontap_region: West Midlands
+ontap_region: Cheshire - Warrington & Halton
 slice_category: admin_service
-slice_status: UNREGISTERED
+slice_status: LIVE
 
 Edit only the `action:` line in each editable block.
 Blank POSS decisions remain unpublished.
@@ -33,7 +33,7 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## HARD_PASS
 
-- [Clerical Assistant - General Level 2](https://teaching-vacancies.service.gov.uk/jobs/clerical-assistant-general-level-2-james-bateman-middle-school) — Insufficient admin/service evidence.
+- [Chief Financial Officer](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-the-great-schools-trust) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

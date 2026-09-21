@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Greater Manchester - North
 
-review_date: 2026-09-20
-review_fingerprint: 642131461f7b691a35959589a77ff28773553a40bbad7595a48a4a86f8800ed0
-routing_manifest_sha256: 065adeebd098ac67bbd93ba5d404c793bd8bd10e570ed2e3401383dce52aeb45
+review_date: 2026-09-21
+review_fingerprint: 218d8945b36a52e0fd18d1b871efe6ff516892ab26417655240d123efb0b8b6e
+routing_manifest_sha256: 2a729ec21313d4da60aa88fa99990da9bdacfb4309d0a450f89ade0f3cddc268
 ontap_region: Greater Manchester - North
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 10
-- Selected: 5
-- POSS awaiting decision: 1
+- Records: 6
+- Selected: 4
+- POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 4
+- Hard pass: 2
 
 ## SELECTED
 
@@ -81,37 +81,9 @@ source_job_id: business-administrator-hollinwood-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/business-administrator-hollinwood-academy
 ---
 
----
-action: 
-SELECTED | Greater Manchester - North | Oldham, North West, OL2 5BF | £23,612.57 - £25,982.89 Annually (Actual) SCP6-12 - £23,612.57 - £25,982.89 - FTE: £26,847.00 - £29,542.00 - 37 hours per week, 39 weeks per year. | SEND Administrator
-employer: E-ACT the Oldham Academy North
-closing_date: 2026-09-21T09:00:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: e6cd8f2f95ce2aa84ef572ba21a267594c36ac4f21ef0d23a754cae5c4398fa0
-source: Teaching Vacancies
-source_job_id: send-administrator-e-act-the-oldham-academy-north
-source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-e-act-the-oldham-academy-north
----
-
 ## POSS — choose SELECT or EXCLUDE
 
----
-action: 
-POSS | Greater Manchester - North | Oldham, North West, OL8 3EP | £29,542.00 - £32,046.00 Annually (FTE) Points 12 - 17 of the School Support Staff pay spine, currently £29,542 to £32,046 per annum (actual term time salary £26,372 - £28,607 per annum) | Administrative Support Officer
-employer: The Hathershaw College
-closing_date: 2026-09-21T09:00:00+01:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: 73f20b03bcc68f0d4fa62e3d8b5671bcdce3171fd4007907557f4763ae881fbc
-source: Teaching Vacancies
-source_job_id: administrative-support-officer-the-hathershaw-college
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-support-officer-the-hathershaw-college
----
+- None.
 
 ## EXCLUDED BY REVIEW
 
@@ -119,8 +91,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-suppor
 
 ## HARD_PASS
 
-- [Administration Officer with responsibility for First Aid](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-with-responsibility-for-first-aid) — Insufficient admin/service evidence.
-- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-the-hathershaw-college) — Manager title salary ceiling £44,253 is not below £28,000.
 - [Receptionist / Administrator](https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrator-hollingworth-academy) — Missing salary or pay scale.
 - [School Office Manager](https://teaching-vacancies.service.gov.uk/jobs/school-office-manager-st-joseph-s-roman-catholic-primary-school-rochdale-a-voluntary-academy) — Manager title salary ceiling £32,305 is not below £28,000.
 

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Devon
 
-review_date: 2026-09-20
-review_fingerprint: 25f1e92e3f5b9c4c49e5d45cd2932d85bc51c09f9a1c0848fb3a85b2dd07ecd0
-routing_manifest_sha256: 065adeebd098ac67bbd93ba5d404c793bd8bd10e570ed2e3401383dce52aeb45
+review_date: 2026-09-21
+review_fingerprint: adbdce5096f68bfede8d771186cb42099f63bb0ce2f2a42a7915c5e6c7fa11ad
+routing_manifest_sha256: 2a729ec21313d4da60aa88fa99990da9bdacfb4309d0a450f89ade0f3cddc268
 ontap_region: Devon
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 28
-- Selected: 15
+- Records: 26
+- Selected: 12
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 11
+- Hard pass: 12
 
 ## SELECTED
-
----
-action: 
-SELECTED | Devon | Ivybridge, South West, PL21 9TF | £13.26 Hourly | Admin Assistant - Fixed Term
-employer: Woodlands Park Primary School
-closing_date: 2026-09-21T08:00:00+01:00
-reason: Clear admin/service title: admin assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 3230ee86c68675e02b0467cb9dbe5c77223a81693671f39bc65e4c6dad4beb81
-source: Teaching Vacancies
-source_job_id: admin-assistant-fixed-term
-source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-fixed-term
----
 
 ---
 action: 
@@ -83,21 +68,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-administra
 
 ---
 action: 
-SELECTED | Devon | Exeter, South West, EX2 6AP | £23,071.62 - £25,407.68 | Attendance Officer
-employer: Isca Academy
-closing_date: 2026-09-20T23:59:00+01:00
-reason: Clear admin/service title: attendance officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 82e5c3bf0f35cb242ccc7b8ca8e676705b95e6b813f0c8df895ec28fe08f05a9
-source: Teaching Vacancies
-source_job_id: attendance-officer-b4594263-9c2d-4e13-a32d-003ed85d148f
-source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-b4594263-9c2d-4e13-a32d-003ed85d148f
----
-
----
-action: 
 SELECTED | Devon | Exeter, South West, EX4 8NN | £27,709 - £30,515 | Business Administrator
 employer: St James School
 closing_date: 2026-09-28T23:59:00+01:00
@@ -109,21 +79,6 @@ factual_fingerprint: f4ed7cbed6020bce9882fdae5498f1b6e0215deeec2ad2728a9ead3f38d
 source: Teaching Vacancies
 source_job_id: business-administrator-d383ef29-c17f-437b-8271-918c1d87de9b
 source_url: https://teaching-vacancies.service.gov.uk/jobs/business-administrator-d383ef29-c17f-437b-8271-918c1d87de9b
----
-
----
-action: 
-SELECTED | Devon | Plymouth, PL4 8QZ | £26,824.00 - £29,540.00 Annually (FTE) | Estates Administrator
-employer: Learning Academies Trust
-closing_date: 2026-09-28T14:00:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 31dff5e21182b7f4bece290b4c9688b8bbc9cf48c21708088da6d829f272d4eb
-source: Teaching Vacancies
-source_job_id: estates-administrator-learning-academies-trust
-source_url: https://teaching-vacancies.service.gov.uk/jobs/estates-administrator-learning-academies-trust
 ---
 
 ---
@@ -289,12 +244,13 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-pupil-services
 - [Apprenticeship and PTSA Operations Coordinator](https://teaching-vacancies.service.gov.uk/jobs/apprenticeship-and-ptsa-operations-coordinator) — Insufficient admin/service evidence.
 - [Chief Financial Officer (CFO)](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-cfo-torquay-boys-grammar-school-torquay-devon) — Insufficient admin/service evidence.
 - [Cover Supervisor](https://teaching-vacancies.service.gov.uk/jobs/cover-supervisor-0263aaa9-e252-4340-b2d6-102751e90f65) — Insufficient admin/service evidence.
+- [Creative Performing Arts Administration Support Assistant](https://teaching-vacancies.service.gov.uk/jobs/creative-performing-arts-administration-support-assistant) — Insufficient admin/service evidence.
 - [Executive Assistant](https://teaching-vacancies.service.gov.uk/jobs/executive-assistant-blackpool-church-of-england-primary-school) — Insufficient admin/service evidence.
 - [Executive Assistant](https://teaching-vacancies.service.gov.uk/jobs/executive-assistant-chulmleigh-community-college) — Missing salary or pay scale.
-- [Finance and Contracts Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-and-contracts-officer) — Insufficient admin/service evidence.
 - [Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-dartmoor-multi-academy-trust) — Insufficient admin/service evidence.
 - [Finance Business Partner - Maternity Cover](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-maternity-cover) — Insufficient admin/service evidence.
 - [HR Assistant](https://teaching-vacancies.service.gov.uk/jobs/hr-assistant-cann-bridge-school) — Insufficient admin/service evidence.
+- [SEND Administration and Support](https://teaching-vacancies.service.gov.uk/jobs/send-administration-and-support) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

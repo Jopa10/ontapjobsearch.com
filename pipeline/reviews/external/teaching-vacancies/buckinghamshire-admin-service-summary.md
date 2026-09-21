@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Buckinghamshire
 
-review_date: 2026-09-20
-review_fingerprint: 7298562f23f0be27be383cb4ee66d6abdf391661c9093761ad146473e5343b95
-routing_manifest_sha256: 065adeebd098ac67bbd93ba5d404c793bd8bd10e570ed2e3401383dce52aeb45
+review_date: 2026-09-21
+review_fingerprint: dad629945b4eb33743d43b6b2becf6a36d269aee100338dc4c72c9370ba958b6
+routing_manifest_sha256: 2a729ec21313d4da60aa88fa99990da9bdacfb4309d0a450f89ade0f3cddc268
 ontap_region: Buckinghamshire
 slice_category: admin_service
 slice_status: LIVE
@@ -14,10 +14,10 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 14
-- Selected: 5
+- Selected: 7
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 9
+- Hard pass: 7
 
 ## SELECTED
 
@@ -53,6 +53,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-centre-administ
 
 ---
 action: 
+SELECTED | Buckinghamshire | Amersham, South East, HP7 9HH | Bucks Pay Range 2 - £23,666 pro rata / £26,522 FTE | Administration Assistant
+employer: Amersham School
+closing_date: 2026-09-25T23:59:00+01:00
+reason: Clear admin/service title: administration assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: dcc1f05a0f4ccd17372929c836e080ad9ce27c086bea3523ac406bfccd5ebff1
+source: Teaching Vacancies
+source_job_id: administration-assistant-amersham-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-amersham-school
+---
+
+---
+action: 
 SELECTED | Buckinghamshire | Milton Keynes, South East, MK6 5LP | Up to £26,884.00 per annum | Administrator - Prison Education - HMP Downview
 employer: Milton Keynes College
 closing_date: 2026-09-22T23:59:00+01:00
@@ -64,6 +79,21 @@ factual_fingerprint: d57094edaea195ae9f44ecc6fbe64f01f4ce426f354e1c636aca908ecf4
 source: Teaching Vacancies
 source_job_id: administrator-prison-education-hmp-downview
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-prison-education-hmp-downview
+---
+
+---
+action: 
+SELECTED | Buckinghamshire | Amersham, South East, HP7 9HH | Bucks Pay Range 3.16 £24,074 pro rata / £29,114 FTE | Attendance Officer
+employer: Amersham School
+closing_date: 2026-09-25T23:59:00+01:00
+reason: Clear admin/service title: attendance officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 67457aece2f661420afeef2e88ecf613d3ee9bf8e4755057aecc81b186354865
+source: Teaching Vacancies
+source_job_id: attendance-officer-amersham-school-amersham-buckinghamshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-amersham-school-amersham-buckinghamshire
 ---
 
 ---
@@ -106,13 +136,11 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 
 ## HARD_PASS
 
-- [Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-stanton-school) — Missing salary or pay scale.
 - [Chief Financial Officer (CFO)](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-cfo-45a5bd2d-645c-4812-81b2-869f779b8215) — Insufficient admin/service evidence.
 - [Data and Timetabling Manager](https://teaching-vacancies.service.gov.uk/jobs/data-and-timetabling-manager) — Manager title salary ceiling £35,669 is not below £28,000.
 - [Employee Relations Officer](https://teaching-vacancies.service.gov.uk/jobs/employee-relations-officer) — Insufficient admin/service evidence.
-- [HR & Training Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-training-officer) — Insufficient admin/service evidence.
 - [HR Officer Maternity Cover](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-maternity-cover-aylesbury-high-school) — Insufficient admin/service evidence.
-- [Lettings & Community Officer](https://teaching-vacancies.service.gov.uk/jobs/lettings-community-officer-5-dimensions-trust-milton-keynes-not-recorded) — Insufficient admin/service evidence.
+- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-the-aylesbury-vale-academy) — Manager title salary ceiling £36,975 is not below £28,000.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-112af158-1ad4-4dd9-88fb-3ab9c389f16b) — Manager title salary ceiling £47,181 is not below £28,000.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-alfriston-school) — Manager title salary ceiling £46,650 is not below £28,000.
 

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Lancashire - East
 
-review_date: 2026-09-20
-review_fingerprint: 7abea3ecd3263e82b9541733ac148cbc51c11f78657634f1c4a09444be288eec
-routing_manifest_sha256: 065adeebd098ac67bbd93ba5d404c793bd8bd10e570ed2e3401383dce52aeb45
+review_date: 2026-09-21
+review_fingerprint: 6fefcf67cf8ae05034c801807be7a06aba8b80f801a70859de0742b46c6ce83a
+routing_manifest_sha256: 2a729ec21313d4da60aa88fa99990da9bdacfb4309d0a450f89ade0f3cddc268
 ontap_region: Lancashire - East
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 7
-- Selected: 3
+- Records: 6
+- Selected: 2
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 3
 
 ## SELECTED
-
----
-action: 
-SELECTED | Lancashire - East | Burnley, North West, BB11 3DF | Grade 4 points 4 - 6 (£25,185 - £25,989) (actual pro-rata salary £20,863 - £21,529) | Business Support Officer
-employer: Unity College
-closing_date: 2026-09-28T09:00:00+01:00
-reason: Clear admin/service title: business support officer
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: 5924dfea475b371887bfb3020ac238e0f64610c9ac242152e0388c48bfa65d6d
-source: Teaching Vacancies
-source_job_id: business-support-officer-unity-college
-source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-officer-unity-college
----
 
 ---
 action: 

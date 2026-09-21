@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - North
 
-review_date: 2026-09-20
-review_fingerprint: b5170c548686cc612ccc4d950f06981652cd53daaf329dd7f5cfdfabc51aa8a3
-routing_manifest_sha256: 065adeebd098ac67bbd93ba5d404c793bd8bd10e570ed2e3401383dce52aeb45
+review_date: 2026-09-21
+review_fingerprint: b2f4e62f6b352928a3f38ee4b779eff2a0604a7b85b228127863e896d39fee93
+routing_manifest_sha256: 2a729ec21313d4da60aa88fa99990da9bdacfb4309d0a450f89ade0f3cddc268
 ontap_region: Yorkshire - North
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 5
-- Selected: 2
+- Records: 3
+- Selected: 1
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 3
+- Hard pass: 2
 
 ## SELECTED
 
@@ -36,21 +36,6 @@ source_job_id: attendance-administrator-archbishop-holgate-s-school-a-church-of-
 source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-administrator-archbishop-holgate-s-school-a-church-of-england-academy
 ---
 
----
-action: 
-SELECTED | Yorkshire - North | Scarborough, Yorkshire and the Humber, YO11 3LW | £13,968.00 - £15,135.00 Annually (Actual) Salary shown above is pro rata, based on an Full Time Equivalent of £26,824 to £29,064 (Grade F, Scale Points 8-13) | SEND Administrator
-employer: George Pindar School
-closing_date: 2026-09-20T23:59:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 2998730ede37915c13e191b05a25d74b2d5239b3ca4611f2107a1e3d13514bd7
-source: Teaching Vacancies
-source_job_id: send-administrator-george-pindar-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-george-pindar-school
----
-
 ## POSS — choose SELECT or EXCLUDE
 
 - None.
@@ -62,7 +47,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-ge
 ## HARD_PASS
 
 - [Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-joseph-rowntree-school-york-north-yorkshire) — Insufficient admin/service evidence.
-- [Hub Business Leader (Harrogate Hub)](https://teaching-vacancies.service.gov.uk/jobs/hub-business-leader-harrogate-hub) — Insufficient admin/service evidence.
 - [Human Resources Officer](https://teaching-vacancies.service.gov.uk/jobs/human-resources-officer-heartwood-learning-trust-york-not-recorded) — Insufficient admin/service evidence.
 
 ## Safety boundary

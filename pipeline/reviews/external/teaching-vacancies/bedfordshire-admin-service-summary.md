@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Bedfordshire
 
-review_date: 2026-09-20
+review_date: 2026-09-21
 review_fingerprint: a8f8aae8b8d5206538b0afb8b07b7cc9fabc8ed6dc3428cda25ec04712775557
-routing_manifest_sha256: 065adeebd098ac67bbd93ba5d404c793bd8bd10e570ed2e3401383dce52aeb45
+routing_manifest_sha256: 2a729ec21313d4da60aa88fa99990da9bdacfb4309d0a450f89ade0f3cddc268
 ontap_region: Bedfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -106,10 +106,10 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/governance-profession
 
 - [Business Manager](https://teaching-vacancies.service.gov.uk/jobs/business-manager-de16c660-42ff-448c-aed9-69dbe339a507) — Manager title salary ceiling £45,401 is not below £28,000.
 - [Clerical Assistant - Maternity Cover](https://teaching-vacancies.service.gov.uk/jobs/clerical-assistant-maternity-cover-icknield-primary-school-luton-bedfordshire) — Insufficient admin/service evidence.
-- [Finance Assistant - Purchase Ledger & Treasury](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-purchase-ledger-treasury) — Insufficient admin/service evidence.
 - [Financial Controller](https://teaching-vacancies.service.gov.uk/jobs/financial-controller-e5903e11-7297-4be8-a7c1-2e9280429c10) — Insufficient admin/service evidence.
 - [Officer Manager](https://teaching-vacancies.service.gov.uk/jobs/officer-manager-17efeac4-e980-48de-8ddc-1a2e769d02a2) — Manager title without salary evidence below £28,000.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-all-saints-academy-dunstable) — Manager title salary ceiling £44,253 is not below £28,000.
+- [School Office Manager](https://teaching-vacancies.service.gov.uk/jobs/school-office-manager-93a93028-4ad1-42a9-8df8-0c2cc9ddd27b) — Manager title without salary evidence below £28,000.
 
 ## Safety boundary
 

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Hertfordshire
 
-review_date: 2026-09-20
-review_fingerprint: f6c350c4a129b610d81a759342fc622b9df8affada69766fdce32a60663fae9b
-routing_manifest_sha256: 065adeebd098ac67bbd93ba5d404c793bd8bd10e570ed2e3401383dce52aeb45
+review_date: 2026-09-21
+review_fingerprint: 269ef8b095fc90bead356719a905fab0fbcd1262342a99257d747cea5b247971
+routing_manifest_sha256: 2a729ec21313d4da60aa88fa99990da9bdacfb4309d0a450f89ade0f3cddc268
 ontap_region: Hertfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 15
+- Records: 14
 - Selected: 7
-- POSS awaiting decision: 5
+- POSS awaiting decision: 4
 - Excluded: 0
 - Hard pass: 3
 
 ## SELECTED
-
----
-action: 
-SELECTED | Hertfordshire | Waltham Cross, East of England, EN7 5JS | £24,796.00 Annually (FTE) | Administration assistant
-employer: Woodside Primary School
-closing_date: 2026-09-21T12:00:00+01:00
-reason: Clear admin/service title: administration assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 61b108a03008b95e8d96472210f9cae77b848902de448cde0e91dd05eeb1e296
-source: Teaching Vacancies
-source_job_id: administration-assistant-woodside-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-woodside-primary-school
----
 
 ---
 action: 
@@ -126,6 +111,21 @@ source_job_id: finance-administrator-bassingbourn-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-administrator-bassingbourn-primary-school
 ---
 
+---
+action: 
+SELECTED | Hertfordshire | Stevenage, East of England, SG1 5BZ | £20,604.00 - £21,718.00 Annually (Actual) | Office Administrator
+employer: Larwood School
+closing_date: 2026-10-02T23:59:00+01:00
+reason: Clear admin/service title: administrator, office administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 24f16235cf52ba7217dfc92fcb615a53bb335656ea5da5abf9d398ab0745515b
+source: Teaching Vacancies
+source_job_id: office-administrator-larwood-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-larwood-school
+---
+
 ## POSS — choose SELECT or EXCLUDE
 
 ---
@@ -175,32 +175,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/governance-profession
 
 ---
 action: 
-POSS | Hertfordshire | Chorleywood, WD3 6EW | £29,540.00 Annually (FTE) | HR Advisor
-employer: Danes Educational Trust
-closing_date: 2026-09-21T09:00:00+01:00
+POSS | Hertfordshire | St Albans, East of England, AL4 0XB | £15,169.00 Annually (Actual) Plus fringe £425 | KS4 Pastoral and Administrative Support (H4)
+employer: Beaumont School
+closing_date: 2026-10-05T09:00:00+01:00
 reason: Administrative duties evidenced in description
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: ce94b82b05f2c48396c8b2de59fbf2fc5712ff8b393cc888ff6f48859120a742
+factual_fingerprint: c8d6bec738287ad99b8ca63eee61f7f18b30ce0710bccdbc59f1245d2efa3168
 source: Teaching Vacancies
-source_job_id: hr-advisor-8ec12506-6b2d-4ac4-88f7-d06bd2c562b5
-source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-advisor-8ec12506-6b2d-4ac4-88f7-d06bd2c562b5
----
-
----
-action: 
-POSS | Hertfordshire | Hemel Hempstead, East of England, HP1 2JU | £25,390.00 Annually (Actual) H5 or H6 pro rata (dependant on experience) | Office Manager
-employer: Oakleaf Primary
-closing_date: 2026-09-21T09:00:00+01:00
-reason: Manager title below £28,000 salary ceiling requires review
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 83d659f941852144683260c806603bce92e7ce2bb7d662633d256459683f3f36
-source: Teaching Vacancies
-source_job_id: office-manager-oakleaf-primary
-source_url: https://teaching-vacancies.service.gov.uk/jobs/office-manager-oakleaf-primary
+source_job_id: ks4-pastoral-and-administrative-support-h4
+source_url: https://teaching-vacancies.service.gov.uk/jobs/ks4-pastoral-and-administrative-support-h4
 ---
 
 ## EXCLUDED BY REVIEW

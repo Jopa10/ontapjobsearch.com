@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - South
 
-review_date: 2026-09-20
-review_fingerprint: c7b554474cc7ebf1d73672ee1f806938847a5756951429f12fc3a3f8f4a58eeb
-routing_manifest_sha256: 065adeebd098ac67bbd93ba5d404c793bd8bd10e570ed2e3401383dce52aeb45
+review_date: 2026-09-21
+review_fingerprint: 286a2b02382090ea215be59453c9ddfa141406b0cd608e216b379d9b7c672fb6
+routing_manifest_sha256: 2a729ec21313d4da60aa88fa99990da9bdacfb4309d0a450f89ade0f3cddc268
 ontap_region: Yorkshire - South
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 26
-- Selected: 6
+- Records: 17
+- Selected: 5
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 18
+- Hard pass: 10
 
 ## SELECTED
 
@@ -53,6 +53,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assist
 
 ---
 action: 
+SELECTED | Yorkshire - South | Sheffield, Yorkshire and the Humber, S5 0SD | £21933 - £22629 per annum | Attendance Admin Assistant
+employer: Lift Firth Park
+closing_date: 2026-10-05T08:17:55+01:00
+reason: Clear admin/service title: admin assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 05d99f80e89db3abaa42926eca564d5566a7a2a3f8b09cf13cebe9022650af42
+source: Teaching Vacancies
+source_job_id: attendance-admin-assistant-lift-firth-park
+source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-admin-assistant-lift-firth-park
+---
+
+---
+action: 
 SELECTED | Yorkshire - South | Sheffield, Yorkshire and the Humber, S20 1HQ | £34,237.00 - £38,510.00 Annually (FTE) Grade 6 SCP 21 to 26 (Actual salary £30,957 - £34,821) | Personal Assistant to Headteacher
 employer: Westfield School
 closing_date: 2026-09-24T23:59:00+01:00
@@ -68,21 +83,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/personal-assistant-to
 
 ---
 action: 
-SELECTED | Yorkshire - South | Sheffield, East Midlands, S21 4GN | £26,427.00 - £26,847.00 Annually (FTE) Grade 3 SCP 5 to 6 (Actual Salary £8,908 - £9,049) | Receptionist
-employer: Eckington School
-closing_date: 2026-09-20T23:59:00+01:00
-reason: Clear admin/service title: receptionist
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: b79a96fca9ed572c85fe969fccc79f67a72c7bf62f2d0094e83528c533c7d950
-source: Teaching Vacancies
-source_job_id: receptionist-458ac8b7-4b1a-49e5-9f6d-099164b8a6da
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-458ac8b7-4b1a-49e5-9f6d-099164b8a6da
----
-
----
-action: 
 SELECTED | Yorkshire - South | Rotherham, Yorkshire and the Humber, S63 7PQ | £13,358.00 - £13,567.00 Annually (Actual) Band C | Receptionist
 employer: Saint Pius X Catholic High School A Specialist School in Humanities
 closing_date: 2026-09-28T09:00:00+01:00
@@ -94,21 +94,6 @@ factual_fingerprint: b8651b06c7a079cd0a25abcc822a0f1c2c7c9020ab16b82e2d44c9a0585
 source: Teaching Vacancies
 source_job_id: receptionist-saint-pius-x-catholic-high-school-a-specialist-school-in-humanities
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-saint-pius-x-catholic-high-school-a-specialist-school-in-humanities
----
-
----
-action: 
-SELECTED | Yorkshire - South | Sheffield, Yorkshire and the Humber, S17 4FB | Grade 3 (£26,428 to £26,847) | Receptionist
-employer: Totley Primary School
-closing_date: 2026-09-20T23:59:59+01:00
-reason: Clear admin/service title: receptionist
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 69a2808b904d2a8fe98a35c178a70b9d9eda6cffb08ee7837fff6b2ddf7c666d
-source: Teaching Vacancies
-source_job_id: receptionist-totley-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-totley-primary-school
 ---
 
 ## POSS — choose SELECT or EXCLUDE
@@ -150,23 +135,15 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-office
 ## HARD_PASS
 
 - [Admin & Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/admin-finance-assistant-newman-school) — Insufficient admin/service evidence.
-- [Admin Officer](https://teaching-vacancies.service.gov.uk/jobs/admin-officer-meynell-nursery-primary-school) — Insufficient admin/service evidence.
 - [Admin Officer](https://teaching-vacancies.service.gov.uk/jobs/admin-officer-newman-school) — Insufficient admin/service evidence.
 - [Attendance and Admin Officer](https://teaching-vacancies.service.gov.uk/jobs/attendance-and-admin-officer-whiteways-primary-school) — Insufficient admin/service evidence.
 - [Chief Financial Officer](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-st-clare-catholic-multi-academy-trust) — Insufficient admin/service evidence.
-- [Cluster Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/cluster-finance-officer-inova-multi-academy-trust-limited) — Insufficient admin/service evidence.
-- [Data & Systems Manager](https://teaching-vacancies.service.gov.uk/jobs/data-systems-manager-st-francis-catholic-multi-academy-trust) — Manager title salary ceiling £50,269 is not below £28,000.
-- [Data and Systems Manager](https://teaching-vacancies.service.gov.uk/jobs/data-and-systems-manager-st-francis-catholic-multi-academy-trust) — Manager title salary ceiling £47,181 is not below £28,000.
-- [Data, Timetabler and Cover Manager](https://teaching-vacancies.service.gov.uk/jobs/data-timetabler-and-cover-manager) — Manager title salary ceiling £35,000 is not below £28,000.
-- [Executive Assistant](https://teaching-vacancies.service.gov.uk/jobs/executive-assistant-white-woods-primary-academy-trust) — Insufficient admin/service evidence.
 - [Finance & Admin Asst](https://teaching-vacancies.service.gov.uk/jobs/finance-admin-asst) — Insufficient admin/service evidence.
-- [Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-1f2087cb-6dd8-46fc-b9d0-a0638460aced) — Insufficient admin/service evidence.
-- [Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-57d3025b-f701-43b4-bf16-13498ff4c547) — Insufficient admin/service evidence.
 - [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-hatfield-woodhouse-primary-school-doncaster-south-yorkshire) — Insufficient admin/service evidence.
 - [Learning Manager](https://teaching-vacancies.service.gov.uk/jobs/learning-manager-0bfa4cca-872c-4778-a35f-1fb75b7f4503) — Manager title salary ceiling £36,581 is not below £28,000.
+- [Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/operations-manager-982c74fa-4963-48bf-be10-a1bcf0a4bf2f) — Manager title salary ceiling £39,773 is not below £28,000.
 - [Part-time Administrator](https://teaching-vacancies.service.gov.uk/jobs/part-time-administrator-woodhouse-west-primary-school-sheffield-south-yorkshire) — Missing salary or pay scale.
 - [Senior Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-administration-officer-kings-oak-primary) — Insufficient admin/service evidence.
-- [Sixth Form Engagement Officer](https://teaching-vacancies.service.gov.uk/jobs/sixth-form-engagement-officer) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

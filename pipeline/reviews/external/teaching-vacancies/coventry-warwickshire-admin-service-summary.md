@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Coventry & Warwickshire
 
-review_date: 2026-09-20
+review_date: 2026-09-21
 review_fingerprint: 2aec2f4c0e56922ae0d9650d99835a59d097fc6592174a70354ebeb41db42246
-routing_manifest_sha256: 065adeebd098ac67bbd93ba5d404c793bd8bd10e570ed2e3401383dce52aeb45
+routing_manifest_sha256: 2a729ec21313d4da60aa88fa99990da9bdacfb4309d0a450f89ade0f3cddc268
 ontap_region: West Midlands - Coventry & Warwickshire
 slice_category: admin_service
 slice_status: LIVE

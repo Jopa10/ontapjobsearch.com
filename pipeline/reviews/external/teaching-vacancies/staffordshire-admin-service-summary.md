@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Staffordshire
 
-review_date: 2026-09-20
-review_fingerprint: b9538a417982f3288ed1cb69e3ca3df2ec1ebf6e0cf9979c165b783cfc49bf85
-routing_manifest_sha256: 065adeebd098ac67bbd93ba5d404c793bd8bd10e570ed2e3401383dce52aeb45
+review_date: 2026-09-21
+review_fingerprint: 5fff45100cf2438974cc554702a833a7df6b33cce9c87640a7b05bc6011350dc
+routing_manifest_sha256: 2a729ec21313d4da60aa88fa99990da9bdacfb4309d0a450f89ade0f3cddc268
 ontap_region: Staffordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 10
-- Selected: 2
+- Records: 8
+- Selected: 3
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 8
+- Hard pass: 5
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Staffordshire | Cannock, West Midlands, WS11 1PD | £25,185.00 - £26,403.00 Annually (FTE) Monday to Friday (3 Hours per day) - pro rata, term time | Attendance Officer - Level 4
+employer: Longford Primary Academy
+closing_date: 2026-10-08T23:59:00+01:00
+reason: Clear admin/service title: attendance officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 6f08d5e7a292e06e10c2be0378b60c47fcd7924ece170c196cfc86e9120f4721
+source: Teaching Vacancies
+source_job_id: attendance-officer-level-4-longford-primary-academy-cannock-staffordshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-level-4-longford-primary-academy-cannock-staffordshire
+---
 
 ---
 action: 
@@ -63,12 +78,9 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-and-admi
 
 - [Cover Supervisor](https://teaching-vacancies.service.gov.uk/jobs/cover-supervisor-1b712634-857b-405e-a4de-a196344ada05) — Insufficient admin/service evidence.
 - [Deputy Chief Executive Officer - Finance and Operations](https://teaching-vacancies.service.gov.uk/jobs/deputy-chief-executive-officer-finance-and-operations) — Insufficient admin/service evidence.
-- [Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-the-shaw-education-trust) — Insufficient admin/service evidence.
 - [Finance Assistant (SBMAT) - Level 4](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-sbmat-level-4) — Insufficient admin/service evidence.
 - [Management Accountant](https://teaching-vacancies.service.gov.uk/jobs/management-accountant-discovery-academy-stoke-on-trent-staffordshire) — Insufficient admin/service evidence.
-- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-5c20c15e-9ea0-4341-b9c5-ba119bab985a) — Manager title salary ceiling £39,152 is not below £28,000.
 - [Senior Administration and Finance Assistant - Level 5](https://teaching-vacancies.service.gov.uk/jobs/senior-administration-and-finance-assistant-level-5) — Insufficient admin/service evidence.
-- [Student Support and Attendance](https://teaching-vacancies.service.gov.uk/jobs/student-support-and-attendance) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

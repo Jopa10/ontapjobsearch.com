@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Oxfordshire
 
-review_date: 2026-09-20
-review_fingerprint: 6f40f1f6537928c40c5ef1781ca70cae3e85ea608cc553071e250f45a2cb7ae1
-routing_manifest_sha256: 065adeebd098ac67bbd93ba5d404c793bd8bd10e570ed2e3401383dce52aeb45
+review_date: 2026-09-21
+review_fingerprint: b653f94e3e4e09515427e9ce6a3ebcf34f8eb054e6a6074bfc1d948d5aca5374
+routing_manifest_sha256: 2a729ec21313d4da60aa88fa99990da9bdacfb4309d0a450f89ade0f3cddc268
 ontap_region: Oxfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 19
+- Records: 18
 - Selected: 9
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 10
+- Hard pass: 9
 
 ## SELECTED
 
@@ -64,21 +64,6 @@ factual_fingerprint: eccc62bee15fe31a212fcf00ccad2e1ba80631b03653f977460d45b6f97
 source: Teaching Vacancies
 source_job_id: administrative-assistant-chalgrove-community-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-chalgrove-community-primary-school
----
-
----
-action: 
-SELECTED | Oxfordshire | Wallingford, South East, OX10 8HH | £27,182.00 - £29,014.00 Annually (Actual) | Attendance Officer
-employer: Wallingford School
-closing_date: 2026-09-21T10:00:00+01:00
-reason: Clear admin/service title: attendance officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 71f420aeacdbb4e37d5e43232bf0f1017a386b5022089e8aabcbd7be51d9693e
-source: Teaching Vacancies
-source_job_id: attendance-officer-wallingford-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-wallingford-school
 ---
 
 ---
@@ -143,6 +128,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/procurement-administr
 
 ---
 action: 
+SELECTED | Oxfordshire | Faringdon, South East, SN7 7LB | £26,016.00 - £26,427.00 Annually (FTE) Support Staff NJC grade 4, SCP 4-5. 37 hours per week/38 weeks per year. Actual annual salary in the region of £21,813 to £22,158 | Receptionist
+employer: Faringdon Community College
+closing_date: 2026-10-12T12:00:00+01:00
+reason: Clear admin/service title: receptionist
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: d1e3275e899e37b67b6b34fa51c56fcd6a16ccae0b9b9b1ed695cc0f7e54eea6
+source: Teaching Vacancies
+source_job_id: receptionist-edf1f45d-c1c2-4efe-8319-033977840917
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-edf1f45d-c1c2-4efe-8319-033977840917
+---
+
+---
+action: 
 SELECTED | Oxfordshire | Oxford, South East, OX3 7QH | £22,697.23 - £24,593.46 Annually (Actual) (FTE £26,824 - £29,065) | Student Receptionist and Pastoral Assistant
 employer: Cheney School
 closing_date: 2026-09-25T08:00:00+01:00
@@ -170,7 +170,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/student-receptionist-
 - [Chief Financial Officer (Part Time)](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-part-time-abingdon-learning-trust) — Insufficient admin/service evidence.
 - [Chief Operating Officer](https://teaching-vacancies.service.gov.uk/jobs/chief-operating-officer-oxford-diocesan-schools-trust-wantage-not-recorded) — Insufficient admin/service evidence.
 - [Cover Manager](https://teaching-vacancies.service.gov.uk/jobs/cover-manager-gillotts-school) — Manager title salary ceiling £29,065 is not below £28,000.
-- [Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-24437cdc-05bf-4102-bc88-8beac49a5637) — Insufficient admin/service evidence.
 - [HR Partner](https://teaching-vacancies.service.gov.uk/jobs/hr-partner-oxford-diocesan-bucks-schools-trust) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-heyford-park-school) — Manager title salary ceiling £31,022 is not below £28,000.
 - [Procurement Contract Performance Manager *Hybrid Role*](https://teaching-vacancies.service.gov.uk/jobs/procurement-contract-performance-manager-hybrid-role) — Manager title salary ceiling £55,225 is not below £28,000.

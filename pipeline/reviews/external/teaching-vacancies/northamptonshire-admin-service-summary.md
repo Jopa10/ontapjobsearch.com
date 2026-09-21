@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Northamptonshire
 
-review_date: 2026-09-20
-review_fingerprint: babf54fc2a4d126305bb9d30e70bc5b95aa3a7ff01a7fa9311c015130c23eaec
-routing_manifest_sha256: 065adeebd098ac67bbd93ba5d404c793bd8bd10e570ed2e3401383dce52aeb45
+review_date: 2026-09-21
+review_fingerprint: 7d610ea548b57febd89ddaec126e9783615340d3c4813aab65373e34daf4913f
+routing_manifest_sha256: 2a729ec21313d4da60aa88fa99990da9bdacfb4309d0a450f89ade0f3cddc268
 ontap_region: Northamptonshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,27 +13,72 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 8
-- Selected: 1
+- Records: 10
+- Selected: 4
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 7
+- Hard pass: 6
 
 ## SELECTED
 
 ---
 action: 
-SELECTED | Northamptonshire | Corby, East Midlands, NN17 3DB | £6,064.00 Annually (FTE) BWT Grade 2. FTE salary is £26,121 | Administrative Assistant
-employer: Gretton Primary Academy
-closing_date: 2026-09-20T23:59:00+01:00
-reason: Clear admin/service title: administrative assistant
+SELECTED | Northamptonshire | Wellingborough, East Midlands, NN29 7PH | NJC Grade D, points 3-4 | Front of House Receptionist
+employer: Wollaston School
+closing_date: 2026-10-09T12:00:00+01:00
+reason: Clear admin/service title: receptionist
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: c9b04b9a59a3dd4d4c159a12854be55226913c9433cce54e0a31aeaa476d35ba
+factual_fingerprint: 2c4d1147356825c6b01ffc1e734d7dbee8a9f11b41c659bc7a7094d4e42038a7
 source: Teaching Vacancies
-source_job_id: administrative-assistant-gretton-primary-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-gretton-primary-academy
+source_job_id: front-of-house-receptionist-wollaston-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/front-of-house-receptionist-wollaston-school
+---
+
+---
+action: 
+SELECTED | Northamptonshire | Corby, East Midlands, NN17 5EB | £27,514.00 Annually (Actual) | Operations Administrator
+employer: Corby Business Academy
+closing_date: 2026-09-25T15:00:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: de27ad7fb26521e387e272efa4e7477a45d49819168c4acb383a3b3f92067767
+source: Teaching Vacancies
+source_job_id: operations-administrator-corby-business-academy-corby-northamptonshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/operations-administrator-corby-business-academy-corby-northamptonshire
+---
+
+---
+action: 
+SELECTED | Northamptonshire | Northampton, East Midlands, NN3 6DW | £25,614.00 - £26,016.00 Annually (FTE) ACTUAL SALARY £8,931 per year | Receptionist/Admin Assistant
+employer: Parklands Nursery School
+closing_date: 2026-10-02T23:59:00+01:00
+reason: Clear admin/service title: admin assistant, receptionist
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: e9e02b90baf635e357fb2fbb858efe845d67871041555b0571be06653184a511
+source: Teaching Vacancies
+source_job_id: receptionist-admin-assistant-parklands-nursery-school-northampton-northamptonshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-admin-assistant-parklands-nursery-school-northampton-northamptonshire
+---
+
+---
+action: 
+SELECTED | Northamptonshire | Northampton, East Midlands, NN2 7RR | £24,796.00 Annually (FTE) | Receptionist/Administrator
+employer: Green Oaks Primary Academy
+closing_date: 2026-09-30T23:59:00+01:00
+reason: Clear admin/service title: administrator, receptionist
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 1770e7735ea104ea6cdaed945191b98807b60d6a48b696c3d632635188c60d0a
+source: Teaching Vacancies
+source_job_id: receptionist-administrator-green-oaks-primary-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrator-green-oaks-primary-academy
 ---
 
 ## POSS — choose SELECT or EXCLUDE
@@ -49,7 +94,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assist
 - [Exams Office Manager](https://teaching-vacancies.service.gov.uk/jobs/exams-office-manager-bishop-stopford-school) — Manager title salary ceiling £33,699 is not below £28,000.
 - [Executive Assistant](https://teaching-vacancies.service.gov.uk/jobs/executive-assistant-sir-christopher-hatton-academy) — Insufficient admin/service evidence.
 - [Finance and HR Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-and-hr-assistant) — Insufficient admin/service evidence.
-- [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-moulton-school-and-science-college) — Insufficient admin/service evidence.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-south-end-infant-school) — Manager title salary ceiling £37,280 is not below £28,000.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-woodland-view-primary-school-northampton-northamptonshire) — Manager title salary ceiling £48,738 is not below £28,000.
 - [St James Infant and Pre School Business Partner](https://teaching-vacancies.service.gov.uk/jobs/st-james-infant-and-pre-school-business-partner-inmat-northampton-not-recorded) — Insufficient admin/service evidence.

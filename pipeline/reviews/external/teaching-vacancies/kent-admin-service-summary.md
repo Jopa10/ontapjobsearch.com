@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Kent
 
-review_date: 2026-09-20
+review_date: 2026-09-21
 review_fingerprint: ca389d00347800c40ce9ed5e078b5916c406a373bd02718146b660f7e1f380e2
-routing_manifest_sha256: 065adeebd098ac67bbd93ba5d404c793bd8bd10e570ed2e3401383dce52aeb45
+routing_manifest_sha256: 2a729ec21313d4da60aa88fa99990da9bdacfb4309d0a450f89ade0f3cddc268
 ontap_region: Kent
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 13
+- Records: 11
 - Selected: 6
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 7
+- Hard pass: 5
 
 ## SELECTED
 
@@ -121,13 +121,11 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-receptionist-a
 
 ## HARD_PASS
 
-- [Attendance and Family Liaison Officer](https://teaching-vacancies.service.gov.uk/jobs/attendance-and-family-liaison-officer-will-adams-academy) — Insufficient admin/service evidence.
 - [Attendance Manager](https://teaching-vacancies.service.gov.uk/jobs/attendance-manager-thomas-knyvett-college) — Manager title salary ceiling £34,547 is not below £28,000.
 - [Exams and Data Assistant](https://teaching-vacancies.service.gov.uk/jobs/exams-and-data-assistant-the-north-school) — Insufficient admin/service evidence.
-- [Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-the-thinking-schools-academy-trust) — Insufficient admin/service evidence.
+- [Financial Analyst](https://teaching-vacancies.service.gov.uk/jobs/financial-analyst-the-norton-knatchbull-school) — Insufficient admin/service evidence.
 - [HR Apprentice](https://teaching-vacancies.service.gov.uk/jobs/hr-apprentice-04c6c700-00de-4ef8-b87e-13fad8c8e4b3) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-staplehurst-school) — Manager title salary ceiling £29,020 is not below £28,000.
-- [People & Culture Manager](https://teaching-vacancies.service.gov.uk/jobs/people-culture-manager) — Manager title salary ceiling £53,446 is not below £28,000.
 
 ## Safety boundary
 

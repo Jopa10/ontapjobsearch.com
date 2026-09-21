@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Dorset
 
-review_date: 2026-09-20
-review_fingerprint: a7eff3c7a8b1da30ca63c6fc5bcc35dd63b5003c426453263504de2715420f2f
-routing_manifest_sha256: 065adeebd098ac67bbd93ba5d404c793bd8bd10e570ed2e3401383dce52aeb45
+review_date: 2026-09-21
+review_fingerprint: d7acf51b330d79514e0a9c501268c3b88775cfbe1f2b7749dfaccae13b1ee466
+routing_manifest_sha256: 2a729ec21313d4da60aa88fa99990da9bdacfb4309d0a450f89ade0f3cddc268
 ontap_region: Dorset
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 4
-- Selected: 2
+- Records: 3
+- Selected: 1
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 1
 
 ## SELECTED
-
----
-action: 
-SELECTED | Dorset | Bournemouth, South West, BH8 9PY | BS Grade 6, point 6-9 (£22,229 to £23,311 (actual salary) per annum pro-rated) | Administrator (Sixth Form Study Centre)
-employer: Bournemouth School
-closing_date: 2026-09-21T09:00:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: ad1b4ec2d96614ab3f34d6d240a42db92c96be59a29c5499028d2cbfe76550a8
-source: Teaching Vacancies
-source_job_id: administrator-sixth-form-study-centre-3a398641-1a04-436d-8d95-d6c3dd1d9ae1
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-sixth-form-study-centre-3a398641-1a04-436d-8d95-d6c3dd1d9ae1
----
 
 ---
 action: 
@@ -74,7 +59,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/data-manager-parkston
 
 ## HARD_PASS
 
-- [Student Welfare Assistant](https://teaching-vacancies.service.gov.uk/jobs/student-welfare-assistant-poole-high-school) — Insufficient admin/service evidence.
+- [School Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/school-finance-manager-3595b4c3-74ce-4320-b9c0-0bd97114cef9) — Manager title salary ceiling £41,177 is not below £28,000.
 
 ## Safety boundary
 

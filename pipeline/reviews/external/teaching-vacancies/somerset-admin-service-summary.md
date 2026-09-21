@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Somerset
 
-review_date: 2026-09-20
-review_fingerprint: 6f6cefe88d2ba81f2dbdd69f0017ee2538b27780fb388e8eae61b0961894bbc1
-routing_manifest_sha256: 065adeebd098ac67bbd93ba5d404c793bd8bd10e570ed2e3401383dce52aeb45
+review_date: 2026-09-21
+review_fingerprint: b29fdf9cf8c57bde7c78b51600e93801a37f327b28fcfc15d55cc070e0a0fcd0
+routing_manifest_sha256: 2a729ec21313d4da60aa88fa99990da9bdacfb4309d0a450f89ade0f3cddc268
 ontap_region: Somerset
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 16
-- Selected: 9
+- Records: 14
+- Selected: 8
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 6
+- Hard pass: 5
 
 ## SELECTED
 
@@ -38,17 +38,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-st-vi
 
 ---
 action: 
-SELECTED | Somerset | Weston-super-Mare, South West, BS23 3QP | £4,651 - £5,069 | Administration Assistant Level 1 - Receptionist
-employer: Hans Price Academy
-closing_date: 2026-09-20T23:59:59+01:00
-reason: Clear admin/service title: receptionist, administration assistant
+SELECTED | Somerset | Taunton, South West, TA1 5AU | £26,016 | Admin Assistant
+employer: The Castle School
+closing_date: 2026-10-06T09:00:00+01:00
+reason: Clear admin/service title: admin assistant
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 8e5096438e7e47b79c791518e5ccc9d7573f780d995dc15726f559a7f009cf4d
+factual_fingerprint: 1c3878457dd7f77795e05ddfe67a2ee6a28549898e5c9674b37510655ebef21b
 source: Teaching Vacancies
-source_job_id: administration-assistant-level-1-receptionist-hans-price-academy-weston-super-mare-somerset
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-level-1-receptionist-hans-price-academy-weston-super-mare-somerset
+source_job_id: admin-assistant-the-castle-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-the-castle-school
 ---
 
 ---
@@ -94,21 +94,6 @@ factual_fingerprint: 005e2f2913b6a10686f74afbdc7b8984e70f702d4a2573125a9b97b7c1f
 source: Teaching Vacancies
 source_job_id: business-support-and-compliance-administrator-part-time
 source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-and-compliance-administrator-part-time
----
-
----
-action: 
-SELECTED | Somerset | Cheddar, South West, BS27 3AQ | Grade 11 £32597 - £36363 per annum pro rata, Actual Starting Salary £29272 | HR Officer/PA to Headteacher
-employer: The Kings of Wessex Academy
-closing_date: 2026-09-21T08:00:00+01:00
-reason: Clear admin/service title: pa to
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 43143cb941e8aa118a946d6c2e8c047e14b03789fe29754fc722b86bacf71ce5
-source: Teaching Vacancies
-source_job_id: hr-officer-pa-to-headteacher-541f73d7-6e1e-4a33-924f-61b63d3822dd
-source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-officer-pa-to-headteacher-541f73d7-6e1e-4a33-924f-61b63d3822dd
 ---
 
 ---
@@ -180,7 +165,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-support-of
 ## HARD_PASS
 
 - [Apprentice Workplace Reviewer](https://teaching-vacancies.service.gov.uk/jobs/apprentice-workplace-reviewer) — Insufficient admin/service evidence.
-- [Exams, Data Insights and Systems Manager](https://teaching-vacancies.service.gov.uk/jobs/exams-data-insights-and-systems-manager) — Manager title salary ceiling £33,478 is not below £28,000.
 - [Finance Business Partner - Projects and Costings](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-projects-and-costings) — Insufficient admin/service evidence.
 - [Primary Assistant Headteacher Behaviour and Personal Development](https://teaching-vacancies.service.gov.uk/jobs/primary-assistant-headteacher-behaviour-and-personal-development) — Out-of-scope occupation: teacher, headteacher.
 - [Project and Executive Support Officer - Part Time](https://teaching-vacancies.service.gov.uk/jobs/project-and-executive-support-officer-part-time) — Insufficient admin/service evidence.

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cheshire - East
 
-review_date: 2026-09-20
-review_fingerprint: 4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945
-routing_manifest_sha256: 065adeebd098ac67bbd93ba5d404c793bd8bd10e570ed2e3401383dce52aeb45
+review_date: 2026-09-21
+review_fingerprint: 9a6f1d7d3642d0daa682289281a25d46b41efad033b0d9f864aa47fbfbeeef9a
+routing_manifest_sha256: 2a729ec21313d4da60aa88fa99990da9bdacfb4309d0a450f89ade0f3cddc268
 ontap_region: Cheshire - East
 slice_category: admin_service
 slice_status: LIVE
@@ -13,15 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 3
-- Selected: 0
+- Records: 4
+- Selected: 1
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 3
 
 ## SELECTED
 
-- None.
+---
+action: 
+SELECTED | Cheshire - East | Macclesfield, North West, SK10 4AF | £20,059.00 - £21,381.00 Annually (Actual) NJC Grade 5, SCP 7-11 | Sixth Form Administrator
+employer: The Fallibroome Academy
+closing_date: 2026-10-05T12:00:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 0ce132cb9b08ca74c387ad378c0dad0744e3e77e334702e71bf960cda7892e6d
+source: Teaching Vacancies
+source_job_id: sixth-form-administrator-the-fallibroome-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/sixth-form-administrator-the-fallibroome-academy
+---
 
 ## POSS — choose SELECT or EXCLUDE
 

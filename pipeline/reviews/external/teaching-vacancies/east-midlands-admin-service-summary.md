@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — East Midlands
 
-review_date: 2026-09-20
-review_fingerprint: 9d1e13425addfd1637f2391044947cbfd354619268be54952ca42f5df893f36f
-routing_manifest_sha256: 065adeebd098ac67bbd93ba5d404c793bd8bd10e570ed2e3401383dce52aeb45
+review_date: 2026-09-21
+review_fingerprint: e3588439f62996915bc2131222b79194ac9c4a28ae0692e172bc9096b40a9da2
+routing_manifest_sha256: 2a729ec21313d4da60aa88fa99990da9bdacfb4309d0a450f89ade0f3cddc268
 ontap_region: East Midlands
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 8
-- Selected: 2
+- Records: 7
+- Selected: 1
 - POSS awaiting decision: 3
 - Excluded: 0
 - Hard pass: 3
 
 ## SELECTED
-
----
-action: 
-SELECTED | East Midlands | Hinckley, East Midlands, LE10 1LE | Apprenticeship rate in line with Trust policy | APPRENTICE ADMINISTRATOR – THE HINCKLEY SCHOOL
-employer: The Hinckley School
-closing_date: 2026-09-20T23:59:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: f783293759ee73171c49ac5cca28b138c8a8adf26628536570d67074f8595841
-source: Teaching Vacancies
-source_job_id: apprentice-administrator-the-hinckley-school-the-hinckley-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/apprentice-administrator-the-hinckley-school-the-hinckley-school
----
 
 ---
 action: 

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Sussex
 
-review_date: 2026-09-20
-review_fingerprint: 409e5a468616d1ae420ea8a81c24026e511a746dcbbf29180787077aa4404ccf
-routing_manifest_sha256: 065adeebd098ac67bbd93ba5d404c793bd8bd10e570ed2e3401383dce52aeb45
+review_date: 2026-09-21
+review_fingerprint: 10495d0d9b3a4dfabff8646460caea77475f56a4d1c77d6bde9047d579b78436
+routing_manifest_sha256: 2a729ec21313d4da60aa88fa99990da9bdacfb4309d0a450f89ade0f3cddc268
 ontap_region: Sussex
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 7
-- Selected: 5
+- Records: 4
+- Selected: 3
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 1
+- Hard pass: 0
 
 ## SELECTED
 
@@ -66,36 +66,6 @@ source_job_id: receptionist-administrator-brantridge-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrator-brantridge-school
 ---
 
----
-action: 
-SELECTED | Sussex | Littlehampton, South East, BN16 4JR | FTE NJC Grade 5/6 (£26,402.69 - £28,597.75) | School Secretary/Administrative Assistant
-employer: St Wilfrids Catholic Primary School
-closing_date: 2026-09-21T09:00:59+01:00
-reason: Clear admin/service title: administrative assistant, school secretary, secretary
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 014388469c0b65bdb509a31d233186293c9345c7b2d95a9837274a8fa53a1e86
-source: Teaching Vacancies
-source_job_id: school-secretary-administrative-assistant
-source_url: https://teaching-vacancies.service.gov.uk/jobs/school-secretary-administrative-assistant
----
-
----
-action: 
-SELECTED | Sussex | Bexhill-on-Sea, South East, TN39 4BY | NJC scale 4 point 7-11 £26,403 - £28,142 per annum, pro rata (actual salary £22950.30– £24461.89 per annum) | Year 9 Administrative Assistant including Year 10 work experience
-employer: Bexhill High Academy
-closing_date: 2026-09-21T09:00:00+01:00
-reason: Clear admin/service title: administrative assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 6417a2c7539825a72442bc69563e6fca263c1d3b167c981a2c855cf9f57016a5
-source: Teaching Vacancies
-source_job_id: year-9-administrative-assistant-including-year-10-work-experience
-source_url: https://teaching-vacancies.service.gov.uk/jobs/year-9-administrative-assistant-including-year-10-work-experience
----
-
 ## POSS — choose SELECT or EXCLUDE
 
 ---
@@ -119,7 +89,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-manager-southg
 
 ## HARD_PASS
 
-- [Trust Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/trust-finance-manager-durrington-multi-academy-trust) — Manager title without salary evidence below £28,000.
+- None.
 
 ## Safety boundary
 
