@@ -1,4 +1,5 @@
 export const ANALYTICS_MEASUREMENT_ID = "G-XLJL0PXJ0V";
+export const ANALYTICS_READY_EVENT = "ontap:analytics-ready";
 
 const AUTOMATION_USER_AGENT =
   /(?:bot\b|crawler|spider|slurp|headlesschrome|phantomjs|selenium|playwright|puppeteer|facebookexternalhit|linkedinbot|discordbot|whatsapp)/i;

@@ -1,11 +1,13 @@
 # Ontap System Overview
 
-**Last updated:** 18 September 2026
-**Status:** Canonical production state, reconciled on 18 September against the live slice register, city-page register and scheduled workflow definitions.
+**Last updated:** 21 September 2026
+**Status:** Canonical production state, reconciled on 21 September against the live slice register, city-page register and scheduled workflow definitions.
 
 This is the short owner view of how Ontap is organised. It mirrors the five canonical system buckets in `SYSTEM_MAP.md`.
 
 ## Recent canonical changes
+
+- 21 September 2026 — **Location analytics now separates permission, position, timeout and nearby-service failures:** early saved-location return events wait until GA4 is ready, manual fallback attempts are visible, and remembered-location refresh failures are measured without exposing towns or coordinates.
 
 - 18 September 2026 — **Governance currency audit completed:** current-state sections now match the 78-market × eight-family diagnostic process, the 126 LIVE regional/category rows in the slice register, the 54 active governed city routes and the actual JobG8 schedule. Older launch counts remain only where clearly labelled as dated history. The repository README now points developers to the real production architecture rather than the superseded database-first prototype.
 

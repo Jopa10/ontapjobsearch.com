@@ -3,6 +3,7 @@
 import { useEffect } from "react";
 import {
   ANALYTICS_MEASUREMENT_ID,
+  ANALYTICS_READY_EVENT,
   daysBetween,
   hasCampaignParameters,
   isLikelyAutomation,
@@ -65,6 +66,7 @@ export default function Analytics() {
     const gtag = analyticsWindow.gtag;
     gtag("js", new Date());
     gtag("config", ANALYTICS_MEASUREMENT_ID);
+    window.dispatchEvent(new Event(ANALYTICS_READY_EVENT));
 
     const script = document.createElement("script");
     script.async = true;

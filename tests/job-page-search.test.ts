@@ -65,6 +65,16 @@ test("saved locations render immediately while their count refreshes in the back
   assert.match(savedLocationJobs, /JSON\.stringify\(\{[\s\S]*?\.\.\.data\.location,[\s\S]*?count: data\.count,[\s\S]*?savedAt:/);
   assert.match(savedLocationJobs, /trackNearbyEvent\("saved_location_return"/);
   assert.match(savedLocationJobs, /trackNearbyEvent\("saved_location_results_loaded"/);
+  assert.match(savedLocationJobs, /trackNearbyEvent\("saved_location_refresh_failure"/);
+  assert.match(savedLocationJobs, /ANALYTICS_READY_EVENT/);
+});
+
+test("nearby location tracking identifies where unsuccessful attempts stop", () => {
+  assert.match(savedLocationJobs, /trackNearbyEvent\("nearby_location_failure"/);
+  assert.match(savedLocationJobs, /failure_stage: "geolocation"/);
+  assert.match(savedLocationJobs, /failure_stage: "nearby_api"/);
+  assert.match(savedLocationJobs, /failure_reason: failureReason/);
+  assert.match(savedLocationJobs, /trackNearbyEvent\("nearby_manual_location_submit"/);
 });
 
 test("nearby searches without a role return the full nearby inventory", () => {

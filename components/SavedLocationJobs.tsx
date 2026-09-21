@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { FormEvent, useEffect, useState } from "react";
 import styles from "@/components/SavedLocationJobs.module.css";
+import { ANALYTICS_READY_EVENT } from "@/lib/analytics-client";
 
 const STORAGE_KEY = "ontap.saved-location.v1";
 const LOCATION_EVENT = "ontap:saved-location-jobs";
@@ -33,20 +34,30 @@ function trackNearbyEvent(
   eventName:
     | "nearby_location_click"
     | "nearby_location_success"
+    | "nearby_location_failure"
+    | "nearby_manual_location_submit"
     | "nearby_results_click"
     | "saved_location_return"
-    | "saved_location_results_loaded",
+    | "saved_location_results_loaded"
+    | "saved_location_refresh_failure",
   jobId: string | undefined,
   parameters: Record<string, string | number> = {},
 ) {
   const gtag = (window as Window & { gtag?: (...args: unknown[]) => void }).gtag;
-  if (typeof gtag !== "function") return;
-
-  gtag("event", eventName, {
+  const eventParameters = {
     page_context: jobId ? "job_detail" : "homepage",
     page_path: window.location.pathname,
     ...parameters,
-  });
+  };
+  if (typeof gtag === "function") {
+    gtag("event", eventName, eventParameters);
+    return;
+  }
+
+  window.addEventListener(ANALYTICS_READY_EVENT, () => {
+    const readyGtag = (window as Window & { gtag?: (...args: unknown[]) => void }).gtag;
+    readyGtag?.("event", eventName, eventParameters);
+  }, { once: true });
 }
 
 function readSavedLocation(): SavedLocationPreference | undefined {
@@ -93,6 +104,8 @@ export default function SavedLocationJobs({ jobId }: { jobId?: string }) {
       setStatus("loading");
       setMessage("");
     }
+    let failureReason = "request_error";
+    let httpStatus: number | undefined;
     try {
       const response = await fetch("/api/jobs/nearby", {
         method: "POST",
@@ -100,7 +113,11 @@ export default function SavedLocationJobs({ jobId }: { jobId?: string }) {
         body: JSON.stringify({ ...payload, jobId }),
       });
       const data = await response.json() as NearbyResponse;
-      if (!response.ok) throw new Error(data.error || "Location lookup failed.");
+      if (!response.ok) {
+        failureReason = "api_response_error";
+        httpStatus = response.status;
+        throw new Error(data.error || "Location lookup failed.");
+      }
       const existingPreference = method === "saved" ? readSavedLocation() : undefined;
       localStorage.setItem(STORAGE_KEY, JSON.stringify({
         ...data.location,
@@ -135,7 +152,19 @@ export default function SavedLocationJobs({ jobId }: { jobId?: string }) {
         });
       }
     } catch (error) {
-      if (method === "saved") return;
+      if (method === "saved") {
+        trackNearbyEvent("saved_location_refresh_failure", jobId, {
+          failure_reason: failureReason,
+          ...(httpStatus === undefined ? {} : { http_status: httpStatus }),
+        });
+        return;
+      }
+      trackNearbyEvent("nearby_location_failure", jobId, {
+        location_method: method,
+        failure_stage: "nearby_api",
+        failure_reason: failureReason,
+        ...(httpStatus === undefined ? {} : { http_status: httpStatus }),
+      });
       setStatus("error");
       setMessage(error instanceof Error ? error.message : "Location lookup failed.");
       setShowManual(true);
@@ -167,6 +196,11 @@ export default function SavedLocationJobs({ jobId }: { jobId?: string }) {
   function useMyLocation() {
     trackNearbyEvent("nearby_location_click", jobId, { location_method: "geolocation" });
     if (!navigator.geolocation) {
+      trackNearbyEvent("nearby_location_failure", jobId, {
+        location_method: "geolocation",
+        failure_stage: "browser_support",
+        failure_reason: "unsupported",
+      });
       setStatus("error");
       setMessage("Location is not available in this browser.");
       setShowManual(true);
@@ -175,7 +209,19 @@ export default function SavedLocationJobs({ jobId }: { jobId?: string }) {
     setStatus("loading");
     navigator.geolocation.getCurrentPosition(
       ({ coords }) => void lookup({ latitude: coords.latitude, longitude: coords.longitude }, "geolocation"),
-      () => {
+      (error) => {
+        const failureReason = error.code === error.PERMISSION_DENIED
+          ? "permission_denied"
+          : error.code === error.POSITION_UNAVAILABLE
+            ? "position_unavailable"
+            : error.code === error.TIMEOUT
+              ? "timeout"
+              : "unknown";
+        trackNearbyEvent("nearby_location_failure", jobId, {
+          location_method: "geolocation",
+          failure_stage: "geolocation",
+          failure_reason: failureReason,
+        });
         setStatus("error");
         setMessage("Location permission was not granted. Enter a town instead.");
         setShowManual(true);
@@ -188,7 +234,10 @@ export default function SavedLocationJobs({ jobId }: { jobId?: string }) {
     event.preventDefault();
     const form = new FormData(event.currentTarget);
     const town = String(form.get("town") ?? "").trim();
-    if (town) void lookup({ location: town }, "manual");
+    if (town) {
+      trackNearbyEvent("nearby_manual_location_submit", jobId, { location_method: "manual" });
+      void lookup({ location: town }, "manual");
+    }
   }
 
   function clearLocation() {

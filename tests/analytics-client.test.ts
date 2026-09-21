@@ -1,11 +1,16 @@
 import test from "node:test";
 import assert from "node:assert/strict";
 import {
+  ANALYTICS_READY_EVENT,
   daysBetween,
   hasCampaignParameters,
   isLikelyAutomation,
   pageContext,
 } from "../lib/analytics-client";
+
+test("exposes a stable analytics-ready event for early client events", () => {
+  assert.equal(ANALYTICS_READY_EVENT, "ontap:analytics-ready");
+});
 
 test("suppresses explicit browser automation and crawler analytics only", () => {
   assert.equal(isLikelyAutomation("Mozilla/5.0 Chrome/140 Safari/537.36", false), false);
