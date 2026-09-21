@@ -37,6 +37,7 @@ export type SearchInputEvidence = {
 };
 
 const TOKEN_ALIASES: Record<string, string> = {
+  offcie: "office",
   administrators: "admin",
   administrator: "admin",
   administrative: "admin",

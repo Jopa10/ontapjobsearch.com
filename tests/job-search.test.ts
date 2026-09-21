@@ -134,6 +134,13 @@ test("messy admin spellings resolve to the admin concept", () => {
   assert.ok(searchJobs(jobs, "admistrtr", "").some(({ job_id }) => job_id === "admin"));
 });
 
+test("common office typo is corrected in the role search", () => {
+  const correct = searchJobs(jobs, "office", "bristol").map(({ job_id }) => job_id);
+  const misspelled = searchJobs(jobs, "offcie", "bristol").map(({ job_id }) => job_id);
+  assert.deepEqual(misspelled, correct);
+  assert.ok(misspelled.includes("bristol-admin"));
+});
+
 test("common abbreviated role phrases are canonicalised before matching", () => {
   assert.equal(searchJobs(jobs, "cust srv", "")[0]?.job_id, "customer-service");
   const full = searchJobs(jobs, "support worker", "southamton").map(({ job_id }) => job_id);
