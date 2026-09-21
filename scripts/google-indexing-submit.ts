@@ -26,13 +26,9 @@ const FIRST_SEEN_PATH = path.join(
 );
 const RUN_REPORT_PATH = process.env.GOOGLE_INDEXING_RUN_REPORT?.trim();
 const DAILY_QUOTA = numberSetting('GOOGLE_INDEXING_DAILY_QUOTA', 200);
-const NEW_JOBG8_RESERVE = numberSetting('GOOGLE_INDEXING_NEW_JOBG8_RESERVE', 160);
 const NEW_NON_JOBG8_RESERVE = numberSetting('GOOGLE_INDEXING_NEW_NON_JOBG8_RESERVE', 20);
 const DELETION_RESERVE = numberSetting('GOOGLE_INDEXING_DELETION_RESERVE', 20);
 const SKIPPED_WINDOW_DAYS = numberSetting('GOOGLE_INDEXING_SKIPPED_WINDOW_DAYS', 7);
-const RELEASE_RESERVES = /^(1|true|yes)$/i.test(
-  process.env.GOOGLE_INDEXING_RELEASE_RESERVES?.trim() || 'false'
-);
 
 type SubmittedRecord = {
   fingerprint: string;
@@ -87,13 +83,15 @@ type RunReport = {
   mode: 'live' | 'dry-run';
   pacificDate: string;
   dailyQuota: number;
-  releaseReserves: boolean;
   eligibleLive: number;
   migratedFromV1: boolean;
   legacyDeletionsNeutralised: number;
   attemptsBeforeRun: number;
   candidates: Record<IndexingLane, number>;
   selected: Record<IndexingLane, number>;
+  liveBySource: Record<IndexingSource, number>;
+  candidateSources: Record<IndexingSource, number>;
+  selectedSources: Record<IndexingSource, number>;
   attempted: number;
   submitted: number;
   failed: number;
@@ -291,6 +289,17 @@ function laneCounts(items: IndexingCandidate[]): Record<IndexingLane, number> {
   return counts;
 }
 
+function sourceCounts(items: Array<{ source: IndexingSource }>): Record<IndexingSource, number> {
+  const counts: Record<IndexingSource, number> = {
+    jobg8: 0,
+    nhs: 0,
+    other: 0,
+    unknown: 0,
+  };
+  for (const item of items) counts[item.source] += 1;
+  return counts;
+}
+
 function buildCandidates(
   state: IndexingStateV2,
   current: Map<string, CurrentJob>,
@@ -423,14 +432,17 @@ function reportAndLog(report: RunReport) {
   console.log(`Allowance remaining: ${report.allowanceRemaining}`);
   console.log(`Candidates: ${JSON.stringify(report.candidates)}`);
   console.log(`Selected: ${JSON.stringify(report.selected)}`);
+  console.log(`Live by source: ${JSON.stringify(report.liveBySource)}`);
+  console.log(`Candidates by source: ${JSON.stringify(report.candidateSources)}`);
+  console.log(`Selected by source: ${JSON.stringify(report.selectedSources)}`);
   console.log(report.message);
 }
 
 async function main() {
   const dryRun = process.argv.includes('--dry-run');
   const date = pacificDate(new Date());
-  if (NEW_JOBG8_RESERVE + NEW_NON_JOBG8_RESERVE + DELETION_RESERVE > DAILY_QUOTA)
-    throw new Error('Protected Google Indexing allocations exceed the daily quota');
+  if (NEW_NON_JOBG8_RESERVE > DAILY_QUOTA)
+    throw new Error('Non-JobG8 Google Indexing cap exceeds the daily quota');
   if (DAILY_QUOTA < 1) throw new Error('GOOGLE_INDEXING_DAILY_QUOTA must be at least 1');
   const current = currentJobs();
   const prepared = prepareState(readRawState(), current, date);
@@ -444,10 +456,8 @@ async function main() {
   );
   const selected = selectIndexingCandidates(built.candidates, state.day.attempts, {
     dailyQuota: DAILY_QUOTA,
-    newJobg8Reserve: NEW_JOBG8_RESERVE,
     newNonJobg8Reserve: NEW_NON_JOBG8_RESERVE,
     deletionReserve: DELETION_RESERVE,
-    releaseReserves: RELEASE_RESERVES,
   });
   const attemptsBeforeRun = state.day.attempts.length;
   const quotaInvariantViolation = attemptsBeforeRun + selected.length > DAILY_QUOTA;
@@ -472,13 +482,15 @@ async function main() {
     mode: dryRun ? ('dry-run' as const) : ('live' as const),
     pacificDate: date,
     dailyQuota: DAILY_QUOTA,
-    releaseReserves: RELEASE_RESERVES,
     eligibleLive: current.size,
     migratedFromV1: prepared.migratedFromV1,
     legacyDeletionsNeutralised: built.legacyDeletionsNeutralised,
     attemptsBeforeRun,
     candidates: laneCounts(built.candidates),
     selected: laneCounts(selected),
+    liveBySource: sourceCounts([...current.values()]),
+    candidateSources: sourceCounts(built.candidates),
+    selectedSources: sourceCounts(selected),
     skippedNewToday: newCandidates.filter(
       (item) => !selectedKeys.has(attemptKey(item.type, item.url))
     ).length,

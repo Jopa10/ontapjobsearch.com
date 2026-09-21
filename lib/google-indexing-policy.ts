@@ -22,35 +22,14 @@ export type AttemptSummary = {
   url: string;
   type: NotificationType;
   lane: IndexingLane;
+  source?: IndexingSource;
 };
 
 export type SelectionConfig = {
   dailyQuota: number;
-  newJobg8Reserve: number;
   newNonJobg8Reserve: number;
   deletionReserve: number;
-  releaseReserves: boolean;
 };
-
-const PROTECTED_LANES: Array<{
-  lane: IndexingLane;
-  reserve: keyof Pick<
-    SelectionConfig,
-    'newJobg8Reserve' | 'newNonJobg8Reserve' | 'deletionReserve'
-  >;
-}> = [
-  { lane: 'new_jobg8', reserve: 'newJobg8Reserve' },
-  { lane: 'new_non_jobg8', reserve: 'newNonJobg8Reserve' },
-  { lane: 'deletion', reserve: 'deletionReserve' },
-];
-
-const RELEASE_ORDER: IndexingLane[] = [
-  'new_jobg8',
-  'deletion',
-  'new_non_jobg8',
-  'material_update',
-  'recent_skipped',
-];
 
 export function pacificDate(now: Date): string {
   return new Intl.DateTimeFormat('en-CA', {
@@ -93,11 +72,10 @@ export function selectIndexingCandidates(
   );
   const selectedKeys = new Set<string>();
   const selected: IndexingCandidate[] = [];
-  const attemptedByLane = new Map<IndexingLane, number>();
-
-  for (const attempt of previousAttempts) {
-    attemptedByLane.set(attempt.lane, (attemptedByLane.get(attempt.lane) ?? 0) + 1);
-  }
+  const previousDeletions = previousAttempts.filter((attempt) => attempt.type === 'URL_DELETED').length;
+  const previousNonJobG8 = previousAttempts.filter(
+    (attempt) => attempt.source ? attempt.source !== 'jobg8' : attempt.lane === 'new_non_jobg8'
+  ).length;
 
   const available = candidates
     .filter((candidate) => !attemptedKeys.has(attemptKey(candidate.type, candidate.url)))
@@ -120,31 +98,27 @@ export function selectIndexingCandidates(
     }
   }
 
-  for (const protectedLane of PROTECTED_LANES) {
-    const alreadyAttempted = attemptedByLane.get(protectedLane.lane) ?? 0;
-    takeLane(protectedLane.lane, Math.max(0, config[protectedLane.reserve] - alreadyAttempted));
+  // Deletions retain a fixed allowance and are processed before updates.
+  takeLane('deletion', Math.max(0, config.deletionReserve - previousDeletions));
+
+  // JobG8 is the commercial priority. Every available JobG8 candidate can use
+  // the remaining quota; its old 160-slot reserve is a minimum, not a ceiling.
+  const isJobG8 = (candidate: IndexingCandidate) => candidate.source === 'jobg8';
+  for (const candidate of available) {
+    if (!isJobG8(candidate) || candidate.lane === 'deletion' || selectedKeys.has(attemptKey(candidate.type, candidate.url))) continue;
+    if (remainingDaily() <= 0) break;
+    selected.push(candidate);
+    selectedKeys.add(attemptKey(candidate.type, candidate.url));
   }
 
-  // A future quota increase needs only dailyQuota changed. Capacity above the
-  // three protected reservations is immediately available to fresh JobG8 jobs.
-  const protectedTotal =
-    config.newJobg8Reserve + config.newNonJobg8Reserve + config.deletionReserve;
-  const unreservedCapacity = Math.max(0, config.dailyQuota - protectedTotal);
-  const protectedAlreadyAttempted = PROTECTED_LANES.reduce(
-    (total, item) => total + Math.min(config[item.reserve], attemptedByLane.get(item.lane) ?? 0),
-    0
-  );
-  const unreservedAlreadyAttempted = Math.max(
-    0,
-    previousAttempts.length - protectedAlreadyAttempted
-  );
-  takeLane('new_jobg8', Math.max(0, unreservedCapacity - unreservedAlreadyAttempted));
-
-  if (config.releaseReserves && remainingDaily() > 0) {
-    for (const lane of RELEASE_ORDER) {
-      takeLane(lane, remainingDaily());
-      if (remainingDaily() <= 0) break;
-    }
+  // Non-paying sources are capped at 10% of the 200-call daily allowance.
+  // Unused JobG8 capacity is never released to them.
+  const nonJobG8Remaining = Math.max(0, config.newNonJobg8Reserve - previousNonJobG8);
+  for (const candidate of available) {
+    if (isJobG8(candidate) || candidate.lane === 'deletion' || selectedKeys.has(attemptKey(candidate.type, candidate.url))) continue;
+    if (remainingDaily() <= 0 || selected.filter((item) => !isJobG8(item) && item.lane !== 'deletion').length >= nonJobG8Remaining) break;
+    selected.push(candidate);
+    selectedKeys.add(attemptKey(candidate.type, candidate.url));
   }
 
   return selected;

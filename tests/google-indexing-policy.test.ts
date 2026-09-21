@@ -22,13 +22,11 @@ function candidates(lane: IndexingLane, count: number): IndexingCandidate[] {
 
 const config = {
   dailyQuota: 200,
-  newJobg8Reserve: 160,
   newNonJobg8Reserve: 20,
   deletionReserve: 20,
-  releaseReserves: false,
 };
 
-test('preserves the agreed 160/20/20 allocations on push runs', () => {
+test('uses JobG8 capacity first and caps non-JobG8 jobs at 20', () => {
   const selected = selectIndexingCandidates(
     [
       ...candidates('new_jobg8', 250),
@@ -40,27 +38,21 @@ test('preserves the agreed 160/20/20 allocations on push runs', () => {
     config
   );
   assert.equal(selected.length, 200);
-  assert.deepEqual(
-    Object.fromEntries(
-      [...new Set(selected.map((item) => item.lane))].map((lane) => [
-        lane,
-        selected.filter((item) => item.lane === lane).length,
-      ])
-    ),
-    { new_jobg8: 160, new_non_jobg8: 20, deletion: 20 }
-  );
+  assert.equal(selected.filter((item) => item.source === 'jobg8' && item.type === 'URL_UPDATED').length, 180);
+  assert.equal(selected.filter((item) => item.source !== 'jobg8' && item.type === 'URL_UPDATED').length, 0);
+  assert.equal(selected.filter((item) => item.type === 'URL_DELETED').length, 20);
 });
 
-test('releases unused reservations only in the final scheduled/manual run', () => {
+test('does not release unused JobG8 capacity to non-JobG8 jobs', () => {
   const pool = [
     ...candidates('new_jobg8', 250),
     ...candidates('new_non_jobg8', 5),
     ...candidates('deletion', 5),
   ];
-  assert.equal(selectIndexingCandidates(pool, [], config).length, 170);
-  const released = selectIndexingCandidates(pool, [], { ...config, releaseReserves: true });
-  assert.equal(released.length, 200);
-  assert.equal(released.filter((item) => item.lane === 'new_jobg8').length, 190);
+  const selected = selectIndexingCandidates(pool, [], config);
+  assert.equal(selected.length, 200);
+  assert.equal(selected.filter((item) => item.source === 'jobg8').length, 195);
+  assert.equal(selected.filter((item) => item.source !== 'jobg8' && item.type === 'URL_UPDATED').length, 0);
 });
 
 test('shares the daily allowance and never retries the same URL/type', () => {
@@ -70,7 +62,7 @@ test('shares the daily allowance and never retries the same URL/type', () => {
     type: item.type,
     lane: item.lane,
   }));
-  const selected = selectIndexingCandidates(pool, previous, { ...config, releaseReserves: true });
+  const selected = selectIndexingCandidates(pool, previous, config);
   assert.equal(selected.length, 50);
   assert.equal(
     selected.some((item) => previous.some((attempt) => attempt.url === item.url)),
@@ -96,8 +88,8 @@ test('uses a future quota increase without changing the protected allocations', 
     { ...config, dailyQuota: 1_500 }
   );
   assert.equal(selected.length, 1_500);
-  assert.equal(selected.filter((item) => item.lane === 'new_jobg8').length, 1_460);
-  assert.equal(selected.filter((item) => item.lane === 'new_non_jobg8').length, 20);
+  assert.equal(selected.filter((item) => item.source === 'jobg8' && item.type === 'URL_UPDATED').length, 1_480);
+  assert.equal(selected.filter((item) => item.source !== 'jobg8' && item.type === 'URL_UPDATED').length, 0);
   assert.equal(selected.filter((item) => item.lane === 'deletion').length, 20);
 });
 
@@ -111,6 +103,6 @@ test('retains future protected slots after an earlier high-quota push run', () =
     ...config,
     dailyQuota: 1_500,
   });
-  assert.equal(selected.length, 960);
-  assert.equal(earlier.length + selected.length, 1_460);
+  assert.equal(selected.length, 1_000);
+  assert.equal(earlier.length + selected.length, 1_500);
 });

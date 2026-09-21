@@ -25,7 +25,6 @@ class GoogleIndexingTriggerTests(unittest.TestCase):
         )
 
         self.assertRegex(workflow, r"GOOGLE_INDEXING_DAILY_QUOTA: ['\"]200['\"]")
-        self.assertRegex(workflow, r"GOOGLE_INDEXING_NEW_JOBG8_RESERVE: ['\"]160['\"]")
         self.assertRegex(workflow, r"GOOGLE_INDEXING_NEW_NON_JOBG8_RESERVE: ['\"]20['\"]")
         self.assertRegex(workflow, r"GOOGLE_INDEXING_DELETION_RESERVE: ['\"]20['\"]")
         self.assertIn("America/Los_Angeles", (root / "lib/google-indexing-policy.ts").read_text(encoding="utf-8"))

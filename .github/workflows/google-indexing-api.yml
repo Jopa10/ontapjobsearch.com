@@ -82,13 +82,12 @@ jobs:
         env:
           GOOGLE_INDEXING_ACCESS_TOKEN: ${{ steps.auth.outputs.access_token }}
           GOOGLE_INDEXING_DAILY_QUOTA: '200'
-          GOOGLE_INDEXING_NEW_JOBG8_RESERVE: '160'
           GOOGLE_INDEXING_NEW_NON_JOBG8_RESERVE: '20'
           GOOGLE_INDEXING_DELETION_RESERVE: '20'
           GOOGLE_INDEXING_SKIPPED_WINDOW_DAYS: '7'
-          # Push runs preserve the protected lanes. The scheduled/manual run
-          # releases any unused reservations and fills the remaining allowance.
-          GOOGLE_INDEXING_RELEASE_RESERVES: ${{ github.event_name != 'push' }}
+          # Never release unused JobG8 capacity to non-paying sources. JobG8
+          # uses all available capacity after the deletion allowance; other
+          # sources are capped at 20 submissions (10% of the daily quota).
           GOOGLE_INDEXING_RUN_REPORT: ${{ runner.temp }}/google-indexing-run.json
         run: |
           set -euo pipefail
@@ -174,6 +173,9 @@ jobs:
               [{data: 'Successful submissions', header: true}, String(report?.submitted ?? 'unknown')],
               [{data: 'Allowance remaining', header: true}, String(report?.allowanceRemaining ?? 'unknown')],
               [{data: 'Selected lanes', header: true}, report?.selected ? JSON.stringify(report.selected) : 'unknown'],
+              [{data: 'Live by source', header: true}, report?.liveBySource ? JSON.stringify(report.liveBySource) : 'unknown'],
+              [{data: 'Candidates by source', header: true}, report?.candidateSources ? JSON.stringify(report.candidateSources) : 'unknown'],
+              [{data: 'Selected by source', header: true}, report?.selectedSources ? JSON.stringify(report.selectedSources) : 'unknown'],
               [{data: 'Run status', header: true}, String(report?.status ?? 'unknown')],
             ]).addLink('Open this workflow run', process.env.RUN_URL).write();
 
@@ -188,6 +190,9 @@ jobs:
               report ? `Allowance remaining: ${report.allowanceRemaining}` : 'Allowance remaining: unavailable',
               report?.candidates ? `Candidates by lane: ${JSON.stringify(report.candidates)}` : 'Candidates by lane: unavailable',
               report?.selected ? `Selected by lane: ${JSON.stringify(report.selected)}` : 'Selected by lane: unavailable',
+              report?.liveBySource ? `Live jobs by source: ${JSON.stringify(report.liveBySource)}` : 'Live jobs by source: unavailable',
+              report?.candidateSources ? `Indexing candidates by source: ${JSON.stringify(report.candidateSources)}` : 'Indexing candidates by source: unavailable',
+              report?.selectedSources ? `Selected submissions by source: ${JSON.stringify(report.selectedSources)}` : 'Selected submissions by source: unavailable',
               report ? `New jobs skipped today: ${report.skippedNewToday}` : 'New jobs skipped today: unavailable',
               report ? `Recent skipped fallback available: ${report.recentSkippedAvailable}` : 'Recent skipped fallback: unavailable',
               report?.migratedFromV1 ? `Legacy deletions neutralised during v1 cutover: ${report.legacyDeletionsNeutralised}` : '',
