@@ -1,113 +1,108 @@
 # JobG8 Legal Assistant / Paralegal proof-region evidence candidates
 
-Content-unique national LIKELY_IN + BORDERLINE inventory: **256** against viability floor **100**.
+Content-unique national LIKELY_IN + BORDERLINE inventory: **258** against viability floor **100**.
 This report does not approve proof regions or any LIVE slice. It surfaces the strongest current markets for human boundary inspection after national discovery.
 
 ## London
 
-- LIKELY_IN: **51**
+- LIKELY_IN: **54**
 - BORDERLINE: **0**
-- Provisional OUT: **11**
+- Provisional OUT: **12**
 
 Most common LIKELY_IN titles:
 
-- Paralegal: 3
-- Financial Services & Funds Paralegal: 2
-- Conveyancing Paralegal: 2
-- Crime Paralegal: 2
-- Paralegal Court of Protection: 2
-- Document Review Paralegal: 1
-- Paralegal Residential Property: 1
-- Antitrust Paralegal: 1
-- Court of Protection Paralegal: 1
-- Personal Injury and Clinical Negligence Paralegal: 1
-- Legal Secretary Conveyancing: 1
-- Paralegal - Commercial Property/Landlord & Tenant: 1
+- Paralegal: 4
+- Litigation Paralegal: 3
+- Immigration Paralegal: 2
+- Legal Secretary: 2
+- Alternative Investments Legal Assistant: 1
+- Residential Real Estate Paralegal: 1
+- Legal PA / Private Wealth / Famous UK firm / &;50k + 3:2!: 1
+- Legal Secretary - Claimant Litigation - &;40k - Hybrid 3:2: 1
+- Real Estate Paralegal: 1
+- Legal PA: 1
+- Paralegal - Charging of Property: 1
+- Legal Secretary - Family/Litigation: 1
+
+## Essex
+
+- LIKELY_IN: **17**
+- BORDERLINE: **0**
+- Provisional OUT: **1**
+
+Most common LIKELY_IN titles:
+
+- Conveyancing Paralegal: 3
+- Conveyancing Assistant New Build: 1
+- Conveyancing Assistant/Legal Secretary/Paralegal: 1
+- Conveyancing - Flexible Working - Fee Earner/Paralegal: 1
+- Paralegal Litigation with SQE Support - Hybrid & Bonus: 1
+- Private Client Fee Earner/ Paralegal - Flexible Working: 1
+- Conveyancing - Fee Earner/Paralegal: 1
+- Legal Secretary - Residential Property: 1
+- Paralegal/NQ Private Client - Excellent Rewards & Prospects: 1
+- Conveyancing - Paralegal /Fee Earner - Near Southend: 1
+- Residential Property Paralegal: 1
+- Paralegal - Conveyancing: 1
+
+## Berkshire
+
+- LIKELY_IN: **14**
+- BORDERLINE: **0**
+- Provisional OUT: **3**
+
+Most common LIKELY_IN titles:
+
+- Conveyancing Paralegal: 3
+- Paralegal: 2
+- Family Paralegal: 2
+- Legal Assistant: 1
+- Criminal Paralegal: 1
+- Paralegal - Local Authority: 1
+- Employment Law Legal Secretary: 1
+- Property Paralegal: 1
+- Family Legal Secretary: 1
+- Legal Secretary: 1
 
 ## Greater Manchester - Manchester & Salford
 
-- LIKELY_IN: **13**
-- BORDERLINE: **2**
+- LIKELY_IN: **11**
+- BORDERLINE: **1**
 - Provisional OUT: **2**
 
 Most common LIKELY_IN titles:
 
-- Legal Administrator: 2
-- Legal PA: 1
-- Patent Formalities Paralegal, FTC (Manchester): 1
-- Conveyancing Secretary: 1
-- Private Family Law Paralegal: 1
-- Paralegal - Employment Rights: 1
+- Private Client Paralegal: 1
 - Commercial Litigation Paralegal: 1
 - Housing Paralegal: 1
-- Conveyancing paralegal: 1
 - Remote Conveyancing Paralegal: 1
-- Public Law Paralegal: 1
 - Children Law Paralegal - Manchester: 1
+- Employers Liability and Public Liability Paralegal: 1
+- Multi Track RTA Paralegal: 1
+- Legal Administrator/ Paralegal: 1
+- Litigation Paralegal: 1
+- Court of Protection Paralegal: 1
+- Temporary Legal Secretary: 1
 
 Borderline titles:
 
-- Probate Case Manager: 1
 - Business / Law / Finance Graduate: 1
 
-## Northern Ireland - East
+## Norfolk
 
-- LIKELY_IN: **13**
-- BORDERLINE: **1**
-- Provisional OUT: **1**
-
-Most common LIKELY_IN titles:
-
-- Legal Secretary: 1
-- Paralegal - Commercial Litigation - Property Recoveries: 1
-- Real Estate /Private Client legal secretary: 1
-- Legal Secretary - Antrim: 1
-- Conveyancing & Litigation Legal Secretary: 1
-- General Legal Secretary: 1
-- Legal Secretary - Belfast City Centre: 1
-- Legal PA - Probate, Wills & Trust: 1
-- Litigation Legal Secretary: 1
-- Legal Administrator: 1
-- Conveyancing Legal Secretary: 1
-- Legal Secretary / Paralegal - Litigation: 1
-
-Borderline titles:
-
-- Legal Secrtary/PA - Top Law firm: 1
-
-## Kent
-
-- LIKELY_IN: **13**
+- LIKELY_IN: **11**
 - BORDERLINE: **0**
-- Provisional OUT: **2**
+- Provisional OUT: **0**
 
 Most common LIKELY_IN titles:
 
-- Conveyancing Legal Secretary: 4
-- Private Client Paralegal: 1
-- Conveyancing Legal Assistant: 1
-- Legal Administrator: 1
-- Private Client Paralegal / NQ: 1
-- Court of Protection Paralegal: 1
-- Private Client Legal Assistant: 1
-- Legal Secretary - Personal Injury/Clinical Negligence: 1
-- Conveyancing Assistant: 1
-- Court of Protection Paralegal - Competitive salary - Full or Part time: 1
-
-## Surrey
-
-- LIKELY_IN: **10**
-- BORDERLINE: **0**
-- Provisional OUT: **1**
-
-Most common LIKELY_IN titles:
-
-- Legal Assistant: 2
-- Legal Secretary: 2
-- Senior Residential Conveyancing Paralegal: 1
-- Residential Conveyancing Legal Assistant / Paralegal: 1
-- Criminal Paralegal: 1
-- Residential Property Paralegal - Salary up to &;40,000 Highly reputable firm: 1
+- Legal Secretary - Excellent Benefits & Environment: 3
+- Conveyancing Secretary: 1
+- Dispute Resolution Paralegal: 1
+- Legal Secretary - Private Client: 1
+- Conveyancing Assistant/Paralegal Hybrid - Full or Part Time: 1
+- Legal Secretary - Private Client - Excellent Benefits & Environment: 1
+- Wills & Probate Paralegal: 1
 - Conveyancing Paralegal: 1
-- Paralegal: 1
+- Legal Secretary: 1
 

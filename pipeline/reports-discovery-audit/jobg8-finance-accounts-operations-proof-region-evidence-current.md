@@ -1,91 +1,110 @@
 # JobG8 Accounts & Finance Operations proof-region evidence candidates
 
-Content-unique national LIKELY_IN + BORDERLINE inventory: **162** against viability floor **100**.
+Content-unique national LIKELY_IN + BORDERLINE inventory: **738** against viability floor **100**.
 This report does not approve proof regions or any LIVE slice. It surfaces the strongest current markets for human boundary inspection after national discovery.
-
-## Northern Ireland - East
-
-- LIKELY_IN: **17**
-- BORDERLINE: **0**
-- Provisional OUT: **29**
-
-Most common LIKELY_IN titles:
-
-- Finance Officer: 3
-- Accounts Assistant: 3
-- Finance Administrator (Newtownards): 1
-- Credit Controller: 1
-- Finance Assistant - Part Time: 1
-- Bookkeeper/Accounts Technician: 1
-- Assistant Finance Officer: 1
-- Sales Ledger Accounts Assistant: 1
-- Payroll Administrator: 1
-- Accounts Administrator - URGENT: 1
-- Finance Clerk: 1
-- Payroll Officer GP13/09/26/1v-1: 1
 
 ## London
 
-- LIKELY_IN: **12**
+- LIKELY_IN: **84**
 - BORDERLINE: **0**
-- Provisional OUT: **126**
+- Provisional OUT: **351**
 
 Most common LIKELY_IN titles:
 
-- Accounts Assistant: 2
-- Credit Controller: 1
-- Accounts Payable Administrator: 1
-- Temp Part-time Bookkeeper - Entertainment: 1
-- Part-time Admin / Finance Assistant: 1
-- Purchase Ledger: 1
-- Payroll and Office Administrator: 1
+- Accounts Assistant: 10
+- Credit Controller: 8
+- Finance Administrator: 4
+- Finance Assistant: 3
+- Payroll Assistant: 3
+- Accounts Payable Assistant: 2
+- Accounts Assistant - London: 2
+- Bookkeeper: 2
+- Interim Credit Controller: 1
 - Accounts Receivable Coordinator: 1
-- Accounts Payable Assistant: 1
-- Accounts Administrator: 1
-- Billing Coordinator: 1
+- Accounts Payable Officer: 1
+- Accounts Receivable/Payable Officer: 1
 
-## Greater Manchester - Manchester & Salford
+## Essex
 
-- LIKELY_IN: **7**
+- LIKELY_IN: **31**
 - BORDERLINE: **0**
-- Provisional OUT: **39**
+- Provisional OUT: **33**
 
 Most common LIKELY_IN titles:
 
-- Finance Officer: 2
-- Payroll Coordinator: 1
-- Accounts Assistant: 1
-- French speaking HR Coordinator - Payroll and Operations: 1
-- Account Support: 1
-- Credit Control Administrator: 1
-
-## Surrey
-
-- LIKELY_IN: **6**
-- BORDERLINE: **0**
-- Provisional OUT: **14**
-
-Most common LIKELY_IN titles:
-
-- Finance Assistant: 1
-- HR & Payroll Officer: 1
-- Temporary Credit Controller: 1
-- Accounts Assistant, Up to 12 Months FTC: 1
-- Accounts Assistant: 1
-- Trainee Payroll & HR Administration Officer: 1
+- Credit Controller: 3
+- Accounts Assistant: 2
+- Bookkeeper: 2
+- Finance Assistant: 2
+- Accounts Receivable/Credit Control (4 days per week): 1
+- HR and Payroll Administrator: 1
+- Payroll Co-ordinator - Leisure: 1
+- HR & Payroll Administrator: 1
+- Apprentice Payroll Administrator: 1
+- Sales Ledger Clerk: 1
+- Purchase Ledger Clerk: 1
+- Purchase Ledger: 1
 
 ## Yorkshire - West
 
-- LIKELY_IN: **6**
+- LIKELY_IN: **31**
 - BORDERLINE: **0**
-- Provisional OUT: **25**
+- Provisional OUT: **68**
 
 Most common LIKELY_IN titles:
 
-- Purhase Ledger Clerk - Part or Full Time: 1
-- Credit Control - Part Time Administrator - 12 FTC Maternity Cover: 1
-- Finance Assistant: 1
+- Credit Controller: 4
+- Purchase Ledger Clerk: 2
+- Credit Control: 2
+- Purchase and Sales Ledger Assistant: 1
+- Finance Officer: 1
+- Part time Finance Assistant: 1
+- Jaguar Land Rover Accounts Assistant: 1
+- Part Time Accounts Assistant: 1
+- Finance Administrator: 1
 - Purchase & Sales Ledger Administrator: 1
-- Customer Account Support - 11 Month FTC: 1
-- Payroll Administrator: 1
+- Project Accounts Assistant: 1
+- Interim Finance Officer: 1
+
+## Kent
+
+- LIKELY_IN: **25**
+- BORDERLINE: **0**
+- Provisional OUT: **62**
+
+Most common LIKELY_IN titles:
+
+- Accounts Assistant: 4
+- Purchase Ledger Clerk: 2
+- Bookkeeper Administrator: 1
+- Credit Controller: 1
+- School Finance Officer: 1
+- Junior Payroll Administrator: 1
+- Finance Assistant: 1
+- Accounts Assistant Credit Control: 1
+- Temporary Purchase Ledger Assistant 3 days a week: 1
+- Purchase Ledger Clerk (Temporary): 1
+- Temporary School Finance Assistant: 1
+- Accounts and Operations Coordinator: 1
+
+## Greater Manchester - Manchester & Salford
+
+- LIKELY_IN: **24**
+- BORDERLINE: **0**
+- Provisional OUT: **46**
+
+Most common LIKELY_IN titles:
+
+- Credit Controller: 7
+- Finance Assistant: 3
+- Accounts Assistant: 2
+- Finance Administrator: 1
+- Credit Control Administrator: 1
+- Purchase ledger Clerk: 1
+- Payroll Assistant: 1
+- Part Time Accounts and Business Coordinator: 1
+- Billing Administrator: 1
+- Purchase Ledger Clerk: 1
+- Graduate Accounts Payable Associate: 1
+- Sales Ledger and Credit Control: 1
 

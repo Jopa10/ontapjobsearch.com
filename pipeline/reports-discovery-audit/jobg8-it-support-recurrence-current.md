@@ -2,48 +2,48 @@
 
 Canonical UK assessment universe: **78 markets**.
 Counts use content-unique adverts after source-reference dedupe.
-LIKELY_IN jobs mapped into the universe: **37**.
-BORDERLINE jobs mapped into the universe: **26**.
-Markets with at least one LIKELY_IN job: **16 / 78**.
+LIKELY_IN jobs mapped into the universe: **32**.
+BORDERLINE jobs mapped into the universe: **25**.
+Markets with at least one LIKELY_IN job: **19 / 78**.
 
 Descriptive current-feed spread only — these thresholds do not activate a slice:
 - markets with 3+ LIKELY_IN: **3**
-- markets with 6+ LIKELY_IN: **2**
-- markets with 9+ LIKELY_IN: **1**
+- markets with 6+ LIKELY_IN: **1**
+- markets with 9+ LIKELY_IN: **0**
 
 ## Strongest current markets
 
 | Market | LIKELY_IN | BORDERLINE | Plausible incl. borderline |
 |---|---:|---:|---:|
-| London | 10 | 3 | 13 |
-| Northern Ireland - East | 6 | 4 | 10 |
+| London | 6 | 5 | 11 |
 | Surrey | 4 | 1 | 5 |
-| Greater Manchester - Manchester & Salford | 2 | 1 | 3 |
-| Berkshire | 2 | 0 | 2 |
-| Essex | 2 | 0 | 2 |
-| Kent | 2 | 0 | 2 |
-| Yorkshire - West | 1 | 5 | 6 |
-| Buckinghamshire | 1 | 1 | 2 |
+| Greater Manchester - Manchester & Salford | 3 | 0 | 3 |
+| Yorkshire - West | 2 | 2 | 4 |
+| Hertfordshire | 2 | 0 | 2 |
+| Wales South - Swansea Bay | 2 | 0 | 2 |
+| West Midlands - Birmingham & Solihull | 1 | 2 | 3 |
 | Hampshire | 1 | 1 | 2 |
+| Scotland Central - Edinburgh & Lothians | 1 | 1 | 2 |
 | Bristol & Bath | 1 | 0 | 1 |
 | Cheshire - West | 1 | 0 | 1 |
 | Gloucestershire | 1 | 0 | 1 |
 | Northamptonshire | 1 | 0 | 1 |
+| Northern Ireland - East | 1 | 0 | 1 |
+| Oxfordshire | 1 | 0 | 1 |
 | Shropshire | 1 | 0 | 1 |
+| Wales South - Cardiff & Vale | 1 | 0 | 1 |
 | Worcestershire | 1 | 0 | 1 |
-| Northern Ireland - West | 0 | 2 | 2 |
-| West Midlands - Birmingham & Solihull | 0 | 2 | 2 |
-| Bedfordshire | 0 | 1 | 1 |
-| Cumbria - West | 0 | 1 | 1 |
+| Yorkshire - North | 1 | 0 | 1 |
+| Buckinghamshire | 0 | 3 | 3 |
+| North East | 0 | 3 | 3 |
+| Sussex | 0 | 2 | 2 |
 | Merseyside - Liverpool | 0 | 1 | 1 |
-| Scotland Central - Edinburgh & Lothians | 0 | 1 | 1 |
-| Sussex | 0 | 1 | 1 |
-| West Midlands - Black Country | 0 | 1 | 1 |
+| Scotland West - Glasgow | 0 | 1 | 1 |
+| Scotland West - Renfrewshire & Inverclyde | 0 | 1 | 1 |
+| Yorkshire - East | 0 | 1 | 1 |
+| Yorkshire - South | 0 | 1 | 1 |
+| Bedfordshire | 0 | 0 | 0 |
+| Berkshire | 0 | 0 | 0 |
 | Cambridgeshire | 0 | 0 | 0 |
-| Cheshire - East | 0 | 0 | 0 |
-| Cheshire - Warrington & Halton | 0 | 0 | 0 |
-| Cornwall | 0 | 0 | 0 |
-| Cumbria - North | 0 | 0 | 0 |
-| Cumbria - South | 0 | 0 | 0 |
 
 This report is diagnostic evidence only. New-family LIVE activation remains an explicit owner decision after the governed family boundary and national validation are complete.

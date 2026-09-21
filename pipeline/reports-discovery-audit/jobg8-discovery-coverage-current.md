@@ -1,11 +1,11 @@
 # JobG8 discovery coverage audit
 
-Feed: `2026-09-12.xlsx`
-Jobs with titles: **10,000**
-Known to at least one register: **1,079**
-Unknown to every register: **8,921**
-Unknown jobs with an existing-category clue: **1,908**
-Jobs in register/refinement conflicts: **37**
+Feed: `2026-09-21.xlsx`
+Jobs with titles: **17,785**
+Known to at least one register: **1,767**
+Unknown to every register: **16,018**
+Unknown jobs with an existing-category clue: **2,717**
+Jobs in register/refinement conflicts: **81**
 
 ## Exact broad-family reconciliation
 
@@ -13,456 +13,448 @@ Every titled job below is counted once and only once using first-match broad occ
 
 | Broad family | Jobs | Share | Top geographies |
 |---|---:|---:|---|
-| Other / Unclassified | 3,075 | 30.8% | Not Specified (813); City (232); Bristol (69); Manchester (53); Leeds (42) |
-| Sales / Business Development | 1,091 | 10.9% | Not Specified (213); City (65); Bristol (21); Nottingham (15); Leeds (14) |
-| Admin / Customer Service | 866 | 8.7% | Not Specified (156); City (102); Newcastle Upon Tyne (11); Bristol (8); Southampton (8) |
-| Legal / Conveyancing | 854 | 8.5% | Not Specified (195); City (60); Manchester (38); Bristol (23); Leeds (18) |
-| HR / Recruitment | 715 | 7.1% | Not Specified (154); City (37); Bristol (20); Nottingham (14); Exeter (9) |
-| Professional Finance / Accountancy | 684 | 6.8% | Not Specified (157); City (82); Liverpool (17); Leeds (16); Bristol (10) |
-| Construction / Trades / Property | 490 | 4.9% | Not Specified (89); Upminster (11); City (9); Chelmsford (8); Bromley (7) |
-| Marketing / Digital / Creative | 490 | 4.9% | Not Specified (147); City (27); Leeds (10); Cheadle (8); Bristol (7) |
-| IT / Data / Software | 376 | 3.8% | Not Specified (108); City (40); Manchester (11); Bristol (10); Gloucester (9) |
-| Engineering / Technical | 299 | 3.0% | Not Specified (88); City (13); Bristol (6); Edinburgh (5); Gloucester (5) |
-| Healthcare / Clinical | 266 | 2.7% | Not Specified (36); City (24); Manchester (7); Cardiff (5); Uxbridge (3) |
-| Care / Support Work | 217 | 2.2% | Not Specified (62); City (11); Southampton (4); Bangor (4); Havant (3) |
-| Retail / Store | 172 | 1.7% | Not Specified (15); City (11); Cheltenham (4); Bristol (4); Cambridge (4) |
-| Operations / General Management | 123 | 1.2% | Not Specified (42); City (4); Leeds (3); Bristol (2); Exeter (2) |
-| Financial Advice / Mortgages | 102 | 1.0% | Not Specified (19); Leeds (4); City (4); Edinburgh (3); Guildford (2) |
-| Procurement / Buying / Supply Chain | 67 | 0.7% | Not Specified (15); City (9); Liverpool (2); Heywood (2); Southwark (2) |
-| Education / Teaching | 39 | 0.4% | Not Specified (12); Leeds (3); City (2); Bonnyrigg (2); Northampton (1) |
-| Driving / Warehouse / Logistics | 30 | 0.3% | Not Specified (6); City (4); Corby (1); Exeter (1); Eccles (1) |
-| Hospitality / Catering | 22 | 0.2% | City (6); Not Specified (5); Hammersmith And Fulham (1); Haywards Heath (1); Exeter (1) |
-| Science / Laboratory | 18 | 0.2% | Not Specified (8); City (2); Astwood Bank (1); Middlewich (1); Coventry (1) |
-| Security / Emergency Services | 4 | 0.0% | City (1); Barnsley (1); Not Specified (1); Dundonald (1) |
-| **TOTAL** | **10,000** | **100.0%** | |
+| Other / Unclassified | 4,375 | 24.6% | Not Specified (1169); Manchester (114); City (74); Bristol (74); Leeds (74) |
+| Professional Finance / Accountancy | 3,071 | 17.3% | Not Specified (634); Manchester (81); Leeds (74); Bristol (60); Liverpool (51) |
+| Driving / Warehouse / Logistics | 2,730 | 15.4% | Not Specified (196); Bristol (73); Northampton (54); Warrington (50); Leeds (44) |
+| Education / Teaching | 1,050 | 5.9% | Not Specified (256); Manchester (39); Northampton (15); Liverpool (14); Wakefield (14) |
+| Legal / Conveyancing | 1,008 | 5.7% | Not Specified (244); Manchester (52); Liverpool (29); Ipswich (23); Leeds (21) |
+| Sales / Business Development | 921 | 5.2% | Not Specified (129); City (23); Bristol (15); Southampton (10); Manchester (10) |
+| IT / Data / Software | 668 | 3.8% | Not Specified (215); Gloucester (28); Manchester (22); Edinburgh (14); Bristol (14) |
+| Healthcare / Clinical | 575 | 3.2% | Not Specified (68); Stoke-on-trent (10); Hull (8); Manchester (8); Workington (7) |
+| Engineering / Technical | 540 | 3.0% | Not Specified (130); Gloucester (15); Manchester (10); Yeovil (10); Northampton (9) |
+| HR / Recruitment | 538 | 3.0% | Not Specified (146); Bristol (20); Manchester (13); Sheffield (9); Leeds (9) |
+| Financial Advice / Mortgages | 502 | 2.8% | Not Specified (117); Leeds (15); Manchester (14); Colchester (12); Edinburgh (10) |
+| Admin / Customer Service | 466 | 2.6% | Not Specified (75); Manchester (16); Bristol (9); Glasgow (8); Edinburgh (7) |
+| Care / Support Work | 391 | 2.2% | Not Specified (60); Southampton (12); Maidstone (9); Leeds (8); Guildford (7) |
+| Construction / Trades / Property | 376 | 2.1% | Not Specified (77); Maidstone (7); Upminster (7); Manchester (7); Cambridge (6) |
+| Marketing / Digital / Creative | 338 | 1.9% | Not Specified (122); Liverpool (6); Manchester (5); Leeds (5); Bristol (5) |
+| Operations / General Management | 112 | 0.6% | Not Specified (36); Leeds (3); Nottingham (3); Dewsbury (3); Exeter (2) |
+| Procurement / Buying / Supply Chain | 48 | 0.3% | Not Specified (11); Harlow (3); Cwmbran (2); Tewkesbury (2); City (2) |
+| Retail / Store | 42 | 0.2% | Not Specified (12); Ilford (1); Hounslow (1); Perth (1); Cambridge (1) |
+| Science / Laboratory | 19 | 0.1% | Glasgow (4); Bournemouth (3); Stockton-on-tees (2); Sutton-in-ashfield (2); Not Specified (2) |
+| Hospitality / Catering | 10 | 0.1% | Burgess Hill (1); Knutsford (1); Market Harborough (1); Sleaford (1); Leicester (1) |
+| Security / Emergency Services | 5 | 0.0% | Not Specified (3); Maidstone (1); Dover (1) |
+| **TOTAL** | **17,785** | **100.0%** | |
 
 ## Top titles inside each broad family
 
-### Other / Unclassified — 3,075
+### Other / Unclassified — 4,375
 
 | Count | Title |
 |---:|---|
-| 101 | Market Research Field Interviewer Paid per Shift Car Required |
-| 24 | Service Manager |
-| 23 | Market Research Field Interviewer Car Required Part-time |
-| 20 | Registered Manager |
+| 96 | Optometrist |
+| 73 | Credit Controller |
+| 59 | Market Research Field Interviewer Car Required Part-time |
+| 56 | Nursery Practitioner Level 3 |
+| 34 | Bookkeeper |
+| 32 | Client Manager |
+| 31 | Nursery Practitioner Level 2 |
+| 27 | Nursery Room Leader |
+| 26 | Nursery Manager |
+| 25 | Registered Manager |
+| 25 | Home Visits Optical Assistant |
 | 20 | Residential Conveyancer |
-| 17 | Optometrist |
-| 16 | Conveyancer |
-| 16 | Senior Cash Operations Analyst |
-| 16 | Senior Assistant - Cash Operations |
-| 15 | Executive Assistant |
-| 15 | Account Handler |
-| 15 | Senior Working Capital Assistant |
 
-### Sales / Business Development — 1,091
+### Professional Finance / Accountancy — 3,071
 
 | Count | Title |
 |---:|---|
-| 84 | Field Sales Executive |
-| 67 | Field Sales Representative |
-| 32 | Sales Manager |
-| 31 | Sales Negotiator |
-| 29 | Account Manager |
-| 22 | Area Sales Manager |
-| 20 | Sales Administrator |
-| 20 | Business Development Manager |
-| 20 | Senior Sales Negotiator |
-| 19 | Sales Executive |
-| 15 | Door to Door Sales Executive |
-| 14 | Commercial Account Executive |
+| 145 | Management Accountant |
+| 114 | Finance Manager |
+| 88 | Accounts Assistant |
+| 67 | Financial Controller |
+| 61 | Senior Accountant |
+| 58 | Finance Assistant |
+| 53 | Finance Business Partner |
+| 52 | Audit Senior |
+| 46 | Assistant Accountant |
+| 42 | Assistant Management Accountant |
+| 41 | Tax Manager |
+| 40 | Financial Accountant |
 
-### Admin / Customer Service — 866
-
-| Count | Title |
-|---:|---|
-| 49 | Administrator |
-| 29 | Customer Service Advisor |
-| 21 | Receptionist |
-| 20 | Office Administrator |
-| 14 | Customer Service Representative |
-| 12 | Office Manager |
-| 12 | Call Centre Operator |
-| 12 | Call Centre Agent |
-| 10 | Customer Service Administrator |
-| 10 | Personal Assistant |
-| 9 | Operations Administrator |
-| 8 | Business Support Officer |
-
-### Legal / Conveyancing — 854
+### Driving / Warehouse / Logistics — 2,730
 
 | Count | Title |
 |---:|---|
-| 42 | Private Client Solicitor |
-| 21 | Family Solicitor |
-| 18 | Employment Solicitor |
-| 18 | Commercial Property Solicitor |
-| 17 | Legal Talent Resourcing Manager |
-| 13 | Legal Secretary |
-| 12 | Conveyancing Solicitor |
-| 10 | Remote Conveyancing Paralegal |
-| 9 | Paralegal |
-| 9 | Conveyancing Legal Secretary |
-| 9 | Legal Administrator |
-| 9 | Legal Cashier |
+| 415 | Driving Instructor (Driving Licence Required) |
+| 222 | Class 1 Driver |
+| 200 | HGV Class 1 Driver |
+| 138 | Class 2 Driver |
+| 114 | HGV Class 2 Driver |
+| 57 | Delivery Driver |
+| 51 | HGV Driver |
+| 36 | Morning Delivery Driver |
+| 28 | HGV 2 Driver |
+| 21 | Class 1 Tramper Driver |
+| 20 | Warehouse Operative |
+| 18 | HGV Class 1 Night Driver |
 
-### HR / Recruitment — 715
-
-| Count | Title |
-|---:|---|
-| 76 | HR Advisor |
-| 45 | HR Manager |
-| 39 | HR Business Partner |
-| 30 | HR Administrator |
-| 24 | Recruitment Consultant |
-| 22 | HR Assistant |
-| 17 | Resourcing Manager |
-| 17 | Peerpoint Talent Acquisition Manager |
-| 15 | Peerpoint Resourcing Manager |
-| 13 | Senior HR Advisor |
-| 12 | Senior Recruitment Consultant |
-| 10 | People Partner |
-
-### Professional Finance / Accountancy — 684
+### Education / Teaching — 1,050
 
 | Count | Title |
 |---:|---|
-| 21 | Management Accountant |
-| 20 | Finance Manager |
-| 18 | Accounts Assistant |
-| 14 | Senior Accountant |
-| 13 | Tax Manager |
-| 12 | Financial Controller |
-| 12 | Finance Officer |
-| 11 | Assistant Accountant |
-| 10 | Finance Assistant |
-| 8 | Senior Tax Analyst - Technology |
-| 7 | Finance Administrator |
-| 6 | Finance Business Partner |
+| 40 | Teaching Assistant |
+| 26 | SEN Teaching Assistant |
+| 22 | SEN Teacher |
+| 21 | Primary Teacher |
+| 18 | Learning Support Assistant |
+| 15 | Science Teacher |
+| 15 | SEND Teaching Assistant |
+| 14 | English Teacher |
+| 14 | Cover Supervisor |
+| 11 | SEMH Teaching Assistant |
+| 11 | Maths Teacher |
+| 9 | Supply Teacher |
 
-### Construction / Trades / Property — 490
-
-| Count | Title |
-|---:|---|
-| 100 | Estate Agent |
-| 84 | Property Manager |
-| 36 | Lettings Negotiator |
-| 14 | Sales and Lettings Negotiator |
-| 13 | Estate Agent Lister |
-| 13 | Lettings Manager |
-| 13 | Senior Property Manager |
-| 12 | Premium Property Estate Agent |
-| 8 | Lettings Administrator |
-| 7 | Assistant Lettings Manager |
-| 5 | Senior Lettings Negotiator |
-| 5 | Estate Agent Senior Sales Negotiator |
-
-### Marketing / Digital / Creative — 490
+### Legal / Conveyancing — 1,008
 
 | Count | Title |
 |---:|---|
-| 39 | Marketing Manager |
-| 35 | Marketing Executive |
-| 11 | Analyst - Digital Trust |
-| 10 | Digital Marketing Executive |
-| 9 | Social Media Manager |
-| 6 | Marketing Assistant |
-| 6 | Social Media Executive |
-| 5 | Head of Marketing |
-| 5 | Senior Marketing Manager |
-| 5 | Trainee Digital Marketing Manager No experience needed (Ref: 6901) |
-| 4 | Head of Performance Marketing |
-| 4 | SEO Manager |
+| 35 | Private Client Solicitor |
+| 32 | Family Solicitor |
+| 25 | Legal Cashier |
+| 23 | Commercial Property Solicitor |
+| 21 | Conveyancing Solicitor |
+| 20 | Conveyancing Paralegal |
+| 15 | Employment Solicitor |
+| 14 | Paralegal - Data Privacy Analyst |
+| 11 | Legal Secretary |
+| 11 | Paralegal |
+| 10 | Litigation Solicitor |
+| 9 | Corporate Solicitor |
 
-### IT / Data / Software — 376
-
-| Count | Title |
-|---:|---|
-| 14 | Senior Systems Engineer |
-| 10 | Lead Systems Engineer/Team Lead |
-| 7 | Systems Engineer |
-| 7 | Principal Systems Engineer |
-| 6 | Business Analyst |
-| 6 | Fire And Security Engineer |
-| 5 | Senior Infrastructure Engineer |
-| 5 | Fire and Security Engineer |
-| 5 | Trainee DevOps Engineer No experience needed (Ref: 7501) |
-| 4 | Senior Software Engineer |
-| 4 | Security Engineer |
-| 4 | Infrastructure Engineer |
-
-### Engineering / Technical — 299
+### Sales / Business Development — 921
 
 | Count | Title |
 |---:|---|
-| 10 | Electrician |
-| 8 | Senior/Principal Hardware Engineer |
-| 5 | Lead Site Reliability Engineer |
-| 4 | Automation Engineer |
-| 4 | Vehicle Technician |
-| 4 | Laboratory Technician |
-| 4 | Data Cabling Engineer - retail installations projects |
-| 3 | Applications Engineer |
-| 3 | Major & Complex Loss Claims Technician |
-| 3 | HNW / Private Clients Claims Technician |
-| 3 | Senior Backend Engineer |
-| 3 | Graduate Automation Engineer |
+| 54 | Field Sales Executive |
+| 43 | Sales Negotiator |
+| 42 | Field Sales Representative |
+| 33 | Business Development Manager |
+| 26 | Sales Executive |
+| 20 | Sales Manager |
+| 18 | Business Development Executive |
+| 18 | Apprentice Sales Advisor |
+| 17 | Sales Advisor |
+| 17 | Sales Agent - Uncapped Commission |
+| 17 | Sales Representative - Uncapped Commission |
+| 17 | Sales Operator - Uncapped Commission |
 
-### Healthcare / Clinical — 266
+### IT / Data / Software — 668
 
 | Count | Title |
 |---:|---|
-| 16 | Occupational Therapist |
-| 11 | Therapist |
-| 9 | Registered Nurse |
-| 9 | Beauty Therapist |
-| 9 | Senior Consultant - Group Risk & Healthcare |
-| 8 | Clinical Negligence Solicitor |
+| 27 | Senior Systems Engineer |
+| 20 | Lead Systems Engineer/Team Lead |
+| 15 | Operational Management Information Developer |
+| 12 | Principal Systems Engineer |
+| 12 | Cyber Defence Senior Analyst |
+| 9 | Data Engineer |
+| 9 | Senior Software Engineer |
+| 8 | Solution Architect (IAM) (Edgewing) |
+| 8 | Senior DevOps Engineer |
+| 7 | Senior Mission System Architect - C2 & Infrastructure |
+| 6 | CMM Programmer |
+| 6 | Java Software Engineer |
+
+### Healthcare / Clinical — 575
+
+| Count | Title |
+|---:|---|
+| 43 | Registered Nurse RGN - Bank - Care Home |
+| 35 | Healthcare Practitioner - Nurse, UK |
+| 21 | Registered Nurse RGN - Care Home |
+| 19 | Registered Nurse |
+| 18 | Occupational Therapist |
+| 11 | Clinical Deputy Manager |
+| 11 | Night Nurse RGN |
+| 11 | Clinical Negligence Solicitor |
+| 11 | Healthcare Practitioner - Nurse |
+| 9 | Registered Nurse RGN/RMN - Bank - Care Home |
 | 8 | Speech and Language Therapist |
-| 6 | Registered Nurse RGN - Bank - Care Home |
-| 4 | Clinical Deputy Manager |
-| 3 | Speech and Language Therapist Band 6/7 |
-| 3 | Speech & Language Therapist |
-| 3 | Healthcare Assistant |
+| 8 | Nurse Assessor |
 
-### Care / Support Work — 217
+### Engineering / Technical — 540
 
 | Count | Title |
 |---:|---|
-| 19 | Support Worker |
+| 41 | Vehicle Technician |
+| 21 | Senior/Principal Hardware Engineer |
+| 9 | Lead Site Reliability Engineer |
+| 9 | HGV Technician |
+| 8 | Automation Engineer |
+| 6 | Mobile Vehicle Technician |
+| 6 | Reliability Maintenance Engineering Technician |
+| 5 | Platform Engineer |
+| 5 | Motor Vehicle Technician |
+| 4 | AI Engineer Placement Programme No Experience Needed |
+| 4 | Data Cabling Engineer - retail installations projects |
+| 3 | Senior Backend Engineer |
+
+### HR / Recruitment — 538
+
+| Count | Title |
+|---:|---|
+| 68 | HR Advisor |
+| 36 | HR Manager |
+| 33 | HR Administrator |
+| 29 | HR Business Partner |
+| 19 | Recruitment Consultant |
+| 14 | HR Assistant |
+| 10 | Senior Recruitment Consultant |
+| 9 | Senior HR Advisor |
+| 9 | HR Generalist |
+| 7 | HR Coordinator |
+| 7 | HR Consultant |
+| 7 | HR Officer |
+
+### Financial Advice / Mortgages — 502
+
+| Count | Title |
+|---:|---|
+| 78 | Paraplanner |
+| 59 | Mortgage Advisor |
+| 50 | IFA Administrator |
+| 26 | Financial Advisor |
+| 18 | Senior Financial Planner |
+| 17 | Financial Adviser |
+| 17 | Mortgage Broker |
+| 14 | Senior Paraplanner |
+| 11 | Financial Planner |
+| 11 | Trainee Mortgage Advisor |
+| 6 | Mortgage Adviser |
+| 6 | Independent Financial Advisor |
+
+### Admin / Customer Service — 466
+
+| Count | Title |
+|---:|---|
+| 26 | Service Advisor |
+| 17 | Customer Service Representative - Uncapped Commission |
+| 17 | Call Centre Operator - Uncapped Commission |
+| 17 | Call Centre Agent - Uncapped Commission |
+| 17 | Customer Service Advisor - Uncapped Commission |
+| 17 | Contact Centre Agent - Uncapped Commission |
+| 10 | Customer Service Advisor |
+| 9 | Customer Service Representative |
+| 8 | Contact Centre Agent |
+| 8 | Call Centre Agent |
+| 8 | Call Centre Operator |
+| 7 | Activities Coordinator |
+
+### Care / Support Work — 391
+
+| Count | Title |
+|---:|---|
+| 41 | Care Assistant |
+| 36 | Senior Care Assistant |
+| 33 | Support Worker |
+| 20 | Senior Care Assistant - Nights |
+| 20 | Care Assistant - Nights |
+| 15 | Female Support Worker |
 | 9 | Social Worker |
-| 8 | Care Assistant |
-| 7 | Housing Support Worker |
+| 7 | Senior Residential Support Worker |
 | 6 | Residential Support Worker |
-| 4 | Qualified Children's Social Worker |
-| 4 | Children's Residential Support Worker |
-| 4 | Family Support Worker |
-| 4 | Customer Care Coordinator |
-| 3 | Children Social Worker |
-| 3 | Deputy Care Manager |
-| 3 | Senior Supervising Social Worker |
+| 6 | Care Assistant - Bank |
+| 6 | Childrens Residential Support Worker |
+| 5 | Home Carer |
 
-### Retail / Store — 172
+### Construction / Trades / Property — 376
 
 | Count | Title |
 |---:|---|
-| 45 | Store Manager |
-| 30 | Deputy Store Manager |
-| 16 | Retail Merchandiser |
-| 8 | Shop Manager |
-| 7 | Assistant Store Manager |
-| 6 | Retail Assistant |
-| 4 | Retail Advisor |
-| 3 | Store Assistant |
-| 3 | Senior Retail Marketing Manager EMEA |
-| 2 | Retail Optical Assistant |
-| 2 | Store Manager Designate |
-| 2 | Merchandiser |
+| 69 | Property Manager |
+| 52 | Estate Agent |
+| 43 | Lettings Negotiator |
+| 24 | Lettings Manager |
+| 14 | Premium Property Estate Agent |
+| 7 | Lettings Administrator |
+| 7 | Senior Lettings Negotiator |
+| 6 | Assistant Lettings Manager |
+| 5 | Commercial Property Manager |
+| 5 | Trainee Lettings Negotiator |
+| 4 | Senior Property Manager |
+| 4 | Sales and Lettings Negotiator |
 
-### Operations / General Management — 123
+### Marketing / Digital / Creative — 338
 
 | Count | Title |
 |---:|---|
-| 13 | Branch Manager |
-| 9 | Project Manager |
-| 4 | Head of Operations |
-| 4 | Operations Manager |
-| 4 | Assistant Branch Manager |
-| 3 | Apartment Remediation Project Manager (Scotland) |
+| 20 | Marketing Manager |
+| 18 | Marketing Executive |
+| 14 | External Communications Executive |
+| 12 | Senior Marketing Assistant (12-month FTC) |
+| 8 | Digital Marketing Executive |
+| 7 | Senior Mission System Architect - Network & Data Communications |
+| 6 | Head of Marketing |
+| 5 | Senior Service Designer |
+| 5 | Product Marketing Manager |
+| 4 | Senior Marketing Executive |
+| 4 | Digital Marketing Manager |
+| 3 | Service Designer |
+
+### Operations / General Management — 112
+
+| Count | Title |
+|---:|---|
+| 15 | Branch Manager |
+| 10 | Project Manager |
+| 7 | Area Manager |
+| 3 | Loss Adjusting Operations Manager |
 | 2 | Technical Project Manager |
-| 2 | Trainee Project Manager |
-| 2 | Business Operations Manager |
-| 2 | Service Operations Manager |
-| 2 | Chief Executive Officer |
-| 2 | Chief Executive |
+| 2 | Assistant Branch Manager |
+| 2 | Senior Event Project Manager |
+| 2 | Care Home General Manager |
+| 2 | Estate Agency Branch Manager |
+| 2 | Operations Manager |
+| 2 | DC Operations Manager |
+| 2 | Area Manager, Fulfilment Center |
 
-### Financial Advice / Mortgages — 102
-
-| Count | Title |
-|---:|---|
-| 27 | Paraplanner |
-| 9 | Financial Advisor |
-| 8 | IFA Administrator |
-| 6 | Mortgage Advisor |
-| 4 | Financial Services /IFA Admin Manager |
-| 3 | Financial Adviser |
-| 3 | Junior Financial Adviser |
-| 2 | Mortgage Adviser |
-| 2 | Senior Paraplanner |
-| 2 | Mortgage Broker |
-| 2 | Independent Financial Adviser - Established Firm Full Client Bank Provided |
-| 2 | Financial Planner |
-
-### Procurement / Buying / Supply Chain — 67
+### Procurement / Buying / Supply Chain — 48
 
 | Count | Title |
 |---:|---|
-| 7 | Buyer |
-| 2 | Strategic Buyer |
-| 2 | Junior Buyer |
-| 2 | Category Manager |
-| 2 | Purchasing Manager |
-| 2 | Purchasing Administrator |
-| 2 | Senior Buyer |
-| 1 | Trading Manager (Buyer / Senior Buyer) |
-| 1 | Purchasing / Buying Administrator |
-| 1 | Junior Buyer - ASAP Start |
-| 1 | Senior Buyer UK Fusion Energy STEP Fusion Programme |
-| 1 | IT Project Manager - SAP Supply Chain, WMS, DC |
+| 4 | Buyer |
+| 3 | Procurement Manager |
+| 2 | Supply Chain Coordinator |
+| 2 | Supply Chain Manager |
+| 1 | Director - Category Manager EXM-Biologics (BIO) |
+| 1 | European Category Manager Automotive aftersales products |
+| 1 | Strategic Buyer |
+| 1 | Manager - Procurement - Operational Strategy - Strategy and Execution - EY-Parthenon |
+| 1 | Supply Chain Analyst |
+| 1 | Functional Consultant - Supply Chain |
+| 1 | Procurement Consultant - Active SC clearance required |
+| 1 | (Government) Senior Technology Procurement Specialist |
 
-### Education / Teaching — 39
-
-| Count | Title |
-|---:|---|
-| 2 | SEN Job Coach |
-| 2 | Learning Support Worker |
-| 2 | Aspiring Speech and Language Therapist - Teaching Assistant |
-| 2 | School Unit Manager |
-| 2 | Higher Education Account Manager, UK Education |
-| 2 | SEN Support Worker |
-| 1 | Business Development Manger - Care & Education |
-| 1 | School Financial Administrator |
-| 1 | School Counsellor |
-| 1 | Employment/Education Service Manager |
-| 1 | Learning Support Worker- Torfaen |
-| 1 | Education Administrator |
-
-### Driving / Warehouse / Logistics — 30
+### Retail / Store — 42
 
 | Count | Title |
 |---:|---|
-| 2 | Trade Counter Assistant / Driver |
-| 1 | Customer Consultant Driver |
-| 1 | Warehouse Stock Clerk |
-| 1 | Van Driver Recruiter |
-| 1 | Class 2 Skip Driver |
-| 1 | Distribution Coordinator |
-| 1 | Office & Logistics Assistant |
-| 1 | Managing Director Logistics |
-| 1 | Junior Despatch Coordinator |
-| 1 | Administrator & Van Driver |
-| 1 | Receptionist/Driver |
-| 1 | Driving Recruitment Consultant / Resourcer |
+| 35 | Retail Optical Assistant |
+| 2 | Retail Security Officer |
+| 1 | Store Manager - London Bridge |
+| 1 | Digital Marketing Manager - Retail Experience |
+| 1 | Luxury Retail Brand Image Operations Coordinator |
+| 1 | Retail Support Administrator |
+| 1 | ECOMMERCE VISUAL MERCHANDISER |
 
-### Hospitality / Catering — 22
+### Science / Laboratory — 19
 
 | Count | Title |
 |---:|---|
-| 2 | Receptionist/ Front of House |
-| 1 | Senior Kitchen Design Consultant |
-| 1 | Front of House Lead |
-| 1 | Front of House Supervisor |
-| 1 | Restaurant Front of House Manager |
-| 1 | Hotel Receptionist |
-| 1 | Temporary Receptionist / Front of House |
+| 1 | Band 6 Specialist Haematology Biomedical Scientist (BMS) Locum Dorset |
+| 1 | Band 6 Specialist Haematology Biomedical Scientist (BMS) Locum North tees |
+| 1 | Band 6 Specialist Biochemistry Biomedical Scientist (BMS) Locum North Tees |
+| 1 | Band 7 Specialist Histology Biomedical Scientist (BMS) Locum Wycombe |
+| 1 | Band 5 Specialist Biochemistry Biomedical Scientist (BMS) Locum Nottingham |
+| 1 | Band 6 Specialist Biochemistry Biomedical Scientist (BMS) Locum Nottingham |
+| 1 | Band 6 Specialist Haematology Biomedical Scientist (BMS) Locum Poole |
+| 1 | Laboratory Chemist |
+| 1 | Band 6 Specialist Haematology Biomedical Scientist (BMS) Locum Northern Ireland |
+| 1 | Band 5 Specialist Haematology Biomedical Scientist (BMS) Locum Glasgow |
+| 1 | Band 5 Specialist Histology Biomedical Scientist (BMS) Locum Glasgow |
+| 1 | Band 6 Specialist Haematology Biomedical Scientist (BMS) Locum Watford |
+
+### Hospitality / Catering — 10
+
+| Count | Title |
+|---:|---|
+| 1 | Chef de Partie |
 | 1 | Front of House Manager |
-| 1 | Chef - Bank |
-| 1 | Front of House |
-| 1 | Receptionist / Front of House Administrator |
-| 1 | Project Director (High End Commercial Catering) |
+| 1 | Catering Apprentice Level 2 |
+| 1 | Chef |
+| 1 | Hospitality and Chef Assessor (Trainee or Qualified) |
+| 1 | Cook |
+| 1 | Housekeeper |
+| 1 | Sous Chef |
+| 1 | Audi Front of House Manager |
+| 1 | Restaurant Front of House Manager |
 
-### Science / Laboratory — 18
-
-| Count | Title |
-|---:|---|
-| 2 | Chemist |
-| 1 | Research Scientist PhD Intern, 2027 |
-| 1 | Preclinical In-Vitro Toxicology Scientist |
-| 1 | Research Scientist, Human Data, Robotics, DeepMind |
-| 1 | Research Scientist, FSF Risk Modeling and Governance, DeepMind |
-| 1 | Development Chemist |
-| 1 | Fragrance Development Chemist |
-| 1 | Graduate Site Chemist (temporary to permanent contract) |
-| 1 | Assistant Scientific Officer - Laboratory and Field |
-| 1 | Biomedical Scientist |
-| 1 | Water Treatment Service Chemist |
-| 1 | Research Assistant |
-
-### Security / Emergency Services — 4
+### Security / Emergency Services — 5
 
 | Count | Title |
 |---:|---|
-| 1 | Corporate Security Officer |
-| 1 | Security Officer |
+| 2 | Relief Security Officer |
+| 1 | Chief Security Officer |
 | 1 | Information Security Officer (ISO27001) (Mandarin Speakers) |
-| 1 | Security Guard - Ulster Hospital Dundonald |
+| 1 | Chief Information Security Officer - Disclosure & Barring Service - SCS1 |
 
 ## Highest-frequency unknown titles with existing-category clues
 
 | Count | Title | Likely category clue | Top geographies |
 |---:|---|---|---|
-| 78 | HR Advisor | hr_recruitment | Not Specified (13); Nottingham (5); Salisbury (3); Peterborough (3); Bristol (2) |
-| 45 | HR Manager | hr_recruitment | Not Specified (9); Wrexham (3); Swindon (2); Liverpool (2); Warrington (2) |
-| 40 | HR Business Partner | hr_recruitment | Not Specified (8); City (3); Nottingham (3); Felixstowe (3); Exeter (3) |
-| 24 | Recruitment Consultant | hr_recruitment | Not Specified (6); City (2); Epsom (2); Cardiff (2); Berkhamsted (1) |
-| 20 | Finance Manager | finance_accounts | Not Specified (4); City (3); Naseby (1); Edinburgh (1); Bradford (1) |
-| 17 | Legal Talent Resourcing Manager | hr_recruitment | Dromore (1); Castlewellan (1); Ballynahinch (1); Hillsborough (1); Lurgan (1) |
-| 17 | Peerpoint Talent Acquisition Manager | hr_recruitment | Newtownabbey (1); Dromore (1); Bangor (1); Donaghadee (1); Ballymena (1) |
-| 13 | Senior HR Advisor | hr_recruitment | Fareham (2); Coleford (2); Bradford (1); Ellesmere Port (1); Not Specified (1) |
-| 13 | Legal Secretary | admin_service | Nottingham (2); Epsom (1); Chester (1); Brierley Hill (1); City (1) |
-| 12 | Senior Recruitment Consultant | hr_recruitment | Rochester (2); City (2); Berkhamsted (1); Godalming (1); Cardiff (1) |
-| 9 | Trainee Recruitment Consultant | hr_recruitment | Not Specified (2); Nottingham (2); Hilsea (1); Rochester (1); Exeter (1) |
-| 9 | Head of HR | hr_recruitment | Not Specified (3); Coventry (1); Leeds (1); Stirling (1); Glasgow (1) |
-| 8 | Sales Coordinator | admin_service | Basingstoke (1); Warter (1); Tonbridge (1); Ballyclare (1); Sheffield (1) |
-| 8 | HR Consultant | hr_recruitment | City (1); Plymouth (1); Birmingham (1); Reading (1); Bristol (1) |
-| 8 | HR Generalist | hr_recruitment | Bracknell (1); Not Specified (1); Hull (1); Carlisle (1); Ilfracombe (1) |
-| 6 | Finance Business Partner | finance_accounts | City (3); Not Specified (1); Swindon (1); Bristol (1) |
-| 6 | Housing Estates Officer | admin_service | Aldershot (1); Wallingford (1); Salisbury (1); King's Lynn (1); Helensburgh (1) |
-| 5 | Account Coordinator | admin_service | Hull (1); Aylesbury (1); Whiteley (1); Telford (1); Southampton (1) |
-| 5 | Resident Liaison Officer | admin_service | Newark (1); Chester (1); Grimsby (1); Thornliebank (1); Rainham (1) |
-| 5 | Senior HR Business Partner | hr_recruitment | Not Specified (2); Northampton (1); Chester (1); Antrim (1) |
-| 5 | Commercial Finance Manager | finance_accounts | Altrincham (1); Wrexham (1); Ellesmere Port (1); Not Specified (1); Addlestone (1) |
-| 5 | Payroll Manager | finance_accounts | Not Specified (2); City (1); Chichester (1); Bromley (1) |
-| 4 | Service Advisor | customer_service_contact_centre | Yeovil (1); Cheshunt (1); Abingdon (1); Bournemouth (1) |
-| 4 | Accounts Senior | finance_accounts | Not Specified (1); Lancaster (1); Newcastle (1); Totnes (1) |
-| 4 | Income Officer | admin_service | Not Specified (2); Islington (1); Bosham (1) |
-| 4 | Complaints Officer | admin_service; customer_service_contact_centre | Leicester (1); Walton-on-thames (1); Not Specified (1); Taunton (1) |
-| 4 | Recruitment Account Coordinator | admin_service; hr_recruitment | Stoke-on-trent (1); Newark (1); Reading (1); Telford (1) |
-| 4 | Financial Services /IFA Admin Manager | admin_service | Guildford (1); Cobham (1); Godalming (1); Woking (1) |
-| 4 | Customer Service Manager | customer_service_contact_centre | Daventry (1); Stevenage (1); Newcastle Upon Tyne (1); Not Specified (1) |
-| 4 | Finance Director | finance_accounts | Not Specified (2); Southampton (1); Christchurch (1) |
-| 4 | Audit & Accounts Senior | finance_accounts | Maidenhead (1); Hull (1); Bury St. Edmunds (1); Durham (1) |
-| 4 | Senior Finance Manager | finance_accounts | Slough (1); Bradford (1); Clevedon (1); Rotherham (1) |
-| 4 | Legal Assistant/Secretary | admin_service | Spalding (2); Redditch (1); Nottingham (1) |
-| 4 | Finance Trustee | finance_accounts | Not Specified (2); Melrose (1); Weston-super-mare (1) |
-| 4 | Events Coordinator | admin_service | Princes Risborough (1); Thame (1); Not Specified (1); St. Peters (1) |
-| 4 | North Finance Manager/ Finance Business Partner | finance_accounts | City (2); Chester (2) |
-| 4 | Customer Care Coordinator | admin_service | Not Specified (1); Shirley (1); Exeter (1); Llandudno (1) |
-| 4 | Head of Finance | finance_accounts | Guildford (1); Lincoln (1); City Of Westminster (1); City (1) |
-| 4 | Human Resources Manager | hr_recruitment | Thirsk (2); Londonderry (1); Milton Keynes (1) |
-| 4 | Recruitment Partner | hr_recruitment | Not Specified (2); Exeter (1); Farnborough (1) |
-| 4 | Talent Acquisition Manager | hr_recruitment | Not Specified (3); Newcastle Upon Tyne (1) |
-| 3 | Audit and Accounts Semi Senior | finance_accounts | Stockton-on-tees (1); Aberdeen (1); Canterbury (1) |
-| 3 | Interim Finance Manager | finance_accounts | St. Leonards-on-sea (2); Maidstone (1) |
-| 3 | Compliance Officer | admin_service | Newtownabbey (1); Worcester (1); Not Specified (1) |
-| 3 | Interim HR Advisor | hr_recruitment | Wakefield (1); Not Specified (1); Bicester (1) |
-| 3 | Interim HR Manager | hr_recruitment | Aldershot (1); Ilfracombe (1); Harrogate (1) |
-| 3 | Family Legal Secretary | admin_service | Loughborough (1); Sunderland (1); Middlesbrough (1) |
-| 3 | Interim HR Business Partner | hr_recruitment | Not Specified (2); Dudley (1) |
-| 3 | HR Operations Coordinator | admin_service; hr_recruitment | Banbury (1); Milton Keynes (1); Not Specified (1) |
-| 3 | Complaints Manager | customer_service_contact_centre | Manchester (1); City (1); Not Specified (1) |
-| 3 | Facilities Coordinator | admin_service | Not Specified (1); Milton Keynes Village (1); City (1) |
-| 3 | Director of Finance | finance_accounts | Not Specified (3) |
-| 3 | Graduate Recruitment Consultant | hr_recruitment | City (1); Norwich (1); Chepstow (1) |
-| 3 | Principal Recruitment Consultant | hr_recruitment | Bristol (1); Altrincham (1); Derby (1) |
-| 3 | Marketing Coordinator | admin_service | Templecombe (1); Not Specified (1); Borehamwood (1) |
-| 3 | Litigation Legal Secretary | admin_service | Nottingham (1); City (1); Worcester (1) |
-| 3 | Supported Housing Support Worker | support_worker | Brighton (1); Crawley (1); Horsham (1) |
-| 3 | HR Operations Manager | hr_recruitment | Antrim (1); Newton Heath (1); Not Specified (1) |
-| 3 | Digital Marketing Officer | admin_service | Wrexham (1); Not Specified (1); Birmingham (1) |
-| 3 | TALENT ACQUISITION ADVISOR | hr_recruitment | Gloucester (1); Southampton (1); Not Specified (1) |
+| 116 | Finance Manager | finance_accounts | Not Specified (17); Liverpool (3); Hull (3); Southampton (2); Solihull (2) |
+| 68 | HR Advisor | hr_recruitment | Not Specified (7); Manchester (5); Glasgow (4); Ipswich (3); Peterborough (2) |
+| 53 | Finance Business Partner | finance_accounts | Not Specified (12); Lincoln (3); Liverpool (2); Derby (2); Bath (2) |
+| 36 | HR Manager | hr_recruitment | Not Specified (8); Tewkesbury (2); Southampton (1); Oxford (1); Wigan (1) |
+| 32 | Accounts Senior | finance_accounts | Not Specified (3); Basildon (1); Totnes (1); Colchester (1); Ripon (1) |
+| 29 | HR Business Partner | hr_recruitment | Not Specified (8); Lincoln (2); Sunderland (1); Milton Keynes (1); Northampton (1) |
+| 27 | Head of Finance | finance_accounts | Not Specified (5); Leeds (2); Solihull (2); Blackburn (2); Maidstone (2) |
+| 26 | Payroll Manager | finance_accounts | Not Specified (4); Liverpool (2); Cardiff (2); Paisley (1); Manchester (1) |
+| 26 | Service Advisor | customer_service_contact_centre | Not Specified (2); Peterborough (1); Hemel Hempstead (1); Stafford (1); Cambridge (1) |
+| 22 | Finance Director | finance_accounts | Not Specified (6); Manchester (2); Nottingham (2); Trowbridge (1); Liverpool (1) |
+| 20 | Warehouse Operative | warehouse_logistics | Bury St. Edmunds (1); Peterlee (1); Broadstone (1); Brackley (1); Cirencester (1) |
+| 20 | Finance Analyst | finance_accounts | Not Specified (7); Leicester (3); Cardiff (1); Bedford (1); Christchurch (1) |
+| 20 | Senior Care Assistant - Nights | support_worker | Not Specified (5); Nottingham (1); Northampton (1); Cannock (1); Stafford (1) |
+| 20 | Care Assistant - Nights | support_worker | Not Specified (3); Marlborough (1); Basingstoke (1); Rugeley (1); Edenbridge (1) |
+| 19 | Recruitment Consultant | hr_recruitment | Not Specified (5); Cardiff (2); Epsom (1); Lutterworth (1); Aylesbury (1) |
+| 18 | Forklift Driver | warehouse_logistics | Northampton (2); Rushden (1); Bicester (1); Braintree (1); Bury St. Edmunds (1) |
+| 18 | Accounts Semi Senior | finance_accounts | Sutton (1); Barnstaple (1); Wilmslow (1); Leeds (1); Harrogate (1) |
+| 17 | Customer Service Representative - Uncapped Commission | customer_service_contact_centre | Leigh (1); Aldbrough St. John (1); Runcorn (1); Tayport (1); Arbroath (1) |
+| 17 | Call Centre Operator - Uncapped Commission | customer_service_contact_centre | Dundee (1); Frodsham (1); Warrington (1); Tayport (1); Barnton (1) |
+| 17 | Call Centre Agent - Uncapped Commission | customer_service_contact_centre | Aldbrough St. John (1); Dundee (1); Forfar (1); Runcorn (1); Widnes (1) |
+| 17 | Customer Service Advisor - Uncapped Commission | customer_service_contact_centre | Warrington (1); Widnes (1); Barnton (1); Runcorn (1); Tayport (1) |
+| 17 | Contact Centre Agent - Uncapped Commission | customer_service_contact_centre | Frodsham (1); Lymm (1); Knutsford (1); St. Andrews (1); Tayport (1) |
+| 14 | Payroll Specialist (12 month contract) | finance_accounts | City (1); Castlewellan (1); Ballyclare (1); Dromore (1); Bangor (1) |
+| 12 | Audit and Accounts Senior | finance_accounts | Sevenoaks (2); Southampton (1); Holsworthy (1); Newton Abbot (1); Exeter (1) |
+| 11 | Audit & Accounts Senior | finance_accounts | Beaconsfield (2); Hull (1); Durham (1); Banbury (1); Wisbech (1) |
+| 11 | Payroll Specialist | finance_accounts | Manchester (2); Surbiton (2); Macclesfield (1); Oxford (1); Not Specified (1) |
+| 11 | Interim Finance Manager | finance_accounts | Newcastle Upon Tyne (3); Not Specified (2); Manchester (1); St. Leonards-on-sea (1); Bristol (1) |
+| 11 | Legal Secretary | admin_service | Not Specified (3); Leicester (1); Oxford (1); Harrogate (1); Ipswich (1) |
+| 10 | Senior Recruitment Consultant | hr_recruitment | Cardiff (1); Tunbridge Wells (1); Newport (1); Not Specified (1); Bristol (1) |
+| 10 | Credit Control | finance_accounts | Not Specified (2); Nottingham (1); Leeds (1); Coalville (1); Warwick (1) |
+| 9 | Counterbalance Forklift Driver | warehouse_logistics | Rushden (2); Tewkesbury (1); Banbury (1); Brandon (1); North Tawton (1) |
+| 9 | Senior HR Advisor | hr_recruitment | Not Specified (2); Eastleigh (1); Sheffield (1); Crewe (1); Stevenage (1) |
+| 9 | HR Generalist | hr_recruitment | Kingswinford (2); Bracknell (1); Not Specified (1); Carlisle (1); Ilfracombe (1) |
+| 9 | Accounts Payable | finance_accounts | Southampton (1); Coventry (1); Swindon (1); Guildford (1); Not Specified (1) |
+| 9 | Commercial Finance Manager | finance_accounts | Not Specified (4); Addlestone (1); Ipswich (1); Basildon (1); Swindon (1) |
+| 9 | Accounts Payable Clerk | finance_accounts | Uttoxeter (1); Warwick (1); Alderley Edge (1); Ringwood (1); Basildon (1) |
+| 9 | Accounts Manager | finance_accounts | Not Specified (1); Swindon (1); Cardiff (1); Gateshead (1); Barnstaple (1) |
+| 8 | Senior Bookkeeper | finance_accounts | Not Specified (2); Coalville (1); Clevedon (1); Bedford (1); Ashford (1) |
+| 8 | Senior Finance Manager | finance_accounts | Not Specified (2); Manchester (2); Paignton (1); Rotherham (1); Hounslow (1) |
+| 7 | Activities Coordinator | admin_service | Sleaford (1); Bridport (1); Oban (1); Caldicot (1); Weymouth (1) |
+| 7 | Accounts Semi-Senior | finance_accounts | Preston (1); Liverpool (1); Leeds (1); Harrogate (1); Tenterden (1) |
+| 7 | HR Consultant | hr_recruitment | Sheffield (2); Birmingham (1); Bristol (1); Chelmsford (1); Leeds (1) |
+| 7 | Wellbeing and Activities Coordinator | admin_service | Not Specified (2); Lichfield (1); Cannock (1); Marlborough (1); Brighton (1) |
+| 6 | Senior Credit Controller | finance_accounts | Cambridge (1); Bradford (1); Nottingham (1); Solihull (1); Gillingham (1) |
+| 6 | Accounts & Tax Manager | finance_accounts | Banbury (2); Tunbridge Wells (1); Stratford-upon-avon (1); Kettering (1); Bristol (1) |
+| 6 | Senior Finance Business Partner | finance_accounts | Leeds (2); Redhill (1); Ashford (1); Sittingbourne (1); Martock (1) |
+| 6 | Care Assistant - Bank | support_worker | Not Specified (1); Bournemouth (1); Braintree (1); Brentwood (1); Brighton (1) |
+| 5 | Accounts and Audit Senior | finance_accounts | Basildon (2); Scunthorpe (1); Brierley Hill (1); Eastbourne (1) |
+| 5 | Agricultural Accounts Manager | finance_accounts | Exeter (1); Newton Abbot (1); Holsworthy (1); Okehampton (1); Barnstaple (1) |
+| 5 | Senior Finance Analyst | finance_accounts | Not Specified (3); Gillingham (1); Solihull (1) |
+| 5 | Financial Accounting Manager | finance_accounts | Not Specified (2); Newcastle Upon Tyne (1); Market Rasen (1); Redditch (1) |
+| 5 | Senior Finance Assistant | finance_accounts | Chelmsford (2); Not Specified (2); Stockton-on-tees (1) |
+| 5 | Human Resources Business Partner | hr_recruitment | Harlow (1); Newent (1); Peterborough (1); Not Specified (1); Dymock (1) |
+| 5 | Assistant Payroll Manager | finance_accounts | Glasgow (1); Stirling (1); Sandwich (1); Bolton (1); Aberdeen (1) |
+| 5 | Payroll Advisor | finance_accounts | Aberdeen (1); Stirling (1); Sandwich (1); Bolton (1); Glasgow (1) |
+| 4 | Senior Service Advisor | customer_service_contact_centre | Taunton (1); Bishop's Stortford (1); Crawley (1); Ipswich (1) |
+| 4 | Accounts and Client Manager | finance_accounts | Holsworthy (1); Okehampton (1); Newton Abbot (1); Exeter (1) |
+| 4 | Accounts Technician | finance_accounts | Sheffield (1); Sherborne (1); Leighton Buzzard (1); Yeovil (1) |
+| 4 | Principal Pensions Administrator | admin_service | Not Specified (2); Glasgow (1); Edinburgh (1) |
+| 4 | Finance Operations Manager | finance_accounts | Crawley (1); York (1); Builth Wells (1); Leicester (1) |
 
 ## Register selections contradicted by later refinement rules
 
 | Count | Title | Conflict |
 |---:|---|---|
-| 9 | IFA Administrator | admin_service:HIGH_CONFIDENCE->HARD_PASS |
-| 7 | Finance Administrator | admin_service:HIGH_CONFIDENCE->HARD_PASS |
-| 7 | Property Administrator | admin_service:HIGH_CONFIDENCE->HARD_PASS |
-| 6 | Senior Pensions Administrator | admin_service:HIGH_CONFIDENCE->HARD_PASS |
-| 5 | Pensions Administrator | admin_service:HIGH_CONFIDENCE->HARD_PASS |
-| 2 | Financial Planning Administrator | admin_service:HIGH_CONFIDENCE->HARD_PASS |
-| 1 | Wealth Administrator | admin_service:HIGH_CONFIDENCE->HARD_PASS |
+| 53 | IFA Administrator | admin_service:HIGH_CONFIDENCE->HARD_PASS |
+| 14 | Finance Administrator | admin_service:HIGH_CONFIDENCE->HARD_PASS |
+| 4 | Pensions Administrator | admin_service:HIGH_CONFIDENCE->HARD_PASS |
+| 4 | Property Administrator | admin_service:HIGH_CONFIDENCE->HARD_PASS |
+| 3 | Financial Planning Administrator | admin_service:HIGH_CONFIDENCE->HARD_PASS |
+| 3 | Employee Benefits Administrator | admin_service:HIGH_CONFIDENCE->HARD_PASS |
 
 ## Interpretation
 
