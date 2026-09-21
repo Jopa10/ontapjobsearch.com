@@ -1,6 +1,6 @@
 # Service-admin manual review
 
-feed_date: 2026-09-20
+feed_date: 2026-09-21
 
 Edit only the `action:` line in each block:
 
@@ -1043,6 +1043,12 @@ SELECTED | Bedfordshire | Bedfordshire |  | Underwriting Support Administrator
 job_id: 1916041
 ---
 
+---
+action:
+SELECTED | Bedfordshire | Bedfordshire | £27537 per year | Faculty Support Administrator
+job_id: 415441
+---
+
 ## BEDFORDSHIRE — POSSIBLES
 
 _No jobs in this group._
@@ -1221,6 +1227,12 @@ job_id: 1932845
 action:
 SELECTED | Buckinghamshire | Buckinghamshire |  | Procurement Coordinator
 job_id: 23643_225621100
+---
+
+---
+action:
+SELECTED | Buckinghamshire | Buckinghamshire |  | Administrative Officer
+job_id: 1956753
 ---
 
 ---
@@ -1715,6 +1727,12 @@ SELECTED | Dorset | Dorset | £32000 per year | HR Administrator
 job_id: 1957010
 ---
 
+---
+action:
+SELECTED | Dorset | Dorset | £26000 per year | Placement Coordinator - Construction
+job_id: 107989969
+---
+
 ## DORSET — POSSIBLES
 
 _No jobs in this group._
@@ -1791,6 +1809,12 @@ job_id: 1956210
 action:
 SELECTED | Essex | Essex | £28000 per year | Smart Metering Planner
 job_id: 107871089
+---
+
+---
+action:
+SELECTED | Essex | Essex |  | Accounts Assistant - Looking for Your Next Step in Practice Accounting?
+job_id: 1910186
 ---
 
 ---
@@ -2173,7 +2197,11 @@ job_id: 1906598
 
 ## LEICESTERSHIRE — POSSIBLES
 
-_No jobs in this group._
+---
+action:
+POSS - LEICESTERSHIRE | Leicestershire | Leicestershire | £32000 per year | Finance Assistant
+job_id: 1909307
+---
 
 ## LINCOLNSHIRE — SELECTED
 
@@ -2825,6 +2853,12 @@ SELECTED | Staffordshire | Staffordshire |  | HR Assistant
 job_id: 1897879
 ---
 
+---
+action:
+SELECTED | Staffordshire | Staffordshire | £13 - £14 per hour (+ Bonus) | Onsite Account Coordinator
+job_id: 108003800
+---
+
 ## STAFFORDSHIRE — POSSIBLES
 
 _No jobs in this group._
@@ -3254,12 +3288,6 @@ job_id: 1899093
 action:
 DROPPED | London | London | £40000 per year | HR ASSISTANT SPECIALIST LAW FIRM &;40,000 4:1 HYBRID
 job_id: 1897827
----
-
----
-action:
-DROPPED | London | London | £40,000 to £42,000 per annum | Assistant Membership Secretary
-job_id: 1961388
 ---
 
 <!-- ONTAP_PERSISTENT_DECISIONS_V1

@@ -1,6 +1,6 @@
 # Support-worker manual review
 
-feed_date: 2026-09-20
+feed_date: 2026-09-21
 
 Edit only the `action:` line in each block:
 
@@ -177,12 +177,6 @@ job_id: 1877396
 
 ---
 action:
-SELECTED | Kent | Margate | £25,845 per annum | Female Support Worker
-job_id: 589431165057551564837340
----
-
----
-action:
 SELECTED | Kent | Tunbridge Wells | £25,845 per annum | Female Support Worker
 job_id: 117813832060606873637340
 ---
@@ -231,12 +225,6 @@ job_id: 1927514
 
 ---
 action:
-SELECTED | London | Romford | £25,845 per annum | Male Support Worker
-job_id: 700287538578430361637341
----
-
----
-action:
 SELECTED | London | Kingston Upon Thames | £14 per hour | Home Carer
 job_id: 107809919
 ---
@@ -257,12 +245,6 @@ job_id: 1961315
 action:
 SELECTED | London | Barking | £36693 per year | Early Language & Communication Support Worker
 job_id: 1961257
----
-
----
-action:
-SELECTED | London | London | £15.27 per hour | Supporter Care Assistant
-job_id: 1964423
 ---
 
 ## LONDON — POSSIBLES
@@ -323,6 +305,12 @@ job_id: 353568229070313881637340
 action:
 SELECTED | Surrey | Addlestone | £25,845 per year | Support Worker
 job_id: 470458959486622105637340
+---
+
+---
+action:
+SELECTED | Surrey | Woking | £12.71 per hour | Support Worker Learning Disabilities (Day Services)
+job_id: 107989213
 ---
 
 ## SURREY — POSSIBLES
