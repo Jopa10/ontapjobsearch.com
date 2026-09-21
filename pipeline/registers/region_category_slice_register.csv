@@ -46,7 +46,7 @@ Hampshire,hr_recruitment,CANDIDATE
 Hertfordshire,admin_service,LIVE
 Staffordshire,admin_service,LIVE
 Norfolk,admin_service,LIVE
-Sussex,finance_accounts,CANDIDATE
+Sussex,finance_accounts,LIVE
 Yorkshire - West,finance_accounts,LIVE
 Gloucestershire,finance_accounts,LIVE
 Berkshire,customer_service_contact_centre,CANDIDATE
@@ -57,9 +57,9 @@ Sussex,customer_service_contact_centre,CANDIDATE
 West Midlands - Birmingham & Solihull,admin_service,LIVE
 Yorkshire - West,hr_recruitment,LIVE
 Greater Manchester - South,admin_service,LIVE
-Hampshire,finance_accounts,CANDIDATE
+Hampshire,finance_accounts,LIVE
 North East,finance_accounts,LIVE
-West Midlands - Birmingham & Solihull,finance_accounts,CANDIDATE
+West Midlands - Birmingham & Solihull,finance_accounts,LIVE
 Wiltshire,support_worker,LIVE
 Devon,support_worker,CANDIDATE
 Somerset,support_worker,CANDIDATE
@@ -140,3 +140,28 @@ Essex,finance_accounts,LIVE
 Greater Manchester - Manchester & Salford,finance_accounts,LIVE
 Northern Ireland - East,hr_recruitment,LIVE
 West Midlands - Coventry & Warwickshire,hr_recruitment,LIVE
+Berkshire,finance_accounts,LIVE
+Buckinghamshire,finance_accounts,LIVE
+Cambridgeshire,finance_accounts,LIVE
+Cheshire - East,finance_accounts,LIVE
+Cheshire - West,finance_accounts,LIVE
+Dorset,finance_accounts,LIVE
+Hertfordshire,finance_accounts,LIVE
+Kent,finance_accounts,LIVE
+Lancashire - East,finance_accounts,LIVE
+Leicestershire,finance_accounts,LIVE
+Norfolk,finance_accounts,LIVE
+Northamptonshire,finance_accounts,LIVE
+Nottinghamshire,finance_accounts,LIVE
+Oxfordshire,finance_accounts,LIVE
+Suffolk,finance_accounts,LIVE
+Surrey,finance_accounts,LIVE
+Wales South - Cardiff & Vale,finance_accounts,LIVE
+West Midlands - Coventry & Warwickshire,finance_accounts,LIVE
+Wiltshire,finance_accounts,LIVE
+Yorkshire - South,finance_accounts,LIVE
+Norfolk,marketing,LIVE
+Yorkshire - West,marketing,LIVE
+West Midlands - Birmingham & Solihull,legal_assistant_paralegal,LIVE
+Yorkshire - North,legal_assistant_paralegal,LIVE
+Yorkshire - West,legal_assistant_paralegal,LIVE
