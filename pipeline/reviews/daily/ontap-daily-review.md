@@ -32,7 +32,7 @@ Edit only each `action:` line:
 ## JobG8 — 2 to review
 
 ---
-action:
+action: select
 POSS | JobG8 | Leicestershire | Leicestershire | £32000 per year | Finance Assistant
 source_key: jobg8
 source: JobG8
@@ -50,7 +50,7 @@ hub_fingerprint: 4c69b7b095e6d2ba4c9fb2112c4b161d32f1713d24e1832e72b36aba0b856a7
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Northamptonshire | Northamptonshire | £30000 - £35000 per year | Parts Administrator
 source_key: jobg8
 source: JobG8
