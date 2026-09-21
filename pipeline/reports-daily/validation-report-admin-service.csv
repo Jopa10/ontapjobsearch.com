@@ -1,6 +1,6 @@
 ﻿metric,value
 total rows input,10000
-total rows included,497
+total rows included,499
 total rows dropped,9499
 title classification count - HIGH_CONFIDENCE,299
 title classification count - ELASTIC_FIT,311
@@ -223,14 +223,14 @@ anchor elastic count - Hertfordshire,0
 other elastic count - Hertfordshire,6
 total rows output - Hertfordshire,9
 job_id included - Hertfordshire,1900123; 1905967; 1901543; 23643_225542267; 1927516; 1938290; 1939831; 1945616; 1946264
-selection scenario - Leicestershire,SCENARIO_4_BELOW_PUBLISH_THRESHOLD
-selection message - Leicestershire,Leicestershire selection below publish threshold: 5/6 credible roles. Do not publish/refresh this slice from this run.
-credible total - Leicestershire,5
+selection scenario - Leicestershire,SCENARIO_3_MANUAL_SELECTION_APPLIED
+selection message - Leicestershire,Leicestershire manual_select applied additively: 1 row(s) prioritised; 6 selected.
+credible total - Leicestershire,6
 high confidence count - Leicestershire,2
 anchor elastic count - Leicestershire,0
 other elastic count - Leicestershire,3
-total rows output - Leicestershire,5
-job_id included - Leicestershire,1869342; 1914045; 1908964; 1936448; 1906598
+total rows output - Leicestershire,6
+job_id included - Leicestershire,1909307; 1869342; 1914045; 1908964; 1936448; 1906598
 selection scenario - Lincolnshire,SCENARIO_4_BELOW_PUBLISH_THRESHOLD
 selection message - Lincolnshire,Lincolnshire selection below publish threshold: 4/6 credible roles. Do not publish/refresh this slice from this run.
 credible total - Lincolnshire,4
@@ -263,14 +263,14 @@ anchor elastic count - North Scotland,0
 other elastic count - North Scotland,0
 total rows output - North Scotland,0
 job_id included - North Scotland,
-selection scenario - Northamptonshire,SCENARIO_3_FULL_VALID_SELECTION
-selection message - Northamptonshire,"Northamptonshire selection complete: all 8 valid selected role(s) retained after HIGH_CONFIDENCE, Northampton ELASTIC_FIT and other ELASTIC_FIT ordering."
-credible total - Northamptonshire,8
+selection scenario - Northamptonshire,SCENARIO_3_MANUAL_SELECTION_APPLIED
+selection message - Northamptonshire,Northamptonshire manual_select applied additively: 1 row(s) prioritised; 9 selected.
+credible total - Northamptonshire,9
 high confidence count - Northamptonshire,5
 anchor elastic count - Northamptonshire,0
 other elastic count - Northamptonshire,3
-total rows output - Northamptonshire,8
-job_id included - Northamptonshire,1875322; 1875317; 1877500; 1916599; 1899022; 1908969; 1939011; 1935850
+total rows output - Northamptonshire,9
+job_id included - Northamptonshire,23643_225623493; 1875322; 1875317; 1877500; 1916599; 1899022; 1908969; 1939011; 1935850
 selection scenario - Northern Ireland - East,SCENARIO_4_BELOW_PUBLISH_THRESHOLD
 selection message - Northern Ireland - East,Northern Ireland - East selection below publish threshold: 5/6 credible roles. Do not publish/refresh this slice from this run.
 credible total - Northern Ireland - East,5

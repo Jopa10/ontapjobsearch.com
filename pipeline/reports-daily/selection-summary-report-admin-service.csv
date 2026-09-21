@@ -26,12 +26,12 @@ Greater Manchester - Manchester & Salford,22,13,9,0,0,,22,Manchester,SCENARIO_3_
 Greater Manchester - South,4,1,2,1,0,,4,Stockport,SCENARIO_4_BELOW_PUBLISH_THRESHOLD,Greater Manchester - South selection below publish threshold: 4/6 credible roles. Do not publish/refresh this slice from this run.
 Greater Manchester - Wigan & Bolton,5,4,0,1,0,,5,Bolton,SCENARIO_4_BELOW_PUBLISH_THRESHOLD,Greater Manchester - Wigan & Bolton selection below publish threshold: 5/6 credible roles. Do not publish/refresh this slice from this run.
 Hertfordshire,9,2,0,7,0,,9,Watford,SCENARIO_3_MANUAL_SELECTION_APPLIED,Hertfordshire manual_select applied additively: 2 row(s) prioritised; 9 selected.
-Leicestershire,5,2,0,3,1,,5,Leicester,SCENARIO_4_BELOW_PUBLISH_THRESHOLD,Leicestershire selection below publish threshold: 5/6 credible roles. Do not publish/refresh this slice from this run.
+Leicestershire,6,2,0,4,0,,6,Leicester,SCENARIO_3_MANUAL_SELECTION_APPLIED,Leicestershire manual_select applied additively: 1 row(s) prioritised; 6 selected.
 Lincolnshire,4,1,0,3,0,,4,Lincoln,SCENARIO_4_BELOW_PUBLISH_THRESHOLD,Lincolnshire selection below publish threshold: 4/6 credible roles. Do not publish/refresh this slice from this run.
 Merseyside - Liverpool,4,1,3,0,0,,4,Liverpool,SCENARIO_4_BELOW_PUBLISH_THRESHOLD,Merseyside - Liverpool selection below publish threshold: 4/6 credible roles. Do not publish/refresh this slice from this run.
 Norfolk,10,4,0,6,0,,10,Norwich,SCENARIO_3_MANUAL_SELECTION_APPLIED,Norfolk manual_select applied additively: 1 row(s) prioritised; 10 selected.
 North Scotland,0,0,0,0,0,,0,Aberdeen,SCENARIO_4_BELOW_PUBLISH_THRESHOLD,North Scotland selection below publish threshold: 0/6 credible roles. Do not publish/refresh this slice from this run.
-Northamptonshire,8,5,0,3,1,,8,Northampton,SCENARIO_3_FULL_VALID_SELECTION,"Northamptonshire selection complete: all 8 valid selected role(s) retained after HIGH_CONFIDENCE, Northampton ELASTIC_FIT and other ELASTIC_FIT ordering."
+Northamptonshire,9,6,0,3,0,,9,Northampton,SCENARIO_3_MANUAL_SELECTION_APPLIED,Northamptonshire manual_select applied additively: 1 row(s) prioritised; 9 selected.
 Northern Ireland - East,5,2,1,2,0,,5,Belfast,SCENARIO_4_BELOW_PUBLISH_THRESHOLD,Northern Ireland - East selection below publish threshold: 5/6 credible roles. Do not publish/refresh this slice from this run.
 Nottinghamshire,7,3,0,4,0,,7,Nottingham,SCENARIO_3_MANUAL_SELECTION_APPLIED,Nottinghamshire manual_select applied additively: 1 row(s) prioritised; 7 selected.
 Oxfordshire,4,2,0,2,0,,4,Oxford,SCENARIO_4_BELOW_PUBLISH_THRESHOLD,Oxfordshire selection below publish threshold: 4/6 credible roles. Do not publish/refresh this slice from this run.
