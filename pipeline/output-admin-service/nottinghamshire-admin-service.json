@@ -355,6 +355,31 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "1869595",
+    "title": "Accounts Assistant",
+    "company": "Robert Half - Agency - Permanent",
+    "location": "Nottinghamshire",
+    "region": "Nottinghamshire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "",
+    "posted_date": "",
+    "description": "An exciting opportunity has arisen for an Assistant Accountant to join a growing and successful business in Nottinghamshire.\n\nYou will be responsible for supporting a number of entities, delivering a broad range of accounting, reporting and administrative activities. This is an excellent opportunity for someone looking to develop their career within a collaborative and fast-paced finance team.\n\nKey responsibilities:\n\nPurchase and sales ledger management\nSupporting day-to-day finance operations\nAssisting with month-end reporting and management accounts\nMaintaining accurate financial records\nManaging supplier and customer transactions\nSupporting VAT returns and audit requirements\nAssisting with ad hoc finance projects and administrative dutie\n\nAbout you:\n\nPrevious experience within a finance or accounting role\nStrong attention to detail and organisational skills\nGood Excel and systems experience\nExcellent communication and stakeholder management skills\nAAT qualified, studying, or keen to progress within finance\n\nThis is a fantastic opportunity to join a growing organisation offering long-term career development, broad exposure and a supportive team environment.\n\nRobert Half Ltd acts as an employment business for temporary positions and an employment agency for permanent positions. Robert Half is committed to diversity, equity and inclusion. Suitable candidates with equivalent qualifications and more or less experience can apply. Rates of pay and salary ranges are dependent upon your experience, qualifications and training. If you wish to apply, please read our Privacy Notice describing how we may process, disclose and store your personal data:",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?aziU08XVyRGr7g5DWnfknIJZ9nk0Ms4Nd",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Robert Half",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
     "job_id": "1940401",
     "title": "Accounts Assistant",
     "company": "SF Partners - Agency - Permanent",
@@ -455,6 +480,31 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "108005148",
+    "title": "Activities Coordinator",
+    "company": "Exemplar Health Care - Company - Permanent",
+    "location": "Nottinghamshire",
+    "region": "Nottinghamshire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "12.71",
+    "salary_max": "12.71",
+    "salary_text": "£12.71 per hour",
+    "posted_date": "",
+    "description": "Activities Coordinator\nWhen registering to this job board you will be redirected to the online application form. Please ensure that this is completed in full in order that your application can be reviewed.\n\nPosition : Activities Coordinator please note, you must have a valid clean drivers licence which you have held for a minimum of 2 years\nCare home: Pathways\nLocation : Kingfisher Way, Sutton-in-A click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?bZCSDJyF3N6s3x6WJ8mRAzIMVQQMEcYGq",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Exemplar Health Care",
+    "advertiser_type": "Company",
+    "work_pattern": "Not Specified",
+    "salary_period": "Hourly",
+    "posted_date_basis": ""
+  },
+  {
     "job_id": "nhs-5610460",
     "source": "NHS Jobs",
     "title": "Reception/Administrator",
@@ -470,7 +520,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0327-26-0497",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0327-26-0497",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5571078",
@@ -488,7 +542,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4604-26-0006",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4604-26-0006",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5589141",
@@ -506,7 +564,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0045-26-0086",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0045-26-0086",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5584692",
@@ -524,6 +586,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3810-26-0000",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3810-26-0000",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

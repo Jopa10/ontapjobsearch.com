@@ -125,6 +125,31 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "1934268",
+    "title": "Part-time Accounts Assistant",
+    "company": "RG Consultancy Ltd - Agency - Permanent",
+    "location": "Leigh",
+    "region": "Greater Manchester - Wigan & Bolton",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "",
+    "posted_date": "",
+    "description": "RG Consultancy are currently supporting one of our excellent clients in the search for an Accounts Assistant on a part time, permanent basis. The role will be based in Leigh and offers flexibility depending on the hours you are looking for.\n\nThe candidate will perform the following duties:\n- Responsible for purchase ledger and sales ledger duties\n- Processing invoices\n- Processing employee expenses\n- Petty cash management\n- Dealing with supplier queries over email and managing the accounts payable expenses\n- Other ad hoc duties to support the Finance Manager as required\n\nBenefits:\n- Flexible hours - 26 per week over 5 days\n- Free Parking\n- 25 days + bank holidays",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?6WDmO0cNttrsWluMtPycsIVGGrkackR5a",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "RG Consultancy Ltd",
+    "advertiser_type": "Agency",
+    "work_pattern": "Part Time",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
     "job_id": "nhs-5607140",
     "source": "NHS Jobs",
     "title": "Receptionist / Administrator",
@@ -140,6 +165,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1607-26-0003",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1607-26-0003",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

@@ -2,15 +2,75 @@
 
 review_date: 2026-09-21
 
-- Open Administrative & Clerical rows reviewed: 2137
-- Auto/remembered selected: 380
+- Open Administrative & Clerical rows reviewed: 2143
+- Auto/remembered selected: 381
 - Selected HC Tier A: 196
-- Selected HC Tier B: 184
-- POSS awaiting decision: 1625
+- Selected HC Tier B: 185
+- POSS awaiting decision: 1630
 - Excluded: 0
 - HARD_PASS: 132
 
 Edit only each `action:` line for POSS rows. Unchanged decisions are restored by the shared decision ledger.
+
+---
+action:
+POSS | NHS Jobs | Greater Manchester - Manchester & Salford | West Didsbury, Manchester, M20 2LR | £25760.00 to £27476.00 | Clinic Pathway Coordinator
+source_job_id: 5609202
+title: Clinic Pathway Coordinator
+employer: Manchester University NHS Foundation Trust
+region: Greater Manchester - Manchester & Salford
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9349-26-2769
+factual_fingerprint: 53c25e9bca92ddc32c4e64bb7c25b274447ab6548b75932e20fc2dd0fb187a69
+---
+
+---
+action:
+POSS | NHS Jobs | Greater Manchester - Manchester & Salford | Manchester, M13 0JH | £28392.00 to £31157.00 | Lead Patient Pathway Coordinator
+source_job_id: 5608929
+title: Lead Patient Pathway Coordinator
+employer: Manchester University NHS Foundation Trust
+region: Greater Manchester - Manchester & Salford
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9349-26-2767
+factual_fingerprint: 9e050921975f2aac2c618d16b119c9b35f2c3037fedc59f9dcc148c9fd8f3282
+---
+
+---
+action:
+POSS | NHS Jobs | — | Wythenashawe, M239XR | £25760.00 to £27476.00 | SPoA Clinic coordinator
+source_job_id: 5608902
+title: SPoA Clinic coordinator
+employer: Manchester University NHS Foundation Trust
+region: 
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9349-26-2766
+factual_fingerprint: 77f39c8aaa5a845dd1940cba3e186cda3afd440c155528d05b851f09455eba3f
+---
+
+---
+action:
+POSS | NHS Jobs | Greater Manchester - Manchester & Salford | Manchester, M41 5SL | £28392.00 to £31157.00 | Procurement Helpdesk & Analysis Assistant
+source_job_id: 5608881
+title: Procurement Helpdesk & Analysis Assistant
+employer: Manchester University NHS Foundation Trust
+region: Greater Manchester - Manchester & Salford
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9349-26-2765
+factual_fingerprint: 039e6cd5737b0c54c4d258c92a5481f26bbc1b2ec38a6bbb2e4cef83903ab4e7
+---
+
+---
+action:
+POSS | NHS Jobs | London | Croydon, CR7 7YE | £33262.00 to £36027.00 | Macmillan Patient Support Officer
+source_job_id: 5613587
+title: Macmillan Patient Support Officer
+employer: Croydon Health Services NHS Trust
+region: London
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9199-8257345-NA
+factual_fingerprint: dd669954b5bbe35a21e42bd6c0b5c26f6c5d459f3d94282c3d589fe0b623074a
+---
 
 ---
 action:
