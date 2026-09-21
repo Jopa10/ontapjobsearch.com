@@ -1,12 +1,12 @@
 ﻿metric,value
 total rows input,10000
-total rows included,42
-total rows dropped,9958
-title classification count - HIGH_CONFIDENCE,152
+total rows included,40
+total rows dropped,9960
+title classification count - HIGH_CONFIDENCE,142
 title classification count - ELASTIC_FIT,36
 title classification count - REVIEW_CONTEXT_DEPENDENT,1
-title classification count - HARD_PASS,4165
-title classification count - OUT_OF_SCOPE,5646
+title classification count - HARD_PASS,4187
+title classification count - OUT_OF_SCOPE,5634
 selection scenario - Yorkshire - West,SCENARIO_4_BELOW_PUBLISH_THRESHOLD
 selection message - Yorkshire - West,Yorkshire - West selection below publish threshold: 0/6 credible roles. Do not publish/refresh this slice from this run.
 credible total - Yorkshire - West,0
@@ -56,21 +56,21 @@ other elastic count - Hampshire,0
 total rows output - Hampshire,12
 job_id included - Hampshire,1858493; 1932858; 265253118665136537637341; 50992167369729638437341; 1898106; 1401784887; 1401784900; 1401784888; 1401784915; 1401785190; 50992167369729638437340; 265253118665136537637340
 selection scenario - Kent,SCENARIO_3_COMPLETE_WITH_OTHER_ELASTIC
-selection message - Kent,"Kent selection complete: 7 selected after HIGH_CONFIDENCE, Maidstone ELASTIC_FIT, and other ELASTIC_FIT roles."
-credible total - Kent,7
-high confidence count - Kent,5
+selection message - Kent,"Kent selection complete: 6 selected after HIGH_CONFIDENCE, Maidstone ELASTIC_FIT, and other ELASTIC_FIT roles."
+credible total - Kent,6
+high confidence count - Kent,4
 anchor elastic count - Kent,1
 other elastic count - Kent,1
-total rows output - Kent,7
-job_id included - Kent,117813832060606873637341; 604850204165380505637341; 1877396; 589431165057551564837340; 117813832060606873637340; 1402265374; 604850204165380505637340
+total rows output - Kent,6
+job_id included - Kent,117813832060606873637341; 604850204165380505637341; 1877396; 117813832060606873637340; 1402265374; 604850204165380505637340
 selection scenario - London,SCENARIO_3_MANUAL_SELECTION_APPLIED
-selection message - London,London manual_select applied additively: 1 row(s) prioritised; 8 selected.
-credible total - London,8
-high confidence count - London,7
+selection message - London,London manual_select applied additively: 1 row(s) prioritised; 6 selected.
+credible total - London,6
+high confidence count - London,5
 anchor elastic count - London,0
 other elastic count - London,0
-total rows output - London,8
-job_id included - London,1927514; 1964423; 1961257; 1815970; 700287538578430361637341; 107809919; 107603867; 1961315
+total rows output - London,6
+job_id included - London,1927514; 1961257; 1815970; 107809919; 107603867; 1961315
 selection scenario - Oxfordshire,SCENARIO_4_BELOW_PUBLISH_THRESHOLD
 selection message - Oxfordshire,Oxfordshire selection below publish threshold: 1/6 credible roles. Do not publish/refresh this slice from this run.
 credible total - Oxfordshire,1
@@ -81,12 +81,12 @@ total rows output - Oxfordshire,1
 job_id included - Oxfordshire,1819710
 selection scenario - Surrey,SCENARIO_1_COMPLETE_HC_ONLY
 selection message - Surrey,Surrey selection complete: HIGH_CONFIDENCE roles selected.
-credible total - Surrey,7
-high confidence count - Surrey,7
+credible total - Surrey,8
+high confidence count - Surrey,8
 anchor elastic count - Surrey,0
 other elastic count - Surrey,0
-total rows output - Surrey,7
-job_id included - Surrey,407022828536620646437341; 848325839117772390437341; 211322183273886515237340; 186045280252696985637340; 353568229070313881637340; 407022828536620646437340; 470458959486622105637340
+total rows output - Surrey,8
+job_id included - Surrey,407022828536620646437341; 848325839117772390437341; 211322183273886515237340; 107989213; 186045280252696985637340; 353568229070313881637340; 407022828536620646437340; 470458959486622105637340
 selection scenario - Wiltshire,SCENARIO_4_BELOW_PUBLISH_THRESHOLD
 selection message - Wiltshire,Wiltshire selection below publish threshold: 0/6 credible roles. Do not publish/refresh this slice from this run.
 credible total - Wiltshire,0
