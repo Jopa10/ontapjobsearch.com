@@ -1,6 +1,6 @@
 # Support-worker manual review
 
-feed_date: 2026-09-21
+feed_date: 2026-09-22
 
 Edit only the `action:` line in each block:
 
@@ -91,12 +91,6 @@ job_id: 107950046
 
 ---
 action:
-SELECTED | Cumbria - South | Ulverston | £12.85 per hour | Support Worker
-job_id: 107962136
----
-
----
-action:
 SELECTED | Cumbria - South | Appleby-in-westmorland | £30000 per year | Childrens Residential Support Worker
 job_id: 107989986
 ---
@@ -141,6 +135,12 @@ job_id: 1401784915
 action:
 SELECTED | Hampshire | Southampton | £25,947 - £26,305 per annum | Support Worker
 job_id: 1858493
+---
+
+---
+action:
+SELECTED | Hampshire | Southampton | £13.45 - £14.00 per hour | Support Worker (Learning Disabilities)
+job_id: 1856912
 ---
 
 ---
@@ -271,6 +271,12 @@ job_id: 144292793348731699237341
 action:
 SELECTED | Kent | Canterbury | £25,845 per year | Support Worker
 job_id: 144292793348731699237340
+---
+
+---
+action:
+SELECTED | Kent | Tonbridge | £25,845 per year | Support Worker
+job_id: 8521015614033100837340
 ---
 
 ## KENT — POSSIBLES
@@ -405,20 +411,8 @@ job_id: 186045280252696985637340
 
 ---
 action:
-SELECTED | Surrey | Caterham | £25,845 per annum | Female Support Worker
-job_id: 407022828536620646437340
----
-
----
-action:
 SELECTED | Surrey | Woking | £25,845 per annum | Support Worker
 job_id: 848325839117772390437340
----
-
----
-action:
-SELECTED | Surrey | Guildford | £25,845 per annum | Female Support Worker
-job_id: 407022828536620646437341
 ---
 
 ---
