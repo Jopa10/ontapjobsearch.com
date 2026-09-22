@@ -686,31 +686,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "107953534",
-    "title": "Recruitment Account Co-ordinator",
-    "company": "Acorn by Synergie - Agency - Permanent",
-    "location": "Devon",
-    "region": "Devon",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "",
-    "posted_date": "",
-    "description": "Recruitment Account Co-ordinator Recruitment Administrator Recruitment Coordinator Account Coordinator\n\nTiverton, Exeter or Barnstaple Full-Time Recruitment & Administration Customer-Facing Role\n\nIntroduction\n\nIf you're an organised administrator with exceptional attention to detail, strong communication skills and the ability to thrive in a fast-paced environment, this could be the perfect click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?aziU08XVyRGrOi%2bKeuqgsMAcqU6B18Mbd",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Acorn by Synergie",
-    "advertiser_type": "Agency",
-    "work_pattern": "Full Time",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "1905927",
     "title": "Purchasing Assistant",
     "company": "Reed - Agency - Permanent",
@@ -776,7 +751,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9369-26-0678",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9369-26-0678",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5604784",
@@ -794,7 +773,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9369-26-0654-1",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9369-26-0654-1",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5594406",
@@ -812,7 +795,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C0023-26-1119",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C0023-26-1119",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5585701",
@@ -830,7 +817,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C0023-26-1091",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C0023-26-1091",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5552054",
@@ -848,7 +839,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2737-26-0005",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2737-26-0005",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5607097",
@@ -866,7 +861,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9369-26-0718",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9369-26-0718",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5585498",
@@ -884,6 +883,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1690-26-0003",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1690-26-0003",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

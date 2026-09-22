@@ -765,7 +765,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3326-26-0002",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3326-26-0002",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5586121",
@@ -783,7 +787,33 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9835-COR26-122",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9835-COR26-122",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
+  },
+  {
+    "job_id": "nhs-5616107",
+    "source": "NHS Jobs",
+    "title": "Clinical Administrator",
+    "company": "North Cheshire and Mersey NHS Foundation Trust (BCH)",
+    "advertiser_name": "North Cheshire and Mersey NHS Foundation Trust (BCH)",
+    "location": "Warrington, WA5 7YS",
+    "region": "Cheshire - Warrington & Halton",
+    "salary": "£25760.00 to £27476.00",
+    "employment_type": "Permanent",
+    "posted_date": "2026-09-22T15:01:10.366889457",
+    "closing_date": "2026-09-29",
+    "description": "We are looking for bright and friendly skilled workers with passion and vision. Are you a motivated, enthusiastic and energetic person that we are looking for? An exciting opportunity has arisen to join the busy Community Equipment Service Administration Team, you will be the first point of contact for all enquiries for Community Equipment in Halton, St Helens and Warrington. The service provides vital equipment to support independent living and to help facilitate end of life care in the local community. To provide administrative and clerical support for the Community Equipment Store Team To be the first point of contact for the Community Equipment Stores for both clinical staff and members of the public. To resolve initial troubleshooting problems for Community Equipment to patients over the telephone. To be able to plan and schedule deliveries of equipment using the bespoke Elms database management system. To have an understanding of Community Equipment and its uses. To be able to prioritise your workload in a fast-paced environment To provide a comprehensive and efficient Admin and Clerical support to the Community Equipment Service ensuring the service is delivered smoothly and effectively. To provide a customer focussed service to the users of the Community Equipment Service and to be a first point of contact for Service Users. To ensure that logistics services are delivered smoothly and effectively, requiring effective management of the in-house ordering, distribution and stock control systems. To ensure equipment servicing records are maintained and servicing completed in line with procedures. Principle Responsibilities: To possess full understanding of the computer systems and to fully use the functions required for regular use of the complex Elms system to include equipment detail, deliveries, collections and stock control. To receive and process referrals to the service from Elms online, or urgent phone calls, ensuring that essential information has been provided. To liaise with staff (internal and external) to ensure that prescribed equipment is delivered/collected efficiently within specified timescales. To abstract and analyse patient records/referrals using judgement to provide correct equipment, referring back to professional if necessary to agree conclusion. To act as first point of contact for any problems, queries, complaints arising from the day-to-day running of the department. Liaising with patients, their relatives (often distressed and/or terminally ill) and professionals by telephone and in person to provide non-clinical advice and information regarding necessary equipment and completion dates. Solving queries from patients, professionals and colleagues using knowledge of the equipment, its use & the fitting thereof. To act independently to prioritise and plan own and drivers daily workload, making decisions using knowledge and experience of systems and procedures, routine and non-routine, to maintain an efficient service whilst maximising driver/fitter schedules & managing the waiting list to adhere to KPIs. To concentrate for prolonged periods on computer (almost continuously) while being frequently interrupted by telephone (and office) queries and demands. Communicating complex information (i.e. equipment use, weight limits, codes, availability and any other equipment needed to support use of) to and from medical, clinical and admin staff (both internal and external). To demonstrate duties to new starters and less experienced staff. Providing daily support to referrers (internal and external) on the Elms online ordering system. To manage stock at satellite stores and ensure accurate records are kept for stock issued from them. General Office Duties To copy type standard documents. To maintain an effective filing and archiving system. To open and distribute internal & external mail, prioritising when required To e-mail and photocopy, reporting equipment faults when needed. Bar code & scan documents to assist in the paperless office. To log answerphone messages and respond promptly, recording the outcome of the calls. To assist in stock control Adhere to Trust policies and procedures as directed in training. Make valid contributions to implement changes to improve departmental proficiency (i.e. use of post code area deliveries). Please see attached Full Job Description.",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9835-WA26-130",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9835-WA26-130",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5543509",
@@ -801,6 +831,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5911-26-0003",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5911-26-0003",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

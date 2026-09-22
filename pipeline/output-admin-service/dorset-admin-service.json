@@ -303,31 +303,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "107989969",
-    "title": "Placement Coordinator - Construction",
-    "company": "Bournemouth and Poole College - Agency - Contract",
-    "location": "Dorset",
-    "region": "Dorset",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Contract",
-    "salary_min": "26000",
-    "salary_max": "26000",
-    "salary_text": "£26000 per year",
-    "posted_date": "",
-    "description": "Placement Coordinator - Construction\n\nPoole Full Time Fixed Term to 31 March 2027\n\nAre you passionate about helping young people take their first steps into the world of work?\n\nWe're looking for a proactive and organised Placement Coordinator - Construction to join our Business Development and Partnerships team click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?bZCSDJyF3N7153k4uyOcCt3gwAujcVu%2fq",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Bournemouth and Poole College",
-    "advertiser_type": "Agency",
-    "work_pattern": "Full Time",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "nhs-5600939",
     "source": "NHS Jobs",
     "title": "Receptionist/Administrator",
@@ -343,7 +318,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2965-26-0006",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2965-26-0006",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5596490",
@@ -361,7 +340,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B0063-26-0018",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B0063-26-0018",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5596760",
@@ -379,6 +362,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9152-26-0972",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9152-26-0972",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

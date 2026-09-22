@@ -265,6 +265,31 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "1987458",
+    "title": "Customer Service Advisor - Property Management",
+    "company": "Blundells - Agency - Permanent",
+    "location": "Buckinghamshire",
+    "region": "Buckinghamshire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "",
+    "posted_date": "",
+    "description": "Job Description\n\nWe are looking for an enthusiastic and highly motivated Customer Service Advisor (Also known locally as a Property Manager) to complement our Property Management Team within our Lettings Department in Sheffield. As a Customer Service Advisor you will provide property management and tenancy support services to branches, landlords and tenants.\n\nSalary £25,000\n\nWhat's in it for you as a Customer Service Advisor?\n- Get full training and development\n- A good understanding of the residential lettings industry\n- Fast paced, fun environment\n- Regular team meetings\n- Full company briefings\n- A career pathway\n\nKey responsibilities of a Customer Service Advisor.\n- Act as a central point of contact managing the effective resolution of queries from clients and colleagues\n- Coordinating urgent and routine repairs and maintenance\n- Liaising with trades people/contractors and keeping customers up to date\n- Organising safety inspections and managing remedial works\n- Liaising with landlords following regular property visits\n- Assisting customers with general tenancy queries\n- Carrying out weekly partnership calls with colleagues and welcome calls with new customers\n- Dealing promptly and courteously to communication with landlord, tenants, contractors, and internal partners\n- Providing a first-class service to maximise customer retention\n- Ensuring personal and team deadlines are met, service levels maintained and KPI's achieved\n\nSkills and Experience required to be successful as a Customer Service Advisor.\n- Strong customer service skills and confident communicator\n- Good team player\n- Ability to stay calm under pressure\n- Excellent negotiation and influencing skills\n- Excellent planning and organisational skills\n- Good analytical ability\n\nBenefits\n- Aviva Digi care + workplace / Car leasing and cycle to work scheme\n- Colleague discount scheme / Perks at work / Gym discounts\n- Life assurance / Workplace pension scheme\n- 23 days annual leave, increasing with length of service (and your birthday off)\n\nConnells Group UK is an equal opportunities employer and positively encourages applications from suitably qualified and eligible candidates regardless of , race, disability, age, sexual orientation, transgender status, religion or belief, marital status, or pregnancy and maternity.\n\nDon't meet every single requirement? Studies have shown that women and people of colour are less likely to apply to jobs unless they meet every single qualification. At Connells Group we are dedicated to building a diverse, inclusive and authentic workplace. So, if you're excited about this role but your experience doesn't fit perfectly with every aspect of the job description, we encourage you to apply anyway. You may be just the right candidate for this or other opportunities.\n\nCC00836",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?io0x8AEcaIM0HwqIfVi9qfeEU9cCnWnqo",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Blundells",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
     "job_id": "1856610",
     "title": "HR Operations Coordinator",
     "company": "wild recruitment - Agency - Permanent",
@@ -455,7 +480,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5367-26-0001",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5367-26-0001",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5543958",
@@ -473,7 +502,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3962-26-0008",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3962-26-0008",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5600810",
@@ -491,7 +524,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9333-26-1217",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9333-26-1217",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5558801",
@@ -509,6 +546,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0054-26-0091CHMC",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0054-26-0091CHMC",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

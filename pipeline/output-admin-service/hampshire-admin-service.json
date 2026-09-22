@@ -137,31 +137,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "1869745",
-    "title": "Corporate Financial Administrator",
-    "company": "1to1 Group Limited - Agency - Permanent",
-    "location": "Hampshire",
-    "region": "Hampshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "",
-    "posted_date": "",
-    "description": "Corporate Pensions Administrator\n\n£28,000-£30,000\n\nSouthampton\n\nFull-time\n\n1to 1 Group are looking for an experienced Pensions Administrator to join our client's team and provide accurate, efficient and reliable administrative support across workplace and group pension schemes.\n\nThe successful candidate will have excellent attention to detail, strong administrative skills and the ability to work confidently with sensitive and confidential information. You will be comfortable working to deadlines, maintaining accurate records and ensuring all pension-related processes are completed in line with relevant requirements and procedures.\n\nThe Role:\n\nProvide day-to-day administration for a portfolio of group and workplace pension schemes.\n\nProcess new scheme applications and assist with the implementation of new employer pension arrangement.\n\nInvestigate discrepancies between payroll records, contribution schedules and payments received by pension providers.\n\nAct as a key point of contact for employers, payroll teams and pension providers.\n\nExplain the administrative operation of salary sacrifice arrangements without providing regulated financial, tax or legal advice.\n\nAssist employers with ongoing administration of their workplace pension duties.\n\nProvide administrative guidance on scheme processes while referring technical, regulatory or legal matters to the appropriate specialist.\n\nRespond to telephone and email enquiries in a helpful, professional and timely manner.\n\nRecord all material communications and actions on the appropriate internal system.\n\nComply with UK GDPR, data protection requirements and the company's information security policies.\n\nIdentify and report errors, complaints, potential breaches, data incidents and operational risks promptly.\n\nWork collaboratively with advisers, paraplanners, administrators and other departments.\n\nContributes to improvements in systems, procedures, and client service.\n\nSkills & Requirements:\n\nPrevious experience in a pension administration, employee benefits, payroll or similar financial services role.\n\nStrong attention to detail and commitment to accuracy.\n\nAbility to interpret payroll and pension contribution information.\n\nAbility to manage multiple cases and deadlines.\n\nCII Certificate in Financial Administration (CF1) or equivalent held, or willingness to work towards this and further relevant regulatory qualifications.\n\nStrong organizational and time-management skills.\n\nAs an equal opportunities employer, 1to 1 Group is committed to the equal treatment of all current and prospective employees and does not condone discrimination on the basis of age, disability, sex, sexual orientation, pregnancy and maternity, race or ethnicity, religion or belief, gender identity, or marriage and civil partnership. We aspire to have a diverse and inclusive workplace and strongly encourage suitably qualified applicants from a wide range of backgrounds.\n\n1to 1 Group is one of the leading recruitment agencies for jobs in Hampshire for permanent, temporary and contract recruitment solutions. Due to the high volume of applications we are receiving, if you do not hear from a consultant within 5 days, unfortunately your application has been unsuccessful on this occasion.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?nbYVUHO1tX5szoCnsuVrssDEXVavEsCFz",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "1to1 Group Limited",
-    "advertiser_type": "Agency",
-    "work_pattern": "Full Time",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "1881197",
     "title": "Service Advisor",
     "company": "Pembrook Resourcing - Agency - Permanent",
@@ -412,6 +387,31 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "1856091",
+    "title": "Audit & Accounts Assistant",
+    "company": "Accountancy Expertise Ltd - Agency - Permanent",
+    "location": "Hampshire",
+    "region": "Hampshire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "",
+    "posted_date": "",
+    "description": "Our client, an established, independent firm of Chartered Accountants are seeking an Audit & Accounts Assistant to join their team in Fareham.\n\nThis role will involve assisting the audit and accounts departments with audit assignments for a mixed portfolio of clients both on site and at client premises, examining financial statements, preparing accounts, corporation tax returns and personal tax returns.\n\nA good working knowledge of software such as Xero, CCH, Sage & QuickBooks would be an advantage.\n\nYou will ideally have at least 1-2 years UK audit and accounts experience in practice and preferably be AAT Level 4 qualified or working towards this. The position would also possibly suit a graduate or college leaver with a relevant accounting/finance qualification or degree.\n\nThe role is office based and the firm offer excellent benefits and prospects, flexi-time and also have free parking. This position also provides a valuable platform for career development in accountancy, offering exposure to a broad range of financial activities within a professional environment.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?vAYWCB8ag%2fjdWf0tm%2f06Ei056iTRNVoSi",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Accountancy Expertise Ltd",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
     "job_id": "1858777",
     "title": "EHCP Coordinator",
     "company": "Aspire People Limited - Agency - Permanent",
@@ -527,7 +527,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0505-26-0487",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0505-26-0487",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5592877",
@@ -545,7 +549,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0327-26-0465",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0327-26-0465",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5586737",
@@ -563,7 +571,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/M9301-26-0217",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/M9301-26-0217",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5577957",
@@ -581,7 +593,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3415-26-0006",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3415-26-0006",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5612599",
@@ -599,6 +615,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/L0034-26-3939",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/L0034-26-3939",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

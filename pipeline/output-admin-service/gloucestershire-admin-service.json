@@ -250,6 +250,31 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "1881580",
+    "title": "HR Co-Ordinator",
+    "company": "Cactus Search - Agency - Permanent",
+    "location": "Gloucestershire",
+    "region": "Gloucestershire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "",
+    "posted_date": "",
+    "description": "Cactus Search is delighted to be supporting a growing and high-performing organisation in the appointment of an experienced HR Co-Ordinator to join their team in Cheltenham/ Gloucester.\nThis is a fantastic opportunity for an HR professional who enjoys being close to the business, providing pragmatic advice to managers and employees, and getting involved across the full employee lifecycle.\n\nYou'll be joining a fast-paced, entrepreneurial environment where HR is genuinely valued and where you'll have the opportunity to make a visible impact.\nThe Role - As HR Co-Ordinator, you'll provide a broad range of HR support and advice, working closely with stakeholders across the organisation.\n\nYour responsibilities will include:\n- Providing expert advice across employee relations, including performance management, disciplinaries, grievances, absence, restructures and redundancies\n- Advising managers and employees on family-friendly policies, including maternity and flexible working\n- Supporting effective absence management and return-to-work processes\n- Conducting exit interviews and using feedback and data to identify trends and opportunities\n- Supporting recruitment, interviewing and candidate assessment activity\n- Developing, reviewing and implementing HR policies and procedures\n- Supporting performance management and annual review processes\n- Researching and introducing new HR initiatives and best practice\n- Producing regular HR reports and analysing people data\n- Supporting monthly payroll processes and ensuring HR data is accurate\n- Providing general HR administration and day-to-day support across the employee lifecycle\n\nYou'll ideally have:\n- 3+ years' practical experience in a generalist HR role\n- CIPD qualification, part qualification or equivalent relevant HR experience\n- Strong and current knowledge of UK employment legislation\n- Experience managing a broad range of employee relations matters\n- Experience developing and implementing HR policies and procedures\n- Exposure to organisational change and change management\n- Strong analytical skills and experience working with HR data and reporting\n- Experience using HRIS and payroll systems\n- Excellent communication and stakeholder management skills\n- A confident, consultative approach with the ability to influence at all levels\n- Strong organisation and time-management skills\n- Resilience and discretion when dealing with sensitive or complex situations\n- Experience supporting recruitment and talent acquisition\n- An understanding of performance management and employee development\n\nMost importantly, you'll be someone who enjoys working with people, solving problems and providing practical HR solutions, rather than simply following process.\n\nInterested?If you're an experienced HR Generalist looking for your next opportunity in Cheltenham/ Gloucester, and you'd like to join an organisation where you can make a genuine difference, we'd love to hear from you.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?MQiKzVwZdh3fYwrmZj5b9F4aXfAJRMRFu",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Cactus Search",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
     "job_id": "nhs-5590140",
     "source": "NHS Jobs",
     "title": "Receptionist",
@@ -265,7 +290,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1227-26-0011",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1227-26-0011",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5600422",
@@ -283,6 +312,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9327-26-0772",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9327-26-0772",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]
