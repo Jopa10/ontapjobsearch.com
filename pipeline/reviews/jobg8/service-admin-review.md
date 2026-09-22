@@ -146,17 +146,15 @@ job_id: 107993362
 ## WEST YORKSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - YORKSHIRE - WEST | Yorkshire - West | Leeds | £32000 - £40000 per year | Bookkeeper / Accounts Assistant
 job_id: 1951245
 ---
-
 ---
-action:
+action: exclude
 POSS - YORKSHIRE - WEST | Yorkshire - West | Dewsbury | £40000 - £50000 per year | Demand Planner
 job_id: 1866979
 ---
-
 ## SOUTH YORKSHIRE — SELECTED
 
 ---
@@ -764,47 +762,40 @@ job_id: 1982344
 ## LONDON — POSSIBLES
 
 ---
-action:
+action: select
 POSS - LONDON | London | London | £32000 - £38000 per year | Client Support Administrator
 job_id: 1872663
 ---
-
 ---
-action:
+action: exclude
 POSS - LONDON | London | Enfield | £50000 per year | Service Advisor
 job_id: 1868468
 ---
-
 ---
-action:
+action: select
 POSS - LONDON | London | Sidcup | £40000 per year | Service Advisor
 job_id: 1891809
 ---
-
 ---
-action:
+action: select
 POSS - LONDON | London | London | £40000 per year | Part Time Accounts Assistant
 job_id: 1946307
 ---
-
 ---
-action:
+action: select
 POSS - LONDON | London | London | £150 - £175 per daily | Interim Accounts Assistant Creative Agency London (On-site)
 job_id: 1947081
 ---
-
 ---
-action:
+action: select
 POSS - LONDON | London | London | £18.00 - £21.00 per hour | Temporary Finance Assistant - Treasury and Cash Management
 job_id: 1911855
 ---
-
 ---
-action:
+action: exclude
 POSS - LONDON | London | London | £40000 - £50000 per year | Complaints Handler
 job_id: 1908427
 ---
-
 ## HAMPSHIRE — SELECTED
 
 ---
@@ -900,11 +891,10 @@ job_id: 107959953
 ## HAMPSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - HAMPSHIRE | Hampshire | Hampshire | £159 - £173 per daily | Accounts Assistant
 job_id: 1859841
 ---
-
 ## SURREY — SELECTED
 
 ---
@@ -1156,11 +1146,10 @@ job_id: 108011495
 ## KENT — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - KENT | Kent | Kent | £40000 per year | FINANCIAL ADMINISTRATOR ADVISER SUPPORT CRANBROOK Up to &;40,000 Fully Office-Based
 job_id: 1859980
 ---
-
 ## SUSSEX — SELECTED
 
 ---
@@ -1488,11 +1477,10 @@ job_id: 1898953
 ## BERKSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - BERKSHIRE | Berkshire | Berkshire | £30000 - £38000 per year | Service Advisor
 job_id: 1881192
 ---
-
 ## BRISTOL & BATH — SELECTED
 
 ---
@@ -1696,11 +1684,10 @@ job_id: 1899364
 ## BUCKINGHAMSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - BUCKINGHAMSHIRE | Buckinghamshire | Buckinghamshire | £30000 - £32000 per year | Purchase Ledger Administrator
 job_id: 1860687
 ---
-
 ## CAMBRIDGESHIRE — SELECTED
 
 ---
@@ -1808,11 +1795,10 @@ job_id: 1892204
 ## CAMBRIDGESHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - CAMBRIDGESHIRE | Cambridgeshire | Peterborough | £40000 per year | Service Advisor
 job_id: 1870973
 ---
-
 ## CHESHIRE - EAST — SELECTED
 
 ---
@@ -1866,11 +1852,10 @@ job_id: 1905063
 ## CHESHIRE - EAST — POSSIBLES
 
 ---
-action:
+action: select
 POSS - CHESHIRE - EAST | Cheshire - East | Crewe | £30000 - £35000 per year | Finance Assistant
 job_id: 1914754
 ---
-
 ## CHESHIRE - WARRINGTON & HALTON — SELECTED
 
 ---
@@ -2044,17 +2029,15 @@ job_id: 1906561
 ## CHESHIRE - WARRINGTON & HALTON — POSSIBLES
 
 ---
-action:
+action: select
 POSS - CHESHIRE - WARRINGTON & HALTON | Cheshire - Warrington & Halton | Warrington | £31000 per year | Service Advisor
 job_id: 1909662
 ---
-
 ---
-action:
+action: select
 POSS - CHESHIRE - WARRINGTON & HALTON | Cheshire - Warrington & Halton | Warrington | £35000 per year | Accounts Assistant
 job_id: 1936736
 ---
-
 ## CHESHIRE - WEST — SELECTED
 
 ---
@@ -2126,11 +2109,10 @@ job_id: 1905958
 ## CORNWALL — POSSIBLES
 
 ---
-action:
+action: select
 POSS - CORNWALL | Cornwall | Truro | £30030 per year | Customer Service Advisors
 job_id: 1914029
 ---
-
 ## DERBYSHIRE — SELECTED
 
 ---
@@ -2232,29 +2214,25 @@ job_id: 1895753
 ## DEVON — POSSIBLES
 
 ---
-action:
+action: select
 POSS - DEVON | Devon | Devon | £30000 - £33000 per year | Service Advisor
 job_id: 1881200
 ---
-
 ---
-action:
+action: select
 POSS - DEVON | Devon | Devon | £30000 - £36000 per year | Service Advisor
 job_id: 1881199
 ---
-
 ---
-action:
+action: select
 POSS - DEVON | Devon | Devon | £31000 per year | Administrator - Financial Services
 job_id: 1934222
 ---
-
 ---
-action:
+action: select
 POSS - DEVON | Devon | Devon | £30000 - £32000 per year | Accounts Administrator
 job_id: 1928846
 ---
-
 ## DORSET — SELECTED
 
 ---
@@ -2464,17 +2442,15 @@ job_id: 1896753
 ## ESSEX — POSSIBLES
 
 ---
-action:
+action: select
 POSS - ESSEX | Essex | Essex |  | Accounts Administrator
 job_id: 1934239
 ---
-
 ---
-action:
+action: select
 POSS - ESSEX | Essex | Essex |  | Accounts Administrator
 job_id: 1934236
 ---
-
 ## GLOUCESTERSHIRE — SELECTED
 
 ---
@@ -2540,11 +2516,10 @@ job_id: 1906007
 ## GLOUCESTERSHIRE — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - GLOUCESTERSHIRE | Gloucestershire | Gloucestershire | £23.94 per hour | Materials Planner
 job_id: 108007200
 ---
-
 ## GREATER MANCHESTER - MANCHESTER & SALFORD — SELECTED
 
 ---
@@ -2688,11 +2663,10 @@ job_id: 1896569
 ## GREATER MANCHESTER - MANCHESTER & SALFORD — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - GREATER MANCHESTER - MANCHESTER & SALFORD | Greater Manchester - Manchester & Salford | Manchester | £22 per hour | Fleet Operations Project Coordinator
 job_id: 1951300
 ---
-
 ## GREATER MANCHESTER - SOUTH — SELECTED
 
 ---
@@ -2848,29 +2822,25 @@ job_id: 1905967
 ## HERTFORDSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - HERTFORDSHIRE | Hertfordshire | Hertfordshire | £32000 per year | Service Advisor
 job_id: 1871732
 ---
-
 ---
-action:
+action: exclude
 POSS - HERTFORDSHIRE | Hertfordshire | Hertfordshire | £30000 - £35000 per year | Mortgage Administrators required top London Brokerage REMOTE / RARE
 job_id: 1869806
 ---
-
 ---
-action:
+action: exclude
 POSS - HERTFORDSHIRE | Hertfordshire | Hertfordshire | £34000 per year | Corporate Administrator
 job_id: 1912770
 ---
-
 ---
-action:
+action: select
 POSS - HERTFORDSHIRE | Hertfordshire | Hertfordshire | £45000 per year | Service Advisor
 job_id: 1909843
 ---
-
 ## LEICESTERSHIRE — SELECTED
 
 ---
@@ -2912,17 +2882,15 @@ job_id: 1906598
 ## LEICESTERSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - LEICESTERSHIRE | Leicestershire | Leicestershire | £30000 - £35000 per year | Finance Assistant
 job_id: 1858417
 ---
-
 ---
-action:
+action: select
 POSS - LEICESTERSHIRE | Leicestershire | Leicestershire | £40000 per year | Technical Hub Coordinator
 job_id: 108004550
 ---
-
 ## LINCOLNSHIRE — SELECTED
 
 ---
@@ -2982,11 +2950,10 @@ job_id: 1912634
 ## LINCOLNSHIRE — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - LINCOLNSHIRE | Lincolnshire | Lincolnshire | £32000 per year | Financial Services Administrator
 job_id: 1859238
 ---
-
 ## MERSEYSIDE - LIVERPOOL — SELECTED
 
 ---
@@ -3022,11 +2989,10 @@ job_id: 1909830
 ## MERSEYSIDE - LIVERPOOL — POSSIBLES
 
 ---
-action:
+action: select
 POSS - MERSEYSIDE - LIVERPOOL | Merseyside - Liverpool | Liverpool | £33000 per year | Accounts Assistant
 job_id: 1860714
 ---
-
 ## NORFOLK — SELECTED
 
 ---
@@ -3256,11 +3222,10 @@ job_id: 1897859
 ## NORTHERN IRELAND - EAST — POSSIBLES
 
 ---
-action:
+action: select
 POSS - NORTHERN IRELAND - EAST | Northern Ireland - East | Belfast | £31000 per year | Finance Assistant
 job_id: 1956441
 ---
-
 ## NOTTINGHAMSHIRE — SELECTED
 
 ---
@@ -3314,11 +3279,10 @@ job_id: 1895751
 ## NOTTINGHAMSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - NOTTINGHAMSHIRE | Nottinghamshire | Nottinghamshire | £32000 per year | Accounts Assistant
 job_id: 1914757
 ---
-
 ## OXFORDSHIRE — SELECTED
 
 ---
@@ -3372,17 +3336,15 @@ job_id: 1909766
 ## OXFORDSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - OXFORDSHIRE | Oxfordshire | Oxfordshire | £33000 - £36000 per year | Clinic Coordinator
 job_id: 1871604
 ---
-
 ---
-action:
+action: select
 POSS - OXFORDSHIRE | Oxfordshire | Oxfordshire | £30000 - £32000 per year | Accounts Assistant
 job_id: 1939329
 ---
-
 ## SCOTLAND CENTRAL - EDINBURGH & LOTHIANS — SELECTED
 
 ---
@@ -3430,11 +3392,10 @@ job_id: 1950430
 ## SCOTLAND CENTRAL - EDINBURGH & LOTHIANS — POSSIBLES
 
 ---
-action:
+action: select
 POSS - SCOTLAND CENTRAL - EDINBURGH & LOTHIANS | Scotland Central - Edinburgh & Lothians | Edinburgh | £32000 - £35000 per year | Finance Assistant
 job_id: 1871056
 ---
-
 ## SCOTLAND CENTRAL - TAYSIDE — SELECTED
 
 ---
@@ -3788,11 +3749,10 @@ job_id: 108003800
 ## STAFFORDSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - STAFFORDSHIRE | Staffordshire | Staffordshire | £32000 per year | Service Advisor
 job_id: 1875798
 ---
-
 ## SUFFOLK — SELECTED
 
 ---
@@ -3888,11 +3848,10 @@ job_id: 107865026
 ## SUFFOLK — POSSIBLES
 
 ---
-action:
+action: select
 POSS - SUFFOLK | Suffolk | Suffolk | £23 - £26.01 per hour | Learning & Skills Ops co-ordinator
 job_id: 107952084
 ---
-
 ## WALES SOUTH - CARDIFF & VALE — SELECTED
 
 ---
@@ -4168,11 +4127,10 @@ job_id: 1896441
 ## WILTSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - WILTSHIRE | Wiltshire | Wiltshire | £31000 per year | Service Advisor
 job_id: 1946368
 ---
-
 ## WORCESTERSHIRE — SELECTED
 
 ---
