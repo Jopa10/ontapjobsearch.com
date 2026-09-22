@@ -2,15 +2,27 @@
 
 review_date: 2026-09-22
 
-- Open Administrative & Clerical rows reviewed: 2039
-- Auto/remembered selected: 363
+- Open Administrative & Clerical rows reviewed: 2041
+- Auto/remembered selected: 365
 - Selected HC Tier A: 185
-- Selected HC Tier B: 178
+- Selected HC Tier B: 180
 - POSS awaiting decision: 1554
 - Excluded: 0
 - HARD_PASS: 122
 
 Edit only each `action:` line for POSS rows. Unchanged decisions are restored by the shared decision ledger.
+
+---
+action:
+POSS | NHS Jobs | Norfolk | Norwich, NR1 2DH | £25760.00 to £27476.00 | EPR LMS Admin
+source_job_id: 5613922
+title: EPR LMS Admin
+employer: Norfolk and Norwich University Hospital
+region: Norfolk
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9234-26-0885
+factual_fingerprint: 473236446bbd3026bc5e0d2c9d51cd76a7cf4331c7f4e2f1639b7562dc360c7d
+---
 
 ---
 action:
@@ -886,18 +898,6 @@ region: Norfolk
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9426-26-0342
 factual_fingerprint: b724bf22c809da2c8611403f4b3ef45016db1bd769d36e0db33187ef409392b3
----
-
----
-action:
-POSS | NHS Jobs | London | BARKING, IG11 8HG | £25760.00 to £27476.00 | NHS 111 Health Advisor - Croydon
-source_job_id: 5613076
-title: NHS 111 Health Advisor - Croydon
-employer: London Ambulance Service NHS Trust
-region: London
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9308-26-0130
-factual_fingerprint: 06cd3f869d3fb7899e9a2728d345ffaec09f9f10957449b379bea70703190ada
 ---
 
 ---

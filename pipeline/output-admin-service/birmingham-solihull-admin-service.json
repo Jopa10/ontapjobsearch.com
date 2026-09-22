@@ -598,11 +598,25 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1736-26-0001",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1736-26-0001",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "A"
+  },
+  {
+    "job_id": "nhs-5613214",
+    "source": "NHS Jobs",
+    "title": "Medical Receptionist",
+    "company": "Sutton Road Surgery",
+    "advertiser_name": "Sutton Road Surgery",
+    "location": "Birmingham, B23 5TJ",
+    "region": "West Midlands - Birmingham & Solihull",
+    "salary": "Negotiable",
+    "employment_type": "Permanent",
+    "posted_date": "2026-09-22T08:44:54.206346811",
+    "closing_date": "2026-10-30",
+    "description": "We are a passionate and patient-focused team committed to delivering high-quality care in a supportive and inclusive environment. This role offers the opportunity to make a real difference to our local community while working alongside experienced professionals who value collaboration, innovation, and personal development. Were looking for someone who is motivated, compassionate, and ready to grow. In return, we offer a welcoming team, opportunities for training and progression, and a chance to be part of a service that puts people at the heart of everything we do. If you're looking for a role where youll be supported, challenged, and appreciatedthis is the place for you. As a GP Practice Receptionist, you will be the first point of contact for patientsboth in person and over the phoneproviding a professional, friendly, and efficient service. Your main responsibilities will include booking and cancelling appointments, managing patient enquiries, processing repeat prescription requests, and handling sensitive information with confidentiality. You will also be responsible for registering new patients, updating records, scanning and filing documents, and supporting the clinical and admin teams to ensure the smooth day-to-day running of the practice. Experience using EMIS or the ability to quickly learn clinical systems is essential. This is a busy and rewarding role that requires excellent communication skills, attention to detail, strong IT skills, and the ability to remain calm under pressure. Main Duties and Responsibilities Greet patients and visitors in a professional and welcoming manner Answer telephone calls promptly and efficiently, dealing with patient queries or directing them appropriately Book, amend, and cancel appointments using EMIS clinical system Register new patients and update patient details as needed Process repeat prescription requests and liaise with clinical staff when needed Maintain patient confidentiality at all times Scan, file, and manage incoming documents and patient correspondence Monitor and respond to practice emails and tasks Support clinicians and management with administrative tasks Maintain a clean and organised reception area Work collaboratively with the wider team to ensure excellent patient care Be flexible to cover shifts during staff absences, sickness, or annual leave where possible Excellent communication and interpersonal skills Confident in using computers and clinical systems (EMIS experience desirable) Ability to work well under pressure and manage multiple tasks High attention to detail and accuracy Friendly, professional, and calm manner Strong team player with a proactive attitude Commitment to maintaining confidentiality",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4399-26-0004",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4399-26-0004",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "B"
   },
   {
     "job_id": "nhs-5600185",
@@ -620,11 +634,7 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2119-26-0001",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2119-26-0001",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "B"
   },
   {
     "job_id": "nhs-5595583",
@@ -642,10 +652,6 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/L0034-26-3800",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/L0034-26-3800",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "B"
   }
 ]
