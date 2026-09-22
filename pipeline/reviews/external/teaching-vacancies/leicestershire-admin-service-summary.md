@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Leicestershire
 
-review_date: 2026-09-21
+review_date: 2026-09-22
 review_fingerprint: 2710e784e7607b64d33c8923846100effe531f83d0165fc8ec4c36d29bc1d451
-routing_manifest_sha256: 2a729ec21313d4da60aa88fa99990da9bdacfb4309d0a450f89ade0f3cddc268
+routing_manifest_sha256: 9ae62ebc18958112193239d7aeba38004355f297a14cc10b13ceb6c548e29c9a
 ontap_region: Leicestershire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 6
+- Records: 7
 - Selected: 3
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 2
+- Hard pass: 3
 
 ## SELECTED
 
@@ -90,6 +90,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/marketing-and-communi
 ## HARD_PASS
 
 - [Extended Services Club Manager (EXS031BC)](https://teaching-vacancies.service.gov.uk/jobs/extended-services-club-manager-exs031bc-sileby-redlands-community-primary-school) — Manager title salary ceiling £28,146 is not below £28,000.
+- [Finance and Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-and-operations-manager-learn-academies-trust) — Manager title salary ceiling £57,234 is not below £28,000.
 - [Governance Manager](https://teaching-vacancies.service.gov.uk/jobs/governance-manager-learn-academies-trust) — Manager title salary ceiling £44,104 is not below £28,000.
 
 ## Safety boundary

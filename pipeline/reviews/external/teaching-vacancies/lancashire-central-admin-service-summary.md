@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Lancashire - Central
 
-review_date: 2026-09-21
-review_fingerprint: bd8b357115f99f4280e8271f6ab329b151209a9dd7fbfa1ce535130de17a162a
-routing_manifest_sha256: 2a729ec21313d4da60aa88fa99990da9bdacfb4309d0a450f89ade0f3cddc268
+review_date: 2026-09-22
+review_fingerprint: db7c2b97ffc9ae4e844d28c51a631363675d36d13a4ff053673b4cc6d3b59d6f
+routing_manifest_sha256: 9ae62ebc18958112193239d7aeba38004355f297a14cc10b13ceb6c548e29c9a
 ontap_region: Lancashire - Central
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 1
-- Selected: 1
+- Records: 3
+- Selected: 2
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 0
+- Hard pass: 1
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Lancashire - Central | Preston, North West, PR5 5SS | 29,542.00 - 33,119.00 | Administrator 4 - EHCP Annual Review Coordinator
+employer: Applebee Wood School
+closing_date: 2026-10-05T09:30:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: UNREGISTERED
+migration_status: 
+factual_fingerprint: 2be2c4c072520ccfc74e7e4157d5724f59aee8a2b1a8cfda9b49b65f9ec3ad1c
+source: Teaching Vacancies
+source_job_id: administrator-4-ehcp-annual-review-coordinator
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-4-ehcp-annual-review-coordinator
+---
 
 ---
 action: 
@@ -46,7 +61,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/data-exams-officer-ch
 
 ## HARD_PASS
 
-- None.
+- [Administrative and Operations Lead - Garstang Community Academy](https://teaching-vacancies.service.gov.uk/jobs/administrative-and-operations-lead-garstang-community-academy) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - West
 
-review_date: 2026-09-21
-review_fingerprint: 3f220ff7e4c00f28f86fd758df31052b4be4468cc6f1a74a804c7bf1a22e8892
-routing_manifest_sha256: 2a729ec21313d4da60aa88fa99990da9bdacfb4309d0a450f89ade0f3cddc268
+review_date: 2026-09-22
+review_fingerprint: 2d8ec47c5b032645213a6d27163c90ded5f97cfd80bcbb6db6959f71450b463e
+routing_manifest_sha256: 9ae62ebc18958112193239d7aeba38004355f297a14cc10b13ceb6c548e29c9a
 ontap_region: Yorkshire - West
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 33
-- Selected: 15
+- Records: 34
+- Selected: 18
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 16
+- Hard pass: 14
 
 ## SELECTED
 
@@ -128,6 +128,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/apprentice-admin-assi
 
 ---
 action: 
+SELECTED | Yorkshire - West | Ossett, Yorkshire and the Humber, WF5 9BS | £24,391.00 - £25,590.00 Annually (Actual) term time plus 5 days | Attendance & Admissions Officer
+employer: Highfield School
+closing_date: 2026-09-28T09:00:00+01:00
+reason: Clear admin/service title: admissions officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: NEW_REVIEW
+factual_fingerprint: 6b191281391407b4b05ca71a54dd40c35951e42945a20b56a68bc8656f47ff93
+source: Teaching Vacancies
+source_job_id: attendance-admissions-officer-highfield-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-admissions-officer-highfield-school
+---
+
+---
+action: 
 SELECTED | Yorkshire - West | Huddersfield, Yorkshire and the Humber, HD1 4BJ | £11,722.00 Annually (Actual) Term Time only | Business Support Officer
 employer: Spring Grove Junior Infant and Nursery School
 closing_date: 2026-09-25T23:59:00+01:00
@@ -218,6 +233,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-
 
 ---
 action: 
+SELECTED | Yorkshire - West | Bradford, Yorkshire and the Humber, BD8 7DX | £30,515.00 - £33,119.00 Annually (FTE) Grade F Points 14 to 18 (£30, 515 to £33,119 Full Time Equivalent) subject to pro rata. The minimum actual pro rata salary per annum for this job starts at £26,362.80. | PA to the Principal (7519)
+employer: Valley Academy
+closing_date: 2026-10-05T23:59:00+01:00
+reason: Clear admin/service title: pa to
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: NEW_REVIEW
+factual_fingerprint: 1ea7a8a06c883353aab42ee86d30a68ee0c4fcc4db5b089db817d19d311abd19
+source: Teaching Vacancies
+source_job_id: pa-to-the-principal-7519
+source_url: https://teaching-vacancies.service.gov.uk/jobs/pa-to-the-principal-7519
+---
+
+---
+action: 
 SELECTED | Yorkshire - West | Knottingley, WF11 0EP | £25,614.00 - £25,614.00 Annually (Actual) Grade B Point 3 (£25,614 per annum) | Receptionist (7475)
 employer: Delta Academies Trust
 closing_date: 2026-09-23T23:59:00+01:00
@@ -244,6 +274,21 @@ factual_fingerprint: c00863f44abe95b6bc4e1a9dab4398706c6507806d1eb03e99b7410b4d3
 source: Teaching Vacancies
 source_job_id: receptionist-and-administration-assistant-leeds-east-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-and-administration-assistant-leeds-east-academy
+---
+
+---
+action: 
+SELECTED | Yorkshire - West | Knottingley, WF11 0EP | £26,847.00 - £27,709.00 Annually (FTE) Grade D Points 6 to 8 (£26,847 - £27,709) | Recruitment Administrator (7575)
+employer: Delta Academies Trust
+closing_date: 2026-10-05T12:00:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: NEW_REVIEW
+factual_fingerprint: 794cf9e3ab60266f480339a49d9e9d8bc066d6078f41e4ad6169c57cc7ddfab2
+source: Teaching Vacancies
+source_job_id: recruitment-administrator-7575
+source_url: https://teaching-vacancies.service.gov.uk/jobs/recruitment-administrator-7575
 ---
 
 ## POSS — choose SELECT or EXCLUDE
@@ -290,11 +335,9 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/deputy-student-servic
 - [Data, MIS and Admissions Manager](https://teaching-vacancies.service.gov.uk/jobs/data-mis-and-admissions-manager-batley-grammar-school-batley-west-yorkshire) — Manager title salary ceiling £38,267 is not below £28,000.
 - [Exam Invigilator](https://teaching-vacancies.service.gov.uk/jobs/exam-invigilator-leeds-city-academy-leeds-west-yorkshire) — Insufficient admin/service evidence.
 - [Exam Invigilators](https://teaching-vacancies.service.gov.uk/jobs/exam-invigilators-beckfoot-trust) — Insufficient admin/service evidence.
-- [Family Liaison Officer](https://teaching-vacancies.service.gov.uk/jobs/family-liaison-officer-buttershaw-business-enterprise-college-academy-bradford-west-yorkshire) — Insufficient admin/service evidence.
 - [Finance Manager (Core Team)](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-core-team) — Manager title salary ceiling £49,282 is not below £28,000.
 - [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-greengates-primary-academy-bradford-west-yorkshire) — Insufficient admin/service evidence.
 - [HR Advisor (Central Team)](https://teaching-vacancies.service.gov.uk/jobs/hr-advisor-central-team) — Insufficient admin/service evidence.
-- [Operations Lead](https://teaching-vacancies.service.gov.uk/jobs/operations-lead-menston-primary-school-ilkley-west-yorkshire) — Insufficient admin/service evidence.
 - [People Advisor (Temporary Maternity Cover)](https://teaching-vacancies.service.gov.uk/jobs/people-advisor-temporary-maternity-cover) — Insufficient admin/service evidence.
 - [Senior Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-administration-officer-altofts-junior-academy) — Insufficient admin/service evidence.
 - [Senior Administrator](https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-linthwaite-clough-primary-school) — Missing salary or pay scale.

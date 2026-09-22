@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cheshire - East
 
-review_date: 2026-09-21
+review_date: 2026-09-22
 review_fingerprint: 9a6f1d7d3642d0daa682289281a25d46b41efad033b0d9f864aa47fbfbeeef9a
-routing_manifest_sha256: 2a729ec21313d4da60aa88fa99990da9bdacfb4309d0a450f89ade0f3cddc268
+routing_manifest_sha256: 9ae62ebc18958112193239d7aeba38004355f297a14cc10b13ceb6c548e29c9a
 ontap_region: Cheshire - East
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 4
+- Records: 3
 - Selected: 1
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 3
+- Hard pass: 2
 
 ## SELECTED
 
@@ -46,7 +46,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/sixth-form-administra
 
 ## HARD_PASS
 
-- [Clerical Assistant](https://teaching-vacancies.service.gov.uk/jobs/clerical-assistant-leighton-academy) — Insufficient admin/service evidence.
 - [Director of People](https://teaching-vacancies.service.gov.uk/jobs/director-of-people-the-learning-partnership-academies-trust-crewe-not-recorded) — Insufficient admin/service evidence.
 - [Procurement and Contracts Manager](https://teaching-vacancies.service.gov.uk/jobs/procurement-and-contracts-manager-the-learning-partnership-academies-trust) — Manager title salary ceiling £56,084 is not below £28,000.
 

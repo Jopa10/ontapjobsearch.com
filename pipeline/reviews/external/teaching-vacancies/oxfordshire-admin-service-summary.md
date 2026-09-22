@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Oxfordshire
 
-review_date: 2026-09-21
-review_fingerprint: b653f94e3e4e09515427e9ce6a3ebcf34f8eb054e6a6074bfc1d948d5aca5374
-routing_manifest_sha256: 2a729ec21313d4da60aa88fa99990da9bdacfb4309d0a450f89ade0f3cddc268
+review_date: 2026-09-22
+review_fingerprint: 7d7d142eb343e8b5fe11915846cd7fe44d9c193da7359549162d401b5be7ff06
+routing_manifest_sha256: 9ae62ebc18958112193239d7aeba38004355f297a14cc10b13ceb6c548e29c9a
 ontap_region: Oxfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 18
-- Selected: 9
+- Records: 17
+- Selected: 8
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 9
 
 ## SELECTED
-
----
-action: 
-SELECTED | Oxfordshire | Banbury, South East, OX15 4UL | £23,787.11 Annually (FTE) Grade 6 | Administration Assistant
-employer: Bloxham Grove Academy
-closing_date: 2026-09-28T09:00:00+01:00
-reason: Clear admin/service title: administration assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: fd3c45c8cb848d796c856d9d93acf0b067ef5e780d1557389869a6ba3265c7df
-source: Teaching Vacancies
-source_job_id: administration-assistant-bloxham-grove-academy-banbury
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-bloxham-grove-academy-banbury
----
 
 ---
 action: 

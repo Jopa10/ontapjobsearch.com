@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Suffolk
 
-review_date: 2026-09-21
+review_date: 2026-09-22
 review_fingerprint: e55ccb0ce8f6b835c8cd4f41ade4280eca90bea63237398362320ce0b6127455
-routing_manifest_sha256: 2a729ec21313d4da60aa88fa99990da9bdacfb4309d0a450f89ade0f3cddc268
+routing_manifest_sha256: 9ae62ebc18958112193239d7aeba38004355f297a14cc10b13ceb6c548e29c9a
 ontap_region: Suffolk
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 9
+- Records: 8
 - Selected: 2
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 6
+- Hard pass: 5
 
 ## SELECTED
 
@@ -77,7 +77,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/operations-officer-gl
 - [Admissions and Review Officer](https://teaching-vacancies.service.gov.uk/jobs/admissions-and-review-officer-eastern-education-group-trust) — Insufficient admin/service evidence.
 - [Attendance and Inclusion Support Officer](https://teaching-vacancies.service.gov.uk/jobs/attendance-and-inclusion-support-officer) — Insufficient admin/service evidence.
 - [Curriculum and Reception Assistant](https://teaching-vacancies.service.gov.uk/jobs/curriculum-and-reception-assistant) — Insufficient admin/service evidence.
-- [Data Manager](https://teaching-vacancies.service.gov.uk/jobs/data-manager-holbrook-academy) — Manager title salary ceiling £34,811 is not below £28,000.
 - [Office Manager and Exams Officer](https://teaching-vacancies.service.gov.uk/jobs/office-manager-and-exams-officer) — Manager title salary ceiling £32,597 is not below £28,000.
 - [Training and Development Lead](https://teaching-vacancies.service.gov.uk/jobs/training-and-development-lead-1c8d3225-0446-4fe7-beb0-048e224f5e3e) — Insufficient admin/service evidence.
 

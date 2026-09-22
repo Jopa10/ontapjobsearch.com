@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Hertfordshire
 
-review_date: 2026-09-21
-review_fingerprint: 269ef8b095fc90bead356719a905fab0fbcd1262342a99257d747cea5b247971
-routing_manifest_sha256: 2a729ec21313d4da60aa88fa99990da9bdacfb4309d0a450f89ade0f3cddc268
+review_date: 2026-09-22
+review_fingerprint: d8e83b75b2795ef270de338d678f83e176e2f6c6bccf7c58e9f35bfd398b5b82
+routing_manifest_sha256: 9ae62ebc18958112193239d7aeba38004355f297a14cc10b13ceb6c548e29c9a
 ontap_region: Hertfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 14
+- Records: 15
 - Selected: 7
-- POSS awaiting decision: 4
+- POSS awaiting decision: 5
 - Excluded: 0
 - Hard pass: 3
 
@@ -156,6 +156,21 @@ factual_fingerprint: f4031657b8ae2307891fe5ca2dcfc49ffa63e891a790ccc829783665a50
 source: Teaching Vacancies
 source_job_id: attendance-and-admin-officer-katherine-warington-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-and-admin-officer-katherine-warington-school
+---
+
+---
+action: 
+POSS | Hertfordshire | Stevenage, SG1 5BZ | £12,521.00 - £13,197.00 Annually (Actual) | Finance Assistant
+employer: Brighter Futures Educational Trust
+closing_date: 2026-10-02T23:59:00+01:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: ef754af14c304fe27a335aef24cb190e2291378fed9b59299bbce8d5e8da8f77
+source: Teaching Vacancies
+source_job_id: finance-assistant-brighter-futures-educational-trust
+source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-brighter-futures-educational-trust
 ---
 
 ---

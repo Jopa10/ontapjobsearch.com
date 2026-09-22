@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Devon
 
-review_date: 2026-09-21
-review_fingerprint: adbdce5096f68bfede8d771186cb42099f63bb0ce2f2a42a7915c5e6c7fa11ad
-routing_manifest_sha256: 2a729ec21313d4da60aa88fa99990da9bdacfb4309d0a450f89ade0f3cddc268
+review_date: 2026-09-22
+review_fingerprint: aa24a5a390d2f78d24e1563dc04e51ac1df25c83c128404398e14e76a6478e1c
+routing_manifest_sha256: 9ae62ebc18958112193239d7aeba38004355f297a14cc10b13ceb6c548e29c9a
 ontap_region: Devon
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 26
-- Selected: 12
+- Records: 24
+- Selected: 10
 - POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 12
@@ -113,21 +113,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/recruitment-and-peopl
 
 ---
 action: 
-SELECTED | Devon | Paignton, South West, TQ3 2AL | £25,923.00 Annually (FTE) £23,755 actual | School Administrator
-employer: Brunel School
-closing_date: 2026-09-25T23:59:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: c119e80047985fa6262c5a435640470500aab1ea792db834390dde8d7cc50708
-source: Teaching Vacancies
-source_job_id: school-administrator-brunel-school-paignton-devon
-source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-brunel-school-paignton-devon
----
-
----
-action: 
 SELECTED | Devon | Plymouth, South West, PL5 2DW | £26,847 - 27,274 FTE | School Administrator
 employer: St Budeaux CofE Primary Academy
 closing_date: 2026-10-07T12:00:00+01:00
@@ -154,21 +139,6 @@ factual_fingerprint: cba78843b31d017695c0778f96b53e5bde1c20bd49241631acd860039fa
 source: Teaching Vacancies
 source_job_id: school-hub-administrator
 source_url: https://teaching-vacancies.service.gov.uk/jobs/school-hub-administrator
----
-
----
-action: 
-SELECTED | Devon | Plymouth, South West, PL1 5QG | Term Time | Permanent | £23,580 Per Annum (Pro Rata of £26,440 Per Annum) | Schools Liaison Administrator
-employer: City College Plymouth
-closing_date: 2026-09-21T23:59:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: f4bedfb6dfab2f38a344b854dda65b364ac739fafe872ad12027238826c35bf0
-source: Teaching Vacancies
-source_job_id: schools-liaison-administrator
-source_url: https://teaching-vacancies.service.gov.uk/jobs/schools-liaison-administrator
 ---
 
 ---
@@ -244,9 +214,9 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-pupil-services
 - [Apprenticeship and PTSA Operations Coordinator](https://teaching-vacancies.service.gov.uk/jobs/apprenticeship-and-ptsa-operations-coordinator) — Insufficient admin/service evidence.
 - [Chief Financial Officer (CFO)](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-cfo-torquay-boys-grammar-school-torquay-devon) — Insufficient admin/service evidence.
 - [Cover Supervisor](https://teaching-vacancies.service.gov.uk/jobs/cover-supervisor-0263aaa9-e252-4340-b2d6-102751e90f65) — Insufficient admin/service evidence.
-- [Creative Performing Arts Administration Support Assistant](https://teaching-vacancies.service.gov.uk/jobs/creative-performing-arts-administration-support-assistant) — Insufficient admin/service evidence.
 - [Executive Assistant](https://teaching-vacancies.service.gov.uk/jobs/executive-assistant-blackpool-church-of-england-primary-school) — Insufficient admin/service evidence.
 - [Executive Assistant](https://teaching-vacancies.service.gov.uk/jobs/executive-assistant-chulmleigh-community-college) — Missing salary or pay scale.
+- [Finance and Contracts Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-and-contracts-officer) — Insufficient admin/service evidence.
 - [Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-dartmoor-multi-academy-trust) — Insufficient admin/service evidence.
 - [Finance Business Partner - Maternity Cover](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-maternity-cover) — Insufficient admin/service evidence.
 - [HR Assistant](https://teaching-vacancies.service.gov.uk/jobs/hr-assistant-cann-bridge-school) — Insufficient admin/service evidence.

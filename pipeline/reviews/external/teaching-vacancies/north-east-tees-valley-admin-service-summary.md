@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — North East - Tees Valley
 
-review_date: 2026-09-21
-review_fingerprint: 5026555e0a2a2108f6c65d51dbd3330555987cbd9922d2a38150423861210be1
-routing_manifest_sha256: 2a729ec21313d4da60aa88fa99990da9bdacfb4309d0a450f89ade0f3cddc268
+review_date: 2026-09-22
+review_fingerprint: 3a9a2a0b34bb7c224380a5bed94d7e81e1d53e90e904e6b2c9f873d2b88ccbef
+routing_manifest_sha256: 9ae62ebc18958112193239d7aeba38004355f297a14cc10b13ceb6c548e29c9a
 ontap_region: North East - Tees Valley
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 3
-- Selected: 1
+- Records: 7
+- Selected: 2
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 1
+- Hard pass: 4
 
 ## SELECTED
 
@@ -34,6 +34,21 @@ factual_fingerprint: 06980d3572d33be6654f0741655a2da351540c82d223e456fb67e92fbbb
 source: Teaching Vacancies
 source_job_id: administration-assistant-nunthorpe-school-sixth-form
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-nunthorpe-school-sixth-form
+---
+
+---
+action: 
+SELECTED | North East - Tees Valley | Saltburn By the Sea, North East, TS12 1HJ | Grade C, SCP 3 | Receptionist
+employer: Huntcliff School
+closing_date: 2026-10-12T09:00:00+01:00
+reason: Clear admin/service title: receptionist
+jobg8_check: NO_MATCH
+slice_status: UNREGISTERED
+migration_status: 
+factual_fingerprint: 64903b019f3332944046ba1ec2aa71f1572fb2b01b2457ae633d99428e43dc2f
+source: Teaching Vacancies
+source_job_id: receptionist-huntcliff-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-huntcliff-school
 ---
 
 ## POSS — choose SELECT or EXCLUDE
@@ -59,6 +74,9 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-office
 
 ## HARD_PASS
 
+- [Administration Support Clerk](https://teaching-vacancies.service.gov.uk/jobs/administration-support-clerk-acklam-grange-school) — Insufficient admin/service evidence.
+- [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-326e8711-30eb-4683-b8a7-6e0c7757378c) — Insufficient admin/service evidence.
+- [Office Manager and PA to the Headteacher](https://teaching-vacancies.service.gov.uk/jobs/office-manager-and-pa-to-the-headteacher-our-lady-st-bede-catholic-academy-stockton-on-tees-cleveland) — Manager title salary ceiling £33,699 is not below £28,000.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-st-patrick-s-catholic-college-a-voluntary-catholic-academy) — Manager title salary ceiling £35,412 is not below £28,000.
 
 ## Safety boundary

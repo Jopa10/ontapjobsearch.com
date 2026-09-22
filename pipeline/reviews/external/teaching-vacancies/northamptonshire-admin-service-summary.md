@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Northamptonshire
 
-review_date: 2026-09-21
-review_fingerprint: 7d610ea548b57febd89ddaec126e9783615340d3c4813aab65373e34daf4913f
-routing_manifest_sha256: 2a729ec21313d4da60aa88fa99990da9bdacfb4309d0a450f89ade0f3cddc268
+review_date: 2026-09-22
+review_fingerprint: c27df06f89ea6248d8e78943b8a767f5b8b6875024272e0332009ee700ae0e41
+routing_manifest_sha256: 9ae62ebc18958112193239d7aeba38004355f297a14cc10b13ceb6c548e29c9a
 ontap_region: Northamptonshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 10
-- Selected: 4
+- Records: 11
+- Selected: 5
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 6
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Northamptonshire | Northampton, East Midlands, NN3 3QF | £26,016.00 Annually (FTE) NJC 4: £26,016.00 FTE, £13,896.42 pro-rata per annum for working 22.5 hours per week, 39 term time weeks per annum | Academy Administrator - Part Time
+employer: The Arbours Primary Academy
+closing_date: 2026-10-20T23:59:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: c82959177f6bff5d9f6ddae0f98a061fba4c87f6fb1a4b655c4cd02e44a6ef02
+source: Teaching Vacancies
+source_job_id: academy-administrator-part-time
+source_url: https://teaching-vacancies.service.gov.uk/jobs/academy-administrator-part-time
+---
 
 ---
 action: 
@@ -60,7 +75,7 @@ reason: Clear admin/service title: admin assistant, receptionist
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: e9e02b90baf635e357fb2fbb858efe845d67871041555b0571be06653184a511
+factual_fingerprint: 34f3afab7f0132bf49d6828ddcc49397892944ceccb967e253c4d67ebd6cf3ee
 source: Teaching Vacancies
 source_job_id: receptionist-admin-assistant-parklands-nursery-school-northampton-northamptonshire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-admin-assistant-parklands-nursery-school-northampton-northamptonshire

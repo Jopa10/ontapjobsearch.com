@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Greater Manchester - Wigan & Bolton
 
-review_date: 2026-09-21
-review_fingerprint: 3e865bd835bca39dc997daf2b360f40ef3da6bea4c3438d74b03b9203df250db
-routing_manifest_sha256: 2a729ec21313d4da60aa88fa99990da9bdacfb4309d0a450f89ade0f3cddc268
+review_date: 2026-09-22
+review_fingerprint: ba92f69fda3dae63436c0b65a80a3aa04bc928a168d4430a93ca5b39e28dd5f4
+routing_manifest_sha256: 9ae62ebc18958112193239d7aeba38004355f297a14cc10b13ceb6c548e29c9a
 ontap_region: Greater Manchester - Wigan & Bolton
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 5
+- Records: 4
 - Selected: 0
-- POSS awaiting decision: 1
+- POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 4
+- Hard pass: 2
 
 ## SELECTED
 
@@ -40,14 +40,27 @@ source_job_id: finance-assistant-mosaic-learning-trust
 source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-mosaic-learning-trust
 ---
 
+---
+action: 
+POSS | Greater Manchester - Wigan & Bolton | Bolton, North West, BL3 1NG | £26,847.00 - £29,071.00 Annually (Actual) 25 hours per week 9.30am to 2.30pm actual salary is between £15,533.19 to £16,552.07 | Senior Clerical Assistant (Maternity Cover)
+employer: Ladywood School
+closing_date: 2026-11-08T23:59:00+00:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 615c531eed1b6be6ee36a865989683c95ef9efcad58176e9f1c548f055aaf208
+source: Teaching Vacancies
+source_job_id: senior-clerical-assistant-maternity-cover
+source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-clerical-assistant-maternity-cover
+---
+
 ## EXCLUDED BY REVIEW
 
 - None.
 
 ## HARD_PASS
 
-- [Attendance and Welfare Support](https://teaching-vacancies.service.gov.uk/jobs/attendance-and-welfare-support-the-westleigh-school-leigh-lancashire) — Insufficient admin/service evidence.
-- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-king-s-leadership-academy-bolton) — Manager title salary ceiling £32,046 is not below £28,000.
 - [School Office Manager - Primary](https://teaching-vacancies.service.gov.uk/jobs/school-office-manager-primary) — Manager title salary ceiling £35,412 is not below £28,000.
 - [Senior Clerical Assistant](https://teaching-vacancies.service.gov.uk/jobs/senior-clerical-assistant-lostock-primary-school-bolton-lancashire) — Insufficient admin/service evidence.
 

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Greater Manchester - Manchester & Salford
 
-review_date: 2026-09-21
-review_fingerprint: b670cc53812d5c914209c42e29f4904d19dadddae44c1d4805de8b9c57819149
-routing_manifest_sha256: 2a729ec21313d4da60aa88fa99990da9bdacfb4309d0a450f89ade0f3cddc268
+review_date: 2026-09-22
+review_fingerprint: e1f05a3f0370db054e5a9a8b0fe4ae141d0c65e45054ee812cf84ca3eeaf715c
+routing_manifest_sha256: 9ae62ebc18958112193239d7aeba38004355f297a14cc10b13ceb6c548e29c9a
 ontap_region: Greater Manchester - Manchester & Salford
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 8
+- Records: 10
 - Selected: 5
-- POSS awaiting decision: 0
+- POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 3
 
@@ -98,7 +98,35 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-
 
 ## POSS — choose SELECT or EXCLUDE
 
-- None.
+---
+action: 
+POSS | Greater Manchester - Manchester & Salford | Manchester, North West, M19 1FS | £27,274.00 - £29,071.00 Annually (Actual) NJC Grade 4, Points 7-11 | Administrative Support Assistant
+employer: Levenshulme High School
+closing_date: 2026-10-07T08:00:00+01:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: f97310b9a2c98f4805408fbb308cb06372ac0060729a58ceff5836faa3e9f857
+source: Teaching Vacancies
+source_job_id: administrative-support-assistant-levenshulme-high-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-support-assistant-levenshulme-high-school
+---
+
+---
+action: 
+POSS | Greater Manchester - Manchester & Salford | Manchester, North West, M19 1FS | £23,460.00 - £25,006.00 Annually (Actual) NJC Grade 4, Points 7-11 | Inclusion Administration Officer
+employer: Levenshulme High School
+closing_date: 2026-09-28T08:00:00+01:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: ec5436af541cda84e64c6e90914cad84d70c87ef28e118831e5ed14c7a2e48e3
+source: Teaching Vacancies
+source_job_id: inclusion-administration-officer
+source_url: https://teaching-vacancies.service.gov.uk/jobs/inclusion-administration-officer
+---
 
 ## EXCLUDED BY REVIEW
 

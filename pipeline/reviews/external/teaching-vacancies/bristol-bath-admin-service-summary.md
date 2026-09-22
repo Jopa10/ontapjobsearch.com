@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Bristol & Bath
 
-review_date: 2026-09-21
-review_fingerprint: b25a91c297a5cf050ba2531e4546d3452145a7a2d57226fa9a9139766cf57310
-routing_manifest_sha256: 2a729ec21313d4da60aa88fa99990da9bdacfb4309d0a450f89ade0f3cddc268
+review_date: 2026-09-22
+review_fingerprint: 4e1d18612492625dc6cc943bef6c55d33db4e9bd432d7dfc346924e31bf35760
+routing_manifest_sha256: 9ae62ebc18958112193239d7aeba38004355f297a14cc10b13ceb6c548e29c9a
 ontap_region: Bristol & Bath
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 9
-- Selected: 3
+- Records: 8
+- Selected: 2
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 6
@@ -49,21 +49,6 @@ factual_fingerprint: 038280ee0d3daa8eb74491b25902af1ebbf29af8bf1a1f07f93c2f002ef
 source: Teaching Vacancies
 source_job_id: exams-officer-downend-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-downend-school
----
-
----
-action: 
-SELECTED | Bristol & Bath | Bristol, South West, BS31 1PQ | Pro Rata: £27,274 Pro Rata'd: £23,119 | Office Assistant
-employer: Chandag Primary School
-closing_date: 2026-09-21T23:59:00+01:00
-reason: Clear admin/service title: office assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 128f6bcfe919be3ed0e1d6ccd6e0d01ffb52d62ef6330d50ed9830f7a6faaae2
-source: Teaching Vacancies
-source_job_id: office-assistant-chandag-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/office-assistant-chandag-primary-school
 ---
 
 ## POSS — choose SELECT or EXCLUDE

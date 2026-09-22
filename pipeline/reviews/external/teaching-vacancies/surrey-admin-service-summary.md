@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Surrey
 
-review_date: 2026-09-21
-review_fingerprint: 1178c0ad093a0712a22a7821a6caf543b2e41de15c67487af4b1793984744261
-routing_manifest_sha256: 2a729ec21313d4da60aa88fa99990da9bdacfb4309d0a450f89ade0f3cddc268
+review_date: 2026-09-22
+review_fingerprint: 8e87674431f8ec98e0b4f0737d8dfc3d52035144a09b4a19746bd7fad69b4e69
+routing_manifest_sha256: 9ae62ebc18958112193239d7aeba38004355f297a14cc10b13ceb6c548e29c9a
 ontap_region: Surrey
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 6
-- Selected: 2
+- Records: 7
+- Selected: 3
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 4
@@ -49,6 +49,21 @@ factual_fingerprint: 75b2acd183694df85fbada9f86d187312d4935673006f0ef239a7d4784f
 source: Teaching Vacancies
 source_job_id: safeguarding-and-send-administrative-assistant-eastwick-infant-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/safeguarding-and-send-administrative-assistant-eastwick-infant-school
+---
+
+---
+action: 
+SELECTED | Surrey | Godalming, South East, GU8 4DX | S3, scale points 20.1 – 23, depending on experience. FTE: £28,637 - £30,484; Actual: £23,840.67 - £25,378.32 | SEN Administrator
+employer: St Dominic's School
+closing_date: 2026-10-11T23:59:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 3cec59438802a50c87440ad40eeef4c93d914a6680f9d7ac0b30afceb86b1849
+source: Teaching Vacancies
+source_job_id: sen-administrator-a73e2173-5c60-48da-8b9b-ca0b2be7c7a6
+source_url: https://teaching-vacancies.service.gov.uk/jobs/sen-administrator-a73e2173-5c60-48da-8b9b-ca0b2be7c7a6
 ---
 
 ## POSS — choose SELECT or EXCLUDE

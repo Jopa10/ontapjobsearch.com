@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Greater Manchester - South
 
-review_date: 2026-09-21
+review_date: 2026-09-22
 review_fingerprint: f601e1381ffc2788858b81ceb8636814a182d100458409b4bdb0895ed628a8b6
-routing_manifest_sha256: 2a729ec21313d4da60aa88fa99990da9bdacfb4309d0a450f89ade0f3cddc268
+routing_manifest_sha256: 9ae62ebc18958112193239d7aeba38004355f297a14cc10b13ceb6c548e29c9a
 ontap_region: Greater Manchester - South
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 4
+- Records: 5
 - Selected: 0
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 2
+- Hard pass: 3
 
 ## SELECTED
 
@@ -61,6 +61,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-admininstrator
 
 ## HARD_PASS
 
+- [Business Administrator (Maternity Cover)](https://teaching-vacancies.service.gov.uk/jobs/business-administrator-maternity-cover-thomas-ashton-school) — Missing salary or pay scale.
 - [Casual Committee Clerk](https://teaching-vacancies.service.gov.uk/jobs/casual-committee-clerk-the-laurus-trust-cheadle-not-recorded) — Insufficient admin/service evidence.
 - [HR Business Partner](https://teaching-vacancies.service.gov.uk/jobs/hr-business-partner-ashton-on-mersey-school) — Insufficient admin/service evidence.
 

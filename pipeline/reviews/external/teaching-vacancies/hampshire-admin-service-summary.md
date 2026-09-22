@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Hampshire
 
-review_date: 2026-09-21
+review_date: 2026-09-22
 review_fingerprint: c97f5e6e2f6cebbb1bd91a70f0ac3eec902886e602c1a1aaf10fe4cb3937d279
-routing_manifest_sha256: 2a729ec21313d4da60aa88fa99990da9bdacfb4309d0a450f89ade0f3cddc268
+routing_manifest_sha256: 9ae62ebc18958112193239d7aeba38004355f297a14cc10b13ceb6c548e29c9a
 ontap_region: Hampshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 12
+- Records: 9
 - Selected: 4
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 8
+- Hard pass: 5
 
 ## SELECTED
 
@@ -91,13 +91,10 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/personal-assistant-to
 
 ## HARD_PASS
 
-- [Administration & Reception Assistant](https://teaching-vacancies.service.gov.uk/jobs/administration-reception-assistant-cove-school) — Missing salary or pay scale.
 - [Apprentice Admin Assistant](https://teaching-vacancies.service.gov.uk/jobs/apprentice-admin-assistant-penbridge-junior-school) — Missing salary or pay scale.
 - [Cover Co-ordinator and Cover Supervisor](https://teaching-vacancies.service.gov.uk/jobs/cover-co-ordinator-and-cover-supervisor) — Insufficient admin/service evidence.
 - [Deputy School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/deputy-school-business-manager-crestwood-community-school) — Manager title salary ceiling £46,565 is not below £28,000.
-- [Exams Access Arrangements Coordinator](https://teaching-vacancies.service.gov.uk/jobs/exams-access-arrangements-coordinator-ringwood-school-academy) — Insufficient admin/service evidence.
 - [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-the-romsey-school) — Insufficient admin/service evidence.
-- [PA](https://teaching-vacancies.service.gov.uk/jobs/pa) — Insufficient admin/service evidence.
 - [School Resources/Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/school-resources-administration-assistant) — Insufficient admin/service evidence.
 
 ## Safety boundary

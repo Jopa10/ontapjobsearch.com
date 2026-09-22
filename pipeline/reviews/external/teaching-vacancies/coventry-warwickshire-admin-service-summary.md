@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Coventry & Warwickshire
 
-review_date: 2026-09-21
-review_fingerprint: 2aec2f4c0e56922ae0d9650d99835a59d097fc6592174a70354ebeb41db42246
-routing_manifest_sha256: 2a729ec21313d4da60aa88fa99990da9bdacfb4309d0a450f89ade0f3cddc268
+review_date: 2026-09-22
+review_fingerprint: 8411a58d126fdcca87721f3729f9f7fe3a85d010bdfc6e65d0eadcbbdb5883a1
+routing_manifest_sha256: 9ae62ebc18958112193239d7aeba38004355f297a14cc10b13ceb6c548e29c9a
 ontap_region: West Midlands - Coventry & Warwickshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 11
-- Selected: 3
+- Records: 15
+- Selected: 5
 - POSS awaiting decision: 4
 - Excluded: 0
-- Hard pass: 4
+- Hard pass: 6
 
 ## SELECTED
 
@@ -38,6 +38,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assist
 
 ---
 action: 
+SELECTED | West Midlands - Coventry & Warwickshire | Coventry, West Midlands, CV3 3AE | £25,583.00 Annually (FTE) Monday to Friday 8.30am to 11.30am | Administration Assistant
+employer: Stretton Church of England Academy
+closing_date: 2026-10-08T23:59:00+01:00
+reason: Clear admin/service title: administration assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: e3864591fa2c67b5d1f7962f4b790a36675271c163a973a50dbcbed326c9afa7
+source: Teaching Vacancies
+source_job_id: administration-assistant-stretton-church-of-england-academy-coventry-west-midlands
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-stretton-church-of-england-academy-coventry-west-midlands
+---
+
+---
+action: 
 SELECTED | West Midlands - Coventry & Warwickshire | Studley, West Midlands, B80 7ND | £25,583.00 - £25,989.00 Annually (FTE) Actual salary £9,039 to £9,183 per annum, working 2 days per week | Administrator
 employer: Studley St Mary's CofE Academy
 closing_date: 2026-09-29T23:59:00+01:00
@@ -49,6 +64,21 @@ factual_fingerprint: 9c89a0da9ef60984ffdc9749119453e3c726d91da6ece63e29e5d95fbed
 source: Teaching Vacancies
 source_job_id: administrator-studley-st-mary-s-cofe-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-studley-st-mary-s-cofe-academy
+---
+
+---
+action: 
+SELECTED | West Midlands - Coventry & Warwickshire | Rugby, West Midlands, CV22 6EA | £15,152.00 Annually (FTE) • 25 hours/week, Monday-Friday, 9:30 am to 2:30pm | Data Administrator
+employer: Harris Church of England Academy
+closing_date: 2026-10-08T23:59:00+01:00
+reason: Clear admin/service title: administrator, data administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: c269735dcd2b266d328ba568ddf02dd6d2ab8e47eb0c1cbd15b8e887ad08efbc
+source: Teaching Vacancies
+source_job_id: data-administrator-harris-church-of-england-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/data-administrator-harris-church-of-england-academy
 ---
 
 ---
@@ -135,9 +165,11 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/trust-finance-officer
 ## HARD_PASS
 
 - [Campaign Manager](https://teaching-vacancies.service.gov.uk/jobs/campaign-manager-lawrence-sheriff-school) — Manager title salary ceiling £40,444 is not below £28,000.
+- [Chief Financial Officer (CFO)](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-cfo-triumph-learning-trust-rugby-not-recorded) — Insufficient admin/service evidence.
 - [EHCP Co-ordinator](https://teaching-vacancies.service.gov.uk/jobs/ehcp-co-ordinator-discovery-academy) — Insufficient admin/service evidence.
 - [Facilities Apprentice](https://teaching-vacancies.service.gov.uk/jobs/facilities-apprentice-f2150388-8c53-4434-b5c5-9e0ddc54626d) — Insufficient admin/service evidence.
 - [MAT Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/mat-finance-officer-sidney-stringer-multi-academy-trust-coventry-not-recorded) — Insufficient admin/service evidence.
+- [PE Sports and Personal Development Assistant](https://teaching-vacancies.service.gov.uk/jobs/pe-sports-and-personal-development-assistant) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

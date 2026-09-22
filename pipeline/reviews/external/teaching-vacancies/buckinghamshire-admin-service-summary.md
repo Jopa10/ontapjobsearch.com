@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Buckinghamshire
 
-review_date: 2026-09-21
-review_fingerprint: dad629945b4eb33743d43b6b2becf6a36d269aee100338dc4c72c9370ba958b6
-routing_manifest_sha256: 2a729ec21313d4da60aa88fa99990da9bdacfb4309d0a450f89ade0f3cddc268
+review_date: 2026-09-22
+review_fingerprint: 06b00859f65142b9cbc52948e026322670fb773c3ae710853b758ced398326e8
+routing_manifest_sha256: 9ae62ebc18958112193239d7aeba38004355f297a14cc10b13ceb6c548e29c9a
 ontap_region: Buckinghamshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 14
-- Selected: 7
+- Records: 17
+- Selected: 9
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 7
+- Hard pass: 8
 
 ## SELECTED
 
@@ -83,6 +83,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-prison-
 
 ---
 action: 
+SELECTED | Buckinghamshire | Aylesbury, South East, HP22 7BR | £29,156.00 - £31,413.00 Annually (Actual) Bucks Pay Range 5 £29,156 to £31,413 (Full time equivalent to £34,319 to 36,975) | ARC Administrator
+employer: The Kingsbrook School
+closing_date: 2026-10-06T12:00:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: f99444afc5d1849323ce2a57354d4923d694b96c02a452d398790b0d1c8f77d9
+source: Teaching Vacancies
+source_job_id: arc-administrator
+source_url: https://teaching-vacancies.service.gov.uk/jobs/arc-administrator
+---
+
+---
+action: 
 SELECTED | Buckinghamshire | Amersham, South East, HP7 9HH | Bucks Pay Range 3.16 £24,074 pro rata / £29,114 FTE | Attendance Officer
 employer: Amersham School
 closing_date: 2026-09-25T23:59:00+01:00
@@ -109,6 +124,21 @@ factual_fingerprint: 7083a3e840f99e3c29a57cc8f4a0eb1be9e616f6d2d53b67c733a2f36a0
 source: Teaching Vacancies
 source_job_id: morning-receptionist-maternity-cover
 source_url: https://teaching-vacancies.service.gov.uk/jobs/morning-receptionist-maternity-cover
+---
+
+---
+action: 
+SELECTED | Buckinghamshire | High Wycombe, South East, HP15 7UB | £21,628.00 - £23,200.00 Annually (Actual) Salary – Bucks Pay Range 3 £21,628 - £23,200 (full time equivalent £29,114 - £31,230) | Office Administrator
+employer: Sir William Ramsay School
+closing_date: 2026-10-07T23:59:00+01:00
+reason: Clear admin/service title: administrator, office administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 6056cf129b2c60b1e35ecef1f6c8b1cfbca770cf4c3d483384b02a91311ec878
+source: Teaching Vacancies
+source_job_id: office-administrator-cf621f03-1b81-4970-86af-5e6e0d675eec
+source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-cf621f03-1b81-4970-86af-5e6e0d675eec
 ---
 
 ---
@@ -141,8 +171,9 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 - [Employee Relations Officer](https://teaching-vacancies.service.gov.uk/jobs/employee-relations-officer) — Insufficient admin/service evidence.
 - [HR Officer Maternity Cover](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-maternity-cover-aylesbury-high-school) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-the-aylesbury-vale-academy) — Manager title salary ceiling £36,975 is not below £28,000.
-- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-112af158-1ad4-4dd9-88fb-3ab9c389f16b) — Manager title salary ceiling £47,181 is not below £28,000.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-alfriston-school) — Manager title salary ceiling £46,650 is not below £28,000.
+- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-b95ff08b-9acf-4cd1-8f39-df785de23724) — Manager title salary ceiling £48,738 is not below £28,000.
+- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-cf969ad1-41ff-497a-b265-ced6b70225ac) — Manager title salary ceiling £48,738 is not below £28,000.
 
 ## Safety boundary
 

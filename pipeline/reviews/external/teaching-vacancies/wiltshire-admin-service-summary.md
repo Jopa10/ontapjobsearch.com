@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Wiltshire
 
-review_date: 2026-09-21
-review_fingerprint: de1d68efba949f4c75a4b8b31392d68d1e4c51dd28cc1ce8684b1c53f1d0a99b
-routing_manifest_sha256: 2a729ec21313d4da60aa88fa99990da9bdacfb4309d0a450f89ade0f3cddc268
+review_date: 2026-09-22
+review_fingerprint: 2f3b8af20521a6a94f15376623a6c60ccd06ca160ca3764409a0a6353cb7d149
+routing_manifest_sha256: 9ae62ebc18958112193239d7aeba38004355f297a14cc10b13ceb6c548e29c9a
 ontap_region: Wiltshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 17
+- Records: 16
 - Selected: 4
-- POSS awaiting decision: 2
+- POSS awaiting decision: 3
 - Excluded: 0
-- Hard pass: 11
+- Hard pass: 9
 
 ## SELECTED
 
@@ -85,6 +85,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-receptionist-e
 
 ---
 action: 
+POSS | Wiltshire | Swindon, SN4 9DL | £14.20 - £15.90 Hourly | Clerk to Governors
+employer: Grove Learning Trust
+closing_date: 2026-11-02T23:59:00+00:00
+reason: Borderline school administration title: clerk to governors
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: d6b76d8c6ab94f0047d6a510e97562ae3f71743ed93563be50c85967c7b1570e
+source: Teaching Vacancies
+source_job_id: clerk-to-governors-grove-learning-trust
+source_url: https://teaching-vacancies.service.gov.uk/jobs/clerk-to-governors-grove-learning-trust
+---
+
+---
+action: 
 POSS | Wiltshire | Calne, South West, SN11 8YH | £29,064.00 - £31,022.00 Annually (FTE) NJC Grade G, £3,378-£3,605 (DOE) Actual | Clerk to Governors
 employer: Kingsbury Green Academy
 closing_date: 2026-09-27T23:59:00+01:00
@@ -123,11 +138,9 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/governance-profession
 - [Assistant Data and Exams Manager](https://teaching-vacancies.service.gov.uk/jobs/assistant-data-and-exams-manager) — Manager title salary ceiling £28,598 is not below £28,000.
 - [Chief Financial Officer](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-0d106d15-bbf0-467f-8794-3393ccb03a2b) — Insufficient admin/service evidence.
 - [Early Years Stronger Practice Hub Manager](https://teaching-vacancies.service.gov.uk/jobs/early-years-stronger-practice-hub-manager) — Manager title salary ceiling £41,771 is not below £28,000.
-- [Educational Support Assistant - Admissions](https://teaching-vacancies.service.gov.uk/jobs/educational-support-assistant-admissions) — Insufficient admin/service evidence.
 - [Head of Finance](https://teaching-vacancies.service.gov.uk/jobs/head-of-finance-magna-learning-partnership-salisbury-not-recorded) — Insufficient admin/service evidence.
-- [HR Advisor](https://teaching-vacancies.service.gov.uk/jobs/hr-advisor-ascend-learning-trust-swindon-not-recorded) — Insufficient admin/service evidence.
 - [Local Governance Committee Clerks](https://teaching-vacancies.service.gov.uk/jobs/local-governance-committee-clerks) — Insufficient admin/service evidence.
-- [Recruitment Lead](https://teaching-vacancies.service.gov.uk/jobs/recruitment-lead-126da904-70b2-4de7-b993-e740579fd411) — Insufficient admin/service evidence.
+- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-lethbridge-primary-school) — Manager title salary ceiling £35,814 is not below £28,000.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-paxcroft-primary-school) — Manager title salary ceiling £37,563 is not below £28,000.
 - [Senior Pupil Services Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-pupil-services-officer-grange-infants-school) — Insufficient admin/service evidence.
 

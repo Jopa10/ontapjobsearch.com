@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Black Country
 
-review_date: 2026-09-21
+review_date: 2026-09-22
 review_fingerprint: 7c2165f5ce452ffc93fd57c15df475faa2c8f88d1a6b41c2efb8cdd186f64747
-routing_manifest_sha256: 2a729ec21313d4da60aa88fa99990da9bdacfb4309d0a450f89ade0f3cddc268
+routing_manifest_sha256: 9ae62ebc18958112193239d7aeba38004355f297a14cc10b13ceb6c548e29c9a
 ontap_region: West Midlands - Black Country
 slice_category: admin_service
 slice_status: LIVE
@@ -91,8 +91,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administ
 
 ## HARD_PASS
 
+- [Business Manager](https://teaching-vacancies.service.gov.uk/jobs/business-manager-joseph-leckie-academy-walsall-west-midlands) — Manager title salary ceiling £51,928 is not below £28,000.
 - [Exam Invigilators](https://teaching-vacancies.service.gov.uk/jobs/exam-invigilators-472ff49d-b207-467b-8dbd-b5478c05c6b7) — Insufficient admin/service evidence.
-- [Senior Admin Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-admin-officer-park-hall-junior-academy) — Insufficient admin/service evidence.
 - [Site Assistant](https://teaching-vacancies.service.gov.uk/jobs/site-assistant-priory-primary-school-dudley-west-midlands) — Insufficient admin/service evidence.
 - [Teaching Assistant (Level 2)](https://teaching-vacancies.service.gov.uk/jobs/teaching-assistant-level-2-manor-way-primary-academy) — Out-of-scope occupation: teaching assistant.
 

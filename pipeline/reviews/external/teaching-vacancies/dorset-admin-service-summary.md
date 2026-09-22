@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Dorset
 
-review_date: 2026-09-21
+review_date: 2026-09-22
 review_fingerprint: d7acf51b330d79514e0a9c501268c3b88775cfbe1f2b7749dfaccae13b1ee466
-routing_manifest_sha256: 2a729ec21313d4da60aa88fa99990da9bdacfb4309d0a450f89ade0f3cddc268
+routing_manifest_sha256: 9ae62ebc18958112193239d7aeba38004355f297a14cc10b13ceb6c548e29c9a
 ontap_region: Dorset
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 3
+- Records: 5
 - Selected: 1
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 1
+- Hard pass: 3
 
 ## SELECTED
 
@@ -59,7 +59,9 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/data-manager-parkston
 
 ## HARD_PASS
 
+- [Admissions and Exam Officer - Maternity Cover](https://teaching-vacancies.service.gov.uk/jobs/admissions-and-exam-officer-maternity-cover) — Insufficient admin/service evidence.
 - [School Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/school-finance-manager-3595b4c3-74ce-4320-b9c0-0bd97114cef9) — Manager title salary ceiling £41,177 is not below £28,000.
+- [Student Welfare Assistant](https://teaching-vacancies.service.gov.uk/jobs/student-welfare-assistant-poole-high-school) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

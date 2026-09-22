@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Nottinghamshire
 
-review_date: 2026-09-21
+review_date: 2026-09-22
 review_fingerprint: 19c4774d63bd337abdefd27eea60ba4c9f627b3d98140af6259b85c075febb4d
-routing_manifest_sha256: 2a729ec21313d4da60aa88fa99990da9bdacfb4309d0a450f89ade0f3cddc268
+routing_manifest_sha256: 9ae62ebc18958112193239d7aeba38004355f297a14cc10b13ceb6c548e29c9a
 ontap_region: Nottinghamshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 23
+- Records: 21
 - Selected: 11
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 10
+- Hard pass: 8
 
 ## SELECTED
 
@@ -227,11 +227,9 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/data-officer-the-whit
 - [Admin Officer](https://teaching-vacancies.service.gov.uk/jobs/admin-officer-radford-primary-school-academy) — Insufficient admin/service evidence.
 - [Attendance Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/attendance-administration-assistant-the-long-eaton-school) — Insufficient admin/service evidence.
 - [Finance Apprentice](https://teaching-vacancies.service.gov.uk/jobs/finance-apprentice-our-lady-of-lourdes-catholic-multi-academy-trust) — Insufficient admin/service evidence.
-- [HR and Recruitment Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-and-recruitment-officer-redhill-academy-trust) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-jubilee-l-e-a-d-academy) — Manager title salary ceiling £32,187 is not below £28,000.
 - [One to One Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/one-to-one-personal-care-assistant) — Insufficient admin/service evidence.
 - [Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-bf443901-6fb8-4721-9adf-b67f0bdbd6f6) — Insufficient admin/service evidence.
-- [Purchase Ledger Assistant](https://teaching-vacancies.service.gov.uk/jobs/purchase-ledger-assistant-redhill-academy-trust) — Insufficient admin/service evidence.
 - [School Business Administrator](https://teaching-vacancies.service.gov.uk/jobs/school-business-administrator-ladycross-infant-school) — Missing salary or pay scale.
 - [School Office Manager](https://teaching-vacancies.service.gov.uk/jobs/school-office-manager-burntstump-seely-cofe-primary-academy) — Manager title salary ceiling £30,514 is not below £28,000.
 

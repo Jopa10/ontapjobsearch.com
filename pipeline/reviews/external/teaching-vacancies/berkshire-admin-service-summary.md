@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Berkshire
 
-review_date: 2026-09-21
+review_date: 2026-09-22
 review_fingerprint: d56c8738ad6645b92ee0c4716a8590f36c27cbbb002d5f49e45644833af93eee
-routing_manifest_sha256: 2a729ec21313d4da60aa88fa99990da9bdacfb4309d0a450f89ade0f3cddc268
+routing_manifest_sha256: 9ae62ebc18958112193239d7aeba38004355f297a14cc10b13ceb6c548e29c9a
 ontap_region: Berkshire
 slice_category: admin_service
 slice_status: LIVE
@@ -183,10 +183,10 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-finance-assist
 - [Clerk to the Governing Body](https://teaching-vacancies.service.gov.uk/jobs/clerk-to-the-governing-body-d1b00184-727b-4b8d-ade0-c66789d84496) — Missing salary or pay scale.
 - [Data Manager](https://teaching-vacancies.service.gov.uk/jobs/data-manager-the-holt-school) — Manager title salary ceiling £36,573 is not below £28,000.
 - [EHCP Team Administrator - The Avenue School](https://teaching-vacancies.service.gov.uk/jobs/ehcp-team-administrator-the-avenue-school) — Missing salary or pay scale.
+- [Full Time Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/full-time-administration-officer) — Insufficient admin/service evidence.
 - [HR & Recruitment Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-recruitment-officer-the-park-federation-academy-trust) — Insufficient admin/service evidence.
 - [Office Manager - Southcote Primary School](https://teaching-vacancies.service.gov.uk/jobs/office-manager-southcote-primary-school-southcote-primary-school-reading-berkshire) — Manager title salary ceiling £35,521 is not below £28,000.
 - [Office Manager and Personal Assistant to the Headteacher](https://teaching-vacancies.service.gov.uk/jobs/office-manager-and-personal-assistant-to-the-headteacher-new-town-primary-school) — Manager title salary ceiling £40,444 is not below £28,000.
-- [PFM Compliance and Site Officer](https://teaching-vacancies.service.gov.uk/jobs/pfm-compliance-and-site-officer-beechwood-school-slough-berkshire) — Insufficient admin/service evidence.
 - [Site Team Administrative Assistant - The Avenue School](https://teaching-vacancies.service.gov.uk/jobs/site-team-administrative-assistant-the-avenue-school) — Missing salary or pay scale.
 
 ## Safety boundary

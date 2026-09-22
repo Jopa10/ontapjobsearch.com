@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cambridgeshire
 
-review_date: 2026-09-21
-review_fingerprint: eed7f804008e25b3fdf4f383980bb532d179550007376a26e638dd6be5d2f84a
-routing_manifest_sha256: 2a729ec21313d4da60aa88fa99990da9bdacfb4309d0a450f89ade0f3cddc268
+review_date: 2026-09-22
+review_fingerprint: f038bbe229a0a23d4e7393b33c029127c02c730ab5b504e0bb3f84807e090d8f
+routing_manifest_sha256: 9ae62ebc18958112193239d7aeba38004355f297a14cc10b13ceb6c548e29c9a
 ontap_region: Cambridgeshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 14
+- Records: 13
 - Selected: 4
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 10
+- Hard pass: 9
 
 ## SELECTED
 
@@ -60,7 +60,7 @@ reason: Clear admin/service title: admin assistant
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: bb12afb2ad0a0d201446df474b26ad57f0c365e5f1f55a6cd1674dde7b21b66c
+factual_fingerprint: a7d35a6df112fcb3397a9d4a9d0d705eafc25504853d7f61cf1b8e5230453caf
 source: Teaching Vacancies
 source_job_id: finance-admin-assistant-priory-junior-school-st-neots-cambridgeshire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-admin-assistant-priory-junior-school-st-neots-cambridgeshire
@@ -93,7 +93,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-office-adminis
 
 - [Community Assistant (Evenings)](https://teaching-vacancies.service.gov.uk/jobs/community-assistant-evenings) — Insufficient admin/service evidence.
 - [Head of HR Operations](https://teaching-vacancies.service.gov.uk/jobs/head-of-hr-operations-united-learning-trust) — Insufficient admin/service evidence.
-- [MAT Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/mat-finance-officer-four-cs-mat-peterborough-not-recorded) — Insufficient admin/service evidence.
 - [Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/operations-manager-9a683a81-163f-46a5-b7f5-732557216d39) — Manager title salary ceiling £44,854 is not below £28,000.
 - [PA to Head of School & Administration Manager](https://teaching-vacancies.service.gov.uk/jobs/pa-to-head-of-school-administration-manager) — Manager title salary ceiling £36,581 is not below £28,000.
 - [School Business Leader](https://teaching-vacancies.service.gov.uk/jobs/school-business-leader-university-of-cambridge-primary-school) — Insufficient admin/service evidence.

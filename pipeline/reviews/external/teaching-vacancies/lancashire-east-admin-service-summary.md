@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Lancashire - East
 
-review_date: 2026-09-21
+review_date: 2026-09-22
 review_fingerprint: 6fefcf67cf8ae05034c801807be7a06aba8b80f801a70859de0742b46c6ce83a
-routing_manifest_sha256: 2a729ec21313d4da60aa88fa99990da9bdacfb4309d0a450f89ade0f3cddc268
+routing_manifest_sha256: 9ae62ebc18958112193239d7aeba38004355f297a14cc10b13ceb6c548e29c9a
 ontap_region: Lancashire - East
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 6
+- Records: 4
 - Selected: 2
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 3
+- Hard pass: 1
 
 ## SELECTED
 
@@ -74,8 +74,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/data-officer-the-hynd
 
 ## HARD_PASS
 
-- [Apprentice Marketing Assistant](https://teaching-vacancies.service.gov.uk/jobs/apprentice-marketing-assistant) — Insufficient admin/service evidence.
-- [HR Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-the-hyndburn-academy) — Insufficient admin/service evidence.
 - [Payroll and Pensions Manager](https://teaching-vacancies.service.gov.uk/jobs/payroll-and-pensions-manager-star-academies-blackburn-not-recorded) — Manager title salary ceiling £60,952 is not below £28,000.
 
 ## Safety boundary

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - South
 
-review_date: 2026-09-21
-review_fingerprint: 286a2b02382090ea215be59453c9ddfa141406b0cd608e216b379d9b7c672fb6
-routing_manifest_sha256: 2a729ec21313d4da60aa88fa99990da9bdacfb4309d0a450f89ade0f3cddc268
+review_date: 2026-09-22
+review_fingerprint: c06173d5707c2341a60c9f53ffd2bc32fe167ec7fa653139bc0fcf48e084e1d3
+routing_manifest_sha256: 9ae62ebc18958112193239d7aeba38004355f297a14cc10b13ceb6c548e29c9a
 ontap_region: Yorkshire - South
 slice_category: admin_service
 slice_status: LIVE
@@ -14,10 +14,10 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 17
-- Selected: 5
+- Selected: 6
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 10
+- Hard pass: 9
 
 ## SELECTED
 
@@ -96,6 +96,21 @@ source_job_id: receptionist-saint-pius-x-catholic-high-school-a-specialist-schoo
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-saint-pius-x-catholic-high-school-a-specialist-school-in-humanities
 ---
 
+---
+action: 
+SELECTED | Yorkshire - South | Sheffield, Yorkshire and the Humber, S2 1SN | £24,978.00 gross per annum – if 52w or £23,210.33 gross per annum if 42w | Receptionist and Administrator – (52 or 42 weeks considered)
+employer: Sheffield Park Academy
+closing_date: 2026-10-06T23:59:00+01:00
+reason: Clear admin/service title: administrator, receptionist
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 0d56cee29f760f057613063e41e54356cf262d661df1b1bd6efe5768745becb4
+source: Teaching Vacancies
+source_job_id: receptionist-and-administrator-52-or-42-weeks-considered
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-and-administrator-52-or-42-weeks-considered
+---
+
 ## POSS — choose SELECT or EXCLUDE
 
 ---
@@ -138,9 +153,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-office
 - [Admin Officer](https://teaching-vacancies.service.gov.uk/jobs/admin-officer-newman-school) — Insufficient admin/service evidence.
 - [Attendance and Admin Officer](https://teaching-vacancies.service.gov.uk/jobs/attendance-and-admin-officer-whiteways-primary-school) — Insufficient admin/service evidence.
 - [Chief Financial Officer](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-st-clare-catholic-multi-academy-trust) — Insufficient admin/service evidence.
+- [Executive Assistant](https://teaching-vacancies.service.gov.uk/jobs/executive-assistant-white-woods-primary-academy-trust) — Insufficient admin/service evidence.
 - [Finance & Admin Asst](https://teaching-vacancies.service.gov.uk/jobs/finance-admin-asst) — Insufficient admin/service evidence.
-- [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-hatfield-woodhouse-primary-school-doncaster-south-yorkshire) — Insufficient admin/service evidence.
-- [Learning Manager](https://teaching-vacancies.service.gov.uk/jobs/learning-manager-0bfa4cca-872c-4778-a35f-1fb75b7f4503) — Manager title salary ceiling £36,581 is not below £28,000.
 - [Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/operations-manager-982c74fa-4963-48bf-be10-a1bcf0a4bf2f) — Manager title salary ceiling £39,773 is not below £28,000.
 - [Part-time Administrator](https://teaching-vacancies.service.gov.uk/jobs/part-time-administrator-woodhouse-west-primary-school-sheffield-south-yorkshire) — Missing salary or pay scale.
 - [Senior Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-administration-officer-kings-oak-primary) — Insufficient admin/service evidence.

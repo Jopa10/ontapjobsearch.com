@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cornwall
 
-review_date: 2026-09-21
-review_fingerprint: b3100da742c0710d2b699c2462fe6fc82a8de1468667bdff846131d44c4c641a
-routing_manifest_sha256: 2a729ec21313d4da60aa88fa99990da9bdacfb4309d0a450f89ade0f3cddc268
+review_date: 2026-09-22
+review_fingerprint: 5a7913ad5c24a093f6e88f0a3ff95283ea55a8eb69af8accb2886df612e3d8dc
+routing_manifest_sha256: 9ae62ebc18958112193239d7aeba38004355f297a14cc10b13ceb6c548e29c9a
 ontap_region: Cornwall
 slice_category: admin_service
 slice_status: LIVE
@@ -15,9 +15,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 - Records: 5
 - Selected: 3
-- POSS awaiting decision: 1
+- POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 1
+- Hard pass: 2
 
 ## SELECTED
 
@@ -68,20 +68,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 
 ## POSS — choose SELECT or EXCLUDE
 
----
-action: 
-POSS | Cornwall | Liskeard, PL14 3EA | £32,046.00 - £34,811.00 Annually (FTE) Actual salary approx. £21,727 - £23,602 | Governance Professional to Trust Board and Local Governing Committees
-employer: South East Cornwall Multi Academy Regional Trust
-closing_date: 2026-09-22T09:00:00+01:00
-reason: Borderline school administration title: governance professional
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: d7335c9fe7e934cfc2dbf3a849e56f62afa5c4ee54747d2c7ca92455b198b180
-source: Teaching Vacancies
-source_job_id: governance-professional-to-trust-board-and-local-governing-committees-south-east-cornwall-multi-academy-regional-trust-liskeard-not-recorded
-source_url: https://teaching-vacancies.service.gov.uk/jobs/governance-professional-to-trust-board-and-local-governing-committees-south-east-cornwall-multi-academy-regional-trust-liskeard-not-recorded
----
+- None.
 
 ## EXCLUDED BY REVIEW
 
@@ -90,6 +77,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/governance-profession
 ## HARD_PASS
 
 - [Minibus Driver](https://teaching-vacancies.service.gov.uk/jobs/minibus-driver-98c65611-dc6c-4ef2-ab00-f9bfce2a5837) — Insufficient admin/service evidence.
+- [Specialist Administrator](https://teaching-vacancies.service.gov.uk/jobs/specialist-administrator-mounts-bay-academy) — Missing salary or pay scale.
 
 ## Safety boundary
 

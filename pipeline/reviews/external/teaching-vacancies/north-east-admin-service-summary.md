@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — North East
 
-review_date: 2026-09-21
-review_fingerprint: 8a31d25a857a32a3ee4ece9c9dfeabaa1527fab39703d323f51870ba88ba25d3
-routing_manifest_sha256: 2a729ec21313d4da60aa88fa99990da9bdacfb4309d0a450f89ade0f3cddc268
+review_date: 2026-09-22
+review_fingerprint: 714d793388d8e1da0a0e6b11e0118b0106cc4a526ffcc7437395d9c8382b19ca
+routing_manifest_sha256: 9ae62ebc18958112193239d7aeba38004355f297a14cc10b13ceb6c548e29c9a
 ontap_region: North East
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 10
-- Selected: 5
+- Records: 9
+- Selected: 6
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 3
 
 ## SELECTED
 
@@ -49,6 +49,21 @@ factual_fingerprint: 9782f3fd704d82d3ab934a876a9ef958513d993a848865f126b96bbf365
 source: Teaching Vacancies
 source_job_id: hr-payroll-administrator-emmanuel-schools-foundation
 source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-payroll-administrator-emmanuel-schools-foundation
+---
+
+---
+action: 
+SELECTED | North East | Blyth, North East, NE24 4JP | Grade 3, SCP 7-8, FTE salary £27,274.00 - £27,709.00, pro rata salary £24,096.58 - £24,480.90 | Inclusion Administrator
+employer: The Blyth Academy
+closing_date: 2026-09-30T23:59:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: f0500291f72e166c2f92841c9bdaac9db965ddd1fe948beaa4ac8e4bc30136b2
+source: Teaching Vacancies
+source_job_id: inclusion-administrator-the-blyth-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/inclusion-administrator-the-blyth-academy
 ---
 
 ---
@@ -106,11 +121,9 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-support-roles-
 
 ## HARD_PASS
 
-- [Business Lead](https://teaching-vacancies.service.gov.uk/jobs/business-lead-st-gregory-s-catholic-primary-school-south-shields) — Insufficient admin/service evidence.
 - [Governance and Procurement Officer](https://teaching-vacancies.service.gov.uk/jobs/governance-and-procurement-officer) — Insufficient admin/service evidence.
 - [HR Administration Assistant (Gateshead Schools)](https://teaching-vacancies.service.gov.uk/jobs/hr-administration-assistant-gateshead-schools) — Insufficient admin/service evidence.
 - [Marketing Assistant](https://teaching-vacancies.service.gov.uk/jobs/marketing-assistant-kings-priory-school) — Insufficient admin/service evidence.
-- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-st-mary-s-catholic-school) — Manager title salary ceiling £36,581 is not below £28,000.
 
 ## Safety boundary
 

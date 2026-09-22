@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — London
 
-review_date: 2026-09-21
-review_fingerprint: 0219e266335b454feb1e1bef9cc4a70452ed0617dbf919708099cb38e56402d2
-routing_manifest_sha256: 2a729ec21313d4da60aa88fa99990da9bdacfb4309d0a450f89ade0f3cddc268
+review_date: 2026-09-22
+review_fingerprint: 556a293779aaec5ce161469904bb173637ed41f58dd63ae8077aa2cc3462ce63
+routing_manifest_sha256: 9ae62ebc18958112193239d7aeba38004355f297a14cc10b13ceb6c548e29c9a
 ontap_region: London
 slice_category: admin_service
 slice_status: LIVE
@@ -14,10 +14,10 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 58
-- Selected: 20
+- Selected: 17
 - POSS awaiting decision: 4
 - Excluded: 0
-- Hard pass: 34
+- Hard pass: 37
 
 ## SELECTED
 
@@ -98,32 +98,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assist
 
 ---
 action: 
-SELECTED | London | London, London, E9 7HD | £29,929.00 - £35,332.00 Annually (FTE) | Administrator with Additional Responsibilities
-employer: Mossbourne Victoria Park Academy
-closing_date: 2026-09-21T23:59:00+01:00
-reason: Clear admin/service title: administrator
+SELECTED | London | Sutton, London, SM1 3DY | £29,266.71 - £31,015.88 Annually (Actual) NJC Outer London pay scale, points 11-15 | Attendance Officer
+employer: Greenshaw High School
+closing_date: 2026-09-27T23:59:00+01:00
+reason: Clear admin/service title: attendance officer
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: ca9d9a4173a2246e5381d3b09418d52481ffefb83b01340f8fabba9c3ec4ee05
+factual_fingerprint: e6fde05a7ae8eeb971aac096d5c5e653210f6d489b42a8c8537471d99c62d088
 source: Teaching Vacancies
-source_job_id: administrator-with-additional-responsibilities-mossbourne-victoria-park-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-with-additional-responsibilities-mossbourne-victoria-park-academy
----
-
----
-action: 
-SELECTED | London | Dagenham, London, RM9 5LT | London Borough of Barking and Dagenham Level 3 apprentice rates dependent on age | Apprentice School Business Administrator
-employer: Southwood Primary School
-closing_date: 2026-09-21T23:59:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: d36b9adf667fcb3a38a1c42693889e5d03e30a9588f6c227a9800ea9c12b67d6
-source: Teaching Vacancies
-source_job_id: apprentice-school-business-administrator
-source_url: https://teaching-vacancies.service.gov.uk/jobs/apprentice-school-business-administrator
+source_job_id: attendance-officer-greenshaw-high-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-greenshaw-high-school
 ---
 
 ---
@@ -184,21 +169,6 @@ factual_fingerprint: 62d7e581d30a7acd69b71de77aec2154e5f9cc4fddcf6c37f21979c124c
 source: Teaching Vacancies
 source_job_id: human-resources-administrator-winchmore-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/human-resources-administrator-winchmore-school
----
-
----
-action: 
-SELECTED | London | London, London, N22 7ST | £34,776.00 - £35,703.00 Annually (Actual) SO1 £38,256 to £39,276 | KS4 Administrator and IAG Provision Officer
-employer: Heartlands High School
-closing_date: 2026-09-22T09:00:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: abd16f6385283d92e45a4568b93d6490f1f36abdecd32b8327aceffa9dbe164d
-source: Teaching Vacancies
-source_job_id: ks4-administrator-and-iag-provision-officer-heartlands-high-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/ks4-administrator-and-iag-provision-officer-heartlands-high-school
 ---
 
 ---
@@ -274,21 +244,6 @@ factual_fingerprint: d47327e8b35fca51b4ddf6a06b0724f9fcd6c078be40be0b99ee9ac9612
 source: Teaching Vacancies
 source_job_id: receptionist-administration-assistant-part-time-ht
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administration-assistant-part-time-ht
----
-
----
-action: 
-SELECTED | London | London, London, SE15 5DZ | £36,963- £39,216 | SEND and Medical Administrator
-employer: Harris Academy Peckham
-closing_date: 2026-09-21T23:59:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 8e813293cc5ef75f174aa62f20bdfdeb7f4976e7835cc242115728cad588ab5b
-source: Teaching Vacancies
-source_job_id: send-and-medical-administrator
-source_url: https://teaching-vacancies.service.gov.uk/jobs/send-and-medical-administrator
 ---
 
 ---
@@ -410,6 +365,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/cover-supervisor-mana
 - [Human Resources Officer](https://teaching-vacancies.service.gov.uk/jobs/human-resources-officer-saint-john-southworth-catholic-academy-trust) — Insufficient admin/service evidence.
 - [Learning Resource Centre Manager](https://teaching-vacancies.service.gov.uk/jobs/learning-resource-centre-manager-harris-city-academy-crystal-palace-london) — Manager title salary ceiling £34,488 is not below £28,000.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-chadwell-heath-academy) — Manager title without salary evidence below £28,000.
+- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-hawes-down-primary-school) — Manager title salary ceiling £28,146 is not below £28,000.
 - [Office Manager / PA to Head of School](https://teaching-vacancies.service.gov.uk/jobs/office-manager-pa-to-head-of-school-moorcroft-school) — Manager title salary ceiling £36,390 is not below £28,000.
 - [Part Time HR Officer](https://teaching-vacancies.service.gov.uk/jobs/part-time-hr-officer) — Insufficient admin/service evidence.
 - [People/HR Shared Service Desk Lead](https://teaching-vacancies.service.gov.uk/jobs/people-hr-shared-service-desk-lead) — Insufficient admin/service evidence.
@@ -417,12 +373,14 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/cover-supervisor-mana
 - [Recruitment and Engagement Manager](https://teaching-vacancies.service.gov.uk/jobs/recruitment-and-engagement-manager) — Manager title salary ceiling £42,060 is not below £28,000.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-9fea1743-b8ad-4e62-a781-6b930d7a551f) — Manager title salary ceiling £67,575 is not below £28,000.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-f3929ea5-8ab0-4347-ba05-b741572a9d77) — Manager title salary ceiling £54,843 is not below £28,000.
+- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-grange-primary-school-london) — Manager title without salary evidence below £28,000.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-handsworth-primary-school) — Manager title without salary evidence below £28,000.
-- [School Social Worker](https://teaching-vacancies.service.gov.uk/jobs/school-social-worker-whitefriars-school) — Out-of-scope occupation: social worker.
+- [Senior Admin Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-admin-officer-st-stephen-s-cofe-primary-school) — Insufficient admin/service evidence.
 - [Sixth Form Support Officer](https://teaching-vacancies.service.gov.uk/jobs/sixth-form-support-officer-harris-science-academy-east-london) — Insufficient admin/service evidence.
 - [Strategic Lead for Human Resources](https://teaching-vacancies.service.gov.uk/jobs/strategic-lead-for-human-resources) — Insufficient admin/service evidence.
 - [Student Attendance & Reporting Officer](https://teaching-vacancies.service.gov.uk/jobs/student-attendance-reporting-officer) — Insufficient admin/service evidence.
 - [Trust Senior Admin Officer](https://teaching-vacancies.service.gov.uk/jobs/trust-senior-admin-officer) — Insufficient admin/service evidence.
+- [Welfare and Admin Officer](https://teaching-vacancies.service.gov.uk/jobs/welfare-and-admin-officer) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

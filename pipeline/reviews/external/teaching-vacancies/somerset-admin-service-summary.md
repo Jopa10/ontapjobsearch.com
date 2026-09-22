@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Somerset
 
-review_date: 2026-09-21
+review_date: 2026-09-22
 review_fingerprint: b29fdf9cf8c57bde7c78b51600e93801a37f327b28fcfc15d55cc070e0a0fcd0
-routing_manifest_sha256: 2a729ec21313d4da60aa88fa99990da9bdacfb4309d0a450f89ade0f3cddc268
+routing_manifest_sha256: 9ae62ebc18958112193239d7aeba38004355f297a14cc10b13ceb6c548e29c9a
 ontap_region: Somerset
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 14
+- Records: 15
 - Selected: 8
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 6
 
 ## SELECTED
 
@@ -164,6 +164,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-support-of
 
 ## HARD_PASS
 
+- [Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-st-nicholas-chantry-church-of-england-primary-school) — Insufficient admin/service evidence.
 - [Apprentice Workplace Reviewer](https://teaching-vacancies.service.gov.uk/jobs/apprentice-workplace-reviewer) — Insufficient admin/service evidence.
 - [Finance Business Partner - Projects and Costings](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-projects-and-costings) — Insufficient admin/service evidence.
 - [Primary Assistant Headteacher Behaviour and Personal Development](https://teaching-vacancies.service.gov.uk/jobs/primary-assistant-headteacher-behaviour-and-personal-development) — Out-of-scope occupation: teacher, headteacher.

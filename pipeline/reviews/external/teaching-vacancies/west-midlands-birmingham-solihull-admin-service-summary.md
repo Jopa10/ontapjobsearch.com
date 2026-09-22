@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Birmingham & Solihull
 
-review_date: 2026-09-21
-review_fingerprint: 0c50df9aa718b52278c3d4c1287f0e504db0e1802ebecd8d2d94e397e3a13e97
-routing_manifest_sha256: 2a729ec21313d4da60aa88fa99990da9bdacfb4309d0a450f89ade0f3cddc268
+review_date: 2026-09-22
+review_fingerprint: 7498ffe10ed05f28e66e1082ea5af307aae247f104a56c2de1354641269c3779
+routing_manifest_sha256: 9ae62ebc18958112193239d7aeba38004355f297a14cc10b13ceb6c548e29c9a
 ontap_region: West Midlands - Birmingham & Solihull
 slice_category: admin_service
 slice_status: LIVE
@@ -14,10 +14,10 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 23
-- Selected: 12
+- Selected: 13
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 11
+- Hard pass: 10
 
 ## SELECTED
 
@@ -64,6 +64,21 @@ factual_fingerprint: 85fd41e42149ebca945eb1d33dd38a4d9c6c518f3f6500c7b2822b7d8d6
 source: Teaching Vacancies
 source_job_id: administrative-assistant-yorkmead-junior-and-infant-school-birmingham-west-midlands
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-yorkmead-junior-and-infant-school-birmingham-west-midlands
+---
+
+---
+action: 
+SELECTED | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B29 4HE | £23,408.04 - £25,392.13 Annually (Actual) SCP 12-17 | Administrator
+employer: E-ACT Shenley Academy
+closing_date: 2026-10-05T09:00:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: ec12df7cb9efd9d181dc512ca36a19067961903353211a17477c94676d1fd612
+source: Teaching Vacancies
+source_job_id: administrator-de634a79-2cc9-479b-b3fe-58787528dcaa
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-de634a79-2cc9-479b-b3fe-58787528dcaa
 ---
 
 ---
@@ -214,12 +229,11 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/whole-school-attendan
 - [Academy Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/academy-operations-manager-daylesford-academy) — Manager title salary ceiling £37,784 is not below £28,000.
 - [Assistant SENCO](https://teaching-vacancies.service.gov.uk/jobs/assistant-senco-woodlands) — Insufficient admin/service evidence.
 - [Examinations Assistant](https://teaching-vacancies.service.gov.uk/jobs/examinations-assistant-plantsbrook-school) — Insufficient admin/service evidence.
-- [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-eden-girls-leadership-academy-birmingham-birmingham) — Insufficient admin/service evidence.
 - [Head of Executive Office and Communications](https://teaching-vacancies.service.gov.uk/jobs/head-of-executive-office-and-communications) — Insufficient admin/service evidence.
 - [Head of Marketing](https://teaching-vacancies.service.gov.uk/jobs/head-of-marketing-ormiston-academies-trust) — Insufficient admin/service evidence.
+- [HR Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-st-john-paul-ii-multi-academy-company-birmingham-not-recorded) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-greet-primary-school) — Manager title salary ceiling £34,434 is not below £28,000.
 - [PA to Executive Head](https://teaching-vacancies.service.gov.uk/jobs/pa-to-executive-head) — Missing salary or pay scale.
-- [Regional People Partner](https://teaching-vacancies.service.gov.uk/jobs/regional-people-partner-4ed6680e-930f-489a-b0d0-658557e0d3dc) — Insufficient admin/service evidence.
 - [School Administration Assistant/ Attendance](https://teaching-vacancies.service.gov.uk/jobs/school-administration-assistant-attendance) — Insufficient admin/service evidence.
 - [School Finance Partner](https://teaching-vacancies.service.gov.uk/jobs/school-finance-partner-fioretti-trust) — Insufficient admin/service evidence.
 

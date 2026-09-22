@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Lincolnshire
 
-review_date: 2026-09-21
-review_fingerprint: 04c4b4505acbafc3ad11e6f14663a6597eea11122f10b7b1b609f3bc3be11937
-routing_manifest_sha256: 2a729ec21313d4da60aa88fa99990da9bdacfb4309d0a450f89ade0f3cddc268
+review_date: 2026-09-22
+review_fingerprint: 74e3aca5bfde9aac8df6e9427c4277179407ed96ce02dbfd0768723b52ec856a
+routing_manifest_sha256: 9ae62ebc18958112193239d7aeba38004355f297a14cc10b13ceb6c548e29c9a
 ontap_region: Lincolnshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 14
-- Selected: 7
+- Records: 17
+- Selected: 9
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 6
+- Hard pass: 7
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Lincolnshire | Boston, East Midlands, PE20 1JS | £26,016.00 Annually (FTE) NJC4: FTE £26,016 pro rata £22,851.89 per annum | Academy Administrator
+employer: Thomas Middlecott Academy
+closing_date: 2026-10-20T23:59:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 58e4045c9b23f9c650d1b2b7cfe78970ecd68e8d6943aab73fef0575ed5801e7
+source: Teaching Vacancies
+source_job_id: academy-administrator-35b6eb6f-c93e-4b6e-b5d9-62a3a5806607
+source_url: https://teaching-vacancies.service.gov.uk/jobs/academy-administrator-35b6eb6f-c93e-4b6e-b5d9-62a3a5806607
+---
 
 ---
 action: 
@@ -49,6 +64,21 @@ factual_fingerprint: 1b39fb6193f7053b86ff1cde956cf6ce6f683e78449cf91fba773186525
 source: Teaching Vacancies
 source_job_id: cover-and-operations-administrator
 source_url: https://teaching-vacancies.service.gov.uk/jobs/cover-and-operations-administrator
+---
+
+---
+action: 
+SELECTED | Lincolnshire | Boston, East Midlands, PE20 1JS | £30,023.00 - £30,023.00 Annually (FTE) NJC13 £30,023 FTE (£27,723.95 pro rata) | Data & Exams Officer
+employer: Thomas Middlecott Academy
+closing_date: 2026-10-18T23:59:00+01:00
+reason: Clear admin/service title: exams officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: e21874fdc87a0270efaa642a3500822a10a3d8637c25902f0ddd3b573aae7298
+source: Teaching Vacancies
+source_job_id: data-exams-officer-thomas-middlecott-academy-boston-lincolnshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/data-exams-officer-thomas-middlecott-academy-boston-lincolnshire
 ---
 
 ---
@@ -150,10 +180,11 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-manager-the-s
 ## HARD_PASS
 
 - [Bursar](https://teaching-vacancies.service.gov.uk/jobs/bursar-cliffedale-primary-school) — Insufficient admin/service evidence.
+- [Business Manager](https://teaching-vacancies.service.gov.uk/jobs/business-manager-walton-academy) — Manager title salary ceiling £49,749 is not below £28,000.
 - [Governance & Compliance Officer](https://teaching-vacancies.service.gov.uk/jobs/governance-compliance-officer-inspire-connected-communities-trust-louth-not-recorded) — Insufficient admin/service evidence.
 - [HR Manager](https://teaching-vacancies.service.gov.uk/jobs/hr-manager-the-queen-elizabeth-s-high-school-gainsborough) — Manager title salary ceiling £42,839 is not below £28,000.
+- [HR Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-a28cea11-d24b-43cc-a15c-772ff5fa57da) — Insufficient admin/service evidence.
 - [Learning Support Assistant with personal care](https://teaching-vacancies.service.gov.uk/jobs/learning-support-assistant-with-personal-care-skegness-academy) — Insufficient admin/service evidence.
-- [Senior Administrative Officer - 20 hours](https://teaching-vacancies.service.gov.uk/jobs/senior-administrative-officer-20-hours) — Insufficient admin/service evidence.
 - [Trust Executive Assistant & HR Co-Ordinator](https://teaching-vacancies.service.gov.uk/jobs/trust-executive-assistant-hr-co-ordinator) — Insufficient admin/service evidence.
 
 ## Safety boundary

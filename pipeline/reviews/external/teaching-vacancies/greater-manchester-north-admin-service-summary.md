@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Greater Manchester - North
 
-review_date: 2026-09-21
-review_fingerprint: 218d8945b36a52e0fd18d1b871efe6ff516892ab26417655240d123efb0b8b6e
-routing_manifest_sha256: 2a729ec21313d4da60aa88fa99990da9bdacfb4309d0a450f89ade0f3cddc268
+review_date: 2026-09-22
+review_fingerprint: eb630d67308cdbceedd20d9fedabbff5abe2431cf5f48201c404ef17f6b51ad0
+routing_manifest_sha256: 9ae62ebc18958112193239d7aeba38004355f297a14cc10b13ceb6c548e29c9a
 ontap_region: Greater Manchester - North
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 6
-- Selected: 4
+- Records: 5
+- Selected: 3
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 2
@@ -53,21 +53,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assist
 
 ---
 action: 
-SELECTED | Greater Manchester - North | Oldham, North West, OL2 5BF | £25,833.49 - £27,535.58 Annually (Actual) SCP 7-11 - £25,833.29 - £27,535.58 - FTE: £27,274.00 - £29,071.00 - 37 hours per week, 42 weeks per year | Attendance Officer
-employer: E-ACT the Oldham Academy North
-closing_date: 2026-09-22T09:00:00+01:00
-reason: Clear admin/service title: attendance officer
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: d464dbee93d58fa6d1a919ecf956ede26cb7733336e49ba563b79c85ad5d5aff
-source: Teaching Vacancies
-source_job_id: attendance-officer-b2687496-661e-4f75-90a0-78b384aebb39
-source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-b2687496-661e-4f75-90a0-78b384aebb39
----
-
----
-action: 
 SELECTED | Greater Manchester - North | Oldham, North West, OL8 3PT | £27,274 - £29,071 per annum | Business Administrator
 employer: Hollinwood Academy
 closing_date: 2026-10-02T09:00:00+01:00
@@ -92,7 +77,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/business-administrato
 ## HARD_PASS
 
 - [Receptionist / Administrator](https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrator-hollingworth-academy) — Missing salary or pay scale.
-- [School Office Manager](https://teaching-vacancies.service.gov.uk/jobs/school-office-manager-st-joseph-s-roman-catholic-primary-school-rochdale-a-voluntary-academy) — Manager title salary ceiling £32,305 is not below £28,000.
+- [School Office Manager](https://teaching-vacancies.service.gov.uk/jobs/school-office-manager-sacred-heart-roman-catholic-primary-school-a-voluntary-academy) — Manager title salary ceiling £36,581 is not below £28,000.
 
 ## Safety boundary
 

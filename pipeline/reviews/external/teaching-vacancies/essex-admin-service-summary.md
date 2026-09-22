@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Essex
 
-review_date: 2026-09-21
-review_fingerprint: d05d1cffcd4d1b5fb01033c22c5ffee3ca8a9652eea31e2ab58b4648abb476e5
-routing_manifest_sha256: 2a729ec21313d4da60aa88fa99990da9bdacfb4309d0a450f89ade0f3cddc268
+review_date: 2026-09-22
+review_fingerprint: 7d118116857b1b3ec4c0497902f4003669f3d073509e4c7e55f66cf59b92e944
+routing_manifest_sha256: 9ae62ebc18958112193239d7aeba38004355f297a14cc10b13ceb6c548e29c9a
 ontap_region: Essex
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 8
-- Selected: 4
+- Records: 9
+- Selected: 5
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 3
@@ -34,6 +34,21 @@ factual_fingerprint: f26ce8e17425ea2df6277393b923358f357d786a6e7b9f74686b9e57dbb
 source: Teaching Vacancies
 source_job_id: academy-administrator-belfairs-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/academy-administrator-belfairs-academy
+---
+
+---
+action: 
+SELECTED | Essex | Colchester, East of England, CO4 3QJ | £25,614.00 - £26,847.00 Annually (FTE) Attendance and SEND Administrator NJC SCP 3-6 27.5 hours per week, Midday Assistant 2.5 hours per week NJC SCP 3 | Attendance and SEND Administrator, with Midday assistant role included
+employer: Unity Primary Academy
+closing_date: 2026-10-09T12:00:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: ab3328140fa5c8684e82b78622add87aa9152bb8d0f24a82e01e2ff2f69caa55
+source: Teaching Vacancies
+source_job_id: attendance-and-send-administrator-with-midday-assistant-role-included
+source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-and-send-administrator-with-midday-assistant-role-included
 ---
 
 ---
@@ -104,9 +119,9 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/trust-finance-manager
 
 ## HARD_PASS
 
+- [Payroll, Contracts & Systems Officer](https://teaching-vacancies.service.gov.uk/jobs/payroll-contracts-systems-officer) — Insufficient admin/service evidence.
 - [Repographics Technician](https://teaching-vacancies.service.gov.uk/jobs/repographics-technician) — Out-of-scope occupation: technician.
 - [Reprographics Administrator/Receptionist](https://teaching-vacancies.service.gov.uk/jobs/reprographics-administrator-receptionist-plume-school) — Missing salary or pay scale.
-- [Senior HR Adviser](https://teaching-vacancies.service.gov.uk/jobs/senior-hr-adviser-ea247ce7-8c6b-4179-a7a3-f1673e767983) — Insufficient admin/service evidence.
 
 ## Safety boundary
 
