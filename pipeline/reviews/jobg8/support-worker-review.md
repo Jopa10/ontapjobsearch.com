@@ -11,7 +11,17 @@ Edit only the `action:` line in each block:
 
 ## WEST YORKSHIRE — SELECTED
 
-_No jobs in this group._
+---
+action:
+SELECTED | Yorkshire - West | Leeds | £14.50 per hour | Night Support Worker
+job_id: 1986777
+---
+
+---
+action:
+SELECTED | Yorkshire - West | Wetherby | £14.50 per hour | Night Support Worker
+job_id: 1986845
+---
 
 ## WEST YORKSHIRE — POSSIBLES
 
@@ -217,6 +227,30 @@ SELECTED | Hampshire | Winchester | £13.2 - £14.75 per hour | Specialist Care 
 job_id: 108004872
 ---
 
+---
+action:
+SELECTED | Hampshire | Tadley | £25,845 per annum | Support Worker
+job_id: 635330054620761292837340
+---
+
+---
+action:
+SELECTED | Hampshire | Southampton | £25,845 per annum | Male Support Worker
+job_id: 455939784746781900837341
+---
+
+---
+action:
+SELECTED | Hampshire | Fareham | £25,845 per annum | Male Support Worker
+job_id: 455939784746781900837340
+---
+
+---
+action:
+SELECTED | Hampshire | Petersfield | £25,845 per year | Female Support Worker
+job_id: 801816236128835993637340
+---
+
 ## HAMPSHIRE — POSSIBLES
 
 _No jobs in this group._
@@ -283,6 +317,72 @@ SELECTED | Kent | Tonbridge | £25,845 per year | Support Worker
 job_id: 8521015614033100837340
 ---
 
+---
+action:
+SELECTED | Kent | Maidstone | £12.71 per hour | Bank Support Worker
+job_id: 110063333364727808037341
+---
+
+---
+action:
+SELECTED | Kent | Tonbridge | £12.71 per hour | Bank Support Worker
+job_id: 110063333364727808037340
+---
+
+---
+action:
+SELECTED | Kent | Sevenoaks | £25,845 per annum | Support Worker
+job_id: 791677969262601830437340
+---
+
+---
+action:
+SELECTED | Kent | Birchington | £25,845 per annum | Support Worker
+job_id: 551774207784203059237340
+---
+
+---
+action:
+SELECTED | Kent | Maidstone | £25,845 per annum | Night Support Worker
+job_id: 86461656567539302437341
+---
+
+---
+action:
+SELECTED | Kent | Tonbridge | £25,845 per annum | Night Support Worker
+job_id: 86461656567539302437340
+---
+
+---
+action:
+SELECTED | Kent | Margate | £25,845 per annum | Support Worker
+job_id: 297710935563304960037340
+---
+
+---
+action:
+SELECTED | Kent | Tonbridge | £25,845 per annum | Female Support Worker
+job_id: 651144990070040166437340
+---
+
+---
+action:
+SELECTED | Kent | Maidstone | £25,845 per annum | Female Support Worker - Waking Nights
+job_id: 484455508861989683237341
+---
+
+---
+action:
+SELECTED | Kent | Tunbridge Wells | £25,845 per annum | Female Support Worker - Waking Nights
+job_id: 484455508861989683237340
+---
+
+---
+action:
+SELECTED | Kent | Cranbrook | £15 - £17 per hour | Children's Complex Care Support Worker
+job_id: 107962413
+---
+
 ## KENT — POSSIBLES
 
 _No jobs in this group._
@@ -339,18 +439,6 @@ job_id: 1927514
 
 ---
 action:
-SELECTED | London | Kingston Upon Thames | £14 per hour | Home Carer
-job_id: 107809919
----
-
----
-action:
-SELECTED | London | Chessington | £14 per hour | Home Carer
-job_id: 107603867
----
-
----
-action:
 SELECTED | London | Barking | £31290 per year | Inclusion Support Worker
 job_id: 1961315
 ---
@@ -359,6 +447,12 @@ job_id: 1961315
 action:
 SELECTED | London | Barking | £36693 per year | Early Language & Communication Support Worker
 job_id: 1961257
+---
+
+---
+action:
+SELECTED | London | Enfield | £12.92-£13.23 per hour | Support Worker
+job_id: 1881515
 ---
 
 ## LONDON — POSSIBLES
@@ -447,20 +541,14 @@ _No jobs in this group._
 
 ---
 action:
-SELECTED | Wiltshire | Chippenham | £85 - £110 per daily | Autism Support Assistant
-job_id: 107869953
----
-
----
-action:
 SELECTED | Wiltshire | Trowbridge | £85 - £110 per daily | Pastoral Support Worker
 job_id: 1881025
 ---
 
 ---
 action:
-SELECTED | Wiltshire | Warminster | £15.5 per hour ((DOE)) | Support Worker Waking Nights
-job_id: 107978779
+SELECTED | Wiltshire | Chippenham | £85 - £110 per daily | Autism Support Assistant
+job_id: 107869953
 ---
 
 ## WILTSHIRE — POSSIBLES

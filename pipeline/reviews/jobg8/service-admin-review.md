@@ -149,6 +149,12 @@ SELECTED | Yorkshire - West | Leeds |  | Bid Coordinator
 job_id: 107993362
 ---
 
+---
+action:
+SELECTED | Yorkshire - West | Leeds |  | HR Onboarding Coordinator
+job_id: 1881992
+---
+
 ## WEST YORKSHIRE — POSSIBLES
 
 _No jobs in this group._
@@ -787,9 +793,43 @@ SELECTED | London | London |  | Supporter Services Administrator
 job_id: 1982344
 ---
 
+---
+action:
+SELECTED | London | London |  | Lettings Administrator
+job_id: 1983372
+---
+
+---
+action:
+SELECTED | London | London |  | Sales Administrator - Estate Agency
+job_id: 1978191
+---
+
+---
+action:
+SELECTED | London | South Croydon |  | Administrator
+job_id: 1976427
+---
+
+---
+action:
+SELECTED | London | London |  | Letting Administrator
+job_id: 1890968
+---
+
+---
+action:
+SELECTED | London | London |  | Finance & HR Assistant
+job_id: 1883009
+---
+
 ## LONDON — POSSIBLES
 
-_No jobs in this group._
+---
+action:
+POSS - LONDON | London | Sutton | £45000 per year | Sales Progressor and Office Coordinator
+job_id: 1979293
+---
 
 ## HAMPSHIRE — SELECTED
 
@@ -801,14 +841,14 @@ job_id: 1859841
 
 ---
 action:
-SELECTED | Hampshire | Hampshire |  | EHCP Coordinator
-job_id: 1858777
+SELECTED | Hampshire | Hampshire |  | Audit & Accounts Assistant
+job_id: 1856091
 ---
 
 ---
 action:
-SELECTED | Hampshire | Hampshire |  | Corporate Financial Administrator
-job_id: 1869745
+SELECTED | Hampshire | Hampshire |  | EHCP Coordinator
+job_id: 1858777
 ---
 
 ---
@@ -1021,6 +1061,24 @@ SELECTED | Surrey | Surrey | £30000 per year | Finance and Admin Assistant
 job_id: 1896014
 ---
 
+---
+action:
+SELECTED | Surrey | Surrey |  | Change Coordinator
+job_id: 108012892
+---
+
+---
+action:
+SELECTED | Surrey | Surrey | £30000 - £34000 per year | Service Advisor
+job_id: 1889796
+---
+
+---
+action:
+SELECTED | Surrey | Surrey | £30000 per year | Lettings Administrator
+job_id: 1889841
+---
+
 ## SURREY — POSSIBLES
 
 _No jobs in this group._
@@ -1067,6 +1125,12 @@ job_id: 1817573
 action:
 SELECTED | Kent | Kent | £30000 - £35000 per year | Mortgage Administrators required top London Brokerage REMOTE / RARE
 job_id: 1869807
+---
+
+---
+action:
+SELECTED | Kent | Kent |  | Quality & Customer Support Coordinator
+job_id: 1831356
 ---
 
 ---
@@ -1137,8 +1201,8 @@ job_id: 1896302
 
 ---
 action:
-SELECTED | Kent | Kent |  | Shipping / Logistic Coordinator
-job_id: 108011495
+SELECTED | Kent | Kent |  | Sales Administrator
+job_id: 1889334
 ---
 
 ## KENT — POSSIBLES
@@ -1263,8 +1327,14 @@ job_id: 108005260
 
 ---
 action:
-SELECTED | Sussex | Sussex |  | Field Care Coordinator
-job_id: 108004074
+SELECTED | Sussex | Sussex | £35000 per year | Onboarding, Security Vetting & PMO Coordinator
+job_id: 107996029
+---
+
+---
+action:
+SELECTED | Sussex | Sussex |  | Part Time Accounts Assistant
+job_id: 1881796
 ---
 
 ## SUSSEX — POSSIBLES
@@ -1372,6 +1442,12 @@ job_id: 1906045
 action:
 SELECTED | West Midlands - Coventry & Warwickshire | Warwickshire | £12.71 per hour | Finance Assistant
 job_id: 1895750
+---
+
+---
+action:
+SELECTED | West Midlands - Coventry & Warwickshire | Warwickshire | £13.45 per hour | Accounts Administrator
+job_id: 1881935
 ---
 
 ## COVENTRY & WARWICKSHIRE — POSSIBLES
@@ -1531,20 +1607,8 @@ job_id: 1907662
 
 ---
 action:
-SELECTED | Bristol & Bath | Bristol | £30000 per year | Recruitment Administrator
-job_id: 1956062
----
-
----
-action:
 SELECTED | Bristol & Bath | Bristol |  | Technical Claims Handler
 job_id: 1960385
----
-
----
-action:
-SELECTED | Bristol & Bath | Bristol |  | Litigated EL/PL Claims Handler
-job_id: 1959674
 ---
 
 ---
@@ -1569,12 +1633,6 @@ job_id: 1935128
 action:
 SELECTED | Bristol & Bath | Bath | £15 - £18 per hour | Temp HR Administrator - initial 8 week project
 job_id: 1928936
----
-
----
-action:
-SELECTED | Bristol & Bath | Bristol |  | HR Administrator
-job_id: 1907502
 ---
 
 ---
@@ -1605,6 +1663,12 @@ job_id: 1899302
 action:
 SELECTED | Bristol & Bath | Bristol | £25,000 per annum | Administrative Assistant
 job_id: 1982356
+---
+
+---
+action:
+SELECTED | Bristol & Bath | Bristol | £29741 per year | Service Advisor
+job_id: 1884559
 ---
 
 ## BRISTOL & BATH — POSSIBLES
@@ -1683,6 +1747,12 @@ job_id: 1905959
 action:
 SELECTED | Buckinghamshire | Buckinghamshire |  | Completions Support Administrator
 job_id: 1899364
+---
+
+---
+action:
+SELECTED | Buckinghamshire | Buckinghamshire |  | Customer Service Advisor - Property Management
+job_id: 1987458
 ---
 
 ## BUCKINGHAMSHIRE — POSSIBLES
@@ -1797,6 +1867,12 @@ job_id: 1939236
 action:
 SELECTED | Cambridgeshire | Cambridge |  | Patent Administrator
 job_id: 1892204
+---
+
+---
+action:
+SELECTED | Cambridgeshire | Cambridge |  | Events Coordinator
+job_id: 1882412
 ---
 
 ## CAMBRIDGESHIRE — POSSIBLES
@@ -2099,6 +2175,12 @@ SELECTED | Cheshire - West | Northwich |  | Casualty Claims Handler
 job_id: 1906600
 ---
 
+---
+action:
+SELECTED | Cheshire - West | Chester |  | Accounts Assistant
+job_id: 1882175
+---
+
 ## CHESHIRE - WEST — POSSIBLES
 
 _No jobs in this group._
@@ -2139,6 +2221,18 @@ job_id: 23643_225564557
 action:
 SELECTED | Derbyshire | Derbyshire |  | Marketing Coordinator
 job_id: 1940932
+---
+
+---
+action:
+SELECTED | Derbyshire | Derbyshire |  | HR Administrator
+job_id: 1881520
+---
+
+---
+action:
+SELECTED | Derbyshire | Derbyshire |  | Conveyancing Administrator
+job_id: 1882118
 ---
 
 ## DERBYSHIRE — POSSIBLES
@@ -2217,12 +2311,6 @@ job_id: 1945151
 action:
 SELECTED | Devon | Devon | £30000 - £32000 per year | Finance Assistant
 job_id: 1949612
----
-
----
-action:
-SELECTED | Devon | Devon |  | Recruitment Account Co-ordinator
-job_id: 107953534
 ---
 
 ---
@@ -2319,12 +2407,6 @@ job_id: 1957010
 action:
 SELECTED | Dorset | Dorset | £12000 per year | Activities Coordinator
 job_id: 107992811
----
-
----
-action:
-SELECTED | Dorset | Dorset | £26000 per year | Placement Coordinator - Construction
-job_id: 107989969
 ---
 
 ## DORSET — POSSIBLES
@@ -2471,6 +2553,24 @@ SELECTED | Essex | Essex |  | Accounts Receivable Administrator
 job_id: 1896753
 ---
 
+---
+action:
+SELECTED | Essex | Essex |  | Property Inspector Administrator
+job_id: 1977124
+---
+
+---
+action:
+SELECTED | Essex | Essex |  | Technical Motor Claims Handler
+job_id: 1889522
+---
+
+---
+action:
+SELECTED | Essex | Essex |  | Finance Assistant
+job_id: 1882194
+---
+
 ## ESSEX — POSSIBLES
 
 _No jobs in this group._
@@ -2535,6 +2635,12 @@ job_id: 1907558
 action:
 SELECTED | Gloucestershire | Gloucestershire | £27000 - £29000 per year | Insurance Administrator - Hybrid Working + Career Progression!
 job_id: 1906007
+---
+
+---
+action:
+SELECTED | Gloucestershire | Gloucestershire |  | HR Co-Ordinator
+job_id: 1881580
 ---
 
 ## GLOUCESTERSHIRE — POSSIBLES
@@ -2851,7 +2957,11 @@ job_id: 1905967
 
 ## HERTFORDSHIRE — POSSIBLES
 
-_No jobs in this group._
+---
+action:
+POSS - HERTFORDSHIRE | Hertfordshire | Hertfordshire | £32000 - £35000 per year | Finance Assistant
+job_id: 1856029
+---
 
 ## LEICESTERSHIRE — SELECTED
 
@@ -2901,6 +3011,18 @@ job_id: 1906598
 action:
 SELECTED | Leicestershire | Leicestershire | £40000 per year | Technical Hub Coordinator
 job_id: 108004550
+---
+
+---
+action:
+SELECTED | Leicestershire | Leicestershire |  | BMW Service Advisor
+job_id: 1885227
+---
+
+---
+action:
+SELECTED | Leicestershire | Leicestershire |  | Depot Coordinator
+job_id: 1882271
 ---
 
 ## LEICESTERSHIRE — POSSIBLES
@@ -3005,6 +3127,18 @@ SELECTED | Merseyside - Liverpool | Liverpool |  | Accounts Assistant / Bookkeep
 job_id: 1909830
 ---
 
+---
+action:
+SELECTED | Merseyside - Liverpool | Liverpool | £750 per month | Motor claims handler - Part time
+job_id: 1884509
+---
+
+---
+action:
+SELECTED | Merseyside - Liverpool | Liverpool |  | People Services Learning & Development Administrator
+job_id: 1882314
+---
+
 ## MERSEYSIDE - LIVERPOOL — POSSIBLES
 
 _No jobs in this group._
@@ -3095,6 +3229,12 @@ SELECTED | Norfolk | Norfolk |  | Temporary Purchase Ledger Administrator
 job_id: 1892604
 ---
 
+---
+action:
+SELECTED | Norfolk | Norfolk |  | Accounts Assistant
+job_id: 1881936
+---
+
 ## NORFOLK — POSSIBLES
 
 _No jobs in this group._
@@ -3173,12 +3313,6 @@ job_id: 1899022
 action:
 SELECTED | Northamptonshire | Northamptonshire | £26000 per year | Returns Administrator
 job_id: 107954199
----
-
----
-action:
-SELECTED | Northamptonshire | Northamptonshire |  | Casualty Claims Handler
-job_id: 107975373
 ---
 
 ---
@@ -3411,12 +3545,6 @@ job_id: 1933959
 
 ---
 action:
-SELECTED | Scotland Central - Edinburgh & Lothians | Edinburgh | £26000 per year | Russian Customer Service Advisor
-job_id: 107916313
----
-
----
-action:
 SELECTED | Scotland Central - Edinburgh & Lothians | Tranent | £14.00 - £17.00 per hour | HR Assistant
 job_id: 1950430
 ---
@@ -3639,8 +3767,8 @@ job_id: 1906611
 
 ---
 action:
-SELECTED | Scotland West - Glasgow | Glasgow | £12.71 per hour | Activities Coordinator
-job_id: 108007106
+SELECTED | Scotland West - Glasgow | Glasgow |  | Lettings Administrator
+job_id: 1962313
 ---
 
 ## SCOTLAND WEST - GLASGOW — POSSIBLES
@@ -3665,6 +3793,12 @@ job_id: 1928348
 action:
 SELECTED | Shropshire | Shropshire | £15 per hour | Accounts & Finance Coordinator
 job_id: 1894730
+---
+
+---
+action:
+SELECTED | Shropshire | Shropshire | £14.5 per hour | Temporary Admin Assistant
+job_id: 108013835
 ---
 
 ## SHROPSHIRE — POSSIBLES
@@ -3849,12 +3983,6 @@ job_id: 1938554
 
 ---
 action:
-SELECTED | Suffolk | Suffolk |  | Accounts Assistant
-job_id: 1956740
----
-
----
-action:
 SELECTED | Suffolk | Suffolk |  | Peripatetic Administrator
 job_id: 1939565
 ---
@@ -3881,6 +4009,12 @@ job_id: 1896011
 action:
 SELECTED | Suffolk | Suffolk |  | Traffic Planner
 job_id: 107865026
+---
+
+---
+action:
+SELECTED | Suffolk | Suffolk |  | Support Administrator
+job_id: 1881806
 ---
 
 ## SUFFOLK — POSSIBLES
@@ -4265,6 +4399,24 @@ job_id: 1905167
 action:
 SELECTED | Yorkshire - North | Whitby | £12.9 per hour | Lifestyle Co-ordinator
 job_id: 107871574
+---
+
+---
+action:
+SELECTED | Yorkshire - North | Bedale |  | Demand Planner
+job_id: 107953544
+---
+
+---
+action:
+SELECTED | Yorkshire - North | Bedale |  | Demand Planner
+job_id: 1888842
+---
+
+---
+action:
+SELECTED | Yorkshire - North | Scarborough |  | Client Services Administrator
+job_id: 1882087
 ---
 
 ## YORKSHIRE - NORTH — POSSIBLES

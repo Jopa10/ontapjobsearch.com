@@ -1,4 +1,6 @@
 ﻿feed_date,decision,region,title,town,salary_text,manual_override,manual_select,job_id
+2026-09-22,SELECTED,Yorkshire - West,Night Support Worker,Leeds,£14.50 per hour,,,1986777
+2026-09-22,SELECTED,Yorkshire - West,Night Support Worker,Wetherby,£14.50 per hour,,,1986845
 2026-09-22,SELECTED,Yorkshire - South,Night Support Worker,Sheffield,£13.15 Per Hour,,,1938182
 2026-09-22,SELECTED,"North East - Tyneside, Wearside & Northumberland",Young People Support Worker,South Shields,"£26,436 per annum",,,1909446
 2026-09-22,SELECTED,"North East - Tyneside, Wearside & Northumberland",Care Home Support Worker - &;23p/h,Newcastle Upon Tyne,£23 per hour,,,1939256
@@ -27,6 +29,10 @@
 2026-09-22,SELECTED,Hampshire,Children's Homes Support Worker,Romsey,"£28697 - £31573 per year (), plus Market Supplement of £3,000 pro-rata, per annum)",,,1401785354
 2026-09-22,SELECTED,Hampshire,Female Support Worker,Tadley,£25437 per year,,,107989086
 2026-09-22,SELECTED,Hampshire,Specialist Care Support Worker Winchester,Winchester,£13.2 - £14.75 per hour,,,108004872
+2026-09-22,SELECTED,Hampshire,Support Worker,Tadley,"£25,845 per annum",,,635330054620761292837340
+2026-09-22,SELECTED,Hampshire,Male Support Worker,Southampton,"£25,845 per annum",,,455939784746781900837341
+2026-09-22,SELECTED,Hampshire,Male Support Worker,Fareham,"£25,845 per annum",,,455939784746781900837340
+2026-09-22,SELECTED,Hampshire,Female Support Worker,Petersfield,"£25,845 per year",,,801816236128835993637340
 2026-09-22,SELECTED,Kent,Care Support Worker,Sittingbourne,£14.43 per hour,,,1877396
 2026-09-22,SELECTED,Kent,Female Support Worker,Tunbridge Wells,"£25,845 per annum",,,117813832060606873637340
 2026-09-22,SELECTED,Kent,Waking Night Support Worker,Tunbridge Wells,"£25,845 per year",,,604850204165380505637340
@@ -37,6 +43,17 @@
 2026-09-22,SELECTED,Kent,Support Worker,Maidstone,"£25,845 per year",,,144292793348731699237341
 2026-09-22,SELECTED,Kent,Support Worker,Canterbury,"£25,845 per year",,,144292793348731699237340
 2026-09-22,SELECTED,Kent,Support Worker,Tonbridge,"£25,845 per year",,,8521015614033100837340
+2026-09-22,SELECTED,Kent,Bank Support Worker,Maidstone,£12.71 per hour,,,110063333364727808037341
+2026-09-22,SELECTED,Kent,Bank Support Worker,Tonbridge,£12.71 per hour,,,110063333364727808037340
+2026-09-22,SELECTED,Kent,Support Worker,Sevenoaks,"£25,845 per annum",,,791677969262601830437340
+2026-09-22,SELECTED,Kent,Support Worker,Birchington,"£25,845 per annum",,,551774207784203059237340
+2026-09-22,SELECTED,Kent,Night Support Worker,Maidstone,"£25,845 per annum",,,86461656567539302437341
+2026-09-22,SELECTED,Kent,Night Support Worker,Tonbridge,"£25,845 per annum",,,86461656567539302437340
+2026-09-22,SELECTED,Kent,Support Worker,Margate,"£25,845 per annum",,,297710935563304960037340
+2026-09-22,SELECTED,Kent,Female Support Worker,Tonbridge,"£25,845 per annum",,,651144990070040166437340
+2026-09-22,SELECTED,Kent,Female Support Worker - Waking Nights,Maidstone,"£25,845 per annum",,,484455508861989683237341
+2026-09-22,SELECTED,Kent,Female Support Worker - Waking Nights,Tunbridge Wells,"£25,845 per annum",,,484455508861989683237340
+2026-09-22,SELECTED,Kent,Children's Complex Care Support Worker,Cranbrook,£15 - £17 per hour,,,107962413
 2026-09-22,SELECTED,London,Learning Support Assistant,London,£95 - £110 per daily,,,1820000
 2026-09-22,SELECTED,London,Autism Support Worker,Bromley,£100 - £110 per daily,,,1815970
 2026-09-22,SELECTED,London,Learning Support Assistant,London,£85 - £100 per daily,,,1823089
@@ -45,10 +62,9 @@
 2026-09-22,SELECTED,London,Autism Support,London,£97 - £115 per daily,,,1839076
 2026-09-22,SELECTED,London,Autism Support Assistant,London,£97 - £115 per daily,,,1839075
 2026-09-22,SELECTED,London,Support Worker,London,"£29,713.46 per annum",,,1927514
-2026-09-22,SELECTED,London,Home Carer,Kingston Upon Thames,£14 per hour,,,107809919
-2026-09-22,SELECTED,London,Home Carer,Chessington,£14 per hour,,,107603867
 2026-09-22,SELECTED,London,Inclusion Support Worker,Barking,£31290 per year,,,1961315
 2026-09-22,SELECTED,London,Early Language & Communication Support Worker,Barking,£36693 per year,,,1961257
+2026-09-22,SELECTED,London,Support Worker,Enfield,£12.92-£13.23 per hour,,,1881515
 2026-09-22,SELECTED,Oxfordshire,Behaviour Support Assistant - Oxford,Oxford,£85 - £110 per daily,,,1819710
 2026-09-22,SELECTED,Oxfordshire,Home Carer,Oxfordshire,£14.4 per hour,,,107617602
 2026-09-22,SELECTED,Oxfordshire,Home Carer,Witney,£14.4 per hour,,,107626591
@@ -60,6 +76,5 @@
 2026-09-22,SELECTED,Surrey,Support Worker,Guildford,"£25,845 per annum",,,848325839117772390437341
 2026-09-22,SELECTED,Surrey,Female Support Worker,Chertsey,"£25,845 per annum",,,353568229070313881637340
 2026-09-22,SELECTED,Surrey,Support Worker,Addlestone,"£25,845 per year",,,470458959486622105637340
-2026-09-22,SELECTED,Wiltshire,Autism Support Assistant,Chippenham,£85 - £110 per daily,,,107869953
 2026-09-22,SELECTED,Wiltshire,Pastoral Support Worker,Trowbridge,£85 - £110 per daily,,,1881025
-2026-09-22,SELECTED,Wiltshire,Support Worker Waking Nights,Warminster,£15.5 per hour ((DOE)),,,107978779
+2026-09-22,SELECTED,Wiltshire,Autism Support Assistant,Chippenham,£85 - £110 per daily,,,107869953
